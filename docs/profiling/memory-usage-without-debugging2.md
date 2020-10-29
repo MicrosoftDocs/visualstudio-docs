@@ -1,5 +1,5 @@
 ---
-title: Analyze memory usage without debugging | Microsoft Docs
+title: Analyze memory usage in the Performance Profiler
 ms.custom: 
 ms.date: 04/02/2020
 ms.topic: how-to
@@ -14,11 +14,11 @@ manager: jillfra
 ms.workload: 
   - multiple
 ---
-# Analyze memory usage without the debugger
+# Analyze memory usage without debugging in the Performance Profiler
 
-The **Memory Usage** tool monitors your app's memory use. You can use the tool to study the real-time memory effects of scenarios you're actively developing in Visual Studio. You can take detailed snapshots of the app's memory states, and compare snapshots to find the root causes of memory issues.
+The **Memory Usage** tool monitors your app's memory use. You can use the tool to study the real-time memory effects of scenarios you're actively developing in Visual Studio. You can take detailed snapshots of the app's memory states, and compare snapshots to find the root causes of memory issues. The Memory Usage tool is supported on .NET, ASP.NET, C++, or mixed mode (.NET and native) apps.
 
-The **Memory Usage** tool can run [with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md). In this article, we show how to use the **Memory Usage** tool without the debugger in the Visual Studio **Performance Profiler**.
+The Memory Usage tool can run [with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md). In this article, we show how to use the Memory Usage tool without the debugger in the Visual Studio **Performance Profiler**, which is recommended for release builds.
 
 ## Memory Usage diagnostic sessions
 
@@ -26,7 +26,7 @@ The **Memory Usage** tool can run [with or without the debugger](../profiling/ru
 
 1. Open a project in Visual Studio.
 
-   The Memory Usage tool supports .NET, ASP.NET, native, or mixed mode (.NET and native) apps.
+   The Memory Usage tool supports .NET, ASP.NET, C++, or mixed mode (.NET and native) apps.
 
 1. In the Debug menu, set the solution configuration to **Release** and select **Local Windows Debugger** (or **Local Machine**) as the deployment target.
 

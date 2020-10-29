@@ -1,5 +1,6 @@
 ---
-title: Use Microsoft.VisualStudio.TestTools.UnitTesting in unit tests
+title: Use MSTest in unit tests
+ms.custom: SEO-VS-2020
 ms.date: 03/02/2018
 ms.topic: reference
 ms.author: mikejo

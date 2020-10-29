@@ -1,5 +1,7 @@
 ---
 title: Building and Cleaning Projects and Solutions
+description: Learn how you can build, rebuild, or clean all or some of the projects or project items in a solution.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.technology: vs-ide-compile
 ms.topic: conceptual

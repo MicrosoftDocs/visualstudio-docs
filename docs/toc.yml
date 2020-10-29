@@ -178,6 +178,8 @@
     href: ide/index-writing-code.yml
   - name: Move around in the IDE
     href: ide/how-to-move-around-in-the-visual-studio-ide.md
+  - name: Use Visual Studio Search
+    href: ide/visual-studio-search.md
   - name: Solutions and projects
     items:
     - name: Work with solutions and projects
@@ -260,9 +262,21 @@
     - name: Customize build and debug tasks
       displayName: makefile tasks.vs.json
       href: ide/customize-build-and-debug-tasks-in-visual-studio.md
+  - name: Develop with Codespaces (Preview)
+    items:
+    - name: Overview
+      href: ide/codespaces/codespaces-overview.md
+    - name: Use Visual Studio with a codespace
+      href: ide/codespaces/use-visual-studio-with-codespaces.md
+    - name: Customize a codespace
+      href: ide/codespaces/customize-codespaces.md
+    - name: Supported Visual Studio features
+      href: ide/codespaces/supported-features-codespaces.md
   - name: Connect to a project or repo
     displayName: Azure DevOps VSTS GitHub
     href: ide/connect-team-project.md
+  - name: New Git experience in Visual Studio (Preview)
+    href: ide/git-with-visual-studio.md
   - name: Editor
     items:
     - name: Use the editor
@@ -505,22 +519,14 @@
     - name: Code style
       items:
       - name: Code style preferences
-        href: /visualstudio/ide/code-styles-and-code-cleanup
+        href: ./ide/code-styles-and-code-cleanup.md
       - name: Use EditorConfig files for code style
         displayName: Configure code style analyzers
         href: ide/create-portable-custom-editor-options.md
       - name: C++ EditorConfig formatting conventions
         href: ide/cpp-editorconfig-properties.md
-      - name: .NET coding conventions
-        items:
-        - name: Overview
-          href: ide/editorconfig-code-style-settings-reference.md
-        - name: Language conventions
-          href: ide/editorconfig-language-conventions.md
-        - name: Formatting conventions
-          href: ide/editorconfig-formatting-conventions.md
-        - name: Naming conventions
-          href: ide/editorconfig-naming-conventions.md
+      - name: .NET coding conventions >>
+        href: /dotnet/fundamentals/code-analysis/code-style-rule-options
     - name: Customize the scroll bar
       href: ide/how-to-track-your-code-by-customizing-the-scrollbar.md
     - name: Set bookmarks in code
@@ -874,7 +880,7 @@
     href: msbuild/msbuild.md
   - name: Azure Pipelines and TFS >>
     displayName: VSTS Azure DevOps CI/CD Continuous integration delivery
-    href: /azure/devops/pipelines/index?view=vsts
+    href: /azure/devops/pipelines/index?view=vsts&preserve-view=true
   - name: Specify build events (Visual Basic)
     href: ide/how-to-specify-build-events-visual-basic.md
   - name: Specify build events (C#)

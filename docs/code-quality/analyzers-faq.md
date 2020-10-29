@@ -18,7 +18,7 @@ This page contains answers to some frequently asked questions about .NET Compile
 
 **Q**: Should I use code analysis or EditorConfig for checking code style?
 
-**A**: Code analysis and EditorConfig files work hand-in-hand. When you define code styles [in an EditorConfig file](../ide/editorconfig-code-style-settings-reference.md) or on the [text editor Options](../ide/code-styles-and-code-cleanup.md) page, you're actually configuring the code analyzers that are built into Visual Studio. EditorConfig files can be used to enable or disable analyzer rules, and also to configure NuGet analyzer packages.
+**A**: Code analysis and EditorConfig files work hand-in-hand. When you define code styles [in an EditorConfig file](/dotnet/fundamentals/code-analysis/code-style-rule-options) or on the [text editor Options](../ide/code-styles-and-code-cleanup.md) page, you're actually configuring the code analyzers that are built into Visual Studio. EditorConfig files can be used to enable or disable analyzer rules, and also to configure NuGet analyzer packages.
 
 ## EditorConfig versus rule sets
 
@@ -28,8 +28,8 @@ This page contains answers to some frequently asked questions about .NET Compile
 
 However, EditorConfig files offer additional ways to configure rules too:
 
-- For the .NET code-quality analyzers, EditorConfig files let you [define which types of code to analyze](fxcop-analyzer-options.md).
-- For the .NET code-style analyzers that are built into Visual Studio, EditorConfig files let you [define the preferred code styles](../ide/editorconfig-code-style-settings-reference.md) for a codebase.
+- For the .NET code-quality analyzers, EditorConfig files let you [define which types of code to analyze](/dotnet/fundamentals/code-analysis/code-quality-rule-options).
+- For the .NET code-style analyzers that are built into Visual Studio, EditorConfig files let you [define the preferred code styles](/dotnet/fundamentals/code-analysis/code-style-rule-options) for a codebase.
 
 In addition to rule sets and EditorConfig files, some analyzers are configured through the use of text files marked as [additional files](../ide/build-actions.md#build-action-values) for the C# and VB compilers.
 
@@ -91,4 +91,4 @@ In addition to rule sets and EditorConfig files, some analyzers are configured t
 ## See also
 
 - [Analyzers overview](roslyn-analyzers-overview.md)
-- [.NET coding convention settings for EditorConfig](../ide/editorconfig-code-style-settings-reference.md)
+- [.NET coding convention settings for EditorConfig](/dotnet/fundamentals/code-analysis/code-style-rule-options)

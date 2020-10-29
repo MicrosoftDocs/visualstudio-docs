@@ -1,5 +1,5 @@
 ---
-title: How to - Debug .NET Framework source | Microsoft Docs
+title: Debug .NET Framework source | Microsoft Docs
 ms.date: 11/19/2018
 ms.topic: how-to
 helpviewer_keywords: 

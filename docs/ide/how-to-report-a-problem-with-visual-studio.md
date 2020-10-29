@@ -47,12 +47,12 @@ Alternatively, report a problem in **Visual Studio Installer** if you can't inst
 
     You can even crop the screenshot directly in the browser to remove any sensitive or unrelated parts.
 
-4. One of the best ways to help the Visual Studio engineering team solve the problem, is to provide a trace and heap dump files for them to look through. You can easily do that by recording the steps that resulted in the bug. 
+4. One of the best ways to help the Visual Studio engineering team solve the problem, is to provide a trace and heap dump files for them to look through. You can easily do that by recording the steps that resulted in the bug.
 
     ![Record your actions](../ide/media/feedback-recording.png)
     *Only Microsoft engineers can see the recording*
 
-5. Review the attached files and upload additional files if you believe it would help diagnose the issue.   
+5. Review the attached files and upload additional files if you believe it would help diagnose the issue.
 
     ![Attached files](../ide/media/feedback-attachments.png)
     *Only Microsoft engineers can see the attached files*
@@ -85,7 +85,7 @@ If you don't have a problem to report but want to suggest a feature, there's a p
 
 ## See also
 
-* [Developer Community Guidelines](https://docs.microsoft.com/visualstudio/ide/developer-community-guidelines)
+* [Developer Community Guidelines](./developer-community-guidelines.md)
 * [Visual Studio feedback options](../ide/feedback-options.md)
 * [Report a problem with Visual Studio for Mac](/visualstudio/mac/report-a-problem)
 * [Report a problem with C++](/cpp/how-to-report-a-problem-with-the-visual-cpp-toolset)

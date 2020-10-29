@@ -1,5 +1,5 @@
 ---
-title: Code quality analysis
+title: Analyzer configuration
 ms.date: 09/02/2020
 ms.topic: conceptual
 helpviewer_keywords:
@@ -12,11 +12,9 @@ manager: jillfra
 ms.workload:
 - dotnet
 ---
-# Configure code quality analysis
+# Overview
 
-Starting in .NET 5.0, code quality analyzers are included with the .NET SDK. (Previously, you installed these analyzers as a NuGet package.) Code analysis is enabled, by default, for projects that target .NET 5.0 or later. You can enable code analysis on projects that target earlier .NET versions by setting the [EnableNETAnalyzers](/dotnet/core/project-sdk/msbuild-props#enablenetanalyzers) property to `true`. You can also disable code analysis for your project by setting `EnableNETAnalyzers` to `false`.
-
-Each code quality analyzer *diagnostic* or rule has a default severity and suppression state that can be overwritten and customized for your project. This article covers setting code quality analyzer severities and suppressing analyzer violations.
+Each Roslyn analyzer *diagnostic* or rule has a default severity and suppression state that can be overwritten and customized for your project. This article covers setting analyzer severities and suppressing analyzer violations.
 
 ## Configure severity levels
 
@@ -98,7 +96,7 @@ If you have multiple entries that are applicable to a specific rule ID, the foll
 - Severity entry for an individual rule by ID takes precedence over severity entry for a category.
 - Severity entry for a category takes precedence over severity entry for all analyzer rules.
 
-Consider the following EditorConfig example, where [CA1822](./ca1822.md) has the category "Performance":
+Consider the following EditorConfig example, where [CA1822](/dotnet/fundamentals/code-analysis/quality-rules/ca1822) has the category "Performance":
 
    ```ini
    [*.cs]
@@ -113,7 +111,7 @@ In the preceding example, all three entries are applicable to CA1822. However, u
 
 1. If you don't already have an EditorConfig file for your project, [add one](../ide/create-portable-custom-editor-options.md#add-an-editorconfig-file-to-a-project).
 
-2. Add an entry for each rule you want to configure under the corresponding file extension. For example, to set the severity for [CA1822](ca1822.md) to `error` for C# files, the entry looks as follows:
+2. Add an entry for each rule you want to configure under the corresponding file extension. For example, to set the severity for [CA1822](/dotnet/fundamentals/code-analysis/quality-rules/ca1822) to `error` for C# files, the entry looks as follows:
 
    ```ini
    [*.cs]
@@ -121,7 +119,7 @@ In the preceding example, all three entries are applicable to CA1822. However, u
    ```
 
 > [!NOTE]
-> For IDE code-style analyzers, you can also configure them in an EditorConfig file using a different syntax, for example, `dotnet_style_qualification_for_field = false:suggestion`. However, if you set a severity using the `dotnet_diagnostic` syntax, it takes precedence. For more information, see [Language conventions for EditorConfig](../ide/editorconfig-language-conventions.md).
+> For IDE code-style analyzers, you can also configure them in an EditorConfig file using a different syntax, for example, `dotnet_style_qualification_for_field = false:suggestion`. However, if you set a severity using the `dotnet_diagnostic` syntax, it takes precedence. For more information, see [Language conventions for EditorConfig](/dotnet/fundamentals/code-analysis/style-rules/language-rules).
 
 ### Set rule severity from the light bulb menu
 

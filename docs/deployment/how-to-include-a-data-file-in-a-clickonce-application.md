@@ -1,5 +1,6 @@
 ---
-title: How to - Include a Data File in a ClickOnce Application | Microsoft Docs
+title: Include a data file in a ClickOnce app
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 

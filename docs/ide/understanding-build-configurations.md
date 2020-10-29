@@ -1,5 +1,7 @@
 ---
 title: Understand build configurations
+description: Learn how you need build configurations when you need to build your projects with different settings in Visual Studio.
+ms.custom: SEO-VS-2020
 ms.date: 01/20/2020
 ms.technology: vs-ide-compile
 ms.topic: conceptual

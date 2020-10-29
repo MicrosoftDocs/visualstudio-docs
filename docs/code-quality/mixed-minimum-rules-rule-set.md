@@ -147,7 +147,7 @@ Include this rule set in any custom rule set you create for your C++ projects th
 |[C28305](/cpp/code-quality/c28305)|An error while parsing a token was discovered.|
 |[C28350](/cpp/code-quality/c28350)|The annotation describes a situation that is not conditionally applicable.|
 |[C28351](/cpp/code-quality/c28351)|The annotation describes where a dynamic value (a variable) cannot be used in the condition.|
-|[CA1001](../code-quality/ca1001.md)|Types that own disposable fields should be disposable|
-|[CA1821](../code-quality/ca1821.md)|Remove empty finalizers|
-|[CA2213](../code-quality/ca2213.md)|Disposable fields should be disposed|
-|[CA2231](../code-quality/ca2231.md)|Overload operator equals on overriding ValueType.Equals|
+|[CA1001](/dotnet/fundamentals/code-analysis/quality-rules/ca1001)|Types that own disposable fields should be disposable|
+|[CA1821](/dotnet/fundamentals/code-analysis/quality-rules/ca1821)|Remove empty finalizers|
+|[CA2213](/dotnet/fundamentals/code-analysis/quality-rules/ca2213)|Disposable fields should be disposed|
+|[CA2231](/dotnet/fundamentals/code-analysis/quality-rules/ca2231)|Overload operator equals on overriding ValueType.Equals|

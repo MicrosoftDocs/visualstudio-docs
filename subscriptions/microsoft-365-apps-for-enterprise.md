@@ -73,14 +73,14 @@ Not sure which subscription you're using?  Connect to [https://my.visualstudio.c
 - Have a question about Visual Studio IDE, Azure DevOps or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).
 
 ## See also
-- [Visual Studio documentation](https://docs.microsoft.com/visualstudio/)
-- [Azure DevOps documentation](https://docs.microsoft.com/azure/devops/)
-- [Azure documentation](https://docs.microsoft.com/azure/)
-- [Microsoft 365 documentation](https://docs.microsoft.com/microsoft-365/)
+- [Visual Studio documentation](/visualstudio/)
+- [Azure DevOps documentation](/azure/devops/)
+- [Azure documentation](/azure/)
+- [Microsoft 365 documentation](/microsoft-365/)
 
 ## Next steps
 Be sure to activate these great benefits to make the most of your Visual Studio subscription:
 - [Visual Studio](vs-ide-benefit.md)
 - [Azure DevOps](vs-azure-devops.md)
 - [Azure DevTest individual credit](vs-azure.md)
-If you're planning to develop applications for Office, you'll want to activate your [Office Developer Subscription](vs-office-dev.md)
+If you're planning to develop applications for Office, you'll want to activate your [Office Developer Subscription](./vs-m365.md)

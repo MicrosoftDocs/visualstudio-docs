@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: 6866dfab-c4fa-428e-bb0d-7b202c81f770
-ms.date: 09/03/2020
+ms.date: 10/28/2020
 ms.topic: conceptual
 description:  Learn how partners manage Visual Studio subscriptions for their customers.
 ---
@@ -14,8 +14,8 @@ To manage subscriptions in the Visual Studio [Subscriptions Administration Porta
 
 The process will be:
 - Partners will place a new order on behalf of a customer, entering the customer’s business email address.
-- The customer will receive a notification inviting them to assign administrators and access their subscriptions in the [Visual Studio Subscriptions Administration Portal](https://manage.visualstudio.com).
-- For partners to manage subscriptions on behalf of customers, they will need to register on the administration portal. The various ways to access gain access are listed below (similar to the add-open process).
+- The customer will receive a notification inviting them to assign admins and access their subscriptions in the [Visual Studio Subscriptions Administration Portal](https://manage.visualstudio.com).
+- For partners to manage subscriptions on behalf of customers, they will need to register on the admin portal. The various ways to access gain access are listed below (similar to the add-open process).
 
 ## New partners visiting the Visual Studio Subscriptions Administration Portal directly
 This scenario applies to new partners, who have already placed new Open License orders, but who haven’t registered on the [VLSC](https://www.microsoft.com/Licensing/servicecenter/default.aspx) and go directly to the [Visual Studio Subscriptions Administration Portal](https://manage.visualstudio.com).  Follow these steps:
@@ -60,10 +60,10 @@ Steps for partners to add a new license:
 - [Volume Licensing Terms](https://www.microsoft.com/licensing/product-licensing/products.aspx)
 
 ## See also
-- [Visual Studio documentation](https://docs.microsoft.com/visualstudio/)
-- [Azure DevOps documentation](https://docs.microsoft.com/azure/devops/)
-- [Azure documentation](https://docs.microsoft.com/azure/)
-- [Microsoft 365 documentation](https://docs.microsoft.com/microsoft-365/)
+- [Visual Studio documentation](/visualstudio/)
+- [Azure DevOps documentation](/azure/devops/)
+- [Azure documentation](/azure/)
+- [Microsoft 365 documentation](/microsoft-365/)
 
 ## Next steps
 - Visit the Visual Studio [Subscriptions Administration Portal](https://manage.visualstudio.com) to manage subscriptions.

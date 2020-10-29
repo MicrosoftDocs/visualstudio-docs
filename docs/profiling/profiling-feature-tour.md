@@ -56,8 +56,8 @@ For more information on using the CPU Usage or Memory usage tool in the Performa
 Tools available in the Performance Profiler include:
 
 - [CPU usage](../profiling/cpu-usage.md)
-- [Memory usage for .NET code](../profiling/dotnet-alloc-tool.md)
-- [Memory usage](#analyze-memory-usage)
+- [.NET object allocation](../profiling/dotnet-alloc-tool.md)
+- [Memory usage](../profiling/memory-usage-without-debugging2.md)
 - [.NET async tool](../profiling/analyze-async.md)
 - [Database tool](../profiling/analyze-database.md)
 - [GPU usage](../profiling/gpu-usage.md)
@@ -101,9 +101,14 @@ Double-click on a function that you are interested in, and you will see a more d
 
 ## Analyze memory usage
 
-The **Diagnostic Tools** window also allows you to evaluate memory usage in your app using the **Memory Usage** tool. For example, you can look at the number and size of objects on the heap. You can use the [debugger-integrated Memory Usage tool](../profiling/memory-usage.md) or the post-mortem Memory Usage tool in the [Performance Profiler](#post_mortem). Another memory analysis tool, the [.NET Object Allocation tool](../profiling/dotnet-alloc-tool.md), helps you identify allocation patterns and anomalies in your .NET code.
+The **Diagnostic Tools** window also allows you to evaluate memory usage in your app using the **Memory Usage** tool. For example, you can look at the number and size of objects on the heap. You can use the [debugger-integrated Memory Usage tool](../profiling/memory-usage.md) or the [post-mortem Memory Usage tool](../profiling/memory-usage-without-debugging2.md) in the Performance Profiler.
 
-To analyze memory usage, you need to take at least one memory snapshot. Often, the best way to analyze memory is to take two snapshots; the first right before a suspected memory issue, and the second snapshot right after a suspected memory issue occurs. Then you can view a diff of the two snapshots and see exactly what changed. The following illustration shows taking a snapshot with the debugger-integrated tool.
+.NET developers may choose between either the [.NET Object Allocation tool](../profiling/dotnet-alloc-tool.md) or the [Memory usage](../profiling/memory-usage.md) tool.
+
+- The **.NET Object Allocation** tool helps you identify allocation patterns and anomalies in your .NET code, and helps identify common issues with garbage collection. This tool runs only as a post-mortem tool. You can run this tool on local or remote machines.
+- The **Memory usage** tool is helpful in identifying memory leaks, which are not typically common in .NET apps. If you need to use debugger features while checking memory, such as stepping through code, the [debugger-integrated Memory usage](../profiling/beginners-guide-to-performance-profiling.md) tool is recommended.
+
+To analyze memory usage with the **Memory Usage** tool, you need to take at least one memory snapshot. Often, the best way to analyze memory is to take two snapshots; the first right before a suspected memory issue, and the second snapshot right after a suspected memory issue occurs. Then you can view a diff of the two snapshots and see exactly what changed. The following illustration shows taking a snapshot with the debugger-integrated tool.
 
 ![Take a snapshot in the Diagnostic Tools](../profiling/media/prof-tour-take-snapshots.gif "Diagnostic Tools Take Snapshots")
 
@@ -163,7 +168,7 @@ In your UWP apps, you can enable **UI Analysis** in the **Diagnostic Tools** win
 
 In Direct3D apps (Direct3D components must be in C++), you can examine activity on the GPU and analyze performance issues. For more information, see [GPU Usage](./gpu-usage.md). To use the tool, choose **GPU Usage** in the Performance Profiler, and then choose **Start**. In your app, go through the scenario that you're interested in profiling, and then choose **Stop collection** to generate a report.
 
-When you select a time period in the graphs and choose **view details**, a detailed view appears in the lower pane. In the detailed view, you can examine how much activity is happening on each CPU and GPU. Select events in the lowest pane to get popups in the timeline. For example, select the **Present** event to view **Present** call popups. (The light gray vertical Vsync lines can be used as a reference to understand whether certain **Present** calls missed Vsync. There must be one **Present** call between every two Vsyncs in order for the app to steadily hit 60 FPS.)
+When you select a time period in the graphs and choose **view details**, a detailed view appears in the lower pane. In the detailed view, you can examine how much activity is happening on each CPU and GPU. Select events in the lowest pane to get popups in the timeline. For example, select the **Present** event to view **Present** call popups. (The light gray vertical VSync lines can be used as a reference to understand whether certain **Present** calls missed VSync. There must be one **Present** call between every two VSyncs in order for the app to steadily hit 60 FPS.)
 
 ![GPU Usage profiling tool](../profiling/media/prof-tour-gpu-usage.png "Diag GPU Usage")
 
@@ -220,7 +225,7 @@ Here is a table that lists the different tools Visual Studio offers and the diff
 |[CPU Usage](../profiling/beginners-guide-to-performance-profiling.md)|yes|yes|yes|
 |[Memory Usage](../profiling/memory-usage.md)|yes|yes|yes|
 |[.NET Object Allocation](../profiling/dotnet-alloc-tool.md)|yes (.NET only)|yes|yes|
-|[GPU Usage](/visualstudio/debugger/graphics/gpu-usage)|yes|yes|no|
+|[GPU Usage](./gpu-usage.md)|yes|yes|no|
 |[Application Timeline](../profiling/application-timeline.md)|yes (XAML)|yes|no|
 |[Events viewer](../profiling/events-viewer.md)|yes|yes|yes|
 |[.NET Async](../profiling/analyze-async.md)|yes (.NET only)|yes|yes|
@@ -234,7 +239,7 @@ Here is a table that lists the different tools Visual Studio offers and the diff
 |----------------------|---------------------|-------------|-------------|
 |[CPU Usage](../profiling/beginners-guide-to-performance-profiling.md)|yes|yes|yes|
 |[Memory Usage](../profiling/memory-usage.md)|yes|yes|yes|
-|[GPU Usage](/visualstudio/debugger/graphics/gpu-usage)|yes|yes|no|
+|[GPU Usage](./gpu-usage.md)|yes|yes|no|
 |[Application Timeline](../profiling/application-timeline.md)|yes (XAML)|yes|no|
 |[PerfTips](../profiling/perftips.md)|yes|yes for XAML, no for HTML|yes|
 |[Performance Explorer](../profiling/performance-explorer.md)|yes|no|yes|

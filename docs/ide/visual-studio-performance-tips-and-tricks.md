@@ -57,7 +57,7 @@ If you are typically running low on memory during debugging sessions, you can op
 
     Set the options to **Only specified modules** instead of **All modules** and then specify which modules you care to load. While debugging, you can also right-click specific modules in the **Modules** window to explicitly include a module in the symbol load. (To open the window while debugging, choose **Debug** > **Windows** > **Modules**.)
 
-    For more information, see [Understand symbol files](/visualstudio/ide/visual-studio-performance-tips-and-tricks?view=vs-2019).
+    For more information, see [Understand symbol files](?view=vs-2019&preserve-view=true).
 
 - **Disable Diagnostic Tools**
 

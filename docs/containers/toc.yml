@@ -46,11 +46,9 @@
       href: container-launch-settings.md
 - name: Develop with Kubernetes
   items:
-    - name: Kubernetes in Visual Studio
-      href: tutorial-kubernetes-tools.md
-    - name: Local Process with Kubernetes (Preview)
-      href: local-process-kubernetes.md
-    - name: How Local Process with Kubernetes works (Preview)
-      href: overview-local-process-kubernetes.md
-    - name: Configure Local Process with Kubernetes
-      href: configure-local-process-with-kubernetes.md
+    - name: Bridge to Kubernetes
+      href: bridge-to-kubernetes.md
+    - name: How Bridge to Kubernetes works
+      href: overview-bridge-to-kubernetes.md
+    - name: Configure Bridge to Kubernetes
+      href: configure-bridge-to-kubernetes.md

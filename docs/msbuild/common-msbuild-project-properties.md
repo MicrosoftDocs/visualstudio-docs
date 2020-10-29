@@ -1,5 +1,7 @@
 ---
 title: Common MSBuild Project Properties | Microsoft Docs
+description: Learn about common MSBuild project properties that can be defined or used in project files or included in .targets files that MSBuild provides.
+ms.custom: SEO-VS-2020
 ms.date: 01/18/2018
 ms.topic: reference
 dev_langs:

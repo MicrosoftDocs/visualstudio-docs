@@ -1,5 +1,6 @@
 ---
-title: Fix non-detectable dynamic parameters in web performance test
+title: Fix non-detectable dynamic parameters (web perf test)
+ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
 ms.topic: how-to
 helpviewer_keywords: 

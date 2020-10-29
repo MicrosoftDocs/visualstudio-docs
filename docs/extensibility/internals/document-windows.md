@@ -27,7 +27,7 @@ In Visual Studio, a *document window* is a framed child window that is associate
   For more information about window behavior in Visual Studio, see [Customize window layouts](../../ide/customizing-window-layouts-in-visual-studio.md).
 
 ## Document window implementation
- Document windows are created by implementing an editor. The <xref:Microsoft.VisualStudio.Shell.Interop.IVsEditorFactory> interface creates document windows as part of instantiating an editor. For more information, see [Legacy interfaces in the editor](../../vs-2015/extensibility/legacy-interfaces-in-the-editor.md?view=vs-2015).
+ Document windows are created by implementing an editor. The <xref:Microsoft.VisualStudio.Shell.Interop.IVsEditorFactory> interface creates document windows as part of instantiating an editor. For more information, see [Legacy interfaces in the editor](../../vs-2015/extensibility/legacy-interfaces-in-the-editor.md?view=vs-2015&preserve-view=true).
 
 > [!NOTE]
 > To provide backward and forward navigation points in a window, implement the <xref:Microsoft.VisualStudio.Shell.Interop.IVsBackForwardNavigation> interface. The text editor uses text markers to identify navigation points in the document.

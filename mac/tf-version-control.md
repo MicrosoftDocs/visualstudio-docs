@@ -19,7 +19,7 @@ ms.topic: troubleshooting
 
 For the best version control experience on macOS, we recommend using **Git** instead of Team Foundation Version Control (TFVC). 
 
-Git is supported in Visual Studio for Mac and is the default option for repositories hosted in Team Foundation Server (TFS)/Azure DevOps. To learn more about using Git with TFS/Azure DevOps, see the [Setting up a Git Repository](/visualstudio/mac/set-up-git-repository) guide.
+Git is supported in Visual Studio for Mac and is the default option for repositories hosted in Team Foundation Server (TFS)/Azure DevOps. To learn more about using Git with TFS/Azure DevOps, see the [Setting up a Git Repository](./set-up-git-repository.md) guide.
 
 ## Unsupported workarounds for TFVC
 

@@ -1,5 +1,5 @@
 ---
-title: How to - Limit Instrumentation to Specific DLLs | Microsoft Docs
+title: Limit Instrumentation to Specific DLLs | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords: 

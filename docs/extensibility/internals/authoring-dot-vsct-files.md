@@ -102,7 +102,7 @@ This document shows how to author a *.vsct* file to add menu items, toolbars, an
        > [!NOTE]
        > Toolbar buttons must have icons.
 
-   For more information, see [MenuCommands vs. OleMenuCommands](../../vs-2015/misc/menucommands-vs-olemenucommands.md?view=vs-2015).
+   For more information, see [MenuCommands vs. OleMenuCommands](../../vs-2015/misc/menucommands-vs-olemenucommands.md?view=vs-2015&preserve-view=true).
 
 4. If any of your commands require icons, add a [Bitmaps](../../extensibility/bitmaps-element.md) element to the `Commands` element. Then, for each icon, add a [Bitmap](../../extensibility/bitmap-element.md) element to the `Bitmaps` element. This is where you specify the location of the bitmap resource. For more information, see [Add icons to menu commands](../../extensibility/adding-icons-to-menu-commands.md).
 

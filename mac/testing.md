@@ -18,7 +18,7 @@ To get started with testing, you can create a new test project in your solution 
 ![New project dialog with Web and Console > Tests section selected, showing xUnit, MSTest, and NUnit projects](media/create-new-test-project.PNG)
 
 > [!NOTE]
-> For more information about unit testing your .NET Core applications and selecting unit test frameworks, see the [Unit testing in .NET Core and .NET Standard](https://docs.microsoft.com/dotnet/core/testing/?pivots=xunit) documentation.
+> For more information about unit testing your .NET Core applications and selecting unit test frameworks, see the [Unit testing in .NET Core and .NET Standard](/dotnet/core/testing/?pivots=xunit) documentation.
 
 ## Running tests
 The **Unit Tests** window is used to run unit tests and is opened using the **View > Pads > Unit Tests** menu. Unit tests in your solution are automatically discovered and shown in this window, where you can run all of the tests or a set of tests that you've selected.

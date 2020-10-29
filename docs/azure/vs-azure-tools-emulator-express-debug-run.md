@@ -1,5 +1,6 @@
 ---
-title: Emulator Express to run/debug Azure cloud service on local box
+title: Emulator Express to run/debug Azure cloud service locally
+ms.custom: SEO-VS-2020
 description: Using Emulator Express to run and debug a cloud service on a local machine
 author: mikejo5000
 manager: jillfra

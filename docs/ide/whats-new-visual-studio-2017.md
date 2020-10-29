@@ -98,7 +98,7 @@ To see a list of your extensions in Visual Studio, click  **Tools** > **Extensio
 
 The Roaming Extension Manager tracks all the extensions you install, but you can choose which ones you want to add to your Roaming list.
 
-![Visual Studio 2017 - Extensions and Updates dialog](media/vs2017ide-RoamingExtensionManager.png)
+![Visual Studio 2017 - Roaming Extensions Manager](media/vs2017ide-RoamingExtensionManager.png)
 
 When you use the Roaming Extension Manager, there are three icon types on your list:
 
@@ -125,7 +125,7 @@ For more information, see the [Introducing Live Unit Testing](../test/live-unit-
 
 Automated testing is a key part of any DevOps pipeline. It allows you to consistently and reliably test and release your solution on much shorter cycles. CI/CD (Continuous Integration and Continuous Delivery) flows can help make the process more efficient.
 
-For more information about automated tests, see the [CI/CD pipeline for automated tests in DevOps](https://blogs.msdn.microsoft.com/visualstudioalmrangers/2017/04/20/set-up-a-cicd-pipeline-to-run-automated-tests-efficiently/) blog post.
+For more information about automated tests, see the [CI/CD pipeline for automated tests in DevOps](/archive/blogs/visualstudioalmrangers/set-up-a-cicd-pipeline-to-run-automated-tests-efficiently) blog post.
 
 And, for more information about what's new in the [Continuous delivery tools for Visual Studio](https://marketplace.visualstudio.com/items?itemName=VSIDEDevOpsMSFT.ContinuousDeliveryToolsforVisualStudio) DevLabs extension, see the [Commit with confidence: Commit time code quality](https://devblogs.microsoft.com/visualstudio/committing-with-confidence-getting-code-quality-information-at-commit-time/) blog post.
 
@@ -216,7 +216,7 @@ For more information, see the [Use the new Exception Helper in Visual Studio](ht
 
 You can navigate and view snapshots by using the **Step Backward** and **Step Forward** buttons in the **Debug** toolbar. These buttons navigate the events that appear in the **Events** tab in the **Diagnostic Tools** window. Stepping backward or forward to an event automatically activates historical debugging on the selected event.
 
-![The New Exception Helper dialog in Visual Studio](../debugger/media/intellitrace-step-back-icons-description.png  "Step Backward and Forward buttons")
+![Example of IntelliTrace step-back  in Visual Studio](../debugger/media/intellitrace-step-back-icons-description.png  "Step Backward and Forward buttons")
 
 For more information, see the [View snapshots using IntelliTrace step-back](../debugger/view-historical-application-state.md) page.
 

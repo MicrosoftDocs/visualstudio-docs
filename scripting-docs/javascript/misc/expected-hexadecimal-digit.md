@@ -30,4 +30,4 @@ z = "\u1A5F";
     > If you want to use the literal text \u in a string, then use two backslashes - (\\\u) - one to escape the first backslash.  
   
 ## See also  
- [Data Types](../../javascript/data-types-javascript.md)
+ [Data Types](https://developer.mozilla.org/docs/Web/JavaScript/Data_structures)
