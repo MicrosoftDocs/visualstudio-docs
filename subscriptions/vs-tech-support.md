@@ -1,10 +1,10 @@
 ---
-title: Technical Support Benefit
+title: Technical Support benefit in Visual Studio subscriptions
 author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: 2e0fd8bb-8f20-487c-b350-b8fde405ea5e
-ms.date: 09/02/2020
+ms.date: 10/28/2020
 ms.topic: how-to
 description: Learn how to activate the technical support benefit included with your Visual Studio subscription.
 ---
