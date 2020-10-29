@@ -1,5 +1,6 @@
 ---
-title: Visual Studio support for the FIPS 140-2 approved mode of operation
+title: Visual Studio support for FIPS
+ms.custom: SEO-VS-2020
 ms.date: 04/14/2020
 ms.topic: conceptual
 author: TerryGLee
