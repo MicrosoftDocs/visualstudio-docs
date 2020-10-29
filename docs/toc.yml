@@ -178,6 +178,8 @@
     href: ide/index-writing-code.yml
   - name: Move around in the IDE
     href: ide/how-to-move-around-in-the-visual-studio-ide.md
+  - name: Use Visual Studio Search
+    href: ide/visual-studio-search.md
   - name: Solutions and projects
     items:
     - name: Work with solutions and projects
@@ -523,16 +525,8 @@
         href: ide/create-portable-custom-editor-options.md
       - name: C++ EditorConfig formatting conventions
         href: ide/cpp-editorconfig-properties.md
-      - name: .NET coding conventions
-        items:
-        - name: Overview
-          href: ide/editorconfig-code-style-settings-reference.md
-        - name: Language conventions
-          href: ide/editorconfig-language-conventions.md
-        - name: Formatting conventions
-          href: ide/editorconfig-formatting-conventions.md
-        - name: Naming conventions
-          href: ide/editorconfig-naming-conventions.md
+      - name: .NET coding conventions >>
+        href: /dotnet/fundamentals/code-analysis/code-style-rule-options
     - name: Customize the scroll bar
       href: ide/how-to-track-your-code-by-customizing-the-scrollbar.md
     - name: Set bookmarks in code
@@ -886,7 +880,7 @@
     href: msbuild/msbuild.md
   - name: Azure Pipelines and TFS >>
     displayName: VSTS Azure DevOps CI/CD Continuous integration delivery
-    href: /azure/devops/pipelines/index?view=vsts
+    href: /azure/devops/pipelines/index?view=vsts&preserve-view=true
   - name: Specify build events (Visual Basic)
     href: ide/how-to-specify-build-events-visual-basic.md
   - name: Specify build events (C#)

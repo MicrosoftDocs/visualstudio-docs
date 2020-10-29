@@ -9,8 +9,7 @@
         "exclude": [
           "**/obj/**",
           "vsdocsdocs/**",
-          "**/includes/**",
-          "missingapi.yml"
+          "**/includes/**"
         ],
         "src": "./vs-2015",
         "group": "vs-2015"
@@ -24,7 +23,6 @@
           "**/obj/**",
           "vsdocsdocs/**",
           "**/includes/**",
-          "missingapi.yml",
           "vs-2015/**"
         ],
         "src": "./",
@@ -42,8 +40,7 @@
         "exclude": [
           "**/obj/**",
           "vsdocsdocs/**",
-          "**/includes/**",
-          "missingapi.yml"
+          "**/includes/**"
         ],
         "src": "./vs-2015",
         "group": "vs-2015"
@@ -59,7 +56,6 @@
           "**/obj/**",
           "vsdocsdocs/**",
           "**/includes/**",
-          "missingapi.yml",
           "vs-2015/**"
         ],
         "src": "./",
@@ -156,9 +152,7 @@
     "template": [],
     "dest": "vsdocsdocs",
     "markdownEngineName": "markdig",
-    "xref": [
-      "missingapi.yml"
-    ],
+    "xref": [],
     "groups": {
       "vs-2015": {
         "dest": "vs-2015-dest",

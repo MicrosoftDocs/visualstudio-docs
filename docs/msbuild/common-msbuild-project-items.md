@@ -1,5 +1,7 @@
 ---
 title: Common MSBuild Project Items | Microsoft Docs
+description: Learn about common MSBuild project items. Items are named references to one or more files, and have metadata like file names, paths, and version numbers.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 dev_langs:
@@ -75,9 +77,15 @@ Represents a reference to another project. `ProjectReference` items are transfor
 |Item metadata name|Description|
 |---------------|-----------------|
 |Name|Optional string. The display name of the reference.|
+|GlobalPropertiesToRemove|Optional `string[]`. Names of properties to remove when building the referenced project, for example `RuntimeIdentifier;PackOnBuild`. Defaults to empty.|
 |Project|Optional string. A GUID for the reference, in the form {12345678-1234-1234-1234-1234567891234}.|
-|Package|Optional string. The path of the project file that is being referenced.|
+|OutputItemType|Optional string. Item type to emit target outputs into. Default is blank. If the Reference metadata is set to "true" (default) then target outputs will become references for the compiler.|
 |ReferenceOutputAssembly|Optional boolean. If set to `false`, does not include the output of the referenced project as a [Reference](#reference) of this project, but still ensures that the other project builds before this one. Defaults to `true`.|
+|SetConfiguration|Optional string. Sets the global property `Configuration` for the referenced project, for example `Configuration=Release`.|
+|SetPlatform|Optional string. Sets the global property `Platform` for the referenced project, for example `Platform=AnyCPU`.|
+|SetTargetFramework|Optional string. Sets the global property `TargetFramework` for the referenced project, for example `TargetFramework=netstandard2.0`.|
+|SkipGetTargetFrameworkProperties|Optional boolean. If `true`, builds the referenced project without negotiating the most compatible `TargetFramework` value. Defaults to `false`.|
+|Targets|Optional `string[]`. Semicolon separated list of targets in the referenced projects that should be built. Default is the value of `$(ProjectReferenceBuildTargets)` which defaults to empty, indicating the default targets.|
 
 ### Compile
 

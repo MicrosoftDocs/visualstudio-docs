@@ -1,5 +1,6 @@
 ---
 title: "Share the Unity Log Callback with VSTU | Microsoft Docs"
+description: Share your Unity log callback with the one that's registered with Visual Studio Tools for Unity (VSTU) to stream its console to Visual Studio.
 ms.custom: ""
 ms.date: "07/26/2018"
 ms.technology: vs-unity-tools

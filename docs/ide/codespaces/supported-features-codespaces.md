@@ -37,15 +37,15 @@ You should notice little difference editing source code in a codespace as you ge
 * Syntax highlighting
 * Quick Info*
 * HTML, CSS, Razor editors* - Partial support.
-* JavaScript editor* - Partial support.
+* JavaScript and TypeScript editor* - Partial support.
 
 Not yet available:
 
-* IntelliSense* - Some of the autocompletion/member list filters are unavailable. Completion for unimported types and intellisense in watch window not yet available.
-* Code navigation* - Most commands supported, specifically Go To Base and Find in files with path specification not yet supported.
+* IntelliSense* - Some of the autocompletion/member list filters are unavailable. Completion for unimported types and IntelliSense in watch window not yet available.
+* Code navigation* - Most commands supported. Go To Base and Find in Files with path specification are not yet supported.
 * Quick Info* - Colorization in quick info is not supported.
-* HTML, CSS, Razor editors* - Diagnostics, intellisense completion, quick info, smart indent. Currently no support for semantic colorization, navigation commands, etc.
-* JavaScript editor* - Script blocks (for example, JavaScript content in HTML and CSHTML files) and semantic highlighting are not yet supported. Known issues with lightbulb features and linting.
+* HTML, CSS, Razor editors* - Diagnostics, IntelliSense completion, quick info, smart indent. Currently no support for semantic colorization, navigation commands, etc.
+* JavaScript and TypeScript editor* - Script blocks (for example, JavaScript content in HTML and CSHTML files) and semantic highlighting are not yet supported. Known issues with lightbulb features and linting.
 * CMake Targets View
 * CMake Project Settings editor
 * Ctrl+F7 (compile file)
@@ -60,14 +60,14 @@ Most application types and project configurations are supported, but you will ne
 * Project and item templates
 * .NET Core and ASP.NET Core projects
 * C++ console apps - CMake and vcxproj supported
-* C++ apps that target Linux - Mostly supported for non-GUI. Ability to install and provision WSL, platform-specific intellisense, and build.
+* C++ apps that target Linux - Mostly supported for non-GUI. Ability to install and provision WSL, platform-specific IntelliSense, and build.
 * Project file editing - Mostly supported. Missing some completion, syntax highlighting, and advanced editing features.
 * GitHub accounts - Can be used to create and connect to Codespaces, and access resources available to the account on GitHub.
 * Azure CLI - Does not share the signed-in Visual Studio identity or keychain accounts. Browser-based login is not supported but you can authenticate inside the integrated terminal using: `az login --use-device-code`.
 
 Not yet available:
 
-* UI designers - WinForms and WPF designers
+* UI designers - WinForms, WPF, and Resource designers
 * Visual Basic and F# projects
 * .NET Framework targeted projects
 * Docker Compose projects

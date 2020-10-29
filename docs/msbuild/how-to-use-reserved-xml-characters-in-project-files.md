@@ -1,5 +1,7 @@
 ---
 title: 'How to: Use Reserved XML Characters in Project Files | Microsoft Docs'
+description: Learn how to replace reserved XML characters with corresponding named entities in MSBuild project files.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

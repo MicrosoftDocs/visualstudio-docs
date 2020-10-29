@@ -87,7 +87,7 @@ GitHub Codespaces support the following *devcontainer.json* properties. Setting 
 
 While you can run the `devinit` command line directly, we recommend creating [*devinit.json*](../../devinit/devinit-json.md) configuration files, which describe the set of `devinit` tools to run. 
 
-For example, to install the [.NET Core SDK](https://docs.microsoft.com/dotnet/core/sdk), a *.devinit.json* would look like:
+For example, to install the [.NET Core SDK](/dotnet/core/sdk), a *.devinit.json* would look like:
 
 ```json
 {

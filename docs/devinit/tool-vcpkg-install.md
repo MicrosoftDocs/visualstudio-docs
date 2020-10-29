@@ -32,7 +32,7 @@ The `input` property should be the `name` of the `vcpkg` to install or a list of
 
 ### Additional options
 
-Additional options are passed directly to the [vcpkg](https://docs.microsoft.com/powershell/module/powershellget/install-module?view=powershell-7&preserve-view=true) command and are documented on the [vcpkg GitHub repo](https://github.com/microsoft/vcpkg/blob/master/docs/examples/installing-and-using-packages.md).
+Additional options are passed directly to the [vcpkg](/powershell/module/powershellget/install-module?view=powershell-7&preserve-view=true) command and are documented on the [vcpkg GitHub repo](https://github.com/microsoft/vcpkg/blob/master/docs/examples/installing-and-using-packages.md).
 
 ### Default behavior
 

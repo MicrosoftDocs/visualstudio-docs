@@ -1,15 +1,15 @@
 ---
-title:  Use the Maximum Usage feature in the Administration Portal
+title:  Use the Maximum Usage feature in Visual Studio subscriptions
 author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: c473b01f-2dfe-4cc2-ad29-bb5e2a268123
-ms.date: 09/21/2020
+ms.date: 10/28/2020
 ms.topic: conceptual
 description: Learn how to view the maximum number of assigned subscriptions in the admin portal
 ---
 # Use the maximum usage feature to track the number of assigned subscriptions
-A new feature in the Visual Studio subscriptions administration portal helps you track how many subscriptions you've purchased and assigned, and identifies the peak number of subscriptions of each level you've assigned, both within the past year and throughout the duration of your agreement(s). 
+A new feature in the Visual Studio subscriptions admin portal helps you track how many subscriptions you've purchased and assigned, and identifies the peak number of subscriptions of each level you've assigned, both within the past year and throughout the duration of your agreement(s). 
 
 ## Maximum usage overview
 Watch the video or read on to learn how to use the maximum usage feature. 
@@ -49,5 +49,5 @@ A:  The information in the overview shows the *current* assignments and availabl
 - [Microsoft 365 documentation](/microsoft-365/)
 
 ## Next steps
-- If you have any questions about subscription assignments or other aspects of the administration portal, please contact https://visualstudio.microsoft.com/subscriptions/support/ for assistance. 
+- If you have any questions about subscription assignments or other aspects of the admin portal, please contact https://visualstudio.microsoft.com/subscriptions/support/ for assistance. 
 - Learn more about what to do if you assign more subscriptions that you purchased, referred to as [overallocations](handle-overclaimed-license.md).

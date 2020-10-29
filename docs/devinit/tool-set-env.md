@@ -16,7 +16,7 @@ ms.technology: devinit
 
 The `set-env` tool can be used to set environment variables for use in the current process. The environment variables are set only in the current process and will be used by other `devinit` tools if they run in that process.
 
-This tool makes use of the .NET Core `Environment.SetEnvironment` API and has the same limitations as that API. For more information, please see the [documentation](https://docs.microsoft.com/dotnet/api/system.environment.setenvironmentvariable?view=netcore-3.1&preserve-view=true) for `Environment.SetEnvironment`.
+This tool makes use of the .NET Core `Environment.SetEnvironment` API and has the same limitations as that API. For more information, please see the [documentation](/dotnet/api/system.environment.setenvironmentvariable?view=netcore-3.1&preserve-view=true) for `Environment.SetEnvironment`.
 
 ## Usage
 
@@ -45,7 +45,7 @@ Not used.
 
 ## Usage in a codespace
 
-If you're using a codespace, you can set environment variables used in the codespace through customizating the `remoteEnv` property in [`.devcontainer.json`](https://docs.microsoft.com/visualstudio/codespaces/reference/configuring) file.
+If you're using a codespace, you can set environment variables used in the codespace through customizating the `remoteEnv` property in [`.devcontainer.json`](/visualstudio/codespaces/reference/configuring) file.
 
 ## Example usage
 

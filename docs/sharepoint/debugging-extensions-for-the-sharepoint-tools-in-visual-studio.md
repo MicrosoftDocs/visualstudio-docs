@@ -1,5 +1,6 @@
 ---
 title: "Debugging Extensions for the SharePoint Tools in Visual Studio | Microsoft Docs"
+titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

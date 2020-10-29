@@ -1,5 +1,6 @@
 ---
 title: "&lt;vstoRuntime&gt; element (Office development in Visual Studio)"
+titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "reference"
 dev_langs:
