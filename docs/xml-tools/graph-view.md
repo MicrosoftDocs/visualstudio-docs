@@ -1,6 +1,6 @@
 ---
 title: XML Schema Designer Graph View
-description: Learn about the Graph View in the XMl Schema Designer that provides a graphic representation of global schema nodes and the relationships between the nodes.
+description: Learn about the Graph View in the XML Schema Designer that provides a graphic representation of global schema nodes and the relationships between the nodes.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
