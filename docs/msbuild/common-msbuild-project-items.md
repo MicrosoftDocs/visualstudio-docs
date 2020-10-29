@@ -166,7 +166,7 @@ Specifies assemblies to be emitted as `[InternalsVisibleTo(..)]` assembly attrib
 | Key | Optional string. The public key of the assembly. |
 
 > [!NOTE]
-> This applies to SDK-style projects only.
+> This applies to projects using the .NET Core SDK only.
 
 ### BaseApplicationManifest
 
