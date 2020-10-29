@@ -106,9 +106,7 @@ In the following example, the breakpoint is hit only when the value of `testInt`
 If you set a breakpoint condition with invalid syntax, a warning message appears. If you specify a breakpoint condition with valid syntax but invalid semantics, a warning message appears the first time the breakpoint is hit. In either case, the debugger breaks when it hits the invalid breakpoint. The breakpoint is skipped only if the condition is valid and evaluates to `false`.
 
 >[!NOTE]
->The behavior of the **When changed** field is different for different programming languages.
->- For native code, the debugger doesn't consider the first evaluation of the condition to be a change, so doesn't hit the breakpoint on the first evaluation.
->- For managed code, the debugger hits the breakpoint on the first evaluation after **When changed** is selected.
+> For the **When changed** field, the debugger doesn't consider the first evaluation of the condition to be a change, so doesn't hit the breakpoint on the first evaluation.
 
 <a name="using-object-ids-in-breakpoint-conditions-c-and-f"></a>
 ### Use Object IDs in conditional expressions (C# and F# only)
