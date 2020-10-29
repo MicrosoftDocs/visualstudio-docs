@@ -1,5 +1,6 @@
 ---
-title: Export a Texture for Direct2D and JavaScript applications
+title: Export a texture for Direct2D and JavaScript apps
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 ms.assetid: 241c25fe-764e-4e1b-ad32-b1377dcbb605
