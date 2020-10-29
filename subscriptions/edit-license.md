@@ -1,16 +1,16 @@
 ---
-title: Edit subscriptions in the Administration Portal | Microsoft Docs
+title: Edit Visual Studio subscriptions in the Administration Portal | Microsoft Docs
 author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: 97ac8e4d-7a03-42f8-98cb-15bcaa90ef65
 ms.date: 09/21/2020
 ms.topic: how-to
-description:  Learn how administrators can edit subscription assignments.
+description:  Learn how admins can edit subscription assignments.
 ---
 
 # Edit Visual Studio subscription assignments
-As a subscription administrator, you can make changes to the subscriptions assigned to individuals within your organization.  This article discusses the types of changes you can make and provides the necessary steps.
+As a subscription admin, you can make changes to the subscriptions assigned to individuals within your organization.  This article discusses the types of changes you can make and provides the necessary steps.
 
    > [!NOTE]
    > If you need to change subscription details for a subscriber assigned through an Azure Active Directory Group, you will need to remove them from the group and add them into the Administration Portal individually.  
