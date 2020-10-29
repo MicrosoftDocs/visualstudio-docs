@@ -1,5 +1,6 @@
 ---
 title: Visual Studio support for FIPS
+titleSuffix: ''
 ms.custom: SEO-VS-2020
 ms.date: 04/14/2020
 ms.topic: conceptual
