@@ -1,5 +1,7 @@
 ---
 title: Windows Forms Designer tutorial
+description: Learn how to build an app using the various tools provided by Windows Forms Designer. The app is a custom control that uses many available layout features.
+ms.custom: SEO-VS-2020
 ms.date: 08/09/2019
 ms.topic: tutorial
 helpviewer_keywords:
