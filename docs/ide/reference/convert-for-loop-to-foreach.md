@@ -1,5 +1,6 @@
 ---
-title: Refactor code to convert a for loop to a foreach statement
+title: Refactor to convert a for loop to a foreach statement
+ms.custom: SEO-VS-2020
 ms.date: 03/10/2020
 ms.topic: reference
 author: mikadumont
