@@ -51,11 +51,11 @@ In this example _.devcontainer.json_ file below is placed in the repo root and `
 When the current working directory contains a _.devinit.json_ file.
 
 ```console
-> devinit init
+devinit init
 ```
 
 When the _.devinit.json_ is in another directory.
 
 ```console
-> devinit init -f path/to/.devinit.json
+devinit init -f path/to/.devinit.json
 ```

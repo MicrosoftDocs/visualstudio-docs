@@ -17,7 +17,7 @@ ms.technology: devinit
 ## Init
 
 ```console
-> devinit init
+devinit init
 ```
 
 Initialize the environment by running the tools specified in a [_.devinit.json_](devinit-json.md) file in the current working directory.  
@@ -64,7 +64,7 @@ See [below](#options-for-run).
 ## Run
 
 ```console
-> devinit run -t <toolname>
+devinit run -t <toolname>
 ```
 
 Runs the specific tool, parameters are listed below. See [documentation](devinit-tool-list.md) for each tool for specific usage.
@@ -105,19 +105,19 @@ Echo tool commands that would be run, but do not execute any tools.
 Using an `<arg>` that includes a space in its value must include an additional pair of escaped quotes.
 
 ```console
-> devinit run -t <toolname> -<somearg> "<some value>"
+devinit run -t <toolname> -<somearg> "<some value>"
 ```
 
 For installing dotnet into a specific directory `C:\Program Files\dotnet`:
 
 ```console
-> devinit run -t require-dotnetcoresdk --"-InstallDir \"C:\Program Files\dotnet\""
+devinit run -t require-dotnetcoresdk --"-InstallDir \"C:\Program Files\dotnet\""
 ```
 
 ## List
 
 ```console
-> devinit list
+devinit list
 ```
 
 Prints a list of all the available tools.
@@ -125,7 +125,7 @@ Prints a list of all the available tools.
 ## Show
 
 ```console
-> devinit show -t <toolname>
+devinit show -t <toolname>
 ```
 
 | Argument       | Required | Description                                                                          |
@@ -137,7 +137,7 @@ Prints help information for a given tool.
 ## Version
 
 ```console
-> devinit version
+devinit version
 ```
 
 Prints the current version information for devinit.
@@ -145,8 +145,8 @@ Prints the current version information for devinit.
 ## Help
 
 ```console
-> devinit help
-> devinit help list
+devinit help
+devinit help list
 ```
 
 Prints the help text for devinit or for a specific command `devinit <command>`.
