@@ -29,7 +29,7 @@ For this step, think about the instructions you'd give someone to get up and run
 Now all someone has to do after cloning your repo is run `devinit init`.
 
 ```console
-> devinit init
+devinit init
 ```
 
 If you're using [GitHub Codespaces](https://github.com/features/codespaces), you can configure `devinit init` to run automatically when the codespace is provisioned. To learn more have a look at the [devinit and GitHub Codespaces documentation](devinit-and-codespaces.md).
