@@ -1,6 +1,6 @@
 ---
 title: 'How to: Create a Basic Color Shader'
-description: Learn how to use Shader Designer and Directed Graph Shader Language to create a flat color shader, which sets the final color to a constant RGB color value.
+description: Learn how to use Shader Designer and Directed Graph Shader Language to create a flat color shader that sets the final color to a constant RGB color value.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
