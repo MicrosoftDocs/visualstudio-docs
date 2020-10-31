@@ -15,7 +15,7 @@ Visual Studio subscriptions have specific durations, and unless they are renewed
 If you would like to purchase a new subscription, you can explore purchasing options on our [pricing page](https://visualstudio.microsoft.com/vs/pricing).
 
 ## Downloads
-The product downloads page, <https://my.visualstudio.com/downloads>, is no longer available.  Updates, patches, and other tools may still be available on the [Microsoft Download Center](https://www.microsoft.com/downloads).  Products you have previously downloaded via your subscription are still valid.
+The product downloads page, <https://my.visualstudio.com/downloads>, will still be available so you can download software, but you will not be able to claim new product keys.  Updates, patches, and other tools may still be available on the [Microsoft Download Center](https://www.microsoft.com/downloads).  Products you have previously downloaded via your subscription are still valid.
 
 ## Product Keys
 The product keys page, <https://my.visualstudio.com/productkeys>, is no longer available.  Any product keys you have previously claimed will still function as they normally would.  All installation limits remain unaffected.  To export your claimed product keys after your subscription expires, please visit <https://my.visualstudio.com/subscriptions> and click on the **Export all keys** button.  No new product keys may be claimed after your subscription expires.
