@@ -17,7 +17,7 @@ If you would like to purchase a new subscription, you can explore purchasing opt
 ## Downloads
 The product downloads page, <https://my.visualstudio.com/downloads>, will still be available so you can download software, but you will not be able to claim new product keys.  Updates, patches, and other tools may still be available on the [Microsoft Download Center](https://www.microsoft.com/downloads).  Products you have previously downloaded via your subscription are still valid.
 
-## Product Keys
+## Product keys
 The product keys page, <https://my.visualstudio.com/productkeys>, is no longer available.  Any product keys you have previously claimed will still function as they normally would.  All installation limits remain unaffected.  To export your claimed product keys after your subscription expires, please visit <https://my.visualstudio.com/subscriptions> and click on the **Export all keys** button.  No new product keys may be claimed after your subscription expires.
 
 ## Benefits 
@@ -29,7 +29,7 @@ Most subscriptions provide perpetual licenses for the Visual Studio IDE. Downloa
 ### Azure DevOps
 Azure DevOps acquired through a Visual Studio subscription will be unavailable.  
 
-### Azure Credits
+### Azure credits
 Monthly Azure credit allotments will continue for a limited time following expiration of your subscription.  Unused credits already applied to your Azure subscription in the current month will still be available for your use.  If you wish to continue using Azure resources from that subscription after your credits are exhausted, you can either [transfer those resources](/azure/azure-resource-manager/management/move-resource-group-and-subscription) to another Azure subscription or [convert your existing subscription to pay-as-you-go](/azure/cost-management-billing/manage/spending-limit#remove-the-spending-limit-in-azure-portal).
 
 ### Other benefits 
