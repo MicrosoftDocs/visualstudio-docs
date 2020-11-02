@@ -1,5 +1,7 @@
 ---
-title: Export a Texture for Direct2D and JavaScript applications
+title: Export a texture for Direct2D and JavaScript apps
+description: The Image Content Pipeline generates textures compatible with Direct2D internal rendering for use in Direct2D apps and UWP apps created with JavaScript.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 ms.assetid: 241c25fe-764e-4e1b-ad32-b1377dcbb605
