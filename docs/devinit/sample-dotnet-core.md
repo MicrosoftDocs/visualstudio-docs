@@ -1,7 +1,7 @@
 ---
 title: .NET Core app
 description: Example repository that uses devinit to install a specific .NET Core SDK.
-ms.date: 10/29/2020
+ms.date: 11/02/2020
 ms.topic: reference
 author: andysterland
 ms.author: andster
