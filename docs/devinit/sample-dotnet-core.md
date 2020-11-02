@@ -1,7 +1,7 @@
 ---
 title: .NET Core app
 description: Example repository that uses devinit to install a specific .NET Core SDK.
-ms.date: 10/28/2020
+ms.date: 10/29/2020
 ms.topic: reference
 author: andysterland
 ms.author: andster
@@ -15,7 +15,7 @@ ms.technology: devinit
 
 # .NET Core app
 
-See the [DevinitExample](https://github.com/microsoft/DevinitExample) repository for a full example of using devinit to install the required .NET Core SDK version in Codespaces.
+See the [DotnetCoreDevinitExample](https://github.com/microsoft/DotnetCoreDevinitExample) repository for a full example of using devinit to install the required .NET Core SDK version in Codespaces.
 
 ## .devinit.json
 
