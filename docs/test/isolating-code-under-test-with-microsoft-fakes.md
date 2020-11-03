@@ -261,7 +261,7 @@ Since Microsoft Fakes requires Visual Studio Enterprise, the generation of Fakes
 </Project>
 ```
 
-TThis reference is required to be added in manually specifically SDK-style projects (.NET Core and .NET Framework) because we have moved to implicitly adding assembly references to your test project. If you follow this method, you need to ensure that the fakes assembly is updated when the parent assembly changes.
+This reference is required to be added in manually specifically SDK-style projects (.NET Core and .NET Framework) because we have moved to implicitly adding assembly references to your test project. If you follow this method, you need to ensure that the fakes assembly is updated when the parent assembly changes.
 ::: moniker-end
 
 ### Running Microsoft Fakes tests
