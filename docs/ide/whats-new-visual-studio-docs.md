@@ -19,7 +19,7 @@ ms.workload:
 
 # Visual Studio docs: What's new for October 2020
 
-Welcome to what's new in the Visual Studio docs for October 2020. This article lists some of the major changes to docs during this period. For information about what was new in previous months, see the [what's new history](whats-new-visual-studio-docs-history.md) topic.
+Welcome to what's new in the Visual Studio docs for October 2020. This article lists some of the major changes to docs during this period. For information about what was new in previous months, see the [what's new history](whats-new-visual-studio-docs-history.md) article.
 
 ## Code quality
 
@@ -76,9 +76,7 @@ Welcome to what's new in the Visual Studio docs for October 2020. This article l
 
 **Updated articles**
 
-- [Walkthrough: Use MSBuild](../msbuild/walkthrough-using-msbuild.md)
-  - MSBuild walkthrough: add standalone install steps
-  - Resolve syncing conflicts from repo_sync_working_branch to master
+- [Walkthrough: Use MSBuild](../msbuild/walkthrough-using-msbuild.md) - MSBuild walkthrough: add standalone install steps
 
 ## Profiling
 
@@ -93,7 +91,6 @@ Welcome to what's new in the Visual Studio docs for October 2020. This article l
 - [First look at profiling tools](../profiling/profiling-feature-tour.md)
   - Memory usage updates for profiling - links and clarifications
   - Memory usage tool updates
-  - Links: Visualstudio - Pass 2 - docs
 - [Run profiling tools with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md)
   - Memory usage updates for profiling - links and clarifications
   - Memory usage tool updates
@@ -111,13 +108,13 @@ Welcome to what's new in the Visual Studio docs for October 2020. This article l
 
 - [Use Design Time Data with the XAML Designer in Visual Studio](../xaml-tools/xaml-designtime-data.md)
   - Added extensibility section to XAML design-time docs
-  - New design-time XAML topic
+  - New design-time XAML article
 
 **Updated articles**
 
 - [Use Design Time Data with the XAML Designer in Visual Studio](../xaml-tools/xaml-designtime-data.md)
   - Added extensibility section to XAML design-time docs
-  - New design-time XAML topic
+  - New design-time XAML article
 
 ## Community contributors
 

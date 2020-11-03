@@ -19,7 +19,7 @@ ms.workload:
 
 # History of what's new in Visual Studio docs
 
-Welcome to the history of what's new in Visual Studio docs. This topic contains the major changes to the docs prior to October 2020 (starting July 2020). For the latest What's New, see [Visual Studio docs: What's new in the docs](whats-new-visual-studio-docs.md).
+Welcome to the history of what's new in Visual Studio docs. This article contains the major changes to the docs prior to October 2020 (starting July 2020). For the latest What's New, see [Visual Studio docs: What's new in the docs](whats-new-visual-studio-docs.md).
 
 ## September 2020
 ### Code quality
@@ -168,7 +168,7 @@ Welcome to the history of what's new in Visual Studio docs. This topic contains 
 
 **Updated articles**
 
-- [Customize window layouts in Visual Studio](./customizing-window-layouts-in-visual-studio.md) - add monikered vertical document tabs info to Customize Window Layouts topic
+- [Customize window layouts in Visual Studio](./customizing-window-layouts-in-visual-studio.md) - add monikered vertical document tabs info to Customize Window Layouts article.
 - [How to report a problem with Visual Studio or Visual Studio Installer](./how-to-report-a-problem-with-visual-studio.md)
   - Added more info to NMI
   - Redid the whole Report a Problem page
