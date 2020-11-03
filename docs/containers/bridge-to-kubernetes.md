@@ -22,8 +22,10 @@ This guide uses the [Bike Sharing sample application][bike-sharing-github] to de
 
 ### Prerequisites
 
+* A working knowledge of Kubernetes (how to deploy Pods, how to see if Pods are running, etc).
 * An Azure subscription. If you don't have an Azure subscription, you can create a [free account](https://azure.microsoft.com/free).
 * [Azure CLI installed][azure-cli].
+* [Kubernetes CLI](https://docs.microsoft.com/en-us/cli/azure/aks?view=azure-cli-latest#az_aks_install_cli) - can be installed via `az aks install-cli`.
 * [Visual Studio 2019][visual-studio] version 16.7 Preview 4 or greater running on Windows 10 with the *Azure development* workload installed.
 * [Bridge to Kubernetes extension installed][btk-extension].
 
@@ -48,7 +50,7 @@ az aks create \
 
 ## Install the sample application
 
-Install the sample application on your cluster using the provided script. You can run this script using the [Azure Cloud Shell][azure-cloud-shell].
+Install the sample application on your cluster using the provided script. You can run this script using the Bash [Azure Cloud Shell][azure-cloud-shell].
 
 ```azurecli-interactive
 git clone https://github.com/Microsoft/mindaro
