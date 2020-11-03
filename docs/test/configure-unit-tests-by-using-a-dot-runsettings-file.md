@@ -168,7 +168,7 @@ The following XML shows the contents of a typical *.runsettings* file. Each elem
     <TestSessionTimeout>10000</TestSessionTimeout>
 
     <!-- true or false -->
-    <!-- Value indicating exit code when no tests are discovered -->
+    <!-- Value that specifies the exit code when no tests are discovered -->
     <TreatNoTestsAsError>true</TreatNoTestsAsError>
   </RunConfiguration>
 
