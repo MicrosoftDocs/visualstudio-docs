@@ -2,8 +2,7 @@
 title: "Deploy your Visual Studio app to a folder, IIS, Azure, or another destination"
 titleSuffix: ""
 description: Learn how to choose the appropriate method for deploying an application in Visual Studio for the type of deployment that you need.
-ms.custom: SEO-VS-2020
-ms.custom: "contperfq1"
+ms.custom: [SEO-VS-2020, "contperfq1"]
 ms.date: 08/21/2020
 ms.topic: "troubleshooting"
 dev_langs:
