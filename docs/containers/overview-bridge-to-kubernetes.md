@@ -50,6 +50,25 @@ In addition, Bridge to Kubernetes provides a way to replicate environment variab
 
 The `KubernetesLocalProcessConfig.yaml` file allows you to replicate environment variables and mounted files available to your pods in your cluster. For more information on the additional configuration options, see [Configure Bridge to Kubernetes][using-config-yaml].
 
+## Container Port Specification
+
+When deployment Pods for debug with Bridge to Kubernetes, it is required to specify the exposed ports in the container specification. Consider this example...
+
+```yaml
+spec:
+  containers:
+  - name: example
+    image: example.azurecr.io/example:1.0.0
+    ports:
+      - name: http
+        containerPort: 80
+        protocol: TCP
+```
+
+Failing to do so will result in the following error:
+
+> Failed to establish a connection. Error: Failed to identify the container to use in pod 'example' from the container port information in the pod spec. If there are multiple containers in the pod, specify the container name and retry.
+
 ## Using routing capabilities for developing in isolation
 
 By default, Bridge to Kubernetes redirects all traffic for a service to your development computer. You also have the option to use routing capabilities to only redirect requests to a service originating from a subdomain to your development computer. These routing capabilities allow you to use Bridge to Kubernetes to develop in isolation and avoid disrupting other traffic in your cluster.
