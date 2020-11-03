@@ -1,6 +1,8 @@
 ---
 title: Collapse and expand regions of code
-ms.date: 11/04/2016
+description: Learn how you can use the expand and collapse commands to work in outline mode in Visual Studio
+ms.custom: SEO-VS-2020
+ms.date: 10/15/2020
 ms.topic: conceptual
 helpviewer_keywords:
 - outlining
@@ -30,14 +32,14 @@ When you work in outlined code, you can expand the sections you want to work on,
 The **Undo** and **Redo** commands on the **Edit** menu affect these actions. The **Copy**, **Cut**, **Paste**, and drag-and-drop operations retain outlining information, but not the state of the collapsible region. For example, when you copy a region that is collapsed, the **Paste** operation will paste the copied text as an expanded region.
 
 > [!CAUTION]
-> When you change an outlined region, the outlining may be lost. For example, deletions or Find and Replace operations may erase the end of the region.
+> When you change an outlined region, the outlining may be lost. For example, deletions or **Find and Replace** operations may erase the end of the region.
 
 The following commands can be found on the **Edit** > **Outlining** submenu.
 
 |Name|Description|
 |-|-|
 |Hide Selection|(**Ctrl**+**M**, **Ctrl**+**H**) - Collapses a selected block of code that would not normally be available for outlining, for example an `if` block. To remove the custom region, use **Stop Hiding Current** (or **Ctrl**+**M**, **Ctrl**+**U**). Not available in Visual Basic.|
-|Toggle Outlining Expansion|- Reverses the current hidden or expanded state of the innermost outlining section when the cursor lies in a nested collapsed section.|
+|Toggle Outlining Expansion| (**Ctrl**+**M**, **Ctrl**+**M**) - Reverses the current hidden or expanded state of the innermost outlining section when the cursor lies in a nested collapsed section.|
 |Toggle All Outlining|(**Ctrl**+**M**, **Ctrl**+**L**) - Sets all regions to the same collapsed or expanded state. If some regions are expanded and some collapsed, then the collapsed regions are expanded.|
 |Stop Outlining|(**Ctrl**+**M**, **Ctrl**+**P**) - Removes all outlining information for the entire document.|
 |Stop Hiding Current|(**Ctrl**+**M**, **Ctrl**+**U**)  - Removes the outlining information for the currently selected user-defined region. Not available in Visual Basic.|

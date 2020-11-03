@@ -1,7 +1,7 @@
 ---
 title: Troubleshooting VSPackages | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: troubleshooting
 helpviewer_keywords:
 - VSPackages, troubleshooting
 - debugging, VSPackages
@@ -119,3 +119,4 @@ Following are common problems that you might have with your VSPackage and tips t
 
 ## See also
 - [VSPackages](../extensibility/internals/vspackages.md)
+- [Visual Studio troubleshooting](/troubleshoot/visualstudio/welcome-visual-studio/)

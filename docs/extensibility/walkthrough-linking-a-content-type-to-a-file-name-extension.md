@@ -1,7 +1,8 @@
 ---
-title: 'Walkthrough: Linking a Content Type to a File Name Extension | Microsoft Docs'
+title: 'Link a content type to a filename extension'
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - editors [Visual Studio SDK], new - link content type to file name extension
 ms.assetid: 21ee64ce-9afe-4b08-94a0-8389cc4dc67c

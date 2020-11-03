@@ -1,6 +1,7 @@
 ---
 title: Extend the build process
-ms.custom: seodec18
+description: Learn various ways to modify the build process so that you can control and customize how your projects build.
+ms.custom: "seodec18, SEO-VS-2020"
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -25,7 +26,6 @@ The Visual Studio build process is defined by a series of MSBuild *.targets* fil
 
 ## Override predefined targets
 
-The common targets contains a set of predefined empty targets that is called before and after some of the major targets in the build process. For example, MSBuild calls the `BeforeBuild` target before the main `CoreBuild` target and the `AfterBuild` target after the `CoreBuild` target. By default, the empty targets in the common targets do nothing, but you can override their default behavior by defining the targets you want in a project file that imports the common targets. By overriding the predefined targets, you can use MSBuild tasks to give you more control over the build process.
 The common targets contains a set of predefined empty targets that is called before and after some of the major targets in the build process. For example, MSBuild calls the `BeforeBuild` target before the main `CoreBuild` target and the `AfterBuild` target after the `CoreBuild` target. By default, the empty targets in the common targets do nothing, but you can override their default behavior by defining the targets you want in a project file that imports the common targets. By overriding the predefined targets, you can use MSBuild tasks to give you more control over the build process.
 
 > [!NOTE]

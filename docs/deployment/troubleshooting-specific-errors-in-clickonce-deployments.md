@@ -1,5 +1,6 @@
 ---
-title: Troubleshooting Specific Errors in ClickOnce Deployments | Microsoft Docs
+title: Troubleshooting errors (ClickOnce deployments)
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: troubleshooting
 f1_keywords: 
@@ -133,3 +134,4 @@ This article lists the following common errors that can occur when you deploy a 
 ## See also
 - [ClickOnce security and deployment](../deployment/clickonce-security-and-deployment.md)
 - [Troubleshoot ClickOnce deployments](../deployment/troubleshooting-clickonce-deployments.md)
+- [Visual Studio troubleshooting](/troubleshoot/visualstudio/welcome-visual-studio/)

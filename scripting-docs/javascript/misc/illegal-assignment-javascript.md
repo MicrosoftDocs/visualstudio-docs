@@ -3,7 +3,7 @@ title: "Illegal assignment (JavaScript) | Microsoft Docs"
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows
 ms.technology: vs-javascript
-ms.topic: reference
+ms.topic: error-reference
 f1_keywords: 
   - "VS.WebClient.Help.SCRIPT5008"
 dev_langs: 
@@ -23,4 +23,4 @@ You attempted to assign a value to a read-only identifier. You cannot assign a v
 - Do not assign values to read-only identifiers.  
   
 ## See also  
- [Assignment Operator (=)](../../javascript/reference/assignment-operator-decrement-equal-javascript.md)
+ [Assignment Operator (=)](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators#Assignment)

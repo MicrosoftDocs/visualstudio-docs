@@ -7,6 +7,7 @@ metadata:
   title: Testing tools in Visual Studio # Required; page title displayed in search results. Include the brand. < 60 chars.
   description: Learn how to use Visual Studio to test your code.
   ms.topic: landing-page
+  ms.technology: vs-ide-test
   author: mikejo5000
   ms.author: mikejo
   manager: jillfra
@@ -28,7 +29,7 @@ landingContent:
             url: unit-test-your-code.md
           - text: Live unit testing overview
             url: live-unit-testing-intro.md
-         
+
   # Card (optional)
   - title: Unit testing
     linkLists:
@@ -52,21 +53,21 @@ landingContent:
         links:
           - text: Code coverage - Determine how much code is being tested
             url: using-code-coverage-to-determine-how-much-code-is-being-tested.md
-          - text: Micorosft Fakes - Isolate code under test
+          - text: Microsoft Fakes - Isolate code under test
             url: isolating-code-under-test-with-microsoft-fakes.md
           - text: Coded UI (deprecated)
             url: use-ui-automation-to-test-your-code.md
           - text: Load testing (deprecated)
             url: quickstart-create-a-load-test-project.md
-  
+
   - title: Related tools (Azure DevOps)
     linkLists:
       - linkListType: how-to-guide
         links:
           - text: Exploratory & manual testing (Azure Test Plans)
-            url: /azure/devops/test/overview?view=azure-devops
+            url: /azure/devops/test/overview?view=azure-devops&preserve-view=true
           - text: Load testing (Azure Test Plans)
-            url: /azure/devops/test/load-test/getting-started-with-performance-testing?view=azure-devops
+            url: /azure/devops/test/load-test/getting-started-with-performance-testing?view=azure-devops&preserve-view=true
           - text: Continuous testing (Azure Pipelines)
-            url: /azure/devops/pipelines/?view=azure-devops
-          
+            url: /azure/devops/pipelines/?view=azure-devops&preserve-view=true
+

@@ -20,7 +20,7 @@ ms.workload:
 The Visual Studio **Interactive** window for Python provides a rich read-evaluate-print-loop (REPL) experience that greatly shortens the usual edit-build-debug cycle. The **Interactive** window provides all the capabilities of the REPL experience of the Python command line. It also makes it very easy to exchange code with source files in the Visual Studio editor, which is otherwise cumbersome with the command line.
 
 > [!NOTE]
-> For issues with REPL, be sure to have `ipython` and `ipykernel` packages installed, and for help installing packages, see [Python environments packages tab](/en-us/visualstudio/python/python-environments-window-tab-reference#packages-tab).
+> For issues with REPL, be sure to have `ipython` and `ipykernel` packages installed, and for help installing packages, see [Python environments packages tab](./python-environments-window-tab-reference.md#packages-tab).
 
 1. Open the **Interactive** window by right-clicking the project's Python environment in **Solution Explorer** (such as **Python 3.6 (32-bit)** shown in an earlier graphic) and selecting **Open Interactive Window**. You can alternately select **View** > **Other Windows** > **Python Interactive Windows** from the main Visual Studio menu.
 
@@ -49,7 +49,7 @@ The Visual Studio **Interactive** window for Python provides a rich read-evaluat
         return ' ' * int(20 * cos(radians(x)) + 20) + 'o'
     ```
 
-1. Select the `import`, `from`, and `make_dot_string` function statements in the *.py* file, right-click, and select **Send to Interactive** (or press **Ctrl**+**Enter**). The code fragment is immediately pasted into the **Interactive** window and run. Because the code has defined a function, you can quickly test that function by calling it a few times:
+1. Select the `import`, `from`, and `make_dot_string` function statements in the *.py* file. Right-click the selected text and chose **Send to Interactive** (or press **Ctrl**+**Enter**). The code fragment is immediately pasted into the **Interactive** window and run. Because the code has defined a function, you can quickly test that function by calling it a few times:
 
     ![Sending code to the interactive window and testing it](media/vs-getting-started-python-14-interactive4.png)
 
@@ -72,7 +72,7 @@ The Visual Studio **Interactive** window for Python provides a rich read-evaluat
 
 1. Repeat the process to experiment with different step settings until you find a value you like best. You can also make the wave repeat by lengthening the range, for example, `range(0, 1800, 12)`.
 
-1. When you're satisfied with code you're written in the **Interactive** window, select it, right-click and select **Copy Code** (**Ctrl**+**Shift**+**C**), and then paste into the editor. Notice how this special feature of Visual Studio automatically omits any output as well as the `>>>` and `...` prompts. For example, the image below shows using the **Copy Code** command on a selection that includes prompts and output:
+1. When you're satisfied with the code you wrote in the **Interactive** window, select it. Next, right-click the code and choose **Copy Code** (**Ctrl**+**Shift**+**C**). Finally, paste the selected code into the editor. Notice how this special feature of Visual Studio automatically omits any output as well as the `>>>` and `...` prompts. For example, the image below shows using the **Copy Code** command on a selection that includes prompts and output:
 
     ![Interactive window copy code command on a selection with prompts and output](media/vs-getting-started-python-17-interactive7.png)
 

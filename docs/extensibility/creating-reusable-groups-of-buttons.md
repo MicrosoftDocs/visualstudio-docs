@@ -1,7 +1,7 @@
 ---
 title: Creating Reusable Groups of Buttons | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - button groups, creating in VSPackages
 - VSPackages, creating reusable button groups

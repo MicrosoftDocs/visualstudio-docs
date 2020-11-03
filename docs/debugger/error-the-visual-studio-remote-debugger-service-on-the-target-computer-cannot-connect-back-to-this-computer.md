@@ -1,5 +1,5 @@
 ---
-title: "Error - The Visual Studio Remote Debugger service on the target computer cannot connect back to this computer"
+title: "The Visual Studio Remote Debugger service on the target computer cannot connect back to this computer"
 titleSuffix: ""
 ms.custom: "seodec18"
 ms.date: "11/04/2016"

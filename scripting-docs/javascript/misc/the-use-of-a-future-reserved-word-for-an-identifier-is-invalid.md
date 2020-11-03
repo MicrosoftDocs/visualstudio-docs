@@ -3,7 +3,7 @@ title: "The use of a future reserved word for an identifier is invalid | Microso
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows
 ms.technology: vs-javascript
-ms.topic: reference
+ms.topic: error-reference
 f1_keywords: 
   - "VS.WebClient.Help.SCRIPT1049"
 dev_langs: 
@@ -20,4 +20,4 @@ manager: "ghogen"
   
  You cannot use a future reserved word as the name of a variable, function, or other user-defined identifier.  
   
- For more information about future reserved words, see [JavaScript Future Reserved Words](../../javascript/reference/javascript-future-reserved-words.md).
+ For more information about future reserved words, see [JavaScript Future Reserved Words](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Lexical_grammar).

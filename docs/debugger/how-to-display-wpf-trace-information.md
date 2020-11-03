@@ -1,5 +1,5 @@
 ---
-title: How to - Display WPF Trace Information | Microsoft Docs
+title: Display WPF Trace Information | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 

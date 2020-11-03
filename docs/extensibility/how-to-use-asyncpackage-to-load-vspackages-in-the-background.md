@@ -1,7 +1,8 @@
 ---
-title: 'How to: Use AsyncPackage to Load VSPackages in the Background | Microsoft Docs'
+title: Use AsyncPackage to load VSPackages in the background
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 ms.assetid: dedf0173-197e-4258-ae5a-807eb3abc952
 author: acangialosi
 ms.author: anthc

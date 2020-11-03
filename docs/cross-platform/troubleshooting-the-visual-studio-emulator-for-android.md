@@ -1,6 +1,7 @@
 ---
 title: "Troubleshooting the Visual Studio Emulator for Android | Microsoft Docs"
-ms.custom: ""
+description: Learn information that can help you resolve issues that you may experience when you're using the Visual Studio Emulator for Android. 
+ms.custom: SEO-VS-2020
 ms.prod: visual-studio-dev15
 ms.date: "11/04/2016"
 ms.technology: vs-ide-mobile
@@ -39,7 +40,7 @@ This topic contains information to help you resolve issues that you may experien
 
 - [Visual Studio gets stuck trying to deploy the app to the emulator or the emulator does not appear as a debug target in other IDEs](#ADB)
 
-- [Emulator hangs because it couldn't set up the UDP port](#XamarinPlayer)
+- [Emulator stops responding because it couldn't set up the UDP port](#XamarinPlayer)
 
 - [Cannot attach debugger to a Xamarin project](#Skylake)
 
@@ -263,8 +264,8 @@ This topic contains information to help you resolve issues that you may experien
 
   Restart the emulator and you should now be able to see the emulator connected to ADB and associated Android tools.
 
-## <a name="XamarinPlayer"></a> Emulator hangs because it couldn't set up the UDP port
- You may experience this issue due to incompatibility with Xamarin Player. If the emulator appears to hang or if you see this error message, "The emulator is unable to connect to the device operating system: Couldn't set up the UDP port.  Some functionality might be disabled", you may be experiencing this issue. Take the following steps.
+## <a name="XamarinPlayer"></a> Emulator stops responding because it couldn't set up the UDP port
+ You may experience this issue due to incompatibility with Xamarin Player. If the emulator appears to stop responding or if you see this error message, "The emulator is unable to connect to the device operating system: Couldn't set up the UDP port.  Some functionality might be disabled", you may be experiencing this issue. Take the following steps.
 
 1. Uninstall Xamarin Player.
 

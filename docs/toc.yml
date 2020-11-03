@@ -42,6 +42,8 @@
     items:
     - name: Overview
       href: install/visual-studio-administrator-guide.md
+    - name: Visual Studio enterprise guide
+      href: install/visual-studio-enterprise-guide.md
     - name: Use the command line
       items:
       - name: Use command-line parameters to install Visual Studio
@@ -82,6 +84,8 @@
         href: install/update-a-network-installation-of-visual-studio.md
       - name: Update Visual Studio while on a servicing baseline
         href: install/update-servicing-baseline.md
+      - name: Update Visual Studio using a minimal offline layout
+        href: install/update-minimal-layout.md
       - name: Control updates to Visual Studio deployments
         href: install/controlling-updates-to-visual-studio-deployments.md
       - name: Manage package payload changes
@@ -123,6 +127,8 @@
         href: install/visual-studio-build-numbers-and-release-dates.md
   - name: Use Visual Studio from an Azure virtual machine
     href: install/using-visual-studio-vm.md
+  - name: Use Visual Studio on an ARM device
+    href: install/visual-studio-on-arm-devices.md
   - name: Containers
     items:
     - name: Install Build Tools into a Container
@@ -172,6 +178,8 @@
     href: ide/index-writing-code.yml
   - name: Move around in the IDE
     href: ide/how-to-move-around-in-the-visual-studio-ide.md
+  - name: Use Visual Studio Search
+    href: ide/visual-studio-search.md
   - name: Solutions and projects
     items:
     - name: Work with solutions and projects
@@ -254,9 +262,21 @@
     - name: Customize build and debug tasks
       displayName: makefile tasks.vs.json
       href: ide/customize-build-and-debug-tasks-in-visual-studio.md
+  - name: Develop with Codespaces (Preview)
+    items:
+    - name: Overview
+      href: ide/codespaces/codespaces-overview.md
+    - name: Use Visual Studio with a codespace
+      href: ide/codespaces/use-visual-studio-with-codespaces.md
+    - name: Customize a codespace
+      href: ide/codespaces/customize-codespaces.md
+    - name: Supported Visual Studio features
+      href: ide/codespaces/supported-features-codespaces.md
   - name: Connect to a project or repo
     displayName: Azure DevOps VSTS GitHub
     href: ide/connect-team-project.md
+  - name: New Git experience in Visual Studio (Preview)
+    href: ide/git-with-visual-studio.md
   - name: Editor
     items:
     - name: Use the editor
@@ -335,6 +355,8 @@
           href: ide/reference/generate-equals-structs.md
         - name: Add file header
           href: ide/reference/add-file-header.md
+        - name: Add debugger display attribute
+          href: ide/reference/add-debugger-display-attribute.md
         - name: Add explicit cast
           href: ide/reference/add-explicit-cast.md
         - name: Add parameter to method
@@ -384,6 +406,8 @@
           href: ide/reference/convert-if-statement-to-switch-statement-or-switch-expression.md
         - name: Convert LINQ query to foreach statement
           href: ide/reference/convert-linq-to-foreach.md
+        - name: Convert typeof to nameof
+          href: ide/reference/convert-typeof-to-nameof.md
         - name: Convert switch statement to switch expression
           href: ide/reference/convert-switch-statement-to-switch-expression.md
         - name: DateTime and TimeSpan completion
@@ -398,8 +422,8 @@
           href: ide/reference/extract-local-function.md
         - name: Inline temporary variable
           href: ide/reference/inline-temporary-variable.md
-        - name: IntelliSense completion unimported types
-          href: ide/reference/intellisense-completion-unimported-types.md
+        - name: IntelliSense completion unimported types and extension methods
+          href: ide/reference/intellisense-completion-unimported-types-extension-methods.md
         - name: Invert conditional expressions and logical operations
           href: ide/reference/invert-conditional-logical.md
         - name: Invert if statement
@@ -424,6 +448,8 @@
           href: ide/reference/rename.md
         - name: Simplify conditional expression
           href: ide/reference/simplify-conditional-expression.md
+        - name: Simplify LINQ expression
+          href: ide/reference/simplify-linq-expression.md
         - name: Simplify string interpolation
           href: ide/reference/simplify-string-interpolation.md
         - name: Sort usings
@@ -493,20 +519,14 @@
     - name: Code style
       items:
       - name: Code style preferences
-        href: /visualstudio/ide/code-styles-and-code-cleanup
+        href: ./ide/code-styles-and-code-cleanup.md
       - name: Use EditorConfig files for code style
         displayName: Configure code style analyzers
         href: ide/create-portable-custom-editor-options.md
-      - name: .NET coding conventions
-        items:
-        - name: Overview
-          href: ide/editorconfig-code-style-settings-reference.md
-        - name: Language conventions
-          href: ide/editorconfig-language-conventions.md
-        - name: Formatting conventions
-          href: ide/editorconfig-formatting-conventions.md
-        - name: Naming conventions
-          href: ide/editorconfig-naming-conventions.md
+      - name: C++ EditorConfig formatting conventions
+        href: ide/cpp-editorconfig-properties.md
+      - name: .NET coding conventions >>
+        href: /dotnet/fundamentals/code-analysis/code-style-rule-options
     - name: Customize the scroll bar
       href: ide/how-to-track-your-code-by-customizing-the-scrollbar.md
     - name: Set bookmarks in code
@@ -791,7 +811,7 @@
     - name: XML and XSLT files >>
       href: xml-tools/xml-tools-in-visual-studio.md
     - name: Docker containers >>
-      href: containers/index.yml 
+      href: containers/index.yml
     - name: Workflows >>
       href: workflow-designer/developing-applications-with-the-workflow-designer.md
     - name: Mobile apps
@@ -860,7 +880,7 @@
     href: msbuild/msbuild.md
   - name: Azure Pipelines and TFS >>
     displayName: VSTS Azure DevOps CI/CD Continuous integration delivery
-    href: /azure/devops/pipelines/index?view=vsts
+    href: /azure/devops/pipelines/index?view=vsts&preserve-view=true
   - name: Specify build events (Visual Basic)
     href: ide/how-to-specify-build-events-visual-basic.md
   - name: Specify build events (C#)
@@ -892,7 +912,7 @@
   - name: Customize the IDE
     displayName: Personalize
     href: ide/personalizing-the-visual-studio-ide.md
-  - name: "Quickstart: Personalize theme and text colors"
+  - name: "Personalize the color theme and text"
     href: ide/quickstart-personalize-the-ide.md
   - name: Environment settings
     displayName: profiles
@@ -1350,7 +1370,7 @@
     - name: Windows Information Protection (WIP)
       href: ide/exempt-visual-studio-from-wip.md
     - name: Federal Information Processing Standard (FIPS)
-      href: ide/fips-support-visual-studio.md      
+      href: ide/fips-support-visual-studio.md
   - name: Bidirectional language input
     href: ide/use-bidirectional-languages.md
   - name: Microsoft Help Viewer
@@ -1399,6 +1419,10 @@
     href: ide/whats-new-visual-studio-2017.md
   - name: What's new in Visual Studio 2019
     href: ide/whats-new-visual-studio-2019.md
+  - name: What's new in Visual Studio docs
+    href: ide/whats-new-visual-studio-docs.md
+  - name: History of what's new in Visual Studio docs
+    href: ide/whats-new-visual-studio-docs-history.md
   - name: Release notes & system requirements
     items:
     - name: Release rhythm
@@ -1464,5 +1488,12 @@
       href: ide/report-a-problem-perfview.md
   - name: Suggest a feature
     href: ide/suggest-a-feature.md
+  - name: Developer Community guidelines
+    href: ide/developer-community-guidelines.md
   - name: Developer Community data privacy
     href: ide/developer-community-privacy.md
+- name: Visual Studio 2015
+  expanded: true
+  items:
+  - name: Visual Studio 2015 documentation
+    href: vs-2015-archive.md

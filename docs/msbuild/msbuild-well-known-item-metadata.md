@@ -1,5 +1,7 @@
 ---
 title: MSBuild Well-known Item Metadata | Microsoft Docs
+description: Learn about MSBuild metadata assigned to every item upon creation, and some optional MSBuild metadata you can define to control build behavior.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 dev_langs:
@@ -19,7 +21,9 @@ ms.workload:
 ---
 # MSBuild well-known item metadata
 
-The following table describes the metadata assigned to every item upon creation. In each example, the following item declaration was used to include the file *C:\MyProject\Source\Program.cs* in the project.
+Item metadata are values attached to items. Some are assigned by MSBuild to items when items are create, but you can also define any metadata you need. Some user-defined metadata values have meaning to MSBuild, specific tasks tasks, or SDKs such as the .NET SDK.
+
+The first table in this article describes the metadata assigned to every item upon creation. The next table shows some optional metadata that has meaning for MSBuild, which you can define to control build behavior. In each example, the following item declaration was used to include the file *C:\MyProject\Source\Program.cs* in the project.
 
 ```xml
 <ItemGroup>
@@ -43,6 +47,7 @@ The following table describes the metadata assigned to every item upon creation.
 
 ## See also
 
+- [Common MSBuild item metadata](common-msbuild-item-metadata.md)
 - [Items](../msbuild/msbuild-items.md)
 - [Batching](../msbuild/msbuild-batching.md)
 - [MSBuild reference](../msbuild/msbuild-reference.md)

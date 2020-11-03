@@ -1,6 +1,6 @@
 ---
 title: VSTest.Console.exe command-line options
-ms.date: 07/12/2018
+ms.date: 07/17/2020
 ms.topic: reference
 helpviewer_keywords:
 - vstest.console.exe
@@ -29,7 +29,7 @@ The following table lists all the options for *VSTest.Console.exe* and short des
 | Option | Description |
 |---|---|
 |**[*test file names*]**|Run tests from the specified files. Separate multiple test file names with spaces.<br />Examples: `mytestproject.dll`, `mytestproject.dll myothertestproject.exe`|
-|**/Settings:[*file name*]**|Run tests with additional settings such as data collectors.<br />Example: `/Settings:Local.RunSettings`|
+|**/Settings:[*file name*]**|Run tests with additional settings such as data collectors. For more information, see [Configure unit tests using a .runsettings file](../test/configure-unit-tests-by-using-a-dot-runsettings-file.md)<br />Example: `/Settings:local.runsettings`|
 |**/Tests:[*test name*]**|Run tests with names that contain the provided values. To provide multiple values, separate them by commas.<br />Example: `/Tests:TestMethod1,testMethod2`<br />The **/Tests** command-line option cannot be used with the **/TestCaseFilter** command-line option.|
 |**/Parallel**|Specifies that the tests be executed in parallel. By default, up to all available cores on the machine can be used. You can configure the number of cores to use in a settings file.|
 |**/Enablecodecoverage**|Enables data diagnostic adapter CodeCoverage in the test run.<br />Default settings are used if not specified using settings file.|
@@ -37,7 +37,7 @@ The following table lists all the options for *VSTest.Console.exe* and short des
 |**/UseVsixExtensions**|This option makes the *vstest.console.exe* process use or skip the VSIX extensions installed (if any) in the test run.<br />This option is deprecated. Starting from the next major release of Visual Studio this option may be removed. Move to consuming extensions made available as a NuGet package.<br />Example: `/UseVsixExtensions:true`|
 |**/TestAdapterPath:[*path*]**|Forces the *vstest.console.exe* process to use custom test adapters from a specified path (if any) in the test run.<br />Example: `/TestAdapterPath:[pathToCustomAdapters]`|
 |**/Platform:[*platform type*]**|Target platform architecture to be used for test execution.<br />Valid values are x86, x64, and ARM.|
-|**/Framework: [*framework version*]**|Target .NET version to be used for test execution.<br />Example values are `Framework35`, `Framework40`, `Framework45`, `FrameworkUap10`, `.NETCoreApp,Version=v1.1`.<br />TargetFrameworkAttribute is used to automatically detect this option from your assembly, and defaults to `Framework40` when the attribute is not present. You must specify this option explicitly if you remove the [TargetFrameworkAttribute](https://docs.microsoft.com/dotnet/api/system.runtime.versioning.targetframeworkattribute) from your .NET Core assemblies.<br />If the target framework is specified as **Framework35**, the tests run in CLR 4.0 "compatibility mode".<br />Example: `/Framework:framework40`|
+|**/Framework: [*framework version*]**|Target .NET version to be used for test execution.<br />Example values are `Framework35`, `Framework40`, `Framework45`, `FrameworkUap10`, `.NETCoreApp,Version=v1.1`.<br />TargetFrameworkAttribute is used to automatically detect this option from your assembly, and defaults to `Framework40` when the attribute is not present. You must specify this option explicitly if you remove the [TargetFrameworkAttribute](/dotnet/api/system.runtime.versioning.targetframeworkattribute) from your .NET Core assemblies.<br />If the target framework is specified as **Framework35**, the tests run in CLR 4.0 "compatibility mode".<br />Example: `/Framework:framework40`|
 |**/TestCaseFilter:[*expression*]**|Run tests that match the given expression.<br /><Expression\> is of the format <property\>=<value\>[\|<Expression\>].<br />Example: `/TestCaseFilter:"Priority=1"`<br />Example: `/TestCaseFilter:"TestCategory=Nightly|FullyQualifiedName=Namespace.ClassName.MethodName"`<br />The **/TestCaseFilter** command-line option cannot be used with the **/Tests** command-line option. <br />For information about creating and using expressions, see [TestCase filter](https://github.com/Microsoft/vstest-docs/blob/master/docs/filter.md).|
 |**/?**|Displays usage information.|
 |**/Logger:[*uri/friendlyname*]**|Specify a logger for test results. Specify the parameter multiple times to enable multiple loggers.<br />Example: To log results into a Visual Studio Test Results File (TRX), use<br />**/Logger:trx**<br />**[;LogFileName=\<Defaults to unique file name>]**|

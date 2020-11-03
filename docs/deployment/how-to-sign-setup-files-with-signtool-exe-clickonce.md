@@ -1,5 +1,6 @@
 ---
-title: How to - Sign Setup Files with SignTool.exe (ClickOnce) | Microsoft Docs
+title: Sign setup files with SignTool.exe (ClickOnce)
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 

@@ -3,7 +3,7 @@ title: "Date object expected | Microsoft Docs"
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows
 ms.technology: vs-javascript
-ms.topic: reference
+ms.topic: error-reference
 f1_keywords: 
   - "VS.WebClient.Help.SCRIPT5006"
 dev_langs: 
@@ -29,6 +29,6 @@ o.f();
 - Only invoke the **Date.prototype.toString** or **Date.prototype.valueOf** methods on objects of type `Date`.  
   
 ## See also  
- [Date Object](../../javascript/reference/date-object-javascript.md)   
- [getDate Method (Date)](../../javascript/reference/getdate-method-date-javascript.md)   
- [Intrinsic Objects](../../javascript/intrinsic-objects-javascript.md)
+ [Date Object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date)   
+ [getDate Method (Date)](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/getdate)   
+ [Intrinsic Objects](https://developer.mozilla.org/docs/Learn/JavaScript/Objects)

@@ -11,7 +11,7 @@ manager: jillfra
 ms.workload:
 - vssdk
 ---
-# Implementing a Legacy Language Service
+# Implementing a legacy language service 2
 To implement a language service using the managed package framework (MPF), you must derive a class from the <xref:Microsoft.VisualStudio.Package.LanguageService> class and implement the following abstract methods and properties:
 
 - The <xref:Microsoft.VisualStudio.Package.LanguageService.GetLanguagePreferences%2A> method

@@ -4,8 +4,8 @@ author: evanwindom
 ms.author: v-evwin
 manager: lank
 ms.assetid: c4b13464-76be-40f1-ad60-ed79ee264b12
-ms.date: 04/17/2020
-ms.topic: conceptual
+ms.date: 10/22/2020
+ms.topic: how-to
 description:  Learn how to download and install the Visual Studio IDE included in your Visual Studio subscription.
 ---
 
@@ -21,7 +21,7 @@ To download the IDE:
 1. Sign in to [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs).
 2. Locate the Visual Studio IDE tile in the Tools section, and click on the **Download** link at the bottom of the benefit tile.  You can also download it from the [Downloads](https://my.visualstudio.com/downloads?wt.mc_id=o~msft~docs) page.
    > [!div class="mx-imgBorder"]
-   > ![Visual Studio Enterprise tile](_img/vs-ide-experience/vs-ide-tile.png)
+   > ![Visual Studio Enterprise tile](_img/vs-ide-experience/vs-ide-tile.png "Click "Download' on the Visual Studio tile to install Visual Studio.")
 
 3. You’ll be redirected to the Download Results page for Visual Studio, where you’ll have the opportunity to download the IDE and obtain a product key to activate it. You may also claim a product key by clicking on the blue **Get Key** link, or claim a key later on the [Product keys](https://my.visualstudio.com/productkeys) page.
 4. On the Details tab of the Download Results page:
@@ -29,19 +29,19 @@ To download the IDE:
    - Select your language preference.
 5. Click the blue download button.
    > [!div class="mx-imgBorder"]
-   > ![Visual Studio Enterprise download details](_img/vs-ide-experience/vs-ide-download-details.png)
+   > ![Visual Studio Enterprise download details](_img/vs-ide-experience/vs-ide-download-details.png "Click the 'Download' button to begin the download.")
 6. Click on the downloaded installer package.  If prompted to install now, click **Run**.
 7. In the User Account Control dialog, click **Yes**.
 8. Click **Continue** to accept the license terms.
 9. When the installer starts, choose your desired workloads, individual components and language packs by choosing them on the corresponding tabs.
    > [!div class="mx-imgBorder"]
-   > ![Customize Visual Studio Enterprise](_img/vs-ide-experience/vs-ide-customize-install-cropped.png)
+   > ![Customize Visual Studio Enterprise](_img/vs-ide-experience/vs-ide-customize-install-cropped.png "Make your choices for workloads and other components.")
 
 10. Click **Install**.
 
 11. When the installation is complete, you'll have the option to modify the installation or launch Visual Studio.  Click **Launch** to get started.  If you have multiple versions installed, they will be listed.
     > [!div class="mx-imgBorder"]
-    > ![Launch Visual Studio Enterprise](_img/vs-ide-experience/vs-ide-versions.png)
+    > ![Launch Visual Studio Enterprise](_img/vs-ide-experience/vs-ide-versions.png "Click 'Launch' to start Visual Studio.")
 
 12. Sign in with the account associated with your Visual Studio subscription.
 
@@ -50,7 +50,7 @@ To download the IDE:
 14. Visual Studio opens. You're ready to start using Visual Studio!
 
     > [!div class="mx-imgBorder"]
-    > ![Start Using Visual Studio Enterprise](_img/vs-ide-experience/vs-ide-start-cropped.png)
+    > ![Start Using Visual Studio Enterprise](_img/vs-ide-experience/vs-ide-start-cropped.png "Welcome to Visual Studio!")
 
 
 ## Eligibility
@@ -78,10 +78,10 @@ Not sure which subscription you're using?  Connect to [https://my.visualstudio.c
 - For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/).
 
 ## See also
-- [Visual Studio documentation](https://docs.microsoft.com/visualstudio/)
-- [Azure DevOps documentation](https://docs.microsoft.com/azure/devops/)
-- [Azure documentation](https://docs.microsoft.com/azure/)
-- [Microsoft 365 documentation](https://docs.microsoft.com/microsoft-365/)
+- [Visual Studio documentation](/visualstudio/)
+- [Azure DevOps documentation](/azure/devops/)
+- [Azure documentation](/azure/)
+- [Microsoft 365 documentation](/microsoft-365/)
 
 ## Next steps
 Once you have Visual Studio installed, don't forget to activate these other important benefits:

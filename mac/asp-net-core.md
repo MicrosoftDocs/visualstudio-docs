@@ -6,6 +6,8 @@ ms.author: sayedha
 ms.date: 04/02/2019
 ms.assetid: 6E8B0C90-33D6-4546-8207-CE0787584565
 ms.custom: video
+no-loc: [Blazor, "Blazor WebAssembly"]
+ms.topic: how-to
 ---
 
 # Getting Started with ASP.NET Core
@@ -14,7 +16,7 @@ ms.custom: video
 
 ## Installing .NET Core
 
-.NET Core 3.1 is automatically installed when you install Visual Studio for Mac. For more information about versions of .NET Core supported in Visual Studio for Mac see [.NET Core Support](/visualstudio/mac/net-core-support).
+.NET Core 3.1 is automatically installed when you install Visual Studio for Mac. For more information about versions of .NET Core supported in Visual Studio for Mac see [.NET Core Support](./net-core-support.md).
 
 ## Creating an ASP.NET Core app in Visual Studio for Mac
 

@@ -1,7 +1,8 @@
 ---
 title: "Create site column, content type, and list for SharePoint"
+titleSuffix: ""
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: how-to
 f1_keywords:
   - "VS.SharePointTools.ListDesigner.GeneralMessageHelp"
   - "Microsoft.VisualStudio.SharePoint.Designers.ListDesigner.ViewModels.ListViewModel.SortingAndGrouping"

@@ -1,6 +1,7 @@
 ---
 title: "Visual Studio Emulator for Android | Microsoft Docs"
-ms.custom: ""
+description: Learn how Visual Studio Emulator for Android is a desktop application that emulates an Android device.
+ms.custom: SEO-VS-2020
 ms.prod: visual-studio-dev15
 ms.date: "03/09/2020"
 ms.technology: vs-ide-mobile

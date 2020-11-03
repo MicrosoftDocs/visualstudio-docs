@@ -1,5 +1,7 @@
 ---
 title: Common MSBuild Project Properties | Microsoft Docs
+description: Learn about common MSBuild project properties that can be defined or used in project files or included in .targets files that MSBuild provides.
+ms.custom: SEO-VS-2020
 ms.date: 01/18/2018
 ms.topic: reference
 dev_langs:
@@ -131,3 +133,5 @@ The following table lists frequently used properties that are defined in the Vis
 ## See also
 
 - [Common MSBuild project items](../msbuild/common-msbuild-project-items.md)
+- [Common MSBuild item metadata](common-msbuild-item-metadata.md)
+- [MSBuild Reserved and Well-known Properties](msbuild-reserved-and-well-known-properties.md)

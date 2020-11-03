@@ -1,9 +1,10 @@
 ---
 title: Sign in to Visual Studio
+description: Learn how to sign in to Visual Studio. 
 titleSuffix: ''
-ms.custom: seodec18
-ms.date: 03/10/2020
-ms.topic: conceptual
+ms.custom: "seodec18, contperfq1"
+ms.date: 09/11/2020
+ms.topic: how-to
 ms.assetid: b9531c25-e4cf-43ae-b331-a9f31a8cd171
 author: ornellaalt
 ms.author: ornella
@@ -33,7 +34,7 @@ When you sign in, you enrich your Visual Studio experience. For example, after y
 Here's a full list of what you can expect and what you can do after you sign in:
 - **Extend the Visual Studio trial period** - You can use Visual Studio Professional or Visual Studio Enterprise for an additional 90 days, instead of being limited to the trial period of 30 days. For more information, see [Extend a trial version or update a license](../ide/how-to-unlock-visual-studio.md).
 
-- **Unlock the Visual Studio Community edition** - If your Community edition installation prompts you for a license, sign in to the IDE to unblock yourself.
+- **Continue using the Visual Studio Community edition** - If your Community edition installation prompts you for a license, sign in to the IDE to continue using Visual Studio Community for **free**. 
 
 - **Unlock Visual Studio if you use an account that's associated with a Visual Studio subscription or an Azure DevOps organization**. For detailed instructions, see [Extend a trial version or update a license](../ide/how-to-unlock-visual-studio.md).
 

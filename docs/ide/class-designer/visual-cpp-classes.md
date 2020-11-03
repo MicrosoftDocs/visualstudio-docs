@@ -48,7 +48,7 @@ Right-clicking a class shape and then clicking **Show Base Classes** displays th
 > [!NOTE]
 > The **Show Derived Classes** command is not supported for C++ code. You can display derived classes by going to **Class View**, expanding the type node, expanding the **Derived Types** subfolder, and then dragging those types onto the class diagram.
 
-For more information about multiple-class inheritance, see [Multiple Inheritance](https://msdn.microsoft.com/library/6td5yws2.aspx) and [Multiple Base Classes](/cpp/cpp/multiple-base-classes).
+For more information about multiple-class inheritance, see [Multiple Inheritance](/previous-versions/6td5yws2(v=vs.140)) and [Multiple Base Classes](/cpp/cpp/multiple-base-classes).
 
 ## Abstract classes
 
@@ -171,6 +171,6 @@ The following table shows some examples of canonical specialized class connectio
 - [Working with C++ Code](working-with-visual-cpp-code.md)
 - [Classes and Structs](/cpp/cpp/classes-and-structs-cpp)
 - [Anonymous Class Types](/cpp/cpp/anonymous-class-types)
-- [Multiple Inheritance](https://msdn.microsoft.com/library/6td5yws2.aspx)
+- [Multiple Inheritance](/previous-versions/6td5yws2(v=vs.140))
 - [Multiple Base Classes](/cpp/cpp/multiple-base-classes)
 - [Templates](/cpp/cpp/templates-cpp)

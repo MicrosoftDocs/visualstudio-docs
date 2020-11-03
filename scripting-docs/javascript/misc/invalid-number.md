@@ -3,7 +3,7 @@ title: "Invalid number | Microsoft Docs"
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows
 ms.technology: vs-javascript
-ms.topic: reference
+ms.topic: error-reference
 f1_keywords: 
   - "VS.WebClient.Help.SCRIPT1013"
 dev_langs: 
@@ -20,4 +20,4 @@ Invalid Number (ErrbadNumber 1013)
   
  You tried to use a number that is not valid in JavaScript.  
   
- For information about valid numbers, see [Number Object](../../javascript/reference/number-object-javascript.md).
+ For information about valid numbers, see [Number Object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number).

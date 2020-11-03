@@ -3,7 +3,7 @@ title: "Expected ']' | Microsoft Docs"
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows
 ms.technology: vs-javascript
-ms.topic: reference
+ms.topic: error-reference
 f1_keywords: 
   - "VS.WebClient.Help.SCRIPT1007"
 dev_langs: 
@@ -23,5 +23,5 @@ You made a reference to an array element, but did not include the right bracket.
 - Add the right bracket to the expression that refers to the array element.  
   
 ## See also  
- [Using Arrays](../../javascript/advanced/using-arrays-javascript.md)   
- [Array Object](../../javascript/reference/array-object-javascript.md)
+ [Using Arrays](https://developer.mozilla.org/docs/Learn/JavaScript/First_steps/Arrays)   
+ [Array Object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array)

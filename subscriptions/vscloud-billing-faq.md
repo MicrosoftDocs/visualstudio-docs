@@ -1,10 +1,10 @@
 ---
-title: Billing FAQ for Visual Studio Enterprise and Visual Studio Professional cloud subscriptions
+title: Billing FAQ for Visual Studio Visual cloud subscriptions | Microsoft Docs
 author: evanwindom
 ms.author: v-evwin
-manager: lank
+manager: cabuschl
 ms.assetid: 21e0471d-ad59-4d21-9c6f-13f7147569af
-ms.date: 03/24/2020
+ms.date: 10/21/2020
 ms.topic: conceptual
 description:  Billing questions for cloud subscriptions.
 ---
@@ -28,12 +28,12 @@ A: Not at all. If you only want to buy Visual Studio cloud subscriptions via Azu
 
 ## Enterprise Agreement (EA) customers
 ### Q: Can I use an Enterprise Agreement to buy Visual Studio cloud subscriptions?
-A: Yes, you can. You'll need to be an owner or contributor for an Azure subscription that was created for your EA. Please make sure that you make your
+A: Yes, you can. You'll need to be a contributor or higher role for an Azure subscription that was created for your EA. Please make sure that you make your
 purchases for Visual Studio cloud subscriptions directly in the Visual Studio Marketplace. You cannot purchase Visual Studio cloud subscriptions using a
 Purchase Order.
 
 ### Q: How can I tell whether I have the necessary privileges to buy services in the Visual Studio Marketplace through my organization's Enterprise Agreement?
-A: The easiest approach to determine if you have the right privileges is to click the **Buy** button for a service offered in the Visual Studio Marketplace.
+A: The easiest approach to determine if you have the right privileges is to select the **Buy** button for a service offered in the Visual Studio Marketplace.
 You need to select an Azure subscription (which is a billing account) from a presented list of Azure subscriptions that are currently linked to your login.
 Because the name of the Azure subscription defaults to the type of billing account ("Pay-As-You-Go", "Enterprise Agreement", etc.), it is often clear if the
 Azure subscription is part of your Enterprise Agreement.
@@ -108,15 +108,15 @@ A:  Yes. As new versions are released, you can download and run them. Plus you c
 A:  Yes, you can, if your reseller participates in the Cloud Solution Provider (CSP) program. Just ask them.
 
 ## Related resources
-- [Visual Studio Subscriptions Administration portal](https://manage.visualstudio.com/)
+- [Visual Studio Subscriptions Admin portal](https://manage.visualstudio.com/)
 - [Visual Studio subscription support](https://visualstudio.microsoft.com/vs/support/)
 - [Visual Studio cloud subscription purchasing for CSPs](vscloud-csp.md)
 
 ## See also
-- [Visual Studio documentation](https://docs.microsoft.com/visualstudio/)
-- [Azure DevOps documentation](https://docs.microsoft.com/azure/devops/)
-- [Azure documentation](https://docs.microsoft.com/azure/)
-- [Microsoft 365 documentation](https://docs.microsoft.com/microsoft-365/)
+- [Visual Studio documentation](/visualstudio/)
+- [Azure DevOps documentation](/azure/devops/)
+- [Azure documentation](/azure/)
+- [Microsoft 365 documentation](/microsoft-365/)
 
 ## Next steps
 Buy cloud subscriptions now

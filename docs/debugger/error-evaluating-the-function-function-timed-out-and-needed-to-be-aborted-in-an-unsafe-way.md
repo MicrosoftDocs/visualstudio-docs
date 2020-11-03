@@ -1,5 +1,5 @@
 ---
-title: "Error - Evaluating the function &#39;function&#39; timed out and needed to be aborted in an unsafe way | Microsoft Docs"
+title: "Evaluating the function &apos;function&apos; timed out and needed to be aborted in an unsafe way | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "error-reference"
 f1_keywords:
@@ -14,7 +14,7 @@ ms.workload:
 
 Full message text: Evaluating the function 'function' timed out and needed to be aborted in an unsafe way. This may have corrupted the target process.
 
-To make it easier to inspect the state of .NET objects, the debugger will automatically force the debugged process to run additional code (typically property getter methods and ToString functions). In most all scenarios, these functions complete quickly and make debugging much easier. However, the debugger doesn't run the application in a sandbox. As a result, a property getter or ToString method that calls into a native function that hangs can lead to long timeouts that may not be recoverable. If you encounter this error message, this has occurred.
+To make it easier to inspect the state of .NET objects, the debugger will automatically force the debugged process to run additional code (typically property getter methods and ToString functions). In most all scenarios, these functions complete quickly and make debugging much easier. However, the debugger doesn't run the application in a sandbox. As a result, a property getter or ToString method that calls into a native function that stops responding can lead to long timeouts that may not be recoverable. If you encounter this error message, this has occurred.
 
 One common reason for this problem is that when the debugger evaluates a property, it only allows the thread being inspected to execute. So if the property is waiting on other threads to run inside the debugged application, and if it is waiting in a way that the .NET Runtime isn't able to interrupt, this problem will happen.
 

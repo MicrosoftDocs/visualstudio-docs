@@ -3,7 +3,7 @@ title: "Expected '{' | Microsoft Docs"
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows
 ms.technology: vs-javascript
-ms.topic: reference
+ms.topic: error-reference
 f1_keywords: 
   - "VS.WebClient.Help.SCRIPT1008"
 dev_langs: 
@@ -23,4 +23,4 @@ You did not include the left brace that marks the beginning of the function body
 - Add the left brace that marks the beginning of the function body.  
   
 ## See also  
- [Function Object](../../javascript/reference/function-object-javascript.md)
+ [Function Object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Function)

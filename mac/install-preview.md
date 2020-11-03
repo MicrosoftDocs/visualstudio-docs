@@ -6,6 +6,7 @@ ms.author: dominicn
 ms.date: 09/18/2019
 ms.technology: vs-ide-install
 ms.assetid: 0E1EF257-9DE4-4653-9DF4-805CE007A1A1
+ms.topic: how-to
 ---
 # Install a preview version of Visual Studio for Mac
 

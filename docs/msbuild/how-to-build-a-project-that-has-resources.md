@@ -1,5 +1,7 @@
 ---
 title: 'How to: Build a Project That Has Resources | Microsoft Docs'
+description: Learn about how to build a project that has resources, and how to compile resources by using MSBuild.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -32,7 +34,7 @@ The library of common tasks that is provided with MSBuild includes a `GenerateRe
 
 4. Use the item created from the `Output` element as an input into another task.
 
-## Example
+## Example 1
 
 The following code example shows how the `Output` element specifies that the `OutputResources` attribute of the `GenerateResource` task will contain the compiled resource files *alpha.resources* and *beta.resources* and that those two files will be placed inside the `Resources` item list. By identifying those *.resources* files as a collection of items of the same name, you can easily use them as inputs for another task, such as the [Csc](../msbuild/csc-task.md) task.
 
@@ -49,7 +51,7 @@ This task is equivalent to using the **/compile** switch for [Resgen.exe](/dotne
 </GenerateResource>
 ```
 
-## Example
+## Example 2
 
 The following example project contains two tasks: the `GenerateResource` task to compile resources and the `Csc` task to compile both the source code files and the compiled resources files. The resource files compiled by the `GenerateResource` task are stored in the `Resources` item and passed to the `Csc` task.
 

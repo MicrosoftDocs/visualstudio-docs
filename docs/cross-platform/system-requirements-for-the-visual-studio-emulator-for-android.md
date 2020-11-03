@@ -1,6 +1,7 @@
 ---
-title: "System Requirements for the Visual Studio Emulator for Android | Microsoft Docs"
-ms.custom: ""
+title: "System requirements for the VS Emulator for Android"
+description: Learn about the system requirements for the Visual Studio Emulator for Android to run as a virtual machine on Hyper-V.
+ms.custom: SEO-VS-2020
 ms.prod: visual-studio-dev15
 ms.date: "11/04/2016"
 ms.technology: vs-ide-mobile

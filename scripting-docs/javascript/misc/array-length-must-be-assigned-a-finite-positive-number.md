@@ -3,7 +3,7 @@ title: "Array length must be assigned a finite positive number | Microsoft Docs"
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows
 ms.technology: vs-javascript
-ms.topic: reference
+ms.topic: error-reference
 f1_keywords: 
   - "VS.WebClient.Help.SCRIPT5030"
 dev_langs: 
@@ -28,4 +28,4 @@ When setting the **length** property of an existing **Array** object, you specif
     ```  
   
 ## See also  
- [Using Arrays](../../javascript/advanced/using-arrays-javascript.md)
+ [Using Arrays](https://developer.mozilla.org/docs/Learn/JavaScript/First_steps/Arrays)

@@ -1,11 +1,11 @@
 ---
-title: Technical Support Benefit
+title: Technical Support benefit in Visual Studio subscriptions
 author: evanwindom
 ms.author: v-evwin
-manager: lank
+manager: cabuschl
 ms.assetid: 2e0fd8bb-8f20-487c-b350-b8fde405ea5e
-ms.date: 03/26/2020
-ms.topic: conceptual
+ms.date: 10/28/2020
+ms.topic: how-to
 description: Learn how to activate the technical support benefit included with your Visual Studio subscription.
 ---
 # Activate and use the Technical Support benefit in Visual Studio subscriptions
@@ -26,6 +26,15 @@ Non-developer products (such as SQL, Windows, SharePoint) downloaded from Visual
 
 Product level descriptions: Expand **Unavailable support plans**. If you see **Support plan cannot be used for support on the specified product (Code: 8)**, your support contract cannot be used for the product version you selected.
 
+> [!IMPORTANT]
+> The support incidents provided are for break-fix support.  They may not be used for assistance with coding/development issues involving the following products:
+> - Microsoft Teams
+> - Microsoft Office
+> - Microsoft SharePoint
+> - Microsoft Exchange
+> - Microsoft Graph
+> - Microsoft Outlook
+
 ## How to activate the benefit
 1. Go to <https://my.visualstudio.com/Benefits>, scroll down to the Support section and on the Technical Support tile click **Chat to activate**.
     > [!div class="mx-imgBorder"]
@@ -33,7 +42,7 @@ Product level descriptions: Expand **Unavailable support plans**. If you see **S
 2. This will initiate a chat session with a representative who can create your **Contract ID** and **Access ID** and provide those to you via email so you will have them for your records.
 
 3. To complete the process, you will need to provide the representative with:
-   - Your country
+   - Your country/region
    - Company name
    - Your full name
    - The email address you use to sign in to your subscription
@@ -46,10 +55,10 @@ Product level descriptions: Expand **Unavailable support plans**. If you see **S
 4. After the process is completed, you will receive an email containing your **Contract ID** and **Access ID** you will use when creating a support incident.  It will also provide instructions for submitting support incidents using your new Access ID and Contract ID. 
 
 > [!NOTE]
-> To activate your support account in a language other than English, choose your country from [this list](https://support.microsoft.com/help/14084/activate-support-contract).
+> To activate your support account in a language other than English, choose your country/region from [this list](https://support.microsoft.com/help/14084/activate-support-contract).
 
 ## How to submit an incident using your benefit
-Once you have your **Contract ID** and **Access ID** set up, you can use it to submit a Tech Support incident [online](https://support.microsoft.com/oas/) (sign-in required), or via the [Azure portal](https://ms.portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/overview) , or by calling the technical support number for your country. If you submit your incident online, you have the option to have a Microsoft Support Professional call you back.
+Once you have your **Contract ID** and **Access ID** set up, you can use it to submit a Tech Support incident [online](https://support.microsoft.com/oas/) (sign-in required), or via the [Azure portal](https://ms.portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/overview) , or by calling the technical support number for your country/region. If you submit your incident online, you have the option to have a Microsoft Support Professional call you back.
 
 ### Already have your Contract ID and Access ID associated with the account used to sign in to submit a Tech Support incident online?
 When submitting an incident online, you will first be prompted to sign in. Sign in with the account you know is associated with your Contract ID and Access ID. Your existing Support Plan benefit associated to your account will appear on Step 3 in the support workflow. Simply select that plan and continue to submit your case. You can submit incidents up to the limit indicated on the plan or until the expiration date of the plan, whichever comes first. Once remaining incidents show “0” or if your plan expires, it is no longer active.
@@ -93,7 +102,7 @@ When submitting an incident online, you will first be prompted to sign in. Using
 6. Complete the remaining steps (severity, contact information, review).   After you submit your incident, you’ll see a confirmation that your incident has been successfully submitted and you can upload files to the case. A Support Professional will be assigned to your incident and will reach out to you to resolve your issue using the contact method you selected.
 
 #### Submit an incident by phone
-If you would like to create a support incident over the phone, please locate the [Customer Service](https://support.microsoft.com/help/13948/global-customer-service-phone-numbers) phone number for your country. Please ensure you have your Contract ID and Access ID available when you call.
+If you would like to create a support incident over the phone, please locate the [Customer Service](https://support.microsoft.com/help/13948/global-customer-service-phone-numbers) phone number for your country/region. Please ensure you have your Contract ID and Access ID available when you call.
 
 #### Submit an incident within the Azure portal
 To use your Visual Studio subscription technical support benefit for issues relating to Azure, you will need to link your Contract ID and Access ID to your Azure subscription.
@@ -122,10 +131,10 @@ To use your Visual Studio subscription technical support benefit for issues rela
 Not sure which subscription you're using?  Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to your email address. If you don't see all your subscriptions, you may have one or more assigned to a different email address.  You'll need to sign in with that email address to see those subscriptions.
 
 ## See also
-- [Visual Studio documentation](https://docs.microsoft.com/visualstudio/)
-- [Azure DevOps documentation](https://docs.microsoft.com/azure/devops/)
-- [Azure documentation](https://docs.microsoft.com/azure/)
-- [Microsoft 365 documentation](https://docs.microsoft.com/microsoft-365/)
+- [Visual Studio documentation](/visualstudio/)
+- [Azure DevOps documentation](/azure/devops/)
+- [Azure documentation](/azure/)
+- [Microsoft 365 documentation](/microsoft-365/)
 
 ## Next steps
 Be sure to activate these great benefits to make the most of your Visual Studio subscription:

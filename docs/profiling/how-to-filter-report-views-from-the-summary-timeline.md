@@ -1,5 +1,5 @@
 ---
-title: How to - Filter Report Views from the Summary Timeline | Microsoft Docs
+title: Filter Report Views from the Summary Timeline | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: how-to
 ms.assetid: 056b10a0-952b-4790-89e0-02aebe902e87

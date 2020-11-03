@@ -3,7 +3,7 @@ title: "Cannot assign to 'this' | Microsoft Docs"
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows
 ms.technology: vs-javascript
-ms.topic: reference
+ms.topic: error-reference
 f1_keywords:
   - "VS.WebClient.Help.SCRIPT5000"
 dev_langs:
@@ -35,5 +35,5 @@ Inside a method, you can use **this** to refer to the current object, but you ca
 
 ## See also
 
-- [this Statement](../../javascript/reference/this-statement-javascript.md)
-- [Troubleshooting Your Scripts](../../javascript/advanced/troubleshooting-your-scripts-javascript.md)
+- [this Statement](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/this)
+- [Troubleshooting Your Scripts](https://developer.mozilla.org/docs/Learn/JavaScript/First_steps/What_went_wrong)

@@ -30,7 +30,7 @@ A *dump file* is a snapshot that shows the process that was executing and module
 
 Opening a dump file with a heap in Visual Studio is something like stopping at a breakpoint in a debug session. Although you can't continue execution, you can examine the stacks, threads, and variable values of the app at the time of the dump.
 
-Dumps are mostly used to debug issues from machines that developers don't have access to. You can use a dump file from a customer's machine when you can't reproduce a crash or hang on your own machine. Testers also create dumps to save crash or hang data to use for more testing.
+Dumps are mostly used to debug issues from machines that developers don't have access to. You can use a dump file from a customer's machine when you can't reproduce a crash or unresponsive program on your own machine. Testers also create dumps to save crash or unresponsive program data to use for more testing.
 
 The Visual Studio debugger can save dump files for managed or native code. It can debug dump files created by Visual Studio or by other apps that save files in the *minidump* format.
 
@@ -69,7 +69,7 @@ With [Just-In-Time Debugging](../debugger/just-in-time-debugging-in-visual-studi
 1. Browse to a path and select a name for the dump file, and then select **Save**.
 
 >[!NOTE]
->You can create dump files with any program that supports the Windows minidump format. For example, the **Procdump** command-line utility from [Windows Sysinternals](https://technet.microsoft.com/sysinternals/default) can create process crash dump files based on triggers or on demand. See [Requirements and limitations](../debugger/using-dump-files.md#BKMK_Requirements_and_limitations) for information about using other tools to create dump files.
+>You can create dump files with any program that supports the Windows minidump format. For example, the **Procdump** command-line utility from [Windows Sysinternals](/sysinternals/) can create process crash dump files based on triggers or on demand. See [Requirements and limitations](../debugger/using-dump-files.md#BKMK_Requirements_and_limitations) for information about using other tools to create dump files.
 
 ## <a name="BKMK_Open_a_dump_file"></a> Open a dump file
 

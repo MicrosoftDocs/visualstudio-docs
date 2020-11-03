@@ -5,6 +5,7 @@ author: heiligerdankgesang
 ms.author: dominicn
 ms.date: 12/05/2018
 ms.assetid: DDC39599-8C5D-4CB9-8DA5-229E085384CA
+ms.topic: overview
 ---
 # Visual Studio for Mac Workloads
 

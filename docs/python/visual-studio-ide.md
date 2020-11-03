@@ -32,7 +32,7 @@ This image shows Visual Studio with an open Python project and several key tool 
 - The [Output window](../ide/reference/output-window.md) (bottom center) is where Visual Studio sends notifications such as debugging and error messages, warnings, publishing status messages, and more. Each message source has its own tab.
   - A [Python Interactive REPL window](python-interactive-repl-in-visual-studio.md) appears in the same area as the Output window.
 
-- [Team Explorer](/azure/devops/user-guide/work-team-explorer?view=vsts) (bottom right) lets you track work items and share code with others using version control technologies such as [Git](https://git-scm.com/) and [Team Foundation Version Control (TFVC)](/azure/devops/repos/tfvc/overview?view=vsts).
+- [Team Explorer](/azure/devops/user-guide/work-team-explorer?view=vsts&preserve-view=true) (bottom right) lets you track work items and share code with others using version control technologies such as [Git](https://git-scm.com/) and [Team Foundation Version Control (TFVC)](/azure/devops/repos/tfvc/overview?view=vsts&preserve-view=true).
 
 ## Editions
 
@@ -89,8 +89,8 @@ Some of the popular features in Visual Studio that help you to be more productiv
 ::: moniker-end
 
 - [Collaborate using Visual Studio](/visualstudio/liveshare/)
-  
-    Visual Studio Live Share enables you to collaboratively edit and debug with others in real time, regardless of what programming language you're using or app types you're building. 
+
+    Visual Studio Live Share enables you to collaboratively edit and debug with others in real time, regardless of what programming language you're using or app types you're building.
 
 - [Python Interactive REPL](python-interactive-repl-in-visual-studio.md)
 

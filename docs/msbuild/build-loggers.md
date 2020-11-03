@@ -1,5 +1,7 @@
 ---
 title: Build Loggers | Microsoft Docs
+description: Use MSBuild loggers to manage and customize the output of your build and display messages, errors, or warnings in response to specific build events.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -58,7 +60,7 @@ The following command line builds the project with the same logger, but with a `
 MSBuild -nologo -noconsolelogger -logger:SimpleLogger.dll -verbosity:Detailed
 ```
 
-## Example
+## Example 1
 
 ### Description
 
@@ -68,7 +70,7 @@ The following example contains the complete code for the logger.
 
 [!code-csharp[msbuild_SimpleConsoleLogger#1](../msbuild/codesnippet/CSharp/build-loggers_4.cs)]
 
-## Example
+## Example 2
 
 ### Description
 

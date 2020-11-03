@@ -1,6 +1,7 @@
 ---
-title: Deploy an ASP.NET Core Docker container to Azure App Service | Microsoft Docs
-description: Learn how to use Visual Studio Container Tools to deploy an ASP.NET Core web app to Azure App Service
+title: Deploy an ASP.NET Core container to Azure App Service
+description: Learn how to use Visual Studio Container Tools to deploy an ASP.NET Core web app in a Docker container to Azure App Service
+ms.custom: SEO-VS-2020
 author: ghogen
 manager: jillfra
 ms.technology: vs-azure
@@ -131,7 +132,7 @@ From there, you can view the container information, view or download logs, or se
 
 To remove all Azure resources associated with this tutorial, delete the resource group using the [Azure portal](https://portal.azure.com). To find the resource group associated with a published web application, choose **View** > **Other Windows** > **Web Publish Activity**, and then choose the gear icon. The **Publish** tab opens, which contains the resource group.
 
-In the Azure portal, choose **Resource groups**, select the resource group to open its details page. Verify that this is the correct resource group, and then choose **Remove resource group**, type the name, and choose **Delete**.
+In the Azure portal, choose **Resource groups**, select the resource group to open its details page. Verify that this is the correct resource group, then choose **Remove resource group**, type the name, and choose **Delete**.
 
 ## Next steps
 

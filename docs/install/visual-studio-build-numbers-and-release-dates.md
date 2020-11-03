@@ -5,7 +5,7 @@ description: A list of released versions and build numbers for Visual Studio, so
 author: ornellaalt
 ms.author: ornella
 manager: jillfra
-ms.date: 06/30/2020
+ms.date: 10/27/2020
 ms.topic: reference
 ms.workload:
 - multiple
@@ -23,11 +23,42 @@ The following table lists the build numbers and release dates for Visual Studio 
 
 | **Version**| **Channel** | **Release date** | **Build version** |
 | ---------------------- | ----------- | ---------------- | ----------------- |
+| 16.8.0 | Preview 6 | October 27, 2020 | 16.8.30626.31 |
+| 16.7.7 | Release | October 27, 2020 | 16.7.30621.155 |
+| 16.8.0 | Preview 5 | October 20, 2020 | 16.8.30615.102 |
+| 16.7.6 | Release | October 13, 2020 | 16.7.30611.23 |
+| 16.8.0 | Preview 4 | October 13, 2020 | 16.8.30608.117 |
+| 16.0.19 | Release | October 13, 2020 | 16.0.28803.846 |
+| 16.4.14 | Release | October 13, 2020 | 16.4.30607.51 |
+| 16.8.0 | Preview 3.2 | September 29, 2020 | 16.8.30524.135 |
+| 16.7.5 | Release | September 29, 2020 |  16.7.30523.141 |
+| 16.8.0 | Preview 3.1 | September 22, 2020 | 16.8.30516.212 |
+| 16.7.4 | Release | September 21, 2020 | 16.7.30517.126 |
+| 16.8.0 | Preview 3 | September 14, 2020 | 16.8.30509.190 |
+| 16.7.3 | Release | September 8, 2020 | 16.7.30503.244 |
+| 16.4.13 | Release | September 8, 2020 | 16.4.30427.197 |
+| 16.0.18 | Release | September 8, 2020 | 16.0.28803.826 |
+| 16.8.0 | Preview 2.1 | August 31, 2020 | 16.8.30428.66 |
+| 16.8.0 | Preview 2 | August 25, 2020 | 16.8.30420.98 |
+| 16.7.2 | Release | August 18, 2020 | 16.7.30413.136 |
+| 16.7.1 | Release | August 11, 2020 | 16.7.30406.217 |
+| 16.4.12 | Release | August 11, 2020 | 16.4.30406.169 |
+| 16.0.17 | Release | August 11, 2020 | 16.0.28803.806 |
+| 16.8.0 | Preview 1 | August 5, 2020 | 16.8.30404.54 |
+| 16.7.0 | Release | August 5, 2020 | 16.7.30330.147 |
+| 16.7.0 | Preview 6 | July 28, 2020 | 16.7.30323.103 |
+| 16.7.0 | Preview 5 | July 21, 2020 | 16.7.30317.65 |
+| 16.6.5 | Release | July 21, 2020 | 16.6.30320.27 |
+| 16.7.0 | Preview 4 | July 14, 2020 | 16.7.30310.162 |
+| 16.6.4 | Release | July 14, 2020 | 16.6.30309.148 |
+| 16.4.11 | Release | July 14, 2020 | 16.4.30308.118 |
+| 16.0.16 | Release | July 14, 2020 | 16.0.28803.791 |
 | 16.6.3 | Release | June 30, 2020 | 16.6.30225.117 |
 | 16.7.0 | Preview 3.1 | June 25, 2020 | 16.7.30223.230 |
 | 16.7.0 | Preview 3 | June 23, 2020 | 16.7.30218.91 |
 | 16.0.15 | Release | June 9, 2020 | 16.0.28803.753 |
 | 16.6.2 | Release | June 9, 2020 | 16.6.30204.135 |
+| 16.4.10 | Release | June 9, 2020 | 16.4.30204.51 |
 | 16.7.0 | Preview 2 | June 2, 2020 | 16.7.30128.36 |
 | 16.6.1 | Release | June 1, 2020 | 16.6.30128.74 |
 | 16.4.9 | Release | May 27, 2020 | 16.4.30120.98 |
@@ -138,7 +169,7 @@ The following table lists the build numbers and release dates for Visual Studio 
 | 16.0.0 | Preview 1 | December 4, 2018 | 16.0.28329.73 |
 
 > [!NOTE]
-> For a list of the build numbers and release dates for the previous version, see [Visual Studio 2017 build numbers and release dates](visual-studio-build-numbers-and-release-dates.md?view=vs-2017)
+> For a list of the build numbers and release dates for the previous version, see [Visual Studio 2017 build numbers and release dates](visual-studio-build-numbers-and-release-dates.md?view=vs-2017&preserve-view=true)
 
 ::: moniker-end
 
@@ -150,6 +181,10 @@ The following table lists the build numbers and release dates for Visual Studio 
 
 | **Version**| **Channel** | **Release date** | **Build version** |
 | ---------------------- | ----------- | ---------------- | ----------------- |
+| 15.9.28 | Release | October 13, 2020 | 15.9.28307.1274 |
+| 15.9.27 | Release | September 8, 2020 | 15.9.28307.1259 |
+| 15.9.26 | Release | August 11, 2020 | 15.9.28307.1234 |
+| 15.9.25 | Release | July 14, 2020 | 15.9.28307.1216 |
 | 15.9.24 | Release | June 9, 2020 | 15.9.28307.1177 |
 | 15.9.23 | Release | May 12, 2020 | 15.9.28307.1146 |
 | 15.9.22 | Release | April 14, 2020 | 15.9.28307.1093 |
@@ -319,7 +354,7 @@ The following table lists the build numbers and release dates for Visual Studio 
 | 15.0.0 | Release | March 7, 2017 | 15.0.26228.4 |
 
 > [!NOTE]
-> For more information about build numbers and release dates for the next version of Visual Studio, see the [Visual Studio 2019 build numbers and release dates](/visualstudio/install/visual-studio-build-numbers-and-release-dates?view=vs-2019) page.
+> For more information about build numbers and release dates for the next version of Visual Studio, see the [Visual Studio 2019 build numbers and release dates](?preserve-view=true&view=vs-2019) page.
 
 ::: moniker-end
 
@@ -327,7 +362,8 @@ The following table lists the build numbers and release dates for Visual Studio 
 
 ## See also
 
-* [Visual Studio release rhythm](/visualstudio/productinfo/release-rhythm/)
+* [Visual Studio Roadmap](/visualstudio/productinfo/vs-roadmap)
+* [Visual Studio release rhythm](/visualstudio/productinfo/release-rhythm)
 * [Visual Studio administrator guide](visual-studio-administrator-guide.md)
 * [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md)
 * [Tools for detecting and managing Visual Studio instances](tools-for-managing-visual-studio-instances.md)

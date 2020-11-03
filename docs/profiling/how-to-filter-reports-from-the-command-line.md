@@ -1,5 +1,5 @@
 ---
-title: How to - Filter Reports from the Command Line | Microsoft Docs
+title: Filter Reports from the Command Line | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: how-to
 ms.assetid: 6e9b140f-b44f-4a5c-bd65-d868ddc94023

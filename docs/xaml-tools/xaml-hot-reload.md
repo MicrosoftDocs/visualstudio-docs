@@ -1,8 +1,8 @@
 ---
 title: "Write and debug XAML using XAML Hot Reload"
 description: "XAML Hot Reload, or XAML edit and continue, allows you to make changes to your XAML code while running apps"
-ms.date: "08/05/2019"
-ms.topic: "conceptual"
+ms.date: 09/23/2020
+ms.topic: conceptual
 helpviewer_keywords:
   - "xaml edit and continue"
   - "xaml hot reload"
@@ -49,7 +49,7 @@ The following are known limitations of XAML Hot Reload. To work around any limit
 |Managing NuGet packages (adding/removing/updating packages)|Not Supported|Not Supported|None|
 |Changing data binding that uses the {x:Bind} markup extension|N/A|Supported starting in Visual Studio 2019|This requires Windows 10 version 1809 (build 10.0.17763). Not supported in Visual Studio 2017 or previous versions.|
 |Changing x:Uid directives is not supported|N/A|Not Supported|None|
-|Multiple processes | Not Supported | Not Supported | Hot reload can only be used against 1 process at a time. |
+|Multiple processes | Supported | Supported | Supported in Visual Studio 2019 [version 16.6](/visualstudio/releases/2019/release-notes-v16.6) and later |
 
 ## Error messages
 

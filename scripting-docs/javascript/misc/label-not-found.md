@@ -3,7 +3,7 @@ title: "Label not found | Microsoft Docs"
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows
 ms.technology: vs-javascript
-ms.topic: reference
+ms.topic: error-reference
 f1_keywords: 
   - "VS.WebClient.Help.SCRIPT1026"
 dev_langs: 
@@ -25,7 +25,7 @@ You made a reference to a label that does not exist. Labels can be used to mark 
 - Ensure all label references are made to labels that have been defined in the current scope (this includes forward definitions).  
   
 ## See also  
- [Labeled Statement](../../javascript/reference/labeled-statement-javascript.md)   
- [switch Statement](../../javascript/reference/switch-statement-javascript.md)   
- [break Statement](../../javascript/reference/break-statement-javascript.md)   
- [continue Statement](../../javascript/reference/continue-statement-javascript.md)
+ [Labeled Statement](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/label)   
+ [switch Statement](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/switch)   
+ [break Statement](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/break)   
+ [continue Statement](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/continue)
