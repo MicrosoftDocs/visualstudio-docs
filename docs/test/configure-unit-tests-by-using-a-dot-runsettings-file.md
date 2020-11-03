@@ -182,7 +182,7 @@ The **RunConfiguration** element can include the following elements:
 |**TestAdaptersPaths**||One or more paths to the directory where the TestAdapters are located|
 |**TestSessionTimeout**||Allows users to terminate a test session when it exceeds a given timeout. Setting a timeout ensures that resources are well consumed and test sessions are constrained to a set time. The setting is available in **Visual Studio 2017 version 15.5** and later.|
 |**DotnetHostPath**||Specify a custom path to dotnet host that is used to run the testhost. This is useful when you are building your own dotnet, for example when building the dotnet/runtime repository. Specifying this option will skip looking for testhost.exe, and will always use the testhost.dll.|
-|**TreatNoTestsAsError**|false| true or false <br>Specify a boolean value, which defines the exit code when no tests are discovered. If the value is `true` and no tests are discovered then non-zero exit code is returned. Otherwise zero is returned.|
+|**TreatNoTestsAsError**|false| true or false <br>Specify a Boolean value, which defines the exit code when no tests are discovered. If the value is `true` and no tests are discovered, a non-zero exit code is returned. Otherwise, zero is returned.|
 
 ## DataCollectors element (diagnostic data adapters)
 
