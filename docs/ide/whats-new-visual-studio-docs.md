@@ -110,12 +110,6 @@ Welcome to what's new in the Visual Studio docs for October 2020. This article l
   - Added extensibility section to XAML design-time docs
   - New design-time XAML article
 
-**Updated articles**
-
-- [Use Design Time Data with the XAML Designer in Visual Studio](../xaml-tools/xaml-designtime-data.md)
-  - Added extensibility section to XAML design-time docs
-  - New design-time XAML article
-
 ## Community contributors
 
 The following people contributed to the Visual Studio docs during this period. Thank you! Learn how to contribute to the Visual Studio docs by following the guidance in the [Contributor Guide](/contribute/).
