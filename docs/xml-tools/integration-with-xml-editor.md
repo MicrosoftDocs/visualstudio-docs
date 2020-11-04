@@ -21,11 +21,11 @@ The XML Schema Designer is integrated with the XML editor. If you modify an XSD 
 
 The following screenshot shows an XML Schema opened in the **XML Schema Explorer**. The **XML Schema Explorer** displays the schema set in a tree view. The XML editor displays the text view of the node that is currently active in the **XML Schema Explorer**.
 
-![XSDDesignerWithXMLEditor](../xml-tools/media/xsddesignerwithxmleditor.gif)
+![Screenshot of a Visual Studio project showing an XML node in the XML Editor pane and a tree view of the schema set in the XML Schema Explorer pane.](../xml-tools/media/xsddesignerwithxmleditor.gif)
 
 Sometimes it is helpful to see the code in the XML editor and the graphical designer side by side. To view both files at the same time, right-click anywhere in the XML editor and select **View Designer**. In the Visual Studio Windows menu, select **New Horizontal (or Vertical) Tab Group**.
 
-![XSDDesignerWithXMLEditorAndCMV](../xml-tools/media/xsddesignerwithxmleditorandcmv.gif)
+![Screenshot of a Visual Studio project showing the View Designer pane, the XML Editor pane, and the XML Schema Explorer pane.](../xml-tools/media/xsddesignerwithxmleditorandcmv.gif)
 
 ## See also
 
