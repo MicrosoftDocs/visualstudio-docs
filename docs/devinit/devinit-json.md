@@ -1,7 +1,7 @@
 ---
 title: devinit Configuration File
 description: Documentation for the .devinit.json manifest file for devinit.
-ms.date: 08/28/2020
+ms.date: 11/02/2020
 ms.topic: reference
 author: andysterland
 ms.author: andster
@@ -18,11 +18,17 @@ ms.technology: devinit
 
 The `devinit.exe init` command is driven via the _.devinit.json_ file. By default, `devinit.exe` looks for the file in the following locations:
 
-- _{current-directory}\\_
-- _{current-directory}\\.devinit\\_
-- _{current-directory}\\.devcontainer\\_
+* {current-directory}\\.devinit.json
+* {current-directory}\\devinit.json
+* {current-directory}\\.devinit\\.devinit.json
+* {current-directory}\\.devinit\\devinit.json
+* {current-directory}\\devinit\\.devinit.json
+* {current-directory}\\devinit\\devinit.json
+* {current-directory}\\.devcontainer\\.devinit.json
+* {current-directory}\\.devcontainer\\devinit.json
 
-The _._ in the directory and file names can be omitted.
+> [!NOTE]
+> If multiple default files are found, then devinit will use the file that appears first in the above list.
 
 The _.devinit.json_ file can also be specified explicitly via the `--file`/`-f` option.
 
