@@ -1,6 +1,6 @@
 ---
 title: XML editor Schema Cache
-description: Learn about the schema cache provided by the XML Editor that includes standard XML schemas that are used for IntelliSense and XML document validation.
+description: Learn about the schema cache provided by the XML Editor that includes standard XML schemas used for IntelliSense and XML document validation.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
