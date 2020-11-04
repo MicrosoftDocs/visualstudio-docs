@@ -15,7 +15,7 @@ ms.technology: devinit
 
 # .NET Core app
 
-See the [DotnetCoreDevinitExample](https://github.com/microsoft/DotnetCoreDevinitExample) repository for a full example of using devinit to install the required .NET Core SDK version in Codespaces.
+See the [devinit-example-dotnet-core](https://github.com/microsoft/devinit-example-dotnet-core) repository for a full example of using devinit to install the required .NET Core SDK version in Codespaces.
 
 ## .devinit.json
 
