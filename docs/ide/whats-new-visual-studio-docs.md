@@ -1,8 +1,8 @@
 ---
-title: "Visual Studio docs: What's new for September 2020 "
+title: "Visual Studio docs: What's new for October 2020 "
 titleSuffix: ""
-description: "What's new in the Visual Studio docs for September 2020."
-ms.date: 09/30/2020
+description: "What's new in the Visual Studio docs for October 2020."
+ms.date: 11/04/2020
 helpviewer_keywords:
   - "Visual Studio, what's new, docs"
   - "what's new [Visual Studio]"
