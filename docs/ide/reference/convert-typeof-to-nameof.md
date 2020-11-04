@@ -27,16 +27,18 @@ This refactoring applies to:
 ## How-to
 
 1. Place your cursor within the `typeof(<QualifiedType>).Name` instance for C# or the `GetType(<QualifiedType>).Name` in Visual Basic.
+
 2. Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
+
 3. Select from one of the following options:
 
-- C#
-  <br>Select **Convert 'typeof' to 'nameof'**
-  ![Convert typeof to nameof](media/convert-type-of.PNG)
+    - C#
+      <br>Select **Convert 'typeof' to 'nameof'**:
+      ![Convert typeof to nameof](media/convert-type-of.PNG)
 
-- Visual Basic
-  <br>Select **Convert 'GetType' to 'NameOf'**
-   ![Convert typeof to nameof](media/convert-get-type.PNG)
+    - Visual Basic
+      <br>Select **Convert 'GetType' to 'NameOf'**:
+      ![Convert typeof to nameof](media/convert-get-type.PNG)
 
 ## See also
 
