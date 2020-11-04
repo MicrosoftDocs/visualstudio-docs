@@ -32,13 +32,13 @@ This refactoring applies to:
 
 3. Select from one of the following options:
 
-- C#
-  <br>Select **Convert 'typeof' to 'nameof'**:
-  ![Convert typeof to nameof](media/convert-type-of.PNG)
+    - C#
+      <br>Select **Convert 'typeof' to 'nameof'**:
+      ![Convert typeof to nameof](media/convert-type-of.PNG)
 
-- Visual Basic
-  <br>Select **Convert 'GetType' to 'NameOf'**:
-   ![Convert typeof to nameof](media/convert-get-type.PNG)
+    - Visual Basic
+      <br>Select **Convert 'GetType' to 'NameOf'**:
+      ![Convert typeof to nameof](media/convert-get-type.PNG)
 
 ## See also
 
