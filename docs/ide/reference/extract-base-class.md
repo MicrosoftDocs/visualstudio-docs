@@ -33,9 +33,9 @@ This refactoring applies to:
 
 3. Select **Pull member(s) up to new base class**.
 
-    ![Extract base class](media/extract-base-class.png)
+    ![Extract base class dialog](media/extract-base-class.png)
 
-4. The new **Extract Base Class** dialog will open where you can specify the name for the base class and location of where it should be placed. You can select the members that you want to transfer to the new base class and choose to make the members abstract by selecting the checkbox in the Make abstract column.
+The new **Extract Base Class** dialog will open where you can specify the name for the base class and location of where it should be placed. You can select the members that you want to transfer to the new base class and choose to make the members abstract by selecting the checkbox in the Make abstract column.
 
 ## See also
 
