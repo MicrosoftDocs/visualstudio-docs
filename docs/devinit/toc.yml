@@ -83,3 +83,5 @@
       href: sample-private-preview.md
     - name: .NET Core App
       href: sample-dotnet-core.md
+    - name: Node.js App
+      href: sample-nodejs.md
