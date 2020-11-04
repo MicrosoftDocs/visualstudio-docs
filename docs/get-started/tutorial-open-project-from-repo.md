@@ -182,6 +182,6 @@ If you're ready to code with Visual Studio, dive into any of the following langu
 
 ## See also
 
-- [New Git experience in Visual Studio](../ide/git-with-visual-studio.md)
 - [Azure DevOps Services: Get started with Azure Repos and Visual Studio](/azure/devops/repos/git/gitquickstart/)
 - [Microsoft Learn: Get started with Azure DevOps](/learn/modules/get-started-with-devops/)
+- [New Git experience in Visual Studio 2019](../ide/git-with-visual-studio.md?view=vs-2019&preserve-view=true)
