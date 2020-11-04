@@ -30,7 +30,7 @@ o.f();
 
 ## See also
 
-- [Boolean Object](../../javascript/reference/boolean-object-javascript.md)
-- [Data Types](../../javascript/data-types-javascript.md)
-- [Controlling Program Flow](../../javascript/controlling-program-flow-javascript.md)
-- [Copying, Passing, and Comparing Data](../../javascript/advanced/copying-passing-and-comparing-data-javascript.md)
+- [Boolean Object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Boolean)
+- [Data Types](https://developer.mozilla.org/docs/Web/JavaScript/Data_structures)
+- [Controlling Program Flow](https://developer.mozilla.org/docs/Web/JavaScript/Guide/Control_flow_and_error_handling)
+- [Copying, Passing, and Comparing Data](https://developer.mozilla.org/docs/Web/JavaScript/Guide/Functions)

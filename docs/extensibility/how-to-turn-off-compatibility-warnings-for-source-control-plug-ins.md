@@ -1,5 +1,6 @@
 ---
-title: Turn Off Compatibility Warnings for Source Control Plug-ins | Microsoft Docs
+title: Turn off warnings for source control plug-ins
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -13,6 +14,7 @@ ms.workload:
 - vssdk
 ---
 # How to: Turn off compatibility warnings for source control plug-ins
+
 A user may see several compatibility warnings when employing source control in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. The warnings presented depend on the capabilities of the source control plug-in and can be disabled as detailed here.
 
 ### To disable the warning: "To ensure optimal source control integration with Visual Studio"
@@ -36,4 +38,5 @@ A user may see several compatibility warnings when employing source control in [
      It is best to support reentrancy (`SCC_CAP_REENTRANT` capability); doing so will remove this warning. However, if this support is not possible, these registry entries can be set.
 
 ## See also
+
 - [Capability flags](../extensibility/capability-flags.md)

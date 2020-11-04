@@ -1,5 +1,7 @@
 ---
 title: "WPF MSBuild Task Reference | Microsoft Docs"
+description: See a task reference for the Windows Presentation Foundation (WPF) build process, which extends MSBuild with additional tasks.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:

@@ -1,5 +1,5 @@
 ---
-title: How to - Set a Thread Name in Native Code | Microsoft Docs
+title: Set a Thread Name in Native Code | Microsoft Docs
 ms.date: 12/17/2018
 ms.topic: how-to
 dev_langs: 

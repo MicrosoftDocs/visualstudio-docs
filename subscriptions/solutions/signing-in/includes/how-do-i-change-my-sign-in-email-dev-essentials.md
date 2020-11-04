@@ -1,12 +1,15 @@
 ---
-title: How do I change my sign-in email for Visual Studio Dev Essentials?
+title: How do I change my sign-in email for my Dev Essentials subscription?
 description: Find out how to change the email address you use to sign in to your Visual Studio Dev Essentials membership
 ms.topic: include
 ms.assetid: 0c648e64-b144-4632-ac72-0b8ff670553b
 author: evanwindom
 ms.author: cabuschl
 ms.date: 05/11/2020
-ms.faqid: 
+user.type: subscriber
+tags: sign-in
+subscription.type: DE
+sap.id: 6ca157bd-8931-de3b-90d7-1d3b6f20c7ef
 ---
 
 ## How to change your sign-in email for Visual Studio Dev Essentials

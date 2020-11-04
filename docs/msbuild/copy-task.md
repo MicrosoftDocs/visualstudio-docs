@@ -1,5 +1,7 @@
 ---
 title: Copy Task | Microsoft Docs
+description: Learn how to use the MSBuild Copy task to copy files to a new file or folder location in the file system.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -36,7 +38,7 @@ The following table describes the parameters of the `Copy` task.
 |`DestinationFiles`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` parameter.<br /><br /> Specifies the list of files to copy the source files to. This list is expected to be a one-to-one mapping with the list specified in the `SourceFiles` parameter. That is, the first file specified in `SourceFiles` will be copied to the first location specified in `DestinationFiles`, and so forth.|
 |`DestinationFolder`|Optional <xref:Microsoft.Build.Framework.ITaskItem> parameter.<br /><br /> Specifies the directory to which you want to copy the files. This must be a directory, not a file. If the directory does not exist, it is created automatically.|
 |`OverwriteReadOnlyFiles`|Optional `Boolean` parameter.<br /><br /> Overwrite files even if they are marked as read only files|
-|`Retries`|Optional `Int32` parameter.<br /><br /> Specifies how many times to attempt to copy, if all previous attempts have failed. Defaults to zero.<br /><br /> **Note:** The use of retries can mask a synchronization problem in your build process.|
+|`Retries`|Optional `Int32` parameter.<br /><br /> Specifies how many times to attempt to copy, if all previous attempts have failed. Defaults to zero.<br /><br /> **Caution:** The use of retries can mask a synchronization problem in your build process.<br /><br /> **Note:** While the *task* default is zero retries, uses of the task often pass `$(CopyRetryCount)` which is nonzero by default.|
 |`RetryDelayMilliseconds`|Optional `Int32` parameter.<br /><br /> Specifies the delay between any necessary retries. Defaults to the RetryDelayMillisecondsDefault argument, which is passed to the CopyTask constructor.|
 |`SkipUnchangedFiles`|Optional `Boolean` parameter.<br /><br /> If `true`, skips the copying of files that are unchanged between the source and destination. The `Copy` task considers files to be unchanged if they have the same size and the same last modified time. <br /><br /> **Note:**  If you set this parameter to `true`, you should not use dependency analysis on the containing target, because that only runs the task if the last-modified times of the source files are newer than the last-modified times of the destination files.|
 |`SourceFiles`|Required <xref:Microsoft.Build.Framework.ITaskItem>`[]` parameter.<br /><br /> Specifies the files to copy.|
@@ -68,7 +70,7 @@ Either the `DestinationFolder` or the `DestinationFiles` parameter must be speci
 
 In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension base class](../msbuild/taskextension-base-class.md).
 
-## Example
+## Example 1
 
 The following example copies the items in the `MySourceFiles` item collection into the folder *c:\MyProject\Destination*.
 
@@ -89,7 +91,7 @@ The following example copies the items in the `MySourceFiles` item collection in
 </Project>
 ```
 
-## Example
+## Example 2
 
 The following example demonstrates how to do a recursive copy. This project copies all of the files recursively from *c:\MySourceTree* into *c:\MyDestinationTree*, while maintaining the directory structure.
 

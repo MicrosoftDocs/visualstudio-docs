@@ -1,5 +1,6 @@
 ---
-title: 'How to: Add Class Diagrams to Projects (Class Designer)'
+title: Add Class Diagrams to projects (Class Designer)
+ms.custom: SEO-VS-2020
 ms.date: 05/08/2018
 ms.topic: how-to
 helpviewer_keywords:

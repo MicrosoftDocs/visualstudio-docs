@@ -1,5 +1,6 @@
 ---
-title: Customize build debug tasks using tasks.vs.json launch.vs.json
+title: Customize build debug tasks with JSON files
+ms.custom: SEO-VS-2020
 ms.date: 02/21/2018
 ms.topic: conceptual
 helpviewer_keywords:

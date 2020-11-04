@@ -1,12 +1,15 @@
 ---
 title: "How to: Change the namespace of a domain-specific language"
+description: Provides information about how to change the namespace of a domain-specific language.
 ms.date: 10/31/2018
 ms.topic: how-to
+titleSuffix: ""
 helpviewer_keywords:
   - "Domain-Specific Language, namespace"
 author: JoshuaPartlow
 ms.author: joshuapa
 manager: jillfra
+ms.custom: SEO-VS-2020
 ms.workload:
   - "multiple"
 ---
@@ -48,4 +51,4 @@ You can change the namespace of a domain-specific language. Make the change in t
 
 ## See also
 
-[Domain-specific language tools glossary](https://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)
+[Domain-specific language tools glossary](/previous-versions/bb126564(v=vs.100))

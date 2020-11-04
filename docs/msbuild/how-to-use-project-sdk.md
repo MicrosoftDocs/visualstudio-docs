@@ -1,5 +1,7 @@
 ---
 title: 'How to: Reference an MSBuild Project SDK | Microsoft Docs'
+description: Learn how to use MSBuild project SDKs to simplify using software development kits that require properties and targets to be imported.
+ms.custom: SEO-VS-2020
 ms.date: 01/25/2018
 ms.topic: conceptual
 helpviewer_keywords:
@@ -60,9 +62,6 @@ There are three ways to reference a project SDK:
     </Project>
     ```
 
-    > [!NOTE]
-    > This is currently the only supported way to reference a project SDK in Visual Studio for Mac.
-
 - Use the top-level `<Sdk/>` element:
 
     ```xml
@@ -101,7 +100,7 @@ When evaluating the import, MSBuild dynamically resolves the path to the project
 
    This resolver is only active if you specified an optional version. It can be used for any custom project SDK.
    
-- A .NET CLI resolver that resolves SDKs that are installed with [.NET CLI](/dotnet/core/tools/).
+- A .NET SDK resolver that resolves MSBuild SDKs that are installed with the [.NET SDK](/dotnet/core/sdk/).
 
    This resolver locates project SDKs such as `Microsoft.NET.Sdk` and `Microsoft.NET.Sdk.Web` that are part of the product.
    

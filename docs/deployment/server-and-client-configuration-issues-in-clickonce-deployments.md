@@ -1,5 +1,6 @@
 ---
-title: "Server/client configuration issues in ClickOnce deployments"
+title: "Server/client configuration issues (ClickOnce)"
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:

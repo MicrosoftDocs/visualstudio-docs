@@ -1,5 +1,6 @@
 ---
-title: Collecting Performance Statistics by Using Sampling | Microsoft Docs
+title: Collecting perf statistics using sampling
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords: 

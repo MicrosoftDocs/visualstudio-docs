@@ -1,5 +1,6 @@
 ---
-title: Options Dialog Box, Projects and Solutions, Web Projects
+title: Web Projects in the Options dialog box
+ms.custom: SEO-VS-2020
 ms.date: 07/14/2017
 ms.topic: reference
 f1_keywords:

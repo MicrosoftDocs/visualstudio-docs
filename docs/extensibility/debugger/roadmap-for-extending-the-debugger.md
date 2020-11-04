@@ -37,7 +37,7 @@ This documentation provides guide and reference information for extending the [!
 
    [Create a custom debug engine](../../extensibility/debugger/creating-a-custom-debug-engine.md)
 
-   [Tutorial: Build a debug engine using ATL COM](https://msdn.microsoft.com/library/9097b71e-1fe7-48f7-bc00-009e25940c24)
+   [Tutorial: Build a debug engine using ATL COM](/previous-versions/bb147024(v=vs.90))
 
    [Implement a port supplier](../../extensibility/debugger/implementing-a-port-supplier.md)
 

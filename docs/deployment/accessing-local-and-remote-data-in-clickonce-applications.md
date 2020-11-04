@@ -1,5 +1,6 @@
 ---
-title: "Accessing Local and Remote Data in ClickOnce Applications | Microsoft Docs"
+title: "Access local & remote data (ClickOnce apps)"
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:

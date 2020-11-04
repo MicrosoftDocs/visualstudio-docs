@@ -1,5 +1,5 @@
 ---
-title: How to - Create a Product Manifest | Microsoft Docs
+title: Create a Product Manifest | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 

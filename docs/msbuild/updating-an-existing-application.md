@@ -1,5 +1,7 @@
 ---
 title: Updating an existing application to MSBuild 15 | Microsoft Docs
+description: Learn how to ensure that programmatic builds from your application match builds done within Visual Studio or MSBuild.exe.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 author: ghogen

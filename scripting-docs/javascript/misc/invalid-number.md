@@ -20,4 +20,4 @@ Invalid Number (ErrbadNumber 1013)
   
  You tried to use a number that is not valid in JavaScript.  
   
- For information about valid numbers, see [Number Object](../../javascript/reference/number-object-javascript.md).
+ For information about valid numbers, see [Number Object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number).

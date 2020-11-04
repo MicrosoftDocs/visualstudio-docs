@@ -1,5 +1,6 @@
 ---
-title: Add trusted publisher to client computer for ClickOnce apps
+title: Add trusted publisher to client box (ClickOnce)
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 

@@ -1,5 +1,6 @@
 ---
-title: 'Walkthrough: Linking a Content Type to a File Name Extension | Microsoft Docs'
+title: 'Link a content type to a filename extension'
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
