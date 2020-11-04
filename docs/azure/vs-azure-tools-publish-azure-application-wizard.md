@@ -91,7 +91,7 @@ Diagnostics enables you to troubleshoot an Azure cloud service (or Azure virtual
 
 ## Summary page
 
-![Summary](./media/vs-azure-tools-publish-azure-application-wizard/summary.png)
+![Summary page](./media/vs-azure-tools-publish-azure-application-wizard/summary.png)
 
 **Target profile** - You can choose to create a publishing profile from the settings that you have chosen. For example, you might create one profile for a test environment and another for production. To save this profile, choose the **Save** icon. The wizard creates the profile and saves it in the Visual Studio project. To modify the profile name, open the **Target profile** list, and then choose **&lt;Manage…&gt;**.
 
