@@ -28,7 +28,7 @@ The `devinit.exe init` command is driven via the _.devinit.json_ file. By defaul
 * {current-directory}\\.devcontainer\\devinit.json
 
 > [!NOTE]
-> If multiple default files are found, then devinit will use the file which appears first in the above list.
+> If multiple default files are found, then devinit will use the file that appears first in the above list.
 
 The _.devinit.json_ file can also be specified explicitly via the `--file`/`-f` option.
 
