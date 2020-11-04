@@ -1,5 +1,7 @@
 ---
 title: "Workflow Designer - CorrelationScope Activity Designer"
+description: Learn how the CorrelationScope activity designer is used to create and configure a CorrelationScope activity.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
