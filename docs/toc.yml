@@ -455,7 +455,7 @@
         - name: Use lambda expression or block body
           href: ide/reference/use-block-body-lambda.md
         - name: Use new()
-          href: ide/reference/use-new().md
+          href: ide/reference/use-new.md
         - name: Use pattern matching
           href: ide/reference/use-pattern-matching.md
         - name: Unused value assignments, variables, and parameters
