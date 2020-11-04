@@ -2,7 +2,7 @@
 title: "Visual Studio docs: History of what's new "
 titleSuffix: ""
 description: "History of what's new in Visual Studio docs"
-ms.date: 09/30/2020
+ms.date: 10/04/2020
 helpviewer_keywords:
   - "Visual Studio, what's new, docs"
   - "what's new [Visual Studio]"
