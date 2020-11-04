@@ -26,3 +26,5 @@ ms.date: 3/3/2020
 [!INCLUDE [How can I select an end date for a subscription?](includes/select-end-date.md)]
 
 [!INCLUDE [Why does my SLP agreement have an end date, and why is it sometimes different for my subscribers?](includes/slp-end-dates.md)]
+
+[!INCLUDE [What is the process for assigning GitHub Enterprise subscriptions?](includes/github-assign-process.md)]
