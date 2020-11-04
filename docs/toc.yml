@@ -398,12 +398,16 @@
           href: ide/reference/datetime-timespan-completion.md
         - name: Encapsulate field
           href: ide/reference/encapsulate-field.md
+        - name: Extract base class
+          href: ide/reference/extract-base-class.md
         - name: Extract interface
           href: ide/reference/extract-interface.md
         - name: Extract method
           href: ide/reference/extract-method.md
         - name: Extract local function
           href: ide/reference/extract-local-function.md
+        - name: Inline method
+          href: ide/reference/inline-method.md
         - name: Inline temporary variable
           href: ide/reference/inline-temporary-variable.md
         - name: IntelliSense completion unimported types and extension methods
@@ -412,8 +416,8 @@
           href: ide/reference/invert-conditional-logical.md
         - name: Invert if statement
           href: ide/reference/invert-if-statement.md
-        - name: Static local function refactor options
-          href: ide/reference/static-local-function-refactor-options.md
+        - name: Make class abstract
+          href: ide/reference/make-class-abstract.md
         - name: Make member static
           href: ide/reference/make-member-static.md
         - name: Move declaration near reference
@@ -440,6 +444,8 @@
           href: ide/reference/sort-usings.md
         - name: Split or merge if statements
           href: ide/reference/split-or-merge-if-statement.md
+        - name: Static local function refactor options
+          href: ide/reference/static-local-function-refactor-options.md
         - name: Sync namespace and folder name
           href: ide/reference/sync-namespace-and-folder-name.md
         - name: Synchronize type and filename
@@ -448,6 +454,10 @@
           href: ide/reference/convert-var-to-explicit-type.md
         - name: Use lambda expression or block body
           href: ide/reference/use-block-body-lambda.md
+        - name: Use new()
+          href: ide/reference/use-new().md
+        - name: Use pattern matching
+          href: ide/reference/use-pattern-matching.md
         - name: Unused value assignments, variables, and parameters
           href: ide/reference/unused-values-parameters.md
         - name: Wrap, indent, and align refactorings
