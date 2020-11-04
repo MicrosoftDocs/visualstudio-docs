@@ -152,8 +152,8 @@ Welcome to the history of what's new in Visual Studio docs. This topic contains 
 
 **Updated articles**
 
-- [Change log (Visual Studio Tools for Unity, Windows)](../cross-platform/change-log-visual-studio-tools-for-unity.md) - Bump VSTU changelog to 4.7.1.0
-- [Change Log (Visual Studio Tools for Unity, Mac)](../cross-platform/change-log-visual-studio-tools-for-unity-mac.md) - Bump VSTUM changelog to 2.7.1.0
+- [Change log (Visual Studio Tools for Unity, Windows)](/gamedev/unity/change-log-visual-studio-tools-for-unity.md) - Bump VSTU changelog to 4.7.1.0
+- [Change Log (Visual Studio Tools for Unity, Mac)](/gamedev/unity/change-log-visual-studio-tools-for-unity-mac.md) - Bump VSTUM changelog to 2.7.1.0
 
 ### Get started
 
