@@ -1,5 +1,7 @@
 ---
 title: Workflow Designer - Switch&lt;T&gt; Activity Designer
+description: Learn how the Switch&lt;T&gt; activity designer is used to create and configure a Switch&lt;T&gt; activity in the Workflow Designer.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
