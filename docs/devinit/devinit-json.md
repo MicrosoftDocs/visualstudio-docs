@@ -14,6 +14,8 @@ ms.technology: devinit
 ---
 # devinit configuration file
 
+The `.devinit.json` file defines the system wide dependencies that your application needs in order to run and build. System wide dependencies are things like Node, SQL server, IIS, RabbitMQ, docker etc. The sort of things you would normally install on your dev box that aren't installed by a specific repo. It's not a place to define app specific dependencies like you would in package managers such as NuGet or NPM, it is the place to define that you need those package managers.
+
 ## File location
 
 The `devinit.exe init` command is driven via the _.devinit.json_ file. By default, `devinit.exe` looks for the file in the following locations:

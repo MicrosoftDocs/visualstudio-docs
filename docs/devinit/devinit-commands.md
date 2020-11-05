@@ -28,7 +28,7 @@ Optional options for the `devinit init` command.
 
 | Argument             | Required | Description                                                               |
 |----------------------|----------|---------------------------------------------------------------------------|
-| -f,--file           | No       | Path to the _.devinit.json_ file.                                         |
+| -f,--file            | No       | Path to the _.devinit.json_ file.                                         |
 | --error-action       | No       | Specifies how to handle errors. Options: Stop, Ignore, Continue (default).|
 | -v,--verbose         | No       | Emit verbose output.                                                      |
 | -n,--dry-run         | No       | Dry run.                                                                  |
@@ -75,7 +75,7 @@ Specifies the action to take if a tool returns a non-zero exit code. The valid v
 
 #### --dry-run switch
 
-Echo tool commands that would be run, but do not execute any tools. 
+Echo tool commands that would be run, but do not execute any tools.
 
 #### --verbose switch
 
