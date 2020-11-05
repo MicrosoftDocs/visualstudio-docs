@@ -61,7 +61,7 @@ For more information about these files, see [Configure the Roles for an Azure Cl
 
 1. **Account** - Select an account or select **Add an account** in the account dropdown list.
 
-1. **Choose your subscription** - Choose the subscription to use for your deployment.
+1. **Choose your subscription** - Choose the subscription to use for your deployment. The subscription you use for deploying cloud services (extended support) needs to have Owner or Contributor roles assigned via ARM role-based access control (RBAC). If your subscription does not have any one of these roles, see [Steps to add a role assignment](/azure/role-based-access-control/role-assignments-steps) to add this before proceeding further.
 
 1. Choose **Next** to move to the **Settings** page.
 
