@@ -19,9 +19,9 @@ devinit is a great compliment to [GitHub Codespaces](https://github.com/features
 > [!IMPORTANT]
 > Before integrating devinit with your codespace you first need to make sure you have a `.devinit.json` file that defines your dependencies. For more information on how to create a `.devinit.json` read the [getting started documentation](getting-started-with-devinit.md).
 
-Inside a GitHub codespace your application is built and run in the cloud. As it's in the cloud it doesn't have access to your local resources on your machine, resources such as tools, or programs you might have installed locally. If your application needs any system wide dependencies to be installed or configured it needs to be done on each codespace. The easiest way to achieve that is to use a `.devinit.json` file. 
+Inside of a GitHub Codespace, your application is built and run in the cloud. As it's in the cloud it doesn't have access to local resources on your machines. These include tools or programs that you have installed locally. If your application needs any system-wide dependencies to be installed or configured, it needs to be done on each Codespace. The easiest way to achieve that is to use a `.devinit.json` file.
 
-To make sure that a codespace is created with the dependencies your app needs, `devinit` needs to be ran when the codespace is created. Which can be done by calling `devinit init` from the `postCreateCommand` defined in a `.devcontainer.json` file placed in the repo root. The string(s) in `postCreateCommand` are executed in the default shell, after the repo is cloned in the codespace. You can read more about `postCreateCommand` in the GitHub Codespaces [customization documentation](https://docs.github.com/github/developing-online-with-codespaces/configuring-codespaces-for-your-project). To add the `devinit` command, you can add `devinit init` to the `postCreateCommand` as shown in the examples below.
+To make sure that a codespace is created with the dependencies your application needs, `devinit` needs to be ran when the codespace is created. This can be done by calling `devinit init` from the `postCreateCommand` defined in a `.devcontainer.json` file placed in the repo root. The string(s) in `postCreateCommand` are executed in the default shell, after the repo is cloned in the codespace. You can read more about `postCreateCommand` in the GitHub Codespaces [customization documentation](https://docs.github.com/github/developing-online-with-codespaces/configuring-codespaces-for-your-project). To add the `devinit` command, you can add `devinit init` to the `postCreateCommand` as shown in the examples below.
 
 You can also execute `devinit init -f <path to .devinit.json>` from the Visual Studio Integrated Terminal once connected to your codespace.
 
@@ -42,6 +42,8 @@ In this example, the `.devcontainer.json` file below is placed in the repo root 
   "postCreateCommand": ["<some other command>", "devinit init"]
 }
 ```
+
+You can find more examples of using devinit in our [documentation](sample-all-tool.ms) and on Github in the [.NET Core example](https://docs.microsoft.com/en-us/visualstudio/devinit/sample-dotnet-core?view=vs-2019) and [Node.js example](https://docs.microsoft.com/en-us/visualstudio/devinit/sample-nodejs?view=vs-2019) repositories.
 
 ### As commands
 In this example `.devcontainer.json` file below is placed in the repo root and `devinit run` is being called programmatically to run a tool  
