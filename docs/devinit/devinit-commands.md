@@ -20,7 +20,7 @@ ms.technology: devinit
 devinit init
 ```
 
-Initialize the environment by running the tools specified in a [`.devinit.json`](devinit-json.md) file in the current working directory.  
+Initialize the environment by running the tools specified in a [`.devinit.json`](devinit-json.md) file.
 
 ### Options for init
 
@@ -94,7 +94,7 @@ Specifies the action to take if a tool returns a non-zero exit code. The valid v
 
 #### --dry-run switch
 
-Echo tool commands that would be run, but do not execute any tools.
+Echo tool commands that would be run. Some tools may take further action as documented for that tool. 
 
 #### --verbose switch
 

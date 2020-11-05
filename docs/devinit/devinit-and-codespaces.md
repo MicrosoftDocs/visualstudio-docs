@@ -37,6 +37,15 @@ In this example, the `.devcontainer.json` file below is placed in the repo root 
 }
 ```
 
+When the `.devinit.json` is in another directory, the -f flag may be used.
+
+```json
+{
+  "postCreateCommand": "devinit init -f path\\to\\.devinit.json"
+}
+
+```
+
 ```json
 {
   "postCreateCommand": ["<some other command>", "devinit init"]
