@@ -2,7 +2,7 @@
 title: "Tutorial: Open a project from a repo"
 description: "Learn how to open a project in a Git or Azure DevOps repository by using Visual Studio."
 ms.custom: "get-started"
-ms.date: 03/30/2019
+ms.date: 11/03/2020
 ms.technology: vs-ide-general
 ms.prod: visual-studio-windows
 ms.topic: tutorial
@@ -86,6 +86,9 @@ View the following animation to check the work that you completed in the previou
    ![Choose what you want to open from the Solution Explorer drop-down list](./media/open-proj-repo-github-solutions-folders-picker.png)
 
    If you do not have a solution file (specifically, a .sln file) in your repo, the fly-out menu will say "No Solutions Found." However, you can double-click any file from the folder menu to open it in the Visual Studio code editor.
+
+> [!TIP]
+> If you'd like to try out a new integrated Git experience in Visual Studio and you're using [version 16.6](/visualstudio/releases/2019/release-notes-v16.6) or later, you can toggle it on by going to **Tools** > **Options** > **Environment** > **Preview Features** and then selecting the **New Git user experience** checkbox. For more information, see the [New Git experience in Visual Studio](../ide/git-with-visual-studio.md) page.
 
 ::: moniker-end
 
@@ -179,5 +182,18 @@ If you're ready to code with Visual Studio, dive into any of the following langu
 
 ## See also
 
+::: moniker range="vs-2017"
+
 - [Azure DevOps Services: Get started with Azure Repos and Visual Studio](/azure/devops/repos/git/gitquickstart/)
 - [Microsoft Learn: Get started with Azure DevOps](/learn/modules/get-started-with-devops/)
+- [New Git experience in Visual Studio 2019](../ide/git-with-visual-studio.md?view=vs-2019&preserve-view=true)
+
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+- [New Git experience in Visual Studio](../ide/git-with-visual-studio.md)
+- [Azure DevOps Services: Get started with Azure Repos and Visual Studio](/azure/devops/repos/git/gitquickstart/)
+- [Microsoft Learn: Get started with Azure DevOps](/learn/modules/get-started-with-devops/)
+
+::: moniker-end
