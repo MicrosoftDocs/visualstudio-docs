@@ -38,7 +38,7 @@ The default behavior of the `windowsfeature-list` tool is to list the enable/dis
 
 ```json
 {
-    "$schema": "./devinit.schema-2.0.json",
+    "$schema": "https://json.schemastore.org/devinit.schema-3.0.json",
     "run": [
         {
             "comments": "Lists the state of all Windows features.",

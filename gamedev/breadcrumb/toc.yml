@@ -1,0 +1,11 @@
+- name: Docs
+  tocHref: /
+  topicHref: /
+  items:
+  - name: Game Development
+    tocHref: /visualstudio/gamedev
+    topicHref: /visualstudio/gamedev/index
+    items:
+    - name: Unity
+      tocHref: /visualstudio/gamedev/unity/
+      topicHref: /visualstudio/gamedev/unity/

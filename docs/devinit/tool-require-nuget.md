@@ -42,7 +42,7 @@ The Default behavior of the `require-nuget` tool is to install latest of NuGet C
 
 ```json
 {
-    "$schema": "https://json.schemastore.org/devinit.schema-2.0",
+    "$schema": "https://json.schemastore.org/devinit.schema-3.0",
     "comments": "A sample dot-devinit file that downloads NuGet CLI and adds to PATH variable.'",
     "run": [
         {

@@ -24,6 +24,7 @@ The table below contains a list of all the currently available tools for devinit
 | [**dotnet-restore**](tool-dotnet-restore.md)                                                     | Tool to restore the dependencies and tools of a .NET project.                                               |
 | [**dotnet-toolinstall**](tool-dotnet-toolinstall.md)                                             | Tool to install the .NET Core tools (for example. dotnet-ef)                                                |
 | [**enable-iis**](tool-enable-iis.md)                                                             | Tool to enable IIS features and install the latest ASP.NET hosting bundle.                                  |
+| [**msi-install**](tool-msi-install.md)                                                           | Tool to install MSI files given a path or URL.                                                              |
 | [**npm-install**](tool-npm-install.md)                                                           | Tool to install NPM packages.                                                                               |
 | [**nuget-restore**](tool-nuget-restore.md)                                                       | Tool to restore the NuGet packages.                                                                         |
 | [**require-azureartifactscredentialprovider**](tool-require-azureartifactscredentialprovider.md) | Installs the Azure Artifacts Credential provider.                                                           |
