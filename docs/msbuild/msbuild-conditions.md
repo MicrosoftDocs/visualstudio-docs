@@ -1,5 +1,7 @@
 ---
 title: MSBuild Conditions | Microsoft Docs
+description: Learn how MSBuild supports a specific set of conditions that can be applied wherever a Condition attribute is allowed.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 dev_langs:

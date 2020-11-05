@@ -14,7 +14,7 @@ ms.technology: devinit
 ---
 # wsl-install
 
-The `wsl-install` tool is used to install Linux distros for the [Windows Subsystem for Linux](https://docs.microsoft.com/windows/wsl/) (WSL).
+The `wsl-install` tool is used to install Linux distros for the [Windows Subsystem for Linux](/windows/wsl/) (WSL).
 
 The `wsl-install` tool requires WSL 2 to already be enabled on Windows. If for some reason WSL2 is not enabled, you can enable WSL2 by using the [windowsfeature-enable](tool-windowsfeature-enable.md) tool and the feature name `Microsoft-Windows-Subsystem-Linux`.
 

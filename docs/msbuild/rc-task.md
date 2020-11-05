@@ -1,5 +1,7 @@
 ---
 title: "RC Task | Microsoft Docs"
+description: Learn how MSBuild uses the RC task to wrap the Microsoft Windows Resource Compiler tool, rc.exe, which compiles resources into a .res file.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 f1_keywords:

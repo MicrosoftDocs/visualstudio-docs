@@ -95,7 +95,7 @@ You can use an EditorConfig file to codify coding conventions and have them trav
 
    ![Configure the severity level of a code style rule directly in the editor](../ide/media/configure-severity-level.png)
 
-Check out the [.NET coding convention options](editorconfig-code-style-settings-reference.md) documentation, which also contains an example of a complete EditorConfig file.
+Check out the [.NET coding convention options](/dotnet/fundamentals/code-analysis/code-style-rule-options) documentation, which also contains an example of a complete EditorConfig file.
 
 ::: moniker range=">=vs-2019"
 

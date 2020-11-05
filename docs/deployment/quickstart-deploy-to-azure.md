@@ -15,7 +15,7 @@ ms.workload:
 
 For ASP.NET, ASP.NET Core, Node.js, and .NET Core apps, publish to Azure App Service or Azure App Service Linux (using containers) using one of the following methods.
 
-* For continuous (or automated) deployment of apps, use Azure DevOps with [Azure Pipelines](/azure/devops/pipelines/get-started-yaml?view=azdevops).
+* For continuous (or automated) deployment of apps, use Azure DevOps with [Azure Pipelines](/azure/devops/pipelines/get-started-yaml?view=azdevops&preserve-view=true).
 
 * For one-time (or manual) deployment of apps, use the **Publish** tool in Visual Studio to deploy ASP.NET, ASP.NET Core, Node.js, and .NET Core apps to Azure App Service or [App Service for Linux](../deployment/quickstart-deploy-to-linux.md) (using containers). For Python apps, follow the steps on [Python - Publish to Azure App Service](../python/publishing-python-web-applications-to-azure-from-visual-studio.md).
 
@@ -39,7 +39,7 @@ This article describes how to use the **Publish** tool for one-time deployment.
 
     ![Choose Azure App Service on Linux](../deployment/media/quickstart-publish-windows-select-azure-service.png)
 
-1. Sign in with you Azure account, if necessary. Select **Create a new Azure App Service...**
+1. Sign in with your Azure account, if necessary. Select **Create a new Azure App Service...**
 
     ![Link to create new instance of Azure App Service](../deployment/media/quickstart-publish-windows-create-new-link.png)
 

@@ -1,6 +1,8 @@
 ---
 title: Visualize sample data in a XAML UI
 titleSuffix: Blend for Visual Studio
+description: Learn how to generate sample data from scratch or from an existing class in Blend for Visual Studio.
+ms.custom: SEO-VS-2020
 ms.date: 03/06/2018
 ms.topic: conceptual
 ms.assetid: 87d31b6c-4607-4121-bb7d-cfc80390ab93
@@ -29,7 +31,7 @@ If you want your sample data to appear in your pages when you run the app, choos
 
 ![Enable When Running Application menu item](../designers/media/05d5356d-91bb-4e6b-b3f7-29b76852c4b3.png)
 
-**Watch a short video:** ![Play icon](../designers/media/bldadminconsoleinitialconfigicon.PNG) [Create sample data from scratch](https://www.bing.com/videos/search?q=blend%20data&qs=n&form=QBVR&pq=blend%20data&sc=8-7&sp=-1&sk=#view=detail&mid=F8F2449A76956D480FD2F8F2449A76956D480FD2).
+**Watch a short video:** ![Play icon](../designers/media/bldadminconsoleinitialconfigicon.PNG) [Create sample data from scratch](https://www.bing.com/videos/search?q=blend%20data&qs=n&form=QBVR&pq=blend%20data&sc=8-7&sp=-1&sk=#view=detail&mid=F8F2449A76956D480FD2F8F2449A76956D480FD2&preserve-view=true).
 
 ## Generate sample data from a class
 

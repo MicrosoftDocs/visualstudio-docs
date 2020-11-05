@@ -1,5 +1,6 @@
 ---
 title: "Walkthrough: Update the controls on a ribbon at run time"
+titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

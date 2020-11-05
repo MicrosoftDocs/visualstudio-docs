@@ -9,7 +9,7 @@ helpviewer_keywords:
 - administrator guide, Visual Studio
 - installing Visual Studio, administrator guide
 - list of domains, locations, URLs
-ms.assetid: 
+ms.assetid:
 author: ornellaalt
 ms.author: ornella
 manager: jillfra
@@ -75,6 +75,7 @@ Because the Visual Studio Installer downloads files from various domains and the
 | developer.apple.com | Xamarin.iOS provisioning |
 | appstoreconnect.apple.com | Xamarin.iOS provisioning |
 | idmsa.apple.com | Xamarin.iOS provisioning |
+| akamized.net | Content Delivery Network (Akamai Technologies) |
 | | |
 
 ## Use Visual Studio and Azure Services
@@ -128,11 +129,11 @@ To make sure that you have access to everything you want when you use Visual Stu
 | Developer Community | sendvsfeedback2.azurewebsites.net/api | https/443 | Used to call Developer Community Feedback Tool APIs (my issues, search, vote, comment, submit, upload, resume) |
 | Intellicode | \*.intellicode.vsengsaas.visualstudio.com | https/443 | Used to call Intellicode APIs |
 | Live Share | \*.liveshare.vsengsaas.visualstudio.com| https/443 | Used to call Live Share APIs |
-| Visual Studio Codespaces | \*.online.visualstudio.com | https/443 | Used to call Visual Studio Codespaces APIs |
-| JavaScript Automatic Type Acquisition | registry.npmjs.org | https/443 | Used to install TypeScript type definitions to provide Intellisense for popular JavaScript libraries |
+| GitHub Codespaces | \*.online.visualstudio.com | https/443 | Used to call GitHub Codespaces APIs |
+| JavaScript Automatic Type Acquisition | registry.npmjs.org | https/443 | Used to install TypeScript type definitions to provide IntelliSense for popular JavaScript libraries |
 | Visual Studio Subscriptions Licensing Service | app.vssps.visualstudio.com/apis/<br/>Licensing/ClientRights | https/443 | Licensing for online activation |
 | Debugger | 1. <br>vsdebugger.blob.core.windows.net <br>vsdebugger.azureedge.net <br><br>2. <br>download.visualstudio.com/\*/<br/>onecore.msvsmon.\*.zip<br><br> 3. referencesource.microsoft.com/symbols <br><br> 4. <br>symbols.nuget.org/download/symbols<br><br> 5. visualstudio.com<br><br>6. msdl.microsoft.com/download/symbols | https/443 | 1. <br>Used for downloading debugger bits for .NET Core debugging on Unix / macOS over SSH <br><br>2. <br>Used for downloading debugger bits for remote Windows Docker container debugging<br><br> 3. Used for .NET framework source stepping <br><br> 4. <br>(If user opts-in) Used for downloading symbols published to nuget.org symbol server.<br><br> 5. (If user opts-in) Used for downloading MS symbols and binaries, might also be needed for debugging managed code in dumps |
-| Visual Studio Codespaces| \*.online.visualstudio.com | https/443 | Used to call Visual Studio Codespaces APIs |
+| GitHub Codespaces| \*.online.visualstudio.com | https/443 | Used to call GitHub Codespaces APIs |
 | Xamarin Android App Publishing | \*.googleapis.com <br/> play.google.com <br/>accounts.google.com | https/443 | Used to interact with Google Play Store service to publish/upload Xamarin Android Applications directly from Visual Studio. |
 | Azure Container Registry | *.azurecr.io | https/443 | Access container registries hosted on Azure, for configuration of CICD pipelines |
 | | | | |

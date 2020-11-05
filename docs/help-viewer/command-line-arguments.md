@@ -1,5 +1,6 @@
 ---
 title: Command-line arguments for the Help Content Manager
+description: Use command-line arguments for the Help Content Manager (HlpCtntMgr.exe) to specify how to deploy and manage local Help content.
 ms.date: 11/01/2017
 ms.topic: reference
 ms.assetid: 3aa9890a-1147-42ba-adea-17935d184038

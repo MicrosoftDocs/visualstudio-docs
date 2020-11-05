@@ -2,7 +2,7 @@
 title: New Git experience in Visual Studio (Preview)
 titleSuffix: ""
 description: Learn about the new integrated Git experience in Visual Studio 2019
-ms.date: 09/20/2020
+ms.date: 10/13/2020
 ms.topic: conceptual
 ms.author: tglee
 author: prnadago
@@ -90,6 +90,9 @@ You can also choose not to stage your modified files by skipping the staging are
 Visual Studio also makes it easy to commit and sync with one click by using the **Commit All and Push** and **Commit All and Sync** shortcuts. When you double-click any file in the **Changes** and the **Staged changes** sections, you can see a line-by-line comparison with the unmodified version of the file.
 
 :::image type="content" source="media/git-file-version-compare.png" alt-text="Screenshot of the line-by-line comparison of file versions in Visual Studio ":::
+
+> [!TIP]
+> You can associate Azure DevOps work item with a commit by using the "#" character if you are connected to the Azure DevOps repository. You can connect your Azure DevOps repository through **Team Explorer** > **Manage Connections**.
 
 ### Select an existing branch
 

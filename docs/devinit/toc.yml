@@ -25,6 +25,8 @@
       href: tool-dotnet-restore.md
     - name: dotnet-toolinstall
       href: tool-dotnet-toolinstall.md
+    - name: enable-iis
+      href: tool-enable-iis.md
     - name: npm-install
       href: tool-npm-install.md
     - name: nuget-restore
@@ -61,6 +63,8 @@
       href: tool-windowsfeature-disable.md
     - name: windowsfeature-enable
       href: tool-windowsfeature-enable.md
+    - name: windowsfeature-list
+      href: tool-windowsfeature-list.md
     - name: wsl-install
       href: tool-wsl-install.md
   - name: Samples
@@ -77,3 +81,7 @@
       href: sample-opencv.md
     - name: Codespaces private preview
       href: sample-private-preview.md
+    - name: .NET Core App
+      href: sample-dotnet-core.md
+    - name: Node.js App
+      href: sample-nodejs.md

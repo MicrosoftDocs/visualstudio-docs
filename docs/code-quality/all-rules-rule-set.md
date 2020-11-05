@@ -14,4 +14,4 @@ The All Rules rule set contains all of the rules for both native and managed cod
 
 - [Code Analysis for C/C++ Warnings](/cpp/code-quality/code-analysis-for-c-cpp-warnings)
 
-- [Code Analysis for Managed Code Warnings](../code-quality/code-analysis-for-managed-code-warnings.md)
+- [Code Analysis for Managed Code Warnings](/dotnet/fundamentals/code-analysis/quality-rules/index)

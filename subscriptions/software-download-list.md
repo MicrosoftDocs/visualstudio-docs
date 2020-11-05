@@ -1,5 +1,5 @@
 ---
-title: What Software is Available for Download? | Microsoft Docs
+title: What software downloads are available in Visual Studio subscriptions? | Microsoft Docs
 author: evanwindom
 ms.author: v-evwin
 manager: lank
@@ -26,10 +26,10 @@ To quickly find products, use the "Search" functions at the top of the page or s
 You can also download an Excel spreadsheet containing an extensive list of [available software titles](https://download.microsoft.com/download/1/5/4/15454442-CF17-47B9-A65D-DF84EF88511B/Visual_Studio_by_Subscription_Level.xlsx) for each subscription type.
 
 ## See also
-- [Visual Studio documentation](https://docs.microsoft.com/visualstudio/)
-- [Azure DevOps documentation](https://docs.microsoft.com/azure/devops/)
-- [Azure documentation](https://docs.microsoft.com/azure/)
-- [Microsoft 365 documentation](https://docs.microsoft.com/microsoft-365/)
+- [Visual Studio documentation](/visualstudio/)
+- [Azure DevOps documentation](/azure/devops/)
+- [Azure documentation](/azure/)
+- [Microsoft 365 documentation](/microsoft-365/)
 
 ## Next steps
 You can learn more about how to [download software](download-software.md) or obtain and manage [product keys](product-keys.md).

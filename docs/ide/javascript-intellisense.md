@@ -1,5 +1,7 @@
 ---
 title: JavaScript IntelliSense
+description: Learn how Visual Studio delivers richer IntelliSense, support for modern JavaScript features, and improved productivity features.
+ms.custom: SEO-VS-2020
 ms.date: 06/28/2017
 ms.topic: conceptual
 ms.technology: vs-javascript

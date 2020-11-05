@@ -637,7 +637,7 @@ Microsoft.VisualStudio.ComponentGroup.IISDevelopment | Development time IIS supp
 
 **ID:** Microsoft.VisualStudio.Workload.Node
 
-**Description:** Build scalable network applications using Node.js, an asynchronous event-driven JavaScript runtime. 
+**Description:** Build scalable network applications using Node.js, an asynchronous event-driven JavaScript runtime.
 
 ### Components included by this workload
 
@@ -885,7 +885,7 @@ Microsoft.Net.Core.Component.SDK.3.0 | .NET Core 3.0 Runtime (out of support) | 
 Microsoft.NetCore.ComponentGroup.DevelopmentTools.2.1 | Development Tools plus .NET Core 2.1 | 16.3.29207.166
 Microsoft.NetCore.ComponentGroup.Web.2.1 | Web Development Tools plus .NET Core 2.1 | 16.3.29207.166
 Microsoft.VisualStudio.Component.AzureDevOps.OfficeIntegration | Azure DevOps Office Integration | 16.0.28625.61
-Microsoft.VisualStudio.Component.Debugger.VSOnline | Debugger for Visual Studio Codespaces | 16.7.30310.162
+Microsoft.VisualStudio.Component.Debugger.VSOnline | Debugger for GitHub Codespaces | 16.7.30310.162
 Microsoft.VisualStudio.Component.Git | Git for Windows | 16.0.28625.61
 Microsoft.VisualStudio.Component.LinqToSql | LINQ to SQL tools | 16.0.28625.61
 Microsoft.VisualStudio.Component.TestTools.CodedUITest | Coded UI test | 16.0.28327.66
