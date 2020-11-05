@@ -43,10 +43,10 @@ In this example, the `.devcontainer.json` file below is placed in the repo root 
 }
 ```
 
-You can find more examples of using devinit in our [documentation](sample-all-tool.ms) and on Github in the [.NET Core example](https://docs.microsoft.com/en-us/visualstudio/devinit/sample-dotnet-core?view=vs-2019) and [Node.js example](https://docs.microsoft.com/en-us/visualstudio/devinit/sample-nodejs?view=vs-2019) repositories.
+You can find more examples of using devinit in our [documentation](sample-all-tool.ms) and on GitHub in the [.NET Core example](https://docs.microsoft.com/en-us/visualstudio/devinit/sample-dotnet-core?view=vs-2019) and [Node.js example](https://docs.microsoft.com/en-us/visualstudio/devinit/sample-nodejs?view=vs-2019) repositories.
 
 ### As commands
-In this example `.devcontainer.json` file below is placed in the repo root and `devinit run` is being called programmatically to run a tool  
+In this example `.devcontainer.json` file below is placed in the repo root and `devinit run` is being called directly from the command line to run an individual tool.  
 
 ```json
 {
