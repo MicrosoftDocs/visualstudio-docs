@@ -15,7 +15,7 @@ ms.technology: devinit
 
 # Node.js app
 
-See the [NodeJsDevinitExample](https://github.com/microsoft/NodeJsDevinitExample) repository for a full example of using devinit to install npm packages for a Node.js Express project.
+See the [devinit-example-nodejs](https://github.com/microsoft/devinit-example-nodejs) repository for a full example of using devinit to install npm packages for a Node.js Express project.
 
 ## .devinit.json
 

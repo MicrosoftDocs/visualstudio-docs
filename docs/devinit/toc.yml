@@ -27,6 +27,8 @@
       href: tool-dotnet-toolinstall.md
     - name: enable-iis
       href: tool-enable-iis.md
+    - name: msi-install
+      href: tool-msi-install.md
     - name: npm-install
       href: tool-npm-install.md
     - name: nuget-restore

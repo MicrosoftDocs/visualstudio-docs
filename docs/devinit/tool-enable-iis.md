@@ -42,7 +42,7 @@ The default behavior of the `enable-iis` tool is to enable IIS features: IIS-Web
 
 ```json
 {
-    "$schema": "./devinit.schema-2.0.json",
+    "$schema": "https://json.schemastore.org/devinit.schema-3.0.json",
     "run": [
         {
             "comments": "Example that will enable IIS features and install the latest ASP.NET hosting bundle.",
