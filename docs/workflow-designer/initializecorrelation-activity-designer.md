@@ -1,6 +1,6 @@
 ---
 title: "Workflow Designer - InitializeCorrelation Activity Designer"
-description: Learn how the InitializeCorrelation activity designer is used to create and configure an InitializeCorrelation activity. 
+description: Learn how you can use the InitializeCorrelation activity designer to create and configure an InitializeCorrelation activity. 
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference

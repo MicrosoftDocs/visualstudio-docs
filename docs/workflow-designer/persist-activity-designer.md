@@ -1,6 +1,6 @@
 ---
 title: Workflow Designer - Persist Activity Designer
-description: Learn about the Persist activity and how the Persist activity designer is used to create and configure a Persist activity. 
+description: Learn about the Persist activity and how to use the Persist activity designer to create and configure a Persist activity. 
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference

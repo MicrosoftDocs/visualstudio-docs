@@ -1,6 +1,6 @@
 ---
 title: Workflow Designer - Rethrow Activity Designer
-description: Learn about the Rethrow activity and how the Rethrow activity designer is used to create and configure a Rethrow activity. 
+description: Learn about the Rethrow activity and how to use the Rethrow activity designer to create and configure a Rethrow activity. 
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference

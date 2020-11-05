@@ -1,6 +1,6 @@
 ---
 title: "Workflow Designer - Primitives Activity Designers"
-description: Learn how the Primitives activity designers are used to create and configure various activities in the System.Activities.Statements namespace. 
+description: Learn how to use the Primitives activity designers to create and configure various activities in the System.Activities.Statements namespace. 
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference

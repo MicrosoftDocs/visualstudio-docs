@@ -1,6 +1,6 @@
 ---
 title: Workflow Designer - Flowchart Activity Designers
-description: Learn about Flowchart Activity Designers, which contain system-provided activities used to manage flowcharts within a workflow..
+description: Learn about Flowchart Activity Designers, which contain system-provided activities you can use to manage flowcharts within a workflow.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference

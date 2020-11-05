@@ -1,6 +1,6 @@
 ---
 title: "Workflow Designer - Confirm Activity Designer"
-description: Learn about the Confirm activity designer and how it is used to create and configure a Confirm activity.
+description: Learn about the Confirm activity designer and how you can use this designer to create and configure a Confirm activity.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
