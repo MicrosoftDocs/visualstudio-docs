@@ -40,7 +40,7 @@ Paths are relative to the location where devinit is running. This is typically t
 
 ```json
 {
-    "$schema": "https://json.schemastore.org/devinit.schema-2.0",
+    "$schema": "https://json.schemastore.org/devinit.schema-3.0",
     "comments": "string",
     "run": [
         {
