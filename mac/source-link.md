@@ -34,4 +34,4 @@ By default, **Ask** is selected. You'll receive the following prompt when extern
 ## See also
 
 - The [Source Link GitHub repository](https://github.com/dotnet/sourcelink/blob/master/README.md)
-- [.NET documentation](https://docs.microsoft.com/dotnet/standard/library-guidance/sourcelink) on Source Link and for more information on how to add Source Link support to packages
+- [.NET documentation](/dotnet/standard/library-guidance/sourcelink) on Source Link and for more information on how to add Source Link support to packages

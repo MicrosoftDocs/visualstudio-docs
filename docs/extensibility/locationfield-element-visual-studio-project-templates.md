@@ -1,5 +1,6 @@
 ---
-title: LocationField Element (Visual Studio Project Templates) | Microsoft Docs
+title: LocationField Element (Visual Studio Project Templates)
+titleSuffix: ""
 ms.date: 11/04/2016
 ms.technology: vs-ide-general
 ms.topic: reference

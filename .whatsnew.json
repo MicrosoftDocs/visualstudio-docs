@@ -4,13 +4,16 @@
     "rootDirectory": "docs/",
     "docLinkSettings": {
         "linkFormat": "relative",
-        "relativeLinkPrefix": "/visualstudio/"
+        "relativeLinkPrefix": "../"
     },
     "inclusionCriteria": {
         "additionalMicrosoftOrgs": [
             "ASP.NET"
         ],
-        "minAdditionsToFile": 30
+        "labels": [
+            "-label:CLA"
+        ],
+        "minAdditionsToFile": 10
     },
     "areas": [
         {

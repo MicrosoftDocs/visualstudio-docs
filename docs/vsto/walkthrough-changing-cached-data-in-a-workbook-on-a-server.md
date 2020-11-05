@@ -1,5 +1,6 @@
 ---
 title: "Walkthrough: Change cached data in a workbook on a server"
+titleSuffix: ""
 ms.date: "08/14/2019"
 ms.topic: "conceptual"
 dev_langs:

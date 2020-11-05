@@ -1,8 +1,8 @@
 ---
 title:  Manage Visual Studio Subscriptions
 author: evanwindom
-ms.author: lank
-manager: lank
+ms.author: v-evwin
+manager: cabuschl
 ms.assetid: 196c6d04-9a33-47d5-b0f1-038e7c3a7ac9
 ms.date: 03/09/2020
 ms.topic: conceptual
@@ -51,7 +51,7 @@ On the Benefits page, the subscription in use will be prominently displayed in t
 
 ## Transferring subscriptions
 
-If your subscription was purchased through Microsoft Volume Licensing and you need to re-assign it to someone else within the organization, your administrator will need to do this for you.
+If your subscription was purchased through Microsoft Volume Licensing and you need to re-assign it to someone else within the organization, your admin will need to do this for you.
 Retail subscriptions can be transferred to another user by contacting Customer Service. Complimentary or “Not For Resale” subscriptions cannot be transferred.
 
 ## Managing my profile
@@ -108,10 +108,10 @@ A: Depending on the purchasing channel, Microsoft maintains customer data for di
 > - We will not fully remove all your personal data if you have active subscriptions.
 
 ## See also
-- [Visual Studio documentation](https://docs.microsoft.com/visualstudio/)
-- [Azure DevOps documentation](https://docs.microsoft.com/azure/devops/)
-- [Azure documentation](https://docs.microsoft.com/azure/)
-- [Microsoft 365 documentation](https://docs.microsoft.com/microsoft-365/)
+- [Visual Studio documentation](/visualstudio/)
+- [Azure DevOps documentation](/azure/devops/)
+- [Azure documentation](/azure/)
+- [Microsoft 365 documentation](/microsoft-365/)
 
 ## Next steps
 Do you manage subscriptions for your organization?  Learn more about managing Visual Studio subscriptions:

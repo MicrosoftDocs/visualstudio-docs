@@ -1,5 +1,5 @@
 ---
-title: How to - Serialize Symbol Information | Microsoft Docs
+title: Serialize Symbol Information | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords: 

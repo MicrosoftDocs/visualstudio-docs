@@ -1,5 +1,6 @@
 ---
-title: Default keyboard shortcuts for frequently used commands
+title: Keyboard shortcuts for frequently used commands
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 author: TerryGLee

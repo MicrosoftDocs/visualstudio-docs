@@ -20,9 +20,11 @@ At this point, your development team is quite small and you're simply building a
 
 ## Get the app
 
-Before you can run the application, you need to get the application source code onto your machine. For real projects, you will typically clone the repo. But, for this tutorial, you have created a ZIP file containing the application.
+Before you can run the application, you need to get the application source code onto your machine. For real projects, you will typically clone the repo. But, for this tutorial, we have created a ZIP file containing the application.
 
-1. [Download the ZIP](/assets/app.zip). Open the ZIP file and make sure you extract the contents.
+1. Make sure that you have Docker for Windows or Docker Community Edition installed on the local machine. See [Docker for Windows installation documentation](https://docs.docker.com/docker-for-windows/install/). The install process makes the ZIP file containing the sample available at the localhost address.
+
+1. [Download the ZIP](http://localhost/assets/app.zip). Open the ZIP file and make sure you extract the contents.
 
 1. Once extracted, use your favorite code editor to open the project. If you're in need of an editor, you can use [Visual Studio Code](https://code.visualstudio.com/). You should see the `package.json` and two subdirectories (`src` and `spec`).
 
@@ -49,6 +51,8 @@ In order to build the application, you need to use a `Dockerfile`. A Dockerfile 
     ```bash
     docker build -t getting-started .
     ```
+
+    Alternatively, you can also right-click on the Dockerfile and choose **Build Image...** and then specify the tag at the prompt.
 
     This command used the Dockerfile to build a new container image. You might have noticed that a lot of "layers" were downloaded. This is because you instructed the builder that you wanted to start from the `node:12-alpine` image. But, since you didn't have that on your machine, that image needed to be downloaded.
 

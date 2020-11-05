@@ -94,7 +94,7 @@ Run the application again. You should see that the page now displays the current
 
 Add a breakpoint to the `OnGet` method where we're assigning a value to `Time` and this time start debugging the application.
 
-Execution stops on the line, and you can see that `DateTime.Today` includes the date but the time is always midnight because it doesn't include time data. 
+Execution stops on the line, and you can see that `DateTime.Today` includes the date but the time is always midnight because it doesn't include time data.
 
 ![Visual Studio 2019 ASP.NET Core Project in Browser](media/vs-2019/vs2019-breakpoint.png)
 
@@ -122,4 +122,4 @@ In the next video, you'll learn how to add data support to your app.
 
 ## See also
 
-- [Tutorial: Create a Razor Pages web app with ASP.NET Core](/aspnet/core/tutorials/razor-pages/?view=aspnetcore-2.1)
+- [Tutorial: Create a Razor Pages web app with ASP.NET Core](/aspnet/core/tutorials/razor-pages/?view=aspnetcore-2.1&preserve-view=true)

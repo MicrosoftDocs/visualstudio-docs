@@ -1,5 +1,6 @@
 ---
-title: "How to: Change the Graphics Diagnostics Playback Machine | Microsoft Docs"
+title: "Change graphics diagnostics playback machine"
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: how-to
 ms.assetid: 1b9aa3ea-29a0-4e21-bc57-936f33537b5c

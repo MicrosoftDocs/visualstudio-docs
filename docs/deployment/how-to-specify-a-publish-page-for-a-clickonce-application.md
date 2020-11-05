@@ -1,5 +1,6 @@
 ---
-title: How to - Specify a Publish Page for a ClickOnce Application | Microsoft Docs
+title: Specify a publish page (ClickOnce app)
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 

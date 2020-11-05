@@ -17,7 +17,7 @@ The Performance Profiler and Diagnostic Tools window in Visual Studio have many 
 
 ## Symbol Settings
 
-The symbols settings found in the debugger options (**Debug > Options > Symbols**) have a significant impact on how long it takes to generate results in the tools. Enabling symbol servers or using the **_NT_SYMBOL_PATH** causes the profiler to request symbols for each loaded module in a report. Currently, the profiler always automatically loads all symbols regardless of the automatic symbol loading preference.
+The symbols settings found in the debugger options (**Debug > Options > Symbols** or **Tools > Options > Debugging > Symbols**) have a significant impact on how long it takes to generate results in the tools. Enabling symbol servers or using the **_NT_SYMBOL_PATH** causes the profiler to request symbols for each loaded module in a report. Currently, the profiler always automatically loads all symbols regardless of the automatic symbol loading preference.
 
 ![Symbol loading page](../profiling/media/symbolloading.png "Symbol Loading")
 

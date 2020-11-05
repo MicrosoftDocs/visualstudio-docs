@@ -76,7 +76,7 @@ To remove a container, it first needs to be stopped. Once it has stopped, it can
 > [!TIP]
 > You can stop and remove a container in a single command by adding the "force" flag to the `docker rm` command. For example: `docker rm -f <the-container-id>`
 
-### Remove a container using the Docker Dashboard
+### Remove a container using the Docker view
 
 If you open the VS Code Extension, you can remove a container with two clicks! It's certainly much easier than having to look up the container ID and remove it.
 
@@ -86,7 +86,7 @@ If you open the VS Code Extension, you can remove a container with two clicks! I
 
 1. Confirm the removal and you're done!
 
-![Docker Dashboard - removing a container](media/vs-removing-container.png)
+![Docker view - removing a container](media/vs-removing-container.png)
 
 ### Start the updated app container
 

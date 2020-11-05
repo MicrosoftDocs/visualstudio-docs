@@ -16,7 +16,7 @@ This refactoring applies to:
 
 - C#
 
-**What:** Lets you simplify a [conditional expression](https://docs.microsoft.com/dotnet/csharp/language-reference/operators/conditional-operator).
+**What:** Lets you simplify a [conditional expression](/dotnet/csharp/language-reference/operators/conditional-operator).
 
 **When:** You want to remove unnecessary code to provide more clarity.
 

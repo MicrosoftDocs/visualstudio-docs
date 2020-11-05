@@ -1,5 +1,6 @@
 ---
 title: Customize the Help Viewer
+description: Understand how to customize the Help Viewer. Configure the layout, font size, maximum number of results, and whether to include English content.
 ms.date: 11/02/2017
 ms.topic: how-to
 f1_keywords:

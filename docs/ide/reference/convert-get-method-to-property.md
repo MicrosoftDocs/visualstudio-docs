@@ -1,5 +1,6 @@
 ---
-title: Convert Get method to property; convert property to Get method
+title: Convert Get method to or from a property
+ms.custom: SEO-VS-2020
 ms.date: 03/10/2020
 ms.topic: reference
 ms.devlang: csharp

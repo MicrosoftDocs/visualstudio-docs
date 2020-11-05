@@ -1,7 +1,7 @@
 ---
 title: "Log info with tracepoints | Microsoft Docs"
 ms.date: "10/28/2019"
-ms.topic: "conceptual"
+ms.topic: "how-to"
 helpviewer_keywords:
   - "tracepoints, about tracepoints"
 author: "Sagar-S-S"

@@ -1,5 +1,6 @@
 ---
-title: Timing Details Storage Property for a Load Test Run Setting
+title: Timing Details Storage property (load test run setting)
+ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
 ms.topic: how-to
 helpviewer_keywords: 

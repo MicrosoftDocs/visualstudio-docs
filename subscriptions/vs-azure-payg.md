@@ -1,10 +1,10 @@
 ---
-title: Azure PAYG Benefit
+title: Azure PAYG Benefit in Visual Studio subscriptions
 author: evanwindom
 ms.author: v-evwin
-manager: lank
+manager: cabuschl
 ms.assetid: 5dc7f57e-883a-4cc1-a914-06245a8cb1ff
-ms.date: 04/15/2020
+ms.date: 10/21/2020
 ms.topic: how-to
 description:  Learn how to set up your Azure Pay-As-You-Go account.
 ---
@@ -15,7 +15,7 @@ Collaborate with your team in the cloud.  Create multiple Dev and Test Pay-As-Yo
 ## Set up a subscription
 1. To use your Azure Pay-As-You-Go subscription benefit, sign in to [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs) and click on the **Activate** link at the bottom of the benefit tile.
    > [!div class="mx-imgBorder"]
-   > ![Azure PAYG Tile](_img/vs-azure-payg/vs-azure-payg-tile.png)
+   > ![Azure PAYG Tile](_img/vs-azure-payg/vs-azure-payg-tile.png "Click 'Activate' on the DevTest Pay-As-You-Go subscription tile to get started.")
 
 2. If you have already activated an Azure account as part of your subscription benefits (for example, if you have an Enterprise subscription and activated your $150 monthly Azure DevTest individual credit), skip to step 5.
 
@@ -40,13 +40,12 @@ A: To make changes to any of your Azure subscriptions:
 4. You'll now have options to manage or cancel the subscription, rename it, change the directory, or transfer billing ownership.
 
 ## See also
-- [Visual Studio documentation](https://docs.microsoft.com/visualstudio/)
-- [Azure DevOps documentation](https://docs.microsoft.com/azure/devops/)
-- [Azure documentation](https://docs.microsoft.com/azure/)
-- [Microsoft 365 documentation](https://docs.microsoft.com/microsoft-365/)
+- [Visual Studio documentation](/visualstudio/)
+- [Azure DevOps documentation](/azure/devops/)
+- [Azure documentation](/azure/)
+- [Microsoft 365 documentation](/microsoft-365/)
 
 ## Next steps
 Many subscriptions include additional Azure-related benefits such as Azure DevOps and Azure DevTest individual credit.  For more information about these benefits, please see:
 - [Azure DevOps](vs-azure-devops.md)
 - [Azure DevTest individual credit](vs-azure.md)
-

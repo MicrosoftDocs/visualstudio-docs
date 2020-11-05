@@ -1,5 +1,7 @@
 ---
-title: AsyncTaskMethodBuilder Structure - Internal Members | Microsoft Docs
+title: AsyncTaskMethodBuilder Structure - Internal Members
+titleSuffix: ""
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

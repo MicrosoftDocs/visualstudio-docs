@@ -1,5 +1,5 @@
 ---
-title: "Allocation Hooks and C Run-Time Memory Allocations | Microsoft Docs"
+title: "Allocation Hooks and C Run-Time Memory Allocations"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:

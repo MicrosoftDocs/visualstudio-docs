@@ -1,5 +1,6 @@
 ---
 title: "Visual Studio Installer Projects and .NET Core 3.1"
+titleSuffix: ""
 ms.date: "08/18/2020"
 ms.topic: "conceptual"
 helpviewer_keywords:
@@ -27,7 +28,7 @@ You can download the extension here:
 
 - Self-contained applications include the runtime.
 
-To learn more about these deployment strategies, see [.NET Core application publishing overview](https://docs.microsoft.com/dotnet/core/deploying/).
+To learn more about these deployment strategies, see [.NET Core application publishing overview](/dotnet/core/deploying/).
 
 ### Workflow changes for .NET Core 3.1
 

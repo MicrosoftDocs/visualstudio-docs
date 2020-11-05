@@ -1,8 +1,8 @@
 ---
-title: "Visual Studio docs: What's new for July 2020 "
+title: "Visual Studio docs: What's new for September 2020 "
 titleSuffix: ""
-description: "What's new in the Visual Studio docs for July 2020."
-ms.date: 08/06/2020
+description: "What's new in the Visual Studio docs for September 2020."
+ms.date: 09/30/2020
 helpviewer_keywords:
   - "Visual Studio, what's new, docs"
   - "what's new [Visual Studio]"
@@ -17,98 +17,83 @@ ms.workload:
   - "multiple"
 ---
 
-# Visual Studio docs: What's new in the docs for July 2020
+# Visual Studio docs: What's new for September 2020
 
-Welcome to what's new in the Visual Studio docs for July 2020. This article lists some of the major changes to docs during this period.
+Welcome to what's new in the Visual Studio docs for September 2020. This article lists some of the major changes to docs during this period. For information about what was new in previous months, see the [what's new history](whats-new-visual-studio-docs-history.md) topic.
 
 ## Code quality
 
 **New articles**
 
-- [CA1417: Do not use `OutAttribute` on string parameters for P/Invokes](/visualstudio/code-quality/ca1417) - Add documentation for CA1417
-- [CA1805: Do not initialize unnecessarily.](/visualstudio/code-quality/ca1805) - Add docs for CA1805
-- [CA1836: Prefer IsEmpty over Count when available](/visualstudio/code-quality/ca1836) - Add documentation for CA1836 (Prefer IsEmpty over Count)
-- [CA2016: Forward the CancellationToken parameter to methods that take one](/visualstudio/code-quality/ca2016) - Document CA2016 - Forward the CancellationToken parameter to methods that take one
-- [CA2350: Ensure DataTable.ReadXml()'s input is trusted](/visualstudio/code-quality/ca2350) - Initial DataSet / DataTable deserialization rules docs
-- [CA2351: Ensure DataSet.ReadXml()'s input is trusted](/visualstudio/code-quality/ca2351) - Initial DataSet / DataTable deserialization rules docs
-- [CA2352: Unsafe DataSet or DataTable in serializable type can be vulnerable to remote code execution attacks](/visualstudio/code-quality/ca2352) - Initial DataSet / DataTable deserialization rules docs
-- [CA2353: Unsafe DataSet or DataTable in serializable type](/visualstudio/code-quality/ca2353) - Initial DataSet / DataTable deserialization rules docs
-- [CA2354: Unsafe DataSet or DataTable in deserialized object graph can be vulnerable to remote code execution attack](/visualstudio/code-quality/ca2354) - Initial DataSet / DataTable deserialization rules docs
-- [CA2355: Unsafe DataSet or DataTable in deserialized object graph](/visualstudio/code-quality/ca2355) - Initial DataSet / DataTable deserialization rules docs
-- [CA2356: Unsafe DataSet or DataTable type in web deserialized object graph](/visualstudio/code-quality/ca2356) - Initial DataSet / DataTable deserialization rules docs
+- [CA1416: Validate platform compatibility](/dotnet/fundamentals/code-analysis/quality-rules/ca1416) - Documenting CA1416 Validate platform compatibility
+- [CA1834: Use StringBuilder.Append(char) for single character strings](/dotnet/fundamentals/code-analysis/quality-rules/ca1834) - Docs for CA1834
+
+**Updated**
+
+- [Overview of source code analysis](../code-quality/roslyn-analyzers-overview.md) - Code analysis updates for .NET refactor
+- [Configure code quality analysis](../code-quality/use-roslyn-analyzers.md) - Code analysis updates for .NET refactor
 
 ## Containers
 
 **New articles**
 
-- [Configure Local Process with Kubernetes](/visualstudio/containers/configure-local-process-with-kubernetes) - Local Process with Kubernetes: yaml configuration
-- [Use Local Process with Kubernetes (preview)](/visualstudio/containers/local-process-kubernetes) - Dev spaces migration
-- [How Local Process with Kubernetes works](/visualstudio/containers/overview-local-process-kubernetes)
-  - Local Process for Kubernetes: Add routing section
-  - Dev spaces migration
+- [Use Bridge to Kubernetes](../containers/bridge-to-kubernetes.md) - Local Process with Kubernetes rebranding to Bridge to Kubernetes
+- [How Bridge to Kubernetes works](../containers/overview-bridge-to-kubernetes.md) - Local Process with Kubernetes rebranding to Bridge to Kubernetes
 
-## Cross platform
+## Deployment
 
 **Updated articles**
 
-- [Change log (Visual Studio Tools for Unity, Windows)](/visualstudio/cross-platform/change-log-visual-studio-tools-for-unity) - Bump VSTU changelog to 4.7.1.0
-- [Change Log (Visual Studio Tools for Unity, Mac)](/visualstudio/cross-platform/change-log-visual-studio-tools-for-unity-mac) - Bump VSTUM changelog to 2.7.1.0
-
-## Get started
-
-**New articles**
-
-- [Tutorial: Extend a simple C# console app](/visualstudio/get-started/csharp/tutorial-console-part-2) - Release extend sidewalk tutorial first version
+- [Deploy your app to a folder, IIS, Azure, or another destination](../deployment/deploying-applications-services-and-components-resources.md) - Deployment updates
+- [Deploy an app to a folder using Visual Studio](../deployment/quickstart-deploy-to-local-folder.md) - Deployment updates
 
 ## IDE
 
 **New articles**
 
-- [Developer Community guidelines](/visualstudio/ide/developer-community-guidelines) - Added DevCom Guidelines
-- [IntelliSense completion for unimported types and extension methods](/visualstudio/ide/reference/intellisense-completion-unimported-types-extension-methods)
+- [New Git experience in Visual Studio (Preview)](./git-with-visual-studio.md) - add New Git Experience content (Preview)
+- [C++ EditorConfig formatting conventions](./cpp-editorconfig-properties.md) - new article
+- [What is GitHub Codespaces? (Preview)](./codespaces/codespaces-overview.md) - add Codespaces (Preview) content
+- [How to customize a codespace (Preview)](./codespaces/customize-codespaces.md) - add Codespaces (Preview) content
+- [Supported Visual Studio features (Preview)](./codespaces/supported-features-codespaces.md) - add Codespaces (Preview) content
+- [How to use Visual Studio with a codespace (Preview)](./codespaces/use-visual-studio-with-codespaces.md) - add Codespaces (Preview) content
+
+**Updated articles**
+
+- [.NET coding convention settings for EditorConfig](/dotnet/fundamentals/code-analysis/code-style-rule-options) - updated editorconfig
+- [Language conventions](/dotnet/fundamentals/code-analysis/style-rules/language-rules) - missing examples
 
 ## Install
 
 **New articles**
 
-- [Update Visual Studio using a minimal offline layout](/visualstudio/install/update-minimal-layout) - Document minimal layout feature
-- [Visual Studio enterprise guide](/visualstudio/install/visual-studio-enterprise-guide) - Enterprise guide
-
-## JavaScript
-
-**New articles**
-
-- [Compile TypeScript code (Node.js)](/visualstudio/javascript/compile-typescript-code-npm) - TypeScript compile and build
-- [Compile TypeScript code (ASP.NET Core)](/visualstudio/javascript/compile-typescript-code-nuget) - TypeScript compile and build
-
-## MSBuild
-
-**New articles**
-
-- [Common MSBuild item metadata](/visualstudio/msbuild/common-msbuild-item-metadata) - MSBuild: add table for optional metadata with Link and LinkBase
-- [Solution filters in MSBuild](/visualstudio/msbuild/solution-filters) - MSBuild solution filters
-
-## Test
-
-**New articles**
-
-- [Debug and analyze unit tests with Test Explorer](/visualstudio/test/debug-unit-tests-with-test-explorer) - Test Explorer performance work
+- [Visual Studio on ARM-powered devices](../install/visual-studio-on-arm-devices.md) - Adding doc for VS on ARM
 
 **Updated articles**
 
-- [Configure unit tests by using a *.runsettings* file](/visualstudio/test/configure-unit-tests-by-using-a-dot-runsettings-file)
-  - Updates to configuring unit tests using a runsettings file
-  - Blame option description was changed and example was added.
+- [Troubleshoot network-related errors when you install or use Visual Studio](../install/troubleshooting-network-related-errors-in-visual-studio.md) - Add workaround for feedback auth proxy crash
+
+## Profiling
+
+**Updated articles**
+
+- [Measure memory usage in Visual Studio](../profiling/memory-usage.md) - Updates to profiling feature tour
+- [PerfTips](../profiling/perftips.md) - Updates to profiling feature tour
+- [First look at profiling tools](../profiling/profiling-feature-tour.md) - Updates to profiling feature tour
+- [Run profiling tools with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md)
+  - Updates to profiling feature tour
+  - Content performance improvements
 
 ## Community contributors
 
-The following people contributed to the Visual Studio docs during this period. Thank you! Learn how to contribute to the Visual Studio docs by following the guidance in the [Contributor Guide](https://docs.microsoft.com/contribute/).
+The following people contributed to the Visual Studio docs during this period. Thank you! Learn how to contribute to the Visual Studio docs by following the guidance in the [Contributor Guide](/contribute/).
 
-- [briuk](https://github.com/briuk) - Viktor Briukhanov (2)
-- [Youssef1313](https://github.com/Youssef1313) - Youssef Victor (2)
-- [ArntWork](https://github.com/ArntWork) - Legolas (1)
-- [Asugakoisi](https://github.com/Asugakoisi) - アスガコイシ (1)
-- [Delizald](https://github.com/Delizald) - David Elizalde (1)
-- [farisachugthai](https://github.com/farisachugthai) - Faris A Chugthai (1)
-- [mycalingram](https://github.com/mycalingram) - Mycal (1)
-- [tuyen-at-work](https://github.com/tuyen-at-work) - Tuyen Pham (1)
+- [hyoshioka0128](https://github.com/hyoshioka0128) - Hiroshi Yoshioka (3)
+- [gmsantos](https://github.com/gmsantos) - Gabriel Machado (1)
+- [ite-klass](https://github.com/ite-klass) - Jan Klass (1)
+- [johnallers](https://github.com/johnallers) - John Allers (1)
+- [mrlacey](https://github.com/mrlacey) - Matt Lacey (1)
+- [remona-minett](https://github.com/remona-minett) - Rem (1)
+- [sguitardude](https://github.com/sguitardude) (1)
+- [sjrct](https://github.com/sjrct) - Chris Harding (1)
+- [Youssef1313](https://github.com/Youssef1313) - Youssef Victor (1)

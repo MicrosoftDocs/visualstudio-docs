@@ -1,10 +1,10 @@
 ---
-title: Signing in to Visual Studio Subscriptions with your Microsoft Account (MSA) | Microsoft Docs
+title: Sign in to Visual Studio Subscriptions with a  Microsoft Account | Microsoft Docs
 author: evanwindom
-ms.author: lank
-manager: lank
+ms.author: v-evwin    
+manager: cabuschl
 ms.assetid: 19038bb0-2858-49df-9624-cbf8bfbb5d39
-ms.date: 03/11/2020
+ms.date: 09/08/2020
 ms.topic: how-to
 description:  How to Sign In to Your Visual Studio Subscription with your Microsoft Account (MSA)
 ---
@@ -38,10 +38,10 @@ A:  Many users have more than one subscription.  If you are able to sign in to t
 If you're still having trouble, you can reach out to our [subscriptions support](https://visualstudio.microsoft.com/subscriptions/support/) team for assistance.  
 
 ## See also
-- [Visual Studio documentation](https://docs.microsoft.com/visualstudio/)
-- [Azure DevOps documentation](https://docs.microsoft.com/azure/devops/)
-- [Azure documentation](https://docs.microsoft.com/azure/)
-- [Microsoft 365 documentation](https://docs.microsoft.com/microsoft-365/)
+- [Visual Studio documentation](/visualstudio/)
+- [Azure DevOps documentation](/azure/devops/)
+- [Azure documentation](/azure/)
+- [Microsoft 365 documentation](/microsoft-365/)
 
 ## Next steps
-After you've successfully signed in to the subscriptions portal, we recommend visiting the Benefits page at https://my.visualstudio.com/benefits and exploring the great tools, services, and offers available to you.  
+After you've successfully signed in to the subscriptions portal, we recommend visiting the Benefits page at https://my.visualstudio.com/benefits and exploring the great tools, services, and offers available to you.

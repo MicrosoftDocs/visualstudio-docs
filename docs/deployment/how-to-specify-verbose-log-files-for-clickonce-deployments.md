@@ -1,5 +1,6 @@
 ---
-title: How to - Specify Verbose Log Files for ClickOnce Deployments | Microsoft Docs
+title: Specify verbose log files (ClickOnce deployments)
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 

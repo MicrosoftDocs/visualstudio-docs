@@ -1,5 +1,6 @@
 ---
-title: How to - Specify Which Files Are Published by ClickOnce | Microsoft Docs
+title: Specify files to publish (ClickOnce)
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords: 
