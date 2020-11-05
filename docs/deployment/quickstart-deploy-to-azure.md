@@ -1,5 +1,7 @@
 ---
 title: Publish to Azure App Service
+description: Learn about the methods to publish ASP.NET, ASP.NET Core, Node.js, and .NET Core apps to Azure App Service or Azure App Service Linux.
+ms.custom: SEO-VS-2020
 ms.date: 01/29/2019
 ms.topic: quickstart
 helpviewer_keywords:

@@ -1,5 +1,7 @@
 ---
 title: Publish to a website
+description: Learn how to use the Publish tool to publish ASP.NET, ASP.NET Core, .NET Core, and Python apps to a website from Visual Studio. 
+ms.custom: SEO-VS-2020
 ms.date: 01/29/2019
 ms.topic: quickstart
 helpviewer_keywords:
