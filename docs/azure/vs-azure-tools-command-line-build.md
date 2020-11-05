@@ -4,7 +4,7 @@ description: Command-line build for Azure
 author: ghogen
 manager: jillfra
 assetId: 94b35d0d-0d35-48b6-b48b-3641377867fd
-ms.custom: vs-azure
+
 ms.workload: azure-vs
 ms.topic: how-to
 ms.date: 03/05/2017
