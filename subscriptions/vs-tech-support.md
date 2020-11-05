@@ -36,7 +36,7 @@ Product level descriptions: Expand **Unavailable support plans**. If you see **S
 > - Microsoft Outlook
 
 ## How to activate the benefit
-0. Go to <https://my.visualstudio.com/Benefits>, scroll down to the Support section and on the Technical Support tile click **Chat to activate**.
+1. Go to <https://my.visualstudio.com/Benefits>, scroll down to the Support section and on the Technical Support tile click **Chat to activate**.
     > [!div class="mx-imgBorder"]
     > ![Technical Support Benefit Tile](_img/vs-tech-support/vs-tech-support-tile.png "Click 'Chat to activate' on the Technical Support tile.")
 2. This will initiate a chat session with a representative who can create your **Contract ID** and **Access ID** and provide those to you via email so you will have them for your records.
@@ -64,10 +64,12 @@ You can submit incidents online, over the phone, or from the Azure portal.
 ### Submit an incident online
 To submit an incident via the Support for business portal, follow these steps:
 
-1. Sign in to <https://support.microsoft.com/en-us/supportforbusiness/productselection>
   > [!NOTE]
   > You may receive a notice that you need to confirm your email address.  Click the **Send email** link in the notice to send the confirmation to the email address listed in your profile. 
-2. In the **Step 1** section, select the appropriate entries from the drop-down lists to indicate your product, version, issue, etc. Complete the text fields for the summary of the issue and to describe the issue in more detail. Then click **Next**.
+
+1. Sign in to <https://support.microsoft.com/en-us/supportforbusiness/productselection>
+
+0. In the **Step 1** section, select the appropriate entries from the drop-down lists to indicate your product, version, issue, etc. Complete the text fields for the summary of the issue and to describe the issue in more detail. Then click **Next**.
    > [!div class="mx-imgBorder"]
    > ![Create a new support request](_img/vs-tech-support/vs-tech-support-create-new.png "Complete the fields to create a new support request.") 
 0. In the **Step 2** section, supply your location and time zone.
