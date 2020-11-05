@@ -9,7 +9,7 @@ ms.date: 08/14/2020
 user.type: subscriber
 tags: download, activate
 subscription.type: vl, cloud, retail, partner
-sap.id: 3c439fef-213d-1e20-70df-7f2837461ddd
+sap.id: 53a7a6d4-7755-352a-5a65-715d78af84bf
 ---
 
 ## I'm unable to download or activate Visual Studio Enterprise or Professional
