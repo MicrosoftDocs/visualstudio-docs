@@ -20,7 +20,7 @@ ms.technology: devinit
 devinit init
 ```
 
-Initialize the environment by running the tools specified in a [_.devinit.json_](devinit-json.md) file in the current working directory.  
+Initialize the environment by running the tools specified in a [`.devinit.json`](devinit-json.md) file in the current working directory.  
 
 ### Options for init
 
@@ -28,7 +28,7 @@ Optional options for the `devinit init` command.
 
 | Argument             | Required | Description                                                               |
 |----------------------|----------|---------------------------------------------------------------------------|
-| -f,--file            | No       | Path to the _.devinit.json_ file.                                         |
+| -f,--file            | No       | Path to the `.devinit.json` file.                                         |
 | --error-action       | No       | Specifies how to handle errors. Options: Stop, Ignore, Continue (default).|
 | -v,--verbose         | No       | Emit verbose output.                                                      |
 | -n,--dry-run         | No       | Dry run.                                                                  |

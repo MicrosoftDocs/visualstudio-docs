@@ -18,7 +18,7 @@ This example illustrates the customizations needed to by [OpenCV](https://github
 
 ## .devinit.json
 
-Contents of the [_.devinit.json_](devinit-json.md) file. This file needs to be in the same folder as _.devcontainer.json_.
+Contents of the [`.devinit.json`](devinit-json.md) file. This file needs to be in the same folder as _.devcontainer.json_.
 
 ```json
 {

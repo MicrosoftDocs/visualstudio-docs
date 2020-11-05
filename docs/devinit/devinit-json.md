@@ -18,15 +18,15 @@ The `.devinit.json` file defines the system-wide dependencies that your applicat
 
 ## File location
 
-The `devinit.exe init` command is driven via the _.devinit.json_ file. By default, `devinit.exe` looks for the file in the following locations:
+The `devinit.exe init` command is driven via the `.devinit.json` file. By default, `devinit.exe` looks for the file in the following locations:
 
 - _{current-directory}\\_
 - _{current-directory}\\.devinit\\_
 - _{current-directory}\\.devcontainer\\_
 
-The _._ in the directory and file names can be omitted.
+The `.` in the directory and file names can be omitted.
 
-The _.devinit.json_ file can also be specified explicitly via the `--file`/`-f` option.
+The `.devinit.json` file can also be specified explicitly via the `--file`/`-f` option.
 
 ### Directories and relative paths
 

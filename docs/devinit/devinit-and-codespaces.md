@@ -26,9 +26,10 @@ To make sure that a codespace is created with the dependencies your app needs, `
 You can also execute `devinit init -f <path to .devinit.json>` from the Visual Studio Integrated Terminal once connected to your codespace.
 
 ## Examples
+In both the examples below the `.devinit.json` is in the repo root alongside the `.devcontainer.json`.
 
-### With a .devinit.json file
-In this example, the _.devcontainer.json_ file below is placed in the repo root alongside the _.devinit.json_ file. The files can also be placed in a _.devcontainer_ directory.
+### With a .devcontainer.json file
+In this example, the `.devcontainer.json` file below is placed in the repo root alongside the `.devinit.json` file. The files can also be placed in a `.devcontainer` directory.
 
 ```json
 {
@@ -43,7 +44,7 @@ In this example, the _.devcontainer.json_ file below is placed in the repo root 
 ```
 
 ### As commands
-In this example _.devcontainer.json_ file below is placed in the repo root and `devinit run` is being called programmatically to run a tool  
+In this example `.devcontainer.json` file below is placed in the repo root and `devinit run` is being called programmatically to run a tool  
 
 ```json
 {
@@ -53,13 +54,13 @@ In this example _.devcontainer.json_ file below is placed in the repo root and `
 
 ### From a terminal prompt
 
-When the current working directory contains a _.devinit.json_ file.
+When the current working directory contains a `.devinit.json` file.
 
 ```console
 devinit init
 ```
 
-When the _.devinit.json_ is in another directory.
+When the `.devinit.json` is in another directory.
 
 ```console
 devinit init -f path/to/.devinit.json
