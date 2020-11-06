@@ -216,6 +216,7 @@ The code coverage data collector creates a log of which parts of the application
       <CollectAspDotNet>False</CollectAspDotNet>
     </CodeCoverage>
   </Configuration>
+</DataCollector>
 ```
 
 ### VideoRecorder data collector
