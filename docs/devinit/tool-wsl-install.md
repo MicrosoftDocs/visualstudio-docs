@@ -62,7 +62,7 @@ The Default behavior of the `wsl-install` tool is to error as the `input` proper
 
 ```json
 {
-    "$schema": "https://json.schemastore.org/devinit.schema-2.0",
+    "$schema": "https://json.schemastore.org/devinit.schema-3.0",
     "run": [
         {
             "comments": "Example that will install Ubuntu 20.04.",

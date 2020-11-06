@@ -9,7 +9,7 @@ ms.date: 08/14/2020
 user.type: subscriber
 tags: purchasing
 subscription.type: vl, cloud, retail, partner
-sap.id: d49256cb-844e-ebfd-210e-a30a61a3adad
+sap.id: c374762c-640b-8b2c-d049-bda9545e903c
 ---
 
 ## Where to purchase subscriptions 
