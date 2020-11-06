@@ -215,8 +215,7 @@ The code coverage data collector creates a log of which parts of the application
       <CollectFromChildProcesses>True</CollectFromChildProcesses>
       <CollectAspDotNet>False</CollectAspDotNet>
     </CodeCoverage>
-  </CodeCoverage>
-</Configuration>
+  </Configuration>
 ```
 
 ### VideoRecorder data collector
