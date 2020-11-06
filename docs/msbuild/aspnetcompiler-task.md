@@ -70,4 +70,4 @@ The following code example uses the `AspNetCompiler` task to precompile an ASP.N
 
 * [Tasks](../msbuild/msbuild-tasks.md)
 * [Task reference](../msbuild/msbuild-task-reference.md)
-* [ASP.NET Compilation Tool (aspnet_compiler.exe)](https://docs.microsoft.com/previous-versions/ms229863(v=vs.100))
+* [ASP.NET Compilation Tool (aspnet_compiler.exe)](/previous-versions/ms229863(v=vs.100))
