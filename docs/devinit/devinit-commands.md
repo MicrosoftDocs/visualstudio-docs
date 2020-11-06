@@ -20,7 +20,7 @@ ms.technology: devinit
 devinit init
 ```
 
-Initialize the environment by running the tools specified in a [`.devinit.json`](devinit-json.md) file.
+Initialize the environment by running the tools specified in a [.devinit.json](devinit-json.md) file.
 
 ### Options for init
 

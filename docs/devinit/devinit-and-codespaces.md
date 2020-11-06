@@ -17,18 +17,20 @@ ms.technology: devinit
 devinit is a great compliment to [GitHub Codespaces](https://github.com/features/codespaces) and devinit can be used to get a codespace setup so contributors can build, run, and debug right away.
 
 > [!IMPORTANT]
-> Before integrating devinit with your codespace you first need to make sure you have a `.devinit.json` file that defines your dependencies. For more information on how to create a `.devinit.json` read the [getting started documentation](getting-started-with-devinit.md).
+> Before integrating devinit with your codespace, you first need to make sure you have a `.devinit.json` file that defines your dependencies. For more information on how to create a `.devinit.json`, read the [getting started documentation](getting-started-with-devinit.md).
 
-Inside of a GitHub Codespace, your application is built and run in the cloud. As it's in the cloud it doesn't have access to local resources on your machines. These include tools or programs that you have installed locally. If your application needs any system-wide dependencies to be installed or configured, it needs to be done on each Codespace. The easiest way to achieve that is to use a `.devinit.json` file.
+Inside of a GitHub Codespace, your application is built and run in the cloud. Being in the cloud means that your application doesn't have access to local resources on your machines. These include tools or programs that you have installed locally. If your application needs any system-wide dependencies to be installed or configured, it needs to be done on each codespace. The easiest way to achieve that is to use a `.devinit.json` file.
 
-To make sure that a codespace is created with the dependencies your application needs, `devinit` needs to be ran when the codespace is created. This can be done by calling `devinit init` from the `postCreateCommand` defined in a `.devcontainer.json` file placed in the repo root. The string(s) in `postCreateCommand` are executed in the default shell, after the repo is cloned in the codespace. You can read more about `postCreateCommand` in the GitHub Codespaces [customization documentation](https://docs.github.com/github/developing-online-with-codespaces/configuring-codespaces-for-your-project). To add the `devinit` command, you can add `devinit init` to the `postCreateCommand` as shown in the examples below.
+To make sure that a codespace is created with the dependencies your application needs, `devinit` needs to be run when the codespace is created. This can be done by calling `devinit init` from the `postCreateCommand` defined in a `.devcontainer.json` file placed in the repository root. The string(s) in `postCreateCommand` are executed in the default shell, after the repo is cloned in the codespace. You can read more about `postCreateCommand` in the GitHub Codespaces [customization documentation](https://docs.github.com/github/developing-online-with-codespaces/configuring-codespaces-for-your-project). To add the `devinit` command, you can add `devinit init` to the `postCreateCommand` as shown in the examples below.
 
 You can also execute `devinit init -f <path to .devinit.json>` from the Visual Studio Integrated Terminal once connected to your codespace.
 
 ## Examples
+
 In both the examples below the `.devinit.json` is in the repo root alongside the `.devcontainer.json`.
 
 ### With a .devcontainer.json file
+
 In this example, the `.devcontainer.json` file below is placed in the repo root alongside the `.devinit.json` file. The files can also be placed in a `.devcontainer` directory.
 
 ```json
@@ -55,6 +57,7 @@ When the `.devinit.json` is in another directory, the -f flag may be used.
 You can find more examples of using devinit in our [documentation](sample-all-tool.md) and on GitHub in the [.NET Core example](https://github.com/microsoft/devinit-example-dotnet-core) and [Node.js example](https://github.com/microsoft/devinit-example-nodejs) repositories.
 
 ### As commands
+
 In this example `.devcontainer.json` file below is placed in the repo root and `devinit run` is being called directly from the command line to run an individual tool.  
 
 ```json
