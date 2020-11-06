@@ -187,7 +187,7 @@ Let's add a unit test project to our solution. This time we'll start from a proj
 
 We're going to use the new unit test project to test our method in the **QuickDate** project, so we need to add a reference to that project. This creates a *build dependency* between the two projects, meaning that when you build the solution, **QuickDate** is built before **QuickTest**.
 
-1. Choose the **Dependencies** node in the **QuickTest** project, and from the right-click or context menu, choose **Add Reference**.
+1. Choose the **Dependencies** node in the **QuickTest** project, and from the right-click or context menu, choose **Add Project Reference...**.
 
    The **Reference Manager** dialog box opens.
 
