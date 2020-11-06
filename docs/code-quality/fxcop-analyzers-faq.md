@@ -1,6 +1,8 @@
 ---
 title: FxCop code analysis and FxCop analyzers
 ms.date: 09/06/2018
+description: Understand the difference between legacy FxCop and FxCop analyzers in Visual Studio. See answers to questions about how to use these analyzers.
+ms.custom: SEO-VS-2020
 ms.topic: conceptual
 helpviewer_keywords:
 - code analysis FAQ
