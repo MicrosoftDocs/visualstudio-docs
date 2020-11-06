@@ -1,6 +1,8 @@
 ---
 title: Install FxCop analyzers
 ms.date: 08/03/2018
+description: Learn how to install FxCop analyzers in Visual Studio. See how to install these rules from legacy analysis either as a NuGet package or as a VSIX extension.
+ms.custom: SEO-VS-2020
 ms.topic: how-to
 helpviewer_keywords:
   - fxcop analyzers
