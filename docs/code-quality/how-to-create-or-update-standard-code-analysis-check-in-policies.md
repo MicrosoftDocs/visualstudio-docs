@@ -1,5 +1,6 @@
 ---
 title: Create/update standard code analysis check-in policies
+description: Learn how to ensure a code analysis is run on all code projects in an Azure DevOps project. See how to configure the project code analysis check-in policy.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
