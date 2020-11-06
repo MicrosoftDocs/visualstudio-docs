@@ -1,5 +1,6 @@
 ---
-title: How to - Specify Symbol File Locations from the Command Line | Microsoft Docs
+title: Specify symbol file locations from command line
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 ms.assetid: 8aa067bb-e8bf-4081-aff0-cfbcf65934a0

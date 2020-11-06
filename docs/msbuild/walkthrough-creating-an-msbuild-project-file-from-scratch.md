@@ -1,5 +1,7 @@
 ---
-title: 'Walkthrough: Creating an MSBuild Project File from Scratch | Microsoft Docs'
+title: Create an MSBuild project file from scratch
+description: Walk through creating an MSBuild project file from scratch to understand how the XML is organized and how you can change it to control a build.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -232,13 +234,13 @@ Your project file should now resemble the following code:
 >
 > `<OutputPath>Bin\</OutputPath>`
 >
-> `OutputAssembly=="$(OutputPath)$(AssemblyName).exe" />`
+> `OutputAssembly="$(OutputPath)$(AssemblyName).exe" />`
 >
 > is better than
 >
 > `<OutputPath>Bin</OutputPath>`
 >
-> `OutputAssembly=="$(OutputPath)\$(AssemblyName).exe" />`
+> `OutputAssembly="$(OutputPath)\$(AssemblyName).exe" />`
 
 ## Test the build properties
 

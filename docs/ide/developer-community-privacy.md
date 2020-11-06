@@ -63,6 +63,8 @@ If **Report a problem** is initiated from Visual Studio, we collect one or more 
 
 - Python logs, if they exist
 
+- Razor LSP editor logs, if they exist
+
 - Windows Forms logs, if they exist
 
 - A screenshot, if you choose to include it

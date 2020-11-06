@@ -50,15 +50,15 @@ Getting started with Azure Community is easy.
 
 2. Locate the Azure Community tile in the Support section, and click the **Get Help** link.
     > [!div class="mx-imgBorder"]
-    >![Azure Community Tile](_img/vs-azure-community/vs-azure-community-tile.png)
+    >![Azure Community Tile](_img/vs-azure-community/vs-azure-community-tile.png "Click the 'Get Help' button on the Azure Community tile to get started.")
 
 3. You'll see a list of the available forums.  Simply click on the forum of your choice.
     > [!div class="mx-imgBorder"]
-    > ![Azure Community Forums](_img/vs-azure-community/vs-azure-community-forums.png)
+    > ![Azure Community Forums](_img/vs-azure-community/vs-azure-community-forums.png "On the Azure Community Support page, select your choice of forums.")
 
 4. Within the forum, you can view topics and responses, search for answers to your question, or post a new question.
     > [!div class="mx-imgBorder"]
-    > ![Azure Community Example](_img/vs-azure-community/vs-azure-community-example.png)
+    > ![Azure Community Example](_img/vs-azure-community/vs-azure-community-example.png "In the forum, you can view topics, search for answers, or post new questions.")
 
 ## Eligibility
 Availability of the Azure Community benefit depends on your subscription level as shown below:
@@ -87,10 +87,10 @@ Not sure which subscription you're using?  Connect to [https://my.visualstudio.c
 - Have a question about Visual Studio IDE, Azure DevOps Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).
 
 ## See also
-- [Visual Studio documentation](https://docs.microsoft.com/visualstudio/)
-- [Azure DevOps documentation](https://docs.microsoft.com/azure/devops/)
-- [Azure documentation](https://docs.microsoft.com/azure/)
-- [Microsoft 365 documentation](https://docs.microsoft.com/microsoft-365/)
+- [Visual Studio documentation](/visualstudio/)
+- [Azure DevOps documentation](/azure/devops/)
+- [Azure documentation](/azure/)
+- [Microsoft 365 documentation](/microsoft-365/)
 
 ## Next steps
 Did you know that many Visual Studio subscriptions come with Azure DevTest individual credit?  Learn how to [activate](vs-azure.md) yours.

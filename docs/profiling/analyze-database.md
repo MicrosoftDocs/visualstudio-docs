@@ -15,7 +15,7 @@ ms.workload:
 Use the Database tool to record the database queries that your app makes during a diagnostic session. You can then analyze information about individual queries to find places to improve your app's performance.
 
 > [!NOTE]
-> The Database tool requires Visual Studio 2019 version 16.3 or later and a .NET Core project on Windows using either [ADO.NET]( https://docs.microsoft.com/dotnet/framework/data/adonet/ado-net-overview) or [Entity Framework Core](https://docs.microsoft.com/ef/core/).
+> The Database tool requires Visual Studio 2019 version 16.3 or later and a .NET Core project on Windows using either [ADO.NET]( https://docs.microsoft.com/dotnet/framework/data/adonet/ado-net-overview) or [Entity Framework Core](/ef/core/).
 
 ## Setup
 
@@ -44,7 +44,7 @@ After you find a query you want to investigate, right-click the query. Then sele
 
 ![Go To Source File selected](./media/db-gotosource.png "Go To Source File selected")
 
-If you select a time range on a graph, the query table shows only queries that occurred during that time range. This behavior is especially useful when you also run the [CPU Usage tool](https://docs.microsoft.com/visualstudio/profiling/cpu-usage?view=vs-2019).
+If you select a time range on a graph, the query table shows only queries that occurred during that time range. This behavior is especially useful when you also run the [CPU Usage tool](./cpu-usage.md?view=vs-2019&preserve-view=true).
 
 ## See also
 

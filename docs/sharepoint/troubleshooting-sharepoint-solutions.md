@@ -18,7 +18,7 @@ ms.workload:
   - "office"
 ---
 # Troubleshoot SharePoint solutions
-  The following problems or alerts might occur when you debug SharePoint solutions by using the [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] debugger. For more information, see [Debugging SharePoint 2007 Workflow Solutions](https://msdn.microsoft.com/3a5392f3-66f3-48be-956e-02de23fa6247).
+  The following problems or alerts might occur when you debug SharePoint solutions by using the [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] debugger. For more information, see [Debugging SharePoint 2007 Workflow Solutions](/previous-versions/bb386166(v=vs.100)).
 
 ## Token restrictions in sandboxed visual web parts
  Visual web parts in sandboxed solutions can't process standard tokens, such as $SPUrl, that the SharePoint runtime supports. As a result, the URL isn't resolved, and you can't preview the content in Design view in the visual web part designer if you refer to it directly in a script element, such as in the following example:

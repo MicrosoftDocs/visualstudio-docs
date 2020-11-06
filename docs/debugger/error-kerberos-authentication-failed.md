@@ -1,5 +1,5 @@
 ---
-title: "Error - Kerberos Authentication Failed | Microsoft Docs"
+title: "Kerberos Authentication Failed | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "error-reference"
 f1_keywords:

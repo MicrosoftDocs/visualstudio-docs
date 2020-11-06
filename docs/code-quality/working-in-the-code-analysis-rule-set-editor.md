@@ -64,7 +64,7 @@ The following table describes the fields of a rule set:
 |Field|Description|
 |-----------|-----------------|
 |**ID**|The identifier of the rule.|
-|**Category**|In addition to their membership in rule sets, code analysis rules are also grouped by category. For more information, see [Code analysis warnings](../code-quality/code-analysis-for-managed-code-warnings.md).|
+|**Category**|In addition to their membership in rule sets, code analysis rules are also grouped by category. For more information, see [Code analysis warnings](/dotnet/fundamentals/code-analysis/quality-rules/index).|
 |**Name**|The title of the rule.|
 |**Namespace**|The namespace of the rule.|
 |**Target Type**|Indicates whether the rule is for native, managed, or database code.|

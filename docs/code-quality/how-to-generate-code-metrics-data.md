@@ -26,10 +26,10 @@ You can generate code metrics data in three ways:
 
 The .NET code-quality analyzers include several code metrics [analyzer](roslyn-analyzers-overview.md) rules:
 
-- [CA1501](ca1501-avoid-excessive-inheritance.md)
-- [CA1502](ca1502.md)
-- [CA1505](ca1505.md)
-- [CA1506](ca1506.md)
+- [CA1501](/dotnet/fundamentals/code-analysis/quality-rules/ca1501)
+- [CA1502](/dotnet/fundamentals/code-analysis/quality-rules/ca1502)
+- [CA1505](/dotnet/fundamentals/code-analysis/quality-rules/ca1505)
+- [CA1506](/dotnet/fundamentals/code-analysis/quality-rules/ca1506)
 
 These rules are disabled by default but you can enable them from [**Solution Explorer**](use-roslyn-analyzers.md#set-rule-severity-from-solution-explorer) or in a [rule set](using-rule-sets-to-group-code-analysis-rules.md) file. For example, to enable rule CA1502 as a warning, your .ruleset file would contain the following entry:
 
@@ -54,7 +54,7 @@ You can configure the thresholds at which the code metrics rules fire.
    CA1502: 10
    ```
 
-   In this example, rule [CA1502](ca1502.md) is configured to fire when a method's cyclomatic complexity is greater than 10.
+   In this example, rule [CA1502](/dotnet/fundamentals/code-analysis/quality-rules/ca1502) is configured to fire when a method's cyclomatic complexity is greater than 10.
 
 3. In the **Properties** window of Visual Studio, or in the project file, mark the build action of the configuration file as [**AdditionalFiles**](../ide/build-actions.md#build-action-values). For example:
 

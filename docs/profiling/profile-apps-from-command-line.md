@@ -28,7 +28,7 @@ In the example described in this article, you collect performance information fo
 
 * Familiarity with command-line tools
 
-* To collect performance information on a remote machine without Visual Studio installed, install the [Performance Tools for Visual Studio](https://visualstudio.microsoft.com/downloads#remote-tools-for-visual-studio-2019) on the remote machine. The version of the tools must match your version of Visual Studio.
+* To collect performance information on a remote machine without Visual Studio installed, install the [Remote Tools for Visual Studio](https://visualstudio.microsoft.com/downloads#remote-tools-for-visual-studio-2019) on the remote machine. The version of the tools must match your version of Visual Studio.
 
 ## Collect performance data
 
@@ -87,6 +87,7 @@ Please see the following links to download and view agent configuration files:
 - https://aka.ms/vs/diaghub/agentconfig/dotnetasyncbase
 - https://aka.ms/vs/diaghub/agentconfig/dotnetallocbase
 - https://aka.ms/vs/diaghub/agentconfig/dotnetalloclow
+- https://aka.ms/vs/diaghub/agentconfig/dotnetcountersbase
 
 CpuUsage configurations (Base/High/Low) correspond to data collected for the [CPU Usage](../profiling/cpu-usage.md) profiling tool.
 DotNetObjectAlloc configurations (Base/Low) correspond to data collected for the [.NET Object Allocation tool](../profiling/dotnet-alloc-tool.md).

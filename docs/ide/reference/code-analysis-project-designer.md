@@ -58,6 +58,6 @@ Enables or disables the usage rules. You can also expand this entry to enable or
 
 ## See also
 
-- [Code Analysis for Managed Code Warnings](../../code-quality/code-analysis-for-managed-code-warnings.md)
+- [Code Analysis for Managed Code Warnings](/dotnet/fundamentals/code-analysis/quality-rules/index)
 - [Code Analysis for Managed Code Overview](../../code-quality/code-analysis-for-managed-code-overview.md)
 - [Walkthrough: Analyzing Managed Code for Code Defects](../../code-quality/walkthrough-analyzing-managed-code-for-code-defects.md)

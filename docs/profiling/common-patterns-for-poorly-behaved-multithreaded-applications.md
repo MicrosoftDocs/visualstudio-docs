@@ -1,5 +1,6 @@
 ---
-title: "Common Patterns for Poorly-Behaved Multithreaded Applications | Microsoft Docs"
+title: "Common patterns for poorly-behaved multithreaded apps"
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:
@@ -24,7 +25,7 @@ Sometimes a parallelized application stubbornly continues to execute serially ev
 
 As shown in the following illustration, the Concurrency Visualizer can also expose this symptom in the CPU Utilization View, where, despite the presence of multiple threads, the application consumes only one logical core.
 
-For more information, see the "Start with the problem section" in the MSDN Magazine article [Thread Performance - Resource Contention Concurrency Profiling in Visual Studio 2010](https://msdn.microsoft.com/magazine/ff714587.aspx).
+For more information, see the "Start with the problem section" in the MSDN Magazine article [Thread Performance - Resource Contention Concurrency Profiling in Visual Studio 2010](/archive/msdn-magazine/2010/june/msdn-magazine-thread-performance-resource-contention-concurrency-profiling-in-visual-studio-2010).
 
 ![Lock Contention](../profiling/media/lockcontention_2.png "LockContention_2")
 

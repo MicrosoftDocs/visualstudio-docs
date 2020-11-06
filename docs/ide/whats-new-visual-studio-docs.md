@@ -1,8 +1,8 @@
 ---
-title: "Visual Studio docs: What's new for July 2020 "
+title: "Visual Studio docs: What's new for October 2020 "
 titleSuffix: ""
-description: "What's new in the Visual Studio docs for July 2020."
-ms.date: 08/06/2020
+description: "What's new in the Visual Studio docs for October 2020."
+ms.date: 11/04/2020
 helpviewer_keywords:
   - "Visual Studio, what's new, docs"
   - "what's new [Visual Studio]"
@@ -17,98 +17,107 @@ ms.workload:
   - "multiple"
 ---
 
-# Visual Studio docs: What's new in the docs for July 2020
+# Visual Studio docs: What's new for October 2020
 
-Welcome to what's new in the Visual Studio docs for July 2020. This article lists some of the major changes to docs during this period.
+Welcome to what's new in the Visual Studio docs for October 2020. This article lists some of the major changes to docs during this period. For information about what was new in previous months, see the [what's new history](whats-new-visual-studio-docs-history.md) article.
 
 ## Code quality
 
-**New articles**
-
-- [CA1417: Do not use `OutAttribute` on string parameters for P/Invokes](/visualstudio/code-quality/ca1417) - Add documentation for CA1417
-- [CA1805: Do not initialize unnecessarily.](/visualstudio/code-quality/ca1805) - Add docs for CA1805
-- [CA1836: Prefer IsEmpty over Count when available](/visualstudio/code-quality/ca1836) - Add documentation for CA1836 (Prefer IsEmpty over Count)
-- [CA2016: Forward the CancellationToken parameter to methods that take one](/visualstudio/code-quality/ca2016) - Document CA2016 - Forward the CancellationToken parameter to methods that take one
-- [CA2350: Ensure DataTable.ReadXml()'s input is trusted](/visualstudio/code-quality/ca2350) - Initial DataSet / DataTable deserialization rules docs
-- [CA2351: Ensure DataSet.ReadXml()'s input is trusted](/visualstudio/code-quality/ca2351) - Initial DataSet / DataTable deserialization rules docs
-- [CA2352: Unsafe DataSet or DataTable in serializable type can be vulnerable to remote code execution attacks](/visualstudio/code-quality/ca2352) - Initial DataSet / DataTable deserialization rules docs
-- [CA2353: Unsafe DataSet or DataTable in serializable type](/visualstudio/code-quality/ca2353) - Initial DataSet / DataTable deserialization rules docs
-- [CA2354: Unsafe DataSet or DataTable in deserialized object graph can be vulnerable to remote code execution attack](/visualstudio/code-quality/ca2354) - Initial DataSet / DataTable deserialization rules docs
-- [CA2355: Unsafe DataSet or DataTable in deserialized object graph](/visualstudio/code-quality/ca2355) - Initial DataSet / DataTable deserialization rules docs
-- [CA2356: Unsafe DataSet or DataTable type in web deserialized object graph](/visualstudio/code-quality/ca2356) - Initial DataSet / DataTable deserialization rules docs
+**Updated articles**
+- [Code analyzers](../code-quality/index.yml) - CA refactor for .NET 5
 
 ## Containers
 
+**Updated articles**
+
+- [Quickstart: Use Docker with a React Single-page App in Visual Studio](../containers/container-tools-react.md)
+  - Container Tools: remove references to old image repository
+  - Update Containers React tutorial for .NET 3.1 and VS 16.7
+- [How Bridge to Kubernetes works](../containers/overview-bridge-to-kubernetes.md) - Bridge to Kubernetes: add limitations
+- [Debug apps in a local Docker container](../containers/edit-and-refresh.md) - Docker Toolbox
+
+## Debugger
+
 **New articles**
 
-- [Configure Local Process with Kubernetes](/visualstudio/containers/configure-local-process-with-kubernetes) - Local Process with Kubernetes: yaml configuration
-- [Use Local Process with Kubernetes (preview)](/visualstudio/containers/local-process-kubernetes) - Dev spaces migration
-- [How Local Process with Kubernetes works](/visualstudio/containers/overview-local-process-kubernetes)
-  - Local Process for Kubernetes: Add routing section
-  - Dev spaces migration
-
-## Cross platform
+- [DirectX 12 Support in Visual Studio](../debugger/graphics/visual-studio-graphics-diagnostics-directx-12.md) - Vsdg dx12
 
 **Updated articles**
 
-- [Change log (Visual Studio Tools for Unity, Windows)](/visualstudio/cross-platform/change-log-visual-studio-tools-for-unity) - Bump VSTU changelog to 4.7.1.0
-- [Change Log (Visual Studio Tools for Unity, Mac)](/visualstudio/cross-platform/change-log-visual-studio-tools-for-unity-mac) - Bump VSTUM changelog to 2.7.1.0
+- [Debug ASP.NET or ASP.NET Core apps in Visual Studio](../debugger/how-to-enable-debugging-for-aspnet-applications.md) - Debugger content fixes for GitHub issues
+- [Use breakpoints in the Visual Studio debugger](../debugger/using-breakpoints.md) - Debugger content fixes for GitHub issues
+- [Debug Azure services in Visual Studio](../debugger/debug-azure-apps.md) - SEO and link updates for snapshot debugger
+- [Debug live ASP.NET Azure apps using the Snapshot Debugger](../debugger/debug-live-azure-applications.md) - SEO and link updates for snapshot debugger
+- [Remote Debugging](../debugger/remote-debugging.md) - SEO and link updates for snapshot debugger
+- [Overview of Visual Studio Graphics Diagnostics](../debugger/graphics/overview-of-visual-studio-graphics-diagnostics.md) - Vsdg dx12
+- [Visual Studio Graphics Diagnostics](../debugger/graphics/visual-studio-graphics-diagnostics.md) - Vsdg dx12
 
 ## Get started
 
-**New articles**
+**Updated articles**
 
-- [Tutorial: Extend a simple C# console app](/visualstudio/get-started/csharp/tutorial-console-part-2) - Release extend sidewalk tutorial first version
+- [Tutorial: Extend a simple C# console app](../get-started/csharp/tutorial-console-part-2.md) - Debugging additions for extended C# tutorial
 
 ## IDE
 
 **New articles**
 
-- [Developer Community guidelines](/visualstudio/ide/developer-community-guidelines) - Added DevCom Guidelines
-- [IntelliSense completion for unimported types and extension methods](/visualstudio/ide/reference/intellisense-completion-unimported-types-extension-methods)
+- [Use Visual Studio search](./visual-studio-search.md) - VS Search document
 
 ## Install
 
-**New articles**
+**Updated articles**
 
-- [Update Visual Studio using a minimal offline layout](/visualstudio/install/update-minimal-layout) - Document minimal layout feature
-- [Visual Studio enterprise guide](/visualstudio/install/visual-studio-enterprise-guide) - Enterprise guide
-
-## JavaScript
-
-**New articles**
-
-- [Compile TypeScript code (Node.js)](/visualstudio/javascript/compile-typescript-code-npm) - TypeScript compile and build
-- [Compile TypeScript code (ASP.NET Core)](/visualstudio/javascript/compile-typescript-code-nuget) - TypeScript compile and build
+- [Visual Studio build numbers and release dates](../install/visual-studio-build-numbers-and-release-dates.md)
+  - add 16.7.7 and 16.8 Preview 6 data
+  - add 16.8 Preview 5 info
 
 ## MSBuild
 
-**New articles**
+**Updated articles**
 
-- [Common MSBuild item metadata](/visualstudio/msbuild/common-msbuild-item-metadata) - MSBuild: add table for optional metadata with Link and LinkBase
-- [Solution filters in MSBuild](/visualstudio/msbuild/solution-filters) - MSBuild solution filters
+- [Walkthrough: Use MSBuild](../msbuild/walkthrough-using-msbuild.md) - MSBuild walkthrough: add standalone install steps
 
-## Test
-
-**New articles**
-
-- [Debug and analyze unit tests with Test Explorer](/visualstudio/test/debug-unit-tests-with-test-explorer) - Test Explorer performance work
+## Profiling
 
 **Updated articles**
 
-- [Configure unit tests by using a *.runsettings* file](/visualstudio/test/configure-unit-tests-by-using-a-dot-runsettings-file)
-  - Updates to configuring unit tests using a runsettings file
-  - Blame option description was changed and example was added.
+- [Analyze memory usage](../profiling/analyze-memory-usage.md)
+  - Memory usage updates for profiling - links and clarifications
+  - Memory usage tool updates
+- [Analyze memory usage without debugging in the Performance Profiler](../profiling/memory-usage-without-debugging2.md)
+  - Memory usage updates for profiling - links and clarifications
+  - Memory usage tool updates
+- [First look at profiling tools](../profiling/profiling-feature-tour.md)
+  - Memory usage updates for profiling - links and clarifications
+  - Memory usage tool updates
+- [Run profiling tools with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md)
+  - Memory usage updates for profiling - links and clarifications
+  - Memory usage tool updates
+- [Analyze CPU usage without debugging in the Performance Profiler](../profiling/cpu-usage.md) - Memory usage tool updates
+
+## Windows
+
+**Updated articles**
+
+- [Visual Studio documentation | Microsoft Docs](../windows/index.yml) - Windows hub updates
+
+## XAML tools
+
+**New articles**
+
+- [Use Design Time Data with the XAML Designer in Visual Studio](../xaml-tools/xaml-designtime-data.md)
+  - Added extensibility section to XAML design-time docs
+  - New design-time XAML article
 
 ## Community contributors
 
-The following people contributed to the Visual Studio docs during this period. Thank you! Learn how to contribute to the Visual Studio docs by following the guidance in the [Contributor Guide](https://docs.microsoft.com/contribute/).
+The following people contributed to the Visual Studio docs during this period. Thank you! Learn how to contribute to the Visual Studio docs by following the guidance in the [Contributor Guide](/contribute/).
 
-- [briuk](https://github.com/briuk) - Viktor Briukhanov (2)
-- [Youssef1313](https://github.com/Youssef1313) - Youssef Victor (2)
-- [ArntWork](https://github.com/ArntWork) - Legolas (1)
-- [Asugakoisi](https://github.com/Asugakoisi) - アスガコイシ (1)
-- [Delizald](https://github.com/Delizald) - David Elizalde (1)
-- [farisachugthai](https://github.com/farisachugthai) - Faris A Chugthai (1)
-- [mycalingram](https://github.com/mycalingram) - Mycal (1)
-- [tuyen-at-work](https://github.com/tuyen-at-work) - Tuyen Pham (1)
+- [bmarshalsea](https://github.com/bmarshalsea) (1)
+- [DavidJohnWilliams](https://github.com/DavidJohnWilliams) - David John Williams (1)
+- [JesseTG](https://github.com/JesseTG) - Jesse Talavera-Greenberg (1)
+- [matkoch](https://github.com/matkoch) - Matthias Koch (1)
+- [philipwolfe](https://github.com/philipwolfe) - Philip Wolfe (1)
+- [podsvirov](https://github.com/podsvirov) - Konstantin Podsvirov (1)
+- [drryder](https://github.com/drryder) (1)

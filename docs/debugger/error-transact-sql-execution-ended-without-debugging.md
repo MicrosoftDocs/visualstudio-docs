@@ -1,5 +1,5 @@
 ---
-title: "Error - Transact-SQL execution ended without debugging | Microsoft Docs"
+title: "Transact-SQL execution ended without debugging | Microsoft Docs"
 ms.date: "11/08/2018"
 ms.topic: "error-reference"
 f1_keywords:
@@ -34,7 +34,7 @@ There are two accounts involved:
 
   To correct this error, you might need to:
 
-  - Verify your permissions settings. For more information, see [How to: Set SQL Server Permissions for Debugging](https://msdn.microsoft.com/84e088d0-0409-41d4-841b-f5d4b0fda414).
+  - Verify your permissions settings. For more information, see [How to: Set SQL Server Permissions for Debugging](/previous-versions/w1bhybwz(v=vs.100)).
 
   - Make sure SQL debugging if set up correctly.
 
@@ -43,6 +43,6 @@ There are two accounts involved:
 ## See also
 
 - [Setting Up SQL Debugging](/previous-versions/visualstudio/visual-studio-2010/s4sszxst(v=vs.100))
-- [How to: Set SQL Server Permissions for Debugging](https://msdn.microsoft.com/84e088d0-0409-41d4-841b-f5d4b0fda414)
+- [How to: Set SQL Server Permissions for Debugging](/previous-versions/w1bhybwz(v=vs.100))
 - [Debugger Settings and Preparation](../debugger/debugger-settings-and-preparation.md)
 - [Remote Debugging](../debugger/remote-debugging.md)

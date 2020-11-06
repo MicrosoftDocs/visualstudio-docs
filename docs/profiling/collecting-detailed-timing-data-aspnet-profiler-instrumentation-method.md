@@ -1,5 +1,6 @@
 ---
-title: VSPerfCmd - Get timing data for ASP.NET web app using instrumentation
+title: Collect timing data for ASP.NET using instrumentation
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords: 

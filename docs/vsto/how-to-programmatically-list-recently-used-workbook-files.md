@@ -1,5 +1,6 @@
 ---
 title: "How to: Programmatically list recently used workbook files"
+titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:

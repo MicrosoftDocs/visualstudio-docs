@@ -35,7 +35,7 @@ Lists the names of WPF controls for which entries exist in your computer's regis
 
 **Namespace**
 
-Displays the hierarchy of the [.NET API](/dotnet/api/?view=netframework-4.7) namespace that defines the structure of the component. Sort on this column to list the available components within each .NET namespace installed on your computer.
+Displays the hierarchy of the [.NET API](/dotnet/api/?view=netframework-4.7&preserve-view=true) namespace that defines the structure of the component. Sort on this column to list the available components within each .NET namespace installed on your computer.
 
 **Assembly Name**
 

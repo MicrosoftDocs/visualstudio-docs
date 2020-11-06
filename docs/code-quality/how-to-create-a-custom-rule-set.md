@@ -1,6 +1,8 @@
 ---
 title: Create a custom code analysis rule set
 ms.date: 11/02/2018
+description: Learn how to customize code analysis rule sets in Visual Studio. See how to create new sets from scratch or from existing sets. Understand rule precedence.
+ms.custom: SEO-VS-2020
 ms.topic: how-to
 f1_keywords:
   - vs.codeanalysis.addremoverulesets
@@ -45,7 +47,7 @@ To create a custom rule set, you can open a built-in rule set in the **rule set 
 4. Select **Open** to display the rules in the rule set editor.
 
 > [!NOTE]
-> If you have a .NET Core or .NET Standard project, the process is a little different because there's no **Code Analysis** property tab. Follow the steps to [copy a predefined rule set to your project and set it as the active rule set](analyzer-rule-sets.md). After you've copied over a rule set, you can [edit it in the Visual Studio rule set editor](working-in-the-code-analysis-rule-set-editor.md) by opening it from **Solution Explorer**.
+> If you have a .NET Core or .NET Standard project, the process is a little different because there's no **Code Analysis** property tab. Follow the steps to [copy a predefined rule set to your project and set it as the active rule set](/dotnet/fundamentals/code-analysis/code-quality-rule-options). After you've copied over a rule set, you can [edit it in the Visual Studio rule set editor](working-in-the-code-analysis-rule-set-editor.md) by opening it from **Solution Explorer**.
 
 ## Create a new rule set
 

@@ -1,5 +1,6 @@
 ---
-title: Create custom HTTP body editor for Web Performance Test Editor
+title: Create a HTTP body editor for a web performance test
+ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
 ms.topic: how-to
 helpviewer_keywords: 

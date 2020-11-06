@@ -1,12 +1,12 @@
 ---
-title: Select a Python interpreter and environment for a project
+title: Select a Python environment for a project
 description: You can specifically select a Python environment, including Anaconda and virtual environments, to apply to a specific project.
 ms.date: 03/18/2019
 ms.topic: how-to
 author: JoshuaPartlow
 ms.author: joshuapa
 manager: jillfra
-ms.custom: seodec18
+ms.custom: "seodec18, SEO-VS-2020"
 ms.workload:
   - python
   - data-science

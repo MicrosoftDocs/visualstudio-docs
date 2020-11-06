@@ -13,7 +13,7 @@ ms.topic: troubleshooting
 
 > [!NOTE]
 > For the best version control experience on macOS, we recommend using Git instead of Team Foundation Version Control (TFVC). 
-Git is supported in Visual Studio for Mac and is the default option for repositories hosted in Team Foundation Server (TFS)/Azure DevOps. To learn more about using Git with TFS/Azure DevOps, see the [Setting up a Git Repository](/visualstudio/mac/set-up-git-repository) article.
+Git is supported in Visual Studio for Mac and is the default option for repositories hosted in Team Foundation Server (TFS)/Azure DevOps. To learn more about using Git with TFS/Azure DevOps, see the [Setting up a Git Repository](./set-up-git-repository.md) article.
 >
 > If you previously used the preview release of the TFVC extension for Visual Studio for Mac, it is no longer supported when upgrading to Visual Studio 2019 for Mac.
 
@@ -108,7 +108,7 @@ To learn more about the commands mentioned here, or others, you can use the foll
 
 > [!NOTE]
 > For the best version control experience on macOS, we recommend using Git instead of Team Foundation Version Control (TFVC). 
-Git is supported in Visual Studio for Mac and is the default option for repositories hosted in Team Foundation Server (TFS)/Azure DevOps. To learn more about using Git with TFS/Azure DevOps, see the [Setting up a Git Repository](/visualstudio/mac/set-up-git-repository) article.
+Git is supported in Visual Studio for Mac and is the default option for repositories hosted in Team Foundation Server (TFS)/Azure DevOps. To learn more about using Git with TFS/Azure DevOps, see the [Setting up a Git Repository](./set-up-git-repository.md) article.
 >
 > If you previously used the preview release of the TFVC extension for Visual Studio for Mac, it is no longer supported when upgrading to Visual Studio 2019 for Mac.
 

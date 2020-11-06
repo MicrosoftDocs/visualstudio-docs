@@ -88,7 +88,7 @@ Whether you choose best-of-breed Coded UI Tests or generic browser-based UI test
 
 ## Related scenarios
 
-* [Exploratory & manual testing (Azure Test Plans)](/azure/devops/test/index?view=vsts)
-* [Load testing (Azure Test Plans)](/azure/devops/test/load-test/index?view=vsts)
-* [Continuous testing (Azure Test Plans)](/azure/devops/pipelines/test/getting-started-with-continuous-testing?view=vsts)
+* [Exploratory & manual testing (Azure Test Plans)](/azure/devops/test/index?view=vsts&preserve-view=true)
+* [Load testing (Azure Test Plans)](/azure/devops/test/load-test/index?view=vsts&preserve-view=true)
+* [Continuous testing (Azure Test Plans)](/azure/devops/pipelines/test/getting-started-with-continuous-testing?view=vsts&preserve-view=true)
 * [Code analysis tools](../code-quality/code-analysis-for-managed-code-overview.md)

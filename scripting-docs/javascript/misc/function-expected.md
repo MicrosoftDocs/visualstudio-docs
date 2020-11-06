@@ -30,5 +30,5 @@ var x = example();           // Try and call example as if it were a function.
 - Ensure that you use the function call operator `()` to call functions only.  
   
 ## See also  
- [Function Object](../../javascript/reference/function-object-javascript.md)   
- [prototype Property (Object)](../../javascript/reference/prototype-property-object-javascript.md)
+ [Function Object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Function)   
+ [prototype Property (Object)](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object)

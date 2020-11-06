@@ -1,5 +1,6 @@
 ---
 title: "Run profiling tools with or without the debugger | Microsoft Docs"
+description: "Learn about differences between the different modes available for profiling tools"
 ms.date: "5/26/2020"
 ms.topic: "conceptual"
 ms.assetid: 3fcdccad-c1bd-4c67-bcec-bf33a8fb5d63
@@ -11,21 +12,24 @@ ms.workload:
 ---
 # Run profiling tools with or without the debugger
 
-Visual Studio offers a choice of performance measurement and profiling tools. Some tools, like CPU Usage and Memory Usage, can run with or without the debugger, and on release or debug build configurations. Performance Profiler tools like Application Timeline can run on debug or release builds. Debugger-integrated tools, like the Diagnostic Tools window and Events tab, run only during debugging sessions.
+Visual Studio offers a choice of performance measurement and profiling tools. Some tools, like CPU Usage and Memory Usage, can run with or without the debugger, and on release or debug build configurations. Tools that appear in the [Diagnostics Tools window](../profiling/profiling-feature-tour.md#measure-performance-while-debugging) run only during a debugging session. Tools that appear in the [Performance Profiler](../profiling/profiling-feature-tour.md#post_mortem) run without the debugger and you analyze the results after you choose to stop and collect data (for post-mortem analysis).
 
 >[!NOTE]
 >You can use the non-debugger performance tools with Windows 7 and later. Windows 8 or later is required to run the debugger-integrated profiling tools.
 
-The non-debugger Performance Profiler and the debugger-integrated Diagnostic Tools provide different information and experiences. Debugger-integrated tools show you breakpoints and variable values. Non-debugger tools give you results closer to the end-user experience.
+The non-debugger Performance Profiler and the debugger-integrated Diagnostic Tools provide different information and experiences. Debugger-integrated tools show you variable values and let you use breakpoints. Non-debugger tools give you results closer to the end-user experience.
 
 To help decide which tools and results to use, consider the following:
 
-- External performance problems, like file I/O or network responsiveness issues, won't look much different in the debugger or non-debugger tools.
-- For problems caused by CPU-intensive calls, there might be considerable performance differences between release and debug builds. Check to see whether the issue exists in release builds.
-- If the problem occurs only during debug builds, you probably don't need to run the non-debugger tools. For release build problems, decide whether the debugger tools will help for further investigation.
-- Release builds provide optimizations like inlining function calls and constants, pruning unused code paths, and storing variables in ways that can't be used by the debugger. Performance numbers in the debugger-integrated tools are less accurate, because debug builds lack these optimizations.
-- The debugger itself changes performance times, as it does necessary debugger operations like intercepting exception and module load events.
-- Release build performance numbers in the Performance Profiler tools are the most precise and accurate. Debugger-integrated tool results are most useful to compare with other debugging-related measurements.
+- Debugger-integrated tool vs. non-debugger tool
+  - External performance problems, like file I/O or network responsiveness issues, won't look much different in the debugger or non-debugger tools.
+  - The debugger itself changes performance times, as it does necessary debugger operations like intercepting exception and module load events.
+  - Release build performance numbers in the Performance Profiler are the most precise and accurate. Debugger-integrated tool results are most useful to compare with other debugging-related measurements, or to use debugger features.
+  - Some tools, such as the .NET Object Allocation tool, are only available for non-debugger scenarios.
+- Debug vs. release build
+  - For problems caused by CPU-intensive calls, there might be considerable performance differences between release and debug builds. Check to see whether the issue exists in release builds.
+  - If the problem occurs only during debug builds, you probably don't need to run the non-debugger tools. For release build problems, decide whether features provided by the debugger-integrated tools will help to pinpoint the problem.
+  - Release builds provide optimizations like inlining function calls and constants, pruning unused code paths, and storing variables in ways that can't be used by the debugger. Performance numbers in the debug builds are less accurate, because debug builds lack these optimizations.
 
 ## <a name="BKMK_Quick_start__Collect_diagnostic_data"></a> Collect profiling data while debugging
 
@@ -40,6 +44,11 @@ When you start debugging in Visual Studio by selecting **Debug** > **Start Debug
 - If you're running Visual Studio Enterprise, you can enable or disable IntelliTrace by going to **Tools** > **Options** > **IntelliTrace**.
 
 The diagnostic session ends when you stop debugging.
+
+For more information, see:
+
+- [Measure application performance by analyzing CPU usage](../profiling/beginners-guide-to-performance-profiling.md)
+- [Measure memory usage in Visual Studio](../profiling/memory-usage.md)
 
 ### The Events tab
 
@@ -71,7 +80,7 @@ To collect performance data without debugging, you can run the Performance Profi
 
    While the session is running, some tools show graphs of real-time data on the diagnostic tools page, as well as controls to pause and resume data collection.
 
-    ![Screenshot of data collection on the Performance and Diagnostics hub](../profiling/media/diaghubcollectdata.png "Hub collect data")
+    ![Screenshot of data collection on the Performance Profiler](../profiling/media/diaghubcollectdata.png "Hub collect data")
 
 1. To end the diagnostic session, select **Stop Collection**.
 
@@ -80,6 +89,15 @@ To collect performance data without debugging, you can run the Performance Profi
 You can save the reports, and open them from the **Recently Opened Sessions** list on the Diagnostic Tools launch page.
 
 ![Screenshot of Diagnostic Tools Recently Opened Sessions list](../profiling/media/diaghubopenexistingdiagsession.png "PDHUB_OpenExistingDiagSession")
+
+For more information, see:
+
+- [Analyze CPU usage](../profiling/cpu-usage.md)
+- [Analyze memory usage for .NET code](../profiling/dotnet-alloc-tool.md)
+- [Analyze memory usage](../profiling/memory-usage-without-debugging2.md)
+- [Analyze performance of .NET asynchronous code](../profiling/analyze-async.md)
+- [Analyze database performance](../profiling/analyze-database.md)
+- [Analyze GPU usage](../profiling/gpu-usage.md)
 
 ## Collect profiling data from the command line
 

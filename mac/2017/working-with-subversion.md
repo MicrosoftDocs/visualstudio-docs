@@ -9,7 +9,7 @@ ms.assetid: 2400ED9C-6236-4C0A-A3AB-9D7CBE1F0CF4
 
 # Working with Subversion
 
-Subversion is the centralized version control system that enables you to check out a single master copy of the centralized data. In contrast to Git, checking out a Subversion repository does not clone the entire repository, it only takes a snapshot at that point in time.
+Subversion is the centralized version control system that enables you to check out a single main copy of the centralized data. In contrast to Git, checking out a Subversion repository does not clone the entire repository, it only takes a snapshot at that point in time.
 
 Subversion uses a copy-modify-merge model to allow users to work on the same repository simultaneously. This means that each user creates a local, or working, copy of the centralized data, which they work on independently. The changes to users working copies are merged in a chronological fashion.
 

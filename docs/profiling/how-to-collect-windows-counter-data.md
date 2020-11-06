@@ -1,5 +1,5 @@
 ---
-title: How to - Collect Windows Counter Data | Microsoft Docs
+title: Collect Windows Counter Data | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords: 

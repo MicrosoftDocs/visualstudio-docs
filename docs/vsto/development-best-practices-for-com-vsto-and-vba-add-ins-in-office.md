@@ -1,5 +1,6 @@
 ---
 title: "Development best practices: COM, VSTO, & VBA add-ins in Office"
+titleSuffix: ""
 ms.date: "07/25/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -25,7 +26,7 @@ ms.workload:
  We don’t recommend having your add-in detect whether Office is installed during the add-in installation process. If Office is not installed, you can install the add-in, and the user will be able to access it after Office is installed.
 
 ## Use Embedded Interop Types (NoPIA)
-If your solution uses .NET 4.0 or later, use embedded interop types (NoPIA) instead of depending on the Office Primary Interop Assemblies (PIA) redistributable. Using type embedding reduces the installation size of your solution, and ensures future compatibility. Office 2010 was the last version of Office that shipped the PIA redistributable. For more information, see [Walkthrough: Embedding type information from Microsoft Office assemblies](https://msdn.microsoft.com/library/ee317478.aspx) and [Type equivalence and embedded interop types](/windows/uwp/porting/desktop-to-uwp-root).
+If your solution uses .NET 4.0 or later, use embedded interop types (NoPIA) instead of depending on the Office Primary Interop Assemblies (PIA) redistributable. Using type embedding reduces the installation size of your solution, and ensures future compatibility. Office 2010 was the last version of Office that shipped the PIA redistributable. For more information, see [Walkthrough: Embedding type information from Microsoft Office assemblies](/previous-versions/ee317478(v=vs.140)) and [Type equivalence and embedded interop types](/windows/uwp/porting/desktop-to-uwp-root).
 
 If your solution uses an earlier version of .NET, we recommend that you update your solution to use .NET 4.0 or later. Using .NET 4.0 or later reduces runtime prerequisites on newer versions of Windows.
 

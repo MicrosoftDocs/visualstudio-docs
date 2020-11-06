@@ -1,5 +1,5 @@
 ---
-title: "Error - The Web Server Could Not Find the Requested Resource | Microsoft Docs"
+title: "The Web Server Could Not Find the Requested Resource | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "error-reference"
 dev_langs:
