@@ -247,7 +247,7 @@ The line in the *Calendar.cs* file that contains the <xref:System.Runtime.Compil
 
 ## Next steps
 
-If you want to check that your unit test is working, choose **Test** > **Run** > **All Tests** from the menu bar. A window called **Test Explorer** opens, and you should see that the **TestGetCurrentDate** test passes.
+If you want to check that your unit test is working, choose **Test** > **Run All Tests** from the menu bar. A window called **Test Explorer** opens, and you should see that the **TestGetCurrentDate** test passes.
 
 ![Test Explorer in Visual Studio showing passed test](media/tutorial-projects-test-explorer.png)
 
