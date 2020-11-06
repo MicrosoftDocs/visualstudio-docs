@@ -27,7 +27,7 @@ You can also execute `devinit init -f <path to .devinit.json>` from the Visual S
 
 ## Examples
 
-In both the examples below the `.devinit.json` is in the repo root alongside the `.devcontainer.json`.
+In both examples below, the `.devinit.json` is in the repository root alongside `.devcontainer.json`.
 
 ### With a .devcontainer.json file
 
@@ -58,7 +58,7 @@ You can find more examples of using devinit in our [documentation](sample-all-to
 
 ### As commands
 
-In this example `.devcontainer.json` file below is placed in the repo root and `devinit run` is being called directly from the command line to run an individual tool.  
+In this example, `.devcontainer.json` file below is placed in the repo root and `devinit run` is being called directly from the command line to run an individual tool.  
 
 ```json
 {
