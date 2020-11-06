@@ -67,7 +67,7 @@ Right-click on **Dependencies** to access the context menu and choose **Update**
 Update and Restore options are also available at the Solution level, and affect all the projects in the solution.
 
 ### Updating to pre-release versions of packages
-To update to a newer pre-release version of a package, you can righ-click on **Dependencies** to open the context menu and choose the **Manage NuGet Packages...** menu.
+To update to a newer pre-release version of a package, you can right-click on **Dependencies** to open the context menu and choose the **Manage NuGet Packages...** menu.
 
 ![Dependencies context menu with Manage NuGet Packages... menu highlighted](media/nuget-walkthrough-packages-menu-manage-nuget-packages.png)
 
