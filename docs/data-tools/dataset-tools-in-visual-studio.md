@@ -1,5 +1,6 @@
 ---
 title: Dataset tools
+description: Review the dataset tools available in Visual Studio. Read about dataset workflow, datasets and N-tier architecture, and datasets and XML.
 ms.date: 11/21/2018
 ms.topic: conceptual
 f1_keywords:

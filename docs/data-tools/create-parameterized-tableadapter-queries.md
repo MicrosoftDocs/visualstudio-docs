@@ -1,5 +1,6 @@
 ---
 title: Create parameterized TableAdapter queries
+description: Understand how to create parameterized TableAdapter queries. A parameterized query returns data that meets the conditions of a WHERE clause within the query.
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs:

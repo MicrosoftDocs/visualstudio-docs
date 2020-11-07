@@ -1,5 +1,6 @@
 ---
 title: Create lookup tables in Windows Forms applications
+description: Read how to create lookup tables in Windows Forms applications. A lookup table describes controls that are bound to two related data tables.
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
