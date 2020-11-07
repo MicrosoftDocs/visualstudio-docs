@@ -1,6 +1,7 @@
 ---
 title: Specify where to copy files | Microsoft Docs
-ms.custom: seodec18
+description: Learn how to set the Publish Location property for a ClickOnce application, which specifies the location where the application files and manifest are put.
+ms.custom: [SEO-VS-2020, seodec18]
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 

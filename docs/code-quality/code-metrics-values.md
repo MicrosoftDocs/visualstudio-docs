@@ -1,6 +1,8 @@
 ---
 title: Calculate code metrics
 ms.date: 11/02/2018
+description: Learn about cyclomatic complexity, class coupling, and other Visual Studio code metrics. See how metrics can track development progress and identify risks.
+ms.custom: SEO-VS-2020
 ms.topic: conceptual
 f1_keywords:
   - vs.codeanalysis.codemetrics.toolwindow

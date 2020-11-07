@@ -1,5 +1,7 @@
 ---
 title: Publish ClickOnce application using Publish wizard
+description: Learn about using the Publish Wizard to make your ClickOnce application available to users, including which publishing properties to use.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 
