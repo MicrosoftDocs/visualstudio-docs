@@ -1,5 +1,7 @@
 ---
 title: XSLT performance
+description: Learn about the XSLT Profiler in Visual Studio that creates detailed XSLT performance reports to help you optimize the performance of your XSLT code.
+ms.custom: SEO-VS-2020
 ms.date: 03/05/2019
 ms.topic: conceptual
 ms.assetid: 87387c9a-2e89-4801-ad51-83740cd6ea25

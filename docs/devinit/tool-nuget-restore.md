@@ -42,7 +42,7 @@ The Default behavior of the `nuget-restore` tool is to run 'NuGet restore' in th
 
 ```json
 {
-    "$schema": "https://json.schemastore.org/devinit.schema-2.0",
+    "$schema": "https://json.schemastore.org/devinit.schema-3.0",
     "comments": "A sample dot-devinit file that restores NuGet pacakges.",
     "run": [
         {
