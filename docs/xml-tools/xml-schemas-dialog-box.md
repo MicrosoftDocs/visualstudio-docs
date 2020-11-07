@@ -1,5 +1,7 @@
 ---
 title: XML schemas
+description: Learn about the XML Schemas dialog box that is used to select which XML schema definition language (XSD) schema(s) to associate with an XML document. 
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:

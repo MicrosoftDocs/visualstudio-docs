@@ -1,6 +1,8 @@
 ---
 title: Automatic feature suspension
 ms.date: 11/04/2016
+description: Learn how Visual Studio reduces the analysis scope, turns off garbage collection low-latency mode, and flushes caches when system memory is limited.
+ms.custom: SEO-VS-2020
 ms.topic: conceptual
 helpviewer_keywords:
   - "live code analysis"
