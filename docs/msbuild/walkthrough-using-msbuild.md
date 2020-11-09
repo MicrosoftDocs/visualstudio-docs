@@ -113,7 +113,7 @@ The default target is not defined in the project file. Instead, it is specified 
 
 Imported files are effectively inserted into the project file wherever they are referenced.
 
-In SDK-style projcts, you don't see this import element, since the SDK attribute causes this file to be imported implicitly.
+In SDK-style projects, you don't see this import element, since the SDK attribute causes this file to be imported implicitly.
 
 MSBuild keeps track of the targets of a build, and guarantees that each target is built no more than once.
 
