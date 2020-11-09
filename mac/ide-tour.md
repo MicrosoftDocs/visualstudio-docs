@@ -67,7 +67,7 @@ For more information on using Projects and Solutions in Visual Studio for Mac, s
 
 Assembly references for each project are available under the References folder:
 
-![References folder in the solution window](media/ide-tour-image19.png)
+![References folder in the Solution Window](media/ide-tour-image19.png)
 
 Additional references are added using the **Edit References** dialog, which is displayed by double-clicking on the References folder, or by selecting **Edit References** on its context menu actions:
 
@@ -130,9 +130,9 @@ Visual Studio for Mac integrates with Git and Subversion source control systems.
 
 ![Branch name to indicate project under source control](media/ide-tour-image22.png)
 
-Files with uncommitted changes have an annotation on their icons in the Solution window, as illustrated in the following image:
+Files with uncommitted changes have an annotation on their icons in the Solution Window, as illustrated in the following image:
 
-![Uncommitted files in the solution window](media/ide-tour-image23.png)
+![Uncommitted files in the Solution Window](media/ide-tour-image23.png)
 
 For more information on using version control in Visual Studio, see the [Version Control](./version-control.md) article.
 

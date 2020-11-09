@@ -1,6 +1,6 @@
 ---
 title: Publish to a folder
-description: How to publish a web application to a folder, using Visual Studio for Mac.
+description: How to publish a web application to a folder using Visual Studio for Mac.
 ms.date: 11/09/2020
 helpviewer_keywords:
   - "deployment, website, console, publish"

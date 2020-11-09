@@ -74,7 +74,7 @@ You can also set a remote branch to your _tracking_ branch. Read more about trac
 
 See the current branch in the Solution Window, next to the project name:
 
- ![Current branch displayed in solution window](media/version-control-gitBranchName.png)
+ ![Current branch displayed in Solution Window](media/version-control-gitBranchName.png)
 
 ## Reviewing and committing
 

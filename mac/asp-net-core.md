@@ -121,7 +121,7 @@ This simple Hello, World project can run now without any additional code being a
 
 ![Browser Run](media/asp-net-web-picker.png)
 
-Visual Studio for Mac uses a random port to launch your web project. To find out what port this is, open the Application Output, which is listed under the **View > Other Windows**. You should find output similar to that shown below:
+Visual Studio for Mac uses a random port to launch your web project. To find out what port this is, open the Application Output, which is listed under the **View > Other Windows** menu. You should find output similar to that shown below:
 
 ![Application Output displaying listening port](media/asp-net-core-image6.png)
 
