@@ -57498,6 +57498,11 @@
       "source_path": "docs/ide/editorconfig-naming-conventions.md",
       "redirect_url": "/dotnet/fundamentals/code-analysis/style-rules/naming-rules",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "mac/extending-visual-studio-mac.md",
+      "redirect_url": "/visualstudio/mac/customizing-the-ide",
+      "redirect_document_id": false
     }
   ]
 }
