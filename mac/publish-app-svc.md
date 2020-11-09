@@ -25,7 +25,7 @@ You can use the Publish tool to publish ASP.NET Core apps to Azure App Service.
 
 ## Publish to Azure App Service
 
- 1. In the Solution Pad, right-click the project and choose **Publish**.
+ 1. In the Solution Window, right-click the project and choose **Publish**.
 
     ![Publish context menu](media/publish-context-menu.png)
 

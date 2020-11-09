@@ -3,7 +3,7 @@ title: "Managing Project and Solution Properties"
 description: "This articles describes how to manage the properties of projects and solutions in Visual Studio for Mac"
 author: heiligerdankgesang
 ms.author: dominicn
-ms.date: 05/06/2018
+ms.date: 11/09/2020
 ms.assetid: 75247EB8-323A-4AFD-A451-6703A03D5D1F
 ---
 # Managing Project and Solution Properties
@@ -36,7 +36,7 @@ Xamarin.iOS has options related to bundle signing - such as the required provisi
 
 ## Solution Options
 
-Solution options are like Project options, but cover the scope of the entire Solutions. They provide a way to set author information, build settings, code formatting styles, and version control, and they allow for a way to assign the startup project in the Solution.  The Solution Options dialog can be accessed from the **Project > Solution Options** menu item, from the **Options** context menu item on the Solution in the Solution pad, or by double-clicking on the Solution in the Solution Pad:
+Solution options are like Project options, but cover the scope of the entire Solutions. They provide a way to set author information, build settings, code formatting styles, and version control, and they allow for a way to assign the startup project in the Solution.  The Solution Options dialog can be accessed from the **Project > Solution Options** menu item, from the **Options** context menu item on the Solution in the Solution Window, or by double-clicking on the Solution in the Solution Window:
 
 ![Solution Options](media/projects-and-solutions-image7.png)
 

@@ -3,7 +3,7 @@ title: "Getting started building games with Unity"
 description: "Getting started with Unity and Visual Studio for Mac"
 author: heiligerdankgesang
 ms.author: dominicn
-ms.date: 05/20/2019
+ms.date: 11/09/2020
 ms.technology: vs-ide-general
 ms.assetid: D07FA43B-9D18-4DFA-8343-CD538FAD84DB
 ms.topic: how-to
@@ -107,7 +107,7 @@ This lab is intended for developers who are familiar with C#, although deep expe
 
     ![moving one cube along the axis](media/unity-image17.png)
 
-22. Now you can add some code to drive the enemy logic so that it pursues the player. Right-click the **Assets** folder in the **Project** pad and select **Create > C# Script**.
+22. Now you can add some code to drive the enemy logic so that it pursues the player. Right-click the **Assets** folder in the **Project** window and select **Create > C# Script**.
 
     ![C# script context action](media/unity-image18.png)
 
@@ -139,7 +139,7 @@ This lab is intended for developers who are familiar with C#, although deep expe
 
 5. The Visual Studio solution is straightforward. It contains an **Assets** folder (the same one from **Finder**) and the **EnemyAI.cs** script created earlier. In more sophisticated projects, the hierarchy will likely look different than what you see in Unity.
 
-    ![Solution pad in Visual Studio for Mac](media/unity-image24.png)
+    ![Solution window in Visual Studio for Mac](media/unity-image24.png)
 
 6. **EnemyAI.cs** is open in the editor. The initial script just contains stubs for the **Start** and **Update** methods.
 
@@ -203,9 +203,9 @@ This lab is intended for developers who are familiar with C#, although deep expe
 
     ![breakpoint hit in visual studio for mac](media/unity-image28.png)
 
-5. From the **Locals** pad, locate the **this** pointer, which references an **EnemyAI** object. Expand the reference and see that you can browse the associated members like **Speed**.
+5. From the **Locals** window, locate the **this** pointer, which references an **EnemyAI** object. Expand the reference and see that you can browse the associated members like **Speed**.
 
-    ![locals debugging pad in visual studio for mac](media/unity-image29.png)
+    ![The Locals window in visual studio for mac](media/unity-image29.png)
 
 6. Remove the breakpoint from the **Start** method the same way it was added-by either clicking it in the margin or selecting the line and press **F9**.
 
