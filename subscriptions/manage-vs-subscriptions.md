@@ -1,8 +1,8 @@
 ---
 title:  Manage Visual Studio Subscriptions
 author: evanwindom
-ms.author: lank
-manager: lank
+ms.author: v-evwin
+manager: cabuschl
 ms.assetid: 196c6d04-9a33-47d5-b0f1-038e7c3a7ac9
 ms.date: 03/09/2020
 ms.topic: conceptual
@@ -24,10 +24,10 @@ On the Benefits page, the subscription in use will be prominently displayed in t
 
 ### To switch between subscriptions, you can:
 
-- Click on the drop-down in the top right and choose the subscription from the list
-- Click on the Subscriptions tab and then click on the desired subscription
+- Select the drop-down in the top right and choose the subscription from the list
+- Select the Subscriptions tab and then select the desired subscription
   > [!div class="mx-imgBorder"]
-  > ![Switching subscriptions](_img/manage-vs-subscriptions/change-subscription-resized.png "Click on the Subscriptions tab to see detailed information about all of your subscriptions, and to switch between them.")
+  > ![Switching subscriptions](_img/manage-vs-subscriptions/change-subscription-resized.png "Select the Subscriptions tab to see detailed information about all of your subscriptions, and to switch between them.")
 
 ### If your subscription is not visible...
 
@@ -51,7 +51,7 @@ On the Benefits page, the subscription in use will be prominently displayed in t
 
 ## Transferring subscriptions
 
-If your subscription was purchased through Microsoft Volume Licensing and you need to re-assign it to someone else within the organization, your administrator will need to do this for you.
+If your subscription was purchased through Microsoft Volume Licensing and you need to re-assign it to someone else within the organization, your admin will need to do this for you.
 Retail subscriptions can be transferred to another user by contacting Customer Service. Complimentary or “Not For Resale” subscriptions cannot be transferred.
 
 ## Managing my profile
@@ -62,17 +62,17 @@ The subscriptions portal lets you create and manage a profile, making subscripti
 
 You can easily change the contact information and preferences in your profile.
 
-1. Click on your name in the upper right corner of the Subscriber Portal.
-2. Click the **Edit profile** button.
+1. Select your name in the upper right corner of the Subscriber Portal.
+2. Select the **Edit profile** button.
 3. On the **About** tab, you can change your name, email, country/region, profile picture and contact preferences. On the **Preferences** tab, you can select your preferred language, date and time patterns, time zone, and user interface theme.
-4. When you’ve finalized your changes, click **Save**.
-5. Click your browser's **back** button to return to the Benefits page.
+4. When you’ve finalized your changes, select **Save**.
+5. Select your browser's **back** button to return to the Benefits page.
 
 ### Setting communications preferences
 If you would like to receive periodic updates about your subscription and benefits, including the monthly Visual Studio Subscriptions newsletter, [update your preferences](https://app.vsaex.visualstudio.com/me?workflowID=devprogram&tab=edit) by checking the box for Visual Studio Subscriptions in your Visual Studio profile. You can change these preferences and unsubscribe at any time. 
 
    > [!div class="mx-imgBorder"]
-   > ![Setting Preferences](_img/manage-vs-subscriptions/change-prefs.png "Click the Visual Studio subscriptions program emails checkbox to receive updates.")
+   > ![Setting Preferences](_img/manage-vs-subscriptions/change-prefs.png "Select the Visual Studio subscriptions program emails checkbox to receive updates.")
    
 ### Linking my subscription to existing Azure DevOps Services or Azure subscriptions
 If you sign in to your subscription using a personal Microsoft account (MSA) and have a subscription that includes Azure DevOps Services or Microsoft Azure using a work or school account managed by Azure, you can link the two subscriptions. This is called an "alternate account" and allows you to keep using your MSA to sign in to your subscription while having access to existing Azure, Azure DevOps Services or IDE resources that are associated with your school or work accounts.
@@ -82,11 +82,11 @@ Even if both accounts use the same email address, you need to add your work/scho
 To add an alternate account:
 
 1. Sign in to the [Subscriber Portal](https://my.visualstudio.com?wt.mc_id=o~msft~docs) with your Microsoft Account (MSA).
-2. Click on the **Subscriptions** tab.
+2. Select the **Subscriptions** tab.
 3. Under **Related Links**, choose **Add alternate account**.
-4. Enter your work/school account email address and click **Add**.
+4. Enter your work/school account email address and select **Add**.
 
-Once you have added an alternate account, you can update or remove it at any time by clicking the **Subscriptions** tab and choosing the appropriate option in the **Related Links** section.
+Once you have added an alternate account, you can update or remove it at any time by selecting the **Subscriptions** tab and choosing the appropriate option in the **Related Links** section.
 
 ## Frequently asked questions
 
@@ -108,10 +108,10 @@ A: Depending on the purchasing channel, Microsoft maintains customer data for di
 > - We will not fully remove all your personal data if you have active subscriptions.
 
 ## See also
-- [Visual Studio documentation](https://docs.microsoft.com/visualstudio/)
-- [Azure DevOps documentation](https://docs.microsoft.com/azure/devops/)
-- [Azure documentation](https://docs.microsoft.com/azure/)
-- [Microsoft 365 documentation](https://docs.microsoft.com/microsoft-365/)
+- [Visual Studio documentation](/visualstudio/)
+- [Azure DevOps documentation](/azure/devops/)
+- [Azure documentation](/azure/)
+- [Microsoft 365 documentation](/microsoft-365/)
 
 ## Next steps
 Do you manage subscriptions for your organization?  Learn more about managing Visual Studio subscriptions:

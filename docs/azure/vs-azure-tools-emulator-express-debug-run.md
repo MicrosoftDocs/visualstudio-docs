@@ -1,5 +1,6 @@
 ---
-title: Emulator Express to run/debug Azure cloud service on local box
+title: Emulator Express to run/debug Azure cloud service locally
+ms.custom: SEO-VS-2020
 description: Using Emulator Express to run and debug a cloud service on a local machine
 author: mikejo5000
 manager: jillfra
@@ -17,7 +18,7 @@ When you create an Azure project in Azure SDK 2.3 or later, Emulator Express is 
 
 1. Create or open an Azure cloud service project in Visual Studio.
 
-1. In **Solution Explorer**, right-click the project, and, from the context menu, select **Properties**.
+1. In Solution Explorer, right-click the project, and, from the context menu, select **Properties**.
 
 1. In the projects properties pages, select the **Web** tab.
 

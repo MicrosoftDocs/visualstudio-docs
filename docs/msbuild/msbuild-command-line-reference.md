@@ -1,5 +1,7 @@
 ---
 title: MSBuild Command-Line Reference | Microsoft Docs
+description: Learn how to use MSBuild.exe command line to build a project or solution file, and several switches you can include.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 dev_langs:
@@ -41,7 +43,7 @@ MSBuild.exe [Switches] [ProjectFile]
 |Switch|Short form|Description|
 |------------|----------------|-----------------|
 |-detailedSummary|-ds|Show detailed information at the end of the build log about the configurations that were built and how they were scheduled to nodes.|
-|-graphBuild[:`True` or `False`]|-graph[:`True` or `False`]|Causes MSBuild to construct and build a project graph. Constructing a graph involves identifying project references to form dependencies. Building that graph involves attempting to build project references prior to the projects that reference them, differing from traditional MSBuild scheduling.|
+|-graphBuild[:`True` or `False`]|-graph[:`True` or `False`]|Causes MSBuild to construct and build a project graph. Constructing a graph involves identifying project references to form dependencies. Building that graph involves attempting to build project references prior to the projects that reference them, differing from traditional MSBuild scheduling. Requires MSBuild 16 or later.|
 |-help|/? or -h|Display usage information. The following command is an example:<br /><br /> `msbuild.exe -?`|
 |-ignoreProjectExtensions: `extensions`|-ignore: `extensions`|Ignore the specified extensions when determining which project file to build. Use a semicolon or a comma to separate multiple extensions, as the following example shows:<br /><br /> `-ignoreprojectextensions:.vcproj,.sln`|
 |-interactive[:`True` or `False`]|-|Indicates that actions in the build are allowed to interact with the user.  Do not use this argument in an automated scenario where interactivity is not expected. Specifying -interactive is the same as specifying -interactive:true.  Use the parameter to override a value that comes from a response file.
@@ -79,7 +81,7 @@ MSBuild.exe [Switches] [ProjectFile]
 |-logger:<br /><br /> `logger`|-l:`logger`|Specifies the logger to use to log events from MSBuild. To specify multiple loggers, specify each logger separately.<br /><br /> Use the following syntax for `logger`: `[``LoggerClass``,]``LoggerAssembly``[;``LoggerParameters``]`<br /><br /> Use the following syntax for `LoggerClass`: `[``PartialOrFullNamespace``.]``LoggerClassName`<br /><br /> You don't have to specify the logger class if the assembly contains exactly one logger.<br /><br /> Use the following syntax for `LoggerAssembly`: `{``AssemblyName``[,``StrongName``] &#124;` `AssemblyFile``}`<br /><br /> Logger parameters are optional and are passed to the logger exactly as you enter them.<br /><br /> The following examples use the **-logger** switch.<br /><br /> `-logger:XMLLogger,MyLogger,Version=1.0.2,Culture=neutral`<br /><br /> `-logger:XMLLogger,C:\Loggers\MyLogger.dll;OutputAsHTML`|
 |-noConsoleLogger|-noconlog|Disable the default console logger, and don't log events to the console.|
 
-## Example
+## Example 1
 
  The following example builds the `rebuild` target of the *MyProject.proj* project.
 
@@ -87,7 +89,7 @@ MSBuild.exe [Switches] [ProjectFile]
 MSBuild.exe MyProject.proj -t:rebuild
 ```
 
-## Example
+## Example 2
 
  You can use *MSBuild.exe* to perform more complex builds. For example, you can use it to build specific targets of specific projects in a solution. The following example rebuilds the project `NotInSolutionFolder` and cleans the project `InSolutionFolder`, which is in the *NewFolder* solution folder.
 

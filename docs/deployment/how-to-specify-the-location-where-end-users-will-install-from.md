@@ -1,5 +1,7 @@
 ---
-title: How to - Specify the Location Where End Users Will Install From | Microsoft Docs
+title: Specify location where end users install from
+description: Learn how to set the Installation URL property, which is where a published ClickOnce application is hosted for installation.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 
@@ -19,6 +21,7 @@ ms.workload:
   - multiple
 ---
 # How to: Specify the location where end users will install from
+
 When publishing a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application, the location where users go to download and install the application is not necessarily the location where you initially publish the application. For example, in some organizations a developer might publish an application to a staging server, and then an administrator would move the application to a Web server.
 
 In this case, you can use the `Installation URL` property to specify the Web server where users will go to download the application. This is necessary so that the application manifest knows where to look for updates.

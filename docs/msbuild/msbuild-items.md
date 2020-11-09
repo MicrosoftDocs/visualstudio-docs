@@ -1,6 +1,6 @@
 ---
 title: MSBuild Items | Microsoft Docs
-description: Use the MSBuild Include attribute of the ItemGroup to specify files to be included in a build
+description: Learn how to use the MSBuild Include attribute of the ItemGroup to specify files to be included in a build.
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -332,7 +332,7 @@ Output:
 -->
 ```
 
-##  Updating metadata on items in an ItemGroup outside of a Target
+## Updating metadata on items in an ItemGroup outside of a Target
 
 Items outside of targets can have their existing metadata updated via the `Update` attribute. This attribute is **not** available for items under targets.
 

@@ -1,5 +1,7 @@
 ---
-title: How to - Specify a Start Menu Name for a ClickOnce Application | Microsoft Docs
+title: Specify Start menu name for a ClickOnce app
+description: Learn how to change the display name for your ClickOnce application by setting Product name in the Publish Options dialog box.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 

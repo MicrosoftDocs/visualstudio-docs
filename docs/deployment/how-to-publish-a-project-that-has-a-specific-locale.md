@@ -1,5 +1,7 @@
 ---
-title: How to - Publish a Project That Has a Specific Locale | Microsoft Docs
+title: Publish a project that has a specific locale
+description: Learn how to use a macro to publish the first project in a solution that contains projects for several different locales. 
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 

@@ -1,10 +1,10 @@
 ---
-title: Visual Studio subscriptions offered to startups through the Microsoft for Startups program
+title: Visual Studio subscriptions offered through Microsoft for Startups | Microsoft Docs
 author: evanwindom
-ms.author: lank
-manager: lank
+ms.author: v-evwin
+manager: cabuschl
 ms.assetid: 71af88da-b9fa-4d12-999c-7d461f3df0ec
-ms.date: 03/09/2020
+ms.date: 10/28/2020
 ms.topic: conceptual
 description:  Details on subscriptions are offered through the Microsoft for Startups program.
 ---
@@ -36,10 +36,10 @@ With monthly cloud subscriptions, cancelations take effect the first day of the 
 For annual cloud subscriptions, cancelations take effect the first day of the month following 12 months from the original purchase, or 12 months from the last annual renewal charge. For instance, if you bought a Visual Studio Professional annual cloud subscription on January 3, 2018 then it remains active until February 1, 2019 when it automatically renews for another year. If you cancel at any time between then and February 1, 2020 then the subscription will expire on February 1, 2020. There is no rebate for canceling part way through the subscription year with annual cloud subscriptions.
 
 ## See also
-- [Visual Studio documentation](https://docs.microsoft.com/visualstudio/)
-- [Azure DevOps documentation](https://docs.microsoft.com/azure/devops/)
-- [Azure documentation](https://docs.microsoft.com/azure/)
-- [Microsoft 365 documentation](https://docs.microsoft.com/microsoft-365/)
+- [Visual Studio documentation](/visualstudio/)
+- [Azure DevOps documentation](/azure/devops/)
+- [Azure documentation](/azure/)
+- [Microsoft 365 documentation](/microsoft-365/)
 
 ## Next steps
 [Learn more about Microsoft for Startups](https://startups.microsoft.com)

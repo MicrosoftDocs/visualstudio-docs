@@ -49,7 +49,7 @@ If you have an existing project that _is not_ already in version control, use th
 
 3. Choose the **Select from Registered** tab and press the **Add** button:
 
-    ![](media/version-control-git5.png)
+    ![Add a registered repository dialog box.](media/version-control-git5.png)
 
 4. Enter the name of the repository as you would like it to display locally, and paste in the URL from step #3. Your Repository Configuration dialog should look similar to the following. Press OK:
 

@@ -438,9 +438,9 @@ You can analyze Coded UI tests using Coded UI test logs. Coded UI test logs filt
 
 - [Run unit tests with Test Explorer](../test/run-unit-tests-with-test-explorer.md)
 
-- [Run tests in your build process](/azure/devops/pipelines/test/getting-started-with-continuous-testing?view=vsts)
+- [Run tests in your build process](/azure/devops/pipelines/test/getting-started-with-continuous-testing?view=vsts&preserve-view=true)
 
-- [How to: Set up your test agent to run tests that interact with the desktop](https://msdn.microsoft.com/Library/3a94dd07-6d17-402c-ae8f-7947143755c9)
+- [How to: Set up your test agent to run tests that interact with the desktop](/previous-versions/ee291332(v=vs.140))
 
 **Adding support for custom controls:**  The Coded UI testing framework does not support every possible UI and might not support the UI you want to test. For example, you cannot immediately create a Coded UI test of the UI for Microsoft Excel. However, you can create an extension to the Coded UI testing framework that supports a custom control.
 
@@ -452,7 +452,7 @@ Coded UI tests are often used to automate manual tests. For more information abo
 
 ## See also
 
-- [Record and play back manual tests](/azure/devops/test/mtm/record-play-back-manual-tests?view=vsts)
+- [Record and play back manual tests](/azure/devops/test/mtm/record-play-back-manual-tests?view=vsts&preserve-view=true)
 - [Xamarin.UITest](/appcenter/test-cloud/uitest/)
 - <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert>
 - [Walkthrough: Create, edit, and maintain a Coded UI test](../test/walkthrough-creating-editing-and-maintaining-a-coded-ui-test.md)

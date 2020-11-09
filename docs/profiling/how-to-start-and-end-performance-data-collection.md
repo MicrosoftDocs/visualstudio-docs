@@ -1,5 +1,5 @@
 ---
-title: How to - Start and End Performance Data Collection | Microsoft Docs
+title: Start and End Performance Data Collection | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords: 

@@ -1,5 +1,6 @@
 ---
-title: 'Walkthrough: Creating a DataTable in the Dataset Designer'
+title: Create a DataTable in the Dataset Designer
+ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:

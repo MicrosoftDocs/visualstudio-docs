@@ -1,6 +1,7 @@
 ---
-title: Tutorial - Create a Multi-Container App with Docker Compose
+title: Multi-Container App with Docker Compose
 description: Learn how to manage more than one container and communicate between them in Visual Studio for Mac
+ms.custom: SEO-VS-2020
 author: heiligerdankgesang
 ms.author: dominicn
 ms.date: 07/03/2020
@@ -81,7 +82,7 @@ We now have two ASP.NET projects in our solution and both are configured with Do
    ```
    
     > [!NOTE]
-    > In production code, you shouldn't dispose `HttpClient` after every request. For best practices, see [Use HttpClientFactory to implement resilient HTTP requests](https://docs.microsoft.com/dotnet/architecture/microservices/implement-resilient-applications/use-httpclientfactory-to-implement-resilient-http-requests).
+    > In production code, you shouldn't dispose `HttpClient` after every request. For best practices, see [Use HttpClientFactory to implement resilient HTTP requests](/dotnet/architecture/microservices/implement-resilient-applications/use-httpclientfactory-to-implement-resilient-http-requests).
 
 1. In the *Index.cshtml* file, add a line to display `ViewData["Message"]` so that the file looks like the following code:
 
@@ -99,7 +100,7 @@ We now have two ASP.NET projects in our solution and both are configured with Do
       </div>
       ```
   
-1. In both the Front End and Web API projects, comment out the call to [Microsoft.AspNetCore.Builder.HttpsPolicyBuilderExtensions.UseHttpsRedirection](https://docs.microsoft.com/dotnet/api/microsoft.aspnetcore.builder.httpspolicybuilderextensions.usehttpsredirection) in the `Configure` method in *Startup.cs*, because this sample code uses HTTP, not HTTPS, to call the Web API.
+1. In both the Front End and Web API projects, comment out the call to [Microsoft.AspNetCore.Builder.HttpsPolicyBuilderExtensions.UseHttpsRedirection](/dotnet/api/microsoft.aspnetcore.builder.httpspolicybuilderextensions.usehttpsredirection) in the `Configure` method in *Startup.cs*, because this sample code uses HTTP, not HTTPS, to call the Web API.
 
       ```csharp
                   //app.UseHttpsRedirection();

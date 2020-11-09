@@ -13,7 +13,7 @@ ms.workload:
   - data-science
 ---
 
-# Step 3: Serve static files, add pages, and use template inheritance
+# Step 3: Serve static files, add pages, and use template inheritance with Django app
 
 **Previous step: [Create a Django app with views and page templates](learn-django-in-visual-studio-step-02-create-an-app.md)**
 

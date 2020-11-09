@@ -1,5 +1,7 @@
 ---
-title: Add trusted publisher to client computer for ClickOnce apps
+title: Add trusted publisher to client box (ClickOnce)
+description: Learn how to add a certificate to a client computer so that your ClickOnce applications run at a higher trust level without prompting the user.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 

@@ -157,7 +157,7 @@ Starting in Visual Studio 2015, you do not install the Visual Studio SDK from th
 
 ::: moniker-end
 
-3. On the **Test Menu** menu, click **Test Command**.
+3. On the **Test Menu** menu, select **Test Command**.
 
     A message box should appear and display the message "TestCommand Inside TopLevelMenu.TestCommand.MenuItemCallback()".
 

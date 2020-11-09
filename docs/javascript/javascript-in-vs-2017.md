@@ -1,5 +1,7 @@
 ---
 title: JavaScript
+description: Learn that you can use most or all of the standard editing aids (code snippets, IntelliSense, and so on) when you write JavaScript code in the Visual Studio IDE.
+ms.custom: SEO-VS-2020
 ms.date: "01/15/2019"
 ms.technology: vs-javascript
 ms.topic: conceptual
@@ -29,7 +31,7 @@ Visual Studio now supports syntax for ECMAScript language updates such as ECMASc
 JavaScript is still evolving as a programming language and [TC39](https://www.ecma-international.org/memento/tc39-m.htm) is the committee responsible for making updates.
 ECMAScript 2015 is an update to the JavaScript language that brings helpful new syntax and functionality. For a deep dive on ES6 features, check out [this](http://es6-features.org/#Constants) reference site.
 
-In addition to support for ECMAScript 2015, Visual Studio also supports ECMAScript 2016 and will have support for future versions of ECMAScript as they are released. To keep up with TC39 and the latest changes in ECMAScript, follow their work on [github](https://github.com/tc39).
+In addition to support for ECMAScript 2015, Visual Studio also supports ECMAScript 2016 and will have support for future versions of ECMAScript as they are released. To keep up with TC39 and the latest changes in ECMAScript, follow their work on [GitHub](https://github.com/tc39).
 
 ### Transpile JavaScript
 
@@ -110,7 +112,7 @@ exports.default = Subscription_1.Subscription;
 
 ## Better IntelliSense
 
-JavaScript IntelliSense in [!include[vs_dev15](../../docs/misc/includes/vs_dev15_md.md)] will now display a lot more information on parameters and member lists. This new information is provided by the TypeScript language service, which uses static analysis behind the scenes to better understand your code. You can read more about the new IntelliSense experience and how it works [here](/visualstudio/ide/javascript-intellisense/).
+JavaScript IntelliSense in [!include[vs_dev15](../../docs/misc/includes/vs_dev15_md.md)] will now display a lot more information on parameters and member lists. This new information is provided by the TypeScript language service, which uses static analysis behind the scenes to better understand your code. You can read more about the new IntelliSense experience and how it works [here](../ide/javascript-intellisense.md).
 
 ## <a name="JSX"></a> JSX syntax support
 
@@ -235,7 +237,7 @@ The most notable changes are the replacement of VSDoc with JSDoc, the removal of
 
 Previously it was fairly complicated to understand at any given moment which files were in your IntelliSense scope. Sometimes it was desirable to have all your files in scope and other times it wasn't, and this led to complex configurations involving manual reference management. Going forward you no longer need to think about reference management and so you don't need triple slash references comments or `_references.js` files.
 
-See the [JavaScript IntelliSense](/visualstudio/ide/javascript-intellisense/) page for more info on how IntelliSense works.
+See the [JavaScript IntelliSense](../ide/javascript-intellisense.md) page for more info on how IntelliSense works.
 
 ### VSDoc
 
@@ -244,7 +246,7 @@ VSDoc is no longer supported in favor of [JSDoc](https://jsdoc.app/about-getting
 
 ### `.intellisense.js` extensions
 
-Previously, you could author [IntelliSense extensions](https://msdn.microsoft.com/library/hh874692.aspx) which would allow you to add custom completion results for third-party libraries.
+Previously, you could author [IntelliSense extensions](/previous-versions/visualstudio/visual-studio-2015/ide/extending-javascript-intellisense) which would allow you to add custom completion results for third-party libraries.
 These extensions were fairly difficult to write and installing and referencing them was cumbersome, so going forward the new language service won't support these files.
 As an easier alternative, you can write a TypeScript definition file to provide the same IntelliSense benefits as the old `.intellisense.js` extensions.
 You can learn more about declaration (`.d.ts`) file authoring [here](http://www.typescriptlang.org/docs/handbook/declaration-files/introduction.html).

@@ -1,8 +1,8 @@
 ---
-title: Create a Universal Windows Platform (UWP) App with Visual Studio and C#
+title: Create a UWP App with Visual Studio and C#
 description: Create a UWP app in Visual Studio with XAML and C#
 titleSuffix: ""
-ms.custom: "seodec18, get-started"
+ms.custom: "seodec18, get-started, SEO-VS-2020"
 ms.date: "09/20/2019"
 ms.technology: vs-ide-general
 ms.topic: tutorial
@@ -66,7 +66,7 @@ First, create a Universal Windows Platform project. The project type comes with 
 
 1. Accept the default **Target version** and **Minimum version** settings in the **New Universal Windows Platform Project** dialog box.
 
-   ![Accept the default Target version and Minimum version settings in the New Universal Windows Platform Project dialog box](media/vs-2019/new-uwp-project-target-minver-dialog.png)
+   ![Accept default Target version and Minimum version settings in the New Universal Windows Platform Project dialog box](media/vs-2019/new-uwp-project-target-minver-dialog.png)
 ::: moniker-end
 
    > [!NOTE]
@@ -108,7 +108,7 @@ It's time to start developing. You'll add a button control, add an action to the
 
    If you look at the code in the **XAML Editor**, you'll see that the Button has been added there, too:
 
-   ![Click the Button control and drag it onto the Design canvas](media/uwp-xaml-control-code-window.png)
+   ![Show button in XAML editor](media/uwp-xaml-control-code-window.png)
 
 ### Add a label to the button
 
@@ -155,7 +155,6 @@ The code uses some Windows APIs to create a speech synthesis object and then giv
 
 ## Run the application
 
-
 ::: moniker range="vs-2017"
 It's time to build, deploy, and launch the "Hello World" UWP app to see what it looks and sounds like. Here's how.
 
@@ -187,7 +186,7 @@ It's time to build, deploy, and launch the "Hello World" UWP app to see what it 
 
 1. View your app, which appears soon after a splash screen disappears. The app should look similar to this:
 
-   ![A UWP "Hello World" app](media/vs-2019/uwp-hello-world-app.png)
+   ![UWP "Hello World" app](media/vs-2019/uwp-hello-world-app.png)
 
 1. Click the **Hello World** button.
 

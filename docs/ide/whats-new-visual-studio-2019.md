@@ -2,7 +2,7 @@
 title: "What's new in Visual Studio 2019"
 titleSuffix: ""
 description: "Learn about the new features in Visual Studio 2019."
-ms.date: 05/20/2020
+ms.date: 08/21/2020
 helpviewer_keywords:
   - "Visual Studio, what's new"
   - "what's new [Visual Studio]"
@@ -18,7 +18,7 @@ ms.workload:
 ---
 # What's new in Visual Studio 2019
 
-**Updated for the [16.6 release](/visualstudio/releases/2019/release-notes/)**
+**Updated for the [16.7 release](/visualstudio/releases/2019/release-notes/)**
 
 >[!div class="button"]
 >[Download Visual Studio 2019](https://visualstudio.microsoft.com/downloads)
@@ -80,7 +80,7 @@ For more information about IntelliCode, see the [Announcing the general availabi
 
 ### Code cleanup
 
-Paired with a new document health indicator is a new code cleanup command. You can use this new command to identify and then fix both warnings and suggestions with the click of a button.
+Paired with a new document health indicator is a new code cleanup command. You can use this new command to identify and then fix both warnings and suggestions with a single action (or click of a button).
 
 The cleanup will format the code and apply any code fixes as suggested by the [current settings](code-styles-and-code-cleanup.md) and [.editorconfig files](create-portable-custom-editor-options.md).
 
@@ -146,7 +146,7 @@ For more information, see the [Visual Studio Live Share for real-time code revie
 
 We're introducing a new extension that you can download to use with Visual Studio 2019. With this new extension, you can review, run, and even debug pull requests from your team without leaving Visual Studio. We support code in both GitHub and Azure DevOps repositories.
 
-   ![A screenshot of the new start window in Visual Studio 2019](media/vs-2019/pr-experience.png)
+   ![A screenshot of the new Pull Requests extension in Visual Studio 2019](media/vs-2019/pr-experience.png)
 
 For more information, see the [Code reviews using the Visual Studio Pull Requests extension](https://devblogs.microsoft.com/visualstudio/code-reviews-using-the-visual-studio-pull-requests-extension/) blog post.
 
@@ -172,7 +172,7 @@ You've probably been there before, looking in the Watch window for a string amon
 
    ![An animation that shows the debug search window in Visual Studio 2019](media/vs-2019/debug-window-search.gif)
 
-You can also format how a value is displayed within the Watch, Locals, and Autos windows.  Double-click one of the items in any of the windows and add a comma (",") to access the drop-down list of possible format specifiers, each of which includes a description of its intended effect.
+You can also format how a value is displayed within the Watch, Locals, and Autos windows. Select (by double-clicking) one of the items in any of the windows and add a comma (",") to access the drop-down list of possible format specifiers, each of which includes a description of its intended effect.
 
    ![The new Watch window and format values feature in Visual Studio 2019](media/search-watch-window.png)
 
@@ -206,7 +206,21 @@ For more information, see the [Pinnable Properties: Debug & Display Managed Obje
 
 We update Visual Studio 2019 often with new features that can make your development experience even better. To learn more about our latest innovations, check out the [Visual Studio Blog](https://devblogs.microsoft.com/visualstudio/). For a record of what we've released in preview to date, take a look at the [Preview Release Notes](/visualstudio/releases/2019/release-notes-preview/). And for a list of what we're planning to release next, see the [Visual Studio Roadmap](/visualstudio/productinfo/vs-roadmap).
 
-Want to know more about what else is in the works for Visual Studio 2019? See the [Visual Studio Roadmap](/visualstudio/productinfo/vs-roadmap/).
+Meanwhile, here are a few of our new features currently in the works.
+
+- **Visual Studio 2019 support for GitHub Codespaces (Preview)**
+
+  Now more than ever, developers are juggling multiple projects at work and at home. New features, bug fixes, PR reviews, &amp; prototypes all compete for time and require constant context-switching. [GitHub Codespaces](https://github.com/features/codespaces) can help. You can develop entirely in the cloud and create dedicated, custom environments for each of your projects in seconds. With Visual Studio 2019, you can connect to your codespace and work just as you would locally.
+
+  For more information, see the [What is GitHub Codespaces](codespaces/codespaces-overview.md) page.
+
+- **Improved Git experience in Visual Studio 2019 (Preview)**
+
+   We continue to iterate on a revamped Git experience to improve your productivity when working with code on GitHub, Azure Repos, and other remote hosting services. You can initialize and push from within Visual Studio 2019 with a single action (or click). You can also create new branches, manage current branches, and resolve merge conflicts.
+
+   For more information, see the [New Git experience in Visual Studio](git-with-visual-studio.md) page.
+
+For more information about the Preview release&mdash;and a download link if you'd like to try it out&mdash;see the **[Visual Studio Preview](https://visualstudio.microsoft.com/vs/preview/)** page.
 
 ## Give us feedback
 
@@ -221,9 +235,9 @@ Why send feedback to the Visual Studio team? Because we take customer feedback s
 * [Visual Studio 2019 release notes](/visualstudio/releases/2019/release-notes/)
 * [Visual Studio 2019 for Mac release notes](/visualstudio/releasenotes/vs2019-mac-relnotes/)
 * [What's new in the Visual Studio 2019 SDK](../extensibility/whats-new-visual-studio-2019-sdk.md)
-* [What's new for C++ in Visual Studio](/cpp/overview/what-s-new-for-visual-cpp-in-visual-studio.md)
-* [What's new for C# 8.0](/dotnet/csharp/whats-new/csharp-8.md)
-* [What's new in .NET Core 3.1](/dotnet/core/whats-new/dotnet-core-3-1.md)
-* [What's new in .NET Framework](/dotnet/framework/whats-new.md)
+* [What's new for C++ in Visual Studio](/cpp/overview/what-s-new-for-visual-cpp-in-visual-studio/)
+* [What's new for C# 8.0](/dotnet/csharp/whats-new/csharp-8/)
+* [What's new in .NET Core 3.1](/dotnet/core/whats-new/dotnet-core-3-1/)
+* [What's new in .NET Framework](/dotnet/framework/whats-new/)
 * [Microsoft Build conference](https://www.microsoft.com/build)
 * [Microsoft Ignite conference](https://www.microsoft.com/ignite)

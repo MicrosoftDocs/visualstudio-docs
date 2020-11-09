@@ -1,5 +1,6 @@
 ---
-title: 'How to: Specify the Sample Rate for a Load Test Run Setting'
+title: 'Specify sample rate for a load test run setting'
+ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
 ms.topic: how-to
 helpviewer_keywords: 

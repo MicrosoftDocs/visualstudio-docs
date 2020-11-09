@@ -1,5 +1,7 @@
 ---
-title: How to - Set Custom Permissions for a ClickOnce Application | Microsoft Docs
+title: Set custom permissions (ClickOnce app)
+description: Learn how to deploy a ClickOnce application that uses default permissions or create a custom zone for the specific permissions that the application needs.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 

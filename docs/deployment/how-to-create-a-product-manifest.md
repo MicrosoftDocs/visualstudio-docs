@@ -1,5 +1,7 @@
 ---
-title: How to - Create a Product Manifest | Microsoft Docs
+title: Create a Product Manifest | Microsoft Docs
+description: Learn how to deploy prerequisites for your ClickOnce application with a package that contains a single product manifest and a package manifest for each locale.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 

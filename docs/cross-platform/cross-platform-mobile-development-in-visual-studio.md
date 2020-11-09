@@ -1,6 +1,8 @@
 ---
 title: "Cross-Platform Mobile Development in Visual Studio | Microsoft Docs"
-ms.custom: ""
+description: In this article, learn how you can build apps for Android, iOS, and Windows devices by using Visual Studio.
+titleSuffix: ""
+ms.custom: SEO-VS-2020
 ms.date: "10/17/2019"
 ms.technology: vs-ide-mobile
 ms.topic: "conceptual"
@@ -13,7 +15,7 @@ ms.workload:
 ---
 # Cross-platform mobile development in Visual Studio
 
-You can build apps for Android, iOS, and Windows devices by using Visual Studio.  As you design your app, use tools in Visual Studio to easily add connected services such as Office 365, Azure App Service, and Application Insights.
+You can build apps for Android, iOS, and Windows devices by using Visual Studio.  As you design your app, use tools in Visual Studio to easily add connected services such as Microsoft 365, Azure App Service, and Application Insights.
 
 Build your apps by using C# and the .NET Framework, HTML and JavaScript, or C++. Share code, strings, images, and in some cases even the user interface.
 
@@ -76,7 +78,6 @@ With Visual Studio Tools for Xamarin, you can target Android, iOS, and Windows i
 |[Intro to the Universal Windows Platform](/windows/uwp/get-started/universal-application-platform-guide)|
 |[Create your first app](/windows/uwp/get-started/your-first-app)|
 |[Develop apps for the Universal Windows Platform (UWP)](../cross-platform/develop-apps-for-the-universal-windows-platform-uwp.md)|
-|[Migrate apps to the Universal Windows Platform (UWP)](https://msdn.microsoft.com/library/mt148501.aspx)|
 
 ::: moniker range="vs-2017"
 
@@ -154,14 +155,14 @@ With Visual Studio Tools for Xamarin, you can target Android, iOS, and Windows i
 |**Learn more**|
 |--------------------|
 |[Learn more about building Unity games with Visual Studio](https://visualstudio.microsoft.com/vs/features/game-development/#tab-4b0d0be8de5f65564ad)|
-|[Read more about Visual Studio Tools for Unity](../cross-platform/visual-studio-tools-for-unity.md) |
-|[Start using Visual Studio Tools for Unity](../cross-platform/getting-started-with-visual-studio-tools-for-unity.md) |
+|[Read more about Visual Studio Tools for Unity](/gamedev/unity/get-started/visual-studio-tools-for-unity.md) |
+|[Start using Visual Studio Tools for Unity](/gamedev/unity/get-started/getting-started-with-visual-studio-tools-for-unity.md) |
 |[Read about the latest enhancements to the Visual Studio Tools for Unity 2.0 Preview](https://devblogs.microsoft.com/visualstudio/visual-studio-tools-for-unity-2-0-preview/) (Visual Studio blog)|
-|[Watch a video introduction to the Visual Studio Tools for Unity 2.0 Preview](https://www.bing.com/videos/search?q=visual+studio+tools+for+unity&qs=n&form=QBVLPG&pq=visual+studio+tools+for+unity&sc=6-29&sp=-1&sk=#view=detail&mid=0A13177F0BC7463A24080A13177F0BC7463A2408) (Video)|
+|[Watch a video introduction to the Visual Studio Tools for Unity 2.0 Preview](https://www.bing.com/videos/search?q=visual+studio+tools+for+unity&qs=n&form=QBVLPG&pq=visual+studio+tools+for+unity&sc=6-29&sp=-1&sk=#view=detail&mid=0A13177F0BC7463A24080A13177F0BC7463A2408&preserve-view=true) (Video)|
 |[Learn about Unity](https://unity.com/) (Unity website)|
 
 ## See also
 
-- [Add Office 365 APIs to a Visual Studio project](/office/developer-program/office-365-developer-program)
+- [Add Microsoft 365 APIs to a Visual Studio project](/office/developer-program/office-365-developer-program)
 - [Azure App Services - Mobile Apps](https://azure.microsoft.com/services/app-service/mobile/)
 - [Visual Studio App Center](/appcenter)

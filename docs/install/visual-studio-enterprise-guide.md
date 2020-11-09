@@ -57,13 +57,10 @@ Learn how to update Visual Studio successfully and fix update issues.
 
 - **[Repair Visual Studio](repair-visual-studio.md) to fix update issues**. Sometimes your Visual Studio installation becomes damaged or corrupted. A repair is useful for fixing install-time issues across all install operations, including updates. 
 
-- **Follow [Windows security baselines](https://docs.microsoft.com/windows/security/threat-protection/windows-security-baselines)**. Microsoft is dedicated to providing its customers with secure operating systems, such as Windows 10 and Windows Server, and secure apps, such as Microsoft Edge. In addition to the security assurance of its products, Microsoft also enables you to have fine control over your environments by providing various configuration capabilities. 
+- **Follow [Windows security baselines](/windows/security/threat-protection/windows-security-baselines)**. Microsoft is dedicated to providing its customers with secure operating systems, such as Windows 10 and Windows Server, and secure apps, such as Microsoft Edge. In addition to the security assurance of its products, Microsoft also enables you to have fine control over your environments by providing various configuration capabilities. 
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
 ## See also 
 
 - [Productivity guide for Visual Studio](../ide/productivity-features.md)
-
-
-

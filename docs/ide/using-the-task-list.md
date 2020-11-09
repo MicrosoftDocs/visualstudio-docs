@@ -1,6 +1,7 @@
 ---
 title: Use the Task List
-ms.date: 11/04/2016
+description: Learn how the Task List in Visual Studio can help you track and use code comments more efficiently.
+ms.date: 10/12/2020
 ms.topic: how-to
 f1_keywords:
 - TaskListWindow
@@ -58,12 +59,12 @@ A comment in your code preceded by a comment marker and a predefined token also 
 
 Because `TODO` is a predefined token, this comment appears as a `TODO` task in the list.
 
-> [!NOTE]
-> Default tokens are only available for the C/C++, C#, and VB languages. For other languages, see the **Custom tokens** section.
-
 ### Custom tokens
 
 By default, Visual Studio includes the following tokens: `HACK`, `TODO`, `UNDONE`, and `UnresolvedMergeConflict`. They are not case-sensitive. You can also create your own custom tokens.
+
+> [!NOTE]
+> Default tokens are available only for the C/C++, C#, and VB languages. To create your own tokens for other programming languages, use the following steps.
 
 To create a custom token:
 

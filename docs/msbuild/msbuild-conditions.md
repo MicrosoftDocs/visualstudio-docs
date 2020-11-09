@@ -1,5 +1,7 @@
 ---
 title: MSBuild Conditions | Microsoft Docs
+description: Learn how MSBuild supports a specific set of conditions that can be applied wherever a Condition attribute is allowed.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 dev_langs:
@@ -51,6 +53,12 @@ You can use string methods in conditions, as shown in the following example, in 
 
 </Project>
 ```
+
+In MSBuild project files, there's no true Boolean type. Boolean data is represented in properties that might be empty or set to any value. Therefore, `'$(Prop)' == 'true'` means "if Prop is `true`," but `'$(Prop)' != 'false'` means "if Prop is `true` or unset or set to something else."
+
+Boolean logic is only evaluated in the context of conditions, so property settings such as `<Prop2>'$(Prop1)' == 'true'</Prop>` are represented as a string (after variable expansion), not evaluated as Boolean values.  
+
+MSBuild implements a few special processing rules to make it easier to work with string properties that are used as Boolean values. Boolean literals are accepted, so `Condition="true"` and `Condition="false"` work as expected. MSBuild also includes special rules to support the Boolean negation operator. So, if `$(Prop)` is 'true', `!$(Prop)` expands to `!true` and this compares equal to `false`, as you would expect.
 
 ## See also
 

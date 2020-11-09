@@ -1,5 +1,7 @@
 ---
-title: Retrieve query string information in online ClickOnce app
+title: Retrieve query string info in online ClickOnce app
+description: Learn how a ClickOnce application can read the query portion of a URL and how to use MageUI to configure your application to accept query string parameters.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 
@@ -70,7 +72,7 @@ The *query string* is the portion of a URL beginning with a question mark (?) th
  If your application is online only, it will always be activated through a URL. Even in this case, however, your application must be written to function properly if the query string parameters are missing or corrupted.
 
 ## .NET Framework security
- Allow passing URL parameters to your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application only if you plan to cleanse the input of any malicious characters before using it. A string embedded with quotes, slashes, or semicolons, for example, might perform arbitrary data operations if used unfiltered in a SQL query against a database. For more information on query string security, see [Script exploits overview](https://msdn.microsoft.com/Library/772c7312-211a-4eb3-8d6e-eec0aa1dcc07).
+ Allow passing URL parameters to your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application only if you plan to cleanse the input of any malicious characters before using it. A string embedded with quotes, slashes, or semicolons, for example, might perform arbitrary data operations if used unfiltered in a SQL query against a database. For more information on query string security, see [Script exploits overview](/previous-versions/w1sw53ds(v=vs.140)).
 
 ## See also
 - [Secure ClickOnce applications](../deployment/securing-clickonce-applications.md)
