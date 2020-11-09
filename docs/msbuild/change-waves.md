@@ -5,6 +5,7 @@ ms.date: 11/10/2020
 ms.topic: conceptual
 helpviewer_keywords:
 - Change waves [MSBuild]
+- MSBuildDisableFeaturesFromVersion environment variable
 author: ghogen
 ms.author: ghogen
 manager: jillfra
@@ -14,9 +15,9 @@ ms.workload:
 ---
 # Change waves
 
-A *change wave* is a set of behavior changes in MSBuild that you can opt out of by specifying a particular flag as an environment variable. The purpose of this is to warn you of potentially disruptive changes that will become standard functionality later, so that you have greater flexibility in adapting to the changes. You can choose to disable the features in a change wave by setting an environment variable. All the features in a specific change wave can only be enabled or disabled together, not individually.
+A *change wave* is a set of behavior changes in MSBuild that you can opt out of by specifying a particular flag as an environment variable. The purpose of this is to warn you of potentially disruptive changes that will become standard functionality later, so that you have greater flexibility in adapting to the changes. All the features in a specific change wave can only be enabled or disabled together, not individually.
 
-When you upgrade to a new version of MSBuild, changes that are potentially breaking are enabled by default, but if a feature does affect your build in a way that you don't want, you can easily disable that wave of changes, which allows you more time to update your build before enabling the new features. The ability to disable change waves smooths the transition to a new version of MSBuild.
+When you upgrade to a new version of MSBuild, changes that are potentially breaking are enabled by default, but if a feature affects your build negatively, you can easily disable that wave of changes. Disabling the changes in the change wave allows you more time to update your build before enabling the new features, while still using the newer version of MSBuild.
 
 ## Opt out of change wave features
 
@@ -26,19 +27,33 @@ To disable the features in a change wave, set the environment variable `MSBuildD
 
 | `MSBuildDisableFeaturesFromVersion` Value                         | Result        | Receive Warning? |
 | :-------------                                                    | :----------   | :----------: |
-| Unset                                                             | All Change Waves will be enabled, meaning all features behind each Change Wave will be enabled.               | No   |
-| Any valid & current Change Wave (Ex: `16.8`)                      | All features behind Change Wave `16.8` and higher will be disabled.                                           | No   |
-| Invalid Value (Ex: `16.9` when valid waves are `16.8` and `16.10`)| Default to the closest valid value (ascending). Ex: Setting `16.9` will default you to `16.10`.               | No   |
-| Out of Rotation (Ex: `17.1` when the highest wave is `17.0`)      | Clamp to the closest valid value. Ex: `17.1` clamps to `17.0`, and `16.5` clamps to `16.8`                    | Yes  |
-| Invalid Format (Ex: `16x8`, `17_0`, `garbage`)                    | All Change Waves will be enabled, meaning all features behind each Change Wave will be enabled.               | Yes  |
+| Unset                                                             | Enable all change waves, meaning all features behind each change wave are enabled.               | No   |
+| Any valid and current change Wave (Ex: `16.8`)                      | Disable all features behind change wave `16.8` and higher.                                           | No   |
+| Invalid Value (for example, `16.9` when valid waves are `16.8` and `16.10`)| Default to the closest valid value (ascending). For example, setting `16.9` will default you to `16.10`.               | No   |
+| Out of Rotation (for example, `17.1` when the highest wave is `17.0`)      | Clamp to the closest valid value. For example, `17.1` clamps to `17.0`, and `16.5` clamps to `16.8`                    | Yes  |
+| Invalid Format (for example, `16x8`, `17_0`, `garbage`)                    | Enable all change waves, meaning all features behind each change wave are enabled.               | Yes  |
 
 ## Change waves and associated features
+
+The links in the list below go to the GitHub PR for the feature.
 
 ### 16.8
 
 - [Enable NoWarn](https://github.com/dotnet/msbuild/pull/5671)
 - [Truncate Target/Task skipped log messages to 1024 chars](https://github.com/dotnet/msbuild/pull/5553)
 - [Don't expand full drive globs with false condition](https://github.com/dotnet/msbuild/pull/5669)
+
+### 16.10
+
+- [Error when a property expansion in a condition has whitespace](https://github.com/dotnet/msbuild/pull/5672)
+
+### 17.0
+
+There are no entries yet in this change wave.
+
+## Change waves that are out of rotation
+
+There are no out of rotation change waves at this time.
 
 ## See also
 - [MSBuild](msbuild.md)
