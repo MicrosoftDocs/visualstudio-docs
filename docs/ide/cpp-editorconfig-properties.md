@@ -22,7 +22,7 @@ The Visual Studio C++ formatter has a rich set of configurable settings that can
 
 ## C++ formatting conventions
 
-C++ formatting EditorConfig settings are prefixed with `_cpp__`. Here's an example of what your EditorConfig file might look like:
+C++ formatting EditorConfig settings are prefixed with `cpp_`. Here's an example of what your EditorConfig file might look like:
 
 ```ini
 [\*.{c++,cc,cpp,cxx,h,h++,hh,hpp,hxx,inl,ipp,tlh,tli}]
