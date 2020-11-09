@@ -3,7 +3,7 @@ title: "Extending Visual Studio for Mac"
 description: "Visual Studio for Mac's features and functionality can be extended with modules called extension packages. The first part of this guide creates a simple Visual Studio for Mac extension package to insert the date and time into a document. The second part of this guide introduces the fundamentals of the extension package system and some of the core APIs that form the foundation of Visual Studio for Mac."
 author: heiligerdankgesang
 ms.author: dominicn
-ms.date: 12/20/2019
+ms.date: 11/09/2020
 ms.technology: vs-ide-sdk
 ms.assetid: D5245AB0-8404-426B-B538-F49125E672B2
 ---
@@ -12,7 +12,7 @@ ms.assetid: D5245AB0-8404-426B-B538-F49125E672B2
 
 Visual Studio for Mac consists of a set of modules called *Extension Packages*. You can use Extension Packages to introduce new functionality to Visual Studio for Mac, such as support for an additional language or a new Project template.
 
-Extension packages build from the *extension* points of other extension packages. Extension points are placeholders for areas that can be expanded upon, such as a menu or the list of IDE Commands. An extension package can build from an extension point by registering a node of structured data called an extension, such as a new menu item or a new Command. Each extension point accepts certain types of extensions, such as a *Command*, *Pad*, or *FileTemplate*. A module that contains extension points is called an *add-in host*, as it can be extended by other extension packages.
+Extension packages build from the *extension* points of other extension packages. Extension points are placeholders for areas that can be expanded upon, such as a menu or the list of IDE Commands. An extension package can build from an extension point by registering a node of structured data called an extension, such as a new menu item or a new Command. Each extension point accepts certain types of extensions, such as a *Command*, *Tool Windows*, or *FileTemplate*. A module that contains extension points is called an *add-in host*, as it can be extended by other extension packages.
 
 To customize Visual Studio for Mac, you can create an extension package that builds from extension points contained in add-in hosts within pre-existing libraries in Visual Studio for Mac, as illustrated by the following diagram:
 
@@ -43,7 +43,7 @@ Extension packages store metadata about their name, version, dependencies, and o
 
 Extension packages must also declare dependencies on the extension packages that own the extension points they plug into, which are automatically referenced at build time.
 
-Furthermore, additional references can be added via the Add-in reference node in the solution pad for the project, as depicted by the following image:
+Furthermore, additional references can be added via the Add-in reference node in the solution window for the project, as depicted by the following image:
 
 ![Insert Date Screenshot](media/extending-visual-studio-mac-addin13.png)
 
@@ -80,8 +80,6 @@ The extension node contains a path attribute that specifies the extension point 
 * `_label` - The text to be shown in menus.
 * `_description` - The text to be shown as a tooltip for toolbar buttons.
 * `defaultHandler` - Specifies the `CommandHandler` class that powers the Command
-
-<!--To invoke the command from the Edit Menu, the walkthrough creates a CommandItem extension that plugs into the `/MonoDevelop/Ide/MainMenu/Edit` extension point:-->
 
 A CommandItem extension that plugs into the `/MonoDevelop/Ide/MainMenu/Edit` extension point is demonstrated in the following code snippet:
 
@@ -132,7 +130,7 @@ The Command and CommandItem are now tied together - the CommandItem calls the Co
 
 For information on the scope of areas that are available for development, see the [Extension Tree Reference](https://www.monodevelop.com/developers/articles/extension-tree-reference/) and the [API Overview](https://www.monodevelop.com/developers/articles/api-overview/). When building advanced extension packages, also refer to [Developer Articles](https://www.monodevelop.com/developers/articles/). Below is a partial list of areas for customization:
 
-* Pads
+* Tool Windows
 * Key Binding Schemes
 * Policies
 * Code formatters
@@ -142,7 +140,7 @@ For information on the scope of areas that are available for development, see th
 * Debugger Protocols
 * Debugger visualizers
 * Workspace layouts
-* Solution pad tree nodes
+* Solution window tree nodes
 * Source editor margins
 * Unit test engines
 * Code generators
@@ -161,7 +159,7 @@ Visual Studio for Mac [introduces a new native Cocoa text editor UI](/visualstud
 One of the many benefits of sharing the editor between Visual Studio and Visual Studio for Mac is that code targeting the Visual Studio editor can be adapted to run on Visual Studio for Mac.
 
 > [!NOTE]
-> The new editor supports only C# files at this time. Other languages and file formats will open in the legacy editor. The legacy editor does however implement some of the Visual Studio Editor APIs described below.
+> The new editor supports only C#, F#, plan text, and XAML files at this time. Other languages and file formats will open in the legacy editor. The legacy editor does however implement some of the Visual Studio Editor APIs described below.
 
 ### Visual Studio Editor Overview
 

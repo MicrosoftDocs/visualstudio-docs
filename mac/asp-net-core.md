@@ -1,9 +1,9 @@
 ---
 title: "Getting Started with ASP.NET Core"
 description: "This article describes how to get started with ASP.NET in Visual Studio for Mac, including installation and creating a new project."
-author: sayedihashimi
-ms.author: sayedha
-ms.date: 04/02/2019
+author: jmatthiesen
+ms.author: jomatthi
+ms.date: 11/06/2020
 ms.assetid: 6E8B0C90-33D6-4546-8207-CE0787584565
 ms.custom: video
 no-loc: [Blazor, "Blazor WebAssembly"]
@@ -37,13 +37,13 @@ There are a number of projects that will provide you with a pre-built template t
 
 ![ASP.NET Project Options](media/asp-net-core-2019-new-asp-core.png)
 
-Select the **ASP.NET Core Empty Web Application** and press **Next**. Give the Project a Name and press **Create**. This creates a new ASP.NET Core app. In the solution pad's left pane, expand the second arrow and then select **Startup.cs**. It should look similar to the image below:
+Select the **ASP.NET Core Empty Web Application** and press **Next**. Give the Project a Name and press **Create**. This creates a new ASP.NET Core app. In the solution windows's left pane, expand the second arrow and then select **Startup.cs**. It should look similar to the image below:
 
 ![New ASP.NET Core Empty Project view](media/asp-net-core-2019-empty-project.png)
 
 The ASP.NET Core Empty template creates a web application with two default files: **Program.cs** and **Startup.cs**, which are explained below. It also creates a Dependencies folder, which contains your project's NuGet package dependencies such as ASP.NET Core, the .NET Core framework, and the MSBuild targets that build the project:
 
-![Solution Pad displaying dependencies](media/asp-net-core-2019-solution-dependencies.png)
+![Solution window displaying dependencies](media/asp-net-core-2019-solution-dependencies.png)
 
 ### Program.cs
 
@@ -121,7 +121,7 @@ This simple Hello, World project can run now without any additional code being a
 
 ![Browser Run](media/asp-net-web-picker.png)
 
-Visual Studio for Mac uses a random port to launch your web project. To find out what port this is, open the Application Output, which is listed under **View > Pads**. You should find output similar to that shown below:
+Visual Studio for Mac uses a random port to launch your web project. To find out what port this is, open the Application Output, which is listed under the **View > Other Windows**. You should find output similar to that shown below:
 
 ![Application Output displaying listening port](media/asp-net-core-image6.png)
 

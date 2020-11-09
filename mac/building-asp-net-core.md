@@ -115,7 +115,7 @@ This lab is intended for developers who are familiar with C#, although deep expe
 
 2. The **Project Options** dialog includes everything you need to adjust how the application is built and run. Select the **Run > Configurations > Default** node from the left panel.
 
-3. Check **Run on external console** and uncheck **Pause console output**. Ordinarily the self-hosted application would not have its console visible, but would instead log its results to the **Output** pad. For the purposes of this lab, we'll show it in a separate window as well, although you don't need to do that during normal development.
+3. Check **Run on external console** and uncheck **Pause console output**. Ordinarily the self-hosted application would not have its console visible, but would instead log its results to the **Output** window. For the purposes of this lab, we'll show it in a separate window as well, although you don't need to do that during normal development.
 
 4. Click **OK**.
 
