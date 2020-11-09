@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: 97ac8e4d-7a03-42f8-98cb-15bcaa90ef65
-ms.date: 09/21/2020
+ms.date: 11/09/2020
 ms.topic: how-to
 description:  Learn how admins can edit subscription assignments.
 ---
@@ -34,8 +34,6 @@ Watch this video or read on to learn how to edit multiple subscribers using bulk
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4vkAF]
 
-   > [!IMPORTANT]
-   > Subscription levels (i.e. Enterprise, Professional, etc.) and subscription GUIDs cannot be altered using Bulk edit.  If you need to assign specific subscription GUIDs to you users, use the process for adding users by choosing the subscription ID. If you attempt an upload with these items changed in the Bulk edit template, the upload will fail.
 
 1. To edit multiple subscribers at once, navigate to the Subscribers tab. In the ribbon at the top, click **Bulk Edit**.
 

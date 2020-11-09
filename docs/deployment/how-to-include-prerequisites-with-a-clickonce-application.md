@@ -1,5 +1,6 @@
 ---
 title: Include prerequisites (ClickOnce app)
+description: Learn how to get installer packages for prerequisites to distribute for your ClickOnce application for your development computer.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
