@@ -1,5 +1,6 @@
 ---
 title: N-tier Data Applications Overview
+description: Read an N-tier data application overview. Also called distributed applications or multitier applications, these are data applications separated into many tiers.
 ms.date: 11/04/2016
 ms.topic: overview
 helpviewer_keywords:
