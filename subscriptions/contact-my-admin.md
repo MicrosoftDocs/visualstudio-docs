@@ -1,16 +1,16 @@
 ---
-title:  Contact your subscription administrator in the Subscriber Portal | Microsoft Docs
+title:  Contact your subscription admin in the Subscriber Portal | Microsoft Docs
 author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: 64455e79-229a-42f0-9d65-c2cca8ab8513
 ms.date: 09/08/2020
 ms.topic: how-to
-description: Learn how to contact your subscription administrator for assistance with questions or issues. 
+description: Learn how to contact your subscription admin for assistance with questions or issues. 
 ---
 
-# Get assistance from your subscriptions administrator
-If your Visual Studio subscription is provided to you by your work or school, chances are it was assigned to you by a subscriptions administrator, or "admin".  Admins can assign or remove subscriptions, change sign-in email addresses, determine whether you have the ability to download software, and perform other functions related to your subscription.
+# Get assistance from your subscriptions admin
+If your Visual Studio subscription is provided to you by your work or school, chances are it was assigned to you by a subscriptions admin, or "admin".  Admins can assign or remove subscriptions, change sign-in email addresses, determine whether you have the ability to download software, and perform other functions related to your subscription.
 
 Given the size and complexity of many organizations, you may not be aware of who your admin is, so it can be tough to know where to get help.  We've added a new feature to the subscriber portal to assist you with contacting your admin.   
 
@@ -28,7 +28,7 @@ Given the size and complexity of many organizations, you may not be aware of who
 > **Super admins:**  To set the email address to which "Contact my Admin" requests are sent, specify that address in the [Agreement Preferences](admin-prefs.md#contact-email-address).
 
 ## Resources
-- [Visual Studio Administration and Subscriptions Support](https://visualstudio.microsoft.com/support/support-overview-vs)
+- [Visual Studio Administration and Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/#talktous)
 
 ## See also
 - [Visual Studio documentation](/visualstudio/)

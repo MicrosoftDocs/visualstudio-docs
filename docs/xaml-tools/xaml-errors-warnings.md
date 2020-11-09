@@ -1,5 +1,7 @@
 ---
 title: XAML Errors and Warnings
+description: Learn about XAML errors and warnings in Visual Studio, including how errors are categorized, how to get error information, and how to find options for fixing them.
+ms.custom: SEO-VS-2020
 ms.date: 03/06/2018
 ms.topic: error-reference
 ms.assetid: 34eac8a0-7ec5-4c40-b97a-0126ed367931
@@ -24,7 +26,7 @@ Behind the scenes, multiple tools analyze the XAML in parallel. XAML errors are 
 |XAML Edit & Continue|XECxxxx| Visual Studio 2019 version 16.1 or earlier |
 |XAML Hot Reload | XHRxxxx | Visual Studio 2019 version 16.2 or later |
 
-For more details on the rebranding of XAML Edit & Continue as XAML Hot Reload, see our [release notes](https://docs.microsoft.com/visualstudio/releases/2019/release-notes-v16.2#wpfuwp-tooling)
+For more details on the rebranding of XAML Edit & Continue as XAML Hot Reload, see our [release notes](/visualstudio/releases/2019/release-notes-v16.2#wpfuwp-tooling)
 
 > [!Note]
 > Not all errors or warnings have a corresponding code. Such errors are usually XAML Designer errors.

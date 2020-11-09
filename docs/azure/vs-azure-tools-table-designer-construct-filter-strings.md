@@ -4,7 +4,7 @@ description: Constructing filter strings for the table designer
 author: ghogen
 manager: jillfra
 assetId: a1a10ea1-687a-4ee1-a952-6b24c2fe1a22
-ms.custom: vs-azure
+
 ms.workload: azure-vs
 ms.topic: conceptual
 ms.date: 11/18/2016

@@ -72,7 +72,7 @@ The `require-mssql` tool sets a number of installer command line arguments to en
 
 ```json
 {
-    "$schema": "https://json.schemastore.org/devinit.schema-2.0",
+    "$schema": "https://json.schemastore.org/devinit.schema-3.0",
     "run": [
         {
             "comments": "Installs MSSQL.",

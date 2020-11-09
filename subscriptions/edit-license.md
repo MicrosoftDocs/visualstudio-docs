@@ -1,16 +1,16 @@
 ---
-title: Edit subscriptions in the Administration Portal | Microsoft Docs
+title: Edit Visual Studio subscriptions in the Administration Portal | Microsoft Docs
 author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: 97ac8e4d-7a03-42f8-98cb-15bcaa90ef65
-ms.date: 09/21/2020
+ms.date: 11/09/2020
 ms.topic: how-to
-description:  Learn how administrators can edit subscription assignments.
+description:  Learn how admins can edit subscription assignments.
 ---
 
 # Edit Visual Studio subscription assignments
-As a subscription administrator, you can make changes to the subscriptions assigned to individuals within your organization.  This article discusses the types of changes you can make and provides the necessary steps.
+As a subscription admin, you can make changes to the subscriptions assigned to individuals within your organization.  This article discusses the types of changes you can make and provides the necessary steps.
 
    > [!NOTE]
    > If you need to change subscription details for a subscriber assigned through an Azure Active Directory Group, you will need to remove them from the group and add them into the Administration Portal individually.  
@@ -34,8 +34,6 @@ Watch this video or read on to learn how to edit multiple subscribers using bulk
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4vkAF]
 
-   > [!IMPORTANT]
-   > Subscription levels (i.e. Enterprise, Professional, etc.) and subscription GUIDs cannot be altered using Bulk edit.  If you need to assign specific subscription GUIDs to you users, use the process for adding users by choosing the subscription ID. If you attempt an upload with these items changed in the Bulk edit template, the upload will fail.
 
 1. To edit multiple subscribers at once, navigate to the Subscribers tab. In the ribbon at the top, click **Bulk Edit**.
 

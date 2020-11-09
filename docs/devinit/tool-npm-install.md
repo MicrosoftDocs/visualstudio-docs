@@ -38,7 +38,7 @@ Additional configuration options can be passed in as a value of the `additionalO
 
 ```json
 {
-    "$schema": "https://json.schemastore.org/devinit.schema-2.0",
+    "$schema": "https://json.schemastore.org/devinit.schema-3.0",
     "run": [
         {
             "comments": "Example that will install the mongo NPM package (https://www.npmjs.com/package/mongo).",

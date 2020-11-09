@@ -44,10 +44,14 @@
     href: using-the-subscriber-portal.md
   - name: Manage your subscriptions
     href: manage-vs-subscriptions.md
-  - name: Contact your subscriptions administrator
+  - name: When subscriptions expire
+    href: subscription-expiration.md   
+  - name: Contact your subscriptions admin
     href: contact-my-admin.md
   - name: Benefits
     items:
+    - name: About benefits
+      href: about-benefits.md
     - name: Tools
       items:
       - name: Azure DevTest individual credit

@@ -1,5 +1,7 @@
 ---
 title: Copy Task | Microsoft Docs
+description: Learn how to use the MSBuild Copy task to copy files to a new file or folder location in the file system.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -68,7 +70,7 @@ Either the `DestinationFolder` or the `DestinationFiles` parameter must be speci
 
 In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension base class](../msbuild/taskextension-base-class.md).
 
-## Example
+## Example 1
 
 The following example copies the items in the `MySourceFiles` item collection into the folder *c:\MyProject\Destination*.
 
@@ -89,7 +91,7 @@ The following example copies the items in the `MySourceFiles` item collection in
 </Project>
 ```
 
-## Example
+## Example 2
 
 The following example demonstrates how to do a recursive copy. This project copies all of the files recursively from *c:\MySourceTree* into *c:\MyDestinationTree*, while maintaining the directory structure.
 

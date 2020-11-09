@@ -1,6 +1,8 @@
 ---
 title: Common MSBuild Project Items | Microsoft Docs
-ms.date: 11/04/2016
+description: Learn about common MSBuild project items. Items are named references to one or more files, and have metadata like file names, paths, and version numbers.
+ms.custom: SEO-VS-2020
+ms.date: 10/29/2020
 ms.topic: reference
 dev_langs:
 - VB
@@ -152,7 +154,19 @@ Represents assembly attributes to be generated as `[AssemblyMetadata(key, value)
 | Value | Required string. Becomes the second parameter (the value) in the `AssemblyMetadataAttribute` attribute constructor. |
 
 > [!NOTE]
-> This applies to projects using the .NET Core SDK only.
+> This item applies to projects using the SDK for .NET 5 (and .NET Core) and later versions.
+
+### InternalsVisibleTo
+
+Specifies assemblies to be emitted as `[InternalsVisibleTo(..)]` assembly attributes.
+
+| Item metadata name | Description |
+|-----------------------| - |
+| Include | The assembly name. |
+| Key | Optional string. The public key of the assembly. |
+
+> [!NOTE]
+> This item applies to projects using the SDK for .NET 5 (and .NET Core) and later versions.
 
 ### BaseApplicationManifest
 
