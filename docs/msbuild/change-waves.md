@@ -13,7 +13,7 @@ ms.workload:
 ---
 # Change waves
 
-A *change wave* is a set of behavior changes in MSBuild that you can opt out of by specifying a particular flag as an environment variable. The purpose of this is to warn you of potentially disruptive changes that will become standard functionality later. You can choose to disable the features in a change wave by setting an environment variable. All the features in a specific change wave can only be enabled or disabled together, not individually.
+A *change wave* is a set of behavior changes in MSBuild that you can opt out of by specifying a particular flag as an environment variable. The purpose of this is to warn you of potentially disruptive changes that will become standard functionality later, so that you have greater flexibility in adapting to the changes. You can choose to disable the features in a change wave by setting an environment variable. All the features in a specific change wave can only be enabled or disabled together, not individually.
 
 When you upgrade to a new version of MSBuild, changes that are potentially breaking are enabled by default, but if a feature does affect your build in a way that you don't want, you can easily disable that wave of changes, which allows you more time to update your build before enabling the new features. The ability to disable change waves smooths the transition to a new version of MSBuild.
 
