@@ -5,7 +5,7 @@ author: mikejo5000
 manager: jillfra
 ms.assetid: 945e06e0-2100-41af-b218-72347367ddab
 ms.topic: how-to
-ms.custom: vs-azure
+
 ms.workload: azure-vs
 ms.date: 11/11/2016
 ms.author: mikejo

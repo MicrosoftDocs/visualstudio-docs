@@ -9,7 +9,7 @@ ms.date: 08/14/2020
 user.type: subscriber
 tags: renewing
 subscription.type: retail
-sap.id: d49256cb-844e-ebfd-210e-a30a61a3adad
+sap.id: b324c31f-5d44-4cc2-537a-9c354bc5fbfc
 ---
 
 ## Renewing subscriptions through Microsoft Store 

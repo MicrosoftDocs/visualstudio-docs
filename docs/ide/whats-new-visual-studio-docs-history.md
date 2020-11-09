@@ -2,7 +2,7 @@
 title: "Visual Studio docs: History of what's new "
 titleSuffix: ""
 description: "History of what's new in Visual Studio docs"
-ms.date: 09/30/2020
+ms.date: 10/04/2020
 helpviewer_keywords:
   - "Visual Studio, what's new, docs"
   - "what's new [Visual Studio]"
@@ -19,7 +19,71 @@ ms.workload:
 
 # History of what's new in Visual Studio docs
 
-Welcome to the history of what's new in Visual Studio docs. This topic contains the major changes to the docs prior to September 2020 (starting July 2020). For the latest What's New, see [Visual Studio docs: What's new in the docs](whats-new-visual-studio-docs.md).
+Welcome to the history of what's new in Visual Studio docs. This article contains the major changes to the docs prior to October 2020 (starting July 2020). For the latest What's New, see [Visual Studio docs: What's new in the docs](whats-new-visual-studio-docs.md).
+
+## September 2020
+### Code quality
+
+**New articles**
+
+- [CA1416: Validate platform compatibility](/dotnet/fundamentals/code-analysis/quality-rules/ca1416) - Documenting CA1416 Validate platform compatibility
+- [CA1834: Use StringBuilder.Append(char) for single character strings](/dotnet/fundamentals/code-analysis/quality-rules/ca1834) - Docs for CA1834
+
+**Updated**
+
+- [Overview of source code analysis](../code-quality/roslyn-analyzers-overview.md) - Code analysis updates for .NET refactor
+- [Configure code quality analysis](../code-quality/use-roslyn-analyzers.md) - Code analysis updates for .NET refactor
+
+### Containers
+
+**New articles**
+
+- [Use Bridge to Kubernetes](../containers/bridge-to-kubernetes.md) - Local Process with Kubernetes rebranding to Bridge to Kubernetes
+- [How Bridge to Kubernetes works](../containers/overview-bridge-to-kubernetes.md) - Local Process with Kubernetes rebranding to Bridge to Kubernetes
+
+### Deployment
+
+**Updated articles**
+
+- [Deploy your app to a folder, IIS, Azure, or another destination](../deployment/deploying-applications-services-and-components-resources.md) - Deployment updates
+- [Deploy an app to a folder using Visual Studio](../deployment/quickstart-deploy-to-local-folder.md) - Deployment updates
+
+### IDE
+
+**New articles**
+
+- [New Git experience in Visual Studio (Preview)](./git-with-visual-studio.md) - add New Git Experience content (Preview)
+- [C++ EditorConfig formatting conventions](./cpp-editorconfig-properties.md) - new article
+- [What is GitHub Codespaces? (Preview)](./codespaces/codespaces-overview.md) - add Codespaces (Preview) content
+- [How to customize a codespace (Preview)](./codespaces/customize-codespaces.md) - add Codespaces (Preview) content
+- [Supported Visual Studio features (Preview)](./codespaces/supported-features-codespaces.md) - add Codespaces (Preview) content
+- [How to use Visual Studio with a codespace (Preview)](./codespaces/use-visual-studio-with-codespaces.md) - add Codespaces (Preview) content
+
+**Updated articles**
+
+- [.NET coding convention settings for EditorConfig](/dotnet/fundamentals/code-analysis/code-style-rule-options) - updated editorconfig
+- [Language conventions](/dotnet/fundamentals/code-analysis/style-rules/language-rules) - missing examples
+
+### Install
+
+**New articles**
+
+- [Visual Studio on ARM-powered devices](../install/visual-studio-on-arm-devices.md) - Adding doc for VS on ARM
+
+**Updated articles**
+
+- [Troubleshoot network-related errors when you install or use Visual Studio](../install/troubleshooting-network-related-errors-in-visual-studio.md) - Add workaround for feedback auth proxy crash
+
+### Profiling
+
+**Updated articles**
+
+- [Measure memory usage in Visual Studio](../profiling/memory-usage.md) - Updates to profiling feature tour
+- [PerfTips](../profiling/perftips.md) - Updates to profiling feature tour
+- [First look at profiling tools](../profiling/profiling-feature-tour.md) - Updates to profiling feature tour
+- [Run profiling tools with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md)
+  - Updates to profiling feature tour
+  - Content performance improvements
 
 ## August 2020
 ### Azure
@@ -104,7 +168,7 @@ Welcome to the history of what's new in Visual Studio docs. This topic contains 
 
 **Updated articles**
 
-- [Customize window layouts in Visual Studio](./customizing-window-layouts-in-visual-studio.md) - add monikered vertical document tabs info to Customize Window Layouts topic
+- [Customize window layouts in Visual Studio](./customizing-window-layouts-in-visual-studio.md) - add monikered vertical document tabs info to Customize Window Layouts article.
 - [How to report a problem with Visual Studio or Visual Studio Installer](./how-to-report-a-problem-with-visual-studio.md)
   - Added more info to NMI
   - Redid the whole Report a Problem page
@@ -152,8 +216,8 @@ Welcome to the history of what's new in Visual Studio docs. This topic contains 
 
 **Updated articles**
 
-- [Change log (Visual Studio Tools for Unity, Windows)](../cross-platform/change-log-visual-studio-tools-for-unity.md) - Bump VSTU changelog to 4.7.1.0
-- [Change Log (Visual Studio Tools for Unity, Mac)](../cross-platform/change-log-visual-studio-tools-for-unity-mac.md) - Bump VSTUM changelog to 2.7.1.0
+- [Change log (Visual Studio Tools for Unity, Windows)](/gamedev/unity/change-log-visual-studio-tools-for-unity.md) - Bump VSTU changelog to 4.7.1.0
+- [Change Log (Visual Studio Tools for Unity, Mac)](/gamedev/unity/change-log-visual-studio-tools-for-unity-mac.md) - Bump VSTUM changelog to 2.7.1.0
 
 ### Get started
 

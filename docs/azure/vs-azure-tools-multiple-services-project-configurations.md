@@ -5,7 +5,7 @@ ms.custom: SEO-VS-2020
 author: ghogen
 manager: jillfra
 assetId: a4fb79ed-384f-4183-9f74-5cac257206b9
-ms.custom: vs-azure
+
 ms.workload: azure-vs
 ms.topic: how-to
 ms.date: 11/11/2017

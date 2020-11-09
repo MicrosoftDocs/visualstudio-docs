@@ -57376,6 +57376,81 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/cross-platform/getting-started-with-visual-studio-tools-for-unity.md",
+      "redirect_url": "/visualstudio/gamedev/unity/get-started/getting-started-with-visual-studio-tools-for-unity",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/cross-platform/application-lifecyle-management-alm-with-unity-apps.md",
+      "redirect_url": "/visualstudio/gamedev/unity/application-lifecycle-management-alm-with-unity-apps",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/cross-platform/change-log-visual-studio-tools-for-unity-mac.md",
+      "redirect_url": "/visualstudio/gamedev/unity/change-log-visual-studio-tools-for-unity-mac",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/cross-platform/change-log-visual-studio-tools-for-unity.md",
+      "redirect_url": "/visualstudio/gamedev/unity/change-log-visual-studio-tools-for-unity",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/cross-platform/customize-project-files-created-by-vstu.md",
+      "redirect_url": "/visualstudio/gamedev/unity/extensibility/customize-project-files-created-by-vstu",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/cross-platform/programming-visual-studio-tools-for-unity.md",
+      "redirect_url": "/visualstudio/gamedev/unity/extensibility/programming-visual-studio-tools-for-unity",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/cross-platform/share-the-unity-log-callback-with-vstu.md",
+      "redirect_url": "/visualstudio/gamedev/unity/extensibility/share-the-unity-log-callback-with-vstu",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/cross-platform/troubleshooting-and-known-issues-visual-studio-tools-for-unity.md",
+      "redirect_url": "/visualstudio/gamedev/unity/troubleshooting/troubleshooting-and-known-issues-visual-studio-tools-for-unity",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/cross-platform/unity-scripting-upgrade.md",
+      "redirect_url": "/visualstudio/gamedev/unity/unity-scripting-upgrade",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/cross-platform/using-visual-studio-tools-for-unity.md",
+      "redirect_url": "/visualstudio/gamedev/unity/get-started/using-visual-studio-tools-for-unity",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/cross-platform/visual-studio-tools-for-unity-azure.md",
+      "redirect_url": "/visualstudio/gamedev/unity/visual-studio-tools-for-unity-azure",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/cross-platform/visual-studio-tools-for-unity.md",
+      "redirect_url": "/visualstudio/gamedev/unity/get-started/visual-studio-tools-for-unity",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mac/using-vsmac-tools-unity.md",
+      "redirect_url": "/visualstudio/gamedev/unity/get-started/using-visual-studio-tools-for-unity",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mac/unity-tools.md",
+      "redirect_url": "/visualstudio/gamedev/unity/get-started/visual-studio-tools-for-unity",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mac/setup-vsmac-tools-unity.md",
+      "redirect_url": "/visualstudio/gamedev/unity/get-started/getting-started-with-visual-studio-tools-for-unity",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/devinit/index.md",
       "redirect_url": "/visualstudio/devinit/getting-started-with-devinit",
       "redirect_document_id": false

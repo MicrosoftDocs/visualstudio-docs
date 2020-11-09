@@ -47,7 +47,7 @@ Specifies the path to the _devinit.json_ file. If --file is not specified, we se
 * {current-directory}\\.devcontainer\\devinit.json
 
 > [!NOTE]
-> If multiple default files are found, then devinit will use the file which appears first in the above list.
+> If multiple default files are found, then devinit will use the file that appears first in the above list.
 
 #### --error-action argument
 
