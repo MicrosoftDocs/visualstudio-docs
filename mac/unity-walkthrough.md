@@ -209,7 +209,7 @@ This lab is intended for developers who are familiar with C#, although deep expe
 
 6. Remove the breakpoint from the **Start** method the same way it was added-by either clicking it in the margin or selecting the line and press **F9**.
 
-    ![breakpoint hit in visual studio for mac](media/unity-image30.png)
+    ![Removing a breakpoint in visual studio for mac by clicking on it](media/unity-image30.png)
 
 7. Press **F10** to step over the first line of code that finds the **Player** game object using a tag as parameter.
 
