@@ -1,5 +1,6 @@
 ---
 title: Add validation to an n-tier dataset
+description: Add validation to an n-tier dataset in Visual Studio. Validate changes to individual columns or whole rows.
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs:

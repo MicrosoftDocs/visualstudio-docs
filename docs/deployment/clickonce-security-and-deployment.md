@@ -1,5 +1,7 @@
 ---
 title: "ClickOnce Security and Deployment | Microsoft Docs"
+description: Learn about Visual Studio support for ClickOnce, a deployment technology that enables you to create self-updating Windows-based applications.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:
