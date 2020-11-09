@@ -1,5 +1,6 @@
 ---
 title: Publish to Azure App Service
+description: How to publish a web application using the publishing tools in Visual Studio for Mac.
 ms.date: 04/02/2019
 helpviewer_keywords:
   - "deployment, website"

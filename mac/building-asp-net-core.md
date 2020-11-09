@@ -1,6 +1,6 @@
 ---
 title: "Building ASP.NET Core applications"
-description: "This article describes how to get started with ASP.NET in Visual Studio for Mac, including installation and creating a new project."
+description: "This article walks you through creating and exploring ASP.NET Core applications with Visual Studio for Mac."
 author: sayedihashimi
 ms.author: sayedha
 ms.date: 05/30/2019
@@ -83,7 +83,7 @@ This lab is intended for developers who are familiar with C#, although deep expe
 
     ![Screenshot of the C# Main method with a statement that initializes a variable named host with type WebHostBuilder.](media/netcore-image11.png)
 
-3. While the **WebHostBuilder** is responsible for creating the host that will bootstrap the server for the app, it requires you provide a server that implements **IServer**. By default, this is **[Kestrel](/aspnet/core/fundamentals/servers/kestrel)**, a cross-platform web server for ASP.NET Core based on **libuv**, which is a cross-platform asynchronous I/O library.
+3. While the **WebHostBuilder** is responsible for creating the host that will bootstrap the server for the app, it requires you provide a server that implements **`IServer`**. By default, this is **[Kestrel](/aspnet/core/fundamentals/servers/kestrel)**, a cross-platform web server for ASP.NET Core based on **libuv**, which is a cross-platform asynchronous I/O library.
 
     ![Screenshot of the C# Main method highlighting the host variable setting the server with the UseKestrel method.](media/netcore-image12.png)
 

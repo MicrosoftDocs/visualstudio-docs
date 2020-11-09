@@ -1,6 +1,6 @@
 ---
 title: Visual Studio for Mac – Integrated Terminal
-description: "Visual Studio for Mac provides an integrated development environment to build .NET applications on macOS, including ASP.NET Core websites and Xamarin projects for iOS, Android, Mac, and Xamarin.Forms."
+description: "Working with the Integrated Terminal in Visual Studio for Mac."
 author: jmatthiesen
 ms.author: jomatthi
 ms.date: 05/14/2020

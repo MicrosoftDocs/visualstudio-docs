@@ -1,6 +1,6 @@
 ---
 title: "Tutorial: Azure Functions"
-description: "Using Azure functions in Visual Studio for Mac."
+description: "A detailed walkthrough of working with Azure Functions in Visual Studio for Mac."
 author: jmatthiesen
 ms.author: jomatthi
 ms.date: 11/06/2020

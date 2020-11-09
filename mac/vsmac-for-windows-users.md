@@ -1,6 +1,6 @@
 ---
 title: "Visual Studio for Mac for Windows users"
-description: "Introduction of accessibility features in Visual Studio for Mac and how they can be enabled."
+description: "An introduction to Visual Studio for Mac, for developers familiar with using Visual Studio on the Windows operating system."
 author: heiligerdankgesang
 ms.author: dominicn
 ms.date: 11/09/2020
@@ -9,7 +9,7 @@ ms.assetid: 61CB6883-08CE-470F-8599-6F7570DB756E
 
 # Visual Studio for Mac for Windows users
 
-Migrating from one operating system to another can be daunting. There are often subtle differences in cross-platform applications, from the user interface to the categorization of menu items. Users will also have the learning curve of acclimatizing to the new operating system's user interface. Here you'll learn the most common differences between Visual Studio for Mac and Visual Studio for Windows. You'll also learn a few different conventions between macOS and Windows.
+Migrating from one operating system to another can be daunting. There are often subtle differences in cross-platform applications, from the user interface to the categorization of menu items. Here you'll learn the most common differences between Visual Studio for Mac and Visual Studio for Windows. You'll also learn a few different conventions between macOS and Windows.
 
 ## Keyboard shortcuts
 

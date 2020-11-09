@@ -223,7 +223,7 @@ This lab is intended for developers who are familiar with C#, although deep expe
 
 10. Switch back to **Visual Studio for Mac** and set a breakpoint on the first line of the **Update** method. It should be hit immediately.
 
-    ![setting a breakpoint in visual studio for mac](media/unity-image33.png)
+    ![Removing a breakpoint in visual studio for mac](media/unity-image33.png)
 
 11. Suppose the speed is too fast and we want to test the impact of the change without restarting the app. Locate the **Speed** variable within the **Autos** or **Locals** window and then change it to **"10"** and press **Enter**.
 

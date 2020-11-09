@@ -1,6 +1,6 @@
 ---
 title: Setting up a Git Repository
-description: Using Git and Subversion in Visual Studio for Mac.
+description: Connecting to a Git repository using Visual Studio for Mac.
 author: therealjohn
 ms.author: johmil
 ms.date: 11/09/2020
