@@ -1,7 +1,7 @@
 ---
-title: New Git experience in Visual Studio
+title: The Git experience in Visual Studio
 titleSuffix: ""
-description: Learn about the new integrated Git experience in Visual Studio 2019
+description: Learn about how the new integrated Git experience in Visual Studio 2019 can help you be more productive.
 ms.date: 11/10/2020
 ms.topic: conceptual
 ms.author: tglee
@@ -9,20 +9,16 @@ author: prnadago
 ms.manager: jillfra
 monikerRange: vs-2019
 ---
-# New Git experience in Visual Studio (Preview)
+# Git productivity in Visual Studio
 
-Beginning with [version 16.6](/visualstudio/releases/2019/release-notes-v16.6), Visual Studio 2019 now includes a new Git experience that makes it easy to use Git from the IDE. Git is the most widely used modern version control system, so no matter whether you’re a professional developer or if you’re learning how to code, Git can be very useful to you.
+Git is now the default version control experience in Visual Studio 2019. Since [version 16.6](/visualstudio/releases/2019/release-notes-v16.6), we've worked on building out the feature set and iterating on it based on your feedback. The new Git experience is turned on by default for everyone with the release of [version 16.8](/visualstudio/releases/2019/release-notes/).
 
 > [!TIP]
-> If you are new to Git, the https://git-scm.com/ website is a good place to start. There, you’ll find a popular online book, Git Basics videos, and cheat sheets.
+> Git is the most widely used modern version control system, so no matter whether you’re a professional developer or if you’re learning how to code, Git can be very useful to you. If you are new to Git, the https://git-scm.com/ website is a good place to start. There, you’ll find cheat sheets, a popular online book, and Git Basics videos.
 
-## How to start using Git in Visual Studio
+## How to use Git in Visual Studio
 
-To toggle the new Git experience, go to **Tools** > **Options** > **Environment** > **Preview Features** and then select the **New Git user experience** checkbox.
-
-:::image type="content" source="media/git-opt-new-user-experience.png" alt-text="Screenshot of the Preview Features section of the Options dialog box in Visual Studio ":::
-
-There are three ways to use Git in Visual Studio 2019:
+There are three ways to use Git to be more productive with Visual Studio 2019:
 
 - [Open an existing Git repository](#open-an-existing-local-repository). If your code is already on your machine, you can open it by using **File** > **Open** > **Project/Solution** (or **Folder**) and Visual Studio automatically detects if it has an initialized Git repository.
 - [Create a new Git repository](#create-a-new-git-repository). If your code is not associated with Git, you can create a new Git repository.
@@ -178,16 +174,23 @@ To personalize and customize your Git settings at a repository level as well as 
 
 :::image type="content" source="media/git-options-settings.png" alt-text="Screenshot of the Options dialog box where you can choose personalization and customization settings in Visual Studio IDE ":::
 
+## How to use legacy Team Explorer experience in Visual Studio
+
+The new Git experience is the default version control system in Visual Studio 2019 from [version 16.8](/visualstudio/releases/2019/release-notes/) onwards. However, if you want to turn it off, you can. Go to **Tools** > **Options** > **Environment** > **Preview Features** and then toggle the **New Git user experience** checkbox, which will switch you back to the legacy Team Explorer experience. If you do so, please [send us feedback](https://aka.ms/vsfeedback) on what didn’t work for you.
+
+:::image type="content" source="media/git-opt-new-user-experience.png" alt-text="Screenshot of the Preview Features section of the Options dialog box in Visual Studio ":::
+
 ## What's next
 
-Stay tuned; we’ll update this page as we continue to refine the new Git experience in Visual Studio 2019.
+While the new Git experience is now on by default in Visual Studio 2019 [version 16.8](/visualstudio/releases/2019/release-notes/), we continue to add new features to enhance the experience. If you'd like to check out new updates to the Git experience in a Preview releases, you can download a copy from the [Visual Studio Preview](https://aka.ms/vspreview/) page.
 
 > [!IMPORTANT]
 > If you have a suggestion for us, please let us know! We appreciate the opportunity to engage with you on design decisions via the [**Developer Community**](https://aka.ms/vs-suggest) portal.
 
 ## See also
 
-- [The new Git experience](https://channel9.msdn.com/Shows/Visual-Studio-Toolbox/The-New-Git-Experience) video on Channel 9 and [YouTube](https://www.youtube.com/watch?v=ZiQ2LXtAJ6I&feature=youtu.be)
+- [The launch of the new Git experience](https://www.youtube.com/watch?v=UHrAg3iKoe0&t) on YouTube
+- [The Visual Studio Toolbox series presents: The new Git experience](https://channel9.msdn.com/Shows/Visual-Studio-Toolbox/The-New-Git-Experience) video on Channel 9 and on [YouTube](https://www.youtube.com/watch?v=ZiQ2LXtAJ6I&feature=youtu.be)
 - [Exciting new updates to the Git experience in Visual Studio](https://devblogs.microsoft.com/visualstudio/exciting-new-updates-to-the-git-experience-in-visual-studio/) blog post
 - [Improved Git Experience in Visual Studio 2019](https://devblogs.microsoft.com/visualstudio/improved-git-experience-in-visual-studio-2019/) blog post
 - [Visual Studio 2019 release notes](/visualstudio/releases/2019/release-notes)
