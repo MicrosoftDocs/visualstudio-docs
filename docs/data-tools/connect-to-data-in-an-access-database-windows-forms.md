@@ -1,5 +1,7 @@
 ---
 title: Connect to data in an Access database
+description: Understand how to connect to data in an Access database (either an .mdb file or an .accdb.file) in Visual Studio.
+ms.custom: SEO-VS-2020
 ms.date: 07/18/2019
 ms.topic: how-to
 helpviewer_keywords:
