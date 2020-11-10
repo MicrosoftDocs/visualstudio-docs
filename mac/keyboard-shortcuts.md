@@ -250,9 +250,9 @@ that have prior experience with Visual Studio when using Windows.
 |Next Document|**⌘}**, **⌘F6**|
 |Previous Document|**⌘{**, **⇧⌘F6**|
 |Switch to next document|**⌃⇥**|
-|Switch to next pad|**⌃⌥⇥**|
+|Switch to next tool window|**⌃⌥⇥**|
 |Switch to previous document|**⌃⇧⇥**|
-|Switch to previous pad|**⌃⌥⇧⇥**|
+|Switch to previous tool window|**⌃⌥⇧⇥**|
 
 ## macOS key symbols lookup
 

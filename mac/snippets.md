@@ -1,9 +1,9 @@
 ---
 title: "Code Snippets"
 description: "How to use code snippets to program efficiently in Visual Studio for Mac"
-author: cobey
-ms.author: cobey
-ms.date: 02/07/2019
+author: jmatthiesen
+ms.author: jomatthi
+ms.date: 11/09/2020
 ms.assetid: 0FE27C0C-A861-4133-A74E-8D0505CF5342
 ---
 
@@ -21,7 +21,7 @@ There are some different ways to add code snippets, some of which are described 
 
   ![Tab Expansion in Code](media/source-editor-image13.png)
 
-- **Toolbox** &ndash; Use the toolbox pad to display a list of all code snippets. Drag any template from the toolbox into the correct position in the source code:
+- **Toolbox** &ndash; Use the Toolbox Window to display a list of all code snippets. Drag any template from the toolbox into the correct position in the source code:
 
   [![Code snippets in Toolbox](media/source-editor-image14-sml.png)](media/source-editor-image14.png#lightbox)
 
