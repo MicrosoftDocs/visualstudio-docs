@@ -94,7 +94,7 @@ Tool Windows can be pinned and closed by the controls in the top-right corner of
 
 ![Using controls to pin or close tool windows](media/customizing-the-ide-image5a.png)
 
-Pinned windows are docked to the sides of the workspace and remain open making them easily accessible when they are required. Unpinned windows are docked, but not shown until you hover over the tab for the window with a mouse or focus with the keyboard; they can be hidden when the mouse and keyboard focus leaves it.
+Pinned windows are docked to the sides of the workspace and remain open for quicker access when you need them. Unpinned windows are docked, but not shown until you hover over the tab for the window with a mouse or focus with the keyboard; they can be hidden when the mouse and keyboard focus leaves them.
 
 ### Organizing layouts
 
