@@ -2,7 +2,7 @@
 title: "What's new in Visual Studio 2019"
 titleSuffix: ""
 description: "Learn about the new features in Visual Studio 2019."
-ms.date: 08/21/2020
+ms.date: 11/10/2020
 helpviewer_keywords:
   - "Visual Studio, what's new"
   - "what's new [Visual Studio]"
@@ -18,14 +18,10 @@ ms.workload:
 ---
 # What's new in Visual Studio 2019
 
-**Updated for the [16.7 release](/visualstudio/releases/2019/release-notes/)**
+**Updated for the [16.8 release](/visualstudio/releases/2019/release-notes/)**
 
 >[!div class="button"]
 >[Download Visual Studio 2019](https://visualstudio.microsoft.com/downloads)
-
-Visual Studio is constantly changing to meet the demands of developers. In the following video from the **[Microsoft Build](https://mybuild.microsoft.com/)** library, join us for a tour of some of the [newest features](/visualstudio/releases/2019/release-notes/) and a [sneak peek](/visualstudio/releases/2019/release-notes-preview/) at what's to come: <br><br>*Video length: 44.58 minutes*
-
-> [!VIDEO https://channel9.msdn.com/Events/Build/2020/BOD111/player]
 
 With Visual Studio 2019, you'll get best-in-class tools and services for any developer, any app, and any platform. Whether you're using Visual Studio for the first time or you've been using it for years, there's a lot to like in our latest version!
 
@@ -132,6 +128,12 @@ The start window also includes options to open a project or solution, open a loc
 
 For more information, see the [Get to code: How we designed the new Visual Studio start window](https://devblogs.microsoft.com/visualstudio/get-to-code-how-we-designed-the-new-visual-studio-start-window/) blog post.
 
+### Git productivity
+
+**New in 16.8** Git is now the default version control experience in Visual Studio 2019. We have spent the last two releases building out the feature set and iterating based on your feedback. The experience has now been turned on by default for everyone. From the new Git menu, you can clone, create, or open repositories. Use the integrated Git tool windows to commit and push changes to your code, manage branches, stay up to date with your remote repositories, and resolve merge conflicts.
+
+For more information, see the [Git productivity in Visual Studio](git-with-visual-studio.md) page.
+
 ### Live Share
 
 [Visual Studio Live Share](https://visualstudio.microsoft.com/services/live-share/) is a developer service that allows you to share a codebase and its context with a teammate and get instant bidirectional collaboration directly from within Visual Studio. With Live Share, a teammate can read, navigate, edit, and debug a project that you've shared with them, and do so seamlessly and securely.
@@ -216,11 +218,11 @@ Meanwhile, here are a few of our new features currently in the works.
 
 - **Improved Git experience in Visual Studio 2019 (Preview)**
 
-   We continue to iterate on a revamped Git experience to improve your productivity when working with code on GitHub, Azure Repos, and other remote hosting services. You can initialize and push from within Visual Studio 2019 with a single action (or click). You can also create new branches, manage current branches, and resolve merge conflicts.
+   Although the new Git version control experience is now on by default in Visual Studio 2019 [version 16.8](/visualstudio/releases/2019/release-notes/), we continue to add new features to enhance the experience in the newest Preview release.
 
-   For more information, see the [New Git experience in Visual Studio](git-with-visual-studio.md) page.
+   For more information, see the [Git productivity in Visual Studio](git-with-visual-studio.md) page.
 
-For more information about the Preview release&mdash;and a download link if you'd like to try it out&mdash;see the **[Visual Studio Preview](https://visualstudio.microsoft.com/vs/preview/)** page.
+For more information about the Preview release&mdash;and a download link if you'd like to try it out&mdash;see the **[Visual Studio Preview](https://aka.ms/vspreview/)** page.
 
 ## Give us feedback
 
