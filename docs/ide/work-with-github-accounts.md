@@ -40,3 +40,9 @@ If you're not already signed in to Visual Studio with a different account, look 
 ![Not signed in user](../ide/media/vs2019_usernotsignedin.png)
 
 ## Adding GitHub enterprise accounts
+
+By default, Visual Studio only has public GitHub accounts enabled. To enable GitHub enterprise accounts, go to **Tools** > **Options** and search for the **Accounts** options.
+
+![Accounts options menu](../ide/media/accounts-options.png)
+
+Then, check the box to **Include GitHub Enterprise Server accounts**.
