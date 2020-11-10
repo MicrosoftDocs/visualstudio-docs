@@ -44,14 +44,15 @@ You can use the **Publish** tool to publish ASP.NET, ASP.NET Core, .NET Core, an
 
 ::: moniker range=">=vs-2019"
 
-1. If you are deploying a .NET Core 3.1, or newer, Windows Application you may need to select **Folder** in the **Specific target** window.
+4. If you are deploying a .NET Core 3.1, or newer, Windows Application you may need to select **Folder** in the **Specific target** window.
 
 ![Choose folder as specific target](../deployment/media/quickstart-publish-folder-targets.png "Choose Specific Target")
 
-1. If you wish to publish a .NET Core 3.1, or newer, Windows application with ClickOnce, see [Deploy a .NET Windows application using ClickOnce](quickstart-deploy-using-clickonce-folder.md).
+5. If you wish to publish a .NET Core 3.1, or newer, Windows application with ClickOnce, see [Deploy a .NET Windows application using ClickOnce](quickstart-deploy-using-clickonce-folder.md).
+
  ::: moniker-end
 
-1. Enter a path or select **Browse** to specify a folder.
+4. Enter a path or select **Browse** to specify a folder.
 
     ![Specify the path to the folder](../deployment/media/quickstart-publish-folder-path.png "Choose Folder")
 

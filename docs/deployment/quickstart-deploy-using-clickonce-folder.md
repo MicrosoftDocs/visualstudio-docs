@@ -60,7 +60,7 @@ Also in this page, you can also set the Publish version and if the version will 
 > [!NOTE]
 > The Publish version number is unique for each ClickOnce profile. If you plan on having more then one profile, you will need to keep this in mind.
 
-1. In the **Sign manifests** page, you can specify if the manifests should be signed and which certificate to use.
+10. In the **Sign manifests** page, you can specify if the manifests should be signed and which certificate to use.
 
     ![Sign the ClickOnce Manifests](../deployment/media/quickstart-clickonce-sign-manifests.png)
 

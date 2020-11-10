@@ -115,7 +115,7 @@ ms.workload:
  No prompting for trust levels will occur if you use Trusted Application Deployment. For more information, see [Trusted application deployment overview](../deployment/trusted-application-deployment-overview.md).
 
 ## See also
- \<xref:System.Deployment.Application>
+- <xref:System.Deployment.Application>
 - [ClickOnce security and deployment](../deployment/clickonce-security-and-deployment.md)
 - [Choose a ClickOnce deployment strategy](../deployment/choosing-a-clickonce-deployment-strategy.md)
 - [Secure ClickOnce applications](../deployment/securing-clickonce-applications.md)

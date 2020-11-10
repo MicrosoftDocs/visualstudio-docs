@@ -174,7 +174,6 @@ For .NET windows applications, this setting remains in the project file
 ::: moniker-end
 
 - `UpdateIntervalUnits` specifies whether the `UpdateInterval` value is in units of hours, days, or weeks.
-   This setting i
 ::: moniker range=">=vs-2019"
    For .NET Core 3.1, or later, this setting is not supported.
 ::: moniker-end
