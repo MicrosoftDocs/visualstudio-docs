@@ -46,7 +46,7 @@ Here's a full list of what you can expect and what you can do after you sign in:
 
 ## How to sign in to Visual Studio
 
-When you open Visual Studio for the first time, you're asked to sign in and provide some basic registration information. 
+When you open Visual Studio for the first time, you're asked to sign in and provide some basic registration information.
 
 ![Sign-in prompt](../ide/media/vs2019_signinpopup.png)
 
@@ -58,7 +58,7 @@ After you provide the settings, Visual Studio starts, and you're signed in and r
 
 ![Currently logged in user in VS2019](../ide/media/vs2019_username.png)
 
-If you choose not to sign in when you first open Visual Studio, it's easy to do so later. Look for the **Sign in** link in the upper-right corner of the Visual Studio environment. 
+If you choose not to sign in when you first open Visual Studio, it's easy to do so later. Look for the **Sign in** link in the upper-right corner of the Visual Studio environment.
 
 ![Not signed in user](../ide/media/vs2019_usernotsignedin.png)
 
