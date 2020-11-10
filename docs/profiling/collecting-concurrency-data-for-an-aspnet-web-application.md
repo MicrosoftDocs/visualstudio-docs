@@ -49,5 +49,5 @@ The concurrency method of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.m
 
 - [Concurrency Visualizer](../profiling/concurrency-visualizer.md)
 
-## Reference
+## See also
 - [Command-line profiling tools reference](../profiling/command-line-profiling-tools-reference.md)
