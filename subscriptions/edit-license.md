@@ -35,7 +35,7 @@ Watch this video or read on to learn how to edit multiple subscribers using bulk
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4vkAF]
 
 > [!NOTE]
-> Do not change subscription GUIDs in the template. Please see our article about [assigning specific subscription GUIDs](assign-guid.ms).
+> Do not change subscription GUIDs in the template. Please see our article about [assigning specific subscription GUIDs](assign-guid.md).
 
 1. To edit multiple subscribers at once, navigate to the Subscribers tab. In the ribbon at the top, click **Bulk Edit**.
 
