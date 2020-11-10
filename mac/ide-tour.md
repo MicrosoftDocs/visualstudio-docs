@@ -53,7 +53,7 @@ The following image shows Visual Studio for Mac with an application loaded:
 
 The following sections provide an overview of the major areas in Visual Studio for Mac.
 
-## Solution window
+## Solution Window
 
 The Solution Window organizes the project(s) in a solution:
 
