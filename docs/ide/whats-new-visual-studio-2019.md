@@ -130,7 +130,7 @@ For more information, see the [Get to code: How we designed the new Visual Studi
 
 ### Git productivity
 
-**New in 16.8** Git is now the default version control experience in Visual Studio 2019. We have spent the last two releases building out the feature set and iterating based on your feedback. The experience has now been turned on by default for everyone. From the new Git menu, you can clone, create, or open repositories. Use the integrated Git tool windows to commit and push changes to your code, manage branches, stay up to date with your remote repositories, and resolve merge conflicts.
+**New in 16.8** Git is now the default version control experience in Visual Studio 2019. We have built out the feature set and iterated on it based on your feedback during the past two releases. The new experience has now been turned on by default for everyone. From the new Git menu, you can clone, create, or open repositories. Use the integrated Git tool windows to commit and push changes to your code, manage branches, stay up to date with your remote repositories, and resolve merge conflicts.
 
 For more information, see the [Git productivity in Visual Studio](git-with-visual-studio.md) page.
 
@@ -218,7 +218,7 @@ Meanwhile, here are a few of our new features currently in the works.
 
 - **Improved Git experience in Visual Studio 2019 (Preview)**
 
-   Although the new Git version control experience is now on by default in Visual Studio 2019 [version 16.8](/visualstudio/releases/2019/release-notes/), we continue to add new features to enhance the experience in the newest Preview release.
+   Although the new Git version control experience is now on by default in Visual Studio 2019 [version 16.8](/visualstudio/releases/2019/release-notes/), we continue to add features to enhance the experience in the newest Preview release.
 
    For more information, see the [Git productivity in Visual Studio](git-with-visual-studio.md) page.
 
