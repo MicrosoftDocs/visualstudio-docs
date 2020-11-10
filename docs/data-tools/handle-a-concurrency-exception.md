@@ -177,7 +177,7 @@ Add the following code below the code that was added in the previous section:
 [!code-csharp[VbRaddataConcurrency#3](../data-tools/codesnippet/CSharp/handle-a-concurrency-exception_4.cs)]
 [!code-vb[VbRaddataConcurrency#3](../data-tools/codesnippet/VisualBasic/handle-a-concurrency-exception_4.vb)]
 
-## Test the form
+## Test the form behavior
 
 You can now test the form to make sure it behaves as expected. To simulate a concurrency violation, you change data in the database after filling the NorthwindDataSet.
 
