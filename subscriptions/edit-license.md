@@ -34,6 +34,8 @@ Watch this video or read on to learn how to edit multiple subscribers using bulk
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4vkAF]
 
+> [!NOTE]
+> Do not change subscription GUIDs in the template. Please see our article about [assigning specific subscription GUIDs](assign-guid.md).
 
 1. To edit multiple subscribers at once, navigate to the Subscribers tab. In the ribbon at the top, click **Bulk Edit**.
 
@@ -41,7 +43,7 @@ Watch this video or read on to learn how to edit multiple subscribers using bulk
    > [!div class="mx-imgBorder"]
    > ![Editing a License - Export Bulk Edits List](_img/edit-license/edit-license-bulk-edit-export.png "Click Export this excel to create a list of your current subscriptions.")
 
-3. Next, save the file locally so you can easily find it and make any necessary changes prior to uploading it. To ensure a successful upload, **don’t edit the subscription level or the subscription GUID** in the Bulk edit file as doing so will cause the upload to fail.
+3. Next, save the file locally so you can easily find it and make any necessary changes prior to uploading it. 
 
 4. Return to the Visual Studio Subscriptions Administration portal and in the Bulk Edit dialog box, click **Browse**. Select the Excel file you saved and click **OK**. You will see the upload progress on the screen.
    > [!div class="mx-imgBorder"]
