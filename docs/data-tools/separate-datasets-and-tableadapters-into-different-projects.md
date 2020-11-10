@@ -1,6 +1,6 @@
 ---
 title: Use separate projects error
-description: Separate datasets and TableAdapters into different projects
+description: Learn how to separate datasets and TableAdapters into different projects, so you can quickly separate application layers and generate N-tier data applications.
 ms.date: 11/04/2016
 ms.topic: how-to
 ms.custom: SEO-VS-2020
