@@ -1,6 +1,6 @@
 ---
 title: Workflow Designer - FlowSwitch&lt;T&gt; Activity Designer
-description: Learn how the FlowSwitch&lt;T&gt; activity is a conditional node that provides branching for the flow of control based on match criterion. 
+description: Learn how the FlowSwitch <T> activity is a conditional node that provides branching for the flow of control based on match criterion. 
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference

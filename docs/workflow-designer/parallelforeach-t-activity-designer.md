@@ -1,6 +1,6 @@
 ---
 title: "Workflow Designer - ParallelForEach&lt;T&gt; Activity Designer"
-description: Learn how the ParallelForEach&lt;T&gt; activity enumerates the elements of a collection and executes an embedded statement for each element of the collection in parallel. 
+description: Learn how the ParallelForEach <T> activity enumerates the elements of a collection and executes an embedded statement for each element of the collection in parallel. 
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
