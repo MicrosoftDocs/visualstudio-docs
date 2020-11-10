@@ -17,7 +17,7 @@ ms.workload:
 
 A *change wave* is a set of behavior changes in MSBuild that you can opt out of by specifying a particular flag as an environment variable. The purpose of this is to warn you of potentially disruptive changes that will become standard functionality later, so that you have a time period of flexibility for adapting to these changes before they become standard functionality. All the features in a specific change wave can only be enabled or disabled together, not individually.
 
-When you upgrade to a new version of MSBuild, changes that are potentially breaking are enabled by default, but if a feature affects your build negatively, you can easily disable that wave of changes. Disabling a change wave also disables change waves of higher versions.
+When you upgrade to a new version of MSBuild, changes that are potentially breaking are enabled by default, but if a feature affects your build negatively, you can easily disable that wave of changes. Each change wave is identified by an MSBuild version number (for example, 16.8). Disabling a change wave also disables change waves of higher versions.
 
 ## Opt out of change wave features
 
@@ -25,7 +25,7 @@ To disable the features in a change wave, set the environment variable `MSBuildD
 
 ### MSBuildDisableFeaturesFromVersion Values
 
-When setting `MSBuildDisableFeaturesFromVersion` to a particular value, you might get a warning if you don't set it to a specific change wave. The following table shows the possible settings:
+When you set `MSBuildDisableFeaturesFromVersion` to a particular value, you might get a warning if you don't set it to a specific change wave. The following table shows the possible settings:
 
 | `MSBuildDisableFeaturesFromVersion` Value                         | Result        | Receive Warning? |
 | :-------------                                                    | :----------   | :----------: |
@@ -58,5 +58,6 @@ There are no entries yet in this change wave.
 There are no out of rotation change waves at this time.
 
 ## See also
+
 - [MSBuild](msbuild.md)
 - [What's new in MSBuild 16](whats-new-msbuild-16-0.md)
