@@ -28,7 +28,7 @@ MSBuild 16.0](https://github.com/microsoft/msbuild/releases/tag/v16.0.461.62831)
 
 ## Change waves
 
-Starting with MSBuild 16.8, you can selectively choose whether to adopt certain potentially disruptive changes in MSBuild. See [Change waves](change-waves.md).
+Starting with MSBuild 16.8, you can selectively choose whether to opt out of certain potentially disruptive changes in MSBuild. See [Change waves](change-waves.md).
 
 ## Updates
 

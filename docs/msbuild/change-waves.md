@@ -15,9 +15,9 @@ ms.workload:
 ---
 # Change waves
 
-A *change wave* is a set of behavior changes in MSBuild that you can opt out of by specifying a particular flag as an environment variable. The purpose of this is to warn you of potentially disruptive changes that will become standard functionality later, so that you have greater flexibility in adapting to the changes. All the features in a specific change wave can only be enabled or disabled together, not individually.
+A *change wave* is a set of behavior changes in MSBuild that you can opt out of by specifying a particular flag as an environment variable. The purpose of this is to warn you of potentially disruptive changes that will become standard functionality later, so that you have a time period of flexibility for adapting to these changes before they become standard functionality. All the features in a specific change wave can only be enabled or disabled together, not individually.
 
-When you upgrade to a new version of MSBuild, changes that are potentially breaking are enabled by default, but if a feature affects your build negatively, you can easily disable that wave of changes. Disabling the changes in the change wave allows you more time to update your build before enabling the new features, while still using the newer version of MSBuild.
+When you upgrade to a new version of MSBuild, changes that are potentially breaking are enabled by default, but if a feature affects your build negatively, you can easily disable that wave of changes. Disabling a change wave also disables change waves of higher versions.
 
 ## Opt out of change wave features
 
@@ -25,10 +25,12 @@ To disable the features in a change wave, set the environment variable `MSBuildD
 
 ### MSBuildDisableFeaturesFromVersion Values
 
+When setting `MSBuildDisableFeaturesFromVersion` to a particular value, you might get a warning if you don't set it to a specific change wave. The following table shows the possible settings:
+
 | `MSBuildDisableFeaturesFromVersion` Value                         | Result        | Receive Warning? |
 | :-------------                                                    | :----------   | :----------: |
 | Unset                                                             | Enable all change waves, meaning all features behind each change wave are enabled.               | No   |
-| Any valid and current change Wave (Ex: `16.8`)                      | Disable all features behind change wave `16.8` and higher.                                           | No   |
+| Any valid and current change Wave (for example, `16.8`)                      | Disable all features behind change wave `16.8` **and higher**.                                           | No   |
 | Invalid Value (for example, `16.9` when valid waves are `16.8` and `16.10`)| Default to the closest valid value (ascending). For example, setting `16.9` will default you to `16.10`.               | No   |
 | Out of Rotation (for example, `17.1` when the highest wave is `17.0`)      | Clamp to the closest valid value. For example, `17.1` clamps to `17.0`, and `16.5` clamps to `16.8`                    | Yes  |
 | Invalid Format (for example, `16x8`, `17_0`, `garbage`)                    | Enable all change waves, meaning all features behind each change wave are enabled.               | Yes  |
