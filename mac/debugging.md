@@ -10,7 +10,7 @@ ms.topic: overview
 ---
 # Debugging with Visual Studio for Mac
 
-Visual Studio for Mac has debuggers with support for .Net Core, .NET Framework, Unity, and Xamarin applications.
+Visual Studio for Mac has debuggers with support for .NET Core, .NET Framework, Unity, and Xamarin applications.
 
 Visual Studio for Mac uses the [*Mono Soft Debugger*](https://www.mono-project.com/docs/advanced/runtime/docs/soft-debugger/), which is implemented into the Mono runtime, allowing Visual Studio for Mac to debug managed code across all platforms.
 

@@ -17,7 +17,7 @@ Visual Studio for Mac provides two means of adding additional references to your
 These are:
 
 * References
-* NuGets (Added via the Packages folder)
+* NuGet packages (Added via the Packages folder)
 
 In addition, Web References and native references can also be added to any project.
 

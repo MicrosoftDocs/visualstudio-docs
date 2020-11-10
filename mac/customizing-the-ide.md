@@ -92,7 +92,7 @@ For frequently used tool windows, you can also completely detach them from the V
 
 Tool Windows can be pinned and closed by the controls in the top-right corner of each window:
 
-![Using controls to pin or close tool windows](media/customizing-the-ide-image5a.png)
+:::image type="content" source="media/customizing-the-ide-image5a.png" alt-text="Using controls to pin or close tool windows":::
 
 Pinned windows are docked to the sides of the workspace and remain open for quicker access when you need them. Unpinned windows are docked, but not shown until you hover over the tab for the window with a mouse or focus with the keyboard; they can be hidden when the mouse and keyboard focus leaves them.
 
