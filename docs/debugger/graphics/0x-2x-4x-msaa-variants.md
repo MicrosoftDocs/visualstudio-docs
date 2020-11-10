@@ -48,7 +48,7 @@ Overrides multi-sample anti-aliasing (MSAA) settings on all render targets and s
 
  When playback detects these kinds of conflicts, it makes a best effort to replicate the intended behavior, but it might not be possible to match its results exactly. Although it's uncommon for this to affect the performance of these variants in a way that misrepresents their impact, it is possible—for example, when flow control in a pixel shader is determined by the precise content of a texture—because the replicated texture might not have identical contents.
 
-## Example
+## Example 1
  These variants can be reproduced for render targets created by using `ID3D11Device::CreateTexture2D` by using code like this:
 
 ```cpp
@@ -59,7 +59,7 @@ target_description.SampleDesc.Quality = 0;
 d3d_device->CreateTexture2D(&target_description, nullptr, &render_target);
 ```
 
-## Example
+## Example 2
  Or for swap chains created by using IDXGISwapChain::CreateSwapChain or D3D11CreateDeviceAndSwapChain by using code like this:
 
 ```cpp
