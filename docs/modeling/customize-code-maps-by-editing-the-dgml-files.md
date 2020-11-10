@@ -1,5 +1,7 @@
 ---
 title: Customize code maps by editing the DGML files
+description: Learn that when you customize a code map, you must edit its Directed Graph Markup Language (.dgml) file.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:

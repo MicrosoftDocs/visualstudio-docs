@@ -1,5 +1,7 @@
 ---
 title: Accessing Visual Studio or other Hosts from a Text Template
+description: Learn how, in a text template, you can use methods and properties that are exposed by the host that executes the template.
+ms.custom: SEO-VS-2020
 titleSuffix: ''
 ms.date: 11/04/2016
 ms.topic: how-to

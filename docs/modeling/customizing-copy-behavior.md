@@ -1,5 +1,7 @@
 ---
 title: Customizing Copy Behavior
+description: Learn that in a DSL created with the Visual Studio Visualization and Modeling SDK, you can alter what happens when the user copies and pastes elements.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 author: JoshuaPartlow

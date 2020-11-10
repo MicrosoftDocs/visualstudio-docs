@@ -1,5 +1,7 @@
 ---
 title: Deploying a Custom Directive Processor
+description: Learn that to use a custom directive processor in Visual Studio on any computer, you must register it by one of the methods described in this topic.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
