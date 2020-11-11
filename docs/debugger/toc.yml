@@ -345,7 +345,7 @@
     - name: Debug .NET Core on Linux
       href: remote-debugging-dotnet-core-linux-with-ssh.md
     - name: Attach to a process running in a Docker container
-      href: 
+      href: attach-to-process-running-in-docker-container.md
   - name: Multithreaded app debugging
     items:
     - name: Debug multithreaded applications

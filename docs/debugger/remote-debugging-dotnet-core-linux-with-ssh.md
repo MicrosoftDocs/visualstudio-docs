@@ -12,7 +12,7 @@ ms.workload:
 ---
 # Debug .NET Core on Linux using SSH by attaching to a process
 
-Starting in Visual Studio 2017, you can attach to .NET Core processes running on a local or remote Linux deployment over SSH. This article describes how to set up debugging and how to debug.
+Starting in Visual Studio 2017, you can attach to .NET Core processes running on a local or remote Linux deployment over SSH. This article describes how to set up debugging and how to debug. For Docker scenarios, see[Attach to a process running on a Docker container](../debugger/attach-to-process-running-in-docker-container.md) instead.
 
 ## Prerequisites
 
@@ -23,6 +23,8 @@ Starting in Visual Studio 2017, you can attach to .NET Core processes running on
   ``` cmd
   sudo apt-get install openssh-server unzip curl
   ```
+
+- For comprehensive instructions on ASP.NET Core deployment, see [Host ASP.NET Core on Linux with Nginx](/aspnet/core/host-and-deploy/linux-nginx) and [Host ASP.NET Core on Linux with Apache](/aspnet/core/host-and-deploy/linux-apache).
 
 ## Prepare your application for debugging
 
@@ -39,8 +41,6 @@ You can use several methods to deploy the app prior to debugging. For example, y
 - Copy sources to the target computer and build with ```dotnet build``` on the Linux machine.
 
 - Build the app on Windows, and then transfer the build artifacts to the Linux machine. (The build artifacts consist of the application itself, the portable PDBs, any runtime libraries it might depend on, and the *.deps.json* file.)
-
-- For comprehensive instructions on ASP.NET Core deployment, see [Host ASP.NET Core on Linux with Nginx](/aspnet/core/host-and-deploy/linux-nginx), [Host ASP.NET Core on Linux with Apache](/aspnet/core/host-and-deploy/linux-apache), or [Host ASP.NET Core on Docker](/aspnet/core/host-and-deploy/docker/).
 
 ## Attach the debugger
 
