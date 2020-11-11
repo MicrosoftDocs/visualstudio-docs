@@ -57,6 +57,20 @@ There are no entries yet in this change wave.
 
 There are no out of rotation change waves at this time.
 
+## FAQ
+
+**Why target every other release for rotating change waves out?**
+
+We believe this is enough time to have discussions with those affected and assist with adapting to the changes.
+
+**Why an environment variable and not a project property?**
+
+There are scenarios where we want to place a feature under a change wave before MSBuild has loaded the project. For that reason, change waves require using environment variables.
+
+**Why opt-out over opt-in?**
+
+Opt-out is a better approach for us, otherwise we'd likely get limited feedback when a feature impacts customer builds.
+
 ## See also
 
 - [MSBuild](msbuild.md)
