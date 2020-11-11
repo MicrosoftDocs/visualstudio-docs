@@ -18,14 +18,14 @@ The XSLT Profiler creates detailed XSLT performance reports that help measure, e
 
 The XSLT Profiler is part of Visual Studio and is available on the **XML** menu.
 
-![XSLT Profiler](../xml-tools/media/profile-xslt-menu.png)
+![XSLT Profiler](../xml-tools/media/profile-xslt-menu.png "Screenshot of the XML menu items in Visual Studio 2017")
 
 > [!NOTE]
 > The XSLT Profiler is only available in the Enterprise edition of Visual Studio 2017.
 
 ## Create a performance report
 
-1. Open an XSLT document in Visual Studio.
+1. Open an XSLT document in Visual Studio 2017.
 
 2. On the menu bar, choose **XML** > **Profile XSLT**.
 
