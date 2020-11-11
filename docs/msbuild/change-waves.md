@@ -15,22 +15,22 @@ ms.workload:
 ---
 # Change waves
 
-A *change wave* is a set of behavior changes in MSBuild that you can opt out of by specifying a particular flag as an environment variable. The purpose of this is to warn you of potentially disruptive changes that will become standard functionality later, so that you have a time period of flexibility for adapting to these changes before they become standard functionality. All the features in a specific change wave can only be enabled or disabled together, not individually.
+A *change wave* is a set of behavior changes in MSBuild that you can opt out of by specifying a particular flag as an environment variable. The purpose of this is to warn you of potentially disruptive changes so that you have flexibility in adapting to these changes before they become standard functionality. All the features in a specific change wave can only be enabled or disabled together, not individually.
 
 When you upgrade to a new version of MSBuild, changes that are potentially breaking are enabled by default, but if a feature affects your build negatively, you can easily disable that wave of changes. Each change wave is identified by an MSBuild version number (for example, 16.8), but setting the change wave only controls certain features that have the potential to affect the build process, not all the changes in that MSBuild version. A list of the features in each change wave appears [later in this article](#change-waves-and-associated-features). Disabling a change wave also disables change waves of higher versions.
 
 ## Opt out of change wave features
 
-To disable the features in a change wave, set the environment variable `MSBuildDisableFeaturesFromVersion` to the change wave (or MSBuild version) that contains the feature you want **disabled**. This version happens to be the version of MSBuild that the features were developed for. See the mapping of change waves to features below.
+To disable the features in a change wave, set the environment variable `MSBuildDisableFeaturesFromVersion` to the change wave (or MSBuild version) that contains the feature you want **disabled**. This is the version of MSBuild that the features were developed for. See the mapping of change waves to features below.
 
 ### MSBuildDisableFeaturesFromVersion Values
 
-When you set `MSBuildDisableFeaturesFromVersion` to a particular value, you might get a warning if you don't set it to a specific change wave. The following table shows the possible settings:
+You will receive a warning and/or default to a specific wave if you don't set `MSBuildDisableFeaturesFromVersion` to a valid change wave. The following table shows the possible settings:
 
 | `MSBuildDisableFeaturesFromVersion` Value                         | Result        | Receive Warning? |
 | :-------------                                                    | :----------   | :----------: |
 | Unset                                                             | Enable all change waves, meaning all features behind each change wave are enabled.               | No   |
-| Any valid and current change Wave (for example, `16.8`)                      | Disable all features behind change wave `16.8` **and higher**.                                           | No   |
+| Any valid and current change wave (for example, `16.8`)                      | Disable all features behind change wave `16.8` **and higher**.                                           | No   |
 | Invalid Value (for example, `16.9` when valid waves are `16.8` and `16.10`)| Default to the closest valid value (ascending). For example, setting `16.9` will default you to `16.10`.               | No   |
 | Out of Rotation (for example, `17.1` when the highest wave is `17.0`)      | Clamp to the closest valid value. For example, `17.1` clamps to `17.0`, and `16.5` clamps to `16.8`                    | Yes  |
 | Invalid Format (for example, `16x8`, `17_0`, `garbage`)                    | Enable all change waves, meaning all features behind each change wave are enabled.               | Yes  |
