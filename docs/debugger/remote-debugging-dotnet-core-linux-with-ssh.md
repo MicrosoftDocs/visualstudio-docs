@@ -1,5 +1,5 @@
 ---
-title: "Remote debug .NET Core on Linux | Microsoft Docs"
+title: "Debug .NET Core on Linux"
 ms.date: "02/26/2020"
 ms.topic: "conceptual"
 helpviewer_keywords:
@@ -10,7 +10,7 @@ manager: jillfra
 ms.workload:
   - "multiple"
 ---
-# Remote debug .NET Core on Linux using SSH
+# Debug .NET Core on Linux using SSH by attaching to a process
 
 Starting in Visual Studio 2017, you can attach to .NET Core processes running on Linux over SSH. This article describes how to set up debugging and how to debug.
 
