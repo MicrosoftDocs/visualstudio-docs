@@ -3,7 +3,7 @@ title: "How to: Open multiple solutions"
 description: Learn how to open more than one solution in Visual Studio for Mac, and how to open more than one instance of the application.
 author: heiligerdankgesang
 ms.author: dominicn
-ms.date: 04/02/2019
+ms.date: 11/09/2020
 ms.assetid: 592BA4E3-8DEF-4FCD-8BA0-519A4CEEE03E
 ms.custom: video
 ms.topic: how-to
@@ -35,7 +35,7 @@ To open a second solution alongside your first solution, use the following steps
 
     ![Screenshot of Options dialog box, with Close current workspace box cleared](media/open-multiple-solutions-image1.png)
 
-5. Select **Open** to open the second solution in the Solution Pad.
+5. Select **Open** to open the second solution in the Solution Window.
 
 Alternatively, if you've recently opened the solution, you can use the following steps:
 
@@ -43,7 +43,7 @@ Alternatively, if you've recently opened the solution, you can use the following
 
     ![Screenshot of Recent Solutions menu](media/open-multiple-solutions-image2.png)
 
-1. Hold down the **Ctrl** key and select the solution. This combination opens the second solution in the Solution Pad.
+1. Hold down the **Ctrl** key and select the solution. This combination opens the second solution in the Solution Window.
 
 ## Related Video
 

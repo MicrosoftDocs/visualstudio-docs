@@ -1,5 +1,6 @@
 ---
 title: Publish to Azure App Service
+description: How to publish a web application using the publishing tools in Visual Studio for Mac.
 ms.date: 04/02/2019
 helpviewer_keywords:
   - "deployment, website"
@@ -25,7 +26,7 @@ You can use the Publish tool to publish ASP.NET Core apps to Azure App Service.
 
 ## Publish to Azure App Service
 
- 1. In the Solution Pad, right-click the project and choose **Publish**.
+ 1. In the Solution Window, right-click the project and choose **Publish**.
 
     ![Publish context menu](media/publish-context-menu.png)
 

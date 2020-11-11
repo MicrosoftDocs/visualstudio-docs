@@ -88,7 +88,7 @@ Visual Studio also makes it easy to commit and sync with one click by using the 
 :::image type="content" source="media/git-file-version-compare.png" alt-text="Screenshot of the line-by-line comparison of file versions in Visual Studio ":::
 
 > [!TIP]
-> You can associate Azure DevOps work item with a commit by using the "#" character if you are connected to the Azure DevOps repository. You can connect your Azure DevOps repository through **Team Explorer** > **Manage Connections**.
+> You can associate an Azure DevOps work item with a commit by using the "#" character if you are connected to the Azure DevOps repository. You can connect your Azure DevOps repository through **Team Explorer** > **Manage Connections**.
 
 ### Select an existing branch
 
@@ -174,7 +174,7 @@ To personalize and customize your Git settings at a repository level as well as 
 
 :::image type="content" source="media/git-options-settings.png" alt-text="Screenshot of the Options dialog box where you can choose personalization and customization settings in Visual Studio IDE ":::
 
-## How to use legacy Team Explorer experience in Visual Studio
+## How to use the legacy Team Explorer experience in Visual Studio
 
 The new Git experience is the default version control system in Visual Studio 2019 from [version 16.8](/visualstudio/releases/2019/release-notes/) onwards. However, if you want to turn it off, you can. Go to **Tools** > **Options** > **Environment** > **Preview Features** and then toggle the **New Git user experience** checkbox, which will switch you back to the legacy Team Explorer experience.
 
