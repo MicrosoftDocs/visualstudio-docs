@@ -21,7 +21,7 @@ When you upgrade to a new version of MSBuild, changes that are potentially break
 
 ## Opt out of change wave features
 
-To disable the features in a change wave, set the environment variable `MSBuildDisableFeaturesFromVersion` to the change wave (or MSBuild version) that contains the feature you want **disabled**. This version happens to be the version of MSBuild that the features were developed for. See the mapping of change waves to features below.
+To disable the features in a change wave, set the environment variable `MSBuildDisableFeaturesFromVersion` to the change wave (or MSBuild version) that contains the feature you want **disabled**. This is the version of MSBuild that the features were developed for. See the mapping of change waves to features below.
 
 ### MSBuildDisableFeaturesFromVersion Values
 
