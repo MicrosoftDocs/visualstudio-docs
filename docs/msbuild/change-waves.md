@@ -25,7 +25,7 @@ To disable the features in a change wave, set the environment variable `MSBuildD
 
 ### MSBuildDisableFeaturesFromVersion Values
 
-When you set `MSBuildDisableFeaturesFromVersion` to a particular value, you might get a warning if you don't set it to a specific change wave. The following table shows the possible settings:
+You will receive a warning and/or default to a specific wave if you don't set `MSBuildDisableFeaturesFromVersion` to a valid change wave. The following table shows the possible settings:
 
 | `MSBuildDisableFeaturesFromVersion` Value                         | Result        | Receive Warning? |
 | :-------------                                                    | :----------   | :----------: |
