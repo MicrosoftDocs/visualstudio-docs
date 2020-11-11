@@ -30,7 +30,7 @@ When you set `MSBuildDisableFeaturesFromVersion` to a particular value, you migh
 | `MSBuildDisableFeaturesFromVersion` Value                         | Result        | Receive Warning? |
 | :-------------                                                    | :----------   | :----------: |
 | Unset                                                             | Enable all change waves, meaning all features behind each change wave are enabled.               | No   |
-| Any valid and current change Wave (for example, `16.8`)                      | Disable all features behind change wave `16.8` **and higher**.                                           | No   |
+| Any valid and current change wave (for example, `16.8`)                      | Disable all features behind change wave `16.8` **and higher**.                                           | No   |
 | Invalid Value (for example, `16.9` when valid waves are `16.8` and `16.10`)| Default to the closest valid value (ascending). For example, setting `16.9` will default you to `16.10`.               | No   |
 | Out of Rotation (for example, `17.1` when the highest wave is `17.0`)      | Clamp to the closest valid value. For example, `17.1` clamps to `17.0`, and `16.5` clamps to `16.8`                    | Yes  |
 | Invalid Format (for example, `16x8`, `17_0`, `garbage`)                    | Enable all change waves, meaning all features behind each change wave are enabled.               | Yes  |
