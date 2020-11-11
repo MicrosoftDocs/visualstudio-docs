@@ -14,7 +14,7 @@ ms.technology: devinit
 ---
 # devinit and GitHub Codespaces
 
-devinit is a great compliment to [GitHub Codespaces](https://github.com/features/codespaces) and devinit can be used to get a codespace setup so contributors can build, run, and debug right away.
+devinit is a great complement to [GitHub Codespaces](https://github.com/features/codespaces) and devinit can be used to get a codespace setup so contributors can build, run, and debug right away.
 
 > [!IMPORTANT]
 > Before integrating devinit with your codespace, you first need to make sure you have a `.devinit.json` file that defines your dependencies. For more information on how to create a `.devinit.json`, read the [getting started documentation](getting-started-with-devinit.md).
