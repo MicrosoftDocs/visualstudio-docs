@@ -3,7 +3,7 @@ title: "Including a NuGet package in your project"
 description: This document covers how to include a NuGet package in a project using Visual Studio for Mac. It walks through finding and downloading a package, as well as introducing the IDE integration features.
 author: jmatthiesen
 ms.author: jomatthi
-ms.date: 09/04/2020
+ms.date: 11/09/2020
 ms.assetid: 5C800815-0B13-4B27-B017-95FCEF1A0EA2
 ms.custom: conceptual
 ---
@@ -18,7 +18,7 @@ For an intro to using NuGet in Visual Studio for Mac, see [Quickstart: Install a
 
 ## Find and Install a Package
 
-1. With a project open in Visual Studio for Mac, right-click on the **Dependencies** folder (**Packages** folder if using a Xamarin project) in the **Solution Pad** and select **Manage NuGet Packages...**.
+1. With a project open in Visual Studio for Mac, right-click on the **Dependencies** folder (**Packages** folder if using a Xamarin project) in the **Solution Window** and select **Manage NuGet Packages...**.
 
     ![Add new NuGet package context action](media/nuget-walkthrough-packages-menu.png)
 
@@ -80,7 +80,7 @@ Finally, from the **Updates** tab of the dialog, select the package you wish to 
 ![Manage NuGet Packages dialog opened to the Installed tab, with a package selected and the New Version dropdown list open.](media/nuget-walkthrough-packages-nuget-dialog-update-installed-package.png)
 
 ### Locating outdated packages
-From the solution pad, you can view what version of a package is currently installed and right-click on the package to update.
+From the Solution Window, you can view what version of a package is currently installed and right-click on the package to update.
 
 ![Packages menu with the options to Update, Remove, Refresh](media/nuget-walkthrough-PackageMenu.png)
 
