@@ -48,7 +48,7 @@ productDirectory:
     - title: Unity
       imageSrc: https://docs.microsoft.com/media/logos/logo_unity.svg
       links:
-        - url: /gamedev/unity/get-started/visual-studio-tools-for-unity.md
+        - url: /gamedev/unity/get-started/visual-studio-tools-for-unity
           text: Unity Overview
         - url: /gamedev/unity/get-started/getting-started-with-visual-studio-tools-for-unity.md
           text: Set up Unity and Visual Studio for Mac
