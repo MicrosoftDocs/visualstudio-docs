@@ -1,5 +1,7 @@
 ---
 title: Use code maps to debug your applications
+description: Learn how to use code maps to help you avoid getting lost in large code bases, unfamiliar code, or legacy code.
+ms.custom: SEO-VS-2020
 ms.date: 09/28/2018
 ms.topic: conceptual
 helpviewer_keywords:

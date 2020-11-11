@@ -1,5 +1,7 @@
 ---
 title: Text Template Utility Methods
+description: Learn about the various text template utility methods that are available to you when you write code in Visual Studio.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
