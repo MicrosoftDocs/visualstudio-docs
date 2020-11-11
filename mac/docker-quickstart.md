@@ -3,7 +3,7 @@ title: Get started with Docker
 description: Learn how to add Docker to your projects in Visual Studio for Mac
 author: heiligerdankgesang
 ms.author: dominicn
-ms.date: 06/17/2019
+ms.date: 11/09/2020
 ms.topic: how-to
 ---
 
@@ -28,7 +28,7 @@ For Docker installation, review and follow the information at [Install Docker De
 1. Select the target framework. In this example we will use .NET Core 2.2:
 ![Set target framework](media/docker-quickstart-2.png)
 1. Enter the project details, such as name (_DockerDemo_ in this example). The created project contains all the basics you need to build and run an ASP.NET Core web site.
-1. In the Solution Pad, right click the DockerDemo project and select **Add > Add Docker Support**:
+1. In the Solution Window, right click the DockerDemo project and select **Add > Add Docker Support**:
 ![Add docker support](media/docker-quickstart-3.png)
 
 Visual Studio for Mac will automatically add a new project to your solution called **docker-compose** and add a **Dockerfile** to your existing project.
