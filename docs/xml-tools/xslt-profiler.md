@@ -10,6 +10,7 @@ ms.author: tglee
 manager: jillfra
 ms.workload:
 - multiple
+monikerRange: vs-2017
 ---
 # The XSLT Profiler
 
