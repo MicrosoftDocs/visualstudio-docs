@@ -1,194 +1,246 @@
 ---
-title: "Get started with unit testing - create test plans | Microsoft Docs"
-ms.custom: ""
-ms.date: "05/02/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-helpviewer_keywords: 
-  - "unit testing, create unit test plans"
-ms.assetid: 2171CD69-FBB1-4994-9DCC-3BFFDFD26662
-caps.latest.revision: 56
-ms.author: "douge"
-manager: "douge"
+title: Get started with unit testing
+ms.date: 04/07/2020
+ms.topic: conceptual
+helpviewer_keywords:
+- unit testing, create unit test plans
+author: mikejo5000
+ms.author: mikejo
+manager: jillfra
+ms.workload:
+- multiple
 ---
 # Get started with unit testing
 
-Use Visual Studio to define and run your unit tests
-to maintain code health, ensure code coverage, and
-to find errors and faults before your customers do.
+Use Visual Studio to define and run unit tests to maintain code health, ensure code coverage, and find errors and faults before your customers do. Run your unit tests frequently to make sure your code is working properly.
 
-<a name="create-tests"></a>
 ## Create unit tests
 
-Create unit tests and run them frequently to make sure your code is working properly.
+This section describes how to create a unit test project.
 
-1. Create a unit test project.
-        
-   ![Add a unit test project to your solution](media/createunittest1.png)
-    
-1. Name your project.
-        
-   ![Unit test project template](media/createunittest2.png)
-  
+1. Open the project that you want to test in Visual Studio.
+
+   For the purposes of demonstrating an example unit test, this article tests a simple "Hello World" project named **HelloWorldCore**. The sample code for such a project is as follows:
+
+   ```csharp
+   namespace HelloWorldCore
+
+      public class Program
+      {
+         public static void Main()
+         {
+            Console.WriteLine("Hello World!");
+         }
+      }
+   ```
+
+1. In **Solution Explorer**, select the solution node. Then, from the top menu bar, select **File** > **Add** > **New Project**.
+
+1. In the new project dialog box, find a unit test project template for the test framework you want to use and select it.
+
+   ::: moniker range=">=vs-2019"
+
+   ![Unit test project template in Visual Studio 2019](media/vs-2019/add-new-test-project.png)
+
+   Click **Next**, choose a name for the test project, and then click **Create**.
+
+   ::: moniker-end
+
+   ::: moniker range="vs-2017"
+
+   ![Unit test project template in Visual Studio 2019](media/mstest-test-project-template.png)
+
+   Choose a name for the test project, and then click **OK**.
+
+   ::: moniker-end
+
    The project is added to your solution.
-    
-   ![Unit test project in Solution Explorer](media/createunittest5.png)
-    
-1. In the unit test project, add a reference to the project you want to test.
-        
-   ![Add a reference to your unit test project](media/createunittest6.png)
-    
-1. Select the project that contains the code you'll test.
-        
-   ![Select the reference to add](media/createunittest7.png)
-    
-1. Code your unit test.
 
-   ![Add code to your unit test](media/createunittest8.png) 
+   ![Unit test project in Solution Explorer](media/vs-2019/solution-explorer.png)
 
-You can also create unit test method stubs with the [**Create Unit Tests** command](create-unit-tests-menu.md).
-Or you can use a [different unit test framework](#frameworks) to create tests for different code languages.
+1. In the unit test project, add a reference to the project you want to test by right-clicking on **References** or **Dependencies** and then choosing **Add Reference**.
 
-![Using the Create unit tests command](media/createunittestcommand2.png)
+1. Select the project that contains the code you'll test and click **OK**.
+
+   ![Add project reference in Visual Studio](media/vs-2019/reference-manager.png)
+
+1. Add code to the unit test method.
+
+   For example, for an MSTest project, you might use the following code.
+
+   ```csharp
+   using Microsoft.VisualStudio.TestTools.UnitTesting;
+   using System.IO;
+   using System;
+
+   namespace HelloWorldTests
+   {
+      [TestClass]
+      public class UnitTest1
+      {
+         private const string Expected = "Hello World!";
+         [TestMethod]
+         public void TestMethod1()
+         {
+            using (var sw = new StringWriter())
+            {
+               Console.SetOut(sw);
+               HelloWorldCore.Program.Main();
+
+               var result = sw.ToString().Trim();
+               Assert.AreEqual(Expected, result);
+            }
+         }
+      }
+   }
+   ```
+
+   Or, for an NUnit project, you might use the following code.
+
+   ```csharp
+   using NUnit.Framework;
+   using System.IO;
+   using System;
+
+   namespace HelloWorldTests
+   {
+      public class Tests
+      {
+         private const string Expected = "Hello World!";
+
+         [SetUp]
+         public void Setup()
+         {
+         }
+         [Test]
+         public void TestMethod1()
+         {
+            using (var sw = new StringWriter())
+            {
+               Console.SetOut(sw);
+               HelloWorldCore.Program.Main();
+
+               var result = sw.ToString().Trim();
+               Assert.AreEqual(Expected, result);
+            }
+         }
+      }
+   }
+   ```
+
+> [!TIP]
+> For more details about creating unit tests, see [Create and run unit tests for managed code](walkthrough-creating-and-running-unit-tests-for-managed-code.md).
 
 ## Run unit tests
 
-1. Open Test Explorer.
-        
-   ![On the Test menu, open Test Explorer](media/rununittest1.png) 
+1. Open [Test Explorer](../test/run-unit-tests-with-test-explorer.md).
 
-1. Run unit tests.
-        
-   ![Run unit tests in Test Explorer](media/rununittest2.png) 
+   ::: moniker range=">=vs-2019"
+   To open Test Explorer, choose **Test** > **Test Explorer** from the top menu bar.
+   ::: moniker-end
+   ::: moniker range="vs-2017"
+   To open Test Explorer, choose **Test** > **Windows** > **Test Explorer** from the top menu bar.
+   ::: moniker-end
 
-   You can see the unit tests that passed or failed in Test Explorer.
-      
-   ![Review unit test results in Test Explorer](media/rununittest3.png) 
+1. Run your unit tests by clicking **Run All**.
+
+   ![Run unit tests in Test Explorer](media/vs-2019/test-explorer-run-all.png)
+
+   After the tests have completed, a green check mark indicates that a test passed. A red "x" icon indicates that a test failed.
+
+   ![Review unit test results in Test Explorer](media/vs-2019/unit-test-passed.png)
+
+> [!TIP]
+> You can use [Test Explorer](../test/run-unit-tests-with-test-explorer.md) to run unit tests from the built-in test framework (MSTest) or from third-party test frameworks. You can group tests into categories, filter the test list, and create, save, and run playlists of tests. You can also debug tests and analyze test performance and code coverage.
 
 ## View live unit test results
 
-If you are using the MSTest, xUnit, or NUnit testing framework in Visual Studio 2017 or above,
-you can see live results of your unit tests within the Visual Studio UI.
+If you are using the MSTest, xUnit, or NUnit testing framework in Visual Studio 2017 or later, you can see live results of your unit tests.
 
-1. Turn on live unit testing from the **Test** menu.
+> [!NOTE]
+> Live unit testing is available in Enterprise edition only.
 
-   ![Turn on live unit testing](media/live-test-results-start.png) 
+1. Turn live unit testing from the **Test** menu by choosing **Test** > **Live Unit Testing** > **Start**.
+
+   ::: moniker range="vs-2017"
+
+   ![Turn on live unit testing](media/live-test-results-start.png)
+
+   ::: moniker-end
+
+   ::: moniker range=">=vs-2019"
+
+   ![Start live unit testing in Visual Studio 2019](media/vs-2019/start-live-unit-testing.png)
+
+   ::: moniker-end
 
 1. View the results of the tests within the code editor window as you write and edit code.
 
-   ![Point to and click on the test result indicators](media/live-test-results-ui.png) 
+   ![View the results of the tests](media/vs-2019/live-unit-testing-results.png)
 
-1. Point to and click on the test result indicators to see more information.
+1. Click a test result indicator to see more information, such as the names of the tests that cover that method.
 
-   ![View the results of the tests](media/live-test-results-details.png) 
+   ![Choose the test result indicators](media/vs-2019/live-unit-testing-details.png)
 
-For more details, see [Live Unit Testing in Visual Studio](https://blogs.msdn.microsoft.com/visualstudio/2016/11/18/live-unit-testing-visual-studio-2017-rc/).
+For more information about live unit testing, see [Live unit testing](../test/live-unit-testing-intro.md).
 
-<a name="intellitest"></a>
 ## Generate unit tests with IntelliTest
 
-When you run IntelliTest, you can easily see which 
-tests are failing and add any necessary code to fix 
-them. You can select which of the generated tests 
-to save into a test project to provide a regression 
-suite. As you change your code, rerun IntelliTest 
-to keep the generated tests in sync with your code 
-changes. To learn how, see
-[Generating unit tests for your code with IntelliTest](https://docs.microsoft.com/visualstudio/test/generate-unit-tests-for-your-code-with-intellitest).
+When you run IntelliTest, you can see which tests are failing and add any necessary code to fix them. You can select which of the generated tests to save into a test project to provide a regression suite. As you change your code, rerun IntelliTest to keep the generated tests in sync with your code changes. To learn how, see [Generate unit tests for your code with IntelliTest](../test/generate-unit-tests-for-your-code-with-intellitest.md).
+
+> [!TIP]
+> IntelliTest is only available for managed code that targets the .NET Framework.
 
 ![Generating unit tests with IntelliTest](media/intellitest.png)
 
-<a name="unit-tests"></a>
-## Run unit tests with Test Explorer
+## Analyze code coverage
 
-Use Test Explorer to run unit tests from Visual 
-Studio or third-party unit test projects, group 
-tests into categories, filter the test list, and 
-create, save, and run playlists of tests. You can 
-also debug tests and analyze test performance and 
-code coverage. To learn how, see
-[Run unit tests with Test Explorer](https://docs.microsoft.com/visualstudio/test/run-unit-tests-with-test-explorer).
+To determine what proportion of your project's code is actually being tested by coded tests such as unit tests, you can use the code coverage feature of Visual Studio. To guard effectively against bugs, your tests should exercise a large proportion of your code. To learn how, see [Use code coverage to determine how much code is being tested](../test/using-code-coverage-to-determine-how-much-code-is-being-tested.md).
 
-![Running unit tests with Test Explorer](media/testexplorer.png)
+## Use a third-party test framework
 
-<a name="code-coverage"></a>
-## Use code coverage to determine how much code is being tested
+You can run unit tests in Visual Studio by using third-party test frameworks such as Boost, Google, and NUnit. Use the **NuGet Package Manager** to install the NuGet package for the framework of your choice. Or, for the NUnit and xUnit test frameworks, Visual Studio includes preconfigured test project templates that include the necessary NuGet packages.
 
-To determine what proportion of your project's code 
-is actually being tested by coded tests such as unit
-tests, you can use the code coverage feature of 
-Visual Studio. To guard effectively against bugs, 
-your tests should exercise or 'cover' a large 
-proportion of your code. To learn how, see
-[Use Code Coverage to Determine How Much Code is being Tested](https://docs.microsoft.com/visualstudio/test/using-code-coverage-to-determine-how-much-code-is-being-tested).
+To create unit tests that use [NUnit](https://nunit.org/):
 
-![Using code coverage to determine how much code is being tested](media/codecoverage.png)
+1. Open the solution that contains the code you want to test.
 
-## Q & A
+2. Right-click on the solution in **Solution Explorer** and choose **Add** > **New Project**.
 
-<!-- BEGINSECTION class="m-qanda" -->
+3. Select the **NUnit Test Project** project template.
 
-<a name="frameworks"></a>
-####Q:    Can I run unit tests in Visual Studio if I use a different unit test framework?
+   ::: moniker range=">=vs-2019"
 
-A:  Yes, use the plug-in for that framework so that Visual Studio's test runner 
-can work with that framework. Here are some of the
-[unit testing framework plug-ins for Visual Studio](http://go.microsoft.com/fwlink/?LinkID=246630).
+   ![NUnit test project template in Visual Studio 2019](media/vs-2019/nunit-test-project-template.png)
 
-1. Use Visual Studio's extension manager to download your plug-in.
-        
-   ![Select 3rd-party unit test plug-ins with extension manager](media/install3rdpartyunittestframeworks1.png) 
+   Click **Next**, name the project, and then click **Create**.
 
-1. Download your plug-in from the Visual Studio Gallery under Tools/Testing, 
-or search for it if you know the name.
-        
-   ![Download your plug-in](media/install3rdpartyunittestframeworks2.png) 
+   ::: moniker-end
 
-1. Create a class library project.
-        
-   ![Create a class library project](media/create3rdpartyunittest1.png) 
+   ::: moniker range="vs-2017"
 
-   Add the project to your solution.
-    
-   ![Name the class library project and add it](media/create3rdpartyunittest3.png) 
+   Name the project, and then click **OK** to create it.
 
-1. In the class library project, run NuGet to install the plug-in.
+   ::: moniker-end
 
-   ![Manage NuGet packages to install the plug-in](media/create3rdpartyunittest3a.png) 
+   The project template includes NuGet references to NUnit and NUnit3TestAdapter.
 
-   [NuGet](https://www.nuget.org/) is an extension of Visual Studio 
-   that you can use to add and update libraries and tools for your projects.
+   ![NUnit NuGet dependencies in Solution Explorer](media/vs-2019/nunit-nuget-dependencies.png)
 
-1. Install your plug-in. If you know the name, you can search for it online.
+4. Add a reference from the test project to the project that contains the code you want to test.
 
-   ![Install your 3rd-party framework](media/create3rdpartyunittest4.png) 
+   Right-click on the project in **Solution Explorer**, and then select **Add** > **Reference**. (You can also add a reference from the right-click menu of the **References** or **Dependencies** node.)
 
-   The framework is referenced in your project.
-        
-   ![The reference for the 3rd-party unit test framework is added into your solution](media/create3rdpartyunittest6.png) 
+5. Add code to your test method.
 
-1. In the class library project, add a reference to the project you want to test.
-        
-   ![Add a reference to the project](media/createunittest6.png) 
+   ![Add code to your unit test code file](media/vs-2019/unit-test-method.png)
 
-1. Select the project that contains the code you'll test.
-        
-   ![Select the code project for you to test](media/createunittest7.png) 
-
-1. Code your unit test.
-
-   ![Add code to your unit test](media/create3rdpartyunittest7.png)   
-
-<!-- ENDSECTION -->
+6. Run the test from **Test Explorer** or by right-clicking on the test code and choosing **Run Test(s)**.
 
 ## See also
 
+* [Walkthrough: Create and run unit tests for managed code](walkthrough-creating-and-running-unit-tests-for-managed-code.md)
 * [Create Unit Tests command](create-unit-tests-menu.md)
 * [Generate tests with IntelliTest](generate-unit-tests-for-your-code-with-intellitest.md)
 * [Run tests with Test Explorer](run-unit-tests-with-test-explorer.md)
-* [Determine code coverage](using-code-coverage-to-determine-how-much-code-is-being-tested.md)
-* [Improve Code Quality](improve-code-quality.md)
+* [Analyze code coverage](using-code-coverage-to-determine-how-much-code-is-being-tested.md)

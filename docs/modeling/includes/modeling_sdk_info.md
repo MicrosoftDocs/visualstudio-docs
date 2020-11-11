@@ -1,20 +1,5 @@
 ---
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+ms.topic: include
 ---
->In this release of Visual Studio, the Text Template Transformation SDK
-and the Visual Studio Modeling SDK are installed automatically when you
-install specific features of Visual Studio. For more details, see 
-[this blog post](https://blogs.msdn.microsoft.com/visualstudioalm/2016/12/12/the-visual-studio-modeling-sdk-is-now-available-with-visual-studio-2017/).
+> [!NOTE]
+> The **Text Template Transformation** component is automatically installed as part of the **Visual Studio extension development** workload. You can also install it from the **Individual components** tab of Visual Studio Installer, under the **SDKs, libraries, and frameworks** category. Install the **Modeling SDK** component from the **Individual components** tab.

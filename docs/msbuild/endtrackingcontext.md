@@ -1,40 +1,41 @@
 ---
 title: "EndTrackingContext | Microsoft Docs"
-ms.custom: ""
+description: Learn the syntax, return value, and requirements to use MSBuild EndTrackingContext to end the current tracking context.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-apiname: 
+ms.topic: "conceptual"
+apiname:
   - "EndTrackingContext"
-apilocation: 
+apilocation:
   - "filetracker.dll"
 apitype: "COM"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "EndTrackingContext"
 ms.assetid: c2c5d794-8dc8-4594-8717-70dc79a0e75d
-caps.latest.revision: 3
-author: "kempb"
-ms.author: "kempb"
-manager: ghogen
+author: ghogen
+ms.author: ghogen
+manager: jillfra
+ms.workload:
+  - "multiple"
 ---
 # EndTrackingContext
-End the current tracking context.  
-  
-## Syntax  
-  
-```  
-HRESULT WINAPI EndTrackingContext();  
-```  
-  
-## Return Value  
- An **HRESULT** with the **SUCCEEDED** bit set if the tracking context was ended.  
-  
-## Requirements  
- **Header:** FileTracker.h  
-  
-## See Also  
- [StartTrackingContext](../msbuild/starttrackingcontext.md)
+
+End the current tracking context.
+
+## Syntax
+
+```cpp
+HRESULT WINAPI EndTrackingContext();
+```
+
+## Return value
+
+An **HRESULT** with the **SUCCEEDED** bit set if the tracking context was ended.
+
+## Requirements
+
+**Header:** *FileTracker.h*
+
+## See also
+
+- [StartTrackingContext](../msbuild/starttrackingcontext.md)

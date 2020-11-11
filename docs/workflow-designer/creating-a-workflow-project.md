@@ -1,46 +1,71 @@
 ---
-title: "Creating a Workflow Project | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "reference"
-helpviewer_keywords: 
-  - "Workflow Designer, creating a workflow project"
-  - "Visual Studio 2010 Workflow Designer, creating a workflow project"
-  - "creating a workflow project"
+title: Create a Workflow Foundation project
+description: Learn how to create libraries and applications with the project templates available in Visual Studio.
+ms.custom: SEO-VS-2020
+ms.date: 06/25/2018
+ms.topic: conceptual
+helpviewer_keywords:
+- Workflow Designer, creating a workflow project
+- creating a workflow project
 ms.assetid: 235a125e-ebe7-4a98-bf77-86c8558728fb
-caps.latest.revision: 15
-author: "ErikRe"
-ms.author: "erikre"
-manager: "erikre"
+author: TerryGLee
+ms.author: tglee
+manager: jillfra
+ms.workload:
+- multiple
 ---
-# Creating a Workflow Project
-Workflows, [!INCLUDE[indigo1](../workflow-designer/includes/indigo1_md.md)] workflow services, custom activities, and custom activity designers can be created using [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] project templates. This section describes how to create libraries and applications with the project templates available in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
-  
- The first four topics below describe how to use of the Workflow Templates found on the **New Project** window. These templates can be accessed by opening [!INCLUDE[vs2010](../misc/includes/vs2010_md.md)] and selecting **File** -> **New** -> **Project...**, then the **Workflow** category from the **Installed Templates** section on the left, under either the **Visual Basic** or **Visual C#** node.  
-  
- The last topic describes how to add workflow activities, designers and services or other [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] items to an existing workflow (or other) project.  
-  
-## In This Section  
- [How to: Create a Workflow Console Application](../workflow-designer/how-to-create-a-workflow-console-application.md)  
- Describes how to create a workflow console application.  
-  
- [How to: Create a WCF Workflow Service Application](../workflow-designer/how-to-create-a-wcf-workflow-service-application.md)  
- Describes the steps required to create a [!INCLUDE[indigo2](../workflow-designer/includes/indigo2_md.md)] workflow service application.  
-  
- [How to: Create an Activity Library](../workflow-designer/how-to-create-an-activity-library.md)  
- Describes the steps to use to create an activity library in the [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)].  
-  
- [How to: Create an Activity Designer Library](../workflow-designer/how-to-create-an-activity-designer-library.md)  
- Describes how to create designers that are tailored for multiple audiences.  
-  
- [How to: Add a New Item to a Workflow Project](../workflow-designer/how-to-add-a-new-item-to-a-workflow-project.md)  
- Describes how to add additional workflow activities or designers and other [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] items such as code activities to an existing project.  
-  
-## Related Sections  
- [Designing Workflows](/dotnet/framework/windows-workflow-foundation/designing-workflows)  
-  
-## See Also  
- [Using the Workflow Designer](../workflow-designer/using-the-workflow-designer.md)
+# Workflow project templates
+
+You can create Workflows, Windows Communication Foundation (WCF) workflow services, custom activities, and custom activity designers by using Visual Studio project templates. This article describes how to create libraries and applications with the project templates available in Visual Studio.
+
+## Create a Workflow project
+
+Visual Studio provides four different Workflow project templates:
+
+- Workflow console app
+
+- WCF workflow service app
+
+- Activity library
+
+- Activity designer library
+
+To access these templates, first install the **Windows Workflow Foundation** component of Visual Studio. For detailed instructions, see [Install Windows Workflow Foundation](developing-applications-with-the-workflow-designer.md#install-windows-workflow-foundation).
+
+1. After you've installed the **Windows Workflow Foundation** component, select **File** > **New** > **Project**.
+
+1. Search for and select a workflow project template, for example, the **Workflow Console Application** template.
+
+1. Continue through to create the project.
+
+   > [!NOTE]
+   > If you want to add a new project to an existing solution, open that solution in Visual Studio, right-click the solution in **Solution Explorer**, and select **Add** > **New Project**.
+
+## Workflow console app
+
+If you choose the **Workflow Console Application** template, Visual Studio creates a workflow definition in XAML. The Workflow Designer opens and displays the canvas for the workflow you created. To compose a workflow, drag activities or other workflow items from **Toolbox** to the design surface.
+
+## WCF workflow service app
+
+If you choose the **WCF Workflow Service Application** template, Visual Studio creates a service definition as XAML. The Workflow Designer opens to the design view with a <xref:System.Activities.Statements.Sequence> activity that contains a set of <xref:System.ServiceModel.Activities.Receive> and <xref:System.ServiceModel.Activities.SendReply> activities.
+
+## Activity library
+
+If you choose the **Activity Library** template, Visual Studio creates an activity definition in XAML. Workflow Designer opens and displays the canvas for your custom activity. Drag an activity from **Toolbox** to the design surface to include it in your custom activity.
+
+> [!NOTE]
+> You're allowed only one child activity in the body of your custom activity. However, that child activity could be a composite activity, such as a <xref:System.Activities.Statements.Sequence> activity or <xref:System.Activities.Statements.Flowchart> activity.
+
+## Activity designer library
+
+If you choose the **Activity Designer Library** template, Visual Studio creates an activity designer definition in XAML and a code-behind implementation file. The Workflow Designer opens and displays the canvas for your activity designer. Drag Windows Presentation Foundation (WPF) controls from **Toolbox** to the design surface to use them in your custom activity designer.
+
+For an example of how to implement a custom activity designer, see [How to: Create a custom activity designer](/dotnet/framework/windows-workflow-foundation/how-to-create-a-custom-activity-designer).
+
+> [!NOTE]
+> Custom activity designers can be used for custom activities and for default .NET activities.
+
+## See also
+
+- [Use the Workflow Designer](developing-applications-with-the-workflow-designer.md)
+- [Design workflows (.NET Framework)](/dotnet/framework/windows-workflow-foundation/designing-workflows)

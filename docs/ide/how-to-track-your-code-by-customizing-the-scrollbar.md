@@ -1,52 +1,69 @@
 ---
-title: "How to: Track Your Code by Customizing the Scrollbar | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-ms.assetid: a9ebe7ec-4b6f-4ba2-a79e-80fab3db485b
-caps.latest.revision: 5
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
+title: Scroll bar map mode and bar mode
+ms.date: 03/20/2020
+ms.topic: how-to
+author: TerryGLee
+ms.author: tglee
+manager: jillfra
+ms.workload:
+- multiple
 ---
-# How to: Track Your Code by Customizing the Scrollbar
-When you are working with long code files, it can be hard to keep everything in mind. You can customize the scroll bar of the code window to give you a bird's eye view of what's happening in your code.  
-  
-### To show annotations on the scroll bar  
-  
-1.  You can set up the scroll bar to show code changes, breakpoints, errors, and bookmarks.  
-  
-     Open the **Scroll Bar** options page (**Tools, Options Text Editor. All Languages** or a specific language, or type  **scroll bar** in the Quick Launch window).  
-  
-2.  Select **Show Annotations over vertical scroll bar**, then select the annotations you want to see. (The **Marks** option includes breakpoints and bookmarks.)  
-  
-3.  Now try it out. Open a large code file and replace something that occurs in several places in the file. The scroll bar shows you the effect of the replacements, so you can back out your changes if you replaced something you shouldn't have.  
-  
-     Here's how the scroll bar looks after a search for a string. Notice that all instances of the string appear.  
-  
-     ![The scroll bar after searching for a string.](../ide/media/enhancedscrollbarsearch.png "EnhancedScrollbarSearch")  
-  
-     Here's the scroll bar after replacing all the instances of the string. You can see immediately that the operation caused some problems.  
-  
-     ![The scrollbar after replacing a string with errors](../ide/media/enhancedscrollbarreplace.png "EnhancedScrollbarReplace")  
-  
-### To set the display mode for the scroll bar  
-  
-1.  The scroll bar has two modes, bar mode (the default) and map mode. Bar mode just displays annotation indicators on the scroll bar. In map mode the lines of code are represented on the scroll bar. You can choose how wide they are and whether they show the underlying code when you rest the pointer on them. When you click a location on the scroll bar, the cursor moves to that location in the code. Collapsed regions are shaded differently; they are expanded when you double-click them.  
-  
-     On the **Scroll Bar** options page, select either **Use Bar mode for vertical scroll bar** or **Use Map mode for vertical scroll bar**. You can choose the width in the **Source Overview** dropdown.  
-  
-     Here's how the search example looks when map mode is on and the width is set to Medium:  
-  
-     ![The scroll bar in map mode](../ide/media/enhancedscrollbar.png "EnhancedScrollbar")  
-  
-2.  In map mode, to enable previews of the code when you move the cursor up and down the scroll bar, select the **Show Preview Tooltip** option. Here's how it looks:  
-  
-     ![The scrollbar with a tooltip](../ide/media/enhancedscrollbarsearchtooltip.png "EnhancedScrollbarSearchTooltip")  
-  
-     If you want to keep the map mode scrolling behavior and the preview tooltip but don't want to see the source code overview, you can set **Source Overview** to **Off**.
+# How to: Customize the scroll bar
+
+When you are working with long code files, it can be hard to keep track of where everything is in the file. You can customize the scroll bar of the code editor to give you an overall picture of what's happening in your code.
+
+## Annotations
+
+You can select whether the scroll bar shows annotations such as code changes, breakpoints, bookmarks, errors, and caret position.
+
+   1. Open the **Scroll Bars** options page by choosing **Tools** > **Options** > **Text Editor** > **All Languages** > **Scroll Bars**.
+
+   2. Select **Show Annotations over vertical scroll bar**, and then select the annotations you want to see. The available annotations are:
+
+      - changes
+      - marks
+      - errors
+      - caret position
+
+      > [!TIP]
+      > The **Show marks** option includes breakpoints and bookmarks.
+
+Try it out by opening a large code file and replacing some text that occurs in several places in the file. The scroll bar shows you the effect of the replacements, so you can back out your changes if you replaced something you shouldn't have.
+
+Here's how the scroll bar looks after a search for a string. Notice that all instances of the string appear in the scroll bar.
+
+![Visual Studio scroll bar after searching for a string](../ide/media/enhancedscrollbarsearch.png)
+
+Here's the scroll bar after replacing all the instances of the string. The red marks in the scroll bar show where the text replacement introduced errors.
+
+![Visual Studio scroll bar after replacing a string with errors](../ide/media/enhancedscrollbarreplace.png)
+
+## Display modes
+
+The scroll bar has two modes: bar mode and map mode.
+
+### Bar mode
+
+*Bar mode* displays annotation indicators on the scroll bar. Clicking on the scroll bar scrolls the page up or down but does not jump to that location in the file.
+
+### Map mode
+
+*Map mode* displays lines of code, in miniature, on the scroll bar. You can choose how wide the map column is by selecting a value in **Source overview**. To enable a larger preview of the code when you rest the pointer on the map, select the **Show Preview Tooltip** option. Collapsed regions are shaded differently and expand when you double-click them.
+
+> [!TIP]
+> You can turn the miniature code view off in map mode by setting **Source overview** to **Off**. If **Show Preview Tooltip** is selected, you still see a preview of the code at that location when you hover your pointer on the scroll bar, and the cursor still jumps to that location in the file when you click.
+
+The following image shows the search example when map mode is on and the width is set to **Medium**:
+
+![Visual Studio scroll bar in map mode](../ide/media/enhancedscrollbar.png)
+
+The following image shows the **Show Preview Tooltip** option:
+
+![Visual Studio scroll bar with a tooltip](../ide/media/enhancedscrollbarsearchtooltip.png)
+
+> [!TIP]
+> To change the colors that you see in map mode, choose **Tools** > **Options** > **Environment** > **Fonts and Colors**. Next, in **Display items**, choose any of the items that are preceded with "Overview", make the color changes you want, and then choose **OK**.
+
+## See also
+
+- [Features of the code editor](../ide/writing-code-in-the-code-and-text-editor.md)

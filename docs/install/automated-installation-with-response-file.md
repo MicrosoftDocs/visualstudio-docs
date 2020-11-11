@@ -1,27 +1,27 @@
 ---
-title: "Automate Visual Studio installation with a response file | Microsoft Docs"
-description: "Learn how to create a JSON response file that helps you automate your Visual Studio installation"
-ms.date: "08/14/2017"
-ms.reviewer: "tims"
-ms.suite: ""
-ms.technology:
-  - "vs-ide-install"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+title: Automate installation with a response file
+description: Learn how to create a JSON response file that helps you automate your Visual Studio installation
+ms.date: 03/30/2019
+ms.custom: seodec18
+ms.topic: conceptual
 helpviewer_keywords:
-  - "response file"
-  - "automate"
-  - "installation"
-  - "command-line"
-author: "timsneath"
-ms.author: "tims"
-manager: ghogen
+- response file
+- automate
+- installation
+- command-line
+author: ornellaalt
+ms.author: ornella
+manager: jillfra
+ms.workload:
+- multiple
+ms.prod: visual-studio-windows
+ms.technology: vs-installation
 ---
-
 # How to define settings in a response file
+
 Administrators who deploy Visual Studio can specify a response file by using the `--in` parameter, as in the following example:
 
-```
+```cmd
 vs_enterprise.exe --in customInstall.json
 ```
 
@@ -29,9 +29,9 @@ Response files are [JSON](http://json-schema.org/) files whose contents mirror t
 
 Parameters that are specified on the command-line override settings from the response file, except when parameters take multiple inputs (for example, `--add`). When you have multiple inputs, the inputs supplied on the command line are merged with settings from the response file.
 
-# Setting a default configuration for Visual Studio
+## Setting a default configuration for Visual Studio
 
-If you created a network layout cache with the `--layout`, an initial `response.json` file is created in the layout. If you create a partial layout, this response file includes the workloads and languages that were included in the layout.  Running setup from this layout automatically uses this response.json file, which selects the workloads and components included in the layout.  Users can still select or unselect any workloads in the setup UI before installing Visual Studio. 
+If you created a network layout cache with the `--layout`, an initial `response.json` file is created in the layout. If you create a partial layout, this response file includes the workloads and languages that were included in the layout.  Running setup from this layout automatically uses this response.json file, which selects the workloads and components included in the layout.  Users can still select or unselect any workloads in the setup UI before installing Visual Studio.
 
 Administrators who create a layout can modify the `response.json` file in the layout to control the default settings that their users see when they install Visual Studio from the layout.  For example, if an administrator wants specific workloads and components installed by default, they can configure the `response.json` file to add them.
 
@@ -44,6 +44,8 @@ You can update the `response.json` file that is created in an offline layout fol
 
 The base `response.json` file in a layout should look similar to the following example, except that it would include the value for the product and channel that you want to install:
 
+::: moniker range="vs-2017"
+
 ```json
 {
   "installChannelUri": ".\\ChannelManifest.json",
@@ -53,10 +55,30 @@ The base `response.json` file in a layout should look similar to the following e
   "productId": "Microsoft.VisualStudio.Product.Enterprise"
 }
 ```
-When you create or update a layout, a response.template.json file is also created.  This file contains all of the workload, component, and language IDs that can be used.  This file is provided as a template for what all could be included in a custom install.  Administrators can use this file as a starting point for a custom response file.  Just remove the IDs for the things you do not want to install and save it in your own response file.  Do not customize the response.template.json file or your changes will be lost whenever the layout is updated. 
+
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+```json
+{
+  "installChannelUri": ".\\ChannelManifest.json",
+  "channelUri": "https://aka.ms/vs/16/release/channel",
+  "installCatalogUri": ".\\Catalog.json",
+  "channelId": "VisualStudio.16.Release",
+  "productId": "Microsoft.VisualStudio.Product.Enterprise"
+}
+```
+
+::: moniker-end
+
+When you create or update a layout, a response.template.json file is also created.  This file contains all of the workload, component, and language IDs that can be used.  This file is provided as a template for what all could be included in a custom install.  Administrators can use this file as a starting point for a custom response file.  Just remove the IDs for the things you do not want to install and save it in your own response file.  Do not customize the response.template.json file or your changes will be lost whenever the layout is updated.
 
 ## Example layout response file content
+
 The following example installs Visual Studio Enterprise with six common workloads and components, and with both English and French UI languages. You can use this example as a template; just change the workloads and components to those that you want to install:
+
+::: moniker range="vs-2017"
 
 ```json
 {
@@ -88,5 +110,47 @@ The following example installs Visual Studio Enterprise with six common workload
     ]
 }
 ```
+
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+```json
+{
+  "installChannelUri": ".\\ChannelManifest.json",
+  "channelUri": "https://aka.ms/vs/16/release/channel",
+  "installCatalogUri": ".\\Catalog.json",
+  "channelId": "VisualStudio.16.Release",
+  "productId": "Microsoft.VisualStudio.Product.Enterprise",
+
+  "installPath": "C:\\VS2019",
+  "quiet": false,
+  "passive": false,
+  "includeRecommended": true,
+  "norestart": false,
+
+  "addProductLang": [
+    "en-US",
+    "fr-FR"
+    ],
+
+    "add": [
+        "Microsoft.VisualStudio.Workload.ManagedDesktop",
+        "Microsoft.VisualStudio.Workload.Data",
+        "Microsoft.VisualStudio.Workload.NativeDesktop",
+        "Microsoft.VisualStudio.Workload.NetWeb",
+        "Microsoft.VisualStudio.Workload.Office",
+        "Microsoft.VisualStudio.Workload.Universal",
+        "Component.GitHub.VisualStudio"
+    ]
+}
+```
+
+::: moniker-end
+
+[!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
+
 ## See also
-* [Visual Studio 2017 workload and component IDs](workload-and-component-ids.md)
+
+* [Visual Studio workload and component IDs](workload-and-component-ids.md)
+* [Troubleshoot network-related errors when you install or use Visual Studio](troubleshooting-network-related-errors-in-visual-studio.md)

@@ -1,14 +1,8 @@
 ---
-title: "Additional Support for Errors in Office Solutions | Microsoft Docs"
-ms.custom: ""
+title: "Additional support for errors in Office solutions"
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-f1_keywords: 
+ms.topic: conceptual
+f1_keywords:
   - "VST.MSBuild.errAppInfoTaskInsertCtlFailed"
   - "VST.MSBuild.errAppInfoTaskDeleteCtlFailed"
   - "VST.Excel.ProtectedWorksheet"
@@ -49,49 +43,51 @@ f1_keywords:
   - "VST.Project.ExcelOpen"
   - "VST.Debug.Terminating Process"
   - "VST.SelectDocWizard.NoWorksheetForCreation"
-dev_langs: 
+dev_langs:
   - "VB"
   - "CSharp"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "Office applications [Office development in Visual Studio], troubleshooting"
   - "Office development in Visual Studio, troubleshooting"
   - "troubleshooting [Office development in Visual Studio]"
   - "Office development in Visual Studio, errors"
-ms.assetid: dcede68c-f269-46fe-a692-97517b671435
-caps.latest.revision: 12
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
+ms.workload:
+  - "office"
 ---
-# Additional Support for Errors in Office Solutions
-  You can use the following resources to help you find answers to problems you encounter as you create Office solutions in Visual Studio.  
-  
-## Troubleshooting Specific Errors  
- For assistance with some common errors in Office solutions, see the following topics:  
-  
--   [Troubleshooting Errors in Office Solutions](../vsto/troubleshooting-errors-in-office-solutions.md)  
-  
--   [Troubleshooting Office Solution Security](../vsto/troubleshooting-office-solution-security.md)  
-  
--   [Troubleshooting Office Solution Deployment](../vsto/troubleshooting-office-solution-deployment.md)  
-  
-## Other Resources  
- [Visual Studio Tools for Office Forum](http://go.microsoft.com/fwlink/?LinkId=149744)  
- Provides a forum for questions about the Office developer tools in Visual Studio.  
-  
- [Office Discussion Groups](http://go.microsoft.com/fwlink/?LinkId=63585)  
- Provides a newsgroup experience for questions about Office applications. Use the programming newsgroups here for questions about specific tasks related to the object models of Office applications.  
-  
- [Microsoft Help and Support](http://go.microsoft.com/fwlink/?LinkID=108287)  
- Provides access to Knowledge Base (KB) articles, downloads and updates, support Webcasts, and other services.  
-  
- [Additional Resources for Developing Office Solutions](../vsto/additional-resources-for-developing-office-solutions.md)  
- Provides links to additional resources for learning more about developing Office solutions and Office development with Visual Studio.  
-  
-## See Also  
- [Troubleshooting Errors in Office Solutions](../vsto/troubleshooting-errors-in-office-solutions.md)   
- [Troubleshooting Office Solution Security](../vsto/troubleshooting-office-solution-security.md)   
- [Troubleshooting Office Solution Deployment](../vsto/troubleshooting-office-solution-deployment.md)   
- [Additional Resources for Developing Office Solutions](../vsto/additional-resources-for-developing-office-solutions.md)  
-  
-  
+# Additional support for errors in Office solutions
+
+You can use the following resources to help you find answers to problems you encounter as you create Office solutions in Visual Studio.
+
+## Troubleshoot specific errors
+
+For assistance with some common errors in Office solutions, see the following topics:
+
+- [Troubleshoot errors in Office solutions](../vsto/troubleshooting-errors-in-office-solutions.md)
+
+- [Troubleshoot Office solution security](../vsto/troubleshooting-office-solution-security.md)
+
+- [Troubleshoot Office solution deployment](../vsto/troubleshooting-office-solution-deployment.md)
+
+## Other resources
+
+[Visual Studio tools for Office forum](https://social.msdn.microsoft.com/Forums/vstudio/en-US/home?forum=vsto)
+
+Provides a forum for questions about the Office developer tools in Visual Studio.
+
+[Microsoft help and support](https://support.microsoft.com)
+
+Provides access to Knowledge Base (KB) articles, downloads and updates, support Webcasts, and other services.
+
+[Additional resources for developing Office solutions](../vsto/additional-resources-for-developing-office-solutions.md)
+
+Provides links to additional resources for learning more about developing Office solutions and Office development with Visual Studio.
+
+## See also
+
+- [Troubleshoot errors in Office solutions](../vsto/troubleshooting-errors-in-office-solutions.md)
+- [Troubleshoot Office solution security](../vsto/troubleshooting-office-solution-security.md)
+- [Troubleshoot Office solution deployment](../vsto/troubleshooting-office-solution-deployment.md)
+- [Additional resources for developing Office solutions](../vsto/additional-resources-for-developing-office-solutions.md)

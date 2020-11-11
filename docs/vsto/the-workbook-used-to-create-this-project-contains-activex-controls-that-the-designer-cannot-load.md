@@ -1,39 +1,33 @@
 ---
-title: "The workbook used to create this project contains ActiveX controls that the designer cannot load | Microsoft Docs"
-ms.custom: ""
+title: "The workbook contains ActiveX controls that cannot be loaded"
+titleSuffix: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-f1_keywords: 
+ms.topic: "error-reference"
+f1_keywords:
   - "VST.SelectDocWizard.ContainsActiveXControls"
-dev_langs: 
+dev_langs:
   - "VB"
   - "CSharp"
-ms.assetid: 91e9c6ee-7543-41e3-be0c-6c000cfd32d1
-caps.latest.revision: 15
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
+ms.workload:
+  - "office"
 ---
-# The workbook used to create this project contains ActiveX controls that the designer cannot load
-  This error appears when you add a control to a Word document or an Excel worksheet programmatically, save the document or workbook, and then create a new document-level solution based on the document or workbook.  
-  
- Information that describes the managed type of the control is not saved along with the document or workbook. When you create a new solution based on that document or workbook, Visual Studio does not have enough information to load the control in the host item designer.  
-  
-### To correct this error  
-  
-1.  Open the document or workbook.  
-  
-2.  Remove the controls that were added at run time. You can do this by selecting them in the document or workbook and pressing the DELETE key.  
-  
-3.  Create a document-level solution based on the document or workbook.  
-  
-## See Also  
- [How to: Create Office Projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md)   
- [Adding Controls to Office Documents at Run Time](../vsto/adding-controls-to-office-documents-at-run-time.md)  
-  
-  
+# The workbook contains ActiveX controls that cannot be loaded
+
+  The error "The workbook used to create this project contains ActiveX controls that the designer cannot load" appears when you add a control to a Word document or an Excel worksheet programmatically, save the document or workbook, and then create a new document-level solution based on the document or workbook.
+
+ Information that describes the managed type of the control is not saved along with the document or workbook. When you create a new solution based on that document or workbook, Visual Studio does not have enough information to load the control in the host item designer.
+
+## To correct this error
+
+1. Open the document or workbook.
+
+2. Remove the controls that were added at run time. You can do this by selecting them in the document or workbook and pressing the **Delete** key.
+
+3. Create a document-level solution based on the document or workbook.
+
+## See also
+- [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md)
+- [Add controls to Office documents at run time](../vsto/adding-controls-to-office-documents-at-run-time.md)

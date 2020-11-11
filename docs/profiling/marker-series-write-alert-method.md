@@ -1,43 +1,38 @@
 ---
-title: "marker_series::write_alert Method | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+title: marker_series::write_alert Method | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: reference
 f1_keywords: 
-  - "cvmarkersobj/Concurrency::diagnostic:marker_series::write_alert"
+- cvmarkersobj/Concurrency, diagnostic:marker_series::write_alert
 helpviewer_keywords: 
-  - "Concurrency::diagnostic:marker_series::write_alert method"
+- Concurrency, diagnostic:marker_series::write_alert method
 ms.assetid: 9d5465c7-f862-47a7-b249-4116605075a6
-caps.latest.revision: 3
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: ghogen
+author: mikejo5000
+ms.author: mikejo
+manager: jillfra
+ms.workload: 
+  - multiple
 ---
-# marker_series::write_alert Method
-Writes an alert to the Concurrency Visualizer trace file.  
-  
-## Syntax  
-  
-```  
-void write_alert(  
-   _In_ LPCTSTR _Format,  
-   ...  
-);  
-```  
-  
-#### Parameters  
- `_Format`  
- A composite format string that contains text intermixed with zero or more format items, which correspond to objects in the argument list.  
-  
-## Requirements  
- **Header:** cvmarkersobj.h  
-  
- **Namespace:** Concurrency::diagnostic  
-  
-## See Also  
- [marker_series Class](../profiling/marker-series-class.md)
+# marker_series::write_alert method
+Writes an alert to the Concurrency Visualizer trace file.
+
+## Syntax
+
+```cpp
+void write_alert(
+   _In_ LPCTSTR _Format,
+   ...
+);
+```
+
+#### Parameters
+ `_Format`
+ A composite format string that contains text intermixed with zero or more format items, which correspond to objects in the argument list.
+
+## Requirements
+ **Header:** *cvmarkersobj.h*
+
+ **Namespace:** Concurrency::diagnostic
+
+## See also
+- [marker_series class](../profiling/marker-series-class.md)

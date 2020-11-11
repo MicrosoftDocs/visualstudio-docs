@@ -1,79 +1,106 @@
 ---
-title: "Walkthrough: Debugging at Design Time | Microsoft Docs"
+title: "Debug at design time | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-dev_langs: 
-  - "CSharp"
+ms.date: "01/10/2019"
+ms.topic: "conceptual"
+dev_langs:
   - "VB"
-  - "FSharp"
-  - "C++"
-  - "JScript"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "debugging [Visual Studio], design-time"
   - "breakpoints, design-time debugging"
   - "Immediate window, design-time debugging"
   - "design-time debugging"
 ms.assetid: 35bfdd2c-6f60-4be1-ba9d-55fce70ee4d8
-caps.latest.revision: 20
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: jillfra
+ms.workload:
+  - "multiple"
 ---
-# Walkthrough: Debugging at Design Time
-You can use the Visual Studio **Immediate** window to execute a function or subroutine while your application is not running. If the function or subroutine contains a breakpoint, Visual Studio will break execution at the appropriate point. You can then use the debugger windows to examine your program state. This feature is called debugging at design time.  
-  
- The following procedure shows how you can use this feature.  
-  
-### To hit breakpoints from the Immediate window  
-  
-1.  Paste the following code into a Visual Basic console application:  
-  
-    ```  
-    Module Module1  
-  
-        Sub Main()  
-            MySub()  
-        End Sub  
-  
-        Function MyFunction() As Decimal  
-            Static i As Integer  
-            i = i + 1  
-            Dim s As String  
-  
-            s = "Add Breakpoint here"  
-            Return 4  
-        End Function  
-  
-        Sub MySub()  
-            MyFunction()  
-        End Sub  
-    End Module  
-    ```  
-  
-2.  Set a breakpoint on the line that reads, `s="Add BreakPoint Here"`.  
-  
-3.  Type the following in the **Immediate** window: `?MyFunction<enter>`  
-  
-4.  Verify that the breakpoint was hit, and that the call stack is accurate.  
-  
-5.  On the **Debug** menu, click **Continue**, and verify that you are still in design mode.  
-  
-6.  Type the following in the **Immediate** window: `?MyFunction<enter>`  
-  
-7.  Type the following in the **Immediate** window: `?MySub<enter>`  
-  
-8.  Verify that you hit the breakpoint, and examine the value of static variable `i` in the **Locals** window. It should have the value of 3.  
-  
-9. Verify that the call stack is accurate.  
-  
-10. On the **Debug** menu, click **Continue**, and verify that you are still in design mode.  
-  
-## See Also  
- [Debugger Security](../debugger/debugger-security.md)   
- [Debugger Basics](../debugger/debugger-basics.md)
+# Debug at design time in Visual Studio (C#, C++/CLI, Visual Basic, F#)
+
+To debug code at design time instead of while an app is running, you can use the **Immediate** window.
+
+To debug XAML code behind an app from the XAML designer, such as declarative data binding scenarios, you can use **Debug** > **Attach to Process**.
+
+## Use the Immediate window
+
+You can use the Visual Studio **Immediate** window to execute a function or subroutine without running your app. If the function or subroutine contains a breakpoint, Visual Studio will break at the breakpoint. You can then use the debugger windows to examine your program state. This feature is called *debugging at design time*.
+
+The following example is in Visual Basic. You can also use the **Immediate** window at design time in C#, F#, and C++/CLI apps.
+
+1. Paste the following code into a blank Visual Basic console app:
+
+   ```vb
+   Module Module1
+
+       Sub Main()
+           MySub()
+       End Sub
+
+       Function MyFunction() As Decimal
+           Static i As Integer
+           i = i + 1
+           Return i
+       End Function
+
+       Sub MySub()
+           MyFunction()
+
+       End Sub
+   End Module
+   ```
+
+1. Set a breakpoint on the line **End Function**.
+
+1. Open the **Immediate** window by selecting **Debug** > **Windows** > **Immediate**. Type `?MyFunction` in the window, and then press **Enter**.
+
+   The breakpoint is hit, and the value of **MyFunction** in the **Locals** window is **1**. You can examine the call stack and other debugging windows while the app is in break mode.
+
+1. Select **Continue** on the Visual Studio toolbar. The app ends, and **1** is returned in the **Immediate** window. Make sure you are still in design mode.
+
+1. Type `?MyFunction` in the **Immediate** window again, and press **Enter**. The breakpoint is hit, and the value of **MyFunction** in the **Locals** window is **2**.
+
+1. Without selecting **Continue**, type `?MySub()` in the **Immediate** window, and then press **Enter**. The breakpoint is hit, and the value of **MyFunction** in the **Locals** window is **3**. You can examine the app state while the app is in break mode.
+
+1. Select **Continue**. The breakpoint is hit again, and the value of **MyFunction** in the **Locals** window is now **2**. The **Immediate** window returns **Expression has been evaluated and has no value**.
+
+1. Select **Continue** again. The app ends, and **2** is returned in the **Immediate** window. Make sure that you are still in design mode.
+
+1. To clear the contents of the **Immediate** window, right-click in the window and select **Clear All**.
+
+## Debug a custom XAML control at design time by attaching to XAML designer
+
+1. Open your solution or project in Visual Studio.
+
+1. Build the solution/project.
+
+1. Open the XAML page containing the custom control that you want to debug.
+
+   For UWP projects targeting Windows build 16299 or above, this step will start the *UwpSurface.exe* process. For WPF projects targeting Windows build 16299 or above, this step will start the *WpfSurface.exe* process. For WPF or UWP versions prior to Windows build 16299, this step will start the *XDesProc.exe* process. 
+
+1. Open a second instance of Visual Studio. Do not open a solution or project in the second instance.
+
+1. In the second instance of Visual Studio, open the **Debug** menu and choose **Attach to Process…**.
+
+1. Depending on your project type (see preceding steps), select the *UwpSurface.exe*, *WpfSurface.exe*, or the *XDesProc.exe* process from the list of available processes.
+
+1. In the **Attach to** field of the **Attach to Process** dialog, choose the correct code type for the custom control you want to debug.
+
+   If your custom control has been written in a .NET language, choose the appropriate .NET code type such as **Managed (CoreCLR)**. If your custom control has been written in C++, choose **Native**.
+
+1. Attach the second instance of Visual Studio by clicking the **Attach** button.
+
+1. In the second instance of Visual Studio, open the code files associated with the custom control you want to debug. Make sure to just open the files, not the entire solution or project.
+
+1. Place the necessary breakpoints in the previously opened files.
+
+1. In the first instance of Visual Studio, close the XAML page containing the custom control you want to debug (the same page you opened in earlier steps).
+
+1. In the first instance of Visual Studio, open the XAML page you closed in the previous step. This will cause the debugger to stop at the first breakpoint you set in the second instance of Visual Studio.
+
+1. Debug the code in the second instance of Visual Studio.
+
+## See also
+- [First look at the debugger](../debugger/debugger-feature-tour.md)
+- [Debugger security](../debugger/debugger-security.md)

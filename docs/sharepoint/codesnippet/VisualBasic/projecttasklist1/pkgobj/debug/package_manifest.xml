@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="7ff6fa28-9753-450d-bdf3-d86e729e77a2">
-  <Assemblies>
-    <Assembly Location="ProjectTaskList1.dll" DeploymentTarget="GlobalAssemblyCache" />
-  </Assemblies>
-  <FeatureManifests>
-    <FeatureManifest Location="ProjectTaskList1_Feature1\Feature.xml" />
-  </FeatureManifests>
-</Solution>

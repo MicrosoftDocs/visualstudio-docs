@@ -1,30 +1,29 @@
 ---
-title: "Troubleshooting | Microsoft Docs"
-description: 
-author: asb3993
-ms.author: amburns
-ms.date: 04/14/2017
-ms.topic: article
+title: Troubleshoot
+description: "Common issues and resolutions for Visual Studio for Mac users."
+ms.topic: troubleshooting
+author: therealjohn
+ms.author: johmil
+ms.date: 06/18/2019
 ms.assetid: CE860D79-E29E-4B93-B094-BE74B35FC1C2
 ---
-
 # Troubleshooting
 
 ## Viewing logs in Visual Studio for Mac
- 
+
 Logs can be found by browsing to the **Help > Open Log Directory** menu item, as illustrated below:
 
 ![Open Log directory menu item](media/troubleshooting-image1.png)
 
 ## Viewing exceptions
 
-When an exception has been caught, an exception bubble will appear. To view more details, select the **View Details** button:
+When an exception is caught, an exception bubble appears. To view more details, select the **View Details** button:
 
 ![View more details about an exception](media/troubleshooting-image2.png)
 
-This will display the **Show Details** dialog, providing more information regarding the exception:
+This displays the **Show Details** dialog, providing more information regarding the exception:
 
-![](media/troubleshooting-image3.png)
+![Show details dialog](media/troubleshooting-image3.png)
 
 Important sections of the dialog, which are numbered above are described in detail below:
 
@@ -40,4 +39,8 @@ Important sections of the dialog, which are numbered above are described in deta
 10. By default, this is set to what the **Debug project code only** option in debugger settings is set to. Selecting this box will enable all non-user code to collapse into one line in the stacktrace.
 11. A copy button to copy the `exception.ToString()` output to clipboard.
 
-Note that some of these sections will only be visible when exception has an inner exception.
+Note that some of these sections are only visible when the exception has an inner exception.
+
+## See also
+
+- [Resources for troubleshooting IDE errors (Visual Studio on Windows)](/visualstudio/ide/reference/resources-for-troubleshooting-integrated-development-environment-errors)

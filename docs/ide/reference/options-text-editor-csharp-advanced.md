@@ -1,80 +1,142 @@
 ---
-title: "Options, Text Editor, C#, Advanced | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-f1_keywords: 
-  - "VS.ToolsOptionsPages.Text_Editor.CSharp.Outlining"
-  - "VS.ToolsOptionsPages.Text_Editor.Visual_JSharp.Advanced"
-  - "VS.ToolsOptionsPages.Text_Editor.Visual_JSharp.Outlining"
-  - "VS.ToolsOptionsPages.Text_Editor.CSharp.Advanced"
-helpviewer_keywords: 
-  - "XML comments"
-  - "XML documentation, generating"
-  - "outlining options [C#]"
-  - "outlining options [J#]"
-  - "XML documentation, creating"
-ms.assetid: 947f9d9a-b0f3-408d-9866-d82895bcee31
-caps.latest.revision: 22
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
+title: Options, Text Editor, C#, Advanced
+ms.date: 08/12/2020
+ms.topic: reference
+f1_keywords:
+- VS.ToolsOptionsPages.Text_Editor.CSharp.Outlining
+- VS.ToolsOptionsPages.Text_Editor.CSharp.Advanced
+author: akhera99
+ms.author: midumont
+manager: jillfra
+ms.workload:
+- dotnet
 ---
 # Options, Text Editor, C#, Advanced
-Use this dialog box to modify the settings for editor formatting, code refactoring, and XML documentation comments for Visual C#. To access this dialog box, click **Options** on the **Tools** menu, expand the **Text Editor** folder, expand **C#**, and then click **Advanced**.  
-  
+
+Use the **Advanced** options page to modify the settings for editor formatting, code refactoring, and XML documentation comments for C#. To access this options page, choose **Tools** > **Options**, and then choose **Text Editor** > **C#** > **Advanced**.
+
 > [!NOTE]
->  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Personalize the Visual Studio IDE](../../ide/personalizing-the-visual-studio-ide.md).  
-  
-## Outlining  
- Enter outlining mode when files open  
- When selected, automatically outlines the code file, which creates collapsible blocks of code. The first time a file is opened, #regions blocks and inactive code blocks collapse.  
-  
-## Editor Help  
- Underline errors in the editor  
- Identifies build errors in code. When this option is selected, wavy underlines appear in colors that have specific meanings:  
-  
--   Parse errors are red.  
-  
--   Build errors are blue.  
-  
--   Build warnings are green.  
-  
--   Invalid [Edit and Continue](../../debugger/edit-and-continue.md) edits are purple.  
-  
-Move the pointer over the underlined code segment to see a ToolTip with information about the error.  
-  
-Show live semantic errors  
-Identifies certain compile errors without explicit compilation, for example, declaring and using an unknown type or referencing an unknown property.  
-  
-Highlight references to symbol under cursor  
-When the cursor is positioned inside a symbol, or when you click a symbol, all the instances of that symbol in the code file are highlighted.  
-  
-## Refactoring  
- Verify results of refactoring  
- Displays the **Verification Results** dialog box when you try to refactor code that contains build errors, or when refactoring would cause a code reference to bind to something different from its original binding.  
-  
- Warn on members with compiler generated references  
- Displays a warning dialog when you try to refactor a member that has the same name as a compiler generated reference.  
-  
-## XML Documentation Comments  
- Generate XML documentation comments for ///  
- When selected, inserts the \<summary> start and end tags automatically for XML documentation comments after you type the /// comment introduction. For more information about XML documentation, see [XML Documentation Comments](/dotnet/csharp/programming-guide/xmldoc/xml-documentation-comments).  
-  
-## Implement Interface  
- Surround generated code with #region  
- Inserts a #region \<*interface name*> Member around the methods when Implement Interface or Implement Interface Explicitly is used.  
-  
-## Organize Usings  
- Place 'System' directives first when sorting usings  
- When selected, `System` using directives appear before other using directives. For more information, see Organize usings in [Visual C# IntelliSense](../../ide/visual-csharp-intellisense.md#automatic-code-generation).  
-  
-## See Also  
- [XML Documentation Comments](/dotnet/csharp/programming-guide/xmldoc/xml-documentation-comments)   
- [Setting Language-Specific Editor Options](../../ide/reference/setting-language-specific-editor-options.md)   
- [Visual C# IntelliSense](../../ide/visual-csharp-intellisense.md)
+> Not all options may be listed here.
+
+## Analysis
+
+- Live code analysis or Background analysis scope
+
+   Configure the background analysis scope for managed code. For more information, see [How to: Configure live code analysis scope for managed code](../../code-quality/configure-live-code-analysis-scope-managed-code.md).
+
+## Using Directives
+
+- Place 'System' directives first when sorting usings
+
+   When selected, the **Remove and Sort Usings** command in the right-click menu sorts the `using` directives and places the 'System' namespaces at the top of the list.
+
+   Before sorting:
+
+   ```csharp
+   using AutoMapper;
+   using FluentValidation;
+   using System.Collections.Generic;
+   using System.Linq;
+   using Newtonsoft.Json;
+   using System;
+   ```
+
+   After sorting:
+
+   ```csharp
+   using System;
+   using System.Collections.Generic;
+   using System.Linq;
+   using AutoMapper;
+   using FluentValidation;
+   using Newtonsoft.Json;
+   ```
+
+- Separate using directive groups
+
+   When selected, the **Remove and Sort Usings** command in the right-click menu separates `using` directives by inserting an empty line between groups of directives that have the same root namespace.
+
+   Before sorting:
+
+   ```csharp
+   using AutoMapper;
+   using FluentValidation;
+   using System.Collections.Generic;
+   using System.Linq;
+   using Newtonsoft.Json;
+   using System;
+   ```
+
+   After sorting:
+
+   ```csharp
+   using AutoMapper;
+
+   using FluentValidation;
+
+   using Newtonsoft.Json;
+
+   using System;
+   using System.Collections.Generic;
+   using System.Linq;
+   ```
+
+::: moniker range=">=vs-2019"                                              
+- Suggest usings for types in .NET Framework assemblies
+::: moniker-end
+                                         
+::: moniker range="vs-2017"                                                
+- Suggest usings for types in reference assemblies
+::: moniker-end                                                            
+
+- Suggest usings for types in NuGet packages
+
+   When these options are selected, a [Quick Action](../quick-actions.md) is available to install a NuGet package and add a `using` directive for unreferenced types.
+
+   ![Quick Action to install NuGet package in Visual Studio](media/nuget-lightbulb.png)
+
+## Highlighting
+
+- Highlight references to symbol under cursor
+
+   When the cursor is positioned inside a symbol, or when you click a symbol, all the instances of that symbol in the code file are highlighted.
+
+## Outlining
+
+- Enter outlining mode when files open
+
+   When selected, automatically outlines the code file, which creates collapsible blocks of code. The first time a file is opened, #regions blocks and inactive code blocks collapse.
+
+- Show procedure line separators
+
+   The text editor indicates visual scope of procedures. A line is drawn in the *.cs* source files of your project at locations listed in the following table:
+
+   |Location in .cs Source File|Example of Line Location|
+   |---------------------------------|------------------------------|
+   |After the close of a block declaration construct|-   At the end of a class, structure, module, interface, or enum<br />-   After a property, function, or sub<br />-   Not between the get and set clauses in a property|
+   |After a set of single line constructs|-   After the import statements, before a type definition in a class file<br />-   After variables declared in a class, before any procedures|
+   |After single line declarations (non-block level declarations)|-   Following import statements, inherits statements, variable declarations, event declarations, delegate declarations, and DLL declare statements|
+
+## Block Structure Guides
+
+Select these check boxes to display dotted vertical lines between the curly brackets (**{}**) in your code. You can then easily see individual blocks of code for your declaration level and code level constructs.
+
+## Editor Help
+::: moniker range=">=vs-2019"
+- Inline Parameter Name Hints 
+    
+    When selected, inserts parameter name hints for literals, casted literals, and object instantiations prior to each argument in function calls.  
+    
+    ![Inline Parameter Name Hints for CSharp](media/inline-parameter-name-hints-csharp.png)
+::: moniker-end
+- Generate XML documentation comments for ///
+
+   When selected, inserts the XML elements for XML documentation comments after you type the `///` comment introduction. For more information about XML documentation, see [XML Documentation Comments (C# Programming Guide)](/dotnet/csharp/programming-guide/xmldoc/xml-documentation-comments).
+
+## See also
+
+- [How to: Insert XML comments for documentation generation](../../ide/reference/generate-xml-documentation-comments.md)
+- [XML Documentation Comments (C# Programming Guide)](/dotnet/csharp/programming-guide/xmldoc/xml-documentation-comments)
+- [Document your code with XML comments (C# Guide)](/dotnet/csharp/codedoc)
+- [Set language-specific editor options](../../ide/reference/setting-language-specific-editor-options.md)
+- [C# IntelliSense](../../ide/visual-csharp-intellisense.md)

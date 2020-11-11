@@ -1,86 +1,87 @@
 ---
-title: "ItemDefinitionGroup Element (MSBuild) | Microsoft Docs"
-ms.custom: ""
-ms.date: "03/13/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-f1_keywords: 
-  - "http://schemas.microsoft.com/developer/msbuild/2003#ItemDefinitionGroup"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
-helpviewer_keywords: 
-  - "ItemDefinitionGroup Element [MSBuild]"
-  - "<ItemDefinitionGroup> Element [MSBuild]"
+title: ItemDefinitionGroup Element (MSBuild) | Microsoft Docs
+description: Learn how MSBuild uses the ItemDefinitionGroup element to define a set of item definitions, metadata values that are applied to all items in the project.
+ms.custom: SEO-VS-2020
+ms.date: 03/13/2017
+ms.topic: reference
+f1_keywords:
+- http://schemas.microsoft.com/developer/msbuild/2003#ItemDefinitionGroup
+dev_langs:
+- VB
+- CSharp
+- C++
+- jsharp
+helpviewer_keywords:
+- ItemDefinitionGroup Element [MSBuild]
+- <ItemDefinitionGroup> Element [MSBuild]
 ms.assetid: 4e9fb04b-5148-4ae5-a394-42861dd62371
-caps.latest.revision: 5
-author: "kempb"
-ms.author: "kempb"
-manager: ghogen
+author: ghogen
+ms.author: ghogen
+manager: jillfra
+ms.workload:
+- multiple
 ---
-# ItemDefinitionGroup Element (MSBuild)
-The `ItemDefinitionGroup` element lets you define a set of Item Definitions, which are metadata values that are applied to all items in the project, by default. ItemDefinitionGroup supersedes the need to use the [CreateItem Task](../msbuild/createitem-task.md) and the [CreateProperty Task](../msbuild/createproperty-task.md). For more information, see [Item Definitions](../msbuild/item-definitions.md).  
+# ItemDefinitionGroup element (MSBuild)
 
- \<Project>  
- \<ItemDefinitionGroup>  
+The `ItemDefinitionGroup` element lets you define a set of Item Definitions, which are metadata values that are applied to all items in the project, by default. ItemDefinitionGroup supersedes the need to use the [CreateItem task](../msbuild/createitem-task.md) and the [CreateProperty task](../msbuild/createproperty-task.md). For more information, see [Item definitions](../msbuild/item-definitions.md).
 
-## Syntax  
+\<Project>
+\<ItemDefinitionGroup>
 
-```  
-<ItemGroup Condition="'String A' == 'String B'">  
-    <Item1>... </Item1>  
-    <Item2>... </Item2>  
-</ItemGroup>  
-```  
+## Syntax
 
-## Attributes and Elements  
- The following sections describe attributes, child elements, and parent elements.  
+```xml
+<ItemDefinitionGroup Condition="'String A' == 'String B'">
+    <Item1>... </Item1>
+    <Item2>... </Item2>
+</ItemDefinitionGroup>
+```
 
-### Attributes  
+## Attributes and elements
 
-|Attribute|Description|  
-|---------------|-----------------|  
-|`Condition`|Optional attribute. Condition to be evaluated. For more information, see [Conditions](../msbuild/msbuild-conditions.md).|  
+The following sections describe attributes, child elements, and parent elements.
 
-### Child Elements  
+### Attributes
 
-|Element|Description|  
-|-------------|-----------------|  
-|[Item](../msbuild/item-element-msbuild.md)|Defines the inputs for the build process. There may be zero or more `Item` elements in an `ItemDefinitionGroup`.|  
+|Attribute|Description|
+|---------------|-----------------|
+|`Condition`|Optional attribute. Condition to be evaluated. For more information, see [Conditions](../msbuild/msbuild-conditions.md).|
 
-### Parent Elements  
+### Child elements
 
-|Element|Description|  
-|-------------|-----------------|  
-|[Project](../msbuild/project-element-msbuild.md)|Required root element of an [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] project file.|  
+|Element|Description|
+|-------------|-----------------|
+|[Item](../msbuild/item-element-msbuild.md)|Defines the inputs for the build process. There may be zero or more `Item` elements in an `ItemDefinitionGroup`.|
 
-## Example  
- The following code example defines two metadata items, m and n, in an ItemDefinitionGroup. In this example, the default metadata "m" is applied to Item "i" because metadata "m" is not explicitly defined by Item "i". However, default metadata "n" is not applied to Item "i" because metadata "n" is already defined by Item "i".  
+### Parent elements
 
-```xml  
-<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
-    <ItemDefinitionGroup>  
-        <i>  
-            <m>m1</m>  
-            <n>n1</n>  
-        </i>        
-    </ItemDefinitionGroup>  
-    <ItemGroup>  
-        <i Include="a">  
-            <o>o1</o>  
-            <n>n2</n>  
-        </i>  
-    </ItemGroup>  
-    ...  
-</Project>  
-```  
+| Element | Description |
+| - | - |
+| [Project](../msbuild/project-element-msbuild.md) | Required root element of an MSBuild project file. |
 
-## See Also  
- [Project File Schema Reference](../msbuild/msbuild-project-file-schema-reference.md)   
- [Items](../msbuild/msbuild-items.md)
+## Example
+
+The following code example defines two metadata items, m and n, in an ItemDefinitionGroup. In this example, the default metadata "m" is applied to Item "i" because metadata "m" is not explicitly defined by Item "i". However, default metadata "n" is not applied to Item "i" because metadata "n" is already defined by Item "i".
+
+```xml
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <ItemDefinitionGroup>
+        <i>
+            <m>m1</m>
+            <n>n1</n>
+        </i>
+    </ItemDefinitionGroup>
+    <ItemGroup>
+        <i Include="a">
+            <o>o1</o>
+            <n>n2</n>
+        </i>
+    </ItemGroup>
+    ...
+</Project>
+```
+
+## See also
+
+- [Project file schema reference](../msbuild/msbuild-project-file-schema-reference.md)
+- [Items](../msbuild/msbuild-items.md)

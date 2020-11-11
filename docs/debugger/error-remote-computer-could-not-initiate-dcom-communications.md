@@ -1,42 +1,36 @@
 ---
-title: "Error: Remote computer could not initiate DCOM communications | Microsoft Docs"
-ms.custom: ""
+title: "Remote computer could not initiate DCOM communications | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-f1_keywords: 
+ms.topic: "error-reference"
+f1_keywords:
   - "vs.debug.error.unmarshal_callback_failed"
-dev_langs: 
+dev_langs:
   - "CSharp"
   - "VB"
   - "FSharp"
   - "C++"
-ms.assetid: bbba0766-2502-4ef1-a75d-bf1f0db39e37
-caps.latest.revision: 12
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: jillfra
+ms.workload:
+  - "multiple"
 ---
 # Error: Remote computer could not initiate DCOM communications
-A DCOM error occurred when the remote machine tried to communicate with the local machine. The local machine is the machine that is  
-  
- running Visual Studio. This error can occur for several reasons:  
-  
--   The local machine has a firewall enabled.  
-  
--   Windows authentication from the remote machine to the local machine is not working.  
-  
-### To correct this error  
-  
-1.  If the local machine has Windows Firewall enabled, see [Remote Debugging](../debugger/remote-debugging.md) for instructions about how to configure the firewall for local debugging.  
-  
-2.  Test Windows authentication by trying to open a file share on the local machine from the remote server.  
-  
-3.  To restore Windows authentication, try rebooting both machines. Examine event logs on local and remote machines for Kerberos errors and contact domain administrators for known problems.  
-  
-## See Also  
+A DCOM error occurred when the remote machine tried to communicate with the local machine. The local machine is the machine that is
+
+ running Visual Studio. This error can occur for several reasons:
+
+- The local machine has a firewall enabled.
+
+- Windows authentication from the remote machine to the local machine is not working.
+
+### To correct this error
+
+1. If the local machine has Windows Firewall enabled, see [Remote Debugging](../debugger/remote-debugging.md) for instructions about how to configure the firewall for local debugging.
+
+2. Test Windows authentication by trying to open a file share on the local machine from the remote server.
+
+3. To restore Windows authentication, try rebooting both machines. Examine event logs on local and remote machines for Kerberos errors and contact domain administrators for known problems.
+
+## See also
  [Remote Debugging](../debugger/remote-debugging.md)

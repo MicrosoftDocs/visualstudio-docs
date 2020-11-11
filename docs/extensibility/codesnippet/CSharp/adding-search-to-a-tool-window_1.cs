@@ -1,9 +1,9 @@
-    public partial class MyControl : UserControl
+    public partial class TestSearchControl : UserControl
     {
         public TextBox SearchResultsTextBox { get; set; }
         public string SearchContent { get; set; }
 
-        public MyControl()
+        public TestSearchControl()
         {
             InitializeComponent();
 

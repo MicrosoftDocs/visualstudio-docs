@@ -1,0 +1,82 @@
+### YamlMime:Hub
+title: Visual Studio product family documentation
+summary: Explore documentation for the Visual Studio family of products.
+brand: visual-studio
+metadata:
+  title: Visual Studio product family documentation
+  description: Explore documentation for the Visual Studio family of products.
+  ms.topic: hub-page
+  ms.custom: contperfq1
+  ms.date: 10/22/2020
+  searchScope: []
+  titleSuffix: ""
+  ms.author: ghogen
+  author: ghogen
+  ms.manager: jillfra
+  monikerRange: ">=vs-2017"
+  hide_bc: true
+
+productDirectory:
+    items:
+    - title: Visual Studio
+      imageSrc: ./media/vs-ide-2019.svg
+      links:
+        - url: ./windows/index.yml?view=vs-2019&preserve-view=true
+          text: Visual Studio 2019 (current)
+        - url: ./windows/index.yml?view=vs-2017&preserve-view=true
+          text: Visual Studio 2017
+        - url: /previous-versions/visualstudio/
+          text: Previous versions
+        - url: /visualstudio/releases/2019/release-notes
+          text: Release notes
+        - url: https://visualstudio.microsoft.com/
+          text: Product page
+    - title: Visual Studio for Mac
+      imageSrc: ./media/vs-mac-2019.svg
+      links:
+        - url: /visualstudio/mac
+          text: Visual Studio 2019 for Mac (current)
+        - url: /visualstudio/mac/?view=vsmac-2017&preserve-view=true
+          text: Visual Studio 2017 for Mac
+        - url: /visualstudio/releasenotes/vs2019-mac-relnotes
+          text: Release notes
+        - url: https://visualstudio.microsoft.com/vs/mac/
+          text: Product page
+    - title: Visual Studio Code
+      imageSrc: ./media/vs-code-logo.svg
+      links:
+        - url: https://code.visualstudio.com/docs
+          text: Documentation
+        - url: https://code.visualstudio.com/updates
+          text: Release notes
+        - url: https://code.visualstudio.com
+          text: Product page
+    - title: GitHub Codespaces
+      imageSrc: ./media/github-mark-32px.svg
+      links:
+         - url: https://docs.github.com/github/developing-online-with-codespaces/
+           text: Documentation
+         - url: https://code.visualstudio.com/docs/remote/codespaces/
+           text: Use with Visual Studio Code
+         - url: ./ide/codespaces/use-visual-studio-with-codespaces.md
+           text: Use with Visual Studio
+         - url: https://github.com/features/codespaces/
+           text: Product page
+    - title: Visual Studio App Center
+      imageSrc: ./media/vs-mobile-center.svg
+      links:
+        - url: /appcenter
+          text: Documentation
+        - url: https://visualstudio.microsoft.com/app-center/
+          text: Portal
+    - title: Visual Studio Subscriptions
+      imageSrc: ./media/vs-subscription-temp.svg
+      links:
+        - url: /visualstudio/subscriptions
+          text: Documentation
+        - url: https://visualstudio.microsoft.com/subscriptions
+          text: Info on visualstudio.com
+        - url: https://my.visualstudio.com
+          text: Subscriber portal
+        - url: https://manage.visualstudio.com
+          text: Administrator portal

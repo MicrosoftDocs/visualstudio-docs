@@ -1,83 +1,112 @@
 ---
-title: "Install Visual Studio for Mac | Microsoft Docs"
-description: "Instructions on how to install Visual Studio for Mac and additional components required for cross-platform development."
-author: asb3993
-ms.author: amburns
-ms.date: 04/14/2017
-ms.topic: article
+title: "Install Visual Studio 2019 for Mac"
+description: "Instructions on how to install Visual Studio 2019 for Mac and additional components required for cross-platform development."
+author: heiligerdankgesang
+ms.author: dominicn
+ms.date: 09/18/2019
 ms.technology: vs-ide-install
 ms.assetid: 22B1F2CD-32AE-464D-80AC-C8AB4786B015
+ms.custom: video
+ms.topic: how-to
 ---
+# Install Visual Studio 2019 for Mac
 
-# Setup and Install Visual Studio for Mac
+To start developing native, cross-platform .NET apps on macOS, install Visual Studio 2019 for Mac following the steps below.
 
-## Setup
+ > [!div class="button"]
+ > [Download Visual Studio for Mac](https://visualstudio.microsoft.com/vs/mac/)
 
-To start developing native, cross-platform apps when you download Visual Studio for Mac there are a couple of things that you must install and set up in preparation.
+## Requirements
 
-For working with iOS in Visual Studio you need the following pieces:
+- A Mac with macOS High Sierra 10.13 or above.
 
-* a Mac with macOS Sierra 10.12 or above
-* Xcode 8.3
-* An Apple ID. If you don't have an Apple ID already you can create a new one at https://appleid.apple.com. It's necessary to have an Apple ID for installing and signing into Xcode.
+To build Xamarin apps for iOS or macOS, you'll also need:
 
-## Install
+- Xcode 10.0 or above. The latest stable version is usually recommended.
+- An Apple ID. If you don't have an Apple ID already you can create a new one at https://appleid.apple.com. It's necessary to have an Apple ID for installing and signing into Xcode.
 
-1. Download Visual Studio for Mac from [https://www.visualstudio.com/](https://www.visualstudio.com/)
+## Installation instructions
 
-2. Once the installer package is downloaded, click the **VisualStudioInstaller.dmg** file to mount the installer and then run it by double-clicking the logo, as illustrated by the following image:
+1. Download the installer from the [Visual Studio for Mac download page](https://visualstudio.microsoft.com/vs/mac/).
+2. Once the download is complete, click the **VisualStudioforMacInstaller.dmg** to mount the installer, then run it by double-clicking the arrow logo:
 
-  ![Installer dialog](media/installer-image1.png)
+    [![Click the large arrow to begin installation](media/install-installer-sml.png)](media/install-installer.png#lightbox)
 
-3. You might be prompted with an alert dialog similar to the following image. In this case, click **Open**:
+3. You may be presented with a warning about the application being downloaded from the Internet. Click **Open**.
+4. Wait while the installer checks your system:
 
-  ![alert dialog](media/installer-image2.png)
+    [![The installer checks your system for installed components](media/install-checking-sml.png)](media/install-checking.png#lightbox)
 
-4. The installer inspects your system to verify which components need to be installed or updated:
+5. An alert will appear asking you to acknowledge the privacy and license terms. Follow the links to read them, then press **Continue** if you agree:
 
-  ![Assessing your system](media/installer-image3.png)
+    [![Follow the links to the privacy and terms, then continue if you agree](media/install-privacy.png)](media/install-privacy.png#lightbox)
 
-5. You'll then be presented with an alert dialog asking you to acknowledge the Privacy and License terms. Press the **Continue** button to acknowledge the terms:
+6. The list of available workloads is displayed. Select the components you wish to use:
 
-  ![License dialog](media/installer-image4.png)
+    [![Choose which optional workload features you would like to install](media/install-selection.png)](media/install-selection.png#lightbox)
 
-6. The installer presents a list of required components that are missing and that need to be downloaded and installed. Select the products you wish to download here:
+   If you do not wish to install all platforms, use the guide below to help you decide which platforms to install:
 
-  ![Select Items](media/installer-image5.png)
+   |Type of App  |Target  |Selection  |Notes  |
+   |---------|---------|---------|---------|
+   |**Apps Using Xamarin**| Xamarin.Forms|Select **Android** and **iOS** platforms |You will need to install [**Xcode**](https://developer.apple.com/xcode/) |
+   ||iOS only|Select **iOS** platform|You will need to install [**Xcode**](https://developer.apple.com/xcode/)|
+   ||Android only|Select **Android** platform|Note that you should also select the relevant dependencies|
+   ||Mac only|Select **macOS (Cocoa)** platform|You will need to install [**Xcode**](https://developer.apple.com/xcode/)|
+   |**.NET Core applications**|         |Select **.NET Core** platform.|         |
+   |**ASP.NET Core Web Applications**|         |Select **.NET Core** platform.|         |
+   |**Azure Functions**|         |Select **.NET Core** platform.|         |
+   |**Cross-platform Unity Game Development**|         |No additional platforms need to be installed beyond Visual Studio for Mac.| Refer to the [Unity setup guide](./setup-vsmac-tools-unity.md) for more information on installing the Unity extension.|
 
-  This installation screen displays the version and size of each individual component. You can click each component to display a list of dependencies for that component (for Android), see additional packages that it downloads (for .NET Core), or view any additional applications required (for iOS and macOS):
+7. After you have made your selections, press the **Install** button.
+8. The installer will display progress as it downloads and installs Visual Studio for Mac and the selected workloads. You will be prompted to enter your password to grant the privileges necessary for installation.:
 
-  ![Android additional dependencies](media/installer-image6.png)
+    [![Choose which optional workload features you would like to install](media/installation-progress.png)](media/installation-progress.png#lightbox)
 
-7. Once you are happy with your selection, select the **Install and Update** button to start the installation process.
+9. Once installed, Visual Studio for Mac will prompt you to personalize your installation by signing in and selecting the key bindings that you'd like to use:
 
-8. The installer starts the download and install process of the selected items:
+    [![Sign in to the IDE](media/ide-tour-2019-start-signin.png)](media/ide-tour-2019-start-signin.png#lightbox)
 
-  ![Starting Installation](media/installer-image7.png)
+    [![Choose which keyboard shortcuts you would like to use](media/ide-tour-2019-keyboard-shortcut.png)](media/ide-tour-2019-keyboard-shortcut.png#lightbox)
 
-  ![Downloading Xamarin.Mac](media/installer-image8.png)
+If you have network trouble while installing in a corporate environment, review the [installing behind a firewall or proxy](#install-visual-studio-for-mac-behind-a-firewall-or-proxy-server) instructions.
 
-  ![Finishing Installation](media/installer-image9.png)
-
-9. You might be prompted to elevate the permissions necessary for individual components that are needed to complete installation. Enter your administrator credentials here to continue the installation process:
-
-  ![Enter permissions to continue with installer](media/installer-image10.png)
-
-10. Once the installation is successful, you can start developing apps in Visual Studio by pressing **Start**:
-
-  ![Open Visual Studio](media/installer-image11.png)
+Learn more about the changes in the [release notes](/visualstudio/releasenotes/vs2019-mac-relnotes).
 
 > [!NOTE]
-If you chose not install a platform or tool during the original installation (by unselecting it in step #6), you must run the [installer](https://www.visualstudio.com/vs/) again if you wish to add the components later.
+> If you chose not to install a platform or tool during the original installation (by unselecting it in step #6), you must run the installer again if you wish to add the components later.
 
-## Manual Installation
+## Install Visual Studio for Mac behind a firewall or proxy server
 
-If your installation fails or any single component of your installation fails, you may be able to resolve the issue through manual installation. To view the required components and download each one, take the following steps:
+To install Visual Studio for Mac behind a firewall, certain endpoints must be made accessible in order to allow downloads of the required tools and updates for your software.
 
-1. On the second screen on the Visual Studio Installer, go to the menu bar and select **View Manual Installation Instructions**:
+Configure your network to allow access to the following locations:
 
-    ![Option showing manual install menu item](media/installer-image12.png)
+- [Visual Studio endpoints](./install-behind-a-firewall-or-proxy-server.md)
 
-2. Follow the instructions to download and install the components manually:
+## Next steps
 
-  ![Manual installation dialog](media/installer-image13.png)
+Installing Visual Studio for Mac allows you to start writing code for your apps. The following guides are provided to guide you through the next steps of writing and deploying your projects.
+
+### iOS
+
+1. [Hello, iOS](https://developer.xamarin.com/guides/ios/getting_started/hello,_iOS/)
+2. [Device Provisioning](https://developer.xamarin.com/guides/ios/getting_started/installation/device_provisioning)(To run your application on device).
+
+### Android
+
+1. [Using the Xamarin Android SDK Manager](https://developer.xamarin.com/guides/android/getting_started/installation/android-sdk/?ide=xs)
+2. [Android SDK Emulator](https://developer.xamarin.com/guides/android/getting_started/installation/android-emulator/)
+4. [Set Up Device for Development](https://developer.xamarin.com/guides/android/getting_started/installation/set_up_device_for_development/)
+
+### .NET Core apps, ASP.NET Core web apps, Unity game development
+
+For other Workloads, refer to the [Workloads](workloads.md) page.
+
+## Related Video
+
+> [!Video https://channel9.msdn.com/Shows/Visual-Studio-Toolbox/Visual-Studio-for-Mac-Acquisition/player]
+
+## See also
+
+- [Install Visual Studio (on Windows)](/visualstudio/install/install-visual-studio)

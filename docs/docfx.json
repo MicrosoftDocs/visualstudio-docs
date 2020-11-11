@@ -4,13 +4,29 @@
       {
         "files": [
           "**/*.md",
-          "**/**.yml"
+          "**/*.yml"
         ],
         "exclude": [
           "**/obj/**",
           "vsdocsdocs/**",
           "**/includes/**"
-        ]
+        ],
+        "src": "./vs-2015",
+        "group": "vs-2015"
+      },
+      {
+        "files": [
+          "**/*.md",
+          "**/*.yml"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "vsdocsdocs/**",
+          "**/includes/**",
+          "vs-2015/**"
+        ],
+        "src": "./",
+        "group": "vs-2017-2019"
       }
     ],
     "resource": [
@@ -25,42 +41,128 @@
           "**/obj/**",
           "vsdocsdocs/**",
           "**/includes/**"
-        ]
+        ],
+        "src": "./vs-2015",
+        "group": "vs-2015"
+      },
+      {
+        "files": [
+          "**/*.png",
+          "**/*.jpg",
+          "**/*.gif",
+          "**/*.svg"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "vsdocsdocs/**",
+          "**/includes/**",
+          "vs-2015/**"
+        ],
+        "src": "./",
+        "group": "vs-2017-2019"
       }
     ],
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
-      "breadcrumb_path": "~/_breadcrumb/toc.yml",
-      "ROBOTS": "INDEX,FOLLOW",
-      "author": "",
-      "ms.author": "",
-      "manager": "ghogen",
+      "feedback_system": "GitHub",
+      "feedback_github_repo": "MicrosoftDocs/visualstudio-docs",
+      "feedback_product_url": "https://developercommunity.visualstudio.com/",
+      "breadcrumb_path": "/visualstudio/_breadcrumb/toc.json",
+      "extendBreadcrumb": "true",
+      "manager": "jillfra",
+      "author": "jillre",
+      "ms.author": "jillfra",
       "ms.date": "11/16/2016",
-      "ms.topic": "article",
+      "ms.topic": "conceptual",
       "audience": "developer",
-      "ms.reviewer": "",
-      "ms.prod": "visual-studio-dev15",
-      "ms.technology": "vs-ide-general",
-      "ms.tgt_pltfrm": "dotnet",
-      "searchScope": ["VS IDE"],
-      "featureFlags": ["productfeedback"],
-      "product_feedback_link_url1": "https://developercommunity.visualstudio.com/",
-      "product_feedback_link_text_key1": "feedbackProduct"
+      "defaultDevLang": "csharp",
+      "ms.prod": "visual-studio-windows",
+      "uhfHeaderId": "MSDocsHeader-VisualStudio",
+      "titleSuffix": "Visual Studio",
+      "toc_preview": true,
+      "searchScope": [
+        "VS IDE"
+      ],
+      "featureFlags": [
+        "enable_uhf_ppe"
+      ],
+      "archive_url": "/previous-versions/visualstudio"
     },
     "fileMetadata": {
-      "product_feedback_link_url2": {
-        "extensibility/**/*.md": "https://gitter.im/Microsoft/extendvs"
+      "open_to_public_contributors": {
+        "vs-2015/**/**.md": false
       },
-      "product_feedback_link_text_key2": {
-        "extensibility/**/*.md": "getHelp"
+      "ms.prod": {
+        "rtvs/**/**.md": "visual-studio-dev15",
+        "vs-2015/**/**.md": "visual-studio-dev14"
       },
-      "product_feedback_link_text_key1": {
-        "extensibility/**/*.md": "feedbackProduct"
+      "monikerRange": {
+        "rtvs/**/**.md": "vs-2017"
+      },
+      "ms.technology": {
+        "ai/**/**.md": "vs-ai-tools",
+        "azure/**/**.md": "vs-azure",
+        "code-quality/**/**.md": "vs-ide-code-analysis",
+        "data-tools/**/**.md": "vs-data-tools",
+        "debugger/**/**.md": "vs-ide-debug",
+        "deployment/**/**.md": "vs-ide-deployment",
+        "designers/**/**.md": "vs-ide-designers",
+        "extensibility/**/**.md": "vs-ide-sdk",
+        "help-viewer/**/**.md": "vs-help-viewer",
+        "ide/**/**.md": "vs-ide-general",
+        "install/**/**.md": "vs-installation",
+        "javascript/**/**.md": "vs-javascript",
+        "modeling/**/**.md": "vs-ide-modeling",
+        "msbuild/**/**.md": "msbuild",
+        "profiling/**/**.md": "vs-ide-debug",
+        "python/**/**.md": "vs-python",
+        "rtvs/**/**.md": "vs-rtvs",
+        "sharepoint/**/**.md": "sharepoint-development",
+        "test/**/**.md": "vs-ide-test",
+        "vsto/**/**.md": "office-development",
+        "workflow-designer/**/**.md": "vs-workflow-designer",
+        "xaml-tools/**/**.md": "vs-xaml-tools",
+        "xml-tools/**/**.md": "vs-xml-tools"
+      },
+      "titleSuffix": {
+        "ai/**/**.md": "AI tools for Visual Studio",
+        "vs-2015/**/**.md": "Visual Studio 2015"
+      },
+      "breadcrumb_path": {
+        "vs-2015/**/*.md": "/visualstudio/_breadcrumb/vs-2015/toc.json"
+      },
+      "feedback_system": {
+        "vs-2015/**/*": "None",
+        "extensibility/**/*": "None"
+      },
+      "searchScope": {
+        "extensibility/**/*.md": [
+          "VS Extensibility"
+        ],
+        "vs-2015/extensibility/**/*.md": [
+          "VS Extensibility"
+        ]
+      },
+      "exclude_monikers": {
+        "vs-2015/**/*.md": [
+          "vs-2015"
+        ]
       }
     },
     "template": [],
-    "xref": ["missingapi.yml", "../dotnet-xref/_zip/dotnet.zip", "namespaces.4.5.2.zip", "vs.110.zip", "vs.140.zip", "office15.zip"],
-    "dest": "vsdocsdocs"
+    "dest": "vsdocsdocs",
+    "markdownEngineName": "markdig",
+    "xref": [],
+    "groups": {
+      "vs-2015": {
+        "dest": "vs-2015-dest",
+        "moniker_range": "vs-2015"
+      },
+      "vs-2017-2019": {
+        "dest": "vs-2017-2019-dest",
+        "moniker_range": ">= vs-2017"
+      }
+    }
   }
 }

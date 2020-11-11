@@ -1,91 +1,96 @@
 ---
-title: "Advanced Build Settings Dialog Box (C#) | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/20/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-f1_keywords: 
-  - "cs.AdvancedBuildSettings"
-helpviewer_keywords: 
-  - "Build options [C#], advanced"
+title: Advanced Build Settings Dialog Box (C#)
+description: Learn how you can use Visual Studio to specify the project's advanced build configuration properties.
+ms.custom: SEO-VS-2020
+ms.date: 08/05/2019
+ms.technology: vs-ide-compile
+ms.topic: reference
+f1_keywords:
+- cs.AdvancedBuildSettings
+helpviewer_keywords:
+- Build options [C#], advanced
 ms.assetid: 141f2dee-1563-4ce6-ba37-32920b082519
-caps.latest.revision: 13
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
+author: ghogen
+ms.author: ghogen
+manager: jillfra
+ms.workload:
+- dotnet
 ---
-# Advanced Build Settings Dialog Box (C#)
+# Advanced Build Settings dialog box (C#)
 
-Use the **Advanced Build Settings** dialog box of the **Project Designer** to specify the project's advanced build configuration properties. This dialog box applies to [!INCLUDE[csprcs](../../data-tools/includes/csprcs_md.md)] projects only.
+Use the **Advanced Build Settings** dialog box of the **Project Designer** to specify the project's advanced build configuration properties. This dialog box applies to C# projects only.
 
 ## General
 
- The following options enable you to set general advanced settings.
+The following options enable you to set general advanced settings.
 
- **Language Version**
- Specifies the version of the language to use. The feature set is different in each version, so this option can be used to force the compiler to allow only a subset of the implemented features, or to enable only those features compatible with an existing standard. This setting has the following options:
+**Language Version**
 
- - **default**
+::: moniker range=">=vs-2019"
 
-   Targets the current version.
+Links to [/langversion (C# compiler options)](/dotnet/csharp/language-reference/compiler-options/langversion-compiler-option), which provides information about how a default language version is chosen based on a project's target framework.
 
-- **ISO-1** and **ISO-2**
+::: moniker-end
 
-  Targets the ISO-1 and ISO-2 standard features, respectively.
+::: moniker range="vs-2017"
 
-- **C# [version number]**
+Specifies the version of the language to use. The feature set is different in each version, so this option can be used to force the compiler to allow only a subset of the implemented features, or to enable only those features compatible with an existing standard.
 
- Targets a specific version of C#. For more information, see [/langversion (C# Compiler Options)](/dotnet/csharp/language-reference/compiler-options/langversion-compiler-option).
+The default value is C# 7.0.
 
+::: moniker-end
 
- **Internal Compiler Error Reporting**
- Specifies whether to report compiler errors to Microsoft. If set to **prompt** (the default), you will receive a prompt if an internal compiler error occurs, giving you the option of sending an error report electronically to Microsoft. If set to **send**, an error report will be sent automatically. If set to **queue**, error reports will be queued. If set to **none**, the error will be reported only in the compiler's text output. For more information, see [/errorreport (C# Compiler Options)](/dotnet/csharp/language-reference/compiler-options/errorreport-compiler-option).
+**Internal Compiler Error Reporting**
 
- **Check for arithmetic overflow/underflow**
- Specifies whether an integer arithmetic statement that is not in the scope of the [checked](/dotnet/csharp/language-reference/keywords/checked) or [unchecked](/dotnet/csharp/language-reference/keywords/unchecked) keywords and that results in a value outside the range of the data type will cause a run-time exception. For more information, see [/checked (C# Compiler Options)](/dotnet/csharp/language-reference/compiler-options/checked-compiler-option).
+Specifies whether to report compiler errors to Microsoft. If set to **prompt** (the default), you will receive a prompt if an internal compiler error occurs, giving you the option of sending an error report electronically to Microsoft. If set to **send**, an error report will be sent automatically. If set to **queue**, error reports will be queued. If set to **none**, the error will be reported only in the compiler's text output. For more information, see [/errorreport (C# Compiler Options)](/dotnet/csharp/language-reference/compiler-options/errorreport-compiler-option).
 
- **Do not reference mscorlib.dll**
- Specifies whether mscorlib.dll will be imported into your program, defining the entire <xref:System> namespace. Check this box if you want to define or create your own <xref:System> namespace and objects. For more information, see [/nostdlib (C# Compiler Options)](/dotnet/csharp/language-reference/compiler-options/nostdlib-compiler-option).
+**Check for arithmetic overflow/underflow**
+
+Specifies whether an integer arithmetic statement that is not in the scope of the [checked](/dotnet/csharp/language-reference/keywords/checked) or [unchecked](/dotnet/csharp/language-reference/keywords/unchecked) keywords and that results in a value outside the range of the data type will cause a run-time exception. For more information, see [/checked (C# Compiler Options)](/dotnet/csharp/language-reference/compiler-options/checked-compiler-option).
+
+**Do not reference mscorlib.dll**
+
+Specifies whether mscorlib.dll will be imported into your program, defining the entire <xref:System> namespace. Check this box if you want to define or create your own <xref:System> namespace and objects. For more information, see [/nostdlib (C# Compiler Options)](/dotnet/csharp/language-reference/compiler-options/nostdlib-compiler-option).
 
 ## Output
 
- The following options enable you to specify advanced output options.
+The following options enable you to specify advanced output options.
 
- **Debug Information**
- Specifies the type of debugging information generated by the compiler. For information on how to configure the debug performance of an application, see [Making an Image Easier to Debug](http://msdn.microsoft.com/Library/7d90ea7a-150f-4f97-98a7-f9c26541b9a3). This setting has the following options:
+**Debug Information**
+
+Specifies the type of debugging information generated by the compiler. For information on how to configure the debug performance of an application, see [Making an Image Easier to Debug](/dotnet/framework/debug-trace-profile/making-an-image-easier-to-debug). This setting has the following options:
 
 - **none**
 
-  Specifies that no debugging information will be generated.
+   Specifies that no debugging information will be generated.
 
 - **full**
 
-  Enables attaching a debugger to the running program.
+   Enables attaching a debugger to the running program.
 
 - **pdbonly**
 
-  Allows source code debugging when the program is started in the debugger but will only display assembler when the running program is attached to the debugger.
+   Allows source code debugging when the program is started in the debugger but will only display assembler when the running program is attached to the debugger.
+
 - **portable**
 
-  Produces a .PDB file, a non-platform-specific, portable symbol file that provides other tools, especially debuggers, information about what is in the main executable file and how it was produced. See [Portable PDB](https://github.com/dotnet/core/blob/master/Documentation/diagnostics/portable_pdb.md) for more information.
+   Produces a .PDB file, a non-platform-specific, portable symbol file that provides other tools, especially debuggers, information about what is in the main executable file and how it was produced. See [Portable PDB](https://github.com/dotnet/core/blob/master/Documentation/diagnostics/portable_pdb.md) for more information.
 
 - **embedded**
 
-  Embeds portable symbol information into the assembly. No external .PDB file is produced.
+   Embeds portable symbol information into the assembly. No external .PDB file is produced.
 
 For more information, see [/debug (C# Compiler Options)](/dotnet/csharp/language-reference/compiler-options/debug-compiler-option).
 
 **File Alignment**
+
 Specifies the size of sections in the output file. Valid values are **512**, **1024**, **2048**, **4096**, and **8192**. These values are measured in bytes. Each section will be aligned on a boundary that is a multiple of this value, affecting the size of the output file. For more information, see [/filealign (C# Compiler Options)](/dotnet/csharp/language-reference/compiler-options/filealign-compiler-option).
 
 **Library Base Address**
-Specifies the preferred base address at which to load a DLL. The default base address for a DLL is set by the [!INCLUDE[dnprdnshort](../../code-quality/includes/dnprdnshort_md.md)] common language runtime. For more information, see [/baseaddress (C# Compiler Options)](/dotnet/csharp/language-reference/compiler-options/baseaddress-compiler-option).
 
-## See Also
+Specifies the preferred base address at which to load a DLL. The default base address for a DLL is set by the .NET Framework common language runtime. For more information, see [/baseaddress (C# Compiler Options)](/dotnet/csharp/language-reference/compiler-options/baseaddress-compiler-option).
 
- [C# Compiler Options](/dotnet/csharp/language-reference/compiler-options/index)
- [Build Page, Project Designer (C#)](../../ide/reference/build-page-project-designer-csharp.md)
+## See also
+
+- [C# compiler options](/dotnet/csharp/language-reference/compiler-options/index)
+- [Build page, Project Designer (C#)](../../ide/reference/build-page-project-designer-csharp.md)

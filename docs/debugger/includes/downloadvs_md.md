@@ -1,5 +1,5 @@
 ---
-translation.priority.ht: 
+translation.priority.ht:
   - "cs-cz"
   - "de-de"
   - "es-es"
@@ -14,4 +14,4 @@ translation.priority.ht:
   - "zh-cn"
   - "zh-tw"
 ---
-[Download Visual Studio Community](https://www.visualstudio.com/vs/#downloadvs) or [compare Visual Studio editions](https://www.visualstudio.com/vs/compare/)
+[Download Visual Studio Community](https://visualstudio.microsoft.com/vs/#downloadvs) or [compare Visual Studio editions](https://visualstudio.microsoft.com/vs/compare/)

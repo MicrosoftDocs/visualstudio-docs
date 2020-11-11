@@ -1,102 +1,28 @@
 ---
-layout: LandingPage
-title: Scripting | Microsoft Docs
+title: Create JavaScript apps in Visual Studio | Microsoft Docs
+description: Learn how use Visual Studio to create JavaScript applications.
+ms.topic: conceptual
+ms.prod: visual-studio-windows
+ms.technology: vs-javascript
+ms.author: "mikejo"
+author: "mikejo5000"
+manager: jillfra
 ---
-# Scripting Technologies
+# JavaScript in Visual Studio
 
-This page provides links to JavaScript, TypeScript, and other ECMAScript-based technologies.
+Visual Studio provides different tools and features to help you create apps using JavaScript or TypeScript.
 
-<ul class="panelContent cardsFTitle">
-    <li>
-        <a href="http://www.typescriptlang.org/docs/tutorial.html">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="/en-us/media/common/i_learn-about.svg" alt="">
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Learn about TypeScript</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://docs.microsoft.com/scripting/javascript/javascript-language-reference">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="/en-us/media/common/i_learn-about.svg" alt="">
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Learn about JavaScript</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://docs.microsoft.com/scripting/chakra-hosting/javascript-runtime-hosting">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="/en-us/media/common/i_learn-about.svg" alt="">
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Learn about JavaScript Runtime Hosting</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-        <li>
-        <a href="https://docs.microsoft.com/scripting/winscript/windows-script-interfaces">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="/en-us/media/common/i_learn-about.svg" alt="">
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Learn about Windows Script Interfaces</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://msdn.microsoft.com/library/d1et7k7c(v=vs.84).aspx">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="/en-us/media/common/i_learn-about.svg" alt="">
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>JScript and VBScript (Archive)</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-</ul>
+- [Node.js tools for Visual Studio](/visualstudio/ide/quickstart-nodejs)
+- [TypeScript support in Visual Studio](/visualstudio/javascript/javascript-in-vs-2019)
 
----
+## Reference
+
+- [JavaScript Language Reference (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference)
+- [TypeScript](http://www.typescriptlang.org/docs/tutorial.html)
+- [JavaScript Runtime Hosting](/microsoft-edge/hosting/javascript-runtime-hosting)
+- [Windows Script Interfaces (Archive)](/previous-versions/windows/internet-explorer/ie-developer/scripting-articles/fdee6589(v%3dvs.94))
+- [JScript and VBScript (Archive)](/previous-versions/windows/internet-explorer/ie-developer/scripting-articles/d1et7k7c(v%3dvs.84))
+
+## See Also
+
+[JavaScript and TypeScript in Visual Studio](/visualstudio/javascript/)

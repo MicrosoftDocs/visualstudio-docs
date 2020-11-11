@@ -1,15 +1,15 @@
 ---
-title: "Adding and Removing Project Items | Microsoft Docs"
+title: "Adding and Removing Project Items"
 description: This document describes how to add and remove project items in Visual Studio for Mac
-author: asb3993
-ms.author: amburns
-ms.date: 04/14/2017
-ms.topic: article
+author: heiligerdankgesang
+ms.author: dominicn
+ms.date: 11/06/2020
 ms.assetid: 4071689D-1C21-42D7-8963-550E7BCB4B67
+ms.topic: how-to
 ---
 # Adding and Removing Project Items
 
-You can add new project items to your project by right-clicking on the Project node in the **Solution Pad** and browsing to **Add > New File**:
+You can add new project items to your project by right-clicking on the Project node in the **Solution Window** and browsing to **Add > New File**:
 
 ![Add New Project Item](media/add-and-remove-project-items-image1.png)
 
@@ -20,7 +20,6 @@ This displays the New File Dialog, which provides file templates based on the ty
 ## Adding existing files
 
 You can add existing files to your project by right-clicking on the Project node and selecting **Add > Add Files...**. Alternatively, to add an entire folder, select **Add > Add Existing Folder...**. This displays the file browser, which lets you search your system for the required item to add.
-
 
 ## Removing items
 
@@ -33,4 +32,8 @@ This displays the delete item dialog. Select one of the options to remove it fro
 ![Delete item dialog](media/add-and-remove-project-items-image4.png)
 
 * **Delete** - Removes item from project and from disk.
-* **Remove from Project** - Removes item from project, but will not remove it from disk 
+* **Remove from Project** - Removes item from project, but will not remove it from disk
+
+## See also
+
+* [Solutions and projects in Visual Studio (on Windows)](/visualstudio/ide/solutions-and-projects-in-visual-studio)

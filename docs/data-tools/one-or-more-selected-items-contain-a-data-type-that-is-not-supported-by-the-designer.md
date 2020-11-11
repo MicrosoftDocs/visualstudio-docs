@@ -1,27 +1,26 @@
 ---
-title: "One or more selected items contain a data type that is not supported by the designer | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+title: Unsupported data type
+description: 'One or more selected items contain a data type that is not supported by the designer. View information about this Visual Studio O/R Designer message.'
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: error-reference
 ms.assetid: 71dcd4f9-2946-42c5-9ce4-99c819ea2785
-caps.latest.revision: 4
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
-ms.technology: "vs-data-tools"
+author: ghogen
+ms.author: ghogen
+manager: jillfra
+ms.workload:
+- data-storage
 ---
 # One or more selected items contain a data type that is not supported by the designer
-One or more of the items dragged from **Server Explorer**/**Database Explorer** onto the [!INCLUDE[vs_ordesigner_short](../data-tools/includes/vs_ordesigner_short_md.md)] contains a data type that is not supported by the [!INCLUDE[vs_ordesigner_short](../data-tools/includes/vs_ordesigner_short_md.md)] (for example, [CLR User-Defined Types](http://msdn.microsoft.com/Library/9f70e0b0-3a0d-4eb1-b914-07a5d0c167c2)).  
-  
-### To correct this error  
-  
-1.  Create a view that is based on the desired table and that does not include the unsupported data type.  
-  
-2.  Drag the view from **Server Explorer**/**Database Explorer** onto the designer.  
-  
+
+One or more of the items dragged from **Server Explorer** or **Database Explorer** onto the **O/R Designer** contains a data type that is not supported by the **O/R Designer**, for example, [CLR user-defined types](/dotnet/framework/data/adonet/sql/clr-user-defined-types).
+
+## To correct this error
+
+1. Create a view that is based on the desired table and that does not include the unsupported data type.
+
+2. Drag the view from **Server Explorer** or **Database Explorer** onto the designer.
+
 ## See also
-[O/R Designer messages](../data-tools/o-r-designer-messages.md)  
-[LINQ to SQL tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)
+
+- [LINQ to SQL tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)

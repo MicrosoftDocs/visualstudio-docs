@@ -1,14 +1,9 @@
 ---
 title: "Regular expression object expected | Microsoft Docs"
-ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-client-threshold"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "javascript"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-windows
+ms.technology: vs-javascript
+ms.topic: error-reference
 f1_keywords: 
   - "VS.WebClient.Help.SCRIPT5016"
 dev_langs: 
@@ -16,7 +11,6 @@ dev_langs:
   - "TypeScript"
   - "DHTML"
 ms.assetid: e226096c-c58f-4bcb-a71e-fa32ce474b67
-caps.latest.revision: 6
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
@@ -26,8 +20,8 @@ You attempted to invoke the **RegExp.prototype.toString** or **RegExp.prototype.
   
 ### To correct this error  
   
--   Only invoke the **RegExp.prototype.toString** or **RegExp.prototype.valueOf** methods on objects of type `RegExp`.  
+- Only invoke the **RegExp.prototype.toString** or **RegExp.prototype.valueOf** methods on objects of type `RegExp`.  
   
-## See Also  
- [Regular Expression Object](../../javascript/reference/regular-expression-object-javascript.md)   
- [Regular Expression Syntax (JavaScript)](http://msdn.microsoft.com/en-us/ab0766e1-7037-45ed-aa23-706f58358c0e)
+## See also  
+ [Regular Expression Object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RegExp)   
+ [Regular Expression Syntax (JavaScript)](/previous-versions/1400241x(v=vs.100))

@@ -1,176 +1,159 @@
 ---
-title: "How to: Locate and Organize Project and Item Templates | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/02/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-helpviewer_keywords: 
-  - "project templates [Visual Studio], locations"
-  - "custom template locations [Visual Studio]"
-  - "item templates, locations"
-  - "Visual Studio templates, locations"
-  - "project templates [Visual Studio], displaying"
-  - "templates [Visual Studio], locations"
-ms.assetid: 71f9ed52-c9c9-4818-9bce-c279ffaa0438
-caps.latest.revision: 25
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
+title: Locate templates
+ms.date: 01/02/2018
+ms.topic: how-to
+helpviewer_keywords:
+- project templates [Visual Studio], locations
+- item templates [Visual Studio], locations
+- template locations [Visual Studio]
+author: TerryGLee
+ms.author: tglee
+manager: jillfra
 ---
-# How to: Locate and Organize Project and Item Templates
-Template files must be placed in a location that Visual Studio recognizes so that the templates will appear in the **New Project** and **Add New Item** dialog boxes. You can create custom subcategories for templates so that the subcategories will also appear in the user interface.  
+# How to: Locate and organize project and item templates
 
-## Locating Templates  
- By default, Visual Studio searches two locations for project and item templates. If a compressed file that includes a .vstemplate file exists in these locations, a template will appear in the **New Project** or **Add New Item** dialog boxes.  
+Template files must be placed in a known location in order for them to be shown in the new project and new item dialog boxes..
 
-### Installed Templates  
- By default, templates installed together with the product are located in:  
+::: moniker range="vs-2017"
 
--   \\*VisualStudioInstallationDirectory*\Common7\IDE\ItemTemplates\\*Language*\\*Locale*\  
+You can also create custom subcategories in the user template location, and the categories are shown in the **New Project** and **Add New Item** dialog boxes.
 
--   \\*VisualStudioInstallationDirectory*\Common7\IDE\ProjectTemplates\\*Language*\\*Locale\\*  
+::: moniker-end
 
- For example, the following directory contains the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] project templates for English:  
+## Locate templates
 
- C:\\*VisualStudioInstallationDirectory*\Common7\IDE\ItemTemplates\VisualBasic\1033\  
+Installed templates and user templates are stored in two different locations.
 
-### Custom Templates  
- By default, custom templates are located in:  
+### Installed templates
 
--   \My Documents\Visual Studio *Version*\Templates\ProjectTemplates\\*Language*\  
+By default, templates installed with Visual Studio are located in:
 
--   \My Documents\Visual Studio *Version*\Templates\ItemTemplates\\*Language*\  
+::: moniker range="vs-2017"
 
- For example, the following directory contains custom [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] project templates:  
+- *%ProgramFiles(x86)%\\Microsoft Visual Studio\\2017\\\<edition>\\Common7\IDE\ProjectTemplates\\<Language\>\\<Locale ID\>*
 
- C:\Documents and Settings\UserName\My Documents\Visual Studio *Version*\Templates\ProjectTemplates\Visual C#\  
+- *%ProgramFiles(x86)%\\Microsoft Visual Studio\\2017\\\<edition>\Common7\IDE\ItemTemplates\\<Language\>\\<Locale ID\>*
 
- Custom templates do not include a subdirectory for localized templates. You can change the default directory for custom templates in the **Options** dialog box, under **Environment\Projects and Solutions**.  
+For example, the following directory has the Visual Basic item templates for English (LCID 1033):
 
-## Organizing Templates  
- The categories in the **New Project** and **Add New Item** dialog boxes reflect the directory structures that exist in the installed and custom template locations. You can modify these directory structures to organize your templates in a way that makes sense to you.  
+*C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\Common7\\IDE\\ItemTemplates\\VisualBasic\\1033*
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+- *%ProgramFiles(x86)%\\Microsoft Visual Studio\\2019\\\<edition>\\Common7\IDE\ProjectTemplates\\<Language\>\\<Locale ID\>*
+
+- *%ProgramFiles(x86)%\\Microsoft Visual Studio\\2019\\\<edition>\Common7\IDE\ItemTemplates\\<Language\>\\<Locale ID\>*
+
+For example, the following directory has the Visual Basic item templates for English (LCID 1033):
+
+*C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\ItemTemplates\\VisualBasic\\1033*
+
+::: moniker-end
+
+### User templates
+
+If you add a compressed (*.zip*) file that includes a *.vstemplate* file to the user template directory, the template appears in the new project and new item dialog boxes. By default, user templates are located in:
+
+::: moniker range="vs-2017"
+
+- *%USERPROFILE%\Documents\Visual Studio 2017\Templates\ProjectTemplates*
+
+- *%USERPROFILE%\Documents\Visual Studio 2017\Templates\ItemTemplates*
+
+For example, the following directory has user project templates for C#:
+
+- *C:\Users\UserName\Documents\Visual Studio 2017\Templates\ProjectTemplates\Visual C#*
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+- *%USERPROFILE%\Documents\Visual Studio 2019\Templates\ProjectTemplates*
+
+- *%USERPROFILE%\Documents\Visual Studio 2019\Templates\ItemTemplates*
+
+For example, the following directory has user project templates for C#:
+
+- *C:\Users\UserName\Documents\Visual Studio 2019\Templates\ProjectTemplates\Visual C#*
+
+::: moniker-end
+
+> [!TIP]
+> You can change the known location for user templates in **Tools** > **Options** > **Projects and Solutions** > **Locations**.
+
+::: moniker range="vs-2017"
+
+## Organize templates
+
+The categories in the **New Project** and **Add New Item** dialog boxes reflect the directory structures that exist in the installed template and user template locations. User templates can be organized into their own categories by adding new folders to the user template directory. The **New Project** and **Add New Item** dialog boxes show any changes you make to your user template categories.
 
 > [!NOTE]
->  You cannot create a new category at the programming language level. New categories can only be created within each language.  
+> You cannot create a new category at the programming language level. New categories can only be created within each language.
 
- If the directory structures for installed and custom templates for a particular language do not have the same structure (that is, there are directories under one folder that do not exist under the other) the set of categories that appear in the **New Project** dialog will be the merger of all categories.  
+### Create new user project template categories
 
-### Organizing Installed Templates  
- You can organize installed templates by creating subdirectories in the programming language folder. These subdirectories appear in the **New Project** and **Add New Item** dialog boxes as virtual folders within each language.  
+1. Create a folder in the programming language folder in the user project template directory. For example, to establish a **HelloWorld** category for C# project templates, create the following directory:
 
-##### To create new installed project template categories  
+    - *\%USERPROFILE%\Documents\Visual Studio \<Version\>\Templates\ProjectTemplates\Visual C#\HelloWorld*
 
-1.  Create a folder in the language folder of the installed template directory. For example, to create an Office category for [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] project templates you would create the following directory:  
+1. Place all the templates for this category in the new folder.
 
-     \\*VisualStudioInstallationDirectory*\Common7\IDE\ProjectTemplates\VisualBasic\1033\Office\  
+1. On the **File** menu, choose **New** > **Project**.
 
-2.  Place all the templates for this category in the new folder.  
+   The **HelloWorld** category appears in the **New Project** dialog box, under **Installed** > **Visual C#**.
 
-3.  Close all instances of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
+### Create new user item template categories
 
-4.  On the **Start** menu, click **Run**, type **cmd**, and click **OK**.  
+1. Create a folder in the programming language folder in the user item template directory. For example, to establish a **HelloWorld** category for C# item templates, create the following directory:
 
-5.  At the command prompt, locate the directory that contains devenv.exe, and type **devenv /installvstemplates**.  
+    - *\%USERPROFILE%\Documents\Visual Studio \<Version\>\Templates\ItemTemplates\Visual C#\HelloWorld*
 
-6.  Run [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
+1. Place all the templates for this category in the new folder.
 
-7.  On the **File** menu, click **New**, and then click **Project**.  
+1. Create a project or open an existing project. Then, on the **Project** menu, choose **Add New Item**.
 
-8.  Verify that the Office category appears in the **New Project** dialog box, in the **Project types** pane, under [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)].  
+   The **HelloWorld** category appears in the **Add New Item** dialog box, under **Installed** > **Visual C# Items**.
 
- You can also group a subset of the project item templates into a custom folder.  
+### Display templates in parent categories
 
-##### To create new installed item template categories  
+You can enable templates in subcategories to be displayed in their parent categories by using the `NumberOfParentCategoriesToRollUp` element in the *.vstemplate* file. These steps are the same for project templates and item templates.
 
-1.  Create a folder in the language folder of the installed template directory. For example, to create a Web category for [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] item templates you would create the following directory:  
+1. Locate the *.zip* file that contains the template.
 
-     \\*VisualStudioInstallationDirectory*\Common7\IDE\ItemTemplates\CSharp\1033\Web\  
+1. Extract the *.zip* file.
 
-2.  Place all templates for this category in the new folder.  
+1. Open the *.vstemplate* file in Visual Studio.
 
-3.  Close all instances of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
+1. In the `TemplateData` element, add a `NumberOfParentCategoriesToRollUp` element. For example, the following code makes the template visible in the parent category, but no higher.
 
-4.  On the **Start** menu, click **Run**, type **cmd**, and click **OK**.  
+    ```xml
+    <TemplateData>
+        ...
+        <NumberOfParentCategoriesToRollUp>
+            1
+        </NumberOfParentCategoriesToRollUp>
+        ...
+    </TemplateData>
+    ```
 
-5.  At the command prompt, locate the directory that contains devenv.exe, and type **devenv /setup**.  
+1. Save and close the *.vstemplate* file.
 
-6.  Run [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
+1. Select the files in your template, right-click the selection, and choose **Send to** > **Compressed (zipped) folder**.
 
-7.  Create a project or open an existing project.  
+   The files are compressed into a *.zip* file.
 
-8.  On the **Project** menu, click **Add New Item**.  
+1. Delete the extracted template files and the old template *.zip* file.
 
-9. Verify that the Web category appears in the **Add New Item** dialog box, in the **Project types** pane.  
+1. Put the new *.zip* file in the directory that had the deleted *.zip* file.
 
-### Organizing Custom Templates  
- Custom templates can be organized into their own categories by adding new folders in the custom template location. The **New Project** dialog box reflects any changes you make to your template categories.  
+::: moniker-end
 
-##### To create new custom project template categories  
+## See also
 
-1.  Create a folder in the language folder in the custom project template directory. For example, to create a HelloWorld category for [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] templates, you would create the following directory:  
-
-     \My Documents\Visual Studio *Version*\Templates\ProjectTemplates\CSharp\HelloWorld\  
-
-2.  Place all the templates for this category in the new folder.  
-
-3.  On the **File** menu, click **New**, and then click **Project**.  
-
-4.  Verify that the HelloWorld category appears in the **New Project** dialog box, in the **Project types** pane, under [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)].  
-
- You can also group a subset of the custom item templates into a custom folder.  
-
-##### To create new custom item template categories  
-
-1.  Create a folder in the language folder in the custom item template directory. For example, to create a HelloWorld category for [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] templates you would create the following directory:  
-
-     \My Documents\Visual Studio *Version*\Templates\ItemTemplates\CSharp\HelloWorld\  
-
-2.  Place all the templates for this category in the new folder.  
-
-3.  Create a project or open an existing project.  
-
-4.  On the **Project** menu, click **Add New Item**.  
-
-5.  Verify that the HelloWorld category appears in the **Add New Item** dialog box, in the **Project types** pane.  
-
-### Displaying Templates in Parent Categories  
- You can enable templates in subcategories to be displayed in their parent categories by using the `NumberOfParentCategoriesToRollUp` element in the .vstemplate file. These steps are identical for both project templates and item templates.  
-
-##### To display templates in parent categories  
-
-1.  Locate the .zip file that contains the template.  
-
-2.  Extract the .zip file.  
-
-3.  Open the .vstemplate file in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
-
-4.  In the `TemplateData` element, add a `NumberOfParentCategoriesToRollUp` element. For example, the following code makes the template visible in the parent category, but no higher.  
-
-    ```  
-    <TemplateData>  
-        ...  
-        <NumberOfParentCategoriesToRollUp>  
-            1  
-        </NumberOfParentCategoriesToRollUp>  
-        ...  
-    </TemplateData>  
-    ```  
-
-5.  Save and close the .vstemplate file.  
-
-6.  Select the files in your template, right-click the selection, click **Send To**, and then click **Compressed (zipped) Folder**. The files are compressed into a .zip file.  
-
-7.  Delete the extracted template files and the old template .zip file.  
-
-8.  Put the new .zip file in the directory that had the deleted .zip file.  
-
-## See Also  
- [Customizing Templates](../ide/customizing-project-and-item-templates.md)   
- [Visual Studio Template Schema Reference](../extensibility/visual-studio-template-schema-reference.md)   
- [NumberOfParentCategoriesToRollUp (Visual Studio Templates)](../extensibility/numberofparentcategoriestorollup-visual-studio-templates.md)   
- [How to: Create Project Templates](../ide/how-to-create-project-templates.md)   
- [How to: Create Item Templates](../ide/how-to-create-item-templates.md)
+- [Customize templates](../ide/customizing-project-and-item-templates.md)
+- [Visual Studio template schema reference (extensibility)](../extensibility/visual-studio-template-schema-reference.md)
+- [NumberOfParentCategoriesToRollUp (Visual Studio templates)](../extensibility/numberofparentcategoriestorollup-visual-studio-templates.md)
+- [How to: Create project templates](../ide/how-to-create-project-templates.md)
+- [How to: Create item templates](../ide/how-to-create-item-templates.md)

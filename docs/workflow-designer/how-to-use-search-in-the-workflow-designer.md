@@ -1,47 +1,50 @@
 ---
-title: "How to: Use Search in the Workflow Designer | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "reference"
+title: "How to: Use Search in the Workflow Designer"
+description: Learn how to search within the Workflow Designer to find items by keyword so you can facilitate creating larger, more complex workflows. 
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
 ms.assetid: f42d3115-2ed2-4941-8f1e-92dac41c30fa
-caps.latest.revision: 3
-ms.author: "sdanie"
-manager: "erikre"
+author: TerryGLee
+ms.author: tglee
+manager: jillfra
+ms.workload:
+  - "multiple"
 ---
 # How to: Use Search in the Workflow Designer
-To facilitate creating larger, more complex workflows, Search can be used in the Workflow Designer to find items by keyword. Note that the designer does not support Replace. Search will find the following in the designer:  
-  
-## Quick Find  
- Quick find will find the following in the designer:  
-  
--   Properties of <xref:System.Activities.Activity> objects, <xref:System.Activities.Statements.FlowNode> objects, <xref:System.Activities.Statements.State> objects, transitions, and other custom flow-control items.  
-  
--   Variables  
-  
--   Arguments  
-  
--   Expressions  
-  
-#### Using Quick Find  
-  
-1.  With the workflow designer open, press **Ctrl+F**, or select **Edit**, **Find and Replace**, **Quick Find**.  
-  
-2.  Enter the search term into the **Find what** textbox and click **Find Next**.  
-  
-3.  The search term will be located in the current workflow. The following screenshot shows an activity display name being located in the designer.  
-  
-     ![Search result in the Workflow Designer](../workflow-designer/media/designersearch.png "DesignerSearch")  
-  
-## Find in files  
- Using Find in Files will locate strings in workflow files, including XAML files.  
-  
-#### Using Find in Files  
-  
-1.  In Visual Studio, press **Ctrl + Shift + F**, or select **Edit**, **Find and Replace**, **Find in Files**  
-  
-2.  Enter the search item into the **Find what** textbox and click **Find All**  
-  
-3.  The find result will be shown in the [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)]**Find Result** view. Double-clicking a result item will navigate to the activity which contains the match in workflow designer.
+
+To facilitate creating larger, more complex workflows, you can search within the Workflow Designer to find items by keyword. Note that the designer does not support Replace.
+
+## Quick Find
+
+Quick find finds the following in the designer:
+
+- Properties of <xref:System.Activities.Activity> objects, <xref:System.Activities.Statements.FlowNode> objects, <xref:System.Activities.Statements.State> objects, transitions, and other custom flow-control items.
+
+- Variables
+
+- Arguments
+
+- Expressions
+
+### Use Quick Find
+
+1. With the workflow designer open, press **Ctrl+F**, or select **Edit** > **Find and Replace** > **Quick Find**.
+
+2. Enter the search term into the **Find what** textbox and click **Find Next**.
+
+3. The search term is located in the current workflow. The following image shows an activity display name being located in the designer:
+
+   ![Search result in the Workflow Designer](../workflow-designer/media/designersearch.png)
+
+## Find in files
+
+Find in Files locates strings in workflow files, including XAML files.
+
+### Use Find in Files
+
+1. In Visual Studio, press **Ctrl**+**Shift**+**F**, or select **Edit** > **Find and Replace** > **Find in Files**.
+
+2. Enter the search item into the **Find what** textbox and click **Find All**.
+
+3. The find result is shown in the **Find Result** view. Double-clicking a result item navigates to the activity that contains the match in workflow designer.

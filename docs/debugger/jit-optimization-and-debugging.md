@@ -1,40 +1,67 @@
 ---
 title: "JIT Optimization and Debugging | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-dev_langs: 
+ms.topic: "conceptual"
+dev_langs:
   - "CSharp"
   - "VB"
   - "FSharp"
   - "C++"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "debugging [Visual Studio], optimized code"
   - "optimized code, debugging"
 ms.assetid: 19bfabf3-1a2e-49dc-8819-a813982e86fd
-caps.latest.revision: 13
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: jillfra
+ms.workload:
+  - "multiple"
 ---
 # JIT Optimization and Debugging
-When you debug a managed application, [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] suppresses optimization of just-in-time (JIT) code by default. Suppressing JIT optimization means you are debugging non-optimized code. The code runs a bit slower because it is not optimized, but your debugging experience is much more thorough. Debugging optimized code is harder and recommended only if you encounter a bug that occurs in optimized code but cannot be reproduced in the non-optimized version.  
-  
- JIT optimization is controlled in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] by the **Suppress JIT optimization on module load** option. You can find this option on the **General** page under the **Debugging** node in the **Options** dialog box.  
-  
- If you clear the **Suppress JIT optimization on module load** option, you can debug optimized JIT code, but your ability to debug may be limited because the optimized code does not match the source code. As a result, debugger windows such as the **Locals** and **Autos** window may not display as much information as they would if you were debugging non-optimized code.  
-  
- Another important difference concerns debugging with Just My Code. If you are debugging with Just My Code, the debugger considers optimized code to be non-user code, which should not be displayed while you are debugging. Consequently, if you are debugging JIT optimized code, you probably want to turn Just My Code off. For more information, see  [Restrict stepping to Just My Code](../debugger/navigating-through-code-with-the-debugger.md#BKMK_Restrict_stepping_to_Just_My_Code).  
-  
- Remember that the **Suppress JIT optimization on module load** option suppresses optimization of code when modules are loaded. If you attach to a process that is already running, it may contain code that is already loaded, JIT-compiled, and optimized. The **Suppress JIT optimization on module load** option has no effect on such code, although it will affect modules that are loaded after you attach. In addition, the **Suppress JIT optimization on module load** option does not affect modules, such as WinForms.dll, that are created with NGEN.  
-  
-## See Also  
- [Debugging Managed Code](../debugger/debugging-managed-code.md)   
- [Navigating through Code with the Debugger](../debugger/navigating-through-code-with-the-debugger.md)   
- [Attach to Running Processes](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md)   
- [Managed Execution Process](/dotnet/standard/managed-execution-process)
+If you are trying to debug code, it is easier when that code is **NOT** optimized. When code is optimized, the compiler and runtime make changes to the emitted CPU code so that it runs faster, but has a less direct mapping to original source code. If the mapping is less direct, debuggers are frequently unable to tell you the value of local variables, and code stepping and breakpoints might not work as you expect.
+
+> [!NOTE]
+> For more info on JIT (Just In Time) debugging, read [this documentation](../debugger/debug-using-the-just-in-time-debugger.md).
+
+## How optimizations work in .NET 
+Normally the Release build configuration creates optimized code and the Debug build configuration does not. The `Optimize` MSBuild property controls whether the compiler is told to optimize code.
+
+In the .NET ecosystem, code is turned from source to CPU instructions in a two-step process: first, the C# compiler converts the text you type to an intermediate binary form called MSIL and writes the MSIL out to .dll files. Later, the .NET Runtime converts this MSIL to CPU instructions. Both steps can optimize to some degree, but the second step performed by the .NET Runtime performs the more significant optimizations.
+
+## The 'Suppress JIT optimization on module load (Managed only)' option
+The debugger exposes an option that controls what happens when a DLL that is compiled with optimizations enabled loads inside of the target process. If this option is unchecked (the default state), then when the .NET Runtime compiles the MSIL code into CPU code, it leaves the optimizations enabled. If the option is checked, then the debugger requests that optimizations be disabled.
+
+To find the **Suppress JIT optimization on module load (Managed only)** option, select **Tools** > **Options**, and then select the **General** page under the **Debugging** node.
+
+![Suppress JIT Optimization](../debugger/media/suppress-jit-tool-options.png "Suppress JIT Optimization")
+
+## When should you check the 'Suppress JIT optimization' option?
+Check this option when you downloaded the DLLs from another source, such as a nuget package, and you want to debug the code in this DLL. In order for suppression to work, you must also find the symbol (.pdb) file for this DLL.
+
+If you are only interested in debugging the code you are building locally, it is best to leave this option unchecked, as, in some cases, enabling this option will significantly slow down debugging. There are two reasons for this slow down:
+
+* Optimized code runs faster. If you are turning off optimizations for lots of code, the performance impact can add up.
+* If you have Just My Code enabled, the debugger will not even try to load symbols for DLLs that are optimized. Finding symbols can take a long time.
+
+## Limitations of the 'Suppress JIT optimization' option 
+There are two situations where turning on this option will **NOT** work:
+
+1. In situations where you are attaching the debugger to an already running process, this option will have no effect on modules that were already loaded at the time the debugger was attached.
+2. This option has no effect on DLLs that have been pre-compiled (a.k.a ngen'ed) to native code. However, you can disable usage of pre-compiled code by starting the process with the environment variable **'COMPlus_ReadyToRun'** set to **'0'**. This will tell the .NET Core runtime to disable the use of pre-compiled images, forcing the runtime to JIT compile framework code. 
+
+    > [!IMPORTANT]
+    > If you are targeting .NET Framework or an older version of .NET Core (2.x or lower), also add the environment variable 'COMPlus_ZapDisable' and set it to '1'
+
+    **To set an environmental variable for a .NET Core project in Visual Studio:**
+    1. In the **Solution Explorer**, **right-click** the project file and select **Properties**.
+    2. Navigate to the **Debug** tab and under **Environment variables**, click the **Add** button.
+    3. Set Name (Key) to **COMPlus_ReadyToRun** and set Value to **0**.
+
+    ![Set COMPlus_ReadyToRun environment variable](../debugger/media/environment-variables-debug-menu.png "Set COMPlus_ReadyToRun environment variable")
+
+## See also
+- [How To Debug Dotnet Framework Source](../debugger/how-to-debug-dotnet-framework-source.md)
+- [Debugging Managed Code](../debugger/debugging-managed-code.md)
+- [Navigating through Code with the Debugger](../debugger/navigating-through-code-with-the-debugger.md)
+- [Attach to Running Processes](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md)
+- [Managed Execution Process](/dotnet/standard/managed-execution-process)

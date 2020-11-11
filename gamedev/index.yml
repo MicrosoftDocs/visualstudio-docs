@@ -1,0 +1,89 @@
+### YamlMime:Hub
+
+title: Visual Studio game development documentation
+summary: Learn how to make games using Visual Studio, Visual Studio for Mac, and the leading tools they integrate with like Unity, Unreal Engine, and more.
+brand: visual-studio
+metadata:
+  title: Visual Studio game development documentation | Microsoft Docs
+  description: This article introduces the features of Visual Studio for game development.
+  author: therealjohn
+  ms.author: johmil
+  ms.date: 08/05/2020
+  ms.topic: hub-page
+
+highlightedContent:
+  items:
+    - title: Game development with Visual Studio
+      itemType: overview
+      url: https://visualstudio.microsoft.com/vs/features/game-development
+    - title: C# game development with Unity
+      itemType: learn
+      url: unity/get-started/visual-studio-tools-for-unity.md
+    - title: What's new in Visual Studio Tools for Unity?
+      itemType: whats-new
+      url: unity/change-log-visual-studio-tools-for-unity.md
+    - title: Create your first 3D app with Unity
+      itemType: quickstart
+      url: https://dotnet.microsoft.com/learn/games/unity-tutorial/intro
+    - title: Learn more about .NET game development
+      itemType: learn
+      url: https://dotnet.microsoft.com/apps/gaming
+
+productDirectory:
+  title: Game development
+  summary: Learn more about the leading tools and technologies integrated with Visual Studio and .NET
+  items:
+    - title: Unity
+      imageSrc: unity/media/unity-logo.png
+      links:
+        - url: unity/get-started/visual-studio-tools-for-unity.md
+          text: Tour Visual Studio Tools for Unity
+        - url: unity/get-started/getting-started-with-visual-studio-tools-for-unity.md
+          text: Get started with Visual Studio and Unity
+        - url: unity/troubleshooting/troubleshooting-and-known-issues-visual-studio-tools-for-unity.md
+          text: Troubleshooting Visual Studio Tools for Unity
+    - title: MonoGame
+      imageSrc: monogame/media/monogame-logo.png
+      links:
+        - url: https://www.monogame.net/
+          text: Overview of MonoGame
+        - url: https://docs.monogame.net/articles/getting_started/0_getting_started.html
+          text: Getting started with MonoGame
+        - url: https://docs.monogame.net/articles/getting_started/0_getting_started.html#setting-up-your-development-environment
+          text: Setting up Visual Studio for MonoGame
+    - title: Unreal Engine
+      imageSrc: unreal/media/unreal-engine-logo.png
+      links:
+        - url: https://www.unrealengine.com/features
+          text: Overview of Unreal Engine
+        - url: https://docs.unrealengine.com/GettingStarted/index.html
+          text: Get started with Unreal Engine
+        - url: https://docs.unrealengine.com/Programming/Development/VisualStudioSetup/index.html
+          text: Setting up Visual Studio for Unreal Engine
+
+conceptualContent:
+  title: Level up with Visual Studio
+  summary: Learn more about code editing, debugging, building, and more with Visual Studio.
+  items:
+    - title: Learn how to use Visual Studio
+      links:
+        - text: Start a guided tour
+          url: /docs/get-started/visual-studio-ide.md
+          itemType: overview
+        - text: Write and edit code
+          url: /docs/ide/index-writing-code.yml
+          itemType: tutorial
+        - text: General debugging features
+          itemType: tutorial
+          url: /docs/debugger/debugger-feature-tour.md
+    - title: Follow a tutorial
+      links:
+        - text: Your first game with Unity
+          url: https://dotnet.microsoft.com/learn/games/unity-tutorial/intro
+          itemType: tutorial
+        - text: MonoGame samples & demos
+          url: https://docs.monogame.net/articles/samples.html
+          itemType: tutorial
+        - text: Unreal Engine tutorials
+          url: https://www.unrealengine.com/en-US/onlinelearning-courses
+          itemType: learn
