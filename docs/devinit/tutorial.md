@@ -37,8 +37,87 @@ Next, we'll explore how to accomplish all of this in the context of devinit.
 
 ## Step 2: The .devinit.json
 
+First, we'll want to construct a [.devinit.json file](devinit-json.md) and place it in the root of our repository. This file will include a series of steps that will be executed later as part of a `devinit init` command. To determine what should be included in the `.devinit.json` file, we can take our list of setup steps and compare to the list of [devinit tools](devinit-tool-list.md). Let's do that now with the setup steps from above.
+
+| Step                                                              | Can devinit handle this for us?                                                                        |
+| :---------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------  |
+| Install latest .NET Core SDK                                      | **Yes**! We can use the [`require-dotnetcoresdk` tool](tool-require-dotnetcoresdk.md)                  |
+| Install .NET Entity Framework Core Tools CLI                      | **Yes**! We can use the [`dotnet-toolinstall` tool](tool-dotnet-toolinstall.md)                        |
+| Install SQL Server 2017 Express LocalDB                           | **Yes**! We can use the [`choco-install` tool](tool-choco-install.md)                                  |
+| Update local database using .NET Entity Framework                 | **No**, but we still accomplish this by combining devinit with a script!                               |
+
+Now that we've figured that out, let's start with a basic `.devinit.json`. We'll include a reference to the [`.devinit.json` schema](https://json.schemastore.org/devinit.schema-2.0), and an empty `run` section:
+
+```json
+{
+  "$schema": "https://json.schemastore.org/devinit.schema-2.0",
+  "run": []
+}
+```
+
+Next, let's add some tools! 
+
+First, we'll add [`require-dotnetcoresdk`](tool-require-dotnetcoresdk.md). From that tool's documentation, we can see that the default behavior is to install the latest SDK version, which is exactly what we want. Let's add it to our `.devinit.json`:
+
+```json
+{
+  "$schema": "https://json.schemastore.org/devinit.schema-2.0",
+  "run": [
+    {
+      "comments": "Install the latest version of the .NET Core SDK.",
+      "tool": "require-dotnetcoresdk"
+    }
+  ]
+}
+```
+
+Second, we'll add [`dotnet-toolinstall`](tool-dotnet-toolinstall.md) to install the `dotnet-ef` tool globally. From the documentation, I see that I can use the `input` field to specify the tool name, and the `additionalOptions` field to specify the global scope:
+
+```json
+{
+  "run": [
+    {
+      "comments": "Install the latest version of the .NET Core SDK.",
+      "tool": "require-dotnetcoresdk"
+    },
+    {
+      "comments": "Install latest version of the .NET Entity Framework Core Tools CLI.",
+      "tool": "dotnet-toolinstall",
+      "input": "dotnet-ef",
+      "additionalOptions": "--global"
+    }
+  ]
+}
+```
+
+Last, we'll add [`choco-install`](tool-choco-install.md) to install the `sqllocaldb` package.
+
+```json
+{
+  "run": [
+    {
+      "comments": "Install the latest version of the .NET Core SDK.",
+      "tool": "require-dotnetcoresdk"
+    },
+    {
+      "comments": "Install latest version of the .NET Entity Framework Core Tools CLI.",
+      "tool": "dotnet-toolinstall",
+      "input": "dotnet-ef",
+      "additionalOptions": "--global"
+    },
+    {
+      "comments": "Install SQL Server 2017 Express LocalDB",
+      "tool": "choco-install",
+      "input": "sqllocaldb"
+    }
+  ]
+}
+```
+
+And that's it! Now that our `.devinit.json` is complete, we can work on a setup script that will take care of running devinit and updating the local database.
+
 ## Step 3: The setup script
 
 ## Step 4: The .devcontainer.json
 
-## Step 5 (?)
+## Step 5: (?)
