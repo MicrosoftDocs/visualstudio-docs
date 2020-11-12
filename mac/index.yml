@@ -48,11 +48,11 @@ productDirectory:
     - title: Unity
       imageSrc: https://docs.microsoft.com/media/logos/logo_unity.svg
       links:
-        - url: /gamedev/unity/get-started/visual-studio-tools-for-unity.md
+        - url: /visualstudio/gamedev/unity/get-started/visual-studio-tools-for-unity
           text: Unity Overview
-        - url: /gamedev/unity/get-started/getting-started-with-visual-studio-tools-for-unity.md
+        - url: /visualstudio/gamedev/unity/get-started/getting-started-with-visual-studio-tools-for-unity
           text: Set up Unity and Visual Studio for Mac
-        - url: /gamedev/unity/get-started/using-visual-studio-tools-for-unity.md
+        - url: /visualstudio/gamedev/unity/get-started/using-visual-studio-tools-for-unity
           text: Getting started building games with Unity
     - title: Xamarin
       imageSrc: https://docs.microsoft.com/media/logos/logo_xamarin.svg
