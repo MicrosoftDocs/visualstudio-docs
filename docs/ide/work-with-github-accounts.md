@@ -41,7 +41,7 @@ If you're not already signed in to Visual Studio with a different account,select
 
 ## Adding GitHub enterprise accounts
 
-By default, Visual Studio only has public GitHub accounts enabled. 
+By default, Visual Studio only has public GitHub accounts enabled.
 
 1. To enable GitHub enterprise accounts, go to **Tools** > **Options** and search for the **Accounts** options.
 
@@ -49,6 +49,6 @@ By default, Visual Studio only has public GitHub accounts enabled.
 
 2. Then, check the box to **Include GitHub Enterprise Server accounts**. The next time you go to your **Account Settings** and try to add a GitHub account, you'll see options for both GitHub and GitHub Enterprise.
 
-:::image type="content" source="../ide/media/sign-in-enterprise.png" alt-text="Sign in with GitHub Enterprise":::
+:::image type="content" source="../ide/media/github-enterprise-endpoint.png" alt-text="Sign in with GitHub Enterprise":::
 
-3. After you enter your GitHub Enterprise server address, you'll be redirected to the browser, where you can sign in using your GitHub Enterprise credentials.
+3. After you enter your GitHub Enterprise server address, select **Sign in with your browser**. There, you can sign in using your GitHub Enterprise credentials.
