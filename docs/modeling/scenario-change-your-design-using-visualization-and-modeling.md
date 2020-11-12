@@ -1,6 +1,6 @@
 ---
 title: 'Change your design using visualization and modeling'
-description: Learn about the visualization and modeling tools in Visual Studio, and how you use those tools change your design.
+description: Learn about the visualization and modeling tools in Visual Studio, and how you use those tools to change your design.
 ms.date: 11/04/2016
 ms.topic: overview
 helpviewer_keywords:
