@@ -150,4 +150,16 @@ In the `.devcontainer.json` file, we just need to call our setup script as part 
 
 And that's it!
 
-## Step 5: (?)
+## Step 5: Trying it out
+
+Now that our setup steps are in place, let's try this out in a live codespace using the [real repo](https://github.com/andysterland/eShopOnWeb).
+
+First, we'll create a Codespace using Visual Studio:
+
+<pic>
+
+Once everything is cloned and our setup steps have run, let's make sure everything builds and all tests are passing...
+
+<pic>
+
+Awesome! It looks like our setup steps were successful, and we're ready to start developing on the project.
