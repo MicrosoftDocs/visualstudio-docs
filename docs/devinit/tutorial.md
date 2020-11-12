@@ -14,7 +14,7 @@ ms.technology: devinit
 ---
 # Devinit Tutorial
 
-In this tutorial, we'll explore setting up the [eShopOnWeb repository](https://github.com/andysterland/eShopOnWeb) with devinit. This tutorial assumes that devinit is already available, as described in the [getting started page](getting-started-with-devinit.md).
+In this tutorial, we'll explore setting up the [eShopOnWeb repository](https://github.com/andysterland/eShopOnWeb) with devinit and Codespaces. This tutorial assumes that devinit is already available, as described in the [getting started page](getting-started-with-devinit.md).
 
 ## Step 1: Determining setup steps
 
@@ -114,9 +114,27 @@ Last, we'll add [`choco-install`](tool-choco-install.md) to install the `sqlloca
 }
 ```
 
-And that's it! Now that our `.devinit.json` is complete, we can work on a setup script that will take care of running devinit and updating the local database.
+Now that our `.devinit.json` is complete, we can work on a setup script that will take care of running devinit and updating the local database.
 
 ## Step 3: The setup script
+
+To handle both running devinit and updating the local database, we'll create a simple script that executes the needed commands. Let's create an empty PowerShell script in our repository root, named `PostCloneSetup.ps1`. First, we'll add a call to `devinit init`:
+
+```powershell
+devinit init
+```
+
+When executed, `devinit init` will execute all of the commands defined in our `.devinit.json`.
+
+Last, we want to invoke `dotnet ef database update` for updating the local database:
+
+```powershell
+devinit init
+dotnet ef database update -c catalogcontext -p src\Infrastructure\Infrastructure.csproj -s src\Web\Web.csproj
+dotnet ef database update -c appidentitydbcontext -p src\Infrastructure\Infrastructure.csproj -s src\Web\Web.csproj
+```
+
+And that's it! Now that our setup script is complete, we need to add a `.devcontainer.json` file which will execute it during Codespaces setup.
 
 ## Step 4: The .devcontainer.json
 
