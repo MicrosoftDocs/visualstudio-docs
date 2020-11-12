@@ -31,7 +31,7 @@ One of the best ways to determine this information is by exploring the manual se
 - Installing the latest version of the .NET Core SDK
 - Installing the latest version of the .NET Entity Framework Core Tools CLI
 - Installing SQL Server 2019 Express
-- Use the .NET Entity Framework CLI to update the local database to the latest migration
+- Using the .NET Entity Framework CLI to update the local database to the latest migration
 
 Next, we'll explore how to accomplish all of this in the context of devinit.
 
@@ -55,7 +55,7 @@ Now that we've figured that out, let's start with a basic `.devinit.json`. We'll
 }
 ```
 
-Next, let's add some tools!
+Now let's add some tools!
 
 First, we'll add [`require-dotnetcoresdk`](tool-require-dotnetcoresdk.md). From that tool's documentation, we can see that the default behavior is to install the latest SDK version. That's exactly what we want, so let's add it to our `.devinit.json`:
 
@@ -71,7 +71,7 @@ First, we'll add [`require-dotnetcoresdk`](tool-require-dotnetcoresdk.md). From 
 }
 ```
 
-Second, we'll add [`dotnet-toolinstall`](tool-dotnet-toolinstall.md) to install the `dotnet-ef` tool globally. From the documentation, I see that I can use the `input` field to specify the tool name, and the `additionalOptions` field to specify the global scope:
+Second, we'll add [`dotnet-toolinstall`](tool-dotnet-toolinstall.md) to install the `dotnet-ef` tool globally. From the documentation, we see that we can use the `input` field to specify the tool name, and the `additionalOptions` field to specify the global scope:
 
 ```json
 {
@@ -90,7 +90,7 @@ Second, we'll add [`dotnet-toolinstall`](tool-dotnet-toolinstall.md) to install 
 }
 ```
 
-Last, we'll add [`choco-install`](tool-choco-install.md) to install the `sqllocaldb` package.
+Last, we'll add [`choco-install`](tool-choco-install.md) to install the `sql-server-express` package.
 
 ```json
 {
@@ -124,7 +124,7 @@ To handle both running devinit and updating the local database, we'll create a s
 devinit init
 ```
 
-When executed, `devinit init` will execute all of the commands defined in our `.devinit.json`.
+When executed, `devinit init` will execute all of the tools defined in the `run` section of our `.devinit.json`.
 
 Last, we want to invoke `dotnet ef database update` for updating the local database:
 
@@ -134,7 +134,7 @@ dotnet ef database update -c catalogcontext -p src\Infrastructure\Infrastructure
 dotnet ef database update -c appidentitydbcontext -p src\Infrastructure\Infrastructure.csproj -s src\Web\Web.csproj
 ```
 
-Now that our setup script is complete, we need to add a `.devcontainer.json` file, which will execute it during Codespaces setup.
+Now that our setup script is complete, we need to add a `.devcontainer.json` file which will execute it during codespace setup.
 
 ## Step 4: The .devcontainer.json
 
