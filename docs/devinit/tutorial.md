@@ -30,7 +30,7 @@ One of the best ways to determine this information is by exploring the manual se
 
 - Installing the latest version of the .NET Core SDK
 - Installing the latest version of the .NET Entity Framework Core Tools CLI
-- Installing SQL Server 2017 Express LocalDB
+- Installing SQL Server 2019 Express
 - Use the .NET Entity Framework CLI to update the local database to the latest migration
 
 Next, we'll explore how to accomplish all of this in the context of devinit.
@@ -43,7 +43,7 @@ First, we'll want to construct a [.devinit.json file](devinit-json.md) and place
 | :---------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------  |
 | Install latest .NET Core SDK                                      | **Yes**! We can use the [`require-dotnetcoresdk` tool](tool-require-dotnetcoresdk.md)                  |
 | Install .NET Entity Framework Core Tools CLI                      | **Yes**! We can use the [`dotnet-toolinstall` tool](tool-dotnet-toolinstall.md)                        |
-| Install SQL Server 2017 Express LocalDB                           | **Yes**! We can use the [`choco-install` tool](tool-choco-install.md)                                  |
+| Install SQL Server 2019 Express                                   | **Yes**! We can use the [`choco-install` tool](tool-choco-install.md)                                  |
 | Update local database using .NET Entity Framework                 | **No**, but we still accomplish this by combining devinit with a script!                               |
 
 Now that we've figured that out, let's start with a basic `.devinit.json`. We'll include a reference to the [`.devinit.json` schema](https://json.schemastore.org/devinit.schema-2.0), and an empty `run` section:
@@ -106,9 +106,9 @@ Last, we'll add [`choco-install`](tool-choco-install.md) to install the `sqlloca
       "additionalOptions": "--global"
     },
     {
-      "comments": "Install SQL Server 2017 Express LocalDB",
+      "comments": "Install SQL Server 2019 Express",
       "tool": "choco-install",
-      "input": "sqllocaldb"
+      "input": "sql-server-express"
     }
   ]
 }
