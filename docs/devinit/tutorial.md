@@ -118,7 +118,7 @@ Now that our `.devinit.json` is complete, we can work on a setup script that wil
 
 ## Step 3: The setup script
 
-To handle both running devinit and updating the local database, we'll create a simple script that executes the needed commands. Let's create an empty PowerShell script in our repository root, named `PostCloneSetup.ps1`. First, we'll add a call to `devinit init`:
+To handle both running devinit and updating the local database, we'll create a script that executes the needed commands. Let's create an empty PowerShell script in our repository root, named `PostCloneSetup.ps1`. First, we'll add a call to `devinit init`:
 
 ```powershell
 devinit init
@@ -134,7 +134,7 @@ dotnet ef database update -c catalogcontext -p src\Infrastructure\Infrastructure
 dotnet ef database update -c appidentitydbcontext -p src\Infrastructure\Infrastructure.csproj -s src\Web\Web.csproj
 ```
 
-And that's it! Now that our setup script is complete, we need to add a `.devcontainer.json` file which will execute it during Codespaces setup.
+And that's it! Now that our setup script is complete, we need to add a `.devcontainer.json` file, which will execute it during Codespaces setup.
 
 ## Step 4: The .devcontainer.json
 
