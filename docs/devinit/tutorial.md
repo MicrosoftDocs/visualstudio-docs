@@ -158,11 +158,11 @@ First, we'll create a codespace using Visual Studio:
 
 ![Creating a codespace](media/eShopOnWeb-GHCSprompt.png)
 
-Once the codespace creation has started, we can watch the progress of our setup process in `C:\.vsonline\.vsoshared\vmTerminal.dat`. When it's complete, let's run the app via `Web.csproj` to make sure everything is working correctly.
+Once the codespace creation has started, we can watch the progress of our setup process in `C:\.vsonline\.vsoshared\vmTerminal.dat`. When it's complete, let's run the app via `Web.csproj` to make sure everything is working correctly:
 
 ![Running the project](media/eShopOnWeb-csproj.png)
 
-After the app builds and starts, we can see the shop in our web browser.
+After the app builds and starts, we can see the shop in our web browser:
 
 ![Viewing the site](media/eShopOnWeb-live.png)
 
