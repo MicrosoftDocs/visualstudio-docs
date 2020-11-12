@@ -18,12 +18,12 @@ In this tutorial, we'll explore setting up the [eShopOnWeb repository](https://g
 
 ## Step 1: Determining setup steps
 
-As mentioned in the [getting started page](getting-started-with-devinit.md), the first step is always to determine which dependencies and setup steps the project has. This will vary based on the specific project, but there are a few questions to consider:
+As mentioned in the [getting started page](getting-started-with-devinit.md), the first step is always to determine which dependencies and setup steps your project has. This will vary based on the specific project, but there are a few questions to consider:
 
-- What runtimes or SDKs does my project depend on?
-- Does my project require any packages (for example, from Chocolatey)?
-- Does my setup process require any actions to be taken (for example, running a script)?
-- Does my project have implicit dependencies on anything that is installed alongside Visual Studio?
+- What runtimes or SDKs does your project depend on?
+- Does your project require any packages (for example, from Chocolatey)?
+- Does your setup process require any actions to be taken (for example, running a script)?
+- Does your project have implicit dependencies on anything that is installed alongside Visual Studio?
   - If so, it's a good idea to include these in your devinit setup as well. That way, you can avoid coupling to the Visual Studio installation.
 
 One of the best ways to determine this information is by exploring the manual setup steps you currently have for your repository. For eShopOnWeb, there are a few things we need to handle:
