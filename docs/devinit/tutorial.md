@@ -154,8 +154,16 @@ And that's it!
 
 Now that our setup steps are in place, let's try this out in a live codespace using the [real repo](https://github.com/andysterland/eShopOnWeb).
 
-First, we'll create a Codespace using Visual Studio:
+First, we'll create a codespace using Visual Studio:
 
 <pic>
 
-Once everything is cloned and our setup steps have run, let's make sure everything builds and we can run the app...
+Once the codespace creation has started, we can watch the progress of our setup process in `C:\.vsonline\.vsoshared\vmTerminal.dat`. When it's complete, let's run the app via `Web.csproj` to make sure everything is working correctly. 
+
+<pic>
+
+After the app builds and starts, we can see the shop in our web browser.
+
+<pic>
+
+So, our setup process worked correctly and we're now ready to develop in the eShopOnWeb project!
