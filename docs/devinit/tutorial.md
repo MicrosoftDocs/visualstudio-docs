@@ -18,6 +18,23 @@ In this tutorial, we'll explore setting up the [eShopOnWeb repository](https://g
 
 ## Step 1: Determining dependencies
 
+As mentioned in the [getting started page](getting-started-with-devinit.md), the first step is always to determine which dependencies and setup steps the project has. This will vary based on the specific project, but there are a few questions to consider:
+
+- What runtimes or SDKs does my project depend on?
+- Does my project require any packages (e.g. from Chocolatey)?
+- Does my setup process require any actions to be taken (e.g. running a script)?
+- Does my project have implicit dependencies on anything that is installed alongside Visual Studio?
+  - If so, it's a good idea to include these in your devinit setup as well. That way, you can avoid coupling to the Visual Studio installation.
+
+For eShopOnWeb, there are a few things we need to handle:
+
+- Installing the latest version of the .NET Core SDK
+- Installing the latest version of the .NET Entity Framework Core Tools CLI
+- Installing SQL Server 2017 Express LocalDB
+- Use the .NET Entity Framework CLI to update the local database to the latest migration
+
+Next, we'll explore how to accomplish all of this in the context of devinit.
+
 ## Step 2: Constructing our setup steps
 
 ## Step 3: The .devinit.json
