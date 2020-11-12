@@ -14,3 +14,5 @@ ms.date: 3/3/2020
 [!INCLUDE [How do I renew my subscriptions?](includes/renew-subscriptions.md)]
 
 [!INCLUDE [How long does it take for my cloud subscription to be cancelled?](includes/renewal-cancellation.md)]
+
+[!INCLUDE [How do I purchase Visual Studio subscriptions?](includes/how-to-purchase.md)]

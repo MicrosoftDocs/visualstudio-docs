@@ -18,4 +18,4 @@ To use a subscription managed by your organization, one must first be assigned t
 If you are unsure who your admins are, you may find it helpful to contact a colleague who has a subscription assigned to them.  Existing subscribers can visit https://my.visualstudio.com/subscriptions.  They'll see a **Contact my Admin** button at the top right which they can use to send messages to admins.  The button does not expose the names or emails of the admins, though, so your colleague will need to ask an admin to contact you about your request.  
 
 **Use the Contact my Admin feature**
-Please view our [Contact my Admin](https://docs.microsoft.com/visualstudio/subscriptions/contact-my-admin.md) article for more information about the feature. 
+Please view our [Contact my Admin](https://docs.microsoft.com/visualstudio/subscriptions/contact-my-admin) article for more information about the feature. 
