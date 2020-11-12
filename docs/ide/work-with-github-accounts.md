@@ -1,6 +1,6 @@
 ---
 title: Work with GitHub accounts in Visual Studio
-ms.date: 11/10/2020
+ms.date: 11/13/2020
 ms.custom: 
 ms.topic: conceptual
 description: "Learn how to use Visual Studio with GitHub accounts."
@@ -52,3 +52,8 @@ By default, Visual Studio only has public GitHub accounts enabled.
 :::image type="content" source="../ide/media/github-enterprise-endpoint.png" alt-text="Sign in with GitHub Enterprise":::
 
 3. After you enter your GitHub Enterprise server address, select **Sign in with your browser**. There, you can sign in using your GitHub Enterprise credentials.
+
+## See also
+
+- [Work with multiple user accounts](work-with-multiple-user-accounts.md)
+- [Sign in to Visual Studio](signing-in-to-visual-studio.md)
