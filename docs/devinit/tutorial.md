@@ -134,8 +134,20 @@ dotnet ef database update -c catalogcontext -p src\Infrastructure\Infrastructure
 dotnet ef database update -c appidentitydbcontext -p src\Infrastructure\Infrastructure.csproj -s src\Web\Web.csproj
 ```
 
-And that's it! Now that our setup script is complete, we need to add a `.devcontainer.json` file, which will execute it during Codespaces setup.
+Now that our setup script is complete, we need to add a `.devcontainer.json` file, which will execute it during Codespaces setup.
 
 ## Step 4: The .devcontainer.json
+
+To ensure that our setup script is run during the creation of our Codespace, we'll use a `.devcontainer.json` file. Similarly to the other files, this should be placed in the repository root.
+
+In the `.devcontainer.json` file, we just need to call our setup script as part of the `postCreateCommand`:
+
+```json
+{
+  "postCreateCommand": "Powershell.exe -ExecutionPolicy unrestricted -File .\\PostCloneSetup.ps1"
+}
+```
+
+And that's it!
 
 ## Step 5: (?)
