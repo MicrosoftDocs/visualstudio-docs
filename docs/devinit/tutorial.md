@@ -55,7 +55,7 @@ Now that we've figured that out, let's start with a basic `.devinit.json`. We'll
 }
 ```
 
-Next, let's add some tools! 
+Next, let's add some tools!
 
 First, we'll add [`require-dotnetcoresdk`](tool-require-dotnetcoresdk.md). From that tool's documentation, we can see that the default behavior is to install the latest SDK version. That's exactly what we want, so let's add it to our `.devinit.json`:
 
@@ -158,7 +158,7 @@ First, we'll create a codespace using Visual Studio:
 
 <pic>
 
-Once the codespace creation has started, we can watch the progress of our setup process in `C:\.vsonline\.vsoshared\vmTerminal.dat`. When it's complete, let's run the app via `Web.csproj` to make sure everything is working correctly. 
+Once the codespace creation has started, we can watch the progress of our setup process in `C:\.vsonline\.vsoshared\vmTerminal.dat`. When it's complete, let's run the app via `Web.csproj` to make sure everything is working correctly.
 
 <pic>
 
