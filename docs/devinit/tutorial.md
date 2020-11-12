@@ -138,9 +138,9 @@ Now that our setup script is complete, we need to add a `.devcontainer.json` fil
 
 ## Step 4: The .devcontainer.json
 
-To ensure that our setup script is run during the creation of our Codespace, we'll use a `.devcontainer.json` file. Similarly to the other files, this should be placed in the repository root.
+To ensure that our setup script is run during the creation of our codespace, we'll use a `.devcontainer.json` file. Similarly to the other files, this should be placed in the repository root.
 
-In the `.devcontainer.json` file, we just need to call our setup script as part of the `postCreateCommand`:
+In the `.devcontainer.json` file, we just need to call our setup script as part of the `postCreateCommand`. This will be executed as part of the codespace creation process:
 
 ```json
 {
