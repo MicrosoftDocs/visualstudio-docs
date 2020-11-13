@@ -91,7 +91,7 @@ Below are examples of how to run `wsl-install` using a `.devinit.json`.
 }
 ```
 
-### .devinit.json that will install Ubuntu 20.04, perform a post create command that configures the packages listed:
+### .devinit.json that will install Ubuntu 20.04 and perform a post create command that configures the packages listed:
 ```json
 {
     "$schema": "https://json.schemastore.org/devinit.schema-3.0",

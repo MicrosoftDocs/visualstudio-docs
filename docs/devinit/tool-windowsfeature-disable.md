@@ -37,7 +37,7 @@ None.
 The Default behavior of the `windowsfeature-disable` tool is to error, as `input` is required.
 
 ## Example usage
-Below are examples of how to run `windowsfeature-disable` using a `.devinit.json`. 
+Below is an example of how to run `windowsfeature-disable` using a `.devinit.json`. 
 
 ### .devinit.json that will disable a specified feature:
 ```json
