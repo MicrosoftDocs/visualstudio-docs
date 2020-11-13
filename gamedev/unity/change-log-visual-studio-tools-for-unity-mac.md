@@ -35,12 +35,6 @@ Released October 27, 2020
 
   - Improved [`UNT0010`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0010.md) diagnostic to apply to everything inheriting from `Component`, not just `MonoBehaviour`.
 
-### Bug fixes
-
-- **Integration:**
-
-  - Fixed CodeLens message invalidation.
-
 ## 2.8.1.0
 Released October 13, 2020
 
