@@ -24,7 +24,7 @@ Released November 10, 2020
 
 - **Integration:**
 
-  - Improved [`UNT0018`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0018.md) diagnostic to apply to everything inheriting from `Component`, not just `MonoBehaviour`.
+  - Improved [`UNT0010`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0010.md) diagnostic to apply to everything inheriting from `Component`, not just `MonoBehaviour`.
 
 ### Bug fixes
 
