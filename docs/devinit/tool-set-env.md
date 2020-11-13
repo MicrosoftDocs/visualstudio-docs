@@ -64,7 +64,7 @@ Below are examples of how to run `set-env` using a `.devinit.json`.
 }
 ```
 
-### .devinit.json that will display the value of a environment variable:
+### .devinit.json that will display the value of an environment variable:
 ```json
 {
   "$schema": "https://json.schemastore.org/devinit.schema-3.0",

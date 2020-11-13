@@ -28,7 +28,7 @@ If both the `input` and `additionalOptions` properties are omitted or empty, the
 
 ### Input
 
-The `input` property is used to specify the NPM version.
+The `input` property is used to specify the npm version.
 
 ### Additional options
 
@@ -36,12 +36,12 @@ Unused.
 
 ### Default behavior
 
-The Default behavior of the `require-nodejs` tool is to install the latest LTS version of NPM.
+The Default behavior of the `require-nodejs` tool is to install the latest LTS version of npm.
 
 ## Example usage
 Below are examples of how to run `require-npm` using a `.devinit.json`. 
 
-### .devinit.json that will install the LTS of NPM:
+### .devinit.json that will install the LTS of npm:
 ```json
 {
     "$schema": "https://json.schemastore.org/devinit.schema-3.0",
@@ -54,7 +54,7 @@ Below are examples of how to run `require-npm` using a `.devinit.json`.
 }
 ```
 
-### .devinit.json that will install a specific version of NPM:
+### .devinit.json that will install a specific version of npm:
 ```json
 {
     "$schema": "https://json.schemastore.org/devinit.schema-3.0",

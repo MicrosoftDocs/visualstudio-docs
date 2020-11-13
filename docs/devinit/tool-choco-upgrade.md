@@ -61,7 +61,7 @@ Below are examples of how to run `choco-upgrade` using a `.devinit.json`.
 }
 ```
 
-### .devinit.json that will upgrade Mongodb:
+### .devinit.json that will upgrade MongoDB:
 ```json
 {
     "$schema": "https://json.schemastore.org/devinit.schema-3.0",
@@ -75,7 +75,7 @@ Below are examples of how to run `choco-upgrade` using a `.devinit.json`.
 }
 ```
 
-### .devinit.json that will upgrade to a specific version of Mongodb:
+### .devinit.json that will upgrade to a specific version of MongoDB:
 ```json
 {
     "$schema": "https://json.schemastore.org/devinit.schema-3.0",
