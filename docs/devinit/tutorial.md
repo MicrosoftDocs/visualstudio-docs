@@ -124,7 +124,7 @@ To handle both running devinit and updating the local database, we'll create a s
 devinit init
 ```
 
-When executed, `devinit init` will execute all of the tools defined in the `run` section of our `.devinit.json`.
+When executed, `devinit init` will run all of the tools defined in the `run` section of our `.devinit.json`.
 
 Last, we want to invoke `dotnet ef database update` for updating the local database:
 
