@@ -1,5 +1,7 @@
 ---
 title: Create a Web Service Test
+description: Learn how to use a web performance test to test web services and can customize requests in the Web Performance Test Editor to locate web service pages.
+ms.custom: SEO-VS-2020
 ms.date: 06/30/2020
 ms.topic: how-to
 helpviewer_keywords: 

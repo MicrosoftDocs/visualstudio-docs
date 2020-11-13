@@ -1,5 +1,7 @@
 ---
 title: Save load test log for test failures
+description: Learn how to specify if you want to have the test log saved if a test fails in a load test by changing the Save Log on Test Failure property.
+ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
 ms.topic: how-to
 helpviewer_keywords: 
