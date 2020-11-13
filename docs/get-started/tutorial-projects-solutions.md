@@ -187,6 +187,22 @@ Let's add a unit test project to our solution. This time we'll start from a proj
 
 We're going to use the new unit test project to test our method in the **QuickDate** project, so we need to add a reference to that project. This creates a *build dependency* between the two projects, meaning that when you build the solution, **QuickDate** is built before **QuickTest**.
 
+::: moniker range="vs-2017"
+
+1. Choose the **Dependencies** node in the **QuickTest** project, and from the right-click or context menu, choose **Add Reference**.
+
+   The **Reference Manager** dialog box opens.
+
+1. In the left pane, expand **Projects** and choose **Solution**. In the middle pane, choose the checkbox next to **QuickDate**, and then choose **OK**.
+
+   A reference to the **QuickDate** project is added.
+
+   ![Visual Studio 2019 Solution Explorer showing project reference](media/vs-2019/tutorial-projects-solution-explorer-reference.png)
+
+::: moniker-end
+
+::: moniker range="vs-2019"
+
 1. Choose the **Dependencies** node in the **QuickTest** project, and from the right-click or context menu, choose **Add Project Reference...**.
 
    The **Reference Manager** dialog box opens.
@@ -196,6 +212,8 @@ We're going to use the new unit test project to test our method in the **QuickDa
    A reference to the **QuickDate** project is added.
 
    ![Visual Studio 2019 Solution Explorer showing project reference](media/vs-2019/tutorial-projects-solution-explorer-reference.png)
+   
+::: moniker-end
 
 ## Add test code
 
