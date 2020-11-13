@@ -47,7 +47,7 @@ Released October 13, 2020
 
   - Improved [`USP0003`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/USP0003.md) and [`USP0005`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/USP0005.md) suppressors, with support for all `AssetPostprocessor` static methods.
 
-  - Added [`USP0016`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/USP0016.md) suppressor for `CS8618`. `C# 8.0` introduces nullable reference types and non-nullable reference types. Initialization detection of types inheriting from UnityEngine.Object is not supported and will result in errors.
+  - Added [`USP0016`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/USP0016.md) suppressor for `CS8618`. `C# 8.0` introduces nullable reference types and non-nullable reference types. Initialization detection of types inheriting from `UnityEngine.Object` is not supported and will result in errors.
 
   - Now using the same player and asmdef project generation mechanism for both Unity 2019.x and 2020.x+.
 
