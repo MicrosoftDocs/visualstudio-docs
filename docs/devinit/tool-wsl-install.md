@@ -60,7 +60,9 @@ Multiple Additional options are supported:
 The Default behavior of the `wsl-install` tool is to error as the `input` property, the distro to install, is required.
 
 ## Example usage
+Below are examples of how to run `wsl-install` using a `.devinit.json`. 
 
+### .devinit.json that will install Ubuntu 20.04:
 ```json
 {
     "$schema": "https://json.schemastore.org/devinit.schema-3.0",
@@ -69,13 +71,31 @@ The Default behavior of the `wsl-install` tool is to error as the `input` proper
             "comments": "Example that will install Ubuntu 20.04.",
             "tool": "wsl-install",
             "input": "https://aka.ms/wslubuntu2004"
-        },
+        }
+    ]
+}
+```
+
+### .devinit.json that will install Ubuntu 20.04 and perform a post create command:
+```json
+{
+    "$schema": "https://json.schemastore.org/devinit.schema-3.0",
+    "run": [
         {
             "comments": "Example that will install Ubuntu 20.04 using WSL2, and echo 'Hello from Ubuntu!' after installing.",
             "tool": "wsl-install",
             "input": "https://aka.ms/wslubuntu2004",
             "additionalOptions": "--wsl-version 2 --post-create-command 'echo Hello from Ubuntu!'"
-        },
+        }
+    ]
+}
+```
+
+### .devinit.json that will install Ubuntu 20.04, perform a post create command that configures the packages listed:
+```json
+{
+    "$schema": "https://json.schemastore.org/devinit.schema-3.0",
+    "run": [
         {
             "comments": "Example that will install Ubuntu 20.04 using WSL2, and configure it with various packages.",
             "tool": "wsl-install",

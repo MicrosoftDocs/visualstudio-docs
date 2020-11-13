@@ -39,7 +39,22 @@ Not used.
 The Default behavior of the `require-dotnetframeworksdk` tool is to install the latest release. See the [provided installers](https://dotnet.microsoft.com/download/visual-studio-sdks) for the latest version.
 
 ## Example usage
+Below are examples of how to run `require-dotnetframeworksdk` using a `.devinit.json`. 
 
+### .devinit.json that will install the latest .NET Framework:
+```json
+{
+    "$schema": "https://json.schemastore.org/devinit.schema-3.0",
+    "run": [
+        {
+            "comments": "Example that will install the latest version of the .NET Framework SDK.",
+            "tool": "require-dotnetframeworksdk"
+        }
+    ]
+}
+```
+
+### .devinit.json that will install a specific version of the .NET Framework:
 ```json
 {
     "$schema": "https://json.schemastore.org/devinit.schema-3.0",
@@ -48,10 +63,6 @@ The Default behavior of the `require-dotnetframeworksdk` tool is to install the 
             "comments": "Example that will install a specific version of the .NET Framework SDK.",
             "tool": "require-dotnetframeworksdk",
             "input": "4.8.0"
-        },
-        {
-            "comments": "Example that will install the latest version of the .NET Framework SDK.",
-            "tool": "require-dotnetframeworksdk"
         }
     ]
 }

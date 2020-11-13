@@ -48,7 +48,9 @@ The msi-install tool sets a number of `msiexec` command-line arguments to ensure
 | /norestart    | Stops the machine from restarting after the installation is complete, but will return a 3010 exit code if a reboot is needed                                                                  | 
 
 ## Example usage
+Below is an example of how to run `msi-install` using a `.devinit.json`. 
 
+### .devinit.json that will install the 7-Zip MSI:
 ```json
 {
     "$schema": "https://json.schemastore.org/devinit.schema-4.0",

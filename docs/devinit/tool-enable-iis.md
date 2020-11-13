@@ -39,7 +39,9 @@ Not used.
 The default behavior of the `enable-iis` tool is to enable IIS features: IIS-WebServer, IIS-WebServerRole, IIS-WebSockets, and IIS-WebAuthentication, and then install the latest version of the ASP.NET hosting bundle that includes the ASP.NET Core Module. 
 
 ## Example usage
+Below is an example of how to run `enable-iis` using a `.devinit.json`. 
 
+### .devinit.json that will enable IIS development:
 ```json
 {
     "$schema": "https://json.schemastore.org/devinit.schema-3.0.json",

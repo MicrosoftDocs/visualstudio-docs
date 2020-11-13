@@ -39,7 +39,9 @@ Not used.
 The Default behavior of the `require-azurecli` tool is to install the latest version of the Azure CLI and add it to the PATH (Windows only).
 
 ## Example usage
+Below is an example of how to run `require-azurecli` using a `.devinit.json`. 
 
+### .devinit.json that will install the Azure CLI:
 ```json
 {
     "$schema": "https://json.schemastore.org/devinit.schema-3.0",

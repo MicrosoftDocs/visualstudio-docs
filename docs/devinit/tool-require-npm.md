@@ -39,7 +39,9 @@ Unused.
 The Default behavior of the `require-nodejs` tool is to install the latest LTS version of NPM.
 
 ## Example usage
+Below are examples of how to run `require-npm` using a `.devinit.json`. 
 
+### .devinit.json that will install the LTS of NPM:
 ```json
 {
     "$schema": "https://json.schemastore.org/devinit.schema-3.0",
@@ -47,7 +49,16 @@ The Default behavior of the `require-nodejs` tool is to install the latest LTS v
         {
             "comments": "Example that will trigger the Default behavior of installing latest LTS of NPM.",
             "tool": "require-npm"
-        },
+        }
+    ]
+}
+```
+
+### .devinit.json that will install a specific version of NPM:
+```json
+{
+    "$schema": "https://json.schemastore.org/devinit.schema-3.0",
+    "run": [
         {
             "comments": "Example that will install a specific version.",
             "tool": "require-npm",

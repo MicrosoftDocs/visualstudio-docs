@@ -39,7 +39,9 @@ Additional options are passed directly to the [vcpkg](/powershell/module/powersh
 The Default behavior of the `vcpkg-install` tool is to error, as `input` is required.
 
 ## Example usage
+Below are examples of how to run `vcpkg-install` using a `.devinit.json`. 
 
+### .devinit.json that will install the sdl2 port:
 ```json
 {
     "$schema": "https://json.schemastore.org/devinit.schema-3.0",
@@ -48,7 +50,17 @@ The Default behavior of the `vcpkg-install` tool is to error, as `input` is requ
             "comments": "Installs the sdl2 port.",
             "tool": "vcpkg-install",
             "input": "sdl2",
-        },
+        }
+    ]
+}
+```
+
+### .devinit.json that will install multiple ports:
+```json
+{
+    "$schema": "https://json.schemastore.org/devinit.schema-3.0",
+    "run": [
+
         {
             "comments": "Installs the sdl2 and sqlite3 ports.",
             "tool": "vcpkg-install",

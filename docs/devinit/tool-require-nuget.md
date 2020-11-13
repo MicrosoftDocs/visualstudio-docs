@@ -39,11 +39,12 @@ Not used.
 The Default behavior of the `require-nuget` tool is to install latest of NuGet CLI.
 
 ## Example usage
+Below is an example of how to run `require-nuget` using a `.devinit.json`. 
 
+### .devinit.json that will install a specified version of NuGet:
 ```json
 {
     "$schema": "https://json.schemastore.org/devinit.schema-3.0",
-    "comments": "A sample dot-devinit file that downloads NuGet CLI and adds to PATH variable.'",
     "run": [
         {
             "tool": "require-nuget",

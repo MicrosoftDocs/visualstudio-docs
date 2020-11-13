@@ -39,7 +39,9 @@ Not used.
 The Default behavior of the `require-choco` tool is to install chocolatey, and add it to the PATH (Windows only).
 
 ## Example usage
+Below is an example of how to run `require-choco` using a `.devinit.json`. 
 
+### .devinit.json that will install chocolatey:
 ```json
 {
     "$schema": "https://json.schemastore.org/devinit.schema-3.0",
