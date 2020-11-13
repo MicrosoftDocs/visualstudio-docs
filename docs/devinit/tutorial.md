@@ -1,7 +1,7 @@
 ---
 title: Tutorial
 description: Tutorial for devinit.
-ms.date: 11/12/2020
+ms.date: 11/13/2020
 ms.topic: reference
 author: andysterland
 ms.author: andster
