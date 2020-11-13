@@ -11,16 +11,18 @@ monikerRange: vs-2019
 ---
 # Git experience in Visual Studio
 
-Git is now the default version control experience in Visual Studio 2019. Since [version 16.6](/visualstudio/releases/2019/release-notes-v16.6), we've worked on building out the feature set and iterating on it based on your feedback. The new Git experience is turned on by default for everyone with the release of [version 16.8](/visualstudio/releases/2019/release-notes/).<br><br>*Video length: 5.27 minutes*
-
-> [!VIDEO https://www.youtube.com/embed/UHrAg3iKoe0]
+Git is now the default version control experience in Visual Studio 2019. Since [version 16.6](/visualstudio/releases/2019/release-notes-v16.6), we've worked on building out the feature set and iterating on it based on your feedback. The new Git experience is turned on by default for everyone with the release of [version 16.8](/visualstudio/releases/2019/release-notes/).
 
 > [!TIP]
 > Git is the most widely used modern version control system, so whether you’re a professional developer or if you’re learning how to code, Git can be very useful to you. If you are new to Git, the https://git-scm.com/ website is a good place to start. There, you’ll find cheat sheets, a popular online book, and Git Basics videos.
 
 ## How to use Git in Visual Studio
 
-There are three ways to start using Git with Visual Studio 2019 to be more productive:
+We'll walk you through how to use the new Git experience in Visual Studio 2019, but if you'd like to take a quick tour first, check out the following video: <br><br>*Video length: 5.27 minutes*
+
+> [!VIDEO https://www.youtube.com/embed/UHrAg3iKoe0]
+
+There are three ways to start using Git with Visual Studio to be more productive:
 
 - [Open an existing Git repository](#open-an-existing-local-repository). If your code is already on your machine, you can open it by using **File** > **Open** > **Project/Solution** (or **Folder**) and Visual Studio automatically detects if it has an initialized Git repository.
 - [Create a new Git repository](#create-a-new-git-repository). If your code is not associated with Git, you can create a new Git repository.
