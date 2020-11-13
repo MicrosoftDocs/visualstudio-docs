@@ -1,5 +1,5 @@
 ---
-title: Devinit tutorial
+title: Tutorial
 description: Tutorial for devinit.
 ms.date: 11/12/2020
 ms.topic: reference
@@ -12,7 +12,7 @@ monikerRange: ">= vs-2019"
 ms.prod: visual-studio-windows
 ms.technology: devinit
 ---
-# Devinit Tutorial
+# Tutorial
 
 In this tutorial, we'll explore setting up the [eShopOnWeb repository](https://github.com/andysterland/eShopOnWeb) with devinit and Codespaces. This tutorial assumes that devinit is already available, as described in the [getting started page](getting-started-with-devinit.md).
 
