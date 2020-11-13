@@ -39,7 +39,7 @@ Released October 13, 2020
 
 - **Evaluation:**
 
-  - Added support for implicit conversion with invocations. Previously the evaluator enforced strict type checking, resulting in `Failed to find a match for method([parameters...])`
+  - Added support for implicit conversion with invocations. Previously the evaluator enforced strict type checking, resulting in `Failed to find a match for method([parameters...])` warning messages.
 
 - **Integration:**
 
@@ -55,7 +55,7 @@ Released October 13, 2020
 
 - **Integration:**
 
-  - Fixed unexpected completion for messages in comments
+  - Fixed unexpected completion for messages in comments.
 
 ## 4.8.0.0 
 Released September 14, 2020
@@ -64,7 +64,7 @@ Released September 14, 2020
 
 - **Integration:**
 
-  - Fixed player project generation with Unity 2019.x
+  - Fixed player project generation with Unity 2019.x.
 
 ## 4.7.1.0
 Released August 5, 2020
