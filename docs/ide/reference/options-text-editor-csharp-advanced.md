@@ -1,6 +1,6 @@
 ---
 title: Options, Text Editor, C#, Advanced
-ms.date: 08/12/2020
+ms.date: 11/13/2020
 ms.topic: reference
 f1_keywords:
 - VS.ToolsOptionsPages.Text_Editor.CSharp.Outlining
@@ -128,6 +128,12 @@ Select these check boxes to display dotted vertical lines between the curly brac
     When selected, inserts parameter name hints for literals, casted literals, and object instantiations prior to each argument in function calls.  
     
     ![Inline Parameter Name Hints for CSharp](media/inline-parameter-name-hints-csharp.png)
+
+- Inline Type Hints 
+    
+    When selected, inserts type hints for variables with inferred types and lambda parameter types.  
+    
+    ![Inline Type Hints for CSharp](media/inline-type-hints-csharp.png)
 ::: moniker-end
 - Generate XML documentation comments for ///
 
