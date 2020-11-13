@@ -20,4 +20,4 @@ Your subscription level identifies which level of the Visual Studio IDE you have
 0. Using the email your subscription is assigned to, you’ll be able to immediately sign into the IDE after installation, **no product key is required**. Learn how to [claim a product key](https://docs.microsoft.com/visualstudio/subscriptions/find-keys) if you’re in an offline environment.
 
 ### Find an older version 
-You can also search and download previous versions from the [downloads page](https://my.visualstudio.com/Downloads?q=Visual%20Studio%202019) in the subscriptions portal.
+You can also search and download previous versions from the [downloads page](https://my.visualstudio.com/Downloads?q=visual%20studio&pgroup=) in the subscriptions portal.
