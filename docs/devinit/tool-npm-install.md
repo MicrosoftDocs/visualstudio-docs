@@ -37,13 +37,12 @@ Additional configuration options can be passed in as a value of the `additionalO
 ## Example usage
 Below is an example of how to run `npm-install` using a `.devinit.json`. 
 
-### .devinit.json that will install mongo:
+#### .devinit.json that will install mongo:
 ```json
 {
     "$schema": "https://json.schemastore.org/devinit.schema-3.0",
     "run": [
         {
-            "comments": "Example that will install the mongo NPM package (https://www.npmjs.com/package/mongo).",
             "tool": "npm-install",
             "input": "mongo",
         }

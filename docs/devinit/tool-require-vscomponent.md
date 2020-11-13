@@ -41,7 +41,7 @@ The Default behavior of the `require-vscomponent` tool is to look for a `.vsconf
 ## Example usage
 Below is an example of how to run `require-vscomponent` using a `.devinit.json`. 
 
-### .devinit.json that will import the configurations of a given .vsconfig file path:
+#### .devinit.json that will import the configurations of a given .vsconfig file path:
 ```json
 {
     "$schema": "https://json.schemastore.org/devinit.schema-3.0",
@@ -49,7 +49,6 @@ Below is an example of how to run `require-vscomponent` using a `.devinit.json`.
     "run": [
         {
             "tool": "require-vscomponent",
-            "comments": "Imports .vsconfig file which is passed as input to Visual Studio.",
             "input": "C:\\.vsconfig"
         }
     ]

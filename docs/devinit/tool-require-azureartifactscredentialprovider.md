@@ -41,14 +41,13 @@ The Default behavior of the `require-azureartifactscredentialprovider` tool is t
 ## Example usage
 Below is an example of how to run `require-azureartifactscredentialprovider` using a `.devinit.json`. 
 
-### .devinit.json that will install Azure Artifacts Credential Provider:
+#### .devinit.json that will install Azure Artifacts Credential Provider:
 ```json
 {
     "$schema": "https://json.schemastore.org/devinit.schema-3.0",
     "run": [
         {
             "tool": "require-azureartifactscredentialprovider",
-            "comments": "Installs Azure Artifacts Credential Provider."
         }
     ]
 }

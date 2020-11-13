@@ -71,13 +71,12 @@ The `require-mssql` tool sets a number of installer command line arguments to en
 ## Example usage
 Below is an example of how to run `require-msssql` using a `.devinit.json`. 
 
-### .devinit.json that will install MSSQL:
+#### .devinit.json that will install MSSQL:
 ```json
 {
     "$schema": "https://json.schemastore.org/devinit.schema-3.0",
     "run": [
         {
-            "comments": "Installs MSSQL.",
             "tool": "require-mssql",
             "input": "install",
         }

@@ -44,26 +44,24 @@ The Default behavior of the `require-dotnetcoresdk` tool is to install the versi
 ## Example usage
 Below are examples of how to run `require-dotnetcoresdk` using a `.devinit.json`. 
 
-### .devinit.json that will install the latest version of .NET Core:
+#### .devinit.json that will install the latest version of .NET Core:
 ```json
 {
     "$schema": "https://json.schemastore.org/devinit.schema-3.0",
     "run": [
         {
-            "comments": "Example that will trigger the Default behavior of installing latest or, if present, the SDK version from a global.json file.",
             "tool": "require-dotnetcoresdk"
         }
     ]
 }
 ```
 
-### .devinit.json that will install a specific version of .NET Core:
+#### .devinit.json that will install a specific version of .NET Core:
 ```json
 {
     "$schema": "https://json.schemastore.org/devinit.schema-3.0",
     "run": [
         {
-            "comments": "Example that will install a specific version.",
             "tool": "require-dotnetcoresdk",
             "input": "3.0.0"
         }
@@ -71,13 +69,12 @@ Below are examples of how to run `require-dotnetcoresdk` using a `.devinit.json`
 }
 ```
 
-### .devinit.json that will install a specific version of .NET Core and ASP.NET Core:
+#### .devinit.json that will install a specific version of .NET Core and ASP.NET Core:
 ```json
 {
     "$schema": "https://json.schemastore.org/devinit.schema-3.0",
     "run": [
         {
-            "comments": "Example that will install a specific version and the aspnetcore runtime.",
             "tool": "require-dotnetcoresdk",
             "input": "3.0.0",
             "additionalOptions": "-Runtime aspnetcore"
@@ -86,13 +83,12 @@ Below are examples of how to run `require-dotnetcoresdk` using a `.devinit.json`
 }
 ```
 
-### .devinit.json that will install .NET Core in a specific directory:
+#### .devinit.json that will install .NET Core in a specific directory:
 ```json
 {
     "$schema": "https://json.schemastore.org/devinit.schema-3.0",
     "run": [
         {
-            "comments": "Example that will install in a specific directory.",
             "tool": "require-dotnetcoresdk",
             "additionalOptions": "-InstallDir \"C:\\Program Files\\dotnet\""
         }

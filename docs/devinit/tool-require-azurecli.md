@@ -41,13 +41,12 @@ The Default behavior of the `require-azurecli` tool is to install the latest ver
 ## Example usage
 Below is an example of how to run `require-azurecli` using a `.devinit.json`. 
 
-### .devinit.json that will install the Azure CLI:
+#### .devinit.json that will install the Azure CLI:
 ```json
 {
     "$schema": "https://json.schemastore.org/devinit.schema-3.0",
     "run": [
         {
-            "comments": "Example that will trigger the Default behavior of installing the Azure CLI.",
             "tool": "require-azurecli"
         }
     ]

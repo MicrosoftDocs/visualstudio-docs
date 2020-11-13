@@ -41,7 +41,7 @@ The Default behavior of the `require-nuget` tool is to install latest of NuGet C
 ## Example usage
 Below is an example of how to run `require-nuget` using a `.devinit.json`. 
 
-### .devinit.json that will install a specified version of NuGet:
+#### .devinit.json that will install a specified version of NuGet:
 ```json
 {
     "$schema": "https://json.schemastore.org/devinit.schema-3.0",
@@ -49,7 +49,6 @@ Below is an example of how to run `require-nuget` using a `.devinit.json`.
         {
             "tool": "require-nuget",
             "input": "5.5.1",
-            "comments": "Installs NuGet for given input version. If no input given, then installs latest."
         }
     ]
 }

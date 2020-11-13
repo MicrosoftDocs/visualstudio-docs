@@ -55,13 +55,12 @@ The `require-psmodule` tool sets a number of `Install-Module` command line argum
 ## Example usage
 Below are examples of how to run `require-psmodule` using a `.devinit.json`. 
 
-### .devinit.json that will install the PowerShellGet module:
+#### .devinit.json that will install the PowerShellGet module:
 ```json
 {
     "$schema": "https://json.schemastore.org/devinit.schema-3.0",
     "run": [
         {
-            "comments": "Installs the PowerShellGet module.",
             "tool": "require-psmodule",
             "input": "PowerShellGet",
         }
@@ -69,13 +68,12 @@ Below are examples of how to run `require-psmodule` using a `.devinit.json`.
 }
 ```
 
-### .devinit.json that will install the PowerShellGet module from a specific repository:
+#### .devinit.json that will install the PowerShellGet module from a specific repository:
 ```json
 {
     "$schema": "https://json.schemastore.org/devinit.schema-3.0",
     "run": [
         {
-            "comments": "Installs the PowerShellGet module from a specific repository.",
             "tool": "require-psmodule",
             "input": "PowerShellGet",
             "additionalOptions": "-Repository PSGallery"

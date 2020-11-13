@@ -41,14 +41,13 @@ The Default behavior of the `azurecli-login` tool is to install the latest versi
 ## Example usage
 Below is an example of how to run `azurecli-login` using a `.devinit.json`. 
 
-### .devinit.json that will trigger Azure login:
+#### .devinit.json that will trigger Azure login:
 
 ```json
 {
     "$schema": "https://json.schemastore.org/devinit.schema-3.0",
     "run": [
         {
-            "comments": "Example that will trigger az login --use-device-code behavior.",
             "tool": "azurecli-login"
         }
     ]

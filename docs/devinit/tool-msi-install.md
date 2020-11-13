@@ -50,13 +50,12 @@ The msi-install tool sets a number of `msiexec` command-line arguments to ensure
 ## Example usage
 Below is an example of how to run `msi-install` using a `.devinit.json`. 
 
-### .devinit.json that will install the 7-Zip MSI:
+#### .devinit.json that will install the 7-Zip MSI:
 ```json
 {
     "$schema": "https://json.schemastore.org/devinit.schema-4.0",
     "run": [
         {
-            "comments": "Installs the 7-Zip MSI",
             "tool": "msi-install",
             "input": "https://www.7-zip.org/a/7z1900.msi"
         }

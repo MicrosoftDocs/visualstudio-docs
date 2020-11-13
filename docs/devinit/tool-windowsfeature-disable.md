@@ -39,13 +39,12 @@ The Default behavior of the `windowsfeature-disable` tool is to error, as `input
 ## Example usage
 Below is an example of how to run `windowsfeature-disable` using a `.devinit.json`. 
 
-### .devinit.json that will disable a specified feature:
+#### .devinit.json that will disable a specified feature:
 ```json
 {
     "$schema": "https://json.schemastore.org/devinit.schema-3.0",
     "run": [
         {
-            "comments": "Installs IIS.",
             "tool": "require-windowsfeature",
             "input": "web-server",
         }

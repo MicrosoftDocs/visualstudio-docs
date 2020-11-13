@@ -41,26 +41,24 @@ The Default behavior of the `require-dotnetframeworksdk` tool is to install the 
 ## Example usage
 Below are examples of how to run `require-dotnetframeworksdk` using a `.devinit.json`. 
 
-### .devinit.json that will install the latest .NET Framework:
+#### .devinit.json that will install the latest .NET Framework:
 ```json
 {
     "$schema": "https://json.schemastore.org/devinit.schema-3.0",
     "run": [
         {
-            "comments": "Example that will install the latest version of the .NET Framework SDK.",
             "tool": "require-dotnetframeworksdk"
         }
     ]
 }
 ```
 
-### .devinit.json that will install a specific version of the .NET Framework:
+#### .devinit.json that will install a specific version of the .NET Framework:
 ```json
 {
     "$schema": "https://json.schemastore.org/devinit.schema-3.0",
     "run": [
         {
-            "comments": "Example that will install a specific version of the .NET Framework SDK.",
             "tool": "require-dotnetframeworksdk",
             "input": "4.8.0"
         }

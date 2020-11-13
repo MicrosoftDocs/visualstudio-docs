@@ -41,13 +41,12 @@ The default behavior of the `enable-iis` tool is to enable IIS features: IIS-Web
 ## Example usage
 Below is an example of how to run `enable-iis` using a `.devinit.json`. 
 
-### .devinit.json that will enable IIS development:
+#### .devinit.json that will enable IIS development:
 ```json
 {
     "$schema": "https://json.schemastore.org/devinit.schema-3.0.json",
     "run": [
         {
-            "comments": "Example that will enable IIS features and install the latest ASP.NET hosting bundle.",
             "tool": "enable-iis"
         },
     ]

@@ -47,13 +47,12 @@ The `choco-upgrade` tool sets a number of `choco` command-line arguments to ensu
 ## Example usage
 Below are examples of how to run `choco-upgrade` using a `.devinit.json`. 
 
-### .devinit.json that will update packages listed in packages.config:
+#### .devinit.json that will update packages listed in packages.config:
 ```json
 {
     "$schema": "https://json.schemastore.org/devinit.schema-3.0",
     "run": [
         {
-            "comments": "Example that will trigger the Default behavior of upgrading packages listed in a packages.config file.",
             "tool": "choco-upgrade",
             "input": "packages.config",
         }
@@ -61,13 +60,12 @@ Below are examples of how to run `choco-upgrade` using a `.devinit.json`.
 }
 ```
 
-### .devinit.json that will upgrade MongoDB:
+#### .devinit.json that will upgrade MongoDB:
 ```json
 {
     "$schema": "https://json.schemastore.org/devinit.schema-3.0",
     "run": [
         {
-            "comments": "Example that will upgrade the package 'mongodb'.",
             "tool": "choco-upgrade",
             "input": "mongodb"
         }
@@ -75,13 +73,12 @@ Below are examples of how to run `choco-upgrade` using a `.devinit.json`.
 }
 ```
 
-### .devinit.json that will upgrade to a specific version of MongoDB:
+#### .devinit.json that will upgrade to a specific version of MongoDB:
 ```json
 {
     "$schema": "https://json.schemastore.org/devinit.schema-3.0",
     "run": [
         {
-            "comments": "Example that will upgrade the '4.2.7' version of 'mongodb'.",
             "tool": "choco-upgrade",
             "input": "mongodb",
             "additionalOptions": "--version 4.2.7"

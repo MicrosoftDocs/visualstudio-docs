@@ -41,14 +41,13 @@ The Default behavior of the `dotnet-restore` tool is to run 'dotnet restore' in 
 ## Example usage
 Below is an example of how to run `dotnet-restore` using a `.devinit.json`. 
 
-### .devinit.json that will restore dependencies and tools of a project:
+#### .devinit.json that will restore dependencies and tools of a project:
 ```json
 {
     "$schema": "https://json.schemastore.org/devinit.schema-3.0",
     "run": [
         {
             "tool": "dotnet-restore",
-            "comments": "Restores the dependencies and tools of a project using dotnet core.",
             "input": "C:\\app1\\app1.csproj"
         }
     ]
