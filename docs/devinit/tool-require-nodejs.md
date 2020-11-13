@@ -53,7 +53,7 @@ Below are examples of how to run `require-nodejs` using a `.devinit.json`.
 }
 ```
 
-#### .devinit.json that will install a specfic version of Node.js:
+#### .devinit.json that will install a specific version of Node.js:
 ```json
 {
     "$schema": "https://json.schemastore.org/devinit.schema-3.0",
