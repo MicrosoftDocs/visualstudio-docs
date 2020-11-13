@@ -44,9 +44,11 @@ You can use several methods to deploy the app prior to debugging. For example, y
 
 - Build the app on Windows, and then transfer the build artifacts to the Linux machine. (The build artifacts consist of the application itself, the portable PDBs, any runtime libraries it might depend on, and the *.deps.json* file.)
 
+When the app is deployed, start the application.
+
 ## Attach the debugger
 
-After the computers are configured, start the application on the Linux machine, and then you are ready to attach the debugger.
+When the application is running on the Linux machine, you are ready to attach the debugger.
 
 1. In Visual Studio, choose **Debug** > **Attach to Process…**.
 
