@@ -13,7 +13,7 @@ monikerRange: vs-2019
 
 Git is now the default version control experience in Visual Studio 2019. Since [version 16.6](/visualstudio/releases/2019/release-notes-v16.6), we've worked on building out the feature set and iterating on it based on your feedback. The new Git experience is turned on by default for everyone with the release of [version 16.8](/visualstudio/releases/2019/release-notes/).<br><br>*Video length: 5.27 minutes*
 
-> [!VIDEO https://www.youtube.com/embed/UHrAg3iKoe0&t]
+> [!VIDEO https://www.youtube.com/embed/UHrAg3iKoe0]
 
 > [!TIP]
 > Git is the most widely used modern version control system, so whether you’re a professional developer or if you’re learning how to code, Git can be very useful to you. If you are new to Git, the https://git-scm.com/ website is a good place to start. There, you’ll find cheat sheets, a popular online book, and Git Basics videos.
