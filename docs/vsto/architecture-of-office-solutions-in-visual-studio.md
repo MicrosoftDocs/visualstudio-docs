@@ -1,5 +1,7 @@
 ---
 title: "Architecture of Office solutions in Visual Studio"
+description: Learn about how solutions created by using the Microsoft Office developer tools in Visual Studio work.
+ms.custom: SEO-VS-2020
 titleSuffix: ""
 ms.date: 08/14/2019
 ms.topic: conceptual
