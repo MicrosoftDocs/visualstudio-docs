@@ -39,7 +39,9 @@ Not used.
 The Default behavior of the `require-vscomponent` tool is to look for a `.vsconfig` file in current directory and run the Visual Studio Installer with these details in quiet mode. `require-vscomponent` only supports modifying an existing Visual Studio installation.
 
 ## Example usage
+Below is an example of how to run `require-vscomponent` using a `.devinit.json`. 
 
+#### .devinit.json that will import the configurations of a given .vsconfig file path:
 ```json
 {
     "$schema": "https://json.schemastore.org/devinit.schema-3.0",
@@ -47,7 +49,6 @@ The Default behavior of the `require-vscomponent` tool is to look for a `.vsconf
     "run": [
         {
             "tool": "require-vscomponent",
-            "comments": "Imports .vsconfig file which is passed as input to Visual Studio.",
             "input": "C:\\.vsconfig"
         }
     ]
