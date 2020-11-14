@@ -1,5 +1,7 @@
 ---
-title: "&lt;customHostSpecified&gt; element (Office development in Visual Studio)"
+title: "&lt;customHostSpecified&gt; element (Office development in Visual Studio)"\
+description: Learn how the customHostSpecified element indicates that this solution is not a stand-alone application.
+ms.custom: SEO-VS-2020
 titleSuffix: ""
 ms.custom: "seodec18"
 ms.date: "02/02/2017"

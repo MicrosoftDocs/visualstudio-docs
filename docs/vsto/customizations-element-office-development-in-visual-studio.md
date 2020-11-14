@@ -1,5 +1,7 @@
 ---
 title: "&lt;customizations&gt; element (Office development in Visual Studio)"
+description: Learn how the customizations element of the vstov4 namespace contains all the information about installing and loading each Office solution.
+ms.custom: SEO-VS-2020
 titleSuffix: ""
 ms.custom: "seodec18"
 ms.date: "02/02/2017"

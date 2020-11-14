@@ -1,5 +1,7 @@
 ---
 title: "Common tasks in Office programming"
+description: Learn how you can program against the data in a document-level customization without having to use the object model of Microsoft Office Word or Office Excel.
+ms.custom: SEO-VS-2020SS
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
