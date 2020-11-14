@@ -1,5 +1,7 @@
 ---
 title: "Error messages (Office development in Visual Studio)"
+description: Learn how each error message topic provides information on possible causes for an error and potential solutions or workarounds to solve the problem.
+ms.custom: SEO-VS-2020
 titleSuffix: ""
 ms.custom: "seodec18"
 ms.date: "02/02/2017"
