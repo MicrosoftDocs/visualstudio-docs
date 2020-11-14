@@ -37,28 +37,53 @@ None.
 The Default behavior of the `windowsfeature-enable` tool is to error, as `input` is required.
 
 ## Example usage
+Below are examples of how to run `windowsfeature-enable` using a `.devinit.json`. 
 
+#### .devinit.json that will install IIS:
 ```json
 {
     "$schema": "https://json.schemastore.org/devinit.schema-3.0",
     "run": [
         {
-            "comments": "Installs IIS.",
             "tool": "windowsfeature-enable",
             "input": "web-server",
-        },
+        }
+    ]
+}
+```
+
+#### .devinit.json that will install the .NET Framework:
+```json
+{
+    "$schema": "https://json.schemastore.org/devinit.schema-3.0",
+    "run": [
         {
-            "comments": "Installs the .NET Framework 3.5.",
             "tool": "windowsfeature-enable",
             "input": "net-framework-features"
-        },
+        }
+    ]
+}
+```
+
+#### .devinit.json that will install the .NET Framework 4.5:
+```json
+{
+    "$schema": "https://json.schemastore.org/devinit.schema-3.0",
+    "run": [
         {
-            "comments": "Installs the .NET Framework 4.5.",
             "tool": "windowsfeature-enable",
             "input": "net-framework-45-features"
-        },
+        }
+    ]
+}
+```
+
+#### .devinit.json that will install the Windows Subsystem for Linux 2.0:
+```json
+{
+    "$schema": "https://json.schemastore.org/devinit.schema-3.0",
+    "run": [
         {
-            "comments": "Installs Windows Subsystem for Linux 2.0.",
             "tool": "windowsfeature-enable",
             "input": "Microsoft-Windows-Subsystem-Linux"
         }

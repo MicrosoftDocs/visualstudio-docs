@@ -39,15 +39,15 @@ Additional options are passed as-is to the credential provider command.
 The Default behavior of the `require-azureartifactscredentialprovider` tool is to install latest of Azure Artifacts Credential Provider.
 
 ## Example usage
+Below is an example of how to run `require-azureartifactscredentialprovider` using a `.devinit.json`. 
 
+#### .devinit.json that will install Azure Artifacts Credential Provider:
 ```json
 {
     "$schema": "https://json.schemastore.org/devinit.schema-3.0",
-    "comments": "A sample dot-devinit file that installs Azure Artifacts Credential Provider.'",
     "run": [
         {
             "tool": "require-azureartifactscredentialprovider",
-            "comments": "Installs Azure Artifacts Credential Provider."
         }
     ]
 }

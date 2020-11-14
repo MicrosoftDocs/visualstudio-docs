@@ -45,53 +45,97 @@ Not used.
 
 ## Usage in a codespace
 
-If you're using a codespace, you can set environment variables used in the codespace through customizating the `remoteEnv` property in [`.devcontainer.json`](/visualstudio/codespaces/reference/configuring) file.
+If you're using a codespace, you can set environment variables used in the codespace through customizing the `remoteEnv` property in [`.devcontainer.json`](/visualstudio/codespaces/reference/configuring) file.
 
 ## Example usage
+Below are examples of how to run `set-env` using a `.devinit.json`. 
 
+#### .devinit.json that will set an environment variable, `foo`, to value, `bar`:
 ```json
 {
   "$schema": "https://json.schemastore.org/devinit.schema-3.0",
-  "comments": "A sample dot-devinit file demonstrating the set-env tool.",
   "run": [
     {
       "tool": "set-env",
       "input": "foo=bar",
-      "comments": "To set an environment variable, set input to 'name=value'."
-    },
+    }
+  ]
+}
+```
+
+#### .devinit.json that will display the value of an environment variable:
+```json
+{
+  "$schema": "https://json.schemastore.org/devinit.schema-3.0",
+  "run": [
     {
       "tool": "set-env",
       "input": "foo",
-      "comments": "To display the value of a single environment variable, set input to the name of the variable."
-    },
+    }
+  ]
+}
+```
+
+#### .devinit.json that will list all the environment variables:
+```json
+{
+  "$schema": "https://json.schemastore.org/devinit.schema-3.0",
+  "run": [
     {
       "tool": "set-env",
-      "comments": "To list all environment variables, pass no input."
-    },
+    }
+  ]
+}
+```
+
+#### .devinit.json that will delete an environment variable:
+```json
+{
+  "$schema": "https://json.schemastore.org/devinit.schema-3.0",
+  "run": [
     {
       "tool": "set-env",
       "input": "foo=",
-      "comments": "To delete an environment variable, pass input of 'name='."
-    },
-    {
-      "tool": "set-env",
-      "input": "foo",
-      "comments": "Trying to display a variable that doesn't exist results in a warning."
-    },
+    }
+  ]
+}
+```
+
+
+#### .devinit.json that will use environment variable expansion:
+```json
+{
+  "$schema": "https://json.schemastore.org/devinit.schema-3.0",
+  "run": [
     {
       "tool": "set-env",
       "input": "_savedPath=%path%",
-      "comments": "Envrionment variable expansion is supported."
-    },
+    }
+  ]
+}
+```
+
+#### .devinit.json that will set an environment variable value using path manipulation:
+```json
+{
+  "$schema": "https://json.schemastore.org/devinit.schema-3.0",
+  "run": [
     {
       "tool": "set-env",
       "input": "path=%path%;%userprofile%\\CustomFolder",
-      "comments": "Shows path manipulation. Note: Variables set here are not persisted."
-    },
+    }
+  ]
+}
+```
+
+#### .devinit.json that will restore path from saved copy:
+```json
+{
+  "$schema": "https://json.schemastore.org/devinit.schema-3.0",
+  "run": [
     {
       "tool": "set-env",
       "input": "path=%_savedPath%",
-      "comments": "Restore path from saved copy."
     }
   ]
 }
