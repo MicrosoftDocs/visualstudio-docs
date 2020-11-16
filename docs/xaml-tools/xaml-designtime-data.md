@@ -177,7 +177,7 @@ If you experience a problem that isn't listed in this section, please let us kno
 
 - Design-time data requires Visual Studio 2019 version [16.7](/visualstudio/releases/2019/release-notes) or later.
 
-- Supports Windows desktop projects that are targeting Windows Presentation Foundation (WPF) for .NET Core and UWP. This feature is also available for .NET Framework if you have the "New WPF XAML Designer for .NET Framework" preview feature enabled.
+- Supports Windows desktop projects that target Windows Presentation Foundation (WPF) for .NET Core and UWP. This feature is also available in the Preview channel for .NET Framework. To enable it, go to Options > Preview Features, select **New WPF XAML Designer for .NET Framework** and then restart Visual Studio.
 
 - Starting with Visual Studio 2019 version 16.7, this feature works with all in-the-box controls from WPF and UWP frameworks. Support for third-party controls is now available in the 16.8 preview release.
 
