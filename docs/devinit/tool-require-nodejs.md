@@ -39,17 +39,26 @@ Additional configuration options can be passed in as a value of the `additionalO
 The Default behavior of the `require-nodejs` tool is to install the latest LTS version of Node as detailed on the Node.JS [website](https://nodejs.org/en/download/).
 
 ## Example usage
+Below are examples of how to run `require-nodejs` using a `.devinit.json`. 
 
+#### .devinit.json that will install the LTS of Node.js:
 ```json
 {
     "$schema": "https://json.schemastore.org/devinit.schema-3.0",
     "run": [
         {
-            "comments": "Example that will trigger the Default behavior of installing latest LTS of Node.JS.",
             "tool": "require-nodejs"
-        },
+        }
+    ]
+}
+```
+
+#### .devinit.json that will install a specific version of Node.js:
+```json
+{
+    "$schema": "https://json.schemastore.org/devinit.schema-3.0",
+    "run": [
         {
-            "comments": "Example that will install a specific version.",
             "tool": "require-nodejs",
             "input": "14.4.0"
         }
