@@ -39,15 +39,15 @@ Additional options are passed as-is to the NuGet restore command.
 The Default behavior of the `nuget-restore` tool is to run 'NuGet restore' in the current directory.
 
 ## Example usage
+Below is an example of how to run `nuget-restore` using a `.devinit.json`. 
 
+#### .devinit.json that will restore dependencies and tools of a project:
 ```json
 {
     "$schema": "https://json.schemastore.org/devinit.schema-3.0",
-    "comments": "A sample dot-devinit file that restores NuGet pacakges.",
     "run": [
         {
             "tool": "nuget-restore",
-            "comments": "Restores the dependencies and tools of a project using nuget restore.",
             "input": "C:\\nuget\\Nuget.config"
         }
     ]

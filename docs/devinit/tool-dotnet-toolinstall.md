@@ -41,18 +41,27 @@ The `dotnet tool update` command is used to safely handle the case where a tool 
 The Default behavior of the `dotnet-toolinstall` tool is to error as `input` is required.
 
 ## Example usage
+Below are examples of how to run `dotnet-toolinstall` using a `.devinit.json`. 
 
+#### .devinit.json that will install the dotnet-trace tool:
 ```json
 {
     "$schema": "https://json.schemastore.org/devinit.schema-3.0",
     "run": [
         {
-            "comments": "Example that will install the dotnet-trace tool.",
             "tool": "dotnet-toolinstall",
             "input": "dotnet-trace"
-        },
+        }
+    ]
+}
+```
+
+#### .devinit.json that will install the dotnet-trace tool as a global tool:
+```json
+{
+    "$schema": "https://json.schemastore.org/devinit.schema-3.0",
+    "run": [
         {
-            "comments": "Example that will install the dotnet-trace tool as a global tool.",
             "tool": "dotnet-toolinstall",
             "input": "dotnet-trace",
             "additionalOptions": "--global"
