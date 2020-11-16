@@ -29,7 +29,7 @@ There are three ways to start using Git with Visual Studio to be more productive
 - [Clone an existing Git repository](#clone-an-existing-git-repository). If the code that you would like to work on is not on your machine, you can clone any existing remote repositories.
 
 > [!NOTE]
-> Visual Studio 2019 now offers a fully integrated GitHub account experience. Starting with [version 16.8](/visualstudio/releases/2019/release-notes/), you’ll be able to add both GitHub and GitHub Enterprise accounts to your keychain. You’ll be able to add and leverage them just as you do with Microsoft accounts, which means that you’ll have an easier time accessing your GitHub resources across Visual Studio. For more information, see the []() page.
+> Visual Studio 2019 now offers a fully integrated GitHub account experience. Starting with [version 16.8](/visualstudio/releases/2019/release-notes/), you can add both GitHub and GitHub Enterprise accounts to your keychain. You’ll be able to add and leverage them just as you do with Microsoft accounts, which means that you’ll have an easier time accessing your GitHub resources across Visual Studio. For more information, see the [Work with GitHub accounts in Visual Studio](work-with-github-accounts.md) page.
 
 ## Create a new Git repository
 
@@ -201,4 +201,5 @@ While the new Git experience is now on by default in Visual Studio 2019 [version
 - [The Visual Studio Toolbox series presents: The new Git experience](https://channel9.msdn.com/Shows/Visual-Studio-Toolbox/The-New-Git-Experience) video on Channel 9 and on [YouTube](https://www.youtube.com/watch?v=ZiQ2LXtAJ6I&feature=youtu.be)
 - [Exciting new updates to the Git experience in Visual Studio](https://devblogs.microsoft.com/visualstudio/exciting-new-updates-to-the-git-experience-in-visual-studio/) blog post
 - [Improved Git Experience in Visual Studio 2019](https://devblogs.microsoft.com/visualstudio/improved-git-experience-in-visual-studio-2019/) blog post
+- [Work with GitHub accounts in Visual Studio](work-with-github-accounts.md)
 - [Visual Studio 2019 release notes](/visualstudio/releases/2019/release-notes)
