@@ -1,5 +1,7 @@
 ---
 title: Warnings and errors | Microsoft IntelliTest Developer Test Tool
+description: Learn about IntelliTest warnings and errors, divided into categories, including descriptions for each warning and error.
+ms.custom: SEO-VS-2020
 ms.date: 05/02/2017
 ms.topic: reference
 helpviewer_keywords:

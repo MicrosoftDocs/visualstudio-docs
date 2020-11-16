@@ -1,5 +1,7 @@
 ---
 title: What's New in Live Unit Testing in Visual Studio 2017
+description: This article describes the new features added to Live Unit Testing in each version of Visual Studio starting with Visual Studio 2017 version 15.3.
+ms.custom: SEO-VS-2020
 titleSuffix: ""
 ms.date: 10/11/2017
 ms.topic: conceptual
