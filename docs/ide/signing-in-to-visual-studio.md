@@ -79,6 +79,7 @@ If you encounter any problems while signing in, please see the [Subscription sup
 ## See also
 
 * [Extend a trial version or update a license](../ide/how-to-unlock-visual-studio.md)
+* [Work with GitHub accounts in Visual Studio](../ide/work-with-github-accounts.md)
 * [Visual Studio IDE overview](../get-started/visual-studio-ide.md)
 * [Sign in (Visual Studio for Mac)](/visualstudio/mac/signing-in)
 * [Activation (Visual Studio for Mac)](/visualstudio/mac/activation)
