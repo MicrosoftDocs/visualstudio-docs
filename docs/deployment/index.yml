@@ -53,7 +53,7 @@ landingContent:
         links:
           - text: Deploy .NET Core apps
             url: /dotnet/core/deploying/deploy-with-vs
-          - text: Deploy a desktop app using ClickOnce
+          - text: Deploy a .NET Framework desktop app using ClickOnce
             url: how-to-publish-a-clickonce-application-using-the-publish-wizard.md
           - text: Deploy a desktop app using an installer package
             url: deploying-applications-services-and-components.md#create-an-installer-package-windows-desktop
@@ -85,7 +85,7 @@ landingContent:
             url: /aspnet/core/host-and-deploy/azure-apps/azure-continuous-deployment
 
   # Card
-  - title: Additional links
+  - title: Additional deployment types
     linkLists:
       - linkListType: how-to-guide
         links:
@@ -93,5 +93,7 @@ landingContent:
             url: ../python/publishing-python-web-applications-to-azure-from-visual-studio.md
           - text: Node.js apps to Linux App Service
             url: ../javascript/publish-nodejs-app-azure.md
+          - text: Deploy containerized apps
+            url: ../containers/
           - text: Publish NuGet packages
             url: /nuget
