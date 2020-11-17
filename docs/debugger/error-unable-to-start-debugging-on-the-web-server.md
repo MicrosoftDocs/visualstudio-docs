@@ -1,7 +1,7 @@
 ---
-title: "Error: Unable to Start Debugging on the Web Server | Microsoft Docs"
+title: "Unable to Start Debugging on the Web Server | Microsoft Docs"
 ms.date: "05/23/2018"
-ms.topic: "troubleshooting"
+ms.topic: "error-reference"
 f1_keywords:
   - "vs.debug.error.http"
   - "vwd.nonadmin.error."

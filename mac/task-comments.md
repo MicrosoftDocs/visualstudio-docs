@@ -1,9 +1,9 @@
 ---
 title: "Task Comments"
 description: "Adding task comments to your code"
-author: cobey
-ms.author: cobey
-ms.date: 05/06/2018
+author: jmatthiesen
+ms.author: jomatthi
+ms.date: 11/09/2020
 ms.assetid: 562DCB46-D8FA-4DC4-AAEA-F274448C4CD2
 ---
 
@@ -19,9 +19,9 @@ To add a new task comment, add a comment that includes the task keyword. For exa
 //TODO: Finish this for all properties.
 ```
 
-Visual Studio for Mac draws attention to these markers by highlighting them in the **Task List** pad, which can be displayed by navigating to **View > Pads > Task**:
+Visual Studio for Mac draws attention to these markers by highlighting them in the **Task List** window, which can be displayed using the **View > Tasks** menu:
 
-![Task list pad](media/source-editor-image11.png)
+![The Task list window, showing a single TODO item](media/source-editor-image11.png)
 
 ## See also
 

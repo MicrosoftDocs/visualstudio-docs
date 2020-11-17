@@ -1,7 +1,7 @@
 ---
-title: "Error: Unable to access the SQL Server debugging interface | Microsoft Docs"
+title: "Unable to access the SQL Server debugging interface | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "troubleshooting"
+ms.topic: "error-reference"
 f1_keywords:
   - "vs.debug.error.sqlde_debugging_not_enabled"
 dev_langs:

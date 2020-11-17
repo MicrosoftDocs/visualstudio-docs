@@ -34,7 +34,8 @@ If you're concerned about data privacy, don't put anything you want to keep priv
 3. Add the description and any other information, images, and file attachments needed for your repro. Choose the **Submit** button to send this information privately.
 
    > [!NOTE]
-   > There is a 2-GB limit on attached files, and a maximum of 10 files. If you need to upload a larger file, you can either submit a new problem report or request an upload URL from a Microsoft employee in a private comment.
+   > On the Developer Community website, there is a 2-GB limit on attached files, and a maximum of 10 files. If you need to upload a larger file, you can either submit a new problem report or request an upload URL from a Microsoft employee in a private comment.
+   > When we close an issue, associated attachments will be deleted after 90 days.
 
 To maintain your privacy and keep sensitive information out of public view, take care to keep all interactions with Microsoft to replies under a visibility-restricted comment. Replies to other comments may cause you to accidentally disclose sensitive information.
 
@@ -61,6 +62,8 @@ If **Report a problem** is initiated from Visual Studio, we collect one or more 
 - Service Hub logs and MEF error logs, if they exist
 
 - Python logs, if they exist
+
+- Razor LSP editor logs, if they exist
 
 - Windows Forms logs, if they exist
 

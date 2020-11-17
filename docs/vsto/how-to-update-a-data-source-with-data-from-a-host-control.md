@@ -1,7 +1,8 @@
 ---
 title: "How to: Update a data source with data from a host control"
+titleSuffix: ""
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: "how-to"
 dev_langs:
   - "VB"
   - "CSharp"

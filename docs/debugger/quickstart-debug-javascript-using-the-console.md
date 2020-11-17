@@ -1,25 +1,25 @@
 ---
-title: "Debug JavaScript using the console | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Debug JavaScript using the console | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: how-to
 f1_keywords:
-  - "VS.WebClient.JavaScriptConsole"
+  - VS.WebClient.JavaScriptConsole
 dev_langs:
-  - "JavaScript"
+  - JavaScript
 helpviewer_keywords:
-  - "JavaScript Console"
-  - "JavaScript debugging"
-  - "debugging, JavaScript"
-author: "mikejo5000"
-ms.author: "mikejo"
+  - JavaScript Console
+  - JavaScript debugging
+  - debugging, JavaScript
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 monikerRange: vs-2017
 ms.workload:
-  - "multiple"
+  - multiple
 ---
 # Debug JavaScript using the console in Visual Studio
 
-You can use the JavaScript Console window to interact with and debug UWP apps built using JavaScript. These features are supported for UWP apps and apps created using Visual Studio Tools for Apache Cordova. For the console command reference, see [JavaScript Console commands](../debugger/javascript-console-commands.md?view=vs-2017).
+You can use the JavaScript Console window to interact with and debug UWP apps built using JavaScript. These features are supported for UWP apps and apps created using Visual Studio Tools for Apache Cordova. For the console command reference, see [JavaScript Console commands](../debugger/javascript-console-commands.md?view=vs-2017&preserve-view=true).
 
 The JavaScript Console window allows you to:
 
@@ -33,7 +33,7 @@ The JavaScript Console window allows you to:
 
 - View JavaScript errors and exceptions, in addition to Document Object Model (DOM) and Windows Runtime exceptions.
 
-- Perform other tasks, like clearing the screen. See [JavaScript Console commands](../debugger/javascript-console-commands.md?view=vs-2017) for the full list of commands.
+- Perform other tasks, like clearing the screen. See [JavaScript Console commands](../debugger/javascript-console-commands.md?view=vs-2017&preserve-view=true) for the full list of commands.
 
 > [!TIP]
 > If the JavaScript Console window is closed, choose **Debug**> **Windows** > **JavaScript Console** to re-open it. The window appears only during a script debugging session.
@@ -245,9 +245,9 @@ You can also switch the execution context by using the `cd` command, but you mus
 
 ## See also
 - [Debug apps in Visual Studio](debugging-windows-store-and-windows-universal-apps.md)
-- [JavaScript Console commands](../debugger/javascript-console-commands.md?view=vs-2017)
+- [JavaScript Console commands](../debugger/javascript-console-commands.md?view=vs-2017&preserve-view=true)
 - [Refresh an app (JavaScript)](../debugger/refresh-an-app-javascript.md)
-- [Keyboard shortcuts](../debugger/keyboard-shortcuts-html-and-javascript.md?view=vs-2017)
+- [Keyboard shortcuts](../debugger/keyboard-shortcuts-html-and-javascript.md?view=vs-2017&preserve-view=true)
 - [Debug HTML, CSS, and JavaScript sample code](../debugger/debug-html-css-and-javascript-sample-code.md)
 - [Quickstart: Debug HTML and CSS](../debugger/quickstart-debug-html-and-css.md)
 - [Debug a WebView control](../debugger/debug-a-webview-control.md)

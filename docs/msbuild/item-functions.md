@@ -1,5 +1,7 @@
 ---
 title: Item Functions | Microsoft Docs
+description: Learn how MSBuild code in tasks and targets can call item functions to get information about the items in the project.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -95,6 +97,10 @@ The following example shows how to use intrinsic item functions.
     Reverse: third;second;first
   -->
 ```
+
+## MSBuild condition functions
+
+The functions `Exists` and `HasTrailingSlash` are not item functions. They are available for use with the `Condition` attribute. See [MSBuild conditions](msbuild-conditions.md).
 
 ## See also
 

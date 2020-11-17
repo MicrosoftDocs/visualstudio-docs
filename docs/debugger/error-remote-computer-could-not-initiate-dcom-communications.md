@@ -1,7 +1,7 @@
 ---
-title: "Error: Remote computer could not initiate DCOM communications | Microsoft Docs"
+title: "Remote computer could not initiate DCOM communications | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "troubleshooting"
+ms.topic: "error-reference"
 f1_keywords:
   - "vs.debug.error.unmarshal_callback_failed"
 dev_langs:

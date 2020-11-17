@@ -1,7 +1,9 @@
 ---
 title: Edit data in datasets
+description: Learn to edit data in datasets. Know how to edit dataset rows, insert new rows into a dataset, determine if there are changed rows, and locate rows with errors.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 dev_langs:
 - VB
 - CSharp

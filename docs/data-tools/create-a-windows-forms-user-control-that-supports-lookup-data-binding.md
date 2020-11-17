@@ -1,5 +1,7 @@
 ---
-title: Using lookup tables in data binding - Windows Forms controls| Microsoft Docs
+title: Using lookup tables in data binding - Windows Forms
+description: Learn to create a Windows Forms user control that supports lookup data binding, using the LookupBindingPropertiesAttribute class in Visual Studio.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 dev_langs:

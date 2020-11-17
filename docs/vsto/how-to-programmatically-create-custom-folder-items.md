@@ -1,14 +1,13 @@
 ---
 title: "How to: Programmatically create custom folder items"
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: "how-to"
 dev_langs:
   - "VB"
   - "CSharp"
 helpviewer_keywords:
   - "Outlook folders [Office development in Visual Studio], creating"
   - "Outlook folders [Office development in Visual Studio], custom"
-author: John-Hart
 author: John-Hart
 ms.author: johnhart
 ms.workload:

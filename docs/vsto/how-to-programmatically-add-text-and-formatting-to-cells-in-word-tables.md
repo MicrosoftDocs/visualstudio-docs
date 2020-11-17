@@ -1,7 +1,8 @@
 ---
 title: "Add text & formatting to Word table cells programmatically"
+titleSuffix: ""
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: "how-to"
 dev_langs:
   - "VB"
   - "CSharp"

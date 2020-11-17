@@ -1,7 +1,8 @@
 ---
 title: "Exclude paragraph marks when creating ranges programmatically"
+titleSuffix: ""
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: "how-to"
 dev_langs:
   - "VB"
   - "CSharp"

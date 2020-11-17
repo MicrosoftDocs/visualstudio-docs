@@ -1,7 +1,9 @@
 ---
 title: 'How to: Add validation to entity classes'
+description: Review how to add validation to entity classes. Add validation for changes to a value in a specific column. Add validation for updates to an entity class.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 dev_langs:
 - VB
 - CSharp

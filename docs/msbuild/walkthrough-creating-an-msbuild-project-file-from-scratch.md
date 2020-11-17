@@ -1,5 +1,7 @@
 ---
-title: 'Walkthrough: Creating an MSBuild Project File from Scratch | Microsoft Docs'
+title: Create an MSBuild project file from scratch
+description: Walk through creating an MSBuild project file from scratch to understand how the XML is organized and how you can change it to control a build.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -19,11 +21,11 @@ Programming languages that target the .NET Framework use MSBuild project files t
 
  This walkthrough shows how to create a basic project file incrementally, by using only a text editor. The walkthrough follows these steps:
 
-1. Create a minimal application source file.
+1. Extend the PATH environment variable.
 
-2. Create a minimal MSBuild project file.
+2. Create a minimal application source file.
 
-3. Extend the PATH environment variable to include MSBuild.
+3. Create a minimal MSBuild project file.
 
 4. Build the application by using the project file.
 
@@ -39,7 +41,11 @@ Programming languages that target the .NET Framework use MSBuild project files t
 
 This walkthrough shows how to build the project at the command prompt and examine the results. For more information about MSBuild and how to run MSBuild at the command prompt, see [Walkthrough: Use MSBuild](../msbuild/walkthrough-using-msbuild.md).
 
-To complete the walkthrough, you must have the .NET Framework (version 2.0, 3.5, 4.0, 4.5, or later) installed because it includes MSBuild and the Visual C# compiler, which are required for the walkthrough.
+To complete the walkthrough, you must have Visual Studio installed because it includes MSBuild and the Visual C# compiler, which are required for the walkthrough.
+
+## Extend the path
+
+Before you can use MSBuild, you must extend the PATH environment variable to include all the required tools. You can use the **Developer Command Prompt for Visual Studio**. Search for it on Windows 10 in the search box in the Windows task bar. To set up the environment in an ordinary command prompt or in a scripting environment, run *VSDevCmd.bat* in the *Common7/Tools* subfolder of a Visual Studio installation.
 
 ## Create a minimal application
 
@@ -149,16 +155,6 @@ Tasks in the Build target are executed sequentially. In this case, the Visual C#
 > <Compile Include="*.cs" />
 > ```
 
-## Extend the path to include MSBuild
-
-Before you can access MSBuild, you must extend the PATH environment variable to include the .NET Framework folder.
-
-Starting in Visual Studio 2013, you can find *MSBuild.exe* in the MSBuild folder (*%ProgramFiles%\MSBuild* on a 32-bit operating system or in *%ProgramFiles(x86)%\MSBuild* on a 64-bit operating system).
-
-At the command prompt, type **set PATH=%PATH%;%ProgramFiles%\MSBuild** or **set PATH=%PATH%;%ProgramFiles(x86)%\MSBuild**.
-
-Alternatively, if you have Visual Studio installed, you can use the **Developer Command Prompt for Visual Studio**, which has a path that includes the *MSBuild* folder.
-
 ## Build the application
 
  Now, to build the application, use the project file that you just created.
@@ -238,13 +234,13 @@ Your project file should now resemble the following code:
 >
 > `<OutputPath>Bin\</OutputPath>`
 >
-> `OutputAssembly=="$(OutputPath)$(AssemblyName).exe" />`
+> `OutputAssembly="$(OutputPath)$(AssemblyName).exe" />`
 >
 > is better than
 >
 > `<OutputPath>Bin</OutputPath>`
 >
-> `OutputAssembly=="$(OutputPath)\$(AssemblyName).exe" />`
+> `OutputAssembly="$(OutputPath)\$(AssemblyName).exe" />`
 
 ## Test the build properties
 

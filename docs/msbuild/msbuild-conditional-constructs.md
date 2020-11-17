@@ -1,5 +1,7 @@
 ---
 title: MSBuild Conditional Constructs | Microsoft Docs
+description: Learn how MSBuild provides a mechanism for conditional processing with the Choose, When, and Otherwise elements.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 dev_langs:
@@ -71,6 +73,18 @@ MSBuild provides a mechanism for either/or processing with the [Choose](../msbui
     </Choose>
     <!-- Rest of Project -->
 </Project>
+```
+
+In this example, a condition on a compiler constant `DEFINED_CONSTANT` is used. These are included in the `DefinedConstants` property. The regular expression is used to match the exact constant in a semicolon-separated list.
+
+```xml
+<Choose>
+   <When Condition="$([System.Text.RegularExpressions.Regex]::IsMatch(
+         $(DefineConstants), '^(.*;)*DEFINED_CONSTANT(;.*)*$'))">
+      <!-- When DEFINED_CONSTANT is defined. -->
+   </When>
+   <!-- other conditions -->
+</Choose>
 ```
 
 ## See also

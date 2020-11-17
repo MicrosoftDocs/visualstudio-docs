@@ -1,7 +1,8 @@
 ---
 title: "Permit code to run behind docs with restricted permissions"
+titleSuffix: ""
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: "how-to"
 dev_langs:
   - "VB"
   - "CSharp"

@@ -1,39 +1,39 @@
 ---
-title: "Use breakpoints in the debugger | Microsoft Docs"
-ms.custom: ""
-ms.date: "10/28/2019"
-ms.topic: "conceptual"
-f1_keywords:
-  - "vs.debug.breakpointswin"
-  - "vs.debug.disassembly.insert"
-  - "vs.debug.sourcewin.edit"
-  - "vs.debug.file"
-  - "vs.debug.breakpt.new"
-  - "vs.debug.whenbreakpointishit"
-  - "vs.debug.breakpt.location.address"
-  - "vs.debug.breakpt.constraints"
-  - "vs.debug.breakpoints.delete"
-  - "vs.debug.breakpt.location.data"
-  - "vc.breakpoints"
-  - "vs.debug.breakpt.condition"
-  - "vs.debug.breakpt.location.function"
-  - "vs.debug.breakpoints"
-  - "vs.debug.menu.insert"
-  - "vs.debug.filenames"
-  - "vs.debug.breakpt.action"
-  - "vs.debug.sourcewin.insert"
-  - "vs.debug.address"
-  - "vs.debug.data"
-  - "vs.debug.func"
-  - "vs.debug.breakpt.location.file"
-helpviewer_keywords:
-  - "breakpoints, about breakpoints"
+title: Use breakpoints in the debugger | Microsoft Docs
+ms.custom: 
+ms.date: 06/30/2020
+ms.topic: how-to
+f1_keywords: 
+  - vs.debug.breakpointswin
+  - vs.debug.disassembly.insert
+  - vs.debug.sourcewin.edit
+  - vs.debug.file
+  - vs.debug.breakpt.new
+  - vs.debug.whenbreakpointishit
+  - vs.debug.breakpt.location.address
+  - vs.debug.breakpt.constraints
+  - vs.debug.breakpoints.delete
+  - vs.debug.breakpt.location.data
+  - vc.breakpoints
+  - vs.debug.breakpt.condition
+  - vs.debug.breakpt.location.function
+  - vs.debug.breakpoints
+  - vs.debug.menu.insert
+  - vs.debug.filenames
+  - vs.debug.breakpt.action
+  - vs.debug.sourcewin.insert
+  - vs.debug.address
+  - vs.debug.data
+  - vs.debug.func
+  - vs.debug.breakpt.location.file
+helpviewer_keywords: 
+  - breakpoints, about breakpoints
 ms.assetid: 020b2e97-3b3e-4b2c-872d-b5c6025e120e
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
-ms.workload:
-  - "multiple"
+ms.workload: 
+  - multiple
 ---
 # Use breakpoints in the Visual Studio debugger
 
@@ -44,7 +44,7 @@ Breakpoints are one of the most important debugging techniques in your developer
 
 ## <a name="BKMK_Overview"></a> Set breakpoints in source code
 
-You can set a breakpoint on any line of executable code. For example, in the following C# code, you could set a breakpoint on the variable declaration, the `for` loop, or any code inside the `for` loop. You can't set a breakpoint on the namespace or class declarations, or on the method signature.
+You can set a breakpoint on any line of executable code. For example, in the following C# code, you could set a breakpoint on the line of code with the variable assignment (`int testInt = 1`), the `for` loop, or any code inside the `for` loop. You can't set a breakpoint on method signatures, declarations for a namespace or class, or variable declarations if there's no assignment and no getter/setter.
 
 To set a breakpoint in source code, click in the far left margin next to a line of code. You can also select the line and press **F9**, select **Debug** > **Toggle Breakpoint**, or right-click and select **Breakpoint** > **Insert breakpoint**. The breakpoint appears as a red dot in the left margin.
 
@@ -106,9 +106,7 @@ In the following example, the breakpoint is hit only when the value of `testInt`
 If you set a breakpoint condition with invalid syntax, a warning message appears. If you specify a breakpoint condition with valid syntax but invalid semantics, a warning message appears the first time the breakpoint is hit. In either case, the debugger breaks when it hits the invalid breakpoint. The breakpoint is skipped only if the condition is valid and evaluates to `false`.
 
 >[!NOTE]
->The behavior of the **When changed** field is different for different programming languages.
->- For native code, the debugger doesn't consider the first evaluation of the condition to be a change, so doesn't hit the breakpoint on the first evaluation.
->- For managed code, the debugger hits the breakpoint on the first evaluation after **When changed** is selected.
+> For the **When changed** field, the debugger doesn't consider the first evaluation of the condition to be a change, so doesn't hit the breakpoint on the first evaluation.
 
 <a name="using-object-ids-in-breakpoint-conditions-c-and-f"></a>
 ### Use Object IDs in conditional expressions (C# and F# only)

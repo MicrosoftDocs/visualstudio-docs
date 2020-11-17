@@ -1,7 +1,8 @@
 ---
 title: "How to: Add an Existing BDC Model File to a SharePoint Project | Microsoft Docs"
+titleSuffix: ""
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: how-to
 f1_keywords:
   - "VS.SharePointTools.BDC.ImportDialog"
 dev_langs:

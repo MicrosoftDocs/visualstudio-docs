@@ -1,10 +1,10 @@
 ---
-title: Issues Signing in to Visual Studio Subscriptions | Microsoft Docs
+title: Issues signing in to Visual Studio subscriptions | Microsoft Docs
 author: evanwindom
 ms.author: lank
 manager: lank
 ms.assetid: 176c7f11-b19d-49e9-a6dd-b2e5da5e8480
-ms.date: 03/11/2020
+ms.date: 10/28/2020
 ms.topic: conceptual
 description:  Learn about issues that may arise when signing in to Visual Studio subscriptions
 ---
@@ -13,7 +13,7 @@ description:  Learn about issues that may arise when signing in to Visual Studio
 To use your Visual Studio subscription, you must first sign in.  Depending on your subscription, you may have set it up with either a Microsoft account (MSA) or an Azure Active Directory (AAD) identity.  This article discusses some of the issues you may encounter while signing in to your subscription.
 
 ## Microsoft Accounts (MSA) cannot be created using work/school email addresses
-The ability to create a new personal Microsoft Account (MSA) using a work/school email address is no longer allowed when the email domain is configured in Azure AD. What does this mean? If your organization uses Office 365 or other business services from Microsoft that rely on Azure AD, and if you've added a domain name to your Azure AD tenant, users will no longer be able to create a new personal Microsoft account using an email address in your domain.
+The ability to create a new personal Microsoft Account (MSA) using a work/school email address is no longer allowed when the email domain is configured in Azure AD. What does this mean? If your organization uses Microsoft 365 or other business services from Microsoft that rely on Azure AD, and if you've added a domain name to your Azure AD tenant, users will no longer be able to create a new personal Microsoft account using an email address in your domain.
 
 ### Why was this change made?
 Having a personal Microsoft Account with a work address as a username is fraught with issues for end-users and IT departments alike. For example:
@@ -27,15 +27,15 @@ The situation is particularly confusing for users who have two accounts with the
 If you try to sign up for a Microsoft consumer app with a work or school email address, you'll see the message below.
 
    > [!div class="mx-imgBorder"]
-   > ![Can't create an account with work email](_img/sign-in-issues/cannot-use-work-email.png)
+   > ![Can't create an account with work email](_img/sign-in-issues/cannot-use-work-email.png "Provide a username and password to create your account.")
 
 However, if you try to sign up for a Microsoft app that supports personal and work/school accounts, you should see this message:
 
    > [!div class="mx-imgBorder"]
-   > ![Work/school accounts supported](_img/sign-in-issues/existing-account.png)
+   > ![Work/school accounts supported](_img/sign-in-issues/existing-account.png "You can't sign up here with a work or school email address...")
 
 ### Are existing accounts affected?
-The sign-up block described here only prevents the creation of new accounts. It has no impact on users who already have a Microsoft Account with a work/school email address. If you are already in this situation, we've made making it easier to rename a personal Microsoft account. This [support article](https://windows.microsoft.com/en-US/Windows/rename-personal-microsoft-account) provides simple step-by-step guidance. Renaming your personal Microsoft account means changing the username, and does not impact your work email or how you sign in to business services such as Office 365. It also doesn't impact your personal stuff—it just changes the way you sign in to it. You can use another (personal) email address, get a new @outlook.com email address from Microsoft, or use your phone number as a new username.
+The sign-up block described here only prevents the creation of new accounts. It has no impact on users who already have a Microsoft Account with a work/school email address. If you are already in this situation, we've made making it easier to rename a personal Microsoft account. This [support article](https://windows.microsoft.com/en-US/Windows/rename-personal-microsoft-account) provides simple step-by-step guidance. Renaming your personal Microsoft account means changing the username, and does not impact your work email or how you sign in to business services such as Microsoft 365. It also doesn't impact your personal stuff—it just changes the way you sign in to it. You can use another (personal) email address, get a new @outlook.com email address from Microsoft, or use your phone number as a new username.
 
 > [!NOTE]
 > If your IT department asked you to create a personal Microsoft account with your work/school email, for example to access Microsoft business services like Premier Support, then talk to your admin team before renaming your account.
@@ -56,13 +56,13 @@ The term “aliasing” refers to users having different identities to sign in t
 Aliasing can be encountered when a company has a Microsoft Online Service for their directory sign-in, like JohnD@contoso.com, but users access their email accounts using aliases or friendly names, such as John.Doe@contoso.com. For many customers who manage their subscriptions through the Volume Licensing Service Center (VLSC), this can result in an unsuccessful sign-in experience as the email address provided (John.Doe@contoso.com) does not match the directory address (JohnD@contoso.com) required for successful authentication through the “Work or School Account” option.
 
 ### What options do I have?
-From a subscriber perspective, it is important to first work with your administrator to understand your company’s identity configuration. If necessary, your administrator may have to update your account settings from their administration portal, or you may need to create a Microsoft Account (MSA) using your corporate email address. Before taking the steps to create an MSA, speak with your administrator regarding any policies or issues with taking this action. 
+From a subscriber perspective, it is important to first work with your admin to understand your company’s identity configuration. If necessary, your admin may have to update your account settings from their admin portal, or you may need to create a Microsoft Account (MSA) using your corporate email address. Before taking the steps to create an MSA, speak with your admin regarding any policies or issues with taking this action. 
 
 ## See also
-- [Visual Studio documentation](https://docs.microsoft.com/visualstudio/)
-- [Azure DevOps documentation](https://docs.microsoft.com/azure/devops/)
-- [Azure documentation](https://docs.microsoft.com/azure/)
-- [Microsoft 365 documentation](https://docs.microsoft.com/microsoft-365/)
+- [Visual Studio documentation](/visualstudio/)
+- [Azure DevOps documentation](/azure/devops/)
+- [Azure documentation](/azure/)
+- [Microsoft 365 documentation](/microsoft-365/)
 
 ## Next steps
 - Learn how to [link MSA and AAD accounts](/azure/active-directory/b2b/add-users-administrator) within AAD.

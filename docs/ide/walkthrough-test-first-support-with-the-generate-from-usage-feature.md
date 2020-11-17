@@ -1,10 +1,11 @@
 ---
-title: Test-first development with Generate From Usage feature
+title: Test-first development with Generate From Usage
+ms.custom: SEO-VS-2020
 ms.date: 10/09/2017
 dev_langs:
 - VB
 - CSharp
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - Generate From Usage
 - Test-First Development

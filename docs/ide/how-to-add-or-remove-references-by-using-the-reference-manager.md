@@ -1,7 +1,7 @@
 ---
 title: Add references in the Reference Manager
 ms.date: 08/02/2019
-ms.topic: conceptual
+ms.topic: how-to
 f1_keywords:
 - VS.ReferenceManager
 helpviewer_keywords:
@@ -41,6 +41,9 @@ The Reference Manager dialog box shows different categories on the left side, de
 - **Windows**, with **Core** and **Extensions** subgroups. You can explore the references in the Windows SDK or extension SDKs by using the **Object Browser**.
 
 - **Browse**, with **Recent** subgroup
+ 
+    > [!NOTE]
+    > You might not see **Browse** in the Reference Manager dialog box if you're developing C++ projects.
 
 ## Add a reference
 

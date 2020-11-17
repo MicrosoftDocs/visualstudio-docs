@@ -1,5 +1,7 @@
 ---
 title: Build Events Page, Project Designer (C#)
+description: Learn how to specify build configuration instructions. You can also specify the conditions under which any post-build events are run.
+ms.custom: SEO-VS-2020
 ms.date: 10/17/2019
 ms.technology: vs-ide-compile
 ms.topic: reference
@@ -11,8 +13,8 @@ helpviewer_keywords:
 - pre-build events
 - post-build events
 ms.assetid: 3fff9ae5-213c-46ea-a660-1d70acb6c922
-author: TerryGLee
-ms.author: tglee
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
 - dotnet

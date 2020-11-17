@@ -1,7 +1,8 @@
 ---
 title: "Create user control for SharePoint app page or web part"
+titleSuffix: ""
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: how-to
 dev_langs:
   - "VB"
   - "CSharp"

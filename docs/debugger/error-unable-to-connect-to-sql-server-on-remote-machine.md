@@ -1,7 +1,7 @@
 ---
-title: "Error: Unable to connect to SQL Server on remote machine | Microsoft Docs"
+title: "Unable to connect to SQL Server on remote machine | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "troubleshooting"
+ms.topic: "error-reference"
 f1_keywords:
   - "vs.debug.error.sqlle_dcom_accessdenied"
 dev_langs:

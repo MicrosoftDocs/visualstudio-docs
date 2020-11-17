@@ -1,7 +1,8 @@
 ---
 title: "How to: Add a Shortcut Menu Item to SharePoint Projects | Microsoft Docs"
+titleSuffix: ""
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: how-to
 dev_langs:
   - "VB"
   - "CSharp"

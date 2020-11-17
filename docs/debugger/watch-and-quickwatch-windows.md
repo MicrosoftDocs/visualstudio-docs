@@ -1,22 +1,22 @@
 ---
-title: "Set a watch on variables | Microsoft Docs"
-ms.custom: "seodec18"
-ms.date: "10/11/2018"
-ms.topic: "conceptual"
-f1_keywords:
-  - "vs.debug.watch"
-helpviewer_keywords:
-  - "debugging [Visual Studio], Watch window"
-  - "expressions [debugger], evaluating"
-  - "variables [debugger], evaluating"
-  - "expression evaluation"
-  - "registers, evaluating"
-  - "debugging [Visual Studio], expression evaluation"
-author: "mikejo5000"
-ms.author: "mikejo"
+title: Set a watch on variables | Microsoft Docs
+ms.custom: seodec18
+ms.date: 10/11/2018
+ms.topic: how-to
+f1_keywords: 
+  - vs.debug.watch
+helpviewer_keywords: 
+  - debugging [Visual Studio], Watch window
+  - expressions [debugger], evaluating
+  - variables [debugger], evaluating
+  - expression evaluation
+  - registers, evaluating
+  - debugging [Visual Studio], expression evaluation
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
-ms.workload:
-  - "multiple"
+ms.workload: 
+  - multiple
 ---
 # Watch variables with Watch windows and QuickWatch
 

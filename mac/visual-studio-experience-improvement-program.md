@@ -1,10 +1,9 @@
 ---
 title: Visual Studio Customer Experience Improvement Program
 description: Find out how to manage privacy settings in Visual Studio for Mac.
-ms.topic: troubleshooting
 author: therealjohn
 ms.author: johmil
-ms.date: 06/18/2019
+ms.date: 11/05/2020
 ms.assetid: 6F2ECF5A-E195-4890-8399-12A88C7D62FD
 ---
 
@@ -33,5 +32,5 @@ The VSCEIP is turned on by default. You can turn it off, or back on again, by fo
 * [Customer Experience Improvement Program (Visual Studio on Windows)](/visualstudio/ide/visual-studio-experience-improvement-program)
 * [System-generated logs collected by Visual Studio (on Windows)](/visualstudio/ide/diagnostic-data-collection)
 * [How to report a problem with Visual Studio for Mac](report-a-problem.md)
-* [Visual Studio for Mac Developer Community](https://developercommunity.visualstudio.com/spaces/41/index.html)
+* [Visual Studio for Mac Developer Community](https://aka.ms/feedback/vsm-home)
 * [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement)

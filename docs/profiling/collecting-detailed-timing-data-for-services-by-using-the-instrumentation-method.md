@@ -1,14 +1,15 @@
 ---
-title: "Profiler command line: Instrument to get service timing detail"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Profiler command line - Get timing data for a service
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
 ms.assetid: 6116e1df-ed3e-4b0d-ac7f-22f7d7ac00ea
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 monikerRange: 'vs-2017'
-ms.workload:
-  - "multiple"
+ms.workload: 
+  - multiple
 ---
 # Collect detailed timing data for services by using the instrumentation method from the profiler command line
 This section describes the procedures and options for collecting detailed performance data for Windows services using the instrumentation method from the command line.

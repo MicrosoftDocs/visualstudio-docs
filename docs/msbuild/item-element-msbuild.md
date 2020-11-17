@@ -1,5 +1,7 @@
 ---
 title: Item Element (MSBuild) | Microsoft Docs
+description: Learn how MSBuild uses the Item element to contain a user-defined item and its metadata. Every item must be a child of an ItemGroup element.
+ms.custom: SEO-VS-2020
 ms.date: 03/13/2017
 ms.topic: reference
 dev_langs:
@@ -73,7 +75,7 @@ Now, however, you can pass the `Version` metadata as an attribute, such as in th
 |`KeepDuplicates`|Optional attribute.<br /><br /> Specifies whether an item should be added to the target group if it's an exact duplicate of an existing item. If the source and target item have the same `Include` value but different metadata, the item is added even if `KeepDuplicates` is set to `false`. For more information, see [Items](../msbuild/msbuild-items.md).<br /><br /> This attribute is valid only if it's specified for an item in an `ItemGroup` that's in a `Target`.|
 |`KeepMetadata`|Optional attribute.<br /><br /> The metadata for the source items to add to the target items. Only the metadata whose names are specified in the semicolon-delimited list are transferred from a source item to a target item. For more information, see [Items](../msbuild/msbuild-items.md).<br /><br /> This attribute is valid only if it's specified for an item in an `ItemGroup` that's in a `Target`.|
 |`RemoveMetadata`|Optional attribute.<br /><br /> The metadata for the source items to not transfer to the target items. All metadata is transferred from a source item to a target item except metadata whose names are contained in the semicolon-delimited list of names. For more information, see [Items](../msbuild/msbuild-items.md).<br /><br /> This attribute is valid only if it's specified for an item in an `ItemGroup` that's in a `Target`.|
-|`Update`|Optional attribute. (Available only for .NET Core projects in Visual Studio 2017 or later.)<br /><br /> Enables you to modify metadata of a file that was included by using a glob.<br /><br /> This attribute is valid only if it's specified for an item in an `ItemGroup` that is not in a `Target`.|
+|`Update`|Optional attribute. (Available only for .NET Core projects in Visual Studio 2017 or later.)<br /><br /> Enables you to modify metadata of an item; typically used to override the default metadata of specific items after a group of items is intially specified (such as with a wildcard).<br /><br /> This attribute is valid only if it's specified for an item in an `ItemGroup` that is not in a `Target`.|
 
 ### Child elements
 

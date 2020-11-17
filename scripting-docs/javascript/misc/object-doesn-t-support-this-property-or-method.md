@@ -3,7 +3,7 @@ title: "Object doesn't support this property or method | Microsoft Docs"
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows
 ms.technology: vs-javascript
-ms.topic: reference
+ms.topic: error-reference
 f1_keywords: 
   - "VS.WebClient.Help.SCRIPT438"
 dev_langs: 
@@ -27,5 +27,5 @@ You specified a property or method that does not exist for this object. Not all 
 - See the object's documentation for more information.  
   
 ## See also  
- [Object Object](../../javascript/reference/object-object-javascript.md)   
- [JavaScript Objects](../../javascript/reference/javascript-objects.md)
+ [Object Object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object)   
+ [JavaScript Objects](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects)

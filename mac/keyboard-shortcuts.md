@@ -21,8 +21,8 @@ We have compiled the most used, and most useful, keyboard shortcuts into a downl
 one that shows shortcuts for Visual Studio for Mac, and a version that shows Visual Studio shorts side-by-side for users
 that have prior experience with Visual Studio when using Windows.
 
- - [Visual Studio for Mac keyboard shortcut quick ref](https://aka.ms/vsm-keys)
- - [Visual Studio & Visual Studio for Mac keyboard shortcut quick ref](https://aka.ms/vsm-vs-keys)
+- [Visual Studio for Mac keyboard shortcut quick ref](https://aka.ms/vsm-keys)
+- [Visual Studio & Visual Studio for Mac keyboard shortcut quick ref](https://aka.ms/vsm-vs-keys)
 
 ## Code Navigation
 
@@ -250,9 +250,9 @@ that have prior experience with Visual Studio when using Windows.
 |Next Document|**⌘}**, **⌘F6**|
 |Previous Document|**⌘{**, **⇧⌘F6**|
 |Switch to next document|**⌃⇥**|
-|Switch to next pad|**⌃⌥⇥**|
+|Switch to next tool window|**⌃⌥⇥**|
 |Switch to previous document|**⌃⇧⇥**|
-|Switch to previous pad|**⌃⌥⇧⇥**|
+|Switch to previous tool window|**⌃⌥⇧⇥**|
 
 ## macOS key symbols lookup
 

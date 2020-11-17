@@ -1,10 +1,11 @@
 ---
-title: Create a Request-Level Plug-In for web performance tests
+title: Create request-level plug-in (web performance tests)
+ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
-ms.topic: conceptual
-helpviewer_keywords:
-- request-level plug-in, creating
-- Web performance tests, requests
+ms.topic: how-to
+helpviewer_keywords: 
+  - request-level plug-in, creating
+  - Web performance tests, requests
 ms.assetid: d0b5b23c-7e94-4637-be6c-2620a5442d46
 author: mikejo5000
 ms.author: mikejo

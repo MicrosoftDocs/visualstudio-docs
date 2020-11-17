@@ -1,9 +1,9 @@
 ---
-title: Docker container logs, environment variables, and filesystem access
+title: View and diagnose Docker containers and images
 description: Describes how to improve your ability to debug and diagnose your container-based apps in Visual Studio by using a tool window  to see what's going on inside the containers that host your app.
 author: ghogen
 ms.author: ghogen
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 01/20/2020
 ms.technology: vs-azure
 monikerRange: vs-2019
@@ -104,6 +104,6 @@ Learn more about the Container Tools available in Visual Studio by reading the [
 
 ## See also
 
-[Container Development in Visual Studio](/visualstudio/containers)
+[Container Development in Visual Studio](./index.yml)
 
 [Extensions Marketplace for Visual Studio](https://marketplace.visualstudio.com/)

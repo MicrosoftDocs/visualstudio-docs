@@ -2,19 +2,19 @@
   href: index.yml
 - name: Overview
   items:
-  - name: Overview of deployment
+  - name: First look at deployment
+    href: deploying-applications-services-and-components.md
+  - name: Deploy to a folder, IIS, or Azure
     href: deploying-applications-services-and-components-resources.md
 - name: Quickstarts
   items:
-  - name: First look at deployment
-    href: deploying-applications-services-and-components.md
   - name: Deploy to Azure App Service
     href: quickstart-deploy-to-azure.md
   - name: Deploy to App Service for Linux
     href: quickstart-deploy-to-linux.md
   - name: Deploy to a web site
     href: quickstart-deploy-to-a-web-site.md
-  - name: Deploy to a local folder
+  - name: Deploy to a folder
     href: quickstart-deploy-to-local-folder.md
 - name: Tutorials
   items:
@@ -24,7 +24,9 @@
       href: /dotnet/core/deploying/deploy-with-vs
     - name: Package a desktop app for Microsoft Store
       href: /windows/msix/desktop/desktop-to-uwp-packaging-dot-net
-    - name: Deploy a desktop app using ClickOnce
+    - name: Deploy a .NET Windows application using ClickOnce
+      href: quickstart-deploy-using-clickonce-folder.md
+    - name: Deploy a .NET Framework desktop app using ClickOnce
       href: how-to-publish-a-clickonce-application-using-the-publish-wizard.md
     - name: Build ClickOnce applications from the Command Line
       href: building-clickonce-applications-from-the-command-line.md
@@ -53,11 +55,11 @@
   - name: Node.js
     items:
     - name: Publish to Linux App Service
-      href: /visualstudio/javascript/publish-nodejs-app-azure
+      href: ../javascript/publish-nodejs-app-azure.md
   - name: Python
     items:
     - name: Publish to Azure App Service
-      href: /visualstudio/python/publishing-python-web-applications-to-azure-from-visual-studio
+      href: ../python/publishing-python-web-applications-to-azure-from-visual-studio.md
 - name: How-to guides
   items:
   - name: ClickOnce security and deployment
@@ -302,3 +304,7 @@
         href: customerrorreporting-element-clickonce-deployment.md
     - name: ClickOnce Unmanaged API Reference
       href: clickonce-unmanaged-api-reference.md
+  - name: Visual Studio Installer Projects Reference
+    items:
+    - name: Visual Studio Installer Projects Extension and .NET Core 3.1
+      href: installer-projects-net-core.md

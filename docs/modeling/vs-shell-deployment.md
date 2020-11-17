@@ -1,7 +1,7 @@
 ---
 title: VS Shell deployment
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 author: JoshuaPartlow
 ms.author: joshuapa
 manager: jillfra
@@ -10,7 +10,7 @@ ms.workload:
 ---
 # VS Shell deployment
 
-An isolated shell lets you determine which Visual Studio functionality you need to interact with your domain-specific language and how that solution should appear. For more information about the Visual Studio isolated shell, see [Customizing the Isolated Shell](https://docs.microsoft.com/visualstudio/extensibility/customizing-the-isolated-shell).
+An isolated shell lets you determine which Visual Studio functionality you need to interact with your domain-specific language and how that solution should appear. For more information about the Visual Studio isolated shell, see [Customizing the Isolated Shell](https://visualstudio.microsoft.com/vs/older-downloads/isolated-shell/).
 
 To set a Visual Studio Shell as the deployment target:
 

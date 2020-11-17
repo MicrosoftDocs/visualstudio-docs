@@ -1,7 +1,8 @@
 ---
 title: "How to: Programmatically refer to worksheet ranges in code"
+titleSuffix: ""
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: "how-to"
 dev_langs:
   - "VB"
   - "CSharp"

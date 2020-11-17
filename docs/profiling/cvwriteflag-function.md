@@ -1,23 +1,23 @@
 ---
-title: "CvWriteFlag Function | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-f1_keywords:
-  - "cvmarkers/CvWriteFlagExVA"
-  - "cvmarkers/CvWriteFlagExW"
-  - "cvmarkers/CvWriteFlagExVW"
-  - "cvmarkers/CvWriteFlagExA"
-helpviewer_keywords:
-  - "CvWriteFlagExW method"
-  - "CvWriteFlagExVA method"
-  - "CvWriteFlagExA method"
-  - "CvWriteFlagExVW method"
+title: CvWriteFlag Function | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: reference
+f1_keywords: 
+  - cvmarkers/CvWriteFlagExVA
+  - cvmarkers/CvWriteFlagExW
+  - cvmarkers/CvWriteFlagExVW
+  - cvmarkers/CvWriteFlagExA
+helpviewer_keywords: 
+  - CvWriteFlagExW method
+  - CvWriteFlagExVA method
+  - CvWriteFlagExA method
+  - CvWriteFlagExVW method
 ms.assetid: ee9da1e2-7b34-4cba-81e2-215d25d32e4d
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
-ms.workload:
-  - "multiple"
+ms.workload: 
+  - multiple
 ---
 # CvWriteFlag function
 Writes a flag to the Concurrency Visualizer trace file.

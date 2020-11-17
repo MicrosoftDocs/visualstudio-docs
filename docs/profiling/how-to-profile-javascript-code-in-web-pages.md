@@ -1,17 +1,17 @@
 ---
-title: "How to: Profile JavaScript Code in Web Pages | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-helpviewer_keywords:
-  - "JavaScript performance profiling"
-  - "Profiling Tools,JavaScript"
-  - "web site performance profiling"
-author: "mikejo5000"
-ms.author: "mikejo"
+title: Profile JavaScript Code in Web Pages | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: how-to
+helpviewer_keywords: 
+  - JavaScript performance profiling
+  - Profiling Tools,JavaScript
+  - web site performance profiling
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 monikerRange: 'vs-2017'
-ms.workload:
-  - "multiple"
+ms.workload: 
+  - multiple
 ---
 # How to: Profile JavaScript code in web pages
 

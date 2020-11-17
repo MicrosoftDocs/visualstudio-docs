@@ -1,5 +1,7 @@
 ---
 title: 'Walkthrough: Creating an Inline Task | Microsoft Docs'
+description: Walk through creating an MSBuild task inline in the project file, without having to create a separate assembly to host the task.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -250,8 +252,10 @@ To create and run the tasks, use Visual Studio and the **Visual Studio Command P
 <Code Type="Fragment" Language="cs">
   <![CDATA[
 
-  // Your code goes here.
-
+  if (Files.Length > 0)
+  {
+      // Your code goes here.
+  }
   ]]>
 </Code>
 ```

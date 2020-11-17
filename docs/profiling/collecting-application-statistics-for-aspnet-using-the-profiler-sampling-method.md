@@ -1,17 +1,17 @@
 ---
-title: "Collect statistics for ASP.NET web apps | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-helpviewer_keywords:
-  - "profiling tools, sampling method"
-  - "sampling profling method"
+title: Collect statistics for ASP.NET web apps
+ms.date: 11/04/2016
+ms.topic: how-to
+helpviewer_keywords: 
+  - profiling tools, sampling method
+  - sampling profling method
 ms.assetid: f8383ab1-eb49-4d3f-8608-d8b4d51a81be
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 monikerRange: 'vs-2017'
-ms.workload:
-  - "aspnet"
+ms.workload: 
+  - aspnet
 ---
 # Collect statistics for ASP.NET web apps
 

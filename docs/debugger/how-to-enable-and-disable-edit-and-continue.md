@@ -1,31 +1,31 @@
 ---
-title: "How to: Enable and disable Edit and Continue | Microsoft Docs"
-ms.custom: "seodec18"
-ms.date: "10/04/2018"
-ms.topic: "conceptual"
-dev_langs:
-  - "CSharp"
-  - "VB"
-  - "FSharp"
-  - "C++"
-helpviewer_keywords:
-  - "/INCREMENTAL linker option"
-  - "Apply Code Changes command"
-  - "Edit and Continue, disabling"
-  - "code changes, applying in break mode"
-  - "INCREMENTAL linker option"
-  - "Edit and Continue, enabling"
-  - "break mode, applying code changes"
-  - "Edit and Continue, applying code changes"
-  - "Step command"
-  - "Go command"
+title: Enable and disable Edit and Continue | Microsoft Docs
+ms.custom: seodec18
+ms.date: 10/04/2018
+ms.topic: how-to
+dev_langs: 
+  - CSharp
+  - VB
+  - FSharp
+  - C++
+helpviewer_keywords: 
+  - /INCREMENTAL linker option
+  - Apply Code Changes command
+  - Edit and Continue, disabling
+  - code changes, applying in break mode
+  - INCREMENTAL linker option
+  - Edit and Continue, enabling
+  - break mode, applying code changes
+  - Edit and Continue, applying code changes
+  - Step command
+  - Go command
 ms.assetid: fd961a1c-76fa-420d-ad8f-c1a6c003b0db
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
-ms.workload:
-  - "dotnet"
-  - "cplusplus"
+ms.workload: 
+  - dotnet
+  - cplusplus
 ---
 # How to: Enable and disable Edit and Continue (C#, VB, C++)
 

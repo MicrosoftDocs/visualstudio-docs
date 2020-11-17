@@ -1,5 +1,7 @@
 ---
 title: "&lt;InstallChecks&gt; Element (Bootstrapper) | Microsoft Docs"
+description: The InstallChecks element supports starting a variety of tests on the local computer to make sure that all prerequisites for an application have been installed.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:
@@ -150,7 +152,7 @@ The `InstallChecks` element supports starting a variety of tests against the loc
 ## InstallConditions
  When `InstallChecks` are evaluated, they produce properties. The properties are then used by `InstallConditions` to determine whether a package should install, bypass, or fail. The following table lists the `InstallConditions`:
 
-|||
+|Condition|Description|
 |-|-|
 |`FailIf`|If any `FailIf` condition evaluates to true, the package will fail. The rest of the conditions will not be evaluated.|
 |`BypassIf`|If any `BypassIf` condition evaluates to true, the package will be bypassed. The rest of the conditions will not be evaluated.|

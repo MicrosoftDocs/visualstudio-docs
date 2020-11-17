@@ -19,9 +19,14 @@ Visual Studio's excellent support for SQL Server helps data scientists work with
 > - Visual Studio 2017: run the Visual Studio installer and select the Data storage and processing workload, which includes SQL Server Data tools.
 > - Visual Studio 2015: follow the instructions on [Download SQL Server Data Tools](/sql/ssdt/download-sql-server-data-tools-ssdt).
 
-|   |   |
-|---|---|
-| ![movie camera icon for video](../install/media/video-icon.png "Watch a video") | [Watch a video (youtube.com)](https://www.youtube.com/watch?v=n4AYr0QIwdQ) for an overview of SQL Server and R (3m 03s). |
+:::row:::
+    :::column:::
+        ![movie camera icon for video](../install/media/video-icon.png "Watch a video")
+    :::column-end:::
+    :::column:::
+        [Watch a video (youtube.com)](https://www.youtube.com/watch?v=n4AYr0QIwdQ) for an overview of SQL Server and R (3m 03s).
+    :::column-end:::
+:::row-end:::
 
 ## Create and run SQL queries
 
@@ -40,7 +45,7 @@ Once a connection is established, you can run queries and see results:
 ![SQL window query results](media/sql-query-results.png)
 
 The Transact-SQL editor supports a variety of other features, such as viewing the execution plan for the query and a query debugger.
-For more information, see [Use Transact-SQL Editor to Edit and Execute Scripts](https://msdn.microsoft.com/library/hh272706.aspx).
+For more information, see [Use Transact-SQL Editor to Edit and Execute Scripts](/previous-versions/sql/sql-server-data-tools/hh272706(v=vs.103)).
 
 ## Work with SQL Server stored procedures
 
@@ -52,9 +57,14 @@ RTVS simplifies the otherwise unwieldy and error-prone process of combining SQL 
 - [Write and test a SQL stored procedure](#write-and-test-a-sql-stored-procedure)
 - [Publish a SQL stored procedure](#publish-a-sql-stored-procedure)
 
-|   |   |
-|---|---|
-| ![movie camera icon for video](../install/media/video-icon.png "Watch a video") | [Watch a video (youtube.com)](https://www.youtube.com/watch?v=dFKIT2OitWQ) for an overview of R and SQL stored procedures (6m 09s). |
+:::row:::
+    :::column:::
+        ![movie camera icon for video](../install/media/video-icon.png "Watch a video")
+    :::column-end:::
+    :::column:::
+        [Watch a video (youtube.com)](https://www.youtube.com/watch?v=dFKIT2OitWQ) for an overview of R and SQL stored procedures (6m 09s).
+    :::column-end:::
+:::row-end:::
 
 ### Add a database connection
 

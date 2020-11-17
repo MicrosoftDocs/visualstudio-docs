@@ -11,15 +11,11 @@
       href: container-tools.md
     - name: React.js Single-page App in a Container
       href: container-tools-react.md
-    - name: Kubernetes development with Azure Dev Spaces >>
-      href: /azure/dev-spaces/quickstart-netcore-visualstudio
   - name: Tutorials  
     expanded: true
     items:
     - name: Multi-container app with Docker Compose
       href: tutorial-multicontainer.md
-    - name: Kubernetes in Visual Studio
-      href: tutorial-kubernetes-tools.md
   - name: How to
     items:
     - name: Debug app in a local Docker container
@@ -48,4 +44,11 @@
       href: docker-compose-properties.md
     - name: Launch settings
       href: container-launch-settings.md
-      
+- name: Develop with Kubernetes
+  items:
+    - name: Bridge to Kubernetes
+      href: bridge-to-kubernetes.md
+    - name: How Bridge to Kubernetes works
+      href: overview-bridge-to-kubernetes.md
+    - name: Configure Bridge to Kubernetes
+      href: configure-bridge-to-kubernetes.md

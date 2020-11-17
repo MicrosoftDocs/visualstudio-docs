@@ -1,11 +1,12 @@
 ---
-title: Visual Studio Container Tools Docker Compose build settings
+title: Docker Compose build settings
 author: ghogen
 description: Overview of the Container Tools build process
+ms.custom: SEO-VS-2020
 ms.author: ghogen
 ms.date: 08/12/2019
 ms.technology: vs-azure
-ms.topic: conceptual
+ms.topic: reference
 ---
 # Docker Compose build properties
 

@@ -1,7 +1,7 @@
 ---
 title: "IDiaSession::findInlineeLinesByAddr | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 ms.assetid: bb70e408-eed1-4c9c-b5b1-44323125f48b

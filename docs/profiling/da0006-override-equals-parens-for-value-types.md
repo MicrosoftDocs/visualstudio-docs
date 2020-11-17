@@ -1,23 +1,23 @@
 ---
-title: "DA0006: Override Equals() for value types | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-f1_keywords:
-  - "vs.performance.rules.DAOverrideEquals"
-  - "vs.performance.6"
-  - "vs.performance.DA0006"
-  - "vs.performance.rules.DA0006"
+title: DA0006 - Override Equals() for value types | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: reference
+f1_keywords: 
+  - vs.performance.rules.DAOverrideEquals
+  - vs.performance.6
+  - vs.performance.DA0006
+  - vs.performance.rules.DA0006
 ms.assetid: 4d85bdd6-b571-47e0-afd6-ba3764e4eed5
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 monikerRange: 'vs-2017'
-ms.workload:
-  - "multiple"
+ms.workload: 
+  - multiple
 ---
 # DA0006: Override Equals() for value types
 
-|||
+|Item|Value|
 |-|-|
 |Rule Id|DA0006|
 |Category|.NET Framework Usage|
@@ -34,4 +34,4 @@ ms.workload:
  For more information about how to override Equals and the equality operators, see [Guidelines for Implementing Equals and the Equality Operator (==)](/dotnet/standard/design-guidelines/equality-operators).
 
 ## How to investigate a warning
- For an example of implementing the Equals and equality operators, see the code analysis rule [CA1815: Override equals and operator equals on value types](../code-quality/ca1815.md)
+ For an example of implementing the Equals and equality operators, see the code analysis rule [CA1815: Override equals and operator equals on value types](/dotnet/fundamentals/code-analysis/quality-rules/ca1815)

@@ -1,8 +1,10 @@
 ---
 title: Troubleshoot and create logs for MSBuild problems
+description: Learn how you can diagnose build problems in your Visual Studio project, and, if necessary, create a log to send to Microsoft for investigation.
+ms.custom: SEO-VS-2020
 ms.date: 06/27/2019
 ms.technology: vs-ide-compile
-ms.topic: conceptual
+ms.topic: troubleshooting
 helpviewer_keywords:
   - msbuild logs"
 author: corob-msft
@@ -126,3 +128,7 @@ A Msbuild.binlog file will be created in the directory that you ran MSBuild from
     ```
 
     An Msbuild.log file will be created in the directory that you ran msbuild from.
+
+## See also
+
+- [Visual Studio troubleshooting](/troubleshoot/visualstudio/welcome-visual-studio/)

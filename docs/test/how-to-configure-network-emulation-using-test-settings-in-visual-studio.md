@@ -1,9 +1,9 @@
 ---
 title: Configure Network Emulation Using Test Settings
 ms.date: 10/03/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
-- test settings, network emulation
+  - test settings, network emulation
 ms.assetid: ff275cfb-5df9-4710-9a91-9caabaaad34f
 author: mikejo5000
 ms.author: mikejo
@@ -87,4 +87,4 @@ Before you perform the steps in this procedure, you must open your test settings
 ## See also
 
 - [Collect diagnostic information using test settings](../test/collect-diagnostic-information-using-test-settings.md)
-- [Run manual tests (Azure Test Plans)](/azure/devops/test/run-manual-tests?view=vsts)
+- [Run manual tests (Azure Test Plans)](/azure/devops/test/run-manual-tests?view=vsts&preserve-view=true)

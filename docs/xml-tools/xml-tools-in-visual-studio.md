@@ -1,7 +1,9 @@
 ---
 title: XML editor and schema designer
+description: Learn about the tools in Visual Studio for working with XML, XSLT, and XML schemas, including the XML editor, XML Schema Designer, and the XSLT debugger.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: overview
 f1_keywords:
 - vb.xmldesigner
 helpviewer_keywords:
@@ -33,7 +35,7 @@ manager: jillfra
 ms.workload:
 - multiple
 ---
-# XML tools in Visual Studio
+# Overview of XML tools in Visual Studio
 
 *Extensible Markup Language (XML)* is a markup language that provides a format for describing data. XML separates the data and its presentation by using associated style sheets such as Extensible Stylesheet Language (XSL) and cascading style sheets (CSS). Visual Studio includes tools and features that make it easier to work with XML, XSLT, and XML schemas.
 

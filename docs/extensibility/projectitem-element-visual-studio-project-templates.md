@@ -1,8 +1,10 @@
 ---
 title: ProjectItem Element (Visual Studio Project Templates) | Microsoft Docs
+description: Learn about the ProjectItem element for project templates and how it accepts different attributes depending on whether the template is for a project or an item.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.technology: vs-ide-general
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - http://schemas.microsoft.com/developer/vstemplate/2005#ProjectItem
 helpviewer_keywords:

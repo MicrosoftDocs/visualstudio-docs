@@ -1,14 +1,15 @@
 ---
-title: "Use profiler command line to get concurrency data for service"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Profiler command line - Get concurrency data for service
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
 ms.assetid: 275aacba-b2af-4d34-8931-ee30d777a256
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 monikerRange: 'vs-2017'
-ms.workload:
-  - "multiple"
+ms.workload: 
+  - multiple
 ---
 # Collect concurrency data for a service by using the profiler command line
 The concurrency method of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools enables you to collect resource contention data and thread activity data that shows you CPU utilization, thread contention, thread migration, synchronization delays, areas of overlapped IO, and other system events.

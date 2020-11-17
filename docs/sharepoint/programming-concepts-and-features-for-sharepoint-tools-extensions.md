@@ -1,5 +1,6 @@
 ---
 title: "Programming concepts & features for SharePoint tool extensions"
+titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

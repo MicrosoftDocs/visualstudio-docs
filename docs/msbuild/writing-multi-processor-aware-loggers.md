@@ -1,5 +1,7 @@
 ---
 title: "Writing Multi-Processor-Aware Loggers | Microsoft Docs"
+description: Learn how MSBuild provides a multi-processor-aware logger and logging model, and lets you create custom "forwarding loggers."
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:

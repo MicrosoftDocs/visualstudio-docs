@@ -1,5 +1,7 @@
 ---
 title: ZipDirectory Task | Microsoft Docs
+description: Learn how MSBuild uses the ZipDirectory task to create a .zip archive from the contents of a directory.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.reviewer: ''
 ms.suite: ''
@@ -37,7 +39,7 @@ Creates a *.zip* archive from the contents of a directory.
 |Parameter|Description|
 |---------------|-----------------|
 |`DestinationFile`|Required <xref:Microsoft.Build.Framework.ITaskItem> parameter<br /><br /> The full path to the *.zip* file to create.|
-|`Overwrite`|Optional `Boolean` parameter.<br /><br /> If `true`, skips the destination file will be overwritten if it exists. Defaults to `false`.|
+|`Overwrite`|Optional `Boolean` parameter.<br /><br /> If `true`, the destination file will be overwritten if it exists. Defaults to `false`.|
 |`SourceDirectory`|Required <xref:Microsoft.Build.Framework.ITaskItem> parameter.<br /><br /> Specifies the directory to create a *.zip* archive from.|
 
 ## Remarks

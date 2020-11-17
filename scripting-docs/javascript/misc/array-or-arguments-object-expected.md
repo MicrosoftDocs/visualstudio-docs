@@ -3,7 +3,7 @@ title: "Array or arguments object expected | Microsoft Docs"
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows
 ms.technology: vs-javascript
-ms.topic: reference
+ms.topic: error-reference
 f1_keywords: 
   - "VS.WebClient.Help.SCRIPT5028"
 dev_langs: 
@@ -23,6 +23,6 @@ You did not supply an array as an argument. This error applies to the **Function
 - Specify either an `Array` or an **Arguments** object as the second argument.  
   
 ## See also  
- [Using Arrays](../../javascript/advanced/using-arrays-javascript.md)   
- [apply Method (Function)](../../javascript/reference/apply-method-function-javascript.md)   
- [Functions](../../javascript/functions-javascript.md)
+ [Using Arrays](https://developer.mozilla.org/docs/Learn/JavaScript/First_steps/Arrays)   
+ [apply Method (Function)](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Function/apply)   
+ [Functions](https://developer.mozilla.org/docs/Learn/JavaScript/Building_blocks/Functions)

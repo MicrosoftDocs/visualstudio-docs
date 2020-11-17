@@ -3,7 +3,7 @@ title: "Expected ')' in regular expression (JavaScript) | Microsoft Docs"
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows
 ms.technology: vs-javascript
-ms.topic: reference
+ms.topic: error-reference
 f1_keywords: 
   - "VS.WebClient.Help.SCRIPT5020"
 dev_langs: 
@@ -26,5 +26,5 @@ You attempted to create a regular expression capture, assertion, or group, but d
     > If you want to match a single parenthesis, escape it with a backslash - \\( - so that it is not interpreted as a special character by [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)].  
   
 ## See also  
- [Regular Expression Object](../../javascript/reference/regular-expression-object-javascript.md)   
- [Regular Expression Syntax (JavaScript)](https://msdn.microsoft.com/library/1400241x)
+ [Regular Expression Object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RegExp)   
+ [Regular Expression Syntax (JavaScript)](/previous-versions/1400241x(v=vs.100))

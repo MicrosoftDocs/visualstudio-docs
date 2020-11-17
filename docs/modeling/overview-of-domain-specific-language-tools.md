@@ -1,7 +1,7 @@
 ---
 title: Overview of Domain-Specific Language Tools
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: overview
 helpviewer_keywords:
 - Domain-Specific Language
 author: JoshuaPartlow
@@ -71,4 +71,4 @@ Domain-Specific Language Tools (DSL Tools), which are hosted in Visual Studio, l
 ## See also
 
 - [The Experimental Instance](../extensibility/the-experimental-instance.md)
-- [Domain-Specific Language Tools Glossary](https://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)
+- [Domain-Specific Language Tools Glossary](/previous-versions/bb126564(v=vs.100))

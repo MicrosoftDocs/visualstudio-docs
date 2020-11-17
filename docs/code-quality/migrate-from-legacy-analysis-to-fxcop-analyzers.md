@@ -1,5 +1,6 @@
 ---
-title: Migrate from legacy analysis (FxCop) to source analysis (FxCop analyzers)
+title: Migrate from FxCop to source analysis (FxCop analyzers)
+ms.custom: SEO-VS-2020
 description: "Learn how to analyze code for the first time or how to migrate from binary analysis (FxCop) to the new way of analyzing managed code using source analysis (FxCop analyzers)."
 ms.date: 03/06/2020
 ms.topic: conceptual
@@ -22,14 +23,14 @@ Many of the legacy analysis (FxCop) rules have already been rewritten for FxCop 
 
 For more information on the differences between legacy analysis and source analysis, see the following:
 
-- [Source code analysis versus legacy analysis](../code-quality/roslyn-analyzers-overview.md#source-code-analysis-versus-legacy-analysis)
+- [Source code analysis versus legacy analysis](../code-quality/fxcop-analyzers-faq.md#whats-the-difference-between-legacy-fxcop-and-fxcop-analyzers)
 
 - [FAQ about FxCop analyzers](../code-quality/fxcop-analyzers-faq.md)
 
-To migrate to source analysis, [install the FxCop analyzers](../code-quality/install-fxcop-analyzers.md). Like legacy analysis rule violations, source code analysis violations appear in the Error List window in Visual Studio. In addition, source code analysis violations also show up in the code editor as *squiggles* under the offending code. The color of the squiggle depends on the [severity setting](../code-quality/use-roslyn-analyzers.md#rule-severity) of the rule. To see the status of rules ported to the new FxCop analyzers, see [Ported and unported rules](../code-quality/fxcop-rule-port-status.md).
+To migrate to source analysis, [install the FxCop analyzers](../code-quality/install-fxcop-analyzers.md). Like legacy analysis rule violations, source code analysis violations appear in the Error List window in Visual Studio. In addition, source code analysis violations also show up in the code editor as *squiggles* under the offending code. The color of the squiggle depends on the [severity setting](../code-quality/use-roslyn-analyzers.md#configure-severity-levels) of the rule. To see the status of rules ported to the new FxCop analyzers, see [Ported and unported rules](../code-quality/fxcop-rule-port-status.md).
 
 To learn more about how to configure the FxCop analyzers:
 
-- To configure FxCop analyzers, see [Configure FxCop analyzers](../code-quality/configure-fxcop-analyzers.md).
+- To configure FxCop analyzers, see [Configure FxCop analyzers](/dotnet/fundamentals/code-analysis/code-quality-rule-options).
 
-- To find out about configuring analyzers using predefined rules with EditorConfig or a rule set file, see [Enable a category of rules](../code-quality/analyzer-rule-sets.md).
+- To find out about configuring analyzers using predefined rules with EditorConfig or a rule set file, see [Enable a category of rules](/dotnet/fundamentals/code-analysis/code-quality-rule-options).

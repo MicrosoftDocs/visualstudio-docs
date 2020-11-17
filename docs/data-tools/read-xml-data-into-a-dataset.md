@@ -1,7 +1,9 @@
 ---
 title: Read XML data into a dataset
+description: Read XML data into a dataset. In this walkthrough, you create a Windows application that loads XML data into a dataset.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 dev_langs:
 - VB
 - CSharp

@@ -2,7 +2,7 @@
 title: "Tutorial: Open a project from a repo"
 description: "Learn how to open a project in a Git or Azure DevOps repository by using Visual Studio."
 ms.custom: "get-started"
-ms.date: 03/30/2019
+ms.date: 11/10/2020
 ms.technology: vs-ide-general
 ms.prod: visual-studio-windows
 ms.topic: tutorial
@@ -68,6 +68,9 @@ View the following animation to check the work that you completed in the previou
 ::: moniker-end
 
 ::: moniker range="vs-2019"
+
+> [!NOTE]
+> If you'd like to try out the new integrated Git experience in Visual Studio 2019, make sure to update to [**version 16.8**](/visualstudio/releases/2019/release-notes/). For more information, see the [New Git experience in Visual Studio](../ide/git-with-visual-studio.md) page.
 
 1. Open Visual Studio 2019.
 
@@ -174,10 +177,23 @@ If you're ready to code with Visual Studio, dive into any of the following langu
 - [Visual Studio tutorials | **C#**](./csharp/index.yml)
 - [Visual Studio tutorials | **Visual Basic**](./visual-basic/index.yml)
 - [Visual Studio tutorials | **C++**](/cpp/get-started/tutorial-console-cpp)
-- [Visual Studio tutorials | **Python**](/visualstudio/python/)
-- [Visual Studio tutorials | **JavaScript**, **TypeScript**, and **Node.js**](/visualstudio/javascript/)
+- [Visual Studio tutorials | **Python**](../python/index.yml)
+- [Visual Studio tutorials | **JavaScript**, **TypeScript**, and **Node.js**](../javascript/index.yml)
 
 ## See also
 
+::: moniker range="vs-2017"
+
 - [Azure DevOps Services: Get started with Azure Repos and Visual Studio](/azure/devops/repos/git/gitquickstart/)
 - [Microsoft Learn: Get started with Azure DevOps](/learn/modules/get-started-with-devops/)
+- [New Git experience in Visual Studio 2019](../ide/git-with-visual-studio.md?view=vs-2019&preserve-view=true)
+
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+- [New Git experience in Visual Studio](../ide/git-with-visual-studio.md)
+- [Azure DevOps Services: Get started with Azure Repos and Visual Studio](/azure/devops/repos/git/gitquickstart/)
+- [Microsoft Learn: Get started with Azure DevOps](/learn/modules/get-started-with-devops/)
+
+::: moniker-end

@@ -3,7 +3,7 @@ title: "Conditional compilation is turned off | Microsoft Docs"
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows
 ms.technology: vs-javascript
-ms.topic: reference
+ms.topic: error-reference
 f1_keywords: 
   - "VS.WebClient.Help.SCRIPT1030"
 dev_langs: 
@@ -31,8 +31,8 @@ You attempted to use a conditional compilation variable without first turning co
     ```  
   
 ## See also  
- [Conditional Compilation](../../javascript/advanced/conditional-compilation-javascript.md)   
- [Conditional Compilation Variables](../../javascript/advanced/conditional-compilation-variables-javascript.md)   
- [@cc_on Statement](../../javascript/reference/at-cc-on-statement-javascript.md)   
- [@if Statement](../../javascript/reference/at-if-statement-javascript.md)   
- [@set Statement](../../javascript/reference/at-set-statement-javascript.md)
+ [Conditional Compilation](/previous-versions/windows/internet-explorer/ie-developer/scripting-articles/121hztk3(v=vs.84))   
+ [Conditional Compilation Variables](/previous-versions/windows/internet-explorer/ie-developer/scripting-articles/s59bkzce(v=vs.84))   
+ [@cc_on Statement](https://developer.mozilla.org/docs/Archive/Web/JavaScript/Microsoft_Extensions/at-cc-on)   
+ [@if Statement](https://developer.mozilla.org/docs/Archive/Web/JavaScript/Microsoft_Extensions/at-if)   
+ [@set Statement](https://developer.mozilla.org/docs/Archive/Web/JavaScript/Microsoft_Extensions/at-set)

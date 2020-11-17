@@ -1,8 +1,8 @@
 ---
-title: Product availability for software downloads in Visual Studio subscriptions | Microsoft Docs
+title: Product availability for downloads in Visual Studio subscriptions | Microsoft Docs
 author: evanwindom
-ms.author: lank
-manager: lank
+ms.author: v-evwin
+manager: cabuschl
 ms.assetid: abf271b5-7547-4695-a46f-72b2878ba8d4
 ms.date: 03/09/2020
 ms.topic: conceptual
@@ -22,7 +22,7 @@ There are several reasons why particular products may not be available to subscr
 - **The product is not included in subscriptions.** Some Microsoft products are not included in subscriptions due to special licensing terms, technical restrictions, or developer relevance. If you would like to suggest a product be added to the subscription, please send email to your Visual Studio [Customer Service Center](https://visualstudio.microsoft.com/subscriptions/support/).
 - **The product is publicly available.** Some tools, SDKs, DDKs, and service packs are publicly available from the [Microsoft Download Center](https://www.microsoft.com/download). Some such products may not be published to Downloads.
 - **The product has not yet released.**  Many pre-release (beta) versions and release candidates are available from Downloads. However, not all betas can be included; for instance, some betas require special registration or eligibility. For more information about open technical beta programs, please visit [Microsoft Connect](https://connect.microsoft.com/).
-- **The product is not available in your country.** Some Microsoft products are not available due to regional restrictions.
+- **The product is not available in your country/region.** Some Microsoft products are not available due to regional restrictions.
 - **Redundant software.** Select Office suites and standalone Office downloads and product keys are no longer available in subscriptions that include Office. Downloads and product keys are available for the corresponding highest Office suite of the same version.  For example, if you search for PowerPoint 2010, the search will not produce any results.  However, you can search for Office 2010 - the Office suite that contained PowerPoint 2010 - and download the suite.
 
 ## What do I get?
@@ -34,10 +34,10 @@ The number and type of downloads depends on your subscription level and program 
 Not sure which subscription you're using?  Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to your email address. If you don't see all your subscriptions, you may have one or more assigned to a different email address.  You'll need to sign in with that email address to see those subscriptions.
 
 ## See also
-- [Visual Studio documentation](https://docs.microsoft.com/visualstudio/)
-- [Azure DevOps documentation](https://docs.microsoft.com/azure/devops/)
-- [Azure documentation](https://docs.microsoft.com/azure/)
-- [Microsoft 365 documentation](https://docs.microsoft.com/microsoft-365/)
+- [Visual Studio documentation](/visualstudio/)
+- [Azure DevOps documentation](/azure/devops/)
+- [Azure documentation](/azure/)
+- [Microsoft 365 documentation](/microsoft-365/)
 
 ## Next steps
 - Some software downloads may require a product key to install and activate them.  Check out our [product keys](product-keys.md) article for details on how to obtain and manage your product keys. 

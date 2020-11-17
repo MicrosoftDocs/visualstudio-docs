@@ -1,7 +1,7 @@
 ---
 title: "How to: Read from and write to document properties"
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: "how-to"
 dev_langs:
   - "VB"
   - "CSharp"

@@ -1,7 +1,8 @@
 ---
 title: "Package designer: Add & remove features and items to package"
+titleSuffix: ""
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: how-to
 f1_keywords:
   - "VS.SharePointTools.RAD.PackageDesignerDesign"
 dev_langs:
@@ -53,4 +54,4 @@ ms.workload:
 ## See also
 - [Create SharePoint solution packages](../sharepoint/creating-sharepoint-solution-packages.md)
 - [How to: Customize a SharePoint solution package](../sharepoint/how-to-customize-a-sharepoint-solution-package.md)
-- [How to: Create a Package](https://msdn.microsoft.com/b24be45c-e91d-49bb-afb0-7b265404214b)
+- [How to: Create a Package](/previous-versions/ee231585(v=vs.110))

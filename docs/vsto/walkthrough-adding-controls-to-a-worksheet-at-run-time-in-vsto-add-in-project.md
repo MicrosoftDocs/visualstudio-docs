@@ -1,5 +1,6 @@
 ---
 title: "Add controls to worksheet at run time in VSTO add-in project"
+titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

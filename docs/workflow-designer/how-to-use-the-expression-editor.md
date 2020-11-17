@@ -1,7 +1,9 @@
 ---
 title: 'Workflow Designer - How to: Use the Expression Editor'
+description: Learn how the Expression Editor is a Workflow Designer control that you can use in many workflow activities to enter and evaluate expressions.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 f1_keywords:
 - System.Activities.Presentation.View.ExpressionTextBox.UI
 ms.assetid: b5f961dd-6dda-41a9-9cae-0383d479ef3d

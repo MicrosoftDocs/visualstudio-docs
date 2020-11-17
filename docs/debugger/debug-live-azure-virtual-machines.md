@@ -1,18 +1,18 @@
 ---
-title: "Debug live ASP.NET Azure virtual machines and scale sets"
-description: "Learn how to set snappoints and view snapshots with the Snapshot Debugger."
-ms.custom: ""
-ms.date: "02/06/2019"
-ms.topic: "conceptual"
-helpviewer_keywords:
-  - "debugger"
-author: "poppastring"
-ms.author: "madownie"
+title: Debug live ASP.NET Azure VM and scale sets
+description: Learn how to set snappoints and view snapshots with the Snapshot Debugger.
+ms.custom: SEO-VS-2020
+ms.date: 02/06/2019
+ms.topic: how-to
+helpviewer_keywords: 
+  - debugger
+author: poppastring
+ms.author: madownie
 manager: andster
 monikerRange: '>= vs-2019'
-ms.workload:
-  - "aspnet"
-  - "azure"
+ms.workload: 
+  - aspnet
+  - azure
 ---
 # Debug live ASP.NET apps on Azure virtual machines and Azure virtual machine scale sets using the Snapshot Debugger
 

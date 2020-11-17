@@ -1,6 +1,8 @@
 ---
 title: Security Rules rule set for managed code
 ms.date: 11/04/2016
+description: Learn about the Security Rules rule set for Visual Studio legacy code analysis. See descriptions of rules that focus on potential security issues.
+ms.custom: SEO-VS-2020
 ms.topic: reference
 ms.assetid: 564aeac6-03fa-41b0-b655-88179f0ab01b
 author: mikejo5000
@@ -15,7 +17,7 @@ Use the Microsoft Security Rules rule set for legacy code analysis to maximize t
 
 |Rule|Description|
 |----------|-----------------|
-|[CA2100](../code-quality/ca2100.md)|Review SQL queries for security vulnerabilities|
+|[CA2100](/dotnet/fundamentals/code-analysis/quality-rules/ca2100)|Review SQL queries for security vulnerabilities|
 |[CA2102](../code-quality/ca2102.md)|Catch non-CLSCompliant exceptions in general handlers|
 |[CA2103](../code-quality/ca2103.md)|Review imperative security|
 |[CA2104](../code-quality/ca2104.md)|Do not declare read only mutable reference types|
@@ -23,7 +25,7 @@ Use the Microsoft Security Rules rule set for legacy code analysis to maximize t
 |[CA2106](../code-quality/ca2106.md)|Secure asserts|
 |[CA2107](../code-quality/ca2107.md)|Review deny and permit only usage|
 |[CA2108](../code-quality/ca2108.md)|Review declarative security on value types|
-|[CA2109](../code-quality/ca2109.md)|Review visible event handlers|
+|[CA2109](/dotnet/fundamentals/code-analysis/quality-rules/ca2109)|Review visible event handlers|
 |[CA2111](../code-quality/ca2111.md)|Pointers should not be visible|
 |[CA2112](../code-quality/ca2112.md)|Secured types should not expose fields|
 |[CA2114](../code-quality/ca2114.md)|Method security should be a superset of type|
@@ -31,7 +33,7 @@ Use the Microsoft Security Rules rule set for legacy code analysis to maximize t
 |[CA2116](../code-quality/ca2116.md)|APTCA methods should only call APTCA methods|
 |[CA2117](../code-quality/ca2117.md)|APTCA types should only extend APTCA base types|
 |[CA2118](../code-quality/ca2118.md)|Review SuppressUnmanagedCodeSecurityAttribute usage|
-|[CA2119](../code-quality/ca2119.md)|Seal methods that satisfy private interfaces|
+|[CA2119](/dotnet/fundamentals/code-analysis/quality-rules/ca2119)|Seal methods that satisfy private interfaces|
 |[CA2120](../code-quality/ca2120.md)|Secure serialization constructors|
 |[CA2121](../code-quality/ca2121.md)|Static constructors should be private|
 |[CA2122](../code-quality/ca2122.md)|Do not indirectly expose methods with link demands|
@@ -58,27 +60,27 @@ Use the Microsoft Security Rules rule set for legacy code analysis to maximize t
 |[CA2147](../code-quality/ca2147.md)|Transparent methods may not use security asserts|
 |[CA2149](../code-quality/ca2149.md)|Transparent methods must not call into native code|
 |[CA2210](../code-quality/ca2210.md)|Assemblies should have valid strong names|
-|[CA2300](ca2300.md)|Do not use insecure deserializer BinaryFormatter|
-|[CA2301](ca2301.md)|Do not call BinaryFormatter.Deserialize without first setting BinaryFormatter.Binder|
-|[CA2302](ca2302.md)|Ensure BinaryFormatter.Binder is set before calling BinaryFormatter.Deserialize|
-|[CA2305](ca2305.md)|Do not use insecure deserializer LosFormatter|
-|[CA2310](ca2310.md)|Do not use insecure deserializer NetDataContractSerializer|
-|[CA2311](ca2311.md)|Do not deserialize without first setting NetDataContractSerializer.Binder|
-|[CA2312](ca2312.md)|Ensure NetDataContractSerializer.Binder is set before deserializing|
-|[CA2315](ca2315.md)|Do not use insecure deserializer ObjectStateFormatter|
-|[CA2321](ca2321.md)|Do not deserialize with JavaScriptSerializer using a SimpleTypeResolver|
-|[CA2322](ca2322.md)|Ensure JavaScriptSerializer is not initialized with SimpleTypeResolver before deserializing|
-|[CA3001](../code-quality/ca3001.md)|Review code for SQL injection vulnerabilities|
-|[CA3002](../code-quality/ca3002.md)|Review code for XSS vulnerabilities|
-|[CA3003](../code-quality/ca3003.md)|Review code for file path injection vulnerabilities|
-|[CA3004](../code-quality/ca3004.md)|Review code for information disclosure vulnerabilities|
-|[CA3005](../code-quality/ca3005.md)|Review code for LDAP injection vulnerabilities|
-|[CA3006](../code-quality/ca3006.md)|Review code for process command injection vulnerabilities|
-|[CA3007](../code-quality/ca3007.md)|Review code for open redirect vulnerabilities|
-|[CA3008](../code-quality/ca3008.md)|Review code for XPath injection vulnerabilities|
-|[CA3009](../code-quality/ca3009.md)|Review code for XML injection vulnerabilities|
-|[CA3010](../code-quality/ca3010.md)|Review code for XAML injection vulnerabilities|
-|[CA3011](../code-quality/ca3011.md)|Review code for DLL injection vulnerabilities|
-|[CA3012](../code-quality/ca3012.md)|Review code for regex injection vulnerabilities|
-|[CA5358](../code-quality/ca5358.md)|Do Not Use Unsafe Cipher Modes|
-|[CA5403](../code-quality/ca5403.md)|Do not hard-code certificate|
+|[CA2300](/dotnet/fundamentals/code-analysis/quality-rules/ca2300)|Do not use insecure deserializer BinaryFormatter|
+|[CA2301](/dotnet/fundamentals/code-analysis/quality-rules/ca2301)|Do not call BinaryFormatter.Deserialize without first setting BinaryFormatter.Binder|
+|[CA2302](/dotnet/fundamentals/code-analysis/quality-rules/ca2302)|Ensure BinaryFormatter.Binder is set before calling BinaryFormatter.Deserialize|
+|[CA2305](/dotnet/fundamentals/code-analysis/quality-rules/ca2305)|Do not use insecure deserializer LosFormatter|
+|[CA2310](/dotnet/fundamentals/code-analysis/quality-rules/ca2310)|Do not use insecure deserializer NetDataContractSerializer|
+|[CA2311](/dotnet/fundamentals/code-analysis/quality-rules/ca2311)|Do not deserialize without first setting NetDataContractSerializer.Binder|
+|[CA2312](/dotnet/fundamentals/code-analysis/quality-rules/ca2312)|Ensure NetDataContractSerializer.Binder is set before deserializing|
+|[CA2315](/dotnet/fundamentals/code-analysis/quality-rules/ca2315)|Do not use insecure deserializer ObjectStateFormatter|
+|[CA2321](/dotnet/fundamentals/code-analysis/quality-rules/ca2321)|Do not deserialize with JavaScriptSerializer using a SimpleTypeResolver|
+|[CA2322](/dotnet/fundamentals/code-analysis/quality-rules/ca2322)|Ensure JavaScriptSerializer is not initialized with SimpleTypeResolver before deserializing|
+|[CA3001](/dotnet/fundamentals/code-analysis/quality-rules/ca3001)|Review code for SQL injection vulnerabilities|
+|[CA3002](/dotnet/fundamentals/code-analysis/quality-rules/ca3002)|Review code for XSS vulnerabilities|
+|[CA3003](/dotnet/fundamentals/code-analysis/quality-rules/ca3003)|Review code for file path injection vulnerabilities|
+|[CA3004](/dotnet/fundamentals/code-analysis/quality-rules/ca3004)|Review code for information disclosure vulnerabilities|
+|[CA3005](/dotnet/fundamentals/code-analysis/quality-rules/ca3005)|Review code for LDAP injection vulnerabilities|
+|[CA3006](/dotnet/fundamentals/code-analysis/quality-rules/ca3006)|Review code for process command injection vulnerabilities|
+|[CA3007](/dotnet/fundamentals/code-analysis/quality-rules/ca3007)|Review code for open redirect vulnerabilities|
+|[CA3008](/dotnet/fundamentals/code-analysis/quality-rules/ca3008)|Review code for XPath injection vulnerabilities|
+|[CA3009](/dotnet/fundamentals/code-analysis/quality-rules/ca3009)|Review code for XML injection vulnerabilities|
+|[CA3010](/dotnet/fundamentals/code-analysis/quality-rules/ca3010)|Review code for XAML injection vulnerabilities|
+|[CA3011](/dotnet/fundamentals/code-analysis/quality-rules/ca3011)|Review code for DLL injection vulnerabilities|
+|[CA3012](/dotnet/fundamentals/code-analysis/quality-rules/ca3012)|Review code for regex injection vulnerabilities|
+|[CA5358](/dotnet/fundamentals/code-analysis/quality-rules/ca5358)|Do Not Use Unsafe Cipher Modes|
+|[CA5403](/dotnet/fundamentals/code-analysis/quality-rules/ca5403)|Do not hard-code certificate|

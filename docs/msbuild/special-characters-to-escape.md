@@ -1,5 +1,7 @@
 ---
 title: Special Characters to Escape | Microsoft Docs
+description: Learn about special characters that must be escaped only if they have special meaning in the context in which they are being used.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 dev_langs:
@@ -25,16 +27,16 @@ Special characters must be escaped only if they have special meaning in the cont
 
  The full list of special characters to escape follows:
 
-|Character|Description|
-|---------------|-----------------|
-|%|Percent sign, used to reference metadata.|
-|$|Dollar sign, used to reference properties.|
-|@|At sign, used to reference item lists.|
-|(|Open parenthesis, used in lists.|
-|)|Close parenthesis, used in lists.|
-|;|Semicolon, a list separator.|
-|?|Question mark, a wildcard character when describing a file spec in an item's Include/Exclude section.|
-|*|Asterisk, a wildcard character when describing a file spec in an item's Include/Exclude section.|
+|Character|ASCII encoding|Description|
+|---------|----------|-----------|
+|%|%25|Percent sign, used to reference metadata.|
+|$|%24|Dollar sign, used to reference properties.|
+|@|%40|At sign, used to reference item lists.|
+|(|%28|Open parenthesis, used in lists.|
+|)|%29|Close parenthesis, used in lists.|
+|;|%3B|Semicolon, a list separator.|
+|?|%3F|Question mark, a wildcard character when describing a file spec in an item's Include/Exclude section.|
+|* |%2A|Asterisk, a wildcard character when describing a file spec in an item's Include/Exclude section.|
 
 > [!NOTE]
 > In some scenarios, you may need to escape double quote (") characters, such as when using within an `Exec` task.

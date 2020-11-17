@@ -3,7 +3,7 @@ title: "&lt;entryPointsCollection&gt; element (Office development in Visual Stud
 titleSuffix: ""
 ms.custom: "seodec18"
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "VB"
   - "CSharp"

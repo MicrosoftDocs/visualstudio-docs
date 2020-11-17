@@ -1,11 +1,13 @@
 ---
 title: Browse storage to upload data
+description: Learn how you can browse all storage on the remote machine or Azure file share to enable uploading data or downloading models and logs.
+ms.custom: SEO-VS-2020
 author: jillre
 ms.author: jillfra
 manager: jillfra
 monikerRange: vs-2017
 ms.date: 11/13/2017
-ms.topic: conceptual
+ms.topic: how-to
 ms.workload:
   - "multiple"
 ---

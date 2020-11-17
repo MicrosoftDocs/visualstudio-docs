@@ -1,7 +1,8 @@
 ---
 title: "Packaging Explorer: Add & remove features & items to package"
+titleSuffix: ""
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: how-to
 f1_keywords:
   - "VS.SharePointTools.RAD.PackagingExplorer"
 dev_langs:

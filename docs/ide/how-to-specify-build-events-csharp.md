@@ -1,8 +1,10 @@
 ---
 title: 'How to: Specify build events (C#)'
+description: Learn how to use build events to specify commands that run before the build starts or after the build finishes.
+ms.custom: SEO-VS-2020
 ms.date: 03/21/2019
 ms.technology: vs-ide-compile
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - pre-build events
 - events [Visual Studio], builds

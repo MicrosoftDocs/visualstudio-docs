@@ -2,7 +2,7 @@
 title: "Feedback options"
 description: "We're interested in your ideas for improving our products and documentation; here's how to send us feedback."
 ms.date: 11/20/2019
-ms.topic: conceptual
+ms.topic: overview
 ms.custom: seoapril2019
 helpviewer_keywords:
   - "product support [Visual Studio]"
@@ -65,7 +65,7 @@ Next, Visual Studio opens the [Developer Community](https://developercommunity.v
 There are two ways that you can help us improve the documentation:
 
 * Use the **Is this page helpful?** response tool at the top-right of any documentation page.
-* Use your GitHub account to provide feedback for any Visual Studio page on [docs.microsoft.com](/visualstudio/). To do so, choose the **Send feedback about** > **This page** button at the bottom of any documentation page.
+* Use your GitHub account to provide feedback for any Visual Studio page on [docs.microsoft.com](../index.yml). To do so, choose the **Send feedback about** > **This page** button at the bottom of any documentation page.
 
 ## Contact Microsoft support
 

@@ -3,7 +3,7 @@ title: "'with' not available in the ECMA 327 Compact Profile | Microsoft Docs"
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows
 ms.technology: vs-javascript
-ms.topic: reference
+ms.topic: error-reference
 f1_keywords: 
   - "VS.WebClient.Help.SCRIPT1036"
 dev_langs: 
@@ -20,4 +20,4 @@ manager: "ghogen"
   
  You are not allowed to use the with keyword in the Compact Profile.  
   
- For more information about the with keyword, see [with Statement](../../javascript/reference/with-statement-javascript.md).
+ For more information about the with keyword, see [with Statement](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/with).

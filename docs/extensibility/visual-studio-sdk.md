@@ -37,8 +37,8 @@ The Visual Studio SDK helps you extend Visual Studio features or integrate new f
 ## Install the Visual Studio SDK
  The Visual Studio SDK is an optional feature in Visual Studio setup. You can also install the VS SDK later on. For more information, see [Install the Visual Studio SDK](../extensibility/installing-the-visual-studio-sdk.md).
 
-## What's new in the Visual Studio 2017 SDK
- The Visual Studio SDK has some new features such as the VSIX v3 format as well as breaking changes, which may require you to update your extension. For more information, see [What's new in the Visual Studio 2017 SDK](../extensibility/what-s-new-in-the-visual-studio-2017-sdk.md).
+## What's new in the Visual Studio SDK
+ The Visual Studio SDK has some new features such as the synchronously autoloaded extensions warning and VSIX v3 format as well as breaking changes, which may require you to update your extension. For more information, see [What's new in the Visual Studio 2019 SDK](../extensibility/whats-new-visual-studio-2019-sdk.md) and [What's new in the Visual Studio 2017 SDK](../extensibility/what-s-new-in-the-visual-studio-2017-sdk.md).
 
 ## Visual Studio user experience guidelines
  Get great tips for designing the UI for your extension in [Visual Studio user experience guidelines](../extensibility/ux-guidelines/visual-studio-user-experience-guidelines.md).
@@ -59,7 +59,7 @@ The Visual Studio SDK helps you extend Visual Studio features or integrate new f
 ## Other Visual Studio SDK resources
  If you have questions about the VSSDK or want to share your experiences developing extensions, you can use the [Visual Studio Extensibility Forum](https://social.msdn.microsoft.com/Forums/vstudio/home?forum=vsx) or the [ExtendVS Gitter Chatroom](https://gitter.im/Microsoft/extendvs).
 
- You can find more information in the [VSX Arcana blog](https://blogs.msdn.microsoft.com/vsx/) and a number of blogs written by Microsoft MVPs:
+ You can find more information in the [VSX Arcana blog](/archive/blogs/vsx/) and a number of blogs written by Microsoft MVPs:
 
 - [Favorite Visual Studio extensions](https://scottdorman.blog/2014/10/05/favorite-visual-studio-extensions/)
 
@@ -71,7 +71,7 @@ The Visual Studio SDK helps you extend Visual Studio features or integrate new f
 
 - [Create an extension with a menu command](../extensibility/creating-an-extension-with-a-menu-command.md)
 - [How to: Migrate extensibility projects to Visual Studio 2017](../extensibility/how-to-migrate-extensibility-projects-to-visual-studio-2017.md)
-- [FAQ: Converting add-ins to VSPackage extensions](/visualstudio/extensibility/faq-converting-add-ins-to-vspackage-extensions?view=vs-2015)
+- [FAQ: Converting add-ins to VSPackage extensions](/previous-versions/visualstudio/visual-studio-2015/extensibility/faq-converting-add-ins-to-vspackage-extensions?preserve-view=true&view=vs-2015)
 - [Manage multiple threads in managed code](../extensibility/managing-multiple-threads-in-managed-code.md)
 - [Extend menus and commands](../extensibility/extending-menus-and-commands.md)
 - [Add commands to toolbars](../extensibility/adding-commands-to-toolbars.md)

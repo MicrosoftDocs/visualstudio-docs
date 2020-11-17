@@ -1,12 +1,14 @@
 ---
 title: "Workflow Designer - Compensate Activity Designer"
+description: Learn about the Compensate activity designer and how you can use the Compensate activity designer to create and configure a Compensate activity.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
   - "System.Activities.Statements.Compensate.UI"
 ms.assetid: 7347c947-bfff-4bad-becd-5cd23e7b24cd
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
   - "multiple"

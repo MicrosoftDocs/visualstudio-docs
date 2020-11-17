@@ -1,5 +1,7 @@
 ---
 title: 'How to: Use the Same Target in Multiple Project Files | Microsoft Docs'
+description: Learn how to save a target in an MSBuild project file and import it into any other project that needs to use the target.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -15,10 +17,10 @@ ms.workload:
 # How to: Use the same target in multiple project files
 
 If you have authored several MSBuild project files, you might have discovered that you need to use the same tasks and targets in different project files. Instead of including the complete description of those tasks or targets in every project file, you can save a target in a separate project file and then import that project into any other project that needs to use the target.
+
 ## Use the Import element
 
- The `Import` element is used to insert one project file into another project file. The project file that is being imported must be a valid MSBuild project file and contain well-formed XML. The `Project` attribute specifies the path to the imported project file. For more information on the `Import` element, see [Import element (MSBuild)](../msbuild/import-element-msbuild.md).
- The `Import` element is used to insert one project file into another project file. The project file that is being imported must be a valid MSBuild project file and contain well-formed XML. The `Project` attribute specifies the path to the imported project file. For more information on the `Import` element, see [Import element (MSBuild)](../msbuild/import-element-msbuild.md).
+The `Import` element is used to insert one project file into another project file. The project file that is being imported must be a valid MSBuild project file and contain well-formed XML. The `Project` attribute specifies the path to the imported project file. For more information on the `Import` element, see [Import element (MSBuild)](../msbuild/import-element-msbuild.md).
 
 #### To import a project
 
@@ -77,7 +79,7 @@ If you have authored several MSBuild project files, you might have discovered th
 
 3. Define in the project file all properties and items that must override default definitions of properties and items in the imported project.
 
-## Example
+## Example 1
 
  The following code example shows the *MyCommon.targets* file that the second code example imports. The *.targets* file evaluates properties from the importing project to configure the build.
 
@@ -96,7 +98,7 @@ If you have authored several MSBuild project files, you might have discovered th
 </Project>
 ```
 
-## Example
+## Example 2
 
  The following code example imports the *MyCommon.targets* file.
 

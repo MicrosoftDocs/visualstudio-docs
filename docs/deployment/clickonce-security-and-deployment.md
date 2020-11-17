@@ -1,5 +1,7 @@
 ---
 title: "ClickOnce Security and Deployment | Microsoft Docs"
+description: Learn about Visual Studio support for ClickOnce, a deployment technology that enables you to create self-updating Windows-based applications.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:
@@ -102,6 +104,8 @@ ms.workload:
 |-------------|----------------------------|
 |Internet Explorer|2.0, 3.0, 3.5, 3.5 SP1, 4|
 |Firefox|2.0 SP1, 3.5 SP1, 4|
+|Chrome|3.5|
+|Microsoft Edge|3.5|
 
 ## See also
 - [ClickOnce deployment on Windows Vista](../deployment/clickonce-deployment-on-windows-vista.md)

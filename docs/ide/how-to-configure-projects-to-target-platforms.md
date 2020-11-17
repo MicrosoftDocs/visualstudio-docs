@@ -1,8 +1,10 @@
 ---
 title: 'How to: Configure projects to target platforms'
+description: Learn how Visual Studio enables you to set up your applications to target different platforms, including 64-bit platforms. 
+ms.custom: SEO-VS-2020
 ms.date: 08/16/2019
 ms.technology: vs-ide-compile
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - project settings [Visual Studio], targeting platforms
 - platforms, targeting specific CPUs
@@ -45,6 +47,10 @@ The **Configuration Manager** provides a way for you to quickly add a new platfo
     3. If you want to copy the settings from a current platform configuration, choose it, and then choose the **OK** button.
 
 The properties for all projects that target the 64-bit platform are updated, and the next build of the project will be optimized for 64-bit platforms.
+
+> [!NOTE]
+> The **Win32** platform name is used for C++ projects, and it means **x86**. Visual Studio considers both project-level platforms and solution-level platforms, and the project platforms come from the language-specific project systems. C++ projects use **Win32** and **x64**, but the solution platforms use **x86** and **x64**. When you choose **x86** as the solution configuration, Visual Studio selects the **Win32** platform for C++ projects. To see both project-level platform and solution-level platform settings, open **Configuration Manager** and note the two platform settings. The solution-level platform is shown in the **Active solution platform** dropdown, and the table shows the project-level platform for each project.
+> ![Screenshot showing solution platform and project platform](media/project-platform-win32.png)
 
 ## Target platforms in the Project Designer
 

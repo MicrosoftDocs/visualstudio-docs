@@ -3,7 +3,7 @@ title: "Expected hexadecimal digit | Microsoft Docs"
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows
 ms.technology: vs-javascript
-ms.topic: reference
+ms.topic: error-reference
 f1_keywords: 
   - "VS.WebClient.Help.SCRIPT1023"
 dev_langs: 
@@ -30,4 +30,4 @@ z = "\u1A5F";
     > If you want to use the literal text \u in a string, then use two backslashes - (\\\u) - one to escape the first backslash.  
   
 ## See also  
- [Data Types](../../javascript/data-types-javascript.md)
+ [Data Types](https://developer.mozilla.org/docs/Web/JavaScript/Data_structures)

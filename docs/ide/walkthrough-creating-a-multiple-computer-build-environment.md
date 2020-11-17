@@ -1,5 +1,7 @@
 ---
-title: "Walkthrough: Create a multiple-computer build environment"
+title: Create a multiple-computer build environment
+description: Create a build environment within your organization by installing Visual Studio on a host computer and then copying various files and settings to another computer.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.technology: vs-ide-compile
 ms.topic: conceptual

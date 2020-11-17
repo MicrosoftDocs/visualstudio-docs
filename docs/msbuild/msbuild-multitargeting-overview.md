@@ -1,5 +1,7 @@
 ---
 title: MSBuild Multitargeting Overview | Microsoft Docs
+description: Learn how to use MSBuild to compile an application to run on any one of several versions of the .NET Framework, and on any one of several system platforms.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: eecbcd65-9fbc-4307-a321-46d3c3b79b12
@@ -30,7 +32,7 @@ By using MSBuild, you can compile an application to run on any one of several ve
 
 ## Target framework and platform
 
- A *target framework* is the version of the .NET Framework that a project is built to run on, and a *target platform* is the system platform that the project is built to run on.  For example, you might want to target a .NET Framework 2.0 application to run on a 32-bit platform that is compatible with the 802x86 processor family (x86). The combination of target framework and target platform is known as the *target context*. For more information, see [Target framework and target platform](../msbuild/msbuild-target-framework-and-target-platform.md).
+ A *target framework* is the version of the .NET Framework that a project is built to run on, and a *target platform* is the system platform that the project is built to run on.  For example, you might want to target a .NET Framework 2.0 application to run on a 32-bit platform that is compatible with the 80x86 processor family (x86). The combination of target framework and target platform is known as the *target context*. For more information, see [Target framework and target platform](../msbuild/msbuild-target-framework-and-target-platform.md).
 
 ## Toolset (ToolsVersion)
 

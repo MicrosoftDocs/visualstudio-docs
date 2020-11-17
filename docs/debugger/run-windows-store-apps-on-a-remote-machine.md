@@ -1,18 +1,18 @@
 ---
-title: "Debug UWP apps on remote machines | Microsoft Docs"
-ms.date: "10/05/2018"
-ms.topic: "conceptual"
-dev_langs:
-  - "CSharp"
-  - "VB"
-  - "FSharp"
-  - "C++"
+title: Debug UWP apps on remote machines | Microsoft Docs
+ms.date: 10/05/2018
+ms.topic: how-to
+dev_langs: 
+  - CSharp
+  - VB
+  - FSharp
+  - C++
 ms.assetid: 0f6814d6-cd0d-49f3-b501-dea8c094b8ef
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
-ms.workload:
-  - "uwp"
+ms.workload: 
+  - uwp
 ---
 # Debug UWP apps on remote machines from Visual Studio
 
@@ -103,5 +103,5 @@ Remote debugging works the same as local debugging.
 
 ## See also
 - [Advanced remote deployment options](/windows/uwp/debug-test-perf/deploying-and-debugging-uwp-apps#advanced-remote-deployment-options)
-- [Testing UWP apps with Visual Studio](/visualstudio/test/create-and-run-unit-tests-for-a-store-app-in-visual-studio/)
+- [Testing UWP apps with Visual Studio](../test/unit-test-your-code.md)
 - [Debug UWP apps in Visual Studio](debugging-windows-store-and-windows-universal-apps.md)

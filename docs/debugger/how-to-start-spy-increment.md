@@ -1,15 +1,15 @@
 ---
-title: "How to: Start Spy++ | Microsoft Docs"
-ms.date: "12/16/2018"
-ms.topic: "conceptual"
-helpviewer_keywords:
-  - "Spy++, starting"
+title: Start Spy++ | Microsoft Docs
+ms.date: 12/16/2018
+ms.topic: how-to
+helpviewer_keywords: 
+  - Spy++, starting
 ms.assetid: 1d36813a-dc2a-4fda-9b3d-a38928a62ced
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
-ms.workload:
-  - "multiple"
+ms.workload: 
+  - multiple
 ---
 # How to: Start Spy++
 

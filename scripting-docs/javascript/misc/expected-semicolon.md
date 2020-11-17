@@ -3,7 +3,7 @@ title: "Expected ';' | Microsoft Docs"
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows
 ms.technology: vs-javascript
-ms.topic: reference
+ms.topic: error-reference
 f1_keywords: 
   - "VS.WebClient.Help.SCRIPT1004"
 dev_langs: 
@@ -27,4 +27,4 @@ You attempted to place more than one statement on a line, but did not separate t
 - Make sure you did not forget the semicolons inside the header of a **for** loop.  
   
 ## See also  
- [Writing JavaScript Code](../../javascript/writing-javascript-code.md)
+ [Writing JavaScript Code](https://developer.mozilla.org/docs/Learn/Getting_started_with_the_web/JavaScript_basics)

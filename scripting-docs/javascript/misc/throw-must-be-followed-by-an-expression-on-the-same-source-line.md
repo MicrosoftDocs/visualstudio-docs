@@ -3,7 +3,7 @@ title: "Throw must be followed by an expression on the same source line | Micros
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows
 ms.technology: vs-javascript
-ms.topic: reference
+ms.topic: error-reference
 f1_keywords: 
   - "VS.WebClient.Help.SCRIPT1035"
 dev_langs: 
@@ -31,6 +31,6 @@ if (denominator == 0) {
 - Make sure that the `throw` keyword and the expression to be thrown appears on the same line.  
   
 ## See also  
- [Error Object](../../javascript/reference/error-object-javascript.md)   
- [throw Statement](../../javascript/reference/throw-statement-javascript.md)   
- [try...catch...finally Statement](../../javascript/reference/try-dot-dot-dot-catch-dot-dot-dot-finally-statement-javascript.md)
+ [Error Object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Error)   
+ [throw Statement](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/throw)   
+ [try...catch...finally Statement](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/try...catch)

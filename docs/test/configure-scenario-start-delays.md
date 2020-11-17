@@ -1,9 +1,9 @@
 ---
 title: Configure Scenario Start Delays for load testing
 ms.date: 10/19/2016
-ms.topic: conceptual
-helpviewer_keywords:
-- load tests, scenarios, start delays
+ms.topic: how-to
+helpviewer_keywords: 
+  - load tests, scenarios, start delays
 ms.assetid: 2f634fba-8dfa-4c7a-a8b9-be867b78d16a
 author: mikejo5000
 ms.author: mikejo

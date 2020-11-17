@@ -1,20 +1,19 @@
 ---
-title: "Trigger suspend/resume/background events when debugging UWP"
-ms.custom: "seodec18"
-ms.date: "01/16/2018"
-ms.topic: "conceptual"
-f1_keywords:
-  - "vs.debug.error.background_task_activate_failure"
-dev_langs:
-  - "CSharp"
-  - "VB"
-  - "FSharp"
-  - "C++"
-author: "mikejo5000"
-ms.author: "mikejo"
+title: Trigger suspend/resume/background events when debugging UWP
+ms.date: 01/16/2018
+ms.topic: how-to
+f1_keywords: 
+  - vs.debug.error.background_task_activate_failure
+dev_langs: 
+  - CSharp
+  - VB
+  - FSharp
+  - C++
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
-ms.workload:
-  - "uwp"
+ms.workload: 
+  - uwp
 ---
 # How to trigger suspend, resume, and background events while debugging UWP apps in Visual Studio
 
@@ -42,7 +41,7 @@ For more information about Process Lifetime Management and background tasks, see
      **Suspend and terminate** closes the app and ends the debug session.
 
 ## <a name="BKMK_Trigger_background_tasks"></a> Trigger background tasks
- Any app can register a background task to respond to certain system events, even when the app is not running. Background tasks can't run code that directly updates the UI; instead, they show information to the user with tile updates, badge updates, and toast notifications. For more information, see [Supporting your app with background tasks](https://msdn.microsoft.com/library/4c7bb148-eb1f-4640-865e-41f627a46e8e).
+ Any app can register a background task to respond to certain system events, even when the app is not running. Background tasks can't run code that directly updates the UI; instead, they show information to the user with tile updates, badge updates, and toast notifications. For more information, see [Supporting your app with background tasks](/previous-versions/windows/apps/hh977046(v=win.10)).
 
  You can trigger the events that start background tasks for your app from the debugger.
 
@@ -104,7 +103,7 @@ For more information about Process Lifetime Management and background tasks, see
 4. Choose the **Diagnostic** log.
 
 ## See also
-- [Testing UWP apps with Visual Studio](/visualstudio/test/create-and-run-unit-tests-for-a-store-app-in-visual-studio)
+- [Testing UWP apps with Visual Studio](../test/unit-test-your-code.md)
 - [Debug apps in Visual Studio](debugging-windows-store-and-windows-universal-apps.md)
 - [Application lifecycle](/windows/uwp/launch-resume/app-lifecycle)
 - [Launching, resuming, and multitasking](/windows/uwp/launch-resume/index)

@@ -1,18 +1,18 @@
 ---
-title: "How to: Collect CPU Counter Data | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-f1_keywords:
-  - "vs.performance.property.cpucounters"
-helpviewer_keywords:
-  - "profiling tools, using portable CPU counters"
-  - "performance tools, portable CPU counters"
-author: "mikejo5000"
-ms.author: "mikejo"
+title: Collect CPU Counter Data | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: how-to
+f1_keywords: 
+  - vs.performance.property.cpucounters
+helpviewer_keywords: 
+  - profiling tools, using portable CPU counters
+  - performance tools, portable CPU counters
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 monikerRange: 'vs-2017'
-ms.workload:
-  - "multiple"
+ms.workload: 
+  - multiple
 ---
 # How to: Collect CPU counter data
 

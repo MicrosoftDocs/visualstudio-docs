@@ -1,17 +1,17 @@
 ---
-title: "CvCreateDefaultMarkerSeriesOfDefaultProvider Function | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-f1_keywords:
-  - "cvmarkers/CvCreateDefaultMarkerSeriesOfDefaultProvider"
-helpviewer_keywords:
-  - "CvCreateDefaultMarkerSeriesOfDefaultProvider method"
+title: CvCreateDefaultMarkerSeriesOfDefaultProvider Function | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: reference
+f1_keywords: 
+  - cvmarkers/CvCreateDefaultMarkerSeriesOfDefaultProvider
+helpviewer_keywords: 
+  - CvCreateDefaultMarkerSeriesOfDefaultProvider method
 ms.assetid: 24eb80f8-8fca-4c47-93b5-bb1eb8ffdffd
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
-ms.workload:
-  - "multiple"
+ms.workload: 
+  - multiple
 ---
 # CvCreateDefaultMarkerSeriesOfDefaultProvider function
 Creates default marker series of a default provider.

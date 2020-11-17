@@ -1,7 +1,7 @@
 ---
-title: "Attach to running processes with the debugger | Microsoft Docs"
+title: "Attach to running processes with the debugger"
 ms.custom: "seodec18"
-ms.date: "04/14/2020"
+ms.date: "06/12/2020"
 ms.topic: "conceptual"
 f1_keywords:
   - "vs.debug.processes.attach"
@@ -30,6 +30,7 @@ ms.workload:
   - "multiple"
 ---
 # Attach to running processes with the Visual Studio debugger
+
 You can attach the Visual Studio debugger to a running process on a local or remote computer. After the process is running, select **Debug** > **Attach to Process** or press **Ctrl**+**Alt**+**P** in Visual Studio, and use the **Attach to Process** dialog to attach the debugger to the process.
 
 You can use **Attach to Process** to debug running apps on local or remote computers, debug multiple processes simultaneously, debug apps that weren't created in Visual Studio, or debug any app you didn't start from Visual Studio with the debugger attached. For example, if you're running an app without the debugger and hit an exception, you can then attach the debugger to the process running the app and begin debugging.
@@ -41,21 +42,19 @@ You can use **Attach to Process** to debug running apps on local or remote compu
 
 To quickly reattach to a process you attached to previously, see [Reattach to a process](#BKMK_reattach).
 
-To debug a process on a remote computer, see [Attach to a process on a remote computer](#BKMK_Attach_to_a_process_on_a_remote_computer).
-
-::: moniker range=">= vs-2019"
-To debug a .NET Core process on a Linux Docker container, see [Attach to a Linux Docker container](#BKMK_Linux_Docker_Attach).
-::: moniker-end
-
 **To attach to a process on your local computer:**
 
 1. In Visual Studio, select **Debug** > **Attach to Process** (or press **Ctrl**+**Alt**+**P**) to open the **Attach to Process** dialog box.
 
-   **Connection type** should be set to **Default**. **Connection target** should be your local machine name.
+1. Check the **Connection type**.
+
+   In most scenarios, you can use **Default**. Some scenarios may require a different connection type. For more info, see other sections in this article or [Common debugging scenarios](#BKMK_Scenarios).
+
+1. Set the **Connection target** your local machine name.
 
    ![DBG_Basics_Attach_To_Process](../debugger/media/DBG_Basics_Attach_To_Process.png "DBG_Basics_Attach_To_Process")
 
-2. In the **Available processes** list, find and select the process or processes you want to attach to.
+1. In the **Available processes** list, find and select the process or processes you want to attach to.
 
    - To quickly select a process, type its name or first letter in the **Filter processes** box.
 
@@ -64,15 +63,18 @@ To debug a .NET Core process on a Linux Docker container, see [Attach to a Linux
    >[!TIP]
    >Processes can start and stop in the background while the **Attach to Process** dialog box is open, so the list of running processes may not always be current. You can select **Refresh** at any time to see the current list.
 
-3. In the **Attach to** field, make sure the type of code you plan to debug is listed. The default **Automatic** setting works for most app types.
+1. In the **Attach to** field, make sure the type of code you plan to debug is listed. The default **Automatic** setting works for most app types.
+
+   If you are using the **Default** connection type, you can manually select the type of code you want to attach to. Otherwise, the **Select** option may be disabled.
 
    To select code types manually:
    1. Click **Select**.
    1. In the **Select Code Type** dialog box, select **Debug these code types**.
+      If you experience a failure when you try to attach to a process in the list, you can use the [Select Code Type](../debugger/select-code-type-dialog-box.md) dialog box to help [troubleshoot](#BKMK_Troubleshoot_attach_errors) the issue.
    1. Select the code types you want to debug.
    1. Select **OK**.
 
-4. Select **Attach**.
+1. Select **Attach**.
 
 >[!NOTE]
 >You can be attached to multiple apps for debugging, but only one app is active in the debugger at a time. You can set the active app in the Visual Studio **Debug Location** toolbar or **Processes** window.
@@ -87,7 +89,11 @@ For more complete instructions for debugging ASP.NET applications that have been
 
 1. In Visual Studio, select **Debug** > **Attach to Process** (or press **Ctrl**+**Alt**+**P**) to open the **Attach to Process** dialog box.
 
-2. **Connection type** should be **Default** for most cases. In the **Connection target** box, select the remote computer, using one of the following methods:
+1. Check the **Connection type**.
+
+   In most scenarios, you can use **Default**. Some scenarios, such as debugging Linux or a containerized app, require a different connection type. For more info, see other sections in this article or [Common debugging scenarios](#BKMK_Scenarios).
+
+1. In the **Connection target** box, select the remote computer, using one of the following methods:
 
    - Select the drop-down arrow next to **Connection target**, and select the computer name from the drop-down list.
    - Type the computer name in the **Connection target** box and press **Enter**.
@@ -130,10 +136,12 @@ For more complete instructions for debugging ASP.NET applications that have been
 
 5. In the **Attach to** field, make sure the type of code you plan to debug is listed. The default **Automatic** setting works for most app types.
 
+   If you are using the **Default** connection type, you can manually select the type of code you want to attach to. Otherwise, the **Select** option may be disabled.
+
    To select code types manually:
    1. Click **Select**.
    1. In the **Select Code Type** dialog box, select **Debug these code types**.
-   1. Select the code types you want to debug.
+      If you experience a failure when you try to attach to a process in the list, you can use the [Select Code Type](../debugger/select-code-type-dialog-box.md) dialog box to help [troubleshoot](#BKMK_Troubleshoot_attach_errors) the issue.
    1. Select **OK**.
 
 6. Select **Attach**.
@@ -145,90 +153,15 @@ In some cases, when you debug in a Remote Desktop (Terminal Services) session, t
 
 If neither of those workarounds is possible, a third option is to attach to the process by running `vsjitdebugger.exe -p <ProcessId>` from the Windows command line. You can determine the process ID using *tlist.exe*. To obtain *tlist.exe*, download and install Debugging Tools for Windows, available at  [WDK and WinDbg downloads](/windows-hardware/drivers/download-the-wdk).
 
-::: moniker range=">= vs-2019"
-
-
 ## Attach to a .NET Core process running on Linux using SSH
 
 For more information, see [Remote debug .NET Core running on Linux using SSH](../debugger/remote-debugging-dotnet-core-linux-with-ssh.md).
 
-## <a name="BKMK_Linux_Docker_Attach"></a> Attach to a process running on a Linux Docker container
+::: moniker range=">= vs-2019"
 
-You can attach the Visual Studio debugger to a process running in a Linux .NET Core Docker container on your local or remote machine using the **Attach to Process** dialog box.
+## <a name="BKMK_Linux_Docker_Attach"></a> Attach to a process running on a Docker container
 
-> [!IMPORTANT]
-> To use this feature, you must install the .NET Core Cross-Platform Development workload and have local access to the source code.
-
-**To attach to a running process in a Linux Docker container:**
-
-1. In Visual Studio, select **Debug > Attach to Process (CTRL+ALT+P)** to open the **Attach to Process** dialog box.
-
-![Attach to Process Menu](../debugger/media/attach-process-menu.png "Attach_To_Process_Menu")
-
-2. Set the **Connection type** to **Docker (Linux Container)**.
-3. Select **Find...** to set the **Connection target** via the **Select Docker Container** dialog box.
-
-    You can debug a Docker container process either locally or remotely.
-    
-    **To debug a Docker container process locally:**
-    1. Set **Docker CLI host** to **Local Machine**.
-    1. Select a running container to attach to from the list and hit **OK**.
-    
-    ![Select Docker Container Menu](../debugger/media/select-docker-container.png "Select_Docker_Container_Menu")
- 
-    **B. To debug a Docker container process remotely:**
-    
-    > [!NOTE] 
-    > There are two options for connecting remotely to a running process in a Docker container. The first option, to use SSH, is ideal if you don't have Docker tools installed on your local machine.  If you do have Docker tools installed locally and you have a Docker daemon that's configured to accept remote requests, try the second option, using a Docker daemon.
-
-    1. ***To connect to a remote machine via SSH:***
-        1. Select **Add...** to connect to a remote system.<br/>
-        ![Connect to a Remote System](../debugger/media/connect-remote-system.png "Connect to a Remote System")
-        1. Select a running container to attach to after connecting to the SSH or daemon successfully and hit **OK**.
-
-    
-    1. ***To set the target to a remote container running a process via a [Docker daemon](https://docs.docker.com/engine/reference/commandline/dockerd/)***
-        1. Specify the daemon address (i.e. via TCP, IP, etc.) under **Docker host (Optional)** and click the refresh link.
-        1. Select a running container to attach to after connecting to the daemon successfully and hit **OK**.
-
-4. Choose the corresponding container process from the list of **Available processes** and select **Attach** to start debugging your C# container process in Visual Studio!
-
-    ![Completed Docker Attach Menu](../debugger/media/docker-attach-complete.png "Completed Linux Docker Attach Menu")
-    
-
-## <a name="BKMK_Windows_Docker_Attach"></a> Attach to a process running on a Windows Docker container
-
-You can attach the Visual Studio debugger to a process running in a Windows Docker container on your local machine using the **Attach to Process** dialog box.
-
-> [!IMPORTANT]
-> To use this feature with a .NET Core process, you must install the .NET Core Cross-Platform Development workload and have local access to the source code.
-
-**To attach to a running process in a Windows Docker container:**
-
-1. In Visual Studio, select **Debug > Attach to Process** (or **CTRL+ALT+P**) to open the **Attach to Process** dialog box.
-
-   ![Attach to Process Menu](../debugger/media/attach-process-menu-docker-windows.png "Attach_To_Process_Menu")
-
-2. Set the **Connection type** to **Docker (Windows Container)**.
-3. Select **Find...** to set the **Connection target** using the **Select Docker Container** dialog box.
-
-    > [!IMPORTANT]
-    > The target process must have the same processor architecture as the Docker Windows container it is running on.
-    
-   Setting the target to a remote container via SSH is currently unavailable and can only be done using a Docker daemon.
-    
-    ***To set the target to a remote container running a process via a [Docker daemon](https://docs.docker.com/engine/reference/commandline/dockerd/)***
-    1. Specify the daemon address (i.e. via TCP, IP, etc.) under **Docker host (Optional)** and click the refresh link. 
-
-    1. Select a running container to attach to after connecting to the daemon successfully and choose OK.
-    
-4. Choose the corresponding container process from the list of **Available processes** and select **Attach** to start debugging your C# container process.
-
-    ![Completed Docker Attach Menu](../debugger/media/docker-attach-complete-windows.png "Completed Windows Docker Attach Menu")
-    
-
-5.	Choose the corresponding container process from the list of available processes and choose **Attach** to start debugging your C# container process.
-
+Starting in Visual Studio 2019, you can attach the Visual Studio debugger to a process running on a Docker container. For a Linux .NET Core Docker container, see [Attach to a process running on a Linux Docker container](../debugger/attach-to-process-running-in-docker-container.md#attach-to-a-process-running-on-a-linux-docker-container). For a Windows Docker container, see [Attach to a process running on a Windows Docker container](../debugger/attach-to-process-running-in-docker-container.md#attach-to-a-process-running-on-a-windows-docker-container).
 
 ::: moniker-end
 
@@ -254,11 +187,13 @@ To quickly select a running process to attach to, in Visual Studio, type **Ctrl*
 |Scenario|Debug method|Process name|Notes and links|
 |-|-|-|-|
 |Remote debug ASP.NET 4 or 4.5 on an IIS server|Use remote tools and **Attach to Process**|*w3wp.exe*|See [Remote debugging ASP.NET on a remote IIS computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md)|
-|Remote debug ASP.NET Core on an IIS server|Use remote tools and **Attach to Process**|*w3wp.exe* or *dotnet.exe*|Starting in .NET Core 3, the *w3wp.exe* process is used for the default [in-app hosting model](/aspnet/core/host-and-deploy/aspnet-core-module?view=aspnetcore-3.1#hosting-models). For app deployment, see [Publish to IIS](/aspnet/core/host-and-deploy/iis/). For more detailed information, see [Remote debugging ASP.NET Core on a remote IIS computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-computer.md#BKMK_attach)|
+|Remote debug ASP.NET Core on an IIS server|Use remote tools and **Attach to Process**|*w3wp.exe* or *dotnet.exe*|Starting in .NET Core 3, the *w3wp.exe* process is used for the default [in-app hosting model](/aspnet/core/host-and-deploy/aspnet-core-module?view=aspnetcore-3.1&preserve-view=true#hosting-models). For app deployment, see [Publish to IIS](/aspnet/core/host-and-deploy/iis/). For more detailed information, see [Remote debugging ASP.NET Core on a remote IIS computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-computer.md#BKMK_attach)|
 |Debug client-side script on a local IIS server, for supported app types |Use **Attach to Process**|*chrome.exe*, *MicrosoftEdgeCP.exe*, or *iexplore.exe*|Script debugging must be enabled. For Chrome, you must also run Chrome in debug mode (type `chrome.exe --remote-debugging-port=9222` from a command line) and select **JavaScript (Chrome)** in the **Attach to** field.|
 |Debug a C#, Visual Basic, or C++ app on the local machine|Use either standard debugging (**F5**) or **Attach to Process**|*\<appname>.exe*|In most scenarios, use standard debugging and not **Attach to Process**.|
 |Remote debug a Windows desktop app|Remote tools|N/A| See [Remote debug a C# or Visual Basic app](../debugger/remote-debugging-csharp.md) or [Remote debug a C++ app](../debugger/remote-debugging-cpp.md)|
-|Debug .NET Core on Linux|Use **Attach to Process**|*dotnet.exe*|To use SSH, see [Remote debug .NET Core running on Linux using SSH](../debugger/remote-debugging-dotnet-core-linux-with-ssh.md). |
+|Debug .NET Core on Linux|Use **Attach to Process**|*dotnet.exe* or a unique process name|To use SSH, see [Remote debug .NET Core running on Linux using SSH](../debugger/remote-debugging-dotnet-core-linux-with-ssh.md). For containerized apps, see [Attach to a process running in a Docker container](../debugger/attach-to-process-running-in-docker-container.md#attach-to-a-process-running-on-a-linux-docker-container).|
+|Debug a containerized app|*dotnet.exe* or a unique process name|See [Attach to a process running in a Docker container](../debugger/attach-to-process-running-in-docker-container.md)|
+|Remote debug Python on Linux|Use **Attach to Process**|*debugpy*|See [Attach remotely from Python Tools](../python/debugging-python-code-on-remote-linux-machines.md#attach-remotely-from-python-tools)|
 |Debug an ASP.NET app on the local machine after you start the app without the debugger|Use **Attach to Process**|*iiexpress.exe*|This may be helpful to make your app load faster, such as (for example) when profiling. |
 |Debug other supported app types on a server process|If server is remote, use remote tools, and **Attach to Process**|*chrome.exe*, *iexplore.exe*, or other processes|If necessary, use Resource Monitor to help identify the process. See [Remote debugging](../debugger/remote-debugging.md).|
 |Remote debug a Universal Windows App (UWP), OneCore, HoloLens, or IoT app|Debug installed app package|N/A|See [Debug an installed app package](debug-installed-app-package.md) instead of using **Attach to Process**|
@@ -273,17 +208,23 @@ For remote debugging scenarios, you must have the source code (or a copy of the 
 In some local debugging scenarios, you can debug in Visual Studio with no access to the source if the correct symbol files are present with the app. By default, this requires a debug build. For more information, see [Specify symbol and source files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md).
 
 ## <a name="BKMK_Troubleshoot_attach_errors"></a> Troubleshoot attach errors
- When the debugger attaches to a running process, the process can contain one or more types of code. The code types the debugger can attach to are displayed and selected in the **Select Code Type** dialog box.
 
- Sometimes, the debugger can successfully attach to one code type, but not to another code type. This might occur if you are trying to attach to a process that is running on a remote computer. The remote computer might have remote debugging components installed for some code types but not for others. It can also occur if you try to attach to two or more processes for direct database debugging. SQL debugging supports attaching to a single process only.
+In some scenarios, the debugger may need help to correctly identify the type of code to debug. If the connection values are set correctly (you can view the correct process in the **Available processes** list), but the debugger fails to attach, try to select the most appropriate connection type in the **Connection type** list, which may be required, for example, if you are debugging a Linux or Python app. If you are using the Default connection type, then you can alternatively select the specific type of code to connect to, as described later in this section.
 
- If the debugger is able to attach to some, but not all, code types, you see a message identifying which types failed to attach.
+When the debugger attaches to a running process, the process can contain one or more types of code. The code types the debugger can attach to are displayed and selected in the [Select Code Type](../debugger/select-code-type-dialog-box.md) dialog box.
 
- If the debugger successfully attaches to at least one code type, you can proceed to debug the process. You will be able to debug only the code types that were successfully attached. The unattached code in the process will still run, but you won't be able to set breakpoints, view data, or perform other debugging operations on that code.
+Sometimes, the debugger can successfully attach to one code type, but not to another code type. Typically, this occurs when:
 
- If you want more specific information about why the debugger failed to attach to a code type, try to reattach to only that code type.
+- You try to attach to a process that is running on a remote computer. The remote computer might have remote debugging components installed for some code types but not for others.
+- You try to attach to two or more processes for direct database debugging. SQL debugging supports attaching to a single process only.
 
- **To obtain specific information about why a code type failed to attach:**
+If the debugger is able to attach to some, but not all, code types, you see a message identifying which types failed to attach.
+
+If the debugger successfully attaches to at least one code type, you can proceed to debug the process. You will be able to debug only the code types that were successfully attached. The unattached code in the process will still run, but you won't be able to set breakpoints, view data, or perform other debugging operations on that code.
+
+If you want more specific information about why the debugger failed to attach to a code type, try to reattach to only that code type.
+
+**To obtain specific information about why a code type failed to attach:**
 
 1. Detach from the process. On the **Debug** menu, select **Detach All**.
 

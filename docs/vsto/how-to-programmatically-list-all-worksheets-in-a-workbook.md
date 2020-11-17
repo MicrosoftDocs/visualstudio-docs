@@ -1,7 +1,8 @@
 ---
 title: "How to: Programmatically list all worksheets in a workbook"
+titleSuffix: ""
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: "how-to"
 dev_langs:
   - "VB"
   - "CSharp"

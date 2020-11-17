@@ -6,6 +6,7 @@ ms.author: cobey
 ms.date: 05/06/2018
 ms.technology: vs-ide-install
 ms.assetid: 26A0DE31-2FBF-4E1B-99FB-083111AA1680
+ms.topic: how-to
 ---
 
 # Creating and editing a custom EditorConfig file
@@ -45,7 +46,7 @@ EditorConfig also supports [Coding conventions](/visualstudio/ide/editorconfig-c
 
     Adding the item at the solution level automatically creates and nests it in a **Solution Items** folder:
 
-    ![Solution item displayed in solution pad](media/editorconfig-image1a.png)
+    ![Solution item displayed in Solution Window](media/editorconfig-image1a.png)
 
 4. Edit the file. For example:
 

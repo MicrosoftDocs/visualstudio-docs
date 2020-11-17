@@ -1,17 +1,17 @@
 ---
-title: "How to: Choose Collection Methods | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-helpviewer_keywords:
-  - "performance tools, choosing collection method"
-  - "profiling tools, choosing collection method"
-  - "performance collection methods"
-author: "mikejo5000"
-ms.author: "mikejo"
+title: Choose Collection Methods | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: how-to
+helpviewer_keywords: 
+  - performance tools, choosing collection method
+  - profiling tools, choosing collection method
+  - performance collection methods
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 monikerRange: 'vs-2017'
-ms.workload:
-  - "multiple"
+ms.workload: 
+  - multiple
 ---
 # How to: Choose collection methods
 

@@ -1,5 +1,6 @@
 ---
-title: Analyze load test results in Graphs view of Load Test Analyzer
+title: Analyze load test results - Graphs view (Load Test Analyzer)
+ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
 ms.topic: conceptual
 f1_keywords:

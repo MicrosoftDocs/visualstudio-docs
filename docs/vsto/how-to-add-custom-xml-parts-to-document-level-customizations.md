@@ -1,7 +1,8 @@
 ---
 title: "How to: Add custom XML parts to document-level customizations"
+titleSuffix: ""
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: "how-to"
 dev_langs:
   - "VB"
   - "CSharp"

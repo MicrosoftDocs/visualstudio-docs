@@ -3,7 +3,7 @@ title: "Expected 'while' | Microsoft Docs"
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows
 ms.technology: vs-javascript
-ms.topic: reference
+ms.topic: error-reference
 f1_keywords: 
   - "VS.WebClient.Help.SCRIPT1024"
 dev_langs: 
@@ -23,5 +23,5 @@ You did not include the `while` condition in a `do...while` loop. A **do** state
 - Include the `while` test statement after the closing curly brace.  
   
 ## See also  
- [while Statement](../../javascript/reference/while-statement-javascript.md)   
- [Controlling Program Flow](../../javascript/controlling-program-flow-javascript.md)
+ [while Statement](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/while)   
+ [Controlling Program Flow](https://developer.mozilla.org/docs/Web/JavaScript/Guide/Control_flow_and_error_handling)

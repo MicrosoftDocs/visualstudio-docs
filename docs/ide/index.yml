@@ -74,7 +74,7 @@ landingContent:
           - text: Python
             url: ../python/tutorial-working-with-python-in-visual-studio-step-00-installation.md
           - text: JavaScript
-            url: /visualstudio/javascript/tutorial-nodejs
+            url: ../javascript/tutorial-nodejs.md
           - text: F#
             url: /dotnet/fsharp/get-started/get-started-visual-studio
 
@@ -87,3 +87,5 @@ landingContent:
             url: ../ide/whats-new-visual-studio-2019.md
           - text: What's new in Visual Studio 2017
             url: ../ide/whats-new-visual-studio-2017.md
+          - text: What's new in Visual Studio docs
+            url: ../ide/whats-new-visual-studio-docs.md

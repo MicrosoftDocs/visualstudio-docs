@@ -1,11 +1,13 @@
 ---
 title: Monitor GPU utilization
+description: Learn about GPU utilization. Specifically, learn how to monitor GPU utilization of remote Linux machines.
+ms.custom: SEO-VS-2020
 author: jillre
 ms.author: jillfra
 manager: jillfra
 monikerRange: vs-2017
 ms.date: 11/13/2017
-ms.topic: conceptual
+ms.topic: how-to
 ms.workload:
   - "multiple"
 ---

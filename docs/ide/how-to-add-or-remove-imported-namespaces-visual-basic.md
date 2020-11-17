@@ -1,7 +1,8 @@
 ---
-title: 'How to: Add or remove imported namespaces (Visual Basic)'
+title: Add or remove imported namespaces (Visual Basic)
+ms.custom: SEO-VS-2020
 ms.date: 06/21/2017
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - adding imported namespaces
 - removing imported namespaces

@@ -1,5 +1,7 @@
 ---
 title: Build Page, Project Designer (C#)
+description: Learn how to use the Build page of the Project Designer in Visual Studio to specify the project's build configuration properties.
+ms.custom: SEO-VS-2020
 ms.date: 06/20/2017
 ms.technology: vs-ide-compile
 ms.topic: reference
@@ -9,8 +11,8 @@ helpviewer_keywords:
 - Build options [C#]
 - Project Designer, Build page
 ms.assetid: 77ff1bfc-d633-4634-ba29-9afdb6d7e362
-author: TerryGLee
-ms.author: tglee
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
 - dotnet

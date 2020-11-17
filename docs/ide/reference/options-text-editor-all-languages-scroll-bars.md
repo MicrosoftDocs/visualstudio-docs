@@ -63,7 +63,7 @@ Select whether the vertical scroll bar shows the following annotations:
 
 Try it out by opening a large code file and replacing some text that occurs in several places in the file. The scroll bar shows you the effect of the replacements, so you can back out your changes if you replaced something you shouldn't have.
 
-See the [Enhanced scroll bar](https://blogs.msdn.microsoft.com/cdnstudents/2014/01/21/visual-studio-tips-and-tricks-enhanced-scroll-bar/) blog post on what various colors and symbols mean when editing code.
+See the [Enhanced scroll bar](/archive/blogs/cdnstudents/visual-studio-tips-and-tricks-enhanced-scroll-bar) blog post on what various colors and symbols mean when editing code.
 
 ## Behavior
 

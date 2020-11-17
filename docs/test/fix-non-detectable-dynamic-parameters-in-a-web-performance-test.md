@@ -1,11 +1,12 @@
 ---
-title: Fix non-detectable dynamic parameters in web performance test
+title: Fix non-detectable dynamic parameters (web perf test)
+ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
-ms.topic: conceptual
-helpviewer_keywords:
-- walkthroughs, load tests
-- load tests, walkthroughs
-- load tests, correlating dynamic parameters
+ms.topic: how-to
+helpviewer_keywords: 
+  - walkthroughs, load tests
+  - load tests, walkthroughs
+  - load tests, correlating dynamic parameters
 ms.assetid: 92dff25c-36ee-4135-acdd-315c4962fa11
 author: mikejo5000
 ms.author: mikejo

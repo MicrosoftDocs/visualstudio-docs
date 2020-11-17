@@ -1,5 +1,7 @@
 ---
 title: Csc Task | Microsoft Docs
+description: This article describes the MSBuild Csc task, which wraps the C# compiler, csc.exe, and produces .exe, .dll, or .netmodule files.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -76,9 +78,7 @@ The following table describes the parameters of the `Csc` task.
 | `Win32Manifest` | Optional `String` parameter.<br /><br /> Specifies the Win32 manifest to be included. |
 | `Win32Resource` | Optional `String` parameter.<br /><br /> Inserts a Win32 resource (*.res*) file in the output file. For more information, see [-win32res (C# compiler options)](/dotnet/csharp/language-reference/compiler-options/win32res-compiler-option). |
 
-## Remarks
-
-In addition to the parameters listed above, this task inherits parameters from the `Microsoft.Build.Tasks.ManagedCompiler` class, which inherits from the <xref:Microsoft.Build.Tasks.ToolTaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.ToolTask> class. For a list of these additional parameters and their descriptions, see [ToolTaskExtension base class](../msbuild/tooltaskextension-base-class.md).
+[!INCLUDE [ToolTaskExtension arguments](includes/tooltaskextension-base-params.md)]
 
 ## Example
 

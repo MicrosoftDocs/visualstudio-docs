@@ -3,7 +3,7 @@ title: "Array length must be a finite positive integer | Microsoft Docs"
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows
 ms.technology: vs-javascript
-ms.topic: reference
+ms.topic: error-reference
 f1_keywords: 
   - "VS.WebClient.Help.SCRIPT5029"
 dev_langs: 
@@ -36,4 +36,4 @@ You are calling the **Array** constructor with an argument that is not a whole n
      There is no upper limit for the size of an array, other than the maximum integer value (approximately 4 billion).  
   
 ## See also  
- [Using Arrays](../../javascript/advanced/using-arrays-javascript.md)
+ [Using Arrays](https://developer.mozilla.org/docs/Learn/JavaScript/First_steps/Arrays)

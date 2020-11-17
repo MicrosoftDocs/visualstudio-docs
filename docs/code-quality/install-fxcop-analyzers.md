@@ -1,14 +1,16 @@
 ---
 title: Install FxCop analyzers
 ms.date: 08/03/2018
-ms.topic: conceptual
+description: Learn how to install FxCop analyzers in Visual Studio. See how to install these analyzers either as a NuGet package or as a VSIX extension.
+ms.custom: SEO-VS-2020
+ms.topic: how-to
 helpviewer_keywords:
-- fxcop analyzers
+  - fxcop analyzers
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
 ms.workload:
-- dotnet
+  - dotnet
 ---
 # Install FxCop analyzers in Visual Studio
 
@@ -53,7 +55,7 @@ If you're using an older version of Visual Studio 2019, install the package usin
 
 ### Custom installation
 
-For custom installation, for example to specify a different version of the package, select the ellipsis (...) button on the project's Code Analysis properties page. This button opens the NuGet package manager with "Microsoft.CodeAnalysis.FxCopAnalyzers" as the search string.
+For custom installation, for example, to specify a different version of the package, select the ellipsis (...) button on the project's Code Analysis properties page. This button opens the NuGet package manager with "Microsoft.CodeAnalysis.FxCopAnalyzers" as the search string.
 
 ![Install custom FxCop analyzers package from properties page in Visual Studio](media/install-fxcop-properties-page-ellipsis.png)
 
@@ -66,8 +68,9 @@ Use the following guidelines to determine which version of the FxCop analyzers p
 
 | Visual Studio version | FxCop analyzer package version |
 | - | - |
-| Visual Studio 2019 (all versions)<br />Visual Studio 2017 version 15.8 and later | [latest](https://www.nuget.org/packages/Microsoft.CodeAnalysis.FxCopAnalyzers/) |
-| Visual Studio 2017 version 15.5 to 15.7 | [2.6.3](https://www.nuget.org/packages/Microsoft.CodeAnalysis.FxCopAnalyzers/2.6.3) |
+| Visual Studio 2019 (all versions) | [latest](https://www.nuget.org/packages/Microsoft.CodeAnalysis.FxCopAnalyzers/) |
+| Visual Studio 2017 version 15.9 | [2.9.10](https://www.nuget.org/packages/Microsoft.CodeAnalysis.FxCopAnalyzers/2.9.10) |
+| Visual Studio 2017 version 15.5 to 15.8 | [2.6.4](https://www.nuget.org/packages/Microsoft.CodeAnalysis.FxCopAnalyzers/2.6.4) |
 | Visual Studio 2017 version 15.3 to 15.4 | [2.3.0-beta1](https://www.nuget.org/packages/Microsoft.CodeAnalysis.FxCopAnalyzers/2.3.0-beta1) |
 | Visual Studio 2017 version 15.0 to 15.2 | [2.0.0-beta2](https://www.nuget.org/packages/Microsoft.CodeAnalysis.FxCopAnalyzers/2.0.0-beta2) |
 | Visual Studio 2015 update 2 and 3 | [1.2.0-beta2](https://www.nuget.org/packages/Microsoft.CodeAnalysis.FxCopAnalyzers/1.2.0-beta2) |

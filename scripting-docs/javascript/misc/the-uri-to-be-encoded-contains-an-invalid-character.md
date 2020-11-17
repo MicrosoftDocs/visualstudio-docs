@@ -3,7 +3,7 @@ title: "The URI to be encoded contains an invalid character | Microsoft Docs"
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows
 ms.technology: vs-javascript
-ms.topic: reference
+ms.topic: error-reference
 f1_keywords: 
   - "VS.WebClient.Help.SCRIPT5024"
 dev_langs: 
@@ -27,5 +27,5 @@ You attempted to encode a string as a URI (Uniform Resource Identifier), but it 
     ```  
   
 ## See also  
- [encodeURI Function](../../javascript/reference/encodeuri-function-javascript.md)   
- [encodeURIComponent Function](../../javascript/reference/encodeuricomponent-function-javascript.md)
+ [encodeURI Function](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/encodeuri)   
+ [encodeURIComponent Function](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/encodeuricomponent)

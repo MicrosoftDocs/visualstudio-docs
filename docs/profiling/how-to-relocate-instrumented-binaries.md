@@ -1,20 +1,20 @@
 ---
-title: "How to: Relocate Instrumented Binaries | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-f1_keywords:
-  - "vs.performance.property.binaries"
-helpviewer_keywords:
-  - "binaries, instrumented"
-  - "instrumentation, instrumented binaries"
-  - "instrumented binaries and relocating"
-  - "profiling tools, instrumented binaries"
-author: "mikejo5000"
-ms.author: "mikejo"
+title: Relocate Instrumented Binaries | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: how-to
+f1_keywords: 
+  - vs.performance.property.binaries
+helpviewer_keywords: 
+  - binaries, instrumented
+  - instrumentation, instrumented binaries
+  - instrumented binaries and relocating
+  - profiling tools, instrumented binaries
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 monikerRange: 'vs-2017'
-ms.workload:
-  - "multiple"
+ms.workload: 
+  - multiple
 ---
 # How to: Relocate instrumented binaries
 

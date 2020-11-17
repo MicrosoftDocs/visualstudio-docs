@@ -1,5 +1,7 @@
 ---
 title: MSBuild Advanced Concepts | Microsoft Docs
+description: See links to articles that describe how to use advanced techniques to improve builds that you run by using MSBuild.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -30,3 +32,4 @@ The documents in this section describe how to use advanced techniques to improve
 
 - [MSBuild concepts](../msbuild/msbuild-concepts.md)
 - [Logging in MSBuild](../msbuild/logging-in-msbuild.md)
+- [How MSBuild builds projects](build-process-overview.md)

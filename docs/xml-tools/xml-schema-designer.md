@@ -1,7 +1,9 @@
 ---
 title: XML Schema Designer
+description: Learn about the XML Schema Designer (XSD Designer) in Visual Studio, a graphical tool that allows you to visualize a schema set at different levels of abstraction. 
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: overview
 ms.assetid: ffdf63ee-faa6-45b7-bbf9-a5644dc8aca2
 author: TerryGLee
 ms.author: tglee
