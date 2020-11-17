@@ -29,7 +29,7 @@ There are three ways to start using Git with Visual Studio to be more productive
 - [Clone an existing Git repository](#clone-an-existing-git-repository). If the code that you would like to work on is not on your machine, you can clone any existing remote repositories.
 
 > [!NOTE]
-> Visual Studio 2019 now offers a fully integrated GitHub account experience. Starting with [version 16.8](/visualstudio/releases/2019/release-notes/), you can add both GitHub and GitHub Enterprise accounts to your keychain. You’ll be able to add and leverage them just as you do with Microsoft accounts, which means that you’ll have an easier time accessing your GitHub resources across Visual Studio. For more information, see the [Work with GitHub accounts in Visual Studio](work-with-github-accounts.md) page.
+> Starting also with [version 16.8](/visualstudio/releases/2019/release-notes/), Visual Studio 2019 includes a fully integrated GitHub account experience. You can now add both GitHub and GitHub Enterprise accounts to your keychain. You’ll be able to add and leverage them just as you do with Microsoft accounts, which means that you’ll have an easier time accessing your GitHub resources across Visual Studio. For more information, see the [Work with GitHub accounts in Visual Studio](work-with-github-accounts.md) page.
 
 ## Create a new Git repository
 
