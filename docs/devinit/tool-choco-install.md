@@ -45,23 +45,40 @@ The `choco-install` tool sets a number of `choco` command-line arguments to ensu
 | **--skip-powershell** | Skip PowerShell - chocolateyInstall.ps1 won't be ran.                                              |
 
 ## Example usage
+Below are examples of how to run `choco-install` using a `.devinit.json`. 
 
+#### .devinit.json that will install packages listed in packages.config:
 ```json
 {
     "$schema": "https://json.schemastore.org/devinit.schema-3.0",
     "run": [
         {
-            "comments": "Example that will trigger the Default behavior of installing packages listed in a packages.config file.",
             "tool": "choco-install",
             "input": "packages.config",
-        },
+        }
+    ]
+}
+```
+
+#### .devinit.json that will install MongoDB:
+```json
+{
+    "$schema": "https://json.schemastore.org/devinit.schema-3.0",
+    "run": [
         {
-            "comments": "Example that will install the package 'mongodb'.",
             "tool": "choco-install",
             "input": "mongodb"
-        },
+        }
+    ]
+}
+```
+
+#### .devinit.json that will install a specific version of MongoDB:
+```json
+{
+    "$schema": "https://json.schemastore.org/devinit.schema-3.0",
+    "run": [
         {
-            "comments": "Example that will install the '4.2.7' version of 'mongodb'.",
             "tool": "choco-install",
             "input": "mongodb",
             "additionalOptions": "--version 4.2.7"
