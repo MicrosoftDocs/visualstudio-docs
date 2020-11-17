@@ -6,7 +6,7 @@ manager: cabuschl
 ms.assetid: 44a790d1-f37e-4be0-9023-af1b3fdfcd35
 ms.date: 11/17/2020
 ms.topic: conceptual
-description:  Learn about the Azure Community Support benefit included in selected Visual Studio subscriptions.
+description:  Learn about the Developer Community Support benefit included in selected Visual Studio subscriptions.
 ---
 
 # Azure Community Support forum in Visual Studio subscriptions
@@ -64,6 +64,6 @@ Not sure which subscription you're using?  Connect to [https://my.visualstudio.c
 ## Next steps
 Check out the other support resources available, including:
 - [Concierge Chat](vs-conceirge-chat.md)
-- [Microsoft Q&A](vs-microsoft-q-and-a.md)
+- [Microsoft Q&A](vs-microsoft-qa.md)
 - [Microsoft Tech Community](vs-microsoft-tech-community.md)
 - [Azure Community](vs-azure-community.md)
