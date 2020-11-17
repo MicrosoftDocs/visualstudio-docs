@@ -66,7 +66,7 @@ We'll start our exploration by creating an empty solution. After you get to know
    ![Blank Solution template in Visual Studio 2019](media/vs-2019/tutorial-projects-blank-solution-template.png)
 
     > [!TIP]
-    > If you don't see the **Blank Solution** template at the top of your list of search results, scroll down to see the **Other results based on your search** section of the list. It should appear there.
+    > If you have several workloads installed, the **Blank Solution** template might not appear at the top of your list of search results. Try scrolling to the **Other results based on your search** section of the list. It should appear there.
 
 4. Name the solution **QuickSolution**, and then choose **Create**.
 
