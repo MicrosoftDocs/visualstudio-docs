@@ -1,11 +1,6 @@
 ---
 title: Introduction to projects and solutions
-<<<<<<< HEAD
-description: Learn how to create a solution and a project in Visual Studio.
-ms.date: 02/24/2020
-=======
 ms.date: 11/17/2020
->>>>>>> e8a13978131f257d91ce37c5a2e0d153a4c400ef
 ms.technology: vs-ide-general
 ms.custom: [get-started, SEO-VS-2020]
 ms.topic: tutorial
