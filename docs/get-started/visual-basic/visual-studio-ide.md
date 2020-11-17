@@ -1,5 +1,7 @@
 ---
 title: Overview for Visual Basic developers
+description: Learn about using Visual Studio to to edit, debug, and build code, and then publish an app as a Visual Basic developer.
+ms.custom: SEO-VS-2020
 ms.date: 11/15/2018
 ms.technology: vs-ide-general
 ms.custom: get-started

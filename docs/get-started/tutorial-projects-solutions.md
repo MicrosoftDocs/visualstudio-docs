@@ -1,5 +1,7 @@
 ---
 title: Introduction to projects and solutions
+description: Learn how to create a solution and a project in Visual Studio.
+ms.custom: SEO-VS-2020
 ms.date: 02/24/2020
 ms.technology: vs-ide-general
 ms.custom: get-started

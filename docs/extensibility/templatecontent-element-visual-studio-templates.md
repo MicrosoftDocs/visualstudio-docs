@@ -1,5 +1,7 @@
 ---
 title: TemplateContent Element (Visual Studio Templates) | Microsoft Docs
+description: Learn about the TemplateContent element and how it specifies the contents of the template.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.technology: vs-ide-general
 ms.topic: reference
