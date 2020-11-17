@@ -98,7 +98,7 @@ If you are deploying a UWP app for testing on a device, see [Run UWP apps on a r
 
 ## Create an installer package (Windows desktop)
 
-If you require more a complex installation of a desktop application than [ClickOnce](how-to-publish-a-clickonce-application-using-the-publish-wizard.md) can provide, you can create a Windows Installer package (MSI or EXE installation file) or a custom bootstrapper.
+If you require more a complex installation of a desktop application, you can create a Windows Installer package (MSI or EXE installation file) or a custom bootstrapper.
 
 - An MSI-based installer package can be created using the [WiX Toolset Visual Studio 2017 Extension](https://marketplace.visualstudio.com/items?itemName=RobMensching.WixToolsetVisualStudio2017Extension). This is a command-line toolset.
 

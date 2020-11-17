@@ -20,14 +20,14 @@
   items:
   - name: .NET
     items:
-    - name: Deploy a .NET Core application with the Publish tool
-      href: /dotnet/core/deploying/deploy-with-vs
-    - name: Package a desktop app for Microsoft Store
-      href: /windows/msix/desktop/desktop-to-uwp-packaging-dot-net
     - name: Deploy a .NET Windows application using ClickOnce
       href: quickstart-deploy-using-clickonce-folder.md
     - name: Deploy a .NET Framework desktop app using ClickOnce
       href: how-to-publish-a-clickonce-application-using-the-publish-wizard.md
+    - name: Create an installer package (Windows desktop)
+      href: deploying-applications-services-and-components.md#create-an-installer-package-windows-desktop
+    - name: Package a desktop app for Microsoft Store
+      href: /windows/msix/desktop/desktop-to-uwp-packaging-dot-net
     - name: Build ClickOnce applications from the Command Line
       href: building-clickonce-applications-from-the-command-line.md
   - name: ASP.NET
