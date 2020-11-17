@@ -1,6 +1,6 @@
 ---
 title: Unit Testing
-description: Learn about the unit test tools you can use to give developers and testers a quick way to look for logic errors in the methods. 
+description: Learn about the unit test tools you can use to give developers and testers a quick way to look for logic errors in your code. 
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
