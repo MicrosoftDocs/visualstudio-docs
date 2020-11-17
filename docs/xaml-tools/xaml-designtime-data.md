@@ -1,7 +1,7 @@
 ---
 title: Use Design Time Data with the XAML Designer in Visual Studio
 description: Learn how to use design-time data in XAML.
-ms.date: 11/10/2020
+ms.date: 11/17/2020
 ms.topic: overview
 author: alihamie
 ms.author: tglee
