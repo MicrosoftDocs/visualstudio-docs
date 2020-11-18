@@ -4,7 +4,6 @@ description: Browsing and managing storage resources by using Server Explorer
 ms.custom: SEO-VS-2020
 author: ghogen
 manager: jillfra
-assetId: 658dc064-4a4e-414b-ae5a-a977a34c930d
 
 ms.workload: azure-vs
 ms.topic: conceptual
