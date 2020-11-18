@@ -35,7 +35,7 @@ There are three ways to start using Git with Visual Studio to be more productive
 
 If your code is not associated with Git, you can start by creating a new Git repository. To do so, select **Git** > **Create Git Repository** from the menu bar. Then, in the **Create a Git repository** dialog box, enter your information.
 
-:::image type="content" source="media/git-create-repository.png" alt-text="Screenshot of the Create a Git Repository dialog box in Visual Studio ":::
+:::image type="content" source="media/git-create-repository.png" alt-text="The Create a Git Repository dialog box in Visual Studio.":::
 
 The **Create a Git repository** dialog box makes it easy to push your new repository to GitHub. By default, your new repository is private, which means that you are the only one who can access it. If you uncheck the box, your repository will be public, which means that anyone on GitHub can view it.
 
@@ -48,7 +48,7 @@ You can choose to create a local-only Git repository by using the **Local only**
 
 Visual Studio includes a straightforward clone experience. If you know the URL of the repository that you would like to clone, you can paste the URL in the **Repository location** section and then choose the disk location you would like Visual Studio to clone to.
 
-:::image type="content" source="media/git-clone-repository.png" alt-text="Screenshot of the Clone a Git Repository dialog box in Visual Studio ":::
+:::image type="content" source="media/git-clone-repository.png" alt-text="The Clone a Git Repository dialog box in Visual Studio.":::
 
 If you don’t know the repository URL, Visual Studio makes it easy to browse to and then clone your existing GitHub or Azure DevOps repository.
 
@@ -70,7 +70,7 @@ Visual Studio adjusts its View based on which View file you load in Solution Exp
 
 You can toggle between the currently open View and the list of Views by using the **Switch Views** button in the Solution Explorer toolbar.
 
-:::image type="content" source="media/git-solution-explorer-views.png" alt-text="Screenshot of Solution Explorer with the Switch Views button selected in Visual Studio ":::
+:::image type="content" source="media/git-solution-explorer-views.png" alt-text="Solution Explorer with the Switch Views button selected in Visual Studio.":::
 
 ## Git Changes window
 
@@ -82,7 +82,7 @@ Git tracks file changes in your repo as you work, and separates the files in you
 
 As you do your work, Visual Studio keeps track of the file changes to your project in the **Changes** section of the **Git Changes** window.
 
-:::image type="content" source="media/git-changes-window.png" alt-text="Screenshot of the Git Changes window in Visual Studio ":::
+:::image type="content" source="media/git-changes-window.png" alt-text="The Git Changes window in Visual Studio.":::
 
 When you are ready to stage changes, click the **+** (plus) button on each file you want to stage, or right-click a file and then select **Stage**. You can also stage all your modified files with one click by using the stage all **+** (plus) button at the top of the **Changes** section.
 
