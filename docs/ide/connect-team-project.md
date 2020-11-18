@@ -45,7 +45,7 @@ To connect to a project:
 
 1. Open the **Connect** page by choosing the **Manage Connections** icon.
 
-   ![Manage Connections button in Team Explorer](media/team-explorer/manage-connections.png "Screenshot of the Team Explorer - Manage Connections button in Visual Studio.")
+   ![Manage Connections button in Team Explorer](media/team-explorer/manage-connections.png "The Team Explorer - Manage Connections button in Visual Studio.")
 
 1. On the **Connect** page, choose **Manage Connections** > **Connect to a project**.
 

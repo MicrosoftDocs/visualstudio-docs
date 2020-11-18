@@ -59,7 +59,7 @@ Simply invoke the refactorings by pressing **Ctrl+.** and selecting the action y
 
 [Visual Studio IntelliCode](/visualstudio/intellicode/) enhances your software development efforts by using artificial intelligence (AI). IntelliCode trains across 2,000 open-source projects on GitHub&mdash;each with over 100 stars&mdash;to generate its recommendations.
 
-![An animation of IntelliCode in Visual Studio 2019](media/vs-2019/IntelliCode.gif "An animation of IntelliCode in Visual Studio 2019.")
+![An animation of IntelliCode in Visual Studio 2019](media/vs-2019/IntelliCode.gif "IntelliCode in Visual Studio 2019.")
 
 Here are a few ways that Visual Studio IntelliCode can help enhance your productivity:
 
@@ -162,7 +162,7 @@ View the following video to learn more about how you can zero in with precise ta
 
 We've taken the once-exclusive C++ data breakpoints and adapted them for .NET Core applications.
 
-   ![An animation that shows the debug data breakpoints in Visual Studio 2019](media/vs-2019/debug-data-breakpoints.gif)
+   ![An animation that shows the debug data breakpoints in Visual Studio 2019](media/vs-2019/debug-data-breakpoints.gif "The debug data breakpoints in Visual Studio 2019.")
 
 So whether you're coding in C++ or .NET Core, data breakpoints can be a good alternative to just placing regular breakpoints. Data breakpoints are also great for scenarios such as finding where a global object is being modified or being added or removed from a list.
 
@@ -184,7 +184,7 @@ For more information, see the [Enhanced in Visual Studio 2019: Search for Object
 
 Get a snapshot of your app's execution in the cloud to see exactly what's happening. (This feature is available in Visual Studio Enterprise, only.)
 
-   ![An animation that shows the Snapshot Debugger in Visual Studio 2019 Enterprise](media/vs-2019/snapshot-debugger.gif "An animation that shows the Snapshot Debugger in Visual Studio 2019 Enterprise.")
+   ![An animation that shows the Snapshot Debugger in Visual Studio 2019 Enterprise](media/vs-2019/snapshot-debugger.gif "The Snapshot Debugger in Visual Studio 2019 Enterprise.")
 
 We've added support for targeting ASP.NET (Core and desktop) applications that run on an Azure VM. And, we've added support for applications that run in an Azure Kubernetes Service. The Snapshot Debugger can help you dramatically reduce the time it takes to resolve issues that occur in production environments.
 
