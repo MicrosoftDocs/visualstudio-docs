@@ -1,5 +1,6 @@
 ---
 title: Customize build debug tasks with JSON files
+description: Learn how to customize tasks to provide some configuration details to run and debug a codebase that Visual Studio doesn't recognize.
 ms.custom: SEO-VS-2020
 ms.date: 02/21/2018
 ms.topic: conceptual

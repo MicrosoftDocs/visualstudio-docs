@@ -1,5 +1,7 @@
 ---
 title: Create solutions and projects
+description: Learn how to solutions and projects in Visual Studio. 
+ms.custom: SEO-VS-2020
 ms.date: 02/06/2018
 ms.topic: how-to
 f1_keywords:
