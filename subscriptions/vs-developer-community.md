@@ -9,7 +9,7 @@ ms.topic: conceptual
 description:  Learn about the Developer Community Support benefit included in selected Visual Studio subscriptions.
 ---
 
-# Developer Community Support forum in Visual Studio subscriptions
+# Developer Community support forum in Visual Studio subscriptions
 Post questions, find answers and share your knowledge in the Developer Community forums.
 
 ## Access the Developer Community
