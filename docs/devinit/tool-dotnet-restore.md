@@ -39,15 +39,15 @@ Additional options are passed as-is to the dotnet restore command.
 The Default behavior of the `dotnet-restore` tool is to run 'dotnet restore' in the current directory.
 
 ## Example usage
+Below is an example of how to run `dotnet-restore` using a `.devinit.json`. 
 
+#### .devinit.json that will restore dependencies and tools of a project:
 ```json
 {
     "$schema": "https://json.schemastore.org/devinit.schema-3.0",
-    "comments": "A sample dot-devinit file that builds the 'kitchen sink'",
     "run": [
         {
             "tool": "dotnet-restore",
-            "comments": "Restores the dependencies and tools of a project using dotnet core.",
             "input": "C:\\app1\\app1.csproj"
         }
     ]
