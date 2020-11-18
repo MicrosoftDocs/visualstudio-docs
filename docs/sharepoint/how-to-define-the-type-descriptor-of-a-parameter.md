@@ -1,5 +1,7 @@
 ---
 title: "How to: Define the Type Descriptor of a Parameter | Microsoft Docs"
+description: Learn how to define the type descriptor of a parameter. A type descriptor contains properties that describe the data type of a parameter.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: how-to
 dev_langs:
