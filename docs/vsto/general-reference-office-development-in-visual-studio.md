@@ -1,5 +1,7 @@
 ---
 title: "General reference (Office development in Visual Studio)"
+description: Learn general reference information about Microsoft Office development projects in Visual Studio.
+ms.custom: SEO-VS-2020
 titleSuffix: ""
 ms.custom: "seodec18"
 ms.date: "08/14/2019"

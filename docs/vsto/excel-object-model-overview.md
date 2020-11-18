@@ -1,5 +1,7 @@
 ---
 title: "Excel Object model overview"
+description: Learn that you can interact with the objects provided by the Excel object model to develop solutions that use Microsoft Office Excel.
+ms.custom: SEO-VS-2020
 ms.date: "08/14/2019"
 ms.topic: "conceptual"
 dev_langs:
