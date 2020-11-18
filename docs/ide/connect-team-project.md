@@ -26,7 +26,7 @@ You can use the **Team Explorer** tool window to coordinate your code efforts wi
 
 ::: moniker-end
 
-![Team Explorer Home page in Visual Studio](media/team-explorer/team-explorer.png)
+![Team Explorer Home page in Visual Studio](media/team-explorer/team-explorer.png "The Team Explorer - Home page in Visual Studio.")
 
 ::: moniker range="vs-2017"
 
@@ -39,17 +39,17 @@ You can use the **Team Explorer** tool window to coordinate your code efforts wi
 
 Connect to a project or repository on the **Connect** page.
 
-![Connect page in Team Explorer](media/team-explorer/connect.png)
+![Connect page in Team Explorer](media/team-explorer/connect.png "The Team Explorer - Connect page in Visual Studio")
 
 To connect to a project:
 
 1. Open the **Connect** page by choosing the **Manage Connections** icon.
 
-   ![Manage Connections button in Team Explorer](media/team-explorer/manage-connections.png)
+   ![Manage Connections button in Team Explorer](media/team-explorer/manage-connections.png "Screenshot of the Team Explorer - Manage Connections button in Visual Studio.")
 
 1. On the **Connect** page, choose **Manage Connections** > **Connect to a project**.
 
-   ![Connect to a project in Team Explorer](media/team-explorer/connect-project.png)
+   ![Connect to a project in Team Explorer](media/team-explorer/connect-project.png "The Team Explorer - Connect to a Project option in Visual Studio.")
 
 > [!TIP]
 > If you want to open a project from a repo, see [Open a project from a repo](../get-started/tutorial-open-project-from-repo.md). If you want to create a new project or add users to a project, see [Create a project (Azure DevOps)](/azure/devops/organizations/projects/create-project) and [Add users to a project or team (Azure DevOps)](/azure/devops/organizations/security/add-users-team-project).
