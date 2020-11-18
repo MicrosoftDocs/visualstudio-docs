@@ -9,7 +9,7 @@ ms.topic: conceptual
 description:  Learn about the Developer Community Support benefit included in selected Visual Studio subscriptions.
 ---
 
-# Azure Community Support forum in Visual Studio subscriptions
+# Developer Community Support forum in Visual Studio subscriptions
 Post questions, find answers and share your knowledge in the Developer Community forums.
 
 ## Access the Developer Community
@@ -63,7 +63,7 @@ Not sure which subscription you're using?  Connect to [https://my.visualstudio.c
 
 ## Next steps
 Check out the other support resources available, including:
-- [Concierge Chat](vs-conceirge-chat.md)
+- [Concierge Chat](vs-concierge-chat.md)
 - [Microsoft Q&A](vs-microsoft-qa.md)
 - [Microsoft Tech Community](vs-microsoft-tech-community.md)
 - [Azure Community](vs-azure-community.md)
