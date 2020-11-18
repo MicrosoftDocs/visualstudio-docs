@@ -65,12 +65,12 @@ Availability of the Azure Community benefit depends on your subscription level a
 
 |                                          Subscription Level                                           |     Channels      |    Benefit    | Renewable? |
 |-------------------------------------------------------------------------------------------------------|-------------------|---------------|------------|
-|                           Visual Studio Enterprise (Standard), NFR<sup>1</sup>                            | VL, Azure, Retail |   One year    |    Yes     |
-|                           Visual Studio Enterprise with GitHub Enterprise                           | VL, Azure, Retail |   One year    |    Yes     |
-|                          Visual Studio Professional (Standard)                          | VL, Azure, Retail |   One year    |    Yes     |
-|                          Visual Studio Professional with GitHub Enterprise                          | VL, Azure, Retail |   One year    |    Yes     |
-|                              Visual Studio Test Professional (Standard)                               |    VL, Retail     |   One year    |    Yes     |
-|                                       MSDN Platforms (Standard)                                       |    VL, Retail     |   One year    |    Yes     |
+|                           Visual Studio Enterprise (Standard), NFR<sup>1</sup>                            | VL, Azure, Retail |   Available    |    Yes     |
+|                           Visual Studio Enterprise with GitHub Enterprise                           | VL, Azure, Retail |   Available    |    Yes     |
+|                          Visual Studio Professional (Standard)                          | VL, Azure, Retail |   Available    |    Yes     |
+|                          Visual Studio Professional with GitHub Enterprise                          | VL, Azure, Retail |   Available    |    Yes     |
+|                              Visual Studio Test Professional (Standard)                               |    VL, Retail     |   Available    |    Yes     |
+|                                       MSDN Platforms (Standard)                                       |    VL, Retail     |   Available    |    Yes     |
 | Visual Studio Enterprise (monthly cloud), Visual Studio Professional (monthly cloud)|        All        | Not available |     No     |
 
 <sup>1</sup>  *Includes:  Not for Resale (NFR), Microsoft FTE, Most Valuable Professional (MVP), Regional Director (RD), Visual Studio Industry Partner (VSIP), BizSpark, Imagine, Microsoft Certified Trainer (MCT)*
