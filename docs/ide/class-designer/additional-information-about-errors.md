@@ -1,5 +1,7 @@
 ---
 title: Class Designer errors
+description: Learn how to resolve Class Design errors by dragging the modified or relocated source code to the class diagram again to display it.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: troubleshooting
 f1_keywords:
