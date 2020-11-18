@@ -72,7 +72,7 @@ Not sure which subscription you're using?  Connect to [https://my.visualstudio.c
 
 ## Next steps
 Check out the other support resources available, including:
-- [Concierge Chat](vs-conceirge-chat.md)
+- [Concierge Chat](vs-concierge-chat.md)
 - [Developer Community](vs-developer-community.md)
 - [Microsoft Tech Community](vs-microsoft-tech-community.md)
 - [Azure Community](vs-azure-community.md)
