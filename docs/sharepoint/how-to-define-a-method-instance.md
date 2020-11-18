@@ -1,6 +1,6 @@
 ---
 title: "How to: Define a Method Instance | Microsoft Docs"
-description: Understand how to define a method instance. You must define at least one method instance for every method in your model.
+description: Understand how to define a method instance for a method in your business data connectivity (BDC) model.
 ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: how-to
