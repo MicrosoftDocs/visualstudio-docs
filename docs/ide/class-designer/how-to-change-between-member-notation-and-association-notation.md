@@ -1,5 +1,7 @@
 ---
 title: Change between member & association notation (Class Designer)
+description: Learn how to change the way the class diagram represents an association relationship between two types from member notation to association notation and vice versa.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:

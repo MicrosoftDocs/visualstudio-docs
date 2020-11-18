@@ -1,5 +1,7 @@
 ---
 title: Creating and Configuring Type Members (Class Designer)
+description: Learn how to add members to types on a class diagram and configure those members in the Class Details window.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords:
