@@ -88,7 +88,7 @@ MSBuild.exe MyProj.proj -property:Configuration=Debug
 
 ### <a name="BKMK_Items"></a> Items
 
- Items are inputs into the build system and typically represent files. Items are grouped into item types based on user-defined item names. These item types can be used as parameters for tasks, which use the individual items to perform the steps of the build process.
+ Items are input into the build system and typically represent files. Items are grouped into item types based on user-defined item names. These item types can be used as parameters for tasks, which use the individual items to perform the steps of the build process.
 
  Items are declared in the project file by creating an element that has the name of the item type as a child of an [ItemGroup](../msbuild/itemgroup-element-msbuild.md) element. For example, the following code creates an item type named `Compile`, which includes two files.
 
