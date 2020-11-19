@@ -2,7 +2,7 @@
 title: "Tutorial: Open a project from a repo"
 description: "Learn how to open a project in a Git or Azure DevOps repository by using Visual Studio."
 ms.custom: "get-started"
-ms.date: 11/10/2020
+ms.date: 11/20/2020
 ms.technology: vs-ide-general
 ms.prod: visual-studio-windows
 ms.topic: tutorial
@@ -69,8 +69,15 @@ View the following animation to check the work that you completed in the previou
 
 ::: moniker range="vs-2019"
 
-> [!NOTE]
-> If you'd like to try out the new integrated Git experience in Visual Studio 2019, make sure to update to [**version 16.8**](/visualstudio/releases/2019/release-notes/). For more information, see the [New Git experience in Visual Studio](../ide/git-with-visual-studio.md) page.
+How you use Visual Studio 2019 to open a project from a GitHub repo depends on what version you use. Specifically, if you've installed version [**version 16.8**](/visualstudio/releases/2019/release-notes/) or later, there's a new [Git experience in Visual Studio](../ide/git-with-visual-studio.md) available that's more fully integrated than before.
+
+But no matter which version you have installed, you can always open a project from a GitHub repo by using Visual Studio.
+
+### In Visual Studio 2019 version 16.8 or later
+
+
+
+### In Visual Studio 2019 version 16.7 or earlier
 
 1. Open Visual Studio 2019.
 
