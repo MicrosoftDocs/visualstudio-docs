@@ -1,5 +1,7 @@
 ---
 title: VSTemplate Element (Visual Studio Templates) | Microsoft Docs
+description: Learn about the VSTemplate element and how it contains all the metadata about the project template, item template, or starter kit.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.technology: vs-ide-general
 ms.topic: reference

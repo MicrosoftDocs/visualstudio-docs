@@ -4,8 +4,6 @@ description: Learn how to publish a web project to an Azure website. This script
 ms.custom: SEO-VS-2020
 author: ghogen
 manager: jillfra
-assetId: 63cfaa2d-f04d-40dc-8677-345385c278d5
-
 ms.workload: azure-vs
 ms.topic: conceptual
 ms.date: 11/11/2016
