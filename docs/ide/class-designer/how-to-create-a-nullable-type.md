@@ -1,5 +1,7 @@
 ---
 title: 'How to: Create a Nullable Type (Class Designer)'
+description: Learn how to create a nullable type in Class Designer.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
