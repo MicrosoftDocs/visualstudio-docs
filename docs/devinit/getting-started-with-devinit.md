@@ -1,7 +1,7 @@
 ---
 title: Getting Started with devinit
 description: Getting started guide for devinit.
-ms.date: 11/13/2020
+ms.date: 11/18/2020
 ms.topic: reference
 author: andysterland
 ms.author: andster
