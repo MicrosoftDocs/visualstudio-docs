@@ -156,18 +156,18 @@ Now that our setup steps are in place, let's try this out in a live codespace us
 
 First, we'll create a codespace using Visual Studio:
 
-![Creating a codespace](media/eShopOnWeb-GHCSprompt.png)
+:::image type="content" source="media/eshoponweb-github-codespaces-prompt.png" alt-text="Creating a codespace":::
 
 Once the codespace creation has started, we can watch the progress of our setup process in `C:\.vsonline\.vsoshared\vmTerminal.dat`:
 
-![Watching setup progress](media/eShopOnWeb-WatchingProgress.png)
+:::image type="content" source="media/eshoponweb-watching-progress.png" alt-text="Watching setup progress":::
 
 Once it's complete, let's run the app via `Web.csproj` to make sure everything is working correctly:
 
-![Running the project](media/eShopOnWeb-csproj.png)
+:::image type="content" source="media/eshoponweb-csproj.png" alt-text="Running the project":::
 
 After the app builds and starts, we can see the shop in our web browser:
 
-![Viewing the site](media/eShopOnWeb-live.png)
+:::image type="content" source="media/eshoponweb-live.png" alt-text="Viewing the site":::
 
 So, our setup process worked correctly and we're now ready to develop in the eShopOnWeb project!
