@@ -1,5 +1,7 @@
 ---
 title: Change the startup experience
+description: Learn about customizing your startup experience so Visual Studios opens with the tools that are most useful to you.
+ms.custom: SEO-VS-2020
 ms.date: 02/01/2017
 ms.topic: conceptual
 f1_keywords:
