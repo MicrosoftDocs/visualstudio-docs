@@ -338,7 +338,7 @@ Output:
 
 ## MSBuild TargetFramework and TargetPlatform functions
 
-MSBuild defines several functions for handling [TargetFramework and TargetPlatform properties](msbuild-target-framework-and-target-platform.md).
+MSBuild 16.7 and higher define several functions for handling [TargetFramework and TargetPlatform properties](msbuild-target-framework-and-target-platform.md).
 
 |Function signature|Description|
 |------------------------|-----------------|
