@@ -8,7 +8,6 @@ ms.author: ghogen
 ms.topic: "include"
 ms.date: 05/21/2018
 ms.custom: "include file"
-
 ---
 
 1. In the Visual Studio menu, select **File** > **New** > **Project**.
