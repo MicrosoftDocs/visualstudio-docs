@@ -1,6 +1,6 @@
 ---
 title: Creating Custom Editors and Designers | Microsoft Docs
-description: "The Visual Studio IDE hosts different types of editors: the core editor, custom editors, external editors, and designers. This article explains the types."
+description: Learn about the different types of editors that can by hosted by the Visual Studio IDE: the core editor, custom editors, external editors, and designers."
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
