@@ -1,7 +1,7 @@
 ---
 title: "How Bridge to Kubernetes works"
 ms.technology: vs-azure
-ms.date: 06/02/2020
+ms.date: 11/19/2020
 ms.topic: "conceptual"
 description: "Describes the processes for using Bridge to Kubernetes to connect your development computer to your Kubernetes cluster"
 keywords: "Bridge to Kubernetes, Docker, Kubernetes, Azure, containers"
@@ -100,6 +100,37 @@ When you disconnect from your cluster, by default, Bridge to Kubernetes will rem
 ## Diagnostics and logging
 
 When using Bridge to Kubernetes to connect to your cluster, diagnostic logs from your cluster are logged to your development computer's *TEMP* directory in the *Bridge to Kubernetes* folder.
+
+## Permissions
+
+Kubernetes provides Role-based Access Control (RBAC) to manage permissions for users and groups. For information, see the [Kubernetes documentation](https://kubernetes.io/docs/reference/access-authn-authz/rbac/) You can set the permissions for an RBAC-enabled cluster by creating a YAML file and using kubectl to apply it to the cluster. 
+
+To set permissions on the cluster, create or modify a YAML file such as *permissions.yml* like the following, using your own namespace for `<namespace>` and the subjects (users and groups) that need access.
+
+```yml
+kind: RoleBinding
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  name: bridgetokubernetes-<namespace>
+  namespace: development
+subjects:
+  - kind: User
+    name: jane.w6wn8.k8s.ginger.eu-central-1.aws.gigantic.io
+    apiGroup: rbac.authorization.k8s.io
+  - kind: Group
+    name: dev-admin
+    apiGroup: rbac.authorization.k8s.io
+roleRef:
+  kind: ClusterRole
+  name: admin
+  apiGroup: rbac.authorization.k8s.io
+```
+
+Apply the permissions by using the command:
+
+```cmd
+kubectl -n <namespace> apply -f <yaml file name>
+```
 
 ## Limitations
 
