@@ -1,5 +1,7 @@
 ---
 title: "How to: Customize a SharePoint Solution Package | Microsoft Docs"
+description: Use the Package Designer to make and customize a SharePoint solution package (.wsp). View or overwrite the packaged manifest file. Change the manifest template.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: how-to
 f1_keywords:

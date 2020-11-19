@@ -1,5 +1,7 @@
 ---
 title: 'How to: Create Inheritance Between Types (Class Designer)'
+description: Learn how to create an inheritance relationship between two types on a class diagram using Class Designer.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords:
