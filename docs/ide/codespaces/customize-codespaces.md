@@ -79,7 +79,7 @@ GitHub Codespaces support the following *devcontainer.json* properties. Setting 
 
 ## Customize with devinit
 
-[devinit](../../devinit/getting-started-with-devinit.md) is a command-line tool included in Windows codespaces that lets you install frameworks and tools into your environment. It can be run manually from a command prompt (`devinit -t require-dotnetcoresdk`) but its real power comes from creating a custom [*.devinit.json* ](../../devinit/devinit-json.md) file to uniformly configure a codespace whenever you create one.
+[devinit](../../devinit/getting-started-with-devinit.md) is a command-line tool included in Windows codespaces that lets you install frameworks and tools into your environment. It can be run manually from a command prompt (`devinit run -t require-dotnetcoresdk`) but its real power comes from creating a custom [*.devinit.json* ](../../devinit/devinit-json.md) file to uniformly configure a codespace whenever you create one.
 
 `devinit` includes a set of tools for installing specific items, such as SQL Server and the Azure CLI, and also running general package managers such as chocolatey, npm, and vcpkg. You can find the complete list of `devinit` tools in the [Available tools](../../devinit/devinit-tool-list.md) documentation.
 

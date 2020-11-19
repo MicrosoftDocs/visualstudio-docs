@@ -227,6 +227,21 @@ Starting in Visual Studio 2019 version 16.7, you can choose the **Edit** button 
 You can also check or uncheck the boxes of the parent groups in the hierarchy. This action creates a dynamic playlist that always updates the playlist based on the tests that are in that group. For example, if you place a check mark next to a class, any test added from that class becomes part of this playlist. If you delete a test from that class, it is removed from the playlist. You can learn more about the rules by saving the playlist with the Save button in the toolbar and opening the *.playlist* file that is created on your disk. This file lists all the rules and individual tests that make up a playlist.
 
 ![Playlist xml file](../test/media/vs-2019/test-explorer-playlist-xml-file.png)
+
+If you would like to make a playlist for traits use the format below. Make sure there is a space between your `TestCategory` name and the `[Value]`.
+```xml
+<Playlist Version="2.0">
+  <Rule Name="Includes" Match="Any">
+    <Rule Match="All">
+      <Property Name="Solution" />
+        <Rule Match="Any">
+            <Property Name="Trait" Value="TestCategory [Value]" />
+	    </Rule>
+	</Rule>
+  </Rule>
+</Playlist>
+```
+
 ::: moniker-end
 
 ::: moniker range=">=vs-2019"
