@@ -101,9 +101,9 @@ When you disconnect from your cluster, by default, Bridge to Kubernetes will rem
 
 When using Bridge to Kubernetes to connect to your cluster, diagnostic logs from your cluster are logged to your development computer's *TEMP* directory in the *Bridge to Kubernetes* folder.
 
-## Permissions
+## RBAC authorization
 
-Kubernetes provides Role-based Access Control (RBAC) to manage permissions for users and groups. For information, see the [Kubernetes documentation](https://kubernetes.io/docs/reference/access-authn-authz/rbac/) You can set the permissions for an RBAC-enabled cluster by creating a YAML file and using kubectl to apply it to the cluster. 
+Kubernetes provides Role-based Access Control (RBAC) to manage permissions for users and groups. For information, see the [Kubernetes documentation](https://kubernetes.io/docs/reference/access-authn-authz/rbac/) You can set the permissions for an RBAC-enabled cluster by creating a YAML file and using `kubectl` to apply it to the cluster. 
 
 To set permissions on the cluster, create or modify a YAML file such as *permissions.yml* like the following, using your own namespace for `<namespace>` and the subjects (users and groups) that need access.
 
