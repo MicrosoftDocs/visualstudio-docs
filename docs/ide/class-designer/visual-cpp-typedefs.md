@@ -1,5 +1,7 @@
 ---
 title: C++ Typedefs in Class Designer
+description: Learn about how Class Designer supports C++ typedef types declared with the keyword typedef.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 f1_keywords:
