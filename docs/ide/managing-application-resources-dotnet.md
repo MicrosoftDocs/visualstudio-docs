@@ -1,6 +1,6 @@
 ---
 title: Manage application resources (.NET)
-description: Learn about managing application resources files that are not part of the compilation process. 
+description: Learn how to manage application resources files that are not part of the compilation process. 
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
