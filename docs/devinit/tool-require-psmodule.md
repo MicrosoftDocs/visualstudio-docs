@@ -41,7 +41,7 @@ Additional options are passed directly to the [Install-Module](/powershell/modul
 
 The default behavior of the `require-psmodule` tool is to error as `input` is required.
 
-## Built-in Options
+### Built-in options
 
 The `require-psmodule` tool sets a number of `Install-Module` command line arguments to ensure that `Install-Module` can run headless. These arguments are listed below and documentation on them can be found in the [Install-Module](/powershell/module/powershellget/install-module?view=powershell-7&preserve-view=true).
 

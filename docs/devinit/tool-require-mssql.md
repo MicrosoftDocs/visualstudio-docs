@@ -43,7 +43,7 @@ Not used.
 
 The default behavior of the `require-mssql` tool is to install SQL server.
 
-### Built-in Options
+### Built-in options
 
 The `require-mssql` tool sets a number of installer command line arguments to ensure that the installer can run headless. These arguments are listed below and documentation on them can be found in the [SQL install documentation](/sql/database-engine/install-windows/install-sql-server-from-the-command-prompt?view=sql-server-ver15&preserve-view=true).
 
