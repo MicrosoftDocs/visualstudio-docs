@@ -1,5 +1,7 @@
 ---
 title: Changing the Text of a Menu Command | Microsoft Docs
+description: Learn how to change the text label of a menu command by using the IMenuCommandService service by reviewing this code example.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
