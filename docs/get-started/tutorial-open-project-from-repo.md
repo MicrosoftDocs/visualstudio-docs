@@ -37,13 +37,13 @@ If you haven't already installed Visual Studio, go to the [Visual Studio downloa
 
 1. Open Visual Studio 2017.
 
-1. From the top menu bar, choose **File** > **Open** > **Open from Source Control**.
+1. From the top menu bar, select **File** > **Open** > **Open from Source Control**.
 
    The **Team Explorer - Connect** pane opens.
 
     ![The Team Explorer window within the Visual Studio IDE](./media/open-proj-repo-team-explorer.png)
 
-1. In the **Local Git Repositories** section, choose **Clone**.
+1. In the **Local Git Repositories** section, select **Clone**.
 
     ![Choose Clone from the Local Git Repositories section](./media/open-proj-repo-local-git-repo-clone.png)
 
@@ -77,11 +77,11 @@ But no matter which version you have installed, you can always open a project fr
 
 1. Open Visual Studio 2019.
 
-1. On the start window, choose **Clone a repository**.
+1. On the start window, select **Clone a repository**.
 
    ![View the 'Create a new project' window](../ide/media/vs-2019/clone-repository.png "Screenshot of the Clone a Repository dialog")
 
-1. Enter or type the repository location, and then choose **Clone**.
+1. Enter or type the repository location, and then select **Clone**.
 
    <!--  ![View the 'Clone or checkout code' window](../get-started/media/vs-2019/clone-checkout-code-git-repo-dark.png) -->
 
@@ -98,11 +98,11 @@ But no matter which version you have installed, you can always open a project fr
 
 1. Open Visual Studio 2019.
 
-1. On the start window, choose **Clone or check out code**.
+1. On the start window, select **Clone or check out code**.
 
    ![View the 'Create a new project' window](../get-started/media/vs-2019/clone-checkout-code-dark.png)
 
-1. Enter or type the repository location, and then choose **Clone**.
+1. Enter or type the repository location, and then select **Clone**.
 
    ![View the 'Clone or checkout code' window](../get-started/media/vs-2019/clone-checkout-code-git-repo-dark.png)
 
@@ -122,7 +122,7 @@ But no matter which version you have installed, you can always open a project fr
 
 1. Open Visual Studio 2017.
 
-1. From the top menu bar, choose **File** > **Open** > **Open from Source Control**.
+1. From the top menu bar, select **File** > **Open** > **Open from Source Control**.
 
    The **Team Explorer - Connect** pane opens.
 
@@ -130,15 +130,15 @@ But no matter which version you have installed, you can always open a project fr
 
 1. Here are two ways to connect to your Azure DevOps repo:
 
-      - In the **Hosted Service Providers** section, choose **Connect...**.
+      - In the **Hosted Service Providers** section, select **Connect...**.
 
         ![The Hosted Service Providers section of the Team Explorer window within the Visual Studio IDE](./media/open-proj-repo-azure-devops.png)
 
-      - In the **Manage Connections** drop-down list, choose **Connect to a Project...**.
+      - In the **Manage Connections** drop-down list, select **Connect to a Project...**.
 
         ![The Manage Connections section of the Team Explorer window within the Visual Studio IDE](./media/open-proj-repo-azuredevops-manage-connections.png)
 
-1. In the **Connect to a Project** dialog box, choose the repo that you want to connect to, and then choose **Clone**.
+1. In the **Connect to a Project** dialog box, choose the repo that you want to connect to, and then select **Clone**.
 
       ![The "Connect to a Project" dialog box that's generated from Visual Studio](./media/open-proj-azure-devops-connect-cloud-clone.png)
 
@@ -159,17 +159,17 @@ But no matter which version you have installed, you can always open a project fr
 
 1. Open Visual Studio 2019.
 
-1. On the start window, choose **Clone or check out code**.
+1. On the start window, select **Clone or check out code**.
 
    ![View the 'Create a new project' window](../get-started/media/vs-2019/clone-checkout-code-dark.png)
 
-1. In the **Browse a repository** section, choose **Azure DevOps**.
+1. In the **Browse a repository** section, select **Azure DevOps**.
 
    ![View the 'Clone or check out code' window](../get-started/media/vs-2019/clone-checkout-code-git-repo-dark.png)
 
    If you see a sign-in window, sign in to your account.
 
-1. In the **Connect to a Project** dialog box, choose the repo that you want to connect to, and then choose **Clone**.
+1. In the **Connect to a Project** dialog box, choose the repo that you want to connect to, and then select **Clone**.
 
       ![The "Connect to a Project" dialog box that's generated from Visual Studio](./media/open-proj-azure-devops-connect-cloud-clone.png)
 
@@ -180,7 +180,7 @@ But no matter which version you have installed, you can always open a project fr
 
      ![The Team Explorer window in Visual Studio after clone is complete](./media/vs-2019/clone-complete-azure-devops.png)
 
-1. To view your folders and files, choose the **Show Folder View** link.
+1. To view your folders and files, select the **Show Folder View** link.
 
      ![The Solutions section of the Team Explorer window in Visual Studio after clone is complete](./media/vs-2019/show-folder-view-azure-devops.png)
 
