@@ -154,7 +154,7 @@ additionalContent:
         - title: Gaming
           links:
             - text: Game development with Unity
-              url: /visualstudio/gamedev/unity/get-started/visual-studio-tools-for-unity.md
+              url: /visualstudio/gamedev/unity/get-started/visual-studio-tools-for-unity
             - text: Game development with C++
               url: /windows/uwp/gaming/e2e
         - title: Other toolsets

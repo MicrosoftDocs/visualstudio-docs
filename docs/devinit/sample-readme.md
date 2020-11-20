@@ -20,7 +20,7 @@ The table below contains a list of all the currently available examples for usin
 |---------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|---|
 | [**All tools**](sample-all-tool.md)               | Example of using all the tools.                                                                                              |   |
 | [**eShopOnWeb**](sample-eshoponweb.md)            | Example of customizing the [dotnet-architecture/eshoponweb](https://github.com/dotnet-architecture/eShopOnWeb) app.          |   |
-| [**Private Preview**](sample-private-preview.md)  | Example of the customizations used in the GitHub Codespaces Visual Studio private beta.                                      |   |
+| [**Private beta**](sample-private-preview.md)     | Example of the customizations used in the GitHub Codespaces Visual Studio private beta.                                      |   |
 | [**Open CV**](sample-opencv.md)                   | Example of the customizations required by the OpenCV project.                                                                |   |
 | [**.NET Core Runtime**](sample-dotnet-runtime.md) | Example of the customizations required by the .NET Core Runtime [dotnet/runtime](https://github.com/dotnet/runtime) project. |   |
 | [**.NET Core App**](sample-dotnet-core.md)        | Example of a repository that uses devinit to install the required .NET Core SDK.                                             |   |

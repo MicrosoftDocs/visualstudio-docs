@@ -35,13 +35,14 @@ Not used. Ignored.
 The default behavior of the `windowsfeature-list` tool is to list the enable/disable state of all Windows features.
 
 ## Example usage
+Below is an example of how to run `windowsfeature-list` using a `.devinit.json`. 
 
+#### .devinit.json that will list the state of all Windows Features:
 ```json
 {
     "$schema": "https://json.schemastore.org/devinit.schema-3.0.json",
     "run": [
         {
-            "comments": "Lists the state of all Windows features.",
             "tool": "windowsfeature-list"
         }
     ]

@@ -3,8 +3,6 @@ title: Managing roles in Azure cloud services
 description: Learn how to add and remove roles in Azure cloud services with Visual Studio.
 author: ghogen
 manager: jillfra
-assetId: 5ec9ae2e-8579-4e5d-999e-8ae05b629bd1
-
 ms.workload: azure-vs
 ms.topic: how-to
 ms.date: 03/21/2017

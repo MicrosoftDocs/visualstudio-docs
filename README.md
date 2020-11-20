@@ -2,7 +2,7 @@
 
 Welcome! This repo contains source files for the Visual Studio technical documentation. The topics are published on [docs.microsoft.com](https://docs.microsoft.com/visualstudio).
 
-This repo was moved on June 23, 2017 from https://github.com/Microsoft/vsdocs. Traffic to the old URLs is redirected here.
+This repo was moved on June 23, 2017 from https://github.com/Microsoft/vsdocs.
 
 The documentation for Visual Basic and Visual C# is located in the [dotnet docs repo](https://github.com/dotnet/docs/tree/master/docs), and the Visual C++ documentation is located in the [C++ docs repo](https://github.com/MicrosoftDocs/cpp-docs).
 

@@ -1,5 +1,7 @@
 ---
 title: Bitflags Used by Specific Commands | Microsoft Docs
+description: Learn about the bitflags used by the Source Control Plug-in API, organized by the function that uses them.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

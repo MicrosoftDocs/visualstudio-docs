@@ -39,13 +39,14 @@ Not used.
 The Default behavior of the `require-vcpkg` tool is to install vcpkg, and add it to the PATH (Windows only).
 
 ## Example usage
+Below is an example of how to run `require-vcpkg` using a `.devinit.json`. 
 
+#### .devinit.json that will install vcpkg:
 ```json
 {
     "$schema": "https://json.schemastore.org/devinit.schema-3.0",
     "run": [
         {
-            "comments": "Installs vcpkg.",
             "tool": "require-vcpkg"
         }
     ]

@@ -1,5 +1,7 @@
 ---
 title: "Building ClickOnce Applications from the Command Line | Microsoft Docs"
+description: Learn how to build Visual Studio projects from the command line, which allows you to reproduce a build using an automated process.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:
@@ -18,9 +20,11 @@ ms.workload:
   - "multiple"
 ---
 # Build ClickOnce applications from the command line
+
 In [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)], you can build projects from the command line, even if they are created in the integrated development environment (IDE). In fact, you can rebuild a project created with [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] on another computer that has only the .NET Framework installed. This allows you to reproduce a build using an automated process, for example, in a central build lab or using advanced scripting techniques beyond the scope of building the project itself.
 
-## Use MSBuild to reproduce ClickOnce application deployments
+## Use MSBuild to reproduce .NET Framework ClickOnce application deployments
+
  When you invoke msbuild /target:publish at the command line, it tells the MSBuild system to build the project and create a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application in the publish folder. This is equivalent to selecting the **Publish** command in the IDE.
 
  This command executes *msbuild.exe*, which is on the path in the Visual Studio command-prompt environment.
@@ -33,7 +37,7 @@ In [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)]
 
 ## Create and build a basic ClickOnce application with MSBuild
 
-#### To create and publish a ClickOnce project
+### To create and publish a ClickOnce project
 
 1. Open Visual Studio and create a new project.
 
@@ -68,12 +72,26 @@ In [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)]
 5. Type `msbuild /target:publish`.
 
    The above steps will produce a full [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application deployment in a subfolder of your project named **Publish**. *CmdLineDemo.application* is the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment manifest. The folder *CmdLineDemo_1.0.0.0* contains the files *CmdLineDemo.exe* and *CmdLineDemo.exe.manifest*, the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application manifest. *Setup.exe* is the bootstrapper, which by default is configured to install the .NET Framework. The DotNetFX folder contains the redistributables for the .NET Framework. This is the entire set of files you need to deploy your application over the Web or via UNC or CD/DVD.
-   
+
 > [!NOTE]
 > The MSBuild system uses the **PublishDir** option to specify the location for output, for example `msbuild /t:publish /p:PublishDir="<specific location>"`.
 
+::: moniker range=">=vs-2019"
+
+## Build .NET ClickOnce applications from the command line
+
+Building .NET ClickOnce applications from the command line is a similar experience except, you need to provide an additional property for the publish profile on the MSBuild command line. The easiest way to create a publish profile is by using Visual Studio.  See [Deploy a .NET Windows application using ClickOnce](quickstart-deploy-using-clickonce-folder.md) for more information.
+
+Once you have the publish profile created, you can provide the pubxml file as a property on the msbuild command line. For example:
+
+```cmd
+    msbuild /t:publish /p:PublishProfile=<pubxml file> /p:PublishDir="<specific location>"
+```
+::: moniker-end
+
 ## Publish properties
- When you publish the application in the above procedures, the following properties are inserted into your project file by the Publish Wizard. These properties directly influence how the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application is produced.
+
+ When you publish the application in the above procedures, the following properties are inserted into your project file by the Publish Wizard or in the publish profile file for .NET Core 3.1, or later projects. These properties directly influence how the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application is produced.
 
  In *CmdLineDemo.vbproj* / *CmdLineDemo.csproj*:
 
@@ -97,21 +115,36 @@ In [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)]
 <BootstrapperEnabled>true</BootstrapperEnabled>
 ```
 
- You can override any of these properties at the command line without altering the project file itself. For example, the following will build the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application deployment without the bootstrapper:
+ For .NET Framework projects, you can override any of these properties at the command line without altering the project file itself. For example, the following will build the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application deployment without the bootstrapper:
 
 ```cmd
 msbuild /target:publish /property:BootstrapperEnabled=false
-```
+ ```
+
+::: moniker range=">=vs-2019"
+For .NET Core 3.1, or later, projects these settings are provided in the pubxml file.
 
  Publishing properties are controlled in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] from the **Publish**, **Security**, and **Signing** property pages of the **Project Designer**. Below is a description of the publishing properties, along with an indication of how each is set in the various property pages of the application designer:
 
+> [!NOTE]
+> For .NET Windows desktop projects, these settings are now found in the Publish Wizard
+::: moniker-end
+
 - `AssemblyOriginatorKeyFile` determines the key file used to sign your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application manifests. This same key may also be used to assign a strong name to your assemblies. This property is set on the **Signing** page of the **Project Designer**.
+::: moniker range=">=vs-2019"
+For .NET windows applications, this setting remains in the project file
+::: moniker-end
 
   The following properties are set on the **Security** page:
 
 - **Enable ClickOnce Security Settings** determines whether [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] manifests are generated. When a project is initially created, [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] manifest generation is off by default. The wizard will automatically turn this flag on when you publish for the first time.
 
 - **TargetZone** determines the level of trust to be emitted into your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application manifest. Possible values are "Internet", "LocalIntranet", and "Custom". Internet and LocalIntranet will cause a default permission set to be emitted into your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application manifest. LocalIntranet is the default, and it basically means full trust. Custom specifies that only the permissions explicitly specified in the base *app.manifest* file are to be emitted into the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application manifest. The *app.manifest* file is a partial manifest file that contains just the trust information definitions. It is a hidden file, automatically added to your project when you configure permissions on the **Security** page.
+-
+::: moniker range=">=vs-2019"
+> [!NOTE]
+> For .NET Core 3.1, or later, Windows desktop projects, these Security settings are not supported.
+::: moniker-end
 
   The following properties are set on the **Publish** page:
 
@@ -132,10 +165,18 @@ msbuild /target:publish /property:BootstrapperEnabled=false
 - `UpdateEnabled` indicates whether the application should check for updates.
 
 - `UpdateMode` specifies either Foreground updates or Background updates.
-
+::: moniker range=">=vs-2019"
+   For .NET Core 3.1, or later, projects, Background is not supported.  
+::: moniker-end
 - `UpdateInterval` specifies how frequently the application should check for updates.
+::: moniker range=">=vs-2019"
+   For .NET Core 3.1, or later, this setting is not supported.
+::: moniker-end
 
 - `UpdateIntervalUnits` specifies whether the `UpdateInterval` value is in units of hours, days, or weeks.
+::: moniker range=">=vs-2019"
+   For .NET Core 3.1, or later, this setting is not supported.
+::: moniker-end
 
 - `UpdateUrl` (not shown) is the location from which the application will receive updates. If specified, this value is inserted into the application manifest.
 
@@ -152,6 +193,7 @@ msbuild /target:publish /property:BootstrapperEnabled=false
 - `IsWebBootstrapper` determines whether the *setup.exe* bootstrapper works over the Web or in disk-based mode.
 
 ## InstallURL, SupportUrl, PublishURL, and UpdateURL
+
  The following table shows the four URL options for ClickOnce deployment.
 
 |URL option|Description|
@@ -162,6 +204,7 @@ msbuild /target:publish /property:BootstrapperEnabled=false
 |`UpdateURL`|Optional. Set this URL option if the update location is different than the `InstallURL`. For example, you could set the `PublishURL` to an FTP path and set the `UpdateURL` to a Web URL.|
 
 ## See also
+
 - <xref:Microsoft.Build.Tasks.GenerateBootstrapper>
 - <xref:Microsoft.Build.Tasks.GenerateApplicationManifest>
 - <xref:Microsoft.Build.Tasks.GenerateDeploymentManifest>

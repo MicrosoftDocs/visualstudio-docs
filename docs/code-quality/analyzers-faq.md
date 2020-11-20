@@ -1,6 +1,8 @@
 ---
 title: EditorConfig versus analyzers
 ms.date: 03/11/2019
+description: Learn about .NET Compiler Platform-based code analysis in Visual Studio. See answers to questions about EditorConfig files, rule sets, and other topics.
+ms.custom: SEO-VS-2020
 ms.topic: conceptual
 helpviewer_keywords:
 - analyzers, faq

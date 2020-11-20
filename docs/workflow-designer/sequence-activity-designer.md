@@ -1,5 +1,7 @@
 ---
 title: "Workflow Designer - Sequence Activity Designer"
+description: Learn how the Sequence activity contains an ordered collection of child activities that it executes in order.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:

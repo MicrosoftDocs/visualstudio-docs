@@ -32,8 +32,6 @@
   items: 
     - name: Customizing the look and feel of IDE
       href: customizing-the-ide.md
-    - name: Extending Visual Studio for Mac
-      href: extending-visual-studio-mac.md
 - name: Projects and Solutions
   items: 
     - name: Overview
@@ -171,7 +169,7 @@
         - name: Create a Multi-Container App with Docker Compose
           href: docker-multi-container.md
     - name: Unity Game Development
-      href: /visualstudio/gamedev/unity/get-started/visual-studio-tools-for-unity.md
+      href: /visualstudio/gamedev/unity/get-started/visual-studio-tools-for-unity
     - name: Mobile apps with Xamarin
       href: ./xamarin.md
 - name: Accessibility
