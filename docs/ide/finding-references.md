@@ -1,5 +1,7 @@
 ---
 title: Finding references in your code
+description: Learn about the Find All References command to find references to particular code elements in your code.  
+ms.custom: SEO-VS-2020
 ms.date: 09/26/2017
 ms.topic: conceptual
 helpviewer_keywords:
