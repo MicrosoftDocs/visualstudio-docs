@@ -1,5 +1,7 @@
 ---
 title: "Merging XML in Feature and Package Manifests | Microsoft Docs"
+description: Merge designer-generated and user-added XML code in feature and package manifests. Review merge exceptions, feature manifest elements, and package manifest elements.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
