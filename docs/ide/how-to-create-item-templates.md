@@ -1,6 +1,6 @@
 ---
 title: Create item templates
-description: Learn how to create an item template in Visual Studio by using the Export Template Wizard.
+description: Learn how to use the Export Template Wizard to create an item template in Visual Studio.
 ms.custom: SEO-VS-2020
 ms.date: 01/02/2018
 ms.topic: how-to

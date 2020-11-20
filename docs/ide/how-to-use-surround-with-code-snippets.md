@@ -1,6 +1,6 @@
 ---
 title: How to use surround-with code snippets | Microsoft Docs
-description: Learn how to use surround-with code snippets by accessing them through a keyboard shortcut, on the Edit menu, or on a right-click or context menu.
+description: Learn how to access surround-with code snippets through a keyboard shortcut, on the Edit menu, or on a right-click or context menu.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
