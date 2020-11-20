@@ -1,6 +1,6 @@
 ---
 title: Default keyboard shortcuts
-description: Learn about Visual Studio's default keyboard shortcuts that allow you to access a variety of commands and windows. 
+description: Learn about the default keyboard shortcuts in Visual Studio that allow you to access a variety of commands and windows. 
 ms.custom: SEO-VS-2020
 ms.date: 06/26/2017
 ms.topic: reference

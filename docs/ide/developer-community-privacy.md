@@ -1,6 +1,6 @@
 ---
 title: Private data for problem reports
-description: Learn about how to keep your private data more secure when you create problem reports on Developer Community.
+description: Learn how to keep your private data more secure when you create problem reports for the Developer Community to review.
 ms.custom: SEO-VS-2020
 ms.date: 06/21/2018
 ms.topic: conceptual

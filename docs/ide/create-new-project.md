@@ -1,6 +1,6 @@
 ---
 title: Create a new project
-description: Learn the steps you need to take to create a new project in Visual Studio.
+description: Learn how to create a new project in Visual Studio, step by step.
 ms.custom: SEO-VS-2020
 ms.date: 03/19/2019
 ms.topic: how-to
