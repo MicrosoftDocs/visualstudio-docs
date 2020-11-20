@@ -1,5 +1,7 @@
 ---
 title: COM Constants in Managed Code | Microsoft Docs
+description: Learn about the Managed Package Framework, which makes some standard COM constants available to managed code.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
