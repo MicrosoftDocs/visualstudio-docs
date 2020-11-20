@@ -1,6 +1,6 @@
 ---
 title: Adding a Language Server Protocol extension | Microsoft Docs
-description: Learn how to create a Visual Studio extension that integrates a language server based on the Language Server Protocol (LSP) into Visual Studio.
+description: Learn how to create a Visual Studio extension that integrates a language server based on the Language Server Protocol (LSP).
 ms.custom: SEO-VS-2020
 ms.date: 11/14/2017
 ms.topic: conceptual
