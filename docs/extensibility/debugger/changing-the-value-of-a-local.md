@@ -1,5 +1,7 @@
 ---
 title: Changing the Value of a Local | Microsoft Docs
+description: Learn about the process of changing the value of a local when a new value is typed in the value field of the Locals window.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:

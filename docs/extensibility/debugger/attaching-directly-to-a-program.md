@@ -1,5 +1,7 @@
 ---
 title: Attaching Directly to a Program | Microsoft Docs
+description: Learn how to debug programs in a process that is already running by using this procedure in the Visual Studio IDE.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:

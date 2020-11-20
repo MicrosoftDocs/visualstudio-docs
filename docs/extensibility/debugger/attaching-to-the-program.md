@@ -1,5 +1,7 @@
 ---
 title: Attaching to the Program | Microsoft Docs
+description: Learn how to attach the debugger to the program you want to debug after you registered your programs with the appropriate port.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:

@@ -1,5 +1,7 @@
 ---
 title: Control of Execution | Microsoft Docs
+description: Learn about stopping events, which means that the DE waits for a response from the user by means of the IDE.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
