@@ -69,7 +69,7 @@ View the following animation to check the work that you completed in the previou
 
 ::: moniker range="vs-2019"
 
-How you use Visual Studio 2019 to open a project from a GitHub repo depends on what version you use. Specifically, if you've installed version [**version 16.8**](/visualstudio/releases/2019/release-notes/) or later, there's a new [Git experience in Visual Studio](../ide/git-with-visual-studio.md) available that's more fully integrated than before.
+How you use Visual Studio 2019 to open a project from a GitHub repo depends on what version you have. Specifically, if you've installed version [**version 16.8**](/visualstudio/releases/2019/release-notes/) or later, there's a new, more fully integrated [Git experience in Visual Studio](../ide/git-with-visual-studio.md) available to you.
 
 But no matter which version you have installed, you can always open a project from a GitHub repo by using Visual Studio.
 
@@ -83,7 +83,7 @@ But no matter which version you have installed, you can always open a project fr
 
 1. Enter or type the repository location, and then select **Clone**.
 
-   <!--  ![View the 'Clone or checkout code' window](../get-started/media/vs-2019/clone-checkout-code-git-repo-dark.png) -->
+   ![View the 'Clone a repository' window](../ide/media/vs-2019/cclone-repository-enter-location.png "Screenshot of the Clone a Repository dialog where you enter a repo URL")
 
    Visual Studio opens the project from the repo.
 
