@@ -1,5 +1,7 @@
 ---
 title: "Walkthrough: Creating a Web Part for SharePoint | Microsoft Docs"
+description: Create a web part for SharePoint. Web parts let users directly change the content, appearance, and behavior of SharePoint site pages by using a browser.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: how-to
 dev_langs:
