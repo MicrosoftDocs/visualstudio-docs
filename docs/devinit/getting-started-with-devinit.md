@@ -1,7 +1,7 @@
 ---
 title: Getting Started with devinit
 description: Getting started guide for devinit.
-ms.date: 08/28/2020
+ms.date: 11/18/2020
 ms.topic: reference
 author: andysterland
 ms.author: andster
@@ -26,7 +26,9 @@ devinit is currently only available as part of GitHub Codespaces when using Visu
 
 The most important step is to define your 'development' environment in a [.devinit.json file](devinit-json.md). This file will be used by devinit to create your environment when you run `devinit init`.
 
-For this step, think about the instructions you'd give someone to get up and running with a project repository. For example, do they need to have SQL installed? A specific version of .NET Core? And so on. Then for each of those dependencies, look for a corresponding devinit tool in the [list of tools](devinit-tool-list.md) and add that to the repository's `.devinit.json` file. You can also see a selection of examples over in the [samples documentation](sample-readme.md).
+For this step, think about the instructions you'd give someone to get up and running with a project repository. For example, do they need to have SQL installed? A specific version of .NET Core? And so on. Then for each of those dependencies, look for a corresponding devinit tool in the [list of tools](devinit-tool-list.md) and add that to the repository's `.devinit.json` file.
+
+You can also see a selection of examples over in the [samples documentation](sample-readme.md), or check out the [tutorial](tutorial.md).
 
 ## Step 3: Enjoy!
 
