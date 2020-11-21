@@ -1,7 +1,7 @@
 ---
 title: windowsfeature-enable
 description: devinit tool windowsfeature-enable.
-ms.date: 08/28/2020
+ms.date: 11/20/2020
 ms.topic: reference
 author: andysterland
 ms.author: andster
@@ -34,10 +34,10 @@ None.
 
 ### Default behavior
 
-The Default behavior of the `windowsfeature-enable` tool is to error, as `input` is required.
+The default behavior of the `windowsfeature-enable` tool is to error as `input` is required.
 
 ## Example usage
-Below are examples of how to run `windowsfeature-enable` using a `.devinit.json`. 
+Below are examples of how to run `windowsfeature-enable` using a `.devinit.json`.
 
 #### .devinit.json that will install IIS:
 ```json
