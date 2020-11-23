@@ -1,6 +1,6 @@
 ---
 title: Customize the IDE
-description: Learn how to personalize the Visual Studio IDE in ways that best support your own development style and the requirements your style dictates.
+description: Learn how to personalize the Visual Studio IDE in ways that best support your own development style and requirements.
 ms.custom: SEO-VS-2020
 ms.date: 11/20/2017
 ms.topic: conceptual
