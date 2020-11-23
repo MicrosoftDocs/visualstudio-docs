@@ -1,5 +1,7 @@
 ---
 title: VSTest.Console.exe command-line options
+description: Learn about the VSTest.Console.exe command-line tool that runs tests. This article includes the General command-line options.
+ms.custom: SEO-VS-2020
 ms.date: 07/17/2020
 ms.topic: reference
 helpviewer_keywords:
