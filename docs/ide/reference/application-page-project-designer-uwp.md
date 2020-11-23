@@ -1,5 +1,7 @@
 ---
 title: Application property page for UWP apps
+description: Learn how to use the Application page to specify the Universal Windows Platform (UWP) project's assembly and package information, and target Windows 10 version.
+ms.custom: SEO-VS-2020
 ms.date: 01/23/2018
 ms.topic: reference
 f1_keywords:
