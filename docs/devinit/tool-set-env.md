@@ -1,7 +1,7 @@
 ---
 title: set-env
 description: devinit tool require-set-env.
-ms.date: 08/28/2020
+ms.date: 11/20/2020
 ms.topic: reference
 author: andysterland
 ms.author: andster
@@ -32,7 +32,7 @@ The `set-env` tool takes a single string as an input on the `input` property. Th
 
 | Action       | Input            | Description                                                                                                                                                              | Example             |
 |--------------|------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------|
-| **list all** | empty or omitted | List all the current environment variables.                                                                                                                              | `"input":""`        |
+| **list all** | empty or omitted | List all of the current environment variables.                                                                                                                           | `"input":""`        |
 | **list one** | string           | List the value of a specific environment variable by name.                                                                                                               | `"input":"foo"`     |
 | **add**      | string           | Sets the value of an environment variable as key value pair. Adds a new environment variable if not already present or set the value of an existing environment variable | `"input":"foo=bar"` |
 | **delete**   | string           | Deletes an existing environment variable by passing in an empty value string.                                                                                            | `"input":"foo="`    |
@@ -43,12 +43,16 @@ An `input` string can contain an environment variable expansion for example `%us
 
 Not used.
 
+### Default behavior
+
+The default behavior of the `set-env` tool is to list all of the current environment variables.
+
 ## Usage in a codespace
 
 If you're using a codespace, you can set environment variables used in the codespace through customizing the `remoteEnv` property in [`.devcontainer.json`](/visualstudio/codespaces/reference/configuring) file.
 
 ## Example usage
-Below are examples of how to run `set-env` using a `.devinit.json`. 
+Below are examples of how to run `set-env` using a `.devinit.json`.
 
 #### .devinit.json that will set an environment variable, `foo`, to value, `bar`:
 ```json

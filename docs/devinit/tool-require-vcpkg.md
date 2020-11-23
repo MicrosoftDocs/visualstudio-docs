@@ -1,7 +1,7 @@
 ---
 title: require-vcpkg
 description: devinit tool require-vcpkg.
-ms.date: 08/28/2020
+ms.date: 11/20/2020
 ms.topic: reference
 author: andysterland
 ms.author: andster
@@ -36,10 +36,10 @@ Not used.
 
 ### Default behavior
 
-The Default behavior of the `require-vcpkg` tool is to install vcpkg, and add it to the PATH (Windows only).
+The default behavior of the `require-vcpkg` tool is to install vcpkg, and add it to the `PATH`.
 
 ## Example usage
-Below is an example of how to run `require-vcpkg` using a `.devinit.json`. 
+Below is an example of how to run `require-vcpkg` using a `.devinit.json`.
 
 #### .devinit.json that will install vcpkg:
 ```json
