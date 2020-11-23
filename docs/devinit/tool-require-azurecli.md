@@ -1,7 +1,7 @@
 ---
 title: require-azurecli
 description: devinit tool require-azurecli.
-ms.date: 08/28/2020
+ms.date: 11/20/2020
 ms.topic: reference
 author: andysterland
 ms.author: andster
@@ -36,10 +36,10 @@ Not used.
 
 ### Default behavior
 
-The Default behavior of the `require-azurecli` tool is to install the latest version of the Azure CLI and add it to the PATH (Windows only).
+The default behavior of the `require-azurecli` tool is to install the latest version of the Azure CLI and add it to the `PATH`.
 
 ## Example usage
-Below is an example of how to run `require-azurecli` using a `.devinit.json`. 
+Below is an example of how to run `require-azurecli` using a `.devinit.json`.
 
 #### .devinit.json that will install the Azure CLI:
 ```json

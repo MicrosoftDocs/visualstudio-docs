@@ -1,7 +1,7 @@
 ---
 title: require-nodejs
 description: devinit tool require-nodejs.
-ms.date: 08/28/2020
+ms.date: 11/20/2020
 ms.topic: reference
 author: andysterland
 ms.author: andster
@@ -36,7 +36,7 @@ Additional configuration options can be passed in as a value of the `additionalO
 
 ### Default behavior
 
-The Default behavior of the `require-nodejs` tool is to install the latest LTS version of Node as detailed on the Node.JS [website](https://nodejs.org/en/download/).
+The default behavior of the `require-nodejs` tool is to install the latest LTS version of Node as detailed on the Node.JS [website](https://nodejs.org/en/download/).
 
 ## Example usage
 Below are examples of how to run `require-nodejs` using a `.devinit.json`. 
