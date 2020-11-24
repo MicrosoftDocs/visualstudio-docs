@@ -16,7 +16,7 @@ ms.workload:
 
 ## Overview
 
-.NET compiler platform (Roslyn) analyzers inspect your C# or Visual Basic code for code quality issues. You can enable or install these analyzers in one of the following ways:
+.NET compiler platform (Roslyn) analyzers inspect your C# or Visual Basic code for code quality and code style issues. You can enable or install these analyzers in one of the following ways:
 
 - **Enable from the .NET SDK**: Starting in Visual Studio 2019 16.8 and .NET 5.0, these analyzers are [included with the .NET SDK](/dotnet/fundamentals/code-analysis/overview). Analysis is enabled, by default, for projects that target .NET 5.0 or later. You can enable code analysis on projects that target earlier .NET versions by setting the `EnableNETAnalyzers` property to `true`. You can also disable code analysis for your project by setting `EnableNETAnalyzers` to `false`.
 
