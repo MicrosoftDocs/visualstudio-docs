@@ -21,7 +21,7 @@ ms.workload:
 - **Install as a NuGet package**: Alternatively, you can install these analyzers by installing the `Microsoft.CodeAnalysis.NetAnalyzers` [NuGet package](https://www.nuget.org/packages/Microsoft.CodeAnalysis.NetAnalyzers) on Visual Studio 2019. If you are on Visual Studio 2017, install the latest `2.9.x` version of the `Microsoft.CodeAnalysis.FxCopAnalyzers` [NuGet package](https://www.nuget.org/packages/Microsoft.CodeAnalysis.FxCopAnalyzers/).
 
 > [!NOTE]
-> It is recommended to enable the analyzers from the .NET SDK instead of installing the `Microsoft.CodeAnalysis.NetAnalyzers` [NuGet package](https://www.nuget.org/packages/Microsoft.CodeAnalysis.NetAnalyzers), when possible. Enabling the analyzers from the .NET SDK ensures that you automatically get the analyzer bug fixes and new analyzers as and when you update the SDK.
+> It is recommended that you enable the analyzers from the .NET SDK instead of installing the `Microsoft.CodeAnalysis.NetAnalyzers` [NuGet package](https://www.nuget.org/packages/Microsoft.CodeAnalysis.NetAnalyzers), when possible. Enabling the analyzers from the .NET SDK ensures that you automatically get the analyzer bug fixes and new analyzers as soon as you update the SDK.
 
 ## See also
 
