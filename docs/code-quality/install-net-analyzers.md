@@ -5,7 +5,7 @@ description: Learn how to enable .NET analyzers from the .NET SDK or install the
 ms.custom: SEO-VS-2020
 ms.topic: how-to
 helpviewer_keywords:
-  - net analyzers
+  - .NET analyzers
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
