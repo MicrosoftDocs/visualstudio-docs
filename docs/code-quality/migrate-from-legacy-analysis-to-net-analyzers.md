@@ -27,10 +27,14 @@ For more information on the differences between legacy analysis and source analy
 
 - [FAQ about .NET analyzers](../code-quality/net-analyzers-faq.md)
 
+## Migration
+
 To migrate to source analysis, [enable or install the .NET analyzers](install-net-analyzers.md). Like legacy analysis rule violations, source code analysis violations appear in the Error List window in Visual Studio. In addition, source code analysis violations also show up in the code editor as *squiggles* under the offending code. The color of the squiggle depends on the [severity setting](../code-quality/use-roslyn-analyzers.md#configure-severity-levels) of the rule. To see the status of rules ported to the new .NET analyzers, see [Ported and unported rules](../code-quality/fxcop-rule-port-status.md).
 
 > [!NOTE]
 > Prior to Visual Studio 2019 16.8 and .NET 5.0, these analyzers shipped as `Microsoft.CodeAnalysis.FxCopAnalyzers` [NuGet package](https://www.nuget.org/packages/Microsoft.CodeAnalysis.FxCopAnalyzers). Starting in Visual Studio 2019 16.8 and .NET 5.0, these analyzers are [included with the .NET SDK](/dotnet/fundamentals/code-analysis/overview). They are also available as `Microsoft.CodeAnalysis.NetAnalyzers` [NuGet package](https://www.nuget.org/packages/Microsoft.CodeAnalysis.NetAnalyzers). For more information, see [Migrate from FxCop analyzers to .NET analyzers](migrate-from-fxcop-analyzers-to-net-analyzers.md).
+
+## Configuration
 
 To learn more about how to configure the .NET analyzers:
 
