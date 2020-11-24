@@ -36,7 +36,7 @@ This refactoring applies to:
 
 2. Press **Enter** to accept the refactoring.
 
-   ![Convert Anonymous Type to Tuple](media/convert-anon-to-tuple-complete.png)
+   ![Convert Anonymous Type to Tuple accepted](media/convert-anon-to-tuple-complete.png)
 
 ## See also
 
