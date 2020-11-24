@@ -31,10 +31,10 @@ Please follow the below steps to migrate your project or solution from `Microsof
 
 2. [Enable or install .NET analyzers](install-net-analyzers.md)
 
-3. Enable additional rules: `Microsoft.CodeAnalysis.NetAnalyzers` is a much more conservative compared to `Microsoft.CodeAnalysis.FxCopAnalyzers`. Unlike FxCopAnalyzers package, it only has a few correctness rules which are [enabled by default as build warnings](/dotnet/fundamentals/code-analysis/overview#enabled-rules). You can [enable additional rules](/dotnet/fundamentals/code-analysis/overview#enable-additional-rules) by customizing the [AnalysisMode](/dotnet/core/project-sdk/msbuild-props#analysismode) MSBuild property. For example, setting the property to `AllEnabledByDefault` will enable all the applicable CA rules as build warnings by default.
+3. Enable additional rules: `Microsoft.CodeAnalysis.NetAnalyzers` is much more conservative compared to `Microsoft.CodeAnalysis.FxCopAnalyzers`. Unlike FxCopAnalyzers package, it only has a few correctness rules which are [enabled by default as build warnings](/dotnet/fundamentals/code-analysis/overview#enabled-rules). You can [enable additional rules](/dotnet/fundamentals/code-analysis/overview#enable-additional-rules) by customizing the [AnalysisMode](/dotnet/core/project-sdk/msbuild-props#analysismode) MSBuild property. For example, setting the property to `AllEnabledByDefault` will enable all the applicable CA rules as build warnings by default.
 
    ```xml
-    <PropertyGroup>
+   <PropertyGroup>
      <AnalysisMode>AllEnabledByDefault</AnalysisMode>
    </PropertyGroup>
    ```
