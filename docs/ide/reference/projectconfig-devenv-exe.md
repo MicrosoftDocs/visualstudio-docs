@@ -1,6 +1,6 @@
 ---
 title: -ProjectConfig (devenv.exe)
-description: Learn how to use the ProjectConfig devenv command-line switch to specify a project build configuration to be applied when you build, clean, rebuild, or deploy the project named in the /Project argument.
+description: Learn how to use the ProjectConfig devenv command-line switch to specify a project build configuration to be applied when you build, clean, rebuild, or deploy the project.
 ms.custom: SEO-VS-2020
 ms.date: 12/10/2018
 ms.topic: reference
