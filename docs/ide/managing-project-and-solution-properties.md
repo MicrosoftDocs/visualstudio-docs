@@ -2,8 +2,6 @@
 title: Manage project and solution properties
 description: Learn how to manage both the project properties and the solution properties in Visual Studio.
 ms.custom: SEO-VS-2020
-description: Learn how to 
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 author: TerryGLee
