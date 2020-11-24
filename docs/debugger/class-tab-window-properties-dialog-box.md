@@ -1,5 +1,7 @@
 ---
 title: "Class Tab, Window Properties Dialog Box | Microsoft Docs"
+description: Select the Class tab in Visual Studio, move focus to the Windows View window, select a window node, and choose View > Properties to see the Window Properties dialog box.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 helpviewer_keywords:

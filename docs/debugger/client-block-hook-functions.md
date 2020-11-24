@@ -1,5 +1,7 @@
 ---
 title: "Client Block Hook Functions | Microsoft Docs"
+description: Write a client block hook function to validate or report the contents of the data stored in _CLIENT_BLOCK blocks.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:
