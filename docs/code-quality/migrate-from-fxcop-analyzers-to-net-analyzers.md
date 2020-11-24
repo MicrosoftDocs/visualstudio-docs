@@ -42,7 +42,7 @@ Please follow the below steps to migrate your project or solution from `Microsof
 ## See also
 
 - [Source code analysis versus legacy analysis](net-analyzers-faq.md#whats-the-difference-between-legacy-fxcop-and-net-analyzers)
-- [Migrate from legacy analysis to .NET analyzers](net-analyzers-faq.md#whats-the-difference-between-legacy-fxcop-and-net-analyzers)
+- [Migrate from legacy analysis to .NET analyzers](migrate-from-legacy-analysis-to-net-analyzers.md)
 - [Enable or install .NET analyzers](install-net-analyzers.md)
 - [FAQ about .NET analyzers](net-analyzers-faq.md)
 - [Configure .NET analyzers](/dotnet/fundamentals/code-analysis/code-quality-rule-options)
