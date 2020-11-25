@@ -9,7 +9,6 @@ f1_keywords:
 - vs.toolsoptionspages.text_editor
 - VS.ToolsOptionsPages.Text_Editor.CSharp.Formatting
 - VS.ToolsOptionsPages.Text_Editor.CSharp.Outlining
-- 
 - VS.ToolsOptionsPages.Text_Editor.General
 - VS.ToolsOptionsPages.Text_Editor.PL/SQL
 - VS.ToolsOptionsPages.Text_Editor.PL/SQL.General
