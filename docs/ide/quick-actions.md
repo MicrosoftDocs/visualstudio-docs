@@ -1,5 +1,7 @@
 ---
 title: Quick Actions, light bulbs, and screwdrivers
+description: Learn how to use a single Quick Action to refactor, generate, or otherwise modify your code.
+ms.custom: SEO-VS-2020
 ms.date: 03/28/2018
 ms.topic: conceptual
 author: TerryGLee

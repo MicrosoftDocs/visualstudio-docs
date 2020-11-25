@@ -1,5 +1,7 @@
 ---
 title: A process has encountered an unrecoverable error
+description: Learn about the processes that might encounter unrecoverable errors during the normal operations of Visual Studio.
+ms.custom: SEO-VS-2020
 ms.date: 09/10/2020
 ms.topic: troubleshooting
 helpviewer_keywords:
