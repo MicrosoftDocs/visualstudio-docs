@@ -1,6 +1,6 @@
 ---
 title: "How to: Programmatically check spelling in worksheets"
-description: Learn that to check the spelling in a worksheet programmatically. The Spelling dialog box automatically appears if there are any incorrectly spelled words.
+description: Learn how you can programmatically check the spelling of words in a Microsoft Excel worksheet.
 ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "how-to"
