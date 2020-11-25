@@ -1,6 +1,6 @@
 ---
 title: Refactor code to replace var with an explicit type
-description: Learn how to use the screwdriver icon to replace var in a local variable expression with an explicit type.
+description: Learn how to use Quick Actions to replace var in a local variable expression with an explicit type.
 ms.custom: SEO-VS-2020
 ms.date: 05/15/2018
 ms.topic: reference
