@@ -1,5 +1,7 @@
 ---
 title: "Copy and paste shapes in Visio document programmatically"
+description: Learn how you can programmatically copy shapes on one page of a document and paste them into a new page in the same document.
+ms.custom: SEO-VS-2020
 titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "how-to"
