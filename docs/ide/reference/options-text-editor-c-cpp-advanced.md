@@ -1,5 +1,7 @@
 ---
 title: Options, Text Editor, C/C++, Advanced
+description: Learn how to use the Advanced page in the C/C++ section to change the behavior related to IntelliSense and the browsing database.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
