@@ -1,6 +1,6 @@
 ---
 title: "Additional resources to develop Office solutions"
-description: Learn about the additional resources that are available for you to use to develop Microsoft Office solutions.
+description: Learn about additional resources that you can use to develop extensions for Microsoft Office applications.
 ms.custom: SEO-VS-2020
 ms.date: 02/02/2017
 ms.topic: conceptual
