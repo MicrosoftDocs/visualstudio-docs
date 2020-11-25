@@ -1,5 +1,7 @@
 ---
 title: Notifications, Environment, Options Dialog Box
+description: Learn how to use the Notifications page in the Environment section to stop ignoring any notifications that you previously chose to ignore through the Notifications dialog.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:

@@ -1,5 +1,7 @@
 ---
 title: Tabs and Windows, Environment, Options Dialog Box
+description: Learn how to use the Tabs and Windows page in the Environment section to set options for how tabbed windows behave in the editor pane and how tool windows behave.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
