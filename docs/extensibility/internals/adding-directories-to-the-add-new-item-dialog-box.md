@@ -1,6 +1,6 @@
 ---
 title: Adding Directories to the Add New Item Dialog Box | Microsoft Docs
-description: Learn how to add directories to the Add New Item dialog box by using a registry script to register them under the Projects subkey for Visual Studio.
+description: Learn how to add directories to the Add New Item dialog box in Visual Studio by using a registry script to register the directories.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
