@@ -1,5 +1,7 @@
 ---
 title: "Debugging Native Code FAQs | Microsoft Docs"
+description: Find links to frequently asked questions (FAQs) and answers about debugging native code in Visual Studio.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:

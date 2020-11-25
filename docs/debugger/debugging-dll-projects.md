@@ -1,5 +1,7 @@
 ---
 title: "Debug DLL projects | Microsoft Docs"
+description: Debug dynamic-link library (DLL) files in Visual Studio. Use Visual Studio to create, build, configure, and debug DLLs.
+ms.custom: SEO-VS-2020
 ms.date: "11/06/2018"
 ms.topic: "conceptual"
 dev_langs:

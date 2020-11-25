@@ -1,5 +1,7 @@
 ---
 title: "Debugging Errors and Warning Dialog Boxes | Microsoft Docs"
+description: See a list of errors and warning dialog boxes that you might encounter while debugging your application in Visual Studio.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 f1_keywords:
