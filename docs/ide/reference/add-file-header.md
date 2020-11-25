@@ -1,5 +1,7 @@
 ---
 title: Add file header
+description: Learn how to use an EditorConfig file to add file headers to existing files, projects, and solutions.
+ms.custom: SEO-VS-2020
 ms.date: 07/10/2020
 ms.topic: reference
 author: mikadumont
@@ -30,7 +32,7 @@ This code generation applies to:
 
 3. Set the value of the rule to equal the header text you would like applied. You can use `{fileName}` as a placeholder for the file name.
 
-    ![EditorConfig file header rule](media/add-file-header-rule.png)
+    ![Screenshot of the EditorConfig file showing the file_header_template value.](media/add-file-header-rule.png)
 
     > [!NOTE]
     > You cannot have explicit multilines in an EditorConfig and will need to use the Unix newline character to insert new lines.
@@ -41,7 +43,7 @@ This code generation applies to:
 
 6. Select **Add file header**. 
 
-    ![EditorConfig file header rule](media/add-file-header.png)
+    ![Screenshot of the Add file header option.](media/add-file-header.png)
 
 7. To apply the file header to an entire project or solution, select **Project** or **Solution** under the **Fix all occurrences in:** option.
 
