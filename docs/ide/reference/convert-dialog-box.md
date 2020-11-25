@@ -1,5 +1,7 @@
 ---
 title: Project converters
+description: The Convert dialog box was used in previous versions of Visual Studio and is now deprecated.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
