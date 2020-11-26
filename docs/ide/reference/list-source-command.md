@@ -1,5 +1,7 @@
 ---
 title: List Source Command
+description: Learn about the List Source command and how it displays the specified lines of source code.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:

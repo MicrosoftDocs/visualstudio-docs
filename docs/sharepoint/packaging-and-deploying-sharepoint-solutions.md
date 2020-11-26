@@ -1,5 +1,7 @@
 ---
 title: "Packaging and Deploying SharePoint Solutions | Microsoft Docs"
+description: Package and deploy SharePoint solutions, which are deployed to a SharePoint server by using a solution package (.wsp) file.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: overview
 dev_langs:
