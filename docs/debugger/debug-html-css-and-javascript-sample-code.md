@@ -1,5 +1,7 @@
 ---
 title: "Debug HTML and CSS sample code | Microsoft Docs"
+description: Find HTML and CSS sample code that's used with a quickstart debugging article. The errors that are present by design in the quickstart are fixed in this article.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:

@@ -1,5 +1,7 @@
 ---
 title: "Class Hierarchy of Symbol Types | Microsoft Docs"
+description: Review a list of symbol types in the class hierarchy of the Visual Studio debug interface access SDK.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
