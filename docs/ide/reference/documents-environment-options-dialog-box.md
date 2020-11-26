@@ -1,5 +1,7 @@
 ---
 title: Documents, Environment, Options Dialog Box
+description: Learn how to use the Environments page in the Documents section to control the display of documents in the IDE and manage external changes to documents and files.
+ms.custom: SEO-VS-2020
 ms.date: 03/28/2019
 ms.topic: reference
 f1_keywords:

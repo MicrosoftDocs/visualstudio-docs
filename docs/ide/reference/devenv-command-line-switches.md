@@ -1,5 +1,7 @@
 ---
 title: Devenv command line switches
+description: Learn about devenv command-line switches and how to use them to set IDE options, and also build, debug, and deploy projects, all from the command line.
+ms.custom: SEO-VS-2020
 ms.date: 12/10/2018
 ms.topic: reference
 helpviewer_keywords:
