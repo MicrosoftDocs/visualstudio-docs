@@ -1,6 +1,6 @@
 ---
 title: Change editor fonts and colors
-description: Learn how to change the default font face, adjust the font size, and change the foreground and background colors for various text Display items in the code editor.
+description: Learn how to change the default font face, adjust the font size, and change the foreground and background colors for various text display items in the code editor.
 ms.custom: SEO-VS-2020
 ms.date: 06/01/2020
 ms.topic: how-to
