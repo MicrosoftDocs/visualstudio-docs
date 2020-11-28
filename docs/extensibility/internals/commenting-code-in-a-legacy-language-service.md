@@ -1,5 +1,7 @@
 ---
 title: Commenting Code in a Legacy Language Service | Microsoft Docs
+description: Learn about the managed package framework (MPF) classes that provide support for code commenting in a legacy language service in Visual Studio.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
