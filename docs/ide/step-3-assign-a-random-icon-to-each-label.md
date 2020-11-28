@@ -1,5 +1,7 @@
 ---
 title: "Step 3: Assign a random icon to each label"
+description: Learn how to assign a random icon to each label so the icons don't show up in the same cells every game.
+ms.custom: SEO-VS-2020
 ms.date: 03/21/2020
 ms.topic: tutorial
 ms.prod: visual-studio-windows

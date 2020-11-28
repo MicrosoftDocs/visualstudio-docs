@@ -1,5 +1,7 @@
 ---
 title: 'Step 6: Name your button controls'
+description: Learn how to name your button controls.
+ms.custom: SEO-VS-2020
 ms.date: 08/30/2016
 ms.assetid: 56b3baa3-651e-4ad4-8942-e334c5c57158
 ms.topic: tutorial

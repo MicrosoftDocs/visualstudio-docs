@@ -1,5 +1,7 @@
 ---
 title: "Step 8: Customize the quiz"
+description: Learn how to customize the quiz and expand on what you've already learned.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: tutorial
 ms.prod: visual-studio-windows

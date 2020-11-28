@@ -1,5 +1,7 @@
 ---
 title: "Step 6: Add a timer"
+description: Learn how to add a <xref:System.Windows.Forms.Timer> control to the matching game.
+ms.custom: SEO-VS-2020
 ms.date: 03/31/2020
 ms.topic: tutorial
 ms.prod: visual-studio-windows
