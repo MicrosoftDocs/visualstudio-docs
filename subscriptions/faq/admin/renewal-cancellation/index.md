@@ -9,7 +9,7 @@ ms.author: cabuschl
 ms.date: 11/30/2020
 ---
 
-# Renewal and cancellation
+# Purchasing, renewing and cancelling Visual Studio subscriptions
 
 [!INCLUDE [How do I renew my subscriptions?](includes/renew-subscriptions.md)]
 
