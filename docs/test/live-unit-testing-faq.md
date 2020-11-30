@@ -1,5 +1,7 @@
 ---
 title: Live Unit Testing FAQ
+description: Review these Live Unit Testing frequently asked questions, including supported frameworks, configuration, and customization.
+ms.custom: SEO-VS-2020
 ms.date: 10/03/2017
 ms.topic: conceptual
 helpviewer_keywords:

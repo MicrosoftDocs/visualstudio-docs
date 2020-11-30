@@ -1,5 +1,7 @@
 ---
 title: Troubleshooting Code Coverage
+description: Learn how to resolve erroneous empty results messages when you expect Visual Studio to collect data for native and managed assemblies.
+ms.custom: SEO-VS-2020
 ms.date: 03/31/2020
 ms.topic: troubleshooting
 ms.author: mikejo
