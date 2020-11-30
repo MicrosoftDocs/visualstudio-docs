@@ -1,5 +1,7 @@
 ---
 title: Use a lab environment for devops
+description: Learn about lab environments and how to use the cloud with Azure Pipelines or Team Foundation Server Build and Release.
+ms.custom: SEO-VS-2020
 ms.date: 05/02/2017
 ms.topic: how-to
 helpviewer_keywords:

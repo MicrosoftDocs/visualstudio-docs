@@ -1,5 +1,7 @@
 ---
 title: Load Test API
+description: Learn how to use the load test API, which supports test plug-ins, which can control or enhance a load test.
+ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
 ms.topic: how-to
 helpviewer_keywords: 
