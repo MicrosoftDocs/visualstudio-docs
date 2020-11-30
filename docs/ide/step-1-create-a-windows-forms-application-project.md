@@ -1,6 +1,6 @@
 ---
 title: 'Step 1: Create a Windows Forms App project'
-description: Learn how to create a Windows Forms App project fro your picture viewer.
+description: Learn how to create a Windows Forms App project for your picture viewer.
 ms.custom: SEO-VS-2020
 ms.date: 08/30/2019
 ms.assetid: 16ac2422-e720-4e3a-b511-bc2a54201a86
