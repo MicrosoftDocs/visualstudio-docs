@@ -41,7 +41,7 @@ An `input` string can contain an environment variable expansion for example `%us
 
 ### Additional options
 
- `--user`, `--process`, or `--machine` can be included to specify where to set environment variables. For more information about possible targets for environment variables, see [EnvironmentVariableTarget](https://docs.microsoft.com/dotnet/api/system.environmentvariabletarget).
+ `--user`, `--process`, or `--machine` can be included to specify where to set environment variables. By default, we target the user. For more information about possible targets for environment variables, see [EnvironmentVariableTarget](https://docs.microsoft.com/dotnet/api/system.environmentvariabletarget).
 
 ### Default behavior
 
