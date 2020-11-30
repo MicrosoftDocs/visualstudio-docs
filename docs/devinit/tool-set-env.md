@@ -24,7 +24,7 @@ This tool makes use of the .NET Core `Environment.SetEnvironment` API and has th
 |----------------------------------------------|--------|----------|-----------------------------------------------------------------------------|
 | **comments**                                 | string | No       | Optional comments property. Not used.                                       |
 | [**input**](#input)                          | string | No       | The input to the tool. See [Input](#input) below for details.               |
-| [**additionalOptions**](#additional-options) | string | No       | See [Additional options](#additional-options) below for details.  |
+| [**additionalOptions**](#additional-options) | string | No       | See [Additional options](#additional-options) below for details.            |
 
 ### Input
 
