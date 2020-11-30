@@ -41986,8 +41986,23 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/code-quality/install-fxcop-analyzers.md",
+      "redirect_url": "/visualstudio/code-quality/install-net-analyzers",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/code-quality/fxcop-analyzers.yml",
-      "redirect_url": "/visualstudio/code-quality/migrate-from-legacy-analysis-to-fxcop-analyzers",
+      "redirect_url": "/visualstudio/code-quality/migrate-from-legacy-analysis-to-net-analyzers",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/fxcop-analyzers-faq.md",
+      "redirect_url": "/visualstudio/code-quality/net-analyzers-faq",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/migrate-from-legacy-analysis-to-fxcop-analyzers.md",
+      "redirect_url": "/visualstudio/code-quality/migrate-from-legacy-analysis-to-net-analyzers",
       "redirect_document_id": false
     },
     {

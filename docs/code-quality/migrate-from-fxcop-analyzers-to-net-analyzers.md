@@ -1,0 +1,48 @@
+---
+title: Migrate from FxCop analyzers to .NET analyzers
+ms.custom: SEO-VS-2020
+description: "Learn how to how to migrate from FxCop analyzers to .NET analyzers"
+ms.date: 03/06/2020
+ms.topic: conceptual
+f1_keywords:
+ - "vs.projectpropertypages.codeanalysis"
+helpviewer_keywords:
+- FxCop, migration
+- legacy analysis, migration
+- source code analysis, migration
+author: mikejo5000
+ms.author: mikejo
+manager: jillfra
+---
+
+# Migrate from FxCop analyzers to .NET analyzers
+
+Source analysis by .NET Compiler Platform ("Roslyn") analyzers replaces [legacy analysis](code-analysis-for-managed-code-overview.md) for managed code. Many of the legacy analysis (FxCop) rules have already been rewritten as source analyzers.
+
+Prior to Visual Studio 2019 16.8 and .NET 5.0, these analyzers shipped as `Microsoft.CodeAnalysis.FxCopAnalyzers` [NuGet package](https://www.nuget.org/packages/Microsoft.CodeAnalysis.FxCopAnalyzers).
+
+Starting in Visual Studio 2019 16.8 and .NET 5.0, these analyzers are [included with the .NET SDK](/dotnet/fundamentals/code-analysis/overview). They are also available as `Microsoft.CodeAnalysis.NetAnalyzers` [NuGet package](https://www.nuget.org/packages/Microsoft.CodeAnalysis.NetAnalyzers). `Microsoft.CodeAnalysis.FxCopAnalyzers` NuGet package will soon be deprecated.
+
+## Migration steps
+
+Please follow the below steps to migrate your project or solution from `Microsoft.CodeAnalysis.FxCopAnalyzers` to the .NET analyzers:
+
+1. Uninstall `Microsoft.CodeAnalysis.FxCopAnalyzers` NuGet package
+
+2. [Enable or install .NET analyzers](install-net-analyzers.md)
+
+3. Enable additional rules: `Microsoft.CodeAnalysis.NetAnalyzers` is much more conservative compared to `Microsoft.CodeAnalysis.FxCopAnalyzers`. Unlike FxCopAnalyzers package, it only has a few correctness rules which are [enabled by default as build warnings](/dotnet/fundamentals/code-analysis/overview#enabled-rules). You can [enable additional rules](/dotnet/fundamentals/code-analysis/overview#enable-additional-rules) by customizing the [AnalysisMode](/dotnet/core/project-sdk/msbuild-props#analysismode) MSBuild property. For example, setting the property to `AllEnabledByDefault` will enable all the applicable CA rules as build warnings by default.
+
+   ```xml
+   <PropertyGroup>
+     <AnalysisMode>AllEnabledByDefault</AnalysisMode>
+   </PropertyGroup>
+   ```
+
+## See also
+
+- [Source code analysis versus legacy analysis](net-analyzers-faq.md#whats-the-difference-between-legacy-fxcop-and-net-analyzers)
+- [Migrate from legacy analysis to .NET analyzers](migrate-from-legacy-analysis-to-net-analyzers.md)
+- [Enable or install .NET analyzers](install-net-analyzers.md)
+- [FAQ about .NET analyzers](net-analyzers-faq.md)
+- [Configure .NET analyzers](/dotnet/fundamentals/code-analysis/code-quality-rule-options)

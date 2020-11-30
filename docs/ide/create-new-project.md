@@ -1,5 +1,7 @@
 ---
 title: Create a new project
+description: Learn how to create a new project in Visual Studio, step by step.
+ms.custom: SEO-VS-2020
 ms.date: 03/19/2019
 ms.topic: how-to
 f1_keywords:

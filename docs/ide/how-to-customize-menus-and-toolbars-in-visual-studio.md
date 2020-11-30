@@ -1,5 +1,7 @@
 ---
 title: Customize menus and toolbars
+description: Learn how to customize Visual Studio menus and toolbars, and also learn how to customize any commands included in the menus and toolbars.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords:

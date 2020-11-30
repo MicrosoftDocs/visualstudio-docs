@@ -4,7 +4,7 @@ ms.date: 05/21/2019
 ms.topic: reference
 helpviewer_keywords:
 - fxcop rules
-- fxcop analyzers, ported rules, unported rules, deprecated rules
+- .NET analyzers, ported rules, unported rules, deprecated rules
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra

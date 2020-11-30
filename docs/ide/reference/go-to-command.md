@@ -1,5 +1,7 @@
 ---
 title: Go To Command
+description: Learn about the Go To command and how it moves the cursor to the specified line.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:

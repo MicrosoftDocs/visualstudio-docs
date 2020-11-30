@@ -1,7 +1,7 @@
 ---
 title: msi-install
 description: devinit tool for msiexec.
-ms.date: 10/13/2020
+ms.date: 11/20/2020
 ms.topic: reference
 author: andysterland
 ms.author: andster
@@ -40,15 +40,19 @@ The msi-install tool sets a number of `msiexec` command-line arguments to ensure
 
 | Name          | Description                                                                                                                                                                                   |
 |---------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| /i            | Runs a normal installation                                                                                                                                                                    | 
-| /quiet        | Specifies quiet mode with no user interaction required                                                                                                                                        | 
-| /qn           | Specifies there's no UI during installation process                                                                                                                                           | 
-| /passive      | Specifies unattended mode where the installation only shows a progress bar                                                                                                                    | 
-| /l*V          | Turns on logging and logs all information, including verbose information, to a `devinit.log` file in the machine's local temp folder. If the tool fails, the log file path is displayed.      | 
-| /norestart    | Stops the machine from restarting after the installation is complete, but will return a 3010 exit code if a reboot is needed                                                                  | 
+| /i            | Runs a normal installation                                                                                                                                                                    |
+| /quiet        | Specifies quiet mode with no user interaction required                                                                                                                                        |
+| /qn           | Specifies there's no UI during installation process                                                                                                                                           |
+| /passive      | Specifies unattended mode where the installation only shows a progress bar                                                                                                                    |
+| /l*V          | Turns on logging and logs all information, including verbose information, to a `devinit.log` file in the machine's local temp folder. If the tool fails, the log file path is displayed.      |
+| /norestart    | Stops the machine from restarting after the installation is complete, but will return a 3010 exit code if a reboot is needed                                                                  |
+
+### Default behavior
+
+The default behavior of the `msi-install` tool is to error as the `input` property is required.
 
 ## Example usage
-Below is an example of how to run `msi-install` using a `.devinit.json`. 
+Below is an example of how to run `msi-install` using a `.devinit.json`.
 
 #### .devinit.json that will install the 7-Zip MSI:
 ```json

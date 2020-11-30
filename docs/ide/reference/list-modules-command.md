@@ -1,5 +1,7 @@
 ---
 title: List Modules Command
+description: Learn about the List Modules command and how it lists the modules for the current process.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:

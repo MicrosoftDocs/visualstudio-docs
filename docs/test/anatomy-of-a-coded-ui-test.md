@@ -1,5 +1,7 @@
 ---
 title: Anatomy of a Coded UI Test
+description: Learn about the files that are added to your coded UI test solution when you create a Coded UI Test.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
