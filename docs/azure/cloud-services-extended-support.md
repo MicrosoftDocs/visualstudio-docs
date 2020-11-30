@@ -12,7 +12,7 @@ monikerRange: ">=vs-2019"
 ---
 # Create and deploy a cloud service using extended support in Visual Studio (Preview)
 
-Starting with Visual Studio 2019 version 16.9 Preview 1, you can work with cloud services using Azure Resource Manager (ARM), which greatly simplifies and modernizes maintenance and management of Azure resources. You can also convert an existing cloud service project to an extended support cloud service project.
+Starting with Visual Studio 2019 version 16.9 Preview 1, you can work with cloud services using Azure Resource Manager (ARM), which greatly simplifies and modernizes maintenance and management of Azure resources. You can also publish an existing cloud service project using extended support.
 
 ## Create a project
 
@@ -47,7 +47,7 @@ The Visual Studio Azure project has associations to the role projects in the sol
 
 For more information about these files, see [Configure the Roles for an Azure Cloud Service with Visual Studio](vs-azure-tools-configure-roles-for-cloud-service.md).
 
-## Publish an existing cloud service project using extended support
+## Existing cloud service project
 
 If you already have a classic cloud service project, you can publish it as an extended support project. This means that you can use ARM to publish to Azure in the same project, but you still retain the capability to publish using the classic method, with a few small steps to remove configuration associated with extended support. Before publishing to extended support, you might want to save an old version of the .*.cscfg* file associated with your Azure Cloud Service project. See [Remove extended support](#remove-extended-support). In Visual Studio 2019 Preview 16.1 and later, classic cloud service projects have a special version of the **Publish** command. This command appears on the shortcut menu in **Solution Explorer**.
 
