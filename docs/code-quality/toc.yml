@@ -11,7 +11,7 @@
     - name: Installation
       expanded: true
       items:
-      - name: .NET analyzers (first-party)
+      - name: .NET analyzers
         href: install-net-analyzers.md
       - name: Third-party analyzers
         href: install-roslyn-analyzers.md
