@@ -47,15 +47,33 @@ The Visual Studio Azure project has associations to the role projects in the sol
 
 For more information about these files, see [Configure the Roles for an Azure Cloud Service with Visual Studio](vs-azure-tools-configure-roles-for-cloud-service.md).
 
-## Convert an existing cloud service project to use extended support
+## Publish an existing cloud service project using extended support
 
-...
+If you already have a classic cloud service project, you can publish it as an extended support project. This means that you can use ARM to publish to Azure in the same project, but you still retain the capability to publish using the classic method, with a few small steps to remove configuration associated with extended support. Before publishing to extended support, you might want to save an old version of the .*.cscfg* file associated with your Azure Cloud Service project. See [Remove extended support](#remove-extended-support). In Visual Studio 2019 Preview 16.1 and later, classic cloud service projects have a special version of the **Publish** command. This command appears on the shortcut menu in **Solution Explorer**.
 
-## Publish a cloud service
+There are some differences when you publish using extended support. For example, you are not asked if you are publishing to **Staging** or **Production**, because these deployment slots are not part of the extended support publishing model. Instead, with extended support services, you can set up multiple deployments, and swap deployments in the Azure Portal.
+
+Before publishing a classic Azure Cloud Service using extended support, check the storage accounts your project uses and make sure they are Storage V1 or Storage V2 accounts. The legacy storage account types will fail with an error message at deploy time. Be sure to check the storage account used by diagnostics. To check the diagnostics storage account, see [Set up diagnostics for Azure Cloud Services and virtual machines](vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines). If your service uses a legacy storage account, you can upgrade it; see [Upgrade to a general-purpose v2 storage account](/azure/storage/common/storage-account-upgrade?tabs=azure-portal).  For general information on the types of storage accounts, see [Storage account overview](/azure/storage/common/storage-account-overview).
+
+### To publish a classic Azure Cloud Service project using extended support
+
+1. Right-click on the project node in your Azure Cloud Service (classic) project and choose **Publish (extended support)...**. The **Publish wizard** opens at the first screen.
+
+   ![Choose Publish (extended support) from the menu](./media/cloud-services-extended-support/publish-commands-on-menu.png)
+
+1. Continue with the steps in the section [Publish a cloud service](#publish-a-cloud-service).
+
+## Publish an extended support cloud service project
 
 1. Create or open an Azure Cloud Service project in Visual Studio.
 
 1. In **Solution Explorer**, right-click the project, and, from the context menu, select **Publish**.
+
+1. Continue with the steps in the section [Publish a cloud service](#publish-a-cloud-service).
+
+## Publish an cloud service using extended support
+
+1. Whether your project is a classic or extended support project, the steps in the **Publish wizard** are the same.
 
    ![Sign-in page](./media/cloud-services-extended-support/publish-step1.png)
 
@@ -109,6 +127,12 @@ Congratulations! You've published your extended support cloud service project to
 ## Clean up Azure resources
 
 To clean up the Azure resources you created by following this tutorial, go to the [Azure portal](https://portal.azure.com), choose **Resource groups**, find and open the resource group you used to create the service, and choose **Delete resource group**.
+
+## Remove extended support
+
+If you publish a classic Azure Cloud Service project using extended support, and then later want to publish again using the classic publishing method, follow these steps to remove any artifacts associated with extended support to return to your previous configuration.
+
+1. In the *.cscfg* file, remove the `NetworkConfiguration` element that was added by extended support.
 
 ## Next steps
 
