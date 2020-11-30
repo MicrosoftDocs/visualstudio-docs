@@ -1,5 +1,7 @@
 ---
 title: Write Unit tests for C++ DLLs
+description: Learn about the several ways to test DLL code, depending on whether the DLL exports the functions that you want to test.
+ms.custom: SEO-VS-2020
 ms.date: 05/01/2019
 ms.topic: how-to
 ms.author: corob
