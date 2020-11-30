@@ -1,5 +1,7 @@
 ---
 title: "Test Explorer FAQ"
+description: Refer to these frequently asked questions about Visual Studio Test Explorer, which include some common troubleshooting.
+ms.custom: SEO-VS-2020
 ms.date: 06/25/2020
 ms.topic: conceptual
 helpviewer_keywords:
