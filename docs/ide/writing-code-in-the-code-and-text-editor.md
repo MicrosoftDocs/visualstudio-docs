@@ -1,6 +1,6 @@
 ---
 title: Code editor features
-description: Learn about the features that the Visual Studios code editor provides to make it easier for you to write and manage your code and text.
+description: Learn about the features that the Visual Studio code editor provides to make it easier for you to write and manage your code and text.
 ms.custom: SEO-VS-2020
 ms.date: 02/23/2018
 ms.topic: conceptual
