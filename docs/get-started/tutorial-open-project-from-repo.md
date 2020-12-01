@@ -75,6 +75,10 @@ But no matter which version you have installed, you can always open a project fr
 
 ### In Visual Studio 2019 version 16.8 or later
 
+You can open a project from a repo that you've cloned or one that you've stored locally. Here's how.
+
+#### Clone a repo and then open a project
+
 If you have not yet cloned a repo where your project is located, you can do so by using the following procedure.
 
 1. Open Visual Studio 2019.
@@ -93,15 +97,27 @@ If you have not yet cloned a repo where your project is located, you can do so b
 
     You can either add your information or edit the default information it provides. Then, select **Save** to add the info to your global .gitconfig file. (You can also choose to do this later by selecting **Cancel**.)
 
-1. Next, Visual Studio opens the project from the repo. If you have a solution file available, it will appear in the "Solutions and Folders" fly-out menu. Choose it, and Visual Studio opens your solution.
+1. Next, Visual Studio opens the project from the repo.
 
-   <!-- ![Choose what you want to open from the Solution Explorer drop-down list](./media/open-proj-repo-github-solutions-folders-picker.png) -->
+   ![Screenshot of a project in Git that's open in Solution Explorer](../ide/media/vs-2019/git-solution-explorer.png "Screenshot of a project in Git that's open in Solution Explorer.")
 
-   If you do not have a solution file (specifically, a .sln file) in your repo, the fly-out menu will say "No Solutions Found." However, you can double-click any file from the folder menu to open it in the Visual Studio code editor.-->
+1. If you have a solution file available, you can view it specifically by selecting the **Switch Views" button in Solution Explorer.
+
+   ![Screenshot of a project in Git that's open in Solution Explorer, with the Switch Views button highlighted](../ide/media/vs-2019/git-solution-explorer-switch-views.png "Screenshot of a project in Git that's open in Solution Explorer, with the Switch Views button highlighted.")
+
+   The Solution Explorer in Visual Studio switches to the solution view.
+
+   ![Screenshot of the .sln file in Git that's open in Solution Explorer, after you've selected the Switch Views button](../ide/media/vs-2019/git-solution-explorer-view-solution.png "Screenshot of the .sln file in Git that's open in Solution Explorer, after you've selected the Switch Views button.")
+
+#### Open a project locally from a cloned repo
 
 If you've already cloned the repo where your project is located, here's how to open it:
 
+1. Step One
 
+1. Step Two
+
+1. Etc.
 
 ### In Visual Studio 2019 version 16.7 or earlier
 
