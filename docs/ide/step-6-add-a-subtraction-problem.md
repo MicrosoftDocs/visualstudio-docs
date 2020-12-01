@@ -1,5 +1,7 @@
 ---
 title: 'Step 6: Add a subtraction problem'
+description: Learn how to add a subtraction problem and also learn how to perform tasks.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: tutorial
 ms.prod: visual-studio-windows

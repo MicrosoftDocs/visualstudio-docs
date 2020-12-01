@@ -1,5 +1,7 @@
 ---
 title: "Step 4: Add a click event handler to each label"
+description: Learn how to add a click event handler to each label.
+ms.custom: SEO-VS-2020 
 ms.date: 11/04/2016
 ms.topic: tutorial
 ms.prod: visual-studio-windows

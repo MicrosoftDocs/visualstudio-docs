@@ -1,5 +1,7 @@
 ---
 title: "Step 7: Add multiplication and division problems"
+description: Learn how to add multiplication and division problems.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: tutorial
 ms.prod: visual-studio-windows

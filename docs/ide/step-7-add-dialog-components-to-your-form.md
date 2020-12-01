@@ -1,5 +1,7 @@
 ---
 title: 'Step 7: Add Dialog components to your form'
+description: Learn how to add a <xref:System.Windows.Forms.OpenFileDialog> dialog component and a <xref:System.Windows.Forms.ColorDialog> dialog component to your form.
+ms.custom: SEO-VS-2020
 ms.date: 08/30/2019
 ms.assetid: ea98c55e-6213-4893-ba7b-f19d7f119527
 ms.topic: tutorial
