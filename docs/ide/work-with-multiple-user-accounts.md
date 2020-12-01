@@ -111,7 +111,7 @@ To sign in using device code flow:
 
 1. Under **Visual Studio**, choose **Continue**.
 
-   ![device-login-page.png](media/work-with-multiple-user-accounts/device-login-page.png)
+   ![Screenshot of the Device Login page showing the Continue option.](media/work-with-multiple-user-accounts/device-login-page.png)
 
 1. Follow the prompts to enter your account credentials.
 
