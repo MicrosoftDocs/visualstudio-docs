@@ -1,7 +1,7 @@
 ---
-title: Enable or install .NET analyzers
+title: Enable or install first-party .NET analyzers
 ms.date: 08/03/2018
-description: Learn how to enable .NET analyzers from the .NET SDK or install these analyzers as a NuGet package.
+description: Learn how to enable first-party .NET analyzers from the .NET SDK or install these analyzers as a NuGet package.
 ms.custom: SEO-VS-2020
 ms.topic: how-to
 helpviewer_keywords:
@@ -12,11 +12,11 @@ manager: jillfra
 ms.workload:
   - dotnet
 ---
-# Enable or install .NET analyzers
+# Enable or install first-party .NET analyzers
 
 ## Overview
 
-.NET compiler platform (Roslyn) analyzers inspect your C# or Visual Basic code for code quality and code style issues. You can enable or install these analyzers in one of the following ways:
+.NET compiler platform (Roslyn) analyzers inspect your C# or Visual Basic code for code quality and code style issues. You can enable or install the first-party .NET analyzers in one of the following ways:
 
 - **Enable from the .NET SDK**: Starting in Visual Studio 2019 16.8 and .NET 5.0, these analyzers are [included with the .NET SDK](/dotnet/fundamentals/code-analysis/overview). Analysis is enabled, by default, for projects that target .NET 5.0 or later. You can enable code analysis on projects that target earlier .NET versions by setting the `EnableNETAnalyzers` property to `true`. You can also disable code analysis for your project by setting `EnableNETAnalyzers` to `false`.
 

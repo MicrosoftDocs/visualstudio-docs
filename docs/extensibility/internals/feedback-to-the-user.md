@@ -1,5 +1,7 @@
 ---
 title: Feedback to the User | Microsoft Docs
+description: Learn how to provide visual feedback to the user about available functionality in the Visual Studio integrated development environment (IDE).
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
