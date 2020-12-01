@@ -1,6 +1,10 @@
 ---
 title: "Step 8: Customize the quiz"
+<<<<<<< HEAD
 description: Learn how to customize the quiz and expand on what you've already learned.
+=======
+description: Learn how to turn the timeLabel control a different color, and give the quiz taker a hint.
+>>>>>>> 67a8e6094db05d809918447a122121793f596890
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: tutorial
