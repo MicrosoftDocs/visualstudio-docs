@@ -75,27 +75,33 @@ But no matter which version you have installed, you can always open a project fr
 
 ### In Visual Studio 2019 version 16.8 or later
 
+If you have not yet cloned a repo where your project is located, you can do so by using the following procedure.
+
 1. Open Visual Studio 2019.
 
 1. On the start window, select **Clone a repository**.
 
-   ![View the 'Create a new project' window](../ide/media/vs-2019/clone-repository.png "Screenshot of the Clone a Repository dialog")
+   ![Screenshot of the Clone a Repository dialog](../ide/media/vs-2019/clone-repository.png "Screenshot of the Clone a Repository dialog.")
 
 1. Enter or type the repository location, and then select **Clone**.
 
-   ![View the Clone a Repository window](../ide/media/vs-2019/clone-repository-enter-location.png "Screenshot of the Clone a Repository dialog where you enter a Git repo URL")
+   ![Screenshot of the Clone a Repository dialog where you enter a Git repo URL](../ide/media/vs-2019/clone-repository-enter-location.png "Screenshot of the Clone a Repository dialog where you enter a Git repo URL.")
 
 1. You might be asked for your user sign-in information in the **Git User Information** dialog box.
 
+   ![Screenshot of the Git User Information dialog where you enter or edit your account info](../ide/media/vs-2019/git-user-information-dialog.png "Screenshot of the Git User Information dialog where you enter or edit your account info.")
+
     You can either add your information or edit the default information it provides. Then, select **Save** to add the info to your global .gitconfig file. (You can also choose to do this later by selecting **Cancel**.)
 
-   Next, Visual Studio opens the project from the repo.
-
-1. If you have a solution file available, it will appear in the "Solutions and Folders" fly-out menu. Choose it, and Visual Studio opens your solution.
+1. Next, Visual Studio opens the project from the repo. If you have a solution file available, it will appear in the "Solutions and Folders" fly-out menu. Choose it, and Visual Studio opens your solution.
 
    <!-- ![Choose what you want to open from the Solution Explorer drop-down list](./media/open-proj-repo-github-solutions-folders-picker.png) -->
 
    If you do not have a solution file (specifically, a .sln file) in your repo, the fly-out menu will say "No Solutions Found." However, you can double-click any file from the folder menu to open it in the Visual Studio code editor.-->
+
+If you've already cloned the repo where your project is located, here's how to open it:
+
+
 
 ### In Visual Studio 2019 version 16.7 or earlier
 
