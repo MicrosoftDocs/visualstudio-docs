@@ -101,7 +101,7 @@ If you have not yet cloned a repo where your project is located, you can do so b
 
    ![Screenshot of a project in Git that's open in Solution Explorer](../ide/media/vs-2019/git-solution-explorer.png "Screenshot of a project in Git that's open in Solution Explorer.")
 
-1. If you have a solution file available, you can view it specifically by selecting the **Switch Views" button in Solution Explorer.
+1. If you have a solution file available, you can view it specifically by selecting the **Switch Views** button in Solution Explorer.
 
    ![Screenshot of a project in Git that's open in Solution Explorer, with the Switch Views button highlighted](../ide/media/vs-2019/git-solution-explorer-switch-views.png "Screenshot of a project in Git that's open in Solution Explorer, with the Switch Views button highlighted.")
 
