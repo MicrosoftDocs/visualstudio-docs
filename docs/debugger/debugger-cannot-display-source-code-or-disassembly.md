@@ -1,6 +1,7 @@
 ---
 title: "Debugger can't display source code or disassembly"
-ms.custom: "seodec18"
+description: See the reasons for the message "Debugger cannot display source code or disassembly for the current location where execution has stopped". 
+ms.custom: "SEO-VS-2020, seodec18"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:

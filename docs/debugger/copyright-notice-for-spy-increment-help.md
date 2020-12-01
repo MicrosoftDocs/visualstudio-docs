@@ -1,5 +1,7 @@
 ---
 title: "Copyright Notice for Spy++ Help | Microsoft Docs"
+description: See the legal notice of copyright for Spy++ Help. 
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:
