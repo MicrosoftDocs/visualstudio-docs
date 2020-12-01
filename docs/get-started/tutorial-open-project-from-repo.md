@@ -2,7 +2,7 @@
 title: "Tutorial: Open a project from a repo"
 description: "Learn how to open a project in a Git or Azure DevOps repository by using Visual Studio."
 ms.custom: "get-started"
-ms.date: 11/20/2020
+ms.date: 11/30/2020
 ms.technology: vs-ide-general
 ms.prod: visual-studio-windows
 ms.topic: tutorial
@@ -85,10 +85,11 @@ But no matter which version you have installed, you can always open a project fr
 
    ![View the Clone a Repository window](../ide/media/vs-2019/clone-repository-enter-location.png "Screenshot of the Clone a Repository dialog where you enter a Git repo URL")
 
-   > [!TIP]
-   > If you're not signed in to Visual Studio, you might be asked to do so in a **Git User Information** dialog box. You can either add your information or edit the default information it provides. Then, select **Save** to add the info to your global .gitconfig file. (You can also choose to do this later by selecting **Cancel**.)
+1. You might be asked for your user sign-in information in the **Git User Information** dialog box.
 
-   Visual Studio opens the project from the repo.
+    You can either add your information or edit the default information it provides. Then, select **Save** to add the info to your global .gitconfig file. (You can also choose to do this later by selecting **Cancel**.)
+
+   Next, Visual Studio opens the project from the repo.
 
 1. If you have a solution file available, it will appear in the "Solutions and Folders" fly-out menu. Choose it, and Visual Studio opens your solution.
 
@@ -142,7 +143,7 @@ But no matter which version you have installed, you can always open a project fr
 
 1. In the **Connect to a Project** dialog box, choose the repo that you want to connect to, and then select **Clone**.
 
-      ![The "Connect to a Project" dialog box that's generated from Visual Studio](./media/open-proj-azure-devops-connect-cloud-clone.png)
+      ![The 'Connect to a Project' dialog box that's generated from Visual Studio](./media/open-proj-azure-devops-connect-cloud-clone.png)
 
     > [!NOTE]
     > What you see in the list box depends on the Azure DevOps repositories that you have access to.
