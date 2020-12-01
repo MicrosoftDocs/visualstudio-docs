@@ -1,5 +1,7 @@
 ---
 title: Document Position | Microsoft Docs
+description: Learn how a document position in Visual Studio debugging provides an abstraction of a position in a source file as known to the IDE.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
