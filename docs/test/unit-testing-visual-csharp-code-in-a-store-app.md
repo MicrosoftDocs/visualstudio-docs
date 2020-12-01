@@ -1,5 +1,7 @@
 ---
 title: Unit testing Visual C# code
+description: Learn how to create unit tests for a C# class in a UWP app. This article demonstrates test-driven development.
+ms.custom: SEO-VS-2020
 ms.date: 09/27/2019
 ms.topic: conceptual
 ms.author: mikejo
