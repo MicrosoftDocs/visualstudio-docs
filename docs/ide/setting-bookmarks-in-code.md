@@ -1,5 +1,7 @@
 ---
 title: Set code bookmarks
+description: Learn how to use bookmarks to mark lines in your code so that you can quickly return to a specific location, or jump back and forth between locations.
+ms.custom: SEO-VS-2020
 ms.date: 02/23/2018
 ms.topic: conceptual
 f1_keywords:

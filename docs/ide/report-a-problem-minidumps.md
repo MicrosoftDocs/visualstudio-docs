@@ -1,5 +1,7 @@
 ---
 title: Create minidumps with all call stacks
+description: Learn how to create minidumps for a Visual Studio process that includes information for all call stacks.
+ms.custom: SEO-VS-2020
 ms.date: 06/27/2019
 ms.topic: how-to
 helpviewer_keywords:
