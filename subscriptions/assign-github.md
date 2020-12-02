@@ -1,5 +1,5 @@
 ---
-title: Visual Studio subscriptions with GitHub Enterprise | Microsoft Docs
+title: Assign Visual Studio subscriptions with GitHub Enterprise | Microsoft Docs
 author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
