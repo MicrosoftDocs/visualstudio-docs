@@ -1,5 +1,7 @@
 ---
 title: 'Step 2: Create a random addition problem'
+description: Learn how to make the quiz challenging by adding math problems that are based on random numbers.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: tutorial
 ms.prod: visual-studio-windows
