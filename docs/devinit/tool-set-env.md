@@ -24,7 +24,7 @@ This tool makes use of the .NET Core `Environment.SetEnvironment` API and has th
 |----------------------------------------------|--------|----------|-----------------------------------------------------------------------------|
 | **comments**                                 | string | No       | Optional comments property. Not used.                                       |
 | [**input**](#input)                          | string | No       | The input to the tool. See [Input](#input) below for details.               |
-| [**additionalOptions**](#additional-options) | string | No       | Not used. See [Additional options](#additional-options) below for details.  |
+| [**additionalOptions**](#additional-options) | string | No       | See [Additional options](#additional-options) below for details.            |
 
 ### Input
 
@@ -41,7 +41,7 @@ An `input` string can contain an environment variable expansion for example `%us
 
 ### Additional options
 
-Not used.
+ `--user`, `--process`, or `--machine` can be included to specify where to set environment variables. By default, we target the user. For more information about possible targets for environment variables, see [EnvironmentVariableTarget](https://docs.microsoft.com/dotnet/api/system.environmentvariabletarget).
 
 ### Default behavior
 
@@ -62,6 +62,20 @@ Below are examples of how to run `set-env` using a `.devinit.json`.
     {
       "tool": "set-env",
       "input": "foo=bar",
+    }
+  ]
+}
+```
+
+#### .devinit.json that will set an environment variable, `foo`, to value, `bar`, stored in the environment block associated with the current process:
+```json
+{
+  "$schema": "https://json.schemastore.org/devinit.schema-3.0",
+  "run": [
+    {
+      "tool": "set-env",
+      "input": "foo=bar",
+      "additionalOptions": "--process",
     }
   ]
 }
