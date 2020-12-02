@@ -1,5 +1,5 @@
 ---
-title: CAST Highlight Benefit in to Visual Studio Subscriptions | Microsoft Docs
+title: CAST Highlight benefit in to Visual Studio subscriptions | Microsoft Docs
 author: evanwindom
 ms.author: v-evwin
 manager: lank
