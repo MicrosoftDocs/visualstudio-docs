@@ -1,5 +1,7 @@
 ---
 title: 'Tutorial 2: Create a timed math quiz'
+description: Learn how to build a quiz in which the quiz taker must answer four random arithmetic problems within a specified time.
+ms.custom: SEO-VS-2020
 ms.date: 10/16/2019
 ms.assetid: d7165d08-ace3-457d-b57d-fb8f80760a6f
 ms.topic: tutorial
