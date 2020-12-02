@@ -1,5 +1,7 @@
 ---
 title: 'Step 1: Create a project and add labels to your form'
+description: Learn how to create the project, add labels, a button, and other controls to a form, and set properties for each control that you add.
+ms.custom: SEO-VS-2020
 ms.date: 10/15/2019
 ms.topic: tutorial
 ms.prod: visual-studio-windows
