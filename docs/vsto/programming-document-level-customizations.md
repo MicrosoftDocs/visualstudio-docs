@@ -1,5 +1,7 @@
 ---
 title: "Program document-level customizations"
+description: Learn how to extend Microsoft Office Word or Microsoft Office Excel by using a document-level customization.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 f1_keywords:
