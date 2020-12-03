@@ -12,44 +12,11 @@ monikerRange: ">=vs-2019"
 ---
 # Create and deploy a cloud service using extended support in Visual Studio (Preview)
 
-Starting with Visual Studio 2019 version 16.9 Preview 1, you can work with cloud services using Azure Resource Manager (ARM), which greatly simplifies and modernizes maintenance and management of Azure resources. You can also publish an existing cloud service project using extended support.
+Starting with Visual Studio 2019 version 16.9 (currently in preview), you can work with cloud services using Azure Resource Manager (ARM), which greatly simplifies and modernizes maintenance and management of Azure resources. This functionality is referred to as *extended support*. You can use extended support to publish an existing cloud service project.
 
-## Create a project
+## Publish a Azure Cloud Service project using extended support
 
-Visual Studio provides a project template that lets you create an Azure Cloud Service with extended support, named **Azure Cloud Service (extended support)**. A cloud service is a simple general-purpose Azure service. Once the project has been created, Visual Studio enables you to configure, debug, and deploy the cloud service to Azure.
-
-### To create an Azure Cloud Service (extended support) project in Visual Studio
-
-This section walks you through creating an Azure Cloud Service project in Visual Studio with one or more web roles.
-
-1. From the start window, choose **Create a new project**.
-
-1. In the search box, type in *Cloud*, and then choose **Azure Cloud Service (extended support)**.
-
-   ![New Azure Cloud Service with extended support](./media/cloud-services-extended-support/choose-project-template.png)
-
-1. Give the project a name and choose **Create**.
-
-   ![Give the project a name](./media/cloud-services-extended-support/configure-new-project.png)
-
-1. In the **New Microsoft Azure Cloud Service** dialog, select the roles that you want to add, and choose the right arrow button to add them to your solution.
-
-    ![Select new Azure Cloud Service roles](./media/cloud-services-extended-support/choose-roles.png)
-
-1. To rename a role that you've added, hover on the role in the **New Microsoft Azure Cloud Service** dialog, and, from the context menu, select **Rename**. You can also rename a role within your solution (in the **Solution Explorer**) after it has been added.
-
-    ![Rename Azure Cloud Service role](./media/vs-azure-tools-azure-project-create/new-cloud-service-rename.png)
-
-The Visual Studio Azure project has associations to the role projects in the solution. The project also includes the *service definition file* and *service configuration file*:
-
-- **Service definition file** - Defines the run-time settings for your application, including what roles are required, endpoints, and virtual machine size.
-- **Service configuration file** - Configures how many instances of a role are run and the values of the settings defined for a role.
-
-For more information about these files, see [Configure the Roles for an Azure Cloud Service with Visual Studio](vs-azure-tools-configure-roles-for-cloud-service.md).
-
-## Existing cloud service project
-
-If you already have a classic cloud service project, you can publish it as an extended support project. This means that you can use ARM to publish to Azure in the same project, but you still retain the capability to publish using the classic method, with a few small steps to remove configuration associated with extended support. Before publishing to extended support, you might want to save an old version of the .*.cscfg* file associated with your Azure Cloud Service project. See [Remove extended support](#remove-extended-support). In Visual Studio 2019 Preview 16.1 and later, classic cloud service projects have a special version of the **Publish** command. This command appears on the shortcut menu in **Solution Explorer**.
+You can use extended support to publish your existing Azure Cloud Service project using ARM, but you still retain the capability to publish using the classic method, with a few small steps to remove configuration associated with extended support. Before publishing to extended support, you might want to save an old version of the .*.cscfg* file associated with your Azure Cloud Service project. See [Remove extended support](#remove-extended-support). In Visual Studio 2019 version 16.9 Preview 1 and later, classic cloud service projects have a special version of the **Publish** command, **Publish (extended support)**. This command appears on the shortcut menu in **Solution Explorer**.
 
 There are some differences when you publish using extended support. For example, you are not asked if you are publishing to **Staging** or **Production**, because these deployment slots are not part of the extended support publishing model. Instead, with extended support services, you can set up multiple deployments, and swap deployments in the Azure Portal.
 
@@ -61,19 +28,7 @@ Before publishing a classic Azure Cloud Service using extended support, check th
 
    ![Choose Publish (extended support) from the menu](./media/cloud-services-extended-support/publish-commands-on-menu.png)
 
-1. Continue with the steps in the section [Publish a cloud service](#publish-a-cloud-service).
-
-## Publish an extended support Azure Cloud Service project
-
-1. Create or open an Azure Cloud Service project in Visual Studio.
-
-1. In **Solution Explorer**, right-click the project, and, from the context menu, select **Publish**.
-
-1. Continue with the steps in the section [Publish a cloud service](#publish-a-cloud-service).
-
-## Publish an Azure Cloud Service using extended support
-
-1. Whether your project is a classic or extended support project, the steps in the **Publish wizard** are the same.
+   The **Publish** wizard appears.
 
    ![Sign-in page](./media/cloud-services-extended-support/publish-step1.png)
 
@@ -99,7 +54,7 @@ Before publishing a classic Azure Cloud Service using extended support, check th
 
    The Azure storage account stores the package for the application deployment. After the application is deployed, the package is removed from the storage account.
 
-1. **Key vault** - Specify the key vault that contains the secrets for this cloud service. This is enabled if remote desktop is enabled or certificates are added to the configuration.
+1. **Key vault** - Specify the key vault that contains the secrets for this cloud service. This is enabled if remote desktop is enabled, if you are using diagnostics, or if certificates are added to the configuration.
 
 1. **Enable Remote Desktop for all roles** - Select this option if you want to be able to remotely connect to the service. You'll be asked to specify credentials.
 
@@ -118,7 +73,7 @@ Before publishing a classic Azure Cloud Service using extended support, check th
 1. **Target profile** - You can choose to create a publishing profile from the settings that you have chosen. For example, you might create one profile for a test environment and another for production. To save this profile, choose the **Save** icon. The wizard creates the profile and saves it in the Visual Studio project. To modify the profile name, open the **Target profile** list, and then choose **Manage…**.
 
    > [!Note]
-   > The publishing profile appears in Solution Explorer in Visual Studio, and the profile settings are written to a file with an .azurePubxml extension. Settings are saved as attributes of XML tags.
+   > The publishing profile appears in Solution Explorer in Visual Studio, and the profile settings are written to a file with an *.azurePubxml* extension. Settings are saved as attributes of XML tags.
 
 1. Once you configure all the settings for your project's deployment, select **Publish** at the bottom of the dialog. You can monitor the process status in the **Azure Activity Log** output window in Visual Studio.
 
