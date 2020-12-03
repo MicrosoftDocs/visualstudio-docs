@@ -67,7 +67,8 @@ When you enable working in isolation, Bridge to Kubernetes does the following in
 If Bridge to Kubernetes detects that Azure Dev Spaces is enabled on your Kubernetes cluster, you are prompted to disable Azure Dev Spaces before you can use Bridge to Kubernetes.
 
 The routing manager does the following when it starts up:
-* Duplicates all ingresses found in the namespace using the *GENERATED_NAME* for the subdomain.
+
+* Duplicates all ingresses (including load balancer ingresses) found in the namespace using the *GENERATED_NAME* for the subdomain.
 * Creates an envoy pod for each service associated with duplicated ingresses with the *GENERATED_NAME* subdomain.
 * Creates an additional envoy pod for the service you are working on in isolation. This allows requests with the subdomain to be routed to your development computer.
 * Configures routing rules for each envoy pod to handle routing for services with the subdomain.
@@ -139,7 +140,7 @@ Bridge to Kubernetes has the following limitations:
 * A service must be backed by a single pod in order to connect to that service. You can't connect to a service with multiple pods, such as a service with replicas.
 * A pod may only have a single container running in that pod for Bridge to Kubernetes to successfully connect. Bridge to Kubernetes can't connect to services with pods that have additional containers, such as sidecar containers injected by services meshes.
 * Currently, Bridge to Kubernetes pods must be Linux containers. Windows containers are not supported.
-* Isolation cannot be used with HTTPS.
+* Isolation cannot be used with HTTPS when using Visual Studio. HTTPS is supported when using Visual Studio Code.
 * Bridge to Kubernetes needs elevated permissions to run on your development computer in order to edit your hosts file.
 * Bridge to Kubernetes can't be used on clusters with Azure Dev Spaces enabled.
 
