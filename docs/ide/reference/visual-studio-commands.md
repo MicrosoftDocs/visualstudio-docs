@@ -1,6 +1,6 @@
 ---
 title: Commands
-description: Learn about commands in Visual Studio. 
+description: Learn about the various commands you have access to in Visual Studio. 
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
