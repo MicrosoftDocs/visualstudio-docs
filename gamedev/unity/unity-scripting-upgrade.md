@@ -52,9 +52,9 @@ For example, if you're using the .NET 4.x profile and want to use `HttpClient`, 
 
 ![missing assembly reference](media/vs/vstu-missing-reference.png)
 
-Visual Studio regenerates .csproj and .sln files for Unity projects each time they're opened. As a result, you cannot add assembly references directly in Visual Studio because they'll be lost upon reopening the project. Instead, a special text file named **mcs.rsp** must be used:
+Visual Studio regenerates .csproj and .sln files for Unity projects each time they're opened. As a result, you cannot add assembly references directly in Visual Studio because they'll be lost upon reopening the project. Instead, a special text file named **csc.rsp** must be used:
 
-1. Create a new text file named **mcs.rsp** in your Unity project's root **Assets** directory.
+1. Create a new text file named **csc.rsp** in your Unity project's root **Assets** directory.
 
 1. On the first line in the empty text file, enter: `-r:System.Net.Http.dll` and then save the file. You can replace "System.Net.Http.dll" with any included assembly that might be missing a reference.
 
