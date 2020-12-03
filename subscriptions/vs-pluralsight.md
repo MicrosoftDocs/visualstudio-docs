@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: bc8b526c-2fed-4ac8-aaa2-73d2495256fd
-ms.date: 08/04/2020
+ms.date: 12/02/2020
 ms.topic: how-to
 description:  Learn about the Pluralsight training subscription included with selected Visual Studio subscriptions.
 ---
@@ -68,9 +68,9 @@ When your Pluralsight subscription expires, the status will change to "0 days re
 |                          Subscription Level                          |     Channels      |    Benefit    |   Renewable?   |
 |----------------------------------------------------------------------|-------------------|---------------|----------------|
 |          Visual Studio Enterprise (Standard)           | VL, Azure, Retail |   6 months    | Yes<sup>2</sup> |
-|          Visual Studio Enterprise with GitHub Enterprise          | VL  |   6 months    | Yes<sup>2</sup> |
+|          Visual Studio Enterprise subscription with GitHub Enterprise          | VL  |   6 months    | Yes<sup>2</sup> |
 |         Visual Studio Professional (Standard)          | VL, Azure, Retail |   3 months    | Yes<sup>2</sup> |
-|         Visual Studio Professional with GitHub Enterprise          | VL  |   3 months    | Yes<sup>2</sup> |
+|         Visual Studio Professional subscription with GitHub Enterprise          | VL  |   3 months    | Yes<sup>2</sup> |
 |              Visual Studio Test Professional (Standard)              |    VL, Retail     |   Not available    | NA  |
 |                      MSDN Platforms (Standard)                       |    VL, Retail     |   Not available    | NA  |
 | Visual Studio Enterprise, Visual Studio Professional (monthly cloud) |       Azure       | Not available |       NA       |
