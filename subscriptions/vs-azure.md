@@ -67,10 +67,10 @@ If you have questions about transferring resources, removing spending limits, or
 |                 Subscription Level / Program                 |           Benefit           |                         Renewable?                          |
 |--------------------------------------------------------------|-----------------------------|-------------------------------------------------------------|
 |              Visual Studio Enterprise Standard               |     $150 monthly credit     |                             Yes                             |
-|              Visual Studio Enterprise with GitHub Enterprise               |     $150 monthly credit     |                             Yes                             |
+|              Visual Studio Enterprise subscription with GitHub Enterprise               |     $150 monthly credit     |                             Yes                             |
 |               Visual Studio Enterprise monthly               |        Not available        |                                                             |
 |             Visual Studio Professional Standard              |     $50 monthly credit      |                             Yes
-|              Visual Studio Professional with GitHub Enterprise              |     $150 monthly credit     |                             Yes                             |
+|              Visual Studio Professional subscription with GitHub Enterprise              |     $150 monthly credit     |                             Yes                             |
 |              Visual Studio Professional monthly              |        Not available        |                                                             |
 |                    Visual Studio Test Pro                    |     $50 monthly credit      |                             Yes                             |
 |                        MSDN Platforms                        |     $100 monthly credit     |                             Yes                             |

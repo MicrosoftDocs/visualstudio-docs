@@ -1,10 +1,10 @@
 ---
-title: Developer Community benefit in Visual Studio Subscriptions | Microsoft Docs
+title: Developer Community benefit in Visual Studio subscriptions | Microsoft Docs
 author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: 44a790d1-f37e-4be0-9023-af1b3fdfcd35
-ms.date: 11/17/2020
+ms.date: 12/02/2020
 ms.topic: conceptual
 description:  Learn about the Developer Community Support benefit included in selected Visual Studio subscriptions.
 ---
@@ -37,9 +37,9 @@ Availability of the Azure Community benefit depends on your subscription level a
 |                                          Subscription Level                                           |     Channels      |    Benefit    | Renewable? |
 |-------------------------------------------------------------------------------------------------------|-------------------|---------------|------------|
 |                           Visual Studio Enterprise (Standard), NFR<sup>1</sup>                            | VL, Azure, Retail |   Available    |    Yes     |
-|                           Visual Studio Enterprise with GitHub Enterprise                           | VL, Azure, Retail |   Available    |    Yes     |
+|                           Visual Studio Enterprise subscription with GitHub Enterprise                           | VL, Azure, Retail |   Available    |    Yes     |
 |                          Visual Studio Professional (Standard)                          | VL, Azure, Retail |   Available    |    Yes     |
-|                          Visual Studio Professional with GitHub Enterprise                          | VL, Azure, Retail |   Available    |    Yes     |
+|                          Visual Studio Professional subscription with GitHub Enterprise                          | VL, Azure, Retail |   Available    |    Yes     |
 |                              Visual Studio Test Professional (Standard)                               |    VL, Retail     |   Available    |    Yes     |
 |                                       MSDN Platforms (Standard)                                       |    VL, Retail     |   Available    |    Yes     |
 | Visual Studio Enterprise (monthly cloud), Visual Studio Professional (monthly cloud)|        All        | Not available |     No     |
