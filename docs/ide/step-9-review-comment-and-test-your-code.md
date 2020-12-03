@@ -1,5 +1,7 @@
 ---
 title: "Step 9: Review, comment, and test your code"
+description: Learn how to add a comment to your code and test your app.
+ms.custom: SEO-VS-2020
 ms.date: 08/30/2019
 ms.assetid: f26f79ba-c91b-4164-b87f-679a1b231c09
 ms.topic: tutorial

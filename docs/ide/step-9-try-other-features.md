@@ -1,5 +1,7 @@
 ---
 title: "Step 9: Try other features"
+description: Learn how to change icons and colors, add a game timer, add sounds, and make the game board bigger.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: tutorial
 ms.prod: visual-studio-windows

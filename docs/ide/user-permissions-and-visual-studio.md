@@ -1,5 +1,6 @@
 ---
 title: Run as administrator
+description: Learn how to run Visual Studio as an administrator.
 ms.date: 01/06/2020
 ms.topic: conceptual
 helpviewer_keywords:
