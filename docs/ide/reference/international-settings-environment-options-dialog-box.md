@@ -1,5 +1,6 @@
 ---
-title: International Settings, Environment, Options Dialog Box
+title: International Settings in the Options dialog box
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:

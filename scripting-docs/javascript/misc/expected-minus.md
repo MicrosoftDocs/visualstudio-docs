@@ -23,5 +23,5 @@ You attempted to create a regular expression literal, but did not include one of
 - Insert a terminating forward slash to mark the end of the regular expression.  
   
 ## See also  
- [Regular Expression Object](../../javascript/reference/regular-expression-object-javascript.md)   
- [Regular Expression Syntax (JavaScript)](https://msdn.microsoft.com/library/1400241x)
+ [Regular Expression Object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RegExp)   
+ [Regular Expression Syntax (JavaScript)](/previous-versions/1400241x(v=vs.100))

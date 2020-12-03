@@ -28,4 +28,4 @@ When setting the **length** property of an existing **Array** object, you specif
     ```  
   
 ## See also  
- [Using Arrays](../../javascript/advanced/using-arrays-javascript.md)
+ [Using Arrays](https://developer.mozilla.org/docs/Learn/JavaScript/First_steps/Arrays)

@@ -33,4 +33,4 @@ o.f();
     ```  
   
 ## See also  
- [Enumerator Object](../../javascript/reference/enumerator-object-javascript.md)
+ [Enumerator Object](https://developer.mozilla.org/docs/Archive/Web/JavaScript/Microsoft_Extensions/Enumerator)

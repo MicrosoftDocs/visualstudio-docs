@@ -1,8 +1,9 @@
 ---
 title: Overview for Visual Basic developers
+description: Learn about using Visual Studio to to edit, debug, and build code, and then publish an app as a Visual Basic developer.
 ms.date: 11/15/2018
 ms.technology: vs-ide-general
-ms.custom: get-started
+ms.custom: [get-started, SEO-VS-2020]
 ms.topic: conceptual
 author: TerryGLee
 ms.author: tglee
@@ -36,7 +37,7 @@ This image shows Visual Studio with an open project and several key tool windows
 
 - The [Output window](../../ide/reference/output-window.md) (bottom center) is where Visual Studio sends notifications such as debugging and error messages, compiler warnings, publishing status messages, and more. Each message source has its own tab.
 
-- [Team Explorer](/azure/devops/user-guide/work-team-explorer?view=vsts) (bottom right) lets you track work items and share code with others using version control technologies such as [Git](https://git-scm.com/) and [Team Foundation Version Control (TFVC)](/azure/devops/repos/tfvc/overview?view=vsts).
+- [Team Explorer](/azure/devops/user-guide/work-team-explorer?view=vsts&preserve-view=true) (bottom right) lets you track work items and share code with others using version control technologies such as [Git](https://git-scm.com/) and [Team Foundation Version Control (TFVC)](/azure/devops/repos/tfvc/overview?view=vsts&preserve-view=true).
 
 ## Editions
 
@@ -369,7 +370,7 @@ Let's dive in and create a simple program.
 
    Visual Studio builds the app, and a console window opens with the message **Hello World!**. You now have a running app!
 
-   ![Console window](../media/vs-2019/overview-console-window.png)
+   ![Screenshot of the console window showing the Hello World message.](../media/vs-2019/overview-console-window.png)
 
 1. To close the console window, press any key on your keyboard.
 
@@ -394,7 +395,7 @@ Let's dive in and create a simple program.
 
 1. Enter your name in the console window and press **Enter**.
 
-   ![Console window](../media/vs-2019/overview-console-input.png)
+   ![Screenshot of the console window showing the What is your name question and the app's response.](../media/vs-2019/overview-console-input.png)
 
 1. Press any key to close the console window and stop the running program.
 

@@ -1,5 +1,7 @@
 ---
 title: Windows Forms Designer tutorial
+description: Learn how to build an app using the various tools provided by Windows Forms Designer. The app is a custom control that uses many available layout features.
+ms.custom: SEO-VS-2020
 ms.date: 08/09/2019
 ms.topic: tutorial
 helpviewer_keywords:
@@ -65,7 +67,7 @@ The DemoCalculator control contains several Windows Forms controls. In this proc
     > [!NOTE]
     > Several controls offer smart tags to facilitate design. For more information, see [Walkthrough: Perform common tasks using Smart Tags on Windows Forms controls](/dotnet/framework/winforms/controls/performing-common-tasks-using-smart-tags-on-wf-controls).
 
-5. Select the vertical border between the panels and drag it to the right, so that most of the space in taken by the left panel.
+5. Select the vertical border between the panels and drag it to the right, so that most of the space is taken by the left panel.
 
     The `SplitContainer` divides the DemoCalculator control into two panels with a movable border separating them. The panel on the left will hold the calculator buttons and display, and the panel on the right will show a record of the arithmetic operations performed by the user.
 

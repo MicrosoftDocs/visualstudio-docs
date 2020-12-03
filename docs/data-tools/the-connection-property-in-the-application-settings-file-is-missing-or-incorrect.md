@@ -1,6 +1,6 @@
 ---
 title: Connection property missing
-description: The connection property in the Application Settings file is missing or incorrect
+description: 'The connection property in the Application Settings file is missing or incorrect. View information about this Visual Studio O/R Designer message.'
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: error-reference

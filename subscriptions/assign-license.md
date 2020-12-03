@@ -1,16 +1,16 @@
 ---
-title: Assign licenses to Visual Studio subscriptions | Microsoft Docs
+title: Assign Visual Studio subscriptions to users | Microsoft Docs
 author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: 4e529a43-7aed-4eee-895d-862a631952df
 ms.date: 09/21/2020
 ms.topic: conceptual
-description:  Learn how administrators can assign licenses to subscribers
+description:  Learn how admins can assign licenses to subscribers
 ---
 
 # Assign licenses in the Visual Studio Subscriptions Administration Portal
-As a Visual Studio subscriptions administrator, you can use the administration portal to assign subscriptions to individual users and groups of users.
+As a Visual Studio subscriptions admin, you can use the admin portal to assign subscriptions to individual users and groups of users.
 
 For groups of users, you have choices for how you assign subscriptions.  
 - You can assign subscriptions one at a time.
@@ -26,7 +26,7 @@ Watch the video or read on to learn how to assign a Visual Studio subscription t
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4vpPh]
 
 
-1. Sign in to the [administration portal](https://manage.visualstudio.com).
+1. Sign in to the [admin portal](https://manage.visualstudio.com).
 2. To assign a license to a single Visual Studio subscriber, at the top of the table, select **Add**, then choose **Individual subscriber**.
    > [!div class="mx-imgBorder"]
    > ![Add a single subscriber](_img/assign-license-add/add-subscriber-individual.png "Select Add, then choose Individual subscriber to assign a single subscription.")
@@ -35,7 +35,7 @@ Watch the video or read on to learn how to assign a Visual Studio subscription t
    > ![Subscriber details](_img/assign-license-add/subscriber-details.png "Enter subscriber name and other details, or choose from the of tenant members.")
 
     > [!NOTE]
-    > In order for members of an Azure Active Directory tenant to be visible when you enter a subscriber name, the administrator must be a member of the tenant. 
+    > In order for members of an Azure Active Directory tenant to be visible when you enter a subscriber name, the admin must be a member of the tenant. 
 
 
     If you want this subscriber to have access to software downloads when they sign into the [Visual Studio Subscriptions Portal](https://my.visualstudio.com?wt.mc_id=o~msft~docs), make sure to leave the downloads toggle enabled in the **Download Settings** section. If you choose to disable downloads, the user will not have access to software downloads.  Access to product keys will also be disabled.  The subscriber will still have access to all other benefits included in the subscription.

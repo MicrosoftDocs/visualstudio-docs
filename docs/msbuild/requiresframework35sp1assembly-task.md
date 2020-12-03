@@ -1,5 +1,7 @@
 ---
 title: "RequiresFramework35SP1Assembly Task | Microsoft Docs"
+description: Learn how MSBuild uses the RequiresFramework35SP1Assembly task to determine whether the application requires .NET Framework 3.5 SP1.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:

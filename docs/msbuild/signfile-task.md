@@ -1,5 +1,7 @@
 ---
 title: "SignFile Task | Microsoft Docs"
+description: Learn how MSBuild uses the SignFile task to sign the specified file using the specified certificate.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 f1_keywords:

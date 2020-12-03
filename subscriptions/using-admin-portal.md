@@ -1,24 +1,24 @@
 ---
-title: Get started with the Subscriptions Administration Portal | Visual Studio Marketplace
+title: Get started with the Visual Studio subscriptions Admin Portal | Visual Studio Marketplace
 author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: 4c099fe8-883e-4789-9468-387ce5697dfe
-ms.date: 09/03/2020
+ms.date: 10/28/2020
 ms.topic: overview
-description: Learn how to get started managing your organization's Visual Studio subscriptions with the Subscriptions Administration Portal.
+description: Learn how to get started managing your organization's Visual Studio subscriptions with the Subscriptions Admin Portal.
 ---
 
 # Overview of the Visual Studio Subscriptions Administrator Portal
 
-The Visual Studio Subscriptions Administration Portal gives you the tools to manage your organization's subscriptions in one place. 
+The Visual Studio Subscriptions Admin Portal gives you the tools to manage your organization's subscriptions in one place. 
 
 Take a tour of the portal.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4t9aW]
 
 ## Important considerations
-Keep these points in mind when you use the Visual Studio Subscriptions Administration Portal:
+Keep these points in mind when you use the Visual Studio Subscriptions Admin Portal:
 - **Visual Studio subscriptions are licensed per user.** Each subscriber can use the software on as many computers as needed for development and testing.
 - **Assign only one subscription level for each subscriber**, corresponding to the Visual Studio subscription your organization purchased. If you have subscribers with more than one subscription level assigned to them, edit their settings so that they only have one.
 - **A subscriber’s subscription level will need to be updated** when the subscription is upgraded (after the purchase of a “step-up” license) or renewed at a lower level.
@@ -34,25 +34,25 @@ Once you’ve assigned subscriptions, the Manage subscribers tab provides detail
 - A reference field for additional notes.
 - An indication of whether subscriber downloads are enabled or disabled.
 - The country in which they are located.
-- Their language preference for the assignment communication email from the administration portal.
+- Their language preference for the assignment communication email from the admin portal.
 - An optional field for a different email address used for communications than sign-in.
 
 On the top left side of the page there are several icons you can select to reveal a subscription assignment overview, the agreement details and the maximum usage report.
 
 To see additional information about the number of subscription licenses purchased, assigned, and still available in your organization for each agreement, click the top icon to enable the slide-out panel.
 > [!div class="mx-imgBorder"]
-> ![Visual Studio Subscriptions Admin Portal Subscribers Page](_img/using-admin-portal/subscribers-page.png)
+> ![Visual Studio Subscriptions Admin Portal Subscribers Page](_img/using-admin-portal/subscribers-page.png "The subscribers page shows subscription counts by type.")
 
 ## The Details page
 For more information about the agreement you are viewing, select the second icon to see the Agreement Details tab. The slide-out panel shows the agreement status, purchase account, org details, super-admins and other pertinent information.
 > [!div class="mx-imgBorder"]
-> ![Visual Studio Subscriptions Admin Portal Details Page](_img/using-admin-portal/details-page.png)
+> ![Visual Studio Subscriptions Admin Portal Details Page](_img/using-admin-portal/details-page.png "The details page displays information about your agreement, including the names of your super admins.")
 
 ## Resources
 - [Visual Studio licensing white paper](https://visualstudio.microsoft.com/wp-content/uploads/2019/06/Visual-Studio-Licensing-Whitepaper-May-2019.pdf)
 - [Compare subscription options and pricing](https://visualstudio.microsoft.com/vs/pricing)
 - [Compare Visual Studio IDE features](https://visualstudio.microsoft.com/vs/compare)
-- [Visual Studio Administration and Subscriptions Support](https://visualstudio.microsoft.com/support/support-overview-vs)
+- [Visual Studio Admin and Subscriptions Support](https://visualstudio.microsoft.com/support/support-overview-vs)
 
 ## See also
 - [Visual Studio documentation](/visualstudio/)
@@ -61,7 +61,7 @@ For more information about the agreement you are viewing, select the second icon
 - [Microsoft 365 documentation](/microsoft-365/)
 
 ## Next steps
-Learn more about responsibilities for administrators:
+Learn more about responsibilities for admins:
 - [Overview of admin responsibilities](admin-responsibilities.md)
 - [Inventory of pre-production environment](admin-inventory.md)
 - [Manage large teams and external contractors](manage-teams.md)

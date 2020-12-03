@@ -23,4 +23,4 @@ You attempted to assign a value to a read-only identifier. You cannot assign a v
 - Do not assign values to read-only identifiers.  
   
 ## See also  
- [Assignment Operator (=)](../../javascript/reference/assignment-operator-decrement-equal-javascript.md)
+ [Assignment Operator (=)](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators#Assignment)

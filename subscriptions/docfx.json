@@ -20,7 +20,8 @@
       {
         "files": [
           "**/*.png",
-          "**/*.jpg"
+          "**/*.jpg",
+          "**/*.svg"
         ],
         "exclude": [
           "**/obj/**",
@@ -45,6 +46,14 @@
     "fileMetadata": {},
     "template": [],
     "dest": "subscriptions",
-    "markdownEngineName": "markdig"
+    "markdownEngineName": "markdig",
+    "rules": {
+        "docs-link-absolute": {
+            "exclude": [
+                "**/*.md",
+                "**/*.yml"
+            ]
+        }
+    }
   }
 }

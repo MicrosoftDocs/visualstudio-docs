@@ -1,7 +1,7 @@
 ---
 title: "Write and debug XAML using XAML Hot Reload"
 description: "XAML Hot Reload, or XAML edit and continue, allows you to make changes to your XAML code while running apps"
-ms.date: "08/05/2019"
+ms.date: 09/23/2020
 ms.topic: conceptual
 helpviewer_keywords:
   - "xaml edit and continue"

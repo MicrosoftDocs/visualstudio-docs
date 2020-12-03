@@ -23,6 +23,6 @@ The structure of your search string violates one or more of the grammatical rule
 - Ensure the structure of your regular expression search string adheres to the [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)] regular expression syntax.  
   
 ## See also  
- [Regular Expression Object](../../javascript/reference/regular-expression-object-javascript.md)   
- [Regular Expression Syntax (JavaScript)](https://msdn.microsoft.com/library/1400241x)   
- [compile Method (Regular Expression)](../../javascript/reference/compile-method-regular-expression-javascript.md)
+ [Regular Expression Object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RegExp)   
+ [Regular Expression Syntax (JavaScript)](/previous-versions/1400241x(v=vs.100))   
+ [compile Method (Regular Expression)](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RegExp/compile)

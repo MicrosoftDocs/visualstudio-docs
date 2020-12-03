@@ -114,9 +114,10 @@ Real-world code involves many projects working together in a solution. Now, let'
 
 ## Reference .NET libraries: write to a log
 
-1. Suppose you now want to add a log of all the operations, and write it out to a text file. The .NET `Trace` class provides this functionality. (It's useful for basic print debugging techniques as well.)  The Trace class is in System.Diagnostics, so start by adding a using directive:
+1. Suppose you now want to add a log of all the operations, and write it out to a text file. The .NET `Trace` class provides this functionality. (It's useful for basic print debugging techniques as well.)  The Trace class is in System.Diagnostics, and we'll need System.IO classes like `StreamWriter`, so start by adding the using directives:
 
    ```csharp
+   using System.IO;
    using System.Diagnostics;
    ```
 
@@ -211,7 +212,7 @@ Real-world code involves many projects working together in a solution. Now, let'
 
    The package is downloaded, and added to your project and a new entry appears in the References node in **Solution Explorer**.
 
-1. Add a using directive for the Newtonsoft.Json package at the beginning of *CalculatorLibrary.cs*.
+1. Add a using directive for the System.IO and Newtonsoft.Json package at the beginning of *CalculatorLibrary.cs*.
 
    ```csharp
    using Newtonsoft.Json;
@@ -301,7 +302,7 @@ Real-world code involves many projects working together in a solution. Now, let'
         }
    ```
 
-1. Build and run the app, and after you're done entering a few operations, close the app properly by using the 'n' command.  Now, open the consolelog.json file and you should see something like the following:
+1. Build and run the app, and after you're done entering a few operations, close the app properly by using the 'n' command.  Now, open the calculatorlog.json file and you should see something like the following:
 
    ```json
    {
@@ -321,6 +322,110 @@ Real-world code involves many projects working together in a solution. Now, let'
     ]
    }
    ```
+
+## Debug: set and hit a breakpoint
+
+The Visual Studio debugger is a powerful tool that allows you to run your code step by step, to find the exact point where you made a programming mistake. You then understand what corrections you need to make in your code. Visual Studio allows you to make temporary changes so you can continue running the program.
+
+1. In *Program.cs*, click the margin to the left of the following code (or, open the shortcut menu and choose **Breakpoint** > **Insert Breakpoint**, or press **F9**):
+
+   ```csharp
+   result = calculator.DoOperation(cleanNum1, cleanNum2, op);
+   ```
+
+   The red circle that appears indicates a breakpoint. You can use breakpoints to pause your app and inspect code. You can set a breakpoint on any executable line of code.
+
+   ![Screenshot of setting a breakpoint](media/vs-2019/calculator-2-debug-set-breakpoint.png)
+
+1. Build and run the app.
+
+1. In the running app, type some values for the calculation:
+
+   - For the first number, type **8** and enter it.
+   - For the second number, type **0** and enter it.
+   - For the operator, let's have some fun; type **d** and enter it.
+
+   The app suspends where you created the breakpoint, which is indicated by the yellow pointer on the left and the highlighted code. The highlighted code has not yet executed.
+
+   ![Screenshot of hitting a breakpoint](media/vs-2019/calculator-2-debug-hit-breakpoint.png)
+
+   Now, with the app suspended you can inspect your application state.
+
+## Debug: view variables
+
+1. In the highlighted code, hover over variables such as `cleanNum1` and `op`. You see the current values for these variables (`8` and `d`, respectively), which appear in DataTips.
+
+   ![Screenshot of viewing a DataTip](media/vs-2019/calculator-2-debug-view-datatip.png)
+
+   When debugging, checking to see whether variables hold the values you expect them to hold is often critical to fixing issues.
+
+2. In the lower pane, look at the **Locals** window. (If it's closed, choose **Debug** > **Windows** > **Locals** to open it.)
+
+   In the Locals window, you see each variable that is currently in scope, along with its value and type.
+
+   ![Screenshot of Locals window](media/vs-2019/calculator-2-debug-locals-window.png)
+
+3. Look at the **Autos** window.
+
+   The Autos window is similar to the **Locals** window, but it shows the variables immediately preceding and following the current line of code where your app is paused.
+
+   Next, you will execute code in the debugger one statement at a time, which is called *stepping*.
+
+## Debug: step through code
+
+1. Press **F11** (or **Debug** > **Step Into**).
+
+   Using the Step Into command, the app executes the current statement and advances to the next executable statement (usually the next line of code). The yellow pointer on the left always indicates the current statement.
+
+   ![Screenshot of step into command](media/vs-2019/calculator-2-debug-step-into.png)
+
+   You've just stepped into the `DoOperation` method in the `Calculator` class.
+
+1. To get a hierarchical look at your program flow, look at the **Call Stack** window. (If it's closed, choose **Debug** > **Windows** > **Call Stack**.)
+
+   ![Screenshot of the call stack](media/vs-2019/calculator-2-debug-call-stack.png)
+
+   This view shows the current `Calculator.DoOperation` method, indicated by the yellow pointer, and the second row shows the function that called it, from the `Main` method in *Program.cs*. The **Call Stack** window shows the order in which methods and functions are getting called. In addition, it provides access to many debugger features, such as **Go to Source Code**, from the shortcut menu.
+
+1. Press **F10** (or **Debug** > **Step Over**) several times until the app pauses on the `switch` statement.
+
+   ```csharp
+   switch (op)
+   {
+   ```
+
+   The Step Over command is similar to the Step Into command, except that if the current statement calls a function, the debugger runs the code in the called function and doesn't suspend execution until the function returns. Step Over is a faster way to navigate code if you're not interested in a particular function.
+
+1. Press **F10** one more time so that the app pauses on the following line of code.
+
+   ```csharp
+   if (num2 != 0)
+   {
+   ```
+
+   This code checks for a divide-by-zero case. If the app continues, it will throw a general exception (an error), but let's say you consider this a bug, and want to do something else, like view the actual returned value in the console. One option is to use a debugger feature called Edit-and-continue to make changes to the code and then continue debugging. However, we will show you a different trick to temporarily modify the execution flow.
+
+## Debug: test a temporary change
+
+1. Select the yellow pointer, currently paused on the `if (num2 != 0)` statement, and drag it to the following statement.
+
+   ```csharp
+   result = num1 / num2;
+   ```
+
+   By doing this, the app completely skips the `if` statement, so you can see what happens when you divide by zero.
+
+1. Press **F10** to execute the line of code.
+
+1. Hover over the `result` variable and you see it stores a value of `Infinity`.
+
+   In C#, `Infinity` is the result when you divide by zero.
+
+1. Press **F5** (or, **Debug** > **Continue Debugging**).
+
+   The Infinity symbol shows up in the console as the result of the math operation.
+
+1. Close the app properly by using the 'n' command.
 
 ## Next steps
 

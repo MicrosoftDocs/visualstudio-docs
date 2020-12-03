@@ -1,8 +1,9 @@
 ---
 title: Introduction to projects and solutions
-ms.date: 02/24/2020
+description: Learn about the difference between projects and solutions and how to use them in Visual Studio.
+ms.date: 11/17/2020
 ms.technology: vs-ide-general
-ms.custom: get-started
+ms.custom: [get-started, SEO-VS-2020]
 ms.topic: tutorial
 author: TerryGLee
 ms.author: tglee
@@ -49,7 +50,7 @@ We'll start our exploration by creating an empty solution. After you get to know
 
 1. In the left pane, expand **Other Project Types**, then choose **Visual Studio Solutions**. In the center pane, choose the **Blank Solution** template. Name your solution **QuickSolution**, then choose the **OK** button.
 
-   ![Blank solution template in Visual Studio 2017](media/tutorial-projects-new-solution.png)
+   ![Blank Solution template in Visual Studio 2017](media/tutorial-projects-new-solution.png "The Blank Solution template in Visual Studio 2017.")
 
    The **Start Page** closes, and a solution appears in **Solution Explorer** on the right-hand side of the Visual Studio window. You'll probably use **Solution Explorer** often, to browse the contents of your projects.
 
@@ -63,7 +64,10 @@ We'll start our exploration by creating an empty solution. After you get to know
 
 3. On the **Create a new project** page, enter **blank solution** into the search box, select the **Blank Solution** template, and then choose **Next**.
 
-   ![Blank Solution template in Visual Studio 2019](media/vs-2019/tutorial-projects-blank-solution-template.png)
+   ![Blank Solution template in Visual Studio 2019](media/vs-2019/tutorial-projects-blank-solution-template.png "The Blank Solution template in Visual Studio 2019.")
+
+    > [!TIP]
+    > If you have several workloads installed, the **Blank Solution** template might not appear at the top of your list of search results. Try scrolling to the **Other results based on your search** section of the list. It should appear there.
 
 4. Name the solution **QuickSolution**, and then choose **Create**.
 
@@ -88,7 +92,7 @@ Now let's add our first project to the solution. We'll start with an empty proje
    > [!NOTE]
    > If you don't see **Visual C#** in the left pane of the dialog box, you must install the **.NET desktop development** Visual Studio workload. Visual Studio uses workload-based installation to install only the components you need for the type of development you do. An easy way to install a new workload is to choose the **Open Visual Studio Installer** link in the bottom left corner of the **Add New Project** dialog box. After Visual Studio Installer launches, choose the **.NET desktop development** workload and then the **Modify** button.
    >
-   > ![Open Visual Studio Installer link](media/tutorial-projects-open-installer.png)
+   > ![Open Visual Studio Installer link](media/tutorial-projects-open-installer.png "The Open Visual Studio Installer link in the Add New Project dialog in Visual Studio 2017.")
 
 ::: moniker-end
 
@@ -107,9 +111,11 @@ Now let's add our first project to the solution. We'll start with an empty proje
    A project named QuickDate appears beneath the solution in **Solution Explorer**. Currently it contains a single file called *App.config*.
 
    > [!NOTE]
-   > If you don't see the **Empty Project (.NET Framework)** template, you must install the **.NET desktop development** Visual Studio workload. Visual Studio uses workload-based installation to install only the components you need for the type of development you do. An easy way to install a new workload when you're creating a new project is to choose the **Install more tools and features** link under the text that says **Not finding what you're looking for?**. After Visual Studio Installer launches, choose the **.NET desktop development** workload and then the **Modify** button.
+   > If you don't see the **Empty Project (.NET Framework)** template, you must install the **.NET desktop development** Visual Studio workload. Visual Studio uses workload-based installation to install only the components you need for the type of development you do.
    >
-   > ![Open Visual Studio Installer link](media/vs-2019/tutorial-projects-open-installer.png)
+   >An easy way to install a new workload when you're creating a new project is to choose the **Install more tools and features** link under the text that says **Not finding what you're looking for?**. After Visual Studio Installer launches, choose the **.NET desktop development** workload and then the **Modify** button.
+   >
+   > ![Open Visual Studio Installer link](media/vs-2019/tutorial-projects-open-installer.png "The Open Visual Studio Installer link in the Create a New Project dialog in Visual Studio.")
 
 ::: moniker-end
 
@@ -165,7 +171,7 @@ Let's add a unit test project to our solution. This time we'll start from a proj
 
    A second project is added to **Solution Explorer**, and a file named *UnitTest1.cs* opens in the editor.
 
-   ![Visual Studio Solution Explorer with two projects](media/tutorial-projects-solution-explorer.png)
+   ![Visual Studio Solution Explorer with two projects](media/tutorial-projects-solution-explorer.png "Solution Explorer with two projects in Visual Studio 2017.")
 
 ::: moniker-end
 
@@ -179,7 +185,7 @@ Let's add a unit test project to our solution. This time we'll start from a proj
 
    A second project is added to **Solution Explorer**, and a file named *UnitTest1.cs* opens in the editor.
 
-   ![Visual Studio Solution Explorer with two projects](media/vs-2019/tutorial-projects-solution-explorer.png)
+   ![Visual Studio Solution Explorer with two projects](media/vs-2019/tutorial-projects-solution-explorer.png "Solution Explorer with two projects in Visual Studio.")
 
 ::: moniker-end
 
@@ -195,7 +201,7 @@ We're going to use the new unit test project to test our method in the **QuickDa
 
    A reference to the **QuickDate** project is added.
 
-   ![Visual Studio 2019 Solution Explorer showing project reference](media/vs-2019/tutorial-projects-solution-explorer-reference.png)
+   ![Visual Studio 2019 Solution Explorer showing project reference](media/vs-2019/tutorial-projects-solution-explorer-reference.png "Solution Explorer showing a project reference in Visual Studio.")
 
 ## Add test code
 
@@ -231,7 +237,7 @@ We're going to use the new unit test project to test our method in the **QuickDa
 
    The code file should look like this:
 
-   ![CSharp code](media/tutorial-projects-cs-code.png)
+   ![CSharp code](media/tutorial-projects-cs-code.png "The code snippet from the Add Test Code section in this article.")
 
 ## Project properties
 
@@ -241,7 +247,7 @@ The line in the *Calendar.cs* file that contains the <xref:System.Runtime.Compil
 
    The *property pages* for the project open on the **Application** tab. The property pages contain various settings for the project. Notice that the assembly name of the **QuickTest** project is indeed "QuickTest". If you wanted to change it, this is where you'd do that. Then, when you build the test project, the name of the resulting binary file would change from *QuickTest.dll* to whatever you chose.
 
-   ![Project properties](media/tutorial-projects-netcore-properties.png)
+   ![Project properties](media/tutorial-projects-netcore-properties.png "Project Properties dialog in Visual Studio.")
 
 1. Explore some of the other tabs of the project's property pages, such as **Build** and **Debug**. These tabs are different for different types of projects.
 
@@ -249,7 +255,7 @@ The line in the *Calendar.cs* file that contains the <xref:System.Runtime.Compil
 
 If you want to check that your unit test is working, choose **Test** > **Run** > **All Tests** from the menu bar. A window called **Test Explorer** opens, and you should see that the **TestGetCurrentDate** test passes.
 
-![Test Explorer in Visual Studio showing passed test](media/tutorial-projects-test-explorer.png)
+![Test Explorer in Visual Studio showing passed test](media/tutorial-projects-test-explorer.png "Test Explorer in Visual Studio showing a passed test.")
 
 ::: moniker range="vs-2017"
 

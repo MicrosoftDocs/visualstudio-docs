@@ -1,6 +1,6 @@
 ---
 title: MSBuild Items | Microsoft Docs
-description: Use the MSBuild Include attribute of the ItemGroup to specify files to be included in a build
+description: Learn how to use the MSBuild Include attribute of the ItemGroup to specify files to be included in a build.
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

@@ -28,7 +28,7 @@ dotnet ef database update -c appidentitydbcontext -p src\Infrastructure\Infrastr
 
 ## .devinit.json
 
-Contents of the [_.devinit.json_](devinit-json.md) file. This file needs to be in the same folder as _.devcontainer.json_.
+Contents of the [`.devinit.json`](devinit-json.md) file. This file needs to be in the same folder as _.devcontainer.json_.
 
 ```json
 {
@@ -54,6 +54,6 @@ Contents of the _.devcontainer.json_ file in the repo root.
 
 ```json
 {
-  "postCreateCommand": "Powershell.exe -ExecutionPolicy unrestricted -File PostCloneSetup.ps1"
+  "postCreateCommand": "Powershell.exe -ExecutionPolicy unrestricted -File .\\PostCloneSetup.ps1"
 }
 ```

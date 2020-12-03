@@ -1,10 +1,10 @@
 ---
-title: Using product keys to support internet demos via Terminal Services | Microsoft Docs
+title: Internet demos via Terminal Services in Visual Studio subscriptions| Microsoft Docs
 author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: 1c5ede60-cb5a-4d5f-a6a2-a1f536f6c4ad
-ms.date: 09/08/2020
+ms.date: 10/28/2020
 ms.topic: conceptual
 description:  Learn how to use product keys to support internet demonstrations via Terminal Services and enable RDS access
 ---

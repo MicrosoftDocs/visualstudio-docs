@@ -85,12 +85,9 @@ Some of the popular features in Visual Studio that help you to be more productiv
 
    ![Visual Studio Member List](../media/intellisense-list-members.png)
 
-- Search box
+- [Visual Studio search](../../ide/visual-studio-search.md)
 
-   Visual Studio can seem overwhelming at times with so many menus, options, and properties. The search box is a great way to rapidly find what you need in Visual Studio. When you start typing the name of something you're looking for, Visual Studio lists results that take you exactly where you need to go. If you need to add functionality to Visual Studio, for example to add support for an additional programming language, the search box provides results that open Visual Studio Installer to install a workload or individual component.
-
-   > [!TIP]
-   > Press **Ctrl**+**Q** as a shortcut to the search box.
+   Visual Studio can seem overwhelming at times with so many menus, options, and properties. Visual Studio search (**Ctrl**+**Q**) is a great way to rapidly find IDE features and code in one place.
 
    ::: moniker range="vs-2017"
 
@@ -103,6 +100,8 @@ Some of the popular features in Visual Studio that help you to be more productiv
    ::: moniker range="vs-2019"
 
    ![Search box in Visual Studio 2019](../media/vs-2019/quick-launch-nuget.png)
+
+    For information and productivity tips, see [How to use Visual Studio search](../../ide/visual-studio-search.md).
 
    ::: moniker-end
 

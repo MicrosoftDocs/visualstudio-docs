@@ -6,7 +6,7 @@ keywords:
 author: ornellaalt
 ms.author: ornella
 manager: jillfra
-ms.date: 08/05/2020
+ms.date: 11/10/2020
 ms.topic: reference
 helpviewer_keywords:
 - workload ID, Visual Studio

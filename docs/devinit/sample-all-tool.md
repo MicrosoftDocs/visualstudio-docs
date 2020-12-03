@@ -20,7 +20,7 @@ This example has a `devinit.json`, which installs all the available devinit tool
 
 ```json
 {
-  "$schema": "./devinit.schema-2.0.json",
+  "$schema": "./devinit.schema-3.0.json",
   "comments": "A sample dot-devinit file",
   "run": [
     {
@@ -53,6 +53,11 @@ This example has a `devinit.json`, which installs all the available devinit tool
     {
       "tool": "enable-iis",
       "comments": "Enables IIS features and installs the latest ASP.NET hosting bundle."
+    },
+    {
+      "tool": "msi-install",
+      "input": "https://www.7-zip.org/a/7z1900.msi",
+      "comments": "Installs the 7-Zip MSI",
     },
     {
       "tool": "npm-install",

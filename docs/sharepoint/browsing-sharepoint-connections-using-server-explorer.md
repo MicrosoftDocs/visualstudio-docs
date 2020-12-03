@@ -1,5 +1,7 @@
 ---
 title: "Browsing SharePoint Connections Using Server Explorer | Microsoft Docs"
+description: Browse SharePoint connections by using Server Explorer. Learn about Server Explorer nodes and node shortcut menu commands.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: overview
 f1_keywords:

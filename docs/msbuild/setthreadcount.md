@@ -1,5 +1,7 @@
 ---
 title: "SetThreadCount | Microsoft Docs"
+description: Learn how MSBuild uses SetThreadCount to set the global thread count, and assign that count to the current thread.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 apiname:

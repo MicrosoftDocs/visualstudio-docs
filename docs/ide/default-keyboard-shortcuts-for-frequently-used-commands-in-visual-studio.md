@@ -1,5 +1,7 @@
 ---
-title: Default keyboard shortcuts for frequently used commands
+title: Keyboard shortcuts for frequently used commands
+description: Learn about the keyboard shortcuts that evoke Visual Studio's most frequently used commands.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 author: TerryGLee

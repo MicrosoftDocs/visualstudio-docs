@@ -36,6 +36,6 @@ return [ expression ];
 - Remove the `return` statement from the main body of your code (the global scope).  
   
 ## See also  
- [return Statement](../../javascript/reference/return-statement-javascript.md)   
- [Function Object](../../javascript/reference/function-object-javascript.md)   
- [caller Property (Function)](../../javascript/reference/caller-property-function-javascript.md)
+ [return Statement](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/return)   
+ [Function Object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Function)   
+ [caller Property (Function)](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Function/caller)

@@ -1,5 +1,6 @@
 ---
-title: Import and Export Settings, Environment, Options Dialog Box
+title: Import and Export Settings in the Options dialog box
+ms.custom: SEO-VS-2020
 ms.date: 03/28/2019
 ms.topic: reference
 f1_keywords:

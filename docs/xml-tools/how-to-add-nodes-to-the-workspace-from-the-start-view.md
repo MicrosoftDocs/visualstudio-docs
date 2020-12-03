@@ -1,5 +1,7 @@
 ---
 title: Add nodes to workspace from Start View in XML Schema Designer
+description: Learn how to add nodes to the XML Schema Designer workspace by using commands in the Start View.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 ms.assetid: 3fc7af94-dcb8-4226-a577-43f03664388b

@@ -60,7 +60,7 @@ Most application types and project configurations are supported, but you will ne
 * Project and item templates
 * .NET Core and ASP.NET Core projects
 * C++ console apps - CMake and vcxproj supported
-* C++ apps that target Linux - Mostly supported for non-GUI. Ability to install and provision WSL, platform-specific Intellisense, and build.
+* C++ apps that target Linux - Mostly supported for non-GUI. Ability to install and provision WSL, platform-specific IntelliSense, and build.
 * Project file editing - Mostly supported. Missing some completion, syntax highlighting, and advanced editing features.
 * GitHub accounts - Can be used to create and connect to Codespaces, and access resources available to the account on GitHub.
 * Azure CLI - Does not share the signed-in Visual Studio identity or keychain accounts. Browser-based login is not supported but you can authenticate inside the integrated terminal using: `az login --use-device-code`.

@@ -1,5 +1,7 @@
 ---
 title: Create solutions and projects
+description: Learn about the difference between solutions and projects and how to use them in Visual Studio.
+ms.custom: SEO-VS-2020
 ms.date: 02/06/2018
 ms.topic: how-to
 f1_keywords:

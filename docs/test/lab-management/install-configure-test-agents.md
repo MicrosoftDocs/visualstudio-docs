@@ -1,13 +1,15 @@
 ---
 title: Install test agents and test controllers
+description: Learn how to use Visual Studio agents to orchestrate testing with Azure Test Plans or Team Foundation Server.
+ms.custom: SEO-VS-2020
 ms.date: 04/17/2019
 ms.topic: how-to
-helpviewer_keywords: 
+helpviewer_keywords:
   - configure test agents, test lab
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.workload: 
+ms.workload:
   - multiple
 ---
 # Install test agents and test controllers
@@ -77,7 +79,7 @@ The following table shows the scenarios supported by Agents for Visual Studio 20
 
 | Scenarios supported by Agents for Visual Studio 2013 | Alternative in TFS and Azure Test Plans |
 | - | - |
-| Build-Deploy-Test workflow in Visual Studio | Users can use a [build pipeline](/azure/devops/pipelines/index?view=vsts) (not a XAML build) for build, deploy, and test scenarios in TFS. |
+| Build-Deploy-Test workflow in Visual Studio | Users can use a [build pipeline](/azure/devops/pipelines/index?view=vsts&preserve-view=true) (not a XAML build) for build, deploy, and test scenarios in TFS. |
 | Load testing (performance testing) using on-premises remote machines | Use Test Controller and Test Agents 2013 Update 5 to run load tests on-premises. |
 | Remote execution of automated tests from Microsoft Test Manager (deprecated in Visual Studio 2017) using a lab environment | Currently there is no alternative for this scenario. We recommend you use the Run Functional Tests task in build and release definitions (not in a XAML build) to execute tests remotely. |
 | Developers executing remote tests in Visual Studio | No longer supported. |

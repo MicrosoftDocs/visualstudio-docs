@@ -1,5 +1,7 @@
 ---
 title: "Workflow Designer - ReceiveAndSendReply Template Designer"
+description: Learn how to use the ReceiveAndSendReply template to create a pair of pre-configured Receive and SendReply activities. 
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:

@@ -1,5 +1,7 @@
 ---
-title: Class view, call hierarchy, object browser, code definition window
+title: Use tools windows to view code structure
+description: Learn how to use the Class View, Call Hierarchy, Object Browser, and Code Definition (C++ only) tool windows to examine classes and their members in Visual Studio.
+ms.custom: SEO-VS-2020
 ms.date: 09/19/2019
 ms.topic: reference
 f1_keywords:
@@ -26,7 +28,7 @@ manager: jillfra
 ms.workload:
 - multiple
 ---
-# View the structure of code using different tool windows
+# View the structure of code by using different tool windows
 
 You can examine classes and their members in Visual Studio using various tool windows, including **Class View**, **Call Hierarchy**, **Object Browser**, and **Code Definition** (C++ only). These tool windows can examine code in Visual Studio projects, .NET components, COM components, dynamic-link libraries (DLL), and type libraries (TLB).
 

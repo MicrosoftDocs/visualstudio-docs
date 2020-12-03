@@ -1,5 +1,7 @@
 ---
 title: Coded UI tests
+description: Learn how to create a Coded UI test in Visual Studio by performing the test manually while Coded UI Test Builder runs in the background.
+ms.custom: SEO-VS-2020
 ms.date: 12/04/2018
 ms.topic: conceptual
 f1_keywords:
@@ -438,7 +440,7 @@ You can analyze Coded UI tests using Coded UI test logs. Coded UI test logs filt
 
 - [Run unit tests with Test Explorer](../test/run-unit-tests-with-test-explorer.md)
 
-- [Run tests in your build process](/azure/devops/pipelines/test/getting-started-with-continuous-testing?view=vsts)
+- [Run tests in your build process](/azure/devops/pipelines/test/getting-started-with-continuous-testing?view=vsts&preserve-view=true)
 
 - [How to: Set up your test agent to run tests that interact with the desktop](/previous-versions/ee291332(v=vs.140))
 
@@ -452,7 +454,7 @@ Coded UI tests are often used to automate manual tests. For more information abo
 
 ## See also
 
-- [Record and play back manual tests](/azure/devops/test/mtm/record-play-back-manual-tests?view=vsts)
+- [Record and play back manual tests](/azure/devops/test/mtm/record-play-back-manual-tests?view=vsts&preserve-view=true)
 - [Xamarin.UITest](/appcenter/test-cloud/uitest/)
 - <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert>
 - [Walkthrough: Create, edit, and maintain a Coded UI test](../test/walkthrough-creating-editing-and-maintaining-a-coded-ui-test.md)

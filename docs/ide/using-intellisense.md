@@ -1,5 +1,7 @@
 ---
 title: Parameter info, list members, and quick info
+description: "Learn how to use these IntelliSense features:  List Members, Parameter Info, Quick Info, and Complete Word."
+ms.custom: SEO-VS-2020
 ms.date: 05/25/2018
 ms.topic: conceptual
 f1_keywords:
@@ -105,6 +107,7 @@ MessageBox( hWnd, "String literal|")
 
 - [Visual Basic IntelliSense](../ide/visual-basic-specific-intellisense.md)
 - [C# IntelliSense](../ide/visual-csharp-intellisense.md)
+- [Python IntelliSense](../python/editing-python-code-in-visual-studio.md#intellisense)
 - [JavaScript IntelliSense](../ide/javascript-intellisense.md)
 - [Write and refactor code (C++)](/cpp/ide/writing-and-refactoring-code-cpp)
 - [Supply XML code comments](reference/generate-xml-documentation-comments.md)

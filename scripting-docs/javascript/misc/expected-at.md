@@ -27,6 +27,6 @@ You attempted to create a variable to be used with conditional compilation state
     ```  
   
 ## See also  
- [@set Statement](../../javascript/reference/at-set-statement-javascript.md)   
- [Conditional Compilation](../../javascript/advanced/conditional-compilation-javascript.md)   
- [Conditional Compilation Variables](../../javascript/advanced/conditional-compilation-variables-javascript.md)
+ [@set Statement](https://developer.mozilla.org/docs/Archive/Web/JavaScript/Microsoft_Extensions/at-set)   
+ [Conditional Compilation](/previous-versions/windows/internet-explorer/ie-developer/scripting-articles/121hztk3(v=vs.84))   
+ [Conditional Compilation Variables](/previous-versions/windows/internet-explorer/ie-developer/scripting-articles/s59bkzce(v=vs.84))

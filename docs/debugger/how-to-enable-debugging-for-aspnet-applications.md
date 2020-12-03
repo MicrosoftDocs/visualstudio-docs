@@ -1,7 +1,7 @@
 ---
 title: Enable debugging for ASP.NET apps | Microsoft Docs
 ms.custom: 
-ms.date: 09/21/2018
+ms.date: 10/29/2020
 ms.topic: how-to
 dev_langs: 
   - CSharp
@@ -31,9 +31,13 @@ The built-in IIS Express server is included with Visual Studio. IIS Express is t
 You can also debug an ASP.NET or ASP.NET Core app on a local IIS server (version 8.0 or higher) that is configured to run the app. To debug on local IIS, you must meet the following requirements:
 
 <a name="iis"></a>
-- Select **Development time IIS support** when installing Visual Studio. (If necessary, rerun the Visual Studio Installer, select **Modify**, and add this component.)
-- Be running Visual Studio as an administrator.
-- Install and correctly configure IIS with the appropriate version(s) of ASP.NET and/or ASP.NET Core. For more information and instructions, see [IIS 8.0 Using ASP.NET 3.5 and ASP.NET 4.5](/iis/get-started/whats-new-in-iis-8/iis-80-using-aspnet-35-and-aspnet-45) or [Host ASP.NET Core on Windows with IIS](/aspnet/core/host-and-deploy/iis/index).
+- If it's not installed, install the **ASP.NET and web development workload**. (Rerun the Visual Studio Installer, select **Modify**, and add this workload.)
+
+   ::: moniker range="vs-2017"
+   In Visual Studio 2017, Look for the **Development time IIS support** component. Make sure it's selected when you add the workload.
+   ::: moniker-end
+- Run Visual Studio as an administrator.
+- Install and correctly configure IIS with the appropriate version(s) of ASP.NET and/or ASP.NET Core. For more information on using IIS with ASP.NET Core, see [Host ASP.NET Core on Windows with IIS](/aspnet/core/host-and-deploy/iis/index). For ASP.NET, see [Install IIS and ASP.NET Modules](/iis/application-frameworks/scenario-build-an-aspnet-website-on-iis/configuring-step-1-install-iis-and-asp-net-modules).
 - Make sure the app runs on IIS without errors.
 
 ## Debug ASP.NET apps

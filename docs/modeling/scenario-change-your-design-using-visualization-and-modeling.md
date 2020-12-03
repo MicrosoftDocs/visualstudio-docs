@@ -210,9 +210,9 @@ As their work progresses, the teams update their work items to reflect the time 
 
 See:
 
-- [About Agile tools and Agile project management](/azure/devops/boards/backlogs/backlogs-overview?view=vsts)
+- [About Agile tools and Agile project management](/azure/devops/boards/backlogs/backlogs-overview?view=vsts&preserve-view=true)
 
-- [Charts, dashboards, and widgets (Azure DevOps Services)](/azure/devops/report/dashboards/overview?view=vsts)
+- [Charts, dashboards, and widgets (Azure DevOps Services)](/azure/devops/report/dashboards/overview?view=vsts&preserve-view=true)
 
 - [Create your backlog and tasks using Project](/azure/devops/boards/backlogs/office/create-your-backlog-tasks-using-project)
 
@@ -232,13 +232,13 @@ To make sure that the code conforms to the design, the teams configure their bui
 
 See:
 
-- [Testing the application](/azure/devops/test/overview?view=vsts)
+- [Testing the application](/azure/devops/test/overview?view=vsts&preserve-view=true)
 
 - [Validate your system during development](../modeling/validate-your-system-during-development.md)
 
-- [Use version control](/azure/devops/repos/tfvc/overview?view=azure-devops)
+- [Use version control](/azure/devops/repos/tfvc/overview?view=azure-devops&preserve-view=true)
 
-- [Azure Pipelines](/azure/devops/pipelines/index?view=vsts)
+- [Azure Pipelines](/azure/devops/pipelines/index?view=vsts&preserve-view=true)
 
 ## Update the System Using Visualization and Modeling
 

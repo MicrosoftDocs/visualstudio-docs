@@ -1,5 +1,7 @@
 ---
 title: Image Library
+description: Learn about the Visual Studio Image Library that contains application images that appear in Visual Studio, Windows, Office, and other Microsoft software.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

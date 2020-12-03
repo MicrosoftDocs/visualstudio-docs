@@ -1,6 +1,8 @@
 ---
 title: PromptForSaveOnCreation Element (Visual Studio Templates)
 titleSuffix: ""
+description: Learn about the PromptForSaveOnCreation element and how it specifies whether the user is prompted for a project save location via the New Project dialog box.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.technology: vs-ide-general
 ms.topic: reference

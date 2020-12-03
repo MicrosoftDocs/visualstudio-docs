@@ -1,5 +1,7 @@
 ---
 title: View recent jobs
+description: Learn that once jobs are submitted, you can view the list of jobs to see their status, duration, and more.
+ms.custom: SEO-VS-2020
 author: jillre
 ms.author: jillfra
 manager: jillfra

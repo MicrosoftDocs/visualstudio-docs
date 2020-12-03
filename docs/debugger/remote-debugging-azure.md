@@ -250,7 +250,7 @@ Download the version of the remote tools that matches your version of Visual Stu
 
 6. Type the first letter of your process name to quickly find your app.
 
-    * If you're using the [in-process hosting model](/aspnet/core/host-and-deploy/aspnet-core-module?view=aspnetcore-3.1#hosting-models) on IIS, select the correct **w3wp.exe** process. Starting in .NET Core 3, this is the default.
+    * If you're using the [in-process hosting model](/aspnet/core/host-and-deploy/aspnet-core-module?view=aspnetcore-3.1&preserve-view=true#hosting-models) on IIS, select the correct **w3wp.exe** process. Starting in .NET Core 3, this is the default.
 
     * Otherwise, select the **dotnet.exe** process. (This is the out-of-process hosting model.)
 

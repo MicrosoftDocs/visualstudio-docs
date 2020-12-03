@@ -1,5 +1,7 @@
 ---
 title: Full screen and virtual space mode
+description: Learn how to manage the Visual Studio editor modes to display all of the tools and windows in a way that works best for you.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:

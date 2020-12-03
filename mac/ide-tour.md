@@ -3,7 +3,7 @@ title: Visual Studio for Mac Tour
 description: "Visual Studio for Mac provides an integrated development environment to build .NET applications on macOS, including ASP.NET Core websites and Xamarin projects for iOS, Android, Mac, and Xamarin.Forms."
 author: heiligerdankgesang
 ms.author: dominicn
-ms.date: 07/03/2020
+ms.date: 11/09/2020
 ms.assetid: 7DC64A52-AA41-4F3A-A8A1-8A20BCD81CC7
 ms.custom: video
 ---
@@ -53,11 +53,11 @@ The following image shows Visual Studio for Mac with an application loaded:
 
 The following sections provide an overview of the major areas in Visual Studio for Mac.
 
-## Solution pad
+## Solution Window
 
-The Solution Pad organizes the project(s) in a solution:
+The Solution Window organizes the project(s) in a solution:
 
-![Projects organized in Solution Pad](media/ide-tour-image18.png)
+![Projects organized in the Solution Window](media/ide-tour-image18.png)
 
 This is where files for the source code, resources, user interface, and dependencies are organized into platform-specific Projects.
 
@@ -67,7 +67,7 @@ For more information on using Projects and Solutions in Visual Studio for Mac, s
 
 Assembly references for each project are available under the References folder:
 
-![References folder in solution pad](media/ide-tour-image19.png)
+![References folder in the Solution Window](media/ide-tour-image19.png)
 
 Additional references are added using the **Edit References** dialog, which is displayed by double-clicking on the References folder, or by selecting **Edit References** on its context menu actions:
 
@@ -130,9 +130,9 @@ Visual Studio for Mac integrates with Git and Subversion source control systems.
 
 ![Branch name to indicate project under source control](media/ide-tour-image22.png)
 
-Files with uncommitted changes have an annotation on their icons in the Solution Pane, as illustrated in the following image:
+Files with uncommitted changes have an annotation on their icons in the Solution Window, as illustrated in the following image:
 
-![Uncommitted files in solution pad](media/ide-tour-image23.png)
+![Uncommitted files in the Solution Window](media/ide-tour-image23.png)
 
 For more information on using version control in Visual Studio, see the [Version Control](./version-control.md) article.
 

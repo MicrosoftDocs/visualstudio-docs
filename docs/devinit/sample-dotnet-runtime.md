@@ -39,7 +39,7 @@ The _packages.config_ file is a [Chocolatey](https://chocolatey.org/) file that 
 
 ## .devinit.json
 
-Contents of the [_.devinit.json_](devinit-json.md) file. This file needs to be in the same folder as _.devcontainer.json_ file.
+Contents of the [`.devinit.json`](devinit-json.md) file. This file needs to be in the same folder as the _.devcontainer.json_ file.
 
 ```json
 {
@@ -64,6 +64,6 @@ Contents of the _.devcontainer.json_ file in the repo root.
 
 ```json
 {
-  "postCreateCommand": "Powershell.exe -ExecutionPolicy unrestricted -File PostCloneSetup.ps1"
+  "postCreateCommand": "Powershell.exe -ExecutionPolicy unrestricted -File .\\PostCloneSetup.ps1"
 }
 ```

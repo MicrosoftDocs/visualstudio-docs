@@ -1,5 +1,7 @@
 ---
 title: Workflow Designer - TerminateWorkflow Activity Designer
+description: Learn how you can use the TerminateWorkflow activity designer to create and configure a TerminateWorkflow activity. 
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:

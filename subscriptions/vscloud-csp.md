@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: v-evwin
 manager: lank
 ms.assetid: d2ab13ed-ef79-4ef0-8736-eccd04bc6020
-ms.date: 03/24/2020
+ms.date: 10/21/2020
 ms.topic: conceptual
 description:  Information for Cloud Solution Providers on how to buy and manage Visual Studio cloud subscriptions for your customers.
 ---
@@ -44,7 +44,7 @@ Anyone with [owner or contributor access](https://na01.safelinks.protection.outl
 > for automation of purchasing.
 
 Once you confirm the purchase, you can choose **Manage** to assign subscriptions to your customer's end users.  You can
-also access the Subscription Administration portal from the Partner Center by choosing **Service management**.  From there see the steps or video below.
+also access the Subscription Admin portal from the Partner Center by choosing **Service management**.  From there see the steps or video below.
 
 ## How to manage Visual Studio cloud subscriptions for your customer
 

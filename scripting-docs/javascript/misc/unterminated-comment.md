@@ -28,4 +28,4 @@ This is another part of the same comment.*/
 - Be sure to terminate multi-line comments with "*/".  
   
 ## See also  
- [Comment Statements](../../javascript/reference/comment-statements-javascript.md)
+ [Comment Statements](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Lexical_grammar)

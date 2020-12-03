@@ -31,4 +31,4 @@ You used something other than an identifier in a context where one was required.
 - Change the expression so an identifier appears to the left of the equal sign.  
   
 ## See also  
- [Using Arrays](../../javascript/advanced/using-arrays-javascript.md)
+ [Using Arrays](https://developer.mozilla.org/docs/Learn/JavaScript/First_steps/Arrays)

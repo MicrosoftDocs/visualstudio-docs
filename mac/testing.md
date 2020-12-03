@@ -1,6 +1,7 @@
 ---
 title: Visual Studio for Mac testing tools
-ms.date: 08/03/2020
+description: Creating and running tests using Visual Studio for Mac.
+ms.date: 11/09/2020
 ms.topic: conceptual
 helpviewer_keywords:
 - testing tools [Visual Studio for Mac]
@@ -21,7 +22,7 @@ To get started with testing, you can create a new test project in your solution 
 > For more information about unit testing your .NET Core applications and selecting unit test frameworks, see the [Unit testing in .NET Core and .NET Standard](/dotnet/core/testing/?pivots=xunit) documentation.
 
 ## Running tests
-The **Unit Tests** window is used to run unit tests and is opened using the **View > Pads > Unit Tests** menu. Unit tests in your solution are automatically discovered and shown in this window, where you can run all of the tests or a set of tests that you've selected.
+The **Unit Tests** window is used to run unit tests and is opened using the **View > Tests** menu. Unit tests in your solution are automatically discovered and shown in this window, where you can run all of the tests or a set of tests that you've selected.
 
 ![Test Window showing a list of unit tests and a tool bar for running or stopping tests.](media/test-window.PNG)
 

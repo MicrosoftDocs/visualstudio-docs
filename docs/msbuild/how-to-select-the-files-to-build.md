@@ -1,5 +1,7 @@
 ---
 title: 'How to: Select the Files to Build | Microsoft Docs'
+description: Learn how to select the files to build in the MSBuild project file by listing each file separately or using wildcards.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -99,7 +101,7 @@ In a project file, you can use the @() notation in tasks to specify an entire it
 >
 > `<CSC Sources="*.cs">...</CSC>`
 
-## Example
+## Example 1
 
 The following code example shows a project that includes all of the input files separately.
 
@@ -134,7 +136,7 @@ The following code example shows a project that includes all of the input files 
 </Project>
 ```
 
-## Example
+## Example 2
 
 The following code example uses a wildcard to include all the *.cs* files.
 

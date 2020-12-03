@@ -1,5 +1,7 @@
 ---
 title: MSBuild Toolset (ToolsVersion) | Microsoft Docs
+description: Learn how to use the ToolsVersion attribute in the MSBuild project file to specify a toolset of tasks, targets, and tools to build an application.
+ms.custom: SEO-VS-2020
 ms.date: 01/31/2018
 ms.topic: conceptual
 helpviewer_keywords:

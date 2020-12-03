@@ -1,5 +1,7 @@
 ---
 title: GenerateApplicationManifest Task | Microsoft Docs
+description: Use the MSBuild GenerateApplicationManifest task to generates a ClickOnce application manifest or a native manifest.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -78,7 +80,7 @@ The inputs for dependencies and files may be further decorated with item metadat
 |`TargetPath`|Specifies how the path should be defined in the generated manifest. This attribute is valid for all files. If this attribute is not specified, the item specification is used. This attribute is valid for all files and dependencies with a `DependencyType` value of `Install`.|
 |`IsDataFile`|A `Boolean` metadata value that indicates whether or not the file is a data file. A data file is special in that it is migrated between application updates. This metadata is only valid for files. `False` is the default value.|
 
-## Example
+## Example 1
 
 This example uses the `GenerateApplicationManifest` task to generate a ClickOnce application manifest and the `GenerateDeploymentManifest` task to generate a deployment manifest for an application with a single assembly. It then uses the `SignFile` task to sign the manifests.
 
@@ -132,7 +134,7 @@ This illustrates the simplest possible manifest generation scenario where ClickO
 </Project>
 ```
 
-## Example
+## Example 2
 
 This example uses the `GenerateApplicationManifest` and `GenerateDeploymentManifest` tasks to generate ClickOnce application and deployment manifests for an application with a single assembly, specifying name and identity of manifests.
 
@@ -193,7 +195,7 @@ This example is similar to previous example except the name and identity of the 
 </Project>
 ```
 
-## Example
+## Example 3
 
 This example uses the `GenerateApplicationManifest` and `GenerateDeploymentManifest` tasks to generate ClickOnce application and deployment manifests for an application with multiple files and assemblies.
 
@@ -312,7 +314,7 @@ This example uses the `GenerateApplicationManifest` and `GenerateDeploymentManif
 </Project>
 ```
 
-## Example
+## Example 4
 
 This example uses the `GenerateApplicationManifest` task to generate a native manifest for application *Test.exe*, referencing native component *Alpha.dll* and an isolated COM component *Bravo.dll*.
 

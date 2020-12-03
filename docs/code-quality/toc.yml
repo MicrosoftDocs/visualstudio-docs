@@ -8,13 +8,36 @@
     items:
     - name: Overview
       href: roslyn-analyzers-overview.md
+    - name: Installation
+      expanded: true
+      items:
+      - name: .NET analyzers
+        href: install-net-analyzers.md
+      - name: Third-party analyzers
+        href: install-roslyn-analyzers.md
     - name: Configuration
       expanded: true
       items:
       - name: Overview
         href: use-roslyn-analyzers.md
-      - name: Code quality
-        href: /dotnet/fundamentals/code-analysis/code-quality-rule-options
+      - name: .NET analyzers
+        expanded: true
+        items:
+        - name: Code quality
+          items:
+          - name: Code quality options
+            href: /dotnet/fundamentals/code-analysis/code-quality-rule-options?toc=%2fvisualstudio%2fcode-quality%2ftoc.json
+          - name: Use EditorConfig files for code quality
+            href: /dotnet/fundamentals/code-analysis/configuration-files?toc=%2fvisualstudio%2fcode-quality%2ftoc.json
+        - name: Code style
+          items:
+          - name: Code style preferences
+            href: ../ide/code-styles-and-code-cleanup.md?toc=%252fvisualstudio%252fcode-quality%252ftoc.json
+          - name: Use EditorConfig files for code style
+            displayName: Configure code style analyzers
+            href: ../ide/create-portable-custom-editor-options.md?toc=%252fvisualstudio%252fcode-quality%252ftoc.json
+          - name: Rule options
+            href: /dotnet/fundamentals/code-analysis/code-style-rule-options?toc=%2fvisualstudio%2fcode-quality%2ftoc.json
       - name: Configure live code analysis
         href: configure-live-code-analysis-scope-managed-code.md
       - name: Run code analysis manually
@@ -25,8 +48,6 @@
         href: automatic-feature-suspension.md
       - name: Suppress code analysis violations
         href: in-source-suppression-overview.md
-    - name: Install third-party analyzers
-      href: install-roslyn-analyzers.md
     - name: FAQ
       href: analyzers-faq.md
   - name: Legacy analysis
@@ -36,8 +57,8 @@
       href: static-code-analysis-for-managed-code-overview.md
     - name: Legacy analysis walkthrough
       href: walkthrough-analyzing-managed-code-for-code-defects.md
-    - name: Migrate to FxCop analyzers
-      href: migrate-from-legacy-analysis-to-fxcop-analyzers.md
+    - name: Migrate to .NET analyzers
+      href: migrate-from-legacy-analysis-to-net-analyzers.md
     - name: Run legacy analysis manually
       href: how-to-run-legacy-code-analysis-manually-for-managed-code.md
     - name: Configuration
@@ -64,16 +85,14 @@
         href: how-to-synchronize-code-project-rule-sets-with-team-project-check-in-policy.md
       - name: Version compatibility
         href: version-compatibility-for-code-analysis-check-in-policies.md
-    - name: FxCop analyzers
+    - name: Migrate to .NET analyzers
       items:
-      - name: Install FxCop analyzers
-        href: install-fxcop-analyzers.md
-      - name: Migrate to FxCop analyzers
-        items:
-        - name: Migrate from legacy analysis to FxCop analyzers
-          href: migrate-from-legacy-analysis-to-fxcop-analyzers.md
-        - name: FAQ
-          href: fxcop-analyzers-faq.md
+      - name: Migrate from legacy analysis to .NET analyzers
+        href: migrate-from-legacy-analysis-to-net-analyzers.md
+      - name: Migrate from FxCop analyzers to .NET analyzers
+        href: migrate-from-fxcop-analyzers-to-net-analyzers.md
+      - name: FAQ
+        href: net-analyzers-faq.md
     - name: Rule sets
       items:
       - name: Overview
@@ -434,3 +453,11 @@
       href: how-to-generate-code-metrics-data.md
     - name: Work with code metrics data
       href: working-with-code-metrics-data.md
+- name: C++ code analysis
+  items:
+  - name: Analyze C and C++ code
+    href: /cpp/code-quality/code-analysis-for-c-cpp-overview
+  - name: EditorConfig formatting conventions
+    href: ../ide/cpp-editorconfig-properties.md
+  - name: C++ code analysis warnings
+    href: /cpp/code-quality/code-analysis-for-c-cpp-warnings

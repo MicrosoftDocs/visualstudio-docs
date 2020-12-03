@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: fc33d419-78cf-485e-b558-5b7efa900f14
-ms.date: 04/17/2020
+ms.date: 12/02/2020
 ms.topic: how-to
 description:  Learn about the DataCamp training subscription included with selected Visual Studio subscriptions.
 ---
@@ -17,7 +17,7 @@ Eligible Visual Studio subscriptions include subscriptions to DataCamp.  With Da
 
 2. Locate the DataCamp benefit tile in the "Professional Development" category, and click on **Activate**.
    > [!div class="mx-imgBorder"]
-   > ![DataCamp Benefit Tile](_img/vs-datacamp/vs-datacamp-tile-2.png)
+   > ![DataCamp Benefit Tile](_img/vs-datacamp/vs-datacamp-tile-2.png "Click 'Activate' to get started.")
 
 3. On the DataCamp page, you can create a new account.  You can choose to enter an email address and password, or sign in using existing accounts from Facebook, LinkedIn, or Google.  Once you've provided your sign-in information, click **Get Started**.
 
@@ -31,33 +31,33 @@ Eligible Visual Studio subscriptions include subscriptions to DataCamp.  With Da
 
    Just click on your chosen path to get started.
    > [!div class="mx-imgBorder"]
-   > ![DataCamp Choose Path](_img/vs-datacamp/vs-datacamp-choose-path.png)
+   > ![DataCamp Choose Path](_img/vs-datacamp/vs-datacamp-choose-path.png "Choose a learning path that interests you.")
 
 5. After you have selected your path, you can further refine your learning path by selecting a goal.  For example, if you chose the "Develop your Data Science Skillset" path, you will see the following options. Choose an option, or click **I am not sure.  Show me all career paths** to create a broader path.
    > [!div class="mx-imgBorder"]
-   > ![DataCamp Data Science Skillset](_img/vs-datacamp/vs-datacamp-datascience.png)
+   > ![DataCamp Data Science Skillset](_img/vs-datacamp/vs-datacamp-datascience.png "Click 'I am not sure.  Show me all career paths' to display the complete list.")
 
 6. Based on the path and options you have selected, you'll see a selection of Career Tracks.  Click on the **Enroll** button for the track of your choice.
    > [!div class="mx-imgBorder"]
-   > ![DataCamp Career Track](_img/vs-datacamp/vs-datacamp-all-tracks.png)
+   > ![DataCamp Career Track](_img/vs-datacamp/vs-datacamp-all-tracks.png "Click the 'Enroll' button on your selected path to get started.")
 
-7. Once you have enrolled in your track, the first course in that track will open.  You'll see a tutorial explaining how to interact with the course, including navigation and completing the course exercises.
+7. After you have enrolled in your track, the first course in that track will open.  You'll see a tutorial explaining how to interact with the course, including navigation and completing the course exercises.
 
    > [!div class="mx-imgBorder"]
-   > ![DataCamp Getting Started](_img/vs-datacamp/vs-datacamp-getting-started.png)
+   > ![DataCamp Getting Started](_img/vs-datacamp/vs-datacamp-getting-started.png "Watch the tutorial to learn how to navigate the courses.")
 
 You can stop at any point, and resume your training in your next session.  Just visit [https://www.datacamp.com](https://www.datacamp.com), and sign in.  You'll see your dashboard and can resume your training right where you paused. Simply click **Continue Track**.
 
 > [!div class="mx-imgBorder"]
-> ![DataCamp Continue Training](_img/vs-datacamp/vs-datacamp-continue-training.png)
+> ![DataCamp Continue Training](_img/vs-datacamp/vs-datacamp-continue-training.png "Click 'Continue Track' to resume training at any time.")
 
 ## Eligibility
 | Subscription Level                                                 |     Channels                                            | Benefit                                                          | Renewable?    |
 |--------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------|---------------|
 | Visual Studio Enterprise (Standard)   | VL, Azure, Retail, | 3-months       |  No.  Available to new subscribers only          |
-| Visual Studio Enterprise with GitHub Enterprise   | VL | 3-months       |  No.  Available to new subscribers only          |
+| Visual Studio Enterprise subscription with GitHub Enterprise   | VL | 3-months       |  No.  Available to new subscribers only          |
 | Visual Studio Professional (Standard) | VL, Azure, Retail                                       | 3-months                                                            |  No.  Available to new subscribers only           |
-| Visual Studio Professional with GitHub Enterprise| VL | 3-months                                                            |  No.  Available to new subscribers only           |
+| Visual Studio Professional subscription with GitHub Enterprise| VL | 3-months                                                            |  No.  Available to new subscribers only           |
 | Visual Studio Test Professional (Standard)                         | VL, Retail                                              | 3-months                                             |  No.  Available to new subscribers only           |
 | MSDN Platforms (Standard)                                          | VL, Retail                                              | 3-months                                              |  No.  Available to new subscribers only           |
 | Visual Studio Enterprise (Standard)  | NFR<sup>1</sup> |Not available  | N/A |

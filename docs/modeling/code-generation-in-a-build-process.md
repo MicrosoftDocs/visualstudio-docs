@@ -147,13 +147,13 @@ Text transformation happens before other tasks in the build process. You can def
 <PropertyGroup>
     <BeforeTransform>CustomPreTransform</BeforeTransform>
     <AfterTransform>CustomPostTransform</AfterTransform>
-  </PropertyGroup>
-  <Target Name="CustomPreTransform">
+</PropertyGroup>
+<Target Name="CustomPreTransform">
     <Message Text="In CustomPreTransform..." Importance="High" />
-  </Target>
-  <Target Name="CustomPostTransform">
+</Target>
+<Target Name="CustomPostTransform">
     <Message Text="In CustomPostTransform..." Importance="High" />
-  </Target>
+</Target>
 ```
 
 In `AfterTransform`, you can reference lists of files:

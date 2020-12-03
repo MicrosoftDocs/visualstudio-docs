@@ -1,10 +1,10 @@
 ---
-title: Issues Signing in to Visual Studio Subscriptions | Microsoft Docs
+title: Issues signing in to Visual Studio subscriptions | Microsoft Docs
 author: evanwindom
 ms.author: lank
 manager: lank
 ms.assetid: 176c7f11-b19d-49e9-a6dd-b2e5da5e8480
-ms.date: 03/11/2020
+ms.date: 10/28/2020
 ms.topic: conceptual
 description:  Learn about issues that may arise when signing in to Visual Studio subscriptions
 ---
@@ -27,12 +27,12 @@ The situation is particularly confusing for users who have two accounts with the
 If you try to sign up for a Microsoft consumer app with a work or school email address, you'll see the message below.
 
    > [!div class="mx-imgBorder"]
-   > ![Can't create an account with work email](_img/sign-in-issues/cannot-use-work-email.png)
+   > ![Can't create an account with work email](_img/sign-in-issues/cannot-use-work-email.png "Provide a username and password to create your account.")
 
 However, if you try to sign up for a Microsoft app that supports personal and work/school accounts, you should see this message:
 
    > [!div class="mx-imgBorder"]
-   > ![Work/school accounts supported](_img/sign-in-issues/existing-account.png)
+   > ![Work/school accounts supported](_img/sign-in-issues/existing-account.png "You can't sign up here with a work or school email address...")
 
 ### Are existing accounts affected?
 The sign-up block described here only prevents the creation of new accounts. It has no impact on users who already have a Microsoft Account with a work/school email address. If you are already in this situation, we've made making it easier to rename a personal Microsoft account. This [support article](https://windows.microsoft.com/en-US/Windows/rename-personal-microsoft-account) provides simple step-by-step guidance. Renaming your personal Microsoft account means changing the username, and does not impact your work email or how you sign in to business services such as Microsoft 365. It also doesn't impact your personal stuff—it just changes the way you sign in to it. You can use another (personal) email address, get a new @outlook.com email address from Microsoft, or use your phone number as a new username.
@@ -56,7 +56,7 @@ The term “aliasing” refers to users having different identities to sign in t
 Aliasing can be encountered when a company has a Microsoft Online Service for their directory sign-in, like JohnD@contoso.com, but users access their email accounts using aliases or friendly names, such as John.Doe@contoso.com. For many customers who manage their subscriptions through the Volume Licensing Service Center (VLSC), this can result in an unsuccessful sign-in experience as the email address provided (John.Doe@contoso.com) does not match the directory address (JohnD@contoso.com) required for successful authentication through the “Work or School Account” option.
 
 ### What options do I have?
-From a subscriber perspective, it is important to first work with your administrator to understand your company’s identity configuration. If necessary, your administrator may have to update your account settings from their administration portal, or you may need to create a Microsoft Account (MSA) using your corporate email address. Before taking the steps to create an MSA, speak with your administrator regarding any policies or issues with taking this action. 
+From a subscriber perspective, it is important to first work with your admin to understand your company’s identity configuration. If necessary, your admin may have to update your account settings from their admin portal, or you may need to create a Microsoft Account (MSA) using your corporate email address. Before taking the steps to create an MSA, speak with your admin regarding any policies or issues with taking this action. 
 
 ## See also
 - [Visual Studio documentation](/visualstudio/)

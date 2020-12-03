@@ -1,5 +1,7 @@
 ---
 title: Configuring Targets and Tasks | Microsoft Docs
+description: Configure MSBuild targets and tasks to run out-of-process with MSBuild so that you can target contexts that differ from the one you are running on.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: 9aabe67a-1720-4bbf-80d3-822b3ccf75c0

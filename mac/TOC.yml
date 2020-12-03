@@ -32,8 +32,6 @@
   items: 
     - name: Customizing the look and feel of IDE
       href: customizing-the-ide.md
-    - name: Extending Visual Studio for Mac
-      href: extending-visual-studio-mac.md
 - name: Projects and Solutions
   items: 
     - name: Overview
@@ -171,19 +169,7 @@
         - name: Create a Multi-Container App with Docker Compose
           href: docker-multi-container.md
     - name: Unity Game Development
-      items: 
-        - name: Unity Game Development
-          href: unity-tools.md
-        - name: Setup
-          href: setup-vsmac-tools-unity.md
-        - name: Getting Started with Unity
-          href: unity-walkthrough.md
-        - name: Using Unity Tools
-          href: using-vsmac-tools-unity.md
-        - name: Using .NET 4.x in Unity
-          href: /visualstudio/cross-platform/unity-scripting-upgrade?context=visualstudio/mac/context
-        - name: Change Log
-          href: /visualstudio/cross-platform/change-log-visual-studio-tools-for-unity-mac?context=visualstudio/mac/context
+      href: /visualstudio/gamedev/unity/get-started/visual-studio-tools-for-unity
     - name: Mobile apps with Xamarin
       href: ./xamarin.md
 - name: Accessibility

@@ -1,5 +1,7 @@
 ---
 title: Choose Toolbox Items, WPF Components
+description: Learn how to use the WPF Components tab to display the Windows Presentation Foundation controls available for selection on your local computer.
+ms.custom: SEO-VS-2020
 ms.date: 06/21/2017
 ms.topic: reference
 f1_keywords:
@@ -35,7 +37,7 @@ Lists the names of WPF controls for which entries exist in your computer's regis
 
 **Namespace**
 
-Displays the hierarchy of the [.NET API](/dotnet/api/?view=netframework-4.7) namespace that defines the structure of the component. Sort on this column to list the available components within each .NET namespace installed on your computer.
+Displays the hierarchy of the [.NET API](/dotnet/api/?view=netframework-4.7&preserve-view=true) namespace that defines the structure of the component. Sort on this column to list the available components within each .NET namespace installed on your computer.
 
 **Assembly Name**
 

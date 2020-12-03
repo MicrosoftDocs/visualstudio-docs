@@ -1,5 +1,7 @@
 ---
 title: 'How to: Export Class Diagrams As Images (Class Designer)'
+description: Learn how to export a class diagram that you created from code in a project by saving the diagram as an image.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords:
