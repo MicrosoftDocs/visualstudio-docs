@@ -1,5 +1,7 @@
 ---
 title: Implementing GetMethodProperty | Microsoft Docs
+description: Learn how Visual Studio obtains information about the current method on the stack frame by using the GetDebugProperty of the debug engine.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
