@@ -1,5 +1,7 @@
 ---
 title: Hierarchies and Selection | Microsoft Docs
+description: Learn how Visual Studio handles hierarchies such as projects, and how it uses selection context to determine what is displayed to the user.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

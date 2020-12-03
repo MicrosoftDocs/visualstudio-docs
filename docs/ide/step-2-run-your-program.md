@@ -1,5 +1,7 @@
 ---
 title: 'Step 2: Run your picture viewer app'
+description: Learn how to run your picture viewer app.
+ms.custom: SEO-VS-2020
 ms.date: 09/06/2019
 ms.assetid: 9a8fe90e-c97b-4e98-b6c8-0c6b3962c49d
 ms.topic: tutorial

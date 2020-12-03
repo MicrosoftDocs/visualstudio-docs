@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: 2e0fd8bb-8f20-487c-b350-b8fde405ea5e
-ms.date: 11/05/2020
+ms.date: 12/02/2020
 ms.topic: how-to
 description: Learn how to activate the technical support benefit included with your Visual Studio subscription.
 ---
@@ -102,9 +102,9 @@ To use your Visual Studio subscription technical support benefit for issues rela
 | Subscription Level                                                 |     Channels                                            | Benefit                                                          | Renewable?    |
 |--------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------|---------------|
 | Visual Studio Enterprise (Standard)   | VL, Azure, Retail, selected NFR<sup>1</sup> | 4 incidents       |  Yes|
-| Visual Studio Enterprise with GitHub Enterprise | VL | 4 incidents       |  Yes|
+| Visual Studio Enterprise subscription with GitHub Enterprise | VL | 4 incidents       |  Yes|
 | Visual Studio Professional (Standard) | VL, Azure, Retail, selected NFR<sup>2</sup>                                        | 2 incidents                                                          |Yes         |
-| Visual Studio Professional with GitHub Enterprise | VL                                     | 2 incidents                                                          |Yes         |
+| Visual Studio Professional subscription with GitHub Enterprise | VL                                     | 2 incidents                                                          |Yes         |
 | Visual Studio Test Professional (Standard)                         | VL, Retail                                              | 2 incidents                                             |  Yes         |
 | MSDN Platforms (Standard)                                          | VL, Retail                                              | 2 incidents                                               | Yes         |
 | Visual Studio Enterprise, Visual Studio Professional (monthly cloud) | Azure                                       | Not available                                                           |NA|
