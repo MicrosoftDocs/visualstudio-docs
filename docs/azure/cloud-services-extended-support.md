@@ -12,7 +12,7 @@ monikerRange: ">=vs-2019"
 ---
 # Create and deploy a cloud service using extended support in Visual Studio (Preview)
 
-Starting with Visual Studio 2019 version 16.9 (currently in preview), you can work with cloud services using Azure Resource Manager (ARM), which greatly simplifies and modernizes maintenance and management of Azure resources. This functionality is referred to as *extended support*. You can use extended support to publish an existing cloud service project.
+Starting with Visual Studio 2019 version 16.9 (currently in preview), you can work with cloud services using Azure Resource Manager (ARM), which greatly simplifies and modernizes maintenance and management of Azure resources. This functionality is referred to as *extended support*. You can use extended support to publish an existing cloud service project. For information on this Azure service, see [Azure Cloud Services (extended support) documentation](/azure/cloud-services-extended-support).
 
 ## Publish a Azure Cloud Service project using extended support
 
@@ -20,7 +20,7 @@ You can use extended support to publish your existing Azure Cloud Service projec
 
 There are some differences when you publish using extended support. For example, you are not asked if you are publishing to **Staging** or **Production**, because these deployment slots are not part of the extended support publishing model. Instead, with extended support services, you can set up multiple deployments, and swap deployments in the Azure Portal.
 
-Before publishing a classic Azure Cloud Service using extended support, check the storage accounts your project uses and make sure they are Storage V1 or Storage V2 accounts. The legacy storage account types will fail with an error message at deploy time. Be sure to check the storage account used by diagnostics. To check the diagnostics storage account, see [Set up diagnostics for Azure Cloud Services and virtual machines](vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines). If your service uses a legacy storage account, you can upgrade it; see [Upgrade to a general-purpose v2 storage account](/azure/storage/common/storage-account-upgrade?tabs=azure-portal).  For general information on the types of storage accounts, see [Storage account overview](/azure/storage/common/storage-account-overview).
+Before publishing a classic Azure Cloud Service using extended support, check the storage accounts your project uses and make sure they are Storage V1 or Storage V2 accounts. The legacy storage account types will fail with an error message at deploy time. Be sure to check the storage account used by diagnostics. To check the diagnostics storage account, see [Set up diagnostics for Azure Cloud Services and virtual machines](vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines.md). If your service uses a legacy storage account, you can upgrade it; see [Upgrade to a general-purpose v2 storage account](/azure/storage/common/storage-account-upgrade?tabs=azure-portal).  For general information on the types of storage accounts, see [Storage account overview](/azure/storage/common/storage-account-overview).
 
 ### To publish a classic Azure Cloud Service project using extended support
 
@@ -103,4 +103,4 @@ If you see this message, it means your Azure subscription has not enabled extend
 
 ## Next steps
 
-Set up continuous intregration (CI) using the **Configure** button on the **Publish** screen. For more information, see [Azure Pipelines documentation](/azure/devops/pipelines/?view=azure-devops).
+Set up continuous integration (CI) using the **Configure** button on the **Publish** screen. For more information, see [Azure Pipelines documentation](/azure/devops/pipelines/?view=azure-devops&preserve-view=true).
