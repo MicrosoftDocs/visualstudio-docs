@@ -63,7 +63,7 @@ Before publishing a classic Azure Cloud Service using extended support, check th
 
 1. Continue with the steps in the section [Publish a cloud service](#publish-a-cloud-service).
 
-## Publish an extended support cloud service project
+## Publish an extended support Azure Cloud Service project
 
 1. Create or open an Azure Cloud Service project in Visual Studio.
 
@@ -71,7 +71,7 @@ Before publishing a classic Azure Cloud Service using extended support, check th
 
 1. Continue with the steps in the section [Publish a cloud service](#publish-a-cloud-service).
 
-## Publish an cloud service using extended support
+## Publish an Azure Cloud Service using extended support
 
 1. Whether your project is a classic or extended support project, the steps in the **Publish wizard** are the same.
 
@@ -133,6 +133,18 @@ To clean up the Azure resources you created by following this tutorial, go to th
 If you publish a classic Azure Cloud Service project using extended support, and then later want to publish again using the classic publishing method, follow these steps to remove any artifacts associated with extended support to return to your previous configuration.
 
 1. In the *.cscfg* file, remove the `NetworkConfiguration` element that was added by extended support.
+
+1. Right-click the Azure Cloud Service project node, and choose **Publish...*.
+
+1. Follow the steps in [Using the Visual Studio Publish Azure Application Wizard](vs-azure-tools-publish-azure-application-wizard.md).
+
+## Troubleshooting
+
+When using Azure Cloud Services (extended support), you might encounter these error messages.
+
+### The resource type could not be found in the namespace 'Microsoft.Compute' for api version '2020-10-01-preview'
+
+If you see this message, it means your Azure subscription has not enabled extended support. To publish an Azure Cloud Service using extended support, your Azure subscription must explicitly enable the preview feature. Follow these instructions to register extended support in your subscription: [Deploy Azure Cloud Services (extended support) using the Azure portal](/azure/cloud-services-extended-support/deploy-portal#register-the-feature-for-your-subscription).
 
 ## Next steps
 
