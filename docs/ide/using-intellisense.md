@@ -1,5 +1,7 @@
 ---
 title: Parameter info, list members, and quick info
+description: "Learn how to use these IntelliSense features:  List Members, Parameter Info, Quick Info, and Complete Word."
+ms.custom: SEO-VS-2020
 ms.date: 05/25/2018
 ms.topic: conceptual
 f1_keywords:

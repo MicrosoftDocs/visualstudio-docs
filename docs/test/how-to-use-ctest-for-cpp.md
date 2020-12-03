@@ -1,5 +1,7 @@
 ---
 title: How to use CTest for C++
+description: Learn how to create and run tests with CTest, which is integrated into the Visual Studio IDE by default. 
+ms.custom: SEO-VS-2020
 ms.date: 01/23/2020
 ms.topic: how-to
 ms.author: corob

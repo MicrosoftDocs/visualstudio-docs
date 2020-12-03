@@ -1,7 +1,7 @@
 ---
 title: dotnet-toolinstall
 description: devinit tool dotnet-toolinstall.
-ms.date: 08/28/2020
+ms.date: 11/20/2020
 ms.topic: reference
 author: andysterland
 ms.author: andster
@@ -32,16 +32,16 @@ The `input` property is used to specify the .NET Core tool to install. There is 
 
 ### Additional options
 
-Additional configuration options can be passed in as a value of the `additionalOptions`. These arguments are a direct passthrough to the arguments used by the [`dotnet tool update`](/dotnet/core/tools/global-tools#update-a-tool) command. 
+Additional configuration options can be passed in as a value of the `additionalOptions`. These arguments are a direct passthrough to the arguments used by the [`dotnet tool update`](/dotnet/core/tools/global-tools#update-a-tool) command.
 
 The `dotnet tool update` command is used to safely handle the case where a tool is already installed.
 
 ### Default behavior
 
-The Default behavior of the `dotnet-toolinstall` tool is to error as `input` is required.
+The default behavior of the `dotnet-toolinstall` tool is to error as `input` is required.
 
 ## Example usage
-Below are examples of how to run `dotnet-toolinstall` using a `.devinit.json`. 
+Below are examples of how to run `dotnet-toolinstall` using a `.devinit.json`.
 
 #### .devinit.json that will install the dotnet-trace tool:
 ```json

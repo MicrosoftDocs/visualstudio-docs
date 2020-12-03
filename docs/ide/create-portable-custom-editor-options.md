@@ -1,5 +1,7 @@
 ---
 title: EditorConfig settings
+description: Learn how to add an EditorConfig file to your project or codebase to enforce consistent coding styles for everyone that works in the codebase.
+ms.custom: SEO-VS-2020
 ms.date: 09/02/2020
 ms.topic: how-to
 helpviewer_keywords:

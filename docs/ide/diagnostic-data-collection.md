@@ -1,5 +1,7 @@
 ---
 title: Diagnostic data and system-generated logs
+description: Learn about Visual Studio system-generated logs, the types of data that's collected, and how it's used to fix problems and improve product quality.
+ms.custom: SEO-VS-2020
 ms.date: 05/24/2018
 ms.topic: conceptual
 author: jillre

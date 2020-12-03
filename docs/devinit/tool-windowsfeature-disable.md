@@ -1,7 +1,7 @@
 ---
 title: windowsfeature-disable
 description: devinit tool windowsfeature-disable.
-ms.date: 08/28/2020
+ms.date: 11/20/2020
 ms.topic: reference
 author: andysterland
 ms.author: andster
@@ -34,10 +34,10 @@ None.
 
 ### Default behavior
 
-The Default behavior of the `windowsfeature-disable` tool is to error, as `input` is required.
+The default behavior of the `windowsfeature-disable` tool is to error as `input` is required.
 
 ## Example usage
-Below is an example of how to run `windowsfeature-disable` using a `.devinit.json`. 
+Below is an example of how to run `windowsfeature-disable` using a `.devinit.json`.
 
 #### .devinit.json that will disable a specified feature:
 ```json

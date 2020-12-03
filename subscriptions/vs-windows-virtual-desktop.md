@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: 872c5746-5357-4764-949b-aa525a0adf1a
-ms.date: 09/08/2020
+ms.date: 12/02/2020
 ms.topic: conceptual
 description:  Learn how you can take advantage of Microsoft Windows Virtual Desktop via your Visual Studio subscription 
 ---
@@ -43,9 +43,9 @@ When all your prerequisites are in place, you’ll want to complete several acti
 | Subscription Level                                                 |     Channels                                            | Benefit                                                          | Renewable?    |
 |--------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------|---------------|
 | Visual Studio Enterprise (Standard)   | VL, Azure, Retail, | Available|  Yes          |
-| Visual Studio Enterprise with GitHub Enterprise  | VL | Available|  Yes          |
+| Visual Studio Enterprise subscription with GitHub Enterprise  | VL | Available|  Yes          |
 | Visual Studio Professional (Standard) | VL, Azure, Retail                                       | Available                                                             |  Yes             |
-| Visual Studio Professional with GitHub Enterprise | VL                                       | Available                                        |  Yes           |
+| Visual Studio Professional subscription with GitHub Enterprise | VL                                       | Available                                        |  Yes           |
 | Visual Studio Test Professional (Standard)                         | VL, Retail                                              | Available|  Yes          |
 | MSDN Platforms (Standard)                                          | VL, Retail                                              | Available                                         |  Yes          |
 | Visual Studio Enterprise (Standard)  | NFR<sup>1</sup> |Not available  | N/A |

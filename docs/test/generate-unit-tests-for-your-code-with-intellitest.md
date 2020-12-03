@@ -1,5 +1,7 @@
 ---
 title: Generate unit tests for your code with IntelliTest
+description: IntelliTest explores your .NET code to generate test data and a suite of unit tests. Learn how to run IntelliTest to see which tests are failing and fix them. 
+ms.custom: SEO-VS-2020
 ms.date: 10/05/2015
 ms.topic: conceptual
 f1_keywords:

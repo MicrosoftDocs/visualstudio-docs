@@ -1,7 +1,7 @@
 ---
 title: require-azureartifactscredentialprovider
 description: devinit tool require-azureartifactscredentialprovider.
-ms.date: 08/28/2020
+ms.date: 11/20/2020
 ms.topic: reference
 author: andysterland
 ms.author: andster
@@ -36,10 +36,10 @@ Additional options are passed as-is to the credential provider command.
 
 ### Default behavior
 
-The Default behavior of the `require-azureartifactscredentialprovider` tool is to install latest of Azure Artifacts Credential Provider.
+The default behavior of the `require-azureartifactscredentialprovider` tool is to install the latest version of the Azure Artifacts Credential Provider.
 
 ## Example usage
-Below is an example of how to run `require-azureartifactscredentialprovider` using a `.devinit.json`. 
+Below is an example of how to run `require-azureartifactscredentialprovider` using a `.devinit.json`.
 
 #### .devinit.json that will install Azure Artifacts Credential Provider:
 ```json

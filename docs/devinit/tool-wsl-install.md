@@ -1,7 +1,7 @@
 ---
 title: wsl-install
 description: devinit tool wsl-install.
-ms.date: 11/10/2020
+ms.date: 11/20/2020
 ms.topic: reference
 author: andysterland
 ms.author: andster
@@ -48,7 +48,7 @@ The URI for the AppX application distribution package (`.appx`) containing the d
 
 ### Additional options
 
-Multiple Additional options are supported:
+Multiple additional options are supported:
 
 | Name                      | Type      | Required | Value                                                                                                                                                                                    |
 |---------------------------|-----------|----------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -57,10 +57,10 @@ Multiple Additional options are supported:
 
 ### Default behavior
 
-The Default behavior of the `wsl-install` tool is to error as the `input` property, the distro to install, is required.
+The default behavior of the `wsl-install` tool is to error as the `input` property, the distro to install, is required.
 
 ## Example usage
-Below are examples of how to run `wsl-install` using a `.devinit.json`. 
+Below are examples of how to run `wsl-install` using a `.devinit.json`.
 
 #### .devinit.json that will install Ubuntu 20.04:
 ```json
