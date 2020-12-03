@@ -25,9 +25,9 @@ When you sign in to Azure DevOps using either the identity that you used for act
 | Subscription Level                                                 |     Channels                                            | Benefit                                                          | Renewable?    |
 |--------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------|---------------|
 | Visual Studio Enterprise (Standard, monthly cloud)   | VL, Azure, Retail,  selected NFR<sup>1</sup>  | Azure Boards & Repos (Basic<sup>2</sup>), Azure Test Plans, self-hosted parallel jobs |  Yes          |
-| Visual Studio Enterprise with GitHub Enterprise   | VL| Azure Boards & Repos (Basic<sup>2</sup>), Azure Test Plans, self-hosted parallel jobs |  Yes          |
+| Visual Studio Enterprise subscription with GitHub Enterprise   | VL| Azure Boards & Repos (Basic<sup>2</sup>), Azure Test Plans, self-hosted parallel jobs |  Yes          |
 | Visual Studio Professional (Standard, monthly cloud) | VL, Azure, Retail                                        | Azure Boards & Repos (Basic<sup>2</sup>)                                                             |  Yes          |
-| Visual Studio Professional with GitHub Enterprise | VL| Azure Boards & Repos (Basic<sup>2</sup>)                                                             |  Yes          |
+| Visual Studio Professional subscription with GitHub Enterprise | VL| Azure Boards & Repos (Basic<sup>2</sup>)                                                             |  Yes          |
 | Visual Studio Test Professional (Standard)                         | VL, Retail                                              | Azure Boards & Repos (Basic<sup>2</sup>), Azure Test Plans                                              |  Yes          |
 | MSDN Platforms (Standard)                                          | VL, Retail                                              | Azure Boards & Repos (Basic<sup>2</sup>), Azure Test Plans                                             |  Yes          |
 ||
