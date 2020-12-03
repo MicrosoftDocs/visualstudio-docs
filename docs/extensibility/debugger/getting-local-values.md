@@ -1,6 +1,6 @@
 ---
 title: Getting Local Values | Microsoft Docs
-description: Learn how Visual Studio gets the value of a local by using GetPropertyInfo for managed and unmanaged code.
+description: Learn how Visual Studio gets the value of a local variable by using GetPropertyInfo for managed and unmanaged code.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
