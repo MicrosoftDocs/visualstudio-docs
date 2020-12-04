@@ -1,7 +1,7 @@
 ---
 title: "Overview of graphics diagnostics | Microsoft Docs"
-description: "A high-level overview of Visual Studio Graphics Diagnostics"
-ms.custom: "seodec18"
+description: Visual Studio Graphics Diagnostics is a set of tools to log Direct3D activity, and analyze the logs to troubleshoot rendering and performance problems.
+ms.custom: "SEO-VS-2020, seodec18"
 ms.date: "02/09/2017"
 ms.topic: "conceptual"
 author: "mikejo5000"
@@ -14,7 +14,7 @@ ms.workload:
 Visual Studio *Graphics Diagnostics* is a set of tools for recording and then analyzing rendering and performance problems in Direct3D apps. Graphics Diagnostics can be used on apps that are running locally on your Windows PC or on a remote PC or device.
 
 ## Using Graphics Diagnostics to debug rendering problems
- Debugging rendering problems in a graphically-rich app is not as straight-forward as starting a debugger and stepping through some code. In each frame, hundreds of thousands of unique pixels are produced, each according to a complex set of state, data, parameters, and code—of these, perhaps only a few pixels will exhibit the problem you are trying to diagnose. To complicate matters even further, the code that generates each pixel is executed on specialized hardware that processes hundreds of pixels in parallel. Traditional debugging tools and techniques—which are difficult to leverage in even lightly-threaded code—are ineffective when faced with so much data.
+ Debugging rendering problems in a graphically rich app is not as straightforward as starting a debugger and stepping through some code. In each frame, hundreds of thousands of unique pixels are produced, each according to a complex set of state, data, parameters, and code—of these, perhaps only a few pixels will exhibit the problem you are trying to diagnose. To complicate matters even further, the code that generates each pixel is executed on specialized hardware that processes hundreds of pixels in parallel. Traditional debugging tools and techniques—which are difficult to leverage in even lightly-threaded code—are ineffective when faced with so much data.
 
  The Graphics Diagnostics tools in [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] are designed to help you locate rendering problems by starting with the visual artifacts that indicate the problem and then tracing back to the source of the problem by focusing only on relevant shader code, pipeline stages, draw calls, resources, and device state—in the app's own source code.
 
