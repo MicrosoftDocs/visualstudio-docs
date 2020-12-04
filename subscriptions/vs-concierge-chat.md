@@ -1,10 +1,10 @@
 ---
-title: Concierge Chat benefit in Visual Studio Subscription | Microsoft Docs
+title: Concierge Chat benefit in Visual Studio subscription | Microsoft Docs
 author: evanwindom
 ms.author: v-evwin
-manager: lank
+manager: cabuschl
 ms.assetid: dcd99e32-c9f3-4e19-8428-319dfa220463
-ms.date: 10/21/2020
+ms.date: 12/02/2020
 ms.topic: how-to
 description:  Learn about the Concierge Chat benefit included in Visual Studio subscriptions.
 
@@ -35,9 +35,9 @@ Getting help via the Concierge Chat service is very easy.
 | Subscription Level                                                 |     Channels                                            | Benefit                                                          | Renewable?    |
 |--------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------|---------------|
 | Visual Studio Enterprise (Standard)   | VL, Azure, Retail,  selected NFR<sup>1</sup> | Available       |  Yes          |
-| Visual Studio Enterprise with GitHub Enterprise | VL| Available       |  Yes          |
+| Visual Studio Enterprise subscription with GitHub Enterprise | VL| Available       |  Yes          |
 | Visual Studio Professional (Standard) | VL, Azure, Retail                                       | Available                                                            |  Yes          |
-| Visual Studio Professional with GitHub Enterprise | VL | Available                                                            |  Yes          |
+| Visual Studio Professional subscription with GitHub Enterprise | VL | Available                                                            |  Yes          |
 | Visual Studio Test Professional (Standard)                         | VL, Retail                                              | Available                                             |  Yes          |
 | MSDN Platforms (Standard)                                          | VL, Retail                                              | Available                                              |  Yes          |
 | Visual Studio Enterprise, Visual Studio Professional (monthly cloud) | Azure | Not available | N/A |

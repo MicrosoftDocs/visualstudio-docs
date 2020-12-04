@@ -1,10 +1,10 @@
 ---
-title: Microsoft Tech Community in Visual Studio Subscriptions | Microsoft Docs
+title: Microsoft Tech Community in Visual Studio subscriptions | Microsoft Docs
 author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: 8fccb5f6-ff61-488f-a91e-447faeda798d
-ms.date: 11/17/2020
+ms.date: 12/02/2020
 ms.topic: conceptual
 description:  Learn about the Microsoft Tech Community forum support benefit included in selected Visual Studio subscriptions.
 ---
@@ -39,9 +39,9 @@ Availability of the Azure Community benefit depends on your subscription level a
 |                                          Subscription Level                                           |     Channels      |    Benefit    | Renewable? |
 |-------------------------------------------------------------------------------------------------------|-------------------|---------------|------------|
 |                           Visual Studio Enterprise (Standard), NFR<sup>1</sup>                            | VL, Azure, Retail |   Available    |    Yes     |
-|                           Visual Studio Enterprise with GitHub Enterprise                           | VL, Azure, Retail |   Available    |    Yes     |
+|                           Visual Studio Enterprise subscription with GitHub Enterprise                           | VL, Azure, Retail |   Available    |    Yes     |
 |                          Visual Studio Professional (Standard)                          | VL, Azure, Retail |   Available    |    Yes     |
-|                          Visual Studio Professional with GitHub Enterprise                          | VL, Azure, Retail |   Available    |    Yes     |
+|                          Visual Studio Professional subscription with GitHub Enterprise                          | VL, Azure, Retail |   Available    |    Yes     |
 |                              Visual Studio Test Professional (Standard)                               |    VL, Retail     |   Available    |    Yes     |
 |                                       MSDN Platforms (Standard)                                       |    VL, Retail     |   Available    |    Yes     |
 | Visual Studio Enterprise (monthly cloud), Visual Studio Professional (monthly cloud)|        All        | Not available |     No     |

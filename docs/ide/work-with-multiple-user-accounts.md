@@ -1,5 +1,7 @@
 ---
 title: Work with multiple user accounts
+description: Learn how to add all of your Microsoft accounts to Visual Studio so that you can access the resources from any account without having to sign in to it separately.
+ms.custom: SEO-VS-2020
 ms.date: 11/16/2020
 ms.topic: conceptual
 author: ornellaalt
@@ -109,7 +111,7 @@ To sign in using device code flow:
 
 1. Under **Visual Studio**, choose **Continue**.
 
-   ![device-login-page.png](media/work-with-multiple-user-accounts/device-login-page.png)
+   ![Screenshot of the Device Login page showing the Continue option.](media/work-with-multiple-user-accounts/device-login-page.png)
 
 1. Follow the prompts to enter your account credentials.
 

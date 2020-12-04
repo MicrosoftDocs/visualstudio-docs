@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: fc33d419-78cf-485e-b558-5b7efa900f14
-ms.date: 10/22/2020
+ms.date: 12/02/2020
 ms.topic: how-to
 description:  Learn about the DataCamp training subscription included with selected Visual Studio subscriptions.
 ---
@@ -55,9 +55,9 @@ You can stop at any point, and resume your training in your next session.  Just 
 | Subscription Level                                                 |     Channels                                            | Benefit                                                          | Renewable?    |
 |--------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------|---------------|
 | Visual Studio Enterprise (Standard)   | VL, Azure, Retail, | 3-months       |  No.  Available to new subscribers only          |
-| Visual Studio Enterprise with GitHub Enterprise   | VL | 3-months       |  No.  Available to new subscribers only          |
+| Visual Studio Enterprise subscription with GitHub Enterprise   | VL | 3-months       |  No.  Available to new subscribers only          |
 | Visual Studio Professional (Standard) | VL, Azure, Retail                                       | 3-months                                                            |  No.  Available to new subscribers only           |
-| Visual Studio Professional with GitHub Enterprise| VL | 3-months                                                            |  No.  Available to new subscribers only           |
+| Visual Studio Professional subscription with GitHub Enterprise| VL | 3-months                                                            |  No.  Available to new subscribers only           |
 | Visual Studio Test Professional (Standard)                         | VL, Retail                                              | 3-months                                             |  No.  Available to new subscribers only           |
 | MSDN Platforms (Standard)                                          | VL, Retail                                              | 3-months                                              |  No.  Available to new subscribers only           |
 | Visual Studio Enterprise (Standard)  | NFR<sup>1</sup> |Not available  | N/A |
