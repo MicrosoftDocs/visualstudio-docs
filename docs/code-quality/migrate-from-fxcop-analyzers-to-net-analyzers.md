@@ -24,7 +24,7 @@ Prior to Visual Studio 2019 16.8 and .NET 5.0, these analyzers shipped as `Micro
 Starting in Visual Studio 2019 16.8 and .NET 5.0, these analyzers are [included with the .NET SDK](/dotnet/fundamentals/code-analysis/overview). They are also available as `Microsoft.CodeAnalysis.NetAnalyzers` [NuGet package](https://www.nuget.org/packages/Microsoft.CodeAnalysis.NetAnalyzers) for users who are unable to move to the newer .NET SDK or prefer a NuGet package based model for on-demand analyzer package version updates.
 
 > [!NOTE]
-> The first-party .NET analyzers are target platform agnostic, i.e. your project does not need to target a specific .NET target platform. They work fine for projects targeting `netcoreapp`, `netstandard`, `net472`, `net5`, etc. platforms.
+> The first-party .NET analyzers are target platform agnostic, i.e. your project does not need to target a specific .NET target platform. They work fine for projects targeting  `net5` as well as earlier .NET versions, such as `netcoreapp`, `netstandard`, `net472`, etc.
 
 ## Migration steps
 
