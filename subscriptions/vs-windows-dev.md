@@ -1,10 +1,10 @@
 ---
-title:  Windows Developer Account Benefit in Visual Studio Subscriptions | Microsoft Docs
+title:  Windows Developer Account benefit in Visual Studio subscriptions | Microsoft Docs
 author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: 588480a3-8806-4ea5-9915-c25974770069
-ms.date: 10/22/2020
+ms.date: 12/02/2020
 ms.topic: how-to
 description:  Learn about the Windows Developer Account included with your Visual Studio subscription.
 ---
@@ -38,9 +38,9 @@ We recommend that you create a "private" browser window for this process.  For e
 | Subscription Level                                                 |     Channels                                            | Benefit                                                          | Renewable?    |
 |--------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------|---------------|
 | Visual Studio Enterprise (Standard)   | VL, Azure, Retail,  selected NFR<sup>1</sup> | Included       |  Yes|
-| Visual Studio Enterprise with GitHub Enterprise   | VL  | Included       |  Yes|
+| Visual Studio Enterprise subscription with GitHub Enterprise   | VL  | Included       |  Yes|
 | Visual Studio Professional (Standard) | VL, Azure, Retail                                       | Included                                                            |Yes|
-| Visual Studio Professional with GitHub Enterprise | VL                                        | Included                                                            |Yes|
+| Visual Studio Professional subscription with GitHub Enterprise | VL                                        | Included                                                            |Yes|
 | Visual Studio Test Professional (Standard)                         | VL, Retail                                              | Not available                                            |  NA|
 | MSDN Platforms (Standard)                                          | VL, Retail                                              |  Not available                                            |  NA|
 | Visual Studio Enterprise, Visual Studio Professional (monthly cloud) | Azure                                       | Not available                                                           |NA|

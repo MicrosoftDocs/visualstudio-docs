@@ -1,5 +1,7 @@
 ---
 title: Hierarchies in Visual Studio | Microsoft Docs
+description: Learn about project hierarchies in the Visual Studio integrated development environment (IDE) that contain project items and their associated properties. 
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

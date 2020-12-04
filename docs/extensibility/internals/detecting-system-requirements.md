@@ -1,5 +1,7 @@
 ---
 title: Detecting System Requirements | Microsoft Docs
+description: Learn how to configure the Microsoft Windows Installer to detect system requirements such as the edition of Visual Studio that is installed.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

@@ -2,9 +2,9 @@
 title: WhiteSource Bolt in Visual Studio subscriptions | Microsoft Docs
 author: evanwindom
 ms.author: v-evwin
-manager: lank
+manager: cabuschl
 ms.assetid: 5e5d3f1a-533d-42eb-960e-01bb6bc7ca16
-ms.date: 10/22/2020
+ms.date: 12/02/2020
 ms.topic: how-to
 description:  Learn how to activate the WhiteSource Bolt subscription included with your Visual Studio subscription.
 ---
@@ -37,9 +37,9 @@ Find and fix open source vulnerabilities and generate comprehensive inventory an
 | Subscription Level                                                 |     Channels                                            | Benefit                                                          | Renewable?    |
 |--------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------|---------------|
 | Visual Studio Enterprise (Standard)   | VL, Azure, Retail,  selected NFR<sup>1</sup> | 6 months       |  Yes       |
-| Visual Studio Enterprise with GitHub Enterprise | VL | 6 months       |  Yes       |
+| Visual Studio Enterprise subscription with GitHub Enterprise | VL | 6 months       |  Yes       |
 | Visual Studio Professional (Standard) | VL, Azure, Retail                                       | Not available                                                           |NA         |
-| Visual Studio Professional with GitHub Enterprise | VL                                      | Not available                                                           |NA         |
+| Visual Studio Professional subscription with GitHub Enterprise | VL                                      | Not available                                                           |NA         |
 | Visual Studio Test Professional (Standard)                         | VL, Retail                                              | Not available                                                           |NA         |
 | MSDN Platforms (Standard)                                          | VL, Retail                                              | Not available                                                           |NA         |
 | Visual Studio Enterprise, Visual Studio Professional (monthly cloud) | Azure                                       | Not available                                                           |NA|

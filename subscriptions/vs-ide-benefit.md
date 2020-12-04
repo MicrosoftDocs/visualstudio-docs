@@ -1,12 +1,12 @@
 ---
-title: Visual Studio IDE Benefit in Visual Studio Subscription | Microsoft Docs
+title: Visual Studio IDE benefit in Visual Studio subscription | Microsoft Docs
 author: evanwindom
 ms.author: v-evwin
 manager: lank
 ms.assetid: c4b13464-76be-40f1-ad60-ed79ee264b12
-ms.date: 10/22/2020
+ms.date: 12/02/2020
 ms.topic: how-to
-description:  Learn how to download and install the Visual Studio IDE included in your Visual Studio subscription.
+description:  Learn how to download and install the Visual Studio IDE included in your Visual Studio subscription
 ---
 
 # The Visual Studio 2019 benefit
@@ -58,9 +58,9 @@ To download the IDE:
 | Subscription Level                                                 |     Channels                                            | Benefit                                                          | Renewable?    |
 |--------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------|---------------|
 | Visual Studio Enterprise (Standard, monthly cloud)   | VL, Azure, Retail,  selected NFR<sup>1</sup> | Available       |  Yes          |
-| Visual Studio Enterprise with GitHub Enterprise   | VL | Available       |  Yes          |
+| Visual Studio Enterprise subscription with GitHub Enterprise   | VL | Available       |  Yes          |
 | Visual Studio Professional (Standard, monthly cloud) | VL, Azure, Retail                                       | Available                                                            |  Yes          |
-| Visual Studio Professional with GitHub Enterprise | VL   | Available              |  Yes          |
+| Visual Studio Professional subscription with GitHub Enterprise | VL   | Available              |  Yes          |
 | Visual Studio Test Professional (Standard)                         | VL, Retail                                              | Available                                             |  Yes         |
 | MSDN Platforms (Standard)                                          | VL, Retail                                              | Not available                                              |  N/A          |
 
