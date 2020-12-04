@@ -1,5 +1,7 @@
 ---
 title: 'Step 2: Add a Random object and a list of icons'
+description: Learn how to create a set of matching symbols for the game.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: tutorial
 ms.prod: visual-studio-windows

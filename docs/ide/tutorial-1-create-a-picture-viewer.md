@@ -1,5 +1,7 @@
 ---
 title: 'Tutorial 1: Create a picture viewer'
+description: Learn how to build an app that loads a picture from a file and displays it in a window.
+ms.custom: SEO-VS-2020
 ms.date: 10/16/2019
 ms.assetid: 3071d6df-2b2f-4e95-ab68-bef727323136
 ms.topic: tutorial

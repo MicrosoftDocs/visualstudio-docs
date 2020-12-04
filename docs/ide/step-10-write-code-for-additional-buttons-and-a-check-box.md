@@ -1,6 +1,6 @@
 ---
 title: 'Write code for additional buttons and a check box'
-description: Learn to write code for additional buttons and a cheeck box in the create a picture viewer tutorial. 
+description: Learn to write code for additional buttons and a check box in the create a picture viewer tutorial. 
 ms.date: 08/30/2019
 ms.custom: SEO-VS-2020
 ms.assetid: 185cf370-ab39-4ac0-b6bc-601d5b95a4a2

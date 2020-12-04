@@ -1,5 +1,7 @@
 ---
 title: 'Step 3: Set your form properties'
+description: Learn how to use the Properties window to change the way your form looks.
+ms.custom: SEO-VS-2020
 ms.date: 08/30/2019
 ms.assetid: 634ef037-1525-48c8-ac7f-abf04be69376
 ms.topic: tutorial

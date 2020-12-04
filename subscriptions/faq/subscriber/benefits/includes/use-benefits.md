@@ -17,11 +17,11 @@ For each benefit available in the Subscriber Portal, we've provided articles tha
 
 Check out our documentation to [learn more](https://docs.microsoft.com/visualstudio/subscriptions/whats-new-in-subscriptions) (click on 'Subscriptions' in the left nav pane, and choose 'Benefits').
 
-Visual Studio with GitHub Enterprise subscriptions are managed in two parts:  
+Visual Studio subscriptions with GitHub Enterprise are managed in two parts:  
 - The Visual Studio subscription (Enterprise or Professional)  
 - GitHub Enterprise  
 
-When you are assigned a Visual Studio with GitHub subscription, you'll receive an email letting you know that your Visual Studio Subscriptions administrator has assigned a subscription to you. At that point, you are able to view available subscription benefits at <https://my.visualstudio.com/benefits>. This includes the GitHub Enterprise benefit. 
+When you are assigned a Visual Studio subscription with GitHub Enterprise, you'll receive an email letting you know that your Visual Studio Subscriptions administrator has assigned a subscription to you. At that point, you are able to view available subscription benefits at <https://my.visualstudio.com/benefits>. This includes the GitHub Enterprise benefit. 
 
 GitHub Enterprise is managed by a GitHub administrator, separately from Visual Studio subscriptions. When your company has set up a GitHub Enterprise account, you will receive an email from GitHub notifying you that your Visual Studio subscription has been linked and the benefit tile will update. Setting up this account may take some time and is dependent on your company completing the setup process. After you receive the email, you can reach out to the appropriate GitHub organization administrator to request an invitation to their organization and/or repo. 
 
