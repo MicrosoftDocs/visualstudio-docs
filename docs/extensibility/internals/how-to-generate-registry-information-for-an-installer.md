@@ -1,6 +1,6 @@
 ---
 title: 'How to: Generate Registry Information for an Installer | Microsoft Docs'
-description: Learn how to use the regPkg.exe utility in Visual Studio to generate VSPackage registry information that can be incorporated into a Windows installer setup package.
+description: Learn how to use the RegPkg.exe utility in Visual Studio to generate VSPackage registry information for incorporation in a Windows installer setup package.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
