@@ -157,15 +157,9 @@ Welcome to what's new in the Visual Studio docs for November 2020. This article 
 - [Isolate code under test with Microsoft Fakes](../test/isolating-code-under-test-with-microsoft-fakes.md) - Updated Documentation with .NET Core support
 - [Use shims to isolate your app for unit testing](../test/using-shims-to-isolate-your-application-from-other-assemblies-for-unit-testing.md) - Updated Documentation with .NET Core support
 
-## Windows
+## XAML tools
 
 **Updated articles**
-
-- [Visual Studio documentation | Microsoft Docs](../windows/index.yml) - Fixed broken link to Unity doc
-
-**XAML tools**
-
-### Updated articles
 
 - [Use Design Time Data with the XAML Designer in Visual Studio](../xaml-tools/xaml-designtime-data.md)
   - Updated the Requirements section for 16.8 GA
