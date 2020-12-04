@@ -21,10 +21,10 @@ Source analysis by .NET Compiler Platform ("Roslyn") analyzers replaces [legacy 
 
 Prior to Visual Studio 2019 16.8 and .NET 5.0, these analyzers shipped as `Microsoft.CodeAnalysis.FxCopAnalyzers` [NuGet package](https://www.nuget.org/packages/Microsoft.CodeAnalysis.FxCopAnalyzers).
 
-Starting in Visual Studio 2019 16.8 and .NET 5.0, these analyzers are [included with the .NET SDK](/dotnet/fundamentals/code-analysis/overview). They are also available as `Microsoft.CodeAnalysis.NetAnalyzers` [NuGet package](https://www.nuget.org/packages/Microsoft.CodeAnalysis.NetAnalyzers) for users who are unable to move to the newer .NET SDK or prefer a NuGet package based model for on-demand analyzer package version updates.
+Starting in Visual Studio 2019 16.8 and .NET 5.0, these analyzers are [included with the .NET SDK](/dotnet/fundamentals/code-analysis/overview). If you don't want to move to the .NET 5+ SDK or if you prefer a NuGet package-based model, the analyzers are also available in the `Microsoft.CodeAnalysis.NetAnalyzers` [NuGet package](https://www.nuget.org/packages/Microsoft.CodeAnalysis.NetAnalyzers). You might prefer a package-based model for on-demand version updates.
 
 > [!NOTE]
-> The first-party .NET analyzers are target platform agnostic, i.e. your project does not need to target a specific .NET target platform. They work fine for projects targeting  `net5` as well as earlier .NET versions, such as `netcoreapp`, `netstandard`, `net472`, etc.
+> The first-party .NET analyzers are target-platform agnostic. That is, your project does not need to target a specific .NET platform. The analyzers work for projects that target `net5.0` as well as earlier .NET versions, such as `netcoreapp`, `netstandard`, and `net472`.
 
 ## Migration steps
 
