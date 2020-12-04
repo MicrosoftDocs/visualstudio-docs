@@ -1,5 +1,7 @@
 ---
 title: Operational Modes | Microsoft Docs
+description: Learn about the three modes in which the IDE can operate, which are design mode, run mode, and break mode.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
