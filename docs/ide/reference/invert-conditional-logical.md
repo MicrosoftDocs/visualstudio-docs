@@ -1,5 +1,7 @@
 ---
 title: Invert conditional expressions and logical operations
+description: Learn how to use the Quick Actions and Refactorings menu to invert a conditional expression or a conditional AND/OR operator.
+ms.custom: SEO-VS-2020
 ms.date: 02/19/2019
 ms.topic: reference
 author: kendrahavens
@@ -30,9 +32,9 @@ This refactoring applies to:
 2. Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
 3. Select **Invert conditional** or **Replace '&&' with '||'**
 
-    ![Invert conditional](media/invert-conditional.png)
+    ![Screenshot of the Invert conditional option.](media/invert-conditional.png)
 
-    ![Invert conditional](media/invert-logical-operator.png)
+    ![Screenshot of the Replace && with || option.](media/invert-logical-operator.png)
 
 ## See also
 
