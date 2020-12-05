@@ -22,12 +22,12 @@ ms.workload:
 Welcome to the history of what's new in Visual Studio docs. This article contains the major changes to the docs prior to November 2020 (starting July 2020). For the latest What's New, see [Visual Studio docs: What's new in the docs](whats-new-visual-studio-docs.md).
 
 ## October 2020
-## Code quality
+### Code quality
 
 **Updated articles**
 - [Code analyzers](../code-quality/index.yml) - CA refactor for .NET 5
 
-## Containers
+### Containers
 
 **Updated articles**
 
@@ -37,7 +37,7 @@ Welcome to the history of what's new in Visual Studio docs. This article contain
 - [How Bridge to Kubernetes works](../containers/overview-bridge-to-kubernetes.md) - Bridge to Kubernetes: add limitations
 - [Debug apps in a local Docker container](../containers/edit-and-refresh.md) - Docker Toolbox
 
-## Debugger
+### Debugger
 
 **New articles**
 
@@ -53,19 +53,19 @@ Welcome to the history of what's new in Visual Studio docs. This article contain
 - [Overview of Visual Studio Graphics Diagnostics](../debugger/graphics/overview-of-visual-studio-graphics-diagnostics.md) - Vsdg dx12
 - [Visual Studio Graphics Diagnostics](../debugger/graphics/visual-studio-graphics-diagnostics.md) - Vsdg dx12
 
-## Get started
+### Get started
 
 **Updated articles**
 
 - [Tutorial: Extend a simple C# console app](../get-started/csharp/tutorial-console-part-2.md) - Debugging additions for extended C# tutorial
 
-## IDE
+### IDE
 
 **New articles**
 
 - [Use Visual Studio search](./visual-studio-search.md) - VS Search document
 
-## Install
+### Install
 
 **Updated articles**
 
@@ -73,13 +73,13 @@ Welcome to the history of what's new in Visual Studio docs. This article contain
   - add 16.7.7 and 16.8 Preview 6 data
   - add 16.8 Preview 5 info
 
-## MSBuild
+### MSBuild
 
 **Updated articles**
 
 - [Walkthrough: Use MSBuild](../msbuild/walkthrough-using-msbuild.md) - MSBuild walkthrough: add standalone install steps
 
-## Profiling
+### Profiling
 
 **Updated articles**
 
@@ -97,13 +97,13 @@ Welcome to the history of what's new in Visual Studio docs. This article contain
   - Memory usage tool updates
 - [Analyze CPU usage without debugging in the Performance Profiler](../profiling/cpu-usage.md) - Memory usage tool updates
 
-## Windows
+### Windows
 
 **Updated articles**
 
 - [Visual Studio documentation | Microsoft Docs](../windows/index.yml) - Windows hub updates
 
-## XAML tools
+### XAML tools
 
 **New articles**
 
