@@ -1,6 +1,6 @@
 ---
 title: "How to: Programmatically create new documents"
-description: Learn how you can programmatically create new documents in Microsoft Office Word by using Visual Studio.
+description: Learn how you can programmatically create new documents in Microsoft Word by using Visual Studio.
 ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "how-to"
