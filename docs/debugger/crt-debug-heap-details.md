@@ -1,5 +1,7 @@
 ---
 title: "CRT Debug Heap Details | Microsoft Docs"
+description: The debug heap provides powerful tools to help solve memory allocation problems. Learn about the tools and how they help with problems such as leaks and overruns.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:
