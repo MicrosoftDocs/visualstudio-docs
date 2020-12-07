@@ -40,7 +40,7 @@ Watch the video or read on to learn how to assign a Visual Studio subscription t
 
     If you want this subscriber to have access to software downloads when they sign into the [Visual Studio Subscriptions Portal](https://my.visualstudio.com?wt.mc_id=o~msft~docs), make sure to leave the downloads toggle enabled in the **Download Settings** section. If you choose to disable downloads, the user will not have access to software downloads.  Access to product keys will also be disabled.  The subscriber will still have access to all other benefits included in the subscription.
    > [!div class="mx-imgBorder"]
-   > ![Access to downloads](media/access-to-downloads.png "Choose "Allow" to provide the subscriber with access to software downloads.")
+   > ![Access to downloads](media/access-to-downloads.png "Choose 'Allow' to provide the subscriber with access to software downloads.")
 
     If you'd like to add your own reference notes to the subscription, you can do so in the **Add reference** section.
    > [!div class="mx-imgBorder"]
