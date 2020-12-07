@@ -30,7 +30,7 @@ Watch the video or read on to learn how to assign a Visual Studio subscription t
 2. To assign a license to a single Visual Studio subscriber, at the top of the table, select **Add**, then choose **Individual subscriber**.
    > [!div class="mx-imgBorder"]
    > ![Add a single subscriber](_img/assign-license-add/add-subscriber-individual.png "Select Add, then choose Individual subscriber to assign a single subscription.")
-3. Enter the information into the form fields for the new subscriber. If your organization is using Azure Active Directory, the **Name** field acts as a search function to find people in your current directory so you can select the correct user from the search results. After you select that person, sign-in email and notification email will automatically populate.
+3. Enter the information into the form fields for the new subscriber. If your organization is using Azure Active Directory, the **Name** field acts as a search function to find people in your current directory so you can select the correct user from the search results. After you select that person, sign-in email and notification email will automatically populate.  If the subscriber is not found in your organization, the notification email will not populate automatically, but will be available for you to manually add a different email address to which subscription-related emails will be sent.  If your email service blocks incoming emails to the sign-in email addresses, it's important to specify a different notification email address so subscribers and admins receive important subscription-related emails from Microsoft.
    > [!div class="mx-imgBorder"]
    > ![Subscriber details](_img/assign-license-add/subscriber-details.png "Enter subscriber name and other details, or choose from the of tenant members.")
 
@@ -52,6 +52,18 @@ Watch the video or read on to learn how to assign a Visual Studio subscription t
 
 ## Resend assignment emails
 After you add a subscriber, an assignment email will be automatically sent to the new subscriber with further instructions. You can send the assignment email again at any time by selecting the subscriber and then selecting the **Resend** button in the top menu.  To resend emails to multiple users, hold down the **Ctrl** key while selecting the subscribers.  When you select the **Resend** button, you'll see a dialog asking you to confirm you want to resend to those subscribers.  
+
+## Frequently asked questions
+### Q: What's the difference between sign-in and notification email addresses?
+A:  The sign-in email address is the one used to validate the subscriber's access to their subscription.  If the subscriber is found in your organization, the same address will be set as the notification email address by default.  However, you can specify a different email address if you wish to route emails to another address. 
+
+### Q: Why use a different notification email address?
+A:  Some organizations set up their email services to block incoming emails from other domains.  Blocking incoming emails means that subscribers and admins will miss important communications such as:
+- Notification that a subscription has been assigned to them.  This will also prevent them from activating some of the included benefits.  
+- For subscribers you assigned Visual Studio subscriptions with GitHub Enterprise, they will not receive the invitation to join your GitHub organization.
+- Admins will not be notified when they are added to an agreement, receive monthly admin statements or notifications of feature changes that affect the way they manage subscriptions.
+
+Using a notification email address provides you with the option to allow your subscribers to receive important communications about their subscriptions without changing the functionality of their sign-in email addresses.  
 
 ## See also
 - [Visual Studio documentation](/visualstudio/)
