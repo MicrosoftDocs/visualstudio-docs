@@ -344,7 +344,7 @@ For more information, see the [.NET Core guide](/dotnet/core/index) page.
 
 As part of the "Games development for Unity" workload, we've included tools to help you develop cross-platform to create 2D and 3D games and interactive content. Create once and publish to 21 platforms, including all mobile platforms, WebGL, Mac, PC and Linux desktop, web, or consoles by using Visual Studio 2017 and Unity 5.6.
 
-For more information, see the [Visual Studio Tools for Unity](../cross-platform/visual-studio-tools-for-unity.md) page.
+For more information, see the [Visual Studio Tools for Unity](/gamedev/unity/get-started/visual-studio-tools-for-unity.md) page.
 
 ## AI development
 

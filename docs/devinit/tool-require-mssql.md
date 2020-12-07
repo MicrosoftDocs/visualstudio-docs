@@ -1,7 +1,7 @@
 ---
 title: require-mssql
 description: devinit tool require-mssql.
-ms.date: 08/28/2020
+ms.date: 11/20/2020
 ms.topic: reference
 author: andysterland
 ms.author: andster
@@ -41,9 +41,9 @@ Not used.
 
 ### Default behavior
 
-The Default behavior of the `require-mssql` tool is to install SQL server.
+The default behavior of the `require-mssql` tool is to install SQL server.
 
-### Builtin Options
+### Built-in options
 
 The `require-mssql` tool sets a number of installer command line arguments to ensure that the installer can run headless. These arguments are listed below and documentation on them can be found in the [SQL install documentation](/sql/database-engine/install-windows/install-sql-server-from-the-command-prompt?view=sql-server-ver15&preserve-view=true).
 
@@ -69,13 +69,14 @@ The `require-mssql` tool sets a number of installer command line arguments to en
 | /IACCEPTSQLSERVERLICENSETERMS                                      |             |
 
 ## Example usage
+Below is an example of how to run `require-msssql` using a `.devinit.json`.
 
+#### .devinit.json that will install MSSQL:
 ```json
 {
-    "$schema": "https://json.schemastore.org/devinit.schema-2.0",
+    "$schema": "https://json.schemastore.org/devinit.schema-3.0",
     "run": [
         {
-            "comments": "Installs MSSQL.",
             "tool": "require-mssql",
             "input": "install",
         }

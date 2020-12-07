@@ -55,7 +55,7 @@ Overrides the filtering mode on appropriate texture samplers.
 ## Restrictions and limitations
  In Direct3D, feature level 9.1 specifies a maximum anisotropy of 2x. Because the **Anisotropic Texture Filtering** variant attempts to use 16x anisotropy exclusively, playback fails when frame analysis is run on a feature-level 9.1 device. Contemporary devices that are affected by this limitation include the ARM-based Surface RT and Surface 2 Windows tablets. Older GPUs that might still be found in some computers can also be affected, but they're widely considered to be obsolete and are increasingly uncommon.
 
-## Example
+## Example 1
  The **Point Texture Filtering** variant can be reproduced by using code like this:
 
 ```cpp
@@ -69,7 +69,7 @@ d3d_device->CreateSamplerState(&sampler_desc, &sampler);
 d3d_context->PSSetSamplers(0, 1, &sampler
 ```
 
-## Example
+## Example 2
  The **Bilinear Texture Filtering** variant can be reproduced by using code like this:
 
 ```cpp
@@ -83,7 +83,7 @@ d3d_device->CreateSamplerState(&sampler_desc, &sampler);
 d3d_context->PSSetSamplers(0, 1, &sampler
 ```
 
-## Example
+## Example 3
  The **Trilinear Texture Filtering** variant can be reproduced by using code like this:
 
 ```cpp
@@ -97,7 +97,7 @@ d3d_device->CreateSamplerState(&sampler_desc, &sampler);
 d3d_context->PSSetSamplers(0, 1, &sampler
 ```
 
-## Example
+## Example 4
  The **Anisotropic Texture Filtering** variant can be reproduced by using code like this:
 
 ```cpp

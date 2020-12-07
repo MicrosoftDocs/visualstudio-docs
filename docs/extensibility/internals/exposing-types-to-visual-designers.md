@@ -1,5 +1,7 @@
 ---
 title: Exposing Types to Visual Designers | Microsoft Docs
+description: Learn how to expose class and type definitions, including those in custom tools, so that Visual Studio can make them available to visual designers.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

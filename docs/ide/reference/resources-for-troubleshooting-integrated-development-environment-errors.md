@@ -1,5 +1,7 @@
 ---
 title: Resources for troubleshooting errors
+description: Learn how to use Knowledge Base articles, forums, or product support to troubleshoot IDE errors that that aren't informative enough to help you resolve a problem.
+ms.custom: SEO-VS-2020
 ms.date: 07/23/2020
 ms.topic: troubleshooting
 f1_keywords:

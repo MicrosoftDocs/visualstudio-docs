@@ -1,7 +1,7 @@
 ---
 title: require-dotnetframeworksdk
 description: devinit tool require-dotnetframeworksdk.
-ms.date: 08/28/2020
+ms.date: 11/20/2020
 ms.topic: reference
 author: andysterland
 ms.author: andster
@@ -36,22 +36,31 @@ Not used.
 
 ### Default behavior
 
-The Default behavior of the `require-dotnetframeworksdk` tool is to install the latest release. See the [provided installers](https://dotnet.microsoft.com/download/visual-studio-sdks) for the latest version.
+The default behavior of the `require-dotnetframeworksdk` tool is to install the latest release. See the [provided installers](https://dotnet.microsoft.com/download/visual-studio-sdks) for the latest version.
 
 ## Example usage
+Below are examples of how to run `require-dotnetframeworksdk` using a `.devinit.json`.
 
+#### .devinit.json that will install the latest .NET Framework:
 ```json
 {
-    "$schema": "https://json.schemastore.org/devinit.schema-2.0",
+    "$schema": "https://json.schemastore.org/devinit.schema-3.0",
     "run": [
         {
-            "comments": "Example that will install a specific version of the .NET Framework SDK.",
+            "tool": "require-dotnetframeworksdk"
+        }
+    ]
+}
+```
+
+#### .devinit.json that will install a specific version of the .NET Framework:
+```json
+{
+    "$schema": "https://json.schemastore.org/devinit.schema-3.0",
+    "run": [
+        {
             "tool": "require-dotnetframeworksdk",
             "input": "4.8.0"
-        },
-        {
-            "comments": "Example that will install the latest version of the .NET Framework SDK.",
-            "tool": "require-dotnetframeworksdk"
         }
     ]
 }

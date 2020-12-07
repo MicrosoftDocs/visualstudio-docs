@@ -17,7 +17,7 @@ Follow the steps in this article to learn how to build, rebuild, or clean your a
 
 ## To build, rebuild, or clean an entire solution
 
-1. Select the Solution node in the **Solution Pad**:
+1. Select the Solution node in the **Solution Window**:
 
     ![Selecting the solution node](media/compiling-and-building-image1.png)
 
@@ -33,7 +33,7 @@ Follow the steps in this article to learn how to build, rebuild, or clean your a
 
 ## To build or rebuild a single project
 
-1. Select the project in the **Solution Pad**.
+1. Select the project in the **Solution Window**.
 
 2. Select the **Build** menu from the Menu Bar.
 

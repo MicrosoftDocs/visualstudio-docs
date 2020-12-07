@@ -1,5 +1,7 @@
 ---
 title: Publish to App Service on Linux
+description: Learn about methods to publish ASP.NET Core apps to Azure App Service Linux using containers, including continuous and one-time options.
+ms.custom: SEO-VS-2020
 ms.date: 01/29/2019
 ms.topic: quickstart
 helpviewer_keywords:

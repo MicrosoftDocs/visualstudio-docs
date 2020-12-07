@@ -1,5 +1,7 @@
 ---
 title: Add new connections
+description: Add a connection in Visual Studio to a DB or service, and explore DB contents and schemas, using Server Explorer, Cloud Explorer, or SQL Server Object Explorer.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 author: ghogen

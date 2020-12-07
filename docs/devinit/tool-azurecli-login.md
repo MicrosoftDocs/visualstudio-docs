@@ -1,7 +1,7 @@
 ---
 title: azurecli-login
 description: devinit tool azurecli-login.
-ms.date: 08/28/2020
+ms.date: 11/20/2020
 ms.topic: reference
 author: andysterland
 ms.author: andster
@@ -36,16 +36,18 @@ Not used.
 
 ### Default behavior
 
-The Default behavior of the `azurecli-login` tool is to install the latest version of the Azure CLI and add it to the PATH (Windows only).
+The default behavior of the `azurecli-login` tool is to install the latest version of the Azure CLI and add it to the `PATH`.
 
 ## Example usage
+Below is an example of how to run `azurecli-login` using a `.devinit.json`.
+
+#### .devinit.json that will trigger Azure login:
 
 ```json
 {
-    "$schema": "https://json.schemastore.org/devinit.schema-2.0",
+    "$schema": "https://json.schemastore.org/devinit.schema-3.0",
     "run": [
         {
-            "comments": "Example that will trigger az login --use-device-code behavior.",
             "tool": "azurecli-login"
         }
     ]

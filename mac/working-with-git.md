@@ -3,7 +3,7 @@ title: Working with Git
 description: Using Git in Visual Studio for Mac.
 author: jmatthiesen
 ms.author: jomatthi
-ms.date: 05/06/2018
+ms.date: 11/09/2020
 ms.assetid: 852B6A9D-AEFA-4EF4-A5DD-94A506019D20
 ms.custom: video
 ---
@@ -72,9 +72,9 @@ To create a new branch select the **New** button in the Git repository configura
 
 You can also set a remote branch to your _tracking_ branch. Read more about tracking branches in the [Git documentation](https://git-scm.com/book/en/v2/Git-Branching-Remote-Branches#Tracking-Branches).
 
-See the current branch in the Solution Pad, next to the project name:
+See the current branch in the Solution Window, next to the project name:
 
- ![Current branch displayed in solution pad](media/version-control-gitBranchName.png)
+ ![Current branch displayed in Solution Window](media/version-control-gitBranchName.png)
 
 ## Reviewing and committing
 

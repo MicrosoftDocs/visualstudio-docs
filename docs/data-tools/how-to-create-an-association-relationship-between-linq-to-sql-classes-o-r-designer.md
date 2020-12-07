@@ -1,5 +1,6 @@
 ---
 title: Relationships between LINQ to SQL classes
+description: Create an association between LINQ to SQL entity classes using the Association Editor dialog box in Object Relational Designer (O/R Designer).
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to

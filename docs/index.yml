@@ -4,7 +4,7 @@ summary: Explore documentation for the Visual Studio family of products.
 brand: visual-studio
 metadata:
   title: Visual Studio product family documentation
-  description: Explore documentation for the Visual Studio family of products.
+  description: Explore documentation for the Visual Studio family of products, including Visual Studio IDEs for Windows and Mac, Visual Studio Code, Visual Studio App Center, GitHub Codespaces, and Visual Studio Subscriptions.
   ms.topic: hub-page
   ms.custom: contperfq1
   ms.date: 10/22/2020
@@ -58,7 +58,7 @@ productDirectory:
            text: Documentation
          - url: https://code.visualstudio.com/docs/remote/codespaces/
            text: Use with Visual Studio Code
-         - url: https://docs.microsoft.com/visualstudio/ide/codespaces/use-visual-studio-with-codespaces/
+         - url: ./ide/codespaces/use-visual-studio-with-codespaces.md
            text: Use with Visual Studio
          - url: https://github.com/features/codespaces/
            text: Product page

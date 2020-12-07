@@ -1,5 +1,7 @@
 ---
 title: 'How to: Split a Class into Partial Classes (Class Designer)'
+description: Learn how to use the partial keyword to divide the declaration of a class or structure among several declarations.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:

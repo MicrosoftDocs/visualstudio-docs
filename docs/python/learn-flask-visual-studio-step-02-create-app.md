@@ -79,7 +79,7 @@ In the code created by the "Blank Flask Web Project" template, you have a single
 
 7. Select **Debug** > **Start Debugging** (**F5**) or use the **Web Server** button on the toolbar (the browser you see may vary) to start the app and open a browser. Try both the / and /home URL routes.
 
-8. You can also set breakpoints at various parts of the code and restart the app to follow the startup sequence. For example, set a breakpoint on the first lines of *runserver.py* and *HelloFlask\_*init_*.py*, and on the `return "Hello Flask!"` line in *views.py*. Then restart the app (**Debug** > **Restart**, **Ctrl**+**F5**, or the toolbar button shown below) and step through (**F10**) the code, or run from each breakpoint using **F5**.
+8. You can also set breakpoints at various parts of the code and restart the app to follow the startup sequence. For example, set a breakpoint on the first lines of *runserver.py* and *HelloFlask\_*init_*.py*, and on the `return "Hello Flask!"` line in *views.py*. Then restart the app (**Debug** > **Restart**, **Ctrl**+**Shift**+**F5**, or the toolbar button shown below) and step through (**F10**) the code, or run from each breakpoint using **F5**.
 
     ![Restart button on the debugging toolbar in Visual Studio](media/debugging-restart-toolbar-button.png)
 

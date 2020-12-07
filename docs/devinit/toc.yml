@@ -27,6 +27,8 @@
       href: tool-dotnet-toolinstall.md
     - name: enable-iis
       href: tool-enable-iis.md
+    - name: msi-install
+      href: tool-msi-install.md
     - name: npm-install
       href: tool-npm-install.md
     - name: nuget-restore
@@ -79,7 +81,11 @@
       href: sample-eshoponweb.md
     - name: OpenCV repo
       href: sample-opencv.md
-    - name: Codespaces private preview
+    - name: Codespaces private beta
       href: sample-private-preview.md
     - name: .NET Core App
       href: sample-dotnet-core.md
+    - name: Node.js App
+      href: sample-nodejs.md
+  - name: Tutorial
+    href: tutorial.md

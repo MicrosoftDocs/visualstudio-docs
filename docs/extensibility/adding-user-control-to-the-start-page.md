@@ -1,5 +1,7 @@
 ---
 title: Adding User Control to the Start Page | Microsoft Docs
+description: Learn how to add a Windows Presentation Foundation (WPF) user control to the Start Page in Visual Studio.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:

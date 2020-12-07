@@ -1,5 +1,6 @@
 ---
 title: "How to: Add Bookmark controls to Word documents"
+description: Learn that in document-level projects, you can add Bookmark controls to the document in your project at design time or at run time.
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 f1_keywords:

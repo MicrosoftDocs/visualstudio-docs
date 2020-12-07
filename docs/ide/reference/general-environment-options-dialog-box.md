@@ -1,5 +1,7 @@
 ---
 title: General, Environment, Options Dialog Box
+description: Learn how to use the General page in the Environment section to change color themes, status bar settings, file extension associations, and more for the IDE.
+ms.custom: SEO-VS-2020
 ms.date: 07/26/2019
 ms.topic: reference
 f1_keywords:

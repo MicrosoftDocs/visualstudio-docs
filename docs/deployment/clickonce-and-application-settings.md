@@ -1,5 +1,7 @@
 ---
 title: "ClickOnce and Application Settings | Microsoft Docs"
+description: Learn how application settings files work in a ClickOnce application and how ClickOnce migrates settings when the user upgrades to the next version.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:

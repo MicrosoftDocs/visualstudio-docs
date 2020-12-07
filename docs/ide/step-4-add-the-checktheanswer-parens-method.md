@@ -1,5 +1,7 @@
 ---
 title: 'Step 4: Add the CheckTheAnswer() method'
+description: Learn how to write a CheckTheAnswer()method to determine whether the answers to the math problems are correct.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: tutorial
 ms.prod: visual-studio-windows

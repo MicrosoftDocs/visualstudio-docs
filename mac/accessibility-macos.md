@@ -24,6 +24,14 @@ In Visual Studio for Mac, support for assistive technologies is turned off by de
 
 1. Select **Restart Visual Studio** to enable support for the assistive technologies of Apple.
 
+Alternatively, you can use the command line to enable accessibility features. To do this, enter the following command in terminal:
+
+```bash
+defaults write com.microsoft.visual-studio com.monodevelop.AccessibilityEnabled 1
+```
+
+After changing this setting via the command line, you will need to restart Visual Studio.
+
 ## Increase the contrast in macOS
 
 Visual Studio for Mac supports increased contrast in macOS, increasing the contrast of UI elements and making outlines more defined. To enable this:

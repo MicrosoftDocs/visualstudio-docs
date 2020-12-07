@@ -14,9 +14,9 @@ description:  Learn how to perform common tasks such as assigning subscriptions,
 As an Administrator or Super Admin, you can use the Administration Portal to manage subscriptions for your organization.  You can find specific guidance for performing various management tasks in our documentation.  Please see the links below for details. 
 
 **Common management tasks**
-- [Add a single user](https://docs.microsoft.com/visualstudio/subscriptions/assign-license.md)
-- [Add a group of users](https://docs.microsoft.com/visualstudio/subscriptions/assign-license-bulk.md)
-- [Edit subscriptions](https://docs.microsoft.com/visualstudio/subscriptions/edit-license.md)
-- [Delete subscriptions]((https://docs.microsoft.com/visualstudio/subscriptions/delete-license.md))
-- [Search for or filter subscriptions]((https://docs.microsoft.com/visualstudio/subscriptions/search-license.md))
-- [Determine your maximum subscription usage]((https://docs.microsoft.com/visualstudio/subscriptions/maximum-usage.md))
+- [Add a single user](https://docs.microsoft.com/visualstudio/subscriptions/assign-license)
+- [Add a group of users](https://docs.microsoft.com/visualstudio/subscriptions/assign-license-bulk)
+- [Edit subscriptions](https://docs.microsoft.com/visualstudio/subscriptions/edit-license)
+- [Delete subscriptions](https://docs.microsoft.com/visualstudio/subscriptions/delete-license)
+- [Search for or filter subscriptions](https://docs.microsoft.com/visualstudio/subscriptions/search-license)
+- [Determine your maximum subscription usage](https://docs.microsoft.com/visualstudio/subscriptions/maximum-usage)
