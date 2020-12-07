@@ -32,8 +32,6 @@ Welcome to what's new in the Visual Studio docs for November 2020. This article 
 
 **Updated articles**
 
-### Updated articles
-
 - [Code analysis FAQ](../code-quality/analyzers-faq.md) - Added documentation to migrate from FxCop analyzers to .NET analyzers
 - [Fxcop rule port status](../code-quality/fxcop-rule-port-status.md) - Added documentation to migrate from FxCop analyzers to .NET analyzers
 - [Deprecated rules](../code-quality/fxcop-unported-deprecated-rules.md) - Added documentation to migrate from FxCop analyzers to .NET analyzers
