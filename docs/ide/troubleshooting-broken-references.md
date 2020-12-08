@@ -1,6 +1,6 @@
 ---
 title: Troubleshoot broken references
-description: Learn how to troubleshoot broken references that might be caused by something other than your applications inability to find the referenced component.
+description: Learn how to troubleshoot broken references that might be caused by something other than your application's inability to find the referenced component.
 ms.custom: SEO-VS-2020
 ms.date: 03/21/2017
 ms.topic: troubleshooting

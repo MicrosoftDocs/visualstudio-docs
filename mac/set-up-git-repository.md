@@ -3,7 +3,7 @@ title: Setting up a Git Repository
 description: Connecting to a Git repository using Visual Studio for Mac.
 author: therealjohn
 ms.author: johmil
-ms.date: 11/09/2020
+ms.date: 12/03/2020
 ms.assetid: E992FA1D-B2AD-4A28-ADC6-47E4FC471060
 ms.topic: how-to
 ---
@@ -38,6 +38,9 @@ To set up a Git repository, execute the following steps:
 ## Publishing an existing project
 
 If you have an existing project that _is not_ already in version control, use the following steps to set it up in Git:
+
+> [!TIP]
+> Use a .gitignore file to control which folders and files are tracked and published with Git. You may want to exclude build directories, binaries, or generated files. Learn more in the [GitHub docs on ignoring files](https://docs.github.com/en/free-pro-team@latest/github/using-git/ignoring-files).
 
 1. Select the Solution name from the Solution Window in Visual Studio for Mac.
 

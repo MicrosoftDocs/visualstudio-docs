@@ -1,5 +1,7 @@
 ---
 title: Setting Language-Specific Editor Options
+description: Learn how to set a variety of text editor options that apply to specific programming languages.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:

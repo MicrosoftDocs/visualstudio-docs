@@ -1,5 +1,7 @@
 ---
 title: Debug a WebView control (UWP) | Microsoft Docs
+description: Learn how to inspect and debug the WebView controls used in a Windows Runtime app. You can use the DOM Explorer and the JavaScript Console window. 
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs:
