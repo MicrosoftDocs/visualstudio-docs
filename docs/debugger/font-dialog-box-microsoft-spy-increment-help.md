@@ -1,5 +1,7 @@
 ---
 title: "Font Dialog Box (Microsoft Spy++ Help) | Microsoft Docs"
+description: Use the Font dialog box to configure the character font used in a Spy++ Views window. This article provides usage details.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:
