@@ -1,5 +1,7 @@
 ---
 title: Dynamically Adding Menu Items | Microsoft Docs
+description: Learn how to set the startup project in a Visual Studio solution with a command on the Solution Explorer toolbar. 
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
