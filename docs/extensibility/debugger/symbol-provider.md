@@ -1,5 +1,7 @@
 ---
 title: Symbol Provider | Microsoft Docs
+description: Learn about the symbol providers that Visual Studio supplies to enable expression evaluator to evaluate variables and expressions.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

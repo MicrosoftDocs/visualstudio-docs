@@ -1,5 +1,7 @@
 ---
 title: Type Visualizer and Custom Viewer | Microsoft Docs
+description: Learn about the type visualizer component, which displays data in a specific format, and the custom viewer, which displays data in a specific format. 
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
