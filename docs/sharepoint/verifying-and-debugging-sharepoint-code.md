@@ -1,6 +1,6 @@
 ---
 title: "Verifying and Debugging SharePoint Code | Microsoft Docs"
-description: Verify and debug SharePoint code. Use IntelliTrace to determine the current state of your SharePoint solution. Use unit testing to ensure your methods work correctly.
+description: Verify and debug SharePoint code. Use IntelliTrace to examine past events and current state in your solution. Use unit testing to ensure your methods work correctly.
 ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"

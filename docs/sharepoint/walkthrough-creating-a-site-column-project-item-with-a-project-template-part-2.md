@@ -1,7 +1,7 @@
 ---
 title: "Create site column project item with project template, part 2"
 titleSuffix: ""
-description: Add a wizard to a site column project template to collect information from users when they use the template to create a SharePoint project containing the site column.
+description: Add a wizard to a site column project template to collect data from users when they use the template to create a SharePoint project containing the project item.
 ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: how-to
