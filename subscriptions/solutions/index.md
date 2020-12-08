@@ -58,7 +58,7 @@ ms.date: 12/07/2020
 
 [!INCLUDE [Unable to download Visual Studio IDE](downloading-activating-or-using-software/downloading-activating-or-using-software/includes/unable-to-download-visual-studio-ide.md)]
 
-[!INCLUDE [Unable to download Visual Studio Code](downloading-activating-or-using-software/downloading-activating-or-using-software/includes/unable-to-download-visual-studio-code.md)]
+[!INCLUDE [Unable to download Visual Studio Code](downloading-activating-or-using-software/downloading-activating-or-using-software/includes/unable-to-download-vs-code.md)]
 
 [!INCLUDE [Unable to locate a product](downloading-activating-or-using-software/downloading-activating-or-using-software/includes/unable-to-locate-product.md)]
 
