@@ -1,5 +1,7 @@
 ---
 title: Session Debug Manager | Microsoft Docs
+description: Learn about the session debug manager, which manages multiple debug engines debugging programs in multiple processes across any number of machines.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
