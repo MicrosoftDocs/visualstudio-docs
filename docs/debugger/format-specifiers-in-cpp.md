@@ -1,5 +1,7 @@
 ---
 title: "Format specifiers in the debugger (C++) | Microsoft Docs"
+description: Use a format specifier to change the format in which a value is displayed in a Watch, Autos, or Locals window. This article provides usage details.
+ms.custom: SEO-VS-2020
 ms.date: "3/11/2019"
 ms.topic: "conceptual"
 f1_keywords:

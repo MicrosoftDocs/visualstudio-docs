@@ -1,5 +1,7 @@
 ---
 title: "Find Window Dialog Box | Microsoft Docs"
+description: Use the Find Window dialog box to select a window and display its properties or messages.  This article provides usage details.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:
