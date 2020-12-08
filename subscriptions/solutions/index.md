@@ -25,7 +25,7 @@ ms.date: 12/07/2020
 
 [!INCLUDE [Example change email](admin-solutions/includes/example-change-email.md)]
 
-[!INCLUDE [How do I change my sign in email admin](admin-solutions/includes/how-do-i-change-my-sign-in-email-admin.md)]
+[!INCLUDE [How do I change my sign-in email admin](admin-solutions/includes/how-do-i-change-my-sign-in-email-admin.md)]
 
 [!INCLUDE [I only see VSDE](admin-solutions/includes/only-see-vsde.md)]
 
@@ -105,7 +105,7 @@ ms.date: 12/07/2020
 
 [!INCLUDE [View my bill](renewing-purchasing-or-canceling/order-or-purchase-status/includes/viewing-my-bill.md)]
 
-## Sign in
+## Issues with signing in 
 
 [!INCLUDE [How do I change my sign-in email for Cloud](signing-in/includes/how-do-i-change-my-sign-in-email-cloud-self.md)]
 
