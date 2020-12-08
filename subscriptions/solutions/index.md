@@ -93,7 +93,7 @@ ms.date: 12/07/2020
 
 [!INCLUDE [Help me purchase via Microsoft Store](renewing-purchasing-or-canceling/help-purchasing/includes/help-me-purchase-microsoft-store.md)]
 
-[!INCLUDE [Where can I purchase](renewing-purchasing-or-canceling/help-purchasing/includes/where-can-i-purchase.md)]
+[!INCLUDE [Where can I purchase](renewing-purchasing-or-canceling/help-purchasing/includes/where-can-i-purchase-from.md)]
 
 ### Help with renewals
 [!INCLUDE [Help me renew via Marketplace](renewing-purchasing-or-canceling/help-renewing/includes/help-me-renew-marketplace.md)]
