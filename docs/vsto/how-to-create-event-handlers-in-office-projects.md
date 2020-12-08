@@ -1,5 +1,7 @@
 ---
 title: "How to: Create event handlers in Office projects"
+description: Learn about the several ways that you can create default event handlers for controls in Visual Basic and C#.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:
