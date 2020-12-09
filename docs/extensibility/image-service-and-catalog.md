@@ -1,6 +1,6 @@
 ---
 title: Image Service and Catalog | Microsoft Docs
-description: This article contains guidance and best practices for adopting the Visual Studio Image Service and Image Catalog introduced in Visual Studio 2015.
+description: This article contains guidance and best practices for adopting the Visual Studio Image Service and Image Catalog.
 ms.custom: SEO-VS-2020
 ms.date: 04/01/2019
 ms.topic: conceptual
