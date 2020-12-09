@@ -1,6 +1,6 @@
 ---
 title: Getting Project Properties | Microsoft Docs
-description: Learn how to displays project properties in a tool window. This example shows the tree control in the tool window.
+description: Learn how to display project properties in a tool window. This example shows the tree control in the tool window.
 ms.custom: SEO-VS-2020
 ms.date: 3/16/2019
 ms.topic: conceptual
