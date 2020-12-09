@@ -1,6 +1,6 @@
 ---
 title: Editor and Language Service Extensions | Microsoft Docs
-description: You can extend most features of the Visual Studio code editor, which is based on the Windows Presentation Foundation and is written in managed code.
+description: You can extend most features of the Visual Studio code editor, which is implemented using Windows Presentation Foundation and is written in managed code.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
