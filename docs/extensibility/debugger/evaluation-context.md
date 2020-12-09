@@ -1,5 +1,7 @@
 ---
 title: Evaluation Context | Microsoft Docs
+description: "When the debug engine calls the expression evaluator, arguments determine context for finding and evaluating symbols: pSymbolProvider, pAddress, and pBinder."
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
