@@ -228,7 +228,7 @@ You can also check or uncheck the boxes of the parent groups in the hierarchy. T
 
 ![Playlist xml file](../test/media/vs-2019/test-explorer-playlist-xml-file.png)
 
-If you would like to make a playlist for traits use the format below for MSTest.
+If you would like to make a playlist for traits, use the following format for MSTest.
 ```xml
 <Playlist Version="2.0">
 	<Rule Name="Includes" Match="Any">
@@ -237,7 +237,7 @@ If you would like to make a playlist for traits use the format below for MSTest.
 </Playlist>
 ```
 
-Use the format below for xUnit. Make sure there is a space between your `TestCategory` name and the `[Value]`.
+Use the following format for xUnit. Make sure there is a space between your `TestCategory` name and the `[Value]`.
 ```xml
 <Playlist Version="2.0">
   <Rule Name="Includes" Match="Any">
