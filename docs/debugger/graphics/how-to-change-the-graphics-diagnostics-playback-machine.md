@@ -1,5 +1,6 @@
 ---
 title: "Change graphics diagnostics playback machine"
+description: Play back graphics information from a graphics log by using your local machine, or by using a remote machine or device that better reproduces the problem.
 ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: how-to
