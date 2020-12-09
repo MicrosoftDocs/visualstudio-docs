@@ -1,6 +1,6 @@
 ---
-title: Workflow Designer - AddToCollection&lt;T&gt; Activity Designer
-description: Learn how the AddToCollection <T> activity designer is used to create and configure an AddToCollection <T> activity.
+title: AddToCollection&lt;T&gt; activity designer
+description: Learn how the AddToCollection <T> activity designer is used to create and configure an AddToCollection <T> activity in Workflow Designer.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
