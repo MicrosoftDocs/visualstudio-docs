@@ -1,6 +1,6 @@
 ---
 title: Icon Element | Microsoft Docs
-description: The guid attribute of the Icon tag is the guid of a defined bitmap. The id attribute selects the slot in the bitmap strip.
+description: The guid attribute of the Icon tag is the GUID of a defined bitmap. The id attribute selects the slot in the bitmap strip.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
