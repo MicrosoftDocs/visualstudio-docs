@@ -1,5 +1,6 @@
 ---
 title: "Missing objects due to misconfigured pipeline"
+description: Follow an investigation that finds a misconfigured pipeline. It shows the use Graphics Event List, Graphics Pipeline Stages, and Graphics Event Call Stack.
 ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
