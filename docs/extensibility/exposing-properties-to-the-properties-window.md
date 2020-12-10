@@ -1,5 +1,7 @@
 ---
 title: Exposing Properties to the Properties Window | Microsoft Docs
+description: Learn about the public properties of an object. The changes you make to these properties are reflected in the Properties window.
+ms.custom: SEO-VS-2020
 ms.date: 3/16/2019
 ms.topic: conceptual
 helpviewer_keywords:

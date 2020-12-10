@@ -1,5 +1,5 @@
 ---
-title: 'XML Schema: Print diagrams in Graph View & Content Model View'
+title: Print diagrams
 description: Learn how to print a diagram from the Graph View or the Content Model View of the XML Schema Designer.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
