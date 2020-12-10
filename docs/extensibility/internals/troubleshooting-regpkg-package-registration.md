@@ -1,6 +1,6 @@
 ---
 title: Troubleshooting RegPkg Package Registration | Microsoft Docs
-description: Use this information to trouble RegPkg package registration in Visual Studio. Use the version of RegPkg that is appropriate for your package.
+description: Use this information to troubleshoot RegPkg package registration in Visual Studio. Use the version of RegPkg that is appropriate for your package.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: troubleshooting
