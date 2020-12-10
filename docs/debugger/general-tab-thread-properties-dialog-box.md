@@ -1,5 +1,6 @@
 ---
 title: "General Tab, Thread Properties Dialog Box | Microsoft Docs"
+description: View the Thread Properties Dialog Box for information about a thread, including module name, thread ID, process ID, thread state, wait reason, and CPU time.
 ms.date: "11/04/2016"
 ms.topic: "reference"
 helpviewer_keywords:

@@ -1,5 +1,7 @@
 ---
 title: "Edit and Continue (Visual Basic) | Microsoft Docs"
+description: Edit and Continue is available for Visual Basic projects. Learn what edits are supported, and how to can control whether, and when, your edits are applied.
+ms.custom: SEO-VS-2020
 ms.date: "10/11/2017"
 ms.topic: "conceptual"
 dev_langs:

@@ -1,6 +1,8 @@
 ---
 title: Inspect an exception
 titleSuffix: ""
+description: Learn about the information that Visual Studio provides to help you debug exceptions, and how to selectively disable breaking on exceptions.
+ms.custom: SEO-VS-2020
 ms.date: 1/18/2020
 ms.topic: how-to
 dev_langs: 

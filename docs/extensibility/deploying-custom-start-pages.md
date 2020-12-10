@@ -1,5 +1,7 @@
 ---
 title: Deploying Custom Start Pages | Microsoft Docs
+description: Learn how to deploy custom Start Pages by using VSIX deployment or by copying the files to the correct locations on the target computer.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
