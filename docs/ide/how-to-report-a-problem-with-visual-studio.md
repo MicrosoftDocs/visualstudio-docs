@@ -63,7 +63,7 @@ Alternatively, report a problem in **Visual Studio Installer** if you can't inst
 
 When an issue is missing important information, we assign the **Needs More Info** state. We comment on the issue with the specific information we need, and you'll receive an email notification. If we don't receive the information within seven days, then we send you a reminder. After that, we close the ticket after 14 days of inactivity.
 
-1. Follow the link in the email to the problem report or go to My Feedback to see all reports in the **Needs More Info** state.
+1. Follow the link in the email to the problem report or go to the home page to see all reports in the **Needs More Info** state.
 
     ![My Feedback](../ide/media/feedback-my-feedback.png)
 
