@@ -1,6 +1,7 @@
 ---
 title: Use rule-based UI context for Visual Studio extensions
 titleSuffix: ""
+description: Learn how to use Rules-based UI Contexts, which allows extension authors to define conditions when a UI Context is activated and VSPackages are loaded.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
