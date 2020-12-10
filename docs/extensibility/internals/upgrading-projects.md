@@ -1,5 +1,7 @@
 ---
 title: Upgrading Projects | Microsoft Docs
+description: Learn about the interfaces that the Visual Studio SDK provides to implement upgrade support in your own projects.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
