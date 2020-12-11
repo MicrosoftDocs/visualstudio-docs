@@ -1,6 +1,6 @@
 ---
-title: "Troubleshooting: How do I update my existing extension using the new publishing workflow?"
-description: "A guide on updating existing extensions via the new publishing workflow."
+title: "Troubleshooting: How do I release a new version of my existing extension?"
+description: "A guide on updating existing extensions via the publishing workflow."
 author: heiligerdankgesang
 ms.author: dominicn
 ms.date: 12/14/2020
@@ -9,14 +9,14 @@ ms.assetid: 5DA76197-7859-421f-AC45-401F22F5D794
 ms.topic: troubleshooting
 ---
 
-# Troubleshooting: How do I update my existing extension using the new publishing workflow?
+# Troubleshooting: How do I release a new version of my existing extension?
 
 > [!IMPORTANT]
 > Currently, creating new extensions is not officially supported in Visual Studio 2019 for Mac.
 
 The Visual Studio for Mac extension repository server will be moving on January 15, 2021. This move will not impact users that have already downloaded your extension, but will change the way you publish new releases of your extension after this date.
 
-As an author of an existing extension, you'll need to follow a new workflow to release further updates. This process consists of:
+As an author of an existing extension, you'll need to follow a different workflow to release further updates. This process consists of:
 - Setting up a public GitHub repository for each extension
 - Sharing the repository URL to the Visual Studio for Mac team via the [extension publishing mailing list](mailto:vsmextpub@microsoft.com)
 - Updating your extension by using the releases feature in GitHub
@@ -27,7 +27,7 @@ As an author of an existing extension, you'll need to follow a new workflow to r
 In order to continue publishing updates to your extensions, you'll need to create a public GitHub repository. If you publish multiple extensions, you'll need to have a separate repository for each one unless you always version and publish them together, in which case you can use a single repository.
 
 > [!NOTE]
-> While the GitHub repository for your extension needs to be public, you don't need to host any of your code there. Following this new process does not require you to have any of your code in GitHub.
+> While the GitHub repository for your extension needs to be public, you don't need to host any of your code there. Following this process does not require you to have any of your code in GitHub.
 
 
 ## Share the location of your repository
@@ -41,11 +41,11 @@ You'll use the "Create a new release" link on the main page of the repository to
 
 1. Add information to the **tag version** of the release in the following format
 
-```v**<releaseVersion>**-vsm**<targetVersion>**```
+    ```v**<releaseVersion>**-vsm**<targetVersion>**```
 
-Where:
- - **<releaseVersion>** is your extension version number
- - **<targetVersion>** is the minimum version of Visual Studio for Mac your extension is targeting
+    Where:
+     - **<releaseVersion>** is your extension version number
+     - **<targetVersion>** is the minimum version of Visual Studio for Mac your extension is targeting
 
 2. (Optional) The **title** and **description** fields can be filled with any information you'd like; this workflow doesn't use the information in those fields.
 
