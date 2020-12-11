@@ -180,7 +180,7 @@ In the Microsoft unit test framework for managed apps, you define a trait name/ 
 |-|-----------------|
 |<xref:Microsoft.VisualStudio.TestTools.UnitTesting.OwnerAttribute>|The Owner category is defined by the unit test framework and requires you to provide a string value of the owner.|
 |<xref:Microsoft.VisualStudio.TestTools.UnitTesting.PriorityAttribute>|The Priority category is defined by the unit test framework and requires you to provide an integer value of the priority.|
-|<xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute>|The TestCategory attribute enables you to provide a category without a value.|
+|<xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute>|The TestCategory attribute enables you to specify the category of a unit test.|
 |<xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute>|The TestProperty attribute enables you to define trait category/value pair.|
 
 
@@ -228,7 +228,16 @@ You can also check or uncheck the boxes of the parent groups in the hierarchy. T
 
 ![Playlist xml file](../test/media/vs-2019/test-explorer-playlist-xml-file.png)
 
-If you would like to make a playlist for traits use the format below. Make sure there is a space between your `TestCategory` name and the `[Value]`.
+If you would like to make a playlist for traits, use the following format for MSTest.
+```xml
+<Playlist Version="2.0">
+	<Rule Name="Includes" Match="Any">
+		<Property Name="Trait" Value="SchemaUpdateBasic" />
+	</Rule>
+</Playlist>
+```
+
+Use the following format for xUnit. Make sure there is a space between your `TestCategory` name and the `[Value]`.
 ```xml
 <Playlist Version="2.0">
   <Rule Name="Includes" Match="Any">

@@ -1,5 +1,7 @@
 ---
 title: "Executable for Debugging Session Dialog Box | Microsoft Docs"
+description: To debug a DLL you must specify an executable to call the DLL. Learn about the dialog box that appears when no executable is specified.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 f1_keywords:
@@ -31,7 +33,7 @@ This dialog box appears when you try to debug a DLL for which no executable is s
  **URL where the project can be accessed (ATL Server only)**
  If you are debugging an ATL Server DLL, enter the URL where the project can be found.
 
- Once entered, these settings are stored in the project Property Pages, so you won't need to enter them again for subsequent debugging sessions. If you need to change the settings, you can open the Property Pages and change the values. For more information on specifying a executable for the debugging session, see [Debugging DLLs](../debugger/how-to-debug-from-a-dll-project.md).
+ Once entered, these settings are stored in the project Property Pages, so you won't need to enter them again for subsequent debugging sessions. If you need to change the settings, you can open the Property Pages and change the values. For more information on specifying an executable for the debugging session, see [Debugging DLLs](../debugger/how-to-debug-from-a-dll-project.md).
 
 ## See also
 

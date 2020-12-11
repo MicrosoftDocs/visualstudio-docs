@@ -1,5 +1,6 @@
 ---
 title: "General Tab, Window Properties Dialog Box | Microsoft Docs"
+description: View the General tab for information about a window, including caption, handle, rectangle, application instance handle, menu handle, and user data.
 ms.date: "11/04/2016"
 ms.topic: "reference"
 helpviewer_keywords:
