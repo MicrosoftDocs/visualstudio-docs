@@ -1,5 +1,5 @@
 ---
-title: "As an extension author, how do I update my existing extension using the new publishing workflow?"
+title: "Troubleshooting: How do I update my existing extension using the new publishing workflow?"
 description: "A guide on updating existing extensions via the new publishing workflow."
 author: heiligerdankgesang
 ms.author: dominicn
@@ -9,7 +9,7 @@ ms.assetid: 5DA76197-7859-421f-AC45-401F22F5D794
 ms.topic: troubleshooting
 ---
 
-# As an extension author, how do I update my existing extension using the new publishing workflow?
+# Troubleshooting: How do I update my existing extension using the new publishing workflow?
 
 > [!IMPORTANT]
 > Currently, creating new extensions is not officially supported in Visual Studio 2019 for Mac.
