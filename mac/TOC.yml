@@ -202,7 +202,7 @@
       href: visual-studio-experience-improvement-program.md
     - name: Report a Problem
       href: report-a-problem.md
-    - name: "Troubleshooting: How do I update my existing extension using the new publishing workflow?"
+    - name: "Troubleshooting: How do I release a new version of my existing extension?"
       href: migrating-extensions.md
     - name: "Troubleshooting: Does Visual Studio for Mac support Team Foundation Version Control?"
       href: tf-version-control.md
