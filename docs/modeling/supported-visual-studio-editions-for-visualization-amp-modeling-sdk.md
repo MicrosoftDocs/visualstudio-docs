@@ -1,5 +1,7 @@
 ---
 title: Supported Visual Studio Editions for Visualization and Modeling SDK
+description: Learn about the Visual Studio editions that are supported with DSL Tools in the authoring and deployment environments.
+ms.custom: SEO-VS-2020
 titleSuffix: ''
 ms.date: 11/04/2016
 ms.topic: conceptual
