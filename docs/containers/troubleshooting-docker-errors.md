@@ -42,7 +42,7 @@ which will refresh the network-related components on your host machine.
 
 ## Mounts denied
 
-When using Docker for macOS, you might encounter an error referencing the folder /usr/local/share/dotnet/sdk/NuGetFallbackFolder. Add the folder to the File Sharing tab in Docker
+When using Docker for macOS, you might encounter an error referencing the folder /usr/local/share/dotnet/sdk/NuGetFallbackFolder. Add the folder to the File Sharing tab in Docker.
 
 ## Docker users group
 
