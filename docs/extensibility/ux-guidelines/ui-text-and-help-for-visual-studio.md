@@ -54,11 +54,11 @@ ms.workload:
 #### Supplemental instructions
  Supplemental instructions provide additional information that helps the user understand controls or control groupings. This could also include hint text necessary to understand what format the input control is expecting. Use supplemental instructions sparingly. Reserve them for cases where it's likely that the user won't fully understand the ramifications of the choice they are making.
 
- ![Supplemental text in Visual Studio](../../extensibility/ux-guidelines/media/0601-b_supplementaltext1.png "0601-b_SupplementalText1")
+ ![Screenshot showing the Internet Explorer Options button with supplemental text below it that describes the impact of changing the option settings.](../../extensibility/ux-guidelines/media/0601-b_supplementaltext1.png "0601-b_SupplementalText1")
 
  **Supplemental text in Visual Studio**
 
- ![Supplemental text in Visual Studio](../../extensibility/ux-guidelines/media/0601-c_supplementaltext2.png "0601-c_SupplementalText2")
+ ![Screenshot of the Choose Source Control dialog in Visual Studio showing supplemental text that describes each of the source control system options.](../../extensibility/ux-guidelines/media/0601-c_supplementaltext2.png "0601-c_SupplementalText2")
 
  **Supplemental text in Visual Studio**
 
@@ -134,15 +134,15 @@ ms.workload:
 
 - In place of the control label:
 
-     ![Hint text in Visual Studio](../../extensibility/ux-guidelines/media/0601-f_hinttext1.png "0601-f_HintText1")
+     ![Screenshot of a drop down control with hint text in place of the control label that reads "Search Solution Explorer (Ctrl+;)".](../../extensibility/ux-guidelines/media/0601-f_hinttext1.png "0601-f_HintText1")
 
 - With a verb, giving instructions:
 
-     ![Hint text in Visual Studio](../../extensibility/ux-guidelines/media/0601-g_hinttext2.png "0601-g_HintText2")
+     ![Screenshot of a text box with hint text in the control that reads "Enter your name".](../../extensibility/ux-guidelines/media/0601-g_hinttext2.png "0601-g_HintText2")
 
 - With text indicating a required entry:
 
-     ![Hint text in Visual Studio](../../extensibility/ux-guidelines/media/0601-h_hinttext3.png "0601-h_HintText3")
+     ![Screenshot of a text box with hint text in the control that reads "\<Required\>".](../../extensibility/ux-guidelines/media/0601-h_hinttext3.png "0601-h_HintText3")
 
 #### Watermark text
  On an empty design surface, the text should indicate what to do as well as provide links to open other related windows, if appropriate:

@@ -302,7 +302,7 @@ ms.workload:
 
 |Run|Stop|Delete|Save|Navigate Back|
 |-|-|-|-|-|
-|![Run icon](../../extensibility/ux-guidelines/media/0405-03_actionmodifierrun.png "0405-03_ActionModifierRun")|![Stop icon](../../extensibility/ux-guidelines/media/0405-19_stop.png "0405-19_Stop")|![Delete icon](../../extensibility/ux-guidelines/media/0405-20_delete.png "0405-20_Delete")|![Save icon](../../extensibility/ux-guidelines/media/0405-21_save.png "0405-21_Save")|![Navigate back icon](../../extensibility/ux-guidelines/media/0405-22_navigateback.png "0405-22_NavigateBack")|
+|![Run icon](../../extensibility/ux-guidelines/media/0405-03_actionmodifierrun.png "0405-03_ActionModifierRun")|![Stop icon - Solid red square.](../../extensibility/ux-guidelines/media/0405-19_stop.png "0405-19_Stop")|![Delete icon](../../extensibility/ux-guidelines/media/0405-20_delete.png "0405-20_Delete")|![Save icon](../../extensibility/ux-guidelines/media/0405-21_save.png "0405-21_Save")|![Navigate back icon](../../extensibility/ux-guidelines/media/0405-22_navigateback.png "0405-22_NavigateBack")|
 
 ### Code hierarchy palette
 
@@ -374,4 +374,4 @@ ms.workload:
 
 |Alert|Warning|Complete|Stop|
 |-|-|-|-|
-|![Alert icon](../../extensibility/ux-guidelines/media/0405-45_alert.png "0405-45_Alert")|![Warning icon](../../extensibility/ux-guidelines/media/0405-48_warning.png "0405-48_Warning")|![Complete icon](../../extensibility/ux-guidelines/media/0405-46_complete.png "0405-46_Complete")|![Stop icon](../../extensibility/ux-guidelines/media/0405-47_stop.png "0405-47_Stop")|
+|![Alert icon](../../extensibility/ux-guidelines/media/0405-45_alert.png "0405-45_Alert")|![Warning icon](../../extensibility/ux-guidelines/media/0405-48_warning.png "0405-48_Warning")|![Complete icon](../../extensibility/ux-guidelines/media/0405-46_complete.png "0405-46_Complete")|![Stop icon - Solid red circle with a white square in the center.](../../extensibility/ux-guidelines/media/0405-47_stop.png "0405-47_Stop")|

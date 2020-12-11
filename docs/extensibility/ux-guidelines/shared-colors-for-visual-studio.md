@@ -1327,7 +1327,7 @@ A command bar group consists of a related set of command bar controls and might 
 
  **Command bar drop-down button: hover state**
 
-![Command bar drop-down button on hover](../../extensibility/ux-guidelines/media/0303-034_comboboxdropdownbuttonhover.png "0303-034_ComboBoxDropdownButtonHover")<br />Command bar drop-down button on hover
+![Command bar combo box drop-down button on hover](../../extensibility/ux-guidelines/media/0303-034_comboboxdropdownbuttonhover.png "0303-034_ComboBoxDropdownButtonHover")<br />Command bar drop-down button on hover
 
 | Element | Token name: Category.color |
 | --- | --- |
@@ -1336,7 +1336,7 @@ A command bar group consists of a related set of command bar controls and might 
 
 **Command bar drop-down list: hover state**
 
- ![Command bar drop-down list on hover](../../extensibility/ux-guidelines/media/0303-035_comboboxdropdownlisthover.png "0303-035_ComboBoxDropdownListHover")<br />Command bar drop-down list on hover
+ ![Command bar combo box drop-down list on hover](../../extensibility/ux-guidelines/media/0303-035_comboboxdropdownlisthover.png "0303-035_ComboBoxDropdownListHover")<br />Command bar drop-down list on hover
 
 | Element | Token name: Category.color |
 | --- | --- |
@@ -1377,7 +1377,7 @@ A command bar group consists of a related set of command bar controls and might 
 
 **Command bar drop-down button: pressed state**
 
-![Pressed command bar drop-down button](../../extensibility/ux-guidelines/media/0303-039_comboboxdropdownbuttonpressed.png "0303-039_ComboBoxDropdownButtonPressed")<br />Pressed command bar drop-down button
+![Pressed command bar combo box drop-down button](../../extensibility/ux-guidelines/media/0303-039_comboboxdropdownbuttonpressed.png "0303-039_ComboBoxDropdownButtonPressed")<br />Pressed command bar drop-down button
 
 | Element | Token name: Category.color |
 | --- | --- |
@@ -1397,7 +1397,7 @@ A command bar group consists of a related set of command bar controls and might 
 
 **Command bar drop-down button: disabled state**
 
-![Disabled command bar drop-down button](../../extensibility/ux-guidelines/media/0303-040_comboboxdropdownbuttondisabled.png "0303-040_ComboBoxDropdownButtonDisabled")<br />Disabled command bar drop-down button
+![Disabled command bar combo box drop-down button](../../extensibility/ux-guidelines/media/0303-040_comboboxdropdownbuttondisabled.png "0303-040_ComboBoxDropdownButtonDisabled")<br />Disabled command bar drop-down button
 
 | Element | Token name: Category.color |
 | --- | --- |

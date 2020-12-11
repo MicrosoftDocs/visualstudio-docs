@@ -112,7 +112,7 @@ namespace Simple
 
  The resulting Windows application folder structure looks like this:
 
- ![SimpleSolution](../../extensibility/internals/media/simplesolution.png "SimpleSolution")
+ ![Screenshot of the Windows application folder structure for the 'Simple' Solution in the Visual Studio Solution Explorer.](../../extensibility/internals/media/simplesolution.png)
 
  The first and only \<Project> tag in the template reads:
 
