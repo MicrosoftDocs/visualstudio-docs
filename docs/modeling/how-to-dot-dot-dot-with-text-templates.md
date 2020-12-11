@@ -1,6 +1,6 @@
 ---
 title: How to ... with Text Templates
-description: Learn that you can use text templates to generate text at run time as part of your application and at design time to generate some of your project code.
+description: Learn about answers to common questions encountered when using text templates to generate text.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual

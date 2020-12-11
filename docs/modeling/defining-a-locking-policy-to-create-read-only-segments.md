@@ -1,6 +1,6 @@
 ---
 title: Defining a Locking Policy to Create Read-Only Segments
-description: Learn that you can define a policy for a program to lock part or all of a domain-specific language (DSL) model so that it can be read but not changed.
+description: Learn how you can define a policy for a program to lock part or all of a domain-specific language (DSL) model so that it can be read but not changed.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual

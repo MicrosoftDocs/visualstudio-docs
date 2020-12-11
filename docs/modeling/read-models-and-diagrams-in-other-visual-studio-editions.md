@@ -1,6 +1,6 @@
 ---
 title: Read models and diagrams in other Visual Studio editions
-description: Learn read-only mode in Visual Studio and how to read models and diagrams in other Visual Studio editions.
+description: Learn about reading models and diagrams in Visual Studio, as well as read-only behavior when using a version of Visual Studio that does not support model creation.
 ms.custom: SEO-VS-2020
 titleSuffix: ''
 ms.date: 11/04/2016
