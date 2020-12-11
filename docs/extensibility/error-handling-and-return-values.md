@@ -1,5 +1,7 @@
 ---
 title: Error Handling and Return Values | Microsoft Docs
+description: Learn how the Visual Studio SDK provides interop assemblies to record rich error information when receiving an error notification.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

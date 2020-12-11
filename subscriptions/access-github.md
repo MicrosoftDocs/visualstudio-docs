@@ -1,5 +1,5 @@
 ---
-title: Visual Studio with GitHub Enterprise | Microsoft Docs
+title: Visual Studio subscriptions with GitHub Enterprise | Microsoft Docs
 author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
@@ -9,7 +9,7 @@ ms.topic: conceptual
 description: Learn about accessing GitHub Enterprise as part of Visual Studio subscriptions
 ---
 
-# Visual Studio with GitHub Enterprise subscriptions
+# Visual Studio subscriptions with GitHub Enterprise 
 
 Customers who have Enterprise Agreements (EA) with Microsoft are eligible to purchase a new subscription offer that brings together Visual Studio standard subscriptions and GitHub Enterprise. It's an easy and economical way for Visual Studio subscribers to acquire GitHub Enterprise. 
 
@@ -28,13 +28,13 @@ Visual Studio Enterprise, Visual Studio Professional, and GitHub Enterprise will
 
 To learn more about benefits and options please visit <https://visualstudio.microsoft.com/subscriptions/visual-studio-github>. 
 
-## What is the Visual Studio with GitHub Enterprise setup process?
+## What is the Visual Studio subscription with GitHub Enterprise setup process?
 
-Visual Studio with GitHub Enterprise subscriptions are managed in two parts:
+Visual Studio subscriptions with GitHub Enterprise are managed in two parts:
 1. The Visual Studio subscription (Enterprise or Professional)
 2. GitHub Enterprise 
 
-When you are assigned a Visual Studio with GitHub subscription, you'll receive an email letting you know that your Visual Studio subscriptions admin has assigned a subscription to you.  At that point, you will be able to view available subscription benefits at <https://my.visualstudio.com/benefits>.  This includes the GitHub Enterprise benefit as seen below.
+When you are assigned a Visual Studio subscription with GitHub Enterprise, you'll receive an email letting you know that your Visual Studio subscriptions admin has assigned a subscription to you.  At that point, you will be able to view available subscription benefits at <https://my.visualstudio.com/benefits>.  This includes the GitHub Enterprise benefit as seen below.
 
    > [!div class="mx-imgBorder"]
    > ![GitHub Enterprise pending Enterprise account setup](_img/access-github/pending-account-setup.png "Your organization must first set up an Enterprise account.")  

@@ -1,7 +1,7 @@
 ---
 title: dotnet-restore
 description: devinit tool dotnet-restore.
-ms.date: 08/28/2020
+ms.date: 11/20/2020
 ms.topic: reference
 author: andysterland
 ms.author: andster
@@ -36,18 +36,18 @@ Additional options are passed as-is to the dotnet restore command.
 
 ### Default behavior
 
-The Default behavior of the `dotnet-restore` tool is to run 'dotnet restore' in the current directory.
+The default behavior of the `dotnet-restore` tool is to run `dotnet restore` in the current directory.
 
 ## Example usage
+Below is an example of how to run `dotnet-restore` using a `.devinit.json`.
 
+#### .devinit.json that will restore dependencies and tools of a project:
 ```json
 {
     "$schema": "https://json.schemastore.org/devinit.schema-3.0",
-    "comments": "A sample dot-devinit file that builds the 'kitchen sink'",
     "run": [
         {
             "tool": "dotnet-restore",
-            "comments": "Restores the dependencies and tools of a project using dotnet core.",
             "input": "C:\\app1\\app1.csproj"
         }
     ]

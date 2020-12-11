@@ -11,7 +11,7 @@ ms.topic: how-to
 
 # Introduction to Azure Functions
 
-Azure functions is a way to create and run event-driven snippets of code –– functions –– in the cloud, without having to explicitly provision or manage infrastructure. For more information about Azure Functions, see the [Azure Functions documentation](/azure/azure-functions/).
+Azure Functions is a way to create and run event-driven snippets of code –– functions –– in the cloud, without having to explicitly provision or manage infrastructure. For more information about Azure Functions, see the [Azure Functions documentation](/azure/azure-functions/).
 
 ## Requirements
 
@@ -24,15 +24,15 @@ To create and deploy functions you also need an Azure subscription. If you don't
 1. In Visual Studio for Mac, select **File > New Solution**.
 2. From the New Project dialog, select the Azure Functions template under **Cloud > General** and click **Next**:
 
-    ![New Project dialog showing Azure functions option](media/azure-functions-image1.png)
+    ![New Project dialog showing Azure Functions option](media/azure-functions-image1.png)
 
 3. Select the initial Azure Functions template that you wish to use, enter your function name and click **Next**.
 
-    ![New Project dialog showing Azure functions templates](media/azure-functions-image2.png)
+    ![New Project dialog showing Azure Functions templates](media/azure-functions-image2.png)
 
     > [!TIP]
     > While the bundled Azure Functions runtime and templates (CLI) are kept as to date as possible, they inevitably get outdated. When creating a new Functions project, Visual Studio for Mac will check for updates to the CLI and will notify you as shown in the image below. Simply click on the button to download the updated templates.
-    > ![New project dialog showing Azure functions updates are available](media/azure-functions-update.png)
+    > ![New project dialog showing Azure Functions updates are available](media/azure-functions-update.png)
 
     Depending on the type of function you select, the next page will prompt you to enter details, such as access rights, as illustrated in the following image:
 
@@ -144,15 +144,15 @@ One important setting you may need to set is `FUNCTIONS_EXTENSION_VERSION`. When
   - Http POST CRUD
   - Http Trigger with parameters
 
-- **Timer** – Execute cleanup or other batch tasks on a predefined schedule. This template takes two fields: a Name and a schedule, which is a six field CRON expression. For more information, see the [Azure functions article on Time](/azure/azure-functions/functions-create-scheduled-function)
+- **Timer** – Execute cleanup or other batch tasks on a predefined schedule. This template takes two fields: a Name and a schedule, which is a six field CRON expression. For more information, see the [Azure Functions article on Time](/azure/azure-functions/functions-create-scheduled-function)
 
-- **Queue Trigger** – This is a function that will respond to messages as they arrive in the Azure Storage queue. In addition to the function name, this template takes a **Path** (the name of the queue from which the message will be read) and storage account **Connection** (the name of the app setting containing your storage account connection string). For more information, see the [Azure functions article on Queue Storage](/azure/azure-functions/functions-create-storage-queue-triggered-function).
+- **Queue Trigger** – This is a function that will respond to messages as they arrive in the Azure Storage queue. In addition to the function name, this template takes a **Path** (the name of the queue from which the message will be read) and storage account **Connection** (the name of the app setting containing your storage account connection string). For more information, see the [Azure Functions article on Queue Storage](/azure/azure-functions/functions-create-storage-queue-triggered-function).
 
-- **Blob Trigger** – Process Azure Storage blobs when they are added to a container. In addition to the function name, this template also takes a path and connection property. The path property is the path within your storage account that the trigger will monitor. The connection account is the name of the app setting containing your storage account connection string. For more information, see the [Azure functions Blob Storage article](/azure/azure-functions/functions-create-storage-blob-triggered-function).
+- **Blob Trigger** – Process Azure Storage blobs when they are added to a container. In addition to the function name, this template also takes a path and connection property. The path property is the path within your storage account that the trigger will monitor. The connection account is the name of the app setting containing your storage account connection string. For more information, see the [Azure Functions Blob Storage article](/azure/azure-functions/functions-create-storage-blob-triggered-function).
 
-- **Generic WebHook** – This is a simple function that will run whenever it receives a request from any service that supports webhooks. For more information, see the [Azure functions article on generic webhooks](/azure/azure-functions/functions-create-generic-webhook-triggered-function).
+- **Generic WebHook** – This is a simple function that will run whenever it receives a request from any service that supports webhooks. For more information, see the [Azure Functions article on generic webhooks](/azure/azure-functions/functions-create-generic-webhook-triggered-function).
 
-- **Durable functions orchestration** – Durable Functions let you write stateful functions in a serverless environment. The extension manages state, checkpoints, and restarts for you. For more information, see the Azure functions guides on [Durable functions](/azure/azure-functions/durable-functions-overview).
+- **Durable functions orchestration** – Durable Functions let you write stateful functions in a serverless environment. The extension manages state, checkpoints, and restarts for you. For more information, see the Azure Functions guides on [Durable functions](/azure/azure-functions/durable-functions-overview).
 
 - **Image Resizer** – This function creates resized images whenever a blob is added to a container. The template takes path and connection string for the trigger, a small image output, and a medium image output.
 

@@ -1,5 +1,6 @@
 ---
 title: Use MSTest in unit tests
+description: Learn about the MSTest framework, which supports unit testing in Visual Studio. Use these classes and members to code unit tests.
 ms.custom: SEO-VS-2020
 ms.date: 03/02/2018
 ms.topic: reference

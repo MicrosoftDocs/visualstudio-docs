@@ -10,7 +10,6 @@ manager: jillfra
 dev_langs:
   - CSharp
   - VB
-
 ms.workload:
   - "dotnet"
 ---

@@ -1,5 +1,7 @@
 ---
 title: Word wrap
+description: Learn how to turn the word wrap option on and off in the code editor.
+ms.custom: SEO-VS-2020
 ms.date: 11/07/2018
 ms.topic: how-to
 helpviewer_keywords:

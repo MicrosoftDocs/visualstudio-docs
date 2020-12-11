@@ -20,45 +20,45 @@
   items:
   - name: .NET
     items:
-    - name: Deploy a .NET Core application with the Publish tool
-      href: /dotnet/core/deploying/deploy-with-vs
-    - name: Package a desktop app for Microsoft Store
-      href: /windows/msix/desktop/desktop-to-uwp-packaging-dot-net
     - name: Deploy a .NET Windows application using ClickOnce
       href: quickstart-deploy-using-clickonce-folder.md
     - name: Deploy a .NET Framework desktop app using ClickOnce
       href: how-to-publish-a-clickonce-application-using-the-publish-wizard.md
+    - name: Create an installer package (Windows desktop)
+      href: deploying-applications-services-and-components.md#create-an-installer-package-windows-desktop
+    - name: Package a desktop app for Microsoft Store >>
+      href: /windows/msix/desktop/desktop-to-uwp-packaging-dot-net
     - name: Build ClickOnce applications from the Command Line
       href: building-clickonce-applications-from-the-command-line.md
   - name: ASP.NET
     items:
-    - name: Publish an ASP.NET Core app to Azure
+    - name: Publish an ASP.NET Core app to Azure >>
       href: /aspnet/core/tutorials/publish-to-azure-webapp-using-vs
     - name: Import publish settings and deploy to IIS
       href: tutorial-import-publish-settings-iis.md
     - name: Import publish settings and deploy to Azure
       href: tutorial-import-publish-settings-azure.md
-    - name: Continuous deployment of ASP.NET Core to Azure with Git
+    - name: Continuous deployment of ASP.NET Core to Azure with Git >>
       href: /aspnet/core/publishing/azure-continuous-deployment
   - name: C++
     items:
-    - name: Deploy a C/C++ app
-      href: /cpp/windows/walkthrough-deploying-a-visual-cpp-application-by-using-a-setup-project
-    - name: Package a desktop app for Microsoft Store
+    - name: Create an installer package
+      href: deploying-applications-services-and-components.md#create-an-installer-package-windows-desktop
+    - name: Package a desktop app for Microsoft Store >>
       href: /windows/msix/desktop/desktop-to-uwp-packaging-dot-net
-    - name: Deploy a C++/CLR app using ClickOnce...
+    - name: Deploy a C++/CLR app using ClickOnce >>
       href: /cpp/windows/clickonce-deployment-for-visual-cpp-applications
   - name: UWP
     items:
-    - name: Package a UWP app by using Visual Studio
+    - name: Package a UWP app by using Visual Studio >>
       href: /windows/uwp/packaging/packaging-uwp-apps
   - name: Node.js
     items:
-    - name: Publish to Linux App Service
+    - name: Publish to Linux App Service >>
       href: ../javascript/publish-nodejs-app-azure.md
   - name: Python
     items:
-    - name: Publish to Azure App Service
+    - name: Publish to Azure App Service >>
       href: ../python/publishing-python-web-applications-to-azure-from-visual-studio.md
 - name: How-to guides
   items:

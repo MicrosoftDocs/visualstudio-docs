@@ -1,5 +1,7 @@
 ---
 title: 'Step 1: Create a project and add a table to your form'
+description: Learn how to create the Matching Game project and add a table to your form.
+ms.custom: SEO-VS-2020
 ms.date: 10/15/2019
 ms.topic: tutorial
 ms.prod: visual-studio-windows

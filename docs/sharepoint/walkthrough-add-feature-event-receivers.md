@@ -1,5 +1,7 @@
 ---
 title: "Walkthrough: Add Feature Event Receivers | Microsoft Docs"
+description: In this walkthrough, add feature event receivers, which are methods that execute when a SharePoint feature is installed, activated, deactivated, or removed.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: how-to
 dev_langs:
@@ -18,7 +20,7 @@ ms.workload:
   - "office"
 ---
 # Walkthrough: Add feature event receivers
-  Feature event receivers are methods that execute when one of the following feature-related events occurs in SharePoint:
+Feature event receivers are methods that execute when one of the following feature-related events occurs in SharePoint:
 
 - A feature is installed.
 
@@ -28,7 +30,7 @@ ms.workload:
 
 - A feature is removed.
 
-  This walkthrough demonstrates how to add an event receiver to a feature in a SharePoint project. It demonstrates the following tasks:
+This walkthrough demonstrates how to add an event receiver to a feature in a SharePoint project. It demonstrates the following tasks:
 
 - Creating an empty project with a feature event receiver.
 

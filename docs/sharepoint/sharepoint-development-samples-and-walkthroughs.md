@@ -1,5 +1,7 @@
 ---
 title: "SharePoint Development Samples and Walkthroughs | Microsoft Docs"
+description: Get started with sample applications, example code, and step-by-step walkthroughs that demonstrate SharePoint development.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: overview
 dev_langs:

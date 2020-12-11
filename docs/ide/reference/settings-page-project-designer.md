@@ -1,5 +1,7 @@
 ---
 title: Settings Page, Project Designer
+description: Learn how to use the Settings page of the Project Designer to specify a project's application settings.
+ms.custom: SEO-VS-2020
 ms.date: 06/14/2018
 ms.topic: reference
 f1_keywords:

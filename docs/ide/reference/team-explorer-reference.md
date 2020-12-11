@@ -1,5 +1,7 @@
 ---
 title: Team Explorer reference
+description: Learn about the various functions in Team Explorer to manage work and coordinate with other team members to develop a project.
+ms.custom: SEO-VS-2020
 ms.date: 12/04/2018
 ms.topic: reference
 ms.author: kaelli

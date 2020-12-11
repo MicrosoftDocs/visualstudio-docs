@@ -1,5 +1,7 @@
 ---
 title: Customize window layouts
+description: Learn how to customize the characteristics that windows exhibit to create layouts that work best for various development workflows.
+ms.custom: SEO-VS-2020
 ms.date: 07/31/2020
 ms.topic: conceptual
 f1_keywords:

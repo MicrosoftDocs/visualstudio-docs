@@ -2,9 +2,9 @@
 title: Parasoft Virtualize/SOAtest Professional in Visual Studio subscriptions | Microsoft Docs
 author: evanwindom
 ms.author: v-evwin
-manager: lank
+manager: cabuschl
 ms.assetid: 00c1f300-d04e-4695-815e-775ffbf0f931
-ms.date: 10/22/2020
+ms.date: 12/02/2020
 ms.topic: how-to
 description:  Learn how to activate the Parasoft Virtualize/SOA Test Professional subscription included in your Visual Studio subscription.
 ---
@@ -69,9 +69,9 @@ Test earlier and more often.  Simulate and test the behavior of unavailable evol
 | Subscription Level                                                 |     Channels                                            | Benefit                                                          | Renewable?    |
 |--------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------|---------------|
 | Visual Studio Enterprise (Standard)   | VL, Azure, Retail,  selected NFR<sup>1</sup> | 6 months       |  Yes       |
-| Visual Studio Enterprise with GitHub Enterprise | VL | 6 months       |  Yes       |
+| Visual Studio Enterprise subscription with GitHub Enterprise | VL | 6 months       |  Yes       |
 | Visual Studio Professional (Standard) | VL, Azure, Retail                                       | Not available                                                           |NA         |
-| Visual Studio Professional with GitHub Enterprise | VL                                      | Not available                                                           |NA         |
+| Visual Studio Professional subscription with GitHub Enterprise | VL                                      | Not available                                                           |NA         |
 | Visual Studio Test Professional (Standard)                         | VL, Retail                                              | Not available                                                           |NA         |
 | MSDN Platforms (Standard)                                          | VL, Retail                                              | Not available                                                           |NA         |
 | Visual Studio Enterprise, Visual Studio Professional (monthly cloud) | Azure                                       | Not available                                                           |NA|

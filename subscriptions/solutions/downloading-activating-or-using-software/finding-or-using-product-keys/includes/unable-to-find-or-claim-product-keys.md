@@ -14,7 +14,7 @@ sap.id: 631f9455-a027-34d0-12c8-c2b37d2c42cb
 
 ## I'm unable to find or claim a product key.
 
-The product keys available to you depends on the Visual Studio subscription you're using.  
+The product keys available to you depend on the Visual Studio subscription you're using.  
 
 ## Product keys page 
 

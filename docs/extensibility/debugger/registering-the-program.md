@@ -1,5 +1,7 @@
 ---
 title: Registering the Program | Microsoft Docs
+description: Learn how a program to be debugged is registered with a port after the debug engine acquires a port.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

@@ -1,7 +1,7 @@
 ---
 title: npm-install
 description: devinit tool npm-install.
-ms.date: 08/28/2020
+ms.date: 11/20/2020
 ms.topic: reference
 author: andysterland
 ms.author: andster
@@ -23,7 +23,7 @@ If both the `input` and `additionalOptions` properties are omitted or empty, the
 | Name                                             | Type   | Required | Value                                                                                                          |
 |--------------------------------------------------|--------|----------|----------------------------------------------------------------------------------------------------------------|
 | **comments**                                     | string | No       | Optional comments property. Not used.                                                                          |
-| [**input**](#input)                              | string | Yes      | The package to install. See [Input](#input) below for details.                                                 |
+| [**input**](#input)                              | string | No       | The package to install. See [Input](#input) below for details.                                                 |
 | [**additionalOptions**](#additional-options)     | string | No       | Additional options to pass to the tool. See [Additional options](#additional-options) below for details.       |
 
 ### Input
@@ -34,14 +34,19 @@ The `input` property is used to specify the name of the package to install (for 
 
 Additional configuration options can be passed in as a value of the `additionalOptions`. These arguments are direct passthrough to the arguments used by [npm install](https://docs.npmjs.com/cli/install).
 
-## Example usage
+### Default behavior
 
+The default behavior of the `npm-install` tool is to run `npm install` with no arguments. See [the npm documentation](https://docs.npmjs.com/cli/v6/commands/npm-install) for a description of this behavior.
+
+## Example usage
+Below is an example of how to run `npm-install` using a `.devinit.json`.
+
+#### .devinit.json that will install mongo:
 ```json
 {
     "$schema": "https://json.schemastore.org/devinit.schema-3.0",
     "run": [
         {
-            "comments": "Example that will install the mongo NPM package (https://www.npmjs.com/package/mongo).",
             "tool": "npm-install",
             "input": "mongo",
         }

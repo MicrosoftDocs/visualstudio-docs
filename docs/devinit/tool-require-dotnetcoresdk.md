@@ -1,7 +1,7 @@
 ---
 title: require-dotnetcoresdk
 description: devinit tool require-dotnetcoresdk.
-ms.date: 08/28/2020
+ms.date: 11/20/2020
 ms.topic: reference
 author: andysterland
 ms.author: andster
@@ -39,31 +39,56 @@ Additional configuration options can be passed in as a value of the `additionalO
 
 ### Default behavior
 
-The Default behavior of the `require-dotnetcoresdk` tool is to install the version of the .NET Core SDK specified in a `global.json` [(documentation)](/dotnet/core/tools/global-json?tabs=netcore3x) file in the current working directory. If no `global.json` file is found, `require-dotnetcoresdk` will install the latest current version of the .NET Core SDK and shared runtime.
+The default behavior of the `require-dotnetcoresdk` tool is to install the version of the .NET Core SDK specified in a `global.json` [(documentation)](/dotnet/core/tools/global-json?tabs=netcore3x) file in the current working directory. If no `global.json` file is found, `require-dotnetcoresdk` will install the latest current version of the .NET Core SDK and shared runtime.
 
 ## Example usage
+Below are examples of how to run `require-dotnetcoresdk` using a `.devinit.json`.
 
+#### .devinit.json that will install the latest version of .NET Core:
 ```json
 {
     "$schema": "https://json.schemastore.org/devinit.schema-3.0",
     "run": [
         {
-            "comments": "Example that will trigger the Default behavior of installing latest or, if present, the SDK version from a global.json file.",
             "tool": "require-dotnetcoresdk"
-        },
+        }
+    ]
+}
+```
+
+#### .devinit.json that will install a specific version of .NET Core:
+```json
+{
+    "$schema": "https://json.schemastore.org/devinit.schema-3.0",
+    "run": [
         {
-            "comments": "Example that will install a specific version.",
             "tool": "require-dotnetcoresdk",
             "input": "3.0.0"
-        },
+        }
+    ]
+}
+```
+
+#### .devinit.json that will install a specific version of .NET Core and ASP.NET Core:
+```json
+{
+    "$schema": "https://json.schemastore.org/devinit.schema-3.0",
+    "run": [
         {
-            "comments": "Example that will install a specific version and the aspnetcore runtime.",
             "tool": "require-dotnetcoresdk",
             "input": "3.0.0",
             "additionalOptions": "-Runtime aspnetcore"
-        },
+        }
+    ]
+}
+```
+
+#### .devinit.json that will install .NET Core in a specific directory:
+```json
+{
+    "$schema": "https://json.schemastore.org/devinit.schema-3.0",
+    "run": [
         {
-            "comments": "Example that will install in a specific directory.",
             "tool": "require-dotnetcoresdk",
             "additionalOptions": "-InstallDir \"C:\\Program Files\\dotnet\""
         }

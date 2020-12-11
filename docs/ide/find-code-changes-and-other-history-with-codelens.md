@@ -1,5 +1,7 @@
 ---
 title: Find code changes and other history with CodeLens
+description: Learn about CodeLens and how to use it explore the history of your code without having to leave the editor.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 f1_keywords:
@@ -122,7 +124,7 @@ You can also see who changed your code over time. This can help you find pattern
 
 Your team may have multiple branches, for example a main branch and a child development branch, to reduce the risk of breaking stable code.
 
-![CodeLens: Find when your code was branched](../ide/media/codelensfirstbranchconceptual.png)
+![CodeLens: Find changes in your current branch](../ide/media/codelensfirstbranchconceptual.png)
 
 You can find out how many people changed your code and how many changes were made in the main branch by pressing **Alt**+**6**:
 
@@ -150,7 +152,7 @@ You can review the change without leaving your current branch ("Main"):
 
 You can see when changes got merged, so you can determine which changes are included in your branch:
 
-![CodeLens - Merged changes between branches](../ide/media/codelensbranchmergedconceptual.png)
+![CodeLens - Find when changes got merged](../ide/media/codelensbranchmergedconceptual.png)
 
 For example, your code in the Main branch now has the bug fix from the "Dev" branch:
 
