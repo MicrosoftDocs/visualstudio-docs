@@ -1,6 +1,6 @@
 ---
-title: "Migrating your Visual Studio for Mac extensions to GitHub"
-description: "A guide on publising existing extensions via GitHub Releases."
+title: "As an extension author, how do I update my existing extension using the new publishing workflow?"
+description: "A guide on updating existing extensions via the new publishing workflow."
 author: heiligerdankgesang
 ms.author: dominicn
 ms.date: 12/14/2020
@@ -9,7 +9,7 @@ ms.assetid: 5DA76197-7859-421f-AC45-401F22F5D794
 ms.topic: troubleshooting
 ---
 
-# How do I migrate an existing extension to 
+# As an extension author, how do I update my existing extension using the new publishing workflow?
 
 > [!IMPORTANT]
 > Currently, creating new extensions is not officially supported in Visual Studio 2019 for Mac.
