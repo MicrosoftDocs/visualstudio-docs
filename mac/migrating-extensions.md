@@ -14,9 +14,9 @@ ms.topic: troubleshooting
 > [!IMPORTANT]
 > Currently, creating new extensions is not officially supported in Visual Studio 2019 for Mac.
 
-The Visual Studio for Mac extension repository server will be moving on January 15, 2021. This move will not impact users that have already downloaded your extension, but will change the way you publish new releaes of your extension after this date.
+The Visual Studio for Mac extension repository server will be moving on January 15, 2021. This move will not impact users that have already downloaded your extension, but will change the way you publish new releases of your extension after this date.
 
-As an author of an existing extension, you will need to follow a new workflow to release further updates. This process consists of:
+As an author of an existing extension, you'll need to follow a new workflow to release further updates. This process consists of:
 - Setting up a public GitHub repository for each extension
 - Sharing the repository URL to the Visual Studio for Mac team via the [extension publishing mailing list](mailto:vsmextpub@microsoft.com)
 - Updating your extension by using the releases feature in GitHub
@@ -24,7 +24,7 @@ As an author of an existing extension, you will need to follow a new workflow to
 
 ## Initial setup 
 
-To continue publishing updates to your extensions, you will first need to create a public GitHub repository. If you publish multiple extensions, you'll need to have a separate repository for each one unless you always version and publish them together, in which case you can use a single repository.
+In order to continue publishing updates to your extensions, you'll need to create a public GitHub repository. If you publish multiple extensions, you'll need to have a separate repository for each one unless you always version and publish them together, in which case you can use a single repository.
 
 > [!NOTE]
 > While the GitHub repository for your extension needs to be public, you don't need to host any of your code there. Following this new process does not require you to have any of your code in GitHub.
@@ -45,13 +45,13 @@ You'll use the "Create a new release" link on the main page of the repository to
 
 Where:
  - **<releaseVersion>** is your extension version number
- - **<targetVersion>** is the minumum version of Visual Studio for Mac your exension is targetting
+ - **<targetVersion>** is the minimum version of Visual Studio for Mac your extension is targeting
 
-2. (Optional) The **title** and **description** fields can be filled with any information you'd like; this workflow doesn't utilize the information in those fields.
+2. (Optional) The **title** and **description** fields can be filled with any information you'd like; this workflow doesn't use the information in those fields.
 
 3. Ensure the **pre-release** checkbox is unchecked. If it's checked, the release will not be picked up by this publishing process.
 
-4. Attach the **.mpack** file(s) that implement your extension in the **binaries** section. It is possible to attach multiple **.mpack** files in a release.
+4. Attach the **.mpack** file(s) that implement your extension in the **binaries** section. It's possible to attach multiple **.mpack** files in a release.
 
 Visual Studio for Mac will display the latest version of your extension that is compatible with the Visual Studio for Mac installation that was used to access the extension repository.
 
@@ -59,6 +59,6 @@ As long as you registered your GitHub repository with the Visual Studio for Mac 
 
 ## Additional information
 
-- Releases that do not conform with the requirements detailed above will not be published. 
+- Releases that don't conform to the requirements detailed above won't be published. 
 - After January 15, 2021, extension updates will only show up in Visual Studio for Mac 8.0 or newer.
 - Existing extensions will remain available to Visual Studio for Mac users without any action on your part. You only need to follow the instructions in this guide if you publish a new version after January 15, 2021.
