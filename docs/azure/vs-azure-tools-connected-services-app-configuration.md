@@ -66,8 +66,11 @@ In this tutorial, you will learn how to easily add everything you need to start 
 
 1. Once the **Dependency configuration process** has finished, Azure App Configuration now appears under the **Service Dependencies** node of your project.
 
+## Next steps
+
+Learn about Azure App Configuration at [Azure App Configuration documentation](/azure/azure-app-configuration/overview).
+
 ## See also
 
-- [Azure App Configuration documentation](https://docs.microsoft.com/azure/azure-app-configuration/overview)
-- [Tutorial for using dynamic configuration in an App Configuration connected ASP.NET Core app](https://docs.microsoft.com/azure/azure-app-configuration/enable-dynamic-configuration-aspnet-core)
+- [Tutorial for using dynamic configuration in an App Configuration connected ASP.NET Core app](/azure/azure-app-configuration/enable-dynamic-configuration-aspnet-core)
 - [Connected services (Visual Studio for Mac)](/visualstudio/mac/connected-services)
