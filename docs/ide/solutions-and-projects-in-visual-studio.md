@@ -56,7 +56,7 @@ Visual Studio uses two file types (*.sln* and *.suo*) to store settings for solu
 
 ### Solution folder
 
-In this context, a "solution folder" is a virtual folder that's only in **Solution Explorer**, where you can use it to group projects in a solution. If you want to locate where the projects are on your computer, go to **Tools** > **Options** > **Projects and Solutions** > **Locations** to see where it's stored.
+In this context, a "solution folder" is a virtual folder that's only in **Solution Explorer**, where you can use it to group projects in a solution. If you want to locate where the projects are stored on your computer, go to **Tools** > **Options** > **Projects and Solutions** > **Locations**.
 
 ## Create new projects
 
