@@ -1,8 +1,8 @@
 ---
 title: Solutions and projects
-description: Learn about Visual Studio projects and solutions and learn how to create a new project with the Solution Explorer tool. 
+description: Learn about Visual Studio projects and solutions and learn how to create a new project with the Solution Explorer tool.
 ms.custom: SEO-VS-2020
-ms.date: 06/26/2020
+ms.date: 12/11/2020
 ms.topic: conceptual
 f1_keywords:
 - vs.addnewitem
@@ -53,6 +53,10 @@ Visual Studio uses two file types (*.sln* and *.suo*) to store settings for solu
 |---------------|----------|-----------------|
 |.sln|Visual Studio Solution|Organizes projects, project items, and solution items in the solution.|
 |.suo|Solution User Options|Stores user-level settings and customizations, such as breakpoints.|
+
+### Solution folder
+
+In this context, a "solution folder" is a virtual folder that's only in **Solution Explorer**, where you can use it to group projects in a solution. If you want to locate where the projects are stored on your computer, go to **Tools** > **Options** > **Projects and Solutions** > **Locations**.
 
 ## Create new projects
 
