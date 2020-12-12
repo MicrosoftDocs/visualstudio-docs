@@ -1,5 +1,7 @@
 ---
 title: "How to: Set CLR Attributes on an Element"
+description: Learn how you can add any attribute that inherits from the System.Attribute class.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords:
