@@ -56,7 +56,7 @@ Visual Studio uses two file types (*.sln* and *.suo*) to store settings for solu
 
 ### Solution folder
 
-In this context, a "solution folder" is a virtual folder that's only in **Solution Explorer**, where you can use it to group projects in a solution. If you want to locate where the projects are stored on your computer, go to **Tools** > **Options** > **Projects and Solutions** > **Locations**.
+In this context, a "solution folder" is a virtual folder that's only in **Solution Explorer**, where you can use it to group projects in a solution. If you want to locate a solution file on a computer, go to **Tools** > **Options** > **Projects and Solutions** > **Locations**. For more information, see [Options dialog box: Projects and Solutions > Locations](./reference/projects-solutions-locations-options.md)
 
 ## Create new projects
 
@@ -64,7 +64,7 @@ The easiest way to create a new project is to start from a project template for 
 
 If you often customize your projects in a certain way, you can create a custom project template that you can then use to create new projects from. For more information, see [Create project and item templates](../ide/creating-project-and-item-templates.md).
 
-When you create a new project, it is saved by default at *%USERPROFILE%\source\repos*. You can change this location in the **Projects location** setting under **Tools** > **Options** > **Projects and Solutions** > **Locations**. For more information, see [Projects and Solutions page, Options dialog box](../ide/reference/projects-and-solutions-options-dialog-box.md).
+When you create a new project, it is saved by default at *%USERPROFILE%\source\repos*. You can change this location in the **Projects location** setting under **Tools** > **Options** > **Projects and Solutions** > **Locations**. For more information, see [Projects and Solutions page, Options dialog box](./reference/projects-and-solutions-options-dialog-box.md).
 
 ## Solution Explorer
 
