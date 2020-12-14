@@ -2,7 +2,7 @@
 title: Tips to improve performance
 description: Learn how to optimize certain Visual Studio features that you might not be using to help improve performance.
 ms.custom: SEO-VS-2020
-ms.date: 08/13/2020
+ms.date: 12/14/2020
 ms.topic: conceptual
 author: TerryGLee
 ms.author: tglee
