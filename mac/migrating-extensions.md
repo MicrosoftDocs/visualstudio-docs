@@ -41,8 +41,7 @@ You'll use the "Create a new release" link on the main page of the repository to
 
 1. Add information to the **tag version** of the release in the following format
 
-    > v**&lt;releaseVersion&gt**;-**&lt;vsmtargetVersion&gt;**
-
+    > v\<releaseVersion>\-vsm\<targetVersion>
 
     Where:
      - **&lt;releaseVersion&gt;** is your extension version number
