@@ -203,7 +203,7 @@
     - name: Report a Problem
       href: report-a-problem.md
     - name: "Troubleshooting: How do I release a new version of my existing extension?"
-      href: migrating-extensions.md
+      href: migrate-extensions.md
     - name: "Troubleshooting: Does Visual Studio for Mac support Team Foundation Version Control?"
       href: tf-version-control.md
     - name: "Troubleshooting: Why can I not see all templates?"
