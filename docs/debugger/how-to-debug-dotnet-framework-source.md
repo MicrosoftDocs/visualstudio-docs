@@ -1,5 +1,7 @@
 ---
 title: Debug .NET Framework source | Microsoft Docs
+Description: Learn how to debug .NET Framework source. You must configure for it and download debugging symbols.
+ms.custom: SEO-VS-2020
 ms.date: 11/19/2018
 ms.topic: how-to
 helpviewer_keywords: 
