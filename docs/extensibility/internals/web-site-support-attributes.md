@@ -1,5 +1,7 @@
 ---
 title: Web Site Support Attributes | Microsoft Docs
+description: Learn about the Web site support attributes that are necessary for Visual Studio Web site projects.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

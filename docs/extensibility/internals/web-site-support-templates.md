@@ -1,5 +1,7 @@
 ---
 title: Web Site Support Templates | Microsoft Docs
+description: Learn about Web site support templates. Visual Studio Web site project and item templates provide reusable and customizable Web site project and item stubs.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

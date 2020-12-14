@@ -1,5 +1,7 @@
 ---
 title: Web Project Essentials | Microsoft Docs
+description: Learn how Web projects create a Web application that has smart Web pages, which has server-side code that renders the page on demand.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
