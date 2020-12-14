@@ -594,10 +594,25 @@ namespace Calculator
 
 ## Next steps
 
+:::moniker range="vs-2017"
+
+Continue with more tutorials:
+
+> [!div class="nextstepaction"]
+> [C# tutorials](/dotnet/csharp/tutorials)
+
+> [!div class="nextstepaction"]
+> [Tour the Visual Studio IDE](../visual-studio-ide.md)
+
+:::moniker-end
+
+:::moniker range="vs-2019"
+
 Continue with the second part of this tutorial:
 
 > [!div class="nextstepaction"]
 > [Continue with Part 2](tutorial-console-part-2.md)
+:::moniker-end
 
 ## See also
 

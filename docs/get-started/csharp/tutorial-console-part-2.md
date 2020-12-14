@@ -10,6 +10,7 @@ ms.devlang: CSharp
 author: ghogen
 ms.author: ghogen
 manager: jillfra
+monikerRange: ">=vs-2019"
 dev_langs:
   - CSharp
 ms.workload:
