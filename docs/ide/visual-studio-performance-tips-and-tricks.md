@@ -65,7 +65,7 @@ If you are typically running low on memory during debugging sessions, you can op
 
     It is recommended that you disable CPU profiling after use. This feature can consume large amounts of resources. Once CPU profiling is enabled, this state is persisted across subsequent debug sessions, so it’s worth explicitly turning it off when done. You may save some resources by disabling the diagnostic tools while debugging if you do not need the provided features.
 
-    To disable the **Diagnostic Tools**, start a debugging session, choose **Tools** > **Options** > **Enable Diagnostic Tools**, and deselect the option.
+    To disable the **Diagnostic Tools**, start a debugging session, select **Tools** > **Options** > **Debugging** > **General**, and then deselect the **Enable Diagnostic Tools while debugging** option.
 
     For more information, see [Profiling Tools](../profiling/profiling-feature-tour.md).
 
