@@ -41,11 +41,12 @@ You'll use the "Create a new release" link on the main page of the repository to
 
 1. Add information to the **tag version** of the release in the following format
 
-    ```v**<releaseVersion>**-vsm**<targetVersion>**```
+    > v**&lt;releaseVersion&gt**;-**&lt;vsmtargetVersion&gt;**
+
 
     Where:
-     - **<releaseVersion>** is your extension version number
-     - **<targetVersion>** is the minimum version of Visual Studio for Mac your extension is targeting
+     - **&lt;releaseVersion&gt;** is your extension version number
+     - **&lt;targetVersion&gt;** is the minimum version of Visual Studio for Mac your extension is targeting
 
 2. (Optional) The **title** and **description** fields can be filled with any information you'd like; this workflow doesn't use the information in those fields.
 
