@@ -1,6 +1,6 @@
 ---
 title: Web Projects | Microsoft Docs
-description: Learn about Web projects, which create Web applications. Web pages with associated code are called smart Web pages.
+description: Learn the internal details about how the web project system work in Visual Studio, for developers who want to extend Visual Studio.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
