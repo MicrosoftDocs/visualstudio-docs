@@ -1,5 +1,7 @@
 ---
 title: "Display text in text box in document using button"
+description: Learn how you can use buttons and text boxes in a document-level customization for Microsoft Word.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
