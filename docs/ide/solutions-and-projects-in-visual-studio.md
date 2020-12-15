@@ -1,6 +1,6 @@
 ---
 title: Solutions and projects
-description: Learn about Visual Studio projects and solutions and learn how to create a new project with the Solution Explorer tool.
+description: Learn about Visual Studio projects and solutions and the differences between them; also, learn how to create new projects for a template and how to view & manage them by using Solution Explorer.
 ms.custom: SEO-VS-2020
 ms.date: 12/11/2020
 ms.topic: conceptual
@@ -46,6 +46,8 @@ Project files are based on the [MSBuild XML schema](../msbuild/msbuild-project-f
 ## Solutions
 
 A project is contained within a *solution*. Despite its name, a solution is not an "answer". It's simply a container for one or more related projects, along with build information, Visual Studio window settings, and any miscellaneous files that aren't associated with a particular project. A solution is described by a text file (extension *.sln*) with its own unique format; it's not intended to be edited by hand.
+
+### Solution file
 
 Visual Studio uses two file types (*.sln* and *.suo*) to store settings for solutions:
 
