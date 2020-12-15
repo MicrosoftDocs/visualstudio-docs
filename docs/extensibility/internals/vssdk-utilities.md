@@ -1,5 +1,7 @@
 ---
 title: VSSDK Utilities | Microsoft Docs
+description: These articles describe the tools that ship with the VSSDK, including RegPkg, CreatePkgDef, CreateExpInstance, Color Theming Tools, and Image Service Tools.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
