@@ -1,5 +1,7 @@
 ---
 title: Web Project Essentials | Microsoft Docs
+description: Learn the internal details about how web projects work in Visual Studio.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
