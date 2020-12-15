@@ -305,7 +305,7 @@ Let's change the code to handle this error.
 
 Now, when you divide any number by zero, the app will ask for another number. Even better: It won't stop asking until you provide a number other than zero.
 
-   ![The Visual Studio code editor shows the divide-by-zero error](./media/csharp-console-calculator-dividebyzero.png)
+   ![Fixed the divide-by-zero error](./media/csharp-console-calculator-dividebyzero.png)
 
 ### Fix the "format" error
 
