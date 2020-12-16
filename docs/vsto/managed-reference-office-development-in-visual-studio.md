@@ -1,5 +1,7 @@
 ---
 title: "Managed reference (Office development in Visual Studio)"
+description: Learn about API reference documentation for namespaces and types that are used in Office projects that target the .NET Framework.
+ms.custom: SEO-VS-2020
 titleSuffix: ""
 ms.date: "08/14/2019"
 ms.topic: "reference"

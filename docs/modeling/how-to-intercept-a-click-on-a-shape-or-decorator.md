@@ -1,5 +1,7 @@
 ---
 title: 'How to: Intercept a Click on a Shape or Decorator'
+description: Learn how to intercept a click on a shape or an icon decorator, and how you can intercept clicks, double-clicks, drags, and other gestures.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
