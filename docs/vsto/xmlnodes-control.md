@@ -1,5 +1,7 @@
 ---
 title: "XMLNodes control"
+description: Learn that the XMLNodes control is created only when a repeating schema element is mapped onto a Microsoft Word document.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
