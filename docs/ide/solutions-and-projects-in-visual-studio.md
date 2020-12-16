@@ -62,7 +62,7 @@ A "solution folder" is a virtual folder that's only in **Solution Explorer**, wh
 
 ## Create new projects
 
-The easiest way to create a new project is to start from a project template for a particular type of application or website. A project template consists of a basic set of pre-generated code files, config files, assets, and settings. These templates are available in the dialog box where you create a new project (**File** > **New** > **Project**). For more information, see [Create a new project in Visual Studio](create-new-project.md) and [Create solutions and projects](../ide/creating-solutions-and-projects.md).
+The easiest way to create a new project is to start from a project template for a particular type of application or website. A project template consists of a basic set of pre-generated code files, config files, assets, and settings. These templates are available in the dialog box where you create a new project (**File** > **New** > **Project**). For more information, see [Create a new project](create-new-project.md) and [Work with solutions and projects](../ide/creating-solutions-and-projects.md).
 
 If you often customize your projects in a certain way, you can create a custom project template that you can then use to create new projects from. For more information, see [Create project and item templates](../ide/creating-project-and-item-templates.md).
 
