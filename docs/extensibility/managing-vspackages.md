@@ -1,6 +1,6 @@
 ---
 title: Managing VSPackages | Microsoft Docs
-description: In most cases you don't need to worry about managing VSPackages, However, in some circumstances you may need this information to manage a VSPackage.
+description: Learn about managing VSPackages, so that you know when you can simply use the default VSPackage management provided by Visual Studio, and how and when to customize it.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
