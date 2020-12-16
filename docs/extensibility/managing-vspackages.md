@@ -1,5 +1,7 @@
 ---
 title: Managing VSPackages | Microsoft Docs
+description: In most cases you don't need to worry about managing VSPackages, However, in some circumstances you may need this information to manage a VSPackage.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
