@@ -1,5 +1,7 @@
 ---
 title: "How to: Programmatically copy worksheets"
+description: Learn how you can create a copy of a worksheet, and insert that worksheet before or after an existing worksheet in the workbook.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:

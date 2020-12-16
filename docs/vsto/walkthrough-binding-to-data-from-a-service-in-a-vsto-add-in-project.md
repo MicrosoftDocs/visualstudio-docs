@@ -1,5 +1,7 @@
 ---
 title: "Bind to data from service in VSTO add-in project"
+description: Learn how to add controls to a Microsoft Word document, bind the controls to data retrieved from the MSDN Content Service, and respond to events at run time.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
