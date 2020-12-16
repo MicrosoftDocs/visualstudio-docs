@@ -1,6 +1,6 @@
 ---
 title: Wizard Support for Nested Projects | Microsoft Docs
-description: Learn the two wizards that a parent project can implement for nested projects in your VSPackage in the Visual Studio SDK.
+description: Learn about the two wizards that a parent project can implement for nested projects in your VSPackage in the Visual Studio SDK.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual

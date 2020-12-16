@@ -1,6 +1,6 @@
 ---
 title: Managing Universal Windows Projects | Microsoft Docs
-description: To support Universal Windows apps, Visual Studio extensions that manage projects should be aware of the universal Windows app project structure.
+description: To support Universal Windows apps, Visual Studio extensions that manage projects should be aware of the Universal Windows app project structure.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
