@@ -1,5 +1,7 @@
 ---
 title: "How to: Programmatically display documents in Print Preview"
+description: Learn how you can programmatically display documents in Print Preview in a Microsoft Word document.
+ms.custom: SEO-VS-2020
 titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "how-to"

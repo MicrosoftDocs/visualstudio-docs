@@ -1,5 +1,5 @@
 ---
-title: Create solutions and projects
+title: Work with solutions and projects
 description: Learn about the difference between solutions and projects and how to use them in Visual Studio.
 ms.custom: SEO-VS-2020
 ms.date: 02/06/2018
@@ -17,7 +17,7 @@ manager: jillfra
 ms.workload:
 - multiple
 ---
-# Create solutions and projects
+# Work with solutions and projects
 
 *Projects* hold the items needed to build your app in Visual Studio, such as source code files, bitmaps, icons, and component and service references. When you create a new project, Visual Studio creates a *solution* to contain the project. You can then add other new or existing projects to the solution if you want. Solutions can also contain files that aren't connected to any specific project.
 
