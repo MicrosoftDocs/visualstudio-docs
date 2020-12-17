@@ -135,7 +135,7 @@ ms.workload:
 
 - In place of the control label:
 
-     ![Screenshot of a drop down control with hint text in place of the control label that reads "Search Solution Explorer (Ctrl+;)".](../../extensibility/ux-guidelines/media/0601-f_hinttext1.png "0601-f_HintText1")
+     ![Screenshot of a drop-down control with hint text in place of the control label that reads "Search Solution Explorer (Ctrl+;)".](../../extensibility/ux-guidelines/media/0601-f_hinttext1.png "0601-f_HintText1")
 
 - With a verb, giving instructions:
 
