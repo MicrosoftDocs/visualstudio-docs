@@ -291,7 +291,7 @@ If you want to check that your unit test is working, select **Test** > **Run** >
 
 ## See also
 
-- [Create projects and solutions](../ide/creating-solutions-and-projects.md)
+- [Work with projects and solutions](../ide/creating-solutions-and-projects.md)
 - [Manage project and solution properties](../ide/managing-project-and-solution-properties.md)
 - [Manage references in a project](../ide/managing-references-in-a-project.md)
 - [Develop code in Visual Studio without projects or solutions](../ide/develop-code-in-visual-studio-without-projects-or-solutions.md)
