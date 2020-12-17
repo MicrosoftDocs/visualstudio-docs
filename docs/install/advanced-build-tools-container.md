@@ -207,7 +207,7 @@ The command 'cmd /S /C C:\TEMP\Install.cmd C:\TEMP\vs_buildtools.exe ...' return
 
 ::: moniker-end
 
-After the last line finishes executing, open "%TEMP%\vslogs.zip" on your machine, or submit an issue on the [Developer Community](https://aka.ms/feedback/report?space=8) website.
+After the last line finishes executing, open "%TEMP%\vslogs.zip" on your machine, or submit an issue on the [Developer Community](https://aka.ms/feedback/suggest?space=8) website.
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 

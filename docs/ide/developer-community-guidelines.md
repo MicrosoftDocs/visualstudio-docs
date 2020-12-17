@@ -15,7 +15,7 @@ The Developer Community tracks issues and feature suggestions for Visual Studio.
 
 ## Submitting problems and suggestions
 
-The [Visual Studio Developer Community](https://aka.ms/feedback/report?space=8) tracks issues and feature suggestions for Visual Studio.
+The [Visual Studio Developer Community](https://aka.ms/feedback/suggest?space=8) tracks issues and feature suggestions for Visual Studio.
 
 ### Before submitting an issue
 
@@ -111,4 +111,4 @@ Comments and replies are publicly visible, but any attached files are privately 
 
 ## Next steps
 
-Head on over to the [Visual Studio Developer Community](https://aka.ms/feedback/report?space=8) to report problems, suggest features, or browse through the existing tickets. Enjoy!
+Head on over to the [Visual Studio Developer Community](https://aka.ms/feedback/suggest?space=8) to report problems, suggest features, or browse through the existing tickets. Enjoy!

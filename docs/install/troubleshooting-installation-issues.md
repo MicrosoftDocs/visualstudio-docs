@@ -47,7 +47,7 @@ Repair fixes many common update issues. For more information on when and how to 
 
 ### Step 3 - Check with the developer community
 
-Search on your error message with the [Visual Studio Developer Community](https://aka.ms/feedback/report?space=8). Other members of the community might have documented a solution to your problem.
+Search on your error message with the [Visual Studio Developer Community](https://aka.ms/feedback/suggest?space=8). Other members of the community might have documented a solution to your problem.
 
 ### Step 4 - Delete the Visual Studio Installer directory to fix upgrade problems
 
