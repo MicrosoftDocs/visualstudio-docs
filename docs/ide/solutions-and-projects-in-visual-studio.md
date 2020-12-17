@@ -45,7 +45,7 @@ Project files are based on the [MSBuild XML schema](../msbuild/msbuild-project-f
 
 ## Solutions
 
-A project is contained within a *solution*. Despite its name, a solution is not an "answer". It's simply a container for one or more related projects, along with build information, Visual Studio window settings, and any miscellaneous files that aren't associated with a particular project. A solution is described by a text file (extension *.sln*) with its own unique format; it's not intended to be edited by hand.
+A project is contained within a *solution*. Despite its name, a solution is not an "answer". It's simply a container for one or more related projects, along with build information, Visual Studio window settings, and any miscellaneous files that aren't associated with a particular project.
 
 ### Solution file
 
@@ -55,6 +55,9 @@ Visual Studio uses two file types (*.sln* and *.suo*) to store settings for solu
 |---------------|----------|-----------------|
 |.sln|Visual Studio Solution|Organizes projects, project items, and solution items in the solution.|
 |.suo|Solution User Options|Stores user-level settings and customizations, such as breakpoints.|
+
+> [!IMPORTANT]
+> A solution is described by a text file (extension *.sln*) with its own unique format; it's not intended to be edited by hand. Conversely, the *.suo* file is a hidden file that is not displayed under the default File Explorer settings. To show hidden files, on the **View** menu in File Explorer, select the **Hidden Items** checkbox.
 
 ### Solution folder
 
