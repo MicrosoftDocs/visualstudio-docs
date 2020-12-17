@@ -1,5 +1,7 @@
 ---
 title: Launch Visual Studio using DTE
+description: Learn how to launch Visual Studio using DTE to support side-by-side installations of major releases. This article includes a code example.
+ms.custom: SEO-VS-2020
 titleSuffix: ''
 ms.date: 04/26/2019
 ms.topic: conceptual

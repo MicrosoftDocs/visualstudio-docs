@@ -1,5 +1,5 @@
 ---
-title: Solutions and projects
+title: Solutions and projects overview
 description: Learn about Visual Studio projects and solutions, how to create new projects from a template, and how to view & manage projects in Solution Explorer.
 ms.custom: SEO-VS-2020
 ms.date: 12/15/2020
@@ -62,11 +62,11 @@ A "solution folder" is a virtual folder that's only in **Solution Explorer**, wh
 
 ## Create new projects
 
-The easiest way to create a new project is to start from a project template for a particular type of application or website. A project template consists of a basic set of pre-generated code files, config files, assets, and settings. These templates are available in the dialog box where you create a new project (**File** > **New** > **Project**). For more information, see [Create a new project in Visual Studio](create-new-project.md) and [Create solutions and projects](../ide/creating-solutions-and-projects.md).
+The easiest way to create a new project is to use a project template for the project type you want. A project template includes a basic set of pre-generated code files, config files, assets, and settings. Use **File** > **New** > **Project** to select a project template. For more information, see [Create a new project](create-new-project.md).
 
-If you often customize your projects in a certain way, you can create a custom project template that you can then use to create new projects from. For more information, see [Create project and item templates](../ide/creating-project-and-item-templates.md).
+You can also create a custom project template that you can use to create new projects from. For more information, see [Create project and item templates](../ide/creating-project-and-item-templates.md).
 
-When you create a new project, it is saved by default at *%USERPROFILE%\source\repos*. You can change this location in the **Projects location** setting under **Tools** > **Options** > **Projects and Solutions** > **Locations**. For more information about this and other projects and solutions settings, see [Projects and Solutions page, Options dialog box](./reference/projects-and-solutions-options-dialog-box.md).
+When you create a new project, Visual Studio saves it to its default location, *%USERPROFILE%\source\repos*. To change this location, go to **Tools** > **Options** > **Projects and Solutions** > **Locations**. For more information, see [Options dialog box: Projects and Solutions > Locations](./reference/projects-solutions-locations-options.md).
 
 ## Solution Explorer
 
@@ -88,4 +88,3 @@ And, to view a list of some of the icons that appear in Solution Explorer, see [
 - [Visual Studio IDE](../get-started/visual-studio-ide.md)
 - [Port, migrate, and upgrade projects](../porting/port-migrate-and-upgrade-visual-studio-projects.md)
 - [Projects and solutions (Visual Studio for Mac)](/visualstudio/mac/projects-and-solutions)
-- [Add and remove project items (Visual Studio for Mac)](/visualstudio/mac/add-and-remove-project-items)
