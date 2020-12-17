@@ -20,7 +20,7 @@ You can report a problem from either Visual Studio or its installer. The built-i
 1. **In Visual Studio**, select the feedback icon in the upper-right corner and select Report a Problem. You can also access the feedback tool  from the menu **Help** > **Send Feedback** > **Report a Problem**.
 ![Report an issue pop-up on Visual Studio Developer Community](media/feedback-button.png)
 Alternatively, report a problem in **Visual Studio Installer** if you can't install Visual Studio or are unable to access the feedback tool within Visual Studio.  In the Installer, select the feedback icon in the upper-right corner and select Report a Problem.
-![Report an issue pop-up on Visual Studio Developer Community](media/installer.png)
+![Report an issue pop-up on Visual Studio Developer Community in the Installer](media/installer.png)
 
 1. Clicking **Report a Problem** will open your default browser and sign you in using the same account you use to sign in to Visual Studio
 
@@ -69,7 +69,7 @@ When an issue is missing important information, we assign the **Needs More Info*
 
 1. Selecting the Provide More Info link on the problem report navigates you to a new screen. From here, you can see what info is being requested.
 
-   ![My Feedback](../ide/media/feedback-need-more-info.png)
+   ![Details of info to be sent to Microsoft](../ide/media/feedback-need-more-info.png)
 
 1. You can provide more information by adding comments, attachments, or recording steps. This experience is similar to reporting a new problem or providing additional information when voting on a problem.
 
