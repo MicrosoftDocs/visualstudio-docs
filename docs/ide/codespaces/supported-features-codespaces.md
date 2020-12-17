@@ -103,7 +103,7 @@ Not yet available:
 
 When working with Visual Studio connected to a codespace, you get the same accessibility features as when working locally.
 
-* Source Control - Full Git support through the new [integrated Git experience](https://docs.microsoft.com/en-us/visualstudio/ide/git-with-visual-studio?view=vs-2019).
+* Source Control - Full Git support through the new [integrated Git experience](../ide/git-with-visual-studio.md).
 * Accessibility - There is one known issue with assistive technology not being able to access the appcasting of a debugged app. Besides this limitation, we don't believe there are any other compatibility issues that don't already exist in the local Visual Studio experience. Please let us know if you detect bugs by filing an issue on [developer community](https://developercommunity.visualstudio.com/).
 * Publishing - Publish to Azure through GitHub Actions is supported.
 * Connected services - App Insights, KeyVault, Storage, SQL, Redis, Cosmos, openAPI, and gRPC are partially supported.
