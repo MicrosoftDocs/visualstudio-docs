@@ -1,6 +1,6 @@
 ---
 title: Shared Colors for Visual Studio | Microsoft Docs
-Description: Learn how to use common Visual Studio shell elements and themese to design your own custom UI that is consistent with it.
+description: Learn how to use common Visual Studio shell elements and themese to design your own custom UI that is consistent with it.
 ms.date: 04/26/2017
 ms.topic: conceptual
 ms.assetid: 8d11b9a0-6175-4f2e-8e7f-79daee1bfd41

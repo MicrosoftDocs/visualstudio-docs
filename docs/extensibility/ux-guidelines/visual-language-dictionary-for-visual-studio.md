@@ -1,6 +1,6 @@
 ---
 title: Visual language reference
-Description: Learn about the concepts that are the building blocks of the iconography and other imagery in Visual Studio by using this visual reference.
+description: Learn about the concepts that are the building blocks of the iconography and other imagery in Visual Studio by using this visual reference.
 ms.date: "08/04/2017"
 ms.reviewer: "Jamie.Young"
 ms.topic: conceptual
