@@ -156,8 +156,6 @@
     items:
     - name: Debugger tips and tricks
       href: debugger-tips-and-tricks.md
-    - name: Attach to running processes with the debugger
-      href: attach-to-running-processes-with-the-visual-studio-debugger.md
     - name: Debug at design time
       href: walkthrough-debugging-at-design-time.md
     - name: Just-In-Time Debugger
@@ -286,8 +284,6 @@
       href: remote-debugging-csharp.md
     - name: Remote debug a C++ project
       href: remote-debugging-cpp.md
-    - name: Remote debug .NET Core on Linux
-      href: remote-debugging-dotnet-core-linux-with-ssh.md
     - name: Remote debugger port assignments
       href: remote-debugger-port-assignments.md
     - name: Configure the Windows Firewall for remote debugging
@@ -342,6 +338,14 @@
         href: error-mixed-mode-debugging-for-x64-processes-is-supported-only-when-using-microsoft-dotnet-framework-4-or-greater.md
       - name: Remote machine does not appear in a Remote Connections dialog
         href: error-remote-machine-does-not-appear-in-a-remote-connections-dialog.md
+  - name: Attach to process
+    items:
+    - name: Attach to running processes with the debugger
+      href: attach-to-running-processes-with-the-visual-studio-debugger.md
+    - name: Debug .NET Core on Linux
+      href: remote-debugging-dotnet-core-linux-with-ssh.md
+    - name: Attach to a process running in a Docker container
+      href: attach-to-process-running-in-docker-container.md
   - name: Multithreaded app debugging
     items:
     - name: Debug multithreaded applications

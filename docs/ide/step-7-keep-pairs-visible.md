@@ -1,5 +1,7 @@
 ---
 title: "Step 7: Keep pairs visible"
+description: Learn how to add an if statement so, when the player selects a matching pair of icons, the icons stay visible.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: tutorial
 ms.prod: visual-studio-windows

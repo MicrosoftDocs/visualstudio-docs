@@ -3,8 +3,6 @@ title: Configure the roles for an Azure cloud service
 description: Learn how to set up and configure roles for Azure cloud services using Visual Studio.
 author: ghogen
 manager: jillfra
-assetId: d397ef87-64e5-401a-aad5-7f83f1022e16
-ms.custom: vs-azure
 ms.workload: azure-vs
 ms.topic: how-to
 ms.date: 03/21/2017
@@ -60,7 +58,7 @@ To improve the performance of your cloud service, you can change the number of i
 
 1. In the **Service Configuration** list, select the service configuration that you want to update.
 
-    ![Service Configuration list](./media/vs-azure-tools-configure-roles-for-cloud-service/role-configuration-properties-page-select-configuration.png)
+    ![Service Configuration list 1](./media/vs-azure-tools-configure-roles-for-cloud-service/role-configuration-properties-page-select-configuration.png)
 
 1. In the **Instance count** text box, enter the number of instances that you want to start for this role. Each instance runs on a separate virtual machine when you publish the cloud service to Azure.
 
@@ -152,7 +150,7 @@ By using a different value for each service configuration, you do not have to us
 
 1. In the **Service Configuration** list, select the service configuration that you want to update.
 
-    ![Service Configuration list](./media/vs-azure-tools-configure-roles-for-cloud-service/project-properties-settings-tab-select-configuration.png)
+    ![Service Configuration list 2](./media/vs-azure-tools-configure-roles-for-cloud-service/project-properties-settings-tab-select-configuration.png)
 
 1. To add a custom setting, select **Add Setting**.
 
@@ -203,7 +201,7 @@ You can add local file system storage for each instance of a role. The data stor
 
 1. In the **Service Configuration** list, ensure that **All Configurations** is selected as the local storage settings apply to all service configurations. Any other value results in all the input fields on the page being disabled.
 
-    ![Service Configuration list](./media/vs-azure-tools-configure-roles-for-cloud-service/role-local-storage-tab-service-configuration.png)
+    ![Service Configuration list 3](./media/vs-azure-tools-configure-roles-for-cloud-service/role-local-storage-tab-service-configuration.png)
 
 1. To add a local storage entry, select **Add Local Storage**.
 

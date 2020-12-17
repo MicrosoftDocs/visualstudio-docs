@@ -1,5 +1,7 @@
 ---
 title: Deploying a Custom Directive Processor
+description: Learn about the methods available for deploying a custom directive processor in Visual Studio or on any computer.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:

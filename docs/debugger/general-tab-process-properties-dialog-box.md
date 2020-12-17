@@ -1,5 +1,7 @@
 ---
 title: "General Tab, Process Properties Dialog Box | Microsoft Docs"
+description: View the General tab for information about a process, including module name, process ID, base priority, thread count, CPU time, user time, and elapsed time.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 helpviewer_keywords:

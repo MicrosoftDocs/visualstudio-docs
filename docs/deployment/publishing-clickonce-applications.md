@@ -1,5 +1,7 @@
 ---
 title: "Publishing ClickOnce Applications | Microsoft Docs"
+description: Learn how to use the Publish Wizard to publish a ClickOnce application for the first time. Make later changes on the Publish page in the Project Designer.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:

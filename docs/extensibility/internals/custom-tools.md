@@ -1,5 +1,7 @@
 ---
 title: Custom Tools | Microsoft Docs
+description: Learn how to create custom tools in Visual Studio that associate a tool with an item in a project and run that tool whenever the file is saved.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

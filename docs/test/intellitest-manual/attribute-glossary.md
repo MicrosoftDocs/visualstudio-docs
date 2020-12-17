@@ -1,5 +1,7 @@
 ---
 title: Attribute glossary | Microsoft IntelliTest Developer Test Tool
+description: This article provides a list of IntelliTest attributes organized by namespace and details for the attributes.
+ms.custom: SEO-VS-2020
 ms.date: 05/02/2017
 ms.topic: reference
 helpviewer_keywords:

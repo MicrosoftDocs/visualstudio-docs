@@ -1,7 +1,7 @@
 ---
 title: Use Design Time Data with the XAML Designer in Visual Studio
 description: Learn how to use design-time data in XAML.
-ms.date: 09/29/2020
+ms.date: 11/17/2020
 ms.topic: overview
 author: alihamie
 ms.author: tglee
@@ -20,7 +20,7 @@ Some layouts are hard to visualize without data. In this document, we'll be revi
 
 Design-time data is mock data you set to make your controls easier to visualize in the XAML Designer. To get started, add the following lines of code to the header of your XAML document if they aren't already present:
 
-```xml 
+```xml
 xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
 xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
 mc:Ignorable="d"
@@ -61,7 +61,7 @@ You can set a design-time Source for images that are bound to the page or loaded
 
 ## Design-time data for ListViews
 
-ListViews are a popular way to display data in your Desktop app. However, they're difficult to visualize without any data. You can use this feature to create an inline design-time data ItemSource. The XAML Designer displays what is in that array in your ListView at design time. This is an example for WPF .NET Core. To use the system:String type, make sure you include 
+ListViews are a popular way to display data in your Desktop app. However, they're difficult to visualize without any data. You can use this feature to create an inline design-time data ItemSource. The XAML Designer displays what is in that array in your ListView at design time. This is an example for WPF .NET Core. To use the system:String type, make sure you include
 `xmlns:system="clr-namespace:System;assembly=mscorlib` in your XAML header.
 
 ```xml
@@ -134,9 +134,9 @@ The benefit here is that you can bind your controls to a design-time static vers
 
 ## Use design-time data with custom types and properties
 
-This feature by default works only with platform controls and properties. In this section we go over the steps needed to enable you to use your own custom controls as design-time controls, a new capability available to customers using Visual Studio 2019 preview version [16.8](/visualstudio/releases/2019/preview-notes) or later. There are three requirements to enable this:
+This feature by default works only with platform controls and properties. In this section we go over the steps needed to enable you to use your own custom controls as design-time controls, a new capability available to customers using Visual Studio 2019 version [16.8](/visualstudio/releases/2019/release-notes/) or later. There are three requirements to enable this:
 
-- A custom xmlns namespace 
+- A custom xmlns namespace
 
     ```xml
     xmlns:myControls="http://MyCustomControls"
@@ -175,11 +175,11 @@ If you experience a problem that isn't listed in this section, please let us kno
 
 ### Requirements
 
-- Design-time data requires Visual Studio 2019 version [16.7](/visualstudio/releases/2019/release-notes) or later.
+- Design-time data requires Visual Studio 2019 version [16.7](/visualstudio/releases/2019/release-notes-v16.7) or later.
 
-- Supports Windows desktop projects that are targeting Windows Presentation Foundation (WPF) for .NET Core and UWP. This feature is also available for .NET Framework if you have the "New WPF XAML Designer for .NET Framework" preview feature enabled.
+- Supports Windows desktop projects that target Windows Presentation Foundation (WPF) for .NET Core and UWP. This feature is also available for .NET Framework in the [Preview channel](/visualstudio/releases/2019/release-notes-preview). To enable it, go to **Tools** > **Options** > **Environment** > **Preview Features**, select **New WPF XAML Designer for .NET Framework** and then restart Visual Studio.
 
-- Starting with Visual Studio 2019 version 16.7, this feature works with all in-the-box controls from WPF and UWP frameworks. Support for third-party controls is now available in the 16.8 preview release.
+- Starting with Visual Studio 2019 version 16.7, this feature works with all in-the-box controls from WPF and UWP frameworks. Support for third-party controls is now available in the [16.8 release](/visualstudio/releases/2019/release-notes/).
 
 ### The XAML Designer stopped working
 

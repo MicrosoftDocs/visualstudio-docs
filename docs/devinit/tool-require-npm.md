@@ -1,7 +1,7 @@
 ---
 title: require-npm
 description: devinit tool require-npm.
-ms.date: 08/28/2020
+ms.date: 11/20/2020
 ms.topic: reference
 author: andysterland
 ms.author: andster
@@ -28,7 +28,7 @@ If both the `input` and `additionalOptions` properties are omitted or empty, the
 
 ### Input
 
-The `input` property is used to specify the NPM version.
+The `input` property is used to specify the npm version.
 
 ### Additional options
 
@@ -36,20 +36,29 @@ Unused.
 
 ### Default behavior
 
-The Default behavior of the `require-nodejs` tool is to install the latest LTS version of NPM.
+The default behavior of the `require-nodejs` tool is to install the latest LTS version of npm.
 
 ## Example usage
+Below are examples of how to run `require-npm` using a `.devinit.json`.
 
+#### .devinit.json that will install the LTS of npm:
 ```json
 {
-    "$schema": "https://json.schemastore.org/devinit.schema-2.0",
+    "$schema": "https://json.schemastore.org/devinit.schema-3.0",
     "run": [
         {
-            "comments": "Example that will trigger the Default behavior of installing latest LTS of NPM.",
             "tool": "require-npm"
-        },
+        }
+    ]
+}
+```
+
+#### .devinit.json that will install a specific version of npm:
+```json
+{
+    "$schema": "https://json.schemastore.org/devinit.schema-3.0",
+    "run": [
         {
-            "comments": "Example that will install a specific version.",
             "tool": "require-npm",
             "input": "6.14.6"
         }

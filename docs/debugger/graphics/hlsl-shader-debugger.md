@@ -1,5 +1,6 @@
 ---
 title: "HLSL Shader Debugger | Microsoft Docs"
+description: Use the HLSL debugger in the Graphics Analyzer to grasp how your HLSL code operates in your app. The debugger can simulate the exact HLSL thread that interests you.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:

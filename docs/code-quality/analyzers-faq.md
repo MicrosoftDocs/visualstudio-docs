@@ -1,6 +1,8 @@
 ---
 title: EditorConfig versus analyzers
 ms.date: 03/11/2019
+description: Learn about .NET Compiler Platform-based code analysis in Visual Studio. See answers to questions about EditorConfig files, rule sets, and other topics.
+ms.custom: SEO-VS-2020
 ms.topic: conceptual
 helpviewer_keywords:
 - analyzers, faq
@@ -55,7 +57,13 @@ In addition to rule sets and EditorConfig files, some analyzers are configured t
 
 **Q**: What's the difference between legacy analysis and .NET Compiler Platform-based code analysis?
 
-**A**: .NET Compiler Platform-based code analysis analyzes source code in real time and during compilation, whereas legacy analysis analyzes binary files after build has completed. For more information, see [.NET Compiler Platform-based analysis versus legacy analysis](../code-quality/fxcop-analyzers-faq.md#whats-the-difference-between-legacy-fxcop-and-fxcop-analyzers).
+**A**: .NET Compiler Platform-based code analysis analyzes source code in real time and during compilation, whereas legacy analysis analyzes binary files after build has completed. For more information, see [.NET Compiler Platform-based analysis versus legacy analysis](../code-quality/net-analyzers-faq.md#whats-the-difference-between-legacy-fxcop-and-net-analyzers).
+
+## FxCop analyzers versus .NET analyzers
+
+**Q**: What's the difference between FxCop analyzers and .NET analyzers?
+
+**A**: Both FxCop analyzers and .NET analyzers refers to the .NET Compiler Platform ("Roslyn") analyzer implementations of FxCop CA rules. Prior to Visual Studio 2019 16.8 and .NET 5.0, these analyzers shipped as `Microsoft.CodeAnalysis.FxCopAnalyzers` [NuGet package](https://www.nuget.org/packages/Microsoft.CodeAnalysis.FxCopAnalyzers). Starting in Visual Studio 2019 16.8 and .NET 5.0, these analyzers are [included with the .NET SDK](/dotnet/fundamentals/code-analysis/overview). They are also available as `Microsoft.CodeAnalysis.NetAnalyzers` [NuGet package](https://www.nuget.org/packages/Microsoft.CodeAnalysis.NetAnalyzers). Please consider [migrating from FxCop analyzers to .NET analyzers](migrate-from-fxcop-analyzers-to-net-analyzers.md).
 
 ## Treat warnings as errors
 
@@ -73,12 +81,12 @@ In addition to rule sets and EditorConfig files, some analyzers are configured t
      </Project>
      ```
 
-  2. Add a line to your .csproj or .vbproj project file to import the .props file you created in the previous step. This line must be placed before any lines that import the FxCop analyzer .props files. For example, if your .props file is named codeanalysis.props:
+  2. Add a line to your .csproj or .vbproj project file to import the .props file you created in the previous step. This line must be placed before any lines that import the analyzer .props files. For example, if your .props file is named codeanalysis.props:
 
      ```xml
      ...
      <Import Project="..\..\codeanalysis.props" Condition="Exists('..\..\codeanalysis.props')" />
-     <Import Project="..\packages\Microsoft.CodeAnalysis.FxCopAnalyzers.2.6.5\build\Microsoft.CodeAnalysis.FxCopAnalyzers.props" Condition="Exists('..\packages\Microsoft.CodeAnalysis.FxCopAnalyzers.2.6.5\build\Microsoft.CodeAnalysis.FxCopAnalyzers.props')" />
+     <Import Project="..\packages\Microsoft.CodeAnalysis.NetAnalyzers.5.0.0\build\Microsoft.CodeAnalysis.NetAnalyzers.props" Condition="Exists('..\packages\Microsoft.CodeAnalysis.NetAnalyzers.5.0.0\build\Microsoft.CodeAnalysis.NetAnalyzers.props')" />
      ...
      ```
 
@@ -86,7 +94,7 @@ In addition to rule sets and EditorConfig files, some analyzers are configured t
 
 **Q**: Where is the Code Analysis property page for the solution?
 
-**A**: The Code Analysis property page at the solution level was removed in favor of the more reliable shared property group. For managing Code Analysis at the project level, the Code Analysis property page is still available. (For managed projects, we also recommend migrating from rulesets to EditorConfig for rule configuration.)  For sharing rulesets across multiple/all projects in a solution or a repo, we recommend defining a property group with CodeAnalysisRuleSet property in a shared props/targets file or Directory.props/Directory.targets file. If you don't have any such common props or targets that all your projects import, you should consider [adding such a property group to a Directory.props or a Directory.targets at a top level solution directory, which is automatically imported in all project files defined in the directory or its sub-directories](../msbuild/customize-your-build.md).
+**A**: The Code Analysis property page at the solution level was removed in favor of the more reliable shared property group. For managing Code Analysis at the project level, the Code Analysis property page is still available. (For managed projects, we also recommend migrating from rulesets to EditorConfig for rule configuration.)  For sharing rulesets across multiple/all projects in a solution or a repo, we recommend defining a property group with [CodeAnalysisRuleSet](../code-quality/using-rule-sets-to-group-code-analysis-rules.md#specify-a-rule-set-for-a-project) property in a shared props/targets file or *Directory.props/Directory.targets* file. If you don't have any such common props or targets that all your projects import, you should consider adding such a property group to a [Directory.props or a Directory.targets file](../msbuild/customize-your-build.md) at a top level solution directory, which is automatically imported in all project files defined in the directory or its sub-directories.
 
 ## See also
 

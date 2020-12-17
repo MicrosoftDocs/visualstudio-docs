@@ -4,7 +4,6 @@ ms.custom: SEO-VS-2020
 description: Using Emulator Express to run and debug a cloud service on a local machine
 author: mikejo5000
 manager: jillfra
-ms.assetid: 73108f98-a552-4817-b7a1-551367b71906
 ms.topic: how-to
 ms.workload: azure-vs
 ms.date: 03/06/2017

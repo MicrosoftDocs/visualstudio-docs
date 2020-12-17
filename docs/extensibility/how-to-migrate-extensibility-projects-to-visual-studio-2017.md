@@ -1,6 +1,7 @@
 ---
 title: Migrate Extensibility Projects to Visual Studio 2017
 titleSuffix: ""
+description: Learn how to upgrade extensibility projects to Visual Studio 2017 and how to upgrade from extension manifest version 2 to the version 3 VSIX manifest.
 ms.custom: SEO-VS-2020
 ms.date: 11/09/2016
 ms.topic: how-to

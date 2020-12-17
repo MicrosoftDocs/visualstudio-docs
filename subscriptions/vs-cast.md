@@ -1,5 +1,5 @@
 ---
-title: CAST Highlight Benefit in to Visual Studio Subscriptions | Microsoft Docs
+title: CAST Highlight benefit in to Visual Studio subscriptions | Microsoft Docs
 author: evanwindom
 ms.author: v-evwin
 manager: lank
@@ -73,9 +73,9 @@ Upon approval of your request, you'll receive a second email confirming successf
 | Subscription Level                                                 |     Channels                                            | Benefit                                                          | Renewable?    |
 |--------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------|---------------|
 | Visual Studio Enterprise (Standard)   | VL, Azure, Retail, | Assess 5 apps for three months|  No.  Available to new subscribers only          |
-| Visual Studio Enterprise with GitHub Enterprise  | VL | Assess 5 apps for three months|  No.  Available to new subscribers only          |
+| Visual Studio Enterprise subscription with GitHub Enterprise  | VL | Assess 5 apps for three months|  No.  Available to new subscribers only          |
 | Visual Studio Professional (Standard) | VL, Azure, Retail                                       | Assess 1 app for three months                                                             |  No.  Available to new subscribers only                  |
-| Visual Studio Professional with GitHub Enterprise | VL                                       | Assess 1 app for three months                                                            |  No.  Available to new subscribers only                  |
+| Visual Studio Professional subscription with GitHub Enterprise | VL                                       | Assess 1 app for three months                                                            |  No.  Available to new subscribers only                  |
 | Visual Studio Test Professional (Standard)                         | VL, Retail                                              | Not available                                             |  N/A           |
 | MSDN Platforms (Standard)                                          | VL, Retail                                              | Not available                                              |  N/A          |
 | Visual Studio Enterprise (Standard)  | NFR<sup>1</sup> |Not available  | N/A |

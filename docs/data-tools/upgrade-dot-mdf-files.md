@@ -1,5 +1,7 @@
 ---
 title: Upgrade .mdf files
+description: Review options for upgrading a database file (.mdf) after you install a newer version of Visual Studio.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:

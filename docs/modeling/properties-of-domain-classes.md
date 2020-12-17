@@ -1,5 +1,7 @@
 ---
 title: Properties of Domain Classes
+description: Learn about the various properties of domain classes, such as Access Modifier, Custom Attributes, and Generates Double Derived.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:

@@ -1,10 +1,10 @@
 ---
-title: Power BI Pro Benefit in Visual Studio Subscriptions | Microsoft Docs
+title: Power BI Pro Benefit in Visual Studio subscriptions | Microsoft Docs
 author: evanwindom
 ms.author: v-evwin
-manager: lank
+manager: cabuschl
 ms.assetid: 383fc910-3f4c-474a-a3f8-0f13525f05e9
-ms.date: 10/22/2020
+ms.date: 12/02/2020
 ms.topic: how-to
 description:  Learn about the Power BI Pro subscription included with selected Visual Studio subscriptions.
 ---
@@ -59,9 +59,9 @@ To use Power BI Pro, you’ll need to set up an account or sign in using an exis
 | Subscription Level                                                 |     Channels                                            | Benefit                                                          | Renewable?    |
 |--------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------|---------------|
 | Visual Studio Enterprise (Standard)   | VL, Azure, Retail,  selected NFR<sup>1</sup> | Available       |  Yes|
-| Visual Studio Enterprise with GitHub Enterprise  | VL | Available       |  Yes|
+| Visual Studio Enterprise subscription with GitHub Enterprise  | VL | Available       |  Yes|
 | Visual Studio Professional (Standard, monthly cloud) | VL, Azure, Retail                                       | Not available                                                            |NA         |
-| Visual Studio Professional with GitHub Enterprise | VL                                      | Not available                                                            |NA         |
+| Visual Studio Professional subscription with GitHub Enterprise | VL                                      | Not available                                                            |NA         |
 | Visual Studio Test Professional (Standard)                         | VL, Retail                                              | Not available                                                            |NA         |
 | MSDN Platforms (Standard)                                          | VL, Retail                                              | Available       |  Yes|
 | Visual Studio Enterprise (monthly cloud) | Azure                                       | Not available                                  |NA|

@@ -1,5 +1,7 @@
 ---
 title: Adding a Tool Window | Microsoft Docs
+description: Learn how to create a tool window and integrate it into Visual Studio by adding a control and a toolbar containing a command to the tool window.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:

@@ -17,7 +17,7 @@ You can profile a Python application when using CPython-based interpreters. (See
 
 ## Profiling for CPython-based interpreters
 
-Profiling is started through the **Analyze** > **Launch Python Profiling** menu command, which opens a configuration dialog:
+Profiling is started through the **Debug** > **Launch Python Profiling** menu command, which opens a configuration dialog:
 
 ![Profiling configuration dialog](media/profiling-start.png)
 

@@ -336,6 +336,49 @@ Output:
 -->
 ```
 
+## MSBuild TargetFramework and TargetPlatform functions
+
+MSBuild defines several functions for handling [TargetFramework and TargetPlatform properties](msbuild-target-framework-and-target-platform.md).
+
+|Function signature|Description|
+|------------------------|-----------------|
+|GetTargetFrameworkIdentifier(string targetFramework)|Parse the TargetFrameworkIdentifier from the TargetFramework.|
+|GetTargetFrameworkVersion(string targetFramework)|Parse the TargetFrameworkVersion from the TargetFramework.|
+|GetTargetPlatformIdentifier(string targetFramework)|Parse the TargetPlatformIdentifier from the TargetFramework.|
+|GetTargetPlatformVersion(string targetFramework)|Parse the TargetPlatformVersion from the TargetFramework.|
+|IsTargetFrameworkCompatible(string targetFrameworkTarget, string targetFrameworkCandidate)|Return 'True' if the candidate target framework is compatible with this target framework and false otherwise.|
+
+The following example shows how these functions are used. 
+
+```xml
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+
+    <PropertyGroup>
+        <Value1>$([MSBuild]::GetTargetFrameworkIdentifier('net5.0-windows7.0'))</Value1>
+        <Value2>$([MSBuild]::GetTargetFrameworkVersion('net5.0-windows7.0'))</Value2>
+        <Value3>$([MSBuild]::GetTargetPlatformIdentifier('net5.0-windows7.0'))</Value3>
+        <Value4>$([MSBuild]::GetTargetPlatformVersion('net5.0-windows7.0'))</Value4>
+        <Value5>$([MSBuild]::IsTargetFrameworkCompatible('net5.0-windows', 'net5.0'))</Value5>
+    </PropertyGroup>
+
+    <Target Name="MyTarget">
+        <Message Text="Value1 = $(Value1)" />
+        <Message Text="Value2 = $(Value2)" />
+        <Message Text="Value3 = $(Value3)" />
+        <Message Text="Value4 = $(Value4)" />
+        <Message Text="Value5 = $(Value5)" />
+    </Target>
+</Project>
+```
+
+```output
+Value1 = .NETCoreApp
+Value2 = 5.0
+Value3 = windows
+Value4 = 7.0
+Value5 = True
+```
+
 ## MSBuild condition functions
 
 The functions `Exists` and `HasTrailingSlash` are not property functions. They are available for use with the `Condition` attribute. See [MSBuild conditions](msbuild-conditions.md).

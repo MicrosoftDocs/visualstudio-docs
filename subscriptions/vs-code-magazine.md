@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: v-evwin
 manager: lank
 ms.assetid: e5768153-2758-46d3-a323-3272def213ee
-ms.date: 03/25/2020
+ms.date: 12/02/2020
 ms.topic: how-to
 description:  Learn about the CODE Magazine benefit included in your Visual Studio subscription.
 ---
@@ -45,9 +45,9 @@ After you complete your subscription order, you'll see a confirmation page, incl
 | Subscription Level                                                 |     Channels                                            | Benefit                                                          | Renewable?    |
 |--------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------|---------------|
 | Visual Studio Enterprise (Standard)   | VL, Azure, Retail,  selected NFR<sup>1</sup> | Available       |  No          |
-| Visual Studio Enterprise with GitHub Enterprise   | VL| Available       |  No          |
+| Visual Studio Enterprise subscription with GitHub Enterprise   | VL| Available       |  No          |
 | Visual Studio Professional (Standard) | VL, Azure, Retail                                       | Available                                                            |  No          |
-| Visual Studio Professional with GitHub Enterprise | VL                                      | Available                                                            |  No          |
+| Visual Studio Professional subscription with GitHub Enterprise | VL                                      | Available                                                            |  No          |
 | Visual Studio Test Professional (Standard)                         | VL, Retail                                              | Available                                             |  No          |
 | MSDN Platforms (Standard)                                          | VL, Retail                                              | Available                                              |  No          |
 | Visual Studio Enterprise, Visual Studio Professional (monthly cloud) | Azure | Not available | N/A |

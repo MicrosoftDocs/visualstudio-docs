@@ -9,12 +9,12 @@ ms.date: 08/14/2020
 user.type: subscriber
 tags: download, activate, product-key
 subscription.type: vl, cloud, retail, partner
-sap.id: b57b561c-d839-7050-131d-109cfb54781d
+sap.id: 631f9455-a027-34d0-12c8-c2b37d2c42cb
 ---
 
 ## I'm unable to find or claim a product key.
 
-The product keys available to you depends on the Visual Studio subscription you're using.  
+The product keys available to you depend on the Visual Studio subscription you're using.  
 
 ## Product keys page 
 

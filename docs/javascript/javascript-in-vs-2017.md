@@ -246,7 +246,7 @@ VSDoc is no longer supported in favor of [JSDoc](https://jsdoc.app/about-getting
 
 ### `.intellisense.js` extensions
 
-Previously, you could author [IntelliSense extensions](../vs-2015/ide/extending-javascript-intellisense.md) which would allow you to add custom completion results for third-party libraries.
+Previously, you could author [IntelliSense extensions](/previous-versions/visualstudio/visual-studio-2015/ide/extending-javascript-intellisense) which would allow you to add custom completion results for third-party libraries.
 These extensions were fairly difficult to write and installing and referencing them was cumbersome, so going forward the new language service won't support these files.
 As an easier alternative, you can write a TypeScript definition file to provide the same IntelliSense benefits as the old `.intellisense.js` extensions.
 You can learn more about declaration (`.d.ts`) file authoring [here](http://www.typescriptlang.org/docs/handbook/declaration-files/introduction.html).

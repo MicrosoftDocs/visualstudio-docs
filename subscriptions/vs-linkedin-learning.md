@@ -1,10 +1,10 @@
 ---
-title: LinkedIn Learning Benefit in Visual Studio Subscriptions | Microsoft Docs
+title: LinkedIn Learning benefit in Visual Studio subscriptions | Microsoft Docs
 author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: 5bba2205-d32f-413d-9b58-724a24993842
-ms.date: 10/21/2020
+ms.date: 12/02/2020
 ms.topic: how-to
 description:  Learn about the LinkedIn Learning benefit included as part of a LinkedIn Premium subscription included in selected Visual Studio subscriptions.
 ---
@@ -67,9 +67,9 @@ To activate your LinkedIn Premium subscription and LinkedIn Learning benefit:
 | Subscription Level                                                 |     Channels                                            | Benefit                                                          | Renewable?    |
 |--------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------|---------------|
 | Visual Studio Enterprise (Standard)   | VL, Azure, Retail<sup>1</sup> | 6 months       |  No.  Available to new subscribers only          |
-| Visual Studio Enterprise with GitHub Enterprise   | VL | 6 months       |  No.  Available to new subscribers only          |
+| Visual Studio Enterprise subscription with GitHub Enterprise   | VL | 6 months       |  No.  Available to new subscribers only          |
 | Visual Studio Professional (Standard) | VL, Azure, Retail                                       | 3 months                                                            |No.  Available to new subscribers only         |
-| Visual Studio Professional with GitHub Enterprise | VL | 3 months      | No.  Available to new subscribers only         |
+| Visual Studio Professional subscription with GitHub Enterprise | VL | 3 months      | No.  Available to new subscribers only         |
 | Visual Studio Test Professional (Standard)                         | VL, Retail                                              | Not available                                            |  NA         |
 | MSDN Platforms (Standard)                                          | VL, Retail                                              | Not available                                              | NA         |
 | Visual Studio Enterprise, Visual Studio Professional (monthly cloud) | Azure                                       | Not available                                                           |NA|

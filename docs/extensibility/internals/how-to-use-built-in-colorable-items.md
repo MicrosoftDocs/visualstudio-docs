@@ -1,5 +1,7 @@
 ---
 title: 'How to: Use Built-In Colorable Items | Microsoft Docs'
+description: Learn how to use the built-in colorable items in the Visual Studio integrated development environment (IDE) for your language service.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:

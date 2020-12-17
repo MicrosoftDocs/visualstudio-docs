@@ -1,5 +1,7 @@
 ---
 title: Component Management | Microsoft Docs
+description: Learn how to manage Windows Installer components when creating a VSPackage installer in Visual Studio.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

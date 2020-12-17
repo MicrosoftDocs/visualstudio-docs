@@ -1,5 +1,7 @@
 ---
 title: "&lt;assembly&gt; Element (ClickOnce Application) | Microsoft Docs"
+description: The assembly element is the root element and is required in ClickOnce Application. Its first contained element must be an assemblyIdentity element.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 f1_keywords:

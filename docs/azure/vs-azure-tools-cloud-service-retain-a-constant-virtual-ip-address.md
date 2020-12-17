@@ -4,8 +4,6 @@ description: Learn how to ensure that the virtual IP address (VIP) of your Azure
 ms.custom: SEO-VS-2020
 author: ghogen
 manager: jillfra
-assetId: 4a58e2c6-7a79-4051-8a2c-99182ff8b881
-ms.custom: vs-azure
 ms.workload: azure-vs
 ms.topic: how-to
 ms.date: 03/21/2017

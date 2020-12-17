@@ -56,7 +56,7 @@ conceptualContent:
           url: /cpp/get-started/tutorial-console-cpp
           itemType: get-started
         - text: Create a Visual Basic console app
-          url: ../get-started/visual-basic//tutorial-console.md
+          url: ../get-started/visual-basic/tutorial-console.md
           itemType: get-started
         - text: Get started with Python
           url: ../python/tutorial-working-with-python-in-visual-studio-step-00-installation.md
@@ -154,7 +154,7 @@ additionalContent:
         - title: Gaming
           links:
             - text: Game development with Unity
-              url: ../cross-platform/visual-studio-tools-for-unity.md
+              url: /visualstudio/gamedev/unity/get-started/visual-studio-tools-for-unity
             - text: Game development with C++
               url: /windows/uwp/gaming/e2e
         - title: Other toolsets
