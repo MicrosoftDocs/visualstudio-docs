@@ -1,5 +1,5 @@
 ---
-title: Solutions and projects overview
+title: Develop with solutions and projects
 description: Learn about Visual Studio projects and solutions, how to create new projects from a template, and how to view & manage projects in Solution Explorer.
 ms.custom: SEO-VS-2020
 ms.date: 12/15/2020
@@ -23,7 +23,7 @@ manager: jillfra
 ms.workload:
 - multiple
 ---
-# Solutions and projects in Visual Studio
+# Develop with solutions and projects in Visual Studio
 
 This page describes the concept of a *project* and a *solution* in Visual Studio. It also briefly covers the Solution Explorer tool window and how to create a new project.
 
