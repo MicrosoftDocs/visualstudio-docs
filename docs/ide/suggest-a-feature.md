@@ -19,7 +19,7 @@ You can also start a feature suggestion directly from Visual Studio by choosing 
 
 ![Provide a Suggestion menu in Visual Studio](media/suggest-a-feature/provide-suggestion.png)
 
-Choosing **Provide a Suggestion** takes you to [Developer Community](https://aka.ms/feedback/report?space=8), where you can enter your suggestion.
+Choosing **Provide a Suggestion** takes you to [Developer Community](https://aka.ms/feedback/suggest?space=8), where you can enter your suggestion.
 
 ## User Voice
 

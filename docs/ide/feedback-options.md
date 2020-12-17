@@ -56,7 +56,7 @@ Next, Visual Studio opens the [Developer Community](https://aka.ms/feedback/repo
 
 If you have an idea or a suggestion to make Visual Studio better, let us know by using the **Provide a Suggestion** tool. In Visual Studio, choose the feedback icon next to the search box, or choose **Help** > **Send Feedback** > **Provide a Suggestion** from the menu bar.
 
-Next, Visual Studio opens the [Developer Community](https://aka.ms/feedback/report?space=8) page, where you can sign in to share your idea. For more information, see [Suggest a feature for Visual Studio](suggest-a-feature.md).
+Next, Visual Studio opens the [Developer Community](https://aka.ms/feedback/suggest?space=8) page, where you can sign in to share your idea. For more information, see [Suggest a feature for Visual Studio](suggest-a-feature.md).
 
 ::: moniker-end
 

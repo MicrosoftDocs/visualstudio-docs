@@ -52,7 +52,7 @@ In the **Preview** tab, you can view files in the editor without opening them. Y
 
 #### Vertical document tabs
 
-**[New in version 16.4](/visualstudio/releases/2019/release-notes-v16.4/)**: We added one of the top feature requests, [vertical document tabs](https://aka.ms/feedback/report?space=8idea/467369/vertical-group-tab.html), in the Visual Studio 2019 version 16.4 release. Now, you can manage your document tabs in a vertical list on either the left or right side of your editor.
+**[New in version 16.4](/visualstudio/releases/2019/release-notes-v16.4/)**: We added one of the top feature requests, [vertical document tabs](https://developercommunity.visualstudio.com/idea/467369/vertical-group-tab.html), in the Visual Studio 2019 version 16.4 release. Now, you can manage your document tabs in a vertical list on either the left or right side of your editor.
 
 You can apply vertical document tabs in the following ways:
 

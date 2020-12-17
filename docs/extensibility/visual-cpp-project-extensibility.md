@@ -284,7 +284,7 @@ If you need to create a new task for a build tool, you can choose from the follo
 
 1. If you want better task performance or just need more complex functionality, use the regular MSBuild [task writing](../msbuild/task-writing.md) process.
 
-   If not all inputs and outputs of the tool are listed on the tool command line, as in the `CL`, `MIDL`, and `RC` cases, and if you want automatic input and output file tracking and .tlog file creation, derive your task from the `Microsoft.Build.CPPTasks.TrackedVCToolTask` class. At present, while there is documentation for the base [ToolTask](/dotnet/api/microsoft.build.utilities.tooltask) class, there are no examples or documentation for the details of the `TrackedVCToolTask` class. If this would be of particular interest, add your voice to a request on [aka.ms/feedback/report?space=8](https://aka.ms/feedback/report?space=62).
+   If not all inputs and outputs of the tool are listed on the tool command line, as in the `CL`, `MIDL`, and `RC` cases, and if you want automatic input and output file tracking and .tlog file creation, derive your task from the `Microsoft.Build.CPPTasks.TrackedVCToolTask` class. At present, while there is documentation for the base [ToolTask](/dotnet/api/microsoft.build.utilities.tooltask) class, there are no examples or documentation for the details of the `TrackedVCToolTask` class. If this would be of particular interest, add your voice to a request on [Developer Community](https://aka.ms/feedback/suggest?space=62).
 
 ## Incremental builds and up-to-date checks
 

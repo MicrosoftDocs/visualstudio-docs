@@ -194,4 +194,4 @@ public static void AreElementsNotNull<T>(T[] value)
 
 ## Got feedback?
 
-Post your ideas and feature requests on [Developer Community](https://aka.ms/feedback/report?space=8content/idea/post.html?space=8).
+Post your ideas and feature requests on [Developer Community](https://aka.ms/feedback/suggest?space=8).

@@ -81,7 +81,7 @@ You can see these requests on the **My Feedback** screen along with all your oth
 
 If you don't want to or can't use Visual Studio to report a problem, there's a chance the problem has already been reported and a solution posted on the [Visual Studio Developer Community](https://aka.ms/feedback/report?space=8) page.
 
-If you don't have a problem to report but want to suggest a feature, there's a place for doing that too. For more information, see the [Suggest a feature](https://aka.ms/feedback/report?space=8content/idea/post.html?space=8) page.
+If you don't have a problem to report but want to suggest a feature, there's a place for doing that too. For more information, see the [Suggest a feature](https://aka.ms/feedback/suggest?space=8) page.
 
 ## See also
 

@@ -827,4 +827,4 @@ For the Runtime API, see [Windows Help API](/previous-versions/windows/desktop/h
 
 For more information on how to leverage the Help API, see [Help Viewer code examples](https://marketplace.visualstudio.com/items?itemName=RobChandlerHelpMVP.HelpViewer20CodeExamples).
 
-You can submit feature suggestions on [Developer Community](https://aka.ms/feedback/report?space=8content/idea/post.html?space=8).
+You can submit feature suggestions on [Developer Community](https://aka.ms/feedback/suggest?space=8).
