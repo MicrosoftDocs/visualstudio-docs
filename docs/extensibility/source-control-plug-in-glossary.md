@@ -1,5 +1,7 @@
 ---
 title: Source Control Plug-in Glossary | Microsoft Docs
+description: This article includes helpful terms and definitions that pertain to the Source Control Plug-in SDK documentation.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

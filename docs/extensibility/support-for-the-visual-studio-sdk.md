@@ -1,5 +1,7 @@
 ---
 title: Support for the Visual Studio SDK | Microsoft Docs
+description: Learn about the support options are available for customers about how to extend the Visual Studio IDE.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
