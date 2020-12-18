@@ -97,4 +97,4 @@ If you want to add an additional project to a solution, right-click the solution
 
 ## See also
 
-- [Create solutions and projects](creating-solutions-and-projects.md)
+- [Work with solutions and projects](creating-solutions-and-projects.md)
