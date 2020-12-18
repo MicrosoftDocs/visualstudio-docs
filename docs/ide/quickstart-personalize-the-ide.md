@@ -3,7 +3,7 @@ title: Set the Visual Studio dark theme and change text colors
 description: Learn how to change the default Visual Studio color theme to dark mode and change font colors in the code editor.
 ms.date: 08/20/2020
 ms.topic: how-to
-ms.custom: contperfq1
+ms.custom: contperf-fy21q1
 author: TerryGLee
 ms.author: tglee
 manager: jillfra
