@@ -1,8 +1,8 @@
 ---
 title: Learn about solutions and projects
 description: Learn about Visual Studio projects and solutions, how to create new projects from a template, and how to view & manage projects in Solution Explorer.
-ms.custom: SEO-VS-2020
-ms.date: 12/15/2020
+ms.custom: "SEO-VS-2020, contperf-fy21q2"
+ms.date: 12/17/2020
 ms.topic: conceptual
 f1_keywords:
 - vs.addnewitem
@@ -71,11 +71,14 @@ You can also create a custom project template that you can use to create new pro
 
 When you create a new project, Visual Studio saves it to its default location, *%USERPROFILE%\source\repos*. To change this location, go to **Tools** > **Options** > **Projects and Solutions** > **Locations**. For more information, see [Options dialog box: Projects and Solutions > Locations](./reference/projects-solutions-locations-options.md).
 
+> [!TIP]
+> For an example of a project and solution created from scratch, complete with step-by-step instructions and sample code, see [Introduction to projects and solutions](../get-started/tutorial-projects-solutions.md).
+
 ## Solution Explorer
 
 After you create a new project, you can use **Solution Explorer** to view and manage the project and solution and their associated items. The following illustration shows **Solution Explorer** with a C# solution that contains two projects:
 
-![Solution Explorer](../ide/media/vs2015_solution_explorer.png)
+![Screenshot of Solution Explorer.](../ide/media/vs2015_solution_explorer.png)
 
 Many menu commands are available from the right-click menu on various items in **Solution Explorer**. These commands include building a project, managing NuGet packages, adding a reference, renaming a file, and running tests, just to name a few. The toolbar across the top of **Solution Explorer** has buttons to switch from a solution view to a folder view, show hidden files, collapse all nodes, and more.
 
