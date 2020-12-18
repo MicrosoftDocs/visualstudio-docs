@@ -1,5 +1,7 @@
 ---
 title: Troubleshooting VSPackages | Microsoft Docs
+description: Learn about common problems that you might have with your VSPackage and troubleshooting tips to resolve the issues.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: troubleshooting
 helpviewer_keywords:
