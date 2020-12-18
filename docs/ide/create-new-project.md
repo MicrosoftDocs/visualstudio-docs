@@ -1,7 +1,7 @@
 ---
 title: Create a new project
-description: Learn how to create a new project in Visual Studio, step by step.
-ms.custom: SEO-VS-2020
+description: Learn how to create a new project in Visual Studio.
+ms.custom: SEO-Visual Studio-2020
 ms.date: 03/19/2019
 ms.topic: how-to
 f1_keywords:
@@ -15,6 +15,8 @@ ms.workload:
 - multiple
 ---
 # Create a new project in Visual Studio
+
+In this article, we'll show you how to quickly create a new project in Visual Studio.
 
 ::: moniker range="vs-2017"
 
@@ -53,7 +55,7 @@ Click **OK** to create the solution and project.
 
 There are multiple ways to create a new project in Visual Studio 2019. When you first open Visual Studio, the start window appears, and from there, you can choose **Create a new project**.
 
-![Create a new project from the start window in VS 2019](media/vs-2019/start-window-create-new-project.png)
+![Create a new project from the start window in Visual Studio 2019](media/vs-2019/start-window-create-new-project.png)
 
 If the Visual Studio development environment is already open, you can create a new project by choosing **File** > **New** > **Project** on the menu bar or by clicking the **New Project** button on the toolbar.
 
@@ -72,7 +74,7 @@ The tags that appear under each template correspond to the three dropdown filter
 > [!TIP]
 > If you don't see the template you're looking for, you may be missing a workload for Visual Studio. To install additional workloads, for example, **Azure Development** or **Mobile Development with .NET**, click the **Install more tools and features** link to open Visual Studio Installer. From there, select the workloads you want to install, and then choose **Modify**. After that, additional project templates will be available to choose from.
 >
-> ![Install more tools and features link in VS 2019](media/vs-2019/install-more-tools-features.png)
+> ![Install more tools and features link in Visual Studio 2019](media/vs-2019/install-more-tools-features.png)
 
 Select a template and then click **Next**.
 
@@ -80,12 +82,12 @@ Select a template and then click **Next**.
 
 The **Configure your new project** page has options to name your project (and solution), choose a disk location, and select a Framework version (if applicable to the template you chose).
 
-![Configure your new project page in VS 2019](media/vs-2019/configure-new-project.png)
+![Configure your new project page in Visual Studio 2019](media/vs-2019/configure-new-project.png)
 
 > [!NOTE]
 > If you create a new project when you already have a project or solution open in Visual Studio, an extra configuration option is available. You can choose to create a new solution or add the new project to the solution that's already open.
 >
-> ![Create new solution or add to existing solution in VS 2019](media/vs-2019/configure-new-project-solution.png)
+> ![Create new solution or add to existing solution in Visual Studio 2019](media/vs-2019/configure-new-project-solution.png)
 
 Click **Create** to create the new project.
 
@@ -94,6 +96,9 @@ Click **Create** to create the new project.
 ## Add additional projects to a solution
 
 If you want to add an additional project to a solution, right-click the solution node in **Solution Explorer** and choose **Add** > **New Project**.
+
+> [!TIP]
+> For an example of a project and solution created from scratch, complete with step-by-step instructions and code, see [Introduction to projects and solutions](../get-started/tutorial-projects-solutions.md).
 
 ## See also
 
