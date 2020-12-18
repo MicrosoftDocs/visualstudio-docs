@@ -2,7 +2,7 @@
 title: Learn about solutions and projects
 description: Learn about Visual Studio projects and solutions, how to create new projects from a template, and how to view & manage projects in Solution Explorer.
 ms.custom: SEO-VS-2020
-ms.date: 12/15/2020
+ms.date: 12/17/2020
 ms.topic: conceptual
 f1_keywords:
 - vs.addnewitem
