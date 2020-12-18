@@ -35,7 +35,7 @@ The `input` property is used to specify the name of the package to install (for 
 Additional configuration options can be passed in as a value of the `additionalOptions`. These arguments are direct passthrough to the arguments used by [`choco install`](https://chocolatey.org/docs/commands-install) and are defined in chocolatey documentation.
 
 #### Adding new feeds to Chocolatey
-If you want to add a new feed to Chocolatey, similar to a `choco source add` command, you can pass in `additionalOptions` to do so. An example of adding a new feed is in [Example usage](#example-usage). If you wish to add a private feed, we recommend running the tool in the command prompt because it requires credentials. For example, `devinit run -t choco-install -i {package} -s "{feed link} -u {user} -p {password}`, where `{package}`, `{feed link}`, `{user}`, and `{password}` refer to your specific package, feed link, username, and password. More information is in Chocolatey documentation referenced above. 
+If you want to add a new feed to Chocolatey, similar to a `choco source add` command, you can pass in `additionalOptions` to do so. An example of adding a new feed is in [Example usage](#example-usage). If you wish to add a private feed, we recommend running the tool in the command prompt because it requires credentials. For example, `devinit run -t choco-install -i {package} -s "{feed link}" -u {user} -p {password}`, where `{package}`, `{feed link}`, `{user}`, and `{password}` refer to your specific package, feed link, username, and password. More information is in Chocolatey documentation referenced above. 
 
 ### Built-in options
 
