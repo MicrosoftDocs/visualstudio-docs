@@ -376,7 +376,7 @@ There are multiple ways to suppress rule violations:
 
 When you build your project at the command line, rule violations appear in the build output if the following conditions are met:
 
-- The analyzers are installed as a NuGet package and not as a VSIX extension.
+- The analyzers are installed with the .NET SDK or as a NuGet package, and not as a VSIX extension.
 
 - One or more rules are violated in the project's code.
 
