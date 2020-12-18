@@ -1,7 +1,7 @@
 ---
 title: Create a new project
 description: Learn how to create a new project in Visual Studio.
-ms.custom: "SEO-VS-2020, contperf-fy21q2"
+ms.custom: SEO-VS-2020
 ms.date: 12/17/2020
 ms.topic: how-to
 f1_keywords:
@@ -102,4 +102,5 @@ If you want to add an additional project to a solution, right-click the solution
 
 ## See also
 
+- [Introduction to projects and solutions](../get-started/tutorial-projects-solutions.md)
 - [Work with solutions and projects](creating-solutions-and-projects.md)
