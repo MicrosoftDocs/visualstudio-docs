@@ -75,7 +75,7 @@ The architecture (platform configuration) that your program runs on has a limite
 
 ## Provide feedback
 
-For any issues or suggestions about this feature, please let us know via Help > Send Feedback > [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio.md) in the IDE or in the [Developer Community](https://developercommunity.visualstudio.com/).
+For any issues or suggestions about this feature, please let us know via Help > Send Feedback > [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio.md) in the IDE or in the [Developer Community](https://aka.ms/feedback/suggest?space=8).
 
 ## See also
 
