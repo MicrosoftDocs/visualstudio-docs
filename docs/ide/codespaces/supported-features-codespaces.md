@@ -22,7 +22,7 @@ In the current GitHub Codespaces [public beta](https://github.com/features/codes
 This is **not meant to be an exhaustive list**, but to explain Visual Studio's general capabilities when connected to a codespace.
 
 > [!NOTE]
-> If there is a feature you are missing while using codespaces with Visual Studio, please let us know by opening an issue on https://developercommunity.visualstudio.com/. This helps us prioritize the most wanted features.
+> If there is a feature you are missing while using codespaces with Visual Studio, please let us know by opening an issue on [Visual Studio Developer Community](https://aka.ms/feedback/suggest?space=8). This helps us prioritize the most wanted features.
 
 > [!NOTE]
 > The features described below are for Visual Studio and not the two other GitHub Codespaces clients; Visual Studio Code and the in-browser editor.

@@ -160,4 +160,5 @@ additionalContent:
         - title: Version Control
           summary: Share code using version control technologies such as Git and Subversion.
           url: ~/version-control.md
-  footer: "[Blogs](https://devblogs.microsoft.com/visualstudio/) - [Twitter](https://twitter.com/visualstudiomac) - [Issue Reporting](~/report-a-problem.md) - [Developer Community](https://developercommunity.visualstudio.com/content/problem/post.html?space=41)"
+  footer: "[Blogs](https://devblogs.microsoft.com/visualstudio/) - [Twitter](https://twitter.com/visualstudiomac) - [Issue Reporting](~/report-a-problem.md) - [Developer Community](https://aka.ms/feedback/vsm-home)"
+
