@@ -1,5 +1,6 @@
 ---
 title: Regex completion through IntelliSense menu
+description: Learn how to use the IntelliSense menu to write a regular expression with the help of IntelliSense.
 ms.date: 03/10/2020
 ms.topic: reference
 author: mikadumont

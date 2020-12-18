@@ -1,7 +1,7 @@
 ---
 title: require-nuget
 description: devinit tool require-nuget.
-ms.date: 08/28/2020
+ms.date: 11/20/2020
 ms.topic: reference
 author: andysterland
 ms.author: andster
@@ -14,7 +14,7 @@ ms.technology: devinit
 ---
 # require-nuget
 
-The `require-nuget` tool to download NuGet CLI and adds to PATH variable. NuGet CLI provides the full extent of NuGet functionality to install, create, publish, and manage packages without making any changes to project files. Read more about NuGet CLI [here](/nuget/reference/nuget-exe-cli-reference).
+The `require-nuget` tool downloads NuGet CLI and adds it to the `PATH`. NuGet CLI provides the full extent of NuGet functionality to install, create, publish, and manage packages without making any changes to project files. Read more about NuGet CLI [here](/nuget/reference/nuget-exe-cli-reference).
 
 ## Usage
 
@@ -36,19 +36,19 @@ Not used.
 
 ### Default behavior
 
-The Default behavior of the `require-nuget` tool is to install latest of NuGet CLI.
+The default behavior of the `require-nuget` tool is to install latest of NuGet CLI.
 
 ## Example usage
+Below is an example of how to run `require-nuget` using a `.devinit.json`.
 
+#### .devinit.json that will install a specified version of NuGet:
 ```json
 {
     "$schema": "https://json.schemastore.org/devinit.schema-3.0",
-    "comments": "A sample dot-devinit file that downloads NuGet CLI and adds to PATH variable.'",
     "run": [
         {
             "tool": "require-nuget",
             "input": "5.5.1",
-            "comments": "Installs NuGet for given input version. If no input given, then installs latest."
         }
     ]
 }

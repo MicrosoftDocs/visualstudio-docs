@@ -1,5 +1,7 @@
 ---
 title: Create project templates
+description: Learn how to use the Export Template Wizard and other methods to create project templates in Visual Studio.
+ms.custom: SEO-VS-2020
 ms.date: 01/02/2018
 ms.topic: how-to
 f1_keywords:

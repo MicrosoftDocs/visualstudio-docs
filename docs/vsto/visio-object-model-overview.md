@@ -1,5 +1,7 @@
 ---
 title: "Visio object model overview"
+description: Learn how you can interact with the Visio object model to develop Office solutions for Microsoft Visio.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

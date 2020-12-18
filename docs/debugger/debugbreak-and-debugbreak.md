@@ -1,5 +1,7 @@
 ---
 title: "DebugBreak and __debugbreak | Microsoft Docs"
+description: Learn how to use the DebugBreak function and the __debugbreak intrinsic to cause your program to break, just as though a breakpoint were set. 
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:

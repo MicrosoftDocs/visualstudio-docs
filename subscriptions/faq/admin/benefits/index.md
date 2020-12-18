@@ -1,5 +1,5 @@
 ---
-title: Software Downloads and Benefits
+title: Software downloads and benefits
 description: FAQs list for Software Downloads and Benefits.
 ms.faqid: Section2
 ms.topic: conceptual

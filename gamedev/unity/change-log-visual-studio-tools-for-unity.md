@@ -2,7 +2,7 @@
 title: "Change Log (Visual Studio Tools for Unity, Windows) | Microsoft Docs"
 description: View the change log for Visual Studio Tools for Unity, Windows. See changes from version 1.0.0.0 through 4.7.0.0 and beyond.
 ms.custom: ""
-ms.date: "7/30/2020"
+ms.date: "11/13/2020"
 ms.technology: vs-unity-tools
 ms.prod: visual-studio-dev16
 ms.topic: "conceptual"
@@ -16,6 +16,55 @@ ms.workload:
 # Change log (Visual Studio Tools for Unity, Windows)
 
 Visual Studio Tools for Unity change log.
+
+## 4.8.2.0
+Released November 10, 2020
+
+### New Features
+
+- **Integration:**
+
+  - Improved [`UNT0010`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0010.md) diagnostic to apply to everything inheriting from `Component`, not just `MonoBehaviour`.
+
+### Bug fixes
+
+- **Integration:**
+
+  - Fixed CodeLens message invalidation.
+
+## 4.8.1.0
+Released October 13, 2020
+
+### New Features
+
+- **Evaluation:**
+
+  - Added support for implicit conversion with invocations. Previously the evaluator enforced strict type checking, resulting in `Failed to find a match for method([parameters...])` warning messages.
+
+- **Integration:**
+
+  - Added [`UNT0018`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0018.md) diagnostic. You should not use `System.Reflection` features in performance critical messages like `Update`, `FixedUpdate`, `LateUpdate`, or `OnGUI`.
+
+  - Improved [`USP0003`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/USP0003.md) and [`USP0005`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/USP0005.md) suppressors, with support for all `AssetPostprocessor` static methods.
+
+  - Added [`USP0016`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/USP0016.md) suppressor for `CS8618`. `C# 8.0` introduces nullable reference types and non-nullable reference types. Initialization detection of types inheriting from `UnityEngine.Object` is not supported and will result in errors.
+
+  - Now using the same player and asmdef project generation mechanism for both Unity 2019.x and 2020.x+.
+
+### Bug fixes
+
+- **Integration:**
+
+  - Fixed unexpected completion for messages in comments.
+
+## 4.8.0.0 
+Released September 14, 2020
+
+### Bug fixes
+
+- **Integration:**
+
+  - Fixed player project generation with Unity 2019.x.
 
 ## 4.7.1.0
 Released August 5, 2020

@@ -1,6 +1,6 @@
 ---
-title: 'XML Schema Designer: Get schema set overview using Graph View'
-description: Learn how to use the Graph View in the XML Schema Explorer to see a high-level view of the nodes in a schema set and the relationships between the nodes.
+title: Get an overview of a schema set
+description: 'XML Schema Designer: Learn how to use the Graph View in the XML Schema Explorer to see a high-level view of the nodes in a schema set and the relationships between the nodes.'
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
@@ -11,7 +11,7 @@ manager: jillfra
 ms.workload:
 - multiple
 ---
-# How to: Get an overview of a schema set using the Graph View
+# How to: Get an overview of a schema set by using the Graph View
 
 This topic describes how to use the [Graph View](../xml-tools/graph-view.md) to see a high-level view of the nodes in a schema set and the relationships between the nodes.
 

@@ -1,5 +1,7 @@
 ---
 title: Extending Other Parts of Visual Studio | Microsoft Docs
+description: Learn about parts of the Visual Studio UI that you can extend. You can create a VSPackage, write to the Activity log, and extend the Toolbox and status bar.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

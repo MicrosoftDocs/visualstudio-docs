@@ -39,6 +39,7 @@ The `.devinit.json` file can also be specified explicitly via the `--file`/`-f` 
 Paths are relative to the location where devinit is running. This is typically the current working directory from which `devinit` was executed.
 
 ## File Format
+In a `.devinit.json`, you can specify more than one tool to run. In the `run` section, you can put any number of objects. An example of this is seen in our sample [.devinit.json](sample-all-tool.md) with all of our tools.
 
 ```json
 {

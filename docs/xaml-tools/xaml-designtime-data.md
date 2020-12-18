@@ -1,7 +1,7 @@
 ---
 title: Use Design Time Data with the XAML Designer in Visual Studio
 description: Learn how to use design-time data in XAML.
-ms.date: 11/10/2020
+ms.date: 11/17/2020
 ms.topic: overview
 author: alihamie
 ms.author: tglee
@@ -175,11 +175,11 @@ If you experience a problem that isn't listed in this section, please let us kno
 
 ### Requirements
 
-- Design-time data requires Visual Studio 2019 version [16.7](/visualstudio/releases/2019/release-notes) or later.
+- Design-time data requires Visual Studio 2019 version [16.7](/visualstudio/releases/2019/release-notes-v16.7) or later.
 
-- Supports Windows desktop projects that are targeting Windows Presentation Foundation (WPF) for .NET Core and UWP. This feature is also available for .NET Framework if you have the "New WPF XAML Designer for .NET Framework" preview feature enabled.
+- Supports Windows desktop projects that target Windows Presentation Foundation (WPF) for .NET Core and UWP. This feature is also available for .NET Framework in the [Preview channel](/visualstudio/releases/2019/release-notes-preview). To enable it, go to **Tools** > **Options** > **Environment** > **Preview Features**, select **New WPF XAML Designer for .NET Framework** and then restart Visual Studio.
 
-- Starting with Visual Studio 2019 version 16.7, this feature works with all in-the-box controls from WPF and UWP frameworks. Support for third-party controls is now available in the 16.8 preview release.
+- Starting with Visual Studio 2019 version 16.7, this feature works with all in-the-box controls from WPF and UWP frameworks. Support for third-party controls is now available in the [16.8 release](/visualstudio/releases/2019/release-notes/).
 
 ### The XAML Designer stopped working
 

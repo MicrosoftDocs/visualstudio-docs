@@ -1,5 +1,7 @@
 ---
 title: Install test agents and test controllers
+description: Learn how to use Visual Studio agents to orchestrate testing with Azure Test Plans or Team Foundation Server.
+ms.custom: SEO-VS-2020
 ms.date: 04/17/2019
 ms.topic: how-to
 helpviewer_keywords:

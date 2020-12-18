@@ -1,5 +1,7 @@
 ---
 title: VSIX Color Editor | Microsoft Docs
+description: Learn about the Visual Studio Extension Color Editor tool, which can create and edit custom colors for Visual Studio and generate theme resource keys.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: 70879c5d-e0f0-4845-993c-2f4229869706

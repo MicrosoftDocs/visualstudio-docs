@@ -1,6 +1,6 @@
 ---
-title: Workflow Designer - CancellationScope Activity Designer
-description: Learn how you can use the CancellationScope activity designer to create and configure a CancellationScope activity.
+title:  CancellationScope activity designer
+description: Learn how you can use the CancellationScope activity designer in Workflow Designer to create and configure a CancellationScope activity.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference

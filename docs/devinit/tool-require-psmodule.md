@@ -1,7 +1,7 @@
 ---
 title: require-psmodule
 description: devinit tool require-psmodule.
-ms.date: 08/28/2020
+ms.date: 11/20/2020
 ms.topic: reference
 author: andysterland
 ms.author: andster
@@ -39,9 +39,9 @@ Additional options are passed directly to the [Install-Module](/powershell/modul
 
 ### Default behavior
 
-The Default behavior of the `require-psmodule` tool is to error as `input` is required.
+The default behavior of the `require-psmodule` tool is to error as `input` is required.
 
-## Builtin Options
+### Built-in options
 
 The `require-psmodule` tool sets a number of `Install-Module` command line arguments to ensure that `Install-Module` can run headless. These arguments are listed below and documentation on them can be found in the [Install-Module](/powershell/module/powershellget/install-module?view=powershell-7&preserve-view=true).
 
@@ -53,18 +53,27 @@ The `require-psmodule` tool sets a number of `Install-Module` command line argum
 
 
 ## Example usage
+Below are examples of how to run `require-psmodule` using a `.devinit.json`.
 
+#### .devinit.json that will install the PowerShellGet module:
 ```json
 {
     "$schema": "https://json.schemastore.org/devinit.schema-3.0",
     "run": [
         {
-            "comments": "Installs the PowerShellGet module.",
             "tool": "require-psmodule",
             "input": "PowerShellGet",
-        },
+        }
+    ]
+}
+```
+
+#### .devinit.json that will install the PowerShellGet module from a specific repository:
+```json
+{
+    "$schema": "https://json.schemastore.org/devinit.schema-3.0",
+    "run": [
         {
-            "comments": "Installs the PowerShellGet module from a specific repository.",
             "tool": "require-psmodule",
             "input": "PowerShellGet",
             "additionalOptions": "-Repository PSGallery"

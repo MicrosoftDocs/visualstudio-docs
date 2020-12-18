@@ -1,5 +1,7 @@
 ---
 title: Add New Item Command
+description: Learn how to use the Add New Item command to add a new solution item or frameset to the current solution.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:

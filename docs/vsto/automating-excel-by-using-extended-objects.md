@@ -1,5 +1,7 @@
 ---
 title: "Automate Excel by using extended objects"
+description: Learn that when you develop Excel solutions in Visual Studio, you can use host items and host controls in your solutions.
+ms.custom: SEO-VS-2020
 ms.date: 02/02/2017
 ms.topic: conceptual
 dev_langs:

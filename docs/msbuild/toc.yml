@@ -1,9 +1,6 @@
 - name: MSBuild
-# Auto-expanded node
-
+  href: msbuild.md
   items:
-  - name: MSBuild
-    href: msbuild.md
   - name: What's new in MSBuild 16.0
     href: whats-new-msbuild-16-0.md
   - name: What's new in MSBuild 15.0
