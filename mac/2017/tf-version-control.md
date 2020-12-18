@@ -244,11 +244,11 @@ To use basic authentication it is necessary to enable **Alternative authenticati
 
 2. From your organization toolbar, select the gear icon and select **Policy**:
 
-    ![Policy settings option selected](media/tfvc-auth2.png)
+    ![Screenshot of the Azure DevOps organization toolbar with the gear icon selected, and Policy selected in the drop-down menu.](media/tfvc-auth2.png)
 
 3. Review your application connection settings. Change these settings, based on your security policies:
 
-    ![Policy settings option selected](media/tfvc-auth.png)
+    ![Screenshot of the Policy screen in Azure DevOps Services, showing the settings for Application Connection Policies.](media/tfvc-auth.png)
 
 #### I do not see anything in TFVC
 
