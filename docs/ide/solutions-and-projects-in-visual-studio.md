@@ -78,7 +78,7 @@ When you create a new project, Visual Studio saves it to its default location, *
 
 After you create a new project, you can use **Solution Explorer** to view and manage the project and solution and their associated items. The following illustration shows **Solution Explorer** with a C# solution that contains two projects:
 
-![Solution Explorer](../ide/media/vs2015_solution_explorer.png)
+![Screenshot of Solution Explorer.](../ide/media/vs2015_solution_explorer.png)
 
 Many menu commands are available from the right-click menu on various items in **Solution Explorer**. These commands include building a project, managing NuGet packages, adding a reference, renaming a file, and running tests, just to name a few. The toolbar across the top of **Solution Explorer** has buttons to switch from a solution view to a folder view, show hidden files, collapse all nodes, and more.
 
