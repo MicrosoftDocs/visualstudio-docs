@@ -81,7 +81,7 @@ Using this feature makes it easy to stay on top of your subscription assignments
 > - Groups must contain at least one member.  Empty groups are not supported.
 > - Groups must have less than 1,000 users. 
 > - All users must be in the top level of the group.  Nested groups are not supported.
-> - Only trusted agreements are supported.
+> - Only trusted agreements are supported. (Only agreements who can 'overallocate' subscriptions are trusted.)
 > - All members of the group must have an email address associated with their Azure AD account.
 > - Separate email addresses for notifications are not supported for subscriptions added using Azure AD groups.  
 
