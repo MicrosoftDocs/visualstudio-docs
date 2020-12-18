@@ -60,8 +60,10 @@ End Function
 
 ```csharp
 int IntegerDivide ( int dividend , int divisor )
-    { Debug.Assert ( divisor != 0 );
-        return ( dividend / divisor ); }
+{
+    Debug.Assert ( divisor != 0 );
+    return ( dividend / divisor );
+}
 ```
 
  When you run this code under the debugger, the assertion statement is evaluated, but in the Release version, the comparison is not made, so there is no additional overhead.

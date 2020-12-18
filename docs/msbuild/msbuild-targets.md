@@ -413,7 +413,7 @@ $(TargetFileName) -          The file name of the build target.
 ===================================================
 GenerateBindingRedirectsUpdateAppConfig
 Updates the project to use the generated app.config content.  This needs to run regardless of 
-inputs/outputs so it is seperate from GenerateBindingRedirects.
+inputs/outputs so it is separate from GenerateBindingRedirects.
 ===================================================
 <Target Name="GenerateBindingRedirectsUpdateAppConfig"
         AfterTargets="GenerateBindingRedirects"

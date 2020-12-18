@@ -1,5 +1,7 @@
 ---
 title: "PowerPoint solutions"
+description: Learn that Visual Studio provides project templates you can use to create VSTO Add-ins for Microsoft PowerPoint.
+ms.custom: SEO-VS-2020
 ms.date: "08/14/2019"
 ms.topic: "conceptual"
 dev_langs:
