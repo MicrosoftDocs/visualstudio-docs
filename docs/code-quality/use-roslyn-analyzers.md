@@ -378,6 +378,8 @@ When you build your project at the command line, rule violations appear in the b
 
 - The analyzers are installed with the .NET SDK or as a NuGet package, and not as a VSIX extension.
 
+  For analyzers installed using the .NET SDK, you may need to [Enable the analyzers](../code-quality/install-net-analyzers.md). For code styles, you can also [enforce code styles on build](/dotnet/fundamentals/code-analysis/overview#code-style-analysis) by setting an MSBuild property.
+
 - One or more rules are violated in the project's code.
 
 - The [severity](#configure-severity-levels) of a violated rule is set to either **warning**, in which case violations don't cause build to fail, or **error**, in which case violations cause build to fail.
