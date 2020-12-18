@@ -32,7 +32,7 @@ What is Blazor? Blazor is a framework for building interactive client-side web U
    ![Visual Studio for Mac Start Window with New selection highlighted](media/blazor-new-project.png)
 
 1. In the **New Project** dialog box, select **.NET Core** > **App** > **Blazor WebAssembly App** and select **Next**:
-   ![Choose a template for your new project dialog with Blazor Server App template selected](media/blazor-wasm-project-template.png)
+   ![Screenshot of the New Project dialog with Blazor WebAssembly App highlighted in the App pane under ASP.NET Core and the Next button selected.](media/blazor-wasm-project-template.png)
 
 1. Select .NET Core 3.1 as the target framework, then select **Next**. 
    ![Configure your new Blazor WebAssembly App dialog displayed with Target Framework selected to .NET Core 3.1](media/blazor-wasm-select-target-framework.png)
@@ -54,7 +54,7 @@ What is Blazor? Blazor is a framework for building interactive client-side web U
 
    ![Visual Studio for Mac Start Window with New selection highlighted](media/blazor-new-project.png)
 1. In the **New Project** dialog box, select **.NET Core** > **App** > **Blazor Server App** and select **Next**:
-   ![Choose a template for your new project dialog with Blazor Server App template selected](media/blazor-project-template.png)
+   ![Screenshot of the New Project dialog with Blazor Server App highlighted in the App pane under ASP.NET Core and the Next button selected.](media/blazor-project-template.png)
 
 1. Select .NET Core 3.1 as the target framework, then select **Next**. 
    ![Configure your new Blazor Server App dialog displayed with Target Framework selected to .NET Core 3.1](media/blazor-select-target-framework.png)
