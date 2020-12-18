@@ -98,7 +98,7 @@ Click **Create** to create the new project.
 If you want to add an additional project to a solution, right-click the solution node in **Solution Explorer** and choose **Add** > **New Project**.
 
 > [!TIP]
-> For an example of a project and solution created from scratch, complete with step-by-step instructions and code, see [Introduction to projects and solutions](../get-started/tutorial-projects-solutions.md).
+> For an example of a project and solution created from scratch, complete with step-by-step instructions and sample code, see [Introduction to projects and solutions](../get-started/tutorial-projects-solutions.md).
 
 ## See also
 
