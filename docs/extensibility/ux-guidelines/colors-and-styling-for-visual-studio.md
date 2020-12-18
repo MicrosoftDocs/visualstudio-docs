@@ -1,6 +1,6 @@
 ---
 title: Colors and Styling for Visual Studio | Microsoft Docs
-description: Learn how the Visual Studio User Experience uses color as a communication tool, instead of just decoration.
+description: Learn how the Visual Studio User Experience uses color as a communication tool, instead of for purely aesthetic reasons.
 ms.custom: SEO-VS-2020
 ms.date: 07/31/2017
 ms.topic: conceptual
