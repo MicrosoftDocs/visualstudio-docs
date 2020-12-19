@@ -1,8 +1,8 @@
 ---
 title: Work with solutions and projects
 description: Learn about the difference between solutions and projects and how to use them in Visual Studio.
-ms.custom: SEO-VS-2020
-ms.date: 02/06/2018
+ms.custom: "SEO-VS-2020, contperf-fy21q2"
+ms.date: 12/18/2020
 ms.topic: how-to
 f1_keywords:
 - vs.openprojectfromweb
@@ -21,7 +21,7 @@ ms.workload:
 
 *Projects* hold the items needed to build your app in Visual Studio, such as source code files, bitmaps, icons, and component and service references. When you create a new project, Visual Studio creates a *solution* to contain the project. You can then add other new or existing projects to the solution if you want. Solutions can also contain files that aren't connected to any specific project.
 
-![Solution/project hierarchy](./media/vside-proj-soln.png)
+![Image of the solution/project hierarchy.](./media/vside-proj-soln.png)
 
 > [!NOTE]
 > This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Create projects in Visual Studio for Mac](/visualstudio/mac/create-new-projects).
@@ -42,18 +42,18 @@ For information about creating a new project from a template, see [Create a new 
 
 If you have a collection of code source files, you can easily add them to a project.
 
-1. On the menu, choose **File** > **New** > **Project From Existing Code**.
+1. On the menu, select **File** > **New** > **Project From Existing Code**.
 
-1. In the **Create Project from Existing Code Files** wizard, choose the project type you want in the **What type of project would you like to create?** drop-down list box, and then choose the **Next** button.
+1. In the **Create Project from Existing Code Files** wizard, select the project type you want in the **What type of project would you like to create?** drop-down list box, and then select the **Next** button.
 
-1. In the wizard, browse to the location of the files and then enter a name for the new project in the **Name** box. When you are done, choose the **Finish** button.
+1. In the wizard, browse to the location of the files and then enter a name for the new project in the **Name** box. When you are done, select the **Finish** button.
 
 > [!NOTE]
 > This option works best for a relatively simple collection of files. Currently, only C++, Apache Cordova, Visual Basic, and C# project types are supported.
 
 ## Add files to a solution
 
-If you have a file that applies to multiple projects, such as a readme file for the solution, or other files that logically belong at the solution level rather than under a specific project, then you can add them to the solution itself. To add an item to a solution, on the context (right-click) menu of the solution node in **Solution Explorer**, choose **Add** > **New Item**, or **Add** > **Existing Item**.
+If you have a file that applies to multiple projects, such as a readme file for the solution, or other files that logically belong at the solution level rather than under a specific project, then you can add them to the solution itself. To add an item to a solution, on the context (right-click) menu of the solution node in **Solution Explorer**, select **Add** > **New Item**, or **Add** > **Existing Item**.
 
 ## Create a .NET project that targets a specific version of the .NET Framework
 
@@ -61,7 +61,7 @@ When you create a .NET Framework project, you can specify a specific version of 
 
 ::: moniker range="vs-2017"
 
-To specify a .NET Framework version, choose the **Framework** drop-down menu in the **New Project** dialog box.
+To specify a .NET Framework version, select the **Framework** drop-down menu in the **New Project** dialog box.
 
 ![Framework drop-down in New Project dialog](./media/vside-newproject-framework.png)
 
@@ -72,7 +72,7 @@ To specify a .NET Framework version, choose the **Framework** drop-down menu in 
 
 ::: moniker range=">=vs-2019"
 
-To specify a .NET Framework version, choose the **Framework** drop-down menu on the **Create a new project** page.
+To specify a .NET Framework version, select the **Framework** drop-down menu on the **Create a new project** page.
 
 ![Framework selector in configure new project](media/vs-2019/configure-new-project-framework.png)
 
@@ -84,15 +84,15 @@ You can also create empty solutions that have no projects. This might be prefera
 
 ### To create an empty solution
 
-1. On the menu bar, choose **File** > **New** > **Project**.
+1. On the menu bar, select **File** > **New** > **Project**.
 
 ::: moniker range="vs-2017"
 
-2. In the left (**Templates**) pane, choose **Other Project Types** > **Visual Studio Solutions** in the expanded list.
+2. In the left (**Templates**) pane, select **Other Project Types** > **Visual Studio Solutions** in the expanded list.
 
-3. In the middle pane, choose **Blank Solution**.
+3. In the middle pane, select **Blank Solution**.
 
-4. Enter **Name** and **Location** values for your solution, and then choose **OK**.
+4. Enter **Name** and **Location** values for your solution, and then select **OK**.
 
 ::: moniker-end
 
@@ -102,7 +102,7 @@ You can also create empty solutions that have no projects. This might be prefera
 
 3. Select the **Blank Solution** template, and then click **Next**.
 
-4. Enter **Name** and **Location** values for your solution, and then choose **Create**.
+4. Enter **Name** and **Location** values for your solution, and then select **Create**.
 
 ::: moniker-end
 
@@ -131,15 +131,15 @@ You can delete solutions and their contents permanently, but not by using the Vi
 
 ### Permanently delete a solution
 
-1. In **Solution Explorer**, on the right-click menu (context menu) of the solution you want to delete, choose **Open folder in File Explorer**.
+1. In **Solution Explorer**, on the right-click menu (context menu) of the solution you want to delete, select **Open folder in File Explorer**.
 
 1. In File Explorer, navigate up one level.
 
-1. Choose the folder containing the solution and then press the **Delete** key.
+1. Select the folder containing the solution and then press the **Delete** key.
 
 ## See also
 
-- [Solutions and projects](../ide/solutions-and-projects-in-visual-studio.md)
+- [Introduction to projects and solutions](../get-started/tutorial-projects-solutions.md)
 - [Microsoft's open source repositories on GitHub](https://github.com/Microsoft)
 - [Developer code samples](https://code.msdn.microsoft.com/)
 - [Create projects (Visual Studio for Mac)](/visualstudio/mac/create-new-projects)

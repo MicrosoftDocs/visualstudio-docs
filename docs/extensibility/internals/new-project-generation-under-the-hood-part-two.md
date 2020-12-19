@@ -1,5 +1,6 @@
 ---
 title: 'New Project Generation: Under the Hood, Part Two | Microsoft Docs'
+description: Take a detailed look at what happens in the Visual Studio integrated development environment (IDE) as you create your own project type (Part 2 of 2).
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -112,7 +113,7 @@ namespace Simple
 
  The resulting Windows application folder structure looks like this:
 
- ![SimpleSolution](../../extensibility/internals/media/simplesolution.png "SimpleSolution")
+ ![Screenshot of the Windows application folder structure for the 'Simple' Solution in the Visual Studio Solution Explorer.](../../extensibility/internals/media/simplesolution.png)
 
  The first and only \<Project> tag in the template reads:
 
