@@ -376,7 +376,9 @@ There are multiple ways to suppress rule violations:
 
 When you build your project at the command line, rule violations appear in the build output if the following conditions are met:
 
-- The analyzers are installed as a NuGet package and not as a VSIX extension.
+- The analyzers are installed with the .NET SDK or as a NuGet package, and not as a VSIX extension.
+
+  For analyzers installed using the .NET SDK, you may need to [Enable the analyzers](../code-quality/install-net-analyzers.md). For code styles, you can also [enforce code styles on build](/dotnet/fundamentals/code-analysis/overview#code-style-analysis) by setting an MSBuild property.
 
 - One or more rules are violated in the project's code.
 

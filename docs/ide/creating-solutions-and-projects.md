@@ -2,7 +2,7 @@
 title: Work with solutions and projects
 description: Learn about the difference between solutions and projects and how to use them in Visual Studio.
 ms.custom: "SEO-VS-2020, contperf-fy21q2"
-ms.date: 02/06/2018
+ms.date: 12/18/2020
 ms.topic: how-to
 f1_keywords:
 - vs.openprojectfromweb
@@ -21,7 +21,7 @@ ms.workload:
 
 *Projects* hold the items needed to build your app in Visual Studio, such as source code files, bitmaps, icons, and component and service references. When you create a new project, Visual Studio creates a *solution* to contain the project. You can then add other new or existing projects to the solution if you want. Solutions can also contain files that aren't connected to any specific project.
 
-![Solution/project hierarchy](./media/vside-proj-soln.png)
+![Image of the solution/project hierarchy.](./media/vside-proj-soln.png)
 
 > [!NOTE]
 > This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Create projects in Visual Studio for Mac](/visualstudio/mac/create-new-projects).
@@ -139,7 +139,7 @@ You can delete solutions and their contents permanently, but not by using the Vi
 
 ## See also
 
-- [Solutions and projects](../ide/solutions-and-projects-in-visual-studio.md)
+- [Introduction to projects and solutions](../get-started/tutorial-projects-solutions.md)
 - [Microsoft's open source repositories on GitHub](https://github.com/Microsoft)
 - [Developer code samples](https://code.msdn.microsoft.com/)
 - [Create projects (Visual Studio for Mac)](/visualstudio/mac/create-new-projects)
