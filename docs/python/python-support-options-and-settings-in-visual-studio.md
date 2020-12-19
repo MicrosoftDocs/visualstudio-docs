@@ -70,7 +70,7 @@ There are also additional Python-specific options on the **Text Editor** > **Pyt
 | --- | --- | --- |
 | **Conda executable path** | (blank) | Specifies an exact path to the *conda.exe* executable rather than relying on the default Miniconda installation that's included with the Python workload. If another path is given here, it takes precedence over the default installation and any other conda.exe executables specified in the registry. You might change this setting if you manually install a newer version of Anaconda or Miniconda, or want to use a 32-bit distro rather than the default 64-bit distro. |
 
-![Python options dialog, Language server tab](media/options-conda.png)
+![Screenshot of the Visual Studio Tools Options dialog with Conda selected in the Python options and the Conda executable path field shown in the right pane.](media/options-conda.png)
 
 ::: moniker-end
 
@@ -130,7 +130,7 @@ There are also additional Python-specific options on the **Text Editor** > **Pyt
 | **Disable completions from Typeshed** | Off | Visual Studio IntelliSense normally uses a bundled version of Typeshed (a set of *.pyi* files) to find type hints for standard library and third-party libraries for both Python 2 and Python 3. Setting this option disables the bundled TypeShed behavior. |
 | **Custom Typeshed path** | (blank) | If set, Visual Studio uses the Typeshed files at this path instead of its bundled version. Ignore if **Disable completions from Typeshed** is set. |
 
-![Python options dialog, Language server tab](media/options-language-server.png)
+![Screenshot of the Visual Studio Tools Options dialog with Language Server selected in the Python options and the Language Server options shown in the right pane.](media/options-language-server.png)
 
 ::: moniker-end
 
