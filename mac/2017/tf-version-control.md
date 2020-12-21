@@ -17,7 +17,7 @@ Git is supported in Visual Studio for Mac and is the default option for reposito
 >
 > If you previously used the preview release of the TFVC extension for Visual Studio for Mac, it is no longer supported when upgrading to Visual Studio 2019 for Mac.
 
-Azure Repos provides two models of version control: [Git](/azure/devops/repos/git/?view=azure-devops), a distributed version control system, and [Team Foundation Version Control](/azure/devops/repos/tfvc/index?view=azure-devops) (TFVC), a centralized version control system.
+Azure Repos provides two models of version control: [Git](/azure/devops/repos/git/?view=azure-devops&preserve-view=true), a distributed version control system, and [Team Foundation Version Control](/azure/devops/repos/tfvc/index?view=azure-devops&preserve-view=true) (TFVC), a centralized version control system.
 
 Visual Studio for Mac provides full support for Git repositories, but requires some workarounds to work with TFVC. If you're using TFVC for version control today, here are some solutions you can use to access your source code hosted in TFVC:
 
@@ -65,7 +65,7 @@ To **setup the TEE-CLC manually**:
 
 Once the TEE-CLC is installed, you can run the command `tf eula` to view and accept the license agreement for the client.
 
-Finally, to authenticate with your TFS/Azure DevOps environment, you'll need to create a personal access token on the server. Learn more about [authenticating with personal access tokens](/azure/devops/integrate/get-started/authentication/pats?view=azure-devops). When creating a personal access token to use with TFVC, be sure to provide Full Access when configuring the token.
+Finally, to authenticate with your TFS/Azure DevOps environment, you'll need to create a personal access token on the server. Learn more about [authenticating with personal access tokens](/azure/devops/integrate/get-started/authentication/pats?view=azure-devops&preserve-view=true). When creating a personal access token to use with TFVC, be sure to provide Full Access when configuring the token.
 
 ### Using the TEE-CLC to connect to your repo
 
