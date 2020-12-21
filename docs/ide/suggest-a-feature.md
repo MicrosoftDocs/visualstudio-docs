@@ -11,7 +11,7 @@ ms.workload:
 ---
 # Suggest a feature for Visual Studio
 
-We've introduced a new experience for suggesting features alongside the current ability to report problems on [Visual Studio Developer Community](https://developercommunity.visualstudio.com). This is a new way you can be empowered to engage directly with Visual Studio's engineering workflow.
+We've introduced a new experience for suggesting features alongside the current ability to report problems on [Visual Studio Developer Community](https://aka.ms/feedback/suggest?space=8). This is a new way you can be empowered to engage directly with Visual Studio's engineering workflow.
 
 ![Suggest a Feature button on Developer Community](media/suggest-a-feature/suggest-feature-button.png)
 
@@ -19,7 +19,7 @@ You can also start a feature suggestion directly from Visual Studio by choosing 
 
 ![Provide a Suggestion menu in Visual Studio](media/suggest-a-feature/provide-suggestion.png)
 
-Choosing **Provide a Suggestion** takes you to [Developer Community](https://developercommunity.visualstudio.com), where you can enter your suggestion.
+Choosing **Provide a Suggestion** takes you to [Developer Community](https://aka.ms/feedback/suggest?space=8), where you can enter your suggestion.
 
 ## User Voice
 
