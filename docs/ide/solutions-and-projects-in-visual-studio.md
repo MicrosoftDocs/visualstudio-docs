@@ -92,6 +92,7 @@ For ASP.NET Core projects, you can customize how files are nested in **Solution 
 ## See also
 
 - [Introduction to projects and solutions](../get-started/tutorial-projects-solutions.md)
+- [Manage project and solution properties](managing-project-and-solution-properties.md)
 - [Filtered solutions in Visual Studio](filtered-solutions.md)
 - [Port, migrate, and upgrade projects](../porting/port-migrate-and-upgrade-visual-studio-projects.md)
 - [Resources for troubleshooting Visual Studio IDE errors](./reference/resources-for-troubleshooting-integrated-development-environment-errors.md)
