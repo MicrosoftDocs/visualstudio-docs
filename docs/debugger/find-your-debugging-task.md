@@ -18,7 +18,7 @@ If you need help to map your debugging task to the correct feature of the Visual
 
 ## Fix an exception
 
-See [Fix an exception](write-better-code-with-visual-studio.md#fix-an-exception).
+- See [Fix an exception](write-better-code-with-visual-studio.md#fix-an-exception).
 
 ## Pause running code
 
@@ -89,11 +89,11 @@ See [Fix an exception](write-better-code-with-visual-studio.md#fix-an-exception)
 
 ## Debug an app that is already running
 
-See [Attach to a running processes](attach-to-running-processes-with-the-visual-studio-debugger.md).
+- See [Attach to a running processes](attach-to-running-processes-with-the-visual-studio-debugger.md).
 
 ## Debug multithreaded applications
 
-See [Debug multithreaded applications](debug-multithreaded-applications-in-visual-studio.md).
+- See [Debug multithreaded applications](debug-multithreaded-applications-in-visual-studio.md).
 
 ## Configure debugging
 
