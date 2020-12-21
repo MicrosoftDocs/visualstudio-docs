@@ -140,6 +140,7 @@ You can delete solutions and their contents permanently, but not by using the Vi
 ## See also
 
 - [Introduction to projects and solutions](../get-started/tutorial-projects-solutions.md)
+- [Filtered solutions in Visual Studio](filtered-solutions.md)
 - [Microsoft's open source repositories on GitHub](https://github.com/Microsoft)
 - [Developer code samples](https://code.msdn.microsoft.com/)
 - [Create projects (Visual Studio for Mac)](/visualstudio/mac/create-new-projects)
