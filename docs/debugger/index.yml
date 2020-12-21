@@ -27,7 +27,7 @@ landingContent:
             url: what-is-debugging.md
           - text: First look at the debugger
             url: debugger-feature-tour.md
-          - text: Find your debugging task
+          - text: FAQ - Find your debugging feature
             url: find-your-debugging-task.md
 
   # Card (optional)
