@@ -1,5 +1,7 @@
 ---
 title: "CompilandDetails | Microsoft Docs"
+description: Find reference information about the CompilandDetails symbol type (SymTagCompilandDetails) in the Visual Studio debug interface access SDK.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:

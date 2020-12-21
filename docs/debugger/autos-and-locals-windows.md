@@ -1,6 +1,7 @@
 ---
 title: Inspect variables - Autos and Locals windows | Microsoft Docs
-ms.custom: seodec18
+description: Inspect variables in the Autos and Locals windows while debugging in Visual Studio. The Autos and Locals windows show variable values while you are debugging.
+ms.custom: "SEO-VS-2020, seodec18"
 ms.date: 10/18/2018
 ms.topic: how-to
 f1_keywords: 
@@ -33,7 +34,7 @@ To open the **Locals** window, while debugging, select **Debug** > **Windows** >
 
 Arrays and objects show in the **Autos** and **Locals** windows as tree controls. Select the arrow to the left of a variable name to expand the view to show fields and properties. Here is an example of a <xref:System.IO.FileStream?displayProperty=fullName> object in the **Locals** window:
 
-![Locals-FileStream](../debugger/media/locals-filestream.png "Locals-FileStream")
+![Screenshot of the Locals window, with file set to a System.IO.FileStream value.](../debugger/media/locals-filestream.png "Locals-FileStream")
 
 A red value in the **Locals** or **Autos** window means the value has changed since the last evaluation. The change could be from a previous debugging session, or because you have changed the value in the window.
 
@@ -110,7 +111,7 @@ Different code languages display different variables in the **Autos** window.
 
    Set a breakpoint on the line `c = 3;`, and start the debugger. When execution pauses, the **Autos** window will display:
 
-   ![Autos-CSharp](../debugger/media/autos-csharp.png "Autos-CSharp")
+   ![Screenshot of the Autos window, with the value of c set to 0.](../debugger/media/autos-csharp.png "Autos-CSharp")
 
    The value of `c` is 0, because the line `c = 3` has not yet been executed.
 
