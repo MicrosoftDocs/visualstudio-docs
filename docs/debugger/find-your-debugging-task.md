@@ -28,7 +28,7 @@ If you need help to map your debugging task to the correct feature of the Visual
 
 - **Pause and inspect your app when it reaches a specific state**
 
-- Try a conditional breakpoint to control where and when a breakpoint gets activated by using conditional logic. For more information, see [Breakpoint conditions](using-breakpoints.md#breakpoint-conditions).
+  Try a conditional breakpoint to control where and when a breakpoint gets activated by using conditional logic. For more information, see [Breakpoint conditions](using-breakpoints.md#breakpoint-conditions).
 
 - **Pause code only when a specific object’s property or value changes**
 
