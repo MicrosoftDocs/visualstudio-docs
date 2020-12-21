@@ -21,7 +21,7 @@ When you're working with Visual Studio Container Tools, you may encounter issues
 File sharing only needs to be managed if you are using Hyper-V with Docker. If you are using WSL 2, the following steps are not necessary and the file sharing option will not be visible. To resolve this issue:
 
 1. Right-click **Docker for Windows** in the notification area, and then select **Settings**.
-2. Select **Resources** > **File Sharing** and share the folder that needs to be accessed. Sharing your entire system drive is possible but not recommended.
+1. Select **Resources** > **File Sharing** and share the folder that needs to be accessed. Sharing your entire system drive is possible but not recommended.
 
     ![shared drives](media/troubleshooting-docker-errors/docker-settings-image.png)
 
@@ -56,10 +56,10 @@ Add yourself to the 'docker-users' group and then log out of Windows.
 You must be a member of the 'docker-users' group in order to have permissions to work with Docker containers.  To add yourself to the group in Windows 10, follow these steps:
 
 1. From the Start menu, open **Computer Management**.
-2. Expand **Local Users and Groups**, and choose **Groups**.
-3. Find the **docker-users** group, right-click and choose **Add to group**.
-4. Add your user account or accounts.
-5. Sign out and sign back in again for these changes to take effect.
+1. Expand **Local Users and Groups**, and choose **Groups**.
+1. Find the **docker-users** group, right-click and choose **Add to group**.
+1. Add your user account or accounts.
+1. Sign out and sign back in again for these changes to take effect.
 
 You can also use the `net localgroup` command at the Administrator command prompt to add users to specific groups.
 
@@ -74,8 +74,8 @@ In PowerShell, use the [Add-LocalGroupMember](/powershell/module/microsoft.power
 By default, Docker stores images in the *%ProgramData%/Docker/* folder, which is typically on the system drive, *C:\ProgramData\Docker\*. To prevent images from taking up valuable space on the system drive, you can change the image folder location. To do so:
 
  1. Right click on the Docker icon on the task bar and select **Settings**.
- 2. Select **Docker Engine**. 
- 3. In the editing pane, add the `graph` property setting with the value of your desired location for Docker images:
+ 1. Select **Docker Engine**. 
+ 1. In the editing pane, add the `graph` property setting with the value of your desired location for Docker images:
 
 ```json
     "graph": "D:\\mypath\\images"
@@ -93,7 +93,7 @@ When adding Docker support to a project, you choose either a Windows or a Linux 
 
 To resolve this issue:
 
-1. Right-click the Docker for Windows icon in the System Tray and choose **Switch to Windows containers...** or **Switch to Linux containers...**.
+- Right-click the Docker for Windows icon in the System Tray and choose **Switch to Windows containers...** or **Switch to Linux containers...**.
 
 ## Microsoft/DockerTools GitHub repo
 
