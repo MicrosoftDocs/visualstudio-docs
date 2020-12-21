@@ -64,7 +64,7 @@ This topic contains information to help you resolve issues that you may experien
 ## <a name="NoInstall"></a> Emulator fails to install
  If you don't have Hyper-V installed, you will see the following message when you try to install the emulator. You must have a machine that supports HyperV and it must be enabled.
 
- ![Android&#95;Emu&#95;Install&#95;Issue](../cross-platform/media/android_emu_install_issue.png "Android_Emu_Install_Issue")
+ ![Screenshot of a Visual Studio message saying that setup is blocked for Microsoft Visual Studio Emulator for Android because the computer does not suppert Hyper-V.](../cross-platform/media/android_emu_install_issue.png "Android_Emu_Install_Issue")
 
 > [!NOTE]
 > This message applies both to the Visual Studio Emulator for Android and the Windows Phone Emulator. Windows 8.1 and Windows 10 support the emulator.
@@ -129,7 +129,7 @@ This topic contains information to help you resolve issues that you may experien
 
 - In Hyper-V Manager, open the Virtual Switch Manager and check to see that you have two network switches; verify that the first one is the internal switch and the second is external.
 
-     ![Android&#95;Emu&#95;V&#95;Switch&#95;Man](../cross-platform/media/android_emu_v_switch_man.png "Android_Emu_V_Switch_Man")
+     ![Screenshot of the Virtual Switch Manager in Hyper-V Manager. A new virtual switch is highlighted and it's properties show that it is an external network switch.](../cross-platform/media/android_emu_v_switch_man.png "Android_Emu_V_Switch_Man")
 
      If the setup is incorrect and you are using Windows 10, you might try  to [Reinstall network devices using netcfg -d command](https://support.microsoft.com/help/10741/windows-fix-network-connection-issues) (section 6).
 

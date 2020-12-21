@@ -71,7 +71,7 @@ Package updates can be done either all at once, by right-clicking on the **Packa
 
 Right-click on **Packages** to access the context menu:
 
-![Packages menu](media/nuget-walkthrough-PackagesMenu.png)
+![Screenshot showing the Packages node selected, and the right-click context menu open with commands for Add Packages, Update, Restore, and Refresh.](media/nuget-walkthrough-PackagesMenu.png)
 
 * **Add Packages** - Opens the window to add more packages to the project.
 * **Update** - Checks the source server for each package and downloads any newer versions.
@@ -81,7 +81,7 @@ Update and Restore options are also available at the Solution level, and affect 
 
 You can also right-click on individual packages to access a context menu:
 
-![Packages menu](media/nuget-walkthrough-PackageMenu.png)
+![Screenshot showing an individual Package selected, and the right-click context menu open with commands for Update, Remove, and Refresh.](media/nuget-walkthrough-PackageMenu.png)
 
 * **Version Number** - The version number is a disabled menu item - it is provided for informational purposes only.
 * **Update** - Checks the source server and downloads a newer version (if it exists).
@@ -97,11 +97,11 @@ In Visual Studio for Mac, navigate to **Visual Studio > Preferences > NuGet > So
 
 Click **Add** to set-up a new source. Enter a friendly name and the URL (or file path) to the package source. If the source is a secure web server, enter the username and password as well, otherwise leave these entries blank:
 
-![Add Package Sources](media/nuget-walkthrough-PackageSource2.png)
+![Screenshot of the Add Package Source dialog, containing fields for Name, Location, Username, and Password.](media/nuget-walkthrough-PackageSource2.png)
 
 Different sources can then be selected when searching for packages:
 
-![Add Package Sources](media/nuget-walkthrough-PackageSource3.png)
+![Screenshot of the Add Packages screen, showing a drop-down list of the sources that can be selected when searching for packages.](media/nuget-walkthrough-PackageSource3.png)
 
 ## Version Control
 
