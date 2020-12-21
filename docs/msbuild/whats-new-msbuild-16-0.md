@@ -28,6 +28,10 @@ MSBuild 16.0](https://github.com/microsoft/msbuild/releases/tag/v16.0.461.62831)
 
 - `VisualStudioVersion` for this version of the tools is "16.0"
 
+## Change waves
+
+Starting with MSBuild 16.8, you can selectively choose whether to opt out of certain potentially disruptive changes in MSBuild. See [Change waves](change-waves.md).
+
 ## Updates
 
 MSBuild (and Visual Studio) now targets .NET Framework 4.7.2. If you wish to use new MSBuild API features, your assembly must also upgrade, but existing code will continue to work.

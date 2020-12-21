@@ -2,7 +2,7 @@
 title: Sign in to Visual Studio
 description: Learn how to sign in to Visual Studio. 
 titleSuffix: ''
-ms.custom: "seodec18, contperfq1"
+ms.custom: "seodec18, contperf-fy21q1"
 ms.date: 09/11/2020
 ms.topic: how-to
 ms.assetid: b9531c25-e4cf-43ae-b331-a9f31a8cd171
@@ -46,7 +46,7 @@ Here's a full list of what you can expect and what you can do after you sign in:
 
 ## How to sign in to Visual Studio
 
-When you open Visual Studio for the first time, you're asked to sign in and provide some basic registration information. 
+When you open Visual Studio for the first time, you're asked to sign in and provide some basic registration information.
 
 ![Sign-in prompt](../ide/media/vs2019_signinpopup.png)
 
@@ -58,7 +58,7 @@ After you provide the settings, Visual Studio starts, and you're signed in and r
 
 ![Currently logged in user in VS2019](../ide/media/vs2019_username.png)
 
-If you choose not to sign in when you first open Visual Studio, it's easy to do so later. Look for the **Sign in** link in the upper-right corner of the Visual Studio environment. 
+If you choose not to sign in when you first open Visual Studio, it's easy to do so later. Look for the **Sign in** link in the upper-right corner of the Visual Studio environment.
 
 ![Not signed in user](../ide/media/vs2019_usernotsignedin.png)
 
@@ -79,6 +79,7 @@ If you encounter any problems while signing in, please see the [Subscription sup
 ## See also
 
 * [Extend a trial version or update a license](../ide/how-to-unlock-visual-studio.md)
+* [Work with GitHub accounts in Visual Studio](../ide/work-with-github-accounts.md)
 * [Visual Studio IDE overview](../get-started/visual-studio-ide.md)
 * [Sign in (Visual Studio for Mac)](/visualstudio/mac/signing-in)
 * [Activation (Visual Studio for Mac)](/visualstudio/mac/activation)

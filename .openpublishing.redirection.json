@@ -41986,8 +41986,23 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/code-quality/install-fxcop-analyzers.md",
+      "redirect_url": "/visualstudio/code-quality/install-net-analyzers",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/code-quality/fxcop-analyzers.yml",
-      "redirect_url": "/visualstudio/code-quality/migrate-from-legacy-analysis-to-fxcop-analyzers",
+      "redirect_url": "/visualstudio/code-quality/migrate-from-legacy-analysis-to-net-analyzers",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/fxcop-analyzers-faq.md",
+      "redirect_url": "/visualstudio/code-quality/net-analyzers-faq",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/migrate-from-legacy-analysis-to-fxcop-analyzers.md",
+      "redirect_url": "/visualstudio/code-quality/migrate-from-legacy-analysis-to-net-analyzers",
       "redirect_document_id": false
     },
     {
@@ -57497,6 +57512,11 @@
     {
       "source_path": "docs/ide/editorconfig-naming-conventions.md",
       "redirect_url": "/dotnet/fundamentals/code-analysis/style-rules/naming-rules",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mac/extending-visual-studio-mac.md",
+      "redirect_url": "/visualstudio/mac/customizing-the-ide",
       "redirect_document_id": false
     }
   ]

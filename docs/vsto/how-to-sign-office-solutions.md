@@ -1,5 +1,7 @@
 ---
 title: "How to: Sign Office solutions"
+description: Learn how you can grant trust to your Microsoft Office solution by using a certificate as evidence.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:

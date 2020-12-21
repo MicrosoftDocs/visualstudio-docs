@@ -1,6 +1,8 @@
 ---
 title: Version Compatibility for Code Analysis Check-In Policies
 ms.date: 11/04/2016
+description: Learn how Team System 2008 Team Foundation Server and Team Foundation Server 2010 evaluate Visual Studio check-in policies differently.
+ms.custom: SEO-VS-2020
 ms.topic: conceptual
 helpviewer_keywords:
 - version compatibility, code analysis check-in policy

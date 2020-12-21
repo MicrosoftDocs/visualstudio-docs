@@ -1,5 +1,7 @@
 ---
 title: "&lt;RelatedProducts&gt; Element (Bootstrapper) | Microsoft Docs"
+description: The RelatedProducts element defines other products that either depend upon or are included in the current product.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:

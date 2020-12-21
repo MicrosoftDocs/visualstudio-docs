@@ -1,5 +1,7 @@
 ---
 title: Use Azure Pipelines for automated testing
+description: Learn how you can implement automated testing for build-deploy-test automation using Azure Pipelines and Team Foundation Server.
+ms.custom: SEO-VS-2020
 ms.date: 10/19/2018
 ms.topic: how-to
 helpviewer_keywords:

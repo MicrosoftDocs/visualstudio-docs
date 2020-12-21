@@ -1,5 +1,7 @@
 ---
 title: Attaching and Detaching to a Program | Microsoft Docs
+description: Learn about sending the correct sequence of methods and events with the proper attributes for attaching a debugger.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:

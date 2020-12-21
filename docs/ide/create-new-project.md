@@ -1,6 +1,8 @@
 ---
 title: Create a new project
-ms.date: 03/19/2019
+description: Learn how to create a new project in Visual Studio.
+ms.custom: SEO-VS-2020
+ms.date: 12/17/2020
 ms.topic: how-to
 f1_keywords:
 - vs.newproject
@@ -14,11 +16,13 @@ ms.workload:
 ---
 # Create a new project in Visual Studio
 
+In this article, we'll show you how to quickly create a new project in Visual Studio.
+
 ::: moniker range="vs-2017"
 
 ## Open the New Project dialog
 
-There are multiple ways to create a new project in Visual Studio 2017. On the Start page, you can type in the name of a project template in the **Search project templates** box or choose the **Create new project** link to open the **New Project** dialog box. Aside from the Start page, you can also choose **File** > **New** > **Project** on the menu bar or click the **New Project** button on the toolbar.
+There are multiple ways to create a new project in Visual Studio 2017. On the Start page, you can type in the name of a project template in the **Search project templates** box or select the **Create new project** link to open the **New Project** dialog box. Aside from the Start page, you can also select **File** > **New** > **Project** on the menu bar or click the **New Project** button on the toolbar.
 
 ![Start page and File > New > Project](./media/vside-newproject1.png)
 
@@ -39,7 +43,7 @@ The following image shows the project templates available for Visual C# .NET Cor
 
 ## Configure your project
 
-Enter a name for the new project in the **Name** box. You can save the project in the default location on your computer or click the **Browse** button to find another location. You can also choose a solution name or add the new project to a Git repository (by choosing **Add to Source Control**).
+Enter a name for the new project in the **Name** box. You can save the project in the default location on your computer or click the **Browse** button to find another location. You can also select a solution name or add the new project to a Git repository (by selecting **Add to Source Control**).
 
 Click **OK** to create the solution and project.
 
@@ -49,9 +53,9 @@ Click **OK** to create the solution and project.
 
 ## Open the Create a new project page
 
-There are multiple ways to create a new project in Visual Studio 2019. When you first open Visual Studio, the start window appears, and from there, you can choose **Create a new project**.
+There are multiple ways to create a new project in Visual Studio 2019. When you first open Visual Studio, the start window appears, and from there, you can select **Create a new project**.
 
-![Create a new project from the start window in VS 2019](media/vs-2019/start-window-create-new-project.png)
+![Create a new project from the start window in Visual Studio 2019](media/vs-2019/start-window-create-new-project.png)
 
 If the Visual Studio development environment is already open, you can create a new project by choosing **File** > **New** > **Project** on the menu bar or by clicking the **New Project** button on the toolbar.
 
@@ -68,22 +72,22 @@ If you're not selecting from the recently used templates, you can filter all ava
 The tags that appear under each template correspond to the three dropdown filters (Language, Platform, and Project type).
 
 > [!TIP]
-> If you don't see the template you're looking for, you may be missing a workload for Visual Studio. To install additional workloads, for example, **Azure Development** or **Mobile Development with .NET**, click the **Install more tools and features** link to open Visual Studio Installer. From there, select the workloads you want to install, and then choose **Modify**. After that, additional project templates will be available to choose from.
+> If you don't see the template you're looking for, you might be missing a workload for Visual Studio. To install additional workloads, for example, **Azure Development** or **Mobile Development with .NET**, click the **Install more tools and features** link to open Visual Studio Installer. From there, select the workloads you want to install, and then select **Modify**. After that, additional project templates will be available to choose from.
 >
-> ![Install more tools and features link in VS 2019](media/vs-2019/install-more-tools-features.png)
+> ![Install more tools and features link in Visual Studio 2019](media/vs-2019/install-more-tools-features.png)
 
 Select a template and then click **Next**.
 
 ## Configure your project
 
-The **Configure your new project** page has options to name your project (and solution), choose a disk location, and select a Framework version (if applicable to the template you chose).
+The **Configure your new project** page has options to name your project (and solution), select a disk location, and select a Framework version (if applicable to the template you chose).
 
-![Configure your new project page in VS 2019](media/vs-2019/configure-new-project.png)
+![Configure your new project page in Visual Studio 2019](media/vs-2019/configure-new-project.png)
 
 > [!NOTE]
 > If you create a new project when you already have a project or solution open in Visual Studio, an extra configuration option is available. You can choose to create a new solution or add the new project to the solution that's already open.
 >
-> ![Create new solution or add to existing solution in VS 2019](media/vs-2019/configure-new-project-solution.png)
+> ![Create new solution or add to existing solution in Visual Studio 2019](media/vs-2019/configure-new-project-solution.png)
 
 Click **Create** to create the new project.
 
@@ -91,8 +95,12 @@ Click **Create** to create the new project.
 
 ## Add additional projects to a solution
 
-If you want to add an additional project to a solution, right-click the solution node in **Solution Explorer** and choose **Add** > **New Project**.
+If you want to add an additional project to a solution, right-click the solution node in **Solution Explorer** and select **Add** > **New Project**.
+
+> [!TIP]
+> For an example of a project and solution created from scratch, complete with step-by-step instructions and sample code, see [Introduction to projects and solutions](../get-started/tutorial-projects-solutions.md).
 
 ## See also
 
-- [Create solutions and projects](creating-solutions-and-projects.md)
+- [Introduction to projects and solutions](../get-started/tutorial-projects-solutions.md)
+- [Work with solutions and projects](creating-solutions-and-projects.md)

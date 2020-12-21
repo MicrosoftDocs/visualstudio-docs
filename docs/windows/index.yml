@@ -154,7 +154,7 @@ additionalContent:
         - title: Gaming
           links:
             - text: Game development with Unity
-              url: /visualstudio/gamedev/unity/get-started/visual-studio-tools-for-unity.md
+              url: /visualstudio/gamedev/unity/get-started/visual-studio-tools-for-unity
             - text: Game development with C++
               url: /windows/uwp/gaming/e2e
         - title: Other toolsets
@@ -203,4 +203,4 @@ additionalContent:
       - title: Develop with Docker containers
         summary: Use Docker containers to isolate modular components and improve scalability.
         url: ../containers/index.yml
-   footer: "[Blogs](https://devblogs.microsoft.com/visualstudio/) - [Twitter](https://twitter.com/VisualStudio) - [Stack Overflow](https://stackoverflow.com/questions/tagged/visual-studio) - [Issue Reporting](../ide/feedback-options.md) - [Developer Community](https://developercommunity.visualstudio.com/spaces/8/index.html) - [Troubleshooting](/troubleshoot/visualstudio/welcome-visual-studio)"
+   footer: "[Blogs](https://devblogs.microsoft.com/visualstudio/) - [Twitter](https://twitter.com/VisualStudio) - [Stack Overflow](https://stackoverflow.com/questions/tagged/visual-studio) - [Issue Reporting](../ide/feedback-options.md) - [Developer Community](https://aka.ms/feedback/suggest?space=8) - [Troubleshooting](/troubleshoot/visualstudio/welcome-visual-studio)"

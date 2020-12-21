@@ -14,9 +14,11 @@ ms.technology: devinit
 ---
 # devinit configuration file
 
+The `.devinit.json` file defines the system-wide dependencies that your application needs in order to run and build. System-wide dependencies are things like Node.js, SQL Server, IIS, RabbitMQ, Docker, etc. These are the sort of things you would normally install on your dev box that aren't installed by a specific repo. It's not a place to define application-specific dependencies like you would in package managers such as NuGet or NPM. It is, however, a place to define that you need those package managers.
+
 ## File location
 
-The `devinit.exe init` command is driven via the _.devinit.json_ file. By default, `devinit.exe` looks for the file in the following locations:
+The `devinit init` command is driven via the `.devinit.json` file. By default, `devinit` looks for the file in the following locations:
 
 * {current-directory}\\.devinit.json
 * {current-directory}\\devinit.json
@@ -30,13 +32,14 @@ The `devinit.exe init` command is driven via the _.devinit.json_ file. By defaul
 > [!NOTE]
 > If multiple default files are found, then devinit will use the file that appears first in the above list.
 
-The _.devinit.json_ file can also be specified explicitly via the `--file`/`-f` option.
+The `.devinit.json` file can also be specified explicitly via the `--file`/`-f` option.
 
 ### Directories and relative paths
 
 Paths are relative to the location where devinit is running. This is typically the current working directory from which `devinit` was executed.
 
 ## File Format
+In a `.devinit.json`, you can specify more than one tool to run. In the `run` section, you can put any number of objects. An example of this is seen in our sample [.devinit.json](sample-all-tool.md) with all of our tools.
 
 ```json
 {

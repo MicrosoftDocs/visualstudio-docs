@@ -1,5 +1,7 @@
 ---
 title: EvaluateStatement
+description: Learn about the Evaluate Statement command and how it evaluates and displays the given statement.
+ms.custom: SEO-VS-2020
 ms.date: 02/25/2019
 ms.topic: reference
 f1_keywords:

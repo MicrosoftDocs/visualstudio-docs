@@ -54,9 +54,9 @@ These allow the following actions:
 
 ## Switching branches
 
-By default, the first branch created in a repository is known as the **Master** branch. There isn't technically anything different between the master branch and any other, but the master branch is the one that is most often thought of in development teams as the 'live' or 'production' branch.
+By default, the first branch created in a repository is known as the **main** branch. There isn't technically anything different between the main branch and any other, but the main branch is the one that is most often thought of in development teams as the 'live' or 'production' branch.
 
-An independent line of development can be created by branching off Master (or any other branch, for that matter). This provides a new version of the master branch at a point in time, allowing for development independently of what is 'live.' Using branches in this way is often used for features in software development
+An independent line of development can be created by branching off main (or any other branch, for that matter). This provides a new version of the main branch at a point in time, allowing for development independently of what is 'live.' Using branches in this way is often used for features in software development
 
 Users can create as many branches as they like for each repository, but it is recommended that once they have finished using a branch, it is deleted it to keep the repository organized.
 

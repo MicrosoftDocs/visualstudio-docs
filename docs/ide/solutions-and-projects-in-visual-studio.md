@@ -1,6 +1,8 @@
 ---
-title: Solutions and projects
-ms.date: 06/26/2020
+title: Learn about solutions and projects
+description: Learn about Visual Studio projects and solutions, how to create new projects from a template, and how to view & manage projects in Solution Explorer.
+ms.custom: "SEO-VS-2020, contperf-fy21q2"
+ms.date: 12/17/2020
 ms.topic: conceptual
 f1_keywords:
 - vs.addnewitem
@@ -43,7 +45,9 @@ Project files are based on the [MSBuild XML schema](../msbuild/msbuild-project-f
 
 ## Solutions
 
-A project is contained within a *solution*. Despite its name, a solution is not an "answer". It's simply a container for one or more related projects, along with build information, Visual Studio window settings, and any miscellaneous files that aren't associated with a particular project. A solution is described by a text file (extension *.sln*) with its own unique format; it's not intended to be edited by hand.
+A project is contained within a *solution*. Despite its name, a solution is not an "answer". It's simply a container for one or more related projects, along with build information, Visual Studio window settings, and any miscellaneous files that aren't associated with a particular project.
+
+### Solution file
 
 Visual Studio uses two file types (*.sln* and *.suo*) to store settings for solutions:
 
@@ -52,32 +56,43 @@ Visual Studio uses two file types (*.sln* and *.suo*) to store settings for solu
 |.sln|Visual Studio Solution|Organizes projects, project items, and solution items in the solution.|
 |.suo|Solution User Options|Stores user-level settings and customizations, such as breakpoints.|
 
+> [!IMPORTANT]
+> A solution is described by a text file (extension *.sln*) with its own unique format; it's not intended to be edited by hand. Conversely, the *.suo* file is a hidden file that is not displayed under the default File Explorer settings. To show hidden files, on the **View** menu in File Explorer, select the **Hidden Items** checkbox.
+
+### Solution folder
+
+A "solution folder" is a virtual folder that's only in **Solution Explorer**, where you can use it to group projects in a solution. If you want to locate a solution file on a computer, go to **Tools** > **Options** > **Projects and Solutions** > **Locations**. For more information, see [Options dialog box: Projects and Solutions > Locations](./reference/projects-solutions-locations-options.md).
+
 ## Create new projects
 
-The easiest way to create a new project is to start from a project template for a particular type of application or website. A project template consists of a basic set of pre-generated code files, config files, assets, and settings. These templates are available in the dialog box where you create a new project (**File** > **New** > **Project**). For more information, see [Create a new project in Visual Studio](create-new-project.md) and [Create solutions and projects](../ide/creating-solutions-and-projects.md).
+The easiest way to create a new project is to use a project template for the project type you want. A project template includes a basic set of pre-generated code files, config files, assets, and settings. Use **File** > **New** > **Project** to select a project template. For more information, see [Create a new project](create-new-project.md).
 
-If you often customize your projects in a certain way, you can create a custom project template that you can then use to create new projects from. For more information, see [Create project and item templates](../ide/creating-project-and-item-templates.md).
+You can also create a custom project template that you can use to create new projects from. For more information, see [Create project and item templates](../ide/creating-project-and-item-templates.md).
 
-When you create a new project, it is saved by default at *%USERPROFILE%\source\repos*. You can change this location in the **Projects location** setting under **Tools** > **Options** > **Projects and Solutions** > **Locations**. For more information, see [Projects and Solutions page, Options dialog box](../ide/reference/projects-and-solutions-options-dialog-box.md).
+When you create a new project, Visual Studio saves it to its default location, *%USERPROFILE%\source\repos*. To change this location, go to **Tools** > **Options** > **Projects and Solutions** > **Locations**. For more information, see [Options dialog box: Projects and Solutions > Locations](./reference/projects-solutions-locations-options.md).
+
+> [!TIP]
+> For an example of a project and solution created from scratch, complete with step-by-step instructions and sample code, see [Introduction to projects and solutions](../get-started/tutorial-projects-solutions.md).
 
 ## Solution Explorer
 
 After you create a new project, you can use **Solution Explorer** to view and manage the project and solution and their associated items. The following illustration shows **Solution Explorer** with a C# solution that contains two projects:
 
-![Solution Explorer](../ide/media/vs2015_solution_explorer.png)
+![Screenshot of Solution Explorer.](../ide/media/vs2015_solution_explorer.png)
 
 Many menu commands are available from the right-click menu on various items in **Solution Explorer**. These commands include building a project, managing NuGet packages, adding a reference, renaming a file, and running tests, just to name a few. The toolbar across the top of **Solution Explorer** has buttons to switch from a solution view to a folder view, show hidden files, collapse all nodes, and more.
+
+To view a list of some of the icons that appear in Solution Explorer, see [Class View and Object Browser icons](class-view-and-object-browser-icons.md).
 
 > [!TIP]
 > If you've closed Solution Explorer and you want to open it again, choose **Window** > **Reset Window Layout** from the menu bar.
 
 For ASP.NET Core projects, you can customize how files are nested in **Solution Explorer**. For more information, see [Customize file nesting in Solution Explorer](file-nesting-solution-explorer.md).
 
-And, to view a list of some of the icons that appear in Solution Explorer, see [Class View and Object Browser icons](class-view-and-object-browser-icons.md).
-
 ## See also
 
-- [Visual Studio IDE](../get-started/visual-studio-ide.md)
+- [Introduction to projects and solutions](../get-started/tutorial-projects-solutions.md)
+- [Filtered solutions in Visual Studio](filtered-solutions.md)
 - [Port, migrate, and upgrade projects](../porting/port-migrate-and-upgrade-visual-studio-projects.md)
+- [Resources for troubleshooting Visual Studio IDE errors](./reference/resources-for-troubleshooting-integrated-development-environment-errors.md)
 - [Projects and solutions (Visual Studio for Mac)](/visualstudio/mac/projects-and-solutions)
-- [Add and remove project items (Visual Studio for Mac)](/visualstudio/mac/add-and-remove-project-items)

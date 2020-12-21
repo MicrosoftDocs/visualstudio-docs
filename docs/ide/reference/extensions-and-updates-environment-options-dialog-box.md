@@ -1,5 +1,6 @@
 ---
 title: Extensions, Environment, Options Dialog Box
+description: Learn how to use the Extensions page in the Environment section to set options for how Visual Studio performs updates and how extensions are updated and discovered.
 ms.date: 03/28/2019
 ms.topic: reference
 f1_keywords:

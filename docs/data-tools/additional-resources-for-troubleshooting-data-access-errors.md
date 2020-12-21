@@ -1,5 +1,7 @@
 ---
 title: Data access forums
+description: Find assistance with troubleshooting errors and warnings in the public forums. View a list of data-related forums.
+ms.custom: SEO-VS-2020
 ms.date: 06/27/2018
 ms.topic: troubleshooting
 f1_keywords:

@@ -1,5 +1,7 @@
 ---
 title: Configure unit tests with a .runsettings file
+description: Learn how to use the .runsettings file in Visual Studio to configure unit tests that are run from the command line, from the IDE, or in a build workflow.
+ms.custom: SEO-VS-2020
 ms.date: 07/15/2020
 ms.topic: conceptual
 ms.author: mikejo
@@ -215,8 +217,8 @@ The code coverage data collector creates a log of which parts of the application
       <CollectFromChildProcesses>True</CollectFromChildProcesses>
       <CollectAspDotNet>False</CollectAspDotNet>
     </CodeCoverage>
-  </CodeCoverage>
-</Configuration>
+  </Configuration>
+</DataCollector>
 ```
 
 ### VideoRecorder data collector

@@ -1,5 +1,7 @@
 ---
 title: Unit testing fundamentals
+description: Learn how Visual Studio Test Explorer provides a flexible and efficient way to run your unit tests and view their results. 
+ms.custom: SEO-VS-2020
 ms.date: 08/07/2019
 ms.topic: conceptual
 f1_keywords:

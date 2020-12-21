@@ -1,5 +1,7 @@
 ---
 title: Web Performance Test API
+description: Learn about the web performance test API, which supports coded web performance tests, test plug-ins, request plug-ins, requests, and extraction/validation rules.
+ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
 ms.topic: how-to
 helpviewer_keywords: 
