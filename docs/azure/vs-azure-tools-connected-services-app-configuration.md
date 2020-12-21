@@ -38,7 +38,7 @@ In this tutorial, you will learn how to easily add everything you need to start 
 
     ![Add App Configuration](./media/vs-azure-tools-connected-services-app-configuration/add-azure-app-configuration.png)
 
-    If you aren't signed in already, sign into your Azure account. If you don't have an Azure account, you can sign up for a [free trial](https://azure.microsoft.com/account/free).
+    If you aren't signed in already, sign into your Azure account. If you don't have an Azure account, you can sign up for a [free trial](https://azure.microsoft.com/free/dotnet).
 
 1. In the **Configure Azure App Configuration** screen, select your subscription and an existing configuration store. Then select **Next**.
 
