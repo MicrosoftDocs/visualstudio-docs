@@ -1,6 +1,6 @@
 ---
-title: "Find your debugging task"
-description: Identify the debugger feature that will help you debug your app
+title: "FAQ - Find your debugging feature"
+description: Frequently asked questions to help you identify the debugger feature that will help you debug your app
 ms.custom: ""
 ms.date: "10/01/2019"
 ms.topic: "conceptual"
@@ -12,7 +12,7 @@ manager: jillfra
 ms.workload:
   - "multiple"
 ---
-# Find your debugging task in Visual Studio
+# FAQ - Find the debugging feature you need in Visual Studio
 
 If you need help to map your debugging task to the correct feature of the Visual Studio debugger that is relevant, use the links provided in this article. The list of tasks here includes common tasks such as pausing code to debug, inspecting variables, and sending messages to the **Output** window. If you need an overview of debugger features, see [First look at the debugger](debugger-feature-tour.md) instead.
 
