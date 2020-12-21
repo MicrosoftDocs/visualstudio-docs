@@ -16,6 +16,10 @@ ms.workload:
 
 If you need help to map your debugging task to the correct feature of the Visual Studio debugger that is relevant, use the links provided in this article. The list of tasks here includes common tasks such as pausing code to debug, inspecting variables, and sending messages to the **Output** window. If you need an overview of debugger features, see [First look at the debugger](debugger-feature-tour.md) instead.
 
+## Fix an exception
+
+See [Fix an exception](write-better-code-with-visual-studio.md#fix-an-exception).
+
 ## Pause running code
 
 **Pause running code to inspect a line of code that may contain a bug**
@@ -83,6 +87,14 @@ Set a watch on the variable. For more information, see [Set a watch on variables
 
 Open the built-in [string visualizer](view-strings-visualizer.md) while debugging.
 
+## Debug an app that is already running
+
+See [Attach to a running processes](attach-to-running-processes-with-the-visual-studio-debugger.md).
+
+## Debug multithreaded applications
+
+See [Debug multithreaded applications](debug-multithreaded-applications-in-visual-studio.md).
+
 ## Configure debugging
 
 **Customize information shown in the debugger**
@@ -96,10 +108,6 @@ For native C++, use the [NatVis framework](create-custom-views-of-native-objects
 To configure debugger options and debugger project settings, see [Debugger settings and preparation](debugger-settings-and-preparation.md).
 
 ## Additional tasks
-
-**Fix an exception**
-
-See [Fix an exception](write-better-code-with-visual-studio.md#fix-an-exception).
 
 **Edit code during a debugging session**
 
@@ -116,14 +124,6 @@ See [How to view the call stack](how-to-use-the-call-stack-window.md).
 **Debug on remote machines**
 
 See [Remote debugging](remote-debugging.md).
-
-**Debug an app that is already running**
-
-See [Attach to a running processes](attach-to-running-processes-with-the-visual-studio-debugger.md).
-
-**Debug multithreaded applications**
-
-See [Debug multithreaded applications](debug-multithreaded-applications-in-visual-studio.md).
 
 **Fix performance issues**
 
