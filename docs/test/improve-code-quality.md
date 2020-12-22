@@ -45,11 +45,17 @@ Visual Studio is also extensible and opens the door for third-party unit testing
 
 [Live Unit Testing](../test/live-unit-testing.md) automatically runs unit tests in the background, and graphically displays code coverage and test results in the Visual Studio code editor.
 
+> [!NOTE]
+> Live unit testing is available in Enterprise edition only.
+
 ## IntelliTest
 
 IntelliTest automatically generates unit tests and test data for your managed code. IntelliTest improves coverage and dramatically reduces the effort to create and maintain unit tests for new or existing code.
 
 ![IntelliTest in action](media/devtest-intellitest.png)
+
+> [!NOTE]
+> IntelliTest is available in Enterprise edition only. It is supported for C# code that targets the .NET Framework. .NET Core and .NET Standard are not currently supported.
 
 * [Generate unit tests for your code with IntelliTest](generate-unit-tests-for-your-code-with-intellitest.md)
 * [IntelliTest – One test to rule them all](https://devblogs.microsoft.com/devops/intellitest-one-test-to-rule-them-all/)
@@ -83,10 +89,6 @@ Whether you choose best-of-breed Coded UI Tests or generic browser-based UI test
 * [Get started creating, editing, and maintaining a coded UI test](walkthrough-creating-editing-and-maintaining-a-coded-ui-test.md)
 * [Test UWP apps with coded UI tests](test-uwp-app-with-coded-ui-test.md)
 * [Introduction to coded UI tests with Visual Studio Enterprise (Lab)](https://www.boost.org/doc/libs/1_71_0/libs/test/doc/html/index.html)
-
-## Load testing
-
-[Load testing](../test/quickstart-create-a-load-test-project.md) simulates load on a server application by running unit tests and web performance tests.
 
 ## Related scenarios
 

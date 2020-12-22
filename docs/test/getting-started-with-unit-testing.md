@@ -16,13 +16,15 @@ ms.workload:
 
 Use Visual Studio to define and run unit tests to maintain code health, ensure code coverage, and find errors and faults before your customers do. Run your unit tests frequently to make sure your code is working properly.
 
+In this article, the code and illustrations use C#, but the concepts and features apply to .NET languages, C++, and Python.
+
 ## Create unit tests
 
 This section describes how to create a unit test project.
 
 1. Open the project that you want to test in Visual Studio.
 
-   For the purposes of demonstrating an example unit test, this article tests a simple "Hello World" project named **HelloWorldCore**. The sample code for such a project is as follows:
+   For the purposes of demonstrating an example unit test, this article tests a simple "Hello World" C# project named **HelloWorldCore**. The sample code for such a project is as follows:
 
    ```csharp
    namespace HelloWorldCore
@@ -52,7 +54,7 @@ This section describes how to create a unit test project.
 
    ![Unit test project template in Visual Studio 2019](media/mstest-test-project-template.png)
 
-   Choose a name for the test project, and then click **OK**.
+   Choose a name for the test project, such as HelloWorldTests, and then click **OK**.
 
    ::: moniker-end
 
@@ -69,6 +71,8 @@ This section describes how to create a unit test project.
 1. Add code to the unit test method.
 
    For example, for an MSTest project, you might use the following code.
+
+   # [MSTest](#tab/mstest)
 
    ```csharp
    using Microsoft.VisualStudio.TestTools.UnitTesting;
@@ -97,7 +101,7 @@ This section describes how to create a unit test project.
    }
    ```
 
-   Or, for an NUnit project, you might use the following code.
+   # [NUnit](#tab/nunit)
 
    ```csharp
    using NUnit.Framework;
@@ -129,6 +133,34 @@ This section describes how to create a unit test project.
       }
    }
    ```
+
+    # [xUnit](#tab/xunit)
+
+    ```csharp
+    using System;
+    using Xunit;
+    using System.IO;
+    
+    namespace HelloWorldTests
+    {
+        public class UnitTest1
+        {
+            private const string Expected = "Hello World!";
+            [Fact]
+            public void Test1()
+            {
+                using (var sw = new StringWriter())
+                {
+                    Console.SetOut(sw);
+                    HelloWorldCore.Program.Main();
+    
+                    var result = sw.ToString().Trim();
+                    Assert.Equal(Expected, result);
+                }
+            }
+        }
+    }
+    ```
 
 > [!TIP]
 > For more details about creating unit tests, see [Create and run unit tests for managed code](walkthrough-creating-and-running-unit-tests-for-managed-code.md).
@@ -191,7 +223,7 @@ For more information about live unit testing, see [Live unit testing](../test/li
 When you run IntelliTest, you can see which tests are failing and add any necessary code to fix them. You can select which of the generated tests to save into a test project to provide a regression suite. As you change your code, rerun IntelliTest to keep the generated tests in sync with your code changes. To learn how, see [Generate unit tests for your code with IntelliTest](../test/generate-unit-tests-for-your-code-with-intellitest.md).
 
 > [!TIP]
-> IntelliTest is only available for managed code that targets the .NET Framework.
+> IntelliTest is available in Enterprise edition only. It is supported for C# code that targets the .NET Framework. .NET Core and .NET Standard are not currently supported.
 
 ![Generating unit tests with IntelliTest](media/intellitest.png)
 
