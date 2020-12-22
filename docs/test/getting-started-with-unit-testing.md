@@ -42,7 +42,10 @@ This section describes how to create a unit test project.
 
 1. In the new project dialog box, find a unit test project template for the test framework you want to use, such as MSTest, and select it.
 
-   Starting in Visual Studio 2017 version 15.8, the .NET languages include built-in templates for NUnit and xUnit. For C++, you will need to select a test framework supported by the language. For Python, see [Set up unit testing in Python code](../python/unit-testing-python-in-visual-studio.md)
+   Starting in Visual Studio 2017 version 15.8, the .NET languages include built-in templates for NUnit and xUnit. For C++, you will need to select a test framework supported by the language. For Python, see [Set up unit testing in Python code](../python/unit-testing-python-in-visual-studio.md).
+
+   > [!TIP]
+   > For C#, you can create unit test projects using a faster method. For more information, see [Create unit test projects and test methods](../test/unit-test-basics?view=vs-2019#create-unit-test-projects-and-test-methods.md).
 
    The following illustration shows an MSTest unit test, which is also supported for .NET.
 
@@ -166,9 +169,6 @@ This section describes how to create a unit test project.
     }
     ```
 
-> [!TIP]
-> For more details about creating unit tests, see [Create and run unit tests for managed code](walkthrough-creating-and-running-unit-tests-for-managed-code.md).
-
 ## Run unit tests
 
 1. Open [Test Explorer](../test/run-unit-tests-with-test-explorer.md).
@@ -240,7 +240,7 @@ To determine what proportion of your project's code is actually being tested by 
 
 ## Use a third-party test framework
 
-You can run unit tests in Visual Studio by using third-party test frameworks such as Boost, Google, and NUnit. Use the **NuGet Package Manager** to install the NuGet package for the framework of your choice. Or, for the NUnit and xUnit test frameworks, Visual Studio includes preconfigured test project templates that include the necessary NuGet packages.
+You can run unit tests in Visual Studio by using third-party test frameworks such as Boost, Google, and NUnit, depending on your programming language. Use the **NuGet Package Manager** to install the NuGet package for the framework of your choice. Starting in Visual Studio 2017 version 14.6, Visual Studio includes pre-configured test project templates for NUnit and xUnit test frameworks, which also include the necessary NuGet packages to enable support.
 
 To create unit tests that use [NUnit](https://nunit.org/):
 
