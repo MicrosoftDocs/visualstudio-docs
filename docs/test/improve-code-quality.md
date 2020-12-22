@@ -65,6 +65,9 @@ IntelliTest automatically generates unit tests and test data for your managed co
 
 [Code coverage](../test/using-code-coverage-to-determine-how-much-code-is-being-tested.md) determines what proportion of your project's code is actually being tested by coded tests such as unit tests. To guard effectively against bugs, your tests should exercise or "cover" a large proportion of your code.
 
+> [!NOTE]
+> Code coverage is available in Enterprise edition only.
+
 Code coverage analysis can be applied to both managed and unmanaged (native) code.
 
 Code coverage is an option when you run test methods using Test Explorer. The results table shows the percentage of the code that was run in each assembly, class, and method. In addition, the source editor shows you which code has been tested.
@@ -76,6 +79,9 @@ Code coverage is an option when you run test methods using Test Explorer. The re
 ## Microsoft Fakes
 
 [Microsoft Fakes](../test/isolating-code-under-test-with-microsoft-fakes.md) help you isolate the code you're testing by replacing other parts of the application with stubs or shims.
+
+> [!NOTE]
+> Code coverage is available in Enterprise edition only.
 
 ## User interface testing with Coded UI and Selenium
 

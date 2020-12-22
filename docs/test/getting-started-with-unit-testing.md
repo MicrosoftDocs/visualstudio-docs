@@ -40,7 +40,11 @@ This section describes how to create a unit test project.
 
 1. In **Solution Explorer**, select the solution node. Then, from the top menu bar, select **File** > **Add** > **New Project**.
 
-1. In the new project dialog box, find a unit test project template for the test framework you want to use and select it.
+1. In the new project dialog box, find a unit test project template for the test framework you want to use, such as MSTest, and select it.
+
+   Starting in Visual Studio 2017 version 15.8, the .NET languages include built-in templates for NUnit and xUnit. For C++, you will need to select a test framework supported by the language. For Python, see [Set up unit testing in Python code](../python/unit-testing-python-in-visual-studio.md)
+
+   The following illustration shows an MSTest unit test, which is also supported for .NET.
 
    ::: moniker range=">=vs-2019"
 
@@ -70,7 +74,7 @@ This section describes how to create a unit test project.
 
 1. Add code to the unit test method.
 
-   For example, for an MSTest project, you might use the following code.
+   For example, you might use the following code, according to your test framework. (MSTest, NUnit, and xUnit are supported on .NET languages.)
 
    # [MSTest](#tab/mstest)
 
@@ -230,6 +234,9 @@ When you run IntelliTest, you can see which tests are failing and add any necess
 ## Analyze code coverage
 
 To determine what proportion of your project's code is actually being tested by coded tests such as unit tests, you can use the code coverage feature of Visual Studio. To guard effectively against bugs, your tests should exercise a large proportion of your code. To learn how, see [Use code coverage to determine how much code is being tested](../test/using-code-coverage-to-determine-how-much-code-is-being-tested.md).
+
+> [!NOTE]
+> Code coverage is available in Enterprise edition only.
 
 ## Use a third-party test framework
 
