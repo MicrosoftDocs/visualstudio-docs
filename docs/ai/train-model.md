@@ -24,7 +24,7 @@ It's integrated with Visual Studio Tools for AI so you can dynamically scale out
 
 2. Expand **AI Tools**. Any Batch AI resources you have will be auto-detected and appear in the Server Explorer.
 
-    ![Sample gallery](media/train-model/batchai.png)
+    ![Screenshot of the expanded folder tree for AI Tools in Server Explorer, showing expanded subfolders for Azure Batch AI and Azure Machine Learning.](media/train-model/batchai.png)
 
 3. Select **View > Team Explorer...** to open the **Team Explorer** window in which you can connect to GitHub or Azure DevOps, or clone a repository.
 
@@ -37,19 +37,19 @@ It's integrated with Visual Studio Tools for AI so you can dynamically scale out
 
 5. When cloning is complete, click **File > Open Solution > Project / Solution**
 
-    ![Sample gallery](media/train-model/open-solution.png)
+    ![Screenshot showing part of the Server Explorer File menu with the Open command selected and Project/Solution selected on the context menu.](media/train-model/open-solution.png)
 
 6. Open **samples-for-ai\TensorFlowExamples\TensorFlowExamples.sln** in the directory you cloned the repository
 
-    ![Sample gallery](media/train-model/tensorflowexamples.png)
+    ![Screenshot showing the solution file TensorflowExamples.sln listed in the contents of the TensorflowExamples folder in the samples-for-ai repository.](media/train-model/tensorflowexamples.png)
 
 7. Set MNIST project as the **Startup Project**
 
-    ![Sample gallery](media/train-model/mnist-startup.png)
+    ![Screenshot showing Set as StartUp Project selected on the context menu for the MNIST project in Solution Explorer.](media/train-model/mnist-startup.png)
 
 8. <strong>Right-click **MNIST project,** **Submit Job**</strong>
 
-    ![Sample gallery](media/train-model/submit-job.png)
+    ![Screenshot showing Submit Job selected on the context menu for the MNIST project in Solution Explorer.](media/train-model/submit-job.png)
 9. Select your **Azure Batch AI** cluster, then click **Import**. Select the `AzureBatchAI_TF_MNIST.json` file to quickly populate some default values like which Docker Image to use. Then click **Submit**
 
-    ![Sample gallery](media/train-model/submit-batch.png)
+    ![Screenshot of the Submit Job dialog with values populated for Use cluster, Startup script, Job name, Image name, StdOutErr path prefix, and CLI parameters.](media/train-model/submit-batch.png)

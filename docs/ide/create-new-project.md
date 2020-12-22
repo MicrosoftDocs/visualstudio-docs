@@ -104,3 +104,4 @@ If you want to add an additional project to a solution, right-click the solution
 
 - [Introduction to projects and solutions](../get-started/tutorial-projects-solutions.md)
 - [Work with solutions and projects](creating-solutions-and-projects.md)
+- [Manage project and solution properties](managing-project-and-solution-properties.md)

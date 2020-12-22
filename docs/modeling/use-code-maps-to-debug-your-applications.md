@@ -56,9 +56,9 @@ For details of the commands and actions you can use when working with code maps,
 ## Navigate and examine code from the map
  To see the code definition for each field, double-click the field on the map or select the field and press **F12**. The green arrow moves between items on the map. Your cursor in the code editor also moves automatically.
 
- ![Code map &#45; Examine field definition](../modeling/media/codemapstoryboardpaint5.png)
+ ![Screenshot of a code map window with the history field selected and a code editor window where all instances of history are highlighted.](../modeling/media/codemapstoryboardpaint5.png)
 
- ![Code map &#45; Examine field definition](../modeling/media/codemapstoryboardpaint5a.png)
+ ![Screenshot of a code map window with the paintObjects field selected and a code editor window where all instances of paintObjects are highlighted.](../modeling/media/codemapstoryboardpaint5a.png)
 
 > [!TIP]
 > You can also move the green arrow on the map by moving your cursor in the code editor.
@@ -75,24 +75,24 @@ For details of the commands and actions you can use when working with code maps,
 
  Change the layout to rearrange the flow of relationships and make the map easier to read. You can also move items around the map by dragging them.
 
- ![Code map &#45; Change layout](../modeling/media/codemapstoryboardpaint7a.png)
+ ![Screenshot of a code map window with the Layout menu open and the Left to Rgiht command selected.](../modeling/media/codemapstoryboardpaint7a.png)
 
 > [!TIP]
 > By default, **Incremental Layout** is turned on. This rearranges the map as little as possible when you add new items. To rearrange the entire map every time you add new items, turn off **Incremental Layout**.
 
- ![Code map &#45; Change layout](../modeling/media/codemapstoryboardpaint7.png)
+ ![Screenshot of a code map window with the relationshiop arrows between the fields pointing from left to right.](../modeling/media/codemapstoryboardpaint7.png)
 
  Let's examine these methods. On the map, double-click the **PaintCanvas** method, or select this method and press **F12**. You learn that this method creates `history` and `paintObjects` as empty lists.
 
- ![Code map &#45; Examine method definition](../modeling/media/codemapstoryboardpaint8.png)
+ ![Screenshot of a code map window with the PaintCanvas method selected and a code snippet image showing the PainCanvas method name highlighted.](../modeling/media/codemapstoryboardpaint8.png)
 
  Now repeat the same steps to examine the `clear` method definition. You learn that `clear` performs some tasks with `paintObjects` and `history`. It then calls the `Repaint` method.
 
- ![Code map &#45; Examine method definition](../modeling/media/codemapstoryboardpaint9.png)
+ ![Screenshot of a code map window with the Clear method selected and a code snippet image showing the code for the Clear method.](../modeling/media/codemapstoryboardpaint9.png)
 
  Now examine the `addPaintObject` method definition. It also performs some tasks with `history` and `paintObjects`. It also calls `Repaint`.
 
- ![Code map &#45; Examine method definition](../modeling/media/codemapstoryboardpaint10.png)
+ ![Screenshot of a code map window with the addPaintObject method selected and a code snippet image showing the code for the addPaintObject method.](../modeling/media/codemapstoryboardpaint10.png)
 
 ## Find the problem by examining the map
  It seems that all the methods that modify `history` and `paintObjects` call `Repaint`. Yet the `undo` method doesn't call `Repaint`, even though `undo` modifies the same fields. So you think you can fix this problem by calling `Repaint` from `undo`.
