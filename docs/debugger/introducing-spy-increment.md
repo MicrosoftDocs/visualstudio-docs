@@ -1,5 +1,7 @@
 ---
 title: "Introducing Spy++ | Microsoft Docs"
+description: Read about the Spy++ debugging tool. Display a graphical tree of system object relationships. Get properties for selected windows, threads, processes, or messages.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:
