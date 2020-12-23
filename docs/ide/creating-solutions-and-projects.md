@@ -2,7 +2,7 @@
 title: Work with solutions and projects
 description: Learn about the difference between solutions and projects and how to use them in Visual Studio.
 ms.custom: "SEO-VS-2020, contperf-fy21q2"
-ms.date: 12/23/2020
+ms.date: 12/18/2020
 ms.topic: how-to
 f1_keywords:
 - vs.openprojectfromweb
