@@ -1,6 +1,8 @@
 ---
 title: "Visualize dotnet counters | Microsoft Docs"
+description: "Learn to use the .NET Counters tool in the Visual Studio Performance Profiler."
 ms.date: "12/7/2020"
+
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "dotnet, counters, profiling"
