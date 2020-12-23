@@ -58,17 +58,17 @@ As mentioned earlier, by default the debugger skips over managed properties and 
 
 Right-click on a property or field and choose **Step Into Specific**, then choose one of the available options.
 
-![Step into Specific](../debugger/media/dbg-tour-step-into-specific.png "Step Into Specific")
+![Screenshot of the Visual Studio Debugger with a line of code highlighted. Step Into Specific is selected on the context menu, and the Path.set method is selected.](../debugger/media/dbg-tour-step-into-specific.png)
 
 In this example, **Step Into Specific** gets us to the code for `Path.set`.
 
-![Step into Specific](../debugger/media/dbg-tour-step-into-specific-2.png "Step Into Specific")
+![Screenshot of the Visual Studio Debugger showing the code for Path.set. The braces surrounding the set function are highlighted in yellow.](../debugger/media/dbg-tour-step-into-specific-2.png)
 
 ## Run to a point in your code quickly using the mouse
 
-While in the debugger, hover over a line of code until the **Run to Click** (Run execution to here) button ![Run to Click](../debugger/media/dbg-tour-run-to-click.png "RunToClick") appears on the left.
+While in the debugger, hover over a line of code until the **Run to Click** (Run execution to here) button ![Screenshot of the Run to Click button from the Visual Studio Debugger. The button indicates that execution should run to the line where the button is placed.](../debugger/media/dbg-tour-run-to-click.png) appears on the left.
 
-![Run to Click](../debugger/media/dbg-tour-run-to-click-2.png "Run to Click")
+![Screenshot of the Visual Studio Debugger showing the Run to Click button appearing just to the left of a call to the Update function.](../debugger/media/dbg-tour-run-to-click-2.png)
 
 > [!NOTE]
 > The **Run to Click** (Run execution to here) button is available starting in [!include[vs_dev15](../misc/includes/vs_dev15_md.md)].
