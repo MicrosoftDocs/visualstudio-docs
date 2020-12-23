@@ -37,13 +37,15 @@ landingContent:
         links:
           - text: Get started with unit testing
             url: getting-started-with-unit-testing.md
-          - text: Unit test basics
-            url: unit-test-basics.md
           - text: Run unit tests with Test Explorer
             url: run-unit-tests-with-test-explorer.md
+      - linkListType: how-to-guide
+        links:
+          - text: Unit test basics
+            url: unit-test-basics.md
 
   # Card (optional)
-  - title: .NET Unit testing
+  - title: .NET unit testing
     linkLists:
       - linkListType: tutorial
         links:
@@ -61,11 +63,11 @@ landingContent:
             url: isolating-code-under-test-with-microsoft-fakes.md
 
   # Card (optional)
-  - title: C++ Unit testing
+  - title: C++ unit testing
     linkLists:
       - linkListType: overview
         links:
-        - text: Write unit tests for C/C++]
+        - text: Write unit tests for C/C++
           url: writing-unit-tests-for-c-cpp.md
 
   # Card (optional)
