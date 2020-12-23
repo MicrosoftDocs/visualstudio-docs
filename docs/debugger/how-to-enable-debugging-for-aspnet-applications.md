@@ -1,5 +1,6 @@
 ---
 title: Enable debugging for ASP.NET apps | Microsoft Docs
+description: Learn how to enable debugging for ASP.NET and ASP.NET Core apps in Visual Studio and run the process on an IIS Express server or a local IIS server. 
 ms.custom: 
 ms.date: 10/29/2020
 ms.topic: how-to

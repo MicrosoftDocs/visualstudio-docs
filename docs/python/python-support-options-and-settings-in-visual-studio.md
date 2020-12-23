@@ -168,6 +168,6 @@ There are also additional Python-specific options on the **Text Editor** > **Pyt
 
 (**Environment** > **Fonts and Colors** tab within the **Text Editor** group.)
 
-The names of the Python options are all prefixed with **Python** and are self-explanatory. The default font for all Visual Studio color themes is 10pt Consolas regular (not bold). The default colors vary by theme. Typically, you change a font or color if you find it difficult to read text with the default settings.
+The names of the Python options are all prefixed with **Python** and are self-explanatory. The default font for all Visual Studio color themes is 10 pt Consolas regular (not bold). The default colors vary by theme. Typically, you change a font or color if you find it difficult to read text with the default settings.
 
 ![Python font and color options](media/options-fonts-and-colors.png)
