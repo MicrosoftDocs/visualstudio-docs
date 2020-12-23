@@ -69,7 +69,8 @@ You can also view graphs in the detailed report by selecting the checkboxes next
 
 ![.NET Counter tool time filtering](../profiling/media/dotnet-counters-tool-timefiltering.png ".NET Counters tool time filtering")
 
-The table will now update to relevant value for the time selected in the graphs. Use the Clear Selection button to reset the selected time range to the entire trace.
+The table updates to relevant values for the time selected in the graphs. Use the **Clear Selection** button to reset the selected time range to the entire trace.
+
 
 ## See also
 
