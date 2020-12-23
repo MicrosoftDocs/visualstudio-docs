@@ -1,6 +1,6 @@
 ---
 title: "IntelliTrace Features | Microsoft Docs"
-description: Learn about IntelliTrace features in Visual Studio. Use IntelliTrace to record events and method calls your application.
+description: Learn about IntelliTrace features in Visual Studio. Use IntelliTrace to record events and method calls in your application.
 ms.custom: SEO-VS-2020
 ms.date: "09/19/2018"
 ms.topic: "conceptual"
