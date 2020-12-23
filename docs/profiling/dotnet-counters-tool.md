@@ -59,7 +59,8 @@ The report shows you the following values:
 - Max - The maximum value for that counter in the selected time range.
 - Average - The average value for that counter in the selected time range.
 
-You can filter or add columns in the table by right clicking on the column headings and selecting a heading.
+You can filter or add columns in the table by right clicking the column headings and selecting a heading.
+
 
 ![.NET Counter tool columns](../profiling/media/dotnet-counters-tool-columns.png ".NET Counters tool columns")
 
