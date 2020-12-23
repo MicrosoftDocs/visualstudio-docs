@@ -13,7 +13,8 @@ ms.workload:
   - "multiple"
 ---
 
-# Visualize dotnet counters from within the Visual Studio Profiler
+# Visualize dotnet counters from the Visual Studio profiler
+
 
 The .NET Counters tool allows you to visualize [dotnet counters](../docs/core/diagnostics/dotnet-counters.md) over time right from within the Visual Studio profiler.
 
