@@ -46,7 +46,7 @@ Visual Studio is also extensible and opens the door for third-party unit testing
 [Live Unit Testing](../test/live-unit-testing.md) automatically runs unit tests in the background, and graphically displays code coverage and test results in the Visual Studio code editor.
 
 > [!NOTE]
-> Live unit testing is available in Enterprise edition only.
+> Live unit testing is available in Enterprise edition only and is only supported for .NET code.
 
 ## IntelliTest
 
@@ -81,11 +81,14 @@ Code coverage is an option when you run test methods using Test Explorer. The re
 [Microsoft Fakes](../test/isolating-code-under-test-with-microsoft-fakes.md) help you isolate the code you're testing by replacing other parts of the application with stubs or shims.
 
 > [!NOTE]
-> Code coverage is available in Enterprise edition only.
+> Microsoft Fakes are available in Enterprise edition only and is supported only for .NET code.
 
 ## User interface testing with Coded UI and Selenium
 
 Coded UI tests provide a way to create fully automated tests to validate the functionality and behavior of your application’s user interface. They can automate UI testing across a variety of technologies, including XAML-based UWP apps, browser apps, and SharePoint apps.
+
+> [!NOTE]
+> Coded UI is a deprecated feature.
 
 Whether you choose best-of-breed Coded UI Tests or generic browser-based UI testing with Selenium, Visual Studio provides all the tools you need.
 
