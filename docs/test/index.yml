@@ -27,7 +27,7 @@ landingContent:
             url: improve-code-quality.md
           - text: Unit test tools & tasks
             url: unit-test-your-code.md
-          - text: Live unit testing overview
+          - text: Live Unit Testing overview
             url: live-unit-testing-intro.md
 
   # Card (optional)
@@ -70,16 +70,6 @@ landingContent:
         - text: Write unit tests for C/C++
           url: writing-unit-tests-for-c-cpp.md
 
-  # Card (optional)
-  - title: More testing tools
-    linkLists:
-      - linkListType: how-to-guide
-        links:
-          - text: Coded UI (deprecated)
-            url: use-ui-automation-to-test-your-code.md
-          - text: Load testing (deprecated)
-            url: quickstart-create-a-load-test-project.md
-
   - title: Related tools (Azure DevOps)
     linkLists:
       - linkListType: how-to-guide
@@ -90,4 +80,14 @@ landingContent:
             url: /azure/devops/test/load-test/getting-started-with-performance-testing?view=azure-devops&preserve-view=true
           - text: Continuous testing (Azure Pipelines)
             url: /azure/devops/pipelines/?view=azure-devops&preserve-view=true
+
+  # Card (optional)
+  - title: More testing tools
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+          - text: Coded UI (deprecated)
+            url: use-ui-automation-to-test-your-code.md
+          - text: Load testing (deprecated)
+            url: quickstart-create-a-load-test-project.md
 

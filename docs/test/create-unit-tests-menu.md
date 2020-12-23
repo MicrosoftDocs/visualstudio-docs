@@ -18,7 +18,7 @@ The **Create Unit Tests** command creates unit test method stubs. This feature a
 
 ::: moniker range="vs-2017"
 > [!NOTE]
-> The **Create Unit Tests** menu command is only available for C# code that targets .NET Framework (but not .NET Core).
+> The **Create Unit Tests** menu command is only available for C# code that targets .NET Framework (but not .NET Core or .NET Standard).
 ::: moniker-end
 ::: moniker range=">=vs-2019"
 > [!NOTE]
