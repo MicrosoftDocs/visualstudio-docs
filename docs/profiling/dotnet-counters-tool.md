@@ -48,7 +48,8 @@ You can also view graphs of the counters by selecting the checkbox next to the c
 Once you are done exercising your app and collecting data, you can stop collection for an even more detailed report. To do this, press the **Stop Collection** button.
 
 
-Once the report loads you should see a finalized report similar to the one shown below.
+Once the report loads, you should see a finalized report similar to the one shown below.
+
 
 ![.NET Counter tool report](../profiling/media/dotnet-counters-tool-report.png ".NET Counters tool report")
 
