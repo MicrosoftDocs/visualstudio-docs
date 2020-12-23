@@ -2,19 +2,21 @@
   href: index.yml
 - name: Overview
   items:
-  - name: Unit test tools overview
-    href: unit-test-your-code.md
   - name: First look at testing tools
     href: improve-code-quality.md
-- name: Unit testing
+  - name: Unit test tools and tasks
+    href: unit-test-your-code.md
+- name: Tutorials
   items:
   - name: Get started
     href: getting-started-with-unit-testing.md
+- name: Unit testing
+  items:
   - name: Unit test basics
     href: unit-test-basics.md
   - name: Create a unit test project
     href: create-a-unit-test-project.md
-  - name: Create Unit Tests command
+  - name: Create unit tests from code
     href: create-unit-tests-menu.md
   - name: IntelliTest
     items:
