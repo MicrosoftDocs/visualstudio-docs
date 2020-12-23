@@ -135,7 +135,7 @@ To permanently delete a solution or other components from your system, use **Fil
 
 You can access File Explorer in Windows by using Solution Explorer in Visual Studio. Here's how.
 
-1. In **Solution Explorer**, on the right-click menu (context menu) of the solution you want to delete, select **Open folder in File Explorer**.
+1. In **Solution Explorer**, on the right-click menu (context menu) of the solution you want to delete, and then select **Open folder in File Explorer**.
 
 1. In File Explorer, navigate up one level.
 
