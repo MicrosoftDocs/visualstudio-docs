@@ -42,7 +42,8 @@ While the tool is initially collecting data, you can see the live values of [dot
 
 ![.NET Counter tool collecting](../profiling/media/dotnet-counters-tool-collecting.png ".NET Counters tool collecting")
 
-You can also view graphs of the counters by selecting the checkbox next to the counters names. You can display the graphs of multiple counters at a time.
+You can also view graphs of the counters by selecting the checkbox next to the counter names. You can display the graphs of multiple counters at a time.
+
 
 Once you are done exercising your app and collecting data, you can stop collection for an even more detailed report. To do this hit the Stop Collection button.
 
