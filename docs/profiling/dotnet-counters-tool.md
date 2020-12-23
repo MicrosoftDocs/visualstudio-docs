@@ -75,4 +75,4 @@ The table updates to relevant values for the time selected in the graphs. Use th
 ## See also
 
 - [Optimizing Profiler settings](../profiling/optimize-profiler-settings.md)
-- [dotnet counters](../docs/core/diagnostics/dotnet-counters.md)
+- [dotnet counters](/dotnet/core/diagnostics/dotnet-counters)
