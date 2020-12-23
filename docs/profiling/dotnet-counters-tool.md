@@ -37,7 +37,8 @@ For more information on how to optimize tool performance, see [Optimizing Profil
 
 ## Understand Your data
 
-While the tool is initially collecting data, you can see the live values of [dotnet counters](../docs/core/diagnostics/dotnet-counters.md).
+While the tool is initially collecting data, you can see the live values of [dotnet counters](/dotnet/core/diagnostics/dotnet-counters).
+
 
 ![.NET Counter tool collecting](../profiling/media/dotnet-counters-tool-collecting.png ".NET Counters tool collecting")
 
