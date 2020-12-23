@@ -77,7 +77,7 @@ This section describes how to create a unit test project.
 
 1. Add code to the unit test method.
 
-   For example, you might use the following code, according to your test framework. (MSTest, NUnit, and xUnit are supported on .NET languages.)
+   For example, you might use the following code by selecting the correct tab that matches your test framework, **MSTest**, **NUnit**, or **xUnit** (supported on .NET only).
 
    # [MSTest](#tab/mstest)
 
