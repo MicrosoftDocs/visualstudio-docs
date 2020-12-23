@@ -45,7 +45,8 @@ While the tool is initially collecting data, you can see the live values of [dot
 You can also view graphs of the counters by selecting the checkbox next to the counter names. You can display the graphs of multiple counters at a time.
 
 
-Once you are done exercising your app and collecting data, you can stop collection for an even more detailed report. To do this hit the Stop Collection button.
+Once you are done exercising your app and collecting data, you can stop collection for an even more detailed report. To do this, press the **Stop Collection** button.
+
 
 Once the report loads you should see a finalized report similar to the one shown below.
 
