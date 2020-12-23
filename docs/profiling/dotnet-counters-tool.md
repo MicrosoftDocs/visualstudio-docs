@@ -64,7 +64,8 @@ You can filter or add columns in the table by right clicking the column headings
 
 ![.NET Counter tool columns](../profiling/media/dotnet-counters-tool-columns.png ".NET Counters tool columns")
 
-You can also view graphs in the detailed report by selecting the checkboxes next to counters. The data in the tables represents the values of the entire duration of your collected trace by defualt. To filter down the data to a specific time range, click and drag on the graphs.
+You can also view graphs in the detailed report by selecting the checkboxes next to counters. The data in the tables represents the values of the entire duration of your collected trace by default. To filter down the data to a specific time range, click and drag on the graphs.
+
 
 ![.NET Counter tool time filtering](../profiling/media/dotnet-counters-tool-timefiltering.png ".NET Counters tool time filtering")
 
