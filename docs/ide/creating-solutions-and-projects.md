@@ -2,7 +2,7 @@
 title: Work with solutions and projects
 description: Learn about the difference between solutions and projects and how to use them in Visual Studio.
 ms.custom: "SEO-VS-2020, contperf-fy21q2"
-ms.date: 12/18/2020
+ms.date: 12/23/2020
 ms.topic: how-to
 f1_keywords:
 - vs.openprojectfromweb
@@ -124,18 +124,22 @@ To create a temporary project, first go to **Tools** > **Options** > **Projects 
 
 ## Delete a solution, project, or item
 
-You can delete solutions and their contents permanently, but not by using the Visual Studio IDE. Deleting items within Visual Studio only removes them from the current solution or project. To permanently delete a solution or other component from your system, use File Explorer to delete the folder that contains the *.sln* and *.suo* solution files. However, before permanently deleting a solution, it's recommended that you back up any projects or files in case you need them again.
+You can remove a solution and its contents within Visual Studio, but that only removes them from the current solution or project.
+
+To permanently delete a solution or other components from your system, use **File Explorer** in Windows to delete the folder that contains the *.sln* and *.suo* solution files. (Before you delete a solution, you might want to back up your projects and files in case you need them again.)
 
 > [!NOTE]
-> The *.suo* file is a hidden file that is not displayed under the default File Explorer settings. To show hidden files, on the **View** menu in File Explorer, select the **Hidden Items** checkbox.
+> The *.suo* file is a hidden file that isn't displayed under the default File Explorer settings. To show hidden files, on the **View** menu in File Explorer, select the **Hidden Items** checkbox.
 
 ### Permanently delete a solution
+
+You can access File Explorer in Windows by using Solution Explorer in Visual Studio. Here's how.
 
 1. In **Solution Explorer**, on the right-click menu (context menu) of the solution you want to delete, select **Open folder in File Explorer**.
 
 1. In File Explorer, navigate up one level.
 
-1. Select the folder containing the solution and then press the **Delete** key.
+1. Select the folder that contains the solution, and then press the **Delete** key.
 
 ## See also
 
