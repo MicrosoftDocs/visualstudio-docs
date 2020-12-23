@@ -36,7 +36,9 @@ That being said, solutions and projects are not required to develop apps in Visu
 
 ## Create a project from a project template
 
-For information about creating a new project from a template, see [Create a new project in Visual Studio](create-new-project.md).
+For information about how to select a template to create a new project, see [Create a new project in Visual Studio](create-new-project.md).
+
+Or, for an example of a project and solution created from scratch, complete with step-by-step instructions and sample code, see [Introduction to projects and solutions](../get-started/tutorial-projects-solutions.md).
 
 ## Create a project from existing code files
 
