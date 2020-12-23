@@ -55,6 +55,11 @@ If you have a collection of code source files, you can easily add them to a proj
 
 If you have a file that applies to multiple projects, such as a readme file for the solution, or other files that logically belong at the solution level rather than under a specific project, then you can add them to the solution itself. To add an item to a solution, on the context (right-click) menu of the solution node in **Solution Explorer**, select **Add** > **New Item**, or **Add** > **Existing Item**.
 
+> [!TIP]
+> A solution file is a structure for organizing projects in Visual Studio. It contains the state of that information in two files: an *.sln* (text-based, shared) file, and an *.suo* (binary, hidden, user-specific solution options) file. Thus, a solution isn't something that should be copied and renamed; instead, it's best to create a new solution and then add existing items to it.
+
+Instead, consider creating a new solution and then add the items you want to it.
+
 ## Create a .NET project that targets a specific version of the .NET Framework
 
 When you create a .NET Framework project, you can specify a specific version of the .NET Framework that you want the project to use. (When you create a .NET Core project, you don't specify a framework version.)
