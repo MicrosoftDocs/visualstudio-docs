@@ -33,7 +33,7 @@ To get started, select a method, a type, or a namespace in the code editor in th
 
 ![Using the Create unit tests command](media/createunittestcommand.png)
 
-If you don't see test framework options for NUnit or xUnit, see [Use third-party unit test frameworks](use-third-party-unit-test-frameworks).
+If you don't see test framework options for NUnit or xUnit, see [Use third-party unit test frameworks](#use-third-party-unit-test-frameworks).
 
 ## Set unit test traits
 

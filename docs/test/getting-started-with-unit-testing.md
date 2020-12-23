@@ -16,7 +16,7 @@ ms.workload:
 
 Use Visual Studio to define and run unit tests to maintain code health, ensure code coverage, and find errors and faults before your customers do. Run your unit tests frequently to make sure your code is working properly.
 
-In this article, the code and illustrations use C#, but the concepts and features apply to .NET languages, C++, and Python.
+In this article, the code and illustrations use C#, but the concepts and features apply to .NET languages, C++, Python, JavaScript, and TypeScript.
 
 ## Create unit tests
 
@@ -45,7 +45,7 @@ This section describes how to create a unit test project.
    Starting in Visual Studio 2017 version 14.8, the .NET languages include built-in templates for NUnit and xUnit. For C++, you will need to select a test framework supported by the language. For Python, see [Set up unit testing in Python code](../python/unit-testing-python-in-visual-studio.md) to set up your test project.
 
    > [!TIP]
-   > For C#, you can create unit test projects using a faster method. For more information, see [Create unit test projects and test methods](../test/unit-test-basics.md#create-unit-test-projects-and-test-methods.md).
+   > For C#, you can create unit test projects from code using a faster method. For more information, see [Create unit test projects and test methods](../test/unit-test-basics.md#create-unit-test-projects-and-test-methods).
 
    The following illustration shows an MSTest unit test, which is also supported for .NET.
 
