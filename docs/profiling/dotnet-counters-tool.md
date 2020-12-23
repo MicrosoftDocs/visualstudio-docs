@@ -32,7 +32,8 @@ The .NET Counters tool allows you to visualize [dotnet counters](/dotnet/core/di
 
 3. Click the **Start** button to run the tool.
 
-For more information on how to make the tool more performant see [Optimizing Profiler settings](../profiling/optimize-profiler-settings.md).
+For more information on how to optimize tool performance, see [Optimizing Profiler settings](../profiling/optimize-profiler-settings.md).
+
 
 ## Understand Your data
 
