@@ -127,7 +127,7 @@ To create a temporary project, first go to **Tools** > **Options** > **Projects 
 
 ## Delete a solution, project, or item
 
-You can use the right-click context menu option, **Remove**, to remove a solution, project, or item within Visual Studio, but that only removes them from the current solution or project.
+You can use the right-click context menu to either delete or remove solutions, projects, or items in Visual Studio, but that only removes them from the current solution or project.
 
 To permanently delete a solution or other components from your system, use **File Explorer** in Windows to delete the folder that contains the *.sln* and *.suo* solution files. (Before you delete a solution, you might want to back up your projects and files in case you need them again.)
 
