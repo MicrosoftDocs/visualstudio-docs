@@ -48,7 +48,7 @@ int main() {
 
 Add the `my_var1` variable to the **Watch** window while debugging, **Debug** > **Windows** > **Watch** > **Watch 1**. Next, right-click the variable and select **Hexadecimal Display**. Now the **Watch** window shows the value 0x0065. To see this value expressed as a character rather than an integer, first right-click and deselect **Hexadecimal Display**. Then add the character format specifier **, c** in the **Name** column after the variable name. The **Value** column now shows **101 'e'**.
 
-![WatchFormatCPlus1](../debugger/media/watchformatcplus1.png "WatchFormatCPlus1")
+![Screenshot of the Visual Studio Watch window with one selected line that shows my_var1.c with a value of 101 'e' and a type of int.](../debugger/media/watchformatcplus1.png)
 
 ::: moniker range=">= vs-2019" 
 You can view and select from a list of available format specifiers by appending a comma (,) to the value in the **Watch** window. 
