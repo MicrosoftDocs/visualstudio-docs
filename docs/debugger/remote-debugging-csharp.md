@@ -59,7 +59,7 @@ The debugger cannot deploy Visual C# or Visual Basic desktop applications to a r
 
 4. On the **Properties** page, choose the **Debug** tab.
 
-    ![RemoteDebuggerCSharp](../debugger/media/remotedebuggercsharp.png "RemoteDebuggerCSharp")
+    ![Screenshot of the Debug tab in the Visual Studio Solution Explorer Properties. The Use remote machine property is set to 'MJO-DL:4022'.](../debugger/media/remotedebuggercsharp.png)
 
 5. Make sure the **Working directory** text box is empty.
 
@@ -88,7 +88,7 @@ The debugger cannot deploy Visual C# or Visual Basic desktop applications to a r
 
 11. Make sure the remote debugger is running on the target machine (If it's not, search for **Remote Debugger** in the **Start** menu). The remote debugger window looks like this.
 
-     ![RemoteDebuggerWindow](../debugger/media/remotedebuggerwindow.png "RemoteDebuggerWindow")
+     ![Screenshot of the Visual Studio 2017 Remote Debugger window. One action is listed that indicates the debugger is running on the target machine.](../debugger/media/remotedebuggerwindow.png)
 
 12. In Visual Studio, start debugging (**Debug > Start Debugging**, or **F5**).
 

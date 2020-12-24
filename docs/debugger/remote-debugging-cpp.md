@@ -57,7 +57,7 @@ The remote debugger is supported on Windows 7 and newer (not phone) and versions
 
 4. Set the **Debugger to launch** to **Remote Windows Debugger**.
 
-    ![RemoteDebuggingCPlus](../debugger/media/remotedebuggingcplus.png "RemoteDebuggingCPlus")
+    ![Screenshot of the Debugging tab in the Visual Studio Solution Explorer Properties. The Debugger to launch property is set to Remote Windows Debugger.](../debugger/media/remotedebuggingcplus.png)
 
 5. Make the following changes to the properties:
 
@@ -77,7 +77,7 @@ The remote debugger is supported on Windows 7 and newer (not phone) and versions
 
 7. For the **Debug** configuration, select the **Deploy** check box.
 
-    ![RemoteDebugCplusDeploy](../debugger/media/remotedebugcplusdeploy.png "RemoteDebugCplusDeploy")
+    ![Screenshot of the Configuration Manager in the Visual Studio Solution Explorer. The Debug configuration is selected, and Deploy is checked.](../debugger/media/remotedebugcplusdeploy.png)
 
 8. Start debugging (**Debug > Start Debugging**, or **F5**).
 

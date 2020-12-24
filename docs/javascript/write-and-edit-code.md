@@ -34,11 +34,11 @@ You can use the IDE to add new files to your project.
 
 IntelliSense is an invaluable resource when you're coding. It can show you information about available members of a type, or parameter details for different overloads of a method. In the following code, when you type `Router()`, you see the argument types that you can pass. This is called signature help.
 
-![Use IntelliSense](../javascript/media/write-code-signature-checking.png)
+![Screenshot of a Visual Studio code window with JavaScript code being entered. IntelliSense information is shown for the Router() function.](../javascript/media/write-code-signature-checking.png)
 
 You can also use IntelliSense to complete a word after you type enough characters to disambiguate it. If you put your cursor after the `data` string in the following code and type `get`, IntelliSense will show you functions defined earlier in the code or defined in a third-party library that you've added to your project.
 
-![Use IntelliSense](../javascript/media/write-code-intellisense.png)
+![Screenshot of a Visual Studio code window with the word 'get' being entered. IntelliSense information is shown for all functions beginning with 'get'.](../javascript/media/write-code-intellisense.png)
 
 IntelliSense can also show you information about types when you hover over programming elements.
 

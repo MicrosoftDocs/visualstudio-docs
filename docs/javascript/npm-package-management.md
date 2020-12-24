@@ -50,7 +50,7 @@ For Node.js projects, the easiest way to install npm packages is through the npm
 
 In this window you can search for a package, specify options, and install.
 
-![Search npm package](../javascript/media/search-package.png)
+![Screenshot of the Install New npm Packages dialog. The azure 2.2.1-preview package is selected and the details and options for that package are shown.](../javascript/media/search-package.png)
 
 * **Dependency type** - Chose between **Standard**, **Development**, and **Optional** packages. Standard specifies that the package is a runtime dependency, whereas Development specifies that the package is only required during development.
 * **Add to package.json** - Recommended. This configurable option is deprecated.
@@ -68,7 +68,7 @@ You can see the progress of the installation in the **npm** output in the **Outp
 
 npm packages are shown in Solution Explorer. The entries under the **npm** node mimic the dependencies in the *package.json* file.
 
-![Search npm package](../javascript/media/solution-explorer-status.png)
+![Screenshot of the npm node in Solution Explorer showing the installation status of the npm packages.](../javascript/media/solution-explorer-status.png)
 
 ### Package status
 
@@ -159,7 +159,7 @@ When you save the file, Visual Studio adds the package under the **Dependencies 
 
 For projects with npm included, you can configure npm packages using `package.json`. Right-click the npm node in Solution Explorer and choose **Open package.json**.
 
-![Search npm package](../javascript/media/npm-add-package.png)
+![Screenshot of the Solution Explorer with the npm node selected. A right-click context menu is open and Open package.json is selected.](../javascript/media/npm-add-package.png)
 
 IntelliSense in *package.json* helps you select a particular version of an npm package.
 

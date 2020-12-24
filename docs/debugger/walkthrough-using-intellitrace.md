@@ -58,13 +58,13 @@ You can try debugging with just IntelliTrace events. IntelliTrace events are deb
 
     The following screenshot is from Visual Studio 2015 Update 1.
 
-    ![IntelliTrace&#45;Update1](../debugger/media/intellitrace-update1.png "IntelliTrace-Update1")
+    ![Screenshot of the Visual Studio code window. Execution is stopped at a breakpoint and the Events tab in the Diagnostic Tools window lists events.](../debugger/media/intellitrace-update1.png)
 
 3. Select the event to expand its details.
 
     The following screenshot is from Visual Studio 2015 Update 1.
 
-    ![IntelliTraceUpdate1&#45;SingleEvent](../debugger/media/intellitraceupdate1-singleevent.png "IntelliTraceUpdate1-SingleEvent")
+    ![Screenshot of the Events tab in the Visual Studio Diagnostic Tools window. An event is selected and expanded to show it's details.](../debugger/media/intellitraceupdate1-singleevent.png)
 
     You can choose the pathname link to open the file. If the full pathname is not available, the **Open File** dialog box appears.
 
@@ -72,7 +72,7 @@ You can try debugging with just IntelliTrace events. IntelliTrace events are deb
 
     The following screenshot is from Visual Studio 2015 Update 1.
 
-    ![HistoricalDebugging&#45;Update1](../debugger/media/historicaldebugging-update1.png "HistoricalDebugging-Update1")
+    ![Screenshot of the Visual Studio code window. Execution is stopped at a breakpoint, an event is selected, and the corresponding code line is highlighted.](../debugger/media/historicaldebugging-update1.png)
 
 4. If you didn't find the bug, try examining other events leading up to the bug. You can also have IntelliTrace record call information so you can step through function calls.
 
