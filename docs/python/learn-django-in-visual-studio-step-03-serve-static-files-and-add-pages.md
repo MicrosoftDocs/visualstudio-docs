@@ -79,7 +79,7 @@ You can organize files using any folder structure within *static* that you like,
     <html>
         <head>
             <title>{{ title }}</title>
-            {% load staticfiles %} <!-- Instruct Django to load static files -->
+            {% load static %} <!-- Instruct Django to load static files -->
             <link rel="stylesheet" type="text/css" href="{% static 'site.css' %}" />
         </head>
         <body>
@@ -90,15 +90,15 @@ You can organize files using any folder structure within *static* that you like,
 
 1. Run the project to observe the results. Stop the server when done, and commit your changes to source control if you like (as explained in [step 2](learn-django-in-visual-studio-step-02-create-an-app.md#commit-to-source-control)).
 
-### Question: What is the purpose of the {% load staticfiles %} tag?
+### Question: What is the purpose of the {% load static %} tag?
 
-Answer: The `{% load staticfiles %}` line is required before referring to static files in elements like `<head>` and `<body>`. In the example shown in this section, "staticfiles" refers to a custom Django template tag set, which is what allows you to use the `{% static %}` syntax to refer to static files.  Without `{% load staticfiles %}`, you'll see an exception when the app runs.
+Answer: The `{% load static %}` line is required before referring to static files in elements like `<head>` and `<body>`. In the example shown in this section, "static" refers to a custom Django template tag set, which is what allows you to use the `{% static %}` syntax to refer to static files.  Without `{% load static %}`, you'll see an exception when the app runs.
 
 ### Question: Are there any conventions for organizing static files?
 
 Answer: You can add other CSS, JavaScript, and HTML files in your *static* folder however you want. A typical way to organize static files is to create subfolders named *fonts*, *scripts*, and *content* (for stylesheets and any other files). In each case, remember to include those folders in the relative path to the file in `{% static %}` references.
 
-### Question: Can I complete the same task without using the {% load staticfiles %} tag?
+### Question: Can I complete the same task without using the {% load static %} tag?
 
 Answer: Yes, you can.
 
@@ -135,7 +135,7 @@ The following steps add an "About" page to the "HelloDjangoApp" project, and lin
     <html>
         <head>
             <title>{{ title }}</title>
-            {% load staticfiles %}
+            {% load static %}
             <link rel="stylesheet" type="text/css" href="{% static 'site.css' %}" />
         </head>
         <body>
@@ -205,7 +205,7 @@ The following steps demonstrate inheritance:
     <head>
         <meta charset="utf-8" />
         <title>{{ title }}</title>
-        {% load staticfiles %}
+        {% load static %}
         <link rel="stylesheet" type="text/css" href="{% static 'site.css' %}" />
     </head>
 
