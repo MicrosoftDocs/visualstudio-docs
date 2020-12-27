@@ -111,7 +111,7 @@ Templates are located in the app's *templates/app* folder (and you typically wan
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ title }} - My Django Application</title>
 
-    {% load staticfiles %}
+    {% load static %}
     <link rel="stylesheet" type="text/css" href="{% static 'app/content/bootstrap.min.css' %}" />
     <link rel="stylesheet" type="text/css" href="{% static 'app/content/site.css' %}" />
     <script src="{% static 'app/scripts/modernizr-2.6.2.js' %}"></script>
