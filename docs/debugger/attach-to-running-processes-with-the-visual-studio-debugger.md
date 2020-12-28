@@ -53,7 +53,7 @@ To quickly reattach to a process you attached to previously, see [Reattach to a 
 
 1. Set the **Connection target** your local machine name.
 
-   ![Screenshot of the Attach to Process dialog box, with the connection target set to the local machine name.](../debugger/media/DBG_Basics_Attach_To_Process.png "DBG_Basics_Attach_To_Process")
+   ![Screenshot of the Attach to Process dialog box, with the connection target set to the local machine name.](../debugger/media/DBG_Basics_Attach_To_Process.png)
 
 1. In the **Available processes** list, find and select the process or processes you want to attach to.
 

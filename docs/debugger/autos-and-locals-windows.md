@@ -37,7 +37,7 @@ To open the **Locals** window, while debugging, select **Debug** > **Windows** >
 
 Arrays and objects show in the **Autos** and **Locals** windows as tree controls. Select the arrow to the left of a variable name to expand the view to show fields and properties. Here is an example of a <xref:System.IO.FileStream?displayProperty=fullName> object in the **Locals** window:
 
-![Screenshot of the Locals window, with file set to a System.IO.FileStream value.](../debugger/media/locals-filestream.png "Locals-FileStream")
+![Screenshot of the Locals window, with file set to a System.IO.FileStream value.](../debugger/media/locals-filestream.png)
 
 A red value in the **Locals** or **Autos** window means the value has changed since the last evaluation. The change could be from a previous debugging session, or because you have changed the value in the window.
 
@@ -114,7 +114,7 @@ Different code languages display different variables in the **Autos** window.
 
    Set a breakpoint on the line `c = 3;`, and start the debugger. When execution pauses, the **Autos** window will display:
 
-   ![Screenshot of the Autos window, with the value of c set to 0.](../debugger/media/autos-csharp.png "Autos-CSharp")
+   ![Screenshot of the Autos window, with the value of c set to 0.](../debugger/media/autos-csharp.png)
 
    The value of `c` is 0, because the line `c = 3` has not yet been executed.
 
@@ -134,7 +134,7 @@ Different code languages display different variables in the **Autos** window.
 
     Set a breakpoint on the line `e = 5;` and run the debugger. When execution stops, the **Autos** window will display:
 
-    ![Autos-C++](../debugger/media/autos-cplus.png "Autos-C++")
+    ![Screenshot of the Autos window, with the line highlighted that shows the int c with a value of 3.](../debugger/media/autos-cplus.png)
 
     The variable `e` is uninitialized, because the line `e = 5` has not yet been executed.
 

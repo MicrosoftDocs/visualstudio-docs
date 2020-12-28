@@ -1,5 +1,6 @@
 ---
 title: Inline method
+description: Learn how to use the Quick Actions and Refactorings menu in Visual Studio to refactor inline method declarations and provide a clearer syntax. 
 ms.date: 11/03/2020
 ms.topic: reference
 author: mikadumont
@@ -35,11 +36,11 @@ This refactoring applies to:
     
    Select **Inline `<QualifiedMethodName>`** to remove the inline method declaration:
 
-    ![Make class abstract](media/inline-method-remove-declaration.png)
+    ![Screeenshot of the Quick Actions and Refactorings menu in Visual Studio with Convert 'Inline 'CreateWidget()' selected and C# code changes shown.](media/inline-method-remove-declaration.png)
 
    Select **Inline and keep `<QualifiedMethodName>`** to preserve the original method declaration:
 
-    ![Make class abstract](media/inline-method-preserve-declaration.png)
+    ![Screeenshot of the Quick Actions and Refactorings menu in Visual Studio with Convert 'Inline and keep 'CreateWidget()' selected and C# code changes shown.](media/inline-method-preserve-declaration.png)
 
 ## See also
 
