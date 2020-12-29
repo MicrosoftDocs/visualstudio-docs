@@ -23,6 +23,9 @@ code. Test suite generation can be further guided by
 will even evolve the test suite automatically as the
 code under test evolves.
 
+> [!NOTE]
+> IntelliTest is available in Enterprise edition only. It is supported for C# code that targets the .NET Framework. .NET Core and .NET Standard are not currently supported.
+
 **Characterization tests**
 IntelliTest enables you to determine the behavior of
 code in terms of a suite of traditional unit tests.

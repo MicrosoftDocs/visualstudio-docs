@@ -2,7 +2,7 @@
 title: Work with solutions and projects
 description: Learn about the difference between solutions and projects and how to use them in Visual Studio.
 ms.custom: "SEO-VS-2020, contperf-fy21q2"
-ms.date: 12/18/2020
+ms.date: 12/23/2020
 ms.topic: how-to
 f1_keywords:
 - vs.openprojectfromweb
@@ -21,14 +21,14 @@ ms.workload:
 
 *Projects* hold the items needed to build your app in Visual Studio, such as source code files, bitmaps, icons, and component and service references. When you create a new project, Visual Studio creates a *solution* to contain the project. You can then add other new or existing projects to the solution if you want. Solutions can also contain files that aren't connected to any specific project.
 
-![Image of the solution/project hierarchy.](./media/vside-proj-soln.png)
+![Diagram showing the solution and project hierarchy.](./media/vside-proj-soln.png)
 
 > [!NOTE]
 > This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Create projects in Visual Studio for Mac](/visualstudio/mac/create-new-projects).
 
 You can view your solutions and projects in a tool window called **Solution Explorer**. The following screenshot shows an example solution in **Solution Explorer** (**BikeSharing.Xamarin-UWP**) that contains two projects: **BikeSharing.Clients.Core** and **BikeSharing.Clients.Windows**. Each project contains multiple files, folders, and references. The project name in bold is the *startup project*; that is, the project that starts when you run the app. You can specify which project is the startup project.
 
-![Solution Explorer with projects](./media/vside-solution-explorer-projects.png)
+![Screenshot of Solution Explorer with two projects.](./media/vside-solution-explorer-projects.png)
 
 While you can construct a project yourself by adding the necessary files to it, Visual Studio offers a selection of project templates to give you a head start. Creating a new project from a template gives you a project with the essentials for that project type, and you can rename the files or add new or existing code and other resources to it as needed.
 
@@ -36,7 +36,7 @@ That being said, solutions and projects are not required to develop apps in Visu
 
 ## Create a project from a project template
 
-For information about creating a new project from a template, see [Create a new project in Visual Studio](create-new-project.md).
+For information about how to select a template to create a new project, see [Create a new project in Visual Studio](create-new-project.md). And, for an example of a project and solution that's created from scratch, complete with step-by-step instructions and sample code, see [Introduction to projects and solutions](../get-started/tutorial-projects-solutions.md).
 
 ## Create a project from existing code files
 
@@ -55,6 +55,9 @@ If you have a collection of code source files, you can easily add them to a proj
 
 If you have a file that applies to multiple projects, such as a readme file for the solution, or other files that logically belong at the solution level rather than under a specific project, then you can add them to the solution itself. To add an item to a solution, on the context (right-click) menu of the solution node in **Solution Explorer**, select **Add** > **New Item**, or **Add** > **Existing Item**.
 
+> [!TIP]
+> A solution file is a structure for organizing projects in Visual Studio. It contains the state of that information in two files: an *.sln* (text-based, shared) file, and an *.suo* (binary, hidden, user-specific solution options) file. Thus, a solution isn't something that should be copied and renamed; instead, it's best to create a new solution and then add existing items to it.
+
 ## Create a .NET project that targets a specific version of the .NET Framework
 
 When you create a .NET Framework project, you can specify a specific version of the .NET Framework that you want the project to use. (When you create a .NET Core project, you don't specify a framework version.)
@@ -63,7 +66,7 @@ When you create a .NET Framework project, you can specify a specific version of 
 
 To specify a .NET Framework version, select the **Framework** drop-down menu in the **New Project** dialog box.
 
-![Framework drop-down in New Project dialog](./media/vside-newproject-framework.png)
+![Screenshot of the Framework drop-down in New Project dialog box.](./media/vside-newproject-framework.png)
 
 > [!NOTE]
 > You must have .NET Framework 3.5 installed on your system to access .NET Framework versions earlier than .NET Framework 4.
@@ -74,7 +77,7 @@ To specify a .NET Framework version, select the **Framework** drop-down menu in 
 
 To specify a .NET Framework version, select the **Framework** drop-down menu on the **Create a new project** page.
 
-![Framework selector in configure new project](media/vs-2019/configure-new-project-framework.png)
+![Screenshot of the Framework selector in the 'Configure new project' dialog box.](media/vs-2019/configure-new-project-framework.png)
 
 ::: moniker-end
 
@@ -124,18 +127,22 @@ To create a temporary project, first go to **Tools** > **Options** > **Projects 
 
 ## Delete a solution, project, or item
 
-You can delete solutions and their contents permanently, but not by using the Visual Studio IDE. Deleting items within Visual Studio only removes them from the current solution or project. To permanently delete a solution or other component from your system, use File Explorer to delete the folder that contains the *.sln* and *.suo* solution files. However, before permanently deleting a solution, it's recommended that you back up any projects or files in case you need them again.
+You can use the right-click context menu to either delete or remove solutions, projects, or items in Visual Studio, but that only removes them from the current solution or project.
+
+To permanently delete a solution or other components from your system, use **File Explorer** in Windows to delete the folder that contains the *.sln* and *.suo* solution files. (Before you delete a solution, you might want to back up your projects and files in case you need them again.)
 
 > [!NOTE]
-> The *.suo* file is a hidden file that is not displayed under the default File Explorer settings. To show hidden files, on the **View** menu in File Explorer, select the **Hidden Items** checkbox.
+> The *.suo* file is a hidden file that isn't displayed under the default File Explorer settings. To show hidden files, on the **View** menu in File Explorer, select the **Hidden Items** checkbox.
 
 ### Permanently delete a solution
+
+You can access File Explorer in Windows by using Solution Explorer in Visual Studio. Here's how.
 
 1. In **Solution Explorer**, on the right-click menu (context menu) of the solution you want to delete, select **Open folder in File Explorer**.
 
 1. In File Explorer, navigate up one level.
 
-1. Select the folder containing the solution and then press the **Delete** key.
+1. Select the folder that contains the solution, and then press the **Delete** key.
 
 ## See also
 
