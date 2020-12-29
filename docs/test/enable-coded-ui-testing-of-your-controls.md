@@ -14,24 +14,24 @@ author: mikejo5000
 
 Implement support for the coded UI testing framework to make your control more testable. You can add increasing levels of support incrementally. Start by supporting record and playback and property validation. Then, build on that to enable the coded UI test builder to recognize your control's custom properties. Provide custom classes to access those properties from generated code. You can also help the coded UI test builder capture actions in a way that is closer to the intent of the action being recorded.
 
-![CUIT&#95;Full](../test/media/cuit_full.png)
+!Diagram showing how classes in ChartControl are extended through the CreateAccessabilityInstance class to classes in ChartControlExtensionPackage.](../test/media/cuit_full.png)
 
-[!INCLUDE [coded-ui-test-deprecation](includes/coded-ui-test-deprecation.md)]
+[!INCLUDE[coded-ui-test-deprecation](../test/includes/coded-ui-test-deprecation.md)]
 
 ## Support record and playback and property validation by implementing accessibility
 
 The coded UI test builder captures information about the controls that it encounters during a recording and then generates code to replay that session. If your control doesn't support accessibility, then the coded UI test builder captures actions (like mouse clicks) using screen coordinates. When the test is played back, the generated code issues the actions in the same screen coordinates. If your control appears in a different place on the screen when the test is played back, the generated code will fail to perform the action. By not implementing accessibility for your control, you might see test failures if the test is played back on different screen configurations, in different environments, or when the UI layout changes.
 
-![CUIT&#95;RecordNoSupport](../test/media/cuit_recordnosupport.png)
+![Screenshot of the recording window in the coded UI test builder. The Pause button is highlighted and Click 'ChartControl' client appears in a tool tip.](../test/media/cuit_recordnosupport.png)
 
 If you implement accessibility, the coded UI test builder uses that to capture information about your control when it records a test. Then, when you run the test, the generated code will replay those events against your control, even if it's somewhere else in the user interface. Test authors can also create asserts using the basic properties of your control.
 
-![CUIT&#95;Record](../test/media/cuit_record.png)
+![Screenshot of the recording window in the coded UI test builder. The Pause button is highlighted and Click 'A' label appears in a tool tip.](../test/media/cuit_record.png)
 
 ### To support record and playback, property validation, and navigation for a Windows Forms control
 Implement accessibility for your control as outlined in the following procedure, and explained in detail in <xref:System.Windows.Forms.AccessibleObject>.
 
-![CUIT&#95;Accessible](../test/media/cuit_accessible.png)
+![Diagram of classes in ChartControl showing the relationship between CreateAccessabilityInstance and the ChartControl.CurveLegend class.](../test/media/cuit_accessible.png)
 
 1. Implement a class that derives from <xref:System.Windows.Forms.Control.ControlAccessibleObject>, and override the <xref:System.Windows.Forms.Control.AccessibilityObject%2A> property to return an object of your class.
 
@@ -71,11 +71,11 @@ Implement accessibility for your control as outlined in the following procedure,
 
 After you implement basic support for record and playback and property validation, you can make your control's custom properties available to coded UI tests by implementing a <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestPropertyProvider> plug-in. For example, the following procedure creates a property provider that allows coded UI tests to access the State property of the chart control's CurveLegend child controls:
 
-![CUIT&#95;CustomProps](../test/media/cuit_customprops.png)
+![Screenshot of the coded UI test builder main window partially covered by an Add Assertions window with the State property of a Text control selected.](../test/media/cuit_customprops.png)
 
 ### To support custom property validation
 
-![CUIT&#95;Props](../test/media/cuit_props.png)
+![Diagram of classes in ChartControl and ChartControlExtension with the ChartControlExtensionPackage and ChartControlIPropertyProvider classes highlighted.](../test/media/cuit_props.png)
 
 1. Override the curve legend accessible object's <xref:System.Windows.Forms.AccessibleObject.Description%2A> property to pass rich property values in the description string. Separate multiple values with semicolons (;).
 
@@ -143,7 +143,7 @@ If you've implemented a property provider to provide access to your control's cu
 
 ### To add a specialized class to access your control
 
-![CUIT&#95;CodeGen](../test/media/cuit_codegen.png)
+![Diagram of classes in ChartControl and ChartControlExtension with the CurveLegend class highlighted under ChartControlExtensionPackage.](../test/media/cuit_codegen.png)
 
 1. Implement a class that's derived from <xref:Microsoft.VisualStudio.TestTools.UITesting.WinControls.WinControl> and add the control's type to the search properties collection in the constructor.
 
@@ -159,7 +159,7 @@ When Visual Studio records a test, it captures each mouse and keyboard event. Ho
 
 ### To support intent-aware actions
 
-![CUIT&#95;Actions](../test/media/cuit_actions.png)
+![Diagram of the ChartControl and ChartControlExtensionPackage classes with the ChartControlActionFilter class highlighted under ChartControlExtensionPackage.](../test/media/cuit_actions.png)
 
 1. Implement an action filter class that's derived from [UITestActionFilter](/previous-versions/visualstudio/visual-studio-2012/dd985757(v=vs.110)), overriding the properties [ApplyTimeout](/previous-versions/visualstudio/visual-studio-2012/dd984649%28v%3dvs.110%29), [Category](/previous-versions/visualstudio/visual-studio-2012/dd986905(v=vs.110)), [Enabled](/previous-versions/visualstudio/visual-studio-2012/dd985633(v=vs.110)), [FilterType](/previous-versions/visualstudio/visual-studio-2012/dd778726(v=vs.110)), [Group](/previous-versions/visualstudio/visual-studio-2012/dd779219(v=vs.110)) and [Name](/previous-versions/visualstudio/visual-studio-2012/dd998334(v=vs.110)).
 

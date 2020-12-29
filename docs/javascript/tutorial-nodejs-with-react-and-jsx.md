@@ -1,6 +1,6 @@
 ---
 title: "Create a Node.js and React app"
-description: In this tutorial, you create an app in using Node.js tools for Visual Studio
+description: Learn how to create a Node.js web application project from a Visual Studio template.
 ms.custom: ""
 ms.date: 4/21/2020
 ms.topic: tutorial
@@ -363,7 +363,7 @@ Starting in Visual Studio 2019, a build script is required. Instead of transpili
 
 1. In *server.js*, click in the gutter to the left of the `staticPath` declaration to set a breakpoint:
 
-    ![Set a breakpoint](../javascript/media/tutorial-nodejs-react-set-breakpoint.png)
+    ![Screenshot of the Visual Studio code window for server.js. A red dot in the left gutter indicates a breakpoint is set for the staticPath declaration.](../javascript/media/tutorial-nodejs-react-set-breakpoint.png)
 
     Breakpoints are the most basic and essential feature of reliable debugging. A breakpoint indicates where Visual Studio should suspend your running code so you can take a look at the values of variables, or the behavior of memory, or whether or not a branch of code is getting run.
 
@@ -430,13 +430,13 @@ For this scenario, use Chrome.
 
     For *app-bundle.js*, set the breakpoint in the `render()` function as shown in the following illustration:
 
-    ![Set a breakpoint](../javascript/media/tutorial-nodejs-react-set-breakpoint-client-code.png)
+    ![Screenshot of the Visual Studio code window for app-bundle.js. A red dot in the left gutter indicates a breakpoint is set in the render function.](../javascript/media/tutorial-nodejs-react-set-breakpoint-client-code.png)
 
     To find the `render()` function in the transpiled *app-bundle.js* file, use **Ctrl**+**F** (**Edit** > **Find and Replace** > **Quick Find**).
 
     For *app.tsx*, set the breakpoint inside the `render()` function, on the `return` statement.
 
-    ![Set a breakpoint](../javascript/media/tutorial-nodejs-react-set-breakpoint-in-tsx-file.png)
+    ![Screenshot of the Visual Studio code window for app.tsx. A red dot in the left gutter indicates a breakpoint is set on the return statement of the render function.](../javascript/media/tutorial-nodejs-react-set-breakpoint-in-tsx-file.png)
 
 2. If you are setting the breakpoint in the *.tsx* file (rather than *app-bundle.js*), you need to update *webpack-config.js*. Replace the following code:
 
