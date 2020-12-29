@@ -124,11 +124,11 @@ For this example, you'll make a C# console app in Visual Studio that throws a [N
 
    You should see the following command window:
 
-   ![Screenshot of the console for ThrowsNullException.exe, which throws an unhandled null reference exception (System.NullReferenceException).](../debugger/media/throwsnullexceptionconsole.png "ThrowsNullExceptionConsole")
+   ![Screenshot of the console for ThrowsNullException.exe, which throws an unhandled null reference exception (System.NullReferenceException).](../debugger/media/throwsnullexceptionconsole.png)
 
 1. The **Choose Just-In-Time Debugger** dialog opens.
 
-   ![Screenshot of the Choose Just-In-Time Debugger dialog box, which appears after the exception appears in the ThrowsNullException.exe console window.](../debugger/media/justintimedialog.png "JustInTimeDialog")
+   ![Screenshot of the Choose Just-In-Time Debugger dialog box, which appears after the exception appears in the ThrowsNullException.exe console window.](../debugger/media/justintimedialog.png)
 
    Under **Available Debuggers**, select **New instance of \<your preferred Visual Studio version/edition>**, if not already selected.
 
@@ -136,7 +136,7 @@ For this example, you'll make a C# console app in Visual Studio that throws a [N
 
    The ThrowsNullException project opens in a new instance of Visual Studio, with execution stopped at the line that threw the exception:
 
-   ![Screenshot of the ThrowsNullException project in Visual Studio, with highlighting of the line of source code that threw the exception.](../debugger/media/nullreferencesecondinstance.png "NullReferenceSecondInstance")
+   ![Screenshot of the ThrowsNullException project in Visual Studio, with highlighting of the line of source code that threw the exception.](../debugger/media/nullreferencesecondinstance.png)
 
 You can start debugging at this point. If you were debugging a real app, you would need to find out why the code is throwing the exception.
 
