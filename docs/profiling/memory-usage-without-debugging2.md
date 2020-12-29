@@ -1,5 +1,6 @@
 ---
 title: Analyze memory usage in the Performance Profiler
+description: Learn how to use the Memory Usage tool without the debugger in the Visual Studio Performance Profiler to monitor your app's memory use.
 ms.custom: 
 ms.date: 04/02/2020
 ms.topic: how-to

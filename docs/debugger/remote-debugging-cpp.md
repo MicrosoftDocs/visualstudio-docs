@@ -1,5 +1,6 @@
 ---
 title: "Remote Debug a C++ Project | Microsoft Docs"
+description: Learn how to debug a Visual Studio C++ application from a remote computer by following these step-by-step instructions.
 ms.custom: "remotedebugging"
 ms.date: "08/14/2018"
 ms.topic: "conceptual"

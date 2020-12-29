@@ -1,5 +1,6 @@
 ---
 title: "Remote debug ASP.NET on an IIS computer"
+description: Learn how to set up and configure a Visual Studio ASP.NET MVC 4.5.2 application, deploy it to IIS, and attach the remote debugger from Visual Studio. 
 ms.custom: ['remotedebugging', 'seodec18']
 ms.date: 05/06/2020
 ms.topic: "conceptual"

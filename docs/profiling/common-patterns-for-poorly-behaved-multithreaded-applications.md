@@ -1,5 +1,6 @@
 ---
 title: "Common patterns for poorly-behaved multithreaded apps"
+description: Learn about the common patterns for poorly-behaved multithreaded applications that are included in the Visual Studio Concurrency Visualizer tool.
 ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
