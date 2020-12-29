@@ -79,7 +79,7 @@ Starting with Visual Studio 2017, you can open this data with [GPUView](/windows
 
 ## Use the GPU Usage report
 
-The top portion of the GPU Usage report shows timelines for the CPU processing activity, GPU rendering activity, and GPU copy activity. These timelines are divided by light-gray, vertical bars that indicate the display's vsync. The frequency of the bars matches the refresh rate of one of the displays (selected by using the **Display** drop-down list) that GPU usage data was collected from.
+The top portion of the GPU Usage report shows timelines for the CPU processing activity, GPU rendering activity, and GPU copy activity. These timelines are divided by light-gray, vertical bars that indicate the display's vertical synchronization (vsync). The frequency of the bars matches the refresh rate of one of the displays (selected by using the **Display** drop-down list) that GPU usage data was collected from.
 
 Because the display might have a higher refresh rate than your app's performance target, there might not be a 1-to-1 relationship between vsync and the frame-rate you want your app to achieve. To meet its performance target, an app must complete all processing, do the rendering, and make a `Present()` call at the targeted framerate. The rendered frame won't be shown until the next vsync after `Present()`, though.
 

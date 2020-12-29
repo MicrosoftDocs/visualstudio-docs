@@ -85,7 +85,7 @@ The debugger cannot deploy Visual C# or Visual Basic desktop applications to a r
     > [!CAUTION]
     > Do not make changes to the code or rebuild (or you must repeat this step). The executable you copied to the remote machine must exactly match your local source and symbols.
 
-    You can copy the project manually, use Xcopy, Robocopy, Powershell, or other options.
+    You can copy the project manually, use XCopy, Robocopy, Powershell, or other options.
 
 11. Make sure the remote debugger is running on the target machine (If it's not, search for **Remote Debugger** in the **Start** menu). The remote debugger window looks like this.
 
