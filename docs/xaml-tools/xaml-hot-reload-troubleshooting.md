@@ -30,11 +30,11 @@ The feature is enabled by default. When you start debugging your app, make sure 
 
 If you do not see the in-app toolbar, then open **Debug** > **Options** > **General**. Make sure that both options, **Enable UI Debugging Tools for XAML** and **Enable XAML Hot Reload** are selected.
 
-![Enable XAML Hot Reload](../debugger/media/xaml-hot-reload-enable.png)
+![Screenshot of the Visual Studio Debug Options window. General Debugging options are selected and the Enable XAML Hot Reload option is checked.](../debugger/media/xaml-hot-reload-enable.png)
 
 If these options are selected, then go to Live Visual Tree (**Debug** > **Windows** > **Live Visual Tree**) and make sure that **Show runtime tools in application** toolbar button (on the far left) is selected.
 
-![Enable XAML Hot Reload](../debugger/media/xaml-hot-reload-show-runtime-tools.png)
+![Screenshot of the toolbar at the top of the Live Visual Tree window with the 'Show runtime tools in application' button selected.](../debugger/media/xaml-hot-reload-show-runtime-tools.png)
 
 ## Verify that you use Start Debugging rather than Attach to Process
 
