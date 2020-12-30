@@ -1,5 +1,6 @@
 ---
 title: "Message Options Dialog Box | Microsoft Docs"
+description: Specify in Message Options which messages are listed in Messages View, and what message data to display.
 ms.date: "11/04/2016"
 ms.topic: "reference"
 helpviewer_keywords:

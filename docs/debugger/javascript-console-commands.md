@@ -1,6 +1,7 @@
 ---
 title: "JavaScript Console commands | Microsoft Docs"
-ms.custom: ""
+description: Use commands to send messages and do other tasks in the JavaScript Console window. This article applies to Node.js apps, UWP apps, and Apache Cordova apps.
+ms.custom: SEO-VS-2020
 ms.date: "10/17/2019"
 ms.topic: "reference"
 helpviewer_keywords:
