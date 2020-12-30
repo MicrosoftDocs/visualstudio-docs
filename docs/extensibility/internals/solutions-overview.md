@@ -1,5 +1,7 @@
 ---
 title: Solutions overview
+description: Learn about the internals of a solution, which is a group of projects that work together to create an application.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
