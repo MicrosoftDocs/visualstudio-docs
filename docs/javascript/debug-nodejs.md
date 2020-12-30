@@ -24,7 +24,7 @@ You can debug JavaScript and TypeScript code using Visual Studio. You can set an
 
 1. With your project open in Visual Studio, open a server-side JavaScript file (such as *server.js*), click in the gutter to the left gutter to set a breakpoint:
 
-    ![Set a breakpoint](../javascript/media/tutorial-nodejs-react-set-breakpoint.png)
+    ![Screenshot of the Visual Studio code window showing JavaScript code. A red dot in the left gutter indicates that a breakpoint is set.](../javascript/media/tutorial-nodejs-react-set-breakpoint.png)
 
     Breakpoints are the most basic and essential feature of reliable debugging. A breakpoint indicates where Visual Studio should suspend your running code so you can take a look at the values of variables, or the behavior of memory, or whether or not a branch of code is getting run.
 
@@ -102,7 +102,7 @@ To attach the debugger from Visual Studio and hit breakpoints in client-side cod
 
 1. Switch to Visual Studio and then set a breakpoint in your source code, which might be a JavaScript file, TypeScript file, or a JSX file. (Set the breakpoint in a line of code that allows breakpoints, such as a return statement or a var declaration.)
 
-    ![Set a breakpoint](../javascript/media/tutorial-nodejs-react-set-breakpoint-client-code.png)
+    ![Screenshot of the Visual Studio code window. A return statement is selected and a red dot in the left gutter indicates that a breakpoint is set.](../javascript/media/tutorial-nodejs-react-set-breakpoint-client-code.png)
 
     To find the specific code in a transpiled file, use **Ctrl**+**F** (**Edit** > **Find and Replace** > **Quick Find**).
 
