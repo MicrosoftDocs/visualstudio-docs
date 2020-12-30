@@ -1,5 +1,7 @@
 ---
 title: Registering a Project Type | Microsoft Docs
+description: Learn about creating registry entries that enable Visual Studio to recognize and work with your new project type.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
