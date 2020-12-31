@@ -84,8 +84,6 @@ The toolbar across the top of **Solution Explorer** has buttons to switch from a
 
 Many menu commands are available from the right-click context menu on various items in **Solution Explorer**. These commands include building a project, managing NuGet packages, adding a reference, renaming a file, and running tests, just to name a few.
 
-To view a list of some of the icons that appear in Solution Explorer, see [Class View and Object Browser icons](class-view-and-object-browser-icons.md).
-
 > [!TIP]
 > If you've closed Solution Explorer and you want to open it again, choose **Window** > **Reset Window Layout** from the menu bar.
 
