@@ -1,6 +1,6 @@
 ---
 title: Compile and build TypeScript code using NuGet
-description: Learn how to compile and build TypeScript in Visual Studio.
+description: Learn how to add Typescript support to your Visual Studio projects by using the NuGet package.
 ms.date: 7/23/2020
 ms.topic: conceptual
 author: "mikejo5000"
