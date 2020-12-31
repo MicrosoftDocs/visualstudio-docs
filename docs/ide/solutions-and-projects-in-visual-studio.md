@@ -90,7 +90,7 @@ The toolbar across the top of **Solution Explorer** has buttons to switch from a
 
 ![Screenshot of Solution Explorer with two projects in Visual Studio 2019.](../ide/media/vs2019-solution-explorer.png)
 
-The toolbar across the top of **Solution Explorer** has buttons to switch from a solution view to a folder view, filter pending changes, show all files, collapse all nodes, view properties pages, preview code in the editor, and more.
+The toolbar across the top of **Solution Explorer** has buttons to switch from a solution view to a folder view, filter pending changes, show all files, collapse all nodes, view [properties](managing-project-and-solution-properties.md) pages, preview code in the [code editor](writing-code-in-the-code-and-text-editor.md), and more.
 
 ::: moniker-end
 
