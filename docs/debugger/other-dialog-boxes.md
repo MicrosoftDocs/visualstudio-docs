@@ -1,5 +1,7 @@
 ---
 title: "Other Dialog Boxes | Microsoft Docs"
+description: "This section documents two dialog boxes: About Microsoft Spy++, and Copyright Notice for Spy++ Help."
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:

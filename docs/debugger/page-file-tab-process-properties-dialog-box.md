@@ -1,5 +1,7 @@
 ---
 title: "Page File Tab, Process Properties Dialog Box | Microsoft Docs"
+description: Use the Page File tab of Process Properties to examine the paging file of a process. This article describes the available settings.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 helpviewer_keywords:

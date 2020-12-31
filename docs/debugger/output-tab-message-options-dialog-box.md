@@ -1,5 +1,7 @@
 ---
 title: "Output Tab, Message Options Dialog Box | Microsoft Docs"
+description: Use the Output tab of Message Options to specify what message data appears in Messages View. This article describes the available settings.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 helpviewer_keywords:
