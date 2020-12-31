@@ -140,13 +140,13 @@ For more information about using breakpoints, read [Using breakpoints](../debugg
 
 When your running code hits a breakpoint and pauses, the line of code marked in yellow (the current statement) has not executed yet. At this point, you may want to execute the current statement and then inspect the changed values. You can use several *step* commands to execute code in the debugger. If the marked code is a method call, you can step into it by pressing **F11**. You can also *step over* the line of code by pressing **F10**. For additional commands and details on how to step through code, read [Navigate code with the debugger](../debugger/navigating-through-code-with-the-debugger.md).
 
-![Visual Studio run-time value inspection](../ide/media/vs_ide_gs_debug_hit_breakpoint.png)
+![Screenshot of the Visual Studio code window. A red dot in the left gutter indicates a breakpoint at the line of code marked in yellow.](../ide/media/vs_ide_gs_debug_hit_breakpoint.png)
 
 In the preceding illustration, you can advance the debugger one statement by pressing either **F10** or **F11** (since there is no method call here, both commands have the same result).
 
 While the debugger is paused, you can inspect your variables and call stacks to determine what is going on. Are the values in the ranges you expect to see? Are calls being made in the right order?
 
-![Visual Studio run-time value inspection](../ide/media/vs_ide_gs_debug_inspect_value.png)
+![Screenshot of the Visual Studio code window. At the line of code marked in yellow, a variable is selected and a dropdown shows its current value and references.](../ide/media/vs_ide_gs_debug_inspect_value.png)
 
 Hover over a variable to see its current value and references. If you see a value you didn't expect, you probably have a bug in the preceding or calling code. For more in-depth debugging information, [learn more](../debugger/debugger-feature-tour.md) about using the debugger.
 
