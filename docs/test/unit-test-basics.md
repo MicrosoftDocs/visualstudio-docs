@@ -258,7 +258,7 @@ You can choose **Run All** to run all your tests, or choose **Run** to choose a 
 
 ::: moniker range="vs-2017"
 
-If individual tests have no dependencies that prevent them from being run in any order, turn on parallel test execution with the ![UTE&#95;parallelicon&#45;small](../test/media/ute_parallelicon-small.png) toggle button on the toolbar. This can noticeably reduce the time taken to run all the tests.
+If individual tests have no dependencies that prevent them from being run in any order, turn on parallel test execution with the ![Screenshot of the Parallel test execution toggle button on the Visual Studio Test Explorer toolbar.](../test/media/ute_parallelicon-small.png) toggle button on the toolbar. This can noticeably reduce the time taken to run all the tests.
 
 ::: moniker-end
 
