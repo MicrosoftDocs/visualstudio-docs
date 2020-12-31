@@ -148,7 +148,7 @@ This solution follows the **Razor Page** design pattern. It's different than the
 
  1. View the **About.cshtml** file in the code editor.
 
-     ![View the About.cshtml file in the Visual Studio code editor](media/csharp-aspnet-razor-aboutcshtml-mycoreapp-code.png)
+     ![Screenshot showing the first ten lines of the About.cshtml file in the Visual Studio code editor.](media/csharp-aspnet-razor-aboutcshtml-mycoreapp-code.png)
 
  1. Choose the **About.cshtml.cs** file.
 
@@ -156,7 +156,7 @@ This solution follows the **Razor Page** design pattern. It's different than the
 
  1. View the **About.cshtml.cs** file in the code editor.
 
-     ![View the About.cshtml file in the Visual Studio code editor](media/csharp-aspnet-razor-aboutcshtmlcs-mycoreapp-code.png)
+     ![Screenshot showing the first 18 lines of the About.cshtml.cs file in the Visual Studio code editor. ](media/csharp-aspnet-razor-aboutcshtmlcs-mycoreapp-code.png)
 
  1. The project contains a **wwwroot** folder that is the root for your website. Expand the folder to view its contents.
 
