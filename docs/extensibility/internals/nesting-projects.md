@@ -1,5 +1,7 @@
 ---
 title: Nesting Projects | Microsoft Docs
+description: Learn about nesting projects, which allows application developers who use your VS Package to group similar types of projects together in Visual Studio.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
