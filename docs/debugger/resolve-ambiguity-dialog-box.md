@@ -1,5 +1,7 @@
 ---
 title: "Resolve Ambiguity Dialog Box | Microsoft Docs"
+description: Review Visual Studio's Resolve Ambiguity dialog box, which appears when the debugger cannot choose the location to display.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 f1_keywords:
