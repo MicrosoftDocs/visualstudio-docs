@@ -1,6 +1,7 @@
 ---
 title: "Debug UWP apps | Microsoft Docs"
-ms.custom: ""
+description: Find articles about debugging tasks for Universal Windows Platform (UWP) apps in the Visual Studio debugger.
+ms.custom: SEO-VS-2020
 ms.date: "10/22/2019"
 ms.topic: "conceptual"
 dev_langs:

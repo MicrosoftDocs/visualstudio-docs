@@ -1,5 +1,7 @@
 ---
 title: Saving Data in Project Files | Microsoft Docs
+description: Learn about the interfaces that the Managed Package Framework provides to save and retrieve subtype-specific data in the project file.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

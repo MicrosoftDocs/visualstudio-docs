@@ -51,8 +51,8 @@ Once you've [installed Visual Studio Tools for AI](installation.md), you can eas
 
 11. You can visualize the progress with TensorBoard. Right click your project and click **Run TensorBoard** then select the directory of your output TensorBoard logs.
 
-   ![run tensorboard](media/create-project-repo/run-tensorboard.png)
+   ![Screenshot of the Visual Studio Solution Explorer with the MNIST project selected and the Run TensorBoard option selected in the context menu.](media/create-project-repo/run-tensorboard.png)
 
 12. Notice the error decreasing overtime, which means the quality is improving.
 
-   ![run tensorboard](media/create-project-repo/tensorboard.png)
+   ![Screenshot of the main TensorBoard window showing four graphs that visualize the data from the TensorBoard logs.](media/create-project-repo/tensorboard.png)

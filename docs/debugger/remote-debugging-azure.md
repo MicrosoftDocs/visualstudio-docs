@@ -1,5 +1,6 @@
 ---
 title: "Remote Debug ASP.NET Core on IIS and Azure | Microsoft Docs"
+description: Learn how to set up and configure a Visual Studio ASP.NET Core app, deploy it to IIS using Azure, and attach the remote debugger from Visual Studio. 
 ms.custom: "remotedebugging"
 ms.date: 05/06/2020
 ms.topic: "conceptual"
@@ -24,13 +25,13 @@ The recommended way to remote debug on Azure depends on your scenario:
 
     In this scenario, you must deploy your app from Visual Studio to Azure but you do not need to manually install or configure IIS or the remote debugger (these components are represented with dotted lines), as shown in the following illustration.
 
-    ![Remote debugger components](../debugger/media/remote-debugger-azure-app-service.png "Remote_debugger_components")
+    ![Diagram showing the relationship between Visual Studio, Azure App Service, and an ASP.NET app. IIS and the Remote Debugger are represented with dotted lines.](../debugger/media/remote-debugger-azure-app-service.png)
 
 * To debug IIS on an Azure VM, follow steps in this topic (see the section [Remote Debug on an Azure VM](#remote_debug_azure_vm)). This allows you to use a customized configuration of IIS, but the setup and deployment steps are more complicated.
 
     For an Azure VM, you must deploy your app from Visual Studio to Azure and you also need to manually install the IIS role and the remote debugger, as shown in the following illustration.
 
-    ![Remote debugger components](../debugger/media/remote-debugger-azure-vm.png "Remote_debugger_components")
+    ![Diagram showing the relationship between Visual Studio, an Azure VM, and an ASP.NET app. IIS and the Remote Debugger are represented with solid lines.](../debugger/media/remote-debugger-azure-vm.png)
 
 * To debug ASP.NET Core on Azure Service Fabric, see [Debug a remote Service Fabric application](/azure/service-fabric/service-fabric-debugging-your-application#debug-a-remote-service-fabric-application).
 
@@ -202,7 +203,7 @@ If you are importing publish settings, you can skip this section.
 
 ### (Optional) Publish and Deploy the app by publishing to a local folder from Visual Studio
 
-If you're not using Web Deploy, you must publish and deploy the app using the file system or other tools. You can start by creating a package using the file system, and then either deploy the package manually or use other tools like PowerShell, RoboCopy, or XCopy. In this section, we assume you are manually copying the package if you are not using Web Deploy.
+If you're not using Web Deploy, you must publish and deploy the app using the file system or other tools. You can start by creating a package using the file system, and then either deploy the package manually or use other tools like PowerShell, Robocopy, or XCopy. In this section, we assume you are manually copying the package if you are not using Web Deploy.
 
 [!INCLUDE [remote-debugger-deploy-app-local](../debugger/includes/remote-debugger-deploy-app-local.md)]
 

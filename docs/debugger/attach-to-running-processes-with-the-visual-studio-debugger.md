@@ -1,6 +1,7 @@
 ---
 title: "Attach to running processes with the debugger"
-ms.custom: "seodec18"
+description: Discover how to attach the Visual Studio debugger to a running process on a local or remote computer.
+ms.custom: "SEO-VS-2020, seodec18"
 ms.date: "06/12/2020"
 ms.topic: "conceptual"
 f1_keywords:
@@ -52,7 +53,7 @@ To quickly reattach to a process you attached to previously, see [Reattach to a 
 
 1. Set the **Connection target** your local machine name.
 
-   ![DBG_Basics_Attach_To_Process](../debugger/media/DBG_Basics_Attach_To_Process.png "DBG_Basics_Attach_To_Process")
+   ![Screenshot of the Attach to Process dialog box, with the connection target set to the local machine name.](../debugger/media/DBG_Basics_Attach_To_Process.png)
 
 1. In the **Available processes** list, find and select the process or processes you want to attach to.
 
