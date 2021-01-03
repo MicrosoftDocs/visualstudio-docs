@@ -1,6 +1,6 @@
 ---
 title: "Thread Properties Dialog Box | Microsoft Docs"
-description: Learn about the Thread Properties dialog box in the Spy++ debugging tool. Use this dialog box find out more about a specific thread.
+description: Learn about the Thread Properties dialog box in the Spy++ debugging tool. Use this dialog box to find out more about a specific thread.
 ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
