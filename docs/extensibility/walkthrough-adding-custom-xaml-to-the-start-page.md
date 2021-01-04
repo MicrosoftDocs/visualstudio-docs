@@ -1,5 +1,7 @@
 ---
 title: 'Walkthrough: Adding Custom XAML to the Start Page | Microsoft Docs'
+description: Learn how to create a custom Visual Studio start page that contains a web browser by using this walkthrough.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
