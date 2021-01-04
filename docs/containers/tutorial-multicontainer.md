@@ -40,11 +40,11 @@ Do not select **Enable Docker Support**. You'll add Docker support later.
 
 ::: moniker range="vs-2019"
 
-![Screenshot of creating the web project](./media/tutorial-multicontainer/vs-2019/new-aspnet-core-project1.png)
+![Screenshot of the Configure your new project screen for an ASP.NET Core Web Application, the Project name and Solution name fields are set to "WebFrontEnd".](./media/tutorial-multicontainer/vs-2019/new-aspnet-core-project1.png)
 
 Do not select **Enable Docker Support**. You'll add Docker support later.
 
-![Screenshot of creating the web project](./media/tutorial-multicontainer/vs-2019/new-aspnet-core-project.png)
+![Screenshot of the Create a new ASP.NET Core Web Application screen with Web Application selected. The option to Enable Docker Support is not selected.](./media/tutorial-multicontainer/vs-2019/new-aspnet-core-project.png)
 
 ::: moniker-end
 

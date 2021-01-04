@@ -16,7 +16,7 @@
 
 1. In the **Publish** dialog box, select **Folder**, click **Browse**, and create a new folder, **C:\Publish**.
 
-    ![RemoteDBG_Publish_Local](../media/remotedbg_publish_local.png "RemoteDBG_Publish_Local")
+    ![Screenshot of the Pick a publish target dialog in Visual Studio with the Folder `bin\Release\Publish' selected as the publish target.](../media/remotedbg_publish_local.png)
 
     For a Web Forms app, choose **Custom** in the Publish dialog box, enter a profile name, and choose **OK**.
 
@@ -31,7 +31,7 @@
 
 1. Click **Publish**.
 
-    ![RemoteDBG_Publish_Debug_Config](../media/remotedbg_publish_debug_config.png "RemoteDBG_Publish_Debug_Config")
+    ![Screenshot of the Settings tab in the Publish dialog box. Configuration is set to Debug and the Publish button is selected.](../media/remotedbg_publish_debug_config.png)
 
     The application publishes a **Debug** configuration of the project to the local folder. Progress shows in the Output window.
 

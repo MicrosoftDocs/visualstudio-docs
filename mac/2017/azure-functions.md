@@ -87,11 +87,11 @@ You can use the above procedure to add more functions to your function app proje
 ## Publish to Azure
 
 1. Right-click on the project name and select **Publish > Publish to Azure**:
-    ![Publish to azure menu option](media/azure-functions-image5.png)
+    ![Screenshot from Azure Functions, showing the AF-httptrigger project selected, and the Publish and Publish to Azure commands highlighted in the context menu.](media/azure-functions-image5.png)
 2. If you've already connected your Azure account to Visual  Studio for Mac a list of available app services are displayed. If you haven't logged in, you'll be prompted to do so.
 3. From the **Publish to Azure App Service** dialog, you can either select an existing app service or create a new one by clicking **New**.
 4. In the **Create new App Service** dialog, enter your settings:
-    ![Publish to azure menu option](media/azure-functions-image7.png)
+    ![Screenshot of the New App Service window in Azure Functions, showing the settings for creating a new App Service on Azure.](media/azure-functions-image7.png)
 
     |Setting  |Description  |
     |---------|---------|
@@ -105,13 +105,13 @@ You can use the above procedure to add more functions to your function app proje
 
 5. Click **Next** to create a storage account. An Azure storage account is required by the Functions runtime. Click **Custom** to create a general purpose storage account, or use an existing one:
 
-    ![Publish to azure menu option](media/azure-functions-image8.png)
+    ![Screenshot of the Configure Storage Account screen in Azure Functions. Custom is selected for Storage Account, and Account Name and Account type are filled in.](media/azure-functions-image8.png)
 
 6. Click **Create** to create a function app and related resources in Azure with these settings and deploy your function project code.
 
 7. You may be prompted with a dialog during publishing informing you to "Update Functions Version on Azure". Click **Yes**:
 
-    ![Publish to azure menu option](media/azure-functions-image12.png)
+    ![Screenshot of the Update Functions Version on Azure dialog prompt, asking you to "Update Azure application settings to match local Functions versions".](media/azure-functions-image12.png)
 
 > [!CAUTION]
 > There is a bug in the 7.6 version of Visual Studio for Mac where the `FUNCTIONS_EXTENSION_VERSION` is not correctly set to "beta", meaning that your function may not run. To fix this, go to your [Function app settings](#function-app-settings) and set `FUNCTIONS_EXTENSION_VERSION` from "-1" to "beta".

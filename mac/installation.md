@@ -43,7 +43,7 @@ To build Xamarin apps for iOS or macOS, you'll also need:
 
 6. The list of available workloads is displayed. Select the components you wish to use:
 
-    [![Choose which optional workload features you would like to install](media/install-selection.png)](media/install-selection.png#lightbox)
+    [![Screenshot of the "What would you like to install?" screen in the Visual Studio Mac Installer, showing a list of components available for installation.](media/install-selection.png)](media/install-selection.png#lightbox)
 
    If you do not wish to install all platforms, use the guide below to help you decide which platforms to install:
 
@@ -61,7 +61,7 @@ To build Xamarin apps for iOS or macOS, you'll also need:
 7. After you have made your selections, press the **Install** button.
 8. The installer will display progress as it downloads and installs Visual Studio for Mac and the selected workloads. You will be prompted to enter your password to grant the privileges necessary for installation.:
 
-    [![Choose which optional workload features you would like to install](media/installation-progress.png)](media/installation-progress.png#lightbox)
+    [![Screenshot from the Visual Studio Mac Installer showing an installation progress screen for The .NET developer toolkit for Mac.](media/installation-progress.png)](media/installation-progress.png#lightbox)
 
 9. Once installed, Visual Studio for Mac will prompt you to personalize your installation by signing in and selecting the key bindings that you'd like to use:
 

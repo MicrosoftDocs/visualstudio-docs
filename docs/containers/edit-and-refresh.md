@@ -124,7 +124,7 @@ Often, changes require further inspection. You can use the debugging features of
 4. To start debugging and hit the breakpoint, press F5.
 5. Switch to Visual Studio to view the breakpoint. Inspect values.
 
-   ![Breakpoint](media/edit-and-refresh/breakpoint.png)
+   ![Screenshot showing part of the code for Index.cshtml.cs in Visual Studio with a breakpoint set to the left of a code line that is highlighted in yellow.](media/edit-and-refresh/breakpoint.png)
 
 ## Create a .NET Framework console app
 
@@ -146,7 +146,7 @@ When you use .NET Framework console app projects, the option to add Docker suppo
 4. Press F5 to start debugging and hit the breakpoint.
 5. Switch to Visual Studio to view the breakpoint and inspect values.
 
-   ![Breakpoint](media/edit-and-refresh/breakpoint-console.png)
+   ![Screenshot of the code window for Program.cs in Visual Studio with a breakpoint set to the left of a code line that is highlighted in yellow.](media/edit-and-refresh/breakpoint-console.png)
 
 ## Container reuse
 
