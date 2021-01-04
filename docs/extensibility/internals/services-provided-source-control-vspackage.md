@@ -1,5 +1,7 @@
 ---
 title: Services Provided (Source Control VSPackage) | Microsoft Docs
+description: Learn how VSPackages share functionality through services, including interacting with the Visual Studio IDE and its VSPackages.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
