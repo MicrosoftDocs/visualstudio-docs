@@ -1,6 +1,6 @@
 ---
 title: Creating a View Adornment, Commands and Settings | Microsoft Docs
-description: Learn how to extend the Visual Studio text/code editor with column guides by using this walkthrough.
+description: Learn how to extend the Visual Studio code editor with column guides by using this walkthrough.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
