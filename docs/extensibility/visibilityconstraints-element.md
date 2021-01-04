@@ -1,5 +1,7 @@
 ---
 title: VisibilityConstraints Element | Microsoft Docs
+description: The VisibilityConstraints element determines the static visibility of groups of commands and toolbars.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 f1_keywords:
