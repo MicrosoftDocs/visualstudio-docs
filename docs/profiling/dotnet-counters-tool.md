@@ -35,7 +35,7 @@ The .NET Counters tool allows you to visualize [dotnet counters](/dotnet/core/di
 For more information on how to optimize tool performance, see [Optimizing Profiler settings](../profiling/optimize-profiler-settings.md).
 
 
-## Understand Your data
+## Understand your data
 
 While the tool is initially collecting data, you can see the live values of [dotnet counters](/dotnet/core/diagnostics/dotnet-counters).
 
