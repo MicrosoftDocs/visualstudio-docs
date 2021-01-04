@@ -28,7 +28,7 @@ The .NET Counters tool allows you to visualize [dotnet counters](/dotnet/core/di
 
 2. Select the **.NET Counters** check box.
 
-   ![.NET Counter tool selected](../profiling/media/dotnet-counters-tool-selected.png ".NET Counters tool selected")
+   :::image type="content" source= "/profiling/media/dotnet-counters-tool-selected.png" alt-text= "Counters tool selected.":::
 
 3. Click the **Start** button to run the tool.
 
@@ -39,8 +39,7 @@ For more information on how to optimize tool performance, see [Optimizing Profil
 
 While the tool is initially collecting data, you can see the live values of [dotnet counters](/dotnet/core/diagnostics/dotnet-counters).
 
-
-![.NET Counter tool collecting](../profiling/media/dotnet-counters-tool-collecting.png ".NET Counters tool collecting")
+:::image type="content" source= "/profiling/media/dotnet-counters-tool-collecting.png" alt-text= ".NET Counter tool collecting.":::
 
 You can also view graphs of the counters by selecting the checkbox next to the counter names. You can display the graphs of multiple counters at a time.
 
@@ -50,8 +49,7 @@ Once you are done exercising your app and collecting data, you can stop collecti
 
 Once the report loads, you should see a finalized report similar to the one shown below.
 
-
-![.NET Counter tool report](../profiling/media/dotnet-counters-tool-report.png ".NET Counters tool report")
+:::image type="content" source= "/profiling/media/dotnet-counters-tool-report.png" alt-text= ".NET Counter tool report.":::
 
 The report shows you the following values:
 
@@ -61,13 +59,11 @@ The report shows you the following values:
 
 You can filter or add columns in the table by right clicking the column headings and selecting a heading.
 
-
-![.NET Counter tool columns](../profiling/media/dotnet-counters-tool-columns.png ".NET Counters tool columns")
+:::image type="content" source= "/profiling/media/dotnet-counters-tool-columns.png" alt-text= ".NET Counter tool columns.":::
 
 You can also view graphs in the detailed report by selecting the checkboxes next to counters. The data in the tables represents the values of the entire duration of your collected trace by default. To filter down the data to a specific time range, click and drag on the graphs.
 
-
-![.NET Counter tool time filtering](../profiling/media/dotnet-counters-tool-timefiltering.png ".NET Counters tool time filtering")
+:::image type="content" source= "/profiling/media/dotnet-counters-tool-time-filtering.png" alt-text= ".NET Counters tool time filtering.":::
 
 The table updates to relevant values for the time selected in the graphs. Use the **Clear Selection** button to reset the selected time range to the entire trace.
 
