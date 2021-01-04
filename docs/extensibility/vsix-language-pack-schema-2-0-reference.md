@@ -1,5 +1,7 @@
 ---
 title: "VSIX Language Pack Schema 2.0 Reference | Microsoft Docs"
+description: The VSIX Language Pack schema provides localized installation information for VSIX packages. Version 2.0 supports additional localization elements.
+ms.custom: SEO-VS-2020
 ms.date: "10/26/2017"
 ms.topic: "conceptual"
 helpviewer_keywords:
