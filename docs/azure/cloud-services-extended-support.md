@@ -16,11 +16,11 @@ Starting with Visual Studio 2019 version 16.9 (currently in preview), you can wo
 
 ## Publish a Azure Cloud Service project using extended support
 
-You can use extended support to publish your existing Azure Cloud Service project using ARM, but you still retain the capability to publish using the classic method, with a few small steps to remove configuration associated with extended support. Before publishing to extended support, you might want to save an old version of the .*.cscfg* file associated with your Azure Cloud Service project. See [Remove extended support](#remove-extended-support). In Visual Studio 2019 version 16.9 Preview 1 and later, classic cloud service projects have a special version of the **Publish** command, **Publish (extended support)**. This command appears on the shortcut menu in **Solution Explorer**.
+You can use extended support to publish your existing Azure Cloud Service project using ARM, but you still retain the capability to publish using the classic method, with a few small steps to remove configuration associated with extended support. Before publishing to extended support, you might want to save an old version of the *.cscfg* file associated with your Azure Cloud Service project. See [Remove extended support](#remove-extended-support). In Visual Studio 2019 version 16.9 Preview 2 and later, classic cloud service projects have a special version of the **Publish** command, **Publish (extended support)**. This command appears on the shortcut menu in **Solution Explorer**.
 
 There are some differences when you publish using extended support. For example, you are not asked if you are publishing to **Staging** or **Production**, because these deployment slots are not part of the extended support publishing model. Instead, with extended support services, you can set up multiple deployments, and swap deployments in the Azure Portal.
 
-Before publishing a classic Azure Cloud Service using extended support, check the storage accounts your project uses and make sure they are Storage V1 or Storage V2 accounts. The legacy storage account types will fail with an error message at deploy time. Be sure to check the storage account used by diagnostics. To check the diagnostics storage account, see [Set up diagnostics for Azure Cloud Services and virtual machines](vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines.md). If your service uses a legacy storage account, you can upgrade it; see [Upgrade to a general-purpose v2 storage account](/azure/storage/common/storage-account-upgrade?tabs=azure-portal).  For general information on the types of storage accounts, see [Storage account overview](/azure/storage/common/storage-account-overview).
+Before publishing a classic Azure Cloud Service using extended support, check the storage accounts your project uses and make sure they are Storage V1 or Storage V2 accounts. The classic storage account types will fail with an error message at deploy time. Be sure to check the storage account used by diagnostics. To check the diagnostics storage account, see [Set up diagnostics for Azure Cloud Services and virtual machines](vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines.md). If your service uses a classic storage account, you can upgrade it; see [Upgrade to a general-purpose v2 storage account](/azure/storage/common/storage-account-upgrade?tabs=azure-portal).  For general information on the types of storage accounts, see [Storage account overview](/azure/storage/common/storage-account-overview).
 
 ### To publish a classic Azure Cloud Service project using extended support
 
@@ -40,7 +40,7 @@ Before publishing a classic Azure Cloud Service using extended support, check th
 
    ![Common Settings](./media/cloud-services-extended-support/publish-settings.png)
 
-1. **Cloud service** - Using the dropdown, either select an existing cloud service, or select **Create new**, and create a cloud service. The data center displays in parentheses for each cloud service. It is recommended that the data center location for the cloud service be the same as the data center location for the storage account.
+1. **Cloud service** - Using the dropdown, either select an existing cloud service (extended support), or select **Create new**, and create a cloud service. The data center displays in parentheses for each cloud service. It is recommended that the data center location for the cloud service be the same as the data center location for the storage account.
 
    If you choose to create a new cloud service, you'll see the **Create Cloud Service (extended support)** dialog. Specify the location and resource group you want to use for the cloud service.
 
@@ -54,7 +54,7 @@ Before publishing a classic Azure Cloud Service using extended support, check th
 
    The Azure storage account stores the package for the application deployment. After the application is deployed, the package is removed from the storage account.
 
-1. **Key vault** - Specify the key vault that contains the secrets for this cloud service. This is enabled if remote desktop is enabled, if you are using diagnostics, or if certificates are added to the configuration.
+1. **Key vault** - Specify the key vault that contains the secrets for this cloud service. This is enabled if remote desktop is enabled, or if certificates are added to the configuration.
 
 1. **Enable Remote Desktop for all roles** - Select this option if you want to be able to remotely connect to the service. You'll be asked to specify credentials.
 
@@ -89,7 +89,7 @@ If you publish a classic Azure Cloud Service project using extended support, and
 
 1. In the *.cscfg* file, remove the `NetworkConfiguration` element that was added by extended support.
 
-1. Right-click the Azure Cloud Service project node, and choose **Publish...*.
+1. Right-click the Azure Cloud Service project node, and choose **Publish...**.
 
 1. Follow the steps in [Using the Visual Studio Publish Azure Application Wizard](vs-azure-tools-publish-azure-application-wizard.md).
 
