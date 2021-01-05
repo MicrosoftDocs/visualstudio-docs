@@ -1,5 +1,7 @@
 ---
 title: "Messages Menu Commands | Microsoft Docs"
+description: See a list of the commands available on the Messages menu, with a brief description of each.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:
