@@ -1,5 +1,7 @@
 ---
 title: Project Context | Microsoft Docs
+description: Learn how the Visual Studio IDE uses project context to determine how to perform operations when the user adds or works with projects and project items.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

@@ -1,5 +1,7 @@
 ---
 title: Quick Info in a Legacy Language Service | Microsoft Docs
+description: Learn about support for the IntelliSense Quick Info operation for displaying information about an identifier.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

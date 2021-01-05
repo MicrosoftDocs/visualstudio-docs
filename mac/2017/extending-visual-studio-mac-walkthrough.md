@@ -1,5 +1,7 @@
 ---
 title: "Extending Visual Studio for Mac Walkthrough"
+description: Learn how to build a simple extension package for Visual Studio for Mac, which creates a new Command in the Edit menu.
+ms.custom: SEO-VS-2020
 author: heiligerdankgesang
 ms.author: dominicn
 ms.date: 04/14/2017
