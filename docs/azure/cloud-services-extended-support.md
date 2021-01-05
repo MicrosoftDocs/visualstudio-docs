@@ -77,7 +77,7 @@ Before publishing a classic Azure Cloud Service using extended support, check th
 
 1. Once you configure all the settings for your project's deployment, select **Publish** at the bottom of the dialog. You can monitor the process status in the **Azure Activity Log** output window in Visual Studio.
 
-Congratulations! You've published your extended support cloud service project to Azure. To publish again with the same settings, you can reuse the publishing profile, or repeat these steps to create a new one.
+Congratulations! You've published your extended support cloud service project to Azure. To publish again with the same settings, you can reuse the publishing profile, or repeat these steps to create a new one. The ARM template and parameters used for deployment are saved in the *bin/\<configuration\>/Publish* folder.
 
 ## Clean up Azure resources
 
