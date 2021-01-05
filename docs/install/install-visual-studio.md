@@ -261,3 +261,4 @@ For more information, see the [Select installation locations](change-installatio
 * [Create an offline installation of Visual Studio](create-an-offline-installation-of-visual-studio.md)
 * [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md)
 * [Install Visual Studio for Mac](/visualstudio/mac/installation)
+ 
