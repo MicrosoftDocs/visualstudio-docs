@@ -78,7 +78,7 @@ But no matter which version you have installed, you can always open a project fr
 <!--- Content here  -->
 You can open a project from a GitHub repo that you've cloned or one that you've stored locally. Here's how.
 
-##### Clone a GitHub repo and then open a project
+**Clone a GitHub repo and then open a project**
 
 If you haven't yet cloned a repo where your project is located, you can do so by using the following procedure.
 
@@ -110,7 +110,7 @@ If you haven't yet cloned a repo where your project is located, you can do so by
 
    ![Screenshot of the .sln file in Git that's open in Solution Explorer, after you've selected the Switch Views button](../ide/media/vs-2019/git-solution-explorer-view-solution.png "Screenshot of the .sln file in Git that's open in Solution Explorer, after you've selected the Switch Views button.")
 
-##### Open a project locally from a previously cloned GitHub repo
+**Open a project locally from a previously cloned GitHub repo**
 
 If you've already cloned the GitHub repo where your project is located, here's how to open it:
 
