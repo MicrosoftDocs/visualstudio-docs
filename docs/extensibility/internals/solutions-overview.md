@@ -1,5 +1,7 @@
 ---
 title: Solutions overview
+description: Learn about the internals of a solution, for extension developers who want to work with solutions in Visual Studio extensions.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
