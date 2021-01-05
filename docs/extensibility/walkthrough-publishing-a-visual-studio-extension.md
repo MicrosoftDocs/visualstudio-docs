@@ -1,5 +1,7 @@
 ---
 title: 'Walkthrough: Publishing a Visual Studio Extension | Microsoft Docs'
+description: Learn how to publish a Visual Studio extension to the Visual Studio Marketplace, which allows developers to browse for new and updated extensions.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
