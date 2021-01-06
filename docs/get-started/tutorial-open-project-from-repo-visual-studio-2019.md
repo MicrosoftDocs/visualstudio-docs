@@ -14,7 +14,7 @@ dev_langs:
 ms.workload:
   - "dotnet"
   - "dotnetcore"
-monikerRange: vs-2017
+monikerRange: vs-2019
 ---
 # Tutorial: Open a project from a repo
 
