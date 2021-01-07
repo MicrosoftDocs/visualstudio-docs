@@ -9,7 +9,7 @@ ms.date: 08/14/2020
 user.type: subscriber
 tags: portal-error
 subscription.type: vl, cloud, retail, partner
-sap.id: 17a2bf94-0d03-2629-dfd8-e8935f9126ec
+sap.id: 8250612f-7446-20c5-7473-16d089f2280d
 ---
 
 ## We're sorry to hear that you're experiencing an issue with a page not being displayed while using the Visual Studio subscriptions portal. 
