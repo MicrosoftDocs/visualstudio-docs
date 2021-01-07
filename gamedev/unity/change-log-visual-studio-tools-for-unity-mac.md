@@ -2,7 +2,7 @@
 title: "Change Log (Visual Studio Tools for Unity, Mac) | Microsoft Docs"
 description: View the change log for Visual Studio Tools for Unity, Mac. See changes from version 1.0.0.0 through 2.7.0.0 and beyond.
 ms.custom: ""
-ms.date: "11/13/2020"
+ms.date: "12/18/2020"
 ms.technology: vs-unity-tools
 ms.prod: visual-studio-dev16
 ms.topic: "conceptual"
@@ -16,6 +16,15 @@ ms.workload:
 # Change Log (Visual Studio Tools for Unity, Mac)
 
 Visual Studio Tools for Unity change log.
+
+## 2.8.4.0
+Released December 15, 2020
+
+### Bug fixes
+
+- **Integration:**
+
+  - Fixed a reliability issue when closing the Unity Event creation wizard.
 
 ## 2.8.3.0
 Released November 10, 2020

@@ -1,5 +1,7 @@
 ---
 title: Debug in Mixed Mode | Microsoft Docs
+description: See how to enable mixed-mode debugging (managed and native code together) in the property pages of the calling app's project.
+ms.custom: SEO-VS-2020
 ms.date: 11/05/2018
 ms.topic: how-to
 dev_langs: 
