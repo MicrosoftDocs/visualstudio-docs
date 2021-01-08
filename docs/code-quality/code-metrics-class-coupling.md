@@ -11,13 +11,13 @@ ms.workload:
 
 # Code metrics - Class coupling
 
-Class coupling also goes by the name Coupling Between Objects (CBO) as originally defined by [CK94](#CK94). Basically, class coupling is a measure of how many classes a single class uses. A high number is bad and a low number is generally good with this metric. Class coupling has been shown to be an accurate predictor of software failure and recent studies have shown that an upper-limit value of 9 is the most efficient [S2010](#S2010).
+Class coupling also goes by the name Coupling Between Objects (CBO) as originally defined by [CK94](#ck94). Basically, class coupling is a measure of how many classes a single class uses. A high number is bad and a low number is generally good with this metric. Class coupling has been shown to be an accurate predictor of software failure and recent studies have shown that an upper-limit value of 9 is the most efficient [S2010](#s2010).
 
-According to the Microsoft documentation, class coupling “[m]easures the coupling to unique classes through parameters, local variables, return types, method calls, generic or template instantiations, base classes, interface implementations, fields defined on external types, and attribute decoration. Good software design dictates that types and methods should have high cohesion and low coupling. High coupling indicates a design that is difficult to reuse and maintain because of its many interdependencies on other types.”
+According to the Microsoft documentation, class coupling “\[m\]easures the coupling to unique classes through parameters, local variables, return types, method calls, generic or template instantiations, base classes, interface implementations, fields defined on external types, and attribute decoration. Good software design dictates that types and methods should have high cohesion and low coupling. High coupling indicates a design that is difficult to reuse and maintain because of its many interdependencies on other types.”
 
-The concepts of coupling and cohesion are clearly related. To keep this discussion on topic, we will not get into depth with cohesion other than to give a brief definition from [KKLS2000](#KKLS2000):
+The concepts of coupling and cohesion are clearly related. To keep this discussion on topic, we will not get into depth with cohesion other than to give a brief definition from [KKLS2000](#kkls2000):
 
-“Module cohesion was introduced by Yourdon and Constantine as ‘how tightly bound or related the internal elements of a module are to one another’ [YC79](#YC79). A module has a strong cohesion if it represents exactly one task […], and all its elements contribute to this single task. They describe cohesion as an attribute of design, rather than code, and an attribute that can be used to predict reusability, maintainability, and changeability.”
+“Module cohesion was introduced by Yourdon and Constantine as ‘how tightly bound or related the internal elements of a module are to one another’ [YC79](#yc79). A module has a strong cohesion if it represents exactly one task \[…\], and all its elements contribute to this single task. They describe cohesion as an attribute of design, rather than code, and an attribute that can be used to predict reusability, maintainability, and changeability.”
 
 ## Class Coupling Example
 
@@ -29,13 +29,13 @@ Notice the class coupling is 0 since this class doesn’t use any other classes.
 
 ![Class coupling example 2](media/class-coupling-example-2.png)
 
-See how the class coupling value goes up? Also notice that, no matter how many properties we set, the class coupling value just goes up by 1 and not by some other value. Class coupling measures each class only once for this metric no matter how much it is used. In addition, can you see that `DoSomething()` has a 1 but the constructor, `PersonStuff()`, has a 0 for its value? Currently there is no code in the constructor that is using another class.
+See how the class coupling value goes up? Also notice that, no matter how many properties you set, the class coupling value just goes up by 1 and not by some other value. Class coupling measures each class only once for this metric no matter how much it is used. In addition, can you see that `DoSomething()` has a 1 but the constructor, `PersonStuff()`, has a 0 for its value? Currently there is no code in the constructor that is using another class.
 
 What if you put code in the constructor that used another class? Here is what you get:
 
 ![Class coupling example 3](media/class-coupling-example-3.png)
 
-Now the constructor clearly has code that uses another class and the class coupling metric shows this fact. Again, you can see the overall class coupling for `PersonStuff()` is 1 and `DoSomething()` is also 1 to show that only one external class is being used no matter how much internal code we have that uses it.
+Now the constructor clearly has code that uses another class and the class coupling metric shows this fact. Again, you can see the overall class coupling for `PersonStuff()` is 1 and `DoSomething()` is also 1 to show that only one external class is being used no matter how much internal code you have that uses it.
 
 Next, create another new class. Give this class some name and create some properties inside it:
 
@@ -45,11 +45,11 @@ Now consume the class in our `DoSomething()` method within the `PersonStuff` cla
 
 ![Class coupling example 4](media/class-coupling-example-4.png)
 
-As you can see, the class coupling for the PersonStuff class goes up to 2 and, if we drill into the class, we can see that the `DoSomething()` method has the most coupling in it but the constructor still only consumes 1 class.  Using these metrics, you can see the overall max number for a given class and drill down into the details on a per-member basis.
+As you can see, the class coupling for the PersonStuff class goes up to 2 and, if you drill into the class, you can see that the `DoSomething()` method has the most coupling in it but the constructor still only consumes 1 class.  Using these metrics, you can see the overall max number for a given class and drill down into the details on a per-member basis.
 
 ## The Magic Number
 
-As with cyclomatic complexity, there is no limit that fits all organizations. However, [S2010](#S2010) does indicate that a limit of 9 is optimal:
+As with cyclomatic complexity, there is no limit that fits all organizations. However, [S2010](#s2010) does indicate that a limit of 9 is optimal:
 
 “Therefore, we consider the threshold values \[…\] as the most effective. These threshold values (for a single member) are CBO = 9[…].” (emphasis added)
 

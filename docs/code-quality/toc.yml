@@ -434,3 +434,9 @@
       href: how-to-generate-code-metrics-data.md
     - name: Work with code metrics data
       href: working-with-code-metrics-data.md
+  - name: Rsources
+    items:
+    - name: Code metrics - maintainability index range and meaning
+      href: code-metrics-maintainability-index-range-and-meaning.md
+    - name: Code metrics - class coupling
+      href: code-metrics-class-coupling.md
