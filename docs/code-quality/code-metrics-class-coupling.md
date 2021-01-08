@@ -12,7 +12,7 @@ ms.workload:
 
 # Code metrics - Class coupling
 
-Class coupling also goes by the name Coupling Between Objects (CBO) as originally defined by [CK94](#ck94). Basically, class coupling is a measure of how many classes a single class uses. A high number is bad and a low number is generally good with this metric. Class coupling has been shown to be an accurate predictor of software failure and recent studies have shown that an upper-limit value of 9 is the most efficient [S2010](#s2010).
+Class coupling also goes by the name Coupling Between Objects (CBO) as originally defined by [CK94](#ck94). Basically, class coupling is a measure of how many classes a single class uses. A high number is bad and a low number is usually good with this metric. Class coupling has been shown to be an accurate predictor of software failure and recent studies have shown that an upper-limit value of 9 is the most efficient [S2010](#s2010).
 
 According to the Microsoft documentation, class coupling “measures the coupling to unique classes through parameters, local variables, return types, method calls, generic or template instantiations, base classes, interface implementations, fields defined on external types, and attribute decoration. Good software design dictates that types and methods should have high cohesion and low coupling. High coupling indicates a design that is difficult to reuse and maintain because of its many interdependencies on other types.”
 
@@ -66,7 +66,7 @@ Inside the maintainability area is a rule for class coupling:
 
 This rule issues a warning when the class coupling is excessive. For more information, see [CA1506: Avoid excessive class coupling](/dotnet/fundamentals/code-analysis/quality-rules/ca1506).
 
-For a description of this rule, see the archived Code Analysis blog post: [Code Metrics as Check-in Policy](/archive/blogs/codeanalysis/code-metrics-as-check-in-policy) and the threshold description *Warning at above 80 for class and above 30 for a method*.  These seem abnormally high, but at least provide an extreme upper limit. If you hit this warning, then something is almost certainly wrong.
+For a description of this rule, see the archived Code Analysis blog post: [Code Metrics as Check-in Policy](/archive/blogs/codeanalysis/code-metrics-as-check-in-policy) and the threshold description *Warning at above 80 for class and above 30 for a method*.  These values seem abnormally high, but at least provide an extreme upper limit. If you hit this warning, then something is almost certainly wrong.
 
 ## Citations
 
