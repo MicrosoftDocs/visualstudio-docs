@@ -100,6 +100,9 @@ ms.date: 12/07/2020
 
 [!INCLUDE [Help me renew via Microsoft Store](renewing-purchasing-or-canceling/help-renewing/includes/help-me-renew-microsoft-store.md)]
 
+### Help with canceling
+[!INCLUDE [Help me cancel monthly or annual subscriptions](renewing-purchasing-or-canceling\help-canceling/includes/help-me-cancel-monthly-annual.md)]
+
 ### Order or purchase status
 [!INCLUDE [Find the status of my renewal or purchase](renewing-purchasing-or-canceling/order-or-purchase-status/includes/find-the-status-of-renewal-or-purchase.md)]
 
