@@ -1,5 +1,7 @@
 ---
 title: Project Subtypes | Microsoft Docs
+description: Learn how project subtypes let you customize behavior of the project systems of Visual Studio. VSPackages implement project subtypes using COM aggregation.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

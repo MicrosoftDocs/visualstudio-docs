@@ -23,7 +23,7 @@ You created a new label, but gave it the name of an existing label. Labels can b
 - Ensure that all labels you use in your programs are unique within their respective scopes.  
   
 ## See also  
- [Labeled Statement](../../javascript/reference/labeled-statement-javascript.md)   
- [switch Statement](../../javascript/reference/switch-statement-javascript.md)   
- [break Statement](../../javascript/reference/break-statement-javascript.md)   
- [continue Statement](../../javascript/reference/continue-statement-javascript.md)
+ [Labeled Statement](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/label)   
+ [switch Statement](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/switch)   
+ [break Statement](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/break)   
+ [continue Statement](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/continue)

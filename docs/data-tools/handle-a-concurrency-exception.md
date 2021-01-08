@@ -1,5 +1,7 @@
 ---
 title: Handle a concurrency exception
+description: Handle a concurrency exception (System.Data.DBConcurrencyException), which is raised when two users try to change the same data in a database at the same time.
+ms.custom: SEO-VS-2020
 ms.date: 09/11/2017
 ms.topic: how-to
 dev_langs:
@@ -177,7 +179,7 @@ Add the following code below the code that was added in the previous section:
 [!code-csharp[VbRaddataConcurrency#3](../data-tools/codesnippet/CSharp/handle-a-concurrency-exception_4.cs)]
 [!code-vb[VbRaddataConcurrency#3](../data-tools/codesnippet/VisualBasic/handle-a-concurrency-exception_4.vb)]
 
-## Test the form
+## Test the form behavior
 
 You can now test the form to make sure it behaves as expected. To simulate a concurrency violation, you change data in the database after filling the NorthwindDataSet.
 

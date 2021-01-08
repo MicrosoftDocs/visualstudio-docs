@@ -1,5 +1,6 @@
 ---
 title: Fix non-detectable dynamic parameters (web perf test)
+description: Learn how the web performance test recorder and playback engine automatically handles the most common types of dynamic parameters.
 ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
 ms.topic: how-to
@@ -183,13 +184,13 @@ To demonstrate both a detectable and a non-detectable dynamic parameter, we’ll
 
 3. Return to the Web Performance Test Results Viewer and select the *JScriptQuery.aspx* page that failed. Then, choose the request tab, verify that the show raw data check box is cleared, scroll down and choose quick find on the CustomQueryString.
 
-     ![Use quick find to isolate the dynamic parameter](../test/media/web_test_dynamicparameter_runresultsquckfind.png)
+     ![Screenshot of the Request tab in the Web Performance Text Results Viewer. A QueryString parameter is selected and QuickFind is highlighted on a context menu.](../test/media/web_test_dynamicparameter_runresultsquckfind.png)
 
 4. We know from looking at the test editor, that the *JScriptQuery.aspx* request's CustomQueryString was assigned a value of: `jScriptQueryString___1v0yhyiyr0raa2w4j4pwf5zl`, and that the suspected dynamic portion is "1v0yhyiyr0raa2w4j4pwf5zl". In the find what drop-down list, remove the suspect portion of the search string. The string should be "CustomQueryString=jScriptQueryString___".
 
      Dynamic parameters are assigned their values in one of the requests that precedes the request that has the error. Therefore, select the search up check box and choose find next until you see preceding request for *Querystring.aspx* highlighted in the request panel. This should occur after you choose find next three times.
 
-     ![Use quick find to isolate the dynamic parameter](../test/media/web_test_dynamicparameter_runresultsquckfind4.png)
+     ![Screenshot of the Web Performance Text Results Viewer. A query string is selected and a Find dialog is shown with SearchUp and Find Next selected.](../test/media/web_test_dynamicparameter_runresultsquckfind4.png)
 
      As shown in the response tab, and in the JavaScript implemented earlier shown below, the query string parameter CustomQueryString is assigned a value of " jScriptQueryString___" and is also concatenated with the returned value from the var sessionId.
 

@@ -1,5 +1,7 @@
 ---
 title: "Files Element | Microsoft Docs"
+description: View reference information about the Files element, which is an element in the SharePoint project item schema.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

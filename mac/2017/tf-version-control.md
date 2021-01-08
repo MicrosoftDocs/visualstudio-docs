@@ -13,11 +13,11 @@ ms.topic: troubleshooting
 
 > [!NOTE]
 > For the best version control experience on macOS, we recommend using Git instead of Team Foundation Version Control (TFVC). 
-Git is supported in Visual Studio for Mac and is the default option for repositories hosted in Team Foundation Server (TFS)/Azure DevOps. To learn more about using Git with TFS/Azure DevOps, see the [Setting up a Git Repository](/visualstudio/mac/set-up-git-repository) article.
+Git is supported in Visual Studio for Mac and is the default option for repositories hosted in Team Foundation Server (TFS)/Azure DevOps. To learn more about using Git with TFS/Azure DevOps, see the [Setting up a Git Repository](./set-up-git-repository.md) article.
 >
 > If you previously used the preview release of the TFVC extension for Visual Studio for Mac, it is no longer supported when upgrading to Visual Studio 2019 for Mac.
 
-Azure Repos provides two models of version control: [Git](/azure/devops/repos/git/?view=azure-devops), a distributed version control system, and [Team Foundation Version Control](/azure/devops/repos/tfvc/index?view=azure-devops) (TFVC), a centralized version control system.
+Azure Repos provides two models of version control: [Git](/azure/devops/repos/git/?view=azure-devops&preserve-view=true), a distributed version control system, and [Team Foundation Version Control](/azure/devops/repos/tfvc/index?view=azure-devops&preserve-view=true) (TFVC), a centralized version control system.
 
 Visual Studio for Mac provides full support for Git repositories, but requires some workarounds to work with TFVC. If you're using TFVC for version control today, here are some solutions you can use to access your source code hosted in TFVC:
 
@@ -65,7 +65,7 @@ To **setup the TEE-CLC manually**:
 
 Once the TEE-CLC is installed, you can run the command `tf eula` to view and accept the license agreement for the client.
 
-Finally, to authenticate with your TFS/Azure DevOps environment, you'll need to create a personal access token on the server. Learn more about [authenticating with personal access tokens](/azure/devops/integrate/get-started/authentication/pats?view=azure-devops). When creating a personal access token to use with TFVC, be sure to provide Full Access when configuring the token.
+Finally, to authenticate with your TFS/Azure DevOps environment, you'll need to create a personal access token on the server. Learn more about [authenticating with personal access tokens](/azure/devops/integrate/get-started/authentication/pats?view=azure-devops&preserve-view=true). When creating a personal access token to use with TFVC, be sure to provide Full Access when configuring the token.
 
 ### Using the TEE-CLC to connect to your repo
 
@@ -108,7 +108,7 @@ To learn more about the commands mentioned here, or others, you can use the foll
 
 > [!NOTE]
 > For the best version control experience on macOS, we recommend using Git instead of Team Foundation Version Control (TFVC). 
-Git is supported in Visual Studio for Mac and is the default option for repositories hosted in Team Foundation Server (TFS)/Azure DevOps. To learn more about using Git with TFS/Azure DevOps, see the [Setting up a Git Repository](/visualstudio/mac/set-up-git-repository) article.
+Git is supported in Visual Studio for Mac and is the default option for repositories hosted in Team Foundation Server (TFS)/Azure DevOps. To learn more about using Git with TFS/Azure DevOps, see the [Setting up a Git Repository](./set-up-git-repository.md) article.
 >
 > If you previously used the preview release of the TFVC extension for Visual Studio for Mac, it is no longer supported when upgrading to Visual Studio 2019 for Mac.
 
@@ -244,11 +244,11 @@ To use basic authentication it is necessary to enable **Alternative authenticati
 
 2. From your organization toolbar, select the gear icon and select **Policy**:
 
-    ![Policy settings option selected](media/tfvc-auth2.png)
+    ![Screenshot of the Azure DevOps organization toolbar with the gear icon selected, and Policy selected in the drop-down menu.](media/tfvc-auth2.png)
 
 3. Review your application connection settings. Change these settings, based on your security policies:
 
-    ![Policy settings option selected](media/tfvc-auth.png)
+    ![Screenshot of the Policy screen in Azure DevOps Services, showing the settings for Application Connection Policies.](media/tfvc-auth.png)
 
 #### I do not see anything in TFVC
 

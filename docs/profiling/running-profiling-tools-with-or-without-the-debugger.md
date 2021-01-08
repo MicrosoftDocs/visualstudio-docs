@@ -1,5 +1,6 @@
 ---
 title: "Run profiling tools with or without the debugger | Microsoft Docs"
+description: "Learn about differences between the different modes available for profiling tools"
 ms.date: "5/26/2020"
 ms.topic: "conceptual"
 ms.assetid: 3fcdccad-c1bd-4c67-bcec-bf33a8fb5d63
@@ -23,7 +24,8 @@ To help decide which tools and results to use, consider the following:
 - Debugger-integrated tool vs. non-debugger tool
   - External performance problems, like file I/O or network responsiveness issues, won't look much different in the debugger or non-debugger tools.
   - The debugger itself changes performance times, as it does necessary debugger operations like intercepting exception and module load events.
-  - Release build performance numbers in the Performance Profiler tools are the most precise and accurate. Debugger-integrated tool results are most useful to compare with other debugging-related measurements, or to use debugger features.
+  - Release build performance numbers in the Performance Profiler are the most precise and accurate. Debugger-integrated tool results are most useful to compare with other debugging-related measurements, or to use debugger features.
+  - Some tools, such as the .NET Object Allocation tool, are only available for non-debugger scenarios.
 - Debug vs. release build
   - For problems caused by CPU-intensive calls, there might be considerable performance differences between release and debug builds. Check to see whether the issue exists in release builds.
   - If the problem occurs only during debug builds, you probably don't need to run the non-debugger tools. For release build problems, decide whether features provided by the debugger-integrated tools will help to pinpoint the problem.
@@ -92,7 +94,7 @@ For more information, see:
 
 - [Analyze CPU usage](../profiling/cpu-usage.md)
 - [Analyze memory usage for .NET code](../profiling/dotnet-alloc-tool.md)
-- [Analyze memory usage](../profiling/analyze-memory-usage.md)
+- [Analyze memory usage](../profiling/memory-usage-without-debugging2.md)
 - [Analyze performance of .NET asynchronous code](../profiling/analyze-async.md)
 - [Analyze database performance](../profiling/analyze-database.md)
 - [Analyze GPU usage](../profiling/gpu-usage.md)

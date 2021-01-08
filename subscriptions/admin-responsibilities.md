@@ -1,18 +1,18 @@
 ---
-title: Administrator Responsibilities | Visual Studio Marketplace
+title: Admin responsibilities in Visual Studio subscriptions | Visual Studio Marketplace
 author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: b26b31dc-1eeb-4871-9ce6-2c980e703f1e
-ms.date: 09/03/2019
+ms.date: 10/22/2020
 ms.topic: conceptual
-description:  Learn about responsibilities of subscriptions administrators.
+description:  Learn about responsibilities of subscriptions admins.
 ---
-# Overview of administrator responsibilities
-As an administrator, you can manage subscriptions for your organization.  The administrator role also carries responsibilities to ensure that the subscriptions are managed in accordance with the license terms. This article outlines the responsibilities, benefits, and limitations of the administrator role.
+# Overview of admin responsibilities
+As an admin, you can manage subscriptions for your organization.  The admin role also carries responsibilities to ensure that the subscriptions are managed in accordance with the license terms. This article outlines the responsibilities, benefits, and limitations of the admin role.
 
 ## Roles & responsibilities
-A Visual Studio subscriptions administrator has four key responsibilities:
+A Visual Studio subscriptions admin has four key responsibilities:
 
 1. **Understand the benefits and restrictions of Visual Studio subscriptions.** Correctly understanding your benefits can enable you to reduce hardware costs by using cloud services, and reduce software costs with per-user licenses for pre-production environments. 
 2. **Assign Visual Studio subscriptions to specific, named individuals and encourage usage.** Your contract requires that Visual Studio subscriptions be assigned to specific, named individuals. Follow up with your subscribers to ensure they access and take full advantage of the benefits included in their Visual Studio subscription.
@@ -37,7 +37,7 @@ Visual Studio subscriptions allow developers to install and use software to desi
 - [Microsoft 365 documentation](/microsoft-365/)
 
 ## Next steps
-Learn more about responsibilities for administrators:
+Learn more about responsibilities for admins:
 - [Inventory of pre-production environment](admin-inventory.md)
 - [Manage large teams and external contractors](manage-teams.md)
 - [Track user assignments and process orders](assignments-orders.md)

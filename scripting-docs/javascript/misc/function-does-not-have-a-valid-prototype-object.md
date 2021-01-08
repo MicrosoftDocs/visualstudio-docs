@@ -23,5 +23,5 @@ You attempted to use **instanceof** to determine if an object was derived from a
 - Ensure the function's `prototype` property refers to a valid [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)] object.  
   
 ## See also  
- [Function Object](../../javascript/reference/function-object-javascript.md)   
- [prototype Property (Object)](../../javascript/reference/prototype-property-object-javascript.md)
+ [Function Object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Function)   
+ [prototype Property (Object)](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object)

@@ -3,8 +3,6 @@ title: Managing Azure resources with Cloud Explorer | Microsoft Docs
 description: Learn how to use Cloud Explorer to browse and manage Azure resources within Visual Studio.
 author: ghogen
 manager: jillfra
-assetId: 6347dc53-f497-49d5-b29b-e8b9f0e939d7
-ms.custom: vs-azure
 ms.workload: azure-vs
 ms.topic: conceptual
 ms.date: 03/25/2017
@@ -50,11 +48,11 @@ To view the resources associated with an Azure account, you must first add the a
 
 1. In **Cloud Explorer**, select **Account Management**.
 
-   ![Cloud Explorer Azure account settings icon](./media/vs-azure-tools-resources-managing-with-cloud-explorer/azure-account-settings.png)
+   ![Azure account settings](./media/vs-azure-tools-resources-managing-with-cloud-explorer/azure-account-settings.png)
 
 1. Next to the account you want to remove, select **Manage Accounts**.
 
-   ![Cloud Explorer Azure account settings icon](./media/vs-azure-tools-resources-managing-with-cloud-explorer/remove-account.png)
+   ![Remove account](./media/vs-azure-tools-resources-managing-with-cloud-explorer/remove-account.png)
 
 1. Choose **Remove** to remove an account.
 

@@ -9,7 +9,7 @@ ms.date: 09/17/2020
 user.type: subscriber, admin
 tags: billing
 subscription.type: vl, cloud, retail, partner
-sap.id: d49256cb-844e-ebfd-210e-a30a61a3adad
+sap.id: 2db8f927-5814-835b-cc9d-daab30a7a09e
 ---
 
 ## How do I find the status of my renewal or purchase?

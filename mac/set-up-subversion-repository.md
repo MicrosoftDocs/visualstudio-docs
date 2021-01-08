@@ -1,6 +1,6 @@
 ---
 title: Setting Up a Subversion Repository
-description: Using Subversion in Visual Studio for Mac.
+description: Learn how to install and set up Subversion as a centralized version control system in Visual Studio for Mac.
 author: jmatthiesen
 ms.author: jomatthi
 ms.date: 05/06/2018

@@ -1,6 +1,8 @@
 ---
 title: Code analysis using Roslyn analyzers
 ms.date: 09/01/2020
+description: Become familiar with source code analysis in Visual Studio. Learn about code fixes and the different types of analyzers and severity levels.
+ms.custom: SEO-VS-2020
 ms.topic: overview
 helpviewer_keywords:
 - code analysis, managed code
@@ -19,7 +21,7 @@ ms.workload:
 
 Analyzers can be divided into the following groups:
 
-- [Code style](/visualstudio/ide/editorconfig-code-style-settings-reference?view=vs-2019&preserve-view=true#convention-categories) analyzers are built in to Visual Studio. The diagnostic ID, or code, for these analyzers is of the format IDExxxx, for example, IDE0067. You can configure preferences in the [text editor options page](../ide/code-styles-and-code-cleanup.md) or in an [EditorConfig file](/dotnet/fundamentals/code-analysis/code-style-rule-options). Starting in .NET 5.0, code style analyzers are included with the .NET SDK and can be strictly enforced as build warnings or errors. For more information, see [here](/dotnet/fundamentals/productivity/code-analysis#code-style-analysis).
+- [Code style](/dotnet/fundamentals/code-analysis/code-style-rule-options?preserve-view=true&view=vs-2019#convention-categories) analyzers are built in to Visual Studio. The diagnostic ID, or code, for these analyzers is of the format IDExxxx, for example, IDE0067. You can configure preferences in the [text editor options page](../ide/code-styles-and-code-cleanup.md) or in an [EditorConfig file](/dotnet/fundamentals/code-analysis/code-style-rule-options). Starting in .NET 5.0, code style analyzers are included with the .NET SDK and can be strictly enforced as build warnings or errors. For more information, see [here](/dotnet/fundamentals/productivity/code-analysis#code-style-analysis).
 
 - [Code quality](/dotnet/fundamentals/code-analysis/quality-rules/index) analyzers are now included with the .NET 5 SDK and enabled by default. The diagnostic ID, or code, for these analyzers is of the format CAxxxx, for example, CA1822. For more information, see [Overview of .NET code quality analysis](/dotnet/fundamentals/productivity/code-analysis#code-quality-analysis).
 
@@ -71,7 +73,7 @@ If you install analyzers as a Visual Studio extension, they apply at the solutio
 
 To have rules enforced at build time, including through the command line or as part of a continuous integration (CI) build you can choose from one of the following options:
 
-- Create a .NET 5.0 project which includes analyzers by default in the .NET SDK. Code analysis is enabled, by default, for projects that target .NET 5.0 or later. You can enable code analysis on projects that target earlier .NET versions by setting the [EnableNETAnalyzers](https://docs.microsoft.com/dotnet/core/project-sdk/msbuild-props#enablenetanalyzers) property to true.
+- Create a .NET 5.0 project which includes analyzers by default in the .NET SDK. Code analysis is enabled, by default, for projects that target .NET 5.0 or later. You can enable code analysis on projects that target earlier .NET versions by setting the [EnableNETAnalyzers](/dotnet/core/project-sdk/msbuild-props#enablenetanalyzers) property to true.
 
 - Install analyzers as a NuGet package. Analyzer warnings and errors don't show up in the build report if you install the analyzers as an extension.
 

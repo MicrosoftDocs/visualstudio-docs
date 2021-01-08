@@ -1,5 +1,7 @@
 ---
 title: Syntax Coloring in a Legacy Language Service | Microsoft Docs
+description: Learn how Visual Studio implements a syntax coloring service in a legacy language service to identify elements of the language and display them in colors in an editor.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -22,7 +24,7 @@ Visual Studio uses a coloring service to identify elements of the language and d
  ![SVC Colorizer graphic](../../extensibility/internals/media/figlgsvccolorizer.gif)
 
 > [!NOTE]
-> The syntax coloring service is separate from the general Visual Studio mechanism for colorizing text. For more information about the general [!INCLUDE[vsipsdk](../../extensibility/includes/vsipsdk_md.md)] mechanism supporting colorizing, see [Using Fonts and Colors](../../vs-2015/extensibility/using-fonts-and-colors.md?view=vs-2015&preserve-view=true).
+> The syntax coloring service is separate from the general Visual Studio mechanism for colorizing text. For more information about the general [!INCLUDE[vsipsdk](../../extensibility/includes/vsipsdk_md.md)] mechanism supporting colorizing, see [Using Fonts and Colors](/previous-versions/visualstudio/visual-studio-2015/extensibility/using-fonts-and-colors?preserve-view=true&view=vs-2015).
 
  Besides the colorizer, the language service can supply custom colorable items that are used by the editor, by advertising that it supplies custom colorable items. You can do this by implementing the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsProvideColorableItems> interface on the same object that implements the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsLanguageInfo> interface. It returns the number of custom colorable items when the editor calls the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsProvideColorableItems.GetItemCount%2A> method, and it returns an individual custom colorable item when the editor calls the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsProvideColorableItems.GetColorableItem%2A> method.
 
@@ -54,7 +56,7 @@ Visual Studio uses a coloring service to identify elements of the language and d
     3. Use the colorization information returned by the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsColorizer.ColorizeLine%2A> method to display the selected text.
 
 > [!NOTE]
-> In addition to using a language service colorizer, a VSPackage can also use the general-purpose Visual Studio text coloring mechanism. For more information about this mechanism, see [Using Fonts and Colors](../../vs-2015/extensibility/using-fonts-and-colors.md?view=vs-2015&preserve-view=true).
+> In addition to using a language service colorizer, a VSPackage can also use the general-purpose Visual Studio text coloring mechanism. For more information about this mechanism, see [Using Fonts and Colors](/previous-versions/visualstudio/visual-studio-2015/extensibility/using-fonts-and-colors?preserve-view=true&view=vs-2015).
 
 ## In This Section
 - [Implementing Syntax Coloring](../../extensibility/internals/implementing-syntax-coloring.md)

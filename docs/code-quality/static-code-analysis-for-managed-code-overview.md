@@ -1,6 +1,8 @@
 ---
 title: Legacy analysis for managed code
 ms.date: 06/12/2019
+description: Learn about legacy analysis in Visual Studio. See how to suppress warnings and how to run analyses manually, automatically, and during check-ins and builds.
+ms.custom: SEO-VS-2020
 ms.topic: conceptual
 helpviewer_keywords:
   - "code analysis, managed code"
@@ -78,7 +80,7 @@ You can accomplish this by specifying check-in policies. For more information, s
 
 ## Team build integration
 
-You can use the integrated features of the build system to run the analysis tool as part of the build process. For more information, see [Azure Pipelines](/azure/devops/pipelines/index?view=vsts).
+You can use the integrated features of the build system to run the analysis tool as part of the build process. For more information, see [Azure Pipelines](/azure/devops/pipelines/index?view=vsts&preserve-view=true).
 
 ## See also
 

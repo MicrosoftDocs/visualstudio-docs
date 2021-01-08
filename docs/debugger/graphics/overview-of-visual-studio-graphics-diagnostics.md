@@ -1,6 +1,7 @@
 ---
 title: "Overview of graphics diagnostics | Microsoft Docs"
-ms.custom: "seodec18"
+description: Visual Studio Graphics Diagnostics is a set of tools to log Direct3D activity, and analyze the logs to troubleshoot rendering and performance problems.
+ms.custom: "SEO-VS-2020, seodec18"
 ms.date: "02/09/2017"
 ms.topic: "conceptual"
 author: "mikejo5000"
@@ -13,7 +14,7 @@ ms.workload:
 Visual Studio *Graphics Diagnostics* is a set of tools for recording and then analyzing rendering and performance problems in Direct3D apps. Graphics Diagnostics can be used on apps that are running locally on your Windows PC or on a remote PC or device.
 
 ## Using Graphics Diagnostics to debug rendering problems
- Debugging rendering problems in a graphically-rich app is not as straight-forward as starting a debugger and stepping through some code. In each frame, hundreds of thousands of unique pixels are produced, each according to a complex set of state, data, parameters, and code—of these, perhaps only a few pixels will exhibit the problem you are trying to diagnose. To complicate matters even further, the code that generates each pixel is executed on specialized hardware that processes hundreds of pixels in parallel. Traditional debugging tools and techniques—which are difficult to leverage in even lightly-threaded code—are ineffective when faced with so much data.
+ Debugging rendering problems in a graphically rich app is not as straightforward as starting a debugger and stepping through some code. In each frame, hundreds of thousands of unique pixels are produced, each according to a complex set of state, data, parameters, and code—of these, perhaps only a few pixels will exhibit the problem you are trying to diagnose. To complicate matters even further, the code that generates each pixel is executed on specialized hardware that processes hundreds of pixels in parallel. Traditional debugging tools and techniques—which are difficult to leverage in even lightly-threaded code—are ineffective when faced with so much data.
 
  The Graphics Diagnostics tools in [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] are designed to help you locate rendering problems by starting with the visual artifacts that indicate the problem and then tracing back to the source of the problem by focusing only on relevant shader code, pipeline stages, draw calls, resources, and device state—in the app's own source code.
 
@@ -21,6 +22,10 @@ Visual Studio *Graphics Diagnostics* is a set of tools for recording and then an
  Graphics Diagnostics supports apps that use Direct3D 10 or greater, and provides limited support for apps that use Direct2D. It does not support apps that use earlier versions of Direct3D, DirectDraw, or other graphics APIs.
 
 ### Windows 10 and Direct3D 12
+> [!NOTE]
+> Visual Studio recommends PIX on Windows for DirectX 12 games. [PIX on Windows](https://aka.ms/PIXonWindows) is a performance tuning and debugging tool that fully supports DirectX 12. [Find out more information](visual-studio-graphics-diagnostics-directx-12.md) or [download here](https://aka.ms/downloadPIX).
+
+
  Windows 10 introduced *Direct3D 12*, which is substantially different from Direct3D 10 and Direct3D 11. These differences bring DirectX back into alignment with modern graphics hardware and unleashing its full potential, but they also bring big API changes and place greater responsibility on the programmer to manage resource lifetimes and contention. Despite the differences, Graphics Diagnostics with Direct3D 12 maintains feature-parity with Graphics Diagnostics with Direct3D 11.2.
 
  Windows 10 also maintains support for previous versions of Direct3D and the games and applications that rely on them. Graphics Diagnostics in Visual Studio continues to support Direct3D 10 and Direct3D 11 on Windows 10.

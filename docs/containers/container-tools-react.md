@@ -3,7 +3,7 @@ title: Visual Studio Container Tools with ASP.NET Core and React.js
 titleSuffix: ""
 ms.custom: SEO-VS-2020
 author: ghogen
-description: Learn how to use Visual Studio Container Tools and Docker for Windows
+description: Learn how to create a containerized React SPA app with Visual Studio Container Tools and Docker 
 ms.author: ghogen
 ms.date: 05/14/2020
 ms.technology: vs-azure
@@ -25,7 +25,7 @@ With Visual Studio, you can easily build, debug, and run containerized ASP.NET C
 ::: moniker range=">=vs-2019"
 * [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
 * [Visual Studio 2019](https://visualstudio.microsoft.com/downloads) with the **Web Development**, **Azure Tools** workload, and/or **.NET Core cross-platform development** workload installed
-* [.NET Core 2.2 Development Tools](https://dotnet.microsoft.com/download/dotnet-core/2.2) for development with .NET Core 2.2
+* [.NET Core 3.1 Development Tools](https://dotnet.microsoft.com/download/dotnet-core/3.1) for development with .NET Core 3.1.
 * To publish to Azure Container Registry, an Azure subscription. [Sign up for a free trial](https://azure.microsoft.com/offers/ms-azr-0044p/).
 * [Node.js](https://nodejs.org/en/download/)
 * For Windows containers, Windows 10 version 1903 or later, to use the Docker images referenced in this article.
@@ -41,11 +41,11 @@ For Docker installation, first review the information at [Docker Desktop for Win
 1. Create a new project using the **ASP.NET Core Web Application** template.
 1. Select **React.js**. You can't select **Enable Docker Support**, but don't worry, you can add that support after you create the project.
 
-   ![Screenshot of new React.js project](media/container-tools-react/vs2017/new-react-project.png)
+   ![Screenshot of new React.js project](media/container-tools-react/vs-2017/new-react-project.png)
 
 1. Right-click on the project node, and choose **Add** > **Docker Support** to add a Dockerfile to your project.
 
-   ![Add Docker support](media/container-tools-react/vs2017/add-docker-support.png)
+   ![Add Docker support](media/container-tools-react/vs-2017/add-docker-support.png)
 
 1. Select the container type, and click **OK**.
 ::: moniker-end
@@ -53,11 +53,11 @@ For Docker installation, first review the information at [Docker Desktop for Win
 1. Create a new project using the **ASP.NET Core Web Application** template.
 1. Select **React.js**, and click **Create**. You can't select **Enable Docker Support**, but don't worry, you can add that support later.
 
-   ![Screenshot of new React.js project](media/container-tools-react/vs2019/new-react-project.png)
+   ![Screenshot of new React.js project](media/container-tools-react/vs-2019/new-react-project.png)
 
 1. Right-click on the project node, and choose **Add** > **Docker Support** to add a Dockerfile to your project.
 
-   ![Add Docker support](media/container-tools-react/vs2017/add-docker-support.png)
+   ![Add Docker support](media/container-tools-react/vs-2017/add-docker-support.png)
 
 1. Select the container type.
 ::: moniker-end
@@ -78,33 +78,35 @@ RUN apt-get install -y nodejs
 The *Dockerfile* should now look something like this:
 
 ```Dockerfile
-FROM microsoft/dotnet:2.2-aspnetcore-runtime-stretch-slim AS base
+#See https://aka.ms/containerfastmode to understand how Visual Studio uses this Dockerfile to build your images for faster debugging.
+
+FROM mcr.microsoft.com/dotnet/core/aspnet:3.1-buster-slim AS base
 WORKDIR /app
-EXPOSE 80 
+EXPOSE 80
 EXPOSE 443
 RUN curl -sL https://deb.nodesource.com/setup_10.x |  bash -
 RUN apt-get install -y nodejs
 
-FROM microsoft/dotnet:2.2-sdk-stretch AS build
+FROM mcr.microsoft.com/dotnet/core/sdk:3.1-buster AS build
 RUN curl -sL https://deb.nodesource.com/setup_10.x |  bash -
 RUN apt-get install -y nodejs
 WORKDIR /src
-COPY ["WebApplication37/WebApplication37.csproj", "WebApplication37/"]
-RUN dotnet restore "WebApplication37/WebApplication37.csproj"
+COPY ["WebApplication-ReactSPA/WebApplication-ReactSPA.csproj", "WebApplication-ReactSPA/"]
+RUN dotnet restore "WebApplication-ReactSPA/WebApplication-ReactSPA.csproj"
 COPY . .
-WORKDIR "/src/WebApplication37"
-RUN dotnet build "WebApplication37.csproj" -c Release -o /app
+WORKDIR "/src/WebApplication-ReactSPA"
+RUN dotnet build "WebApplication-ReactSPA.csproj" -c Release -o /app/build
 
 FROM build AS publish
-RUN dotnet publish "WebApplication37.csproj" -c Release -o /app
+RUN dotnet publish "WebApplication-ReactSPA.csproj" -c Release -o /app/publish
 
 FROM base AS final
 WORKDIR /app
-COPY --from=publish /app .
-ENTRYPOINT ["dotnet", "WebApplication37.dll"]
+COPY --from=publish /app/publish .
+ENTRYPOINT ["dotnet", "WebApplication-ReactSPA.dll"]
 ```
 
-The preceding *Dockerfile* is based on the [microsoft/aspnetcore](https://hub.docker.com/r/microsoft/aspnetcore/) image, and includes instructions for modifying the base image by building your project and adding it to the container.
+The preceding *Dockerfile* is based on the [mcr.microsoft.com/dotnet/core/aspnet](https://hub.docker.com/_/microsoft-dotnet-core-aspnet/) image, and includes instructions for modifying the base image by building your project and adding it to the container.
 
 When the new project dialog's **Configure for HTTPS** check box is checked, the *Dockerfile* exposes two ports. One port is used for HTTP traffic; the other port is used for HTTPS. If the check box isn't checked, a single port (80) is exposed for HTTP traffic.
 
@@ -149,28 +151,28 @@ Update the Dockerfile by adding the following lines. This will copy node and npm
       Expand-Archive nodejs.zip -DestinationPath C:\; `
       Rename-Item "C:\node-v10.16.3-win-x64" c:\nodejs
 
-      FROM mcr.microsoft.com/dotnet/core/aspnet:2.2-nanoserver-1903 AS base
+      FROM mcr.microsoft.com/dotnet/core/aspnet:3.1-nanoserver-1903 AS base
       WORKDIR /app
       EXPOSE 80
       EXPOSE 443
       COPY --from=downloadnodejs C:\nodejs\ C:\Windows\system32\
 
-      FROM mcr.microsoft.com/dotnet/core/sdk:2.2-nanoserver-1903 AS build
+      FROM mcr.microsoft.com/dotnet/core/sdk:3.1-nanoserver-1903 AS build
       COPY --from=downloadnodejs C:\nodejs\ C:\Windows\system32\
       WORKDIR /src
-      COPY ["WebApplication7/WebApplication37.csproj", "WebApplication37/"]
-      RUN dotnet restore "WebApplication7/WebApplication7.csproj"
+      COPY ["WebApplicationReact1/WebApplicationReact1.csproj", "WebApplicationReact1/"]
+      RUN dotnet restore "WebApplicationReact1/WebApplicationReact1.csproj"
       COPY . .
-      WORKDIR "/src/WebApplication37"
-      RUN dotnet build "WebApplication37.csproj" -c Release -o /app/build
+      WORKDIR "/src/WebApplicationReact1"
+      RUN dotnet build "WebApplicationReact1.csproj" -c Release -o /app/build
 
       FROM build AS publish
-      RUN dotnet publish "WebApplication37.csproj" -c Release -o /app/publish
+      RUN dotnet publish "WebApplicationReact1.csproj" -c Release -o /app/publish
 
       FROM base AS final
       WORKDIR /app
       COPY --from=publish /app/publish .
-      ENTRYPOINT ["dotnet", "WebApplication37.dll"]
+      ENTRYPOINT ["dotnet", "WebApplicationReact1.dll"]
       ```
 
    1. Update the .dockerignore file by removing the `**/bin`.
@@ -184,22 +186,22 @@ The **Container Tools** option in the **Output** window shows what actions are t
 The browser shows the app's home page.
 
 ::: moniker range="vs-2017"
-   ![Screenshot of running app](media/container-tools-react/vs2017/running-app.png)
+   ![Screenshot of running app](media/container-tools-react/vs-2017/running-app.png)
 ::: moniker-end
 ::: moniker range=">=vs-2019"
-   ![Screenshot of running app](media/container-tools-react/vs2019/running-app.png)
+   ![Screenshot of running app](media/container-tools-react/vs-2019/running-app.png)
 ::: moniker-end
 
 Try navigating to the *Counter* page and test the client-side code for the counter by clicking the **Increment** button.
 
 Open the **Package Manager Console** (PMC) from the menu **Tools**> NuGet Package Manager, **Package Manager Console**.
 
-The resulting Docker image of the app is tagged as *dev*. The image is based on the *2.2-aspnetcore-runtime* tag of the *microsoft/dotnet* base image. Run the `docker images` command in the **Package Manager Console** (PMC) window. The images on the machine are displayed:
+The resulting Docker image of the app is tagged as *dev*. The image is based on the *3.1-nanoserver-1903* tag of the *dotnet/core/aspnet* base image. Run the `docker images` command in the **Package Manager Console** (PMC) window. The images on the machine are displayed:
 
 ```console
-REPOSITORY        TAG                     IMAGE ID      CREATED         SIZE
-webapplication37  dev                     d72ce0f1dfe7  30 seconds ago  255MB
-microsoft/dotnet  2.2-aspnetcore-runtime  fcc3887985bb  6 days ago      255MB
+REPOSITORY                             TAG                 IMAGE ID            CREATED             SIZE
+webapplicationreact1                   dev                 09be6ec2405d        2 hours ago         352MB
+mcr.microsoft.com/dotnet/core/aspnet   3.1-buster-slim     e3559b2d50bb        10 days ago         207MB
 ```
 
 > [!NOTE]
@@ -208,17 +210,19 @@ microsoft/dotnet  2.2-aspnetcore-runtime  fcc3887985bb  6 days ago      255MB
 Run the `docker ps` command in PMC. Notice the app is running using the container:
 
 ```console
-CONTAINER ID        IMAGE                  COMMAND               CREATED             STATUS              PORTS                                           NAMES
-cf5d2ef5f19a        webapplication37:dev   "tail -f /dev/null"   2 minutes ago       Up 2 minutes        0.0.0.0:52036->80/tcp, 0.0.0.0:44342->443/tcp   priceless_cartwright
+CONTAINER ID        IMAGE                      COMMAND               CREATED             STATUS              PORTS                                           NAMES
+56d1b1008c89        webapplicationreact1:dev   "tail -f /dev/null"   2 hours ago         Up 2 hours          0.0.0.0:32771->80/tcp, 0.0.0.0:32770->443/tcp   WebApplication-React1
 ```
 
 ## Publish Docker images
 
 Once the develop and debug cycle of the app is completed, you can create a production image of the app.
 
+:::moniker range="vs-2017"
+
 1. Change the configuration drop-down to **Release** and build the app.
 1. Right-click your project in **Solution Explorer** and choose **Publish**.
-1. On the publish target dialog, select the **Container Registry** tab.
+1. On the publish target dialog, select **Container Registry**.
 1. Choose **Create New Azure Container Registry** and click **Publish**.
 1. Fill in your desired values in the **Create a new Azure Container Registry**.
 
@@ -230,11 +234,48 @@ Once the develop and debug cycle of the app is completed, you can create a produ
     | **[SKU](/azure/container-registry/container-registry-skus)** | Standard | Service tier of the container registry  |
     | **Registry Location** | A location close to you | Choose a Location in a [region](https://azure.microsoft.com/regions/) near you or near other services that will use your container registry. |
 
-    ![Visual Studio's create Azure Container Registry dialog][0]
+    ![Visual Studio's create Azure Container Registry dialog](media/hosting-web-apps-in-docker/vs-acr-provisioning-dialog.png)
 
-1. Click **Create**.
+1. Select **Create**.
 
    ![Screenshot showing successful publish](media/container-tools/publish-succeeded.png)
+:::moniker-end
+
+:::moniker range=">=vs-2019"
+
+1. Change the configuration drop-down to **Release** and build the app.
+1. Right-click your project in **Solution Explorer** and choose **Publish**.
+1. On the publish target dialog, select **Docker Container Registry**.
+
+   ![Choose Docker Container Registry](media/container-tools-react/vs-2019/publish-dialog1.png)
+
+1. Next, choose **Azure Container Registry**.
+
+   ![Choose Azure Container Registry](media/container-tools-react/vs-2019/publish-dialog-acr.png)
+
+1. Choose **Create a new Azure Container Registry**.
+1. Fill in your desired values in the **Create new Azure Container Registry** screen.
+
+    | Setting      | Suggested value  | Description                                |
+    | ------------ |  ------- | -------------------------------------------------- |
+    | **DNS Prefix** | Globally unique name | Name that uniquely identifies your container registry. |
+    | **Subscription** | Choose your subscription | The Azure subscription to use. |
+    | **[Resource Group](/azure/azure-resource-manager/resource-group-overview)** | myResourceGroup |  Name of the resource group in which to create your container registry. Choose **New** to create a new resource group.|
+    | **[SKU](/azure/container-registry/container-registry-skus)** | Standard | Service tier of the container registry  |
+    | **Registry Location** | A location close to you | Choose a Location in a [region](https://azure.microsoft.com/regions/) near you or near other services that will use your container registry. |
+
+    ![Visual Studio's create Azure Container Registry dialog](media/container-tools-react/vs-2019/azure-container-registry-details.png)
+
+1. Select **Create**, and then select **Finish**.
+
+   ![Select or create a new ACR](media/container-tools-react/vs-2019/publish-dialog2.png)
+
+   When the publish process ends, you can review the publish settings, and edit them, when needed, or publish the image again using the **Publish** button.
+
+   ![Screenshot showing successful publish](media/container-tools-react/vs-2019/publish-finished.png)
+
+   To start again using the **Publish** dialog, delete the publish profile by using the **Delete** link on this page, and then choose **Publish** again.
+:::moniker-end
 
 ## Next steps
 
@@ -246,9 +287,3 @@ You can now pull the container from the registry to any host capable of running 
 * [Troubleshoot Visual Studio development with Docker](troubleshooting-docker-errors.md)
 * [Visual Studio Container Tools GitHub repository](https://github.com/Microsoft/DockerTools)
 
-::: moniker range="vs-2017"
-[0]:media/hosting-web-apps-in-docker/vs-acr-provisioning-dialog.png
-::: moniker-end
-::: moniker range=">=vs-2019"
-[0]:media/hosting-web-apps-in-docker/vs-acr-provisioning-dialog-2019.png
-::: moniker-end

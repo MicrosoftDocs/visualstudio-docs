@@ -1,5 +1,7 @@
 ---
 title: Bind to data in XAML Designer
+description: Learn how to bind data to a control in the XAMl Designer by setting data binding properties using the artboard and the Properties window.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords:

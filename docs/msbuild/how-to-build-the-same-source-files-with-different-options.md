@@ -1,5 +1,6 @@
 ---
 title: Build the same source files with different options
+description: Learn how to create different MSBuild build configurations to build the same source files with different options.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
@@ -82,7 +83,7 @@ Once your project file is written to accept multiple configurations, you need to
 
   You can change this behavior by using the `TreatAsLocalProperty` attribute in a project tag. For property names that are listed with that attribute, the property value that's specified on the command line doesn't take precedence over the value in the project file. You can find an example later in this topic.
 
-## Example
+## Example 1
 
 The following code example, the "Hello World" project, contains two new property groups that can be used to create a Debug build and a Release build.
 
@@ -150,7 +151,7 @@ msbuild consolehwcs1.proj -p:flavor=retail
 </Project>
 ```
 
-## Example
+## Example 2
 
 The following example illustrates how to use the `TreatAsLocalProperty` attribute. The `Color` property has a value of `Blue` in the project file and `Green` in the command line. With `TreatAsLocalProperty="Color"` in the project tag, the command-line property (`Green`) doesn't override the property that's defined in the project file (`Blue`).
 

@@ -50,7 +50,7 @@ For Node.js projects, the easiest way to install npm packages is through the npm
 
 In this window you can search for a package, specify options, and install.
 
-![Search npm package](../javascript/media/search-package.png)
+![Screenshot of the Install New npm Packages dialog. The azure 2.2.1-preview package is selected and the details and options for that package are shown.](../javascript/media/search-package.png)
 
 * **Dependency type** - Chose between **Standard**, **Development**, and **Optional** packages. Standard specifies that the package is a runtime dependency, whereas Development specifies that the package is only required during development.
 * **Add to package.json** - Recommended. This configurable option is deprecated.
@@ -68,7 +68,7 @@ You can see the progress of the installation in the **npm** output in the **Outp
 
 npm packages are shown in Solution Explorer. The entries under the **npm** node mimic the dependencies in the *package.json* file.
 
-![Search npm package](../javascript/media/solution-explorer-status.png)
+![Screenshot of the npm node in Solution Explorer showing the installation status of the npm packages.](../javascript/media/solution-explorer-status.png)
 
 ### Package status
 
@@ -82,12 +82,12 @@ Right-click the **npm** node to take one of the following actions:
 
 * **Install New npm Packages** Opens the UI to install new packages.
 * **Install npm Packages** Runs the npm install command to install all packages listed in *package.json*. (Runs `npm install`.)
-* **Update npm Packages** Updates packages to the latest versions, according to the semantic versioning (semver) range specified in *package.json*. (Runs `npm update --save`.). Semver ranges are typically specified using "~" or "^". For more information, [package.json configuration](../javascript/configure-packages-with-package-json.md).
+* **Update npm Packages** Updates packages to the latest versions, according to the semantic versioning (SemVer) range specified in *package.json*. (Runs `npm update --save`.). SemVer ranges are typically specified using "~" or "^". For more information, [package.json configuration](../javascript/configure-packages-with-package-json.md).
 
 Right-click a package node to take one of the following actions:
 
 * **Install npm Package(s)** Runs the npm install command to install the package version listed in *package.json*. (Runs `npm install`.)
-* **Update npm Package(s)** Updates the package to the latest version, according to the semver range specified in *package.json*. (Run `npm update --save`.) Semver ranges are typically specified using "~" or "^".
+* **Update npm Package(s)** Updates the package to the latest version, according to the SemVer range specified in *package.json*. (Run `npm update --save`.) SemVer ranges are typically specified using "~" or "^".
 * **Uninstall npm Package(s)** Uninstalls the package and removes it from *package.json* (Runs `npm uninstall --save`.)
 ::: moniker-end
 ::: moniker range="vs-2017"
@@ -125,7 +125,7 @@ For projects such as ASP.NET Core projects, you can integrate npm support in you
 * [Install packages using package.json](#npmInstallPackage)
 
 >[!NOTE]
-> For ASP.NET Core projects, you can also use [Library Manager](/aspnet/core/client-side/libman/?view=aspnetcore-3.1) or yarn instead of npm to install client-side JavaScript and CSS files.
+> For ASP.NET Core projects, you can also use [Library Manager](/aspnet/core/client-side/libman/?view=aspnetcore-3.1&preserve-view=true) or yarn instead of npm to install client-side JavaScript and CSS files.
 
 ### <a name="npmAdd"></a> Add npm support to a project (ASP.NET Core)
 
@@ -159,7 +159,7 @@ When you save the file, Visual Studio adds the package under the **Dependencies 
 
 For projects with npm included, you can configure npm packages using `package.json`. Right-click the npm node in Solution Explorer and choose **Open package.json**.
 
-![Search npm package](../javascript/media/npm-add-package.png)
+![Screenshot of the Solution Explorer with the npm node selected. A right-click context menu is open and Open package.json is selected.](../javascript/media/npm-add-package.png)
 
 IntelliSense in *package.json* helps you select a particular version of an npm package.
 

@@ -11,7 +11,7 @@ ms.topic: how-to
 # Install a preview release
 
 > [!NOTE]
-> Visual Studio 2019 for Mac preview is [now available for installation](/visualstudio/mac/installation/?view=vsmac-2019) and testing.
+> Visual Studio 2019 for Mac preview is [now available for installation](./installation.md?view=vsmac-2019) and testing.
 
 ## Install an update for Visual Studio for Mac
 

@@ -1,10 +1,10 @@
 ---
 title: Azure Enterprise Agreement DevTest offer
 author: evanwindom
-ms.author: lank
-manager: lank
+ms.author: v-evwin
+manager: cabuschl
 ms.assetid: a335ed23-34ee-40cb-83c6-6c93dee57424
-ms.date: 02/23/2020
+ms.date: 10/26/2020
 ms.topic: how-to
 description:  Learn how to take advantage of special Azure DevTest pricing available to customers with Enterprise Agreements
 ---
@@ -14,7 +14,7 @@ description:  Learn how to take advantage of special Azure DevTest pricing avail
 This offer, which is part of the Enterprise Agreement, is for teams of active Visual Studio subscribers to run dev/test workloads on Microsoft Azure, providing discounted rates on Windows virtual machines and access to exclusive images in the Azure Gallery. This offer is limited to development and testing use only, and cannot be used in production.  
 
 Using the offers is a two-step process:
-1. Offers must be enabled by an administrator in the EA Portal.
+1. Offers must be enabled by an admin in the EA Portal.
 2. Individual subscribers need to create subscriptions for their use. 
 
 A [tutorial video](https://channel9.msdn.com/blogs/EA.Azure.com/Enabling-and-Creating-EA-DevTest-Subscriptions-through-the-EA-Portal) is also available to demonstrate the process.  

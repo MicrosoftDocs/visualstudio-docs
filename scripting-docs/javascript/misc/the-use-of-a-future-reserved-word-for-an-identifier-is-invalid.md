@@ -20,4 +20,4 @@ manager: "ghogen"
   
  You cannot use a future reserved word as the name of a variable, function, or other user-defined identifier.  
   
- For more information about future reserved words, see [JavaScript Future Reserved Words](../../javascript/reference/javascript-future-reserved-words.md).
+ For more information about future reserved words, see [JavaScript Future Reserved Words](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Lexical_grammar).

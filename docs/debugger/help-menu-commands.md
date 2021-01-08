@@ -1,5 +1,7 @@
 ---
 title: "Help Menu Commands | Microsoft Docs"
+description: See the commands available from the Spy++ Help Menu.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:

@@ -1,5 +1,7 @@
 ---
-title: International Settings, Environment, Options Dialog Box
+title: International Settings in the Options dialog box
+description: Learn how to use the International Settings page in the Environment section to change the default language when you have more than one language version of the IDE installed.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:

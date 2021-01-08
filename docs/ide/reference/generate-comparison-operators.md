@@ -1,5 +1,7 @@
 ---
-title: Generate Comparison Operators for types that implement IComparable
+title: Generate Comparison Operators for IComparable
+ms.custom: SEO-VS-2020
+description: For increased performance, generate Comparison Operators for types that implement IComparable.
 ms.date: 05/12/2020
 ms.topic: reference
 author: mikadumont

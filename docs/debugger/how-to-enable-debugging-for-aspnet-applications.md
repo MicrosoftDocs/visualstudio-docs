@@ -1,7 +1,8 @@
 ---
 title: Enable debugging for ASP.NET apps | Microsoft Docs
-ms.custom: 
-ms.date: 09/21/2018
+description: Learn how to enable debugging for ASP.NET and ASP.NET Core apps in Visual Studio. You can run the process on an IIS Express server or a local IIS server. 
+ms.custom: SEO-VS-2020
+ms.date: 10/29/2020
 ms.topic: how-to
 dev_langs: 
   - CSharp
@@ -31,9 +32,13 @@ The built-in IIS Express server is included with Visual Studio. IIS Express is t
 You can also debug an ASP.NET or ASP.NET Core app on a local IIS server (version 8.0 or higher) that is configured to run the app. To debug on local IIS, you must meet the following requirements:
 
 <a name="iis"></a>
-- Select **Development time IIS support** when installing Visual Studio. (If necessary, rerun the Visual Studio Installer, select **Modify**, and add this component.)
-- Be running Visual Studio as an administrator.
-- Install and correctly configure IIS with the appropriate version(s) of ASP.NET and/or ASP.NET Core. For more information and instructions, see [IIS 8.0 Using ASP.NET 3.5 and ASP.NET 4.5](/iis/get-started/whats-new-in-iis-8/iis-80-using-aspnet-35-and-aspnet-45) or [Host ASP.NET Core on Windows with IIS](/aspnet/core/host-and-deploy/iis/index).
+- If it's not installed, install the **ASP.NET and web development workload**. (Rerun the Visual Studio Installer, select **Modify**, and add this workload.)
+
+   ::: moniker range="vs-2017"
+   In Visual Studio 2017, Look for the **Development time IIS support** component. Make sure it's selected when you add the workload.
+   ::: moniker-end
+- Run Visual Studio as an administrator.
+- Install and correctly configure IIS with the appropriate version(s) of ASP.NET and/or ASP.NET Core. For more information on using IIS with ASP.NET Core, see [Host ASP.NET Core on Windows with IIS](/aspnet/core/host-and-deploy/iis/index). For ASP.NET, see [Install IIS and ASP.NET Modules](/iis/application-frameworks/scenario-build-an-aspnet-website-on-iis/configuring-step-1-install-iis-and-asp-net-modules).
 - Make sure the app runs on IIS without errors.
 
 ## Debug ASP.NET apps
@@ -149,7 +154,7 @@ There are different ways to publish apps to IIS. These steps show how to create 
 
 3. Choose **IIS, FTP, etc.** and click **Publish**.
 
-    ![Publish to IIS](media/dbg-aspnet-local-iis.png "Publish to IIS")
+    ![Screenshot of the Pick a publish target dialog in Visual Studio. An IIS, FTP, Web Deploy is selected and the Publish button is highlighted.](media/dbg-aspnet-local-iis.png)
 
 4. In the **CustomProfile** dialog, for **Publish method**, choose **File system**.
 
@@ -171,7 +176,7 @@ There are different ways to publish apps to IIS. These steps show how to create 
 
 1. Select **Publish**.
 
-    ![Publish to IIS](media/dbg-aspnet-local-iis-select-site.png "Publish to IIS")
+    ![Screenshot of the Publish dialog, with the CustomProfile app selected, the Publish button highlighted, and LastBuildConfiguration set to Debug.](media/dbg-aspnet-local-iis-select-site.png)
 
 > [!IMPORTANT]
 > Debug mode greatly reduces the performance of your app. For best performance, set `debug="false"` in the *web.config* and specify a Release build when you deploy a production app or conduct performance measurements.

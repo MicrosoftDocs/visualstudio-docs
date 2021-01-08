@@ -1,5 +1,7 @@
 ---
 title: 'Checklist: Creating New Project Types | Microsoft Docs'
+description: Learn about the tasks that must be completed to create and display a new project type in Visual Studio.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -27,7 +29,7 @@ You must complete several tasks to create a new project type. The following chec
 
     - Project factory, to manage creating new projects and opening existing projects. For more information, see [Create project instances by using project factories](../../extensibility/internals/creating-project-instances-by-using-project-factories.md).
 
-    - Project hierarchy and command handling. For more information, see [Use HierUtil7 project classes to implement a project type (C++)](/previous-versions/bb166212(v=vs.100)), [Elements of a project model](../../extensibility/internals/elements-of-a-project-model.md), [Project model core components](../../extensibility/internals/project-model-core-components.md), and [MenuCommands vs. OleMenuCommands](../../vs-2015/misc/menucommands-vs-olemenucommands.md?view=vs-2015&preserve-view=true).
+    - Project hierarchy and command handling. For more information, see [Use HierUtil7 project classes to implement a project type (C++)](/previous-versions/bb166212(v=vs.100)), [Elements of a project model](../../extensibility/internals/elements-of-a-project-model.md), [Project model core components](../../extensibility/internals/project-model-core-components.md), and [MenuCommands vs. OleMenuCommands](/previous-versions/visualstudio/visual-studio-2015/misc/menucommands-vs-olemenucommands?preserve-view=true&view=vs-2015).
 
     - Project items management, including adding your project to the **New Project** dialog box. For more information, see [Add project and project item templates](../../extensibility/internals/adding-project-and-project-item-templates.md) and [Register project and item templates](../../extensibility/internals/registering-project-and-item-templates.md).
 

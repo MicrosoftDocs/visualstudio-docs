@@ -23,7 +23,7 @@
   - name: Create a project from a template
     href: quickstart-02-python-in-visual-studio-project-from-template.md
   - name: Open and run Python code in a folder
-    href: quickstart-05-python-visual-studio-open-folder.md  
+    href: quickstart-05-python-visual-studio-open-folder.md
   - name: Create a project from existing code
     href: quickstart-01-python-in-visual-studio-project-from-existing-code.md
   - name: Create a project from a repository
@@ -89,7 +89,7 @@
     - name: Azure cloud service template
       href: python-azure-cloud-service-project-template.md
   - name: Azure SDK for Python
-    href: /python/azure/?view=azure-python
+    href: /python/azure/?view=azure-python&preserve-view=true
 - name: How-to guides
   items:
   - name: Manage Python environments

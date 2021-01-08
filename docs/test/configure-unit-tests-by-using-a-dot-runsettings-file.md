@@ -1,10 +1,12 @@
 ---
 title: Configure unit tests with a .runsettings file
+description: Learn how to use the .runsettings file in Visual Studio to configure unit tests that are run from the command line, from the IDE, or in a build workflow.
+ms.custom: SEO-VS-2020
 ms.date: 07/15/2020
 ms.topic: conceptual
 ms.author: mikejo
 manager: jillfra
-ms.workload: 
+ms.workload:
   - multiple
 author: mikejo5000
 ---
@@ -12,7 +14,7 @@ author: mikejo5000
 
 Unit tests in Visual Studio can be configured by using a *.runsettings* file. For example, you can change the .NET version on which the tests are run, the directory for the test results, or the data that's collected during a test run. A common use of a *.runsettings* file is to customize [code coverage analysis](../test/customizing-code-coverage-analysis.md).
 
-Run settings files can be used to configure tests that are run from the [command line](vstest-console-options.md), from the IDE, or in a [build workflow](/azure/devops/pipelines/test/getting-started-with-continuous-testing?view=vsts) using Azure Test Plans or Team Foundation Server (TFS).
+Run settings files can be used to configure tests that are run from the [command line](vstest-console-options.md), from the IDE, or in a [build workflow](/azure/devops/pipelines/test/getting-started-with-continuous-testing?view=vsts&preserve-view=true) using Azure Test Plans or Team Foundation Server (TFS).
 
 Run settings files are optional. If you don't require any special configuration, you don't need a *.runsettings* file.
 
@@ -29,7 +31,7 @@ Run settings files are optional. If you don't require any special configuration,
 
    - [Visual Studio IDE](#specify-a-run-settings-file-in-the-ide)
    - [Command line](#specify-a-run-settings-file-from-the-command-line)
-   - [Build workflow](/azure/devops/pipelines/test/getting-started-with-continuous-testing?view=vsts) using Azure Test Plans or Team Foundation Server (TFS).
+   - [Build workflow](/azure/devops/pipelines/test/getting-started-with-continuous-testing?view=vsts&preserve-view=true) using Azure Test Plans or Team Foundation Server (TFS).
 
 4. Run the unit tests to use the custom run settings.
 
@@ -77,20 +79,20 @@ There are three ways of specifying a run settings file in Visual Studio 2019 ver
 To autodetect the run settings file, place it at the root of your solution.
 
 If auto detection of run settings files is enabled, the settings in this file are applied across all tests run. You can turn on auto detection of runsettings files using two methods:
-  
+
 - Select **Tools** > **Options** > **Test** > **Auto Detect runsettings Files**
 
    ![Auto detect runsettings file option in Visual Studio 2019](media/vs-2019/auto-detect-runsettings-tools-window.png)
-      
+
 - Select **Test** > **Configure Run Settings** > **Auto Detect runsettings Files**
-    
+
    ![Auto detect runsettings file menu in Visual Studio 2019](media/vs-2019/auto-detect-runsettings-menu.png)
 
 #### Manually select the run settings file
 
 In the IDE, select **Test** > **Configure Run Settings** > **Select Solution Wide runsettings File**, and then select the *.runsettings* file.
 
-   - This file overrides the *.runsettings* file at the root of the solution, if one is present, and is applied across all tests run.  
+   - This file overrides the *.runsettings* file at the root of the solution, if one is present, and is applied across all tests run.
    - This file selection only persists locally.
 
 ![Select test solution-wide runsettings file menu in Visual Studio 2019](media/vs-2019/select-solution-settings-file.png)
@@ -101,10 +103,10 @@ Add a build property to a project through either the project file or a Directory
 
 - Project-level run settings is currently supported in C#, VB, C++, and F# projects.
 - A file specified for a project overrides any other run settings file specified in the solution.
-- [These MSBuild properties](../msbuild/msbuild-reserved-and-well-known-properties.md) can be used to specify the path to the runsettings file. 
+- [These MSBuild properties](../msbuild/msbuild-reserved-and-well-known-properties.md) can be used to specify the path to the runsettings file.
 
 Example of specifying a *.runsettings* file for a project:
-    
+
 ```xml
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
@@ -166,6 +168,7 @@ Each of the configuration elements is optional because it has a default value.
     <TargetFrameworkVersion>Framework40</TargetFrameworkVersion>
     <TestAdaptersPaths>%SystemDrive%\Temp\foo;%SystemDrive%\Temp\bar</TestAdaptersPaths>
     <TestSessionTimeout>10000</TestSessionTimeout>
+    <TreatNoTestsAsError>true</TreatNoTestsAsError>
 </RunConfiguration>
 ```
 
@@ -180,7 +183,8 @@ The **RunConfiguration** element can include the following elements:
 |**TreatTestAdapterErrorsAsWarnings**|false|false, true|
 |**TestAdaptersPaths**||One or more paths to the directory where the TestAdapters are located|
 |**TestSessionTimeout**||Allows users to terminate a test session when it exceeds a given timeout. Setting a timeout ensures that resources are well consumed and test sessions are constrained to a set time. The setting is available in **Visual Studio 2017 version 15.5** and later.|
-|**DotnetHostPath**||Specify a custom path to dotnet host that is used to run the testhost. This is useful when you are building your own dotnet, for example when building the dotnet/runtime repository. Specifying this option will skip looking for testhost.exe, and will always use the testhost.dll. 
+|**DotnetHostPath**||Specify a custom path to dotnet host that is used to run the testhost. This is useful when you are building your own dotnet, for example when building the dotnet/runtime repository. Specifying this option will skip looking for testhost.exe, and will always use the testhost.dll.|
+|**TreatNoTestsAsError**|false| true or false <br>Specify a Boolean value, which defines the exit code when no tests are discovered. If the value is `true` and no tests are discovered, a non-zero exit code is returned. Otherwise, zero is returned.|
 
 ## DataCollectors element (diagnostic data adapters)
 
@@ -213,8 +217,8 @@ The code coverage data collector creates a log of which parts of the application
       <CollectFromChildProcesses>True</CollectFromChildProcesses>
       <CollectAspDotNet>False</CollectAspDotNet>
     </CodeCoverage>
-  </CodeCoverage>
-</Configuration>
+  </Configuration>
+</DataCollector>
 ```
 
 ### VideoRecorder data collector
@@ -225,7 +229,7 @@ To customize any other type of diagnostic data adapters, use a [test settings fi
 
 ### Blame data collector
 
-This option can help you isolate a problematic test that causes a test host crash. Running the collector creates an output file (*Sequence.xml*) in *TestResults*, which captures the order of execution of the test before the crash. 
+This option can help you isolate a problematic test that causes a test host crash. Running the collector creates an output file (*Sequence.xml*) in *TestResults*, which captures the order of execution of the test before the crash.
 
 ```xml
 <DataCollector friendlyName="blame" enabled="True">
@@ -262,7 +266,7 @@ The `LoggerRunSettings` section defines one or more loggers to be used for the t
 
 ```xml
 <LoggerRunSettings>
-    <Loggers>        
+    <Loggers>
       <Logger friendlyName="console" enabled="True">
         <Configuration>
             <Verbosity>quiet</Verbosity>
@@ -339,6 +343,10 @@ Each element of the file is optional because it has a default value.
     <!-- TestSessionTimeout was introduced in Visual Studio 2017 version 15.5 -->
     <!-- Specify timeout in milliseconds. A valid value should be greater than 0 -->
     <TestSessionTimeout>10000</TestSessionTimeout>
+
+    <!-- true or false -->
+    <!-- Value that specifies the exit code when no tests are discovered -->
+    <TreatNoTestsAsError>true</TreatNoTestsAsError>
   </RunConfiguration>
 
   <!-- Configurations for data collectors -->
@@ -386,10 +394,10 @@ Each element of the file is optional because it has a default value.
     <Parameter name="webAppUserName" value="Admin" />
     <Parameter name="webAppPassword" value="Password" />
   </TestRunParameters>
-  
+
   <!-- Configuration for loggers -->
   <LoggerRunSettings>
-    <Loggers>      
+    <Loggers>
       <Logger friendlyName="console" enabled="True">
         <Configuration>
             <Verbosity>quiet</Verbosity>
@@ -456,4 +464,4 @@ The **RunConfiguration** node should contain an **EnvironmentVariables** node. A
 
 - [Configure a test run](https://github.com/microsoft/vstest-docs/blob/master/docs/configure.md)
 - [Customize code coverage analysis](../test/customizing-code-coverage-analysis.md)
-- [Visual Studio test task (Azure Test Plans)](/azure/devops/pipelines/tasks/test/vstest?view=vsts)
+- [Visual Studio test task (Azure Test Plans)](/azure/devops/pipelines/tasks/test/vstest?view=vsts&preserve-view=true)

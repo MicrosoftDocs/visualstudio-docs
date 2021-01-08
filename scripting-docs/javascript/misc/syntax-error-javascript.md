@@ -25,4 +25,4 @@ You created a statement that violates one or more of the grammatical rules of [!
 - Look for misdirected parentheses or braces.  
   
 ## See also  
- [Error Object](../../javascript/reference/error-object-javascript.md)
+ [Error Object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Error)

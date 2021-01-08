@@ -44,10 +44,14 @@
     href: using-the-subscriber-portal.md
   - name: Manage your subscriptions
     href: manage-vs-subscriptions.md
-  - name: Contact your subscriptions administrator
+  - name: When subscriptions expire
+    href: subscription-expiration.md   
+  - name: Contact your subscriptions admin
     href: contact-my-admin.md
   - name: Benefits
     items:
+    - name: About benefits
+      href: about-benefits.md
     - name: Tools
       items:
       - name: Azure DevTest individual credit
@@ -100,6 +104,12 @@
         href: vs-concierge-chat.md
       - name: Technical Support
         href: vs-tech-support.md
+      - name: Developer Community
+        href: vs-developer-community.md
+      - name: Microsoft Q&A
+        href: vs-microsoft-qa.md
+      - name: Microsoft Tech Community
+        href: vs-microsoft-tech-community.md
 - name: Software and keys
   items:
   - name: Software downloads
@@ -178,7 +188,7 @@
       href: aliasing.md
     - name: Subscribers with personal email sign-ins
       href: personal-email-sign-ins.md
-    - name: Managing Visual Studio with GitHub Enterprise
+    - name: Managing Visual Studio subscriptions with GitHub Enterprise
       href: assign-github.md
 - name: Resources
   items:

@@ -51,7 +51,7 @@ On the Benefits page, the subscription in use will be prominently displayed in t
 
 ## Transferring subscriptions
 
-If your subscription was purchased through Microsoft Volume Licensing and you need to re-assign it to someone else within the organization, your administrator will need to do this for you.
+If your subscription was purchased through Microsoft Volume Licensing and you need to re-assign it to someone else within the organization, your admin will need to do this for you.
 Retail subscriptions can be transferred to another user by contacting Customer Service. Complimentary or “Not For Resale” subscriptions cannot be transferred.
 
 ## Managing my profile

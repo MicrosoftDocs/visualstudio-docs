@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: 21e0471d-ad59-4d21-9c6f-13f7147569af
-ms.date: 09/08/2020
+ms.date: 10/21/2020
 ms.topic: conceptual
 description:  Billing questions for cloud subscriptions.
 ---
@@ -108,7 +108,7 @@ A:  Yes. As new versions are released, you can download and run them. Plus you c
 A:  Yes, you can, if your reseller participates in the Cloud Solution Provider (CSP) program. Just ask them.
 
 ## Related resources
-- [Visual Studio Subscriptions Administration portal](https://manage.visualstudio.com/)
+- [Visual Studio Subscriptions Admin portal](https://manage.visualstudio.com/)
 - [Visual Studio subscription support](https://visualstudio.microsoft.com/vs/support/)
 - [Visual Studio cloud subscription purchasing for CSPs](vscloud-csp.md)
 

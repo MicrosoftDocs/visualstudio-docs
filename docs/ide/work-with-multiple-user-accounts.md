@@ -1,6 +1,8 @@
 ---
 title: Work with multiple user accounts
-ms.date: 07/23/2019
+description: Learn how to add all of your Microsoft accounts to Visual Studio so that you can access the resources from any account without having to sign in to it separately.
+ms.custom: SEO-VS-2020
+ms.date: 11/16/2020
 ms.topic: conceptual
 author: ornellaalt
 ms.author: ornella
@@ -109,7 +111,7 @@ To sign in using device code flow:
 
 1. Under **Visual Studio**, choose **Continue**.
 
-   ![device-login-page.png](media/work-with-multiple-user-accounts/device-login-page.png)
+   ![Screenshot of the Device Login page showing the Continue option.](media/work-with-multiple-user-accounts/device-login-page.png)
 
 1. Follow the prompts to enter your account credentials.
 
@@ -118,6 +120,15 @@ To sign in using device code flow:
    ![Visual Studio sign in through browser complete](media/work-with-multiple-user-accounts/sign-in-browser-complete.png)
 
 1. Go back to the account management page in Visual Studio and you'll see the newly added account listed under **All Accounts**. Choose **Close**.
+
+::: moniker range=">=vs-2019"
+
+### Add a GitHub account to Visual Studio
+
+Starting with version 16.8, you’ll be able to add both GitHub and GitHub Enterprise accounts to your keychain. You’ll be able to add and leverage them just as you do with Microsoft accounts, which means that you’ll have an easier time accessing your GitHub resources across Visual Studio.
+
+For detailed instructions, see [Work with GitHub accounts in Visual Studio](work-with-github-accounts.md).
+::: moniker-end
 
 ## See also
 

@@ -1,5 +1,7 @@
 ---
 title: Extern Element | Microsoft Docs
+description: The Extern element references any external header (.h) files to merge with the .vsct file at compile time. 
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 f1_keywords:

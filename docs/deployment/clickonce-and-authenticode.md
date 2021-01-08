@@ -1,5 +1,7 @@
 ---
 title: "ClickOnce and Authenticode | Microsoft Docs"
+description: Learn about certificates Authenticode uses to verify the authenticity of applications. Learn how certificates are validated and stored.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:

@@ -1,5 +1,7 @@
 ---
 title: "Allocation Hook Functions | Microsoft Docs"
+description: Learn about how to use allocation hook functions, which are installed using _CrtSetAllocHook, when you need to do C run-time (CRT) debugging in Visual Studio.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:

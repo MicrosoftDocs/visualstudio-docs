@@ -23,5 +23,5 @@ You attempted to pass a non-[!INCLUDE[javascript](../../javascript/includes/java
 - Ensure that the object you are passing in as a parameter is of the correct type.  
   
 ## See also  
- [Objects and Arrays](../../javascript/objects-and-arrays-javascript.md)   
- [Using Arrays](../../javascript/advanced/using-arrays-javascript.md)
+ [Objects and Arrays](https://developer.mozilla.org/docs/Learn/JavaScript/Objects)   
+ [Using Arrays](https://developer.mozilla.org/docs/Learn/JavaScript/First_steps/Arrays)

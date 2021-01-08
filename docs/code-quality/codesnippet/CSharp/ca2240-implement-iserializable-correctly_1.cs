@@ -8,14 +8,14 @@ namespace Samples1
     [Serializable]
     public class Book : ISerializable
     {
-        private readonly string _Text;
+        private readonly string _Title;
 
-        public Book(string text)
+        public Book(string title)
         {
-            if (text == null)
-                throw new ArgumentNullException("text");
+            if (title == null)
+                throw new ArgumentNullException("title");
 
-            _Text = text;
+            _Title = title;
         }
 
         protected Book(SerializationInfo info, StreamingContext context)
@@ -23,12 +23,12 @@ namespace Samples1
             if (info == null)
                 throw new ArgumentNullException("info");
 
-            _Text = info.GetString("Text");
+            _Title = info.GetString("Title");
         }
 
-        public string Text
+        public string Title
         {
-            get { return _Text; }
+            get { return _Title; }
         }
 
         [SecurityPermission(SecurityAction.Demand, SerializationFormatter = true)]
@@ -37,7 +37,7 @@ namespace Samples1
             if (info == null)
                 throw new ArgumentNullException("info");
 
-            info.AddValue("Text", _Text);
+            info.AddValue("Title", _Title);
         }
     }
 
@@ -47,8 +47,8 @@ namespace Samples1
     {
         private readonly DateTime _CheckedOut;
 
-        public LibraryBook(string text, DateTime checkedOut)
-            : base(text)
+        public LibraryBook(string title, DateTime checkedOut)
+            : base(title)
         {
             _CheckedOut = checkedOut;
         }

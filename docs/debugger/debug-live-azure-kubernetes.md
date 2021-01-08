@@ -1,6 +1,6 @@
 ---
 title: Debug live ASP.NET Azure Kubernetes Services
-description: Learn how to set snappoints and view snapshots with the Snapshot Debugger.
+description: Learn how to use the Snapshot Debugger in Visual Studio to set snappoints and take snapshots while debugging live ASP.NET Azure Kubernetes Services.
 ms.custom: 
 ms.date: 02/11/2019
 ms.topic: how-to

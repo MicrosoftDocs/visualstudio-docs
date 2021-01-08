@@ -1,5 +1,7 @@
 ---
 title: GetAssemblyIdentity Task | Microsoft Docs
+description: Use the MSBuild GetAssemblyIdentity task to retrieve the assembly identities from the specified files and output the identity information.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:

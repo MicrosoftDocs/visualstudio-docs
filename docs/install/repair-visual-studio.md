@@ -2,7 +2,7 @@
 title: Repair Visual Studio
 titleSuffix: ''
 description: Learn how to repair an installation of Visual Studio 2017
-ms.date: 06/15/2020
+ms.date: 10/12/2020
 ms.custom: seodec18
 ms.topic: how-to
 author: ornellaalt
@@ -27,7 +27,7 @@ Sometimes your Visual Studio installation becomes damaged or corrupted. A repair
 > If the install issue is caused by an issue in an underlying Windows service, like Windows Installer, repair may hit the same issue. Systemic issues can include a broken Windows Installer or unstable internet connection. To check for a systemic issue, use the error report generated from the installation operation.
 
 > [!NOTE] 
-> Repairing Visual Studio resets user settings, and re-installs the assemblies you already have. If you're experiencing a product issue, create a [Visual Studio Feedback Ticket](https://developercommunity.visualstudio.com/content/problem/post.html?space=8), as repair might not solve the issue.
+> Repairing Visual Studio resets user settings, and re-installs the assemblies you already have. If you're experiencing a product issue, create a [Visual Studio Feedback Ticket](https://aka.ms/feedback/suggest?space=8), as repair might not solve the issue.
 
 ## How to repair
 ::: moniker range="vs-2017"
@@ -59,9 +59,9 @@ Sometimes your Visual Studio installation becomes damaged or corrupted. A repair
 
 1. Find the **Visual Studio Installer** on your computer.
 
-     For example, on a computer running Windows 10, select **Start**, and then scroll to the letter **V**, where it's listed as **Visual Studio Installer**.
+     In the Windows Start menu, you can search for "installer".
 
-     ![Open the Visual Studio Installer](media/vs-2019/vs-installer-windows-start.png "Open the Visual Studio Installer")
+     ![Visual Studio Installer](media/vs-2019/visual-studio-installer.png "Search for the Visual Studio Installer")
 
      > [!NOTE]
      > You can also find the Visual Studio Installer in the following location:

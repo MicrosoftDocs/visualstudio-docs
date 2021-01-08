@@ -1,5 +1,7 @@
 ---
 title: Supporting Multiple Versions of Visual Studio | Microsoft Docs
+description: Learn how you can support several versions of Visual Studio, with your VSPackages able to load into different versions.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

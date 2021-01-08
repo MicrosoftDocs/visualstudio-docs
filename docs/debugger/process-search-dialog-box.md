@@ -1,5 +1,7 @@
 ---
 title: "Process Search Dialog Box | Microsoft Docs"
+description: Use Process Search to find and select the node for a specific process in Processes View. You can specify process ID, module string, and search direction.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 helpviewer_keywords:

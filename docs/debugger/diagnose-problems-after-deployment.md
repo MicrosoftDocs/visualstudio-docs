@@ -1,12 +1,14 @@
 ---
 title: Diagnose problems after deployment | Microsoft Docs
+description: Diagnose problems after deployment using IntelliTrace in Visual Studio. Include build information with your release. Release and monitor your app to find the problem.
+ms.custom: SEO-VS-2020
 ms.date: 04/10/2018
 ms.topic: how-to
 ms.assetid: a3463eab-a352-4d17-8551-adbaad526db0
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.workload: 
+ms.workload:
   - multiple
 ---
 # Diagnose problems after deployment using IntelliTrace (C#, Visual Basic)
@@ -43,7 +45,7 @@ Visual Studio 2017 and later versions do not include the *BuildInfo.config* file
 #### <a name="TFS2013"></a> Team Foundation Server 2013
  Set up your build pipeline to add the locations of your source, build, and symbols to the build manifest (BuildInfo.config file). Team Foundation Build automatically creates this file and puts it in your project's output folder.
 
-1. [Edit your build pipeline or create a new build pipeline.](/azure/devops/pipelines/get-started-designer?view=vsts)
+1. [Edit your build pipeline or create a new build pipeline.](/azure/devops/pipelines/get-started-designer?view=vsts&preserve-view=true)
 
      ![View build pipeline in TFS 2013](../debugger/media/ffr_tfs2013viewbuilddefinition.png "FFR_TFS2013ViewBuildDefinition")
 
@@ -57,7 +59,7 @@ Visual Studio 2017 and later versions do not include the *BuildInfo.config* file
 
      ![Set up symbols path in build pipeline TFS 2013](../debugger/media/ffr_tfs2013builddefsymbolspath.png "FFR_TFS2013BuildDefSymbolsPath")
 
-     For more about symbols, see [Publish symbol data](/azure/devops/pipelines/tasks/build/index-sources-publish-symbols?view=vsts).
+     For more about symbols, see [Publish symbol data](/azure/devops/pipelines/tasks/build/index-sources-publish-symbols?view=vsts&preserve-view=true).
 
 4. Add this MSBuild argument to include your TFS and symbols locations in the build manifest file:
 
@@ -313,7 +315,7 @@ Visual Studio 2017 and later versions do not include the *BuildInfo.config* file
 
    Information about your build system, either `"TeamBuild"` or `"MSBuild"`, and these required properties:
 
-  - **BuildLabel** (for TeamBuild): The build name and number. This label is also used as the name of the deployment event. For more info about build numbers, see [Use build numbers to give meaningful names to completed builds](/azure/devops/pipelines/build/options?view=vsts).
+  - **BuildLabel** (for TeamBuild): The build name and number. This label is also used as the name of the deployment event. For more info about build numbers, see [Use build numbers to give meaningful names to completed builds](/azure/devops/pipelines/build/options?view=vsts&preserve-view=true).
 
   - **SymbolPath** (Recommended): The list of URIs for your symbols (PDB file) locations separated by semi-colons. These URIs can be URLs or UNCs. This makes it easier for Visual Studio to find the matching symbols to help you with debugging.
 
@@ -373,7 +375,7 @@ Visual Studio 2017 and later versions do not include the *BuildInfo.config* file
      ![Open from source control &#45; migrated](../debugger/media/ffr_openprojectfromsourcecontrol_migrated.png "FFR_OpenProjectFromSourceControl_Migrated")
 
 #### <a name="WhatWorkspace"></a> Q: What's a workspace?
- **A:** Your [workspace stores a copy of the source](/azure/devops/repos/tfvc/create-work-workspaces?view=vsts) so you can develop and test it separately before you check in your work. If you don't have already have a workspace that's specifically mapped to the found solution or project, then Visual Studio prompts you to choose an available workspace or create a new workspace with your computer name as the default workspace name.
+ **A:** Your [workspace stores a copy of the source](/azure/devops/repos/tfvc/create-work-workspaces?view=vsts&preserve-view=true) so you can develop and test it separately before you check in your work. If you don't have already have a workspace that's specifically mapped to the found solution or project, then Visual Studio prompts you to choose an available workspace or create a new workspace with your computer name as the default workspace name.
 
 #### <a name="UntrustedSymbols"></a> Q: Why do I get this message about untrusted symbols?
  ![Debug with untrusted symbols path?](../debugger/media/ffr_ituntrustedsymbolpaths.png "FFR_ITUntrustedSymbolPaths")

@@ -3,7 +3,7 @@ title: Working with Git
 description: Using Git in Visual Studio for Mac.
 author: jmatthiesen
 ms.author: jomatthi
-ms.date: 05/06/2018
+ms.date: 11/09/2020
 ms.assetid: 852B6A9D-AEFA-4EF4-A5DD-94A506019D20
 ms.custom: video
 ---
@@ -54,9 +54,9 @@ These allow the following actions:
 
 ## Switching branches
 
-By default, the first branch created in a repository is known as the **Master** branch. There isn't technically anything different between the master branch and any other, but the master branch is the one that is most often thought of in development teams as the 'live' or 'production' branch.
+By default, the first branch created in a repository is known as the **main** branch. There isn't technically anything different between the main branch and any other, but the main branch is the one that is most often thought of in development teams as the 'live' or 'production' branch.
 
-An independent line of development can be created by branching off Master (or any other branch, for that matter). This provides a new version of the master branch at a point in time, allowing for development independently of what is 'live.' Using branches in this way is often used for features in software development
+An independent line of development can be created by branching off main (or any other branch, for that matter). This provides a new version of the main branch at a point in time, allowing for development independently of what is 'live.' Using branches in this way is often used for features in software development
 
 Users can create as many branches as they like for each repository, but it is recommended that once they have finished using a branch, it is deleted it to keep the repository organized.
 
@@ -72,9 +72,9 @@ To create a new branch select the **New** button in the Git repository configura
 
 You can also set a remote branch to your _tracking_ branch. Read more about tracking branches in the [Git documentation](https://git-scm.com/book/en/v2/Git-Branching-Remote-Branches#Tracking-Branches).
 
-See the current branch in the Solution Pad, next to the project name:
+See the current branch in the Solution Window, next to the project name:
 
- ![Current branch displayed in solution pad](media/version-control-gitBranchName.png)
+ ![Current branch displayed in Solution Window](media/version-control-gitBranchName.png)
 
 ## Reviewing and committing
 

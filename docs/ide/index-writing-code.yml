@@ -32,6 +32,8 @@ landingContent:
         links:
           - text: Use Visual Studio without projects or solutions
             url: develop-code-in-visual-studio-without-projects-or-solutions.md
+          - text: Use Visual Studio search
+            url: visual-studio-search.md
 
   # Card
   - title: Use editing features

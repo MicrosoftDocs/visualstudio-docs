@@ -1,5 +1,7 @@
 ---
 title: Project and item template parameters
+description: Learn how to use template parameters to replace values in your template when the template is instantiated.
+ms.custom: SEO-VS-2020
 ms.date: 01/02/2018
 ms.topic: reference
 helpviewer_keywords:

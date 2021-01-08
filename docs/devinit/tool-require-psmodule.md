@@ -1,7 +1,7 @@
 ---
 title: require-psmodule
 description: devinit tool require-psmodule.
-ms.date: 08/28/2020
+ms.date: 11/20/2020
 ms.topic: reference
 author: andysterland
 ms.author: andster
@@ -14,10 +14,10 @@ ms.technology: devinit
 ---
 # require-psmodule
 
-The `require-psmodule` tool is used to install a [PowerShell Module](https://docs.microsoft.com/powershell/scripting/developer/module/understanding-a-windows-powershell-module?view=powershell-7&preserve-view=true) from the [PowerShell Gallery](https://www.powershellgallery.com/) via [Install-Module](https://docs.microsoft.com/powershell/module/powershellget/install-module?view=powershell-7&preserve-view=true), so that it can be used in PowerShell scripts.
+The `require-psmodule` tool is used to install a [PowerShell Module](/powershell/scripting/developer/module/understanding-a-windows-powershell-module?view=powershell-7&preserve-view=true) from the [PowerShell Gallery](https://www.powershellgallery.com/) via [Install-Module](/powershell/module/powershellget/install-module?view=powershell-7&preserve-view=true), so that it can be used in PowerShell scripts.
 
-> [!TIP] 
-> Once a module is installed it will still need to be imported into a script using [Import-Module](https://docs.microsoft.com/powershell/module/microsoft.powershell.core/import-module?view=powershell-7&preserve-view=true).
+> [!TIP]
+> Once a module is installed it will still need to be imported into a script using [Import-Module](/powershell/module/microsoft.powershell.core/import-module?view=powershell-7&preserve-view=true).
 
 ## Usage
 
@@ -35,15 +35,15 @@ The `input` property should be the `Name` of the PowerShell module to install. A
 
 ### Additional options
 
-Additional options are passed directly to the [Install-Module](https://docs.microsoft.com/powershell/module/powershellget/install-module?view=powershell-7&preserve-view=true) command and are documented on [Microsoft Docs](https://docs.microsoft.com/powershell/module/powershellget/install-module?view=powershell-7&preserve-view=true).
+Additional options are passed directly to the [Install-Module](/powershell/module/powershellget/install-module?preserve-view=true&view=powershell-7) command and are documented on [Microsoft Docs](/powershell/module/powershellget/install-module?preserve-view=true&view=powershell-7).
 
 ### Default behavior
 
-The Default behavior of the `require-psmodule` tool is to error as `input` is required.
+The default behavior of the `require-psmodule` tool is to error as `input` is required.
 
-## Builtin Options
+### Built-in options
 
-The `require-psmodule` tool sets a number of `Install-Module` command line arguments to ensure that `Install-Module` can run headless. These arguments are listed below and documentation on them can be found in the [Install-Module](https://docs.microsoft.com/powershell/module/powershellget/install-module?view=powershell-7&preserve-view=true).
+The `require-psmodule` tool sets a number of `Install-Module` command line arguments to ensure that `Install-Module` can run headless. These arguments are listed below and documentation on them can be found in the [Install-Module](/powershell/module/powershellget/install-module?view=powershell-7&preserve-view=true).
 
 | Name         | Description                                                                                                                                                                                                                                                                                                                                                               |
 |--------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -53,18 +53,27 @@ The `require-psmodule` tool sets a number of `Install-Module` command line argum
 
 
 ## Example usage
+Below are examples of how to run `require-psmodule` using a `.devinit.json`.
 
+#### .devinit.json that will install the PowerShellGet module:
 ```json
 {
-    "$schema": "https://json.schemastore.org/devinit.schema-2.0",
+    "$schema": "https://json.schemastore.org/devinit.schema-3.0",
     "run": [
         {
-            "comments": "Installs the PowerShellGet module.",
             "tool": "require-psmodule",
             "input": "PowerShellGet",
-        },
+        }
+    ]
+}
+```
+
+#### .devinit.json that will install the PowerShellGet module from a specific repository:
+```json
+{
+    "$schema": "https://json.schemastore.org/devinit.schema-3.0",
+    "run": [
         {
-            "comments": "Installs the PowerShellGet module from a specific repository.",
             "tool": "require-psmodule",
             "input": "PowerShellGet",
             "additionalOptions": "-Repository PSGallery"

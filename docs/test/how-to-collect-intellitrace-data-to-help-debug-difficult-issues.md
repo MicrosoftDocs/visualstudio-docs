@@ -1,8 +1,10 @@
 ---
 title: IntelliTrace data
+description: Learn how to configure the diagnostic data adapter for IntelliTrace to collect specific diagnostic trace information in Visual Studio.
+ms.custom: SEO-VS-2020
 ms.date: 10/13/2016
 ms.topic: how-to
-helpviewer_keywords: 
+helpviewer_keywords:
   - IntelliTrace, configuring test settings
   - Diagnostic Data Adapter, InteliTrace
   - debugging [Visual Studio ALM], difficult issues using IntelliTrace
@@ -120,7 +122,7 @@ Before you perform the steps in this procedure, you must open your test settings
 
 ## See also
 
-- [Collect diagnostic data while testing (Azure Test Plans)](/azure/devops/test/collect-diagnostic-data?view=vsts)
-- [Collect diagnostic data in manual tests (Azure Test Plans)](/azure/devops/test/mtm/collect-more-diagnostic-data-in-manual-tests?view=vsts)
+- [Collect diagnostic data while testing (Azure Test Plans)](/azure/devops/test/collect-diagnostic-data?view=vsts&preserve-view=true)
+- [Collect diagnostic data in manual tests (Azure Test Plans)](/azure/devops/test/mtm/collect-more-diagnostic-data-in-manual-tests?view=vsts&preserve-view=true)
 - [Collect diagnostic information using test settings](../test/collect-diagnostic-information-using-test-settings.md)
 - [Collect IntelliTrace data](../test/how-to-collect-intellitrace-data-to-help-debug-difficult-issues.md)

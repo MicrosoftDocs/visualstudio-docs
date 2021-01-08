@@ -1,5 +1,6 @@
 ---
 title: Manage build configurations with Visual Basic developer settings
+description: Learn about advanced build configuration options that are hidden when Visual Basic developer settings are applied and how to manually enable these build settings.
 titleSuffix: ""
 ms.custom: SEO-VS-2020
 ms.date: 11/21/2018

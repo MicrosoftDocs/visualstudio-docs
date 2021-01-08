@@ -1,8 +1,10 @@
 ---
 title: 'How to: Create a Diagnostic Data Adapter'
+description: Learn how to create a diagnostic data adapter by creating a class library using Visual Studio and adding Diagnostic Data Adapter APIs.
+ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
 ms.topic: how-to
-helpviewer_keywords: 
+helpviewer_keywords:
   - Diagnostic Data Adapter, creating
 ms.assetid: bd7ad36c-54cb-4d2a-9aea-9d10ad98d7ba
 author: mikejo5000
@@ -239,7 +241,7 @@ For a complete example diagnostic data adapter project, including a custom confi
     >
     > There are other examples of configuration files in the following path based on your installation directory: *Program Files\Microsoft Visual Studio 10.0\Common7\IDE\PrivateAssemblies\DataCollectors*.
 
-     For more information about how to configure your test settings to use an environment when you run your tests, see [Collect diagnostic data in manual tests (Azure Test Plans)](/azure/devops/test/mtm/collect-more-diagnostic-data-in-manual-tests?view=vsts).
+     For more information about how to configure your test settings to use an environment when you run your tests, see [Collect diagnostic data in manual tests (Azure Test Plans)](/azure/devops/test/mtm/collect-more-diagnostic-data-in-manual-tests?view=vsts&preserve-view=true).
 
      For more information about installing the configuration file, see [How to: Install a custom diagnostic data adapter](../test/quickstart-create-a-load-test-project.md)
 
@@ -247,7 +249,7 @@ For a complete example diagnostic data adapter project, including a custom confi
 
 13. For information about installing your custom editor, see [How to: Install a custom diagnostic data adapter](../test/quickstart-create-a-load-test-project.md).
 
-14. For more information about how to configure your test settings to use an environment when you run your tests, see [Collect diagnostic data in manual tests (Azure Test Plans)](/azure/devops/test/mtm/collect-more-diagnostic-data-in-manual-tests?view=vsts).
+14. For more information about how to configure your test settings to use an environment when you run your tests, see [Collect diagnostic data in manual tests (Azure Test Plans)](/azure/devops/test/mtm/collect-more-diagnostic-data-in-manual-tests?view=vsts&preserve-view=true).
 
 15. To select your diagnostic data adapter, you must first select an existing test settings or create a new one from Visual Studio or Microsoft Test Manager (deprecated in Visual Studio 2017). The adapter is displayed on the **Data and Diagnostics** tab of your test settings with the friendly name that you assigned to the class.
 
@@ -267,6 +269,6 @@ For a complete example diagnostic data adapter project, including a custom confi
 - <xref:Microsoft.VisualStudio.TestTools.Execution.DataCollectorFriendlyNameAttribute>
 - <xref:Microsoft.VisualStudio.TestTools.Execution.DataCollectorEnabledByDefaultAttribute>
 - [Collect diagnostic information using test settings](../test/collect-diagnostic-information-using-test-settings.md)
-- [Collect diagnostic data in manual tests (Azure Test Plans)](/azure/devops/test/mtm/collect-more-diagnostic-data-in-manual-tests?view=vsts)
-- [Collect diagnostic data while testing (Azure Test Plans)](/azure/devops/test/collect-diagnostic-data?view=vsts)
+- [Collect diagnostic data in manual tests (Azure Test Plans)](/azure/devops/test/mtm/collect-more-diagnostic-data-in-manual-tests?view=vsts&preserve-view=true)
+- [Collect diagnostic data while testing (Azure Test Plans)](/azure/devops/test/collect-diagnostic-data?view=vsts&preserve-view=true)
 - [How to: Create a custom editor for data for your diagnostic data adapter](../test/quickstart-create-a-load-test-project.md)

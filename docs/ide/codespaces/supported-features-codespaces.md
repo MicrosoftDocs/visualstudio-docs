@@ -22,7 +22,7 @@ In the current GitHub Codespaces [public beta](https://github.com/features/codes
 This is **not meant to be an exhaustive list**, but to explain Visual Studio's general capabilities when connected to a codespace.
 
 > [!NOTE]
-> If there is a feature you are missing while using codespaces with Visual Studio, please let us know by opening an issue on https://developercommunity.visualstudio.com/. This helps us prioritize the most wanted features.
+> If there is a feature you are missing while using codespaces with Visual Studio, please let us know by opening an issue on [Visual Studio Developer Community](https://aka.ms/feedback/suggest?space=8). This helps us prioritize the most wanted features.
 
 > [!NOTE]
 > The features described below are for Visual Studio and not the two other GitHub Codespaces clients; Visual Studio Code and the in-browser editor.
@@ -37,15 +37,15 @@ You should notice little difference editing source code in a codespace as you ge
 * Syntax highlighting
 * Quick Info*
 * HTML, CSS, Razor editors* - Partial support.
-* JavaScript editor* - Partial support.
+* JavaScript and TypeScript editor* - Partial support.
 
 Not yet available:
 
-* IntelliSense* - Some of the autocompletion/member list filters are unavailable. Completion for unimported types and intellisense in watch window not yet available.
-* Code navigation* - Most commands supported, specifically Go To Base and Find in files with path specification not yet supported.
+* IntelliSense* - Some of the autocompletion/member list filters are unavailable. Completion for unimported types and IntelliSense in watch window not yet available.
+* Code navigation* - Most commands supported. Go To Base and Find in Files with path specification are not yet supported.
 * Quick Info* - Colorization in quick info is not supported.
-* HTML, CSS, Razor editors* - Diagnostics, intellisense completion, quick info, smart indent. Currently no support for semantic colorization, navigation commands, etc.
-* JavaScript editor* - Script blocks (for example, JavaScript content in HTML and CSHTML files) and semantic highlighting are not yet supported. Known issues with lightbulb features and linting.
+* HTML, CSS, Razor editors* - Diagnostics, IntelliSense completion, quick info, smart indent. Currently no support for semantic colorization, navigation commands, etc.
+* JavaScript and TypeScript editor* - Script blocks (for example, JavaScript content in HTML and CSHTML files) and semantic highlighting are not yet supported. Known issues with lightbulb features and linting.
 * CMake Targets View
 * CMake Project Settings editor
 * Ctrl+F7 (compile file)
@@ -60,14 +60,14 @@ Most application types and project configurations are supported, but you will ne
 * Project and item templates
 * .NET Core and ASP.NET Core projects
 * C++ console apps - CMake and vcxproj supported
-* C++ apps that target Linux - Mostly supported for non-GUI. Ability to install and provision WSL, platform-specific intellisense, and build.
+* C++ apps that target Linux - Mostly supported for non-GUI. Ability to install and provision WSL, platform-specific IntelliSense, and build.
 * Project file editing - Mostly supported. Missing some completion, syntax highlighting, and advanced editing features.
 * GitHub accounts - Can be used to create and connect to Codespaces, and access resources available to the account on GitHub.
 * Azure CLI - Does not share the signed-in Visual Studio identity or keychain accounts. Browser-based login is not supported but you can authenticate inside the integrated terminal using: `az login --use-device-code`.
 
 Not yet available:
 
-* UI designers - WinForms and WPF designers
+* UI designers - WinForms, WPF, and Resource designers
 * Visual Basic and F# projects
 * .NET Framework targeted projects
 * Docker Compose projects
@@ -103,8 +103,8 @@ Not yet available:
 
 When working with Visual Studio connected to a codespace, you get the same accessibility features as when working locally.
 
-* Source Control - Full Git support through the new [Git window](https://devblogs.microsoft.com/visualstudio/improved-git-experience-in-visual-studio-2019/).
-* Accessibility - There is one known issue with assistive technology not being able to access the appcasting of a debugged app. Besides this limitation, we don't believe there are any other compatibility issues that don't already exist in the local Visual Studio experience. Please let us know if you detect bugs by filing an issue on [developer community](https://developercommunity.visualstudio.com/).
+* Source Control - Full Git support through the new [integrated Git experience](../git-with-visual-studio.md).
+* Accessibility - There is one known issue with assistive technology not being able to access the appcasting of a debugged app. Besides this limitation, we don't believe there are any other compatibility issues that don't already exist in the local Visual Studio experience. Please let us know if you detect bugs by filing an issue on [developer community](https://aka.ms/feedback/report?space=8).
 * Publishing - Publish to Azure through GitHub Actions is supported.
 * Connected services - App Insights, KeyVault, Storage, SQL, Redis, Cosmos, openAPI, and gRPC are partially supported.
 * Test Explorer* - Mostly supported.

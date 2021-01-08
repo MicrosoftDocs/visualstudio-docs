@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: v-evwin
 manager: lank
 ms.assetid: 86f2856c-8adf-4085-9962-f4136679e5ed
-ms.date: 07/19/2019
+ms.date: 10/21/2019
 ms.topic: conceptual
 description:  How to add an alternate identity for your Visual Studio subscription, to use for Azure DevOps and Azure
 ---
@@ -32,7 +32,7 @@ For all subscriptions, you can add a "work or school account" so you can use tha
 3. Choose **Add alternate account**.
 4. Add your work or school account.
     > [!div class="mx-imgBorder"]
-    > ![Add work or school account](_img/vs-alternate-identity/enter-alternate-account-my-visual-studio-com-portal.png)
+    > ![Add work or school account](_img/vs-alternate-identity/enter-alternate-account-my-visual-studio-com-portal.png "Adding a work or school account as an alternate account on your subscription.")
 
 5. Use your work or school account to sign in to Azure DevOps (https://{youraccount}.visualstudio.com).
 

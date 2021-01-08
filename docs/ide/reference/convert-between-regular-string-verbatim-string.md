@@ -1,5 +1,7 @@
 ---
-title: Convert between regular string and verbatim string literals
+title: Convert between regular and verbatim string literals
+description: Learn how to use the Quick Actions and Refactorings menu to convert between regular string and verbatim string literals.
+ms.custom: SEO-VS-2020
 ms.date: 06/08/2020
 ms.topic: reference
 author: mikadumont
@@ -28,7 +30,7 @@ This refactoring applies to:
 
 2. Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
 
-3. Select from one of the following options: 
+3. Select from one of the following options:
 
     Select **Convert to regular string**.
 

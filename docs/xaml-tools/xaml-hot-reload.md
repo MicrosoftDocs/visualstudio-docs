@@ -1,7 +1,7 @@
 ---
 title: "Write and debug XAML using XAML Hot Reload"
 description: "XAML Hot Reload, or XAML edit and continue, allows you to make changes to your XAML code while running apps"
-ms.date: "08/05/2019"
+ms.date: 09/23/2020
 ms.topic: conceptual
 helpviewer_keywords:
   - "xaml edit and continue"
@@ -58,7 +58,7 @@ You may come across the following errors while using XAML Hot Reload.
 |Error message|Description|
 |-|-|
 |Ensure Event Failed|Error indicates you are attempting to wire an event to one of your controls, which isn't supported while your application is running.|
-|This change is not supported by XAML Hot Reload and will not be applied during the debugging session.|Error indicates that the change you are attempting is not supported by XAML Hot Reload. Stop the debugging session, make the change, and then restart the debugging session. If you find an unsupported scenario that you'd like to see supported, use our new "Suggest a feature" option in the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/spaces/8/index.html). |
+|This change is not supported by XAML Hot Reload and will not be applied during the debugging session.|Error indicates that the change you are attempting is not supported by XAML Hot Reload. Stop the debugging session, make the change, and then restart the debugging session. If you find an unsupported scenario that you'd like to see supported, use our new "Suggest a feature" option in the [Visual Studio Developer Community](https://aka.ms/feedback/suggest?space=8). |
 
 ## See also
 

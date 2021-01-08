@@ -1,6 +1,7 @@
 ---
-title: Refactor code to convert a LINQ query to a foreach statement
-description: Convert any LINQ query written in query syntax to a foreach statement.
+title: Convert a LINQ query to a foreach statement
+ms.custom: SEO-VS-2020
+description: Refactor code to convert any LINQ query written in query syntax to a foreach statement.
 ms.date: 03/10/2020
 ms.topic: reference
 author: mikadumont

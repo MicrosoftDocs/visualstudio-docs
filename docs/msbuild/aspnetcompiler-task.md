@@ -1,5 +1,6 @@
 ---
 title: Use AspNetCompiler Task to precompile ASP.NET
+description: Use the MSBuild AspNetCompiler task to wrap aspnet_compiler.exe, a utility to precompile ASP.NET applications.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
@@ -69,3 +70,4 @@ The following code example uses the `AspNetCompiler` task to precompile an ASP.N
 
 * [Tasks](../msbuild/msbuild-tasks.md)
 * [Task reference](../msbuild/msbuild-task-reference.md)
+* [ASP.NET Compilation Tool (aspnet_compiler.exe)](/previous-versions/ms229863(v=vs.100))

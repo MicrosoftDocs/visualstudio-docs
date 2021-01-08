@@ -5,13 +5,13 @@
   expanded: true
   items:
   - name: Deploy an ASP.NET Core app to Azure
-    href: /aspnet/core/tutorials/publish-to-azure-webapp-using-vs?view=aspnetcore-2.1
+    href: /aspnet/core/tutorials/publish-to-azure-webapp-using-vs?view=aspnetcore-2.1&preserve-view=true
   - name: Deploy a .NET TODO List Web App to Azure
-    href: /dotnet/azure/dotnet-quickstart-vs?view=azure-dotnet
+    href: /dotnet/azure/dotnet-quickstart-vs?view=azure-dotnet&preserve-view=true
   - name: Continuous deployment to Azure with Visual Studio and Git with ASP.NET Core
-    href: /aspnet/core/host-and-deploy/azure-apps/azure-continuous-deployment?view=aspnetcore-2.1
+    href: /aspnet/core/host-and-deploy/azure-apps/azure-continuous-deployment?view=aspnetcore-2.1&preserve-view=true
   - name: Continuous deployment to Azure with Azure Pipelines
-    href: /azure/devops/pipelines/get-started-yaml?view=vsts
+    href: /azure/devops/pipelines/get-started-yaml?view=vsts&preserve-view=true
   - name: Deploy an ASP.NET Web App to an Azure VM
     href: /azure/virtual-machines/windows/publish-web-app-from-visual-studio?toc=/visualstudio/azure/toc.json&bc=/visualstudio/azure/breadcrumb/toc.json
 - name: Connect to Azure services
@@ -33,6 +33,8 @@
     href: azure-sql-database-add-connected-service.md
   - name: Add Azure Storage
     href: vs-azure-tools-connected-services-storage.md
+  - name: Add Azure App Configuration 
+    href: vs-azure-tools-connected-services-app-configuration.md
 - name: Azure Cloud Services development
   expanded: false
   items:

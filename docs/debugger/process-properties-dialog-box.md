@@ -1,5 +1,7 @@
 ---
 title: "Process Properties Dialog Box | Microsoft Docs"
+description: "Use Process Properties to find out more about a process that you select in Processes View. There are four tabs: General, memory, Page File, and Space."
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 helpviewer_keywords:

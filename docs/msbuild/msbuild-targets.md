@@ -1,5 +1,7 @@
 ---
 title: MSBuild Targets | Microsoft Docs
+description: Learn how MSBuild uses targets to group tasks together and allow the build process to be factored into smaller units.
+ms.custom: SEO-VS-2020
 ms.date: 06/13/2019
 ms.topic: conceptual
 helpviewer_keywords:
@@ -411,7 +413,7 @@ $(TargetFileName) -          The file name of the build target.
 ===================================================
 GenerateBindingRedirectsUpdateAppConfig
 Updates the project to use the generated app.config content.  This needs to run regardless of 
-inputs/outputs so it is seperate from GenerateBindingRedirects.
+inputs/outputs so it is separate from GenerateBindingRedirects.
 ===================================================
 <Target Name="GenerateBindingRedirectsUpdateAppConfig"
         AfterTargets="GenerateBindingRedirects"

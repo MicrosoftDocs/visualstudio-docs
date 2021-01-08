@@ -1,5 +1,7 @@
 ---
 title: What&apos;s New in MSBuild 16.0  | Microsoft Docs
+description: Learn about the changed and updated features and properties for MSBuild 16.0, and link to release notes.
+ms.custom: SEO-VS-2020
 ms.date: 03/11/2019
 ms.topic: conceptual
 author: ghogen
@@ -25,6 +27,10 @@ MSBuild 16.0](https://github.com/microsoft/msbuild/releases/tag/v16.0.461.62831)
 - `MSBuildToolsVersion` for this version of the tools is "Current". The assembly version is the same as in Visual Studio 2017, which is 15.1.0.0.
 
 - `VisualStudioVersion` for this version of the tools is "16.0"
+
+## Change waves
+
+Starting with MSBuild 16.8, you can selectively choose whether to opt out of certain potentially disruptive changes in MSBuild. See [Change waves](change-waves.md).
 
 ## Updates
 

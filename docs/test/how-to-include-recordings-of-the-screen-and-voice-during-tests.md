@@ -1,8 +1,10 @@
 ---
 title: Record Screen and Voice During Tests
+description: Learn how to configure the diagnostic data adapter that records the screen and voice of the user who's running the test in Visual Studio.
+ms.custom: SEO-VS-2020
 ms.date: 10/03/2016
 ms.topic: how-to
-helpviewer_keywords: 
+helpviewer_keywords:
   - test settings, recording desktop video
 ms.assetid: 2cefe8c2-430a-4cb4-bbe0-f3edb2e5bc03
 author: mikejo5000
@@ -22,7 +24,7 @@ The screen and voice recorder can be used with either manual or automated tests.
 
 ## To configure screen and voice recording for your test settings
 
-1. Open the test settings that you want to configure for recording the screen and voice. For more information, see [Collect diagnostic data while testing (Azure Test Plans)](/azure/devops/test/collect-diagnostic-data?view=vsts) or [Collect diagnostic information using test settings](../test/collect-diagnostic-information-using-test-settings.md).
+1. Open the test settings that you want to configure for recording the screen and voice. For more information, see [Collect diagnostic data while testing (Azure Test Plans)](/azure/devops/test/collect-diagnostic-data?view=vsts&preserve-view=true) or [Collect diagnostic information using test settings](../test/collect-diagnostic-information-using-test-settings.md).
 
 2. In the test settings, select the **Role** to use to record the screen and voice.
 
@@ -63,7 +65,7 @@ The screen and voice recorder can be used with either manual or automated tests.
 
 ## See also
 
-- [Collect diagnostic data while testing (Azure Test Plans)](/azure/devops/test/collect-diagnostic-data?view=vsts)
-- [Collect diagnostic data in manual tests (Azure Test Plans)](/azure/devops/test/mtm/collect-more-diagnostic-data-in-manual-tests?view=vsts)
+- [Collect diagnostic data while testing (Azure Test Plans)](/azure/devops/test/collect-diagnostic-data?view=vsts&preserve-view=true)
+- [Collect diagnostic data in manual tests (Azure Test Plans)](/azure/devops/test/mtm/collect-more-diagnostic-data-in-manual-tests?view=vsts&preserve-view=true)
 - [Collect diagnostic information using test settings](../test/collect-diagnostic-information-using-test-settings.md)
-- [Run manual tests (Azure Test Plans)](/azure/devops/test/run-manual-tests?view=vsts)
+- [Run manual tests (Azure Test Plans)](/azure/devops/test/run-manual-tests?view=vsts&preserve-view=true)

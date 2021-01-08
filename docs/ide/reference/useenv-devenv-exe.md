@@ -1,5 +1,7 @@
 ---
 title: -UseEnv (devenv.exe)
+description: Learn how to use the UseEnv devenv command-line switch to start Visual Studio and load certain environment variables for compilation.
+ms.custom: SEO-VS-2020
 ms.date: 01/10/2019
 ms.topic: reference
 f1_keywords:

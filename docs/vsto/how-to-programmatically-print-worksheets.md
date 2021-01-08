@@ -1,5 +1,7 @@
 ---
 title: "How to: Programmatically print worksheets"
+description: Learn how you can use Visual Studio to programmatically print any worksheet in a Microsoft Excel workbook.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:

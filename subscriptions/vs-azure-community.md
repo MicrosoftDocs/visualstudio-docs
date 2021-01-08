@@ -2,9 +2,9 @@
 title: Azure Community Support benefit in Visual Studio Subscription | Microsoft Docs
 author: evanwindom
 ms.author: v-evwin
-manager: lank
+manager: cabuschl
 ms.assetid: c15f7e18-b280-4902-a60d-2c2598653207
-ms.date: 07/29/2019
+ms.date: 12/02/2020
 ms.topic: conceptual
 description:  Learn about the Azure Community Support benefit included in selected Visual Studio subscriptions.
 ---
@@ -50,28 +50,28 @@ Getting started with Azure Community is easy.
 
 2. Locate the Azure Community tile in the Support section, and click the **Get Help** link.
     > [!div class="mx-imgBorder"]
-    >![Azure Community Tile](_img/vs-azure-community/vs-azure-community-tile.png)
+    >![Azure Community Tile](_img/vs-azure-community/vs-azure-community-tile.png "Click the 'Get Help' button on the Azure Community tile to get started.")
 
 3. You'll see a list of the available forums.  Simply click on the forum of your choice.
     > [!div class="mx-imgBorder"]
-    > ![Azure Community Forums](_img/vs-azure-community/vs-azure-community-forums.png)
+    > ![Azure Community Forums](_img/vs-azure-community/vs-azure-community-forums.png "On the Azure Community Support page, select your choice of forums.")
 
 4. Within the forum, you can view topics and responses, search for answers to your question, or post a new question.
     > [!div class="mx-imgBorder"]
-    > ![Azure Community Example](_img/vs-azure-community/vs-azure-community-example.png)
+    > ![Azure Community Example](_img/vs-azure-community/vs-azure-community-example.png "In the forum, you can view topics, search for answers, or post new questions.")
 
 ## Eligibility
 Availability of the Azure Community benefit depends on your subscription level as shown below:
 
 |                                          Subscription Level                                           |     Channels      |    Benefit    | Renewable? |
 |-------------------------------------------------------------------------------------------------------|-------------------|---------------|------------|
-|                           Visual Studio Enterprise (Standard)                           | VL, Azure, Retail |   One year    |    Yes     |
-|                           Visual Studio Enterprise with GitHub Enterprise                           | VL, Azure, Retail |   One year    |    Yes     |
-|                          Visual Studio Professional (Standard)                          | VL, Azure, Retail |   One year    |    Yes     |
-|                          Visual Studio Professional with GitHub Enterprise                          | VL, Azure, Retail |   One year    |    Yes     |
-|                              Visual Studio Test Professional (Standard)                               |    VL, Retail     |   One year    |    Yes     |
-|                                       MSDN Platforms (Standard)                                       |    VL, Retail     |   One year    |    Yes     |
-| Visual Studio Enterprise (monthly cloud), Visual Studio Professional (monthly cloud), NFR<sup>1</sup> |        All        | Not available |     No     |
+|                           Visual Studio Enterprise (Standard), NFR<sup>1</sup>                            | VL, Azure, Retail |   Available    |    Yes     |
+|                           Visual Studio Enterprise subscription with GitHub Enterprise                           | VL, Azure, Retail |   Available    |    Yes     |
+|                          Visual Studio Professional (Standard)                          | VL, Azure, Retail |   Available    |    Yes     |
+|                          Visual Studio Professional subscription with GitHub Enterprise                          | VL, Azure, Retail |   Available    |    Yes     |
+|                              Visual Studio Test Professional (Standard)                               |    VL, Retail     |   Available    |    Yes     |
+|                                       MSDN Platforms (Standard)                                       |    VL, Retail     |   Available    |    Yes     |
+| Visual Studio Enterprise (monthly cloud), Visual Studio Professional (monthly cloud)|        All        | Not available |     No     |
 
 <sup>1</sup>  *Includes:  Not for Resale (NFR), Microsoft FTE, Most Valuable Professional (MVP), Regional Director (RD), Visual Studio Industry Partner (VSIP), BizSpark, Imagine, Microsoft Certified Trainer (MCT)*
 

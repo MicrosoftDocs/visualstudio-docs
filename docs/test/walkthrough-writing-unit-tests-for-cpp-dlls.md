@@ -1,5 +1,7 @@
 ---
 title: "How to: Write unit tests for C++ DLLs"
+description: Learn how to develop a native C++ DLL using test-first methodology. Begin by creating a native test project.
+ms.custom: SEO-VS-2020
 ms.date: 06/13/2019
 ms.topic: how-to
 ms.author: corob
@@ -320,7 +322,7 @@ The following steps show how to create a DLL project in Visual Studio 2017.
 ::: moniker range="vs-2017"
 
 > [!TIP]
-> If individual tests have no dependencies that prevent them from being run in any order, turn on parallel test execution with the ![UTE&#95;parallelicon&#45;small](../test/media/ute_parallelicon-small.png) toggle button on the toolbar. This can noticeably reduce the time taken to run all the tests.
+> If individual tests have no dependencies that prevent them from being run in any order, turn on parallel test execution with the ![Screenshot of the parallel test execution toggle button on the Test Explorer toolbar. When this button is selected, tests will run in parallel.](../test/media/ute_parallelicon-small.png) toggle button on the toolbar. This can noticeably reduce the time taken to run all the tests.
 
 ::: moniker-end
 

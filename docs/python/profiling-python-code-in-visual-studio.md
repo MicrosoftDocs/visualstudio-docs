@@ -17,7 +17,7 @@ You can profile a Python application when using CPython-based interpreters. (See
 
 ## Profiling for CPython-based interpreters
 
-Profiling is started through the **Analyze** > **Launch Python Profiling** menu command, which opens a configuration dialog:
+Profiling is started through the **Debug** > **Launch Python Profiling** menu command, which opens a configuration dialog:
 
 ![Profiling configuration dialog](media/profiling-start.png)
 
@@ -26,7 +26,7 @@ When you select **OK**, the profiler runs and opens a performance report through
 ![Profiling performance report](media/profiling-results.png)
 
 > [!Note]
-> At present, Visual Studio supports only this level of full-application profiling, but we certainly want to hear your feedback on future capabilities. Use the **Product feedback** button at the bottom of this page.
+> When you profile a Python application Visual Studio collects data for the lifetime of the process. At present, it is not possible to pause profiling. We do want to hear your feedback on future capabilities. Use the **Product feedback** button at the bottom of this page.
 
 ## Profiling for IronPython
 

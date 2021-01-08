@@ -1,5 +1,7 @@
 ---
 title: "ResourcesGenerator Task | Microsoft Docs"
+description: Learn how MSBuild uses the ResourcesGenerator task to embed one or more resources into a .resources file.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:

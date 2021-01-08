@@ -1,5 +1,7 @@
 ---
 title: "How to: Programmatically create a meeting request"
+description: Learn how you can programmatically create a meeting request in Microsoft Outlook and send the request to a required attendee.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:

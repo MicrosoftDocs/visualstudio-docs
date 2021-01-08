@@ -1,7 +1,7 @@
 ---
 title: require-vscomponent
 description: devinit tool require-vscomponent.
-ms.date: 08/28/2020
+ms.date: 11/20/2020
 ms.topic: reference
 author: andysterland
 ms.author: andster
@@ -14,7 +14,7 @@ ms.technology: devinit
 ---
 # require-vscomponent
 
-The `require-vscomponent` tool is used to import Visual Studio configurations to existing Visual Studio. Read more about `.vsconfig` [here](https://docs.microsoft.com/visualstudio/install/import-export-installation-configurations).
+The `require-vscomponent` tool is used to import Visual Studio configurations to existing Visual Studio. Read more about `.vsconfig` [here](../install/import-export-installation-configurations.md).
 
 ## Usage
 
@@ -36,18 +36,19 @@ Not used.
 
 ### Default behavior
 
-The Default behavior of the `require-vscomponent` tool is to look for a `.vsconfig` file in current directory and run the Visual Studio Installer with these details in quiet mode. `require-vscomponent` only supports modifying an existing Visual Studio installation.
+The default behavior of the `require-vscomponent` tool is to look for a `.vsconfig` file in current directory and run the Visual Studio Installer with these details in quiet mode. `require-vscomponent` only supports modifying an existing Visual Studio installation.
 
 ## Example usage
+Below is an example of how to run `require-vscomponent` using a `.devinit.json`.
 
+#### .devinit.json that will import the configurations of a given .vsconfig file path:
 ```json
 {
-    "$schema": "https://json.schemastore.org/devinit.schema-2.0",
+    "$schema": "https://json.schemastore.org/devinit.schema-3.0",
     "comments": "A sample dot-devinit file.",
     "run": [
         {
             "tool": "require-vscomponent",
-            "comments": "Imports .vsconfig file which is passed as input to Visual Studio.",
             "input": "C:\\.vsconfig"
         }
     ]

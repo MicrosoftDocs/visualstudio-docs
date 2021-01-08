@@ -1,5 +1,7 @@
 ---
 title: VSCodeWindowManager Object | Microsoft Docs
+description: Learn about the VSCodeWindowManager object, which is responsible for managing adornments, for example, the drop-down bar.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 f1_keywords:
@@ -16,7 +18,7 @@ ms.workload:
 ---
 # VSCodeWindowManager object
 
-The language service implements the code window manager and is responsible for managing adornments (for example, the drop-down bar). For more information, see [Customizing Code Windows by Using the Legacy API](../vs-2015/extensibility/customizing-code-windows-by-using-the-legacy-api.md?view=vs-2015&preserve-view=true).
+The language service implements the code window manager and is responsible for managing adornments (for example, the drop-down bar). For more information, see [Customizing Code Windows by Using the Legacy API](/previous-versions/visualstudio/visual-studio-2015/extensibility/customizing-code-windows-by-using-the-legacy-api?preserve-view=true&view=vs-2015).
 
 The following table shows the interfaces in the `VSCodeWindowManager` object.
 

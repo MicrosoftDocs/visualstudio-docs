@@ -15,7 +15,7 @@ The Developer Community tracks issues and feature suggestions for Visual Studio.
 
 ## Submitting problems and suggestions
 
-The [Visual Studio Developer Community](https://developercommunity.visualstudio.com/) tracks issues and feature suggestions for Visual Studio.
+The [Visual Studio Developer Community](https://aka.ms/feedback/suggest?space=8) tracks issues and feature suggestions for Visual Studio.
 
 ### Before submitting an issue
 
@@ -53,11 +53,13 @@ Triaging an issue is a multi-step process that is collaboratively done within th
 
 After you report a problem, states indicate where your submissions are in their lifecycle. As Visual Studio product teams review your feedback, they set it with an appropriate state. Track the progress of your problem reports by referencing the [Problem states and FAQ](./report-a-problem.md).
 
+### Prioritizing which issues to fix
+
+We can't fix all the issue reported. Some are too expensive to fix, some might regress other feature areas, and some may have too low an impact. We understand this may be disappointing if you've taken the time to send us an issue report. We've all been there, whether in this project or others we've contributed to. If an issue was closed and you feel the reason we gave isn't satisfying, then you can clarify your use-case and request the issue to be re-activated for another pass. At this point, we may ask you for further information.
+
+### Missing important information
+
 When an issue is missing important information, we assign the _Needs More Info_ state. We comment on the issue with the specific information we need, and you'll receive an email notification. If we don't receive the information within seven days, then we send you a reminder. After that, we close the ticket after 14 days of inactivity.
-
-### Won't fix bugs
-
-We close some bugs when there's a negative cost-benefit balance. For example, if the fix is so complex it risks regressions for many users, fixing may not be reasonable. When we close a bug like this, we'll explain why we do so.
 
 ### Other product
 
@@ -109,4 +111,4 @@ Comments and replies are publicly visible, but any attached files are privately 
 
 ## Next steps
 
-Head on over to the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/) to report problems, suggest features, or browse through the existing tickets. Enjoy!
+Head on over to the [Visual Studio Developer Community](https://aka.ms/feedback/suggest?space=8) to report problems, suggest features, or browse through the existing tickets. Enjoy!

@@ -1,5 +1,7 @@
 ---
 title: Toolbox window
+description: Learn about the Toolbox window and how it displays controls that you can add to Visual Studio projects.
+ms.custom: SEO-VS-2020
 ms.date: 06/01/2020
 ms.topic: reference
 f1_keywords:
@@ -18,7 +20,7 @@ ms.workload:
 
 The **Toolbox** window displays controls that you can add to Visual Studio projects. To open **Toolbox**, choose **View** > **Toolbox** from the menu bar, or press **Ctrl**+**Alt**+**X**.
 
-![Toolbox window](media/vs-2019/toolbox.png "Screenshot of the Toolbox window")
+![Screenshot of the Toolbox window showing the options in the Containers section.](media/vs-2019/toolbox.png "Screenshot of the Toolbox window")
 
 You can drag and drop different controls onto the surface of the designer you are using, and resize and position the controls.
 
@@ -31,7 +33,7 @@ The .NET version that your project targets also affects the set of controls visi
 
 ::: moniker range="vs-2019"
 
-![Toolbox window](media/vs-2019/toolbox-change-dotnet-version.png "Screenshot of the dialog box where you can change the .NET version")
+![Screenshot of the Application dialog box showing the options in the Target framework drop-down.](media/vs-2019/toolbox-change-dotnet-version.png "Screenshot of the dialog box where you can change the .NET version")
 
 ::: moniker-end
 

@@ -1,7 +1,7 @@
 ---
 title: "How Bridge to Kubernetes works"
 ms.technology: vs-azure
-ms.date: 06/02/2020
+ms.date: 11/19/2020
 ms.topic: "conceptual"
 description: "Describes the processes for using Bridge to Kubernetes to connect your development computer to your Kubernetes cluster"
 keywords: "Bridge to Kubernetes, Docker, Kubernetes, Azure, containers"
@@ -35,7 +35,7 @@ When Bridge to Kubernetes establishes a connection to your cluster, it:
 * Replaces the container in the pod on the cluster with a remote agent container that redirects traffic to your development computer.
 * Runs [kubectl port-forward][kubectl-port-forward] on your development computer to forward traffic from your development computer to the remote agent running in your cluster.
 * Collects environment information from your cluster using the remote agent. This environment information includes environment variables, visible services, volume mounts, and secret mounts.
-* Sets up the environment in Visual Studio so the service on your development computer can access the same variables as if it were running on the cluster.  
+* Sets up the environment in Visual Studio so the service on your development computer can access the same variables as if it were running on the cluster.
 * Updates your hosts file to map services on your cluster to local IP addresses on your development computer. These hosts file entries allow code running on your development computer to make requests to other services running in your cluster. To update your hosts file, Bridge to Kubernetes will ask for administrator access on your development computer when connecting to your cluster.
 * Starts running and debugging your code on your development computer. If necessary, Bridge to Kubernetes will free required ports on your development computer by stopping services or processes that are currently using those ports.
 
@@ -67,7 +67,8 @@ When you enable working in isolation, Bridge to Kubernetes does the following in
 If Bridge to Kubernetes detects that Azure Dev Spaces is enabled on your Kubernetes cluster, you are prompted to disable Azure Dev Spaces before you can use Bridge to Kubernetes.
 
 The routing manager does the following when it starts up:
-* Duplicates all ingresses found in the namespace using the *GENERATED_NAME* for the subdomain. 
+
+* Duplicates all ingresses (including load balancer ingresses) found in the namespace using the *GENERATED_NAME* for the subdomain.
 * Creates an envoy pod for each service associated with duplicated ingresses with the *GENERATED_NAME* subdomain.
 * Creates an additional envoy pod for the service you are working on in isolation. This allows requests with the subdomain to be routed to your development computer.
 * Configures routing rules for each envoy pod to handle routing for services with the subdomain.
@@ -87,7 +88,7 @@ When a request without the *GENERATED_NAME* subdomain is received on the cluster
 > [!IMPORTANT]
 > Each service on your cluster must forward the *kubernetes-route-as=GENERATED_NAME* header when making additional requests. For example, when *serviceA* receives a request, it then makes a request to *serviceB* before return a response. In this example, *serviceA* needs to forward the *kubernetes-route-as=GENERATED_NAME* header in its request to *serviceB*. Some languages, such as [ASP.NET][asp-net-header], may have methods for handling header propagation.
 
-When you disconnect from your cluster, by default, Bridge to Kubernetes will remove all the envoy pods and the duplicate service. 
+When you disconnect from your cluster, by default, Bridge to Kubernetes will remove all the envoy pods and the duplicate service.
 
 > [!NOTE]
 > The routing manager deployment and service will remain running in your namespace. To remove the deployment and service run the following commands for your namespace.
@@ -101,12 +102,45 @@ When you disconnect from your cluster, by default, Bridge to Kubernetes will rem
 
 When using Bridge to Kubernetes to connect to your cluster, diagnostic logs from your cluster are logged to your development computer's *TEMP* directory in the *Bridge to Kubernetes* folder.
 
+## RBAC authorization
+
+Kubernetes provides Role-based Access Control (RBAC) to manage permissions for users and groups. For information, see the [Kubernetes documentation](https://kubernetes.io/docs/reference/access-authn-authz/rbac/) You can set the permissions for an RBAC-enabled cluster by creating a YAML file and using `kubectl` to apply it to the cluster. 
+
+To set permissions on the cluster, create or modify a YAML file such as *permissions.yml* like the following, using your own namespace for `<namespace>` and the subjects (users and groups) that need access.
+
+```yml
+kind: RoleBinding
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  name: bridgetokubernetes-<namespace>
+  namespace: development
+subjects:
+  - kind: User
+    name: jane.w6wn8.k8s.ginger.eu-central-1.aws.gigantic.io
+    apiGroup: rbac.authorization.k8s.io
+  - kind: Group
+    name: dev-admin
+    apiGroup: rbac.authorization.k8s.io
+roleRef:
+  kind: ClusterRole
+  name: admin
+  apiGroup: rbac.authorization.k8s.io
+```
+
+Apply the permissions by using the command:
+
+```cmd
+kubectl -n <namespace> apply -f <yaml file name>
+```
+
 ## Limitations
 
 Bridge to Kubernetes has the following limitations:
 
 * A service must be backed by a single pod in order to connect to that service. You can't connect to a service with multiple pods, such as a service with replicas.
 * A pod may only have a single container running in that pod for Bridge to Kubernetes to successfully connect. Bridge to Kubernetes can't connect to services with pods that have additional containers, such as sidecar containers injected by services meshes.
+* Currently, Bridge to Kubernetes pods must be Linux containers. Windows containers are not supported.
+* Isolation cannot be used with HTTPS when you use Bridge to Kubernetes with Visual Studio. HTTPS is only supported in isolation mode when you use Visual Studio Code.
 * Bridge to Kubernetes needs elevated permissions to run on your development computer in order to edit your hosts file.
 * Bridge to Kubernetes can't be used on clusters with Azure Dev Spaces enabled.
 
@@ -121,7 +155,7 @@ To get started using Bridge to Kubernetes to connect to your local development c
 [asp-net-header]: https://www.nuget.org/packages/Microsoft.AspNetCore.HeaderPropagation/
 [azds-cli]: /azure/dev-spaces/how-to/install-dev-spaces#install-the-client-side-tools
 [azds-tmp-dir]: /azure/dev-spaces/troubleshooting#before-you-begin
-[azure-cli]: /cli/azure/install-azure-cli?view=azure-cli-latest
+[azure-cli]: /cli/azure/install-azure-cli?view=azure-cli-latest&preserve-view=true
 [bridge-to-kubernetes-vs]: bridge-to-kubernetes.md
 [kubectl-port-forward]: https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#port-forward
 [visual-studio]: https://visualstudio.microsoft.com/downloads/

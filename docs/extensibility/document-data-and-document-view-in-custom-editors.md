@@ -1,5 +1,7 @@
 ---
 title: Document Data and Document View in Custom Editors | Microsoft Docs
+description: Learn about the components of a custom editor, which are the document data object and the document view object.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -28,7 +30,7 @@ A custom editor consists of two parts: a document data object and a document vie
 
  The IDE notifies views about events (for example, when a solution containing a document is closed) by matching an item identifier (ItemID) for each entry in the running document table. For more information on this, see [Running document table](../extensibility/internals/running-document-table.md).
 
- There are two options for creating a view for a custom editor. One is the in-place activation model, where the view is hosted in a window using either an ActiveX control or a document data object. The second is the simplified embedding model, where the view is hosted by [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] and <xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowPane> is implemented to handle window commands. For information about the in-place activation model, see [In-place activation](../vs-2015/misc/in-place-activation.md?view=vs-2015&preserve-view=true). For information about the simplified embedding model, see [Simplified embedding](../extensibility/simplified-embedding.md).
+ There are two options for creating a view for a custom editor. One is the in-place activation model, where the view is hosted in a window using either an ActiveX control or a document data object. The second is the simplified embedding model, where the view is hosted by [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] and <xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowPane> is implemented to handle window commands. For information about the in-place activation model, see [In-place activation](/previous-versions/visualstudio/visual-studio-2015/misc/in-place-activation?preserve-view=true&view=vs-2015). For information about the simplified embedding model, see [Simplified embedding](../extensibility/simplified-embedding.md).
 
 ## See also
 

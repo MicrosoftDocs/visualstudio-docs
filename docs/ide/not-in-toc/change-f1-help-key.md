@@ -3,7 +3,7 @@ title: Change the F1 help key
 description: "Describes how to re-map or remove the F1 key mapping"
 ms.date: 08/20/2020
 ms.topic: how-to
-ms.custom: contperfq1
+ms.custom: contperf-fy21q1
 robots: noindex,nofollow
 manager: jillfra
 author: mikejo5000

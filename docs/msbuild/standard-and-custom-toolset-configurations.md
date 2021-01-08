@@ -1,5 +1,7 @@
 ---
 title: Standard and Custom Toolset Configurations | Microsoft Docs
+description: Learn about standard and custom MSBuild Toolsets, which contain references to tasks, targets, and tools you can use to build an application project.
+ms.custom: SEO-VS-2020
 ms.date: 01/31/2018
 ms.topic: conceptual
 helpviewer_keywords:

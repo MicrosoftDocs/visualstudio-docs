@@ -10,7 +10,7 @@ ms.topic: overview
 ---
 # Debugging with Visual Studio for Mac
 
-Visual Studio for Mac has debuggers with support for .Net Core, .NET Framework, Unity, and Xamarin applications.
+Visual Studio for Mac has debuggers with support for .NET Core, .NET Framework, Unity, and Xamarin applications.
 
 Visual Studio for Mac uses the [*Mono Soft Debugger*](https://www.mono-project.com/docs/advanced/runtime/docs/soft-debugger/), which is implemented into the Mono runtime, allowing Visual Studio for Mac to debug managed code across all platforms.
 
@@ -34,7 +34,7 @@ To set a breakpoint in your IDE, click on the margin area of your editor, next t
 
 ![Setting breakpoint in margin](media/debugging-image0.png)
 
-You can view all the breakpoints that have been set in your code by going to the  **Breakpoints pad**:
+You can view all the breakpoints that have been set in your code by going to the  **Breakpoints Window**:
 
 ![List of breakpoints](media/debugging-image0a.png)
 
@@ -61,9 +61,9 @@ You can also set rules dictating the circumstances under which a breakpoint shou
 
  ![Breakpoint context menu](media/debugging-image4.png)
 
-* To add a condition to an existing breakpoint, right-click on the breakpoint and select  **Breakpoint Properties**, or, in the  **Breakpoints Pad**, select the Edit Breakpoint button illustrated below:
+* To add a condition to an existing breakpoint, right-click on the breakpoint and select  **Breakpoint Properties**, or, in the  **Breakpoints Window**, select the Edit Breakpoint button illustrated below:
 
- ![Edit existing Breakpoint in Breakpoints Pad](media/debugging-image5.png)
+ ![Edit existing Breakpoint in Breakpoints Window](media/debugging-image5.png)
 
 You can then enter the condition under which you want the breakpoint to occur:
 

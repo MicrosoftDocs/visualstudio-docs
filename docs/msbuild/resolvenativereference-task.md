@@ -1,5 +1,7 @@
 ---
 title: ResolveNativeReference Task | Microsoft Docs
+description: Learn how MSBuild uses the ResolveNativeReference task to resolve native references by implementing the Microsoft.Build.Tasks.ResolveNativeReference class.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:

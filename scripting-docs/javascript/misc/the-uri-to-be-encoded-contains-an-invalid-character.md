@@ -27,5 +27,5 @@ You attempted to encode a string as a URI (Uniform Resource Identifier), but it 
     ```  
   
 ## See also  
- [encodeURI Function](../../javascript/reference/encodeuri-function-javascript.md)   
- [encodeURIComponent Function](../../javascript/reference/encodeuricomponent-function-javascript.md)
+ [encodeURI Function](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/encodeuri)   
+ [encodeURIComponent Function](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/encodeuricomponent)

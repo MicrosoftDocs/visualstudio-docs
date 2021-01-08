@@ -1,8 +1,10 @@
 ---
 title: Create a Diagnostic Data Adapter for testing
+description: Learn how to write code to perform tasks at specific points in your test run by using APIs provided within Visual Studio Enterprise.
+ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
 ms.topic: how-to
-helpviewer_keywords: 
+helpviewer_keywords:
   - Diagnostic Data Adapter [Visual Studio ALM]
   - Diagnostic Data Adapter
 ms.assetid: b0b53fae-7007-4ad9-a604-21685937622f
@@ -33,7 +35,7 @@ Use the following topics to help you create Diagnostic Data Adapters:
 |Tasks|Associated Topics|
 |-|-----------------------|
 |**Creating a Diagnostic Data Adapter:** You create a diagnostic data adapter by creating a class library, and then use the diagnostic data adapter APIs to collect information that you want or impact a test system that you are using to run your tests.|-   [How to: Create a diagnostic data adapter](../test/how-to-create-a-diagnostic-data-adapter.md)|
-|**Selecting a Custom Diagnostic Data Adapter to Use When Tests are Run:** You can select which diagnostic data adapter to use for your test settings, so that the adapter is used when you run your tests.|-   [Collect diagnostic data while testing (Azure Test Plans)](/azure/devops/test/collect-diagnostic-data?view=vsts)<br />-   [Collect diagnostic data in manual tests (Azure Test Plans)](/azure/devops/test/mtm/collect-more-diagnostic-data-in-manual-tests?view=vsts)|
+|**Selecting a Custom Diagnostic Data Adapter to Use When Tests are Run:** You can select which diagnostic data adapter to use for your test settings, so that the adapter is used when you run your tests.|-   [Collect diagnostic data while testing (Azure Test Plans)](/azure/devops/test/collect-diagnostic-data?view=vsts&preserve-view=true)<br />-   [Collect diagnostic data in manual tests (Azure Test Plans)](/azure/devops/test/mtm/collect-more-diagnostic-data-in-manual-tests?view=vsts&preserve-view=true)|
 
 ## See also
 

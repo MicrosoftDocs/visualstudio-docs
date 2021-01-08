@@ -25,5 +25,5 @@ You used the exception handling **try** block, but did not write the associated 
 - Try using a **finally** block instead of a **catch** block.  
   
 ## See also  
- [try...catch...finally Statement](../../javascript/reference/try-dot-dot-dot-catch-dot-dot-dot-finally-statement-javascript.md)   
- [Error Object](../../javascript/reference/error-object-javascript.md)
+ [try...catch...finally Statement](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/try...catch)   
+ [Error Object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Error)

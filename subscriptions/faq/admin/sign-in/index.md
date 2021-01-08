@@ -1,12 +1,12 @@
 ---
-title: Visual Studio Subscriptions sign-in
+title: Visual Studio subscriptions sign-in
 description: FAQs list for Signing In.
 ms.faqid: Section3
 ms.topic: conceptual
 ms.assetid: e4573b81-b40c-4008-9c33-9e7437cb5796
 author: CaityBuschlen
 ms.author: cabuschl
-ms.date: 3/3/2020
+ms.date: 12/01/2020
 ---
 
 # Signing in

@@ -40,7 +40,7 @@ ms.workload:
 Breakpoints are one of the most important debugging techniques in your developer's toolbox. You set breakpoints wherever you want to pause debugger execution. For example, you may want to see the state of code variables or look at the call stack at a certain breakpoint.  If you are trying to resolve a warning or issue while using breakpoints, see [Troubleshoot breakpoints in the Visual Studio debugger](../debugger/troubleshooting-breakpoints.md).
 
 > [!NOTE]
-> If you know the task or problem you're trying to solve, but you need to know what kind of breakpoint to use, see [Find your debugging task](../debugger/find-your-debugging-task.md#pause-running-code).
+> If you know the task or problem you're trying to solve, but you need to know what kind of breakpoint to use, see [FAQ - Find your debugging feature](../debugger/find-your-debugging-task.md#pause-running-code).
 
 ## <a name="BKMK_Overview"></a> Set breakpoints in source code
 
@@ -106,9 +106,7 @@ In the following example, the breakpoint is hit only when the value of `testInt`
 If you set a breakpoint condition with invalid syntax, a warning message appears. If you specify a breakpoint condition with valid syntax but invalid semantics, a warning message appears the first time the breakpoint is hit. In either case, the debugger breaks when it hits the invalid breakpoint. The breakpoint is skipped only if the condition is valid and evaluates to `false`.
 
 >[!NOTE]
->The behavior of the **When changed** field is different for different programming languages.
->- For native code, the debugger doesn't consider the first evaluation of the condition to be a change, so doesn't hit the breakpoint on the first evaluation.
->- For managed code, the debugger hits the breakpoint on the first evaluation after **When changed** is selected.
+> For the **When changed** field, the debugger doesn't consider the first evaluation of the condition to be a change, so doesn't hit the breakpoint on the first evaluation.
 
 <a name="using-object-ids-in-breakpoint-conditions-c-and-f"></a>
 ### Use Object IDs in conditional expressions (C# and F# only)

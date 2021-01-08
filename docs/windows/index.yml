@@ -7,7 +7,7 @@ metadata:
    titleSuffix: ""
    description: Learn how to use Visual Studio to develop applications, services, and tools in the language of your choice, for any platform or device.
    ms.topic: hub-page
-   ms.custom: contperfq1
+   ms.custom: contperf-fy21q1
    monikerRange: ">=vs-2017"
    f1_keywords:
      - MSDNSTART
@@ -56,7 +56,7 @@ conceptualContent:
           url: /cpp/get-started/tutorial-console-cpp
           itemType: get-started
         - text: Create a Visual Basic console app
-          url: ../get-started/visual-basic//tutorial-console.md
+          url: ../get-started/visual-basic/tutorial-console.md
           itemType: get-started
         - text: Get started with Python
           url: ../python/tutorial-working-with-python-in-visual-studio-step-00-installation.md
@@ -149,12 +149,12 @@ additionalContent:
             - text: Mobile development with C++
               url: /visualstudio/cross-platform/
             - text: Mobile development with JavaScript
-              url: /visualstudio/cross-platform/tools-for-cordova/?view=toolsforcordova-2017
+              url: /visualstudio/cross-platform/tools-for-cordova/?view=toolsforcordova-2017&preserve-view=true
               note: (Visual Studio 2017 and 2015 only)
         - title: Gaming
           links:
             - text: Game development with Unity
-              url: ../cross-platform/visual-studio-tools-for-unity.md
+              url: /visualstudio/gamedev/unity/get-started/visual-studio-tools-for-unity
             - text: Game development with C++
               url: /windows/uwp/gaming/e2e
         - title: Other toolsets
@@ -164,7 +164,7 @@ additionalContent:
             - text: Linux development with C++
               url: /cpp/linux/
             - text: .NET Core cross-platform development
-              url: /dotnet/core/   
+              url: /dotnet/core/
    - title: Tasks
      items:
       - title: Develop
@@ -203,4 +203,4 @@ additionalContent:
       - title: Develop with Docker containers
         summary: Use Docker containers to isolate modular components and improve scalability.
         url: ../containers/index.yml
-   footer: "[Blogs](https://devblogs.microsoft.com/visualstudio/) - [Twitter](https://twitter.com/VisualStudio) - [Stack Overflow](https://stackoverflow.com/questions/tagged/visual-studio) - [Issue Reporting](../ide/feedback-options.md) - [Developer Community](https://developercommunity.visualstudio.com/spaces/8/index.html) - [Troubleshooting](/troubleshoot/visualstudio/welcome-visual-studio)"
+   footer: "[Blogs](https://devblogs.microsoft.com/visualstudio/) - [Twitter](https://twitter.com/VisualStudio) - [Stack Overflow](https://stackoverflow.com/questions/tagged/visual-studio) - [Issue Reporting](../ide/feedback-options.md) - [Developer Community](https://aka.ms/feedback/suggest?space=8) - [Troubleshooting](/troubleshoot/visualstudio/welcome-visual-studio)"
