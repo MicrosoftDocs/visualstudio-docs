@@ -1,6 +1,7 @@
 ---
 title: Code metrics - Class coupling
 ms.date: 1/8/2021
+description: Learn about the class coupling metric for code metrics in Visual Studio.
 ms.topic: conceptual
 author: mikejo5000
 ms.author: mikejo
