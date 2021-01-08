@@ -13,11 +13,11 @@ ms.workload:
 
 Class coupling also goes by the name Coupling Between Objects (CBO) as originally defined by [CK94](#ck94). Basically, class coupling is a measure of how many classes a single class uses. A high number is bad and a low number is generally good with this metric. Class coupling has been shown to be an accurate predictor of software failure and recent studies have shown that an upper-limit value of 9 is the most efficient [S2010](#s2010).
 
-According to the Microsoft documentation, class coupling “\[m\]easures the coupling to unique classes through parameters, local variables, return types, method calls, generic or template instantiations, base classes, interface implementations, fields defined on external types, and attribute decoration. Good software design dictates that types and methods should have high cohesion and low coupling. High coupling indicates a design that is difficult to reuse and maintain because of its many interdependencies on other types.”
+According to the Microsoft documentation, class coupling “measures the coupling to unique classes through parameters, local variables, return types, method calls, generic or template instantiations, base classes, interface implementations, fields defined on external types, and attribute decoration. Good software design dictates that types and methods should have high cohesion and low coupling. High coupling indicates a design that is difficult to reuse and maintain because of its many interdependencies on other types.”
 
 The concepts of coupling and cohesion are clearly related. To keep this discussion on topic, we will not get into depth with cohesion other than to give a brief definition from [KKLS2000](#kkls2000):
 
-“Module cohesion was introduced by Yourdon and Constantine as ‘how tightly bound or related the internal elements of a module are to one another’ [YC79](#yc79). A module has a strong cohesion if it represents exactly one task \[…\], and all its elements contribute to this single task. They describe cohesion as an attribute of design, rather than code, and an attribute that can be used to predict reusability, maintainability, and changeability.”
+“Module cohesion was introduced by Yourdon and Constantine as ‘how tightly bound or related the internal elements of a module are to one another’ [YC79](#yc79). A module has a strong cohesion if it represents exactly one task […], and all its elements contribute to this single task. They describe cohesion as an attribute of design, rather than code, and an attribute that can be used to predict reusability, maintainability, and changeability.”
 
 ## Class Coupling Example
 
@@ -51,7 +51,7 @@ As you can see, the class coupling for the PersonStuff class goes up to 2 and, i
 
 As with cyclomatic complexity, there is no limit that fits all organizations. However, [S2010](#s2010) does indicate that a limit of 9 is optimal:
 
-“Therefore, we consider the threshold values \[…\] as the most effective. These threshold values (for a single member) are CBO = 9[…].” (emphasis added)
+“Therefore, we consider the threshold values […] as the most effective. These threshold values (for a single member) are CBO = 9[…].” (emphasis added)
 
 ## Code Analysis
 
@@ -65,7 +65,7 @@ Inside the maintainability area is a rule for class coupling:
 
 This rule issues a warning when the class coupling is excessive. For more information, see [CA1506: Avoid excessive class coupling](/dotnet/fundamentals/code-analysis/quality-rules/ca1506).
 
-Unfortunately, the documentation doesn’t talk about the thresholds set for this rule, but there is a description in an archived Code Analysis blog post: [Code Metrics as Check-in Policy](/archive/blogs/codeanalysis/code-metrics-as-check-in-policy): “Warning at above 80 for class and above 30 for a method”.  These seem abnormally high, but at least provide an extreme upper limit. If you hit this warning, then something is almost certainly wrong.
+For a description of this rule, see the archived Code Analysis blog post: [Code Metrics as Check-in Policy](/archive/blogs/codeanalysis/code-metrics-as-check-in-policy) and the threshold description *Warning at above 80 for class and above 30 for a method*.  These seem abnormally high, but at least provide an extreme upper limit. If you hit this warning, then something is almost certainly wrong.
 
 ## Citations
 
