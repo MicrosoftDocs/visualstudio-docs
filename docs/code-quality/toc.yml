@@ -453,6 +453,12 @@
       href: how-to-generate-code-metrics-data.md
     - name: Work with code metrics data
       href: working-with-code-metrics-data.md
+    - name: Resources
+      items:
+      - name: Maintainability index range and meaning
+        href: code-metrics-maintainability-index-range-and-meaning.md
+      - name: Class coupling
+        href: code-metrics-class-coupling.md
 - name: C++ code analysis
   items:
   - name: Analyze C and C++ code
