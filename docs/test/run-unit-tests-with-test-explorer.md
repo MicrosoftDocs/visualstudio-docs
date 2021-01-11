@@ -374,7 +374,7 @@ Tests can be run from Test Explorer by right-clicking in the code editor on a te
 ## Test audio cue
 Test Explorer can play a sound when a test run completes. There are two sounds: one sound to indicate the test run succeeded with all passing tests, and a second sound to indicate the test run completed with at least one failing test. You can set up these sounds in the default Windows 10 sound dialog. This feature is available starting in Visual Studio 2019 Update 16.9 Preview 3.
 
-1. Go to default Windows 10 sound dialog
+1. Open the default Windows 10 sound dialog.
 2. Navigate to **Sounds** tab
 3. Find **Microsoft Visual Studio** category. **Test Run Succeeded** and **Test Run Failed** sounds can be set up by selecting the preset sounds or browsing your own audio file.  
 ![Windows 10 sound dialog](../test/media/default-windows-10-sound-dialog.png)
