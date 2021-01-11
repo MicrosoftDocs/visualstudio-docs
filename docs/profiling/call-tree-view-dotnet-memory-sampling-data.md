@@ -1,5 +1,7 @@
 ---
 title: "Call Tree View - .NET Memory Sampling Data | Microsoft Docs"
+description: Learn about how the Call Tree view displays .NET memory sampling data for the function execution paths that were traversed in the profiled application.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:

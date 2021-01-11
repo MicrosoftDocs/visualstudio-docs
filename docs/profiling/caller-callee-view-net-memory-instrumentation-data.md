@@ -1,5 +1,7 @@
 ---
 title: "Caller-Callee View - NET Memory Instrumentation Data | Microsoft Docs"
+description: Review the Caller/Callee view of .NET memory profiling data, which shows allocation and timing data for a selected function and the parent and child functions of it.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:
