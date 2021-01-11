@@ -378,7 +378,7 @@ Test Explorer can play a sound when a test run completes. There are two sounds, 
 2. Navigate to **Sounds** tab
 3. Find **Microsoft Visual Studio** category. **Test Run Succeeded** and **Test Run Failed** sounds can be set up by selecting the preset sounds or browsing your own audio file.
 
-![Filter tests in Test Explorer](../test/media/default-windows-10-sound-dialog.png)
+![Windows 10 sound dialog](../test/media/default-windows-10-sound-dialog.png)
 
 ## See also
 
