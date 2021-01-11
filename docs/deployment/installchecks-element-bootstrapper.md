@@ -171,9 +171,19 @@ The `InstallChecks` element supports starting a variety of tests against the loc
  For example, to block installation on a computer running Windows 95, use code such as the following:
 
 ```xml
-<!-- Block install on Windows 95 -->
+    <!-- Block install on Windows 95 -->
     <FailIf Property="Version9X" Compare="VersionLessThan" Value="4.10" String="InvalidPlatform"/>
 ```
+
+ To skip running install checks if a FailIf or BypassIf condition is met, use the BeforeInstallChecks attribute.  For example:
+
+```xml
+    <!-- Block install and do not evaluate install checks if user does not have admin privileges -->
+    <FailIf Property="AdminUser" Compare="ValueEqualTo" Value="false" String="AdminRequired" BeforeInstallChecks="true"/>
+```
+
+>[!NOTE]
+>The `BeforeInstallChecks` attribute is supported starting with the Visual Studio 2019 Update 9 release.
 
 ## See also
 - [\<Commands> element](../deployment/commands-element-bootstrapper.md)
