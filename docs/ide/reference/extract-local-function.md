@@ -1,6 +1,6 @@
 ---
 title: Extract local function
-description: Turn a fragment of code into its own method by selecting the code and typing Ctrl+R, Ctrl+M.
+description: Turn a fragment of code into its own function by selecting the code and typing Ctrl+R, Ctrl+M.
 ms.date: 02/19/2020
 ms.topic: reference
 author: mikadumont
