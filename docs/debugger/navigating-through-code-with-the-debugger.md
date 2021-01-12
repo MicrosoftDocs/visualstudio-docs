@@ -1,6 +1,7 @@
 ---
-title: Navigate code with the debugger | Microsoft Docs
-ms.custom: seodec18
+title: "Navigate code with the debugger | Microsoft Docs"
+description: "Learn how to use Visual Studio debugger to troubleshoot your code. Topics include: getting into break mode, stepping through code, and running to a target."
+ms.custom: "SEO-VS-2020, seodec18"
 ms.date: 11/12/2018
 ms.topic: how-to
 f1_keywords: 
@@ -18,7 +19,10 @@ ms.workload:
 ---
 # Navigate through code with the Visual Studio debugger
 
-The Visual Studio debugger can help you navigate through code to inspect the state of an app and show its execution flow. You can use keyboard shortcuts, debug commands, breakpoints, and other features to quickly get to the code you want to examine. Familiarity with debugger navigation commands and shortcuts makes it faster and easier to find and resolve app issues.  If this is the first time that you've tried to debug code, you may want to read [Debugging for absolute beginners](../debugger/debugging-absolute-beginners.md) and [Debugging techniques and tools](../debugger/write-better-code-with-visual-studio.md) before going through this article.
+The Visual Studio debugger can help you navigate through code to inspect the state of an app and show its execution flow. You can use keyboard shortcuts, debug commands, breakpoints, and other features to quickly get to the code you want to examine. Familiarity with debugger navigation commands and shortcuts makes it faster and easier to find and resolve app issues.
+
+> [!NOTE]
+> If this is the first time that you've tried to debug code, you may want to read [Debugging for absolute beginners](../debugger/debugging-absolute-beginners.md) and [Debugging techniques and tools](../debugger/write-better-code-with-visual-studio.md) before going through this article.
 
 ## Get into "break mode"
 

@@ -1,5 +1,7 @@
 ---
 title: "Call Tree View - Sampling Data | Microsoft Docs"
+description: Read how the Call Tree view displays sampling data for the function execution paths that were traversed in the profiled application in Performance Explorer.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:

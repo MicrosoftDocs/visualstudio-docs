@@ -22,7 +22,7 @@ In the current GitHub Codespaces [public beta](https://github.com/features/codes
 This is **not meant to be an exhaustive list**, but to explain Visual Studio's general capabilities when connected to a codespace.
 
 > [!NOTE]
-> If there is a feature you are missing while using codespaces with Visual Studio, please let us know by opening an issue on https://developercommunity.visualstudio.com/. This helps us prioritize the most wanted features.
+> If there is a feature you are missing while using codespaces with Visual Studio, please let us know by opening an issue on [Visual Studio Developer Community](https://aka.ms/feedback/suggest?space=8). This helps us prioritize the most wanted features.
 
 > [!NOTE]
 > The features described below are for Visual Studio and not the two other GitHub Codespaces clients; Visual Studio Code and the in-browser editor.
@@ -103,8 +103,8 @@ Not yet available:
 
 When working with Visual Studio connected to a codespace, you get the same accessibility features as when working locally.
 
-* Source Control - Full Git support through the new [Git window](https://devblogs.microsoft.com/visualstudio/improved-git-experience-in-visual-studio-2019/).
-* Accessibility - There is one known issue with assistive technology not being able to access the appcasting of a debugged app. Besides this limitation, we don't believe there are any other compatibility issues that don't already exist in the local Visual Studio experience. Please let us know if you detect bugs by filing an issue on [developer community](https://developercommunity.visualstudio.com/).
+* Source Control - Full Git support through the new [integrated Git experience](../git-with-visual-studio.md).
+* Accessibility - There is one known issue with assistive technology not being able to access the appcasting of a debugged app. Besides this limitation, we don't believe there are any other compatibility issues that don't already exist in the local Visual Studio experience. Please let us know if you detect bugs by filing an issue on [developer community](https://aka.ms/feedback/report?space=8).
 * Publishing - Publish to Azure through GitHub Actions is supported.
 * Connected services - App Insights, KeyVault, Storage, SQL, Redis, Cosmos, openAPI, and gRPC are partially supported.
 * Test Explorer* - Mostly supported.

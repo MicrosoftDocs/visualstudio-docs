@@ -1,6 +1,6 @@
 ---
 title: Working with Subversion
-description: Using Subversion in Visual Studio for Mac.
+description: Learn how to work with Subversion as the centralized version control system in Visual Studio for Mac.
 author: jmatthiesen
 ms.author: jomatthi
 ms.date: 05/06/2018

@@ -1,8 +1,8 @@
 ---
-title: "Visual Studio docs: What's new for October 2020 "
+title: "Visual Studio docs: What's new for December 2021 "
 titleSuffix: ""
-description: "What's new in the Visual Studio docs for October 2020."
-ms.date: 11/04/2020
+description: "What's new in the Visual Studio docs for December 2021."
+ms.date: 01/11/2021
 helpviewer_keywords:
   - "Visual Studio, what's new, docs"
   - "what's new [Visual Studio]"
@@ -17,107 +17,76 @@ ms.workload:
   - "multiple"
 ---
 
-# Visual Studio docs: What's new for October 2020
+# Visual Studio docs: What's new for December 2021
 
-Welcome to what's new in the Visual Studio docs for October 2020. This article lists some of the major changes to docs during this period. For information about what was new in previous months, see the [what's new history](whats-new-visual-studio-docs-history.md) article.
+Welcome to what's new in the Visual Studio docs for December 2020. This article lists some of the major changes to docs during this period. For information about what was new in previous months, see the [what's new history](whats-new-visual-studio-docs-history.md) article.
+
+## Azure
+
+**New articles**
+
+- [Adding Azure App Configuration by using Visual Studio Connected Services](../azure/vs-azure-tools-connected-services-app-configuration.md) - App Config Connected Services tutorial
 
 ## Code quality
 
 **Updated articles**
-- [Code analyzers](../code-quality/index.yml) - CA refactor for .NET 5
+
+- [Overview](../code-quality/use-roslyn-analyzers.md) - Building from the command line with editorconfig
+- [Enable or install first-party .NET analyzers](../code-quality/install-net-analyzers.md)
+  - Add more clarity to migration docs for FxCopAnalyzers to NetAnalyzers
+  - Re-arrange table of contents for .NET analyzers
+- [Migrate from FxCop analyzers to .NET analyzers](../code-quality/migrate-from-fxcop-analyzers-to-net-analyzers.md) - Add more clarity to migration docs for FxCopAnalyzers to NetAnalyzers
 
 ## Containers
 
 **Updated articles**
 
-- [Quickstart: Use Docker with a React Single-page App in Visual Studio](../containers/container-tools-react.md)
-  - Container Tools: remove references to old image repository
-  - Update Containers React tutorial for .NET 3.1 and VS 16.7
-- [How Bridge to Kubernetes works](../containers/overview-bridge-to-kubernetes.md) - Bridge to Kubernetes: add limitations
-- [Debug apps in a local Docker container](../containers/edit-and-refresh.md) - Docker Toolbox
+- [Troubleshoot Visual Studio development with Docker](../containers/troubleshooting-docker-errors.md) - Updating Docker for Visual Studio Troubleshooting guide
 
 ## Debugger
 
-**New articles**
-
-- [DirectX 12 Support in Visual Studio](../debugger/graphics/visual-studio-graphics-diagnostics-directx-12.md) - Vsdg dx12
-
 **Updated articles**
 
-- [Debug ASP.NET or ASP.NET Core apps in Visual Studio](../debugger/how-to-enable-debugging-for-aspnet-applications.md) - Debugger content fixes for GitHub issues
-- [Use breakpoints in the Visual Studio debugger](../debugger/using-breakpoints.md) - Debugger content fixes for GitHub issues
-- [Debug Azure services in Visual Studio](../debugger/debug-azure-apps.md) - SEO and link updates for snapshot debugger
-- [Debug live ASP.NET Azure apps using the Snapshot Debugger](../debugger/debug-live-azure-applications.md) - SEO and link updates for snapshot debugger
-- [Remote Debugging](../debugger/remote-debugging.md) - SEO and link updates for snapshot debugger
-- [Overview of Visual Studio Graphics Diagnostics](../debugger/graphics/overview-of-visual-studio-graphics-diagnostics.md) - Vsdg dx12
-- [Visual Studio Graphics Diagnostics](../debugger/graphics/visual-studio-graphics-diagnostics.md) - Vsdg dx12
+- [FAQ - Find the debugging feature you need in Visual Studio](../debugger/find-your-debugging-task.md) - Discovery work for finding your debugging task and overview topics
 
 ## Get started
 
 **Updated articles**
 
-- [Tutorial: Extend a simple C# console app](../get-started/csharp/tutorial-console-part-2.md) - Debugging additions for extended C# tutorial
+- [Introduction to projects and solutions](../get-started/tutorial-projects-solutions.md)
+  - updates to Solutions & Projects topics
+  - Update tutorial-projects-solutions.md
+  - missing from menu option
+- [Tutorial: Create a simple C# console app in Visual Studio](../get-started/csharp/tutorial-console.md) - C# console tutorial: Part 2 only applies to VS 2019
 
 ## IDE
 
-**New articles**
+**Updated articles**
 
-- [Use Visual Studio search](./visual-studio-search.md) - VS Search document
+- [Solutions and projects in Visual Studio](./solutions-and-projects-in-visual-studio.md) - updates to Solution & Projects topics
+- [Create a new project in Visual Studio](./create-new-project.md)
+  - refine alt-text for screenshots and diagrams
+  - more updates to Solutions & Projects topics
+- [Resources for troubleshooting IDE errors](./reference/resources-for-troubleshooting-integrated-development-environment-errors.md) - revise outdated Forum Resources section
+- [Work with solutions and projects](./creating-solutions-and-projects.md) - more updates to Solutions & Projects topics
+- [How to report a problem with Visual Studio or Visual Studio Installer](./how-to-report-a-problem-with-visual-studio.md)
+  - Updated screenshot
+  - Developer community changes
+- [Visual Studio performance tips and tricks](./visual-studio-performance-tips-and-tricks.md) - update the Disable Diagnostic Tools section
 
-## Install
+## Test
 
 **Updated articles**
 
-- [Visual Studio build numbers and release dates](../install/visual-studio-build-numbers-and-release-dates.md)
-  - add 16.7.7 and 16.8 Preview 6 data
-  - add 16.8 Preview 5 info
-
-## MSBuild
-
-**Updated articles**
-
-- [Walkthrough: Use MSBuild](../msbuild/walkthrough-using-msbuild.md) - MSBuild walkthrough: add standalone install steps
-
-## Profiling
-
-**Updated articles**
-
-- [Analyze memory usage](../profiling/analyze-memory-usage.md)
-  - Memory usage updates for profiling - links and clarifications
-  - Memory usage tool updates
-- [Analyze memory usage without debugging in the Performance Profiler](../profiling/memory-usage-without-debugging2.md)
-  - Memory usage updates for profiling - links and clarifications
-  - Memory usage tool updates
-- [First look at profiling tools](../profiling/profiling-feature-tour.md)
-  - Memory usage updates for profiling - links and clarifications
-  - Memory usage tool updates
-- [Run profiling tools with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md)
-  - Memory usage updates for profiling - links and clarifications
-  - Memory usage tool updates
-- [Analyze CPU usage without debugging in the Performance Profiler](../profiling/cpu-usage.md) - Memory usage tool updates
-
-## Windows
-
-**Updated articles**
-
-- [Visual Studio documentation | Microsoft Docs](../windows/index.yml) - Windows hub updates
-
-## XAML tools
-
-**New articles**
-
-- [Use Design Time Data with the XAML Designer in Visual Studio](../xaml-tools/xaml-designtime-data.md)
-  - Added extensibility section to XAML design-time docs
-  - New design-time XAML article
+- [Get started with unit testing](../test/getting-started-with-unit-testing.md) - Discovery work and other improvements for test tools
+- [First look at testing tools in Visual Studio](../test/improve-code-quality.md) - Discovery work and other improvements for test tools
+- [Testing tools in Visual Studio # Required; page title displayed in search results. Include the brand. < 60 chars.](../test/index.yml) - Discovery work and other improvements for test tools
+- [Run unit tests with Test Explorer](../test/run-unit-tests-with-test-explorer.md) - Add dynamic playlist xml for diff frameworks
 
 ## Community contributors
 
 The following people contributed to the Visual Studio docs during this period. Thank you! Learn how to contribute to the Visual Studio docs by following the guidance in the [Contributor Guide](/contribute/).
 
-- [bmarshalsea](https://github.com/bmarshalsea) (1)
-- [DavidJohnWilliams](https://github.com/DavidJohnWilliams) - David John Williams (1)
-- [JesseTG](https://github.com/JesseTG) - Jesse Talavera-Greenberg (1)
-- [matkoch](https://github.com/matkoch) - Matthias Koch (1)
-- [philipwolfe](https://github.com/philipwolfe) - Philip Wolfe (1)
-- [podsvirov](https://github.com/podsvirov) - Konstantin Podsvirov (1)
-- [drryder](https://github.com/drryder) (1)
+- [surlydev](https://github.com/surlydev) - SurlyDev (2)
+- [nschonni](https://github.com/nschonni) - Nick Schonning (1)
+- [syohex](https://github.com/syohex) - Shohei YOSHIDA (1)

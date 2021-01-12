@@ -1,5 +1,7 @@
 ---
 title: Debug the OnStart Method | Microsoft Docs
+description: Learn how to debug the OnStart method of a Windows service in Visual Studio—by launching the debugger from inside the method. 
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 
@@ -36,13 +38,13 @@ You can debug a Windows service by starting the service and attaching the debugg
 
     You should see a dialog box like the following:
 
-    ![OnStartDebug](../debugger/media/onstartdebug.png "OnStartDebug")
+    ![Screenshot of a Visual Studio Just-In-Time Debugger dialog box that shows an unhandled .NET Framework exception occurred in WindowsService-Asis.exe.](../debugger/media/onstartdebug.png)
 
 3. Select **Yes, debug \<service name>.**
 
 4. In the Just-In-Time Debugger window, select the version of Visual Studio you want to use for debugging.
 
-    ![JustInTimeDebugger](../debugger/media/justintimedebugger.png "JustInTimeDebugger")
+    ![Screenshot of a Visual Studio Just-In-Time Debugger window with 'New instance of Microsoft Visual Studio 2015' selected in the list of Possible Debuggers.](../debugger/media/justintimedebugger.png)
 
 5. A new instance of Visual Studio starts, and execution is stopped at the `Debugger.Launch()` method.
 

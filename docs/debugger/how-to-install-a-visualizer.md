@@ -1,5 +1,7 @@
 ---
 title: Install a Visualizer | Microsoft Docs
+description: Understand how to install a visualizer so that it will be available for debugging use in Visual Studio.
+ms.custom: SEO-VS-2020
 ms.date: 06/10/2020
 ms.topic: how-to
 dev_langs:

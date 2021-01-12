@@ -1,5 +1,6 @@
 ---
 title: "Common patterns for poorly-behaved multithreaded apps"
+description: Learn about the common patterns for poorly-behaved multithreaded applications that are included in the Visual Studio Concurrency Visualizer tool.
 ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
@@ -31,17 +32,17 @@ For more information, see the "Start with the problem section" in the MSDN Magaz
 
 ## Uneven workload distribution
 
-![Uneven workload](../profiling/media/unevenworkload_1.png "UnevenWorkLoad_1")
+![Screenshot of a workload graph for parallel threads in the Concurrency Visualizer. The threads end at different times showing a stair-step pattern.](../profiling/media/unevenworkload_1.png)
 
 When an irregular distribution of work occurs across several parallel threads in an application, a typical stair-step pattern appears as each thread completes its work, as shown in the previous illustration. The Concurrency Visualizer most often shows very close start times for each concurrent thread. However, these threads typically end in an irregular manner instead of ending simultaneously. This pattern indicates an irregular distribution of work among a group of parallel threads, which could lead to decreased performance. The best approach to such a problem is to reevaluate the algorithm by which work has been divided among the parallel threads.
 
 As shown in the following illustration, the Concurrency Visualizer can also expose this symptom in the CPU Utilization View as a gradual step-down in CPU utilization.
 
-![Uneven workload](../profiling/media/unevenworkload_2.png "UnevenWorkload_2")
+![Screenshot of the CPU Utilization View in the Concurrency Visualizer showing a stair-step pattern at the end of the CPU Utilization graph.](../profiling/media/unevenworkload_2.png)
 
 ## Oversubscription
 
-![Oversubscription](../profiling/media/oversubscription.png "Oversubscription")
+![Screenshot of a workload graph for all active threads in the Concurrency Visualizer. A legend shows the amount of time spent in Execution and Preemption.](../profiling/media/oversubscription.png)
 
 In the case of oversubscription, the number of active threads in a process is larger than the number of available logical cores on the system. The previous illustration shows the results of oversubscription, with significant preemption banding in all active threads. In addition, the legend shows a large percentage of time is spent in Preemption (84 percent in this example). This may indicate that the process is asking the system to execute more concurrent threads than the number of logical cores. However, this may also indicate that other processes on the system are using resources that were assumed to be available to this process.
 

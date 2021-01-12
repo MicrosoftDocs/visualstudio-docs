@@ -1,5 +1,7 @@
 ---
 title: Project Subtypes Design | Microsoft Docs
+description: Learn how project subtypes let VSPackages extend projects based on the Microsoft Build Engine (MSBuild).
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

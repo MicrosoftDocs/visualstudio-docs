@@ -1,5 +1,7 @@
 ---
 title: "Unable to Attach to the Process | Microsoft Docs"
+description: Learn the meaning of "Unable to Attach to the Process", the two scenarios that cause it, and the solutions. 
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 f1_keywords:

@@ -1,5 +1,7 @@
 ---
 title: "Message Properties Dialog Box | Microsoft Docs"
+description: Consult Message Properties to find more about a message than is shown in Messages View.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 helpviewer_keywords:

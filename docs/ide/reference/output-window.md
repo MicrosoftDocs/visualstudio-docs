@@ -1,5 +1,7 @@
 ---
 title: Output Window
+description: Learn about the Output window and how it displays status messages for various features in the IDE.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:

@@ -1,6 +1,7 @@
 ---
 title: Use debugger windows while debugging a foreground app | Microsoft Docs
-ms.custom: seodec18
+Description: If you are debugging a program that must stay in the foreground, use remote debugging to avoid putting it in the background.
+ms.custom: "SEO-VS-2020, seodec18"
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords: 

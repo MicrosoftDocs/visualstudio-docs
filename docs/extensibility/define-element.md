@@ -1,5 +1,7 @@
 ---
 title: Define Element | Microsoft Docs
+description: The Define element defines a symbol name and value pair. This symbol can be evaluated by conditional attributes.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

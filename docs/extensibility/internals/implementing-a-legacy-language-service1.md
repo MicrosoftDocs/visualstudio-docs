@@ -1,5 +1,7 @@
 ---
 title: Implementing a Legacy Language Service1 | Microsoft Docs
+description: Learn how to implement a legacy language service that supports extended language service features, by using the managed package framework (MPF). Part 1 of 2.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

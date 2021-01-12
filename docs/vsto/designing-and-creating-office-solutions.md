@@ -1,5 +1,7 @@
 ---
 title: "Design and create Office solutions"
+description: Learn how Visual Studio provides project templates that you can use to create several different types of Office solutions.
+ms.custom: SEO-VS-2020
 ms.date: "08/14/2019"
 ms.topic: "conceptual"
 dev_langs:

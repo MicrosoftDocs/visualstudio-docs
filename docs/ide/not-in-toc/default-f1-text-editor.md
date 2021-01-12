@@ -3,7 +3,7 @@ title: Default F1 help page for the text editor
 description: "Default page for F1 help requests for the Visual Studio text editor"
 ms.date: 08/20/2020
 ms.topic: troubleshooting
-ms.custom: contperfq1
+ms.custom: contperf-fy21q1
 robots: noindex,nofollow
 f1_keywords:
 - vs.texteditor

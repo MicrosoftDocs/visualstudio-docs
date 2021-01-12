@@ -1,5 +1,7 @@
 ---
 title: Debug Optimized Code | Microsoft Docs
+description: If possible, don't build a Win32 Release target until your program is debugged, because optimization can complicate debugging. See the details in this article.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords: 
@@ -52,7 +54,7 @@ ms.workload:
 
 ## To turn on optimization in a Debug build configuration
 
-1. When you create a new project, select the `Win32 Debug` target. Use the `Win32``Debug` target until your program is fully debugged and you are ready to build a `Win32 Release` target. The compiler does not optimize the `Win32 Debug` target.
+1. When you create a new project, select the `Win32 Debug` target. Use the `Win32 Debug` target until your program is fully debugged and you are ready to build a `Win32 Release` target. The compiler does not optimize the `Win32 Debug` target.
 
 2. Select the project in Solution Explorer.
 

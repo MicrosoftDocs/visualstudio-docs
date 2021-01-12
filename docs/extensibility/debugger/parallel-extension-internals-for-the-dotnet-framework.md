@@ -1,5 +1,7 @@
 ---
 title: Parallel Extension Internals for the .NET Framework | Microsoft Docs
+description: These resources describe internal types, methods, and fields of classes used to implement a custom debugger for the parallel extensions to the .NET Framework.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

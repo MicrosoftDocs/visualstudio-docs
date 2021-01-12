@@ -7,7 +7,7 @@ metadata:
    titleSuffix: ""
    description: Learn how to use Visual Studio to develop applications, services, and tools in the language of your choice, for any platform or device.
    ms.topic: hub-page
-   ms.custom: contperfq1
+   ms.custom: contperf-fy21q1
    monikerRange: ">=vs-2017"
    f1_keywords:
      - MSDNSTART
@@ -203,4 +203,4 @@ additionalContent:
       - title: Develop with Docker containers
         summary: Use Docker containers to isolate modular components and improve scalability.
         url: ../containers/index.yml
-   footer: "[Blogs](https://devblogs.microsoft.com/visualstudio/) - [Twitter](https://twitter.com/VisualStudio) - [Stack Overflow](https://stackoverflow.com/questions/tagged/visual-studio) - [Issue Reporting](../ide/feedback-options.md) - [Developer Community](https://developercommunity.visualstudio.com/spaces/8/index.html) - [Troubleshooting](/troubleshoot/visualstudio/welcome-visual-studio)"
+   footer: "[Blogs](https://devblogs.microsoft.com/visualstudio/) - [Twitter](https://twitter.com/VisualStudio) - [Stack Overflow](https://stackoverflow.com/questions/tagged/visual-studio) - [Issue Reporting](../ide/feedback-options.md) - [Developer Community](https://aka.ms/feedback/suggest?space=8) - [Troubleshooting](/troubleshoot/visualstudio/welcome-visual-studio)"

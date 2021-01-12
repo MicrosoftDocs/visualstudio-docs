@@ -1,5 +1,7 @@
 ---
 title: Search for a Process in Processes View | Microsoft Docs
+description: Search for a specific process in the Spy++ tool's Processes view by using its process ID or module string as search criteria when debugging in Visual Studio.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords: 

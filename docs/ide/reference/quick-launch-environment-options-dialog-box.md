@@ -1,5 +1,7 @@
 ---
 title: Quick Launch, Environment, Options Dialog Box
+description: Learn how to use the Quick Launch page in the Environment section to quickly search and execute actions for IDE assets such as options, templates, and menus.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:

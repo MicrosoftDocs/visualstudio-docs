@@ -6,8 +6,6 @@
     href: what-is-debugging.md
   - name: Debugging techniques and tools
     href: write-better-code-with-visual-studio.md
-  - name: Find your debugging task
-    href: find-your-debugging-task.md
 - name: Quickstarts
   items:
   - name: First look at the debugger
@@ -944,5 +942,7 @@
           href: copyright-notice-for-spy-increment-help.md
 - name: Resources
   items:
+  - name: FAQ - Find your debugging feature
+    href: find-your-debugging-task.md
   - name: What's new for the debugger in Visual Studio
     href: what-s-new-for-the-debugger-in-visual-studio.md

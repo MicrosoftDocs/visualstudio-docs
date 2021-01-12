@@ -1,5 +1,7 @@
 ---
 title: Debug Injected Code | Microsoft Docs
+description: "Learn two ways that Visual Studio provides to view injected code: 1) in the Disassembly window; 2) in a source file that has both injected and original code."
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords: 
