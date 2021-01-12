@@ -1,5 +1,7 @@
 ---
 title: "Exclude paragraph marks when creating ranges programmatically"
+description: Learn how you can programmatically exclude paragraph marks when creating ranges in a Microsoft Word document.
+ms.custom: SEO-VS-2020
 titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "how-to"

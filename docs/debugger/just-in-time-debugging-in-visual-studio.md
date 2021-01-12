@@ -1,5 +1,7 @@
 ---
 title: "Disable the Just-In-Time Debugger | Microsoft Docs"
+description: The Just-In-Time Debugger dialog box may open when an error occurs in an app. Learn what you can do when this happens, and ways to prevent it.
+ms.custom: SEO-VS-2020
 ms.date: "05/23/2018"
 ms.topic: "troubleshooting"
 helpviewer_keywords:
@@ -18,7 +20,7 @@ The Just-In-Time Debugger dialog box may open when an error occurs in a running 
 
 The Just-In-Time Debugger gives you the option to launch Visual Studio to debug the error. You must have Visual Studio or another selected debugger installed to view detailed information about the error or try to debug it.
 
-If your already a Visual Studio user and want to try to debug the error, see [Debug using the Just-In-Time Debugger](../debugger/debug-using-the-just-in-time-debugger.md). If you can't fix the error, or want to keep the Just-In-Time Debugger from opening, you can [disable Just-In-Time debugging from Visual Studio](debug-using-the-just-in-time-debugger.md#BKMK_Enabling).
+If you're already a Visual Studio user and want to try to debug the error, see [Debug using the Just-In-Time Debugger](../debugger/debug-using-the-just-in-time-debugger.md). If you can't fix the error, or want to keep the Just-In-Time Debugger from opening, you can [disable Just-In-Time debugging from Visual Studio](debug-using-the-just-in-time-debugger.md#BKMK_Enabling).
 
 If you had Visual Studio installed but no longer do, you may need to [disable Just-In-Time debugging from the Windows registry](debug-using-the-just-in-time-debugger.md#disable-just-in-time-debugging-from-the-windows-registry).
 

@@ -18,8 +18,8 @@ To monitor GPU utilization of remote Linux machines:
 1. In **Server Explorer**, expand **Remote Machines**.
 2. **Right-click** the remote machine you want to monitor.
 
-    ![gpu heatmap](media/monitor-gpu/gpu-heatmap-0.png)
+    ![Screenshot of Server Explorer showing the folder tree for AI Tools. Azure Demo is selected, and a context menu with the Show Heat Map command is open.](media/monitor-gpu/gpu-heatmap-0.png)
 
 3. Click **Show Heat Map**.
 
-    ![gpu heatmap](media/monitor-gpu/heatmap.png)
+    ![Screenshot of the AI Tools Heat Map window in Server Explorer showing summary, details, and Heat Map data for the GPUs in the Azure DLVM virtual machine.](media/monitor-gpu/heatmap.png)

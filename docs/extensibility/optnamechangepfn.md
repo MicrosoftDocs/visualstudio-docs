@@ -1,5 +1,7 @@
 ---
 title: OPTNAMECHANGEPFN | Microsoft Docs
+description: Learn about the OPTNAMECHANGEPFN callback function, which communicates name changes from the source control plug-in to the Visual Studio IDE.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 f1_keywords:

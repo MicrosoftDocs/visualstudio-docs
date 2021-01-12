@@ -210,7 +210,7 @@ The [PexChoose](static-helper-classes.md#pexchoose) static class can be used to 
 
 ## Got feedback?
 
-Post your ideas and feature requests on [Developer Community](https://developercommunity.visualstudio.com/content/idea/post.html?space=8).
+Post your ideas and feature requests on [Developer Community](https://aka.ms/feedback/suggest?space=8).
 
 ## Further reading
 

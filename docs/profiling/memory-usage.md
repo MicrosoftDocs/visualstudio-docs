@@ -1,6 +1,6 @@
 ---
 title: "Measure memory usage in your apps"
-description: "Find memory leaks and inefficient memory while you're debugging with the debugger-integrated diagnostic tool."
+description: Find memory leaks and inefficient memory while you're debugging with the debugger-integrated diagnostic tool.
 ms.custom: "seodec18"
 ms.date: 04/25/2018
 ms.topic: tutorial
@@ -118,7 +118,7 @@ To analyze memory usage, click one of the links that opens up a detailed report 
 
  To display the instances of a selected type in the upper pane, choose the ![Instance icon](../profiling/media/dbgdiag_mem_instanceicon.png "DBGDIAG_MEM_InstanceIcon") icon.
 
- ![Instances view](../profiling/media/dbgdiag_mem_managedtypesreport_instances.png "DBGDIAG_MEM_ManagedTypesReport_Instances")
+ ![Screenshot of the Instances view in the Visual Studio Memory Usage tool, showing the Instances pane and the Paths to Root and Referenced Objects pane.](../profiling/media/dbgdiag_mem_managedtypesreport_instances.png "DBGDIAG_MEM_ManagedTypesReport_Instances")
 
  The **Instances** view displays the instances of the selected object in the snapshot in the upper pane. The **Paths to Root** and **Referenced Objects** pane displays the objects that reference the selected instance and the types that the selected instance references. When the debugger is stopped at the point where the snapshot was taken, you can hover over the **Value** cell to display the values of the object in a tool tip.
 
@@ -133,7 +133,7 @@ To analyze memory usage, click one of the links that opens up a detailed report 
 
      The **Instances** view displays each instance of the selected type. Selecting an instance displays the call stack that resulted in the creation of the instance in the **Allocation Call Stack** pane.
 
-     ![Instances view](../profiling/media/dbgdiag_mem_native_instances.png "DBGDIAG_MEM_Native_Instances")
+     ![Screenshot of the Instances view in the Visual Studio Memory Usage tool, showing the Instances pane and the Allocation Call Stack pane.](../profiling/media/dbgdiag_mem_native_instances.png "DBGDIAG_MEM_Native_Instances")
 
 - Choose **Stacks View** in the **View Mode** list to see the allocation stack for the selected type.
 

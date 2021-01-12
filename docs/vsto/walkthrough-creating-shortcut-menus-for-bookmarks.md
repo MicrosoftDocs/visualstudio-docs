@@ -1,5 +1,7 @@
 ---
 title: "Walkthrough: Create shortcut menus for bookmarks"
+description: Learn how to create shortcut menus for Bookmark controls in a document-level customization for Microsoft Word.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

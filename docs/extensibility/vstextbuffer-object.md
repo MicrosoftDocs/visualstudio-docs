@@ -1,5 +1,7 @@
 ---
 title: VSTextBuffer Object | Microsoft Docs
+description: The VSTextBuffer object represents a stream of Unicode text, which is generally associated with a file. This article lists the interfaces of VSTextBuffer.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 f1_keywords:

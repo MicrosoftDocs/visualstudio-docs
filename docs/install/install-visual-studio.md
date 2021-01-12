@@ -3,7 +3,7 @@ title: Install Visual Studio
 titleSuffix: ''
 description: Learn how to install Visual Studio, step-by-step.
 ms.date: 12/13/2019
-ms.custom: contperfq1
+ms.custom: contperf-fy21q1
 ms.topic: conceptual
 f1_keywords:
 - vs.about
@@ -261,3 +261,4 @@ For more information, see the [Select installation locations](change-installatio
 * [Create an offline installation of Visual Studio](create-an-offline-installation-of-visual-studio.md)
 * [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md)
 * [Install Visual Studio for Mac](/visualstudio/mac/installation)
+ 

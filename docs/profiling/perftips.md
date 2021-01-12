@@ -1,5 +1,6 @@
 ---
 title: PerfTips | Microsoft Docs
+description: Learn how to use the Visual Studio debugger PerfTips and integrated Diagnostic Tools to monitor and analyze your app performance while debugging.
 ms.date: 9/11/2020
 ms.topic: how-to
 ms.assetid: 509d2d4f-48a5-4cdf-acad-6f7b75421303
@@ -27,7 +28,7 @@ Breakpoints and associated timing data gets recorded in the **Diagnostic Tools**
 
 The following illustration shows the **Diagnostic Tools** window.
 
-![DiagnosticTools&#45;Update1](../profiling/media/diagnostictools-update1.png "DiagnosticTools-Update1")
+![Screenshot of the Diagnostic Tools window in the Visual Studio debugger, showing the Events timeline and graphs for memory and CPU usage.](../profiling/media/diagnostictools-update1.png)
 
 - The **Break Events** timeline mark the breakpoints that were hit in the debugging session. Click on an event to select it the **Debugger** details list.
 
