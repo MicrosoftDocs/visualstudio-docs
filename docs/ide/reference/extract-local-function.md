@@ -31,7 +31,7 @@ This refactoring applies to:
 
 3. Select **Extract local function**.
 
-    ![Extract local function](media/extract-local-function.png)
+    ![Screenshot of the Visual Studio code window with a line highlighted. The Quick Actions and Refactorings menu is open and Extract local function is selected.](media/extract-local-function.png)
 
 ## See also
 
