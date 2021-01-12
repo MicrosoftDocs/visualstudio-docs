@@ -24,6 +24,12 @@ Before publishing a classic Azure Cloud Service using extended support, check th
 
 ### To publish a classic Azure Cloud Service project using extended support
 
+1. Cloud Services (extended support) is currently in preview. Register the feature for your subscription as follows:
+
+   ```powershell
+   Register-AzProviderFeature -FeatureName CloudServices -ProviderNamespace Microsoft.Compute
+   ```
+
 1. Right-click on the project node in your Azure Cloud Service (classic) project and choose **Publish (extended support)...**. The **Publish wizard** opens at the first screen.
 
    ![Choose Publish (extended support) from the menu](./media/cloud-services-extended-support/publish-commands-on-menu.png)
