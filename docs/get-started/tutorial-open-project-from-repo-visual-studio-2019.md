@@ -72,7 +72,7 @@ If you've already cloned the GitHub repo where your project is located, here's h
 
 1. Etc.
 
-#### [16.7 and earlier](#tab/vs167-/)
+#### [16.7 and earlier](#tab/vs167-)
 
 1. Open Visual Studio 2019.
 
@@ -116,7 +116,7 @@ You can either clone an Azure DevOps repo and open a project, or open a project 
 
 1. On the start window, select **Open a Project or Solution**.
 
-#### [16.7 and earlier](#tab/vs167-/)
+#### [16.7 and earlier](#tab/vs167-)
 
 1. Open Visual Studio 2019.
 
