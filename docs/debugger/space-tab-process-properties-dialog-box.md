@@ -1,5 +1,7 @@
 ---
 title: "Space Tab, Process Properties Dialog Box | Microsoft Docs"
+description: Learn how to display the Process Properties dialog box in Spy++ when debugging. Review the settings that are available in the Space tab.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 helpviewer_keywords:
