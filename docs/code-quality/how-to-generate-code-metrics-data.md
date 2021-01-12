@@ -33,15 +33,10 @@ The .NET code-quality analyzers include several code metrics [analyzer](roslyn-a
 - [CA1505](/dotnet/fundamentals/code-analysis/quality-rules/ca1505)
 - [CA1506](/dotnet/fundamentals/code-analysis/quality-rules/ca1506)
 
-These rules are disabled by default but you can enable them from [**Solution Explorer**](use-roslyn-analyzers.md#set-rule-severity-from-solution-explorer) or in a [rule set](using-rule-sets-to-group-code-analysis-rules.md) file. For example, to enable rule CA1502 as a warning, your .ruleset file would contain the following entry:
+These rules are disabled by default but you can enable them from [**Solution Explorer**](use-roslyn-analyzers.md#set-rule-severity-from-solution-explorer) or in an [EditorConfig](use-roslyn-analyzers.md#set-rule-severity-in-an-editorconfig-file) file. For example, to enable rule CA1502 as a warning, your EditorConfig file would contain the following entry:
 
-```xml
-<?xml version="1.0" encoding="utf-8"?>
-<RuleSet Name="Rules" Description="Rules" ToolsVersion="16.0">
-  <Rules AnalyzerId="Microsoft.CodeQuality.Analyzers" RuleNamespace="Microsoft.CodeQuality.Analyzers">
-    <Rule Id="CA1502" Action="Warning" />
-  </Rules>
-</RuleSet>
+```cs
+dotnet_diagnostic.CA1502.severity = warning
 ```
 
 ### Configuration
