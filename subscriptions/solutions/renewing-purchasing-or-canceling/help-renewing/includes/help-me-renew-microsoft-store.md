@@ -18,7 +18,7 @@ Your subscription should be renewed before the expiration date to ensure access 
 
 If your subscription is not expired, you will find your expiration date by viewing your subscriptions in the [subscriptions portal](https://my.visualstudio.com/subscriptions). 
 
-## Subscriptions available 
+## Subscriptions available for renewal
 
 Retail Visual Studio subscriptions available to renew through the Microsoft Store include: 
 

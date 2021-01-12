@@ -35,6 +35,6 @@ To get your new Microsoft 365 E5 developer subscription, go to yourâ€¯dashboardâ
 
 After you delete your Office 365 E3 subscription and create your replacement Microsoft 365 E5 subscription, your Office 365 E3 tenant will be available for 60 days so that you can migrate your data. 
 
-## More information 
+## More information about Office 365 E3 subscriptions
 
 [Read more](https://docs.microsoft.com/visualstudio/subscriptions/vs-m365) information on eligibility, how to migrate from Office 365 E3 to Microsoft 365, and FAQs.  
