@@ -6,13 +6,15 @@ ms.topic: conceptual
 ms.assetid: 9d7a7d4c-dce3-4655-983c-a7e4180a5433
 author: CaityBuschlen
 ms.author: cabuschl
-ms.date: 11/30/2020
+ms.date: 01/12/2021
 ---
 
 # Purchasing, renewing and canceling Visual Studio subscriptions
 
 [!INCLUDE [How do I renew my subscriptions?](includes/renew-subscriptions.md)]
 
-[!INCLUDE [How long does it take for my cloud subscription to be cancelled?](includes/renewal-cancellation.md)]
+[!INCLUDE [How do I cancel monthly and annual subscriptions?](includes/renewal-cancellation.md)]
 
 [!INCLUDE [How do I purchase Visual Studio subscriptions?](includes/how-to-purchase.md)]
+
+[!INCLUDE [What are the licensing terms for Visual Studio subscriptions?](includes/licensing-terms.md)]
