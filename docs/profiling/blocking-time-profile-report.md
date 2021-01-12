@@ -1,5 +1,7 @@
 ---
 title: "Blocking Time Profile Report | Microsoft Docs"
+description: "The blocking time profile reports provide aggregate blocking time data. There are six report types: Synchronization, Sleep, I/O, Memory, Preemption, and UI."
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:
