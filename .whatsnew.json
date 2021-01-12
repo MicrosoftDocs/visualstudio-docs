@@ -17,127 +17,127 @@
     },
     "areas": [
         {
-            "name": "ai",
+            "names": ["ai"],
             "heading": "AI"
         },
         {
-            "name": "azure",
+            "names": ["azure"],
             "heading": "Azure"
         },
         {
-            "name": "code-quality",
+            "names": ["code-quality"],
             "heading": "Code quality"
         },
         {
-            "name": "containers",
+            "names": ["containers"],
             "heading": "Containers"
         },
         {
-            "name": "cross-platform",
+            "names": ["cross-platform"],
             "heading": "Cross platform"
         },
         {
-            "name": "data-tools",
+            "names": ["data-tools"],
             "heading": "Data tools"
         },
         {
-            "name": "debugger",
+            "names": ["debugger"],
             "heading": "Debugger"
         },
         {
-            "name": "deployment",
+            "names": ["deployment"],
             "heading": "Deployment"
         },
         {
-            "name": "designers",
+            "names": ["designers"],
             "heading": "Designers"
         },
         {
-            "name": "extensibility",
+            "names": ["extensibility"],
             "heading": "Extensibility"
         },
         {
-            "name": "get-started",
+            "names": ["get-started"],
             "heading": "Get started"
         },
         {
-            "name": "help-viewer",
+            "names": ["help-viewer"],
             "heading": "Help viewer"
         },
         {
-            "name": "ide",
+            "names": ["ide"],
             "heading": "IDE"
         },
         {
-            "name": "install",
+            "names": ["install"],
             "heading": "Install"
         },
         {
-            "name": "javascript",
+            "names": ["javascript"],
             "heading": "JavaScript"
         },
         {
-            "name": "media",
+            "names": ["media"],
             "heading": "Media"
         },
         {
-            "name": "misc",
+            "names": ["misc"],
             "heading": "Misc"
         },
         {
-            "name": "modeling",
+            "names": ["modeling"],
             "heading": "Modeling"
         },
         {
-            "name": "msbuild",
+            "names": ["msbuild"],
             "heading": "MSBuild"
         },
         {
-            "name": "porting",
+            "names": ["porting"],
             "heading": "Porting"
         },
         {
-            "name": "profiling",
+            "names": ["profiling"],
             "heading": "Profiling"
         },
         {
-            "name": "python",
+            "names": ["python"],
             "heading": "Python"
         },
         {
-            "name": "rtvs",
+            "names": ["rtvs"],
             "heading": "RTVS"
         },
         {
-            "name": "sharepoint",
+            "names": ["sharepoint"],
             "heading": "SharePoint"
         },
         {
-            "name": "test",
+            "names": ["test"],
             "heading": "Test"
         },
         {
-            "name": "vs-2015",
+            "names": ["vs-2015"],
             "heading": "VS 2015"
         },
         {
-            "name": "vsto",
+            "names": ["vsto"],
             "heading": "Vsto"
         },
         {
-            "name": "windows",
+            "names": ["windows"],
             "heading": "Windows"
         },
         {
-            "name": "workflow-designer",
+            "names": ["workflow-designer"],
             "heading": "Workflow designer"
         },
         {
-            "name": "xaml-tools",
+            "names": ["xaml-tools"],
             "heading": "XAML tools"
         },
         {
-            "name": "xml-tools",
+            "names": ["xml-tools"],
             "heading": "XML tools"
         }
     ]
