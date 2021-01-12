@@ -90,7 +90,7 @@ The Caller/Callee view of .NET memory profiling data that was collected by using
 |**Min Application Inclusive Time**|The minimum application inclusive time of a call to this function in this context.|
 
 ## Application exclusive values
- Application exclusive values indicate the time that was spent in the function, excluding time that was spent in child functions. The indicated time also excludes time that was spent incalls to the operating system, such as context switches and input/output operations.
+ Application exclusive values indicate the time that was spent in the function, excluding time that was spent in child functions. The indicated time also excludes time that was spent in calls to the operating system, such as context switches and input/output operations.
 
 |Column|Description|
 |------------|-----------------|
