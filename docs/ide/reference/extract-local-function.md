@@ -1,6 +1,6 @@
 ---
 title: Extract local function
-description: Turn a fragment of code into its own method by selecting the code and typing Ctrl+R, Ctrl+M.
+description: Turn a fragment of code into its own function by selecting the code and typing Ctrl+R, Ctrl+M.
 ms.date: 02/19/2020
 ms.topic: reference
 author: mikadumont
@@ -31,7 +31,7 @@ This refactoring applies to:
 
 3. Select **Extract local function**.
 
-    ![Extract local function](media/extract-local-function.png)
+    ![Screenshot of the Visual Studio code window with a line highlighted. The Quick Actions and Refactorings menu is open and Extract local function is selected.](media/extract-local-function.png)
 
 ## See also
 
