@@ -10,14 +10,14 @@ ms.date: 01/12/2021
 ---
 
 ## How do I cancel monthly and annual subscriptions?
-When you cancel a Visual Studio cloud subscription, you are canceling automatic renewal. The subscription continues until its normal renewal date and then simply expires. At expiration, the Visual Studio subscriber can no longer use Visual Studio or any other benefits from the subscription.
+When you cancel a Visual Studio cloud subscription purchased on the [Visual Studio Marketplace](https://marketplace.visualstudio.com), you are canceling automatic renewal. The subscription continues until its normal renewal date and then simply expires. At expiration, the Visual Studio subscriber can no longer use Visual Studio or any other benefits from the subscription.
 
 ### How to cancel monthly and annual subscriptions 
 You need to log in as the account admin and set the number of subscriptions for your agreement to zero (0). Follow these steps to reduce the number of subscriptions:
 1.	Sign in to https://manage.visualstudio.com
 2.	If you are an admin on more than one agreement, choose the desired agreement from the drop-down list.
-3.	Select the Overview icon at the top left to display information about your subscriptions.
-4.	Locate the entry for the subscriptions you wish to cancel, and select Change quantity. This will take you the Visual Studio Marketplace where you will be able to update your purchase quantity. 
+3.	Select the **Overview** icon at the top left to display information about your subscriptions.
+4.	Locate the entry for the subscriptions you wish to cancel, and select **Change quantity**. This will take you the Visual Studio Marketplace where you will be able to update your purchase quantity. 
 5.	Set the quantity to zero (0). Your subscriptions will remain in place until their scheduled billing date, but will not renew when the billing date is reached.
 
 
