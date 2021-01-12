@@ -32,7 +32,7 @@ Each of these subscription offers the option to make an initial purchase or to r
 1. Click on “Download - New” and add to cart. Note: sometimes the store will default to showing the renewal price, please make sure you are purchasing a new subscription. The store will not validate that you have a current subscription while purchasing at renewal price. You won’t be able to activate the renewal without a current matching subscription.
 1. Check out. On the confirmation page, you will be given a product key you will need to use to activate the subscription. See instructions below. 
 
-## How to activate  
+## How to activate your subscription 
 
 After you purchase a Visual Studio subscription through the Microsoft Store, you can begin the activation process from the payment confirmation page or confirmation email you received after your purchase. 
 
@@ -42,7 +42,7 @@ After you purchase a Visual Studio subscription through the Microsoft Store, you
 
 The subscription should now be visible on the [subscriptions page](https://my.visualstudio.com/subscriptions) and you should have access to all your subscription benefits. 
 
-## More information 
+## Compare subscription benefits
 
 [Compare subscription benefits and pricing](https://visualstudio.microsoft.com/vs/pricing/) to understand the benefits of each Visual Studio subscription. 
 

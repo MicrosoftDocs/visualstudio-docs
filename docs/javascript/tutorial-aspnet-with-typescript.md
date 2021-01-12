@@ -94,6 +94,7 @@ In this tutorial, you begin with a simple project containing code for an ASP.NET
 
    ```json
    {
+     "compileOnSave": true,
      "compilerOptions": {
        "noImplicitAny": false,
        "noEmitOnError": true,

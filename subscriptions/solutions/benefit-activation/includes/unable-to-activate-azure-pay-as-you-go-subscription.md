@@ -22,5 +22,6 @@ As a Visual Studio subscriber, you receive exclusive discounted hourly rates for
 1. On the Microsoft Azure Sign up page, you’ll have the option to either set up the Pay-As-You-Go Dev/Test offer (PAYG), or upgrade to the Visual Studio Enterprise offer. Click Continue with the current offer (Pay-As-You-Go Dev/Test) if you don’t wish to upgrade. 
 1. Add a payment method, accept the subscription agreement, and you’re ready to go. In the future you can access your Azure subscription at [portal.azure.com](https://portal.azure.com/). 
 
-## More information 
+## More information about subscriptions
+ 
 [Read more information about Azure Dev/Test Pay-As-You-Go subscriptions](https://docs.microsoft.com/visualstudio/subscriptions/vs-azure-payg).
