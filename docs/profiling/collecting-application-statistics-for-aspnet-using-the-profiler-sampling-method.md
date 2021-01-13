@@ -1,5 +1,7 @@
 ---
 title: Collect statistics for ASP.NET web apps
+description: Review procedures and options to collect performance statistics for ASP.NET Web apps using the VSPerfASPNETCmd and VSPerfCmd tool and the sampling profiling method.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords: 

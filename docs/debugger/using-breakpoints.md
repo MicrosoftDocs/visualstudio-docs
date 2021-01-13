@@ -1,6 +1,7 @@
 ---
 title: Use breakpoints in the debugger | Microsoft Docs
-ms.custom: 
+description: Learn about breakpoints, one of the most important debugging techniques. The article covers breakpoint actions, tracepoints, conditions, and much more.
+ms.custom: SEO-VS-2020
 ms.date: 06/30/2020
 ms.topic: how-to
 f1_keywords: 

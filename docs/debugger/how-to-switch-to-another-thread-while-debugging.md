@@ -1,6 +1,7 @@
 ---
 title: Switch to another thread while debugging
-ms.custom: seodec18
+description: Review different methods to switch to another thread while debugging a multithreaded application in Visual Studio.
+ms.custom: "SEO-VS-2020, seodec18"
 ms.date: 04/27/2017
 ms.topic: how-to
 dev_langs: 

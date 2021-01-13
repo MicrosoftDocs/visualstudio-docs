@@ -5,6 +5,8 @@ ms.date: 11/17/2020
 ms.technology: vs-ide-general
 ms.custom: [get-started, SEO-VS-2020]
 ms.topic: tutorial
+f1_keywords:
+- project.addnewitem
 author: TerryGLee
 ms.author: tglee
 manager: jillfra

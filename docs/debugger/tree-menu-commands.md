@@ -1,5 +1,7 @@
 ---
 title: "Tree Menu Commands | Microsoft Docs"
+description: The Spy++ Tree menu provides commands to expand or collapse views. See a list of the Tree menu commands, with a brief description of each.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:

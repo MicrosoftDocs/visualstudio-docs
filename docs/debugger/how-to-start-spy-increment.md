@@ -1,5 +1,7 @@
 ---
 title: Start Spy++ | Microsoft Docs
+description: Know how to start the Spy++ tool from Visual Studio or at a command prompt when you want to debug a solution.
+ms.custom: SEO-VS-2020
 ms.date: 12/16/2018
 ms.topic: how-to
 helpviewer_keywords: 
