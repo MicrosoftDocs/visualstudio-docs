@@ -1,5 +1,7 @@
 ---
 title: "Using saved IntelliTrace data | Microsoft Docs"
+description: Use an Intellitrace file (.iTrace) to start debugging at a specific point of execution. The file contains info that Intellitrace recorded from a run of your app.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:

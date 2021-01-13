@@ -1,5 +1,7 @@
 ---
 title: "Call Tree View | Microsoft Docs"
+description: Understand the Call Tree view, which displays the function execution paths that were traversed in the profiled application.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:

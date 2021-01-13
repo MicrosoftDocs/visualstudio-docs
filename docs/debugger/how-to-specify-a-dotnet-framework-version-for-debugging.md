@@ -1,6 +1,7 @@
 ---
 title: Specify a .NET Framework version for debugging | Microsoft Docs
-ms.custom: seodec18
+description: Specify an older .NET Framework version for debugging. The Visual Studio debugger supports debugging older versions of .NET Framework as well as the current version.
+ms.custom: "SEO-VS-2020, seodec18"
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 
