@@ -1,6 +1,7 @@
 ---
 title: Set a watch on variables | Microsoft Docs
-ms.custom: seodec18
+description: While you debug, see variables and expressions in Watch and QuickWatch. Watch can display several variables, QuickWatch only one, and only while in break.
+ms.custom: "SEO-VS-2020, seodec18"
 ms.date: 10/11/2018
 ms.topic: how-to
 f1_keywords: 
