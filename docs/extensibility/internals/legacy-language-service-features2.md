@@ -1,5 +1,7 @@
 ---
 title: Legacy Language Service Features2 | Microsoft Docs
+description: Learn about some of the legacy language service features you can provide by implementing the editor API in the Visual Studio SDK.
+ms.custom: SEO-VS-2020 
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
