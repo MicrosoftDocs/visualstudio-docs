@@ -1,6 +1,7 @@
 ---
 title: "Property settings for Web projects | Microsoft Docs"
-ms.custom: "seodec18"
+description: Know how to change the property settings for a web site debug configuration in the Property Pages dialog box of Visual Studio.
+ms.custom: "SEO-VS-2020, seodec18"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:

@@ -1,5 +1,7 @@
 ---
 title: "Windows Tab, Window Properties Dialog Box | Microsoft Docs"
+description: Use the Windows tab of Windows Properties to show information on the windows that are related to the selected window. See this article for the settings.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 helpviewer_keywords:
