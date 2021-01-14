@@ -50,7 +50,7 @@ This article uses a default VSPackage extension, but the steps are valid for eve
 
 ## Publish the extension to the Visual Studio Marketplace
 
-1. Make sure that you have built the Release version of your extension and that it's up-to-date.
+1. Make sure that you have built the Release version of your extension and that it's up to date.
 
 2. In a web browser, open the [Visual Studio Marketplace](https://marketplace.visualstudio.com/vs) website.
 
@@ -104,48 +104,35 @@ This article uses a default VSPackage extension, but the steps are valid for eve
 
 10. After clicking **Make Public**, your extension is now public. Search the Visual Studio Marketplace for your extension.
 
-**Update a published extension in the Visual Studio Marketplace**
+## Update a published extension in the Visual Studio Marketplace
 
-1.  Make sure that you have built the new Release version of your extension and
-    that it's up-to-date.
+Before you begin, make sure that you've built the new release version of your extension and that it's up to date.
 
-2.  In a web browser, open the [Visual Studio
-    Marketplace](https://marketplace.visualstudio.com/vs) website.
+1.  In a web browser, go to the [Visual Studio Marketplace](https://marketplace.visualstudio.com/vs).
 
-3.  In the upper-right corner, click **Sign in**.
+1.  In the upper-right corner, click **Sign in**, and then sign in with your Microsoft account.
 
-4.  Use your Microsoft account to sign in. If you do not have a Microsoft
-    account, you can create one at this point.
+     :::image type="content" source="media/marketplace-upload-extension.png" alt-text="Screenshot that shows selecting an uploaded extension file in File Explorer.":::
 
-    ![Upload to Marketplace](media/91b285e735c6ddd74a74363fa6b09ca4.png)
+1.  Click **Publish extensions**, and then choose the publisher you want to use to upload your updated extension.
 
-5.  Choose the publisher you want to use to upload your extension. You can
-    change publishers by clicking on the publisher names listed on the left.
-    Click on **New extension** and select **Visual Studio**.
+     :::image type="content" source="media/marketplace-select-extension-version.png" alt-text="Screenshot of Visual Studio Marketplace with the Publish extensions link highlighted.":::
 
-6.  Under the extension you want to update hover the mouse and click the three
-    dots.
+1.  Next to the extension you want to update, hover your mouse over the three horizontal dots, and then choose **Edit**.
 
-    ![Graphical user interface, application Description automatically generated](media/5c502f08d95f52c8bdcb6bd2cf535862.png)
+     :::image type="content" source="media/marketplace-select-extension.png" alt-text="Screenshot that shows choosing an extension to edit.":::
 
-7.  Click the Edit option.
+1.  In **1: Upload extension**, after your VSIX file name, click the pencil icon to edit your published extension.
 
-8.  In **1: Under your uploaded extension and to the right of your VSIX file,
-    click the pencil to edit your published extension.
+     :::image type="content" source="media/marketplace-edit-extension-details.png" alt-text="Screenshot that shows clicking the pencil icon to edit your extension.":::
 
-    ![Text Description automatically generated](media/7af89db1c55a910ccc0186276ee5d612.png)
+1.  Browse to your updated extension VSIX file. Click the file, and then click **Open**.
 
-9.  Browse to your version updated extension VSIX file you want to upload.
+1. Your updated extension uploads.
 
-    ![A screenshot of a computer Description automatically generated](media/d71051c4ba90ebc2e474efa403195bc1.png)
+     :::image type="content" source="media/marketplace-upload-extension-notification.png" alt-text="Screenshot of an Uploading file notification after uploading an edited extension.":::
 
-10. Select it and click Open.
-
-11. Your updated extension is uploaded:
-
-    ![Graphical user interface, text, application, email Description automatically generated](media/d4f0607b1d72fe3daf7a78b2d36b42a4.png)
-
-12. In **2: Provide extension details**, some fields are ready only for updates
+1. In **2: Provide extension details**, some fields are ready only for updates
     or auto-populated from the *source.extension.vsixmanifest* file from your
     extension. Find more details about each below:
 
