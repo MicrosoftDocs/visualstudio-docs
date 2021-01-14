@@ -25,8 +25,8 @@ You can [download an extensive list](https://download.microsoft.com/download/1/5
 1. Here you will be able to see a list of popular downloads or search a specific product. Note: If you have more than one subscription associated with the same sign-in address, you will see the downloads included with the highest-level subscription, regardless of which subscription you're viewing.
 1. Click on “get key” to see all keys that are available for the product you want to download. Then click “claim key” to claim a product key if the download requires a key to get started. 
 
-## Product keys page 
+## Find available product keys
 You can also visit the [Product Keys](https://my.visualstudio.com/productkeys) page where all keys are available in aggregate. You can edit the notes column for identifying when and why you claimed the key. 
 
-## More information 
+## More information about product keys
 [Read more](https://docs.microsoft.com/visualstudio/subscriptions/find-keys) on finding and claiming product keys and downloads.  

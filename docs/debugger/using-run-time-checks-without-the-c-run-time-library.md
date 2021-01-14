@@ -1,5 +1,7 @@
 ---
 title: "Using Run-Time Checks Without the C Run-Time Library | Microsoft Docs"
+description: You can link your program without the C run-time library using /NODEFAULTLIB. If you do, and want to use run-time checks, you must link with RunTmChk.lib.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:

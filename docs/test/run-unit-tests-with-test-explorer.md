@@ -371,6 +371,7 @@ Tests can be run from Test Explorer by right-clicking in the code editor on a te
 > [!NOTE]
 > You can't run a test in an abstract class, because tests are only defined in abstract classes and not instantiated. To run tests in abstract classes, create a class that derives from the abstract class.
 
+::: moniker range=">=vs-2019"
 ## Test audio cue
 Test Explorer can play a sound when a test run completes. There are two sounds: one sound to indicate the test run succeeded with all passing tests, and a second sound to indicate the test run completed with at least one failing test. You can set up these sounds in the default Windows 10 sound dialog. This feature is available starting in Visual Studio 2019 Update 16.9 Preview 3.
 
@@ -379,6 +380,7 @@ Test Explorer can play a sound when a test run completes. There are two sounds: 
 3. Find the **Microsoft Visual Studio** category. Choose the **Test Run Succeeded** or **Test Run Failed** sounds to select the preset sounds or browse to your own audio file.  
 ![Windows 10 sound dialog](../test/media/default-windows-10-sound-dialog.png)
 
+::: moniker-end
 ## See also
 
 - [Unit test your code](../test/unit-test-your-code.md)

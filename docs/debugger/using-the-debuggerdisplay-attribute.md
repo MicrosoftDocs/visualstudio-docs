@@ -1,5 +1,7 @@
 ---
 title: Display custom info using DebuggerDisplay | Microsoft Docs
+description: Use an instance of DebuggerDisplayAttribute to control how an object, property, or field is displayed in the debugger variable windows.
+ms.custom: SEO-VS-2020
 ms.date: 01/09/2019
 ms.topic: how-to
 helpviewer_keywords: 
