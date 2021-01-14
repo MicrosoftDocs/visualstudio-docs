@@ -1,5 +1,7 @@
 ---
 title: "Args | Microsoft Docs"
+description: Use the ARGS option of VSPerfCmd.exe to pass an argument list to the target application of the Launch subcommand.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 ms.assetid: 20c35949-1f29-4282-ac75-4e6c237d71bc
