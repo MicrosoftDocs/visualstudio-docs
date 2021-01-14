@@ -1,5 +1,7 @@
 ---
 title: "Spy++ Help | Microsoft Docs"
+description: View links about using Spy++ and Spy++ views. See reference links that provide details about each available Spy++ menu command and dialog box.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:
