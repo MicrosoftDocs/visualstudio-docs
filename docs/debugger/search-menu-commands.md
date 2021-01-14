@@ -1,5 +1,7 @@
 ---
 title: "Search Menu Commands | Microsoft Docs"
+description: Review Visual Studio's Search menu, which has commands to search for specific windows. Use Find Window/Process/Thread/Message, Find Next, and Find Previous.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:

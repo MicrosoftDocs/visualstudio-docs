@@ -1,5 +1,7 @@
 ---
 title: "Report Hook Functions | Microsoft Docs"
+description: Review report hook functions in Visual Studio. A report hook function, installed using _CrtSetReportHook, is called every time _CrtDbgReport generates a debug report.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:

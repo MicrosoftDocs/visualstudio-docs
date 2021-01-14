@@ -1,5 +1,6 @@
 ---
 title: Collect timing data for ASP.NET using instrumentation
+description: Learn how to use VSPerfCmd to collect detailed performance data for an ASP.NET Web application. It provides complete access to Profiling Tools functionality. 
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
