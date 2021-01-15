@@ -30,7 +30,7 @@ The unit test tools include:
 
 * **Microsoft Fakes isolation framework**&mdash;The Microsoft Fakes isolation framework can create substitute classes and methods for production and system .NET code that create dependencies in the code under test. By implementing the fake delegates for a function, you control the behavior and output of the dependency object.
 
-You can also use [IntelliTest](../test/generate-unit-tests-for-your-code-with-intellitest.md) to explore your .NET code to generate test data and a suite of unit tests. For every statement in the code, a test input is generated that will execute that statement. A case analysis is performed for every conditional branch in the code.
+For .NET, you can also use [IntelliTest](../test/generate-unit-tests-for-your-code-with-intellitest.md) to explore your code and generate test data and a suite of unit tests. For every statement in the code, a test input is generated that will execute that statement. A case analysis is performed for every conditional branch in the code.
 
 ## Key tasks
 
