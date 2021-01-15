@@ -32,7 +32,7 @@ To suppress this warning when debugging a legitimate scenario:
 
    For the private registry hive, create the key under `HKEY_LOCAL_MACHINE\*isolated_hive_name*\Software\Microsoft\VisualStudio\<version>\Debugger`, and set it to 1.
 
-   In earlier versions, find or create the key under `HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\<version>\Debugger`, then create it, and set it to 1.
+   In earlier versions, find or create the key under `HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\<version>\Debugger`, and set it to 1.
 
 1. Restart Visual Studio.
 
