@@ -134,25 +134,25 @@ Before you begin, make sure that you've built the new release version of your ex
 
     :::image type="content" source="media/marketplace-upload-extension-notification.png" alt-text="Screenshot of an Uploading file notification after uploading an edited extension.":::
 
-1. In **2: Provide extension details**, some fields are read-only for an extension update or they're auto-populated from the *source.extension.vsixmanifest* file from your extension. Find more details about each in the following list:
+1. In **2: Provide extension details**, some details are read-only for an extension update or they're auto-populated from the *source.extension.vsixmanifest* file from your extension. Here's more information about extension details:
 
-    - **Internal Name** (read-only for update) is used in the URL of the extension's detail page. For an example, publishing an extension under the publisher name "myname" and specifying the internal name as "my extension" results in a URL of "marketplace.visualstudio.com/items?itemName=myname.myextension" for your extension's detail page.
+    - **Internal Name**\* is used in the URL of the extension's detail page. For an example, publishing an extension under the publisher name "myname" and specifying the internal name as "my extension" results in a URL of "marketplace.visualstudio.com/items?itemName=myname.myextension" for your extension's detail page.
 
-    - **Display Name** (read-only for update) of your extension. This name is auto-populated from the *source.extension.vsixmanifest* file.
+    - **Display Name**\* of your extension. This name is auto-populated from the *source.extension.vsixmanifest* file.
 
-    - **Version** (read-only for update) number of the extension you are uploading. This version is auto-populated from the *source.extension.vsixmanifest* file.
+    - **Version**\* number of the extension you are uploading. This version is auto-populated from the *source.extension.vsixmanifest* file.
 
-    - **VSIX ID** (read-only for update) is the unique identifier that Visual Studio uses for your extension. This identifier is required if you would like to have your extension auto-updated. This identifier is auto-populated from the *source.extension.vsixmanifest* file.
+    - **VSIX ID**\* is the unique identifier that Visual Studio uses for your extension. This identifier is required if you would like to have your extension auto-updated. This identifier is auto-populated from the *source.extension.vsixmanifest* file.
 
-    - **Logo** (read-only for update) that is used for your extension. This logo is auto-populated from the *source.extension.vsixmanifest* file if provided.
+    - **Logo**\* that is used for your extension. This logo is auto-populated from the *source.extension.vsixmanifest* file if provided.
 
-    - **Short description** (read-only for update) of what your extension does. This description is auto-populated from the *source.extension.vsixmanifest* file.
+    - **Short description**\* of what your extension does. This description is auto-populated from the *source.extension.vsixmanifest* file.
 
     - **Overview** is a good place to include screenshots and detailed information about what your extension does.
 
-    - **Supported Visual Studio versions** (read-only for update) lets you choose which versions of Visual Studio your extension will work on. Your extension is only installed to those versions.
+    - **Supported Visual Studio versions**\* lets you choose which versions of Visual Studio your extension will work on. Your extension is only installed to those versions.
 
-    - **Supported Visual Studio edition** (read-only for update) lets you choose which editions of Visual Studio your extension will work on. Your extension is installed only on those editions.
+    - **Supported Visual Studio edition**\* lets you choose which editions of Visual Studio your extension will work on. Your extension is installed only on those editions.
 
     - **Type**. The most common type of extension is **Tools**.
 
@@ -165,6 +165,8 @@ Before you begin, make sure that you've built the new release version of your ex
     - **Source code repository** allows you to share a link to your source code with the community.
 
     - **Allow Q&A for your extension** lets users leave questions on your extension entry page.
+
+       \* This detail can't be changed for an extension update.
 
 1. Click **Save & Upload**. This option takes you back to your publisher manage page. Your extension has not yet been published.
 
