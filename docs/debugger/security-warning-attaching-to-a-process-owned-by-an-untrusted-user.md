@@ -28,11 +28,9 @@ To suppress this warning when debugging a legitimate scenario:
 
 1. Set the value of the `DisableAttachSecurityWarning` registry key to 1.
 
-   Starting in Visual Studio 2017, you need to load the private registry hive to set the registry key. For more information, see [How to examine Visual Studio 2017 registry](https://github.com/microsoft/VSProjectSystem/blob/master/doc/overview/examine_registry.md).
+   Find or create the key under `HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\<version>\Debugger`, and set it to 1.
 
-   For the private registry hive, create the key under `HKEY_LOCAL_MACHINE\*isolated_hive_name*\Software\Microsoft\VisualStudio\<version>\Debugger`, and set it to 1.
-
-   In earlier versions, find or create the key under `HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\<version>\Debugger`, and set it to 1.
+   Starting in Visual Studio 2017, if you want to view the complete registry settings, you need to load the private registry hive. For more information, see [How to examine Visual Studio 2017 registry](https://github.com/microsoft/VSProjectSystem/blob/master/doc/overview/examine_registry.md). Make sure you unload the private registry hive before starting Visual Studio.
 
 1. Restart Visual Studio.
 
