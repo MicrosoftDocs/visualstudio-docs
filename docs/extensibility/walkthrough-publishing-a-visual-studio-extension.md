@@ -1,8 +1,8 @@
 ---
-title: 'Walkthrough: Publishing a Visual Studio Extension | Microsoft Docs'
+title: 'Walkthrough: Publish a Visual Studio extension | Microsoft Docs'
 description: Learn how to publish a Visual Studio extension to Visual Studio Marketplace, which allows developers to browse for new and updated extensions.
 ms.custom: SEO-VS-2020
-ms.date: 11/04/2016
+ms.date: 01/15/2021
 ms.topic: how-to
 helpviewer_keywords:
 - publishing web controls
@@ -26,7 +26,7 @@ This walkthrough shows you how to publish a Visual Studio extension to Visual St
 
 This article uses a default VSPackage extension, but the steps are valid for every kind of extension.
 
-1. Create a VSPackage in C# named `TestPublish` that has a menu command. For more information, see [Create your first extension: Hello World](../extensibility/extensibility-hello-world.md).
+- Create a VSPackage in C# named `TestPublish` that has a menu command. For more information, see [Create your first extension: Hello World](../extensibility/extensibility-hello-world.md).
 
 ## Package your extension
 
@@ -86,7 +86,7 @@ This article uses a default VSPackage extension, but the steps are valid for eve
 
     * **Supported Visual Studio edition** lets you choose which editions of Visual Studio your extension will work on. Your extension is only installed to those editions.
 
-    * **Type**. The most common type of extensions are **Tools**.
+    * **Type**. The most common type of extension is **Tools**.
 
     * **Categories**. Pick up to three that are a best fit for your extension.
 
@@ -102,7 +102,7 @@ This article uses a default VSPackage extension, but the steps are valid for eve
 
 10. To publish your extension, right-click on your extension and select **Make Public**. To see how your extension will look in Visual Studio Marketplace, select **View Extension**. For acquisition numbers, click on **Reports**. To make changes to your extension, click on **Edit**.
 
-   ![Extension Entry Menu](media/extension-entry-menu.png)
+    ![Extension Entry Menu](media/extension-entry-menu.png)
 
 11. Click **Make Public**, and your extension is now public. Search Visual Studio Marketplace for your extension.
 
@@ -136,25 +136,25 @@ Before you begin, make sure that you've built the new release version of your ex
 
 1. In **2: Provide extension details**, some fields are read-only for an extension update or they're auto-populated from the *source.extension.vsixmanifest* file from your extension. Find more details about each in the following list:
 
-    - (Read-only for update) **Internal Name** is used in the URL of the extension's detail page. For an example, publishing an extension under the publisher name "myname" and specifying the internal name as "my extension" results in a URL of "marketplace.visualstudio.com/items?itemName=myname.myextension" for your extension's detail page.
+    - **Internal Name** (read-only for update) is used in the URL of the extension's detail page. For an example, publishing an extension under the publisher name "myname" and specifying the internal name as "my extension" results in a URL of "marketplace.visualstudio.com/items?itemName=myname.myextension" for your extension's detail page.
 
-    - (Read-only for update) **Display Name** of your extension. This name is auto-populated from the *source.extension.vsixmanifest* file.
+    - **Display Name** (read-only for update) of your extension. This name is auto-populated from the *source.extension.vsixmanifest* file.
 
-    - (Read-only for update) **Version** number of the extension you are uploading. This version is auto-populated from the *source.extension.vsixmanifest* file.
+    - **Version** (read-only for update) number of the extension you are uploading. This version is auto-populated from the *source.extension.vsixmanifest* file.
 
-    - (Read-only for update) **VSIX ID** is the unique identifier that Visual Studio uses for your extension. This identifier is required if you would like to have your extension auto-updated. This identifier is auto-populated from the *source.extension.vsixmanifest* file.
+    - **VSIX ID** (read-only for update) is the unique identifier that Visual Studio uses for your extension. This identifier is required if you would like to have your extension auto-updated. This identifier is auto-populated from the *source.extension.vsixmanifest* file.
 
-    - (Read-only for update) **Logo** that is used for your extension. This logo is auto-populated from the *source.extension.vsixmanifest* file if provided.
+    - **Logo** (read-only for update) that is used for your extension. This logo is auto-populated from the *source.extension.vsixmanifest* file if provided.
 
-    - (Read-only for update) **Short description** of what your extension does. This description is auto-populated from the *source.extension.vsixmanifest* file.
+    - **Short description** (read-only for update) of what your extension does. This description is auto-populated from the *source.extension.vsixmanifest* file.
 
     - **Overview** is a good place to include screenshots and detailed information about what your extension does.
 
-    - (Read-only for update) **Supported Visual Studio versions** lets you choose which versions of Visual Studio your extension will work on. Your extension is only installed to those versions.
+    - **Supported Visual Studio versions** (read-only for update) lets you choose which versions of Visual Studio your extension will work on. Your extension is only installed to those versions.
 
-    - (Read-only for update) **Supported Visual Studio edition** lets you choose which editions of Visual Studio your extension will work on. Your extension is installed only on those editions.
+    - **Supported Visual Studio edition** (read-only for update) lets you choose which editions of Visual Studio your extension will work on. Your extension is installed only on those editions.
 
-    - **Type**. The most common type of extensions are **Tools**.
+    - **Type**. The most common type of extension is **Tools**.
 
     - **Categories**. Pick up to three that are a best fit for your extension.
 
