@@ -44466,6 +44466,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/debugger/using-run-time-checks-without-the-c-run-time-library.md",
+      "redirect_url": "/visualstudio/debugger/how-to-use-native-run-time-checks",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/debugger/how-to-debug-com-clients-and-servers-using-rpc-debugging.md",
       "redirect_url": "/visualstudio/debugger/com-server-and-container-debugging",
       "redirect_document_id": false
