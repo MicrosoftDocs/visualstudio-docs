@@ -1,6 +1,6 @@
 ---
 title: "Security Warning: Attaching to a process owned by an untrusted user can be dangerous. If the following information looks suspicious or you are unsure, do not attach to this process | Microsoft Docs"
-ms.date: "1/15/2020"
+ms.date: "1/15/2021"
 ms.topic: "conceptual"
 f1_keywords:
   - "vs.debug.attachsecuritywarning"
