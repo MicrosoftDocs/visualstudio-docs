@@ -20,6 +20,8 @@ ms.workload:
 
 This warning dialog box appears when you attach to a process that contains partially trusted code or is owned by an untrusted user immediately before the attach occurs. An untrusted process that contains malicious code has the potential to damage the computer doing the debugging. If you have reason to distrust the process, then you should click **Cancel** to prevent debugging.
 
+In IIS scenarios, you may see this warning if you use a custom application pool, which is untrusted.
+
 To suppress this warning when debugging a legitimate scenario:
 
 1. Close Visual Studio.
