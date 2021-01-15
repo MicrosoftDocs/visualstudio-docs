@@ -1,5 +1,7 @@
 ---
 title: Collecting tier interaction data | Microsoft Docs
+description: Learn how to collect tier profiling information for multi-tiered applications that communicate with databases through ADO.NET services.  
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords: 
