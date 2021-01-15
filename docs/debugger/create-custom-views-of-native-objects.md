@@ -161,6 +161,12 @@ Natvis visualizations use C++ expressions to specify the data items to display. 
 
 - To control how an expression displays, you can use any of the format specifiers described in [Format specifiers in C++](format-specifiers-in-cpp.md#BKMK_Visual_Studio_2012_format_specifiers). Format specifiers are ignored when the entry is used internally by Natvis, such as the `Size` expression in a [ArrayItems expansion](../debugger/create-custom-views-of-native-objects.md#BKMK_ArrayItems_expansion).
 
+>[!NOTE]
+> Because the natvis document is XML, your expressions cannot directly use the ampersand, greater than, less than, or shift operators. You must escape these characters in both the item body and the condition statements. For example:
+> <Item Name="HiByte">(byte)(_flags &gt;&gt; 24),x</Item>
+> <Item Name="HiByteStatus" Condition="(_flags &amp; 0xFF000000) == 0">"None"</Item>
+> <Item Name="HiByteStatus" Condition="(_flags &amp; 0xFF000000) != 0">"Some"</Item>
+
 ## Natvis views
 
 You can define different Natvis views to display types in different ways. For example, here is a visualization of `std::vector` that defines a simplified view named `simple`. The `DisplayString` and the `ArrayItems` elements show in the default view and the `simple` view, while the `[size]` and `[capacity]` items don't show in the `simple` view.
