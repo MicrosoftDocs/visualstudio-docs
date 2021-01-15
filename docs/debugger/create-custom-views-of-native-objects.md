@@ -163,9 +163,9 @@ Natvis visualizations use C++ expressions to specify the data items to display. 
 
 >[!NOTE]
 > Because the natvis document is XML, your expressions cannot directly use the ampersand, greater than, less than, or shift operators. You must escape these characters in both the item body and the condition statements. For example:<br>
-> \<Item Name="HiByte"\>(byte)(_flags &gt;&gt; 24),x\</Item\><br>
-> \<Item Name="HiByteStatus" Condition="(_flags &amp; 0xFF000000) == 0"\>"None"\</Item\><br>
-> \<Item Name="HiByteStatus" Condition="(_flags &amp; 0xFF000000) != 0"\>"Some"\</Item\>
+> \<Item Name="HiByte"\>(byte)(_flags \&gt;\&gt; 24),x\</Item\><br>
+> \<Item Name="HiByteStatus" Condition="(_flags \&amp; 0xFF000000) == 0"\>"None"\</Item\><br>
+> \<Item Name="HiByteStatus" Condition="(_flags \&amp; 0xFF000000) != 0"\>"Some"\</Item\>
 
 ## Natvis views
 
