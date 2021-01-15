@@ -23,7 +23,7 @@ namespace UsageLibrary
            SerializationInfo info, 
            StreamingContext context)
         {
-            n1 = (int) info.GetValue("n1", typeof(int));
+            n1 = (int) info.GetValue(nameof(n1), typeof(int));
         }
 
         // The following method serializes the instance.
@@ -32,7 +32,7 @@ namespace UsageLibrary
         void ISerializable.GetObjectData(SerializationInfo info, 
            StreamingContext context)
         {
-            info.AddValue("n1", n1);
+            info.AddValue(nameof(n1), n1);
         }
     }
 }

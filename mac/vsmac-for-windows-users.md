@@ -1,15 +1,15 @@
 ---
 title: "Visual Studio for Mac for Windows users"
-description: "Introduction of accessibility features in Visual Studio for Mac and how they can be enabled."
+description: "An introduction to Visual Studio for Mac for developers familiar with using Visual Studio on the Windows operating system."
 author: heiligerdankgesang
 ms.author: dominicn
-ms.date: 09/25/2019
+ms.date: 11/09/2020
 ms.assetid: 61CB6883-08CE-470F-8599-6F7570DB756E
 ---
 
 # Visual Studio for Mac for Windows users
 
-Migrating from one operating system to another can be daunting. There are often subtle differences in cross-platform applications, from the user interface to the categorization of menu items. Users will also have the learning curve of acclimatizing to the new operating system's user interface. Here you'll learn the most common differences between Visual Studio for Mac and Visual Studio for Windows. You'll also learn a few different conventions between macOS and Windows.
+Migrating from one operating system to another can be daunting. There are often subtle differences in cross-platform applications, from the user interface to the categorization of menu items. Here you'll learn the most common differences between Visual Studio for Mac and Visual Studio for Windows. You'll also learn a few different conventions between macOS and Windows.
 
 ## Keyboard shortcuts
 
@@ -46,10 +46,9 @@ Menus in macOS are organized differently than menus in Windows. Visual Studio fo
 |-----------------------|---------------------------------------------------------------------|-------------------------------------|
 |Preferences (Options)  |Tools > Options...                                                   |Visual Studio > Preferences...       |
 |Extensions             |Extensions > Manage Extensions                                       |Visual Studio > Extensions...        |
-|Layouts                |Window > Apply Window Layout > [Select layout]                       |View > [Select layout]               |
+|Layouts                |Window > Apply Window Layout > [Select layout]                       |View > Layout > [Select layout]               |
 |Updates                |Help > Check for Updates                                             |Visual Studio > Check for Updates... |
 |NuGet Package Manager  |Tools > NuGet Package Manager > Manage NuGet Packages or Solution... |Project > Manage NuGet Packages...   |
-|Pads / Windows         |View > [Select Pad / window]                                         |View > Pads > [Select pad / window]  |
 |Find tools             |Edit > Find and Replace > [Select tool]                              |Search > [Select tool]               |
 |About Visual Studio    |Help > About Microsoft Visual Studio                                 |Visual Studio > About Visual Studio  
 

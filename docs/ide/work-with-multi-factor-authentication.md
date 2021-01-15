@@ -1,6 +1,7 @@
 ---
-title: Work with accounts that require multi-factor authentication
+title: Use accounts that require multi-factor authentication
 ms.date: 05/27/2020
+ms.custom: SEO-VS-2020
 ms.topic: conceptual
 description: "Learn how to use Visual Studio with accounts that require multi-factor authentication."
 author: ornellaalt
@@ -43,10 +44,11 @@ Once the system web browser workflow is enabled, you can sign in or add accounts
 
 This action will open your system's default web browser, ask you to sign into your account, and validate any required MFA policy.
 
-Based on your development activities and resource configuration, you may be prompted to reenter your credentials during your session. This can occur when you add a new resource, or try accessing a resource without having previously met its CA/MFA authorization requirements.
+During the sign in process, you may receive an additional prompt asking you to stay signed in. This prompt will likely show up the second time an account is used to sign in. To minimize the need to re-enter your credentials, we recommend that you select **Yes**, as this ensures your credentials are preserved across browser sessions.
 
-> [!NOTE] 
-> For the best experience, keep your browser open until all CA/MFA policies are validated for your resources. Closing the browser may result in losing the previously built MFA state, and may prompt additional authorization prompts.
+:::image type="content" source="media/kmsi.png" alt-text="Stay signed in?":::
+
+Based on your development activities and resource configuration, you may still be prompted to reenter your credentials during your session. This can occur when you add a new resource, or try accessing a resource without having previously met its CA/MFA authorization requirements.
 
 ## Reauthenticating an account  
 If there's a problem with your account, Visual Studio might ask you to reenter your account credentials.  

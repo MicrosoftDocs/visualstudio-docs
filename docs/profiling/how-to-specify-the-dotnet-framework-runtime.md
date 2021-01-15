@@ -1,5 +1,5 @@
 ---
-title: How to - Specify the .NET Framework Runtime | Microsoft Docs
+title: Specify the .NET Framework Runtime | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords: 

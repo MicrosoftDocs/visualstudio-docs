@@ -1,5 +1,6 @@
 ---
-title: Creating Basic Profiling Reports from the Command Line | Microsoft Docs
+title: Profiling command line - Create basic reports
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 ms.assetid: 6d73e21e-c04e-48ea-91cc-e517a5f2cd3f

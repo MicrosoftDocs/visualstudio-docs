@@ -1,5 +1,7 @@
 ---
 title: Customizing the Model Explorer
+description: Learn how you can change the appearance and behavior of the explorer for your domain-specific language designer.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords:
@@ -107,4 +109,4 @@ You can change the appearance and behavior of the explorer for your domain-speci
 
 ## See also
 
-- [Domain-Specific Language Tools Glossary](https://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)
+- [Domain-Specific Language Tools Glossary](/previous-versions/bb126564(v=vs.100))

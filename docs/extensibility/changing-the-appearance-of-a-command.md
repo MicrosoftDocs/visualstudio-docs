@@ -1,5 +1,7 @@
 ---
 title: Changing the Appearance of a Command | Microsoft Docs
+description: Learn how to provide feedback changing the appearance of a command, such as making commands available/unavailable, hidden/shown, or checked/unchecked.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

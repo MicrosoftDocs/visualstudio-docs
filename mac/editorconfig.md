@@ -46,7 +46,7 @@ EditorConfig also supports [Coding conventions](/visualstudio/ide/editorconfig-c
 
     Adding the item at the solution level automatically creates and nests it in a **Solution Items** folder:
 
-    ![Solution item displayed in solution pad](media/editorconfig-image1a.png)
+    ![Solution item displayed in Solution Window](media/editorconfig-image1a.png)
 
 4. Edit the file. For example:
 

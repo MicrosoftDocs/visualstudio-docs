@@ -46,7 +46,7 @@ After you report a problem, states indicate where your submissions are in their 
 
 ![Need More Info state for problem reporting on Developer Community](../ide/media/ProblemStates/NeedMoreInfo.jpg)
 
-**Need More Info** indicates that we need more diagnostic information from you so that we can go forward with the investigation.  [Learn how to respond to Need More Info requests.](./how-to-report-a-problem-with-visual-studio.md#when-further-information-is-needed-need-more-info)
+**Need More Info** indicates that we need more diagnostic information from you so that we can go forward with the investigation.  [Learn how to respond to Need More Info requests.](./how-to-report-a-problem-with-visual-studio.md#when-further-information-is-needed)
 
 - - -
 

@@ -1,5 +1,7 @@
 ---
-title: 'How to: Reference the Name or Location of the Project File | Microsoft Docs'
+title: Reference the name or location of the project file
+description: Learn how to use MSBuild reserved properties to reference project file name or location without having to create your own properties.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -42,7 +44,7 @@ You can use the name or location of the project in the project file itself witho
 > [!NOTE]
 > Reserved properties cannot be redefined in the project file.
 
-## Example
+## Example 1
 
  The following example project file references the project name as a reserved property to specify the name for the output.
 
@@ -71,7 +73,7 @@ You can use the name or location of the project in the project file itself witho
 </Project>
 ```
 
-## Example
+## Example 2
 
  The following example project file uses the `MSBuildProjectDirectory` reserved property to create the full path to a file in the project file location.
 

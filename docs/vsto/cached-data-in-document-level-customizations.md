@@ -1,5 +1,7 @@
 ---
 title: "Cached data in document-level customizations"
+description: Learn how Visual Studio separates the data from the view in document-level customizations by enabling data to be embedded as a data cache.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -48,7 +50,7 @@ ms.workload:
 
  The following table lists some of the differences and similarities.
 
-||Data cache|Custom XML parts|
+|Question / Characteristic|Data cache|Custom XML parts|
 |-|----------------|----------------------|
 |Which Office applications can use these?|Document-level customizations for the following applications:<br /><br /> -   Excel<br />-   Word|Document-level and application-level solutions for the following applications:<br /><br /> -   Excel<br />-   PowerPoint<br />-   Word|
 |What types of data can you store?|Any public object in your customization assembly that meets certain requirements. For more information, see [Cache data](../vsto/caching-data.md).|Any XML data.|

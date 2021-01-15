@@ -1,5 +1,7 @@
 ---
 title: MSBuild Command-Line Reference | Microsoft Docs
+description: Learn how to use MSBuild.exe command line to build a project or solution file, and several switches you can include.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 dev_langs:
@@ -79,7 +81,7 @@ MSBuild.exe [Switches] [ProjectFile]
 |-logger:<br /><br /> `logger`|-l:`logger`|Specifies the logger to use to log events from MSBuild. To specify multiple loggers, specify each logger separately.<br /><br /> Use the following syntax for `logger`: `[``LoggerClass``,]``LoggerAssembly``[;``LoggerParameters``]`<br /><br /> Use the following syntax for `LoggerClass`: `[``PartialOrFullNamespace``.]``LoggerClassName`<br /><br /> You don't have to specify the logger class if the assembly contains exactly one logger.<br /><br /> Use the following syntax for `LoggerAssembly`: `{``AssemblyName``[,``StrongName``] &#124;` `AssemblyFile``}`<br /><br /> Logger parameters are optional and are passed to the logger exactly as you enter them.<br /><br /> The following examples use the **-logger** switch.<br /><br /> `-logger:XMLLogger,MyLogger,Version=1.0.2,Culture=neutral`<br /><br /> `-logger:XMLLogger,C:\Loggers\MyLogger.dll;OutputAsHTML`|
 |-noConsoleLogger|-noconlog|Disable the default console logger, and don't log events to the console.|
 
-## Example
+## Example 1
 
  The following example builds the `rebuild` target of the *MyProject.proj* project.
 
@@ -87,7 +89,7 @@ MSBuild.exe [Switches] [ProjectFile]
 MSBuild.exe MyProject.proj -t:rebuild
 ```
 
-## Example
+## Example 2
 
  You can use *MSBuild.exe* to perform more complex builds. For example, you can use it to build specific targets of specific projects in a solution. The following example rebuilds the project `NotInSolutionFolder` and cleans the project `InSolutionFolder`, which is in the *NewFolder* solution folder.
 

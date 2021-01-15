@@ -1,5 +1,7 @@
 ---
-title: How to - Include a Data File in a ClickOnce Application | Microsoft Docs
+title: Include a data file in a ClickOnce app
+description: Learn how to add a data file of any type into your ClickOnce application to be stored in a data directory on the destination computer local disk.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 

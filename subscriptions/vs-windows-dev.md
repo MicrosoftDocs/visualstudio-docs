@@ -1,10 +1,10 @@
 ---
-title:  Windows Developer Account Benefit in Visual Studio Subscriptions | Microsoft Docs
+title:  Windows Developer Account benefit in Visual Studio subscriptions | Microsoft Docs
 author: evanwindom
 ms.author: v-evwin
-manager: lank
+manager: cabuschl
 ms.assetid: 588480a3-8806-4ea5-9915-c25974770069
-ms.date: 04/20/2020
+ms.date: 12/02/2020
 ms.topic: how-to
 description:  Learn about the Windows Developer Account included with your Visual Studio subscription.
 ---
@@ -19,10 +19,10 @@ We recommend that you create a "private" browser window for this process.  For e
 1. Sign in to [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs).
 2. Locate the Windows Developer Account tile in the Tools section and click on the **Get Code** link at the bottom of the benefit tile.  Copy the code to your clipboard, then click **Activate**.
    > [!div class="mx-imgBorder"]
-   > ![Windows Developer Benefit Tile](_img/vs-windows-dev/vs-windows-dev-tile.png)
+   > ![Windows Developer Benefit Tile](_img/vs-windows-dev/vs-windows-dev-tile.png "Click 'Get Code' on the Windows Developer Account tile, then click 'Activate'.")
 3. On the [https://developer.microsoft.com/store/register/](https://developer.microsoft.com/store/register/) site you can begin the registration process.  Click **Sign up** to continue.
    > [!div class="mx-imgBorder"]
-   > ![Windows Developer Benefit Registration](_img/vs-windows-dev/vs-windows-dev-register1-cropped.png)
+   > ![Windows Developer Benefit Registration](_img/vs-windows-dev/vs-windows-dev-register1-cropped.png "Click 'Sign up' to create your account.")
 4. Sign in to your subscription.  If you have multiple accounts, choose the one associated with your Enterprise subscription.
 0. Enter your email address, select your preferred language, and click **Save**.
 5. On the next page, select the country or region where you live or where your business is located, and then click **Next**.
@@ -38,9 +38,9 @@ We recommend that you create a "private" browser window for this process.  For e
 | Subscription Level                                                 |     Channels                                            | Benefit                                                          | Renewable?    |
 |--------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------|---------------|
 | Visual Studio Enterprise (Standard)   | VL, Azure, Retail,  selected NFR<sup>1</sup> | Included       |  Yes|
-| Visual Studio Enterprise with GitHub Enterprise   | VL  | Included       |  Yes|
+| Visual Studio Enterprise subscription with GitHub Enterprise   | VL  | Included       |  Yes|
 | Visual Studio Professional (Standard) | VL, Azure, Retail                                       | Included                                                            |Yes|
-| Visual Studio Professional with GitHub Enterprise | VL                                        | Included                                                            |Yes|
+| Visual Studio Professional subscription with GitHub Enterprise | VL                                        | Included                                                            |Yes|
 | Visual Studio Test Professional (Standard)                         | VL, Retail                                              | Not available                                            |  NA|
 | MSDN Platforms (Standard)                                          | VL, Retail                                              |  Not available                                            |  NA|
 | Visual Studio Enterprise, Visual Studio Professional (monthly cloud) | Azure                                       | Not available                                                           |NA|
@@ -61,10 +61,10 @@ Not sure which subscription you're using?  Connect to [https://my.visualstudio.c
 - Have a question about Visual Studio IDE, Azure DevOps Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).
 
 ## See also
-- [Visual Studio documentation](https://docs.microsoft.com/visualstudio/)
-- [Azure DevOps documentation](https://docs.microsoft.com/azure/devops/)
-- [Azure documentation](https://docs.microsoft.com/azure/)
-- [Microsoft 365 documentation](https://docs.microsoft.com/microsoft-365/)
+- [Visual Studio documentation](/visualstudio/)
+- [Azure DevOps documentation](/azure/devops/)
+- [Azure documentation](/azure/)
+- [Microsoft 365 documentation](/microsoft-365/)
 
 ## Next steps
 Be sure to activate these great benefits to make the most of your Visual Studio subscription:

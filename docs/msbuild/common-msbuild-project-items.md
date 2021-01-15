@@ -1,6 +1,8 @@
 ---
 title: Common MSBuild Project Items | Microsoft Docs
-ms.date: 11/04/2016
+description: Learn about common MSBuild project items. Items are named references to one or more files, and have metadata like file names, paths, and version numbers.
+ms.custom: SEO-VS-2020
+ms.date: 10/29/2020
 ms.topic: reference
 dev_langs:
 - VB
@@ -75,9 +77,15 @@ Represents a reference to another project. `ProjectReference` items are transfor
 |Item metadata name|Description|
 |---------------|-----------------|
 |Name|Optional string. The display name of the reference.|
+|GlobalPropertiesToRemove|Optional `string[]`. Names of properties to remove when building the referenced project, for example `RuntimeIdentifier;PackOnBuild`. Defaults to empty.|
 |Project|Optional string. A GUID for the reference, in the form {12345678-1234-1234-1234-1234567891234}.|
-|Package|Optional string. The path of the project file that is being referenced.|
+|OutputItemType|Optional string. Item type to emit target outputs into. Default is blank. If the Reference metadata is set to "true" (default) then target outputs will become references for the compiler.|
 |ReferenceOutputAssembly|Optional boolean. If set to `false`, does not include the output of the referenced project as a [Reference](#reference) of this project, but still ensures that the other project builds before this one. Defaults to `true`.|
+|SetConfiguration|Optional string. Sets the global property `Configuration` for the referenced project, for example `Configuration=Release`.|
+|SetPlatform|Optional string. Sets the global property `Platform` for the referenced project, for example `Platform=AnyCPU`.|
+|SetTargetFramework|Optional string. Sets the global property `TargetFramework` for the referenced project, for example `TargetFramework=netstandard2.0`.|
+|SkipGetTargetFrameworkProperties|Optional boolean. If `true`, builds the referenced project without negotiating the most compatible `TargetFramework` value. Defaults to `false`.|
+|Targets|Optional `string[]`. Semicolon separated list of targets in the referenced projects that should be built. Default is the value of `$(ProjectReferenceBuildTargets)` which defaults to empty, indicating the default targets.|
 
 ### Compile
 
@@ -146,7 +154,19 @@ Represents assembly attributes to be generated as `[AssemblyMetadata(key, value)
 | Value | Required string. Becomes the second parameter (the value) in the `AssemblyMetadataAttribute` attribute constructor. |
 
 > [!NOTE]
-> This applies to projects using the .NET Core SDK only.
+> This item applies to projects using the SDK for .NET 5 (and .NET Core) and later versions.
+
+### InternalsVisibleTo
+
+Specifies assemblies to be emitted as `[InternalsVisibleTo(..)]` assembly attributes.
+
+| Item metadata name | Description |
+|-----------------------| - |
+| Include | The assembly name. |
+| Key | Optional string. The public key of the assembly. |
+
+> [!NOTE]
+> This item applies to projects using the SDK for .NET 5 (and .NET Core) and later versions.
 
 ### BaseApplicationManifest
 

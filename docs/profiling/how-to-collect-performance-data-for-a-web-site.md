@@ -1,5 +1,5 @@
 ---
-title: How to - Collect Performance Data for a Web Site | Microsoft Docs
+title: Collect Performance Data for a Web Site | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords: 

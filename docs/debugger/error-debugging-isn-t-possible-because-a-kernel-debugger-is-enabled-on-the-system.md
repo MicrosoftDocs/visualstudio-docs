@@ -1,5 +1,5 @@
 ---
-title: "Error - Debugging Isn&#39;t Possible Because a Kernel Debugger is Enabled on the System | Microsoft Docs"
+title: "Debugging Isn&apos;t Possible Because a Kernel Debugger is Enabled on the System | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "error-reference"
 f1_keywords:

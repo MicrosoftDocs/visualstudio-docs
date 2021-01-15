@@ -2,7 +2,7 @@
 title: Anonymization of Visual Studio subscriber data | Microsoft Docs
 author: evanwindom
 ms.author: v-evwin
-manager: lank
+manager: cabuschl
 ms.assetid: ce5fc8a4-484c-4df6-97c3-cb60174fb66b
 ms.date: 02/20/2020
 ms.topic: conceptual
@@ -29,7 +29,7 @@ Events that render a subscription unusable to a subscriber will trigger anonymiz
 ### Q:  Does the anonymization of the subscriber's personal information cause them to lose access to the subscription?
 A:  No.  The anonymization is in response to an event that causes the loss of access to the subscription, but does not cause the lack of access.
 
-### Q:  I'm an administrator for my organization's subscriptions.  If one of my subscriber's information is anonymized, can that subscription be reassigned to another user?
+### Q:  I'm an admin for my organization's subscriptions.  If one of my subscriber's information is anonymized, can that subscription be reassigned to another user?
 A:  Yes -- As long as the subscription has not expired, it can be reassigned to another subscriber.
 
 ### Q: How can I prevent anonymization caused by deleting a sign-in email address?
@@ -38,12 +38,10 @@ A:  There are two ways to prevent the issue:
 - Associate the AAD and MSA identities via the tenant. 
 
 ## See also
-- [Visual Studio documentation](https://docs.microsoft.com/visualstudio/)
-- [Azure DevOps documentation](https://docs.microsoft.com/azure/devops/)
-- [Azure documentation](https://docs.microsoft.com/azure/)
-- [Microsoft 365 documentation](https://docs.microsoft.com/microsoft-365/)
+- [Visual Studio documentation](/visualstudio/)
+- [Azure DevOps documentation](/azure/devops/)
+- [Azure documentation](/azure/)
+- [Microsoft 365 documentation](/microsoft-365/)
 
 ## Next steps
-Learn how to prevent anonymization by [associating MSA and AAD identities](https://docs.microsoft.com/azure/active-directory/b2b/add-users-administrator).
-
-
+Learn how to prevent anonymization by [associating MSA and AAD identities](/azure/active-directory/b2b/add-users-administrator).

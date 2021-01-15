@@ -1,5 +1,7 @@
 ---
 title: Connect to data in an Access database
+description: Understand how to connect to data in an Access database (either an .mdb file or an .accdb.file) in Visual Studio.
+ms.custom: SEO-VS-2020
 ms.date: 07/18/2019
 ms.topic: how-to
 helpviewer_keywords:
@@ -23,7 +25,7 @@ To use these procedures, you need a Windows Forms or WPF project and either an A
 
 ## Create a dataset for an .accdb file
 
-Connect to databases created with Office 365, Access 2013, Access 2010, or Access 2007 by using the following procedure.
+Connect to databases created with Microsoft 365, Access 2013, Access 2010, or Access 2007 by using the following procedure.
 
 1. Open a Windows Forms or WPF application project in Visual Studio.
 

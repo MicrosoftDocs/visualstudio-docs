@@ -1,5 +1,7 @@
 ---
 title: 'Walkthrough: Outlining | Microsoft Docs'
+description: Learn how to define and display outlining regions in the context of a language service or for your own file name extension and content type.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
@@ -10,6 +12,9 @@ ms.author: anthc
 manager: jillfra
 ms.workload:
 - vssdk
+dev_langs:
+  - csharp
+  - vb
 ---
 # Walkthrough: Outlining
 Set up language-based features such as outlining by defining the kinds of text regions you want to expand or collapse. You can define regions in the context of a language service, or define your own file name extension and content type and apply the region definition to only that type, or apply the region definitions to an existing content type (such as "text"). This walkthrough shows how to define and display outlining regions.

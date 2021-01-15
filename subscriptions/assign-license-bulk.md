@@ -1,18 +1,18 @@
 ---
 title: Assign licenses to groups of users for Visual Studio subscriptions | Microsoft Docs
 author: evanwindom
-ms.author: lank
-manager: lank
+ms.author: v-evwin
+manager: cabuschl
 ms.assetid: c2853359-18fd-4be4-97a6-02230c862f92
-ms.date: 05/10/2020
+ms.date: 10/22/2020
 ms.topic: how-to
-description:  Learn how administrators can assign licenses to multiple subscribers using either the Bulk add feature or Microsoft Azure Active Directory groups
+description:  Learn how admins can assign licenses to multiple subscribers using either the Bulk add feature or Microsoft Azure Active Directory groups
 ---
 
 # Assign subscriptions to multiple users
 The Subscriptions Administration Portal lets you add users one-at-a-time, or in large groups.  To add individual users, see [Add single users](assign-license.md).
 
-To add large groups of users, you can use the bulk add feature, or if your organization is using Microsoft Azure Active Directory (Azure AD), you can use Azure AD groups. This article will explain the process for both options. 
+To add large groups of users, you can use the bulk add feature, or if your organization is using Microsoft Azure Active Directory (Azure AD), you can use Azure AD groups. This article will explain the process for both options.  Watch this video or read on to learn more about the bulk add feature. 
 
 <br>
 
@@ -23,7 +23,7 @@ To add large groups of users, you can use the bulk add feature, or if your organ
 
 1. To add multiple subscribers at one time, navigate to the **Manage Subscribers** tab. Choose the **Add** tab, then choose **Bulk add** in the drop-down.  
 
-1. Bulk add uses a Microsoft Excel template to upload subscriber information. In the Upload Multiple Subscribers dialog box, click **Download** to download the template.
+1. Bulk add uses a Microsoft Excel template to upload subscriber information. In the Upload Multiple Subscribers dialog box, select **Download** to download the template.
    > [!div class="mx-imgBorder"]
    > ![Download the Excel template to upload multiple subscribers](media/download-template-upload-subscribers.png "Download the blank Excel template to begin the bulk assignment process.")
    >
@@ -43,13 +43,13 @@ To add large groups of users, you can use the bulk add feature, or if your organ
     - Make sure all required fields are completed. 
     - Check the **Error message** column.  If any errors are listed, resolve those before attempting to upload the file. 
 
-1. Return to the Visual Studio Subscriptions Administration portal. In the **Upload Multiple Subscribers** dialog box, click **Browse**.
+1. Return to the Visual Studio Subscriptions Administration portal. In the **Upload Multiple Subscribers** dialog box, select **Browse**.
    > [!div class="mx-imgBorder"]
    > ![Browse to your saved template to upload multiple subscribers](media/bulk-add-browse-saved-template.png "You can browse to the file location, or drag and drop it into this dialog box.")
 
-1. Navigate to the Excel file that you saved, and then click **OK**.
+1. Navigate to the Excel file that you saved, and then select **OK**.
    > [!div class="mx-imgBorder"]
-   > ![Upload the Excel template to upload multiple subscribers](media/bulk-upload-subscribers.png "The template with your data will appear here.  Click OK to begin the upload.")
+   > ![Upload the Excel template to upload multiple subscribers](media/bulk-upload-subscribers.png "The template with your data will appear here.  Select OK to begin the upload.")
 
     An upload progress dialog appears.
 
@@ -59,10 +59,11 @@ To add large groups of users, you can use the bulk add feature, or if your organ
 
    If you encounter a failure follow these steps:
    1. Open the Excel file you created, correct the problems, and save the file.
-   0. Return to the Adminstration Portal and choose **Add**.
+   0. Return to the Administration Portal and dismiss the error message.
+   0. Choose **Add**.
    0. Select **Bulk add**.
-   0. Since you already have the Excel file saved, you do not need to download the template.  Click **Browse**, locate the file you just saved, and click **Open**.
-   0. Click **OK**.
+   0. Since you already have the Excel file saved, you do not need to download the template.  Select **Browse**, locate the file you just saved, and select **Open**.
+   0. Select **OK**.
 
 
     When the upload is successful, you'll see the list of subscribers and a confirmation message.
@@ -76,14 +77,15 @@ Using this feature makes it easy to stay on top of your subscription assignments
 > [!IMPORTANT]
 >
 > The following limitations apply to the use of Azure AD groups for adding subscribers:
-> - The administrator must be a member of the AAD tenant when initially adding a group to the adminstration portal.  After the group has been added, changes to the membership of the groups does not require admin involvement. 
+> - The admin must be a member of the AAD tenant when initially adding a group to the admin portal.  After the group has been added, changes to the membership of the groups does not require admin involvement. 
 > - Groups must contain at least one member.  Empty groups are not supported.
 > - Groups must have less than 1,000 users. 
 > - All users must be in the top level of the group.  Nested groups are not supported.
-> - Only trusted agreements are supported.
+> - Only trusted agreements are supported. (Only agreements who can 'overallocate' subscriptions are trusted.)
 > - All members of the group must have an email address associated with their Azure AD account.
 > - Separate email addresses for notifications are not supported for subscriptions added using Azure AD groups.  
 
+Watch this video or read on to learn more about adding subscribers using the Azure Active Directory group feature. 
 <br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4rvvW]
@@ -104,7 +106,7 @@ Using this feature makes it easy to stay on top of your subscription assignments
    > [!div class="mx-imgBorder"]
    > ![Choose your Azure AD group](_img/assign-license-bulk/bulk-add-aad-details.png "Choose the name of your Azure AD group to add subscribers from that group.")
 
-6. Click **Add** and then **Confirm**. 
+6. Select **Add** and then **Confirm**. 
 
 7. To see the added group, scroll to the bottom of your list of users.  
 
@@ -112,6 +114,8 @@ Using this feature makes it easy to stay on top of your subscription assignments
 
 > [!NOTE]
 > If you have already assigned subscriptions individually to users who are subsequently added as part of an Azure AD group, they will be added as part of the group and will no longer be listed individually. However, if the individual subscription is for a different subscription level, they will have two subscriptions.  Example:  If a user has an individual Visual Studio Professional subscription, and they are a member of a group to which you assign Visual Studio Enterprise subscriptions, they will have both.  
+>
+> If you remove a subscriber from an Azure Active Directory group that has had subscriptions assigned to it, it may take up to 24 hours for the update to be reflected in the admin portal. 
 
 
 ## Frequently asked questions
@@ -121,14 +125,20 @@ A: No -- everyone in the group receives the same subscription.
 ### Q: Can I edit subscriber details of individuals added in an Azure AD group?  
 A: No -- To modify information for an individual subscriber, you will need to remove them from the Azure AD security group and assign them a subscription individually.  
 
+### Q: Why can't I see the option to use Azure Active Directory groups to add subscribers?
+A: The feature is currently only available to organizations with trusted agreements.  Select the **Details** button to display your agreement information.
+
+   > [!div class="mx-imgBorder"]
+   > ![Click the Details button](_img/assign-license-bulk/bulk-add-agreement.png "Click the Details button to see what kind of agreement you have")
+
 ### Q: I added someone to my Azure AD security group, but I don't see them added in the Subscriptions Administration Portal, and they don't have a subscription. Why not?  
 A: Depending on how your organization has configured Azure AD, you may see delays of up to 24 hours before the user is added. If it's been longer than 24 hours, [contact support](https://visualstudio.microsoft.com/support/support-overview-vs).  
 
 ## See also
-- [Visual Studio documentation](https://docs.microsoft.com/visualstudio/)
-- [Azure DevOps documentation](https://docs.microsoft.com/azure/devops/)
-- [Azure documentation](https://docs.microsoft.com/azure/)
-- [Microsoft 365 documentation](https://docs.microsoft.com/microsoft-365/)
+- [Visual Studio documentation](/visualstudio/)
+- [Azure DevOps documentation](/azure/devops/)
+- [Azure documentation](/azure/)
+- [Microsoft 365 documentation](/microsoft-365/)
 
 ## Next steps
 - Have just one or two subscribers to add?  Check out [Add single users](assign-license.md)

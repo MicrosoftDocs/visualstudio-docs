@@ -1,5 +1,8 @@
 ---
 title: "Create site column project item with project template, part 1"
+titleSuffix: ""
+description: Define a project item type for creating a site column, and then create a project template to use for creating a SharePoint project that contains the project item.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: how-to
 dev_langs:
@@ -633,7 +636,7 @@ ms.workload:
 
 1. In **Solution Explorer**, in the **SiteColumnProjectItem** project, open the source.extension.vsixmanifest file in the manifest editor.
 
-     The source.extension.vsixmanifest file is the basis for the extension.vsixmanifest file that all VSIX packages require. For more information about this file, see [VSIX Extension Schema 1.0 Reference](https://msdn.microsoft.com/76e410ec-b1fb-4652-ac98-4a4c52e09a2b).
+     The source.extension.vsixmanifest file is the basis for the extension.vsixmanifest file that all VSIX packages require. For more information about this file, see [VSIX Extension Schema 1.0 Reference](/previous-versions/dd393700(v=vs.110)).
 
 2. In the **Product Name** box, enter **Site Column**.
 

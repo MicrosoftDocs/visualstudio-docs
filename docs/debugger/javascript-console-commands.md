@@ -1,6 +1,7 @@
 ---
 title: "JavaScript Console commands | Microsoft Docs"
-ms.custom: ""
+description: Use commands to send messages and do other tasks in the JavaScript Console window. This article applies to Node.js apps, UWP apps, and Apache Cordova apps.
+ms.custom: SEO-VS-2020
 ms.date: "10/17/2019"
 ms.topic: "reference"
 helpviewer_keywords:
@@ -17,7 +18,7 @@ ms.workload:
 ---
 # JavaScript Console commands in Visual Studio
 
-You can use commands to send messages and perform other tasks in the JavaScript Console window of Visual Studio. For examples that show how to use this window, see [QuickStart: Debug JavaScript](../debugger/quickstart-debug-javascript-using-the-console.md?view=vs-2017). The information in this topic applies to Node.js app, UWP apps, and apps created using Visual Studio Tools for Apache Cordova.
+You can use commands to send messages and perform other tasks in the JavaScript Console window of Visual Studio. For examples that show how to use this window, see [QuickStart: Debug JavaScript](../debugger/quickstart-debug-javascript-using-the-console.md?view=vs-2017&preserve-view=true). The information in this topic applies to Node.js app, UWP apps, and apps created using Visual Studio Tools for Apache Cordova.
 
 If the JavaScript Console window is closed, you can open it while you're debugging in Visual Studio by choosing **Debug** > **Windows** > **JavaScript Console**.
 
@@ -128,5 +129,5 @@ console.log("%s is %f years old!", user.first, user.age);
 ```
 
 ## See also
-- [QuickStart: Debug JavaScript](../debugger/quickstart-debug-javascript-using-the-console.md?view=vs-2017)
-- [Quickstart: Debug HTML and CSS](../debugger/quickstart-debug-html-and-css.md?view=vs-2017)
+- [QuickStart: Debug JavaScript](../debugger/quickstart-debug-javascript-using-the-console.md?view=vs-2017&preserve-view=true)
+- [Quickstart: Debug HTML and CSS](../debugger/quickstart-debug-html-and-css.md?view=vs-2017&preserve-view=true)

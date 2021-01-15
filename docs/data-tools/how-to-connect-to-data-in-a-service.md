@@ -1,5 +1,7 @@
 ---
 title: 'How to: Connect to Data in a Service'
+description: Connect your app to data returned from a service by running the Data Source Configuration Wizard and selecting Service on the Choose a Data Source Type page.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:

@@ -1,10 +1,10 @@
 ---
 title: Azure Enterprise Agreement DevTest offer
 author: evanwindom
-ms.author: lank
-manager: lank
+ms.author: v-evwin
+manager: cabuschl
 ms.assetid: a335ed23-34ee-40cb-83c6-6c93dee57424
-ms.date: 02/23/2020
+ms.date: 10/26/2020
 ms.topic: how-to
 description:  Learn how to take advantage of special Azure DevTest pricing available to customers with Enterprise Agreements
 ---
@@ -14,7 +14,7 @@ description:  Learn how to take advantage of special Azure DevTest pricing avail
 This offer, which is part of the Enterprise Agreement, is for teams of active Visual Studio subscribers to run dev/test workloads on Microsoft Azure, providing discounted rates on Windows virtual machines and access to exclusive images in the Azure Gallery. This offer is limited to development and testing use only, and cannot be used in production.  
 
 Using the offers is a two-step process:
-1. Offers must be enabled by an administrator in the EA Portal.
+1. Offers must be enabled by an admin in the EA Portal.
 2. Individual subscribers need to create subscriptions for their use. 
 
 A [tutorial video](https://channel9.msdn.com/blogs/EA.Azure.com/Enabling-and-Creating-EA-DevTest-Subscriptions-through-the-EA-Portal) is also available to demonstrate the process.  
@@ -37,10 +37,10 @@ Each subscriber on the account can create a subscription by following these step
 0. Click **Purchase**.  (With this offer, you're not actually purchasing anything.)
 
 ## See also
-- [Visual Studio documentation](https://docs.microsoft.com/visualstudio/)
-- [Azure DevOps documentation](https://docs.microsoft.com/azure/devops/)
-- [Azure documentation](https://docs.microsoft.com/azure/)
-- [Microsoft 365 documentation](https://docs.microsoft.com/microsoft-365/)
+- [Visual Studio documentation](/visualstudio/)
+- [Azure DevOps documentation](/azure/devops/)
+- [Azure documentation](/azure/)
+- [Microsoft 365 documentation](/microsoft-365/)
 
 ## Next steps
 Learn more about managing Visual Studio subscriptions.
@@ -49,6 +49,3 @@ Learn more about managing Visual Studio subscriptions.
 - [Edit subscriptions](edit-license.md)
 - [Delete subscriptions](delete-license.md)
 - [Determine maximum usage](maximum-usage.md)
-
-
-

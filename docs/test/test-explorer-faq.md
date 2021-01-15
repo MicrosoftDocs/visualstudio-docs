@@ -1,5 +1,7 @@
 ---
 title: "Test Explorer FAQ"
+description: Refer to these frequently asked questions about Visual Studio Test Explorer, which include some common troubleshooting.
+ms.custom: SEO-VS-2020
 ms.date: 06/25/2020
 ms.topic: conceptual
 helpviewer_keywords:
@@ -89,13 +91,13 @@ The icons next to the Project, Namespace, and Class groupings show the state of 
 
 **There is no longer a "File Path" filter in the Test Explorer search box.**
 
-The file path filter in the **Test Explorer** search box was removed in Visual Studio 2017 version 15.7. This feature had low usage, and Test Explorer can retrieve test methods faster by leaving out this feature. If this change interrupts your development flow, let us know by submitting feedback on [Developer Community](https://developercommunity.visualstudio.com/).
+The file path filter in the **Test Explorer** search box was removed in Visual Studio 2017 version 15.7. This feature had low usage, and Test Explorer can retrieve test methods faster by leaving out this feature. If this change interrupts your development flow, let us know by submitting feedback on [Developer Community](https://aka.ms/feedback/suggest?space=8).
 
 ## Remove undocumented interfaces
 
 **Some test-related APIs are no longer present in Visual Studio 2019. What changed?**
 
-In Visual Studio 2019, some test window APIs that were previously marked public but were never officially documented will be removed. They were marked as "deprecated" in Visual Studio 2017 to give extension maintainers an early warning. To our knowledge, very few extensions had found these APIs and taken a dependency on them. These include `IGroupByProvider`, `IGroupByProvider<T>`, `KeyComparer`, `ISearchFilter`, `ISearchFilterToken`, `ISearchToken`, and `SearchFilterTokenType`. If this change affects your extension, let us know by filing a bug on [Developer Community](https://developercommunity.visualstudio.com).
+In Visual Studio 2019, some test window APIs that were previously marked public but were never officially documented will be removed. They were marked as "deprecated" in Visual Studio 2017 to give extension maintainers an early warning. To our knowledge, very few extensions had found these APIs and taken a dependency on them. These include `IGroupByProvider`, `IGroupByProvider<T>`, `KeyComparer`, `ISearchFilter`, `ISearchFilterToken`, `ISearchToken`, and `SearchFilterTokenType`. If this change affects your extension, let us know by filing a bug on [Developer Community](https://aka.ms/feedback/suggest?space=8).
 
 ## Test adapter NuGet reference
 
@@ -161,6 +163,6 @@ vsregedit set “C:\Program Files (x86)\Microsoft Visual Studio\Preview\Enterpri
 ## See also
 
 - <xref:Microsoft.VisualStudio.TestTools.UnitTesting?displayProperty=fullName>
-- [Create and run unit tests for existing code](https://msdn.microsoft.com/e8370b93-085b-41c9-8dec-655bd886f173)
+- [Create and run unit tests for existing code](/previous-versions/dd293546(v=vs.110))
 - [Unit test your code](unit-test-your-code.md)
 - [Live unit testing FAQ](live-unit-testing-faq.md)

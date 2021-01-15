@@ -11,7 +11,7 @@ ms.workload:
 ---
 # Suggest a feature for Visual Studio
 
-We've introduced a new experience for suggesting features alongside the current ability to report problems on [Visual Studio Developer Community](https://developercommunity.visualstudio.com). This is a new way you can be empowered to engage directly with Visual Studio's engineering workflow.
+We've introduced a new experience for suggesting features alongside the current ability to report problems on [Visual Studio Developer Community](https://aka.ms/feedback/suggest?space=8). This is a new way you can be empowered to engage directly with Visual Studio's engineering workflow.
 
 ![Suggest a Feature button on Developer Community](media/suggest-a-feature/suggest-feature-button.png)
 
@@ -19,7 +19,7 @@ You can also start a feature suggestion directly from Visual Studio by choosing 
 
 ![Provide a Suggestion menu in Visual Studio](media/suggest-a-feature/provide-suggestion.png)
 
-Choosing **Provide a Suggestion** takes you to [Developer Community](https://developercommunity.visualstudio.com), where you can enter your suggestion.
+Choosing **Provide a Suggestion** takes you to [Developer Community](https://aka.ms/feedback/suggest?space=8), where you can enter your suggestion.
 
 ## User Voice
 
@@ -80,6 +80,13 @@ A feature suggestion marked **Need More Info** means that we need more details s
 **Closed - Not Enough Info** indicates that after several attempts, we haven't received enough information to understand your feature suggestion fully. We have to close the new feature suggestion as we're unable to take any further action at this stage.
 
 Found the information we were looking for? You may request to reactivate the ticket when you have the additional information.
+
+- - -
+
+![Closed - Out of Scope state for suggestions on Developer Community](../ide/media/SuggestStates/closed-out-of-scope.png)
+
+**Closed - Out of Scope** If a suggestion doesn’t match our overall product direction, we will close it as *Out of Scope*. For example, we may have similar investments in other members of the Visual Studio family of products. Or the feature suggested might only be relevant to a few people, making an extension better suited to provide it.
+
 
 - - -
 

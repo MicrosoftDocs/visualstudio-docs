@@ -4,9 +4,10 @@ summary: Explore documentation for the Visual Studio family of products.
 brand: visual-studio
 metadata:
   title: Visual Studio product family documentation
-  description: Explore documentation for the Visual Studio family of products.
+  description: Explore documentation for the Visual Studio family of products, including Visual Studio IDEs for Windows and Mac, Visual Studio Code, Visual Studio App Center, GitHub Codespaces, and Visual Studio Subscriptions.
   ms.topic: hub-page
-  ms.date: 05/13/2020
+  ms.custom: contperf-fy21q1
+  ms.date: 10/22/2020
   searchScope: []
   titleSuffix: ""
   ms.author: ghogen
@@ -14,30 +15,30 @@ metadata:
   ms.manager: jillfra
   monikerRange: ">=vs-2017"
   hide_bc: true
-  
+
 productDirectory:
     items:
     - title: Visual Studio
       imageSrc: ./media/vs-ide-2019.svg
       links:
-        - url: /visualstudio/windows?view=vs-2019
+        - url: ./windows/index.yml?view=vs-2019&preserve-view=true
           text: Visual Studio 2019 (current)
-        - url: /visualstudio/windows?view=vs-2017
+        - url: ./windows/index.yml?view=vs-2017&preserve-view=true
           text: Visual Studio 2017
-        - url: https://docs.microsoft.com/previous-versions/visualstudio/
+        - url: /previous-versions/visualstudio/
           text: Previous versions
-        - url: https://docs.microsoft.com/visualstudio/releases/2019/release-notes
+        - url: /visualstudio/releases/2019/release-notes
           text: Release notes
         - url: https://visualstudio.microsoft.com/
           text: Product page
     - title: Visual Studio for Mac
       imageSrc: ./media/vs-mac-2019.svg
       links:
-        - url: https://docs.microsoft.com/visualstudio/mac
+        - url: /visualstudio/mac
           text: Visual Studio 2019 for Mac (current)
-        - url: https://docs.microsoft.com/visualstudio/mac/?view=vsmac-2017
+        - url: /visualstudio/mac/?view=vsmac-2017&preserve-view=true
           text: Visual Studio 2017 for Mac
-        - url: https://docs.microsoft.com/visualstudio/releasenotes/vs2019-mac-relnotes
+        - url: /visualstudio/releasenotes/vs2019-mac-relnotes
           text: Release notes
         - url: https://visualstudio.microsoft.com/vs/mac/
           text: Product page
@@ -50,26 +51,28 @@ productDirectory:
           text: Release notes
         - url: https://code.visualstudio.com
           text: Product page
-    - title: Visual Studio Codespaces
-      imageSrc: ./media/vs-ide-2019.svg
+    - title: GitHub Codespaces
+      imageSrc: ./media/github-mark-32px.svg
       links:
-         - url: https://docs.microsoft.com/visualstudio/codespaces/
+         - url: https://docs.github.com/github/developing-online-with-codespaces/
            text: Documentation
-         - url: https://code.visualstudio.com/docs/remote/codespaces
+         - url: https://code.visualstudio.com/docs/remote/codespaces/
            text: Use with Visual Studio Code
-         - url: https://visualstudio.microsoft.com/services/visual-studio-codespaces/
+         - url: ./ide/codespaces/use-visual-studio-with-codespaces.md
+           text: Use with Visual Studio
+         - url: https://github.com/features/codespaces/
            text: Product page
     - title: Visual Studio App Center
       imageSrc: ./media/vs-mobile-center.svg
       links:
-        - url: https://docs.microsoft.com/appcenter
+        - url: /appcenter
           text: Documentation
         - url: https://visualstudio.microsoft.com/app-center/
           text: Portal
     - title: Visual Studio Subscriptions
       imageSrc: ./media/vs-subscription-temp.svg
       links:
-        - url: https://docs.microsoft.com/visualstudio/subscriptions
+        - url: /visualstudio/subscriptions
           text: Documentation
         - url: https://visualstudio.microsoft.com/subscriptions
           text: Info on visualstudio.com

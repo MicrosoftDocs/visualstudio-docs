@@ -18,7 +18,7 @@ To start developing native, cross-platform .NET apps on macOS, install Visual St
 
 ## Requirements
 
-- A Mac with macOS High Sierra 10.12 or above.
+- A Mac with macOS High Sierra 10.13 or above.
 
 To build Xamarin apps for iOS or macOS, you'll also need:
 
@@ -43,27 +43,25 @@ To build Xamarin apps for iOS or macOS, you'll also need:
 
 6. The list of available workloads is displayed. Select the components you wish to use:
 
-    [![Choose which optional workload features you would like to install](media/install-selection.png)](media/install-selection.png#lightbox)
+    [![Screenshot of the "What would you like to install?" screen in the Visual Studio Mac Installer, showing a list of components available for installation.](media/install-selection.png)](media/install-selection.png#lightbox)
 
    If you do not wish to install all platforms, use the guide below to help you decide which platforms to install:
 
-
-|Type of App  |Target  |Selection  |Notes  |
-|---------|---------|---------|---------|
-|**Apps Using Xamarin**| Xamarin.Forms|Select **Android** and **iOS** platforms |You will need to install [**Xcode**](https://developer.apple.com/xcode/) |
-||iOS only|Select **iOS** platform|You will need to install [**Xcode**](https://developer.apple.com/xcode/)|
-||Android only|Select **Android** platform|Note that you should also select the relevant dependencies|
-||Mac only|Select **macOS (Cocoa)** platform|You will need to install [**Xcode**](https://developer.apple.com/xcode/)|
-|**.NET Core applications**|         |Select **.NET Core** platform.|         |
-|**ASP.NET Core Web Applications**|         |Select **.NET Core** platform.|         |
-|**Azure Functions**|         |Select **.NET Core** platform.|         |
-|**Cross-platform Unity Game Development**|         |No additional platforms need to be installed beyond Visual Studio for Mac.| Refer to the [Unity setup guide](/visualstudio/mac/setup-vsmac-tools-unity) for more information on installing the Unity extension.|
-
+   |Type of App  |Target  |Selection  |Notes  |
+   |---------|---------|---------|---------|
+   |**Apps Using Xamarin**| Xamarin.Forms|Select **Android** and **iOS** platforms |You will need to install [**Xcode**](https://developer.apple.com/xcode/) |
+   ||iOS only|Select **iOS** platform|You will need to install [**Xcode**](https://developer.apple.com/xcode/)|
+   ||Android only|Select **Android** platform|Note that you should also select the relevant dependencies|
+   ||Mac only|Select **macOS (Cocoa)** platform|You will need to install [**Xcode**](https://developer.apple.com/xcode/)|
+   |**.NET Core applications**|         |Select **.NET Core** platform.|         |
+   |**ASP.NET Core Web Applications**|         |Select **.NET Core** platform.|         |
+   |**Azure Functions**|         |Select **.NET Core** platform.|         |
+   |**Cross-platform Unity Game Development**|         |No additional platforms need to be installed beyond Visual Studio for Mac.| Refer to the [Unity setup guide](./setup-vsmac-tools-unity.md) for more information on installing the Unity extension.|
 
 7. After you have made your selections, press the **Install** button.
 8. The installer will display progress as it downloads and installs Visual Studio for Mac and the selected workloads. You will be prompted to enter your password to grant the privileges necessary for installation.:
 
-    [![Choose which optional workload features you would like to install](media/installation-progress.png)](media/installation-progress.png#lightbox)
+    [![Screenshot from the Visual Studio Mac Installer showing an installation progress screen for The .NET developer toolkit for Mac.](media/installation-progress.png)](media/installation-progress.png#lightbox)
 
 9. Once installed, Visual Studio for Mac will prompt you to personalize your installation by signing in and selecting the key bindings that you'd like to use:
 
@@ -71,7 +69,7 @@ To build Xamarin apps for iOS or macOS, you'll also need:
 
     [![Choose which keyboard shortcuts you would like to use](media/ide-tour-2019-keyboard-shortcut.png)](media/ide-tour-2019-keyboard-shortcut.png#lightbox)
 
-If you have network trouble while installing in a corporate environment, review the [installing behind a firewall or proxy](/visualstudio/mac/installation#install-visual-studio-for-mac-behind-a-firewall-or-proxy-server) instructions.
+If you have network trouble while installing in a corporate environment, review the [installing behind a firewall or proxy](#install-visual-studio-for-mac-behind-a-firewall-or-proxy-server) instructions.
 
 Learn more about the changes in the [release notes](/visualstudio/releasenotes/vs2019-mac-relnotes).
 
@@ -84,7 +82,7 @@ To install Visual Studio for Mac behind a firewall, certain endpoints must be ma
 
 Configure your network to allow access to the following locations:
 
-- [Visual Studio endpoints](/visualstudio/mac/install-behind-a-firewall-or-proxy-server)
+- [Visual Studio endpoints](./install-behind-a-firewall-or-proxy-server.md)
 
 ## Next steps
 

@@ -29,7 +29,7 @@ The publishing process differs between Visual Studio 2017 and later and Visual S
 
 For this walkthrough, you need a web app project based on the Bottle, Flask, or Django frameworks. If you don't yet have a project and would like to try the publishing process, create a simple test project as follows:
 
-1. In Visual Studio, select **File > New > Project**, search for "Bottle", select the **Bottle Web Project**, specify and name and a path for the project, click **OK**. (The Bottle template is included with the Python development workload; see [Installation](installing-python-support-in-visual-studio.md).)
+1. In Visual Studio, select **File > New > Project**, search for "Bottle", select the **Bottle Web Project**, specify and name and a path for the project, select **OK**. (The Bottle template is included with the Python development workload; see [Installation](installing-python-support-in-visual-studio.md).)
 
 1. Follow the prompts to install external packages, selecting **Install into a virtual environment** and your preferred base interpreter for the virtual environment. You typically match this choice with the version of Python installed on App Service.
 
@@ -180,7 +180,7 @@ Publishing to Azure App Service from Visual Studio 2017 and later copies only th
 > [!Note]
 > A short video of this process can be found on [Visual Studio Python Tutorial: Building a Website](https://www.youtube.com/watch?v=FJx5mutt1uk&list=PLReL099Y5nRdLgGAdrb_YeTdEnd23s6Ff&index=6) (youtube.com, 3m10s).
 
-1. In **Solution Explorer**, right-click the project select **Publish**.
+1. In **Solution Explorer**, right-click the project and select **Publish**.
 
 1. In the **Publish** dialog, select **Microsoft Azure App Service**:
 

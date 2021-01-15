@@ -41,4 +41,4 @@ The Marks view displays sampling and ETW events that were inserted into the appl
 ## See also
 - [Performance report overview](../profiling/performance-report-overview.md)
 - [How to: Collect Windows counter data](../profiling/how-to-collect-windows-counter-data.md)
-- [&#91;NIB&#93; Data Collection Control window](https://msdn.microsoft.com/98d740d8-459f-4605-bf04-fb17aafaaa8f)
+- [&#91;NIB&#93; Data Collection Control window](/previous-versions/bb385767(v=vs.110))

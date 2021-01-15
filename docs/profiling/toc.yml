@@ -16,9 +16,9 @@
     href: quickstart-cpu-usage-aspnet.md
 - name: Tutorials
   items:
-  - name: Profile application performance in Visual Studio
+  - name: Measure application performance in Visual Studio
     href: beginners-guide-to-performance-profiling.md
-  - name: Profile memory usage in Visual Studio
+  - name: Measure memory usage in Visual Studio
     href: memory-usage.md
 - name: Concepts
   items:
@@ -34,6 +34,8 @@
     href: perftips.md
   - name: .NET Async
     href: analyze-async.md
+  - name: .NET Counters
+    href: dotnet-counters-tool.md
   - name: Database
     href: analyze-database.md
   - name: Events Viewer

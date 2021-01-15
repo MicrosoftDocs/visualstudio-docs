@@ -1,5 +1,7 @@
 ---
 title: Run UWP apps in the simulator | Microsoft Docs
+description: Understand how to run Universal Windows Platform (UWP) apps in the Visual Studio simulator, which is a desktop application that simulates a UWP app.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 
@@ -90,7 +92,7 @@ The **Touch emulation rotate** button sets the interaction mode to rotation gest
 ## <a name="BKMK_Change_the_simulated_screen_size_and_resolution"></a> Change the simulated screen size and resolution
  To change the simulated screen size and resolution, choose the **Change Resolution** button  on the palette and choose a new size and resolution from the list.
 
- The screen size and resolution are listed as *Screen width inches, pixel width X pixel height*. Note that both the screen size and the resolution are simulated. Location co-ordinates on the simulator are translated to the selected device size and resolution.
+ The screen size and resolution are listed as *Screen width inches, pixel width X pixel height*. Note that both the screen size and the resolution are simulated. Location coordinates on the simulator are translated to the selected device size and resolution.
 
 > [!NOTE]
 > You can save scaled versions of bitmap images in your app and Windows will load the correct image for the current scale. For more information, see [Design and UI intro](/windows/uwp/layout/design-and-ui-intro). However, if you change the simulator resolution so that Windows picks a different image to fit the resolution, you have to stop and restart your debug session to view the new image.
@@ -109,7 +111,7 @@ The **Touch emulation rotate** button sets the interaction mode to rotation gest
 
 ## <a name="BKMK_Simulate_network_connection_properties"></a> Simulate network connection properties
 
-You can help your app's users manage the cost of metered network connections by maintaining awareness of network connection cost or data plan status changes and enabling your app to use this information to avoid incurring additional costs for roaming or exceeding a specified data transfer limit. The [Windows.Networking.Connectivity](/uwp/api/windows.networking.connectivity) APIs lets you respond to [NetworkStatusChanged](/uwp/api/windows.networking.connectivity.networkinformation) and [TriggerType](/uwp/api/windows.applicationmodel.background.systemtrigger) events that sign. See [Quickstart: Managing metered network cost constraints](https://msdn.microsoft.com/library/windows/apps/Hh750310.aspx).
+You can help your app's users manage the cost of metered network connections by maintaining awareness of network connection cost or data plan status changes and enabling your app to use this information to avoid incurring additional costs for roaming or exceeding a specified data transfer limit. The [Windows.Networking.Connectivity](/uwp/api/windows.networking.connectivity) APIs lets you respond to [NetworkStatusChanged](/uwp/api/windows.networking.connectivity.networkinformation) and [TriggerType](/uwp/api/windows.applicationmodel.background.systemtrigger) events that sign. See [Quickstart: Managing metered network cost constraints](/previous-versions/windows/apps/hh750310(v=win.10)).
 
 To debug or test your network cost-aware code, the simulator can mimic properties of a network that are exposed through the [ConnectionProfile](/uwp/api/windows.networking.connectivity.connectionprofile) object returned by [GetInternetConnectionProfile](/uwp/api/windows.networking.connectivity.networkinformation).
 
@@ -133,7 +135,7 @@ To simulate network properties:
 
 For more information about managing network connections, see:
 
-[Quickstart: Managing metered network cost constraints](https://msdn.microsoft.com/library/windows/apps/Hh750310.aspx)
+[Quickstart: Managing metered network cost constraints](/previous-versions/windows/apps/hh750310(v=win.10))
 
 [Network information sample](https://code.msdn.microsoft.com/windowsapps/Network-Information-Sample-63aaa201)
 

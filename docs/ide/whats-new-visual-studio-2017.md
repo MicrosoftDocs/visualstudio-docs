@@ -98,7 +98,7 @@ To see a list of your extensions in Visual Studio, click  **Tools** > **Extensio
 
 The Roaming Extension Manager tracks all the extensions you install, but you can choose which ones you want to add to your Roaming list.
 
-![Visual Studio 2017 - Extensions and Updates dialog](media/vs2017ide-RoamingExtensionManager.png)
+![Visual Studio 2017 - Roaming Extensions Manager](media/vs2017ide-RoamingExtensionManager.png)
 
 When you use the Roaming Extension Manager, there are three icon types on your list:
 
@@ -125,7 +125,7 @@ For more information, see the [Introducing Live Unit Testing](../test/live-unit-
 
 Automated testing is a key part of any DevOps pipeline. It allows you to consistently and reliably test and release your solution on much shorter cycles. CI/CD (Continuous Integration and Continuous Delivery) flows can help make the process more efficient.
 
-For more information about automated tests, see the [CI/CD pipeline for automated tests in DevOps](https://blogs.msdn.microsoft.com/visualstudioalmrangers/2017/04/20/set-up-a-cicd-pipeline-to-run-automated-tests-efficiently/) blog post.
+For more information about automated tests, see the [CI/CD pipeline for automated tests in DevOps](/archive/blogs/visualstudioalmrangers/set-up-a-cicd-pipeline-to-run-automated-tests-efficiently) blog post.
 
 And, for more information about what's new in the [Continuous delivery tools for Visual Studio](https://marketplace.visualstudio.com/items?itemName=VSIDEDevOpsMSFT.ContinuousDeliveryToolsforVisualStudio) DevLabs extension, see the [Commit with confidence: Commit time code quality](https://devblogs.microsoft.com/visualstudio/committing-with-confidence-getting-code-quality-information-at-commit-time/) blog post.
 
@@ -190,7 +190,7 @@ For more information about the new productivity features, see the [Visual Studio
 
 You'll see several improvements in Visual Studio, such as distributing C++ Core Guidelines with Visual Studio, updating the compiler by adding enhanced support for C++11 and C++ features, and adding and updating functionality in the C++ libraries. We've also improved the performance of the C++ IDE, installation workloads, and more.
 
-As well, we've fixed over 250 bugs and reported issues in the compiler and tools, many submitted by customers through the [Developer Community for C++](https://developercommunity.visualstudio.com/spaces/62/index.html "Developer Community for C++").
+As well, we've fixed over 250 bugs and reported issues in the compiler and tools, many submitted by customers through the [Developer Community for C++](https://aka.ms/feedback/report?space=62 "Developer Community for C++").
 
 For complete details, see the [What's new for Visual C++ in Visual 2017](/cpp/top/what-s-new-for-visual-cpp-in-visual-studio) page.
 
@@ -216,7 +216,7 @@ For more information, see the [Use the new Exception Helper in Visual Studio](ht
 
 You can navigate and view snapshots by using the **Step Backward** and **Step Forward** buttons in the **Debug** toolbar. These buttons navigate the events that appear in the **Events** tab in the **Diagnostic Tools** window. Stepping backward or forward to an event automatically activates historical debugging on the selected event.
 
-![The New Exception Helper dialog in Visual Studio](../debugger/media/intellitrace-step-back-icons-description.png  "Step Backward and Forward buttons")
+![Example of IntelliTrace step-back  in Visual Studio](../debugger/media/intellitrace-step-back-icons-description.png  "Step Backward and Forward buttons")
 
 For more information, see the [View snapshots using IntelliTrace step-back](../debugger/view-historical-application-state.md) page.
 
@@ -344,7 +344,7 @@ For more information, see the [.NET Core guide](/dotnet/core/index) page.
 
 As part of the "Games development for Unity" workload, we've included tools to help you develop cross-platform to create 2D and 3D games and interactive content. Create once and publish to 21 platforms, including all mobile platforms, WebGL, Mac, PC and Linux desktop, web, or consoles by using Visual Studio 2017 and Unity 5.6.
 
-For more information, see the [Visual Studio Tools for Unity](../cross-platform/visual-studio-tools-for-unity.md) page.
+For more information, see the [Visual Studio Tools for Unity](/gamedev/unity/get-started/visual-studio-tools-for-unity.md) page.
 
 ## AI development
 

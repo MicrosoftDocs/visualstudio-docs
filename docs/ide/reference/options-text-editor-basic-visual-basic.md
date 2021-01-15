@@ -1,6 +1,8 @@
 ﻿---
 title: Options, Text Editor, Basic (VB), Advanced
-ms.date: 01/16/2019
+description: Learn how to use the Advanced page in the Basic section to change the default settings of the Analysis, Import Directives, and Highlighting properties.
+ms.custom: SEO-VS-2020
+ms.date: 08/12/2020
 ms.topic: reference
 f1_keywords:
 - VS.ToolsOptionsPages.Visual_Basic.Editor
@@ -13,8 +15,8 @@ f1_keywords:
 helpviewer_keywords:
 - Basic Text Editor Options dialog box
 ms.assetid: 5a8cafca-f7b4-4a2d-92ce-6894a7673d00
-author: TerryGLee
-ms.author: tglee
+author: akhera99
+ms.author: midumont
 manager: jillfra
 ms.workload:
 - multiple
@@ -72,6 +74,13 @@ The text editor indicates visual scope of procedures. A line is drawn in the *.v
 When selected, vertical lines appear in the editor that line up with structured code blocks, which lets you easily identify the individual blocks of code. For example, you would see a line between `Sub` and `EndSub` in a `Sub` statement.
 
 ## Editor Help
+
+::: moniker range=">=vs-2019"
+**Inline Parameter Name Hints**    
+When selected, inserts parameter name hints for literals, casted literals, and object instantiations prior to each argument in function calls.  
+
+![Inline Parameter Name Hints for Visual Basic](media/inline-parameter-name-hints-visualbasic.png)
+::: moniker-end
 
 **Pretty Listing (reformatting) of code**
 The text editor reformats your code as appropriate. When this option is selected, the code editor will:

@@ -1,6 +1,7 @@
 ---
 title: "Troubleshooting snapshot debugging | Microsoft Docs"
-ms.custom: ""
+description: Understand troubleshooting and known issues for snapshot debugging in Visual Studio. Load ICorProfiler without causing downtime on your production site.
+ms.custom: SEO-VS-2020
 ms.date: "04/24/2019"
 ms.topic: "troubleshooting"
 helpviewer_keywords:
@@ -15,7 +16,7 @@ ms.workload:
 
 # Troubleshooting and known issues for snapshot debugging in Visual Studio
 
-If the steps described in this article do not resolve your issue, search for the problem on [Developer Community](https://developercommunity.visualstudio.com/spaces/8/index.html) or report a new issue by choosing **Help** > **Send Feedback** > **Report a Problem** in Visual Studio.
+If the steps described in this article do not resolve your issue, search for the problem on [Developer Community](https://aka.ms/feedback/suggest?space=8) or report a new issue by choosing **Help** > **Send Feedback** > **Report a Problem** in Visual Studio.
 
 ## Issue: "Attach Snapshot Debugger" encounters an HTTP status code error
 

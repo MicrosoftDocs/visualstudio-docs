@@ -1,5 +1,7 @@
 ---
 title: Refresh a UWP app | Microsoft Docs
+description: Make changes to your code while you're debugging, and then refresh a Universal Windows Platform (UWP) app using JavaScript in Visual Studio.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 

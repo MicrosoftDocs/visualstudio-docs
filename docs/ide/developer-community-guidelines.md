@@ -15,7 +15,7 @@ The Developer Community tracks issues and feature suggestions for Visual Studio.
 
 ## Submitting problems and suggestions
 
-The [Visual Studio Developer Community](https://developercommunity.visualstudio.com/) tracks issues and feature suggestions for Visual Studio.
+The [Visual Studio Developer Community](https://aka.ms/feedback/suggest?space=8) tracks issues and feature suggestions for Visual Studio.
 
 ### Before submitting an issue
 
@@ -51,13 +51,15 @@ Even with issues that include rich details, we may be unable to reproduce the is
 
 Triaging an issue is a multi-step process that is collaboratively done within the feature team. Triaging usually takes one week but may take longer. The goal of triaging is providing you with a clear understanding of what will happen to your issue. For example, after triage you know if we plan to fix your issue or wait for more community feedback.
 
-After you report a problem, states indicate where your submissions are in their lifecycle. As Visual Studio product teams review your feedback, they set it with an appropriate state. Track the progress of your problem reports by referencing the [Problem states and FAQ](https://docs.microsoft.com/visualstudio/ide/report-a-problem).
+After you report a problem, states indicate where your submissions are in their lifecycle. As Visual Studio product teams review your feedback, they set it with an appropriate state. Track the progress of your problem reports by referencing the [Problem states and FAQ](./report-a-problem.md).
+
+### Prioritizing which issues to fix
+
+We can't fix all the issue reported. Some are too expensive to fix, some might regress other feature areas, and some may have too low an impact. We understand this may be disappointing if you've taken the time to send us an issue report. We've all been there, whether in this project or others we've contributed to. If an issue was closed and you feel the reason we gave isn't satisfying, then you can clarify your use-case and request the issue to be re-activated for another pass. At this point, we may ask you for further information.
+
+### Missing important information
 
 When an issue is missing important information, we assign the _Needs More Info_ state. We comment on the issue with the specific information we need, and you'll receive an email notification. If we don't receive the information within seven days, then we send you a reminder. After that, we close the ticket after 14 days of inactivity.
-
-### Won't fix bugs
-
-We close some bugs when there's a negative cost-benefit balance. For example, if the fix is so complex it risks regressions for many users, fixing may not be reasonable. When we close a bug like this, we'll explain why we do so.
 
 ### Other product
 
@@ -72,8 +74,8 @@ When that happens, we'll close the issue and ask you to open it with the other p
 
 #### Additional information
 
-- [How to increase the chances of a performance issue being fixed](https://docs.microsoft.com/visualstudio/ide/how-to-increase-chances-of-performance-issue-being-fixed)
-- [Troubleshoot and create logs for MSBuild problems](https://docs.microsoft.com/visualstudio/ide/msbuild-logs)
+- [How to increase the chances of a performance issue being fixed](./how-to-increase-chances-of-performance-issue-being-fixed.md)
+- [Troubleshoot and create logs for MSBuild problems](./msbuild-logs.md)
 
 ## Managing feature suggestions
 
@@ -83,14 +85,17 @@ If you suggested a feature, you might be disappointed that we don't plan to addr
 
 In our decision-making process, we look at the following characteristics about the feature suggestion:
 
+- Does it match our general product direction?
 - Can we afford to build and maintain it?
-- Does it align with our overall [roadmap](https://docs.microsoft.com/visualstudio/productinfo/vs-roadmap) strategy?
+- Does it align with our overall [roadmap](/visualstudio/productinfo/vs-roadmap) strategy?
 - Does it have community support, as indicated by votes and comments?
 - Do we love it, even with low community support?
 
 When we can't answer "yes" to any of these questions, we'll close it. But often the suggestion will stay open as _Under Review_ to gather more community feedback.
 
-Track the progress of your feature suggestion by referencing the [Suggestion states and FAQ](https://docs.microsoft.com/visualstudio/ide/report-a-problem).
+If a suggestion doesn’t match our overall product direction, we will close it as *Out of Scope*. For example, we may have similar investments in other members of the Visual Studio family of products. Or the feature suggested might only be relevant to a few people, making an extension better suited to provide it.
+
+Track the progress of your feature suggestion by referencing the [Suggestion states and FAQ](./report-a-problem.md).
 
 ## Discussion etiquette
 
@@ -102,8 +107,8 @@ Any violations to the discussion etiquette can lead to removal of the comment an
 
 ## Data privacy
 
-Comments and replies are publicly visible, but any attached files are privately shared with Microsoft only. This visibility is beneficial because it allows the entire community to see the issues and solutions found by other users. If you're concerned about the privacy of your data or identity, you have options. Read more about [Developer Community data privacy](https://docs.microsoft.com/visualstudio/ide/developer-community-privacy).
+Comments and replies are publicly visible, but any attached files are privately shared with Microsoft only. This visibility is beneficial because it allows the entire community to see the issues and solutions found by other users. If you're concerned about the privacy of your data or identity, you have options. Read more about [Developer Community data privacy](./developer-community-privacy.md).
 
 ## Next steps
 
-Head on over to the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/) to report problems, suggest features, or browse through the existing tickets. Enjoy!
+Head on over to the [Visual Studio Developer Community](https://aka.ms/feedback/suggest?space=8) to report problems, suggest features, or browse through the existing tickets. Enjoy!

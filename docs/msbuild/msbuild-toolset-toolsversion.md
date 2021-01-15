@@ -1,5 +1,7 @@
 ---
 title: MSBuild Toolset (ToolsVersion) | Microsoft Docs
+description: Learn how to use the ToolsVersion attribute in the MSBuild project file to specify a toolset of tasks, targets, and tools to build an application.
+ms.custom: SEO-VS-2020
 ms.date: 01/31/2018
 ms.topic: conceptual
 helpviewer_keywords:
@@ -39,7 +41,7 @@ MSBuild uses a Toolset of tasks, targets, and tools to build an application. Typ
 ::: moniker-end
 
 > [!NOTE]
-> Some project types use the `sdk` attribute instead of `ToolsVersion`. For more information, see [Packages, metadata, and frameworks](/dotnet/core/packages) and [Additions to the csproj format for .NET Core](/dotnet/core/tools/csproj).
+> Some project types use the `sdk` attribute instead of `ToolsVersion`. For more information, see [Additions to the csproj format for .NET Core](/dotnet/core/tools/csproj).
 
 ## How the ToolsVersion attribute works
 

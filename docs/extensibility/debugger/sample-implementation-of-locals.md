@@ -1,5 +1,7 @@
 ---
 title: Sample Implementation of Locals | Microsoft Docs
+description: Learn how Visual Studio gets the locals for a method from the expression evaluator in this article.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -58,7 +60,7 @@ ms.workload:
  [Evaluation context](../../extensibility/debugger/evaluation-context.md)
  Provides the arguments that are passed when the DE calls the expression evaluator (EE).
 
- [MyCEE sample](https://msdn.microsoft.com/library/624a018b-9179-402f-9d48-3aec87b48f4f)
+ [MyCEE sample](/previous-versions/)
  Demonstrates one implementation approach to creating an expression evaluator for the MyC language.
 
 ## See also

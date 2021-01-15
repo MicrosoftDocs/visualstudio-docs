@@ -1,5 +1,7 @@
 ---
 title: Preparing Extensions for Windows Installer Deployment | Microsoft Docs
+description: Learn how to prepare a project whose default output is a VSIX package for inclusion in a Setup project.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
@@ -49,5 +51,5 @@ You cannot use a Windows Installer package (MSI) to deploy a VSIX package. Howev
 5. Add the remaining files to your Setup project.
 
 ## See also
-- [Visual Studio installer deployment](https://msdn.microsoft.com/library/121be21b-b916-43e2-8f10-8b080516d2a0)
+- [Visual Studio installer deployment](/previous-versions/2kt85ked(v=vs.120))
 - [Walkthrough: Create a custom action](/previous-versions/visualstudio/visual-studio-2010/d9k65z2d(v=vs.100))

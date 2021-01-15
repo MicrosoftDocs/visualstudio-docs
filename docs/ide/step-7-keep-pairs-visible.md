@@ -1,5 +1,7 @@
 ---
 title: "Step 7: Keep pairs visible"
+description: Learn how to add an if statement so, when the player selects a matching pair of icons, the icons stay visible.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: tutorial
 ms.prod: visual-studio-windows
@@ -24,8 +26,8 @@ The game works well, as long as the player only chooses pairs of icons that don'
      [!code-csharp[VbExpressTutorial4Step7#9](../ide/codesnippet/CSharp/step-7-keep-pairs-visible_1.cs)]
      [!code-vb[VbExpressTutorial4Step7#9](../ide/codesnippet/VisualBasic/step-7-keep-pairs-visible_1.vb)]
 
-       > [!IMPORTANT]
-       > Use the programming language control at the top right of this page to view either the C# code snippet or the Visual Basic code snippet.<br><br>![Programming language control for Docs.Microsoft.com](../ide/media/docs-programming-language-control.png)
+     > [!IMPORTANT]
+     > Use the programming language control at the top right of this page to view either the C# code snippet or the Visual Basic code snippet.<br><br>![Programming language control for Docs.Microsoft.com](../ide/media/docs-programming-language-control.png)
 
      The first line of the `if` statement you just added checks whether the icon in the first label that the player chooses is the same as the icon in the second label. If the icons are identical, the program executes the three statements between the curly braces in C# or the three statements within the `if` statement in Visual Basic. The first two statements reset the `firstClicked` and `secondClicked` reference variables so that they no longer keep track of any of the labels. (You may recognize those two statements from the timer's <xref:System.Windows.Forms.Timer.Tick> event handler.) The third statement is a `return` statement, which tells the program to skip the rest of the statements in the method without executing them.
 

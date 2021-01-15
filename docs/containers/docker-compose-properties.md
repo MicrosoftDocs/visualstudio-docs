@@ -1,7 +1,8 @@
 ---
-title: Visual Studio Container Tools Docker Compose build settings
+title: Docker Compose build settings
 author: ghogen
-description: Overview of the Container Tools build process
+description: Learn how to edit the Docker Compose build properties to customize how Visual Studio builds and runs a Docker Compose application.
+ms.custom: SEO-VS-2020
 ms.author: ghogen
 ms.date: 08/12/2019
 ms.technology: vs-azure

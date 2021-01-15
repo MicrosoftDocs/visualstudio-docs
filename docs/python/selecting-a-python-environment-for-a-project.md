@@ -1,12 +1,12 @@
 ---
-title: Select a Python interpreter and environment for a project
+title: Select a Python environment for a project
 description: You can specifically select a Python environment, including Anaconda and virtual environments, to apply to a specific project.
 ms.date: 03/18/2019
 ms.topic: how-to
 author: JoshuaPartlow
 ms.author: joshuapa
 manager: jillfra
-ms.custom: seodec18
+ms.custom: "seodec18, SEO-VS-2020"
 ms.workload:
   - python
   - data-science
@@ -41,7 +41,7 @@ The context menu on the **Python Environments** node also provides additional co
 ::: moniker-end
 
 ::: moniker range=">=vs-2019"
-To change the environment for a project, right-click the **Python Environments** node and select **Add Environment**, or select **Add Environment** from the environment drop-down in the Python toolbar.
+To change the environment for a project, right-click the **Python Environments** node and select **Add Environment**. You can also select **Add Environment** from the environment drop-down in the Python toolbar.
 
 Once in the **Add Environment** dialog box, select the **Existing environment** tab, then select a new environment from the **Environment** drop down list:
 
@@ -81,7 +81,7 @@ You can create a new virtual environment directly in Visual Studio as follows:
 
 1. Select an environment as the base interpreter and select **Create**. Visual Studio displays a progress bar while it configures the environment and downloads any necessary packages. Upon completion, the virtual environment appears in the **Python Environments** window for the containing project.
 
-1. The virtual environment is not activated by default. To activate it for the project, right-click it and select **Activate Environment**.
+1. The virtual environment is not activated by default. To activate the virtual environment for the project, right-click it and select **Activate Environment**.
 
 > [!Note]
 > If the location path identifies an existing virtual environment, Visual Studio detects the base interpreter automatically (using the *orig-prefix.txt* file in the environment's *lib* directory) and changes the **Create** button to **Add**.

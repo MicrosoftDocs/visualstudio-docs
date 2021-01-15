@@ -1,5 +1,7 @@
 ---
 title: "Walkthrough: Call code from VBA in a Visual C# project"
+description: Learn how to call a method in a document-level customization for Microsoft Excel from Visual Basic for Applications (VBA) code in the workbook.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -155,7 +157,7 @@ ms.workload:
 
      [!code-csharp[Trin_CallingCSCustomizationFromVBA#2](../vsto/codesnippet/CSharp/CallingCodeFromVBA/Sheet1.cs#2)]
 
-3. Add the following method to the `Sheet1` class. This method overrides the <xref:Microsoft.Office.Tools.Excel.Worksheet.GetAutomationObject%2A> method to return the current instance of the `Sheet1` class.
+3. Add the following method to the `Sheet1` class. This method overrides the <xref:Microsoft.Office.Tools.Excel.WorksheetBase.GetAutomationObject%2A> method to return the current instance of the `Sheet1` class.
 
      [!code-csharp[Trin_CallingCSCustomizationFromVBA#3](../vsto/codesnippet/CSharp/CallingCodeFromVBA/Sheet1.cs#3)]
 

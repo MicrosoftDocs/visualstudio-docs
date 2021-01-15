@@ -1,5 +1,7 @@
 ---
-title: How to - Install Prerequisites with a ClickOnce Application | Microsoft Docs
+title: Install prerequisites with a ClickOnce app
+description: Learn how to select prerequisite components to be packaged along with your ClickOnce application when it is installed.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 

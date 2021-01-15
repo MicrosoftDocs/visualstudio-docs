@@ -1,6 +1,7 @@
 ---
-title: "Extending an existing ASP.NET Core web application"
+title: "Extend an existing ASP.NET Core web application"
 description: This document contains video tutorials showing how to extend the eShopOnWeb sample ASP.NET Core application.
+ms.custom: SEO-VS-2020
 author: sayedihashimi
 ms.author: sayedha
 ms.date: 10/18/2019

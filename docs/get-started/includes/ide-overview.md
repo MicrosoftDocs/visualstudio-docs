@@ -1,5 +1,5 @@
 ---
-ms.date: 03/19/2019
+ms.date: 09/22/2020
 ms.technology: vs-ide-general
 ms.custom: vs-get-started
 ms.author: tglee
@@ -33,7 +33,7 @@ This image shows Visual Studio with an open project and several key tool windows
 
 ::: moniker-end
 
-- [Team Explorer](/azure/devops/user-guide/work-team-explorer?view=vsts) (bottom right) lets you track work items and share code with others using version control technologies such as [Git](https://git-scm.com/) and [Team Foundation Version Control (TFVC)](/azure/devops/repos/tfvc/overview?view=vsts).
+- [Team Explorer](/azure/devops/user-guide/work-team-explorer) (bottom right) lets you track work items and share code with others using version control technologies such as [Git](https://git-scm.com/) and [Team Foundation Version Control (TFVC)](/azure/devops/repos/tfvc/overview).
 
 ## Editions
 
@@ -85,12 +85,9 @@ Some of the popular features in Visual Studio that help you to be more productiv
 
    ![Visual Studio Member List](../media/intellisense-list-members.png)
 
-- Search box
+- [Visual Studio search](../../ide/visual-studio-search.md)
 
-   Visual Studio can seem overwhelming at times with so many menus, options, and properties. The search box is a great way to rapidly find what you need in Visual Studio. When you start typing the name of something you're looking for, Visual Studio lists results that take you exactly where you need to go. If you need to add functionality to Visual Studio, for example to add support for an additional programming language, the search box provides results that open Visual Studio Installer to install a workload or individual component.
-
-   > [!TIP]
-   > Press **Ctrl**+**Q** as a shortcut to the search box.
+   Visual Studio can seem overwhelming at times with so many menus, options, and properties. Visual Studio search (**Ctrl**+**Q**) is a great way to rapidly find IDE features and code in one place.
 
    ::: moniker range="vs-2017"
 
@@ -103,6 +100,8 @@ Some of the popular features in Visual Studio that help you to be more productiv
    ::: moniker range="vs-2019"
 
    ![Search box in Visual Studio 2019](../media/vs-2019/quick-launch-nuget.png)
+
+    For information and productivity tips, see [How to use Visual Studio search](../../ide/visual-studio-search.md).
 
    ::: moniker-end
 
@@ -193,7 +192,7 @@ Let's dive in and create a simple program.
 
    Visual Studio builds the app, and a console window opens with the message **Hello World!**. You now have a running app!
 
-   ![Console window](../media/overview-console-window.png)
+   ![Screenshot of the cmd.exe console window showing the output 'Hello Word!' and 'Press any key to continue'.](../media/overview-console-window.png)
 
 1. To close the console window, press any key on your keyboard.
 
@@ -262,7 +261,7 @@ Let's dive in and create a simple program.
 
    Visual Studio builds the app, and a console window opens with the message **Hello World!**. You now have a running app!
 
-   ![Console window](../media/vs-2019/overview-console-window.png)
+   ![Screenshot of the Microsoft Visual Studio Debug Console window showing the output 'Hello Word!' and 'Press any key to close this window'.](../media/vs-2019/overview-console-window.png)
 
 1. To close the console window, press any key on your keyboard.
 
@@ -287,7 +286,7 @@ Let's dive in and create a simple program.
 
 1. Enter your name in the console window and press **Enter**.
 
-   ![Console window](../media/vs-2019/overview-console-input.png)
+   ![Screenshot of the Microsoft Visual Studio Debug Console window showing the prompt for a name, the input, and the output 'Hello Georgette!'.](../media/vs-2019/overview-console-input.png)
 
 1. Press any key to close the console window and stop the running program.
 
@@ -361,7 +360,7 @@ First, let's rename the `name` variable:
 
 10. Run the program again by pressing **Ctrl**+**F5**. The output looks something like this:
 
-    ![Console window with program output](../media/overview-console-final.png)
+    !Screenshot of the cmd.exe console window showing the prompt for a name, the input, and the output 'Hello Georgette! Day of year: 151'.](../media/overview-console-final.png)
 
 ::: moniker-end
 
@@ -369,7 +368,7 @@ First, let's rename the `name` variable:
 
 10. Run the program again by pressing **Ctrl**+**F5**. The output looks something like this:
 
-    ![Console window with program output](../media/vs-2019/overview-console-final.png)
+    ![Screenshot of the Microsoft Visual Studio Debug Console window showing the prompt for a name, the input, and the output 'Hello Georgette! Day of year: 43'.](../media/vs-2019/overview-console-final.png)
 
 ::: moniker-end
 

@@ -1,7 +1,9 @@
 ---
-title: 'Walkthrough: Using MSBuild | Microsoft Docs'
-ms.date: 03/20/2019
+title: Use MSBuild
+description: Learn the various parts of an MSBuild project file, including items, item metadata, properties, targets, and tasks.
+ms.date: 10/19/2020
 ms.topic: conceptual
+ms.custom: contperf-fy21q2
 helpviewer_keywords:
 - MSBuild, tutorial
 ms.assetid: b8a8b866-bb07-4abf-b9ec-0b40d281c310
@@ -22,6 +24,24 @@ MSBuild is the build platform for Microsoft and Visual Studio. This walkthrough 
 - How to use build items.
 
 You can run MSBuild from Visual Studio, or from the **Command Window**. In this walkthrough, you create an MSBuild project file using Visual Studio. You edit the project file in Visual Studio, and use the **Command Window** to build the project and examine the results.
+
+## Install MSBuild
+
+::: moniker range="vs-2017"
+
+If you have Visual Studio, then you already have MSBuild installed. To install MSBuild 15 on a system that doesn't have Visual Studio, go to [Visual Studio older downloads](https://visualstudio.microsoft.com/vs/older-downloads/), expand **Visual Studio 2017** and choose the **Download** button. If you have a Visual Studio subscription, sign in and find the link to download the latest version of **Build Tools for Visual Studio 2017**. If you don't have a Visual Studio subscription, you can still install the latest version of the build tools. On this page, use the version selector to switch to the 2019 version of the page and follow the installation instructions.
+::: moniker-end
+
+::: moniker range="vs-2019"
+If you have Visual Studio, then you already have MSBuild installed. With Visual Studio 2019, it's installed under the Visual Studio installation folder. For a typical default installation on Windows 10, MSBuild.exe is under the installation folder in *MSBuild\Current\Bin*.
+
+To install MSBuild on a system that doesn't have Visual Studio, go to [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/) and scroll down to **All Downloads**, then expand **Tools for Visual Studio 2019**. Install **Build Tools for Visual Studio 2019**, which includes MSBuild, or install the [.NET Core SDK](/dotnet/core/sdk#acquiring-the-net-core-sdk).
+
+In the installer, make sure MSBuild tools for the workloads you use are selected, and choose **Install**.
+
+![Installing MSBuild](media/walkthrough-using-msbuild/installation-msbuild-tools.png)
+
+::: moniker-end
 
 ## Create an MSBuild project
 
@@ -93,7 +113,7 @@ The default target is not defined in the project file. Instead, it is specified 
 
 Imported files are effectively inserted into the project file wherever they are referenced.
 
-In SDK-style projcts, you don't see this import element, since the SDK attribute causes this file to be imported implicitly.
+In SDK-style projects, you don't see this import element, since the SDK attribute causes this file to be imported implicitly.
 
 MSBuild keeps track of the targets of a build, and guarantees that each target is built no more than once.
 

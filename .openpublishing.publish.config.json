@@ -42,14 +42,15 @@
     },
     {
       "docset_name": "gamedev",
-      "build_source_folder": "visualstudio/gamedev",
+      "build_source_folder": "gamedev",
       "build_output_subfolder": "gamedev",
       "locale": "en-us",
       "monikers": [],
       "moniker_ranges": [],
-      "open_to_public_contributors": false,
+      "open_to_public_contributors": true,
       "type_mapping": {
-        "Conceptual": "Content"
+        "Conceptual": "Content",
+        "ZonePivotGroups": "Toc"
       },
       "build_entry_point": "docs",
       "template_folder": "_themes"
@@ -101,20 +102,6 @@
         "Conceptual": "Content",
         "ManagedReference": "Content",
         "RestApi": "Content"
-      },
-      "build_entry_point": "docs",
-      "template_folder": "_themes"
-    },
-    {
-      "docset_name": "vs-gamedev",
-      "build_source_folder": "visualstudio/gamedev",
-      "build_output_subfolder": "vs-gamedev",
-      "locale": "en-us",
-      "monikers": [],
-      "moniker_ranges": [],
-      "open_to_public_contributors": false,
-      "type_mapping": {
-        "Conceptual": "Content"
       },
       "build_entry_point": "docs",
       "template_folder": "_themes"

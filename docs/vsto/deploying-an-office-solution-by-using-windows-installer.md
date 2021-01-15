@@ -1,5 +1,7 @@
 ---
 title: "Deploy an Office solution by using Windows Installer"
+description: Learn that by using Visual Studio to create a Windows Installer, you can deploy an Office solution that requires administrative access on the end user's computer. 
+ms.custom: SEO-VS-2020
 ms.date: "08/14/2019"
 ms.topic: "conceptual"
 dev_langs:
@@ -498,7 +500,7 @@ To modify custom properties, you create a program that removes the document-leve
 
 ## See also
 
-- [Office solution prerequisites for deployment](https://msdn.microsoft.com/library/9f672809-43a3-40a1-9057-397ce3b5126e)
+- [Office solution prerequisites for deployment](/previous-versions/bb608617(v=vs.110))
 - [Deploy an Office solution](../vsto/deploying-an-office-solution.md)
 - [Registry entries for VSTO Add-ins](../vsto/registry-entries-for-vsto-add-ins.md)
 - [Custom document properties overview](../vsto/custom-document-properties-overview.md)

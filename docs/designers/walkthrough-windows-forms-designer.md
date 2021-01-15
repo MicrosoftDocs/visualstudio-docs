@@ -1,5 +1,7 @@
 ---
 title: Windows Forms Designer tutorial
+description: Learn how to build an app using the various tools provided by Windows Forms Designer. The app is a custom control that uses many available layout features.
+ms.custom: SEO-VS-2020
 ms.date: 08/09/2019
 ms.topic: tutorial
 helpviewer_keywords:
@@ -37,7 +39,7 @@ The first step is to create the DemoCalculator control project.
 
    ::: moniker-end
 
-2. To rename the file, in **Solution Explorer**, right-select **UserControl1.vb** or **UserControl1.cs**, select **Rename**, and change the file name to DemoCalculator.vb or DemoCalculator.cs. Select **Yes** when you are asked if you want to rename all references to the code element "UserControl1".
+2. To rename the file, in **Solution Explorer**, right-click **UserControl1.vb** or **UserControl1.cs**, select **Rename**, and change the file name to DemoCalculator.vb or DemoCalculator.cs. Select **Yes** when you are asked if you want to rename all references to the code element "UserControl1".
 
 The Windows Forms Designer shows the designer surface for the DemoCalculator control. In this view, you can graphically design the appearance of the control by selecting controls and components from Toolbox and placing them on the designer surface. For more information about custom controls, see [Varieties of custom controls](/dotnet/framework/winforms/controls/varieties-of-custom-controls).
 
@@ -65,7 +67,7 @@ The DemoCalculator control contains several Windows Forms controls. In this proc
     > [!NOTE]
     > Several controls offer smart tags to facilitate design. For more information, see [Walkthrough: Perform common tasks using Smart Tags on Windows Forms controls](/dotnet/framework/winforms/controls/performing-common-tasks-using-smart-tags-on-wf-controls).
 
-5. Select the vertical border between the panels and drag it to the right, so that most of the space in taken by the left panel.
+5. Select the vertical border between the panels and drag it to the right, so that most of the space is taken by the left panel.
 
     The `SplitContainer` divides the DemoCalculator control into two panels with a movable border separating them. The panel on the left will hold the calculator buttons and display, and the panel on the right will show a record of the arithmetic operations performed by the user.
 
@@ -105,7 +107,7 @@ The DemoCalculator control contains several Windows Forms controls. In this proc
 
 Now that the layout of the control is set up, you can populate the DemoCalculator control with buttons and a display.
 
-1. In **Toolbox**, double-click the `TextBox` control icon.
+1. In **Toolbox**, select the `TextBox` control icon.
 
    A `TextBox` control is placed in the first cell of the `TableLayoutPanel` control.
 
@@ -123,11 +125,11 @@ Now that the layout of the control is set up, you can populate the DemoCalculato
 
 6. Select the `TableLayoutPanel` control.
 
-7. In **Toolbox**, double-click the `Button` icon.
+7. In **Toolbox**, select the `Button` icon.
 
    A `Button` control is placed in the next open cell of the `TableLayoutPanel` control.
 
-8. In **Toolbox**, double-click the `Button` icon four more times to populate the second row of the `TableLayoutPanel` control.
+8. In **Toolbox**, select the `Button` icon four more times to populate the second row of the `TableLayoutPanel` control.
 
 9. Select all five `Button` controls by selecting them while holding down the **Shift** key. Press **Ctrl**+**C** to copy the `Button` controls to the clipboard.
 
@@ -155,7 +157,7 @@ When your control or form is populated with several controls, you may find it ea
 
    The Document Outline window shows a tree view of the DemoCalculator control and its constituent controls. Container controls like the `SplitContainer` show their child controls as subnodes in the tree. You can also rename controls in place using the Document Outline window.
 
-2. In the **Document Outline** window, right-select **button1**, and then select **Rename**. Change its name to sevenButton.
+2. In the **Document Outline** window, right-click **button1**, and then select **Rename**. Change its name to sevenButton.
 
 3. Using the **Document Outline** window, rename the `Button` controls from the designer-generated name to the production name according to the following list:
 
@@ -241,11 +243,11 @@ This completes the design of the DemoCalculator control. All that remains is to 
 
 ## Implement event handlers
 
-The buttons on the DemoCalculator control have event handlers that can be used to implement much of the calculator logic. The Windows Forms Designer enables you to implement the stubs of all the event handlers for all the buttons with one double-click.
+The buttons on the DemoCalculator control have event handlers that can be used to implement much of the calculator logic. The Windows Forms Designer enables you to implement the stubs of all the event handlers for all the buttons with one selection.
 
 1. On the designer surface, select all the `Button` controls by selecting them while holding down the **Shift** key.
 
-2. Double-click one of the `Button` controls.
+2. Select one of the `Button` controls.
 
    The Code Editor opens to the event handlers generated by the designer.
 
@@ -271,7 +273,7 @@ The first step is to create the application project. You'll use this project to 
 
 2. In **Solution Explorer**, right-click the **DemoCalculatorTest** project, and then select **Add Reference** to open the **Add Reference** dialog box.
 
-3. Select the **Projects** tab, and then double-click the DemoCalculatorLib project to add the reference to the test project.
+3. Go to the **Projects** tab, and then select the DemoCalculatorLib project to add the reference to the test project.
 
 4. In **Solution Explorer**, right-click **DemoCalculatorTest**, and then select **Set as StartUp Project**.
 
@@ -291,7 +293,7 @@ To use the DemoCalculator control in an application, you need to place it on a f
 
 4. Move the `Button` control around the DemoCalculator control and observe where the snaplines appear. You can align your controls precisely and easily using this feature. Delete the `Button` control when you're finished.
 
-5. Right-select the DemoCalculator control, and then select **Properties**.
+5. Right-click the DemoCalculator control, and then select **Properties**.
 
 6. Change the value of the `Dock` property to `Fill`.
 

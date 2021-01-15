@@ -1,5 +1,7 @@
 ---
 title: The DslDefinition.dsl File
+description: Learn about the structure of the DslDefinition.dsl file in the Dsl project of a DSL Tools solution, which defines a domain-specific language.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
@@ -573,6 +575,6 @@ Connector maps can also contain decorator maps.
 
 ## See also
 
-- [Domain-Specific Language Tools Glossary](https://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)
+- [Domain-Specific Language Tools Glossary](/previous-versions/bb126564(v=vs.100))
 - [How to Define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md)
 - [Understanding Models, Classes and Relationships](../modeling/understanding-models-classes-and-relationships.md)

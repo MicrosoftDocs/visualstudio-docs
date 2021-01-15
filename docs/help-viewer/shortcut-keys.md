@@ -1,5 +1,6 @@
 ---
 title: Shortcut keys (Help Viewer)
+description: See the list of shortcut keys in Microsoft Help Viewer. Use shortcut keys for navigation, window management, and content management.
 ms.date: 11/02/2017
 ms.topic: reference
 helpviewer_keywords:

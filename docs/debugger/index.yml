@@ -27,7 +27,7 @@ landingContent:
             url: what-is-debugging.md
           - text: First look at the debugger
             url: debugger-feature-tour.md
-          - text: Find your debugging task
+          - text: FAQ - Find your debugging feature
             url: find-your-debugging-task.md
 
   # Card (optional)
@@ -38,11 +38,11 @@ landingContent:
           - text: Debugging for absolute beginners
             url: debugging-absolute-beginners.md
           - text: Learn to debug C#
-            url: /visualstudio/get-started/csharp/tutorial-debugger?toc=/visualstudio/debugger/toc.json
+            url: ../get-started/csharp/tutorial-debugger.md?toc=%252fvisualstudio%252fdebugger%252ftoc.json
           - text: Learn to debug C++
             url: getting-started-with-the-debugger-cpp.md
           - text: Learn to debug Visual Basic
-            url: /visualstudio/get-started/visual-basic/tutorial-debugger?toc=/visualstudio/debugger/toc.json
+            url: ../get-started/visual-basic/tutorial-debugger.md?toc=%252fvisualstudio%252fdebugger%252ftoc.json
           - text: Run Python code in the debugger >>
             url: ../python/tutorial-working-with-python-in-visual-studio-step-04-debugging.md
 
@@ -78,7 +78,7 @@ landingContent:
           - text: Debugger tips and tricks
             url: debugger-tips-and-tricks.md
           - text: Write and debug running XAML code
-            url: xaml-hot-reload.md
+            url: ../xaml-tools/xaml-hot-reload.md
           - text: Debug a live Azure app
             url: debug-live-azure-applications.md
           - text: Tell the debugger what to show

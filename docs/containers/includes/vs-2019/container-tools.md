@@ -37,27 +37,27 @@ For Docker installation, first review the information at [Docker Desktop for Win
 
 A *Dockerfile*, the recipe for creating a final Docker image, is created in the project. Refer to [Dockerfile reference](https://docs.docker.com/engine/reference/builder/) for an understanding of the commands within it.:
 
-```
-FROM microsoft/dotnet:2.2-aspnetcore-runtime-stretch-slim AS base
+```dockerfile
+FROM mcr.microsoft.com/dotnet/core/aspnet:3.1-nanoserver-1903 AS base
 WORKDIR /app
 EXPOSE 80
 EXPOSE 443
 
-FROM microsoft/dotnet:2.2-sdk-stretch AS build
+FROM mcr.microsoft.com/dotnet/core/sdk:3.1-nanoserver-1903 AS build
 WORKDIR /src
-COPY ["HelloDockerTools/HelloDockerTools.csproj", "HelloDockerTools/"]
-RUN dotnet restore "HelloDockerTools/HelloDockerTools.csproj"
+COPY ["WebApplication1/WebApplication1.csproj", "WebApplication1/"]
+RUN dotnet restore "WebApplication1/WebApplication1.csproj"
 COPY . .
-WORKDIR "/src/HelloDockerTools"
-RUN dotnet build "HelloDockerTools.csproj" -c Release -o /app
+WORKDIR "/src/WebApplication1"
+RUN dotnet build "WebApplication1.csproj" -c Release -o /app/build
 
 FROM build AS publish
-RUN dotnet publish "HelloDockerTools.csproj" -c Release -o /app
+RUN dotnet publish "WebApplication1.csproj" -c Release -o /app/publish
 
 FROM base AS final
 WORKDIR /app
-COPY --from=publish /app .
-ENTRYPOINT ["dotnet", "HelloDockerTools.dll"]
+COPY --from=publish /app/publish .
+ENTRYPOINT ["dotnet", "WebApplication1.dll"]
 ```
 
 The preceding *Dockerfile* is based on the [microsoft/aspnetcore](https://hub.docker.com/r/microsoft/aspnetcore/) image, and includes instructions for modifying the base image by building your project and adding it to the container. If you're using the .NET Framework, the base image will be different.
@@ -93,8 +93,14 @@ Once the develop and debug cycle of the app is completed, you can create a produ
 
 1. Change the configuration drop-down to **Release** and build the app.
 1. Right-click your project in **Solution Explorer** and choose **Publish**.
-1. On the publish target dialog, select the **Container Registry** tab.
-1. Choose **Create New Azure Container Registry** and click **Publish**.
+1. On the **Publish** dialog, select the **Docker Container Registry** tab.
+
+   ![Screenshot of Publish dialog - choose Docker Container Registry](../../media/container-tools/vs-2019/docker-container-registry.png)
+
+1. Choose **Create New Azure Container Registry**.
+
+   ![Screenshot of Publish dialog - choose Create a new Azure Container Registry](../../media/container-tools/vs-2019/select-existing-or-create-new-azure-container-registry.png)
+
 1. Fill in your desired values in the **Create a new Azure Container Registry**.
 
     | Setting      | Suggested value  | Description                                |
@@ -107,9 +113,13 @@ Once the develop and debug cycle of the app is completed, you can create a produ
 
     ![Visual Studio's create Azure Container Registry dialog][0]
 
-1. Click **Create**
+1. Click **Create**. The **Publish** dialog now shows the created registry.
 
-   ![Screenshot showing successful publish](../../media/container-tools/publish-succeeded.png)
+   ![Screenshot of Publish dialog showing Azure Container Registry created](../../media/container-tools/vs-2019/created-azure-container-registry.png)
+
+1. Choose **Finish** to complete the process of publishing your container image to the newly created registry in Azure.
+
+   ![Screenshot showing successful publish](../../media/container-tools/vs-2019/publish-succeeded.png)
 
 ## Next Steps
 

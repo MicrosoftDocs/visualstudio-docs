@@ -1,5 +1,7 @@
 ---
 title: Bind Windows Forms controls to data
+description: Bind Windows Forms controls to data in Visual Studio so that you can display data to users of your application.
+ms.custom: SEO-VS-2020
 ms.date: 11/03/2017
 ms.topic: how-to
 helpviewer_keywords:
@@ -47,7 +49,7 @@ The [BindingNavigator control](/dotnet/framework/winforms/controls/bindingnaviga
 
 ## Bind to data in a DataGridView control
 
-For a [DataGridView control](/dotnet/framework/winforms/controls/datagridview-control-overview-windows-forms), the entire table is bound to that single control. When you drag a **DataGridView** to the form, a tool strip for navigating records (<xref:System.Windows.Forms.BindingNavigator>) also appears. A [DataSet](../data-tools/dataset-tools-in-visual-studio.md), [TableAdapter](../data-tools/create-and-configure-tableadapters.md), <xref:System.Windows.Forms.BindingSource>, and <xref:System.Windows.Forms.BindingNavigator> appear in the component tray. In the following illustration, a [TableAdapterManager](https://msdn.microsoft.com/library/bb384426.aspx) is also added because the Customers table has a relation to the Orders table. These variables are all declared in the auto-generated code as private members in the form class. The auto-generated code for filling the **DataGridView** is located in the `Form_Load` event handler. The code for saving the data to update the database is located in the `Save` event handler for the **BindingNavigator**. You can move or modify this code as needed.
+For a [DataGridView control](/dotnet/framework/winforms/controls/datagridview-control-overview-windows-forms), the entire table is bound to that single control. When you drag a **DataGridView** to the form, a tool strip for navigating records (<xref:System.Windows.Forms.BindingNavigator>) also appears. A [DataSet](../data-tools/dataset-tools-in-visual-studio.md), [TableAdapter](../data-tools/create-and-configure-tableadapters.md), <xref:System.Windows.Forms.BindingSource>, and <xref:System.Windows.Forms.BindingNavigator> appear in the component tray. In the following illustration, a [TableAdapterManager](/previous-versions/bb384426(v=vs.140)) is also added because the Customers table has a relation to the Orders table. These variables are all declared in the auto-generated code as private members in the form class. The auto-generated code for filling the **DataGridView** is located in the `Form_Load` event handler. The code for saving the data to update the database is located in the `Save` event handler for the **BindingNavigator**. You can move or modify this code as needed.
 
 ![GridView with BindingNavigator](../data-tools/media/raddata-gridview-with-bindingnavigator.png)
 

@@ -1,5 +1,7 @@
 ---
 title: 'Walkthrough: Build an application'
+description: Become more familiar with several options that you can configure when you build applications with Visual Studio.
+ms.custom: SEO-VS-2020
 ms.date: 09/25/2017
 ms.technology: vs-ide-compile
 ms.topic: conceptual

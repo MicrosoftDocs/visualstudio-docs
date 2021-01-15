@@ -1,7 +1,9 @@
 ---
 title: "Log info with tracepoints | Microsoft Docs"
+description: Set tracepoints to log info to Output without modifying or stopping your code. Just specify an output string under the Action checkbox in Breakpoint Settings.
+ms.custom: SEO-VS-2020
 ms.date: "10/28/2019"
-ms.topic: "conceptual"
+ms.topic: "how-to"
 helpviewer_keywords:
   - "tracepoints, about tracepoints"
 author: "Sagar-S-S"

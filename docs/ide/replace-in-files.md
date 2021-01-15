@@ -1,5 +1,7 @@
 ---
 title: Find and replace in files
+description: Learn about the Replace in Files feature and how it allows you to search the code of a specified set of files for a string or expression, and change some or all of the matches found.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 f1_keywords:

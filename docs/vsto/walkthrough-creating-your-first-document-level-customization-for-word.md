@@ -1,5 +1,7 @@
 ---
 title: "Create your first document-level customization for Word"
+description: Create a document-level customization for Microsoft Word. The features that you create in this kind of solution are available only when a specific document is open.
+titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

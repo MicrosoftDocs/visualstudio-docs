@@ -101,7 +101,7 @@ Because you selected the **Create new Git repository** in the **New Project** di
 
 Answer: First of all, using source control from the start, especially if you also use a remote repository, provides a regular offsite backup of your project. Unlike maintaining a project just on a local file system, source control also provides a complete change history and the easy ability to revert a single file or the whole project to a previous state. That change history helps determine the cause of regressions (test failures). Furthermore, source control is essential if multiple people are working on a project, as it manages overwrites and provides conflict resolution. Finally, source control, which is fundamentally a form of automation, sets you up well for automating builds, testing, and release management. It's really the first step in using DevOps for a project, and because the barriers to entry are so low, there's really no reason to not use source control from the beginning.
 
-For further discussion on source control as automation, see [The Source of Truth: The Role of Repositories in DevOps](https://msdn.microsoft.com/magazine/mt763232), an article in MSDN Magazine written for mobile apps that applies also to web apps.
+For further discussion on source control as automation, see [The Source of Truth: The Role of Repositories in DevOps](/archive/msdn-magazine/2016/september/mobile-devops-the-source-of-truth-the-role-of-repositories-in-devops), an article in MSDN Magazine written for mobile apps that applies also to web apps.
 
 ### Question: Can I prevent Visual Studio from auto-committing a new project?
 

@@ -1,5 +1,7 @@
 ---
 title: "FAQ for snapshot debugging | Microsoft Docs"
+description: Review a list of frequently asked questions (FAQ) that might come up when debugging live Azure applications using the Snapshot Debugger in Visual Studio.
+ms.custom: SEO-VS-2020
 ms.date: "11/07/2017"
 ms.topic: "reference"
 helpviewer_keywords:
@@ -97,7 +99,7 @@ For virtual machine/virtual machine scale sets remove the Remote Debugger extens
 
 2. Remove Certificates and Azure KeyVault
 
-   When installing the Remote Debugger extension for virtual machine or virtual machine scale sets, both client and server certificates are created to authenticate the VS client with the Azure Virtual Machine/virtual machine scale sets resources.
+   When installing the Remote Debugger extension for virtual machine or virtual machine scale sets, both client and server certificates are created to authenticate the Visual Studio client with the Azure Virtual Machine/virtual machine scale sets resources.
 
    - The Client Cert
 
@@ -118,7 +120,7 @@ For virtual machine/virtual machine scale sets remove the Remote Debugger extens
       ```
 
    - The Server Certificate
-      - The corresponding server certificate thumbprint is deployed as a secret to Azure KeyVault. VS will attempt to find or create a KeyVault with prefix MSVSAZ* in the region corresponding to the virtual machine or virtual machine scale sets resource. All virtual machine or virtual machine scale sets resources deployed to that region therefore will share the same KeyVault.
+      - The corresponding server certificate thumbprint is deployed as a secret to Azure KeyVault. Visual Studio will attempt to find or create a KeyVault with prefix MSVSAZ* in the region corresponding to the virtual machine or virtual machine scale sets resource. All virtual machine or virtual machine scale sets resources deployed to that region therefore will share the same KeyVault.
       - To delete the server certificate thumbprint secret, go to the Azure portal and find the MSVSAZ* KeyVault in the same region that's hosting your resource. Delete the secret which should be labeled `remotedebugcert<<ResourceName>>`
       - You will also need to delete the server secret from your resource via PowerShell.
 

@@ -1,5 +1,7 @@
 ---
 title: AssignProjectConfiguration Task | Microsoft Docs
+description: Use the MSBuild AssignProjectConfiguration task to accept a list of configuration strings and assign them to specified projects.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 dev_langs:
@@ -24,6 +26,7 @@ This task accepts a list configuration strings and assigns them to specified pro
 
 |Parameter|Description|
 |---------------|-----------------|
+|`ProjectReferences`|Required <xref:Microsoft.Build.Framework.ITaskItem>`[]` input parameter.<br /><br /> The projects to configure.|
 |`SolutionConfigurationContents`|Optional `string` output parameter.<br /><br /> Contains an XML string containing a project configuration for each project. The configurations are assigned to the named projects.|
 |`DefaultToVcxPlatformMapping`|Optional `string` output parameter.<br /><br /> Contains a semicolon-delimited list of mappings from the platform names used by most types to those used by *.vcxproj* files.<br /><br /> For example:<br /><br /> `"AnyCPU=Win32;X86=Win32;X64=X64"`|
 |`VcxToDefaultPlatformMapping`|Optional<br /><br /> `string` output parameter.<br /><br /> Contains a semicolon-delimited list of mappings from *.vcxproj* platform names to the platform names use by most types.<br /><br /> For example:<br /><br /> `"Win32=AnyCPU;X64=X64"`|

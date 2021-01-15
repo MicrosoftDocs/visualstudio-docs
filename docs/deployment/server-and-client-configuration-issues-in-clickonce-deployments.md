@@ -1,5 +1,7 @@
 ---
-title: "Server/client configuration issues in ClickOnce deployments"
+title: "Server/client configuration issues (ClickOnce)"
+description: Learn about server and client configuration issues that can affect the deployment of your ClickOnce application.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:
@@ -110,7 +112,7 @@ If you use Internet Information Services (IIS) on Windows Server, and your deplo
 
 - For the *.application* and *.manifest* extensions, the MIME type should be "application/x-ms-application." For other file types, the MIME type should be "application/octet-stream."
 
-- If you create a MIME type with extension "<em>" and the MIME type "application/octet-stream," it will allow files of unblocked file type to be downloaded. (However, blocked file types such as *.aspx</em> and *.asmx* cannot be downloaded.)
+- If you create a MIME type with extension "\<em>" and the MIME type "application/octet-stream," it will allow files of unblocked file type to be downloaded. (However, blocked file types such as *\*.aspx* and *\*.asmx* cannot be downloaded.)
 
   For specific instructions on configuring MIME types on Windows Server, see [How to add a MIME type to a Web site or application](/iis/configuration/system.webserver/staticcontent/mimemap#how-to-add-a-mime-type-to-a-web-site-or-application).
 

@@ -1,5 +1,7 @@
 ---
 title: Simplify conditional expression
+description: Learn how to use the Quick Actions and Refactorings menu to simplify a conditional expression.
+ms.custom: SEO-VS-2020
 ms.date: 06/08/2020
 ms.topic: reference
 author: mikadumont
@@ -16,7 +18,7 @@ This refactoring applies to:
 
 - C#
 
-**What:** Lets you simplify a [conditional expression](https://docs.microsoft.com/dotnet/csharp/language-reference/operators/conditional-operator).
+**What:** Lets you simplify a [conditional expression](/dotnet/csharp/language-reference/operators/conditional-operator).
 
 **When:** You want to remove unnecessary code to provide more clarity.
 

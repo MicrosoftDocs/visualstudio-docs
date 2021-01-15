@@ -1,5 +1,7 @@
 ---
 title: Syntax Coloring in Custom Editors | Microsoft Docs
+description: Learn about syntax coloring in Visual Studio Environment SDK custom editors, which displays specified colors for a given document view.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -46,7 +48,7 @@ Visual Studio Environment SDK editors, including the core editor, use language s
 3. Use the colorization information returned by <xref:Microsoft.VisualStudio.TextManager.Interop.IVsColorizer.ColorizeLine%2A> to repaint and display its text.
 
 > [!NOTE]
-> In addition to using a language service's colorizer, a VSPackage can choose to use the general-purpose Visual Studio Environment SDK text-coloring mechanism. For more information on this mechanism, see [Using Fonts and Colors](/visualstudio/extensibility/using-fonts-and-colors?view=vs-2015).
+> In addition to using a language service's colorizer, a VSPackage can choose to use the general-purpose Visual Studio Environment SDK text-coloring mechanism. For more information on this mechanism, see [Using Fonts and Colors](/previous-versions/visualstudio/visual-studio-2015/extensibility/using-fonts-and-colors?preserve-view=true&view=vs-2015).
 
 ## See also
 

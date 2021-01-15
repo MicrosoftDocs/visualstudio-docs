@@ -1,10 +1,10 @@
 ---
-title: LinkedIn Learning Benefit in Visual Studio Subscriptions | Microsoft Docs
+title: LinkedIn Learning benefit in Visual Studio subscriptions | Microsoft Docs
 author: evanwindom
 ms.author: v-evwin
-manager: lank
+manager: cabuschl
 ms.assetid: 5bba2205-d32f-413d-9b58-724a24993842
-ms.date: 04/17/2020
+ms.date: 12/02/2020
 ms.topic: how-to
 description:  Learn about the LinkedIn Learning benefit included as part of a LinkedIn Premium subscription included in selected Visual Studio subscriptions.
 ---
@@ -22,7 +22,7 @@ To activate your LinkedIn Premium subscription and LinkedIn Learning benefit:
 
 2. Locate the LinkedIn Learning tile in the Education category, and click the **Get code** link.
    > [!div class="mx-imgBorder"]
-   > ![LinkedIn Learning Benefit Tile](_img/vs-linkedin/vs-linkedin-6-month-tile.png)
+   > ![LinkedIn Learning Benefit Tile](_img/vs-linkedin/vs-linkedin-6-month-tile.png "Click 'Get code' to claim your code and get started.")
 
 3. If you already have a LinkedIn account and you’re signed in automatically, you’ll immediately be taken to the LinkedIn Learning benefit activation page.  If you have a LinkedIn account but you’re not automatically signed in, simply enter your username and password, and then click **Sign in**.  Please skip to [this step](#activate-your-offer) to activate your offer.
 
@@ -52,29 +52,29 @@ To activate your LinkedIn Premium subscription and LinkedIn Learning benefit:
 ### Activate your offer
 15. Now that you’ve either signed in to your LinkedIn account or created a new one, you’re ready to activate your Premium subscription and begin enjoying LinkedIn Learning.  Click **Activate your offer**.
    > [!div class="mx-imgBorder"]
-   > ![LinkedIn Learning Activate](_img/vs-linkedin/vs-linkedin-Activate1.png)
+   > ![LinkedIn Learning Activate](_img/vs-linkedin/vs-linkedin-Activate1.png "Click 'Activate your offer' to begin learning.")
 
 16. You can begin exploring skills that interest you.  Choose from the list of recommendations, search for other skills, or click **Skip** to continue without choosing skills.
    > [!div class="mx-imgBorder"]
-   > ![LinkedIn Learning Skills](_img/vs-linkedin/vs-linkedin-skills.png)
+   > ![LinkedIn Learning Skills](_img/vs-linkedin/vs-linkedin-skills.png "Choose the skills you want to explore.")
 
 17. You’ve successfully activated your Premium subscription offer and can now begin using LinkedIn Learning and all the other benefits of Premium!
    > [!div class="mx-imgBorder"]
-   > ![LinkedIn Learning Home](_img/vs-linkedin/vs-linkedin-learning-home.png)
+   > ![LinkedIn Learning Home](_img/vs-linkedin/vs-linkedin-learning-home.png "Welcome to LinkedIn Premium with LinkedIn Learning!")
 
 ## Eligibility
 
 | Subscription Level                                                 |     Channels                                            | Benefit                                                          | Renewable?    |
 |--------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------|---------------|
-| Visual Studio Enterprise (Standard)   | VL, Azure, Retail,  selected NFR<sup>1</sup> | 6 months       |  No.  Available to new subscribers only          |
-| Visual Studio Enterprise with GitHub Enterprise   | VL | 6 months       |  No.  Available to new subscribers only          |
+| Visual Studio Enterprise (Standard)   | VL, Azure, Retail<sup>1</sup> | 6 months       |  No.  Available to new subscribers only          |
+| Visual Studio Enterprise subscription with GitHub Enterprise   | VL | 6 months       |  No.  Available to new subscribers only          |
 | Visual Studio Professional (Standard) | VL, Azure, Retail                                       | 3 months                                                            |No.  Available to new subscribers only         |
-| Visual Studio Professional with GitHub Enterprise | VL | 3 months      | No.  Available to new subscribers only         |
+| Visual Studio Professional subscription with GitHub Enterprise | VL | 3 months      | No.  Available to new subscribers only         |
 | Visual Studio Test Professional (Standard)                         | VL, Retail                                              | Not available                                            |  NA         |
 | MSDN Platforms (Standard)                                          | VL, Retail                                              | Not available                                              | NA         |
 | Visual Studio Enterprise, Visual Studio Professional (monthly cloud) | Azure                                       | Not available                                                           |NA|
 
-<sup>1</sup>  *Includes:  Not for Resale (NFR), Visual Studio Industry Partner (VSIP).  Excludes:  Microsoft Partner Network (MPN), FTE, MCT Software & Services Developer, BizSpark, Imagine, Most Valuable Professional (MVP), Regional Director (RD).  MCT Software & Services.*
+<sup>1</sup>  *Excludes:  NFR, Visual Studio Industry Partner, Microsoft Partner Network (MPN), FTE, MCT Software & Services Developer, BizSpark, Imagine, Most Valuable Professional (MVP), Regional Director (RD).  MCT Software & Services.*
 
 > [!NOTE]
 > Microsoft no longer offers Visual Studio Professional Annual subscriptions and Visual Studio Enterprise Annual subscriptions in Cloud Subscriptions. There will be no change to existing customers experience and ability to renew, increase, decrease, or cancel their subscriptions. New customers are encouraged to go to [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/) to explore different options to purchase Visual Studio.
@@ -93,10 +93,10 @@ A:  No, the LinkedIn Learning offer is available to new subscribers only.
 - Have a question about Visual Studio IDE, Azure DevOps Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).
 
 ## See also
-- [Visual Studio documentation](https://docs.microsoft.com/visualstudio/)
-- [Azure DevOps documentation](https://docs.microsoft.com/azure/devops/)
-- [Azure documentation](https://docs.microsoft.com/azure/)
-- [Microsoft 365 documentation](https://docs.microsoft.com/microsoft-365/)
+- [Visual Studio documentation](/visualstudio/)
+- [Azure DevOps documentation](/azure/devops/)
+- [Azure documentation](/azure/)
+- [Microsoft 365 documentation](/microsoft-365/)
 
 ## Next steps
 Check out the rest of the great benefits included with your subscription. Visit [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs).

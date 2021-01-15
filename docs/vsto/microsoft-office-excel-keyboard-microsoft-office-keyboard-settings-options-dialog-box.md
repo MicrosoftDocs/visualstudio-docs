@@ -1,5 +1,8 @@
 ---
-title: "Office Excel Keyboard, Keyboard Settings, Options dialog box"
+title: "Office Excel Keyboard, Settings, Options dialog box"
+description: Learn how you can make Microsoft Excel receive shortcut key commands when the document has focus by selecting Dynamic keyboard scheme.
+ms.custom: SEO-VS-2020
+titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 f1_keywords:
@@ -17,7 +20,7 @@ manager: jillfra
 ms.workload:
   - "office"
 ---
-# Microsoft Office Excel Keyboard, Microsoft Office Keyboard Settings, Options dialog box
+# Microsoft Office Excel Keyboard, Settings, Options dialog box
   Microsoft Office Excel and Visual Studio both handle shortcut keys. The same shortcut key combination can stand for different commands in Excel and in Visual Studio. When Excel is open in a document-level project in Visual Studio, only one application at a time receives the shortcut key commands. By default, Visual Studio receives all shortcut key commands, but you can make Excel receive them when the document has focus by selecting **Dynamic keyboard scheme**.
 
  If you use a shortcut key that is not assigned to a command in the application that is currently handling the shortcut keys, the shortcut key is passed on to the other application.

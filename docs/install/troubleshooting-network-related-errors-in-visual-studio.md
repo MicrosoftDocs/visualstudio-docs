@@ -86,6 +86,22 @@ This error generally occurs when users are connected to the internet through a p
 
 ::: moniker-end
 
+## Error: “Disconnected from Visual Studio” when attempting to report a problem
+
+This error generally occurs when a user is connected to the internet through a proxy server, and the proxy server blocks the calls that Visual Studio makes to some network resources.
+
+### To fix this proxy error
+
+1. Find **feedback.exe.config** (the feedback.exe configuration file) in: **%ProgramFiles(x86)%\Microsoft Visual Studio\Installer** or **%ProgramFiles%\Microsoft Visual Studio\Installer**.
+
+2. In the configuration file, check whether the following code is present; if the code isn't present, add it before the last `</configuration>` line.
+
+   ```xml
+   <system.net>
+       <defaultProxy useDefaultCredentials="true" />
+   </system.net>
+   ```
+
 ## Error: “The underlying connection was closed”
 
 If you are using Visual Studio in a private network that has a firewall, Visual Studio might not be able to connect to some network resources. These resources can include Azure DevOps Services for sign-in and licensing, NuGet, and Azure services. If Visual Studio fails to connect to one of these resources, you might see the following error message:

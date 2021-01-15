@@ -12,7 +12,7 @@ ms.technology: vs-azure
 ---
 # Debug apps in a local Docker container
 
-Visual Studio provides a consistent way to develop Docker containers and validate your application locally. 
+Visual Studio provides a consistent way to develop Docker containers and validate your application locally.
 You can run and debug your apps in Linux or Windows containers running on your local Windows desktop with Docker installed, and you don't have to restart the container each time you make a code change.
 
 This article illustrates how to use Visual Studio to start an app in a local Docker container, make changes, and then refresh the browser to see the changes. This article also shows you how to set breakpoints for debugging for containerized apps. Supported project types include .NET Framework and .NET Core web and console apps. In this article, we use ASP.NET Core web apps and .NET Framework console apps.
@@ -35,7 +35,7 @@ To debug apps in a local Docker container, the following tools must be installed
 
 ::: moniker-end
 
-To run Docker containers locally, you must have a local Docker client. You can use the [Docker Toolbox](https://www.docker.com/products/docker-toolbox), which requires Hyper-V to be disabled. You also can use [Docker for Windows](https://www.docker.com/get-docker), which uses Hyper-V and requires Windows 10.
+To run Docker containers locally, you must have a local Docker client. You can use [Docker for Windows](https://www.docker.com/get-docker), which uses Hyper-V and requires Windows 10.
 
 Docker containers are available for .NET Framework and .NET Core projects. Let's look at two examples. First, we look at a .NET Core web app. Then, we look at a .NET Framework console app.
 
@@ -60,18 +60,18 @@ To quickly iterate changes, you can start your application in a container. Then,
 
     ```csharp
     public IWebHostEnvironment Env { get; set; }
-    
+
     public void ConfigureServices(IServiceCollection services)
     {
         IMvcBuilder builder = services.AddRazorPages();
-    
+
     #if DEBUG
         if (Env.IsDevelopment())
         {
             builder.AddRazorRuntimeCompilation();
         }
     #endif
-    
+
         // code omitted for brevity
     }
     ```
@@ -86,7 +86,7 @@ To quickly iterate changes, you can start your application in a container. Then,
     }
     ```
 
-   For more information, see [Razor file compilation in ASP.NET Core](/aspnet/core/mvc/views/view-compilation?view=aspnetcore-3.1).
+   For more information, see [Razor file compilation in ASP.NET Core](/aspnet/core/mvc/views/view-compilation?view=aspnetcore-3.1&preserve-view=true).
 
 1. Set **Solution Configuration** to **Debug**. Then, press **Ctrl**+**F5** to build your Docker image and run it locally.
 
@@ -124,7 +124,7 @@ Often, changes require further inspection. You can use the debugging features of
 4. To start debugging and hit the breakpoint, press F5.
 5. Switch to Visual Studio to view the breakpoint. Inspect values.
 
-   ![Breakpoint](media/edit-and-refresh/breakpoint.png)
+   ![Screenshot showing part of the code for Index.cshtml.cs in Visual Studio with a breakpoint set to the left of a code line that is highlighted in yellow.](media/edit-and-refresh/breakpoint.png)
 
 ## Create a .NET Framework console app
 
@@ -146,7 +146,7 @@ When you use .NET Framework console app projects, the option to add Docker suppo
 4. Press F5 to start debugging and hit the breakpoint.
 5. Switch to Visual Studio to view the breakpoint and inspect values.
 
-   ![Breakpoint](media/edit-and-refresh/breakpoint-console.png)
+   ![Screenshot of the code window for Program.cs in Visual Studio with a breakpoint set to the left of a code line that is highlighted in yellow.](media/edit-and-refresh/breakpoint-console.png)
 
 ## Container reuse
 
@@ -164,7 +164,7 @@ Get more details by reading [How Visual Studio builds containerized apps](contai
 
 ## More about Docker with Visual Studio, Windows, and Azure
 
-* Learn more about [container development with Visual Studio](/visualstudio/containers).
+* Learn more about [container development with Visual Studio](./index.yml).
 * To build and deploy a Docker container, see [Docker integration for Azure Pipelines](https://marketplace.visualstudio.com/items?itemName=ms-vscs-rm.docker).
 * For an index of Windows Server and Nano Server articles, see [Windows container information](/virtualization/windowscontainers/).
 * Learn about [Azure Kubernetes Service](https://azure.microsoft.com/services/kubernetes-service/) and review the [Azure Kubernetes Service documentation](/azure/aks).

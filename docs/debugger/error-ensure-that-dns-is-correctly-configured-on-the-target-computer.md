@@ -1,5 +1,5 @@
 ---
-title: "Error - Ensure that DNS is Correctly Configured on the Target Computer | Microsoft Docs"
+title: "Ensure that DNS is Correctly Configured on the Target Computer | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "error-reference"
 f1_keywords:

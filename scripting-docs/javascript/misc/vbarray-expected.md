@@ -29,5 +29,5 @@ new VBArray(safeArray);
 - Ensure you pass only **VBArray** objects to the **VBArray** constructor.  
   
 ## See also  
- [VBArray Object](../../javascript/reference/vbarray-object-javascript.md)   
- [Using Arrays](../../javascript/advanced/using-arrays-javascript.md)
+ [VBArray Object](https://developer.mozilla.org/docs/Archive/Web/JavaScript/Microsoft_Extensions/VBArray)   
+ [Using Arrays](https://developer.mozilla.org/docs/Learn/JavaScript/First_steps/Arrays)

@@ -1,5 +1,5 @@
 ---
-title: "Error - Firewall on Local Machine | Microsoft Docs"
+title: "Firewall on Local Machine | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "error-reference"
 f1_keywords:

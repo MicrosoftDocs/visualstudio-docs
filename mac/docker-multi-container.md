@@ -1,6 +1,7 @@
 ---
-title: Tutorial - Create a Multi-Container App with Docker Compose
+title: Multi-Container App with Docker Compose
 description: Learn how to manage more than one container and communicate between them in Visual Studio for Mac
+ms.custom: SEO-VS-2020
 author: heiligerdankgesang
 ms.author: dominicn
 ms.date: 07/03/2020
@@ -24,7 +25,7 @@ In this tutorial, you'll learn how to manage more than one container and communi
 1. Select the target framework. In this example we will use .NET Core 3.1:
 ![Set target framework](media/docker-quickstart-2.png)
 1. Enter the project details, such as Project Name (_DockerDemoFrontEnd_ in this example) and Solution Name (_DockerDemo_). The created project contains all the basics you need to build and run an ASP.NET Core web site.
-1. In the Solution Pad, right click the DockerDemoFrontEnd project and select **Add > Add Docker Support**:
+1. In the Solution Window, right click the DockerDemoFrontEnd project and select **Add > Add Docker Support**:
 ![Add docker support](media/docker-quickstart-3.png)
 
 Visual Studio for Mac will automatically add a new project to your solution called **docker-compose** and add a **Dockerfile** to your existing project.
@@ -37,7 +38,7 @@ Next we will create a second project which will act as our backend API. The **.N
 1. Under **Web and Console > App** choose the **API** template.
 1. Select the target framework. In this example we will use .NET Core 3.1.
 1. Enter the project details, such as Project Name (_MyWebAPI_ in this example).
-1. Once created, go to the Solution Pad and right click the MyWebAPI project and select **Add > Add Docker Support**.
+1. Once created, go to the Solution Window and right click the MyWebAPI project and select **Add > Add Docker Support**.
 
 The **docker-compose.yml** file in the **docker-compose** project will be automatically updated to include the API project alongside the existing Web App project. When we build and run the **docker-compose** project, each of these projects will be deployed to a separate Docker container.
 
@@ -81,7 +82,7 @@ We now have two ASP.NET projects in our solution and both are configured with Do
    ```
    
     > [!NOTE]
-    > In production code, you shouldn't dispose `HttpClient` after every request. For best practices, see [Use HttpClientFactory to implement resilient HTTP requests](https://docs.microsoft.com/dotnet/architecture/microservices/implement-resilient-applications/use-httpclientfactory-to-implement-resilient-http-requests).
+    > In production code, you shouldn't dispose `HttpClient` after every request. For best practices, see [Use HttpClientFactory to implement resilient HTTP requests](/dotnet/architecture/microservices/implement-resilient-applications/use-httpclientfactory-to-implement-resilient-http-requests).
 
 1. In the *Index.cshtml* file, add a line to display `ViewData["Message"]` so that the file looks like the following code:
 
@@ -99,7 +100,7 @@ We now have two ASP.NET projects in our solution and both are configured with Do
       </div>
       ```
   
-1. In both the Front End and Web API projects, comment out the call to [Microsoft.AspNetCore.Builder.HttpsPolicyBuilderExtensions.UseHttpsRedirection](https://docs.microsoft.com/dotnet/api/microsoft.aspnetcore.builder.httpspolicybuilderextensions.usehttpsredirection) in the `Configure` method in *Startup.cs*, because this sample code uses HTTP, not HTTPS, to call the Web API.
+1. In both the Front End and Web API projects, comment out the call to [Microsoft.AspNetCore.Builder.HttpsPolicyBuilderExtensions.UseHttpsRedirection](/dotnet/api/microsoft.aspnetcore.builder.httpspolicybuilderextensions.usehttpsredirection) in the `Configure` method in *Startup.cs*, because this sample code uses HTTP, not HTTPS, to call the Web API.
 
       ```csharp
                   //app.UseHttpsRedirection();

@@ -1,9 +1,9 @@
 ---
 title: Setting up a Git Repository
-description: Using Git and Subversion in Visual Studio for Mac.
+description: Connecting to a Git repository using Visual Studio for Mac.
 author: therealjohn
 ms.author: johmil
-ms.date: 05/13/2020
+ms.date: 12/03/2020
 ms.assetid: E992FA1D-B2AD-4A28-ADC6-47E4FC471060
 ms.topic: how-to
 ---
@@ -39,7 +39,10 @@ To set up a Git repository, execute the following steps:
 
 If you have an existing project that _is not_ already in version control, use the following steps to set it up in Git:
 
-1. Select the Solution name from the Solution Pad in Visual Studio for Mac.
+> [!TIP]
+> Use a .gitignore file to control which folders and files are tracked and published with Git. You may want to exclude build directories, binaries, or generated files. Learn more in the [GitHub docs on ignoring files](https://docs.github.com/en/free-pro-team@latest/github/using-git/ignoring-files).
+
+1. Select the Solution name from the Solution Window in Visual Studio for Mac.
 
 2. In the Menu bar, select **Version Control > Publish in Version Control** to display the **Clone Repository** dialog:
 
@@ -49,7 +52,7 @@ If you have an existing project that _is not_ already in version control, use th
 
 3. Choose the **Select from Registered** tab and press the **Add** button:
 
-    ![](media/version-control-git5.png)
+    ![Add a registered repository dialog box.](media/version-control-git5.png)
 
 4. Enter the name of the repository as you would like it to display locally, and paste in the URL from step #3. Your Repository Configuration dialog should look similar to the following. Press OK:
 
@@ -153,7 +156,7 @@ If you have issues with initializing your project with an empty remote repositor
 1. If there's a **gitignore** file, delete it.
 1. Press **Command + Shift + .** to hide the files and folders.
 1. Open your solution in VS for Mac.
-1. On the solution Pad, select your solution node.
+1. On the solution Window, select your solution node.
 1. Browse to the Version Control menu and choose **Publish in Version Control**.
 1. Follow the steps of the above tutorial starting from the step 6.
 

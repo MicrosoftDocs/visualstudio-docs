@@ -1,6 +1,7 @@
 ---
 title: Find out who is passing a wrong parameter value | Microsoft Docs
-ms.custom: seodec18
+Description: You can find out what code is calling your function and passing an incorrect parameter value. Learn how to use a conditional breakpoint to do this. 
+ms.custom: "SEO-VS-2020, seodec18"
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords: 
@@ -47,5 +48,5 @@ ms.workload:
 
 ## See also
 - [Debugging Native Code FAQs](../debugger/debugging-native-code-faqs.md)
-- [Breakpoints](https://msdn.microsoft.com/library/fe4eedc1-71aa-4928-962f-0912c334d583)
+- [Breakpoints](/previous-versions/ktf38f66(v=vs.100))
 - [Debugging Native Code](../debugger/debugging-native-code.md)

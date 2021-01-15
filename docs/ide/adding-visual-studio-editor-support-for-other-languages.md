@@ -1,5 +1,7 @@
 ---
 title: Add editor support for other languages
+description: Learn about how the Visual Studio editor supports reading and navigating through different computer languages and how you can add support for other languages.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -67,7 +69,7 @@ Visual Studio currently provides syntax colorization and basic statement complet
 - TypeScript
 - YAML
 
-In addition to syntax colorization and basic statement completion, Visual Studio also has a feature called [Navigate To](https://blogs.msdn.microsoft.com/benwilli/2015/04/09/visual-studio-tip-3-use-navigate-to/). This feature enables you to quickly search code files, file paths, and code symbols. Visual Studio provides Navigate To support for the following languages.
+In addition to syntax colorization and basic statement completion, Visual Studio also has a feature called [Navigate To](/archive/blogs/benwilli/visual-studio-tip-3-use-navigate-to). This feature enables you to quickly search code files, file paths, and code symbols. Visual Studio provides Navigate To support for the following languages.
 
 - C#
 

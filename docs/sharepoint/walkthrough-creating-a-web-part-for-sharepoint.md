@@ -1,5 +1,7 @@
 ---
 title: "Walkthrough: Creating a Web Part for SharePoint | Microsoft Docs"
+description: Create a web part for SharePoint. Web parts let users directly change the content, appearance, and behavior of SharePoint site pages by using a browser.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: how-to
 dev_langs:
@@ -198,7 +200,7 @@ To populate the data grid that appears in the Web Part, specify the path of the 
 
 ## Test the web part verb
 
-Show and hide employees that are not managers by clicking an item that appears in the Web Part verbs menu.
+Show and hide employees that are not managers by selecting an item that appears in the Web Part verbs menu.
 
 1. Choose the arrow that appears on the right side of the Web Part, and then choose **Show Managers Only** from the menu that appears.
 

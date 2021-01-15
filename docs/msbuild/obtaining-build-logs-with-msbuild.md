@@ -1,5 +1,7 @@
 ---
 title: Obtaining Build Logs with MSBuild | Microsoft Docs
+description: Learn to use switches with MSBuild to specify how much build data to review and whether to save build data to one or more files.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -41,7 +43,7 @@ msbuild MyProject.proj -t:go -v:diag
 
 The following table shows how the log verbosity (column values) affects which types of message (row values) are logged.
 
-|                                       | Quiet | Minimal | Normal | Detailed | Diagnostic |
+| Message type / Verbosity              | Quiet | Minimal | Normal | Detailed | Diagnostic |
 |---------------------------------------|:-----:|:-------:|:------:|:--------:|:----------:|
 | Errors                                |   ✅   |    ✅    |    ✅   |     ✅    |      ✅     |
 | Warnings                              |   ✅   |    ✅    |    ✅   |     ✅    |      ✅     |

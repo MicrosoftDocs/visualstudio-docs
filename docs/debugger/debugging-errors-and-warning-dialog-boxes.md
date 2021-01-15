@@ -1,5 +1,7 @@
 ---
 title: "Debugging Errors and Warning Dialog Boxes | Microsoft Docs"
+description: See a list of errors and warning dialog boxes that you might encounter while debugging your application in Visual Studio.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 f1_keywords:
@@ -42,7 +44,7 @@ Below are the errors and warning dialog boxes you may encounter while debugging 
 
  [No Source Code Available for the Current Location Dialog Box](../debugger/no-source-available.md)
 
- [No Symbolic Information Dialog Box](https://msdn.microsoft.com/library/18de4888-9cca-4059-a165-48b135fee4c9)
+ [No Symbolic Information Dialog Box](/previous-versions/d493t3ew(v=vs.100))
 
  [Resolve Ambiguity Dialog Box](../debugger/resolve-ambiguity-dialog-box.md)
 

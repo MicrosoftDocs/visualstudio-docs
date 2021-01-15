@@ -1,10 +1,10 @@
 ---
-title: Signing in to Visual Studio Subscriptions with your work or school account | Microsoft Docs
+title: Sign in to Visual Studio Subscriptions with work or school accounts | Microsoft Docs
 author: evanwindom
-ms.author: lank
-manager: lank
+ms.author: v-evwin
+manager: cabuschl
 ms.assetid: f39a2672-c283-4755-93d3-31c7c7a032d0
-ms.date: 03/11/2020
+ms.date: 10/28/2020
 ms.topic: how-to
 description:  Learn how to sign in to your Visual Studio subscription(s) with your work or school account. 
 ---
@@ -49,7 +49,7 @@ You can also see your currently selected subscription in the upper right corner,
         > [!NOTE]
         > This will be the case for many subscribers who have used Visual Studio subscriptions (formerly MSDN) in the past.
 
-    - If one pathway fails, try the other.  Subscription administrators may have modified your subscription.
+    - If one pathway fails, try the other.  Subscription admins may have modified your subscription.
 
 5. Enter your password.
 6. Click **Sign in**.
@@ -67,10 +67,10 @@ A:  Many users have more than one subscription.  If you are able to sign in to t
 If you're still having trouble, you can reach out to our [subscriptions support](https://visualstudio.microsoft.com/subscriptions/support/) team for assistance.  
 
 ## See also
-- [Visual Studio documentation](https://docs.microsoft.com/visualstudio/)
-- [Azure DevOps documentation](https://docs.microsoft.com/azure/devops/)
-- [Azure documentation](https://docs.microsoft.com/azure/)
-- [Microsoft 365 documentation](https://docs.microsoft.com/microsoft-365/)
+- [Visual Studio documentation](/visualstudio/)
+- [Azure DevOps documentation](/azure/devops/)
+- [Azure documentation](/azure/)
+- [Microsoft 365 documentation](/microsoft-365/)
 
 ## Next steps
-After you've successfully signed in to the subscriptions portal, we recommend visiting the Benefits page at https://my.visualstudio.com/benefits and exploring the great tools, services, and offers available to you.  
+After you've successfully signed in to the subscriptions portal, we recommend visiting the Benefits page at https://my.visualstudio.com/benefits and exploring the great tools, services, and offers available to you.

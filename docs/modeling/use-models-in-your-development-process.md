@@ -1,5 +1,7 @@
 ---
 title: Use models in your development process
+description: Learn that in Visual Studio, you can use a model to help you understand and change a system, application, or component.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -132,7 +134,7 @@ Different kinds of diagram are useful for describing the design at different lev
 
 ## See also
 
-- [Use models in Agile development](https://msdn.microsoft.com/592ac27c-3d3e-454a-9c38-b76658ed137f)
+- [Use models in Agile development](/previous-versions/ff398061(v=vs.140))
 - [Create models for your app](../modeling/create-models-for-your-app.md)
 - [Model user requirements](../modeling/model-user-requirements.md)
 - [Model your app's architecture](../modeling/model-your-app-s-architecture.md)

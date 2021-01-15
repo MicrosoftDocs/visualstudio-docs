@@ -1,5 +1,7 @@
 ---
 title: "Call Tree View - Contention Data | Microsoft Docs"
+description: Review Call Tree view, which shows contention data for the function execution paths traversed in the profiled application.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:

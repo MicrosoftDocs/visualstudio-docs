@@ -1,50 +1,47 @@
 ---
 title: Generate code metrics from the IDE or command line
 ms.date: 11/02/2018
+description: Learn how to generate code metrics data in Visual Studio. See how to use Solution Explorer, a rule set file, the command line, or a menu command.
+ms.custom: SEO-VS-2020
 ms.topic: how-to
-helpviewer_keywords: 
+helpviewer_keywords:
   - code metrics data
   - code metrics results
   - code metrics [Visual Studio]
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.workload: 
+ms.workload:
   - multiple
 ---
 # How to: Generate code metrics data
 
 You can generate code metrics data in three ways:
 
-- By installing [FxCop analyzers](#fxcop-analyzers-code-metrics-rules) and enabling the four code metrics (maintainability) rules it contains.
+- By enabling [.NET code-quality analyzers](#net-code-quality-analyzers-code-metrics-rules) and enabling the four code metrics (maintainability) rules it contains.
 
 - By choosing the [**Analyze** > **Calculate Code Metrics**](#calculate-code-metrics-menu-command) menu command within Visual Studio.
 
 - From the [command line](#command-line-code-metrics) for C# and Visual Basic projects.
 
-## FxCop analyzers code metrics rules
+## .NET code-quality analyzers code metrics rules
 
-The [FxCopAnalyzers NuGet package](https://www.nuget.org/packages/Microsoft.CodeAnalysis.FxCopAnalyzers) includes several code metrics [analyzer](roslyn-analyzers-overview.md) rules:
+The .NET code-quality analyzers include several code metrics [analyzer](roslyn-analyzers-overview.md) rules:
 
-- [CA1501](ca1501-avoid-excessive-inheritance.md)
-- [CA1502](ca1502.md)
-- [CA1505](ca1505.md)
-- [CA1506](ca1506.md)
+- [CA1501](/dotnet/fundamentals/code-analysis/quality-rules/ca1501)
+- [CA1502](/dotnet/fundamentals/code-analysis/quality-rules/ca1502)
+- [CA1505](/dotnet/fundamentals/code-analysis/quality-rules/ca1505)
+- [CA1506](/dotnet/fundamentals/code-analysis/quality-rules/ca1506)
 
-These rules are disabled by default but you can enable them from [**Solution Explorer**](use-roslyn-analyzers.md#set-rule-severity-from-solution-explorer) or in a [rule set](using-rule-sets-to-group-code-analysis-rules.md) file. For example, to enable rule CA1502 as a warning, your .ruleset file would contain the following entry:
+These rules are disabled by default but you can enable them from [**Solution Explorer**](use-roslyn-analyzers.md#set-rule-severity-from-solution-explorer) or in an [EditorConfig](use-roslyn-analyzers.md#set-rule-severity-in-an-editorconfig-file) file. For example, to enable rule CA1502 as a warning, your EditorConfig file would contain the following entry:
 
-```xml
-<?xml version="1.0" encoding="utf-8"?>
-<RuleSet Name="Rules" Description="Rules" ToolsVersion="16.0">
-  <Rules AnalyzerId="Microsoft.CodeQuality.Analyzers" RuleNamespace="Microsoft.CodeQuality.Analyzers">
-    <Rule Id="CA1502" Action="Warning" />
-  </Rules>
-</RuleSet>
+```cs
+dotnet_diagnostic.CA1502.severity = warning
 ```
 
 ### Configuration
 
-You can configure the thresholds at which the code metrics rules in the FxCop analyzers package fire.
+You can configure the thresholds at which the code metrics rules fire.
 
 1. Create a text file. As an example, you can name it *CodeMetricsConfig.txt*.
 
@@ -54,7 +51,7 @@ You can configure the thresholds at which the code metrics rules in the FxCop an
    CA1502: 10
    ```
 
-   In this example, rule [CA1502](ca1502.md) is configured to fire when a method's cyclomatic complexity is greater than 10.
+   In this example, rule [CA1502](/dotnet/fundamentals/code-analysis/quality-rules/ca1502) is configured to fire when a method's cyclomatic complexity is greater than 10.
 
 3. In the **Properties** window of Visual Studio, or in the project file, mark the build action of the configuration file as [**AdditionalFiles**](../ide/build-actions.md#build-action-values). For example:
 
@@ -72,11 +69,11 @@ Generate code metrics for one or all of your open projects in the IDE by using t
 
 You can generate code metrics results for an entire solution in any of the following ways:
 
-- From the menu bar, choose **Analyze** > **Calculate Code Metrics** > **For Solution**.
+- From the menu bar, select **Analyze** > **Calculate Code Metrics** > **For Solution**.
 
-- In **Solution Explorer**, right-click the solution and then choose **Calculate Code Metrics**.
+- In **Solution Explorer**, right-click the solution and then select **Calculate Code Metrics**.
 
-- In the **Code Metrics Results** window, choose the **Calculate Code Metrics for Solution** button.
+- In the **Code Metrics Results** window, select the **Calculate Code Metrics for Solution** button.
 
 The results are generated and the **Code Metrics Results** window is displayed. To view the results details, expand the tree in the **Hierarchy** column.
 
@@ -84,7 +81,7 @@ The results are generated and the **Code Metrics Results** window is displayed. 
 
 1. In **Solution Explorer**, select one or more projects.
 
-1. From the menu bar, choose **Analyze** > **Calculate Code Metrics** > **For Selected Project(s)**.
+1. From the menu bar, select **Analyze** > **Calculate Code Metrics** > **For Selected Project(s)**.
 
 The results are generated and the **Code Metrics Results** window is displayed. To view the results details, expand the tree in the **Hierarchy**.
 
@@ -157,6 +154,7 @@ Build succeeded.
 The generated XML output takes the following format:
 
 ::: moniker range=">=vs-2019"
+
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <CodeMetricsReport Version="1.0">
@@ -211,8 +209,10 @@ The generated XML output takes the following format:
   </Targets>
 </CodeMetricsReport>
 ```
+
 ::: moniker-end
 ::: moniker range="vs-2017"
+
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <CodeMetricsReport Version="1.0">
@@ -263,6 +263,7 @@ The generated XML output takes the following format:
   </Targets>
 </CodeMetricsReport>
 ```
+
 ::: moniker-end
 
 ### Metrics.exe

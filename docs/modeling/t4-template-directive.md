@@ -1,5 +1,7 @@
 ---
 title: T4 Template Directive
+description: Learn that a Visual Studio T4 text template usually starts with a template directive, which specifies how the template should be processed. 
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 author: JoshuaPartlow
@@ -229,7 +231,7 @@ A design-time text template is a file for which **Custom Tool** is set to **Text
 
 For a design-time text template, you can specify any base class that is derived from <xref:Microsoft.VisualStudio.TextTemplating.TextTransformation?displayProperty=fullName>. Use the `<#@assembly#>` directive to load the assembly or project that contains the base class.
 
-For more information, see ["Inheritance in Text Templates" in Gareth Jones' Blog](https://blogs.msdn.microsoft.com/garethj/2011/01/03/vs2010-sp1-t4-template-inheritance-part-i-sample-metadata/).
+For more information, see ["Inheritance in Text Templates" in Gareth Jones' Blog](/archive/blogs/garethj/vs2010-sp1-t4-template-inheritance-part-i-sample-metadata).
 
 ## linePragmas attribute
 

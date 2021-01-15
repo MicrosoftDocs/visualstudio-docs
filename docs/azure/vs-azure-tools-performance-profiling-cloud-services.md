@@ -3,7 +3,6 @@ title: Testing the performance of a cloud service | Microsoft Docs
 description: Test the performance of a cloud service using the Visual Studio profiler
 author: mikejo5000
 manager: jillfra
-ms.assetid: 7a5501aa-f92c-457c-af9b-92ea50914e24
 ms.topic: conceptual
 ms.workload: azure-vs
 ms.date: 11/11/2016
@@ -48,7 +47,7 @@ You typically simulate a load to test cloud services under normal or stress cond
 ## Profiling a cloud service in Azure
 When you publish your cloud service from Visual Studio, you can profile the service and specify the profiling settings that give you the information that you want. A profiling session is started for each instance of a role. For more information about how to publish your service from Visual Studio, see [Publishing to an Azure Cloud Service from Visual Studio](vs-azure-tools-publishing-a-cloud-service.md).
 
-To understand more about performance profiling in Visual Studio, see [Beginners Guide to Performance Profiling](https://msdn.microsoft.com/library/azure/ms182372.aspx) and [Analyzing Application Performance by Using Profiling Tools](https://msdn.microsoft.com/library/azure/z9z62c29.aspx).
+To understand more about performance profiling in Visual Studio, see [Beginners Guide to Performance Profiling](../profiling/beginners-guide-to-performance-profiling.md) and [Analyzing Application Performance by Using Profiling Tools](../profiling/performance-explorer.md).
 
 > [!NOTE]
 > You can enable either IntelliTrace or profiling when you publish your cloud service. You can't enable both.
@@ -62,7 +61,7 @@ You can use different collection methods for profiling, based on your performanc
 * **Instrumentation** -This method collects detailed timing data that is useful for focused analysis and for analyzing input/output performance issues. The instrumentation method records each entry, exit, and function call of the functions in a module during a profiling run. This method is useful for gathering detailed timing information about a section of your code and for understanding the impact of input and output operations on application performance. This method is disabled for a computer running a 32-bit operating system. This option is available only when you run the cloud service in Azure, not locally in the compute emulator.
 * **.NET Memory Allocation** - This method collects .NET Framework memory allocation data by using the sampling profiling method. The collected data includes the number and size of allocated objects.
 * **Concurrency** - This method collects resource contention data, and process and thread execution data that is useful in analyzing multi-threaded and multi-process applications. The concurrency method collects data for each event that blocks execution of your code, such as when a thread waits for locked access to an application resource to be freed. This method is useful for analyzing multi-threaded applications.
-* You can also enable **Tier Interaction Profiling**, which provides additional information about the execution times of synchronous ADO.NET calls in functions of multi-tiered applications that communicate with one or more databases. You can collect tier interaction data with any of the profiling methods. For more information about tier interaction profiling, see [Tier Interactions View](https://msdn.microsoft.com/library/azure/dd557764.aspx).
+* You can also enable **Tier Interaction Profiling**, which provides additional information about the execution times of synchronous ADO.NET calls in functions of multi-tiered applications that communicate with one or more databases. You can collect tier interaction data with any of the profiling methods. For more information about tier interaction profiling, see [Tier Interactions View](../profiling/tier-interactions-view.md).
 
 ## Configuring profiling settings
 The following illustration shows how to configure your profiling settings from the Publish Azure Application dialog box.
@@ -96,7 +95,7 @@ A profiling session is created for each instance of a role in your cloud service
 3. To view profiling reports for an instance, choose the role in the service, open the shortcut menu for a specific instance, and then choose **View Profiling Report**.
 
     The report, a .vsp file, is now downloaded from Azure, and the status of the download appears in the  Azure Activity Log. When the download completes, the profiling report appears in a tab in the editor for Visual Studio named <Role name\>*<Instance Number\>*<identifier\>.vsp. Summary data for the report appears.
-4. To display different views of the report, in the Current View list, choose the type of view that you want. For more information, see [Profiling Tools Report Views](https://msdn.microsoft.com/library/azure/bb385755.aspx).
+4. To display different views of the report, in the Current View list, choose the type of view that you want. For more information, see [Profiling Tools Report Views](../profiling/performance-report-views.md).
 
 ## Next steps
 [Debugging Cloud Services](vs-azure-tools-debug-cloud-services-virtual-machines.md)

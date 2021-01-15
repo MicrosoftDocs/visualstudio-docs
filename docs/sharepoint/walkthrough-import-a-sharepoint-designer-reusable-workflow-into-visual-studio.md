@@ -1,5 +1,8 @@
 ---
-title: "Walkthrough: Import a SharePoint Designer Reusable Workflow into Visual Studio | Microsoft Docs"
+title: "Walkthrough: Import a SharePoint Designer reusable workflow | Microsoft Docs"
+titleSuffix: ""
+description: In this walkthrough, import a reusable workflow created in SharePoint Designer into a Visual Studio SharePoint workflow project.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: how-to
 f1_keywords:
@@ -16,7 +19,8 @@ manager: jillfra
 ms.workload:
   - "office"
 ---
-# Walkthrough: Import a SharePoint Designer reusable workflow into Visual Studio
+# Walkthrough: Import a SharePoint Designer reusable workflow
+
   This walkthrough demonstrates how to import a reusable workflow created in SharePoint Designer 2010 into a [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] SharePoint workflow project.
 
  Workflows created in SharePoint Designer, or *declarative workflows*, consist of [!INCLUDE[TLA2#tla_xml](../sharepoint/includes/tla2sharptla-xml-md.md)] statements instead of code. SharePoint Designer 2010 introduces *reusable workflows*, which are portable, declarative workflows that can be used by different lists in SharePoint sites.

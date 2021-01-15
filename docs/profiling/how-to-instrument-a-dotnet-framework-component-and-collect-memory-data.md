@@ -1,5 +1,5 @@
 ---
-title: Profiler command line - Instrument client .NET component, get memory data
+title: Profiler command line - Instrument stand-along .NET component, get memory data
 ms.date: 11/04/2016
 ms.topic: how-to
 ms.assetid: d09cc46a-70f5-48f9-aa24-89913e67b359

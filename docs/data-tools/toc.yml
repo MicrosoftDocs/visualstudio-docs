@@ -32,7 +32,7 @@
       href: work-with-datasets-in-n-tier-applications.md
   - name: Database projects and data-tier applications (DAC)
     href: creating-and-managing-databases-and-data-tier-applications-in-visual-studio.md
-  - name: n-Tier data applications overview
+  - name: N-tier data applications overview
     href: n-tier-data-applications-overview.md
 - name: How-to guides
   items:
@@ -132,7 +132,7 @@
         href: save-a-dataset-as-xml.md
     - name: Query DataSets
       href: query-datasets.md
-    - name: n-Tier applications
+    - name: N-tier applications
       items:
       - name: Add validation to an n-tier DataSet
         href: add-validation-to-an-n-tier-dataset.md

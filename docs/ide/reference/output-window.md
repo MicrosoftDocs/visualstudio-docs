@@ -1,5 +1,7 @@
 ---
 title: Output Window
+description: Learn about the Output window and how it displays status messages for various features in the IDE.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -70,7 +72,7 @@ If you use autoscrolling in the **Output** window and then navigate by using the
 ## See also
 
 - [Diagnostic messages in the Output window](../../debugger/diagnostic-messages-in-the-output-window.md)
-- [How to: Control the Output window](https://msdn.microsoft.com/Library/91aebd15-8854-4a7a-9f7d-57376fb4e858)
+- [How to: Control the Output window](/previous-versions/ht6z4e28(v=vs.140))
 - [Compile and build](../../ide/compiling-and-building-in-visual-studio.md)
 - [Understand build configurations](../../ide/understanding-build-configurations.md)
 - [Class library overview](/dotnet/standard/class-library-overview)

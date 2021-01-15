@@ -1,5 +1,7 @@
 ---
 title: Generate IEquatable operators for structs
+description: Learn how to use the Quick Actions and Refactorings menu to generate Equals and IEquatable operators for structs.
+ms.custom: SEO-VS-2020
 ms.date: 05/12/2020
 ms.topic: reference
 author: mikadumont
@@ -14,7 +16,7 @@ This code generation applies to:
 
 - C#
 
-**What:** Lets you generate **Equals** and **IEquatable** operators for [structs](https://docs.microsoft.com/dotnet/csharp/language-reference/builtin-types/struct).
+**What:** Lets you generate **Equals** and **IEquatable** operators for [structs](/dotnet/csharp/language-reference/builtin-types/struct).
 
 **When:** You have a struct we will automatically add the IEquatable as well as the equals and not equals operators for you.
 

@@ -1,6 +1,7 @@
 ---
 title: "Remote Debug ASP.NET Core on a Remote IIS Computer | Microsoft Docs"
-ms.custom: "remotedebugging"
+description: Debug an ASP.NET Core application that has been deployed to a remote Internet Information Services (IIS) computer using the Visual Studio remote debugger.
+ms.custom: "remotedebugging, SEO-VS-2020"
 ms.date: 05/06/2020
 ms.topic: "conceptual"
 ms.assetid: 573a3fc5-6901-41f1-bc87-557aa45d8858
@@ -47,7 +48,7 @@ This article includes steps on setting up a basic configuration of IIS on Window
 
 ## Create the ASP.NET Core application on the Visual Studio computer
 
-1. Create a new ASP.NET Core web application. 
+1. Create a new ASP.NET Core web application.
 
     ::: moniker range=">=vs-2019"
     In Visual Studio 2019, type **Ctrl + Q** to open the search box, type **asp.net**, choose **Templates**, then choose **Create new ASP.NET Core Web Application**. In the dialog box that appears, name the project **MyASPApp**, and then choose **Create**. Next, choose **Web Application (Model-View-Controller)**, and then choose **Create**.
@@ -203,7 +204,7 @@ For information on running the remote debugger as a service, see [Run the remote
 
 6. Type the first letter of your process name to quickly find your app.
 
-    * If you're using the [in-process hosting model](/aspnet/core/host-and-deploy/aspnet-core-module?view=aspnetcore-3.1#hosting-models) on IIS, select the correct **w3wp.exe** process. Starting in .NET Core 3, this is the default.
+    * If you're using the [in-process hosting model](/aspnet/core/host-and-deploy/aspnet-core-module?view=aspnetcore-3.1&preserve-view=true#hosting-models) on IIS, select the correct **w3wp.exe** process. Starting in .NET Core 3, this is the default.
 
     * Otherwise, select the **dotnet.exe** process. (This is the out-of-process hosting model.)
 

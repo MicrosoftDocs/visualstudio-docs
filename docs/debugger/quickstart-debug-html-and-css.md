@@ -1,12 +1,14 @@
 ---
 title: Debug HTML and CSS in UWP apps | Microsoft Docs
+description: Know how to debug HTML and CSS in Universal Windows Platform (UWP) apps in Visual Studio. JavaScript debugging features are supported for UWP apps.
+ms.custom: SEO-VS-2020
 ms.date: 07/17/2018
 ms.topic: how-to
-f1_keywords: 
+f1_keywords:
   - VS.WebClient.DomExplorer
-dev_langs: 
+dev_langs:
   - JavaScript
-helpviewer_keywords: 
+helpviewer_keywords:
   - debugging, CSS
   - debugging, HTML
   - debugging, JavaScript [UWP apps]
@@ -15,7 +17,7 @@ author: mikejo5000
 ms.author: mikejo
 manager: jillfra
 monikerRange: vs-2017
-ms.workload: 
+ms.workload:
   - uwp
 ---
 # Debug HTML and CSS in UWP apps in Visual Studio
@@ -231,7 +233,7 @@ You can select DOM elements in three ways when debugging an app:
 
 - By using the **Select Element** button (Ctrl+B).
 
-- By using the `select` command, which is one of the [JavaScript Console commands](../debugger/javascript-console-commands.md?view=vs-2017).
+- By using the `select` command, which is one of the [JavaScript Console commands](../debugger/javascript-console-commands.md?view=vs-2017&preserve-view=true).
 
   When you use the DOM Explorer window to select elements, and rest the mouse pointer on an element, the corresponding element is highlighted in the running app. You must click on the element in DOM Explorer to select it, or you can use the arrow keys to highlight and select elements.You can also select elements in DOM Explorer by using the **Select element** button. The following illustration shows the **Select Element** button.
 
@@ -253,7 +255,7 @@ You can select DOM elements in three ways when debugging an app:
 - [Debug apps in Visual Studio](debugging-windows-store-and-windows-universal-apps.md)
 - [Refresh an app (JavaScript)](../debugger/refresh-an-app-javascript.md)
 - [Debug a WebView control](../debugger/debug-a-webview-control.md)
-- [Keyboard shortcuts](../debugger/keyboard-shortcuts-html-and-javascript.md?view=vs-2017)
-- [JavaScript Console commands](../debugger/javascript-console-commands.md?view=vs-2017)
+- [Keyboard shortcuts](../debugger/keyboard-shortcuts-html-and-javascript.md?view=vs-2017&preserve-view=true)
+- [JavaScript Console commands](../debugger/javascript-console-commands.md?view=vs-2017&preserve-view=true)
 - [Debug HTML, CSS, and JavaScript sample code](../debugger/debug-html-css-and-javascript-sample-code.md)
-- [Product Support and Accessibility](https://msdn.microsoft.com/library/tzbxw1af(VS.120).aspx)
+- [Product Support and Accessibility](/previous-versions/tzbxw1af(v=vs.120))

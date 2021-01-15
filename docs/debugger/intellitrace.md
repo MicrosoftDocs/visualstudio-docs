@@ -1,5 +1,7 @@
 ---
 title: "IntelliTrace | Microsoft Docs"
+description: Use IntelliTrace to record and trace your code's execution history in Visual Studio. Record specific events, examine related code, and debug errors.
+ms.custom: SEO-VS-2020
 ms.date: "09/19/2018"
 ms.topic: "conceptual"
 f1_keywords:
@@ -62,7 +64,7 @@ You can save IntelliTrace data from these sources:
 
 - An IntelliTrace session in Visual Studio 2015 Enterprise or later versions, or previous versions of Visual Studio Ultimate.
 
-- ASP.NET web apps hosted on IIS, or SharePoint 2010 and SharePoint 2013 applications running in deployment when you use Microsoft Monitoring Agent, either alone or with System Center 2012. See [Use the IntelliTrace stand-alone collector](../debugger/using-the-intellitrace-stand-alone-collector.md) and [Monitoring with Microsoft Monitoring Agent](https://technet.microsoft.com/library/dn465153.aspx).
+- ASP.NET web apps hosted on IIS, or SharePoint 2010 and SharePoint 2013 applications running in deployment when you use Microsoft Monitoring Agent, either alone or with System Center 2012. See [Use the IntelliTrace stand-alone collector](../debugger/using-the-intellitrace-stand-alone-collector.md) and [Monitoring with Microsoft Monitoring Agent](/previous-versions/system-center/system-center-2012-R2/dn465153(v=sc.12)).
 
 Here are some examples of how IntelliTrace can help you with debugging:
 

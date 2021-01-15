@@ -23,7 +23,7 @@ The tools included in Visual Studio for developing with containers are easy to u
 
 Docker support is available for ASP.NET projects, ASP.NET Core projects, and .NET Core and .NET Framework console projects.
 
-The support for Docker in Visual Studio has changed over a number of releases in response to customer needs. There are two levels of Docker support you can add to a project, and the supported options vary by the type of project and the version of Visual Studio. With some supported project types, if you just want a container for a single project, without using orchestration, you can do that by adding Docker support.  The next level is container orchestration support, which adds appropriate support files for the particular orchestrator you choose.  
+The support for Docker in Visual Studio has changed over a number of releases in response to customer needs. There are two levels of Docker support you can add to a project, and the supported options vary by the type of project and the version of Visual Studio. With some supported project types, if you just want a container for a single project, without using orchestration, you can do that by adding Docker support.  The next level is container orchestration support, which adds appropriate support files for the particular orchestrator you choose.
 
 With Visual Studio 2017, you can use Docker Compose and Service Fabric as container orchestration services.  You can also use Kubernetes if you install the [Visual Studio Tools for Kubernetes](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vs-tools-for-kubernetes).
 
@@ -45,7 +45,7 @@ With Visual Studio 2017, you can use Docker Compose and Service Fabric as contai
 
 Docker support is available for ASP.NET projects, ASP.NET Core projects, and .NET Core and .NET Framework console projects.
 
-The support for Docker in Visual Studio has changed over a number of releases in response to customer needs. There are two levels of Docker support you can add to a project, and the supported options vary by the type of project and the version of Visual Studio. With some supported project types, if you just want a container for a single project, without using orchestration, you can do that by adding Docker support.  The next level is container orchestration support, which adds appropriate support files for the particular orchestrator you choose.  
+The support for Docker in Visual Studio has changed over a number of releases in response to customer needs. There are two levels of Docker support you can add to a project, and the supported options vary by the type of project and the version of Visual Studio. With some supported project types, if you just want a container for a single project, without using orchestration, you can do that by adding Docker support.  The next level is container orchestration support, which adds appropriate support files for the particular orchestrator you choose.
 
 With Visual Studio 2019, you can use Docker Compose, Kubernetes, and Service Fabric as container orchestration services.
 
@@ -113,9 +113,9 @@ Repeat the process with the other projects that you want to control using Docker
 To add Kubernetes support, install the [Visual Studio Tools for Kubernetes](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vs-tools-for-kubernetes).
 ::: moniker-end
 
-With Kubernetes support, you can enable a connection between your local project and a Kubernetes cluster running in [Azure Kubernetes Service (AKS)](/azure/aks), and thereby modify and debug your services running in AKS using Visual Studio.  This service is provided by [Azure Dev Spaces](/azure/dev-spaces/quickstart-netcore-visualstudio). Azure Dev Spaces also lets you set up separate branches of your Kubernetes services called *dev spaces* for development purposes, so you can efficiently isolate production services from working versions in development, and keep distinct modifications cleanly separated from each other.
+With Kubernetes support, you can enable a connection between your local project and a Kubernetes cluster running in [Azure Kubernetes Service (AKS)](/azure/aks), and thereby modify and debug your services running using Visual Studio.  This service is provided by [Bridge to Kubernetes](overview-bridge-to-kubernetes.md). Bridge to Kubernetes also lets you set up separate branches of your Kubernetes services for development purposes, so you can efficiently isolate production services from working versions in development, and keep distinct modifications cleanly separated from each other.
 
-To add Kubernetes support to your projects, choose **Kubernetes/Helm** when you add container orchestration support. Several files are added to your project, including *azds.yaml*, which configures Azure Dev Spaces, and Helm charts which describe the structure of your Kubernetes services.
+To add Kubernetes support to your projects, choose **Kubernetes/Helm** when you add container orchestration support. Several files are added to your project, including Helm charts which describe the structure of your Kubernetes services. To get started with Bridge to Kubernetes, see [Use Bridge to Kubernetes](bridge-to-kubernetes.md).
 
 ## Service Fabric support
 
@@ -135,11 +135,11 @@ For more information on Azure Service Fabric, see [Service Fabric](/azure/servic
 
 ## Continuous delivery and continuous integration (CI/CD)
 
-Visual Studio integrates readily with Azure Pipelines for automated and continuous integration and delivery of changes to your service code and configuration. To get started, see [Create your first pipeline](/azure/devops/pipelines/create-first-pipeline?view=azure-devops&tabs=tfs-2018-2).
+Visual Studio integrates readily with Azure Pipelines for automated and continuous integration and delivery of changes to your service code and configuration. To get started, see [Create your first pipeline](/azure/devops/pipelines/create-first-pipeline?view=azure-devops&tabs=tfs-2018-2&preserve-view=true).
 
 For Service Fabric, see [Tutorial: Deploy your ASP.NET Core app to Azure Service Fabric by using Azure DevOps Projects](/azure/devops-project/azure-devops-project-service-fabric).
 
-For Kubernetes, see [Deploy a Docker container app to Azure Kubernetes Service](/azure/devops/pipelines/apps/cd/deploy-aks?view=azure-devops).
+For Kubernetes, see [Deploy a Docker container app to Azure Kubernetes Service](/azure/devops/pipelines/apps/cd/deploy-aks?view=azure-devops&preserve-view=true).
 
 ## Next steps
 

@@ -1,5 +1,7 @@
 ---
 title: "Using the Virtual User Activity Chart for load tests"
+description: Learn how to use the Virtual User Activity Chart to isolate errors that occurred for individual virtual users that ran your load test.
+ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:

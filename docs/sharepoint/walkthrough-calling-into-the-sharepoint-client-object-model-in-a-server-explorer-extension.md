@@ -1,5 +1,8 @@
 ---
 title: "Server Explorer: Extending the SharePoint Connections node"
+titleSuffix: ""
+description: In this walkthrough, see how to call the SharePoint client object model from an extension for the SharePoint Connections node in Server Explorer.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: how-to
 dev_langs:
@@ -186,7 +189,7 @@ Knowledge of the following concepts is helpful, but not required, to complete th
 
 1. In **Solution Explorer**, in the **WebPartNode** project, open **source.extension.vsixmanifest** file in the manifest editor.
 
-     The source.extension.vsixmanifest file is the basis for the extension.vsixmanifest file that all VSIX packages require. For more information about this file, see [VSIX Extension Schema 1.0 Reference](https://msdn.microsoft.com/76e410ec-b1fb-4652-ac98-4a4c52e09a2b).
+     The source.extension.vsixmanifest file is the basis for the extension.vsixmanifest file that all VSIX packages require. For more information about this file, see [VSIX Extension Schema 1.0 Reference](/previous-versions/dd393700(v=vs.110)).
 
 2. In the **Product Name** box, enter **Web Part Gallery Node for Server Explorer**.
 

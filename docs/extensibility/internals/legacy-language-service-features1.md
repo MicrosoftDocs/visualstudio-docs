@@ -1,5 +1,7 @@
 ---
 title: Legacy Language Service Features1 | Microsoft Docs
+description: Learn about the Visual Studio features that are supported in a managed package framework (MPF) language service.
+ms.custom: SEO-VS-2020 
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -11,7 +13,7 @@ manager: jillfra
 ms.workload:
 - vssdk
 ---
-# Legacy Language Service Features
+# Legacy language service features 1
 A managed package framework (MPF) language service can support one or more [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] features, such as syntax highlighting, IntelliSense, and breakpoint validation. Each feature can be implemented independent of the others but all require a parser and a scanner except for syntax highlighting, which requires only a scanner.
 
 ## In This Section

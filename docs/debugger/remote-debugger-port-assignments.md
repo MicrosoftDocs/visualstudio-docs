@@ -1,6 +1,7 @@
 ---
 title: "Remote Debugger Port Assignments | Microsoft Docs"
-ms.custom: ""
+description: Understand Visual Studio remote debugger port assignments on 32-bit operating systems, 64-bit operating systems, and Azure. Learn about the discovery port.
+ms.custom: SEO-VS-2020
 ms.date: "05/18/2018"
 ms.topic: "reference"
 ms.assetid: 238bb4ec-bb00-4c2b-986e-18ac278f3959
@@ -23,7 +24,7 @@ The Visual Studio Remote Debugger can run as an application or as a background s
 
 - Visual Studio 2012: 4016
 
-In other words, the number of the port assigned to the remote debugger is incremented by 2 for each release. You can set a different port number of you like. We will explain how to set port numbers in a later section.
+In other words, the number of the port assigned to the remote debugger is incremented by 2 for each release. You can set a different port number if you like. We will explain how to set port numbers in a later section.
 
 ## The Remote Debugger Port on 32-bit Operating Systems
 

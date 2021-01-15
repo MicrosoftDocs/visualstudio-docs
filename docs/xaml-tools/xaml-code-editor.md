@@ -130,7 +130,7 @@ For more information about change tracking&mdash;to include the wavy lines (also
 
 When you're editing your code in the XAML code editor, there are several features that you can access by using the right-click context menu. Most of these features are available universally in the Visual Studio IDE, while some are specific to using a code editor along with a Design window.
 
-![The XAML code editor's right-click context menu in Visual Studio](media/xaml-code-editor-right-click-menu.png "Screenshot of the XAML code editor's right-click context menu in Visual Studio 2019")
+![Screenshot of the XAML code editor's right-click context menu in Visual Studio 2019.](media/xaml-code-editor-right-click-menu.png)
 
 Here's what each feature does and how it's useful:
 
@@ -157,7 +157,7 @@ The scroll bar can do more than scroll through your code. You can also use it to
 
 In the scroll bar of the code editor, there's a **Split** button at the top right. When you choose it, you can open another code editor pane. This is useful because they operate independently of each other, so you can use them to work on code in different locations.
 
-![The XAML code editor, middle pane only, in Visual Studio](media/code-editor-split-window-button.png "Screenshot of the XAML code editor, middle pane only, in Visual Studio 2019")
+![Screenshot showing the middle pane of the XAML code editor in Visual Studio 2019 with the Split button highlighted at the top right of the pane.](media/code-editor-split-window-button.png)
 
 For more information about how to split an editor window, see the [Manage editor windows](../ide/how-to-manage-editor-windows.md) page.
 

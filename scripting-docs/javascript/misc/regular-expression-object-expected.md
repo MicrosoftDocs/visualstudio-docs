@@ -23,5 +23,5 @@ You attempted to invoke the **RegExp.prototype.toString** or **RegExp.prototype.
 - Only invoke the **RegExp.prototype.toString** or **RegExp.prototype.valueOf** methods on objects of type `RegExp`.  
   
 ## See also  
- [Regular Expression Object](../../javascript/reference/regular-expression-object-javascript.md)   
- [Regular Expression Syntax (JavaScript)](https://msdn.microsoft.com/library/1400241x)
+ [Regular Expression Object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RegExp)   
+ [Regular Expression Syntax (JavaScript)](/previous-versions/1400241x(v=vs.100))

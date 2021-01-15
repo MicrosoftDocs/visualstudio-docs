@@ -1,6 +1,7 @@
 ---
 title: View Disassembly Code in the debugger | Microsoft Docs
-ms.custom: seodec18
+description: Use the Disassembly window in Visual Studio to show assembly code corresponding to the instructions created by the compiler.
+ms.custom: "SEO-VS-2020, seodec18"
 ms.date: 10/30/2018
 ms.topic: how-to
 f1_keywords: 
@@ -52,7 +53,7 @@ To view machine-code instructions in their raw numeric form, rather than as asse
 
 ## Use the Disassembly window
 
-To enable the **Disassembly** window, under **Tools** > **Options** (or **Tools** > **Options**) > **Debugging**, select **Enable address-level debugging**.
+To enable the **Disassembly** window, under **Tools** > **Options** > **Debugging**, select **Enable address-level debugging**.
 
 To open the **Disassembly** window during debugging, select **Windows** > **Disassembly** or press **Alt**+**8**.
 

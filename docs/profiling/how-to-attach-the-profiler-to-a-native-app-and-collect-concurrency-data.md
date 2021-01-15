@@ -1,6 +1,6 @@
 ---
-title: Attach profiler to native app and collect concurrency data
-ms.custom: seodec18
+title: Attach profiler to native app & collect concurrency data
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 ms.assetid: 12d3e0f3-4b74-4e66-8fbf-8ac99bd4f91c

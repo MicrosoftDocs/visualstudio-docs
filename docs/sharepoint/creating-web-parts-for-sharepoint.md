@@ -1,5 +1,7 @@
 ---
 title: "Creating Web Parts for SharePoint | Microsoft Docs"
+description: Create web parts for SharePoint. By using web parts, you can modify the content, appearance, and behavior of pages of a SharePoint site by using a browser.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: overview
 f1_keywords:
@@ -79,7 +81,7 @@ ms.workload:
 
 - Visual web parts don't directly support SharePoint server tokens such as $SPUrl. For more information, see "Token Restrictions in Sandboxed Visual Web Parts" in the topic [Troubleshoot SharePoint solutions](../sharepoint/troubleshooting-sharepoint-solutions.md).
 
-- Visual web parts in a sandboxed solution occasionally get the error, "The sandboxed code execution request was refused because the Sandboxed Code Host Service was too busy to handle the request." For more information about this error, see this post in the [SharePoint Developer Team Blog](https://blogs.msdn.microsoft.com/sharepointdev/2011/02/08/error-the-sandboxed-code-execution-request-was-refused-because-the-sandboxed-code-host-service-was-too-busy-to-handle-the-request-ricky-kirkham/#10149157).
+- Visual web parts in a sandboxed solution occasionally get the error, "The sandboxed code execution request was refused because the Sandboxed Code Host Service was too busy to handle the request." For more information about this error, see this post in the [SharePoint Developer Team Blog](/archive/blogs/sharepointdev/error-the-sandboxed-code-execution-request-was-refused-because-the-sandboxed-code-host-service-was-too-busy-to-handle-the-request-ricky-kirkham#10149157).
 
 - Server-side JavaScript debugging isn't supported in Visual Studio, but client-side JavaScript debugging is supported.
 

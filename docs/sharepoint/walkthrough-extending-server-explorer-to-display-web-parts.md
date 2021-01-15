@@ -1,5 +1,8 @@
 ---
 title: "Walkthrough: Extending Server Explorer to Display Web Parts | Microsoft Docs"
+titleSuffix: ""
+description: In this walkthrough, extend Server Explorer so that it displays the Web Part gallery on each connected SharePoint site.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: how-to
 dev_langs:
@@ -269,7 +272,7 @@ ms.workload:
 
 1. In **Solution Explorer**, under the WebPartNode project, open the **source.extension.vsixmanifest** file in the manifest editor.
 
-     The source.extension.vsixmanifest file is the basis for the extension.vsixmanifest file that all VSIX packages require. For more information about this file, see [VSIX Extension Schema 1.0 Reference](https://msdn.microsoft.com/76e410ec-b1fb-4652-ac98-4a4c52e09a2b).
+     The source.extension.vsixmanifest file is the basis for the extension.vsixmanifest file that all VSIX packages require. For more information about this file, see [VSIX Extension Schema 1.0 Reference](/previous-versions/dd393700(v=vs.110)).
 
 2. In the **Product Name** box, enter **Web Part Gallery Node for Server Explorer**.
 
@@ -297,7 +300,7 @@ ms.workload:
 10. In the **Type** box, enter **SharePoint.Commands.v4**.
 
     > [!NOTE]
-    > This element specifies a custom extension that you want to include in the Visual Studio extension. For more information, see [Asset Element (VSX Schema)](https://msdn.microsoft.com/9fcfc098-edc7-484b-9d4c-acd17829d737).
+    > This element specifies a custom extension that you want to include in the Visual Studio extension. For more information, see [Asset Element (VSX Schema)](/previous-versions/dd393737(v=vs.110)).
 
 11. In the **Source** list, choose the **A project in current solution** list item.
 

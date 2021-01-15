@@ -1,5 +1,8 @@
 ---
 title: "Visual Studio Tools for Office runtime installation scenarios"
+description: Learn how you can install the Visual Studio 2010 Tools for Office runtime. This article describes three installation scenarios.
+ms.custom: SEO-VS-2020
+titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -51,14 +54,14 @@ ms.workload:
 
  The Office extensions for the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] are installed with Office. End users can obtain the Office extensions for the [!INCLUDE[net_v45](../vsto/includes/net-v45-md.md)] by installing a Windows update.
 
- To ensure that your users have the necessary extensions to use your application, include the latest version of the Visual Studio 2010 Tools for Office runtime redistributable as a prerequisite for your solution. For more information about prerequisites, see [Office solution prerequisites for deployment](https://msdn.microsoft.com/9f672809-43a3-40a1-9057-397ce3b5126e).
+ To ensure that your users have the necessary extensions to use your application, include the latest version of the Visual Studio 2010 Tools for Office runtime redistributable as a prerequisite for your solution. For more information about prerequisites, see [Office solution prerequisites for deployment](/previous-versions/bb608617(v=vs.110)).
 
 ### Install the runtime by using the runtime redistributable
  You can install the runtime by running the Visual Studio 2010 Tools for Office runtime redistributable manually or by including the redistributable as a prerequisite when you deploy an Office solution.
 
  When you install the runtime by using the Visual Studio 2010 Tools for Office runtime redistributable, the Office extensions for the .NET Framework 3.5 and the Office extensions for the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or later are installed if the corresponding versions of the .NET Framework are already present on the computer. If the computer is missing one of these versions of the .NET Framework when the runtime is installed, the Office extensions for the missing version of the .NET Framework are not installed at that time. If you install the missing version of the .NET Framework later, the runtime automatically installs the corresponding Office extensions the next time a solution that requires the extensions is installed (if the runtime was installed with a solution that was deployed by using ClickOnce) or loaded (if the runtime was installed with a solution that was deployed by using Windows Installer).
 
- For more information about including prerequisites in a ClickOnce solution, see [How to: Install prerequisites on end user computers to run Office solutions](https://msdn.microsoft.com/74dd2c52-838f-4abf-b2b4-4d7b0c2a0a98). For more information about how to install the runtime from the redistributable package manually, see [How to: Install the Visual Studio Tools for Office runtime redistributable](../vsto/how-to-install-the-visual-studio-tools-for-office-runtime-redistributable.md).
+ For more information about including prerequisites in a ClickOnce solution, see [How to: Install prerequisites on end user computers to run Office solutions](/previous-versions/bb608608(v=vs.110)). For more information about how to install the runtime from the redistributable package manually, see [How to: Install the Visual Studio Tools for Office runtime redistributable](../vsto/how-to-install-the-visual-studio-tools-for-office-runtime-redistributable.md).
 
 ## See also
 - [Visual Studio Tools for Office runtime overview](../vsto/visual-studio-tools-for-office-runtime-overview.md)

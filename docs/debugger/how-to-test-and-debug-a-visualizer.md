@@ -1,5 +1,7 @@
 ---
-title: How to - Test and Debug a Visualizer | Microsoft Docs
+title: Test and Debug a Visualizer | Microsoft Docs
+description: Test and debug a visualizer by running it from a test driver (visualizer development host) or by installing in Visual Studio and calling it from a debugger window.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 

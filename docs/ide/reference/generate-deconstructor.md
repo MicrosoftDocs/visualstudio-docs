@@ -1,5 +1,7 @@
 ---
 title: Generate a deconstructor quick action
+description: Learn how to use the Quick Actions and Refactorings menu to immediately generate the method stub for a new deconstructor.
+ms.custom: SEO-VS-2020
 ms.date: 02/19/2019
 ms.topic: reference
 author: kendrahavens
@@ -34,7 +36,7 @@ This code generation applies to:
       - With the cursor in your declaration, select Ctrl+. to trigger the **Quick Actions and Refactorings** menu.
    - **Mouse**
       - Right-click and select the **Quick Actions and Refactorings** menu.
-      - Select the ![screwdriver](media/screwdriver.png) icon that appears in the left margin if the text cursor is already on the empty line in the class.
+      - Select the :::image type="icon" source="media/screwdriver.png"::: icon that appears in the left margin if the text cursor is already on the empty line in the class.
 
       ![Generate deconstructor code fix](media/deconstruct-codefix.png)
 

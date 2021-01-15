@@ -1,5 +1,7 @@
 ---
 title: Choosing Between Shared and Versioned VSPackages | Microsoft Docs
+description: Learn about side-by-side installations of VSPackages through shared or versioned strategies, with multiple versions of Visual Studio and of the .NET Framework.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -29,7 +31,7 @@ Different versions of Visual Studio can coexist on the same computer. VSPackages
 
   - Program your VSPackage to adapt to the version of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] in which it is running. Then, if queries for newer services fail, your VSPackage can offer other services that are supported in older versions of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].
 
-- Register your VSPackage appropriately. For more information, see [VSPackage registration](../extensibility/internals/vspackage-registration.md) and [Managed VSPackage registration](https://msdn.microsoft.com/library/f69e0ea3-6a92-4639-8ca9-4c9c210e58a1).
+- Register your VSPackage appropriately. For more information, see [VSPackage registration](../extensibility/internals/vspackage-registration.md) and [Managed VSPackage registration](/previous-versions/bb166783(v=vs.100)).
 
 - Register file extensions appropriately. For more information, see [Registering file name extensions for side-by-side deployments](../extensibility/registering-file-name-extensions-for-side-by-side-deployments.md).
 

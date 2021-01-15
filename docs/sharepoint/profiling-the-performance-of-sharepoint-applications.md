@@ -1,5 +1,7 @@
 ---
 title: "Profiling the Performance of SharePoint Applications | Microsoft Docs"
+description: Profile the performance of SharePoint applications if they are running slowly or inefficiently. Use Visual Studio profiling features to find problematic code.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 f1_keywords:
@@ -49,16 +51,16 @@ Web performance tests simulate how an end user might interact with a SharePoint 
 
 ## Test user interfaces
 
-Coded UI tests automatically drive your SharePoint application through its user interface (UI). These tests cover the UI controls, such as buttons and menus, to verify that they function correctly. This kind of testing is particularly useful if validation or other logic is performed in the UI, such as in a web page. You can also use coded UI tests to automate manual tests. You creating coded UI tests for your SharePoint applications in the same way as you create tests for other types of applications. For more information, see [Testing SharePoint 2010 Applications with Coded UI Tests](/visualstudio/test/testing-sharepoint-2010-applications-with-coded-ui-tests?view=vs-2015).
+Coded UI tests automatically drive your SharePoint application through its user interface (UI). These tests cover the UI controls, such as buttons and menus, to verify that they function correctly. This kind of testing is particularly useful if validation or other logic is performed in the UI, such as in a web page. You can also use coded UI tests to automate manual tests. You creating coded UI tests for your SharePoint applications in the same way as you create tests for other types of applications. For more information, see [Testing SharePoint 2010 Applications with Coded UI Tests](/previous-versions/visualstudio/visual-studio-2015/test/testing-sharepoint-2010-applications-with-coded-ui-tests?preserve-view=true&view=vs-2015).
 
 ## Related topics
 
 |Title|Description|
 |-----------|-----------------|
 |[Walkthrough: Profile a SharePoint application](../sharepoint/walkthrough-profiling-a-sharepoint-application.md)|Demonstrates how to perform a sampling profile analysis on a SharePoint application.|
-|[Performance test your app before release](/azure/devops/test/load-test/run-performance-tests-app-before-release?view=vsts)|Describes how to create load tests, which help you stress test SharePoint applications.|
+|[Performance test your app before release](/azure/devops/test/load-test/run-performance-tests-app-before-release?view=vsts&preserve-view=true)|Describes how to create load tests, which help you stress test SharePoint applications.|
 |[Unit Test Your Code](../test/unit-test-your-code.md)|Describes how to find logic errors in your code by using unit tests.|
-|[Testing SharePoint 2010 Applications with Coded UI Tests](/visualstudio/test/testing-sharepoint-2010-applications-with-coded-ui-tests?view=vs-2015)|Describes how to test the user interface of your SharePoint applications.|
+|[Testing SharePoint 2010 Applications with Coded UI Tests](/previous-versions/visualstudio/visual-studio-2015/test/testing-sharepoint-2010-applications-with-coded-ui-tests?preserve-view=true&view=vs-2015)|Describes how to test the user interface of your SharePoint applications.|
 
 ## See also
 

@@ -1,8 +1,8 @@
 ---
-title: Product availability for software downloads in Visual Studio subscriptions | Microsoft Docs
+title: Product availability for downloads in Visual Studio subscriptions | Microsoft Docs
 author: evanwindom
-ms.author: lank
-manager: lank
+ms.author: v-evwin
+manager: cabuschl
 ms.assetid: abf271b5-7547-4695-a46f-72b2878ba8d4
 ms.date: 03/09/2020
 ms.topic: conceptual
@@ -34,10 +34,10 @@ The number and type of downloads depends on your subscription level and program 
 Not sure which subscription you're using?  Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to your email address. If you don't see all your subscriptions, you may have one or more assigned to a different email address.  You'll need to sign in with that email address to see those subscriptions.
 
 ## See also
-- [Visual Studio documentation](https://docs.microsoft.com/visualstudio/)
-- [Azure DevOps documentation](https://docs.microsoft.com/azure/devops/)
-- [Azure documentation](https://docs.microsoft.com/azure/)
-- [Microsoft 365 documentation](https://docs.microsoft.com/microsoft-365/)
+- [Visual Studio documentation](/visualstudio/)
+- [Azure DevOps documentation](/azure/devops/)
+- [Azure documentation](/azure/)
+- [Microsoft 365 documentation](/microsoft-365/)
 
 ## Next steps
 - Some software downloads may require a product key to install and activate them.  Check out our [product keys](product-keys.md) article for details on how to obtain and manage your product keys. 

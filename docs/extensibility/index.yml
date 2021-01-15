@@ -23,7 +23,7 @@ landingContent:
       - linkListType: get-started
         links:
           - text: Install the Visual Studio SDK
-            url: /visualstudio/extensibility/installing-the-visual-studio-sdk/
+            url: ./installing-the-visual-studio-sdk.md
       - linkListType: overview
         links:
           - text: Writing Visual Studio extensions
@@ -31,7 +31,7 @@ landingContent:
       - linkListType: tutorial
         links:
           - text: "Create your first extension: Hello World"
-            url: /visualstudio/extensibility/extensibility-hello-world
+            url: ./extensibility-hello-world.md
 
   # Card
   - title: Extend
@@ -39,15 +39,15 @@ landingContent:
       - linkListType: how-to-guide
         links:
           - text: Menus and Commands
-            url: /visualstudio/extensibility/extending-menus-and-commands
+            url: ./extending-menus-and-commands.md
           - text: Tool Windows
-            url: /visualstudio/extensibility/extending-and-customizing-tool-windows
+            url: ./extending-and-customizing-tool-windows.md
           - text: Editor and Languages
-            url: /visualstudio/extensibility/editor-and-language-service-extensions
+            url: ./editor-and-language-service-extensions.md
           - text: Language Server Protocol
-            url: /visualstudio/extensibility/language-server-protocol
+            url: ./language-server-protocol.md
           - text: Settings and Options
-            url: /visualstudio/extensibility/extending-user-settings-and-options
+            url: ./extending-user-settings-and-options.md
 
   # Card
   - title: Resources
@@ -69,9 +69,9 @@ landingContent:
       - linkListType: how-to-guide
         links:
           - text: Publish an extension
-            url: /visualstudio/extensibility/walkthrough-publishing-a-visual-studio-extension
+            url: ./walkthrough-publishing-a-visual-studio-extension.md
           - text: Command line publishing
-            url: /visualstudio/extensibility/walkthrough-publishing-a-visual-studio-extension-via-command-line
+            url: ./walkthrough-publishing-a-visual-studio-extension-via-command-line.md
           - text: Private galleries
             url: https://devblogs.microsoft.com/visualstudio/create-a-private-gallery-for-self-hosted-visual-studio-extensions
 
@@ -81,6 +81,6 @@ landingContent:
       - linkListType: whats-new
         links:
           - text: Visual Studio 2019 SDK
-            url: /visualstudio/extensibility/whats-new-visual-studio-2019-sdk
+            url: ./whats-new-visual-studio-2019-sdk.md
           - text: Visual Studio 2017 SDK
-            url: /visualstudio/extensibility/what-s-new-in-the-visual-studio-2017-sdk
+            url: ./what-s-new-in-the-visual-studio-2017-sdk.md

@@ -1,5 +1,7 @@
 ---
-title: How to - Manage Updates for a ClickOnce Application | Microsoft Docs
+title: Manage Updates for a ClickOnce Application | Microsoft Docs
+description: Learn about options to check for updates automatically or programmatically for your ClickOnce applications.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords: 

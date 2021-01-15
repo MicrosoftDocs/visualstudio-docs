@@ -1,5 +1,7 @@
 ---
-title: Use profiler command line to get concurrency data for service
+title: Profiler command line - Get concurrency data for service
+description: Collect resource contention data and thread activity data using the concurrency method of Visual Studio Profiling Tools.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 ms.assetid: 275aacba-b2af-4d34-8931-ee30d777a256

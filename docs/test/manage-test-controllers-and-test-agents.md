@@ -1,5 +1,7 @@
 ---
 title: Manage test controllers and test agents
+description: Learn how to manage test controllers and test agents after you install and configure them for the first time.
+ms.custom: SEO-VS-2020
 ms.date: 09/18/2018
 ms.topic: how-to
 author: mikejo5000

@@ -1,5 +1,7 @@
 ---
 title: Team Explorer reference
+description: Learn about the various functions in Team Explorer to manage work and coordinate with other team members to develop a project.
+ms.custom: SEO-VS-2020
 ms.date: 12/04/2018
 ms.topic: reference
 ms.author: kaelli
@@ -20,7 +22,7 @@ After you [connect to a project](../connect-team-project.md) in **Team Explorer*
 - [Web Portal](/azure/devops/project/navigation/index)
 - [Task Board](/azure/devops/boards/sprints/task-board)
 
-The **Home** page has different functions depending on whether you're connected to a [Git](/azure/devops/repos/git/gitquickstart?view=vsts&tabs=visual-studio) or [Team Foundation Version Control (TFVC)](/azure/devops/repos/tfvc/overview) repository.
+The **Home** page has different functions depending on whether you're connected to a [Git](/azure/devops/repos/git/gitquickstart?view=vsts&tabs=visual-studio&preserve-view=true) or [Team Foundation Version Control (TFVC)](/azure/devops/repos/tfvc/overview) repository.
 
 > [!TIP]
 > For a comparison of the two version control systems, see [Choose the right version control for your project (Azure DevOps)](/azure/devops/repos/tfvc/comparison-git-tfvc).

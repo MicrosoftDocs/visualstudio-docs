@@ -1,5 +1,7 @@
 ---
 title: "Upgrade and migrate Office solutions"
+description: You must upgrade the project to use it in current versions of Visual Studio if you have a Offince project that was created in an earlier version of Visual Studio.
+ms.custom: SEO-VS-2020
 ms.date: "08/14/2019"
 ms.topic: "conceptual"
 dev_langs:
@@ -78,6 +80,6 @@ ms.workload:
  If you want to use ClickOnce to deploy your VSTO Add-in, you can delete the Setup or InstallShield Limited Edition project entirely. For more information about deploying VSTO Add-ins by using ClickOnce, see [Deploy an Office solution](../vsto/deploying-an-office-solution.md).
 
 ## See also
-- [How to: Upgrade Office solutions](https://msdn.microsoft.com/a269e539-b717-4680-a568-2152b070347e)
+- [How to: Upgrade Office solutions](/previous-versions/4bez6837(v=vs.140))
 - [Migrate Office solutions to the .NET Framework 4 or later](../vsto/migrating-office-solutions-to-the-dotnet-framework-4-or-later.md)
 - [Project Upgrade, Options dialog box](../vsto/project-upgrade-options-dialog-box.md)

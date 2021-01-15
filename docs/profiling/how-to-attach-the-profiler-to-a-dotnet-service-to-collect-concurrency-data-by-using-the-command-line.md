@@ -1,6 +1,7 @@
 ---
-title: Attach profiler to .NET service to collect concurrency data
-ms.custom: seodec18
+title: "Attach profiler to .NET to collect concurrency data - Command line"
+titleSuffix: ""
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 ms.assetid: ffbdfe37-8325-44be-bd36-2c8aab2dec7b

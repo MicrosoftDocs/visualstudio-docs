@@ -1,5 +1,7 @@
 ---
 title: How MSBuild builds projects
+description: Learn how MSBuild processes your project files, whether invoked from Visual Studio or from a command line or script.
+ms.custom: SEO-VS-2020
 ms.date: 05/18/2020
 ms.topic: conceptual
 helpviewer_keywords:
@@ -44,7 +46,7 @@ The SDK feature for MSBuild project files is relatively new. Prior to this chang
 
 This section discusses how these input files are processed and parsed to produce in-memory objects that determine what will be built.
 
-The purpose of the evaluation phase is to create the object structures in memory based on the input XML files and local environment. The evaluation phase consists of five passes that process the input files such as the project XML files or, and the imported XML files, generally named as *.props* or *.targets* files, depending on whether they primarily set properties or define build targets. Each pass builds a part of the in-memory objects that are later used in the execution phase to build the projects, but no actual build actions occur during the evaluation phase. Within each pass, elements are processed in the order in which they appear.
+The purpose of the evaluation phase is to create the object structures in memory based on the input XML files and local environment. The evaluation phase consists of six passes that process the input files such as the project XML files or, and the imported XML files, generally named as *.props* or *.targets* files, depending on whether they primarily set properties or define build targets. Each pass builds a part of the in-memory objects that are later used in the execution phase to build the projects, but no actual build actions occur during the evaluation phase. Within each pass, elements are processed in the order in which they appear.
 
 The passes in the evaluation phase are as follows:
 

@@ -28,10 +28,9 @@ You can download the tools from the [Visual Studio Marketplace](https://marketpl
 2. In the **Extensions and Updates** dialog box, select **Online** on the left-hand side.
 3. In the search box in the upper right-hand corner, type or enter "tools for ai".
 4. Select **Visual Studio Tools for AI** from the results.
-5. Click **Download**.
+5. Select **Download**.
 
 ## Prepare your local machine
-
 Before training deep learning models on your local computer, make sure you have the applicable prerequisites installed. This includes making sure you have the latest drivers and libraries for your NVIDIA GPU (if you have one). Also ensure you've installed Python and Python libraries such as NumPy, SciPy, and appropriate deep learning frameworks such as Microsoft Cognitive Toolkit (CNTK), TensorFlow, Caffe2, MXNet, Keras, Theano, PyTorch, and Chainer, that you plan to use in your project.
 
 > [!NOTE]

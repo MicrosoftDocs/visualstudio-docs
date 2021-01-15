@@ -1,5 +1,7 @@
 ---
 title: VSPackage Setup Scenarios | Microsoft Docs
+description: Learn about best practices for supporting side-by-side installations of Visual Studio with either shared or side-by-side installations of your VSPackage.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -68,7 +70,7 @@ In this case, the VSPackage is a managed VSPackage installed in the global assem
 
 ![VS Side-by-Side VS Package Update installer](../../extensibility/internals/media/vs_sbys_packageupdate.gif "VS_SbyS_PackageUpdate")
 
-For more information on deployment of side-by-side assemblies, see [Simplifying Deployment and Solving DLL Hell with the .NET Framework](https://msdn.microsoft.com/library/ms973843.aspx).
+For more information on deployment of side-by-side assemblies, see [Simplifying Deployment and Solving DLL Hell with the .NET Framework](/previous-versions/dotnet/articles/ms973843(v=msdn.10)).
 
 ## See also
 

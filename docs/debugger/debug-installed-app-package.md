@@ -1,6 +1,7 @@
 ---
 title: Debug an installed UWP app package | Microsoft Docs
-ms.custom: 
+description: Debug an installed Universal Windows Platform (UWP) app package in Visual Studio on Windows 10 computers, Xbox, and Internet of Things (IoT) devices.
+ms.custom: SEO-VS-2020
 ms.date: 11/07/2018
 ms.topic: how-to
 f1_keywords: 

@@ -1,7 +1,7 @@
 ---
 title: "Set IDE accessibility options"
 description: "Introduction to setting accessibility options in Visual Studio for Mac"
-author: alanjclark
+author: heiligerdankgesang
 ms.author: dominicn
 ms.date: 09/23/2019
 ms.assetid: 87D22340-2BE6-40EE-ACFD-3CF1BA886175
@@ -12,9 +12,9 @@ ms.topic: how-to
 
 In addition to features built right into macOS, Visual Studio for Mac has a number of accessibility features to enable users of varying abilities.
 
-## Resize pad and editor content
+## Resize tool windows and editor content
 
-1. Choose the pad or window for which you want to resize the content.
+1. Choose the tool window or editor window for which you want to resize the content.
 
 1. Choose **View (menu)**, and then select **Zoom In (&#8984;+)** or **Zoom Out (&#8984;-)**.
 
@@ -23,13 +23,13 @@ In addition to features built right into macOS, Visual Studio for Mac has a numb
 
 ## Change the content font and size
 
-It's possible to customize the font and size of content in most pads in Visual Studio for Mac. Here's how:
+It's possible to customize the font and size of content in most tool windows in Visual Studio for Mac. Here's how:
 
 1. Go to **Visual Studio (menu)** > **Preferences... (&#8984;,)**.
 
 1. In **Preferences**, go to **Environment** > **Fonts**.
 
-1. For either **Text Editor**, **General Pad Text**, or **Output Pad Contents**, select the font and size button.
+1. For either **Text Editor**, **General Tool Window Text**, or **Output Window Contents**, select the font and size button.
 
 1. Select your desired font, style, and size, and select **OK**.
 

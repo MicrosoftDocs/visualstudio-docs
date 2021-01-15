@@ -1,13 +1,12 @@
 - name: MSBuild
-# Auto-expanded node
-
+  href: msbuild.md
   items:
-  - name: MSBuild
-    href: msbuild.md
   - name: What's new in MSBuild 16.0
     href: whats-new-msbuild-16-0.md
   - name: What's new in MSBuild 15.0
     href: what-s-new-in-msbuild-15-0.md
+  - name: Change waves
+    href: change-waves.md
   - name: MSBuild concepts
     items:
     - name: Overview
@@ -443,6 +442,8 @@
       href: common-msbuild-project-properties.md
     - name: Common MSBuild project items
       href: common-msbuild-project-items.md
+    - name: Common MSBuild item metadata
+      href: common-msbuild-item-metadata.md
     - name: MSBuild command-line reference
       href: msbuild-command-line-reference.md
     - name: MSBuild .targets files

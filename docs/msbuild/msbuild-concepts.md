@@ -1,5 +1,7 @@
 ---
 title: MSBuild Concepts | Microsoft Docs
+description: Learn to specify build components and processes by using MSBuild properties, items, tasks, and targets.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

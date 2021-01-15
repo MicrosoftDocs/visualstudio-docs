@@ -1,5 +1,7 @@
 ---
 title: Warnings and errors | Microsoft IntelliTest Developer Test Tool
+description: This article includes IntelliTest warnings and errors, divided into categories, with descriptions for each warning and error.
+ms.custom: SEO-VS-2020
 ms.date: 05/02/2017
 ms.topic: reference
 helpviewer_keywords:
@@ -506,4 +508,4 @@ In some situations, changing a static field is acceptable:
 
 ## Got feedback?
 
-Post your ideas and feature requests on [Developer Community](https://developercommunity.visualstudio.com/content/idea/post.html?space=8).
+Post your ideas and feature requests on [Developer Community](https://aka.ms/feedback/suggest?space=8).

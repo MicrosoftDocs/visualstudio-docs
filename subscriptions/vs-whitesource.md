@@ -1,10 +1,10 @@
 ---
-title: WhiteSource Bolt Benefit | Microsoft Docs
+title: WhiteSource Bolt in Visual Studio subscriptions | Microsoft Docs
 author: evanwindom
 ms.author: v-evwin
-manager: lank
+manager: cabuschl
 ms.assetid: 5e5d3f1a-533d-42eb-960e-01bb6bc7ca16
-ms.date: 04/20/2020
+ms.date: 12/02/2020
 ms.topic: how-to
 description:  Learn how to activate the WhiteSource Bolt subscription included with your Visual Studio subscription.
 ---
@@ -18,11 +18,11 @@ Find and fix open source vulnerabilities and generate comprehensive inventory an
 
 2. Locate the WhiteSource Bolt tile in the Tools section, and click on the **Get Code** link at the bottom of the benefit tile.
    > [!div class="mx-imgBorder"]
-   > ![WhiteSource Benefit Tile](_img/vs-whitesource/vs-whitesource-tile.png)
+   > ![WhiteSource Benefit Tile](_img/vs-whitesource/vs-whitesource-tile.png "Click 'Get Code' on the WhiteSource Bolt tile to get started.")
 
 3. You’ll receive a notification displaying your activation code.  **Copy the code to your clipboard**, then click **Activate**.
    > [!div class="mx-imgBorder"]
-   > ![WhiteSource Benefit Code ](_img/vs-whitesource/vs-whitesource-code.png)
+   > ![WhiteSource Benefit Code ](_img/vs-whitesource/vs-whitesource-code.png "Copy the code to your clipboard, then click 'Activate'.")
 
 4. On the **Activate your account** page, click the **install** link in step 1.
 5. Click **Get it free** in the Visual Studio Marketplace.
@@ -37,9 +37,9 @@ Find and fix open source vulnerabilities and generate comprehensive inventory an
 | Subscription Level                                                 |     Channels                                            | Benefit                                                          | Renewable?    |
 |--------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------|---------------|
 | Visual Studio Enterprise (Standard)   | VL, Azure, Retail,  selected NFR<sup>1</sup> | 6 months       |  Yes       |
-| Visual Studio Enterprise with GitHub Enterprise | VL | 6 months       |  Yes       |
+| Visual Studio Enterprise subscription with GitHub Enterprise | VL | 6 months       |  Yes       |
 | Visual Studio Professional (Standard) | VL, Azure, Retail                                       | Not available                                                           |NA         |
-| Visual Studio Professional with GitHub Enterprise | VL                                      | Not available                                                           |NA         |
+| Visual Studio Professional subscription with GitHub Enterprise | VL                                      | Not available                                                           |NA         |
 | Visual Studio Test Professional (Standard)                         | VL, Retail                                              | Not available                                                           |NA         |
 | MSDN Platforms (Standard)                                          | VL, Retail                                              | Not available                                                           |NA         |
 | Visual Studio Enterprise, Visual Studio Professional (monthly cloud) | Azure                                       | Not available                                                           |NA|
@@ -56,10 +56,10 @@ Find and fix open source vulnerabilities and generate comprehensive inventory an
 - Have a question about Visual Studio IDE, Azure DevOps Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).
 
 ## See also
-- [Visual Studio documentation](https://docs.microsoft.com/visualstudio/)
-- [Azure DevOps documentation](https://docs.microsoft.com/azure/devops/)
-- [Azure documentation](https://docs.microsoft.com/azure/)
-- [Microsoft 365 documentation](https://docs.microsoft.com/microsoft-365/)
+- [Visual Studio documentation](/visualstudio/)
+- [Azure DevOps documentation](/azure/devops/)
+- [Azure documentation](/azure/)
+- [Microsoft 365 documentation](/microsoft-365/)
 
 ## Next steps
 Be sure to activate these great benefits to make the most of your Visual Studio subscription:

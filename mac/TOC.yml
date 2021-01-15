@@ -32,8 +32,6 @@
   items: 
     - name: Customizing the look and feel of IDE
       href: customizing-the-ide.md
-    - name: Extending Visual Studio for Mac
-      href: extending-visual-studio-mac.md
 - name: Projects and Solutions
   items: 
     - name: Overview
@@ -92,6 +90,10 @@
       href: data-visualizations.md
     - name: Debugging NuGet packages with Source Link
       href: source-link.md
+- name: Testing
+  items: 
+    - name: Overview
+      href: testing.md
 - name: Compiling and Building
   items: 
     - name: Overview
@@ -167,21 +169,9 @@
         - name: Create a Multi-Container App with Docker Compose
           href: docker-multi-container.md
     - name: Unity Game Development
-      items: 
-        - name: Unity Game Development
-          href: unity-tools.md
-        - name: Setup
-          href: setup-vsmac-tools-unity.md
-        - name: Getting Started with Unity
-          href: unity-walkthrough.md
-        - name: Using Unity Tools
-          href: using-vsmac-tools-unity.md
-        - name: Using .NET 4.x in Unity
-          href: /visualstudio/cross-platform/unity-scripting-upgrade?context=visualstudio/mac/context
-        - name: Change Log
-          href: /visualstudio/cross-platform/change-log-visual-studio-tools-for-unity-mac?context=visualstudio/mac/context
+      href: /visualstudio/gamedev/unity/get-started/visual-studio-tools-for-unity
     - name: Mobile apps with Xamarin
-      href: /visualstudio/mac/xamarin
+      href: ./xamarin.md
 - name: Accessibility
   items: 
     - name: Overview
@@ -212,6 +202,8 @@
       href: visual-studio-experience-improvement-program.md
     - name: Report a Problem
       href: report-a-problem.md
+    - name: "Troubleshooting: How do I release a new version of my existing extension?"
+      href: migrate-extensions.md
     - name: "Troubleshooting: Does Visual Studio for Mac support Team Foundation Version Control?"
       href: tf-version-control.md
     - name: "Troubleshooting: Why can I not see all templates?"

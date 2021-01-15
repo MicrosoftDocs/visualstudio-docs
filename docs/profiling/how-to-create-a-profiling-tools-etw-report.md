@@ -1,5 +1,5 @@
 ---
-title: How to - Create a Profiling Tools ETW Report | Microsoft Docs
+title: Create a Profiling Tools ETW Report | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: how-to
 ms.assetid: bf5547b3-f6c7-4989-9d47-2fe4f1261444

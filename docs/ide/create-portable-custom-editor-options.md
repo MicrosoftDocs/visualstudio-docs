@@ -1,16 +1,18 @@
 ---
 title: EditorConfig settings
-ms.date: 08/01/2018
+description: Learn how to add an EditorConfig file to your project or codebase to enforce consistent coding styles for everyone that works in the codebase.
+ms.custom: SEO-VS-2020
+ms.date: 09/02/2020
 ms.topic: how-to
 helpviewer_keywords:
 - editorconfig [Visual Studio]
-author: TerryGLee
-ms.author: tglee
+author: mikadumont
+ms.author: midumont
 manager: jillfra
 ---
 # Create portable, custom editor settings with EditorConfig
 
-You can add an [EditorConfig](https://editorconfig.org/) file to your project or codebase to enforce consistent coding styles for everyone that works in the codebase. EditorConfig settings take precedence over global Visual Studio text editor settings. This means that you can tailor each codebase to use text editor settings that are specific to that project. You can still set your own personal editor preferences in the Visual Studio **Options** dialog box. Those settings apply whenever you're working in a codebase without an *.editorconfig* file, or when the *.editorconfig* file doesn't override a particular setting. An example of such a preference is indent style&mdash;tabs or spaces.
+You can add an EditorConfig file to your project or codebase to enforce consistent coding styles for everyone that works in the codebase. EditorConfig settings take precedence over global Visual Studio text editor settings. This means that you can tailor each codebase to use text editor settings that are specific to that project. You can still set your own personal editor preferences in the Visual Studio **Options** dialog box. Those settings apply whenever you're working in a codebase without an *.editorconfig* file, or when the *.editorconfig* file doesn't override a particular setting. An example of such a preference is indent style&mdash;tabs or spaces.
 
 EditorConfig settings are supported by numerous code editors and IDEs, including Visual Studio. It's a portable component that travels with your code, and can enforce coding styles even outside of Visual Studio.
 
@@ -62,7 +64,7 @@ The editor in Visual Studio supports the core set of [EditorConfig properties](h
 - insert\_final_newline
 - root
 
-EditorConfig editor settings are supported in all Visual Studio-supported languages except for XML. In addition, EditorConfig supports [code style](../ide/editorconfig-code-style-settings-reference.md) conventions including [language](../ide/editorconfig-language-conventions.md), [formatting](../ide/editorconfig-formatting-conventions.md), and [naming](../ide/editorconfig-naming-conventions.md) conventions for C# and Visual Basic.
+EditorConfig editor settings are supported in all Visual Studio-supported languages except for XML. In addition, EditorConfig supports [code style](/dotnet/fundamentals/code-analysis/code-style-rule-options) conventions including [language](/dotnet/fundamentals/code-analysis/style-rules/language-rules), [formatting](/dotnet/fundamentals/code-analysis/style-rules/formatting-rules), and [naming](/dotnet/fundamentals/code-analysis/style-rules/naming-rules) conventions for C# and Visual Basic.
 
 ## Add and remove EditorConfig files
 
@@ -84,7 +86,7 @@ If you remove an EditorConfig file from your project or codebase and you want ne
 
    ![EditorConfig file item templates in Visual Studio](media/editorconfig-item-templates.png)
 
-1. Select the **editorconfig File (default)** template to add an EditorConfig file prepopulated with two core EditorConfig options for indent style and size. Or, select the **editorconfig File (.NET)** template to add an EditorConfig file prepopulated with default [.NET code style, formatting, and naming conventions](../ide/editorconfig-code-style-settings-reference.md).
+1. Select the **editorconfig File (default)** template to add an EditorConfig file prepopulated with two core EditorConfig options for indent style and size. Or, select the **editorconfig File (.NET)** template to add an EditorConfig file prepopulated with default [.NET code style, formatting, and naming conventions](/dotnet/fundamentals/code-analysis/code-style-rule-options).
 
    An *.editorconfig* file appears in Solution Explorer, and it opens in the editor.
 
@@ -174,7 +176,7 @@ You can control the scope of your EditorConfig conventions by setting the ```roo
 
 ## See also
 
-- [.NET code style conventions](../ide/editorconfig-code-style-settings-reference.md)
+- [.NET code style conventions](/dotnet/fundamentals/code-analysis/code-style-rule-options)
 - [Supporting EditorConfig for a language service](../extensibility/supporting-editorconfig.md)
 - [EditorConfig.org](https://editorconfig.org/)
 - [Features of the code editor](writing-code-in-the-code-and-text-editor.md)

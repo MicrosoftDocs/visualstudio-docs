@@ -1,5 +1,7 @@
 ---
 title: Incremental Builds | Microsoft Docs
+description: Learn about MSBuild incremental builds, which are optimized so that up-to-date output files aren't executed.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

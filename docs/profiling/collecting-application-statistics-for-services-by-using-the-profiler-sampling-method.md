@@ -1,5 +1,7 @@
 ---
-title: Collect application stats using profiler sampling method
+title: Collect stats for Windows services - profiler sampling method
+description: Review procedures and options to collect performance statistics for Windows services using the profiling sampling method from the command line.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 ms.assetid: 07840ab2-3a92-4744-ac87-48b19e0ceecd

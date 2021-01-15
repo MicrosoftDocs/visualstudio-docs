@@ -1,5 +1,7 @@
 ---
 title: Best Practices for Security in VSPackages | Microsoft Docs
+description: Learn about the best practices for security in a VSPackage, the basic unit of security and deployment for a Visual Studio application.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -25,5 +27,5 @@ To install the [!INCLUDE[vsipsdk](../../extensibility/includes/vsipsdk_md.md)] o
  For more information, see [Secure coding guidelines for the .NET Framework](/previous-versions/visualstudio/visual-studio-2008/d55zzx87(v=vs.90)).
 
 ## See also
-- [Add-in security](https://msdn.microsoft.com/Library/44a5c651-6246-4310-b371-65378917c799)
-- [DDEX security](https://msdn.microsoft.com/library/44a52a70-5c98-450e-993d-4a3b32f69ba8)
+- [Add-in security](/previous-versions/1326zbk3(v=vs.140))
+- [DDEX security](/previous-versions/bb163703(v=vs.140))

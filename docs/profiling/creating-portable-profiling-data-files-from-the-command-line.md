@@ -1,5 +1,6 @@
 ---
-title: Creating Portable Profiling Data Files from the Command Line | Microsoft Docs
+title: Profiling command line - Create portable data files
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 ms.assetid: 2ceb63a7-b835-4988-b756-2afc3fcc4808

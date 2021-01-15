@@ -1,5 +1,7 @@
 ---
-title: How to - Verify IIS Property Settings | Microsoft Docs
+title: Verify IIS Property Settings | Microsoft Docs
+description: Learn how to verify IIS property settings that you set for a web application using the IIS administration tool.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 
@@ -53,7 +55,7 @@ You can set the properties for a Web application using the IIS administration to
 
    3. Click **OK** to close the **Authentication Methods** dialog box.
 
-5. For an ATL Server application, verify that the DEBUG verb is associated with your ISAPI extension. For more information, see [How to: Associate DEBUG Verb with Extension](https://msdn.microsoft.com/library/50d261d3-4bd4-41c0-b44e-3591086f121e).
+5. For an ATL Server application, verify that the DEBUG verb is associated with your ISAPI extension. For more information, see [How to: Associate DEBUG Verb with Extension](/previous-versions/ms165022(v=vs.100)).
 
 6. For an [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] application, make sure the virtual folder for the application has an Application Name set in **Internet Information Services (IIS) Manager**, **Internet Services Manager** or **Internet Information Services**.
 

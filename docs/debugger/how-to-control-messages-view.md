@@ -1,5 +1,7 @@
 ---
-title: How to - Control Messages View | Microsoft Docs
+title: Control Messages View | Microsoft Docs
+Description: You can choose the windows and messages types shown in a Messages View window, and the display format for message lines. See this article for details.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords: 

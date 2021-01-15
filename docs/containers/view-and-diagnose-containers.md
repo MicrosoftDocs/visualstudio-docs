@@ -1,5 +1,5 @@
 ---
-title: Docker container logs, environment variables, and filesystem access
+title: View and diagnose Docker containers and images
 description: Describes how to improve your ability to debug and diagnose your container-based apps in Visual Studio by using a tool window  to see what's going on inside the containers that host your app.
 author: ghogen
 ms.author: ghogen
@@ -21,7 +21,7 @@ You can view what's going on inside the containers that host your app by using t
 
 The **Containers** window opens automatically when you start a containerized .NET project. To view your containers in Visual Studio at any time, use **Ctrl**+**Q** to activate the Visual Studio Search box, and type `Containers` and choose the first item. You can also open the **Containers** window from the main menu. Use the menu path  **View** > **Other Windows** > **Containers**.  
 
-![Screenshot of Environment tab in Containers window](media/view-and-diagnose-containers/container-window.png)
+![Screenshot of the Containers window in Visual Studio with a container selected in the left pane, and the Environment tab selected in the right pane.](media/view-and-diagnose-containers/container-window.png)
 
 On the left side, you see the list of containers on your local machine. The containers associated with your solution are shown under **Solution Containers**. To the right, you see a pane with tabs for **Environment**, **Ports**, **Logs**, and **Files**.
 
@@ -32,7 +32,7 @@ On the left side, you see the list of containers on your local machine. The cont
 
 The **Environment** tab shows the environment variables in the container. For your app's container, you can set these variables in many ways, for example, in the Dockerfile, in a .env file, or by using the -e option when you start a container using a Docker command.
 
-![Screenshot of Environment tab in Containers window](media/view-and-diagnose-containers/containers-environment-vars.png)
+![Screenshot of the Containers window in Visual Studio showing the Environment variables for the container WebApplication11.](media/view-and-diagnose-containers/containers-environment-vars.png)
 
 > [!NOTE]
 > Any changes to the environment variables aren't reflected in real time. Also, the environment variables in this tab are the system environment variables on the container, and do not reflect user environment variables local to the app.
@@ -104,6 +104,6 @@ Learn more about the Container Tools available in Visual Studio by reading the [
 
 ## See also
 
-[Container Development in Visual Studio](/visualstudio/containers)
+[Container Development in Visual Studio](./index.yml)
 
 [Extensions Marketplace for Visual Studio](https://marketplace.visualstudio.com/)

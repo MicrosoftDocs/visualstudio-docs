@@ -1,5 +1,7 @@
 ---
 title: "Grant trust to documents"
+description: Learn how a document-level project has the same security requirements as application-level projects, like signing the manifests with a certificate or clicking the trust prompt.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -35,7 +37,7 @@ ms.workload:
 
 - Although the document itself is trusted by using the trusted locations, additional permissions are needed to trust the customization. You can grant full trust to the customization by using signing the manifests with a certificate, clicking the trust prompt, or installing the Office solution to the *Program Files* directory.
 
-- You can store the document or workbook of a document-level solution in the same directory as the assembly, or in a different directory. For example, the document could be located on a SharePoint server and the assembly could be located on a network file share. For more information, see [How to: Publish a document-level Office solution to a SharePoint server by using ClickOnce](https://msdn.microsoft.com/2408e809-fb78-42a1-9152-00afa1522e58).
+- You can store the document or workbook of a document-level solution in the same directory as the assembly, or in a different directory. For example, the document could be located on a SharePoint server and the assembly could be located on a network file share. For more information, see [How to: Publish a document-level Office solution to a SharePoint server by using ClickOnce](/previous-versions/bb608595(v=vs.110)).
 
 ## See also
 - [Grant trust to Office solutions](../vsto/granting-trust-to-office-solutions.md)

@@ -1,10 +1,10 @@
 ---
 title: Signing in to Visual Studio Subscriptions May Fail When Using Aliases | Microsoft Docs
 author: evanwindom
-ms.author: lank
-manager: lank
+ms.author: v-evwin
+manager: cabuschl
 ms.assetid: 97bf7474-c6c2-49b3-b2c9-f1b2808eed1a
-ms.date: 03/02/2020
+ms.date: 10/22/2020
 ms.topic: conceptual
 description: Sign-in may fail if aliases or friendly names are used
 ---
@@ -28,10 +28,10 @@ A UPN mismatch can be encountered when a company has an Active Directory set up 
 
 1. Sign into https://my.visualstudio.com/subscriptions using the sign-in address mentioned in your subscription assignment email.
 
-2. Verify that the sign-in email address listed at the top right of the page matches the address you used to sign in.  If it does not, your UPN is mismatched and you will not be able to view your subscription. 
+2. Click on your name in the upper right corner of the page.  This will open your profile.  Verify that the sign-in email address listed in your profile matches the address you used to sign in.  If it does not, your UPN is mismatched and you will not be able to view your subscription. 
 
 > [!div class="mx-imgBorder"]
-> ![Sign in email address](_img//aliasing/sign-in-email.png "Be sure the email address displayed in the top right matches the one you use to sign in.")
+> ![Sign in email address](_img//aliasing/sign-in-email.png "Be sure the email address displayed in your profile matches the one you use to sign in.")
 
 #### How to fix a UPN mismatch
 
@@ -72,7 +72,7 @@ The Visual Studio platform prioritizes the primary alias to show subscription de
 
 ## Preventing aliasing issues
 
-As an administrator, there are two options to ensure your subscribers have a successful sign-in experience on [https://my.visualstudio.com](https://my.visualstudio.com?wt.mc_id=o~msft~docs).
+As an admin, there are two options to ensure your subscribers have a successful sign-in experience on [https://my.visualstudio.com](https://my.visualstudio.com?wt.mc_id=o~msft~docs).
 - The first option (recommended), is to leverage the directory account as the sign-in for the Visual Studio Subscriptions portal at https://my.visualstudio.com.  
 - The second option (less secure), is to allow your subscribers to sign in using a different email address than their directory email address.
 
@@ -81,16 +81,16 @@ Both of these options are configured in the admin portal by completing the follo
 
 0. If you are altering a single user, select that user in the table and right click to edit. This will open a panel where you can modify the sign-in email address. Make the necessary updates in the sign-in email address field. Click save and the changes will take effect.  
 
-0. If you need to make these changes to a large quantity of users, you can utilize the bulk edit feature. Read the [Edit multiple subscribers using bulk edit](https://docs.microsoft.com/visualstudio/subscriptions/edit-license#edit-multiple-subscribers-using-bulk-edit) article for more information.
+0. If you need to make these changes to a large quantity of users, you can utilize the bulk edit feature. Read the [Edit multiple subscribers using bulk edit](./edit-license.md#edit-multiple-subscribers-using-bulk-edit) article for more information.
 
 > [!NOTE]
 > For both individual and bulk changes, the subscribers will receive an email with instructions that their sign-in email address has changed and they will need to sign in using the updated email address. It’s also important to note that if the subscriber previously activated benefits under the other sign-in address, they’ll need to continue using the other sign-in address to access them.  
 
 ## See also
-- [Visual Studio documentation](https://docs.microsoft.com/visualstudio/)
-- [Azure DevOps documentation](https://docs.microsoft.com/azure/devops/)
-- [Azure documentation](https://docs.microsoft.com/azure/)
-- [Microsoft 365 documentation](https://docs.microsoft.com/microsoft-365/)
+- [Visual Studio documentation](/visualstudio/)
+- [Azure DevOps documentation](/azure/devops/)
+- [Azure documentation](/azure/)
+- [Microsoft 365 documentation](/microsoft-365/)
 
 
 ## Next steps
@@ -99,5 +99,3 @@ Learn more about managing Visual Studio subscriptions.
 - [Assign multiple subscriptions](assign-license-bulk.md)
 - [Edit subscriptions](edit-license.md)
 - [Determine maximum usage](maximum-usage.md)
-
-

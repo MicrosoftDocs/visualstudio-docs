@@ -1,6 +1,7 @@
 ---
 title: Write a run-time error reporting function | Microsoft Docs
-ms.custom: seodec18
+description: See examples of writing a custom run-time error reporting function in Visual Studio. It must have the same declaration as _CrtDbgReportW and return a value of 1.
+ms.custom: "SEO-VS-2020, seodec18"
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 
@@ -24,7 +25,7 @@ A custom reporting function for run-time errors must have the same declaration a
 
 The following example shows how to define a custom reporting function.
 
-## Example
+## Example 1
 
 ```cpp
 #include <stdio.h>
@@ -55,7 +56,7 @@ int MyErrorFunc(int errorType, const wchar_t *filename,
 }
 ```
 
-## Example
+## Example 2
 The following example shows a more complex custom reporting function. In this example, the switch statement handles various error types, as defined by the `reportType` parameter of `_CrtDbgReportW`. Because you are replacing `_CrtDbgReportW`, you cannot use `_CrtSetReportMode`. Your function must handle the output. The first variable argument in this function takes a run-time error number. For more information, see [_RTC_SetErrorType](/cpp/c-runtime-library/reference/rtc-seterrortype).
 
 ```cpp
@@ -100,7 +101,7 @@ int Catch_RTC_Failure(int errType, const wchar_t *file, int line,
 #pragma runtime_checks("", restore)
 ```
 
-## Example
+## Example 3
 Use `_RTC_SetErrorFuncW` to install your custom function in place of `_CrtDbgReportW`. For more information, see [_RTC_SetErrorFuncW](/cpp/c-runtime-library/reference/rtc-seterrorfuncw). The `_RTC_SetErrorFuncW` return value is the previous reporting function, which you can save and restore if necessary.
 
 ```cpp

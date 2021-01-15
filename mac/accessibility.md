@@ -1,7 +1,7 @@
 ---
 title: "Accessibility"
 description: "Introduction of accessibility features in Visual Studio for Mac and how they can be enabled."
-author: alanjclark
+author: heiligerdankgesang
 ms.author: dominicn
 ms.date: 09/23/2019
 ms.assetid: 2C4AAC2E-3B4A-4496-8BE0-1F5A7F81D1CA
@@ -10,10 +10,10 @@ ms.topic: overview
 
 # Accessibility
 
-There are a number of accessibility tools and features built right into macOS that will assist you to use with Visual Studio for Mac.  In addition to these, Visual Studio for Mac also has the following features to make it more accessible for people of varying abilities:
+There are a number of accessibility tools and features built right into macOS to assist you when using Visual Studio for Mac.  In addition to these, Visual Studio for Mac also has the following features to make it more accessible for people of varying abilities:
 
 * Editor text enlargement
-* Pad text enlargement
+* Tool window text enlargement
 * Code editor color theme customization
 * Keyboard shortcut customization
 * Keyboard navigation

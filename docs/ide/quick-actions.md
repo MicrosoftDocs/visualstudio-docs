@@ -1,5 +1,7 @@
 ---
 title: Quick Actions, light bulbs, and screwdrivers
+description: Learn how to use a single Quick Action to refactor, generate, or otherwise modify your code.
+ms.custom: SEO-VS-2020
 ms.date: 03/28/2018
 ms.topic: conceptual
 author: TerryGLee
@@ -21,7 +23,7 @@ Quick Actions can be used to:
 
 ::: moniker range=">=vs-2019"
 
-- [Suppress](../code-quality/use-roslyn-analyzers.md#suppress-violations) a code analyzer rule violation or [configure](../code-quality/use-roslyn-analyzers.md#automatically-configure-rule-severity) its severity
+- [Suppress](../code-quality/use-roslyn-analyzers.md#suppress-violations) a code analyzer rule violation or [configure](../code-quality/use-roslyn-analyzers.md#set-rule-severity-from-the-light-bulb-menu) its severity
 
 ::: moniker-end
 

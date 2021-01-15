@@ -1,5 +1,7 @@
 ---
-title: How to - Use the WPF Tree Visualizer | Microsoft Docs
+title: Use the WPF Tree Visualizer | Microsoft Docs
+description: Use the Windows Presentation Foundation (WPF) visualizer to explore the visual tree of a WPF object and to view the WPF dependency properties in Visual Studio.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 

@@ -1,5 +1,5 @@
 ---
-title: "Error - Timeout While Debugging Web Services | Microsoft Docs"
+title: "Timeout While Debugging Web Services | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "error-reference"
 dev_langs:

@@ -1,16 +1,18 @@
 ---
 title: Assign specific GUIDs to Visual Studio subscribers | Microsoft Docs
 author: evanwindom
-ms.author: lank
-manager: lank
-ms.date: 04/20/2020
+ms.author: v-evwin
+manager: cabuschl
+ms.date: 10/22/2020
 ms.topic: conceptual
-description:  Learn how administrators can specific subscription GUID to subscribers
+description:  Learn how admins can specific subscription GUID to subscribers
 ---
 
 # Assign specific subscriptions in the Visual Studio Subscriptions Administration Portal
 
-Administrators can now use the Visual Studio Subscriptions Administration Portal to assign specific subscriptions to individual subscribers.  This can be useful in situations where the organization has temporary staff or vendors that need access to a subscription for a short period.  Administrators can assign a subscription that has already been partially used, leaving their new subscriptions for longer term use.  
+Admins can now use the Visual Studio Subscriptions Administration Portal to assign specific subscriptions to individual subscribers.  This can be useful in situations where the organization has temporary staff or vendors that need access to a subscription for a short period.  Admins can assign a subscription that has already been partially used, leaving their new subscriptions for longer term use.  
+
+Watch the video or read on to learn how assign specific subscriptions GUIDs to users. 
 
 <br>
 
@@ -19,7 +21,7 @@ Administrators can now use the Visual Studio Subscriptions Administration Portal
 
 ## Assign specific subscription GUIDs to users
 
-The process for assigning specific subscriptions to individuals involves leveraging two existing administration processes to assign specific subscription Globally Unique Identifiers (GUIDs) to individual users.  The three-step process includes exporting a list of your current subscriptions and assignments, using that list to identify the specific GUIDs you want to assign, and then using the bulk add process to upload the new assignments.
+The process for assigning specific subscriptions to individuals involves leveraging two existing admin processes to assign specific subscription Globally Unique Identifiers (GUIDs) to individual users.  The three-step process includes exporting a list of your current subscriptions and assignments, using that list to identify the specific GUIDs you want to assign, and then using the bulk add process to upload the new assignments.
 
 ### Export your subscriptions information
 
@@ -52,7 +54,7 @@ The final step is to download the **Bulk add** template, fill out the required i
 > - The GUID is not already assigned to another user in the exported list. 
 
 ## Frequently asked questions
-### Q:How do I change which subscription is currently assigned to an individual user?
+### Q: How do I change which subscription is currently assigned to an individual user?
 A: If you want to change which GUID is assigned to a user, you must first delete the subscription for that user.  For more information, please see our [Delete subscriptions](delete-license.md) article for more information.  After deleting the subscription for that user, use the process outlined above to export the list and upload the new subscription information.  
 
 ## See also
@@ -62,7 +64,7 @@ A: If you want to change which GUID is assigned to a user, you must first delete
 - [Microsoft 365 documentation](/microsoft-365/)
 
 ## Next steps
-Now that you have assigned subscriptions to users, find out how to perform other administration tasks.
+Now that you have assigned subscriptions to users, find out how to perform other admin tasks.
 - [Assign individual subscriptions](assign-license.md)
 - [Assign multiple subscriptions](assign-license-bulk.md)
 - [Edit subscriptions](edit-license.md)

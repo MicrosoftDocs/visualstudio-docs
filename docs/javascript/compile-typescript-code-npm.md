@@ -1,6 +1,6 @@
 ---
 title: Compile and build TypeScript code using npm
-description: Learn how to compile and build TypeScript in Visual Studio.
+description: Learn how to add Typescript support to your Visual Studio projects by using the Node Package Manager (npm).
 ms.date: 7/23/2020
 ms.topic: conceptual
 author: "mikejo5000"
@@ -21,7 +21,7 @@ For ASP.NET Core projects, it is recommended that you use the [NuGet package](..
 
 The [TypeScript npm package](https://www.npmjs.com/package/typescript) adds TypeScript support. When the npm package for TypeScript 2.1 or higher is installed into your project, the corresponding version of the TypeScript language service gets loaded in the editor.
 
-1. [Follow instructions](/visualstudio/ide/quickstart-nodejs?toc=/visualstudio/javascript/toc.json) to install the Node.js development workload and the Node.js runtime.
+1. [Follow instructions](../ide/quickstart-nodejs.md?toc=%252fvisualstudio%252fjavascript%252ftoc.json) to install the Node.js development workload and the Node.js runtime.
 
    For the simplest integration with Visual Studio, create your project using one of the Node.js TypeScript templates, such as the Blank Node.js Web Application template. Otherwise, use either a Node.js JavaScript template included with Visual Studio and follow instructions here, or use an [Open Folder](../javascript/develop-javascript-code-without-solutions-projects.md) project.
 
@@ -103,9 +103,13 @@ The [TypeScript npm package](https://www.npmjs.com/package/typescript) adds Type
 
    Although the app builds automatically when you run it, we want to take a look at something that happens during the build process:
 
-   If you generated source maps, open the folder specified in the *outDir* option and you find the generated *.js file(s) along with the generated *js.map file(s).
+   If you generated source maps, open the folder specified in the *outDir* option and you find the generated \*.js file(s) along with the generated \*js.map file(s).
 
    Source map files are required for [debugging](../javascript/debug-nodejs.md).
+
+### Run the application
+
+For instructions to run the app after you compile it, see [Create your first Node.js app](../ide/quickstart-nodejs.md?toc=%252fvisualstudio%252fjavascript%252ftoc.json#run-the-application).
 
 ## Automate build tasks
 

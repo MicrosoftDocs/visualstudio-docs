@@ -1,5 +1,7 @@
 ---
 title: Authoring .Vsct Files | Microsoft Docs
+description: Learn how to author .vsct files that add menu items, toolbars, and other UI elements to the Visual Studio integrated development environment (IDE).
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -102,7 +104,7 @@ This document shows how to author a *.vsct* file to add menu items, toolbars, an
        > [!NOTE]
        > Toolbar buttons must have icons.
 
-   For more information, see [MenuCommands vs. OleMenuCommands](/visualstudio/misc/menucommands-vs-olemenucommands?view=vs-2015).
+   For more information, see [MenuCommands vs. OleMenuCommands](/previous-versions/visualstudio/visual-studio-2015/misc/menucommands-vs-olemenucommands?preserve-view=true&view=vs-2015).
 
 4. If any of your commands require icons, add a [Bitmaps](../../extensibility/bitmaps-element.md) element to the `Commands` element. Then, for each icon, add a [Bitmap](../../extensibility/bitmap-element.md) element to the `Bitmaps` element. This is where you specify the location of the bitmap resource. For more information, see [Add icons to menu commands](../../extensibility/adding-icons-to-menu-commands.md).
 

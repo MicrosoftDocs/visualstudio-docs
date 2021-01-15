@@ -1,6 +1,7 @@
 ---
 title: Manage exceptions with the debugger | Microsoft Docs
-ms.custom: seodec18
+description: Learn how to specify which exceptions the debugger breaks on, at which point you want the debugger to break, and how breaks are handled.
+ms.custom: "SEO-VS-2020, seodec18"
 ms.date: 10/09/2018
 ms.topic: how-to
 f1_keywords: 
@@ -219,5 +220,4 @@ To add conditional exceptions:
 - [Continue execution after an exception](../debugger/continuing-execution-after-an-exception.md)<br/>
 - [How to: Examine system code after an exception](../debugger/how-to-examine-system-code-after-an-exception.md)<br/>
 - [How to: Use native run-time checks](../debugger/how-to-use-native-run-time-checks.md)<br/>
-- [Use run-time checks without the C run-time library](../debugger/using-run-time-checks-without-the-c-run-time-library.md)<br/>
 - [First look at the debugger](../debugger/debugger-feature-tour.md)

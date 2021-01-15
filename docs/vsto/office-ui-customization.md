@@ -1,5 +1,7 @@
 ---
 title: "Office UI customization"
+description: Learn how you can customize the user interface (UI) of Microsoft Office applications by using the Office developer tools in Visual Studio.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -40,7 +42,7 @@ ms.workload:
 |Feature|Supported project types|Supported Microsoft Office applications|
 |-------------|-----------------------------|---------------------------------------------|
 |Actions pane|Document-level customizations|Excel<br /><br /> Word|
-|Custom task panes|VSTO Add-ins|Excel<br /><br /> [!INCLUDE[InfoPath_15_short](../vsto/includes/infopath-15-short-md.md)]<br /><br /> [!INCLUDE[InfoPath_14_short](../vsto/includes/infopath-14-short-md.md)]<br /><br /> Outlook<br /><br /> PowerPoint<br /><br /> Word<br /><br /> Excel|
+|Custom task panes|VSTO Add-ins|Excel<br /><br /> [!INCLUDE[InfoPath_15_short](../vsto/includes/infopath-15-short-md.md)]<br /><br /> [!INCLUDE[InfoPath_14_short](../vsto/includes/infopath-14-short-md.md)]<br /><br /> Outlook<br /><br /> PowerPoint<br /><br /> Word|
 |Custom Ribbon UI|Document-level customizations<br /><br /> VSTO Add-ins|Excel<br /><br /> [!INCLUDE[InfoPath_15_short](../vsto/includes/infopath-15-short-md.md)]<br /><br /> [!INCLUDE[InfoPath_14_short](../vsto/includes/infopath-14-short-md.md)]<br /><br /> Outlook<br /><br /> PowerPoint<br /><br /> Project<br /><br /> Word<br /><br /> Visio|
 |Backstage view|Document-level customizations<br /><br /> VSTO Add-ins|Excel<br /><br /> [!INCLUDE[InfoPath_15_short](../vsto/includes/infopath-15-short-md.md)].<br /><br /> [!INCLUDE[InfoPath_14_short](../vsto/includes/infopath-14-short-md.md)]<br /><br /> Outlook<br /><br /> PowerPoint<br /><br /> Project<br /><br /> Word<br /><br /> Visio|
 |Outlook form regions|VSTO Add-ins|Outlook|

@@ -1,5 +1,7 @@
 ---
-title: How to - Display Message Properties | Microsoft Docs
+title: Display Message Properties | Microsoft Docs
+description: Messages View displays the message stream of a window, process, or thread. Learn how to display the properties of a message that appears in Messages View.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords: 

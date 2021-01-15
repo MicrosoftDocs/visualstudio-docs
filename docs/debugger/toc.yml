@@ -6,8 +6,6 @@
     href: what-is-debugging.md
   - name: Debugging techniques and tools
     href: write-better-code-with-visual-studio.md
-  - name: Find your debugging task
-    href: find-your-debugging-task.md
 - name: Quickstarts
   items:
   - name: First look at the debugger
@@ -21,11 +19,11 @@
 - name: Tutorials
   items:
   - name: Learn to debug C#
-    href: /visualstudio/get-started/csharp/tutorial-debugger?toc=/visualstudio/debugger/toc.json
+    href: ../get-started/csharp/tutorial-debugger.md?toc=%252fvisualstudio%252fdebugger%252ftoc.json
   - name: Learn to debug C++
     href: getting-started-with-the-debugger-cpp.md
   - name: Learn to debug Visual Basic
-    href: /visualstudio/get-started/visual-basic/tutorial-debugger?toc=/visualstudio/debugger/toc.json
+    href: ../get-started/visual-basic/tutorial-debugger.md?toc=%252fvisualstudio%252fdebugger%252ftoc.json
   - name: Running Python code in the debugger...
     href: ../python/tutorial-working-with-python-in-visual-studio-step-04-debugging.md
   - name: Debug a live Azure app
@@ -156,8 +154,6 @@
     items:
     - name: Debugger tips and tricks
       href: debugger-tips-and-tricks.md
-    - name: Attach to running processes with the debugger
-      href: attach-to-running-processes-with-the-visual-studio-debugger.md
     - name: Debug at design time
       href: walkthrough-debugging-at-design-time.md
     - name: Just-In-Time Debugger
@@ -184,8 +180,6 @@
           href: native-run-time-checks-customization.md
         - name: Write a run-time error reporting function
           href: how-to-write-a-run-time-error-reporting-function.md
-        - name: Use run-time checks without the C Run-Time Library
-          href: using-run-time-checks-without-the-c-run-time-library.md
     - name: Specify symbol (.pdb) and source files in the debugger
       href: specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md
     - name: Debug user code
@@ -286,8 +280,6 @@
       href: remote-debugging-csharp.md
     - name: Remote debug a C++ project
       href: remote-debugging-cpp.md
-    - name: Remote debug .NET Core on Linux
-      href: remote-debugging-dotnet-core-linux-with-ssh.md
     - name: Remote debugger port assignments
       href: remote-debugger-port-assignments.md
     - name: Configure the Windows Firewall for remote debugging
@@ -313,7 +305,7 @@
       - name: Ensure that DNS is correctly configured on the target computer
         href: error-ensure-that-dns-is-correctly-configured-on-the-target-computer.md
       - name: The Microsoft Visual Studio Remote Debugging Monitor (MSVSMON.EXE) does not appear to be running on the remote computer.
-        href: /visualstudio/debugger/error-remote-debugging-monitor-msvsmon-exe-does-not-appear-to-be-running
+        href: ./error-remote-debugging-monitor-msvsmon-exe-does-not-appear-to-be-running.md
       - name: Unable to connect to the Microsoft Visual Studio Remote Debugging Monitor
         href: unable-to-connect-to-the-microsoft-visual-studio-remote-debugging-monitor.md
       - name: Unable to initiate DCOM communication
@@ -342,6 +334,14 @@
         href: error-mixed-mode-debugging-for-x64-processes-is-supported-only-when-using-microsoft-dotnet-framework-4-or-greater.md
       - name: Remote machine does not appear in a Remote Connections dialog
         href: error-remote-machine-does-not-appear-in-a-remote-connections-dialog.md
+  - name: Attach to process
+    items:
+    - name: Attach to running processes with the debugger
+      href: attach-to-running-processes-with-the-visual-studio-debugger.md
+    - name: Debug .NET Core on Linux
+      href: remote-debugging-dotnet-core-linux-with-ssh.md
+    - name: Attach to a process running in a Docker container
+      href: attach-to-process-running-in-docker-container.md
   - name: Multithreaded app debugging
     items:
     - name: Debug multithreaded applications
@@ -445,7 +445,7 @@
       - name: Debug an installed app package
         href: debug-installed-app-package.md
       - name: Inspect XAML properties while debugging
-        href: inspect-xaml-properties-while-debugging.md
+        href: ../xaml-tools/inspect-xaml-properties-while-debugging.md
       - name: Write and debug running XAML code
         href: ../xaml-tools/xaml-hot-reload.md
       - name: Debug XAML in Blend
@@ -505,7 +505,7 @@
         - name: Debug WPF
           href: debugging-wpf.md
         - name: Inspect XAML properties while debugging
-          href: inspect-xaml-properties-while-debugging.md
+          href: ../xaml-tools/inspect-xaml-properties-while-debugging.md
         - name: Write and debug running XAML code
           href: ../xaml-tools/xaml-hot-reload.md
         - name: Use the WPF Tree Visualizer
@@ -940,5 +940,7 @@
           href: copyright-notice-for-spy-increment-help.md
 - name: Resources
   items:
+  - name: FAQ - Find your debugging feature
+    href: find-your-debugging-task.md
   - name: What's new for the debugger in Visual Studio
     href: what-s-new-for-the-debugger-in-visual-studio.md

@@ -1,5 +1,7 @@
 ---
 title: Overview | Microsoft IntelliTest Developer Test Tool
+description: Learn how IntelliTest uses an automated and transparent testing approach, IntelliTest can generate a candidate suite of tests for your .NET code.
+ms.custom: SEO-VS-2020
 ms.date: 05/02/2017
 ms.topic: conceptual
 helpviewer_keywords:
@@ -20,6 +22,9 @@ code. Test suite generation can be further guided by
 *correctness properties* you specify. IntelliTest
 will even evolve the test suite automatically as the
 code under test evolves.
+
+> [!NOTE]
+> IntelliTest is available in Enterprise edition only. It is supported for C# code that targets the .NET Framework. .NET Core and .NET Standard are not currently supported.
 
 **Characterization tests**
 IntelliTest enables you to determine the behavior of
@@ -123,7 +128,7 @@ It's that easy!
 
 Additional resources:
   * Watch the [Channel 9 video](https://channel9.msdn.com/Shows/Visual-Studio-Toolbox/Intellitest)
-  * Read this [overview on MSDN Magazine](https://msdn.microsoft.com/magazine/dn904672.aspx)
+  * Read this [overview on MSDN Magazine](/archive/msdn-magazine/2015/february/visual-studio-2015-build-better-software-with-smart-unit-tests)
 
 ## Important attributes
 

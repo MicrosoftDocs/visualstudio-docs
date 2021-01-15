@@ -1,5 +1,7 @@
 ---
 title: Context Parameters | Microsoft Docs
+description: Learn about context parameters in the Visual Studio integrated development environment (IDE) that define the state of a project when you add or implement a wizard. 
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -58,4 +60,4 @@ In the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] integrated d
 - [Custom parameters](../../extensibility/internals/custom-parameters.md)
 - [Wizards](../../extensibility/internals/wizards.md)
 - [Wizard (.vsz) file](../../extensibility/internals/wizard-dot-vsz-file.md)
-- [Context parameters for launching wizards](https://msdn.microsoft.com/Library/051a10f4-9e45-4604-b344-123044f33a24)
+- [Context parameters for launching wizards](/previous-versions/tz690efs(v=vs.140))

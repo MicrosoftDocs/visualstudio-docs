@@ -1,5 +1,7 @@
 ---
 title: VSTextView Object | Microsoft Docs
+description: The VSTextView object is a window that lets users view and edit the Unicode text of the text buffer. 
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 f1_keywords:
@@ -16,7 +18,7 @@ ms.workload:
 ---
 # VSTextView object
 
-The text view is a window that lets users view and edit the Unicode text of the text buffer. Essentially, the view is what most users refer to as the editor. Because the view is separated from the buffer by various text layers (word wrap, outlining text, and so on), the view is not guaranteed to be an exact representation of the text in the buffer. For more information about the text view, see [Accessing theText view by using the legacy API](/visualstudio/extensibility/accessing-thetext-view-by-using-the-legacy-api?view=vs-2015).
+The text view is a window that lets users view and edit the Unicode text of the text buffer. Essentially, the view is what most users refer to as the editor. Because the view is separated from the buffer by various text layers (word wrap, outlining text, and so on), the view is not guaranteed to be an exact representation of the text in the buffer. For more information about the text view, see [Accessing theText view by using the legacy API](/previous-versions/visualstudio/visual-studio-2015/extensibility/accessing-thetext-view-by-using-the-legacy-api?preserve-view=true&view=vs-2015).
 
 The following table shows the interfaces in the <xref:Microsoft.VisualStudio.TextManager.Interop.VsTextView> object.
 

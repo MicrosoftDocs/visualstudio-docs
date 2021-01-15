@@ -1,5 +1,5 @@
 ---
-title: How to - Install the Stand-Alone Profiler | Microsoft Docs
+title: Install the Stand-Alone Profiler | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords: 

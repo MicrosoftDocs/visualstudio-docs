@@ -17,7 +17,7 @@ The generic events viewer shows app activity through a list of events like modul
 
 ## Setup
 
-1. Select **Alt+F2** to open the performance profiler in Visual Studio.
+1. Select **Alt+F2** to open the Performance Profiler in Visual Studio.
 
 1. Select the **Events Viewer** check box.
 

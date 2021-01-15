@@ -1,5 +1,7 @@
 ---
-title: 'How to: Manage a Private Gallery By Using Registry Settings | Microsoft Docs'
+title: Manage a private gallery by using registry settings
+description: Learn how to control access to the controls, templates, and tools in the Visual Studio Gallery, the Samples Gallery, or private galleries.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

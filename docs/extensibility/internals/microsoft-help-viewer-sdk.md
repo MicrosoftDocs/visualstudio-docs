@@ -1,5 +1,7 @@
 ---
 title: Microsoft Help Viewer SDK | Microsoft Docs
+description: Learn about Visual Studio Help Viewer tasks, such as creating an article, creating a Help Viewer content-branding package, and deploying a set of articles.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: 620d7dcd-d462-475e-a449-fbfa06ff12c5
@@ -440,7 +442,7 @@ Note: variables noted by "{n}" have code dependencies - removing or changing the
 
 **Branding.xml**
 
-| | |
+| Element | Description |
 | - | - |
 | Feature: | **CollapsibleArea** |
 | Use: | Expand collapses content control text |
@@ -827,4 +829,4 @@ For the Runtime API, see [Windows Help API](/previous-versions/windows/desktop/h
 
 For more information on how to leverage the Help API, see [Help Viewer code examples](https://marketplace.visualstudio.com/items?itemName=RobChandlerHelpMVP.HelpViewer20CodeExamples).
 
-You can submit feature suggestions on [Developer Community](https://developercommunity.visualstudio.com/content/idea/post.html?space=8).
+You can submit feature suggestions on [Developer Community](https://aka.ms/feedback/suggest?space=8).

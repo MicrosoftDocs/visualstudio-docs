@@ -1,5 +1,7 @@
 ---
 title: Live Unit Testing
+description: Learn about Live Unit Testing during application development, including supported frameworks and how to configure Live Unit Testing.
+ms.custom: SEO-VS-2020
 ms.date: 04/07/2020
 ms.topic: how-to
 helpviewer_keywords:
@@ -185,16 +187,16 @@ For solutions with many test projects, you can control which projects and indivi
 
 To select the individual projects in unit tests, do the following after Live Unit Testing is started:
 
-1. Right-click the solution in **Solution Explorer** and choose **Live Tests** > **Exclude** to exclude the entire solution.
-1. Right-click each test project that you'd like to include in the tests and choose **Live Tests** > **Include**.
+1. Right-click the solution in **Solution Explorer** and choose **Live Unit Testing** > **Exclude** to exclude the entire solution.
+1. Right-click each test project that you'd like to include in the tests and choose **Live Unit Testing** > **Include**.
 
 ### Exclude individual tests from the code editor window
 
 You can use the code editor window to include or exclude individual test methods. Right-click on the signature of the test method in the code editor window, and then select one of the following options:
 
-- **Live Tests** > **Include \<selected method>**
-- **Live Tests** > **Exclude \<selected method>**
-- **Live Tests** > **Exclude All But \<selected method>**
+- **Live Unit Testing** > **Include \<selected method>**
+- **Live Unit Testing** > **Exclude \<selected method>**
+- **Live Unit Testing** > **Exclude All But \<selected method>**
 
 ### Exclude tests programmatically
 

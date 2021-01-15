@@ -25,5 +25,5 @@ You attempted to use a (non-conditional compilation) variable in a conditional c
 - Replace the variable with a conditional compilation variable.  
   
 ## See also  
- [Conditional Compilation](../../javascript/advanced/conditional-compilation-javascript.md)   
- [Conditional Compilation Variables](../../javascript/advanced/conditional-compilation-variables-javascript.md)
+ [Conditional Compilation](/previous-versions/windows/internet-explorer/ie-developer/scripting-articles/121hztk3(v=vs.84))   
+ [Conditional Compilation Variables](/previous-versions/windows/internet-explorer/ie-developer/scripting-articles/s59bkzce(v=vs.84))

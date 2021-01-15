@@ -1,5 +1,7 @@
 ---
 title: Profiler command line - Timing data detail for stand-alone app
+description: Learn how to use the instrumentation method from the command line to collect detailed performance data for a stand-alone component.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords: 

@@ -1,15 +1,17 @@
 ---
-title: How can you increase the chances of a performance issue being fixed
+title: Increase the chance of a performance issue being fixed
 description: Additional information and best practices for submitting performance issues in Visual Studio
+ms.custom: SEO-VS-2020
 author: madskristensen
 ms.author: madsk
-ms.date: 11/19/2019 
+manager: jillfra
+ms.date: 11/19/2019
 ms.topic: conceptual
 ---
 
 # How to increase the chances of a performance issue being fixed
 
-The "[Report a problem](/visualstudio/ide/how-to-report-a-problem-with-visual-studio?view=vs-2019)" tool is widely used by Visual Studio users to report a range of problems. The Visual Studio team spots crash and slowness trends in user feedback and addresses issues impacting a broad swath of users. The more actionable a specific feedback ticket is, the more likely it will be diagnosed and resolved quickly by the product team. This document describes the best practices while reporting crash or slowness issues to make them more actionable.
+The "[Report a problem](./how-to-report-a-problem-with-visual-studio.md?view=vs-2019&preserve-view=true)" tool is widely used by Visual Studio users to report a range of problems. The Visual Studio team spots crash and slowness trends in user feedback and addresses issues impacting a broad swath of users. The more actionable a specific feedback ticket is, the more likely it will be diagnosed and resolved quickly by the product team. This document describes the best practices while reporting crash or slowness issues to make them more actionable.
 
 ## General best practices
 
@@ -33,16 +35,16 @@ Described below are problems that are hard to diagnose without good
 diagnostic files. After identifying the case that best describes your issue,
 follow the feedback steps specific to that case.
 
--   [Crashes:](#crashes)
+- [Crashes:](#crashes)
     A crash occurs when the process (Visual Studio) terminates unexpectedly.
 
--   [Unresponsiveness:](#unresponsiveness) VS becomes unresponsive for an extended period of time.
+- [Unresponsiveness:](#unresponsiveness) VS becomes unresponsive for an extended period of time.
 
--   [Slowness issues:](#slowness-and-high-cpu-issues) Any specific action in VS is slower than desired
+- [Slowness issues:](#slowness-and-high-cpu-issues) Any specific action in VS is slower than desired
 
--   [High CPU:](#slowness-and-high-cpu-issues) Extended periods of unexpectedly high CPU usage
+- [High CPU:](#slowness-and-high-cpu-issues) Extended periods of unexpectedly high CPU usage
 
--   [Out-Of-Process Issues:](#out-of-process-issues) An issue caused by a Visual Studio satellite process
+- [Out-Of-Process Issues:](#out-of-process-issues) An issue caused by a Visual Studio satellite process
 
 ## Crashes
 A crash occurs when the process (Visual Studio) terminates unexpectedly.
@@ -59,17 +61,16 @@ characteristics:
 - Can be reproduced in sample code or a project that can be linked to or provided as part of the feedback (if the steps involve opening a project or document)
 
 For these issues, follow the steps in "[How to Report a
-Problem](/visualstudio/ide/how-to-report-a-problem-with-visual-studio-2017)"
+Problem](./how-to-report-a-problem-with-visual-studio.md)"
 and be sure to include:
 
--   The steps to reproduce the problem
+- The steps to reproduce the problem
 
--   A standalone repro project as described above. If standalone repro is not possible, then please include:
+- A standalone repro project as described above. If standalone repro is not possible, then please include:
 
-    -   The language of the open projects (C\#, C++, etc.)
+  - The language of the open projects (C\#, C++, etc.)
 
-    -   The kind of project (Console Application, ASP.NET, etc.)
-
+  - The kind of project (Console Application, ASP.NET, etc.)
 
 > [!NOTE]
 > **Most valuable feedback:** For this case, the most valuable feedback is the set of steps to reproduce the issue along with sample source code.
@@ -102,7 +103,7 @@ preferred way for capturing a heap dump. If you do want to use Task Manager,
 close the one that is currently running, launch the 32bit Task Manager
 (%windir%\\syswow64\\taskmgr.exe) and collect a heap dump from there.
 
-> [!NOTE] 
+> [!NOTE]
 > Each dump file produced by this method will be up to 4 GB in size. Make sure
 to set DumpFolder to a location with adequate drive space or adjust the
 DumpCount appropriately.
@@ -113,17 +114,17 @@ Each time Visual Studio crashes, it will create a dump file
 Then, use Visual Studio's "Report a Problem..." feature. It will allow you to
 attach the appropriate dump.
 
-1.  Locate the dump file for the crash you are reporting (look for a file with
+1. Locate the dump file for the crash you are reporting (look for a file with
     the correct Creation time)
 
-2.  If possible, zip the file (\*.zip) to reduce its size before submitting
+2. If possible, zip the file (\*.zip) to reduce its size before submitting
     feedback
 
-3.  Follow the steps in "[How to Report a
-    Problem](/visualstudio/ide/how-to-report-a-problem-with-visual-studio-2017)",
+3. Follow the steps in "[How to Report a
+    Problem](./how-to-report-a-problem-with-visual-studio.md)",
     and attach the heap dump to a new feedback item.
 
-> [!NOTE] 
+> [!NOTE]
 > **Most valuable feedback:** For this case, the most valuable feedback is the
 heap dump captured at the time of the crash.
 
@@ -139,14 +140,12 @@ reproduce the problem, and include sample source code that demonstrates the prob
 
 If an unresponsiveness manifests itself in an unpredictable fashion, on the next occurrence,
 launch a new instance of Visual Studio and report a problem from that instance.
-In the ["Record"
-screen](/visualstudio/ide/how-to-report-a-problem-with-visual-studio?view=vs-2019#record-a-repro),
-be sure to select the Visual Studio session that is unresponsive.
+In the "Record" screen, be sure to select the Visual Studio session that is unresponsive. (For more information about how to record actions that we can follow to reproduce the issue, see Step 8 on the [How to report a problem](./how-to-report-a-problem-with-visual-studio.md) page.)
 
 If the Visual Studio instance that is unresponsive was launched in Administrator mode,
 then the second instance would also need to be launched in Administrator mode.
 
->[!NOTE] 
+>[!NOTE]
 > **Most valuable feedback:** For this case, the most valuable feedback is the
 heap dump captured at the time of the Unresponsiveness.
 
@@ -154,59 +153,59 @@ heap dump captured at the time of the Unresponsiveness.
 
 What makes a slowness or high CPU usage issue most actionable is a performance trace captured while the slow operation or high CPU event is in progress.
 
->[!NOTE] 
+>[!NOTE]
 > When possible, isolate each scenario in a separate, specific feedback report.
 For example, if typing and navigation are both slow, follow the steps below once
 per issue. This helps the product team isolate the cause of specific issues.
 
 For best results in capturing the performance, follow these steps:
 
-1.  If not already running, have a copy of Visual Studio open where you will
+1. If not already running, have a copy of Visual Studio open where you will
     reproduce the problem
 
-    -   Have everything set up to reproduce the problem. For example, if you
+    - Have everything set up to reproduce the problem. For example, if you
         need a particular project to be loaded with a specific file opened, then
         be sure both of those steps are complete before proceeding.
 
-    -   If you are *not* reporting a problem specific to loading a solution, try
+    - If you are *not* reporting a problem specific to loading a solution, try
         to wait 5-10 minutes (or more, depending on solution size) after opening
         the solution before recording the performance trace. The solution load
         process produces a large amount of data, so waiting for a few minutes
         helps us focus on the specific problem you are reporting.
 
-2.  Start a second copy of Visual Studio *with no solution open*
+2. Start a second copy of Visual Studio *with no solution open*
 
-3.  In the new copy of Visual Studio, open the **Report a Problem** tool
+3. In the new copy of Visual Studio, open the **Report a Problem** tool
 
-4.  Follow the steps in [How to Report a
-    Problem](/visualstudio/ide/how-to-report-a-problem-with-visual-studio-2017)
+4. Follow the steps in [How to Report a
+    Problem](./how-to-report-a-problem-with-visual-studio.md)
     until you reach the "Provide a trace and heap dump (optional)" step.
 
-5.  Choose to record the first copy of Visual Studio (the one encountering performance problem) and start recording.
+5. Choose to record the first copy of Visual Studio (the one encountering performance problem) and start recording.
 
-    -   The Steps Recorder application will appear and begin recording.
+    - The Steps Recorder application will appear and begin recording.
 
-    -   **During the recording,** perform the problematic action in the first
+    - **During the recording,** perform the problematic action in the first
         copy of Visual Studio. It is difficult for us to correct specific
         performance problems if they do not appear within the recorded time.
 
-    -   If the action is shorter than 30 seconds and can be easily repeated,
+    - If the action is shorter than 30 seconds and can be easily repeated,
         repeat the action to further demonstrate the problem.
 
-    -   For most cases, a trace of 60 seconds is sufficient to demonstrate the
+    - For most cases, a trace of 60 seconds is sufficient to demonstrate the
         problems, especially if the problematic action lasted (or was repeated)
         for more than 30 seconds. The duration can be adjusted as necessary to
         capture the behavior you would like fixed.
 
-6.  Click "Stop Record" in Steps Recorder as soon as the slow operation or high
+6. Click "Stop Record" in Steps Recorder as soon as the slow operation or high
     CPU event you want to report is finished. It may take a few minutes to
     process the performance trace.
 
-7.  Once complete, there will be several attachments to your feedback. Attach
+7. Once complete, there will be several attachments to your feedback. Attach
     any additional files that may help reproduce the problem (a sample project,
     screenshots, videos, etc.).
 
-8.  Submit the feedback.
+8. Submit the feedback.
 
 While recording a performance trace, if the slow operation or high CPU you are
 reporting comes to an end, then immediately stop the recording. If too much
@@ -221,10 +220,10 @@ performance trace is required in order to resolve a previous feedback item, we
 will set the state of the feedback item to "Need More Info", which can be
 responded to in the same way as reporting a new problem. For detailed
 instruction, please refer to ["Need More Info"
-section](/visualstudio/ide/how-to-report-a-problem-with-visual-studio-2017?view=vs-2017#when-further-information-is-needed-need-more-info)
+section](./how-to-report-a-problem-with-visual-studio.md#when-further-information-is-needed)
 in Report a Problem tool's document.
 
-> [!NOTE] 
+> [!NOTE]
 > **Most valuable feedback:** For almost all slowness/high CPU issues, the most
 valuable feedback is a high-level description of what you were trying to do,
 along with the performance trace (\*.etl.zip) which captures the behavior during
@@ -237,31 +236,31 @@ most scenarios. But there are times where more control over trace collection is
 needed (for example, trace with a larger buffer size), in which case PerfView is a great
 tool to use. Steps for manually recording performance trace using the PerfView
 tool can be found on the [Recording performance traces with
-PerfView](https://github.com/dotnet/roslyn/wiki/Recording-performance-traces-with-PerfView)
+PerfView](https://github.com/dotnet/roslyn/blob/master/docs/wiki/Recording-performance-traces-with-PerfView.md)
 page.
 
 ## Out-Of-Process Issues
 
 > [!NOTE]
-> Starting with Visual Studio 2019 version 16.3, out-of-process logs are automatically attached to feedback submitted using the Report a Problem tool. 
+> Starting with Visual Studio 2019 version 16.3, out-of-process logs are automatically attached to feedback submitted using the Report a Problem tool.
 However, if the issue is directly reproducible, following the below steps could still help add additional information to help better diagnose the issue.
 
 There are a number of satellite processes that run parallel to Visual Studio and provide various features from outside of the main Visual Studio process. If an error occurs in one of these satellite processes it is usually seen on the Visual Studio side as a 'StreamJsonRpc.RemoteInvocationException' or a 'StreamJsonRpc.ConnectionLostException'.
 
 What makes these types of issues most actionable is to provide additional logs that can be collected by following these steps:
 
-1.  If this is a directly reproducible issue, start by deleting the **%temp%/servicehub/logs** folder. If you cannot reproduce this issue please keep this folder intact and ignore the following bullets:
+1. If this is a directly reproducible issue, start by deleting the **%temp%/servicehub/logs** folder. If you cannot reproduce this issue please keep this folder intact and ignore the following bullets:
 
-    -   Set the global environment variable **ServiceHubTraceLevel** to **All**
-    -   Reproduce the issue.
+    - Set the global environment variable **ServiceHubTraceLevel** to **All**
+    - Reproduce the issue.
 
-2.  Download the Microsoft Visual Studio and .NET Framework Log Collection Tool [here](https://www.microsoft.com/download/details.aspx?id=12493).
-3.  Run the tool. This outputs a zip file to **%temp%/vslogs.zip**. Please attach that file to your feedback.
+2. Download the Microsoft Visual Studio and .NET Framework Log Collection Tool [here](https://www.microsoft.com/download/details.aspx?id=12493).
+3. Run the tool. This outputs a zip file to **%temp%/vslogs.zip**. Please attach that file to your feedback.
 
 ## See also
 
 * [Visual Studio feedback options](../ide/feedback-options.md)
 * [Report a problem with Visual Studio for Mac](/visualstudio/mac/report-a-problem)
 * [Report a problem with C++](/cpp/how-to-report-a-problem-with-the-visual-cpp-toolset)
-* [Visual Studio Developer Community](https://developercommunity.visualstudio.com/)
+* [Visual Studio Developer Community](https://aka.ms/feedback/suggest?space=8)
 * [Developer Community data privacy](developer-community-privacy.md)

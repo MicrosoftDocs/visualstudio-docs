@@ -1,8 +1,8 @@
 ---
 title: "Introduction to Azure Functions"
-description: "Using Azure functions in Visual Studio for Mac."
-author: sayedihashimi
-ms.author: sayedha
+description: "Getting started with Azure Functions in Visual Studio for Mac."
+author: jmatthiesen
+ms.author: jomatthi
 ms.date: 04/02/2019
 ms.technology: vs-ide-install
 ms.assetid: 25CD47A4-5B32-4734-8EF3-E24A02AABF29
@@ -11,7 +11,7 @@ ms.topic: how-to
 
 # Introduction to Azure Functions
 
-Azure functions is a way to create and run event-driven snippets of code –– functions –– in the cloud, without having to explicitly provision or manage infrastructure. For more information about Azure Functions, see the [Azure Functions documentation](/azure/azure-functions/).
+Azure Functions is a way to create and run event-driven snippets of code –– functions –– in the cloud, without having to explicitly provision or manage infrastructure. For more information about Azure Functions, see the [Azure Functions documentation](/azure/azure-functions/).
 
 ## Requirements
 
@@ -24,15 +24,15 @@ To create and deploy functions you also need an Azure subscription. If you don't
 1. In Visual Studio for Mac, select **File > New Solution**.
 2. From the New Project dialog, select the Azure Functions template under **Cloud > General** and click **Next**:
 
-    ![New Project dialog showing Azure functions option](media/azure-functions-image1.png)
+    ![New Project dialog showing Azure Functions option](media/azure-functions-image1.png)
 
 3. Select the initial Azure Functions template that you wish to use, enter your function name and click **Next**.
 
-    ![New Project dialog showing Azure functions templates](media/azure-functions-image2.png)
+    ![New Project dialog showing Azure Functions templates](media/azure-functions-image2.png)
 
     > [!TIP]
     > While the bundled Azure Functions runtime and templates (CLI) are kept as to date as possible, they inevitably get outdated. When creating a new Functions project, Visual Studio for Mac will check for updates to the CLI and will notify you as shown in the image below. Simply click on the button to download the updated templates.
-    > ![New project dialog showing Azure functions updates are available](media/azure-functions-update.png)
+    > ![New project dialog showing Azure Functions updates are available](media/azure-functions-update.png)
 
     Depending on the type of function you select, the next page will prompt you to enter details, such as access rights, as illustrated in the following image:
 
@@ -91,11 +91,11 @@ You can use the above procedure to add more functions to your function app proje
 ## Publish to Azure
 
 1. Right-click on the project name and select **Publish > Publish to Azure**:
-    ![Publish to azure menu option](media/azure-functions-image5.png)
+    ![Context menu with Publish > Publish to Azure... option highlighted](media/azure-functions-image5.png)
 2. If you've already connected your Azure account to Visual  Studio for Mac a list of available app services are displayed. If you haven't logged in, you'll be prompted to do so.
 3. From the **Publish to Azure App Service** dialog, you can either select an existing app service or create a new one by clicking **New**.
 4. In the **Create new App Service** dialog, enter your settings:
-    ![Publish to azure menu option](media/azure-functions-image7.png)
+    ![New App Service dialog, with fields for service name, subscription, resource group, and service plan settings.](media/azure-functions-image7.png)
 
     |Setting  |Description  |
     |---------|---------|
@@ -106,13 +106,13 @@ You can use the above procedure to add more functions to your function app proje
 
 5. Click **Next** to create a storage account. An Azure storage account is required by the Functions runtime. Click **Custom** to create a general purpose storage account, or use an existing one:
 
-    ![Publish to azure menu option](media/azure-functions-image8.png)
+    ![New App Service dialog with prompt for storage account name.](media/azure-functions-image8.png)
 
 6. Click **Create** to create a function app and related resources in Azure with these settings and deploy your function project code.
 
 7. You may be prompted with a dialog during publishing informing you to "Update Functions Version on Azure". Click **Yes**:
 
-    ![Publish to azure menu option](media/azure-functions-image12.png)
+    ![Prompt asking to "Update Azure application settings to match local Functions version?" with Yes and No options.](media/azure-functions-image12.png)
 
 ## Function app settings
 
@@ -144,16 +144,16 @@ One important setting you may need to set is `FUNCTIONS_EXTENSION_VERSION`. When
   - Http POST CRUD
   - Http Trigger with parameters
 
-- **Timer** – Execute cleanup or other batch tasks on a predefined schedule. This template takes two fields: a Name and a schedule, which is a six field CRON expression. For more information, see the [Azure functions article on Time](/azure/azure-functions/functions-create-scheduled-function)
+- **Timer** – Execute cleanup or other batch tasks on a predefined schedule. This template takes two fields: a Name and a schedule, which is a six field CRON expression. For more information, see the [Azure Functions article on Time](/azure/azure-functions/functions-create-scheduled-function)
 
-- **Queue Trigger** – This is a function that will respond to messages as they arrive in the Azure Storage queue. In addition to the function name, this template takes a **Path** (the name of the queue from which the message will be read) and storage account **Connection** (the name of the app setting containing your storage account connection string). For more information, see the [Azure functions article on Queue Storage](/azure/azure-functions/functions-create-storage-queue-triggered-function).
+- **Queue Trigger** – This is a function that will respond to messages as they arrive in the Azure Storage queue. In addition to the function name, this template takes a **Path** (the name of the queue from which the message will be read) and storage account **Connection** (the name of the app setting containing your storage account connection string). For more information, see the [Azure Functions article on Queue Storage](/azure/azure-functions/functions-create-storage-queue-triggered-function).
 
-- **Blob Trigger** – Process Azure Storage blobs when they are added to a container. In addition to the function name, this template also takes a path and connection property. The path property is the path within your storage account that the trigger will monitor. The connection account is the name of the app setting containing your storage account connection string. For more information, see the [Azure functions Blob Storage article](/azure/azure-functions/functions-create-storage-blob-triggered-function).
+- **Blob Trigger** – Process Azure Storage blobs when they are added to a container. In addition to the function name, this template also takes a path and connection property. The path property is the path within your storage account that the trigger will monitor. The connection account is the name of the app setting containing your storage account connection string. For more information, see the [Azure Functions Blob Storage article](/azure/azure-functions/functions-create-storage-blob-triggered-function).
 
-- **Generic WebHook** – This is a simple function that will run whenever it receives a request from any service that supports webhooks. For more information, see the [Azure functions article on generic webhooks](/azure/azure-functions/functions-create-generic-webhook-triggered-function).
+- **Generic WebHook** – This is a simple function that will run whenever it receives a request from any service that supports webhooks. For more information, see the [Azure Functions article on generic webhooks](/azure/azure-functions/functions-create-generic-webhook-triggered-function).
 
-- **Durable functions orchestration** – Durable Functions let you write stateful functions in a serverless environment. The extension manages state, checkpoints, and restarts for you. For more information, see the Azure functions guides on [Durable functions](/azure/azure-functions/durable-functions-overview).
+- **Durable functions orchestration** – Durable Functions let you write stateful functions in a serverless environment. The extension manages state, checkpoints, and restarts for you. For more information, see the Azure Functions guides on [Durable functions](/azure/azure-functions/durable-functions-overview).
 
 - **Image Resizer** – This function creates resized images whenever a blob is added to a container. The template takes path and connection string for the trigger, a small image output, and a medium image output.
 
-- **SAS token** – This function generates a SAS token for a given Azure Storage container and blob name. In addition to the function name, this template also takes a path and connection property. The path property is the path within your storage account that the trigger will monitor. The connection account is the name of the app setting containing your storage account connection string. The **Access rights** also need to be set. Authorization level controls whether the function requires an API key and which key to use; Function uses a function key; Admin uses your master key. For more information, see the [C# Azure Function for generating SAS tokens](https://github.com/Azure-Samples/functions-dotnet-sas-token/) sample.
+- **SAS token** – This function generates a SAS token for a given Azure Storage container and blob name. In addition to the function name, this template also takes a path and connection property. The path property is the path within your storage account that the trigger will monitor. The connection account is the name of the app setting containing your storage account connection string. The **Access rights** also need to be set. Authorization level controls whether the function requires an API key and which key to use; Function uses a function key; Admin uses your account access key. For more information, see the [C# Azure Function for generating SAS tokens](https://github.com/Azure-Samples/functions-dotnet-sas-token/) sample.

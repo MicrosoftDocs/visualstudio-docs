@@ -1,5 +1,7 @@
 ---
 title: Support for Project and Configuration Properties | Microsoft Docs
+description: Learn how to provide a property page for your own project type in the Visual Studio IDE, which can display project and configuration extended properties.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -15,7 +17,7 @@ ms.workload:
 # Support for Project and Configuration Properties
 The **Properties** window in the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE) can display project and configuration properties. You can provide a property page for your own project type so that the user can set properties for your application.
 
- By selecting a project node in **Solution Explorer** and then clicking **Properties** on the **Project** menu, you can open a dialog box that includes project and configuration properties. In [!INCLUDE[csprcs](../../data-tools/includes/csprcs_md.md)] and [!INCLUDE[vbprvb](../../code-quality/includes/vbprvb_md.md)], and project types derived from these languages, this dialog box appears as a tabbed page in the [General, Environment, Options Dialog Box](../../ide/reference/general-environment-options-dialog-box.md). For more information, see [Not in Build: Walkthrough: Exposing Project and Configuration Properties (C#)](https://msdn.microsoft.com/library/d850d63b-25e2-4505-9f3d-eb038d7c1d0e).
+ By selecting a project node in **Solution Explorer** and then clicking **Properties** on the **Project** menu, you can open a dialog box that includes project and configuration properties. In [!INCLUDE[csprcs](../../data-tools/includes/csprcs_md.md)] and [!INCLUDE[vbprvb](../../code-quality/includes/vbprvb_md.md)], and project types derived from these languages, this dialog box appears as a tabbed page in the [General, Environment, Options Dialog Box](../../ide/reference/general-environment-options-dialog-box.md). For more information, see [Not in Build: Walkthrough: Exposing Project and Configuration Properties (C#)](/previous-versions/bb166517(v=vs.100)).
 
  The Managed Package Framework for Projects (MPFProj) provides helper classes for creating and managing new project system. You can find the source code and compilation instructions at [MPF for Projects - Visual Studio 2013](https://github.com/tunnelvisionlabs/MPFProj10).
 

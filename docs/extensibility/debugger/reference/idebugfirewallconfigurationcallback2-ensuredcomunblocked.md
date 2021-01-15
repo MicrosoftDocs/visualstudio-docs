@@ -1,5 +1,7 @@
 ---
-title: IDebugFirewallConfigurationCallback2::EnsureDCOMUnblocked | Microsoft Docs
+title: IDebugFirewallConfigurationCallback2::EnsureDCOMUnblocked
+titleSuffix: ""
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
@@ -16,6 +18,7 @@ dev_langs:
 - CSharp
 ---
 # IDebugFirewallConfigurationCallback2::EnsureDCOMUnblocked
+
 Requests that the firewall not block remote debugging.
 
 ## Syntax
@@ -31,7 +34,9 @@ public int EnsureDCOMUnblocked();
 ```
 
 ## Return Value
+
  If successful, returns `S_OK`; otherwise, returns an error code.
 
 ## See also
+
 - [IDebugFirewallConfigurationCallback2](../../../extensibility/debugger/reference/idebugfirewallconfigurationcallback2.md)

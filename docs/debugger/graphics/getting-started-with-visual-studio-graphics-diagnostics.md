@@ -1,6 +1,7 @@
 ---
 title: Getting started with graphics diagnostics | Microsoft Docs
-ms.custom: seodec18
+description: Prepare to use Graphics Diagnostics for the first time, then capture frames from a Direct3D app and examine them in the Graphics Analyzer.
+ms.custom: "SEO-VS-2020, seodec18"
 ms.date: 06/08/2020
 ms.topic: how-to
 author: mikejo5000
@@ -50,7 +51,7 @@ In this section you'll prepare to use Graphics Diagnostics for the first time, t
 If you already have your own Direct3D app to explore Graphics Diagnostics with, great! Otherwise, use one of the following:
 
 ::: moniker range=">=vs-2019"
-Download a sample from [Direct3D Game Sample](https://docs.microsoft.com/samples/microsoft/windows-universal-samples/simple3dgamedx/).
+Download a sample from [Direct3D Game Sample](/samples/microsoft/windows-universal-samples/simple3dgamedx/).
 ::: moniker-end
 ::: moniker range="vs-2017"
 - The **DirectX 11 App (Universal Windows)** or **DirectX 12 App (Universal Windows)** project templates for Windows 10.

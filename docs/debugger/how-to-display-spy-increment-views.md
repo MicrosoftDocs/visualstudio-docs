@@ -1,5 +1,7 @@
 ---
-title: How to - Display Spy++ Views | Microsoft Docs
+title: Display Spy++ Views | Microsoft Docs
+description: "Spy++ provides four views: Windows, Process, Threads, and Messages. See this article for links to information about the views and how to display them."
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords: 

@@ -1,5 +1,5 @@
 ---
-title: How to - Manually Create Performance Sessions | Microsoft Docs
+title: Manually Create Performance Sessions | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords: 

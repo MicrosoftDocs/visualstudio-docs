@@ -15,7 +15,7 @@ This article explains how to locate, claim, and export product keys from https:/
 ## Locating and claiming product keys
 You must be signed in to your Visual Studio subscription to view your product keys. Individual product keys are found by selecting the blue **Get Key** link for a particular product on the [Downloads](https://my.visualstudio.com/downloads) page as shown below.  All keys are also available in aggregate on the [Product Keys](https://my.visualstudio.com/productkeys?wt.mc_id=o~msft~docs) page. When multiple keys exist for a single product, notes will be displayed on the Notes column for the download to assist you in identifying which key should be used.
 > [!div class="mx-imgBorder"]
-> ![Get Key from Downloads Page](_img/product-keys/download-get-key.png "Click Get key on the information page for any download to get a key for that product.")
+> ![Get Key from Downloads Page](_img/product-keys/download-get-key.png "Select Get key on the information page for any download to get a key for that product.")
 
 Some products bundle multiple editions of the product into a single download. In these cases, the product key entered determines which edition of the product is installed.
 Some keys are provided automatically, such as “static” keys, which you can use as many times as needed because activation is not required. Other keys must be claimed by selecting the **Get Key** link for the product.
@@ -45,7 +45,7 @@ Only subscribers with active subscriptions can download products and claim produ
 
 To claim a product key:
 1. Sign in to your Visual Studio subscription.  You must be signed in to download products or claim product keys.
-2. Click on the [Product Keys](https://my.visualstudio.com/productkeys?wt.mc_id=o~msft~docs) tab.
+2. Select the [Product Keys](https://my.visualstudio.com/productkeys?wt.mc_id=o~msft~docs) tab.
 3. Product keys are listed alphabetically by the name of the product.  You can either scroll down to the name of the desired product, or search for it using the search bar at the top of the page.
 > [!div class="mx-imgBorder"]
 > ![Search for Product Key](_img/product-keys/search-keys.png "Scroll to the desired product, or use the search box to quickly locate any product.")
@@ -59,13 +59,13 @@ You can export a list of all the keys you have claimed, along with a large selec
 > [!IMPORTANT]
 > If your subscription expires, you will no longer be able to claim new keys or export your claimed keys.
 
-To export your keys, simply click on the **Export all keys** link at the far right of the Product Keys page.  An .xml file entitled KeysExport.xml will be created, and you’ll have the option to open or save the file.  You will need to open the file with an application capable of handling .xml files.  For example, you can open the file as a read-only workbook in Excel.
+To export your keys, simply select the **Export all keys** link at the far right of the Product Keys page.  An .xml file entitled KeysExport.xml will be created, and you’ll have the option to open or save the file.  You will need to open the file with an application capable of handling .xml files.  For example, you can open the file as a read-only workbook in Excel.
 
 ## See also
-- [Visual Studio documentation](https://docs.microsoft.com/visualstudio/)
-- [Azure DevOps documentation](https://docs.microsoft.com/azure/devops/)
-- [Azure documentation](https://docs.microsoft.com/azure/)
-- [Microsoft 365 documentation](https://docs.microsoft.com/microsoft-365/)
+- [Visual Studio documentation](/visualstudio/)
+- [Azure DevOps documentation](/azure/devops/)
+- [Azure documentation](/azure/)
+- [Microsoft 365 documentation](/microsoft-365/)
 
 ## Next steps
 When you're ready to download software and use keys, visit https://my.visualstudio.com/downloads.  For more information about downloading software, please see the [downloading overview](download-software.md).

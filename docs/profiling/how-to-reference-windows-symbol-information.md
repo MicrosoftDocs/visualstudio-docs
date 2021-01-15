@@ -1,5 +1,5 @@
 ---
-title: How to - Reference Windows Symbol Information | Microsoft Docs
+title: Reference Windows Symbol Information | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords: 

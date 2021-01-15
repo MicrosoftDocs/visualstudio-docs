@@ -1,5 +1,7 @@
 ---
 title: "Debugging Web Applications | Microsoft Docs"
+description: Find links to help you debug different types of web applications, such as ASP.NET apps, JavaScript and TypeScript apps, or AJAX script apps.
+ms.custom: SEO-VS-2020
 ms.date: "11/05/2019"
 ms.topic: "conceptual"
 helpviewer_keywords:
@@ -36,7 +38,7 @@ This article provides links to help you debug different types of web application
 
 - Debugging AJAX Script Applications
 
-  AJAX-enabled Web applications make heavy use of script code and pose special debugging challenges. For information about AJAX debugging techniques, see [Debugging and Tracing Ajax Applications Overview](https://msdn.microsoft.com/Library/92684ea0-7bb4-4a34-9203-3aa6394ce375).
+  AJAX-enabled Web applications make heavy use of script code and pose special debugging challenges. For information about AJAX debugging techniques, see [Debugging and Tracing Ajax Applications Overview](/previous-versions/bb398817(v=vs.140)).
 
 ## See also
 

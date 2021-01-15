@@ -1,5 +1,7 @@
 ---
 title: General, Environment, Options Dialog Box
+description: Learn how to use the General page in the Environment section to change color themes, status bar settings, file extension associations, and more for the IDE.
+ms.custom: SEO-VS-2020
 ms.date: 07/26/2019
 ms.topic: reference
 f1_keywords:
@@ -23,7 +25,7 @@ ms.workload:
 ---
 # Options dialog box: Environment \> General
 
-Use this page to change color themes, status bar settings, and file extension associations, among other options, for the integrated development environment (IDE). You can access the **Options** dialog box by opening the **Tools** menu, choosing **Options**, opening the **Environment** folder and then choosing the **General** page. If this page does not appear in the list, select the **Show all settings** check box in the **Options** dialog box.
+Use this page to change color themes, status bar settings, and file extension associations, among other options, for the integrated development environment (IDE). You can access the **Options** dialog box by opening the **Tools** menu, choosing **Options**, opening the **Environment** folder and then choosing the **General** page.
 
 ## Visual Experience
 

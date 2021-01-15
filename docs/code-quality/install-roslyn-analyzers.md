@@ -1,18 +1,20 @@
 ---
-title: Install Roslyn analyzers
-ms.date: 08/03/2018
-ms.topic: how-to
-helpviewer_keywords: 
-  - code analysis, managed code
-  - analyzers
-  - Roslyn analyzers
-author: mikejo5000
-ms.author: mikejo
+title: Install third party analyzers
+ms.date: 08/27/2020
+description: Learn how to install third-party analyzers in Visual Studio. See how to install analyzers in .vsix files and NuGet analyzer packages.
+ms.custom: SEO-VS-2020
+ms.topic: conceptual
+helpviewer_keywords:
+- code analysis, managed code
+- analyzers
+- Roslyn analyzers
+author: mikadumont
+ms.author: midumont
 manager: jillfra
 ms.workload: 
   - dotnet
 ---
-# Install .NET Compiler Platform code analyzers
+# Install third-party analyzers
 
 Visual Studio includes a core set of .NET Compiler Platform (*Roslyn*) analyzers. These analyzers are always on. You can install additional analyzers either as NuGet packages, or as Visual Studio extensions in *VSIX* files.
 
@@ -20,7 +22,7 @@ Visual Studio includes a core set of .NET Compiler Platform (*Roslyn*) analyzers
 
 1. Find the analyzer package you want to install on www.nuget.org.
 
-   For example, you may want to [install the Microsoft FxCop analyzers](install-fxcop-analyzers.md#nuget-package) to check your code for security and performance issues, among others. Or, install [StyleCop.Analyzers](https://www.nuget.org/packages/stylecop.analyzers/) to look for style issues in your codebase.
+   For example, you may want to install [StyleCop.Analyzers](https://www.nuget.org/packages/stylecop.analyzers/) to look for style issues in your codebase.
 
 2. Install the package in Visual Studio, using either the [Package Manager Console](/nuget/quickstart/install-and-use-a-package-in-visual-studio#package-manager-console) or the [Package Manager UI](/nuget/quickstart/install-and-use-a-package-in-visual-studio#package-manager-console).
 
@@ -55,7 +57,7 @@ Visual Studio includes a core set of .NET Compiler Platform (*Roslyn*) analyzers
 
 2. Expand **Online** in the left pane, and then select **Visual Studio Marketplace**.
 
-3. In the search box, type the name of the analyzer extension you want to install. For example, you may want to [install the Microsoft FxCop analyzers](install-fxcop-analyzers.md#vsix) to check your code for security and performance issues, among others.
+3. In the search box, type the name of the analyzer extension you want to install.
 
 4. Select **Download**.
 
@@ -93,4 +95,4 @@ If you want to check whether the extension is installed, select **Extensions** >
 ## See also
 
 - [Overview of code analyzers in Visual Studio](../code-quality/roslyn-analyzers-overview.md)
-- [Install FxCop analyzers](../code-quality/install-fxcop-analyzers.md)
+- [Install .NET analyzers](../code-quality/install-net-analyzers.md)

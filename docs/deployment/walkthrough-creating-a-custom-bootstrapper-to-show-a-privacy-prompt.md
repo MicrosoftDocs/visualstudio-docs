@@ -1,5 +1,7 @@
 ---
-title: "Walkthrough: Create a custom bootstrapper with a privacy prompt | Microsoft Docs"
+title: "Create a custom bootstrapper with a privacy prompt"
+description: Learn how to configure ClickOnce applications to automatically update when assemblies with newer file versions and assembly versions become available.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:

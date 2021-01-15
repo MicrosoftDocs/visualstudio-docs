@@ -81,21 +81,21 @@ You can also collect both CPU and software-performance counters by using the ins
 
 Concurrency profiling collects information about multithreaded apps. Resource-contention profiling collects detailed call-stack information whenever competing threads wait for access to a shared resource. Concurrency visualization also collects more general information about how your multithreaded app interacts with:
 
-  - Itself.
-  - The hardware.
-  - The operating system.
-  - Other processes on the host computer.
+- Itself.
+- The hardware.
+- The operating system.
+- Other processes on the host computer.
 
 Resource-contention reports display the total number of contentions. They also report the total time that modules, functions, source-code lines, and instructions waited for a resource. Timeline graphs show the contentions as they occurred.
 
 The concurrency visualizer displays graphical information to help you locate:
 
-  - Performance bottlenecks.
-  - CPU underutilization.
-  - Thread contention.
-  - Thread migration.
-  - Synchronization delays.
-  - Areas of overlapped I/O.
+- Performance bottlenecks.
+- CPU underutilization.
+- Thread contention.
+- Thread migration.
+- Synchronization delays.
+- Areas of overlapped I/O.
 
   When possible, the graphical output links to data from the call stack and source code. Concurrency visualization data can be collected only for command-line apps and Windows apps.
 

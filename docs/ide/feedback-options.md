@@ -28,7 +28,7 @@ If you experience problems with Visual Studio&mdash;such as crashes, sluggish pe
 
 ![Send Feedback icon in the Visual Studio 2019 IDE](./media/vs-2019/send-feedback-icon.png)
 
-Next, Visual Studio opens the [Developer Community](https://developercommunity.visualstudio.com) interface, where you can sign in to report the problem. For more information, see [How to report a problem with Visual Studio](how-to-report-a-problem-with-visual-studio.md).
+Next, Visual Studio opens the [Developer Community](https://aka.ms/feedback/suggest?space=8) interface, where you can sign in to report the problem. For more information, see [How to report a problem with Visual Studio](how-to-report-a-problem-with-visual-studio.md).
 
 ::: moniker-end
 
@@ -38,7 +38,7 @@ If you experience problems with Visual Studio&mdash;such as crashes, sluggish pe
 
 ![Send Feedback icon in the Visual Studio 2019 IDE](./media/send-feedback-icon.png)
 
-Next, Visual Studio opens the [Developer Community](https://developercommunity.visualstudio.com) interface, where you can sign in to report the problem. For more information, see [How to report a problem with Visual Studio](how-to-report-a-problem-with-visual-studio.md).
+Next, Visual Studio opens the [Developer Community](https://aka.ms/feedback/suggest?space=8) interface, where you can sign in to report the problem. For more information, see [How to report a problem with Visual Studio](how-to-report-a-problem-with-visual-studio.md).
 
 ::: moniker-end
 
@@ -48,7 +48,7 @@ Next, Visual Studio opens the [Developer Community](https://developercommunity.v
 
 If you have an idea or a suggestion to make Visual Studio better, let us know by using the **Suggest a Feature** tool. In Visual Studio, choose the feedback icon in the upper-right corner, or choose **Help** > **Send Feedback** > **Suggest a Feature** from the menu bar.
 
-Next, Visual Studio opens the [Developer Community](https://developercommunity.visualstudio.com) interface, where you can sign in to share your idea. For more information, see [Suggest a feature for Visual Studio](suggest-a-feature.md).
+Next, Visual Studio opens the [Developer Community](https://aka.ms/feedback/suggest?space=8) interface, where you can sign in to share your idea. For more information, see [Suggest a feature for Visual Studio](suggest-a-feature.md).
 
 ::: moniker-end
 
@@ -56,7 +56,7 @@ Next, Visual Studio opens the [Developer Community](https://developercommunity.v
 
 If you have an idea or a suggestion to make Visual Studio better, let us know by using the **Provide a Suggestion** tool. In Visual Studio, choose the feedback icon next to the search box, or choose **Help** > **Send Feedback** > **Provide a Suggestion** from the menu bar.
 
-Next, Visual Studio opens the [Developer Community](https://developercommunity.visualstudio.com) page, where you can sign in to share your idea. For more information, see [Suggest a feature for Visual Studio](suggest-a-feature.md).
+Next, Visual Studio opens the [Developer Community](https://aka.ms/feedback/suggest?space=8) page, where you can sign in to share your idea. For more information, see [Suggest a feature for Visual Studio](suggest-a-feature.md).
 
 ::: moniker-end
 
@@ -65,7 +65,7 @@ Next, Visual Studio opens the [Developer Community](https://developercommunity.v
 There are two ways that you can help us improve the documentation:
 
 * Use the **Is this page helpful?** response tool at the top-right of any documentation page.
-* Use your GitHub account to provide feedback for any Visual Studio page on [docs.microsoft.com](/visualstudio/). To do so, choose the **Send feedback about** > **This page** button at the bottom of any documentation page.
+* Use your GitHub account to provide feedback for any Visual Studio page on [docs.microsoft.com](../index.yml). To do so, choose the **Send feedback about** > **This page** button at the bottom of any documentation page.
 
 ## Contact Microsoft support
 

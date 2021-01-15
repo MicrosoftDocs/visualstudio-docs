@@ -1,5 +1,5 @@
 ---
-title: How to - Choose Collection Methods | Microsoft Docs
+title: Choose Collection Methods | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords: 

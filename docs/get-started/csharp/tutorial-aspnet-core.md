@@ -133,7 +133,7 @@ If you don't see the **ASP.NET Core Web Application** project template, you can 
 
 ### About your solution
 
-This solution follows the **Razor Page** design pattern. It's different than the [Model-View-Controller (MVC)](/aspnet/core/tutorials/first-mvc-app/start-mvc?view=aspnetcore-2.1&tabs=aspnetcore2x) design pattern in that it's streamlined to include the model and controller code within the Razor Page itself.
+This solution follows the **Razor Page** design pattern. It's different than the [Model-View-Controller (MVC)](/aspnet/core/tutorials/first-mvc-app/start-mvc?view=aspnetcore-2.1&tabs=aspnetcore2x&preserve-view=true) design pattern in that it's streamlined to include the model and controller code within the Razor Page itself.
 
 ::: moniker range="vs-2017"
 ## Tour your solution
@@ -148,7 +148,7 @@ This solution follows the **Razor Page** design pattern. It's different than the
 
  1. View the **About.cshtml** file in the code editor.
 
-     ![View the About.cshtml file in the Visual Studio code editor](media/csharp-aspnet-razor-aboutcshtml-mycoreapp-code.png)
+     ![Screenshot showing the first ten lines of the About.cshtml file in the Visual Studio code editor.](media/csharp-aspnet-razor-aboutcshtml-mycoreapp-code.png)
 
  1. Choose the **About.cshtml.cs** file.
 
@@ -156,7 +156,7 @@ This solution follows the **Razor Page** design pattern. It's different than the
 
  1. View the **About.cshtml.cs** file in the code editor.
 
-     ![View the About.cshtml file in the Visual Studio code editor](media/csharp-aspnet-razor-aboutcshtmlcs-mycoreapp-code.png)
+     ![Screenshot showing the first 18 lines of the About.cshtml.cs file in the Visual Studio code editor. ](media/csharp-aspnet-razor-aboutcshtmlcs-mycoreapp-code.png)
 
  1. The project contains a **wwwroot** folder that is the root for your website. Expand the folder to view its contents.
 
@@ -360,7 +360,7 @@ Visual Studio is an integrated development suite of productivity tools for devel
 Congratulations on completing this tutorial! We hope you learned a little bit about C#, ASP.NET Core, and the Visual Studio IDE. To learn more about creating a web app or website with C# and ASP.NET, continue with the following tutorials:
 
 > [!div class="nextstepaction"]
-> [Create a Razor Pages web app with ASP.NET Core](/aspnet/core/tutorials/razor-pages/?view=aspnetcore-2.1)
+> [Create a Razor Pages web app with ASP.NET Core](/aspnet/core/tutorials/razor-pages/?view=aspnetcore-2.1&preserve-view=true)
 
 ## See also
 

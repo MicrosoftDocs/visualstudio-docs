@@ -1,5 +1,5 @@
 ---
-title: How to - Create a Profiling Tools Call Trace Report | Microsoft Docs
+title: Create a Profiling Tools Call Trace Report | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords: 

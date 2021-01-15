@@ -1,5 +1,5 @@
 ---
-title: How to - Collect Event Tracing for Windows (ETW) Data | Microsoft Docs
+title: Collect Event Tracing for Windows (ETW) Data | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords: 

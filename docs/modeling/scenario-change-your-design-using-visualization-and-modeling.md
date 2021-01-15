@@ -1,5 +1,6 @@
 ---
-title: 'Scenario: Change your design using visualization and modeling'
+title: 'Change your design using visualization and modeling'
+description: Learn about the visualization and modeling tools in Visual Studio, and how you use those tools to change your design.
 ms.date: 11/04/2016
 ms.topic: overview
 helpviewer_keywords:
@@ -12,6 +13,7 @@ helpviewer_keywords:
 - walkthroughs [Visual Studio ALM], modeling software
 author: JoshuaPartlow
 ms.author: joshuapa
+ms.custom: SEO-VS-2020
 manager: jillfra
 ms.workload:
 - multiple
@@ -73,7 +75,7 @@ For more information about Team Foundation Server, see:
 
 The following table describes roles that these tools can play during multiple and various stages of the software development lifecycle:
 
-||**User Requirements Modeling**|**Business Process Modeling**|**System Architecture & Design**|**Code Visualization & Exploration**|**Verification**|
+|Tool / Role|User Requirements Modeling|Business Process Modeling|System Architecture & Design|Code Visualization & Exploration|Verification|
 |------|-|-|-|-|-|
 |Domain-Specific Language (DSL) diagram|Yes|Yes|Yes|||
 |Dependency diagram, layer validation|||Yes|Yes|Yes|
@@ -208,9 +210,9 @@ As their work progresses, the teams update their work items to reflect the time 
 
 See:
 
-- [About Agile tools and Agile project management](/azure/devops/boards/backlogs/backlogs-overview?view=vsts)
+- [About Agile tools and Agile project management](/azure/devops/boards/backlogs/backlogs-overview?view=vsts&preserve-view=true)
 
-- [Charts, dashboards, and widgets (Azure DevOps Services)](/azure/devops/report/dashboards/overview?view=vsts)
+- [Charts, dashboards, and widgets (Azure DevOps Services)](/azure/devops/report/dashboards/overview?view=vsts&preserve-view=true)
 
 - [Create your backlog and tasks using Project](/azure/devops/boards/backlogs/office/create-your-backlog-tasks-using-project)
 
@@ -230,13 +232,13 @@ To make sure that the code conforms to the design, the teams configure their bui
 
 See:
 
-- [Testing the application](/azure/devops/test/overview?view=vsts)
+- [Testing the application](/azure/devops/test/overview?view=vsts&preserve-view=true)
 
 - [Validate your system during development](../modeling/validate-your-system-during-development.md)
 
-- [Use version control](/azure/devops/repos/tfvc/overview?view=azure-devops)
+- [Use version control](/azure/devops/repos/tfvc/overview?view=azure-devops&preserve-view=true)
 
-- [Azure Pipelines](/azure/devops/pipelines/index?view=vsts)
+- [Azure Pipelines](/azure/devops/pipelines/index?view=vsts&preserve-view=true)
 
 ## Update the System Using Visualization and Modeling
 
@@ -478,5 +480,5 @@ Dependency diagrams help you:
 
 - [Visualize code](../modeling/visualize-code.md)
 - [Use models in your development process](../modeling/use-models-in-your-development-process.md)
-- [Use models in Agile development](https://msdn.microsoft.com/592ac27c-3d3e-454a-9c38-b76658ed137f)
+- [Use models in Agile development](/previous-versions/ff398061(v=vs.140))
 - [Validate your system during development](../modeling/validate-your-system-during-development.md)

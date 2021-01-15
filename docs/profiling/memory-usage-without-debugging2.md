@@ -1,5 +1,6 @@
 ---
-title: Analyze memory usage without debugging | Microsoft Docs
+title: Analyze memory usage in the Performance Profiler
+description: Learn how to use the Memory Usage tool without the debugger in the Visual Studio Performance Profiler to monitor your app's memory use.
 ms.custom: 
 ms.date: 04/02/2020
 ms.topic: how-to
@@ -14,11 +15,11 @@ manager: jillfra
 ms.workload: 
   - multiple
 ---
-# Analyze memory usage without the debugger
+# Analyze memory usage without debugging in the Performance Profiler
 
-The **Memory Usage** tool monitors your app's memory use. You can use the tool to study the real-time memory effects of scenarios you're actively developing in Visual Studio. You can take detailed snapshots of the app's memory states, and compare snapshots to find the root causes of memory issues.
+The **Memory Usage** tool monitors your app's memory use. You can use the tool to study the real-time memory effects of scenarios you're actively developing in Visual Studio. You can take detailed snapshots of the app's memory states, and compare snapshots to find the root causes of memory issues. The Memory Usage tool is supported on .NET, ASP.NET, C++, or mixed mode (.NET and native) apps.
 
-The **Memory Usage** tool can run [with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md). In this article, we show how to use the **Memory Usage** tool without the debugger in the Visual Studio **Performance Profiler**.
+The Memory Usage tool can run [with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md). In this article, we show how to use the Memory Usage tool without the debugger in the Visual Studio **Performance Profiler**, which is recommended for release builds.
 
 ## Memory Usage diagnostic sessions
 
@@ -26,7 +27,7 @@ The **Memory Usage** tool can run [with or without the debugger](../profiling/ru
 
 1. Open a project in Visual Studio.
 
-   The Memory Usage tool supports .NET, ASP.NET, native, or mixed mode (.NET and native) apps.
+   The Memory Usage tool supports .NET, ASP.NET, C++, or mixed mode (.NET and native) apps.
 
 1. In the Debug menu, set the solution configuration to **Release** and select **Local Windows Debugger** (or **Local Machine**) as the deployment target.
 
@@ -40,7 +41,7 @@ The **Memory Usage** tool can run [with or without the debugger](../profiling/ru
 
 When you start a diagnostic session, your app starts, and the **Diagnostic Tools** window displays a timeline graph of your app's memory use.
 
-![Memory Usage overview page](../profiling/media/memuse__reportoverview.png "MEMUSE__ReportOverview")
+![Screenshot of the Diagnostic Tools window in the Visual Studio Performance Profiler showing a timeline graph of the app's memory use.](../profiling/media/memuse__reportoverview.png "MEMUSE__ReportOverview")
 
 The timeline graph shows memory fluctuations as the app runs. Spikes in the graph usually indicate that some code is collecting or creating data, and then discarding it when the processing is done. Large spikes indicate areas that you might be able to optimize. Of more concern is a rise in memory consumption that's not returned, because it may indicate inefficient memory use or even a memory leak.
 
@@ -60,7 +61,7 @@ To stop a monitoring session without creating a report, just close the diagnosti
 
 After you stop data collection, the **Memory Usage** tool stops the app and displays the **Memory Usage** overview page.
 
-![Memory Usage overview page](../profiling/media/memuse__reportoverview1.png "Memory Usage overview page")
+![Screenshot of the overview page in the Memory Usage tool in the Visual Studio Performance Profiler, showing a memory usage graph and two snapshot panes.](../profiling/media/memuse__reportoverview1.png "Memory Usage overview page")
 
 ### <a name="BKMK_Memory_Usage_snapshot_views"></a> Memory Usage snapshots
 

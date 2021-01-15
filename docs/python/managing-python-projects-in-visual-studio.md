@@ -34,9 +34,7 @@ Visual Studio provides a variety of Python project templates to quickly set up a
 >
 > It's a simple matter to create a Visual Studio project from existing code, as described in [Create a project from existing files](#create-project-from-existing-files).
 
-|   |   |
-|---|---|
-| ![movie camera icon for video](../install/media/video-icon.png "Watch a video") | [Deep Dive: Use source control with Python projects](https://youtu.be/Aq8eqApnugM) (youtube.com, 8m 55s). |
+![movie camera icon for video](../install/media/video-icon.png "Watch a video") [Deep Dive: Use source control with Python projects](https://youtu.be/Aq8eqApnugM) (youtube.com, 8m 55s).
 
 ## Add files, assign a startup file, and set environments
 

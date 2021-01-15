@@ -1,5 +1,7 @@
 ---
 title: 'How to: View, save, and configure build log files | Microsoft Docs'
+description: Learn how you can view, save, and configure build log files. These files provide useful information for tasks like troubleshooting a build failure.
+ms.custom: SEO-VS-2020
 ms.date: 08/28/2019
 ms.technology: vs-ide-compile
 ms.topic: how-to

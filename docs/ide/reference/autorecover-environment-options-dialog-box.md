@@ -1,6 +1,8 @@
 ---
 title: AutoRecover, Environment, Options Dialog Box
-ms.date: 11/04/2016
+description: Learn about the AutoRecover, Environment, Options dialog box and how it's used to specify whether or not to automatically back up files.
+ms.custom: SEO-VS-2020
+ms.date: 08/14/2020
 ms.topic: reference
 f1_keywords:
 - VS.DialogAutoRestore
@@ -22,11 +24,26 @@ ms.workload:
 
 Use this page in the **Options** dialog box to specify whether to automatically back up files or not. You can also specify if you want to restore modified files if Visual Studio shuts down unexpectedly.
 
-Access this dialog box by selecting the **Tools** menu, selecting **Options**, and then selecting **Environment** > **AutoRecover**. If this page doesn't appear in the list, select **Show all setting** in the **Options** dialog box.
+To access this dialog box, go to **Tools** > **Options** > **Environment** > **AutoRecover**.
+
+:::image type="content" source="media/autorecover-options.png" alt-text="Screenshot of the AutoRecover section in the Options dialog box":::
 
 **Save AutoRecover information every [n] minutes**
 
-Use this option to customize how often a file is automatically saved in the editor. For previously saved files, a copy of the file is saved in *%USERPROFILE%\Documents\Visual Studio\\[version]\Backup Files\\[projectname]*. If the file is new and you haven't saved it yet, the file is autosaved using a randomly generated file name.
+::: moniker range="vs-2019"
+
+Use this option to customize how often a file is automatically saved in the editor. For previously saved files, Visual Studio 2019 version 16.2 and later saves a copy of the file in ***%LocalAppData%\Microsoft\VisualStudio\BackupFiles\\[projectname]***. If the file is new and you haven't saved it yet, Visual Studio autosaves it by using a randomly generated file name.
+
+> [!NOTE]
+> If you are using Visual Studio 2019 version 16.1 or earlier, the file location is *%USERPROFILE%\Documents\Visual Studio [version]\Backup Files\\[projectname]*. For more information, see the [Visual Studio 2019 Release Notes History](/visualstudio/releases/2019/release-notes-history/) page.
+
+::: moniker-end
+
+::: moniker range="vs-2017"
+
+Use this option to customize how often a file is automatically saved in the editor. For previously saved files, Visual Studio 2017 saves a copy of the file in *%USERPROFILE%\Documents\Visual Studio [version]\Backup Files\\[projectname]*. If the file is new and you haven't saved it yet, Visual Studio autosaves it by using a randomly generated file name.
+
+::: moniker-end
 
 **Keep AutoRecover information for [n] days**
 

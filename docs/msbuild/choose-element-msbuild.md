@@ -1,5 +1,7 @@
 ---
 title: Choose Element (MSBuild) | Microsoft Docs
+description: Use the MSBuild Choose element to evaluate child elements and select one set of ItemGroup or PropertyGroup elements to evaluate.
+ms.custom: SEO-VS-2020
 ms.date: 03/13/2017
 ms.topic: reference
 f1_keywords:

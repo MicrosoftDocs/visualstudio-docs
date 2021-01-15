@@ -2,9 +2,9 @@
 title: Pluralsight benefit in Visual Studio subscriptions | Microsoft Docs
 author: evanwindom
 ms.author: v-evwin
-manager: lank
+manager: cabuschl
 ms.assetid: bc8b526c-2fed-4ac8-aaa2-73d2495256fd
-ms.date: 04/20/2020
+ms.date: 12/02/2020
 ms.topic: how-to
 description:  Learn about the Pluralsight training subscription included with selected Visual Studio subscriptions.
 ---
@@ -18,44 +18,59 @@ The table below details what Pluralsight subscription benefits are available to 
  Depending on the type of subscription they have, not all subscribers who have previously used a Pluralsight subscription provided through a Visual Studio subscription will be able to redeem new Pluralsight benefit offers. If you are not eligible to redeem additional Pluralsight training benefits, you'll receive a notification when you attempt to activate the benefit on the Pluralsight website.
 
 ## Activation steps
-1. To activate your subscription, connect to [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs) and click on the **Get code** link on the Pluralsight benefit tile, located in the Professional Development section.
+1. To activate your subscription, connect to [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs) and click on the **Activate** link on the Pluralsight benefit tile.  To narrow the list of tiles displayed, you can choose a group filter.  Pluralsight is located in the Professional Development benefits group.
    > [!div class="mx-imgBorder"]
-   > ![Pluralsight Benefit Tile](_img/vs-pluralsight/vs-pluralsight-6month-tile.png)
-   >
-   > [!IMPORTANT]
-   > When you click on the "Get Code" link on the Pluralsight benefit tile, you may receive the following message:
-   >
-   > **"Please note:   If you have previously activated a different Pluralsight offer through your Visual Studio subscription, this code may not enable you to create a new Pluralsight account."**
+   > ![Pluralsight Benefit Tile](_img/vs-pluralsight/vs-pluralsight-tile.png "Click Activate to claim your benefit")
 
-2. You’ll receive a notification that the coupon code has been successfully retrieved.  Click **Activate**.
-
-3. You'll be redirected to the Pluralsight page for the benefit that's included with your Visual Studio subscription.
+(The tile above is an example of what a Visual Studio Enterprise subscriber will see.  If you are using a different Visual Studio subscription, the duration of your Pluralsight benefit will vary.  See the Eligibility table for details.)
+1. You'll be redirected to the Pluralsight page for the benefit that's included with your Visual Studio subscription.
    - Provide the contact information requested on the form
-   - Click the checkbox to accept the terms of use and privacy policy
-   - Click **I agree, activate benefit**.
+   - Click the checkbox to accept the terms of use
+   - Click **REDEEM**.
    > [!div class="mx-imgBorder"]
-   > ![Pluralsight Activate your benefit](_img/vs-pluralsight/vs-pluralsight-create-account.png)
+   > ![Pluralsight registration](_img/vs-pluralsight/vs-pluralsight-registration.png "Complete the registration form, click the checkbox to accept the terms, and click Redeem")
 
-5. It may take a moment to set up your account.  Once that's complete, you'll see a confirmation on the page, and will receive an email with your login information.  The email will be sent to the alias you specified when you created the account.  Be sure to check your junk or spam mail folders if you have trouble finding the message.
+   > [!NOTE]
+   > The registration page expires after a few minutes.  If you don't complete the registration process before the page expires, return to the Pluralsight tile on the <https://my.visualstudio.com/benefits> page and click **Activate** again. 
+
+1. It may take a moment to set up your account.  After that's complete, you'll see a confirmation on the page, and will receive an email with your login information.  The email will be sent to the alias you specified when you created the account.  Be sure to check your junk or spam mail folders if you have trouble finding the message.
 
    > [!NOTE]
    > If your account is not eligible to redeem new offers, the email you receive will explain that there was a problem creating your account because it's not eligible.  It will also contain information to help you contact Pluralsight's support team, who can answer any questions you may have about your account.
-   
 
-6. After your account has been successfully created, the email you receive will contain your username, and ask you to create a password.  Provide your password, enter it again to confirm it, and click **Log in to Pluralsight**.
+1. Click **SET PASSWORD**.
 
-7. Enter the username provided in the welcome email, and the password you just created, and click **Sign in**.
+1. Enter your desired password in the **New password** field, enter it again in the **Confirm password** field, and click **Save**.
 
-8. That's it!  You're now ready to start learning with thousands of Pluralsight courses!
+1. That's it!  You're now ready to start learning with thousands of Pluralsight courses!
+
+## Status of your Pluralsight subscription
+After you activate your Pluralsight benefit, the appearance of the tile in the Visual Studio subscriptions portal will change to help you track the status of your subscription.  
+
+### While your subscription is active
+Instead of the "Activate" button, you'll now see a small circular button that, if clicked, will take you directly to the Pluralsight portal so you can sign in and continue with your training.  
+
+Under the Pluralsight title at the top of the tile, you'll see text displaying how much time is remaining on your Pluralsight subscription.  When your subscription is within 60 days of expiring, the text will switch to displaying the number of days remaining rather than months.  
+
+At the bottom of the tile, you'll see text showing both the activation date and expiration date of your Pluralsight subscription.
+
+   > [!div class="mx-imgBorder"]
+   > ![Pluralsight tile after activation](_img/vs-pluralsight/vs-pluralsight-activated.png "After activation, the tile will display the number of days remaining on your subscription, along with the expiration date and a link to the Pluralsight portal.")
+
+### When your subscription expires
+When your Pluralsight subscription expires, the status will change to "0 days remaining" and the link to the Pluralsight portal will be removed. You will still be able to see the date that you activated the subscription, as well as the date it expired.  
+   > [!div class="mx-imgBorder"]
+   > ![Pluralsight tile after expiration](_img/vs-pluralsight/vs-pluralsight-expired.png "After expiration, the link to Pluralsight will be removed and the dates the subscription was active will appear at the bottom of the tile.")
+
 
 ## Eligibility
 
 |                          Subscription Level                          |     Channels      |    Benefit    |   Renewable?   |
 |----------------------------------------------------------------------|-------------------|---------------|----------------|
 |          Visual Studio Enterprise (Standard)           | VL, Azure, Retail |   6 months    | Yes<sup>2</sup> |
-|          Visual Studio Enterprise with GitHub Enterprise          | VL  |   6 months    | Yes<sup>2</sup> |
+|          Visual Studio Enterprise subscription with GitHub Enterprise          | VL  |   6 months    | Yes<sup>2</sup> |
 |         Visual Studio Professional (Standard)          | VL, Azure, Retail |   3 months    | Yes<sup>2</sup> |
-|         Visual Studio Professional with GitHub Enterprise          | VL  |   3 months    | Yes<sup>2</sup> |
+|         Visual Studio Professional subscription with GitHub Enterprise          | VL  |   3 months    | Yes<sup>2</sup> |
 |              Visual Studio Test Professional (Standard)              |    VL, Retail     |   Not available    | NA  |
 |                      MSDN Platforms (Standard)                       |    VL, Retail     |   Not available    | NA  |
 | Visual Studio Enterprise, Visual Studio Professional (monthly cloud) |       Azure       | Not available |       NA       |
@@ -79,6 +94,9 @@ A: Not all Visual Studio Enterprise subscriptions include the Pluralsight benefi
 ### Q: Do I have access to any customized learning  playlists or channels?
 A: Yes. As a Visual Studio subscriber you get access to featured roles, learning paths, and custom channels (playlists) as part of your Pluralsight training benefit. Featured content has been specially curated by Microsoft and Pluralsight, and is geared towards learning in key areas of interest. Activate your Pluralsight benefit through your Visual Studio subscription portal <https://my.visualstudio.com/benefits> to get access to this and other content on your Pluralsight home page.
 
+### Q: The Pluralsight tile doesn't have an "Activate" link. How can I activate the benefit?
+A:  If you have already activated your Pluralsight benefit, the "Activate" link will be replaced by a link that takes you to the sign-in page for Pluralsight.  You will also see the date you activated the benefit as well as information about how much time remains on your subscription.  If you've already used a subscription, you won't be able to activate another one.
+
 ### Q: What happens when my Pluralsight subscription runs out?
 A:  At the end of your free Pluralsight subscription, you may choose to purchase a subscription directly from Pluralsight.  Please contact [Pluralsight](https://www.pluralsight.com) for full details.
 
@@ -88,12 +106,12 @@ A:  At the end of your free Pluralsight subscription, you may choose to purchase
 - Have a question about Visual Studio IDE, Azure DevOps Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).
 
 ## See also
-- [Visual Studio documentation](https://docs.microsoft.com/visualstudio/)
-- [Azure DevOps documentation](https://docs.microsoft.com/azure/devops/)
-- [Azure documentation](https://docs.microsoft.com/azure/)
-- [Microsoft 365 documentation](https://docs.microsoft.com/microsoft-365/)
+- [Visual Studio documentation](/visualstudio/)
+- [Azure DevOps documentation](/azure/devops/)
+- [Azure documentation](/azure/)
+- [Microsoft 365 documentation](/microsoft-365/)
 
 ## Next steps
 Once you've created your account, you're ready to start training.  Visit [https://www.pluralsight.com](https://www.pluralsight.com) and tap **log in** at the top right corner of the page to start a new course, or return to a course already in progress.
 
-Take advantage of your own development sandbox by activating your [Azure DevTest individual credit](vs-azure.md). 
+Take advantage of your own development sandbox by activating your [Azure DevTest individual credit](vs-azure.md).

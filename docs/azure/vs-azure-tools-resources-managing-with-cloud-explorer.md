@@ -3,8 +3,6 @@ title: Managing Azure resources with Cloud Explorer | Microsoft Docs
 description: Learn how to use Cloud Explorer to browse and manage Azure resources within Visual Studio.
 author: ghogen
 manager: jillfra
-assetId: 6347dc53-f497-49d5-b29b-e8b9f0e939d7
-ms.custom: vs-azure
 ms.workload: azure-vs
 ms.topic: conceptual
 ms.date: 03/25/2017
@@ -28,7 +26,7 @@ Like the [Azure portal](https://portal.azure.com), Cloud Explorer is built on th
 
 To view the resources associated with an Azure account, you must first add the account to **Cloud Explorer**.
 
-1. In **Cloud Explorer**, choose the **Account Management** button.
+1. In **Cloud Explorer**, select the **Account Management** button.
 
    ![Cloud Explorer Azure account settings icon](./media/vs-azure-tools-resources-managing-with-cloud-explorer/azure-account-settings.png)
 
@@ -42,7 +40,7 @@ To view the resources associated with an Azure account, you must first add the a
 
    ![Cloud Explorer: select Azure subscriptions to display](./media/vs-azure-tools-resources-managing-with-cloud-explorer/select-subscriptions.png)
 
-1. After selecting the subscriptions whose resources you want to browse, those subscriptions and resources display in the Cloud Explorer.
+1. After selecting the subscriptions whose resources you want to browse, those subscriptions and resources display in the **Cloud Explorer**.
 
    ![Cloud Explorer resource listing for an Azure account](./media/vs-azure-tools-resources-managing-with-cloud-explorer/resources-listed.png)
 
@@ -50,11 +48,11 @@ To view the resources associated with an Azure account, you must first add the a
 
 1. In **Cloud Explorer**, select **Account Management**.
 
-   ![Cloud Explorer Azure account settings icon](./media/vs-azure-tools-resources-managing-with-cloud-explorer/azure-account-settings.png)
+   ![Azure account settings](./media/vs-azure-tools-resources-managing-with-cloud-explorer/azure-account-settings.png)
 
 1. Next to the account you want to remove, select **Manage Accounts**.
 
-   ![Cloud Explorer Azure account settings icon](./media/vs-azure-tools-resources-managing-with-cloud-explorer/remove-account.png)
+   ![Remove account](./media/vs-azure-tools-resources-managing-with-cloud-explorer/remove-account.png)
 
 1. Choose **Remove** to remove an account.
 
@@ -95,7 +93,7 @@ Additional actions and property values may also appear based on the Azure resour
 
 ## Find resources in Cloud Explorer
 
-To locate resources with a specific name in your Azure account subscriptions, enter the name in the **Search** box in Cloud Explorer.
+To locate resources with a specific name in your Azure account subscriptions, enter the name in the **Search** box in **Cloud Explorer**.
 
   ![Finding resources in Cloud Explorer](./media/vs-azure-tools-resources-managing-with-cloud-explorer/search-for-resources.png)
 

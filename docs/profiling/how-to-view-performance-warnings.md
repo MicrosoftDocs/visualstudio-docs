@@ -1,5 +1,5 @@
 ---
-title: How to - View Performance Warnings | Microsoft Docs
+title: View Performance Warnings | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: how-to
 ms.assetid: c6ce4e9c-4677-40cc-b1af-d68e9f3249f2

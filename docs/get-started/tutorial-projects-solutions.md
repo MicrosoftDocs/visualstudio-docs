@@ -1,16 +1,19 @@
 ---
 title: Introduction to projects and solutions
-ms.date: 02/24/2020
+description: Learn about the difference between projects and solutions and how to use them in Visual Studio.
+ms.date: 11/17/2020
 ms.technology: vs-ide-general
-ms.custom: get-started
+ms.custom: [get-started, SEO-VS-2020]
 ms.topic: tutorial
+f1_keywords:
+- project.addnewitem
 author: TerryGLee
 ms.author: tglee
 manager: jillfra
 ms.workload:
 - multiple
 ---
-# Learn about projects and solutions
+# Introduction to projects and solutions
 
 In this introductory article, we'll explore what it means to create a *solution* and a *project* in Visual Studio. A solution is a container that's used to organize one or more related code projects, for example a class library project and a corresponding test project. We'll look at the properties of a project and some of the files it can contain. We'll also create a reference from one project to another.
 
@@ -43,13 +46,13 @@ We'll start our exploration by creating an empty solution. After you get to know
 
 1. Open Visual Studio.
 
-1. On the top menu bar, choose **File** > **New** > **Project**.
+1. On the top menu bar, select **File** > **New** > **Project**.
 
    The **New Project** dialog box opens.
 
-1. In the left pane, expand **Other Project Types**, then choose **Visual Studio Solutions**. In the center pane, choose the **Blank Solution** template. Name your solution **QuickSolution**, then choose the **OK** button.
+1. In the left pane, expand **Other Project Types**, then select **Visual Studio Solutions**. In the center pane, select the **Blank Solution** template. Name your solution **QuickSolution**, then select the **OK** button.
 
-   ![Blank solution template in Visual Studio 2017](media/tutorial-projects-new-solution.png)
+   ![Blank Solution template in Visual Studio 2017](media/tutorial-projects-new-solution.png "The Blank Solution template in Visual Studio 2017.")
 
    The **Start Page** closes, and a solution appears in **Solution Explorer** on the right-hand side of the Visual Studio window. You'll probably use **Solution Explorer** often, to browse the contents of your projects.
 
@@ -59,13 +62,16 @@ We'll start our exploration by creating an empty solution. After you get to know
 
 1. Open Visual Studio.
 
-2. On the start window, choose **Create a new project**.
+2. On the start window, select **Create a new project**.
 
-3. On the **Create a new project** page, enter **blank solution** into the search box, select the **Blank Solution** template, and then choose **Next**.
+3. On the **Create a new project** page, enter **blank solution** into the search box, select the **Blank Solution** template, and then select **Next**.
 
-   ![Blank Solution template in Visual Studio 2019](media/vs-2019/tutorial-projects-blank-solution-template.png)
+   ![Blank Solution template in Visual Studio 2019](media/vs-2019/tutorial-projects-blank-solution-template.png "The Blank Solution template in Visual Studio 2019.")
 
-4. Name the solution **QuickSolution**, and then choose **Create**.
+    > [!TIP]
+    > If you have several workloads installed, the **Blank Solution** template might not appear at the top of your list of search results. Try scrolling to the **Other results based on your search** section of the list. It should appear there.
+
+4. Name the solution **QuickSolution**, and then select **Create**.
 
    A solution appears in **Solution Explorer** on the right-hand side of the Visual Studio window. You'll probably use **Solution Explorer** often, to browse the contents of your projects.
 
@@ -77,39 +83,41 @@ Now let's add our first project to the solution. We'll start with an empty proje
 
 ::: moniker range="vs-2017"
 
-1. From the right-click or context menu of **Solution 'QuickSolution'** in **Solution Explorer**, choose **Add** > **New Project**.
+1. From the right-click or context menu of **Solution 'QuickSolution'** in **Solution Explorer**, select **Add** > **New Project**.
 
    The **Add New Project** dialog box opens.
 
-1. In the left pane, expand **Visual C#** and choose **Windows Desktop**. Then, in the middle pane, choose the **Empty Project (.NET Framework)** template. Name the project **QuickDate**, then choose **OK**.
+1. In the left pane, expand **Visual C#** and select **Windows Desktop**. Then, in the middle pane, select the **Empty Project (.NET Framework)** template. Name the project **QuickDate**, then select **OK**.
 
    A project named QuickDate appears beneath the solution in **Solution Explorer**. Currently it contains a single file called *App.config*.
 
    > [!NOTE]
-   > If you don't see **Visual C#** in the left pane of the dialog box, you must install the **.NET desktop development** Visual Studio workload. Visual Studio uses workload-based installation to install only the components you need for the type of development you do. An easy way to install a new workload is to choose the **Open Visual Studio Installer** link in the bottom left corner of the **Add New Project** dialog box. After Visual Studio Installer launches, choose the **.NET desktop development** workload and then the **Modify** button.
+   > If you don't see **Visual C#** in the left pane of the dialog box, you must install the **.NET desktop development** Visual Studio workload. Visual Studio uses workload-based installation to install only the components you need for the type of development you do. An easy way to install a new workload is to select the **Open Visual Studio Installer** link in the bottom left corner of the **Add New Project** dialog box. After Visual Studio Installer launches, select the **.NET desktop development** workload and then the **Modify** button.
    >
-   > ![Open Visual Studio Installer link](media/tutorial-projects-open-installer.png)
+   > ![Open Visual Studio Installer link](media/tutorial-projects-open-installer.png "The Open Visual Studio Installer link in the Add New Project dialog in Visual Studio 2017.")
 
 ::: moniker-end
 
 ::: moniker range=">=vs-2019"
 
-1. From the right-click or context menu of **Solution 'QuickSolution'** in **Solution Explorer**, choose **Add** > **New Project**.
+1. From the right-click or context menu of **Solution 'QuickSolution'** in **Solution Explorer**, select **Add** > **New Project**.
 
    A dialog box opens that says **Add a new project**.
 
 1. Enter the text **empty** into the search box at the top, and then select **C#** under **Language**.
 
-1. Select the **Empty Project (.NET Framework)** template, and then choose **Next**.
+1. Select the **Empty Project (.NET Framework)** template, and then select **Next**.
 
-1. Name the project **QuickDate**, then choose **Create**.
+1. Name the project **QuickDate**, then select **Create**.
 
    A project named QuickDate appears beneath the solution in **Solution Explorer**. Currently it contains a single file called *App.config*.
 
    > [!NOTE]
-   > If you don't see the **Empty Project (.NET Framework)** template, you must install the **.NET desktop development** Visual Studio workload. Visual Studio uses workload-based installation to install only the components you need for the type of development you do. An easy way to install a new workload when you're creating a new project is to choose the **Install more tools and features** link under the text that says **Not finding what you're looking for?**. After Visual Studio Installer launches, choose the **.NET desktop development** workload and then the **Modify** button.
+   > If you don't see the **Empty Project (.NET Framework)** template, you must install the **.NET desktop development** Visual Studio workload. Visual Studio uses workload-based installation to install only the components you need for the type of development you do.
    >
-   > ![Open Visual Studio Installer link](media/vs-2019/tutorial-projects-open-installer.png)
+   >An easy way to install a new workload when you're creating a new project is to select the **Install more tools and features** link under the text that says **Not finding what you're looking for?**. After Visual Studio Installer launches, select the **.NET desktop development** workload and then the **Modify** button.
+   >
+   > ![Open Visual Studio Installer link](media/vs-2019/tutorial-projects-open-installer.png "The Open Visual Studio Installer link in the Create a New Project dialog in Visual Studio.")
 
 ::: moniker-end
 
@@ -117,11 +125,11 @@ Now let's add our first project to the solution. We'll start with an empty proje
 
 We have an empty project. Let's add a code file.
 
-1. From the right-click or context menu of the **QuickDate** project in **Solution Explorer**, choose **Add** > **New Item**.
+1. From the right-click or context menu of the **QuickDate** project in **Solution Explorer**, select **Add** > **New Item**.
 
    The **Add New Item** dialog box opens.
 
-1. Expand **Visual C# Items**, then choose **Code**. In the middle pane, choose the **Class** item template. Name the class **Calendar**, and then choose the **Add** button.
+1. Expand **Visual C# Items**, then select **Code**. In the middle pane, select the **Class** item template. Name the class **Calendar**, and then select the **Add** button.
 
    A file named *Calendar.cs* is added to the project. The *.cs* on the end is the file extension that is given to C# code files. The file appears in the visual project hierarchy in **Solution Explorer**, and its contents are opened in the editor.
 
@@ -157,15 +165,15 @@ It is common for solutions to contain more than one project, and often these pro
 
 Let's add a unit test project to our solution. This time we'll start from a project template so we don't have to add an additional code file to the project.
 
-1. From the right-click or context menu of **Solution 'QuickSolution'** in **Solution Explorer**, choose **Add** > **New Project**.
+1. From the right-click or context menu of **Solution 'QuickSolution'** in **Solution Explorer**, select **Add** > **New Project**.
 
 ::: moniker range="vs-2017"
 
-2. In the left pane, expand **Visual C#** and choose the **Test** category. In the middle pane, choose the **MSTest Test Project (.NET Core)** project template. Name the project **QuickTest**, and then choose **OK**.
+2. In the left pane, expand **Visual C#** and select the **Test** category. In the middle pane, select the **MSTest Test Project (.NET Core)** project template. Name the project **QuickTest**, and then select **OK**.
 
    A second project is added to **Solution Explorer**, and a file named *UnitTest1.cs* opens in the editor.
 
-   ![Visual Studio Solution Explorer with two projects](media/tutorial-projects-solution-explorer.png)
+   ![Visual Studio Solution Explorer with two projects](media/tutorial-projects-solution-explorer.png "Solution Explorer with two projects in Visual Studio 2017.")
 
 ::: moniker-end
 
@@ -173,13 +181,13 @@ Let's add a unit test project to our solution. This time we'll start from a proj
 
 2. In the **Add a new project** dialog box, enter the text **unit test** into the search box at the top, and then select **C#** under **Language**.
 
-3. Choose the **MSTest Test Project (.NET Core)** project template, and then choose **Next**.
+3. Select the **MSTest Test Project (.NET Core)** project template, and then select **Next**.
 
-4. Name the project **QuickTest**, and then choose **Create**.
+4. Name the project **QuickTest**, and then select **Create**.
 
    A second project is added to **Solution Explorer**, and a file named *UnitTest1.cs* opens in the editor.
 
-   ![Visual Studio Solution Explorer with two projects](media/vs-2019/tutorial-projects-solution-explorer.png)
+   ![Visual Studio Solution Explorer with two projects](media/vs-2019/tutorial-projects-solution-explorer.png "Solution Explorer with two projects in Visual Studio.")
 
 ::: moniker-end
 
@@ -187,15 +195,33 @@ Let's add a unit test project to our solution. This time we'll start from a proj
 
 We're going to use the new unit test project to test our method in the **QuickDate** project, so we need to add a reference to that project. This creates a *build dependency* between the two projects, meaning that when you build the solution, **QuickDate** is built before **QuickTest**.
 
-1. Choose the **Dependencies** node in the **QuickTest** project, and from the right-click or context menu, choose **Add Reference**.
+::: moniker range="vs-2017"
+
+1. Select the **Dependencies** node in the **QuickTest** project, and from the right-click or context menu, select **Add Reference**.
 
    The **Reference Manager** dialog box opens.
 
-1. In the left pane, expand **Projects** and choose **Solution**. In the middle pane, choose the checkbox next to **QuickDate**, and then choose **OK**.
+1. In the left pane, expand **Projects** and select **Solution**. In the middle pane, select the checkbox next to **QuickDate**, and then select **OK**.
 
    A reference to the **QuickDate** project is added.
 
-   ![Visual Studio 2019 Solution Explorer showing project reference](media/vs-2019/tutorial-projects-solution-explorer-reference.png)
+   ![A screenshot of Solution Explorer showing project reference in Visual Studio](media/vs-2019/tutorial-projects-solution-explorer-reference.png "A screenshot of Solution Explorer showing a project reference in Visual Studio.")
+
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+1. Select the **Dependencies** node in the **QuickTest** project, and from the right-click or context menu, select **Add Project Reference...**.
+
+   The **Reference Manager** dialog box opens.
+
+1. In the left pane, expand **Projects**, and then select **Solution**. In the middle pane, select the checkbox next to **QuickDate**, and then select **OK**.
+
+   A reference to the **QuickDate** project is added.
+
+   ![A screenshot of Solution Explorer showing a project reference in Visual Studio 2019](media/vs-2019/tutorial-projects-solution-explorer-reference.png)
+
+::: moniker-end
 
 ## Add test code
 
@@ -231,7 +257,7 @@ We're going to use the new unit test project to test our method in the **QuickDa
 
    The code file should look like this:
 
-   ![CSharp code](media/tutorial-projects-cs-code.png)
+   ![CSharp code](media/tutorial-projects-cs-code.png "The code snippet from the Add Test Code section in this article.")
 
 ## Project properties
 
@@ -241,15 +267,25 @@ The line in the *Calendar.cs* file that contains the <xref:System.Runtime.Compil
 
    The *property pages* for the project open on the **Application** tab. The property pages contain various settings for the project. Notice that the assembly name of the **QuickTest** project is indeed "QuickTest". If you wanted to change it, this is where you'd do that. Then, when you build the test project, the name of the resulting binary file would change from *QuickTest.dll* to whatever you chose.
 
-   ![Project properties](media/tutorial-projects-netcore-properties.png)
+   ![Project properties](media/tutorial-projects-netcore-properties.png "Project Properties dialog in Visual Studio.")
 
 1. Explore some of the other tabs of the project's property pages, such as **Build** and **Debug**. These tabs are different for different types of projects.
 
 ## Next steps
 
+::: moniker range="vs-2017"
+
 If you want to check that your unit test is working, choose **Test** > **Run** > **All Tests** from the menu bar. A window called **Test Explorer** opens, and you should see that the **TestGetCurrentDate** test passes.
 
-![Test Explorer in Visual Studio showing passed test](media/tutorial-projects-test-explorer.png)
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+If you want to check that your unit test is working, choose **Test** > **Run All Tests** from the menu bar. A window called **Test Explorer** opens, and you should see that the **TestGetCurrentDate** test passes.
+
+::: moniker-end
+
+![Test Explorer in Visual Studio showing passed test](media/tutorial-projects-test-explorer.png "Test Explorer in Visual Studio showing a passed test.")
 
 ::: moniker range="vs-2017"
 
@@ -267,7 +303,7 @@ If you want to check that your unit test is working, choose **Test** > **Run** >
 
 ## See also
 
-- [Create projects and solutions](../ide/creating-solutions-and-projects.md)
+- [Work with projects and solutions](../ide/creating-solutions-and-projects.md)
 - [Manage project and solution properties](../ide/managing-project-and-solution-properties.md)
 - [Manage references in a project](../ide/managing-references-in-a-project.md)
 - [Develop code in Visual Studio without projects or solutions](../ide/develop-code-in-visual-studio-without-projects-or-solutions.md)

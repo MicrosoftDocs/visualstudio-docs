@@ -1,6 +1,6 @@
 ---
-title: Attach profiler to ASP.NET web app to get app statistics
-ms.custom: seodec18
+title: Attach profiler to ASP.NET to get app statistics
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 ms.assetid: 3725ddbe-ce91-4469-991e-8c5ed048c618

@@ -1,5 +1,7 @@
 ---
 title: "Improve the performance of a VSTO Add-in"
+description: Learn how to optimize VSTO Add-ins that you create for Office applications so that they quickly start up, shut down, open items, and perform other tasks.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -109,6 +111,6 @@ ms.workload:
 
 ## See also
 
-- [Demand-loading VSTO Add-ins](https://blogs.msdn.microsoft.com/andreww/2008/07/14/demand-loading-vsto-add-ins/)
-- [Delay-loading the CLR in Office Add-ins](https://blogs.msdn.microsoft.com/andreww/2008/04/19/delay-loading-the-clr-in-office-add-ins/)
+- [Demand-loading VSTO Add-ins](/archive/blogs/andreww/demand-loading-vsto-add-ins)
+- [Delay-loading the CLR in Office Add-ins](/archive/blogs/andreww/delay-loading-the-clr-in-office-add-ins)
 - [Create VSTO Add-ins for Office by using Visual Studio](create-vsto-add-ins-for-office-by-using-visual-studio.md)

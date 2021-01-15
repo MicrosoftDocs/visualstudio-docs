@@ -1,5 +1,5 @@
 ---
-title: "Error - Mixed mode debugging for IA64 processes is unsupported | Microsoft Docs"
+title: "Mixed mode debugging for IA64 processes is unsupported | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "error-reference"
 f1_keywords:

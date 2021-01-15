@@ -1,5 +1,7 @@
 ---
 title: "Debugging GPU Code | Microsoft Docs"
+description: Learn about debugging C++ code that's running on the graphics processing unit (GPU) in Visual Studio.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:
@@ -71,9 +73,9 @@ You can debug C++ code that is running on the graphics processing unit (GPU). GP
  This error happens if you are debugging on a remote PC. The debugger cannot determine until run time whether the drivers are installed on the remote PC. The drivers are available from the manufacturer of the graphics card.
 
 ### Error: Timeout Detection and Recovery (TDR) must be disabled at the remote site.
- It is possible for C++ AMP computations to exceed the default time interval that's set by the Windows timeout detection and recovery process (TDR). When that happens, the computation is canceled and the data is lost. For more information, see [Handling TDRs in C++ AMP](https://blogs.msdn.microsoft.com/nativeconcurrency/2012/03/06/handling-tdrs-in-c-amp/).
+ It is possible for C++ AMP computations to exceed the default time interval that's set by the Windows timeout detection and recovery process (TDR). When that happens, the computation is canceled and the data is lost. For more information, see [Handling TDRs in C++ AMP](/archive/blogs/nativeconcurrency/handling-tdrs-in-c-amp).
 
 ## See also
 - [Walkthrough: Debugging a C++ AMP Application](/cpp/parallel/amp/walkthrough-debugging-a-cpp-amp-application)
 - [Project Settings for a C++ Debug Configuration](../debugger/project-settings-for-a-cpp-debug-configuration.md)
-- [Start GPU Debugging in Visual Studio](https://blogs.msdn.microsoft.com/nativeconcurrency/2012/03/17/start-gpu-debugging-in-visual-studio-2012/)
+- [Start GPU Debugging in Visual Studio](/archive/blogs/nativeconcurrency/start-gpu-debugging-in-visual-studio-2012)

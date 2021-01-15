@@ -1,5 +1,7 @@
 ---
 title: 'Microsoft Fakes: Generate & compile code; naming conventions'
+description: Learn about options and issues in Fakes code generation and compilation, including the naming conventions for Fakes generated types, members, and parameters.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.author: mikejo
@@ -16,9 +18,9 @@ This article discusses options and issues in Fakes code generation and compilati
 
 - Visual Studio Enterprise
 - A .NET Framework project
-
-> [!NOTE]
-> .NET Standard projects are not supported.
+::: moniker range=">=vs-2019"
+- .NET Core and SDK-style project support previewed in Visual Studio 2019 Update 6, and is enabled by default in Update 8. For more information, see [Microsoft Fakes for .NET Core and SDK-style projects](/visualstudio/releases/2019/release-notes#microsoft-fakes-for-net-core-and-sdk-style-projects).
+::: moniker-end
 
 ## Code generation and compilation
 

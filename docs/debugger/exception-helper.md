@@ -1,5 +1,8 @@
 ---
-title: Inspect an exception - Visual Studio | Microsoft Docs
+title: Inspect an exception
+titleSuffix: ""
+description: Learn about the information that Visual Studio provides to help you debug exceptions, and how to selectively disable breaking on exceptions.
+ms.custom: SEO-VS-2020
 ms.date: 1/18/2020
 ms.topic: how-to
 dev_langs: 
@@ -44,7 +47,7 @@ Starting in Visual Studio 2017, for both .Net and C/C++ code, when you hit a `Nu
 You can configure the debugger to break when an exception of the current type is thrown from the **Exception Settings** section of the Exception Helper. If the debugger is paused at a thrown exception, then you can use the checkbox to disable breaking on that exception type when thrown in the future. If you don't want to break on this particular exception when thrown in this particular module, tick the checkbox by the module name under **Except when thrown from:** in the **Exception Settings** window. 
 
 ## Inspect inner exceptions 
-If the exception has any inner exceptions ([InnerException](https://docs.microsoft.com/dotnet/api/system.exception.innerexception), you can view them in the Exception Helper. If there are multiple exceptions present, you can navigate between them using the left and right arrows shown above the call stack.
+If the exception has any inner exceptions ([InnerException](/dotnet/api/system.exception.innerexception), you can view them in the Exception Helper. If there are multiple exceptions present, you can navigate between them using the left and right arrows shown above the call stack.
 
 ![Exception helper with inner exception](media/debugger-exception-helper-innerexception.png)
 
@@ -54,4 +57,4 @@ In cases where an exception has been `thrown` the Exception Helper shows the cal
 ![Exception helper with rethrown exceptions](media/debugger-exception-helper-innerexception.png)
 
 ## Share a debug session with Live Share
-From the Exception Helper, you can start a [Live Share](https://docs.microsoft.com/visualstudio/liveshare/) session using the link **Start Live Share session...**. Anyone who joins the Live Share session can see the Exception Helper along with any other debug information.
+From the Exception Helper, you can start a [Live Share](/visualstudio/liveshare/) session using the link **Start Live Share session...**. Anyone who joins the Live Share session can see the Exception Helper along with any other debug information.

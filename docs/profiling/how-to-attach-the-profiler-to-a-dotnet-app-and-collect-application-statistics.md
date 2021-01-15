@@ -1,6 +1,6 @@
 ---
-title: Attach profiler to .NET Framework stand-alone app; get app stats
-ms.custom: seodec18
+title: Attach profiler to .NET stand-alone app; get app stats
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 ms.assetid: b62fcbc1-791f-474e-890a-a6c332e0c9ea

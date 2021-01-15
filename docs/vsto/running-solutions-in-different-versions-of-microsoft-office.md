@@ -1,5 +1,8 @@
 ---
 title: "Run solutions in different versions of Microsoft Office"
+description: Learn how you can run versions of Microsoft Office solutions that were created by using Visual Studio 2010 and above.
+ms.custom: SEO-VS-2020
+titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

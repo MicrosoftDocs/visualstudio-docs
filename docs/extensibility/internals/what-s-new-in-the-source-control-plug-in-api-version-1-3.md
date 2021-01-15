@@ -1,5 +1,7 @@
 ---
-title: What&#39;s New in the Source Control Plug-in API Version 1.3 | Microsoft Docs
+title: What&apos;s new in the source control plug-in API 1.3
+description: Learn about what's new in the Source Control Plug-in API version 1.3, which introduces the new functions to provide more advanced control.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

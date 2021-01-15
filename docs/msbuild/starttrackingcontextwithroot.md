@@ -1,5 +1,7 @@
 ---
 title: "StartTrackingContextWithRoot | Microsoft Docs"
+description: Learn to use MSBuild StartTrackingContextWithRoot to start a tracking context using a response file specifying a root marker.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 apiname:

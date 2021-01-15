@@ -1,5 +1,7 @@
 ---
-title: How to - Change Fonts | Microsoft Docs
+title: Change Fonts | Microsoft Docs
+Description: See how to set the font, font style, and font size for Spy++ windows. You can save your choices as the defaults for future Spy++ windows.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords: 

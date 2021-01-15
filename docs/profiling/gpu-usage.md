@@ -1,5 +1,6 @@
 ---
 title: "GPU usage | Microsoft Docs"
+description: Learn how to use the GPU Usage tool in the Performance Profiler to better understand the high-level hardware usage of your Direct3D app.
 ms.date: "11/01/2018"
 ms.topic: "conceptual"
 author: "mikejo5000"
@@ -10,7 +11,7 @@ ms.workload:
 ---
 # GPU usage
 
-Use the GPU Usage tool in the Visual Studio Performance and Diagnostics hub to better understand the high-level hardware usage of your Direct3D app. It helps you see whether the performance of your app is CPU-bound or GPU-bound, and gain insight into how you can use the platform's hardware more effectively. GPU Usage supports apps that use Direct3D 12, Direct3D 11, and Direct3D 10. It doesn't support other graphics APIs, such as Direct2D or OpenGL.
+Use the GPU Usage tool in the Performance Profiler to better understand the high-level hardware usage of your Direct3D app. It helps you see whether the performance of your app is CPU-bound or GPU-bound, and gain insight into how you can use the platform's hardware more effectively. GPU Usage supports apps that use Direct3D 12, Direct3D 11, and Direct3D 10. It doesn't support other graphics APIs, such as Direct2D or OpenGL.
 
 Here's what the **GPU Usage Report** window looks like:
 
@@ -37,7 +38,7 @@ To start the GPU Usage tool:
 
 2. In the **Performance and Diagnostics** hub, check the box next to **GPU Usage**. Optionally, check the boxes next to other tools you're interested in. You can run several performance and diagnostics tools concurrently to get a fuller picture of your app's performance.
 
-    ![Screenshot of the Performance and Diagnostics hub, with GPU Usage selected](media/gpuusageselected.png "GPU Usage Selected")
+    ![Screenshot of the Performance Profiler, with GPU Usage selected](media/gpuusageselected.png "GPU Usage Selected")
 
    > [!NOTE]
    > Not all performance and diagnostics tools can be used at the same time.
@@ -56,11 +57,11 @@ To generate and view the GPU Usage report:
 
 1. In the bottom portion of the diagnostics session window, choose the **Stop Collection** link, or select **Stop** in the upper left-hand corner.
 
-   ![Screenshot of the diagnostics session window](media/gfx_diag_gpu_usage_collect.png "gfx_diag_gpu_usage_collect")
+   ![Screenshot of a diagnostics session window in the GPU Usage tool, showing Frames per second, GPU utilization, the Stop button, and the Stop collection link.](media/gfx_diag_gpu_usage_collect.png "gfx_diag_gpu_usage_collect")
 
 2. In the top portion of the report, select a section from one of the graphs that shows the issue you want to investigate. Your selection can be up to 3 seconds long. Longer sections are truncated towards the beginning.
 
-   ![Screenshot of the diagnostics session window](media/gfx_diag_gpu_usage_select1.png "gfx_diag_gpu_usage_select1")
+   ![Screenshot of a diagnostics session window in the GPU Usage tool with part of the diagnostic session timeline selected.](media/gfx_diag_gpu_usage_select1.png "gfx_diag_gpu_usage_select1")
 
 3. To view a detailed timeline of your selection, in the bottom portion of the report, in the **...click here to view details of GPU usage for that range** message, select **view details**.
 
@@ -78,7 +79,7 @@ Starting with Visual Studio 2017, you can open this data with [GPUView](/windows
 
 ## Use the GPU Usage report
 
-The top portion of the GPU Usage report shows timelines for the CPU processing activity, GPU rendering activity, and GPU copy activity. These timelines are divided by light-gray, vertical bars that indicate the display's vsync. The frequency of the bars matches the refresh rate of one of the displays (selected by using the **Display** drop-down list) that GPU usage data was collected from.
+The top portion of the GPU Usage report shows timelines for the CPU processing activity, GPU rendering activity, and GPU copy activity. These timelines are divided by light-gray, vertical bars that indicate the display's vertical synchronization (vsync). The frequency of the bars matches the refresh rate of one of the displays (selected by using the **Display** drop-down list) that GPU usage data was collected from.
 
 Because the display might have a higher refresh rate than your app's performance target, there might not be a 1-to-1 relationship between vsync and the frame-rate you want your app to achieve. To meet its performance target, an app must complete all processing, do the rendering, and make a `Present()` call at the targeted framerate. The rendered frame won't be shown until the next vsync after `Present()`, though.
 

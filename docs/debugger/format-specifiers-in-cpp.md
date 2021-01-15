@@ -1,5 +1,7 @@
 ---
 title: "Format specifiers in the debugger (C++) | Microsoft Docs"
+description: Use a format specifier to change the format in which a value is displayed in a Watch, Autos, or Locals window. This article provides usage details.
+ms.custom: SEO-VS-2020
 ms.date: "3/11/2019"
 ms.topic: "conceptual"
 f1_keywords:
@@ -46,7 +48,7 @@ int main() {
 
 Add the `my_var1` variable to the **Watch** window while debugging, **Debug** > **Windows** > **Watch** > **Watch 1**. Next, right-click the variable and select **Hexadecimal Display**. Now the **Watch** window shows the value 0x0065. To see this value expressed as a character rather than an integer, first right-click and deselect **Hexadecimal Display**. Then add the character format specifier **, c** in the **Name** column after the variable name. The **Value** column now shows **101 'e'**.
 
-![WatchFormatCPlus1](../debugger/media/watchformatcplus1.png "WatchFormatCPlus1")
+![Screenshot of the Visual Studio Watch window with one selected line that shows my_var1.c with a value of 101 'e' and a type of int.](../debugger/media/watchformatcplus1.png)
 
 ::: moniker range=">= vs-2019" 
 You can view and select from a list of available format specifiers by appending a comma (,) to the value in the **Watch** window. 
@@ -72,7 +74,7 @@ The following tables describe the format specifiers that you can use in Visual S
 |bb|unsigned binary integer(without leading 0b)|25|00000000000000000000000000011001|
 |e|scientific notation|25000000|2.500000e+07|
 |g|shorter of scientific or floating point|25000000|2.5e+07|
-|c|single character|0x0065, c|101 'e'|
+|c|single character|0x0065|101 'e'|
 |s|const char* string (with quotation marks)|\<location> "hello world"|"hello world"|
 |**sb**|const char* string (no quotation marks)|\<location> "hello world"|hello world|
 |s8|UTF-8 string|\<location> "This is a UTF-8 coffee cup â˜•"|"This is a UTF-8 coffee cup ☕"|

@@ -1,5 +1,7 @@
 ---
 title: Registering a Legacy Language Service2 | Microsoft Docs
+description: This article lists registry entries for the various language service options available in Visual Studio.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -13,7 +15,7 @@ manager: jillfra
 ms.workload:
 - vssdk
 ---
-# Registering a Legacy Language Service
+# Registering a legacy language service 2
 The following sections provide lists of registry entries for the various language service options available in [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)].
 
  In the following list of registry entries, *VS Reg Root* is equal to HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\\*X.Y*, where *X.Y* is the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] version number.

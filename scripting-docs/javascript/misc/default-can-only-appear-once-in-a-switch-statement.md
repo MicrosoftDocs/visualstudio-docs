@@ -23,6 +23,6 @@ You attempted to use the **default** statement more than once within a switch st
 - Remove any extra **default** case statements from your `switch` statement (use at most one default case statement in your switch statement).  
   
 ## See also  
- [switch Statement](../../javascript/reference/switch-statement-javascript.md)   
- [Controlling Program Flow](../../javascript/controlling-program-flow-javascript.md)   
- [JavaScript Reserved Words](../../javascript/reference/javascript-reserved-words.md)
+ [switch Statement](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/switch)   
+ [Controlling Program Flow](https://developer.mozilla.org/docs/Web/JavaScript/Guide/Control_flow_and_error_handling)   
+ [JavaScript Reserved Words](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Lexical_grammar)

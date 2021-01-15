@@ -1,5 +1,7 @@
 ---
-title: How to - Specify the ClickOnce Offline or Online Install Mode | Microsoft Docs
+title: Specify offline or online install mode (ClickOnce)
+description: Learn how to specify the Install Mode for a ClickOnce application, which determines whether the application is available offline or online.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 

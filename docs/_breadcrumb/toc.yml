@@ -10,7 +10,7 @@
       tocHref: /visualstudio/ide/
       topicHref: /visualstudio/ide/
       items:
-      - name: Code Quality
+      - name: Code Analysis
         tocHref: /visualstudio/code-quality/
         topicHref: /visualstudio/code-quality/analyzing-application-quality-by-using-code-analysis-tools
       - name: Cross Platform

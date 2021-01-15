@@ -1,5 +1,7 @@
 ---
 title: MSBuild Target Framework and Target Platform | Microsoft Docs
+description: Learn how to build an MSBuild project to run on a target .NET Framework version, and a target platform or software architecture.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: df6517c5-edd6-4cc4-97ad-b3cdfc78e799
@@ -70,7 +72,7 @@ The target framework is specified in the `TargetFrameworkVersion` property in th
 
 - `x86` designates a 32-bit Windows operating system that is running on an Intel 80x86 processor or its equivalent.
 
-- `x64` designates a 64-bit Windows operating system that is running on an Intel x64 processor or it equivalent.
+- `x64` designates a 64-bit Windows operating system that is running on an Intel x64 processor or its equivalent.
 
 - `Xbox` designates the Microsoft Xbox 360 platform.
 

@@ -1,5 +1,8 @@
 ---
 title: "How to: Programmatically apply styles to ranges in workbooks"
+description:  Learn how you can apply named styles to regions in workbooks. Excel supplies a number of predefined styles.
+ms.custom: SEO-VS-2020
+titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:

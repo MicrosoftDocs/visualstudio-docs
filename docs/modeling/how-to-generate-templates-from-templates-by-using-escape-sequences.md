@@ -1,5 +1,6 @@
 ---
-title: Use escape sequences to generate templates from templates
+title: Generate a text template from a text template
+description: Provides information about how to generate a text template from another text template using escape sequences.
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -7,6 +8,7 @@ helpviewer_keywords:
 author: JoshuaPartlow
 ms.author: joshuapa
 manager: jillfra
+ms.custom: SEO-VS-2020
 ms.workload:
 - multiple
 ---

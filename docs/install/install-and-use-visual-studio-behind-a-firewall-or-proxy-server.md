@@ -9,7 +9,7 @@ helpviewer_keywords:
 - administrator guide, Visual Studio
 - installing Visual Studio, administrator guide
 - list of domains, locations, URLs
-ms.assetid: 
+ms.assetid:
 author: ornellaalt
 ms.author: ornella
 manager: jillfra
@@ -75,6 +75,7 @@ Because the Visual Studio Installer downloads files from various domains and the
 | developer.apple.com | Xamarin.iOS provisioning |
 | appstoreconnect.apple.com | Xamarin.iOS provisioning |
 | idmsa.apple.com | Xamarin.iOS provisioning |
+| akamized.net | Content Delivery Network (Akamai Technologies) |
 | | |
 
 ## Use Visual Studio and Azure Services
@@ -104,7 +105,7 @@ To make sure that you have access to everything you want when you use Visual Stu
 | Cookiecutter<br>Explorer template<br>discovery <br><br>Cookiecutter <br>Explorer project<br> creation | api.github.com <br>raw.githubusercontent.com <br>go.microsoft.com<br><br>pypi.org <br> pypi.python.org | https/443<br> | Used to discover online templates from our recommended feed and from GitHub repositories <br><br>Used to create a project from a cookiecutter template that requires a one-time on-demand installation of a cookiecutter Python package from the Python package index (PyPI) |
 | Python package <br>discovery<br><br>Python package <br>management<br><br>New <br>Python <br> project <br>templates | pypi.org<br> <br>pypi.python.org <br>bootstrap.pypa.io<br><br>go.microsoft.com | https/443 | Provides the ability to search for pip packages<br><br>Used to install pip automatically if it is missing <br><br>Used to resolve the following new Python project templates to cookiecutter template URLs:<br> - Classifier Project<br>- Clustering Project <br> - Regression Project <br> - PyGame using PyKinect <br> - Pyvot Project |
 | Office web <br>add-in <br> Manifest <br>Verification <br>Service | verificationservice.osi.office.net | https/443 | Used to validate manifests for Office web add-ins |
-| SharePoint and <br>Office Add-ins | sharepoint.com<br> office365.com<br> microsoftonline.com <br> outlook.com | https/443 | Used to publish and test SharePoint and Office Add-ins to SharePoint Online and Office 365 |
+| SharePoint and <br>Office Add-ins | sharepoint.com<br> microsoft.com/microsoft-365<br> microsoftonline.com <br> outlook.com | https/443 | Used to publish and test SharePoint and Office Add-ins to SharePoint Online and Microsoft 365 |
 | Workflow Manager <br>Test Service<br> Host | | http/12292 | A firewall rule that is created automatically for testing SharePoint add-ins with workflows |
 | Automatically collected <br>reliability statistics <br>and other <br>Customer Experience <br>Improvement Programs (CEIP)<br> for Azure SDK and <br>for SQL Tools <br><br> | vortex.data.microsoft.com<br> <br>dc.services.visualstudio.com | https/443 | Used to send reliability statistics (crash/unresponsive data) from the user to Microsoft. Actual crash/unresponsive dumps will still be uploaded if Windows Error Reporting is enabled; only statistical information will be suppressed; <br>Used to reveal anonymous usage patterns for the Azure Tools SDK extension to Visual Studio, and for usage patterns for the SQL tooling to Visual Studio |
 | Visual Studio <br> Customer Experience <br>Improvement Program (CEIP) <br><br>PerfWatson.exe | vortex.data.microsoft.com<br>dc.services.visualstudio.com<br>visualstudio-devdiv-c2s.msedge.net<br>az667904.vo.msecnd.net <br>scus-breeziest-in.cloudapp.net<br> | https/443 | Used to collect anonymous usage patterns and error logs <br><br>Used to track UI freeze issues |
@@ -112,7 +113,7 @@ To make sure that you have access to everything you want when you use Visual Stu
 | Updated web publish tooling <br>checks and extension <br>recommendations | marketplace.visualstudio.com | https/443 | Used for checking for the availability of updated publish tooling. If disabled, a potential recommended extension for web publishing may not be shown |
 | Updated Azure Resource <br>Creation Endpoint Information | \*.blob.core.windows.net | https/443 | Used to update the endpoints used for the creation of Azure Resources for certain Azure Services. If disabled, the last downloaded or built in endpoint locations are used instead |
 | Remote debugging and <br>Remote profiling of <br>Azure Websites | &#42;.cloudapp.net <br> &#42;.azurewebsites.net | 4022 | Used for attaching the remote debugger to Azure Websites. If disabled, attaching the remote debugger to Azure Websites will not work |
-| Active Directory <br>Graph | graph.windows.net | https/443 | Used to provision  new Azure Active Directory applications. Also used by the Office 365 MSGraph- connected service provider |
+| Active Directory <br>Graph | graph.windows.net | https/443 | Used to provision  new Azure Active Directory applications. Also used by the Microsoft 365 MSGraph- connected service provider |
 | Azure Functions <br>CLI Update <br>Check | functionscdn.azureedge.net | https/443 | Used for checking for updated versions of the Azure Functions CLI. If disabled, a cached copy (or the copy carried by the Azure Functions component) of the CLI will be used instead |
 | Cordova | npmjs.org<br>gradle.org | http/80 &<br/>https/443 | HTTP is used for Gradle downloads during build; HTTPS is used to include Cordova plug-ins in projects |
 | Cloud explorer | 1. &#60;clusterendpoint&#62; <br>Service Fabric <br>2. &#60;management endpoint&#62;<br>General Cloud Exp <br>3. &#60;graph endpoint&#62;<br>General Cloud Exp<br>4. &#60;storage account endpoint&#62;<br>Storage Nodes <br>5. &#60;Azure portal URLs&#62;<br>General Cloud Exp <br>6. &#60;key vault endpoints&#62; <br>Azure Resource Manager VM Nodes<br>7. &#60;PublicIPAddressOfCluster&#62;<br>Service Fabric Remote debugging and ETW Traces | <br>1.https/19080<br>2. https/443<br>3. https/443<br>4. https/443<br>5. https/443<br>6. https/443<br>7.tcp/dynamic | 1. Example: test12.eastus.cloudapp.com<br>2. Retrieves subscriptions and retrieves/manages Azure resources<br>3. Retrieves Azure Stack subscriptions<br>4. Manages Storage resources (example: mystorageaccount.blob.core.windows.net)<br>5. "Open in Portal" context menu option (opens a resource in the Azure portal)<br>6. Creates and uses key vaults for VM debugging (Example: myvault.vault.azure.net) <br><br>7. Dynamically allocates block of ports based on number of nodes in the cluster and the available ports. <br><br>A port block will try to get three times the number of nodes with minimum of 10 ports.<br><br>For Streaming traces, an attempt is made to get the port block from 810. If any of that port block is already used, then an attempt is made to get the next block, and so on. (It the load balancer is empty, then ports from 810 are most likely used) <br><br>Similarly for debugging, four sets of the ports blocks are reserved: <br>- connectorPort: 30398, <br>- forwarderPort: 31398, <br>- forwarderPortx86: 31399,<br>- fileUploadPort: 32398<br> |
@@ -128,11 +129,11 @@ To make sure that you have access to everything you want when you use Visual Stu
 | Developer Community | sendvsfeedback2.azurewebsites.net/api | https/443 | Used to call Developer Community Feedback Tool APIs (my issues, search, vote, comment, submit, upload, resume) |
 | Intellicode | \*.intellicode.vsengsaas.visualstudio.com | https/443 | Used to call Intellicode APIs |
 | Live Share | \*.liveshare.vsengsaas.visualstudio.com| https/443 | Used to call Live Share APIs |
-| Visual Studio Codespaces | \*.online.visualstudio.com | https/443 | Used to call Visual Studio Codespaces APIs |
-| JavaScript Automatic Type Acquisition | registry.npmjs.org | https/443 | Used to install TypeScript type definitions to provide Intellisense for popular JavaScript libraries |
+| GitHub Codespaces | \*.online.visualstudio.com | https/443 | Used to call GitHub Codespaces APIs |
+| JavaScript Automatic Type Acquisition | registry.npmjs.org | https/443 | Used to install TypeScript type definitions to provide IntelliSense for popular JavaScript libraries |
 | Visual Studio Subscriptions Licensing Service | app.vssps.visualstudio.com/apis/<br/>Licensing/ClientRights | https/443 | Licensing for online activation |
 | Debugger | 1. <br>vsdebugger.blob.core.windows.net <br>vsdebugger.azureedge.net <br><br>2. <br>download.visualstudio.com/\*/<br/>onecore.msvsmon.\*.zip<br><br> 3. referencesource.microsoft.com/symbols <br><br> 4. <br>symbols.nuget.org/download/symbols<br><br> 5. visualstudio.com<br><br>6. msdl.microsoft.com/download/symbols | https/443 | 1. <br>Used for downloading debugger bits for .NET Core debugging on Unix / macOS over SSH <br><br>2. <br>Used for downloading debugger bits for remote Windows Docker container debugging<br><br> 3. Used for .NET framework source stepping <br><br> 4. <br>(If user opts-in) Used for downloading symbols published to nuget.org symbol server.<br><br> 5. (If user opts-in) Used for downloading MS symbols and binaries, might also be needed for debugging managed code in dumps |
-| Visual Studio Codespaces| \*.online.visualstudio.com | https/443 | Used to call Visual Studio Codespaces APIs |
+| GitHub Codespaces| \*.online.visualstudio.com | https/443 | Used to call GitHub Codespaces APIs |
 | Xamarin Android App Publishing | \*.googleapis.com <br/> play.google.com <br/>accounts.google.com | https/443 | Used to interact with Google Play Store service to publish/upload Xamarin Android Applications directly from Visual Studio. |
 | Azure Container Registry | *.azurecr.io | https/443 | Access container registries hosted on Azure, for configuration of CICD pipelines |
 | | | | |
@@ -148,7 +149,7 @@ We offer an [**installation chat**](https://visualstudio.microsoft.com/vs/suppor
 Here are a few more support options:
 
 * Report product issues to us via the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio.md) tool that appears both in the Visual Studio Installer and in the Visual Studio IDE.
-* Suggest a feature, track product issues, and find answers in the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/).
+* Suggest a feature, track product issues, and find answers in the [Visual Studio Developer Community](https://aka.ms/feedback/suggest?space=8).
 * Use your [GitHub](https://github.com/) account to talk to us and other Visual Studio developers in the [Visual Studio conversation in the Gitter community](https://gitter.im/Microsoft/VisualStudio).
 
 ## See also

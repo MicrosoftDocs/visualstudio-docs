@@ -23,4 +23,4 @@ You did not include the left brace that marks the beginning of the function body
 - Add the left brace that marks the beginning of the function body.  
   
 ## See also  
- [Function Object](../../javascript/reference/function-object-javascript.md)
+ [Function Object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Function)

@@ -1,5 +1,7 @@
 ---
 title: "Supported Code Changes (C# and Visual Basic) | Microsoft Docs"
+description: Understand what code changes are supported when you are using the Edit and Continue feature while debugging a C# or Visual Basic project in Visual Studio.
+ms.custom: SEO-VS-2020
 ms.date: "10/11/2018"
 ms.topic: "conceptual"
 dev_langs:
@@ -26,15 +28,15 @@ The table below shows the changes that may be made to C# and Visual Basic code d
 
 |Language element/feature|Supported edit operation|Limitations|
 |-|-|-|
-|Types|Add methods, fields, constructors, et al|[Yes](https://github.com/dotnet/roslyn/wiki/EnC-Supported-Edits)|
+|Types|Add methods, fields, constructors, et al|[Yes](https://github.com/dotnet/roslyn/blob/master/docs/wiki/EnC-Supported-Edits.md)|
 |Iterators|Add or modify|No|
-|async/await expressions|Add or modify|[Yes](https://github.com/dotnet/roslyn/wiki/EnC-Supported-Edits)|
+|async/await expressions|Add or modify|[Yes](https://github.com/dotnet/roslyn/blob/master/docs/wiki/EnC-Supported-Edits.md)|
 |Dynamic objects|Add or modify|No|
-|lambda expressions|Add or modify|[Yes](https://github.com/dotnet/roslyn/wiki/EnC-Supported-Edits)|
-|LINQ expressions|Add or modify|[Same as lambda expressions](https://github.com/dotnet/roslyn/wiki/EnC-Supported-Edits)|
+|lambda expressions|Add or modify|[Yes](https://github.com/dotnet/roslyn/blob/master/docs/wiki/EnC-Supported-Edits.md)|
+|LINQ expressions|Add or modify|[Same as lambda expressions](https://github.com/dotnet/roslyn/blob/master/docs/wiki/EnC-Supported-Edits.md)|
 
 > [!NOTE]
-> Newer language features such as string interpolation and null-conditional operators are generally supported by Edit and Continue. For the most current information, see the [Enc Supported Edits](https://github.com/dotnet/roslyn/wiki/EnC-Supported-Edits) page.
+> Newer language features such as string interpolation and null-conditional operators are generally supported by Edit and Continue. For the most current information, see the [Enc Supported Edits](https://github.com/dotnet/roslyn/blob/master/docs/wiki/EnC-Supported-Edits.md) page.
 
 ## Unsupported changes to code
  The following changes cannot be applied to C# and Visual Basic code during a debugging session:
@@ -54,7 +56,7 @@ The table below shows the changes that may be made to C# and Visual Basic code d
 |Namespaces, types, members|Delete|
 |Generics|Add or modify|
 |Interfaces|Modify|
-|Types|Add abstract or virtual member, add override (see [details](https://github.com/dotnet/roslyn/wiki/EnC-Supported-Edits))|
+|Types|Add abstract or virtual member, add override (see [details](https://github.com/dotnet/roslyn/blob/master/docs/wiki/EnC-Supported-Edits.md))|
 |Types|Add destructor|
 |Members|Modify a member referencing an embedded interop type|
 |Members|Modify a static member after it has already been accessed by executing code|
@@ -69,8 +71,8 @@ The table below shows the changes that may be made to C# and Visual Basic code d
 |catch blocks|Modify when it contains an active statement|
 |try-catch-finally blocks|Modify when it contains an active statement|
 |using statements|Add|
-|async methods/lambdas|Modify an async method/lambda in a project targeting .NET Framework 4 and lower (see [details](https://github.com/dotnet/roslyn/wiki/EnC-Supported-Edits))|
-|Iterators|Modify an iterator in a project targeting .NET Framework 4 and lower (see [details](https://github.com/dotnet/roslyn/wiki/EnC-Supported-Edits))|
+|async methods/lambdas|Modify an async method/lambda in a project targeting .NET Framework 4 and lower (see [details](https://github.com/dotnet/roslyn/blob/master/docs/wiki/EnC-Supported-Edits.md))|
+|Iterators|Modify an iterator in a project targeting .NET Framework 4 and lower (see [details](https://github.com/dotnet/roslyn/blob/master/docs/wiki/EnC-Supported-Edits.md))|
 
 ## Unsafe code
  Changes to unsafe code have the same limitations as changes to safe code, with one additional restriction: Edit and Continue does not support changes to unsafe code that exits within a method that contains the `stackalloc` operator.

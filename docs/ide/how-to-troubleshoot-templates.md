@@ -1,5 +1,7 @@
 ---
-title: Troubleshoot project template and item template loading
+title: Troubleshoot project templates and item templates
+description: Learn how to troubleshoot templates when they fail to load in the development environment.
+ms.custom: SEO-VS-2020
 ms.date: 01/02/2018
 ms.topic: troubleshooting
 helpviewer_keywords:

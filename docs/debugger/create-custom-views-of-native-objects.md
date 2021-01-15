@@ -93,6 +93,7 @@ The Visual Studio debugger loads *.natvis* files in C++ projects automatically, 
 A VSIX package can install and register *.natvis* files. No matter where are they installed, all registered *.natvis* files are automatically picked up during debugging.
 
 1. Include the *.natvis* file in the VSIX package. For example, for the following project file:
+
    ```xml
    <?xml version="1.0" encoding="utf-8"?>
    <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="14.0">
@@ -103,6 +104,7 @@ A VSIX package can install and register *.natvis* files. No matter where are the
    ```
 
 2. Register the *.natvis* file in the *source.extension.vsixmanifest* file:
+
    ```xml
    <?xml version="1.0" encoding="utf-8"?>
    <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
@@ -696,7 +698,7 @@ It's a lot more work to write a custom visualizer than an XML Natvis definition,
 
  You can use the `Condition`, `IncludeView`, and `ExcludeView` attributes on `CustomVisualizer` elements.
 
- ## Limitations
+## Limitations
 
 Natvis customizations work with classes and structs, but not typedefs.
 

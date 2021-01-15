@@ -1,7 +1,8 @@
 ---
 title: "How to: Install the Visual Studio Tools for Office runtime redistributable"
+description: Learn how you can install the Microsoft Visual Studio 2010 Tools for Office runtime redistributable.
 titleSuffix: ""
-ms.custom: "seodec18"
+ms.custom: "seodec18, SEO-VS-2020"
 ms.date: "08/14/2019"
 ms.topic: "how-to"
 dev_langs:

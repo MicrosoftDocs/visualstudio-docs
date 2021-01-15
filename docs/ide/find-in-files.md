@@ -1,5 +1,7 @@
 ---
 title: Find in Files
+description: Learn about the Find in Files feature and how to use it to search a specific set of files. 
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 f1_keywords:

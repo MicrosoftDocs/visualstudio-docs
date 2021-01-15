@@ -1,5 +1,7 @@
 ---
 title: Project Type Essentials | Microsoft Docs
+description: Learn about when you must create a project type and when you can extend an existing project type by using project subtypes.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -46,7 +48,7 @@ ms.workload:
 
 - Project types are objects in a VSPackage that implement the set of interfaces [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] expects. If you are using C# to develop a project type, the Managed Package Framework project classes implement the necessary interfaces for you and let you inherit that implementation. For more information, see [Using the Managed Package Framework to Implement a Project Type (C#)](../../extensibility/internals/using-the-managed-package-framework-to-implement-a-project-type-csharp.md).
 
-- For C++ developers, the classes in the HierUtil library work in a similar manner. For more information, see [Not in Build: Using HierUtil7 Project Classes to Implement a Project Type (C++)](https://msdn.microsoft.com/library/a5c16a09-94a2-46ef-87b5-35b815e2f346).
+- For C++ developers, the classes in the HierUtil library work in a similar manner. For more information, see [Not in Build: Using HierUtil7 Project Classes to Implement a Project Type (C++)](/previous-versions/bb166212(v=vs.100)).
 
 - Project types can support data other than typical source code files that build into an .exe or .dll assembly. For example, [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] database projects contain references to script and query files stored on disk and add commands to **Solution Explorer** to execute the scripts and queries against a database, but the projects do not support build behavior. For more information, see [Opening and Saving Project Items](../../extensibility/internals/opening-and-saving-project-items.md).
 

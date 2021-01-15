@@ -1,21 +1,23 @@
 ---
-title: How to - Install a Visualizer | Microsoft Docs
+title: Install a Visualizer | Microsoft Docs
+description: Understand how to install a visualizer so that it will be available for debugging use in Visual Studio.
+ms.custom: SEO-VS-2020
 ms.date: 06/10/2020
 ms.topic: how-to
-dev_langs: 
+dev_langs:
   - CSharp
   - VB
   - FSharp
   - C++
   - JScript
-helpviewer_keywords: 
+helpviewer_keywords:
   - debugger, visualizers
   - visualizers, installing
 ms.assetid: 3310ef43-515c-4d97-b0f9-51047247d3da
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.workload: 
+ms.workload:
   - multiple
 ---
 # How to: Install a Visualizer
@@ -26,7 +28,7 @@ After you have created a visualizer, you must install the visualizer so that it 
 
 ::: moniker range=">=vs-2019"
 ### To install a visualizer for Visual Studio 2019
-  
+
 1. Locate the DLL that contains the visualizer you built.
 
    Typically, it is best if both the debugger-side DLL and the debuggee-side DLL specify **Any CPU** as the target platform. The debugger-side DLL must be either **Any CPU** or **32-bit**. The target platform for the debuggee-side DLL should correspond to the debugee process.
@@ -36,7 +38,7 @@ After you have created a visualizer, you must install the visualizer so that it 
     - *VisualStudioInstallPath* `\Common7\Packages\Debugger\Visualizers`
 
     - `My Documents\` *VisualStudioVersion* `\Visualizers`
-    
+
 3. Copy the [debuggee side](create-custom-visualizers-of-data.md#to-create-the-visualizer-object-source-for-the-debuggee-side) DLL to either of the following locations:
 
     - *VisualStudioInstallPath* `\Common7\Packages\Debugger\Visualizers\` *Framework*
@@ -55,7 +57,7 @@ After you have created a visualizer, you must install the visualizer so that it 
 4. Restart the debugging session.
 
 > [!NOTE]
-> The procedure is different in Visual Studio 2017 and older. See the [previous version](how-to-install-a-visualizer.md?view=vs-2017) of this article.
+> The procedure is different in Visual Studio 2017 and older. See the [previous version](how-to-install-a-visualizer.md?view=vs-2017&preserve-view=true) of this article.
 ::: moniker-end
 
 ::: moniker range="vs-2017"

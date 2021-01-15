@@ -1,6 +1,8 @@
 ---
 title: A process has encountered an unrecoverable error
-ms.date: 06/22/2018
+description: Learn about the processes that might encounter unrecoverable errors during the normal operations of Visual Studio.
+ms.custom: SEO-VS-2020
+ms.date: 09/10/2020
 ms.topic: troubleshooting
 helpviewer_keywords:
 - unrecoverable error
@@ -45,3 +47,6 @@ Following is a list of out-of-proc processes used by Visual Studio. This list is
 - WindowsAzureTelemetryService.exe
 
 If any of these processes terminates unexpectedly, some functionality within Visual Studio stops working. For some processes, the loss of functionality may be insignificant. For others, the stability of Visual Studio is affected and an error message is displayed.
+
+> [!NOTE]
+> If you experience a problem that's not referenced on this page, please report it to us via the [Report a Problem](../../ide/how-to-report-a-problem-with-visual-studio.md) tool that appears both in the Visual Studio Installer and in the Visual Studio IDE.

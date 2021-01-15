@@ -1,5 +1,8 @@
 ---
 title: "Create custom action project item with item template, part 1"
+titleSuffix: ""
+description: Using an item template, create a project item that can be added to a SharePoint project to create a custom action on a SharePoint site.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: how-to
 dev_langs:
@@ -289,7 +292,7 @@ ms.workload:
 
 1. In **Solution Explorer**, open the shortcut menu for the **source.extension.vsixmanifest** file in the CustomActionProjectItem project, and then choose **Open**.
 
-     Visual Studio opens the file in the manifest editor. The source.extension.vsixmanifest file is the basis for the extension.vsixmanifest file that all VSIX packages require. For more information about this file, see [VSIX Extension Schema 1.0 Reference](https://msdn.microsoft.com/76e410ec-b1fb-4652-ac98-4a4c52e09a2b).
+     Visual Studio opens the file in the manifest editor. The source.extension.vsixmanifest file is the basis for the extension.vsixmanifest file that all VSIX packages require. For more information about this file, see [VSIX Extension Schema 1.0 Reference](/previous-versions/dd393700(v=vs.110)).
 
 2. In the **Product Name** box, enter **Custom Action Project Item**.
 

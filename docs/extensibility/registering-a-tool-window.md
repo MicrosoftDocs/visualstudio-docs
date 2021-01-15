@@ -1,5 +1,7 @@
 ---
 title: Registering a Tool Window | Microsoft Docs
+description: Learn how you can register your tool windows with Visual Studio using ProvideToolWindowAttribute and ProvideToolWindowVisibilityAttribute.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -29,4 +31,4 @@ public class PackageToolWindow : Package
 {
 ```
 
- In the code above, the <xref:Microsoft.VisualStudio.Shell.ProvideToolWindowAttribute> registers the `PersistedWindowPane` and `DynamicWindowPane` tool windows with Visual Studio. The persisted tool window is docked and tabbed with **Solution Explorer**, and the dynamic window is given a default starting position and size. The dynamic window is made transient, which indicates that it is not created on startup. This writes a `DontForceCreate` value in the `ToolWindows` key in the system registry. For more information, see [Tool window display configuration](/visualstudio/extensibility/tool-window-display-configuration?view=vs-2015).
+ In the code above, the <xref:Microsoft.VisualStudio.Shell.ProvideToolWindowAttribute> registers the `PersistedWindowPane` and `DynamicWindowPane` tool windows with Visual Studio. The persisted tool window is docked and tabbed with **Solution Explorer**, and the dynamic window is given a default starting position and size. The dynamic window is made transient, which indicates that it is not created on startup. This writes a `DontForceCreate` value in the `ToolWindows` key in the system registry. For more information, see [Tool window display configuration](/previous-versions/visualstudio/visual-studio-2015/extensibility/tool-window-display-configuration?preserve-view=true&view=vs-2015).

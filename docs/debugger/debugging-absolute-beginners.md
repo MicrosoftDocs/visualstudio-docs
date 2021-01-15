@@ -223,17 +223,17 @@ Next, we will create an application that has a few bugs.
 
 1. Hover over the `GalaxyType` variable on the right, and then, to the left of the wrench icon, expand `theGalaxy.GalaxyType`. You see that `GalaxyType` contains a property `MyGType`, and the property value is set to `Spiral`.
 
-    ![Inspect a variable](../debugger/media/beginners-inspect-variable.png)
+    ![Screenshot of the Visual Studio Debugger with a line of code in yellow and a menu expanded below the theGalaxy.GalaxyType property at the end of the line.](../debugger/media/beginners-inspect-variable.png)
 
     "Spiral" is actually the correct value you were expecting to print to the console! So it is a good start that you can access this value in this code while running the app. In this scenario, we are using the incorrect API. We will see if we can fix this while running code in the debugger.
 
 1. In the same code, while still debugging, put your cursor at the end of `theGalaxy.GalaxyType` and change it to `theGalaxy.GalaxyType.MyGType`. Although you can make this change, the code editor shows you an error indicating it can't compile this code.
 
-    ![Syntax error](../debugger/media/beginners-edit.png)
+    ![Screenshot of the Visual Studio Debugger with a line of code highlighted in red and an Edit and Continue message box with the Edit button selected.](../debugger/media/beginners-edit.png)
 
 1. Click **Edit** in the **Edit and Continue** message box. You see an error message now in the **Error List** window. The error indicates that the `'object'` doesn't contain a definition for `MyGType`.
 
-    ![Syntax error](../debugger/media/beginners-no-definition.png)
+    ![Screenshot of the Visual Studio Debugger with a line of code highlighted in red and an Error List window with two errors listed.](../debugger/media/beginners-no-definition.png)
 
     Even though we set each galaxy with an object of type `GType` (which has the `MyGType` property), the debugger does not recognize the `theGalaxy` object as an object of type `GType`. What's going on? You want to look through any code that sets the galaxy type. When you do this, you see that the `GType` class definitely has a property of `MyGType`, but something isn't right. The error message about `object` turns out to be the clue; to the language interpreter, the type appears to be an object of type `object` instead of an object of type `GType`.
 
@@ -282,7 +282,7 @@ Next, we will create an application that has a few bugs.
 
 1. Press **F5** and hover over the `type` variable again. Repeat this step until you see a value of `I` in the `type` variable.
 
-    ![Inspect a variable](../debugger/media/beginners-inspecting-data.png)
+    ![Screenshot of the Visual Studio Debugger with a line of code in yellow and a small window showing the value of the type variable as 73 'I'.](../debugger/media/beginners-inspecting-data.png)
 
 1. Now, press **F11** (**Debug** > **Step Into** or the **Step Into** button in the Debug Toolbar).
 

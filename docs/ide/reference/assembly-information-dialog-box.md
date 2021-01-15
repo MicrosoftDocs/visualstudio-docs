@@ -1,5 +1,7 @@
 ---
 title: Assembly Information Dialog Box
+description: Learn about the Assembly Information dialog box and how it is used to specify the values of the .NET Framework global assembly attributes.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -62,4 +64,4 @@ Specifies whether types in the assembly will be available to COM. Corresponds to
 ## See also
 
 - [Application Page, Project Designer (Visual Basic)](../../ide/reference/application-page-project-designer-visual-basic.md)
-- [Attributes](https://msdn.microsoft.com/Library/ae334cee-d96c-4243-a5e3-06dd7fcaf205)
+- [Attributes](/previous-versions/z0w1kczw(v=vs.140))

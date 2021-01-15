@@ -1,5 +1,7 @@
 ---
 title: 'How to: Create a Domain-Specific Language Solution'
+description: Learn how to create a domain-specific language (DSL) by using a specialized Visual Studio solution.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords:
@@ -115,4 +117,4 @@ Before you can start this procedure, install these components:
 ## See also
 
 - [How to Define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md)
-- [Domain-Specific Language Tools Glossary](https://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)
+- [Domain-Specific Language Tools Glossary](/previous-versions/bb126564(v=vs.100))

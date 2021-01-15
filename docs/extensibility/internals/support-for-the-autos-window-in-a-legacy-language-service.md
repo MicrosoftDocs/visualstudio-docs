@@ -1,5 +1,7 @@
 ---
-title: Support for the Autos Window in a Legacy Language Service | Microsoft Docs
+title: Support the Autos window in a legacy language service
+description: Learn how to implement support for the Autos window, which displays expressions that are in scope when the program being debugged is paused.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -12,12 +14,14 @@ manager: jillfra
 ms.workload:
 - vssdk
 ---
-# Support for the Autos Window in a Legacy Language Service
+# Support for the Autos window in a legacy language service
+
 The **Autos** window displays expressions such as variables and parameters that are in scope when the program being debugged is paused (either due to a breakpoint or an exception). The expressions can include variables, local or global, and parameters that have been changed in the local scope. The **Autos** window can also include instantiations of a class, structure, or some other type. Anything that an expression evaluator can evaluate can potentially be shown in the **Autos** window.
 
  The managed package framework (MPF) does not provide direct support for the **Autos** window. However, if you override the <xref:Microsoft.VisualStudio.Package.LanguageService.GetProximityExpressions%2A> method, you can return a list of expressions to be presented in the **Autos** window.
 
-## Implementing Support for the Autos Window
+## Implementing support for the Autos window
+
  All you need to do to support the **Autos** window is to implement the <xref:Microsoft.VisualStudio.Package.LanguageService.GetProximityExpressions%2A> method in the <xref:Microsoft.VisualStudio.Package.LanguageService> class. Your implementation must decide, given a location in the source file, which expressions should appear in the **Autos** window. The method returns a list of strings in which each string represents a single expression. A return value of <xref:Microsoft.VisualStudio.VSConstants.S_OK> indicates that the list contains expressions, while <xref:Microsoft.VisualStudio.VSConstants.S_FALSE> indicates that there are no expressions to show.
 
  The actual expressions returned are the names of the variables or parameters that appear at that location in the code. These names are passed to the expression evaluator to obtain values and types that are then displayed in the **Autos** window.

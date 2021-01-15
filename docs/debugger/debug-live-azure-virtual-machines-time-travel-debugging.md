@@ -1,7 +1,7 @@
 ---
-title: Time Travel Debugging live ASP.NET Azure virtual machines
+title: Time Travel Debugging live ASP.NET on Azure VM
 description: Learn how to record and replay live ASP.NET apps on Azure virtual machines using the Snapshot Debugger.
-ms.custom: 
+ms.custom: SEO-VS-2020
 ms.date: 04/11/2019
 ms.topic: how-to
 helpviewer_keywords: 

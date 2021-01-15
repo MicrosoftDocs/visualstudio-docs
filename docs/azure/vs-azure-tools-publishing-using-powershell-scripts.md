@@ -1,10 +1,9 @@
 ---
-title: PowerShell scripts to publish to dev and test environments
+title: Use PowerShell to publish to dev and test environments
 description: Learn how to use Windows PowerShell scripts from Visual Studio to publish to development and test environments.
+ms.custom: SEO-VS-2020
 author: ghogen
 manager: jillfra
-assetId: 5fff1301-5469-4d97-be88-c85c30f837c1
-ms.custom: vs-azure
 ms.workload: azure-vs
 ms.topic: conceptual
 ms.date: 11/11/2016
@@ -148,7 +147,7 @@ If you have never run a Windows PowerShell script before, you must first set the
 
    ![Create Web Deploy Package](./media/vs-azure-tools-publishing-using-powershell-scripts/IC767885.png)
 
-   For more information, see [How to: Create a Web Deployment Package in Visual Studio](https://msdn.microsoft.com/library/dd465323.aspx). You can also automate the creation of your Web Deploy package, as described in [Customizing and extending the publish scripts](#customizing-and-extending-the-publish-scripts).
+   For more information, see [How to: Create a Web Deployment Package in Visual Studio](/previous-versions/aspnet/dd465323(v=vs.110)). You can also automate the creation of your Web Deploy package, as described in [Customizing and extending the publish scripts](#customizing-and-extending-the-publish-scripts).
 
 1. In **Solution Explorer**, open the context menu for the script, and then choose **Open with PowerShell ISE**.
 1. If running Windows PowerShell scripts on this computer for the first time, open a command prompt window with Administrator privileges and type the following command:

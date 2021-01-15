@@ -1,6 +1,7 @@
 ---
 title: "Debug multithreaded applications | Microsoft Docs"
-ms.custom: "seodec18"
+description: Debug multithreaded applications in Visual Studio. Review tools and other articles about debugging multithreaded apps.
+ms.custom: "SEO-VS-2020, seodec18"
 ms.date: "11/06/2018"
 ms.topic: "conceptual"
 f1_keywords:
@@ -96,7 +97,7 @@ Give your thread a name that you view in the **Threads** window.
 
 - [Use breakpoints](../debugger/using-breakpoints.md)
 - [Threading](/dotnet/standard/threading/index)
-- [Multithreading in components](https://msdn.microsoft.com/Library/2fc31e68-fb71-4544-b654-0ce720478779)
+- [Multithreading in components](/previous-versions/3es4b6yy(v=vs.140))
 - [Multithreading support for older code](/cpp/parallel/multithreading-support-for-older-code-visual-cpp)
 - [Debug threads and processes](../debugger/debug-threads-and-processes.md)
 - [Remote debugging](../debugger/remote-debugging.md)

@@ -1,5 +1,7 @@
 ---
 title: "Threads View | Microsoft Docs"
+description: Understand the Threads view in the Spy++ debugging tool. The Threads view is a flat listing of all threads associated with windows on your system.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:

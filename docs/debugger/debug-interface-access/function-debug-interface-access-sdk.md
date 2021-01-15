@@ -19,7 +19,7 @@ Each function is identified by a `SymTagFunction` symbol.
 ## Properties
  The following table shows the properties that are valid for this symbol type.
 
-|Property|`Data type`|Description|
+|Property|Data type|Description|
 |--------------|-----------------|-----------------|
 |[IDiaSymbol::get_access](../../debugger/debug-interface-access/idiasymbol-get-access.md)|`DWORD`|One of the values of the [CV_access_e Enumeration](../../debugger/debug-interface-access/cv-access-e.md), if the function is a member function.|
 |[IDiaSymbol::get_addressOffset](../../debugger/debug-interface-access/idiasymbol-get-addressoffset.md)|`DWORD`|Offset part of location; for details, see the [LocationType Enumeration](../../debugger/debug-interface-access/locationtype.md).|

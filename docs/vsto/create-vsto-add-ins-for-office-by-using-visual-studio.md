@@ -1,7 +1,8 @@
 ---
 title: "Create VSTO Add-ins for Office by using Visual Studio"
+description: Learn how you can use the Microsoft Office developer tools in Visual Studio to create .NET Framework applications that extend Office.
 titleSuffix: ""
-ms.custom: "seodec18"
+ms.custom: "seodec18, SEO-VS-2020"
 ms.date: "08/14/2019"
 ms.topic: "conceptual"
 dev_langs:
@@ -113,7 +114,7 @@ ms.workload:
 - [Microsoft Office development section of the MSDN library](/previous-versions/office/office-12/bb726434(v=office.12))
  The area of the MSDN library where you can find articles and reference documentation about developing solutions for several versions of Office (not specific to Office development using Visual Studio).
 
-- [Application development in Visual Studio](https://msdn.microsoft.com/97490c1b-a247-41fb-8f2c-bc4c201eff68)
+- [Application development in Visual Studio](/previous-versions/h8w79z10(v=vs.140))
  Contains links to topics that explain how you can use Visual Studio to design, develop, debug, and deploy web applications, XML web services, and traditional client applications.
 
 - [.NET Framework programming in Visual Studio](/previous-versions/visualstudio/visual-studio-2010/k1s94fta(v=vs.100))

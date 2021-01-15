@@ -1,5 +1,7 @@
 ---
 title: "Debugger Security | Microsoft Docs"
+description: Learn the security risks posed by debugging, risks both to the debugging machine and to the machine being debugged. Follow the recommendations to minimize risk. 
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:
@@ -51,7 +53,7 @@ The ability to debug another process gives you extremely broad powers that you w
  For information on configuring msvsmon, see [Set up the remote debugger](../debugger/remote-debugging.md#bkmk_setup).
 
 ### Web Services Debugging Security
- It is safer to debug locally, but since you probably do not have [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] installed on the web server, local debugging might not be practical. Generally, debugging Web services is done remotely, except during development, so the recommendations for remote debugging security also apply to Web services debugging. Here are some additional best practices. For more information, see [Debugging XML Web Services](https://msdn.microsoft.com/library/c900b137-9fbd-4f59-91b5-9c2c6ce06f00).
+ It is safer to debug locally, but since you probably do not have [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] installed on the web server, local debugging might not be practical. Generally, debugging Web services is done remotely, except during development, so the recommendations for remote debugging security also apply to Web services debugging. Here are some additional best practices. For more information, see [Debugging XML Web Services](/previous-versions/ms241873(v=vs.100)).
 
 - Do not enable debugging on a Web server that has been compromised.
 

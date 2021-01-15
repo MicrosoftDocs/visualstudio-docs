@@ -1,5 +1,8 @@
 ---
 title: "Walkthrough: Complex data binding in a document-level project"
+description: Learn how you can bind multiple cells in a Microsoft Excel worksheet to fields in the Northwind SQL Server database.
+ms.custom: SEO-VS-2020
+titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

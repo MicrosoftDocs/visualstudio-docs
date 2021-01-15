@@ -14,28 +14,28 @@ As an active Visual Studio subscriber, you can use a range of features in Azure 
 ## Sign in
 
    > [!div class="mx-imgBorder"]
-   > ![Azure DevOps Tile](_img/vs-azure-devops/vs-azure-devops-tile.png)
+   > ![Azure DevOps Tile](_img/vs-azure-devops/vs-azure-devops-tile.png "Click 'Get started' to sign in to Azure DevOps.")
 
    
-When you sign in to Azure DevOps using either the identity that you used for activating your Visual Studio subscription or your [alternate identity](vs-alternate-identity.md), we recognize this automatically.  This way you can also add a work or school account (which you use when logging into Visual Studio, Office 365, or your corporate or school network), allowing you to access Azure DevOps using both your personal account and your work or school account.
+When you sign in to Azure DevOps using either the identity that you used for activating your Visual Studio subscription or your [alternate identity](vs-alternate-identity.md), we recognize this automatically.  This way you can also add a work or school account (which you use when logging into Visual Studio, Microsoft 365, or your corporate or school network), allowing you to access Azure DevOps using both your personal account and your work or school account.
 
 [Sign up for a free Azure DevOps organization](https://visualstudio.microsoft.com/team-services/)
 
 ## Eligibility
 | Subscription Level                                                 |     Channels                                            | Benefit                                                          | Renewable?    |
 |--------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------|---------------|
-| Visual Studio Enterprise (Standard, monthly cloud)   | VL, Azure, Retail,  selected NFR<sup>1</sup>  | Azure Boards & Repos (Basic<sup>2</sup>), Azure Test Plans, self-hosted parallel jobs [Learn more](https://docs.microsoft.com/azure/devops/organizations/security/access-levels?view=azure-devops)     |  Yes          |
-| Visual Studio Enterprise with GitHub Enterprise   | VL| Azure Boards & Repos (Basic<sup>2</sup>), Azure Test Plans, self-hosted parallel jobs [Learn more](https://docs.microsoft.com/azure/devops/organizations/security/access-levels?view=azure-devops) |  Yes          |
-| Visual Studio Professional (Standard, monthly cloud) | VL, Azure, Retail                                        | Azure Boards & Repos (Basic<sup>2</sup>) [Learn more](https://docs.microsoft.com/azure/devops/organizations/security/access-levels?view=azure-devops)                                                            |  Yes          |
-| Visual Studio Professional with GitHub Enterprise | VL| Azure Boards & Repos (Basic<sup>2</sup>)  [Learn more](https://docs.microsoft.com/azure/devops/organizations/security/access-levels?view=azure-devops)                                                            |  Yes          |
-| Visual Studio Test Professional (Standard)                         | VL, Retail                                              | Azure Boards & Repos (Basic<sup>2</sup>), Azure Test Plans [Learn more](https://docs.microsoft.com/azure/devops/organizations/security/access-levels?view=azure-devops)                                             |  Yes          |
-| MSDN Platforms (Standard)                                          | VL, Retail                                              | Azure Boards & Repos (Basic<sup>2</sup>), Azure Test Plans [Learn more](https://docs.microsoft.com/azure/devops/organizations/security/access-levels?view=azure-devops)                                             |  Yes          |
+| Visual Studio Enterprise (Standard, monthly cloud)   | VL, Azure, Retail,  selected NFR<sup>1</sup>  | Azure Boards & Repos (Basic<sup>2</sup>), Azure Test Plans, self-hosted parallel jobs |  Yes          |
+| Visual Studio Enterprise subscription with GitHub Enterprise   | VL| Azure Boards & Repos (Basic<sup>2</sup>), Azure Test Plans, self-hosted parallel jobs |  Yes          |
+| Visual Studio Professional (Standard, monthly cloud) | VL, Azure, Retail                                        | Azure Boards & Repos (Basic<sup>2</sup>)                                                             |  Yes          |
+| Visual Studio Professional subscription with GitHub Enterprise | VL| Azure Boards & Repos (Basic<sup>2</sup>)                                                             |  Yes          |
+| Visual Studio Test Professional (Standard)                         | VL, Retail                                              | Azure Boards & Repos (Basic<sup>2</sup>), Azure Test Plans                                              |  Yes          |
+| MSDN Platforms (Standard)                                          | VL, Retail                                              | Azure Boards & Repos (Basic<sup>2</sup>), Azure Test Plans                                             |  Yes          |
 ||
 
 <sup>1</sup>  *Includes:  Not for Resale (NFR), Most Valuable Professional (MVP), Regional Director (RD), Visual Studio Industry Partner (VSIP), Microsoft Partner Network (Enterprise), BizSpark, MCT Software & Services Developer, FTE.
   Excludes: MCT Software & Services, Imagine.*
 
-<sup>2</sup> *Basic plan includes defining release pipelines and multi-stage continuous deployment (CD) pipelines, and using approvals and gates to control deployments; when the Free access to Pipelines Preview feature is enabled, Stakeholders gain access to all Azure Pipelines features. For more information about features included in plans, please visit Azure's [About access levels page](https://docs.microsoft.com/azure/devops/organizations/security/access-levels?view=azure-devops).*
+<sup>2</sup> *Basic plan includes defining release pipelines and multi-stage continuous deployment (CD) pipelines, and using approvals and gates to control deployments; when the Free access to Pipelines Preview feature is enabled, Stakeholders gain access to all Azure Pipelines features. *
 
 > [!NOTE]
 > Microsoft no longer offers Visual Studio Professional Annual subscriptions and Visual Studio Enterprise Annual subscriptions in Cloud Subscriptions. There will be no change to existing customers experience and ability to renew, increase, decrease, or cancel their subscriptions. New customers are encouraged to go to [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/) to explore different options to purchase Visual Studio.
@@ -53,10 +53,10 @@ A:  Yes. Visual Studio Enterprise subscribers get one parallel job in Team Found
 - [Azure DevOps documentation](/azure/devops/).
 
 ## See also
-- [Visual Studio documentation](https://docs.microsoft.com/visualstudio/)
-- [Azure DevOps documentation](https://docs.microsoft.com/azure/devops/)
-- [Azure documentation](https://docs.microsoft.com/azure/)
-- [Microsoft 365 documentation](https://docs.microsoft.com/microsoft-365/)
+- [Visual Studio documentation](/visualstudio/)
+- [Azure DevOps documentation](/azure/devops/)
+- [Azure documentation](/azure/)
+- [Microsoft 365 documentation](/microsoft-365/)
 
 ## Next steps
 Learn more about Azure DevOps features:

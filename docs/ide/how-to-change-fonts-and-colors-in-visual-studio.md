@@ -1,7 +1,9 @@
 ---
-title: Change fonts and colors
-ms.date: 06/01/2020
+title: Change themes, fonts, text, and contrast for accessibility
+description: Learn how to change Visual Studio color themes, font colors, text sizes, and extra-contrast colors for ease of use and accessibility concerns.
+ms.date: 08/20/2020
 ms.topic: how-to
+ms.custom: contperf-fy21q1
 helpviewer_keywords:
 - Visual Studio, color themes
 - color themes, Visual Studio
@@ -12,9 +14,9 @@ manager: jillfra
 ms.workload:
 - multiple
 ---
-# How to: Change fonts and colors in Visual Studio
+# How to: Change fonts, colors, and themes in Visual Studio
 
-You can change the fonts and the colors in Visual Studio in many ways. For example, you can change the default blue color theme to the dark theme (also referred to as "dark mode.") And, you can change the default font and text size to a different font and size.
+You can change the fonts and the colors in Visual Studio in many ways. For example, you can change the default blue color theme to the dark theme (also referred to as "dark mode"). You can also select a extra-contrast theme if that best suits your needs. And, you can change the default font and text size in both the IDE and the code editor.
 
 ## Change the color theme
 
@@ -108,7 +110,7 @@ Use the following procedures to toggle the Visual Studio extra contrast option:
 To learn more about other Visual Studio accessibility options available to you, see the [Accessibility features of Visual Studio](../ide/reference/accessibility-features-of-visual-studio.md) page.
 
 > [!TIP]
-> If there is an accessibility option for colors or fonts that you think might be useful but isn't currently available in Visual Studio, please let us know by selecting **Suggest a feature** in the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/). For more information about this forum and how it works, see the [Suggest a feature](../ide/suggest-a-feature.md) page.
+> If there is an accessibility option for colors or fonts that you think might be useful but isn't currently available in Visual Studio, please let us know by selecting **Suggest a feature** in the [Visual Studio Developer Community](https://aka.ms/feedback/suggest?space=8). For more information about this forum and how it works, see the [Suggest a feature](../ide/suggest-a-feature.md) page.
 
 ## Next steps
 
@@ -116,5 +118,6 @@ To learn more details about all the user interface (UI) elements for which you c
 
 ## See also
 
-- [Change fonts and colors for the code editor](../ide/reference/how-to-change-fonts-and-colors-in-the-editor.md)
+- [How to: Change fonts and colors for the editor in Visual Studio](../ide/reference/how-to-change-fonts-and-colors-in-the-editor.md)
 - [Features of the Visual Studio code editor](../ide/writing-code-in-the-code-and-text-editor.md)
+- [Personalize the Visual Studio IDE and the editor](../ide/quickstart-personalize-the-ide.md)

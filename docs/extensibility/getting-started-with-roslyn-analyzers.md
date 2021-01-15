@@ -1,5 +1,7 @@
 ---
 title: Getting Started with Roslyn Analyzers | Microsoft Docs
+description: Use these resources to get started with Roslyn analyzers in Visual Studio; includes a tutorial and several examples.
+ms.custom: SEO-VS-2020
 ms.date: 04/02/2018
 ms.topic: conceptual
 ms.assetid: 367c2ec8-3059-46a5-9d1c-57bead0419e7
@@ -19,7 +21,7 @@ With live, project-based code analyzers in Visual Studio, API authors can ship d
 
 [Tutorial: Write your first analyzer and code fix](/dotnet/csharp/roslyn-sdk/tutorials/how-to-write-csharp-analyzer-code-fix)
 
-[Add code fixes Walkthrough: Provide users fixes for analyzer issues](https://msdn.microsoft.com/magazine/dn904670.aspx)
+[Add code fixes Walkthrough: Provide users fixes for analyzer issues](/archive/msdn-magazine/2015/february/csharp-adding-a-code-fix-to-your-roslyn-analyzer)
 
 [Real world Roslyn analyzer](../extensibility/roslyn-analyzers-and-code-aware-library-for-immutablearrays.md) that you can also watch as a [talk](https://channel9.msdn.com/events/Build/2015/3-725)
 

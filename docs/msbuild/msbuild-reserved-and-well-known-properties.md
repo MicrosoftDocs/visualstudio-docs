@@ -1,5 +1,7 @@
 ---
 title: MSBuild Reserved and Well-known Properties | Microsoft Docs
+description: Learn about the MSBuild reserved and well-known properties, predefined properties that store information about the project file and the MSBuild binaries.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 dev_langs:

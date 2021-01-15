@@ -1,10 +1,10 @@
 ---
-title: CAST Highlight Benefit in to Visual Studio Subscriptions | Microsoft Docs
+title: CAST Highlight benefit in to Visual Studio subscriptions | Microsoft Docs
 author: evanwindom
 ms.author: v-evwin
 manager: lank
 ms.assetid: 92e8957f-c690-46bd-a812-3efd06a2bc6b
-ms.date: 03/02/2020
+ms.date: 10/21/2020
 ms.topic: how-to
 description:  Learn about the CAST Highlight benefit available in selected Visual Studio subscriptions
 ---
@@ -21,14 +21,14 @@ Developers need critical insights on their software when migrating to the cloud.
 2. Locate the CAST Highlight benefit tile in the "Tools" category, and click on **Get Code**.
 
    > [!div class="mx-imgBorder"]
-   > ![CAST Highlight Benefit Tile](_img/vs-cast-highlight/vs-cast-highlight-tile.png)
+   > ![CAST Highlight Benefit Tile](_img/vs-cast-highlight/vs-cast-highlight-tile.png "Click 'Get Code' on the CAST Highlight benefit tile to get started.")
 
 0. You will see a message letting you know your code has been retrieved successfully.  Click **Activate**. (If you do not choose to activate now, you can always come back to the CAST Highlight tile in the subscription portal.  The "Get Code" link will change to "Activate", and clicking it will resume the activation process.)
 
 0. You'll be redirected to the CAST Highlight page where you can explore the features of your subscription.  When you're ready to create your account, simply provide your contact information in the web form and click **Submit**.
 
     > [!div class="mx-imgBorder"]
-    > ![CAST Highlight Landing Page](_img/vs-cast-highlight/vs-cast-highlight-landing.png)
+    > ![CAST Highlight Landing Page](_img/vs-cast-highlight/vs-cast-highlight-landing.png "Provide your personal information activate your CAST subscription.")
 
    > [!NOTE]
    > Activations of the CAST Highlight benefit are limited to ten per organization.  If your organization's ten activations have already been consumed, you will be unable to activate the CAST Highlight benefit and you'll receive an email with further information.
@@ -73,9 +73,9 @@ Upon approval of your request, you'll receive a second email confirming successf
 | Subscription Level                                                 |     Channels                                            | Benefit                                                          | Renewable?    |
 |--------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------|---------------|
 | Visual Studio Enterprise (Standard)   | VL, Azure, Retail, | Assess 5 apps for three months|  No.  Available to new subscribers only          |
-| Visual Studio Enterprise with GitHub Enterprise  | VL | Assess 5 apps for three months|  No.  Available to new subscribers only          |
+| Visual Studio Enterprise subscription with GitHub Enterprise  | VL | Assess 5 apps for three months|  No.  Available to new subscribers only          |
 | Visual Studio Professional (Standard) | VL, Azure, Retail                                       | Assess 1 app for three months                                                             |  No.  Available to new subscribers only                  |
-| Visual Studio Professional with GitHub Enterprise | VL                                       | Assess 1 app for three months                                                            |  No.  Available to new subscribers only                  |
+| Visual Studio Professional subscription with GitHub Enterprise | VL                                       | Assess 1 app for three months                                                            |  No.  Available to new subscribers only                  |
 | Visual Studio Test Professional (Standard)                         | VL, Retail                                              | Not available                                             |  N/A           |
 | MSDN Platforms (Standard)                                          | VL, Retail                                              | Not available                                              |  N/A          |
 | Visual Studio Enterprise (Standard)  | NFR<sup>1</sup> |Not available  | N/A |
@@ -97,10 +97,10 @@ Not sure which subscription you're using?  Connect to [https://my.visualstudio.c
 - Have a question about Visual Studio IDE, Azure DevOps Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).
 
 ## See also
-- [Visual Studio documentation](https://docs.microsoft.com/visualstudio/)
-- [Azure DevOps documentation](https://docs.microsoft.com/azure/devops/)
-- [Azure documentation](https://docs.microsoft.com/azure/)
-- [Microsoft 365 documentation](https://docs.microsoft.com/microsoft-365/)
+- [Visual Studio documentation](/visualstudio/)
+- [Azure DevOps documentation](/azure/devops/)
+- [Azure documentation](/azure/)
+- [Microsoft 365 documentation](/microsoft-365/)
 
 ## Next steps
 If you haven't already activated the Azure DevTest individual credit benefit that comes with your subscription, visit [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs) and click on the Azure tile in the Tools category to set up your Azure subscription and redeem your Azure DevTest individual credit.

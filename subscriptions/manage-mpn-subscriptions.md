@@ -1,10 +1,10 @@
 ---
-title: Manage Visual Studio subscriptions offered through the Microsoft Partner Network (MPN) | Microsoft Docs
+title: Manage Visual Studio subscriptions from Microsoft Partner Network | Microsoft Docs
 author: evanwindom
-ms.author: lank
-manager: lank
+ms.author: v-evwin
+manager: cabuschl
 ms.assetid: 83efe4ee-9a9d-4776-b27c-852d89dadafd
-ms.date: 03/09/2020
+ms.date: 10/28/2020
 ms.topic: how-to
 description: How to assign Visual Studio subscriptions to your end users, for MPN partners.
 ---
@@ -16,7 +16,7 @@ See Visual Studio subscriptions offered to partners in the [Microsoft Partner Ne
 
 ## Microsoft Action Pack subscribers
 Microsoft Action Pack subscriber and Visual Studio subscriptions
-1. Program Administrator will log into Partner Membership Center
+1. Program Admin will log into Partner Membership Center
 2. Associate people through **Requirements and Assets**
 3. Locate individuals and **Assign Roles**
 4. Select First, Second, or Third **Technical Contact** and **Save**
@@ -24,7 +24,7 @@ Microsoft Action Pack subscriber and Visual Studio subscriptions
 6. Select **Privileges**
 7. Select **Visual Studio Subscriptions** (Note: Visual Studio subscription update pending)
 8. Select the desired **Individual**
-9. Click **Submit**
+9. Select **Submit**
 10. The individual will receive an email
 11. The assigned individual will access [https://my.visualstudio.com](https://my.visualstudio.com?wt.mc_id=o~msft~docs) to sign in
 12. A Visual Studio profile page may be displayed, including:
@@ -38,7 +38,7 @@ Microsoft Action Pack subscriber and Visual Studio subscriptions
 2. Select **Privileges**
 3. Select **MSDN Subscriptions** (Note:  this will be relabeled "Visual Studio subscriptions" soon)
 4. Locate the desired **Individual**
-5. Click **Submit**
+5. Select **Submit**
 6. The individual will receive an email
 7. The assigned individual will access [https://my.visualstudio.com](https://my.visualstudio.com?wt.mc_id=o~msft~docs) to sign in
 8. A Visual Studio profile page may be displayed
@@ -56,12 +56,10 @@ Microsoft Action Pack subscriber and Visual Studio subscriptions
   - Pg 8 – Assigning Visual Studio subscriptions for Competency Partners
 
 ## See also
-- [Visual Studio documentation](https://docs.microsoft.com/visualstudio/)
-- [Azure DevOps documentation](https://docs.microsoft.com/azure/devops/)
-- [Azure documentation](https://docs.microsoft.com/azure/)
-- [Microsoft 365 documentation](https://docs.microsoft.com/microsoft-365/)
+- [Visual Studio documentation](/visualstudio/)
+- [Azure DevOps documentation](/azure/devops/)
+- [Azure documentation](/azure/)
+- [Microsoft 365 documentation](/microsoft-365/)
 
 ## Next steps
-Subscribers and Program Administrators should work directly with the Microsoft Partner Network support team to resolve any problems with subscribers accessing subscriptions. Visit the [Support for Partners](https://partner.microsoft.com/support) page for assistance. (Your MPN sign in credentials will be required.)
-
-
+Subscribers and Program Admins should work directly with the Microsoft Partner Network support team to resolve any problems with subscribers accessing subscriptions. Visit the [Support for Partners](https://partner.microsoft.com/support) page for assistance. (Your MPN sign in credentials will be required.)

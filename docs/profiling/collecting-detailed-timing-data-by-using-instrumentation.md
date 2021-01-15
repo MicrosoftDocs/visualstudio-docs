@@ -1,5 +1,7 @@
 ---
-title: Collecting Detailed Timing Data by Using Instrumentation | Microsoft Docs
+title: Collect detailed timing data using instrumentation
+description: Use the Profiling Tools instrumentation method for detailed timing information about a section of your code, and to understand the impact of I/O operations.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords: 

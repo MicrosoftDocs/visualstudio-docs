@@ -1,6 +1,7 @@
 ---
 title: Advanced example for containers
-description: ''
+description: Learn about an advanced example for Docker containers. This example Dockerfile uses a specific version tag of the microsoft/dotnet-framework image.
+ms.custom: SEO-VS-2020
 ms.date: 03/25/2020
 ms.topic: conceptual
 ms.assetid: e03835db-a616-41e6-b339-92b41d0cfc70
@@ -63,9 +64,8 @@ In the working directory, create the "Dockerfile" with the following content:
 ```dockerfile
 # escape=`
 
-# Use a specific tagged image. Tags can be changed, though that is unlikely for most images.
-# You could also use the immutable tag @sha256:3eaa3ba18f45e6561f32d8dd927045413f1dd043d7d29fb581f5cb3c6f7d7481
-ARG FROM_IMAGE=mcr.microsoft.com/dotnet/framework/sdk:4.7.2-windowsservercore-ltsc2019
+# Use a specific tagged image.
+ARG FROM_IMAGE=mcr.microsoft.com/dotnet/framework/runtime:4.8
 FROM ${FROM_IMAGE}
 
 # Restore the default Windows shell for correct batch processing.
@@ -207,7 +207,7 @@ The command 'cmd /S /C C:\TEMP\Install.cmd C:\TEMP\vs_buildtools.exe ...' return
 
 ::: moniker-end
 
-After the last line finishes executing, open "%TEMP%\vslogs.zip" on your machine, or submit an issue on the [Developer Community](https://developercommunity.visualstudio.com) website.
+After the last line finishes executing, open "%TEMP%\vslogs.zip" on your machine, or submit an issue on the [Developer Community](https://aka.ms/feedback/suggest?space=8) website.
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 

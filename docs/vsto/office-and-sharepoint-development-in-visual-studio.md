@@ -1,5 +1,7 @@
 ---
 title: "Office and SharePoint development in Visual Studio"
+description: Learn how you can extend Microsoft Office and SharePoint by creating a lightweight app or add-in that users download from the Office Store.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -38,7 +40,7 @@ ms.workload:
 
  Find out how to use the new [Office Add-in model](/office/dev/add-ins/overview/office-add-ins) to extend the Office experience for your users.
 
- These add-ins have small footprints compared to VSTO add-ins and solutions, and you can build them by using almost any web programming technology such as HTML5, JavaScript, CSS3, and XML.  To get started, use the Office Developer Tools in Visual Studio, or the lightweight web-based tool code-named Napa Office 365 Development Tools, which lets you create projects, write code, and run your add-ins in a browser.
+ These add-ins have small footprints compared to VSTO add-ins and solutions, and you can build them by using almost any web programming technology such as HTML5, JavaScript, CSS3, and XML.  To get started, use the Office Developer Tools in Visual Studio, which lets you create projects, write code, and run your add-ins in a browser.
 
  ![Apps for Office and SharePoint conceptual model](../vsto/media/officeandsharepointapps2015.png "Apps for Office and SharePoint conceptual model")
 
@@ -56,7 +58,7 @@ ms.workload:
 |To|See|
 |--------|---------|
 |Learn more about Office add-ins, and then build one.|[Office add-ins](/office/dev/add-ins/publish/publish)|
-|Compare the different ways in which you can extend Office, and decide whether you should use an app or an Office add-in.|[Roadmap for Office Add-ins, VSTO, and VBA](https://blogs.msdn.microsoft.com/officeapps/2013/06/18/roadmap-for-apps-for-office-vsto-and-vba/)|
+|Compare the different ways in which you can extend Office, and decide whether you should use an app or an Office add-in.|[Roadmap for Office Add-ins, VSTO, and VBA](/archive/blogs/officeapps/roadmap-for-apps-for-office-vsto-and-vba)|
 
 ### Build a SharePoint Add-in
  To extend SharePoint for your users, build a SharePoint add-in. It's basically a small, easy-to-use, stand-alone application that solves a need for your users or business.
@@ -86,7 +88,7 @@ ms.workload:
 
 |To|Read|
 |--------|----------|
-|Compare the different ways in which you can extend Office, and decide whether you should use a VSTO add-in or an Office add-in.|[Roadmap for Office Add-ins, VSTO, and VBA](https://blogs.msdn.microsoft.com/officeapps/2013/06/18/roadmap-for-apps-for-office-vsto-and-vba/)|
+|Compare the different ways in which you can extend Office, and decide whether you should use a VSTO add-in or an Office add-in.|[Roadmap for Office Add-ins, VSTO, and VBA](/archive/blogs/officeapps/roadmap-for-apps-for-office-vsto-and-vba)|
 |Create a VSTO add-in.|[VSTO add-ins build with Visual Studio](create-vsto-add-ins-for-office-by-using-visual-studio.md)|
 
 ## <a name="Solutions"></a> Create a SharePoint solution

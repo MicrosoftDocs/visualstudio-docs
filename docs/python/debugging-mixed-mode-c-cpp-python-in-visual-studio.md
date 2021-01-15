@@ -31,9 +31,8 @@ Mixed-mode debugging features include the following, as explained in this articl
 
 ![Mixed-mode debugging for Python in Visual Studio](media/mixed-mode-debugging.png)
 
-|   |   |
-|---|---|
-| ![movie camera icon for video](../install/media/video-icon.png "Watch a video") | For an introduction to building, testing, and debugging native C modules with Visual Studio, see [Deep Dive: Create Native Modules](https://youtu.be/D9RlT06a1EI) (youtube.com, 9m 09s). The video is applicable to both Visual Studio 2015 and 2017. |
+![movie camera icon for video](../install/media/video-icon.png "Watch a video") For an introduction to building, testing, and debugging native C modules with Visual Studio, see [Deep Dive: Create Native Modules](https://youtu.be/D9RlT06a1EI) (youtube.com, 9m 09s). The video is applicable to both Visual Studio 2015 and 2017.
+
 
 ## Enable mixed-mode debugging in a Python project
 

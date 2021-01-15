@@ -1,5 +1,7 @@
 ---
 title: Registering Interop Assembly Command Handlers | Microsoft Docs
+description: Learn about the basic command contract used by all VSPackages implementing commands using Interop assemblies.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -19,7 +21,7 @@ A VSPackage must register with [!INCLUDE[vsprvs](../../code-quality/includes/vsp
 
  The Managed Package Framework (MPF) provides this functionality through the <xref:Microsoft.VisualStudio.Shell.ProvideMenuResourceAttribute> class.
 
-- [Command Table Format Reference](https://msdn.microsoft.com/library/09e9c6ef-9863-48de-9483-d45b7b7c798f) resources are located in unmanaged satellite UI dlls.
+- [Command Table Format Reference](/previous-versions/bb164647(v=vs.100)) resources are located in unmanaged satellite UI dlls.
 
 ## Command Handler Registration of a VSPackage
  A VSPackage acting as a handler for user interface (UI)-based commands requires a registry entry named after the VSPackage `GUID`. This registry entry specifies the location of the VSPackage's UI resource file and the menu resource within that file. The registry entry itself is located under HKEY_LOCAL_MACHINE\Software\Microsoft\VisualStudio\\*\<Version>*\Menus, where *\<Version>* is the version of [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)], for example 9.0.

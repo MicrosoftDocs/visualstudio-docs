@@ -1,5 +1,5 @@
 ---
-title: How to - Choose Sampling Events | Microsoft Docs
+title: Choose Sampling Events | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords: 

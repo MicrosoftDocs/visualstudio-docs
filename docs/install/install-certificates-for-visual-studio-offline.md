@@ -1,8 +1,8 @@
 ---
-title: Install certificates required for an offline installation
+title: Install certificates for an offline installation
 description: Learn how to install certificates for a Visual Studio offline installation.
 ms.date: 08/08/2019
-ms.custom: seodec18
+ms.custom: "seodec18, SEO-VS-2020"
 ms.topic: how-to
 helpviewer_keywords:
 - '{{PLACEHOLDER}}'
@@ -111,9 +111,9 @@ If you are scripting the deployment of Visual Studio in an offline environment t
    Alternatively, create a batch file that uses certutil.exe, which ships with Windows, with the following commands:
    
       ```cmd
-   certutil.exe -addstore -f "Root" "[layout path]\certificates\manifestRootCertificate.cer
+   certutil.exe -addstore -f "Root" "[layout path]\certificates\manifestRootCertificate.cer"
 
-   certutil.exe -addstore -f "Root" [layout path]\certificates\manifestCounterSignRootCertificate.cer"
+   certutil.exe -addstore -f "Root" "[layout path]\certificates\manifestCounterSignRootCertificate.cer"
 
    certutil.exe -addstore -f "Root" "[layout path]\certificates\vs_installer_opc.RootCertificate.cer"
    ```

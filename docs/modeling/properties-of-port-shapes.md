@@ -1,5 +1,7 @@
 ---
 title: Properties of Port Shapes
+description: Learn about port shapes and how you can use port shapes to represent domain classes in the generated designer.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -49,4 +51,4 @@ You can use port shapes to represent domain classes in the generated designer.
 
 ## See also
 
-- [Domain-Specific Language Tools Glossary](https://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)
+- [Domain-Specific Language Tools Glossary](/previous-versions/bb126564(v=vs.100))

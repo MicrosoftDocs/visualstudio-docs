@@ -1,5 +1,7 @@
 ---
 title: Symbol Path Command
+description: Learn about the Symbol Path command and how it sets the list of directories for the debugger to search for symbols.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -32,14 +34,14 @@ Optional. A semi-colon delimited list of paths for the debugger to search for sy
 ## Remarks
 If no `pathname` is specified, the command lists the current symbol paths.
 
-## Example
+## Example 1
 This example adds two paths to the list of symbol directories.
 
 ```
 Debug.SymbolPath C:\Symbol Path 1;C:\Symbol Path 2
 ```
 
-## Example
+## Example 2
 This example displays a semi-colon delimited list of current symbol paths.
 
 ```

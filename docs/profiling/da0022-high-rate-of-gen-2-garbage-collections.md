@@ -45,4 +45,4 @@ ms.workload:
 
  To understand the application's pattern of managed memory usage, profile it again running a.NET Memory allocation profile and select the Object Lifetime profiling option.
 
- For information about how to improve garbage collection performance, see [Garbage Collector Basics and Performance Hints](/previous-versions/dotnet/articles/ms973837(v=msdn.10)) on the Microsoft Web site. For information about the overhead of automatic garbage collection, see [Large Object Heap Uncovered](https://msdn.microsoft.com/magazine/cc534993.aspx).
+ For information about how to improve garbage collection performance, see [Garbage Collector Basics and Performance Hints](/previous-versions/dotnet/articles/ms973837(v=msdn.10)) on the Microsoft Web site. For information about the overhead of automatic garbage collection, see [Large Object Heap Uncovered](/archive/msdn-magazine/2008/june/clr-inside-out-large-object-heap-uncovered).

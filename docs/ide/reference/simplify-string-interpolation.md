@@ -1,5 +1,7 @@
 ---
 title: Simplify string interpolation
+description: Learn how to use the Quick Actions and Refactorings menu to simplify a string interpolation.
+ms.custom: SEO-VS-2020
 ms.date: 03/10/2020
 ms.topic: reference
 author: mikadumont
@@ -19,7 +21,7 @@ This refactoring applies to:
 
 - Visual Basic
 
-**What:** Lets you simplify a [string interpolation](https://docs.microsoft.com/dotnet/csharp/tutorials/string-interpolation).
+**What:** Lets you simplify a [string interpolation](/dotnet/csharp/tutorials/string-interpolation).
 
 **When:** You have a string interpolation that can be simplified.
 

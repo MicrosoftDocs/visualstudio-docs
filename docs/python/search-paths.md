@@ -24,7 +24,7 @@ Visual Studio ignores the search path environment variable, however, even when t
 
 Visual Studio thus provides a means to specify search paths directly in both environments and projects. Code that you run or debug in Visual Studio receives search paths in the value of `PYTHONPATH` (and other equivalent variables). By adding search paths, Visual Studio inspects the libraries in those locations and builds IntelliSense databases for them when needed (Visual Studio 2017 version 15.5 and earlier; constructing the database may take some time depending on the number of libraries).
 
-To add a search path, go to **Solution Explorer**, expand your project node, right-click on **Search Paths**, select **Add Folder to Search Path**:
+To add a search path, go to **Solution Explorer**, expand your project node, right-click on **Search Paths**, and select **Add Folder to Search Path**:
 
 ::: moniker range="vs-2017"
 ![Add Folder to Search Path command on Search Paths in Solution Explorer](media/search-paths-command.png)

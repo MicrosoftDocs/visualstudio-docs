@@ -1,6 +1,8 @@
 ---
 title: Calculate code metrics
 ms.date: 11/02/2018
+description: Learn about cyclomatic complexity, class coupling, and other Visual Studio code metrics. See how metrics can track development progress and identify risks.
+ms.custom: SEO-VS-2020
 ms.topic: conceptual
 f1_keywords:
   - vs.codeanalysis.codemetrics.toolwindow
@@ -28,13 +30,13 @@ For information about how to generate code metrics data in Visual Studio, see [H
 
 The following list shows the code metrics results that Visual Studio calculates:
 
-- **Maintainability Index** - Calculates an index value between 0 and 100 that represents the relative ease of maintaining the code. A high value means better maintainability. Color coded ratings can be used to quickly identify trouble spots in your code. A green rating is between 20 and 100 and indicates that the code has good maintainability. A yellow rating is between 10 and 19 and indicates that the code is moderately maintainable. A red rating is a rating between 0 and 9 and indicates low maintainability. For more information, see the [Maintainability index range and meaning](https://blogs.msdn.microsoft.com/codeanalysis/2007/11/20/maintainability-index-range-and-meaning/) blog post.
+- **Maintainability Index** - Calculates an index value between 0 and 100 that represents the relative ease of maintaining the code. A high value means better maintainability. Color coded ratings can be used to quickly identify trouble spots in your code. A green rating is between 20 and 100 and indicates that the code has good maintainability. A yellow rating is between 10 and 19 and indicates that the code is moderately maintainable. A red rating is a rating between 0 and 9 and indicates low maintainability. For more information, see [Maintainability index range and meaning](code-metrics-maintainability-index-range-and-meaning.md).
 
 - **Cyclomatic Complexity** - Measures the structural complexity of the code. It is created by calculating the number of different code paths in the flow of the program. A program that has complex control flow requires more tests to achieve good code coverage and is less maintainable. For more information, see the [Wikipedia entry for cyclomatic complexity](https://wikipedia.org/wiki/Cyclomatic_complexity).
 
 - **Depth of Inheritance** - Indicates the number of different classes that inherit from one another, all the way back to the base class. Depth of Inheritance is similar to class coupling in that a change in a base class can affect any of its inherited classes. The higher this number, the deeper the inheritance and the higher the potential for base class modifications to result in a breaking change. For Depth of Inheritance, a low value is good and a high value is bad.
 
-- **Class Coupling** - Measures the coupling to unique classes through parameters, local variables, return types, method calls, generic or template instantiations, base classes, interface implementations, fields defined on external types, and attribute decoration. Good software design dictates that types and methods should have high cohesion and low coupling. High coupling indicates a design that is difficult to reuse and maintain because of its many interdependencies on other types. For more information, see the [Class coupling](https://blogs.msdn.microsoft.com/zainnab/2011/05/25/code-metrics-class-coupling/) blog post.
+- **Class Coupling** - Measures the coupling to unique classes through parameters, local variables, return types, method calls, generic or template instantiations, base classes, interface implementations, fields defined on external types, and attribute decoration. Good software design dictates that types and methods should have high cohesion and low coupling. High coupling indicates a design that is difficult to reuse and maintain because of its many interdependencies on other types. For more information, see [Class coupling](code-metrics-class-coupling.md).
 
 ::: moniker range=">=vs-2019"
 

@@ -3,9 +3,7 @@ title: Optimizing your Azure code
 description: Learn about how Azure code optimization tools in Visual Studio help make your code more robust and better-performing.
 author: ghogen
 manager: jillfra
-ms.assetid: ed48ee06-e2d2-4322-af22-07200fb16987
 ms.topic: conceptual
-ms.custom: vs-azure
 ms.workload: azure-vs
 ms.date: 11/11/2016
 ms.author: ghogen
@@ -31,22 +29,22 @@ By default, the session state mode specified in the web.config file is in-proces
 ASP.NET session state supports several different storage options for session state data: InProc, StateServer, SQLServer, Custom, and Off. It’s recommended that you use Custom mode to host data on an external Session State store, such as [Azure Session State provider for Redis](https://devblogs.microsoft.com/aspnet/announcing-asp-net-session-state-provider-for-redis-preview-release/).
 
 ### Solution
-One recommended solution is to store session state on a managed cache service. Learn how to use [Azure Session State provider for Redis](https://devblogs.microsoft.com/aspnet/announcing-asp-net-session-state-provider-for-redis-preview-release/) to store your session state. You can also store session state in other places to ensure your application is scalable on the cloud. To learn more about alternative solutions please read [Session State Modes](https://msdn.microsoft.com/library/ms178586).
+One recommended solution is to store session state on a managed cache service. Learn how to use [Azure Session State provider for Redis](https://devblogs.microsoft.com/aspnet/announcing-asp-net-session-state-provider-for-redis-preview-release/) to store your session state. You can also store session state in other places to ensure your application is scalable on the cloud. To learn more about alternative solutions please read [Session State Modes](/previous-versions/ms178586(v=vs.140)).
 
 ## Run method should not be async
 ### ID
 AP1000
 
 ### Description
-Create asynchronous methods (such as [await](https://msdn.microsoft.com/library/hh156528.aspx)) outside of the [Run()](https://msdn.microsoft.com/library/azure/microsoft.windowsazure.serviceruntime.roleentrypoint.run.aspx) method and then call the async methods from [Run()](https://msdn.microsoft.com/library/azure/microsoft.windowsazure.serviceruntime.roleentrypoint.run.aspx). Declaring the [[Run()](https://msdn.microsoft.com/library/azure/microsoft.windowsazure.serviceruntime.roleentrypoint.run.aspx)](https://msdn.microsoft.com/library/azure/microsoft.windowsazure.serviceruntime.roleentrypoint.run.aspx) method as async causes the worker role to enter a restart loop.
+Create asynchronous methods (such as [await](/dotnet/csharp/language-reference/operators/await)) outside of the [Run()](/previous-versions/azure/reference/ee772746(v=azure.100)) method and then call the async methods from [Run()](/previous-versions/azure/reference/ee772746(v=azure.100)). Declaring the [[Run()](/previous-versions/azure/reference/ee772746(v=azure.100))](https://msdn.microsoft.com/library/azure/microsoft.windowsazure.serviceruntime.roleentrypoint.run.aspx) method as async causes the worker role to enter a restart loop.
 
 Please share your ideas and feedback at [Azure Code Analysis feedback](https://social.msdn.microsoft.com/Forums/en-US/home).
 
 ### Reason
-Calling async methods inside the [Run()](https://msdn.microsoft.com/library/azure/microsoft.windowsazure.serviceruntime.roleentrypoint.run.aspx) method causes the cloud service runtime to recycle the worker role. When a worker role starts, all program execution takes place inside the [Run()](https://msdn.microsoft.com/library/azure/microsoft.windowsazure.serviceruntime.roleentrypoint.run.aspx) method. Exiting the [Run()](https://msdn.microsoft.com/library/azure/microsoft.windowsazure.serviceruntime.roleentrypoint.run.aspx) method causes the worker role to restart. When the worker role runtime hits the async method, it dispatches all operations after the async method and then returns. This causes the worker role to exit from the [[[[Run()](https://msdn.microsoft.com/library/azure/microsoft.windowsazure.serviceruntime.roleentrypoint.run.aspx)](https://msdn.microsoft.com/library/azure/microsoft.windowsazure.serviceruntime.roleentrypoint.run.aspx)](https://msdn.microsoft.com/library/azure/microsoft.windowsazure.serviceruntime.roleentrypoint.run.aspx)](https://msdn.microsoft.com/library/azure/microsoft.windowsazure.serviceruntime.roleentrypoint.run.aspx) method and restart. In the next iteration of execution, the worker role hits the async method again and restarts, causing the worker role to recycle again as well.
+Calling async methods inside the [Run()](/previous-versions/azure/reference/ee772746(v=azure.100)) method causes the cloud service runtime to recycle the worker role. When a worker role starts, all program execution takes place inside the [Run()](/previous-versions/azure/reference/ee772746(v=azure.100)) method. Exiting the Run method causes the worker role to restart. When the worker role runtime hits the async method, it dispatches all operations after the async method and then returns. This causes the worker role to exit from the Run method and restart. In the next iteration of execution, the worker role hits the async method again and restarts, causing the worker role to recycle again as well.
 
 ### Solution
-Place all async operations outside of the [Run()](https://msdn.microsoft.com/library/azure/microsoft.windowsazure.serviceruntime.roleentrypoint.run.aspx) method. Then, call the refactored async method from inside the [[Run()](https://msdn.microsoft.com/library/azure/microsoft.windowsazure.serviceruntime.roleentrypoint.run.aspx)](https://msdn.microsoft.com/library/azure/microsoft.windowsazure.serviceruntime.roleentrypoint.run.aspx) method, such as RunAsync().wait. The Azure Code Analysis tool can help you fix this issue.
+Place all async operations outside of the [Run()](/previous-versions/azure/reference/ee772746(v=azure.100)) method. Then, call the refactored async method from inside the Run method, such as RunAsync().wait. The Azure Code Analysis tool can help you fix this issue.
 
 The following code snippet demonstrates the code fix for this issue:
 
@@ -101,9 +99,8 @@ BrokeredMessage receivedMessage = sc.Receive();
 
 See the following topics for more information.
 
-* For an overview, see [Shared Access Signature Authentication with Service Bus](https://msdn.microsoft.com/library/dn170477.aspx)
-* [How to use Shared Access Signature Authentication with Service Bus](https://msdn.microsoft.com/library/dn205161.aspx)
-* For a sample project, see [Using Shared Access Signature (SAS) authentication with Service Bus Subscriptions](https://code.msdn.microsoft.com/windowsapps/Shared-Access-Signature-0a88adf8)
+* For an overview, see [Shared Access Signature Authentication with Service Bus](/azure/service-bus-messaging/service-bus-sas)
+* [How to use Shared Access Signature Authentication with Service Bus](/azure/service-bus-messaging/service-bus-sas)
 
 ## Consider using OnMessage method to avoid "receive loop"
 ### ID
@@ -115,16 +112,16 @@ To avoid going into a "receive loop," calling the **OnMessage** method is a bett
 Please share your ideas and feedback at [Azure Code Analysis feedback](https://social.msdn.microsoft.com/Forums/en-US/home).
 
 ### Reason
-When calling **OnMessage**, the client starts an internal message pump that constantly polls the queue or subscription. This message pump contains an infinite loop that issues a call to receive messages. If the call times out, it issues a new call. The timeout interval is determined by the value of the [OperationTimeout](https://msdn.microsoft.com/library/microsoft.servicebus.messaging.messagingfactorysettings.operationtimeout.aspx) property of the [MessagingFactory](https://msdn.microsoft.com/library/microsoft.servicebus.messaging.messagingfactory.aspx)that’s being used.
+When calling **OnMessage**, the client starts an internal message pump that constantly polls the queue or subscription. This message pump contains an infinite loop that issues a call to receive messages. If the call times out, it issues a new call. The timeout interval is determined by the value of the [OperationTimeout](/dotnet/api/microsoft.servicebus.messaging.messagingfactorysettings) property of the [MessagingFactory](/dotnet/api/microsoft.servicebus.messaging.messagingfactory)that’s being used.
 
 The advantage of using **OnMessage** compared to **Receive** is that users don’t have to manually poll for messages, handle exceptions, process multiple messages in parallel, and complete the messages.
 
 If you call **Receive** without using its default value, be sure the *ServerWaitTime* value is more than one minute. Setting *ServerWaitTime* to more than one minute prevents the server from timing out before the message is fully received.
 
 ### Solution
-Please see the following code examples for recommended usages. For more details, see [QueueClient.OnMessage Method (Microsoft.ServiceBus.Messaging)](https://msdn.microsoft.com/library/microsoft.servicebus.messaging.queueclient.onmessage.aspx) and [QueueClient.Receive Method (Microsoft.ServiceBus.Messaging)](https://msdn.microsoft.com/library/microsoft.servicebus.messaging.queueclient.receive.aspx).
+Please see the following code examples for recommended usages. For more details, see [QueueClient.OnMessage Method (Microsoft.ServiceBus.Messaging)](/dotnet/api/microsoft.servicebus.messaging.queueclient) and [QueueClient.Receive Method (Microsoft.ServiceBus.Messaging)](/dotnet/api/microsoft.servicebus.messaging.queueclient).
 
-To improve the performance of the Azure messaging infrastructure, see the design pattern [Asynchronous Messaging Primer](https://msdn.microsoft.com/library/dn589781.aspx).
+To improve the performance of the Azure messaging infrastructure, see the design pattern [Asynchronous Messaging Primer](/previous-versions/msp-n-p/dn589781(v=pandp.10)).
 
 The following is an example of using **OnMessage** to receive messages.
 
@@ -219,12 +216,12 @@ Use asynchronous Service Bus methods to improve performance with brokered messag
 Please share your ideas and feedback at [Azure Code Analysis feedback](https://social.msdn.microsoft.com/Forums/en-US/home).
 
 ### Reason
-Using asynchronous methods enables application program concurrency because executing each call doesn’t block the main thread. When using Service Bus messaging methods, performing an operation (send, receive, delete, etc.) takes time. This time includes the processing of the operation by the Service Bus service in addition to the latency of the request and the reply. To increase the number of operations per time, operations must execute concurrently. For more information please refer to [Best Practices for Performance Improvements Using Service Bus Brokered Messaging](https://msdn.microsoft.com/library/azure/hh528527.aspx).
+Using asynchronous methods enables application program concurrency because executing each call doesn’t block the main thread. When using Service Bus messaging methods, performing an operation (send, receive, delete, etc.) takes time. This time includes the processing of the operation by the Service Bus service in addition to the latency of the request and the reply. To increase the number of operations per time, operations must execute concurrently. For more information please refer to [Best Practices for Performance Improvements Using Service Bus Brokered Messaging](/previous-versions/azure/hh528527(v=azure.100)).
 
 ### Solution
-See [QueueClient Class (Microsoft.ServiceBus.Messaging)](https://msdn.microsoft.com/library/microsoft.servicebus.messaging.queueclient.aspx) for information about how to use the recommended asynchronous method.
+See [QueueClient Class (Microsoft.ServiceBus.Messaging)](/dotnet/api/microsoft.servicebus.messaging.queueclient) for information about how to use the recommended asynchronous method.
 
-To improve the performance of the Azure messaging infrastructure, see the design pattern [Asynchronous Messaging Primer](https://msdn.microsoft.com/library/dn589781.aspx).
+To improve the performance of the Azure messaging infrastructure, see the design pattern [Asynchronous Messaging Primer](/previous-versions/msp-n-p/dn589781(v=pandp.10)).
 
 ## Consider partitioning Service Bus queues and topics
 ### ID
@@ -236,7 +233,7 @@ Partition Service Bus queues and topics for better performance with Service Bus 
 Please share your ideas and feedback at [Azure Code Analysis feedback](https://social.msdn.microsoft.com/Forums/en-US/home).
 
 ### Reason
-Partitioning Service Bus queues and topics increases performance throughput and service availability because the overall throughput of a partitioned queue or topic is no longer limited by the performance of a single message broker or messaging store. In addition, a temporary outage of a messaging store doesn’t make a partitioned queue or topic unavailable. For more information, see [Partitioning Messaging Entities](https://msdn.microsoft.com/library/azure/dn520246.aspx).
+Partitioning Service Bus queues and topics increases performance throughput and service availability because the overall throughput of a partitioned queue or topic is no longer limited by the performance of a single message broker or messaging store. In addition, a temporary outage of a messaging store doesn’t make a partitioned queue or topic unavailable. For more information, see [Partitioning Messaging Entities](/previous-versions/azure/dn520246(v=azure.100)).
 
 ### Solution
 The following code snippet shows how to partition messaging entities.
@@ -266,7 +263,7 @@ Clock synchronization causes a slight time difference among datacenters. For exa
 For more guidance on using Shared Access Signature on Azure storage, see [Introducing Table SAS (Shared Access Signature), Queue SAS and update to Blob SAS - Microsoft Azure Storage Team Blog - Site Home - MSDN Blogs](https://blogs.msdn.microsoft.com/windowsazurestorage/2012/06/12/introducing-table-sas-shared-access-signature-queue-sas-and-update-to-blob-sas/).
 
 ### Solution
-Remove the statement that sets the start time of the shared access policy. The Azure Code Analysis tool provides a fix for this issue. For more information on security management, please see the design pattern [Valet Key Pattern](https://msdn.microsoft.com/library/dn568102.aspx).
+Remove the statement that sets the start time of the shared access policy. The Azure Code Analysis tool provides a fix for this issue. For more information on security management, please see the design pattern [Valet Key Pattern](/previous-versions/msp-n-p/dn568102(v=pandp.10)).
 
 The following code snippet demonstrates the code fix for this issue.
 
@@ -298,7 +295,7 @@ Datacenters at different locations around the world synchronize by a clock signa
 For more information about using Shared Access Signature on Azure storage, see [Introducing Table SAS (Shared Access Signature), Queue SAS and update to Blob SAS - Microsoft Azure Storage Team Blog - Site Home - MSDN Blogs](https://blogs.msdn.microsoft.com/windowsazurestorage/2012/06/12/introducing-table-sas-shared-access-signature-queue-sas-and-update-to-blob-sas/).
 
 ### Solution
-For more information on security management, see the design pattern [Valet Key Pattern](https://msdn.microsoft.com/library/dn568102.aspx).
+For more information on security management, see the design pattern [Valet Key Pattern](/previous-versions/msp-n-p/dn568102(v=pandp.10)).
 
 The following is an example of not specifying a Shared Access policy start time.
 
@@ -331,7 +328,7 @@ blobPermissions.SharedAccessPolicies.Add("mypolicy", new SharedAccessBlobPolicy(
 });
 ```
 
-For more information, see [Create and Use a Shared Access Signature](https://msdn.microsoft.com/library/azure/jj721951.aspx).
+For more information, see [Configure anonymous public read access for containers and blobs](/azure/storage/blobs/anonymous-read-access-configure?tabs=portal).
 
 ## Use CloudConfigurationManager
 ### ID
@@ -345,10 +342,10 @@ Please share your ideas and feedback at [Azure Code Analysis feedback](https://s
 ### Reason
 CloudConfigurationManager reads the configuration file appropriate to the application environment.
 
-[CloudConfigurationManager](https://msdn.microsoft.com/library/azure/microsoft.windowsazure.cloudconfigurationmanager.aspx)
+[CloudConfigurationManager](/previous-versions/azure/)
 
 ### Solution
-Refactor your code to use the [CloudConfigurationManager Class](https://msdn.microsoft.com/library/azure/microsoft.windowsazure.cloudconfigurationmanager.aspx). A code fix for this issue is provided by the Azure Code Analysis tool.
+Refactor your code to use the [CloudConfigurationManager Class](/previous-versions/azure/reference/mt634650(v=azure.100)). A code fix for this issue is provided by the Azure Code Analysis tool.
 
 The following code snippet demonstrates the code fix for this issue. Replace
 
@@ -401,7 +398,7 @@ Instead of configuring diagnostics settings in your code such as by using the Mi
 Please share your ideas and feedback at [Azure Code Analysis feedback](https://social.msdn.microsoft.com/Forums/en-US/home).
 
 ### Reason
-Before Azure SDK 2.5 (which uses Azure diagnostics 1.3), Azure Diagnostics (WAD) could be configured by using several different methods: adding it to the configuration blob in storage, by using imperative code, declarative configuration, or the default configuration. However, the preferred way to configure diagnostics is to use an XML configuration file (diagnostics.wadcfg or diagnostics.wadcfgx for SDK 2.5 and later) in the application project. In this approach, the diagnostics.wadcfg file completely defines the configuration and can be updated and redeployed at will. Mixing the use of the diagnostics.wadcfg configuration file with the programmatic methods of setting configurations by using the [DiagnosticMonitor](https://msdn.microsoft.com/library/microsoft.windowsazure.diagnostics.diagnosticmonitor.aspx)or [RoleInstanceDiagnosticManager](https://msdn.microsoft.com/library/microsoft.windowsazure.diagnostics.management.roleinstancediagnosticmanager.aspx)classes can lead to confusion. See [Initialize or Change Azure Diagnostics Configuration](https://msdn.microsoft.com/library/azure/hh411537.aspx) for more information.
+Before Azure SDK 2.5 (which uses Azure diagnostics 1.3), Azure Diagnostics (WAD) could be configured by using several different methods: adding it to the configuration blob in storage, by using imperative code, declarative configuration, or the default configuration. However, the preferred way to configure diagnostics is to use an XML configuration file (diagnostics.wadcfg or diagnostics.wadcfgx for SDK 2.5 and later) in the application project. In this approach, the diagnostics.wadcfg file completely defines the configuration and can be updated and redeployed at will. Mixing the use of the diagnostics.wadcfg configuration file with the programmatic methods of setting configurations by using the [DiagnosticMonitor](/previous-versions/azure/reference/ee758597(v=azure.100))or [RoleInstanceDiagnosticManager](/previous-versions/azure/reference/ee773157(v=azure.100))classes can lead to confusion. See [Initialize or Change Azure Diagnostics Configuration](/previous-versions/azure/hh411537(v=azure.100)) for more information.
 
 Beginning with WAD 1.3 (included with Azure SDK 2.5), it’s no longer possible to use code to configure diagnostics. As a result, you can only provide the configuration when applying or updating the diagnostics extension.
 

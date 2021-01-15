@@ -1,5 +1,5 @@
 ---
-title: "Error - The web server is not configured correctly | Microsoft Docs"
+title: "The web server is not configured correctly | Microsoft Docs"
 ms.date: "09/20/2017"
 ms.topic: "error-reference"
 f1_keywords:

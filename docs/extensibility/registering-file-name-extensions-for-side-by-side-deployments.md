@@ -1,5 +1,7 @@
 ---
-title: Registering File Name Extensions for Side-By-Side Deployments | Microsoft Docs
+title: Register filename extensions for side-by-side IDEs
+description: Learn about registering file name extensions for side-by-side deployments, which allows users to open files in the appropriate version of Visual Studio.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

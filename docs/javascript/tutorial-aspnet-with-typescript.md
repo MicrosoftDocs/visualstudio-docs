@@ -14,7 +14,7 @@ ms.workload:
 ---
 # Tutorial: Create an ASP.NET Core app with TypeScript in Visual Studio
 
-In this tutorial for Visual Studio development ASP.NET Core and TypeScript, you create a simple web application, add some TypeScript code, and then run the app. 
+In this tutorial for Visual Studio development ASP.NET Core and TypeScript, you create a simple web application, add some TypeScript code, and then run the app.
 
 ::: moniker range="vs-2017"
 
@@ -94,6 +94,7 @@ In this tutorial, you begin with a simple project containing code for an ASP.NET
 
    ```json
    {
+     "compileOnSave": true,
      "compilerOptions": {
        "noImplicitAny": false,
        "noEmitOnError": true,
@@ -213,7 +214,7 @@ In this tutorial, you begin with a simple project containing code for an ASP.NET
 1. Follow instructions in [npm package management](../javascript/npm-package-management.md#aspnet-core-projects) to add a `package.json` file to your project. This adds npm support to your project.
 
    >[!NOTE]
-   > For ASP.NET Core projects, you can also use [Library Manager](https://docs.microsoft.com/aspnet/core/client-side/libman/?view=aspnetcore-3.1) or yarn instead of npm to install client-side JavaScript and CSS files.
+   > For ASP.NET Core projects, you can also use [Library Manager](https://docs.microsoft.com/aspnet/core/client-side/libman/?view=aspnetcore-3.1&preserve-view=true) or yarn instead of npm to install client-side JavaScript and CSS files.
 
 1. In this example, add a TypeScript definition file for jQuery to your project. Include the following in your *package.json* file.
 

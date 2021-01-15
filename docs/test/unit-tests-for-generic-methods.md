@@ -1,5 +1,7 @@
 ---
 title: Unit tests for Generic Methods
+description: Learn how to generate unit tests for generic methods by using this information about and examples of creating unit tests for generic methods.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -109,7 +111,7 @@ public void SizeOfLinkedListTest()
 ```
 
 > [!NOTE]
-> Each time the SizeOfLinkedListTest test runs, its TestHelper method is called two times. The assert statement must evaluate to true every time for the test to pass. If the test fails, it might not be clear whether the call that specified `<int>` or the call that specified `<char>` caused it to fail. To find the answer, you could examine the call stack, or you could set breakpoints in your test method and then debug while running the test. For more information, see [How to: Debug while running a test in an ASP.NET solution](https://msdn.microsoft.com/Library/de4d7aa1-4a1e-467e-a19b-4a85ec245b8b).
+> Each time the SizeOfLinkedListTest test runs, its TestHelper method is called two times. The assert statement must evaluate to true every time for the test to pass. If the test fails, it might not be clear whether the call that specified `<int>` or the call that specified `<char>` caused it to fail. To find the answer, you could examine the call stack, or you could set breakpoints in your test method and then debug while running the test. For more information, see [How to: Debug while running a test in an ASP.NET solution](/previous-versions/ms243172(v=vs.140)).
 
 ### <a name="TypeConstraintNotSatisfied"></a> Example 2: Using a type constraint
 This example shows a unit test for a generic method that uses a type constraint that is not satisfied. The first section shows code from the code-under-test project. The type constraint is highlighted.

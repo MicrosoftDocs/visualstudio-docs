@@ -1,5 +1,7 @@
 ---
 title: Find memory leaks with the CRT Library | Microsoft Docs
+description: Learn how the C/C++ debugger and C Run-time Library (CRT) can help find memory leaks. The techniques include memory-leak reports and comparing memory snapshots.
+ms.custom: SEO-VS-2020
 ms.date: 10/04/2018
 ms.topic: how-to
 dev_langs: 

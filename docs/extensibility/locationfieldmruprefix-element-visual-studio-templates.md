@@ -1,5 +1,8 @@
 ---
-title: LocationFieldMRUPrefix Element (Visual Studio Templates) | Microsoft Docs
+title: LocationFieldMRUPrefix Element (Visual Studio Templates)
+titleSuffix: ""
+description: Learn about the LocationFieldMRUPrefix element and how it specifies the most recently used (MRU) paths in the New Project and Add New Item dialog box.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.technology: vs-ide-general
 ms.topic: reference
@@ -16,6 +19,7 @@ ms.workload:
 - vssdk
 ---
 # LocationFieldMRUPrefix element (Visual Studio Templates)
+
 Specifies the most recently used (MRU) paths in the **New Project** and **Add New Item** dialog box.
 
 ## Syntax
@@ -25,12 +29,15 @@ Specifies the most recently used (MRU) paths in the **New Project** and **Add Ne
 ```
 
 ## Attributes and elements
+
  The following sections describe attributes, child elements, and parent elements.
 
 ### Attributes
+
  None.
 
 ### Child elements
+
  None.
 
 ### Parent elements
@@ -40,8 +47,10 @@ Specifies the most recently used (MRU) paths in the **New Project** and **Add Ne
 |[TemplateData](../extensibility/templatedata-element-visual-studio-templates.md)|Categorizes the template and defines how it displays in either the **New Project** or the **Add New Item** dialog box.|
 
 ## Remarks
+
  This element should only be used for templates produced through the [!INCLUDE[vsipprvsip](../extensibility/includes/vsipprvsip_md.md)].
 
 ## See also
+
 - [Visual Studio template schema reference](../extensibility/visual-studio-template-schema-reference.md)
 - [Creating project and item templates](../ide/creating-project-and-item-templates.md)

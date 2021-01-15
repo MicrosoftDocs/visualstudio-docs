@@ -1,5 +1,7 @@
 ---
 title: Productivity guide
+description: Learn about the keyboard shortcuts and productivity features in Visual Studio that can help you efficiently write code, debug code, and handle errors.
+ms.custom: SEO-VS-2020
 ms.date: 4/29/2020
 ms.topic: conceptual
 author: ornellaalt
@@ -18,7 +20,7 @@ For information about helpful keyboard shortcuts, see [Productivity shortcuts](.
 
 Save time digging through menus by quickly searching for anything you need, including commands, settings, documentation, and install options. See keyboard shortcuts for commands within your search results in Visual Studio so you can memorize them more easily. 
 
-- **Mock code using task list**. If you don't have enough requirements to complete a piece of code, use Task List to track code comments that use tokens such as `TODO` and `HACK`, or custom tokens, and to manage shortcuts that take you directly to a predefined location in code. For more information, see [Use the Task List](../ide/using-the-task-list.md.).
+- **Mock code using task list**. If you don't have enough requirements to complete a piece of code, use Task List to track code comments that use tokens such as `TODO` and `HACK`, or custom tokens, and to manage shortcuts that take you directly to a predefined location in code. For more information, see [Use the Task List](../ide/using-the-task-list.md).
 
 - **Use Solution Explorer shortcuts**. If you're new to Visual Studio, these shortcuts will come in handy and save you time while you're coming up to speed on a new codebase. For the full list of shortcuts, see [Default keyboard shortcuts in Visual Studio](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_solutionexplorerGLOBAL).
 
@@ -26,9 +28,9 @@ Save time digging through menus by quickly searching for anything you need, incl
 
 - **Make Visual Studio more accessible**. Visual Studio has built-in accessibility features that are compatible with screen readers and other assistive technologies. See [Accessibility tips and tricks for Visual Studio](../ide/reference/accessibility-tips-and-tricks.md) for the full list of available features. 
 
-- **Check out the Visual Studio Product Lifecycle and Servicing**. For information on how to get updates for Visual Studio, support options for Enterprise and Professional customers, support for older versions of Visual Studio, and components not covered by Visual Studio servicing, see [Visual Studio Product Lifecycle and Servicing](https://docs.microsoft.com/visualstudio/releases/2019/servicing). 
+- **Check out the Visual Studio Product Lifecycle and Servicing**. For information on how to get updates for Visual Studio, support options for Enterprise and Professional customers, support for older versions of Visual Studio, and components not covered by Visual Studio servicing, see [Visual Studio Product Lifecycle and Servicing](/visualstudio/releases/2019/servicing). 
 
-- **Install and manage NuGet packages in Visual Studio**. The NuGet Package Manager UI in Visual Studio on Windows allows you to easily install, uninstall, and update NuGet packages in projects and solutions. For more information, see [Install and manage packages in Visual Studio using the NuGet Package Manager](https://docs.microsoft.com/nuget/consume-packages/install-use-packages-visual-studio).
+- **Install and manage NuGet packages in Visual Studio**. The NuGet Package Manager UI in Visual Studio on Windows allows you to easily install, uninstall, and update NuGet packages in projects and solutions. For more information, see [Install and manage packages in Visual Studio using the NuGet Package Manager](/nuget/consume-packages/install-use-packages-visual-studio).
 
 ## Write code
 
@@ -54,7 +56,7 @@ Write code more quickly by using the following features.
 
 - **Use sample applications**. You can speed up application development by downloading and installing sample applications from [Microsoft Developer Network](https://code.msdn.microsoft.com/). You can also learn a particular technology or programming concept by downloading and exploring a Sample Pack for that area.
 
-- **Change brace formatting with Formatting/New Lines**. Use the **Formatting**  options page to set options  for formatting code in the code editor, including new lines. For more information on how to use this setting in C#, see [Options dialog box: Text Editor > C# > Code Style > Formatting](../ide/reference/options-text-editor-csharp-formatting.md). For C++, see [Set your C++ coding preferences in Visual Studio](https://docs.microsoft.com/cpp/ide/how-to-set-preferences). For Python, see [Format Python code](../python/formatting-python-code.md).
+- **Change brace formatting with Formatting/New Lines**. Use the **Formatting**  options page to set options  for formatting code in the code editor, including new lines. For more information on how to use this setting in C#, see [Options dialog box: Text Editor > C# > Code Style > Formatting](../ide/reference/options-text-editor-csharp-formatting.md). For C++, see [Set your C++ coding preferences in Visual Studio](/cpp/ide/how-to-set-preferences). For Python, see [Format Python code](../python/formatting-python-code.md).
 
 - **Change your indentation with Tabs**. Use custom editor settings, tailored to each codebase, to enforce consistent coding styles for multiple developers working on the same project across different editors and IDEs. Ensure your whole team follows the same language conventions, naming conventions, and formatting rules. Since these custom settings are portable and travel with your code, you can enforce coding styles even outside of Visual Studio. For more information, see [Options, Text Editor, All Languages, Tabs](../ide/reference/options-text-editor-all-languages-tabs.md#tabs).
 
@@ -112,7 +114,7 @@ Debugging can consume a lot of time, but the following tips can help you speed u
 
 - **Use the Visual Studio debugger tools**. In the Visual Studio context, when you *debug your app*, it usually means that you are running the application in debugger mode. The debugger provides many ways to see what your code is doing while it runs. See [First look at the Visual Studio Debugger](../debugger/debugger-feature-tour.md) for a guide to getting started. 
 
-- **Test the same page, application, or site in different browsers**. As you debug your code, you can easily switch among the installed web browsers, including [Page Inspector (Visual Studio)](https://msdn.microsoft.com/Library/65880969-1ad2-47be-85b9-bb12c81bf209), without having to open the **Browse With** dialog box. You can use the **Debug Target** list, which is on the **Standard** toolbar next to the **Start Debugging** button, to quickly verify which browser you're using as you debug or view pages.
+- **Test the same page, application, or site in different browsers**. As you debug your code, you can easily switch among the installed web browsers, including [Page Inspector (Visual Studio)](/previous-versions/hh974728(v=vs.140)), without having to open the **Browse With** dialog box. You can use the **Debug Target** list, which is on the **Standard** toolbar next to the **Start Debugging** button, to quickly verify which browser you're using as you debug or view pages.
 
     ![Select web browser debug options](../ide/media/webbrowserdropdowntoolbar.png)
 
@@ -134,7 +136,7 @@ Debugging can consume a lot of time, but the following tips can help you speed u
 
 - **[Find code changes and other history with CodeLens](../ide/find-code-changes-and-other-history-with-codelens.md)**. CodeLens lets you stay focused on your work while you find out what happened to your code&mdash;without leaving the editor. You can find references to a piece of code, changes to your code, linked bugs, work items, code reviews, and unit tests.
 
-- **Use Live Share to debug in real time with others**. Live Share enables you to collaboratively edit and debug with others in real time, regardless of the programming languages you're using or app types you're building. For more information, see [What is Visual Studio Live Share?](https://docs.microsoft.com/visualstudio/liveshare/)
+- **Use Live Share to debug in real time with others**. Live Share enables you to collaboratively edit and debug with others in real time, regardless of the programming languages you're using or app types you're building. For more information, see [What is Visual Studio Live Share?](/visualstudio/liveshare/)
 
 - **Use Interactive Window to write and test small code**. Visual Studio provides an interactive read-evaluate-print-loop (REPL) window that lets you enter arbitrary code and see immediate results. This way of coding helps you to learn and experiment with APIs and libraries, and to interactively develop working code to include in your projects. For Python, see [Work with the Python Interactive window](../python/python-interactive-repl-in-visual-studio.md). The Interactive Window feature is also available for C#. 
 

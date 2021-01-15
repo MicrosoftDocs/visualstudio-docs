@@ -1,5 +1,6 @@
 ---
-title: "Specifying the Path to Profiling Tools Command Line Tools | Microsoft Docs"
+title: "Specifying path to profiling command-line tools"
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 ms.assetid: 7047bf18-5779-4f6e-872c-66e2fc47c969

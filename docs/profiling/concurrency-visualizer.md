@@ -43,7 +43,7 @@ The Concurrency Visualizer relies on [Event Tracing for Windows](/windows/win32/
 |[Threads View](../profiling/threads-view-parallel-performance.md)|Describes how to analyze the interactions between threads in your program.|
 |[Cores View](../profiling/cores-view.md)|Describes how to analyze thread migration across cores.|
 |[Common patterns for poorly-behaved multithreaded applications](../profiling/common-patterns-for-poorly-behaved-multithreaded-applications.md)|Describes several common patterns and shows how they appear in the Concurrency Visualizer.|
-|[Parallel Development in Visual Studio blog](https://blogs.msdn.microsoft.com/visualizeparallel/)|Provides tips and best practices for the Concurrency Visualizer.|
+|[Parallel Development in Visual Studio blog](/archive/blogs/visualizeparallel/)|Provides tips and best practices for the Concurrency Visualizer.|
 |[Performance Report Views](../profiling/performance-report-views.md)|Provides reference information for the reports and views of Visual Studio Profiling Tools.|
 |[Concurrency Visualizer SDK](../profiling/concurrency-visualizer-sdk.md)|Describes how to instrument your source code to display additional information in the Concurrency Visualizer.|
 |[Concurrency Visualizer command-line utility (CVCollectionCmd)](../profiling/concurrency-visualizer-command-line-utility-cvcollectioncmd.md)|Describes how to use the Concurrency Visualizer command line utility (CVCollectionCmd.exe) to collect and process traces on machines that don't have Visual Studio.|

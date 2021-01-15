@@ -37,6 +37,6 @@ myFunction() = 42;  // Attempting to assign the value 42 to the result of the fu
     ```  
   
 ## See also  
- [Function Object](../../javascript/reference/function-object-javascript.md)   
- [Writing JavaScript Code](../../javascript/writing-javascript-code.md)   
- [Functions](../../javascript/functions-javascript.md)
+ [Function Object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Function)   
+ [Writing JavaScript Code](https://developer.mozilla.org/docs/Learn/Getting_started_with_the_web/JavaScript_basics)   
+ [Functions](https://developer.mozilla.org/docs/Learn/JavaScript/Building_blocks/Functions)

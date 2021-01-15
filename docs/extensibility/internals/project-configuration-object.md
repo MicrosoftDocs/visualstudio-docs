@@ -1,5 +1,7 @@
 ---
 title: Project Configuration Object | Microsoft Docs
+description: Learn how the project configuration object manages the display of configuration information to the UI.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

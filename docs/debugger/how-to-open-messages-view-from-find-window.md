@@ -1,5 +1,7 @@
 ---
-title: How to - Open Messages View from Find Window | Microsoft Docs
+title: Open Messages View from Find Window | Microsoft Docs
+description: Use the Find Window dialog box in Spy++ to select a target window, and then open a Messages view for that window.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords: 

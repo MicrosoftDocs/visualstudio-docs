@@ -1,5 +1,7 @@
 ---
-title: How to - Use Native Run-Time Checks | Microsoft Docs
+title: Use Native Run-Time Checks | Microsoft Docs
+description: Use native run-time checks in Visual Studio to catch common run-time errors, such as stack pointer corruption, overruns of local arrays, and stack corruption.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords: 
@@ -60,8 +62,6 @@ In a Visual Studio C++ project, you can use native [runtime_checks](/cpp/preproc
   Other topics in this section provide information about:
 
 - [Customizing Run-Time Checks with the C Run-Time Library](../debugger/native-run-time-checks-customization.md)
-
-- [Using Run-Time Checks without the C Run-Time Library](../debugger/using-run-time-checks-without-the-c-run-time-library.md)
 
 ### To enable native run-time checks in a debug build
 

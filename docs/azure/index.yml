@@ -47,18 +47,18 @@ landingContent:
     - linkListType: overview
       links:
         - text: Container development
-          url: /visualstudio/containers
+          url: ../containers/index.yml
         - text: Container tools in Visual Studio
-          url: /visualstudio/containers/overview
+          url: ../containers/overview.md
         - text: Kubernetes tools
-          url: /visualstudio/containers/tutorial-kubernetes-tools
+          url: ../containers/bridge-to-kubernetes.md
 
   - title: Debug Azure services and analyze performance
     linkLists:
     - linkListType: tutorial
       links:
         - text: Debug ASP.NET Core on IIS in Azure
-          url: /visualstudio/debugger/remote-debugging-azure
+          url: ../debugger/remote-debugging-azure.md
         - text: Debug a cloud service in Azure
           url: vs-azure-tools-intellitrace-debug-published-cloud-services.md
         - text: Debug an app running on a virtual machine
@@ -70,21 +70,20 @@ landingContent:
     linkLists:
     - linkListType: tutorial
       links:
-        - text: Azure Storage
-          url: vs-azure-tools-connected-services-storage.md
-        - text: Azure Key Vault
-          url: /azure/key-vault/vs-key-vault-add-connected-service
         - text: Azure Active Directory
           url: /azure/active-directory/develop/vs-active-directory-add-connected-service
-        - text: Cognitive Services - Text Analytics
-          url: /azure/cognitive-services/text-analytics/vs-text-connected-service
-        - text: Cognitive Services - Bing News Search
-          url: /azure/cognitive-services/bing-news-search/vs-bing-news-search-connected-service
-        - text: Cognitive Services - Face API
-          url: /azure/cognitive-services/face/vs-face-connected-service
-        - text: Cognitive Services - Computer Vision 
-          url: /azure/cognitive-services/computer-vision/vs-computer-vision-connected-service
-
+        - text: Azure Cache for Redis
+          url: azure-cache-for-redis-add-connected-service.md
+        - text: Azure CosmosDB
+          url: azure-cosmosdb-add-connected-service.md
+        - text: Azure Key Vault
+          url: /azure/key-vault/vs-key-vault-add-connected-service
+        - text: Azure SignalR
+          url: azure-signalr-add-connected-service.md
+        - text: Azure SQL Database
+          url: azure-sql-database-add-connected-service.md
+        - text: Azure Storage
+          url: vs-azure-tools-connected-services-storage.md
   - title: Azure Cloud Services
     linkLists:
     - linkListType: how-to-guide

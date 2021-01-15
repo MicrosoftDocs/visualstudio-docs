@@ -1,5 +1,7 @@
 ---
 title: "Walkthrough: Creating a SharePoint Project Extension | Microsoft Docs"
+description: Create a SharePoint project extension, which you can use to respond to project-level events, such as when a project is added, deleted, or renamed.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: how-to
 dev_langs:
@@ -122,7 +124,7 @@ ms.workload:
 
 1. In **Solution Explorer**, open the shortcut menu for the source.extension.vsixmanifest file, and then choose the **Open** button.
 
-     [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] opens the file in the manifest designer. The information that appears in the **Metadata** tab also appears in the **Extensions and Updates**. All VSIX packages require the extension.vsixmanifest file. For more information about this file, see [VSIX Extension Schema 1.0 Reference](https://msdn.microsoft.com/76e410ec-b1fb-4652-ac98-4a4c52e09a2b).
+     [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] opens the file in the manifest designer. The information that appears in the **Metadata** tab also appears in the **Extensions and Updates**. All VSIX packages require the extension.vsixmanifest file. For more information about this file, see [VSIX Extension Schema 1.0 Reference](/previous-versions/dd393700(v=vs.110)).
 
 2. In the **Product Name** box, enter **Custom Project Property**.
 

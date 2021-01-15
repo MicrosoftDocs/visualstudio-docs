@@ -1,7 +1,8 @@
 ---
-title: "Multicontainer tutorial using Docker Compose & ASP.NET Core"
+title: Work with multiple containers using Docker Compose
 author: ghogen
 description: Learn how to use multiple containers with Docker Compose
+ms.custom: SEO-VS-2020
 ms.author: ghogen
 ms.date: 01/10/2020
 ms.technology: vs-azure
@@ -39,17 +40,17 @@ Do not select **Enable Docker Support**. You'll add Docker support later.
 
 ::: moniker range="vs-2019"
 
-![Screenshot of creating the web project](./media/tutorial-multicontainer/vs-2019/new-aspnet-core-project1.png)
+![Screenshot of the Configure your new project screen for an ASP.NET Core Web Application, the Project name and Solution name fields are set to "WebFrontEnd".](./media/tutorial-multicontainer/vs-2019/new-aspnet-core-project1.png)
 
 Do not select **Enable Docker Support**. You'll add Docker support later.
 
-![Screenshot of creating the web project](./media/tutorial-multicontainer/vs-2019/new-aspnet-core-project.png)
+![Screenshot of the Create a new ASP.NET Core Web Application screen with Web Application selected. The option to Enable Docker Support is not selected.](./media/tutorial-multicontainer/vs-2019/new-aspnet-core-project.png)
 
 ::: moniker-end
 
 ## Create a Web API project
 
-Add a project to the same solution and call it *MyWebAPI*. Select **API** as the project type, and clear the checkbox for **Configure for HTTPS**. In this design, we're only using SSL for communication with the client, not for communication from between containers in the same web application. Only `WebFrontEnd` needs HTTPS and the code in the examples assumes that you have cleared that checkbox.
+Add a project to the same solution and call it *MyWebAPI*. Select **API** as the project type, and clear the checkbox for **Configure for HTTPS**. In this design, we're only using SSL for communication with the client, not for communication from between containers in the same web application. Only `WebFrontEnd` needs HTTPS and the code in the examples assumes that you have cleared that checkbox. In general, the .NET developer certificates used by Visual Studio are only supported for external-to-container requests, not for container-to-container requests.
 
 ::: moniker range="vs-2017"
    ![Screenshot of creating the Web API project](./media/tutorial-multicontainer/docker-tutorial-mywebapi.png)
@@ -80,7 +81,7 @@ Add a project to the same solution and call it *MyWebAPI*. Select **API** as the
    ```
    
     > [!NOTE]
-    > In real-world code, you shouldn't dispose `HttpClient` after every request. For best practices, see [Use HttpClientFactory to implement resilient HTTP requests](https://docs.microsoft.com/dotnet/architecture/microservices/implement-resilient-applications/use-httpclientfactory-to-implement-resilient-http-requests).
+    > In real-world code, you shouldn't dispose `HttpClient` after every request. For best practices, see [Use HttpClientFactory to implement resilient HTTP requests](/dotnet/architecture/microservices/implement-resilient-applications/use-httpclientfactory-to-implement-resilient-http-requests).
 
    For .NET Core 3.1 in Visual Studio 2019 or later, the Web API template uses a WeatherForecast API, so uncomment that line and comment out the line for ASP.NET 2.x.
 
@@ -189,4 +190,4 @@ Look at the options for deploying your [containers to Azure](/azure/containers).
 ## See also
   
 [Docker Compose](https://docs.docker.com/compose/)  
-[Container Tools](/visualstudio/containers/)
+[Container Tools](./index.yml)

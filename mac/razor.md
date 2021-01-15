@@ -43,10 +43,10 @@ Razor web apps include the following components.
 ### Pages folder
 
 This folder contains a project's webpages, along with the code-behind for each:
-   - A *\*.cshtml* file for the HTML markup and Razor syntax.
-   - A *\*.cshtml.cs* file for your C# code-behind for handling page events.
+- A *\*.cshtml* file for the HTML markup and Razor syntax.
+- A *\*.cshtml.cs* file for your C# code-behind for handling page events.
 
-Supporting files have names that begin with an underscore. For example, the _Layout.cshtml file configures UI elements common to all pages. This file sets up the navigation menu at the top of the page and the copyright notice at the bottom. For more information, see [Layout in ASP.NET Core](/aspnet/core/mvc/views/layout).
+Supporting files have names that begin with an underscore. For example, the *\_Layout.cshtml* file configures UI elements common to all pages. This file sets up the navigation menu at the top of the page and the copyright notice at the bottom. For more information, see [Layout in ASP.NET Core](/aspnet/core/mvc/views/layout).
 
 ### Launch settings
 

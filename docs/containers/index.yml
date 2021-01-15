@@ -30,9 +30,7 @@ landingContent:
           - text: Docker in Visual Studio
             url: container-tools.md
           - text: Running build tools in a container
-            url: /visualstudio/install/build-tools-container
-          - text: Visual Studio Tools for Kubernetes
-            url: tutorial-kubernetes-tools.md
+            url: ../install/build-tools-container.md
 
   # Card
   - title: Develop containerized apps
@@ -83,15 +81,11 @@ landingContent:
 
   - title: Kubernetes development
     linkLists:
-      - linkListType: tutorial
-        links:
-          - text: Visual Studio Tools for Kubernetes
-            url: tutorial-kubernetes-tools.md
       - linkListType: quickstart
         links:
-          - text: Use Local Process with Kubernetes with Visual Studio
-            url: local-process-kubernetes.md
+          - text: Use Bridge to Kubernetes with Visual Studio
+            url: bridge-to-kubernetes.md
       - linkListType: overview
         links:
-          - text: How Local Process with Kubernetes works
-            url: overview-local-process-kubernetes.md
+          - text: How Bridge to Kubernetes works
+            url: overview-bridge-to-kubernetes.md

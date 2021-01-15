@@ -60,10 +60,12 @@ landingContent:
             url: memory-usage-without-debugging2.md
           - text: .NET Object Allocation Tracking
             url: dotnet-alloc-tool.md
-          - text: GPU Usage (Direct3D)
-            url: gpu-usage.md
           - text: .NET Async
             url: analyze-async.md
+          - text: .NET Counters
+            url: dotnet-counters-tool.md  
+          - text: GPU Usage (Direct3D)
+            url: gpu-usage.md
           - text: Analyze resource consumption (XAML)
             url: application-timeline.md
 

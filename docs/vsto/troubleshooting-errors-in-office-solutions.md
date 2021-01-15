@@ -1,5 +1,7 @@
 ---
 title: "Troubleshoot errors in Office solutions"
+description: Learn how you can troubleshoot errors that may occur while you develop Microsoft Office solutions in Visual Studio.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "troubleshooting"
 f1_keywords:

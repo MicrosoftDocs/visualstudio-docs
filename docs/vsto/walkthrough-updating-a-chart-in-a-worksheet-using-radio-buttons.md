@@ -1,5 +1,7 @@
 ---
 title: "Update chart in worksheet using radio buttons"
+description: Learn the basics of using radio buttons on a Microsoft Excel worksheet to give the user a way to quickly switch between options.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -51,7 +53,7 @@ ms.workload:
 
 4. Add the following data to **Data for Chart** with cell A4 being the upper left corner, and E8 the lower right corner.
 
-   ||Q1|Q2|Q3|Q4|
+   |Region / Quarter|Q1|Q2|Q3|Q4|
    |-|--------|--------|--------|--------|
    |West|500|550|550|600|
    |East|600|625|675|700|

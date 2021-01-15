@@ -1,5 +1,7 @@
 ---
 title: "Create external list in SharePoint using business data"
+description: Create a model for the BDC service that returns information about contacts in a business database, then make an external list in SharePoint using this model.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: how-to
 dev_langs:
@@ -74,7 +76,7 @@ You need the following components to complete this walkthrough:
 
 2. Add a connection to the SQL Server AdventureWorks sample database.
 
-     For more information, see [Add/Modify Connection (Microsoft SQL Server)](https://msdn.microsoft.com/fa400910-26c3-4df7-b9d1-115e688b4ea3).
+     For more information, see [Add/Modify Connection (Microsoft SQL Server)](/previous-versions/dxb6fxah(v=vs.140)).
 
 3. In **Solution Explorer**, choose the project node.
 

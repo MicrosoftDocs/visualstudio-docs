@@ -1,6 +1,7 @@
 ---
 title: "Use dump files in the debugger | Microsoft Docs"
-ms.custom: "seodec18"
+description: A dump file is a snapshot of an executing app and loaded modules. Consider creating a dump file for situations where you don't have debug access to the app.
+ms.custom: "SEO-VS-2020, seodec18"
 ms.date: "11/05/2018"
 ms.topic: "conceptual"
 f1_keywords:
@@ -69,7 +70,7 @@ With [Just-In-Time Debugging](../debugger/just-in-time-debugging-in-visual-studi
 1. Browse to a path and select a name for the dump file, and then select **Save**.
 
 >[!NOTE]
->You can create dump files with any program that supports the Windows minidump format. For example, the **Procdump** command-line utility from [Windows Sysinternals](https://technet.microsoft.com/sysinternals/default) can create process crash dump files based on triggers or on demand. See [Requirements and limitations](../debugger/using-dump-files.md#BKMK_Requirements_and_limitations) for information about using other tools to create dump files.
+>You can create dump files with any program that supports the Windows minidump format. For example, the **Procdump** command-line utility from [Windows Sysinternals](/sysinternals/) can create process crash dump files based on triggers or on demand. See [Requirements and limitations](../debugger/using-dump-files.md#BKMK_Requirements_and_limitations) for information about using other tools to create dump files.
 
 ## <a name="BKMK_Open_a_dump_file"></a> Open a dump file
 

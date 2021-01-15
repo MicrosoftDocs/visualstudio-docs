@@ -20,7 +20,7 @@ After running the tool, you can see the function execution paths where objects a
 
 ## Setup
 
-1. Select **Alt+F2** to open the performance profiler in Visual Studio.
+1. Select **Alt+F2** to open the Performance Profiler in Visual Studio.
 
 1. Select the **.NET Object Allocation Tracking** check box.
 
@@ -114,11 +114,11 @@ The **Functions** view shows processes, modules, and functions that are allocati
 - The **Name** column shows processes as the highest-level nodes. Underneath processes are modules, and underneath modules are functions.
 - These columns show the same information as they do in the **Allocation** and **Call tree** views:
 
-   - **Total (Allocations)**
-   - **Self (Allocations)**
-   - **Total Size (Bytes)**
-   - **Self Size (Bytes)**
-   - **Average Size (Bytes)**
+  - **Total (Allocations)**
+  - **Self (Allocations)**
+  - **Total Size (Bytes)**
+  - **Self Size (Bytes)**
+  - **Average Size (Bytes)**
 
 ### Collection
 

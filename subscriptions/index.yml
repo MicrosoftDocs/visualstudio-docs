@@ -9,7 +9,7 @@ metadata:
   author: evanwindom
   ms.author: lank
   manager: lank
-  ms.date: 12/04/2019
+  ms.date: 10/09/2020
 
 highlightedContent:
   items:
@@ -68,9 +68,9 @@ tools:
     - title: Azure DevOps Services 
       imageSrc: https://docs.microsoft.com/media/logos/logo_vs-team-services.svg
       url: /azure/devops/
-    - title: Visual Studio Code
-      imageSrc: https://docs.microsoft.com/media/logos/logo_vs-code.svg
-      url: https://code.visualstudio.com/docs
+    - title: GitHub Enterprise
+      imageSrc: ../subscriptions/_img/index-page/GitHub-Mark.svg
+      url: ~/access-github.md
     - title: Visual Studio for Mac 
       imageSrc: https://docs.microsoft.com/media/logos/logo_vs-mac.svg
       url: /visualstudio/mac/ 
@@ -98,7 +98,7 @@ additionalContent:
             url: ~/vs-visual-studio-app-center.md
           - text: Azure DevOps Server and CAL
             url: ~/vs-vsts.md
-          - text: Office 365 Developer Subscription
+          - text: Microsoft 365 Developer Subscription
             url: ~/vs-office-dev.md
           - text: Windows Developer Account
             url: ~/vs-windows-dev.md

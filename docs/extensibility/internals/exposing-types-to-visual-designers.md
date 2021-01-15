@@ -1,5 +1,7 @@
 ---
 title: Exposing Types to Visual Designers | Microsoft Docs
+description: Learn how to expose class and type definitions, including those in custom tools, so that Visual Studio can make them available to visual designers.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -38,6 +40,6 @@ ms.workload:
      When a temporary PE is compiled, the only source file provided to the compiler is the custom tool output. Therefore, a custom tool that uses a temporary PE must generate output files that can be compiled independently of other files in the project.
 
 ## See also
-- [Introduction to the BuildManager object](https://msdn.microsoft.com/library/50080ec2-c1c9-412c-98ef-18d7f895e7fa)
+- [Introduction to the BuildManager object](/previous-versions/8f9kffa8(v=vs.140))
 - [Implement single-file generators](../../extensibility/internals/implementing-single-file-generators.md)
 - [Register single-file generators](../../extensibility/internals/registering-single-file-generators.md)
