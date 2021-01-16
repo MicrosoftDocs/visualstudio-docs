@@ -1,5 +1,7 @@
 ---
 title: "Cores View Logical Cores | Microsoft Docs"
+description: In Cores View every row in the timeline represents a logical core, and the rows are named Logical Core 0, Logical Core 1, etc. 
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:

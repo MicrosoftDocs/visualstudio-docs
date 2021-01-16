@@ -1,5 +1,7 @@
 ---
 title: "Controlling Data Collection | Microsoft Docs"
+description: Learn how to start and stop Profiling Tools data collection, and how to limit the objects for which profiling data is collected. This article is an overview.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:

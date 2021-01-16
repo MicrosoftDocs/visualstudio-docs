@@ -1,5 +1,7 @@
 ---
 title: "CPU and Windows Counters | Microsoft Docs"
+description: CPU (hardware) and Windows (software) counters provide performance data. Learn how to view them and how to collect data from them. 
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:
@@ -124,7 +126,7 @@ Using the [VSPerfCmd](../profiling/vsperfcmd.md) command line tool, you can list
 
 ## See also
 
-[Overviews](../profiling/overviews-performance-tools.md)
-[How to: Choose sampling events](../profiling/how-to-choose-sampling-events.md)
-[How to: Collect CPU counter data](../profiling/how-to-collect-cpu-counter-data.md)
-[How to: Collect Windows counter data](../profiling/how-to-collect-windows-counter-data.md)
+- [Overviews](../profiling/overviews-performance-tools.md)
+- [How to: Choose sampling events](../profiling/how-to-choose-sampling-events.md)
+- [How to: Collect CPU counter data](../profiling/how-to-collect-cpu-counter-data.md)
+- [How to: Collect Windows counter data](../profiling/how-to-collect-windows-counter-data.md)
