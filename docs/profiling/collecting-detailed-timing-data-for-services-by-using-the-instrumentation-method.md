@@ -1,5 +1,6 @@
 ---
 title: Profiler command line - Get timing data for a service
+description: Learn how to use the instrumentation method from the command line to collect detailed performance data for Windows services.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
