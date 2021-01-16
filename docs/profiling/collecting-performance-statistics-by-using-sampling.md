@@ -1,5 +1,6 @@
 ---
 title: Collecting perf statistics using sampling
+description: Use the Profiling Tools sampling method to find processor utilization issues. It is the suggested method for starting most performance investigations.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
@@ -39,7 +40,7 @@ You can specify additional options in the _Performance Session_**Property Pages*
 |On the **General** page, add .NET memory allocation and lifetime data collection, and specify naming details for the generated profiling data (.vsp) file.|- [Collecting .NET Memory Allocation and Lifetime Data](../profiling/collecting-dotnet-memory-allocation-and-lifetime-data.md)<br />- [How to: Set Performance Data File Name Options](../profiling/how-to-set-performance-data-file-name-options.md)|
 |On the **Sampling** page, change the sampling rate, change the sampling event from processor clock cycles to another processor performance counter, or change both..|- [How to: Choose Sampling Events](../profiling/how-to-choose-sampling-events.md)|
 |On the **Launch** page, specify the application to start and the start order if you have multiple .exe projects in your code solution.|- [Collecting tier interaction data](../profiling/collecting-tier-interaction-data.md)|
-|On the **Tier Interaction** page, add ADO.NET call information to the data collected in theprofiling run.|- [Collecting tier interaction data](../profiling/collecting-tier-interaction-data.md)|
+|On the **Tier Interaction** page, add ADO.NET call information to the data collected in the profiling run.|- [Collecting tier interaction data](../profiling/collecting-tier-interaction-data.md)|
 |On the **Windows Events** page, specify one or more Event Tracing for Windows (ETW) events to collect with the sampling data.|- [How to: Collect Event Tracing for Windows (ETW) Data](../profiling/how-to-collect-event-tracing-for-windows-etw-data.md)|
 |On the **Windows Counters** page, specify one or more operating system performance counters to add to the profiling data as marks.|- [How to: Collect Windows Counter Data](../profiling/how-to-collect-windows-counter-data.md)|
 |On the **Advanced** page, specify the version of the .NET Framework runtime to profile if your application modules use multiple versions. By default, the first version loaded is profiled.|- [How to: Specify the .NET Framework Runtime](../profiling/how-to-specify-the-dotnet-framework-runtime.md)|

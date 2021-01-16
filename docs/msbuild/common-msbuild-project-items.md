@@ -183,5 +183,4 @@ Represents assemblies whose namespaces should be imported by the Visual Basic co
 ## See also
 
 - [Common MSBuild project properties](../msbuild/common-msbuild-project-properties.md)
-- [MSBuild properties for .NET Core SDK projects](/dotnet/core/project-sdk/msbuild-props)
 - [Common MSBuild item metadata](common-msbuild-item-metadata.md)
