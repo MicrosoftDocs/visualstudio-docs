@@ -1,5 +1,7 @@
 ---
 title: "Command-Line Profiling of Services | Microsoft Docs"
+description: Learn how to use the Profiling Tools from the command line to collect performance data for Windows services.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:

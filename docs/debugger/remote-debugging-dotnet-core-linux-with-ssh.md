@@ -1,5 +1,7 @@
 ---
 title: "Debug .NET Core on Linux"
+description: Debug .NET Core on Linux using Secure Shell (SSH) by attaching to a process. Prepare your app for debugging. Build and deploy the app. Attach the debugger.
+ms.custom: SEO-VS-2020
 ms.date: "02/26/2020"
 ms.topic: "conceptual"
 helpviewer_keywords:

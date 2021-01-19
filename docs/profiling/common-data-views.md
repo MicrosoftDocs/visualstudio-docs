@@ -1,5 +1,7 @@
 ---
 title: "Common Data Views | Microsoft Docs"
+description: Consult this section for reference information about the views and reports of profiler data files that are common to all profiling methods. 
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:
