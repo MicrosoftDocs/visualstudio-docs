@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: e5768153-2758-46d3-a323-3272def213ee
-ms.date: 01/192021
+ms.date: 01/19/2021
 ms.topic: how-to
 description:  Learn about the CODE Magazine benefit included in your Visual Studio subscription.
 ---
