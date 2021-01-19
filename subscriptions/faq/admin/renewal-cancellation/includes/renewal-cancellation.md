@@ -20,7 +20,6 @@ You need to log in as the account admin and set the number of subscriptions for 
 4.	Locate the entry for the subscriptions you wish to cancel, and select **Change quantity**. This will take you the Visual Studio Marketplace where you will be able to update your purchase quantity. 
 5.	Set the quantity to zero (0). Your subscriptions will remain in place until their scheduled billing date, but will not renew when the billing date is reached.
 
-
 ### How long does it take for cancellations to take effect?
 With monthly cloud subscriptions, cancellations take effect the first day of the next month. If you only cancel some of your monthly cloud subscriptions, be sure to remove users on the first of the next month to ensure that the correct people continue to have active subscriptions assigned.
 
