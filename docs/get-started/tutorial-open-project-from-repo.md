@@ -50,7 +50,7 @@ If you haven't yet cloned a repo where your project is located, you can do so by
 
     You can either add your information or edit the default information it provides. Then, select **Save** to add the info to your global .gitconfig file. (You can also choose to do this later by selecting **Cancel**.)
 
-1. Next, Visual Studio opens the project from the repo.
+    Next, Visual Studio opens the project from the repo.
 
    ![Screenshot of a project in Git that's open in Solution Explorer](../ide/media/vs-2019/git-solution-explorer.png "Screenshot of a project in Git that's open in Solution Explorer.")
 
