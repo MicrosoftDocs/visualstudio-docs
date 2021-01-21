@@ -16,7 +16,7 @@ Starting with Visual Studio 2019 version 16.9 (currently in preview), you can wo
 
 ## Publish a Azure Cloud Service project using extended support
 
-You can use extended support to publish your existing Azure Cloud Service project using ARM, but you still retain the capability to publish using the classic method, with a few small steps to remove configuration associated with extended support. Before publishing to extended support, you might want to save an old version of the *.cscfg* file associated with your Azure Cloud Service project. See [Remove extended support](#remove-extended-support). In Visual Studio 2019 version 16.9 Preview 2 and later, classic cloud service projects have a special version of the **Publish** command, **Publish (extended support)**. This command appears on the shortcut menu in **Solution Explorer**.
+You can use extended support to publish your existing Azure Cloud Service project using ARM, but you still retain the capability to publish using the classic method. In Visual Studio 2019 version 16.9 Preview 3 and later, classic cloud service projects have a special version of the **Publish** command, **Publish (extended support)**. This command appears on the shortcut menu in **Solution Explorer**.
 
 There are some differences when you publish using extended support. For example, you are not asked if you are publishing to **Staging** or **Production**, because these deployment slots are not part of the extended support publishing model. Instead, with extended support services, you can set up multiple deployments, and swap deployments in the Azure Portal.
 
@@ -58,7 +58,7 @@ Before publishing a classic Azure Cloud Service using extended support, check th
 
 1. **Storage account** - Select the storage account to use for this deployment, or **Create new** to create a storage account. The region displays in parentheses for each storage account. It is recommended that the data center location for the storage account is the same as the data center location for the cloud service (Common Settings).
 
-   The Azure storage account stores the package for the application deployment. After the application is deployed, the package is removed from the storage account.
+   The Azure storage account stores the package for the application deployment.
 
 1. **Key vault** - Specify the key vault that contains the secrets for this cloud service. This is enabled if remote desktop is enabled, or if certificates are added to the configuration.
 
@@ -81,31 +81,13 @@ Before publishing a classic Azure Cloud Service using extended support, check th
    > [!Note]
    > The publishing profile appears in Solution Explorer in Visual Studio, and the profile settings are written to a file with an *.azurePubxml* extension. Settings are saved as attributes of XML tags.
 
-1. Once you configure all the settings for your project's deployment, select **Publish** at the bottom of the dialog. You can monitor the process status in the **Azure Activity Log** output window in Visual Studio.
+1. Once you configure all the settings for your project's deployment, select **Publish** at the bottom of the dialog. You can monitor the process status in the **Azure Activity Log** output window in Visual Studio. Choose the **Open in portal** link to 
 
 Congratulations! You've published your extended support cloud service project to Azure. To publish again with the same settings, you can reuse the publishing profile, or repeat these steps to create a new one. The ARM template and parameters used for deployment are saved in the *bin/\<configuration\>/Publish* folder.
 
 ## Clean up Azure resources
 
 To clean up the Azure resources you created by following this tutorial, go to the [Azure portal](https://portal.azure.com), choose **Resource groups**, find and open the resource group you used to create the service, and choose **Delete resource group**.
-
-## Remove extended support
-
-If you publish a classic Azure Cloud Service project using extended support, and then later want to publish again using the classic publishing method, follow these steps to remove any artifacts associated with extended support to return to your previous configuration.
-
-1. In the *.cscfg* file, remove the `NetworkConfiguration` element that was added by extended support.
-
-1. Right-click the Azure Cloud Service project node, and choose **Publish...**.
-
-1. Follow the steps in [Using the Visual Studio Publish Azure Application Wizard](vs-azure-tools-publish-azure-application-wizard.md).
-
-## Troubleshooting
-
-When using Azure Cloud Services (extended support), you might encounter these error messages.
-
-### The resource type could not be found in the namespace 'Microsoft.Compute' for api version '2020-10-01-preview'
-
-If you see this message, it means your Azure subscription has not enabled extended support. To publish an Azure Cloud Service using extended support, your Azure subscription must explicitly enable the preview feature. Follow these instructions to register extended support in your subscription: [Deploy Azure Cloud Services (extended support) using the Azure portal](/azure/cloud-services-extended-support/deploy-portal#register-the-feature-for-your-subscription).
 
 ## Next steps
 
