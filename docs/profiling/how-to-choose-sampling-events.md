@@ -1,5 +1,7 @@
 ---
 title: Choose Sampling Events | Microsoft Docs
+description: Learn how to set the sample event to meet your needs, and to set the number of cycles between samples. Available events include clock cycles and page faults.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords: 

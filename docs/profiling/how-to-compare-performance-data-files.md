@@ -1,5 +1,7 @@
 ---
 title: Compare Performance Data Files | Microsoft Docs
+description: Learn how to compare results of two different profiler data files (.vsp or .vsps) to find differences, performance regressions, and performance improvements.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords: 
