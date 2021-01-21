@@ -26,7 +26,7 @@ Before publishing a classic Azure Cloud Service using extended support, check th
 
 1. Cloud Services (extended support) is currently in preview. Register the feature for your subscription as follows:
 
-   ```powershell
+   ```azurepowershell-interactive
    Register-AzProviderFeature -FeatureName CloudServices -ProviderNamespace Microsoft.Compute
    ```
 
