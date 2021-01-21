@@ -42,7 +42,7 @@ See the [MSBuild](/visualstudio/msbuild/msbuild) content for more information on
 
 ## Building from Azure Pipelines
 
-* [Build your Xamarin App](/vsts/pipelines/apps/mobile/xamarin?view=vsts&tabs=vsts)
+* [Build your Xamarin App](/vsts/pipelines/apps/mobile/xamarin?view=vsts&preserve-view=true&tabs=vsts)
 * [Continuous Integration with Xamarin](https://developer.xamarin.com/guides/cross-platform/ci/)
 
 ## See also
