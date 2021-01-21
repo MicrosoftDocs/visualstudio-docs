@@ -17,4 +17,3 @@ ms.date: 01/12/2021
 
 [!INCLUDE [How do I purchase Visual Studio subscriptions?](includes/how-to-purchase.md)]
 
-[!INCLUDE [What are the licensing terms for Visual Studio subscriptions?](includes/licensing-terms.md)]
