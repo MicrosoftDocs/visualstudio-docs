@@ -1,5 +1,7 @@
 ---
 title: "Customizing Performance Tools Report Views | Microsoft Docs"
+description: See this section for ways to customize reports generated with Visual Studio Profiling Tools. 
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:
