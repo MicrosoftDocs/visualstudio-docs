@@ -1,5 +1,7 @@
 ---
 title: CrossSession | Microsoft Docs
+description: Learn how to use the VSPerfCmd.exe CrossSession option to allow the profiler to collect data from any console session. You must specify the Start option also.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 ms.assetid: b9fcb9c3-7903-478c-9b7c-dbd94092fcba
