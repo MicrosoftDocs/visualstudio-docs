@@ -108,7 +108,7 @@ But no matter which version you have installed, you can always open a project fr
 
 1. In the **Browse a repository** section, select **Azure DevOps**.
 
-    ![Screenshot of the 'Browse a repository' section of the The "Connect to a Project" dialog box](./media/browse-repository-azure-devops.png)
+    ![Screenshot of the 'Browse a repository' section of the The "Connect to a Project" dialog box](./media/vs-2019/browse-repository-azure-devops.png)
 
    If you see a sign-in window, sign in to your account.
 
