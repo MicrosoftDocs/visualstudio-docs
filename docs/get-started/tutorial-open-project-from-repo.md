@@ -28,11 +28,9 @@ How you open a project from a GitHub repo by using Visual Studio 2019 depends on
 
 But no matter which version you have installed, you can always open a project from a GitHub repo with Visual Studio.
 
-#### [16.8 and later](#tab/vs168)
+#### [16.8 and later](#tab/vs168later)
 
 #### Clone a GitHub repo and then open a project
-
-If you haven't yet cloned a repo where your project is located, you can do so by using the following procedure.
 
 1. Open Visual Studio 2019.
 
@@ -44,11 +42,11 @@ If you haven't yet cloned a repo where your project is located, you can do so by
 
    ![Screenshot of the Clone a Repository dialog where you enter a Git repo URL](../ide/media/vs-2019/clone-repository-enter-location.png "Screenshot of the Clone a Repository dialog where you enter a Git repo URL.")
 
-1. You might be asked for your user sign-in information in the **Git User Information** dialog box.
+1. You might be asked for your user sign-in information in the **Git User Information** dialog box. You can either add your information or edit the default information it provides.
 
    ![Screenshot of the Git User Information dialog where you enter or edit your account info](../ide/media/vs-2019/git-user-information-dialog.png "Screenshot of the Git User Information dialog where you enter or edit your account info.")
 
-    You can either add your information or edit the default information it provides. Then, select **Save** to add the info to your global .gitconfig file. (You can also choose to do this later by selecting **Cancel**.)
+    Select **Save** to add the info to your global .gitconfig file. (Or, you can choose to do this later by selecting **Cancel**.)
 
     Next, Visual Studio opens the project from the repo.
 
@@ -64,19 +62,15 @@ If you haven't yet cloned a repo where your project is located, you can do so by
 
 #### Open a project locally from a previously cloned GitHub repo
 
-If you've already cloned the GitHub repo where your project is located, here's how to open it:
-
 1. Step One
 
 1. Step Two
 
 1. Etc.
 
-#### [16.7 and earlier](#tab/vs167-)
+#### [16.7 and earlier](#tab/vs167earlier)
 
 #### Clone a GitHub repo and then open a project
-
-If you haven't yet cloned a repo where your project is located, you can do so by using the following procedure.
 
 1. Open Visual Studio 2019.
 
@@ -104,9 +98,7 @@ The user interface (UI) that you see when you open an Azure DevOps project by us
 
 But no matter which version you have installed, you can always open a project from an Azure DevOps repo with Visual Studio.
 
-#### [16.8 and later](#tab/vs168)
-
-You can either clone an Azure DevOps repo and open a project, or open a project locally from a previously cloned repo. Here's how.
+#### [16.8 and later](#tab/vs168later)
 
 #### Clone an Azure DevOps repo and then open a project
 
@@ -114,13 +106,19 @@ You can either clone an Azure DevOps repo and open a project, or open a project 
 
 1. On the start window, select **Clone a repository**.
 
+1. In the **Browse a repository** section, select **Azure DevOps**.
+
+    ![Screenshot of the 'Browse a repository' section of the The "Connect to a Project" dialog box](./media/browse-repository-azure-devops.png)
+
+   If you see a sign-in window, sign in to your account.
+
 #### Open a project locally from a previously cloned Azure DevOps repo
 
 1. Open Visual Studio 2019.
 
 1. On the start window, select **Open a Project or Solution**.
 
-#### [16.7 and earlier](#tab/vs167-)
+#### [16.7 and earlier](#tab/vs167earlier)
 
 1. Open Visual Studio 2019.
 
@@ -151,7 +149,7 @@ You can either clone an Azure DevOps repo and open a project, or open a project 
 
      Visual Studio opens **Solution Explorer**.
 
-1. Choose the **Solutions and Folders** link to search for a solution file  (specifically, a .sln file) to open.
+1. Choose the **Solutions and Folders** link to search for a solution file  (specifically, an .sln file) to open.
 
       ![The "Solutions and Folders" notification from Team Explorer in Visual Studio](./media/open-proj-repo-solutions-folders.png)
 
