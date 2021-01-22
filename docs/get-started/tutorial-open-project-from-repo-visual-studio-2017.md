@@ -2,7 +2,7 @@
 title: "Tutorial: Open a project from a repo in Visual Studio 2017"
 description: "Learn how to open a project in a Git or Azure DevOps repository by using Visual Studio 2017."
 ms.custom: "get-started"
-ms.date: 11/10/2020
+ms.date: 01/22/2021
 ms.technology: vs-ide-general
 ms.prod: visual-studio-windows
 ms.topic: tutorial
@@ -20,7 +20,8 @@ monikerRange: vs-2017
 
 In this tutorial, you'll use Visual Studio 2017 to connect to a repository for the first time and then open a project from it.
 
-If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download) page to install it for free.
+> [!NOTE]
+> If you'd like to try [Visual Studio 2019](https://visualstudio.microsoft.com/downloads), there's a new, more integrated way to connect to a GitHub repo. For more information, see the [New Git experience in Visual Studio 2019](git-with-visual-studio.md) page.
 
 ## Open a project from a GitHub repo by using Visual Studio 2017
 
