@@ -10,19 +10,19 @@ ms.date: 01/25/2021
 ms.author: ghogen
 monikerRange: ">=vs-2019"
 ---
-# Create and deploy Cloud Services (extended support) in Visual Studio (Preview)
+# Create and deploy to Cloud Services (extended support) in Visual Studio (Preview)
 
-Starting with Visual Studio 2019 version 16.9 (currently in preview), you can work with cloud services using Azure Resource Manager (ARM), which greatly simplifies and modernizes maintenance and management of Azure resources. This functionality is referred to as *extended support*. You can use extended support to publish an existing cloud service project. For information on this Azure service, see [Azure Cloud Services (extended support) documentation](/azure/cloud-services-extended-support).
+Starting with Visual Studio 2019 version 16.9 (currently in preview), you can work with cloud services using Azure Resource Manager (ARM), which greatly simplifies and modernizes maintenance and management of Azure resources. This is enabled by a new Azure service referred to as *Cloud Services (extended support)*. You can publish an existing cloud service to Cloud Services (extended support). For information on this Azure service, see [Cloud Services (extended support) documentation](/azure/cloud-services-extended-support).
 
-## Publish a Azure Cloud Service project using extended support
+## Publish a Azure cloud service (extended support)
 
-You can use extended support to publish your existing Azure Cloud Service project using ARM, but you still retain the capability to publish using the classic method. In Visual Studio 2019 version 16.9 Preview 3 and later, classic cloud service projects have a special version of the **Publish** command, **Publish (extended support)**. This command appears on the shortcut menu in **Solution Explorer**.
+When you publish your existing Azure Cloud Service project to the Cloud Services (extended support), you still retain the capability to publish to a classic Azure Cloud Service. In Visual Studio 2019 version 16.9 Preview 3 and later, classic cloud service projects have a special version of the **Publish** command, **Publish (extended support)**. This command appears on the shortcut menu in **Solution Explorer**.
 
-There are some differences when you publish using extended support. For example, you are not asked if you are publishing to **Staging** or **Production**, because these deployment slots are not part of the extended support publishing model. Instead, with extended support services, you can set up multiple deployments, and swap deployments in the Azure Portal.
+There are some differences when you publish to Cloud Services (extended support). For example, you are not asked if you are publishing to **Staging** or **Production**, because these deployment slots are not part of the extended support publishing model. Instead, with Cloud Services (extended support), you can set up multiple deployments, and swap deployments in the Azure Portal.
 
-Before publishing a classic Azure Cloud Service using extended support, check the storage accounts your project uses and make sure they are Storage V1 or Storage V2 accounts. The classic storage account types will fail with an error message at deploy time. Be sure to check the storage account used by diagnostics. To check the diagnostics storage account, see [Set up diagnostics for Azure Cloud Services and virtual machines](vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines.md). If your service uses a classic storage account, you can upgrade it; see [Upgrade to a general-purpose v2 storage account](/azure/storage/common/storage-account-upgrade?tabs=azure-portal).  For general information on the types of storage accounts, see [Storage account overview](/azure/storage/common/storage-account-overview).
+Before publishing a classic Azure Cloud Service to Cloud Services (extended support), check the storage accounts your project uses and make sure they are Storage V1 or Storage V2 accounts. The classic storage account types will fail with an error message at deploy time. Be sure to check the storage account used by diagnostics. To check the diagnostics storage account, see [Set up diagnostics for Azure Cloud Services and virtual machines](vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines.md). If your service uses a classic storage account, you can upgrade it; see [Upgrade to a general-purpose v2 storage account](/azure/storage/common/storage-account-upgrade?tabs=azure-portal).  For general information on the types of storage accounts, see [Storage account overview](/azure/storage/common/storage-account-overview).
 
-### To publish a classic Azure Cloud Service project using extended support
+### To publish a classic Azure Cloud Service project to Cloud Services (extended support)
 
 1. Cloud Services (extended support) is currently in preview. Register the feature for your subscription as follows:
 
@@ -40,15 +40,15 @@ Before publishing a classic Azure Cloud Service using extended support, check th
 
 1. **Account** - Select an account or select **Add an account** in the account dropdown list.
 
-1. **Choose your subscription** - Choose the subscription to use for your deployment. The subscription you use for deploying cloud services (extended support) needs to have Owner or Contributor roles assigned via ARM role-based access control (RBAC). If your subscription does not have any one of these roles, see [Steps to add a role assignment](/azure/role-based-access-control/role-assignments-steps) to add this before proceeding further.
+1. **Choose your subscription** - Choose the subscription to use for your deployment. The subscription you use for deploying to Cloud Services (extended support) needs to have Owner or Contributor roles assigned via ARM role-based access control (RBAC). If your subscription does not have any one of these roles, see [Steps to add a role assignment](/azure/role-based-access-control/role-assignments-steps) to add this before proceeding further.
 
 1. Choose **Next** to move to the **Settings** page.
 
    ![Common Settings](./media/cloud-services-extended-support/publish-settings.png)
 
-1. **Cloud service** - Using the dropdown, either select an existing cloud service (extended support), or select **Create new**, and create a cloud service. The data center displays in parentheses for each cloud service. It is recommended that the data center location for the cloud service be the same as the data center location for the storage account.
+1. **Cloud service** - Using the dropdown, either select an existing Cloud Services (extended support) service, or select **Create new**, and create one. The data center displays in parentheses for each cloud service. It is recommended that the data center location for the cloud service be the same as the data center location for the storage account.
 
-   If you choose to create a new cloud service, you'll see the **Create Cloud Service (extended support)** dialog. Specify the location and resource group you want to use for the cloud service.
+   If you choose to create a new service, you'll see the **Create Cloud Service (extended support)** dialog. Specify the location and resource group you want to use for the cloud service.
 
    ![Create a cloud service with extended support](./media/cloud-services-extended-support/extended-support-dialog.png)
 
@@ -70,7 +70,7 @@ Before publishing a classic Azure Cloud Service using extended support, check th
 
    ![Diagnostics settings](./media/cloud-services-extended-support/diagnostics-settings.png)
 
-   Diagnostics enables you to troubleshoot an Azure Cloud Service (or Azure virtual machine). For information about diagnostics, see [Configuring Diagnostics for Azure Cloud Services and Virtual Machines](./vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines.md). For information about Application Insights, see [What is Application Insights?](/azure/application-insights/app-insights-overview).
+   Diagnostics enables you to troubleshoot an Azure cloud service (or Azure virtual machine). For information about diagnostics, see [Configuring Diagnostics for Azure Cloud Services and Virtual Machines](./vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines.md). For information about Application Insights, see [What is Application Insights?](/azure/application-insights/app-insights-overview).
 
 1. Choose **Next** to move to the **Summary** page.
 
