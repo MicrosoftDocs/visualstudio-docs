@@ -1,5 +1,6 @@
 ---
 title: "Timer | Microsoft Docs"
+description: Learn how the VSPerfCmd.exe Timer option sets the profiling event that is sampled to processor clock cycles.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 ms.assetid: 1971868e-89fa-4452-8ee7-76e4daf31b66

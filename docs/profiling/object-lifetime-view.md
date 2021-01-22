@@ -1,5 +1,6 @@
 ---
 title: "Object Lifetime View | Microsoft Docs"
+description: Learn how the Object Lifetime view is available when Also collect .NET object lifetime data is checked on the Performance Session property pages.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:

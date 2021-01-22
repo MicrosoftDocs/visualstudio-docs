@@ -1,5 +1,6 @@
 ---
 title: "Performance Report Overview | Microsoft Docs"
+description: View the profiling data in the Performance Report window of the Visual Studio Team System Development Edition integrated development environment.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:

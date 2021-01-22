@@ -1,5 +1,6 @@
 ---
 title: "Profiling Tools Usage Rules | Microsoft Docs"
+description: Learn how Performance rules in the Profiling Tools Usage category provide guidance for using the profiler to collect data most effectively.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 ms.assetid: afa7db3b-8c1d-473a-81ac-24ede112a17f

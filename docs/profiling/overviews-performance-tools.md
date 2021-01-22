@@ -1,5 +1,6 @@
 ---
 title: "Overviews (Performance Tools) | Microsoft Docs"
+description: Learn concepts and terminology for Visual Studio Profiling Tools. Use the information to measure the performance characteristics of an application under development.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 ms.assetid: b877802d-c736-4047-821a-bd7733fff6de

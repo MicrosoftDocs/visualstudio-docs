@@ -1,5 +1,6 @@
 ---
 title: Set Performance Data File Name Options | Microsoft Docs
+description: Learn how you can change any naming parameter on the General page of the properties dialog box for the performance session.
 ms.date: 11/04/2016
 ms.topic: how-to
 ms.assetid: d7a8d6b9-ab23-46fb-98ed-774781157860

@@ -1,5 +1,6 @@
 ---
 title: "Performance Explorer Window | Microsoft Docs"
+description: Learn how the Performance Explorer window in the Visual Studio IDE enables you to configure performance sessions by using the Visual Studio Profiling Tools.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:

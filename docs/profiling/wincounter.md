@@ -1,5 +1,6 @@
 ---
 title: WinCounter | Microsoft Docs
+description: Learn about the WinCounter option, specifically that it specifies a Windows or application performance counter to collect at set intervals during the profile run.
 ms.date: 11/04/2016
 ms.topic: reference
 ms.assetid: ff319ffc-f249-4c3f-9eb2-06e392e3ae80
