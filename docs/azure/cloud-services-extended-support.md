@@ -46,7 +46,7 @@ Before publishing a classic Azure Cloud Service to Cloud Services (extended supp
 
    ![Common Settings](./media/cloud-services-extended-support/publish-settings.png)
 
-1. **Cloud service** - Using the dropdown, either select an existing Cloud Services (extended support) service, or select **Create new**, and create one. The data center displays in parentheses for each cloud service. It is recommended that the data center location for the cloud service be the same as the data center location for the storage account.
+1. **Cloud service** - Using the dropdown, either select an existing Cloud Services (extended support) service, or select **Create new**, and create one. The data center displays in parentheses for each cloud service. It is recommended that the data center location for the cloud service (extended support) be the same as the data center location for the storage account.
 
    If you choose to create a new service, you'll see the **Create Cloud Service (extended support)** dialog. Specify the location and resource group you want to use for the cloud service.
 
@@ -60,7 +60,7 @@ Before publishing a classic Azure Cloud Service to Cloud Services (extended supp
 
    The Azure storage account stores the package for the application deployment.
 
-1. **Key vault** - Specify the key vault that contains the secrets for this cloud service. This is enabled if remote desktop is enabled, or if certificates are added to the configuration.
+1. **Key vault** - Specify the key vault that contains the secrets for this cloud service (extended support). This is enabled if remote desktop is enabled, or if certificates are added to the configuration.
 
 1. **Enable Remote Desktop for all roles** - Select this option if you want to be able to remotely connect to the service. You'll be asked to specify credentials.
 
@@ -70,7 +70,7 @@ Before publishing a classic Azure Cloud Service to Cloud Services (extended supp
 
    ![Diagnostics settings](./media/cloud-services-extended-support/diagnostics-settings.png)
 
-   Diagnostics enables you to troubleshoot an Azure cloud service (or Azure virtual machine). For information about diagnostics, see [Configuring Diagnostics for Azure Cloud Services and Virtual Machines](./vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines.md). For information about Application Insights, see [What is Application Insights?](/azure/application-insights/app-insights-overview).
+   Diagnostics enables you to troubleshoot an Azure cloud service (extended support).  For information about diagnostics, see [Configuring Diagnostics for Azure Cloud Services and Virtual Machines](./vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines.md). For information about Application Insights, see [What is Application Insights?](/azure/application-insights/app-insights-overview).
 
 1. Choose **Next** to move to the **Summary** page.
 
@@ -83,7 +83,7 @@ Before publishing a classic Azure Cloud Service to Cloud Services (extended supp
 
 1. Once you configure all the settings for your project's deployment, select **Publish** at the bottom of the dialog. You can monitor the process status in the **Azure Activity Log** output window in Visual Studio. Choose the **Open in portal** link to 
 
-Congratulations! You've published your extended support cloud service project to Azure. To publish again with the same settings, you can reuse the publishing profile, or repeat these steps to create a new one. The ARM template and parameters used for deployment are saved in the *bin/\<configuration\>/Publish* folder.
+Congratulations! You've published your cloud service (extended support) project to Azure. To publish again with the same settings, you can reuse the publishing profile, or repeat these steps to create a new one. The ARM template and parameters used for deployment are saved in the *bin/\<configuration\>/Publish* folder.
 
 ## Clean up Azure resources
 
