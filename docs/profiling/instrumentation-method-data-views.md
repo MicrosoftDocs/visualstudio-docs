@@ -45,7 +45,7 @@ This section contains reference information for the views and reports of profile
 
 - [Process View](../profiling/process-view.md)
 
- Lists process start, end, and lifetime time for all processes that wer profiled.
+ Lists process start, end, and lifetime time for all processes that were profiled.
 
 ## Related sections
 - [Sampling method data views](../profiling/profiler-sampling-method-data-views.md)
