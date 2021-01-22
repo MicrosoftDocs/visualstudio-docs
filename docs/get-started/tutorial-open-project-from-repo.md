@@ -36,42 +36,41 @@ But no matter which version you have installed, you can always open a project fr
 
 1. On the start window, select **Clone a repository**.
 
-   ![Screenshot of the Clone a Repository dialog](../ide/media/vs-2019/clone-repository.png)
+   ![Screenshot of the Clone a Repository dialog in Visual Studio 2019 version 16.8 and later](../ide/media/vs-2019/clone-repository.png)
 
 1. Enter or type the repository location, and then select **Clone**.
 
-   ![Screenshot of the Clone a Repository dialog where you enter a Git repo URL](../ide/media/vs-2019/clone-repository-enter-location.png)
+   ![Screenshot of the Clone a Repository dialog where you enter a Git repo URL in Visual Studio 2019 version 16.8 and later](../ide/media/vs-2019/clone-repository-enter-location.png)
 
 1. You might be asked for your user sign-in information in the **Git User Information** dialog box. You can either add your information or edit the default information it provides.
 
-   ![Screenshot of the Git User Information dialog where you enter or edit your account info](../ide/media/vs-2019/git-user-information-dialog.png)
+   ![Screenshot of the Git User Information dialog where you enter or edit your account info in Visual Studio 2019 version 16.8 and later](../ide/media/vs-2019/git-user-information-dialog.png)
 
     Select **Save** to add the info to your global .gitconfig file. (Or, you can choose to do this later by selecting **Cancel**.)
 
     Next, Visual Studio opens the project from the repo.
 
-   ![Screenshot of a project in Git that's open in Solution Explorer](../ide/media/vs-2019/git-solution-explorer.png )
+   ![Screenshot of a project in Git that's open in Solution Explorer in Visual Studio 2019 version 16.8 and later](../ide/media/vs-2019/git-solution-explorer.png )
 
 1. If you have a solution file available, you can view it specifically by selecting the **Switch Views** button in Solution Explorer.
 
-   ![Screenshot of a project in Git that's open in Solution Explorer, with the Switch Views button highlighted](../ide/media/vs-2019/git-solution-explorer-switch-views.png)
+   ![Screenshot of a project in Git that's open in Solution Explorer, with the Switch Views button highlighted in Visual Studio 2019 version 16.8 and later](../ide/media/vs-2019/git-solution-explorer-switch-views.png)
 
    The Solution Explorer in Visual Studio switches to the solution view.
 
-   ![Screenshot of the .sln file in Git that's open in Solution Explorer, after you've selected the Switch Views button](../ide/media/vs-2019/git-solution-explorer-view-solution.png)
+   ![Screenshot of the .sln file in Git that's open in Solution Explorer, after you've selected the Switch Views button in Visual Studio 2019 version 16.8 and later](../ide/media/vs-2019/git-solution-explorer-view-solution.png)
 
-    To toggle the view, select the **Switch Views** button in Solution Explorer again.
+    To toggle the view, select the **Switch Views** button again.
 
 #### Open a project locally from a previously cloned GitHub repo
 
 1. Open Visual Studio 2019
 
-1. On the start window, select **Open project from **
-1.
-1.
-1. open-local-project-from-cloned-repo
+1. On the start window, select **Open a project or solution**.
 
-1. Etc.
+    Or, if you've opened this project recently, select it from the **Open recent** section.
+
+   ![Screenshot of the 'Open a project or solution' window in Visual Studio 2019 version 16.8 and later](../ide/media/vs-2019/open-local-project-from-cloned-repo.png)
 
 #### [16.7 and earlier](#tab/vs167earlier)
 
@@ -81,17 +80,17 @@ But no matter which version you have installed, you can always open a project fr
 
 1. On the start window, select **Clone or check out code**.
 
-   ![Screenshot of the 'Create a new project' window](../get-started/media/vs-2019/clone-checkout-code-dark.png)
+   ![Screenshot of the 'Create a new project' window in Visual Studio 2019 version 16.7 and earlier](../get-started/media/vs-2019/clone-checkout-code-dark.png)
 
 1. Enter or type the repository location, and then select **Clone**.
 
-   ![Screenshot of the 'Clone or checkout code' window](../get-started/media/vs-2019/clone-checkout-code-git-repo-dark.png)
+   ![Screenshot of the 'Clone or checkout code' window in Visual Studio 2019 version 16.7 and earlier](../get-started/media/vs-2019/clone-checkout-code-git-repo-dark.png)
 
    Visual Studio opens the project from the repo.
 
 1. If you have a solution file available, it will appear in the "Solutions and Folders" fly-out menu. Choose it, and Visual Studio opens your solution.
 
-   ![Screenshot of the Solution Explorer drop-down list](../ide/media/vs-2019/open-proj-repo-github-solutions-folders-picker.png)
+   ![Screenshot of the Solution Explorer drop-down list in Visual Studio 2019 version 16.7 and earlier](./media/open-proj-repo-github-solutions-folders-picker.png)
 
    If you do not have a solution file (specifically, an .sln file) in your repo, the fly-out menu will say "No Solutions Found." However, you can double-click any file from the folder menu to open it in the Visual Studio code editor.
 
@@ -113,7 +112,7 @@ But no matter which version you have installed, you can always open a project fr
 
 1. In the **Browse a repository** section, select **Azure DevOps**.
 
-    ![Screenshot of the 'Browse a repository' section of the The "Connect to a Project" dialog box](../ide/media/vs-2019/browse-repository-azure-devops.png)
+    ![Screenshot of the 'Browse a repository' section of the The "Connect to a Project" dialog box in Visual Studio 2019 version 16.8 and and later](../ide/media/vs-2019/browse-repository-azure-devops.png)
 
    If you see a sign-in window, sign in to your account.
 
