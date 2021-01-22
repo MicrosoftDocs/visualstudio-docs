@@ -46,7 +46,7 @@ Before publishing a classic Azure Cloud Service to Cloud Services (extended supp
 
    ![Common Settings](./media/cloud-services-extended-support/publish-settings.png)
 
-1. **Cloud service** - Using the dropdown, either select an existing cloud service (extended support), or select **Create new**, and create one. The data center displays in parentheses for each cloud service (extended support). It is recommended that the data center location for the cloud service (extended support) be the same as the data center location for the storage account.
+1. **Cloud Service (extended support)** - Using the dropdown, either select an existing cloud service (extended support), or select **Create new**, and create one. The data center displays in parentheses for each cloud service (extended support). It is recommended that the data center location for the cloud service (extended support) be the same as the data center location for the storage account.
 
    If you choose to create a new service, you'll see the **Create Cloud Service (extended support)** dialog. Specify the location and resource group you want to use for the cloud service (extended support).
 
