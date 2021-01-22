@@ -1,5 +1,6 @@
 ---
 title: "Specifying path to profiling command-line tools"
+description: Specify the path to profiling tools command-line tools when the path of Profiling Tools command-line tools is not added to the PATH environment variable. 
 ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"

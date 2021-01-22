@@ -1,5 +1,6 @@
 ---
 title: "Markers Report | Microsoft Docs"
+description: Learn how the Markers Report lists the markers in the displayed time frame, and how panning or zooming might cause markers to appear or disappear.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:

@@ -1,5 +1,6 @@
 ---
 title: "Performance rules by ID | Microsoft Docs"
+description: "Learn about performance rules by ID, including DA0001: Use StringBuilder for concatenations and DA0011: Expensive CompareTo."
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 ms.assetid: 9a1c934c-4798-4df9-a8ef-eb17ef06b6a2

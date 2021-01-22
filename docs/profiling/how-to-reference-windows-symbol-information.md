@@ -1,5 +1,6 @@
 ---
 title: Reference Windows Symbol Information | Microsoft Docs
+description: Learn how the Visual Studio Profiling Tools use symbol (.pdb) files to resolve symbolic names such as function names in program binaries.
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords: 

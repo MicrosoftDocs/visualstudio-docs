@@ -1,5 +1,6 @@
 ---
 title: "ResumeProfile | Microsoft Docs"
+description: Learn how the ResumeProfile method decrements the Suspend/Resume counter for the specified profiling level.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:

@@ -1,5 +1,6 @@
 ---
 title: "Threads view in the Concurrency Visualizer | Microsoft Docs"
+description: Learn that in the Threads view, you can identify which threads are executing code during an execution segment.
 ms.date: "11/04/2018"
 ms.topic: "conceptual"
 f1_keywords:

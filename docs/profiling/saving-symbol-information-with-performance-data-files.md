@@ -1,5 +1,6 @@
 ---
 title: "Saving Symbol Information with Performance Data Files | Microsoft Docs"
+description: Learn how you can set the performance project settings to save or serialize symbols in your report file.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:

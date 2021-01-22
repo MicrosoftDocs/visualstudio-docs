@@ -1,5 +1,6 @@
 ---
 title: "Measure Mode On-Off | Microsoft Docs"
+description: Learn how you can use the Measure Mode On-Off tool to precisely measure a length of time in the timeline.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:

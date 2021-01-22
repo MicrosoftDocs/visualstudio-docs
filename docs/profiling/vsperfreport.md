@@ -1,5 +1,6 @@
 ---
 title: VSPerfReport | Microsoft Docs
+description: Learn that the VSPerfReport command-line tool is used to create reports using Visual Studio Profiling Tools profiling data files.
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords: 
