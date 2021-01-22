@@ -14,7 +14,7 @@ monikerRange: ">=vs-2019"
 
 Starting with Visual Studio 2019 version 16.9 (currently in preview), you can work with cloud services using Azure Resource Manager (ARM), which greatly simplifies and modernizes maintenance and management of Azure resources. This is enabled by a new Azure service referred to as *Cloud Services (extended support)*. You can publish an existing cloud service to Cloud Services (extended support). For information on this Azure service, see [Cloud Services (extended support) documentation](/azure/cloud-services-extended-support).
 
-## Publish a Azure cloud service (extended support)
+## Publish to Cloud Services (extended support)
 
 When you publish your existing Azure Cloud Service project to the Cloud Services (extended support), you still retain the capability to publish to a classic Azure Cloud Service. In Visual Studio 2019 version 16.9 Preview 3 and later, classic cloud service projects have a special version of the **Publish** command, **Publish (extended support)**. This command appears on the shortcut menu in **Solution Explorer**.
 
