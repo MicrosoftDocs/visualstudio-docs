@@ -191,7 +191,7 @@
     - name: Open a project from a repo in Visual Studio 2017
       href: get-started/tutorial-open-project-from-repo-visual-studio-2017.md
     - name: Open a project from a repo in Visual Studio
-      href: get-started/tutorial-open-project-from-repo-visual-studio.md
+      href: get-started/tutorial-open-project-from-repo.md
     - name: Port, migrate, and upgrade projects
       href: porting/port-migrate-and-upgrade-visual-studio-projects.md
     - name: Manage project and solution properties
