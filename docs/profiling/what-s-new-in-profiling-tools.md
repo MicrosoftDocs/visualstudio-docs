@@ -1,5 +1,6 @@
 ---
 title: "What's New in Profiling in Visual Studio 2017 | Microsoft Docs"
+description: Learn that Diagnostics Tools include new visualizations to help you identify issues in your app that need fixing.
 titleSuffix: ""
 ms.date: "11/04/2016"
 ms.topic: "conceptual"

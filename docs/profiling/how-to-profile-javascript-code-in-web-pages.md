@@ -1,5 +1,6 @@
 ---
 title: Profile JavaScript Code in Web Pages | Microsoft Docs
+description: Learn how Visual Studio Profiling Tools can collect performance data for JavaScript code by using the instrumentation profiling method.
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords: 

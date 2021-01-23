@@ -1,5 +1,6 @@
 ---
 title: "Lines View | Microsoft Docs"
+description: Learn how the Lines view is available only for profiler data that was collected by using the sampling method.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:

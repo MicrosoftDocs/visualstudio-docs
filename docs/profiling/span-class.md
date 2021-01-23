@@ -1,5 +1,6 @@
 ---
 title: "span Class | Microsoft Docs"
+description: Learn about the span class and how it defines a phase of the application. Also learn about the span class public constructors and inheritance hierarchy.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:

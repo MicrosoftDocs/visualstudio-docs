@@ -1,5 +1,6 @@
 ---
 title: "UI Processing Time | Microsoft Docs"
+description: Learn that the segments in the timeline are associated with blocking times that are categorized as UI Processing.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:

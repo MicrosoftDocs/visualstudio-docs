@@ -1,5 +1,6 @@
 ---
 title: "Thread Details View - Contention Data | Microsoft Docs"
+description: Learn how the Thread Details view presents a timeline graph of the blocking events in the selected thread of a profiling run.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:

@@ -1,5 +1,6 @@
 ---
 title: VSPerfCmd | Microsoft Docs
+description: Learn how the VSPerfCmd.exe tool is used to start and stop performance data collection. Also learn about various VSPerfCmd tool options.
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords: 
