@@ -1,5 +1,7 @@
 ---
 title: Profiler command line - Instrument client .NET component, get time data
+description: Learn how to use the Visual Studio Profiling Tools command-line tools to collect timing data for a .NET Framework component of a stand-alone application.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 ms.assetid: b7dcc27b-45c6-4302-9552-6fa5b1e94b56
@@ -51,7 +53,7 @@ This topic describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprv
    | Option | Description |
    | - | - |
    | [/user](../profiling/user-vsperfcmd.md) **:**[`Domain`**\\**]`UserName` | Specifies the domain and user name of the account that owns the profiled process. This option is required only if the process is running as a user other than the logged-on user. The process owner is listed in the **User Name** column on the **Processes** tab of Windows Task Manager. |
-   | [/crosssession](../profiling/crosssession.md) | Enables profiling of processes in other sessions. This option is required if the ASP.NET application is running in a different session. The session idenitifier is listed in the **Session ID** column on the **Processes** tab of Windows Task Manager. **/CS** can be specified as an abbreviation for **/crosssession**. |
+   | [/crosssession](../profiling/crosssession.md) | Enables profiling of processes in other sessions. This option is required if the ASP.NET application is running in a different session. The session identifier is listed in the **Session ID** column on the **Processes** tab of Windows Task Manager. **/CS** can be specified as an abbreviation for **/crosssession**. |
    | [/globaloff](../profiling/globalon-and-globaloff.md) | Starts the profiler with data collection paused. Use [/globalon](../profiling/globalon-and-globaloff.md) to resume profiling. |
    | [/counter](../profiling/counter.md) **:** `Config` | Collects information from the processor performance counter that is specified in `Config`. Counter information is added to the data that is collected at each profiling event. |
    | [/wincounter](../profiling/wincounter.md) **:** `WinCounterPath` | Specifies a Windows performance counter to be collected during profiling. |

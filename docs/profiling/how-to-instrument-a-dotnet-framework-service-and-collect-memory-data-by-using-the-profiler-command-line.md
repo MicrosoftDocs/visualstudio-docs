@@ -1,5 +1,7 @@
 ---
 title: Profiler command line - Instrument .NET service, get memory data
+description: Learn how to use the Visual Studio Profiling Tools command-line tools to collect memory allocation and object lifetime data for a .NET Framework service.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 ms.assetid: 2fa072fc-05fe-4420-99c0-51d2ea3ac4ce
