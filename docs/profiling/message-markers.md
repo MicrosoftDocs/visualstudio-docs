@@ -1,5 +1,6 @@
 ---
 title: "Message Markers | Microsoft Docs"
+description: Learn how you can export messages to a text file for use with other tools and rest the pointer on a message in the Concurrency Visualizer to view the message string.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:

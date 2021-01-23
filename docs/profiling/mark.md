@@ -1,5 +1,6 @@
 ---
 title: Mark | Microsoft Docs
+description: Learn how the VSPerfCmd.exe Mark option inserts the specified information into the profiling data file.
 ms.date: 11/04/2016
 ms.topic: reference
 ms.assetid: 1d72cef3-bb09-4bbb-8864-6ea0ab623ff9

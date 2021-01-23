@@ -1,5 +1,6 @@
 ---
 title: "TargetCLR | Microsoft Docs"
+description: Learn how the TargetCLR option specifies the version of the common language run-time to profile when more than one version of the CLR is loaded in an application.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 ms.assetid: f9732480-287f-40f1-a4ff-b112e143b940

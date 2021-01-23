@@ -1,5 +1,6 @@
 ---
 title: Specify symbol file locations from command line
+description: Learn how the VSPerfReport command-line tool requires access to the symbol (.pdb) files to display symbol information such as function names and line numbers. 
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to

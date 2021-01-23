@@ -1,5 +1,6 @@
 ---
 title: "Setting General Performance Session Options | Microsoft Docs"
+description: Learn how you can set the collection method and profiling data naming conventions for a Profiling Tools performance session.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:

@@ -1,5 +1,6 @@
 ---
 title: Relocate Instrumented Binaries | Microsoft Docs
+description: Learn how probes are inserted into the binary to measure application performance during instrumentation.
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords: 

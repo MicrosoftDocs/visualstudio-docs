@@ -1,5 +1,6 @@
 ---
 title: "Memory and Paging Performance Rules | Microsoft Docs"
+description: Learn how performance rules in the memory and paging category identify paging activity in a profiling run that can impact application performance and responsiveness.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 ms.assetid: f37972b2-efe4-4a1c-a5d1-a246ccd76817

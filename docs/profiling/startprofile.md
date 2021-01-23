@@ -1,5 +1,6 @@
 ---
 title: "StartProfile | Microsoft Docs"
+description: Learn about the StartProfile function and how it sets the counter to 1 (on) for the specified profiling level.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:

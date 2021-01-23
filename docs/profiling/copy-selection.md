@@ -1,5 +1,7 @@
 ---
 title: "Copy Selection | Microsoft Docs"
+description: To copy the entire call stack from the report tab, click Copy. You can then paste the call stack in any program that supports that action.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:

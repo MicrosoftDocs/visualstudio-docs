@@ -1,5 +1,6 @@
 ---
 title: "Modules View - .NET Memory Sampling Data | Microsoft Docs"
+description: Learn about the Modules view of .NET memory allocation data that is collected by using the sampling method.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:

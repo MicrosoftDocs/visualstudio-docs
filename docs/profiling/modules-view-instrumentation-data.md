@@ -1,5 +1,6 @@
 ---
 title: "Modules View - Instrumentation Data | Microsoft Docs"
+description: Learn how the Modules view displays performance data that is grouped by the modules that were in the profiling data.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:

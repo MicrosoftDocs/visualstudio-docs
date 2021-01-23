@@ -1,5 +1,6 @@
 ---
 title: Specify Additional Instrumentation Options | Microsoft Docs
+description: Learn how you can instrument binaries from using the Visual Studio IDE or by using command line tools.
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords: 

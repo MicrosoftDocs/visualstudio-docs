@@ -1,5 +1,6 @@
 ---
 title: "Unblocking Stack | Microsoft Docs"
+description: Learn how the call stack for the thread that did the unblocking is shown in the tab after it was unblocked by another thread in the current process.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:
