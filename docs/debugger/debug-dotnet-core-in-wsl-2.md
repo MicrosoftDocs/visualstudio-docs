@@ -12,6 +12,7 @@ manager: jillfra
 ms.workload:
   - "multiple"
 ---
+
 # Debug .NET Core Apps in WSL 2 with Visual Studio
 
 Are you a .NET Core developer who loves working in Windows and Visual Studio, but needs to test your app in Linux? Are you a cross-platform developer that needs an easy way to test more of your target environments? Have you already discovered the benefits of WSL 2, but need a way to integrate it into your inner loop? Have I got an extension for you! The [.NET Core Debugging with WSL 2 – Preview extension](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.Dot-Net-Core-Debugging-With-Wsl2) gives you the ability to run and debug your .NET Core apps in WSL 2 without leaving Visual Studio.
@@ -22,7 +23,7 @@ For a Windows .NET user targeting Linux, WSL 2 lives in a sweet spot between pro
 
 You don’t have to choose just one! You can have a launch profile for Docker and WSL 2 in the same project and pick whichever is appropriate for a particular run. And once your app is deployed, you can always use the Remote Debugger to attach to it if there is an issue.
 
-## Getting Started with .NET Core Debugging with WSL 2 – Preview
+## Get Started with .NET Core Debugging with WSL 2 – Preview
 
 Before using the extension, be sure to install WSL 2 and the distribution of your choice. After you have installed the extension, when you open an ASP.NET Core web app or .NET Core console app in Visual Studio, you’ll see a new Launch Profile named WSL 2:
 
@@ -48,7 +49,7 @@ Once the new profile is selected, the extension checks that your WSL 2 distribut
 >[!NOTE]
 > Only Ubuntu and Debian have been tested and are supported. Other distributions supported by .NET Core should work but require manually installing the .NET Core Runtime and Curl.
 
-## Using a specific distribution
+## Choose a specific distribution
 
 By default, the WSL 2 launch profile will use the default distribution as set in wsl.exe. If you want your launch profile to target a specific distribution, regardless of that default, you can modify your launch profile. For example, if you are debugging a web app and want to test it on Ubuntu 20.04, your launch profile would look like:
 
@@ -65,7 +66,7 @@ By default, the WSL 2 launch profile will use the default distribution as set in
 }
 ```
 
-## Targeting multiple distributions
+## Target multiple distributions
 
 Going one step further, if you are working on an application that needs to run in multiple distributions and you want a quick way to test on each of them, you can have multiple launch profiles. For instance, if you need to test your console app on Debian, Ubuntu 18.04, and Ubuntu 20.04, you could use the following launch profiles:
 
@@ -88,9 +89,24 @@ With these launch profiles, you can easily switch back and forth between your ta
 
 ![Multiple WSL 2 launch profiles in the launch profile list](media/linux-wsl2-debugging-switch-target-distribution.png)
 
-## Give it a try today!
+## WSL settings in the launch profile
 
-So, if you love working in Visual Studio, but need to test your app in Linux, go to the Visual Studio Marketplace to install the extension today. Please use the marketplace to ask any questions and give us your feedback to let us know how useful this extension is.
+|Name|Default|Purpose|Supports Tokens|
+|-|-|-|-|
+|executablePath|dotnet|The executable to run|Yes|
+|commandLineArgs|The value of the MSBuild property TargetPath mapped to the WSL environment|Command line arguments passed to executablePath|Yes|
+|workingDirectory|For console apps: {OutDir}</br>For web apps: {ProjectDir}|The working directory in which to start debugging|Yes|
+|environmentVariables||Key Value pairs of environment variables to set for the debugged process.|Yes|
+|setupScriptPath||Script to be run before debugging. Useful for running scripts like ~/.bash_profile.|Yes|
+|distributionName||Name of the WSL distribution to use.|No|
+|launchBrowser|false|Whether or not to launch a browser|No|
+|launchUrl||Url to launch if launchBrowser is true|No|
 
+Supported tokens:
 
-**SETTINGS**
+{ProjectDir} - The path to the project directory
+
+{OutDir} - The value of the MSBuild property `OutDir`
+
+>[!NOTE]
+> All paths are for WSL not Windows.
