@@ -1,5 +1,6 @@
 ---
 title: Specify the .NET Framework Runtime | Microsoft Docs
+description: Learn how applications can be composed of modules that were built by using different versions of the .NET Framework run-time.
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords: 

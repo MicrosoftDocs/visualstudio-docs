@@ -1,5 +1,6 @@
 ---
 title: Shutdown | Microsoft Docs
+description: Learn how the Shutdown option waits for any currently profiled process to end or detach, and then it turns off the profiler and closes the profiling data file.
 ms.date: 11/04/2016
 ms.topic: reference
 ms.assetid: a1e37500-4ad1-4670-9737-3d9a20536386

@@ -106,7 +106,7 @@ ms.date: 12/07/2020
 ### Order or purchase status
 [!INCLUDE [Find the status of my renewal or purchase](renewing-purchasing-or-canceling/order-or-purchase-status/includes/find-the-status-of-renewal-or-purchase.md)]
 
-[!INCLUDE [View my bill](renewing-purchasing-or-canceling/order-or-purchase-status/includes/viewing-my-bill.md)]
+[!INCLUDE [View my invoice](renewing-purchasing-or-canceling/order-or-purchase-status/includes/viewing-my-bill.md)]
 
 ## Issues with signing in 
 

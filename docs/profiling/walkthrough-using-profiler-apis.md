@@ -1,5 +1,6 @@
 ---
 title: "Walkthrough: Using Profiler APIs | Microsoft Docs"
+description: Learn how to use the profiler APIs to limit the amount of data that is collected during instrumentation profiling.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:

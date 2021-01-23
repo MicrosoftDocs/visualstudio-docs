@@ -1,5 +1,6 @@
 ---
 title: "Visible Timeline Profile | Microsoft Docs"
+description: Learn that the Visible Timeline Profile for the Thread Blocking View provides statistical information and links to reports.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:

@@ -1,5 +1,6 @@
 ---
 title: "Instruction Pointers (IPs) view - .NET memory sampling data"
+description: The The IPs view for .NET memory allocation profiling data that was collected by using the sampling method lists the assembly instructions that allocated memory.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:

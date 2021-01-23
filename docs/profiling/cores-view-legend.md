@@ -1,5 +1,7 @@
 ---
 title: "Cores View Legend | Microsoft Docs"
+description: Learn about the Cores View legend, which provides tabular context switch data and thread selection. Also learn about context switches and performance.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:

@@ -1,5 +1,6 @@
 ---
 title: "Resource Contention Data Views | Microsoft Docs"
+description: Learn about the reference information for the views and reports of profiler data files that contain thread contention profiling data.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:

@@ -1,5 +1,6 @@
 ---
 title: "Performance Session Overview | Microsoft Docs"
+description: Learn how to use Performance Tools to become productive quickly and increase the performance of yout code.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:

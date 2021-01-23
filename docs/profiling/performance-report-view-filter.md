@@ -1,5 +1,6 @@
 ---
 title: "Performance Report View Filter | Microsoft Docs"
+description: Learn how the Profiler Report View Filter window is located at the top of the Performance Report window. 
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:
