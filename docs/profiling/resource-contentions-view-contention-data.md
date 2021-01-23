@@ -1,5 +1,6 @@
 ---
 title: "Resource Contentions View - Contention Data | Microsoft Docs"
+description: Learn how the Resource Contention view lists contention data for the resources that were the source of contention events.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:

@@ -1,5 +1,6 @@
 ---
 title: Serialize Symbol Information | Microsoft Docs
+description: Learn how you can serialize symbols that you must have to analyze your application and how symbol serialization adds symbols to the .vsp file.
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords: 

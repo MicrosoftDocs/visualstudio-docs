@@ -1,5 +1,6 @@
 ---
 title: "Lines View - Sampling Data | Microsoft Docs"
+description: Learn how the Lines view of sampling data lists performance data for the statements that were executing when the samples were collected in the profiling run.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:

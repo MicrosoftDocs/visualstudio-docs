@@ -1,5 +1,6 @@
 ---
 title: "Lines View - .NET Memory Sampling Data | Microsoft Docs"
+description: Learn how the Lines view for .NET memory allocation profiling data lists the statements that allocated memory during the profiling run.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:

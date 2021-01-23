@@ -1,5 +1,6 @@
 ---
 title: "Zoom Control (Utilization View) | Microsoft Docs"
+description: Learn how zoom control helps you zoom in on the CPU utilization chart in order to focus on areas of particular interest.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:

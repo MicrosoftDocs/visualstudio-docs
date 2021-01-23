@@ -1,5 +1,6 @@
 ---
 title: "Report Based on Visible Time Range | Microsoft Docs"
+description: Learn how the Profile view displays reports that are based on the currently visible time range and channels.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:

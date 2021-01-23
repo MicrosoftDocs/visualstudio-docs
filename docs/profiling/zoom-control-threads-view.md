@@ -1,5 +1,6 @@
 ---
 title: "Zoom Control (Threads View) | Microsoft Docs"
+description: Learn that the zoom control is a slider that helps you to zoom in and out on the timeline so that you can focus on areas of particular interest.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:

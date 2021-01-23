@@ -1,5 +1,6 @@
 ---
 title: "Manage Channels | Microsoft Docs"
+description: Learn how you can organize the channels for your process so that you can examine particular patterns in the Threads View in the Concurrency Visualizer.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:

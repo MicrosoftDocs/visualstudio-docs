@@ -1,5 +1,6 @@
 ---
 title: Specify the Binary to Start | Microsoft Docs
+description: Learn how you must enter information in the <Target> Property Pages dialog box to profile binaries, such as DLLs.
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords: 

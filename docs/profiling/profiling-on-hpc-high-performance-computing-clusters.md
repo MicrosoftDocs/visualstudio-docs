@@ -1,5 +1,6 @@
 ---
 title: "Profiling on HPC (High Performance Computing) Clusters | Microsoft Docs"
+description: Learn how you can profile on compute nodes of Microsoft Windows HPC clusters by using the sampling method of the Visual Studio Profiling Tools.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:

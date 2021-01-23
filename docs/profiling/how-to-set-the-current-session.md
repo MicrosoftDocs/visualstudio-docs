@@ -1,5 +1,6 @@
 ---
 title: Set the Current Session | Microsoft Docs
+description: Learn how you open multiple performance sessions in the Performance Explorer and select one of the visible performance sessions to be set as the current session.
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords: 

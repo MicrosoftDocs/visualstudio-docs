@@ -1,5 +1,6 @@
 ---
 title: "Modules View - .NET Memory Instrumentation Data | Microsoft Docs"
+description: Learn how the Modules view of .NET memory allocation data collected by using the instrumentation method groups the memory and timing data by module.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:
