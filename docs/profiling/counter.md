@@ -1,5 +1,7 @@
 ---
 title: Counter | Microsoft Docs
+description: Learn about the Counter option of VSPerfCmd.exe. It specifies a sampling interval, or is a measure of event intervals in instrumentation profiling.  
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 ms.assetid: aa4b4cdb-e6ea-433a-9579-56f3785e1385

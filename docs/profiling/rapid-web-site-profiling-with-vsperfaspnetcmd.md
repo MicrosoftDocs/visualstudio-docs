@@ -1,5 +1,6 @@
 ---
 title: "Rapid Web Site Profiling with VSPerfASPNETCmd | Microsoft Docs"
+description: Learn how the VSPerfASPNETCmd command-line tool enables you to easily profile ASP.NET web applications.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:

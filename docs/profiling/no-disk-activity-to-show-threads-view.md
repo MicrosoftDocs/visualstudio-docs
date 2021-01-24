@@ -1,5 +1,6 @@
 ---
 title: "No Disk Activity to Show (Threads View) | Microsoft Docs"
+description: Learn that disk activity for the current time range in the Disk I/O channels cannot be displayed. Disk activity may be displayed if you zoom out or scroll.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:

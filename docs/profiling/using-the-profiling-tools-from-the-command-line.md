@@ -1,5 +1,6 @@
 ---
 title: Using the Profiling Tools From the Command-Line | Microsoft Docs
+description: Use the command-line tools of Visual Studio Profiling Tools to profile applications and to automate profiling by using batch files and scripting.
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords: 

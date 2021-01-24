@@ -1,5 +1,6 @@
 ---
 title: "PROFILE_CURRENTID | Microsoft Docs"
+description: Learn how to use the PROFILE_CURRENTID to cause the function to operate on the current thread or process, rather than a specifically indicated one.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:

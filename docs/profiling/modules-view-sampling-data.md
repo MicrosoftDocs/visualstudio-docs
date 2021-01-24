@@ -1,5 +1,6 @@
 ---
 title: "Modules View - Sampling Data | Microsoft Docs"
+description: Learn how the Modules view of sampling data displays performance data that is grouped by the modules that were sampled in the profiling data.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:

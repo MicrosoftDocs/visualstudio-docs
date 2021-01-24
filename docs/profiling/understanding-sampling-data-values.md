@@ -1,5 +1,6 @@
 ---
 title: "Understanding Sampling Data Values | Microsoft Docs"
+description: Learn how the sampling profiling method of the Visual Studio Profiling Tools interrupts the computer processor at set intervals and collects the function call stack.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:

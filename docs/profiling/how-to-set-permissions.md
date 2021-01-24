@@ -1,5 +1,6 @@
 ---
 title: Set Permissions | Microsoft Docs
+description: Learn how an Administrator of a computer grants the security permissions required for profiling to a user or group that does not have Administrator permissions.
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords: 

@@ -1,5 +1,6 @@
 ---
 title: "ThreadOn and ThreadOff | Microsoft Docs"
+description: Learn how the VSPerfCmd.exe ThreadOff and ThreadOn subcommands are only available in command-line profiling sessions that use the instrumentation method.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 ms.assetid: 5cd5a695-0a14-484a-8952-ed47e13d8e92

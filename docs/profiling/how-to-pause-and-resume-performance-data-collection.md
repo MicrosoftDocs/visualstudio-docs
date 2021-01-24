@@ -1,5 +1,6 @@
 ---
 title: Pause and Resume Performance Data Collection | Microsoft Docs
+description: Learn how you can control the collection of profiling data interactively from the profiling session page window.
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords: 

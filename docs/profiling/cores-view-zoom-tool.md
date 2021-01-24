@@ -1,5 +1,7 @@
 ---
 title: "Cores View Zoom Tool | Microsoft Docs"
+description: Learn about the Cores View Zoom control, which lets you zoom in and out on the timeline, and also learn about the other ways to zoom.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:

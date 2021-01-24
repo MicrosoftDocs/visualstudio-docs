@@ -1,5 +1,6 @@
 ---
 title: "QueryCounters | Microsoft Docs"
+description: Learn how the QueryCounters option lists the CPU (hardware) performance counters that are available on the computer.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 ms.assetid: 8059d4b2-af61-4a47-a6c2-8da5c0741c74

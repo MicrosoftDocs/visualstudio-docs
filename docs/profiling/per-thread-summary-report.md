@@ -1,5 +1,6 @@
 ---
 title: "Per Thread Summary Report | Microsoft Docs"
+description: View a bar graph shows the proportion of time each unhidden thread spends in each activity category during the currently visible time range.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:

@@ -1,5 +1,6 @@
 ---
 title: "Saving and Exporting Performance Tools Data | Microsoft Docs"
+description: Learn how you can save filtered or unfiltered views of profiling data (.vsp) files as analyzed report (.vsps) files.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:

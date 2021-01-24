@@ -1,5 +1,6 @@
 ---
 title: "Performance Session Properties | Microsoft Docs"
+description: Learn how a Performance Session enables you to configure settings that determine how the application is profiled.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:

@@ -1,5 +1,6 @@
 ---
 title: "Instruction Pointers (IPs) View - Sampling Data | Microsoft Docs"
+description: Learn how the IPs view of sampling data lists performance data for the assembly instructions that were directly executing when the samples were collected.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:
