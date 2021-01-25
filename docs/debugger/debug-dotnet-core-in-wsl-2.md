@@ -9,27 +9,34 @@ helpviewer_keywords:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jillfra
+monikerRange: '>= vs-2019'
 ms.workload:
   - "multiple"
 ---
 
 # Debug .NET Core Apps in WSL 2 with Visual Studio
 
-You can easily run and debug your .NET Core apps in Linux without leaving Visual Studio using the WSL 2 and the [.NET Core Debugging with WSL 2 – Preview extension](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.Dot-Net-Core-Debugging-With-Wsl2). If you are a cross-platform developer, you can use this method as a simple way to test more of your target environments. If you've already discovered the benefits of WSL 2, but need a way to integrate it into your inner loop, try the extension.
+You can easily run and debug your .NET Core apps in Linux without leaving Visual Studio using the WSL 2 and the .NET Core Debugging with WSL 2 component. If you are a cross-platform developer, you can use this method as a simple way to test more of your target environments. If you've already discovered the benefits of WSL 2, but need a way to integrate it into your inner loop, try the extension.
 
 For a Windows .NET user targeting Linux, WSL 2 lives in a sweet spot between production realism and productivity. In Visual Studio, you can already debug in a remote Linux environment using the [remote debugger](../debugger/remote-debugging-dotnet-core-linux-with-ssh.md), or with containers using the [Container Tools](../containers/overview.md). When production realism is your main concern, you should use one of those options. When an easy and fast inner-loop is more important, WSL 2 is a great option.
 
 You don’t have to choose just one method! You can have a launch profile for Docker and WSL 2 in the same project and pick whichever is appropriate for a particular run. And once your app is deployed, you can always use the remote debugger to attach to it if there's an issue.
 
-## Get Started with .NET Core Debugging with WSL 2
+## Prerequisites
 
-1. Before trying to debug, [install WSL 2](/windows/wsl/about).
+- Visual Studio 2019 v16.9 Preview 1 or later versions with the .NET Core Debugging with WSL 2 optional component.
 
-1. Install the [distribution](https://aka.ms/wslstore) of your choice.
+  The optional component is available with the .NET Core cross-platform or the ASP.NET and web development workloads, and is selected by default.
 
-1. Install the [extension](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.Dot-Net-Core-Debugging-With-Wsl2).
+  If you have Visual Studio 2019 v16.6 but not v16.9 Preview 1 or later, you can install the [extension](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.Dot-Net-Core-Debugging-With-Wsl2) instead.
 
-   When you open an ASP.NET Core web app or .NET Core console app in Visual Studio, after installing the extension, you’ll see a new Launch Profile named WSL 2:
+- Install [WSL 2](/windows/wsl/about).
+
+- Install the [distribution](https://aka.ms/wslstore) of your choice.
+
+## Start debugging with WSL 2
+
+1. After you've installed the required components, open an ASP.NET Core web app or .NET Core console app in Visual Studio You’ll see a new Launch Profile named WSL 2:
 
    ![WSL 2 launch profile in the launch profile list](media/linux-wsl2-debugging-select-launch-profile.png)
 
@@ -52,9 +59,9 @@ You don’t have to choose just one method! You can have a launch profile for Do
 
    Once you select the new profile, the extension checks that your WSL 2 distribution is configured to run .NET Core apps, and helps you install any missing dependencies. Once you've installed these dependencies, you are ready to debug in WSL 2.
 
-1. Start Debugging as normal, and your app will now be running in your default WSL 2 distribution.
+1. Start debugging as normal, and your app will run in your default WSL 2 distribution.
 
-   An easy way to verify that you are running in Linux is to check the value of `Environment.OSVersion`.
+   An easy way to verify that you're running in Linux is to check the value of `Environment.OSVersion`.
 
 >[!NOTE]
 > Only Ubuntu and Debian have been tested and are supported. Other distributions supported by .NET Core should work but require manually installing the .NET Core Runtime and Curl.
