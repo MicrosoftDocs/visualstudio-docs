@@ -17,9 +17,9 @@ ms.workload:
 
 You can easily run and debug your .NET Core apps in Linux without leaving Visual Studio using the WSL 2 and the [.NET Core Debugging with WSL 2 – Preview extension](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.Dot-Net-Core-Debugging-With-Wsl2). If you are a cross-platform developer, you can use this method as a simple way to test more of your target environments. If you've already discovered the benefits of WSL 2, but need a way to integrate it into your inner loop, try the extension.
 
-For a Windows .NET user targeting Linux, WSL 2 lives in a sweet spot between production realism and productivity. In Visual Studio you can already debug in a remote Linux environment using the [remote debugger](../debugger/remote-debugging-dotnet-core-linux-with-ssh.md), or with containers using the [Container Tools](../containers/overview.md). When production realism is your main concern, you should use one of those. When an easy and fast inner-loop is more important, WSL 2 is a great option.
+For a Windows .NET user targeting Linux, WSL 2 lives in a sweet spot between production realism and productivity. In Visual Studio, you can already debug in a remote Linux environment using the [remote debugger](../debugger/remote-debugging-dotnet-core-linux-with-ssh.md), or with containers using the [Container Tools](../containers/overview.md). When production realism is your main concern, you should use one of those options. When an easy and fast inner-loop is more important, WSL 2 is a great option.
 
-You don’t have to choose just one method! You can have a launch profile for Docker and WSL 2 in the same project and pick whichever is appropriate for a particular run. And once your app is deployed, you can always use the remote debugger to attach to it if there is an issue.
+You don’t have to choose just one method! You can have a launch profile for Docker and WSL 2 in the same project and pick whichever is appropriate for a particular run. And once your app is deployed, you can always use the remote debugger to attach to it if there's an issue.
 
 ## Get Started with .NET Core Debugging with WSL 2
 
@@ -27,7 +27,9 @@ You don’t have to choose just one method! You can have a launch profile for Do
 
 1. Install the [distribution](https://aka.ms/wslstore) of your choice.
 
-   After you have installed the extension, when you open an ASP.NET Core web app or .NET Core console app in Visual Studio, you’ll see a new Launch Profile named WSL 2:
+1. Install the [extension](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.Dot-Net-Core-Debugging-With-Wsl2).
+
+   When you open an ASP.NET Core web app or .NET Core console app in Visual Studio, after installing the extension, you’ll see a new Launch Profile named WSL 2:
 
    ![WSL 2 launch profile in the launch profile list](media/linux-wsl2-debugging-select-launch-profile.png)
 
@@ -48,18 +50,18 @@ You don’t have to choose just one method! You can have a launch profile for Do
     }
     ```
 
-   Once the new profile is selected, the extension checks that your WSL 2 distribution is configured to run .NET Core apps, and helps you install any missing dependencies. Once all the dependencies are installed, you are ready to debug in WSL 2.
+   Once you select the new profile, the extension checks that your WSL 2 distribution is configured to run .NET Core apps, and helps you install any missing dependencies. Once you've installed these dependencies, you are ready to debug in WSL 2.
 
 1. Start Debugging as normal, and your app will now be running in your default WSL 2 distribution.
 
-   An easy way to verify that you are running in Linux is to check the value of Environment.OSVersion.
+   An easy way to verify that you are running in Linux is to check the value of `Environment.OSVersion`.
 
 >[!NOTE]
 > Only Ubuntu and Debian have been tested and are supported. Other distributions supported by .NET Core should work but require manually installing the .NET Core Runtime and Curl.
 
 ## Choose a specific distribution
 
-By default, the WSL 2 launch profile will use the default distribution as set in wsl.exe. If you want your launch profile to target a specific distribution, regardless of that default, you can modify your launch profile. For example, if you are debugging a web app and want to test it on Ubuntu 20.04, your launch profile would look like:
+By default, the WSL 2 launch profile uses the default distribution as set in *wsl.exe*. If you want your launch profile to target a specific distribution, regardless of that default, you can modify your launch profile. For example, if you're debugging a web app and want to test it on Ubuntu 20.04, your launch profile would look like:
 
 ```json
 "WSL 2": {
