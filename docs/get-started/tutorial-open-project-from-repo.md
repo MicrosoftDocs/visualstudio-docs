@@ -72,8 +72,10 @@ But no matter which version you have installed, you can always open a project fr
 
    ![Screenshot of the 'Open a project or solution' window in Visual Studio 2019 version 16.8 and later](../ide/media/vs-2019/open-local-project-from-cloned-repo.png)
 
+    If you've opened the project or solution recently, select it from the **Open recent** section to quickly open it again.
+
     > [!TIP]
-    > If you've opened the project or solution recently, select it from the **Open recent** section to quickly open it again.
+    > You can also use the Visual Studio IDE to connect to a repo, create a Git menu from withn the Visual Studio IDE to either open or clone a project or a solution.
 
 #### [16.7 and earlier](#tab/vs167earlier)
 
@@ -126,7 +128,7 @@ But no matter which version you have installed, you can always open a project fr
 
 1. If you see a sign-in window, sign in to your account.
 
-   Visual Studio opens **Team Explorer** and a notification appears when the clone is complete.
+   Next, Visual Studio opens **Team Explorer** and a notification appears when the clone is complete.
 
 1. To view your folders and files, select the **Show Folder View** link.
 
