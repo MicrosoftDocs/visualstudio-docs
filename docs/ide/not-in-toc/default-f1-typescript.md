@@ -21,4 +21,5 @@ For reference help on language keywords and code elements, see:
 
 - [TypeScript documentation](https://www.typescriptlang.org/docs) for help with TypeScript.
 - [MDN web docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference) for help with JavaScript. In the search box, type the name of the keyword you're looking for.
+- [Search page](/search) on docs.microsoft.com for help in other areas.
 

@@ -21,6 +21,7 @@ For reference help on language keywords and code elements, see:
 
 - [MDN web docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference) for help with JavaScript. In the search box, type the name of the keyword you're looking for.
 - [TypeScript documentation](https://www.typescriptlang.org/docs) for help with TypeScript.
+- [Search page](/search) on docs.microsoft.com for help in other areas.
 
 > [!IMPORTANT]
 > Microsoft is part of the community-wide effort to make [MDN web docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference) the web’s one-stop, premiere development reference. All 500+ pages of Microsoft’s JavaScript API reference were ported from [docs.microsoft.com](https://docs.microsoft.com) to their MDN counterparts. Our legacy JS extensions reference were also ported for historical and servicing purposes.
