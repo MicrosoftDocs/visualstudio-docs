@@ -24,9 +24,9 @@ If you haven't already installed Visual Studio, go to the [Visual Studio downloa
 
 ## Open a project from a GitHub repo
 
-How you open a project from a GitHub repo by using Visual Studio 2019 depends on what version you have. Specifically, if you've installed version [**version 16.8**](/visualstudio/releases/2019/release-notes/) or later, there's a new, more fully integrated [Git experience in Visual Studio](../ide/git-with-visual-studio.md) available to you.
+How you open a project from a GitHub repo by using Visual Studio 2019 depends on which version you have. Specifically, if you've installed version [**version 16.8**](/visualstudio/releases/2019/release-notes/) or later, there's a new, more fully integrated [Git experience in Visual Studio](../ide/git-with-visual-studio.md) available to you.
 
-But no matter which version you have installed, you can always open a project from a GitHub repo with Visual Studio.
+But no matter which version you've installed, you can always open a project from a GitHub repo with Visual Studio.
 
 #### [16.8 and later](#tab/vs168later)
 
@@ -98,11 +98,11 @@ But no matter which version you have installed, you can always open a project fr
 
    Visual Studio opens the project from the repo.
 
-1. If you have a solution file available, it will appear in the "Solutions and Folders" fly-out menu. Choose it, and Visual Studio opens your solution.
+1. If you have a solution file available, it will appear in the "Solutions and Folders" fly-out menu. Select it, and Visual Studio opens your solution.
 
    ![Screenshot of the Solution Explorer drop-down list in Visual Studio 2019 version 16.7 and earlier](./media/open-proj-repo-github-solutions-folders-picker.png)
 
-   If you do not have a solution file (specifically, an .sln file) in your repo, the fly-out menu will say "No Solutions Found." However, you can double-click any file from the folder menu to open it in the Visual Studio code editor.
+   If you do not have a solution file (specifically, an .sln file) in your repo, the fly-out menu says "No Solutions Found." However, you can double-click any file from the folder menu to open it in the Visual Studio code editor.
 
     Start coding!
 
@@ -110,7 +110,7 @@ But no matter which version you have installed, you can always open a project fr
 
 ## Open a project from an Azure DevOps repo
 
-The user interface (UI) that you see when you open an Azure DevOps project by using Visual Studio 2019 depends on what version you have. Specifically, if you've installed version [**version 16.8**](/visualstudio/releases/2019/release-notes/) or later, we've changed the UI to accommodate a new, more fully integrated [Git experience in Visual Studio](../ide/git-with-visual-studio.md) in Visual Studio.
+What you see when you open an Azure DevOps project by using Visual Studio 2019 depends on which version you have. Specifically, if you've installed version [**version 16.8**](/visualstudio/releases/2019/release-notes/) or later, we've changed the UI to accommodate a new, more fully integrated [Git experience in Visual Studio](../ide/git-with-visual-studio.md) in Visual Studio.
 
 But no matter which version you have installed, you can always open a project from an Azure DevOps repo with Visual Studio.
 
@@ -124,22 +124,22 @@ But no matter which version you have installed, you can always open a project fr
 
 1. In the **Browse a repository** section, select **Azure DevOps**.
 
-    ![Screenshot of the 'Browse a repository' section of the The "Connect to a Project" dialog box in Visual Studio 2019 version 16.8 and and later](../ide/media/vs-2019/browse-repository-azure-devops.png)
+    ![Screenshot of the 'Browse a repository' section of the The 'Connect to a Project' dialog box in Visual Studio 2019 version 16.8 and and later](../ide/media/vs-2019/browse-repository-azure-devops.png)
 
 1. If you see a sign-in window, sign in to your account.
 
 1. In the **Connect to a Project** dialog box, choose the repo that you want to connect to, and then select **Clone**.
 
-      ![Screenshot of the "Connect to a Project" dialog box that's generated from Visual Studio 2019 version 16.8 and later](../ide/media/vs-2019/connect-project-azure-devops.png)
+      ![Screenshot of the 'Connect to a Project' dialog box that's generated from Visual Studio 2019 version 16.8 and later](../ide/media/vs-2019/connect-project-azure-devops.png)
 
       > [!TIP]
       > If you don't see a pre-populated list of repos to connect to, select **Add Azure DevOps Server** to enter a server URL. (Alternatively, you might see a "No servers found" prompt that includes links to add an existing Azure DevOps Server or to create an Azure DevOps account.)
 
-   Next, Visual Studio opens **Solution Explorer** and shows that shows the folders and files.
+   Next, Visual Studio opens **Solution Explorer** that shows the folders and files.
 
 1. Select the **Team Explorer** tab to view the Azure DevOps actions.
 
-      ![Screenshot of the "Team Explorer" dialog box that's generated from Visual Studio 2019 version 16.8 and later](../ide/media/vs-2019/team-explorer-azure-devops.png)
+      ![Screenshot of the 'Team Explorer' dialog box that's generated from Visual Studio 2019 version 16.8 and later](../ide/media/vs-2019/team-explorer-azure-devops.png)
 
 #### [16.7 and earlier](#tab/vs167earlier)
 
@@ -151,13 +151,13 @@ But no matter which version you have installed, you can always open a project fr
 
 1. In the **Browse a repository** section, select **Azure DevOps**.
 
-   ![Screenshot of the 'Clone or check out code' window](../get-started/media/vs-2019/clone-checkout-code-git-repo-dark.png)
+   ![Screenshot of the 'Clone or check out code' window with the 'Browse a repository' section that lists Azure DevOps in Visual Studio 2019 version 16.7 and earlier](../get-started/media/vs-2019/clone-checkout-code-git-repo-dark.png)
 
    If you see a sign-in window, sign in to your account.
 
 1. In the **Connect to a Project** dialog box, choose the repo that you want to connect to, and then select **Clone**.
 
-      ![Screenshot of the "Connect to a Project" dialog box that's generated from Visual Studio 2019 version 16.7 and earlier](./media/open-proj-azure-devops-connect-cloud-clone.png)
+      ![Screenshot of the 'Connect to a Project' dialog box that's generated from Visual Studio 2019 version 16.7 and earlier](./media/open-proj-azure-devops-connect-cloud-clone.png)
 
     > [!NOTE]
     > What you see in the list box depends on the Azure DevOps repositories that you have access to.
@@ -176,7 +176,7 @@ But no matter which version you have installed, you can always open a project fr
 
       ![Screenshot of the 'Solutions and Folders' notification from Team Explorer in Visual Studio 2019 version 16.7 and earlier](./media/open-proj-repo-solutions-folders.png)
 
-   If you do not have a solution file in your repo, a "No Solutions Found" message appears. However, you can double-click any file from the folder menu to open it in the Visual Studio code editor.
+   If you do not have a solution file in your repo, a 'No Solutions Found' message appears. However, you can double-click any file from the folder menu to open it in the Visual Studio code editor.
 
 ---
 
