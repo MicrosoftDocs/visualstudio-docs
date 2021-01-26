@@ -1,5 +1,7 @@
 ---
 title: "Event Tracing for Windows (ETW) Report | Microsoft Docs"
+description: Read about the Event Tracing for Windows (ETW) report, which lists the ETW events that were recorded in a performance session of Visual Studio Profiling Tools.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:

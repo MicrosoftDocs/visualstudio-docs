@@ -1,5 +1,7 @@
 ---
 title: ".NET Memory Allocations View | Microsoft Docs"
+description: Learn about the .NET memory allocations view, which lists the types that were created during the profiling run.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:
