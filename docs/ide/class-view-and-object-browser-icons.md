@@ -60,6 +60,9 @@ The following signal icons apply to all the previous icons and indicate their ac
 > [!NOTE]
 > If your project is included in a source control database, additional signal icons may be displayed to indicate source-control status, such as checked in or checked out.
 
+> [!TIP]
+> To view more of the application images and icons that appear in Visual Studio, download the [**Visual Studio Image Library**](https://www.microsoft.com/download/details.aspx?id=35825).
+
 ## See also
 
 - [Viewing the structure of code](../ide/viewing-the-structure-of-code.md)
