@@ -1,5 +1,7 @@
 ---
 title: Customize Report View Columns | Microsoft Docs
+description: You can add, remove, and rearrange columns in the Visual Studio Performance Tools views—for example in Functions View, Process View, and Caller/Callee View.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords: 
