@@ -1,5 +1,7 @@
 ---
 title: Collect Line-Level Sampling Data | Microsoft Docs
+description: Learn how the profiler's line-level sampling can reveal the code that uses large amounts of processor time. It works with both managed and native code.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords: 

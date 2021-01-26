@@ -1,5 +1,7 @@
 ---
 title: "Empty Timeline Segment | Microsoft Docs"
+description: In the Visual Studio Concurrency Visualizer, understand the reason why a section of a timeline may be empty (has a white background) for a kind of channel.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:

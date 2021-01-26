@@ -1,5 +1,7 @@
 ---
 title: Choose Collection Methods | Microsoft Docs
+description: The Visual Studio Profiling Tools support three methods of collecting performance data. Learn how to choose the one you need for your application.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords: 

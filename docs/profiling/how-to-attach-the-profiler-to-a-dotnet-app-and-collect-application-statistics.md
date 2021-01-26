@@ -1,5 +1,6 @@
 ---
 title: Attach profiler to .NET stand-alone app; get app stats
+description: Learn to use Visual Studio Profiling Tools command-line tools to attach the profiler to a running .NET Framework stand-alone (client) application and get statistics.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
