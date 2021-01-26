@@ -113,11 +113,11 @@ But no matter which version you've installed, you can always open a project from
 
 ---
 
-## Open a project from an Azure DevOps repo
+## Connect to an Azure DevOps server
 
-What you see when you open an Azure DevOps project by using Visual Studio 2019 depends on which version you have. Specifically, if you've installed version [**version 16.8**](/visualstudio/releases/2019/release-notes/) or later, we've changed the UI to accommodate a new, more fully integrated [Git experience in Visual Studio](../ide/git-with-visual-studio.md) in Visual Studio.
+What you see when you connect to an Azure DevOps server by using Visual Studio 2019 depends on which version you have. Specifically, if you've installed version [**version 16.8**](/visualstudio/releases/2019/release-notes/) or later, we've changed the UI to accommodate a new, more fully integrated [Git experience in Visual Studio](../ide/git-with-visual-studio.md) in Visual Studio.
 
-But no matter which version you have installed, you can always open a project from an Azure DevOps repo with Visual Studio.
+But no matter which version you have installed, you can always connect to an Azure DevOps server with Visual Studio.
 
 #### [16.8 and later](#tab/vs168later)
 
