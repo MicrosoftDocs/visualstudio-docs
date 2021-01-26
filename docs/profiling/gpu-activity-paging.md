@@ -1,5 +1,7 @@
 ---
 title: "GPU Activity (Paging) | Microsoft Docs"
+description: Review the GPU Activity (Paging) segments on the Threads tab of Concurrency Visualizer. The segments represent times when the GPU was processing paging requests.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:
