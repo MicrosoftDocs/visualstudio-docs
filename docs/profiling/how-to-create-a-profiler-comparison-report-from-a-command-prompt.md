@@ -1,5 +1,6 @@
 ---
 title: Create a profiler comparison report (command line)
+description: Use VSPerfReport.exe from the command-line to compare results of two profiler data files. The comparison shows differences between the profiling sessions.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to

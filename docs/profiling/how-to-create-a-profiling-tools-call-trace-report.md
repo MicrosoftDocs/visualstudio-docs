@@ -1,5 +1,7 @@
 ---
 title: Create a Profiling Tools Call Trace Report | Microsoft Docs
+description: Create a Performance Tools call trace report to see timing information for your functions and for functions called by your functions. 
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords: 

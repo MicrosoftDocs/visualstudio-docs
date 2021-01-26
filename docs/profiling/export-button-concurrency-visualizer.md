@@ -1,5 +1,7 @@
 ---
 title: "Export Button (Concurrency Visualizer) | Microsoft Docs"
+description: Review the Export button in Concurrency Visualizer. The Export button lets you export the call stack as a .csv file for your own records.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:

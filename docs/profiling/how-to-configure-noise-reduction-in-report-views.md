@@ -1,5 +1,7 @@
 ---
 title: Configure Noise Reduction in Report Views | Microsoft Docs
+description: Use trimming and folding, both enabled by default, to reduce noise and make performance problems more prominent in your reports.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords: 

@@ -12,11 +12,11 @@
         }
         else if (timeLeft > 0)
         {
-           // If CheckTheAnswer() return false, keep counting
-           // down. Decrease the time left by one second and 
-           // display the new time left by updating the 
-           // Time Left label.
-           timeLeft--;
+            // If CheckTheAnswer() returns false, keep counting
+            // down. Decrease the time left by one second and 
+            // display the new time left by updating the 
+            // Time Left label.
+            timeLeft--;
             timeLabel.Text = timeLeft + " seconds";
         }
         else

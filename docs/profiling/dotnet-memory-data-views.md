@@ -1,5 +1,7 @@
 ---
 title: ".NET Memory Data Views | Microsoft Docs"
+description: See links to reference information for the views and reports of profiler data files that contain .NET memory profiling data.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:
