@@ -15,9 +15,10 @@ ms.author: mikejo
 
 # TypeScript F1 Help for Visual Studio
 
-TypeScript is a language that is a superset of JavaScript; JavaScript syntax is therefore legal TypeScript. TypeScript is a typed superset, meaning that it adds rules about how different kinds of values can be used.
+TypeScript is a language that is a typed superset of JavaScript; JavaScript syntax is therefore legal TypeScript. TypeScript adds rules about how different kinds of values can be used.
 
-For help with TypeScript, see [TypeScript documentation](https://www.typescriptlang.org/docs).
+For reference help on language keywords and code elements, see:
 
-For help with any JavaScript language programming element or keyword, use the search box in the [MDN web docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference).
+- [TypeScript documentation](https://www.typescriptlang.org/docs) for help with TypeScript.
+- [MDN web docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference) for help with JavaScript. In the search box, type the name of the keyword you're looking for.
 

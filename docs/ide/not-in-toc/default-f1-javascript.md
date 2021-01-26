@@ -17,7 +17,10 @@ ms.author: mikejo
 
 JavaScript is a scripting language that can be embedded in web pages and other applications. For Microsoft Edge Legacy and Internet Explorer, the Microsoft implementation of JavaScript is compliant with the ECMAScript Language Specification 5th Edition. It also provides additional features that are not included in the ECMA Standards.
 
-For help with any JavaScript language programming element or keyword, use the search box in the [MDN web docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference).
+For reference help on language keywords and code elements, see:
+
+- [MDN web docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference) for help with JavaScript. In the search box, type the name of the keyword you're looking for.
+- [TypeScript documentation](https://www.typescriptlang.org/docs) for help with TypeScript.
 
 > [!IMPORTANT]
 > Microsoft is part of the community-wide effort to make [MDN web docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference) the web’s one-stop, premiere development reference. All 500+ pages of Microsoft’s JavaScript API reference were ported from [docs.microsoft.com](https://docs.microsoft.com) to their MDN counterparts. Our legacy JS extensions reference were also ported for historical and servicing purposes.
