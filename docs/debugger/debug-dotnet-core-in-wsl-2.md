@@ -26,7 +26,7 @@ You don’t have to choose just one method! You can have a launch profile for Do
 
 - Visual Studio 2019 v16.9 Preview 1 or later versions with the .NET Core Debugging with WSL 2 optional component.
 
-  The optional component is available with the .NET Core cross-platform or the ASP.NET and web development workloads, and is selected by default.
+  The optional component is included by default with the .NET Core cross-platform or the ASP.NET and web development workloads. You must install one or both of these workloads.
 
   If you have Visual Studio 2019 v16.6 but not v16.9 Preview 1 or later, you can install the [extension](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.Dot-Net-Core-Debugging-With-Wsl2) instead.
 
