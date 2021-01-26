@@ -96,10 +96,13 @@ The toolbar across the top of **Solution Explorer** has buttons to switch from a
 
 Many menu commands are available from the right-click context menu on various items in **Solution Explorer**. These commands include building a project, managing NuGet packages, adding a reference, renaming a file, and running tests, just to name a few.
 
-> [!TIP]
-> If you've closed Solution Explorer and you want to open it again, choose **Window** > **Reset Window Layout** from the menu bar.
-
 For ASP.NET Core projects, you can customize how files are nested in **Solution Explorer**. For more information, see [Customize file nesting in Solution Explorer](file-nesting-solution-explorer.md).
+
+> [!TIP]
+> If you've closed Solution Explorer and you want to open it again, choose **View** > **Solution Explorer** from the menu bar, or press **Ctrl**+**Alt**+**L**. And, if you've closed side tabs and you want to restore them to their default locations, choose **Window** > **Reset Window Layout** from the menu bar.
+
+> [!NOTE]
+> To view the application images and icons that appear in Visual Studio, download the [**Visual Studio Image Library**](https://www.microsoft.com/download/details.aspx?id=35825).
 
 ## See also
 
