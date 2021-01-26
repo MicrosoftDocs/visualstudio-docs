@@ -80,6 +80,8 @@ But no matter which version you have installed, you can always open a project fr
     > [!TIP]
     > You can also use the **Git** menu in the Visual Studio IDE to open folders and files in a local repository.
 
+    Start coding!
+
 #### [16.7 and earlier](#tab/vs167earlier)
 
 #### Clone a GitHub repo and then open a project
@@ -101,6 +103,8 @@ But no matter which version you have installed, you can always open a project fr
    ![Screenshot of the Solution Explorer drop-down list in Visual Studio 2019 version 16.7 and earlier](./media/open-proj-repo-github-solutions-folders-picker.png)
 
    If you do not have a solution file (specifically, an .sln file) in your repo, the fly-out menu will say "No Solutions Found." However, you can double-click any file from the folder menu to open it in the Visual Studio code editor.
+
+    Start coding!
 
 ---
 
