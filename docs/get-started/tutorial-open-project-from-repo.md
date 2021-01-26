@@ -63,7 +63,9 @@ But no matter which version you've installed, you can always open a project from
     To toggle the view, select the **Switch Views** button again.
 
     > [!TIP]
-    > You can also use the **Git** menu in the Visual Studio IDE to clone a repo or create one.
+    > You can also use the **Git** menu in the Visual Studio IDE to clone a repo and open a project.
+    >
+    > ![Screenshot of the Git menu in Visual Studio 2019 version 16.8 and later](../ide/media/vs-2019/git-menu-clone-create-git-repository.png)
 
 #### Open a project locally from a previously cloned GitHub repo
 
@@ -78,7 +80,10 @@ But no matter which version you've installed, you can always open a project from
     If you've opened the project or solution recently, select it from the **Open recent** section to quickly open it again.
 
     > [!TIP]
-    > You can also use the **Git** menu in the Visual Studio IDE to open folders and files in a local repository.
+    > You can also use the **Git** menu in the Visual Studio IDE to open local folders and files from a repo that you've previously cloned.
+    >
+    > ![Screenshot of the Git menu in Visual Studio 2019 version 16.8 and later, with the Local Repositories option expanded](../ide/media/vs-2019/git-menu-local-repositories.png)
+
 
     Start coding!
 
