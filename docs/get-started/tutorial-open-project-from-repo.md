@@ -2,7 +2,7 @@
 title: "Tutorial: Open a project from a repo in Visual Studio 2019"
 description: "Learn how to open a project in a Git or Azure DevOps repository by using Visual Studio 2019."
 ms.custom: "get-started"
-ms.date: 01/22/2021
+ms.date: 01/25/2021
 ms.technology: vs-ide-general
 ms.prod: visual-studio-windows
 ms.topic: tutorial
@@ -62,6 +62,9 @@ But no matter which version you have installed, you can always open a project fr
 
     To toggle the view, select the **Switch Views** button again.
 
+    > [!TIP]
+    > You can also use the **Git** menu in the Visual Studio IDE to clone a repo or create one.
+
 #### Open a project locally from a previously cloned GitHub repo
 
 1. Open Visual Studio 2019.
@@ -75,7 +78,7 @@ But no matter which version you have installed, you can always open a project fr
     If you've opened the project or solution recently, select it from the **Open recent** section to quickly open it again.
 
     > [!TIP]
-    > You can also use the Visual Studio IDE to connect to a repo, create a Git menu from withn the Visual Studio IDE to either open or clone a project or a solution.
+    > You can also use the **Git** menu in the Visual Studio IDE to open folders and files in a local repository.
 
 #### [16.7 and earlier](#tab/vs167earlier)
 
@@ -119,24 +122,20 @@ But no matter which version you have installed, you can always open a project fr
 
     ![Screenshot of the 'Browse a repository' section of the The "Connect to a Project" dialog box in Visual Studio 2019 version 16.8 and and later](../ide/media/vs-2019/browse-repository-azure-devops.png)
 
+1. If you see a sign-in window, sign in to your account.
+
 1. In the **Connect to a Project** dialog box, choose the repo that you want to connect to, and then select **Clone**.
 
       ![Screenshot of the "Connect to a Project" dialog box that's generated from Visual Studio 2019 version 16.8 and later](../ide/media/vs-2019/connect-project-azure-devops.png)
 
       > [!TIP]
-      > If you don't see a pre-populated list of repos to connect to, select the **Add Azure DevOps Server" arrow, and then enter a server URL.
+      > If you don't see a pre-populated list of repos to connect to, select **Add Azure DevOps Server** to enter a server URL. (Alternatively, you might see a "No servers found" prompt that includes links to add an existing Azure DevOps Server or to create an Azure DevOps account.)
 
-1. If you see a sign-in window, sign in to your account.
+   Next, Visual Studio opens **Solution Explorer** and shows that shows the folders and files.
 
-   Next, Visual Studio opens **Team Explorer** and a notification appears when the clone is complete.
+1. Select the **Team Explorer** tab to view the Azure DevOps actions.
 
-1. To view your folders and files, select the **Show Folder View** link.
-
-     Visual Studio opens **Solution Explorer**.
-
-1. Choose the **Solutions and Folders** link to search for a solution file  (specifically, an .sln file) to open.
-
-   If you do not have a solution file in your repo, a "No Solutions Found" message appears. However, you can double-click any file from the folder menu to open it in the Visual Studio code editor.
+      ![Screenshot of the "Team Explorer" dialog box that's generated from Visual Studio 2019 version 16.8 and later](../ide/media/vs-2019/team-explorer-azure-devops.png)
 
 #### [16.7 and earlier](#tab/vs167earlier)
 

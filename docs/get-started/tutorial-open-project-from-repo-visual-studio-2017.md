@@ -20,8 +20,8 @@ monikerRange: vs-2017
 
 In this tutorial, you'll use Visual Studio 2017 to connect to a repository for the first time and then open a project from it.
 
-> [!NOTE]
-> If you'd like to try [Visual Studio 2019](https://visualstudio.microsoft.com/downloads), there's a new, more integrated way to connect to a GitHub repo. For more information, see the [New Git experience in Visual Studio 2019](../ide/git-with-visual-studio.md?view=vs-2019&preserve-view=true) page.
+> [!TIP]
+> There's a new, more fully integrated way to connect with a GitHub repo in [Visual Studio 2019](https://visualstudio.microsoft.com/downloads). For more information, see the [**New Git experience in Visual Studio 2019**](../ide/git-with-visual-studio.md?view=vs-2019&preserve-view=true) page.
 
 ## Open a project from a GitHub repo by using Visual Studio 2017
 
