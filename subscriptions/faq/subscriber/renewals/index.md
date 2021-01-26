@@ -15,4 +15,6 @@ ms.faqid: Section4
 
 [!INCLUDE [How do I renew my cloud subscription?](includes/cloud-renewal.md)]
 
-[!INCLUDE [How do I purchase Visual Studio subscriptions?](includes/how-to-purchase-subscriber.md)]    
+[!INCLUDE [How do I purchase Visual Studio subscriptions?](includes/how-to-purchase-subscriber.md)]   
+
+[!INCLUDE [What are the licensing terms for Visual Studio subscriptions?](includes/licensing-terms.md)]  
