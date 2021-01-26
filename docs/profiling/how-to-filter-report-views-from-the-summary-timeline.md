@@ -1,5 +1,7 @@
 ---
 title: Filter Report Views from the Summary Timeline | Microsoft Docs
+description: Use the Filter by Selection option of Summary View to restrict reporting to a specific time period. The data file is reanalyzed for that time period only.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 ms.assetid: 056b10a0-952b-4790-89e0-02aebe902e87
