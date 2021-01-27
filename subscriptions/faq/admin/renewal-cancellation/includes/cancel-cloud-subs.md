@@ -19,4 +19,3 @@ Follow these steps to reduce the number of subscriptions:
 4.	Locate the entry for the subscriptions you wish to cancel, and select **Change quantity**. This will take you the Visual Studio Marketplace where you will be able to update your purchase quantity. 
 5.	Set the quantity to zero (0). Your subscriptions will remain in place until their scheduled billing date, but will not renew when the billing date is reached.
 
-
