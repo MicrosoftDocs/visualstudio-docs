@@ -1,5 +1,7 @@
 ---
 title: Profiler command line - Instrument dynamic ASP.NET app, get timing data
+description: Learn how to use the Visual Studio Profiling Tools command-line tools to collect detailed timing data for a dynamically compiled ASP.NET application.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 author: mikejo5000
