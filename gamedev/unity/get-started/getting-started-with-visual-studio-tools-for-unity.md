@@ -2,7 +2,7 @@
 title: "Getting Started with Visual Studio Tools for Unity | Microsoft Docs"
 description: "Learn how to install and setup Visual Studio for Unity development."
 ms.custom: ""
-ms.date: "07/13/2020"
+ms.date: "01/27/2021"
 ms.technology: vs-unity-tools
 ms.prod: visual-studio-dev16
 ms.topic: how-to
@@ -17,7 +17,7 @@ zone_pivot_groups: platform
 # Get started with Visual Studio and Unity
 
 > [!NOTE]
-> This guide assumes you already have installed Unity using the Unity Hub program. If you are new to Unity, we recommend visiting Unity Learn and complete the [Getting Started with Unity tutorial](https://learn.unity.com/course/getting-started-with-unity) first.
+> This guide assumes you already have installed Unity using the Unity Hub program. If you are new to Unity, we recommend visiting Unity Learn and complete the [Unity Essentials learning path](https://learn.unity.com/pathway/unity-essentials) first.
 
 ## Install Unity support for Visual Studio
 
