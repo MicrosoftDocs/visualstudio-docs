@@ -6,7 +6,7 @@ ms.topic: include
 ms.assetid: c8dd39de-bf7f-40a2-a203-f2be21b87f5c
 author: CaityBuschlen
 ms.author: cabuschl
-ms.date: 11/12/2020
+ms.date: 01/27/2021
 ---
 
 ## How do I purchase Visual Studio subscriptions?
