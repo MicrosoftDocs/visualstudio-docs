@@ -167,7 +167,7 @@ Debug.Assert ( stacksize > 0 );
 Trace.Assert ( stacksize > 0 );
 ```
 
- The second and third arguments, if present, must be strings. If you call <xref:System.Diagnostics.Trace.Assert%2A?displayProperty=fullName> or <xref:System.Diagnostics.Debug.Assert%2A?displayProperty=fullName> with two or three arguments, the first argument is a condition. The method checks the condition and, if the result is false, outputs the second string and third strings. The following example shows <xref:System.Diagnostics.Debug.Assert(System.Boolean,System.String)?displayProperty=fullName> and <xref:System.Diagnostics.Trace.Assert(System.Boolean,System.String)?displayProperty=fullName> used with two arguments:
+  The second and third arguments, if present, must be strings. If you call <xref:System.Diagnostics.Trace.Assert%2A?displayProperty=fullName> or <xref:System.Diagnostics.Debug.Assert%2A?displayProperty=fullName> with two or three arguments, the first argument is a condition. The method checks the condition and, if the result is false, outputs the second string and third strings. The following example shows <xref:System.Diagnostics.Debug.Assert(System.Boolean,System.String)?displayProperty=fullName> and <xref:System.Diagnostics.Trace.Assert(System.Boolean,System.String)?displayProperty=fullName> used with two arguments:
 
 ```VB
 Debug.Assert(stacksize > 0, "Out of stack space")
@@ -179,7 +179,7 @@ Debug.Assert ( stacksize > 0, "Out of stack space" );
 Trace.Assert ( stacksize > 0, "Out of stack space" );
 ```
 
- The following example shows <xref:System.Diagnostics.Debug.Assert%2A> and <xref:System.Diagnostics.Trace.Assert%2A>:
+  The following example shows <xref:System.Diagnostics.Debug.Assert(System.Boolean,System.String,System.String)?displayProperty=fullName> and <xref:System.Diagnostics.Trace.Assert(System.Boolean,System.String,System.String)?displayProperty=fullName> used with three arguments:
 
 ```VB
 Debug.Assert(stacksize > 0, "Out of stack space. Bytes left:" , Format(size, "G"))
