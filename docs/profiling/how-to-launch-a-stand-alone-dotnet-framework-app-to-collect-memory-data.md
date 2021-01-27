@@ -1,5 +1,7 @@
 ---
 title: Profiler command line - Open client .NET Framework app, get memory data
+description: Learn how to use the Visual Studio Profiling Tools command-line tools to start a .NET Framework stand-alone app and collect memory activity data.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 ms.assetid: 3bc53041-91b7-4ad0-8413-f8bf2c4b3f5e
