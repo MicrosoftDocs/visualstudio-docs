@@ -16,3 +16,5 @@ ms.faqid: Section2
 [!INCLUDE [How do I activate the software I just downloaded using product keys?](includes/key-activation.md)]
 
 [!INCLUDE [How do I access my product keys when my subscription expires?](includes/access-keys.md)]
+
+[!INCLUDE [How do I access my product keys when my subscription expires?](includes/access-keys.md)]
