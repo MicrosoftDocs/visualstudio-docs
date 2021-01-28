@@ -1,7 +1,7 @@
 ---
 title: How do I purchase Visual Studio subscriptions? 
 description: 'Learn about the various ways to purchase Visual Studio subscriptions'
-ms.faqid: q4_3
+ms.faqid: q4_1
 ms.topic: include
 ms.assetid: 5b27454c-f036-4f4d-9d67-54d1fc775f72
 author: CaityBuschlen

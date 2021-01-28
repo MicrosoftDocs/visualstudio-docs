@@ -17,4 +17,8 @@ ms.faqid: Section2
 
 [!INCLUDE [How do I access my product keys when my subscription expires?](includes/access-keys.md)]
 
-[!INCLUDE [How do I access my product keys when my subscription expires?](includes/access-keys.md)]
+[!INCLUDE [Where can I find older versions of Visual Studio?](includes/find-older-versions.md)]
+
+[!INCLUDE [Where are my product keys?](includes/where-are-product-keys.md)]
+
+[!INCLUDE [How do I troubleshoot in Visual Studio?](includes/troubleshoot-visual-studio.md)]

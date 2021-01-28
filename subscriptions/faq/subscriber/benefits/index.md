@@ -19,6 +19,3 @@ ms.faqid: Section3
 
 [!INCLUDE [How do I download, find a product key, and activate the Visual Studio IDE?](includes/activate-ide.md)]
 
-[!INCLUDE [How do I troubleshoot in Visual Studio?](includes/troubleshoot-visual-studio.md)]
-
-[!INCLUDE [Where are my product keys?](includes/where-are-product-keys.md)]
