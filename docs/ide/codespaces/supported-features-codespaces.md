@@ -68,7 +68,7 @@ Most application types and project configurations are supported, but you will ne
 Not yet available:
 
 * UI designers - WinForms, WPF, and Resource designers
-* WinForms and WPF projects app casting is only avaliable under a feature flag
+* WinForms and WPF projects app casting is only available under a feature flag
 * Visual Basic and F# projects
 * .NET Framework targeted projects
 * Docker Compose projects
