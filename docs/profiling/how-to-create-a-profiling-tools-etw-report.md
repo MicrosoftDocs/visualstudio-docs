@@ -1,5 +1,7 @@
 ---
 title: Create a Profiling Tools ETW Report | Microsoft Docs
+description: Learn how to create an Event Tracing for Windows (ETW) report. It lists the ETW events recorded in a Visual Studio Profiling Tools performance session.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 ms.assetid: bf5547b3-f6c7-4989-9d47-2fe4f1261444

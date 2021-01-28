@@ -1,5 +1,7 @@
 ---
 title: "GPU Activity Graph | Microsoft Docs"
+description: Understand the GPU Activity graph, which displays in Concurrency Visualizer the level of DirectX activity on the system.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:

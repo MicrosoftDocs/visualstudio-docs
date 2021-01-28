@@ -67,6 +67,7 @@ ms.date: 12/07/2020
 
 ### Use product features
 [!INCLUDE [Cannot find IDE feature](downloading-activating-or-using-software/using-product-features/includes/cannot-find-ide-feature.md)]
+[!INCLUDE [Visual Studio IDE technical support](downloading-activating-or-using-software/using-product-features/includes/visual-studio-ide-technical-support.md)]
 
 ## License terms
 

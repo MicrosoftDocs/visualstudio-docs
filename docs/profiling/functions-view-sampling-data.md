@@ -1,5 +1,7 @@
 ---
 title: "Functions View - Sampling Data | Microsoft Docs"
+description: Read about the Functions report view for the sampling profile method, which lists the functions that were sampled during the profiling run.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:

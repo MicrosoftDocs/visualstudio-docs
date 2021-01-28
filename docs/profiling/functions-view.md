@@ -1,5 +1,7 @@
 ---
 title: "Functions View | Microsoft Docs"
+description: Get information about Functions view in the Visual Studio Performance Explorer. The Functions view lists the functions that are called during profiling.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:

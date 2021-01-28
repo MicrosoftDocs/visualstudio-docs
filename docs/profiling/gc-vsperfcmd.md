@@ -1,5 +1,7 @@
 ---
 title: "GC (VSPerfCmd) | Microsoft Docs"
+description: Review the GC option in the VSPerfCmd.exe tool. The GC option enables the collection of .NET Framework memory allocation and object lifetime data.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 ms.assetid: 7c81e88b-a748-4cf5-a7a1-3429608e1b54

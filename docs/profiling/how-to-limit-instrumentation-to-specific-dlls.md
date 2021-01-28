@@ -1,5 +1,7 @@
 ---
 title: Limit Instrumentation to Specific DLLs | Microsoft Docs
+description: Learn how to use the instrumentation profiling method to limit the collection of profiling data to one or more DLLs in an application.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords: 

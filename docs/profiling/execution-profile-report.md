@@ -1,5 +1,7 @@
 ---
 title: "Execution Profile Report | Microsoft Docs"
+description: Learn about the Execution Profile Report, which is a traditional sampling profile in the Concurrency Visualizer extension for Visual Studio.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:

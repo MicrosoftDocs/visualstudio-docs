@@ -1,5 +1,6 @@
 ---
 title: Attach profiler to ASP.NET to collect concurrency data
+description: Use Visual Studio Profiling Tools command-line tools to attach the profiler to an ASP.NET application and collect process and thread concurrency data.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
