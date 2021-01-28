@@ -22,7 +22,7 @@ You can save files with specific character encoding to support bidirectional lan
 
 ## To save a file with encoding
 
-1. From the **File** menu, choose **Save File As**, and then click the drop-down button next to the **Save** button.
+1. From the **File** menu, choose **Save File As**, and then click the drop-down button next to the **Save** button. 
 
      The **Advanced Save Options** dialog box is displayed.
 
@@ -33,6 +33,8 @@ You can save files with specific character encoding to support bidirectional lan
      This option is useful if you intend to exchange the file with users of a different operating system.
 
      If you want to work with a file that you know is encoded in a specific way, you can tell Visual Studio to use that encoding when opening the file. The method you use depends on whether the file is part of your project.
+
+**NOTE:** if you want to save the project file with encoding, the **Save File As** option is not enabled until you unload the project.
 
 ## To open an encoded file that is part of a project
 
