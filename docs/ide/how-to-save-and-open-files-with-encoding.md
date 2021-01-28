@@ -22,7 +22,7 @@ You can save files with specific character encoding to support bidirectional lan
 
 ## To save a file with encoding
 
-1. From the **File** menu, choose **Save File As**, and then click the drop-down button next to the **Save** button. 
+1. From the **File** menu, choose **Save File As**, and then click the drop-down button next to the **Save** button.
 
      The **Advanced Save Options** dialog box is displayed.
 
