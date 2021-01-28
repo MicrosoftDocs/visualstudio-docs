@@ -1,5 +1,7 @@
 ---
 title: "Function Details View | Microsoft Docs"
+description: In Performance Explorer, learn about the Function Details View window, Cost Distribution bar chart, Function Performance Details table, and the Function Code View window.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:

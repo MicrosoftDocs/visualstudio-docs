@@ -18,7 +18,7 @@ The steps in this walkthrough demonstrate how to use the XSLT debugger. Steps in
 To prepare for this walkthrough, first copy the two [sample files](#sample-files) to your local computer. One is the style sheet, and one is the XML file we'll use as input to the style sheet. In this walkthrough, the style sheet we use finds all books whose cost is below the average book price.
 
 > [!NOTE]
-> The XSLT debugger is only available in the Enterprise edition of Visual Studio.
+> The XSLT debugger is only available in the Professional and Enterprise editions of Visual Studio.
 
 ## Start debugging
 

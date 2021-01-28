@@ -1,5 +1,7 @@
 ---
 title: ".NET Framework Usage Performance Rules | Microsoft Docs"
+description: Understand performance rules in the .NET Framework Usage category. Identify specific methods that can be optimized and identify more general usage patterns.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 ms.assetid: ab573755-6370-48aa-853d-a7321c424c79

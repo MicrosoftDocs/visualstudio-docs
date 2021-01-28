@@ -1,5 +1,7 @@
 ---
 title: Manually Create Performance Sessions | Microsoft Docs
+description: Learn how to manually create a performance session without opening a project in Visual Studio.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords: 

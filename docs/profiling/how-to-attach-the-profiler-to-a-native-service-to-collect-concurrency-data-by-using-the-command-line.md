@@ -1,5 +1,6 @@
 ---
 title: Attach profiler to native service to get concurrency data
+description: Use Visual Studio Profiling Tools from the command line to collect process and thread concurrency data from a native (C/C++) service.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to

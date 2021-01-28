@@ -1,5 +1,6 @@
 ---
 title: Attach profiler to .NET to collect concurrency data
+description: Learn to get process and thread concurrency data by using Visual Studio Profiling Tools command-line tools to attach the profiler to a running .NET Framework app.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
