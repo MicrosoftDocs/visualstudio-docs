@@ -1,5 +1,5 @@
 ---
-title: Purchasing, renewing and canceling Visual Studio subscriptions 
+title: Purchase, renew or cancel Visual Studio subscriptions 
 description: FAQs list for Renewals.
 ms.topic: conceptual
 ms.assetid: 3c8d8652-b971-4a5a-887f-3c6944b1decf
