@@ -426,6 +426,8 @@
       href: debug-dotnet-core-in-wsl-2.md
     - name: Debug .NET Core on Linux using SSH
       href: remote-debugging-dotnet-core-linux-with-ssh.md
+    - name: Debug with Container Tools >>
+      href: ../containers/edit-and-refresh?view=vs-2019
   - name: Application types
     items:
     - name: Debug specific application types

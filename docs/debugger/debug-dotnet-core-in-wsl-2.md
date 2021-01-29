@@ -16,7 +16,7 @@ ms.workload:
 
 # Debug .NET Core Apps in WSL 2 with Visual Studio
 
-You can easily run and debug your .NET Core apps in Linux without leaving Visual Studio using the WSL 2. If you are a cross-platform developer, you can use this method as a simple way to test more of your target environments.
+You can easily run and debug your .NET Core apps in Linux without leaving Visual Studio using WSL 2. If you are a cross-platform developer, you can use this method as a simple way to test more of your target environments.
 
 For a Windows .NET user targeting Linux, WSL 2 lives in a sweet spot between production realism and productivity. In Visual Studio, you can already debug in a remote Linux environment using the [remote debugger](../debugger/remote-debugging-dotnet-core-linux-with-ssh.md), or with containers using the [Container Tools](../containers/overview.md). When production realism is your main concern, you should use one of those options. When an easy and fast inner-loop is more important, WSL 2 is a great option.
 
@@ -62,7 +62,7 @@ You don’t have to choose just one method! You can have a launch profile for Do
    An easy way to verify that you're running in Linux is to check the value of `Environment.OSVersion`.
 
 >[!NOTE]
-> Only Ubuntu and Debian have been tested and are supported. Other distributions supported by .NET Core should work but require manually installing the [].NET Core Runtime](https://aka.ms/wsldotnet) and [Curl](https://curl.haxx.se/).
+> Only Ubuntu and Debian have been tested and are supported. Other distributions supported by .NET Core should work but require manually installing the [.NET Core Runtime](https://aka.ms/wsldotnet) and [Curl](https://curl.haxx.se/).
 
 ## Choose a specific distribution
 
