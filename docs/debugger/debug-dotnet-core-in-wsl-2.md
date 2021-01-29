@@ -16,7 +16,7 @@ ms.workload:
 
 # Debug .NET Core Apps in WSL 2 with Visual Studio
 
-You can easily run and debug your .NET Core apps in Linux without leaving Visual Studio using the WSL 2 and the .NET Core Debugging with WSL 2 component. If you are a cross-platform developer, you can use this method as a simple way to test more of your target environments. If you've already discovered the benefits of WSL 2, but need a way to integrate it into your inner loop, try the extension.
+You can easily run and debug your .NET Core apps in Linux without leaving Visual Studio using the WSL 2. If you are a cross-platform developer, you can use this method as a simple way to test more of your target environments.
 
 For a Windows .NET user targeting Linux, WSL 2 lives in a sweet spot between production realism and productivity. In Visual Studio, you can already debug in a remote Linux environment using the [remote debugger](../debugger/remote-debugging-dotnet-core-linux-with-ssh.md), or with containers using the [Container Tools](../containers/overview.md). When production realism is your main concern, you should use one of those options. When an easy and fast inner-loop is more important, WSL 2 is a great option.
 
@@ -27,8 +27,6 @@ You don’t have to choose just one method! You can have a launch profile for Do
 - Visual Studio 2019 v16.9 Preview 1 or later versions with the .NET Core Debugging with WSL 2 optional component.
 
   The optional component is included by default with the .NET Core cross-platform or the ASP.NET and web development workloads. You must install one or both of these workloads.
-
-  If you have Visual Studio 2019 v16.6 but not v16.9 Preview 1 or later, you can install the [extension](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.Dot-Net-Core-Debugging-With-Wsl2) instead.
 
 - Install [WSL 2](/windows/wsl/about).
 
@@ -42,7 +40,7 @@ You don’t have to choose just one method! You can have a launch profile for Do
 
 1. Select this profile to add it to your *launchSettings.json*.
 
-   The file looks similar to this:
+   Some of the key attributes in the file are shown in the following example.
 
     ```json
     "WSL 2": {
@@ -64,7 +62,7 @@ You don’t have to choose just one method! You can have a launch profile for Do
    An easy way to verify that you're running in Linux is to check the value of `Environment.OSVersion`.
 
 >[!NOTE]
-> Only Ubuntu and Debian have been tested and are supported. Other distributions supported by .NET Core should work but require manually installing the .NET Core Runtime and Curl.
+> Only Ubuntu and Debian have been tested and are supported. Other distributions supported by .NET Core should work but require manually installing the [].NET Core Runtime](https://aka.ms/wsldotnet) and [Curl](https://curl.haxx.se/).
 
 ## Choose a specific distribution
 
