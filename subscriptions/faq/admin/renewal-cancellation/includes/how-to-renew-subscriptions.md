@@ -28,8 +28,6 @@ If you currently have a retail subscription, there are two ways to renew:
 
     [Visual Studio Test Professional](https://www.microsoft.com/p/visual-studio-test-professional-subscription/dg7gmgf0dst6?activetab=pivot%3aoverviewtab) 
 
-> [!NOTE:]
-> You must renew your subscription within 30 days after its expiration date to qualify for renewal pricing. 
 
 ### How to renew cloud subscriptions
 Cloud subscriptions are those purchased through the [Visual Studio Marketplace](https://marketplace.visualstudio.com/).  Both monthly and annual cloud subscriptions renew until you cancel them, so there's no action needed to renew them.
