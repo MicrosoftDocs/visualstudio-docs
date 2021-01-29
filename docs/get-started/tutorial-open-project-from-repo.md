@@ -48,15 +48,15 @@ But no matter which version you've installed, you can always open a project from
 
     Select **Save** to add the info to your global .gitconfig file. (Or, you can choose to do this later by selecting **Cancel**.)
 
-    Next, Visual Studio opens the project from the repo.
+    Next, Visual Studio automatically loads and opens the solution from the repository.
 
    ![Screenshot of a project in Git that's open in Solution Explorer in Visual Studio 2019 version 16.8 and later](../ide/media/vs-2019/git-solution-explorer.png )
 
-1. If you have a solution file available, you can view it specifically by selecting the **Switch Views** button in Solution Explorer.
+1. If your repository contains multiple solutions, you will see them in Solution Explorer. You can view the list of solutions by selecting the **Switch Views** button in Solution Explorer.
 
    ![Screenshot of a project in Git that's open in Solution Explorer, with the Switch Views button highlighted in Visual Studio 2019 version 16.8 and later](../ide/media/vs-2019/git-solution-explorer-switch-views.png)
 
-   The Solution Explorer in Visual Studio switches to the solution view.
+   Solution Explorer then gives you the option to open the root folder in **Folder View** or to select a solution file to open.
 
    ![Screenshot of the .sln file in Git that's open in Solution Explorer, after you've selected the Switch Views button in Visual Studio 2019 version 16.8 and later](../ide/media/vs-2019/git-solution-explorer-view-solution.png)
 
