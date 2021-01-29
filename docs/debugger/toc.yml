@@ -424,7 +424,7 @@
     items:
     - name: Debug .NET Core apps in WSL 2
       href: debug-dotnet-core-in-wsl-2.md
-    - name: Debug .NET Core on Linux
+    - name: Debug .NET Core on Linux using SSH
       href: remote-debugging-dotnet-core-linux-with-ssh.md
   - name: Application types
     items:
