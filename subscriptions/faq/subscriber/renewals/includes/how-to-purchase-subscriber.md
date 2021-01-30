@@ -1,15 +1,16 @@
 ---
-title: How do I purchase Visual Studio subscriptions?
-description: 'Learn about the various ways you can purchase Visual Studio subscriptions'
-ms.faqid: group4_1
+title: How do I purchase Visual Studio subscriptions? 
+description: 'Learn about the various ways to purchase Visual Studio subscriptions'
+ms.faqid: q4_1
 ms.topic: include
-ms.assetid: c8dd39de-bf7f-40a2-a203-f2be21b87f5c
+ms.assetid: 5b27454c-f036-4f4d-9d67-54d1fc775f72
 author: CaityBuschlen
 ms.author: cabuschl
-ms.date: 01/27/2021
+ms.date: 01/12/2021
 ---
 
 ## How do I purchase Visual Studio subscriptions?
+
 Visual Studio subscriptions are available for purchase through a variety of channels, including [Volume Licensing](https://www.microsoft.com/licensing/default), the [Visual Studio Marketplace](https://marketplace.visualstudio.com/subscriptions), and [Microsoft Store](https://www.microsoft.com/store/collections/visualstudio).  
 
 [Compare subscription benefits and pricing](https://visualstudio.microsoft.com/vs/pricing/) to understand the benefits of each Visual Studio subscription. 
@@ -31,4 +32,4 @@ With monthly subscriptions, you can rent Visual Studio and Azure DevOps without 
 [Read more](https://docs.microsoft.com/visualstudio/subscriptions/vscloud-billing-faq) about monthly Visual Studio Subscriptions billing. 
 
 ### Volume Licensing 
-Volume Licensing subscriptions are available when an organization needs to purchase a large number of subscriptions. [Read more](https://www.microsoft.com/licensing/how-to-buy/how-to-buy) about purchasing through Volume Licensing.  
+Volume Licensing subscriptions are available when an organization needs to purchase a large number of subscriptions. [Read more](https://www.microsoft.com/licensing/how-to-buy/how-to-buy) about purchasing through Volume Licensing.

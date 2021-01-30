@@ -7,7 +7,7 @@ ms.technology:
 author: CaityBuschlen
 ms.author: cabuschl
 ms.date: 4/3/2020
-ms.faqid: q4_1
+ms.faqid: q4_3
 ---
 
 ## How do I renew my retail subscription? What is the renewal time period?
