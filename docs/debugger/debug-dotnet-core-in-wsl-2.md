@@ -1,5 +1,5 @@
 ---
-title: "Debug .NET Core Apps in WSL 2"
+title: "Debug .NET Core apps in WSL 2"
 description: Learn to run and debug your .NET Core apps in WSL 2 without leaving Visual Studio.
 ms.date: "01/25/2021"
 ms.topic: "conceptual"
