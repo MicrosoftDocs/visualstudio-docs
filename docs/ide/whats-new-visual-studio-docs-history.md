@@ -19,7 +19,7 @@ ms.workload:
 
 # History of what's new in Visual Studio docs
 
-Welcome to the history of what's new in Visual Studio docs. This article contains the major changes to the docs prior to January 2020 (starting July 2020). For the latest What's New, see [Visual Studio docs: What's new in the docs](whats-new-visual-studio-docs.md).
+Welcome to the history of what's new in Visual Studio docs. This article contains the major changes to the docs prior to January 2021 (starting July 2020). For the latest What's New, see [Visual Studio docs: What's new in the docs](whats-new-visual-studio-docs.md).
 
 ## December 2020
 ### Azure
