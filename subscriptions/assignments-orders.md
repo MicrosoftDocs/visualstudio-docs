@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: 83a9162a-b9e7-43a4-b07f-6c1fd8580f78
-ms.date: 03/02/2020
+ms.date: 02/02/2021
 ms.topic: conceptual
 description:  Learn about admins' responsibility to track user assignments and process orders.
 ---
@@ -31,6 +31,9 @@ You may be assigning subscriptions through  programs like Open License and Open 
 
 ## Enterprise, MPSA and Select Agreements
 Microsoft Enterprise Agreements (EA), MPSA and Select Plus Agreements give you flexibility in how you use and license Visual Studio software over time. Visual Studio admins must make an annual True-Up order to bring their software licenses up to the maximum usage established during the agreement period.
+
+## Need help?
+Check out [Visual Studio administration and subscriptions support](https://my.visualstudio.com/gethelp).
 
 ## See also
 - [Visual Studio documentation](/visualstudio/)
