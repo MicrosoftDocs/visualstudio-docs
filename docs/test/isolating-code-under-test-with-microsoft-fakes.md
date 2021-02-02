@@ -298,7 +298,7 @@ You will need minimal changes in your .NET Framework set up for Microsoft Fakes 
 - Microsoft Fakes tests for projects that target .NET Framework can run with all available Microsoft.TestPlatform NuGet packages.
 - Microsoft Fakes tests for projects that target .NET Core and .NET 5.0 can run with Microsoft.TestPlatform NuGet packages with versions [16.9.0-preview-20210106-01](https://www.nuget.org/packages/Microsoft.TestPlatform/16.9.0-preview-20210106-01) and higher.
 - Code coverage is supported for test projects targeting .NET Framework using Microsoft Fakes in Visual Studio Enterprise version 2015 and higher.
-- Code coverage support for test projects targeting .NET Core and .NET 5.0 using Microsoft Fakes is under development.
+- Code coverage support for test projects targeting .NET Core and .NET 5.0 using Microsoft Fakes is available in Visual Studio 2019 update 9 and higher.
 
 
 ## In this section
