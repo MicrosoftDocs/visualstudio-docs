@@ -25,7 +25,7 @@ Here are some ways to simplify taking inventory of your pre-production environme
 
 ## Resources
 - [Visual Studio licensing white paper](https://visualstudio.microsoft.com/wp-content/uploads/2019/06/Visual-Studio-Licensing-Whitepaper-May-2019.pdf)
-- [Visual Studio Administration and Subscriptions Support](https://visualstudio.microsoft.com/support/support-overview-vs)
+- [Visual Studio subscriptions support](https://my.visualstudio.com/gethelp)
 - [Volume Licensing terms](https://www.microsoft.com/licensing/product-licensing/products.aspx)
 
 ## See also
