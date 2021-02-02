@@ -54,10 +54,6 @@ Welcome to the history of what's new in Visual Studio docs. This article contain
 
 **Updated articles**
 
-- [Introduction to projects and solutions](../get-started/tutorial-projects-solutions.md)
-  - updates to Solutions & Projects topics
-  - Update tutorial-projects-solutions.md
-  - missing from menu option
 - [Tutorial: Create a simple C# console app in Visual Studio](../get-started/csharp/tutorial-console.md) - C# console tutorial: Part 2 only applies to VS 2019
 
 ### IDE
@@ -74,6 +70,10 @@ Welcome to the history of what's new in Visual Studio docs. This article contain
   - Updated screenshot
   - Developer community changes
 - [Visual Studio performance tips and tricks](./visual-studio-performance-tips-and-tricks.md) - update the Disable Diagnostic Tools section
+- [Introduction to projects and solutions](../get-started/tutorial-projects-solutions.md)
+  - updates to Solutions & Projects topics
+  - Update tutorial-projects-solutions.md
+  - missing from menu option
 
 ### Test
 
