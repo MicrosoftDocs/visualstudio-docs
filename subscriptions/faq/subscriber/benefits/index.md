@@ -5,7 +5,7 @@ ms.topic: conceptual
 ms.assetid: bc1a67a8-25b3-40a1-a355-6de2e658113e
 author: CaityBuschlen
 ms.author: cabuschl
-ms.date: 12/03/2020
+ms.date: 01/28/2020
 ms.faqid: Section3
 ---
 
@@ -18,3 +18,4 @@ ms.faqid: Section3
 [!INCLUDE [What is the Visual Studio subscriptions with GitHub Enterprise setup process?](includes/ghe-process.md)]
 
 [!INCLUDE [How do I download, find a product key, and activate the Visual Studio IDE?](includes/activate-ide.md)]
+

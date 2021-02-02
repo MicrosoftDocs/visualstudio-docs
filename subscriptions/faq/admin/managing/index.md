@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.assetid: 933c7f9e-dce9-46e7-939e-68682c65d972
 author: CaityBuschlen
 ms.author: cabuschl
-ms.date: 11/30/2020
+ms.date: 01/27/2021
 ---
 
 # Managing Visual Studio subscriptions
