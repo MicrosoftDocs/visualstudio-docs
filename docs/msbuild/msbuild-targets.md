@@ -248,7 +248,7 @@ assemblies from the various directories, and to support multi-targeting
 
 ===================================================
 AssignLinkMetadata
-For items of a certain set of whitelisted types, make sure that
+For items of a certain set of allowed types, make sure that
 if they are defined in a file other than the project file, that 
 they have "Link" metadata set to an appropriate default. 
 ===================================================
