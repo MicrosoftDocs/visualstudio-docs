@@ -10,7 +10,7 @@ description:  Learn how to request a Visual Studio subscription at your workplac
 ---
 
 ## How to request a Visual Studio subscription from your work/school
-Many organizations, including workplaces and schools, purchase Visual Studio subscriptions through a variety of licensing programs. These subscriptions are managed by subscriptions administrators (admins) who can assign subscriptons, establish preferences, and enable or disable certain features.  
+Many organizations, including workplaces and schools, purchase Visual Studio subscriptions through a variety of licensing programs. These subscriptions are managed by subscriptions administrators (admins) who can assign subscriptions, establish preferences, and enable or disable certain features.  
 
 ## Contact your subscription administrator to request a subscription
 To use a subscription managed by your organization, one must first be assigned to you by an admin. You will need to contact an admin to request a subscription. In large organizations it may be difficult to know who your admin is. Many organizations have multiple admins.  
