@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: lank
 manager: cabuschl
 ms.assetid: da8df006-4896-4ff9-b487-698d78deabc3
-ms.date: 07/30/2020
+ms.date: 02/03/2021
 ms.topic: conceptual
 description:  Learn how to find, claim and export product keys in Visual Studio subscriptions
 ---
@@ -60,6 +60,9 @@ You can export a list of all the keys you have claimed, along with a large selec
 > If your subscription expires, you will no longer be able to claim new keys or export your claimed keys.
 
 To export your keys, simply select the **Export all keys** link at the far right of the Product Keys page.  An .xml file entitled KeysExport.xml will be created, and you’ll have the option to open or save the file.  You will need to open the file with an application capable of handling .xml files.  For example, you can open the file as a read-only workbook in Excel.
+
+## Resources
+- [Visual Studio administration and subscriptions support](https://my.visualstudio.com/gethelp)
 
 ## See also
 - [Visual Studio documentation](/visualstudio/)
