@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: 97ac8e4d-7a03-42f8-98cb-15bcaa90ef65
-ms.date: 11/09/2020
+ms.date: 02/03/2021
 ms.topic: how-to
 description:  Learn how admins can edit subscription assignments.
 ---
@@ -25,7 +25,6 @@ To edit a subscriber, select the ellipses (…) that appear next to the subscrib
 You can update the subscriber’s first name, last name, subscription level, email address, country, language, downloads and reference field. Edit the subscriber’s information, and click **Save**.
 
 ## Edit multiple subscribers using bulk edit
-
 
 You can edit multiple subscribers at once using the bulk edit process. This feature is primarily used for organizations that are going through corporate email address changes or if an organization has decided to restrict access to downloads.
 
@@ -50,6 +49,9 @@ Watch this video or read on to learn how to edit multiple subscribers using bulk
    > ![Editing a License - Bulk Edits File Upload](_img/edit-license/edit-license-bulk-file-upload1.png "Browse to the location of your completed Excel file, select it, and click OK.")
 
 5. Once you’ve uploaded the file, you will see a notification letting you know it was successful. At this point, your edits will be reflected in the subscriber information.
+
+## Resources
+- [Visual Studio administration and subscriptions support](https://my.visualstudio.com/gethelp)
 
 ## See also
 - [Visual Studio documentation](/visualstudio/)
