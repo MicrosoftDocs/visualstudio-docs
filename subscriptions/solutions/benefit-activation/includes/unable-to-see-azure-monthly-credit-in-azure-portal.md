@@ -1,5 +1,5 @@
 ---
-title: I'm unable to see my Azure monthly credit in the Azure portal.
+title: Unable to see my Azure monthly credit in the Azure portal
 description: I'm unable to see my Azure monthly credit after logging into the Azure portal 
 ms.topic: include
 ms.assetid: 48420a4c-11b4-4bbd-a509-2c939d24e81a
@@ -41,6 +41,6 @@ Azure subscriptions created via the Visual Studio Subscriptions benefit may be i
 
 ## More information about Azure monthly credits
 
-[Read more](https://docs.microsoft.com/visualstudio/subscriptions/vs-azure) information on activation, eligibility, and other support resources.  
+Read more [information on activation, eligibility, and other support resources](https://docs.microsoft.com/visualstudio/subscriptions/vs-azure).  
 
-[Learn how](https://azure.microsoft.com/pricing/member-offers/credit-for-visual-studio-subscribers/#azure-credits) to use the Azure credits that are included in your Visual Studio subscription. 
+[Learn how to use the Azure credits](https://azure.microsoft.com/pricing/member-offers/credit-for-visual-studio-subscribers/#azure-credits) that are included in your Visual Studio subscription. 

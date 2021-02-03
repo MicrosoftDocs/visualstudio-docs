@@ -1,6 +1,6 @@
 ---
-title: Other 
-description: Solution shown when 'other' category is selected or no solution is found
+title: My issue is not listed 
+description: Solution shown when 'issue not listed' category is selected or no solution is found
 ms.topic: include
 ms.assetid: c1537b27-0ae4-4bf3-b1e4-ff05f8e14359
 author: caitybuschlen

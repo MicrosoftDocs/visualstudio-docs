@@ -1,5 +1,5 @@
 ---
-title: I'm unable to locate a product
+title: Unable to locate a product
 description: I'm unable to locate a product to download with my Visual Studio subscription.
 ms.topic: include
 ms.assetid: a3635d25-8f9d-4cf8-a9c3-db41d155f989
@@ -29,4 +29,4 @@ You can [download an extensive list](https://download.microsoft.com/download/1/5
 You can also visit the [Product Keys](https://my.visualstudio.com/productkeys) page where all keys are available in aggregate. You can edit the notes column for identifying when and why you claimed the key. 
 
 ## More information about product keys
-[Read more](https://docs.microsoft.com/visualstudio/subscriptions/find-keys) on finding and claiming product keys and downloads.  
+Read more on [finding and claiming product keys and downloads](https://docs.microsoft.com/visualstudio/subscriptions/find-keys).  
