@@ -47,6 +47,9 @@ To obtain a product key for the download, you can either select the blue key lab
 > [!div class="mx-imgBorder"]
 > ![Visual Studio 2019 claim product keys](_img/subscriber-downloads/vs2019-claim-keys.png "Select Claim Key to claim remaining keys.")
 
+## Resources
+[Visual Studio administration and subscriptions support](https://my.visualstudio.com/gethelp)
+
 ## See also
 - [Visual Studio documentation](/visualstudio/)
 - [Azure DevOps documentation](/azure/devops/)
