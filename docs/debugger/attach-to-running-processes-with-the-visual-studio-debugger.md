@@ -32,7 +32,7 @@ ms.workload:
 ---
 # Attach to running processes with the Visual Studio debugger
 
-You can attach the Visual Studio debugger to a running process on a local or remote computer. After the process is running, select **Debug** > **Attach to Process** or press **Ctrl**+**Alt**+**P** in Visual Studio, and use the **Attach to Process** dialog to attach the debugger to the process.
+You can attach the Visual Studio debugger to a running process on a local or remote computer. After the process is running, select **Debug** > **Attach to Process** or press **Ctrl**+**Alt**+**p** in Visual Studio, and use the **Attach to Process** dialog to attach the debugger to the process.
 
 You can use **Attach to Process** to debug running apps on local or remote computers, debug multiple processes simultaneously, debug apps that weren't created in Visual Studio, or debug any app you didn't start from Visual Studio with the debugger attached. For example, if you're running an app without the debugger and hit an exception, you can then attach the debugger to the process running the app and begin debugging.
 
