@@ -1,5 +1,5 @@
 ---
-title: I'm unable to activate my Azure Dev / Test Pay-As-You-Go subscription.
+title: Unable to activate my Azure Dev / Test Pay-As-You-Go subscription
 description: I'm unable to activate my Azure Dev / Test Pay-As-You-Go subscription included with my Visual Studio subscription? 
 ms.topic: include
 ms.assetid: 6ad8bb6e-e571-450e-860b-acf1e78921d7
@@ -24,4 +24,4 @@ As a Visual Studio subscriber, you receive exclusive discounted hourly rates for
 
 ## More information about subscriptions
  
-[Read more information about Azure Dev/Test Pay-As-You-Go subscriptions](https://docs.microsoft.com/visualstudio/subscriptions/vs-azure-payg).
+Read more [information about Azure Dev/Test Pay-As-You-Go subscriptions](https://docs.microsoft.com/visualstudio/subscriptions/vs-azure-payg).

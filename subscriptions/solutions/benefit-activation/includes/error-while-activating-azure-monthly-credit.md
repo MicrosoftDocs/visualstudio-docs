@@ -1,5 +1,5 @@
 ---
-title: I'm getting an error while trying to activate my Azure monthly credit.
+title: Getting an error while trying to activate my Azure monthly credit
 description: I'm getting an error while trying to activate my Azure monthly credit included with my Visual Studio subscription.
 ms.topic: include
 ms.assetid: eed8114a-651a-47e2-bb24-130acd2a76d0

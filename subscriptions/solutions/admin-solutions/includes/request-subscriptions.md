@@ -1,5 +1,5 @@
 ---
-title: Contact your admin to have a Visual Studio Subscription assigned | Microsoft Docs
+title: Contact your admin to have a Visual Studio Subscription assigned
 author: evanwindom
 ms.author: v-evwin
 manager: csbuschl
