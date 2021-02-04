@@ -1,5 +1,5 @@
 ---
-title: I'm unable to activate my Pluralsight benefit.
+title: Unable to activate my Pluralsight benefit
 description: I'm unable to activate my Pluralsight benefit included with my Visual Studio subscription? 
 ms.topic: include
 ms.assetid: 7e5d8886-538c-4e29-9c4c-8989cf4e09dd
@@ -26,4 +26,4 @@ this registration page expires after a few minutes. If you don't complete the re
 
 ## More information about the Pluralsight benefit
 
-[Read more](https://docs.microsoft.com/visualstudio/subscriptions/vs-pluralsight) information on activation, eligibility, and FAQs about the Pluralsight benefit.  
+Read more [information on activation, eligibility, and FAQs about the Pluralsight benefit](https://docs.microsoft.com/visualstudio/subscriptions/vs-pluralsight).  

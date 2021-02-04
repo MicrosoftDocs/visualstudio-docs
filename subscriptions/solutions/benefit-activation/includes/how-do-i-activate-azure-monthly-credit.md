@@ -28,6 +28,6 @@ There is no cost to use your Azure dev/test individual credit and no credit card
 Azure subscriptions created via the Visual Studio Subscriptions benefit may be impacted by restrictions that aren’t imposed on paid subscriptions. Certain geographies may not be available for creating VMs and Azure services, and certain service types may not be available. There may be a lower default quota than on paid subscriptions.  
 
 ## More information about Azure credits
-[Read more](https://docs.microsoft.com/visualstudio/subscriptions/vs-azure) information on activation, eligibility, and other support resources.  
+Read more [information on activation, eligibility, and other support resources](https://docs.microsoft.com/visualstudio/subscriptions/vs-azure).  
 
-[Learn how](https://azure.microsoft.com/pricing/member-offers/credit-for-visual-studio-subscribers/#azure-credits) to use the Azure credits that are included in your Visual Studio subscription.  
+[Learn how to use the Azure credits](https://azure.microsoft.com/pricing/member-offers/credit-for-visual-studio-subscribers/#azure-credits) that are included in your Visual Studio subscription.  

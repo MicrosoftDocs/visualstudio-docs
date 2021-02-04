@@ -86,6 +86,8 @@ Before creating the layout, you can find out the total size of the download and 
 
 Let's walk through a few examples of how to preview, generate, and regenerate a minimal layout:
 
+::: moniker range="vs-2019"
+
 - First, here's an example of how to preview a layout for Visual Studio Enterprise versions 16.4.0 to 16.4.4 for English only.
 
     ```cmd
@@ -117,6 +119,44 @@ A couple of other examples using the **generate** command:
     ```cmd
     MinimalLayout.exe generate --targetLocation c:\VSLayout\ --productId Microsoft.VisualStudio.Product.Enterprise --baseVersion 16.4.0 --targetVersion 16.4.4 --add Microsoft.VisualStudio.Workload.ManagedDesktop;includeOptional --languages en-US fr-FR
     ```
+
+::: moniker-end
+
+::: moniker range="vs-2017"
+
+- First, here's an example of how to preview a layout for Visual Studio Enterprise versions 15.0.0 to 15.9.31 for English only.
+
+    ```cmd
+    MinimalLayout.exe preview --targetLocation c:\VSLayout\ --productId Microsoft.VisualStudio.Product.Enterprise --baseVersion 15.0.0 --targetVersion 15.9.31 --languages en-US
+    ```
+
+- Here's how to generate that same layout with one workload.
+
+    ```cmd
+    MinimalLayout.exe generate --targetLocation c:\VSLayout\ --productId Microsoft.VisualStudio.Product.Enterprise --baseVersion 15.0.0 --targetVersion 15.9.31 --add Microsoft.VisualStudio.Workload.ManagedDesktop;includeOptional --languages en-US
+    ```
+
+- And here's how to regenerate a minimal offline layout using an existing response file. 
+
+    ```cmd
+    MinimalLayout.exe regenerate -filepath c:\VSLayout\MinimalLayout.json
+    ```
+
+A couple of other examples using the **generate** command:
+
+- Here's how to add an additional workload, and include only the recommended packages. 
+
+    ```cmd
+    MinimalLayout.exe generate --targetLocation c:\VSLayout\ --productId Microsoft.VisualStudio.Product.Professional --baseVersion 15.0.0 --targetVersion 15.9.31 --add Microsoft.VisualStudio.Workload.ManagedDesktop Microsoft.VisualStudio.Workload.NetWeb;includeRecommended --languages en-US
+    ```
+
+- And finally, here's how you'd include multiple languages in your minimal layout. 
+
+    ```cmd
+    MinimalLayout.exe generate --targetLocation c:\VSLayout\ --productId Microsoft.VisualStudio.Product.Enterprise --baseVersion 15.0.0 --targetVersion 15.9.31 --add Microsoft.VisualStudio.Workload.ManagedDesktop;includeOptional --languages en-US fr-FR
+    ```
+
+::: moniker-end
 
 ### How to maintain a minimal layout
 
