@@ -44,7 +44,7 @@ The schema link in an MSBuild project file is not required in Visual Studio 2017
 |[Output element (MSBuild)](../msbuild/output-element-msbuild.md)|--|Condition<br /><br /> ItemName<br /><br /> PropertyName<br /><br /> TaskParameter|
 |[Parameter element](../msbuild/parameter-element.md)|--|Output<br /><br /> ParameterType<br /><br /> Required|
 |[ParameterGroup element](../msbuild/parametergroup-element.md)|*Parameter*|--|
-|[Project element (MSBuild)](../msbuild/project-element-msbuild.md)|Choose<br /><br /> Import<br /><br /> ItemGroup<br /><br /> ProjectExtensions<br /><br /> PropertyGroup<br /><br /> Target<br /><br /> UsingTask|DefaultTargets<br /><br /> InitialTargets<br /><br /> ToolsVersion<br /><br /> TreatAsLocalProperty<br /><br /> xmlns|
+|[Project element (MSBuild)](../msbuild/project-element-msbuild.md)|Choose<br /><br /> Import<br /><br /> InitialTargets<br /><br /> ItemGroup<br /><br /> ProjectExtensions<br /><br /> PropertyGroup<br /><br /> Sdk<br /><br /> Target<br /><br /> ToolsVersion<br /><br /> TreatAsLocalProperty<br /><br /> UsingTask|DefaultTargets<br /><br /> xmlns|
 |[ProjectExtensions element (MSBuild)](../msbuild/projectextensions-element-msbuild.md)|--|--|
 |[Property element (MSBuild)](../msbuild/property-element-msbuild.md)|--|Condition|
 |[PropertyGroup element (MSBuild)](../msbuild/propertygroup-element-msbuild.md)|*Property*|Condition|
