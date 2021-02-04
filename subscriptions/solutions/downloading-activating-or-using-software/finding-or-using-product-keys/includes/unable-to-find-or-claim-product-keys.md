@@ -24,4 +24,4 @@ If you don’t see a key or product, it’s possible that the product is not ava
 
 ## More information on product key types
 
-[Read more](https://docs.microsoft.com/visualstudio/subscriptions/find-keys) about product key types and claiming product keys.  
+Read more about [product key types and claiming product keys](https://docs.microsoft.com/visualstudio/subscriptions/find-keys).  

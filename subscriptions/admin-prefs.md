@@ -68,7 +68,7 @@ A:  Check out our [Contact my Admin](contact-my-admin.md) article.
 A:  If no specific email address is set in the **Contact email address** preference, all admins on the agreement will receive the request. 
 
 ## Resources
-- [Visual Studio Administration and Subscriptions Support](https://visualstudio.microsoft.com/support/support-overview-vs)
+- [Visual Studio administration and subscriptions support](https://my.visualstudio.com/gethelp)
 
 ## See also
 - [Visual Studio documentation](/visualstudio/)

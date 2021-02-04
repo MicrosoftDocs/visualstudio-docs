@@ -1,5 +1,5 @@
 ---
-title: Page cannot be displayed.
+title: Page cannot be displayed
 description: Page cannot be displayed in the Visual Studio subscription portal.
 ms.topic: include
 ms.assetid: aef07dc7-29cc-406e-9373-0b808facb35b
