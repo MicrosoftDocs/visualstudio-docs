@@ -1,5 +1,5 @@
 ---
-title: Help me renew my through the Microsoft store.
+title: Help me renew my through the Microsoft store
 description: Help me renew my Visual Studio subscriptions purchased from the Microsoft store.
 ms.topic: include
 ms.assetid: 3b36270b-aa3b-4c05-b12e-4df8d6f823c1

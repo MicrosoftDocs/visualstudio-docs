@@ -1,5 +1,5 @@
 ---
-title: I'm unable to download or activate software (excluding Visual Studio family)
+title: Unable to download or activate software (excluding Visual Studio family)
 description: I'm unable to download or activate software (excluding Visual Studio family), included with my Visual Studio subscription.
 ms.topic: include
 ms.assetid: 4e67a935-40f9-4c26-b836-e06aa8582bad
@@ -29,4 +29,4 @@ You can [download an extensive list](https://download.microsoft.com/download/1/5
 You can also visit the [Product Keys](https://my.visualstudio.com/productkeys) page where all keys are available in aggregate. You can edit the notes column for identifying when and why you claimed the key. 
 
 ## More information about downloads 
-[Read more](https://docs.microsoft.com/visualstudio/subscriptions/find-keys) on finding and claiming product keys and downloads.  
+Read more on [finding and claiming product keys and downloads](https://docs.microsoft.com/visualstudio/subscriptions/find-keys).  
