@@ -22,5 +22,4 @@ If you purchased one or more cloud subscriptions for yourself, you were set up a
 0. Change the email address as desired.
 0. Click **Save**.
 
-> [!NOTE]
-> This does not change the email address you use to sign in to the Administration Portal.
+Note: This does not change the email address you use to sign in to the Administration Portal.
