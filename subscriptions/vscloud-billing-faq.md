@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: 21e0471d-ad59-4d21-9c6f-13f7147569af
-ms.date: 10/21/2020
+ms.date: 02/04/2021
 ms.topic: conceptual
 description:  Billing questions for cloud subscriptions.
 ---
@@ -25,6 +25,9 @@ Some types of Azure subscriptions, including [Azure Free Trial](https://azure.mi
 
 ### Q: Am I required to buy other Azure services?
 A: Not at all. If you only want to buy Visual Studio cloud subscriptions via Azure, you can do that.
+
+### Q: Where can I view my billing and usage data?
+A:  Get information on [viewing your invoice and usage](https://docs.microsoft.com/azure/cost-management-billing/manage/download-azure-invoice-daily-usage-date).
 
 ## Enterprise Agreement (EA) customers
 ### Q: Can I use an Enterprise Agreement to buy Visual Studio cloud subscriptions?
