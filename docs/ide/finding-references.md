@@ -9,7 +9,7 @@ helpviewer_keywords:
 - find all references
 author: TerryGLee
 ms.author: tglee
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ---

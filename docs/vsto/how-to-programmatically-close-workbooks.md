@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "Excel [Office development in Visual Studio], closing workbooks"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

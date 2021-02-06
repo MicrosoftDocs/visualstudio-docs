@@ -13,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: 2429993A-3F0E-41C5-9562-FEA6AE994440
 author: ornellaalt
 ms.author: ornella
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ms.prod: visual-studio-windows

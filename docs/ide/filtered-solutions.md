@@ -10,7 +10,7 @@ helpviewer_keywords:
  - "solution filtering"
 author: jillre
 ms.author: stsu
-manager: jillfra
+manager: jmartens
 monikerRange: ">= vs-2019"
 ---
 # Filtered solutions in Visual Studio

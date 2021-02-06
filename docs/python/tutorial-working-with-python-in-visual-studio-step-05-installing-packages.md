@@ -6,7 +6,7 @@ ms.date: 03/09/2020
 ms.topic: tutorial
 author: JoshuaPartlow
 ms.author: joshuapa
-manager: jillfra
+manager: jmartens
 ms.custom: seodec18
 ms.workload:
   - python

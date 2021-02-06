@@ -6,7 +6,7 @@ ms.date: 03/05/2019
 ms.topic: overview
 author: TerryGLee
 ms.author: tglee
-manager: jillfra
+manager: jmartens
 dev_langs:
 - CSharp
 ms.workload:

@@ -7,7 +7,7 @@ f1_keywords:
   - "vs.toolsoptionspages.text_editor.r.lint"
 author: kraigb
 ms.author: kraigb
-manager: jillfra
+manager: jmartens
 ms.workload:
   - data-science
 ---

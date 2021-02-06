@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "managed code, debugging"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "dotnet"
 ---

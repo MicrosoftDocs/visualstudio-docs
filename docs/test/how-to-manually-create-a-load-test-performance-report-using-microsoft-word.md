@@ -10,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 3b864c75-2699-48c1-a2b4-9651f108c267
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ---
 # How to: Manually create a load test performance report using Microsoft Word
 

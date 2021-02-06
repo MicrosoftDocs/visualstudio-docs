@@ -14,7 +14,7 @@ helpviewer_keywords:
 - outlining code
 author: TerryGLee
 ms.author: tglee
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ---

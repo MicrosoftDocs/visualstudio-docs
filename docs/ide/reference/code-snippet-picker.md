@@ -12,7 +12,7 @@ helpviewer_keywords:
 - code snippets, Code Snippet Picker
 author: TerryGLee
 ms.author: tglee
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ---

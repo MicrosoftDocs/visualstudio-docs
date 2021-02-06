@@ -8,7 +8,7 @@ helpviewer_keywords:
   - configure test agents, test lab
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload:
   - multiple
 ---

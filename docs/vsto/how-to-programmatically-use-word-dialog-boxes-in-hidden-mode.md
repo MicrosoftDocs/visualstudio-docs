@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "dialog boxes, hidden mode in Word"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

@@ -7,7 +7,7 @@ f1_keywords:
   - vs.unittesting.testexplorer.overview
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload: 
   - multiple
 ---

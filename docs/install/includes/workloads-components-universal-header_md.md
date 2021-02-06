@@ -1,7 +1,7 @@
 ---
 author: ornellaalt
 ms.author: ornella
-manager: jillfra
+manager: jmartens
 ms.date: 03/16/2020
 ms.prod: visual-studio-windows
 ms.technology: vs-installation

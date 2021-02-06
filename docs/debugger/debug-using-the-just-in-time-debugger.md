@@ -9,7 +9,7 @@ helpviewer_keywords:
   - Just-In-Time debugging
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload: 
   - multiple
 ---

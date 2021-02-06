@@ -11,7 +11,7 @@ helpviewer_keywords:
 - project templates [Visual Studio]
 author: TerryGLee
 ms.author: tglee
-manager: jillfra
+manager: jmartens
 ---
 # Project and item templates
 

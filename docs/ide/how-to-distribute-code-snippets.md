@@ -9,7 +9,7 @@ helpviewer_keywords:
 ms.assetid: 5f717abd-e167-47ae-818c-6b0bae100ceb
 author: TerryGLee
 ms.author: tglee
-manager: jillfra
+manager: jmartens
 dev_langs:
 - VB
 ms.workload:

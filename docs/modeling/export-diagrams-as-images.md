@@ -10,7 +10,7 @@ helpviewer_keywords:
 - UML diagrams, saving
 author: JoshuaPartlow
 ms.author: joshuapa
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ---

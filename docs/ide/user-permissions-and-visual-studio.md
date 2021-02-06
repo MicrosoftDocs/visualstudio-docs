@@ -10,7 +10,7 @@ helpviewer_keywords:
 - permissions
 author: TerryGLee
 ms.author: tglee
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ---

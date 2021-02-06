@@ -14,7 +14,7 @@ helpviewer_keywords:
   - code metrics [Visual Studio]
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ---

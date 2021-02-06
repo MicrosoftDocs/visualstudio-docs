@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "configuration files [Office development in Visual Studio]"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

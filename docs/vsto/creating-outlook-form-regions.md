@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "Outlook [Office development in Visual Studio], form regions"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

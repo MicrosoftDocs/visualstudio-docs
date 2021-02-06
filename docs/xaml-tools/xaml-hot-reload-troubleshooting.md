@@ -8,7 +8,7 @@ helpviewer_keywords:
   - "xaml hot reload, troubleshooting"
 author: TerryGLee
 ms.author: tglee
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

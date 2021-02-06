@@ -7,7 +7,7 @@ ms.topic: how-to
 ms.assetid: adbc5382-d170-441c-9fd0-80faa1816478
 author: acangialosi
 ms.author: anthc
-manager: jillfra
+manager: jmartens
 dev_langs:
 - CSharp
 - VB

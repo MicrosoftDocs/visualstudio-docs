@@ -9,7 +9,7 @@ helpviewer_keywords:
 ms.assetid: 00bec66b-bcee-46f5-91d9-f73a2b469744
 author: TerryGLee
 ms.author: tglee
-manager: jillfra
+manager: jmartens
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
 ms.topic: conceptual

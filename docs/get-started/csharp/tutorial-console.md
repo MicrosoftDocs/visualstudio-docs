@@ -9,7 +9,7 @@ ms.topic: tutorial
 ms.devlang: CSharp
 author: ornellaalt
 ms.author: ornella
-manager: jillfra
+manager: jmartens
 dev_langs:
   - CSharp
 ms.workload:

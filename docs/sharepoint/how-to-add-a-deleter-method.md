@@ -18,7 +18,7 @@ helpviewer_keywords:
   - "Business Data Connectivity service [SharePoint development in Visual Studio], removing data"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

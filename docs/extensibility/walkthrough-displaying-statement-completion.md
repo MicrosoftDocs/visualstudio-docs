@@ -9,7 +9,7 @@ helpviewer_keywords:
 ms.assetid: f3152c4e-7673-4047-a079-2326941d1c83
 author: acangialosi
 ms.author: anthc
-manager: jillfra
+manager: jmartens
 dev_langs:
 - CSharp
 - VB

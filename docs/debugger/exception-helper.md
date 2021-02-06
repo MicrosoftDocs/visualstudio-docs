@@ -16,7 +16,7 @@ helpviewer_keywords:
   - debugging [Visual Studio], exception helper, Examine an exception
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload: 
   - multiple
 ---

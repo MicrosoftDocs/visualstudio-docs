@@ -14,7 +14,7 @@ helpviewer_keywords:
 - exporting shortcut keys [Visual Studio]
 author: TerryGLee
 ms.author: tglee
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ---

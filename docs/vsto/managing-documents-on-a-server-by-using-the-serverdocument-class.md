@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "ServerDocument class, managing documents on server"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

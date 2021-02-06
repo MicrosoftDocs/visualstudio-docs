@@ -15,7 +15,7 @@ helpviewer_keywords:
 - dependency graphs
 author: JoshuaPartlow
 ms.author: joshuapa
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ---

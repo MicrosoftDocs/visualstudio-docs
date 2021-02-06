@@ -4,7 +4,7 @@ ms.date: 08/12/2020
 ms.topic: reference
 author: m-redding
 ms.author: midumont
-manager: jillfra
+manager: jmartens
 dev_langs:
   - CSharp
 ms.workload: 

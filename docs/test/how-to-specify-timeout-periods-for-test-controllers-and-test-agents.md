@@ -12,7 +12,7 @@ helpviewer_keywords:
 ms.assetid: 777d0db5-0073-458a-a2a3-58b1c1f24c60
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ---
 # How to: Specify timeout periods for test controllers and test agents
 

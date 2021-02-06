@@ -7,7 +7,7 @@ ms.topic: reference
 helpviewer_keywords:
   - "IntelliTest, Exploration bounds"
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 author: mikejo5000

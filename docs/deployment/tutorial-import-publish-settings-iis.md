@@ -7,7 +7,7 @@ helpviewer_keywords:
   - "deployment, publish settings"
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

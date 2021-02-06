@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "site definitions [SharePoint development in Visual Studio]"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

@@ -7,7 +7,7 @@ ms.topic: how-to
 ms.assetid: 0fb78bbc-7a78-4ab4-b32f-85ece912e660
 author: ghogen
 ms.author: ghogen
-manager: jillfra
+manager: jmartens
 ms.workload:
 - data-storage
 ---

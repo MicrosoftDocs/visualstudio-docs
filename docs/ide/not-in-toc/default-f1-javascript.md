@@ -8,7 +8,7 @@ f1_keywords:
 - "javascript_language_reference"
 dev_langs:
   - JavaScript
-manager: jillfra
+manager: jmartens
 author: mikejo5000
 ms.author: mikejo
 ---

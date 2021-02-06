@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "add-ins [Office development in Visual Studio], enabling"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

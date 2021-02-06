@@ -7,7 +7,7 @@ ms.topic: how-to
 ms.assetid: 36ea793b-3832-41a1-b906-69e680ad5e1d
 author: acangialosi
 ms.author: anthc
-manager: jillfra
+manager: jmartens
 ms.workload:
 - vssdk
 ---

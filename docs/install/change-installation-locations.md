@@ -11,7 +11,7 @@ helpviewer_keywords:
 - use the D drive
 author: ornellaalt
 ms.author: ornella
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ms.prod: visual-studio-windows

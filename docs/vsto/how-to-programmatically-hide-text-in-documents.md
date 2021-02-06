@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "text [Office development in Visual Studio], hiding in documents"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

@@ -8,7 +8,7 @@ helpviewer_keywords:
   - "debugging [Visual Studio], find your feature"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

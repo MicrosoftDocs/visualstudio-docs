@@ -6,7 +6,7 @@ helpviewer_keywords:
 - IDebugStopCompleteEvent2 interface
 author: acangialosi
 ms.author: anthc
-manager: jillfra
+manager: jmartens
 ms.workload:
 - vssdk
 ---

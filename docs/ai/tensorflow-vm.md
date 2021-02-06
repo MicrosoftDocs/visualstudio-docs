@@ -4,7 +4,7 @@ description: run a tensorflow model in azure deep learning vm
 keywords: ai, visual studio, deep learning virtual machine
 author: jillre
 ms.author: jillfra
-manager: jillfra
+manager: jmartens
 monikerRange: vs-2017
 ms.date: 11/13/2017
 ms.topic: tutorial

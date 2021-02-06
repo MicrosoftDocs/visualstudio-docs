@@ -27,7 +27,7 @@ helpviewer_keywords:
 - debugging [Visual Studio], visualizing the call stack
 author: JoshuaPartlow
 ms.author: joshuapa
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ---

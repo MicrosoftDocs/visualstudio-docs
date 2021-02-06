@@ -7,7 +7,7 @@ f1_keywords:
   - "vs.performance.property.general"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 monikerRange: 'vs-2017'
 ms.workload:
   - "multiple"

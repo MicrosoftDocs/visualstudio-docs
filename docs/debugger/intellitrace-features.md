@@ -19,7 +19,7 @@ helpviewer_keywords:
   - "debugging [Visual Studio ALM], IntelliTrace"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

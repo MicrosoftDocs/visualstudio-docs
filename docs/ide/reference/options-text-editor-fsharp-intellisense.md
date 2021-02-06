@@ -8,7 +8,7 @@ f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.FSharp.IntelliSense"
 author: jillre
 ms.author: jillfra
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "dotnet"
 ---

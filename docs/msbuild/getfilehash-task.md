@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "MSBuild, GetFileHash task"
 author: ghogen
 ms.author: ghogen
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

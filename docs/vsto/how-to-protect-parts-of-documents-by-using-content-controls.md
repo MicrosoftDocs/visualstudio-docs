@@ -18,7 +18,7 @@ helpviewer_keywords:
   - "GroupContentControl"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

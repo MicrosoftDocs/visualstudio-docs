@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "ClickOnce deployment [Office development in Visual Studio], deploying solutions"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

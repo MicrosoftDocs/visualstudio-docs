@@ -9,7 +9,7 @@ helpviewer_keywords:
 - unit tests, verifying code with
 - testing code, automated tests
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 author: mikejo5000

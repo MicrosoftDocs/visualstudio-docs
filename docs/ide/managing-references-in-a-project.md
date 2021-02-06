@@ -20,7 +20,7 @@ helpviewer_keywords:
 - objects [Visual Studio], referencing
 author: TerryGLee
 ms.author: tglee
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ---

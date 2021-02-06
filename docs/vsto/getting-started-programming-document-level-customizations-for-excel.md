@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "Excel projects [Office development in Visual Studio], getting started"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

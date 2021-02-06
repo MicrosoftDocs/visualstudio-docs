@@ -23,7 +23,7 @@ helpviewer_keywords:
 ms.assetid: 276e2254-7274-435e-ba4d-67fcef4f33bc
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "cplusplus"
 ---

@@ -15,7 +15,7 @@ helpviewer_keywords:
   - debugging [Visual Studio], expression evaluation
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload: 
   - multiple
 ---

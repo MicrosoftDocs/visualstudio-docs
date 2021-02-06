@@ -19,7 +19,7 @@ helpviewer_keywords:
 - projects [Visual Studio]
 author: TerryGLee
 ms.author: tglee
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ---

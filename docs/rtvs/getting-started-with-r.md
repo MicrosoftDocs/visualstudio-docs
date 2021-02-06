@@ -5,7 +5,7 @@ ms.date: 06/29/2017
 ms.topic: tutorial
 author: kraigb
 ms.author: kraigb
-manager: jillfra
+manager: jmartens
 ms.workload:
   - data-science
 ---

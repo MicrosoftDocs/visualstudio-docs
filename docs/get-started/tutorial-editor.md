@@ -7,7 +7,7 @@ ms.custom: [get-started, SEO-VS-2020]
 ms.topic: tutorial
 author: TerryGLee
 ms.author: tglee
-manager: jillfra
+manager: jmartens
 dev_langs:
 - CSharp
 ms.workload:

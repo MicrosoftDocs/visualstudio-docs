@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "workbooks, creating"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

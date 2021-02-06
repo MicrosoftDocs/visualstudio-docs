@@ -40,7 +40,7 @@ helpviewer_keywords:
 ms.assetid: 7e208e1d-5e3a-4bf7-a27b-4417e3e049c7
 author: TerryGLee
 ms.author: tglee
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ---

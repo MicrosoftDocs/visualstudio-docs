@@ -16,7 +16,7 @@ helpviewer_keywords:
   - "_AssemblyName property"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

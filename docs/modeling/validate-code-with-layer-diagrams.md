@@ -18,7 +18,7 @@ helpviewer_keywords:
 - MSBuild, validating code
 author: JoshuaPartlow
 ms.author: joshuapa
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ---

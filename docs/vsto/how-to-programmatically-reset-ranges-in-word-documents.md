@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "ranges, resetting in documents"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

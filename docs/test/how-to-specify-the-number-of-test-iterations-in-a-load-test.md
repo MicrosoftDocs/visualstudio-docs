@@ -10,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 45a625db-b3e7-4d64-beda-b9a76248096d
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ---
 # How to: Specify the number of test iterations in a load test run setting
 
