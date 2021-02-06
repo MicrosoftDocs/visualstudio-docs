@@ -11,7 +11,7 @@ helpviewer_keywords:
 - Prerequisites dialog box
 author: Mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ---

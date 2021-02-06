@@ -13,7 +13,7 @@ f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.Python.Advanced"
 author: JoshuaPartlow
 ms.author: joshuapa
-manager: jillfra
+manager: jmartens
 ms.workload:
   - python
   - data-science

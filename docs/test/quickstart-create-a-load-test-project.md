@@ -8,7 +8,7 @@ helpviewer_keywords:
 - load testing, quickstart
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ---
 # Quickstart: Create a load test project
 

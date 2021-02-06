@@ -10,7 +10,7 @@ helpviewer_keywords:
   - "build environment, MSBuild"
 author: ghogen
 ms.author: ghogen
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

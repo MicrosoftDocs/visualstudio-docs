@@ -19,7 +19,7 @@ helpviewer_keywords:
 - dependency graphs, assigning categories and properties
 author: JoshuaPartlow
 ms.author: joshuapa
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ---

@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "SharePoint Connections [SharePoint development in Visual Studio], creating a new node type"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

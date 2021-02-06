@@ -12,7 +12,7 @@ helpviewer_keywords:
 ms.assetid: a612f2d2-9806-477d-a126-12842f07da6e
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ---
 # How to: Create a web performance test plug-in
 

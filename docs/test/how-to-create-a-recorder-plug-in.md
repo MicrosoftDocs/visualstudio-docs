@@ -9,7 +9,7 @@ helpviewer_keywords:
 ms.assetid: 6fe13be1-aeb5-4927-9bff-35950e194da9
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ---
 # How to: Create a recorder plug-in
 

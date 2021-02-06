@@ -9,7 +9,7 @@ helpviewer_keywords:
  - "Solution Explorer, file nesting"
 author: angelosp
 ms.author: angelpe
-manager: jillfra
+manager: jmartens
 ---
 # File nesting in Solution Explorer
 

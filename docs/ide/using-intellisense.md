@@ -14,7 +14,7 @@ helpviewer_keywords:
 - IntelliSense [Visual Studio]
 author: TerryGLee
 ms.author: tglee
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ---

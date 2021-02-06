@@ -10,7 +10,7 @@ helpviewer_keywords:
 - code, exploring
 author: JoshuaPartlow
 ms.author: joshuapa
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ---

@@ -12,7 +12,7 @@ helpviewer_keywords:
 - keyboard shortcuts
 author: TerryGLee
 ms.author: tglee
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ---

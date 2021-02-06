@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "Options dialog box, Project Upgrade page"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

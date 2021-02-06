@@ -6,7 +6,7 @@ ms.date: 03/27/2020
 ms.topic: reference
 author: mikadumont
 ms.author: midumont
-manager: jillfra
+manager: jmartens
 dev_langs:
   - CSharp
 ms.workload: 

@@ -7,7 +7,7 @@ ms.topic: how-to
 ms.assetid: d11803e7-f81a-41a2-a145-ba494a45cc93
 author: TerryGLee
 ms.author: tglee
-manager: jillfra
+manager: jmartens
 dev_langs:
 - VB
 ms.workload:

@@ -8,7 +8,7 @@ helpviewer_keywords:
   - "debugging, Docker container"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 monikerRange: '>= vs-2019'
 ms.workload:
   - "multiple"

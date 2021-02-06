@@ -15,7 +15,7 @@ helpviewer_keywords:
 - Object Browser, icons in Class View
 author: TerryGLee
 ms.author: tglee
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ---

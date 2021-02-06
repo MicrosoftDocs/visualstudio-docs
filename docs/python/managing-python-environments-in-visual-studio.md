@@ -5,7 +5,7 @@ ms.date: 08/06/2019
 ms.topic: how-to
 author: JoshuaPartlow
 ms.author: joshuapa
-manager: jillfra
+manager: jmartens
 ms.workload:
   - python
   - data-science

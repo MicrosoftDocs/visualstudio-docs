@@ -8,7 +8,7 @@ helpviewer_keywords:
   - "remote debugging, unblock download"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

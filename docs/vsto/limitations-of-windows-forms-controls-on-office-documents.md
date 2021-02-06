@@ -20,7 +20,7 @@ helpviewer_keywords:
   - "Windows Forms controls [Office development in Visual Studio], Toolbox"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

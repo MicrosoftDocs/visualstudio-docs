@@ -8,7 +8,7 @@ helpviewer_keywords:
 - Windows Forms Designer, get started
 author: TerryGLee
 ms.author: tglee
-manager: jillfra
+manager: jmartens
 ---
 # Tutorial: Get started with Windows Forms Designer
 

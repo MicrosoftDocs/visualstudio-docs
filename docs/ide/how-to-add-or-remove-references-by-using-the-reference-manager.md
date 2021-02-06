@@ -20,7 +20,7 @@ helpviewer_keywords:
 - referencing components, assemblies not listed
 author: TerryGLee
 ms.author: tglee
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ---

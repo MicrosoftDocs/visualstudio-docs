@@ -6,7 +6,7 @@ ms.topic: "conceptual"
 description: "Describes the processes for using Bridge to Kubernetes to connect your development computer to your Kubernetes cluster"
 keywords: "Bridge to Kubernetes, Docker, Kubernetes, Azure, containers"
 monikerRange: ">=vs-2019"
-manager: jillfra
+manager: jmartens
 author: ghogen
 ms.author: ghogen
 ---

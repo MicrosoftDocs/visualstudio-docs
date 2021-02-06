@@ -9,7 +9,7 @@ helpviewer_keywords:
 - walkthroughs [text templates], directive processor
 author: JoshuaPartlow
 ms.author: joshuapa
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 dev_langs:

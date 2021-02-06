@@ -8,7 +8,7 @@ helpviewer_keywords:
 - PROCESS_INFO_FLAGS enumeration
 author: acangialosi
 ms.author: anthc
-manager: jillfra
+manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:

@@ -9,7 +9,7 @@ f1_keywords:
 - VS.ToolsOptionsPages.XAML_Designer.General
 author: TerryGLee
 ms.author: tglee
-manager: jillfra
+manager: jmartens
 ms.workload:
 - uwp
 ---

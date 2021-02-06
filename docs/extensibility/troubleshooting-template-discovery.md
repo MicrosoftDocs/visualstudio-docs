@@ -6,7 +6,7 @@ ms.date: 01/02/2018
 ms.topic: troubleshooting
 author: acangialosi
 ms.author: anthc
-manager: jillfra
+manager: jmartens
 ms.workload:
 - vssdk
 ---

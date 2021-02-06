@@ -17,7 +17,7 @@ helpviewer_keywords:
   - "custom Ribbon, multiple Ribbons"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

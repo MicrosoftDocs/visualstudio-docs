@@ -8,7 +8,7 @@ helpviewer_keywords:
 - MSBuildDisableFeaturesFromVersion environment variable
 author: ghogen
 ms.author: ghogen
-manager: jillfra
+manager: jmartens
 monikerRange: ">=vs-2019"
 ms.workload:
 - multiple

@@ -5,7 +5,7 @@ ms.custom: SEO-VS-2020
 keywords: ai, visual studio, train model, cloud
 author: jillre
 ms.author: jillfra
-manager: jillfra
+manager: jmartens
 monikerRange: vs-2017
 ms.date: 11/13/2017
 ms.topic: how-to

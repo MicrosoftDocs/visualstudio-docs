@@ -5,7 +5,7 @@ description: Use workload and component IDs to install Visual Studio by using th
 keywords: 
 author: ornellaalt
 ms.author: ornella
-manager: jillfra
+manager: jmartens
 ms.date: 11/13/2018
 ms.topic: reference
 helpviewer_keywords:

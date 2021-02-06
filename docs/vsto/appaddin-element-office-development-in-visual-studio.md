@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "application manifests [Office development in Visual Studio], <appAddin> element"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

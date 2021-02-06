@@ -8,7 +8,7 @@ helpviewer_keywords:
 - Domain-Specific Language, decorators
 author: JoshuaPartlow
 ms.author: joshuapa
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ---

@@ -10,7 +10,7 @@ helpviewer_keywords:
 - DoNotLoadProjects Devenv switch
 author: TerryGLee
 ms.author: tglee
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ---

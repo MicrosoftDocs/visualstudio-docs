@@ -9,7 +9,7 @@ f1_keywords:
 helpviewer_keywords: 
   - coded UI test, Coded UI Test Editor
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload: 
   - multiple
 author: mikejo5000

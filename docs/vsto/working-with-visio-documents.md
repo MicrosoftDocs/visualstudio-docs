@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "documents [Office development in Visual Studio], common tasks in Visio"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---
