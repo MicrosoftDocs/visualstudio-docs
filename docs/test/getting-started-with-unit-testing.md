@@ -174,13 +174,13 @@ This section describes how to create a unit test project.
 1. Open [Test Explorer](../test/run-unit-tests-with-test-explorer.md).
 
    ::: moniker range=">=vs-2019"
-   To open Test Explorer, choose **Test** > **Test Explorer** from the top menu bar.
+   To open Test Explorer, choose **Test** > **Test Explorer** from the top menu bar (or press **Ctrl** + **E**, **T**).
    ::: moniker-end
    ::: moniker range="vs-2017"
    To open Test Explorer, choose **Test** > **Windows** > **Test Explorer** from the top menu bar.
    ::: moniker-end
 
-1. Run your unit tests by clicking **Run All**.
+1. Run your unit tests by clicking **Run All** (or press **Ctrl** + **R**, **V**).
 
    ![Run unit tests in Test Explorer](media/vs-2019/test-explorer-run-all.png)
 
@@ -268,7 +268,7 @@ To add a unit test project:
 
    ![Add code to your unit test code file](media/vs-2019/unit-test-method.png)
 
-6. Run the test from **Test Explorer** or by right-clicking on the test code and choosing **Run Test(s)**.
+6. Run the test from **Test Explorer** or by right-clicking on the test code and choosing **Run Test(s)** (or **Ctrl** + **R**, **T**).
 
 ## Next steps
 
