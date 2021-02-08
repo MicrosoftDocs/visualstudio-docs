@@ -14,7 +14,7 @@ ms.technology: devinit
 ---
 # winget-install
 
-The `winget-install` tool is used to install [winget packages](https://docs.microsoft.com/en-us/windows/package-manager/winget/).
+The `winget-install` tool is used to install [winget packages](https://docs.microsoft.com/windows/package-manager/winget/).
 
 ## Usage
 

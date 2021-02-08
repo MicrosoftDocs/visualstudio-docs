@@ -14,7 +14,7 @@ ms.technology: devinit
 ---
 # require-winget
 
-The `require-winget` tool is used to install [winget](https://docs.microsoft.com/en-us/windows/package-manager/winget/). 
+The `require-winget` tool is used to install [winget](https://docs.microsoft.com/windows/package-manager/winget/). 
 ## Usage
 
 If both the `input` and `additionalOptions` properties are omitted or empty, then the tool will follow the [default](#default-behavior) behavior detailed below.
