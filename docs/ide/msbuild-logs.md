@@ -96,6 +96,7 @@ If you are building in the Visual Studio IDE (with detailed output window verbos
 
 ## Create a binary msbuild log
 
+### Using the command prompt
 1. Open the Developer Command Prompt for your version of Visual Studio
 1. From the command prompt, run one of the following commands. (Remember to use your actual project and configuration values.):
 
@@ -109,7 +110,25 @@ If you are building in the Visual Studio IDE (with detailed output window verbos
     Msbuild /p:/p:SolutionDir="c:\MySolutionDir\";Configuration="MyConfiguration";Platform="Win32" /bl MyProject.vcxproj
     ```
 
-A Msbuild.binlog file will be created in the directory that you ran MSBuild from. You can view and search it by using the [Msbuild Structured Log Viewer](http://www.msbuildlog.com/).
+A Msbuild.binlog file will be created in the directory that you ran MSBuild from.
+
+### Using the VS extension
+1. Download and install the [Project System Tools extension](https://marketplace.visualstudio.com/items?itemName=VisualStudioProductTeam.ProjectSystemTools).
+1. Once installed, some new items appear in the **View** > **Other Windows** menu.
+
+   ![Other Windows menu](../ide/media/view-menu.png)
+
+1. Selecting **Build Logging** will show a new pane in Visual Studio
+
+   ![Build logging window](../ide/media/build-logging-click-to-record.png)
+
+1. Click the first toolbar icon to start recording both regular and design-time builds in the project system. Once a build is recorded, it will appear as shown. Right-clicking the build item produces a context menu
+
+   ![Build logging context menu](../ide/media/build-logging-context-menu.png)
+
+1. Clicking **Save Logs** will prompt you to save a **.binlog** file
+
+You can view and search these binlog files by using the [Msbuild Structured Log Viewer](http://www.msbuildlog.com/).
 
 ## Create a detailed log
 
