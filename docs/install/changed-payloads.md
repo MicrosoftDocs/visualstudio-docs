@@ -5,7 +5,7 @@ ms.date: 05/22/2019
 ms.topic: how-to
 author: ornellaalt
 ms.author: ornella
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ms.prod: visual-studio-windows

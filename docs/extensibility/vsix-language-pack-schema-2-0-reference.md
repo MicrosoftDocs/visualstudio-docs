@@ -12,7 +12,7 @@ helpviewer_keywords:
 ms.assetid: 2a2932bc-cdbe-4d32-91fa-a3e0474f9098
 author: acangialosi
 ms.author: anthc
-manager: jillfra
+manager: jmartens
 ---
 # VSIX language pack schema 2.0 reference
 

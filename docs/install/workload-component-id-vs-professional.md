@@ -5,7 +5,7 @@ description: Use Visual Studio Professional workload and component IDs to instal
 keywords: 
 author: ornellaalt
 ms.author: ornella
-manager: jillfra
+manager: jmartens
 ms.date: 05/19/2020
 ms.topic: reference
 helpviewer_keywords:

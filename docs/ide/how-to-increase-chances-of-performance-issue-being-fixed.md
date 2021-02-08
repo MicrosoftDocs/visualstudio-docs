@@ -4,7 +4,7 @@ description: Additional information and best practices for submitting performanc
 ms.custom: SEO-VS-2020
 author: madskristensen
 ms.author: madsk
-manager: jillfra
+manager: jmartens
 ms.date: 11/19/2019
 ms.topic: conceptual
 ---

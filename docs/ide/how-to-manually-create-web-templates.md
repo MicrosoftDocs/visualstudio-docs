@@ -11,7 +11,7 @@ helpviewer_keywords:
 - project templates [Visual Studio], Web
 author: TerryGLee
 ms.author: tglee
-manager: jillfra
+manager: jmartens
 ---
 # How to: Manually create web templates
 

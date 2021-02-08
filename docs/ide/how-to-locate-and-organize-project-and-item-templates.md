@@ -10,7 +10,7 @@ helpviewer_keywords:
 - template locations [Visual Studio]
 author: TerryGLee
 ms.author: tglee
-manager: jillfra
+manager: jmartens
 ---
 # How to: Locate and organize project and item templates
 

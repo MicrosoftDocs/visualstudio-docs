@@ -11,7 +11,7 @@ helpviewer_keywords:
   - "SharePoint commands [SharePoint development in Visual Studio], creating"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

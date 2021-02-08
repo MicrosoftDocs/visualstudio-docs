@@ -22,7 +22,7 @@ helpviewer_keywords:
   - "documents [Office development in Visual Studio], custom XML parts"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

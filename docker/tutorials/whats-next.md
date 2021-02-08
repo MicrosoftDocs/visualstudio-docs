@@ -4,7 +4,7 @@ description: Describes options for extending Docker apps with orchestration, usi
 ms.date: "08/04/2020"
 author: nebuk89
 ms.author: ghogen
-manager: jillfra
+manager: jmartens
 ms.technology: vs-azure
 ms.topic: conceptual
 ms.workload:

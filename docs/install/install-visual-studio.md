@@ -15,7 +15,7 @@ helpviewer_keywords:
 - Visual Studio installer
 author: ornellaalt
 ms.author: ornella
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ms.prod: visual-studio-windows

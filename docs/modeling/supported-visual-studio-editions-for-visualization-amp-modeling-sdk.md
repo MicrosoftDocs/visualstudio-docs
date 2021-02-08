@@ -9,7 +9,7 @@ helpviewer_keywords:
 - Domain-Specific Language Tools, supported Visual Studio editions
 author: JoshuaPartlow
 ms.author: joshuapa
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ---

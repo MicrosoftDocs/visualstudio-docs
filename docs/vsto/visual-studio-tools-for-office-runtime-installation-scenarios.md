@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "Visual Studio Tools for Office runtime, installation scenarios"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

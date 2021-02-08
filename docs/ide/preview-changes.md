@@ -6,7 +6,7 @@ ms.date: 12/16/2016
 ms.topic: conceptual
 author: TerryGLee
 ms.author: tglee
-manager: jillfra
+manager: jmartens
 f1_keywords:
 - vs.codefix.previewchanges
 ms.workload:

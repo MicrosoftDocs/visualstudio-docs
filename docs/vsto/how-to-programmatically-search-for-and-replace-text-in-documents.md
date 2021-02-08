@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "text [Office development in Visual Studio], text searches"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

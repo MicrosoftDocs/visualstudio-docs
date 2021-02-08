@@ -10,7 +10,7 @@ helpviewer_keywords:
 - data sources, defining with configuration files
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ---

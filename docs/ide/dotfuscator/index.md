@@ -16,7 +16,7 @@ description: Learn how you can protect your .NET applications with the free copy
 ms.assetid: d9550502-0a82-49a6-b005-2caa791fbe02
 author: TerryGLee
 ms.author: tglee
-manager: jillfra
+manager: jmartens
 ---
 # Dotfuscator Community
 

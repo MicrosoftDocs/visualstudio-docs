@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "deploying applications [Office development in Visual Studio], troubleshooting"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

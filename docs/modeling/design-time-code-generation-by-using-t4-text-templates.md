@@ -14,7 +14,7 @@ helpviewer_keywords:
 - text templates, generating code for your application
 author: JoshuaPartlow
 ms.author: joshuapa
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ---

@@ -21,7 +21,7 @@ helpviewer_keywords:
   - "ClickOnce applications, security issues"
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

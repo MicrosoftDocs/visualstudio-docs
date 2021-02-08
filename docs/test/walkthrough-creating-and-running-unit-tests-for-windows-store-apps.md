@@ -10,7 +10,7 @@ helpviewer_keywords:
 - unit tests, UWP apps
 - unit tests, running
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload:
 - uwp
 author: mikejo5000

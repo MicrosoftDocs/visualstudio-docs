@@ -5,7 +5,7 @@ ms.date: 03/18/2019
 ms.topic: how-to
 author: JoshuaPartlow
 ms.author: joshuapa
-manager: jillfra
+manager: jmartens
 ms.custom: "seodec18, SEO-VS-2020"
 ms.workload:
   - python

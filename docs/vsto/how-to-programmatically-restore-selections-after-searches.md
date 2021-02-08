@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "selections, restoring after a search"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

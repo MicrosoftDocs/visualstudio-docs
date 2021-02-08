@@ -10,7 +10,7 @@ helpviewer_keywords:
 - Application page [UWP project]
 author: TerryGLee
 ms.author: tglee
-manager: jillfra
+manager: jmartens
 ms.workload:
 - uwp
 ---

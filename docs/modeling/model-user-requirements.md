@@ -9,7 +9,7 @@ helpviewer_keywords:
 - stories
 author: JoshuaPartlow
 ms.author: joshuapa
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ---

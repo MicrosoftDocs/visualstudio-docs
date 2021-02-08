@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "worksheets, hiding"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---
