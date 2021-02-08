@@ -1,12 +1,13 @@
 ---
 title: Attach profiler to ASP.NET to get app statistics
+description: Use Visual Studio Profiling Tools command-line tools to attach the profiler to an ASP.NET Web app and get performance statistics by using the sampling method.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 ms.assetid: 3725ddbe-ce91-4469-991e-8c5ed048c618
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 monikerRange: 'vs-2017'
 ms.workload: 
   - aspnet

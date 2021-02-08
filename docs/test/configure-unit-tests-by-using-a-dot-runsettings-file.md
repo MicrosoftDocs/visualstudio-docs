@@ -5,7 +5,7 @@ ms.custom: SEO-VS-2020
 ms.date: 07/15/2020
 ms.topic: conceptual
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload:
   - multiple
 author: mikejo5000

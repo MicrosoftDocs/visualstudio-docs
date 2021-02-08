@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "casting, object to specific type"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

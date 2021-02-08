@@ -1,5 +1,7 @@
 ---
 title: "Caller - Callee View - Sampling Data | Microsoft Docs"
+description: Read how the Caller/Callee view displays profiling information for a selected function and its parent and child functions in Performance Explorer.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:
@@ -8,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 28e85ed5-1512-4b59-bb84-138a2abca7dd
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 monikerRange: 'vs-2017'
 ms.workload:
   - "multiple"

@@ -1,5 +1,7 @@
 ---
 title: "Debugging LINQ | Microsoft Docs"
+description: Debug language integrated query (LINQ) in Visual Studio. View LINQ results. Understand behavioral differences when stepping into LINQ code.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:
@@ -16,7 +18,7 @@ helpviewer_keywords:
 ms.assetid: dbae26cb-ac5f-4312-b474-b9f29714f4c6
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

@@ -1,5 +1,6 @@
 ---
 title: VSPerfCLREnv | Microsoft Docs
+description: Learn how the VSPerfCLREnv tool is used to set environment variables that are required to profile a .NET Framework application.
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords: 
@@ -10,7 +11,7 @@ helpviewer_keywords:
   - VSPerfCLREnv tool
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 monikerRange: 'vs-2017'
 ms.workload: 
   - multiple

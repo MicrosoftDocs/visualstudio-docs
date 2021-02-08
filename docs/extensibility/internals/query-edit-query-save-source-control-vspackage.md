@@ -1,5 +1,7 @@
 ---
 title: Query Edit Query Save (Source Control VSPackage) | Microsoft Docs
+description: Learn about the role of Query-Edit Query-Save events and how they are handled by the source control VSPackage.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -9,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: c360d2ad-fe42-4d65-899d-d1588cc8a322
 author: acangialosi
 ms.author: anthc
-manager: jillfra
+manager: jmartens
 ms.workload:
 - vssdk
 ---

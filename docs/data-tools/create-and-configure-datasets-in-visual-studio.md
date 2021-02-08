@@ -10,7 +10,7 @@ helpviewer_keywords:
 - datasets, configuring
 author: ghogen
 ms.author: ghogen
-manager: jillfra
+manager: jmartens
 ms.workload:
 - data-storage
 ---

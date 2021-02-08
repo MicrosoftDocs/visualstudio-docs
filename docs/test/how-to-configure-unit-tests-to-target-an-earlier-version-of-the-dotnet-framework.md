@@ -5,7 +5,7 @@ ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload: 
   - dotnet
 author: mikejo5000
@@ -56,7 +56,7 @@ The following limitations apply when you re-target your test projects to use ear
 
 4. Use the **Target framework (all configurations)** drop-down list to change the target framework to **.NET Framework 3.5** or a later version as shown in callout B in the following illustration. You should not specify a client version.
 
-     ![Target framework drop&#45;down list](../test/media/howtoconfigureunitest35frameworkstepb.png)
+     ![Screenshot of the Advanced Compiler Settings dialog. The Target framework drop-down list is highlighted and the value is set to '.NET Frameowrk 3.5'.](../test/media/howtoconfigureunitest35frameworkstepb.png)
 
 ## Retargeting for C# unit test projects
 
@@ -68,7 +68,7 @@ The following limitations apply when you re-target your test projects to use ear
 
 3. On the **Application** tab, choose **Target framework**. From the drop-down list, choose **.NET Framework 3.5** or a later version, as shown in the following illustration. You should not specify a client version.
 
-   ![Target framework drop&#45;down list](../test/media/howtoconfigureunittest35frameworkcsharp.png)
+   ![Illustration of the Application tab in the Solution Explorer Properties pane that highlights the location of the Target framework drop-down list.](../test/media/howtoconfigureunittest35frameworkcsharp.png)
 
 ## Retargeting for C++/CLI unit test projects
 

@@ -1,11 +1,13 @@
 ---
 title: Profiler command line - Instrument dynamic ASP.NET app, get memory data
+description: Learn how to use the Visual Studio Profiling Tools command-line tools to collect detailed memory activity data for a dynamically compiled ASP.NET application.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 ms.assetid: 2cdd9903-39db-47e8-93dd-5e6a21bc3435
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 monikerRange: 'vs-2017'
 ms.workload: 
   - aspnet

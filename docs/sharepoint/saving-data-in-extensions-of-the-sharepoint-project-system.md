@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "SharePoint projects, saving string data"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

@@ -8,7 +8,7 @@ helpviewer_keywords:
   - "Help Viewer, installing"
 author: ghogen
 ms.author: ghogen
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

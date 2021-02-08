@@ -11,7 +11,7 @@ helpviewer_keywords:
   - "full solution analysis"
 author: mikadumont
 ms.author: midumont
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "dotnet"
 ---

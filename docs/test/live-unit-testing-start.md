@@ -8,7 +8,7 @@ helpviewer_keywords:
   - Live Unit Testing
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload: 
   - dotnet
 ---

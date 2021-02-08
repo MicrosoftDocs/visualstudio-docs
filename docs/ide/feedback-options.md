@@ -10,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: e0846d4d-2ce1-48e3-b219-674ff070bf4e
 author: TerryGLee
 ms.author: tglee
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ms.prod: visual-studio-windows

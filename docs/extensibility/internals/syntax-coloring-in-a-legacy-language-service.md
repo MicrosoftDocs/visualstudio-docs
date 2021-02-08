@@ -1,5 +1,7 @@
 ---
 title: Syntax Coloring in a Legacy Language Service | Microsoft Docs
+description: Learn how Visual Studio implements a syntax coloring service in a legacy language service to identify elements of the language and display them in colors in an editor.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -8,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: f65ff67e-8c20-497a-bebf-5e2a5b5b012f
 author: acangialosi
 ms.author: anthc
-manager: jillfra
+manager: jmartens
 ms.workload:
 - vssdk
 ---

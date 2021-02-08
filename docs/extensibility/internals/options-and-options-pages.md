@@ -1,5 +1,7 @@
 ---
 title: Options and Options Pages | Microsoft Docs
+description: Learn about support for options pages, which let you change the values of the options that determine the state of a VSPackage.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -11,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: e6c0e636-5ec3-450e-b395-fc4bb9d75918
 author: acangialosi
 ms.author: anthc
-manager: jillfra
+manager: jmartens
 ms.workload:
 - vssdk
 ---

@@ -4,7 +4,7 @@ titleSuffix: ''
 description: Learn how to modify Visual Studio, step-by-step.
 ms.date: 10/12/2020
 ms.topic: how-to
-ms.custom: contperfq2
+ms.custom: contperf-fy21q2
 helpviewer_keywords:
 - modify Visual Studio
 - change visual studio
@@ -13,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: 3399ea7b-a291-4a9e-80a1-b861a21afa1d
 author: ornellaalt
 ms.author: ornella
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ms.prod: visual-studio-windows

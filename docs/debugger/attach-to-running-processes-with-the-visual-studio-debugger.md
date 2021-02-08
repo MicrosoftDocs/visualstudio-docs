@@ -1,6 +1,7 @@
 ---
 title: "Attach to running processes with the debugger"
-ms.custom: "seodec18"
+description: Discover how to attach the Visual Studio debugger to a running process on a local or remote computer.
+ms.custom: "SEO-VS-2020, seodec18"
 ms.date: "06/12/2020"
 ms.topic: "conceptual"
 f1_keywords:
@@ -25,13 +26,13 @@ helpviewer_keywords:
 ms.assetid: 27900e58-090c-4211-a309-b3e1496d5824
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---
 # Attach to running processes with the Visual Studio debugger
 
-You can attach the Visual Studio debugger to a running process on a local or remote computer. After the process is running, select **Debug** > **Attach to Process** or press **Ctrl**+**Alt**+**P** in Visual Studio, and use the **Attach to Process** dialog to attach the debugger to the process.
+You can attach the Visual Studio debugger to a running process on a local or remote computer. After the process is running, select **Debug** > **Attach to Process** or press **Ctrl**+**Alt**+**p** in Visual Studio, and use the **Attach to Process** dialog to attach the debugger to the process.
 
 You can use **Attach to Process** to debug running apps on local or remote computers, debug multiple processes simultaneously, debug apps that weren't created in Visual Studio, or debug any app you didn't start from Visual Studio with the debugger attached. For example, if you're running an app without the debugger and hit an exception, you can then attach the debugger to the process running the app and begin debugging.
 
@@ -52,7 +53,7 @@ To quickly reattach to a process you attached to previously, see [Reattach to a 
 
 1. Set the **Connection target** your local machine name.
 
-   ![DBG_Basics_Attach_To_Process](../debugger/media/DBG_Basics_Attach_To_Process.png "DBG_Basics_Attach_To_Process")
+   ![Screenshot of the Attach to Process dialog box, with the connection target set to the local machine name.](../debugger/media/DBG_Basics_Attach_To_Process.png)
 
 1. In the **Available processes** list, find and select the process or processes you want to attach to.
 
@@ -192,7 +193,7 @@ To quickly select a running process to attach to, in Visual Studio, type **Ctrl*
 |Debug a C#, Visual Basic, or C++ app on the local machine|Use either standard debugging (**F5**) or **Attach to Process**|*\<appname>.exe*|In most scenarios, use standard debugging and not **Attach to Process**.|
 |Remote debug a Windows desktop app|Remote tools|N/A| See [Remote debug a C# or Visual Basic app](../debugger/remote-debugging-csharp.md) or [Remote debug a C++ app](../debugger/remote-debugging-cpp.md)|
 |Debug .NET Core on Linux|Use **Attach to Process**|*dotnet.exe* or a unique process name|To use SSH, see [Remote debug .NET Core running on Linux using SSH](../debugger/remote-debugging-dotnet-core-linux-with-ssh.md). For containerized apps, see [Attach to a process running in a Docker container](../debugger/attach-to-process-running-in-docker-container.md#attach-to-a-process-running-on-a-linux-docker-container).|
-|Debug a containerized app|*dotnet.exe* or a unique process name|See [Attach to a process running in a Docker container](../debugger/attach-to-process-running-in-docker-container.md)|
+|Debug a containerized app|Use **Attach to Process**|*dotnet.exe* or a unique process name|See [Attach to a process running in a Docker container](../debugger/attach-to-process-running-in-docker-container.md)|
 |Remote debug Python on Linux|Use **Attach to Process**|*debugpy*|See [Attach remotely from Python Tools](../python/debugging-python-code-on-remote-linux-machines.md#attach-remotely-from-python-tools)|
 |Debug an ASP.NET app on the local machine after you start the app without the debugger|Use **Attach to Process**|*iiexpress.exe*|This may be helpful to make your app load faster, such as (for example) when profiling. |
 |Debug other supported app types on a server process|If server is remote, use remote tools, and **Attach to Process**|*chrome.exe*, *iexplore.exe*, or other processes|If necessary, use Resource Monitor to help identify the process. See [Remote debugging](../debugger/remote-debugging.md).|

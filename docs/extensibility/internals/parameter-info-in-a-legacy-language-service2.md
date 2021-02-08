@@ -1,5 +1,7 @@
 ---
 title: Parameter Info in a Legacy Language Service2 | Microsoft Docs
+description: Learn how to support the IntelliSense Parameter Info operation for displaying a method signature as the method is typed in a legacy language service.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -9,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: a117365d-320d-4bb5-b61d-3e6457b8f6bc
 author: acangialosi
 ms.author: anthc
-manager: jillfra
+manager: jmartens
 ms.workload:
 - vssdk
 ---

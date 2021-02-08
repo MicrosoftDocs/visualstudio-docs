@@ -1,5 +1,7 @@
 ---
 title: "Configure Firewall for Remote Debugging Dialog Box | Microsoft Docs"
+description: Read about the Configure Firewall for Remote Debugging dialog box, which appears when the Windows Firewall stops the debugger from receiving data over the network.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 f1_keywords:
@@ -17,7 +19,7 @@ helpviewer_keywords:
 ms.assetid: 5dff3393-fdeb-4129-a2f6-31f653107a82
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

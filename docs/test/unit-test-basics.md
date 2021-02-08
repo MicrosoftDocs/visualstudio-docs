@@ -8,7 +8,7 @@ f1_keywords:
 - vs.UnitTest.CreateUnitTest
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ---
@@ -18,17 +18,17 @@ Check that your code is working as expected by creating and running unit tests. 
 
 Unit testing has the greatest effect on the quality of your code when it's an integral part of your software development workflow. As soon as you write a function or other block of application code, create unit tests that verify the behavior of the code in response to standard, boundary, and incorrect cases of input data, and that check any explicit or implicit assumptions made by the code. With *test driven development*, you create the unit tests before you write the code, so you use the unit tests as both design documentation and functional specifications.
 
-You can quickly generate test projects and test methods from your code, or manually create the tests as you need them. When you use IntelliTest to explore your .NET code, you can generate test data and a suite of unit tests. For every statement in the code, a test input is generated that will execute that statement. Find out how to [generate unit tests for your code](generate-unit-tests-for-your-code-with-intellitest.md).
-
 Test Explorer can also run third-party and open source unit test frameworks that have implemented Test Explorer add-on interfaces. You can add many of these frameworks through the Visual Studio Extension Manager and the Visual Studio gallery. For more information, see [Install third-party unit test frameworks](../test/install-third-party-unit-test-frameworks.md).
+
+You can quickly generate test projects and test methods from your code, or manually create the tests as you need them. When you use IntelliTest to explore .NET code, you can generate test data and a suite of unit tests. For every statement in the code, a test input is generated that will execute that statement. Find out how to [generate unit tests for .NET code](generate-unit-tests-for-your-code-with-intellitest.md).
 
 ## Get started
 
 For an introduction to unit testing that takes you directly into coding, see one of these topics:
 
-- [Walkthrough: Create and run unit tests for managed code](../test/walkthrough-creating-and-running-unit-tests-for-managed-code.md)
+- [Walkthrough: Create and run unit tests for .NET code](../test/walkthrough-creating-and-running-unit-tests-for-managed-code.md)
 
-- [Quickstart: Test driven development with Test Explorer](../test/quick-start-test-driven-development-with-test-explorer.md)
+- [Walkthrough: Test driven development with Test Explorer](../test/quick-start-test-driven-development-with-test-explorer.md)
 
 - [Write unit tests for C/C++ in Visual Studio](../test/writing-unit-tests-for-c-cpp.md)
 
@@ -79,7 +79,7 @@ Now that we have some code, it's time for testing.
 
 ## Create unit test projects and test methods
 
-It is often quicker to generate the unit test project and unit test stubs from your code. Or you can choose to create the unit test project and tests manually depending on your requirements. If you want to create unit tests with a 3rd party framework you will need one of these extensions installed: [NUnit](https://marketplace.visualstudio.com/items?itemName=NUnitDevelopers.TestGeneratorNUnitextension-18371) or [xUnit](https://marketplace.visualstudio.com/items?itemName=YowkoTsai.xUnitnetTestGenerator).
+For C#, it is often quicker to generate the unit test project and unit test stubs from your code. Or you can choose to create the unit test project and tests manually depending on your requirements. If you want to create unit tests from code with a 3rd party framework you will need one of these extensions installed: [NUnit](https://marketplace.visualstudio.com/items?itemName=NUnitDevelopers.TestGeneratorNUnitextension-18371) or [xUnit](https://marketplace.visualstudio.com/items?itemName=YowkoTsai.xUnitnetTestGenerator). If you are not using C#, skip this section and go to [Create the unit test project and unit tests manually](#create-the-unit-test-project-and-unit-tests-manually).
 
 ### Generate unit test project and unit test stubs
 
@@ -95,7 +95,7 @@ It is often quicker to generate the unit test project and unit test stubs from y
    ![From the editor window, view the context menu](../test/media/vs-2019/basics-create-unit-tests.png)
 
    > [!NOTE]
-   > The **Create Unit Tests** menu command is only available for managed code.
+   > The **Create Unit Tests** menu command is only available for C# code.
    ::: moniker-end
 
 2. Click **OK** to accept the defaults to create your unit tests, or change the values used to create and name the unit test project and the unit tests. You can select the code that is added by default to the unit test methods.
@@ -230,7 +230,7 @@ public void My_Test ()
 
 ## Run tests in Test Explorer
 
-When you build the test project, the tests appear in **Test Explorer**. If **Test Explorer** is not visible, choose **Test** on the Visual Studio menu, choose **Windows**, and then choose **Test Explorer**.
+When you build the test project, the tests appear in **Test Explorer**. If **Test Explorer** is not visible, choose **Test** on the Visual Studio menu, choose **Windows**, and then choose **Test Explorer** (or press **Ctrl** + **E**, **T**).
 
 ::: moniker range="vs-2017"
 ![Unit Test Explorer](../test/media/ute_failedpassednotrunsummary.png)
@@ -254,11 +254,11 @@ The **Test Explorer** toolbar helps you discover, organize, and run the tests th
 ![Run tests from the Test Explorer toolbar](../test/media/vs-2019/test-explorer-toolbar-diagram-16-2.png)
 ::: moniker-end
 
-You can choose **Run All** to run all your tests, or choose **Run** to choose a subset of tests to run. Select a test to view the details of that test in the test details pane. Choose **Open Test** from the right-click menu (Keyboard: **F12**) to display the source code for the selected test.
+You can choose **Run All** to run all your tests (or press **Ctrl** + **R**, **V**), or choose **Run** to choose a subset of tests to run (**Ctrl** + **R**, **T**). Select a test to view the details of that test in the test details pane. Choose **Open Test** from the right-click menu (Keyboard: **F12**) to display the source code for the selected test.
 
 ::: moniker range="vs-2017"
 
-If individual tests have no dependencies that prevent them from being run in any order, turn on parallel test execution with the ![UTE&#95;parallelicon&#45;small](../test/media/ute_parallelicon-small.png) toggle button on the toolbar. This can noticeably reduce the time taken to run all the tests.
+If individual tests have no dependencies that prevent them from being run in any order, turn on parallel test execution with the ![Screenshot of the Parallel test execution toggle button on the Visual Studio Test Explorer toolbar.](../test/media/ute_parallelicon-small.png) toggle button on the toolbar. This can noticeably reduce the time taken to run all the tests.
 
 ::: moniker-end
 

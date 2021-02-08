@@ -1,5 +1,7 @@
 ---
 title: Specifying File Handlers for File Name Extensions | Microsoft Docs
+description: Learn how determine which application handles a file extension in the Visual Studio SDK by using OpenWithList and OpenWithProgids.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -7,7 +9,7 @@ helpviewer_keywords:
 ms.assetid: e3de4730-a95c-465a-b3b2-92ca85364ad7
 author: acangialosi
 ms.author: anthc
-manager: jillfra
+manager: jmartens
 ms.workload:
 - vssdk
 ---

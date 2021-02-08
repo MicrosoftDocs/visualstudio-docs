@@ -1,5 +1,7 @@
 ---
 title: Opening and Saving Project Items | Microsoft Docs
+description: Learn about different approaches to opening and saving files for your new project type in the Visual Studio IDE.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -9,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: f71898ad-335f-4c43-a177-4da87078afd1
 author: acangialosi
 ms.author: anthc
-manager: jillfra
+manager: jmartens
 ms.workload:
 - vssdk
 ---

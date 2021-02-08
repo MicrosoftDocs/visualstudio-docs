@@ -1,6 +1,7 @@
 ---
 title: "Prepare to debug console projects | Microsoft Docs"
-ms.custom: "seodec18"
+description: Get information about preparing to debug console projects (C#, C++, Visual Basic, F#) in Visual Studio.
+ms.custom: "SEO-VS-2020, seodec18"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
@@ -15,7 +16,7 @@ helpviewer_keywords:
 ms.assetid: 9641f1d9-2d5a-48b1-8731-6525e8f67892
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

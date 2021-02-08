@@ -1,6 +1,7 @@
 ---
 title: "Troubleshooting snapshot debugging | Microsoft Docs"
-ms.custom: ""
+description: Understand troubleshooting and known issues for snapshot debugging in Visual Studio. Load ICorProfiler without causing downtime on your production site.
+ms.custom: SEO-VS-2020
 ms.date: "04/24/2019"
 ms.topic: "troubleshooting"
 helpviewer_keywords:
@@ -8,7 +9,7 @@ helpviewer_keywords:
 ms.assetid: 511a0697-c68a-4988-9e29-8d0166ca044a
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

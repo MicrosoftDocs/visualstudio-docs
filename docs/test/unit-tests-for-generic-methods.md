@@ -8,7 +8,7 @@ helpviewer_keywords:
 - generics, and unit tests
 - unit tests, and generics
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 author: mikejo5000

@@ -1,5 +1,7 @@
 ---
 title: "Concurrency Visualizer | Microsoft Docs"
+description: Use the Concurrency Visualizer to see graphs that show the thread timing in your multi-threaded app, helping you solve performance issues.
+ms.custom: SEO-VS-2020
 ms.date: "07/11/2017"
 ms.topic: "conceptual"
 f1_keywords:
@@ -12,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: ae5879a0-1e1a-455a-ba72-148e57f59289
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

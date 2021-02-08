@@ -1,5 +1,7 @@
 ---
 title: Reformatting Code in a Legacy Language Service | Microsoft Docs
+description: Learn about enabling support for source code reformatting for a Visual Studio legacy language service.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -8,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 08bb3375-8fef-4f4e-9efa-0d7333bab0eb
 author: acangialosi
 ms.author: anthc
-manager: jillfra
+manager: jmartens
 ms.workload:
 - vssdk
 ---

@@ -7,7 +7,7 @@ ms.topic: conceptual
 helpviewer_keywords:
 - IntelliTest, Settings waterfall
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 author: mikejo5000

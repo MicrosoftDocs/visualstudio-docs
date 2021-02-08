@@ -10,7 +10,7 @@ helpviewer_keywords:
 - Domain-Specific Language, element merge directives
 author: JoshuaPartlow
 ms.author: joshuapa
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ---
@@ -34,7 +34,7 @@ Although the creation operations might seem to be different from the copy operat
 
 The responsibility of an EMD is to decide how an object or group of objects should be merged into a particular location in the model. In particular, it decides what relationships should be instantiated to link the merged group into the model. You can also customize it to set properties and to create additional objects.
 
-![DSL&#45;EMD&#95;Merge](../modeling/media/dsl-emd_merge.png)
+![Diagram showing a before and after look at a tree of elements and their reference relationships when An E M D determines how a new element is added.](../modeling/media/dsl-emd_merge.png)
 
 An EMD is generated automatically when you define an embedding relationship. This default EMD creates an instance of the relationship when users add new child instances to the parent. You can modify these default EMDs, for example by adding custom code.
 
@@ -44,7 +44,7 @@ You can also add your own EMDs in the DSL definition, to let users drag or paste
 
 You can add element merge directives to domain classes, domain relationships, shapes, connectors, and diagrams. You can add or find them in DSL Explorer under the receiving domain class. The receiving class is the domain class of the element that is already in the model, and onto which the new or copied element will be merged.
 
-![DSL&#45;EMD&#95;Details](../modeling/media/dsl-emd_details.png)
+![Screenshot of DSL Explorer showing an E M D being added with ExampleElement selected as the Indexing class and the Applies to subclasses option checked.](../modeling/media/dsl-emd_details.png)
 
 The **Indexing Class** is the domain class of elements that can be merged into members of the receiving class. Instances of subclasses of the Indexing Class will also be merged by this EMD, unless you set **Applies to subclasses** to False.
 

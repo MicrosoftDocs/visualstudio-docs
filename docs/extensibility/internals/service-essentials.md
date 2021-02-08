@@ -1,5 +1,7 @@
 ---
 title: Service Essentials | Microsoft Docs
+description: Learn about services, which are interfaces for another VSPackage to consume. Services in a VSPackage can override built-in or other services.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -7,7 +9,7 @@ helpviewer_keywords:
 ms.assetid: fbe84ad9-efe1-48b1-aba3-b50b90424d47
 author: acangialosi
 ms.author: anthc
-manager: jillfra
+manager: jmartens
 ms.workload:
 - vssdk
 ---

@@ -26,7 +26,7 @@ helpviewer_keywords:
 ms.assetid: 1105e169-5272-4e7c-b3e7-cda1b7798a6b
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---
@@ -212,7 +212,7 @@ During debugging, the **Modules** window shows the code modules the debugger is 
 
 **To monitor or change symbol locations or options while debugging:**
 
-1. To open the **Modules** window, while debugging, select **Debug** > **Windows** > **Modules**.
+1. To open the **Modules** window, while debugging, select **Debug** > **Windows** > **Modules** (or press **Ctrl** + **Alt** + **U**).
 1. In the **Modules** window, right-click the **Symbol Status** or **Symbol File** headers, or any module.
 1. In the context menu, select one of the following options:
 

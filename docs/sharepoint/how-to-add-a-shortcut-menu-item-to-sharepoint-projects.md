@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "SharePoint projects, extending"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

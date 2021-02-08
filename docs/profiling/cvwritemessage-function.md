@@ -1,5 +1,7 @@
 ---
 title: CvWriteMessage Function | Microsoft Docs
+description: See reference information for the Concurrency Visualizer SDK function CvWriteMessage (C library).
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords: 
@@ -23,7 +25,7 @@ helpviewer_keywords:
 ms.assetid: e20ae7be-bfa7-437a-b8c1-fa0f1baa7f83
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload: 
   - multiple
 ---

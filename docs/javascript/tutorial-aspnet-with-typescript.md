@@ -6,7 +6,7 @@ ms.topic: tutorial
 ms.devlang: javascript
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 dev_langs:
   - JavaScript
 ms.workload:
@@ -94,6 +94,7 @@ In this tutorial, you begin with a simple project containing code for an ASP.NET
 
    ```json
    {
+     "compileOnSave": true,
      "compilerOptions": {
        "noImplicitAny": false,
        "noEmitOnError": true,

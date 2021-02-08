@@ -14,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: 1eba3721-cc12-4b80-9987-84923ede5e2e
 author: ghogen
 ms.author: ghogen
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ---
@@ -183,5 +183,4 @@ Represents assemblies whose namespaces should be imported by the Visual Basic co
 ## See also
 
 - [Common MSBuild project properties](../msbuild/common-msbuild-project-properties.md)
-- [MSBuild properties for .NET Core SDK projects](/dotnet/core/project-sdk/msbuild-props)
 - [Common MSBuild item metadata](common-msbuild-item-metadata.md)

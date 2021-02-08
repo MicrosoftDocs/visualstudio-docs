@@ -6,7 +6,7 @@ ms.prod: visual-studio-windows
 ms.technology: vs-javascript
 ms.author: "mikejo"
 author: "mikejo5000"
-manager: jillfra
+manager: jmartens
 ---
 # JavaScript in Visual Studio
 

@@ -1,11 +1,13 @@
 ---
 title: 'Walkthrough: Saving User Settings on a Start Page | Microsoft Docs'
+description: Learn how to persist user settings for your Start Page by saving a setting to the registry by using this walkthrough.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 ms.assetid: 754b9bf3-8681-4c77-b0a4-09146a4e1d2d
 author: acangialosi
 ms.author: anthc
-manager: jillfra
+manager: jmartens
 ms.workload:
 - vssdk
 monikerRange: vs-2017

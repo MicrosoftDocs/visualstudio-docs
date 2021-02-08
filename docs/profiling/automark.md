@@ -1,11 +1,13 @@
 ---
 title: AutoMark | Microsoft Docs
+description: Use the AutoMark option to specify the time interval between Windows performance counter data collection events. Use it with the WinCounter option.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 ms.assetid: c4de965e-0364-4f78-9936-1f509e85df74
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 monikerRange: 'vs-2017'
 ms.workload: 
   - multiple

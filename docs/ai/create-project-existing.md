@@ -4,7 +4,7 @@ description: Learn how to use Visual Studio Tools for AI to bring existing Pytho
 ms.custom: SEO-VS-2020
 author: jillre
 ms.author: jillfra
-manager: jillfra
+manager: jmartens
 monikerRange: vs-2017
 ms.date: 11/13/2017
 ms.topic: how-to

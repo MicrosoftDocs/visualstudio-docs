@@ -3,7 +3,7 @@ title: Use PowerShell to publish to dev and test environments
 description: Learn how to use Windows PowerShell scripts from Visual Studio to publish to development and test environments.
 ms.custom: SEO-VS-2020
 author: ghogen
-manager: jillfra
+manager: jmartens
 ms.workload: azure-vs
 ms.topic: conceptual
 ms.date: 11/11/2016

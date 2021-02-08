@@ -1,5 +1,7 @@
 ---
 title: C++ Library Reference | Microsoft Docs
+description: See this section for Concurrency Visualizer SDK reference information.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords: 
@@ -7,7 +9,7 @@ helpviewer_keywords:
 ms.assetid: c9f8eea2-c964-485d-9ad0-55a4bf425ae7
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload: 
   - cplusplus
 ---

@@ -1,5 +1,7 @@
 ---
 title: "Source Server Security Alert | Microsoft Docs"
+description: Read about the Source Server security alert warning in the Visual Studio debugger. Be aware of potential security threats when using Source Server.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:
@@ -12,7 +14,7 @@ dev_langs:
 ms.assetid: 8451c281-6914-469c-b80c-6271cc3f3d17
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

@@ -1,6 +1,7 @@
 ---
 title: View Disassembly Code in the debugger | Microsoft Docs
-ms.custom: seodec18
+description: Use the Disassembly window in Visual Studio to show assembly code corresponding to the instructions created by the compiler.
+ms.custom: "SEO-VS-2020, seodec18"
 ms.date: 10/30/2018
 ms.topic: how-to
 f1_keywords: 
@@ -19,7 +20,7 @@ helpviewer_keywords:
 ms.assetid: eaf84dd0-c82d-481b-af51-690b74e7794c
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload: 
   - multiple
 ---

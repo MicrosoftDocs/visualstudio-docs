@@ -5,7 +5,7 @@ ms.topic: overview
 ms.date: 09/04/2020
 author: TerryGLee
 ms.author: tglee
-manager: jillfra
+manager: jmartens
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
 ms.workload:

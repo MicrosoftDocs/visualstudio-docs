@@ -1,5 +1,7 @@
 ---
 title: VSIX Project Template | Microsoft Docs
+description: Learn how to use the VSIX Project template to wrap Visual Studio extensions in a VSIX project, and then publish the package on the Visual Studio Marketplace.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -8,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: b6c82167-e2a5-4cff-8c8b-2d72e2a9092c
 author: acangialosi
 ms.author: anthc
-manager: jillfra
+manager: jmartens
 ms.workload:
 - vssdk
 ---

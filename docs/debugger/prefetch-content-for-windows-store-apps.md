@@ -1,5 +1,7 @@
 ---
 title: Debug using prefetched content in UWP apps | Microsoft Docs
+description: To make your UWP app more responsive, use ContentPrefetcher to request Windows to prefetch web content. 
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 
@@ -9,7 +11,7 @@ dev_langs:
   - C++
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload: 
   - uwp
 ---

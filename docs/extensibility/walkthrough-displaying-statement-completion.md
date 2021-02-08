@@ -1,5 +1,7 @@
 ---
 title: 'Walkthrough: Displaying Statement Completion | Microsoft Docs'
+description: Learn how to implement language-based statement completion for plaintext content by using this walkthrough.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
@@ -7,7 +9,7 @@ helpviewer_keywords:
 ms.assetid: f3152c4e-7673-4047-a079-2326941d1c83
 author: acangialosi
 ms.author: anthc
-manager: jillfra
+manager: jmartens
 dev_langs:
 - CSharp
 - VB

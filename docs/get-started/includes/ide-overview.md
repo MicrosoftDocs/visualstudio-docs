@@ -4,7 +4,7 @@ ms.technology: vs-ide-general
 ms.custom: vs-get-started
 ms.author: tglee
 author: TerryGLee
-manager: jillfra
+manager: jmartens
 ms.topic: include
 ---
 The Visual Studio *integrated development environment* is a creative launching pad that you can use to edit, debug, and build code, and then publish an app. An integrated development environment (IDE) is a feature-rich program that can be used for many aspects of software development. Over and above the standard editor and debugger that most IDEs provide, Visual Studio includes compilers, code completion tools, graphical designers, and many more features to ease the software development process.
@@ -192,7 +192,7 @@ Let's dive in and create a simple program.
 
    Visual Studio builds the app, and a console window opens with the message **Hello World!**. You now have a running app!
 
-   ![Console window](../media/overview-console-window.png)
+   ![Screenshot of the cmd.exe console window showing the output 'Hello Word!' and 'Press any key to continue'.](../media/overview-console-window.png)
 
 1. To close the console window, press any key on your keyboard.
 
@@ -261,7 +261,7 @@ Let's dive in and create a simple program.
 
    Visual Studio builds the app, and a console window opens with the message **Hello World!**. You now have a running app!
 
-   ![Console window](../media/vs-2019/overview-console-window.png)
+   ![Screenshot of the Microsoft Visual Studio Debug Console window showing the output 'Hello Word!' and 'Press any key to close this window'.](../media/vs-2019/overview-console-window.png)
 
 1. To close the console window, press any key on your keyboard.
 
@@ -286,7 +286,7 @@ Let's dive in and create a simple program.
 
 1. Enter your name in the console window and press **Enter**.
 
-   ![Console window](../media/vs-2019/overview-console-input.png)
+   ![Screenshot of the Microsoft Visual Studio Debug Console window showing the prompt for a name, the input, and the output 'Hello Georgette!'.](../media/vs-2019/overview-console-input.png)
 
 1. Press any key to close the console window and stop the running program.
 
@@ -360,7 +360,7 @@ First, let's rename the `name` variable:
 
 10. Run the program again by pressing **Ctrl**+**F5**. The output looks something like this:
 
-    ![Console window with program output](../media/overview-console-final.png)
+    !Screenshot of the cmd.exe console window showing the prompt for a name, the input, and the output 'Hello Georgette! Day of year: 151'.](../media/overview-console-final.png)
 
 ::: moniker-end
 
@@ -368,7 +368,7 @@ First, let's rename the `name` variable:
 
 10. Run the program again by pressing **Ctrl**+**F5**. The output looks something like this:
 
-    ![Console window with program output](../media/vs-2019/overview-console-final.png)
+    ![Screenshot of the Microsoft Visual Studio Debug Console window showing the prompt for a name, the input, and the output 'Hello Georgette! Day of year: 43'.](../media/vs-2019/overview-console-final.png)
 
 ::: moniker-end
 

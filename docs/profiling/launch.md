@@ -1,11 +1,12 @@
 ---
 title: "Launch | Microsoft Docs"
+description: Learn how the Launch option starts the profiler using the sampling method and it also starts the specified application.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 ms.assetid: f81bde5c-3394-4b79-a315-c2f6491689b3
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 monikerRange: 'vs-2017'
 ms.workload:
   - "multiple"

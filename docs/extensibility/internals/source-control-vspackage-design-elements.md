@@ -1,5 +1,7 @@
 ---
 title: Source Control VSPackage Design Elements | Microsoft Docs
+description: Learn about the structure the source control VSPackage must implement and the interfaces and services that the source control VSPackage can implement.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -7,7 +9,7 @@ helpviewer_keywords:
 ms.assetid: edd3f2ff-ca32-4465-8ace-4330493b67bb
 author: acangialosi
 ms.author: anthc
-manager: jillfra
+manager: jmartens
 ms.workload:
 - vssdk
 ---

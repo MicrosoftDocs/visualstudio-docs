@@ -9,7 +9,7 @@ helpviewer_keywords:
 - Assert methods
 - unit tests, Assert classes
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 author: mikejo5000

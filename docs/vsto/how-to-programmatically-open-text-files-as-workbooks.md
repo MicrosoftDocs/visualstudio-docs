@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "text files, opening as workbooks"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

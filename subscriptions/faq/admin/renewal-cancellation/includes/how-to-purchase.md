@@ -6,7 +6,7 @@ ms.topic: include
 ms.assetid: c8dd39de-bf7f-40a2-a203-f2be21b87f5c
 author: CaityBuschlen
 ms.author: cabuschl
-ms.date: 11/12/2020
+ms.date: 01/27/2021
 ---
 
 ## How do I purchase Visual Studio subscriptions?
@@ -20,6 +20,7 @@ Retail Visual Studio subscriptions available through the Microsoft Store include
 - [Visual Studio Enterprise](https://www.microsoft.com/p/visual-studio-enterprise-subscription/dg7gmgf0dst4?activetab=pivot%3aoverviewtab) 
 - [Visual Studio Professional](https://www.microsoft.com/p/visual-studio-professional-subscription/dg7gmgf0dst3?activetab=pivot%3aoverviewtab) 
 - [Visual Studio Test Professional](https://www.microsoft.com/p/visual-studio-test-professional-subscription/dg7gmgf0dst6?activetab=pivot%3aoverviewtab) 
+
 Each of these subscriptions offers the option to make an initial purchase or to renew an existing subscription. Renewal pricing reflects a significant discount and is only available for existing subscriptions. To qualify to renew subscriptions at the discounted renewal price, subscriptions should be renewed before they expire. 
 
 ### Visual Studio Marketplace 
@@ -28,3 +29,6 @@ With monthly subscriptions, you can rent Visual Studio and Azure DevOps without 
 - [Visual Studio Enterprise](https://marketplace.visualstudio.com/items?itemName=ms.vs-enterprise-monthly) - monthly subscription 
  
 [Read more](https://docs.microsoft.com/visualstudio/subscriptions/vscloud-billing-faq) about monthly Visual Studio Subscriptions billing. 
+
+### Volume Licensing 
+Volume Licensing subscriptions are available when an organization needs to purchase a large number of subscriptions. [Read more](https://www.microsoft.com/licensing/how-to-buy/how-to-buy) about purchasing through Volume Licensing.  

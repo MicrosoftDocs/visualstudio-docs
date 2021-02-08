@@ -15,7 +15,7 @@ helpviewer_keywords:
 - coded UI test
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ---
@@ -211,7 +211,7 @@ If the control you want to select loses focus and disappears when you select the
 
 Sometimes, when you add controls and verify their properties, you might have to use the keyboard. For example, when you try to record a Coded UI test that uses a right-click menu control, the list of menu items in the control will lose focus and disappear when you try to select the **Add Assertions** tool from the **Coded UI Test Builder**. This is demonstrated in the following illustration, where the right-click menu in Internet Explorer loses focus and disappears if you try to select it with the **Add Assertions** tool.
 
-![CodedUITest&#95;SelectControlKeyboard](../test/media/codeduitest_selectcontrolkeyboard.png)
+![Screenshot showing the Add Assertions tool in the Coded UI Test builder overlapping the right-click menu from Internet Explorer.](../test/media/codeduitest_selectcontrolkeyboard.png)
 
 To use the keyboard to select a UI control, hover over the control with the mouse. Then hold down the **Ctrl** key and the **I** key at the same time. Release the keys. The control is recorded by the **Coded UI Test Builder**.
 
@@ -223,7 +223,7 @@ Under some circumstances, a particular control that's being used in a Coded UI t
 
 When you perform your Coded UI test, hover over the control. Then press and hold **Ctrl**, while you press and hold the **Shift** and **R** keys on your keyboard. Release the keys. A mouse hover event is recorded by the **Coded UI Test Builder**.
 
-![CodedUI&#95;Hover](../test/media/codedui_hover.png)
+![Screenshot of the Coded UI Test builder command bar with the Pause icon selected. A tool tip window shows the location of a mouse hover event.](../test/media/codedui_hover.png)
 
 After you generate the test method, code similar to the following example will be added to the *UIMap.Designer.cs* file:
 

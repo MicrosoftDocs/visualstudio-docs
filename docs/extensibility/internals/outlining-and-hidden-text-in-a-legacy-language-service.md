@@ -1,5 +1,7 @@
 ---
 title: Outlining and Hidden Text in a Legacy Language Service | Microsoft Docs
+description: This article links to resources to implement outlining and hidden text in a legacy language service.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -7,7 +9,7 @@ helpviewer_keywords:
 ms.assetid: 252c5221-2e64-461c-8dcf-b622e400e0be
 author: acangialosi
 ms.author: anthc
-manager: jillfra
+manager: jmartens
 ms.workload:
 - vssdk
 ---

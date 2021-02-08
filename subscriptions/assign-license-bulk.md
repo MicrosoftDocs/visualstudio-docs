@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: c2853359-18fd-4be4-97a6-02230c862f92
-ms.date: 10/22/2020
+ms.date: 02/02/2021
 ms.topic: how-to
 description:  Learn how admins can assign licenses to multiple subscribers using either the Bulk add feature or Microsoft Azure Active Directory groups
 ---
@@ -81,7 +81,7 @@ Using this feature makes it easy to stay on top of your subscription assignments
 > - Groups must contain at least one member.  Empty groups are not supported.
 > - Groups must have less than 1,000 users. 
 > - All users must be in the top level of the group.  Nested groups are not supported.
-> - Only trusted agreements are supported.
+> - Only trusted agreements are supported. (Only agreements who can 'overallocate' subscriptions are trusted.)
 > - All members of the group must have an email address associated with their Azure AD account.
 > - Separate email addresses for notifications are not supported for subscriptions added using Azure AD groups.  
 
@@ -125,8 +125,14 @@ A: No -- everyone in the group receives the same subscription.
 ### Q: Can I edit subscriber details of individuals added in an Azure AD group?  
 A: No -- To modify information for an individual subscriber, you will need to remove them from the Azure AD security group and assign them a subscription individually.  
 
+### Q: Why can't I see the option to use Azure Active Directory groups to add subscribers?
+A: The feature is currently only available to organizations with trusted agreements.  Select the **Details** button to display your agreement information.
+
+   > [!div class="mx-imgBorder"]
+   > ![Click the Details button](_img/assign-license-bulk/bulk-add-agreement.png "Click the Details button to see what kind of agreement you have")
+
 ### Q: I added someone to my Azure AD security group, but I don't see them added in the Subscriptions Administration Portal, and they don't have a subscription. Why not?  
-A: Depending on how your organization has configured Azure AD, you may see delays of up to 24 hours before the user is added. If it's been longer than 24 hours, [contact support](https://visualstudio.microsoft.com/support/support-overview-vs).  
+A: Depending on how your organization has configured Azure AD, you may see delays of up to 24 hours before the user is added. If it's been longer than 24 hours, please visit [Visual Studio administration and subscriptions support](https://my.visualstudio.com/gethelp).  
 
 ## See also
 - [Visual Studio documentation](/visualstudio/)

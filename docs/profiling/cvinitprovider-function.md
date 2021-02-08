@@ -1,5 +1,7 @@
 ---
 title: CvInitProvider Function | Microsoft Docs
+description: See reference information for the Concurrency Visualizer SDK function CvInitProvider (C library).
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords: 
@@ -9,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: ba1863ad-e35f-4d34-a2f2-5e68957d1915
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload: 
   - multiple
 ---

@@ -11,7 +11,7 @@ helpviewer_keywords:
 - item templates, parameters
 author: TerryGLee
 ms.author: tglee
-manager: jillfra
+manager: jmartens
 ---
 # Template parameters
 

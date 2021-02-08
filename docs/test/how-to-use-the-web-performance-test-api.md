@@ -10,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 93a6a1dd-663b-4ab5-8760-7d6b081561d3
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ---
 # How to: Use the web performance test API
 

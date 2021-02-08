@@ -13,7 +13,7 @@ dev_langs:
 - jsharp
 author: ghogen
 ms.author: ghogen
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ---

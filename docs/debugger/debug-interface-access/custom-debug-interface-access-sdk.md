@@ -1,5 +1,7 @@
 ---
 title: "Custom (Debug Interface Access SDK) | Microsoft Docs"
+description: Find reference information about custom symbol types (identified with the SymTagCustom tag) in the Visual Studio debug interface access SDK.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
@@ -9,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: a219fc83-d2a8-4bc5-b7e1-bfafeb247f16
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

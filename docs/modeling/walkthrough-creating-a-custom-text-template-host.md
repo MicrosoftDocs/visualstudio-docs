@@ -9,7 +9,7 @@ helpviewer_keywords:
 - text templates, custom host walkthrough
 author: JoshuaPartlow
 ms.author: joshuapa
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 dev_langs:

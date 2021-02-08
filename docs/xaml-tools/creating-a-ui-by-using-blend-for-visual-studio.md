@@ -9,7 +9,7 @@ f1_keywords:
 - Blend.Start.Dev12
 author: TerryGLee
 ms.author: tglee
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ---

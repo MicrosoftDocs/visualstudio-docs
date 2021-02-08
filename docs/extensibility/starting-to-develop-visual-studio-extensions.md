@@ -1,5 +1,7 @@
 ---
 title: Starting to Develop Visual Studio Extensions | Microsoft Docs
+description: Learn about some of the common questions that you may have the first time you start to write a Visual Studio extension.
+ms.custom: SEO-VS-2020
 ms.date: 09/18/2017
 ms.topic: conceptual
 helpviewer_keywords:
@@ -8,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 8fe5e2ab-a424-4173-9d39-dd082c4d58d0
 author: acangialosi
 ms.author: anthc
-manager: jillfra
+manager: jmartens
 ms.workload:
 - vssdk
 ---

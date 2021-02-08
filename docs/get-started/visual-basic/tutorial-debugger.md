@@ -1,6 +1,6 @@
 ---
 title: "Tutorial: Debug Visual Basic code"
-description: "Learn how to start the Visual Studio debugger, step through code, and inspect data."
+description: Learn features of the Visual Studio debugger and how to start the debugger, step through code, and inspect data in a Visual Basic application.
 ms.custom: "debug-experiment, seodec18, get-started"
 ms.date: 02/03/2020
 ms.technology: "vs-ide-debug"
@@ -12,7 +12,7 @@ helpviewer_keywords:
 ms.assetid: 62734c0d-a75a-4576-8f73-0e97c19280e1
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

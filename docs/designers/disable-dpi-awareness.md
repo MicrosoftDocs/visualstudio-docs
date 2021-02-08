@@ -4,7 +4,7 @@ description: Discusses the limitations of Windows Forms Designer on HDPI monitor
 ms.date: 09/28/2020
 author: TerryGLee
 ms.author: tglee
-manager: jillfra
+manager: jmartens
 ms.topic: conceptual
 ---
 # Disable DPI-awareness in Visual Studio

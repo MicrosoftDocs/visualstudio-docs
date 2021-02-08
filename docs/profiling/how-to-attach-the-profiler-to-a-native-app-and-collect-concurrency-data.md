@@ -1,12 +1,13 @@
 ---
 title: Attach profiler to native app & collect concurrency data
+description: Use Visual Studio Profiling Tools command-line tools to attach the profiler to a running native (C/C++) stand-alone application and get thread contention data.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 ms.assetid: 12d3e0f3-4b74-4e66-8fbf-8ac99bd4f91c
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 monikerRange: 'vs-2017'
 ms.workload: 
   - cplusplus

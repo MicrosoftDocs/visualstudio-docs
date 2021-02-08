@@ -1,5 +1,6 @@
 ---
 title: "Collect .NET memory allocation & lifetime data"
+description: To help detect memory-related performance issues in your .NET application, use Profiling Tools to collect memory allocation and object lifetime data.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
@@ -8,7 +9,7 @@ helpviewer_keywords:
   - Profiling Tools,.NET memory method
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 monikerRange: 'vs-2017'
 ms.workload: 
   - dotnet

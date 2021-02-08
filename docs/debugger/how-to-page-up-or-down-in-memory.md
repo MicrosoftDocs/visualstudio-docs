@@ -1,5 +1,7 @@
 ---
 title: Page Up or Down in Memory | Microsoft Docs
+description: See how to page up or down in memory to view memory contents in a Memory window or the Disassembly window when debugging in Visual Studio.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 
@@ -16,7 +18,7 @@ helpviewer_keywords:
 ms.assetid: 50b30a68-66f6-43f8-a48b-59ce12c95471
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload: 
   - multiple
 ---

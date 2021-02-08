@@ -8,7 +8,7 @@ ms.prod: visual-studio-windows
 ms.topic: quickstart
 author: ornellaalt
 ms.author: ornella
-manager: jillfra
+manager: jmartens
 dev_langs:
   - CSharp
 ms.workload:
@@ -118,7 +118,7 @@ Soon after, Visual Studio opens your project file.
 
 1. In the **Solution Explorer**, expand the **Pages** folder, and then choose **About.cshtml**.
 
-   ![Choose the About.cshtml file from the Solution Explorer](../ide/media/csharp-aspnet-about-page-html-file.png)
+   ![Screenshot of Visual Studio Solution Explorer showing the files in the HelloWorld project. The Pages folder is expanded and About.cshtml is selected.](../ide/media/csharp-aspnet-about-page-html-file.png)
 
    This file corresponds to a page that's named **About** in the web app, which runs in a web browser.
 
@@ -134,7 +134,7 @@ Soon after, Visual Studio opens your project file.
 
 1. In the **Solution Explorer**, expand **About.cshtml**, and then choose **About.cshtml.cs**. (This file also corresponds with the **About** page in a web browser.)
 
-   ![Choose the About.cshtml file from the Solution Explorer](../ide/media/csharp-aspnet-about-page-code-file.png)
+   ![Screenshot of Visual Studio Solution Explorer showing the files in the HelloWorld project. About.cshtml is expanded and About.cshtml.cs is selected.](../ide/media/csharp-aspnet-about-page-code-file.png)
 
    In the editor, you'll see C# code that includes text for the "application description" area of the **About** page.
 

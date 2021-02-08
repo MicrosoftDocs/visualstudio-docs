@@ -1,6 +1,6 @@
 ---
 title: "Expressions in the debugger | Microsoft Docs"
-description: Edit and Continue is available for Visual C# projects. Learn what edits are supported, and how to can control whether, and when, your edits are applied.
+description: Learn which language expressions are not supported by the expression evaluators in the Visual Studio debugger.
 ms.custom: SEO-VS-2020
 ms.date: "03/02/2020"
 ms.topic: "conceptual"
@@ -18,7 +18,7 @@ helpviewer_keywords:
 ms.assetid: 70f9b531-44c7-4d77-980d-5eddbf2bff41
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

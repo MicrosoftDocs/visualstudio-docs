@@ -1,5 +1,7 @@
 ---
 title: "Debugging Web Applications | Microsoft Docs"
+description: Find links to help you debug different types of web applications, such as ASP.NET apps, JavaScript and TypeScript apps, or AJAX script apps.
+ms.custom: SEO-VS-2020
 ms.date: "11/05/2019"
 ms.topic: "conceptual"
 helpviewer_keywords:
@@ -10,7 +12,7 @@ helpviewer_keywords:
 ms.assetid: a096a90d-6d0d-4752-9fb5-417635ccab3e
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

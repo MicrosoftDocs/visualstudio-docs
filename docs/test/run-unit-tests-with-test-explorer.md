@@ -7,7 +7,7 @@ f1_keywords:
   - vs.unittesting.testexplorer.overview
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload: 
   - multiple
 ---
@@ -28,7 +28,7 @@ Visual Studio includes the Microsoft unit testing frameworks for both managed an
 
 ## Run tests in Test Explorer
 
-When you build the test project, the tests appear in Test Explorer. If Test Explorer is not visible, choose **Test** on the Visual Studio menu, choose **Windows**, and then choose **Test Explorer**.
+When you build the test project, the tests appear in Test Explorer. If Test Explorer is not visible, choose **Test** on the Visual Studio menu, choose **Windows**, and then choose **Test Explorer** (or press **Ctrl** + **E**, **T**).
 
 ::: moniker range="vs-2017"
 ![Unit Test Explorer](../test/media/ute_failedpassednotrunsummary.png)
@@ -58,24 +58,24 @@ You can perform much of the work of finding, organizing and running tests from t
 ::: moniker range="vs-2017"
 You can run all the tests in the solution, all the tests in a group, or a set of tests that you select. Do one of the following:
 
-- To run all the tests in a solution, choose **Run All**.
+- To run all the tests in a solution, choose **Run All** (or press **Ctrl** + **R**, **V**).
 
 - To run all the tests in a default group, choose **Run** and then choose the group on the menu.
 
-- Select the individual tests that you want to run, open the right-click menu for a selected test and then choose **Run Selected Tests**.
+- Select the individual tests that you want to run, open the right-click menu for a selected test and then choose **Run Selected Tests** (or press **Ctrl** + **R**, **T**).
 
-- If individual tests have no dependencies that prevent them from being run in any order, turn on parallel test execution with the ![UTE&#95;parallelicon&#45;small](../test/media/ute_parallelicon-small.png) toggle button on the toolbar. This can noticeably reduce the time taken to run all the tests.
+- If individual tests have no dependencies that prevent them from being run in any order, turn on parallel test execution with the ![Screenshot of the Parallel test execution toggle button on the Visual Studio Test Explorer toolbar. When this button is selected, tests will run in parallel.](../test/media/ute_parallelicon-small.png) toggle button on the toolbar. This can noticeably reduce the time taken to run all the tests.
 
 The **pass/fail bar** at the top of the **Test Explorer** window is animated as the tests run. At the conclusion of the test run, the **pass/fail bar** turns green if all tests passed or turns red if any test failed.
 ::: moniker-end
 ::: moniker range=">=vs-2019"
 You can run all the tests in the solution, all the tests in a group, or a set of tests that you select. Do one of the following:
 
-- To run all the tests in a solution, choose the **Run All** icon.
+- To run all the tests in a solution, choose the **Run All** icon (or press **Ctrl** + **R**, **V**).
 
 - To run all the tests in a default group, choose the **Run** icon and then choose the group on the menu.
 
-- Select the individual tests that you want to run, open the right-click menu for a selected test and then choose **Run Selected Tests**.
+- Select the individual tests that you want to run, open the right-click menu for a selected test and then choose **Run Selected Tests** (or press **Ctrl** + **R**, **T**).
 
 - If individual tests have no dependencies that prevent them from being run in any order, turn on parallel test execution in the settings menu of the toolbar. This can noticeably reduce the time taken to run all the tests.
 ::: moniker-end
@@ -124,7 +124,7 @@ If the test fails, the details pane also displays:
 
 ### View the source code of a test method
 
-To display the source code for a test method in the Visual Studio editor, select the test and then choose **Open Test** on the right-click menu (Keyboard: **F12**).
+To display the source code for a test method in the Visual Studio editor, select the test and then choose **Open Test** on the right-click menu (or press **F12**).
 
 ## Group and filter the test list
 
@@ -144,7 +144,7 @@ Test Explorer lets you group your tests into a hierarchy. The default hierarchy 
 
 You can define your own levels of the hierarchy and group by **State** and then **Class** for example by selecting Group By options in your preferred order.
 
-![Group by State and then Class](../test/media/vs-2019/test-explorer-groupby-state-16-2.png)
+![Screenshot of the Visual Studio Test Explorer showing  a test hierarchy in one pane and the Group By menu in the other with the Class and State options checked.](../test/media/vs-2019/test-explorer-groupby-state-16-2.png)
 ::: moniker-end
 
 ### Test Explorer groups
@@ -201,7 +201,7 @@ You can create and save a list of tests that you want to run or view as a group.
 
 **To open a playlist**, choose **Test** > **Playlist** from the Visual Studio menu, and either choose from the list of recently used playlists, or choose **Open Playlist** to specify the name and location of the playlist.
 
-If individual tests have no dependencies that prevent them from being run in any order, turn on parallel test execution with the ![UTE&#95;parallelicon&#45;small](../test/media/ute_parallelicon-small.png) toggle button on the toolbar. This can noticeably reduce the time taken to run all the tests.
+If individual tests have no dependencies that prevent them from being run in any order, turn on parallel test execution with the ![Screenshot of the Parallel test execution toggle button on the Visual Studio Test Explorer toolbar.](../test/media/ute_parallelicon-small.png) toggle button on the toolbar. This can noticeably reduce the time taken to run all the tests.
 ::: moniker-end
 ::: moniker range=">=vs-2019"
 You can create and save a list of tests that you want to run or view as a group. When you select a playlist, the tests in the list are displayed in a new Test Explorer tab. You can add a test to more than one playlist.
@@ -258,7 +258,7 @@ Use the following format for xUnit. Make sure there is a space between your `Tes
 
 The [groups](#test-explorer-groups) are also available as columns in Test Explorer, along with Trait, Stack Trace, Error Message, and Fully Qualified Name. Most columns are not visible by default, and you can customize which columns you see and the order in which they appear.
 
-![Group by State and then Class](../test/media/vs-2019/test-explorer-columns-16-2.png)
+![Screenshot of the Visual Studio Test Explorer showing a menu with Columns selected and a sub-menu with Duration, Traits, and Error Message selected.](../test/media/vs-2019/test-explorer-columns-16-2.png)
 
 ### Filter, sort, and rearrange test columns
 
@@ -371,6 +371,16 @@ Tests can be run from Test Explorer by right-clicking in the code editor on a te
 > [!NOTE]
 > You can't run a test in an abstract class, because tests are only defined in abstract classes and not instantiated. To run tests in abstract classes, create a class that derives from the abstract class.
 
+::: moniker range=">=vs-2019"
+## Test audio cue
+Test Explorer can play a sound when a test run completes. There are two sounds: one sound to indicate the test run succeeded with all passing tests, and a second sound to indicate the test run completed with at least one failing test. You can set up these sounds in the default Windows 10 sound dialog. This feature is available starting in Visual Studio 2019 Update 16.9 Preview 3.
+
+1. Open the default Windows 10 sound dialog.
+2. Navigate to the **Sounds** tab.
+3. Find the **Microsoft Visual Studio** category. Choose the **Test Run Succeeded** or **Test Run Failed** sounds to select the preset sounds or browse to your own audio file.  
+![Windows 10 sound dialog](../test/media/default-windows-10-sound-dialog.png)
+
+::: moniker-end
 ## See also
 
 - [Unit test your code](../test/unit-test-your-code.md)

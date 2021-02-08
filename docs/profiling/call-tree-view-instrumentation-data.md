@@ -1,5 +1,7 @@
 ---
 title: "Call Tree View - Instrumentation Data | Microsoft Docs"
+description: Learn about how the Call Tree view displays instrumentation information in the call tree in Performance Explorer.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:
@@ -7,7 +9,7 @@ helpviewer_keywords:
 ms.assetid: 306bd176-0ce9-4a10-89ca-20b043d37d4e
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 monikerRange: 'vs-2017'
 ms.workload:
   - "multiple"

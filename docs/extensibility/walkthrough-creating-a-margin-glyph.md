@@ -1,5 +1,7 @@
 ---
 title: 'Walkthrough: Creating a Margin Glyph | Microsoft Docs'
+description: Learn how to customize the appearance of editor margins by using custom editor extensions by using this walkthrough.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
@@ -7,7 +9,7 @@ helpviewer_keywords:
 ms.assetid: 814185db-24f9-417f-b3b1-7c5aabb42b45
 author: acangialosi
 ms.author: anthc
-manager: jillfra
+manager: jmartens
 ms.workload:
 - vssdk
 ---

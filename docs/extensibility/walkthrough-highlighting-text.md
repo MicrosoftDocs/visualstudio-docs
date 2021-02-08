@@ -1,5 +1,7 @@
 ---
 title: 'Walkthrough: Highlighting Text | Microsoft Docs'
+description: Learn how to highlight every occurrence of the current word in a text file by adding visual effects to the editor in this walkthrough.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
@@ -7,7 +9,7 @@ helpviewer_keywords:
 ms.assetid: 64b772ad-4392-42e9-a237-5137f0384bf0
 author: acangialosi
 ms.author: anthc
-manager: jillfra
+manager: jmartens
 ms.workload:
 - vssdk
 ---

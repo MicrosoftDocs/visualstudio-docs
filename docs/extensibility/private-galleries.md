@@ -1,5 +1,7 @@
 ---
 title: Private Galleries | Microsoft Docs
+description: Learn how to share the controls, templates, and tools that you develop in the Visual Studio SDK by posting them to a private gallery.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -8,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: b6b3dee7-91c5-4556-9f69-0d56b675e83b
 author: acangialosi
 ms.author: anthc
-manager: jillfra
+manager: jmartens
 ms.workload:
 - vssdk
 ---

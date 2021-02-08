@@ -7,7 +7,7 @@ ms.date: 04/26/2019
 ms.topic: conceptual
 author: acangialosi
 ms.author: anthc
-manager: jillfra
+manager: jmartens
 ms.workload:
 - vssdk
 ---

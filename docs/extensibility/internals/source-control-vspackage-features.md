@@ -1,5 +1,7 @@
 ---
 title: Source Control VSPackage Features | Microsoft Docs
+description: Learn about features of a source control VSPackage, including registration/selection details, and about some of the main source control-related features.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -7,7 +9,7 @@ helpviewer_keywords:
 ms.assetid: 26c3ffda-22b8-4345-9fb6-2883f37699aa
 author: acangialosi
 ms.author: anthc
-manager: jillfra
+manager: jmartens
 ms.workload:
 - vssdk
 ---

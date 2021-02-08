@@ -1,5 +1,7 @@
 ---
 title: "Analyzing Performance Tools Data | Microsoft Docs"
+description: Learn about the performance reports and views that Visual Studio Profiling Tools provide for you to analyze performance issues.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:
@@ -13,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: ae3e198a-b994-4ecb-a633-dec98bd4fd45
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 monikerRange: 'vs-2017'
 ms.workload:
   - "multiple"

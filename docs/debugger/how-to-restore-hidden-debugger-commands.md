@@ -1,5 +1,7 @@
 ---
 title: Restore Hidden Debugger Commands | Microsoft Docs
+description: Learn to restore hidden debugger commands in Visual Studio. Default IDE settings for some languages may hide certain debugger commands.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 
@@ -15,7 +17,7 @@ helpviewer_keywords:
 ms.assetid: 76ac9b77-f536-43b5-a9fc-984854b1c566
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload: 
   - multiple
 ---

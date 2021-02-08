@@ -1,5 +1,7 @@
 ---
 title: Using the Settings Store | Microsoft Docs
+description: Learn how to read data from the configuration setting store, which are read-only Visual Studio and VSPackage settings.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -7,7 +9,7 @@ helpviewer_keywords:
 ms.assetid: 447ec08a-eca5-40b8-89b0-f98fdf3d39a4
 author: acangialosi
 ms.author: anthc
-manager: jillfra
+manager: jmartens
 ms.workload:
 - vssdk
 ---

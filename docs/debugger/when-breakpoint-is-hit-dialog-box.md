@@ -1,5 +1,7 @@
 ---
 title: "When Breakpoint Is Hit Dialog Box | Microsoft Docs"
+description: Use When Breakpoint is Hit to specify an action on breaking. You can specify that a message be printed, and that execution should continue afterwards.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 f1_keywords:
@@ -14,7 +16,7 @@ dev_langs:
 ms.assetid: 476e3d98-cf35-4338-b124-cd0f3010d854
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

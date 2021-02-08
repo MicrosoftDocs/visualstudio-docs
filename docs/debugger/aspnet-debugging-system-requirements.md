@@ -1,5 +1,7 @@
 ---
 title: "ASP.NET Debugging: System Requirements | Microsoft Docs"
+description: Review the software and security requirements for ASP.NET local debugging, in which Visual Studio and the web app run on the same computer, and remote debugging.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:
@@ -13,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 7810b9b2-debf-4271-8fc7-1df031123255
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "aspnet"
 ---

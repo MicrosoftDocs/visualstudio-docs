@@ -4,15 +4,13 @@ description: Learn how to use the Add New Item command to add a new solution ite
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
-f1_keywords:
-- project.addnewitem
 helpviewer_keywords:
 - Add New Item command
 - File.AddNewItem command
 ms.assetid: 63b7df32-db83-463b-bbe7-7ff011fe5298
 author: TerryGLee
 ms.author: tglee
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ---

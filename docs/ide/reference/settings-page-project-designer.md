@@ -11,7 +11,7 @@ helpviewer_keywords:
 - Project Designer, Settings page
 author: TerryGLee
 ms.author: tglee
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ---

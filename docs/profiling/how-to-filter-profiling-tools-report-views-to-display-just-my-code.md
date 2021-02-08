@@ -1,11 +1,12 @@
 ---
 title: Filter profiling report views to show Just My Code
+description: Use the Just My Code option of Visual Studio to restrict performance reports to show only code that you have implemented (select Options from the Debug menu).
 ms.custom: SEO-VS-2020
 ms.date: 02/15/2018
 ms.topic: how-to
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 monikerRange: 'vs-2017'
 ms.workload: 
   - multiple

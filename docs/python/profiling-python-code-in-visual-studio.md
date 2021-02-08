@@ -5,7 +5,7 @@ ms.date: 11/12/2018
 ms.topic: how-to
 author: JoshuaPartlow
 ms.author: joshuapa
-manager: jillfra
+manager: jmartens
 ms.custom: seodec18
 ms.workload:
   - python
@@ -26,7 +26,7 @@ When you select **OK**, the profiler runs and opens a performance report through
 ![Profiling performance report](media/profiling-results.png)
 
 > [!Note]
-> At present, Visual Studio supports only this level of full-application profiling, but we certainly want to hear your feedback on future capabilities. Use the **Product feedback** button at the bottom of this page.
+> When you profile a Python application Visual Studio collects data for the lifetime of the process. At present, it is not possible to pause profiling. We do want to hear your feedback on future capabilities. Use the **Product feedback** button at the bottom of this page.
 
 ## Profiling for IronPython
 

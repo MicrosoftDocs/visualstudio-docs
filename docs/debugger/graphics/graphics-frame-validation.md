@@ -1,5 +1,7 @@
 ---
 title: "Graphics Frame Validation | Microsoft Docs"
+description: Learn about the Frame Validation tool for graphics in Visual Studio. This tool displays errors and warnings associated with the event list.
+ms.custom: SEO-VS-2020
 ms.date: "03/02/2017"
 ms.topic: "conceptual"
 f1_keywords:
@@ -7,7 +9,7 @@ f1_keywords:
 ms.assetid: 1e639182-1301-4e28-9c1e-b5df732f3f1b
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

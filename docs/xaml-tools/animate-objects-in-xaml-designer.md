@@ -8,7 +8,7 @@ ms.topic: how-to
 ms.assetid: fb88fa26-e835-47f5-9771-2f279441c83c
 author: TerryGLee
 ms.author: tglee
-manager: jillfra
+manager: jmartens
 ---
 # Animate objects in XAML Designer
 

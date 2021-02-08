@@ -1,5 +1,7 @@
 ---
 title: Restrictions on String Lengths | Microsoft Docs
+description: Learn about limits on the lengths of strings used by various functions imposed by the Source Control Plug-in API.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -7,7 +9,7 @@ helpviewer_keywords:
 ms.assetid: 877173d2-ca27-43b3-b1f4-8379f7c5e268
 author: acangialosi
 ms.author: anthc
-manager: jillfra
+manager: jmartens
 ms.workload:
 - vssdk
 ---

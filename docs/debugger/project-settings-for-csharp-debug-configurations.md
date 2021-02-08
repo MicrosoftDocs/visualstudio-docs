@@ -1,6 +1,7 @@
 ---
 title: "Project Settings for a C# debug config | Microsoft Docs"
-ms.custom: "seodec18"
+description: Understand how to change the project settings for a C# debug configuration in Visual Studio, using the Debug tab and Build tab of the project property pages.
+ms.custom: "SEO-VS-2020, seodec18"
 ms.date: "11/21/2018"
 ms.topic: "reference"
 dev_langs:
@@ -18,7 +19,7 @@ helpviewer_keywords:
 ms.assetid: e30ca810-66e9-4d6e-9cf6-9f285cd0b100
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "dotnet"
 ---

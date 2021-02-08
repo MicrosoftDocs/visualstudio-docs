@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "ranges, applying color"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

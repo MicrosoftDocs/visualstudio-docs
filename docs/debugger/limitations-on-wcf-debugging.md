@@ -1,5 +1,7 @@
 ---
 title: "Limitations on WCF Debugging | Microsoft Docs"
+description: Learn the ways to begin debugging a WCF service, the required conditions, and the debugging limitations.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:
@@ -13,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 8e0333c4-1ddc-4abe-8f1c-d19bf6a2a07a
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---
@@ -26,7 +28,7 @@ There are three ways that you can begin debugging a WCF service:
 
 - You use **Attach to Process** to attach to a service that is currently running. Debugging begins inside the service.
 
-  This topic describes limitations on these scenarios.
+This topic describes limitations on these scenarios.
 
 ## Limitations on Stepping Into a Service
  To step into a service from a client applications that you are debugging, the following conditions must be met:

@@ -1,5 +1,7 @@
 ---
 title: "IntelliTrace | Microsoft Docs"
+description: Use IntelliTrace to record and trace your code's execution history in Visual Studio. Record specific events, examine related code, and debug errors.
+ms.custom: SEO-VS-2020
 ms.date: "09/19/2018"
 ms.topic: "conceptual"
 f1_keywords:
@@ -15,7 +17,7 @@ helpviewer_keywords:
   - "IntelliTrace, debugging after a crash"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

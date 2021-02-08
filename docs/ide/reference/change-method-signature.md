@@ -5,7 +5,7 @@ ms.date: 07/20/2020
 ms.topic: reference
 author: mikadumont
 ms.author: midumont
-manager: jillfra
+manager: jmartens
 f1_keywords:
   - "vs.csharp.refactoring.remove"
   - "vs.csharp.refactoring.reorder"

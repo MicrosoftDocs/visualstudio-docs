@@ -17,7 +17,7 @@ helpviewer_keywords:
 ms.assetid: 9857505d-ae15-42f1-936d-6cd7fb9dd276
 author: ghogen
 ms.author: ghogen
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ---
@@ -135,3 +135,4 @@ The following table lists frequently used properties that are defined in the Vis
 - [Common MSBuild project items](../msbuild/common-msbuild-project-items.md)
 - [Common MSBuild item metadata](common-msbuild-item-metadata.md)
 - [MSBuild Reserved and Well-known Properties](msbuild-reserved-and-well-known-properties.md)
+- [MSBuild reference for .NET SDK projects](/dotnet/core/project-sdk/msbuild-props)

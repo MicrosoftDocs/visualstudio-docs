@@ -1,5 +1,7 @@
 ---
 title: Template Policy and the Properties Window | Microsoft Docs
+description: Learn about using template policy to set default values for properties, hide properties, and add properties in the Properties window.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -7,7 +9,7 @@ helpviewer_keywords:
 ms.assetid: 1d8019d3-5e57-47ba-b358-526b0796a63b
 author: acangialosi
 ms.author: anthc
-manager: jillfra
+manager: jmartens
 ms.workload:
 - vssdk
 ---

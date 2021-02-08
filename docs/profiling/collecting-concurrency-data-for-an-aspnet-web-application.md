@@ -1,5 +1,6 @@
 ---
 title: Profiler command line - Get ASP.NET concurrency data
+description: See reference information about the concurrency method of Visual Studio Profiling Tools, which enables you to collect resource contention data.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 0ba431c1-9eaf-4af9-8ce0-669c0835cdc2
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 monikerRange: 'vs-2017'
 ms.workload: 
   - aspnet

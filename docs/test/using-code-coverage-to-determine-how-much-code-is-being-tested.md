@@ -12,7 +12,7 @@ dev_langs:
 - CPP
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ---
 # Use code coverage to determine how much code is being tested
 

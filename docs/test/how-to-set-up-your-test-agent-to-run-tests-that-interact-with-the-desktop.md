@@ -9,7 +9,7 @@ helpviewer_keywords:
 ms.assetid: 3a94dd07-6d17-402c-ae8f-7947143755c9
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ---
 # How to: Set up your test agent to run tests that interact with the desktop
 

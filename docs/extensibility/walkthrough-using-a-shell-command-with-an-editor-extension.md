@@ -1,5 +1,6 @@
 ---
 title: Use a shell command with an editor extension
+description: Learn how to add an adornment to a text view in the editor by invoking a menu command. From a VSPackage, you can add features like menu commands to the editor.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
@@ -8,7 +9,7 @@ helpviewer_keywords:
 ms.assetid: 08526848-a442-4cd4-afa1-b2eac2005adb
 author: acangialosi
 ms.author: anthc
-manager: jillfra
+manager: jmartens
 ms.workload:
 - vssdk
 ---

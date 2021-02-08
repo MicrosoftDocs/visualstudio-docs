@@ -1,5 +1,7 @@
 ---
 title: 'Walkthrough: Adding Features to a Custom Editor | Microsoft Docs'
+description: Learn how to add more features to a custom editor after you create the editor by using this walkthrough.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
@@ -7,7 +9,7 @@ helpviewer_keywords:
 ms.assetid: bfe083b6-3e35-4b9c-ad4f-b30b9ff412a5
 author: acangialosi
 ms.author: anthc
-manager: jillfra
+manager: jmartens
 ms.workload:
 - vssdk
 ---

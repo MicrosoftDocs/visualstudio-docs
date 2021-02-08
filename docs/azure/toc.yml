@@ -33,13 +33,15 @@
     href: azure-sql-database-add-connected-service.md
   - name: Add Azure Storage
     href: vs-azure-tools-connected-services-storage.md
+  - name: Add Azure App Configuration 
+    href: vs-azure-tools-connected-services-app-configuration.md
 - name: Azure Cloud Services development
   expanded: false
   items:
   - name: Work with cloud service projects
     items:
-    - name: Access private Azure clouds
-      href: vs-azure-tools-access-private-azure-clouds-with-visual-studio.md
+    - name: Use Cloud Services (extended support) (Preview)
+      href: cloud-services-extended-support.md
     - name: Create an Azure cloud service project
       href: vs-azure-tools-azure-project-create.md
     - name: Manage roles in Azure cloud services
@@ -58,6 +60,8 @@
       href: vs-azure-tools-multiple-services-project-configurations.md
     - name: How to upgrade projects to the current version of the Azure Tools
       href: vs-azure-tools-upgrade-projects-to-the-current-version-of-the-azure-tools.md
+    - name: Access private Azure clouds
+      href: vs-azure-tools-access-private-azure-clouds-with-visual-studio.md
   - name: Test and debug a cloud service
     items:
     - name: Debug an Azure cloud service or virtual machine in Visual Studio

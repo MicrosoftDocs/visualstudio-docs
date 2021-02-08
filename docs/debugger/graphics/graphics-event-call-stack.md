@@ -1,5 +1,7 @@
 ---
 title: "Graphics Event Call Stack | Microsoft Docs"
+description: Review the Graphics Event Call Stack in Visual Studio Graphics Analyzer, to map the relationship between problematic graphics events and your app's source code.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:
@@ -7,7 +9,7 @@ f1_keywords:
 ms.assetid: 8a30168d-8b39-4de1-b094-c7356ba101a3
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

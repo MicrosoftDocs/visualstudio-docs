@@ -12,7 +12,7 @@ helpviewer_keywords:
 - visual studio
 author: ornellaalt
 ms.author: ornella
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ms.prod: visual-studio-windows

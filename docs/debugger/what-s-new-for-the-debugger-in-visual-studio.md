@@ -1,6 +1,8 @@
 ---
 title: "What's New for the Debugger in Visual Studio 2017 | Microsoft Docs"
 titleSuffix: ""
+description: "See the new features in debugger version 15.5. Included are: snapshots of selected code of in-production apps, and Intellitrace step-back."
+ms.custom: SEO-VS-2020
 ms.date: "01/22/2018"
 ms.topic: "conceptual"
 dev_langs:
@@ -16,7 +18,7 @@ helpviewer_keywords:
 ms.assetid: 2aed9caa-2384-4e49-8595-82d8b06cf271
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 monikerRange: vs-2017

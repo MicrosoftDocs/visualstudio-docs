@@ -11,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 8a4ba300-425d-447c-91d9-c53f4345feee
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ---
 # Analyze load test results using the Load Test Analyzer
 

@@ -1,5 +1,7 @@
 ---
 title: Verify IIS Property Settings | Microsoft Docs
+description: Learn how to verify IIS property settings that you set for a web application using the IIS administration tool.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 
@@ -16,7 +18,7 @@ helpviewer_keywords:
 ms.assetid: 9efc50bf-02fb-4750-9b3e-f03c38f10d8b
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload: 
   - multiple
 ---

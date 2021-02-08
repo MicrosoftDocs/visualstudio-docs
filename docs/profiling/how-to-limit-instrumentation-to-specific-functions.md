@@ -1,5 +1,7 @@
 ---
 title: Limit Instrumentation to Specific Functions | Microsoft Docs
+description: Learn how to limit instrumentation and data collection to one or more functions by setting options in the Advanced page or in target binary property pages.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords: 
@@ -7,7 +9,7 @@ helpviewer_keywords:
 ms.assetid: bd98d6bf-2560-4eba-b063-2facb09f87c4
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 monikerRange: 'vs-2017'
 ms.workload: 
   - multiple

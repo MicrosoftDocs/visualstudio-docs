@@ -1,5 +1,7 @@
 ---
 title: "JIT Optimization and Debugging | Microsoft Docs"
+description: Code that is optimized is more difficult to debug than code that isn't. Learn about JIT optimization, and about when and how to suppress it.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:
@@ -13,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 19bfabf3-1a2e-49dc-8819-a813982e86fd
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

@@ -8,7 +8,7 @@ helpviewer_keywords:
 - Domain-Specific Language, programming domain properties
 author: JoshuaPartlow
 ms.author: joshuapa
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ---

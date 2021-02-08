@@ -1,6 +1,7 @@
 ---
 title: Write a run-time error reporting function | Microsoft Docs
-ms.custom: seodec18
+description: See examples of writing a custom run-time error reporting function in Visual Studio. It must have the same declaration as _CrtDbgReportW and return a value of 1.
+ms.custom: "SEO-VS-2020, seodec18"
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 
@@ -15,7 +16,7 @@ helpviewer_keywords:
 ms.assetid: 989bf312-5038-44f3-805f-39a34d18760e
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload: 
   - multiple
 ---

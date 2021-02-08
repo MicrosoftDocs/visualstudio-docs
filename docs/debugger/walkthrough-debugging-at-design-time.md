@@ -1,6 +1,7 @@
 ---
 title: "Debug at design time | Microsoft Docs"
-ms.custom: ""
+description: Use the Immediate window to debug code at design time, without running the app. You can execute a function and examine the state when a breakpoint is hit.
+ms.custom: SEO-VS-2020
 ms.date: "01/10/2019"
 ms.topic: "conceptual"
 dev_langs:
@@ -13,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: 35bfdd2c-6f60-4be1-ba9d-55fce70ee4d8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

@@ -2,7 +2,7 @@
 title: "Getting Started with Visual Studio Tools for Unity | Microsoft Docs"
 description: "Learn how to install and setup Visual Studio for Unity development."
 ms.custom: ""
-ms.date: "07/13/2020"
+ms.date: "01/27/2021"
 ms.technology: vs-unity-tools
 ms.prod: visual-studio-dev16
 ms.topic: how-to
@@ -17,7 +17,7 @@ zone_pivot_groups: platform
 # Get started with Visual Studio and Unity
 
 > [!NOTE]
-> This guide assumes you already have installed Unity using the Unity Hub program. If you are new to Unity, we recommend visiting Unity Learn and complete the [Getting Started with Unity tutorial](https://learn.unity.com/course/getting-started-with-unity) first.
+> This guide assumes you already have installed Unity using the Unity Hub program. If you are new to Unity, we recommend visiting Unity Learn and complete the [Unity Essentials learning path](https://learn.unity.com/pathway/unity-essentials) first.
 
 ## Install Unity support for Visual Studio
 
@@ -28,7 +28,7 @@ Visual Studio Tools for Unity is a free extension that provides support for writ
 > [!NOTE]
 > This installation guide is for Visual Studio. If you're using Visual Studio Code, please visit the [Unity Development with VS Code documentation](https://code.visualstudio.com/docs/other/unity).
 
-1. [Download the Visual Studio installer](/docs/install/install-visual-studio.md), or run it if already installed.
+1. [Download the Visual Studio installer](/visualstudio/docs/install/install-visual-studio.md), or run it if already installed.
 2. Click **Modify** (if already installed) or **Install** (for new installations) for your desired version of Visual Studio.
 3. On the **Workloads** tab, scroll to the **Gaming** section and select the **Game development with Unity** workload.
 

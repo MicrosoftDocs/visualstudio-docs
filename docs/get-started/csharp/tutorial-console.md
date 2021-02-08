@@ -9,7 +9,7 @@ ms.topic: tutorial
 ms.devlang: CSharp
 author: ornellaalt
 ms.author: ornella
-manager: jillfra
+manager: jmartens
 dev_langs:
   - CSharp
 ms.workload:
@@ -276,7 +276,7 @@ Let's walk through a few common user input errors, locate them in the debugger i
 
 When you try to divide a number by zero, the console app might freeze and then show you what's wrong in the code editor.
 
-   ![The Visual Studio code editor shows the divide-by-zero error](./media/csharp-console-calculator-dividebyzero-error.png)
+   ![Screenshot of the Visual Studio code editor showing a line highlighted in yellow and an Exception Unhandled error for 'Attempted to divide by zero'.](./media/csharp-console-calculator-dividebyzero-error.png)
 
 > [!NOTE]
 > Sometimes, the app doesn't freeze and the debugger won't show a divide-by-zero error. Instead, the app might return an unexpected nonnumeric result, such as an infinity symbol. The following code fix still applies.
@@ -305,7 +305,7 @@ Let's change the code to handle this error.
 
 Now, when you divide any number by zero, the app will ask for another number. Even better: It won't stop asking until you provide a number other than zero.
 
-   ![Fixed the divide-by-zero error](./media/csharp-console-calculator-dividebyzero.png)
+   ![Screenshot of the Visual Studio code editor showing the code for the switch statement with the check for entry of a non-zero divisor added.](./media/csharp-console-calculator-dividebyzero.png)
 
 ### Fix the "format" error
 

@@ -16,7 +16,7 @@ helpviewer_keywords:
   - "page layouts[SharePoint development in Visual Studio], designing"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

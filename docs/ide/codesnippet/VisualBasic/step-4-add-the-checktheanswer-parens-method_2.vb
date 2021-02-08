@@ -8,11 +8,11 @@
             MessageBox.Show("You got all of the answers right!", "Congratulations!")
             startButton.Enabled = True
         ElseIf timeLeft > 0 Then
-            ' If CheckTheAnswer() return false, keep counting
+            ' If CheckTheAnswer() returns false, keep counting
             ' down. Decrease the time left by one second and 
             ' display the new time left by updating the 
             ' Time Left label.
-            timeLeft -= 1
+            timeLeft = timeLeft - 1
             timeLabel.Text = timeLeft & " seconds"
         Else
             ' If the user ran out of time, stop the timer, show 

@@ -11,7 +11,7 @@ helpviewer_keywords:
   - "coauthoring, in Excel"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

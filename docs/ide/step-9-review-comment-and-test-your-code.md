@@ -12,7 +12,7 @@ dev_langs:
   - "VB"
 author: ornellaalt
 ms.author: ornella
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

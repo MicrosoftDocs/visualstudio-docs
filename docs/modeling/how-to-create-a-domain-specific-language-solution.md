@@ -12,7 +12,7 @@ helpviewer_keywords:
 - Domain-Specific Language Tools, creating solutions
 author: JoshuaPartlow
 ms.author: joshuapa
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ---

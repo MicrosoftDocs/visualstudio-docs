@@ -5,7 +5,7 @@ ms.custom: SEO-VS-2020
 ms.date: 06/03/2020
 ms.topic: how-to
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload: 
   - multiple
 author: mikejo5000
@@ -249,11 +249,11 @@ You can also create shims for specific instances, for constructors, and for prop
 ## Using Microsoft Fakes in the CI
 
 ### Microsoft Fakes Assembly Generation
-Since Microsoft Fakes requires Visual Studio Enterprise, the generation of Fakes Assemblies requires that you build your project using [Visual Studio Build Task](/azure/devops/pipelines/tasks/build/visual-studio-build?view=azure-devops).
+Since Microsoft Fakes requires Visual Studio Enterprise, the generation of Fakes Assemblies requires that you build your project using [Visual Studio Build Task](/azure/devops/pipelines/tasks/build/visual-studio-build?view=azure-devops&preserve-view=true).
 
 ::: moniker range=">=vs-2019"
 > [!NOTE]
-> An alternative to this is to check your Fakes Assemblies into the CI and use the [MSBuild Task](../msbuild/msbuild-task.md?view=vs-2019). When you do this, you need to ensure that you have an assembly reference to the generated Fakes assembly in your test project, similar to the following code snippet :
+> An alternative to this is to check your Fakes Assemblies into the CI and use the [MSBuild Task](../msbuild/msbuild-task.md?view=vs-2019&preserve-view=true). When you do this, you need to ensure that you have an assembly reference to the generated Fakes assembly in your test project, similar to the following code snippet :
 
 ```xml
 <Project Sdk="Microsoft.NET.Sdk">
@@ -267,10 +267,10 @@ This reference is required to be added in manually specifically SDK-style projec
 ::: moniker-end
 
 ### Running Microsoft Fakes tests
-As long as Microsoft Fakes assemblies are present in the configured `FakesAssemblies` directory (The default being `$(ProjectDir)FakesAssemblies`), you can run tests using the [vstest task](/azure/devops/pipelines/tasks/test/vstest?view=azure-devops).
+As long as Microsoft Fakes assemblies are present in the configured `FakesAssemblies` directory (The default being `$(ProjectDir)FakesAssemblies`), you can run tests using the [vstest task](/azure/devops/pipelines/tasks/test/vstest?view=azure-devops&preserve-view=true).
 
 ::: moniker range=">=vs-2019"
-Distributed testing with the [vstest task](/azure/devops/pipelines/tasks/test/vstest?view=azure-devops) .NET Core projects using Microsoft Fakes requires Visual Studio 2019 Update 9 Preview `20201020-06` and higher.
+Distributed testing with the [vstest task](/azure/devops/pipelines/tasks/test/vstest?view=azure-devops&preserve-view=true) .NET Core projects using Microsoft Fakes requires Visual Studio 2019 Update 9 Preview `20201020-06` and higher.
 ::: moniker-end
 
 ::: moniker range=">=vs-2019"

@@ -1,5 +1,7 @@
 ---
 title: Debug HTML and CSS in UWP apps | Microsoft Docs
+description: Know how to debug HTML and CSS in Universal Windows Platform (UWP) apps in Visual Studio. JavaScript debugging features are supported for UWP apps.
+ms.custom: SEO-VS-2020
 ms.date: 07/17/2018
 ms.topic: how-to
 f1_keywords:
@@ -13,7 +15,7 @@ helpviewer_keywords:
   - DOM Explorer [UWP apps]
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 monikerRange: vs-2017
 ms.workload:
   - uwp

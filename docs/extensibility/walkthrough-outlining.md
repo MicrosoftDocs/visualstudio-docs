@@ -1,5 +1,7 @@
 ---
 title: 'Walkthrough: Outlining | Microsoft Docs'
+description: Learn how to define and display outlining regions in the context of a language service or for your own file name extension and content type.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
@@ -7,7 +9,7 @@ helpviewer_keywords:
 ms.assetid: d75a44aa-265a-44d4-9c28-457f59c4ff9f
 author: acangialosi
 ms.author: anthc
-manager: jillfra
+manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:

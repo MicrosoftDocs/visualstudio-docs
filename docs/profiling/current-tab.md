@@ -1,5 +1,7 @@
 ---
 title: "Current Tab | Microsoft Docs"
+description: Select the Current tab of Threads View to see a call stack for a CPU thread segment or a blocking segment. There is also information about DirectX segments.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:
@@ -9,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 2c7b1ae5-3756-4795-bc59-f6bb113f2ba5
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

@@ -8,17 +8,17 @@ helpviewer_keywords:
   - unit testing, create unit tests
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload: 
   - multiple
 ---
-# Create unit test method stubs with the Create Unit Tests command
+# Create unit test method stubs from code
 
 The **Create Unit Tests** command creates unit test method stubs. This feature allows easy configuration of a test project, the test class, and the test method stub within it.
 
 ::: moniker range="vs-2017"
 > [!NOTE]
-> The **Create Unit Tests** menu command is only available for C# code that targets .NET Framework (but not .NET Core).
+> The **Create Unit Tests** menu command is only available for C# code that targets .NET Framework (but not .NET Core or .NET Standard).
 ::: moniker-end
 ::: moniker range=">=vs-2019"
 > [!NOTE]
@@ -32,6 +32,8 @@ The **Create Unit Tests** menu command is extensible and can be used to generate
 To get started, select a method, a type, or a namespace in the code editor in the project you want to test, right-click, and then choose **Create Unit Tests**. The **Create Unit Tests** dialog opens where you can configure how you want the tests to be created.
 
 ![Using the Create unit tests command](media/createunittestcommand.png)
+
+If you don't see test framework options for NUnit or xUnit, see [Use third-party unit test frameworks](#use-third-party-unit-test-frameworks).
 
 ## Set unit test traits
 

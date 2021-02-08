@@ -1,5 +1,7 @@
 ---
 title: "Caller-Callee View - .NET Memory Sampling Data | Microsoft Docs"
+description: Learn about how the Caller/Callee view displays .NET memory sampling data for a selected function and its parent and child functions in Performance Explorer.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:
@@ -7,7 +9,7 @@ helpviewer_keywords:
 ms.assetid: 36f5b4de-5686-4f40-9e72-f4aee27d833c
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 monikerRange: 'vs-2017'
 ms.workload:
   - "dotnet"

@@ -1,6 +1,7 @@
 ---
 title: "Remote debugging | Microsoft Docs"
-ms.custom: ['remotedebugging', 'seodec18']
+description: Debug a Visual Studio application that has been deployed on a different computer by using the Visual Studio remote debugger.
+ms.custom: ['remotedebugging', 'seodec18', 'SEO-VS-2020']
 ms.date: "07/02/2018"
 ms.topic: "conceptual"
 f1_keywords:
@@ -16,7 +17,7 @@ helpviewer_keywords:
 ms.assetid: 5a94ad64-100d-43ca-9779-16cb5af86f97
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

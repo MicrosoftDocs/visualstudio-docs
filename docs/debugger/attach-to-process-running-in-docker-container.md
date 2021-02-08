@@ -8,7 +8,7 @@ helpviewer_keywords:
   - "debugging, Docker container"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 monikerRange: '>= vs-2019'
 ms.workload:
   - "multiple"
@@ -29,7 +29,7 @@ You can attach the Visual Studio debugger to a process running in a Linux .NET C
 
 1. In Visual Studio, select **Debug > Attach to Process (CTRL+ALT+P)** to open the **Attach to Process** dialog box.
 
-![Attach to Process Menu](../debugger/media/attach-process-menu.png "Attach_To_Process_Menu")
+![Screenshot of the Attach to Process dialog in Visual Studio showing a Connection type of Docker (Linux Container).](../debugger/media/attach-process-menu.png "Attach_To_Process_Menu")
 
 2. Set the **Connection type** to **Docker (Linux Container)**.
 3. Select **Find...** to set the **Connection target** via the **Select Docker Container** dialog box.
@@ -58,7 +58,7 @@ You can attach the Visual Studio debugger to a process running in a Linux .NET C
 
 4. Choose the corresponding container process from the list of **Available processes** and select **Attach** to start debugging your C# container process in Visual Studio!
 
-    ![Completed Docker Attach Menu](../debugger/media/docker-attach-complete.png "Completed Linux Docker Attach Menu")
+    ![Screenshot of the Attach to Process dialog in Visual Studio. Connection type is set to Docker (Linux Container) and the dotnet process is selected.](../debugger/media/docker-attach-complete.png "Completed Linux Docker Attach Menu")
 
 ## Attach to a process running on a Windows Docker container
 
@@ -71,7 +71,7 @@ You can attach the Visual Studio debugger to a process running in a Windows Dock
 
 1. In Visual Studio, select **Debug > Attach to Process** (or **CTRL+ALT+P**) to open the **Attach to Process** dialog box.
 
-   ![Attach to Process Menu](../debugger/media/attach-process-menu-docker-windows.png "Attach_To_Process_Menu")
+   ![Screenshot of the Attach to Process dialog in Visual Studio showing a Connection type of Docker (Windows Container).](../debugger/media/attach-process-menu-docker-windows.png "Attach_To_Process_Menu")
 
 2. Set the **Connection type** to **Docker (Windows Container)**.
 3. Select **Find...** to set the **Connection target** using the **Select Docker Container** dialog box.
@@ -88,6 +88,6 @@ You can attach the Visual Studio debugger to a process running in a Windows Dock
 
 4. Choose the corresponding container process from the list of **Available processes** and select **Attach** to start debugging your C# container process.
 
-    ![Completed Docker Attach Menu](../debugger/media/docker-attach-complete-windows.png "Completed Windows Docker Attach Menu")
+    ![Screenshot of the Attach to Process dialog in Visual Studio. Connection type is set to Docker (Windows Container) and the dotnet.exe process is selected.](../debugger/media/docker-attach-complete-windows.png "Completed Windows Docker Attach Menu")
 
-5.	Choose the corresponding container process from the list of available processes and choose **Attach** to start debugging your C# container process.
+5. Choose the corresponding container process from the list of available processes and choose **Attach** to start debugging your C# container process.

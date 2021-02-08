@@ -8,7 +8,7 @@ helpviewer_keywords:
 - editorconfig [Visual Studio]
 author: mikadumont
 ms.author: midumont
-manager: jillfra
+manager: jmartens
 ---
 # Create portable, custom editor settings with EditorConfig
 

@@ -1,5 +1,7 @@
 ---
 title: Debug Hook Function Writing | Microsoft Docs
+description: Read about a number of custom debug hook functions that you can write to let you insert your code into predefined points inside the debugger's normal processing.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords: 
@@ -18,7 +20,7 @@ helpviewer_keywords:
 ms.assetid: 5510635f-cf69-4907-b72d-ae27af1f19af
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload: 
   - multiple
 ---

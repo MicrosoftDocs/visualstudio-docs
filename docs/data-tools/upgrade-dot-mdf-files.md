@@ -13,7 +13,7 @@ helpviewer_keywords:
 - upgrading to LocalDB
 author: ghogen
 ms.author: ghogen
-manager: jillfra
+manager: jmartens
 ms.workload:
 - data-storage
 ---

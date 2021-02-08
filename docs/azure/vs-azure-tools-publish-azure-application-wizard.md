@@ -2,7 +2,7 @@
 title: Publish an Azure cloud service
 description: Learn how to configure the various settings in the Visual Studio Publish Azure Application Wizard
 author: ghogen
-manager: jillfra
+manager: jmartens
 ms.workload: azure-vs
 ms.topic: how-to
 ms.date: 03/21/2017

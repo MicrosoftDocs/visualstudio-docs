@@ -7,7 +7,7 @@ ms.topic: how-to
 ms.assetid: d67e0c53-9f5a-45fb-a929-b9d2125c3c82
 author: acangialosi
 ms.author: anthc
-manager: jillfra
+manager: jmartens
 ms.workload:
 - vssdk
 monikerRange: vs-2017

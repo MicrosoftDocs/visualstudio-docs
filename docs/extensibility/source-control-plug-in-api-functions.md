@@ -1,5 +1,7 @@
 ---
 title: Source Control Plug-in API Functions | Microsoft Docs
+description: Learn about the functions that the Source Control Plug-in API provides, which must be implemented by the source control plug-in.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -7,7 +9,7 @@ helpviewer_keywords:
 ms.assetid: 4b0536dd-4f92-4ef2-9031-4548281f37aa
 author: acangialosi
 ms.author: anthc
-manager: jillfra
+manager: jmartens
 ms.workload:
 - vssdk
 ---

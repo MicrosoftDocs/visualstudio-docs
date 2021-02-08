@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "Diagnostics Tools, CPU Usage"
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "aspnet"
 ---

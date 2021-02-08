@@ -1,5 +1,7 @@
 ---
 title: Source Control | Microsoft Docs
+description: These articles discuss options for implementing source control as an integrated feature of Visual Studio, either through a plug-in or a VSPackage.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -7,7 +9,7 @@ helpviewer_keywords:
 ms.assetid: 13d5728c-4e28-42e4-944a-a565b1765ef8
 author: acangialosi
 ms.author: anthc
-manager: jillfra
+manager: jmartens
 ms.workload:
 - vssdk
 ---

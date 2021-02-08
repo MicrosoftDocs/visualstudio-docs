@@ -1,6 +1,7 @@
 ---
 title: "Debug a Web Form | Microsoft Docs"
-ms.custom: "seodec18"
+description: Follow a walkthrough to see how to debug an ASP.NET Web application (Web Form), including how to set breakpoints and examine variables.
+ms.custom: "SEO-VS-2020, seodec18"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:
@@ -20,7 +21,7 @@ helpviewer_keywords:
 ms.assetid: e2b4fa14-8f5b-444d-a903-54070b784bd4
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

@@ -1,5 +1,7 @@
 ---
 title: Member Completion in a Legacy Language Service | Microsoft Docs
+description: Learn how the IntelliSense Member Completion tool tip works in a legacy language service, and how it is supported by the managed package framework (MPF).
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -9,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 500f718d-9028-49a4-8615-ba95cf47fc52
 author: acangialosi
 ms.author: anthc
-manager: jillfra
+manager: jmartens
 ms.workload:
 - vssdk
 ---

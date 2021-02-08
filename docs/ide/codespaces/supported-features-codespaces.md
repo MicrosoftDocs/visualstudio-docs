@@ -5,7 +5,7 @@ ms.topic: how-to
 ms.date: 09/21/2020
 author: gregvanl
 ms.author: gregvanl
-manager: jillfra
+manager: jmartens
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
 ms.workload:
@@ -68,6 +68,7 @@ Most application types and project configurations are supported, but you will ne
 Not yet available:
 
 * UI designers - WinForms, WPF, and Resource designers
+* WinForms and WPF projects app casting is only available under a feature flag
 * Visual Basic and F# projects
 * .NET Framework targeted projects
 * Docker Compose projects
@@ -103,8 +104,8 @@ Not yet available:
 
 When working with Visual Studio connected to a codespace, you get the same accessibility features as when working locally.
 
-* Source Control - Full Git support through the new [Git window](https://devblogs.microsoft.com/visualstudio/improved-git-experience-in-visual-studio-2019/).
-* Accessibility - There is one known issue with assistive technology not being able to access the appcasting of a debugged app. Besides this limitation, we don't believe there are any other compatibility issues that don't already exist in the local Visual Studio experience. Please let us know if you detect bugs by filing an issue on [developer community](https://aka.ms/feedback/suggest?space=8).
+* Source Control - Full Git support through the new [integrated Git experience](../git-with-visual-studio.md). For git submodules to be cloned in a codespace, you may need to run `git submodule update` from the terminal.
+* Accessibility - There is one known issue with assistive technology not being able to access the appcasting of a debugged app. Besides this limitation, we don't believe there are any other compatibility issues that don't already exist in the local Visual Studio experience. Please let us know if you detect bugs by filing an issue on [developer community](https://aka.ms/feedback/report?space=8).
 * Publishing - Publish to Azure through GitHub Actions is supported.
 * Connected services - App Insights, KeyVault, Storage, SQL, Redis, Cosmos, openAPI, and gRPC are partially supported.
 * Test Explorer* - Mostly supported.

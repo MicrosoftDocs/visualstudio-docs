@@ -1,5 +1,7 @@
 ---
 title: Saving a Standard Document | Microsoft Docs
+description: Learn about the process that occurs for a standard document for a project type that you add to the Visual Studio IDE.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -9,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: d692fedf-b46e-4d60-84bd-578635042235
 author: acangialosi
 ms.author: anthc
-manager: jillfra
+manager: jmartens
 ms.workload:
 - vssdk
 ---

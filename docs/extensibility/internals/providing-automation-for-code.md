@@ -1,5 +1,7 @@
 ---
 title: Providing Automation for Code | Microsoft Docs
+description: Learn about implementing a code model, which requires implementing interfaces that are determined by your internal data structure.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -7,7 +9,7 @@ helpviewer_keywords:
 ms.assetid: 21cb3e63-f25c-404b-bc1d-a32ad0fdd4d5
 author: acangialosi
 ms.author: anthc
-manager: jillfra
+manager: jmartens
 ms.workload:
 - vssdk
 ---

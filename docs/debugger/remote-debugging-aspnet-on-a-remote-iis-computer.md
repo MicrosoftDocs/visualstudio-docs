@@ -1,12 +1,13 @@
 ---
 title: "Remote Debug ASP.NET Core on a Remote IIS Computer | Microsoft Docs"
-ms.custom: "remotedebugging"
+description: Debug an ASP.NET Core application that has been deployed to a remote Internet Information Services (IIS) computer using the Visual Studio remote debugger.
+ms.custom: "remotedebugging, SEO-VS-2020"
 ms.date: 05/06/2020
 ms.topic: "conceptual"
 ms.assetid: 573a3fc5-6901-41f1-bc87-557aa45d8858
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "aspnet"
   - "dotnetcore"

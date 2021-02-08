@@ -1,5 +1,6 @@
 ---
 title: VSPerfASPNetCmd | Microsoft Docs
+description: Learn how the VSPerfASPNetCmd.exe command-line tool allows you to profile ASP.Net web sites without requiring that you set environment variables or restart your computer.
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords: 
@@ -8,7 +9,7 @@ helpviewer_keywords:
 ms.assetid: f9e9f895-57bb-41e8-8bd1-cdaa738ec220
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 monikerRange: 'vs-2017'
 ms.workload: 
   - multiple

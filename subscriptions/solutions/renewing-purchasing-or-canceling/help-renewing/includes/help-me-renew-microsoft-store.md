@@ -1,5 +1,5 @@
 ---
-title: Help me renew my through the Microsoft store.
+title: Help me renew my through the Microsoft store
 description: Help me renew my Visual Studio subscriptions purchased from the Microsoft store.
 ms.topic: include
 ms.assetid: 3b36270b-aa3b-4c05-b12e-4df8d6f823c1
@@ -18,7 +18,7 @@ Your subscription should be renewed before the expiration date to ensure access 
 
 If your subscription is not expired, you will find your expiration date by viewing your subscriptions in the [subscriptions portal](https://my.visualstudio.com/subscriptions). 
 
-## Subscriptions available 
+## Subscriptions available for renewal
 
 Retail Visual Studio subscriptions available to renew through the Microsoft Store include: 
 

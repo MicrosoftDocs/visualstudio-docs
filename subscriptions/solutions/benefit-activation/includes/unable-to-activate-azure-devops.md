@@ -1,5 +1,5 @@
 ---
-title: I'm unable to activate my Azure DevOps benefit.
+title: Unable to activate my Azure DevOps benefit
 description: I'm unable to activate my Azure DevOps benefit included with my Visual Studio subscription.
 ms.topic: include
 ms.assetid: 3ec2a8c1-07e0-45cd-808c-c354b9e26fb4
@@ -21,5 +21,5 @@ As a Visual Studio subscriber, you can use a range of features in Azure DevOps. 
 1. You will be taken to Azure DevOps where you must agree to the terms of service. 
 1. Sign into Azure DevOps using the email that you use to sign into your Visual Studio subscription. If you prefer to use a different email to log in, you can [create an alternate account](https://docs.microsoft.com/visualstudio/subscriptions/vs-alternate-identity) to link your subscription, allowing you to access Azure DevOps using both emails. 
 
-## More information 
-[Read more](https://docs.microsoft.com/visualstudio/subscriptions/vs-azure-devops) information on eligibility by subscription level.
+## More information about subscription eligibility 
+Read more [information on eligibility by subscription level](https://docs.microsoft.com/visualstudio/subscriptions/vs-azure-devops).

@@ -1,5 +1,7 @@
 ---
 title: "BaseClass | Microsoft Docs"
+description: Find reference information about the BaseClass symbol type. A base class for user-defined type (UDT) symbols is identified by a child with a SymTagBaseClass tag.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
@@ -11,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: 9375ca35-cb91-45f5-8903-7344ee4528e8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

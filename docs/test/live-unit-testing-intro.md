@@ -7,7 +7,7 @@ helpviewer_keywords:
 - Live Unit Testing
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload:
 - dotnet
 ---
@@ -20,7 +20,7 @@ Live Unit Testing indicates whether your unit tests adequately cover your code. 
 If you have a solution that includes one or more unit test projects, you can enable Live Unit Testing by selecting **Test** > **Live Unit Testing** > **Start** from the top-level menu bar in Visual Studio.
 
 > [!NOTE]
-> Live Unit Testing is only available in Visual Studio Enterprise edition.
+> Live Unit Testing is only available in Visual Studio Enterprise edition and is supported only in .NET.
 
 To learn more about Live Unit Testing:
 

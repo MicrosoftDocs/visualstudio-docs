@@ -1,5 +1,7 @@
 ---
 title: "Window Menu Commands | Microsoft Docs"
+description: The Window menu provides commands to manage Spy++ windows. See a list of the commands, with a brief description of each.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:
@@ -7,7 +9,7 @@ helpviewer_keywords:
 ms.assetid: 9b5f1b5f-fd42-4de5-a3e1-d8e7e2e8cf1a
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

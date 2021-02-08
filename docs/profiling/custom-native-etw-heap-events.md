@@ -1,11 +1,13 @@
 ---
 title: "Custom Native ETW Heap Events | Microsoft Docs"
+description: Learn how to use a custom heap to reduce allocation overhead, but still provide allocation information to the memory profiler for allocation analysis.
+ms.custom: SEO-VS-2020
 ms.date: "02/24/2017"
 ms.topic: "conceptual"
 ms.assetid: 668a6603-5082-4c78-98e6-f3dc871aa55b
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 dev_langs:
   - C++
 ms.workload:
@@ -44,7 +46,7 @@ A snapshot from the [Memory Usage](../profiling/memory-usage.md) tool without cu
 
 ![Windows heap allocation](media/heap-example-windows-heap.png)
 
-By performing the following steps, we can use this same tool to track memory usgae in our custom heap.
+By performing the following steps, we can use this same tool to track memory usage in our custom heap.
 
 ## How to use
 

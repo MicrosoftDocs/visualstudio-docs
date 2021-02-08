@@ -6,7 +6,7 @@ ms.topic: conceptual
 description: "Learn how to use Visual Studio with GitHub accounts."
 author: ornellaalt
 ms.author: ornella
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 monikerRange: ">=vs-2019"

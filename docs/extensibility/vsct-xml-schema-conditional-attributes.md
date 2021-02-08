@@ -1,5 +1,7 @@
 ---
 title: VSCT XML Schema Conditional Attributes | Microsoft Docs
+description: Learn how to apply conditional attributes to VSCT XML schema lists and items. Attributes evaluate to true or false, controlling the resulting output.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -8,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 754d4f32-319b-44c9-915f-f7c60e53222e
 author: acangialosi
 ms.author: anthc
-manager: jillfra
+manager: jmartens
 ms.workload:
 - vssdk
 ---

@@ -1,5 +1,7 @@
 ---
 title: Find Which DLL Your Program Crashed In | Microsoft Docs
+description: Use the Modules window to identify which external DLL was active when your application crashed. You can do this for a system DLL, or for someone else's code.   
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords: 
@@ -19,7 +21,7 @@ helpviewer_keywords:
 ms.assetid: ecf62568-8b65-4a41-b8a4-e962ff2dfb71
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload: 
   - multiple
 ---

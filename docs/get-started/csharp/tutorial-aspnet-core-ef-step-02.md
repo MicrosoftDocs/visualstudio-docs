@@ -10,7 +10,7 @@ ms.topic: tutorial
 ms.devlang: CSharp
 author: ardalis
 ms.author: ornella
-manager: jillfra
+manager: jmartens
 dev_langs:
   - CSharp
 ms.workload:
@@ -88,7 +88,7 @@ Replace the `<div>` content in *Index.cshtml* with this markup:
 
 Run the application again. You should see that the page now displays the current time, but it's always midnight! That's not right.
 
-![Visual Studio 2019 ASP.NET Core Project in Browser](media/vs-2019/vs2019-app-in-browser.png)
+![Screenshot of the application Home page in a browser window. The content of the page reads: "It's 12:00 AM right now on the server!".](media/vs-2019/vs2019-app-in-browser.png)
 
 ## Debug the application
 
@@ -96,7 +96,7 @@ Add a breakpoint to the `OnGet` method where we're assigning a value to `Time` a
 
 Execution stops on the line, and you can see that `DateTime.Today` includes the date but the time is always midnight because it doesn't include time data.
 
-![Visual Studio 2019 ASP.NET Core Project in Browser](media/vs-2019/vs2019-breakpoint.png)
+![Screenshot showing the code for Index.cshtml.cs in Visual Studio. A breakpoint is set on the line, 'Time = DateTime.Today.ToShortTimeString();'.](media/vs-2019/vs2019-breakpoint.png)
 
 Change it to use `DateTime.Now` and continue executing. The new code for `OnGet` should be:
 
@@ -112,7 +112,7 @@ You should now see the actual server time in the browser when you navigate to th
 > [!NOTE]
 > Your output might differ from the image, since the output format of ToShortDateTimeString depends on the current culture setting. See <xref:System.DateTime.ToShortTimeString>.
 
-![Visual Studio 2019 ASP.NET Core Project in Browser](media/vs-2019/vs2019-app-fixed-in-browser.png)
+![Screenshot of the application Home page in a browser window. The content of the page reads: "It's 1:46 AM right now on the server!".](media/vs-2019/vs2019-app-fixed-in-browser.png)
 
 ## Next steps
 

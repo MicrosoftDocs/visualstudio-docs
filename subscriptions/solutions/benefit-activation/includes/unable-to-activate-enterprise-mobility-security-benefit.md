@@ -1,5 +1,5 @@
 ---
-title: I'm unable to activate my Enterprise Mobility + Security (EMS) benefit.
+title: Unable to activate my Enterprise Mobility + Security (EMS) benefit
 description: I'm unable to activate my Enterprise Mobility + Security (EMS) benefit included with my Visual Studio subscription? 
 ms.topic: include
 ms.assetid: 104e6ef4-5bb1-4f26-af7c-a6925e3665c7
@@ -35,6 +35,6 @@ To get your new Microsoft 365 E5 developer subscription, go to yourâ€¯dashboardâ
 
 After you delete your Office 365 E3 subscription and create your replacement Microsoft 365 E5 subscription, your Office 365 E3 tenant will be available for 60 days so that you can migrate your data. 
 
-## More information 
+## More information about Office 365 E3 subscriptions
 
-[Read more](https://docs.microsoft.com/visualstudio/subscriptions/vs-m365) information on eligibility, how to migrate from Office 365 E3 to Microsoft 365, and FAQs.  
+Read more [information on eligibility, how to migrate from Office 365 E3 to Microsoft 365, and FAQs](https://docs.microsoft.com/visualstudio/subscriptions/vs-m365).  

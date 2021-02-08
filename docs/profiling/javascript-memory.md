@@ -1,5 +1,6 @@
 ---
 title: Analyze JavaScript Memory Usage in UWP Apps | Microsoft Docs
+description: Learn how the JavaScript memory analyzer is available to help you understand memory usage and find memory leaks in your UWP apps built for Windows using JavaScript.
 ms.custom: 
 ms.date: 11/04/2016
 ms.topic: how-to
@@ -16,7 +17,7 @@ helpviewer_keywords:
   - memory analyzer, JavaScript
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 monikerRange: vs-2017
 ms.workload: 
   - multiple

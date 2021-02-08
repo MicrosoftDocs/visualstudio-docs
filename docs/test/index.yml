@@ -25,40 +25,50 @@ landingContent:
         links:
           - text: First look at testing tools
             url: improve-code-quality.md
-          - text: Unit test tools overview
+          - text: Unit test tools & tasks
             url: unit-test-your-code.md
-          - text: Live unit testing overview
+          - text: Live Unit Testing overview (.NET)
             url: live-unit-testing-intro.md
 
   # Card (optional)
-  - title: Unit testing
+  - title: Get started
     linkLists:
       - linkListType: tutorial
         links:
           - text: Get started with unit testing
             url: getting-started-with-unit-testing.md
-          - text: Create and run unit tests for managed code
-            url: walkthrough-creating-and-running-unit-tests-for-managed-code.md
           - text: Run unit tests with Test Explorer
             url: run-unit-tests-with-test-explorer.md
+      - linkListType: how-to-guide
+        links:
+          - text: Unit test basics
+            url: unit-test-basics.md
+          - text: Code coverage - Determine how much code is being tested
+            url: using-code-coverage-to-determine-how-much-code-is-being-tested.md
+
+  # Card (optional)
+  - title: .NET unit testing
+    linkLists:
+      - linkListType: tutorial
+        links:
+          - text: Create and run unit tests for managed code
+            url: walkthrough-creating-and-running-unit-tests-for-managed-code.md
           - text: Get started with Live Unit Testing
             url: live-unit-testing-start.md
           - text: Generate unit tests (IntelliTest)
             url: generate-unit-tests-for-your-code-with-intellitest.md
-
-  # Card (optional)
-  - title: More testing tools
-    linkLists:
       - linkListType: how-to-guide
         links:
-          - text: Code coverage - Determine how much code is being tested
-            url: using-code-coverage-to-determine-how-much-code-is-being-tested.md
           - text: Microsoft Fakes - Isolate code under test
             url: isolating-code-under-test-with-microsoft-fakes.md
-          - text: Coded UI (deprecated)
-            url: use-ui-automation-to-test-your-code.md
-          - text: Load testing (deprecated)
-            url: quickstart-create-a-load-test-project.md
+
+  # Card (optional)
+  - title: C++ unit testing
+    linkLists:
+      - linkListType: overview
+        links:
+        - text: Write unit tests for C/C++
+          url: writing-unit-tests-for-c-cpp.md
 
   - title: Related tools (Azure DevOps)
     linkLists:
@@ -70,4 +80,14 @@ landingContent:
             url: /azure/devops/test/load-test/getting-started-with-performance-testing?view=azure-devops&preserve-view=true
           - text: Continuous testing (Azure Pipelines)
             url: /azure/devops/pipelines/?view=azure-devops&preserve-view=true
+
+  # Card (optional)
+  - title: More testing tools
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+          - text: Coded UI (deprecated)
+            url: use-ui-automation-to-test-your-code.md
+          - text: Load testing (deprecated)
+            url: quickstart-create-a-load-test-project.md
 
