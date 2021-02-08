@@ -28,7 +28,7 @@ If both the `input` and `additionalOptions` properties are omitted or empty, the
 
 ### Input
 
-The input property is used to specify the `Id` or `Name` of the package to install (for example 'MongoDB.Server'). The value of input will be append to a `winget install` command (for example `winget install MongoDB.Server`). If the package name isn't unique and matches other packages you can specify the `Id` of the package and add the `--exact` flag to the `additionalOptions` to ensure the package identity matches exactly. The `Id` of a package can be found by executing the `winget search` command and using the `Id` parameter for a package.  
+The input property is used to specify the `Id` or `Name` of the package to install (for example 'MongoDB.Server'). The value of input will be append to a `winget install` command (for example `winget install MongoDB.Server`). If the package name isn't unique and matches other packages, you can specify the `Id` of the package and add the `--exact` flag to the `additionalOptions` to ensure the package identity matches exactly. The `Id` of a package can be found by executing the `winget search` command and using the `Id` parameter for a package.  
 
 ### Additional options
 
