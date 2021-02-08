@@ -23,7 +23,7 @@ If both the `input` and `additionalOptions` properties are omitted or empty, the
 |--------------------------------------------------|--------|----------|--------------------------------------------------------------------------------------|
 | **comments**                                     | string | No       | Optional comments property. Not used.                                                |
 | [**input**](#input)                              | string | No       | Not used.                                                                            |
-| [**additionalOptions**](#additional-options)     | string | No       | Not used.                    |
+| [**additionalOptions**](#additional-options)     | string | No       | Not used.                                                                            |
 
 ### Input
 

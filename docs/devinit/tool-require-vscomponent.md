@@ -1,7 +1,7 @@
 ---
 title: require-vscomponent
 description: devinit tool require-vscomponent.
-ms.date: 11/20/2020
+ms.date: 02/08/2021
 ms.topic: reference
 author: andysterland
 ms.author: andster
@@ -33,13 +33,16 @@ The `input` property is used to specify the full path of `.vsconfig` file. If no
 ### Additional options
 
 Additional configuration options can be passed in as a value of the `additionalOptions`. 
+
 | Name                      | Type      | Required | Value                                                                                                                                                                                    |
 |---------------------------|-----------|----------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | --installPath             | string    | No       | The install path of the Visual Studio instance you wish to modify.                                                                                                                       |
 
+If no install path is specified, then the tool will modify the earliest installed Visual Studio on your machine if there are multiple instances on your machine. 
+
 ### Default behavior
 
-The default behavior of the `require-vscomponent` tool is to look for a `.vsconfig` file in current directory and run the Visual Studio Installer with these details in quiet mode. `require-vscomponent` only supports modifying an existing Visual Studio installation.
+The default behavior of the `require-vscomponent` tool is to look for a `.vsconfig` file in current directory and run the Visual Studio Installer with these details in quiet mode. `require-vscomponent` only supports modifying an existing Visual Studio installation. 
 
 ## Example usage
 Below is an example of how to run `require-vscomponent` using a `.devinit.json`.
