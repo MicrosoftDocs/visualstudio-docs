@@ -1,7 +1,7 @@
 ---
 title: Available Tools
 description: List of all the devinit tools that can be used to customize a development environment. 
-ms.date: 12/02/2020
+ms.date: 02/08/2021
 ms.topic: reference
 author: andysterland
 ms.author: andster

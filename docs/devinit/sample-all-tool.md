@@ -1,7 +1,7 @@
 ---
 title: All tools 
 description: Example of using all the devinit tools.
-ms.date: 08/28/2020
+ms.date: 02/08/2021
 ms.topic: reference
 author: andysterland
 ms.author: andster
