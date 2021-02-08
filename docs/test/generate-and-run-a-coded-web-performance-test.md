@@ -15,7 +15,7 @@ dev_langs:
 - VB
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ---
 # Generate and run a coded web performance test
 

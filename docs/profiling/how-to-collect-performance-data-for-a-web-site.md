@@ -16,7 +16,7 @@ helpviewer_keywords:
   - ASP.NET, performance profilng
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 monikerRange: 'vs-2017'
 ms.workload: 
   - multiple

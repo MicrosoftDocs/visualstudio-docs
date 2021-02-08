@@ -14,7 +14,7 @@ helpviewer_keywords:
 - text templates, generating files at run time
 author: JoshuaPartlow
 ms.author: joshuapa
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ---

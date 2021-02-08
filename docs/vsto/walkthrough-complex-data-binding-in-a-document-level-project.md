@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "data binding [Office development in Visual Studio], multiple columns"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

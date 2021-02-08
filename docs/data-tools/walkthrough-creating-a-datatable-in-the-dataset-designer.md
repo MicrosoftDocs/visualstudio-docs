@@ -11,7 +11,7 @@ helpviewer_keywords:
 - data [Visual Studio], Dataset Designer
 author: ghogen
 ms.author: ghogen
-manager: jillfra
+manager: jmartens
 ms.workload:
 - data-storage
 ---

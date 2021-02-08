@@ -9,7 +9,7 @@ helpviewer_keywords:
 ms.assetid: a0b2d8ff-3e2a-487e-9172-90047174f336
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ---
 # How to: Create a custom HTTP body editor for the Web Performance Test Editor
 

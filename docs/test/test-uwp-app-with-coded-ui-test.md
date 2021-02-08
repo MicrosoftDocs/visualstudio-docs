@@ -6,7 +6,7 @@ ms.date: 05/31/2018
 ms.topic: how-to
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 dev_langs: 
   - CSharp
   - VB

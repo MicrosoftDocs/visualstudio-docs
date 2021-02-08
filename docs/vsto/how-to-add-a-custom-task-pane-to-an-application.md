@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "custom task panes [Office development in Visual Studio], adding to application"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

@@ -12,7 +12,7 @@ dev_langs:
 ms.assetid: 09633a0b-8f6f-4aba-8058-7cb4d13ce2c0
 author: ghogen
 ms.author: ghogen
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ---

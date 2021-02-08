@@ -11,7 +11,7 @@ helpviewer_keywords:
   - "mixed mode debugging"
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "dotnet"
   - "cplusplus"

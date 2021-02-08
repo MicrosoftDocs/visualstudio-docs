@@ -6,7 +6,7 @@ ms.date: 05/04/2020
 ms.topic: reference
 author: TerryGLee
 ms.author: tglee
-manager: jillfra
+manager: jmartens
 f1_keywords:
 - vs.csharp.refactoring.rename
 dev_langs:

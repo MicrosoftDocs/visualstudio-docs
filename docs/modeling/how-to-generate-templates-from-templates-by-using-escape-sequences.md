@@ -7,7 +7,7 @@ helpviewer_keywords:
 - text templates, generating templates from templates
 author: JoshuaPartlow
 ms.author: joshuapa
-manager: jillfra
+manager: jmartens
 ms.custom: SEO-VS-2020
 ms.workload:
 - multiple

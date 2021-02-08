@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "Publish page in Project Designer"
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

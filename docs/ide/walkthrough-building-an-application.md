@@ -7,7 +7,7 @@ ms.technology: vs-ide-compile
 ms.topic: conceptual
 author: ghogen
 ms.author: ghogen
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ---

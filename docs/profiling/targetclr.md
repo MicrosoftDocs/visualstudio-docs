@@ -6,7 +6,7 @@ ms.topic: "conceptual"
 ms.assetid: f9732480-287f-40f1-a4ff-b112e143b940
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 monikerRange: 'vs-2017'
 ms.workload:
   - "multiple"

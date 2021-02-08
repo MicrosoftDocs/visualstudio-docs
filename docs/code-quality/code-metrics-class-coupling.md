@@ -5,7 +5,7 @@ description: Learn about the class coupling metric for code metrics in Visual St
 ms.topic: conceptual
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload:
   - multiple
 ---

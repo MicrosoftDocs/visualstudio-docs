@@ -5,7 +5,7 @@ description: "Learn about how to use EditorConfig to format C++ code in Visual S
 ms.date: 9/14/2020
 author: jureid
 ms.author: jureid
-manager: jillfra
+manager: jmartens
 dev_langs:
  - CPP
 ms.prod: visual-studio-windows

@@ -12,7 +12,7 @@ helpviewer_keywords:
 ms.assetid: dc4e4aa2-b0ab-4e00-92db-6dc3058ddc21
 author: TerryGLee
 ms.author: tglee
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ---

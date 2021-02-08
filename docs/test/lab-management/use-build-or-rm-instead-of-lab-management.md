@@ -7,7 +7,7 @@ ms.topic: how-to
 helpviewer_keywords:
   - automated testing, lab management, test lab
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload:
   - multiple
 author: mikejo5000

@@ -12,7 +12,7 @@ helpviewer_keywords:
 - Toolbox, Components tab
 author: TerryGLee
 ms.author: tglee
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ---

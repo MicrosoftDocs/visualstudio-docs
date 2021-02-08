@@ -8,7 +8,7 @@ helpviewer_keywords:
   - "deployment, website"
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "azure"
 ---

@@ -4,7 +4,7 @@ titleSuffix: ''
 description: A list of released versions and build numbers for Visual Studio, sorted by date.
 author: ornellaalt
 ms.author: ornella
-manager: jillfra
+manager: jmartens
 ms.date: 1/21/2021
 ms.topic: reference
 ms.workload:

@@ -16,7 +16,7 @@ description: Learn the capabilities of the free copy of Dotfuscator Community in
 ms.assetid: 0ee89c58-c900-48fc-a6a2-65ace00e8bab
 author: TerryGLee
 ms.author: tglee
-manager: jillfra
+manager: jmartens
 ---
 # Capabilities of Dotfuscator
 

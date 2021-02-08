@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "Windows Forms controls [Office development in Visual Studio], resizing"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

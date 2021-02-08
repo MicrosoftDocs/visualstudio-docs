@@ -10,7 +10,7 @@ helpviewer_keywords:
 - projects and solutions, develop code without
 author: TerryGLee
 ms.author: tglee
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ---

@@ -8,7 +8,7 @@ f1_keywords:
 - "typescript"
 dev_langs:
   - JavaScript
-manager: jillfra
+manager: jmartens
 author: mikejo5000
 ms.author: mikejo
 ---

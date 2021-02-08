@@ -9,7 +9,7 @@ helpviewer_keywords:
 - editorconfig, supporting in a language service
 author: acangialosi
 ms.author: anthc
-manager: jillfra
+manager: jmartens
 ms.workload:
 - vssdk
 ---

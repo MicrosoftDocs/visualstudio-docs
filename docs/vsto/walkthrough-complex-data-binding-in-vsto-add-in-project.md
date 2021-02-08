@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "complex data [Office development in Visual Studio]"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

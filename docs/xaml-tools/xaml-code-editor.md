@@ -6,7 +6,7 @@ ms.topic: overview
 monikerRange: vs-2019
 author: TerryGLee
 ms.author: tglee
-manager: jillfra
+manager: jmartens
 ---
 # XAML code editor
 

@@ -10,7 +10,7 @@ f1_keywords:
   - "vs.toolsoptionspages.r_tools.#150"
 author: kraigb
 ms.author: kraigb
-manager: jillfra
+manager: jmartens
 ms.workload:
   - data-science
 ---

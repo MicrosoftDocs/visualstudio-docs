@@ -32,7 +32,7 @@ helpviewer_keywords:
   - "managed code extensions [Office development in Visual Studio], writing code"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

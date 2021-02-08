@@ -22,7 +22,7 @@ helpviewer_keywords:
 ms.assetid: 9969e9b2-9008-4729-8a14-0d6deaa61576
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "dotnet"
 ---

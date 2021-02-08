@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "Bookmark control, updating contents"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

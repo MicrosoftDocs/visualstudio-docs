@@ -19,7 +19,7 @@ helpviewer_keywords:
 - Environment Options dialog box
 author: TerryGLee
 ms.author: tglee
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ---

@@ -10,7 +10,7 @@ helpviewer_keywords:
   - "walkthroughs [Domain-Specific Language Tools]"
 author: JoshuaPartlow
 ms.author: joshuapa
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

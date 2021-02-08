@@ -11,7 +11,7 @@ helpviewer_keywords:
 - modeling software [Visual Studio], What's New
 author: JoshuaPartlow
 ms.author: joshuapa
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 monikerRange: vs-2017

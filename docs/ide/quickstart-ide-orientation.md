@@ -7,7 +7,7 @@ ms.date: 02/21/2019
 ms.topic: quickstart
 author: TerryGLee
 ms.author: tglee
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ---

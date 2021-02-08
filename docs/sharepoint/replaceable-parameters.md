@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, replaceable parameters"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload: "office"
 ---
 # Replaceable parameters

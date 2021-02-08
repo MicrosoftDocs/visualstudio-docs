@@ -11,7 +11,7 @@ f1_keywords:
 - vs.startpage
 - VS.StartPage.HowDoI
 ms.author: tglee
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ---

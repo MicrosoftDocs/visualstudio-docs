@@ -10,7 +10,7 @@ helpviewer_keywords:
   - "CPU Usage, command-line"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 monikerRange: '>= vs-2019'
 ms.workload: 
   - "multiple"

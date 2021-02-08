@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "workbooks [Office development in Visual Studio], inserting data"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

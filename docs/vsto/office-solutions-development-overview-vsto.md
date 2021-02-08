@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "Office development in Visual Studio, about developing solutions"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

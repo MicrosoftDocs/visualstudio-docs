@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "RibbonManager class"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

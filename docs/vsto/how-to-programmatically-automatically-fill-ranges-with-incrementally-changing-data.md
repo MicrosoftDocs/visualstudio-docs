@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "workbooks, filling ranges"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

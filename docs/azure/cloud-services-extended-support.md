@@ -2,7 +2,7 @@
 title: Use Cloud Services (extended support) (Preview)
 description: Learn now to create and deploy a Cloud Services (extended support) using Azure Resource Manager with Visual Studio
 author: ghogen
-manager: jillfra
+manager: jmartens
 ms.custom: vs-azure
 ms.workload: azure-vs
 ms.topic: how-to

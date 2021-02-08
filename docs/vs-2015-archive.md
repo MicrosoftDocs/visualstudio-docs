@@ -5,7 +5,7 @@ ms.date: 10/13/2020
 ms.topic: conceptual
 author: ghogen
 ms.author: ghogen
-manager: jillfra
+manager: jmartens
 monikerRange: ">=vs-2017"
 ---
 

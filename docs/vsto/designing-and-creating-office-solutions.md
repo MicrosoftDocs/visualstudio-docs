@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "Office project types in Visual Studio"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---
