@@ -32,7 +32,10 @@ The `input` property is used to specify the full path of `.vsconfig` file. If no
 
 ### Additional options
 
-Not used.
+Additional configuration options can be passed in as a value of the `additionalOptions`. 
+| Name                      | Type      | Required | Value                                                                                                                                                                                    |
+|---------------------------|-----------|----------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| --installPath             | string    | No       | The install path of the Visual Studio instance you wish to modify.                                                                                                                       |
 
 ### Default behavior
 
@@ -50,6 +53,21 @@ Below is an example of how to run `require-vscomponent` using a `.devinit.json`.
         {
             "tool": "require-vscomponent",
             "input": "C:\\.vsconfig"
+        }
+    ]
+}
+```
+
+#### .devinit.json that will import the configurations of a given .vsconfig file path to the Visual Studio instance specified via an install path:
+```json
+{
+    "$schema": "https://json.schemastore.org/devinit.schema-3.0",
+    "comments": "A sample dot-devinit file.",
+    "run": [
+        {
+            "tool": "require-vscomponent",
+            "input": "C:\\.vsconfig",
+            "additionalOptions": "--installPath 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Enterprise'"
         }
     ]
 }
