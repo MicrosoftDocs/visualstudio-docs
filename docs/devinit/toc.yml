@@ -57,6 +57,8 @@
       href: tool-require-vcpkg.md
     - name: require-vscomponent
       href: tool-require-vscomponent.md
+    - name: require-winget
+      href: tool-require-winget.md
     - name: set-env
       href: tool-set-env.md
     - name: vcpkg-install
@@ -67,6 +69,8 @@
       href: tool-windowsfeature-enable.md
     - name: windowsfeature-list
       href: tool-windowsfeature-list.md
+    - name: winget-install
+      href: tool-winget-install.md
     - name: wsl-install
       href: tool-wsl-install.md
   - name: Samples
