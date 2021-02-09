@@ -41,7 +41,7 @@ If your organization purchases Visual Studio subscriptions with GitHub Enterpris
 When you click the **Move Now** button a fly-out panel will present you with recommendations on moving your Enterprise and/or Professional subscriptions:
 
    > [!div class="mx-imgBorder"]
-   > ![Fly out panel](_img/assign-github/fly-out.png "The fly-out panel shows the changes that will be made by moving subscribers")
+   > ![Fly out panel](_img/assign-github/fly-out.png)
 
 In this tile you can review the impacted subscribers and specify whether you would like to notify them to receive an email notification after the move is complete.  This email informs subscribers that their benefits remain unchanged and encourages them to begin setting up a presence in GitHub.  
 
