@@ -42,12 +42,14 @@ You'll first need a multithreaded application project. An example follows.
 
    On the **Create a new project** window, enter or type *console* in the search box. Next, choose **C#**, **C++**, or **Visual Basic** from the Language list, and then choose **Windows** from the Platform list. 
 
-   After you apply the language and platform filters, choose the **Console App (.NET Core)** or, for C++, **Console App** template, and then choose **Next**.
+   After you apply the language and platform filters, choose the **Console App** template for .NET Core or C++, and then choose **Next**.
 
    > [!NOTE]
-   > If you don't see the correct template, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **.NET desktop development** or **Desktop development with C++** workload, then choose **Modify**.
+   > If you don't see the correct template, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **.NET Core cross-platform development** or **Desktop development with C++** workload, then choose **Modify**.
 
-   In the **Configure your new project** window, type or enter *MyThreadWalkthroughApp* in the **Project name** box. Then, choose **Create**.
+   In the **Configure your new project** window, type or enter *MyThreadWalkthroughApp* in the **Project name** box. Then, choose either **Next** or **Create**, whichever option is available.
+
+   For a .NET Core project, choose either the recommended target framework (.NET Core 3.1) or .NET 5, and then choose **Create**.
 
    ::: moniker-end
    ::: moniker range="vs-2017"
@@ -57,7 +59,7 @@ You'll first need a multithreaded application project. An example follows.
    - For a Visual Basic app, under **Visual Basic**, choose **Windows Desktop**, and then in the middle pane choose **Console App (.NET Framework)**.
    - For a C++ app, under **Visual C++**, choose **Windows Desktop**,, and then choose **Windows Console Application**.
 
-   If you don't see the **Console App (.NET Core)** or, for C++, the **Console App** project template, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **.NET desktop development** or **Desktop development with C++** workload, then choose **Modify**.
+   If you don't see the **Console App (.NET Framework)** for, for C++, the **Console App** project template, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **.NET desktop development** or **Desktop development with C++** workload, then choose **Modify**.
 
    Then, type a name like *MyThreadWalkthroughApp* and click **OK**.
 

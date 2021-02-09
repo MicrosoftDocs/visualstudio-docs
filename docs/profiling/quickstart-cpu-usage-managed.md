@@ -39,12 +39,14 @@ Windows 8 and later is required to run profiling tools with the debugger (**Diag
 
    On the **Create a new project** window, enter or type *console* in the search box. Next, choose **C#** or **Visual Basic** from the Language list, and then choose **Windows** from the Platform list.
 
-   After you apply the language and platform filters, choose the **Console App (.NET Core)** template, and then choose **Next**.
+   After you apply the language and platform filters, choose the **Console App** template for .NET Core, and then choose **Next**.
 
    > [!NOTE]
-   > If you do not see the **Console App (.NET Core)** template, you can install it from the **Create a new project** window. In the **Not finding what you're looking for?** message, choose the **Install more tools and features** link. Then, in the Visual Studio Installer, choose the **.NET Core cross-platform development** workload.
+   > If you do not see the **Console App** template, you can install it from the **Create a new project** window. In the **Not finding what you're looking for?** message, choose the **Install more tools and features** link. Then, in the Visual Studio Installer, choose the **.NET Core cross-platform development** workload.
 
-   In the **Configure your new project** window, type or enter *MyProfilerApp* in the **Project name** box. Then, choose **Create**.
+   In the **Configure your new project** window, type or enter *MyProfilerApp* in the **Project name** box. Then, choose **Next**.
+
+   Choose either the recommended target framework (.NET Core 3.1) or .NET 5, and then choose **Create**.
 
    ::: moniker-end
 
