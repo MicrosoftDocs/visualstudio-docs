@@ -12,7 +12,7 @@ helpviewer_keywords:
 ms.assetid: 62734c0d-a75a-4576-8f73-0e97c19280e1
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---
@@ -85,17 +85,19 @@ First, you'll create a .NET Core console application project. The project type c
 
 1. On the **Create a new project** window, enter or type *console* in the search box. Next, choose **C#** from the Language list, and then choose **Windows** from the Platform list. 
 
-   After you apply the language and platform filters, choose the **Console App (.NET Core)** template, and then choose **Next**.
+   After you apply the language and platform filters, choose the **Console App** template for .NET Core, and then choose **Next**.
 
-   ![Choose the C# template for the Console App (.NET Core)](../csharp/media/vs-2019/get-started-create-console-project.png)
+   ![Choose the C# template for the Console App](../csharp/media/vs-2019/get-started-create-console-project.png)
 
    > [!NOTE]
-   > If you do not see the **Console App (.NET Core)** template, you can install it from the **Create a new project** window. In the **Not finding what you're looking for?** message, choose the **Install more tools and features** link. Then, in the Visual Studio Installer, choose the **.NET Core cross-platform development** workload.
+   > If you do not see the **Console App** template, you can install it from the **Create a new project** window. In the **Not finding what you're looking for?** message, choose the **Install more tools and features** link. Then, in the Visual Studio Installer, choose the **.NET Core cross-platform development** workload.
 
-1. In the **Configure your new project** window, type or enter *GetStartedDebugging* in the **Project name** box. Then, choose **Create**.
+1. In the **Configure your new project** window, type or enter *GetStartedDebugging* in the **Project name** box. Then, choose **Next**.
+
+1. Choose either the recommended target framework (.NET Core 3.1) or .NET 5, and then choose **Create**.
 
    Visual Studio opens your new project.
-   
+
 ::: moniker-end
 
 ## Create the application
