@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: 588480a3-8806-4ea5-9915-c25974770069
-ms.date: 12/02/2020
+ms.date: 02/09/2021
 ms.topic: how-to
 description:  Learn about the Windows Developer Account included with your Visual Studio subscription.
 ---
@@ -13,6 +13,9 @@ Your Windows Developer Account, included with selected Visual Studio subscriptio
 
 ## Activation steps
 To use your Windows Developer Account, you’ll need to set up an account or sign in using an existing account.
+
+> [!IMPORTANT]
+> Creation of a Windows Developer account requires the use of a Microsoft Account (MSA).  Use of Azure Active Directory accounts is not supported.  
 
 We recommend that you create a "private" browser window for this process.  For example, in Google Chrome, create a new "incognito" window.  In Internet Explorer, create a new "InPrivate" window.
 
