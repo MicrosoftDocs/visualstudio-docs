@@ -38,14 +38,14 @@ If your organization purchases Visual Studio subscriptions with GitHub Enterpris
 >
 > This feature is being deployed in phases and may not be immediately available on your agreement(s).
 
-When you click the **Move Now** button a fly-out panel will present you with recommendations on moving your Enterprise and/or Professional subscriptions:
+When you click the **Move Now** button, a fly-out panel will present you with recommendations on moving your Enterprise and/or Professional subscriptions:
 
    > [!div class="mx-imgBorder"]
    > ![Fly out panel](_img/assign-github/fly-out.png)
 
-In this tile you can review the impacted subscribers and specify whether you would like to notify them to receive an email notification after the move is complete.  This email informs subscribers that their benefits remain unchanged and encourages them to begin setting up a presence in GitHub.  
+In this tile, you can review the impacted subscribers and specify whether you would like to notify them to receive an email notification after the move is complete.  This email informs subscribers that their benefits remain unchanged and encourages them to begin setting up a presence in GitHub.  
 
-After clicking the **Move all subscribers** button you will confirm your selections and wait a few seconds for the subscription move to complete.  If applicable, you will need to perform these steps for Professional and Enterprise separately.  
+After clicking the **Move all subscribers** button, you will confirm your selections and wait a few seconds for the subscription move to complete.  If applicable, you will need to perform these steps for Professional and Enterprise separately.  
 
 
 ## What is the Visual Studio with GitHub Enterprise setup process?
@@ -53,22 +53,22 @@ GitHub Enterprise is set up and managed separately from Visual Studio subscripti
 
 After your company has set up a GitHub Enterprise account, subscribers who have been assigned Visual Studio subscriptions with GitHub Enterprise will receive an email from GitHub notifying them that their Visual Studio subscriptions have been linked. After subscribers receive this email, they can reach out to their GitHub organization admin to receive an invitation to the appropriate organization.
 
-For additional details on GitHub Enterprise setup, please reference the [subscriber documentation](access-github.md).   
+For details on GitHub Enterprise setup, please reference the [subscriber documentation](access-github.md).   
 
 ## Manage GitHub Enterprise subscriptions
 When GitHub Enterprise subscriptions are purchased, GitHub partners with customers to help create and configure the organizations that will access GitHub and identify admins.  Those admins then receive a notification that they've been set up as admins.  
 
 Since this process is more complex, it may take several days after subscriptions are purchased for the organizations and admins to be fully set up.
 
-GitHub is available as either the cloud-based GitHub.com, or on-premise GitHub Enterprise Server.  The processes for managing the two versions differ.  GitHub provides a variety of help topics and admin guides to help you manage GitHub Enterprise subscriptions.  We've provided links to selected topics below.  
+GitHub is available as either the cloud-based GitHub.com, or on-premise GitHub Enterprise Server.  The processes for managing the two versions differ.  GitHub provides various help topics and admin guides to help you manage GitHub Enterprise subscriptions.  We've provided links to selected topics below.  
 
 ## Support resources
 
 - Learn more about GitHub assignment at [GitHub Docs](https://docs.github.com/en/github/setting-up-and-managing-your-enterprise-account/managing-licenses-for-the-github-enterprise-and-visual-studio-bundle)
 - Find answers to questions on a wide array of GitHub topics at [GitHub Help](https://help.github.com/en).
 - Get help from other GitHub users in the [GitHub Community Forum](https://github.community/).
-- For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact [Visual Studio administration and subscriptions support](https://my.visualstudio.com/gethelp).
-- Have a question about Visual Studio IDE, Azure DevOps Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).
+- For assistance with sales, subscriptions, accounts, and billing for Visual Studio Subscriptions, contact [Visual Studio administration and subscriptions support](https://my.visualstudio.com/gethelp).
+- Have a question about Visual Studio IDE, Azure DevOps Services, or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).
 - Get [technical support](https://support.microsoft.com/supportforbusiness/productselection?sapId=b77fe80f-5417-80bd-4b2a-275cf0018c24) for GitHub Enterprise.   
 
 ## See also
