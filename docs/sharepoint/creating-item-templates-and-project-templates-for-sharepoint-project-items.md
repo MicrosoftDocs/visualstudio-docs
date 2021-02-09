@@ -17,7 +17,7 @@ helpviewer_keywords:
   - "project items [SharePoint development in Visual Studio], creating custom templates"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

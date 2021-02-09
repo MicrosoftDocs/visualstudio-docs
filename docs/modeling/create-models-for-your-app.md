@@ -20,7 +20,7 @@ helpviewer_keywords:
 - software, modeling
 author: JoshuaPartlow
 ms.author: joshuapa
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ---

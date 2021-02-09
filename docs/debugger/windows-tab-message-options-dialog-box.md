@@ -1,5 +1,7 @@
 ---
 title: "Windows Tab, Message Options Dialog Box | Microsoft Docs"
+description: Use the Windows tab of Message Options to specify which windows have their messages displayed. See this article for descriptions of the settings.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 helpviewer_keywords:
@@ -7,7 +9,7 @@ helpviewer_keywords:
 ms.assetid: 6e9cc5ca-24cc-49cf-aa22-c89733828f8c
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

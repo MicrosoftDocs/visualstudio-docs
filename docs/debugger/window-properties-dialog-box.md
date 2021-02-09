@@ -1,5 +1,7 @@
 ---
 title: "Window Properties Dialog Box | Microsoft Docs"
+description: Learn how to display properties for a window that is listed in Windows View. This article has links to other articles that document the properties.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 helpviewer_keywords:
@@ -7,7 +9,7 @@ helpviewer_keywords:
 ms.assetid: c70e9429-fb0c-452a-9626-79f168393e44
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

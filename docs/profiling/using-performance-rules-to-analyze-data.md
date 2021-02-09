@@ -1,11 +1,12 @@
 ---
 title: "Using Performance Rules to Analyze Data | Microsoft Docs"
+description: Learn how the performance warnings of Visual Studio Profiling Tools indicate issues in a profiled application that can slow program execution.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 ms.assetid: 1deed23e-b31b-4714-982f-08ceebfc3096
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 monikerRange: 'vs-2017'
 ms.workload:
   - "multiple"

@@ -9,7 +9,7 @@ helpviewer_keywords:
 - code snippets, security
 author: TerryGLee
 ms.author: tglee
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ---

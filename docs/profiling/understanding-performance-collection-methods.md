@@ -1,5 +1,6 @@
 ---
 title: "Understanding performance collection methods | Microsoft Docs"
+description: Learn about the different scenarios in which collecting data with a particular method might be appropriate.
 ms.date: "4/30/2020"
 ms.topic: "conceptual"
 f1_keywords:
@@ -8,7 +9,7 @@ helpviewer_keywords:
   - "Profiling tools, profiling methods"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 monikerRange: 'vs-2017'
 ms.workload:
   - "multiple"

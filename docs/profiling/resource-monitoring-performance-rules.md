@@ -1,11 +1,12 @@
 ---
 title: "Resource Monitoring Performance Rules | Microsoft Docs"
+description: Learn how performance messages in the Resource Monitoring category provide additional data about the performance of your application. 
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 ms.assetid: f0f77faf-0a05-4718-a2c5-47934be40868
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 monikerRange: 'vs-2017'
 ms.workload:
   - "multiple"

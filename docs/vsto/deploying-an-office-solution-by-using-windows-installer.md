@@ -17,7 +17,7 @@ helpviewer_keywords:
   - "Office applications [Office development in Visual Studio], MSI"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

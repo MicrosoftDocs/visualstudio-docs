@@ -4,7 +4,7 @@ description: How to set up networking between containers, and add a container fo
 ms.date: "08/04/2020"
 author: nebuk89
 ms.author: ghogen
-manager: jillfra
+manager: jmartens
 ms.technology: vs-azure
 ms.topic: conceptual
 ms.workload:

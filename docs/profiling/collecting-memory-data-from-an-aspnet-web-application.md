@@ -1,5 +1,6 @@
 ---
 title: Profiler command line - Get ASP.NET web app memory data
+description: Learn how to use the VSPerfCmd command-line tool to collect memory allocation and object lifetime date for an ASP.NET web application.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
@@ -9,13 +10,13 @@ helpviewer_keywords:
 ms.assetid: 57acf2b0-327a-4c0e-8078-ac2f6d99457d
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 monikerRange: 'vs-2017'
 ms.workload: 
   - aspnet
 ---
 # Collect memory data from an ASP.NET web application by using the profiler command line
-This section describes the procedures and options for collecting memory allocation and object lifetime data for an ASP.NET Web application by using the **VSPerfCmd** command-line tool.
+This section describes the procedures and options for collecting memory allocation and object lifetime data for an ASP.NET web application by using the **VSPerfCmd** command-line tool.
 
 > [!NOTE]
 > The **VSPerfCmd** tool provides you with complete access to Profiling Tools functionality, including pausing and resuming profiling, and collecting additional data from processor and Windows performance counters. You can also use the  **VSPerfASPNETCmd** command-line tool when you do not need this functionality. Compared with the [VSPerfCmd](../profiling/vsperfcmd.md) command line tool, no environment variables need to be set, and rebooting the computer is not required. For more information, see [Rapid web site profiling with VSPerfASPNETCmd](../profiling/rapid-web-site-profiling-with-vsperfaspnetcmd.md).

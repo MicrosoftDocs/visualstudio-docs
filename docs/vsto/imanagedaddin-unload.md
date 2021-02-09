@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "Unload method"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

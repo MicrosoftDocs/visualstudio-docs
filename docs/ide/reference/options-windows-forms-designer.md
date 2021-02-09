@@ -11,7 +11,7 @@ helpviewer_keywords:
 - Options dialog box, Windows Forms Designer
 author: TerryGLee
 ms.author: tglee
-manager: jillfra
+manager: jmartens
 ---
 # Options dialog box: Windows Forms Designer
 

@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "worksheets, displaying text in cells"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

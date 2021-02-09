@@ -1,5 +1,6 @@
 ---
 title: "Marks View | Microsoft Docs"
+description: Learn how the Marks view displays sampling and ETW events that were inserted into the application.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:
@@ -10,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: b2773344-8081-4116-85a1-58f770448f6a
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 monikerRange: 'vs-2017'
 ms.workload:
   - "multiple"

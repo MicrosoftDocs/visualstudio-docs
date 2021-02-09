@@ -1,12 +1,13 @@
 ---
 title: Attach profiler to .NET service to collect memory data
+description: Use Visual Studio Profiling Tools command-line tools to attach the profiler to a .NET Framework service and collect memory data.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 ms.assetid: aeac39af-ad99-479f-aa36-4104356ca512
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 monikerRange: 'vs-2017'
 ms.workload: 
   - dotnet

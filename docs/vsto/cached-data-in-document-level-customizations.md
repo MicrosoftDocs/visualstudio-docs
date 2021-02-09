@@ -17,7 +17,7 @@ helpviewer_keywords:
   - "document-level customizations [Office development in Visual Studio], data model"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

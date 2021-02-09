@@ -12,7 +12,7 @@ helpviewer_keywords:
 - graph documents, analyzing
 author: JoshuaPartlow
 ms.author: joshuapa
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ---

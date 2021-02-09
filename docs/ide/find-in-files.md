@@ -18,7 +18,7 @@ helpviewer_keywords:
 - Find in Files tab, Find and Replace window
 author: TerryGLee
 ms.author: tglee
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ---

@@ -1,5 +1,7 @@
 ---
 title: "Concurrency Namespace (Concurrency Visualizer) | Microsoft Docs"
+description: To write concurrent programs in C++, use the Concurrency namespace, which provides access to the Concurrency Runtime, a concurrency framework for C++.
+custom.ms: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:
@@ -9,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 001fbfce-a278-4502-aa27-26d65dd61453
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

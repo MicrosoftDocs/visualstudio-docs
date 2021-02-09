@@ -11,7 +11,7 @@ dev_langs:
 - VB
 author: TerryGLee
 ms.author: tglee
-manager: jillfra
+manager: jmartens
 ---
 # Walkthrough: Bind to data in XAML Designer
 

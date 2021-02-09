@@ -10,7 +10,7 @@ helpviewer_keywords:
 - Find/Command box
 author: TerryGLee
 ms.author: tglee
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ---

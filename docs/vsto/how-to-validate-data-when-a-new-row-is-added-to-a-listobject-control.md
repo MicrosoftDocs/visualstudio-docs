@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "ListObject control, validating data"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

@@ -1,6 +1,7 @@
 ---
 title: VSInstr Warnings | Microsoft Docs
 ms.date: 11/04/2016
+description: Learn about warnings issued by the VSInstr.exe tool and how you can use the NOWARN option along with the warning numbers to suppress the warning from appearing.
 ms.topic: reference
 helpviewer_keywords: 
   - instrumentation, VSInstr tool
@@ -11,7 +12,7 @@ helpviewer_keywords:
 ms.assetid: 47512bc9-a8e9-4628-883a-d9888edab786
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 monikerRange: 'vs-2017'
 ms.workload: 
   - multiple

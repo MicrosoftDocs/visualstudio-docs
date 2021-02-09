@@ -8,7 +8,7 @@ helpviewer_keywords:
   - "Domain-Specific Language, accessing the current selection"
 author: JoshuaPartlow
 ms.author: joshuapa
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

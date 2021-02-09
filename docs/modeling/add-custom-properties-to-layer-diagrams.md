@@ -8,7 +8,7 @@ helpviewer_keywords:
 - dependency diagrams, adding custom properties
 author: JoshuaPartlow
 ms.author: joshuapa
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ---

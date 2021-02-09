@@ -5,7 +5,7 @@ ms.date: 07/11/2018
 ms.topic: troubleshooting
 author: TerryGLee
 ms.author: tglee
-manager: jillfra
+manager: jmartens
 ms.workload:
 - dotnet
 monikerRange: vs-2017

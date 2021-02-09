@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "MSBuild, VerifyFileHash task"
 author: ghogen
 ms.author: ghogen
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

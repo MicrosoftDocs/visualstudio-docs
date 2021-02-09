@@ -7,7 +7,7 @@ ms.technology: vs-ide-general
 ms.topic: conceptual
 author: TerryGLee
 ms.author: tglee
-manager: jillfra
+manager: jmartens
 ms.workload: multiple
 f1_keywords:
   - "Win8ExpressDesktopBlock"

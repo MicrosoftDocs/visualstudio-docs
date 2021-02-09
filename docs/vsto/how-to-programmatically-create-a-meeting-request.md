@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "calendars [Office development in Visual Studio], meeting requests"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

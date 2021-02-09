@@ -1,11 +1,12 @@
 ---
 title: View Performance Warnings | Microsoft Docs
+description: Learn how performance warnings of the Visual Studio Profiling Tools Profiling Tools indicate issues in a profiled application that can slow program execution.
 ms.date: 11/04/2016
 ms.topic: how-to
 ms.assetid: c6ce4e9c-4677-40cc-b1af-d68e9f3249f2
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 monikerRange: 'vs-2017'
 ms.workload: 
   - multiple

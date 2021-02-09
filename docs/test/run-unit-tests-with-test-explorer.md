@@ -7,7 +7,7 @@ f1_keywords:
   - vs.unittesting.testexplorer.overview
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload: 
   - multiple
 ---
@@ -28,7 +28,7 @@ Visual Studio includes the Microsoft unit testing frameworks for both managed an
 
 ## Run tests in Test Explorer
 
-When you build the test project, the tests appear in Test Explorer. If Test Explorer is not visible, choose **Test** on the Visual Studio menu, choose **Windows**, and then choose **Test Explorer**.
+When you build the test project, the tests appear in Test Explorer. If Test Explorer is not visible, choose **Test** on the Visual Studio menu, choose **Windows**, and then choose **Test Explorer** (or press **Ctrl** + **E**, **T**).
 
 ::: moniker range="vs-2017"
 ![Unit Test Explorer](../test/media/ute_failedpassednotrunsummary.png)
@@ -58,11 +58,11 @@ You can perform much of the work of finding, organizing and running tests from t
 ::: moniker range="vs-2017"
 You can run all the tests in the solution, all the tests in a group, or a set of tests that you select. Do one of the following:
 
-- To run all the tests in a solution, choose **Run All**.
+- To run all the tests in a solution, choose **Run All** (or press **Ctrl** + **R**, **V**).
 
 - To run all the tests in a default group, choose **Run** and then choose the group on the menu.
 
-- Select the individual tests that you want to run, open the right-click menu for a selected test and then choose **Run Selected Tests**.
+- Select the individual tests that you want to run, open the right-click menu for a selected test and then choose **Run Selected Tests** (or press **Ctrl** + **R**, **T**).
 
 - If individual tests have no dependencies that prevent them from being run in any order, turn on parallel test execution with the ![Screenshot of the Parallel test execution toggle button on the Visual Studio Test Explorer toolbar. When this button is selected, tests will run in parallel.](../test/media/ute_parallelicon-small.png) toggle button on the toolbar. This can noticeably reduce the time taken to run all the tests.
 
@@ -71,11 +71,11 @@ The **pass/fail bar** at the top of the **Test Explorer** window is animated as 
 ::: moniker range=">=vs-2019"
 You can run all the tests in the solution, all the tests in a group, or a set of tests that you select. Do one of the following:
 
-- To run all the tests in a solution, choose the **Run All** icon.
+- To run all the tests in a solution, choose the **Run All** icon (or press **Ctrl** + **R**, **V**).
 
 - To run all the tests in a default group, choose the **Run** icon and then choose the group on the menu.
 
-- Select the individual tests that you want to run, open the right-click menu for a selected test and then choose **Run Selected Tests**.
+- Select the individual tests that you want to run, open the right-click menu for a selected test and then choose **Run Selected Tests** (or press **Ctrl** + **R**, **T**).
 
 - If individual tests have no dependencies that prevent them from being run in any order, turn on parallel test execution in the settings menu of the toolbar. This can noticeably reduce the time taken to run all the tests.
 ::: moniker-end
@@ -124,7 +124,7 @@ If the test fails, the details pane also displays:
 
 ### View the source code of a test method
 
-To display the source code for a test method in the Visual Studio editor, select the test and then choose **Open Test** on the right-click menu (Keyboard: **F12**).
+To display the source code for a test method in the Visual Studio editor, select the test and then choose **Open Test** on the right-click menu (or press **F12**).
 
 ## Group and filter the test list
 

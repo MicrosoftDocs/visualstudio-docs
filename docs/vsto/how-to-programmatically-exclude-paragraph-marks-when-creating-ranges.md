@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "paragraphs, controlling structure"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

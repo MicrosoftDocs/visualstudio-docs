@@ -31,7 +31,7 @@ helpviewer_keywords:
 ms.assetid: 43a77fa8-37d0-4c98-a334-0134dbca4ece
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload: 
   - multiple
 ---
@@ -220,5 +220,4 @@ To add conditional exceptions:
 - [Continue execution after an exception](../debugger/continuing-execution-after-an-exception.md)<br/>
 - [How to: Examine system code after an exception](../debugger/how-to-examine-system-code-after-an-exception.md)<br/>
 - [How to: Use native run-time checks](../debugger/how-to-use-native-run-time-checks.md)<br/>
-- [Use run-time checks without the C run-time library](../debugger/using-run-time-checks-without-the-c-run-time-library.md)<br/>
 - [First look at the debugger](../debugger/debugger-feature-tour.md)

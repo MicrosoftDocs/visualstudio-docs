@@ -8,7 +8,7 @@ helpviewer_keywords:
 - testing tools [Visual Studio]
 - unit tests [Visual Studio]
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 author: mikejo5000
@@ -18,7 +18,7 @@ author: mikejo5000
 Visual Studio testing tools can help you and your team develop and sustain high standards of code excellence.
 
 > [!NOTE]
-> Unit testing is available in all editions of Visual Studio. Other testing tools, such as Live Unit Testing, IntelliTest, and Coded UI Test, are only available in Visual Studio Enterprise edition. For more information about editions see [Compare Visual Studio IDEs](https://visualstudio.microsoft.com/vs/compare/).
+> Unit testing is available in all editions of Visual Studio. Other testing tools, such as Live Unit Testing and IntelliTest, are only available in Visual Studio Enterprise edition. For more information about editions see [Compare Visual Studio IDEs](https://visualstudio.microsoft.com/vs/compare/).
 
 ## Test Explorer
 

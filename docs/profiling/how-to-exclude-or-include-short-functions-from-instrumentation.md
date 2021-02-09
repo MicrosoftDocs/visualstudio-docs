@@ -1,5 +1,7 @@
 ---
 title: Exclude or include short functions from instrumentation
+description: By default, short functions that do not call other functions are excluded from instrumentation to reduce overhead. Learn how to include or exclude them.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords: 
@@ -9,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: eaeead79-aafe-4490-86ff-6ed4cad9c15f
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 monikerRange: 'vs-2017'
 ms.workload: 
   - multiple

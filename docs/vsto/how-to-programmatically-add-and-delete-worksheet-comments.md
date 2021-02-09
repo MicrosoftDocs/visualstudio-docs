@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "comments, worksheets"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

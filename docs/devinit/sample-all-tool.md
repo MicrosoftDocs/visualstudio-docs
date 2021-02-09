@@ -1,11 +1,11 @@
 ---
 title: All tools 
 description: Example of using all the devinit tools.
-ms.date: 08/28/2020
+ms.date: 02/08/2021
 ms.topic: reference
 author: andysterland
 ms.author: andster
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 monikerRange: ">= vs-2019"
@@ -20,7 +20,7 @@ This example has a `devinit.json`, which installs all the available devinit tool
 
 ```json
 {
-  "$schema": "./devinit.schema-3.0.json",
+  "$schema": "./devinit.schema-6.0.json",
   "comments": "A sample dot-devinit file",
   "run": [
     {
@@ -132,6 +132,10 @@ This example has a `devinit.json`, which installs all the available devinit tool
       "comments": "Imports .vsconfig file which is passed as input to Visual Studio."
     },
     {
+      "tool": "require-winget",
+      "comments": "Installs winget",
+    },
+    {
       "tool": "set-env",
       "input": "Foo=Bar",
       "comments": "Set-env can set, display or delete individual variables and can display all variables."
@@ -155,6 +159,11 @@ This example has a `devinit.json`, which installs all the available devinit tool
     {
       "comments": "Lists the state of all Windows features.",
       "tool": "windowsfeature-list"
+    },
+    {
+      "comments": "Installs the package defined in winget-manifest.yml.",
+      "tool": "winget-install",
+      "additionalOptions": "--manifest winget-manifest.yml"
     },
     {
       "tool": "wsl-install",

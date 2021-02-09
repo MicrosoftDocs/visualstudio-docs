@@ -5,7 +5,7 @@ ms.custom: SEO-VS-2020
 ms.date: 09/27/2019
 ms.topic: reference
 ms.author: corob
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 author: corob-msft

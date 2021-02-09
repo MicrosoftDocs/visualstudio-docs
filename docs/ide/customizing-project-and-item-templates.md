@@ -9,7 +9,7 @@ helpviewer_keywords:
 - Visual Studio templates, customizing
 author: TerryGLee
 ms.author: tglee
-manager: jillfra
+manager: jmartens
 ---
 # Customize project and item templates
 

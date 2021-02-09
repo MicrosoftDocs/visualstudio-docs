@@ -1,6 +1,6 @@
 ---
 title: "Common patterns for poorly-behaved multithreaded apps"
-description: Learn about the common patterns for poorly-behaved multithreaded applications that are included in the Visual Studio Concurrency Visualizer tool.
+description: The Concurrency Visualizer provides graphs for multi-threaded applications, and a gallery of common patterns of poorly behaved ones. 
 ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
@@ -10,7 +10,7 @@ helpviewer_keywords:
   - "Concurrency Visualizer, common patterns for poorly-behaved multithreaded applications"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

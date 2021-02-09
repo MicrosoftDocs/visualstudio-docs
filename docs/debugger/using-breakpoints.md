@@ -32,7 +32,7 @@ helpviewer_keywords:
 ms.assetid: 020b2e97-3b3e-4b2c-872d-b5c6025e120e
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload: 
   - multiple
 ---
@@ -79,7 +79,7 @@ You can control when and where a breakpoint executes by setting conditions. The 
 
 **To set a breakpoint condition:**
 
-1. Right-click the breakpoint symbol and select **Conditions**. Or hover over the breakpoint symbol, select the **Settings** icon, and then select **Conditions** in the **Breakpoint Settings** window.
+1. Right-click the breakpoint symbol and select **Conditions** (or press **Alt** + **F9**, **C**). Or hover over the breakpoint symbol, select the **Settings** icon, and then select **Conditions** in the **Breakpoint Settings** window.
 
    You can also set conditions in the **Breakpoints** window by right-clicking a breakpoint and selecting **Settings**, and then selecting **Conditions**.
 
@@ -118,7 +118,7 @@ If you set a breakpoint condition with invalid syntax, a warning message appears
 
 1. Set a breakpoint in the code some place after the object has been created.
 
-2. Start debugging, and when execution pauses at the breakpoint, select **Debug** > **Windows** > **Locals** or **Alt**+**4** to open the **Locals** window.
+2. Start debugging, and when execution pauses at the breakpoint, select **Debug** > **Windows** > **Locals** (or press **Ctrl** + **Alt** + **V**, **L**) to open the **Locals** window.
 
    Find the specific object instance in the **Locals** window, right-click it, and select **Make Object ID**.
 
@@ -163,7 +163,7 @@ You can break execution when a function is called. This is useful, for example, 
 
 **To set a function breakpoint:**
 
-1. Select **Debug** > **New Breakpoint** > **Function Breakpoint**, or press **Alt**+**F9** > **Ctrl**+**B**.
+1. Select **Debug** > **New Breakpoint** > **Function Breakpoint**, or press **Ctrl** + **K**, **B**.
 
    You can also select **New** > **Function Breakpoint** in the **Breakpoints** window.
 
@@ -200,7 +200,7 @@ You can break execution when a function is called. This is useful, for example, 
 
 2. Find the address of the instance (for example, `0xcccccccc`).
 
-3. Select **Debug** > **New Breakpoint** > **Function Breakpoint**, or press **Alt**+**F9** > **Ctrl**+**B**.
+3. Select **Debug** > **New Breakpoint** > **Function Breakpoint**, or press **Ctrl** + **K**, **B**.
 
 4. Add the following to the **Function Name** box, and select **C++** language.
 
@@ -237,7 +237,7 @@ Data breakpoints in .NET Core won't work for:
 
 **To set a data breakpoint:**
 
-1. In a C++ project, start debugging, and wait until a breakpoint is reached. On the **Debug** menu, choose **New Breakpoint** > **Data Breakpoint**
+1. In a C++ project, start debugging, and wait until a breakpoint is reached. On the **Debug** menu, choose **New Breakpoint** > **Data Breakpoint**.
 
     You can also select **New** > **Data Breakpoint** in the **Breakpoints** window or right-click an item in the **Autos**, **Watch**, or **Locals** window and select **Break when value changes** in the context menu.
 
@@ -262,7 +262,7 @@ Data breakpoints don't work under the following conditions:
 
 In the **Breakpoints** window, you can search, sort, filter, enable/disable, or delete breakpoints. You can also set conditions and actions, or add a new function or data breakpoint.
 
-To open the **Breakpoints** window, select **Debug** > **Windows** > **Breakpoints**, or press **Alt**+**F9** or **Ctrl**+**Alt**+**B**.
+To open the **Breakpoints** window, select **Debug** > **Windows** > **Breakpoints**, or press **Ctrl**+**Alt**+**B**.
 
 ![Breakpoints window](../debugger/media/breakpointswindow.png "Breakpoints window")
 
@@ -308,7 +308,7 @@ To visually trace breakpoints during code execution, see [Map methods on the cal
 
 ### Set a breakpoint in the Disassembly window
 
-1. To open the **Disassembly** window, you must be paused during debugging. Select **Debug** > **Windows** > **Disassembly**, or press **Alt**+**8**.
+1. To open the **Disassembly** window, you must be paused during debugging. Select **Debug** > **Windows** > **Disassembly**, or press **Ctrl**+**Alt**+**D**.
 
 2. In the **Disassembly** window, click in the left margin of the instruction you want to break at. You can also select it and press **F9**, or right-click and select **Breakpoint** > **Insert Breakpoint**.
 

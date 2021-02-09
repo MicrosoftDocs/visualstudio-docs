@@ -10,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: e2f1ca4f-787b-44bd-bc64-81a036025e96
 author: ghogen
 ms.author: ghogen
-manager: jillfra
+manager: jmartens
 ---
 # How to: Ignore errors in tasks
 

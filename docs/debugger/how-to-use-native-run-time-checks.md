@@ -36,7 +36,7 @@ helpviewer_keywords:
 ms.assetid: dc7b2f1e-5ff6-42e0-89b3-dc9dead83ee1
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload: 
   - cplusplus
 ---
@@ -62,8 +62,6 @@ In a Visual Studio C++ project, you can use native [runtime_checks](/cpp/preproc
   Other topics in this section provide information about:
 
 - [Customizing Run-Time Checks with the C Run-Time Library](../debugger/native-run-time-checks-customization.md)
-
-- [Using Run-Time Checks without the C Run-Time Library](../debugger/using-run-time-checks-without-the-c-run-time-library.md)
 
 ### To enable native run-time checks in a debug build
 

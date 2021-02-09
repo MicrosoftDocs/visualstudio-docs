@@ -1,5 +1,6 @@
 ---
 title: "Find call failure when calling a function many times"
+description: See a technique for setting a breakpoint on a function such that the break occurs only on the call for which the function fails.
 ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
@@ -25,7 +26,7 @@ helpviewer_keywords:
 ms.assetid: 66cfac86-f5be-4d3a-9329-d44cd74bc586
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

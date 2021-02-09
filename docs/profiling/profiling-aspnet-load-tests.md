@@ -1,11 +1,12 @@
 ---
 title: "Profiling ASP.NET Load Tests | Microsoft Docs"
+description: Learn how you can collect profiling data from automated Microsoft Test Manager web tests that you run on ASP.NET Web sites projects.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 ms.assetid: c3f5c363-be79-40b5-bfa7-db8d21378d8d
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 monikerRange: 'vs-2017'
 ms.workload:
   - "aspnet"

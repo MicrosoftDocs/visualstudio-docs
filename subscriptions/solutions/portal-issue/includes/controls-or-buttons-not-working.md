@@ -1,5 +1,5 @@
 ---
-title: Controls or buttons are not working.
+title: Controls or buttons are not working
 description: Controls or buttons are not working in the Visual Studio subscription portal.
 ms.topic: include
 ms.assetid: 33b1aa45-b2fc-4c00-9862-3d1281d28fa2

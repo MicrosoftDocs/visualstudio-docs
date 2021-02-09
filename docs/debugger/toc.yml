@@ -180,8 +180,6 @@
           href: native-run-time-checks-customization.md
         - name: Write a run-time error reporting function
           href: how-to-write-a-run-time-error-reporting-function.md
-        - name: Use run-time checks without the C Run-Time Library
-          href: using-run-time-checks-without-the-c-run-time-library.md
     - name: Specify symbol (.pdb) and source files in the debugger
       href: specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md
     - name: Debug user code
@@ -340,8 +338,6 @@
     items:
     - name: Attach to running processes with the debugger
       href: attach-to-running-processes-with-the-visual-studio-debugger.md
-    - name: Debug .NET Core on Linux
-      href: remote-debugging-dotnet-core-linux-with-ssh.md
     - name: Attach to a process running in a Docker container
       href: attach-to-process-running-in-docker-container.md
   - name: Multithreaded app debugging
@@ -424,6 +420,14 @@
       href: debug-live-azure-apps-troubleshooting.md
     - name: Time Travel Debugging live Azure virtual machine app
       href: debug-live-azure-virtual-machines-time-travel-debugging.md
+  - name: Linux debugging
+    items:
+    - name: Debug .NET Core apps in WSL 2
+      href: debug-dotnet-core-in-wsl-2.md
+    - name: Debug .NET Core on Linux using SSH
+      href: remote-debugging-dotnet-core-linux-with-ssh.md
+    - name: Debug with Container Tools >>
+      href: ../containers/edit-and-refresh.md
   - name: Application types
     items:
     - name: Debug specific application types

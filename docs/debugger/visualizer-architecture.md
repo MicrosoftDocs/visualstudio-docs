@@ -1,5 +1,7 @@
 ---
 title: "Visualizer Architecture | Microsoft Docs"
+description: A visualizer displays a specific type of data element, and may allow editing also. Learn about the architecture of a visualizer.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:
@@ -10,7 +12,7 @@ dev_langs:
 ms.assetid: 6aad395f-7170-4d9e-b2b8-a5faf453380e
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

@@ -1,5 +1,7 @@
 ---
 title: "Functions View - Instrumentation Data | Microsoft Docs"
+description: Read descriptions of profiling data columns in the Functions report view, which lists profiling data by function name.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:
@@ -7,7 +9,7 @@ helpviewer_keywords:
 ms.assetid: 595d91c8-a42b-4644-85b8-39e8140a5dfe
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 monikerRange: 'vs-2017'
 ms.workload:
   - "multiple"

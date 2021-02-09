@@ -8,7 +8,7 @@ helpviewer_keywords:
   - minidumps for Visual Studio issues"
 author: corob-msft
 ms.author: corob
-manager: jillfra
+manager: jmartens
 dev_langs:
  - CSharp
  - VB

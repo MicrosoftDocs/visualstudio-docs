@@ -19,7 +19,7 @@ helpviewer_keywords:
   - "Microsoft Office Menu"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

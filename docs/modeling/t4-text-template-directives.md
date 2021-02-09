@@ -13,7 +13,7 @@ helpviewer_keywords:
 - text templates, template directive
 author: JoshuaPartlow
 ms.author: joshuapa
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ---

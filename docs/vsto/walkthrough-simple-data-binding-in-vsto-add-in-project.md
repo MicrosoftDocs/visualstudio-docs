@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "data [Office development in Visual Studio], simple binding data"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

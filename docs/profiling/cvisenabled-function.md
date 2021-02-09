@@ -1,5 +1,7 @@
 ---
 title: CvIsEnabled Function | Microsoft Docs
+description: See reference information for the Concurrency Visualizer SDK function CvIsEnabled (C library).
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords: 
@@ -11,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: 2e4fea6d-758d-4150-8744-6102a1d58c1c
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload: 
   - multiple
 ---

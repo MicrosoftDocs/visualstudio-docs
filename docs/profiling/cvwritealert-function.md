@@ -1,5 +1,7 @@
 ---
 title: CvWriteAlert Function | Microsoft Docs
+description: See reference information for the Concurrency Visualizer SDK function CvWriteAlert (C library).
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords: 
@@ -15,7 +17,7 @@ helpviewer_keywords:
 ms.assetid: 937aa9d6-278a-4df3-bef7-151441df16d5
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload: 
   - multiple
 ---

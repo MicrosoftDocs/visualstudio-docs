@@ -1,6 +1,7 @@
 ---
 title: "Write a visualizer in C# | Microsoft Docs"
-ms.custom: "seodec18"
+description: Follow a walkthrough to create a simple visualizer in C#. It shows the steps required both with and without using the Visualizer item template.
+ms.custom: "SEO-VS-2020, seodec18"
 ms.date: "05/27/2020"
 ms.topic: "conceptual"
 dev_langs:
@@ -11,7 +12,7 @@ helpviewer_keywords:
 ms.assetid: 53467461-8e0f-45ee-9bc4-374bbaeaf00f
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "dotnet"
 ---

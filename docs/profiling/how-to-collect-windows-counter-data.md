@@ -1,5 +1,7 @@
 ---
 title: Collect Windows Counter Data | Microsoft Docs
+description: Windows counters are used in instrumentation profiling. Learn how to collect Windows counter data, and how to restrict analysis to a single collection interval.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords: 
@@ -11,7 +13,7 @@ helpviewer_keywords:
   - profiling tools, using windows counters
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 monikerRange: 'vs-2017'
 ms.workload: 
   - multiple

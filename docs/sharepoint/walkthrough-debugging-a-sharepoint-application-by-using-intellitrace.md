@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "IntelliTrace"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

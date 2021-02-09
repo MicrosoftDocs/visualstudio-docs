@@ -1,5 +1,6 @@
 ---
 title: "Synchronization Time | Microsoft Docs"
+description: Learn how segments in the timeline are associated with blocking times that are categorized as Synchronization. 
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: affa04cc-8bba-4848-9301-b19846d3c2cb
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

@@ -1,5 +1,7 @@
 ---
 title: Legacy Language Service Features2 | Microsoft Docs
+description: Learn about some of the legacy language service features you can provide by using Managed Extensibility Framework (MEF) extensions in the Visual Studio SDK.
+ms.custom: SEO-VS-2020 
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -7,7 +9,7 @@ helpviewer_keywords:
 ms.assetid: 97c38622-ae0b-4ae0-90ed-604072c298d3
 author: acangialosi
 ms.author: anthc
-manager: jillfra
+manager: jmartens
 ms.workload:
 - vssdk
 ---

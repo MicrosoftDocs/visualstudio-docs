@@ -1,5 +1,7 @@
 ---
 title: CvReleaseProvider Function | Microsoft Docs
+description: See reference information for the Concurrency Visualizer SDK function CvReleaseProvider (C library).
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords: 
@@ -9,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 8d74379e-295d-452b-bd5f-0769df387d4f
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload: 
   - multiple
 ---

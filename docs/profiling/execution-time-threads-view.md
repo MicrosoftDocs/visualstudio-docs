@@ -1,5 +1,7 @@
 ---
 title: "Execution Time (Threads View) | Microsoft Docs"
+description: Review execution time in the Concurrency Visualizer's Threads View. Execution time is represented by segments showing when a thread actively works on a logical core.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:
@@ -9,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 80c100f8-2502-4613-bfef-4f4f2e09cc8d
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

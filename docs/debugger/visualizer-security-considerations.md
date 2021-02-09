@@ -1,5 +1,7 @@
 ---
 title: "Visualizer Security Considerations | Microsoft Docs"
+description: A visualizer for Visual Studio debugger must run with full trust. As you write yours, be aware of possible security threats and take appropriate precautions.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:
@@ -13,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: cdd86bd5-b729-409b-a7c6-374efa091eb1
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

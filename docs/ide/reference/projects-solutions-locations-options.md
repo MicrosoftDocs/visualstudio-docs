@@ -8,7 +8,7 @@ f1_keywords:
 - VS.ToolsOptionsPages.Projects.Locations
 author: TerryGLee
 ms.author: tglee
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ---

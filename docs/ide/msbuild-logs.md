@@ -9,7 +9,7 @@ helpviewer_keywords:
   - msbuild logs"
 author: corob-msft
 ms.author: corob
-manager: jillfra
+manager: jmartens
 dev_langs:
  - CSharp
  - VB

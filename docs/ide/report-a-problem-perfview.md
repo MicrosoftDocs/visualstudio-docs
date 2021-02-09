@@ -7,7 +7,7 @@ helpviewer_keywords:
   - "ETL Trace"
 author: corob-msft
 ms.author: corob
-manager: jillfra
+manager: jmartens
 dev_langs:
  - CSharp
  - VB

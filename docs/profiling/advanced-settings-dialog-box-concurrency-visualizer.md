@@ -1,5 +1,7 @@
 ---
 title: "Advanced Settings Dialog Box (Concurrency Visualizer) | Microsoft Docs"
+description: Use Advanced Settings in Concurrency Visualizer to control trace content. There are tabs for symbols, Just My Code, buffering, and more.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:
@@ -7,7 +9,7 @@ f1_keywords:
 ms.assetid: bb3d90aa-5f08-4953-9be0-be6cea11633d
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

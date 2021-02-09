@@ -17,7 +17,7 @@ helpviewer_keywords:
   - "Value2 property"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

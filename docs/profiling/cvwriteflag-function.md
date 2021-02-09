@@ -1,5 +1,7 @@
 ---
 title: CvWriteFlag Function | Microsoft Docs
+description: See reference information for the Concurrency Visualizer SDK function CvWriteFlag (C library).
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords: 
@@ -15,7 +17,7 @@ helpviewer_keywords:
 ms.assetid: ee9da1e2-7b34-4cba-81e2-215d25d32e4d
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload: 
   - multiple
 ---
