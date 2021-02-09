@@ -6,7 +6,7 @@ ms.topic: how-to
 ms.custom: contperf-fy21q1
 author: TerryGLee
 ms.author: tglee
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ---

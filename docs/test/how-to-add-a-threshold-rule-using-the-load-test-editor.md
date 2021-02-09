@@ -12,7 +12,7 @@ helpviewer_keywords:
 ms.assetid: 3d8fac8f-426f-4155-9ced-f7cd4c79792c
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ---
 # How to: Add a threshold rule using the load test editor
 

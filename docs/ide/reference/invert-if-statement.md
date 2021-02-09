@@ -6,7 +6,7 @@ ms.date: 02/19/2019
 ms.topic: reference
 author: kendrahavens
 ms.author: kehavens
-manager: jillfra
+manager: jmartens
 dev_langs:
   - CSharp
   - VB

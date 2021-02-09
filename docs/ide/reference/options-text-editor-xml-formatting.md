@@ -9,7 +9,7 @@ f1_keywords:
 ms.assetid: 203e60b2-7b80-4ff4-9fa1-aa9f4374377b
 author: TerryGLee
 ms.author: tglee
-manager: jillfra
+manager: jmartens
 ---
 # Options, Text Editor, XML, Formatting
 

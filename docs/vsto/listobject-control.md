@@ -17,7 +17,7 @@ helpviewer_keywords:
   - "ListObject control, improving performance when bound to data"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

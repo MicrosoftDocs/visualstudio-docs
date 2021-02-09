@@ -10,7 +10,7 @@ helpviewer_keywords:
 - application icons [Visual Studio]
 author: TerryGLee
 ms.author: tglee
-manager: jillfra
+manager: jmartens
 ms.workload:
 - dotnet
 ---

@@ -9,7 +9,7 @@ f1_keywords:
 - vs.graphics.imageeditor
 author: TerryGLee
 ms.author: tglee
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ---

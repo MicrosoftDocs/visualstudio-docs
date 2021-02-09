@@ -34,7 +34,7 @@ helpviewer_keywords:
 ms.assetid: d56f12cb-e139-4fec-b3e4-488383356642
 author: ghogen
 ms.author: ghogen
-manager: jillfra
+manager: jmartens
 ms.workload:
 - data-storage
 ---

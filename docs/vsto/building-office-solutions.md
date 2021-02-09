@@ -25,7 +25,7 @@ helpviewer_keywords:
   - "Office solutions [Office development in Visual Studio], debugging"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

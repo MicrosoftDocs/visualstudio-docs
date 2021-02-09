@@ -8,7 +8,7 @@ helpviewer_keywords:
   - load tests, test agents and controllers
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ---
 # Overview of test agents and test controllers for running load tests
 

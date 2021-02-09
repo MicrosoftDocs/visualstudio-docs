@@ -8,7 +8,7 @@ helpviewer_keywords:
 - templates [Visual Studio], troubleshooting
 author: TerryGLee
 ms.author: tglee
-manager: jillfra
+manager: jmartens
 ---
 # How to: Troubleshoot templates
 

@@ -8,7 +8,7 @@ helpviewer_keywords:
 ms.assetid: 9c05b51a-8382-44cf-a8f7-3fabdd2e8f1b
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 monikerRange: 'vs-2017'
 ms.workload:
   - "dotnet"

@@ -7,7 +7,7 @@ ms.topic: error-reference
 ms.assetid: 332ed2f3-3377-4d51-8e3b-fdb98231978e
 author: ghogen
 ms.author: ghogen
-manager: jillfra
+manager: jmartens
 ms.workload:
 - data-storage
 ---

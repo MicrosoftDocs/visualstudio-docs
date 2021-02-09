@@ -9,7 +9,7 @@ keywords: "Bridge to Kubernetes, Azure Dev Spaces, Dev Spaces, Docker, Kubernete
 monikerRange: ">=vs-2019"
 ms.author: ghogen
 author: ghogen
-manager: jillfra
+manager: jmartens
 ---
 
 # Use Bridge to Kubernetes

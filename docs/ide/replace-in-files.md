@@ -13,7 +13,7 @@ helpviewer_keywords:
 - replace in files
 author: TerryGLee
 ms.author: tglee
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ---

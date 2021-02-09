@@ -6,7 +6,7 @@ ms.date: 01/11/2018
 ms.topic: conceptual
 author: TerryGLee
 ms.author: tglee
-manager: jillfra
+manager: jmartens
 ms.workload:
 - dotnet
 ---

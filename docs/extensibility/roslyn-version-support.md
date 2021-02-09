@@ -8,7 +8,7 @@ helpviewer_keywords:
 - roslyn package versions
 author: acangialosi
 ms.author: anthc
-manager: jillfra
+manager: jmartens
 ms.workload:
 - vssdk
 ---

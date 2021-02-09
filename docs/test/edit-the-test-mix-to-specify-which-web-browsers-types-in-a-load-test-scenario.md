@@ -12,7 +12,7 @@ helpviewer_keywords:
 ms.assetid: 47f981d9-3038-45cc-a486-82b9daf9a9a1
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ---
 # Edit the test mix to specify which web browsers types in a load test scenario
 

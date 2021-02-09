@@ -9,7 +9,7 @@ helpviewer_keywords:
 ms.assetid: 51cbe7d6-5dfd-4842-bca3-f7f8a665dc84
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ---
 # How to: Specify the sample rate for a load test run setting
 

@@ -6,7 +6,7 @@ ms.topic: reference
 ms.assetid: ff319ffc-f249-4c3f-9eb2-06e392e3ae80
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 monikerRange: 'vs-2017'
 ms.workload: 
   - multiple

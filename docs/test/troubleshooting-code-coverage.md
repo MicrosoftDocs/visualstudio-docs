@@ -5,7 +5,7 @@ ms.custom: SEO-VS-2020
 ms.date: 03/31/2020
 ms.topic: troubleshooting
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 author: mikejo5000

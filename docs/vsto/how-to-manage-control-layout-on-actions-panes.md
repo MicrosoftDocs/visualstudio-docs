@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "smart documents [Office development in Visual Studio], control layout"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

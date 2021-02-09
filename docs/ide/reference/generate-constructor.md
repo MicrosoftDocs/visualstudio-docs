@@ -6,7 +6,7 @@ ms.date: 07/10/2020
 ms.topic: reference
 author: mikadumont
 ms.author: midumont
-manager: jillfra
+manager: jmartens
 ms.workload:
 - dotnet
 ---

@@ -8,7 +8,7 @@ ms.technology: vs-ide-general
 ms.devlang: vb
 author: ornellaalt
 ms.author: ornella
-manager: jillfra
+manager: jmartens
 dev_langs:
   - VB
 ms.workload:

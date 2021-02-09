@@ -5,7 +5,7 @@ ms.date: 07/23/2018
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb
-manager: jillfra
+manager: jmartens
 ms.workload:
   - data-science
 ---

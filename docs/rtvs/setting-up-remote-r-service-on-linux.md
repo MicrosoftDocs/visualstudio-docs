@@ -6,7 +6,7 @@ ms.topic: conceptual
 author: kraigb
 ms.author: kraigb
 ms.reviewer: karthiknadig
-manager: jillfra
+manager: jmartens
 ms.workload:
   - data-science
 ---

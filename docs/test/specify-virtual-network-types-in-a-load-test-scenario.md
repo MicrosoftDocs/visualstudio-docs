@@ -13,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: 3c4f7874-081a-4ec4-9510-4d6d7d863a11
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ---
 # Specify virtual network types in a load test scenario
 

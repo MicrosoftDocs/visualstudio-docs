@@ -2,7 +2,7 @@
 title: Deploy ASP.NET Docker container to ACR registry
 description: Learn how to use Visual Studio Container Tools to deploy an ASP.NET or ASP.NET Core web app to a container registry
 author: ghogen
-manager: jillfra
+manager: jmartens
 ms.assetid: e5e81c5e-dd18-4d5a-a24d-a932036e78b9
 ms.devlang: dotnet
 ms.topic: how-to

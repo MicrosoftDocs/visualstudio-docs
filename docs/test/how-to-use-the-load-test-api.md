@@ -11,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: e15567bc-1f21-4feb-b81d-f17ba35cfde5
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ---
 # How to: Use the load test API
 

@@ -22,7 +22,7 @@ helpviewer_keywords:
 ms.assetid: 0a84bda3-6051-45eb-9c7f-d57419e1f97d
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ---
 # Analyze load test results and errors in the Tables view of the Load Test Analyzer
 

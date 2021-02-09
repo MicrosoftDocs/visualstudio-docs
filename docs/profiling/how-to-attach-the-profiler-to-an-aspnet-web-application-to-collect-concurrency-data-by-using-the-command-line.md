@@ -7,7 +7,7 @@ ms.topic: how-to
 ms.assetid: 0e215fdd-55f8-43ef-9534-06542eefe223
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 monikerRange: 'vs-2017'
 ms.workload: 
   - aspnet

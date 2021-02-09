@@ -16,7 +16,7 @@ helpviewer_keywords:
   - "Business Data Connectivity service [SharePoint development in Visual Studio], Creator"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

@@ -8,7 +8,7 @@ f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.F%2523.Advanced"
 author: TerryGLee
 ms.author: tglee
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "dotnet"
 ---

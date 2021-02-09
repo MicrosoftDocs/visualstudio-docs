@@ -9,7 +9,7 @@ f1_keywords:
 - project.addnewitem
 author: TerryGLee
 ms.author: tglee
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ---

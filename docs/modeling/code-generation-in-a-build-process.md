@@ -9,7 +9,7 @@ helpviewer_keywords:
 - text templates, transforming by using msbuild
 author: JoshuaPartlow
 ms.author: joshuapa
-manager: jillfra
+manager: jmartens
 dev_langs:
 - CSharp
 - VB

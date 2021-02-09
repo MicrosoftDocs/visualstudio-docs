@@ -4,7 +4,7 @@ description: Run a tensorflow model locally in AI Tools for Visual Studio
 keywords: ai, visual studio, tensorflow, local
 author: jillre
 ms.author: jillfra
-manager: jillfra
+manager: jmartens
 monikerRange: vs-2017
 ms.date: 11/13/2017
 ms.topic: quickstart

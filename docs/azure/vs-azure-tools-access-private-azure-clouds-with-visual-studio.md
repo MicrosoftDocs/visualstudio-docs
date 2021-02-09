@@ -2,7 +2,7 @@
 title: Accessing private Azure clouds
 description: Learn how to access private cloud resources by using Visual Studio.
 author: ghogen
-manager: jillfra
+manager: jmartens
 ms.workload: azure-vs
 ms.topic: how-to
 ms.date: 11/13/2017

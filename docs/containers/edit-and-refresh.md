@@ -3,7 +3,7 @@ title: Debug apps in a local Docker container | Microsoft Docs
 description: Learn how to modify an app that's running in a local Docker container, refresh the container via Edit and Refresh, and then set debugging breakpoints.
 ms.author: ghogen
 author: ghogen
-manager: jillfra
+manager: jmartens
 ms.assetid: 480e3062-aae7-48ef-9701-e4f9ea041382
 ms.topic: how-to
 ms.workload: multiple

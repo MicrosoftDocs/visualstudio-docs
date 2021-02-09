@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "dependency diagrams, adding custom gestures"
 author: JoshuaPartlow
 ms.author: joshuapa
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

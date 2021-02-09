@@ -7,7 +7,7 @@ ms.topic: how-to
 ms.assetid: c886f8af-2014-4fec-9b24-d98b68ecafb7
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 monikerRange: 'vs-2017'
 ms.workload: 
   - multiple

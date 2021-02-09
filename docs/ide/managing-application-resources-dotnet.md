@@ -16,7 +16,7 @@ helpviewer_keywords:
 - application resources [Visual Studio]
 author: TerryGLee
 ms.author: tglee
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ---

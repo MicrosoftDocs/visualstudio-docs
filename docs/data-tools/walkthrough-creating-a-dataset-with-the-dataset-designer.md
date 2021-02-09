@@ -12,7 +12,7 @@ helpviewer_keywords:
 - datasets [Visual Basic], creating
 author: ghogen
 ms.author: ghogen
-manager: jillfra
+manager: jmartens
 ms.workload:
 - data-storage
 ---

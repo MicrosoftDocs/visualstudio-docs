@@ -9,7 +9,7 @@ helpviewer_keywords:
 - managed code, code analysis
 author: mikadumont
 ms.author: midumont
-manager: jillfra
+manager: jmartens
 ms.workload:
 - dotnet
 ---

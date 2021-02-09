@@ -8,7 +8,7 @@ helpviewer_keywords:
 - Windows Forms Designer
 author: TerryGLee
 ms.author: tglee
-manager: jillfra
+manager: jmartens
 ---
 # Windows Forms Designer overview
 

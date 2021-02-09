@@ -12,7 +12,7 @@ helpviewer_keywords:
   - unit tests, data-driven
   - data-driven unit tests
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload: 
   - multiple
 author: mikejo5000

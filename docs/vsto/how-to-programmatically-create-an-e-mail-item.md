@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "mail items [Office development in Visual Studio], creating"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

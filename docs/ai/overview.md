@@ -4,7 +4,7 @@ description: Learn how Visual Studio Tools for AI is an integrated development e
 ms.custom: SEO-VS-2020
 author: jillre
 ms.author: jillfra
-manager: jillfra
+manager: jmartens
 monikerRange: vs-2017
 ms.date: 11/13/2017
 ms.topic: overview

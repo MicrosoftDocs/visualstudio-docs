@@ -5,7 +5,7 @@ description: Overview of AI Tools for Visual Studio
 keywords: ai, visual studio
 author: jillre
 ms.author: jillfra
-manager: jillfra
+manager: jmartens
 monikerRange: vs-2017
 ms.date: 11/13/2017
 ms.topic: "conceptual"
