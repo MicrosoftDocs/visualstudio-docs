@@ -19,7 +19,7 @@ helpviewer_keywords:
   - "form regions [Office development in Visual Studio], features available"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

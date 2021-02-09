@@ -8,7 +8,7 @@ dev_langs:
 - CPP
 author: ghogen
 ms.author: ghogen
-manager: jillfra
+manager: jmartens
 ms.workload:
 - data-storage
 - cplusplus

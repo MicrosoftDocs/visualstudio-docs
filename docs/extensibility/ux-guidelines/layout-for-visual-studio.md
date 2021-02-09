@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.assetid: c19e3022-047c-43b6-a046-a82717efed4f
 author: acangialosi
 ms.author: anthc
-manager: jillfra
+manager: jmartens
 ms.workload:
 - vssdk
 ---

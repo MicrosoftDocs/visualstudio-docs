@@ -8,7 +8,7 @@ helpviewer_keywords:
   - "Domain-Specific Language, namespace"
 author: JoshuaPartlow
 ms.author: joshuapa
-manager: jillfra
+manager: jmartens
 ms.custom: SEO-VS-2020
 ms.workload:
   - "multiple"

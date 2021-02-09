@@ -8,7 +8,7 @@ helpviewer_keywords:
 - text templates, utility methods
 author: JoshuaPartlow
 ms.author: joshuapa
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ---

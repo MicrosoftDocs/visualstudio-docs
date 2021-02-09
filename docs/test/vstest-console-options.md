@@ -9,7 +9,7 @@ helpviewer_keywords:
 - command-line tests
 ms.author: mikejo
 author: mikejo5000
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ---

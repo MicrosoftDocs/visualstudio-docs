@@ -23,7 +23,7 @@ description: Learn how to upgrade the free copy of Dotfuscator Community include
 ms.assetid: c7c60904-27f9-4f1f-b79b-ddf65041b810
 author: TerryGLee
 ms.author: tglee
-manager: jillfra
+manager: jmartens
 ---
 # Upgrade Dotfuscator Community
 

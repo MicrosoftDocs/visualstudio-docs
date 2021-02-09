@@ -6,7 +6,7 @@ f1_keywords:
   - "vs.debug.error.process_exit_during_func_eval"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

@@ -10,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: f8383ab1-eb49-4d3f-8608-d8b4d51a81be
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 monikerRange: 'vs-2017'
 ms.workload: 
   - aspnet

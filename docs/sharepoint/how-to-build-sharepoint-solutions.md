@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, building"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

@@ -11,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 85686707-14C0-4860-9B7A-66485D43D241
 author: ornellaalt
 ms.author: ornella
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ms.prod: visual-studio-windows

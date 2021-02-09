@@ -15,7 +15,7 @@ helpviewer_keywords:
 - mapping relationships in code
 author: JoshuaPartlow
 ms.author: joshuapa
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ---

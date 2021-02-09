@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "host items [Office development in Visual Studio], exposing code to VBA"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

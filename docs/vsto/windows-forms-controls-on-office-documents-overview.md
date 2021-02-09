@@ -26,7 +26,7 @@ helpviewer_keywords:
   - "Office applications [Office development in Visual Studio], Windows Forms"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

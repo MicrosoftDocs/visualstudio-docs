@@ -9,7 +9,7 @@ f1_keywords:
 ms.assetid: 5a9fc57d-9097-413b-af0c-8726b1a57048
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 monikerRange: 'vs-2017'
 ms.workload: 
   - multiple

@@ -15,7 +15,7 @@ helpviewer_keywords:
 - coded UI test
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ---

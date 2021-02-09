@@ -10,7 +10,7 @@ helpviewer_keywords:
 - Roslyn analyzers
 author: mikadumont
 ms.author: midumont
-manager: jillfra
+manager: jmartens
 ms.workload: 
   - dotnet
 ---

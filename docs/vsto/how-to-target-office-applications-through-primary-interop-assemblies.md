@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "application development [Office development in Visual Studio], automating"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

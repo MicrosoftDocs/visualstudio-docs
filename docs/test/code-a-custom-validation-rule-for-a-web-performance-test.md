@@ -16,7 +16,7 @@ dev_langs:
   - VB
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ---
 # Code a custom validation rule for a web performance test
 

@@ -14,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: 64315c2f-a0b2-4378-be16-0774b99beef5
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ---
 # How to: Manage counter sets using the Load Test Editor
 

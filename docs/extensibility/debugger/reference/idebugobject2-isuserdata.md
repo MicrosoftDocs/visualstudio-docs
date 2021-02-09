@@ -9,7 +9,7 @@ helpviewer_keywords:
 ms.assetid: 6ffa0d0e-f742-496d-acc7-db74c248bc45
 author: acangialosi
 ms.author: anthc
-manager: jillfra
+manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:

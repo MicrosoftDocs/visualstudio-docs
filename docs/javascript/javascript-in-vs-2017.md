@@ -13,7 +13,7 @@ ms.assetid: 74dca14c-5071-416f-a92b-d09f95e3dfb8
 caps.latest.revision: 1
 author: "bowdenk7"
 ms.author: "jillfra"
-manager: jillfra
+manager: jmartens
 ---
 # JavaScript in Visual Studio 2017
 

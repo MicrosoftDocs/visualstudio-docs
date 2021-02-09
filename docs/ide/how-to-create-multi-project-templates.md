@@ -10,7 +10,7 @@ helpviewer_keywords:
 - multi-project templates
 author: TerryGLee
 ms.author: tglee
-manager: jillfra
+manager: jmartens
 ---
 # How to: Create multi-project templates
 

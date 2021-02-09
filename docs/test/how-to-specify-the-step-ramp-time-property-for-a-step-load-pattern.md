@@ -9,7 +9,7 @@ helpviewer_keywords:
 ms.assetid: 4a69e857-f93b-4907-9a01-fd1b66291205
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ---
 # How to: Specify the step ramp time property for a step load pattern
 

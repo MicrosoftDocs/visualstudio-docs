@@ -16,7 +16,7 @@ helpviewer_keywords:
 - application modeling
 author: JoshuaPartlow
 ms.author: joshuapa
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ---

@@ -5,7 +5,7 @@ ms.date: 11/13/2017
 ms.topic: overview
 author: kraigb
 ms.author: kraigb
-manager: jillfra
+manager: jmartens
 ms.workload:
   - data-science
 ---

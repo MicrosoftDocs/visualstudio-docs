@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.assetid: 29c80c38-0fa3-48d6-b3a8-3b864f482e44
 author: TerryGLee
 ms.author: tglee
-manager: jillfra
+manager: jmartens
 ---
 # Organize objects into layout containers in XAML Designer
 

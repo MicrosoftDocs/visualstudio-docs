@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "searching, Word options"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

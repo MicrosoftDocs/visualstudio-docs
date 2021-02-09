@@ -6,7 +6,7 @@ ms.date: 06/23/2020
 ms.topic: overview
 author: TerryGLee
 ms.author: tglee
-manager: jillfra
+manager: jmartens
 ---
 # Overview of XAML
 

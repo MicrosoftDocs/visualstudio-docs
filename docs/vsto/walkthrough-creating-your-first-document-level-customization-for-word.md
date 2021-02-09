@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "document-level customizations [Office development in Visual Studio], creating your first project"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

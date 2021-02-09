@@ -10,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 35C7AB05-07D5-4B38-BCAC-AB88444E7368
 author: ornellaalt
 ms.author: ornella
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ms.prod: visual-studio-windows

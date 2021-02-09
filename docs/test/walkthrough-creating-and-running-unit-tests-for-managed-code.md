@@ -11,7 +11,7 @@ helpviewer_keywords:
 - unit tests, running
 - unit tests, authoring
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload:
 - dotnet
 author: mikejo5000

@@ -5,7 +5,7 @@ ms.topic: how-to
 ms.date: 09/21/2020
 author: gregvanl
 ms.author: gregvanl
-manager: jillfra
+manager: jmartens
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
 ms.workload:

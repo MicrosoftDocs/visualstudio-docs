@@ -40,7 +40,7 @@ helpviewer_keywords:
   - "VST.Designer.ExcelVST.Designer.Word"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

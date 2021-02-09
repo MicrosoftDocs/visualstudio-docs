@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "Visio [Office development in Visual Studio], copying and pasting Visio shapes"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

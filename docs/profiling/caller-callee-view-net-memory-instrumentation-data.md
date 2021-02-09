@@ -9,7 +9,7 @@ helpviewer_keywords:
 ms.assetid: da624c06-8741-4afb-aad1-f8c0002f3de2
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 monikerRange: 'vs-2017'
 ms.workload:
   - "multiple"

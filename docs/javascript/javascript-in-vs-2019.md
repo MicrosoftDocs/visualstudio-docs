@@ -12,7 +12,7 @@ dev_langs:
   - "DHTML"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 monikerRange: '>= vs-2019'
 ---
 # JavaScript and TypeScript in Visual Studio 2019

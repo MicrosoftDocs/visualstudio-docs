@@ -27,7 +27,7 @@ helpviewer_keywords:
 ms.assetid: ec002138-4054-456d-bcc1-79ac2f4a4fd7
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "cplusplus"
 ---

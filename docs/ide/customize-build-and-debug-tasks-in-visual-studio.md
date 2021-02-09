@@ -12,7 +12,7 @@ helpviewer_keywords:
 - launch.vs.json file [Visual Studio]
 author: TerryGLee
 ms.author: tglee
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ---

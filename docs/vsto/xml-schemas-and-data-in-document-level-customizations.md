@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "Office development in Visual Studio, XML"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

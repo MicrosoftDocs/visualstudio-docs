@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.assetid: c149f4e5-3b61-4c33-892e-3e26d47f3eeb
 author: ghogen
 ms.author: ghogen
-manager: jillfra
+manager: jmartens
 ms.workload:
 - data-storage
 ---

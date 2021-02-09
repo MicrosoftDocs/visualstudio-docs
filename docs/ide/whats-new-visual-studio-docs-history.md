@@ -9,7 +9,7 @@ helpviewer_keywords:
 ms.assetid: 511DAFC7-896E-449A-BFF7-0E8F7BBA8A78
 author: JoshuaPartlow
 ms.author: joshuapa
-manager: jillfra
+manager: jmartens
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
 ms.topic: conceptual

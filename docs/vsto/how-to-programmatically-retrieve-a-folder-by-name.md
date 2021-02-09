@@ -11,7 +11,7 @@ helpviewer_keywords:
   - "Outlook folders [Office development in Visual Studio], retrieving by name"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

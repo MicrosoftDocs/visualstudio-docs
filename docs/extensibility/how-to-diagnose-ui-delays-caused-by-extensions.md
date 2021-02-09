@@ -6,7 +6,7 @@ ms.date: "01/26/2018"
 ms.topic: "conceptual"
 author: "PooyaZv"
 ms.author: "pozandev"
-manager: jillfra
+manager: jmartens
 ms.workload: "multiple"
 ---
 # How to: Diagnose UI delays caused by extensions

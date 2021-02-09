@@ -6,7 +6,7 @@ ms.date: 09/27/2019
 ms.topic: conceptual
 ms.author: mikejo
 author: mikejo5000
-manager: jillfra
+manager: jmartens
 ms.workload:
 - uwp
 ---

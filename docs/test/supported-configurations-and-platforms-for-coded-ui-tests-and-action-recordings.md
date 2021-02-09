@@ -7,7 +7,7 @@ ms.topic: reference
 helpviewer_keywords:
 - coded UI tests
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 author: mikejo5000
