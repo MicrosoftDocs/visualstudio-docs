@@ -101,7 +101,7 @@ If you don't see the **Console App (.NET Core)** project template, you can get i
 
 1. In the **Additional information** window, **.NET Core 3.1** should already be selected for your target framework. If not, select **.NET Core 3.1**. Then, choose **Create**.
 
-   ![In the 'Additional information' window, make sure .NET Core 3.1 is selected](./csharp/media/vs-2019/csharp-target-framework.png)
+   ![In the 'Additional information' window, make sure .NET Core 3.1 is selected](./media/vs-2019/vb-target-framework.png)
 
    Visual Studio opens your new project.
 

@@ -2,7 +2,7 @@
 title: "Hello World app with WPF in C#"
 description: Create a simple Windows Desktop .NET app in C# with Visual Studio using the Windows Presentation Foundation (WPF) UI framework.
 ms.custom: "seodec18, get-started"
-ms.date: 08/09/2019
+ms.date: 02/10/2021
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
 ms.topic: tutorial
@@ -74,16 +74,17 @@ When you create an application in Visual Studio, you first create a project and 
 
    ![View the 'Create a new project' window](../../get-started/media/vs-2019/start-window-create-new-project.png "Screenshot of the 'Create a new project' window")
 
-1. On the **Create a new project** screen, search for "WPF," choose **WPF App (.NET Core)**, and then choose **Next**.
+1. On the **Create a new project** screen, search for "WPF," choose **WPF Application**, and then choose **Next**.
 
-   ![WPF app template in 'Create a new project' dialog](media/vs-2019/exploreide-newprojectcsharp-vs2019.png "Screenshot of the WPF app template in 'Create a new project' dialog")
+   ![WPF application template in 'Create a new project' dialog](media/vs-2019/exploreide-newprojectcsharp-vs2019.png "Screenshot of the WPF Application template in 'Create a new project' dialog")
 
-   > [!NOTE]
-   > You might find two WPF desktop templates, one for .NET Framework and another for .NET Core. The .NET Core template is available in Visual Studio 2019 version 16.3 and later. You can use either one for this tutorial, but we recommend .NET Core for new development.
-
-1. At the next screen, give the project a name, **HelloWPFApp**, and choose **Create**.
+1. At the next screen, give the project a name, **HelloWPFApp**, and choose **Next**.
 
    ![Name your project 'HelloWPFApp'](./media/vs-2019/exploreide-nameproject.png "Screenshot of the window where you name your project")
+
+1. In the **Additional information** window, **.NET Core 3.1** should already be selected for your target framework. If not, select **.NET Core 3.1**. Then, choose **Create**.
+
+   ![In the 'Additional information' window, make sure .NET Core 3.1 is selected](./media/vs-2019/wpf-target-framework.png)
 
 ::: moniker-end
 
