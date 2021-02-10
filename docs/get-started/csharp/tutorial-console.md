@@ -49,7 +49,7 @@ To start, we'll create a C# application project. The project type comes with all
 
 ### Add a workload (optional)
 
-If you don't see the **Console Application** project template, you can get it by adding the **.NET Core cross-platform development** workload. Here's how.
+If you don't see the **Console App (.NET Core)** project template, you can get it by adding the **.NET Core cross-platform development** workload. Here's how.
 
 #### Option 1: Use the New Project dialog box
 
