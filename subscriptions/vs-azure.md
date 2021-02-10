@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: 872c5746-5357-4764-949b-aa525a0adf1a
-ms.date: 10/28/2020
+ms.date: 02/10/2021
 ms.topic: how-to
 description:  Learn how to activate the Azure DevTest individual credit benefit included in your Visual Studio subscription.
 ---
@@ -70,7 +70,7 @@ If you have questions about transferring resources, removing spending limits, or
 |              Visual Studio Enterprise subscription with GitHub Enterprise               |     $150 monthly credit     |                             Yes                             |
 |               Visual Studio Enterprise monthly               |        Not available        |                                                             |
 |             Visual Studio Professional Standard              |     $50 monthly credit      |                             Yes
-|              Visual Studio Professional subscription with GitHub Enterprise              |     $150 monthly credit     |                             Yes                             |
+|              Visual Studio Professional subscription with GitHub Enterprise              |     $50 monthly credit     |                             Yes                             |
 |              Visual Studio Professional monthly              |        Not available        |                                                             |
 |                    Visual Studio Test Pro                    |     $50 monthly credit      |                             Yes                             |
 |                        MSDN Platforms                        |     $100 monthly credit     |                             Yes                             |
