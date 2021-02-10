@@ -43,13 +43,13 @@ To start, we'll create a C# application project. The project type comes with all
 2. From the top menu bar, choose **File** > **New** > **Project**.
    (Alternatively, press **Ctrl**+**Shift**+**N**).
 
-3. In the left pane of the **New Project** dialog box, expand **C#**, and then choose **.NET Core**. In the middle pane, choose **Console App (.NET Core)**. Then name the file ***Calculator***.
+3. In the left pane of the **New Project** dialog box, expand **C#**, and then choose **.NET Core**. In the middle pane, choose **Console Application**. Then name the file ***Calculator***.
 
    ![Console App (.NET Core) project template in the New Project dialog box in the Visual Studio IDE](./media/new-project-csharp-calculator-console-app.png)
 
 ### Add a workload (optional)
 
-If you don't see the **Console App (.NET Core)** project template, you can get it by adding the **.NET Core cross-platform development** workload. Here's how.
+If you don't see the **Console Application** project template, you can get it by adding the **.NET Core cross-platform development** workload. Here's how.
 
 #### Option 1: Use the New Project dialog box
 
@@ -79,12 +79,12 @@ If you don't see the **Console App (.NET Core)** project template, you can get i
 
 1. On the **Create a new project** window, enter or type *console* in the search box. Next, choose **C#** from the Language list, and then choose **Windows** from the Platform list. 
 
-   After you apply the language and platform filters, choose the **Console App (.NET Core)** template, and then choose **Next**.
+   After you apply the language and platform filters, choose the **Console Application** template, and then choose **Next**.
 
    ![Choose the C# template for the Console App (.NET Framework)](./media/vs-2019/csharp-create-new-project-search-console-net-core-filtered.png)
 
    > [!NOTE]
-   > If you do not see the **Console App (.NET Core)** template, you can install it from the **Create a new project** window. In the **Not finding what you're looking for?** message, choose the **Install more tools and features** link.
+   > If you do not see the **Console Application** template, you can install it from the **Create a new project** window. In the **Not finding what you're looking for?** message, choose the **Install more tools and features** link.
    >
    > ![The 'Install more tools and features' link from the 'Not finding what you're looking for' message in the 'Create new project' window](../../get-started/media/vs-2019/not-finding-what-looking-for.png) 
    > 
