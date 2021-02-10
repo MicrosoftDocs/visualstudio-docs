@@ -43,7 +43,7 @@ To start, we'll create a C# application project. The project type comes with all
 2. From the top menu bar, choose **File** > **New** > **Project**.
    (Alternatively, press **Ctrl**+**Shift**+**N**).
 
-3. In the left pane of the **New Project** dialog box, expand **C#**, and then choose **.NET Core**. In the middle pane, choose **Console Application**. Then name the file ***Calculator***.
+3. In the left pane of the **New Project** dialog box, expand **C#**, and then choose **.NET Core**. In the middle pane, choose **Console App (.NET Core)**. Then name the file ***Calculator***.
 
    ![Console App (.NET Core) project template in the New Project dialog box in the Visual Studio IDE](./media/new-project-csharp-calculator-console-app.png)
 
