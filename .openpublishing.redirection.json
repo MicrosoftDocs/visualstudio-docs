@@ -45496,11 +45496,6 @@
       "redirect_document_id": true
     },
     {
-      "source_path": "docs/get-started/tutorial-open-project-from-repo.md?view=vs-2019&tabs=vs168later",
-      "redirect_url": "/visualstudio/get-started/tutorial-open-project-from-repo-visual-studio-2019",
-      "redirect_document_id": true
-    },
-    {
       "source_path": "docs/get-started/tutorial-open-project-from-repo.md?view=vs-2017",
       "redirect_url": "/visualstudio/get-started/tutorial-open-project-from-repo-visual-studio-2017",
       "redirect_document_id": true
