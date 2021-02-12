@@ -81,7 +81,7 @@ If you don't see the **Console App (.NET Core)** project template, you can get i
 
    After you apply the language, platform, and project type filters, choose the **Console Application** template, and then choose **Next**.
 
-   ![Choose the C# template for the Console App (.NET Framework)](./media/vs-2019/csharp-create-new-project-console-net-core.png)
+    :::image type="content" source="./media/vs-2019/csharp-create-new-project-console-net-core.png" alt-text="Choose the C# template for the Console App (.NET Framework)":::
 
    > [!NOTE]
    > If you do not see the **Console Application** template, you can install it from the **Create a new project** window. In the **Not finding what you're looking for?** message, choose the **Install more tools and features** link.
@@ -96,11 +96,11 @@ If you don't see the **Console App (.NET Core)** project template, you can get i
 
 1. In the **Configure your new project** window, type or enter *Calculator* in the **Project name** box. Then, choose **Next**.
 
-   ![in the 'Configure your new project' window, name your project 'Calculator'](./media/vs-2019/csharp-name-your-calculator-project.png)
+    :::image type="content" source="./media/vs-2019/csharp-name-your-calculator-project.png" alt-text="in the 'Configure your new project' window, name your project 'Calculator'":::
    
 1. In the **Additional information** window, **.NET Core 3.1** should already be selected for your target framework. If not, select **.NET Core 3.1**. Then, choose **Create**.
 
-   ![In the 'Additional information' window, make sure .NET Core 3.1 is selected](./media/vs-2019/csharp-target-framework.png)
+    :::image type="content" source="./media/vs-2019/csharp-target-framework.png" alt-text="in the 'In the 'Additional information' window, make sure .NET Core 3.1 is selected":::
 
    Visual Studio opens your new project, which includes default "Hello World" code.
 

@@ -70,7 +70,7 @@ First, you'll create a Visual Basic application project. The project type comes 
 
    After you apply the language, platform, and project type filters, choose the **Console Application** template, and then choose **Next**.
 
-   ![Choose the Visual Basic template for the Console Appplication](../get-started/visual-basic/media/vs-2019/vb-create-new-project-console-net-core.png)
+   :::image type="content" source="../get-started/visual-basic/media/vs-2019/vb-create-new-project-console-net-core.png" alt-text="Choose the Visual Basic template for the Console Appplication":::
 
    > [!NOTE]
    > If you do not see the **Console Application** template, you can install it from the **Create a new project** window. In the **Not finding what you're looking for?** message, choose the **Install more tools and features** link.
@@ -85,11 +85,11 @@ First, you'll create a Visual Basic application project. The project type comes 
 
 1. In the **Configure your new project** window, type or enter *WhatIsYourName* in the **Project name** box. Then, choose **Next**.
 
-   ![in the 'Configure your new project' window, name your project 'WhatIsYourName'](../get-started/visual-basic/media/vs-2019/vb-name-your-project-whatname.png)
+   :::image type="content" source="../get-started/visual-basic/media/vs-2019/vb-name-your-project-whatname.png" alt-text="in the 'Configure your new project' window, name your project 'WhatIsYourName'":::
 
 1. In the **Additional information** window, **.NET Core 3.1** should already be selected for your target framework. If not, select **.NET Core 3.1**. Then, choose **Create**.
 
-   ![In the 'Additional information' window, make sure .NET Core 3.1 is selected](../get-started/visual-basic/media/vs-2019/vb-target-framework.png)
+   :::image type="content" source="../get-started/visual-basic/media/vs-2019/vb-target-framework.png" alt-text="In the 'Additional information' window, make sure .NET Core 3.1 is selected":::
 
    Visual Studio opens your new project.
 

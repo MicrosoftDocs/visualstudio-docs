@@ -76,15 +76,15 @@ When you create an application in Visual Studio, you first create a project and 
 
 1. On the **Create a new project** screen, search for "WPF," choose **WPF Application**, and then choose **Next**.
 
-   ![WPF application template in 'Create a new project' dialog](media/vs-2019/explore-ide-new-project-csharp-vs2019.png "Screenshot of the WPF Application template in 'Create a new project' dialog")
+   :::image type="content" source="media/vs-2019/explore-ide-new-project-csharp-vs2019.png" alt-text="WPF application template in 'Create a new project' dialog":::
 
 1. At the next screen, give the project a name, **HelloWPFApp**, and choose **Next**.
 
-   ![Name your project 'HelloWPFApp'](./media/vs-2019/explore-ide-name-project.png "Screenshot of the window where you name your project")
+   :::image type="content" source="./media/vs-2019/explore-ide-name-project.png" alt-text="Name your project 'HelloWPFApp'":::
 
 1. In the **Additional information** window, **.NET Core 3.1** should already be selected for your target framework. If not, select **.NET Core 3.1**. Then, choose **Create**.
 
-   ![In the 'Additional information' window, make sure .NET Core 3.1 is selected](./media/vs-2019/wpf-target-framework.png)
+   :::image type="content" source="./media/vs-2019/wpf-target-framework.png" alt-text="In the 'Additional information' window, make sure .NET Core 3.1 is selected":::
 
 ::: moniker-end
 
