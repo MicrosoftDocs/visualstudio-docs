@@ -131,6 +131,8 @@ If you don't see the **ASP.NET Core Web Application** project template, you can 
     
     Leave the **Enable Docker** box unchecked, and select **None** for Authentication Type. Then, select **Create**.
 
+   ![in the 'Additional information' window, make sure .NET Core 3.1 is selected and leave all defaults](./media/vs-2019/aspnet-core-additional-information.png)
+
    Visual Studio will open up your new project.
 
 ::: moniker-end

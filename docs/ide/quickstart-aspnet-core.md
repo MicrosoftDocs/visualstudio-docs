@@ -77,38 +77,42 @@ Soon after, Visual Studio opens your project file.
 
 ::: moniker range="vs-2019"
 
-1. Open Visual Studio.
-
-1. On the start window, choose **Create a new project**.
+1. In the start window, choose **Create a new project**.
 
    ![View the 'Create a new project' window](../get-started/media/vs-2019/create-new-project-dark-theme.png)
 
-1. On the **Create a new project** window, enter or type *ASP.NET* in the search box. Next, choose **C#** from the Language list, and then choose **Windows** from the Platform list.
+1. In the **Create a new project** window, choose **C#** from the Language list. Next, choose **Windows** from the Platform list, and **Web** from the project types list.
 
-   After you apply the language and platform filters, choose the **ASP.NET Core Web Application** template, and then choose **Next**.
+      After you apply the language, platform, and project type filters, choose the **ASP.NET Core Web App** template, and then choose **Next**.
 
-   ![Choose the C# template for the ASP.NET Core Web Application](../get-started/csharp/media/vs-2019/csharp-create-new-project-search-aspnet-core-filtered.png)
+   ![Choose the C# template for the ASP.NET Core Web App](../get-started/csharp/media/vs-2019/csharp-create-new-project-aspnet-core.png)
 
    > [!NOTE]
-   > If you do not see the **ASP.NET Core Web Application** template, you can install it from the **Create a new project** window. In the **Not finding what you're looking for?** message, choose the **Install more tools and features** link.
+   > If you don't see the **ASP.NET Core Web App** template, you can install it from the **Create a new project** window. In the **Not finding what you're looking for?** message, choose the **Install more tools and features** link.
    >
    > ![The 'Install more tools and features' link from the 'Not finding what you're looking for' message in the 'Create new project' window](../get-started/media/vs-2019/not-finding-what-looking-for.png)
    >
    > Then, in the Visual Studio Installer, choose the **ASP.NET and web development** workload.
    >
-   > ![ASP.NET Core Web Application workload in the Visual Studio Installer](../get-started/media/aspnet-core-web-dev-workload.png)
+   > ![.NET Core cross-platform development workload in the Visual Studio Installer](../get-started/media/aspnet-core-web-dev-workload.png)
    >
-   > After that, choose the **Modify** button in the Visual Studio Installer. You might be prompted to save your work; if so, do so. Next, choose **Continue** to install the workload. Then, return to step 2 in this "[Create a project](#create-a-project)" procedure.
+   > After that, choose the **Modify** button in the Visual Studio Installer. If you're prompted to save your work, do so. Next, choose **Continue** to install the workload. Then, return to step 2 in this "[Create a project](#create-a-project)" procedure.
 
-1. In the **Configure your new project** window, type or enter *HelloWorld* in the **Project name** box. Then, choose **Create**.
+1. In the **Configure your new project** window, type or enter *HelloWorld* in the **Project name** box. Then, choose **Next**.
 
-   ![in the 'Configure your new project' window, name your project 'HelloWorld'](../get-started/csharp/media/vs-2019/csharp-name-your-aspnet-helloworld-project.png)
+   ![in the 'Configure your new project' window, name your project 'MyCoreApp'](../get-started/csharp/media/vs-2019/csharp-name-your-aspnet-helloworld-project.png)
 
-1. In the **Create a new ASP.NET Core Web Application** window, verify that **ASP.NET Core 3.0** appears in the top drop-down menu. Then, choose **Web Application**, which includes example Razor Pages. Next, choose  **Create**.
+1. In the **Additional information** window, verify that **.NET Core 3.1** appears in the top drop-down menu. Note that you can choose to enable Docker support by checking the box. You can also add authentication support by clicking the change Authentication button. From there you can choose from:
+    - None: no authentication.
+    - Individual accounts: these are stored in a local or Azure-based database.
+    - Microsoft identity platform: this option uses Active Directory, Azure AD, or Microsoft 365 for authentication.
+    - Windows: suitable for intranet applications.
+    
+    Leave the **Enable Docker** box unchecked, and select **None** for Authentication Type. Then, select **Create**.
 
-   ![The 'Create a new ASP.NET Core Web Application' window](../get-started/csharp/media/vs-2019/csharp-create-aspnet-razor-pages-app.png)
+   ![in the 'Additional information' window, make sure .NET Core 3.1 is selected and leave all defaults](../get-started/csharp/media/vs-2019/aspnet-core-additional-information.png)
 
-   Visual Studio opens your new project.
+   Visual Studio will open up your new project.
 
 ::: moniker-end
 

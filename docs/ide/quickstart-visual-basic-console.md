@@ -66,14 +66,14 @@ First, you'll create a Visual Basic application project. The project type comes 
 
    ![View the 'Create a new project' window](../get-started/media/vs-2019/create-new-project-dark-theme.png)
 
-1. On the **Create a new project** window, enter or type *console* in the search box. Next, choose **Visual Basic** from the Language list, and then choose **Windows** from the Platform list. 
+1. In the **Create a new project** window, choose **Visual Basic** from the Language list. Next, choose **Windows** from the Platform list and **Console** from the project types list.
 
-   After you apply the language and platform filters, choose the **Console App (.NET Core)** template, and then choose **Next**.
+   After you apply the language, platform, and project type filters, choose the **Console Application** template, and then choose **Next**.
 
-   ![Choose the Visual Basic template for the Console App (.NET Framework)](../get-started/visual-basic/media/vs-2019/vb-create-new-project-search-console-net-core-filtered.png)
+   ![Choose the Visual Basic template for the Console Appplication](../get-started/visual-basic/media/vs-2019/vb-create-new-project-console-net-core.png)
 
    > [!NOTE]
-   > If you do not see the **Console App (.NET Core)** template, you can install it from the **Create a new project** window. In the **Not finding what you're looking for?** message, choose the **Install more tools and features** link.
+   > If you do not see the **Console Application** template, you can install it from the **Create a new project** window. In the **Not finding what you're looking for?** message, choose the **Install more tools and features** link.
    >
    > ![The 'Install more tools and features' link from the 'Not finding what you're looking for' message in the 'Create new project' window](../get-started/media/vs-2019/not-finding-what-looking-for.png) 
    > 
@@ -83,9 +83,13 @@ First, you'll create a Visual Basic application project. The project type comes 
    >
    > After that, choose the **Modify** button in the Visual Studio Installer. You might be prompted to save your work; if so, do so. Next, choose **Continue** to install the workload. Then, return to step 2 in this "[Create a project](#create-a-project)" procedure.
 
-1. In the **Configure your new project** window, type or enter *WhatIsYourName* in the **Project name** box. Then, choose **Create**.
+1. In the **Configure your new project** window, type or enter *WhatIsYourName* in the **Project name** box. Then, choose **Next**.
 
    ![in the 'Configure your new project' window, name your project 'WhatIsYourName'](../get-started/visual-basic/media/vs-2019/vb-name-your-project-whatname.png)
+
+1. In the **Additional information** window, **.NET Core 3.1** should already be selected for your target framework. If not, select **.NET Core 3.1**. Then, choose **Create**.
+
+   ![In the 'Additional information' window, make sure .NET Core 3.1 is selected](../get-started/visual-basic/media/vs-2019/vb-target-framework.png)
 
    Visual Studio opens your new project.
 
