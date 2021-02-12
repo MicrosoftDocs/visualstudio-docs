@@ -3,7 +3,7 @@ title: "Tutorial: Get started with C# and ASP.NET Core"
 titleSuffix: ""
 description: "Learn how to create an ASP.NET Core web app in Visual Studio with C#, step-by-step."
 ms.custom: "seodec18, get-started"
-ms.date: 02/11/2021
+ms.date: 02/12/2021
 ms.technology: vs-ide-general
 ms.prod: visual-studio-windows
 ms.topic: tutorial
@@ -103,6 +103,7 @@ If you don't see the **ASP.NET Core Web Application** project template, you can 
    ![View the 'Create a new project' window](../../get-started/media/vs-2019/create-new-project-dark-theme.png)
 
 1. In the **Create a new project** window, choose **C#** from the Language list. Next, choose **Windows** from the Platform list, and **Web** from the project types list.
+
       After you apply the language, platform, and project type filters, choose the **ASP.NET Core Web App** template, and then choose **Next**.
 
    ![Choose the C# template for the ASP.NET Core Web App](./media/vs-2019/csharp-create-new-project-aspnet-core.png)
@@ -120,22 +121,17 @@ If you don't see the **ASP.NET Core Web Application** project template, you can 
 
 1. In the **Configure your new project** window, type or enter *MyCoreApp* in the **Project name** box. Then, choose **Next**.
 
-   ![in the 'Configure your new project' window, name your project 'MyCoreApp'](./media/vs-2019/csharp-name-your-aspnet-mycoreapp-project.png)
+   ![in the 'Configure your new project' window, name your project 'MyCoreApp'](./media/vs-2019/csharp-name-your-aspnet-app.png)
 
-1. In the **** window, verify that **ASP.NET Core 3.1** appears in the top drop-down menu. Note that you can choose to enable Docker support by checking the box. You can also add authentication support by clicking the change Authentication button. From there you can choose from:
+1. In the **Additional information** window, verify that **.NET Core 3.1** appears in the top drop-down menu. Note that you can choose to enable Docker support by checking the box. You can also add authentication support by clicking the change Authentication button. From there you can choose from:
+    - None: no authentication.
+    - Individual accounts: these are stored in a local or Azure-based database.
+    - Microsoft identity platform: this option uses Active Directory, Azure AD, or Microsoft 365 for authentication.
+    - Windows: suitable for intranet applications.
+    
+    Leave the **Enable Docker** box unchecked, and select **None** for Authentication Type. Then, select **Create**.
 
-- None: no authentication.
-- Individual User Accounts: these are stored in a local or Azure-based database.
-- Work or School Accounts. This option uses Active Directory, Azure AD, or Microsoft 365 for authentication.
-- Windows: suitable for intranet applications.
-
-Select the standard Web Application template with No Authentication and click **Create**.
-1. 
-1. Then, choose **Web Application**, which includes example Razor Pages. Next, choose  **Create**.
-
-   ![The 'Create a new ASP.NET Core Web Application' window](./media/vs-2019/csharp-create-aspnet-razor-pages-app.png)
-
-   Visual Studio opens your new project.
+   Visual Studio will open up your new project.
 
 ::: moniker-end
 
