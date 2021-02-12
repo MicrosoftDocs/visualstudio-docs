@@ -199,6 +199,7 @@ If you're ready to code with Visual Studio, dive into any of the following langu
 
 ## See also
 
+- [Open a project from a repo in Visual Studio 2017](tutorial-open-project-from-repo-visual-studio-2017.md)
 - [New Git experience in Visual Studio](../ide/git-with-visual-studio.md)
 - [Azure DevOps Services: Get started with Azure Repos and Visual Studio](/azure/devops/repos/git/gitquickstart/)
 - [Microsoft Learn: Get started with Azure DevOps](/learn/modules/get-started-with-devops/)
