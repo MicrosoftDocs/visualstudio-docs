@@ -161,7 +161,7 @@ Common keyboard commands used to step through code include **F10** and **F11**. 
 
 1. In the current line of code (marked by the yellow execution pointer), hover over the `c1` object with your mouse to show a data tip.
 
-    ![View a datatip](../debugger/media/dbg-qs-data-tip-csharp.png "View a datatip")
+    ![View a data tip](../debugger/media/dbg-qs-data-tip-csharp.png "View a data tip")
 
     The data tip shows you the current value of the `c1` variable and allows you to inspect its properties. When debugging, if you see a value you don't expect, you probably have a bug in the preceding or calling lines of code.
 
