@@ -49,9 +49,14 @@ This article steps you through creating, running, and customizing a series of un
 
 2. On the start window, choose **Create a new project**.
 
-3. Search for and select the C# **Console App (.NET Core)** project template, and then click **Next**.
+3. Search for and select the C# **Console App** project template for .NET Core, and then click **Next**.
 
-4. Name the project **Bank**, and then click **Create**.
+   > [!NOTE]
+   > If you do not see the **Console App** template, you can install it from the **Create a new project** window. In the **Not finding what you're looking for?** message, choose the **Install more tools and features** link. Then, in the Visual Studio Installer, choose the **.NET Core cross-platform development** workload.
+
+4. Name the project **Bank**, and then click **Next**.
+
+   Choose either the recommended target framework (.NET Core 3.1) or .NET 5, and then choose **Create**.
 
    The Bank project is created and displayed in **Solution Explorer** with the *Program.cs* file open in the code editor.
 
