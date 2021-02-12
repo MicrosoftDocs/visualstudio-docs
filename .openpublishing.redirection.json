@@ -46033,27 +46033,27 @@
     {
       "source_path": "docs/get-started/csharp/tutorial-aspnet-core-ef-step-01.md",
       "redirect_url": "/visualstudio/get-started/csharp/tutorial-aspnet-core",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/get-started/csharp/tutorial-aspnet-core-ef-step-02.md",
       "redirect_url": "/visualstudio/get-started/csharp/tutorial-aspnet-core",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/get-started/csharp/tutorial-aspnet-core-ef-step-03.md",
       "redirect_url": "/visualstudio/get-started/csharp/tutorial-aspnet-core",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/get-started/csharp/tutorial-aspnet-core-ef-step-04.md",
       "redirect_url": "/visualstudio/get-started/csharp/tutorial-aspnet-core",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/get-started/csharp/tutorial-aspnet-core-ef-step-05.md",
       "redirect_url": "/visualstudio/get-started/csharp/tutorial-aspnet-core",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/ide/tutorial-csharp-console.md",
