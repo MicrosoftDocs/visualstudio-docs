@@ -181,9 +181,14 @@ Let's add a unit test project to our solution. This time we'll start from a proj
 
 2. In the **Add a new project** dialog box, enter the text **unit test** into the search box at the top, and then select **C#** under **Language**.
 
-3. Select the **MSTest Test Project (.NET Core)** project template, and then select **Next**.
+3. Select the **Unit Test Project** project template for .NET Core, and then select **Next**.
 
-4. Name the project **QuickTest**, and then select **Create**.
+   > [!NOTE]
+   > Starting in Visual Studio 2019 version 16.9, the MSTest project template name changed from **MSTest Unit Test Project (.NET Core)** to **Unit Test Project**. Several steps in the project creation changed in this update.
+
+4. Name the project **QuickTest**, and then select **Next**.
+
+5. Choose either the recommended target framework (.NET Core 3.1) or .NET 5, and then choose **Create**.
 
    A second project is added to **Solution Explorer**, and a file named *UnitTest1.cs* opens in the editor.
 
