@@ -143,7 +143,7 @@ Select a flag icon to change the thread state to flagged or unflagged, depending
 
 You can also right-click a line and select **Flag**, **Unflag**, or **Unflag All Threads** from the shortcut menu.
 
-The **Threads** window toolbar also has a **Show Flagged Threads Only** button, which is the righthand one of the two flag icons. It works the same as the button on the **Debug Location** toolbar, and either button controls the display in both locations.
+The **Threads** window toolbar also has a **Show Flagged Threads Only** button, which is the right-hand one of the two flag icons. It works the same as the button on the **Debug Location** toolbar, and either button controls the display in both locations.
 
 ### Other Threads window features
 
