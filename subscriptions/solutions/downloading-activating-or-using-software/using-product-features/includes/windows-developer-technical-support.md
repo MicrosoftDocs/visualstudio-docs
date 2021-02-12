@@ -14,7 +14,7 @@ sap.id: af210210-e3e1-2b2e-8d79-9bd20e851241
 
 ## Windows developer technical support  
 
-Visual Studio subscriptions support provides assistance with sales, subscriptions, accounts and billing for Visual Studio subscriptions. 
+Visual Studio subscriptions support provides assistance with sales, subscriptions, accounts, and billing for Visual Studio subscriptions. 
 If you have a Windows technical or developer account issue, your question needs to be directed to [Windows developer support](https://developer.microsoft.com/windows/support/?utm_source=developermscom). We suggest trying these other resources first. 
 
 ## Windows technical documentation 
