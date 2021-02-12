@@ -84,7 +84,6 @@ But no matter which version you've installed, you can always open a project from
     >
     > ![Screenshot of the Git menu in Visual Studio 2019 version 16.8 and later, with the Local Repositories option expanded](../ide/media/vs-2019/git-menu-local-repositories.png)
 
-
     Start coding!
 
 #### [16.7 and earlier](#tab/vs167earlier)
@@ -112,6 +111,9 @@ But no matter which version you've installed, you can always open a project from
     Start coding!
 
 ---
+
+> [!NOTE]
+> For information that's specific to Visual Studio 2017, see the [Open a project from a repo in Visual Studio 2017](tutorial-open-project-from-repo-visual-studio-2017.md) page.
 
 ## Connect to an Azure DevOps server
 
