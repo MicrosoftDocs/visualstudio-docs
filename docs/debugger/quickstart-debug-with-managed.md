@@ -157,17 +157,17 @@ The app continues execution, calling `doWork`, and pauses on the line of code wh
 
 Common keyboard commands used to step through code include **F10** and **F11**. For more in-depth instructions, see [First look at the debugger](../debugger/debugger-feature-tour.md).
 
-## Inspect variables in a datatip
+## Inspect variables in a data tip
 
-1. In the current line of code (marked by the yellow execution pointer), hover over the `c1` object with your mouse to show a datatip.
+1. In the current line of code (marked by the yellow execution pointer), hover over the `c1` object with your mouse to show a data tip.
 
     ![View a datatip](../debugger/media/dbg-qs-data-tip-csharp.png "View a datatip")
 
-    The datatip shows you the current value of the `c1` variable and allows you to inspect its properties. When debugging, if you see a value you don't expect, you probably have a bug in the preceding or calling lines of code.
+    The data tip shows you the current value of the `c1` variable and allows you to inspect its properties. When debugging, if you see a value you don't expect, you probably have a bug in the preceding or calling lines of code.
 
-2. Expand the datatip to look at the current property values of the `c1` object.
+2. Expand the data tip to look at the current property values of the `c1` object.
 
-3. If you want to pin the datatip so that you can continue to see the value of `c1` while you execute code, click the small pin icon. (You can move the pinned datatip to a convenient location.)
+3. If you want to pin the data tip so that you can continue to see the value of `c1` while you execute code, click the small pin icon. (You can move the pinned data tip to a convenient location.)
 
 ## Edit code and continue debugging
 
