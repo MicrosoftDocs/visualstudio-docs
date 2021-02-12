@@ -255,7 +255,7 @@ Visual Studio is an integrated development suite of productivity tools for devel
 
 ### What is a console app?
 
-A console app takes input and displays output in a command-line window, a.k.a. a console.
+A console app takes input and displays output in a command-line window, also known as a console.
 
 ### What is .NET Core?
 
