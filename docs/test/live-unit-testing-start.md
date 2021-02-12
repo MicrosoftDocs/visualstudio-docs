@@ -111,11 +111,14 @@ The next step is to create the unit test project to test the StringLibrary libra
 
 ::: moniker range=">=vs-2019"
 
-2. Type **unit test** into the template search box, and the select the **MSTest Test Project (.NET Core)** template. Click **Next**.
+2. Type **unit test** into the template search box, select **C#** as the language, and then select the **Unit Test Project** for .NET Core template. Click **Next**.
 
-3. Name the project **StringLibraryTests**.
+   > [!NOTE]
+   > Starting in Visual Studio 2019 version 16.9, the MSTest project template name changed from **MSTest Unit Test Project (.NET Core)** to **Unit Test Project**.
 
-4. Click **Create** to create the project.
+3. Name the project **StringLibraryTests** and click **Next**.
+
+4. Choose either the recommended target framework (.NET Core 3.1) or .NET 5, and then choose **Create**.
 
 ::: moniker-end
 
