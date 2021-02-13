@@ -72,6 +72,8 @@ ms.date: 12/07/2020
 
 [!INCLUDE [Azure DevOps technical support](downloading-activating-or-using-software/using-product-features/includes/azure-devops-technical-support.md)]
 
+[!INCLUDE [Windows developer technical support](downloading-activating-or-using-software/using-product-features/includes/windows-developer-technical-support.md)]
+
 ## License terms
 
 [!INCLUDE [Subscription licensing terms and conditions](licensing-terms/includes/subscription-licensing-terms-and-conditions.md)]
