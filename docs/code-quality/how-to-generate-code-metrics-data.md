@@ -273,7 +273,7 @@ If you don't want to install the NuGet package, you can generate and use the *Me
 1. Clone the [dotnet/roslyn-analyzers](https://github.com/dotnet/roslyn-analyzers) repo.
 2. Open Developer Command Prompt for Visual Studio as an administrator.
 3. From the root of the **roslyn-analyzers** repo, execute the following command: `Restore.cmd`
-4. Change directory to *src\Tools*.
+4. Change the directory to *src\Tools\Metrics*.
 5. Execute the following command to build the **Metrics.csproj** project:
 
    ```shell
