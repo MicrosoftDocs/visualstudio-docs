@@ -1,4 +1,5 @@
 ---
+description: "Retrieves data describing a section contribution, that is, a contiguous block of memory contributed to the image by a compiland."
 title: "IDiaSectionContrib | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

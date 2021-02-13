@@ -1,4 +1,5 @@
 ---
+description: "Retrieves a flag that indicates whether the segment is executable."
 title: "IDiaSegment::get_execute | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

@@ -1,4 +1,5 @@
 ---
+description: "Creates an enumerator that contains the same enumeration state as the current enumerator."
 title: "IDiaEnumLineNumbers::Clone | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

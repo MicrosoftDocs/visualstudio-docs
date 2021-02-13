@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the file name of the library or object file from which the object was loaded."
 title: "IDiaSymbol::get_libraryName | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

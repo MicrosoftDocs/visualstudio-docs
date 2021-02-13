@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the type of the object pointer for a class method."
 title: "IDiaSymbol::get_objectPointerType | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

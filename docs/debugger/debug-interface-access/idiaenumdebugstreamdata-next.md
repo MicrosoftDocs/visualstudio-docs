@@ -1,4 +1,5 @@
 ---
+description: "Retrieves a specified number of records in the enumerated sequence."
 title: "IDiaEnumDebugStreamData::Next | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

@@ -1,4 +1,5 @@
 ---
+description: "Enables a client application to supply bytes of an executable file as specified by a relative virtual address."
 title: "IDiaReadExeAtRVACallback | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

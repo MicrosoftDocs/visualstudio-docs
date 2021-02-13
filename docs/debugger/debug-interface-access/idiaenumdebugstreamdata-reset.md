@@ -1,4 +1,5 @@
 ---
+description: "Resets to the beginning of an enumerated sequence."
 title: "IDiaEnumDebugStreamData::Reset | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

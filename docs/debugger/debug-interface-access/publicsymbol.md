@@ -1,4 +1,5 @@
 ---
+description: "When the .exe file is created, each public symbol (at a minimum, each global function and data symbol) is given a SymTagPublicSymbol tag."
 title: "PublicSymbol | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

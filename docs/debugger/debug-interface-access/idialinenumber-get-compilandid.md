@@ -1,4 +1,5 @@
 ---
+description: "Retrieves a unique identifier for the compiland that contributed this line."
 title: "IDiaLineNumber::get_compilandId | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

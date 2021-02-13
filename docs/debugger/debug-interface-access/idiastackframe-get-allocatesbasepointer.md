@@ -1,4 +1,5 @@
 ---
+description: "Retrieves a flag that indicates whether the base pointer is allocated for code in this address range."
 title: "IDiaStackFrame::get_allocatesBasePointer | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

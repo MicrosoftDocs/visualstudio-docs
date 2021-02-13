@@ -1,4 +1,5 @@
 ---
+description: "Returns a frame by virtual address (VA)."
 title: "IDiaEnumFrameData::frameByVA | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

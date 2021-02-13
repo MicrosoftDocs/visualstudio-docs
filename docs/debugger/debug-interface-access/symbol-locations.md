@@ -1,4 +1,5 @@
 ---
+description: "Most symbols have a defined location within the image file."
 title: "Symbol Locations | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

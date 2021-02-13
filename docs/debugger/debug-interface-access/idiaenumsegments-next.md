@@ -1,4 +1,5 @@
 ---
+description: "Retrieves a specified number of segments in the enumeration sequence."
 title: "IDiaEnumSegments::Next | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

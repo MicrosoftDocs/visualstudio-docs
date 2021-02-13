@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the next symbols in order by address."
 title: "IDiaEnumSymbolsByAddr::Next | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

@@ -1,4 +1,5 @@
 ---
+description: "Called when a debug directory was found in the .exe file."
 title: "IDiaLoadCallback::NotifyDebugDir | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

@@ -1,4 +1,5 @@
 ---
+description: "Exposes the details of a stack frame."
 title: "IDiaFrameData | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

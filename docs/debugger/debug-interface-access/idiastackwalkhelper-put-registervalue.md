@@ -1,4 +1,5 @@
 ---
+description: "Sets the value of a register."
 title: "IDiaStackWalkHelper::put_registerValue | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

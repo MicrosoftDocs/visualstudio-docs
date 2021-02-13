@@ -1,4 +1,5 @@
 ---
+description: "This function retrieves a flag that indicates whether no stack ordering could be done as part of stack buffer checking ([/GS (Buffer Security Check)](/cpp/build/reference/gs-buffer-security-check) compiler option)."
 title: "IDiaSymbol::get_noStackOrdering | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

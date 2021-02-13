@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the type of the target CPU."
 title: "IDiaSymbol::get_machineType | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

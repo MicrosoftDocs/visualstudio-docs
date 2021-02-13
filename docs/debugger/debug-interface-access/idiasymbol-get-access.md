@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the access modifier of a class member."
 title: "IDiaSymbol::get_access | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

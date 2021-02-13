@@ -1,4 +1,5 @@
 ---
+description: "Determines if access is allowed to a symbol server to resolve symbols."
 title: "IDiaLoadCallback::RestrictSymbolServerAccess | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"
