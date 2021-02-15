@@ -9,7 +9,7 @@ ms.author: cabuschl
 ms.date: 02/15/2021
 ---
 
-# Purchasing, renewing, canceling, or billing
+# Purchasing, renewing, canceling, or billing for Visual Studio subscriptions
 
 [!INCLUDE [How do I purchase Visual Studio subscriptions?](includes/how-to-purchase.md)] 
 
