@@ -11,8 +11,8 @@ ms.faqid: q3_2
 
 ## How do I use my benefits?
 
-Just as the types of benefits vary, so do the methods for activating and using them. For example, many of our benefits are provided by partners and the processes for setting up accounts, installing software, and using online resources vary widely.
+The types of benefits vary.  So do the methods for activating and using them. For example, many of our benefits are provided by partners.  The processes for setting up accounts, installing software, and using online resources vary widely.
 
-For each benefit available in the Subscriber Portal, we've provided articles that include information such as which subscriptions include them, as well as steps to activate the benefits.
+For each benefit available in the Subscriber Portal, we've provided articles that include information such as which subscriptions include them, and steps to activate the benefits.
 
 Check out our documentation to [learn more](https://docs.microsoft.com/visualstudio/subscriptions/whats-new-in-subscriptions) (click on 'Subscriptions' in the left nav pane, and choose 'Benefits').
