@@ -1,5 +1,5 @@
 ---
-title: Purchasing, renewing, canceling, and billing 
+title: Purchasing, renewing, cancelling, and billing 
 description: FAQs list for purchasing, renewing, cancelling, or billing
 ms.faqid: Section4
 ms.topic: conceptual
@@ -9,7 +9,7 @@ ms.author: cabuschl
 ms.date: 02/15/2021
 ---
 
-# Purchasing, renewing, canceling, or billing for Visual Studio subscriptions
+# Purchasing, renewing, cancelling, or billing for Visual Studio subscriptions
 
 [!INCLUDE [How do I purchase Visual Studio subscriptions?](includes/how-to-purchase.md)] 
 
