@@ -55,6 +55,9 @@ View the following animation to check the work that you completed in the previou
 
    ![Animation of opening a project in a GitHub repo by using Visual Studio](./media/open-project-from-github.gif)
 
+> [!NOTE]
+> For information that's specific to Visual Studio 2019, see the [Open a project from a repo in Visual Studio 2019](tutorial-open-project-from-repo-visual-studio-2019.md) page.
+
 ## Open a project from an Azure DevOps repo by using Visual Studio 2017
 
 1. Open Visual Studio 2017.
