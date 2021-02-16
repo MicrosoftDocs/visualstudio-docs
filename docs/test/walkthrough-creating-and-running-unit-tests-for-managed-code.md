@@ -162,11 +162,14 @@ You now have a project with methods you can test. In this article, the tests foc
 
 ::: moniker range=">=vs-2019"
 
-2. Search for and select the C# **MSTest Test Project (.NET Core)** project template, and then click **Next**.
+2. Type **unit test** in the search box, select **C#** as the language, and then select the C# **Unit Test Project** for .NET Core template, and then click **Next**.
 
-3. Name the project **BankTests**.
+   > [!NOTE]
+   > Starting in Visual Studio 2019 version 16.9, the MSTest project template name changed from **MSTest Unit Test Project (.NET Core)** to **Unit Test Project**.
 
-4. Click **Create**.
+3. Name the project **BankTests** and click **Next**.
+
+4. Choose either the recommended target framework (.NET Core 3.1) or .NET 5, and then choose **Create**.
 
    The **BankTests** project is added to the **Bank** solution.
 
