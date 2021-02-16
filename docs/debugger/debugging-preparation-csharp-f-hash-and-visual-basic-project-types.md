@@ -35,7 +35,7 @@ The topics in this section describe how to debug the C#, F#, and [!INCLUDE[vbprv
  This section describes the recommended debugging-related property settings for C#, F#, and Visual Basic projects.
 
  [Windows Forms Applications](../debugger/debugging-preparation-windows-forms-applications.md)
- Describes a Windows Forms project and provides instructions for debugging, changing the default Debug configuration, and starting the application outside of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] and attaching to it.
+ Describes a Windows Forms App project and provides instructions for debugging, changing the default Debug configuration, and starting the application outside of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] and attaching to it.
 
  [Console Projects](../debugger/debugging-preparation-console-projects.md)
  Provides additional considerations for debugging C# or [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] console applications. This includes specifying command-line arguments, starting your application from the command prompt, writing to the Output window, and troubleshooting the Console window.
