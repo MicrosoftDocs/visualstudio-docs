@@ -1,7 +1,7 @@
 ---
 title: Use the Microsoft Unit Testing Framework for C++
 description: Use the Microsoft Unit Testing Framework for C++ to create unit tests for your C++ code.
-ms.date: 01/08/2020
+ms.date: 02/16/2021
 ms.topic: how-to
 ms.author: corob
 manager: markl
@@ -27,7 +27,7 @@ In some cases, for example when testing non-exported functions in a DLL, you mig
 
    1. In the Property Pages dialog, select **Configuration Properties** > **VC++ Directories**.
 
-   1. Click on the down arrow in the following rows and choose **\<Edit>**. Add these paths:
+   1. Select the down arrow in the following rows and choose **\<Edit>**. Add these paths:
 
       | Directory | Property |
       |-| - |
@@ -36,21 +36,23 @@ In some cases, for example when testing non-exported functions in a DLL, you mig
 
 1. Add a C++ Unit Test file:
 
-   - Right-click on the project node in **Solution Explorer** and choose **Add** > **New Item** > **C++ File (.cpp)**.
+   1. Right-click on the project node in **Solution Explorer** and choose **Add** > **New Item**.
+
+   1. In the **Add New Item** dialog, select  **C++ File (.cpp)**, give it an appropriate name, and then choose **Add**.
 
 ## <a name="object_files"></a> To link the tests to the object or library files
 
-If the code under test doesn't export the functions that you want to test, you can add the output **.obj** or **.lib** file to the dependencies of the test project. Modify the test project's properties to include the headers and library or object files that are required for unit testing.
+If the code under test doesn't export the functions that you want to test, you can add the output *.obj* or *.lib* file to the dependencies of the test project. Modify the test project's properties to include the headers and library or object files that are required for unit testing.
 
 1. In Solution Explorer, on the shortcut menu of the test project, choose **Properties**. The project properties window opens.
 
 1. Select the **Configuration Properties** > **Linker** > **Input** page, then select **Additional Dependencies**.
 
-   Choose **Edit**, and add the names of the **.obj** or **.lib** files. Don't use the full path names.
+   Choose **Edit**, and add the names of the *.obj* or *.lib* files. Don't use the full path names.
 
 1. Select the **Configuration Properties** > **Linker** > **General** page, then select **Additional Library Directories**.
 
-   Choose **Edit**, and add the directory path of the **.obj** or **.lib** files. The path is typically within the build folder of the project under test.
+   Choose **Edit**, and add the directory path of the *.obj* or *.lib* files. The path is typically within the build folder of the project under test.
 
 1. Select the **Configuration Properties** > **VC++ Directories** page, then select **Include Directories**.
 
@@ -102,7 +104,7 @@ TEST_METHOD(Method1)
 
 ### C++ trait attribute macros
 
-The following pre-defined traits are found in `CppUnitTest.h`. For more information, see [The Microsoft Unit Testing Framework for C++ API reference](microsoft-visualstudio-testtools-cppunittestframework-api-reference.md).
+The following pre-defined traits are found in *`CppUnitTest.h`*. For more information, see [The Microsoft Unit Testing Framework for C++ API reference](microsoft-visualstudio-testtools-cppunittestframework-api-reference.md).
 
 |Macro|Description|
 |-|-----------------|
