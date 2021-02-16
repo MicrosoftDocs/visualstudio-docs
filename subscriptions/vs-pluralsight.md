@@ -91,6 +91,9 @@ Not sure which subscription you're using?  Connect to [https://my.visualstudio.c
 ### Q: I have a Visual Studio Enterprise subscription, but I don't see the Pluralsight tile on the Benefits page. What's wrong?
 A: Not all Visual Studio Enterprise subscriptions include the Pluralsight benefit.  Check the [eligibility table](#eligibility) to see whether your subscription is eligible.
 
+### Q: Can I use the Pluralsight benefit more than once?  
+A:  The Pluralsight benefit in selected Visual Studio subscriptions renews when your subscription renews. For example, if you have an annual subscription that you renew each year, the benefit is available to you each year when you renew. If you have a multi-year subscription, the Pluralsight benefit is available to you once during the term of the subscription.  If you renew a multi-year subscription, the benefit will be available again following the renewal.  To find your renewal date, visit <https://my.visualstudio.com/subscriptions> and click *Support Information* and locate the "Valid through:" date. 
+
 ### Q: Do I have access to any customized learning  playlists or channels?
 A: Yes. As a Visual Studio subscriber you get access to featured roles, learning paths, and custom channels (playlists) as part of your Pluralsight training benefit. Featured content has been specially curated by Microsoft and Pluralsight, and is geared towards learning in key areas of interest. Activate your Pluralsight benefit through your Visual Studio subscription portal <https://my.visualstudio.com/benefits> to get access to this and other content on your Pluralsight home page.
 
