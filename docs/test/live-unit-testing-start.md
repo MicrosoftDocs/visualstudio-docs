@@ -107,6 +107,9 @@ The next step is to create the unit test project to test the StringLibrary libra
 
 4. Select **OK** to create the project.
 
+   > [!NOTE]
+   > This getting started tutorial uses Live Unit Testing with the MSTest test framework. You can also use the xUnit and NUnit test frameworks.
+
 ::: moniker-end
 
 ::: moniker range=">=vs-2019"
@@ -120,10 +123,10 @@ The next step is to create the unit test project to test the StringLibrary libra
 
 4. Choose either the recommended target framework (.NET Core 3.1) or .NET 5, and then choose **Create**.
 
-::: moniker-end
-
    > [!NOTE]
    > This getting started tutorial uses Live Unit Testing with the MSTest test framework. You can also use the xUnit and NUnit test frameworks.
+
+::: moniker-end
 
 5. The unit test project can't automatically access the class library that it is testing. You give the test library access by adding a reference to the class library project. To do this, right-click on the `StringLibraryTests` project and select **Add** > **Reference**. In the **Reference Manager** dialog, make sure the **Solution** tab is selected, and select the StringLibrary project, as shown in the following illustration.
 
