@@ -76,7 +76,7 @@ When you create an application in Visual Studio, you first create a project and 
 
 1. On the **Create a new project** screen, search for "WPF," choose **WPF Application**, and then choose **Next**.
 
-   :::image type="content" source="media/vs-2019/explore-ide-new-project-csharp-vs2019.png" alt-text="WPF application template in 'Create a new project' dialog":::
+   :::image type="content" source="media/vs-2019/explore-ide-new-project-csharp-vs-2019.png" alt-text="WPF application template in 'Create a new project' dialog":::
 
 1. At the next screen, give the project a name, **HelloWPFApp**, and choose **Next**.
 

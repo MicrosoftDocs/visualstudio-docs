@@ -70,7 +70,7 @@ First, you'll create a Visual Basic application project. The project type comes 
 
    After you apply the language, platform, and project type filters, choose the **Console Application** template, and then choose **Next**.
 
-   :::image type="content" source="../get-started/visual-basic/media/vs-2019/vb-create-new-project-console-net-core.png" alt-text="Choose the Visual Basic template for the Console Appplication":::
+   :::image type="content" source="../get-started/visual-basic/media/vs-2019/vb-create-new-project-console-net-core.png" alt-text="Choose the Visual Basic template for the Console Application":::
 
    > [!NOTE]
    > If you do not see the **Console Application** template, you can install it from the **Create a new project** window. In the **Not finding what you're looking for?** message, choose the **Install more tools and features** link.
