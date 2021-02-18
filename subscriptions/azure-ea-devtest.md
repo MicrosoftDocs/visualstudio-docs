@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: a335ed23-34ee-40cb-83c6-6c93dee57424
-ms.date: 10/26/2020
+ms.date: 02/18/2021
 ms.topic: how-to
 description:  Learn how to take advantage of special Azure DevTest pricing available to customers with Enterprise Agreements
 ---
@@ -35,6 +35,9 @@ Each subscriber on the account can create a subscription by following these step
 0. Choose the **Enterprise Dev/Test** offer.
 0. Click the check box to acknowledge that the subscription is governed by the Enterprise Agreement. 
 0. Click **Purchase**.  (With this offer, you're not actually purchasing anything.)
+
+## Resources
+- Need help?  Contact [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/).
 
 ## See also
 - [Visual Studio documentation](/visualstudio/)
