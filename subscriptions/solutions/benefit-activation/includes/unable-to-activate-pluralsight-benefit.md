@@ -5,7 +5,7 @@ ms.topic: include
 ms.assetid: 7e5d8886-538c-4e29-9c4c-8989cf4e09dd
 author: CaityBuschlen
 ms.author: cabuschl
-ms.date: 8/14/2020
+ms.date: 02/15/2021
 user.type: subscriber
 tags: benefit, pluralsight
 subscription.type: vl, cloud, retail, partner
@@ -25,5 +25,6 @@ this registration page expires after a few minutes. If you don't complete the re
 1. After you activate your Pluralsight benefit, the appearance of the tile in the Visual Studio subscriptions portal will change to help you track the status of your subscription. You may need to refresh the portal to see this. 
 
 ## More information about the Pluralsight benefit
+The Pluralsight benefit in selected Visual Studio subscriptions renews when your subscription renews. For example, if you have an annual subscription that you renew each year, the benefit is available to you each year when you renew. If you have a multi-year subscription, the Pluralsight benefit is available to you once during the term of the subscription.  If you renew a multi-year subscription, the benefit will be available again following the renewal.  To find your renewal date, visit <https://my.visualstudio.com/subscriptions> and click *Support Information* and locate the "Valid through:" date. 
 
 Read more [information on activation, eligibility, and FAQs about the Pluralsight benefit](https://docs.microsoft.com/visualstudio/subscriptions/vs-pluralsight).  
