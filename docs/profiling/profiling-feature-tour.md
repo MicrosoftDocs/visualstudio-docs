@@ -2,7 +2,7 @@
 title: "Get started with profiling tools"
 description: "Take a brief look at the different diagnostic tools available in Visual Studio."
 ms.custom: ""
-ms.date: 09/08/2020
+ms.date: 02/18/2021
 ms.topic: overview
 f1_keywords:
   - vs.diagnosticshub.overview
