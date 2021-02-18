@@ -413,3 +413,4 @@ In a .NET Core project, if you add a reference to a project that has NuGet analy
 - [Submit a code analyzer bug](https://github.com/dotnet/roslyn-analyzers/issues)
 - [Use rule sets](../code-quality/using-rule-sets-to-group-code-analysis-rules.md)
 - [Suppress code analysis warnings](../code-quality/in-source-suppression-overview.md)
+- [Configuration options for code analysis (.NET)](/dotnet/fundamentals/code-analysis/configuration-options)
