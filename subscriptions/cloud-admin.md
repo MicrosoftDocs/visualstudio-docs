@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: lank
 manager: lank
 ms.assetid: 8b30e2bc-2ac3-4fcc-b296-128731471032
-ms.date: 03/03/2020
+ms.date: 02/18/2021
 ms.topic: how-to
 description: Setting Up admins for monthly Subscriptions
 ---
@@ -52,6 +52,9 @@ The new admin can now sign in to the [Administration Portal](https://manage.visu
 > If you see users with access to edit your monthly subscriptions that you didn't establish as admins, they may have roles in the underlying Azure subscription that allow them to manage subscriptions. Those roles include: owner, contributor, service admin, or co-admin. For more information, visit [Add billing managers](/azure/devops/organizations/billing/add-backup-billing-managers).
 
 For information about Visual Studio monthly subscriptions, see the [Overview](vscloud-overview.md) under Buying  subscriptions. To purchase Visual Studio monthly subscriptions, visit the Visual Studio Marketplace at [https://marketplace.visualstudio.com/subscriptions](https://marketplace.visualstudio.com/subscription).
+
+## Resources
+- [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/)
 
 ## See also
 - [Visual Studio documentation](/visualstudio/)
