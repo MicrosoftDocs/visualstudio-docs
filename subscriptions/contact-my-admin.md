@@ -28,6 +28,7 @@ Given the size and complexity of many organizations, you may not be aware of who
 > **Super admins:**  To set the email address to which "Contact my Admin" requests are sent, specify that address in the [Agreement Preferences](admin-prefs.md#contact-email-address).
 
 ## Resources
+<<<<<<< HEAD
 - [Visual Studio subscriptions support](https://my.visualstudio.com/gethelp)
 
 ## See also
