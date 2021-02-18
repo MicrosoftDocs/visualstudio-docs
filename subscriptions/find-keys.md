@@ -54,7 +54,7 @@ In this example, we’ve used the search bar to locate a product key for Visual 
 As you can see, there are several versions listed.  One key each has already been claimed for Visual Studio Enterprise 2019 versions 16.0 and 16.1.  Additional keys of different types are still available for both versions. Notice that you can record a brief note about claimed keys in the **Notes** column.  You can use this  with the date in the **Claimed** column to keep track of the keys you’ve claimed.  You might, for example, make notes when you activate an installation of the product using the key.
 
 ### Exporting your claimed keys
-You can export a list of all the keys you have claimed.  This includes a large selection of static and other keys that are automatically marked as “claimed” for you.
+You can export a list of the keys you have claimed.  This includes a large selection of static and other keys that are automatically marked as “claimed” for you.
 
 > [!IMPORTANT]
 > If your subscription expires, you will no longer be able to claim new keys or export your claimed keys.
