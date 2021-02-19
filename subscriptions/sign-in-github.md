@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: 1bdcb3c9-bba1-4e25-a609-9d7e539d78e0
-ms.date: 12/02/2020
+ms.date: 02/19/2021
 ms.topic: conceptual
 description:  Learn how to sign in to your Visual Studio subscription(s) with your GitHub account. 
 ---
@@ -58,6 +58,9 @@ A:  Go to the [Security tab](https://account.microsoft.com/security) of account.
 
 #### Q:  I try to use my GitHub account to sign in, but I'm prompted that I already have a Microsoft identity that I should use instead.  What's happening?
 A:  If you have an Azure Active Directory email address on your GitHub account, this means you already have a Microsoft identity that can access Azure and run CI pipelines using your GitHub code. Using that account ensures that your Azure resources and build pipelines remain within your organizational boundaries. However, if you’re doing personal work, we recommend putting a personal email address on your GitHub account so that you'll always have access to it. Once you do this, try signing in again and choose **Use a different email address** when you're prompted to sign in to your work or school account. This will let you create a new Microsoft account using that personal email address.
+
+## Resources
+- For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, see Visual Studio [Subscriptions support](https://aka.ms/vssubscriberhelp).
 
 ## See also
 - [Visual Studio documentation](/visualstudio/)
