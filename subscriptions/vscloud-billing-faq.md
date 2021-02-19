@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: 21e0471d-ad59-4d21-9c6f-13f7147569af
-ms.date: 02/04/2021
+ms.date: 02/19/2021
 ms.topic: conceptual
 description:  Billing questions for cloud subscriptions.
 ---
@@ -112,8 +112,8 @@ A:  Yes, you can, if your reseller participates in the Cloud Solution Provider (
 
 ## Related resources
 - [Visual Studio Subscriptions Admin portal](https://manage.visualstudio.com/)
-- [Visual Studio subscription support](https://visualstudio.microsoft.com/vs/support/)
 - [Visual Studio cloud subscription purchasing for CSPs](vscloud-csp.md)
+- For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, see Visual Studio [Subscriptions support](https://aka.ms/vssubscriberhelp).
 
 ## See also
 - [Visual Studio documentation](/visualstudio/)
