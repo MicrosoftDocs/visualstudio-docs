@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: 7aaa4727-00ef-41dc-937d-8d46973aaf56
-ms.date: 10/28/2020
+ms.date: 02/19/2021
 ms.topic: conceptual
 description:  Learn how admins on Volume License agreements can access the Visual Studio subscriptions Admin Portal
 ---
@@ -21,7 +21,7 @@ Once you’re signed in, you will be automatically set up as a super admin and c
 This applies to all Volume Licensing agreement types including, but not limited to: Enterprise agreements, Enterprise subscriptions, Select, Select Plus, Open, Open License, Govt. and Academic agreements. 
 
 ## Resources
-- [Visual Studio Admin and Subscriptions Support](https://visualstudio.microsoft.com/support/support-overview-vs)
+- For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, see Visual Studio [Subscriptions support](https://aka.ms/vssubscriberhelp).
 
 ## See also
 - [Visual Studio documentation](/visualstudio/)
