@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: v-evwin
 manager: lank
 ms.assetid: c2878e28-eb5d-4adb-8d7d-a95ffea703a9
-ms.date: 03/11/2020
+ms.date: 02/19/2021
 ms.topic: how-to
 description:  Find a list of the software downloads included with your Visual Studio subscription.
 ---
@@ -24,6 +24,9 @@ To quickly find products, use the "Search" functions at the top of the page or s
 > If you're looking for your product keys, select the **Product Keys** tab at the top of the page.
 
 You can also download an Excel spreadsheet containing an extensive list of [available software titles](https://download.microsoft.com/download/1/5/4/15454442-CF17-47B9-A65D-DF84EF88511B/Visual_Studio_by_Subscription_Level.xlsx) for each subscription type.
+
+## Resources 
+- For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, see Visual Studio [Subscriptions support](https://aka.ms/vssubscriberhelp). 
 
 ## See also
 - [Visual Studio documentation](/visualstudio/)
