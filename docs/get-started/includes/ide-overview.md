@@ -231,13 +231,13 @@ Let's dive in and create a simple program.
 
 1. Choose **Create a new project**.
 
-   ![Visual Studio start window create a new project](../media/vs-2019/start-window-create-new-project.png)
+    :::image type="content" source="../media/vs-2019/start-window-create-new-project.png" alt-text="Screenshot of the 'Create a new project' window in Visual Studio 2019.":::
 
    The **Create a new project** window opens and shows several project *templates*. A template contains the basic files and settings needed for a given project type.
 
-1. To find the template we want, type or enter **.net core console** in the search box. The list of available templates is automatically filtered based on the keywords you entered. You can further filter the template results by choosing **C#** from the **Language** drop-down list. Select the **Console App (.NET Core)** template, and then choose **Next**.
+1. To find the template we want, type or enter **.net core console** in the search box. The list of available templates is automatically filtered based on the keywords you entered. You can further filter the template results by choosing **C#** from the **All language** drop-down list, **Windows** from the **All platforms** list, and **Console** from the **All project types** list . Select the **Console Application** template, and then choose **Next**.
 
-    ![Create a new project in Visual Studio](../media/vs-2019/create-new-project.png)
+    :::image type="content" source="../media/vs-2019/create-new-project.png" alt-text="Screenshot of the 'Create a new project' window in Visual Studio 2019, where you select the template that you want.":::
 
 1. In the **Configure your new project** window, enter **HelloWorld** in the **Project name** box, optionally change the directory location for your project files, and then choose **Create**.
 
