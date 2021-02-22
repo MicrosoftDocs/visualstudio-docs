@@ -5,7 +5,7 @@ ms.custom: SEO-VS-2020
 author: ghogen
 description: Learn how to create a containerized React SPA app with Visual Studio Container Tools and Docker 
 ms.author: ghogen
-ms.date: 05/14/2020
+ms.date: 02/21/2021
 ms.technology: vs-azure
 ms.topic: quickstart
 ---
@@ -50,10 +50,13 @@ For Docker installation, first review the information at [Docker Desktop for Win
 1. Select the container type, and click **OK**.
 ::: moniker-end
 ::: moniker range=">=vs-2019"
-1. Create a new project using the **ASP.NET Core Web Application** template.
-1. Select **React.js**, and click **Create**. You can't select **Enable Docker Support**, but don't worry, you can add that support later.
+1. Create a new project using the **ASP.NET Core with React.js** template.
 
-   ![Screenshot of new React.js project](media/container-tools-react/vs-2019/new-react-project.png)
+   ![Screenshot of creating a new React.js project](media/container-tools-react/vs-2019/create-react-project.png)
+
+1. On the **Additional information** screen, you can't select **Enable Docker Support**, but don't worry, you can add that support later.
+
+   ![Screenshot of creating a new React.js project - Additional information screen](media/container-tools-react/vs-2019/new-react-project-additional-information.png)
 
 1. Right-click on the project node, and choose **Add** > **Docker Support** to add a Dockerfile to your project.
 

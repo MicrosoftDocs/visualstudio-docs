@@ -28,7 +28,7 @@ In this tutorial, you'll learn how to manage more than one container and communi
 
 ## Create a Web Application project
 
-In Visual Studio, create an **ASP.NET Core Web Application** project, named `WebFrontEnd`. Select **Web Application** to create a web application with Razor pages. 
+In Visual Studio, create an **ASP.NET Core Web App** project, named `WebFrontEnd`, to create a web application with Razor pages.
   
 ::: moniker range="vs-2017"
 
@@ -40,11 +40,11 @@ Do not select **Enable Docker Support**. You'll add Docker support later.
 
 ::: moniker range="vs-2019"
 
-![Screenshot of the Configure your new project screen for an ASP.NET Core Web Application, the Project name and Solution name fields are set to "WebFrontEnd".](./media/tutorial-multicontainer/vs-2019/new-aspnet-core-project1.png)
+![Create ASP.NET Core Web App project](./media/tutorial-multicontainer/vs-2019/create-web-project1.png)
 
 Do not select **Enable Docker Support**. You'll add Docker support later.
 
-![Screenshot of the Create a new ASP.NET Core Web Application screen with Web Application selected. The option to Enable Docker Support is not selected.](./media/tutorial-multicontainer/vs-2019/new-aspnet-core-project.png)
+![Screenshot of the Additional information screen when creating a web project. The option to Enable Docker Support is not selected.](./media/tutorial-multicontainer/vs-2019/create-web-project-additional-information.png)
 
 ::: moniker-end
 
@@ -56,7 +56,7 @@ Add a project to the same solution and call it *MyWebAPI*. Select **API** as the
    ![Screenshot of creating the Web API project](./media/tutorial-multicontainer/docker-tutorial-mywebapi.png)
 ::: moniker-end
 ::: moniker range="vs-2019"
-   ![Screenshot of creating the Web API project](./media/tutorial-multicontainer/vs-2019/web-api-project.png)
+   ![Screenshot of creating the Web API project](./media/tutorial-multicontainer/vs-2019/create-web-api-project.png)
 ::: moniker-end
 
 ## Add code to call the Web API
