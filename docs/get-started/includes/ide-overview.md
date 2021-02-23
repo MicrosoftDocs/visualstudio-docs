@@ -243,9 +243,9 @@ Let's dive in and create a simple program.
 
 1. In the **Configure your new project** window, enter **HelloWorld** in the **Project name** box, optionally change the directory location for your project files (the default locale is `C:\Users\<name>\source\repos`), and then click **Next**.
 
-   ![Configure new project in Visual Studio](../media/vs-2019/configure-new-project.png)
+    :::image type="content" source="../media/vs-2019/configure-new-project.png" alt-text="Screenshot of the 'Configure your new project' window in Visual Studio 2019, where you enter the name of the project.":::
 
-1. In the **Additional information** window, verify that **.NET Core 3.1** appears in the **Target Framework** drop-down menu.
+1. In the **Additional information** window, verify that **.NET Core 3.1** appears in the **Target Framework** drop-down menu, and then click **Create**.
 
     :::image type="content" source="../media/vs-2019/create-project-additional-info.png" alt-text="Screenshot of the 'Additional information' window in Visual Studio 2019, where you select the version of the .NET Core Framework that you want.":::
 
