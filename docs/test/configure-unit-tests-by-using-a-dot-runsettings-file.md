@@ -76,6 +76,9 @@ There are three ways of specifying a run settings file in Visual Studio 2019 ver
 
 #### Autodetect the run settings file
 
+> [!NOTE]
+> This will only work for a file named `.runsettings`.
+
 To autodetect the run settings file, place it at the root of your solution.
 
 If auto detection of run settings files is enabled, the settings in this file are applied across all tests run. You can turn on auto detection of runsettings files using two methods:
