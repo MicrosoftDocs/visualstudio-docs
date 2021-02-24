@@ -26,9 +26,6 @@ If you’ve been using Team Explorer, here is a step-by-step guide that explains
 > [!NOTE]
 > The New Git Experience should automatically connect to the correct Azure DevOps repository based on the repository or solution you opened. If for some reason you need to manually connect to the repo, you can still do that by using Team Explorer. From the Visual Studio menu bar, select **View** > **Team Explorer** > **Manage Connections** > **Connect**.
 
-
-
-
 ## Git changes
 
 |Features  |Team Explorer  |The new Git experience |
