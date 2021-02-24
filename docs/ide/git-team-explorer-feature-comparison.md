@@ -17,9 +17,11 @@ If you’ve been using Team Explorer, here is a step-by-step guide that explains
 
 ## Get started
 
+:::image type="content" source="media/vs2019/clone-repo-team-explorer.png" alt-text="The 'clone a repo' procedure for Team Explorer in Visual Studio 2019.":::
+
 |Features  |Team Explorer  |The new Git experience |
 |---------|---------|---------|
-|Clone a repo     |  1. :::image type="content" source="media/vs2019/clone-repo-team-explorer.png" alt-text="The 'clone a repo' procedure for Team Explorer in Visual Studio 2019."::: <br>Open the **Connect** page. <br> 2. Expand **Manage Connections**. <br> 3. Select **Connect to Project**.      |  1. Open the **Git** menu. <br>2. Select **Clone Repository**.       |
+|Clone a repo     |   </p>1. Open the **Connect** page. <br> 2. Expand **Manage Connections**. <br> 3. Select **Connect to Project**.      |  1. Open the **Git** menu. <br>2. Select **Clone Repository**.       |
 |Switch between repos     |         |         |
 |Open a solution     |         |         |
 |Add a solution to source control <br>and create a new repository     |         |         |
