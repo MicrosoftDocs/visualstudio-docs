@@ -19,10 +19,13 @@ If you’ve been using Team Explorer, here is a step-by-step guide that explains
 
 |Features  |Team Explorer  |The new Git experience |
 |---------|---------|---------|
-|Row1     |         |         |
-|Row2     |         |         |
-|Row3     |         |         |
-|Row4     |         |         |
+|Clone a repo     |  1. :::image type="content" source="media/vs2019/clone-repo-team-explorer.png" alt-text="The 'clone a repo' procedure for Team Explorer in Visual Studio 2019."::: <br>Open the **Connect** page. <br> 2. Expand **Manage Connections**. <br> 3. Select **Connect to Project**.      |  1. Open the **Git** menu. <br>2. Select **Clone Repository**.       |
+|Switch between repos     |         |         |
+|Open a solution     |         |         |
+|Add a solution to source control <br>and create a new repository     |         |         |
+> [!NOTE]
+> The New Git Experience should automatically connect to the correct Azure DevOps repository based on the repository or solution you opened. If for some reason you need to manually connect to the repo, you can still do that by using Team Explorer. From the Visual Studio menu bar, select **View** > **Team Explorer** > **Manage Connections** > **Connect**.
+
 
 
 
