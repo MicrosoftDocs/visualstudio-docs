@@ -24,6 +24,13 @@ If you've already run the command to get started with the tutorial, congratulati
 docker run -d -p 80:80 docker/getting-started
 ```
 
+> [!TIP] Make sure you are using proxy settings in Docker if necessary
+> 
+> This can be done by navigating to docker settings
+> 
+> [![](https://mermaid.ink/img/eyJjb2RlIjoiZ3JhcGggVERcbiAgICBBW0RvY2tlciBEZXNrdG9wXSAtLT5CW1NldHRpbmdzXVxuICAgIEIgLS0-IENbUmVzb3VyY2VzXVxuICAgIEMgLS0-RFtQUk9YSUVTXVxuICAgIEQgLS0-RVtUb2dnbGUgJ01hbnVhbCBwcm94eSBjb25maWd1cmF0aW9uJyB0byBvbl0iLCJtZXJtYWlkIjp7InRoZW1lIjoiZGVmYXVsdCJ9LCJ1cGRhdGVFZGl0b3IiOmZhbHNlfQ)](https://mermaid-js.github.io/mermaid-live-editor/#/edit/eyJjb2RlIjoiZ3JhcGggVERcbiAgICBBW0RvY2tlciBEZXNrdG9wXSAtLT5CW1NldHRpbmdzXVxuICAgIEIgLS0-IENbUmVzb3VyY2VzXVxuICAgIEMgLS0-RFtQUk9YSUVTXVxuICAgIEQgLS0-RVtUb2dnbGUgJ01hbnVhbCBwcm94eSBjb25maWd1cmF0aW9uJyB0byBvbl0iLCJtZXJtYWlkIjp7InRoZW1lIjoiZGVmYXVsdCJ9LCJ1cGRhdGVFZGl0b3IiOmZhbHNlfQ)
+
+
 You'll notice a few flags being used. Here's some more info on them:
 
 - `-d` - run the container in detached mode (in the background)
