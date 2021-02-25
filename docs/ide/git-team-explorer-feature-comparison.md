@@ -11,16 +11,16 @@ monikerRange: vs-2019
 ---
 # Side-by-side comparison of Git and Team Explorer
 
-We launched the first version of a new Git experience in Visual Studio 2019 [version 16.8](/visualstudio/releases/2019/release-notes/). This new experience helps reduce context switching by providing a simple **Git Changes** window that includes common Git tasks. It also provides a screen-wide **Git Repository** window for more advanced Git operations, such as branch management and repository browsing.
+We launched the first version of a new Git experience in Visual Studio 2019 [version 16.8](/visualstudio/releases/2019/release-notes/). This new experience helps reduce context switching with a simple **Git Changes** window that includes common Git tasks. It also includes a screen-wide **Git Repository** window for more advanced Git operations, such as branch management and repository browsing.
 
-If you’ve been using Team Explorer, here is a step-by-step guide that explains how you can use the new Git experience instead.
+If you’ve been using Team Explorer, here is a step-by-step guide that explains how you can use the new Git experience.
 
 ## Get started
 
 |Features  |Team Explorer  |The new Git experience |
 |---------|---------|---------|
-|Clone a repo     | :::image type="content" source="media/vs-2019/clone-repo-team-explorer.png" alt-text="Screenshot of the 'clone a repo' window for Team Explorer in Visual Studio 2019, with a procedure overlay.":::  </p>1. Open the **Connect** page. <br> 2. Expand **Manage Connections**. <br> 3. Select **Connect to Project**.      | :::image type="content" source="media/vs-2019/clone-repo-new-git.png" alt-text="Screenshot of the 'clone a repo' window for Git in Visual Studio 2019, with a procedure overlay.":::  </p> 1. Open the **Git** menu. <br>2. Select **Clone Repository**. <br><br>      |
-|Switch between repos     |         |         |
+|Clone a repo     | :::image type="content" source="media/vs-2019/clone-repo-team-explorer.png" alt-text="Screenshot of the Connect window for Team Explorer in Visual Studio 2019, with a 'clone a repo' procedure overlay.":::  </p>1. Open the **Connect** page. <br> 2. Expand **Manage Connections**. <br> 3. Select **Connect to Project**.      | :::image type="content" source="media/vs-2019/clone-repo-new-git.png" alt-text="Screenshot of the Git menu in Visual Studio 2019, with a 'clone a repo' procedure overlay.":::  </p> 1. Open the **Git** menu. <br>2. Select **Clone Repository**. <br><br>      |
+|Switch between repos     | :::image type="content" source="media/vs-2019/switch-repos-team-explorer.png" alt-text="Screenshot of the Connect window for Team Explorer in Visual Studio 2019, with a 'switch between repos' procedure overlay."::: </p>1. Open the **Connect** page. <br>2. Select a repository from the **Local Repositories** list.       | </p>:::image type="content" source="media/vs-2019/switch-repos-new-git.png" alt-text="Screenshot of the Local Repositories menu item in Visual Studio 2019, with a 'clone a repo' procedure overlay.":::</p>1. Open the **Git** menu. <br>2. Select a repository from the **Local Repositories** list.  |
 |Open a solution     |         |         |
 |Add a solution to source control <br>and create a new repository     |         |         |
 > [!NOTE]
