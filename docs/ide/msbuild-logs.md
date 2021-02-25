@@ -94,41 +94,41 @@ If you are building in the Visual Studio IDE (with detailed output window verbos
 1>Project is not up-to-date: build input 'f:\test\project1\project1\project1.h' was modified after the last build finished.
 ```
 
-## Create a binary msbuild log
+## Create a binary MSBuild log at the command prompt
 
-### Using the command prompt
 1. Open the Developer Command Prompt for your version of Visual Studio
+
 1. From the command prompt, run one of the following commands. (Remember to use your actual project and configuration values.):
 
-    ```cmd
-    Msbuild /p:Configuration="MyConfiguration";Platform="x86" /bl MySolution.sln
-    ```
+   ```cmd
+   Msbuild /p:Configuration="MyConfiguration";Platform="x86" /bl MySolution.sln
+   ```
 
-    or
+   or
 
-    ```cmd
-    Msbuild /p:/p:SolutionDir="c:\MySolutionDir\";Configuration="MyConfiguration";Platform="Win32" /bl MyProject.vcxproj
-    ```
+   ```cmd
+   Msbuild /p:SolutionDir="c:\MySolutionDir\";Configuration="MyConfiguration";Platform="Win32" /bl MyProject.vcxproj
+   ```
 
-A Msbuild.binlog file will be created in the directory that you ran MSBuild from.
+An *msbuild.binlog* file gets created in the directory that you ran MSBuild from.
 
-### Using the VS extension
+## Create a binary MSBuild log by using the Project System Tools extension
+
 1. Download and install the [Project System Tools extension](https://marketplace.visualstudio.com/items?itemName=VisualStudioProductTeam.ProjectSystemTools).
-1. Once installed, some new items appear in the **View** > **Other Windows** menu.
+
+1. Once the extension is installed, some new items appear in the **View** > **Other Windows** menu.
 
    ![Other Windows menu](../ide/media/view-menu.png)
 
-1. Selecting **Build Logging** will show a new pane in Visual Studio
+1. Select **View** > **Other Windows** > **Build Logging** to show the **Build Logging** window in Visual Studio. Choose the first toolbar icon to start recording both regular and design-time builds in the project system.
 
    ![Build logging window](../ide/media/build-logging-click-to-record.png)
 
-1. Click the first toolbar icon to start recording both regular and design-time builds in the project system. Once a build is recorded, it will appear as shown. Right-clicking the build item produces a context menu
+1. Once a build is recorded, it appears in the Build Logging window. Right-click the item and select **Save Logs** on the context menu to save your *.binlog* file.
 
    ![Build logging context menu](../ide/media/build-logging-context-menu.png)
 
-1. Clicking **Save Logs** will prompt you to save a **.binlog** file
-
-You can view and search these binlog files by using the [Msbuild Structured Log Viewer](http://www.msbuildlog.com/).
+You can view and search your *.binlog* files by using the [MSBuild Structured Log Viewer](http://www.msbuildlog.com/).
 
 ## Create a detailed log
 
