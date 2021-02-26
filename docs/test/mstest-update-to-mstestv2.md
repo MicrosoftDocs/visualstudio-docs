@@ -65,7 +65,7 @@ In 2016 we released the next step in evolving the MSTest framework with MSTestV2
 6. Provides a uniform, single end-user extensibility mechanism. [Read more](https://blogs.msdn.microsoft.com/devops/2017/07/18/extending-mstest-v2/).
 7. Provides a uniform DataRow support, for all MSTest based test projects [Read more](https://blogs.msdn.microsoft.com/devops/2017/02/25/mstest-v2-now-and-ahead/).
 8. Provides the ability to place the TestCategory attribute at the level of a class or assembly [Read more](https://blogs.msdn.microsoft.com/devops/2017/02/25/mstest-v2-now-and-ahead/).
-9. Test methods from base classes defined in another assembly are now discovered and run from the derived Test class. This brings in a consistent behavior with derived test class types. If this behavior is not required for compat reasons it can be changed back using the following runsettings:
+9. Test methods from base classes defined in another assembly are now discovered and run from the derived Test class. This brings in a consistent behavior with derived test class types. If this behavior is not required for compat reasons it can be changed back using the following run settings:
 <RunSettings>    
  <MSTest> 
    <EnableBaseClassTestMethodsFromOtherAssemblies>false</EnableBaseClassTestMethodsFromOtherAssemblies> 
@@ -73,8 +73,8 @@ In 2016 we released the next step in evolving the MSTest framework with MSTestV2
 </RunSettings>
 
 10. The TestCleanup method on a TestClass is invoked even if its corresponding TestInitialize method fails. [Issue details](https://github.com/Microsoft/testfx/issues/250).
-11. The time taken by AssemblyInitialize and ClassInitialize are not considered as part of a tests duration thereby limiting their impact on a test timing out.
-12. Test which are not runnable can be configured to be marked as failed via MapNotRunnableToFailed tag which is part of the adapter node in the runsettings.
+11. The time taken by AssemblyInitialize and ClassInitialize is not considered as part of a tests duration thereby limiting their impact on a test timing out.
+12. Tests which are not runnable can be configured to be marked as failed via MapNotRunnableToFailed tag which is part of the adapter node in the `.runsettings` file.
 
 ```xml
 <RunSettings>    
@@ -87,13 +87,13 @@ In 2016 we released the next step in evolving the MSTest framework with MSTestV2
 ## MSTestV1 features that are not supported in MSTestV2
 
 1.	Tests cannot be included into an "Ordered Test".
-2.	The adapter does not support being configured via a .testsettings file. Use the new [runsettings file](../test/configure-unit-tests-by-using-a-dot-runsettings-file.md) for test run configuration.
+2.	The adapter does not support being configured via a `.testsettings` file. Use the new [`.runsettings` file](../test/configure-unit-tests-by-using-a-dot-runsettings-file.md) for test run configuration.
 3.	The adapter does not support test lists specified as a .vsmdi file.
 4.	The "Coded UI Test Project", and the "Web Performance and Load Test Project" types are not supported per the deprecation announcements.
 5.	Association with a testcase item in TFS is not supported.
 
 ## See also
 
-- [Configure test runs with runsettings](../test/configure-unit-tests-by-using-a-dot-runsettings-file.md)
+- [Configure test runs with `.runSettings`](../test/configure-unit-tests-by-using-a-dot-runsettings-file.md)
 - [Unit test your code](../test/unit-test-your-code.md)
 - [Debug unit tests with Test Explorer](../test/debug-unit-tests-with-test-explorer.md)
