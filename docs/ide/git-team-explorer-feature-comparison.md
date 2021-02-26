@@ -22,42 +22,40 @@ If you’ve been using Team Explorer, here is a step-by-step guide that explains
 |**Clone a repo**     | :::image type="content" source="media/vs-2019/clone-repo-team-explorer.png" alt-text="Screenshot of the Connect window for Team Explorer in Visual Studio 2019, with a 'clone a repo' procedure overlay.":::  </p>1. Open the **Connect** page. <br> 2. Expand **Manage Connections**. <br> 3. Select **Connect to Project**.      | :::image type="content" source="media/vs-2019/clone-repo-new-git.png" alt-text="Screenshot of the Git menu in Visual Studio 2019, with a 'clone a repo' procedure overlay.":::  </p> 1. Open the **Git** menu. <br>2. Select **Clone Repository**. <br><br>      |
 |**Switch between repos**     | :::image type="content" source="media/vs-2019/switch-repos-team-explorer.png" alt-text="Screenshot of the Connect window for Team Explorer in Visual Studio 2019, with a 'switch between repos' procedure overlay."::: </p>1. Open the **Connect** page. <br>2. Select a repository from the **Local Repositories** list.       | </p>:::image type="content" source="media/vs-2019/switch-repos-new-git.png" alt-text="Screenshot of the Local Repositories menu item in Visual Studio 2019, with a 'clone a repo' procedure overlay.":::</p>1. Open the **Git** menu. <br>2. Select a repository from the **Local Repositories** list.  |
 |**Open a solution**     |  :::image type="content" source="media/vs-2019/open-solution-team-explorer.png" alt-text="Screenshot of the Home window for Team Explorer in Visual Studio 2019, with an 'open a solution' procedure overlay.":::</p>1. Open the **Home** page in **Team Explorer**. <br>2. Select a solution from the solution list.       |  :::image type="content" source="media/vs-2019/open-solution-new-git.png" alt-text="Screenshot of Solution Explorer in Visual Studio 2019, with an 'open a solution' procedure overlay.":::</p>1. Open the **Switch Views** page in **Solution Explorer**. <br>2. Select a solution from the solution list.       |
-|**Add a solution to source control** <br>**and create a new repository**     |         |         |
-> [!NOTE]
-> The New Git Experience should automatically connect to the correct Azure DevOps repository based on the repository or solution you opened. If for some reason you need to manually connect to the repo, you can still do that by using Team Explorer. From the Visual Studio menu bar, select **View** > **Team Explorer** > **Manage Connections** > **Connect**.
+|**Add a solution to source control and create a new repository**     | :::image type="content" source="media/vs-2019/source-control-team-explorer.png" alt-text="Screenshot collage of Team Explorer options in Visual Studio 2019, with an 'add to source control - create repo' procedure overlay.":::</p>1. Select **Git** from the status bar **Add to Source Control** menu. <br>2. Select **Publish**.        | :::image type="content" source="media/vs-2019/source-control-new-git.png" alt-text="Screenshot collage of Git options in Visual Studio 2019, with an 'add to source control - create repo' procedure overlay.":::</p>1. Select **Git** from the status bar **Add to Source Control** menu, or select **Git** > **Create Git Repository** from the menu bar. <br>2. Select **Create and Push**. </p> **Note**: Use the existing remote option if you want to add your code to Azure DevOps. In this case, you must create an Azure DevOps repository first.        |
+> [!TIP]
+> The [new Git experience](git-with-visual-studio.md) should automatically connect to the correct Azure DevOps repo based on the repository or solution you opened. However, if you need to manually connect to the repo, you can still do that by using Team Explorer. From the Visual Studio menu bar, select **View** > **Team Explorer** > **Manage Connections** > **Connect**.
 
 ## Git changes
 
-|Features  |Team Explorer  |The new Git experience |
+|         |Team Explorer  |The new Git experience |
 |---------|---------|---------|
-|Row1     |         |         |
-|Row2     |         |         |
-|Row3     |         |         |
-|Row4     |         |         |
+|**Commit and stage** |         |         |
+|**Amend a commit**     |         |         |
+|**Stash a change**     |         |         |
 
 ## Synchronization
 
-|Features  |Team Explorer  |The new Git experience |
+|         |Team Explorer  |The new Git experience |
 |---------|---------|---------|
-|Row1     |         |         |
-|Row2     |         |         |
-|Row3     |         |         |
-|Row4     |         |         |
+|**Fetch, pull, and push changes** |         |         |
+|**View Incoming and Outgoing commits** |         |         |
 
 ## Branches
 
-|Features  |Team Explorer  |The new Git experience |
+|         |Team Explorer  |The new Git experience |
 |---------|---------|---------|
-|Row1     |         |         |
-|Row2     |         |         |
-|Row3     |         |         |
-|Row4     |         |         |
+|**Create a branch** |         |         |
+|**Get the latest changes from a remote branch** |         |         |
+|**Manage branches** |         |         |
 
 ## Conflict resolution
 
-|Features  |Team Explorer  |The new Git experience |
+|         |Team Explorer  |The new Git experience |
 |---------|---------|---------|
-|Row1     |         |         |
-|Row2     |         |         |
-|Row3     |         |         |
-|Row4     |         |         |
+|**Access list of files with conflicts** |         |         |
+
+## See also
+- [The new Git experience in Visual Studio](git-with-visual-studio.md)
+- [Open a project from a repo in Visual Studio](../get-started/tutorial-open-project-from-repo-visual-studio-2019)
+- [Work with GitHub accounts in Visual Studio](work-with-github-accounts.md)
