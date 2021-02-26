@@ -38,7 +38,7 @@ If you’ve been using Team Explorer, here is a step-by-step guide that explains
 
 |         |Team Explorer  |The new Git experience |
 |---------|---------|---------|
-|**Fetch, pull, and push changes** |         |         |
+|**Fetch, pull, and push changes** |  :::image type="content" source="media/vs-2019/fetch-pull-push-team-explorer.png" alt-text="Screenshot of the Synchronization window for Team Explorer in Visual Studio 2019, with a 'fetch, pull, and push' procedure overlay.":::</p>1. Navigate to the **Synchronization** page. <br>2. Click the network operation of your choice. | :::image type="content" source="media/vs-2019/fetch-pull-push-team-new-git.png" alt-text="Screenshot of the Git Changes window in Visual Studio 2019, with a 'fetch, pull, and push' procedure overlay."::: </p>1. Click the network operation of your choice by using the fetch, pull, and push buttons on the **Git Changes** window.|
 |**View Incoming and Outgoing commits** |         |         |
 
 ## Branches
