@@ -20,18 +20,22 @@ ms.workload:
 Upgrade your test project by retargeting the MSTest version referenced in your `.csproj` from the MSTestV1 to MSTestV2. Not all features in MSTestV1 were brought forward into MSTestV2, so some changes may be required to resolve errors. See [MSTestV1 features that are not supported in MSTestV2](#MSTestV1-features-that-are-not-supported-in-MSTestV2) to understand what features will no longer function and may need to be removed from your tests.
 
 1. Remove the assembly reference to Microsoft.VisualStudio.QualityTools.UnitTestFramework from your unit test project.
-2. Add nuget package references to the latest stable versions of MSTestV2 including the [MSTest.TestFramework](https://www.nuget.org/packages/MSTest.TestFramework) and the [MSTest.TestAdapter](https://www.nuget.org/packages/MSTest.TestAdapter/) packages on nuget.org.
+2. Add nuget package references to MSTestV2 including the [MSTest.TestFramework](https://www.nuget.org/packages/MSTest.TestFramework) and the [MSTest.TestAdapter](https://www.nuget.org/packages/MSTest.TestAdapter/) packages on nuget.org. You can do this in the NuGet Package Manager Console with the commands below:
+```console
+PM> Install-Package MSTest.TestAdapter -Version 2.1.2
+PM> Install-Package MSTest.TestFramework -Version 2.1.2
+```
 
 ### Old style csproj example
 
-Before targeting MSTestV1:
+Sample `.csproj` targeting MSTestV1:
 ```xml
 <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
   <Private>False</Private>
 </Reference>
 ```
 
-After targeting MSTestV2:
+Smaple `.csproj` now targeting MSTestV2:
 ```xml
 <Reference Include="Microsoft.VisualStudio.TestPlatform.TestFramework, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
   <HintPath>..\packages\MSTest.TestFramework.2.1.2\lib\net45\Microsoft.VisualStudio.TestPlatform.TestFramework.dll</HintPath>
