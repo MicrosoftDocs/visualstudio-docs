@@ -1,7 +1,7 @@
 ---
 title: Side-by-side comparison of Git and Team Explorer in Visual Studio
 titleSuffix: ""
-description: Learn how the new integrated Git experience in Visual Studio 2019 can help you be more productive.
+description: Compare how Team Explorer and the new integrated Git experience can help you manager source control and version control.
 ms.date: 03/02/2021
 ms.topic: how-to
 ms.author: tglee
