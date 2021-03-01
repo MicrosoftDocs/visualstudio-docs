@@ -77,7 +77,7 @@ In 2016 we released the next step in evolving the MSTest framework with MSTestV2
 </RunSettings>
 ```
 
-10. Provides finer-grained control over parallel execution via in-assembly parallel execution of tests. This enables running tests within an assembly in parallel.
+10. Provides finer-grained control over parallel execution via [in-assembly parallel execution](https://github.com/Microsoft/testfx-docs/blob/master/RFCs/004-In-Assembly-Parallel-Execution.md) of tests. This enables running tests within an assembly in parallel.
 11. The `TestCleanup` method on a `TestClass` is invoked even if its corresponding `TestInitialize` method fails. [Issue details](https://github.com/Microsoft/testfx/issues/250).
 12. The time taken by `AssemblyInitialize` and `ClassInitialize` is not considered part of the test duration, thereby limiting their impact on a test timing out.
 13. Tests that are not runnable can be configured to be marked as failed via the `MapNotRunnableToFailed` tag, which is part of the adapter node in the `.runsettings` file.
