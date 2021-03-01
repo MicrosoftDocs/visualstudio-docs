@@ -17,7 +17,10 @@ ms.workload:
 
 ## How to upgrade
 
-Upgrade your test project by retargeting the MSTest version referenced in you csproj from the MSTestV1 to MSTestV2. Not all features in MSTestV1 were brought forward into MSTestV2 so some changes may be required to resolve errors. See [MSTestV1 features that are not supported in MSTestV2](#MSTestV1-features-that-are-not-supported-in-MSTestV2) to understand what features will no longer resolve and may need to be removed from your tests.
+Upgrade your test project by retargeting the MSTest version referenced in your `.csproj` from the MSTestV1 to MSTestV2. Not all features in MSTestV1 were brought forward into MSTestV2, so some changes may be required to resolve errors. See [MSTestV1 features that are not supported in MSTestV2](#MSTestV1-features-that-are-not-supported-in-MSTestV2) to understand what features will no longer resolve and may need to be removed from your tests.
+
+1. Remove the assembly reference to Microsoft.VisualStudio.QualityTools.UnitTestFramework from your unit test project.
+2. Add nuget package references to the latest stable versions of MSTestV2 including the [MSTest.TestFramework](https://www.nuget.org/packages/MSTest.TestFramework) and the [MSTest.TestAdapter](https://www.nuget.org/packages/MSTest.TestAdapter/) packages on nuget.org.
 
 ### Old style csproj example
 
@@ -40,7 +43,7 @@ After targeting MSTestV2:
 
 ### SDK-style csproj (.NET Core and .NET 5)
 
-If your csproj is the newer sdk-style csproj you are most likely already using MSTestV2. The NuGet package for MSTestV2 can be found [here](https://www.nuget.org/packages/MSTest.TestFramework).
+If your csproj is the newer sdk-style csproj you are most likely already using MSTestV2. You can find the NuGet packages for [MSTestV2](https://www.nuget.org/packages/MSTest.TestFramework) and the [MSTestV2 Adapter](https://www.nuget.org/packages/MSTest.TestAdapter/) on NuGet.
 
 Example:
 ```xml
@@ -48,7 +51,6 @@ Example:
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.7.1" />
     <PackageReference Include="MSTest.TestAdapter" Version="2.1.1" />
     <PackageReference Include="MSTest.TestFramework" Version="2.1.1" />
-    <PackageReference Include="coverlet.collector" Version="1.3.0" />
   </ItemGroup>
 
 ```
@@ -61,20 +63,24 @@ In 2016 we released the next step in evolving the MSTest framework with MSTestV2
 2. MSTestV2 is [open source](https://github.com/microsoft/testfx).
 3. Uniform app-platform support – this is a converged implementation that offers uniform app-platform support across .NET Framework, .NET Core and ASP.NET Core, and UWP [Read more](https://blogs.msdn.microsoft.com/devops/2016/09/01/announcing-mstest-v2-framework-support-for-net-core-1-0-rtm/).
 4. The implementation is fully cross platform (Windows, Linux, Mac) [Read more](https://blogs.msdn.microsoft.com/devops/2017/04/05/mstest-v2-is-open-source/).
-5. MSTestV2 supports targeting .NET Framework 4.5.0 and later, .NET Core 1.0 and later (Universal Windows Apps 10+, DNX Core 5+), ASP.NET Core 1.0 and later, and .NET 5 and later.
+5. MSTestV2 supports targeting .NET Framework 4.5.0 and later, .NET Core 1.0 and later (Universal Windows Apps 10+), ASP.NET Core 1.0 and later, and .NET 5 and later.
 6. Provides a uniform, single end-user extensibility mechanism. [Read more](https://blogs.msdn.microsoft.com/devops/2017/07/18/extending-mstest-v2/).
-7. Provides a uniform DataRow support, for all MSTest based test projects [Read more](https://blogs.msdn.microsoft.com/devops/2017/02/25/mstest-v2-now-and-ahead/).
-8. Provides the ability to place the TestCategory attribute at the level of a class or assembly [Read more](https://blogs.msdn.microsoft.com/devops/2017/02/25/mstest-v2-now-and-ahead/).
-9. Test methods from base classes defined in another assembly are now discovered and run from the derived Test class. This brings in a consistent behavior with derived test class types. If this behavior is not required for compat reasons it can be changed back using the following run settings:
+7. Provides a uniform `DataRow` support for all MSTest based test projects [Read more](https://blogs.msdn.microsoft.com/devops/2017/02/25/mstest-v2-now-and-ahead/).
+8. Provides the ability to place the `TestCategory` attribute at the level of a class or assembly [Read more](https://blogs.msdn.microsoft.com/devops/2017/02/25/mstest-v2-now-and-ahead/).
+9. Test methods from base classes defined in another assembly are now discovered and run from the derived Test class. This brings in a consistent behavior with derived test class types. If this behavior is not required for compatibility reasons, it can be changed back using the following run settings:
+
+```xml
 <RunSettings>    
  <MSTest> 
    <EnableBaseClassTestMethodsFromOtherAssemblies>false</EnableBaseClassTestMethodsFromOtherAssemblies> 
  </MSTest> 
 </RunSettings>
+```
 
-10. The TestCleanup method on a TestClass is invoked even if its corresponding TestInitialize method fails. [Issue details](https://github.com/Microsoft/testfx/issues/250).
-11. The time taken by AssemblyInitialize and ClassInitialize is not considered as part of a tests duration thereby limiting their impact on a test timing out.
-12. Tests which are not runnable can be configured to be marked as failed via MapNotRunnableToFailed tag which is part of the adapter node in the `.runsettings` file.
+10. Provides finer-grained control over parallel execution via in-assembly parallel execution of tests. This enables running tests within an assembly in parallel.
+11. The `TestCleanup` method on a `TestClass` is invoked even if its corresponding `TestInitialize` method fails. [Issue details](https://github.com/Microsoft/testfx/issues/250).
+12. The time taken by `AssemblyInitialize` and `ClassInitialize` is not considered part of the test duration, thereby limiting their impact on a test timing out.
+13. Tests that are not runnable can be configured to be marked as failed via the `MapNotRunnableToFailed` tag, which is part of the adapter node in the `.runsettings` file.
 
 ```xml
 <RunSettings>    
@@ -88,9 +94,8 @@ In 2016 we released the next step in evolving the MSTest framework with MSTestV2
 
 1.	Tests cannot be included into an "Ordered Test".
 2.	The adapter does not support being configured via a `.testsettings` file. Use the new [`.runsettings` file](../test/configure-unit-tests-by-using-a-dot-runsettings-file.md) for test run configuration.
-3.	The adapter does not support test lists specified as a .vsmdi file.
+3.	The adapter does not support test lists specified as a `.vsmdi` file.
 4.	The "Coded UI Test Project", and the "Web Performance and Load Test Project" types are not supported per the deprecation announcements.
-5.	Association with a testcase item in TFS is not supported.
 
 ## See also
 
