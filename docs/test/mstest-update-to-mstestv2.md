@@ -17,7 +17,7 @@ ms.workload:
 
 ## How to upgrade
 
-Upgrade your test project by retargeting the MSTest version referenced in your `.csproj` from the MSTestV1 to MSTestV2. Not all features in MSTestV1 were brought forward into MSTestV2, so some changes may be required to resolve errors. See [MSTestV1 features that are not supported in MSTestV2](#MSTestV1-features-that-are-not-supported-in-MSTestV2) to understand what features will no longer resolve and may need to be removed from your tests.
+Upgrade your test project by retargeting the MSTest version referenced in your `.csproj` from the MSTestV1 to MSTestV2. Not all features in MSTestV1 were brought forward into MSTestV2, so some changes may be required to resolve errors. See [MSTestV1 features that are not supported in MSTestV2](#MSTestV1-features-that-are-not-supported-in-MSTestV2) to understand what features will no longer function and may need to be removed from your tests.
 
 1. Remove the assembly reference to Microsoft.VisualStudio.QualityTools.UnitTestFramework from your unit test project.
 2. Add nuget package references to the latest stable versions of MSTestV2 including the [MSTest.TestFramework](https://www.nuget.org/packages/MSTest.TestFramework) and the [MSTest.TestAdapter](https://www.nuget.org/packages/MSTest.TestAdapter/) packages on nuget.org.
@@ -58,14 +58,14 @@ Example:
 
 In 2016 we released the next step in evolving the MSTest framework with MSTestV2. You can read more about this change in the announcement [blog post](https://devblogs.microsoft.com/devops/taking-the-mstest-framework-forward-with-mstest-v2/).
 
-1. MSTestV2 is more easily acquired and updated because it is delivered as a [NuGet Package](https://www.nuget.org/packages/MSTest.TestFramework/)
+1. MSTestV2 is more easily acquired and updated because it is delivered as a [NuGet Package](https://www.nuget.org/packages/MSTest.TestFramework/).
 2. MSTestV2 is [open source](https://github.com/microsoft/testfx).
-3. Uniform app-platform support – this is a converged implementation that offers uniform app-platform support across .NET Framework, .NET Core and ASP.NET Core, and UWP [Read more](https://blogs.msdn.microsoft.com/devops/2016/09/01/announcing-mstest-v2-framework-support-for-net-core-1-0-rtm/).
-4. The implementation is fully cross platform (Windows, Linux, Mac) [Read more](https://blogs.msdn.microsoft.com/devops/2017/04/05/mstest-v2-is-open-source/).
+3. Uniform app-platform support – this is a converged implementation that offers uniform app-platform support across .NET Framework, .NET Core and ASP.NET Core, and UWP. [Read more](https://blogs.msdn.microsoft.com/devops/2016/09/01/announcing-mstest-v2-framework-support-for-net-core-1-0-rtm/).
+4. The implementation is fully cross platform (Windows, Linux, Mac). [Read more](https://blogs.msdn.microsoft.com/devops/2017/04/05/mstest-v2-is-open-source/).
 5. MSTestV2 supports targeting .NET Framework 4.5.0 and later, .NET Core 1.0 and later (Universal Windows Apps 10+), ASP.NET Core 1.0 and later, and .NET 5 and later.
 6. Provides a uniform, single end-user extensibility mechanism. [Read more](https://blogs.msdn.microsoft.com/devops/2017/07/18/extending-mstest-v2/).
-7. Provides a uniform `DataRow` support for all MSTest based test projects [Read more](https://blogs.msdn.microsoft.com/devops/2017/02/25/mstest-v2-now-and-ahead/).
-8. Provides the ability to place the `TestCategory` attribute at the level of a class or assembly [Read more](https://blogs.msdn.microsoft.com/devops/2017/02/25/mstest-v2-now-and-ahead/).
+7. Provides a uniform `DataRow` support for all MSTest based test projects. [Read more](https://blogs.msdn.microsoft.com/devops/2017/02/25/mstest-v2-now-and-ahead/).
+8. Provides the ability to place the `TestCategory` attribute at the level of a class or assembly. [Read more](https://blogs.msdn.microsoft.com/devops/2017/02/25/mstest-v2-now-and-ahead/).
 9. Test methods from base classes defined in another assembly are now discovered and run from the derived Test class. This brings in a consistent behavior with derived test class types. If this behavior is not required for compatibility reasons, it can be changed back using the following run settings:
 
 ```xml
@@ -98,6 +98,6 @@ In 2016 we released the next step in evolving the MSTest framework with MSTestV2
 
 ## See also
 
-- [Configure test runs with `.runSettings`](../test/configure-unit-tests-by-using-a-dot-runsettings-file.md)
+- [Configure test runs with `.runsettings`](../test/configure-unit-tests-by-using-a-dot-runsettings-file.md)
 - [Unit test your code](../test/unit-test-your-code.md)
 - [Debug unit tests with Test Explorer](../test/debug-unit-tests-with-test-explorer.md)
