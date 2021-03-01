@@ -46,6 +46,8 @@ Released March 2, 2021
 
   - Fixed stability issues with [`UNT0018`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0018.md) diagnostic.
   
+- **Debugging:**
+
   - Fixed VM disconnection issues when using `Trace` methods.
 
 - **Evaluation:**
