@@ -2,7 +2,7 @@
 title: "Inspect XAML properties while debugging | Microsoft Docs"
 description: Learn how to use the Live Visual Tree and Live Property Explorer tools while debugging to inspect XAML properties and get a tree view of UI elements.
 ms.custom: SEO-VS-2020
-ms.date: 11/12/2019
+ms.date: 03/02/2021
 ms.topic: how-to
 ms.assetid: 390edde4-7b8d-4c89-8d69-55106b7e6b11
 author: TerryGLee
@@ -29,7 +29,17 @@ Let's get started with a very simple WPF application that has a list view and a 
 
 ### Create the project
 
-1. Create a new C# WPF application (**File** > **New** > **Project**, then type "C# WPF", and choose either **WPF App (.NET Core)** or **WPF App (.NET Framework)**). Name it **TestXAML**.
+::: moniker range="vs-2019"
+
+1. Create a new C# WPF application (**File** > **New** > **Project**, type "C# WPF", choose the **WPF Application** project template, name the project **TestXAML**, and then verify that **.NET Core 3.1** appears in the **Target Framework** drop-down.
+
+::: moniker-end
+
+::: moniker range="vs-2017"
+
+1. Create a new C# WPF application (**File** > **New** > **Project**, then type "C# WPF", and choose **WPF App (.NET Framework)**). Name it **TestXAML**.
+
+::: moniker-end
 
 1. Change MainWindow.xaml to the following:
 
