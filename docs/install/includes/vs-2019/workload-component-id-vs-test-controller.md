@@ -1,5 +1,5 @@
 ---
-title: Visual Studio Test Controller 2017 workload and component IDs
+title: Visual Studio Test Controller 2019 workload and component IDs
 titleSuffix: ""
 description: "Use Visual Studio workload and component IDs to distribute automated tests to multiple machines"
 keywords:
@@ -24,7 +24,7 @@ ms.topic: include
 
 Component ID | Name | Version | Dependency type
 --- | --- | --- | ---
-Microsoft.VisualStudio.ComponentGroup.TestTools.TestController | Test Controller core features | 15.6.27309.0 | Required
+Microsoft.VisualStudio.ComponentGroup.TestTools.TestController | Test Controller core features | 16.0.28315.86 | Required
 
 ## Unaffiliated components
 
