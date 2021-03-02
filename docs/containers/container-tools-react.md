@@ -49,10 +49,12 @@ For Docker installation, first review the information at [Docker Desktop for Win
 
 1. Select the container type, and click **OK**.
 ::: moniker-end
+
 ::: moniker range=">=vs-2019"
+
 1. Create a new project using the **ASP.NET Core with React.js** template.
 
-   ![Screenshot of creating a new React.js project](media/container-tools-react/vs-2019/create-react-project.png)
+   ![Screenshot of creating a new React.js project](media/container-tools-react/vs-2019/create-reactjs-project.png)
 
 1. On the **Additional information** screen, you can't select **Enable Docker Support**, but don't worry, you can add that support later.
 
