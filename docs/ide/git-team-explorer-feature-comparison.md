@@ -2,7 +2,7 @@
 title: Side-by-side comparison of Git and Team Explorer in Visual Studio
 titleSuffix: ""
 description: Compare how Team Explorer and the new integrated Git experience can help you manager source control and version control.
-ms.date: 03/02/2021
+ms.date: 03/22/2021
 ms.topic: how-to
 ms.author: tglee
 author: TerryGLee
@@ -54,6 +54,10 @@ If you’ve been using Team Explorer, here is a step-by-step guide that explains
 |         |Team Explorer  |The new Git experience |
 |---------|---------|---------|
 |**Access list of files with conflicts** | :::image type="content" source="media/vs-2019/resolve-conflicts-team-explorer.png" alt-text="Screenshot collage of the Changes window and the Resolve Conflicts window for Team Explorer in Visual Studio 2019, with a procedure overlay.":::</p>1. Navigate to the **Resolve Conflicts** window by clicking the **Conflicts** link. <br> 2. Use the **Conflicts** list to resolve your merge conflicts. | :::image type="content" source="media/vs-2019/resolve-conflicts-new-git.png" alt-text="Screenshot of the Git Changes window in Visual Studio 2019, with a 'resolve conflicts' procedure overlay."::: </p>1. In the new experience, the list of files with merge conflicts appears in the **Unmerged Changes** section of the **Git Changes** window. <br>Resolve the conflicts. |
+
+## Next steps
+
+For more information about the new Git experience, see the latest video [Getting started with Git in Visual Studio](https://www.youtube.com/watch?v=GCZ9x3yqkyc) on YouTube.
 
 ## See also
 - [The new Git experience in Visual Studio](git-with-visual-studio.md)
