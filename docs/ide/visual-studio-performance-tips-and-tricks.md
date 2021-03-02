@@ -2,7 +2,7 @@
 title: Tips to improve performance
 description: Learn how to optimize certain Visual Studio features that you might not be using to help improve performance.
 ms.custom: SEO-VS-2020
-ms.date: 12/14/2020
+ms.date: 03/02/2021
 ms.topic: conceptual
 author: TerryGLee
 ms.author: tglee
@@ -136,6 +136,10 @@ For information about .NET Compiler Platform ("Roslyn") performance consideratio
 - **Remove workloads**
 
     You can use the Visual Studio Installer to remove workloads that are no longer used. This action can streamline the startup and runtime cost by skipping packages and assemblies that aren’t needed anymore.
+
+- **Add untracked files to local .gitignore**
+
+    Visual Studio runs the Git command `git status` with untracked files to provide a seamless experience when you add new files to a repository. When there are a large number of untracked files, `git status` can consume extra memory. To ignore these files and improve performance of `git status`, you can add these files or folders to your local .gitignore file. To access the file, go to **Git** > **Settings** > **Git Repository Settings**. Then, in the **Git files** section, click **Add** to create a .gitignore file, or click **Edit** if you already have one.
 
 ## Force a garbage collection
 
