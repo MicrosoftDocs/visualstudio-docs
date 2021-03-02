@@ -1,12 +1,12 @@
 ---
-title: Visual Studio Team Explorer 2019 workload and component IDs
+title: Visual Studio Team Explorer 2017 workload and component IDs
 titleSuffix: ""
 description: "Use Visual Studio workload and component IDs to provide integrated testing tools for generalist testers"
 keywords:
 author: ornellaalt
 ms.author: ornella
-manager: jmartens
-ms.date: 11/10/2020
+manager: jillfra
+ms.date: 3/2/2021
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
 ms.topic: include
@@ -14,7 +14,7 @@ ms.topic: include
 
 
 
-## Visual Studio core editor (included with Visual Studio Team Explorer 2019)
+## Visual Studio core editor (included with Visual Studio Team Explorer 2017)
 
 **ID:** Microsoft.VisualStudio.Workload.CoreEditor
 
@@ -24,8 +24,8 @@ ms.topic: include
 
 Component ID | Name | Version | Dependency type
 --- | --- | --- | ---
-Microsoft.VisualStudio.Component.CoreEditor | Visual Studio core editor | 16.1.28811.260 | Required
-Microsoft.VisualStudio.Component.StartPageExperiment.Cpp | Visual Studio Start Page for C++ Users | 16.0.28315.86 | Optional
+Microsoft.VisualStudio.Component.CoreEditor | Visual Studio core editor | 15.8.27729.1 | Required
+Microsoft.VisualStudio.Component.StartPageExperiment.Cpp | Visual Studio Start Page for C++ Users | 15.0.27128.1 | Optional
 
 ## Unaffiliated components
 
