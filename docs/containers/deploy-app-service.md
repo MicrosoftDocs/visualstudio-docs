@@ -59,7 +59,7 @@ The following steps guide you through creating a basic ASP.NET Core app that wil
 1. On the publish target dialog, choose **App Service Linux** or **App Service**. This is the operating system that will host the web server.
 1. You can publish only to App Service, or you can publish to both App Service and Azure Container Registry (ACR). To publish the container in an Azure Container Registry (ACR), choose **Create new App Service for containers**, and click **Publish**.
 
-   ![Screenshot of publish dialog](media/deploy-app-service/publish-app-service-linux.PNG)
+   ![Screenshot of publish dialog](media/deploy-app-service/publish-app-service-linux.png)
 
    To publish only to an Azure App Service without using Azure Container Registry, choose **Create new**, and click **Publish**.
 
