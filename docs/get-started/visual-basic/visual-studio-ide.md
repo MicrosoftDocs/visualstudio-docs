@@ -1,7 +1,7 @@
 ---
 title: Overview for Visual Basic developers
 description: Learn about using Visual Studio to to edit, debug, and build code, and then publish an app as a Visual Basic developer.
-ms.date: 11/15/2018
+ms.date: 03/02/2021
 ms.technology: vs-ide-general
 ms.custom: [get-started, SEO-VS-2020]
 ms.topic: conceptual
@@ -192,13 +192,13 @@ In this section, you'll create a simple project to try out some of the things yo
 
 ::: moniker range="vs-2017"
 
-To get started, [download Visual Studio](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download) and install it on your system. The modular installer enables you to choose and install *workloads*, which are groups of features needed for the programming language or platform you prefer. To follow the steps for [creating a program](#create-a-program), be sure to select the **.NET Core cross-platform development** workload during installation.
+To get started, [download Visual Studio](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download) and install it on your system. The modular installer enables you to select and install *workloads*, which are groups of features needed for the programming language or platform you prefer. To follow the steps for [creating a program](#create-a-program), be sure to select the **.NET Core cross-platform development** workload during installation.
 
 ::: moniker-end
 
 ::: moniker range=">=vs-2019"
 
-To get started, [download Visual Studio](https://visualstudio.microsoft.com/downloads) and install it on your system. The modular installer enables you to choose and install *workloads*, which are groups of features needed for the programming language or platform you prefer. To follow the steps for [creating a program](#create-a-program), be sure to select the **.NET Core cross-platform development** workload during installation.
+To get started, [download Visual Studio](https://visualstudio.microsoft.com/downloads) and install it on your system. The modular installer enables you to select and install *workloads*, which are groups of features needed for the programming language or platform you prefer. To follow the steps for [creating a program](#create-a-program), be sure to select the **.NET Core cross-platform development** workload during installation.
 
 ::: moniker-end
 
@@ -222,9 +222,10 @@ To change to the **Dark** theme:
 
 ::: moniker range=">=vs-2019"
 
-1. Open Visual Studio. On the start window, choose **Continue without code**.
+1. Open Visual Studio. On the start window, select **Continue without code**.
 
-   ![The start window in Visual Studio 2019](media/vs-2019/continue-without-code.png)
+
+    :::image type="content" source="media/vs-2019/continue-without-code.png" alt-text="Screenshot of the Start window in Visual Studio 2019, with the 'Continue without code' link highlighted.":::
 
    The IDE opens.
 
@@ -232,7 +233,7 @@ To change to the **Dark** theme:
 
 2. On the menu bar, choose **Tools** > **Options** to open the **Options** dialog.
 
-3. On the **Environment** > **General** options page, change the **Color theme** selection to **Dark**, and then choose **OK**.
+3. On the **Environment** > **General** options page, change the **Color theme** selection to **Dark**, and then click **OK**.
 
    ![Change color theme to dark in Visual Studio](media/change-color-theme.png)
 
@@ -256,13 +257,13 @@ Next we'll configure Visual Studio to use environment settings tailored to Visua
 
 1. On the menu bar, choose **Tools** > **Import and Export Settings**.
 
-2. In the **Import and Export Settings Wizard**, select **Reset all settings** on the first page, and then choose **Next**.
+2. In the **Import and Export Settings Wizard**, select **Reset all settings** on the first page, and then click **Next**.
 
-3. On the **Save Current Settings** page, select an option to save your current settings or not, and then choose **Next**. (If you haven't customized any settings, select **No, just reset settings, overwriting my current settings**.)
+3. On the **Save Current Settings** page, select an option to save your current settings or not, and then click **Next**. (If you haven't customized any settings, select **No, just reset settings, overwriting my current settings**.)
 
-4. On the **Choose a Default Collection of Settings** page, choose **Visual Basic**, and then choose **Finish**.
+4. On the **Choose a Default Collection of Settings** page, choose **Visual Basic**, and then click **Finish**.
 
-5. On the **Reset Complete** page, choose **Close**.
+5. On the **Reset Complete** page, click **Close**.
 
 To learn about other ways you can personalize the IDE, see [Personalize Visual Studio](../../ide/personalizing-the-visual-studio-ide.md).
 
@@ -336,21 +337,25 @@ Let's dive in and create a simple program.
 
 ::: moniker range=">=vs-2019"
 
-1. On the Visual Studio menu bar, choose **File** > **New Project**.
+1. On the Visual Studio menu bar, choose **File** > **New** > **Project**. (Alternatively, press **Ctrl**+**Shift**+**N**.)
 
-   ![File > New Project on menu bar](media/vs-2019/file-new-project.png)
+    :::image type="content" source="media/vs-2019/file-new-project.png" alt-text="Screenshot of the File > New > Project selection from the Visual Studio 2019 menu bar.":::
 
-   The **Create a new project** window opens and shows several project *templates*. A template contains the basic files and settings needed for a given project type.
+   The **Create a new project** window opens and shows several project *templates*. A template contains the basic files and settings required for a given project type.
 
-1. To find the template we want, type or enter **.net core console** in the search box. The list of available templates is automatically filtered based on the keywords you entered. You can further filter the template results by choosing **Visual Basic** from the **Language** drop-down list.
+1. To find the template we want, type or enter **.net core console** in the search box. The list of available templates is automatically filtered based on the keywords you entered. You can further filter the template results by choosing **Visual Basic** from the **All language** drop-down list, **Windows** from the **All platforms** list, and **Console** from the **All project types** list .
 
-1. Select the **Console App (.NET Core)** template, and then choose **Next**.
+   Select the **Console Application** template, and then click **Next**.
 
-   ![Create a new project in Visual Studio](media/vs-2019/create-new-project.png)
+    :::image type="content" source="media/vs-2019/create-new-project.png" alt-text="Screenshot of the 'Create a new project' window in Visual Studio 2019, where you select the template that you want.":::
 
-1. In the **Configure your new project** window, enter **HelloWorld** in the **Project name** box, optionally change the directory location for your project files, and then choose **Create**.
+1. In the **Configure your new project** window, enter **HelloWorld** in the **Project name** box, optionally change the directory location for your project files (the default locale is `C:\Users\<name>\source\repos`), and then click **Next**.
 
-   ![Configure new project in Visual Studio](media/vs-2019/configure-new-project.png)
+    :::image type="content" source="media/vs-2019/configure-new-project.png" alt-text="Screenshot of the 'Configure your new project' window in Visual Studio 2019, where you enter the name of the project.":::
+
+1. In the **Additional information** window, verify that **.NET Core 3.1** appears in the **Target Framework** drop-down menu, and then click **Create**.
+
+    :::image type="content" source="media/vs-2019/create-project-additional-info.png" alt-text="Screenshot of the 'Additional information' window in Visual Studio 2019, where you select the version of the .NET Core Framework that you want.":::
 
    Visual Studio creates the project. It's a simple "Hello World" application that calls the <xref:System.Console.WriteLine?displayProperty=nameWithType> method to display the literal string "Hello World!" in the console (program output) window.
 
