@@ -11,7 +11,7 @@ ms.date: 02/22/2021
 1. In the Visual Studio start window, select **Create a new project**.
 1. Select **ASP.NET Core Web App**, and then select **Next**.
 1. Enter a name for your new application (or use the default name), specify the location on disk, and then select **Next**.
-1. Choose the .NET version you want to target. If you don't know, choose the LTS (long-term stable) release.
+1. Choose the .NET version you want to target. If you don't know, choose the LTS (long-term support) release.
 
    ![Create a web project - Additional information screen](../../media/create-aspnet5-app/create-web-project3.png)
 
