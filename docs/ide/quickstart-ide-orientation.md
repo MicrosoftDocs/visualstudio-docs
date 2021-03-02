@@ -3,7 +3,7 @@ title: "Quickstart: Tour of the Visual Studio IDE"
 description: Learn about some of the windows, menus, and other UI features of the Visual Studio integrated development environment (IDE).
 ms.custom: SEO-VS-2020
 titleSuffix: ''
-ms.date: 02/21/2019
+ms.date: 03/02/2021
 ms.topic: quickstart
 author: TerryGLee
 ms.author: tglee
@@ -77,15 +77,25 @@ To continue exploring Visual Studio's features, let's create a new project.
 
 1. On the start window, choose **Create a new project**.
 
-   A dialog box opens that says **Create a new project**. Here, you can search, filter, and pick a project template. It also shows a list of your recently used project templates.
+    :::image type="content" source="../get-started/media/vs-2019/start-window-create-new-project.png" alt-text="Screenshot of the 'Create a new project' window in Visual Studio 2019.":::
 
-1. In the search box at the top, type in **console** to filter the list of project types to those that contain "console" in their name. Further refine the search results by picking **C#** (or another language of your choice) from the **Language** picker.
+   The **Create a new project** window opens and shows several project *templates*. A template contains the basic files and settings required for a given project type.
 
-   ![New project dialog in Visual Studio 2019](media/vs-2019/create-a-new-project.png)
+   Here, you can search, filter, and pick a project template. It also shows a list of your recently used project templates.
 
-1. If you selected C#, Visual Basic, or F# as your language, select the **Console App (.NET Core)** template, and then choose **Next**. (If you selected a different language, just pick any template. The UI we'll be looking at is similar for all programming languages.)
+1. In the search box at the top, type in **console** to filter the list of project types to those that contain "console" in their name. Further refine the search results by picking **C#** (or another language of your choice) from the **All language** drop-down list.
 
-1. On the **Configure your new project** page, accept the default project name and location, and then choose **Create**.
+    :::image type="content" source="media/vs-2019/create-new-project.png" alt-text="Screenshot of the 'Create a new project' window in Visual Studio 2019, where you select the template that you want.":::
+
+1. If you selected C#, Visual Basic, or F# as your language, select the **Console Application** template, and then choose **Next**. (If you selected a different language, just pick any template. The UI we'll be looking at is similar for all programming languages.)
+
+1. On the **Configure your new project** window, accept the default project name and location, and then choose **Next**.
+
+    :::image type="content" source="media/vs-2019/configure-new-project-console.png" alt-text="Screenshot of the 'Configure a new project' window in Visual Studio 2019, where you enter the name of the project.":::
+
+1. In the **Additional information** window, verify that **.NET Core 3.1** appears in the **Target Framework** drop-down menu, and then click **Create**.
+
+    :::image type="content" source="../get-started/media/vs-2019/create-project-additional-info.png" alt-text="Screenshot of the 'Additional information' window in Visual Studio 2019, where you select the version of the .NET Core Framework that you want.":::
 
 ::: moniker-end
 

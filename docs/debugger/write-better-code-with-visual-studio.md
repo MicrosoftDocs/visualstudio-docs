@@ -34,22 +34,26 @@ The following code has some bugs that you can fix using the Visual Studio IDE. T
 
 To create the app:
 
-1. You must have Visual Studio installed and either the **.NET Core cross platform development** or the **.NET desktop development** workload installed, depending on which app type you want to create.
+1. You must have Visual Studio installed and the **.NET Core cross platform development** workload installed.
 
     If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/) page to install it for free.
 
-    If you need to install the workload but already have Visual Studio, click **Tools** > **Get Tools and Features**. The Visual Studio Installer launches. Choose the **.NET Core cross platform development** or **.NET desktop development** workload, then choose **Modify**.
+    If you need to install the workload but already have Visual Studio, click **Tools** > **Get Tools and Features**. The Visual Studio Installer launches. Choose the **.NET Core cross platform development** workload, then choose **Modify**.
 
 1. Open Visual Studio.
 
     ::: moniker range=">=vs-2019"
-    On the start window, choose **Create a new project**. Type **console** in the search box and then choose either **Console App (.NET Core)** or **Console App (.NET Framework)**. Choose **Next**. Type a project name like **Console_Parse_JSON** and click **Create**.
+    On the start window, choose **Create a new project**. Type **console** in the search box and then choose either **Console App** for .NET Core. Choose **Next**. Type a project name like **Console_Parse_JSON** and click **Next** or **Create**, whichever option is available.
+
+    For .NET Core, choose either the recommended target framework (.NET Core 3.1) or .NET 5, and then choose **Create**.
+
+    If you don't see the **Console App** for .NET Core project template, go to **Tools** > **Get Tools and Features**, which opens the Visual Studio Installer. Choose the **.NET Core cross platform development** workload, then choose **Modify**.
     ::: moniker-end
     ::: moniker range="vs-2017"
-    From the top menu bar, choose **File** > **New** > **Project**. In the left pane of the **New project** dialog box, under **Visual C#**, choose **Console App**, and then in the middle pane choose either **Console App (.NET Core)** or **Console App (.NET Framework)**. Type a name like **Console_Parse_JSON** and click **OK**.
-    ::: moniker-end
+    From the top menu bar, choose **File** > **New** > **Project**. In the left pane of the **New project** dialog box, under **Visual C#**, choose **Console App**, and then in the middle pane choose **Console App (.NET Core)**. Type a name like **Console_Parse_JSON** and click **OK**.
 
-    If you don't see the **Console App (.NET Core)** or **Console App (.NET Framework)** project template, go to **Tools** > **Get Tools and Features**, which opens the Visual Studio Installer. Choose either the **.NET Core cross platform development** or the **.NET desktop development** workload, then choose **Modify**.
+    If you don't see the **Console App (.NET Core)** project template, go to **Tools** > **Get Tools and Features**, which opens the Visual Studio Installer. Choose the **.NET Core cross platform development** workload, then choose **Modify**.
+    ::: moniker-end
 
     Visual Studio creates the console project, which appears in Solution Explorer in the right pane.
 
