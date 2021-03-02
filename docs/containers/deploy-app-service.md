@@ -45,7 +45,7 @@ The following steps guide you through creating a basic ASP.NET Core app that wil
 1. From the Visual Studio start window, choose **Create a new project**.
 1. Choose **ASP.NET Core Web App**, and choose **Next**.
 1. Give your new application a name (or take the default) and choose **Next**.
-1. Choose the .NET version you want to target. If you're not sure, choose the long-term stable (LTS) version.
+1. Choose the .NET version you want to target. If you're not sure, choose the long-term support (LTS) version.
 1. Choose whether or not you want SSL support by using the **Configure for HTTPS** checkbox.
 1. Check the **Enable Docker Support** checkbox.
 1. Select the container type, and click **Create**.
