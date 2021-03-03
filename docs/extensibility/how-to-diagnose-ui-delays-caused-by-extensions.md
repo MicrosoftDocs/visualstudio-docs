@@ -4,8 +4,8 @@ description: Visual Studio notifies you if UI delays could be caused by an exten
 ms.custom: SEO-VS-2020
 ms.date: "01/26/2018"
 ms.topic: "conceptual"
-author: "PooyaZv"
-ms.author: "pozandev"
+author: j-martens
+ms.author: jmartens
 manager: jmartens
 ms.workload: "multiple"
 ---
