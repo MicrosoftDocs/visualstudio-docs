@@ -56,7 +56,7 @@ Add a project to the same solution and call it *MyWebAPI*. Select **API** as the
    ![Screenshot of creating the Web API project](./media/tutorial-multicontainer/docker-tutorial-mywebapi.png)
 ::: moniker-end
 ::: moniker range="vs-2019"
-   ![Screenshot of creating the Web API project](./media/tutorial-multicontainer/vs-2019/create-web-api-project.png)
+   ![Screenshot of creating the Web API project](./media/tutorial-multicontainer/vs-2019/create-webapi-project.png)
 ::: moniker-end
 
 ## Add code to call the Web API
