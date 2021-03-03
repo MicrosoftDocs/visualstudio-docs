@@ -2,7 +2,7 @@
 title: Side-by-side comparison of Git and Team Explorer in Visual Studio
 titleSuffix: ""
 description: Compare how Team Explorer and the new integrated Git experience can help you manager source control and version control.
-ms.date: 03/22/2021
+ms.date: 03/08/2021
 ms.topic: how-to
 ms.author: tglee
 author: TerryGLee
@@ -57,7 +57,7 @@ If you’ve been using Team Explorer, here is a step-by-step guide that explains
 
 ## Next steps
 
-For more information about the new Git experience, see the latest video [Getting started with Git in Visual Studio](https://www.youtube.com/watch?v=GCZ9x3yqkyc) on YouTube.
+For more information about the new Git experience, see the latest video, [Getting started with Git in Visual Studio](https://www.youtube.com/watch?v=GCZ9x3yqkyc), on YouTube.
 
 ## See also
 - [The new Git experience in Visual Studio](git-with-visual-studio.md)
