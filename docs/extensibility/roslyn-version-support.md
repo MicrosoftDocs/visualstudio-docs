@@ -20,7 +20,16 @@ As an example, to ensure that your custom analyzer works on all versions of Visu
 
 | Roslyn package version | Minimum supported Visual Studio version |
 | - | - |
-| 3.x | Visual Studio 2019 |
+| 3.9.0 | Visual Studio 2019 16.9 |
+| 3.8.0 | Visual Studio 2019 16.8 |
+| 3.7.0 | Visual Studio 2019 16.7 |
+| 3.6.0 | Visual Studio 2019 16.6 |
+| 3.5.0 | Visual Studio 2019 16.5 |
+| 3.4.0 | Visual Studio 2019 16.4 |
+| 3.3.1 | Visual Studio 2019 16.3 |
+| 3.2.1 | Visual Studio 2019 16.2 |
+| 3.1.0 | Visual Studio 2019 16.1 |
+| 3.0.0 | Visual Studio 2019 RTM |
 | 2.10.0 | Visual Studio 2017 version 15.9 |
 | 2.9.0 | Visual Studio 2017 version 15.8 |
 | 2.8.2 | Visual Studio 2017 version 15.7 |
