@@ -1,5 +1,5 @@
 ---
-title: Setting up admins for monthly subscriptions | Microsoft Docs
+title: Setting up admins for monthly Visual Studio subscriptions | Microsoft Docs
 author: evanwindom
 ms.author: lank
 manager: lank
@@ -26,7 +26,7 @@ As the owner of the Azure subscription used to purchase the monthly subscription
 
 To add admins:
 
-1. Connect to the Azure Portal at [portal.azure.com](https://portal.azure.com).
+1. Connect to the Azure portal at [portal.azure.com](https://portal.azure.com).
 2. Sign in with the account you used to purchase the Visual Studio monthly subscriptions.
 3. Under **Azure services**, choose **Cost Management + Billing**.
    > [!div class="mx-imgBorder"]
