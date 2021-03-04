@@ -1,4 +1,5 @@
 ---
+description: "Retrieves type information about the specified array given its debug address."
 title: IDebugComPlusSymbolProvider::GetArrayTypeFromAddress | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

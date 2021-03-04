@@ -1,4 +1,5 @@
 ---
+description: "To debug mixed native and managed code in a 64-bit process, you must have .NET Framework version 4."
 title: "Mixed-mode debugging for x64 processes is supported only when using Microsoft .NET Framework 4 or greater | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "error-reference"

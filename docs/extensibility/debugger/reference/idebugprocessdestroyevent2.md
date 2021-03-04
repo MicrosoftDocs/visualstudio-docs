@@ -1,4 +1,5 @@
 ---
+description: "This interface is sent when a process is terminated, exits atypically, or is detached from."
 title: IDebugProcessDestroyEvent2 | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

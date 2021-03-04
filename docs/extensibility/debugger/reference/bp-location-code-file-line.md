@@ -1,4 +1,5 @@
 ---
+description: "Contains the data for the location of a breakpoint at a specific line in a code source file."
 title: BP_LOCATION_CODE_FILE_LINE | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

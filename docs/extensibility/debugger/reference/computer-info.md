@@ -1,4 +1,5 @@
 ---
+description: "Describes the computer on which the debugger is running."
 title: COMPUTER_INFO | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

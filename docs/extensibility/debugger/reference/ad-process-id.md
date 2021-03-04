@@ -1,4 +1,5 @@
 ---
+description: "Specifies the process ID, which may be either a system ID or a GUID."
 title: AD_PROCESS_ID | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

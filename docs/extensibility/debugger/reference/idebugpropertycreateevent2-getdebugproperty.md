@@ -1,4 +1,5 @@
 ---
+description: "Gets the new property."
 title: IDebugPropertyCreateEvent2::GetDebugProperty | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

@@ -1,4 +1,5 @@
 ---
+description: "Specifies how to interpret a process ID in the AD_PROCESS_ID structure."
 title: AD_PROCESS_ID_TYPE | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

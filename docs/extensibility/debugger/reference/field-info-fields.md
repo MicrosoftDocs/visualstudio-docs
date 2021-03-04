@@ -1,4 +1,5 @@
 ---
+description: "Specifies what information to retrieve about an IDebugField object."
 title: FIELD_INFO_FIELDS | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

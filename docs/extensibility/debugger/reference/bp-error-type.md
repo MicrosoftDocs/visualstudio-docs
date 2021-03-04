@@ -1,4 +1,5 @@
 ---
+description: "Specifies the error type of a breakpoint."
 title: BP_ERROR_TYPE | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

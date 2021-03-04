@@ -1,4 +1,5 @@
 ---
+description: "Gets the count of elements in the array."
 title: IDebugArrayObject::GetCount | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

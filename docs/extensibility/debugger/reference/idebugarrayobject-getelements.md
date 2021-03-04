@@ -1,4 +1,5 @@
 ---
+description: "Gets an enumerator of all elements of the array."
 title: IDebugArrayObject::GetElements | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

@@ -1,4 +1,5 @@
 ---
+description: "Specifies the scope of the disassembly stream."
 title: DISASSEMBLY_STREAM_SCOPE | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

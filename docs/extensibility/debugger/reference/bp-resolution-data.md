@@ -1,4 +1,5 @@
 ---
+description: "Describes the result of binding a data breakpoint."
 title: BP_RESOLUTION_DATA | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

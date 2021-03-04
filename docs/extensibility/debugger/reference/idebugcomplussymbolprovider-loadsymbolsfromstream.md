@@ -1,4 +1,5 @@
 ---
+description: "Loads debug symbols given the data stream."
 title: IDebugComPlusSymbolProvider::LoadSymbolsFromStream | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

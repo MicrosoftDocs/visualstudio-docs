@@ -1,4 +1,5 @@
 ---
+description: "Represents an expression evaluator (EE) with an enhanced parser tree."
 title: IDebugExpressionEvaluator3 | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

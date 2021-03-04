@@ -1,4 +1,5 @@
 ---
+description: "Specifies modifiers for a field type."
 title: FIELD_MODIFIERS | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

@@ -1,4 +1,5 @@
 ---
+description: "Specifies what information to retrieve about a memory context."
 title: CONTEXT_INFO_FIELDS | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

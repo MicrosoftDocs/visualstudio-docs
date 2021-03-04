@@ -1,4 +1,5 @@
 ---
+description: "This interface lets the session debug manager (SDM) control the programs and processes running on a port."
 title: IDebugPortEx2 | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

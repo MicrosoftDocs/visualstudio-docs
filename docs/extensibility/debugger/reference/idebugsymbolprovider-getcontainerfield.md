@@ -1,4 +1,5 @@
 ---
+description: "This method gets the field that contains the debug address."
 title: IDebugSymbolProvider::GetContainerField | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

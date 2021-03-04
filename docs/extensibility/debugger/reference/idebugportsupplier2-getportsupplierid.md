@@ -1,4 +1,5 @@
 ---
+description: "Gets the port supplier identifier."
 title: IDebugPortSupplier2::GetPortSupplierId | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

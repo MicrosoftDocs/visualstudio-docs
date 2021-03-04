@@ -1,4 +1,5 @@
 ---
+description: "Gets the original expression."
 title: IDebugExpressionEvaluationCompleteEvent2::GetExpression
 titleSuffix: ""
 ms.custom: SEO-VS-2020

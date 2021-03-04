@@ -1,4 +1,5 @@
 ---
+description: "Continues running this process from a stopped state."
 title: IDebugProcess3::Continue | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

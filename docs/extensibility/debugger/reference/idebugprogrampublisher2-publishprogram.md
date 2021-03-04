@@ -1,4 +1,5 @@
 ---
+description: "This method makes a program available for debug engines (DEs) and the session debug manager."
 title: IDebugProgramPublisher2::PublishProgram | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

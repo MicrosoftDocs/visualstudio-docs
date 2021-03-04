@@ -1,4 +1,5 @@
 ---
+description: "Gets the size, in bytes, of the value of the reference."
 title: IDebugReference2::GetSize | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

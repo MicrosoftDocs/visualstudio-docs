@@ -1,4 +1,5 @@
 ---
+description: "Retrieves information about the modules in the symbol group."
 title: IDebugSymbolProviderDirect::GetCurrentModulesInfo | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

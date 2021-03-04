@@ -1,4 +1,5 @@
 ---
+description: "Represents a checksum for a debug document and enables passing the checksum between components."
 title: IDebugDocumentChecksum2 | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

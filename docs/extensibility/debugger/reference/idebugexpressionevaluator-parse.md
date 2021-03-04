@@ -1,4 +1,5 @@
 ---
+description: "This method converts an expression string to a parsed expression."
 title: IDebugExpressionEvaluator::Parse | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

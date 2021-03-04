@@ -1,4 +1,5 @@
 ---
+description: "Sets the current instruction pointer to the given code context."
 title: IDebugThread2::SetNextStatement | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

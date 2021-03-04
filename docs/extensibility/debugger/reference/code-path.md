@@ -1,4 +1,5 @@
 ---
+description: "Describes a method or function call."
 title: CODE_PATH | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

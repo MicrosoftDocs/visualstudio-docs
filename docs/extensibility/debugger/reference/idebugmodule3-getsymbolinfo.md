@@ -1,4 +1,5 @@
 ---
+description: "Retrieves a list of paths that are searched for symbols as well as the results of searching each path."
 title: IDebugModule3::GetSymbolInfo | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

@@ -1,4 +1,5 @@
 ---
+description: "Describes various attributes for an IDebugProperty2 or an IDebugReference2 interface."
 title: DBG_ATTRIB_FLAGS | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

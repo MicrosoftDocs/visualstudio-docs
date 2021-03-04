@@ -1,4 +1,5 @@
 ---
+description: "Toggles the virtualized state of this pending breakpoint."
 title: IDebugPendingBreakpoint2::Virtualize | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

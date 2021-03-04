@@ -1,4 +1,5 @@
 ---
+description: "Notifies the debug package that text has been removed from the document."
 title: IDebugDocumentTextEvents2::onRemoveText | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

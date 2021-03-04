@@ -1,4 +1,5 @@
 ---
+description: "This interface represents the expression evaluator."
 title: IDebugExpressionEvaluator | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

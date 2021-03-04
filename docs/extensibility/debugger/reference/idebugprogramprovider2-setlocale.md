@@ -1,4 +1,5 @@
 ---
+description: "Establishes a locale to be used for any locale-specific resources."
 title: IDebugProgramProvider2::SetLocale | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

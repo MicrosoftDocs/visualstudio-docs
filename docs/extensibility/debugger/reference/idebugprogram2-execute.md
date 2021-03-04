@@ -1,4 +1,5 @@
 ---
+description: "Continues running this program from a stopped state."
 title: IDebugProgram2::Execute | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

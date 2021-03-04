@@ -1,4 +1,5 @@
 ---
+description: "Adds the specified value to the current context and returns a new context."
 title: IDebugMemoryContext2::Add | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

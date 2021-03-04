@@ -1,4 +1,5 @@
 ---
+description: "The Debugging Services ran out of memory and caused the termination of the debugging session."
 title: "Debugger Services Running Out of Memory | Microsoft Docs"
 ms.date: "07/10/2019"
 ms.topic: "troubleshooting"

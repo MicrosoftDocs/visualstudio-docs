@@ -1,4 +1,5 @@
 ---
+description: "Retrieves a description of the machine the core server is running on."
 title: IDebugCoreServer2::GetMachineInfo | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

@@ -1,4 +1,5 @@
 ---
+description: "This error occurs when the IIS Admin Service does not respond."
 title: "A Security Check Failed Because the IIS Admin Service Did Not Respond | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "error-reference"

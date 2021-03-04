@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the size, in bytes, of the memory represented by this IDebugMemoryBytes2 object."
 title: IDebugMemoryBytes2::GetSize | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

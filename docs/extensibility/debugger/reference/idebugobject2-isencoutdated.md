@@ -1,4 +1,5 @@
 ---
+description: "This method determines whether the Edit and Continue status of this object or of the parent container is out of date."
 title: IDebugObject2::IsEncOutdated | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

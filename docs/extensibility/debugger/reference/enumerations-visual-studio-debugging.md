@@ -1,4 +1,5 @@
 ---
+description: "Following are enumerations for the Visual Studio Debugging SDK."
 title: Enumerations (Visual Studio Debugging) | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

@@ -1,4 +1,5 @@
 ---
+description: "Gets the name of the program."
 title: IDebugProgram2::GetName | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

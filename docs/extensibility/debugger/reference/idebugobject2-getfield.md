@@ -1,4 +1,5 @@
 ---
+description: "Gets the type of this object."
 title: IDebugObject2::GetField | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

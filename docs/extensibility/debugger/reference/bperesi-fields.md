@@ -1,4 +1,5 @@
 ---
+description: "Specifies the information to be retrieved about a failed resolution of a breakpoint."
 title: BPERESI_FIELDS | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference
