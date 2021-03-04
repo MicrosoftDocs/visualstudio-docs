@@ -105,7 +105,7 @@ Installing Visual Studio for Mac allows you to start writing code for your apps.
 
 Build native cross-platform applications with Xamarin.Forms:
 
-1. [Xamarin.Forms Quickstarts](https://docs.microsoft.com/en-us/xamarin/get-started/quickstarts/)
+1. [Xamarin.Forms Quickstarts](https://docs.microsoft.com/xamarin/get-started/quickstarts/)
 
 ### .NET Core apps, ASP.NET Core web apps, Unity game development
 
