@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: f271d623-dcde-442a-865c-4dca5ad8a9c5
-ms.date: 02/02/2021
+ms.date: 03/03/2021
 ms.topic: conceptual
 description: Managing subscriptions in the Visual Studio subscriptions with GitHub Enterprise
 ---
