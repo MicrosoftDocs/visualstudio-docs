@@ -1,5 +1,5 @@
 ---
-description: "Resets an enumeration sequence to the beginning."
+description: "Resets an enumeration sequence of line numbers to the beginning."
 title: "IDiaEnumLineNumbers::Reset | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"
