@@ -1,4 +1,5 @@
 ---
+description: "Retrieves a flag that specifies whether the user-defined data type is a virtual base class."
 title: "IDiaSymbol::get_virtualBaseClass | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

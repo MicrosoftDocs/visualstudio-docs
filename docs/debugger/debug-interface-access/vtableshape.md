@@ -1,4 +1,5 @@
 ---
+description: "The VTable) symbol has a class child symbol identified by the SymTagVTableShape tag."
 title: "VTableShape | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

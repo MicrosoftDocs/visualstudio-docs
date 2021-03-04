@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the System.Runtime.InteropServices.ComTypes.IEnumVARIANT version of the tables enumerator."
 title: "IDiaEnumTables::get__NewEnum | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

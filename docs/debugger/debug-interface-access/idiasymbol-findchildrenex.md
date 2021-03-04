@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the children of the symbol. The local symbols that are returned include live range information, if the program is compiled with optimization on."
 title: "IDiaSymbol::findChildrenEx | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

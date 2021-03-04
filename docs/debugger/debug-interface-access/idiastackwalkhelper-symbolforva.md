@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the symbol that contains the specified virtual address."
 title: "IDiaStackWalkHelper::symbolForVA | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

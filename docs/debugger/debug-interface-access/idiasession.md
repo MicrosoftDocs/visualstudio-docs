@@ -1,4 +1,5 @@
 ---
+description: "Provides a query context for debug symbols."
 title: "IDiaSession | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

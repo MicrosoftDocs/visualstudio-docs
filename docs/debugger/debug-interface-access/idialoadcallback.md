@@ -1,4 +1,5 @@
 ---
+description: "Receives callbacks from the DIA symbol locating procedure, thus enabling a user interface to report on the progress of the location attempt."
 title: "IDiaLoadCallback | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

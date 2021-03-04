@@ -1,4 +1,5 @@
 ---
+description: "Retrieves a source file by source file identifier."
 title: "IDiaSession::findFileById | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

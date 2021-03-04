@@ -1,4 +1,5 @@
 ---
+description: "Retrieves a flag indicating whether the module contains managed code."
 title: "IDiaSymbol::get_hasManagedCode | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

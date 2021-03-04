@@ -1,4 +1,5 @@
 ---
+description: "Maps data from the section number to segments of address space."
 title: "IDiaSegment | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

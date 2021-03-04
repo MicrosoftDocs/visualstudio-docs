@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the location type of a data symbol."
 title: "IDiaSymbol::get_locationType | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

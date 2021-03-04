@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the previous symbols in order by address."
 title: "IDiaEnumSymbolsByAddr::Prev | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

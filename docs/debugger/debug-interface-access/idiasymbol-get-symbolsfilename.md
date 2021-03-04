@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the name of the file from which the symbols were loaded."
 title: "IDiaSymbol::get_symbolsFileName | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

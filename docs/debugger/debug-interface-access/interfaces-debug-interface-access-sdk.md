@@ -1,4 +1,5 @@
 ---
+description: "Methods are listed alphabetically under each interface in the table of contents and on the interface page in Vtable order."
 title: "Interfaces (Debug Interface Access SDK) | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

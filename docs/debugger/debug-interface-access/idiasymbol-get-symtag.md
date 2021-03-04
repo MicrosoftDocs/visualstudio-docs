@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the symbol type classifier."
 title: "IDiaSymbol::get_symTag | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"
