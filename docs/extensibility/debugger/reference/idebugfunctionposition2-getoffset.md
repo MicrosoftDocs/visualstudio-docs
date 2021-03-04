@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the position of the function in the source document."
 title: IDebugFunctionPosition2::GetOffset | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

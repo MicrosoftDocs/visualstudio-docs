@@ -1,4 +1,5 @@
 ---
+description: "Gets the port identifier."
 title: IDebugPort2::GetPortId | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

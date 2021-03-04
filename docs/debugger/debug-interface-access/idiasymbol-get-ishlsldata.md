@@ -1,4 +1,5 @@
 ---
+description: "Specifies whether this symbol represents High Level Shader Language (HLSL) data."
 title: "IDiaSymbol::get_isHLSLData | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

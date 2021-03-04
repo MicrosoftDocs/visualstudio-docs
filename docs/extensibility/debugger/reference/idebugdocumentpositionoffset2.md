@@ -1,4 +1,5 @@
 ---
+description: "Represents a position in a source file as a character offset."
 title: IDebugDocumentPositionOffset2 | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

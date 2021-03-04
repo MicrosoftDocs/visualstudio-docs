@@ -1,4 +1,5 @@
 ---
+description: "Specifies the kind of field contained in an IDebugField object."
 title: FIELD_KIND | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

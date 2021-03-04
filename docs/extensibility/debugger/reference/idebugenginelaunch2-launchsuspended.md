@@ -1,4 +1,5 @@
 ---
+description: "This method launches a process by means of the debug engine (DE)."
 title: IDebugEngineLaunch2::LaunchSuspended | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

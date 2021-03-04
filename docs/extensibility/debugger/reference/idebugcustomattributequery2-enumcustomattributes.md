@@ -1,4 +1,5 @@
 ---
+description: "Gets an enumerator for all custom attributes attached to this field."
 title: IDebugCustomAttributeQuery2::EnumCustomAttributes | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

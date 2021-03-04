@@ -1,4 +1,5 @@
 ---
+description: "Retrieves a unique source file identifier for the source file that contributed this line."
 title: "IDiaLineNumber::get_sourceFileId | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

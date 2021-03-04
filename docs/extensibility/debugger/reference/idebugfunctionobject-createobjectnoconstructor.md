@@ -1,4 +1,5 @@
 ---
+description: "Creates an object with no constructor."
 title: IDebugFunctionObject::CreateObjectNoConstructor | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

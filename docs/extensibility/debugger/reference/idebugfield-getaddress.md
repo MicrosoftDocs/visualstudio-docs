@@ -1,4 +1,5 @@
 ---
+description: "This method gets the debug address of a field."
 title: IDebugField::GetAddress | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

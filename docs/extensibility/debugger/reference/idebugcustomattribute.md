@@ -1,4 +1,5 @@
 ---
+description: "This interface represents a custom attribute, and it can provide the name, parent, and class type of the attribute."
 title: IDebugCustomAttribute | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

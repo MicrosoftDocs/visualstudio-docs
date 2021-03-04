@@ -1,4 +1,5 @@
 ---
+description: "Starting in Visual Studio 2019 version 16.8, you can use the Publish tool to publish .NET Core 3.1, or newer, Windows Desktop applications using ClickOnce from Visual Studio."
 title: Deploy a .NET Windows Desktop application using ClickOnce
 ms.date: 10/15/2020
 ms.topic: quickstart

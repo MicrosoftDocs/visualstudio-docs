@@ -1,4 +1,5 @@
 ---
+description: "Represents a symbol provider that has direct access to metadata and core symbol interfaces."
 title: IDebugSymbolProviderDirect | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

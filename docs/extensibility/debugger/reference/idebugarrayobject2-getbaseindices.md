@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the base indices (lower bounds) for each index given the number of dimensions in the array."
 title: IDebugArrayObject2::GetBaseIndices | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

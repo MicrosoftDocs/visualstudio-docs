@@ -1,4 +1,5 @@
 ---
+description: "Returns information that allows construction of a human-readable error message."
 title: IDebugErrorEvent2::GetErrorMessage | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

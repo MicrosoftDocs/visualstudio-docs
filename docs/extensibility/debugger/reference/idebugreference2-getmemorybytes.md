@@ -1,4 +1,5 @@
 ---
+description: "Gets the memory bytes that physically contain the value of a reference."
 title: IDebugReference2::GetMemoryBytes | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the source code bytes."
 title: "IDiaInjectedSource::get_source | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

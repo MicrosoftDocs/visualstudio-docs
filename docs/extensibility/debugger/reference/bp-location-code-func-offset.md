@@ -1,4 +1,5 @@
 ---
+description: "Describes the offset location of a breakpoint in a function in code."
 title: BP_LOCATION_CODE_FUNC_OFFSET | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

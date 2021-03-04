@@ -1,4 +1,5 @@
 ---
+description: "This method gets extended information about a field."
 title: IDebugField::GetExtendedInfo | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

@@ -1,4 +1,5 @@
 ---
+description: "Indicates whether the symbol corresponds to a top-level function symbol for a shader compiled for an accelerator that corresponds to a parallel_for_each call."
 title: "IDiaSymbol::get_isAcceleratorStubFunction | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

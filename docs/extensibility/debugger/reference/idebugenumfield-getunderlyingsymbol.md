@@ -1,4 +1,5 @@
 ---
+description: "This method returns an IDebugField that represents the name of the enumeration."
 title: IDebugEnumField::GetUnderlyingSymbol | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

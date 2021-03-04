@@ -1,4 +1,5 @@
 ---
+description: "Enumerates the various debug streams contained in the data source."
 title: "IDiaEnumDebugStreams | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

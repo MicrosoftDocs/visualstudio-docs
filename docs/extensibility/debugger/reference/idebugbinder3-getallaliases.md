@@ -1,4 +1,5 @@
 ---
+description: "This method retrieves a list of aliases from the program."
 title: IDebugBinder3::GetAllAliases | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

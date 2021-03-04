@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the data bytes of an OEM symbol."
 title: "IDiaSymbol::get_dataBytes | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

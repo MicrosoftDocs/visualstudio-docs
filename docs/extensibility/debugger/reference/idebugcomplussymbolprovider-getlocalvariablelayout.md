@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the layout of local variables for a set of methods."
 title: IDebugComPlusSymbolProvider::GetLocalVariablelayout | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

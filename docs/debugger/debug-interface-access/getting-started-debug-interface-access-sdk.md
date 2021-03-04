@@ -1,4 +1,5 @@
 ---
+description: "The Debug Interface Access (DIA) SDK supplies you with instructional documentation and a sample that illustrates how to use the DIA API."
 title: "Getting Started (Debug Interface Access SDK) | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

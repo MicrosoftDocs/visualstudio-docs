@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the stride of the matrix or strided array."
 title: "IDiaSymbol::get_stride | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

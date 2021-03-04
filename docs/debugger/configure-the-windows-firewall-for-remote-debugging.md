@@ -44,6 +44,16 @@ Visual Studio and the remote debugger try to open the correct ports during insta
 
    The new rule should appear and be selected in the **Inbound Rules** or **Outbound Rules** list.
 
+**To open a port using PowerShell:**
+
+For Windows Firewall, you can use PowerShell commands such as [New-NetFirewallRule](/powershell/module/netsecurity/new-netfirewallrule?view=win10-ps).
+
+The following example opens port 4024 for the remote debugger on the remote computer. The path you need to use may be different.
+
+```ps
+New-NetFirewallRule -DisplayName "msvsmon" -Direction Inbound -Program "Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\Remote Debugger\x86\msvsmon.exe" -LocalPort 4024 -Protocol TCP -Authentication Required -Action Allow
+```
+
 ### Ports on the remote computer that enable remote debugging
 
 For remote debugging, the following ports must be open on the remote computer:

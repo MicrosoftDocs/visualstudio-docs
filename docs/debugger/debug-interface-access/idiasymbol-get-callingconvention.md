@@ -1,4 +1,5 @@
 ---
+description: "Returns an indicator of a methods calling convention."
 title: "IDiaSymbol::get_callingConvention | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

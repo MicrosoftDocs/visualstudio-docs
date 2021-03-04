@@ -1,4 +1,5 @@
 ---
+description: "Retrieves a flag that specifies whether the symbol refers to a code address."
 title: "IDiaSymbol::get_code | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

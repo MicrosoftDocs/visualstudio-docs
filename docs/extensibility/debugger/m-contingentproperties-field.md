@@ -1,4 +1,5 @@
 ---
+description: "Stores additional properties of the System.Threading.Tasks.Task object."
 title: m_contingentProperties Field | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: conceptual

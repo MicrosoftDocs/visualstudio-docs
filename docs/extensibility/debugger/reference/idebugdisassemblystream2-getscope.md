@@ -1,4 +1,5 @@
 ---
+description: "Gets the scope of the disassembly stream."
 title: IDebugDisassemblyStream2::GetScope | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

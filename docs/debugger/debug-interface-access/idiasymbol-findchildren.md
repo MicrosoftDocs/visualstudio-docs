@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the children of the symbol."
 title: "IDiaSymbol::findChildren | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

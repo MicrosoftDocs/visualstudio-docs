@@ -1,4 +1,5 @@
 ---
+description: "Retrieves a reference to the symbol for the compiland that contributed the bytes of image text."
 title: "IDiaLineNumber::get_compiland | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

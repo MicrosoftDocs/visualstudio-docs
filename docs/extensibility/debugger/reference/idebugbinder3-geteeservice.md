@@ -1,4 +1,5 @@
 ---
+description: "This method returns a requested service."
 title: IDebugBinder3::GetEEService | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

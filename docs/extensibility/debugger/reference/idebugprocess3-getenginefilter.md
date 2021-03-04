@@ -1,4 +1,5 @@
 ---
+description: "Retrieves an array of unique identifiers for available debug engines."
 title: IDebugProcess3::GetEngineFilter | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the cyclic redundancy check (CRC) of the data in the section."
 title: "IDiaSectionContrib::get_dataCrc | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

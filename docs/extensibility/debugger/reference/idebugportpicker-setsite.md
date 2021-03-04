@@ -1,4 +1,5 @@
 ---
+description: "Sets the service provider."
 title: IDebugPortPicker::SetSite | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

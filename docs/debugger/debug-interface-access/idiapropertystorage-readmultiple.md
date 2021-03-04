@@ -1,4 +1,5 @@
 ---
+description: "Reads specified properties from the current property set."
 title: "IDiaPropertyStorage::ReadMultiple | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

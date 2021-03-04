@@ -1,4 +1,5 @@
 ---
+description: "Attaches the session debug manager (SDM) to the process."
 title: IDebugProcess2::Attach | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

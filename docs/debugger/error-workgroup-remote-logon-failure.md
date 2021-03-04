@@ -1,5 +1,6 @@
 ---
 title: "Workgroup Remote Logon Failure | Microsoft Docs"
+description: "This error can occur when you are debugging from a machine on a workgroup and you try to connect to remote machine."
 ms.date: "11/04/2016"
 ms.topic: "error-reference"
 f1_keywords:

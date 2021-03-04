@@ -1,4 +1,5 @@
 ---
+description: "Gets the size of the object in bytes."
 title: IDebugObject::GetSize | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

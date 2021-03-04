@@ -1,4 +1,5 @@
 ---
+description: "Gets a description of the process."
 title: IDebugProcess2::GetInfo | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

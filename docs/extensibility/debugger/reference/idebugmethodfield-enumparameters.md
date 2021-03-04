@@ -1,4 +1,5 @@
 ---
+description: "Creates an enumerator for the parameters of the method."
 title: IDebugMethodField::EnumParameters | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

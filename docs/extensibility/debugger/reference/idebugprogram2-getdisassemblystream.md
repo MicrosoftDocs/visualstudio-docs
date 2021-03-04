@@ -1,4 +1,5 @@
 ---
+description: "Gets the disassembly stream for this program or a part of this program."
 title: IDebugProgram2::GetDisassemblyStream | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

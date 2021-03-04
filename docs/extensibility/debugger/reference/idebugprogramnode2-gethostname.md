@@ -1,4 +1,5 @@
 ---
+description: "Gets the name of the process hosting the program."
 title: IDebugProgramNode2::GetHostName | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

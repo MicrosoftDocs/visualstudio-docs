@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the variety of a user-defined type (UDT)."
 title: "IDiaSymbol::get_udtKind | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

@@ -1,4 +1,5 @@
 ---
+description: "Determines whether the object represents user data."
 title: IDebugObject2::IsUserData | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

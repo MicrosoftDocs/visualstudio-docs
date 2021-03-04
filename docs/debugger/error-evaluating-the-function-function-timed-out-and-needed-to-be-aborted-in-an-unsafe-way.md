@@ -1,4 +1,5 @@
 ---
+description: "Full message text: Evaluating the function 'function' timed out and needed to be aborted in an unsafe way."
 title: "Evaluating the function &apos;function&apos; timed out and needed to be aborted in an unsafe way | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "error-reference"

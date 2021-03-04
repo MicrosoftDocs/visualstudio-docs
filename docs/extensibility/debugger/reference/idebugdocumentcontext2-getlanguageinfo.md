@@ -1,4 +1,5 @@
 ---
+description: "Gets the language associated with this document context."
 title: IDebugDocumentContext2::GetLanguageInfo | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

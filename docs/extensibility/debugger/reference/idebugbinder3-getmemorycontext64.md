@@ -1,4 +1,5 @@
 ---
+description: "Converts either an object location or a 64-bit memory address to a memory context."
 title: IDebugBinder3::GetMemoryContext64 | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

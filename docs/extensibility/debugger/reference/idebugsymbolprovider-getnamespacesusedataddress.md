@@ -1,4 +1,5 @@
 ---
+description: "This method creates an enumerator for namespaces associated with the debug address."
 title: IDebugSymbolProvider::GetNamespacesUsedAtAddress | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

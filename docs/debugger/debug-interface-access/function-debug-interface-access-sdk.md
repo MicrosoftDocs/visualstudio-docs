@@ -1,4 +1,5 @@
 ---
+description: "Each function is identified by a SymTagFunction symbol."
 title: "Function (Debug Interface Access SDK) | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

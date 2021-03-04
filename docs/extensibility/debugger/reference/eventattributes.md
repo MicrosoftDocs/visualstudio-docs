@@ -1,4 +1,5 @@
 ---
+description: "Specifies the event attributes."
 title: EVENTATTRIBUTES | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

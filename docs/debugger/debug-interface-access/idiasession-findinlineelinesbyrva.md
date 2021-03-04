@@ -1,4 +1,5 @@
 ---
+description: "IDiaSession::findInlineeLinesByRVA retrieves an enumeration that allows a client to iterate through the line number information of all functions that are inlined, directly or indirectly, by the specified parent symbol and are contained within the specified relative virtual address (RVA)."
 title: "IDiaSession::findInlineeLinesByRVA | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

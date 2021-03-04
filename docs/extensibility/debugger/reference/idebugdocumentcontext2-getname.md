@@ -1,4 +1,5 @@
 ---
+description: "Gets the displayable name of the document that contains this document context."
 title: IDebugDocumentContext2::GetName | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

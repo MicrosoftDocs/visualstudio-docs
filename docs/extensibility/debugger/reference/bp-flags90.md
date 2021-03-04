@@ -1,4 +1,5 @@
 ---
+description: "Enumerates valid values for optional flags."
 title: BP_FLAGS90 | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

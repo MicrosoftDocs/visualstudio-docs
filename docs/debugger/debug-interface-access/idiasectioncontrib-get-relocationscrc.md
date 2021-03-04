@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the cyclic redundancy check (CRC) of the relocation information for the section."
 title: "IDiaSectionContrib::get_relocationsCrc | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

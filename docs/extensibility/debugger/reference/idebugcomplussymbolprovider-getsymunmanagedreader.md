@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the symbol reader to be used by unmanaged code."
 title: IDebugComPlusSymbolProvider::GetSymUnmanagedReader | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

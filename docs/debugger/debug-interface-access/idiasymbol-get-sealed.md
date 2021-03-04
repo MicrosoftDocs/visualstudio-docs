@@ -1,4 +1,5 @@
 ---
+description: "Retrieves a flag that specifies whether the class or method is sealed."
 title: "IDiaSymbol::get_sealed | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

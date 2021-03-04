@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the logical this adjustor for the method."
 title: "IDiaSymbol::get_thisAdjust | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

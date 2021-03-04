@@ -1,4 +1,5 @@
 ---
+description: "Specifies what information to retrieve about a disassembly field."
 title: DISASSEMBLY_STREAM_FIELDS | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

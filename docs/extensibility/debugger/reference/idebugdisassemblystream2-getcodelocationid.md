@@ -1,4 +1,5 @@
 ---
+description: "Returns a code location identifier for a particular code context."
 title: IDebugDisassemblyStream2::GetCodeLocationId | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

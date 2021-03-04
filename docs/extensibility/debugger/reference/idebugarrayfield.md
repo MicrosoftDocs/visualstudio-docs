@@ -1,4 +1,5 @@
 ---
+description: "This interface describes an array symbol or type."
 title: IDebugArrayField | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

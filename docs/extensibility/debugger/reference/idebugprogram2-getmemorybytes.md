@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the memory bytes occupied by the program."
 title: IDebugProgram2::GetMemoryBytes | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

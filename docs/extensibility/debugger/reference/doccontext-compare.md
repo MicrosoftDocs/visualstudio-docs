@@ -1,4 +1,5 @@
 ---
+description: "Specifies the criteria for comparing two document contexts."
 title: DOCCONTEXT_COMPARE | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

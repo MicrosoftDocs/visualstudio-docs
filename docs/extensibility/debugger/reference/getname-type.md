@@ -1,4 +1,5 @@
 ---
+description: "Specifies the name type of files to retrieve."
 title: GETNAME_TYPE | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

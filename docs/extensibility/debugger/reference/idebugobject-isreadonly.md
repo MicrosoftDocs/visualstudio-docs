@@ -1,4 +1,5 @@
 ---
+description: "Determines if this object is read-only."
 title: IDebugObject::IsReadOnly | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

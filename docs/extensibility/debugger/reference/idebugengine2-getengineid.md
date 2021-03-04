@@ -1,4 +1,5 @@
 ---
+description: "Gets the GUID of the debug engine (DE)."
 title: IDebugEngine2::GetEngineID | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference
