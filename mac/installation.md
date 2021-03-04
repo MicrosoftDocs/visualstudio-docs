@@ -23,7 +23,7 @@ To start developing native, cross-platform .NET apps on macOS, install Visual St
 To build Xamarin apps for iOS or macOS, you'll also need:
 
 - A Mac that is compatible with the latest version of Xcode. See Apple's [minimum requirements documentation](https://developer.apple.com/support/xcode/)
-- The latest version of [Xcode](https://developer.apple.com/xcode). It may be possible to [use an older version of Xcode](https://docs.microsoft.com/xamarin/ios/troubleshooting/questions/old-version-xcode) if youre Mac is not compatible with the latest version of Xcode.
+- The latest version of [Xcode](https://developer.apple.com/xcode). It may be possible to [use an older version of Xcode](https://docs.microsoft.com/xamarin/ios/troubleshooting/questions/old-version-xcode) if your Mac is not compatible with the latest version of Xcode.
 - An Apple ID. If you don't have an Apple ID already you can create a new one at https://appleid.apple.com. It's necessary to have an Apple ID for installing and signing into Xcode.
 
 ## Installation instructions
