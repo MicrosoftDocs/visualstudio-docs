@@ -1,5 +1,5 @@
 ---
-description: "Continues running this program from a stopped state."
+description: "IDebugProgram2::Continue continues running this program from a stopped state. Any previous execution state (such as a step) is preserved, and the program starts executing again."
 title: IDebugProgram2::Continue | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference
