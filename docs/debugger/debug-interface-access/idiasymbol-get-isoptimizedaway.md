@@ -1,4 +1,5 @@
 ---
+description: "Specifies whether the variable is optimized away."
 title: "IDiaSymbol::get_isOptimizedAway | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

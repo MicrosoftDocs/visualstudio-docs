@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the expression evaluator metric file given the name or the metric."
 title: IDebugSettingsCallback2::GetEEMetricFile | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

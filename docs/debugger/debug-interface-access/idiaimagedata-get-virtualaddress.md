@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the location in virtual memory of the image."
 title: "IDiaImageData::get_virtualAddress | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

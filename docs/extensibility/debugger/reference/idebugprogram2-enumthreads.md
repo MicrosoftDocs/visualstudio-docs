@@ -1,4 +1,5 @@
 ---
+description: "Retrieves a list of the threads that are running in the program."
 title: IDebugProgram2::EnumThreads | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

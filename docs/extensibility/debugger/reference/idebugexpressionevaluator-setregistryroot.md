@@ -1,4 +1,5 @@
 ---
+description: "This method sets the registry root."
 title: IDebugExpressionEvaluator::SetRegistryRoot | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

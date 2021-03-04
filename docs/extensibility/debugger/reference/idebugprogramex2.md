@@ -1,4 +1,5 @@
 ---
+description: "This interface lets the session debug manager (SDM) attach to a program and get the program node associated with a program."
 title: IDebugProgramEx2 | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

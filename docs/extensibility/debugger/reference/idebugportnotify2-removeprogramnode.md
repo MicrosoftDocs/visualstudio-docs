@@ -1,4 +1,5 @@
 ---
+description: "Unregisters a program that can be debugged from the port it is running on."
 title: IDebugPortNotify2::RemoveProgramNode | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

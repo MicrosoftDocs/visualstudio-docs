@@ -1,4 +1,5 @@
 ---
+description: "Retrieves a flag that indicates whether another symbol references this symbol's address."
 title: "IDiaSymbol::get_addressTaken | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

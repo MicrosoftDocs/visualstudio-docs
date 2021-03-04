@@ -1,4 +1,5 @@
 ---
+description: "Retrieves a table by means of an index or name."
 title: "IDiaEnumTables::Item | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

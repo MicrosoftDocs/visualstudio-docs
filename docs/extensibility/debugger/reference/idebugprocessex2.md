@@ -1,4 +1,5 @@
 ---
+description: "This interface lets the session debug manager (SDM) notify a process that it is attaching to or detaching from the process."
 title: IDebugProcessEx2 | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

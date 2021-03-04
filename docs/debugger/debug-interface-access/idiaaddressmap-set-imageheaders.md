@@ -1,4 +1,5 @@
 ---
+description: "Sets image headers to enable relative virtual address translation."
 title: "IDiaAddressMap::set_imageHeaders | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

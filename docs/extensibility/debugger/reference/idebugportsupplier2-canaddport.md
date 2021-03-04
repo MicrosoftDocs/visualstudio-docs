@@ -1,4 +1,5 @@
 ---
+description: "Verifies that a port supplier can add new ports."
 title: IDebugPortSupplier2::CanAddPort | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

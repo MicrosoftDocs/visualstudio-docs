@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the line number information for lines contained in a specified virtual address (VA) range."
 title: "IDiaSession::findLinesByVA | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

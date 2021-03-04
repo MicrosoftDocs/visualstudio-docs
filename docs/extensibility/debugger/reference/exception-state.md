@@ -1,4 +1,5 @@
 ---
+description: "Specifies the exception state."
 title: EXCEPTION_STATE | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

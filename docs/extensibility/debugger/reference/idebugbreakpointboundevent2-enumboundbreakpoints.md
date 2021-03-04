@@ -1,4 +1,5 @@
 ---
+description: "Creates an enumerator of breakpoints that were bound on this event."
 title: IDebugBreakpointBoundEvent2::EnumBoundBreakpoints | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

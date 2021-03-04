@@ -1,4 +1,5 @@
 ---
+description: "Retrieves a flag that indicates whether the section can be discarded."
 title: "IDiaSectionContrib::get_discardable | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

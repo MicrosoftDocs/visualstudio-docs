@@ -1,4 +1,5 @@
 ---
+description: "Returns the number of constraints that are associated with this generic parameter."
 title: IDebugGenericParamField::ConstraintCount | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

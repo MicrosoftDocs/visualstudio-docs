@@ -1,4 +1,5 @@
 ---
+description: "Retrieves a flag that specifies whether the compiland or function has been compiled with buffer-overrun security checks (for example, the /GS (Buffer Security Check)) compiler switch)."
 title: "IDiaSymbol::get_hasSecurityChecks | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

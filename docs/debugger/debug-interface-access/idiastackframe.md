@@ -1,4 +1,5 @@
 ---
+description: "Exposes the properties of a stack frame."
 title: "IDiaStackFrame | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

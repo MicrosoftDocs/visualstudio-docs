@@ -1,4 +1,5 @@
 ---
+description: "Moves the read pointer in the disassembly stream a given number of instructions relative to a specified position."
 title: IDebugDisassemblyStream2::Seek | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

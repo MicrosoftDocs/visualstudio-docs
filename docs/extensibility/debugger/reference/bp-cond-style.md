@@ -1,4 +1,5 @@
 ---
+description: "Specifies the breakpoint condition style for pending and bound breakpoints."
 title: BP_COND_STYLE | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

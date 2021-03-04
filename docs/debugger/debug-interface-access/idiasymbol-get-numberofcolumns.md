@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the number of columns in the matrix."
 title: "IDiaSymbol::get_numberOfColumns | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

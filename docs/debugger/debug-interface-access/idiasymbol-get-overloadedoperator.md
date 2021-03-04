@@ -1,4 +1,5 @@
 ---
+description: "Retrieves a flag that specifies whether the user-defined data type has overloaded operators."
 title: "IDiaSymbol::get_overloadedOperator | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

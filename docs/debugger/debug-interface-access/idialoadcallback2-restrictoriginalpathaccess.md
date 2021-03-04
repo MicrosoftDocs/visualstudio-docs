@@ -1,4 +1,5 @@
 ---
+description: "Determines if it is okay to look for a .pdb file in the original debug directory."
 title: "IDiaLoadCallback2::RestrictOriginalPathAccess | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

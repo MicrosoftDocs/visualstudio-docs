@@ -1,4 +1,5 @@
 ---
+description: "Contains information about a debug property."
 title: DEBUG_PROPERTY_INFO | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

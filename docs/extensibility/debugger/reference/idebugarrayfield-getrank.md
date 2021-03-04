@@ -1,4 +1,5 @@
 ---
+description: "Gets the rank or number of dimensions of the array."
 title: IDebugArrayField::GetRank | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

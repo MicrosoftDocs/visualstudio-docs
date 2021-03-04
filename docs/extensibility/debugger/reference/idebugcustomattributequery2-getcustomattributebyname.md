@@ -1,4 +1,5 @@
 ---
+description: "Obtains the custom attributes bytes given the name of the custom attribute."
 title: IDebugCustomAttributeQuery2::GetCustomAttributeByName | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

@@ -1,4 +1,5 @@
 ---
+description: "Enumerates a DIA data source table."
 title: "IDiaTable | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

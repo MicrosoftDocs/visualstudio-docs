@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the register type."
 title: "IDiaSymbol::get_registerType | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

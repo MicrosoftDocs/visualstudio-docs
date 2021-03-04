@@ -1,4 +1,5 @@
 ---
+description: "This method determines whether the port supplier can persist ports (by writing them to disk) between invocations of the debugger."
 title: IDebugPortSupplier3::CanPersistPorts | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

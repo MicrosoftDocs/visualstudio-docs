@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the classes with the specified attribute in a given module."
 title: IDebugComPlusSymbolProvider::GetAttributedClassesinModule
 titleSuffix: ""
 ms.custom: SEO-VS-2020

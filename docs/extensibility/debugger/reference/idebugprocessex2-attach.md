@@ -1,4 +1,5 @@
 ---
+description: "This method informs the process that a session is now debugging the process."
 title: IDebugProcessEx2::Attach | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

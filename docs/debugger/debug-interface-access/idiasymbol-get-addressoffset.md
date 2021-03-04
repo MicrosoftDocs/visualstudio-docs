@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the offset part of an address location."
 title: "IDiaSymbol::get_addressOffset | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

@@ -1,4 +1,5 @@
 ---
+description: "Destroys an instance of the VsgDbg class."
 title: "VsgDbg::~VsgDbg (Destructor) | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"

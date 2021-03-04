@@ -1,4 +1,5 @@
 ---
+description: "Deletes this pending breakpoint and all breakpoints bound from it."
 title: IDebugPendingBreakpoint2::Delete | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

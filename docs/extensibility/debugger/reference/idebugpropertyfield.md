@@ -1,4 +1,5 @@
 ---
+description: "This interface provides the functions that allow getting and setting a property."
 title: IDebugPropertyField | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

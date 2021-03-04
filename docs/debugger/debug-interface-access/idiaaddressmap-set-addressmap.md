@@ -1,4 +1,5 @@
 ---
+description: "Provides an address map to support image layout translations."
 title: "IDiaAddressMap::set_addressMap | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

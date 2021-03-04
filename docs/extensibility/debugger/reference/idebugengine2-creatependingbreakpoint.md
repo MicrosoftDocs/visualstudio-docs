@@ -1,4 +1,5 @@
 ---
+description: "Creates a pending breakpoint in the debug engine (DE)."
 title: IDebugEngine2::CreatePendingBreakpoint | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

@@ -1,4 +1,5 @@
 ---
+description: "Returns a value indicating the protocol that is being used to communicate between the server and the debug package."
 title: IDebugCoreServer3::GetConnectionProtocol | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

@@ -1,4 +1,5 @@
 ---
+description: "Sets or changes the condition associated with the pending breakpoint."
 title: IDebugPendingBreakpoint2::SetCondition | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

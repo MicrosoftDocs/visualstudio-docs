@@ -1,4 +1,5 @@
 ---
+description: "Gets the type of element in the array."
 title: IDebugArrayField::GetElementType | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

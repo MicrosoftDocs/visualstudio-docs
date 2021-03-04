@@ -1,4 +1,5 @@
 ---
+description: "This method queries for a specified property value of the debugging process."
 title: IDebugProcessQueryProperties::QueryProperty | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

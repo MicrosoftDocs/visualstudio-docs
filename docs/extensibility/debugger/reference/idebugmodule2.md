@@ -1,4 +1,5 @@
 ---
+description: "This interface represents a module—that is, an executable unit of a program—such as a DLL."
 title: IDebugModule2 | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

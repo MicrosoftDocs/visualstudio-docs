@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the number of register indices."
 title: "IDiaSymbol::get_numberOfRegisterIndices | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

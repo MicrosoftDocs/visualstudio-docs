@@ -1,4 +1,5 @@
 ---
+description: "Represents a parameter for a managed code generic type."
 title: IDebugGenericParamField | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

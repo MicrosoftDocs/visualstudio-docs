@@ -1,4 +1,5 @@
 ---
+description: "Used to determine if a program can stop execution after reaching a particular point in the execution."
 title: CANSTOP_REASON | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

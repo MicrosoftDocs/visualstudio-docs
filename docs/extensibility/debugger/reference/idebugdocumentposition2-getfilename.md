@@ -1,4 +1,5 @@
 ---
+description: "Gets the file name of the source file that contains the document position."
 title: IDebugDocumentPosition2::GetFileName | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

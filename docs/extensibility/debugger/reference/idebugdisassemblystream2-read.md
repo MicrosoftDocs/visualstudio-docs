@@ -1,4 +1,5 @@
 ---
+description: "Reads instructions starting from the current position in the disassembly stream."
 title: IDebugDisassemblyStream2::Read | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

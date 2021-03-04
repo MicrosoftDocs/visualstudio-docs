@@ -1,4 +1,5 @@
 ---
+description: "Notifies the debug engine (DE) whether or not to stop at the current code location or just continue execution."
 title: IDebugCanStopEvent2::CanStop | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

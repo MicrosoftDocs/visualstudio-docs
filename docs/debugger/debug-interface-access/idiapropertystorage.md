@@ -1,4 +1,5 @@
 ---
+description: "Allows you to read the persistent properties of a DIA property set."
 title: "IDiaPropertyStorage | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

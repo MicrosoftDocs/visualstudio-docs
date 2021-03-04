@@ -1,4 +1,5 @@
 ---
+description: "Sends the specified message string to the debugger's output window."
 title: IDebugIDECallback::DisplayMessage | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

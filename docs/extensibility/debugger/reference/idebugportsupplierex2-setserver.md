@@ -1,4 +1,5 @@
 ---
+description: "Sets the core server for the port supplier."
 title: IDebugPortSupplierEx2::SetServer | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

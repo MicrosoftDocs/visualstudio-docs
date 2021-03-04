@@ -1,4 +1,5 @@
 ---
+description: "Specifies whether the exception should be passed on to the program being debugged when execution resumes, or if the exception should be discarded."
 title: IDebugExceptionEvent2::PassToDebuggee | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

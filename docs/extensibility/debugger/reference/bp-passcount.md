@@ -1,4 +1,5 @@
 ---
+description: "Describes the count and conditions upon which a conditional breakpoint is fired."
 title: BP_PASSCOUNT | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

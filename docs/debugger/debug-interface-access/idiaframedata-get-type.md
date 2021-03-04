@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the compiler-specific frame type."
 title: "IDiaFrameData::get_type | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

@@ -1,4 +1,5 @@
 ---
+description: "This method gets the memory context or object that contains the symbol's current value."
 title: IDebugBinder::Bind | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

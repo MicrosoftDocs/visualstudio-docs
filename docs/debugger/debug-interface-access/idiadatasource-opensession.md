@@ -1,4 +1,5 @@
 ---
+description: "Opens a session for querying symbols."
 title: "IDiaDataSource::openSession | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

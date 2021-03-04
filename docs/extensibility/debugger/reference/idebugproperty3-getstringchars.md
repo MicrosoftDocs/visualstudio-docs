@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the string associated with this property and stores it in a user-supplied buffer."
 title: IDebugProperty3::GetStringChars | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

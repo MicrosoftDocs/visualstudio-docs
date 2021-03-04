@@ -1,4 +1,5 @@
 ---
+description: "You do not have permission to inspect the process's identity."
 title: "You do not have permission to inspect the process&apos;s identity | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "error-reference"

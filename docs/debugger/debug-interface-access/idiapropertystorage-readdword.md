@@ -1,4 +1,5 @@
 ---
+description: "Reads DWORD values in a property set."
 title: "IDiaPropertyStorage::ReadDWORD | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

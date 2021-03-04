@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the application entry point."
 title: IDebugComPlusSymbolProvider::GetEntryPoint | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

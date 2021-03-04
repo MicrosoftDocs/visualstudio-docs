@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the name of this generic parameter."
 title: IDebugGenericParamField::GetNameOfFormalParam | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

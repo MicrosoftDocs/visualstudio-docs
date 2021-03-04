@@ -1,4 +1,5 @@
 ---
+description: "This method uses a case-insensitive search to return the value associated with the name of an enumeration constant."
 title: IDebugEnumField::GetValueFromStringCaseInsensitive | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

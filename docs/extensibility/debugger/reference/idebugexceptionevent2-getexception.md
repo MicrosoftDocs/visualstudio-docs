@@ -1,4 +1,5 @@
 ---
+description: "Gets a detailed description of the exception that fired this event."
 title: IDebugExceptionEvent2::GetException | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

@@ -1,4 +1,5 @@
 ---
+description: "Gets a GUID for this program."
 title: IDebugProgram2::GetProgramId | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

@@ -1,4 +1,5 @@
 ---
+description: "This method compares this field with the specified field for equality."
 title: IDebugField::Equal | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

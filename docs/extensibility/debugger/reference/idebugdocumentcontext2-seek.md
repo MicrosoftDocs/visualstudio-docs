@@ -1,4 +1,5 @@
 ---
+description: "Moves the document context by a given number of statements or lines."
 title: IDebugDocumentContext2::Seek | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference
