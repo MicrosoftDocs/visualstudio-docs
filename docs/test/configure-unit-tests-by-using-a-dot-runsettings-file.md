@@ -129,7 +129,7 @@ The file appears on the Test menu, and you can select or deselect it. While sele
 
 To run tests from the command line, use *vstest.console.exe*, and specify the settings file by using the **/Settings** parameter.
 
-1. Open a [Developer Command Prompt](/dotnet/framework/tools/developer-command-prompt-for-vs) for Visual Studio.
+1. Open [Developer Command Prompt for Visual Studio](../ide/reference/command-prompt-powershell.md).
 
 2. Enter a command similar to:
 
