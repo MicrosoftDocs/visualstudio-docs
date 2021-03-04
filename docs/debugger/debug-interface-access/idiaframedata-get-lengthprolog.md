@@ -1,5 +1,5 @@
 ---
-description: "Retrieves the number of bytes of prologue code in the block."
+description: "IDiaFrameData::get_lengthProlog retrieves the number of bytes of prologue code in the block."
 title: "IDiaFrameData::get_lengthProlog | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

@@ -1,5 +1,5 @@
 ---
-description: "Searches the specified stack frame for the nearest function return address."
+description: "IDiaStackWalkFrame::searchForReturnAddress searches the specified stack frame for the nearest function return address."
 title: "IDiaStackWalkFrame::searchForReturnAddress | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

@@ -1,5 +1,5 @@
 ---
-description: "Makes a copy of an object."
+description: "Makes a copy of an IDiaEnumSymbolsByAddr object."
 title: "IDiaEnumSymbolsByAddr::Clone | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

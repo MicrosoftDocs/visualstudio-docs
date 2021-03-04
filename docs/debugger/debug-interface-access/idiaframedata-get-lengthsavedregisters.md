@@ -1,5 +1,5 @@
 ---
-description: "Retrieves the number of bytes of saved registers pushed on the stack."
+description: "IDiaFrameData::get_lengthSavedRegisters retrieves the number of bytes of saved registers pushed on the stack."
 title: "IDiaFrameData::get_lengthSavedRegisters | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

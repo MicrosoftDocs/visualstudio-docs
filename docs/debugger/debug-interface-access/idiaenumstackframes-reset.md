@@ -1,5 +1,5 @@
 ---
-description: "Resets the enumeration sequence to the beginning."
+description: "Resets the enumeration sequence of stack frames to the beginning."
 title: "IDiaEnumStackFrames::Reset | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

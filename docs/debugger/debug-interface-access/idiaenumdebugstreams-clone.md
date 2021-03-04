@@ -1,5 +1,5 @@
 ---
-description: "Creates an enumerator that contains the same enumeration state as the current enumerator."
+description: "Creates an enumerator that contains the same enumeration state as the current debug stream enumerator."
 title: "IDiaEnumDebugStreams::Clone | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

@@ -1,5 +1,5 @@
 ---
-description: "Sets the value of a register."
+description: "IDiaStackWalkFrame::put_registerValue sets the value of a register."
 title: "IDiaStackWalkFrame::put_registerValue | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

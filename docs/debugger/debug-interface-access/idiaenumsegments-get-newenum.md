@@ -1,5 +1,5 @@
 ---
-description: "Retrieves the System.Runtime.InteropServices.ComTypes.IEnumVARIANT version of this enumerator."
+description: "Retrieves the System.Runtime.InteropServices.ComTypes.IEnumVARIANT version of the segments enumerator."
 title: "IDiaEnumSegments::get__NewEnum | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

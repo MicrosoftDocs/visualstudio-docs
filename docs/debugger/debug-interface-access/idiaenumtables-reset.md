@@ -1,5 +1,5 @@
 ---
-description: "Resets an enumeration sequence to the beginning."
+description: "Resets an enumeration sequence of tables to the beginning."
 title: "IDiaEnumTables::Reset | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"
