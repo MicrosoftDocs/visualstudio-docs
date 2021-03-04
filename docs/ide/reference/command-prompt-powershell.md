@@ -63,7 +63,7 @@ You may have multiple command prompts, depending on the version of Visual Studio
 
    Alternatively, you can start typing the name of the shell in the search box on the taskbar, and choose the result you want as the result list starts to display the search matches.
 
-   ![Animated gif showing the search behavior on Windows 10](./media/developer-command-prompt-for-vs/windows10-search.gif)
+   ![Animated gif showing the search behavior on Windows 10](./media/developer-command-prompt-for-vs/windows-10-search.gif)
 
 #### Windows 8.1
 
@@ -79,7 +79,7 @@ You may have multiple command prompts, depending on the version of Visual Studio
 
 1. Choose **Visual Studio 2019** > **Visual Studio Tools** > **Developer Command Prompt for VS 2019** or **Developer PowerShell for VS 2019**.
 
-   ![Windows 7 Start menu with the command prompt highlighted](./media/developer-command-prompt-for-vs/windows7-menu.png)
+   ![Windows 7 Start menu with the command prompt highlighted](./media/developer-command-prompt-for-vs/windows-7-menu.png)
 
 If you have other SDKs installed, such as the [Windows 10 SDK](https://developer.microsoft.com/windows/downloads/windows-10-sdk) or [previous versions](https://developer.microsoft.com/windows/downloads/sdk-archive), you may see additional command prompts. Check the documentation for the individual tools to determine which version of the command prompt you should use.
 

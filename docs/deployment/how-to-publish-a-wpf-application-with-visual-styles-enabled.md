@@ -174,7 +174,7 @@ Visual styles enable the appearance of common controls to change based on the th
 
 ## See also
 
--[Troubleshooting Specific Errors in ClickOnce Deployments](../deployment/troubleshooting-specific-errors-in-clickonce-deployments.md)
+- [Troubleshooting Specific Errors in ClickOnce Deployments](../deployment/troubleshooting-specific-errors-in-clickonce-deployments.md)
 - [Visual Styles Overview](/windows/desktop/Controls/visual-styles-overview)
 - [Enabling Visual Styles](/windows/desktop/Controls/cookbook-overview)
 - [Developer Command Prompt and Developer PowerShell](../ide/reference/command-prompt-powershell.md)
