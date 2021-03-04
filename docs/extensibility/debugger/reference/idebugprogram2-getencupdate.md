@@ -1,4 +1,5 @@
 ---
+description: "This method gets the Edit and Continue (ENC) update for this program."
 title: IDebugProgram2::GetENCUpdate | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

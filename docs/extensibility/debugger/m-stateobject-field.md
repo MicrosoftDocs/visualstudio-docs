@@ -1,4 +1,5 @@
 ---
+description: "An object that represents data that the action will use."
 title: m_stateObject Field | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: conceptual

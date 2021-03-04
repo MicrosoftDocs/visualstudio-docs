@@ -1,4 +1,5 @@
 ---
+description: "Gets the memory bytes that compose the value of a property."
 title: IDebugProperty2::GetMemoryBytes | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

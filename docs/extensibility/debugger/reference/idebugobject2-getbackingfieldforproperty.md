@@ -1,4 +1,5 @@
 ---
+description: "Gets the field or variable (if any) that may be backing the property represented by this object."
 title: IDebugObject2::GetBackingFieldForProperty | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

@@ -1,4 +1,5 @@
 ---
+description: "This structure describes a local variable, parameter, or other field."
 title: FIELD_INFO | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

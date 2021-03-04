@@ -1,4 +1,5 @@
 ---
+description: "Gets the name of a thread."
 title: IDebugThread2::GetName | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

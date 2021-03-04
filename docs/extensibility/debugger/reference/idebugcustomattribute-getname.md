@@ -1,4 +1,5 @@
 ---
+description: "Gets the name of the custom attribute."
 title: IDebugCustomAttribute::GetName | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

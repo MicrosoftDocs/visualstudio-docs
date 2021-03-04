@@ -1,4 +1,5 @@
 ---
+description: "Unable to connect to SQL Server on remote machine name*."
 title: "Unable to connect to SQL Server on remote machine | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "error-reference"

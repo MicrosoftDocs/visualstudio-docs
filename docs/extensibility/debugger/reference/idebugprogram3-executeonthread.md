@@ -1,4 +1,5 @@
 ---
+description: "Executes the debugger program."
 title: IDebugProgram3::ExecuteOnThread | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

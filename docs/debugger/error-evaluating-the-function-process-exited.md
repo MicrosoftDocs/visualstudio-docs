@@ -1,4 +1,5 @@
 ---
+description: "Full message text: The target process exited with code 'code' while evaluating the function 'function'."
 title: "The target process exited with code &apos;code&apos; while evaluating the function &apos;function&apos; | Microsoft Docs"
 ms.date: "4/06/2018"
 ms.topic: "error-reference"

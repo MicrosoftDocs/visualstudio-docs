@@ -1,4 +1,5 @@
 ---
+description: "Gets the value pointed to as a series of consecutive bytes."
 title: IDebugPointerObject::GetBytes | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

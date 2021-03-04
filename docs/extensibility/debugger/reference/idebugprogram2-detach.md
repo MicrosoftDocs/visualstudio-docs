@@ -1,4 +1,5 @@
 ---
+description: "Detaches a debug engine from the program."
 title: IDebugProgram2::Detach | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

@@ -1,4 +1,5 @@
 ---
+description: "This method explicitly disables Edit and Continue on this process (and all programs it contains)."
 title: IDebugProcess3::DisableENC | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

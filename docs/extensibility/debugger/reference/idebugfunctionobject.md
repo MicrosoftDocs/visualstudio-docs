@@ -1,4 +1,5 @@
 ---
+description: "This interface represents a function."
 title: IDebugFunctionObject | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

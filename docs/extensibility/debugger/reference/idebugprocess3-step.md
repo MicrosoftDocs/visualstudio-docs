@@ -1,4 +1,5 @@
 ---
+description: "Causes the process to step one instruction or statement."
 title: IDebugProcess3::Step | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

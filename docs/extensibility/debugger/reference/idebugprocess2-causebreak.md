@@ -1,4 +1,5 @@
 ---
+description: "Requests that the next program that is running code in this process halt and send an IDebugBreakEvent2 event object."
 title: IDebugProcess2::CauseBreak | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

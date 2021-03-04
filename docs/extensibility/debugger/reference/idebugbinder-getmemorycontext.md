@@ -1,4 +1,5 @@
 ---
+description: "This method converts either an object location or a memory address to a memory context."
 title: IDebugBinder::GetMemoryContext | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the number of type parameters that are associated with the generic field."
 title: IDebugGenericFieldDefinition::TypeParamCount | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

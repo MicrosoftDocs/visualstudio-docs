@@ -1,4 +1,5 @@
 ---
+description: "The following are the Expression Evaluation Interfaces for the Visual Studio Debugging SDK."
 title: Expression Evaluation Interfaces | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

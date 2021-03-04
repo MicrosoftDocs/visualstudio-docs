@@ -1,4 +1,5 @@
 ---
+description: "Indicates the protocol being used to communicate between a debug server and the debug package (DE)."
 title: CONNECTION_PROTOCOL | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

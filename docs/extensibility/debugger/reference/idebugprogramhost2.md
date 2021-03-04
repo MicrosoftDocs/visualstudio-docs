@@ -1,4 +1,5 @@
 ---
+description: "This interface provides host (process) information about a program."
 title: IDebugProgramHost2 | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

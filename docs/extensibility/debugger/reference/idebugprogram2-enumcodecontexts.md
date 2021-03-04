@@ -1,4 +1,5 @@
 ---
+description: "Retrieves a list of the code contexts for a given position in a source file."
 title: IDebugProgram2::EnumCodeContexts | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

@@ -1,4 +1,5 @@
 ---
+description: "The following FxCop legacy analysis rules are deprecated and won't be implemented as analyzers."
 title: Deprecated rules
 ms.date: 05/21/2019
 ms.topic: reference

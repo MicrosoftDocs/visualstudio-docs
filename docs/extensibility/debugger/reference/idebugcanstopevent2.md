@@ -1,4 +1,5 @@
 ---
+description: "This interface is used to ask the session debug manager (SDM) whether to stop at the current code location."
 title: IDebugCanStopEvent2 | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

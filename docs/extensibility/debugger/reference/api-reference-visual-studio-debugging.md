@@ -1,4 +1,5 @@
 ---
+description: "The reference section includes a conceptual overview of the API, a guide that shows the syntax and usage for all API elements, and an assortment of code examples."
 title: API Reference (Visual Studio Debugging) | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

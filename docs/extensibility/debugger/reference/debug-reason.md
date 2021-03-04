@@ -1,4 +1,5 @@
 ---
+description: "Specifies why the process was launched for debugging."
 title: DEBUG_REASON | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

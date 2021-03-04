@@ -1,4 +1,5 @@
 ---
+description: "The debug engine (DE) uses this interface to request a document to be loaded."
 title: IDebugActivateDocumentEvent2 | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

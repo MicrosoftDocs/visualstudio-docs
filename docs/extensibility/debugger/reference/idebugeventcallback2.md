@@ -1,4 +1,5 @@
 ---
+description: "This interface is used by the debug engine (DE) to send debug events to the session debug manager (SDM)."
 title: IDebugEventCallback2 | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

@@ -1,4 +1,5 @@
 ---
+description: "Retrieves an array of all System.Threading.Tasks.TaskScheduler objects that are currently active."
 title: GetTaskSchedulersForDebugger Method | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: conceptual

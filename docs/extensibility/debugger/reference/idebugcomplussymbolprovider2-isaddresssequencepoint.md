@@ -1,4 +1,5 @@
 ---
+description: "Determines if the specified debug address is a sequence point."
 title: IDebugComPlusSymbolProvider2::IsAddressSequencePoint | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

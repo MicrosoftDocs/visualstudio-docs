@@ -1,4 +1,5 @@
 ---
+description: "Returns a code context object corresponding to a specified code location identifier."
 title: IDebugDisassemblyStream2::GetCodeContext | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

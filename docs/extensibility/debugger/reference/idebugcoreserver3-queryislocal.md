@@ -1,4 +1,5 @@
 ---
+description: "Determines if the server is local to the caller."
 title: IDebugCoreServer3::QueryIsLocal | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

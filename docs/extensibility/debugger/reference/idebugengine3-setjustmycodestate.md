@@ -1,4 +1,5 @@
 ---
+description: "This method tells the debug engine about the JustMyCode state information."
 title: IDebugEngine3::SetJustMyCodeState | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

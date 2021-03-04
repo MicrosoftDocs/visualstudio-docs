@@ -1,4 +1,5 @@
 ---
+description: "Determines if the object is a transparent proxy."
 title: IDebugObject::IsProxy | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

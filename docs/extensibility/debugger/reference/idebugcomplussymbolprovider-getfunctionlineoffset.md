@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the address within a function that represents the given line offset."
 title: IDebugComPlusSymbolProvider::GetFunctionLineOffset | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

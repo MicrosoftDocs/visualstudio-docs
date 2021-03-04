@@ -1,4 +1,5 @@
 ---
+description: "Provides optional flags that may be used to specify additional information when setting a breakpoint."
 title: BP_FLAGS | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

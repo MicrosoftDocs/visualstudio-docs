@@ -1,4 +1,5 @@
 ---
+description: "Creates an enumerator for static local variables of the method."
 title: IDebugMethodField::EnumStaticLocals | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

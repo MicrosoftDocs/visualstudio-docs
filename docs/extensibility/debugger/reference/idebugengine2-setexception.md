@@ -1,4 +1,5 @@
 ---
+description: "Specifies how the debug engine (DE) should handle a given exception."
 title: IDebugEngine2::SetException | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

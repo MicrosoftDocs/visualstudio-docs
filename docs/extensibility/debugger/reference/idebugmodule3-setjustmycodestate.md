@@ -1,4 +1,5 @@
 ---
+description: "Marks the module as being user code or not."
 title: IDebugModule3::SetJustMyCodeState | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

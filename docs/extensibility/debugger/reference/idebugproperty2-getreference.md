@@ -1,4 +1,5 @@
 ---
+description: "Returns a reference to the property's value."
 title: IDebugProperty2::GetReference | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

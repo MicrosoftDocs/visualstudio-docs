@@ -1,4 +1,5 @@
 ---
+description: "Sets the value of this property and returns an error message, if necessary."
 title: IDebugProperty3::SetValueAsStringWithError | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

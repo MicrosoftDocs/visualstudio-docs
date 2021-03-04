@@ -1,4 +1,5 @@
 ---
+description: "Retrieves information about the symbol group of which the symbol provider is a member."
 title: IDebugSymbolProviderDirect::GetCurrentModulesState | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

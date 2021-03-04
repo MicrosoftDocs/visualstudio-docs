@@ -1,4 +1,5 @@
 ---
+description: "The Visual Studio debugger cannot connect to the remote computer."
 title: "RPC Requires Authentication | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "error-reference"
