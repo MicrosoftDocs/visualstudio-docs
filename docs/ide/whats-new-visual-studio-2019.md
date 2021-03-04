@@ -47,11 +47,13 @@ Formerly known as Quick Launch, our new search experience is faster and more eff
 
 The new fuzzy search logic will find anything you need, regardless of typos. So, whether you're looking for commands, settings, documentation, or other useful things, the new search feature makes it easier to find what you're looking for.
 
-For more information, see the [Use Visual Studio search](visual-studio-search.md) page.
+For more information, see [Use Visual Studio search](visual-studio-search.md).
 
-### Intelligent search service
+#### Intelligent search service
 
-**New in 16.9** By using cloud-powered technology, artificial intelligence, and machine learning, we've improved our search results. Not only is search in Visual Studio more relevant, but it can also help you discover product features more easily. For more information, see the [Intelligent Visual Studio search service](https://devblogs.microsoft.com/visualstudio/intelligent-visual-studio-search-service/) blog post.
+**New in 16.9**: By using cloud-powered technology, artificial intelligence, and machine learning, we've improved our search results. Not only is search in Visual Studio more relevant, but it can also help you discover product features more easily.
+
+For more information, see the [Intelligent Visual Studio search service](https://devblogs.microsoft.com/visualstudio/intelligent-visual-studio-search-service/) blog post.
 
 ### Refactorings
 
