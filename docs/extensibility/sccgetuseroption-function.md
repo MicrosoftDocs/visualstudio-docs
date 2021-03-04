@@ -1,4 +1,5 @@
 ---
+description: "This function retrieves a variety of user-specific options."
 title: SccGetUserOption Function | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: conceptual

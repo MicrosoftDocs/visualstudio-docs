@@ -1,4 +1,5 @@
 ---
+description: "Creates an object that represents a primitive type."
 title: IDebugTypeFieldBuilder::CreatePrimitive | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the number of value strings to display for the specified property or field."
 title: IEEVisualizerService::GetValueDisplayStringCount | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

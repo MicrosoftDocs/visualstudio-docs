@@ -1,4 +1,5 @@
 ---
+description: "The task is running but has not yet completed."
 title: TASK_STATE_EXECUTED Field | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: conceptual

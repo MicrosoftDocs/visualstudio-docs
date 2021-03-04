@@ -1,4 +1,5 @@
 ---
+description: "This method resets the enumeration to the first element."
 title: IEnumDebugObjects::Reset | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

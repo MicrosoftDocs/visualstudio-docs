@@ -1,4 +1,5 @@
 ---
+description: "This method creates a visualizer service."
 title: IEEVisualizerServiceProvider::CreateVisualizerService | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

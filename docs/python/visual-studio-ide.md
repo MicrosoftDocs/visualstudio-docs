@@ -1,4 +1,5 @@
 ---
+description: "The Visual Studio integrated development environment is a creative launching pad for Python (and other languages) that you can use to edit, debug, and test code, and then publish an app."
 title: Overview of Visual Studio for Python developers
 titleSuffix: ""
 ms.date: 03/13/2019

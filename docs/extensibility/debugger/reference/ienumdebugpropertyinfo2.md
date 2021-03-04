@@ -1,4 +1,5 @@
 ---
+description: "This interface enumerates DEBUG_PROPERTY_INFO structures."
 title: IEnumDebugPropertyInfo2 | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

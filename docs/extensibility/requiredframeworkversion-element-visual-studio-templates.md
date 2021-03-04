@@ -1,4 +1,5 @@
 ---
+description: "Specifies the minimum version of the .NET Framework that is required by the template."
 title: RequiredFrameworkVersion Element (Visual Studio Templates)
 titleSuffix: ""
 ms.custom: SEO-VS-2020
