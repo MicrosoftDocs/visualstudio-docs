@@ -1,4 +1,5 @@
 ---
+description: "Creates an enumerator for all local variables of the method, including those generated internally by a compiler."
 title: IDebugMethodField::EnumAllLocals | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

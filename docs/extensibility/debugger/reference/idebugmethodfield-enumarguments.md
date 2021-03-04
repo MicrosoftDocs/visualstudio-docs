@@ -1,4 +1,5 @@
 ---
+description: "Creates an enumerator for the type of each argument required to call the method."
 title: IDebugMethodField::EnumArguments | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

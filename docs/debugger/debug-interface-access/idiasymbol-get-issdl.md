@@ -1,4 +1,5 @@
 ---
+description: "Specifies whether the module is compiled with the /SDL option."
 title: "IDiaSymbol::get_isSdl | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

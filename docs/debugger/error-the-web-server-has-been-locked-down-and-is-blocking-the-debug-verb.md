@@ -1,4 +1,5 @@
 ---
+description: "Stepping into a Web application or XML Web service failed because the IIS lockdown tool has been run and URLScan has been installed and activated."
 title: "The Web Server Has Been Locked Down and Is Blocking the DEBUG Verb | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "error-reference"

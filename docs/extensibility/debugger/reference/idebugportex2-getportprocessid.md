@@ -1,4 +1,5 @@
 ---
+description: "Gets the process ID of the port itself."
 title: IDebugPortEx2::GetPortProcessId | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

@@ -1,4 +1,5 @@
 ---
+description: "This interface represents the address of an item."
 title: IDebugAddress | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

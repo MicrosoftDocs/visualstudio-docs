@@ -1,4 +1,5 @@
 ---
+description: "This method evaluates the parsed expression and optionally casts the result to another data type."
 title: IDebugParsedExpression::EvaluateSync | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

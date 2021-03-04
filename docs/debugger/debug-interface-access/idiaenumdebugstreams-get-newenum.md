@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the System.Runtime.InteropServices.ComTypes.IEnumVARIANT version of the debug stream enumerator."
 title: "IDiaEnumDebugStreams::get__NewEnum | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

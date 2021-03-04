@@ -1,4 +1,5 @@
 ---
+description: "Gets information about this module."
 title: IDebugModule2::GetInfo | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

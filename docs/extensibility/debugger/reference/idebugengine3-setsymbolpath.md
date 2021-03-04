@@ -1,4 +1,5 @@
 ---
+description: "Sets the path or paths that are searched for debugging symbols."
 title: IDebugEngine3::SetSymbolPath | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

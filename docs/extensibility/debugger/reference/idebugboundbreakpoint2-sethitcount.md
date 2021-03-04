@@ -1,4 +1,5 @@
 ---
+description: "Sets the hit count for the bound breakpoint."
 title: IDebugBoundBreakpoint2::SetHitCount | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

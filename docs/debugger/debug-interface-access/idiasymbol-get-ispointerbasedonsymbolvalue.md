@@ -1,4 +1,5 @@
 ---
+description: "Specifies whether the this pointer is based on a symbol value."
 title: "IDiaSymbol::get_isPointerBasedOnSymbolValue | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

@@ -1,4 +1,5 @@
 ---
+description: "This warning dialog box appears when you attach to a process that contains partially trusted code or is owned by an untrusted user immediately before the attach occurs."
 title: "Security Warning: Attaching to a process owned by an untrusted user can be dangerous. If the following information looks suspicious or you are unsure, do not attach to this process | Microsoft Docs"
 ms.date: "1/15/2021"
 ms.topic: "conceptual"

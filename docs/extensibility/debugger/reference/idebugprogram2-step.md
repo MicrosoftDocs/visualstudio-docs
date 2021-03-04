@@ -1,4 +1,5 @@
 ---
+description: "Performs a step."
 title: IDebugProgram2::Step | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

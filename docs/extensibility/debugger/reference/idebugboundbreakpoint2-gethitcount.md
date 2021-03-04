@@ -1,4 +1,5 @@
 ---
+description: "Gets the current hit count for this bound breakpoint."
 title: IDebugBoundBreakpoint2::GetHitCount | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

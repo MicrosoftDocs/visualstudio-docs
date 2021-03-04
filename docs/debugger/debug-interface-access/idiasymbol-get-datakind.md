@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the variable classification of a data symbol."
 title: "IDiaSymbol::get_dataKind | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

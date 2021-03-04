@@ -1,4 +1,5 @@
 ---
+description: "Compares this document context to a given array of document contexts."
 title: IDebugDocumentContext2::Compare | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

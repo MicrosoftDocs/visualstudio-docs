@@ -1,4 +1,5 @@
 ---
+description: "Retrieves a flag that indicates whether the section can be shared in memory."
 title: "IDiaSectionContrib::get_share | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

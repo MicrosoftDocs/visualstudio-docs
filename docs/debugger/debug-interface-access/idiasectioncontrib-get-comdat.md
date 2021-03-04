@@ -1,4 +1,5 @@
 ---
+description: "Retrieves a flag that indicates whether the section is a COMDAT record."
 title: "IDiaSectionContrib::get_comdat | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

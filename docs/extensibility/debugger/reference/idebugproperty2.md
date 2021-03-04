@@ -1,4 +1,5 @@
 ---
+description: "This interface represents a stack frame property, a program document property, or some other property."
 title: IDebugProperty2 | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

@@ -1,4 +1,5 @@
 ---
+description: "Retrieves a segment by means of an index."
 title: "IDiaEnumSegments::Item | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

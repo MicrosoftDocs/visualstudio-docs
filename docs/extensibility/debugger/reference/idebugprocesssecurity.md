@@ -1,4 +1,5 @@
 ---
+description: "IDebugProcessSecurity is implemented by a port supplier to warn the user that attaching to the process is unsafe."
 title: IDebugProcessSecurity | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

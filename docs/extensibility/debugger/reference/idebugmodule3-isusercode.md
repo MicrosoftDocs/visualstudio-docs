@@ -1,4 +1,5 @@
 ---
+description: "Retrieves information on whether the module represents user code or not."
 title: IDebugModule3::IsUserCode | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

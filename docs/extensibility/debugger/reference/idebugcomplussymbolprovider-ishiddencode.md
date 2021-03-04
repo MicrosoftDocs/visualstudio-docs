@@ -1,4 +1,5 @@
 ---
+description: "Determines if the code at the specified debugger address is hidden."
 title: IDebugComPlusSymbolProvider::IsHiddenCode | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

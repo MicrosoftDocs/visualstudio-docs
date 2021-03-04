@@ -1,4 +1,5 @@
 ---
+description: "Retrieves a flag that specifies whether the user-defined data type (UDT) is packed."
 title: "IDiaSymbol::get_packed | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

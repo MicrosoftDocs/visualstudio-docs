@@ -1,4 +1,5 @@
 ---
+description: "This interface is used to notify Visual Studio about changes to the source document that are supplied by the debug engine."
 title: IDebugDocumentTextEvents2 | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

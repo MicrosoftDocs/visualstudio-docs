@@ -1,4 +1,5 @@
 ---
+description: "Determines if the debug symbols are loaded for the specified module given the application domain identifier."
 title: IDebugComPlusSymbolProvider::AreSymbolsLoaded | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

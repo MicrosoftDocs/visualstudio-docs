@@ -1,4 +1,5 @@
 ---
+description: "Enables automatic attaching for the specified debug engines."
 title: IDebugCoreServer3::EnableAutoAttach | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

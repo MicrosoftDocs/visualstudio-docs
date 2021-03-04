@@ -1,4 +1,5 @@
 ---
+description: "Tells the program publisher that a debugger is present and running."
 title: IDebugProgramPublisher2::SetDebuggerPresent | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

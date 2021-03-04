@@ -1,4 +1,5 @@
 ---
+description: "Contains the information required to implement a breakpoint, including vendor GUID, constraint and tracepoint."
 title: BP_REQUEST_INFO2 | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the type parameters given the number of parameters."
 title: IDebugGenericFieldDefinition::GetFormalTypeParams | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

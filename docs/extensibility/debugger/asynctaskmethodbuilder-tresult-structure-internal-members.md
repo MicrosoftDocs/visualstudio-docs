@@ -1,4 +1,5 @@
 ---
+description: "This topic describes the internal members of the System.Runtime.CompilerServices.AsyncTaskMethodBuilder class."
 title: AsyncTaskMethodBuilder&lt;TResult&gt; Structure - Internal Members | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: conceptual

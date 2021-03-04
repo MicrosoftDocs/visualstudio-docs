@@ -1,4 +1,5 @@
 ---
+description: "This method evaluates the expression synchronously."
 title: IDebugExpression2::EvaluateSync | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

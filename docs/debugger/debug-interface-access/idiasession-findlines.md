@@ -1,4 +1,5 @@
 ---
+description: "Retrieves line numbers within specified compiland and source file identifiers."
 title: "IDiaSession::findLines | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

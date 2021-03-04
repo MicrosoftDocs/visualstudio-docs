@@ -1,4 +1,5 @@
 ---
+description: "Specifies the existence of a bound breakpoint and also specifies if it is enabled."
 title: BP_STATE | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

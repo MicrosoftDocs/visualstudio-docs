@@ -1,4 +1,5 @@
 ---
+description: "Determines if searching for .pdb files is allowed in the system root directory."
 title: "IDiaLoadCallback2::RestrictSystemRootAccess | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

@@ -1,4 +1,5 @@
 ---
+description: "Creates an instance of a debug engine on the server."
 title: IDebugCoreServer3::CreateInstanceInServer | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

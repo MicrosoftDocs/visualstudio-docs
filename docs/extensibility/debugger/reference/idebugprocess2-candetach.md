@@ -1,4 +1,5 @@
 ---
+description: "Determines if the session debug manager (SDM) can detach the process."
 title: IDebugProcess2::CanDetach | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

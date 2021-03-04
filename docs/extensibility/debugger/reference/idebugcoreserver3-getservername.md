@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the name of the server."
 title: IDebugCoreServer3::GetServerName | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

@@ -1,4 +1,5 @@
 ---
+description: "This interface allows a debug engine (DE) or custom port suppliers to register programs for debugging."
 title: IDebugProgramPublisher2 | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

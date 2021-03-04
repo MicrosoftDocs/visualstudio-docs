@@ -1,4 +1,5 @@
 ---
+description: "Retrieves a CONTEXT_INFO structure that describes the context."
 title: IDebugMemoryContext2::GetInfo | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

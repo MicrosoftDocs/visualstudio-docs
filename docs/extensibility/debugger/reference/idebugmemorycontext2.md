@@ -1,4 +1,5 @@
 ---
+description: "This interface represents a position in the address space of the machine running the program being debugged."
 title: IDebugMemoryContext2 | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

@@ -1,4 +1,5 @@
 ---
+description: "This interface represents a process running on a port."
 title: IDebugProcess2 | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

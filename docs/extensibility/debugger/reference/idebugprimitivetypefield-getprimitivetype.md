@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the primitive type that is associated with this field."
 title: IDebugPrimitiveTypeField::GetPrimitiveType | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

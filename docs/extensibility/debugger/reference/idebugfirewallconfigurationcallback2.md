@@ -1,4 +1,5 @@
 ---
+description: "Enables a debug engine that uses DCOM to ask the Visual Studio UI to make sure that the firewall will not block remote debugging."
 title: IDebugFirewallConfigurationCallback2 | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

@@ -1,4 +1,5 @@
 ---
+description: "Describes an array of unique identifiers for available debug engines."
 title: GUID_ARRAY | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

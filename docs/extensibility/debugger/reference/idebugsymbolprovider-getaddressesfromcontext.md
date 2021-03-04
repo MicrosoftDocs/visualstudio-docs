@@ -1,4 +1,5 @@
 ---
+description: "This method maps a document context into an array of debug addresses."
 title: IDebugSymbolProvider::GetAddressesFromContext | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

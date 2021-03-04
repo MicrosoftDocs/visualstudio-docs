@@ -1,4 +1,5 @@
 ---
+description: "IDebugFunctionObject2::Evaluate calls the function and returns the resulting value as an object."
 title: IDebugFunctionObject2::Evaluate | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

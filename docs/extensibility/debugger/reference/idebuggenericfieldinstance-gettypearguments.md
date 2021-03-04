@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the type parameter arguments for this instance."
 title: IDebugGenericFieldInstance::GetTypeArguments | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

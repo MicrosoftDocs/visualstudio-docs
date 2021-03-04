@@ -1,4 +1,5 @@
 ---
+description: "Gets the description of a port that was previously used to create the port (if available)."
 title: IDebugPort2::GetPortRequest | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

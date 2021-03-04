@@ -1,4 +1,5 @@
 ---
+description: "This interface represents a module that supports alternate locations of symbols and JustMyCode states."
 title: IDebugModule3 | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

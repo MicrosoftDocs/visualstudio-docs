@@ -1,4 +1,5 @@
 ---
+description: "Specifies how much of a program's state (such as running threads, stack frames, and current instruction address) to dump."
 title: DUMPTYPE | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

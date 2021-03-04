@@ -1,4 +1,5 @@
 ---
+description: "Creates a type from the specified primitive type."
 title: IDebugComPlusSymbolProvider::CreateTypeFromPrimitive | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

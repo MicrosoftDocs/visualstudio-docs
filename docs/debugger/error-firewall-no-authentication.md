@@ -1,4 +1,5 @@
 ---
+description: "The Internet Connection Firewall on the remote machine is not set up to allow remote debugging."
 title: "Firewall No Authentication | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "error-reference"

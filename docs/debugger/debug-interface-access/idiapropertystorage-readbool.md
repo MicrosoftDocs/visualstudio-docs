@@ -1,4 +1,5 @@
 ---
+description: "Reads BOOL values in a property set."
 title: "IDiaPropertyStorage::ReadBOOL | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

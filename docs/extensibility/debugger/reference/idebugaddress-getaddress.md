@@ -1,4 +1,5 @@
 ---
+description: "Returns a structure describing an object and its location within its scope or container."
 title: IDebugAddress::GetAddress | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

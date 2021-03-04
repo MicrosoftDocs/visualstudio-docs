@@ -1,4 +1,5 @@
 ---
+description: "This interface represents the resolution of a breakpoint error."
 title: IDebugErrorBreakpointResolution2 | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

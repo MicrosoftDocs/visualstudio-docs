@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the texture slot."
 title: "IDiaSymbol::get_textureSlot | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

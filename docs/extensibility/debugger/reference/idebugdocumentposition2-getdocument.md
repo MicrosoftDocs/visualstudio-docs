@@ -1,4 +1,5 @@
 ---
+description: "Gets the containing document."
 title: IDebugDocumentPosition2::GetDocument | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

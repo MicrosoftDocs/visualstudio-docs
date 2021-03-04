@@ -1,4 +1,5 @@
 ---
+description: "Loads the specified debug symbols in memory."
 title: IDebugComPlusSymbolProvider::LoadSymbols | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

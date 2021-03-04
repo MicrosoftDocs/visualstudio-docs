@@ -1,4 +1,5 @@
 ---
+description: "Gets the GUID for this process."
 title: IDebugProcess2::GetProcessId | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

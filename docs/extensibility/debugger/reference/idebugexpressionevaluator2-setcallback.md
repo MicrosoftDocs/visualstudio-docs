@@ -1,4 +1,5 @@
 ---
+description: "Enables the expression evaluator (EE) to specify the callback interface that the debugger engine (DE) will use to read metric settings."
 title: IDebugExpressionEvaluator2::SetCallback | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

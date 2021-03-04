@@ -1,4 +1,5 @@
 ---
+description: "This interface represents a field, that is, a description of a symbol or type."
 title: IDebugField | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

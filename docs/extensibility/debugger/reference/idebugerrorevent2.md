@@ -1,4 +1,5 @@
 ---
+description: "This interface specifies an error message to be reported to the user."
 title: IDebugErrorEvent2 | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

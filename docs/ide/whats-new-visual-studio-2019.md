@@ -2,7 +2,7 @@
 title: "What's new in Visual Studio 2019"
 titleSuffix: ""
 description: "Learn about the new features in Visual Studio 2019."
-ms.date: 11/10/2020
+ms.date: 03/04/2021
 helpviewer_keywords:
   - "Visual Studio, what's new"
   - "what's new [Visual Studio]"
@@ -18,7 +18,7 @@ ms.workload:
 ---
 # What's new in Visual Studio 2019
 
-**Updated for the [16.8 release](/visualstudio/releases/2019/release-notes/)**
+**Updated for the [16.9 release](/visualstudio/releases/2019/release-notes/)**
 
 >[!div class="button"]
 >[Download Visual Studio 2019](https://visualstudio.microsoft.com/downloads)
@@ -41,11 +41,19 @@ View the following video to learn more about how you can save time with new feat
 
 ### Improved search
 
-Formerly known as Quick Launch, our new search experience is faster and more effective. Now, search results appear dynamically as you type. And, search results can often include keyboard shortcuts for commands, so that you can more easily memorize them for future use.
+Formerly known as Quick Launch, our new search experience is faster and more effective. Now, search results appear dynamically as you type. And, search results can often include keyboard shortcuts for commands, so that you can memorize them for future use.
 
    ![An animation of the new search experience in Visual Studio 2019](media/vs-2019/new-search-feature.gif "The new search experience in Visual Studio 2019.")
 
 The new fuzzy search logic will find anything you need, regardless of typos. So, whether you're looking for commands, settings, documentation, or other useful things, the new search feature makes it easier to find what you're looking for.
+
+For more information, see [Use Visual Studio search](visual-studio-search.md).
+
+#### Intelligent search service
+
+**New in 16.9**: By using cloud-powered technology, artificial intelligence, and machine learning, we've improved our search results. Not only is search in Visual Studio more relevant, but it can also help you discover product features more easily.
+
+For more information, see the [Intelligent Visual Studio search service](https://devblogs.microsoft.com/visualstudio/intelligent-visual-studio-search-service/) blog post.
 
 ### Refactorings
 
@@ -239,8 +247,8 @@ Why send feedback to the Visual Studio team? Because we take customer feedback s
 * [Visual Studio 2019 for Mac release notes](/visualstudio/releasenotes/vs2019-mac-relnotes/)
 * [What's new in the Visual Studio 2019 SDK](../extensibility/whats-new-visual-studio-2019-sdk.md)
 * [What's new for C++ in Visual Studio](/cpp/overview/what-s-new-for-visual-cpp-in-visual-studio/)
-* [What's new for C# 8.0](/dotnet/csharp/whats-new/csharp-8/)
-* [What's new in .NET Core 3.1](/dotnet/core/whats-new/dotnet-core-3-1/)
+* [What's new for C# 9.0](/dotnet/csharp/whats-new/csharp-9)
+* [What's new in .NET 5](/dotnet/core/dotnet-five)
 * [What's new in .NET Framework](/dotnet/framework/whats-new/)
 * [Microsoft Build conference](https://www.microsoft.com/build)
 * [Microsoft Ignite conference](https://www.microsoft.com/ignite)

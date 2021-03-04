@@ -1,4 +1,5 @@
 ---
+description: "Enumerates the various line numbers contained in the data source."
 title: "IDiaEnumLineNumbers | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

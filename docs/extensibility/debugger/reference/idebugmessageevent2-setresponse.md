@@ -1,4 +1,5 @@
 ---
+description: "Sets the response, if any, from the message box."
 title: IDebugMessageEvent2::SetResponse | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

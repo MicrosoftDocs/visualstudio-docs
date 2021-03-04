@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the document checksum for a breakpoint request given the unique identifier of the checksum algorithm to use."
 title: IDebugBreakpointChecksumRequest2::GetChecksum | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

@@ -1,4 +1,5 @@
 ---
+description: "Retrieves a flag that specifies whether the user-defined data type has any assignment operators defined."
 title: "IDiaSymbol::get_hasAssignmentOperator | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

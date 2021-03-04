@@ -1,4 +1,5 @@
 ---
+description: "Enables debug engines to read metric settings remotely."
 title: IDebugSettingsCallback2 | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

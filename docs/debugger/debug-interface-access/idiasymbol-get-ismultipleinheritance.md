@@ -1,4 +1,5 @@
 ---
+description: "Specifies whether the this pointer points to a data member with multiple inheritance."
 title: "IDiaSymbol::get_isMultipleInheritance | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

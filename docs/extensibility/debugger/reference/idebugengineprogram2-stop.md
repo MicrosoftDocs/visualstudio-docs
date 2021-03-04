@@ -1,4 +1,5 @@
 ---
+description: "Stops all threads running in this program."
 title: IDebugEngineProgram2::Stop | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

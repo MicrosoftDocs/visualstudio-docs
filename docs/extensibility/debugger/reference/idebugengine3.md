@@ -1,4 +1,5 @@
 ---
+description: "Represents a single debug engine (DE) that controls the debugging of one or more modules."
 title: IDebugEngine3 | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

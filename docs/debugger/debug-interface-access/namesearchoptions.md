@@ -1,4 +1,5 @@
 ---
+description: "Specifies the search options for symbol and file names."
 title: "NameSearchOptions | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

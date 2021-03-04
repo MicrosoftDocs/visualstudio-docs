@@ -1,4 +1,5 @@
 ---
+description: "All variables, such as parameters, local variables, global variables, and class members, are identified by SymTagData symbols."
 title: "Data (Debug Interface Access SDK) | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

@@ -1,4 +1,5 @@
 ---
+description: "Specifies the type of structure used to describe the location of the breakpoint."
 title: BP_LOCATION | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

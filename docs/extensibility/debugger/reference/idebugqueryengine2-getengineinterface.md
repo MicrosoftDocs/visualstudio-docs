@@ -1,4 +1,5 @@
 ---
+description: "Gets a custom debug engine (DE) interface."
 title: IDebugQueryEngine2::GetEngineInterface | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

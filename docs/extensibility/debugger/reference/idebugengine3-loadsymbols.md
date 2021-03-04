@@ -1,4 +1,5 @@
 ---
+description: "Loads (as necessary) symbols for all modules being debugged by this debugging engine."
 title: IDebugEngine3::LoadSymbols | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference
