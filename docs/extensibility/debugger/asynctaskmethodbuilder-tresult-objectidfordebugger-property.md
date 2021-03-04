@@ -1,5 +1,5 @@
 ---
-description: "Gets an object that may be used to uniquely identify this builder to the debugger."
+description: "AsyncTaskMethodBuilder&lt;TResult&gt;.ObjectIdForDebugger gets an object that may be used to uniquely identify this builder to the debugger."
 title: AsyncTaskMethodBuilder&lt;TResult&gt;.ObjectIdForDebugger property
 titleSuffix: ""
 ms.custom: SEO-VS-2020

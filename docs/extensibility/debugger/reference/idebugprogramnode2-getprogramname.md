@@ -1,5 +1,5 @@
 ---
-description: "Gets the name of the program."
+description: "IDebugProgramNode2::GetProgramName gets the name of the program."
 title: IDebugProgramNode2::GetProgramName | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference
