@@ -67,8 +67,8 @@ GitHub is available as either the cloud-based GitHub.com, or on-premise GitHub E
 - Learn more about GitHub assignment at [GitHub Docs](https://docs.github.com/en/github/setting-up-and-managing-your-enterprise-account/managing-licenses-for-the-github-enterprise-and-visual-studio-bundle)
 - Find answers to questions on a wide array of GitHub topics at [GitHub Help](https://help.github.com/en).
 - Get help from other GitHub users in the [GitHub Community Forum](https://github.community/).
-- For assistance with sales, subscriptions, accounts, and billing for Visual Studio Subscriptions, contact [Visual Studio administration and subscriptions support](https://my.visualstudio.com/gethelp).
-- Have a question about Visual Studio IDE, Azure DevOps Services, or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).
+- For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/).
+- Have a question about Visual Studio IDE, Azure DevOps Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).
 - Get [technical support](https://support.microsoft.com/supportforbusiness/productselection?sapId=b77fe80f-5417-80bd-4b2a-275cf0018c24) for GitHub Enterprise.   
 
 ## See also
