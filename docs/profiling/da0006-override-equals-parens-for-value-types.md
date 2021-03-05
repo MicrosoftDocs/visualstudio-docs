@@ -1,5 +1,6 @@
 ---
 title: DA0006 - Override Equals() for value types | Microsoft Docs
+description: "Calls to the Equals method or the equality operators of a public value type are a significant proportion of the profiling data."
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords: 
