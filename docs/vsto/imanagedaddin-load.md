@@ -1,6 +1,6 @@
 ---
 title: "IManagedAddin::Load"
-description: "Implement the IManagedAddin interface to create a component that loads managed VSTO Add-ins."
+description: "Called when a managed VSTO Add-in is loaded."
 ms.date: "02/02/2017"
 ms.topic: "interface"
 dev_langs:
