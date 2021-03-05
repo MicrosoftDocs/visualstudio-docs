@@ -79,13 +79,13 @@ From Visual Studio, you can quickly publish and debug your app to a fully provis
     ::: moniker range=">=vs-2019"
     Choose **Azure** from the **Publish** dialog box and select **Next**. Then choose **Azure App Service (Windows)**, select **Next**, and follow the prompts to create a profile.
 
-    :::image type="content" source="../debugger/media/vs-2019/remotedbg_azure_app_service_profile.png" alt-text="Deploy an ASP.NET Core web app to Azure using Visual Studio":::
+    :::image type="content" source="../debugger/media/vs-2019/remotedbg-azure-app-service-profile.png" alt-text="Deploy an ASP.NET Core web app to Azure using Visual Studio":::
     ::: moniker-end
     ::: moniker range="vs-2017"
 
     Choose **Azure App Service** from the **Publish** dialog box, select **Create New**, and follow the prompts to create a profile.
 
-    ![Publish to Azure App Service](../debugger/media/remotedbg_azure_app_service_profile.png)
+    ![Publish to Azure App Service](../debugger/media/remotedbg-azure-app-service-profile.png)
     ::: moniker-end
 
     For more detailed instructions, see [Deploy an ASP.NET Core web app to Azure using Visual Studio](/aspnet/core/tutorials/publish-to-azure-webapp-using-vs).

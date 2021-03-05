@@ -12,6 +12,7 @@ ms.workload:
   - "aspnet"
 ---
 # Remote Debug ASP.NET on a Remote IIS Computer
+
 To debug an ASP.NET application that has been deployed to IIS, install and run the remote tools on the computer where you deployed your app, and then attach to your running app from Visual Studio.
 
 ![Remote debugger components](../debugger/media/remote-debugger-aspnet.png "Remote_debugger_components")
@@ -31,6 +32,7 @@ Visual Studio 2017 is required to follow the steps shown in this article.
 ::: moniker-end
 
 These procedures have been tested on these server configurations:
+
 * Windows Server 2012 R2 and IIS 8 (For Windows Server 2008 R2, the server steps are different)
 
 ## Network requirements
@@ -138,7 +140,7 @@ After the app deploys successfully, it should start automatically. If the app do
 
 ## (Optional) Deploy by publishing to a local folder
 
-You can use this option to deploy your app if you want to copy the app to IIS using Powershell, RoboCopy, or you want to manually copy the files.
+You can use this option to deploy your app if you want to copy the app to IIS using PowerShell, RoboCopy, or you want to manually copy the files.
 
 ### <a name="BKMK_deploy_asp_net"></a> Configure the ASP.NET Web site on the Windows Server computer
 
