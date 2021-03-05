@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: b331c837-3524-42b7-820e-b4fdd5e12793
-ms.date: 09/03/2020
+ms.date: 03/05/2021
 ms.topic: conceptual
 description:  Learn about managing Visual Studio subscriptions in a Microsoft Products and Services Agreement (MPSA)
 ---
@@ -36,15 +36,10 @@ Once you have met the criteria above you may proceed to associate your Purchasin
 1. Log in to [Business Center](https://businessaccount.microsoft.com/Customer).
 2. Click on the **Account** tab and choose **Associate Domains**.
 3. Select your **Purchasing Account** (if you have more than one).
-4. Select your **tenant** (i.e. contoso.onmicrosoft.com).
+4. Select your **tenant** (example: contoso.onmicrosoft.com).
 5. Click **Associate Domain**.
 
-Upon association, all users meeting the criteria will typically provision as Visual Studio subscriptions admins within minutes. However, at times it may take up to 24 hours. Once your tenant is provisioned you will be able to access the Visual Studio Subscriptions Administration Portal. If this takes longer than 24 hours, please contact MPSA Support using these steps:
-1. Connect to <https://www.microsoft.com/licensing/mpsa/default>
-2. Click the **More** menu at the top of the page. 
-3. Choose **Support**
-4. Choose **Licensing support**
-5. Select the support option that best fits your needs. 
+Upon association, all users meeting the criteria will typically provision as Visual Studio subscriptions admins within minutes. However, at times it may take up to 24 hours. Once your tenant is provisioned you will be able to access the Visual Studio Subscriptions Administration Portal. If this takes longer than 24 hours, please contact [Business Center support](https://businessaccount.microsoft.com/Customer/ContactUs).
 
 > [!NOTE]
 > If there are new users that meet the criteria in steps 2 and 5 (after association) you must contact MPSA Support. MPSA Support will provide assistance to provision the new Visual Studio Subscriptions admins.
