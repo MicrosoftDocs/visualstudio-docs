@@ -1,4 +1,5 @@
 ---
+description: "Compares an object with this object."
 title: IDebugObject::IsEqual | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

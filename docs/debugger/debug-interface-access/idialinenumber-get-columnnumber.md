@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the column number where the expression or statement begins."
 title: "IDiaLineNumber::get_columnNumber | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

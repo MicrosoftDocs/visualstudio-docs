@@ -1,4 +1,5 @@
 ---
+description: "Provides methods to do a stack walk using information in the .pdb file."
 title: "IDiaStackWalker | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

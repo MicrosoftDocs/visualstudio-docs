@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the offset to the beginning of a user-defined type (UDT) of a member in the UDT."
 title: "IDiaSymbol::get_offsetInUdt | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

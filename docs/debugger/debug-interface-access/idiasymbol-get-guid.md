@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the symbol's globally unique identifier (GUID)."
 title: "IDiaSymbol::get_guid | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

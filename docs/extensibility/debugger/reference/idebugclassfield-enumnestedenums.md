@@ -1,4 +1,5 @@
 ---
+description: "Creates an enumerator for the nested enumerators of this class."
 title: IDebugClassField::EnumNestedEnums | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

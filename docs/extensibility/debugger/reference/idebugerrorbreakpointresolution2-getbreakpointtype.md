@@ -1,4 +1,5 @@
 ---
+description: "Gets the breakpoint type."
 title: IDebugErrorBreakpointResolution2::GetBreakpointType | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

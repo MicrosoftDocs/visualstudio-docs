@@ -1,4 +1,5 @@
 ---
+description: "Gets the file statement range of the document context."
 title: IDebugDocumentContext2::GetStatementRange | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

@@ -1,4 +1,5 @@
 ---
+description: "Determines the line numbers of the compiland that the specified line number in a source file lies within or near."
 title: "IDiaSession::findLinesByLinenum | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

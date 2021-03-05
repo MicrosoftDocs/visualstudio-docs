@@ -1,4 +1,5 @@
 ---
+description: "Gets the name of the function to which this position points."
 title: IDebugFunctionPosition2::GetFunctionName | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

@@ -1,4 +1,5 @@
 ---
+description: "Describes the resolution of an error breakpoint, including location, program, and thread."
 title: BP_ERROR_RESOLUTION_INFO | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

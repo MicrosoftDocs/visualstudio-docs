@@ -1,4 +1,5 @@
 ---
+description: "IDebugProgram2::Execute continues running this program from a stopped state. Any previous execution state (such as a step) is cleared, and the program starts executing again."
 title: IDebugProgram2::Execute | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

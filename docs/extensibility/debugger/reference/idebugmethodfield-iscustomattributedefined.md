@@ -1,4 +1,5 @@
 ---
+description: "Determines whether a specific custom attribute has been defined."
 title: IDebugMethodField::IsCustomAttributeDefined | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

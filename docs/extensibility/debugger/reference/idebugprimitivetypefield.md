@@ -1,4 +1,5 @@
 ---
+description: "Represents a primitive type enumeration value from an IDebugField interface."
 title: IDebugPrimitiveTypeField | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

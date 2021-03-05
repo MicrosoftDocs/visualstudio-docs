@@ -81,7 +81,7 @@ The following diagram shows the same cluster with Bridge to Kubernetes enabled i
 
 ![Diagram of cluster with Bridge to Kubernetes enabled](media/bridge-to-kubernetes/kubr-cluster-devcomputer.svg)
 
-When a request with the *GENERATED_NAME* subdomain is received on the cluster, a *kubernetes-route-as=GENERATED_NAME* header is added to the to the request. The envoy pods handle routing that request to the appropriate service in the cluster. If the request is routed to the service that is being worked on in isolation, that request is redirected to your development computer by the remote agent.
+When a request with the *GENERATED_NAME* subdomain is received on the cluster, a *kubernetes-route-as=GENERATED_NAME* header is added to the request. The envoy pods handle routing that request to the appropriate service in the cluster. If the request is routed to the service that is being worked on in isolation, that request is redirected to your development computer by the remote agent.
 
 When a request without the *GENERATED_NAME* subdomain is received on the cluster, no header is added to the request. The envoy pods handle routing that request to the appropriate service in the cluster. If the request is routed to the service that is being replaced, that request is instead routed to the original service instead of the remote agent.
 

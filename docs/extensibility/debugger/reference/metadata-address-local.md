@@ -1,4 +1,5 @@
 ---
+description: "This structure represents the address of a local variable within a scope (usually a function or method)."
 title: METADATA_ADDRESS_LOCAL | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

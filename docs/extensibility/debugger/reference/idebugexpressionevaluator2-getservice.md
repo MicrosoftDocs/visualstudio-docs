@@ -1,4 +1,5 @@
 ---
+description: "Retrieves a service object given its unique identifier."
 title: IDebugExpressionEvaluator2::GetService | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

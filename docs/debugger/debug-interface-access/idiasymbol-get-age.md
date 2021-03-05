@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the age value of a .pdb file."
 title: "IDiaSymbol::get_age | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

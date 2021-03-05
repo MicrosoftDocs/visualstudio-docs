@@ -1,4 +1,5 @@
 ---
+description: "Returns the number of elements in the FRAMEINFO enumeration."
 title: IEnumDebugFrameInfo2::GetCount | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

@@ -1,4 +1,5 @@
 ---
+description: "Reads the specified number of bytes starting at the specified offset from an executable file."
 title: "IDiaReadExeAtOffsetCallback::ReadExecutableAt | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

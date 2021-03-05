@@ -27,8 +27,8 @@ The `VisibilityItem` element determines the static visibility of commands and to
 
 ```xml
 <VisibilityItem
-  guid ="="cmdGuidMyProductCommands"
-  id=="cmdidAddWidget"
+  guid="cmdGuidMyProductCommands"
+  id="cmdidAddWidget"
   context="guidNotViewSourceMode"/>
 ```
 

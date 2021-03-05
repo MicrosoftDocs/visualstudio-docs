@@ -1,4 +1,5 @@
 ---
+description: "This method adds a program node for each debug engine (DE) specified."
 title: IDebugProcessEx2::AddImplicitProgramNodes | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

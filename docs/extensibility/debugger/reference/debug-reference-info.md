@@ -1,4 +1,5 @@
 ---
+description: "Describes a reference."
 title: DEBUG_REFERENCE_INFO | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

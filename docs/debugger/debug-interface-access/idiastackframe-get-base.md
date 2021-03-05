@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the base address of the frame."
 title: "IDiaStackFrame::get_base | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

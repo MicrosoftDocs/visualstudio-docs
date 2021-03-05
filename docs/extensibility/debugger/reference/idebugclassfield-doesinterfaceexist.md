@@ -1,4 +1,5 @@
 ---
+description: "Determines if a specific interface is defined in the class."
 title: IDebugClassField::DoesInterfaceExist | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

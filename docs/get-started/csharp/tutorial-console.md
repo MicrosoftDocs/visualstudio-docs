@@ -2,7 +2,7 @@
 title: "Tutorial: Create a simple C# console app"
 description: "Learn how to create a C# console app in Visual Studio, step-by-step."
 ms.custom: "seodec18, get-started"
-ms.date: 02/18/2020
+ms.date: 02/10/2021
 ms.technology: vs-ide-general
 ms.prod: visual-studio-windows
 ms.topic: tutorial
@@ -77,14 +77,14 @@ If you don't see the **Console App (.NET Core)** project template, you can get i
 
    ![View the 'Create a new project' window](../../get-started/media/vs-2019/create-new-project-dark-theme.png)
 
-1. On the **Create a new project** window, enter or type *console* in the search box. Next, choose **C#** from the Language list, and then choose **Windows** from the Platform list. 
+1. In the **Create a new project** window, choose **C#** from the Language list. Next, choose **Windows** from the Platform list and **Console** from the project types list. 
 
-   After you apply the language and platform filters, choose the **Console App (.NET Core)** template, and then choose **Next**.
+   After you apply the language, platform, and project type filters, choose the **Console Application** template, and then choose **Next**.
 
-   ![Choose the C# template for the Console App (.NET Framework)](./media/vs-2019/csharp-create-new-project-search-console-net-core-filtered.png)
+    :::image type="content" source="./media/vs-2019/csharp-create-new-project-console-net-core.png" alt-text="Choose the C# template for the Console App (.NET Framework)":::
 
    > [!NOTE]
-   > If you do not see the **Console App (.NET Core)** template, you can install it from the **Create a new project** window. In the **Not finding what you're looking for?** message, choose the **Install more tools and features** link.
+   > If you do not see the **Console Application** template, you can install it from the **Create a new project** window. In the **Not finding what you're looking for?** message, choose the **Install more tools and features** link.
    >
    > ![The 'Install more tools and features' link from the 'Not finding what you're looking for' message in the 'Create new project' window](../../get-started/media/vs-2019/not-finding-what-looking-for.png) 
    > 
@@ -94,12 +94,16 @@ If you don't see the **Console App (.NET Core)** project template, you can get i
    >
    > After that, choose the **Modify** button in the Visual Studio Installer. You might be prompted to save your work; if so, do so. Next, choose **Continue** to install the workload. Then, return to step 2 in this "[Create a project](#create-a-project)" procedure.
 
-1. In the **Configure your new project** window, type or enter *Calculator* in the **Project name** box. Then, choose **Create**.
+1. In the **Configure your new project** window, type or enter *Calculator* in the **Project name** box. Then, choose **Next**.
 
-   ![in the 'Configure your new project' window, name your project 'Calculator'](./media/vs-2019/csharp-name-your-calculator-project.png)
+    :::image type="content" source="./media/vs-2019/csharp-name-your-calculator-project.png" alt-text="in the 'Configure your new project' window, name your project 'Calculator'":::
+   
+1. In the **Additional information** window, **.NET Core 3.1** should already be selected for your target framework. If not, select **.NET Core 3.1**. Then, choose **Create**.
+
+    :::image type="content" source="./media/vs-2019/csharp-target-framework.png" alt-text="in the 'In the 'Additional information' window, make sure .NET Core 3.1 is selected":::
 
    Visual Studio opens your new project, which includes default "Hello World" code.
-   
+
 ::: moniker-end
 
 ## Create the app

@@ -1,4 +1,5 @@
 ---
+description: "Specifies the position from which to start seeking in a disassembly stream."
 title: SEEK_START | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

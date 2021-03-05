@@ -1,4 +1,5 @@
 ---
+description: "Called by the session debug manager (SDM) to indicate that a synchronous debug event, previously sent by the debug engine (DE) to the SDM, was received and processed."
 title: IDebugEngine2::ContinueFromSynchronousEvent | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

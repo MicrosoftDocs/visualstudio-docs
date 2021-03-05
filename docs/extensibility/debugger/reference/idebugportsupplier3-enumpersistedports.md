@@ -1,4 +1,5 @@
 ---
+description: "This method retrieves an object that allows enumeration of the list of persisted ports."
 title: IDebugPortSupplier3::EnumPersistedPorts | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

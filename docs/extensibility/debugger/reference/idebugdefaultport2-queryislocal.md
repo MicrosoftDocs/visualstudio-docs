@@ -1,4 +1,5 @@
 ---
+description: "This method determines whether this port is on the local machine."
 title: IDebugDefaultPort2::QueryIsLocal | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

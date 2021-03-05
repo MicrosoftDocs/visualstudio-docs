@@ -1,4 +1,5 @@
 ---
+description: "This method returns a copy of the current fields enumeration as a separate object."
 title: IEnumDebugFields::Clone | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

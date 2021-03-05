@@ -1,4 +1,5 @@
 ---
+description: "This method gets the container of a field."
 title: IDebugField::GetContainer | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

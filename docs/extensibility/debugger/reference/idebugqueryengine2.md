@@ -1,4 +1,5 @@
 ---
+description: "This interface lets the session debug manager (SDM) retrieve an interface that represents the debug engine (DE)."
 title: IDebugQueryEngine2 | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

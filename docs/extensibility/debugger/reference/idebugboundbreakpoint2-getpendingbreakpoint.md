@@ -1,4 +1,5 @@
 ---
+description: "Gets the pending breakpoint from which the specified bound breakpoint was created."
 title: IDebugBoundBreakpoint2::GetPendingBreakpoint | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

@@ -1,4 +1,5 @@
 ---
+description: "Retrieves a flag indicating whether the symbol file contains C types."
 title: "IDiaSymbol::get_isCTypes | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

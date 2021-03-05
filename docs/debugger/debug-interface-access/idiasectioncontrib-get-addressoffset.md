@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the offset part of the contribution's address."
 title: "IDiaSectionContrib::get_addressOffset | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

@@ -1,4 +1,5 @@
 ---
+description: "This interface is sent by the debug engine (DE) to the session debug manager (SDM) when a module is loaded or unloaded."
 title: IDebugModuleLoadEvent2 | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

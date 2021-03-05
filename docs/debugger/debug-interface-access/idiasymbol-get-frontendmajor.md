@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the front end major version number."
 title: "IDiaSymbol::get_frontEndMajor | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

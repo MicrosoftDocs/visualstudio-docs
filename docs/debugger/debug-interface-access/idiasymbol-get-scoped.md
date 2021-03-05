@@ -1,4 +1,5 @@
 ---
+description: "Retrieves a flag that specifies whether the user-defined data type appears in a non-global lexical scope."
 title: "IDiaSymbol::get_scoped | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

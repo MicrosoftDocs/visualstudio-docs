@@ -1,4 +1,5 @@
 ---
+description: "This interface implements key methods that supply functionality to the IDebugProperty3 and IPropertyProxyEESide interfaces."
 title: IEEVisualizerService | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

@@ -1,4 +1,5 @@
 ---
+description: "Facilitates walking the stack using the program debug database (.pdb) file."
 title: "IDiaStackWalkHelper | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

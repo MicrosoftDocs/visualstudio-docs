@@ -1,4 +1,5 @@
 ---
+description: "Gets the type of the breakpoint represented by this resolution."
 title: IDebugBreakpointResolution2::GetBreakpointType | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

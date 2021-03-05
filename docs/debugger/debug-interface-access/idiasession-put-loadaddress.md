@@ -1,4 +1,5 @@
 ---
+description: "Sets the load address for the executable file that corresponds to the symbols in this symbol store."
 title: "IDiaSession::put_loadAddress | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

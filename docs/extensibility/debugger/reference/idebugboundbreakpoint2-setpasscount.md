@@ -1,4 +1,5 @@
 ---
+description: "Sets or changes the pass count associated with this bound breakpoint."
 title: IDebugBoundBreakpoint2::SetPassCount | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

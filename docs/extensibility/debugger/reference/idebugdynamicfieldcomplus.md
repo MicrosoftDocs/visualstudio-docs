@@ -1,4 +1,5 @@
 ---
+description: "Represents a dynamic field for an IDebugBinder object."
 title: IDebugDynamicFieldCOMPlus | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

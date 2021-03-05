@@ -1,4 +1,5 @@
 ---
+description: "Retrieves information about the method at the specified debug address."
 title: IDebugSymbolProviderDirect::GetMethodFromAddress | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

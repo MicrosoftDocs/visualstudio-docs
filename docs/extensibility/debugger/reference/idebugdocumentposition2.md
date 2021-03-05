@@ -1,4 +1,5 @@
 ---
+description: "This interface represents an abstract position in a source file."
 title: IDebugDocumentPosition2 | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

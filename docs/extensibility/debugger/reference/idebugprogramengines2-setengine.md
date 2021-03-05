@@ -1,4 +1,5 @@
 ---
+description: "Tells the program or program node which debug engine (DE) to use to debug this program."
 title: IDebugProgramEngines2::SetEngine | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

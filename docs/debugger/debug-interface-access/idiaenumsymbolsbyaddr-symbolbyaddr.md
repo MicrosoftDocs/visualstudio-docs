@@ -1,4 +1,5 @@
 ---
+description: "Positions the enumerator by performing a lookup by image section number and offset."
 title: "IDiaEnumSymbolsByAddr::symbolByAddr | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

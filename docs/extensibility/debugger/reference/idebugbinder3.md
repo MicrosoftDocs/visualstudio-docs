@@ -1,4 +1,5 @@
 ---
+description: "This interface provides access to types, aliases, and custom visualizer services."
 title: IDebugBinder3 | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

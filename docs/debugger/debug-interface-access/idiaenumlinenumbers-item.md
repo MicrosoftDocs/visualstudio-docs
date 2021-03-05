@@ -1,4 +1,5 @@
 ---
+description: "Retrieves a line number by means of an index."
 title: "IDiaEnumLineNumbers::Item | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

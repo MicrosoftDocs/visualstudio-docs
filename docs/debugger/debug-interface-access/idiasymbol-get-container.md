@@ -1,4 +1,5 @@
 ---
+description: "This function retrieves a pointer to a symbol representing the parent/container of this symbol."
 title: "IDiaSymbol::get_container | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

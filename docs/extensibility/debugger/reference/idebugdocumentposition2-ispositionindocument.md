@@ -1,4 +1,5 @@
 ---
+description: "Determines if the document position is contained in the given document."
 title: IDebugDocumentPosition2::IsPositionInDocument | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

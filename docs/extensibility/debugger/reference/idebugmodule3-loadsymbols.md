@@ -1,4 +1,5 @@
 ---
+description: "Loads the symbols for the current module."
 title: IDebugModule3::LoadSymbols | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

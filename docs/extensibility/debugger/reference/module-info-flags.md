@@ -1,4 +1,5 @@
 ---
+description: "Specifies the state of symbols for a module."
 title: MODULE_INFO_FLAGS | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

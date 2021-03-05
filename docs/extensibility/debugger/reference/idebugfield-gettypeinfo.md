@@ -1,4 +1,5 @@
 ---
+description: "This method gets type-independent information about the symbol or type."
 title: IDebugField::GetTypeInfo | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

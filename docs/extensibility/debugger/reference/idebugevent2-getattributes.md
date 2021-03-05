@@ -1,4 +1,5 @@
 ---
+description: "Gets the attributes for this debug event."
 title: IDebugEvent2::GetAttributes | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

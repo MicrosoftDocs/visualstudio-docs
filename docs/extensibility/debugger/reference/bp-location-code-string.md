@@ -1,4 +1,5 @@
 ---
+description: "Used for setting code breakpoints based on a string that the user can enter from the integrated development environment (IDE)."
 title: BP_LOCATION_CODE_STRING | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

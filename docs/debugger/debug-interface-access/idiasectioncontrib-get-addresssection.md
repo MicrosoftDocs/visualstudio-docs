@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the section part of the contribution's address."
 title: "IDiaSectionContrib::get_addressSection | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

@@ -1,4 +1,5 @@
 ---
+description: "This interface is sent by the debug engine (DE) to the session debug manager (SDM) when the program being debugged completes a step into, a step over, or a step out of a line of source code or statement or instruction."
 title: IDebugStepCompleteEvent2 | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

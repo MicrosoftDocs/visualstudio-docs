@@ -1,4 +1,5 @@
 ---
+description: "Creates a copy of a data object specific to the expression evaluator (EE)."
 title: IPropertyProxyEESide::CreateReplacementObject | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

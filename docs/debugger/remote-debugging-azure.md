@@ -53,10 +53,12 @@ Debugging between two computers connected through a proxy is not supported. Debu
 
 ## Create the ASP.NET Core application on the Visual Studio computer
 
-1. Create a new ASP.NET Core application.
+1. Create a new ASP.NET Core web application.
 
     ::: moniker range=">=vs-2019"
-    In Visual Studio 2019, type **Ctrl + Q** to open the search box, type **asp.net**, choose **Templates**, then choose **Create new ASP.NET Core Web Application**. In the dialog box that appears, name the project **MyASPApp**, and then choose **Create**. Next, choose **Web Application (Model-View-Controller)**, and then choose **Create**.
+    In Visual Studio 2019, choose **Create a new project** in the start window. If the start window is not open, choose **File** > **Start Window**. Type **web app**, choose **C#** as the language, then choose **ASP.NET Core Web Application (Model-View-Controller)**, and then choose **Next**. On the next screen, name the project **MyASPApp**, and then choose **Next**.
+
+    Choose either the recommended target framework (.NET Core 3.1) or .NET 5, and then choose **Create**.
     ::: moniker-end
     ::: moniker range="vs-2017"
     In Visual Studio 2017, choose **File > New > Project**, then select **Visual C# > Web > ASP.NET Core Web Application**. In the ASP.NET Core templates section, select **Web Application (Model-View-Controller)**. Make sure that ASP.NET Core 2.1 is selected, that **Enable Docker Support** is not selected and that **Authentication** is set to **No Authentication**. Name the project **MyASPApp**.

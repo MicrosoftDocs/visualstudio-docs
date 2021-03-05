@@ -1,4 +1,5 @@
 ---
+description: "Describes an exception or run-time error thrown by the program being debugged."
 title: EXCEPTION_INFO | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

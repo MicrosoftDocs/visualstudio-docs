@@ -1,4 +1,5 @@
 ---
+description: "Describes an entry in an address map."
 title: "DiaAddressMapEntry | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

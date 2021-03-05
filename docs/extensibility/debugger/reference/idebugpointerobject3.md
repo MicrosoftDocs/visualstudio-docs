@@ -1,4 +1,5 @@
 ---
+description: "Represents a pointer in a parse tree, and extends the IDebugPointerObject interface."
 title: IDebugPointerObject3 | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

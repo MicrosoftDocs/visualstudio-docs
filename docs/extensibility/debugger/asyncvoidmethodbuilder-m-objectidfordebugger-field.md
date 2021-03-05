@@ -1,4 +1,5 @@
 ---
+description: "Represents the lazily initialized object used by the debugger to uniquely identify this builder."
 title: AsyncVoidMethodBuilder.m_objectIdForDebugger Field | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: conceptual

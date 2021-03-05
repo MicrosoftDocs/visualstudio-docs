@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the value string of an expression evaluator metric given its name."
 title: IDebugSettingsCallback2::GetEEMetricString | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

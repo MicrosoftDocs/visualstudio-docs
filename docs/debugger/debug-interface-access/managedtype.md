@@ -1,4 +1,5 @@
 ---
+description: "A managed type (any symbol defined by metadata, or native to the memory and resource management functionality of languages such as C#) is identified by a SymTagManagedType symbol."
 title: "ManagedType | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

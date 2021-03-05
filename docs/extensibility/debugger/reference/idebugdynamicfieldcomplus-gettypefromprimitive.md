@@ -1,4 +1,5 @@
 ---
+description: "Retrieves a type given its primitive type."
 title: IDebugDynamicFieldCOMPlus::GetTypeFromPrimitive | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

@@ -1,4 +1,5 @@
 ---
+description: "This function opens an existing source control project or creates a new one."
 title: SccOpenProject Function | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: conceptual

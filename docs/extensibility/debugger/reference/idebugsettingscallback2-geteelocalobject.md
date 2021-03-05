@@ -1,4 +1,5 @@
 ---
+description: "Retrieves a expression evaluator local object given the metric name."
 title: IDebugSettingsCallback2::GetEELocalObject | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

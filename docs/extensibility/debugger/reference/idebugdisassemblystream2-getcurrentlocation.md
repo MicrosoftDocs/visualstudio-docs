@@ -1,4 +1,5 @@
 ---
+description: "Returns a code location identifier that represents the current code location."
 title: IDebugDisassemblyStream2::GetCurrentLocation | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

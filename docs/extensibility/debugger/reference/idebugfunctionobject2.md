@@ -1,4 +1,5 @@
 ---
+description: "Represents a function and enhances the IDebugFunctionObject interface."
 title: IDebugFunctionObject2 | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

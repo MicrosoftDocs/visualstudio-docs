@@ -1,4 +1,5 @@
 ---
+description: "Skips a specified number of source files in an enumeration sequence."
 title: "IDiaEnumSourceFiles::Skip | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

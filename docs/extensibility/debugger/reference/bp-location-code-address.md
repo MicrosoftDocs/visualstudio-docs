@@ -1,4 +1,5 @@
 ---
+description: "Describes the location of a breakpoint at an address in code."
 title: BP_LOCATION_CODE_ADDRESS | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

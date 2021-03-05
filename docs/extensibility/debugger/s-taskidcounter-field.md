@@ -1,4 +1,5 @@
 ---
+description: "The next available identifier for a System.Threading.Tasks.Task object."
 title: s_taskIdCounter Field | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: conceptual

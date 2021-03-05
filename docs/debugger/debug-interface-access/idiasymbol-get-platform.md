@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the platform type for which the compiland was compiled."
 title: "IDiaSymbol::get_platform | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

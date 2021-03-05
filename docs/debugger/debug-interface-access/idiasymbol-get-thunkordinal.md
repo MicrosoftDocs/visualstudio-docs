@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the thunk type of a function."
 title: "IDiaSymbol::get_thunkOrdinal | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"
