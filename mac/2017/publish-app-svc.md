@@ -1,5 +1,6 @@
 ---
 title: Publish to Azure App Service
+description: You can use the Publish tool to publish ASP.NET Core apps to Azure App Service.
 ms.date: 01/17/2019
 helpviewer_keywords:
   - "deployment, website"

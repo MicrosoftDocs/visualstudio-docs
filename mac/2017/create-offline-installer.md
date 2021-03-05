@@ -1,6 +1,6 @@
 ---
 title: Create an Offline Installer
-description:
+description: An offline installer feature is planned for future versions of Visual Studio for Mac.
 author: heiligerdankgesang
 ms.author: dominicn
 ms.date: 11/06/2018
