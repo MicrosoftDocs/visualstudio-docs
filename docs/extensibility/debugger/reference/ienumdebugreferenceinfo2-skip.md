@@ -1,5 +1,5 @@
 ---
-description: "Skips over the specified number of elements."
+description: "Skips over the specified number of DEBUG_REFERENCE_INFO elements."
 title: IEnumDebugReferenceInfo2::Skip | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

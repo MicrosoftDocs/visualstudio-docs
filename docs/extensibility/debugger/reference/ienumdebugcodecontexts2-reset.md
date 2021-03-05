@@ -1,5 +1,5 @@
 ---
-description: "Resets the enumeration to the first element."
+description: "Resets the code contexts enumeration to the first element."
 title: IEnumDebugCodeContexts2::Reset | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

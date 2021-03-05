@@ -1,5 +1,5 @@
 ---
-description: "Returns the next set of elements from the enumeration."
+description: "Returns the next set of DEBUG_REFERENCE_INFO elements from the enumeration."
 title: IEnumDebugReferenceInfo2::Next | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-description: "Resets the enumeration to the first element."
+description: "Resets the port suppliers enumeration to the first element."
 title: IEnumDebugPortSuppliers2::Reset | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

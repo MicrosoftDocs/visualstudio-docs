@@ -1,5 +1,5 @@
 ---
-description: "Skips over the specified number of elements."
+description: "Skips over the specified number of elements in the code contexts enumeration."
 title: IEnumDebugCodeContexts2::Skip | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

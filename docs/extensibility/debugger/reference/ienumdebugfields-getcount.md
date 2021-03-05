@@ -1,5 +1,5 @@
 ---
-description: "This method returns the number of elements in the enumeration."
+description: "This method returns the number of elements in the fields enumeration."
 title: IEnumDebugFields::GetCount | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

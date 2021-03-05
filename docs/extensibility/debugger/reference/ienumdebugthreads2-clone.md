@@ -1,5 +1,5 @@
 ---
-description: "Returns a copy of the current enumeration as a separate object."
+description: "Returns a copy of the current threads enumeration as a separate object."
 title: IEnumDebugThreads2::Clone | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

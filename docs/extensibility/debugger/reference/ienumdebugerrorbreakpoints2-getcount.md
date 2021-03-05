@@ -1,5 +1,5 @@
 ---
-description: "Returns the number of elements in the enumeration."
+description: "Returns the number of elements in the error breakpoints enumeration."
 title: IEnumDebugErrorBreakpoints2::GetCount | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

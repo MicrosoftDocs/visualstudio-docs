@@ -1,5 +1,5 @@
 ---
-description: "This method skips over the specified number of elements."
+description: "This method skips over the specified number of elements in the addresses enumeration."
 title: IEnumDebugAddresses::Skip | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

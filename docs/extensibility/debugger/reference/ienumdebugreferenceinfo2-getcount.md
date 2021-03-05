@@ -1,5 +1,5 @@
 ---
-description: "Returns the number of elements in the enumeration."
+description: "Returns the number of DEBUG_REFERENCE_INFO elements in the enumeration."
 title: IEnumDebugReferenceInfo2::GetCount | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

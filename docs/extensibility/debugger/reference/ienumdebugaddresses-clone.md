@@ -1,5 +1,5 @@
 ---
-description: "This method returns a copy of the current enumeration as a separate object."
+description: "This method returns a copy of the current addresses enumeration as a separate object."
 title: IEnumDebugAddresses::Clone | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

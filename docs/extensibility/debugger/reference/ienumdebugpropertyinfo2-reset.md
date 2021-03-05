@@ -1,5 +1,5 @@
 ---
-description: "Resets the enumeration to the first element."
+description: "Resets the enumeration to the first DEBUG_PROPERTY_INFO element."
 title: IEnumDebugPropertyInfo2::Reset | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

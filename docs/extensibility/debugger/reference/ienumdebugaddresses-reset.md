@@ -1,5 +1,5 @@
 ---
-description: "This method resets the enumeration to the first element."
+description: "This method resets the addresses enumeration to the first element."
 title: IEnumDebugAddresses::Reset | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

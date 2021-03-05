@@ -1,5 +1,5 @@
 ---
-description: "Returns a copy of the current enumeration as a separate object."
+description: "Returns a copy of the current bound breakpoints enumeration as a separate object."
 title: IEnumDebugBoundBreakpoints2::Clone | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference
