@@ -1,4 +1,5 @@
 ---
+description: "This method returns the value associated with the name of an enumeration constant."
 title: IDebugEnumField::GetValueFromString | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

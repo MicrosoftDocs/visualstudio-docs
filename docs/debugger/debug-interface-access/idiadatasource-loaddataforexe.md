@@ -1,4 +1,5 @@
 ---
+description: "Opens and prepares the debug data associated with the .exe/.dll file."
 title: "IDiaDataSource::loadDataForExe | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

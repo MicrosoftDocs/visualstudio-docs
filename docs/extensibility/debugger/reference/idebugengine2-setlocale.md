@@ -1,4 +1,5 @@
 ---
+description: "Sets the locale of the debug engine (DE)."
 title: IDebugEngine2::SetLocale | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

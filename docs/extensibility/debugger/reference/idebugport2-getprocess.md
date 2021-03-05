@@ -1,4 +1,5 @@
 ---
+description: "Gets the specified process running on a port."
 title: IDebugPort2::GetProcess | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

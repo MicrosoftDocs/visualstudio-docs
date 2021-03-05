@@ -1,4 +1,5 @@
 ---
+description: "Disables automatic attaching for all debug engines associated with this server."
 title: IDebugCoreServer3::DisableAutoAttach | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

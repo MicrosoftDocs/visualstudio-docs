@@ -1,4 +1,5 @@
 ---
+description: "Specifies the information to be retrieved about a breakpoint request."
 title: BPREQI_FIELDS | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

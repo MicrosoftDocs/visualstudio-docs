@@ -1,4 +1,5 @@
 ---
+description: "Gets the memory context that represents the address of the value of the object."
 title: IDebugObject::GetMemoryContext | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

@@ -1,4 +1,5 @@
 ---
+description: "Gets the program in which a thread is running."
 title: IDebugThread2::GetProgram | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

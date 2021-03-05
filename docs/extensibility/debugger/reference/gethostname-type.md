@@ -1,4 +1,5 @@
 ---
+description: "Specifies the type of host name."
 title: GETHOSTNAME_TYPE | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

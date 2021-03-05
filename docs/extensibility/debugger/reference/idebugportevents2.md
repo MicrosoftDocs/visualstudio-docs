@@ -1,4 +1,5 @@
 ---
+description: "This interface notifies a listener (typically the session debug manager [SDM] or a debug engine) of process and program creation and destruction on a particular port."
 title: IDebugPortEvents2 | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

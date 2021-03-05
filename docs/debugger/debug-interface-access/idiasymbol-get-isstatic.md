@@ -1,4 +1,5 @@
 ---
+description: "Retrieves a flag that specifies whether the function or thunk layer has been marked as static."
 title: "IDiaSymbol::get_isStatic | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

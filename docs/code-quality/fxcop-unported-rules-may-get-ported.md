@@ -1,4 +1,5 @@
 ---
+description: "The following FxCop legacy analysis rules haven't yet been implemented as analyzers, but still may be."
 title: Unported rules that may be ported
 ms.date: 05/21/2019
 ms.topic: reference

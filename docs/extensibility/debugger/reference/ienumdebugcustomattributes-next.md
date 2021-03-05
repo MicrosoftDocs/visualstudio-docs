@@ -1,4 +1,5 @@
 ---
+description: "Retrieves a specified number of custom attributes in an enumeration sequence."
 title: IEnumDebugCustomAttributes::Next | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

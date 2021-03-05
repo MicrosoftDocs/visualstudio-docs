@@ -1,4 +1,5 @@
 ---
+description: "This interface represents a running process and its programs."
 title: IDebugProcess3 | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

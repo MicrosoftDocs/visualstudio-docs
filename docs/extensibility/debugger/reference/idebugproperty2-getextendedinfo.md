@@ -1,4 +1,5 @@
 ---
+description: "Gets extended information for the property."
 title: IDebugProperty2::GetExtendedInfo | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

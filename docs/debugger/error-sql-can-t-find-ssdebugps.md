@@ -1,4 +1,5 @@
 ---
+description: "SSDEBUGPS.dll is the SQL Server Debugging Host component."
 title: "SQL Can&apos;t Find SSDEBUGPS | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "error-reference"

@@ -1,4 +1,5 @@
 ---
+description: "Specifies flags that control expression evaluation."
 title: EVALFLAGS | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

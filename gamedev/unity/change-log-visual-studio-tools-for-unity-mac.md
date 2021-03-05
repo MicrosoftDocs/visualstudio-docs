@@ -2,7 +2,7 @@
 title: "Change Log (Visual Studio Tools for Unity, Mac) | Microsoft Docs"
 description: View the change log for Visual Studio Tools for Unity, Mac. See changes from version 1.0.0.0 through 2.7.0.0 and beyond.
 ms.custom: ""
-ms.date: "12/18/2020"
+ms.date: "3/1/2021"
 ms.technology: vs-unity-tools
 ms.prod: visual-studio-dev16
 ms.topic: "conceptual"
@@ -16,6 +16,83 @@ ms.workload:
 # Change Log (Visual Studio Tools for Unity, Mac)
 
 Visual Studio Tools for Unity change log.
+
+## 2.9.2.0
+Released March 2, 2021
+
+### Bug fixes
+
+- **Integration:**
+
+  - Fixed search highlighting in Unity message dialog.
+
+  - Fixed stability issues with Unity project treeview.
+
+- **Debugging:**
+
+  - Fixed handling of conditional breakpoints.
+
+## 2.9.1.0
+Released February 9, 2021
+
+### New Features
+
+- **Integration:**
+
+  - Added support for running and debugging Unity tests from the IDE
+
+- **Evaluation:**
+
+  - Added `Active Scene` to locals, showing root game objects.
+
+  - Added `this.gameObject` to locals, given it's widely used in Unity projects.
+
+  - Added `Children` and `Components` groups to all `GameObject` instances, so that you can easily display all the object hierarchy.
+
+  - Added `Scene Path` to all `GameObject` instances, to show the location in the scene.
+
+  - Added support for `JobEntityBatch`/Lambdas when using Entities with source generators.
+
+  - Improved support for displaying large arrays (using index bucketing).
+
+  - Added missing Unity messages for 2019.4 API.
+
+### Bug fixes
+
+- **Integration:**
+
+  - Fixed stability issues with Unity message dialog
+
+  - Fixed various UI issues for non ENU languages.
+
+  - Fixed stability issues with [`UNT0018`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0018.md) diagnostic.
+
+- **Debugging:**
+
+  - Fixed VM disconnection issues when using `Trace` methods.
+
+- **Evaluation:**
+
+  - Fixed filtering of obsolete properties throwing exceptions.
+
+## 2.9.0.0
+Released January 20, 2021
+
+### New Features
+
+- **Integration:**
+
+  - Added support for `raytrace shaders`, `UXML` and `USS` files.
+
+  - Updated Unity messages API (for all methods used as coroutines).
+
+  - Updated Android SDK detection.
+
+### Bug fixes
+
+- **Integration:**
+
+  - Fixed [`UNT0006`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0006.md) diagnostic, giving wrong warnings for Coroutines and `AssetPostprocessor.OnAssignMaterialModel`.
 
 ## 2.8.4.0
 Released December 15, 2020

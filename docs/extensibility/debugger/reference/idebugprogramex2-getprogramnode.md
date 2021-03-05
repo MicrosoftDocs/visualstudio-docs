@@ -1,4 +1,5 @@
 ---
+description: "Gets the program node associated with a program."
 title: IDebugProgramEx2::GetProgramNode | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

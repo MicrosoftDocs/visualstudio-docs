@@ -1,4 +1,5 @@
 ---
+description: "Reads a sequence of bytes, starting at a given location."
 title: IDebugMemoryBytes2::ReadAt | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

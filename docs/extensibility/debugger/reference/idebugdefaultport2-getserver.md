@@ -1,4 +1,5 @@
 ---
+description: "This method obtains an interface to the server that this port is on."
 title: IDebugDefaultPort2::GetServer | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

@@ -1,4 +1,5 @@
 ---
+description: "Retrieves a flag that specifies whether the function has the naked) attribute (that is, the function has no prolog or epilog code added by the compiler)."
 title: "IDiaSymbol::get_isNaked | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

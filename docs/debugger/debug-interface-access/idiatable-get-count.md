@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the number of items in the table."
 title: "IDiaTable::get_Count | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

@@ -1,4 +1,5 @@
 ---
+description: "Determines the existence of a custom attribute for this field and, if it exists, returns the attribute information."
 title: IDebugCustomAttributeQuery2 | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

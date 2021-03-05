@@ -1,5 +1,5 @@
 ---
-ms.date: 09/22/2020
+ms.date: 03/02/2021
 ms.technology: vs-ide-general
 ms.custom: vs-get-started
 ms.author: tglee
@@ -231,17 +231,23 @@ Let's dive in and create a simple program.
 
 1. Choose **Create a new project**.
 
-   ![Visual Studio start window create a new project](../media/vs-2019/start-window-create-new-project.png)
+    :::image type="content" source="../media/vs-2019/start-window-create-new-project.png" alt-text="Screenshot of the 'Create a new project' window in Visual Studio 2019.":::
 
-   The **Create a new project** window opens and shows several project *templates*. A template contains the basic files and settings needed for a given project type.
+   The **Create a new project** window opens and shows several project *templates*. A template contains the basic files and settings required for a given project type.
 
-1. To find the template we want, type or enter **.net core console** in the search box. The list of available templates is automatically filtered based on the keywords you entered. You can further filter the template results by choosing **C#** from the **Language** drop-down list. Select the **Console App (.NET Core)** template, and then choose **Next**.
+1. To find the template we want, type or enter **.net core console** in the search box. The list of available templates is automatically filtered based on the keywords you entered. You can further filter the template results by choosing **C#** from the **All language** drop-down list, **Windows** from the **All platforms** list, and **Console** from the **All project types** list .
 
-    ![Create a new project in Visual Studio](../media/vs-2019/create-new-project.png)
+    Select the **Console Application** template, and then click **Next**.
 
-1. In the **Configure your new project** window, enter **HelloWorld** in the **Project name** box, optionally change the directory location for your project files, and then choose **Create**.
+    :::image type="content" source="../media/vs-2019/create-new-project.png" alt-text="Screenshot of the 'Create a new project' window in Visual Studio 2019, where you select the template that you want.":::
 
-   ![Configure new project in Visual Studio](../media/vs-2019/configure-new-project.png)
+1. In the **Configure your new project** window, enter **HelloWorld** in the **Project name** box, optionally change the directory location for your project files (the default locale is `C:\Users\<name>\source\repos`), and then click **Next**.
+
+    :::image type="content" source="../media/vs-2019/configure-new-project.png" alt-text="Screenshot of the 'Configure your new project' window in Visual Studio 2019, where you enter the name of the project.":::
+
+1. In the **Additional information** window, verify that **.NET Core 3.1** appears in the **Target Framework** drop-down menu, and then click **Create**.
+
+    :::image type="content" source="../media/vs-2019/create-project-additional-info.png" alt-text="Screenshot of the 'Additional information' window in Visual Studio 2019, where you select the version of the .NET Core Framework that you want.":::
 
    Visual Studio creates the project. It's a simple "Hello World" application that calls the <xref:System.Console.WriteLine?displayProperty=nameWithType> method to display the literal string "Hello World!" in the console (program output) window.
 

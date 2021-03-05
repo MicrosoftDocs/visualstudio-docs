@@ -1,4 +1,5 @@
 ---
+description: "This structure describes a memory context or code context."
 title: CONTEXT_INFO | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

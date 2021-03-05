@@ -1,4 +1,5 @@
 ---
+description: "Retrieves a list of all the programs contained by this process."
 title: IDebugProcess2::EnumPrograms | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

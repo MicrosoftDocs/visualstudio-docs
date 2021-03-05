@@ -1,4 +1,5 @@
 ---
+description: "Returns the number of characters in the associated property's string."
 title: IDebugProperty3::GetStringCharLength | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

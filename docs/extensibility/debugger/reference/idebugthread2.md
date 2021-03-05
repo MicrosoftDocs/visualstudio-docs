@@ -1,4 +1,5 @@
 ---
+description: "This interface represents a thread running in a program."
 title: IDebugThread2 | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

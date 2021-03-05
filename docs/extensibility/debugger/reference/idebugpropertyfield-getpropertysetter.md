@@ -1,4 +1,5 @@
 ---
+description: "Gets the method that sets the property."
 title: IDebugPropertyField::GetPropertySetter | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

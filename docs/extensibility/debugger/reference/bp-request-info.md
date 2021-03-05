@@ -1,4 +1,5 @@
 ---
+description: "Contains the information required to implement a breakpoint."
 title: BP_REQUEST_INFO | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

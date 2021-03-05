@@ -1,4 +1,5 @@
 ---
+description: "Get a list of selected children of a reference."
 title: IDebugReference2::EnumChildren | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

@@ -1,4 +1,5 @@
 ---
+description: "Retrieves a flag that specifies whether the function has been marked as being not inline (using the noinline) attribute)."
 title: "IDiaSymbol::get_noInline | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

@@ -1,4 +1,5 @@
 ---
+description: "This function obtains status information for a set of selected files under source control."
 title: SccQueryInfo Function | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: conceptual

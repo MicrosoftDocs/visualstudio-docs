@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the unique symbol identifier."
 title: "IDiaSymbol::get_symIndexId | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

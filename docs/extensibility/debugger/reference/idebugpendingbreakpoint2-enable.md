@@ -1,4 +1,5 @@
 ---
+description: "Toggles the enabled state of the pending breakpoint."
 title: IDebugPendingBreakpoint2::Enable | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

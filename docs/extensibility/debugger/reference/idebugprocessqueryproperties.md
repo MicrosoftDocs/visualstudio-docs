@@ -1,4 +1,5 @@
 ---
+description: "This interface is an extension interface implemented by IDebugProcess2 implementers."
 title: IDebugProcessQueryProperties | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the unique identifier of a metric given its name."
 title: IDebugSettingsCallback2::GetMetricGuid | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

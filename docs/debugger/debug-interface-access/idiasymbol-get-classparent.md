@@ -1,4 +1,5 @@
 ---
+description: "Retrieves a reference to the class parent of the symbol."
 title: "IDiaSymbol::get_classParent | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

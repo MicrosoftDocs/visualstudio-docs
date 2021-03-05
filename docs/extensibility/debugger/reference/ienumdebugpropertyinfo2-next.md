@@ -1,4 +1,5 @@
 ---
+description: "Returns the next set of DEBUG_PROPERTY_INFO elements from the enumeration."
 title: IEnumDebugPropertyInfo2::Next | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

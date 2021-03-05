@@ -1,4 +1,5 @@
 ---
+description: "Determines if registry queries can be used to locate symbol search paths."
 title: "IDiaLoadCallback::RestrictRegistryAccess | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

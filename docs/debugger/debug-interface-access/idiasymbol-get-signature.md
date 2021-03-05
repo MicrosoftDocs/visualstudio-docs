@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the symbol's signature value."
 title: "IDiaSymbol::get_signature | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

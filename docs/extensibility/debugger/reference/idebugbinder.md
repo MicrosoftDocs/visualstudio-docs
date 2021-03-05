@@ -1,4 +1,5 @@
 ---
+description: "This interface binds a symbol field, typically returned by the symbol provider, to a memory context or object that contains the symbol's current value."
 title: IDebugBinder | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

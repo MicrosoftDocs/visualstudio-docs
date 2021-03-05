@@ -1,4 +1,5 @@
 ---
+description: "This interface registers or unregisters a program that can be debugged with the port it is running on."
 title: IDebugPortNotify2 | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

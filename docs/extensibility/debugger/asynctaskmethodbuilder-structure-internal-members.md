@@ -1,4 +1,5 @@
 ---
+description: "This article describes the internal members of the System.Runtime.CompilerServices.AsyncTaskMethodBuilder class."
 title: AsyncTaskMethodBuilder Structure - Internal Members
 titleSuffix: ""
 ms.custom: SEO-VS-2020

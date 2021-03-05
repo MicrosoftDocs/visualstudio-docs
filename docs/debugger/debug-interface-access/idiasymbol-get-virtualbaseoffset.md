@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the offset in the virtual function table of a virtual function."
 title: "IDiaSymbol::get_virtualBaseOffset | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

@@ -1,4 +1,5 @@
 ---
+description: "Provides locale support for a port supplier."
 title: IDebugPortSupplierLocale2 | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

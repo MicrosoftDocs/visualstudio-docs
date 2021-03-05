@@ -1,4 +1,5 @@
 ---
+description: "Informs a debug engine (DE) that the program specified has been atypically terminated and that the DE should clean up all references to the program and send a program destroy event."
 title: IDebugEngine2::DestroyProgram | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

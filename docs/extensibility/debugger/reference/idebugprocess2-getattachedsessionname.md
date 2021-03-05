@@ -1,4 +1,5 @@
 ---
+description: "Gets the name of the session that is debugging this process."
 title: IDebugProcess2::GetAttachedSessionName | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

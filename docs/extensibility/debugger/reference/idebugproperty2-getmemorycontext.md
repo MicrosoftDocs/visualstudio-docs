@@ -1,4 +1,5 @@
 ---
+description: "Gets the memory context of the property value."
 title: IDebugProperty2::GetMemoryContext | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

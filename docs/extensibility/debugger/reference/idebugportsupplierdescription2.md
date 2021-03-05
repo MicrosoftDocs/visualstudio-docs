@@ -1,4 +1,5 @@
 ---
+description: "Enables the Visual Studio UI to display text inside the Transport Information section of the Attach to Process dialog box."
 title: IDebugPortSupplierDescription2 | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

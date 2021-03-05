@@ -1,4 +1,5 @@
 ---
+description: "Sets the value of this property to the value of the given reference."
 title: IDebugProperty2::SetValueAsReference | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

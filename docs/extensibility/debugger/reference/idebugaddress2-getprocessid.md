@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the ID of the process that owns the object represented by this IDebugAddress2 interface."
 title: IDebugAddress2::GetProcessID | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

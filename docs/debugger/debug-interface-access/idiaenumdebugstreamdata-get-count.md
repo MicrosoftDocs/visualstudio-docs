@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the number records in the debug data stream."
 title: "IDiaEnumDebugStreamData::get_Count | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

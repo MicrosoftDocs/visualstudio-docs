@@ -1,4 +1,5 @@
 ---
+description: "Represents a customized UI for selecting the port."
 title: IDebugPortPicker | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

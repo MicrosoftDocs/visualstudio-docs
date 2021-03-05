@@ -1,4 +1,5 @@
 ---
+description: "Gets the number of custom viewers that might be available for this property."
 title: IDebugProperty3::GetCustomViewerCount | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

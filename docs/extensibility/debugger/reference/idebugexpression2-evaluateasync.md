@@ -1,4 +1,5 @@
 ---
+description: "This method evaluates the expression asynchronously."
 title: IDebugExpression2::EvaluateAsync | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

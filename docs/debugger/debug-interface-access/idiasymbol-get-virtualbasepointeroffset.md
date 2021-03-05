@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the offset of the virtual base pointer."
 title: "IDiaSymbol::get_virtualBasePointerOffset | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

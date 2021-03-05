@@ -1,4 +1,5 @@
 ---
+description: "Creates a copy of the managed object in the address space of the debug engine."
 title: IDebugObject::GetManagedDebugObject | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

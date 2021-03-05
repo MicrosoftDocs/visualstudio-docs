@@ -1,4 +1,5 @@
 ---
+description: "Reads memory from image."
 title: "IDiaStackWalkFrame::readMemory | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

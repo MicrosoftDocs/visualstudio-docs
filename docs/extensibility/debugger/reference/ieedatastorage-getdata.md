@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the specified number of bytes from the object."
 title: IEEDataStorage::GetData | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

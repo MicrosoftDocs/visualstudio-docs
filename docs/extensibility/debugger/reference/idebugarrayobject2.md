@@ -1,4 +1,5 @@
 ---
+description: "Represents a managed array object, and allows an expression evaluator (EE) to determine the base index (lower bounds) for the array."
 title: IDebugArrayObject2 | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

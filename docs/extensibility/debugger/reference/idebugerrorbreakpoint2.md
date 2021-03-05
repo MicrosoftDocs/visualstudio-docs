@@ -1,4 +1,5 @@
 ---
+description: "This interface represents an error or warning breakpoint, such as an invalid location, an invalid expression, or the reasons why the pending breakpoint has not bound (code not loaded yet, and so on)."
 title: IDebugErrorBreakpoint2 | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

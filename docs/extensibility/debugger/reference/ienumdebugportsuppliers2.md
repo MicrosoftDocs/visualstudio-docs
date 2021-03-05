@@ -1,4 +1,5 @@
 ---
+description: "This interface enumerates port suppliers."
 title: IEnumDebugPortSuppliers2 | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

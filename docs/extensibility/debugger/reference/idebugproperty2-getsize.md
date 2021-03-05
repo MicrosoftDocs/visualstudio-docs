@@ -1,4 +1,5 @@
 ---
+description: "Gets the size, in bytes, of the property value."
 title: IDebugProperty2::GetSize | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

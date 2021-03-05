@@ -1,4 +1,5 @@
 ---
+description: "This method gets an IDebugPortNotify2 interface for this port."
 title: IDebugDefaultPort2::GetPortNotify | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

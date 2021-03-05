@@ -1,4 +1,5 @@
 ---
+description: "Gets the name and GUID of the debug engine (DE) running this program."
 title: IDebugProgram2::GetEngineInfo | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

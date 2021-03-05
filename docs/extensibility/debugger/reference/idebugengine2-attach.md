@@ -1,4 +1,5 @@
 ---
+description: "Attaches a debug engine (DE) to a program or programs."
 title: IDebugEngine2::Attach | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

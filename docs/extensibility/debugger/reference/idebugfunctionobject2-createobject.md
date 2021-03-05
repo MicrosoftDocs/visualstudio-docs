@@ -1,4 +1,5 @@
 ---
+description: "Creates an object that uses a constructor given evaluation flag settings and a timeout value."
 title: IDebugFunctionObject2::CreateObject | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

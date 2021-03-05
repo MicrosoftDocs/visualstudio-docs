@@ -1,4 +1,5 @@
 ---
+description: "This structure represents the address of a method of a class."
 title: METADATA_ADDRESS_METHOD | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

@@ -1,4 +1,5 @@
 ---
+description: "Retrieves a reference to the lexical parent of the symbol."
 title: "IDiaSymbol::get_lexicalParent | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

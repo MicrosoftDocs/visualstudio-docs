@@ -1,4 +1,5 @@
 ---
+description: "Provides access to the records in a debug data stream."
 title: "IDiaEnumDebugStreamData | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

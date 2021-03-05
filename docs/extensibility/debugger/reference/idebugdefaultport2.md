@@ -1,4 +1,5 @@
 ---
+description: "This interface provides several methods for accessing a port's server and notification facilities."
 title: IDebugDefaultPort2 | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

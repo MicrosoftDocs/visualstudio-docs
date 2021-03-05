@@ -1,4 +1,5 @@
 ---
+description: "Retrieves a flag that specifies whether the user-defined type (UDT) has been aligned to some specific memory boundary."
 title: "IDiaSymbol::get_isDataAligned | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

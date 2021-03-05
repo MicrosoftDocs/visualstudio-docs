@@ -1,4 +1,5 @@
 ---
+description: "Reads a block of data from the executable's image in memory."
 title: "IDiaStackWalkHelper::readMemory | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

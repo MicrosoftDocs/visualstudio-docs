@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the constraints that are associated with this generic parameter."
 title: IDebugGenericParamField::GetConstraints | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

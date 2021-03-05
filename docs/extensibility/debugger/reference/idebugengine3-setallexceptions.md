@@ -1,4 +1,5 @@
 ---
+description: "This method sets the state of all outstanding exceptions."
 title: IDebugEngine3::SetAllExceptions | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference
