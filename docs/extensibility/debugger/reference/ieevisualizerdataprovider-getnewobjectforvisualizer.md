@@ -1,4 +1,5 @@
 ---
+description: "This method gets a new object for the visualizer."
 title: IEEVisualizerDataProvider::GetNewObjectForVisualizer | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

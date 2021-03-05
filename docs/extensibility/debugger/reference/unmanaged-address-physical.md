@@ -1,4 +1,5 @@
 ---
+description: "This structure represents a physical address."
 title: UNMANAGED_ADDRESS_PHYSICAL | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

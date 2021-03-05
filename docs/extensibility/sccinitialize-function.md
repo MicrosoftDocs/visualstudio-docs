@@ -1,4 +1,5 @@
 ---
+description: "This function initializes the source control plug-in and provides capabilities and limits to the integrated development environment (IDE)."
 title: SccInitialize Function | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: conceptual

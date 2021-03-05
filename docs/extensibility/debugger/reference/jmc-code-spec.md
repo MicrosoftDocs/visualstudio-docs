@@ -1,4 +1,5 @@
 ---
+description: "This structure is used to set the JustMyCode information for a module."
 title: JMC_CODE_SPEC | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

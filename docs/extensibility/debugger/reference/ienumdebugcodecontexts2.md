@@ -1,4 +1,5 @@
 ---
+description: "This interface enumerates the code contexts associated with the debug session, or with a particular program or document."
 title: IEnumDebugCodeContexts2 | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

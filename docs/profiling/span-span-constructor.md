@@ -1,4 +1,5 @@
 ---
+description: "Initializes a new instance of the span class."
 title: "span::span Constructor | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
