@@ -1,4 +1,5 @@
 ---
+description: "Skips over the specified number of elements in the port suppliers enumeration."
 title: IEnumDebugPortSuppliers2::Skip | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

@@ -1,4 +1,5 @@
 ---
+description: "Imports, exports, or resets Visual Studio settings."
 title: Import and Export Settings command
 ms.date: 11/21/2018
 ms.topic: reference

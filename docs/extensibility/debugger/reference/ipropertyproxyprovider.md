@@ -1,4 +1,5 @@
 ---
+description: "This interface supplies a proxy interface to view and change an object's data."
 title: IPropertyProxyProvider | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

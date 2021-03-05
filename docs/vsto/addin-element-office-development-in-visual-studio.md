@@ -1,4 +1,5 @@
 ---
+description: "The addin element of the vstav3 namespace contains information that is specific to Microsoft Office VSTO Add-ins and document-level customizations developed with Visual Studio."
 title: "&lt;addin&gt; element (Office development in Visual Studio)"
 titleSuffix: ""
 ms.date: 02/02/2017

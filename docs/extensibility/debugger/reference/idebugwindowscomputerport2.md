@@ -1,4 +1,5 @@
 ---
+description: "Allows querying for information about the target computer."
 title: IDebugWindowsComputerPort2 | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

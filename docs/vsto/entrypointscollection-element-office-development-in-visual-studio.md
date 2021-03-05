@@ -1,4 +1,5 @@
 ---
+description: "The entryPointsCollection element of the vstav3 namespace contains all the entryPoints elements associated with Office solutions."
 title: "&lt;entryPointsCollection&gt; element (Office development in Visual Studio)"
 titleSuffix: ""
 ms.custom: "seodec18"

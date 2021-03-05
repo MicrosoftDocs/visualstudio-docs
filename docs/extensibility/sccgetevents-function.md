@@ -1,4 +1,5 @@
 ---
+description: "This function retrieves a queued status event."
 title: SccGetEvents Function | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: conceptual

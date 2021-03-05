@@ -1,4 +1,5 @@
 ---
+description: "This interface represents a collection of objects implementing the IDebugField interface."
 title: IEnumDebugFields | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference
