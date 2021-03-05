@@ -49,11 +49,11 @@ Follow these steps to open Developer Command Prompt or Developer PowerShell from
 
    ![Command prompt menu item in Visual Studio](./media/developer-command-prompt-for-vs/vs-menu.png)
 
-### Use the Windows Start menu
+## Use the Windows Start menu
 
 You may have multiple command prompts, depending on the version of Visual Studio and any additional SDKs and workloads you've installed. If the following steps don't work, you can try to [manually locate the files on your machine](#manually-locate-the-file) or [start the shell from inside Visual Studio](#start-the-shell-from-inside-visual-studio).
 
-#### Windows 10
+### Windows 10
 
 1. Select **Start** ![Windows logo key on the keyboard.](./media/developer-command-prompt-for-vs/windows-logo-key-graphic.png) and scroll to the letter **V**.
 
@@ -65,7 +65,7 @@ You may have multiple command prompts, depending on the version of Visual Studio
 
    ![Animated gif showing the search behavior on Windows 10](./media/developer-command-prompt-for-vs/windows-10-search.gif)
 
-#### Windows 8.1
+### Windows 8.1
 
 1. Go to the **Start** screen, by pressing the Windows logo key ![Windows logo key on the keyboard.](./media/developer-command-prompt-for-vs/windows-logo-key-graphic.png) on your keyboard for example.
 
@@ -73,7 +73,7 @@ You may have multiple command prompts, depending on the version of Visual Studio
 
 1. Choose **Developer Command Prompt for VS 2019** or **Developer PowerShell for VS 2019**.
 
-#### Windows 7
+### Windows 7
 
 1. Choose **Start** and then expand **All Programs**.
 
@@ -83,11 +83,11 @@ You may have multiple command prompts, depending on the version of Visual Studio
 
 If you have other SDKs installed, such as the [Windows 10 SDK](https://developer.microsoft.com/windows/downloads/windows-10-sdk) or [previous versions](https://developer.microsoft.com/windows/downloads/sdk-archive), you may see additional command prompts. Check the documentation for the individual tools to determine which version of the command prompt you should use.
 
-### Manually locate the file
+## Manually locate the file
 
 Usually, the shortcuts for the shells you have installed are placed in the **Start Menu** folder for Visual Studio, such as in *%ProgramData%\Microsoft\Windows\Start Menu\Programs\Visual Studio 2019\Visual Studio Tools*. But if searching for the command prompt doesn't produce the expected results, you can try to manually locate the files on your machine.
 
-#### Developer Command Prompt
+### Developer Command Prompt
 
 Search for the name of the command prompt file, which is *VsDevCmd.bat*, or go to the Tools folder for Visual Studio, such as *%ProgramFiles(x86)%\Microsoft Visual Studio\2019\Community\Common7\Tools* (path changes according to your Visual Studio version, edition, and installation location).
 
@@ -106,7 +106,7 @@ Or enter the following command in the Windows **Run** dialog box:
 > [!TIP]
 > You'll need to edit the path to match your Visual Studio installation.
 
-#### Developer PowerShell
+### Developer PowerShell
 
 Search for a PowerShell script file named *Launch-VsDevShell.ps1*, or go to the Tools folder for Visual Studio, such as *%ProgramFiles(x86)%\Microsoft Visual Studio\2019\Community\Common7\Tools*. (The path changes according to your Visual Studio version, edition, and installation location.) Once you've located the PowerShell file, run it by entering the following command at a Windows PowerShell or PowerShell 6 prompt:
 
