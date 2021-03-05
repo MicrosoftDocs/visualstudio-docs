@@ -1,5 +1,6 @@
 ---
 title: "Setter functions must have one argument | Microsoft Docs"
+description: "You must have only one argument for a setter function."
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows
 ms.technology: vs-javascript

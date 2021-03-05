@@ -1,4 +1,5 @@
 ---
+description: "You made a reference to a label that does not exist."
 title: "Label not found | Microsoft Docs"
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows

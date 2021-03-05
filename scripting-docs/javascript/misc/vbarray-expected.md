@@ -1,4 +1,5 @@
 ---
+description: "You supplied an object that was not a Visual Basic safeArray, when one was expected."
 title: "VBArray expected | Microsoft Docs"
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows

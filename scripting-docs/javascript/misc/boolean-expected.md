@@ -1,4 +1,5 @@
 ---
+description: "You attempted to invoke the Boolean.prototype.toString or Boolean.prototype.valueOf method on an object of a type other than Boolean."
 title: "Boolean expected | Microsoft Docs"
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows

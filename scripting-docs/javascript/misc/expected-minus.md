@@ -1,4 +1,5 @@
 ---
+description: "You attempted to create a regular expression literal, but did not include one of the slashes (/)."
 title: "Expected '-' | Microsoft Docs"
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows

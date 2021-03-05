@@ -1,5 +1,6 @@
 ---
 title: "'with' not available in the ECMA 327 Compact Profile | Microsoft Docs"
+description: "You are not allowed to use the with keyword in the Compact Profile."
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows
 ms.technology: vs-javascript

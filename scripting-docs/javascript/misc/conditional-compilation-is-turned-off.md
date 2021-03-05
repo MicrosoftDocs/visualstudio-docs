@@ -1,4 +1,5 @@
 ---
+description: "You attempted to use a conditional compilation variable without first turning conditional compilation on."
 title: "Conditional compilation is turned off | Microsoft Docs"
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows

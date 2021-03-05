@@ -1,4 +1,5 @@
 ---
+description: "You used a return statement in the global scope of your code."
 title: "'return' statement outside of function | Microsoft Docs"
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows

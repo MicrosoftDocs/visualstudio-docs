@@ -1,4 +1,5 @@
 ---
+description: "You attempted to assign a value to a function result."
 title: "Cannot assign to a function result | Microsoft Docs"
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows

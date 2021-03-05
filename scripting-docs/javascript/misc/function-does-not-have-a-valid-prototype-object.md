@@ -1,4 +1,5 @@
 ---
+description: "You attempted to use instanceof to determine if an object was derived from a particular function class, but you redefined the object's prototype property as either null, or an external object type (both not valid JavaScript objects)."
 title: "Function does not have a valid prototype object | Microsoft Docs"
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows

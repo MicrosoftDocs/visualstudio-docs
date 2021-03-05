@@ -1,4 +1,5 @@
 ---
+description: "The while condition was not included in a do...while loop."
 title: "Expected 'while' | Microsoft Docs"
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows
