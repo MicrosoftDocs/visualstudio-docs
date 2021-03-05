@@ -16,11 +16,11 @@
 
 1. In the **Publish** dialog box, select **Folder**, click **Browse**, and create a new folder, **C:\Publish**.
 
-   ![Screenshot of the Pick a publish target dialog in Visual Studio with the Folder `bin\Release\Publish' selected as the publish target.](../media/remotedbg_publish_local.png)
+   ![Screenshot of the Pick a publish target dialog in Visual Studio with the Folder `bin\Release\Publish' selected as the publish target.](../media/remotedbg-publish-local.png)
 
    ::: moniker range=">=vs-2019"
 
-   :::image type="content" source="../media/vs-2019/remotedbg_publish_local.png" alt-text="Screenshot of the Pick a publish target dialog in Visual Studio with the Folder `C:\Publish' selected as the publish target.":::
+   :::image type="content" source="../media/vs-2019/remotedbg-publish-local.png" alt-text="Screenshot of the Pick a publish target dialog in Visual Studio with the Folder `C:\Publish' selected as the publish target.":::
 
    Click **Finish** to save the publish profile.
    ::: moniker-end
