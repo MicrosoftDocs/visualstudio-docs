@@ -85,7 +85,7 @@ From Visual Studio, you can quickly publish and debug your app to a fully provis
 
     Choose **Azure App Service** from the **Publish** dialog box, select **Create New**, and follow the prompts to create a profile.
 
-    ![Publish to Azure App Service](../debugger/media/remotedbg-azure-app-service-profile.png)
+    ![Publish to Azure App Service](../debugger/media/remotedbg_azure_app_service_profile.png)
     ::: moniker-end
 
     For more detailed instructions, see [Deploy an ASP.NET Core web app to Azure using Visual Studio](/aspnet/core/tutorials/publish-to-azure-webapp-using-vs).

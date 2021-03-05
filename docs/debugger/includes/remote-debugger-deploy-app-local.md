@@ -16,8 +16,6 @@
 
 1. In the **Publish** dialog box, select **Folder**, click **Browse**, and create a new folder, **C:\Publish**.
 
-   ![Screenshot of the Pick a publish target dialog in Visual Studio with the Folder `bin\Release\Publish' selected as the publish target.](../media/remotedbg-publish-local.png)
-
    ::: moniker range=">=vs-2019"
 
    :::image type="content" source="../media/vs-2019/remotedbg-publish-local.png" alt-text="Screenshot of the Pick a publish target dialog in Visual Studio with the Folder `C:\Publish' selected as the publish target.":::
@@ -25,6 +23,7 @@
    Click **Finish** to save the publish profile.
    ::: moniker-end
    ::: moniker range="vs-2017"
+   ![Screenshot of the Pick a publish target dialog in Visual Studio with the Folder `bin\Release\Publish' selected as the publish target.](../media/remotedbg_publish_local.png)
    For a Web Forms app, choose **Custom** in the Publish dialog box, enter a profile name, and choose **OK**.
 
    Click **Create profile** in the drop-down list (**Publish** is the default value).
