@@ -1,4 +1,5 @@
 ---
+description: "This interface provides methods to view data on the associated object."
 title: IPropertyProxyEESide | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

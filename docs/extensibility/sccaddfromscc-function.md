@@ -1,4 +1,5 @@
 ---
+description: "This function allows the user to browse for files that are already in the source control system and subsequently make those files part of the current project."
 title: SccAddFromScc Function | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: conceptual

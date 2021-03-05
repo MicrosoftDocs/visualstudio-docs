@@ -1,4 +1,5 @@
 ---
+description: "Specifies the minimum version of the operating system that the project template requires to work correctly."
 title: RequiredPlatformVersion Element (Visual Studio Templates)
 titleSuffix: ""
 ms.custom: SEO-VS-2020

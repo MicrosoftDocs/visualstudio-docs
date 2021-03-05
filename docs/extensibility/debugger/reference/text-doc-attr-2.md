@@ -1,4 +1,5 @@
 ---
+description: "Describes the attributes of a document."
 title: TEXT_DOC_ATTR_2 | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

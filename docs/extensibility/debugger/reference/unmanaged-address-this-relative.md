@@ -1,4 +1,5 @@
 ---
+description: "This structure represents an address that is relative to a this pointer (Me in Visual Basic)."
 title: UNMANAGED_ADDRESS_THIS_RELATIVE | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

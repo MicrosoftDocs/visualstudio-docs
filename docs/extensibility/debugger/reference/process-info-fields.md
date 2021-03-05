@@ -1,4 +1,5 @@
 ---
+description: "Specified what kind of information to retrieve for a process."
 title: PROCESS_INFO_FIELDS | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

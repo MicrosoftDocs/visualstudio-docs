@@ -1,4 +1,5 @@
 ---
+description: "Contains an array of objects that describe programs of interest."
 title: PROGRAM_NODE_ARRAY | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

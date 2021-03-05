@@ -1,4 +1,5 @@
 ---
+description: "Defines the metadata that can be retrieved about a port supplier."
 title: PORT_SUPPLIER_DESCRIPTION_FLAGS | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

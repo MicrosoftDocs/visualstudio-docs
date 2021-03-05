@@ -1,4 +1,5 @@
 ---
+description: "This method gets the number of type visualizers available from this service."
 title: IEEVisualizerService::GetCustomViewerCount | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

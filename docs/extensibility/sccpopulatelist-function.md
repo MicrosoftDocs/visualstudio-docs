@@ -1,4 +1,5 @@
 ---
+description: "This function updates a list of files for a particular source control command and supplies source control status on all given files."
 title: SccPopulateList Function | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: conceptual

@@ -1,4 +1,5 @@
 ---
+description: "This function concludes a batch of source control operations."
 title: SccEndBatch Function | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: conceptual

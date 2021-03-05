@@ -51,7 +51,7 @@ For more information, see [Use Visual Studio search](visual-studio-search.md).
 
 #### Intelligent search service
 
-**New in 16.9**: By using cloud-powered technology, artificial intelligence, and machine learning, we've improved our search results. Not only is search in Visual Studio more relevant, but it can also help you discover product features more easily.
+**New in 16.9**: By using cloud-powered technology, artificial intelligence, and machine learning, we've improved our search results. Now, not only does search in Visual Studio produce more relevant results, but it can also help you discover product features more easily, too.
 
 For more information, see the [Intelligent Visual Studio search service](https://devblogs.microsoft.com/visualstudio/intelligent-visual-studio-search-service/) blog post.
 

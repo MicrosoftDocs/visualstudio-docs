@@ -1,4 +1,5 @@
 ---
+description: "This structure represents the address of a field of a class or structure."
 title: METADATA_ADDRESS_FIELD | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference
