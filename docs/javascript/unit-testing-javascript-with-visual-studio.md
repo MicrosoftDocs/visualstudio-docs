@@ -97,7 +97,7 @@ For TypeScript, unit tests are run against the generated JavaScript code.
 
 ### Run tests from the command line
 
-You can run the tests from the [Developer Command Prompt](/dotnet/framework/tools/developer-command-prompt-for-vs) for Visual Studio using the following command:
+You can run the tests from [Developer Command Prompt for Visual Studio](../ide/reference/command-prompt-powershell.md) using the following command:
 
 ```
 vstest.console.exe <path to project file>\NodejsConsoleApp23.njsproj /TestAdapterPath:<VisualStudioFolder>\Common7\IDE\Extensions\Microsoft\NodeJsTools\TestAdapter

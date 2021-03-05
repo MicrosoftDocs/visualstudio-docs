@@ -1070,6 +1070,8 @@
     items:
     - name: Call Hierarchy
       href: ide/reference/call-hierarchy.md
+    - name: Developer Command Prompt & Developer PowerShell
+      href: ide/reference/command-prompt-powershell.md
     - name: Preview Changes
       href: ide/preview-changes.md
     - name: Choose Toolbox items, WPF components
