@@ -1,5 +1,6 @@
 ---
 title: DA0013 - High usage of String.Split or String.Substring | Microsoft Docs
+description: "Calls to the System.String.Split or System.String.Substring methods are a significant portion of the profiling data."
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords: 

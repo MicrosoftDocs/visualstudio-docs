@@ -1,5 +1,6 @@
 ---
 title: DA0018 - 32-bit Application running at process managed memory limits | Microsoft Docs
+description: "System data collected during the profiling run indicates the .NET Framework memory heaps approached the maximum size that the managed heaps can reach in a 32-bit process."
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords: 

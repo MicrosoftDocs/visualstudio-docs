@@ -1,5 +1,6 @@
 ---
 title: DA0004 - High processor usage | Microsoft Docs
+description: "Processor (CPU) utilization was high in profiling data that was collected using the instrumentation method."
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords: 

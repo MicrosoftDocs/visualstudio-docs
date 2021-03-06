@@ -1,5 +1,6 @@
 ---
 title: DA0038 - High Rate of Lock contentions | Microsoft Docs
+description: "System performance data that is collected with the profiling data indicates that a significantly high rate of lock contentions occurred during application execution."
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords: 
