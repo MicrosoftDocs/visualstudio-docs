@@ -1,4 +1,5 @@
 ---
+description: "Gets the port name."
 title: IDebugPort2::GetPortName | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

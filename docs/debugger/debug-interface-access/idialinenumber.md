@@ -1,4 +1,5 @@
 ---
+description: "Accesses information that describes the process of mapping from a block of bytes of image text to a source file line number."
 title: "IDiaLineNumber | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

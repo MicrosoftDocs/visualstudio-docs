@@ -1,4 +1,5 @@
 ---
+description: "Retrieves a cyclic redundancy check (CRC) calculated from the bytes of the source code."
 title: "IDiaInjectedSource::get_crc | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

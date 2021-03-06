@@ -1,4 +1,5 @@
 ---
+description: "Enumerates the valid values that specify the information to be retrieved about a breakpoint request."
 title: BPREQI_FIELDS90 | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

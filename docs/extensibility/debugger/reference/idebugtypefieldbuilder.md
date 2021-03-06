@@ -1,4 +1,5 @@
 ---
+description: "Represents the ability to create a field that represents a type."
 title: IDebugTypeFieldBuilder | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

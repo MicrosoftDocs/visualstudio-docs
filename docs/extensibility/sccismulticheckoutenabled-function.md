@@ -1,4 +1,5 @@
 ---
+description: "This function checks whether the source control plug-in allows multiple checkouts on a file."
 title: SccIsMultiCheckoutEnabled Function | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: conceptual

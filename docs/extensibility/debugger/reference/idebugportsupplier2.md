@@ -1,4 +1,5 @@
 ---
+description: "This interface supplies ports to the session debug manager (SDM)."
 title: IDebugPortSupplier2 | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

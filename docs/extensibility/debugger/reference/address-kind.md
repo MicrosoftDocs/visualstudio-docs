@@ -1,4 +1,5 @@
 ---
+description: "Specifies the kinds of addresses."
 title: ADDRESS_KIND | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

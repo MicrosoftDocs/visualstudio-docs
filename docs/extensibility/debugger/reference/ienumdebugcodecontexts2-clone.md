@@ -1,4 +1,5 @@
 ---
+description: "Returns a copy of the current code contexts enumeration as a separate object."
 title: IEnumDebugCodeContexts2::Clone | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

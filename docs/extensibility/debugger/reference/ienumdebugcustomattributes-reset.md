@@ -1,4 +1,5 @@
 ---
+description: "Resets the custom attributes enumeration sequence to the beginning."
 title: IEnumDebugCustomAttributes::Reset | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

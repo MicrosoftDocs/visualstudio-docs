@@ -1,4 +1,5 @@
 ---
+description: "Each thunk is identified by a SymTagThunk tag."
 title: "Thunk | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

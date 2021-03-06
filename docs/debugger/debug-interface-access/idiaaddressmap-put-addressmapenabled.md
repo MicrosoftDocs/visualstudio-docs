@@ -1,4 +1,5 @@
 ---
+description: "Specifies whether the address map should be used to translate symbol addresses."
 title: "IDiaAddressMap::put_addressMapEnabled | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

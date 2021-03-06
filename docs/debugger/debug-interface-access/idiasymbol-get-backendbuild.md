@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the back end build number of the compiler."
 title: "IDiaSymbol::get_backEndBuild | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

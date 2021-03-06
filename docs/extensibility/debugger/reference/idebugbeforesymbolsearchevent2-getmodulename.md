@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the name of the module currently being debugged."
 title: IDebugBeforeSymbolSearchEvent2::GetModuleName | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

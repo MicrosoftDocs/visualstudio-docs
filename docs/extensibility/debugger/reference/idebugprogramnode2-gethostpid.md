@@ -1,4 +1,5 @@
 ---
+description: "Gets the system process identifier for the process hosting the program."
 title: IDebugProgramNode2::GetHostPid | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

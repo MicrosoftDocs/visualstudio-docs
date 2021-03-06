@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the type identifier of the symbol."
 title: "IDiaSymbol::get_typeId | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

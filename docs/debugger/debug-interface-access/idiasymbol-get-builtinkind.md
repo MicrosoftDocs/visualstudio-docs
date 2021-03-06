@@ -1,4 +1,5 @@
 ---
+description: "Retrieves a built-in kind of the HLSL type."
 title: "IDiaSymbol::get_builtInKind | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

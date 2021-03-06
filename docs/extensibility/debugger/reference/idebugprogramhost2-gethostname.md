@@ -1,4 +1,5 @@
 ---
+description: "Gets the title, friendly name, or file name of the hosting process of this program."
 title: IDebugProgramHost2::GetHostName | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

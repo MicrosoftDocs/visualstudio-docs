@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the ID of the register that holds a base pointer to the parameters."
 title: "IDiaSymbol::get_paramBasePointerRegisterId | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

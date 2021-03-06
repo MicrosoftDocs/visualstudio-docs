@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the symbol from which the pointer is based."
 title: "IDiaSymbol::get_baseSymbol | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

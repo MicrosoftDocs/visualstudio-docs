@@ -1,4 +1,5 @@
 ---
+description: "Destroys the unique ID associated with this property, indicating that the caller no longer cares to identify this property uniquely from all other properties."
 title: IDebugProperty3::DestroyObjectID | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

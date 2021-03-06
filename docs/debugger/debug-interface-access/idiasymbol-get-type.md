@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the symbol that represents the type for this symbol."
 title: "IDiaSymbol::get_type | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

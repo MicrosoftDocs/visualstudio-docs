@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the timestamp of the underlying executable file."
 title: "IDiaSymbol::get_timeStamp | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

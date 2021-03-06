@@ -1,4 +1,5 @@
 ---
+description: "Determines if looking for debug information is allowed from .dbg files."
 title: "IDiaLoadCallback2::RestrictDBGAccess | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

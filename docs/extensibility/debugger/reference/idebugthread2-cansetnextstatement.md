@@ -1,4 +1,5 @@
 ---
+description: "Determines whether the current instruction pointer can be set to the given stack frame."
 title: IDebugThread2::CanSetNextStatement | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

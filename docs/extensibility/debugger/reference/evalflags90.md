@@ -1,4 +1,5 @@
 ---
+description: "Enumerates the valid values for flags that control expression evaluation."
 title: EVALFLAGS90 | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

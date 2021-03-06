@@ -1,4 +1,5 @@
 ---
+description: "This interface enables an expression evaluator (EE) to display a property's value in whatever format is necessary."
 title: IDebugCustomViewer | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

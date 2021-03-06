@@ -1,4 +1,5 @@
 ---
+description: "Friend classes and friend functions are identified by SymTagFriend symbols."
 title: "Friend (Debug Interface Access SDK) | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

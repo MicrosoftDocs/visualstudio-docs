@@ -1,4 +1,5 @@
 ---
+description: "Retrieves a flag indicating whether the module was converted from a Common Intermediate Language (CIL) module to a native module."
 title: "IDiaSymbol::get_isCVTCIL | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

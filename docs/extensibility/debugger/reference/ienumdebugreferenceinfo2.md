@@ -1,4 +1,5 @@
 ---
+description: "This interface enumerates DEBUG_REFERENCE_INFO structures."
 title: IEnumDebugReferenceInfo2 | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

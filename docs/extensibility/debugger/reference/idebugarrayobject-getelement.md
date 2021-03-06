@@ -1,4 +1,5 @@
 ---
+description: "Gets an element of the array."
 title: IDebugArrayObject::GetElement | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

@@ -1,4 +1,5 @@
 ---
+description: "Retrieves source files by compiland and name."
 title: "IDiaSession::findFile | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

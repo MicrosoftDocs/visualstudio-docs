@@ -1,4 +1,5 @@
 ---
+description: "Loads debug symbols using the specified callback method."
 title: IDebugComPlusSymbolProvider2::LoadSymbolsFromCallback | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

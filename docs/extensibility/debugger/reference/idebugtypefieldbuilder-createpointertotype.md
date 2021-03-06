@@ -1,4 +1,5 @@
 ---
+description: "Creates a pointer to the specified type."
 title: IDebugTypeFieldBuilder::CreatePointerToType | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

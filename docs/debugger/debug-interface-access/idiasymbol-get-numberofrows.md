@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the number of rows in the matrix."
 title: "IDiaSymbol::get_numberOfRows | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

@@ -1,4 +1,5 @@
 ---
+description: "Gets an object that may be used to uniquely identify this builder to the debugger."
 title: AsyncTaskMethodBuilder.ObjectIdForDebugger Property | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: conceptual

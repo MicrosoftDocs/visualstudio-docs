@@ -1,4 +1,5 @@
 ---
+description: "Specifies desired properties to be obtained from a program provider."
 title: PROVIDER_FLAGS | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

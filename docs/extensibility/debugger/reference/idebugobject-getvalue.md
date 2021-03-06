@@ -1,4 +1,5 @@
 ---
+description: "Gets the value of the object as a consecutive series of bytes."
 title: IDebugObject::GetValue | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

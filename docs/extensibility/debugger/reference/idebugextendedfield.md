@@ -1,4 +1,5 @@
 ---
+description: "Extends the types of fields that are available to support managed code generics."
 title: IDebugExtendedField | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

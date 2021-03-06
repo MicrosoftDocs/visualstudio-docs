@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the number of bits or bytes of memory used by the object represented by this symbol."
 title: "IDiaSymbol::get_length | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

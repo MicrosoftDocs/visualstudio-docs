@@ -1,4 +1,5 @@
 ---
+description: "Represents a numeric alias for a variable, and enables an expression evaluator (EE) to obtain the application domain for the alias."
 title: IDebugAlias2 | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

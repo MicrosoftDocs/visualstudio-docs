@@ -1,4 +1,5 @@
 ---
+description: "This interface represents a reference to a stack frame property or some other property."
 title: IDebugReference2 | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

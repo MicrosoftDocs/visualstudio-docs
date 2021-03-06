@@ -1,4 +1,5 @@
 ---
+description: "Creates a primitive data object, such as a simple integer."
 title: IDebugFunctionObject::CreatePrimitiveObject | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

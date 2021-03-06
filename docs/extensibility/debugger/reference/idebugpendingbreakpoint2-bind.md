@@ -1,4 +1,5 @@
 ---
+description: "Binds this pending breakpoint to one or more code locations."
 title: IDebugPendingBreakpoint2::Bind | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

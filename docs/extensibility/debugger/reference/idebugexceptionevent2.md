@@ -1,4 +1,5 @@
 ---
+description: "The debug engine (DE) sends this interface to the session debug manager (SDM) when an exception is thrown in the program currently being executed."
 title: IDebugExceptionEvent2 | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

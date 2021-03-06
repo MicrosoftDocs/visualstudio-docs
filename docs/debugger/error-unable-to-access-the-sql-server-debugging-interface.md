@@ -1,4 +1,5 @@
 ---
+description: "This message occurs when you attempt SQL debugging on a machine where SQL debugging is not enabled."
 title: "Unable to access the SQL Server debugging interface | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "error-reference"

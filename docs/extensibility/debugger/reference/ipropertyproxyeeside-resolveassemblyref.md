@@ -1,4 +1,5 @@
 ---
+description: "Determines the location of the specified managed assembly reference."
 title: IPropertyProxyEESide::ResolveAssemblyRef | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

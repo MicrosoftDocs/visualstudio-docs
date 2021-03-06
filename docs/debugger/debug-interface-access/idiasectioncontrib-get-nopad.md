@@ -1,4 +1,5 @@
 ---
+description: "Retrieves a flag indicating whether the section should not be padded to the next memory boundary."
 title: "IDiaSectionContrib::get_nopad | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

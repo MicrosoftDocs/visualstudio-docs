@@ -1,4 +1,5 @@
 ---
+description: "Determines if the specified custom attribute is defined."
 title: IDebugCustomAttributeQuery::IsCustomAttributeDefined | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

@@ -1,4 +1,5 @@
 ---
+description: "Retrieves information about the computer on which the debugger in running."
 title: IDebugWindowsComputerPort2::GetComputerInfo | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

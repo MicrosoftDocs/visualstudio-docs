@@ -1,4 +1,5 @@
 ---
+description: "This interface enumerates the processes running on a debug port."
 title: IEnumDebugProcesses2 | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

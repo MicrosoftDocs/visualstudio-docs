@@ -1,4 +1,5 @@
 ---
+description: "Gets the document context that describes the position in the document that is to be made active by the debug package."
 title: IDebugActivateDocumentEvent2::GetDocumentContext | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

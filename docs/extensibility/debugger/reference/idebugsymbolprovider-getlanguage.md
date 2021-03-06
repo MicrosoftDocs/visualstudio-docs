@@ -1,4 +1,5 @@
 ---
+description: "This method gets the language that was used to compile the code at the debug address."
 title: IDebugSymbolProvider::GetLanguage | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

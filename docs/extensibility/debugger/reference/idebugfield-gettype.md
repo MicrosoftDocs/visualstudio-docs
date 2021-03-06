@@ -1,4 +1,5 @@
 ---
+description: "This method gets the type of field."
 title: IDebugField::GetType | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

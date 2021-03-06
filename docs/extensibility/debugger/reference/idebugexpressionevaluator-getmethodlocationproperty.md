@@ -1,4 +1,5 @@
 ---
+description: "This method converts a method location and offset into a memory address."
 title: IDebugExpressionEvaluator::GetMethodLocationProperty | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

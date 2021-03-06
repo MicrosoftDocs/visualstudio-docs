@@ -1,4 +1,5 @@
 ---
+description: "Gets a description of the properties of a stack frame."
 title: IDebugStackFrame2::GetDebugProperty | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

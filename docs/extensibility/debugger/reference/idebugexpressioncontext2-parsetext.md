@@ -1,4 +1,5 @@
 ---
+description: "Parses an expression in text form for later evaluation."
 title: IDebugExpressionContext2::ParseText | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

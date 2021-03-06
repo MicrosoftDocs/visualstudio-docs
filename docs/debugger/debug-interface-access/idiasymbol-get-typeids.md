@@ -1,4 +1,5 @@
 ---
+description: "Retrieves an array of compiler-specific type identifier values for this symbol."
 title: "IDiaSymbol::get_typeIds | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

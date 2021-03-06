@@ -1,4 +1,5 @@
 ---
+description: "Attempts to determine why an auto-attach failed."
 title: IDebugCoreServer3::DiagnoseWebDebuggingError | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

@@ -1,4 +1,5 @@
 ---
+description: "Specifies the information to retrieve about a stack frame object."
 title: FRAMEINFO_FLAGS | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

@@ -1,4 +1,5 @@
 ---
+description: "Writes the specified number of bytes of memory, starting at the specified address."
 title: IDebugMemoryBytes2::WriteAt | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

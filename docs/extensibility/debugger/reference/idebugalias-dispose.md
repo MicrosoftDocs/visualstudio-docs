@@ -1,4 +1,5 @@
 ---
+description: "Marks this alias for removal."
 title: IDebugAlias::Dispose | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

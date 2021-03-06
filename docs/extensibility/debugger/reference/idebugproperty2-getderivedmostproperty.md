@@ -1,4 +1,5 @@
 ---
+description: "Gets the derived-most property of a property."
 title: IDebugProperty2::GetDerivedMostProperty | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

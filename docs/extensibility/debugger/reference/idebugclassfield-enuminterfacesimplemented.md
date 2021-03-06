@@ -1,4 +1,5 @@
 ---
+description: "Creates an enumerator for the interfaces implemented by this class."
 title: IDebugClassField::EnumInterfacesImplemented | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

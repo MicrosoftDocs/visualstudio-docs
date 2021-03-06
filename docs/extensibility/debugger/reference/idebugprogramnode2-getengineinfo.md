@@ -1,4 +1,5 @@
 ---
+description: "Gets the name and identifier of the debug engine (DE) running a program."
 title: IDebugProgramNode2::GetEngineInfo | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

@@ -1,4 +1,5 @@
 ---
+description: "Gets the class that encloses this class."
 title: IDebugClassField::GetEnclosingClass | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

@@ -1,4 +1,5 @@
 ---
+description: "This interface tells the session debug manager (SDM) that a bound breakpoint has been unbound from a loaded program."
 title: IDebugBreakpointUnboundEvent2 | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

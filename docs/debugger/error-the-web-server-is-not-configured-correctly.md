@@ -1,4 +1,5 @@
 ---
+description: "After taking steps detailed here to resolve the issue, and before trying again to debug, you may also need to reset IIS."
 title: "The web server is not configured correctly | Microsoft Docs"
 ms.date: "09/20/2017"
 ms.topic: "error-reference"

@@ -1,4 +1,5 @@
 ---
+description: "Creates an enumerator for properties associated with the stack frame, such as local variables."
 title: IDebugStackFrame2::EnumProperties | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

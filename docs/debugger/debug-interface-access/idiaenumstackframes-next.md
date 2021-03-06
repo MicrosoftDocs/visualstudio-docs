@@ -1,4 +1,5 @@
 ---
+description: "Retrieves a specified number of stack frame elements from the enumeration sequence."
 title: "IDiaEnumStackFrames::Next | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

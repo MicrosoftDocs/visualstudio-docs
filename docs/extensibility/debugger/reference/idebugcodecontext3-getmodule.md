@@ -1,4 +1,5 @@
 ---
+description: "Retrieves a reference to the interface of the debug module."
 title: IDebugCodeContext3::GetModule | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

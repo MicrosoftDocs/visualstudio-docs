@@ -1,4 +1,5 @@
 ---
+description: "Accesses injected source code stored in the DIA data source."
 title: "IDiaInjectedSource | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

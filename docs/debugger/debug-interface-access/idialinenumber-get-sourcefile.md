@@ -1,4 +1,5 @@
 ---
+description: "Retrieves a reference to the source file."
 title: "IDiaLineNumber::get_sourceFile | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

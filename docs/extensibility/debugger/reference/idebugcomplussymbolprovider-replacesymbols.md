@@ -1,4 +1,5 @@
 ---
+description: "Replaces the current debug symbols with those in the specified data stream."
 title: IDebugComPlusSymbolProvider::ReplaceSymbols | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

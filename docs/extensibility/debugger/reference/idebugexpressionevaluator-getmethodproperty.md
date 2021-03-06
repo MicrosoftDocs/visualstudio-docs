@@ -1,4 +1,5 @@
 ---
+description: "This method gets a property object that contains the locals, arguments, and other properties of a method."
 title: IDebugExpressionEvaluator::GetMethodProperty | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the length, in bytes, of the block of code described by the frame."
 title: "IDiaFrameData::get_lengthBlock | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

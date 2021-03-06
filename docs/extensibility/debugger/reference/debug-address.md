@@ -1,4 +1,5 @@
 ---
+description: "This structure represents an address."
 title: DEBUG_ADDRESS | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

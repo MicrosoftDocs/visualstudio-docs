@@ -1,4 +1,5 @@
 ---
+description: "Returns the name of the compiler used to generate the Compiland)."
 title: "IDiaSymbol::get_compilerName | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"
