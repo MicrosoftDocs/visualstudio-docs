@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: e2f2619c-7736-47e5-a066-5940d5994db9
-ms.date: 10/26/2020
+ms.date: 02/18/2021
 ms.topic: conceptual
 description:  Learn how to locate and download Microsoft software titles in Visual Studio subscriptions
 ---
@@ -46,6 +46,9 @@ In the details pane, you can also select the **Keys** tab to check the status of
 To obtain a product key for the download, you can either select the blue key labeled **Get Key** or if you're already viewing the details pane, select **Claim key** on the **Keys** tab.
 > [!div class="mx-imgBorder"]
 > ![Visual Studio 2019 claim product keys](_img/subscriber-downloads/vs2019-claim-keys.png "Select Claim Key to claim remaining keys.")
+
+## Resources
+- [Visual Studio subscriptions support](https://my.visualstudio.com/gethelp)
 
 ## See also
 - [Visual Studio documentation](/visualstudio/)
