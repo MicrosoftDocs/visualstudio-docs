@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the symbol's original equipment manufacturer (OEM) ID value."
 title: "IDiaSymbol::get_oemId | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

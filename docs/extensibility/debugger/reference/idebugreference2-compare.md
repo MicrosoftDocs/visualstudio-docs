@@ -1,4 +1,5 @@
 ---
+description: "Compares one reference to another."
 title: IDebugReference2::Compare | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

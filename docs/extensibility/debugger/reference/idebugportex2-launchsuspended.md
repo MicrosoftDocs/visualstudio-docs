@@ -1,4 +1,5 @@
 ---
+description: "Launches an executable file."
 title: IDebugPortEx2::LaunchSuspended | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

@@ -1,4 +1,5 @@
 ---
+description: "Gets the number of custom attributes in an enumerator."
 title: IEnumDebugCustomAttributes::GetCount | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

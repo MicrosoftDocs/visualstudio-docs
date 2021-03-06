@@ -1,4 +1,5 @@
 ---
+description: "Positions the enumerator by performing a lookup by virtual address (VA)."
 title: "IDiaEnumSymbolsByAddr::symbolByVA | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

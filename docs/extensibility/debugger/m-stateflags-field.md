@@ -1,4 +1,5 @@
 ---
+description: "Stores information about the current state of the System.Threading.Tasks.Task object."
 title: m_stateFlags Field | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: conceptual

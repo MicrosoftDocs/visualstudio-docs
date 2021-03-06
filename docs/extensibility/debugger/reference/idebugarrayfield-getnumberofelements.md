@@ -1,4 +1,5 @@
 ---
+description: "Gets the number of elements in the array."
 title: IDebugArrayField::GetNumberOfElements | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

@@ -1,4 +1,5 @@
 ---
+description: "This method gets displayable information about the field."
 title: IDebugField::GetInfo | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

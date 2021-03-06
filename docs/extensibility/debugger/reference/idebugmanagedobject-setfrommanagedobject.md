@@ -1,4 +1,5 @@
 ---
+description: "Sets the value of the instance of the value class object from the instance of the value class provided as a parameter."
 title: IDebugManagedObject::SetFromManagedObject | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

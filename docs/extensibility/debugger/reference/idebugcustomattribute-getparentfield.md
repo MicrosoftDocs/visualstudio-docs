@@ -1,4 +1,5 @@
 ---
+description: "Gets the field to which the custom attribute is attached."
 title: IDebugCustomAttribute::GetParentField | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

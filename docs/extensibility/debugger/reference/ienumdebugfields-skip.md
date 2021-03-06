@@ -1,4 +1,5 @@
 ---
+description: "This method skips over the specified number of elements in the fields enumeration."
 title: IEnumDebugFields::Skip | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

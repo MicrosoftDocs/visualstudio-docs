@@ -1,4 +1,5 @@
 ---
+description: "This structure specifies various kinds of information about a field's type."
 title: TYPE_INFO | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

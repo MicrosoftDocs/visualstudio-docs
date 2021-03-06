@@ -1,4 +1,5 @@
 ---
+description: "Skips a specified number of frame data elements in an enumeration sequence."
 title: "IDiaEnumFrameData::Skip | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

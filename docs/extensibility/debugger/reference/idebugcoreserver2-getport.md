@@ -1,4 +1,5 @@
 ---
+description: "Retrieves a specific port."
 title: IDebugCoreServer2::GetPort | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

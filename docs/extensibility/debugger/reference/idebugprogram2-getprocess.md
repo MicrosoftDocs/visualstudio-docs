@@ -1,4 +1,5 @@
 ---
+description: "Get the process that this program is running in."
 title: IDebugProgram2::GetProcess | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

@@ -1,4 +1,5 @@
 ---
+description: "Debug engines do not implement this method."
 title: IDebugThread2::GetLogicalThread | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

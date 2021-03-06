@@ -1,4 +1,5 @@
 ---
+description: "Retrieves a flag that specifies whether the function contains a call to alloca (which is used to allocate memory on the stack)."
 title: "IDiaSymbol::get_hasAlloca | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

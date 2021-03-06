@@ -1,4 +1,5 @@
 ---
+description: "Resumes execution of a thread."
 title: IDebugThread2::Resume | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

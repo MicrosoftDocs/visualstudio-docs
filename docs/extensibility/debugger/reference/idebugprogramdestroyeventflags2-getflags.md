@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the program destroy flags."
 title: IDebugProgramDestroyEventFlags2::GetFlags | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

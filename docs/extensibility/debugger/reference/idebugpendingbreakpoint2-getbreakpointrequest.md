@@ -1,4 +1,5 @@
 ---
+description: "Gets the breakpoint request that was used to create this pending breakpoint."
 title: IDebugPendingBreakpoint2::GetBreakpointRequest | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

@@ -1,4 +1,5 @@
 ---
+description: "Writes an alert to the Concurrency Visualizer trace file."
 title: marker_series::write_alert Method | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

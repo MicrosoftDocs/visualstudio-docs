@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the bit position of location."
 title: "IDiaSymbol::get_bitPosition | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

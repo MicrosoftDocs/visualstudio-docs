@@ -1,4 +1,5 @@
 ---
+description: "Gets the title, friendly name, or file name of the process."
 title: IDebugProcess2::GetName | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

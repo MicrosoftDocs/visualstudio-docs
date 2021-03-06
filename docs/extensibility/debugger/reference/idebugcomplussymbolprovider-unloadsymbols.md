@@ -1,4 +1,5 @@
 ---
+description: "Unloads the debug symbols for the specified module from memory."
 title: IDebugComPlusSymbolProvider::UnloadSymbols | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

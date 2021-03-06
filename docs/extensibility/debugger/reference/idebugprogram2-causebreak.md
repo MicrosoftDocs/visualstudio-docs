@@ -1,4 +1,5 @@
 ---
+description: "Requests that the program stop execution the next time one of its threads attempts to run."
 title: IDebugProgram2::CauseBreak | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the program string that is used to compute the register set before the call to the current function."
 title: "IDiaFrameData::get_program | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

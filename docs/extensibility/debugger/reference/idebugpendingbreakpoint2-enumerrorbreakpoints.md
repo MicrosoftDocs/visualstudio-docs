@@ -1,4 +1,5 @@
 ---
+description: "Gets a list of all error breakpoints that resulted from this pending breakpoint."
 title: IDebugPendingBreakpoint2::EnumErrorBreakpoints | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

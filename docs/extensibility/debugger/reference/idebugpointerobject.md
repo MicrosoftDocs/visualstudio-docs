@@ -1,4 +1,5 @@
 ---
+description: "This interface represents a pointer object."
 title: IDebugPointerObject | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

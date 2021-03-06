@@ -1,4 +1,5 @@
 ---
+description: "Reads LONG values in a property set."
 title: "IDiaPropertyStorage::ReadLONG | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

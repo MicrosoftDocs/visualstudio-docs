@@ -1,4 +1,5 @@
 ---
+description: "A structure that identifies a custom viewer or type visualizer."
 title: DEBUG_CUSTOM_VIEWER | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

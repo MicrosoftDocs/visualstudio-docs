@@ -1,4 +1,5 @@
 ---
+description: "Describes the location of a code breakpoint."
 title: BP_RESOLUTION_CODE | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

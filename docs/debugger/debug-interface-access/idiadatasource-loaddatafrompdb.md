@@ -1,4 +1,5 @@
 ---
+description: "Opens and prepares a program database (.pdb) file as a debug data source."
 title: "IDiaDataSource::loadDataFromPdb | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

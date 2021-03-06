@@ -1,4 +1,5 @@
 ---
+description: "Retrieves a flag that specifies whether a user-defined type (UDT) contains homogeneous floating-point aggregate (HFA) data of type float."
 title: "IDiaSymbol::get_hfaFloat | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

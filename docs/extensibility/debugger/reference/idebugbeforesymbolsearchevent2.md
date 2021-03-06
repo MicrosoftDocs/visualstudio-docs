@@ -1,4 +1,5 @@
 ---
+description: "The debug engine (DE) sends this interface to the session debug manager (SDM) to set the status bar message during symbol loads."
 title: IDebugBeforeSymbolSearchEvent2 | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

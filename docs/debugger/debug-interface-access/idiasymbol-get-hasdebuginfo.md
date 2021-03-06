@@ -1,4 +1,5 @@
 ---
+description: "Retrieves a flag that specifies if the Compiland) contains debugging information."
 title: "IDiaSymbol::get_hasDebugInfo | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

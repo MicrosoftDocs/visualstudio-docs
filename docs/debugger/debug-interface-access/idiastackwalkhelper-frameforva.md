@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the stack frame that contains the specified virtual address."
 title: "IDiaStackWalkHelper::frameForVA | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

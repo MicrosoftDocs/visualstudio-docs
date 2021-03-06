@@ -1,4 +1,5 @@
 ---
+description: "Specifies the reason for the debug engine (DE) to attach to a program node."
 title: ATTACH_REASON | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

@@ -1,4 +1,5 @@
 ---
+description: "Makes a program node available for use by debug engines (DEs) and the session debug manager (SDM)."
 title: IDebugProgramPublisher2::PublishProgramNode | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

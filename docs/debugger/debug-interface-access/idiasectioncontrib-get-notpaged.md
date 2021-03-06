@@ -1,4 +1,5 @@
 ---
+description: "Retrieves a flag that indicates whether the section cannot be paged out of memory."
 title: "IDiaSectionContrib::get_notPaged | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

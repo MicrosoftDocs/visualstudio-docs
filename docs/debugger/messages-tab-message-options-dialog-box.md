@@ -1,4 +1,5 @@
 ---
+description: "Use the Messages tab to select which message types to list in Messages View), and to specify message search criteria."
 title: "Messages Tab, Message Options Dialog Box | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

@@ -1,4 +1,5 @@
 ---
+description: "Indicates the particular scope of a data value."
 title: "DataKind | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

@@ -1,4 +1,5 @@
 ---
+description: "Stops and cleans up the expression evaluator."
 title: IDebugExpressionEvaluator2::Terminate | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

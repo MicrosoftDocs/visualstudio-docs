@@ -1,4 +1,5 @@
 ---
+description: "Gets the state of this bound breakpoint."
 title: IDebugBoundBreakpoint2::GetState | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

@@ -1,4 +1,5 @@
 ---
+description: "IDiaStackFrame::get_lengthParams retrieves the number of bytes of parameters pushed on the stack."
 title: "IDiaStackFrame::get_lengthParams | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

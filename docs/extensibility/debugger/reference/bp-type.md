@@ -1,4 +1,5 @@
 ---
+description: "Specifies whether the breakpoint is at a code location, is a data location, or is another type of breakpoint."
 title: BP_TYPE | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

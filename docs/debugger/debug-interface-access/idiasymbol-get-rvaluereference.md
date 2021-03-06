@@ -1,4 +1,5 @@
 ---
+description: "Retrieves a flag that specifies whether a pointer type is an rvalue reference."
 title: "IDiaSymbol::get_RValueReference | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the one-based source line number where the statement or expression ends."
 title: "IDiaLineNumber::get_lineNumberEnd | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

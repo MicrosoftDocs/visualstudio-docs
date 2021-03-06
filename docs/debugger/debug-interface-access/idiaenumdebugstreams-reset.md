@@ -1,4 +1,5 @@
 ---
+description: "Resets an enumeration sequence of debug streams to the beginning."
 title: "IDiaEnumDebugStreams::Reset | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

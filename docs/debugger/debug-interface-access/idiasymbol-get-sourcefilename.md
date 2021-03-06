@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the file name of the compiland source file."
 title: "IDiaSymbol::get_sourceFileName | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

@@ -1,4 +1,5 @@
 ---
+description: "Gets the dimensions of the array."
 title: IDebugArrayObject::GetDimensions | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

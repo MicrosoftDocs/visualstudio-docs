@@ -1,4 +1,5 @@
 ---
+description: "This method sets the language to use to create printable results."
 title: IDebugExpressionEvaluator::SetLocale | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

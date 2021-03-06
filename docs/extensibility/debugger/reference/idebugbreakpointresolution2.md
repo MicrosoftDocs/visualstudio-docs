@@ -1,4 +1,5 @@
 ---
+description: "This interface represents the information that describes a bound breakpoint."
 title: IDebugBreakpointResolution2 | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

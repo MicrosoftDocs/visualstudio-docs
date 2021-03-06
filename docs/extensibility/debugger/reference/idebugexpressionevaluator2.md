@@ -1,4 +1,5 @@
 ---
+description: "Represents an enhanced version of an expression evaluator (EE)."
 title: IDebugExpressionEvaluator2 | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

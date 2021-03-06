@@ -1,4 +1,5 @@
 ---
+description: "The backing field for the task's parent System.Threading.Tasks.Task."
 title: m_parent Field | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

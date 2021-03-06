@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the offset, in segments, where the section begins."
 title: "IDiaSegment::get_offset | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

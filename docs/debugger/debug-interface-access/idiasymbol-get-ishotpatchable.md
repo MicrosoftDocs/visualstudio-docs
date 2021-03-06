@@ -1,4 +1,5 @@
 ---
+description: "Retrieves a flag indicating whether the module was compiled with the /hotpatch (Create Hotpatchable Image)) compiler switch."
 title: "IDiaSymbol::get_isHotpatchable | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

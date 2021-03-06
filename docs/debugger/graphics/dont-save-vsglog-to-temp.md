@@ -1,4 +1,5 @@
 ---
+description: "Defines by its presence whether the graphics log file is saved to the user's temporary files directory."
 title: "DONT_SAVE_VSGLOG_TO_TEMP | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"

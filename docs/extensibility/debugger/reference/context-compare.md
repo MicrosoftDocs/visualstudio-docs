@@ -1,4 +1,5 @@
 ---
+description: "Specifies the criteria for comparing two memory contexts."
 title: CONTEXT_COMPARE | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

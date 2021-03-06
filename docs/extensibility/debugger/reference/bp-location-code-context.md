@@ -1,4 +1,5 @@
 ---
+description: "Describes the location of a breakpoint that is bound directly to an address in the program being debugged."
 title: BP_LOCATION_CODE_CONTEXT | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

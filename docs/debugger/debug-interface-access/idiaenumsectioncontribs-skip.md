@@ -1,4 +1,5 @@
 ---
+description: "Skips a specified number of section contributions in an enumeration sequence."
 title: "IDiaEnumSectionContribs::Skip | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

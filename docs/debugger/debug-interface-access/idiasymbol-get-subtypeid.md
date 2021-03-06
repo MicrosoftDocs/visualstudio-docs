@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the sub type ID."
 title: "IDiaSymbol::get_subTypeId | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

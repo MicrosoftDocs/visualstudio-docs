@@ -1,4 +1,5 @@
 ---
+description: "Specifies whether this symbol is a pointer to a data member."
 title: "IDiaSymbol::get_isPointerToDataMember | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

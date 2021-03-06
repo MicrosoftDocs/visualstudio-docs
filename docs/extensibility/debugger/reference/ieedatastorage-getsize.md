@@ -1,4 +1,5 @@
 ---
+description: "Returns the number of bytes contained in this object."
 title: IEEDataStorage::GetSize | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

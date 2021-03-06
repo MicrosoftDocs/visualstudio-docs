@@ -1,4 +1,5 @@
 ---
+description: "Returns the number of type parameter arguments for this instance."
 title: IDebugGenericFieldInstance::TypeArgumentCount | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

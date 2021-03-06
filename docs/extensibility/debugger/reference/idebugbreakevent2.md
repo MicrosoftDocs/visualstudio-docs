@@ -1,4 +1,5 @@
 ---
+description: "This interface tells the session debug manager (SDM) that an asynchronous break has been successfully completed."
 title: IDebugBreakEvent2 | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

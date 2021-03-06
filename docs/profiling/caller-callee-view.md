@@ -1,4 +1,5 @@
 ---
+description: "The Caller/Callee view displays profiling information for a selected function and its parent and child functions."
 title: "Caller-Callee View | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"

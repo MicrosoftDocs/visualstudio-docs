@@ -1,4 +1,5 @@
 ---
+description: "Retrieves a stack frame enumerator for a specific platform type."
 title: "IDiaStackWalker::getEnumFrames2 | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

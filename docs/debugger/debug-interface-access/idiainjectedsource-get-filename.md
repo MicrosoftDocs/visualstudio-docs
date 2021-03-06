@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the file name for the source."
 title: "IDiaInjectedSource::get_filename | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

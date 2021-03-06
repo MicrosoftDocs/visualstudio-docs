@@ -1,4 +1,5 @@
 ---
+description: "Creates a unique ID or alias for this object or returns an existing alias."
 title: IDebugObject2::CreateAlias | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

@@ -1,4 +1,5 @@
 ---
+description: "This method returns the next set of IDebugObject elements from the enumeration."
 title: IEnumDebugObjects::Next | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

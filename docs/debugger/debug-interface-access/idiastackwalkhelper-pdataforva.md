@@ -1,4 +1,5 @@
 ---
+description: "Returns the PDATA data block associated with the virtual address."
 title: "IDiaStackWalkHelper::pdataForVA | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

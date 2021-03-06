@@ -1,4 +1,5 @@
 ---
+description: "Indicates whether an address map has been established for a particular session."
 title: "IDiaAddressMap::get_addressMapEnabled | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

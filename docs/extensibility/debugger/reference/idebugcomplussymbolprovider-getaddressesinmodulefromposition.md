@@ -1,4 +1,5 @@
 ---
+description: "Maps a document position in the specified module to an array of debug addresses."
 title: IDebugComPlusSymbolProvider::GetAddressesInModuleFromPosition
 titleSuffix: ""
 ms.custom: SEO-VS-2020

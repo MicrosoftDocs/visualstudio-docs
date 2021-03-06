@@ -1,4 +1,5 @@
 ---
+description: "Gets an evaluation context for expression evaluation within the current context of a stack frame and thread."
 title: IDebugStackFrame2::GetExpressionContext | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

@@ -1,4 +1,5 @@
 ---
+description: "Constructs a field instance given an array of type arguments."
 title: IDebugGenericFieldDefinition::ConstructInstantiation | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

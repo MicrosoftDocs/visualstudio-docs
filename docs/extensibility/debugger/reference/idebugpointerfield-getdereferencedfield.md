@@ -1,4 +1,5 @@
 ---
+description: "This method returns the type of object to which this pointer object points."
 title: IDebugPointerField::GetDereferencedField | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the number of modifiers that are applied to the original type."
 title: "IDiaSymbol::get_numberOfModifiers | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

@@ -33,7 +33,7 @@ If you run into problems deploying your project or item templates, you can enabl
     "EnableTemplateDiscoveryLog"=dword:00000001
     ```
 
-3. Open a [Developer Command Prompt](/dotnet/framework/tools/developer-command-prompt-for-vs) for your installation and run `devenv /updateConfiguration`.
+3. Open a [Developer Command Prompt](../ide/reference/command-prompt-powershell.md) for your installation and run `devenv /updateConfiguration`.
 
 ::: moniker range="vs-2017"
 

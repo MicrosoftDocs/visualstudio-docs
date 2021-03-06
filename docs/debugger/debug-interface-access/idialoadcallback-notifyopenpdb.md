@@ -1,4 +1,5 @@
 ---
+description: "Called when a candidate .pdb file is opened."
 title: "IDiaLoadCallback::NotifyOpenPDB | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

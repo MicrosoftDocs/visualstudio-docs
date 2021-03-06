@@ -1,4 +1,5 @@
 ---
+description: "Compares the memory context to each context in the given array in the manner indicated by compare flags, returning an index of the first context that matches."
 title: IDebugMemoryContext2::Compare | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

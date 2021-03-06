@@ -1,4 +1,5 @@
 ---
+description: "This method sets the language that the process will be hosted under."
 title: IDebugProcess3::SetHostingProcessLanguage | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

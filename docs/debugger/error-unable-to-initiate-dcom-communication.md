@@ -1,4 +1,5 @@
 ---
+description: "A DCOM error occurred when the local machine tried to communicate with the remote machine."
 title: "Unable to initiate DCOM communication | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "error-reference"
