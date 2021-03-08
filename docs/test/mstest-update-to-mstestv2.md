@@ -20,7 +20,7 @@ ms.workload:
 Upgrade your test project by retargeting the MSTest version referenced in your `.csproj` from the MSTestV1 to MSTestV2. Not all features in MSTestV1 were brought forward into MSTestV2, so some changes may be required to resolve errors. See [MSTestV1 features that are not supported in MSTestV2](#MSTestV1-features-that-are-not-supported-in-MSTestV2) to understand what features will no longer function and may need to be removed from your tests.
 
 1. Remove the assembly reference to Microsoft.VisualStudio.QualityTools.UnitTestFramework from your unit test project.
-2. Add nuget package references to MSTestV2 including the [MSTest.TestFramework](https://www.nuget.org/packages/MSTest.TestFramework) and the [MSTest.TestAdapter](https://www.nuget.org/packages/MSTest.TestAdapter/) packages on nuget.org. You can do this in the NuGet Package Manager Console with the commands below:
+2. Add NuGet package references to MSTestV2 including the [MSTest.TestFramework](https://www.nuget.org/packages/MSTest.TestFramework) and the [MSTest.TestAdapter](https://www.nuget.org/packages/MSTest.TestAdapter/) packages on nuget.org. You can do this in the NuGet Package Manager Console with the following commands:
 ```console
 PM> Install-Package MSTest.TestAdapter -Version 2.1.2
 PM> Install-Package MSTest.TestFramework -Version 2.1.2
