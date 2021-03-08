@@ -1,5 +1,6 @@
 ---
 title: "Get start & end characters in ranges programmatically"
+description: "This example demonstrates how you can retrieve the character positions of the start and end positions of a range."
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:

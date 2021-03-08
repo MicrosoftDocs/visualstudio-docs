@@ -1,5 +1,6 @@
 ---
 title: DA0003 - Many kernel samples | Microsoft Docs
+description: "A significant proportion of the call stack samples that were collected for the application were executing in kernel mode."
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords: 

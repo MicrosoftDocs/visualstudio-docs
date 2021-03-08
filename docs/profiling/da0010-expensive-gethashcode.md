@@ -1,5 +1,6 @@
 ---
 title: DA0010 - Expensive GetHashCode | Microsoft Docs
+description: "Calls to the GetHashCode method of the type are a significant proportion of the profiling data or the method allocates memory."
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords: 
