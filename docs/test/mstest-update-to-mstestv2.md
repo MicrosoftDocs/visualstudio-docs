@@ -17,10 +17,11 @@ ms.workload:
 
 ## How to upgrade
 
-Upgrade your test project by retargeting the MSTest version referenced in your `.csproj` from the MSTestV1 to MSTestV2. Not all features in MSTestV1 were brought forward into MSTestV2, so some changes may be required to resolve errors. See [MSTestV1 features that are not supported in MSTestV2](#MSTestV1-features-that-are-not-supported-in-MSTestV2) to understand what features will no longer function and may need to be removed from your tests.
+Upgrade your test project by retargeting the MSTest version referenced in your *.csproj* from the MSTestV1 to MSTestV2. Not all features in MSTestV1 were brought forward into MSTestV2, so some changes may be required to resolve errors. To understand what features will no longer function and may need to be removed from your tests, see [MSTestV1 features that are not supported in MSTestV2](#mstestv1-features-that-are-not-supported-in-mstestv2).
 
 1. Remove the assembly reference to Microsoft.VisualStudio.QualityTools.UnitTestFramework from your unit test project.
 2. Add NuGet package references to MSTestV2 including the [MSTest.TestFramework](https://www.nuget.org/packages/MSTest.TestFramework) and the [MSTest.TestAdapter](https://www.nuget.org/packages/MSTest.TestAdapter/) packages on nuget.org. You can do this in the NuGet Package Manager Console with the following commands:
+
 ```console
 PM> Install-Package MSTest.TestAdapter -Version 2.1.2
 PM> Install-Package MSTest.TestFramework -Version 2.1.2
@@ -28,14 +29,16 @@ PM> Install-Package MSTest.TestFramework -Version 2.1.2
 
 ### Old style csproj example
 
-Sample `.csproj` targeting MSTestV1:
+Sample *.csproj* targeting MSTestV1:
+
 ```xml
 <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
   <Private>False</Private>
 </Reference>
 ```
 
-Smaple `.csproj` now targeting MSTestV2:
+Sample *.csproj* now targeting MSTestV2:
+
 ```xml
 <Reference Include="Microsoft.VisualStudio.TestPlatform.TestFramework, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
   <HintPath>..\packages\MSTest.TestFramework.2.1.2\lib\net45\Microsoft.VisualStudio.TestPlatform.TestFramework.dll</HintPath>
@@ -47,9 +50,10 @@ Smaple `.csproj` now targeting MSTestV2:
 
 ### SDK-style csproj (.NET Core and .NET 5)
 
-If your csproj is the newer sdk-style csproj you are most likely already using MSTestV2. You can find the NuGet packages for [MSTestV2](https://www.nuget.org/packages/MSTest.TestFramework) and the [MSTestV2 Adapter](https://www.nuget.org/packages/MSTest.TestAdapter/) on NuGet.
+If your *.csproj* is the newer SDK-style *.csproj* you are most likely already using MSTestV2. You can find the NuGet packages for [MSTestV2](https://www.nuget.org/packages/MSTest.TestFramework) and the [MSTestV2 Adapter](https://www.nuget.org/packages/MSTest.TestAdapter/) on NuGet.
 
 Example:
+
 ```xml
 <ItemGroup>
   <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.7.1" />
@@ -64,7 +68,7 @@ In 2016 we released the next step in evolving the MSTest framework with MSTestV2
 
 1. MSTestV2 is more easily acquired and updated because it is delivered as a [NuGet Package](https://www.nuget.org/packages/MSTest.TestFramework/).
 2. MSTestV2 is [open source](https://github.com/microsoft/testfx).
-3. Uniform app-platform support – this is a converged implementation that offers uniform app-platform support across .NET Framework, .NET Core and ASP.NET Core, and UWP. [Read more](https://blogs.msdn.microsoft.com/devops/2016/09/01/announcing-mstest-v2-framework-support-for-net-core-1-0-rtm/).
+3. Uniform app-platform support – this is a converged implementation that offers uniform app-platform support across .NET Framework, .NET Core, ASP.NET Core, and UWP. [Read more](https://blogs.msdn.microsoft.com/devops/2016/09/01/announcing-mstest-v2-framework-support-for-net-core-1-0-rtm/).
 4. The implementation is fully cross platform (Windows, Linux, Mac). [Read more](https://blogs.msdn.microsoft.com/devops/2017/04/05/mstest-v2-is-open-source/).
 5. MSTestV2 supports targeting .NET Framework 4.5.0 and later, .NET Core 1.0 and later (Universal Windows Apps 10+), ASP.NET Core 1.0 and later, and .NET 5 and later.
 6. Provides a uniform, single end-user extensibility mechanism. [Read more](https://blogs.msdn.microsoft.com/devops/2017/07/18/extending-mstest-v2/).
@@ -96,9 +100,9 @@ In 2016 we released the next step in evolving the MSTest framework with MSTestV2
 ## MSTestV1 features that are not supported in MSTestV2
 
 1.	Tests cannot be included into an "Ordered Test".
-2.	The adapter does not support being configured via a `.testsettings` file. Use the new [`.runsettings` file](../test/configure-unit-tests-by-using-a-dot-runsettings-file.md) for test run configuration.
-3.	The adapter does not support test lists specified as a `.vsmdi` file.
-4.	The "Coded UI Test Project", and the "Web Performance and Load Test Project" types are not supported per the deprecation announcements.
+2.	The adapter does not support being configured via a *.testsettings* file. Use the new [*.runsettings* file](../test/configure-unit-tests-by-using-a-dot-runsettings-file.md) for test run configuration.
+3.	The adapter does not support test lists specified as a *.vsmdi* file.
+4.	The "Coded UI Test Project" and the "Web Performance and Load Test Project" types are not supported per the deprecation announcements.
 
 ## See also
 
