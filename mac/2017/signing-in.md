@@ -9,7 +9,7 @@ ms.topic: how-to
 ---
 # Sign in to Visual Studio for Mac
 
-When you launch Visual Studio for Mac for the first time, you're prompted to log in using a Microsoft account. Use a Microsoft account that is connected to the license that you wish to use. If you do not have a Microsoft account, see [How do I sign up for an account](https://support.microsoft.com/instantanswers/d18cc497-d839-cf50-dea8-f99c95f2bd16/sign-up-for-a-microsoft-account).
+When you launch Visual Studio for Mac for the first time, you're prompted to log in using a Microsoft account. Use a Microsoft account that is connected to the license that you wish to use. If you do not have a Microsoft account, see [How do I sign up for an account](https://support.microsoft.com/account-billing/how-to-create-a-new-microsoft-account-a84675c3-3e9e-17cf-2911-3d56b15c0aaf).
 
 If you do decide not to log in straight away, you'll be able to use an evaluation copy for 30 days. After 30 days you must log in to continue using your copy of Visual Studio for Mac.
 
