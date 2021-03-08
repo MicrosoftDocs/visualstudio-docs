@@ -54,4 +54,4 @@ The Xamarin Inspector provides an interactive C# console with user tools. It can
 
 It consists of a standalone application that provides a rich C# console that can target various programming platforms (Android, iOS, Mac, and Windows) and integrate into your IDEs debugging workflow.
 
-For more information, see the [Xamarin Inspector](/xamarin/tools/inspector/) guide.
+For more information, see the [Xamarin Inspector](/xamarin/tools/inspector/release-notes/1.5) guide.
