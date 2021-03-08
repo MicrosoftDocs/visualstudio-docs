@@ -1,5 +1,6 @@
 ---
 title: DA0504 - Maximum Working Set in Bytes for the Process being profiled | Microsoft Docs
+description: "This message reports the maximum amount of physical memory, in bytes, that the process is currently using."
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords: 
