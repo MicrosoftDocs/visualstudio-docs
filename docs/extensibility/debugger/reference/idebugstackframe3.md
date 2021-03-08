@@ -1,4 +1,5 @@
 ---
+description: "This interface extends IDebugStackFrame2 to handle intercepted exceptions."
 title: IDebugStackFrame3 | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

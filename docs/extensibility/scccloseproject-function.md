@@ -1,4 +1,5 @@
 ---
+description: "This function closes a project, marking the end of a particular session."
 title: SccCloseProject Function | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: conceptual

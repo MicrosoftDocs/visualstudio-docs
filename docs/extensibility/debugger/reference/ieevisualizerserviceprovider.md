@@ -1,4 +1,5 @@
 ---
+description: "This interface gives access to a method that can create a visualizer service, which is used to handle type visualizer tasks for the IDE."
 title: IEEVisualizerServiceProvider | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

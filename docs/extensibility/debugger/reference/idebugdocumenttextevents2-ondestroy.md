@@ -1,4 +1,5 @@
 ---
+description: "Indicates that the entire document has been destroyed."
 title: IDebugDocumentTextEvents2::onDestroy | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

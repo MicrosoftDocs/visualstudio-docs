@@ -1,4 +1,5 @@
 ---
+description: "Performs stack unwinding and returns results in a stack walk frame interface."
 title: "IDiaFrameData::execute | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

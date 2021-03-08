@@ -1,4 +1,5 @@
 ---
+description: "Retrieves a flag indicating that this line information describes the beginning of a statement, rather than an expression, in the program source."
 title: "IDiaLineNumber::get_statement | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

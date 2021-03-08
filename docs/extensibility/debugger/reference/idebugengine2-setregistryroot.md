@@ -1,4 +1,5 @@
 ---
+description: "Sets the registry root for the debug engine (DE)."
 title: IDebugEngine2::SetRegistryRoot | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

@@ -1,4 +1,5 @@
 ---
+description: "Retrieves a flag indicating whether a section contains comments or similar information."
 title: "IDiaSectionContrib::get_informational | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

@@ -1,4 +1,5 @@
 ---
+description: "The task completed execution successfully."
 title: TASK_STATE_RAN_TO_COMPLETION Field | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: conceptual

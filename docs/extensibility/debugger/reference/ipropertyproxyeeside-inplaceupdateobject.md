@@ -1,4 +1,5 @@
 ---
+description: "Updates the object's data with the given data object and returns a new data object representing the object's new data."
 title: IPropertyProxyEESide::InPlaceUpdateObject | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

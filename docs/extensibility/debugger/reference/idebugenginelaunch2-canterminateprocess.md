@@ -1,4 +1,5 @@
 ---
+description: "Determines if a process can be terminated."
 title: IDebugEngineLaunch2::CanTerminateProcess | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

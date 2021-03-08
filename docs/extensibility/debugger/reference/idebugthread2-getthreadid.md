@@ -1,4 +1,5 @@
 ---
+description: "Gets the system thread identifier."
 title: IDebugThread2::GetThreadId | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

@@ -1,4 +1,5 @@
 ---
+description: "Enables a debug engine to pass a callback to the expression evaluator during initialization."
 title: IDebugExpressionEvaluator2::SetIDebugIDECallback | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

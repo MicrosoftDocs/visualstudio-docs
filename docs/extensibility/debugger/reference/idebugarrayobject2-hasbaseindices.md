@@ -1,4 +1,5 @@
 ---
+description: "Determines if the array has base indices (lower bounds) defined."
 title: IDebugArrayObject2::HasBaseIndices | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

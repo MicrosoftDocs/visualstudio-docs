@@ -1,4 +1,5 @@
 ---
+description: "The list of child tasks that are registered with this task."
 title: m_children Field | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: conceptual

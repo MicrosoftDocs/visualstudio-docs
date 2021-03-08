@@ -1,4 +1,5 @@
 ---
+description: "Signals the Visual Studio debugger UI to warn the user that symbols could not be located for the launched executable."
 title: IDebugNoSymbolsEvent2 | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the children of the symbol that are valid at a specified virtual address."
 title: "IDiaSymbol::findChildrenExByVA | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

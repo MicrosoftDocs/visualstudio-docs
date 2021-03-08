@@ -1,4 +1,5 @@
 ---
+description: "Extends the IDebugCodeContext2 interface to enable the retrieval of module and process interfaces."
 title: IDebugCodeContext3 | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

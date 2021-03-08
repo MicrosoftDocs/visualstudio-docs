@@ -1,4 +1,5 @@
 ---
+description: "This method sets a registry value known as a metric."
 title: IDebugEngine2::SetMetric | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

@@ -1,4 +1,5 @@
 ---
+description: "Suspends a thread."
 title: IDebugThread2::Suspend | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

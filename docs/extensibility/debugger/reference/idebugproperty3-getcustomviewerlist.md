@@ -1,4 +1,5 @@
 ---
+description: "Gets a list of custom viewers associated with this property."
 title: IDebugProperty3::GetCustomViewerList | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

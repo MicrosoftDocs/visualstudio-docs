@@ -1,4 +1,5 @@
 ---
+description: "This interface represents a breakpoint that is bound to a code location."
 title: IDebugBoundBreakpoint2 | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

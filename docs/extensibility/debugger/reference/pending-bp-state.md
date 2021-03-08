@@ -1,4 +1,5 @@
 ---
+description: "Specifies the state of a pending breakpoint (a breakpoint that has not yet been bound)."
 title: PENDING_BP_STATE | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

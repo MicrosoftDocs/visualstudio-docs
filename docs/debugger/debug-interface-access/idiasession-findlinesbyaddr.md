@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the lines in a specified compiland that contain a specified address."
 title: "IDiaSession::findLinesByAddr | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

@@ -1,4 +1,5 @@
 ---
+description: "Gets the this (Me in Visual Basic) pointer of the object containing the method."
 title: IDebugMethodField::GetThis | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

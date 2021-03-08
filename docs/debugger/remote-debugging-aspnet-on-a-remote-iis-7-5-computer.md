@@ -12,6 +12,7 @@ ms.workload:
   - "aspnet"
 ---
 # Remote Debug ASP.NET on a Remote IIS Computer
+
 To debug an ASP.NET application that has been deployed to IIS, install and run the remote tools on the computer where you deployed your app, and then attach to your running app from Visual Studio.
 
 ![Remote debugger components](../debugger/media/remote-debugger-aspnet.png "Remote_debugger_components")
@@ -31,6 +32,7 @@ Visual Studio 2017 is required to follow the steps shown in this article.
 ::: moniker-end
 
 These procedures have been tested on these server configurations:
+
 * Windows Server 2012 R2 and IIS 8 (For Windows Server 2008 R2, the server steps are different)
 
 ## Network requirements
@@ -122,16 +124,23 @@ You can use this option create a publish settings file and import it into Visual
 
 After the app deploys successfully, it should start automatically. If the app does not start from Visual Studio, start the app in IIS.
 
-1. In the **Settings** dialog box, enable debugging by clicking **Next**, choose a **Debug** configuration, and then choose **Remove additional files at destination** under the **File Publish** options.
+1. Switch to a debug configuration.
 
-    > [!IMPORTANT]
-    > If you choose a Release configuration, you disable debugging in the *web.config* file when you publish.
+   ::: moniker range=">=vs-2019"
+   Choose **Edit** to edit the profile, and then choose **Settings**. Choose a **Debug** configuration, and then choose **Remove additional files at destination** under the **File Publish** options.
+   ::: moniker-end
+   ::: moniker range="vs-2017"
+   In the **Settings** dialog box, enable debugging by clicking **Next**, choose a **Debug** configuration, and then choose **Remove additional files at destination** under the **File Publish** options.
+   ::: moniker-end
+
+   > [!IMPORTANT]
+   > If you choose a Release configuration, you disable debugging in the *web.config* file when you publish.
 
 1. Click **Save** and then republish the app.
 
 ## (Optional) Deploy by publishing to a local folder
 
-You can use this option to deploy your app if you want to copy the app to IIS using Powershell, RoboCopy, or you want to manually copy the files.
+You can use this option to deploy your app if you want to copy the app to IIS using PowerShell, RoboCopy, or you want to manually copy the files.
 
 ### <a name="BKMK_deploy_asp_net"></a> Configure the ASP.NET Web site on the Windows Server computer
 

@@ -6,7 +6,7 @@ keywords:
 author: ornellaalt
 ms.author: ornella
 manager: jmartens
-ms.date: 11/10/2020
+ms.date: 3/2/2021
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
 ms.topic: include
@@ -24,7 +24,7 @@ ms.topic: include
 
 Component ID | Name | Version | Dependency type
 --- | --- | --- | ---
-Microsoft.VisualStudio.ComponentGroup.TestTools.TestAgent | Test Agent core features | 16.0.28315.86 | Required
+Microsoft.VisualStudio.ComponentGroup.TestTools.TestAgent | Test Agent core features | 16.9.31004.209 | Required
 
 ## Unaffiliated components
 

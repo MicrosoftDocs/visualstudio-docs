@@ -1,4 +1,5 @@
 ---
+description: "Determines if the function at the specified debug address is considered stale."
 title: IDebugComPlusSymbolProvider::IsFunctionStale | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

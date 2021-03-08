@@ -1,4 +1,5 @@
 ---
+description: "Gets a managed code object representing the value associated with this object."
 title: IDebugObject2::GetICorDebugValue | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

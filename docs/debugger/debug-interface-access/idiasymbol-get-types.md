@@ -1,4 +1,5 @@
 ---
+description: "Retrieves an array of compiler-specific types for this symbol."
 title: "IDiaSymbol::get_types | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

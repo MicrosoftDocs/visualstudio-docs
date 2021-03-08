@@ -1,4 +1,5 @@
 ---
+description: "This function adds new files to the source control system."
 title: SccAdd Function | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: conceptual

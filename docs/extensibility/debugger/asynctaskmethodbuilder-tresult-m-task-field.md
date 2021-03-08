@@ -1,4 +1,5 @@
 ---
+description: "Represents the lazily initialized built task."
 title: AsyncTaskMethodBuilder&lt;TResult&gt;.m_task Field | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: conceptual

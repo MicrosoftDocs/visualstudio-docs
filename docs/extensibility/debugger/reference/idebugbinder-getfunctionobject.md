@@ -1,4 +1,5 @@
 ---
+description: "This method gets an IDebugFunctionObject object used to create function parameters."
 title: IDebugBinder::GetFunctionObject | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

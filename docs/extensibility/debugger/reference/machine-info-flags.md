@@ -1,4 +1,5 @@
 ---
+description: "Used to describe a machine."
 title: MACHINE_INFO_FLAGS | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

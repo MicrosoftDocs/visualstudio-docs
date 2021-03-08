@@ -1,4 +1,5 @@
 ---
+description: "Represents the source server information that is contained in a PDB file."
 title: IDebugSourceServerModule | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

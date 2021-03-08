@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the checksum type."
 title: "IDiaSourceFile::get_checksumType | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

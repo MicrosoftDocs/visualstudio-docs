@@ -1,4 +1,5 @@
 ---
+description: "Gets the reason the breakpoint was unbound."
 title: IDebugBreakpointUnboundEvent2::GetReason | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

@@ -1,4 +1,5 @@
 ---
+description: "This function displays the differences between the current local directory on the client disk and the corresponding project under source control."
 title: SccDirDiff Function | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: conceptual

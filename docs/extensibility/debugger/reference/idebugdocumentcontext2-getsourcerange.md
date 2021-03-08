@@ -1,4 +1,5 @@
 ---
+description: "Gets the source code range of this document context."
 title: IDebugDocumentContext2::GetSourceRange | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

@@ -1,4 +1,5 @@
 ---
+description: "Resets an enumeration sequence of frame data to the beginning."
 title: "IDiaEnumFrameData::Reset | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

@@ -97,7 +97,7 @@ For TypeScript, unit tests are run against the generated JavaScript code.
 
 ### Run tests from the command line
 
-You can run the tests from the [Developer Command Prompt](/dotnet/framework/tools/developer-command-prompt-for-vs) for Visual Studio using the following command:
+You can run the tests from [Developer Command Prompt for Visual Studio](../ide/reference/command-prompt-powershell.md) using the following command:
 
 ```
 vstest.console.exe <path to project file>\NodejsConsoleApp23.njsproj /TestAdapterPath:<VisualStudioFolder>\Common7\IDE\Extensions\Microsoft\NodeJsTools\TestAdapter
@@ -155,13 +155,14 @@ Visual Studio is running, restart Visual Studio to detect the framework. However
 when making changes to the implementation.
 
 ## Unit tests in other project types
+
 You are not limited to writing unit tests in just your Node.js projects. When you add the TestFramework and
 TestRoot properties to any C# or Visual Basic project, those tests will be enumerated and you can run them using
 the Test Explorer window.
 
 To enable this, right-click the project node in the Solution Explorer, choose **Unload Project**, and then choose **Edit Project**. Then in the project file, add the following two elements to a property group.
 
-> [!NOTE]
+> [!IMPORTANT]
 > Make sure that the property group you're adding the elements to doesn't have a condition specified.
 > This can cause unexpected behavior.
 
@@ -176,6 +177,7 @@ Next, add your tests to the test root folder you specified, and they will be ava
 Test Explorer window. If they don't initially appear, you may need to rebuild the project.
 
 ### Unit test .NET Core and .NET Standard
+
 In addition to the properties above, you will also need to install the NuGet package [Microsoft.JavaScript.UnitTest](https://www.nuget.org/packages/Microsoft.JavaScript.UnitTest/) and set the property:
 
 ```xml

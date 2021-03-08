@@ -1,4 +1,5 @@
 ---
+description: "This method determines the run-time type of an object."
 title: IDebugBinder::ResolveRuntimeType | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

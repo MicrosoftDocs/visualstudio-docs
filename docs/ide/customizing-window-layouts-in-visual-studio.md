@@ -2,7 +2,7 @@
 title: Customize window layouts
 description: Learn how to customize the characteristics that windows exhibit to create layouts that work best for various development workflows.
 ms.custom: SEO-VS-2020
-ms.date: 07/31/2020
+ms.date: 03/02/2021
 ms.topic: conceptual
 f1_keywords:
 - vs.windows
@@ -157,7 +157,17 @@ First, create a test solution that has two projects, each with a different optim
 
 #### Create a UI project and customize the layout
 
+::: moniker range="vs-2017"
+
 1. Create a new C# **WPF App** project. Imagine that in this project, you'll be developing a user interface. You want to maximize the space for the designer window and move other tool windows out of the way.
+
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+1. Create a new C# **WPF Application** project. Imagine that in this project, you'll be developing a user interface. You want to maximize the space for the designer window and move other tool windows out of the way.
+
+::: moniker-end
 
 2. If you have multiple monitors, pull over the **Solution Explorer** window and the **Properties** window to your second monitor. On a single monitor system, try closing all the windows except the designer.
 

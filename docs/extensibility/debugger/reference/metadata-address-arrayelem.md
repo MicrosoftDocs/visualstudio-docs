@@ -1,4 +1,5 @@
 ---
+description: "This structure represents an array element within an array."
 title: METADATA_ADDRESS_ARRAYELEM | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

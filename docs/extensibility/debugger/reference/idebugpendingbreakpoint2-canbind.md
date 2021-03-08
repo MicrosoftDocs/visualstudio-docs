@@ -1,4 +1,5 @@
 ---
+description: "Determines whether this pending breakpoint can bind to a code location."
 title: IDebugPendingBreakpoint2::CanBind | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

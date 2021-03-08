@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the debug symbols with the given parent attribute for the specified module."
 title: IDebugComPlusSymbolProvider::GetSymAttribute | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

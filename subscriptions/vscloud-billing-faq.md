@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: 21e0471d-ad59-4d21-9c6f-13f7147569af
-ms.date: 02/19/2021
+ms.date: 03/05/2021
 ms.topic: conceptual
 description:  Billing questions for cloud subscriptions.
 ---
@@ -67,14 +67,14 @@ A: At each purchase, we bill the full quantity purchased immediately. Charges ar
 at different times in the year, you will have subscriptions renewing in different months. We do not make all of a customer's annual cloud subscriptions coterminous as is
 common with Microsoft volume licensing agreement purchasing.
 
-### Q: How do cancelations work?
+### Q: How do cancellations work?
 A: When you cancel a Visual Studio cloud subscription, you are canceling automatic renewal. The subscription continues until its normal renewal date and then simply expires.
 At expiration, the Visual Studio subscriber can no longer use Visual Studio or any other benefits from the subscription.
 
-With monthly cloud subscriptions, cancelations take effect the first day of the next month. If you only cancel some of your monthly cloud subscriptions,
+With monthly cloud subscriptions, cancellations take effect the first day of the next month. If you only cancel some of your monthly cloud subscriptions,
 be sure to remove users on the first of the next month to ensure that the correct people continue to have active subscriptions assigned.
 
-For annual cloud subscriptions, cancelations take effect the first day of the month following 12 months from the original purchase, or 12 months from the last annual
+For annual cloud subscriptions, cancellations take effect the first day of the month following 12 months from the original purchase, or 12 months from the last annual
 renewal charge. For instance, if you bought a Visual Studio Professional annual cloud subscription on January 3, 2018 then it remains active until February 1, 2019 when
 it automatically renews for another year. If you cancel at any time between then and February 1, 2020 then the subscription will expire on February 1, 2020. There is no
 rebate for canceling part way through the subscription year with annual cloud subscriptions.
@@ -109,6 +109,9 @@ A:  Yes. As new versions are released, you can download and run them. Plus you c
 
 ### Q: Can I buy Visual Studio cloud subscriptions from my software reseller?
 A:  Yes, you can, if your reseller participates in the Cloud Solution Provider (CSP) program. Just ask them.
+
+### Q: Where can I find information about Azure invoices?
+A:  Check out the [Understand your Azure invoice](https://docs.microsoft.com/azure/cost-management-billing/understand/understand-invoice) article in the [Azure documentation](/azure/).
 
 ## Related resources
 - [Visual Studio Subscriptions Admin portal](https://manage.visualstudio.com/)

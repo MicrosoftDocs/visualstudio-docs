@@ -1,4 +1,5 @@
 ---
+description: "IDiaStackFrame::get_functionStart retrieves a flag that indicates whether the block contains the entry point of a function."
 title: "IDiaStackFrame::get_functionStart | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

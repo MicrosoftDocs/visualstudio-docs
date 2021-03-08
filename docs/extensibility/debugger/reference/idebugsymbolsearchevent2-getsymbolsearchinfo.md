@@ -1,4 +1,5 @@
 ---
+description: "Called by an event handler to retrieve results about a symbol load process."
 title: IDebugSymbolSearchEvent2::GetSymbolSearchInfo | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

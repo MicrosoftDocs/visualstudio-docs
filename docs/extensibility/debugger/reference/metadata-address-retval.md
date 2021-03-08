@@ -1,4 +1,5 @@
 ---
+description: "This structure represents a return value from a method or function."
 title: METADATA_ADDRESS_RETVAL | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

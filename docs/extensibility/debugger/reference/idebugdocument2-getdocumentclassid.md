@@ -1,4 +1,5 @@
 ---
+description: "Gets the class identifier of the document."
 title: IDebugDocument2::GetDocumentClassID | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

@@ -1,4 +1,5 @@
 ---
+description: "Gets the DEBUG_REFERENCE_INFO structure that describes a reference."
 title: IDebugReference2::GetReferenceInfo | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

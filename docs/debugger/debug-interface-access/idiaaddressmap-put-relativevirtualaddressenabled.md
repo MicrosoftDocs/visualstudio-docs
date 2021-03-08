@@ -1,4 +1,5 @@
 ---
+description: "Allows the client to enable or disable the calculation and use of relative virtual addresses (RVA)."
 title: "IDiaAddressMap::put_relativeVirtualAddressEnabled | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

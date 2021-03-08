@@ -1,4 +1,5 @@
 ---
+description: "Gets the system process identifier."
 title: IDebugProcess2::GetPhysicalProcessId | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

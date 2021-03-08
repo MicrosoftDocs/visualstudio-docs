@@ -1,4 +1,5 @@
 ---
+description: "Represents the importance level of a Concurrency Visualizer marker."
 title: marker_importance Enumeration | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

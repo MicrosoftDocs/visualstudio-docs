@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the user-displayable name for this context."
 title: IDebugMemoryContext2::GetName | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

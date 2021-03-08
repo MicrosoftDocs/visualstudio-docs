@@ -1,4 +1,5 @@
 ---
+description: "Specifies the information to be retrieved about the successful resolution of a breakpoint."
 title: BPRESI_FIELDS | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

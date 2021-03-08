@@ -53,10 +53,12 @@ Debugging between two computers connected through a proxy is not supported. Debu
 
 ## Create the ASP.NET Core application on the Visual Studio computer
 
-1. Create a new ASP.NET Core application.
+1. Create a new ASP.NET Core web application.
 
     ::: moniker range=">=vs-2019"
-    In Visual Studio 2019, type **Ctrl + Q** to open the search box, type **asp.net**, choose **Templates**, then choose **Create new ASP.NET Core Web Application**. In the dialog box that appears, name the project **MyASPApp**, and then choose **Create**. Next, choose **Web Application (Model-View-Controller)**, and then choose **Create**.
+    In Visual Studio 2019, choose **Create a new project** in the start window. If the start window is not open, choose **File** > **Start Window**. Type **web app**, choose **C#** as the language, then choose **ASP.NET Core Web Application (Model-View-Controller)**, and then choose **Next**. On the next screen, name the project **MyASPApp**, and then choose **Next**.
+
+    Choose either the recommended target framework (.NET Core 3.1) or .NET 5, and then choose **Create**.
     ::: moniker-end
     ::: moniker range="vs-2017"
     In Visual Studio 2017, choose **File > New > Project**, then select **Visual C# > Web > ASP.NET Core Web Application**. In the ASP.NET Core templates section, select **Web Application (Model-View-Controller)**. Make sure that ASP.NET Core 2.1 is selected, that **Enable Docker Support** is not selected and that **Authentication** is set to **No Authentication**. Name the project **MyASPApp**.
@@ -72,13 +74,23 @@ From Visual Studio, you can quickly publish and debug your app to a fully provis
 
 1. In Visual Studio, right-click the project node and choose **Publish**.
 
-    If you have previously configured any publishing profiles, the **Publish** pane appears. Click **New profile**.
+    If you have previously configured any publishing profiles, the **Publish** pane appears. Select either **New** or **New profile**.
 
-1. Choose **Azure App Service** from the **Publish** dialog box, select **Create New**, and follow the prompts to create a profile.
+1. Create a new publish profile.
 
-    For detailed instructions, see [Deploy an ASP.NET Core web app to Azure using Visual Studio](/aspnet/core/tutorials/publish-to-azure-webapp-using-vs).
+    ::: moniker range=">=vs-2019"
+    Choose **Azure** from the **Publish** dialog box and select **Next**. Then choose **Azure App Service (Windows)**, select **Next**, and follow the prompts to create a profile.
+
+    :::image type="content" source="../debugger/media/vs-2019/remotedbg-azure-app-service-profile.png" alt-text="Deploy an ASP.NET Core web app to Azure using Visual Studio":::
+    ::: moniker-end
+    ::: moniker range="vs-2017"
+
+    Choose **Azure App Service** from the **Publish** dialog box, select **Create New**, and follow the prompts to create a profile.
 
     ![Publish to Azure App Service](../debugger/media/remotedbg_azure_app_service_profile.png)
+    ::: moniker-end
+
+    For more detailed instructions, see [Deploy an ASP.NET Core web app to Azure using Visual Studio](/aspnet/core/tutorials/publish-to-azure-webapp-using-vs).
 
 1. In the Publish window, choose **Edit Configuration** and switch to a Debug configuration, and then choose **Publish**.
 
@@ -99,6 +111,7 @@ From Visual Studio, you can quickly publish and debug your app to a fully provis
 You can create an Azure VM for Windows Server and then install and configure IIS and the other required software components. This takes more time than deploying to an Azure App Service and requires that you follow the remaining steps in this tutorial.
 
 These procedures have been tested on these server configurations:
+
 * Windows Server 2012 R2 and IIS 8
 * Windows Server 2016 and IIS 10
 * Windows Server 2019 and IIS 10
@@ -136,7 +149,7 @@ When you download the software, you may get requests to grant permission to load
     > [!NOTE]
     > If the system doesn't have an Internet connection, obtain and install the *[Microsoft Visual C++ 2015 Redistributable](https://www.microsoft.com/download/details.aspx?id=53840)* before installing the .NET Core Windows Server Hosting bundle.
 
-3. Restart the system (or execute **net stop was /y** followed by **net start w3svc** from a command prompt to pick up a change to the system PATH).
+2. Restart the system (or execute **net stop was /y** followed by **net start w3svc** from a command prompt to pick up a change to the system PATH).
 
 ## Choose a deployment option
 

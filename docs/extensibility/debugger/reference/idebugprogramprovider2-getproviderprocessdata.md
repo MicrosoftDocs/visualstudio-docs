@@ -1,4 +1,5 @@
 ---
+description: "Retrieves a list of running programs from a specified process."
 title: IDebugProgramProvider2::GetProviderProcessData | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

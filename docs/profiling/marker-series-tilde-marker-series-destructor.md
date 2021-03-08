@@ -1,4 +1,5 @@
 ---
+description: "Destroys marker_series object and releases all allocated resources."
 title: marker_series::~marker_series Destructor | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

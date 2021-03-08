@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the object file name."
 title: "IDiaSymbol::get_objectFileName | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

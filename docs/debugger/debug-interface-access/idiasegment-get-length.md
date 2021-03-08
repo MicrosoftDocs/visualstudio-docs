@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the number of bytes in the segment."
 title: "IDiaSegment::get_length | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

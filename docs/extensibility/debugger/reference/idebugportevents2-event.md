@@ -1,4 +1,5 @@
 ---
+description: "This method sends events that signify the creation and destruction of processes and programs on a port."
 title: IDebugPortEvents2::Event | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

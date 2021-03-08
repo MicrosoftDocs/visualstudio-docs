@@ -1,4 +1,5 @@
 ---
+description: "Gets the code context for this stack frame."
 title: IDebugStackFrame2::GetCodeContext | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

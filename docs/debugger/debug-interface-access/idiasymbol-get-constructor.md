@@ -1,4 +1,5 @@
 ---
+description: "Retrieves a flag that specifies whether the user-defined data type has a constructor or destructor."
 title: "IDiaSymbol::get_constructor | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

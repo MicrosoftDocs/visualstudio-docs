@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the symbol interface of the array index type of the symbol."
 title: "IDiaSymbol::get_arrayIndexType | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

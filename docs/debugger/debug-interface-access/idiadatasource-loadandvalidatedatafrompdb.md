@@ -1,4 +1,5 @@
 ---
+description: "Opens and verifies that the program database (.pdb) file matches the signature information provided, and  prepares the .pdb file as a debug data source."
 title: "IDiaDataSource::loadAndValidateDataFromPdb | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

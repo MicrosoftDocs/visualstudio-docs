@@ -1,4 +1,5 @@
 ---
+description: "This message reports the maximum amount of virtual memory that the process has currently allocated in bytes (Private bytes)."
 title: DA0506 - Maximum Private Bytes allocated for the Process being profiled | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

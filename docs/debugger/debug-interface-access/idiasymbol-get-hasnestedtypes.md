@@ -1,4 +1,5 @@
 ---
+description: "Retrieves a flag that specifies whether the user-defined data type has nested type definitions."
 title: "IDiaSymbol::get_hasNestedTypes | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

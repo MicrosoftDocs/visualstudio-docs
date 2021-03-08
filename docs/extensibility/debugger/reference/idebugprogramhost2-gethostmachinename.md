@@ -1,4 +1,5 @@
 ---
+description: "Gets the name of the machine that the process hosting this program is running on."
 title: IDebugProgramHost2::GetHostMachineName | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

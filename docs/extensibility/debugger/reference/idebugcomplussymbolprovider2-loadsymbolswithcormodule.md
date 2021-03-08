@@ -1,4 +1,5 @@
 ---
+description: "Loads debug symbols given the ICorDebugModule object."
 title: IDebugComPlusSymbolProvider2::LoadSymbolsWithCorModule | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

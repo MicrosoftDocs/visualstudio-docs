@@ -1,4 +1,5 @@
 ---
+description: "Describes one disassembly instruction for the integrated development environment (IDE) to display."
 title: DisassemblyData | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

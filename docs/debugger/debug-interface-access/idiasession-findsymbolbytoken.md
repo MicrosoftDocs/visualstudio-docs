@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the symbol that contains a specified metadata token."
 title: "IDiaSession::findSymbolByToken | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

@@ -1,4 +1,5 @@
 ---
+description: "This method informs the process that a session is no longer debugging the process."
 title: IDebugProcessEx2::Detach | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

@@ -1,4 +1,5 @@
 ---
+description: "Sets the value of a reference from a string."
 title: IDebugReference2::SetValueAsString | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

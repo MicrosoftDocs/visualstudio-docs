@@ -1,4 +1,5 @@
 ---
+description: "This interface gives access to information about the server the process is running in."
 title: IDebugCoreServer3 | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

@@ -40,25 +40,34 @@ You can use the **Publish** tool to publish ASP.NET, ASP.NET Core, .NET Core, an
 
 1. In the **Publish** window, select **Folder**.
 
-    ![Choose folder as a publish target](../deployment/media/quickstart-publish-folder-new.png "Choose Folder")
+   ![Choose folder as a publish target](../deployment/media/quickstart-publish-folder-new.png "Choose Folder")
 
-::: moniker range=">=vs-2019"
+   ::: moniker range=">=vs-2019"
 
-4. If you are deploying a .NET Core 3.1, or newer, Windows Application you may need to select **Folder** in the **Specific target** window.
+   If you are deploying a .NET Core 3.1, or newer, Windows Application you may need to select **Folder** in the **Specific target** window.
 
-![Choose folder as specific target](../deployment/media/quickstart-publish-folder-targets.png "Choose Specific Target")
+   ![Choose folder as specific target](../deployment/media/quickstart-publish-folder-targets.png "Choose Specific Target")
 
-5. If you wish to publish a .NET Core 3.1, or newer, Windows application with ClickOnce, see [Deploy a .NET Windows application using ClickOnce](quickstart-deploy-using-clickonce-folder.md).
+   If you wish to publish a .NET Core 3.1, or newer, Windows application with ClickOnce, see [Deploy a .NET Windows application using ClickOnce](quickstart-deploy-using-clickonce-folder.md).
+   ::: moniker-end
 
- ::: moniker-end
+1. Enter a path or select **Browse** to specify a folder.
 
-4. Enter a path or select **Browse** to specify a folder.
+   ![Specify the path to the folder](../deployment/media/quickstart-publish-folder-path.png "Choose Folder")
 
-    ![Specify the path to the folder](../deployment/media/quickstart-publish-folder-path.png "Choose Folder")
+   ::: moniker range=">=vs-2019"
+   Click **Finish** to save the profile.
 
-1. Select **Publish**. Visual Studio builds the project and publishes it to the specified folder. The project properties **Publish** pane appears, showing a profile summary.
+   ![Publish property pane showing a profile summary](../deployment/media/quickstart-publish-folder-summary.png)
+   ::: moniker-end
 
-    ![Publish property pane showing a profile summary](../deployment/media/quickstart-publish-folder-summary.png)
+1. Select **Publish**. Visual Studio builds the project and publishes it to the specified folder.
+
+   ::: moniker range="vs-2017"
+   The project properties **Publish** pane appears, showing a profile summary.
+
+   ![Publish property pane showing a profile summary](../deployment/media/quickstart-publish-folder-summary.png)
+   ::: moniker-end
 
 1. To configure deployment settings, select **Edit** in the publish profile summary and select the **Settings** tab.
 

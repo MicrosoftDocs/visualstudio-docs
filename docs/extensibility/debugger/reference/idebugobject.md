@@ -1,4 +1,5 @@
 ---
+description: "This interface represents an object that the binder creates to encapsulate the values of symbols and expressions."
 title: IDebugObject | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

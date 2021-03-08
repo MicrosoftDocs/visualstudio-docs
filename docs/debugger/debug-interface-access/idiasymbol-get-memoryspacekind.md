@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the memory space kind."
 title: "IDiaSymbol::get_memorySpaceKind | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

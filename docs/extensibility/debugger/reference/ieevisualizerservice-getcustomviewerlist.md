@@ -1,4 +1,5 @@
 ---
+description: "This method returns a list of type visualizers that this service knows about."
 title: IEEVisualizerService::GetCustomViewerList | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

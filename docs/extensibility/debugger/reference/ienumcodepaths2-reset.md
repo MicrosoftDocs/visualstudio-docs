@@ -1,4 +1,5 @@
 ---
+description: "Resets the code paths enumeration to the first element."
 title: IEnumCodePaths2::Reset | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference
