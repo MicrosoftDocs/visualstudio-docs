@@ -115,8 +115,8 @@ A:  Check out the [Understand your Azure invoice](https://docs.microsoft.com/azu
 
 ## Related resources
 - [Visual Studio Subscriptions Admin portal](https://manage.visualstudio.com/)
-- [Visual Studio subscription support](https://visualstudio.microsoft.com/vs/support/)
 - [Visual Studio cloud subscription purchasing for CSPs](vscloud-csp.md)
+- For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, see Visual Studio [Subscriptions support](https://aka.ms/vssubscriberhelp).
 
 ## See also
 - [Visual Studio documentation](/visualstudio/)
