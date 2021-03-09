@@ -1,5 +1,6 @@
 ---
 title: "&lt;postActions&gt; element (Office development)"
+description: "The postActions element of the vstav3 namespace contains all the postAction elements that describe post-deployment actions, which run after Office solutions are installed."
 titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "reference"

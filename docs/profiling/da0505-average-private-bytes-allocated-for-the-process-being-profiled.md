@@ -1,5 +1,6 @@
 ---
 title: DA0505 - Average Private Bytes allocated for the Process being profiled | Microsoft Docs
+description: "This message reports the average amount of virtual memory that the process has currently allocated in bytes (Private bytes)."
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords: 

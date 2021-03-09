@@ -1,5 +1,6 @@
 ---
 title: DA0024 - Excessive GC CPU Time | Microsoft Docs
+description: "System performance data that was collected during profiling indicates that the amount of time spent in garbage collection is excessively high compared with the total application processing time."
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords: 

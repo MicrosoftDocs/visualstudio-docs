@@ -1,5 +1,6 @@
 ---
 title: "&lt;update&gt; element (Office development in Visual Studio)"
+description: "The update element specifies the interval at which the solution will check for updates."
 ms.date: "02/02/2017"
 ms.topic: "reference"
 dev_langs:

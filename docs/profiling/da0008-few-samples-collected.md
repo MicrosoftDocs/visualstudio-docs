@@ -1,5 +1,6 @@
 ---
 title: DA0008 - Few samples collected | Microsoft Docs
+description: "Just a few samples were collected in the profiling run."
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords: 
