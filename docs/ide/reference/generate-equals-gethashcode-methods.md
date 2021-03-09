@@ -22,9 +22,9 @@ This code generation applies to:
 
 **Why:**
 
-- If you are implementing a value type, you should consider overriding the **Equals** method to gain increased performance over the default implementation of the Equals method on ValueType.
+- If you're implementing a value type, you should consider overriding the **Equals** method. You can gain increased performance over the default implementation of the Equals method on ValueType when you do so.
 
-- If you are implementing a reference type, you should consider overriding the **Equals** method if your type looks like a base type, such as Point, String, BigNumber, and so on.
+- If you're implementing a reference type, you should consider overriding the **Equals** method if your type looks like a base type, such as Point, String, BigNumber, and so on.
 
 - Override the **GetHashCode** method to allow a type to work correctly in a hash table. Read more guidance on [equality operators](/dotnet/standard/design-guidelines/equality-operators).
 
@@ -47,13 +47,13 @@ This code generation applies to:
    > [!TIP]
    > Do not double-click select the type name, or the menu option won't be available. Just place the cursor somewhere on the line.
 
-1. Next, do one of the following:
+1. Next, choose one of the following actions:
 
    - Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
 
    - Right-click and select the **Quick Actions and Refactorings** menu.
 
-   - Click the ![screwdriver](../media/screwdriver-icon.png) icon that appears in the left margin.
+   - Click the ![Screenshot of the Quick Actions screwdriver icon in Visual Studio](../media/screwdriver-icon.png) icon that appears in the left margin.
 
 1. Select **Generate Equals(object)** or **Generate Equals and GetHashCode** from the drop-down menu.
 
