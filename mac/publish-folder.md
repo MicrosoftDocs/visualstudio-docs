@@ -53,3 +53,8 @@ To change the name of the publish profile (which is displayed in the publish con
 To change the publish folder path, open the publish profile and edit the `publishUrl` value.
 
 To change the build configuration that is used, change the `LastUsedBuildConfiguration` property in the publish profile.
+
+## See also
+ - [dotnet publish](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-publish)
+ - [Publish a Web app to a web site using Visual Studio
+](https://docs.microsoft.com/en-us/visualstudio/deployment/quickstart-deploy-to-a-web-site?view=vs-2019)
