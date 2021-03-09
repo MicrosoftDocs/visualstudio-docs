@@ -55,7 +55,7 @@ This code generation applies to:
 
    - Click the ![Screenshot of the Quick Actions screwdriver icon in Visual Studio](../media/screwdriver-icon.png) icon that appears in the left margin.
 
-1. Select **Generate Equals(object)** or **Generate Equals and GetHashCode** from the drop-down menu.
+1. In the drop-down menu, select **Generate Equals(object)** or **Generate Equals and GetHashCode**.
 
    ![Screenshot of the Generate Overrides drop-down menu](media/overrides-preview-cs.png)
 
