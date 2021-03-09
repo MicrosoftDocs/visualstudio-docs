@@ -2,7 +2,7 @@
 title: Generate C# Equals and GetHashCode Method Overrides
 description: Learn how to use the Quick Actions and Refactorings menu to generate Equals and GetHashCode methods.
 ms.custom: SEO-VS-2020
-ms.date: 01/26/2018
+ms.date: 03/08/2021
 ms.topic: reference
 author: TerryGLee
 ms.author: tglee
@@ -32,7 +32,14 @@ This code generation applies to:
 
 1. Place your cursor somewhere on the line of your type declaration.
 
-   ![Highlighted code](media/overrides-highlight-cs.png)
+    ```csharp
+        public class ImaginaryNumber
+    {
+        public double RealNumber { get; set; }
+        public double ImaginaryUnit { get; set; }
+    }
+    ```
+
 
    > [!TIP]
    > Do not double-click select the type name, or the menu option won't be available. Just place the cursor somewhere on the line.
@@ -58,7 +65,30 @@ This code generation applies to:
 
    The `Equals` and `GetHashCode` methods are generated with default implementations.
 
-   ![Generate method result](media/overrides-result-cs.png)
+    ```csharp
+   public class ImaginaryNumber : IEquatable<ImaginaryNumber>
+    {
+        public double RealNumber { get; set; }
+        public double ImaginaryUnit { get; set; }
+
+        public override bool Equals(object obj)
+        {
+            return Equals(obj as ImaginaryNumber);
+        }
+
+        public bool Equals(ImaginaryNumber other)
+        {
+            return other != null &&
+                   RealNumber == other.RealNumber &&
+                   ImaginaryUnit == other.ImaginaryUnit;
+        }
+
+        public override int GetHashCode()
+        {
+            return HashCode.Combine(RealNumber, ImaginaryUnit);
+        }
+    }
+    ```
 
 ## See also
 
