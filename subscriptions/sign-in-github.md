@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: 1bdcb3c9-bba1-4e25-a609-9d7e539d78e0
-ms.date: 02/19/2021
+ms.date: 03/08/2021
 ms.topic: conceptual
 description:  Learn how to sign in to your Visual Studio subscription(s) with your GitHub account. 
 ---
@@ -21,7 +21,7 @@ GitHub identity support lets you use your existing GitHub account as a credentia
 
 When you sign in with GitHub, Microsoft checks whether any email addresses associated with your GitHub account match an existing personal or enterprise Microsoft account. If the address matches your enterprise account, you'll be prompted to sign in to that account instead. If the address matches a personal account, we’ll add your GitHub account as a sign-in method to that personal account.
 
-After you link your GitHub and Microsoft account credentials, you can use that single sign-in anywhere a personal Microsoft account can be used, like on Azure sites, Office apps, and Xbox. These accounts can also be used for Azure Active Directory guest sign ins as a Microsoft account, assuming the email address matches the one on the invite.
+After you link your GitHub and Microsoft account credentials, you can use that single sign-in anywhere a personal Microsoft account can be used, like on Azure sites, Office apps, and Xbox. These accounts can also be used for Azure Active Directory guest sign-ins as a Microsoft account, assuming the email address matches the one on the invite.
 
 > [!NOTE]
 > Linking a GitHub identity to a Microsoft account doesn't give Microsoft any code access. When apps such as Azure DevOps and Visual Studio require access to your code repositories, you'll be prompted to grant specific consent for this access. 
