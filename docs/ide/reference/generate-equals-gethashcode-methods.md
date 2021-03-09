@@ -95,7 +95,7 @@ This code generation applies to:
 
    Your code should look similar to the following screenshot:
 
-   ![Screenshot of the generated method result](media/overrides-result-cs.png)
+   ![Screenshot of the result of the generated method](media/overrides-result-cs.png)
 
 ## See also
 
