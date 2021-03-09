@@ -4,17 +4,12 @@ author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: 1bdcb3c9-bba1-4e25-a609-9d7e539d78e0
-<<<<<<< HEAD
 ms.date: 03/08/2021
-=======
-ms.date: 03/05/2021
->>>>>>> 40dd94bd3924320abe22f50f8abf3547398cae90
 ms.topic: conceptual
 description:  Learn how to sign in to your Visual Studio subscription(s) with your GitHub account. 
 ---
 
 # Signing in to Visual Studio subscription(s) with your GitHub account 
-
 The steps to sign in to your Visual Studio subscription depend on the kind of account you're using. For example, you may be using a Microsoft Account (MSA) or an email address supplied by your employer or school. As of January 2019, you can now also use your GitHub account to sign in to some subscriptions. 
 
 This article will provide the steps for signing in with your GitHub account.
