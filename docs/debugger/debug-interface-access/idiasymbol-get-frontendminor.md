@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the front end minor version number."
 title: "IDiaSymbol::get_frontEndMinor | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

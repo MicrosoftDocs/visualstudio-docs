@@ -1,4 +1,5 @@
 ---
+description: "Retrieves a flag that specifies whether the function is virtual."
 title: "IDiaSymbol::get_virtual | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

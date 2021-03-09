@@ -1,4 +1,5 @@
 ---
+description: "Represents a COM+ symbol provider with methods that are specific to managed code."
 title: IDebugComPlusSymbolProvider | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

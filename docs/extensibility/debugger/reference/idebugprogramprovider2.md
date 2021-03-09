@@ -1,4 +1,5 @@
 ---
+description: "This registered interface allows the session debug manager (SDM) to obtain information about programs that have been published through the IDebugProgramPublisher2 interface."
 title: IDebugProgramProvider2 | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

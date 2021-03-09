@@ -1,4 +1,5 @@
 ---
+description: "Represents the reasons that Edit and Continue is not available."
 title: EncUnavailableReason | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

@@ -1,4 +1,5 @@
 ---
+description: "Returns the number of elements in the port suppliers enumeration."
 title: IEnumDebugPortSuppliers2::GetCount | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

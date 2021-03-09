@@ -1,4 +1,5 @@
 ---
+description: "Retrieves a list of all the ports supplied by a port supplier."
 title: IDebugPortSupplier2::EnumPorts | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

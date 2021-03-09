@@ -1,4 +1,5 @@
 ---
+description: "Retrieves a list of optional modifiers."
 title: IDebugModOpt::GetModOpts | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

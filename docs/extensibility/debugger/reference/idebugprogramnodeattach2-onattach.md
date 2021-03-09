@@ -1,4 +1,5 @@
 ---
+description: "Attaches to the associated program or defers the attach process to the Attach method."
 title: IDebugProgramNodeAttach2::OnAttach | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

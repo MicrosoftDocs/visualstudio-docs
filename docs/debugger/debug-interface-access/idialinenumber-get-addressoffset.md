@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the offset part of the memory address where a block begins."
 title: "IDiaLineNumber::get_addressOffset | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

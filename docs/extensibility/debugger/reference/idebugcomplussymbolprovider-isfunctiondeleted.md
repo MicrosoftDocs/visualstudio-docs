@@ -1,4 +1,5 @@
 ---
+description: "Determines that the function at the specified debug address is deleted."
 title: IDebugComPlusSymbolProvider::IsFunctionDeleted | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

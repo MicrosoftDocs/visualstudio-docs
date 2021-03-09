@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the relative virtual address (RVA) of the block."
 title: "IDiaLineNumber::get_relativeVirtualAddress | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

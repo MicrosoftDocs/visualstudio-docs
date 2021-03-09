@@ -1,4 +1,5 @@
 ---
+description: "If a function has a defined point at which debugging is to end, the debug starting point is identified by a symbol with a SymTagFuncDebugEnd tag."
 title: "FuncDebugEnd | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

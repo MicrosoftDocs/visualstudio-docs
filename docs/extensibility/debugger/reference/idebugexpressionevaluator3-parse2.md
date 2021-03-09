@@ -1,4 +1,5 @@
 ---
+description: "Converts an expression string to a parsed expression given the symbol provider and the address of the evaluating frame."
 title: IDebugExpressionEvaluator3::Parse2 | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

@@ -1,4 +1,5 @@
 ---
+description: "Retrieves a list of the children of the property."
 title: IDebugProperty2::EnumChildren | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

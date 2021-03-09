@@ -1,4 +1,5 @@
 ---
+description: "Gets the message to be displayed."
 title: IDebugMessageEvent2::GetMessage | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

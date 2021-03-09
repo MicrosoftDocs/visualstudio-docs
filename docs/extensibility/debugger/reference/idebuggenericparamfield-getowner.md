@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the type or method owner of this generic parameter."
 title: IDebugGenericParamField::GetOwner | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

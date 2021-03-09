@@ -1,4 +1,5 @@
 ---
+description: "Specifies what information about a thread is to be retrieved."
 title: THREADPROPERTY_FIELDS | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

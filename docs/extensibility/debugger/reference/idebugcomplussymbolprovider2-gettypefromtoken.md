@@ -1,4 +1,5 @@
 ---
+description: "Retrieves a type given its token."
 title: IDebugComPlusSymbolProvider2::GetTypeFromToken | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

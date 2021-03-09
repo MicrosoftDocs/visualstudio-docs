@@ -1,4 +1,5 @@
 ---
+description: "This interface is used by the debug engine (DE) to send a message to Visual Studio that requires a response from the user."
 title: IDebugMessageEvent2 | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

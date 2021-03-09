@@ -1,6 +1,7 @@
 ---
 title: "&lt;vstoRuntime&gt; element (Office development in Visual Studio)"
 titleSuffix: ""
+description: "The vstoRuntime element of the vstav3 namespace contains a supported version of the Visual Studio Tools for Office runtime for a specific Office solution."
 ms.date: "02/02/2017"
 ms.topic: "reference"
 dev_langs:

@@ -1,4 +1,5 @@
 ---
+description: "This method gets the class field type representing a fully qualified class name."
 title: IDebugSymbolProvider::GetClassTypeByName | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

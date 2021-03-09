@@ -1,4 +1,5 @@
 ---
+description: "Retrieves a flag that indicates whether the segment can be read."
 title: "IDiaSegment::get_read | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

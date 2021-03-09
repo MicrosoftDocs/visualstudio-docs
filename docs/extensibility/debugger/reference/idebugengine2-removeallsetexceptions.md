@@ -1,4 +1,5 @@
 ---
+description: "Removes the list of exceptions the IDE has set for a particular run-time architecture or language."
 title: IDebugEngine2::RemoveAllSetExceptions | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

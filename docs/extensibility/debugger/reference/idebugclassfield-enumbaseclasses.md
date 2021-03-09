@@ -1,4 +1,5 @@
 ---
+description: "Creates an enumerator for the base classes of this class."
 title: IDebugClassField::EnumBaseClasses | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

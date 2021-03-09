@@ -1,4 +1,5 @@
 ---
+description: "Gets the alias associated with this object, if any."
 title: IDebugObject2::GetAlias | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

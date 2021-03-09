@@ -1,4 +1,5 @@
 ---
+description: "Called when the processing of an intercepted exception has completed."
 title: IDebugInterceptExceptionCompleteEvent2::GetInterceptCookie
 titleSuffix: ""
 ms.date: 11/04/2016

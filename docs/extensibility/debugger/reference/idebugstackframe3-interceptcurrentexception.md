@@ -1,4 +1,5 @@
 ---
+description: "Called by the debugger on the current stack frame when it wants to intercept the current exception."
 title: IDebugStackFrame3::InterceptCurrentException | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

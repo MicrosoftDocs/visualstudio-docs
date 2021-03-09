@@ -1,4 +1,5 @@
 ---
+description: "Skips over the specified number of FRAMEINFO elements."
 title: IEnumDebugFrameInfo2::Skip | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

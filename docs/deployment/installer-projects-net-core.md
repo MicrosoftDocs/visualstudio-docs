@@ -1,4 +1,5 @@
 ---
+description: "Packaging applications as an MSI is often accomplished using the Visual Studio Installer Projects Extension."
 title: "Visual Studio Installer Projects and .NET Core 3.1"
 titleSuffix: ""
 ms.date: "08/18/2020"

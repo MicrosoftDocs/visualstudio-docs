@@ -1,4 +1,5 @@
 ---
+description: "Gets the breakpoint error resolution information."
 title: IDebugErrorBreakpointResolution2::GetResolutionInfo | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

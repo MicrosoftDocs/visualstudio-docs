@@ -1,4 +1,5 @@
 ---
+description: "Enables a debug engine to override the default behavior of the Visual Studio UI when you end a debug session."
 title: IDebugProgramDestroyEventFlags2 | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

@@ -1,4 +1,5 @@
 ---
+description: "This interface is used to communicate both critical debug information, such as stopping at a breakpoint, and non-critical information, such as a debugging message."
 title: IDebugEvent2 | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

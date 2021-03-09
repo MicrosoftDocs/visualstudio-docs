@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the address of the pointer."
 title: IDebugPointerObject3::GetPointerAddress | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

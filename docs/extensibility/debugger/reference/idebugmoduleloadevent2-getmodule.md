@@ -1,4 +1,5 @@
 ---
+description: "Gets the module that is being loaded or unloaded."
 title: IDebugModuleLoadEvent2::GetModule | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

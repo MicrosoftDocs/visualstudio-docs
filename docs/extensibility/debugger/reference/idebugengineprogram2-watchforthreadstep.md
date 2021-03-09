@@ -1,4 +1,5 @@
 ---
+description: "Watches for execution (or stops watching for execution) to occur on the given thread."
 title: IDebugEngineProgram2::WatchForThreadStep | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

@@ -1,4 +1,5 @@
 ---
+description: "Retrieves a flag that specifies whether the preprocesser directive for a safe buffer is used."
 title: "IDiaSymbol::get_isSafeBuffers | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

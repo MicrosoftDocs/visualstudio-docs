@@ -1,4 +1,5 @@
 ---
+description: "Specifies properties associated with a program provider."
 title: PROVIDER_FIELDS | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

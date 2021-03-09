@@ -1,4 +1,5 @@
 ---
+description: "Gets the program's exit code."
 title: IDebugProgramDestroyEvent2::GetExitCode | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

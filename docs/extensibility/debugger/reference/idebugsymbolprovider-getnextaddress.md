@@ -1,4 +1,5 @@
 ---
+description: "Gets the debug address that follows a given debug address in a method."
 title: IDebugSymbolProvider::GetNextAddress | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

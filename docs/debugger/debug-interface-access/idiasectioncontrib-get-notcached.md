@@ -1,4 +1,5 @@
 ---
+description: "Retrieves a flag that indicates whether the section cannot be cached."
 title: "IDiaSectionContrib::get_notCached | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

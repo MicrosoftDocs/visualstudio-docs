@@ -1,4 +1,5 @@
 ---
+description: "Notifies receiver of the event that the document attributes have been updated."
 title: IDebugDocumentTextEvents2::onUpdateDocumentAttributes | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

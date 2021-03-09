@@ -1,4 +1,5 @@
 ---
+description: "This function starts a batch sequence of source control operations."
 title: SccBeginBatch Function | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: conceptual

@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the register designator of the location when the LocationType Enumeration) is set to LocIsEnregistered`."
 title: "IDiaSymbol::get_registerId | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

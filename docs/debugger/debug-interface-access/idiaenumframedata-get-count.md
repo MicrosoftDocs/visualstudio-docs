@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the number of frame data elements."
 title: "IDiaEnumFrameData::get_Count | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

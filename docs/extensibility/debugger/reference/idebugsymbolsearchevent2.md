@@ -1,4 +1,5 @@
 ---
+description: "This interface is sent by the debug engine (DE) to indicate that the debugging symbols for a module being debugged have been loaded."
 title: IDebugSymbolSearchEvent2 | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

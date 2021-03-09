@@ -1,4 +1,5 @@
 ---
+description: "This method allows the port supplier to display a warning before the user attaches to an unsafe process."
 title: IDebugProcessSecurity::QueryCanSafelyAttach | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

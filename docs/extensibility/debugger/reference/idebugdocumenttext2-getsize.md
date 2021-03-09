@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the size of the text at this position in the document."
 title: IDebugDocumentText2::GetSize | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

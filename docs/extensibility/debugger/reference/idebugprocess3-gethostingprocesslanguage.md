@@ -1,4 +1,5 @@
 ---
+description: "This method returns a GUID representing the language of this process as set by a call to SetHostingProcessLanguage."
 title: IDebugProcess3::GetHostingProcessLanguage | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

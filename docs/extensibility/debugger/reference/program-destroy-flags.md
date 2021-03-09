@@ -1,4 +1,5 @@
 ---
+description: "Enumerates the valid values of the program destroy flags."
 title: PROGRAM_DESTROY_FLAGS | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

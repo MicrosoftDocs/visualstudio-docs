@@ -1,4 +1,5 @@
 ---
+description: "This method determines whether the visualizer can have the data object it represents updated."
 title: IEEVisualizerDataProvider::CanSetObjectForVisualizer | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

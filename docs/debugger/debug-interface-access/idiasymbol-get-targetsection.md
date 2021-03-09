@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the address section of a thunk target."
 title: "IDiaSymbol::get_targetSection | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

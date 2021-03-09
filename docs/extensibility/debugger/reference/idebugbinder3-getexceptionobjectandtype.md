@@ -1,4 +1,5 @@
 ---
+description: "This method retrieves the exception associated with an object, if any."
 title: IDebugBinder3::GetExceptionObjectAndType | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

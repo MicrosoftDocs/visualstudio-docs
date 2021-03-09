@@ -1,4 +1,5 @@
 ---
+description: "Creates an array of the specified type and size."
 title: IDebugTypeFieldBuilder2::CreateArrayOfType | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

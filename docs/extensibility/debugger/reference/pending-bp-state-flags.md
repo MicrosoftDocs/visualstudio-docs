@@ -1,4 +1,5 @@
 ---
+description: "Specifies the pending breakpoint state flags."
 title: PENDING_BP_STATE_FLAGS | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

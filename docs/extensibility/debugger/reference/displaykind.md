@@ -1,4 +1,5 @@
 ---
+description: "Enumerates the valid values that represent the kinds of information to take from an IDebugField object and display to the user."
 title: DisplayKind | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

@@ -1,4 +1,5 @@
 ---
+description: "Retrieves a reference to the global scope."
 title: "IDiaSession::get_globalScope | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

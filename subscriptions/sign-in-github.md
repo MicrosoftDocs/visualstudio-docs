@@ -4,7 +4,11 @@ author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: 1bdcb3c9-bba1-4e25-a609-9d7e539d78e0
+<<<<<<< HEAD
 ms.date: 03/08/2021
+=======
+ms.date: 03/05/2021
+>>>>>>> 40dd94bd3924320abe22f50f8abf3547398cae90
 ms.topic: conceptual
 description:  Learn how to sign in to your Visual Studio subscription(s) with your GitHub account. 
 ---
@@ -54,7 +58,7 @@ A: Because of security restrictions, Microsoft counts signing in with GitHub as 
 A:  Whenever you sign using your account alias (email address, phone number, Skype name), we’ll show you all the sign-in methods for your account. If you don’t see GitHub there, you haven’t set it up yet.
 
 #### Q:  How can I unlink my Microsoft and GitHub accounts? 
-A:  Go to the [Security tab](https://account.microsoft.com/security) of account.microsoft.com and click **More security options** to unlink your GitHub account. Unlinking your GitHub account removes it as a sign-in method and removes access to any GitHub repositories in Visual Studio. Other Microsoft products might have requested access your GitHub account separately, so removing the access here won’t remove access in all products. Go to the [application permissions](https://github.com/settings/applications) page of your GitHub profile to revoke consent from the apps listed there.
+A:  Go to the [Security tab](https://account.microsoft.com/security) of account.microsoft.com and click **Advanced security options** to unlink your GitHub account. Unlinking your GitHub account removes it as a sign-in method and removes access to any GitHub repositories in Visual Studio. Other Microsoft products might have requested access your GitHub account separately, so removing the access here won’t remove access in all products. Go to the [application permissions](https://github.com/settings/applications) page of your GitHub profile to revoke consent from the apps listed there.
 
 #### Q:  I try to use my GitHub account to sign in, but I'm prompted that I already have a Microsoft identity that I should use instead.  What's happening?
 A:  If you have an Azure Active Directory email address on your GitHub account, you already have a Microsoft identity that can access Azure and run CI pipelines using your GitHub code. Using that account ensures that your Azure resources and build pipelines remain within your organizational boundaries. However, if you’re doing personal work, we recommend putting a personal email address on your GitHub account so that you'll always have access to it. Once you do this, try signing in again and choose **Use a different email address** when you're prompted to sign in to your work or school account. This will let you create a new Microsoft account using that personal email address.

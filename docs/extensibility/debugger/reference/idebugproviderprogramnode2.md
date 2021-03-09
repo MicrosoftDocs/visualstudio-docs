@@ -1,4 +1,5 @@
 ---
+description: "This interface marshals program-related interfaces across process boundaries."
 title: IDebugProviderProgramNode2 | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

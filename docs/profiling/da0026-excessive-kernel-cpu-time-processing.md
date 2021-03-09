@@ -1,5 +1,6 @@
 ---
 title: DA0026 - Excessive kernel CPU time processing | Microsoft Docs
+description: "The proportion CPU time that was executed in kernel mode exceeded the amount of time spent in user mode."
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords: 

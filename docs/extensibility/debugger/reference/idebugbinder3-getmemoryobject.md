@@ -1,4 +1,5 @@
 ---
+description: "This method retrieves a memory object that represents the memory that this object is bound to."
 title: IDebugBinder3::GetMemoryObject | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

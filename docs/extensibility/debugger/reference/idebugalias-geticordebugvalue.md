@@ -1,4 +1,5 @@
 ---
+description: "Retrieves a managed code interface that represents the value associated with this alias."
 title: IDebugAlias::GetICorDebugValue | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

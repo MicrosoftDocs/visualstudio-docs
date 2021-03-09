@@ -1,4 +1,5 @@
 ---
+description: "Retrieves an enumerator of compilands that have line numbers referencing this file."
 title: "IDiaSourceFile::get_compilands | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

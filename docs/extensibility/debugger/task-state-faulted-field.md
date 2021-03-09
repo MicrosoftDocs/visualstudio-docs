@@ -1,4 +1,5 @@
 ---
+description: "The task completed due to an unhandled exception."
 title: TASK_STATE_FAULTED Field | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: conceptual

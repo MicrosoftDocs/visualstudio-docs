@@ -1,4 +1,5 @@
 ---
+description: "Specifies the message type and reason."
 title: MESSAGETYPE | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

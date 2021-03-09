@@ -1,4 +1,5 @@
 ---
+description: "This function retrieves from source control each of the specified files with no user interaction."
 title: SccBackgroundGet Function | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: conceptual

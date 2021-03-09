@@ -1,4 +1,5 @@
 ---
+description: "Gets the name of the document in one of several forms."
 title: IDebugDocument2::GetName | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

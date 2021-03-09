@@ -1,4 +1,5 @@
 ---
+description: "This method cancels asynchronous expression evaluation as started by a call to the EvaluateAsync) method."
 title: IDebugExpression2::Abort | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

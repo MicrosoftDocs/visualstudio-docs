@@ -1,4 +1,5 @@
 ---
+description: "Enables an expression evaluator (EE) to display a message in the debugger's output window."
 title: IDebugIDECallback | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

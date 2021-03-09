@@ -1,4 +1,5 @@
 ---
+description: "Resumes execution of a process."
 title: IDebugPortEx2::ResumeProcess | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

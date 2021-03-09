@@ -1,4 +1,5 @@
 ---
+description: "Searches the specified stack frame for a return address at or near the specified stack address."
 title: "IDiaStackWalkHelper::searchForReturnAddressStart | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

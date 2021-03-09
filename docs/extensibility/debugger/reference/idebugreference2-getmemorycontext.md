@@ -1,4 +1,5 @@
 ---
+description: "Gets a memory context of a reference."
 title: IDebugReference2::GetMemoryContext | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

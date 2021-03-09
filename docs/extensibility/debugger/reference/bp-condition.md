@@ -1,4 +1,5 @@
 ---
+description: "Describes the conditions under which a breakpoint fires."
 title: BP_CONDITION | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

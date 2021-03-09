@@ -1,4 +1,5 @@
 ---
+description: "Deletes the breakpoint."
 title: IDebugBoundBreakpoint2::Delete | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

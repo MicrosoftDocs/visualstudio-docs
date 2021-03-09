@@ -1,4 +1,5 @@
 ---
+description: "Describes the line and column location in the given text."
 title: TEXT_POSITION | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

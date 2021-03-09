@@ -1,4 +1,5 @@
 ---
+description: "Retrieves a reference to the specified entry in the table."
 title: "IDiaTable::Item | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

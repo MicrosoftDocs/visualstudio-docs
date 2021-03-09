@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: v-evwin
 manager: lank
 ms.assetid: 92e8957f-c690-46bd-a812-3efd06a2bc6b
-ms.date: 10/21/2020
+ms.date: 02/19/2021
 ms.topic: how-to
 description:  Learn about the CAST Highlight benefit available in selected Visual Studio subscriptions
 ---
@@ -93,7 +93,7 @@ Not sure which subscription you're using?  Connect to [https://my.visualstudio.c
   - [Submit a support request](https://casthighlight.com/support/)
   - [Getting Started Guide (PDF)](https://casthighlight.com/Getting-Started-Guide.pdf)
 
-- For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/).
+- For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, see Visual Studio [Subscriptions support](https://aka.ms/vssubscriberhelp).
 - Have a question about Visual Studio IDE, Azure DevOps Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).
 
 ## See also

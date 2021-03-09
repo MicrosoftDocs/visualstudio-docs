@@ -1,4 +1,5 @@
 ---
+description: "Retrieves a flag that specifies whether the frame pointer is present."
 title: "IDiaSymbol::get_framePointerPresent | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

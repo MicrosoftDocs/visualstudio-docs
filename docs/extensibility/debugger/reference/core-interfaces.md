@@ -1,4 +1,5 @@
 ---
+description: "The following interfaces are the core interfaces for extending debugger by using the VS SDK."
 title: Core Interfaces | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

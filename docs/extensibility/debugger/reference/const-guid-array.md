@@ -1,4 +1,5 @@
 ---
+description: "A structure that holds a list of GUID`s."
 title: CONST_GUID_ARRAY | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

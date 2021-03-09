@@ -1,4 +1,5 @@
 ---
+description: "Attach a session to a program."
 title: IDebugProgramEx2::Attach | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

@@ -1,4 +1,5 @@
 ---
+description: "Gets the global container of the method."
 title: IDebugMethodField::GetGlobalContainer | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

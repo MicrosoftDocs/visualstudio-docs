@@ -1,4 +1,5 @@
 ---
+description: "This interface describes a method."
 title: IDebugMethodField | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

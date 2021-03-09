@@ -1,4 +1,5 @@
 ---
+description: "This interface tells the session debug manager (SDM) that a pending breakpoint has been successfully bound to a loaded program."
 title: IDebugBreakpointBoundEvent2 | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

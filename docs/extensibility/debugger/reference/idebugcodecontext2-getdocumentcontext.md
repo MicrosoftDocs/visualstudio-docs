@@ -1,4 +1,5 @@
 ---
+description: "Gets the document context that corresponds to this code context."
 title: IDebugCodeContext2::GetDocumentContext | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

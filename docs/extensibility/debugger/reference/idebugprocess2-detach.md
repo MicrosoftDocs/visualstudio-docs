@@ -1,4 +1,5 @@
 ---
+description: "Detaches the debugger from this process by detaching all of the programs in the process."
 title: IDebugProcess2::Detach | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

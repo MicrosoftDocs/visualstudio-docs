@@ -1,4 +1,5 @@
 ---
+description: "Gets the DEBUG_PROPERTY_INFO structure that describes a property."
 title: IDebugProperty2::GetPropertyInfo | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

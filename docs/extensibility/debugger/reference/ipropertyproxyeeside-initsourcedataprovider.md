@@ -1,4 +1,5 @@
 ---
+description: "Initializes the source data for this object and returns an object containing the initial data."
 title: IPropertyProxyEESide::InitSourceDataProvider | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

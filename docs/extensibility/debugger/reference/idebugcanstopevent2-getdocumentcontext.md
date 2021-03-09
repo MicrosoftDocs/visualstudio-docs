@@ -1,4 +1,5 @@
 ---
+description: "Gets the document context that describes the location of this event."
 title: IDebugCanStopEvent2::GetDocumentContext | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

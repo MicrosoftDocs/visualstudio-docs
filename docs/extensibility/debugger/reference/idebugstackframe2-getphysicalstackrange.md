@@ -1,4 +1,5 @@
 ---
+description: "Gets a machine-dependent representation of the range of physical addresses associated with a stack frame."
 title: IDebugStackFrame2::GetPhysicalStackRange | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

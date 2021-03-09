@@ -1,4 +1,5 @@
 ---
+description: "This method gets the current Edit and Continue state of the process."
 title: IDebugProcess3::GetENCAvailableState | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

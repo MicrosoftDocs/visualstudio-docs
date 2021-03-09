@@ -1,4 +1,5 @@
 ---
+description: "Gets the attribute information as a blob of bytes."
 title: IDebugCustomAttribute::GetAttributeBytes | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

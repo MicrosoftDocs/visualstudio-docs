@@ -1,4 +1,5 @@
 ---
+description: "Some symbols might be referred to by namespace, and would subsequently be identified by a SymTagUsingNameSpace tag."
 title: "UsingNameSpace | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the name of the assembly given its module and application domain."
 title: IDebugComPlusSymbolProvider::GetAssemblyName | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

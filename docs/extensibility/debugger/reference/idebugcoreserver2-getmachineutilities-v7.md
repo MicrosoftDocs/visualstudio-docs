@@ -1,4 +1,5 @@
 ---
+description: "This method gets the machine utilities for a server."
 title: IDebugCoreServer2::GetMachineUtilities_V7 | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

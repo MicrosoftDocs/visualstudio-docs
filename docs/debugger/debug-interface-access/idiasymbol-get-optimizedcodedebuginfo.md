@@ -1,4 +1,5 @@
 ---
+description: "Retrieves a flag that indicates whether the function contains debug information that is specific for optimized code."
 title: "IDiaSymbol::get_optimizedCodeDebugInfo | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"
