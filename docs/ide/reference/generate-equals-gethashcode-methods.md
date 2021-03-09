@@ -33,13 +33,16 @@ This code generation applies to:
 1. Place your cursor somewhere on the line of your type declaration.
 
     ```csharp
-        public class ImaginaryNumber
+    public class ImaginaryNumber
     {
         public double RealNumber { get; set; }
         public double ImaginaryUnit { get; set; }
     }
     ```
 
+   Your code should look similar to the following screenshot:
+
+   ![Screenshot of the generated method result](media/overrides-highlight-cs.png)
 
    > [!TIP]
    > Do not double-click select the type name, or the menu option won't be available. Just place the cursor somewhere on the line.
@@ -52,9 +55,9 @@ This code generation applies to:
 
    - Click the ![screwdriver](../media/screwdriver-icon.png) icon that appears in the left margin.
 
-   ![Generate overrides preview](media/overrides-preview-cs.png)
-
 1. Select **Generate Equals(object)** or **Generate Equals and GetHashCode** from the drop-down menu.
+
+   ![Screenshot of the Generate Overrides drop-down menu](media/overrides-preview-cs.png)
 
 1. In the **Pick members** dialog box, select the members you want to generate the methods for:
 
@@ -89,6 +92,10 @@ This code generation applies to:
         }
     }
     ```
+
+   Your code should look similar to the following screenshot:
+
+   ![Screenshot of the generated method result](media/overrides-result-cs.png)
 
 ## See also
 
