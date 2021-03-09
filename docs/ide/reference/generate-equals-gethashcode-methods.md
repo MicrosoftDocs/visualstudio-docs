@@ -42,7 +42,7 @@ This code generation applies to:
 
    Your code should look similar to the following screenshot:
 
-   ![Screenshot of the generated method result](media/overrides-highlight-cs.png)
+   ![Screenshot of highlighted code on which to apply the generated method](media/overrides-highlight-cs.png)
 
    > [!TIP]
    > Do not double-click select the type name, or the menu option won't be available. Just place the cursor somewhere on the line.
@@ -66,7 +66,7 @@ This code generation applies to:
     > [!TIP]
     > You can also choose to generate operators from this dialog by using the checkbox near the bottom of the dialog.
 
-   The `Equals` and `GetHashCode` methods are generated with default implementations.
+   The `Equals` and `GetHashCode` methods are generated with default implementations, as shown in the following code:
 
     ```csharp
    public class ImaginaryNumber : IEquatable<ImaginaryNumber>
