@@ -1,4 +1,5 @@
 ---
+description: "Used by a debug engine (DE) to launch and terminate programs."
 title: IDebugEngineLaunch2 | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

@@ -1,4 +1,5 @@
 ---
+description: "This function gets the version number of the Source Control Plug-in API supported by the source control plug-in."
 title: SccGetVersion Function | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: conceptual

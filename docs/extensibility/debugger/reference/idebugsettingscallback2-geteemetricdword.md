@@ -1,4 +1,5 @@
 ---
+description: "Retrieves a value that corresponds to the specified metric of the expression evaluator."
 title: IDebugSettingsCallback2::GetEEMetricDword | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

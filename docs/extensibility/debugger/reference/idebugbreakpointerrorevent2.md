@@ -1,4 +1,5 @@
 ---
+description: "This interface tells the session debug manager (SDM) that a pending breakpoint could not be bound to a loaded program, either because of a warning or an error."
 title: IDebugBreakpointErrorEvent2 | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

@@ -1,4 +1,5 @@
 ---
+description: "Sets the reference type."
 title: IDebugReference2::SetReferenceType | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

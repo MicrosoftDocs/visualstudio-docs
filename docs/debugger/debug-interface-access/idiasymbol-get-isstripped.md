@@ -1,4 +1,5 @@
 ---
+description: "Retrieves flag indicating whether private symbols were stripped from the symbol file."
 title: "IDiaSymbol::get_isStripped | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

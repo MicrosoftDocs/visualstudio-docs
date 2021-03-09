@@ -1,4 +1,5 @@
 ---
+description: "This interface provides the ability to change an object's value through a type visualizer."
 title: IEEVisualizerDataProvider | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

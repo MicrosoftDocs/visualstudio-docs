@@ -1,4 +1,5 @@
 ---
+description: "Creates a unique ID for this property to ensure that it is unique among all other properties."
 title: IDebugProperty3::CreateObjectID | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

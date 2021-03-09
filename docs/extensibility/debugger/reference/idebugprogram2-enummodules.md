@@ -1,4 +1,5 @@
 ---
+description: "Retrieves a list of the modules that this program has loaded and is executing."
 title: IDebugProgram2::EnumModules | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

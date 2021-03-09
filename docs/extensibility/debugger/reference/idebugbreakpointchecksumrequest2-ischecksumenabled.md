@@ -1,4 +1,5 @@
 ---
+description: "Determines whether the checksum is enabled for this document."
 title: IDebugBreakpointChecksumRequest2::IsChecksumEnabled | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

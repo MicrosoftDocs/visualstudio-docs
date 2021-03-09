@@ -1,4 +1,5 @@
 ---
+description: "Retrieves a symbol by means of an index."
 title: "IDiaEnumSymbols::Item | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

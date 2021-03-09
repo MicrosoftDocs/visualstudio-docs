@@ -1,4 +1,5 @@
 ---
+description: "This interface is used by program nodes to specify all the possible debug engines (DE) that can debug this program."
 title: IDebugProgramEngines2 | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

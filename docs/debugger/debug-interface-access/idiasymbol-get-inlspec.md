@@ -1,4 +1,5 @@
 ---
+description: "This function retrieves a flag indicating whether the function was marked as inline (using one of the inline, _inline, __forceinline) attributes)."
 title: "IDiaSymbol::get_InlSpec | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the virtual address (VA) of the block."
 title: "IDiaLineNumber::get_virtualAddress | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

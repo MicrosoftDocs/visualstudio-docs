@@ -1,4 +1,5 @@
 ---
+description: "Describes the bound breakpoint information for either a code breakpoint or a data breakpoint."
 title: BP_RESOLUTION_INFO | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

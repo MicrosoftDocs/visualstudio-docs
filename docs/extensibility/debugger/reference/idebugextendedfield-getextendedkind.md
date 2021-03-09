@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the specified extended field kind."
 title: IDebugExtendedField::GetExtendedKind | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

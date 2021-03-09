@@ -1,4 +1,5 @@
 ---
+description: "Receives callbacks from the DIA symbol locating procedure, allowing restrictions to be imposed on the locating process."
 title: "IDiaLoadCallback2 | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

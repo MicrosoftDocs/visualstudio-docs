@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the number of section contributions."
 title: "IDiaEnumSectionContribs::get_Count | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

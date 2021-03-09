@@ -1,4 +1,5 @@
 ---
+description: "The task has finished executing its delegate and is implicitly waiting for attached child tasks to complete."
 title: TASK_STATE_WAITING_ON_CHILDREN Field | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: conceptual

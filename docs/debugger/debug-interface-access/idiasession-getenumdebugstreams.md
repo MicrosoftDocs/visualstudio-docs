@@ -1,4 +1,5 @@
 ---
+description: "Retrieves an enumerated sequence of debug data streams."
 title: "IDiaSession::getEnumDebugStreams | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

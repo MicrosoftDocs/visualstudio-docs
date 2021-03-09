@@ -1,4 +1,5 @@
 ---
+description: "Retrieves a flag that specifies whether the function is an introducing virtual function."
 title: "IDiaSymbol::get_intro | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

@@ -1,4 +1,5 @@
 ---
+description: "This interface provides access to the ID of the process that owns the object whose address is represented by this interface."
 title: IDebugAddress2 | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

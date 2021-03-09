@@ -1,4 +1,5 @@
 ---
+description: "This interface represents a single stack frame in a call stack in a particular thread."
 title: IDebugStackFrame2 | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

@@ -1,4 +1,5 @@
 ---
+description: "Specifies the condition associated with the breakpoint pass count that causes the breakpoint to fire."
 title: BP_PASSCOUNT_STYLE | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

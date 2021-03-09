@@ -1,4 +1,5 @@
 ---
+description: "Load debug symbols from a data stream given the ICorDebugModule object."
 title: IDebugComPlusSymbolProvider2::LoadSymbolsFromStreamWithCorModule
 titleSuffix: ""
 ms.custom: SEO-VS-2020

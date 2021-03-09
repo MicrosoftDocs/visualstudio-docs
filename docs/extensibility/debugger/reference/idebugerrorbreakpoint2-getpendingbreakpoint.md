@@ -1,4 +1,5 @@
 ---
+description: "Gets the pending breakpoint that caused the error."
 title: IDebugErrorBreakpoint2::GetPendingBreakpoint | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

@@ -1,4 +1,5 @@
 ---
+description: "Called when a candidate .dbg file has been opened."
 title: "IDiaLoadCallback::NotifyOpenDBG | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

@@ -1,4 +1,5 @@
 ---
+description: "Enumerates the various frame data elements contained in the data source."
 title: "IDiaEnumFrameData | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

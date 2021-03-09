@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the object that represents the newly created debug engine (DE)."
 title: IDebugEngineCreateEvent2::GetEngine | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

@@ -1,4 +1,5 @@
 ---
+description: "IDiaSymbol::findInlineeLinesByAddr retrieves an enumeration that allows a client to iterate through the line number information of all functions that are inlined, directly or indirectly, in this symbol within the specified address range."
 title: "IDiaSymbol::findInlineeLinesByAddr | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

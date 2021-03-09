@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the identifier for the application domain."
 title: IDebugAlias2::GetAppDomainId | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

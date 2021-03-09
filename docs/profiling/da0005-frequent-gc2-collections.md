@@ -1,4 +1,5 @@
 ---
+description: "A high number of .NET memory objects are being reclaimed in generation 2 garbage collection."
 title: DA0005 - Frequent GC2 collections | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

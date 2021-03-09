@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the property proxy interface for the specified proxy ID."
 title: IPropertyProxyProvider::GetPropertyProxy | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

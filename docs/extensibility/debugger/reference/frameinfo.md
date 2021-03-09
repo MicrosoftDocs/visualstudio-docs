@@ -1,4 +1,5 @@
 ---
+description: "Describes a stack frame."
 title: FRAMEINFO | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

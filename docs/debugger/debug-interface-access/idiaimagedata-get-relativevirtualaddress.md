@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the location in virtual memory of the module relative to the application."
 title: "IDiaImageData::get_relativeVirtualAddress | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

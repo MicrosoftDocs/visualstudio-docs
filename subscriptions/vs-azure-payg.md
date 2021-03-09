@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: 5dc7f57e-883a-4cc1-a914-06245a8cb1ff
-ms.date: 10/21/2020
+ms.date: 02/19/2021
 ms.topic: how-to
 description:  Learn how to set up your Azure Pay-As-You-Go account.
 ---
@@ -38,6 +38,9 @@ A: To make changes to any of your Azure subscriptions:
 2. In the list in the left pane, select **Cost Management + Billing**.
 3. You'll see a list of your subscriptions in the **My subscriptions** box. Click the desired subscription.
 4. You'll now have options to manage or cancel the subscription, rename it, change the directory, or transfer billing ownership.
+
+## Resources
+- For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, see Visual Studio [Subscriptions support](https://aka.ms/vssubscriberhelp).
 
 ## See also
 - [Visual Studio documentation](/visualstudio/)

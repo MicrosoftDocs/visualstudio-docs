@@ -1,4 +1,5 @@
 ---
+description: "This method retrieves a list of argument types associated with this object."
 title: IDebugBinder3::GetTypeArguments | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

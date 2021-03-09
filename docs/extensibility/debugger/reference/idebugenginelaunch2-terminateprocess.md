@@ -1,4 +1,5 @@
 ---
+description: "IDebugEngineLaunch2::TerminateProcess terminates a process."
 title: IDebugEngineLaunch2::TerminateProcess | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

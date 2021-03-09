@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the document checksum and algorithm identifier given the maximum number of bytes to use."
 title: IDebugDocumentChecksum2::GetChecksumAndAlgorithmId | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

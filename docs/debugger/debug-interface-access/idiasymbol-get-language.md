@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the language of the source."
 title: "IDiaSymbol::get_language | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

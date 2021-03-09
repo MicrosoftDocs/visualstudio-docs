@@ -1,4 +1,5 @@
 ---
+description: "Determines whether or not the debug engine (DE) supports the option of passing this exception to the program being debugged when execution resumes."
 title: IDebugExceptionEvent2::CanPassToDebuggee | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

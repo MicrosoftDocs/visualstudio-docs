@@ -1,4 +1,5 @@
 ---
+description: "Retrieves a flag that indicates whether the section can be read."
 title: "IDiaSectionContrib::get_read | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

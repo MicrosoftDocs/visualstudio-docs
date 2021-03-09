@@ -1,4 +1,5 @@
 ---
+description: "Returns the next set of elements from the modules enumeration."
 title: IEnumDebugModules2::Next | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

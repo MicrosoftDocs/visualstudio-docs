@@ -1,4 +1,5 @@
 ---
+description: "Skips a specified number of symbols in an enumeration sequence."
 title: "IDiaEnumSymbols::Skip | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

@@ -1,4 +1,5 @@
 ---
+description: "Gets an IDebugErrorBreakpoint2 object that describes the reason why a breakpoint was not bound."
 title: IDebugBreakpointErrorEvent2::GetErrorBreakpoint | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

@@ -1,4 +1,5 @@
 ---
+description: "This interface enumerates the error breakpoints associated with a pending breakpoint."
 title: IEnumDebugErrorBreakpoints2 | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

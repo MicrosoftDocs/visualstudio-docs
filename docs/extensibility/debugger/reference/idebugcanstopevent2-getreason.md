@@ -1,4 +1,5 @@
 ---
+description: "Gets the reason why the debug engine (DE) wants to stop."
 title: IDebugCanStopEvent2::GetReason | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

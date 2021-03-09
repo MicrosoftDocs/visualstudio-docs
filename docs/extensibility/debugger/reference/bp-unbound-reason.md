@@ -1,4 +1,5 @@
 ---
+description: "Gives the reason a breakpoint was unbound."
 title: BP_UNBOUND_REASON | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

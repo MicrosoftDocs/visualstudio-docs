@@ -1,4 +1,5 @@
 ---
+description: "Extends the IDebugTypeFieldBuilder to be able to create array types."
 title: IDebugTypeFieldBuilder2 | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

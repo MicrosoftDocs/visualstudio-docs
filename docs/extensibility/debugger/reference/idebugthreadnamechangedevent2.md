@@ -1,4 +1,5 @@
 ---
+description: "This interface is sent by the debug engine (DE) to the session debug manager (SDM) when a thread name changes in the program being debugged."
 title: IDebugThreadNameChangedEvent2 | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

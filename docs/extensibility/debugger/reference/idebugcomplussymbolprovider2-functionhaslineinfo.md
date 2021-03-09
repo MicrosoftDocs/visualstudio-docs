@@ -1,4 +1,5 @@
 ---
+description: "Determines if the specified method has line information."
 title: IDebugComPlusSymbolProvider2::FunctionHasLineInfo | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

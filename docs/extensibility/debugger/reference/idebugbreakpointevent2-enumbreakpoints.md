@@ -1,4 +1,5 @@
 ---
+description: "Creates an enumerator for all the breakpoints that fired at the current code location."
 title: IDebugBreakpointEvent2::EnumBreakpoints | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

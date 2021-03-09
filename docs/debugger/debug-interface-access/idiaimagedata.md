@@ -1,4 +1,5 @@
 ---
+description: "Exposes the details of the base location and memory offsets of the module or image."
 title: "IDiaImageData | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

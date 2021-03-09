@@ -1,4 +1,5 @@
 ---
+description: "This method changes the object that the visualizer represents."
 title: IEEVisualizerDataProvider::SetObjectForVisualizer | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

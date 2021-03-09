@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: 872c5746-5357-4764-949b-aa525a0adf1a
-ms.date: 02/10/2021
+ms.date: 02/19/2021
 ms.topic: how-to
 description:  Learn how to activate the Azure DevTest individual credit benefit included in your Visual Studio subscription.
 ---
@@ -107,7 +107,7 @@ A:  Intellectual property produced by an employee created on resources provided 
 - Need help with Azure?  Check out these resources:
   - Technical Support: [https://azure.microsoft.com/support/options/](https://azure.microsoft.com/support/options/)
   - [Azure Tips & Tricks](https://microsoft.github.io/AzureTipsAndTricks/ "Azure Tips & Tricks") 
-- For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/).
+- For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://aka.ms/vssubscriberhelp).
 - Have a question about Visual Studio IDE, Azure DevOps Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).
 
 ## See also

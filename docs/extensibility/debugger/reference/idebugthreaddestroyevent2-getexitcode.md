@@ -1,4 +1,5 @@
 ---
+description: "Gets the exit code for a thread."
 title: IDebugThreadDestroyEvent2::GetExitCode | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

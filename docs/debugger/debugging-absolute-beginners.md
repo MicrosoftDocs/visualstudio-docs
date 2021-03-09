@@ -70,22 +70,24 @@ To help illustrate these concepts, we take you through some example code that al
 
 Next, we will create an application that has a few bugs.
 
-1. You must have Visual Studio installed and either the **.NET desktop development** workload or the **.NET Core cross platform development** workload installed, depending on which app type you want to create.
+1. You must have Visual Studio installed and the **.NET Core cross platform development** workload installed.
 
     If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/) page to install it for free.
 
-    If you need to install the workload but already have Visual Studio, click **Tools** > **Get Tools and Features**. The Visual Studio Installer launches. Choose the **.NET desktop development** (or **.NET Core cross platform development**) workload, then choose **Modify**.
+    If you need to install the workload but already have Visual Studio, click **Tools** > **Get Tools and Features**. The Visual Studio Installer launches. Choose the **.NET Core cross platform development** workload, then choose **Modify**.
 
 1. Open Visual Studio.
 
     ::: moniker range=">=vs-2019"
-    On the start window, choose **Create a new project**. Type **console** in the search box and then choose either **Console App (.NET Core)** or **Console App (.NET Framework)**. Choose **Next**. Type a project name like **ConsoleApp-FirstApp** and click **Create**.
+    On the start window, choose **Create a new project**. Type **console** in the search box, select **C#** as the language, and then choose **Console App** for .NET Core. Choose **Next**. Type a project name like **ConsoleApp-FirstApp** and click **Next**.
+
+    Choose either the recommended target framework (.NET Core 3.1) or .NET 5, and then choose **Create**.
     ::: moniker-end
     ::: moniker range="vs-2017"
-    From the top menu bar, choose **File** > **New** > **Project**. In the left pane of the **New project** dialog box, under **Visual C#**, choose **Console App**, and then in the middle pane choose either **Console App (.NET Framework)** or **Console App (.NET Core)**. Type a name like **ConsoleApp-FirstApp** and click **OK**.
+    From the top menu bar, choose **File** > **New** > **Project**. In the left pane of the **New project** dialog box, under **Visual C#**, choose **Console App**, and then in the middle pane choose either **Console App (.NET Core)**. Type a name like **ConsoleApp-FirstApp** and click **OK**.
     ::: moniker-end
 
-    If you don't see the **Console App (.NET Framework)** or **Console App (.NET Core)** project template, go to **Tools** > **Get Tools and Features**, which opens the Visual Studio Installer. Choose either the **.NET Core cross platform development** or the **.NET desktop development** workload, then choose **Modify**.
+    If you don't see the **Console App** project template for .NET Core, go to **Tools** > **Get Tools and Features**, which opens the Visual Studio Installer. Choose the **.NET Core cross platform development** workload, then choose **Modify**.
 
     Visual Studio creates the console project, which appears in Solution Explorer in the right pane.
 

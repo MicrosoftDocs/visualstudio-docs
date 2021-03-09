@@ -1,4 +1,5 @@
 ---
+description: "Updates the debug symbols in memory with those from the specified data stream."
 title: IDebugComPlusSymbolProvider::UpdateSymbols | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

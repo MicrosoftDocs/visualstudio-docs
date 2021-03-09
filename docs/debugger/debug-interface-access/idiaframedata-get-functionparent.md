@@ -1,4 +1,5 @@
 ---
+description: "Retrieves a frame data interface for the enclosing function."
 title: "IDiaFrameData::get_functionParent | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

@@ -49,7 +49,7 @@ The default behavior of the `set-env` tool is to list all of the current environ
 
 ## Usage in a codespace
 
-If you're using a codespace, you can set environment variables used in the codespace through customizing the `remoteEnv` property in [`.devcontainer.json`](/visualstudio/codespaces/reference/configuring) file.
+If you're using a codespace, you can set environment variables used in the codespace through customizing the `remoteEnv` property in [`.devcontainer.json`](https://code.visualstudio.com/docs/remote/devcontainerjson-reference) file.
 
 ## Example usage
 Below are examples of how to run `set-env` using a `.devinit.json`.

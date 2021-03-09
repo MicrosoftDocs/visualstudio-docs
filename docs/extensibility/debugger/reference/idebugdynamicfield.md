@@ -1,4 +1,5 @@
 ---
+description: "This interface represents a type of a variable."
 title: IDebugDynamicField | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

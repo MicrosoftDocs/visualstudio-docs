@@ -1,4 +1,5 @@
 ---
+description: "This structure provides information about processes running on a machine."
 title: PROVIDER_PROCESS_DATA | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

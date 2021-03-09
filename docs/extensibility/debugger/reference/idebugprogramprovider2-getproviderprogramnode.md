@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the program node for a specific program."
 title: IDebugProgramProvider2::GetProviderProgramNode | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

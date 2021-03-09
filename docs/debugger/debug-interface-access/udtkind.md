@@ -1,4 +1,5 @@
 ---
+description: "Describes the variety of user-defined type (UDT)."
 title: "UdtKind | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the description and description metadata for the port supplier."
 title: IDebugPortSupplierDescription2::GetDescription | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

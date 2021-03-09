@@ -1,4 +1,5 @@
 ---
+description: "IDiaSymbol::findInlineFramesByAddr retrieves an enumeration that allows a client to iterate through all of the inline frames on a given address."
 title: "IDiaSymbol::findInlineFramesByAddr | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

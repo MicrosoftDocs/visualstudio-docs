@@ -1,4 +1,5 @@
 ---
+description: "Returns a list of all the processes running on a port."
 title: IDebugPort2::EnumProcesses | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

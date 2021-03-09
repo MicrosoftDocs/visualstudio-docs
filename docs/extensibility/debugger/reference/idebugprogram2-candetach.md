@@ -1,4 +1,5 @@
 ---
+description: "Determines if a debug engine (DE) can detach from the program."
 title: IDebugProgram2::CanDetach | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

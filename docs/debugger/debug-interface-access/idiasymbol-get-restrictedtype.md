@@ -1,4 +1,5 @@
 ---
+description: "Specifies whether the this pointer is flagged as restricted."
 title: "IDiaSymbol::get_restrictedType | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

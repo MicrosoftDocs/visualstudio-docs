@@ -1,4 +1,5 @@
 ---
+description: "Sets the value pointed to from a series of consecutive bytes."
 title: IDebugPointerObject::SetBytes | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

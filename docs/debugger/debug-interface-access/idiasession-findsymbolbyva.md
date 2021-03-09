@@ -1,4 +1,5 @@
 ---
+description: "Retrieves a specified symbol type that contains, or is closest to, a specified virtual address."
 title: "IDiaSession::findSymbolByVA | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

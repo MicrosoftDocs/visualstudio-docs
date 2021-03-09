@@ -1,4 +1,5 @@
 ---
+description: "Specifies what information to retrieve about a debug reference object."
 title: DEBUGREF_INFO_FLAGS | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

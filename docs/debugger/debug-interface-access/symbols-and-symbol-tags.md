@@ -1,4 +1,5 @@
 ---
+description: "Debug information about a compiled program is stored in the program database (.pdb) file as symbols that are accessible using the Debug Interface Access (DIA) SDK APIs."
 title: "Symbols and Symbol Tags | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

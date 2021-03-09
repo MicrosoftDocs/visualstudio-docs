@@ -1,4 +1,5 @@
 ---
+description: "Returns the code context representing a location if a stack unwind operation occurred."
 title: IDebugStackFrame3::GetUnwindCodeContext | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

@@ -1,4 +1,5 @@
 ---
+description: "Creates an enumerator for selected local variables of the method."
 title: IDebugMethodField::EnumLocals | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

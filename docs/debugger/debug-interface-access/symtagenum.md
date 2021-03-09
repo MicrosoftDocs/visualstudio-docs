@@ -1,4 +1,5 @@
 ---
+description: "Specifies the type of symbol."
 title: "SymTagEnum | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

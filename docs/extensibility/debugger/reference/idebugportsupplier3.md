@@ -1,4 +1,5 @@
 ---
+description: "This interface allows a caller to determine whether a port supplier can preserve ports (by writing them to disk) between invocations of the debugger and then get a list of those preserved ports."
 title: IDebugPortSupplier3 | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

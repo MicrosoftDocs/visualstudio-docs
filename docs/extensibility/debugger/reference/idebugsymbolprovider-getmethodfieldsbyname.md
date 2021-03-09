@@ -1,4 +1,5 @@
 ---
+description: "This method gets the field representing a fully qualified method name."
 title: IDebugSymbolProvider::GetMethodFieldsByName | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

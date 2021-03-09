@@ -1,4 +1,5 @@
 ---
+description: "This function cleans up any allocations or open connections created by a previous call to the SccInitialize in preparation for shutting down the source control plug-in."
 title: SccUninitialize Function | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: conceptual

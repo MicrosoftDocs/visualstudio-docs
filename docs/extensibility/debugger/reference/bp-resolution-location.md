@@ -1,4 +1,5 @@
 ---
+description: "Specifies the structure of the breakpoint resolution location."
 title: BP_RESOLUTION_LOCATION | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

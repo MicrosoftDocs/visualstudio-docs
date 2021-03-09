@@ -1,4 +1,5 @@
 ---
+description: "Subtracts the specified value from the current context and returns a new context."
 title: IDebugMemoryContext2::Subtract | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

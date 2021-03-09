@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: v-evwin
 manager: lank
 ms.assetid: fe826200-9600-4b29-a64e-0d66ba3caf3d
-ms.date: 07/22/2020
+ms.date: 02/19/2021
 ms.topic: conceptual
 description:  Understand how you can use Azure DevOps as a Visual Studio subscriber.
 ---
@@ -48,7 +48,7 @@ If you don't see all your subscriptions, you may have one or more assigned to a 
 A:  Yes. Visual Studio Enterprise subscribers get one parallel job in Team Foundation Server 2017 or later and one self-hosted parallel job in each Azure DevOps Services organization where they are a member.
 
 ## Support resources
-- For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions support](https://visualstudio.microsoft.com/subscriptions/support/).
+- For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, see Visual Studio [Subscriptions support](https://aka.ms/vssubscriberhelp).
 - Have a question about Visual Studio IDE, Azure DevOps, or other Visual Studio products or services?  Visit [Visual Studio support](https://visualstudio.microsoft.com/support/).
 - [Azure DevOps documentation](/azure/devops/).
 

@@ -1,4 +1,5 @@
 ---
+description: "Retrieves a flag that specifies whether the function contains any unmanaged C++-style exception handling (for example, a try/catch block)."
 title: "IDiaSymbol::get_hasEH | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

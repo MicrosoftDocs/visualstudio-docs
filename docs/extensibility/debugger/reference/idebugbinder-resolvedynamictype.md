@@ -1,4 +1,5 @@
 ---
+description: "This method returns the exact type of a variable."
 title: IDebugBinder::ResolveDynamicType | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

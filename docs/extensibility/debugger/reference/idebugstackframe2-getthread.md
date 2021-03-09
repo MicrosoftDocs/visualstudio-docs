@@ -1,4 +1,5 @@
 ---
+description: "Gets the thread associated with a stack frame."
 title: IDebugStackFrame2::GetThread | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

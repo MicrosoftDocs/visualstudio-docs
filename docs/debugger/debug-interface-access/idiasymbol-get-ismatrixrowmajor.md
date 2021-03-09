@@ -1,4 +1,5 @@
 ---
+description: "Specifies whether the matrix is row major."
 title: "IDiaSymbol::get_isMatrixRowMajor | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

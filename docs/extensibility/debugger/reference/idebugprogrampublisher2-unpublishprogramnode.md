@@ -1,4 +1,5 @@
 ---
+description: "Removes a specified program node from availability to debug engines (DEs) and the session debug manager (SDM)."
 title: IDebugProgramPublisher2::UnpublishProgramNode | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

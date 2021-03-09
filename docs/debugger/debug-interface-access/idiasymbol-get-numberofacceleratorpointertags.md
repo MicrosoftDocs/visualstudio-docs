@@ -1,4 +1,5 @@
 ---
+description: "Returns the number of accelerator pointer tags in a C++ AMP stub function."
 title: "IDiaSymbol::get_numberOfAcceleratorPointerTags | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

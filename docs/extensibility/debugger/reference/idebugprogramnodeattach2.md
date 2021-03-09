@@ -1,4 +1,5 @@
 ---
+description: "Allows a program node to be notified of an attempt to attach to the associated program."
 title: IDebugProgramNodeAttach2 | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

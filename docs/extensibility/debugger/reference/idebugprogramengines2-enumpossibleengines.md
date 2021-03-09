@@ -1,4 +1,5 @@
 ---
+description: "Returns the GUIDs for all the possible debug engines (DE) that can debug this program."
 title: IDebugProgramEngines2::EnumPossibleEngines | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

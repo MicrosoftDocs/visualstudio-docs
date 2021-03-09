@@ -1,4 +1,5 @@
 ---
+description: "If the remote machine does not appear in the Remote Connections dialog, check the following common causes."
 title: "Remote machine does not appear in a Remote Connections dialog | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "error-reference"

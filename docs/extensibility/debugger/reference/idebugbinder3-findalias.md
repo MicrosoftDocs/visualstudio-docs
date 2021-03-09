@@ -1,4 +1,5 @@
 ---
+description: "This method locates an alias, given a name."
 title: IDebugBinder3::FindAlias | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

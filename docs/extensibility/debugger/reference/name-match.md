@@ -1,4 +1,5 @@
 ---
+description: "Selects the case option for matching names."
 title: NAME_MATCH | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

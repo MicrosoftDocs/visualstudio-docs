@@ -1,4 +1,5 @@
 ---
+description: "Enumerates additional kinds of fields that an IDebugField object can contain."
 title: FIELD_KIND_EX | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference
