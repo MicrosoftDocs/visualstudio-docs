@@ -1,5 +1,6 @@
 ---
 title: DA0014 - Extremely high rates of paging active memory to disk | Microsoft Docs
+description: "System performance data that was collected in the profiling run indicates that an extremely high rate of paging active memory to and from the disk occurred throughout the profiling run."
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords: 

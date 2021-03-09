@@ -1,6 +1,6 @@
 ---
 title: Convert a foreach loop to LINQ
-descritpion: Convert any foreach loop that uses an IEnumerable to a LINQ query or a LINQ call form (also known as a LINQ method).
+description: Convert any foreach loop that uses an IEnumerable to a LINQ query or a LINQ call form (also known as a LINQ method).
 ms.date: 07/10/2020
 ms.topic: reference
 author: mikadumont

@@ -1,5 +1,6 @@
 ---
 title: DA0002 - VSPerfCorProf.dll is missing | Microsoft Docs
+description: "This warning occurs when command-line tools for the collection of profiler data are used without using the VSPerfCLREnv.cmd tool to initialize the necessary environment variables, or if another profiler is running when the Profiling Tools start."
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords: 
