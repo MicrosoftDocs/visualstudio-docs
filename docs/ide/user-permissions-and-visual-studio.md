@@ -66,9 +66,11 @@ If you need to run Visual Studio as an administrator, follow these steps to open
 
 ::: moniker-end
 
-You can also modify the application shortcut to always run with administrative permissions. Here's how:
+You can also modify the application shortcut to always run with administrative permissions:
 
-1. Right-click the shortcut, and then select **Properties**.
+1. Open the **Start** menu, scroll to the version of Visual Studio that you're using, and then select **More** > **Open file location**.
+
+1. Right-click the **Visual Studio** shortcut for the version that you're using, and then select **Properties**.
 
 1. Select the **Advanced** button, and then select the **Run as administrator** check box.
 
