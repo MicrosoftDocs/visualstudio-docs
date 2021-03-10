@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: b6fbfa3e-654a-462f-8e22-e313b6ea617f
-ms.date: 10/30/2020
+ms.date: 02/19/2021
 ms.topic: conceptual
 description: Learn what happens when your Visual Studio subscription expires
 ---
@@ -34,6 +34,9 @@ Monthly Azure credit allotments will continue for a limited time following expir
 
 ### Other benefits 
 Many of the benefits included in Visual Studio subscriptions have specific durations.  Benefits provided by Microsoft's partners such as Pluralsight, DataCamp, or WhiteSource have time limits once they are activated.  Benefits you have previously activated will continue to be available to you for the remainder of their terms.  For example, if you have activated a six-month LinkedIn Learning subscription and it still has four months remaining when your Visual Studio subscription expires, you will still have four months of access to the LinkedIn Learning subscription.  
+
+## Resources
+- For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, see Visual Studio [Subscriptions support](https://aka.ms/vssubscriberhelp).
 
 ## See also
 - [Visual Studio documentation](/visualstudio/)
