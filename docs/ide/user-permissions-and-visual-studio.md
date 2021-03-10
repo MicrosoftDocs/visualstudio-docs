@@ -70,7 +70,7 @@ You can also modify the application shortcut to always run with administrative p
 
 1. Open the **Start** menu, scroll to the version of Visual Studio that you're using, and then select **More** > **Open file location**.
 
-1. Locate the **Visual Studio** shortcut for the version that you're using. Then, right-click the shortcut and select **Send to** > **Desktop (create shortcut)**.
+1. In **File Explorer**, locate the **Visual Studio** shortcut for the version that you're using. Then, right-click the shortcut and select **Send to** > **Desktop (create shortcut)**.
 
 1. On the **Windows** desktop, right-click the **Visual Studio** shortcut, and then select **Properties**.
 
