@@ -70,7 +70,9 @@ You can also modify the application shortcut to always run with administrative p
 
 1. Open the **Start** menu, scroll to the version of Visual Studio that you're using, and then select **More** > **Open file location**.
 
-1. Right-click the **Visual Studio** shortcut for the version that you're using, and then select **Properties**.
+1. Locate the **Visual Studio** shortcut for the version that you're using. Then, right-click it, and select **Send to** > **Desktop (create shortcut)**.
+
+1. Right-click the **Visual Studio** shortcut on the **Desktop**, and then select **Properties**.
 
 1. Select the **Advanced** button, and then select the **Run as administrator** check box.
 
