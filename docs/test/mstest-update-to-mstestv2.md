@@ -31,19 +31,19 @@ PM> Install-Package MSTest.TestFramework -Version 2.1.2
 
 Sample *.csproj* targeting MSTestV1:
 
-```xml
-<Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-  <Private>False</Private>
-</Reference>
-```
+    ```xml
+    <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    ```
 
 Sample *.csproj* now targeting MSTestV2:
 
-```xml
-<Reference Include="Microsoft.VisualStudio.TestPlatform.TestFramework, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-  <HintPath>..\packages\MSTest.TestFramework.2.1.2\lib\net45\Microsoft.VisualStudio.TestPlatform.TestFramework.dll</HintPath>
-</Reference>
-```
+    ```xml
+    <Reference Include="Microsoft.VisualStudio.TestPlatform.TestFramework, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MSTest.TestFramework.2.1.2\lib\net45\Microsoft.VisualStudio.TestPlatform.TestFramework.dll</HintPath>
+    </Reference>
+    ```
 
 > [!NOTE]
 > Test projects that are Coded UI tests or Web Load Tests are not compatible with MSTestV2. These project types have been deprecated. Read more on [Coded UI Test deprecation](https://devblogs.microsoft.com/devops/changes-to-coded-ui-test-in-visual-studio-2019/) and [Web Load Test deprecation](https://devblogs.microsoft.com/devops/cloud-based-load-testing-service-eol/).
@@ -54,13 +54,13 @@ If your *.csproj* is the newer SDK-style *.csproj* you are most likely already u
 
 Example:
 
-```xml
-<ItemGroup>
-  <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.7.1" />
-  <PackageReference Include="MSTest.TestAdapter" Version="2.1.1" />
-  <PackageReference Include="MSTest.TestFramework" Version="2.1.1" />
-</ItemGroup>
-```
+    ```xml
+    <ItemGroup>
+      <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.7.1" />
+      <PackageReference Include="MSTest.TestAdapter" Version="2.1.1" />
+      <PackageReference Include="MSTest.TestFramework" Version="2.1.1" />
+    </ItemGroup>
+    ```
 
 ## Why Upgrade to MSTestV2?
 
@@ -76,26 +76,26 @@ In 2016 we released the next step in evolving the MSTest framework with MSTestV2
 8. Provides the ability to place the `TestCategory` attribute at the level of a class or assembly. [Read more](https://blogs.msdn.microsoft.com/devops/2017/02/25/mstest-v2-now-and-ahead/).
 9. Test methods from base classes defined in another assembly are now discovered and run from the derived Test class. This brings in a consistent behavior with derived test class types. If this behavior is not required for compatibility reasons, it can be changed back using the following run settings:
 
-```xml
-<RunSettings>    
- <MSTest> 
-   <EnableBaseClassTestMethodsFromOtherAssemblies>false</EnableBaseClassTestMethodsFromOtherAssemblies> 
- </MSTest> 
-</RunSettings>
-```
+    ```xml
+    <RunSettings>    
+    <MSTest> 
+      <EnableBaseClassTestMethodsFromOtherAssemblies>false</EnableBaseClassTestMethodsFromOtherAssemblies> 
+    </MSTest> 
+    </RunSettings>
+    ```
 
 10. Provides finer-grained control over parallel execution via [in-assembly parallel execution](https://github.com/Microsoft/testfx-docs/blob/master/RFCs/004-In-Assembly-Parallel-Execution.md) of tests. This enables running tests within an assembly in parallel.
 11. The `TestCleanup` method on a `TestClass` is invoked even if its corresponding `TestInitialize` method fails. [Issue details](https://github.com/Microsoft/testfx/issues/250).
 12. The time taken by `AssemblyInitialize` and `ClassInitialize` is not considered part of the test duration, thereby limiting their impact on a test timing out.
 13. Tests that are not runnable can be configured to be marked as failed via the `MapNotRunnableToFailed` tag, which is part of the adapter node in the `.runsettings` file.
 
-```xml
-<RunSettings>    
- <MSTest> 
-   <MapNotRunnableToFailed>true</MapNotRunnableToFailed> 
- </MSTest> 
-</RunSettings>
-```
+    ```xml
+    <RunSettings>    
+    <MSTest> 
+      <MapNotRunnableToFailed>true</MapNotRunnableToFailed> 
+    </MSTest> 
+    </RunSettings>
+    ```
 
 ## MSTestV1 features that are not supported in MSTestV2
 
