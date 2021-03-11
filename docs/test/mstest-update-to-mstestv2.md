@@ -31,19 +31,19 @@ PM> Install-Package MSTest.TestFramework -Version 2.1.2
 
 Sample *.csproj* targeting MSTestV1:
 
-    ```xml
-    <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <Private>False</Private>
-    </Reference>
-    ```
+```xml
+<Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+  <Private>False</Private>
+</Reference>
+```
 
 Sample *.csproj* now targeting MSTestV2:
 
-    ```xml
-    <Reference Include="Microsoft.VisualStudio.TestPlatform.TestFramework, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\MSTest.TestFramework.2.1.2\lib\net45\Microsoft.VisualStudio.TestPlatform.TestFramework.dll</HintPath>
-    </Reference>
-    ```
+```xml
+<Reference Include="Microsoft.VisualStudio.TestPlatform.TestFramework, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+  <HintPath>..\packages\MSTest.TestFramework.2.1.2\lib\net45\Microsoft.VisualStudio.TestPlatform.TestFramework.dll</HintPath>
+</Reference>
+```
 
 > [!NOTE]
 > Test projects that are Coded UI tests or Web Load Tests are not compatible with MSTestV2. These project types have been deprecated. Read more on [Coded UI Test deprecation](https://devblogs.microsoft.com/devops/changes-to-coded-ui-test-in-visual-studio-2019/) and [Web Load Test deprecation](https://devblogs.microsoft.com/devops/cloud-based-load-testing-service-eol/).
@@ -54,13 +54,13 @@ If your *.csproj* is the newer SDK-style *.csproj* you're most likely already us
 
 Example:
 
-    ```xml
-    <ItemGroup>
-      <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.7.1" />
-      <PackageReference Include="MSTest.TestAdapter" Version="2.1.1" />
-      <PackageReference Include="MSTest.TestFramework" Version="2.1.1" />
-    </ItemGroup>
-    ```
+```xml
+<ItemGroup>
+  <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.7.1" />
+  <PackageReference Include="MSTest.TestAdapter" Version="2.1.1" />
+  <PackageReference Include="MSTest.TestFramework" Version="2.1.1" />
+</ItemGroup>
+```
 
 ## Why Upgrade to MSTestV2?
 
