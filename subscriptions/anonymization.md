@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: ce5fc8a4-484c-4df6-97c3-cb60174fb66b
-ms.date: 02/20/2020
+ms.date: 03/11/2021
 ms.topic: conceptual
 description:  Learn how subscriber data is anonymized when access to subscriptions is lost.
 ---
@@ -30,7 +30,9 @@ Events that render a subscription unusable to a subscriber will trigger anonymiz
 A:  No.  The anonymization is in response to an event that causes the loss of access to the subscription, but does not cause the lack of access.
 
 ### Q:  I'm an admin for my organization's subscriptions.  If one of my subscriber's information is anonymized, can that subscription be reassigned to another user?
-A:  Yes -- As long as the subscription has not expired, it can be reassigned to another subscriber.
+A:  Yes.  A subscriptions can be reassigned if these criteria are met:
+- The subscription has not expired
+- A minimum of 90 days have passed since the subscription was last assigned to subscriber.  For example, if a subscription was assigned to a subscriber on June 1, it cannot be reassigned until at least August 30.
 
 ### Q: How can I prevent anonymization caused by deleting a sign-in email address?
 A:  There are two ways to prevent the issue:
