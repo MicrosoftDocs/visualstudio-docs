@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: 8470f035-2a82-4052-9a12-6f24ce796861
-ms.date: 10/28/2020
+ms.date: 02/19/2021
 ms.topic: overview
 description: Learn about the full range of benefits available to you on the Visual Studio subscriptions portal
 ---
@@ -42,7 +42,7 @@ The Subscriptions page provides you with the capabilities to see which subscript
 
 ## Support
 
-In addition to the individual benefits found in the Support category on the Benefits page, the Support page provides access to resources to help you get the most out of your Visual Studio subscription. Access [support resources](https://visualstudio.microsoft.com/subscriptions/support/) to resolve technical issues or questions related to subscriptions sales, accounts, and billing.
+In addition to the individual benefits found in the Support category on the Benefits page, the Support page provides access to resources to help you get the most out of your Visual Studio subscription. Access [support resources](https://aka.ms/vssubscriberhelp) to resolve technical issues or questions related to subscriptions sales, accounts, and billing.
 
 ## [Marketplace](https://marketplace.visualstudio.com/)
 

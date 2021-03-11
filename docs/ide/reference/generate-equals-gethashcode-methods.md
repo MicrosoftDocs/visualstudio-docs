@@ -2,7 +2,7 @@
 title: Generate C# Equals and GetHashCode Method Overrides
 description: Learn how to use the Quick Actions and Refactorings menu to generate Equals and GetHashCode methods.
 ms.custom: SEO-VS-2020
-ms.date: 01/26/2018
+ms.date: 03/08/2021
 ms.topic: reference
 author: TerryGLee
 ms.author: tglee
@@ -22,9 +22,9 @@ This code generation applies to:
 
 **Why:**
 
-- If you are implementing a value type, you should consider overriding the **Equals** method to gain increased performance over the default implementation of the Equals method on ValueType.
+- If you're implementing a value type, you should consider overriding the **Equals** method. You can gain increased performance over the default implementation of the Equals method on ValueType when you do so.
 
-- If you are implementing a reference type, you should consider overriding the **Equals** method if your type looks like a base type, such as Point, String, BigNumber, and so on.
+- If you're implementing a reference type, you should consider overriding the **Equals** method if your type looks like a base type, such as Point, String, BigNumber, and so on.
 
 - Override the **GetHashCode** method to allow a type to work correctly in a hash table. Read more guidance on [equality operators](/dotnet/standard/design-guidelines/equality-operators).
 
@@ -32,22 +32,32 @@ This code generation applies to:
 
 1. Place your cursor somewhere on the line of your type declaration.
 
-   ![Highlighted code](media/overrides-highlight-cs.png)
+    ```csharp
+    public class ImaginaryNumber
+    {
+        public double RealNumber { get; set; }
+        public double ImaginaryUnit { get; set; }
+    }
+    ```
+
+   Your code should look similar to the following screenshot:
+
+   ![Screenshot of highlighted code on which to apply the generated method](media/overrides-highlight-cs.png)
 
    > [!TIP]
    > Do not double-click select the type name, or the menu option won't be available. Just place the cursor somewhere on the line.
 
-1. Next, do one of the following:
+1. Next, choose one of the following actions:
 
    - Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
 
    - Right-click and select the **Quick Actions and Refactorings** menu.
 
-   - Click the ![screwdriver](../media/screwdriver-icon.png) icon that appears in the left margin.
+   - Click the ![Screenshot of the Quick Actions screwdriver icon in Visual Studio](../media/screwdriver-icon.png) icon that appears in the left margin.
 
-   ![Generate overrides preview](media/overrides-preview-cs.png)
+1. In the drop-down menu, select **Generate Equals(object)** or **Generate Equals and GetHashCode**.
 
-1. Select **Generate Equals(object)** or **Generate Equals and GetHashCode** from the drop-down menu.
+   ![Screenshot of the Generate Overrides drop-down menu](media/overrides-preview-cs.png)
 
 1. In the **Pick members** dialog box, select the members you want to generate the methods for:
 
@@ -56,9 +66,36 @@ This code generation applies to:
     > [!TIP]
     > You can also choose to generate operators from this dialog by using the checkbox near the bottom of the dialog.
 
-   The `Equals` and `GetHashCode` methods are generated with default implementations.
+   The `Equals` and `GetHashCode` methods are generated with default implementations, as shown in the following code:
 
-   ![Generate method result](media/overrides-result-cs.png)
+    ```csharp
+   public class ImaginaryNumber : IEquatable<ImaginaryNumber>
+    {
+        public double RealNumber { get; set; }
+        public double ImaginaryUnit { get; set; }
+
+        public override bool Equals(object obj)
+        {
+            return Equals(obj as ImaginaryNumber);
+        }
+
+        public bool Equals(ImaginaryNumber other)
+        {
+            return other != null &&
+                   RealNumber == other.RealNumber &&
+                   ImaginaryUnit == other.ImaginaryUnit;
+        }
+
+        public override int GetHashCode()
+        {
+            return HashCode.Combine(RealNumber, ImaginaryUnit);
+        }
+    }
+    ```
+
+   Your code should look similar to the following screenshot:
+
+   ![Screenshot of the result of the generated method](media/overrides-result-cs.png)
 
 ## See also
 
