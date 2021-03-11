@@ -73,7 +73,7 @@ Code coverage analysis can be applied to both managed and unmanaged (native) cod
 Code coverage is an option when you run test methods using Test Explorer. The results table shows the percentage of the code that was run in each assembly, class, and method. In addition, the source editor shows you which code has been tested.
 
 * [Use code coverage to determine how much code is being tested](using-code-coverage-to-determine-how-much-code-is-being-tested.md)
-* [Unit testing, code coverage and code clone analysis with Visual Studio (Lab)](https://www.boost.org/doc/libs/1_71_0/libs/test/doc/html/index.html)
+* [Unit testing, code coverage and code clone analysis with Visual Studio (Lab)](https://azuredevopslabs.com/labs/devopsserver/liveunittesting)
 * [Customize code coverage analysis](customizing-code-coverage-analysis.md)
 
 ## Microsoft Fakes
@@ -97,7 +97,7 @@ Whether you choose best-of-breed Coded UI Tests or generic browser-based UI test
 * [Use UI automation to test your code](use-ui-automation-to-test-your-code.md)
 * [Get started creating, editing, and maintaining a coded UI test](walkthrough-creating-editing-and-maintaining-a-coded-ui-test.md)
 * [Test UWP apps with coded UI tests](test-uwp-app-with-coded-ui-test.md)
-* [Introduction to coded UI tests with Visual Studio Enterprise (Lab)](https://www.boost.org/doc/libs/1_71_0/libs/test/doc/html/index.html)
+* [Introduction to coded UI tests with Visual Studio Enterprise (Lab)](https://azuredevopslabs.com/labs/tfs/codedui)
 
 ## Related scenarios
 

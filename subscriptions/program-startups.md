@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: 71af88da-b9fa-4d12-999c-7d461f3df0ec
-ms.date: 10/28/2020
+ms.date: 02/19/2021
 ms.topic: conceptual
 description:  Details on subscriptions are offered through the Microsoft for Startups program.
 ---
@@ -28,12 +28,15 @@ A: At the first purchase, we bill a prorated quantity to cover the remaining day
 
 When you increase the paid quantity later, we also prorate the increased units to cover the remaining days in the current month. So if you bought 1 more Visual Studio Professional monthly cloud subscription on May 10, we would bill roughly 0.677 units (21 days remaining in the 31-day month of May).
 
-### Q: How do cancelations work?
+### Q: How do cancellations work?
 A: When you cancel a Visual Studio cloud subscription, you are canceling automatic renewal. The subscription continues until its normal renewal date and then simply expires. At expiration, the Visual Studio subscriber can no longer use Visual Studio or any other benefits from the subscription.
 
-With monthly cloud subscriptions, cancelations take effect the first day of the next month. If you only cancel some of your monthly cloud subscriptions, be sure to remove users on the first of the next month to ensure that the correct people continue to have active subscriptions assigned.
+With monthly cloud subscriptions, cancellations take effect the first day of the next month. If you only cancel some of your monthly cloud subscriptions, be sure to remove users on the first of the next month to ensure that the correct people continue to have active subscriptions assigned.
 
-For annual cloud subscriptions, cancelations take effect the first day of the month following 12 months from the original purchase, or 12 months from the last annual renewal charge. For instance, if you bought a Visual Studio Professional annual cloud subscription on January 3, 2018 then it remains active until February 1, 2019 when it automatically renews for another year. If you cancel at any time between then and February 1, 2020 then the subscription will expire on February 1, 2020. There is no rebate for canceling part way through the subscription year with annual cloud subscriptions.
+For annual cloud subscriptions, l take effect the first day of the month following 12 months from the original purchase, or 12 months from the last annual renewal charge. For instance, if you bought a Visual Studio Professional annual cloud subscription on January 3, 2018 then it remains active until February 1, 2019 when it automatically renews for another year. If you cancel at any time between then and February 1, 2020 then the subscription will expire on February 1, 2020. There is no rebate for canceling part way through the subscription year with annual cloud subscriptions.
+
+## Resources
+- For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, see Visual Studio [Subscriptions support](https://aka.ms/vssubscriberhelp).
 
 ## See also
 - [Visual Studio documentation](/visualstudio/)
