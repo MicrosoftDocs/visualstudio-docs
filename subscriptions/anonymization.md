@@ -32,7 +32,7 @@ A:  No.  The anonymization is in response to an event that causes the loss of ac
 ### Q:  I'm an admin for my organization's subscriptions.  If one of my subscriber's information is anonymized, can that subscription be reassigned to another user?
 A:  Yes.  A subscriptions can be reassigned if these criteria are met:
 - The subscription has not expired
-- A minimum of 90 days have passed since the subscription was last assigned to subscriber.  For example, if a subscription was assigned to a subscriber on June 1, it cannot be reassigned until at least August 30.
+- A minimum of 90 days have passed since the subscription was last assigned to a subscriber.  For example, if a subscription was assigned to a subscriber on June 1, it cannot be reassigned until at least August 30.
 
 ### Q: How can I prevent anonymization caused by deleting a sign-in email address?
 A:  There are two ways to prevent the issue:
