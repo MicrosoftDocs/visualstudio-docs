@@ -142,10 +142,10 @@
 - name: Version control
   items:
   - name: New Git experience in Visual Studio
-    href: git-with-visual-studio.md
+    href: ide/git-with-visual-studio.md
     items:
     - name: Compare Git and Team Explorer side-by-side
-      href: git-team-explorer-feature-comparison.md
+      href: ide/git-team-explorer-feature-comparison.md
 - name: Quickstarts
   items:
   - name: Visual Studio orientation
