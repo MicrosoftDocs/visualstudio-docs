@@ -139,6 +139,13 @@
       href: install/build-tools-container-issues.md
   - name: Install Help Viewer
     href: help-viewer/installation.md
+- name: Version control
+  items:
+  - name: New Git experience in Visual Studio
+    href: git-with-visual-studio.md
+    items:
+    - name: Compare Git and Team Explorer side-by-side
+      href: git-team-explorer-feature-comparison.md
 - name: Quickstarts
   items:
   - name: Visual Studio orientation
@@ -277,8 +284,6 @@
   - name: Connect to projects in Team Explorer
     displayName: Azure DevOps VSTS
     href: ide/connect-team-project.md
-  - name: New Git experience in Visual Studio
-    href: ide/git-with-visual-studio.md
   - name: Editor
     items:
     - name: Use the editor
