@@ -15,7 +15,7 @@ We launched the first version of a new Git experience in Visual Studio 2019 [ver
 
 If you’ve been using Team Explorer, here is a step-by-step guide that explains how you can use the new Git experience.
 
-> [!TIP]
+> [!NOTE]
 > The following table includes screenshots. Click each screenshot to view a larger version of it. (If you're using a touchscreen device, tap each screenshot to view a larger version of it.)
 
 ## Get started
