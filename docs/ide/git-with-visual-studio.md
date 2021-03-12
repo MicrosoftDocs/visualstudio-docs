@@ -111,7 +111,7 @@ From both locations, you can switch between existing branches.
 
 ### Create a new branch
 
-You can also create a new branch. The equivalent command for this action is `git checkout <branchname>`.
+You can also create a new branch. The equivalent command for this action is `git checkout -b <branchname>`.
 
 Creating a new branch is as simple as entering the branch name and basing it off an existing branch.
 
