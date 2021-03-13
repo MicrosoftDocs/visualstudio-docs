@@ -903,7 +903,7 @@
   href: debugger/index.yml
 - name: Version control
   items:
-  - name: New Git experience in Visual Studio
+  - name: The new Git experience in Visual Studio
     href: ide/git-with-visual-studio.md
   - name: Compare Git and Team Explorer side-by-side
     href: ide/git-team-explorer-feature-comparison.md
