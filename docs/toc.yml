@@ -902,9 +902,9 @@
 - name: Debug >>
   href: debugger/index.yml
 - name: Version control
-  displayName: New Git experience in Visual Studio
-  href: ide/git-with-visual-studio.md
   items:
+  - name: New Git experience in Visual Studio
+    href: ide/git-with-visual-studio.md
   - name: Compare Git and Team Explorer side-by-side
     href: ide/git-team-explorer-feature-comparison.md
 - name: Test >>
