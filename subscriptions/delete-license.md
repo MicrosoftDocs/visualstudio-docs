@@ -10,7 +10,9 @@ description:  Learn how admins can delete subscription assignments in the Visual
 ---
 
 # Delete assignments in Visual Studio subscriptions
-When a subscriber no longer requires a Visual Studio subscription, such as when they leave the company, complete a project, or switch to a new job role, you can remove their subscription and  assign it to someone else. Please note that when you reassign a subscription, not all the subscriber benefits will be reset.  The new user will be able to claim any unclaimed keys and view previously claimed keys but claim limits are **not** reset.  For organizations that have Enterprise Agreements (EA), any benefits that were used by the original user, such as Pluralsight training, will be reset. 
+When a subscriber no longer requires a Visual Studio subscription, such as when they leave the company, complete a project, or switch to a new job role, you can remove their subscription and assign it to someone else. Please note that when you reassign a subscription, not all the subscriber benefits will be reset.  The new user will be able to claim any unclaimed keys and view previously claimed keys but claim limits are **not** reset.  For organizations that have Enterprise Agreements (EA), any benefits that were used by the original user, such as Pluralsight training, will be reset. 
+> [!Important]
+> Subscriptions can only be assigned to different users if a minimum of 90 days have passed since the subscription was last assigned.  For example, if a subscription was assigned to a subscriber on June 1, it cannot be assigned to a new subscriber until at least August 30. 
 
 Watch this video or read on to learn how to delete assignments.  
 
