@@ -137,10 +137,8 @@ kubectl -n <namespace> apply -f <yaml file name>
 
 Bridge to Kubernetes has the following limitations:
 
-* A service must be backed by a single pod in order to connect to that service. You can't connect to a service with multiple pods, such as a service with replicas.
-* A pod may only have a single container running in that pod for Bridge to Kubernetes to successfully connect. Bridge to Kubernetes can't connect to services with pods that have additional containers, such as sidecar containers injected by services meshes.
+* A pod may only have a single container running in that pod for Bridge to Kubernetes to successfully connect.
 * Currently, Bridge to Kubernetes pods must be Linux containers. Windows containers are not supported.
-* Isolation cannot be used with HTTPS when you use Bridge to Kubernetes with Visual Studio. HTTPS is only supported in isolation mode when you use Visual Studio Code.
 * Bridge to Kubernetes needs elevated permissions to run on your development computer in order to edit your hosts file.
 * Bridge to Kubernetes can't be used on clusters with Azure Dev Spaces enabled.
 
