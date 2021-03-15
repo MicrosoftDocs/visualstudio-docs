@@ -3,7 +3,7 @@ title: Visual Studio Container Tools build and debug overview
 author: ghogen
 description: Overview of the Container Tools build and debugging process
 ms.author: ghogen
-ms.date: 11/20/2019
+ms.date: 03/15/2021
 ms.technology: vs-azure
 ms.topic: conceptual
 ---
