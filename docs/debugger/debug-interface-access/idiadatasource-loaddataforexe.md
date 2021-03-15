@@ -55,6 +55,8 @@ If successful, returns `S_OK`; otherwise, returns an error code. The following t
 ## Remarks
 The debug header of the .exe/.dll file names the associated debug data location.
 
+If you are loading debug data from a symbol server, *symsrv.dll* must be present in the same directory where either the user’s application or *msdia140.dll* is installed, or it must be present in the system directory.
+
 This method reads the debug header and then searches for and prepares the debug data. The progress of the search may, optionally, be reported and controlled through callbacks. For example, the [IDiaLoadCallback::NotifyDebugDir](../../debugger/debug-interface-access/idialoadcallback-notifydebugdir.md) is invoked when the `IDiaDataSource::loadDataForExe` method finds and processes a debug directory.
 
 The [IDiaReadExeAtOffsetCallback](../../debugger/debug-interface-access/idiareadexeatoffsetcallback.md) and [IDiaReadExeAtRVACallback](../../debugger/debug-interface-access/idiareadexeatrvacallback.md) interfaces allow the client application to provide alternative methods for reading data from the executable file when the file cannot be accessed directly through standard file I/O.
