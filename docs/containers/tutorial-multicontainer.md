@@ -6,7 +6,7 @@ ms.custom: SEO-VS-2020
 ms.author: ghogen
 ms.date: 01/10/2020
 ms.technology: vs-azure
-ms.topic: include
+ms.topic: tutorial
 ---
 # Tutorial: Create a multi-container app with Docker Compose
 

@@ -5,7 +5,7 @@ description: Learn how to use Visual Studio Container Tools and Docker for Windo
 ms.author: ghogen
 ms.date: 01/24/2020
 ms.technology: vs-azure
-ms.topic: include
+ms.topic: quickstart
 ---
 # Quickstart: Docker in Visual Studio
 
