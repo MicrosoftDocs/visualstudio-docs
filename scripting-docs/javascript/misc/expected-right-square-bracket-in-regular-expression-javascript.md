@@ -1,4 +1,5 @@
 ---
+description: "You attempted to create a character class for a regular expression match, but did not include the right bracket."
 title: "Expected ']' in regular expression (JavaScript) | Microsoft Docs"
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows

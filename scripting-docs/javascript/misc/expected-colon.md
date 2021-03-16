@@ -1,4 +1,5 @@
 ---
+description: "You attempted to create an expression using the ternary conditional operator, but did not include the colon between the second and third operands."
 title: "Expected ':' | Microsoft Docs"
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows

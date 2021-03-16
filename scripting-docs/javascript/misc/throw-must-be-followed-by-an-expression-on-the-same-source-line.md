@@ -1,4 +1,5 @@
 ---
+description: "You used the throw keyword, but did not follow it with an expression on the same source line."
 title: "Throw must be followed by an expression on the same source line | Microsoft Docs"
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows

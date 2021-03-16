@@ -1,5 +1,6 @@
 ---
 title: "Expected 'var' | Microsoft Docs"
+description: "The keyword var was not added when it was required."
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows
 ms.technology: vs-javascript

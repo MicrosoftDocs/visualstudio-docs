@@ -1,4 +1,5 @@
 ---
+description: "You attempted to use an identifier that the JavaScript compiler does not recognize."
 title: "Undefined identifier | Microsoft Docs"
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows

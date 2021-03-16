@@ -1,4 +1,5 @@
 ---
+description: "You attempted to invoke the String.prototype.toString or String.prototype.valueOf method on an object of a type other than String`."
 title: "String expected | Microsoft Docs"
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows

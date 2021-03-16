@@ -1,4 +1,5 @@
 ---
+description: "You did not include the right brace that marks the end of the function body, loop, block of code, or object initializer."
 title: "Expected '}' | Microsoft Docs"
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows

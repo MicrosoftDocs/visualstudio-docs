@@ -1,5 +1,6 @@
 ---
 title: "Invalid number | Microsoft Docs"
+description: "You tried to use a number that is not valid in JavaScript."
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows
 ms.technology: vs-javascript

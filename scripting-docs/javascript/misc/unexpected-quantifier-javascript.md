@@ -1,4 +1,5 @@
 ---
+description: "When composing your regular expression search pattern, you created a pattern element with an illegal repetition factor."
 title: "Unexpected quantifier (JavaScript) | Microsoft Docs"
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows

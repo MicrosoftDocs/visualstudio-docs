@@ -1,4 +1,5 @@
 ---
+description: "You attempted to enclose an expression within a set of parentheses, but did not include the closing parenthesis."
 title: "Expected ')' (JavaScript) | Microsoft Docs"
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows
