@@ -1,4 +1,5 @@
 ---
+description: "You created a statement that violates one or more of the grammatical rules of JavaScript."
 title: "Syntax error (JavaScript) | Microsoft Docs"
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows

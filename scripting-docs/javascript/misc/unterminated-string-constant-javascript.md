@@ -1,4 +1,5 @@
 ---
+description: "You did not end your string constant with a closing quotation mark."
 title: "Unterminated string constant (JavaScript) | Microsoft Docs"
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows

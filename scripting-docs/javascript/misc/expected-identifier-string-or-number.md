@@ -1,4 +1,5 @@
 ---
+description: "You used incorrect literal syntax to declare an object literal."
 title: "Expected identifier, string or number | Microsoft Docs"
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows

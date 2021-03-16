@@ -1,4 +1,5 @@
 ---
+description: "A script tried to access data from a source other than the host of the current page."
 title: "Access is denied | Microsoft Docs"
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows

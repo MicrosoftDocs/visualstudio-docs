@@ -1,4 +1,5 @@
 ---
+description: "You began a multi-line comment block, but did not properly terminate it."
 title: "Unterminated comment | Microsoft Docs"
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows
