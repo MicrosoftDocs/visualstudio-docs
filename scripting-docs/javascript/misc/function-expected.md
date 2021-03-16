@@ -1,4 +1,5 @@
 ---
+description: "Either you attempted to invoke one of the Function prototype methods on an object that was not a Function object, or you used an object in a function call context."
 title: "Function expected | Microsoft Docs"
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows

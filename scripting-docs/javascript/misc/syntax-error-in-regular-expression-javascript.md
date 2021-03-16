@@ -1,4 +1,5 @@
 ---
+description: "The structure of your search string violates one or more of the grammatical rules of a JavaScript regular expression."
 title: "Syntax error in regular expression (JavaScript) | Microsoft Docs"
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows

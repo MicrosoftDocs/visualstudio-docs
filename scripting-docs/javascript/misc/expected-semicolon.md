@@ -1,4 +1,5 @@
 ---
+description: "You attempted to place more than one statement on a line, but did not separate them with semicolons."
 title: "Expected ';' | Microsoft Docs"
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows

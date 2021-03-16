@@ -1,4 +1,5 @@
 ---
+description: "You attempted to use the default statement more than once within a switch statement."
 title: "'default' can only appear once in a 'switch' statement | Microsoft Docs"
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows

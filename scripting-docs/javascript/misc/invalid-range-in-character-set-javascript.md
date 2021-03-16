@@ -1,4 +1,5 @@
 ---
+description: "You attempted to create a regular expression with an invalid character set range."
 title: "Invalid range in character set (JavaScript) | Microsoft Docs"
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows
