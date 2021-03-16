@@ -1,5 +1,6 @@
 ---
 title: "The use of a keyword for an identifier is invalid | Microsoft Docs"
+description: "You cannot use a keyword as the name of a variable, function, or other user-defined identifier."
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows
 ms.technology: vs-javascript

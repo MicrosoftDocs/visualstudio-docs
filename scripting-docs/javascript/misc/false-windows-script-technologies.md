@@ -1,4 +1,5 @@
 ---
+description: "The False keyword has a value equal to 0."
 title: "False (Windows Script Technologies) | Microsoft Docs"
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows

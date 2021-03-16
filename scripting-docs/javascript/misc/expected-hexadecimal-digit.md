@@ -1,4 +1,5 @@
 ---
+description: "You created an incorrect Unicode escape sequence."
 title: "Expected hexadecimal digit | Microsoft Docs"
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows

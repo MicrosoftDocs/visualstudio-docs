@@ -1,4 +1,5 @@
 ---
+description: "You are calling the Array constructor with an argument that is not a whole number (whole numbers consist of zero plus the set of positive integers)."
 title: "Array length must be a finite positive integer | Microsoft Docs"
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows

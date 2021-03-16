@@ -1,4 +1,5 @@
 ---
+description: "You attempted to invoke the RegExp.prototype.toString or RegExp.prototype.valueOf method on an object of a type other than RegExp."
 title: "Regular expression object expected | Microsoft Docs"
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows

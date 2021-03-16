@@ -1,4 +1,5 @@
 ---
+description: "You used something other than an identifier in a context where one was required."
 title: "Expected identifier (JavaScript) | Microsoft Docs"
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows

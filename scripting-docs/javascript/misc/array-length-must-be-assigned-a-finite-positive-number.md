@@ -1,4 +1,5 @@
 ---
+description: "When setting the length property of an existing Array object, you specified an array length that was not a positive number or zero."
 title: "Array length must be assigned a finite positive number | Microsoft Docs"
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows

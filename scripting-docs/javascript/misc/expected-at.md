@@ -1,4 +1,5 @@
 ---
+description: "You attempted to create a variable to be used with conditional compilation statements using the @set statement, but did not place an at sign @ before the variable name."
 title: "Expected '@' | Microsoft Docs"
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows

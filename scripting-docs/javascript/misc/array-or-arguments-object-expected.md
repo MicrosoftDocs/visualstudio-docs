@@ -1,4 +1,5 @@
 ---
+description: "You did not supply an array as an argument."
 title: "Array or arguments object expected | Microsoft Docs"
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows

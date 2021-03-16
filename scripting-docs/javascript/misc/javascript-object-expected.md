@@ -1,4 +1,5 @@
 ---
+description: "You attempted to pass a non-JavaScript object to a built-in function that expects a JavaScript object."
 title: "JavaScript object expected | Microsoft Docs"
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows
