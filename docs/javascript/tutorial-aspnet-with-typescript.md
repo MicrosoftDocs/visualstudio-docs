@@ -242,7 +242,7 @@ In this tutorial, you begin with a simple project containing code for an ASP.NET
       showMsg: function (): void {
          let v: any = jQuery.fn.jquery.toString();
          let content: any = $("#ts-example-2")[0].innerHTML;
-         alert(content.toString());
+         alert(content.toString() + " " + v + "!!");
          $("#ts-example-2")[0].innerHTML = content + " " + v + "!!";
       }
    };
