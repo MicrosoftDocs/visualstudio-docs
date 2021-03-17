@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: 588480a3-8806-4ea5-9915-c25974770069
-ms.date: 02/09/2021
+ms.date: 03/17/2021
 ms.topic: how-to
 description:  Learn about the Windows Developer Account included with your Visual Studio subscription.
 ---
@@ -50,7 +50,7 @@ We recommend that you create a "private" browser window for this process.  For e
 ||
 
 <sup>1</sup>  *Includes:  Not for Resale (NFR), FTE, Visual Studio Industry Partner (VSIP), BizSpark, MCT Software & Services Developer, Most Valuable Professional (MVP), Regional Director (RD).
-Excludes:  Microsoft Partner Network (MPN), Imagine, MCT Software & Services.*
+Excludes:  Microsoft Partner Network (MPN), Imagine, MCT Software & Services, NFR Basic.*
 
 > [!NOTE]
 > Microsoft no longer offers Visual Studio Professional Annual subscriptions and Visual Studio Enterprise Annual subscriptions in Cloud Subscriptions. There will be no change to existing customers experience and ability to renew, increase, decrease, or cancel their subscriptions. New customers are encouraged to go to [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/) to explore different options to purchase Visual Studio.
@@ -60,7 +60,7 @@ Not sure which subscription you're using?  Connect to [https://my.visualstudio.c
 ## Support resources
 - Need help with using your Windows Developer account?  Check out the [support](https://developer.microsoft.com/windows/support) resources on the [Windows Dev Center](https://developer.microsoft.com/windows).
 - [Windows Development](/windows/)
-- For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/).
+- For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Visual Studio subscriptions support](https://my.visualstudio.com/gethelp).
 - Have a question about Visual Studio IDE, Azure DevOps Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).
 
 ## See also
