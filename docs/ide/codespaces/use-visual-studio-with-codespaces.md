@@ -15,6 +15,9 @@ monikerRange: vs-2019
 
 # How to use Visual Studio with a codespace (Preview)
 
+> [!Important] 
+> As of April 12th 2021, connecting to GitHub Codespaces from Visual Studio 2019 will no longer be supported and this private preview has concluded. We're focused on evolving experiences for a cloud-powered inner loop and VDI solutions optimized for a broad set of Visual Studio workloads. We encourage you to be involved in our [developer community forum](https://developercommunity.visualstudio.com/home) for Visual Studio for information on future previews and roadmap information. 
+
 Visual Studio has great support for developing in GitHub Codespaces. You can create and connect to a codespace and have the full power of Visual Studio to work on your projects on a remote, hosted environment. Even though your source code and tools are in a codespace and your compilation and debugging is happening in the cloud, your development experience will feel as fast and friction-free as if you were working locally. You can work with a codespace from within Visual Studio 2019 Preview ([sign up for the limited public beta](https://github.com/features/codespaces/signup-vs)).
 
 > [!NOTE]

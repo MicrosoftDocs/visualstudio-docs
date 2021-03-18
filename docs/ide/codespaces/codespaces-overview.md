@@ -15,6 +15,9 @@ monikerRange: vs-2019
 
 # What is GitHub Codespaces? (Preview)
 
+> [!Important] 
+> As of April 12th 2021, connecting to GitHub Codespaces from Visual Studio 2019 will no longer be supported and this private preview has concluded. We're focused on evolving experiences for a cloud-powered inner loop and VDI solutions optimized for a broad set of Visual Studio workloads. We encourage you to be involved in our [developer community forum](https://developercommunity.visualstudio.com/home) for Visual Studio for information on future previews and roadmap information. 
+
 Welcome to Codespaces! We're glad you're here.
 
 GitHub Codespaces provides you with a cloud-powered development environment for any activity, whether it's a long-term project, or a short-term task like reviewing a pull request. You can work with a codespace from within Visual Studio 2019 Preview ([sign up for the limited public beta](https://github.com/features/codespaces/signup-vs)).
