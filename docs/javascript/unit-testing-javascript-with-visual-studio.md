@@ -191,7 +191,7 @@ Test execution time: 1.5731 Seconds
 
    If you are using the example described in [Create an ASP.NET Core app with TypeScript](tutorial-aspnet-with-typescript.md), add the following code at the end of the *library.ts* file, which is in the *scripts* folder.
 
-   ```TypeScript
+   ```typescript
    function getData(value) {
       if (value > 1) {
          return true;
@@ -205,9 +205,11 @@ Test execution time: 1.5731 Seconds
 
 1. Add your unit tests to the *tests* folder in the project root.
 
-   For Mocha, you can use the following example code.
+   For example, you might use the following code by selecting the correct documentation tab that matches your test framework: we shows a simple example for Mocha and Jest. This code tests a function called `getData`.
 
-   ```TypeScript
+   # [Mocha](#tab/mocha)
+
+   ```typescript
    const getData = require('../wwwroot/js/library.js');
    var assert = require('assert');
     
@@ -222,9 +224,9 @@ Test execution time: 1.5731 Seconds
    })
    ```
 
-   For Jest, you can use the following example code.
+   # [Jest](#tab/jest)
 
-   ```TypeScript
+   ```typescript
    const getData = require('../wwwroot/js/library.js');
     
    test('should return true', () => {
