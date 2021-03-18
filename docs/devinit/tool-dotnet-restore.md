@@ -12,6 +12,9 @@ monikerRange: ">= vs-2019"
 ms.prod: visual-studio-windows
 ms.technology: devinit
 ---
+> [!IMPORTANT]
+> As of April 12th 2021, connecting to GitHub Codespaces from Visual Studio 2019 will no longer be supported and this private preview has concluded. We’re focused on evolving experiences for a cloud-powered inner loop and VDI solutions optimized for a broad set of Visual Studio workloads. As part of this `devinit` and associated tools will no longer be available. We encourage you to be involved in our developer community forum for Visual Studio for information on future previews and roadmap information.
+
 # dotnet-restore
 
 The `dotnet-restore` tool restore dependencies and project-specific tools that are specified in the project file. Read more about dotnet restore [here](/dotnet/core/tools/dotnet-restore).
