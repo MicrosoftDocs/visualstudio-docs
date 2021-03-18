@@ -189,6 +189,9 @@ Test execution time: 1.5731 Seconds
      "jest-editor-support": "28.1.0"
    ```
 
+   >[!NOTE]
+   > In some scenarios, Solution Explorer may not show the npm node due to a known issue described [here](https://github.com/aspnet/Tooling/issues/479). If you need to see the npm node, you can unload the project (right-click the project and choose **Unload Project**) and then reload the project to make the npm node re-appear.
+
 1. Add code to test.
 
    If you are using the example described in [Create an ASP.NET Core app with TypeScript](tutorial-aspnet-with-typescript.md), add the following code at the end of the *library.ts* file, which is in the *scripts* folder.
@@ -234,7 +237,7 @@ Test execution time: 1.5731 Seconds
 
 1. Open Test Explorer (choose **Test** > **Windows** > **Test Explorer**) and Visual Studio discovers and displays tests. If tests are not showing initially, then rebuild the project to refresh the list.
 
-   ![Test Explorer](../javascript/media/UnitTestsDiscoveryMocha.png)
+   ![Test Explorer test discovery](../javascript/media/unit-tests-aspnet-core-discovery.png)
 
    > [!NOTE]
    > For TypeScript, do not use the `outfile` option in *tsconfig.json*, because Test Explorer won't be able to find your unit tests. You can use the `outdir` option, but make sure that configuration files such as `package.json` and `tsconfig.json` are in the project root.
@@ -250,7 +253,7 @@ You can run the tests by clicking the **Run All** link in Test Explorer. Or, you
 
 For TypeScript, unit tests are run against the generated JavaScript code.
 
-![Test Explorer](../javascript/media/unit-tests-aspnet-core-run.png)
+![Test Explorer results](../javascript/media/unit-tests-aspnet-core-run.png)
 
 > [!NOTE]
 > In most TypeScript scenarios, you can debug a unit test by setting a breakpoint in TypeScript code, right-clicking a test in Test Explorer, and choosing **Debug**. In more complex scenarios, such as some scenarios that use source maps, you may have difficulty hitting breakpoints in TypeScript code. As a workaround, try using the `debugger` keyword.
