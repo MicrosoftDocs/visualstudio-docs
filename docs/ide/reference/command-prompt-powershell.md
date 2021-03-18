@@ -1,6 +1,6 @@
 ---
 title: Command-line shells for developers
-description: Learn how to find and use the Developer Command Prompt for Visual Studio, Developer PowerShell, and Visual Studio terminal, which let you use .NET and C++ tools more easily.
+description: Learn how to find and use the Visual Studio Developer Command Prompt, Visual Studio Developer PowerShell, and Visual Studio terminal, which let you use .NET and C++ tools more easily.
 ms.date: 03/04/2021
 ms.custom: contperf-fy21q3
 helpviewer_keywords:
@@ -16,8 +16,8 @@ no-loc: cmdlet
 
 Visual Studio 2019 includes two command-line shells for developers:
 
-- **Developer Command Prompt for Visual Studio** - A standard command prompt with certain environment variables set to make using command-line developer tools easier.
-- **Developer PowerShell** - More powerful than a command prompt. For example, you can pass the output of one command (known as a *cmdlet*) to another cmdlet. This shell has the same environment variables set as Developer Command Prompt.
+- **Visual Studio Developer Command Prompt** - A standard command prompt with certain environment variables set to make using command-line developer tools easier. Available since Visual Studio 2015.
+- **Visual Studio Developer PowerShell** - More powerful than a command prompt. For example, you can pass the output of one command (known as a *cmdlet*) to another cmdlet. This shell has the same environment variables set as Developer Command Prompt. Available since Visual Studio 2019.
 
 Both shells have specific environment variables set that enable you to use command-line developer tools more easily. After opening one of these shells, you can enter the commands for different utilities without having to know where they're located. The commands you can run include:
 
@@ -34,10 +34,6 @@ Starting in Visual Studio 2019 version 16.5, Visual Studio includes an integrate
 :::image type="content" source="media/developer-command-prompt-for-vs/vs-terminal.png" alt-text="Visual Studio terminal showing multiple tabs":::
 
 When you open one of the developer shells from Visual Studio, either as a separate app or in the Terminal window, it opens to the directory of your current solution (if you have a solution loaded). This behavior makes it convenient to run commands against the solution or its projects.
-
-## Prerequisites
-
-- [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019)
 
 ## Start the shell from inside Visual Studio
 
