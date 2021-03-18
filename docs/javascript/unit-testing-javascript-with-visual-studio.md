@@ -26,7 +26,7 @@ The supported frameworks are:
 * Export Runner (this framework is specific to Node.js Tools for Visual Studio)
 
 For ASP.NET Core and JavaScript or TypeScript, see [Write unit tests for ASP.NET Core
-](#write-unit-tests-for-asp.net-core).
+](#write-unit-tests-for-aspnet-core).
 
 If your favorite framework is not supported, see [Add support for a unit test framework](#addingFramework) for information on adding support.
 
@@ -141,7 +141,7 @@ Test execution time: 1.5731 Seconds
 
 1. Create an ASP.NET Core project and add TypeScript support.
 
-   For an example project, see [Create an ASP.NET Core app with TypeScript](tutorial-aspnet-with-typescript.md).
+   For an example project, see [Create an ASP.NET Core app with TypeScript](../javascript/tutorial-aspnet-with-typescript.md).
 
    Use the NuGet package to add TypeScript support instead of the npm TypeScript package.
 
@@ -166,7 +166,7 @@ Test execution time: 1.5731 Seconds
 
 1. In Solution Explorer, right-click the project node and choose **Reload Project**.
 
-1. Add npm support as described in the npm package management article under [ASP.NET Core projects](../javascript/npm-package-management?view=vs-2019#aspnet-core-projects).
+1. Add npm support as described in the npm package management article under [ASP.NET Core projects](../javascript/npm-package-management.md#aspnet-core-projects).
 
    This requires installing the Node.js runtime for npm support and adding *package.json* in the project root.
 
