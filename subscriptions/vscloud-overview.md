@@ -125,7 +125,7 @@ A:  Although they will not be able to buy another Cloud Annual subscription, the
 - [Visual Studio Subscriptions Admin portal](https://manage.visualstudio.com/)
 - [Visual Studio cloud subscription billing FAQ](vscloud-billing-faq.md)
 - [Visual Studio cloud subscription purchasing for CSPs](vscloud-csp.md)
-- - For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, see Visual Studio [Subscriptions support](https://aka.ms/vssubscriberhelp).
+- - For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, see Visual Studio [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/)
 
 ## See also
 - [Visual Studio documentation](/visualstudio/)
