@@ -1,7 +1,7 @@
 ---
 title: "Unit testing JavaScript and TypeScript"
 description: Visual Studio provides support unit testing JavaScript and TypeScript code using the Node.js Tools for Visual Studio
-ms.date: "07/06/2020"
+ms.date: "03/18/2021"
 ms.topic: "how-to"
 ms.devlang: javascript
 author: "mikejo5000"
@@ -15,8 +15,8 @@ ms.workload:
 
 # Unit testing JavaScript and TypeScript in Visual Studio
 
-The Node.js Tools For Visual Studio allow you to write and run unit tests using some of the more popular
-JavaScript frameworks without the need to switch to a command prompt.
+You can write and run unit tests in Visual Studio using some of the more popular
+JavaScript frameworks without the need to switch to a command prompt. Both Node.js and ASP.NET Core projects are supported.
 
 The supported frameworks are:
 * Mocha ([mochajs.org](https://mochajs.org/))
@@ -25,9 +25,12 @@ The supported frameworks are:
 * Jest ([jestjs.io](https://jestjs.io/))
 * Export Runner (this framework is specific to Node.js Tools for Visual Studio)
 
+For ASP.NET Core and JavaScript or TypeScript, see [Write unit tests for ASP.NET Core
+](#write-unit-tests-for-asp.net-core).
+
 If your favorite framework is not supported, see [Add support for a unit test framework](#addingFramework) for information on adding support.
 
-## Write unit tests
+## Write unit tests in a Node.js project
 
 Before adding unit tests to your project, make sure the framework you plan to use is installed locally in your project. This is easy to do using the [npm package installation window](npm-package-management.md#npmInstallWindow).
 
@@ -74,7 +77,7 @@ After opening Test Explorer (choose **Test** > **Windows** > **Test Explorer**),
 > [!NOTE]
 > For TypeScript, do not use the `outdir` or `outfile` option in *tsconfig.json*, because Test Explorer won't be able to find your unit tests.
 
-## Run tests
+## Run tests (Node.js)
 
 You can run tests in Visual Studio or from the command line.
 
@@ -134,6 +137,101 @@ Test execution time: 1.5731 Seconds
 > [!NOTE]
 > If you get an error indicating that *vstest.console.exe* cannot be found, make sure you've opened the Developer Command Prompt and not a regular command prompt.
 
+## Write unit tests for ASP.NET Core
+
+1. Create an ASP.NET Core project and add TypeScript support.
+
+   For an example project, see [Create an ASP.NET Core app with TypeScript](tutorial-aspnet-with-typescript.md).
+
+   Use the NuGet package to add TypeScript support instead of the npm TypeScript package.
+
+1. In Solution Explorer, right-click the project node and choose **Unload Project**.
+
+   The *.csproj* file should open in Visual Studio.
+
+1. Add the following elements to the *.csproj* file in the `PropertyGroup` element.
+
+   This example specifies Mocha as the test framework. You could specify Jest, Tape, or Jasmine instead.
+
+   ```xml
+   <PropertyGroup>
+      ...
+      <JavaScriptTestRoot>tests\</JavaScriptTestRoot>
+      <JavaScriptTestFramework>Mocha</JavaScriptTestFramework>
+      <GenerateProgramFile>false</GenerateProgramFile>
+   </PropertyGroup>
+   ```
+
+   The `JavaScriptTestRoot` element specifies that your unit tests will be in the *tests* folder of the project root.
+
+1. In Solution Explorer, right-click the project node and choose **Reload Project**.
+
+1. Add npm support as described in the npm package management article under [ASP.NET Core projects](../javascript/npm-package-management?view=vs-2019#aspnet-core-projects).
+
+   This requires installing the Node.js runtime for npm support and adding *package.json* in the project root.
+
+1. In *package.json*, add the npm package you want under dependencies.
+
+   For example, for mocha, you might use the following:
+
+   ```json
+   "dependencies": {
+     "mocha": "8.3.0",
+   ```
+
+   Some unit testing frameworks, such as Jest, require additional npm packages. For Jest, use the following JSON:
+
+   ```json
+   "dependencies": {
+     "jest": "26.6.3",
+     "jest-editor-support": "28.1.0"
+   ```
+
+1. Add code to test.
+
+   If you are using the example described in [Create an ASP.NET Core app with TypeScript](tutorial-aspnet-with-typescript.md), add the following code at the end of the *library.ts* file, which is in the *scripts* folder.
+
+   ```TypeScript
+   function getData(value) {
+      if (value > 1) {
+         return true;
+      }
+   }
+    
+   module.exports = getData;
+   ```
+
+   For TypeScript, unit tests are run against the generated JavaScript code.
+
+1. Add your unit tests to the *tests* folder in the project root.
+
+   For Mocha, you can use the following example code.
+
+   ```TypeScript
+   const getData = require('../wwwroot/js/library.js');
+   var assert = require('assert');
+    
+   describe('Test Suite 1', function () {
+      it('getData', function () {
+         assert.ok(true, getData(2));
+      })
+    
+      it('Math', function () {
+         assert.equal(9, 3 * 3);
+      })
+   })
+   ```
+
+   For Jest, you can use the following example code.
+
+   ```TypeScript
+   const getData = require('../wwwroot/js/library.js');
+    
+   test('should return true', () => {
+      expect(getData(2)).toBe(true);
+   });
+   ```
+
 ## <a name="addingFramework"></a>Add support for a unit test framework
 
 You can add support for additional test frameworks by implementing the discovery and execution logic using JavaScript. You do this by adding a folder with the name of the test framework under:
@@ -154,7 +252,7 @@ Discovery of available test frameworks occurs at Visual Studio start. If a frame
 Visual Studio is running, restart Visual Studio to detect the framework. However you don't need to restart
 when making changes to the implementation.
 
-## Unit tests in other project types
+## Unit tests in .NET Framework
 
 You are not limited to writing unit tests in just your Node.js projects. When you add the TestFramework and
 TestRoot properties to any C# or Visual Basic project, those tests will be enumerated and you can run them using
@@ -178,7 +276,7 @@ Test Explorer window. If they don't initially appear, you may need to rebuild th
 
 ### Unit test .NET Core and .NET Standard
 
-In addition to the properties above, you will also need to install the NuGet package [Microsoft.JavaScript.UnitTest](https://www.nuget.org/packages/Microsoft.JavaScript.UnitTest/) and set the property:
+In addition to the preceding properties, you also need to install the NuGet package [Microsoft.JavaScript.UnitTest](https://www.nuget.org/packages/Microsoft.JavaScript.UnitTest/) and set the property:
 
 ```xml
 <PropertyGroup>
