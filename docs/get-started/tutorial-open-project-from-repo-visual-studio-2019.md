@@ -2,7 +2,7 @@
 title: "Tutorial: Open a project from a repo in Visual Studio 2019"
 description: "Learn how to open a project in a Git or Azure DevOps repository by using Visual Studio 2019."
 ms.custom: "get-started"
-ms.date: 02/11/2021
+ms.date: 03/18/2021
 ms.technology: vs-ide-general
 ms.prod: visual-studio-windows
 ms.topic: tutorial
@@ -47,6 +47,9 @@ But no matter which version you've installed, you can always open a project from
    ![Screenshot of the Git User Information dialog where you enter or edit your account info in Visual Studio 2019 version 16.8 and later](../ide/media/vs-2019/git-user-information-dialog.png)
 
     Select **Save** to add the info to your global .gitconfig file. (Or, you can choose to do this later by selecting **Cancel**.)
+
+    > [!TIP]
+    > For more information about signing in to Visual Studio, see the [Sign in to Visual Studio](../ide/signing-in-to-visual-studio.md) page. And for specific information about how to use your GitHub account to sign in, see the [Work with GitHub accounts in Visual Studio](../ide/work-with-github-accounts.md) page.
 
     Next, Visual Studio automatically loads and opens the solution from the repository.
 
@@ -201,5 +204,6 @@ If you're ready to code with Visual Studio, dive into any of the following langu
 
 - [Open a project from a repo in Visual Studio 2017](tutorial-open-project-from-repo-visual-studio-2017.md)
 - [New Git experience in Visual Studio 2019](../ide/git-with-visual-studio.md)
+- [Compare Git and Team Explorer side-by-side](../ide/git-team-explorer-feature-comparison.md)
 - [Azure DevOps Services: Get started with Azure Repos and Visual Studio](/azure/devops/repos/git/gitquickstart/)
 - [Microsoft Learn: Get started with Azure DevOps](/learn/modules/get-started-with-devops/)
