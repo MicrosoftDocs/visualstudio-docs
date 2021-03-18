@@ -141,7 +141,7 @@ Test execution time: 1.5731 Seconds
 
 1. Create an ASP.NET Core project and add TypeScript support.
 
-   For an example project, see [Create an ASP.NET Core app with TypeScript](../javascript/tutorial-aspnet-with-typescript.md).
+   For an example project, see [Create an ASP.NET Core app with TypeScript](../javascript/tutorial-aspnet-with-typescript.md). For unit testing support, we recommend you start with a standard ASP.NET Core project template.
 
    Use the NuGet package to add TypeScript support instead of the npm TypeScript package.
 
