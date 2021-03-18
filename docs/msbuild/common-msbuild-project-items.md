@@ -22,11 +22,9 @@ ms.workload:
 
 In MSBuild, an item is a named reference to one or more files. Items contain metadata such as file names, paths, and version numbers. All project types in Visual Studio have several items in common. These items are defined in the file *Microsoft.Build.CommonTypes.xsd*.
 
-## Common items
+This article lists all the common project items.
 
-The following is a list of all the common project items.
-
-### Reference
+## Reference
 
 Represents an assembly (managed) reference in the project.
 
@@ -39,7 +37,7 @@ Represents an assembly (managed) reference in the project.
 |Aliases|Optional string. Any aliases for the reference.|
 |Private|Optional boolean. Specifies whether the reference should be copied to the output folder. This attribute matches the **Copy Local** property of the reference that's in the Visual Studio IDE.|
 
-### COMReference
+## COMReference
 
 Represents a COM (unmanaged) component reference in the project. This item applies only to .NET projects.
 
@@ -53,7 +51,7 @@ Represents a COM (unmanaged) component reference in the project. This item appli
 |WrapperTool|Optional string. The name of the wrapper tool that is used on the component, for example, "tlbimp."|
 |Isolated|Optional boolean. Specifies whether the component is a reg-free component.|
 
-### COMFileReference
+## COMFileReference
 
 Represents a list of type libraries that are passed to the `TypeLibFiles` parameter of the [ResolveComReference](resolvecomreference-task.md) target. This item applies only to .NET projects.
 
@@ -61,7 +59,7 @@ Represents a list of type libraries that are passed to the `TypeLibFiles` parame
 |---------------|-----------------|
 |WrapperTool|Optional string. The name of the wrapper tool that is used on the component, for example, "tlbimp."|
 
-### NativeReference
+## NativeReference
 
 Represents a native manifest file or a reference to such a file.
 
@@ -70,7 +68,7 @@ Represents a native manifest file or a reference to such a file.
 |Name|Required string. The base name of the manifest file.|
 |HintPath|Required string. The relative path of the manifest file.|
 
-### ProjectReference
+## ProjectReference
 
 Represents a reference to another project. `ProjectReference` items are transformed into [Reference](#reference) items by the `ResolveProjectReferences` target, so any valid metadata on a Reference may be valid on `ProjectReference`, if the transformation process doesn't overwrite it.
 
@@ -87,7 +85,7 @@ Represents a reference to another project. `ProjectReference` items are transfor
 |SkipGetTargetFrameworkProperties|Optional boolean. If `true`, builds the referenced project without negotiating the most compatible `TargetFramework` value. Defaults to `false`.|
 |Targets|Optional `string[]`. Semicolon separated list of targets in the referenced projects that should be built. Default is the value of `$(ProjectReferenceBuildTargets)` which defaults to empty, indicating the default targets.|
 
-### Compile
+## Compile
 
 Represents the source files for the compiler.
 
@@ -99,7 +97,7 @@ Represents the source files for the compiler.
 | Visible | Optional boolean. Indicates whether to display the file in **Solution Explorer** in Visual Studio. |
 | CopyToOutputDirectory | Optional string. Determines whether to copy the file to the output directory. Values are:<br /><br /> 1.  Never<br />2.  Always<br />3.  PreserveNewest |
 
-### EmbeddedResource
+## EmbeddedResource
 
 Represents resources to be embedded in the generated assembly.
 
@@ -114,7 +112,7 @@ Represents resources to be embedded in the generated assembly.
 | CopyToOutputDirectory | Optional string. Determines whether to copy the file to the output directory. Values are:<br /><br /> 1.  Never<br />2.  Always<br />3.  PreserveNewest |
 | LogicalName | Required string. The logical name of the embedded resource. |
 
-### Content
+## Content
 
 Represents files that are not compiled into the project, but may be embedded or published together with it.
 
@@ -130,7 +128,7 @@ Represents files that are not compiled into the project, but may be embedded or 
 | Visible | Optional boolean. Indicates whether to display the file in **Solution Explorer** in Visual Studio. |
 | CopyToOutputDirectory | Optional string. Determines whether to copy the file to the output directory. Values are:<br /><br /> 1.  Never<br />2.  Always<br />3.  PreserveNewest |
 
-### None
+## None
 
 Represents files that should have no role in the build process.
 
@@ -144,7 +142,7 @@ Represents files that should have no role in the build process.
 | Visible | Optional boolean. Indicates whether to display the file in **Solution Explorer** in Visual Studio. |
 | CopyToOutputDirectory | Optional string. Determines whether to copy the file to the output directory. Values are:<br /><br /> 1.  Never<br />2.  Always<br />3.  PreserveNewest |
 
-### AssemblyMetadata
+## AssemblyMetadata
 
 Represents assembly attributes to be generated as `[AssemblyMetadata(key, value)]`.
 
@@ -156,7 +154,7 @@ Represents assembly attributes to be generated as `[AssemblyMetadata(key, value)
 > [!NOTE]
 > This item applies to projects using the SDK for .NET 5 (and .NET Core) and later versions.
 
-### InternalsVisibleTo
+## InternalsVisibleTo
 
 Specifies assemblies to be emitted as `[InternalsVisibleTo(..)]` assembly attributes.
 
@@ -168,15 +166,15 @@ Specifies assemblies to be emitted as `[InternalsVisibleTo(..)]` assembly attrib
 > [!NOTE]
 > This item applies to projects using the SDK for .NET 5 (and .NET Core) and later versions.
 
-### BaseApplicationManifest
+## BaseApplicationManifest
 
 Represents the base application manifest for the build, and contains ClickOnce deployment security information.
 
-### CodeAnalysisImport
+## CodeAnalysisImport
 
 Represents the FxCop project to import.
 
-### Import
+## Import
 
 Represents assemblies whose namespaces should be imported by the Visual Basic compiler.
 
