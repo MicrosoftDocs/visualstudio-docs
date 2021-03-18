@@ -145,6 +145,8 @@ Test execution time: 1.5731 Seconds
 
    Use the NuGet package to add TypeScript support instead of the npm TypeScript package.
 
+1. Install the NuGet package [Microsoft.JavaScript.UnitTest](https://www.nuget.org/packages/Microsoft.JavaScript.UnitTest/)
+
 1. In Solution Explorer, right-click the project node and choose **Unload Project**.
 
    The *.csproj* file should open in Visual Studio.
@@ -205,7 +207,7 @@ Test execution time: 1.5731 Seconds
 
 1. Add your unit tests to the *tests* folder in the project root.
 
-   For example, you might use the following code by selecting the correct documentation tab that matches your test framework: we shows a simple example for Mocha and Jest. This code tests a function called `getData`.
+   For example, you might use the following code by selecting the correct documentation tab that matches your test framework, in this example either Mocha or Jest. This code tests a function called `getData`.
 
    # [Mocha](#tab/mocha)
 
@@ -216,10 +218,6 @@ Test execution time: 1.5731 Seconds
    describe('Test Suite 1', function () {
       it('getData', function () {
          assert.ok(true, getData(2));
-      })
-    
-      it('Math', function () {
-         assert.equal(9, 3 * 3);
       })
    })
    ```
@@ -233,6 +231,32 @@ Test execution time: 1.5731 Seconds
       expect(getData(2)).toBe(true);
    });
    ```
+
+1. Open Test Explorer (choose **Test** > **Windows** > **Test Explorer**) and Visual Studio discovers and displays tests. If tests are not showing initially, then rebuild the project to refresh the list.
+
+   ![Test Explorer](../javascript/media/UnitTestsDiscoveryMocha.png)
+
+   > [!NOTE]
+   > For TypeScript, do not use the `outfile` option in *tsconfig.json*, because Test Explorer won't be able to find your unit tests. You can use the `outdir` option, but make sure that configuration files such as `package.json` and `tsconfig.json` are in the project root.
+
+## Run tests (ASP.NET Core)
+
+::: moniker range=">=vs-2019"
+You can run the tests by clicking the **Run All** link in Test Explorer. Or, you can run tests by selecting one or more tests or groups, right-clicking, and selecting **Run** from the shortcut menu. Tests run in the background, and Test Explorer automatically updates and shows the results. Furthermore, you can also debug selected tests by right-clicking and selecting **Debug**.
+::: moniker-end
+::: moniker range="vs-2017"
+You can run the tests by clicking the **Run All** link in Test Explorer. Or, you can run tests by selecting one or more tests or groups, right-clicking, and selecting **Run Selected Tests** from the shortcut menu. Tests run in the background, and Test Explorer automatically updates and shows the results. Furthermore, you can also debug selected tests by selecting **Debug Selected Tests**.
+::: moniker-end
+
+For TypeScript, unit tests are run against the generated JavaScript code.
+
+![Test Explorer](../javascript/media/unit-tests-aspnet-core-run.png)
+
+> [!NOTE]
+> In most TypeScript scenarios, you can debug a unit test by setting a breakpoint in TypeScript code, right-clicking a test in Test Explorer, and choosing **Debug**. In more complex scenarios, such as some scenarios that use source maps, you may have difficulty hitting breakpoints in TypeScript code. As a workaround, try using the `debugger` keyword.
+
+> [!NOTE]
+> We don't currently support profiling tests, or code coverage.
 
 ## <a name="addingFramework"></a>Add support for a unit test framework
 
