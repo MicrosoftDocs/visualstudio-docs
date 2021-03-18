@@ -23,8 +23,8 @@ ms.workload:
 
 Contains a user-defined item and its metadata. Every item that is used in an MSBuild project must be specified as a child of an `ItemGroup` element.
 
-\<Project>
-&nbsp;\<ItemGroup>
+\<Project>\
+&nbsp;\<ItemGroup>\
 &nbsp;&nbsp;\<Item>
 
 ## Syntax
