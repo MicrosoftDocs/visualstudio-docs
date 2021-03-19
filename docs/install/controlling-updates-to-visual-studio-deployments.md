@@ -70,6 +70,8 @@ When an enterprise administrator determines it is time for their users to update
 
    New installs automatically install the updated version of Visual Studio directly from the layout.
 
+If an enterprise administrator would like to push updates to their client machines using enterprise tools like the Microsoft Update Catalog, Windows Server Update Services, & System Center Configuration Manager, see [Updates using Microsoft Update Catalog](http://TODOLink). 
+
 ## Controlling notifications in the Visual Studio IDE
 
 ::: moniker range="vs-2017"
@@ -124,3 +126,4 @@ vsregedit.exe set "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterpris
 * [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md)
 * [Tools for managing Visual Studio instances](tools-for-managing-visual-studio-instances.md)
 * [Visual Studio product lifecycle and servicing](/visualstudio/releases/2019/servicing/)
+* [Updates using Microsoft Update Catalog](http://TODOLink)

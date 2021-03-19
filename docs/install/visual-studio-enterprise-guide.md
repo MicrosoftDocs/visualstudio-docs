@@ -59,8 +59,11 @@ Learn how to update Visual Studio successfully and fix update issues.
 
 - **Follow [Windows security baselines](/windows/security/threat-protection/windows-security-baselines)**. Microsoft is dedicated to providing its customers with secure operating systems, such as Windows 10 and Windows Server, and secure apps, such as Microsoft Edge. In addition to the security assurance of its products, Microsoft also enables you to have fine control over your environments by providing various configuration capabilities. 
 
+- **[Update Visual Studio using enterprise deployment tools like the Microsoft Update Catalog, Windows Server Update Services & SCCM](http://TODOLink). For IT Admins who want to manage deployments across their organization, Security Updates, Quality Updates and Feature Updates are available. 
+
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
 ## See also 
 
 - [Productivity guide for Visual Studio](../ide/productivity-features.md)
+- [Update Visual Studio using enterprise deployment tools like the Microsoft Update Catalog, Windows Server Update Services & SCCM](http://TODOLink).

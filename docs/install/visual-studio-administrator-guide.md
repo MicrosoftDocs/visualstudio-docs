@@ -52,6 +52,8 @@ Before you deploy Visual Studio across your organization, there are a few decisi
 
 * Decide if you want to enable Group Policy, and if you want to configure Visual Studio to disable customer feedback on individual computers.
 
+* For organizations which utilize enterprise deployment tools and utilize the Microsoft Update Catalog and/or Windows Server Update Services, decide if you will take advantage of Visual Studio Security Updates, Quality Updates and/or Feature Updates available to such tools. For more information see [Updates using Microsoft Update Catalog](http://TODOLink). 
+
 ::: moniker-end
 
 ::: moniker range="vs-2017"
@@ -112,6 +114,8 @@ Before you deploy Visual Studio across your organization, there are a few decisi
 * [Refresh your network location with the latest updates](update-a-network-installation-of-visual-studio.md?view=vs-2019&preserve-view=true) to Visual Studio by running the command you used in step 1 on a regular basis to add updated components.
 
   You can update Visual Studio by using an update script. To do so, use the [`update`](use-command-line-parameters-to-install-visual-studio.md?view=vs-2019&preserve-view=true) command-line parameter.
+
+  If you wish to utilize updates from the Microsoft Update Catalog deployable via Windows Server Update Services with tools like System Center Configuration Manager, see [Updates using Microsoft Update Catalog](http://TODOLink). 
 
 ## Step 5 - (Optional) Use Visual Studio tools
 
@@ -184,3 +188,4 @@ The registry is located in the *Software\Microsoft\VisualStudio\15.0_{InstanceId
 * [Visual Studio Setup Archives](https://devblogs.microsoft.com/setup/tag/vs2017/)
 * [Visual Studio product lifecycle and servicing](/visualstudio/releases/2019/servicing/)
 * [Synchronous autoload settings](../extensibility/synchronously-autoloaded-extensions.md)
+* [Updates using Microsoft Update Catalog](http://TODOLink)

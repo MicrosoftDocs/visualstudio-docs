@@ -281,6 +281,10 @@ Here's how:
 
 ::: moniker-end
 
+## Administrative Updates 
+
+If you are part of an organization with centralized enterprise management of your computer, your enterprise administrator may update your machine for you. [Updates using Microsoft Update Catalog](http://TODOLink) can be controlled with configuration settings allowing your computer to accept or refuse these types of updates.  
+
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
 ## See also
@@ -291,3 +295,4 @@ Here's how:
 * [Control updates to network-based Visual Studio deployments](controlling-updates-to-visual-studio-deployments.md)
 * [Modify Visual Studio](modify-visual-studio.md)
 * [Uninstall Visual Studio](uninstall-visual-studio.md)
+* [Updates using Microsoft Update Catalog](http://TODOLink)

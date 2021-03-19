@@ -31,6 +31,8 @@ We have made several tools available that will help you detect and manage instal
 
 In addition, the [Setup Configuration API](<xref:Microsoft.VisualStudio.Setup.Configuration>) provides interfaces for developers who want to build their own utilities for interrogating Visual Studio instances.
 
+Starting in Visual Studio 2019 version 16.6 and added on servicing baselines in 15.9.23, 16.0.14, and 16.4.8, Visual Studio instance information can be queried through the Visual Studio class MSFT_VSInstance using [Windows Management Instrumentation (WMI)](https://docs.microsoft.com/en-us/windows/win32/wmisdk/wmi-start-page).
+
 ## Using vswhere.exe
 
 `vswhere.exe` is automatically included in Visual Studio (starting with Visual Studio 2017 version 15.2 and later versions), or you can download it from [the vswhere releases page](https://github.com/Microsoft/vswhere/releases). Use `vswhere -?` to get help information about the tool. As an example, this command shows all releases of Visual Studio, including earlier versions of the product and prereleases, and outputs the results in JSON format:
@@ -38,6 +40,14 @@ In addition, the [Setup Configuration API](<xref:Microsoft.VisualStudio.Setup.Co
 ```cmd
 C:\Program Files (x86)\Microsoft Visual Studio\Installer> vswhere.exe -legacy -prerelease -format json
 ```
+
+## Detecting Visual Studio through Microsoft Endpoint Configuration Manager 
+
+ To collect software inventory information on Visual Studio instances, Microsoft Endpoint Configuration Manager’s [software inventory](https://docs.microsoft.com/en-us/mem/configmgr/core/clients/manage/inventory/introduction-to-software-inventory) can be used to query devices. As an example, this query will return the display name, version and the device name that Visual Studio is installed on for all installed Visual Studio 2017 and 2019 instances: 
+
+```WQL 
+select distinct SMS_G_System_COMPUTER_SYSTEM.Name, SMS_G_System_ADD_REMOVE_PROGRAMS.DisplayName, SMS_G_System_ADD_REMOVE_PROGRAMS.Version from SMS_R_System inner join SMS_G_System_COMPUTER_SYSTEM on SMS_G_System_COMPUTER_SYSTEM.ResourceID = SMS_R_System.ResourceId inner join SMS_G_System_ADD_REMOVE_PROGRAMS on SMS_G_System_ADD_REMOVE_PROGRAMS.ResourceID = SMS_R_System.ResourceId where SMS_G_System_ADD_REMOVE_PROGRAMS.DisplayName like "Visual Studio %[a-z]% 201[7,9]" 
+``` 
 
 ::: moniker range="vs-2017"
 
