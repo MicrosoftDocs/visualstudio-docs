@@ -39,6 +39,9 @@ A:  There are two ways to prevent the issue:
 - Deploy a single identity management system -- either MSA or AAD -- but not both.  
 - Associate the AAD and MSA identities via the tenant. 
 
+## Support resources
+- For assistance with sales, subscriptions, accounts, and billing for Visual Studio Subscriptions, see Visual Studio [Subscriptions support](https://aka.ms/vssubscriberhelp).
+
 ## See also
 - [Visual Studio documentation](/visualstudio/)
 - [Azure DevOps documentation](/azure/devops/)
