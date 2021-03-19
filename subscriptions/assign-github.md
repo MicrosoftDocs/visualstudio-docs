@@ -63,23 +63,20 @@ Since this process is more complex, it may take several days after subscriptions
 GitHub is available as either the cloud-based GitHub.com, or on-premise GitHub Enterprise Server.  The processes for managing the two versions differ.  GitHub provides various help topics and admin guides to help you manage GitHub Enterprise subscriptions.  We've provided links to selected topics below.  
 
 ## Support resources
-
 - Learn more about GitHub assignment at [GitHub Docs](https://docs.github.com/en/github/setting-up-and-managing-your-enterprise-account/managing-licenses-for-the-github-enterprise-and-visual-studio-bundle)
 - Find answers to questions on a wide array of GitHub topics at [GitHub Help](https://help.github.com/en).
 - Get help from other GitHub users in the [GitHub Community Forum](https://github.community/).
-- For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/).
+- For assistance with administration of Visual Studio Subscriptions, contact [Visual Studio subscriptions support](https://aka.ms/vsadminhelp).
 - Have a question about Visual Studio IDE, Azure DevOps Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).
 - Get [technical support](https://support.microsoft.com/supportforbusiness/productselection?sapId=b77fe80f-5417-80bd-4b2a-275cf0018c24) for GitHub Enterprise.   
 
 ## See also
-
 - [Visual Studio documentation](/visualstudio/)
 - [Azure DevOps documentation](/azure/devops/)
 - [Azure documentation](/azure/)
 - [Microsoft 365 documentation](/microsoft-365/)
 
 ## Next steps
-
 Learn more about managing Visual Studio subscriptions.
 - [Assign individual subscriptions](assign-license.md)
 - [Assign multiple subscriptions](assign-license-bulk.md)
