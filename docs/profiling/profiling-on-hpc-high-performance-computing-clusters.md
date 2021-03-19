@@ -46,7 +46,7 @@ To profile on a HPC compute node, you must do the following:
 
     3. `clusrun /all /scheduler:` *%HeadNode% %ProfilerPath%* `/q /norestart`
 
-| | |
+|Parameter | Value |
 |------------------| - |
 | *%HeadNode%* | Name of the head node for the cluster. |
 | *%FxPath%* | Path to the .NET Framework 4 installer. On the Visual Studio installation media the path is: WCU\dotNetFramework\dotNetFx40_Full_x86_x64.exe |
