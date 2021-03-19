@@ -14,6 +14,9 @@ ms.technology: devinit
 ---
 # require-nodejs
 
+> [!IMPORTANT]
+> As of April 12th 2021, connecting to GitHub Codespaces from Visual Studio 2019 will no longer be supported and this private preview has concluded. We’re focused on evolving experiences for a cloud-powered inner loop and VDI solutions optimized for a broad set of Visual Studio workloads. As part of this `devinit` and associated tools will no longer be available. We encourage you to be involved in our developer community forum for Visual Studio for information on future previews and roadmap information.
+
 The `require-nodejs` tool is used to install the [Node.js](https://nodejs.org/) via an MSI distributed by the Node.js organization.
 
 ## Usage
