@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: 2249b32a-46d7-4e29-b543-4769c71ceda6
-ms.date: 10/22/2020
+ms.date: 03/19/2021
 ms.topic: conceptual
 description: Learn about accessing GitHub Enterprise as part of Visual Studio subscriptions
 ---
@@ -80,7 +80,7 @@ A:  Along with GitHub Enterprise, you receive all of the benefits of a standard 
 - Find answers to questions on a wide array of GitHub topics at [GitHub Help](https://help.github.com).
 - Need more help?  Contact [GitHub Support](https://support.github.com/)
 - Get help from other GitHub users in the [GitHub Community Forum](https://github.community/).
-- For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, please visit our [Get Help](https://my.visualstudio.com/GetHelp) page.
+- For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, please visit our [Get Help](https://aka.ms/vssubscriberhelp) page.
 - Have a question about Visual Studio IDE, Azure DevOps Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).
 - Get [technical support](https://support.microsoft.com/en-us/supportforbusiness/productselection?sapId=b77fe80f-5417-80bd-4b2a-275cf0018c24) for GitHub Enterprise.   
 

@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: 0a02232c-437f-4c48-85c1-93ca7887236b
-ms.date: 10/26/2020
+ms.date: 03/19/2021
 ms.topic: how-to
 description:  Learn about what benefits are included in subscriptions, and how to activate them.
 ---
