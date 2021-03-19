@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: 0a02232c-437f-4c48-85c1-93ca7887236b
-ms.date: 10/26/2020
+ms.date: 03/19/2021
 ms.topic: how-to
 description:  Learn about what benefits are included in subscriptions, and how to activate them.
 ---
@@ -38,6 +38,9 @@ For more information about individual benefits, check out the corresponding arti
 
 ## Benefits that become temporarily unavailable
 While it's rare, sometimes technical issues can make a benefit unavailable for a short time. In those cases, we'll change the benefit tile in the [Visual Studio Subscriptions portal](https://my.visualstudio.com/benefits) to indicate the benefit is "Temporarily Unavailable" until the issue is resolved, at which time we'll restore the tile and the benefit will again be available.
+
+## Support resources
+- For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact [Visual Studio subscriptions support](https://aka.ms/vssubscriberhelp).
 
 ## See also
 - [Visual Studio documentation](/visualstudio/)
