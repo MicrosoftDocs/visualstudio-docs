@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: b26b31dc-1eeb-4871-9ce6-2c980e703f1e
-ms.date: 03/11/2021
+ms.date: 03/19/2021
 ms.topic: conceptual
 description:  Learn about responsibilities of subscriptions admins.
 ---
@@ -35,7 +35,7 @@ Visual Studio subscriptions allow developers to install and use software to desi
 - [Azure DevOps documentation](/azure/devops/)
 - [Azure documentation](/azure/)
 - [Microsoft 365 documentation](/microsoft-365/)
-- [Visual Studio administration and subscriptions support](https://my.visualstudio.com/gethelp)
+- [Visual Studio administration and subscriptions support](https://aka.ms/vsadminhelp)
 
 ## Next steps
 Learn more about responsibilities for admins:
