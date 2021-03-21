@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: 196c6d04-9a33-47d5-b0f1-038e7c3a7ac9
-ms.date: 03/09/2020
+ms.date: 03/21/2021
 ms.topic: conceptual
 description: Learn how to get the most out of your Visual Studio subscriptions
 ---
@@ -106,6 +106,9 @@ A: Depending on the purchasing channel, Microsoft maintains customer data for di
 > [!NOTE]
 > - If you choose to close your Microsoft Account or Azure AD, your personal data will be anonymized immediately.
 > - We will not fully remove all your personal data if you have active subscriptions.
+
+## Support resources
+- For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact [Visual Studio subscriptions support](https://aka.ms/vssubscriberhelp).
 
 ## See also
 - [Visual Studio documentation](/visualstudio/)
