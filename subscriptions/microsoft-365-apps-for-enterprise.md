@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: d1257931-392a-4a65-bf26-177737505122
-ms.date: 06/24/2020
+ms.date: 03/21/2021
 ms.topic: how-to
 description:  Learn about and install Microsoft 365 apps for enterprise
 ---
@@ -69,7 +69,7 @@ Not sure which subscription you're using?  Connect to [https://my.visualstudio.c
 
 ## Support resources
 - For technical support with any component of Microsoft 365 apps for enterprise, please visit https://support.microsoft.com/allproducts and select the product.
-- For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/).
+- For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://aka.ms/vssubscriberhelp).
 - Have a question about Visual Studio IDE, Azure DevOps or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).
 
 ## See also
