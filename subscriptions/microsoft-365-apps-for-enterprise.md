@@ -29,7 +29,7 @@ The process for activating your Microsoft 365 apps for enterprise subscription i
    > [!div class="mx-imgBorder"]
    > ![Microsoft 365 apps for enterprise customer information](_img/microsoft-365-apps-for-enterprise/get-to-know-you.png "Enter your contact information")
 
-1. In the "Create your user ID" dialog, create your username and password for your tenant, then select **Create my acccount**.
+1. In the "Create your user ID" dialog, create your username and password for your tenant, then select **Create my account**.
    > [!div class="mx-imgBorder"]
    > ![Microsoft 365 apps for enterprise user ID creation](_img/microsoft-365-apps-for-enterprise/create-your-user-id.png "Create your user ID and password")
 
