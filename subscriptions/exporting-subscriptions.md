@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: 14e4cffb-a695-436c-b269-7820f7411f4e
-ms.date: 02/18/2021
+ms.date: 03/21/2021
 ms.topic: conceptual
 description:  Learn how to export a list of subscribers and details of their subscription assignments.
 ---
@@ -28,7 +28,7 @@ To perform the export:
 > ![Export subscribers](_img/exporting-subscriptions/exporting-subscriptions.png "Click Export to download a complete list of your assigned subscriptions.")
 
 ## Resources
-- [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/)
+- [Subscriptions Support](https://aka.ms/vsadminhelp)
 
 ## See also
 - [Visual Studio documentation](/visualstudio/)
