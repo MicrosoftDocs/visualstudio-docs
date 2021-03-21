@@ -62,7 +62,7 @@ You can export a list of the keys you have claimed.  This includes a large selec
 To export your keys, select the **Export all keys** link at the far right of the Product Keys page.  An .xml file entitled KeysExport.xml will be created, and you can choose to open or save the file.  You will need to open the file with an application capable of handling .xml files.  For example, you can open the file as a read-only workbook in Excel.
 
 ## Resources
-- [Visual Studio subscriptions support](https://my.visualstudio.com/gethelp)
+- [Visual Studio subscriptions support](https://aka.ms/vssubscriberhelp)
 
 ## See also
 - [Visual Studio documentation](/visualstudio/)
