@@ -34,7 +34,7 @@ End users can connect to access applications via RDS if the following conditions
 - For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact [Visual Studio subscriptions support](https://aka.ms/vssubscriberhelp).
 
 ## See also
-- [Windows Server documenation](/windows-server/)
+- [Windows Server documentation](/windows-server/)
 - [Visual Studio documentation](/visualstudio/)
 - [Azure DevOps documentation](/azure/devops/)
 - [Azure documentation](/azure/)
