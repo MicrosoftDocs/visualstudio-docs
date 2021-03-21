@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: c2853359-18fd-4be4-97a6-02230c862f92
-ms.date: 02/18/2021
+ms.date: 03/21/2021
 ms.topic: how-to
 description:  Learn how admins can assign licenses to multiple subscribers using either the Bulk add feature or Microsoft Azure Active Directory groups
 ---
@@ -142,4 +142,4 @@ A: Depending on how your organization has configured Azure AD, you may see delay
 
 ## Next steps
 - Have just one or two subscribers to add?  Check out [Add single users](assign-license.md)
-- Need help? Contact [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/).
+- Need help? Contact [Subscriptions Support](https://aka.ms/vsadminhelp).
