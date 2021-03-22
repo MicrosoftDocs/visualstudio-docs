@@ -1,10 +1,10 @@
 ---
 title: Managing large teams and contractors in Visual Studio subscriptions | Visual Studio Marketplace
 author: evanwindom
-ms.author: lank
-manager: lank
+ms.author: v-evwin
+manager: cabuschl
 ms.assetid: 3fc57f5f-2446-4774-9f8f-98ea1340f6b2
-ms.date: 03/09/2020
+ms.date: 03/21/2021
 ms.topic: conceptual
 description:  Learn about admins' responsibility to manage subscriptions for large teams as well as external contractors.
 ---
@@ -26,7 +26,7 @@ External contractors may bring licenses to engage with your Visual Studio-licens
 
 ## Resources
 - [Visual Studio licensing white paper](https://visualstudio.microsoft.com/wp-content/uploads/2019/06/Visual-Studio-Licensing-Whitepaper-May-2019.pdf)
-- [Visual Studio Administration and Subscriptions Support](https://visualstudio.microsoft.com/support/support-overview-vs)
+- [Visual Studio Administration and Subscriptions Support](https://aka.ms/vsadminhelp)
 - [Volume Licensing terms](https://www.microsoft.com/licensing/product-licensing/products.aspx)
 
 ## See also

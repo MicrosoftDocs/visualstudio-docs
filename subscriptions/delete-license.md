@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: e49242bc-e9f2-49e8-8caa-f574d508aba6
-ms.date: 02/18/2021
+ms.date: 03/21/2021
 ms.topic: how-to
 description:  Learn how admins can delete subscription assignments in the Visual Studio Subscriptions Administration Portal
 ---
@@ -31,7 +31,7 @@ Watch this video or read on to learn how to delete assignments.
    > If you added subscription assignments through Azure Active Directory Security Groups, it may take up to 24 hours for the deletion to be updated in the admin portal.  See [our article](assign-license-bulk.md#use-azure-active-directory-groups-to-assign-subscriptions) for more information about using Azure Active Directory groups to manage subscriptions. 
 
 ## Resources
-- [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/)
+- [Subscriptions Support](https://aka.ms/vsadminhelp)
 
 ## See also
 - [Visual Studio documentation](/visualstudio/)

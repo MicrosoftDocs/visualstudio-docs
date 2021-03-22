@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: 97ac8e4d-7a03-42f8-98cb-15bcaa90ef65
-ms.date: 02/18/2021
+ms.date: 03/21/2021
 ms.topic: how-to
 description:  Learn how admins can edit subscription assignments.
 ---
@@ -51,7 +51,7 @@ Watch this video or read on to learn how to edit multiple subscribers using bulk
 5. Once you’ve uploaded the file, you will see a notification letting you know it was successful. At this point, your edits will be reflected in the subscriber information.
 
 ## Resources
-- [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/)
+- [Subscriptions Support](https://aka.ms/vsadminhelp)
 
 ## See also
 - [Visual Studio documentation](/visualstudio/)

@@ -3,7 +3,7 @@ title: Assign specific GUIDs to Visual Studio subscribers | Microsoft Docs
 author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
-ms.date: 02/18/2021
+ms.date: 03/19/2021
 ms.topic: conceptual
 description:  Learn how admins can specific subscription GUID to subscribers
 ---
@@ -58,7 +58,7 @@ The final step is to download the **Bulk add** template, fill out the required i
 A: If you want to change which GUID is assigned to a user, you must first delete the subscription for that user.  For more information, please see our [Delete subscriptions](delete-license.md) article for more information.  After deleting the subscription for that user, use the process outlined above to export the list and upload the new subscription information.  
 
 ## Resources
-- [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/)
+- [Subscriptions Support](https://aka.ms/vsadminhelp)
 
 ## See also
 - [Visual Studio documentation](/visualstudio/)
@@ -73,5 +73,3 @@ Now that you have assigned subscriptions to users, find out how to perform other
 - [Edit subscriptions](edit-license.md)
 - [Delete subscriptions](delete-license.md)
 - [Determine maximum usage](maximum-usage.md)
-
-
