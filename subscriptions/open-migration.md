@@ -56,7 +56,7 @@ Steps for partners to add a new license:
 
 ## Resources
 - [Visual Studio Licensing Whitepaper](https://aka.ms/vslicensing)
-- [Visual Studio Administration and Subscriptions Support](https://visualstudio.microsoft.com/support/support-overview-vs)
+- [Visual Studio Administration and Subscriptions Support](https://aka.ms/vsadminhelp)
 - [Volume Licensing Terms](https://www.microsoft.com/licensing/product-licensing/products.aspx)
 
 ## See also

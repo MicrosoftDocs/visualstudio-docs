@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: 4e529a43-7aed-4eee-895d-862a631952df
-ms.date: 02/18/2021
+ms.date: 03/21/2021
 ms.topic: conceptual
 description:  Learn how admins can assign licenses to subscribers
 ---
@@ -63,7 +63,7 @@ After you add a subscriber, an assignment email will be automatically sent to th
 
 
 ## Resources
-- Need help?  Contact [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/).
+- Need help?  Contact [Subscriptions Support](https://aka.ms/vsadminhelp).
 
 ## See also
 - [Visual Studio documentation](/visualstudio/)

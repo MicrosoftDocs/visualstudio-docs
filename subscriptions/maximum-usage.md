@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: c473b01f-2dfe-4cc2-ad29-bb5e2a268123
-ms.date: 10/28/2020
+ms.date: 03/21/2021
 ms.topic: conceptual
 description: Learn how to view the maximum number of assigned subscriptions in the admin portal
 ---
@@ -39,7 +39,7 @@ A:  The information in the overview shows the *current* assignments and availabl
 
 ## Resources
 - [Visual Studio licensing white paper](https://visualstudio.microsoft.com/wp-content/uploads/2019/06/Visual-Studio-Licensing-Whitepaper-May-2019.pdf)
-- [Visual Studio Administration and Subscriptions Support](https://visualstudio.microsoft.com/support/support-overview-vs)
+- [Visual Studio Administration and Subscriptions Support](https://aka.ms/vsadminhelp)
 - [Volume Licensing terms](https://www.microsoft.com/licensing/product-licensing/products.aspx)
 
 ## See also
