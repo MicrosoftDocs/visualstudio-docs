@@ -215,7 +215,7 @@ Answer: The `{% csrf_token %}` tag includes Django's built-in [cross-site reques
 - [Use the Polls Django Web Project template](learn-django-in-visual-studio-step-06-polls-django-web-project-template.md)
 ::: moniker-end
 
-::: moniker range="vs-2017"
+::: moniker range=">=vs-2019"
 > [!Note]
 > If you've been committing your Visual Studio solution to source control throughout the course of this tutorial, now is a good time to do another commit. Your solution should match the tutorial source code on GitHub: [Microsoft/python-sample-vs-learning-django](https://github.com/Microsoft/python-sample-vs-learning-django).
 
