@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: b331c837-3524-42b7-820e-b4fdd5e12793
-ms.date: 03/05/2021
+ms.date: 03/21/2021
 ms.topic: conceptual
 description:  Learn about managing Visual Studio subscriptions in a Microsoft Products and Services Agreement (MPSA)
 ---
@@ -51,6 +51,9 @@ For a more detailed explanation for this process, you may use the [Quick Start g
 
 > [!NOTE]
 > When you complete the domain take-over process, you must adhere to the criteria from the five steps in the section for Pre Tenant Association (Managed). After the criteria are met, it will only be necessary to contact MPSA Support to provision additional Visual Studio subscriptions admins.
+
+## Support resources
+- For assistance with administration of Visual Studio Subscriptions, contact [Visual Studio subscriptions support](https://aka.ms/vsadminhelp).
 
 ## See also
 - [Visual Studio documentation](/visualstudio/)
