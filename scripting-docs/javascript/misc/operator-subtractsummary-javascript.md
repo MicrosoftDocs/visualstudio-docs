@@ -1,4 +1,5 @@
 ---
+description: "The following tables list JavaScript operators in their respective categories."
 title: "Operator Summary (JavaScript) | Microsoft Docs"
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows

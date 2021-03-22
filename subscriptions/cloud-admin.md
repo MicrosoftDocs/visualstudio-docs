@@ -1,10 +1,10 @@
 ---
 title: Setting up admins for monthly Visual Studio subscriptions | Microsoft Docs
 author: evanwindom
-ms.author: lank
-manager: lank
+ms.author: v-evwin
+manager: cabuschl
 ms.assetid: 8b30e2bc-2ac3-4fcc-b296-128731471032
-ms.date: 02/18/2021
+ms.date: 03/21/2021
 ms.topic: how-to
 description: Setting Up admins for monthly Subscriptions
 ---
@@ -54,8 +54,7 @@ The new admin can now sign in to the [Administration Portal](https://manage.visu
 For information about Visual Studio monthly subscriptions, see the [Overview](vscloud-overview.md) under Buying  subscriptions. To purchase Visual Studio monthly subscriptions, visit the Visual Studio Marketplace at [https://marketplace.visualstudio.com/subscriptions](https://marketplace.visualstudio.com/subscription).
 
 ## Resources
-- [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/)
-
+- [Subscriptions Support](https://aka.ms/vsadminhelp)
 
 ## See also
 - [Visual Studio documentation](/visualstudio/)

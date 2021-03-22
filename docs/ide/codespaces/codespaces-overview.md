@@ -15,16 +15,16 @@ monikerRange: vs-2019
 
 # What is GitHub Codespaces? (Preview)
 
+> [!Important] 
+> As of April 12th 2021, connecting to GitHub Codespaces from Visual Studio 2019 will no longer be supported and this private preview has concluded. We're focused on evolving experiences for a cloud-powered inner loop and VDI solutions optimized for a broad set of Visual Studio workloads. We encourage you to be involved in our [developer community forum](https://developercommunity.visualstudio.com/home) for Visual Studio for information on future previews and roadmap information. 
+
 Welcome to Codespaces! We're glad you're here.
 
-GitHub Codespaces provides you with a cloud-powered development environment for any activity, whether it's a long-term project, or a short-term task like reviewing a pull request. You can work with a codespace from within Visual Studio 2019 Preview ([sign up for the limited public beta](https://github.com/features/codespaces/signup-vs)).
+GitHub Codespaces provides you with a cloud-powered development environment for any activity, whether it's a long-term project, or a short-term task like reviewing a pull request.
 
 Additionally, GitHub Codespaces brings many of the benefits of DevOps, like repeatability and reliability&mdash;which have typically been reserved for production workloads&mdash;to a development environment. You can also personalize GitHub Codespaces so that the tools, processes, and configurations that you prefer and rely on are there, too.
 
 This document will explain key concepts and introduce Codespaces features. If you're looking to get started, check out [Use Visual Studio with a codespace](use-visual-studio-with-codespaces.md).
-
-> [!IMPORTANT]
-> You must sign up for the limited [public beta](https://github.com/features/codespaces/signup-vs) to use GitHub Codespaces. During the beta period, GitHub does not make any guarantees about the availability of Codespaces. For more information about joining the beta, see [About Codespaces](https://docs.github.com/github/developing-online-with-codespaces/about-codespaces#joining-the-beta).
 
 ## Concepts and features
 

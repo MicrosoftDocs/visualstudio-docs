@@ -1,4 +1,5 @@
 ---
+description: "You created a new label, but gave it the name of an existing label."
 title: "Label redefined | Microsoft Docs"
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows

@@ -46,7 +46,7 @@ If you plan to run these tests as part of the test automation process, you might
 To automatically generate unit tests for NUnit or xUnit, install one of these test framework extensions from Visual Studio Marketplace:
 
 * [NUnit extension for test generators](https://marketplace.visualstudio.com/items?itemName=NUnitDevelopers.TestGeneratorNUnitextension)
-* [xUnit.net extension for test generators](https://marketplace.visualstudio.com/items?itemName=BradWilson.xUnitnetTestExtensions)
+* [xUnit.net extension for test generators](https://marketplace.visualstudio.com/items?itemName=YowkoTsai.xUnitnetTestGenerator)
 
 ## When should I use this feature?
 

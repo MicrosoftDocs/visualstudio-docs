@@ -1,4 +1,5 @@
 ---
+description: "You attempted to create a conditionally compiled block of code, but did not include the @end statement at the end."
 title: "Expected '@end' | Microsoft Docs"
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows
@@ -16,7 +17,7 @@ ms.author: "mikejo"
 manager: "ghogen"
 ---
 # Expected '\@end'
-You attempted to create a conditionally compiled block of code, but did not include the <strong>@end</strong> statement at the end. [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)] statements can be conditionally compiled by enclosing them within an <strong>@if/@end</strong> block.  
+You attempted to create a conditionally compiled block of code, but did not include the **@end** statement at the end. [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)] statements can be conditionally compiled by enclosing them within an <strong>@if/@end</strong> block.  
   
 ### To correct this error  
   

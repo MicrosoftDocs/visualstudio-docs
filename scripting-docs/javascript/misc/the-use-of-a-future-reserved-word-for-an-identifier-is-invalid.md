@@ -1,5 +1,6 @@
 ---
 title: "The use of a future reserved word for an identifier is invalid | Microsoft Docs"
+description: "You cannot use a future reserved word as the name of a variable, function, or user-defined identifier."
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows
 ms.technology: vs-javascript

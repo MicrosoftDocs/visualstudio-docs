@@ -1,4 +1,5 @@
 ---
+description: "You included a throw statement in your code, but it was not enclosed within a try block, or there was no associated catch block to trap the error."
 title: "Exception thrown and not caught | Microsoft Docs"
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows

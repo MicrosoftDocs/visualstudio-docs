@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: 97bf7474-c6c2-49b3-b2c9-f1b2808eed1a
-ms.date: 10/22/2020
+ms.date: 03/19/2021
 ms.topic: conceptual
 description: Sign-in may fail if aliases or friendly names are used
 ---
@@ -86,12 +86,14 @@ Both of these options are configured in the admin portal by completing the follo
 > [!NOTE]
 > For both individual and bulk changes, the subscribers will receive an email with instructions that their sign-in email address has changed and they will need to sign in using the updated email address. It’s also important to note that if the subscriber previously activated benefits under the other sign-in address, they’ll need to continue using the other sign-in address to access them.  
 
+## Support resources
+- For assistance with administration of Visual Studio Subscriptions, contact [Visual Studio subscriptions support](https://aka.ms/vsadminhelp).
+
 ## See also
 - [Visual Studio documentation](/visualstudio/)
 - [Azure DevOps documentation](/azure/devops/)
 - [Azure documentation](/azure/)
 - [Microsoft 365 documentation](/microsoft-365/)
-
 
 ## Next steps
 Learn more about managing Visual Studio subscriptions.
