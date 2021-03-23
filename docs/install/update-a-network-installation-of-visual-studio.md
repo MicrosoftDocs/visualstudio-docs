@@ -102,7 +102,7 @@ Depending on how your network environment is configured, an update can either be
 
 ::: moniker-end
 
-* Administrators in organizations which use enterprise tools like Windows Server Update Services and System Center Configuration Manager can update client deployments of Visual Studio with [Updates using Microsoft Update Catalog](http://TODOLink). These updates are designed to work with client deployments of Visual Studio which were created from a network layout. 
+* Administrators in organizations that use enterprise tools such as Windows Server Update Services and System Center Configuration Manager can update client deployments of Visual Studio with [Updates using Microsoft Update Catalog](http://TODOLink). These updates are designed to work with client deployments of Visual Studio that were created from a network layout. 
 
 > [!NOTE]
 > Use the [vswhere.exe command](tools-for-managing-visual-studio-instances.md) to identify the install path of an existing instance of Visual Studio on a client machine.
