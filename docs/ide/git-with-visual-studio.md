@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.author: tglee
 author: TerryGLee
 ms.manager: jillfra
-monikerRange: >=vs-2019
+monikerRange: ">=vs-2019"
 ---
 # Git experience in Visual Studio
 
