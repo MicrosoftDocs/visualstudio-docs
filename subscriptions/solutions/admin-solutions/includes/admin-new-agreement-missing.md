@@ -1,14 +1,15 @@
 ---
 title: My new agreement is missing, where is it?
 description: The admin can't locate their new agreement on the portal
-ms.assetid:  
+ms.topic: include
+ms.assetid: 3247ca7a-474e-4d9e-86fe-161860f20ceb  
 author: CaityBuschlen 
 ms.author: cabuschl 
 ms.date:  03/23/2021
 user.type: admin 
 tags: manage, agreement, sign in 
 subscription.type: vl, cloud, retail, partner 
-sap.id: 
+sap.id: 4e55abf9-8505-ecdc-c55f-c67a167a357c
 
 ---
 
