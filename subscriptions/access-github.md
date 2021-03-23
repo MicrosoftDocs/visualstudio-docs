@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: 2249b32a-46d7-4e29-b543-4769c71ceda6
-ms.date: 10/22/2020
+ms.date: 03/19/2021
 ms.topic: conceptual
 description: Learn about accessing GitHub Enterprise as part of Visual Studio subscriptions
 ---
@@ -13,9 +13,9 @@ description: Learn about accessing GitHub Enterprise as part of Visual Studio su
 
 Customers who have Enterprise Agreements (EA) with Microsoft are eligible to purchase a new subscription offer that brings together Visual Studio standard subscriptions and GitHub Enterprise. It's an easy and economical way for Visual Studio subscribers to acquire GitHub Enterprise. 
 
-- Innovate at scale with Visual Studio and GitHub by securely bringing open source code, community and best practices into your IDE and workflows.
-- Use best-in-class development tools and services for developers with the most comprehensive set of resources to create, deploy and manage great applications. 
-- Collaborate, manage pull requests on GitHub Enterprise and review source code where it was written - in the editor. 
+- Innovate at scale with Visual Studio and GitHub by securely bringing open source code, community, and best practices into your IDE and workflows.
+- Use best-in-class development tools and services for developers with the most comprehensive set of resources to create, deploy, and manage great applications. 
+- Collaborate and manage "pull requests" on GitHub Enterprise and review source code where it was written - in the editor. 
 
 ## What's available? 
 
@@ -26,7 +26,7 @@ The following options are available:
 
 Visual Studio Enterprise, Visual Studio Professional, and GitHub Enterprise will also continue to be available separately. 
 
-To learn more about benefits and options please visit <https://visualstudio.microsoft.com/subscriptions/visual-studio-github>. 
+To learn more about benefits and options, visit <https://visualstudio.microsoft.com/subscriptions/visual-studio-github>. 
 
 ## What is the Visual Studio subscription with GitHub Enterprise setup process?
 
@@ -49,7 +49,7 @@ When an invitation is sent by your GitHub organization admin, you will receive a
    > [!div class="mx-imgBorder"]
    > ![GitHub Enterprise pending invitation acceptance](_img/access-github/pending-acceptance.png "Accept the invitation you receive in the email from GitHub")  
 
-After you accept the GitHub organization invitation the status shown on the tile will change from "Pending" to "Activated".
+After you accept the GitHub organization invitation, the status shown on the tile will change from "Pending" to "Activated".
 
    > [!div class="mx-imgBorder"]
    > ![GitHub Enterprise activated](_img/access-github/activated.png "Upon acceptance of the invitation, the tile will indicate that your subscription has been activated.")  
@@ -73,14 +73,14 @@ If you're new to GitHub, here are some helpful resources:
 A:  The process for setting up a GitHub Enterprise account can take a while.  If you've been waiting and haven't heard anything, you may want to reach out to your GitHub admin.  It's possible that your admin is still working on it or has elected not to create a GitHub Enterprise account. 
 
 ### Q: Do I get the full Visual Studio subscription benefits?
-A:  Along with GitHub Enterprise, you receive all of the benefits of a standard Visual Studio subscription including software downloads, cloud services, technical support and partner benefits just as you would if the subscription was purchased separately.
+A:  Along with GitHub Enterprise, you receive all of the benefits of a standard Visual Studio subscription including software downloads, cloud services, technical support, and partner benefits just as if the subscription was purchased separately.
 
 ## Support resources
 - Learn more about GitHub assignment at [GitHub Docs](https://docs.github.com/github/setting-up-and-managing-your-enterprise-account/managing-licenses-for-the-github-enterprise-and-visual-studio-bundle)
 - Find answers to questions on a wide array of GitHub topics at [GitHub Help](https://help.github.com).
 - Need more help?  Contact [GitHub Support](https://support.github.com/)
 - Get help from other GitHub users in the [GitHub Community Forum](https://github.community/).
-- For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, please visit our [Get Help](https://my.visualstudio.com/GetHelp) page.
+- For assistance with sales, subscriptions, accounts, and billing for Visual Studio Subscriptions, please visit our [Get Help](https://aka.ms/vssubscriberhelp) page.
 - Have a question about Visual Studio IDE, Azure DevOps Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).
 - Get [technical support](https://support.microsoft.com/en-us/supportforbusiness/productselection?sapId=b77fe80f-5417-80bd-4b2a-275cf0018c24) for GitHub Enterprise.   
 

@@ -15,6 +15,10 @@ monikerRange: vs-2019
 
 # Supported Visual Studio features (Preview)
 
+> [!Important] 
+> As of April 12th 2021, connecting to GitHub Codespaces from Visual Studio 2019 will no longer be supported and this private preview has concluded. We're focused on evolving experiences for a cloud-powered inner loop and VDI solutions optimized for a broad set of Visual Studio workloads. We encourage you to be involved in our [developer community forum](https://developercommunity.visualstudio.com/home) for Visual Studio for information on future previews and roadmap information. 
+
+
 Visual Studio provides a rich development experience when connecting to a codespace. You get the Visual Studio inner-loop tools you're familiar with to edit, debug, test, and version your source code as well as productivity features like project templates, rich code navigation, and IntelliSense.
 
 In the current GitHub Codespaces [public beta](https://github.com/features/codespaces), some Visual Studio features may not have full support or may be initially missing. The following sections outline what you can expect with Visual Studio and the GitHub Codespaces beta and what you can look forward to in the future. 

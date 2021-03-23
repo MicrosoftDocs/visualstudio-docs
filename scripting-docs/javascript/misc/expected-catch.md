@@ -1,4 +1,5 @@
 ---
+description: "You used the exception handling try block, but did not write the associated catch statement."
 title: "Expected 'catch' | Microsoft Docs"
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows

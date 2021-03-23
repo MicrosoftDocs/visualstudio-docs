@@ -1,4 +1,5 @@
 ---
+description: "The True keyword has a value equal to -1."
 title: "True Keyword | Microsoft Docs"
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows

@@ -1,4 +1,5 @@
 ---
+description: "You attempted to invoke the Number.prototype.toString or Number.prototype.valueOf method on an object of a type other than Number**."
 title: "Number expected | Microsoft Docs"
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows

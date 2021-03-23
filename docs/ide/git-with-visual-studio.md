@@ -2,7 +2,7 @@
 title: The Git experience in Visual Studio
 titleSuffix: ""
 description: Learn how the new integrated Git experience in Visual Studio 2019 can help you be more productive.
-ms.date: 03/08/2021
+ms.date: 03/16/2021
 ms.topic: conceptual
 ms.author: tglee
 author: TerryGLee
@@ -42,7 +42,7 @@ The **Create a Git repository** dialog box makes it easy to push your new reposi
 > [!TIP]
 > Whether your repository is public or private, it's best to have a remote backup of your code stored securely on GitHub even if you are not working with a team. This also makes your code available to you no matter what computer you're using.
 
-You can choose to create a local-only Git repository by using the **Local only** option. Or, you can link your repository with any existing empty remote repository on any other Git provider by using the **Existing remote** option.
+You can choose to create a local-only Git repository by using the **Local only** option. Or, you can link your local project with an existing empty remote repository on Azure DevOps or any other Git provider by using the **Existing Remote** option.
 
 ## Clone an existing Git repository
 

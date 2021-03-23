@@ -14,6 +14,9 @@ ms.technology: devinit
 ---
 # Tutorial
 
+> [!IMPORTANT]
+> As of April 12th 2021, connecting to GitHub Codespaces from Visual Studio 2019 will no longer be supported and this private preview has concluded. We’re focused on evolving experiences for a cloud-powered inner loop and VDI solutions optimized for a broad set of Visual Studio workloads. We encourage you to be involved in our developer community forum for Visual Studio for information on future previews and roadmap information.
+
 In this tutorial, we'll explore setting up the [eShopOnWeb repository](https://github.com/andysterland/eShopOnWeb) with devinit and Codespaces. This tutorial assumes that devinit is already available, as described in the [getting started page](getting-started-with-devinit.md).
 
 ## Step 1: Determining setup steps

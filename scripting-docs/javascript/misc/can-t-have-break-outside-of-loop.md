@@ -1,4 +1,5 @@
 ---
+description: "You attempted to use the break keyword outside of a loop."
 title: "Can't have 'break' outside of loop | Microsoft Docs"
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows

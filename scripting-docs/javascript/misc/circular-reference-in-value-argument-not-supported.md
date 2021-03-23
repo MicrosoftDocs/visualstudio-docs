@@ -1,4 +1,5 @@
 ---
+description: "An attempt has been made to invoke JSON.stringify with a value that is not valid."
 title: "Circular reference in value argument not supported | Microsoft Docs"
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows

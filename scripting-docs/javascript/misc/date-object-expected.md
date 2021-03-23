@@ -1,4 +1,5 @@
 ---
+description: "You attempted to invoke the Date.prototype.toString or Date.prototype.valueOf method on an object of a type other than Date."
 title: "Date object expected | Microsoft Docs"
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows

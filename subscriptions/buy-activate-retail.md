@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: 76654645-08ee-445d-b9ee-123126d1f0fb
-ms.date: 02/18/2021
+ms.date: 03/21/2021
 ms.topic: how-to
 description:  Learn how to purchase Visual Studio subscriptions in the Microsoft Store and activate them in the Visual Studio subscriptions portal.
 ---

@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: 7f4399d8-41da-41e5-a666-acc34958b8c0
-ms.date: 03/09/2020
+ms.date: 03/21/2021
 ms.topic: conceptual
 description:  Details on what subscriptions are offered, what rules apply, and how many subscriptions are offered in MPN.
 ---
@@ -66,11 +66,10 @@ This internal use-only restriction essentially means that partners cannot use th
 With Visual Studio subscriptions offered via MPN, the licensed user must sign in to Visual Studio using the same identity/login that was used to activate the Visual Studio subscription. Product keys are not offered to unlock the product; signing in is the only option for running Visual Studio. The Visual Studio subscriber can operate offline for up to 30 days before Visual Studio stops working. While working online, Visual Studio silently refreshes the user's license status periodically to ensure the subscription is still valid.
 
 ## Resources
-
 - [Microsoft Partner Network Programs Guide](https://assets.microsoft.com/MPN-MAPS-Product-Usage-Guide.pdf?tpqid=300-000121)
 - [Assign Visual Studio subscriptions to MPN employees](manage-mpn-subscriptions.md)
 - [Use terms](https://www.microsoft.com/useterms/) - Visual Studio subscriptions offered via MPN are subject to the Visual Studio subscriptions not for resale (NFR) EULA.
-
+- For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact [Visual Studio subscriptions support](https://aka.ms/vssubscriberhelp).
 
 ## See also
 - [Visual Studio documentation](/visualstudio/)

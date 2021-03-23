@@ -1,4 +1,5 @@
 ---
+description: "An attempt has been made to invoke JSON.stringify with an argument that is not valid."
 title: "Invalid replacer argument | Microsoft Docs"
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows
