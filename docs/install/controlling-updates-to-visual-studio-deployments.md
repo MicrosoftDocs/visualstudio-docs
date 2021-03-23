@@ -70,7 +70,7 @@ When an enterprise administrator determines it is time for their users to update
 
    New installs automatically install the updated version of Visual Studio directly from the layout.
 
-If an enterprise administrator would like to push updates to their client machines using enterprise tools like the Microsoft Update Catalog, Windows Server Update Services, & System Center Configuration Manager, see [Updates using Microsoft Update Catalog](http://TODOLink). 
+If you are an enterprise administrator and you would like to push updates to your client machines using enterprise tools like the Microsoft Update Catalog, Windows Server Update Services, and System Center Configuration Manager, see [Updates using Microsoft Update Catalog](http://TODOLink) for more information. 
 
 ## Controlling notifications in the Visual Studio IDE
 
