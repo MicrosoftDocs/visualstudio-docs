@@ -101,7 +101,7 @@ For debugging to work in containers, Visual Studio uses volume mapping to map th
 
 |Volume|Description|
 |-|-|
-| **Remote debugger** | Contains the bits required to run the debugger in the container depending on the project type. This is explained in more |detail in the [Debugging](#debugging) section.
+| **Remote debugger** | Contains the bits required to run the debugger in the container depending on the project type. This is explained in more detail in the [Debugging](#debugging) section.|
 | **App folder** | Contains the project folder where the Dockerfile is located.|
 | **Source folder** | Contains the build context that is passed to Docker commands.|
 | **NuGet packages folders** | Contains the NuGet packages and fallback folders that is read from the *obj\{project}.csproj.nuget.g.props* file in the project. |
