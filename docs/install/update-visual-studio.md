@@ -283,7 +283,7 @@ Here's how:
 
 ## Administrative Updates 
 
-If you are part of an organization with centralized enterprise management of your computer, your enterprise administrator may update your machine for you. [Updates using Microsoft Update Catalog](http://TODOLink) can be controlled with configuration settings allowing your computer to accept or refuse these types of updates.  
+If you are part of an organization with centralized enterprise management of your computer, your enterprise administrator can update your machine for you. [Updates using Microsoft Update Catalog](http://TODOLink) can be controlled with configuration settings allowing your computer to accept or refuse these types of updates.  
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
