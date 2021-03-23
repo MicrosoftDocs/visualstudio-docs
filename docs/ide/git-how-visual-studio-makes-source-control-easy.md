@@ -7,6 +7,7 @@ ms.topic: conceptual
 ms.author: tglee
 author: TerryGLee
 ms.manager: jmartens
+monikerRange: >=vs-2019
 ---
 
 # How Visual Studio makes source control easy
