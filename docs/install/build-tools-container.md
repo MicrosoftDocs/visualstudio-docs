@@ -124,6 +124,26 @@ Save the following example Dockerfile to a new file on your disk. If the file is
    ENTRYPOINT ["C:\\BuildTools\\Common7\\Tools\\VsDevCmd.bat", "&&", "powershell.exe", "-NoLogo", "-ExecutionPolicy", "Bypass"]
    ```
 
+You can use Powershell as well
+```Dockerfile
+# escape=`
+
+# Use the latest Windows Server Core image with .NET Framework 4.8.
+FROM mcr.microsoft.com/dotnet/framework/sdk:4.8-windowsservercore-ltsc2019
+
+# Use Powershell to run this script.
+SHELL ["powershell", "-command"]
+
+# Download the Build Tools bootstrapper.
+ADD https://download.visualstudio.microsoft.com/download/pr/1192d0de-5c6d-4274-b64d-c387185e4f45/c9cc192eb63bbdf2b29ce7a437a629b7ef83accf11c34a4eabb1faf2cb7f35b4/vs_BuildTools.exe  C:\TEMP\vs_buildtools.exe
+
+# Install Build Tools.
+RUN "Start-Process -Wait 'C:\TEMP\vs_buildtools.exe' -ArgumentList '--quiet --norestart --nocache --installPath C:\BuildTools --add Microsoft.VisualStudio.Workload.AzureBuildTools --includeRecommended' -PassThru"
+
+# This entry point starts the developer PowerShell and launches the PowerShell shell.
+ENTRYPOINT "$vsInstallPath = 'C:\BuildTools' ; if($?) { Import-Module C:\BuildTools\Common7\Tools\Microsoft.VisualStudio.DevShell.dll ; if($?) { Enter-VsDevShell -VsInstallPath $vsInstallPath -SkipAutomaticLocation}} ; powershell ; "
+```   
+
    > [!TIP]
    > For a list of workloads and components, see the [Visual Studio Build Tools component directory](workload-component-id-vs-build-tools.md).
    >
