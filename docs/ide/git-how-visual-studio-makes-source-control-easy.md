@@ -1,7 +1,7 @@
 ---
 title: How Visual Studio makes source control easy
 titleSuffix: ''
-description: Learn how to use Git & GitHub in Visual Studio to track changes to your code and revert them if need be.
+description: Learn how to use Git & GitHub in Visual Studio to track changes to your code and revert them if you need to.
 ms.date: 03/22/2021
 ms.topic: conceptual
 ms.author: tglee
@@ -11,11 +11,11 @@ ms.manager: jmartens
 
 # How Visual Studio makes source control easy
 
-Have you ever wished that you could go back to a previously working version of your code? Do you find yourself manually storing copies of your code in different locations as a backup? Source control makes it possible to track changes you make to your code over time so you can both track your progress and revert to specific versions. Visual Studio makes it easy to work with Git, which is the most widely used modern version control system.
+Have you ever wished you could go back to a previously working version of your code? Do you find yourself manually storing copies of your code in different locations as a backup? Source control makes it possible to track changes you make to your code over time so you can both track your progress and revert to specific versions. Visual Studio makes it easy to work with Git, which is the most widely used modern version control system.
 
 ## A great place to start with Git & GitHub
 
-GitHub is a free and secured cloud code storage where you can store your code and access it from any device, anywhere. Visual Studio comes with first-class Git and GitHub functionality that makes it easy to use source control to manage your code and collaborate with others. Get started by adding your code to Git & GitHub with the following **Create a Git repository** dialog box. To do so, choose **Git** > **Create a Git repository** from the menu bar.
+GitHub offers free and secured cloud code storage where you can store your code and access it from any device, anywhere. Visual Studio comes with first-class Git and GitHub functionality that makes it easy to use source control to manage your code and collaborate with others. Get started by adding your code to Git & GitHub with the following **Create a Git repository** dialog box. To do so, choose **Git** > **Create a Git repository** from the menu bar.
 
 :::image type="content" source="media/git-source-control-create-repository.png" alt-text="The Create a Git Repository dialog box in Visual Studio.":::
 
@@ -29,7 +29,7 @@ Visual Studio provides discoverable and intuitive Git features focused on maximi
 
 ## First-class repository management & collaboration
 
-Visual Studio includes powerful repository browsing and collaboration features that eliminate the need to use other tools. Stay up-to-date with your repository by keeping an eye on your incoming/outgoing commits, previewing branches, and comparing commits. And, manage your repository by managing your branches and squashing and cherry-picking commits.
+Visual Studio includes powerful repository browsing and collaboration features that eliminate the need to use other tools. Stay up to date with your repository by keeping an eye on your incoming/outgoing commits, previewing branches, and comparing commits. And, manage your repository by managing your branches and squashing and cherry-picking commits.
 
 :::image type="content" source="media/git-source-control-repository-management.png" alt-text="The Visual Studio IDE that highlights the Git menu and the Git Changes tab in Solution Explorer.":::
 
