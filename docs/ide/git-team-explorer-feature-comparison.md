@@ -7,7 +7,7 @@ ms.topic: how-to
 ms.author: tglee
 author: TerryGLee
 ms.manager: jmartens
-monikerRange: ">=vs-2019"
+monikerRange: vs-2019
 ---
 # Side-by-side comparison of Git and Team Explorer
 
