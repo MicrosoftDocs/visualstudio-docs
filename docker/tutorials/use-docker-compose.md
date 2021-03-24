@@ -162,7 +162,7 @@ docker run -d \
         image: mysql:5.7
     ```
 
-1. Next, define the volume mapping. When you ran the container with `docker run`, the named volume was created automatically. However, that doesn't happen when running with Compose. You need to define the volume in the top-level `volumes:` section and then specify the mountpoint in the service config. By simply providing only the volume name, the default options are used. There are [many more options available](https://docs.docker.com/compose/compose-file/#volume-configuration-reference) though.
+1. Next, define the volume mapping. When you ran the container with `docker run`, the named volume was created automatically. However, that doesn't happen when running with Compose. You need to define the volume in the top-level `volumes:` section and then specify the mountpoint in the service config. By simply providing only the volume name, the default options are used. There are [many more options available](https://github.com/compose-spec/compose-spec/blob/master/spec.md#volumes-top-level-element) though.
 
     ```yaml hl_lines="8 9 10 11 12"
     version: "3.7"
