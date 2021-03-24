@@ -2,7 +2,7 @@
 title: "What's new in Visual Studio 2019"
 titleSuffix: ""
 description: "Learn about the new features in Visual Studio 2019."
-ms.date: 03/04/2021
+ms.date: 03/19/2021
 helpviewer_keywords:
   - "Visual Studio, what's new"
   - "what's new [Visual Studio]"
@@ -216,13 +216,7 @@ For more information, see the [Pinnable Properties: Debug & Display Managed Obje
 
 We update Visual Studio 2019 often with new features that can make your development experience even better. To learn more about our latest innovations, check out the [Visual Studio Blog](https://devblogs.microsoft.com/visualstudio/). For a record of what we've released in preview to date, take a look at the [Preview Release Notes](/visualstudio/releases/2019/release-notes-preview/). And for a list of what we're planning to release next, see the [Visual Studio Roadmap](/visualstudio/productinfo/vs-roadmap).
 
-Meanwhile, here are a few of our new features currently in the works.
-
-- **Visual Studio 2019 support for GitHub Codespaces (Preview)**
-
-  Now more than ever, developers are juggling multiple projects at work and at home. New features, bug fixes, PR reviews, &amp; prototypes all compete for time and require constant context-switching. [GitHub Codespaces](https://github.com/features/codespaces) can help. You can develop entirely in the cloud and create dedicated, custom environments for each of your projects in seconds. With Visual Studio 2019, you can connect to your codespace and work just as you would locally.
-
-  For more information, see the [What is GitHub Codespaces](codespaces/codespaces-overview.md) page.
+Meanwhile, here is a new feature that's currently in the works.
 
 - **Improved Git experience in Visual Studio 2019 (Preview)**
 
