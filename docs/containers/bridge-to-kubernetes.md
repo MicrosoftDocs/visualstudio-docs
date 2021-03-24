@@ -20,7 +20,7 @@ You can use Bridge to Kubernetes to redirect traffic between your Kubernetes clu
 
 This guide uses the [TODO App sample application][todo-app-github] to demonstrate connecting your development computer to a Kubernetes cluster. If you already have your own application running on a Kubernetes cluster, you can still follow the steps below and use the names of your own services.
 
-This sample illustrates how Bridge to Kubernetes can be used to develop a microservice version of a simple TODO application on any Kubernetes cluster. This sample, using Visual Studio, has been adapted from code provided by [TodoMVC](http://todomvc.com). In this example, we use MiniKube to host the application, but these steps should work with any Kubernetes cluster.
+This sample illustrates how Bridge to Kubernetes can be used to develop a microservice version of a simple TODO application on any Kubernetes cluster. This sample, using Visual Studio, has been adapted from code provided by [TodoMVC](http://todomvc.com). These steps should work with any Kubernetes cluster.
 
 The TODO application sample is composed of a frontend and a backend that provides persistent storage. This extended sample adds a statistics component and breaks the application into a number of microservices, specifically:
 
