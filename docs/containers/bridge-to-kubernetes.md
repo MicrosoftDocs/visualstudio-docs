@@ -114,7 +114,8 @@ Your development computer is connected when the status bar shows you are connect
 
 Once your development computer is connected, traffic starts redirecting to your development computer for the service you are replacing.
 
-> [!NOTE] To edit the debug profile later, for example, if you want to test with a different Kubernetes service, choose **Debug** > {SolutionName} **Debug Properties**, and click the **Change** button.
+> [!NOTE]
+> To edit the debug profile later, for example, if you want to test with a different Kubernetes service, choose **Debug** > {SolutionName} **Debug Properties**, and click the **Change** button.
 
 ## Set a break point
 
