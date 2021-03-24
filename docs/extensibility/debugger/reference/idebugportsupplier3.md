@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugPortSupplier3 interface
 ms.assetid: e458cd02-2370-4435-8953-17d7a60ce152
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk

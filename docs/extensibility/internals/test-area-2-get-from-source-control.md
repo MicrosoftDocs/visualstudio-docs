@@ -8,8 +8,8 @@ helpviewer_keywords:
 - source control plug-ins, getting items from source control
 - source control [Visual Studio SDK], getting items from
 ms.assetid: cbd345c5-ca43-4630-b7a4-85564f4e2090
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk

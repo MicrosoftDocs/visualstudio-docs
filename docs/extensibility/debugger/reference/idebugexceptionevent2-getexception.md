@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugExceptionEvent2::GetException
 ms.assetid: 7c98f41d-322b-4e72-a514-cbd4823eb70d
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk

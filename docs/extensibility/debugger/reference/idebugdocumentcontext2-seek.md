@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugDocumentContext2::Seek
 ms.assetid: 71501356-8a82-4d36-b354-6625bdd2baa0
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk

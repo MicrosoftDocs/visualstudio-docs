@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugPointerField interface
 ms.assetid: d51bd5b2-f18e-4e27-b4fb-e6f652fbf635
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk

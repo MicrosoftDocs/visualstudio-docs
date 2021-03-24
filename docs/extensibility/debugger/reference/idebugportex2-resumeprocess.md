@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugPortEx2::ResumeProcess
 ms.assetid: e80a6960-9456-4764-9320-e7b1bd57fe5d
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk

@@ -7,8 +7,8 @@ helpviewer_keywords:
 - IDebugExpressionEvaluator2::SetIDebugIDECallback
 - SetIDebugIDECallback
 ms.assetid: f01c40ad-ef4b-477b-8304-602c6972bc88
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk

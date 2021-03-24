@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugPort2::GetPortRequest
 ms.assetid: 14abf847-0675-4fa8-872e-971e00c84224
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk

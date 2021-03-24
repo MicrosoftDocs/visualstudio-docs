@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugField::GetInfo method
 ms.assetid: 7d508200-89ce-400f-a8ea-f28e7610cb2b
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk

@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugProgram2::GetEngineInfo
 ms.assetid: 3a4f2dc0-e082-4d8d-aeaf-463ab09d279b
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk

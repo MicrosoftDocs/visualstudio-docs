@@ -9,8 +9,8 @@ helpviewer_keywords:
 - GetDocument method
 - IDebugActivateDocumentEvent2::GetDocument method
 ms.assetid: b3c32f1b-f3de-409d-920d-ba7b3fa84fcd
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk

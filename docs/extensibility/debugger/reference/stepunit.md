@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - STEPUNIT enumeration
 ms.assetid: cb8441f2-f744-4e73-acfe-ae8542df9649
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk

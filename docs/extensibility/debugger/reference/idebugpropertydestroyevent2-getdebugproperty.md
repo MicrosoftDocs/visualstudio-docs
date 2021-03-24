@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugPropertyDestroyEvent2::GetDebugProperty
 ms.assetid: c96ae785-0ac8-4df4-8df3-15a8d7e13687
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
