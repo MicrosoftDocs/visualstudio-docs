@@ -2,8 +2,8 @@
 title: Use Bridge to Kubernetes with Visual Studio
 titleSuffix: ""
 ms.technology: vs-azure
-ms.date: 06/02/2020
-ms.topic: "how-to"
+ms.date: 03/24/2021
+ms.topic: "quickstart"
 description: "Learn how to use Bridge to Kubernetes with Visual Studio to connect your development computer to a Kubernetes cluster"
 keywords: "Bridge to Kubernetes, Azure Dev Spaces, Dev Spaces, Docker, Kubernetes, Azure, containers"
 monikerRange: ">=vs-2019"
@@ -40,16 +40,12 @@ In all, this extended TODO application is composed of six interrelated component
 * [Visual Studio 2019][visual-studio] version 16.7 Preview 4 or greater running on Windows 10.
 * [Bridge to Kubernetes extension installed][btk-extension].
 
-## Install MiniKube
+## Check the cluster
 
-You can use any Kubernetes provider with Bridge to Kubernetes. In this article, we use MiniKube. MiniKube is a lightweight Kubernetes provider that lets you host Kubernetes on your local machine. Follow the [installation instructions](https://minikube.sigs.k8s.io/docs/start/) to install MiniKube on Windows 10, Linux, or macOS.
-
-For best results on Windows 10, you should use the Hyper-V VM manager and create a [virtual switch](https://docs.microsoft.com/windows-server/virtualization/hyper-v/get-started/create-a-virtual-switch-for-hyper-v-virtual-machines).
-
-Once installed, start MiniKube, specify to use Hyper-V, and provide the name of the primary virtual switch. This command must be run from an command prompt with Administrator privileges.
+Open a command prompt, and check that the cluster is available and ready, and that the context for kubectl is set.
 
 ```cmd
-minikube start --vm-driver hyperv --hyperv-virtual-switch "Primary Virtual Switch"
+kubectl config view
 ```
 
 ## Deploy the application
@@ -70,13 +66,13 @@ kubectl apply -n todo-app -f deployment.yaml
 
 This is a simple deployment that exposes the frontend using a service of type `LoadBalancer`. Wait for all the pods to be running and for the external IP of the `frontend` service to become available.
 
-If you are testing with MiniKube, you will need to use `minikube tunnel` to resolve an external IP.
+If you are testing with MiniKube, you will need to use `minikube tunnel` to resolve an external IP. If you're using AKS, an external IP is assigned automatically. Use the following command to monitor the `frontend` service to wait until it's up and running:
 
 ```output
-kubectl get services -n todo-app
+kubectl get service -n todo-app frontend --watch
 
-NAME          TYPE           CLUSTER-IP     EXTERNAL-IP      PORT(S)        AGE
-frontend      LoadBalancer   10.0.49.177    127.0.0.1   80:30145/TCP   18h
+NAME       TYPE           CLUSTER-IP    EXTERNAL-IP     PORT(S)        AGE
+frontend   LoadBalancer   10.0.245.78   20.73.226.228   80:31910/TCP   6m26s
 ```
 
 Browse to the application using the external IP and local port (the first number in the PORT(S) column).
@@ -95,28 +91,24 @@ Open the .csproj in Visual Studio. In the project, select **Bridge to Kubernetes
 
 Click on the start button next to *Bridge to Kubernetes*. In the **Create profile for Bridge to Kubernetes** dialog:
 
-* Select your subscription.
-* Select *MyAKS* for your cluster.
-* Select *bikeapp* for your namespace.
-* Select *reservationengine* for the service to redirect.
+* Select your cluster name.
+* Select *todo-app* for your namespace.
+* Select *database-api* for the service to redirect.
 * Select *app* for the launch profile.
-* Select `http://bikeapp.bikesharingweb.EXTERNAL_IP.nip.io` for the URL to launch your browser.
+* Select the same URL you used previously to launch your browser, http://{external-ip}:{local-port}
 
-![Choose Bridge to Kubernetes Cluster](media/bridge-to-kubernetes/choose-bridge-cluster2.png)
-
-> [!IMPORTANT]
-> You can only redirect services that have a single pod.
+![Choose Bridge to Kubernetes Cluster](media/bridge-to-kubernetes/configure-bridge-debugging.png)
 
 Choose whether or not you want to run isolated, meaning that others who are using the cluster won't be affected by your changes. This isolation mode is accomplished by routing your requests to your copy of each affected service, but routing all other traffic normally. More explanation on how this is done can be found at [How Bridge to Kubernetes Works][btk-overview-routing].
 
-Click **Save and start debugging**.
+Click **OK**. All traffic in the Kubernetes cluster is redirected for the *database-api* service to the version of your application running in your development computer. Bridge to Kubernetes also routes all outbound traffic from the application back to your Kubernetes cluster.
 
-All traffic in the Kubernetes cluster is redirected for the *reservationengine* service to the version of your application running in your development computer. Bridge to Kubernetes also routes all outbound traffic from the application back to your Kubernetes cluster.
+To edit these settings later, choose **Debug** > {SolutionName} **Debug Properties**, and click the **Change** button.
 
 > [!NOTE]
 > You will be prompted to allow the *EndpointManager* to run elevated and modify your hosts file.
 
-Your development computer is connected when the status bar shows you are connected to the `reservationengine` service.
+Your development computer is connected when the status bar shows you are connected to the `database-api` service.
 
 ![Development computer connected](media/bridge-to-kubernetes/development-computer-connected.png)
 
@@ -127,14 +119,16 @@ Once your development computer is connected, traffic starts redirecting to your 
 
 ## Set a break point
 
-Open [BikesHelper.cs][bikeshelper-cs-breakpoint] and click somewhere on line 26 to put your cursor there. Set a breakpoint by hitting *F9* or selecting **Debug** > **Toggle Breakpoint**.
+Open MongoHelper.cs and click somewhere on line 68 to put your cursor there. Set a breakpoint by hitting *F9* or selecting **Debug** > **Toggle Breakpoint**.
 
-Navigate to the sample application by opening the public URL. Select **Aurelia Briggs (customer)** as the user, then select a bike to rent. Choose **Rent Bike**. Return to Visual Studio and observe line 26 is highlighted. The breakpoint you set has paused the service at line 26. To resume the service, hit **F5** or click **Debug** > **Continue**. Return to your browser and verify the page shows you have rented the bike.
+Navigate to the sample application by opening the public URL (the external IP address for the frontend service). To resume the service, hit **F5** or click **Debug** > **Continue**. Return to your browser and verify the page shows you have rented the bike.
 
-Remove the breakpoint by putting your cursor on line 26 in `BikesHelper.cs` and hitting **F9**.
+Remove the breakpoint by putting your cursor on line 68 and hitting **F9**.
 
 > [!NOTE]
-> By default, stopping the debugging task also disconnects your development computer from your Kubernetes cluster. You can change this behavior by changing **Disconnect after debugging** to `false` in the **Kubernetes Debugging Tools** section of the debugging options. After updating this setting, your development computer will remain connected when you stop and start debugging. To disconnect your development computer from you cluster click on the **Disconnect** button on the toolbar.
+> By default, stopping the debugging task also disconnects your development computer from your Kubernetes cluster. You can change this behavior by changing **Disconnect after debugging** to `false` in the **Kubernetes Debugging Tools** section of the **Tools** > **Options** dialog. After updating this setting, your development computer will remain connected when you stop and start debugging. To disconnect your development computer from you cluster click on the **Disconnect** button on the toolbar.
+>
+>![Screenshot of Kubernetes Debugging Options](media/bridge-to-kubernetes/kubernetes-debugging-options.png)
 
 ## Additional configuration
 
@@ -144,14 +138,6 @@ Bridge to Kubernetes can handle routing traffic and replicating environment vari
 
 You can find the diagnostic logs in `Bridge to Kubernetes` directory in your development computer's *TEMP* directory. 
 
-## Remove the sample application from your cluster
-
-Use the provided script to remove the sample application from your cluster.
-
-```azurecli-interactive
-./bridge-quickstart.sh -c -g MyResourceGroup -n MyAKS
-```
-
 ## Next steps
 
 Learn how Bridge to Kubernetes works.
@@ -159,15 +145,7 @@ Learn how Bridge to Kubernetes works.
 > [!div class="nextstepaction"]
 > [How Bridge to Kubernetes works](overview-bridge-to-kubernetes.md)
 
-[azds-cli]: /azure/dev-spaces/how-to/install-dev-spaces#install-the-client-side-tools
-[azds-vs-code]: https://marketplace.visualstudio.com/items?itemName=azuredevspaces.azds
-[azure-cli]: /cli/azure/install-azure-cli?view=azure-cli-lates&preserve-view=true
-[azure-cloud-shell]: /azure/cloud-shell/overview.md
-[az-aks-get-credentials]: /cli/azure/aks?view=azure-cli-latest&preserve-view=true#az-aks-get-credentials
-[az-aks-vs-code]: https://marketplace.visualstudio.com/items?itemName=ms-kubernetes-tools.vscode-aks-tools
 [todo-app-github]: https://github.com/Microsoft/mindaro
-[preview-terms]: https://azure.microsoft.com/support/legal/preview-supplemental-terms/
-[bikeshelper-cs-breakpoint]: https://github.com/Microsoft/mindaro/blob/master/samples/BikeSharingApp/ReservationEngine/BikesHelper.cs#L26
 [supported-regions]: https://azure.microsoft.com/global-infrastructure/services/?products=kubernetes-service
 [troubleshooting]: /azure/dev-spaces/troubleshooting#fail-to-restore-original-configuration-of-deployment-on-cluster
 [visual-studio]: https://www.visualstudio.com/vs/
