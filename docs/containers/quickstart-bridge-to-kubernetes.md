@@ -126,7 +126,9 @@ Navigate to the sample application by opening the public URL (the external IP ad
 Remove the breakpoint by putting your cursor on line 68 and hitting **F9**.
 
 > [!NOTE]
-> By default, stopping the debugging task also disconnects your development computer from your Kubernetes cluster. You can change this behavior by changing **Disconnect after debugging** to `false` in the **Kubernetes Debugging Tools** section of the debugging options. After updating this setting, your development computer will remain connected when you stop and start debugging. To disconnect your development computer from you cluster click on the **Disconnect** button on the toolbar.
+> By default, stopping the debugging task also disconnects your development computer from your Kubernetes cluster. You can change this behavior by changing **Disconnect after debugging** to `false` in the **Kubernetes Debugging Tools** section of the **Tools** > **Options** dialog. After updating this setting, your development computer will remain connected when you stop and start debugging. To disconnect your development computer from you cluster click on the **Disconnect** button on the toolbar.
+>
+>![Screenshot of Kubernetes Debugging Options](media/bridge-to-kubernetes/kubernetes-debugging-options.png)
 
 ## Additional configuration
 
