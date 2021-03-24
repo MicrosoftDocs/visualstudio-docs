@@ -347,7 +347,7 @@ A useful feature of templates is that they look very much like the files that th
 
 4. Verify the following properties of the **.tt** file:
 
-   | | |
+   |Property |Setting |
    |-|-|
    | **Custom Tool =** | **TextTemplatingFileGenerator** |
    | **Build Action =** | **None** |

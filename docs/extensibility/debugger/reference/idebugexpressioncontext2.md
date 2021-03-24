@@ -1,5 +1,6 @@
 ---
 title: IDebugExpressionContext2 | Microsoft Docs
+description: "This interface represents a context for expression evaluation"
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -7,14 +8,14 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugExpressionContext2 interface
 ms.assetid: 577fdaae-4b2d-4112-9839-ab899535fa6f
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 ---
 # IDebugExpressionContext2
-This interface represents a context for expression evaluation
+This interface represents a context for expression evaluation.
 
 ## Syntax
 
