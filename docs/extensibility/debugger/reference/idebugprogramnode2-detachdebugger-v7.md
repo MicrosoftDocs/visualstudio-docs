@@ -1,5 +1,6 @@
 ---
 title: IDebugProgramNode2::DetachDebugger_V7 | Microsoft Docs
+description: "This method is an old, deprecated form of the detach method used prior to Visual Studio 2005."
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:

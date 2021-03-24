@@ -1,5 +1,5 @@
 ---
-description: "This structure specifies information about a field type taken from metadata."
+description: "The BUILT_TYPE structure specifies information about a field type taken from metadata."
 title: BUILT_TYPE | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference

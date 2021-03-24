@@ -1,5 +1,6 @@
 ---
 title: IDebugProgramNode2::Attach_V7 | Microsoft Docs
+description: "This interface method is an old, deprecated attach method used prior to Visual Studio 2005."
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:

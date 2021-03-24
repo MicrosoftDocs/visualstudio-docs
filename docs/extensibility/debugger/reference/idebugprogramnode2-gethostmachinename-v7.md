@@ -1,5 +1,6 @@
 ---
 title: IDebugProgramNode2::GetHostMachineName_V7 | Microsoft Docs
+description: "This is old, deprecated method to get the host machine name used prior to Visual Studio 2005."
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
