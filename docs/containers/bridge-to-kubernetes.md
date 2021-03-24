@@ -34,18 +34,18 @@ In all, this extended TODO application is composed of six interrelated component
 
 ### Prerequisites
 
-- [MiniKube](https://kubernetes.io/docs/setup/learning-environment/minikube/) or another Kubernetes cluster installed
-- [Chocolatey](https://chocolatey.org/) package manager, to install MiniKube
+- a Kubernetes cluster 
 - On Windows 10, [Hyper-V](https://docs.microsoft.com/virtualization/hyper-v-on-windows)
-* [Visual Studio 2019][visual-studio] version 16.7 Preview 4 or greater running on Windows 10.
-* [Bridge to Kubernetes extension installed][btk-extension].
+- [Visual Studio 2019][visual-studio] version 16.7 Preview 4 or greater running on Windows 10.
+- [Bridge to Kubernetes extension installed][btk-extension].
 
 ## Check the cluster
 
-Open a command prompt, and check that the cluster is available and ready, and that the context for kubectl is set.
+Open a command prompt, and check that the kubectl is installed and on the path, the cluster you want to use is available and ready, and set the context to that cluster.
 
 ```cmd
-kubectl config view
+kubectl cluster-info
+kubectl config use-context todo-cluster
 ```
 
 ## Deploy the application
@@ -91,11 +91,11 @@ Open the .csproj in Visual Studio. In the project, select **Bridge to Kubernetes
 
 Click on the start button next to *Bridge to Kubernetes*. In the **Create profile for Bridge to Kubernetes** dialog:
 
-* Select your cluster name.
-* Select *todo-app* for your namespace.
-* Select *database-api* for the service to redirect.
-* Select *app* for the launch profile.
-* Select the same URL you used previously to launch your browser, http://{external-ip}:{local-port}
+- Select your cluster name.
+- Select *todo-app* for your namespace.
+- Select *database-api* for the service to redirect.
+- Select *app* for the launch profile.
+- Select the same URL you used previously to launch your browser, http://{external-ip}:{local-port}
 
 ![Choose Bridge to Kubernetes Cluster](media/bridge-to-kubernetes/configure-bridge-debugging.png)
 
@@ -103,7 +103,7 @@ Choose whether or not you want to run isolated, meaning that others who are usin
 
 Click **OK**. All traffic in the Kubernetes cluster is redirected for the *database-api* service to the version of your application running in your development computer. Bridge to Kubernetes also routes all outbound traffic from the application back to your Kubernetes cluster.
 
-To edit these settings later, choose **Debug** > {SolutionName} **Debug Properties**, and click the **Change** button.
+To edit these settings later, for example, if you want to test with a different Kubernetes service, choose **Debug** > {SolutionName} **Debug Properties**, and click the **Change** button.
 
 > [!NOTE]
 > You will be prompted to allow the *EndpointManager* to run elevated and modify your hosts file.
