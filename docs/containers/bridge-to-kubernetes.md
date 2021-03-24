@@ -94,7 +94,6 @@ Click on the start button next to *Bridge to Kubernetes*. In the **Create profil
 - Select your cluster name.
 - Select *todo-app* for your namespace.
 - Select *database-api* for the service to redirect.
-- Select *app* for the launch profile.
 - Select the same URL you used previously to launch your browser, http://{external-ip}:{local-port}
 
 ![Choose Bridge to Kubernetes Cluster](media/bridge-to-kubernetes/configure-bridge-debugging.png)
@@ -102,8 +101,6 @@ Click on the start button next to *Bridge to Kubernetes*. In the **Create profil
 Choose whether or not you want to run isolated, meaning that others who are using the cluster won't be affected by your changes. This isolation mode is accomplished by routing your requests to your copy of each affected service, but routing all other traffic normally. More explanation on how this is done can be found at [How Bridge to Kubernetes Works][btk-overview-routing].
 
 Click **OK**. All traffic in the Kubernetes cluster is redirected for the *database-api* service to the version of your application running in your development computer. Bridge to Kubernetes also routes all outbound traffic from the application back to your Kubernetes cluster.
-
-To edit these settings later, for example, if you want to test with a different Kubernetes service, choose **Debug** > {SolutionName} **Debug Properties**, and click the **Change** button.
 
 > [!NOTE]
 > You will be prompted to allow the *EndpointManager* to run elevated and modify your hosts file.
@@ -117,13 +114,15 @@ Your development computer is connected when the status bar shows you are connect
 
 Once your development computer is connected, traffic starts redirecting to your development computer for the service you are replacing.
 
+> [!NOTE] To edit the debug profile later, for example, if you want to test with a different Kubernetes service, choose **Debug** > {SolutionName} **Debug Properties**, and click the **Change** button.
+
 ## Set a break point
 
-Open MongoHelper.cs and click somewhere on line 68 to put your cursor there. Set a breakpoint by hitting *F9* or selecting **Debug** > **Toggle Breakpoint**.
+Open MongoHelper.cs and click somewhere on line 68 in the CreateTask method to put your cursor there. Set a breakpoint by hitting *F9* or selecting **Debug** > **Toggle Breakpoint**.
 
-Navigate to the sample application by opening the public URL (the external IP address for the frontend service). To resume the service, hit **F5** or click **Debug** > **Continue**. Return to your browser and verify the page shows you have rented the bike.
+Navigate to the sample application by opening the public URL (the external IP address for the frontend service). To resume the service, hit **F5** or click **Debug** > **Continue**.
 
-Remove the breakpoint by putting your cursor on line 68 and hitting **F9**.
+Remove the breakpoint by putting your cursor on the line with the breakpoint and hitting **F9**.
 
 > [!NOTE]
 > By default, stopping the debugging task also disconnects your development computer from your Kubernetes cluster. You can change this behavior by changing **Disconnect after debugging** to `false` in the **Kubernetes Debugging Tools** section of the **Tools** > **Options** dialog. After updating this setting, your development computer will remain connected when you stop and start debugging. To disconnect your development computer from you cluster click on the **Disconnect** button on the toolbar.
@@ -136,7 +135,7 @@ Bridge to Kubernetes can handle routing traffic and replicating environment vari
 
 ## Using logging and diagnostics
 
-You can find the diagnostic logs in `Bridge to Kubernetes` directory in your development computer's *TEMP* directory. 
+You can find the diagnostic logs in `Bridge to Kubernetes` directory in your development computer's *TEMP* directory.
 
 ## Next steps
 
