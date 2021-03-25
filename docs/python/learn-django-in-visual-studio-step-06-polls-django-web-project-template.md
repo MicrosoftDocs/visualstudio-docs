@@ -8,6 +8,7 @@ author: JoshuaPartlow
 ms.author: joshuapa
 manager: jmartens
 ms.custom: seodec18
+monikerRange: vs-2017
 ms.workload:
   - python
   - data-science

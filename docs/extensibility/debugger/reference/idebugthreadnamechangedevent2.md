@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugThreadNameChangedEvent2
 ms.assetid: 34c1652e-f019-48ba-8b26-ace20f8a158c
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk

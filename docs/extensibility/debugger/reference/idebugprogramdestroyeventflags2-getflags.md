@@ -7,8 +7,8 @@ helpviewer_keywords:
 - GetFlags
 - IDebugProgramDestroyEventFlags2::GetFlags
 ms.assetid: dd53bd0c-459a-4077-ba81-780defb71e87
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk

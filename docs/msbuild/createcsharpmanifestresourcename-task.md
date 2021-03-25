@@ -2,7 +2,7 @@
 title: CreateCSharpManifestResourceName Task | Microsoft Docs
 description: Use the MSBuild CreateCSharpManifestResourceName task to create a C#-style manifest name from a given .resx file name or other resource.
 ms.custom: SEO-VS-2020
-ms.date: 11/04/2016
+ms.date: 11/15/2020
 ms.topic: reference
 dev_langs:
 - VB
@@ -37,7 +37,7 @@ Creates a C#-style manifest name from a given *.resx* file name or other resourc
 
 ## Remarks
 
- The [CreateVisualBasicManifestResourceName task](../msbuild/createvisualbasicmanifestresourcename-task.md) determines the appropriate manifest resource name to assign to a given *.resx* or other resource file. The task provides a logical name to a resource file, and then attaches it to an output parameter as metadata.
+ The [CreateCSharpManifestResourceName task](../msbuild/createcsharpmanifestresourcename-task.md) determines the appropriate manifest resource name to assign to a given *.resx* or other resource file. The task provides a logical name to a resource file, and then attaches it to an output parameter as metadata.
 
  In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension base class](../msbuild/taskextension-base-class.md).
 

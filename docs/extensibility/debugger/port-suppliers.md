@@ -8,8 +8,8 @@ helpviewer_keywords:
 - port suppliers
 - debugging [Debugging SDK], port suppliers
 ms.assetid: a8f3db96-1a13-4e93-9ef6-0861880369e0
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk

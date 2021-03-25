@@ -8,8 +8,8 @@ helpviewer_keywords:
 - symbol handler
 - debugging [Debugging SDK], symbol handler
 ms.assetid: 5fce651b-fead-4418-81b0-a011df7644ab
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk

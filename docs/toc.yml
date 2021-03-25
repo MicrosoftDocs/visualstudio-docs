@@ -905,6 +905,8 @@
   items:
   - name: The new Git experience in Visual Studio
     href: ide/git-with-visual-studio.md
+  - name: How Visual Studio makes source control easy
+    href: ide/git-visual-studio-source-control.md
   - name: Compare Git and Team Explorer side-by-side
     href: ide/git-team-explorer-feature-comparison.md
 - name: Test >>
