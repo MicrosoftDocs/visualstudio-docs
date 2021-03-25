@@ -4,8 +4,8 @@ description: Learn about the differences between packaging software as a NuGet p
 ms.custom: SEO-VS-2020
 ms.date: 08/02/2019
 ms.topic: conceptual
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - multiple

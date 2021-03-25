@@ -8,8 +8,8 @@ helpviewer_keywords:
 - commands, routing
 - command routing, Visual Studio SDK
 ms.assetid: a9c7f9ae-3594-4557-a314-8cf76f5f8772
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
