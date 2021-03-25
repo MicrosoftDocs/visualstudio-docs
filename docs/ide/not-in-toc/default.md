@@ -1,9 +1,9 @@
 ---
 title: Default page for F1 help
 description: "Default page for F1 help requests for Visual Studio"
-ms.date: 08/20/2020
+ms.date: 03/25/2021
 ms.topic: troubleshooting
-ms.custom: contperf-fy21q1
+ms.custom: contperf-fy21q3
 robots: noindex,nofollow
 f1_keywords:
 - vs.ambient
@@ -22,14 +22,14 @@ If you're looking for F1 help on a window, a keyword, or an API name:
 - Try searching on [docs.microsoft.com](/)
 - Try searching using a search engine.
 
-## Find help on a keyword or API
+## Get help on a keyword or API
 
-- For C# help, see the [C# programming guide](/dotnet/csharp/programming-guide/) or [language reference](/dotnet/csharp/language-reference/).
-- For Visual Basic help, see the [Visual Basic language features](/dotnet/visual-basic/programming-guide/language-features/) or [language reference](/dotnet/visual-basic/language-reference/).
-- For Python help, see [Python documentation](https://docs.python.org/).
-- For C++ help, see [C/C++ language and standard libraries reference](/cpp/cpp/c-cpp-language-and-standard-libraries).
-- For F# help, see the [F# guide](/dotnet/fsharp/).
-- For TypeScript help, see the [TypeScript documentation](https://www.typescriptlang.org/docs).
+- [C# programming guide](/dotnet/csharp/programming-guide/) or [language reference](/dotnet/csharp/language-reference/).
+- [Visual Basic language features](/dotnet/visual-basic/programming-guide/language-features/) or [language reference](/dotnet/visual-basic/language-reference/).
+- [Python documentation](https://docs.python.org/).
+- [C/C++ language and standard libraries reference](/cpp/cpp/c-cpp-language-and-standard-libraries).
+- [F# guide](/dotnet/fsharp/).
+- [TypeScript documentation](https://www.typescriptlang.org/docs).
 
 ## Re-map or disable the F1 help key
 
