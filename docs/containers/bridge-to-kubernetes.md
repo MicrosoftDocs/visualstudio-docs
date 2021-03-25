@@ -34,8 +34,7 @@ In all, this extended TODO application is composed of six interrelated component
 
 ### Prerequisites
 
-- a Kubernetes cluster 
-- On Windows 10, [Hyper-V](https://docs.microsoft.com/virtualization/hyper-v-on-windows)
+- a Kubernetes cluster
 - [Visual Studio 2019][visual-studio] version 16.7 Preview 4 or greater running on Windows 10.
 - [Bridge to Kubernetes extension installed][btk-extension].
 
@@ -45,8 +44,10 @@ Open a command prompt, and check that the kubectl is installed and on the path, 
 
 ```cmd
 kubectl cluster-info
-kubectl config use-context todo-cluster
+kubectl config use-context {context-name}
 ```
+
+where {context-name} is the name of the context for the cluster you want to use for the todo-app sample.
 
 ## Deploy the application
 
@@ -66,7 +67,7 @@ kubectl apply -n todo-app -f deployment.yaml
 
 This is a simple deployment that exposes the frontend using a service of type `LoadBalancer`. Wait for all the pods to be running and for the external IP of the `frontend` service to become available.
 
-If you are testing with MiniKube, you will need to use `minikube tunnel` to resolve an external IP. If you're using AKS, an external IP is assigned automatically. Use the following command to monitor the `frontend` service to wait until it's up and running:
+If you are testing with MiniKube, you will need to use `minikube tunnel` to resolve an external IP. If you're using AKS or another cloud-based Kubernetes provider, an external IP is assigned automatically. Use the following command to monitor the `frontend` service to wait until it's up and running:
 
 ```output
 kubectl get service -n todo-app frontend --watch
@@ -85,7 +86,7 @@ Test the running app in the browser. As you add, complete and delete todo items,
 
 ## Connect to your cluster and debug a service
 
-Open the .csproj in Visual Studio. In the project, select **Bridge to Kubernetes** from the launch settings dropdown as shown below.
+Open *samples\todo-app\database-api\database-api.csproj* in Visual Studio. In the project, select **Bridge to Kubernetes** from the launch settings dropdown as shown below.
 
 ![Choose Bridge to Kubernetes](media/bridge-to-kubernetes/choose-bridge-to-kubernetes.png)
 
@@ -115,7 +116,7 @@ Your development computer is connected when the status bar shows you are connect
 Once your development computer is connected, traffic starts redirecting to your development computer for the service you are replacing.
 
 > [!NOTE]
-> To edit the debug profile later, for example, if you want to test with a different Kubernetes service, choose **Debug** > {SolutionName} **Debug Properties**, and click the **Change** button.
+> To edit the debug profile later, for example, if you want to test with a different Kubernetes service, choose **Debug** > **Debug Properties**, and click the **Change** button.
 
 ## Set a break point
 
