@@ -24,7 +24,7 @@ It looks like we couldn't find what you were looking for, and we apologize. You 
 - [F# guide](/dotnet/fsharp/).
 - [TypeScript documentation](https://www.typescriptlang.org/docs).
 
-## Search for help on a keyword or API name
+## Search for help on keyword, API name, file type, or UI settings
 
 If you're looking for F1 help on a keyword or API name:
 
