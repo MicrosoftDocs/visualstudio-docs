@@ -267,3 +267,6 @@ Congratulations on completing this tutorial!
 
 > [!div class="nextstepaction"]
 > [Deploy the app to Linux App Service](../javascript/publish-nodejs-app-azure.md)
+
+> [!div class="nextstepaction"]
+> [AngularJS language service extension](https://devblogs.microsoft.com/visualstudio/angular-language-service-for-visual-studio)

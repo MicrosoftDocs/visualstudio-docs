@@ -281,7 +281,10 @@ In this tutorial, you begin with a simple project containing code for an ASP.NET
 
 ## Next steps
 
-You may want to learn more details about using TypeScript with ASP.NET Core.
+You may want to learn more details about using TypeScript with ASP.NET Core. If you are interested in AngularJS programming in Visual Studio, you can use the [AngularJS language service extension](https://devblogs.microsoft.com/visualstudio/angular-language-service-for-visual-studio) for Visual Studio.
 
 > [!div class="nextstepaction"]
 > [ASP.NET Core and TypeScript](https://www.typescriptlang.org/docs/handbook/asp-net-core.html)
+
+> [!div class="nextstepaction"]
+> [AngularJS language service extension](https://devblogs.microsoft.com/visualstudio/angular-language-service-for-visual-studio)
