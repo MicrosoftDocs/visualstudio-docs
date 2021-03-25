@@ -1,7 +1,7 @@
 ---
 title: Introduction to editing for JavaScript developers
 description: This introduction to the code editor in Visual Studio shows some of the ways that Visual Studio makes writing, navigating, and understanding JavaScript code easier.
-ms.date: 12/13/2018
+ms.date: 03/25/2021
 ms.topic: how-to
 author: "mikejo5000"
 ms.author: "mikejo"

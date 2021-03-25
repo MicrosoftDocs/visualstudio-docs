@@ -1,7 +1,7 @@
 ---
 title: "Create an ASP.NET Core app with TypeScript"
 description: In this tutorial, you create an app using ASP.NET Core and TypeScript
-ms.date: 03/16/2020
+ms.date: 03/25/2021
 ms.topic: tutorial
 ms.devlang: javascript
 author: mikejo5000
