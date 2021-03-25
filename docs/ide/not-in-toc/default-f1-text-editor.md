@@ -11,11 +11,11 @@ manager: jmartens
 author: mikejo5000
 ms.author: mikejo
 ---
-# F1 help for the code editor
+# Code editor F1 help
 
 It looks like we couldn't find what you were looking for, and we apologize. You can help us improve by leaving feedback through the buttons at the bottom of this page, or try one of the following suggestions.
 
-## Get help on a keyword or API
+## Get help for your programming language?
 
 - [C# programming guide](/dotnet/csharp/programming-guide/) or [language reference](/dotnet/csharp/language-reference/).
 - [Visual Basic language features](/dotnet/visual-basic/programming-guide/language-features/) or [language reference](/dotnet/visual-basic/language-reference/).
@@ -34,7 +34,7 @@ If you're looking for F1 help on a keyword or API name:
 
 ## Cursor position
 
-If you're looking for F1 help on a keyword or API name, be sure you position the cursor inside or just to the right of the word before you press **F1**. If that doesn't fix the issue, try one of the following suggestions.
+If you're looking for F1 help on a keyword or API name, be sure you position the cursor inside or just to the right of the word before you press **F1**.
 
 ## Find the source code for an API
 

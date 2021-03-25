@@ -22,7 +22,7 @@ If you're looking for F1 help on a window, a keyword, or an API name:
 - Try searching on [docs.microsoft.com](/)
 - Try searching using a search engine.
 
-## Get help on a keyword or API
+## Get help for your programming language?
 
 - [C# programming guide](/dotnet/csharp/programming-guide/) or [language reference](/dotnet/csharp/language-reference/).
 - [Visual Basic language features](/dotnet/visual-basic/programming-guide/language-features/) or [language reference](/dotnet/visual-basic/language-reference/).
