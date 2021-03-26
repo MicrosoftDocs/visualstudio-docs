@@ -34,7 +34,7 @@ This refactoring applies to:
 
    - C#:
 
-       !Screenshot showing C# code for the Program class. In the Main function of that class, a line of code highlighted.](media/extractmethod-highlight-cs.png)
+       ![Screenshot showing C# code for the Program class. In the Main function of that class, a line of code highlighted.](media/extractmethod-highlight-cs.png)
 
    - Visual Basic:
 
