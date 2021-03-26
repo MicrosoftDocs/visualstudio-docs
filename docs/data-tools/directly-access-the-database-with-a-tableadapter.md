@@ -53,7 +53,7 @@ Call the TableAdapter `DbDirect` method that performs the task you are trying to
     > [!NOTE]
     > If you do not have an instance available, instantiate the TableAdapter that you want to use.
 
-     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataSaving/VB/Class1.vb#18" id="Snippet18":::
+     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataSaving/VB/Class1.vb" id="Snippet18":::
      :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataSaving/CS/Class1.cs" id="Snippet18":::
 
 ### To delete records directly from a database
