@@ -58,6 +58,17 @@ Use this setting to determine how zoom works when editing a XAML document.
 
 These settings determine Designer behavior when editing a XAML document.
 
+## Default Zoom Setting
+
+Use this setting to determine default zoom value for viewing the XAML document.
+
+|Name|Description|
+|-|-|
+|**Last Used**|Use the last used zoom value for all the XAML documents by default. If the XAML file is opening for the first time, then it will use "Fit All" setting for the first time only.|
+|**Fit All**|Use this option to set zoom value to "Fit All" for the XAML designer. If the XAML document is closed and reopened, then the last set value will persist for that session but for different sessions "Fit All" will be used by default.|
+
+These settings determine Designer behavior when editing a XAML document.
+
 |Name|Description|
 |-|-|
 |**Automatically name interactive elements on creation**|Specifies whether a default name is provided for a new interactive element when you add one to the Designer.|
