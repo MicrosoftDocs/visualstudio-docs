@@ -76,12 +76,12 @@ If you are scripting the deployment of Visual Studio in an offline environment t
 
 ## What are the certificates files in the Certificates folder?
 
-* **ManifestRootCertificate.cer** contains:
+* **manifestRootCertificate.cer** contains:
   * Root certificate: **Microsoft Root Certificate Authority 2011**
-* **ManifestCounterSignCertificates.cer** and **Vs_installer_opc.SignCertificates.cer** contain:
+* **manifestCounterSignRootCertificate.cer** and **vs_installer_opc.RootCertificate.cer** contain:
   * Root certificate: **Microsoft Root Certificate Authority 2010**
  
-The Visual Studio Installer requires only the root certificates to be installed on the system.  All of these certificates are required for Windows 7 Service Pack 1 systems that do not have the latest Windows Updates installed.
+The Visual Studio Installer requires only the root certificates to be installed on the system. All of these certificates are required for Windows 7 Service Pack 1 systems that do not have the latest Windows Updates installed.
 
 ## Why are the certificates from the Certificates folder not installed automatically?
 
@@ -112,7 +112,7 @@ If the certificates names were not in the **Issued To** columns, they must be in
 
 ## Install Visual Studio
 
-After you install the certificates to the client machine, then you are ready to [install Visual Studio from the local cache](../install/create-an-offline-installation-of-visual-studio.md#step-3---install-visual-studio-from-the-local-cache), or [deploy Visual Studio from the network layout share](create-a-network-installation-of-visual-studio.md#deploy-from-a-network-installation).
+After you install the certificates on the client machine, then you are ready to [install Visual Studio from the local cache](../install/create-an-offline-installation-of-visual-studio.md#step-3---install-visual-studio-from-the-local-cache), or [deploy Visual Studio from the network layout share](create-a-network-installation-of-visual-studio.md#deploy-from-a-network-installation) to the client machine.
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
