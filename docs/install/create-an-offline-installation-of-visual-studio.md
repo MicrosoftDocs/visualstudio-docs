@@ -90,7 +90,7 @@ To get the latest bootstrapper for Visual Studio 2017 version 15.9, go to the [V
 
 ::: moniker range="vs-2019"
 
-Start by downloading the Visual Studio 2019 bootstrapper from either the [Visual Studio downloads page](https://visualstudio.microsoft.com/downloads) or the [Visual Studio 2019 Releases](https://docs.microsoft.com/en-us/visualstudio/releases/2019/history) page for your chosen version and edition of Visual Studio. Your setup file&mdash;or bootstrapper&mdash;will match or be similar to one of the following.
+Start by downloading the Visual Studio 2019 bootstrapper from either the [Visual Studio downloads page](https://visualstudio.microsoft.com/downloads) or the [Visual Studio 2019 Releases](https://docs.microsoft.com/visualstudio/releases/2019/history) page for your chosen version and edition of Visual Studio. Your setup file&mdash;or bootstrapper&mdash;will match or be similar to one of the following.
 
 | Edition                    | File                                                                    |
 |----------------------------|-------------------------------------------------------------------------|
@@ -111,7 +111,7 @@ Start by downloading the Visual Studio 2019 bootstrapper from either the [Visual
 ::: moniker range="vs-2019"
 
 >[!TIP]
->If you previously downloaded a bootstrapper file and want to verify its version, here's how. In Windows, open File Explorer, right-click the bootstrapper file, choose **Properties**, choose the **Details** tab, and then view the **Product version** number. To match that number to a release of Visual Studio, refer to the [Visual Studio 2019 Releases](https://docs.microsoft.com/en-us/visualstudio/releases/2019/history) page.
+>If you previously downloaded a bootstrapper file and want to verify its version, here's how. In Windows, open File Explorer, right-click the bootstrapper file, choose **Properties**, choose the **Details** tab, and then view the **Product version** number. To match that number to a release of Visual Studio, refer to the [Visual Studio 2019 Releases](https://docs.microsoft.com/visualstudio/releases/2019/history) page.
 
 ::: moniker-end
 
@@ -183,10 +183,11 @@ c:\vslayout\vs_enterprise.exe --noweb --add Microsoft.VisualStudio.Workload.Mana
 
 > [!NOTE]
 > If you get an error that a signature is invalid, you must [install updated certificates](install-certificates-for-visual-studio-offline.md). Open the Certificates folder in your offline cache. Double-click each of the certificate files, and then click through the Certificate Manager wizard. If you're asked for a password, leave it blank.
-> ::: moniker range="vs-2019"
+
+::: moniker range="vs-2019"
 > [!TIP]
 > For offline installations, if you get an error message that says "A product matching the following parameters cannot be found", make sure that you are using the `--noweb` switch with version 16.3.5 or later.
->
+
 ::: moniker-end
 
 ### List of language locales
