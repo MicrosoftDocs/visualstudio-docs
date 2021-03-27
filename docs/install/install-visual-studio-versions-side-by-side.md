@@ -44,7 +44,7 @@ Before you install versions side-by-side, review the following conditions:
 
 ## Install minor Visual Studio versions side-by-side
 
-When upgrading from one minor version of Visual Studio to the next, the Visual Studio installer will, by default, update your current install to the latest version in that channel. For example, when installing the 16.9.4 release, the installer will try to replace your current install of 16.9.3 (or lower), since both versions are in the Visual Studio 2019 release channel. This helps ensure older versions of Visual Studio aren't taking up room on your machine. In some specific cases, it might be helpful to install minor releases side-by-side. In our example, this would mean having both 16.9.3 and 16.9.4 on the same machine. Refer to [Visual Studio release rhythm](https://docs.microsoft.com/visualstudio/productinfo/release-rhythm) for more information about channels. 
+When upgrading from one minor version of Visual Studio to the next, the Visual Studio installer will, by default, update your current install to the latest version in that channel. For example, suppose 16.9.4 was just released. The installer will try to replace your current install of 16.9.3 (or lower) with 16.9.4, since both versions are part of the [Visual Studio 2019 release channel](https://docs.microsoft.com/visualstudio/productinfo/release-rhythm).  Replacing the older release with the newer release during update helps ensure older versions of Visual Studio aren't taking up room on your machine.  However, in some specific cases, it might be helpful to install different minor release versions of Visual Studio side-by-side.  For example, you may want to have both 16.9.3 and 16.9.4 on the same machine. This page describes how to accomplish this. 
 
 ::: moniker range="vs-2017"
 1. Download the latest bootstrapper for Visual Studio 2017 version 15.9 from the  [Visual Studio previous versions](https://visualstudio.microsoft.com/vs/older-downloads/) page for the version that you would like to install side-by-side with your existing version of Visual Studio.
@@ -58,8 +58,9 @@ When upgrading from one minor version of Visual Studio to the next, the Visual S
 3. Run the following command, specifying a new folder path for the installation location and replacing the .exe file name with the appropriate bootstrapper name for the version of Visual Studio you are installing. The .exe file name should match or be similar to one of the following files:
    * vs_enterprise.exe for Visual Studio Enterprise
    * vs_professional.exe for Visual Studio Professional
+::: moniker range="vs-2019"
    * vs_community.exe for Visual Studio Community
-
+::: moniker-end   
    ```
    vs_Enterprise.exe --installPath "C:\Program Files (x86)\Microsoft Visual Studio\<AddNewPath>"
    ```
