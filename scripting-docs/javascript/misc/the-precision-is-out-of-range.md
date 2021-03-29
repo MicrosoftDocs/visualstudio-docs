@@ -1,4 +1,5 @@
 ---
+description: "You attempted to pass an invalid argument to the function Number.prototype.toPrecision."
 title: "The precision is out of range | Microsoft Docs"
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows

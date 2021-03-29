@@ -7,8 +7,8 @@ ms.topic: conceptual
 helpviewer_keywords:
 - source control packages, features
 ms.assetid: 26c3ffda-22b8-4345-9fb6-2883f37699aa
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk

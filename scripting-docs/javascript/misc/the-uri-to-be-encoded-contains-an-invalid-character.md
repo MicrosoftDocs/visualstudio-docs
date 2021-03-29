@@ -1,4 +1,5 @@
 ---
+description: "You attempted to encode a string as a URI, but it contained invalid characters."
 title: "The URI to be encoded contains an invalid character | Microsoft Docs"
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows

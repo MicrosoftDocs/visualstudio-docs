@@ -1,4 +1,5 @@
 ---
+description: "You did not include the left brace that marks the beginning of the function body."
 title: "Expected '{' | Microsoft Docs"
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows

@@ -14,6 +14,9 @@ ms.technology: devinit
 ---
 # require-azureartifactscredentialprovider
 
+> [!IMPORTANT]
+> As of April 12th 2021, connecting to GitHub Codespaces from Visual Studio 2019 will no longer be supported and this private preview has concluded. We’re focused on evolving experiences for a cloud-powered inner loop and VDI solutions optimized for a broad set of Visual Studio workloads. As part of this `devinit` and associated tools will no longer be available. We encourage you to be involved in our developer community forum for Visual Studio for information on future previews and roadmap information.
+
 The `require-azureartifactscredentialprovider` tool installs the Azure Artifacts Credential Provider. The Azure Artifacts Credential Provider automates the acquisition of credentials needed to restore NuGet packages as part of your .NET development workflow. Read more about Azure Artifacts Credential Provider [here](https://github.com/microsoft/artifacts-credprovider/blob/master/README.md).
 
 ## Usage

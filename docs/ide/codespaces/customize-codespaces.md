@@ -15,6 +15,9 @@ monikerRange: vs-2019
 
 # How to customize a codespace (Preview)
 
+> [!Important] 
+> As of April 12th 2021, connecting to GitHub Codespaces from Visual Studio 2019 will no longer be supported and this private preview has concluded. We're focused on evolving experiences for a cloud-powered inner loop and VDI solutions optimized for a broad set of Visual Studio workloads. We encourage you to be involved in our [developer community forum](https://developercommunity.visualstudio.com/home) for Visual Studio for information on future previews and roadmap information. 
+
 GitHub Codespaces provide a full development environment in the cloud. For Windows-based development using Visual Studio 2019, the GitHub Codespaces default instances provide a great starting point but you can also customize the environment for your specific project.
 
 ## Installed software

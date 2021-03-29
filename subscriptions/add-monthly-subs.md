@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: cabuschl
 manager: cabuschl
 ms.assetid: 36f0d9f1-fe28-469f-a54c-dc46638270a8
-ms.date: 09/03/2020
+ms.date: 03/19/2021
 ms.topic: how-to
 description:  Learn how to newly purchased monthly Visual Studio subscriptions to the Subscriptions Administration Portal
 ---
@@ -34,6 +34,9 @@ The steps to add monthly subscriptions depend on what kinds of subscriptions you
 ## Things to keep in mind
 - The option to add new monthly subscriptions will only be available the first time you purchase them.  Once you've added monthly subscriptions, we will check for new subscriptions each time you sign in to the portal. 
 - When new subscriptions are found, you may see that they are already assigned to subscribers.  That's because there are other admins with access to the Azure subscription, and they have already assigned the new Visual Studio subscriptions to users.  Now that you have also added them to your portal, you can administer those subscriptions. 
+
+## Support resources
+- For assistance with administration of Visual Studio Subscriptions, contact [Visual Studio subscriptions support](https://aka.ms/vsadminhelp).
 
 ## Next steps
 Now that you've added subscriptions, you're ready to assign them to users.  You can do that in several ways:

@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: c15f7e18-b280-4902-a60d-2c2598653207
-ms.date: 02/19/2021
+ms.date: 03/18/2021
 ms.topic: conceptual
 description:  Learn about the Azure Community Support benefit included in selected Visual Studio subscriptions.
 ---
@@ -73,7 +73,8 @@ Availability of the Azure Community benefit depends on your subscription level a
 |                                       MSDN Platforms (Standard)                                       |    VL, Retail     |   Available    |    Yes     |
 | Visual Studio Enterprise (monthly cloud), Visual Studio Professional (monthly cloud)|        All        | Not available |     No     |
 
-<sup>1</sup>  *Includes:  Not for Resale (NFR), Microsoft FTE, Most Valuable Professional (MVP), Regional Director (RD), Visual Studio Industry Partner (VSIP), BizSpark, Imagine, Microsoft Certified Trainer (MCT)*
+<sup>1</sup>  *Includes:  Not for Resale (NFR), Microsoft FTE, Most Valuable Professional (MVP), Regional Director (RD), Visual Studio Industry Partner (VSIP), BizSpark, Imagine, Microsoft Certified Trainer (MCT).
+Excludes:  NFR Basic*
 
 > [!NOTE]
 > Microsoft no longer offers Visual Studio Professional Annual subscriptions and Visual Studio Enterprise Annual subscriptions in Cloud Subscriptions. There will be no change to existing customers experience and ability to renew, increase, decrease, or cancel their subscriptions. New customers are encouraged to go to [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/) to explore different options to purchase Visual Studio.

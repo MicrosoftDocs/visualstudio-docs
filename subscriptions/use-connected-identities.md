@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: v-evwin
 manager: lank
 ms.assetid: 50ce0445-ef1a-4e92-b9d0-aebb2155a111
-ms.date: 10/28/2020
+ms.date: 02/19/2021
 ms.topic: conceptual
 robots: "noindex, nofollow"
 description:  Learn how to work with connected Microsoft accounts and Azure Active Directory identities
@@ -36,6 +36,9 @@ A:  Please see our [Contact your subscriptions admin](contact-my-admin.md) artic
 
 ### Q: I'm an admin.  How do I use this?
 A:  Implementing connected identities is simple.  Check out [this article](personal-email-sign-ins.md) for more information. 
+
+## Resources
+- For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, see Visual Studio [Subscriptions support](https://aka.ms/vssubscriberhelp).
 
 ## See also
 - [Visual Studio documentation](/visualstudio/)

@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IEEVisualizerDataProvider::CanSetObjectForVisualizer method
 ms.assetid: 70fd3c6f-2f82-43a3-993b-c1dc8aa080bf
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk

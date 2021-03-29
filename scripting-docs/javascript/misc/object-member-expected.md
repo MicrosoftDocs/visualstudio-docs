@@ -1,4 +1,5 @@
 ---
+description: "You attempted to perform an operation on an object's data member, but the member does not exist."
 title: "Object member expected | Microsoft Docs"
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows

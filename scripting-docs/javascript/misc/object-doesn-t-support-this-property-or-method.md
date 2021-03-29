@@ -1,4 +1,5 @@
 ---
+description: "You specified a property or method that does not exist for this object."
 title: "Object doesn't support this property or method | Microsoft Docs"
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows

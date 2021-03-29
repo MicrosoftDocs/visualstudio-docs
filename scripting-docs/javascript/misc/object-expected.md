@@ -1,4 +1,5 @@
 ---
+description: "You attempted to invoke a method or property on an object of a type other than Object, or you passed an argument of a type other than Object when an Object was required."
 title: "Object expected | Microsoft Docs"
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows

@@ -51,6 +51,7 @@ All **\<Framework> Web Project** templates create a starter web app with an iden
 | **Flask Web Project** | Generates an app whose static files are contained in the *static* folder. Code in *views.py* handles routing, with page templates using the Jinja engine contained in the *templates* folder. The *runserver.py* file provides startup code. See [Learn Flask Step 4](learn-flask-visual-studio-step-04-full-flask-project-template.md). |
 | **Flask/Jade Web Project** | Generates the same app as with the **Flask Web Project** template but using the Jade extension for the Jinja templating engine. |
 
+::: moniker range="vs-2017"
 ### Polls group
 
 The **Polls \<framework> Web Project** templates create a starter web app through which users can vote on different poll questions. Each app builds upon the structure of the **Web** project templates to use a database to manage the polls and user responses. The apps include appropriate data models and a special app page (/seed) that loads polls from a *samples.json* file.
@@ -61,6 +62,7 @@ The **Polls \<framework> Web Project** templates create a starter web app throug
 | **Polls Django Web Project** | Generates a Django project and a Django app with three pages and a SQLite database. Includes customizations to the Django administrative interface to allow an authenticated administrator to create and manage polls. For more information, see [Django templates](python-django-web-application-project-template.md) and [Learn Django Step 6](learn-django-in-visual-studio-step-06-polls-django-web-project-template.md). |
 | **Polls Flask Web Project** | Generates an app that can run against an in-memory database, MongoDB, or Azure Table Storage, which is configured using the `REPOSITORY_NAME` environment variable. The data models and data store code are contained in the *models* folder, and the *settings.py* file contains code to determine which data store is used. The app uses the Jinja engine for page templates. See [Learn Flask Step 5](learn-flask-visual-studio-step-05-polls-flask-web-project-template.md). |
 | **Polls Flask/Jade Web Project** | Generates the same app as with the **Polls Flask Web Project** template but using the Jade extension for the Jinja templating engine. |
+::: moniker-end
 
 ## Install project requirements
 

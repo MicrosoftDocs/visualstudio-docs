@@ -14,6 +14,9 @@ ms.technology: devinit
 ---
 # eShopOnWeb
 
+> [!IMPORTANT]
+> As of April 12th 2021, connecting to GitHub Codespaces from Visual Studio 2019 will no longer be supported and this private preview has concluded. We’re focused on evolving experiences for a cloud-powered inner loop and VDI solutions optimized for a broad set of Visual Studio workloads. As part of this `devinit` and associated tools will no longer be available. We encourage you to be involved in our developer community forum for Visual Studio for information on future previews and roadmap information.
+
 This example illustrates how to customize the dotnet architecture example [eShopOnWeb](https://github.com/dotnet-architecture/eShopOnWeb) to automatically be provisioned with [GitHub Codespaces](https://github.com/features/codespaces).
 
 ## PostCloneSetup.ps1

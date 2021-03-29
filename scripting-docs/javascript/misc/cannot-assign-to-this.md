@@ -1,4 +1,5 @@
 ---
+description: "You attempted to assign a value to this."
 title: "Cannot assign to 'this' | Microsoft Docs"
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows

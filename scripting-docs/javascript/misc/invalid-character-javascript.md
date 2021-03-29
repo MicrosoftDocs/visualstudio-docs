@@ -1,4 +1,5 @@
 ---
+description: "You composed an identifier using a character (or characters) not recognized as valid by the JavaScript compiler."
 title: "Invalid character (JavaScript) | Microsoft Docs"
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows

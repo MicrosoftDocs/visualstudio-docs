@@ -1,4 +1,5 @@
 ---
+description: "You attempted to use the continue statement outside of a loop."
 title: "Can't have 'continue' outside of loop | Microsoft Docs"
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows

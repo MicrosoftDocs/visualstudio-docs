@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: a747100c-6f08-41a4-aaad-05099741742b
-ms.date: 12/02/2020
+ms.date: 03/21/2021
 ms.topic: conceptual
 description:  Learn how admins can resolve over-allocated subscriptions
 ---
@@ -40,4 +40,4 @@ If your organization has an Enterprise Agreement (EA), admins are able to assign
 
 ## Next steps
 - Learn more about managing [Visual Studio subscriptions with GitHub Enterprise](assign-github.md).
-- For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/).
+- For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://aka.ms/vsadminhelp).

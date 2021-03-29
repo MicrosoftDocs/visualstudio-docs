@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IEnumDebugBoundBreakpoints2::GetCount
 ms.assetid: 5a572eeb-beb7-4fc7-8259-792d277069be
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
