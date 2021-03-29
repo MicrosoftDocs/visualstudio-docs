@@ -47,7 +47,7 @@ Before you install versions side-by-side, review the following conditions:
 When upgrading from one minor version of Visual Studio to the next, the Visual Studio installer will, by default, update your current install to the latest version in that channel. For example, suppose 16.9.4 was just released. The installer will try to replace your current install of 16.9.3 (or lower) with 16.9.4, since both versions are part of the [Visual Studio 2019 release channel](https://docs.microsoft.com/visualstudio/productinfo/release-rhythm). Replacing the older release with the newer release during update helps ensure older versions of Visual Studio aren't taking up room on your machine. However, in some specific cases, it might be helpful to install different minor release versions of Visual Studio side-by-side. For example, you may want to have both 16.9.3 and 16.9.4 on the same machine. 
 
 ::: moniker range="vs-2017"
-1. Download the latest bootstrapper for Visual Studio 2017 version 15.9 from the  [Visual Studio previous versions](https://visualstudio.microsoft.com/vs/older-downloads/) page for the version that you would like to install side-by-side with your existing version of Visual Studio.
+1. Download the latest bootstrapper for Visual Studio 2017 version 15.9 from the [Visual Studio previous versions](https://visualstudio.microsoft.com/vs/older-downloads/) page for the version that you would like to install side-by-side with your existing version of Visual Studio.
 ::: moniker-end
 
 ::: moniker range="vs-2019"
