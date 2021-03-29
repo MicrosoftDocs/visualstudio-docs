@@ -52,7 +52,7 @@ Before you deploy Visual Studio across your organization, there are a few decisi
 
 * Decide if you want to enable Group Policy, and if you want to configure Visual Studio to disable customer feedback on individual computers.
 
-* For organizations that utilize enterprise deployment tools, as well as the Microsoft Update Catalog and/or Windows Server Update Services, decide if you will take advantage of Visual Studio Security Updates, Quality Updates, and/or Feature Updates available to such tools. For more information see [Updates using Microsoft Update Catalog](http://TODOLink). 
+* For organizations that utilize enterprise deployment tools that depend on the Microsoft Update Catalog or Windows Server Update Services, decide if you will take advantage of Visual Studio Security Updates, Feature Pack Updates, and/or Quality Updates. For more information see [Enabling administrator updates](../install/enabling-administrator-updates.md) and [Applying administrator updates](../install/applying-administrator-updates.md). 
 
 ::: moniker-end
 
