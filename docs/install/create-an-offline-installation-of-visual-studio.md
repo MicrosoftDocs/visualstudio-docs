@@ -119,7 +119,7 @@ Start by downloading the Visual Studio 2019 bootstrapper from either the [Visual
 
 You must have an internet connection to complete this step.
 
-Open a command prompt and use the bootstrapper's parameters as defined in the [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md) page to create your local installation cache.  Common examples using the Enterprise bootstrapper are illustrated below and in the [command-line parameter examples](command-line-parameter-examples.md) page. You can install a language other than English by changing `en-US` to a locale from the [list of language locales](#list-of-language-locales), and you can use the [list of components and workloads](workload-and-component-ids.md) to further customize your cache.
+Open a command prompt and use the bootstrapper's parameters as defined in the [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md) page to create your local installation cache. Common examples using the Enterprise bootstrapper are illustrated below and in the [command-line parameter examples](command-line-parameter-examples.md) page. You can install a language other than English by changing `en-US` to a locale from the [list of language locales](#list-of-language-locales), and you can use the [list of components and workloads](workload-and-component-ids.md) to further customize your cache.
 
 > [!TIP]
 > To prevent an error, make sure that your full installation path is less than 80 characters.
