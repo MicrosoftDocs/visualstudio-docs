@@ -19,7 +19,7 @@ The following table describes the versions of .NET Core supported by the stable 
 |v2.2.200 + |✔︎|✔︎|✔︎|✔︎|✔︎|✔︎|
 |v3.0 | | |✔︎|✔︎|✔︎|✔︎|
 |v3.1 | | | |✔︎|✔︎|✔︎|
-|v5.0 (preview) | | | | | |✔︎|
+|v5.0 | | | | | |✔︎|
 
 > [!IMPORTANT]
 > Preview versions of the .NET Core SDK are not supported; please update to the released version. When installing Visual Studio for Mac 8.4, the released version of .NET Core v3.1 will be installed.

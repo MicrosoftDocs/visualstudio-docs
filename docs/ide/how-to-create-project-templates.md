@@ -62,3 +62,4 @@ If you have the Visual Studio SDK installed, you can wrap the finished template 
 - [Create project and item templates](../ide/creating-project-and-item-templates.md)
 - [How to: Create item templates](../ide/how-to-create-item-templates.md)
 - [Get started with the VSIX project template](../extensibility/getting-started-with-the-vsix-project-template.md)
+- [Customize project and item templates](customizing-project-and-item-templates.md)
