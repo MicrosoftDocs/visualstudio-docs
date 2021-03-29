@@ -68,7 +68,7 @@ After you download a small bootstrapper, use the command line to create a local 
 
 ::: moniker range="vs-2019"
 
-After you download a small bootstrapper file, use the command line to create a local cache. Then, use the local cache to install Visual Studio. Below are the steps to do this.
+After you download a small bootstrapper file, use the command line to create a local cache. Then, use the local cache to install Visual Studio.
 
 ::: moniker-end
 
