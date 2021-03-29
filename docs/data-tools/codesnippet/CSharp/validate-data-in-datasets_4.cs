@@ -1,1 +1,0 @@
-            DataSet addedRecords = dataSet1.GetChanges(DataRowState.Added);
