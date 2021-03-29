@@ -102,6 +102,7 @@ You can write code to verify that each column you want to validate contains data
 
      [!code-vb[VbRaddataValidating#3](../data-tools/codesnippet/VisualBasic/validate-data-in-datasets_1.vb)]
 
+
 ### To validate data when a row changes (C#)
 
 1. Open your dataset in the **Dataset Designer**. For more information, see [Walkthrough: Creating a dataset in the Dataset Designer](walkthrough-creating-a-dataset-with-the-dataset-designer.md).
