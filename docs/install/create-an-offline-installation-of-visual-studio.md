@@ -62,7 +62,7 @@ We designed the "Download all, then install" feature so that you can download Vi
 ## Use the command line to create a local cache
 ::: moniker range="vs-2017"
 
-After you download a small bootstrapper, use the command line to create a local cache. Then, use the local cache to install Visual Studio. (This process replaces the ISO files that were available for previous versions.)  Below are the steps to do this.
+After you download a small bootstrapper, use the command line to create a local cache. Then, use the local cache to install Visual Studio. (This process replaces the ISO files that were available for previous versions). 
 
 ::: moniker-end
 
