@@ -164,7 +164,7 @@ Open a command prompt and use the bootstrapper's parameters as defined in the [U
 
 
 ### Step 3 - Install Visual Studio from the local cache
-When you install Visual Studio from a local install cache, the Visual Studio installer uses the local cached versions of the files. But, if you select components during installation that aren't in the cache, then the Visual Studio installer will attempt to download them from the internet.  To make sure that you install only the files that you've previously downloaded, use the same [command-line options](use-command-line-parameters-to-install-visual-studio.md) that you used to create the layout cache. 
+When you install Visual Studio from a local install cache, the Visual Studio installer uses the local cached versions of the files. But, if you select components during installation that aren't in the cache, then the Visual Studio installer will attempt to download them from the internet. To make sure that you install only the files that you've previously downloaded, use the same [command-line options](use-command-line-parameters-to-install-visual-studio.md) that you used to create the layout cache. 
 
 For example, if you created a local installation cache with the following command:
 
