@@ -90,7 +90,7 @@ To get the latest bootstrapper for Visual Studio 2017 version 15.9, go to the [V
 
 ::: moniker range="vs-2019"
 
-Start by downloading the Visual Studio 2019 bootstrapper from either the [Visual Studio downloads page](https://visualstudio.microsoft.com/downloads) or the [Visual Studio 2019 Releases](https://docs.microsoft.com/visualstudio/releases/2019/history#installing-an-earlier-release) page for your chosen version and edition of Visual Studio. Your setup file&mdash;or bootstrapper&mdash;will match or be similar to one of the following.
+Start by downloading the Visual Studio 2019 bootstrapper from either the [Visual Studio downloads page](https://visualstudio.microsoft.com/downloads) or the [Visual Studio 2019 Releases](https://docs.microsoft.com/visualstudio/releases/2019/history#installing-an-earlier-release) page for your chosen version and edition of Visual Studio. Your setup file&mdash;or bootstrapper&mdash;will match or be similar to one of the following:
 
 | Edition                    | File                                                                    |
 |----------------------------|-------------------------------------------------------------------------|
