@@ -21,8 +21,8 @@ You can upgrade your test configuration file from *.testsettings* to *.runsettin
 In the correct directory location, you can run the tool with the format below:
 
 ```console
-SettingsMigrator.exe {Full path to testsettings file to be migrated}
-SettingsMigrator.exe {Full path to testsettings file to be migrated} {Full path to runsettings file to be created}
+SettingsMigrator.exe <Full path to testsettings file to be migrated>
+SettingsMigrator.exe <Full path to testsettings file to be migrated> <Full path to runsettings file to be created>
 ```
 
 ## Examples
