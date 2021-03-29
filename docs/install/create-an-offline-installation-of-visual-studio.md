@@ -78,7 +78,7 @@ You must have an internet connection to complete this step.
 
 ::: moniker range="vs-2017"
 
-To get the latest bootstrapper for Visual Studio 2017 version 15.9, go to the [Visual Studio previous versions](https://visualstudio.microsoft.com/vs/older-downloads/) page and download one of the following bootstrapper files. 
+To get the latest bootstrapper for Visual Studio 2017 version 15.9, go to the [Visual Studio previous versions](https://visualstudio.microsoft.com/vs/older-downloads/) page and download one of the following bootstrapper files: 
 
 | Edition | Filename |
 |-------------|-----------------------|
