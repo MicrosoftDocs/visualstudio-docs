@@ -179,7 +179,7 @@ c:\vslayout\vs_enterprise.exe --noweb --add Microsoft.VisualStudio.Workload.Mana
 ```
 
 > [!IMPORTANT]
-> You must activate Visual Studio Community it by logging into the product within 30 days of installation. Activation requires an internet connection.
+> If you're using Visual Studio Community, you must activate it by logging into the product within 30 days of installation. Activation requires an internet connection.
 
 > [!NOTE]
 > If you get an error that a signature is invalid, you must [install updated certificates](install-certificates-for-visual-studio-offline.md). Open the Certificates folder in your offline cache. Double-click each of the certificate files, and then click through the Certificate Manager wizard. If you're asked for a password, leave it blank.
