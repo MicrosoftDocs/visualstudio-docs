@@ -254,6 +254,8 @@ You can specify the locations the debugger searches for source files, and exclud
 
 1. Select **Debug Source Files**.
 
+   ![Debug source files page](../debugger/media/dbg-source-files.png)
+
 1. Under **Directories containing source code**, type or select source code locations to search. Use the **New Line** icon to add more locations, the **Up** and **Down** arrow icons to reorder them, or the **X** icon to delete them.
 
    >[!NOTE]
