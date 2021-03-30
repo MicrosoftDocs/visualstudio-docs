@@ -60,14 +60,16 @@ When upgrading from one minor version of Visual Studio to the next, the Visual S
 
 
 2. Open the command prompt in administrator mode. To do this, open the Windows Start menu, type "cmd", right-click on the Command Prompt search result, and select **Run as administrator**. In the command prompt, change the directory to the folder where your Visual Studio bootstrapper file is located.
+
 3. Run the following command, specifying a new folder path for the installation location and replacing the .exe file name with the appropriate bootstrapper name for the version of Visual Studio you are installing. The .exe file name should match or be similar to one of the following files:
+
    * vs_enterprise.exe for Visual Studio Enterprise
 
-      * vs_professional.exe for Visual Studio Professional
+   * vs_professional.exe for Visual Studio Professional
 
 ::: moniker range="vs-2019"
 
-      * vs_community.exe for Visual Studio Community
+   * vs_community.exe for Visual Studio Community
 
 ::: moniker-end 
   
