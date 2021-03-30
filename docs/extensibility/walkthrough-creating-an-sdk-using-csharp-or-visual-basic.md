@@ -37,8 +37,8 @@ In this walkthrough, you'll learn how to create a simple Math Library SDK by usi
 
 5. Rename **Class1.cs** to **Arithmetic.cs** and update it to match the following code:
 
-    [!code-csharp[CreatingAnSDKUsingWinRT#3](../extensibility/codesnippet/CSharp/walkthrough-creating-an-sdk-using-csharp-or-visual-basic_1.cs)]
-    [!code-vb[CreatingAnSDKUsingWinRT#3](../extensibility/codesnippet/VisualBasic/walkthrough-creating-an-sdk-using-csharp-or-visual-basic_1.vb)]
+    :::code language="csharp" source="../snippets/csharp/VS_Snippets_VSSDK/creatingansdkusingwinrt/cs/winrtmath/arithmetic.cs" id="Snippet3":::
+    :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VSSDK/creatingansdkusingwinrt/vb/winrtmath/arithmetic.vb" id="Snippet3":::
 
 6. In **Solution Explorer**, open the shortcut menu for the **Solution 'SimpleMath'** node, and then choose **Configuration Manager**.
 
@@ -67,7 +67,7 @@ In this walkthrough, you'll learn how to create a simple Math Library SDK by usi
 
 6. Replace the existing XML with the following XML:
 
-     [!code-xml[CreatingAnSDKUsingWinRT#1](../extensibility/codesnippet/XML/walkthrough-creating-an-sdk-using-csharp-or-visual-basic_2.xml)]
+     :::code language="xml" source="../extensibility/codesnippet/XML/walkthrough-creating-an-sdk-using-csharp-or-visual-basic_2.xml" id="Snippet1":::
 
 7. In **Solution Explorer**, choose the **SimpleMathVSIX** project.
 
@@ -230,8 +230,8 @@ In this walkthrough, you'll learn how to create a simple Math Library SDK by usi
 
 11. Update **MainPage.xaml.cs** to match the following code:
 
-     [!code-csharp[CreatingAnSDKUsingWinRTDemoApp#2](../extensibility/codesnippet/CSharp/walkthrough-creating-an-sdk-using-csharp-or-visual-basic_5.cs)]
-     [!code-vb[CreatingAnSDKUsingWinRTDemoApp#2](../extensibility/codesnippet/VisualBasic/walkthrough-creating-an-sdk-using-csharp-or-visual-basic_5.vb)]
+    :::code language="csharp" source="../extensibility/codesnippet/CSharp/walkthrough-creating-an-sdk-using-csharp-or-visual-basic_5.cs" id="Snippet1":::
+    :::code language="vb" source="../extensibility/codesnippet/VisualBasic/walkthrough-creating-an-sdk-using-csharp-or-visual-basic_5.vb" id="Snippet1":::
 
 12. Choose the **F5** key to run the app.
 
