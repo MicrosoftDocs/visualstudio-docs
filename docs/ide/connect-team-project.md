@@ -2,7 +2,7 @@
 title: Connect to projects in Team Explorer
 description: Learn how to use Team Explorer in Visual Studio to work with team members to develop and manage projects.
 ms.custom: SEO-VS-2020
-ms.date: 11/17/2020
+ms.date: 03/31/2021
 ms.topic: conceptual
 ms.author: tglee
 author: TerryGLee
@@ -21,7 +21,7 @@ Use the **Team Explorer** tool window to coordinate your code efforts with other
 You can use the **Team Explorer** tool window to coordinate your code efforts with other team members to develop a project, and to manage work that's assigned to you, your team, or your projects.
 
 > [!IMPORTANT]
-> With the recent release of Visual Studio 2019 [version 16.8](/visualstudio/releases/2019/release-notes/), the new Git version control experience is now on by default. However, if you prefer to continue to use Team Explorer, go to **Tools** > **Options** > **Environment** > **Preview Features** and then toggle the **New Git user experience** checkbox. For more information, see the [Git experience in Visual Studio](git-with-visual-studio.md) page.
+> With the recent release of Visual Studio 2019 [version 16.8](/visualstudio/releases/2019/release-notes/), the new Git version control experience is now on by default. However, if you prefer to continue to use Team Explorer, go to **Tools** > **Options** > **Environment** > **Preview Features** and then toggle the **New Git user experience** checkbox. For more information, see the [**Side-by-side comparison of Git and Team Explorer**](git-team-explorer-feature-comparison.md) page.
 
 **Team Explorer** connects Visual Studio to Git and GitHub repositories, Team Foundation version control (TFVC) repositories, and projects hosted on [Azure DevOps Services](/azure/devops/user-guide/what-is-azure-devops-services) or an on-premises [Azure DevOps Server](/azure/devops/index-all) (formerly known as TFS). You can manage source code, work items, and builds.
 
