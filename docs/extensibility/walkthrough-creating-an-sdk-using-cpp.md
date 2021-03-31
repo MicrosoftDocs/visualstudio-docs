@@ -61,7 +61,8 @@ This walkthrough shows how to create a native C++ math library SDK, package the 
 
 4. Use the following XML to replace the existing XML.
 
-    :::code language="xml" source="../extensibility/codesnippet/XML/walkthrough-creating-an-sdk-using-cpp_6.xml" id="Snippet1":::
+    :::code language="xml" source="../snippets/cpp/VS_Snippets_VSSDK/creatingansdkusingcpp/cpp/nativemathvsix/source.extension.vsixmanifest" id="Snippet6":::
+
 
 5. In **Solution Explorer**, open the shortcut menu for the **NativeMathVSIX** project, and then choose **Add** > **New Item**.
 
