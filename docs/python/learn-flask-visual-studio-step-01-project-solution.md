@@ -216,17 +216,17 @@ def hello():
 
 ### Question: How does Flask work with variable URL routes and query parameters?
 
-Answer: In a route, you mark any variable with `<variable_name>`, and Flask passes the variable to the function using a named argument. The variable can be part of the URL path or in a query parameter. For example, a route in the form of `'/hello/<name>` generates a string argument called `name` to the function, and using `?message=<msg>` in the route parses the value given for the "message=" query parameter and passes it to the function as `msg`:
+Answer: In a route, you mark any variable with `<variable_name>`, and Flask passes the variable to the function using a named argument in the URL path. For example, a route in the form of `'/hello/<name>` generates a string argument called `name` to the function. Query parameters are available through the `request.args` property, specifically through the `request.args.get` method. For more information, see [The Request object](https://flask.palletsprojects.com/en/1.0.x/quickstart/#the-request-object) in the Flask documentation.
 
 ```python
-@app.route('/hello/<name>?message=<msg>')
-def hello(name, msg):
-    return "Hello " + name + "! Message is " + msg + "."
+# URL: /hello/<name>?message=Have%20a%20nice%20day.
+@app.route('/hello/<name>')
+def hello(name):
+    msg = request.args.get('message','')
+    return "Hello " + name + "! "+ msg + "."
 ```
 
 To change the type, prefix the variable with `int`, `float`, `path` (which accepts slashes to delineate folder names), and `uuid`. For details, see [Variable rules](https://flask.palletsprojects.com/en/1.0.x/quickstart/#variable-rules) in the Flask documentation.
-
-Query parameters are also available through the `request.args` property, specifically through the `request.args.get` method. For more information, see [The Request object](https://flask.palletsprojects.com/en/1.0.x/quickstart/#the-request-object) in the Flask documentation.
 
 ### Question: Can Visual Studio generate a requirements.txt file from a virtual environment after I install other packages?
 
