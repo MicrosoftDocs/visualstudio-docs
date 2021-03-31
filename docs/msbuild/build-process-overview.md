@@ -133,7 +133,7 @@ The *Microsoft.Common.props* file sets defaults you can override. It's imported 
 
 The *Microsoft.Common.targets* file and the target files it imports define the standard build process for .NET projects. It also provides extension points you can use to customize the build.
 
-In implementation, *Microsoft.Common.targets* is a thin wrapper that imports *Microsoft.Common.CurrentVersion.targets*. This file contains settings for standard properties, and defines the actual targets that define the build process. The `Build` target is defined here, but is actually itself empty. However, the `Build` target contains the `DependsOn` attribute that specifies the individual targets that make up the actual build steps, which are `BeforeBuild`, `CoreBuild`, and `AfterBuild`. The `Build` target is defined as follows:
+In implementation, *Microsoft.Common.targets* is a thin wrapper that imports *Microsoft.Common.CurrentVersion.targets*. This file contains settings for standard properties, and defines the actual targets that define the build process. The `Build` target is defined here, but is actually itself empty. However, the `Build` target contains the `DependsOnTargets` attribute that specifies the individual targets that make up the actual build steps, which are `BeforeBuild`, `CoreBuild`, and `AfterBuild`. The `Build` target is defined as follows:
 
 ```xml
   <PropertyGroup>
@@ -151,7 +151,7 @@ In implementation, *Microsoft.Common.targets* is a thin wrapper that imports *Mi
       Returns="@(TargetPathWithTargetPlatformMoniker)" />
 ```
 
-`BeforeBuild` and `AfterBuild` are extension points. They're empty in the *Microsoft.Common.CurrentVersion.targets* file, but projects can provide their own `BeforeBuild` and `AfterBuild` targets with tasks that need to be performed before or after the main build process. `AfterBuild` is run before the no-op target, `Build`, because `AfterBuild` appears in the `DependsOn` attribute on the `Build` target, but it occurs after `CoreBuild`.
+`BeforeBuild` and `AfterBuild` are extension points. They're empty in the *Microsoft.Common.CurrentVersion.targets* file, but projects can provide their own `BeforeBuild` and `AfterBuild` targets with tasks that need to be performed before or after the main build process. `AfterBuild` is run before the no-op target, `Build`, because `AfterBuild` appears in the `DependsOnTargets` attribute on the `Build` target, but it occurs after `CoreBuild`.
 
 The `CoreBuild` target contains the calls to the build tools, as follows:
 
