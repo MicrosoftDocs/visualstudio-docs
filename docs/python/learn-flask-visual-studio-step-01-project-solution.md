@@ -219,7 +219,7 @@ def hello():
 Answer: In a route, you mark any variable with `<variable_name>`, and Flask passes the variable to the function using a named argument in the URL path. For example, a route in the form of `/hello/<name>` generates a string argument called `name` to the function. Query parameters are available through the `request.args` property, specifically through the `request.args.get` method. For more information, see [The Request object](https://flask.palletsprojects.com/en/1.1.x/quickstart/#the-request-object) in the Flask documentation.
 
 ```python
-# URL: /hello/<name>?message=Have%20a%20nice%20day.
+# URL: /hello/<name>?message=Have%20a%20nice%20day
 @app.route('/hello/<name>')
 def hello(name):
     msg = request.args.get('message','')
