@@ -1,5 +1,6 @@
 ---
 title: Publish to a folder
+description: You can use the Publish tool to publish ASP.NET Core apps to a folder.
 ms.date: 01/22/2019
 helpviewer_keywords:
   - "deployment, website"

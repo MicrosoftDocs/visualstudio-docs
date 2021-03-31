@@ -906,6 +906,7 @@
 - name: Debug >>
   href: debugger/index.yml
 - name: Version control
+  expanded: true
   items:
   - name: The new Git experience in Visual Studio
     href: ide/git-with-visual-studio.md
