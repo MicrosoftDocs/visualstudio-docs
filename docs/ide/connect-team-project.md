@@ -18,7 +18,7 @@ Use the **Team Explorer** tool window to coordinate your code efforts with other
 
 ::: moniker range="vs-2019"
 
-Team Explorer connects Visual Studio to Team Foundation version control (TFVC) repositories, and projects hosted on [Azure DevOps Services](/azure/devops/user-guide/what-is-azure-devops-services) or an on-premises [Azure DevOps Server](/azure/devops/user-guide/about-azure-devops-services-tfs?view=azure-devops/) (formerly known as TFS). You can manage source code, work items, and builds.
+Team Explorer connects Visual Studio to Team Foundation version control (TFVC) repositories, and projects hosted on [Azure DevOps Services](/azure/devops/user-guide/what-is-azure-devops-services) or an on-premises [Azure DevOps Server](/azure/devops/user-guide/about-azure-devops-services-tfs?view=azure-devops&preserve-view=true) (formerly known as TFS). You can manage source code, work items, and builds.
 
 > [!IMPORTANT]
 > With the recent release of Visual Studio 2019 [**version 16.8**](/visualstudio/releases/2019/release-notes/), the new Git version control experience is now on by default. If you'd like to learn more about how it compares with Team Explorer, see the [**Side-by-side comparison of Git and Team Explorer**](git-team-explorer-feature-comparison.md) page.
@@ -28,8 +28,6 @@ Team Explorer connects Visual Studio to Team Foundation version control (TFVC) r
 ::: moniker-end
 
 ::: moniker range="vs-2017"
-
-Team Explorer connects Visual Studio to Git and GitHub repositories, Team Foundation version control (TFVC) repositories, and projects hosted on [Azure DevOps Services](/azure/devops/user-guide/what-is-azure-devops-services) or an on-premises [Azure DevOps Server](/azure/devops/user-guide/about-azure-devops-services-tfs?view=azure-devops/) (formerly known as TFS). You can manage source code, work items, and builds.
 
 ![Team Explorer Home page in Visual Studio](media/team-explorer/team-explorer.png "The Team Explorer - Home page in Visual Studio.")
 
@@ -52,10 +50,10 @@ To connect to a project:
 
    ![Connect to a project in Team Explorer](media/team-explorer/connect-project.png "The Team Explorer - Connect to a Project option in Visual Studio.")
 
-::: moniker-end
-
 > [!TIP]
-> If you want to open a project from a repo, see [Open a project from a repo](../get-started/tutorial-open-project-from-repo.md). If you want to create a new project or add users to a project, see [Create a project (Azure DevOps)](/azure/devops/organizations/projects/create-project) and [Add users to a project or team (Azure DevOps)](/azure/devops/organizations/security/add-users-team-project).
+> If you want to open a project from a repo, see [Open a project from a repo](../get-started/tutorial-open-project-from-repo-visual-studio-2017.md). If you want to create a new project or add users to a project, see [Create a project (Azure DevOps)](/azure/devops/organizations/projects/create-project) and [Add users to a project or team (Azure DevOps)](/azure/devops/organizations/security/add-users-team-project).
+
+::: moniker-end
 
 ## See also
 
