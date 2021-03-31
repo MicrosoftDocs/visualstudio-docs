@@ -2,7 +2,7 @@
 title: "Set symbol (.pdb) and source files in the debugger"
 description: "Learn how to configure and manage symbol and source files in Visual Studio"
 ms.custom: ""
-ms.date: "10/31/2019"
+ms.date: "3/31/2021"
 ms.topic: "conceptual"
 f1_keywords:
   - "VS.ToolsOptionsPages.Debugger.Native"
@@ -240,9 +240,10 @@ When this happens, the debugger displays the **No Symbols Loaded** or **No Sourc
 
 - To change the search path, select an unselected path, or select **New Path** or **New VSTS Path** and enter or select a new path. Select **Load** to search the paths again and load the symbol file if it is found.
 - To override any symbol options and retry the search paths, select **Browse and find \<executable-name>**. The symbol file is loaded if it is found, or **File Explorer** opens so you can manually select the symbol file.
-- To open the **Options** > **Debugging** > **Symbols** page, select **Change Symbol Settings**.
-- To show the disassembly in a new window one time, select **view disassembly**, or select **Options dialog** to set the option to always show the disassembly when source or symbol files are not found.
+- To open the symbol settings page to configure behavior, select **Change Symbol Settings** (or choose **Options** > **Debugging** > **Symbols**).
+- (Advanced) To show the disassembly in a new window one time, select **view disassembly**, or select **Options dialog** to set the option to always show the disassembly when source or symbol files are not found. For more information, see [View disassembly code](../debugger/how-to-use-the-disassembly-window.md).
 - To show the locations searched and the outcome, expand **Symbol load information**.
+- For C# code, you can also choose to [decompile the source code](../debugger/decompilation.md) from the **No Symbols Loaded** or **No Source Loaded** pages.
 
 If the debugger finds the *.pdb* file after you execute one of the options, and can retrieve the source file using the information in the *.pdb* file, it displays the source. Otherwise, it displays a **No Source Loaded** page that describes the issue, with links to actions that might resolve the issue.
 
@@ -253,6 +254,8 @@ You can specify the locations the debugger searches for source files, and exclud
 1. Select the solution in **Solution Explorer**, and then select the **Properties** icon, press **Alt**+**Enter**, or right-click and select **Properties**.
 
 1. Select **Debug Source Files**.
+
+   ![Debug source files page](../debugger/media/dbg-source-files.png)
 
 1. Under **Directories containing source code**, type or select source code locations to search. Use the **New Line** icon to add more locations, the **Up** and **Down** arrow icons to reorder them, or the **X** icon to delete them.
 
