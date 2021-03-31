@@ -62,6 +62,10 @@
           href: install/troubleshooting-network-related-errors-in-visual-studio.md
     - name: Deploy in an enterprise
       items:
+      - name: Applying administrator updates
+        href: install/applying-administrator-updates.md
+      - name: Enabling administrator updates
+        href: install/enabling-administrator-updates.md
       - name: Automate Visual Studio installation with a response file
         href: install/automated-installation-with-response-file.md
       - name: Automatically apply product keys when deploying Visual Studio
