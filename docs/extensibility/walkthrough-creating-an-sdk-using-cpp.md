@@ -70,7 +70,7 @@ This walkthrough shows how to create a native C++ math library SDK, package the 
 
 7. Use this XML to replace the contents of the file:
 
-     :::code language="xml" source="../snippets/cpp/VS_Snippets_VSSDK/creatingansdkusingcpp/cpp/nativemathvsix/sdkmanifest.xml" id="Snippet5":::
+    :::code language="xml" source="../snippets/cpp/VS_Snippets_VSSDK/creatingansdkusingcpp/cpp/nativemathvsix/sdkmanifest.xml" id="Snippet5":::
 
 8. In **Solution Explorer**, under the **NativeMathVSIX** project, create this folder structure:
 
@@ -103,8 +103,21 @@ This walkthrough shows how to create a native C++ math library SDK, package the 
      Copy *$SolutionRoot$\Debug\NativeMathWRT\NativeMathWRT.pri* and paste it in the *$SolutionRoot$\NativeMathVSIX\References\CommonConfiguration\Neutral* folder.
 
 11. In the *$SolutionRoot$\NativeMathVSIX\DesignTime\Debug\x86\\* folder, create a text file that's named *NativeMathSDK.props*, and then paste the following contents in it:
-
-    :::code language="xml" source="../extensibility/codesnippet/XML/walkthrough-creating-an-sdk-using-cpp_7.xml" id="Snippet1":::
+   
+    ```xml
+    <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+      <PropertyGroup>
+        <NativeMathSDKPath>$(FrameworkSDKRoot)\..\..\UAP\v0.8.0.0\ExtensionSDKs\NativeMathSDK\1.0\</NativeMathSDKPath>
+        <IncludePath>$(NativeMathSDKPath)DesignTime\CommonConfiguration\Neutral\Include;$(IncludePath)</IncludePath>
+        <LibraryPath>$(NativeMathSDKPath)DesignTime\Debug\x86;$(LibraryPath)</LibraryPath>
+      </PropertyGroup>
+      <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+         <Link>
+           <AdditionalDependencies>NativeMath.lib;%(AdditionalDependencies)</AdditionalDependencies>
+         </Link>
+      </ItemDefinitionGroup>
+    </Project>
+    ```
 
 12. On the menu bar, choose **View** > **Other Windows** > **Properties Window** (Keyboard: Choose the **F4** key).
 
