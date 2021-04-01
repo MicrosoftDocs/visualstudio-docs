@@ -1,7 +1,7 @@
 ---
 title: "Write unit tests for C/C++"
 description: Write C++ unit tests in Visual Studio using various test frameworks including CTest, Boost.Test, and Google Test.
-ms.date: 02/08/2020
+ms.date: 04/01/2021
 ms.topic: conceptual
 ms.author: "corob"
 manager: markl
@@ -86,7 +86,7 @@ To avoid having to type the full path in each include statement in the source fi
 ### Write test methods
 
 > [!NOTE]
-> This section shows syntax for the Microsoft Unit Testing Framework for C/C++. It is documented here: [Microsoft.VisualStudio.TestTools.CppUnitTestFramework API reference](microsoft-visualstudio-testtools-cppunittestframework-api-reference.md). For Google Test documentation, see [Google Test primer](https://github.com/google/googletest/blob/master/googletest/docs/primer.md). For Boost.Test, see [Boost Test library: The unit test framework](https://www.boost.org/doc/libs/1_46_0/libs/test/doc/html/utf.html).
+> This section shows syntax for the Microsoft Unit Testing Framework for C/C++. It is documented here: [Microsoft.VisualStudio.TestTools.CppUnitTestFramework API reference](microsoft-visualstudio-testtools-cppunittestframework-api-reference.md). For Google Test documentation, see [Google Test primer](https://github.com/google/googletest/blob/master/docs/primer.md). For Boost.Test, see [Boost Test library: The unit test framework](https://www.boost.org/doc/libs/1_46_0/libs/test/doc/html/utf.html).
 
 The *.cpp* file in your test project has a stub class and method defined for you. They show an example of how to write test code. The signatures use the TEST_CLASS and TEST_METHOD macros, which make the methods discoverable from the **Test Explorer** window.
 
