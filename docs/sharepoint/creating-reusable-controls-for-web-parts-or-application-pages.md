@@ -41,8 +41,8 @@ ms.workload:
 
  To include a user control in a Web Part, add the user control to the Web Part <xref:System.Web.UI.WebControls.WebParts.Part.Controls%2A> collection in the Web Part code file. The following example adds a user control to the <xref:System.Web.UI.WebControls.WebParts.Part.Controls%2A> collection of a Web Part.
 
- [!code-vb[SP_VisualWebPart#5](../sharepoint/codesnippet/VisualBasic/sp_visualwebpart.vb/visualwebpart1/visualwebpart1.vb#5)]
- [!code-csharp[SP_VisualWebPart#5](../sharepoint/codesnippet/CSharp/sp_visualwebpart.cs/visualwebpart1/visualwebpart1.cs#5)]
+ :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/sp_visualwebpart.vb/visualwebpart1/visualwebpart1.vb" id="Snippet5":::
+ :::code language="csharp" source="../sharepoint/codesnippet/CSharp/sp_visualwebpart.cs/visualwebpart1/visualwebpart1.cs" id="Snippet5":::
 
 ## Debug a user control
  To debug a user control, ensure that the user control is included in an application page or Web Part in your SharePoint project. You can then debug code in the user control just as you would debug code in any Visual Studio Project.
