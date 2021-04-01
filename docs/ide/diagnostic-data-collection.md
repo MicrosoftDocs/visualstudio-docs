@@ -4,8 +4,8 @@ description: Learn about Visual Studio system-generated logs, the types of data 
 ms.custom: SEO-VS-2020
 ms.date: 05/24/2018
 ms.topic: conceptual
-author: jillre
-ms.author: michma
+author: TerryGLee
+ms.author: tglee
 manager: jmartens
 ms.workload:
   - "multiple"
