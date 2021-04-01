@@ -125,7 +125,6 @@ To connect to a project:
 
 - [Compare Git and Team Explorer side-by-side](git-team-explorer-feature-comparison.md)
 - [The new Git experience in Visual Studio](git-with-visual-studio.md)
-- [Tutorial: Open a project from a repo](../get-started/tutorial-open-project-from-repo.md)
 - [Team Explorer reference](reference/team-explorer-reference.md)
 - [Connect to a project (Azure DevOps)](/azure/devops/organizations/projects/connect-to-projects)
 - [Troubleshoot connecting to a project](/azure/devops/user-guide/troubleshoot-connection?view=azure-devops&preserve-view=true)
