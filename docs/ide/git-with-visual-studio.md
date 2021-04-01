@@ -196,10 +196,10 @@ While the new Git experience is now on by default in Visual Studio 2019 [version
 
 ## See also
 
-- [Get Started with Git and GitHub in Visual Studio](/learn/modules/visual-studio-github-push/) on Microsoft Learn
+- [Get Started with Git and GitHub in Visual Studio](/learn/modules/visual-studio-github-push/) tutorial on Microsoft Learn
 - [Getting started with Git in Visual Studio](https://www.youtube.com/watch?v=GCZ9x3yqkyc) video on YouTube
 - [Announcing the Release of the Git Experience in Visual Studio](https://devblogs.microsoft.com/visualstudio/announcing-the-release-of-the-git-experience-in-visual-studio/) blog post
-- [The launch of the new Git experience](https://www.youtube.com/watch?v=UHrAg3iKoe0&t) on YouTube
+- [The launch of the new Git experience](https://www.youtube.com/watch?v=UHrAg3iKoe0&t) video on YouTube
 - [The Visual Studio Toolbox series presents: The new Git experience](https://channel9.msdn.com/Shows/Visual-Studio-Toolbox/The-New-Git-Experience) video on Channel 9 and on [YouTube](https://www.youtube.com/watch?v=ZiQ2LXtAJ6I&feature=youtu.be)
 - [Exciting new updates to the Git experience in Visual Studio](https://devblogs.microsoft.com/visualstudio/exciting-new-updates-to-the-git-experience-in-visual-studio/) blog post
 - [Improved Git Experience in Visual Studio 2019](https://devblogs.microsoft.com/visualstudio/improved-git-experience-in-visual-studio-2019/) blog post
