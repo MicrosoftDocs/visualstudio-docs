@@ -77,7 +77,7 @@ For more information about how to persist settings, see [Extending User Settings
 
 2. Add the following `using` directives to the top of the file.
 
-     [!code-csharp[StartPageDTE#11](../extensibility/codesnippet/CSharp/walkthrough-saving-user-settings-on-a-start-page_1.cs)]
+     :::code language="csharp" source="../snippets/csharp/VS_Snippets_VSSDK/startpagedte/cs/startpagecontrol/mycontrol.xaml.cs" id="Snippet11":::
 
 3. Add a private `SettingsStore` property, as shown in the following example.
 
