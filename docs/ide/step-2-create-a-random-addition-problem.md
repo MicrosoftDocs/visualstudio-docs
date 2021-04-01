@@ -51,7 +51,7 @@ In the second part of this tutorial, you make the quiz challenging by adding mat
 
      You use a similar syntax to add an integer variable as you did to add the random object, as the following code shows.
 
-     :::code language="csharp" source="./snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial3step2/cs/form1.cs" id="Snippet2":::
+     :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial3step2/cs/form1.cs" id="Snippet2":::
      :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial3step2/vb/form1.vb" id="Snippet2":::
 
 5. Add a method that's named `StartTheQuiz()` and that uses the Random object's <xref:System.Random.Next> method to show the random numbers in the labels. `StartTheQuiz()` will eventually fill in all of the problems and then start the timer, so add a comment. The function should look like the following.
