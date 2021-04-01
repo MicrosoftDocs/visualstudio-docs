@@ -1,1 +1,0 @@
-            minuend = randomizer.Next(1, 101);
