@@ -1,2 +1,0 @@
-Friend NotInheritable Class TestSignatureHelpCommandHandler
-    Implements IOleCommandTarget
