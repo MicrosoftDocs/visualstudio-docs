@@ -88,6 +88,8 @@ landingContent:
     linkLists:
     - linkListType: how-to-guide
       links:
+        - text: Create and deploy to Cloud Services (extended support)
+          url: cloud-services-extended-support.md
         - text: Create and configure Azure cloud service projects
           url: vs-azure-tools-azure-project-create.md
         - text: Debug cloud services locally and in Azure
