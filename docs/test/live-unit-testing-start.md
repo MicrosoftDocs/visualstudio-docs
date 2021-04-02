@@ -76,7 +76,7 @@ Now that you've created the solution, you'll create a class library named String
 
 5. Replace all of the existing code in the code editor with the following code:
 
-   [!code-csharp[StringLibrary source code](samples/csharp/utilitylibraries/stringlibrary/class1.cs)]
+   :::code language="csharp" source="../test/samples/csharp/utilitylibraries/stringlibrary/class1.cs" id="Snippet1":::
 
    StringLibrary has three static methods:
 
@@ -134,7 +134,7 @@ The next step is to create the unit test project to test the StringLibrary libra
 
 6. Replace the boilerplate unit test code provided by the template with the following code:
 
-   [!code-csharp[StringLibraryTest source code](samples/snippets/csharp/lut-start/unittest1.cs)]
+   :::code language="csharp" source="../test/samples/snippets/csharp/lut-start/unittest1.cs" id="Snippet1":::
 
 7. Save your project by selecting the **Save** icon on the toolbar.
 
@@ -193,11 +193,11 @@ To extend code coverage to the `StartsWithLower` method, do the following:
 
 1. Add the following `TestStartsWithLower` and `TestDoesNotStartWithLower` methods to your project's test source code file:
 
-    [!code-csharp[StringLibraryTest source code](samples/snippets/csharp/lut-start/unittest2.cs#1)]
+   :::code language="csharp" source="../test/samples/snippets/csharp/lut-start/unittest2.cs" id="Snippet1":::
 
 1. Modify the `DirectCallWithNullOrEmpty` method by adding the following code immediately after the call to the [`Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsFalse`](/dotnet/api/microsoft.visualstudio.testtools.unittesting.assert.isfalse) method.
 
-    [!code-csharp[StringLibraryTest source code](samples/snippets/csharp/lut-start/unittest2.cs#2)]
+   :::code language="csharp" source="../test/samples/snippets/csharp/lut-start/unittest2.cs" id="Snippet2":::
 
 1. Live Unit Testing automatically executes new and modified tests when you modify your source code. As the following illustration shows, all of the tests, including the two you've added and the one you've modified, have succeeded.
 
@@ -222,7 +222,7 @@ In this section, you'll explore how you can use Live Unit Testing to identify, t
 
 1. Add the following method to your test file:
 
-    [!code-csharp[The TestHasEmbeddedSpaces test method](samples/snippets/csharp/lut-start/unittest2.cs#3)]
+   :::code language="csharp" source="../test/samples/snippets/csharp/lut-start/unittest2.cs" id="Snippet3":::
 
 1. When the test executes, Live Unit Testing indicates that the `TestHasEmbeddedSpaces` method has failed, as the following illustration shows:
 
@@ -269,7 +269,7 @@ This provides enough information for a preliminary investigation of the bug. Eit
 
 1. Replace the equality comparison with a call to the <xref:System.Char.IsWhiteSpace%2A?displayProperty=fullName> method:
 
-    [!code-csharp[The TestHasEmbeddedSpaces test method](samples/snippets/csharp/lut-start/program2.cs#1)]
+   :::code language="csharp" source="../test/samples/snippets/csharp/lut-start/program2.cs" id="Snippet1":::
 
 1. Live Unit Testing automatically reruns the failed test method.
 
