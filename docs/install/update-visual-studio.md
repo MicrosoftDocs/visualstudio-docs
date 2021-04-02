@@ -2,7 +2,7 @@
 title: Update Visual Studio
 titleSuffix: ''
 description: Learn how to update Visual Studio to the most recent release, step-by-step.
-ms.date: 10/12/2020
+ms.date: 4/2/2021
 ms.custom: seodec18
 ms.topic: how-to
 ms.prod: visual-studio-windows
@@ -281,9 +281,9 @@ Here's how:
 
 ::: moniker-end
 
-## Administrative Updates 
+## Administrator updates 
 
-If you are part of an organization with centralized enterprise management of your computer, your enterprise administrator can update your machine for you. [Updates using Microsoft Update Catalog](http://TODOLink) can be controlled with configuration settings allowing your computer to accept or refuse these types of updates.  
+If you are part of an organization that centralizes management of software installations, then your enterprise administrator can cause Visual Studio to update on your machine. Refer to the [configuation options documentation](../install/applying-administrator-updates#using-configuration-manager-to-deploy-visual-studio-updates) for information on how to control or configure what types of updates your machine can accept. 
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
@@ -291,8 +291,8 @@ If you are part of an organization with centralized enterprise management of you
 
 * [Install Visual Studio versions side-by-side](install-visual-studio-versions-side-by-side.md)
 * [Update a network-based installation of Visual Studio](update-a-network-installation-of-visual-studio.md)
+* [Visual Studio Enterprise Guide](visual-studio-enterprise-guide.md)
 * [Update Visual Studio while on a servicing baseline](update-servicing-baseline.md)
 * [Control updates to network-based Visual Studio deployments](controlling-updates-to-visual-studio-deployments.md)
 * [Modify Visual Studio](modify-visual-studio.md)
 * [Uninstall Visual Studio](uninstall-visual-studio.md)
-* [Updates using Microsoft Update Catalog](http://TODOLink)
