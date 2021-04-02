@@ -50,10 +50,13 @@ You can set the following registry values:
 | `KeepDownloadedPayloads` | `REG_DWORD` | 1 | Keep package payloads even after they are installed. You can change the value anytime. Disabling the policy removes any cached package payloads for the instance you repair or modify. For more information, see the [Disable or move the package cache](disable-or-move-the-package-cache.md) page. |
 | `SharedInstallationPath` | `REG_SZ` or `REG_EXPAND_SZ` | %ProgramFiles(x86)%\Microsoft Visual Studio\Shared | The directory where some packages shared across versions of instances of Visual Studio are installed. You can change the value any time, but it will only affect future installs. Any products already installed to the old location must not be moved or they might not function correctly. |
 | `BackgroundDownloadDisabled` |`REG_DWORD` | 1 | Prevent setup from downloading updates automatically for all installed Visual Studio products. You can change the value anytime. |
-| `AdministratorUpdatesEnabled` | `REG_DWORD` | 1 | Allows Administrator Updates to be applied to the client computer. If this value is missing or is set to 0, Administrator Updates will be blocked. This value is for administrative use. For more information, see the [Administrative Updates](http://TODOLink) page. | 
-| `AdministratorUpdatesOptOut` | `REG_DWORD` | 1 | Indicates that the user does not want to receive administrator updates to Visual Studio. The absence of the registry value, or a set value of 0, means that the Visual Studio user wants to receive administrator updates to Visual Studio. This is for developer user (if they have permissions). For more information, see the [Administrative Updates](http://TODOLink) page. | 
-| `UpdateConfigurationFile` | ` REG_SZ` or `REG_EXPAND_SZ` | %ProgramData%\Microsoft\VisualStudio\updates.config | The file path for configuring Administrative Updates. For more information, see the [Administrative Updates](http://TODOLink) page. | 
-| `BaselineStickinessVersions2019` | ` REG_SZ` or `REG_EXPAND_SZ` | `ALL` or `16.4.0,16.7.0,16.9.0` | The versions authorizing updates to remain on specified servicing baselines. For more information, see the [Administrative Updates](http://TODOLink) page. | 
+| `AdministratorUpdatesEnabled` | `REG_DWORD` | 1 | Allows administrator updates to be applied to the client computer. If this value is missing or is set to 0, administrator updates will be blocked. This value is for administrative use. For more information, see [Enabling Administrator Updates](enabling-administrator-updates.md). | 
+| `AdministratorUpdatesOptOut` | `REG_DWORD` | 1 | Indicates that the user does not want to receive administrator updates to Visual Studio. The absence of the registry value, or a set value of 0, means that the Visual Studio user wants to receive administrator updates to Visual Studio. This is for developer user (if they have admin permissions on the client machine). For more information, see [Applying Administrator Updates](../install/applying-administrator-updates#understanding-configuration-options). | 
+| `UpdateConfigurationFile` | ` REG_SZ` or `REG_EXPAND_SZ` | %ProgramData%\Microsoft\VisualStudio\updates.config | The file path for configuring Administrative Updates. For more information, refer to [Methods for configuring an administrator update](../install/applying-administrator-updates#methods-for-configuring-an-administrator-update). | 
+::: moniker range="vs-2019"
+| `BaselineStickinessVersions2019` | ` REG_SZ` or `REG_EXPAND_SZ` | `ALL` or `16.4.0,16.7.0,16.9.0` | The versions authorizing updates to remain on specified servicing baselines. For more information, refer to [Applying Administrator Updates](../install/applying-administrator-updates#understanding-configuration-options) page. | 
+
+::: moniker-end
 
 > [!IMPORTANT]
 > If you change the `CachePath` registry policy after any installations, you must move the existing package cache to the new location and make sure it's secured so that `SYSTEM` and `Administrators` have Full Control and that `Everyone` has Read access.
@@ -64,6 +67,7 @@ You can set the following registry values:
 ## See also
 
 - [Install Visual Studio](install-visual-studio.md)
+- [Visual Studio Administrators Guide](visual-studio-administrator-guide.md)
 - [Disable or move the package cache](disable-or-move-the-package-cache.md)
 - [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md)
-- [Administrative Updates](http://TODOLink) 
+- 
