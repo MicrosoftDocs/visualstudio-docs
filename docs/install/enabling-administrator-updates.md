@@ -55,9 +55,9 @@ To enable Configuration Manager to manage Visual Studio administrator updates, y
 
 To enable a client machine to accept Visual Studio administrator updates, you will need to ensure that the Visual Studio Client Detector Utility is installed properly, and you will need to set a registry key to enable the client to receive administrator updates.  
 
-### Visual Studio Client Detector Utility 
+### [Visual Studio Client Detector Utility](https://support.microsoft.com/help/5001148) 
 
-The Visual Studio Client Detector Utility must be installed on the client machines in order for the administrator updates to be received properly. This utility was included with all recent Visual Studio releases.  
+The Visual Studio Client Detector Utility must be installed on the client machines in order for the administrator updates to be properly recognized and received. This utility was included with all Visual Studio 2017 and Visual Studio 2019 product updates that were released on or after May 12, 2020, and it is also available on the [Microsoft Update Catalog](https://catalog.update.microsoft.com) to install independently.  
 
 ### Encoding administrator intent on the client machines 
 
@@ -73,7 +73,7 @@ The **AdministratorUpdatesEnabled** key is designed for the administrator to
 
 You can use the following methods to provide feedback about Visual Studio administrator updates or report issues that affect the updates:
 * Refer to the [Troubleshooting Visual Studio installation and upgrade issues](../install/troubleshooting-installation-issues.md) guidance.
-* Ask questions to the community at the [Visual Setup Q&A Forum](https://docs.microsoft.com/answers/topics/vs-setup.html).
+* Ask questions to the community at the [Visual Studio Setup Q&A Forum](https://docs.microsoft.com/answers/topics/vs-setup.html).
 * Go to the [Visual Studio support page](https://visualstudio.microsoft.com/vs/support/), and check whether your issue is listed in the FAQ.  You can also select the [Support Link](https://visualstudio.microsoft.com/vs/support/#talktous) button for chat help.
 * [Provide feature feedback or report a problem](https://aka.ms/vs/wsus/feedback) to the Visual Studio team for this experience.
 * Contact your organization’s technical account manager for Microsoft.
