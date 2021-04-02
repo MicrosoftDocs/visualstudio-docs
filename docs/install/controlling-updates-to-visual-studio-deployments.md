@@ -18,13 +18,13 @@ ms.technology: vs-installation
 ---
 # Control updates to network-based Visual Studio deployments
 
-Enterprise administrators often create a layout and host it on a network file share to deploy to their end-users.
+Enterprise administrators often create a layout and host it on a network file share to deploy to their end-users. This page describes how to configure your network layout options properly. 
 
 ## Controlling where Visual Studio looks for updates
 
 By default, Visual Studio continues to look online for updates even if the installation was deployed from a network share. If an update is available, the user can install it. Any updated content that is not found in the offline layout is downloaded from the web.
 
-If you want direct control over where Visual Studio looks for updates, you can modify the location where it looks. You can also control the version your users are updated to. To do so, follow these steps:
+If you want to control where the Visual Studio client looks for updates, like if your client machine does not have internet access and you want to ensure that it only installs from the layout, then you can configure the location where the installer looks for updated product bits. You can also control the version your users are updated to. To do so, follow these steps:
 
 1. Create an offline layout:
 
@@ -52,6 +52,9 @@ If you want direct control over where Visual Studio looks for updates, you can m
    \\server\share\VS\vs_enterprise.exe
    ```
 
+ > [!TIP]
+ > We recommend that you decide how you want the clients to receive product updates _before_ you do the initial client install. This makes it easier to ensure that your configuration options are set correctly. Your choices include having the clients get updates from the network layout location or from the internet.
+ 
 When an enterprise administrator determines it is time for their users to update to a newer version of Visual Studio, they can [update the layout location](update-a-network-installation-of-visual-studio.md) to incorporate the updated files, as follows.
 
 1. Use a command that is similar to the following command:
@@ -69,8 +72,6 @@ When an enterprise administrator determines it is time for their users to update
    Existing Visual Studio installs from this layout look for updates at `\\server\share\VS\ChannelManifest.json`. If the channelManifest.json is newer than what the user has installed, Visual Studio notifies the user that an update is available.
 
    New installs automatically install the updated version of Visual Studio directly from the layout.
-
-If you are an enterprise administrator and you would like to push updates to your client machines using enterprise tools like the Microsoft Update Catalog, Windows Server Update Services, and System Center Configuration Manager, see [Updates using Microsoft Update Catalog](http://TODOLink) for more information. 
 
 ## Controlling notifications in the Visual Studio IDE
 
@@ -121,8 +122,9 @@ vsregedit.exe set "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterpris
 
 ## See also
 
-* [Install Visual Studio](install-visual-studio.md)
 * [Visual Studio administrator guide](visual-studio-administrator-guide.md)
+* [Enabling administrator updates](enabling-administrator-updates.md)
+* [Applying administrator updates](applying-administrator-updates.md)
 * [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md)
 * [Tools for managing Visual Studio instances](tools-for-managing-visual-studio-instances.md)
 * [Visual Studio product lifecycle and servicing](/visualstudio/releases/2019/servicing/)
