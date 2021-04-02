@@ -87,8 +87,8 @@ The generated save code also contains a line of code that calls the `CustomersBi
 
 2. Add a line of code to call the `OrdersBindingSource.EndEdit` method after the line that calls the `CustomersBindingSource.EndEdit` method. The code in the **Save** button click event should resemble the following:
 
-     [!code-vb[VSProDataOrcasHierarchicalUpdate#1](../data-tools/codesnippet/VisualBasic/hierarchical-update_1.vb)]
-     [!code-csharp[VSProDataOrcasHierarchicalUpdate#1](../data-tools/codesnippet/CSharp/hierarchical-update_1.cs)]
+     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VSProDataOrcasHierarchicalUpdate/VB/Form1.vb" id="Snippet1":::
+     :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/VSProDataOrcasHierarchicalUpdate/CS/Form1.cs" id="Snippet1":::
 
 In addition to committing changes on a related child table before saving data to a database, you might also have to commit newly created parent records before adding new child records to a dataset. In other words, you might have to add the new parent record (`Customer`) to the dataset before foreign key constraints enable new child records (`Orders`) to be added to the dataset. To accomplish this, you can use the child `BindingSource.AddingNew` event.
 
@@ -103,8 +103,8 @@ In addition to committing changes on a related child table before saving data to
 
 2. Add a line of code to the event handler that calls the `CustomersBindingSource.EndEdit` method. The code in the `OrdersBindingSource_AddingNew` event handler should resemble the following:
 
-     [!code-vb[VSProDataOrcasHierarchicalUpdate#2](../data-tools/codesnippet/VisualBasic/hierarchical-update_2.vb)]
-     [!code-csharp[VSProDataOrcasHierarchicalUpdate#2](../data-tools/codesnippet/CSharp/hierarchical-update_2.cs)]
+     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VSProDataOrcasHierarchicalUpdate/VB/Form1.vb" id="Snippet2":::
+     :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/VSProDataOrcasHierarchicalUpdate/CS/Form1.cs" id="Snippet2":::
 
 ## TableAdapterManager reference
 

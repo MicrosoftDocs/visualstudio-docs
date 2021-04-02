@@ -126,7 +126,7 @@ It is possible to write your own databinding code, but it is much easier to let 
 
 7. Visual Studio has generated all the binding code that connects the UI controls to events in the model. All you need to do, in order to see some data, is to write some code to populate the model. First, navigate to *MainWindow.xaml.cs* and add a data member to the MainWindow class for the data context. This object, which has been generated for you, acts something like a control that tracks changes and events in the model. You'll also add CollectionViewSource data members for customers and orders, and the associated constructor initialization logic. The top of the class should look like this:
 
-     [!code-csharp[MainWindow#1](../data-tools/codesnippet/CSharp/CreateWPFDataApp/MainWindow.xaml.cs#1)]
+     :::code language="csharp" source="../data-tools/codesnippet/CSharp/CreateWPFDataApp/MainWindow.xaml.cs" id="Snippet1":::
 
      Add a `using` directive for System.Data.Entity to bring the Load extension method into scope:
 
@@ -136,7 +136,8 @@ It is possible to write your own databinding code, but it is much easier to let 
 
      Now, scroll down and find the `Window_Loaded` event handler. Notice that Visual Studio has added a CollectionViewSource object. This represents the NorthwindEntities object that you selected when you created the model. You added that already, so you don't need it here. Let's replace the code in `Window_Loaded` so that the method now looks like this:
 
-     [!code-csharp[Window_Loaded#2](../data-tools/codesnippet/CSharp/CreateWPFDataApp/MainWindow.xaml.cs#2)]
+     :::code language="csharp" source="../data-tools/codesnippet/CSharp/CreateWPFDataApp/MainWindow.xaml.cs" id="Snippet2":::
+
 
 8. Press **F5**. You should see the details for the first customer that was retrieved into the CollectionViewSource. You should also see their orders in the data grid. The formatting isn't great, so let's fix that up. You can also create a way to view the other records and do basic CRUD operations.
 
@@ -417,7 +418,8 @@ The code-behind is minimal except for the add and delete methods. Navigation is 
 
 Add these handler methods to the MainWindow class in *MainWindow.xaml.cs*. If your CollectionViewSource for the Customers table has a different name, then you need to adjust the name in each of these methods:
 
-[!code-csharp[CommandHandlers#3](../data-tools/codesnippet/CSharp/CreateWPFDataApp/MainWindow.xaml.cs#3)]
+:::code language="csharp" source="../data-tools/codesnippet/CSharp/CreateWPFDataApp/MainWindow.xaml.cs" id="Snippet3":::
+
 
 ## Run the application
 
