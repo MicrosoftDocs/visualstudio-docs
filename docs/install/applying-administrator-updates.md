@@ -2,7 +2,7 @@
 title: Applying administrator updates to Visual Studio with Microsoft Endpoint Configuration Manager
 titleSuffix: ''
 description: Learn how to apply administrator updates to Visual Studio.
-ms.date: 03/10/2021
+ms.date: 03/31/2021
 ms.custom: 
 ms.topic: overview
 ms.assetid: 9a3fdb28-db3d-4970-bc17-7417a985f0fb
@@ -38,34 +38,52 @@ There are three types of administrator updates to Visual Studio:
 
 The title of each administrator update describes both the applicable version range and the resultant version of the update. For example,
 
-* **Visual Studio 2019 version 16.7.0 to 16.7.12 update** classified as a “Security Update” will apply to any Visual Studio edition on the client between versions 16.7.0 through 16.7.12, and it will update those client editions to 16.7.12.  
+::: moniker range="vs-2017"
 
-* **Visual Studio 2019 version 16.0.0 to 16.9.0 update** classified as a “Feature Pack” will apply to select Visual Studio editions on the client between the entire product version range of 16.0.0 through 16.9.0, and it will update those client editions (that haven’t been configured to remain on an earlier servicing baseline) to 16.9.0. 
+* **Visual Studio 2017 version 15.9.0 to 15.9.35 update** classified as a “Security Update” will apply to any Visual Studio 2017 edition on the client between versions 15.9.0 through 15.9.35, and it will update those client editions to 15.9.35.
 
-* **Visual Studio 2019 version 16.8.0 to 16.8.7 update** classified as simply “Updates” will apply to select Visual Studio editions on the client between versions 16.8.0 through 16.8.7, and it will update those client editions to 16.8.7. 
+* **Visual Studio 2017 version 15.0.0 to 15.9.0 update** classified as a “Feature Pack” will apply to Visual Studio 2017 editions licensed for enterprise use on the client between the entire product version range of 15.0.0 through 15.9.0, and it will update those client editions to 15.9.0. Applying this feature pack basically enables the clients to then receive security updates. 
+
+* **Visual Studio 2017 version 15.9.0 to 15.9.37 update** classified as simply “Updates” will apply to Visual Studio 2017 editions licensed for enterprise use on the client between versions 15.9.0 through 15.9.37, and it will update those client editions to 15.9.37. 
+
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+* **Visual Studio 2019 version 16.7.0 to 16.7.12 update** classified as a “Security Update” will apply to any Visual Studio 2019 edition on the client between versions 16.7.0 through 16.7.12, and it will update those client editions to 16.7.12.  
+
+* **Visual Studio 2019 version 16.0.0 to 16.9.0 update** classified as a “Feature Pack” will apply to Visual Studio 2019 editions licensed for enterprise use on the client between the entire product version range of 16.0.0 through 16.9.0, and it will update those client editions (that haven’t been [configured to remain on an earlier servicing baseline](#ServicingBaselineStickiness)) to 16.9.0. 
+
+* **Visual Studio 2019 version 16.8.0 to 16.8.7 update** classified as simply “Updates” will apply to Visual Studio 2019 editions licensed for enterprise use on the client between versions 16.8.0 through 16.8.7, and it will update those client editions to 16.8.7. 
+
+::: moniker-end
 
 ## Using Configuration Manager to deploy Visual Studio updates
 
 ### Understanding configuration options
 
-There are a few configuration options that are can be used to tailor the Visual Studio administrator updates so that they’re compatible and aligned with your organization’s deployment requirements. The most common options are listed below.  For an exhaustive list of all the command-line parameters supported by administrator updates, refer to the [Use command-line parameters to install Visual Studio documentation](../install/use-command-line-parameters-to-install-visual-studio.md) and pay attention only to those that correspond to the "update" action.
+There are a few configuration options that are can be used to tailor the Visual Studio administrator updates so that they’re compatible and aligned with your organization’s deployment preferences and requirements. The most common configuration options are listed below. For an exhaustive list of all the supported  administrator update behaviors, refer to the [Use command-line parameters to install Visual Studio documentation](../install/use-command-line-parameters-to-install-visual-studio.md) and pay attention only to those that correspond to the "update" action.
 
-* **Administrator update opt-in**: This registry key described in [Enabling administrator updates](../install/enabling-administrator-updates.md) is required for the client machine to receive administrator updates. It is a machine-wide key, which means it applies to all instances of Visual Studio installed on the box. 
+* **[Administrator update opt-in](../install/enabling-administrator-updates#encoding-administrator-intent-on-the-client-machines)**: This registry key is required for the client machine to receive administrator updates. It is a machine-wide key, which means it applies to all instances of Visual Studio installed on the box. 
  
-* **Developer opt-out**: Developers can use a separate machine-wide **AdministratorUpdatesOptOut** key to *opt out* of receiving Visual Studio administrator updates. The purpose of this key is to encode the intent of the Visual Studio user. To configure the client computer to block administrator updates, set the **AdministratorUpdatesOptOut** REG_DWORD key to **1**. The absence of the key, or a set value of **0**, means that the Visual Studio user wants to receive administrator updates to Visual Studio.
+* **Visual Studio user opt-out**: Visual Studio users can use a separate machine-wide **AdministratorUpdatesOptOut** registry key to *opt out* of receiving Visual Studio administrator updates. The purpose of this key is to allow the Visual Studio user to have some control over having updates automatically applied to the machine. To configure the client computer to block administrator updates, set the **AdministratorUpdatesOptOut** REG_DWORD key to **1**. The absence of the key, or a set value of **0**, means that the Visual Studio user wants to receive administrator updates to Visual Studio.
 
-    Note that the **AdministratorUpdatesOptOut** key (for encoding developer intent) is prioritized over the **AdministratorUpdatesEnabled** key, which encodes the IT admin intent. If **AdministratorUpdatesOptOut** is set to **1**, the update will be blocked on the client, even if the **AdministratorUpdatesEnabled** key is also set to **1**. This action assumes that IT admins can access and monitor which developers chose to opt out, and that the two parties can then discuss whose needs are more important. IT admins can always change either key whenever they want.
+    Note that the **AdministratorUpdatesOptOut** key for encoding user preference is prioritized over the **AdministratorUpdatesEnabled** key, which encodes the IT admin intent. If **AdministratorUpdatesOptOut** is set to **1**, the update will be blocked on the client, even if the **AdministratorUpdatesEnabled** key is also set to **1**. This action assumes that IT admins can access and monitor which developers chose to opt out, and that the two parties can then discuss whose needs are more important. IT admins can always change either key whenever they want.
  
-* **Location of the updated product bits**: Most of the time, client machines download the updated product bits from the internet via the Microsoft CDN. This scenario requires the client machines to have internet access. Some enterprises, however, restrict client machines to only install and update bits from an internal network layout location. To ensure that administrator updates can be applied from an internal network location, the following conditions must be true: 
+* **Location of the updated product bits**: Most of the time, client machines download the updated product bits from the internet via the Microsoft CDN. This scenario requires the client machines to have internet access. Some enterprises, however, restrict client machines to only install and update bits from an internal network layout location. To ensure that administrator updates can be applied using updated bits that are on an internal network location, the following conditions must be true before the administrator update can be successfully deployed: 
 
-  - The client machine must have originally installed the product from a network layout location (i.e. a local install cache). 
-  - That network layout location (where the client originally installed from) has been [updated to contain the updated product bits](../install/update-a-network-installation-of-visual-studio.md) specified by the administrator update. 
- 
-* **Force the update to occur even if Visual Studio is in use**: Visual Studio must be closed before you install the update. If Visual Studio is open or being used, the update installation will be aborted. An easy way to ensure that Visual Studio is closed is to configure Confirmation Manager to apply the update right after a machine reboot. You can also use the `--force` parameter to force shut down Visual Studio. Forcing Visual Studio to close might cause loss of work, so use it with caution. Running an administrator update in the default system context will ignore the `–-force` flag, so you will need to configure the Administrator Update to be run in user context.
- 
-* **Servicing baseline stickiness**: As described above, administrator updates that are feature updates advance a Visual Studio installation to a more current minor version of the product. Sometimes, however, development teams like to remain at a particular stable and secure servicing baseline level, and they like to control when their clients advance to a more current minor version. To configure a client machine to remain on a servicing baseline and ignore undesired administrator feature updates sent to it, you’ll need to create and set the **BaselineStickinessVersions2019** Reg_SZ data value to a string that represents the allowable baselines the client machine can snap to and stay on.  The string can contain a sequence of servicing baseline versions, separated by commas, such as **16.4.0,16.7.0**. Any number of servicing baseline versions can be included in the string, and the word **All**, which is shorthand for referencing all supported servicing baselines, is also supported. 
+  - The client machine must have, at some point, already run the bootstrapper from that network layout location. Ideally, the original client install would have happened using the bootstrapper from the network layout, but it's also possible to have just installed an update using an updated bootstrapper in that same network location.  Either one of these actions would embed, on the client machine, a connection with that particular layout location.   
+  - The network layout location (where the client is connected to) must be [updated to contain the updated product bits](../install/update-a-network-installation-of-visual-studio.md) that the administrator update wants to deploy. 
+
+::: moniker range="vs-2019"
+
+* **<a name="ServicingBaselineStickiness">Servicing baseline stickiness</a>**: As described above, administrator updates that are feature updates advance a Visual Studio installation to a more current minor version of the product. Sometimes, however, development teams like to remain at a particular stable and secure servicing baseline level, and they like to control when their clients advance to a more current minor version. To configure a client machine to remain on a servicing baseline and ignore undesired administrator feature updates sent to it, you’ll need to create and set the **BaselineStickinessVersions2019** Reg_SZ data value to a string that represents the allowable baselines the client machine can snap to and stay on.  The string can contain a sequence of servicing baseline versions, separated by commas, such as **16.4.0,16.7.0**. Any number of servicing baseline versions can be included in the string, and the word **All**, which is shorthand for referencing all supported servicing baselines, is also supported. 
 
      If the `BaselineStickinessVersions2019` registry value is malformed, then all feature updates will be blocked from installing on the machine. Also, please pay attention to the [supported timeframes for Visual Studio feature updates](https://docs.microsoft.com/visualstudio/productinfo/vs-servicing-vs). While it is technically possible to apply feature updates that have reached the end of their lifetimes, we don't recommend it because they will be out of support and thus potentially insecure.
+
+::: moniker-end
+
+* **Force the update to occur even if Visual Studio is in use**: Visual Studio must be closed before you install the update. If Visual Studio is open or being used, the update installation will be aborted. An easy way to ensure that Visual Studio is closed is to configure Confirmation Manager to apply the update right after a machine reboot. You can also use the `--force` parameter to force shut down Visual Studio. Forcing Visual Studio to close might cause loss of work, so use it with caution. Running an administrator update in the default system context will ignore the `–-force` flag, so you will need to configure the Administrator Update to be run in user context.
 
 ### Methods for configuring an administrator update
 
@@ -127,9 +145,9 @@ For an exhaustive list of client error codes, see [Use command-line parameters
 
 You can use the following methods to provide feedback about Visual Studio administrator updates or report issues that affect the updates:
 * Refer to the [Troubleshooting Visual Studio installation and upgrade issues](../install/troubleshooting-installation-issues.md) guidance.
-* Ask questions to the community at the [Visual Setup Q&A Forum](https://docs.microsoft.com/answers/topics/vs-setup.html).
+* Ask questions to the community at the [Visual Studio Setup Q&A Forum](https://docs.microsoft.com/answers/topics/vs-setup.html).
 * Go to the [Visual Studio support page](https://visualstudio.microsoft.com/vs/support/), and check whether your issue is listed in the FAQ.  You can also select the [Support Link](https://visualstudio.microsoft.com/vs/support/#talktous) button for chat help.
-* [Provide feature feedback or report a problem](https://aka.ms/vs/wsus/feedback) to the Visual Studio team for this experience.
+* [Provide feature feedback or report a problem](https://aka.ms/vs/wsus/feedback) to the Visual Studio team regarding this experience of applying adminsitrator updates.
 * Contact your organization’s technical account manager for Microsoft.
 
 ## See also
