@@ -1,1 +1,0 @@
-        Dim addedRecords As DataSet = DataSet1.GetChanges(DataRowState.Added)
