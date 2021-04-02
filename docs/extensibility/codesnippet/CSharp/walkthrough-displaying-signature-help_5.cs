@@ -1,1 +1,0 @@
-internal class TestSignature : ISignature
