@@ -18,12 +18,12 @@ ms.technology: vs-installation
 ---
 # Create a network installation of Visual Studio
 
-Sometimes an enterprise administrator wants to create a network install point that contains Visual Studio files that can be deployed to client workstations. This is to facilitate scenarios where the client machines may have limited permissions or limited access to the internet, or when internal teams want to do compatibility testing before their organization standardizes on a particular version of the developer toolset. We've designed Visual Studio so that an administrator can _create a layout_ by creating a file cache located on an internal static network share that includes all the Visual Studio files for both initial installation and all future product updates.
+Sometimes an enterprise administrator wants to create a network install point that contains Visual Studio files that can be deployed to client workstations. This is to facilitate scenarios where the client machines may have limited permissions or limited access to the internet, or when internal teams want to do compatibility testing before their organization standardizes on a particular version of the developer toolset. We've designed Visual Studio so that an administrator can _create a network layout_ which is essentially creating a file cache located on an internal static network share that includes all the Visual Studio files for both initial installation and all future product updates.
 
  > [!NOTE]
  >  - If you have multiple editions of Visual Studio in use within your enterprise (for example, both Visual Studio 2019 Professional and Visual Studio 2019 Enterprise), you must create a separate network install share for each edition.
- >  - Decide how you want the clients to receive product updates _before_ you do the initial client install so you can ensure that your configuration options are set correctly. Your choices include having the clients get updates from the network layout location or from the internet. 
- >  - The original Visual Studio install and all updates must be located in the same network directory to ensure that repair and uninstall functionality works properly. 
+ >  - We recommend that you decide how you want the clients to receive product updates _before_ you do the initial client install.  This makes it easier to ensure that your configuration options are set correctly. Your choices include having the clients get updates from the network layout location or from the internet. 
+ >  - The original Visual Studio installation layout and all subsequent product updates must be located in the same network directory to ensure that repair and uninstall functionality works properly. 
 
 ## Download the Visual Studio bootstrapper
 
@@ -247,29 +247,13 @@ As product updates become available, you might want to [update the network insta
 
 ## How to create a layout for a previous Visual Studio release
 
-::: moniker range="vs-2017"
+First you need to understand that there are two types of Visual Studio bootstrappers - one that can be characterized by the words "latest", "current", "evergreen" and "tip", and one that essentially means "fixed version".  Both types of bootstrapper files have the exact same name, and the best way to distinguish the type is to pay attention to where you got it from. The Visual Studio bootstrappers available on [visualstudio.microsoft.com](https://visualstudio.microsoft.com/downloads) are considered evergreen Visual Studio bootstrapper, and they always install (or updates to) the latest release that's available in the channel at the time the bootstrapper is run. The Visual Studio bootstrappers available from the [Visual Studio 2019 Releases page](https://docs.microsoft.com/visualstudio/releases/2019/history) oage or that are embedded inside the administrator update in the Microsoft Catalog install a particular fixed version of the product. 
 
-> [!NOTE]
-> The Visual Studio bootstrappers that are available on [visualstudio.microsoft.com](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017) download and install the latest Visual Studio release that's available whenever they are run.
->
-> So, if you download a Visual Studio *bootstrapper* today and run it six months from now, it installs the Visual Studio release that is current at the time you run the bootstrapper.
->
-> But, if you create a *layout* and then install from it, the layout installs the specific version of Visual Studio that exists in the layout. Even though a newer version might exist online, you get the version of Visual Studio that is in the layout.
+So, if you download an evergreen Visual Studio bootstrapper today and run it six months from now, it will install the Visual Studio release that is current at the time the bootstrapper is run. It's designed to always install the latest bits and keep you current.
 
-::: moniker-end
+If you download a fixed-link boostrapper, or if you run an administrator update that you downloaded from the Microsoft Catalog, then it will always install a particular version of the product, no matter when it was run.
 
-::: moniker range="vs-2019"
-
-> [!NOTE]
-> The Visual Studio bootstrappers that are available on [visualstudio.microsoft.com](https://visualstudio.microsoft.com/downloads) download and install the latest Visual Studio release that's available whenever they are run.
->
-> So, if you download a Visual Studio *bootstrapper* today and run it six months from now, it installs the Visual Studio release that is current at the time you run the bootstrapper.
->
-> But, if you create a *layout* and then install from it, the layout installs the specific version of Visual Studio that exists in the layout. Even though a newer version might exist online, you get the version of Visual Studio that is in the layout.
-
-::: moniker-end
-
-If you need to create a layout for an older version of Visual Studio, go to [https://my.visualstudio.com](https://my.visualstudio.com) to download "fixed" versions of the Visual Studio bootstrappers.
+Lastly, you can create a network layout using any one of these bootstrappers, and the version that will get created in the layout depends on the bootstrapper you're using i.e. it will either be a fixed version or current.  You can then update the network layout using any later bootstrapper or you can also use the administrator update package from the Microsoft Catalog. Regardless of how you update the layout, the resultant updated layout will be a package cache that contains a particular version of the product and it will then behave like a fixed link boostrapper. So, whenever the client installs from the layout, the client will install the specific version of Visual Studio that exists in the layout (even though a newer version might exist online). 
 
 ### How to get support for your offline installer
 
