@@ -40,6 +40,14 @@ The following tools and utilities will help you detect and manage installed Visu
 C:\Program Files (x86)\Microsoft Visual Studio\Installer> vswhere.exe -legacy -prerelease -format json
 ```
 
+## Using Windows Management Instrumentation (WMI)
+
+If the Visual Studio Client Detector Utility is installed on the machine, then you can query for Visual Studio instance information using WMI. The Visual Studio Client Detector Utility is installed by default with every Visual Studio 2017 and Visual Studio 2019 update that was released on or after May 12, 2021. It is also available on the [Microsoft Update Catalog](http://catalog.update.microsoft.com/).  For an example of how to use the utility to return Visual Studio instance information, open up Powershell as an administrator on the client machine, and type in the following command:
+
+```cmd
+Get-CimInstance MSFT_VSInstance
+```
+
 ## Using Microsoft Endpoint Configuration Manager 
 
 [Microsoft Endpoint Configuration Manager software inventory](https://docs.microsoft.com/en-us/mem/configmgr/core/clients/manage/inventory/introduction-to-software-inventory) capabilities can be used to query and collect information about Visual Studio instances on client devices. For example, the following query will return the display name, version and the device name that Visual Studio is installed on for all installed Visual Studio 2017 and 2019 instances: 
