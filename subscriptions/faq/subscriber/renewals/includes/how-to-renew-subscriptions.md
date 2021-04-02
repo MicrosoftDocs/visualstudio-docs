@@ -6,7 +6,7 @@ ms.assetid: 00b82d16-6a80-42d1-8b71-e12047c6b50c
 ms.technology: 
 author: CaityBuschlen
 ms.author: cabuschl
-ms.date: 01/29/2021
+ms.date: 04/02/2021
 ms.faqid: q4_2
 ---
 
@@ -22,12 +22,13 @@ If you currently have a retail subscription, there are two ways to renew:
 - Visit the [Microsoft Store](https://www.microsoft.com/store) and search for 'Visual Studio subscription' to see the available renewal opportunities. Here are some quick links: 
 
 
-    [Visual Studio Enterprise](https://www.microsoft.com/p/visual-studio-enterprise-subscription/dg7gmgf0dst4?activetab=pivot%3aoverviewtab) 
+    - [Visual Studio Enterprise](https://www.microsoft.com/p/visual-studio-enterprise-subscription/dg7gmgf0dst4?activetab=pivot%3aoverviewtab) 
 
-    [Visual Studio Professional](https://www.microsoft.com/p/visual-studio-professional-subscription/dg7gmgf0dst3?activetab=pivot%3aoverviewtab)
+    - [Visual Studio Professional](https://www.microsoft.com/p/visual-studio-professional-subscription/dg7gmgf0dst3?activetab=pivot%3aoverviewtab)
 
-    [Visual Studio Test Professional](https://www.microsoft.com/p/visual-studio-test-professional-subscription/dg7gmgf0dst6?activetab=pivot%3aoverviewtab) 
+    - [Visual Studio Test Professional](https://www.microsoft.com/p/visual-studio-test-professional-subscription/dg7gmgf0dst6?activetab=pivot%3aoverviewtab) 
 
+Note: You must renew your subscription within 30 days of the expiry to qualify for renewal pricing.
 
 ### How to renew cloud subscriptions
 Cloud subscriptions are those purchased through the [Visual Studio Marketplace](https://marketplace.visualstudio.com/).  Both monthly and annual cloud subscriptions renew until you cancel them, so there's no action needed to renew them.
