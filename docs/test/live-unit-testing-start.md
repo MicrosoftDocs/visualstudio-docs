@@ -76,7 +76,7 @@ Now that you've created the solution, you'll create a class library named String
 
 5. Replace all of the existing code in the code editor with the following code:
 
-   :::code language="csharp" source="../test/samples/csharp/utilitylibraries/stringlibrary/class1.cs" id="Snippet1":::
+   :::code language="csharp" source="samples/csharp/UtilityLibraries/StringLibrary/Class1.cs" id="Snippet1":::
 
    StringLibrary has three static methods:
 
@@ -134,7 +134,7 @@ The next step is to create the unit test project to test the StringLibrary libra
 
 6. Replace the boilerplate unit test code provided by the template with the following code:
 
-   :::code language="csharp" source="../test/samples/snippets/csharp/lut-start/unittest1.cs" id="Snippet1":::
+   :::code language="csharp" source="samples/snippets/csharp/lut-start/unittest1.cs" id="Snippet1":::
 
 7. Save your project by selecting the **Save** icon on the toolbar.
 
