@@ -75,7 +75,7 @@ You can use the following methods to provide feedback about Visual Studio admini
 * Refer to the [Troubleshooting Visual Studio installation and upgrade issues](../install/troubleshooting-installation-issues.md) guidance.
 * Ask questions to the community at the [Visual Studio Setup Q&A Forum](https://docs.microsoft.com/answers/topics/vs-setup.html).
 * Go to the [Visual Studio support page](https://visualstudio.microsoft.com/vs/support/), and check whether your issue is listed in the FAQ.  You can also select the [Support Link](https://visualstudio.microsoft.com/vs/support/#talktous) button for chat help.
-* [Provide feature feedback or report a problem](https://aka.ms/vs/wsus/feedback) to the Visual Studio team for this experience.
+* [Provide feature feedback or report a problem](https://aka.ms/vs/wsus/feedback) to the Visual Studio team regarding this experience of enabling adminsitrator updates.
 * Contact your organization’s technical account manager for Microsoft.
 
 ## See also
