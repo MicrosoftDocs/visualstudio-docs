@@ -95,19 +95,16 @@ Before you deploy Visual Studio across your organization, there are a few decisi
 
 * (Optional) Set Group Policy. You can also [configure Visual Studio to disable customer feedback](../ide/visual-studio-experience-improvement-program.md) on individual computers.
 
-## Step 3 - Deploy
-
-* Use your deployment technology of choice to execute your script onto your target developer workstations.
-
-## Step 4 - Deploy updates
+## Step 3 - Deploy updates
+Use your deployment technology of choice to execute your script onto your target developer workstations.
 
 * [Refresh your network location with the latest updates](update-a-network-installation-of-visual-studio.md?view=vs-2019&preserve-view=true) to Visual Studio by running the command you used in step 1 on a regular basis to add updated components.
 
   You can update Visual Studio by using an update script. To do so, use the [`update`](use-command-line-parameters-to-install-visual-studio.md?view=vs-2019&preserve-view=true) command-line parameter.
 
-  If you wish to utilize updates from the Microsoft Update Catalog deployable via Windows Server Update Services with tools like System Center Configuration Manager, see [Updates using Microsoft Update Catalog](http://TODOLink). 
+  You can deploy Visual Studio updates from the Windows Server Update Services or the Microsoft Update Catalog with tools like System Center Configuration Manager.  Refer to [Applying Administrator Updates](applying-administrator-updates.md). 
 
-## Step 5 - (Optional) Use Visual Studio tools
+## Step 4 - (Optional) Use Visual Studio tools to verify installation
 
 We have several tools available to help you [detect and manage installed Visual Studio instances](tools-for-managing-visual-studio-instances.md?view=vs-2019&preserve-view=true) on client machines.
 
@@ -144,17 +141,16 @@ The registry is located in the *Software\Microsoft\VisualStudio\16.0_{InstanceId
 
 * (Optional) Set Group Policy. You can also [configure Visual Studio to disable customer feedback](../ide/visual-studio-experience-improvement-program.md) on individual computers.
 
-## Step 3 - Deploy
-
-* Use your deployment technology of choice to execute your script onto your target developer workstations.
-
-## Step 4 - Deploy updates
+## Step 3 - Deploy updates
+Use your deployment technology of choice to execute your script onto your target developer workstations.
 
 * [Refresh your network location with the latest updates](update-a-network-installation-of-visual-studio.md?view=vs-2017&preserve-view=true) to Visual Studio by running the command you used in step 1 on a regular basis to add updated components.
 
   You can update Visual Studio by using an update script. To do so, use the [`update`](use-command-line-parameters-to-install-visual-studio.md?view=vs-2019&preserve-view=true) command-line parameter.
+  
+  You can deploy Visual Studio updates from the Windows Server Update Services or the Microsoft Update Catalog with tools like System Center Configuration Manager.  Refer to [Applying Administrator Updates](applying-administrator-updates.md).
 
-## Step 5 - (Optional) Use Visual Studio tools
+## Step 4 - (Optional) Use Visual Studio tools to verify installation
 
 We have several tools available to help you [detect and manage installed Visual Studio instances](tools-for-managing-visual-studio-instances.md?view=vs-2017&preserve-view=true) on client machines.
 
