@@ -494,6 +494,10 @@
         href: errors/msb3644.md
       - name: MSB8036
         href: errors/msb8036.md
+      - name: MSB8040
+        href: errors/msb8040.md
+      - name: MSB8041
+        href: errors/msb8041.md
   - name: Use MSBuild programmatically
     items:
     - name: Overview
