@@ -27,17 +27,7 @@ It's possible to update a network installation layout of Visual Studio with the 
 
 To refresh your network install share so that it includes the latest updates, run the `--layout` command to incrementally download updated packages.
 
-::: moniker range="vs-2017"
-
-**New in 15.3**: If you selected a partial layout when you [first created the network layout](create-a-network-installation-of-visual-studio.md), those settings are saved. Any future layout commands use the previous options plus any new options that you specify. But if you are using a layout of an earlier version, you should use the same command-line parameters that you used when you first created the network install layout (in other words, the same workloads and languages) to update its content.
-
-::: moniker-end
-
-::: moniker range="vs-2019"
-
 If you selected a partial layout when you [first created the network layout](create-a-network-installation-of-visual-studio.md), those settings are saved. Any future layout commands use the previous options plus any new options that you specify.
-
-::: moniker-end
 
 If you host a layout on a file share, you should update a private copy of the layout (for example, c:\VSLayout) and then, after all of the updated content is downloaded, copy it to your file share (for example, \\server\products\VS). If you don't do this, there is a greater chance that any users who run Setup while you are updating the layout might not be able to get all of the content from the layout because it is not yet completely updated.
 
@@ -101,8 +91,6 @@ Depending on how your network environment is configured, an update can either be
   * Then, update the Visual Studio application itself: <br>```vs_enterprise.exe update --installPath "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise" --quiet --wait --norestart```
 
 ::: moniker-end
-
-* Administrators in organizations that use enterprise tools such as Windows Server Update Services and System Center Configuration Manager can update client deployments of Visual Studio with [Updates using Microsoft Update Catalog](http://TODOLink). These updates are designed to work with client deployments of Visual Studio that were created from a network layout. 
 
 > [!NOTE]
 > Use the [vswhere.exe command](tools-for-managing-visual-studio-instances.md) to identify the install path of an existing instance of Visual Studio on a client machine.
