@@ -32,13 +32,13 @@ Before you deploy Visual Studio across your organization, there are a few decisi
 
 * Make sure that each target computer meets the [minimum installation requirements](/visualstudio/releases/2019/system-requirements/).
 
-::: moniker end
+::: moniker-end
 
 ::: moniker range="vs-2017"
 
 * Make sure that each target computer meets the [minimum installation requirements](/visualstudio/productinfo/vs2017-system-requirements-vs/).
 
-::: moniker end
+::: moniker-end
 
 * Decide on your servicing needs.
 

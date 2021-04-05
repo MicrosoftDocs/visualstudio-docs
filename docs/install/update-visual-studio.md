@@ -283,7 +283,7 @@ Here's how:
 
 ## Administrator updates 
 
-If you are part of an organization that centralizes management of software installations, then your enterprise administrator can cause Visual Studio to update on your machine. Refer to the [configuation options documentation](../install/applying-administrator-updates#using-configuration-manager-to-deploy-visual-studio-updates) for information on how to control or configure what types of updates your machine can accept. 
+If you are part of an organization that centralizes management of software installations, then your enterprise administrator can cause Visual Studio to update on your machine. Refer to the [configuation options documentation](../install/applying-administrator-updates.md#using-configuration-manager-to-deploy-visual-studio-updates) for information on how to control or configure what types of updates your machine can accept. 
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 

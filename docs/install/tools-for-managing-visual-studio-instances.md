@@ -30,7 +30,7 @@ The following tools and utilities will help you detect and manage installed Visu
 * [**VS-Setup-Samples**](https://github.com/microsoft/vs-setup-samples): C# and C++ samples that demonstrate how to use the Setup Configuration API to query an existing installation.
 * [**Windows Management Instrumentation (WMI)**](https://docs.microsoft.com/windows/win32/wmisdk/wmi-start-page): Visual Studio instance information can be queried through the Visual Studio class MSFT_VSInstance. 
 * The [**Setup Configuration API**](<xref:Microsoft.VisualStudio.Setup.Configuration>) provides interfaces for developers who want to build their own utilities for interrogating Visual Studio instances.
-* [**Microsoft Endpoint Configuration Manager software inventory**](https://docs.microsoft.com/en-us/mem/configmgr/core/clients/manage/inventory/introduction-to-software-inventory): can be used to collect information about Visual Studio instances on client devices. 
+* [**Microsoft Endpoint Configuration Manager software inventory**](https://docs.microsoft.com/mem/configmgr/core/clients/manage/inventory/introduction-to-software-inventory): can be used to collect information about Visual Studio instances on client devices. 
 
 ## Using vswhere.exe
 
@@ -42,7 +42,7 @@ C:\Program Files (x86)\Microsoft Visual Studio\Installer> vswhere.exe -legacy -p
 
 ## Using Windows Management Instrumentation (WMI)
 
-If the Visual Studio Client Detector Utility is installed on the machine, then you can query for Visual Studio instance information using WMI. The Visual Studio Client Detector Utility is installed by default with every Visual Studio 2017 and Visual Studio 2019 update that was released on or after May 12, 2020. It is also available on the [Microsoft Update Catalog](http://catalog.update.microsoft.com/) if you want to install it independently.  For an example of how to use the utility to return Visual Studio instance information, open up Powershell as an administrator on the client machine, and type in the following command:
+If the Visual Studio Client Detector Utility is installed on the machine, then you can query for Visual Studio instance information using WMI. The Visual Studio Client Detector Utility is installed by default with every Visual Studio 2017 and Visual Studio 2019 update that was released on or after May 12, 2020. It is also available on the [Microsoft Update Catalog](https://catalog.update.microsoft.com/) if you want to install it independently.  For an example of how to use the utility to return Visual Studio instance information, open up Powershell as an administrator on the client machine, and type in the following command:
 
 ```cmd
 Get-CimInstance MSFT_VSInstance
@@ -50,7 +50,7 @@ Get-CimInstance MSFT_VSInstance
 
 ## Using Microsoft Endpoint Configuration Manager 
 
-[Microsoft Endpoint Configuration Manager software inventory](https://docs.microsoft.com/en-us/mem/configmgr/core/clients/manage/inventory/introduction-to-software-inventory) capabilities can be used to query and collect information about Visual Studio instances on client devices. For example, the following query will return the display name, version and the device name that Visual Studio is installed on for all installed Visual Studio 2017 and 2019 instances: 
+[Microsoft Endpoint Configuration Manager software inventory](https://docs.microsoft.com/mem/configmgr/core/clients/manage/inventory/introduction-to-software-inventory) capabilities can be used to query and collect information about Visual Studio instances on client devices. For example, the following query will return the display name, version and the device name that Visual Studio is installed on for all installed Visual Studio 2017 and 2019 instances: 
 
 ```WQL 
 select distinct SMS_G_System_COMPUTER_SYSTEM.Name, SMS_G_System_ADD_REMOVE_PROGRAMS.DisplayName, SMS_G_System_ADD_REMOVE_PROGRAMS.Version from SMS_R_System inner join SMS_G_System_COMPUTER_SYSTEM on SMS_G_System_COMPUTER_SYSTEM.ResourceID = SMS_R_System.ResourceId inner join SMS_G_System_ADD_REMOVE_PROGRAMS on SMS_G_System_ADD_REMOVE_PROGRAMS.ResourceID = SMS_R_System.ResourceId where SMS_G_System_ADD_REMOVE_PROGRAMS.DisplayName like "Visual Studio %[a-z]% 201[7,9]" 

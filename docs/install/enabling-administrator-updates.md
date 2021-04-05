@@ -58,7 +58,6 @@ To enable a client machine to accept Visual Studio administrator updates, you wi
 ### [Visual Studio Client Detector Utility](https://support.microsoft.com/help/5001148) 
 
 The Visual Studio Client Detector Utility must be installed on the client machines in order for the administrator updates to be properly recognized and received. This utility was included with all Visual Studio 2017 and Visual Studio 2019 product updates that were released on or after May 12, 2020, and it is also available on the [Microsoft Update Catalog](https://catalog.update.microsoft.com) to install independently.  
-
 ### Encoding administrator intent on the client machines 
 
 The client computers must be enabled to receive administrator updates. This step is necessary to make sure that the updates are not unintentionally or accidentally pushed out to unsuspecting client computers. 
