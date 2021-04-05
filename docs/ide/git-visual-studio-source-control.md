@@ -2,7 +2,7 @@
 title: How Visual Studio makes source control easy
 titleSuffix: ''
 description: Learn how to use Git & GitHub in Visual Studio to track changes to your code and revert them if you need to.
-ms.date: 03/22/2021
+ms.date: 04/01/2021
 ms.topic: conceptual
 ms.author: tglee
 author: TerryGLee
@@ -46,5 +46,6 @@ To learn more about using Git and GitHub in Visual Studio, watch the following Y
 
 ## See also
 
+- [Get Started with Git and GitHub in Visual Studio](/learn/modules/visual-studio-github-push/)
 - [The new Git experience in Visual Studio](git-with-visual-studio.md)
 - [Compare Git and Team Explorer side-by-side](git-team-explorer-feature-comparison.md)

@@ -235,7 +235,7 @@ This C# class demonstrates a task that derives from the <xref:Microsoft.Build.Ut
 
 ### Code
 
-[!code-csharp[msbuild_SimpleTask3#1](../msbuild/codesnippet/CSharp/task-writing_1.cs)]
+:::code language="csharp" source="../snippets/csharp/VS_Snippets_Misc/msbuild_SimpleTask3/CS/SimpleTask3.cs" id="Snippet1":::
 
 ## Example 4
 
