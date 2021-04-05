@@ -1,7 +1,7 @@
 ---
 title: Control updates to deployments
 description: Learn how to change where Visual Studio looks for an update when you install from a network.
-ms.date: 03/30/2019
+ms.date: 03/30/2021
 ms.custom: seodec18
 ms.topic: conceptual
 helpviewer_keywords:
@@ -18,13 +18,17 @@ ms.technology: vs-installation
 ---
 # Control updates to network-based Visual Studio deployments
 
-Enterprise administrators often create a layout and host it on a network file share to deploy to their end-users.
+Enterprise administrators often create a layout and host it on a network file share to deploy to their end-users. This page describes how to configure your network layout options properly. 
 
 ## Controlling where Visual Studio looks for updates
 
-By default, Visual Studio continues to look online for updates even if the installation was deployed from a network share. If an update is available, the user can install it. Any updated content that is not found in the offline layout is downloaded from the web.
+**Scenario 1: Client originally installed from a layout, but is configured to receive updates from either the network layout location or the web**
 
-If you want direct control over where Visual Studio looks for updates, you can modify the location where it looks. You can also control the version your users are updated to. To do so, follow these steps:
+By default, Visual Studio continues to look online for updates even if the installation was originally deployed from a network share. If an update is available on the web, then the user can install it. Although the network layout cache is inspected first for any updated product bits, if they are not found there, then Visual Studio will look for and download updated product bits from the web.
+
+**Client originally installed and should only receive updates from the network layout**
+
+If you want to control where the Visual Studio client looks for updates, like if your client machine does not have internet access and you want to ensure that it only and always installs from the layout, then you can configure the location where the client's installer looks for updated product bits. It is best to make sure this setting is configured correctly before the client does the initial install from the layout. 
 
 1. Create an offline layout:
 
@@ -66,9 +70,14 @@ When an enterprise administrator determines it is time for their users to update
    "channelUri":"\\\\server\\share\\VS\\ChannelManifest.json"
    ```
 
-   Existing Visual Studio installs from this layout look for updates at `\\server\share\VS\ChannelManifest.json`. If the channelManifest.json is newer than what the user has installed, Visual Studio notifies the user that an update is available.
+Existing Visual Studio installs from this layout look for updates at `\\server\share\VS\ChannelManifest.json`. If the channelManifest.json is newer than what the user has installed, Visual Studio notifies the user that an update is available.
 
-   New installs automatically install the updated version of Visual Studio directly from the layout.
+Any installation update initiated from the client will automatically install the updated version of Visual Studio directly from the layout.
+
+**Client originally installed from the web, but now should only receive updates from a network layout**
+
+In some cases, the client machine may have already installed Visual Studio from the web, but now the administrator wants to have all future updates come from a managed layout. The only supported way to do this is to create a network layout with the desired version of the product, and then on the client machine, run the bootstrapper _from the layout location_ (e.g. \\\network\share\vs_enterprise.exe). Ideally, the original client install would have happened using the bootstrapper from the network layout with the correctly configured ChannelURI, but running the updated bootstrapper from the network layout location will also work. Either one of these actions would embed, on the client machine, a connection with that particular layout location. The only caveat for this scenario to work correctly is that the “ChannelURI” in the layout’s response.json file must be the same as the ChannelURI that was set on the client’s machine when the original install happened. Most likely this value was originally set to the internet release channel (https://aka.ms/vs/16/release/channel). 
+
 
 ## Controlling notifications in the Visual Studio IDE
 
@@ -119,8 +128,9 @@ vsregedit.exe set "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterpris
 
 ## See also
 
-* [Install Visual Studio](install-visual-studio.md)
 * [Visual Studio administrator guide](visual-studio-administrator-guide.md)
+* [Enabling administrator updates](enabling-administrator-updates.md)
+* [Applying administrator updates](applying-administrator-updates.md)
 * [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md)
 * [Tools for managing Visual Studio instances](tools-for-managing-visual-studio-instances.md)
 * [Visual Studio product lifecycle and servicing](/visualstudio/releases/2019/servicing/)
