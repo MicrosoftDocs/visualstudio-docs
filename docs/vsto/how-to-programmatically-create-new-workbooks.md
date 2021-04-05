@@ -27,8 +27,8 @@ ms.workload:
 
 1. Use the <xref:Microsoft.Office.Interop.Excel.Workbooks.Add%2A> method of the <xref:Microsoft.Office.Interop.Excel.Workbooks> collection.
 
-     [!code-csharp[Trin_VstcoreExcelAutomation#1](../vsto/codesnippet/CSharp/Trin_VstcoreExcelAutomationCS/Sheet1.cs#1)]
-     [!code-vb[Trin_VstcoreExcelAutomation#1](../vsto/codesnippet/VisualBasic/Trin_VstcoreExcelAutomation/Sheet1.vb#1)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreExcelAutomationCS/Sheet1.cs" id="Snippet1":::
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreExcelAutomation/Sheet1.vb" id="Snippet1":::
 
     > [!NOTE]
     > You can create a workbook based on a template other than the default template: pass the template you want to use as a parameter to the <xref:Microsoft.Office.Interop.Excel.Workbooks.Add%2A> method.
