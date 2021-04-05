@@ -1,7 +1,7 @@
 ---
 title: Visual Studio enterprise guide
 description: Set up and troubleshoot Visual Studio in an enterprise environment.
-ms.date: 4/2/2021
+ms.date: 04/06/2021
 ms.custom: seodec18
 ms.topic: overview
 helpviewer_keywords:
@@ -23,7 +23,7 @@ If you’re looking to save time while you're getting your company running on Vi
 ## Get started 
 Learn how to deploy Visual Studio to your enterprise in networked and offline environments.
 
-- **[Enabling Administrator Updates using Microsoft Endpoint Configuration Manager (SCCM)](enabling-administrator-updates.md)**.  Visual Studio updates are included in the [Microsoft Update Catalog](https://www.catalog.update.microsoft.com/Home.aspx) and the [Windows Server Update Services (WSUS)](https://docs.microsoft.com/windows-server/administration/windows-server-update-services/get-started/windows-server-update-services-wsus).  Enterprise administrators can then download the update and distribute it to Visual Studio client machines across the organiation using standard deployment tools such as Microsoft Endpoint Configuration Manager (SCCM).
+- **[Enabling Administrator Updates using Microsoft Endpoint Configuration Manager (SCCM)](enabling-administrator-updates.md)**.  Visual Studio updates are included in the [Microsoft Update Catalog](https://www.catalog.update.microsoft.com/Home.aspx) and the [Windows Server Update Services (WSUS)](https://docs.microsoft.com/windows-server/administration/windows-server-update-services/get-started/windows-server-update-services-wsus). Enterprise administrators can then download the update and distribute it to Visual Studio client machines across the organiation using standard deployment tools such as Microsoft Endpoint Configuration Manager (SCCM).
 
 - **Understand options for enterprise deployment in networked environments**. The [Visual Studio administrator guide](visual-studio-administrator-guide.md) provides scenario-based guidance for system administrators. 
 
@@ -39,7 +39,7 @@ Learn how to deploy Visual Studio to your enterprise in networked and offline en
 
 Learn how to install Visual Studio in common enterprise scenarios. 
 
-- **[Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md)**. Use a variety of parameters to control or customize your Visual Studio installation. Automate the installation process or create a cache of the installation files for later use.  Here are some [command line parameter examples](command-line-parameter-examples.md) for reference.
+- **[Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md)**. Use a variety of parameters to control or customize your Visual Studio installation. Automate the installation process or create a cache of the installation files for later use. For more information, see [command line parameter examples](command-line-parameter-examples.md).
 
 - **[Create a network installation of Visual Studio](create-a-network-installation-of-visual-studio.md)**. Cache the files for the initial installation along with all product updates to a single folder. 
 

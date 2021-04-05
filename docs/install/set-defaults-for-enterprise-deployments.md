@@ -1,7 +1,7 @@
 ---
 title: Set defaults for enterprise deployments
 description: Learn about domain policies and other configuration operations for enterprise deployments of Visual Studio.
-ms.date: 03/30/2019
+ms.date: 04/06/2021
 ms.custom: seodec18
 ms.topic: conceptual
 f1_keywords:
@@ -46,15 +46,15 @@ You can set the following registry values:
 
 | **Name** | **Type** | **Default** | **Description** |
 | -------- | -------- | ----------- | --------------- |
-| `CachePath` | `REG_SZ` or `REG_EXPAND_SZ` | %ProgramData%\Microsoft\VisualStudio\Packages | The directory where package manifests and, optionally, payloads are stored. For more information, see the [Disable or move the package cache](disable-or-move-the-package-cache.md) page. |
-| `KeepDownloadedPayloads` | `REG_DWORD` | 1 | Keep package payloads even after they are installed. You can change the value anytime. Disabling the policy removes any cached package payloads for the instance you repair or modify. For more information, see the [Disable or move the package cache](disable-or-move-the-package-cache.md) page. |
+| `CachePath` | `REG_SZ` or `REG_EXPAND_SZ` | %ProgramData%\Microsoft\VisualStudio\Packages | The directory where package manifests and, optionally, payloads are stored. For more information, see [Disable or move the package cache](disable-or-move-the-package-cache.md) page. |
+| `KeepDownloadedPayloads` | `REG_DWORD` | 1 | Keep package payloads even after they are installed. You can change the value anytime. Disabling the policy removes any cached package payloads for the instance you repair or modify. For more information, see [Disable or move the package cache](disable-or-move-the-package-cache.md) page. |
 | `SharedInstallationPath` | `REG_SZ` or `REG_EXPAND_SZ` | %ProgramFiles(x86)%\Microsoft Visual Studio\Shared | The directory where some packages shared across versions of instances of Visual Studio are installed. You can change the value any time, but it will only affect future installs. Any products already installed to the old location must not be moved or they might not function correctly. |
 | `BackgroundDownloadDisabled` |`REG_DWORD` | 1 | Prevent setup from downloading updates automatically for all installed Visual Studio products. You can change the value anytime. |
 | `AdministratorUpdatesEnabled` | `REG_DWORD` | 1 | Allows administrator updates to be applied to the client computer. If this value is missing or is set to 0, administrator updates will be blocked. This value is for administrative use. For more information, see [Enabling Administrator Updates](enabling-administrator-updates.md). | 
 | `AdministratorUpdatesOptOut` | `REG_DWORD` | 1 | Indicates that the user does not want to receive administrator updates to Visual Studio. The absence of the registry value, or a set value of 0, means that the Visual Studio user wants to receive administrator updates to Visual Studio. This is for developer user (if they have admin permissions on the client machine). For more information, see [Applying Administrator Updates](../install/applying-administrator-updates.md#understanding-configuration-options). | 
-| `UpdateConfigurationFile` | ` REG_SZ` or `REG_EXPAND_SZ` | %ProgramData%\Microsoft\VisualStudio\updates.config | The file path for configuring Administrative Updates. For more information, refer to [Methods for configuring an administrator update](../install/applying-administrator-updates.md#methods-for-configuring-an-administrator-update). | 
+| `UpdateConfigurationFile` | `REG_SZ` or `REG_EXPAND_SZ` | %ProgramData%\Microsoft\VisualStudio\updates.config | The file path for configuring Administrative Updates. For more information, see [Methods for configuring an administrator update](../install/applying-administrator-updates.md#methods-for-configuring-an-administrator-update). | 
 ::: moniker range="vs-2019"
-| `BaselineStickinessVersions2019` | ` REG_SZ` or `REG_EXPAND_SZ` | `ALL` or `16.4.0,16.7.0,16.9.0` | The versions authorizing updates to remain on specified servicing baselines. For more information, refer to [Applying Administrator Updates](../install/applying-administrator-updates.md#understanding-configuration-options) page. | 
+| `BaselineStickinessVersions2019` | `REG_SZ` or `REG_EXPAND_SZ` | `ALL` or `16.4.0,16.7.0,16.9.0` | The versions authorizing updates to remain on specified servicing baselines. For more information, see [Applying Administrator Updates](../install/applying-administrator-updates.md#understanding-configuration-options) page. | 
 
 ::: moniker-end
 
@@ -67,7 +67,6 @@ You can set the following registry values:
 ## See also
 
 - [Install Visual Studio](install-visual-studio.md)
-- [Visual Studio Administrators Guide](visual-studio-administrator-guide.md)
+- [Visual Studio Administrator Guide](visual-studio-administrator-guide.md)
 - [Disable or move the package cache](disable-or-move-the-package-cache.md)
 - [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md)
-- 

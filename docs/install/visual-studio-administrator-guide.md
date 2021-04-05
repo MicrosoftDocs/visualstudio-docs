@@ -2,7 +2,7 @@
 title: Visual Studio administrator guide
 titleSuffix: ''
 description: Learn more about how to deploy Visual Studio in an enterprise environment.
-ms.date: 04/2/2021
+ms.date: 04/06/2021
 ms.custom: seodec18
 ms.topic: overview
 helpviewer_keywords:
@@ -50,7 +50,7 @@ Before you deploy Visual Studio across your organization, there are a few decisi
 
   It's possible to update a network installation layout of Visual Studio with the latest product updates so that it can be used both as an installation point for the latest update of Visual Studio, and also to maintain installations that are already deployed to client workstations. For more information, see [Update a network-based installation of Visual Studio](../install/update-a-network-installation-of-visual-studio.md).
   
-  Organizations that utilize enterprise deployment tools can take advantage of the fact that Visual Studio updates are available on the Microsoft Update Catalog and Windows Server Update Services.  For more information refer to [Enabling administrator updates](../install/enabling-administrator-updates.md) and [Applying administrator updates](../install/applying-administrator-updates.md).
+  Organizations that utilize enterprise deployment tools can take advantage of the fact that Visual Studio updates are available on the Microsoft Update Catalog and Windows Server Update Services.  For more information, see [Enabling administrator updates](../install/enabling-administrator-updates.md) and [Applying administrator updates](../install/applying-administrator-updates.md).
 
   For computers that are not connected to the internet, creating a minimal layout is the easiest and fastest way to update your offline Visual Studio instances. For more information, see [Update Visual Studio using a minimal offline layout](update-minimal-layout.md).
 
@@ -96,6 +96,7 @@ Before you deploy Visual Studio across your organization, there are a few decisi
 * (Optional) Set Group Policy. You can also [configure Visual Studio to disable customer feedback](../ide/visual-studio-experience-improvement-program.md) on individual computers.
 
 ## Step 3 - Deploy updates
+
 Use your deployment technology of choice to execute your script onto your target developer workstations.
 
 * [Refresh your network location with the latest updates](update-a-network-installation-of-visual-studio.md?view=vs-2019&preserve-view=true) to Visual Studio by running the command you used in step 1 on a regular basis to add updated components.
@@ -142,13 +143,14 @@ The registry is located in the *Software\Microsoft\VisualStudio\16.0_{InstanceId
 * (Optional) Set Group Policy. You can also [configure Visual Studio to disable customer feedback](../ide/visual-studio-experience-improvement-program.md) on individual computers.
 
 ## Step 3 - Deploy updates
+
 Use your deployment technology of choice to execute your script onto your target developer workstations.
 
 * [Refresh your network location with the latest updates](update-a-network-installation-of-visual-studio.md?view=vs-2017&preserve-view=true) to Visual Studio by running the command you used in step 1 on a regular basis to add updated components.
 
   You can update Visual Studio by using an update script. To do so, use the [`update`](use-command-line-parameters-to-install-visual-studio.md?view=vs-2019&preserve-view=true) command-line parameter.
   
-  You can deploy Visual Studio updates from the Windows Server Update Services or the Microsoft Update Catalog with tools like System Center Configuration Manager.  Refer to [Applying Administrator Updates](applying-administrator-updates.md) for more information.
+  You can deploy Visual Studio updates from the Windows Server Update Services or the Microsoft Update Catalog with tools like System Center Configuration Manager. For more information, see [Applying Administrator Updates](applying-administrator-updates.md).
 
 ## Step 4 - (Optional) Use Visual Studio tools to verify installation
 
@@ -176,4 +178,3 @@ The registry is located in the *Software\Microsoft\VisualStudio\15.0_{InstanceId
 * [Visual Studio Setup Archives](https://devblogs.microsoft.com/setup/tag/vs2017/)
 * [Visual Studio product lifecycle and servicing](/visualstudio/releases/2019/servicing/)
 * [Synchronous autoload settings](../extensibility/synchronously-autoloaded-extensions.md)
-* [Updates using Microsoft Update Catalog](http://TODOLink)

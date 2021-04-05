@@ -1,7 +1,7 @@
 ---
 title: Control updates to deployments
 description: Learn how to change where Visual Studio looks for an update when you install from a network.
-ms.date: 03/30/2021
+ms.date: 04/06/2021
 ms.custom: seodec18
 ms.topic: conceptual
 helpviewer_keywords:
@@ -28,7 +28,7 @@ By default, Visual Studio continues to look online for updates even if the insta
 
 **Client originally installed and should only receive updates from the network layout**
 
-If you want to control where the Visual Studio client looks for updates, like if your client machine does not have internet access and you want to ensure that it only and always installs from the layout, then you can configure the location where the client's installer looks for updated product bits. It is best to make sure this setting is configured correctly before the client does the initial install from the layout. 
+If you want to control where the Visual Studio client looks for updates, for example, if your client machine does not have internet access and you want to ensure that it only and always installs from the layout, then you can configure the location where the client's installer looks for updated product bits. It is best to make sure this setting is configured correctly before the client does the initial install from the layout. 
 
 1. Create an offline layout:
 
