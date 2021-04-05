@@ -42,7 +42,7 @@ C:\Program Files (x86)\Microsoft Visual Studio\Installer> vswhere.exe -legacy -p
 
 ## Using Windows Management Instrumentation (WMI)
 
-If the Visual Studio Client Detector Utility is installed on the machine, then you can query for Visual Studio instance information using WMI. The Visual Studio Client Detector Utility is installed by default with every Visual Studio 2017 and Visual Studio 2019 update that was released on or after May 12, 2020. It is also available on the [Microsoft Update Catalog](https://catalog.update.microsoft.com/) if you want to install it independently.  For an example of how to use the utility to return Visual Studio instance information, open up Powershell as an administrator on the client machine, and type in the following command:
+If the Visual Studio Client Detector Utility is installed on the machine, then you can query for Visual Studio instance information using WMI. The Visual Studio Client Detector Utility is installed by default with every Visual Studio 2017 and Visual Studio 2019 update that was released on or after May 12, 2020. It is also available on the [Microsoft Update Catalog](https://catalog.update.microsoft.com/) if you want to install it independently.  For an example of how to use the utility to return Visual Studio instance information, open up PowerShell as an administrator on the client machine, and type in the following command:
 
 ```cmd
 Get-CimInstance MSFT_VSInstance

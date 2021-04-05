@@ -18,7 +18,7 @@ ms.technology: vs-installation
 ---
 # Control updates to network-based Visual Studio deployments
 
-Enterprise administrators often create a layout and host it on a network file share to deploy to their end-users. This page describes how to configure your network layout options properly. 
+Enterprise administrators often create a layout and host it on a network file share to deploy to their end users. This page describes how to configure your network layout options properly. 
 
 ## Controlling where Visual Studio looks for updates
 
@@ -50,7 +50,7 @@ If you want to control where the Visual Studio client looks for updates, for exa
    "channelUri":"\\\\server\\share\\VS\\ChannelManifest.json"
    ```
 
-   Now end-users can run setup from this share to install Visual Studio.
+   Now end users can run setup from this share to install Visual Studio.
 
    ```cmd
    \\server\share\VS\vs_enterprise.exe
@@ -97,7 +97,7 @@ As described earlier, Visual Studio checks the location from which it has been i
 
 ::: moniker-end
 
-You can disable the notifications if you don't want end-users to be notified of updates. (For example, you might want to disable notifications if you deliver updates through a central software distribution mechanism.)
+You can disable the notifications if you don't want end users to be notified of updates. (For example, you might want to disable notifications if you deliver updates through a central software distribution mechanism.)
 
 ::: moniker range="vs-2017"
 

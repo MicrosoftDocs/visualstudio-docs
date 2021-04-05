@@ -20,7 +20,7 @@ ms.technology: vs-installation
 ---
 # Visual Studio administrator guide
 
-In enterprise environments, system administrators typically deploy installations to end-users from a network share or by using systems management software. We've designed the Visual Studio setup engine to support enterprise deployment by giving system administrators the ability to create a network install location, to pre-configure installation defaults, to deploy product keys during the installation process, and to manage product updates after a successful rollout.
+In enterprise environments, system administrators typically deploy installations to end users from a network share or by using systems management software. We've designed the Visual Studio setup engine to support enterprise deployment by giving system administrators the ability to create a network install location, to pre-configure installation defaults, to deploy product keys during the installation process, and to manage product updates after a successful rollout.
 
 This administrator guide provides scenario-based guidance for enterprise deployment in networked environments.
 
@@ -103,7 +103,7 @@ Use your deployment technology of choice to execute your script onto your target
 
   You can update Visual Studio by using an update script. To do so, use the [`update`](use-command-line-parameters-to-install-visual-studio.md?view=vs-2019&preserve-view=true) command-line parameter.
 
-  You can deploy Visual Studio updates from the Windows Server Update Services or the Microsoft Update Catalog with tools like System Center Configuration Manager.  Refer to [Applying Administrator Updates](applying-administrator-updates.md) for more information. 
+  You can deploy Visual Studio updates from the Windows Server Update Services or the Microsoft Update Catalog with tools like System Center Configuration Manager.  Refer to [Applying administrator updates](applying-administrator-updates.md) for more information. 
 
 ## Step 4 - (Optional) Use Visual Studio tools to verify installation
 
@@ -150,7 +150,7 @@ Use your deployment technology of choice to execute your script onto your target
 
   You can update Visual Studio by using an update script. To do so, use the [`update`](use-command-line-parameters-to-install-visual-studio.md?view=vs-2019&preserve-view=true) command-line parameter.
   
-  You can deploy Visual Studio updates from the Windows Server Update Services or the Microsoft Update Catalog with tools like System Center Configuration Manager. For more information, see [Applying Administrator Updates](applying-administrator-updates.md).
+  You can deploy Visual Studio updates from the Windows Server Update Services or the Microsoft Update Catalog with tools like System Center Configuration Manager. For more information, see [Applying administrator updates](applying-administrator-updates.md).
 
 ## Step 4 - (Optional) Use Visual Studio tools to verify installation
 

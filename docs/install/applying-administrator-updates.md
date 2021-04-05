@@ -62,7 +62,7 @@ The title of each administrator update describes both the applicable version r
 
 ### Understanding configuration options
 
-There are a few configuration options that are can be used to tailor the Visual Studio administrator updates so that they’re compatible and aligned with your organization’s deployment preferences and requirements. The most common configuration options are listed below. For an exhaustive list of all the supported administrator update behaviors, see [Use command-line parameters to install Visual Studio documentation](../install/use-command-line-parameters-to-install-visual-studio.md) and pay attention only to those that correspond to the "update" action.
+There are a few configuration options that are can be used to tailor the Visual Studio administrator updates so that they’re compatible and aligned with your organization’s deployment preferences and requirements. The most common configuration options are listed below. For an exhaustive list of all the supported administrator update behaviors, see [Use command-line parameters to install Visual Studio](../install/use-command-line-parameters-to-install-visual-studio.md) and pay attention only to those that correspond to the "update" action.
 
 * **[Administrator update opt-in](../install/enabling-administrator-updates.md#encoding-administrator-intent-on-the-client-machines)**: This registry key is required for the client machine to receive administrator updates. It is a machine-wide key, which means it applies to all instances of Visual Studio installed on the box. 
  
@@ -147,7 +147,7 @@ You can use the following methods to provide feedback about Visual Studio admini
 * Refer to the [Troubleshooting Visual Studio installation and upgrade issues](../install/troubleshooting-installation-issues.md) guidance.
 * Ask questions to the community at the [Visual Studio Setup Q&A Forum](https://docs.microsoft.com/answers/topics/vs-setup.html).
 * Go to the [Visual Studio support page](https://visualstudio.microsoft.com/vs/support/), and check whether your issue is listed in the FAQ.  You can also select the [Support Link](https://visualstudio.microsoft.com/vs/support/#talktous) button for chat help.
-* [Provide feature feedback or report a problem](https://aka.ms/vs/wsus/feedback) to the Visual Studio team regarding this experience of applying adminsitrator updates.
+* [Provide feature feedback or report a problem](https://aka.ms/vs/wsus/feedback) to the Visual Studio team regarding this experience of applying administrator updates.
 * Contact your organization’s technical account manager for Microsoft.
 
 ## See also

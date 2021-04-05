@@ -251,9 +251,9 @@ First you need to understand that there are two types of Visual Studio bootstrap
 
 So, if you download an evergreen Visual Studio bootstrapper today and run it six months from now, it will install the Visual Studio release that is current at the time the bootstrapper is run. It's designed to always install the latest bits and keep you current.
 
-If you download a fixed-link boostrapper, or if you run an administrator update that you downloaded from the Microsoft Catalog, then it will always install a particular version of the product, no matter when it was run.
+If you download a fixed-link bootstrapper, or if you run an administrator update that you downloaded from the Microsoft Catalog, then it will always install a particular version of the product, no matter when it was run.
 
-Lastly, you can create a network layout using any one of these bootstrappers, and the version that will get created in the layout depends on the bootstrapper you're using i.e. it will either be a fixed version or current.  You can then update the network layout using any later bootstrapper or you can also use the administrator update package from the Microsoft Catalog. Regardless of how you update the layout, the resultant updated layout will be a package cache that contains a particular version of the product and it will then behave like a fixed link boostrapper. So, whenever the client installs from the layout, the client will install the specific version of Visual Studio that exists in the layout (even though a newer version might exist online). 
+Lastly, you can create a network layout using any one of these bootstrappers, and the version that will get created in the layout depends on the bootstrapper you're using i.e. it will either be a fixed version or current.  You can then update the network layout using any later bootstrapper or you can also use the administrator update package from the Microsoft Catalog. Regardless of how you update the layout, the resultant updated layout will be a package cache that contains a particular version of the product and it will then behave like a fixed link bootstrapper. So, whenever the client installs from the layout, the client will install the specific version of Visual Studio that exists in the layout (even though a newer version might exist online). 
 
 ### How to get support for your offline installer
 
