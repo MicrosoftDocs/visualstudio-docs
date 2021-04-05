@@ -40,7 +40,7 @@
   items:
   - name: Work with cloud service projects
     items:
-    - name: Use Cloud Services (extended support) (Preview)
+    - name: Use Cloud Services (extended support)
       href: cloud-services-extended-support.md
     - name: Create an Azure cloud service project
       href: vs-azure-tools-azure-project-create.md
