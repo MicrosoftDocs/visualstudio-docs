@@ -95,13 +95,13 @@ There are three main methods of configuring administrator updates: a registry ke
  
      The configuration file, which is in JSON format, supports the option `installerUpdateArgs` which is an array of strings separated by commas that specify more switches you can pass into the Visual Studio installer. If the contents of the file include an invalid field or an option that is not supported, then the update will fail. For more information, see [Use command-line parameters to install Visual Studio](../install/use-command-line-parameters-to-install-visual-studio.md).
  
-Here's an example configuration file: 
+   Here's an example configuration file: 
 
-```
-“installerUpdateArgs” : [“--quiet”, “--noWeb”], 
+   ```
+   “installerUpdateArgs” : [“--quiet”, “--noWeb”], 
 
-“checkPendingReboot” :  “true” 
-```
+   “checkPendingReboot” :  “true” 
+   ```
 
 * **Manually updating the Administrator Updates Package in SCCM**: The command-line parameters of an individual administrator update package in SCCM can also be manually modified.
 
