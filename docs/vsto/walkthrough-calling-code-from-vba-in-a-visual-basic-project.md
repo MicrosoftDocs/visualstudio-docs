@@ -154,7 +154,7 @@ ms.workload:
 
 2. Add the following method to the `ThisDocument` class. This method creates a table with two rows and two columns at the beginning of the document. The parameters specify the text that is displayed in the first row. Later in this walkthrough, you will call this method from VBA code in the document.
 
-     [!code-vb[Trin_CallingVBCustomizationFromVBA#1](../vsto/codesnippet/VisualBasic/CallingCodeFromVBA/ThisDocument.vb#1)]
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/CallingCodeFromVBA/ThisDocument.vb" id="Snippet1":::
 
 3. Build the project.
 
