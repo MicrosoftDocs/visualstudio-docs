@@ -55,7 +55,7 @@ To enable Configuration Manager to manage Visual Studio administrator updates, y
 
 To enable a client machine to accept Visual Studio administrator updates, you will need to ensure that the Visual Studio Client Detector Utility is installed properly, and you will need to set a registry key to enable the client to receive administrator updates.  
 
-### [Visual Studio Client Detector Utility](https://support.microsoft.com/help/5001148) 
+### Visual Studio Client Detector Utility 
 
 The Visual Studio Client Detector Utility must be installed on the client machines in order for the administrator updates to be properly recognized and received. This utility was included with all Visual Studio 2017 and Visual Studio 2019 product updates that were released on or after May 12, 2020, and it is also available on the [Microsoft Update Catalog](https://catalog.update.microsoft.com) to install independently.  
 ### Encoding administrator intent on the client machines 
