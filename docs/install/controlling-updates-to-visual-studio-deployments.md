@@ -74,7 +74,7 @@ Existing Visual Studio installs from this layout look for updates at `\\server\s
 
 Any installation update initiated from the client will automatically install the updated version of Visual Studio directly from the layout.
 
-**Client originally installed from the web, but now should only receive updates from a network layout**
+**Scenario 3: Client originally installed from the web, but now should only receive updates from a network layout**
 
 In some cases, the client machine may have already installed Visual Studio from the web, but now the administrator wants to have all future updates come from a managed layout. The only supported way to do this is to create a network layout with the desired version of the product, and then on the client machine, run the bootstrapper _from the layout location_ (e.g. \\\network\share\vs_enterprise.exe). Ideally, the original client install would have happened using the bootstrapper from the network layout with the correctly configured ChannelURI, but running the updated bootstrapper from the network layout location will also work. Either one of these actions would embed, on the client machine, a connection with that particular layout location. The only caveat for this scenario to work correctly is that the “ChannelURI” in the layout’s `response.json` file must be the same as the ChannelURI that was set on the client’s machine when the original install happened. Most likely this value was originally set to the internet release channel (https://aka.ms/vs/16/release/channel). 
 
