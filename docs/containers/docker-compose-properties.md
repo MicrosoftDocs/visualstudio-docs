@@ -124,7 +124,7 @@ services:
       ...
 ```
 
-> **Note:** If you do not add a *docker-compose.vs.release.yml* or *docker-compose.vs.debug.yml* file, then Visual Studio generates one based on default settings.
+> **Note:** If you do not add a *docker-compose.vs.release.yml* or *docker-compose.vs.debug.yml* file, Visual Studio generates one based on default settings.
 
 ### Customize the app startup process
 
@@ -138,7 +138,7 @@ services:
       ...
 ```
 
-> **Note:** If you do not add a *docker-compose.vs.release.yml* or *docker-compose.vs.debug.yml* file, then Visual Studio generates one based on default settings.
+> **Note:** If you do not add a *docker-compose.vs.release.yml* or *docker-compose.vs.debug.yml* file, Visual Studio generates one based on default settings.
 
 ## Next steps
 
