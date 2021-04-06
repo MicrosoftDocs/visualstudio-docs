@@ -46,7 +46,7 @@ Before you deploy Visual Studio across your organization, there are a few decisi
 
 * Decide on the update model.
 
-  Where do you want individual client machines to get the product updates from? Specifically, decide whether you want the client to get updates from the internet or from a company-wide local share. Then, if you choose to use a local share, decide whether individual users can update their own clients or if you want an admin to update the clients programmatically. It's best if these decisions were made before the original installation happens on the client machine. For more information, see [Create a network-based installation of Visual Studio](../install/create-a-network-installation-of-visual-studio.md)
+  Where do you want individual client machines to get the product updates from? Specifically, decide whether you want the client to get updates from the internet or from a company-wide local share. Then, if you choose to use a local share, decide whether individual users can update their own clients or if you want an admin to update the clients programmatically. It's best if these decisions were made before the original installation happens on the client machine. For more information, see [Create a network-based installation of Visual Studio](../install/create-a-network-installation-of-visual-studio.md).
 
   It's possible to update a network installation layout of Visual Studio with the latest product updates so that it can be used both as an installation point for the latest update of Visual Studio, and also to maintain installations that are already deployed to client workstations. For more information, see [Update a network-based installation of Visual Studio](../install/update-a-network-installation-of-visual-studio.md).
 
