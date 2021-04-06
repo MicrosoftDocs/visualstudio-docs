@@ -2,7 +2,7 @@
 title: Enabling administrator updates to Visual Studio with Microsoft Endpoint Configuration Manager
 titleSuffix: ''
 description: Learn more about how to deploy administrator updates to Visual Studio.
-ms.date: 03/04/2021
+ms.date: 04/06/2021
 ms.custom: 
 ms.topic: overview
 ms.assetid: 546fbad6-f12b-49cf-bccc-f2e63e051a18
@@ -57,7 +57,7 @@ To enable a client machine to accept Visual Studio administrator updates, you wi
 
 ### Visual Studio Client Detector Utility 
 
-The Visual Studio Client Detector Utility must be installed on the client machines in order for the administrator updates to be received properly. This utility was included with all recent Visual Studio releases.  
+The [Visual Studio Client Detector Utility](https://support.microsoft.com/help/5001148) must be installed on the client machines in order for the administrator updates to be properly recognized and received. This utility was included with all Visual Studio 2017 and Visual Studio 2019 product updates that were released on or after May 12, 2020, it is includes as a pre-requisite with all the Visual Studio administrator updates, and it is also available on the [Microsoft Update Catalog](https://catalog.update.microsoft.com) to install independently. 
 
 ### Encoding administrator intent on the client machines 
 
@@ -73,14 +73,14 @@ The **AdministratorUpdatesEnabled** key is designed for the administrator to
 
 You can use the following methods to provide feedback about Visual Studio administrator updates or report issues that affect the updates:
 * Refer to the [Troubleshooting Visual Studio installation and upgrade issues](../install/troubleshooting-installation-issues.md) guidance.
-* Ask questions to the community at the [Visual Setup Q&A Forum](https://docs.microsoft.com/answers/topics/vs-setup.html).
+* Ask questions to the community at the [Visual Studio Setup Q&A Forum](https://docs.microsoft.com/answers/topics/vs-setup.html).
 * Go to the [Visual Studio support page](https://visualstudio.microsoft.com/vs/support/), and check whether your issue is listed in the FAQ.  You can also select the [Support Link](https://visualstudio.microsoft.com/vs/support/#talktous) button for chat help.
-* [Provide feature feedback or report a problem](https://aka.ms/vs/wsus/feedback) to the Visual Studio team for this experience.
+* [Provide feature feedback or report a problem](https://aka.ms/vs/wsus/feedback) to the Visual Studio team regarding this experience of enabling administrator updates.
 * Contact your organization’s technical account manager for Microsoft.
 
 ## See also
 * [Applying administrator updates](../install/applying-administrator-updates.md)
-* [Visual Studio Administrator Guide](../install/visual-studio-administrator-guide.md)
+* [Visual Studio administrator guide](../install/visual-studio-administrator-guide.md)
 * [Visual Studio Product Lifecycle and Servicing](https://docs.microsoft.com/visualstudio/productinfo/vs-servicing-vs)
 * [Visual Studio 2019 Release Notes](https://docs.microsoft.com/visualstudio/releases/2019/release-notes)
 * [Visual Studio 2017 Release Notes](https://docs.microsoft.com/visualstudio/releasenotes/vs2017-relnotes)
