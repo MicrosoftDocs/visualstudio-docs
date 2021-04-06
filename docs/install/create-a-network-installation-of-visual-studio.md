@@ -60,14 +60,14 @@ Other supported bootstrappers include [vs_teamexplorer.exe](https://download.vis
 ::: moniker range="vs-2017"
 
 >[!TIP]
->If you previously downloaded a bootstrapper file and want to verify what version it is, here's how. In Windows, open File Explorer, right-click the bootstrapper file, choose **Properties**, choose the **Details** tab, and then view the **Product version** number. To match that number to a release of Visual Studio, refer to the [Visual Studio build numbers and release dates](visual-studio-build-numbers-and-release-dates.md) page.
+>If you previously downloaded a bootstrapper file and want to verify what version it is, here's how. In Windows, open File Explorer, right-click the bootstrapper file, choose **Properties**, choose the **Details** tab, and then view the **Product version** number. To match that number to a release of Visual Studio, see [Visual Studio build numbers and release dates](visual-studio-build-numbers-and-release-dates.md).
 
 ::: moniker-end
 
 ::: moniker range="vs-2019"
 
 >[!TIP]
->If you previously downloaded a bootstrapper file and want to verify what version it is, here's how. In Windows, open File Explorer, right-click the bootstrapper file, choose **Properties**, choose the **Details** tab, and then view the **Product version** number. To match that number to a release of Visual Studio, refer to the [Visual Studio 2019 Releases](https://docs.microsoft.com/visualstudio/releases/2019/history) page.
+>If you previously downloaded a bootstrapper file and want to verify what version it is, here's how. In Windows, open File Explorer, right-click the bootstrapper file, choose **Properties**, choose the **Details** tab, and then view the **Product version** number. To match that number to a release of Visual Studio, see [Visual Studio 2019 Releases](https://docs.microsoft.com/visualstudio/releases/2019/history).
 
 ::: moniker-end
 
@@ -90,9 +90,9 @@ Open a command prompt, navigate to the directory that you downloaded the bootstr
 
 ## Modify the response.json file
 
-You can modify the `response.json` file to set default values that are used when setup is run.  For example, you can configure the `response.json` file to select a specific set of workloads that should be selected automatically. You can also configure the `response.json` to specify if the client should only receive updated files from the network layout location. See [Automate Visual Studio installation with a response file](../install/automated-installation-with-response-file.md) for details.  
+You can modify the `response.json` file to set default values that are used when setup is run.  For example, you can configure the `response.json` file to select a specific set of workloads that should be selected automatically. You can also configure the `response.json` to specify if the client should only receive updated files from the network layout location. For more information, see [Automate Visual Studio installation with a response file](../install/automated-installation-with-response-file.md). 
 
-If you run into a problem with the Visual Studio bootstrapper throwing an error when you pair it with a `response.json` file, see the "Failed to parse ID from parent process" section of the [Troubleshoot network-related errors when you install or use Visual Studio](../install/troubleshooting-network-related-errors-in-visual-studio.md#error-failed-to-parse-id-from-parent-process) page for more information on what to do.
+If you run into a problem with the Visual Studio bootstrapper throwing an error when you pair it with a `response.json` file, see [Troubleshoot network-related errors when you install or use Visual Studio](../install/troubleshooting-network-related-errors-in-visual-studio.md#error-failed-to-parse-id-from-parent-process) page for more information.
 
 ## Copy the layout to a network share
 
@@ -247,13 +247,13 @@ As product updates become available, you might want to [update the network insta
 
 ## How to create a layout for a previous Visual Studio release
 
-First you need to understand that there are two types of Visual Studio bootstrappers - one that can be characterized by the words "latest", "current", "evergreen" and "tip", and one that essentially means "fixed version". Both types of bootstrapper files have the exact same name, and the best way to distinguish the type is to pay attention to where you got it from. The Visual Studio bootstrappers available on [visualstudio.microsoft.com](https://visualstudio.microsoft.com/downloads) are considered evergreen Visual Studio bootstrapper, and they always install (or updates to) the latest release that's available in the channel at the time the bootstrapper is run. The Visual Studio bootstrappers available from the [Visual Studio 2019 Releases page](https://docs.microsoft.com/visualstudio/releases/2019/history) page or that are embedded inside the administrator update in the Microsoft Catalog install a particular fixed version of the product. 
+First you need to understand that there are two types of Visual Studio bootstrappers - one that can be characterized by the words "latest", "current", "evergreen" and "tip", and one that essentially means "fixed version". Both types of bootstrapper files have the exact same name, and the best way to distinguish the type is to pay attention to where you got it from. The Visual Studio bootstrappers available on the [Visual Studio downloads page](https://visualstudio.microsoft.com/downloads) are considered evergreen Visual Studio bootstrappers, and they always install (or update) the latest release that's available in the channel at the time the bootstrapper is run. The Visual Studio bootstrappers available on the [Visual Studio 2019 Releases](https://docs.microsoft.com/visualstudio/releases/2019/history) page, or that are embedded inside the administrator update in the Microsoft Update Catalog install a particular fixed version of the product. 
 
 So, if you download an evergreen Visual Studio bootstrapper today and run it six months from now, it will install the Visual Studio release that is current at the time the bootstrapper is run. It's designed to always install the latest bits and keep you current.
 
 If you download a fixed-link bootstrapper, or if you run an administrator update that you downloaded from the Microsoft Catalog, then it will always install a particular version of the product, no matter when it was run.
 
-Lastly, you can create a network layout using any one of these bootstrappers, and the version that will get created in the layout depends on the bootstrapper you're using i.e. it will either be a fixed version or current.  You can then update the network layout using any later bootstrapper or you can also use the administrator update package from the Microsoft Catalog. Regardless of how you update the layout, the resultant updated layout will be a package cache that contains a particular version of the product and it will then behave like a fixed link bootstrapper. So, whenever the client installs from the layout, the client will install the specific version of Visual Studio that exists in the layout (even though a newer version might exist online). 
+Lastly, you can create a network layout using any one of these bootstrappers, and the version that will get created in the layout depends on the bootstrapper you're using, for example, it will either be a fixed version or current. You can then update the network layout using any later bootstrapper or you can also use the administrator update package from the Microsoft Update Catalog. Regardless of how you update the layout, the resulting updated layout will be a package cache that contains a particular version of the product, and it will then behave like a fixed link bootstrapper. So, whenever the client installs from the layout, the client will install the specific version of Visual Studio that exists in the layout (even though a newer version might exist online). 
 
 ### How to get support for your offline installer
 
