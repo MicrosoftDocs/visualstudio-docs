@@ -93,4 +93,4 @@ You will be prompted to provide a hive name, which becomes the name of your isol
 
 ## See also
 
-* [Visual Studio Administrator Guide](../install/visual-studio-administrator-guide.md)
+* [Visual Studio administrator guide](../install/visual-studio-administrator-guide.md)

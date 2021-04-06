@@ -67,6 +67,6 @@ You can set the following registry values:
 ## See also
 
 - [Install Visual Studio](install-visual-studio.md)
-- [Visual Studio Administrator Guide](visual-studio-administrator-guide.md)
+- [Visual Studio administrator guide](visual-studio-administrator-guide.md)
 - [Disable or move the package cache](disable-or-move-the-package-cache.md)
 - [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md)

@@ -52,7 +52,7 @@ The title of each administrator update describes both the applicable version r
 
 * **Visual Studio 2019 version 16.7.0 to 16.7.12 update** classified as a “Security Update” will apply to any Visual Studio 2019 edition on the client between versions 16.7.0 through 16.7.12, and it will update those client editions to 16.7.12.  
 
-* **Visual Studio 2019 version 16.0.0 to 16.9.0 update** classified as a “Feature Pack” will apply to Visual Studio 2019 editions licensed for enterprise use on the client between the entire product version range of 16.0.0 through 16.9.0, and it will update those client editions (that haven’t been [configured to remain on an earlier servicing baseline](#ServicingBaselineStickiness)) to 16.9.0. 
+* **Visual Studio 2019 version 16.0.0 to 16.9.0 update** classified as a “Feature Pack” will apply to Visual Studio 2019 editions licensed for enterprise use on the client between the entire product version range of 16.0.0 through 16.9.0, and it will update those client editions (that haven’t been configured to remain on an earlier servicing baseline) to 16.9.0. 
 
 * **Visual Studio 2019 version 16.8.0 to 16.8.7 update** classified as simply “Updates” will apply to Visual Studio 2019 editions licensed for enterprise use on the client between versions 16.8.0 through 16.8.7, and it will update those client editions to 16.8.7. 
 
@@ -152,7 +152,7 @@ You can use the following methods to provide feedback about Visual Studio admini
 
 ## See also
 * [Enabling administrator updates](../install/enabling-administrator-updates.md)	
-* [Visual Studio Administrator Guide](../install/visual-studio-administrator-guide.md)
+* [Visual Studio administrator guide](../install/visual-studio-administrator-guide.md)
 * [Visual Studio Product Lifecycle and Servicing](https://docs.microsoft.com/visualstudio/productinfo/vs-servicing-vs)
 * [Visual Studio 2019 Release Notes](https://docs.microsoft.com/visualstudio/releases/2019/release-notes)
 * [Visual Studio 2017 Release Notes](https://docs.microsoft.com/visualstudio/releasenotes/vs2017-relnotes)

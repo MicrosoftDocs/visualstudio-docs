@@ -45,7 +45,7 @@ Other supported bootstrappers include vs_feedbackclient.exe, vs_teamexplorer.exe
 
 ::: moniker range="vs-2019"
 
-Start by downloading the Visual Studio 2019 bootstrapper from either the [Visual Studio downloads page](https://visualstudio.microsoft.com/downloads) or the Visual Studio 2019 Releases(https://docs.microsoft.com/visualstudio/releases/2019/history#installing-an-earlier-release) page for your chosen version and edition of Visual Studio.  Your setup executable&mdash;or to be more specific, a bootstrapper file&mdash;will match or be similar to one of the following:
+Start by downloading the Visual Studio 2019 bootstrapper from either the [Visual Studio downloads page](https://visualstudio.microsoft.com/downloads) or the [Visual Studio 2019 Releases](https://docs.microsoft.com/visualstudio/releases/2019/history#installing-an-earlier-release) page for your chosen version and edition of Visual Studio.  Your setup executable&mdash;or to be more specific, a bootstrapper file&mdash;will match or be similar to one of the following:
 
 |Edition | Download|
 |-------------|-----------------------|
@@ -75,7 +75,7 @@ Other supported bootstrappers include [vs_teamexplorer.exe](https://download.vis
 
 You must have an internet connection to complete this step. 
 
-Open a command prompt, navigate to the directory that you downloaded the bootstrapper into, and use the bootstrapper's parameters as defined in the [Use command-line parameters to install Visual Studio](../install/use-command-line-parameters-to-install-visual-studio.md) page to create and maintain your network installation cache.  Common examples of creating initial layouts are illustrated below and in the [command-line parameter examples](../install/command-line-parameter-examples.md) page.  
+Open a command prompt, navigate to the directory that you downloaded the bootstrapper into, and use the bootstrapper's parameters as defined in the [Use command-line parameters to install Visual Studio](../install/use-command-line-parameters-to-install-visual-studio.md) page to create and maintain your network installation cache. Common examples of creating initial layouts are illustrated below and in [Command-line parameter examples for Visual Studio installation](../install/command-line-parameter-examples.md).  
 
    > [!IMPORTANT]
    > A complete initial layout for a single language locale requires about 35 GB of disk space for Visual Studio Community and 42 GB for Visual Studio Enterprise. Additional [language locales](use-command-line-parameters-to-install-visual-studio.md#list-of-language-locales) require about half a GB each. See the [Customize the network layout](#customize-the-network-layout) section for more info. Be mindful that subsequent layout updates must also be stored in this same network location, so expect that the directory contents of the network layout location can get quite large over time.  
@@ -90,9 +90,9 @@ Open a command prompt, navigate to the directory that you downloaded the bootstr
 
 ## Modify the response.json file
 
-You can modify the response.json file to set default values that are used when setup is run.  For example, you can configure the `response.json` file to select a specific set of workloads that should be selected automatically. You can also configure the `response.json` to specify if the client should only receive updated files from the network layout location. See [Automate Visual Studio installation with a response file](../install/automated-installation-with-response-file.md) for details.  
+You can modify the `response.json` file to set default values that are used when setup is run.  For example, you can configure the `response.json` file to select a specific set of workloads that should be selected automatically. You can also configure the `response.json` to specify if the client should only receive updated files from the network layout location. See [Automate Visual Studio installation with a response file](../install/automated-installation-with-response-file.md) for details.  
 
-If you run into a problem with the Visual Studio bootstrapper throwing an error when you pair it with a response.json file, see the "Failed to parse ID from parent process" section of the [Troubleshoot network-related errors when you install or use Visual Studio](../install/troubleshooting-network-related-errors-in-visual-studio.md#error-failed-to-parse-id-from-parent-process) page for more information on what to do.
+If you run into a problem with the Visual Studio bootstrapper throwing an error when you pair it with a `response.json` file, see the "Failed to parse ID from parent process" section of the [Troubleshoot network-related errors when you install or use Visual Studio](../install/troubleshooting-network-related-errors-in-visual-studio.md#error-failed-to-parse-id-from-parent-process) page for more information on what to do.
 
 ## Copy the layout to a network share
 

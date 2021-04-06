@@ -42,7 +42,7 @@ If you want to control where the Visual Studio client looks for updates, for exa
    xcopy /e C:\vsoffline \\server\share\VS
    ```
 
-3. Modify the response.json file in the layout and change the `channelUri` value to point to a copy of the channelManifest.json that the admin controls.
+3. Modify the `response.json` file in the layout and change the `channelUri` value to point to a copy of the channelManifest.json that the admin controls.
 
    Be sure to escape backslashes in the value, as in the following example:
 
@@ -64,7 +64,7 @@ When an enterprise administrator determines it is time for their users to update
    vs_enterprise.exe --layout \\server\share\VS --lang en-US
    ```
 
-2. Ensure that the response.json file in the updated layout still contains your customizations, specifically the channelUri modification, as follows:
+2. Ensure that the `response.json` file in the updated layout still contains your customizations, specifically the channelUri modification, as follows:
 
    ```json
    "channelUri":"\\\\server\\share\\VS\\ChannelManifest.json"
