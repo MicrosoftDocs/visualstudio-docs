@@ -4,7 +4,7 @@ titleSuffix: ""
 description: "Use Visual Studio workload and component IDs to provide integrated testing tools for generalist testers"
 keywords:
 author: ornellaalt
-ms.author: ornella
+ms.author: jmartens
 manager: jmartens
 ms.date: 3/2/2021
 ms.prod: visual-studio-windows

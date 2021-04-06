@@ -12,7 +12,7 @@ helpviewer_keywords:
 - '{{PLACEHOLDER}}'
 ms.assetid: 9B7B4608-7A3F-4FF4-BDCE-42D9F7CE6DBA
 author: ornellaalt
-ms.author: ornella
+ms.author: jmartens
 manager: jmartens
 ms.workload:
 - multiple

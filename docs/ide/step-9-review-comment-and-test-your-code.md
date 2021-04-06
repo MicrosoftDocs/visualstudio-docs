@@ -11,7 +11,7 @@ dev_langs:
   - "CSharp"
   - "VB"
 author: ornellaalt
-ms.author: ornella
+ms.author: jmartens
 manager: jmartens
 ms.workload:
   - "multiple"

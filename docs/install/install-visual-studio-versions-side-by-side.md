@@ -11,7 +11,7 @@ helpviewer_keywords:
 - Help [Visual Studio], installing
 - install multiple versions of Visual Studio
 author: ornellaalt
-ms.author: ornella
+ms.author: jmartens
 manager: jmartens
 ---
 # Install Visual Studio versions side-by-side

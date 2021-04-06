@@ -11,7 +11,7 @@ dev_langs:
   - "VB"
 ms.assetid: 6e317f6e-ba4c-4306-8924-300b0c2f65c6
 author: ornellaalt
-ms.author: ornella
+ms.author: jmartens
 manager: jmartens
 ms.workload:
   - "multiple"

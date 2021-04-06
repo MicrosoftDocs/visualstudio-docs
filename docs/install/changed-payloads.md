@@ -4,7 +4,7 @@ description: When creating a layout, learn how to determine if package payloads 
 ms.date: 05/22/2019
 ms.topic: how-to
 author: ornellaalt
-ms.author: ornella
+ms.author: jmartens
 manager: jmartens
 ms.workload:
 - multiple

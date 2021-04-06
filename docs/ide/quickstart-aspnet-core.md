@@ -7,7 +7,7 @@ ms.technology: vs-ide-general
 ms.prod: visual-studio-windows
 ms.topic: quickstart
 author: ornellaalt
-ms.author: ornella
+ms.author: jmartens
 manager: jmartens
 dev_langs:
   - CSharp

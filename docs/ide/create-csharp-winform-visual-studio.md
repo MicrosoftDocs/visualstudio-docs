@@ -7,7 +7,7 @@ ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
 ms.devlang: CSharp
 author: ornellaalt
-ms.author: ornella
+ms.author: jmartens
 manager: jmartens
 dev_langs:
   - CSharp

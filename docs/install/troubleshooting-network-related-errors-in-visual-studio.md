@@ -11,7 +11,7 @@ helpviewer_keywords:
 - proxy errors, Visual Studio
 ms.assetid: 
 author: ornellaalt
-ms.author: ornella
+ms.author: jmartens
 manager: jmartens
 ms.workload:
 - multiple

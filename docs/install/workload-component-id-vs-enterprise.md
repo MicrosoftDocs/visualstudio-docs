@@ -4,7 +4,7 @@ titleSuffix: ''
 description: Use Visual Studio Enterprise workload and component IDs to install Visual Studio from the command line or specify a dependency in a VSIX manifest.
 keywords: 
 author: ornellaalt
-ms.author: ornella
+ms.author: jmartens
 manager: jmartens
 ms.date: 3/2/2020
 ms.topic: reference

@@ -14,7 +14,7 @@ helpviewer_keywords:
 - Visual Studio setup
 - Visual Studio installer
 author: ornellaalt
-ms.author: ornella
+ms.author: jmartens
 manager: jmartens
 ms.workload:
 - multiple

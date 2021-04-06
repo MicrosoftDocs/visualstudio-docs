@@ -1,6 +1,6 @@
 ---
 author: ornellaalt
-ms.author: ornella
+ms.author: jmartens
 manager: jmartens
 ms.date: 03/23/2020
 ms.prod: visual-studio-windows

@@ -10,7 +10,7 @@ helpviewer_keywords:
 - move installation files to different drives
 - use the D drive
 author: ornellaalt
-ms.author: ornella
+ms.author: jmartens
 manager: jmartens
 ms.workload:
 - multiple

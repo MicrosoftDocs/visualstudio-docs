@@ -8,7 +8,7 @@ ms.technology: vs-ide-general
 ms.topic: tutorial
 ms.devlang: CSharp
 author: ornellaalt
-ms.author: ornella
+ms.author: jmartens
 manager: jmartens
 dev_langs:
   - CSharp

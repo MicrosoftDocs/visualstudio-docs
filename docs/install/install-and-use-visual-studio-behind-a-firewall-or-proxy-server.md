@@ -11,7 +11,7 @@ helpviewer_keywords:
 - list of domains, locations, URLs
 ms.assetid:
 author: ornellaalt
-ms.author: ornella
+ms.author: jmartens
 manager: jmartens
 ms.workload:
 - multiple

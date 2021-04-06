@@ -11,7 +11,7 @@ helpviewer_keywords:
 - installation
 - visual studio
 author: ornellaalt
-ms.author: ornella
+ms.author: jmartens
 manager: jmartens
 ms.workload:
 - multiple

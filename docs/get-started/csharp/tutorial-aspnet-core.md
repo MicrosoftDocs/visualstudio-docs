@@ -9,7 +9,7 @@ ms.prod: visual-studio-windows
 ms.topic: tutorial
 ms.devlang: CSharp
 author: ornellaalt
-ms.author: ornella
+ms.author: jmartens
 manager: jmartens
 dev_langs:
   - CSharp
