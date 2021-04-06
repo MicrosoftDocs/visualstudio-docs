@@ -49,8 +49,8 @@ Before you deploy Visual Studio across your organization, there are a few decisi
   Where do you want individual client machines to get the product updates from? Specifically, decide whether you want the client to get updates from the internet or from a company-wide local share. Then, if you choose to use a local share, decide whether individual users can update their own clients or if you want an admin to update the clients programmatically. It's best if these decisions were made before the original installation happens on the client machine. For more information, see [Create a network-based installation of Visual Studio](../install/create-a-network-installation-of-visual-studio.md)
 
   It's possible to update a network installation layout of Visual Studio with the latest product updates so that it can be used both as an installation point for the latest update of Visual Studio, and also to maintain installations that are already deployed to client workstations. For more information, see [Update a network-based installation of Visual Studio](../install/update-a-network-installation-of-visual-studio.md).
-  
-  Organizations that utilize enterprise deployment tools can take advantage of the fact that Visual Studio updates are available on the Microsoft Update Catalog and Windows Server Update Services.  For more information, see [Enabling administrator updates](../install/enabling-administrator-updates.md) and [Applying administrator updates](../install/applying-administrator-updates.md).
+
+  Organizations that utilize enterprise deployment tools can take advantage of the fact that Visual Studio updates are available on the Microsoft Update Catalog and Windows Server Update Services. For more information, see [Enabling administrator updates](../install/enabling-administrator-updates.md) and [Applying administrator updates](../install/applying-administrator-updates.md).
 
   For computers that are not connected to the internet, creating a minimal layout is the easiest and fastest way to update your offline Visual Studio instances. For more information, see [Update Visual Studio using a minimal offline layout](update-minimal-layout.md).
 
@@ -149,7 +149,7 @@ Use your deployment technology of choice to execute your script onto your target
 * [Refresh your network location with the latest updates](update-a-network-installation-of-visual-studio.md?view=vs-2017&preserve-view=true) to Visual Studio by running the command you used in step 1 on a regular basis to add updated components.
 
   You can update Visual Studio by using an update script. To do so, use the [`update`](use-command-line-parameters-to-install-visual-studio.md?view=vs-2019&preserve-view=true) command-line parameter.
-  
+
   You can deploy Visual Studio updates from the Windows Server Update Services or the Microsoft Update Catalog with tools like System Center Configuration Manager. For more information, see [Applying administrator updates](applying-administrator-updates.md).
 
 ## Step 4 - (Optional) Use Visual Studio tools to verify installation
