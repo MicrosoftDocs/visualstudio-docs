@@ -1,8 +1,8 @@
 ---
 title: Update Visual Studio
 titleSuffix: ''
-description: Learn how to update Visual Studio to the most recent release, step-by-step.
-ms.date: 10/12/2020
+description: Learn how to update Visual Studio to the most recent release, step by step.
+ms.date: 04/06/2021
 ms.custom: seodec18
 ms.topic: how-to
 ms.prod: visual-studio-windows
@@ -281,12 +281,17 @@ Here's how:
 
 ::: moniker-end
 
+## Administrator updates 
+
+If you are part of an organization that centralizes management of software installations, then your enterprise administrator can cause Visual Studio to update on your machine. For more information on how to control or configure what types of updates your machine can accept, see [Using Configuration Manager to deploy Visual Studio Updates](../install/applying-administrator-updates.md#using-configuration-manager-to-deploy-visual-studio-updates). 
+
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
 ## See also
 
 * [Install Visual Studio versions side-by-side](install-visual-studio-versions-side-by-side.md)
 * [Update a network-based installation of Visual Studio](update-a-network-installation-of-visual-studio.md)
+* [Visual Studio enterprise guide](visual-studio-enterprise-guide.md)
 * [Update Visual Studio while on a servicing baseline](update-servicing-baseline.md)
 * [Control updates to network-based Visual Studio deployments](controlling-updates-to-visual-studio-deployments.md)
 * [Modify Visual Studio](modify-visual-studio.md)
