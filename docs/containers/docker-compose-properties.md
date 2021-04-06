@@ -87,7 +87,7 @@ services:
 > [!NOTE]
 > DockerComposeBuildArguments, DockerComposeDownArguments, and DockerComposeUpArguments are new in Visual Studio 2019 version 16.3.
 
-## Docker Compose override file
+## Docker Compose override files
 
 You can  override certain settings by placing a file named *docker-compose.vs.debug.yml* (for the **Debug** configuration) or *docker-compose.vs.release.yml* (for the **Release** configuration) in the same directory as your *docker-compose.yml* file. 
 
