@@ -87,13 +87,15 @@ services:
 > [!NOTE]
 > DockerComposeBuildArguments, DockerComposeDownArguments, and DockerComposeUpArguments are new in Visual Studio 2019 version 16.3.
 
-## Docker Compose override files
+## Overriding default Docker Compose configuration
 
 You can  override certain settings by placing a file named *docker-compose.vs.debug.yml* (for the **Debug** configuration) or *docker-compose.vs.release.yml* (for the **Release** configuration) in the same directory as your *docker-compose.yml* file. 
 
+Visual Studio auto-generates the files *docker-compose.vs.debug.g.yml* or *docker-compose.vs.release.g.yml* for enabling debugging the project depending on the debug configuration. You can override certain configurations by creating a file named *docker-compose.vs.debug.yml* (for the **Debug** configuration) or *docker-compose.vs.release.yml* (for the **Release** configuration) in the same directory as your *docker-compose.yml* file."
+
 ### Docker Compose file labels
 
- In this file, you can define override-specific labels as follows:
+ In *docker-compose.vs.debug.yml* or *docker-compose.vs.release.yml*, you can define override-specific labels as follows:
 
 ```yml
 services:
@@ -113,7 +115,7 @@ Use double quotes around the values, as in the preceding example, and use the ba
 
 ### Customize the Docker build process
 
-You can declare which stage to build in your Dockerfile by using the `target` setting in the `build` attribute. This override can be used in both the *docker-compose.vs.debug.yml* or *docker-compose.vs.release.yml* 
+You can declare which stage to build in your Dockerfile by using the `target` setting in the `build` attribute. This override can be used in only the *docker-compose.vs.debug.yml* or *docker-compose.vs.release.yml* 
 
 ```yml
 services:
@@ -123,8 +125,6 @@ services:
     labels:
       ...
 ```
-
-> **Note:** If you do not add a *docker-compose.vs.release.yml* or *docker-compose.vs.debug.yml* file, Visual Studio generates one based on default settings.
 
 ### Customize the app startup process
 
@@ -137,8 +137,6 @@ services:
     labels:
       ...
 ```
-
-> **Note:** If you do not add a *docker-compose.vs.release.yml* or *docker-compose.vs.debug.yml* file, Visual Studio generates one based on default settings.
 
 ## Next steps
 
