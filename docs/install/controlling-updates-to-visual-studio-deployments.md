@@ -26,7 +26,7 @@ Enterprise administrators often create a layout and host it on a network file sh
 
 By default, Visual Studio continues to look online for updates even if the installation was originally deployed from a network share. If an update is available on the web, then the user can install it. Although the network layout cache is inspected first for any updated product bits, if they are not found there, then Visual Studio will look for and download updated product bits from the web.
 
-**Client originally installed and should only receive updates from the network layout**
+**Scenario 2: Client originally installed and should only receive updates from the network layout**
 
 If you want to control where the Visual Studio client looks for updates, for example, if your client machine does not have internet access and you want to ensure that it only and always installs from the layout, then you can configure the location where the client's installer looks for updated product bits. It is best to make sure this setting is configured correctly before the client does the initial install from the layout. 
 
