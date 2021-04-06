@@ -11,7 +11,7 @@ helpviewer_keywords:
 - export installation configuration
 - install Visual Studio
 - Visual Studio installer
-author: ornellaalt
+author: j-martens
 ms.author: jmartens
 manager: jmartens
 ms.workload:

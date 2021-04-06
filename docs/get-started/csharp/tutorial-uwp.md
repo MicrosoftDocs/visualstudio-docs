@@ -7,7 +7,7 @@ ms.date: "09/20/2019"
 ms.technology: vs-ide-general
 ms.topic: tutorial
 ms.devlang: CSharp
-author: ornellaalt
+author: j-martens
 ms.author: jmartens
 manager: jmartens
 dev_langs:

@@ -4,7 +4,7 @@ ms.date: 11/16/2020
 ms.custom:
 ms.topic: conceptual
 description: "Learn how to use Visual Studio with GitHub accounts."
-author: ornellaalt
+author: j-martens
 ms.author: jmartens
 manager: jmartens
 ms.workload:

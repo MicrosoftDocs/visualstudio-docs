@@ -3,7 +3,7 @@ title: Visual Studio on ARM powered devices
 description: Recommendations for using Visual Studio on devices with ARM-based processors.
 ms.date: 09/10/2020
 ms.topic: conceptual
-author: ornellaalt
+author: j-martens
 ms.author: jmartens
 manager: jmartens
 ms.workload:

@@ -7,7 +7,7 @@ ms.topic: tutorial
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
 ms.assetid: 1b0c5c80-e5a6-4f69-a4a4-0e89a82d4de0
-author: ornellaalt
+author: j-martens
 ms.author: jmartens
 manager: jmartens
 ms.workload:

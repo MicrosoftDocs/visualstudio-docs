@@ -6,7 +6,7 @@ ms.date: 11/06/2019
 ms.technology: vs-ide-general
 ms.prod: visual-studio-windows
 ms.topic: quickstart
-author: ornellaalt
+author: j-martens
 ms.author: jmartens
 manager: jmartens
 dev_langs:

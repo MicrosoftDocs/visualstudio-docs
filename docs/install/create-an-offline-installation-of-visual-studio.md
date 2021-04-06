@@ -9,7 +9,7 @@ f1_keywords:
 - offline install [Visual Studio]
 - layout [Visual Studio]
 ms.assetid: f8625d5e-f6ea-4db0-83c0-619b77fab3cf
-author: ornellaalt
+author: j-martens
 ms.author: jmartens
 manager: jmartens
 ms.workload:

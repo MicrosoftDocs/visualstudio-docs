@@ -9,7 +9,7 @@ helpviewer_keywords:
 - select an installation location for Visual Studio files
 - move installation files to different drives
 - use the D drive
-author: ornellaalt
+author: j-martens
 ms.author: jmartens
 manager: jmartens
 ms.workload:

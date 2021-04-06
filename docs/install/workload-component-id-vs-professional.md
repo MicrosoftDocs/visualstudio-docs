@@ -3,7 +3,7 @@ title: Visual Studio Professional workload and component IDs
 titleSuffix: ''
 description: Use Visual Studio Professional workload and component IDs to install Visual Studio from the command line or specify a dependency in a VSIX manifest.
 keywords: 
-author: ornellaalt
+author: j-martens
 ms.author: jmartens
 manager: jmartens
 ms.date: 05/19/2020

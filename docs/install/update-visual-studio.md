@@ -12,7 +12,7 @@ helpviewer_keywords:
 - change [Visual Studio]
 f1_keywords:
 - VS.ToolsOptionsPages.Environment.ProductUpdates
-author: ornellaalt
+author: j-martens
 ms.author: jmartens
 manager: jmartens
 ms.workload:
