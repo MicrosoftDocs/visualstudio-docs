@@ -1,5 +1,5 @@
 ---
-title: Use Cloud Services (extended support) (Preview)
+title: Use Cloud Services (extended support)
 description: Learn now to create and deploy a Cloud Services (extended support) using Azure Resource Manager with Visual Studio
 author: ghogen
 manager: jmartens
@@ -10,25 +10,19 @@ ms.date: 01/25/2021
 ms.author: ghogen
 monikerRange: ">=vs-2019"
 ---
-# Create and deploy to Cloud Services (extended support) in Visual Studio (Preview)
+# Create and deploy to Cloud Services (extended support) in Visual Studio
 
-Starting with [Visual Studio 2019 version 16.9](https://visualstudio.microsoft.com/vs/preview) (currently in preview), you can work with cloud services by using Azure Resource Manager, which greatly simplifies and modernizes maintenance and management of Azure resources. This is enabled by a new Azure service referred to as *Cloud Services (extended support)*. You can publish an existing cloud service to Cloud Services (extended support). For information on this Azure service, see [Cloud Services (extended support) documentation](/azure/cloud-services-extended-support/overview).
+Starting with [Visual Studio 2019 version 16.9](https://visualstudio.microsoft.com/vs/), you can work with cloud services by using Azure Resource Manager, which greatly simplifies and modernizes maintenance and management of Azure resources. This is enabled by a new Azure service referred to as *Cloud Services (extended support)*. You can publish an existing cloud service to Cloud Services (extended support). For information on this Azure service, see [Cloud Services (extended support) documentation](/azure/cloud-services-extended-support/overview).
 
 ## Publish to Cloud Services (extended support)
 
-When you publish your existing Azure Cloud Service project to Cloud Services (extended support), you still retain the capability to publish to a classic Azure Cloud Service. In Visual Studio 2019 version 16.9 Preview 3 and later, classic cloud service projects have a special version of the **Publish** command, **Publish (extended support)**. This command appears on the shortcut menu in **Solution Explorer**.
+When you publish your existing Azure Cloud Service project to Cloud Services (extended support), you still retain the capability to publish to a classic Azure Cloud Service. In Visual Studio 2019 version 16.9 and later, classic cloud service projects have a special version of the **Publish** command, **Publish (extended support)**. This command appears on the shortcut menu in **Solution Explorer**.
 
-There are some differences when you publish to Cloud Services (extended support). For example, you are not asked if you are publishing to **Staging** or **Production**, because these deployment slots are not part of the extended support publishing model. Instead, with Cloud Services (extended support), you can set up multiple deployments, and swap deployments in the Azure portal. Although the Visual Studio tooling allows for setting this in 16.9 Preview 3, the swap feature will not be enabled until a later release of Cloud Services (extended support) and may result in a failure at deployment time during the Preview.
+There are some differences when you publish to Cloud Services (extended support). For example, you are not asked if you are publishing to **Staging** or **Production**, because these deployment slots are not part of the extended support publishing model. Instead, with Cloud Services (extended support), you can set up multiple deployments, and swap deployments in the Azure portal. Although the Visual Studio tooling allows for setting this in 16.9, the swap feature will not be enabled until a later release of Cloud Services (extended support) and may result in a failure at deployment time during the Preview.
 
 Before publishing a classic Azure Cloud Service to Cloud Services (extended support), check the storage accounts your project uses and make sure they are Storage V1 or Storage V2 accounts. The classic storage account types will fail with an error message at deploy time. Be sure to check the storage account used by diagnostics. To check the diagnostics storage account, see [Set up diagnostics for Azure Cloud Services and virtual machines](vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines.md). If your service uses a classic storage account, you can upgrade it; see [Upgrade to a general-purpose v2 storage account](/azure/storage/common/storage-account-upgrade?tabs=azure-portal).  For general information on the types of storage accounts, see [Storage account overview](/azure/storage/common/storage-account-overview).
 
 ### To publish a classic Azure Cloud Service project to Cloud Services (extended support)
-
-1. Cloud Services (extended support) is currently in preview. Register the feature for your subscription as follows:
-
-   ```azurepowershell-interactive
-   Register-AzProviderFeature -FeatureName CloudServices -ProviderNamespace Microsoft.Compute
-   ```
 
 1. Right-click on the project node in your Azure Cloud Service (classic) project and choose **Publish (extended support)...**. The **Publish wizard** opens at the first screen.
 
