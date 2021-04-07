@@ -135,9 +135,7 @@ Welcome to what's new in the Visual Studio docs for March 2021. This article lis
 - [Create an offline installation of Visual Studio](../install/create-an-offline-installation-of-visual-studio.md) - Admin update doc edits
 - [Install certificates required for Visual Studio offline installation](../install/install-certificates-for-visual-studio-offline.md) - Admin update doc edits
 - [Install Visual Studio versions side-by-side](../install/install-visual-studio-versions-side-by-side.md) - Admin update doc edits
-- [Install and use Visual Studio and Azure Services behind a firewall or proxy server](../install/install-and-use-visual-studio-behind-a-firewall-or-proxy-server.md)
-  - Update install-and-use-visual-studio-behind-a-firewall-or-proxy-serve…
-  - Update install-and-use-visual-studio-behind-a-firewall-or-proxy-serve…
+- [Install and use Visual Studio and Azure Services behind a firewall or proxy server](../install/install-and-use-visual-studio-behind-a-firewall-or-proxy-server.md) - Updated article.
 
 ## JavaScript
 
