@@ -104,7 +104,7 @@ Welcome to what's new in the Visual Studio docs for March 2021. This article lis
   - Developer Command Prompt and Developer PowerShell
 - [Connect to projects in Team Explorer](./connect-team-project.md) - update topics with side-by-side comparison of Git & Team Explorer link
 - [Git experience in Visual Studio](./git-with-visual-studio.md)
-  - add Azure Devops to existing remote statement
+  - add Azure DevOps to existing remote statement
   - add new side-by-side comparison page of Team Explorer and new Git features
   - -b argument missing in git-with-visual-studio.md
 - [Default keyboard shortcuts in Visual Studio](./default-keyboard-shortcuts-in-visual-studio.md) - add missing Set Breakpoint Conditions keyboard shortcut
@@ -162,7 +162,7 @@ Welcome to what's new in the Visual Studio docs for March 2021. This article lis
 
 - [How MSBuild builds projects](../msbuild/build-process-overview.md) - Fix bad element name.
 - [CreateCSharpManifestResourceName task](../msbuild/createcsharpmanifestresourcename-task.md) - fix incorrect cross-referencing typo
-- [How to: Extend the Visual Studio build process](../msbuild/how-to-extend-the-visual-studio-build-process.md) - Fix xml indendation
+- [How to: Extend the Visual Studio build process](../msbuild/how-to-extend-the-visual-studio-build-process.md) - Fix XML indentation
 - [MIDL task](../msbuild/midl-task.md) - Update midl-task.md
 - [Common MSBuild project items](../msbuild/common-msbuild-project-items.md) - Add in-article toc and improve formatting
 - [Item element (MSBuild)](../msbuild/item-element-msbuild.md) - Add in-article toc and improve formatting
