@@ -19,7 +19,53 @@ ms.workload:
 
 # History of what's new in Visual Studio docs
 
-Welcome to the history of what's new in Visual Studio docs. This article contains the major changes to the docs prior to February 2021 (starting July 2020). For the latest What's New, see [Visual Studio docs: What's new in the docs](whats-new-visual-studio-docs.md).
+Welcome to the history of what's new in Visual Studio docs. This article contains the major changes to the docs prior to March 2021 (starting July 2020). For the latest What's New, see [Visual Studio docs: What's new in the docs](whats-new-visual-studio-docs.md).
+
+## February 2021
+
+### Debugger
+
+**Updated articles**
+
+- [Use breakpoints in the Visual Studio debugger](../debugger/using-breakpoints.md) - Updates for accessibility
+
+### Get started
+
+**Updated articles**
+
+- [Tutorial: Open a project from a repo in Visual Studio 2017](../get-started/tutorial-open-project-from-repo-visual-studio-2017.md) - update See Also links in VS2017 Open Project from a Repo
+- [Tutorial: Open a project from a repo](../get-started/tutorial-open-project-from-repo-visual-studio-2019.md) - Add link to VS2017 version of the 'Open a project from a repo' page
+
+### IDE
+
+**Updated articles**
+
+- [Troubleshoot and create logs for MSBuild problems](./msbuild-logs.md) - Add instructions on using the project system tools extension
+
+### Install
+
+**Updated articles**
+
+- [Update Visual Studio using a minimal offline layout](../install/update-minimal-layout.md)
+  - Add 2017 example in options table
+  - Add examples for VS2017
+
+### MSBuild
+
+**New articles**
+
+- [MSB3644: The reference assemblies for 'FrameworkVersion' were not found](../msbuild/errors/msb3644.md) - MSBuild errors
+- [MSB8036: The Windows SDK 'version' was not found](../msbuild/errors/msb8036.md) - MSBuild errors
+
+### Test
+
+**Updated articles**
+
+- [Use the Microsoft Unit Testing Framework for C++ in Visual Studio](../test/how-to-use-microsoft-test-framework-for-cpp.md) -  Small content refresh and edit
+- [Write unit tests for C++ DLLs in Visual Studio](../test/how-to-write-unit-tests-for-cpp-dlls.md) - Small content refresh and edit
+- [Run unit tests with Test Explorer](../test/run-unit-tests-with-test-explorer.md) - Updates for accessibility
+- [Walkthrough: Create and run unit tests for managed code](../test/walkthrough-creating-and-running-unit-tests-for-managed-code.md) - Updates for accessibility
+- [Isolate code under test with Microsoft Fakes](../test/isolating-code-under-test-with-microsoft-fakes.md) - Explicitly mention .NET 5.0 in Fakes docs
 
 ## January 2021
 ### Azure
