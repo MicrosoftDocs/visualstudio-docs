@@ -37,7 +37,7 @@ The following table shows the MSBuild properties available for Docker Compose pr
 |DockerComposeProjectName| dcproj | If specified, overrides the project name for a docker-compose project. | "dockercompose" + auto-generated hash |
 |DockerComposeProjectPath|csproj or vbproj|The relative path to the docker-compose project (dcproj) file. Set this property when publishing the service project to find the associated image build settings stored in the docker-compose.yml file.|-|
 |DockerComposeUpArguments|dcproj|Specifies the extra parameters to pass to the `docker-compose up` command. For example, `--timeout 500`|-|
-|DockerDevelopmentMode|dcproj| Controls whether "build-on-host" optimization ("Fast Mode" debugging) is enabled.  Allowed values are `Fast` and `Regular`. | `Fast` in the Debug configuration or `Regular` in all other configurations  |
+|DockerDevelopmentMode|dcproj| Controls whether "build-on-host" optimization ("Fast Mode" debugging) is enabled.  Allowed values are `Fast` and `Regular`. | `Fast` in the Debug configuration or `Regular` in all other configurations |
 |DockerLaunchAction| dcproj | Specifies the launch action to perform on F5 or Ctrl+F5.  Allowed values are None, LaunchBrowser, and LaunchWCFTestClient.|None|
 |DockerLaunchBrowser| dcproj | Indicates whether to launch the browser. Ignored if DockerLaunchAction is specified. | False |
 |DockerServiceName| dcproj|If DockerLaunchAction or DockerLaunchBrowser are specified, then DockerServiceName is the name of the service that should be launched.  Use this property to determine which of the potentially many projects that a docker-compose file can reference will be launched.|-|
@@ -115,12 +115,12 @@ Use double quotes around the values, as in the preceding example, and use the ba
 
 ### Customize the Docker build process
 
-You can declare which stage to build in your Dockerfile by using the `target` setting in the `build` attribute. This override can be used in only the *docker-compose.vs.debug.yml* or *docker-compose.vs.release.yml* 
+You can declare which stage to build in your Dockerfile by using the `target` setting in the `build` property. This override can be used in only the *docker-compose.vs.debug.yml* or *docker-compose.vs.release.yml* 
 
 ```yml
 services:
   webapplication1:
-    build: 
+    build:
       target: customStage
     labels:
       ...
@@ -128,7 +128,7 @@ services:
 
 ### Customize the app startup process
 
-You can run a command or custom script before launching your app by using the `entrypoint` setting, and making it dependent on the configuration. For example, if you need to set up a certificate only in **Fast** mode by running `update-ca-certificates`, but not in **Regular** mode, you could add the following code in **only** *docker-compose.vs.debug.yml*:
+You can run a command or custom script before launching your app by using the `entrypoint` setting, and making it dependent on the `DockerDevelopmentMode`. For example, if you need to set up a certificate only in **Fast** mode by running `update-ca-certificates`, but not in **Regular** mode, you could add the following code in **only** *docker-compose.vs.debug.yml*:
 
 ```yml
 services:
