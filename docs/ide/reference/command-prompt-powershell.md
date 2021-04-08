@@ -1,5 +1,5 @@
 ---
-title: Command-line shells for developers
+title: 'Command-line shells & prompt for developers'
 description:  Start from Tools > Command Line menu. Visual Studio Developer Command Prompt, Developer PowerShell, and terminal let you use .NET and C++ tools more easily.
 ms.date: 04/11/2021
 ms.custom: contperf-fy21q4
@@ -12,7 +12,7 @@ helpviewer_keywords:
 ms.assetid: 94fcf524-9045-4993-bfb2-e2d8bad44219
 no-loc: cmdlet
 ---
-# Developer Command Prompt and Developer PowerShell
+# Visual Studio Developer Command Prompt and Developer PowerShell
 
 Visual Studio 2019 includes two command-line shells for developers:
 
