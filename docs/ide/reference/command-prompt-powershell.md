@@ -54,7 +54,7 @@ Follow these steps to open Developer Command Prompt or Developer PowerShell from
 
 ## Start from Windows 'Start' menu
 
-You may have multiple command prompts, depending on the version of Visual Studio and any additional SDKs and workloads you've installed. If the following steps don't work, you can try to [manually locate the files on your machine](#manually-locate-the-file) or [start the shell from inside Visual Studio](#start-the-shell-from-inside-visual-studio).
+Another way to start the shells is from the Start menu. You may have multiple command prompts, depending on the version of Visual Studio and any additional SDKs and workloads you've installed. 
 
 ### Windows 10
 
