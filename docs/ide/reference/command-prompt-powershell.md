@@ -20,6 +20,15 @@ Visual Studio 2019 includes two command-line shells for developers:
 
 - **Visual Studio Developer PowerShell** - More powerful than a command prompt. For example, you can pass the output of one command (known as a *cmdlet*) to another cmdlet. This shell has the same environment variables set as Developer Command Prompt. Available since Visual Studio 2019.
 
+
+:::image type="content" source="media/developer-command-prompt-for-vs/command-prompt.png" alt-text="Developer Command Prompt for Visual Studio showing clrver tool":::
+
+Starting in Visual Studio 2019 version 16.5, Visual Studio includes an integrated **terminal** that can host either of these shells (Developer Command Prompt and Developer PowerShell). You can also open multiple tabs of each shell. The Visual Studio terminal is built on top of [Windows Terminal](/windows/terminal/). To open the terminal in Visual Studio, choose **View** > **Terminal**.
+
+:::image type="content" source="media/developer-command-prompt-for-vs/vs-terminal.png" alt-text="Visual Studio terminal showing multiple tabs":::
+
+When you open one of the developer shells from Visual Studio, either as a separate app or in the Terminal window, it opens to the directory of your current solution (if you have a solution loaded). This behavior makes it convenient to run commands against the solution or its projects.
+
 Both shells have specific environment variables set that enable you to use command-line developer tools more easily. After opening one of these shells, you can enter the commands for different utilities without having to know where they're located. 
 
 |Popular commands|Description|
@@ -34,15 +43,8 @@ Both shells have specific environment variables set that enable you to use comma
 |[`LIB`](/cpp/build/reference/lib-reference)| C/C++ build tool|
 |[`DUMPBIN`](/cpp/build/reference/dumpbin-reference)| C/C++ build tool|
 
-:::image type="content" source="media/developer-command-prompt-for-vs/command-prompt.png" alt-text="Developer Command Prompt for Visual Studio showing clrver tool":::
 
-Starting in Visual Studio 2019 version 16.5, Visual Studio includes an integrated **terminal** that can host either of these shells (Developer Command Prompt and Developer PowerShell). You can also open multiple tabs of each shell. The Visual Studio terminal is built on top of [Windows Terminal](/windows/terminal/). To open the terminal in Visual Studio, choose **View** > **Terminal**.
-
-:::image type="content" source="media/developer-command-prompt-for-vs/vs-terminal.png" alt-text="Visual Studio terminal showing multiple tabs":::
-
-When you open one of the developer shells from Visual Studio, either as a separate app or in the Terminal window, it opens to the directory of your current solution (if you have a solution loaded). This behavior makes it convenient to run commands against the solution or its projects.
-
-## Start rom inside Visual Studio
+## Start in Visual Studio
 
 Follow these steps to open Developer Command Prompt or Developer PowerShell from within Visual Studio:
 
@@ -52,7 +54,7 @@ Follow these steps to open Developer Command Prompt or Developer PowerShell from
 
    ![Command prompt menu item in Visual Studio](./media/developer-command-prompt-for-vs/vs-menu.png)
 
-## Start from Windows 'Start' menu
+## Start from Windows menu
 
 Another way to start the shells is from the Start menu. You may have multiple command prompts, depending on the version of Visual Studio and any additional SDKs and workloads you've installed. 
 
