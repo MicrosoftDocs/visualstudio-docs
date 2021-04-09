@@ -9,8 +9,8 @@ helpviewer_keywords:
 - administrator guide, Visual Studio
 - installing Visual Studio, administrator guide
 ms.assetid: 
-author: ornellaalt
-ms.author: ornella
+author: j-martens
+ms.author: jmartens
 manager: jmartens
 ms.workload:
 - multiple

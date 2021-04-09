@@ -6,8 +6,8 @@ ms.topic: tutorial
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
 ms.devlang: vb
-author: ornellaalt
-ms.author: ornella
+author: j-martens
+ms.author: jmartens
 manager: jmartens
 dev_langs:
   - VB

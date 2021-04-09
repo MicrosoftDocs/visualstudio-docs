@@ -10,8 +10,8 @@ dev_langs:
 - CSharp
 - VB
 ms.assetid: 6461c4cf-f2aa-4bf5-91ed-06820a4f893d
-author: ornellaalt
-ms.author: ornella
+author: j-martens
+ms.author: jmartens
 manager: jmartens
 ms.workload:
 - multiple

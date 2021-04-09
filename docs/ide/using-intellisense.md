@@ -62,7 +62,7 @@ When you select a member from the **List Members** box, Quick Info also appears.
 
 ![Parameter Info in a C&#35; code file](../ide/media/vs2015_paraminfo.png)
 
-You can manually invoke Quick Info by choosing **Edit** > **IntelliSense** > **Quick Info**, by pressing **Ctrl**+**I**, or by choosing the **Quick Info** button on the editor toolbar.
+You can manually invoke Quick Info by choosing **Edit** > **IntelliSense** > **Quick Info**, by pressing **Ctrl**+**K**, **Ctrl**+**I**, or by choosing the **Quick Info** button on the editor toolbar.
 
 If a function is overloaded, IntelliSense may not display information for all forms of the overload.
 
