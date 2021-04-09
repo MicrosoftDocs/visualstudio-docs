@@ -10,8 +10,8 @@ ms.technology: vs-ide-general
 dev_langs:
 - CSharp
 - VB
-author: ornellaalt
-ms.author: ornella
+author: j-martens
+ms.author: jmartens
 manager: jmartens
 ms.workload:
 - multiple
