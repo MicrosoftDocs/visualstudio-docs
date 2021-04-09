@@ -10,8 +10,8 @@ f1_keywords:
 - switches
 - command prompt
 ms.assetid: 480f3cb4-d873-434e-a8bf-82cff7401cf2
-author: ornellaalt
-ms.author: ornella
+author: j-martens
+ms.author: jmartens
 manager: jmartens
 ms.workload:
 - multiple
