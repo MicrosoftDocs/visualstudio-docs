@@ -14,7 +14,7 @@ sap.id: af210210-e3e1-2b2e-8d79-9bd20e851241
 
 ## Azure DevOps technical support  
 
-Visual Studio subscriptions support provides assistance with sales, subscriptions, accounts and billing for Visual Studio subscriptions. If you have an Azure DevOps technical issue or question, your question needs to be directed to [Azure DevOps support](https://azure.microsoft.com/support/devops/). Here are a few more resources to help you find answers.
+Visual Studio subscriptions support provides assistance with sales, subscriptions, accounts, and billing for Visual Studio subscriptions. If you have an Azure DevOps technical issue or question, your question needs to be directed to [Azure DevOps support](https://azure.microsoft.com/support/devops/). Here are a few more resources to help you find answers.
 
 ## Documentation | Azure DevOps 
 
