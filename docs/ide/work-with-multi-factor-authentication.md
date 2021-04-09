@@ -4,8 +4,8 @@ ms.date: 05/27/2020
 ms.custom: SEO-VS-2020
 ms.topic: conceptual
 description: "Learn how to use Visual Studio with accounts that require multi-factor authentication."
-author: ornellaalt
-ms.author: ornella
+author: j-martens
+ms.author: jmartens
 manager: jmartens
 ms.workload:
 - multiple

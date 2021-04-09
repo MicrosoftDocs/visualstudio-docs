@@ -3,8 +3,8 @@ title: Visual Studio Team Explorer workload and component IDs
 titleSuffix: ''
 description: Use Visual Studio workload and component IDs to provide integrated testing tools for generalist testers
 keywords: 
-author: ornellaalt
-ms.author: ornella
+author: j-martens
+ms.author: jmartens
 manager: jmartens
 ms.date: 3/2/2020
 ms.topic: reference
