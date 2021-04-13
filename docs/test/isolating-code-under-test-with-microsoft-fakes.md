@@ -258,7 +258,7 @@ Since Microsoft Fakes requires Visual Studio Enterprise, the generation of Fakes
 ```xml
 <Project Sdk="Microsoft.NET.Sdk">
     <ItemGroup>
-        <Reference Include="FakesAssemblies\System.Fakes.dll">
+        <Reference Include="FakesAssemblies\System.Fakes.dll"/>
     </ItemGroup>
 </Project>
 ```
