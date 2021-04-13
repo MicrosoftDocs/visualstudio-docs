@@ -64,7 +64,7 @@ If you didn't get an exception, you probably have a good idea where to look for 
 
 In Visual Studio, you can quickly set a breakpoint by clicking in the left margin next to a line of code. Or place the cursor on a line and press **F9**.
 
-To help illustrate these concepts, we take you through some example code that already has several bugs. We are using C#, but the debugging features apply to Visual Basic, C++, JavaScript, Python, and other supported languages.
+To help illustrate these concepts, we take you through some example code that already has several bugs. We are using C#, but the debugging features apply to Visual Basic, C++, JavaScript, Python, and other supported languages. Sample code for Visual Basic is also provided, but screenshots are in C#.
 
 ### Create a sample app (with some bugs)
 
@@ -255,7 +255,15 @@ Next, we will create an application that has a few bugs.
     
             End Sub
     
+            Private _MyGType As String
             Public Property MyGType As Object
+                Get
+                    Return _MyGType
+                End Get
+                Set(ByVal value As Object)
+                    _MyGType = value.ToString()
+                End Set
+            End Property
     
             Private Enum Type
                 Spiral
@@ -305,6 +313,8 @@ Next, we will create an application that has a few bugs.
 
 1. With the app still running, set a breakpoint by clicking in the left margin next to the `Console.WriteLine` method call in this line of code.
 
+    #### [C#](#tab/csharp)
+
     ```csharp
     foreach (Galaxy theGalaxy in theGalaxies)
     {
@@ -312,6 +322,15 @@ Next, we will create an application that has a few bugs.
     }
     ```
 
+    #### [Visual Basic](#tab/visualbasic)
+
+    ```vb
+    For Each theGalaxy As Galaxy In theGalaxies
+        Console.WriteLine(theGalaxy.Name & "  " & theGalaxy.MegaLightYears & ",  " & theGalaxy.GalaxyType)
+    Next
+    ```
+
+    ---
     When you set the breakpoint, a red dot appears in the left margin.
 
     Because we see a problem in the output, we will start debugging by looking at the preceding code that sets the output in the debugger.
@@ -326,9 +345,12 @@ Next, we will create an application that has a few bugs.
 
     "Spiral" is actually the correct value you were expecting to print to the console! So it is a good start that you can access this value in this code while running the app. In this scenario, we are using the incorrect API. We will see if we can fix this while running code in the debugger.
 
-1. In the same code, while still debugging, put your cursor at the end of `theGalaxy.GalaxyType` and change it to `theGalaxy.GalaxyType.MyGType`. Although you can make this change, the code editor shows you an error indicating it can't compile this code.
+1. In the same code, while still debugging, put your cursor at the end of `theGalaxy.GalaxyType` and change it to `theGalaxy.GalaxyType.MyGType`. Although you can make this change, the code editor shows you an error indicating it can't compile this code. (In Visual Basic, you won't see the error, and this section of code works)
 
     ![Screenshot of the Visual Studio Debugger with a line of code highlighted in red and an Edit and Continue message box with the Edit button selected.](../debugger/media/beginners-edit.png)
+
+   > [!NOTE]
+   > For debugging the Visual Basic example code, skip the next few steps until your are instructed to click the **Restart** ![Restart App](../debugger/media/dbg-tour-restart.png "RestartApp") button.
 
 1. Click **Edit** in the **Edit and Continue** message box. You see an error message now in the **Error List** window. The error indicates that the `'object'` doesn't contain a definition for `MyGType`.
 
@@ -365,10 +387,18 @@ Next, we will create an application that has a few bugs.
     Maffei 1,  Elliptical
     ```
 
-1. Set a breakpoint on this line of code.
+1. Set a breakpoint on this line of code before the switch statement (before the Select statement in Visual Basic).
+
+    #### [C#](#tab/csharp)
 
     ```csharp
     public GType(char type)
+    ```
+
+    #### [Visual Basic](#tab/visualbasic)
+
+    ```vb
+    Public Sub New(ByVal type As Char)
     ```
 
     This code is where the galaxy type is set, so we want to take a closer look at it.
@@ -387,7 +417,7 @@ Next, we will create an application that has a few bugs.
 
     **F11** advances the debugger (and executes code) one statement at a time. **F10** (**Step Over**) is a similar command, and both are extremely useful when learning how to use the debugger.
 
-1. Press **F11** until you stop on line of code in the `switch` statement for a value of 'I'. Here, you see a clear problem resulting from a typo. You expected the code to advance to where it sets `MyGType` as an Irregular galaxy type, but the debugger instead skips this code completely and pauses on the `default` section of the `switch` statement.
+1. Press **F11** until you stop on line of code in the `switch` statement for a value of 'I' (`Select` statement for Visual Basic). Here, you see a clear problem resulting from a typo. You expected the code to advance to where it sets `MyGType` as an Irregular galaxy type, but the debugger instead skips this code completely and pauses on the `default` section of the `switch` statement (`Else` in Visual Basic).
 
     ![Find a typo](../debugger/media/beginners-typo.png)
 
