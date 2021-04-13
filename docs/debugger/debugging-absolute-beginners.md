@@ -79,19 +79,19 @@ Next, we will create an application that has a few bugs.
 1. Open Visual Studio.
 
     ::: moniker range=">=vs-2019"
-    On the start window, choose **Create a new project**. Type **console** in the search box, select **C#** as the language, and then choose **Console App** for .NET Core. Choose **Next**. Type a project name like **ConsoleApp-FirstApp** and click **Next**.
+    On the start window, choose **Create a new project**. Type **console** in the search box, select either **C#** or **Visual Basic** as the language, and then choose **Console App** for .NET Core. Choose **Next**. Type a project name like **ConsoleApp_FirstApp** and click **Next**.
 
     Choose either the recommended target framework (.NET Core 3.1) or .NET 5, and then choose **Create**.
     ::: moniker-end
     ::: moniker range="vs-2017"
-    From the top menu bar, choose **File** > **New** > **Project**. In the left pane of the **New project** dialog box, under **Visual C#**, choose **Console App**, and then in the middle pane choose either **Console App (.NET Core)**. Type a name like **ConsoleApp-FirstApp** and click **OK**.
+    From the top menu bar, choose **File** > **New** > **Project**. In the left pane of the **New project** dialog box, under **Visual C#** or **Visual Basic**, choose **Console App**, and then in the middle pane choose either **Console App (.NET Core)**. Type a name like **ConsoleApp_FirstApp** and click **OK**.
     ::: moniker-end
 
     If you don't see the **Console App** project template for .NET Core, go to **Tools** > **Get Tools and Features**, which opens the Visual Studio Installer. Choose the **.NET Core cross platform development** workload, then choose **Modify**.
 
     Visual Studio creates the console project, which appears in Solution Explorer in the right pane.
 
-1. In *Program.cs*, replace all the default code with the following code:
+1. In *Program.cs* (or *Program.vb*), replace all the default code with the following code. (Select the correct language tab first, either C# or Visual Basic.)
 
    #### [C#](#tab/csharp)
 
