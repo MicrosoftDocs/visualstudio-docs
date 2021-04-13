@@ -180,7 +180,7 @@ Next, we will create an application that has a few bugs.
     Imports System
     Imports System.Collections.Generic
 
-    Namespace ConsoleApp_BeginnersGuide_VB
+    Namespace ConsoleApp_FirstApp
         Friend Class Program
             Public Shared Sub Main(ByVal args As String())
                 Console.WriteLine("Welcome to Galaxy News!")
@@ -225,14 +225,6 @@ Next, we will create an application that has a few bugs.
                 For Each theGalaxy As Galaxy In theGalaxies
                     Console.WriteLine(theGalaxy.Name & "  " & theGalaxy.MegaLightYears & ",  " & theGalaxy.GalaxyType)
                 Next
-    
-                ' Expected Output:
-                '  Tadpole  400,  Spiral
-                '  Pinwheel  25,  Spiral
-                '  Cartwheel, 500,  Lenticular
-                '  Small Magellanic Cloud .2,  Irregular
-                '  Andromeda  3,  Spiral
-                '  Maffei 1,  11,  Elliptical
 
             End Sub
         End Class
