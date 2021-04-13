@@ -38,7 +38,7 @@ landingContent:
             url: /learn/modules/visual-studio-github-push/
 
   # Card
-  - title: Contrast & Compare
+  - title: Contrast & compare
     linkLists:
       - linkListType: how-to-guide
         links:
