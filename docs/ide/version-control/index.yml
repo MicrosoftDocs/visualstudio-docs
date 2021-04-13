@@ -20,14 +20,14 @@ landingContent:
   # Card
   - title: Overview
     linkLists:
-      - linkListType: concept
+      - linkListType: overview
         links:
           - text: Git experience in Visual Studio
             url: ../ide/git-with-visual-studio.md
       - linkListType: concept
         links:
           - text: How Visual Studio makes source control easy
-            url:  ../ide/git-visual-studio-source-control.md
+            url:  ../git-visual-studio-source-control.md
 
   # Card
   - title: Get started
@@ -43,7 +43,7 @@ landingContent:
       - linkListType: how-to-guide
         links:
           - text: Compare Git and Team Explorer side-by-side
-            url: ../ide/git-team-explorer-feature-comparison.md
+            url: ../git-team-explorer-feature-comparison.md
 
   # Card
   - title: What's new
