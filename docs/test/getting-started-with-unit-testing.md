@@ -79,7 +79,7 @@ This section describes how to create a unit test project.
 
    For example, you might use the following code by selecting the correct documentation tab that matches your test framework: MSTest, NUnit, or xUnit (supported on .NET only).
 
-   # [MSTest](#tab/mstest)
+   ### [MSTest](#tab/mstest)
 
    ```csharp
    using Microsoft.VisualStudio.TestTools.UnitTesting;
@@ -108,7 +108,7 @@ This section describes how to create a unit test project.
    }
    ```
 
-   # [NUnit](#tab/nunit)
+   ### [NUnit](#tab/nunit)
 
    ```csharp
    using NUnit.Framework;
@@ -141,7 +141,7 @@ This section describes how to create a unit test project.
    }
    ```
 
-    # [xUnit](#tab/xunit)
+    ### [xUnit](#tab/xunit)
 
     ```csharp
     using System;
@@ -168,6 +168,8 @@ This section describes how to create a unit test project.
         }
     }
     ```
+
+    ---
 
 ## Run unit tests
 
