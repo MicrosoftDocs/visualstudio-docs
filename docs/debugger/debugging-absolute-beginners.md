@@ -401,6 +401,8 @@ Next, we will create an application that has a few bugs.
     Public Sub New(ByVal type As Char)
     ```
 
+    ---
+
     This code is where the galaxy type is set, so we want to take a closer look at it.
 
 1. Click the **Restart** ![Restart App](../debugger/media/dbg-tour-restart.png "RestartApp") button in the Debug Toolbar (**Ctrl** + **Shift** + **F5**) to restart.
