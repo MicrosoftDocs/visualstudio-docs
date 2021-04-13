@@ -233,6 +233,7 @@ Next, we will create an application that has a few bugs.
                 '  Small Magellanic Cloud .2,  Irregular
                 '  Andromeda  3,  Spiral
                 '  Maffei 1,  11,  Elliptical
+
             End Sub
         End Class
     
