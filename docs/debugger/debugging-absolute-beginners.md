@@ -350,7 +350,7 @@ Next, we will create an application that has a few bugs.
     ![Screenshot of the Visual Studio Debugger with a line of code highlighted in red and an Edit and Continue message box with the Edit button selected.](../debugger/media/beginners-edit.png)
 
    > [!NOTE]
-   > For debugging the Visual Basic example code, skip the next few steps until your are instructed to click the **Restart** ![Restart App](../debugger/media/dbg-tour-restart.png "RestartApp") button.
+   > For debugging the Visual Basic example code, skip the next few steps until you're instructed to click the **Restart** ![Restart App](../debugger/media/dbg-tour-restart.png "RestartApp") button.
 
 1. Click **Edit** in the **Edit and Continue** message box. You see an error message now in the **Error List** window. The error indicates that the `'object'` doesn't contain a definition for `MyGType`.
 
@@ -417,7 +417,7 @@ Next, we will create an application that has a few bugs.
 
     **F11** advances the debugger (and executes code) one statement at a time. **F10** (**Step Over**) is a similar command, and both are extremely useful when learning how to use the debugger.
 
-1. Press **F11** until you stop on line of code in the `switch` statement for a value of 'I' (`Select` statement for Visual Basic). Here, you see a clear problem resulting from a typo. You expected the code to advance to where it sets `MyGType` as an Irregular galaxy type, but the debugger instead skips this code completely and pauses on the `default` section of the `switch` statement (`Else` in Visual Basic).
+1. Press **F11** until you stop on line of code in the `switch` statement for a value of 'I' (`Select` statement for Visual Basic). Here, you see a clear problem resulting from a typo. You expected the code to advance to where it sets `MyGType` as an Irregular galaxy type, but the debugger instead skips this code completely and pauses on the `default` section of the `switch` statement (`Else` statement in Visual Basic).
 
     ![Find a typo](../debugger/media/beginners-typo.png)
 
