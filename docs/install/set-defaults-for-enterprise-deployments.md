@@ -1,7 +1,7 @@
 ---
 title: Set defaults for enterprise deployments
 description: Learn about domain policies and other configuration operations for enterprise deployments of Visual Studio.
-ms.date: 04/06/2021
+ms.date: 04/13/2021
 ms.custom: seodec18
 ms.topic: conceptual
 f1_keywords:
@@ -21,24 +21,21 @@ ms.technology: vs-installation
 ---
 # Set defaults for enterprise deployments of Visual Studio
 
-You can set registry policies that affect the deployment of Visual Studio. These policies are global for the new installer and affect:
+You can set registry policies that affect the deployment of Visual Studio. These policies are global for machine and affect:
 
 - Where some packages shared with other versions or instances are installed
-- Where packages are cached
-- Whether all packages are cached
+- Where and whether packages are cached
+- How administrator updates should be applied
 
 You can set some of these policies using [command-line options](use-command-line-parameters-to-install-visual-studio.md), set registry values on your machine, or even distribute them using Group Policy across an organization.
 
 ## Registry keys
 
-There are several locations where you can set enterprise defaults, to enable their control either through Group Policy or directly in the registry. Visual Studio looks sequentially to see if any enterprise policies have been set; as soon as a policy value is discovered in the order below, the remaining keys are ignored.
+There are several locations where you can set enterprise defaults to enable their control either through Group Policy or directly in the registry. Visual Studio looks sequentially to see if any enterprise policies have been set; as soon as a policy value is discovered in the order below, the remaining keys are ignored.
 
 1. `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\VisualStudio\Setup`
 2. `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\Setup`
 3. `HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\VisualStudio\Setup` (on 64-bit operating systems)
-
-> [!IMPORTANT]
-> If you do not set the `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\VisualStudio\Setup` key and instead set one of the other keys, you should set both other keys on 64-bit operating systems. This issue is addressed in a future product update.
 
 Some registry values are set automatically the first time they are used if not set already. This practice ensures that subsequent installs use the same values. These values are stored in the second registry key, `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\Setup`.
 
@@ -50,9 +47,9 @@ You can set the following registry values:
 | `CachePath` | `REG_SZ` or `REG_EXPAND_SZ` | %ProgramData%\Microsoft\VisualStudio\Packages | The directory where package manifests and, optionally, payloads are stored. For more information, see [Disable or move the package cache](disable-or-move-the-package-cache.md) page. |
 | `KeepDownloadedPayloads` | `REG_DWORD` | 1 | Keep package payloads even after they are installed. You can change the value anytime. Disabling the policy removes any cached package payloads for the instance you repair or modify. For more information, see [Disable or move the package cache](disable-or-move-the-package-cache.md) page. |
 | `SharedInstallationPath` | `REG_SZ` or `REG_EXPAND_SZ` | %ProgramFiles(x86)%\Microsoft Visual Studio\Shared | The directory where some packages shared across versions of instances of Visual Studio are installed. You can change the value anytime, but it will only affect future installs. Any products already installed to the old location must not be moved or they might not function correctly. |
-| `BackgroundDownloadDisabled` |`REG_DWORD` | 1 | Prevent setup from downloading updates automatically for all installed Visual Studio products. You can change the value anytime. |
-| `AdministratorUpdatesEnabled` | `REG_DWORD` | 1 | Allows administrator updates to be applied to the client computer. If this value is missing or is set to 0, administrator updates will be blocked. This value is for administrative use. For more information, see [Enabling Administrator Updates](enabling-administrator-updates.md). | 
-| `AdministratorUpdatesOptOut` | `REG_DWORD` | 1 | Indicates that the user does not want to receive administrator updates to Visual Studio. The absence of the registry value, or a set value of 0, means that the Visual Studio user wants to receive administrator updates to Visual Studio. This is for developer user (if they have admin permissions on the client machine). For more information, see [Applying administrator updates](../install/applying-administrator-updates.md#understanding-configuration-options). | 
+| `BackgroundDownloadDisabled` |`REG_DWORD` | 0 | Prevent setup from downloading updates automatically for all installed Visual Studio products. You can change the value anytime. |
+| `AdministratorUpdatesEnabled` | `REG_DWORD` | 0 | Allows administrator updates to be applied to the client computer. If this value is missing or is set to 0, administrator updates will be blocked. This value is for administrative use. For more information, see [Enabling Administrator Updates](enabling-administrator-updates.md). | 
+| `AdministratorUpdatesOptOut` | `REG_DWORD` | 0 | Indicates that the user does not want to receive administrator updates to Visual Studio. The absence of the registry value, or a set value of 0, means that the Visual Studio user wants to receive administrator updates to Visual Studio. This is for developer user (if they have admin permissions on the client machine). For more information, see [Applying administrator updates](../install/applying-administrator-updates.md#understanding-configuration-options). | 
 | `UpdateConfigurationFile` | `REG_SZ` or `REG_EXPAND_SZ` | %ProgramData%\Microsoft\VisualStudio\updates.config | The file path for configuring Administrative Updates. For more information, see [Methods for configuring an administrator update](../install/applying-administrator-updates.md#methods-for-configuring-an-administrator-update). | 
 ::: moniker-end
 
@@ -62,11 +59,11 @@ You can set the following registry values:
 | `CachePath` | `REG_SZ` or `REG_EXPAND_SZ` | %ProgramData%\Microsoft\VisualStudio\Packages | The directory where package manifests and, optionally, payloads are stored. For more information, see [Disable or move the package cache](disable-or-move-the-package-cache.md) page. |
 | `KeepDownloadedPayloads` | `REG_DWORD` | 1 | Keep package payloads even after they are installed. You can change the value anytime. Disabling the policy removes any cached package payloads for the instance you repair or modify. For more information, see [Disable or move the package cache](disable-or-move-the-package-cache.md) page. |
 | `SharedInstallationPath` | `REG_SZ` or `REG_EXPAND_SZ` | %ProgramFiles(x86)%\Microsoft Visual Studio\Shared | The directory where some packages shared across versions of instances of Visual Studio are installed. You can change the value anytime, but it will only affect future installs. Any products already installed to the old location must not be moved or they might not function correctly. |
-| `BackgroundDownloadDisabled` |`REG_DWORD` | 1 | Prevent setup from downloading updates automatically for all installed Visual Studio products. You can change the value anytime. |
-| `AdministratorUpdatesEnabled` | `REG_DWORD` | 1 | Allows administrator updates to be applied to the client computer. If this value is missing or is set to 0, administrator updates will be blocked. This value is for administrative use. For more information, see [Enabling Administrator Updates](enabling-administrator-updates.md). | 
-| `AdministratorUpdatesOptOut` | `REG_DWORD` | 1 | Indicates that the user does not want to receive administrator updates to Visual Studio. The absence of the registry value, or a set value of 0, means that the Visual Studio user wants to receive administrator updates to Visual Studio. This is for developer user (if they have admin permissions on the client machine). For more information, see [Applying administrator updates](../install/applying-administrator-updates.md#understanding-configuration-options). | 
+| `BackgroundDownloadDisabled` |`REG_DWORD` | 0 | Prevent setup from downloading updates automatically for all installed Visual Studio products. You can change the value anytime. |
+| `AdministratorUpdatesEnabled` | `REG_DWORD` | 0 | Allows administrator updates to be applied to the client computer. If this value is missing or is set to 0, administrator updates will be blocked. This value is for administrative use. For more information, see [Enabling Administrator Updates](enabling-administrator-updates.md). | 
+| `AdministratorUpdatesOptOut` | `REG_DWORD` | 0 | Indicates that the user does not want to receive administrator updates to Visual Studio. The absence of the registry value, or a set value of 0, means that the Visual Studio user wants to receive administrator updates to Visual Studio. This is for developer user (if they have admin permissions on the client machine). For more information, see [Applying administrator updates](../install/applying-administrator-updates.md#understanding-configuration-options). | 
 | `UpdateConfigurationFile` | `REG_SZ` or `REG_EXPAND_SZ` | %ProgramData%\Microsoft\VisualStudio\updates.config | The file path for configuring Administrative Updates. For more information, see [Methods for configuring an administrator update](../install/applying-administrator-updates.md#methods-for-configuring-an-administrator-update). | 
-| `BaselineStickinessVersions2019` | `REG_SZ` or `REG_EXPAND_SZ` | `ALL` or `16.4.0,16.7.0,16.9.0` | The versions authorizing updates to remain on specified servicing baselines. For more information, see [Applying administrator updates](../install/applying-administrator-updates.md#understanding-configuration-options) page. | 
+| `BaselineStickinessVersions2019` | `REG_SZ` or `REG_EXPAND_SZ` | `16.7.0` | The servicing baseline minor version that the client should remain on. For more information, see [Applying administrator updates](../install/applying-administrator-updates.md#understanding-configuration-options) page. | 
 ::: moniker-end
 
 > [!IMPORTANT]
@@ -79,5 +76,6 @@ You can set the following registry values:
 
 - [Install Visual Studio](install-visual-studio.md)
 - [Visual Studio administrator guide](visual-studio-administrator-guide.md)
+- [Applying administrator updates](applying-administrator-updates.md)
 - [Disable or move the package cache](disable-or-move-the-package-cache.md)
 - [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md)
