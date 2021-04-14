@@ -1,10 +1,10 @@
 ### YamlMime:Landing
 
-title: The Git experience in Visual Studio
-summary: Use source and version control from within Visual Studio.
+title: Version control in Visual Studio
+summary: Use source control from within Visual Studio.
 
 metadata:
-  title: The new Git experience
+  title: The Git experience
   description: Use Git and GitHub within Visual Studio.
   ms.topic: landing-page
   ms.date: 04/15/2021
@@ -13,6 +13,7 @@ metadata:
   manager: jmartens
   ms.prod: visual-studio-windows
   ms.technology: vs-general-ide
+  monikerRange: vs-2019
 
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | whats-new
 
@@ -36,10 +37,6 @@ landingContent:
         links:
           - text: Get started with Git and GitHub in Visual Studio
             url: /learn/modules/visual-studio-github-push/
-
-  # Card
-  - title: Contrast & compare
-    linkLists:
       - linkListType: how-to-guide
         links:
           - text: Compare Git and Team Explorer side-by-side
@@ -51,4 +48,6 @@ landingContent:
       - linkListType: whats-new
         links:
           - text: Enhanced productivity with Git in Visual Studio (Preview)
-            url: https://devblogs.microsoft.com/visualstudio/?p=232254&preview=1&_ppp=34f47646af
+            url: https://devblogs.microsoft.com/visualstudio/enhanced-productivity-with-git-in-visual-studio/
+          - text: Visual Studio 2019 release notes
+            url: /visualstudio/releases/2019/release-notes/
