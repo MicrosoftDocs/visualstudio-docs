@@ -16,7 +16,7 @@ sap.id: af210210-e3e1-2b2e-8d79-9bd20e851241
 
 Visual Studio Subscriptions support provides assistance with sales, subscriptions, accounts, and billing. If you have a Visual Studio IDE technical issue or question, your question needs to be directed to [Visual Studio technical support](https://visualstudio.microsoft.com/vs/support/). Before you use your limited [Visual Studio technical support incidents](https://docs.microsoft.com/visualstudio/subscriptions/vs-tech-support) that may be included with your Visual Studio subscription, we suggest trying some other online resources.
 
-For Visual Studio installation issues, see [Troubleshoot Visual Studio installation and upgrade issues](https://docs.microsoft.com/visualstudio/install/troubleshooting-installation-issues?view=vs-2019) for step-by-step guidance. You can also try [installation chat](https://visualstudio.microsoft.com/vs/support/#talktous) (English only) support option for installation-related issues.
+For Visual Studio installation issues, see [Troubleshoot Visual Studio installation and upgrade issues](https://docs.microsoft.com/visualstudio/install/troubleshooting-installation-issues) for step-by-step guidance. You can also try [installation chat](https://visualstudio.microsoft.com/vs/support/#talktous) (English only) support option for installation-related issues.
 
 
 ## Developer community | Visual Studio IDE
