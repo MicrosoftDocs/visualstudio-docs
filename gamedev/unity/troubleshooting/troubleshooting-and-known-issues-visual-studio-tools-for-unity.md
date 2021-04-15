@@ -67,7 +67,7 @@ The very important thing to know is that Visual Studio is saving the “Incompat
    - Check that the Visual Studio plugin is installed in Unity. `Help / About` should display a message like Microsoft Visual Studio Tools for Unity is enabled at the bottom.
    - Unity 2020.x+: Check that you are using the latest Visual Studio Editor package in `Window / Package Manager`.
 3. Try deleting all projects/solution files and the `.vs` folder in your project.
-4. Try recreating projects/solution using `Open C# Project` or `Edit / Preferences / External tools / Renerate Project files`.
+4. Try recreating projects/solution using `Open C# Project` or `Edit / Preferences / External tools / Regenerate Project files`.
 5. Make sure you installed the Game/Unity workload in Visual Studio.
 6. Try to clean the MEF cache as explained [here](#visual-studio-crashes).
 7. Try to re-install Visual Studio (using the Game/Unity workload only to start).
@@ -75,7 +75,7 @@ The very important thing to know is that Visual Studio is saving the “Incompat
 
 ## Extra reloads, or Visual Studio losing all open windows
 
-Be sure to never touch project files directly from an asset processor or any other tool. If you really need to manipulate the project file, we expose an API for that. Please check the [Assembly references issues section](#assembly-reference-issues).
+Be sure to never touch project files directly from an asset processor or any other tool. If you really need to manipulate the project file, we expose an API for that. Please check the [Assembly references issues section](#assembly-reference-or-project-property-issues).
 
 If you experience extra reloads or if Visual Studio is losing all open Windows on reload, make sure that you have proper .NET targeting packs installed. Check the following section about frameworks for more information.
 
