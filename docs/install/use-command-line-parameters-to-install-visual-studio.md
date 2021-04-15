@@ -30,9 +30,13 @@ The command-line options are used in conjunction with either the setup bootstrap
 
 ::: moniker range="vs-2017"
 
-To get the bootstrapper for Visual Studio 2017 version 15.9, go to the [**Visual Studio previous versions**](https://visualstudio.microsoft.com/vs/older-downloads/) page and download one of the following bootstrapper files.
+To get the bootstrapper for Visual Studio 2017 version 15.9, go to the [**Visual Studio previous versions**](https://visualstudio.microsoft.com/vs/older-downloads/) page and download one of the following bootstrapper files:
 
-
+| Edition | Filename |
+|-------------|-----------------------|
+|Visual Studio Enterprise 2017 version 15.9 | vs_enterprise.exe |
+|Visual Studio Professional 2017 version 15.9 | vs_professional.exe |
+|Visual Studio Build Tools 2017 version 15.9  | vs_buildtools.exe |
 
 ::: moniker-end
 
@@ -50,7 +54,7 @@ Start by downloading the Visual Studio 2019 bootstrapper from either the [Visual
 ::: moniker-end
 
 >[!TIP]
->If you previously downloaded a bootstrapper file and want to verify its version, here's how. In Windows, open File Explorer, right-click the bootstrapper file, choose **Properties**, choose the **Details** tab, and then view the **Product version** number. To match that number to a release of Visual Studio, see the [Visual Studio build numbers and release dates](visual-studio-build-numbers-and-release-dates.md) page.
+>If you previously downloaded a bootstrapper file and want to verify what version it is, here's how. In Windows, open File Explorer, right-click the bootstrapper file, choose **Properties**, choose the **Details** tab, and then view the **Product version** number. To match that number to a release of Visual Studio, see the [Visual Studio build numbers and release dates](visual-studio-build-numbers-and-release-dates.md) page.
 
 ## Command-line parameters
 
