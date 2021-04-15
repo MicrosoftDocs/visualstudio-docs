@@ -53,47 +53,36 @@ Start by downloading the Visual Studio 2019 bootstrapper from either the [Visual
 
 ::: moniker-end
 
->[!TIP]
->If you previously downloaded a bootstrapper file and want to verify what version it is, here's how. In Windows, open File Explorer, right-click the bootstrapper file, choose **Properties**, choose the **Details** tab, and then view the **Product version** number. To match that number to a release of Visual Studio, see the [Visual Studio build numbers and release dates](visual-studio-build-numbers-and-release-dates.md) page.
-
-## Command-line parameters
-
- Visual Studio command-line parameters are case-insensitive.
-
-> Syntax: `vs_enterprise.exe [command] <options>...`
-
-Replace `vs_enterprise.exe` as appropriate for the product edition you're installing. (Alternatively, you can use `vs_installer.exe`.)
-
->[!TIP]
-> For more examples of how to use the command line to install Visual Studio, see the [Command-line parameter examples](command-line-parameter-examples.md) page.
-
 ::: moniker range="vs-2017"
 
-| **Command** | **Description** |
-| ----------------------- | --------------- |
-| (blank) | Installs the product. |
-| `modify` | Modifies an installed product. |
-| `update` | Updates an installed product. |
-| `repair` | Repairs an installed product. |
-| `uninstall` | Uninstalls an installed product. |
-| `export` | **New in version 15.9**: Exports installation selection to an installation configuration file. **Note**: Can only be used with vs_installer.exe. |
+>[!TIP]
+>If you previously downloaded a bootstrapper file and want to verify what version it is, here's how. In Windows, open File Explorer, right-click the bootstrapper file, choose **Properties**, choose the **Details** tab, and then view the **Product version** number. To match that number to a release of Visual Studio, refer to the [Visual Studio build numbers and release dates](visual-studio-build-numbers-and-release-dates.md) page.
 
 ::: moniker-end
 
 ::: moniker range="vs-2019"
 
+>[!TIP]
+>If you previously downloaded a bootstrapper file and want to verify its version, here's how. In Windows, open File Explorer, right-click the bootstrapper file, choose **Properties**, choose the **Details** tab, and then view the **Product version** number. To match that number to a release of Visual Studio, refer to the [Visual Studio 2019 Releases](https://docs.microsoft.com/visualstudio/releases/2019/history) page.
+
+::: moniker-end
+
+## Commands and Command-line parameters
+
+When invoking the Visual Studio bootstrapper programmatically to install the product or to maintain a layout, the first parameter is the command (i.e. the verb) that describes the operation to perform. The subsequent optional command line parameters, which are all prefixed by two dashes (--), further define how that operation is supposed to happen. All Visual Studio command-line parameters are case-insensitive, and additional examples can be found on the [Command-line parameter examples](command-line-parameter-examples.md) page.
+
+> Syntax example: `vs_enterprise.exe [command] <optional parameters>...`
+
 | **Command** | **Description** |
 | ----------------------- | --------------- |
-| (blank) | Installs the product. |
+| (blank) | Installs the product.  This command is also used for all layout maintenance behaviors |
 | `modify` | Modifies an installed product. |
 | `update` | Updates an installed product. |
 | `repair` | Repairs an installed product. |
 | `uninstall` | Uninstalls an installed product. |
 | `export` | Exports installation selection to an installation configuration file. **Note**: Can only be used with vs_installer.exe. |
 
-::: moniker-end
-
-## Install options
+## Installation commands and parameters
 
 ::: moniker range="vs-2017"
 
@@ -146,7 +135,8 @@ Replace `vs_enterprise.exe` as appropriate for the product edition you're instal
 > [!IMPORTANT]
 > When specifying multiple workloads and components, you must repeat the `--add` or `--remove` command-line switch for each item.
 
-## Layout options
+## Layout management parameters
+All layout management parameters assume that the command is "Install" which is the default (blank).
 
 ::: moniker range="vs-2017"
 
@@ -215,6 +205,8 @@ Replace `vs_enterprise.exe` as appropriate for the product edition you're instal
 | `--path install=<path>` | **Optional**: Equivalent to `–-installPath`. Specifically, `--installPath "C:\VS"` and `--path install="C:\VS"` are equivalent. Only one of these commands can be used at a time. |
 
 ::: moniker-end
+
+## Administrator updates commands and parameters
 
 ## List of workload IDs and component IDs
 
