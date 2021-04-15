@@ -2,7 +2,7 @@
 title: Use command-line parameters to install Visual Studio
 titleSuffix: ''
 description: Learn how to use command-line parameters to control or customize your Visual Studio installation.
-ms.date: 10/22/2019
+ms.date: 4/15/2021
 ms.custom: seodec18
 ms.topic: conceptual
 f1_keywords:
@@ -20,27 +20,28 @@ ms.technology: vs-installation
 ---
 # Use command-line parameters to install Visual Studio
 
-When you install Visual Studio from a command prompt, you can use a variety of command-line parameters to control or customize the installation. From the command line, you can perform the following actions:
+When you install Visual Studio from a command prompt or programatically, you can use a variety of command-line parameters to control or customize the installation. From the command line, you can perform the following actions:
 
-- Start the install with certain options preselected.
+- Start the installation on the client with certain options and behaviors preselected.
 - Automate the installation process.
-- Create a cache (layout) of the installation files for later use.
+- Create an offline cache or a network layout of the installation files for later use.
 
-The command-line options are used in conjunction with the setup bootstrapper, which is the small (1 MB) file that initiates the download process. The bootstrapper is the first executable that is launched when you download from the Visual Studio site.
+The command-line options are used in conjunction with either the setup bootstrapper, which is the small (~1 MB) file that initiates the download process, or the administrator update package, which is deployed to the Microsoft Update Catalog and Windows Softare Update Services (WSUS). The bootstrapper is the first executable that is launched when you download from the Visual Studio site.
 
 ::: moniker range="vs-2017"
 
-To get a bootstrapper for Visual Studio 2017, see the [**Visual Studio previous versions**](https://visualstudio.microsoft.com/vs/older-downloads/) download page for details on how to do so.
+To get the bootstrapper for Visual Studio 2017, see the [**Visual Studio previous versions**](https://visualstudio.microsoft.com/vs/older-downloads/) download page for details on how to do so.
 
 ::: moniker-end
 
 ::: moniker range="vs-2019"
 
-Use the following links to get a direct link to the latest release bootstrapper for the product edition that you're installing:
+Start by downloading the Visual Studio 2019 bootstrapper from either the Visual Studio downloads page or the Visual Studio 2019 Releases page for your chosen version and edition of Visual Studio.  Your setup file --or bootstrapper-- will match or be similar to one of the following
 
-- [Visual Studio 2019 Enterprise](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=enterprise&rel=16&utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=link+cta&utm_content=download+commandline+parameters+vs2019+rc)
-- [Visual Studio 2019 Professional](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=professional&rel=16&utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=link+cta&utm_content=download+commandline+parameters+vs2019+rc)
-- [Visual Studio 2019 Community](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=community&rel=16&utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=link+cta&utm_content=download+commandline+parameters+vs2019+rc)
+- [Visual Studio 2019 Enterprise](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=enterprise&rel=16&utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=link+cta&utm_content=download+commandline+parameters+vs2019)
+- [Visual Studio 2019 Professional](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=professional&rel=16&utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=link+cta&utm_content=download+commandline+parameters+vs2019)
+- [Visual Studio 2019 Build Tools](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=buildtools&rel=16&utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=link+cta&utm_content=download+commandline+parameters+vs2019)
+- [Visual Studio 2019 Community](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=community&rel=16&utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=link+cta&utm_content=download+commandline+parameters+vs2019)
 
 ::: moniker-end
 
