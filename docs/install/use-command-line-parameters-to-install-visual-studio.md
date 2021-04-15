@@ -30,27 +30,24 @@ The command-line options are used in conjunction with either the setup bootstrap
 
 ::: moniker range="vs-2017"
 
-To get the bootstrapper for Visual Studio 2017, see the [**Visual Studio previous versions**](https://visualstudio.microsoft.com/vs/older-downloads/) download page for details on how to do so.
+To get the bootstrapper for Visual Studio 2017 version 15.9, go to the [**Visual Studio previous versions**](https://visualstudio.microsoft.com/vs/older-downloads/) page and download one of the following bootstrapper files.
+
+
 
 ::: moniker-end
 
 ::: moniker range="vs-2019"
 
-Start by downloading the Visual Studio 2019 bootstrapper from either the Visual Studio downloads page or the Visual Studio 2019 Releases page for your chosen version and edition of Visual Studio.  Your setup file --or bootstrapper-- will match or be similar to one of the following
+Start by downloading the Visual Studio 2019 bootstrapper from either the [Visual Studio downloads page](https://visualstudio.microsoft.com/downloads) or the [Visual Studio 2019 Releases](https://docs.microsoft.com/visualstudio/releases/2019/history#installing-an-earlier-release) page for your chosen version and edition of Visual Studio. Your setup file --or bootstrapper-- will match or be similar to one of the following:
 
-- [Visual Studio 2019 Enterprise](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=enterprise&rel=16&utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=link+cta&utm_content=download+commandline+parameters+vs2019)
-- [Visual Studio 2019 Professional](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=professional&rel=16&utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=link+cta&utm_content=download+commandline+parameters+vs2019)
-- [Visual Studio 2019 Build Tools](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=buildtools&rel=16&utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=link+cta&utm_content=download+commandline+parameters+vs2019)
-- [Visual Studio 2019 Community](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=community&rel=16&utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=link+cta&utm_content=download+commandline+parameters+vs2019)
+| Edition                    | File                                                                    |
+|----------------------------|-------------------------------------------------------------------------|
+| Visual Studio 2019 Enterprise   | [vs_enterprise.exe]((https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=enterprise&rel=16&utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=link+cta&utm_content=download+commandline+parameters+vs2019)     |
+| Visual Studio 2019 Professional | [vs_professional.exe](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=professional&rel=16&utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=link+cta&utm_content=download+commandline+parameters+vs2019) |
+| Visual Studio 2019 Build Tools   | [vs_buildtools.exe](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=buildtools&rel=16&utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=link+cta&utm_content=download+commandline+parameters+vs2019)     |
+| Visual Studio 2019 Community    | [vs_community.exe](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=community&rel=16&utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=link+cta&utm_content=download+commandline+parameters+vs2019)       |
 
 ::: moniker-end
-
-
-Your bootstrapper file should match or be similar to one of the following file names:
-
-* vs_enterprise.exe
-* vs_professional.exe
-* vs_community.exe
 
 >[!TIP]
 >If you previously downloaded a bootstrapper file and want to verify its version, here's how. In Windows, open File Explorer, right-click the bootstrapper file, choose **Properties**, choose the **Details** tab, and then view the **Product version** number. To match that number to a release of Visual Studio, see the [Visual Studio build numbers and release dates](visual-studio-build-numbers-and-release-dates.md) page.
