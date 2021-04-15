@@ -2,7 +2,7 @@
 title: "Tutorial: Extend a simple C# console app"
 description: "Learn how to develop a C# console app in Visual Studio, step-by-step."
 ms.custom: "get-started"
-ms.date: 07/09/2020
+ms.date: 04/15/2021
 ms.technology: vs-ide-general
 ms.prod: visual-studio-windows
 ms.topic: tutorial
@@ -33,7 +33,7 @@ Real-world code involves many projects working together in a solution. Now, let'
 
    ![Screenshot of Class Library project template selection](media/vs-2019/calculator2-add-project-dark.png)
 
-1. Type the project name **CalculatorLibrary**, and choose **Create**. Visual Studio creates the new project and adds it to the solution.
+1. Type the project name **CalculatorLibrary**, and choose **Create**. Again, choose .NET 3.1 when asked. Visual Studio creates the new project and adds it to the solution.
 
    ![Screenshot of Solution Explorer with CalculatorLibrary class library project added](media/vs-2019/calculator2-solution-explorer-with-class-library-dark2.png)
 
@@ -41,7 +41,7 @@ Real-world code involves many projects working together in a solution. Now, let'
 
    You might get asked if you want to rename any references to `Class1` in the file. It doesn't matter how you answer, since you'll be replacing the code in a future step.
 
-1. We now have to add a project reference, so that the first project can use APIs exposed by the new class library.  Right-click on the **References** node in the first project and choose **Add Project Reference**.
+1. We now have to add a project reference, so that the first project can use APIs exposed by the new class library.  Right-click on the **Dependencies** node in the first project and choose **Add Project Reference**.
 
    ![Screenshot of Add Project Reference menu item](media/vs-2019/calculator2-add-project-reference-dark.png)
 
@@ -95,7 +95,7 @@ Real-world code involves many projects working together in a solution. Now, let'
     }
    ```
 
-1. The first project has a reference, but you'll see an error that the Calculator.DoOperation call doesn't resolve. That's because CalculatorLibrary is in a difference namespace, so add `CalculatorLibrary` namespace for a fully qualified reference.
+1. The first project has a reference, but you'll see an error that the Calculator.DoOperation call doesn't resolve. That's because CalculatorLibrary is in a different namespace, so add `CalculatorLibrary` namespace for a fully qualified reference.
 
    ```csharp
    result = CalculatorLibrary.Calculator.DoOperation(cleanNum1, cleanNum2, op);
@@ -115,14 +115,14 @@ Real-world code involves many projects working together in a solution. Now, let'
 
 ## Reference .NET libraries: write to a log
 
-1. Suppose you now want to add a log of all the operations, and write it out to a text file. The .NET `Trace` class provides this functionality. (It's useful for basic print debugging techniques as well.)  The Trace class is in System.Diagnostics, and we'll need System.IO classes like `StreamWriter`, so start by adding the using directives:
+1. Suppose you now want to add a log of all the operations, and write it out to a text file. The .NET `Trace` class provides this functionality. (It's useful for basic print debugging techniques as well.)  The Trace class is in System.Diagnostics, and we'll need System.IO classes like `StreamWriter`, so start by adding the using directives at the top of CalculatorLibrary.cs:
 
    ```csharp
    using System.IO;
    using System.Diagnostics;
    ```
 
-1. Looking at how the Trace class is used, you need to hold onto a reference for the class, which is associated with a filestream. That means, the calculator would work better as an object, so let's add a constructor.
+1. Looking at how the Trace class is used, you need to hold onto a reference for the class, which is associated with a filestream. That means, the calculator would work better as an object, so let's add a constructor at the beginning of the Calculator class in CalculatorLibrary.cs.
 
    ```csharp
    public Calculator()
@@ -138,7 +138,7 @@ Real-world code involves many projects working together in a solution. Now, let'
         {
    ```
 
-1. And we need to change the static `DoOperation` method into a member method.  Let's also add output to each calculation for the log, so that DoOperation looks like the following code:
+1. And we need to change the static `DoOperation` method into a member method, so remove the `static` keyword.  Let's also add output to each calculation for the log, so that DoOperation looks like the following code:
 
    ```csharp
    public double DoOperation(double num1, double num2, string op)
@@ -176,13 +176,13 @@ Real-world code involves many projects working together in a solution. Now, let'
     }
    ```
 
-1. Now back in Program.cs, the static call is flagged with a red squiggly. To fix it, create a `calculator` variable by adding the following line just before the while loop:
+1. Now back in Program.cs, the static call is flagged with a red squiggly. To fix it, create a `calculator` variable by adding the following line just before the `while (!endApp)` loop:
 
    ```csharp
    Calculator calculator = new Calculator();
    ```
 
-   And modify the call site for `DoOperation` as follows:
+   And modify the call site for `DoOperation` as follows, so that this references the object named `calculator` in lowercase, thereby making this a member invocation, rather than a call to a static method:
 
    ```csharp
    result = calculator.DoOperation(cleanNum1, cleanNum2, op);
