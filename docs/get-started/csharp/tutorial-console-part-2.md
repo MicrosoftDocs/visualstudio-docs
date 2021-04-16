@@ -573,19 +573,9 @@ The Visual Studio debugger is a powerful tool that allows you to run your code s
 
 1. Close the app properly by using the 'n' command.
 
-## Next steps
-
-Congratulations on completing this tutorial! To learn even more, continue with the following tutorials.
-
-> [!div class="nextstepaction"]
-> [Continue with more C# tutorials](/dotnet/csharp/tutorials/)
-
-> [!div class="nextstepaction"]
-> [Continue with Visual Studio IDE overview](/../visual-studio-ide.md)
-
 ## Code complete
 
-Here's the complete code for the CalculatorLibrary.cs file, after all the steps have been completed:
+Here's the complete code for the *CalculatorLibrary.cs* file, after all the steps have been completed:
 
 ```csharp
 using System;
@@ -664,7 +654,7 @@ namespace CalculatorLibrary
 }
 ```
 
-And here's the code for Program.cs: 
+And here's the code for *Program.cs*: 
 
 ```csharp
 using System;
@@ -751,7 +741,17 @@ namespace CalculatorProgram
 }
 ```
 
+## Next steps
+
+Congratulations on completing this tutorial! To learn even more, continue with the following tutorials.
+
+> [!div class="nextstepaction"]
+> [Continue with more C# tutorials](/dotnet/csharp/tutorials/)
+
+> [!div class="nextstepaction"]
+> [Continue with Visual Studio IDE overview](/../visual-studio-ide.md)
+
 ## See also
 
-* [C# IntelliSense](../../ide/visual-csharp-intellisense.md)
-* [Learn to debug C# code in Visual Studio](tutorial-debugger.md)
+- [C# IntelliSense](../../ide/visual-csharp-intellisense.md)
+- [Learn to debug C# code in Visual Studio](tutorial-debugger.md)
