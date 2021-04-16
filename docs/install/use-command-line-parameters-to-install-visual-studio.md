@@ -67,7 +67,7 @@ You can get the Visual Studio 2019 bootstrapper from either the [Visual Studio d
 
 ::: moniker-end
 
-You can get the administrator update by going to the [Microsoft Update Catalog](https://catalog.update.microsoft.com), search for the update you want to install, and press the Download button. 
+You can get the administrator update by going to the [Microsoft Update Catalog](https://catalog.update.microsoft.com), search for the update you want to install, and press the Download button. Administrator updates presumes that Visual Studio is already installed on the computer. Applying administrator updates will not initiate a brand new installation.
 
 ## Bootstrapper commands and command-line parameters
 
@@ -117,7 +117,7 @@ All layout management parameters assume that the command is "Install" which is t
 
 ::: moniker range="vs-2017"
 
-| **Layout options** | **Description** |
+| **Layout parameters** | **Description** |
 | ----------------------- | --------------- |
 | `--layout <dir>` | Specifies a directory to create an offline install cache. For more information, see [Create a network-based installation of Visual Studio](create-a-network-installation-of-visual-studio.md).|
 | `--lang <one or more language-locales>` | **Optional**: Used with `--layout` to prepare an offline install cache with resource packages with the specified language(s). For more information, see the [List of language locales](#list-of-language-locales) section on this page.|
@@ -175,7 +175,7 @@ All layout management parameters assume that the command is "Install" which is t
 | `--cache` | **Optional**: If present, packages will be kept after being installed for subsequent repairs. This overrides the global policy setting to be used for subsequent installs, repairs, or modifications. The default policy is to cache packages. This is ignored for the uninstall command. Read how to [disable or move the package cache](disable-or-move-the-package-cache.md) for more information. |
 | `--nocache` | **Optional**: If present, packages will be deleted after being installed or repaired. They'll be downloaded again only if needed and deleted again after use. This overrides the global policy setting to be used for subsequent installs, repairs, or modifications. The default policy is to cache packages. This is ignored for the uninstall command. Read how to [disable or move the package cache](disable-or-move-the-package-cache.md) for more information. |
 | `--noUpdateInstaller` | **Optional**: If present, prevents the installer from updating itself when quiet is specified. The installer will fail the command and return a non-zero exit code if noUpdateInstaller is specified with quiet when an installer update is required. |
-| `--noWeb` | **Optional**: If present, Visual Studio setup uses the files in your layout directory to install Visual Studio. If a user tries to install components that aren't in the layout, setup fails.  For more information, see [Deploying from a network installation](create-a-network-installation-of-visual-studio.md). <br/><br/> **Important**: This switch doesn't stop Visual Studio setup from checking for updates. For more information, see [Control updates to network-based Visual Studio deployments](controlling-updates-to-visual-studio-deployments.md). **New in 16.3.5**: This switch prevents errors and improves performance with offline installs and updates.|
+| `--noWeb` | **Optional**: If present, Visual Studio setup uses the files in your layout directory to install Visual Studio. If a user tries to install components that aren't in the layout, setup fails.  For more information, see [Deploying from a network installation](create-a-network-installation-of-visual-studio.md). <br/><br/> **Important**: This switch doesn't stop Visual Studio setup from checking for updates. For more information, see [Control updates to network-based Visual Studio deployments](controlling-updates-to-visual-studio-deployments.md). |
 | `--path <name>=<path>` | **Optional**: Used to specify custom install paths for the installation. Supported path names are shared, cache, and install. |
 | `--path cache=<path>` | **Optional**: Uses the location you specify to download installation files. This location can only be set the first time that Visual Studio is installed. Example: `--path cache="C:\VS\cache"` |
 | `--path shared=<path>` | **Optional**: Contains shared files for side-by-side Visual Studio installations. Some tools and SDKs install to a location on this drive, while some others might override this setting and install to another drive. Example: `--path shared="C:\VS\shared"` <br><br>Important: This can be set only once and on the first time that Visual Studio is installed. |
@@ -183,7 +183,26 @@ All layout management parameters assume that the command is "Install" which is t
 
 ::: moniker-end
 
-## Administrator updates commands and parameters
+## Administrator update parameters
+If you download an administrator update from the [Microsoft Update Catalog](https://catalog.update.microsoft.com) into your installation directory on your client machine, you can just double click on the file to apply the update. You can also open a command window and pass some of the parameters below to change the default behavior. 
+
+If you are deploying the administrator update through Microsoft Endpoint Manager (SCCM), you can modify the package to adjust the behavior by using the parameters below. You can also control the parameters via a configuration file on the client machine. For more information, refer to [Methods for configuring an administrator update](../install/applying-administrator-updates.md#methods-for-configuring-an-administrator-update)
+
+Note that all administrator update parameters are run in the "update" context.
+
+| **Administrator update parameters** | **Description** |
+| ----------------------- | --------------- |
+| `--installerUpdateArgs [optional parameters]` | This parameter is a pass through array of specific parameters that are relevant to administrator update scenarios. Optional bootstrapper parameters include: |
+| |`--quiet` : This is the default experience for administrator updates |
+| |`--passive`: This parameter overrides the `--quiet` parameter.  It causes the UI to appear in a non-interactive manner. |
+| |`--norestart` This parameter must be used in conjuncetion with either `--quiet` or `--passive` and it causes any necessary reboots to be delayed. |
+| |`--noWeb`: This parameter prevents Visual Studio from checking on the internet for updates to the product. |
+| |`--force`: This parameter forces Visual Studio to close, even if Visual Studio is in use. Use this parameter with caution, as it may cause loss owr work. This parameter must be used in user context. |
+| |`--installWhileDownloading`: This parameter allows Visual Studio to both download and install the product in parallel. It's the default experience for administrator updates. |
+| |`--downloadThenInstall`: This parameter forces Visual Studio to download all files before installing them. It is mutually exclusive from the `--installWhileDownloading` parameter. |
+| `--checkPendingReboot` | The update will be aborted if there is a pending reboot on the machine, regardless of which application may have caused it. The default is to not check for pending reboots. |
+
+> Syntax example: `visualstudioupdate-16.9.0to16.9.4.exe --installerUpdateArgs [--force, --noWeb], --checkPendingReboot`
 
 ## List of workload IDs and component IDs
 
