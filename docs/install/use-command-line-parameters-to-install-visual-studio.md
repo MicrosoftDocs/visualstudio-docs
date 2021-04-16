@@ -20,13 +20,13 @@ ms.technology: vs-installation
 ---
 # Use command-line parameters to install Visual Studio
 
-When you install Visual Studio from a command prompt or programatically, you can use a variety of command-line parameters to control or customize the installation. From the command line, you can perform the following actions:
+When you install Visual Studio programmatically or from a command prompt, you can use a variety of command-line parameters to control or customize the installation to perform the following actions:
 
 - Start the installation on the client with certain options and behaviors preselected.
 - Automate the installation process.
-- Create an offline cache or a network layout of the installation files for later use.
+- Create or maintain a network layout of the product files for installing or updating client machines.
 
-The command-line options are used in conjunction with either the setup bootstrapper, which is the small (~1 MB) file that initiates the download process, or the administrator update package, which is deployed to the Microsoft Update Catalog and Windows Softare Update Services (WSUS). The bootstrapper is the first executable that is launched when you download from the Visual Studio site.
+The command-line options are used in conjunction with either the setup bootstrapper, which is the small (~1 MB) file that initiates the download process, or the administrator update package, which is deployed to the Microsoft Update Catalog and Windows Softare Update Services (WSUS). 
 
 ::: moniker range="vs-2017"
 
@@ -42,7 +42,7 @@ To get the bootstrapper for Visual Studio 2017 version 15.9, go to the [**Visual
 
 ::: moniker range="vs-2019"
 
-Start by downloading the Visual Studio 2019 bootstrapper from either the [Visual Studio downloads page](https://visualstudio.microsoft.com/downloads) or the [Visual Studio 2019 Releases](https://docs.microsoft.com/visualstudio/releases/2019/history#installing-an-earlier-release) page for your chosen version and edition of Visual Studio. Your setup file --or bootstrapper-- will match or be similar to one of the following:
+You can get the Visual Studio 2019 bootstrapper from either the [Visual Studio downloads page](https://visualstudio.microsoft.com/downloads) or the [Visual Studio 2019 Releases](https://docs.microsoft.com/visualstudio/releases/2019/history#installing-an-earlier-release) page for your chosen version and edition of Visual Studio. Your setup file --or bootstrapper-- will match or be similar to one of the following:
 
 | Edition                    | File                                                                    |
 |----------------------------|-------------------------------------------------------------------------|
@@ -67,7 +67,9 @@ Start by downloading the Visual Studio 2019 bootstrapper from either the [Visual
 
 ::: moniker-end
 
-## Commands and Command-line parameters
+You can get the administrator update by going to the [Microsoft Update Catalog](https://catalog.update.microsoft.com), search for the update you want to install, and press the Download button. 
+
+## Bootstrapper commands and command-line parameters
 
 When invoking the Visual Studio bootstrapper programmatically to install the product or to maintain a layout, the first parameter is the command (i.e. the verb) that describes the operation to perform. The subsequent optional command line parameters, which are all prefixed by two dashes (--), further define how that operation is supposed to happen. All Visual Studio command-line parameters are case-insensitive, and additional examples can be found on the [Command-line parameter examples](command-line-parameter-examples.md) page.
 
@@ -75,7 +77,7 @@ When invoking the Visual Studio bootstrapper programmatically to install the pro
 
 | **Command** | **Description** |
 | ----------------------- | --------------- |
-| (blank) | Installs the product.  This command is also used for all layout maintenance behaviors |
+| (blank) | The default command both installs the product, and is used for all layout maintenance operations. |
 | `modify` | Modifies an installed product. |
 | `update` | Updates an installed product. |
 | `repair` | Repairs an installed product. |
@@ -84,56 +86,32 @@ When invoking the Visual Studio bootstrapper programmatically to install the pro
 
 ## Installation commands and parameters
 
-::: moniker range="vs-2017"
-
 | **Install option** | **Description** |
 | ----------------------- | --------------- |
-| `--installPath <dir>` | The installation directory for the instance to act upon. For the install command, this is **Optional** and is where the instance will be installed. For other commands, this is **Required** and is where the previously installed instance was installed. |
-| `--addProductLang <language-locale>` | **Optional**: During an install or modify operation, this determines the UI language packs that are installed to the product. It can appear multiple times on the command line to add multiple language packs. If not present, the installation uses the machine locale. For more information, see the [List of language locales](#list-of-language-locales) section on this page.|
-| `--removeProductLang <language-locale>` | **Optional**: During an install or modify operation, this determines the UI language packs that are to be removed from the product. It can appear multiple times on the command line to add multiple language packs. For more information, see the [List of language locales](#list-of-language-locales) section on this page.|
-| `--add <one or more workload or component IDs>` | **Optional**: One or more workload or component IDs to add. The required components of the artifact are installed, but not the recommended or optional components. You can control additional components globally using `--includeRecommended` and/or `--includeOptional`. To include multiple workloads or components, repeat the `--add` command (for example, `--add Workload1 --add Workload2`). For finer-grained control, you can append `;includeRecommended` or `;includeOptional` to the ID (for example, `--add Workload1;includeRecommended` or `--add Workload2;includeRecommended;includeOptional`). For more information, see the [Workload and component IDs](workload-and-component-ids.md) page. You can repeat this option as necessary.|
-| `--remove <one or more workload or component IDs>` | **Optional**: One or more workload or component IDs to remove. For more information, see our [Workload and component IDs](workload-and-component-ids.md) page. You can repeat this option as necessary.|
-| `--in <path>` | **Optional**: The URI or path to a response file.  |
-| `--all` | **Optional**: Whether to install all workloads and components for a product. |
-| `--allWorkloads` | **Optional**: Installs all workloads and components, no recommended or optional components. |
-| `--includeRecommended` | **Optional**: Includes the recommended components for any workloads that are installed, but not the optional components. The workloads are specified either with `--allWorkloads` or `--add`. |
-| `--includeOptional` | **Optional**: Includes the optional components for any workloads that are installed, but not the recommended components. The workloads are specified either with `--allWorkloads` or `--add`.  |
-| `--quiet, -q` | **Optional**: Don't display any user interface while performing the installation. |
-| `--passive, -p` | **Optional**: Display the user interface, but don't request any interaction from the user. |
-| `--norestart` | **Optional**: If present, commands with `--passive` or `--quiet` won't automatically restart the machine (if necessary).  This is ignored if neither `--passive` nor `--quiet` are specified.  |
-| `--nickname <name>` | **Optional**: This defines the nickname to assign to an installed product. The nickname can't be longer than 10 characters.  |
-| `--productKey` | **Optional**: This defines the product key to use for an installed product. It's composed of 25 alphanumeric characters either in the format `xxxxx-xxxxx-xxxxx-xxxxx-xxxxx` or `xxxxxxxxxxxxxxxxxxxxxxxxx`. |
-| `--help, --?, -h, -?` | Display an offline version of this page. |
-| `--config <path>` | **Optional** and **New in 15.9**: During an install or modify operation, this determines the workloads and components to add based on a previously saved installation configuration file. This operation is additive and it won't remove any workload or component if they aren't present in the file. Also, items that don't apply to the product won't be added. During an export operation, this determines the location to save the installation configuration file. |
-
-::: moniker-end
-
-::: moniker range="vs-2019"
-
-| **Install option** | **Description** |
-| ----------------------- | --------------- |
-| `--installPath <dir>` | The installation directory for the instance to act upon. For the install command, this is **Optional** and is where the instance will be installed. For other commands, this is **Required** and is where the previously installed instance was installed. |
-| `--addProductLang <language-locale>` | **Optional**: During an install or modify operation, this determines the UI language packs that are installed to the product. It can appear multiple times on the command line to add multiple language packs. If not present, the installation uses the machine locale. For more information, see the [List of language locales](#list-of-language-locales) section on this page.|
-| `--removeProductLang <language-locale>` | **Optional**: During an install or modify operation, this determines the UI language packs that are to be removed from the product. It can appear multiple times on the command line to add multiple language packs. For more information, see the [List of language locales](#list-of-language-locales) section on this page.|
-| `--add <one or more workload or component IDs>` | **Optional**: One or more workload or component IDs to add. The required components of the artifact are installed, but not the recommended or optional components. You can control additional components globally using `--includeRecommended` and/or `--includeOptional`. To include multiple workloads or components, repeat the `--add` command (for example, `--add Workload1 --add Workload2`). For finer-grained control, you can append `;includeRecommended` or `;includeOptional` to the ID (for example, `--add Workload1;includeRecommended` or `--add Workload2;includeRecommended;includeOptional`). For more information, see the [Workload and component IDs](workload-and-component-ids.md) page. You can repeat this option as necessary.|
-| `--remove <one or more workload or component IDs>` | **Optional**: One or more workload or component IDs to remove. For more information, see our [Workload and component IDs](workload-and-component-ids.md) page. You can repeat this option as necessary.|
-| `--in <path>` | **Optional**: The URI or path to a response file.  |
-| `--all` | **Optional**: Whether to install all workloads and components for a product. |
-| `--allWorkloads` | **Optional**: Installs all workloads and components, no recommended or optional components. |
-| `--includeRecommended` | **Optional**: Includes the recommended components for any workloads that are installed, but not the optional components. The workloads are specified either with `--allWorkloads` or `--add`. |
-| `--includeOptional` | **Optional**: Includes the optional components for any workloads that are installed, but not the recommended components. The workloads are specified either with `--allWorkloads` or `--add`.  |
-| `--quiet, -q` | **Optional**: Don't display any user interface while performing the installation. |
-| `--passive, -p` | **Optional**: Display the user interface, but don't request any interaction from the user. |
-| `--norestart` | **Optional**: If present, commands with `--passive` or `--quiet` won't automatically restart the machine (if necessary).  This is ignored if neither `--passive` nor `--quiet` are specified.  |
-| `--nickname <name>` | **Optional**: This defines the nickname to assign to an installed product. The nickname can't be longer than 10 characters.  |
-| `--productKey` | **Optional**: This defines the product key to use for an installed product. It's composed of 25 alphanumeric characters either in the format `xxxxx-xxxxx-xxxxx-xxxxx-xxxxx` or `xxxxxxxxxxxxxxxxxxxxxxxxx`. |
-| `--help, --?, -h, -?` | Display an offline version of this page. |
+| `--installPath <dir>` | The installation directory for the instance to act upon. For the default install command, this parameter is **Optional** and is where the instance will be installed. For other commands like update or modify, this is **Required** and is where the previously installed instance was installed. |
+| `--add <one or more workload or component IDs>` | **Optional**: During an install or modify command, this repeatable parameter specifies one or more workload or component IDs to add. The required components of the artifact are installed, but not the recommended or optional components. You can control additional components globally using `--includeRecommended` and/or `--includeOptional` parameters. To include multiple workloads or components, repeat the `--add` command (for example, `--add Workload1 --add Workload2`). For finer-grained control, you can append `;includeRecommended` or `;includeOptional` to the ID (for example, `--add Workload1;includeRecommended` or `--add Workload2;includeRecommended;includeOptional`). For more information, see the [Workload and component IDs](workload-and-component-ids.md) page. |
+| `--remove <one or more workload or component IDs>` | **Optional**: During a modify command, this repeatable parameter specifies one or more workload or component IDs to remove. For more information, see our [Workload and component IDs](workload-and-component-ids.md) page. You can repeat this option as necessary.|
+| `--addProductLang <language-locale>` | **Optional**: During an install or modify command, this repeatable parameter determines the UI language packs that are installed with the product. If not present, the installation uses the language pack that corresponds to the machine locale. For more information, see the [List of language locales](#list-of-language-locales) section on this page.|
+| `--removeProductLang <language-locale>` | **Optional**: During an install or modify command, this repeatable parameter determines the UI language packs that are to be removed from the product. |
+| `--in <path>` | **Optional**: The URI or path to a [response file](automated-installation-with-response-file.md). |
+| `--all` | **Optional**: During an install or modify command, this parameter causes all workloads and components for the product to be installed. |
+| `--allWorkloads` | **Optional**: During an install or modify command, this parameter installs all workloads and components, but no recommended or optional components. |
+| `--includeRecommended` | **Optional**: During an install or modify command, this parameter includes the recommended components for any workloads that are installed, but not the optional components. The workloads are specified either with `--allWorkloads` or `--add`. |
+| `--includeOptional` | **Optional**: During an install or modify command, this parameter includes the optional components for any workloads that are installed, but not the recommended components. The workloads are specified either with `--allWorkloads` or `--add`.  |
+| `--quiet, -q` | **Optional**: Don't display any user interface while performing the command. |
+| `--passive, -p` | **Optional**: Display the user interface, but don't request any interaction from the user. This parameter is mutually exclusive from (and in fact overrides) the `--quiet` parameter.  |
+| `--norestart` | **Optional**: This parameter must be paired with either the `--passive` or `--quiet` parameters.  During an install, update, or modify command, adding the `--norestart` parameter will cause the machine to not automatically restart. |
+| `--force` | **Optional**: This parameter forces Visual Studio to close even if any Visual Studio process is in use. |
+| `--installWhileDownloading` | **Optional**: During an install, update, or modify command, this parameter allows downloading and installing to happen in parallel. It's the default experience. |
+| `--downloadThenInstall` | **Optional**: During an install, update, or modify command, this parameter forces Visual Studio download all files before installing them.  It is mutually exclusive from the `--installWhileDownloading` parameter. |
+| `--nickname <name>` | **Optional**: During an install command, this parameter defines the nickname to assign to an installed product. The nickname can't be longer than 10 characters.  |
+| `--productKey` | **Optional**: During an install command, this parameter defines the product key to use for an installed product. It's composed of 25 alphanumeric characters either in the format `xxxxx-xxxxx-xxxxx-xxxxx-xxxxx` or `xxxxxxxxxxxxxxxxxxxxxxxxx`. |
+| `--help, --?, -h, -?` | Displays an offline version of this page. |
 | `--config <path>` | **Optional**: During an install or modify operation, this determines the workloads and components to add based on a previously saved installation configuration file. This operation is additive and it won't remove any workload or component if they aren't present in the file. Also, items that don't apply to the product won't be added. During an export operation, this determines the location to save the installation configuration file. |
 
-::: moniker-end
 
 > [!IMPORTANT]
-> When specifying multiple workloads and components, you must repeat the `--add` or `--remove` command-line switch for each item.
+> When specifying multiple distinct workloads or components or languages, you must repeat the `--add` or `--remove` command-line switch for each item.
 
 ## Layout management parameters
 All layout management parameters assume that the command is "Install" which is the default (blank).
