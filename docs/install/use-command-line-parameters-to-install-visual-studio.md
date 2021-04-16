@@ -113,7 +113,7 @@ When invoking the Visual Studio bootstrapper programmatically to install the pro
 > When specifying multiple distinct workloads or components or languages, you must repeat the `--add` or `--remove` command-line switch for each item.
 
 ## Layout command and command-line parameters
-All layout management operations assume that the command is Install which is the default. To create or update a layout using the command line, first acquire the correct boostrapper, copy it into the layout directory, and then use the following parameters:
+All layout management operations assume that the command is the default Install which is (blank). So, all layout management operations should start with the initial required `--layout` parameter.  The table below describes the other parameters you can use to create or update a layout using the command line.
 
 | **Layout parameters** | **Description** |
 | ----------------------- | --------------- |
