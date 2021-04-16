@@ -112,10 +112,10 @@ When invoking the Visual Studio bootstrapper programmatically to install the pro
 > [!IMPORTANT]
 > When specifying multiple distinct workloads or components or languages, you must repeat the `--add` or `--remove` command-line switch for each item.
 
-## Layout management parameters
+## Layout command and command-line parameters
 All layout management operations assume that the command is Install which is the default. To create or update a layout using the command line, first acquire the correct boostrapper, copy it into the layout directory, and then use the following parameters:
 
-| **Layout options** | **Description** |
+| **Layout parameters** | **Description** |
 | ----------------------- | --------------- |
 | `--layout <dir>` | Specifies a directory to create or update an offline install cache. For more information, see [Create a network-based installation of Visual Studio](create-a-network-installation-of-visual-studio.md).|
 | `--lang <one or more language-locales>` | **Optional**: Used with `--layout` to prepare an offline install cache with resource packages with the specified language(s). For more information, see the [List of language locales](#list-of-language-locales) section on this page.|
@@ -145,7 +145,7 @@ All layout management operations assume that the command is Install which is the
 | `--path shared=<path>` | **Optional**: Contains shared files for side-by-side Visual Studio installations. Some tools and SDKs install to a location on this drive, while some others might override this setting and install to another drive. Example: `--path shared="C:\VS\shared"` <br\><br\>**Important**: This can be set only once and on the first time that Visual Studio is installed. |
 | `--path install=<path>` | **Optional**: Equivalent to `–-installPath`. Specifically, `--installPath "C:\VS"` and `--path install="C:\VS"` are equivalent. Only one of these commands can be used at a time. |
 
-## Administrator update parameters
+## Administrator update command and command-line parameters
 If you download an administrator update from the [Microsoft Update Catalog](https://catalog.update.microsoft.com) into your installation directory on your client machine, you can just double click on the file to apply the update. You can also open a command window and pass some of the parameters below to change the default behavior. 
 
 If you are deploying the administrator update through Microsoft Endpoint Manager (SCCM), you can modify the package to adjust the behavior by using the parameters below. You can also control the parameters via a configuration file on the client machine. For more information, refer to [Methods for configuring an administrator update](../install/applying-administrator-updates.md#methods-for-configuring-an-administrator-update)
