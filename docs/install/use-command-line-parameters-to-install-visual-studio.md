@@ -192,7 +192,7 @@ Note that all administrator update parameters are run in the "update" context.
 
 | **Administrator update parameters** | **Description** |
 | ----------------------- | --------------- |
-| `--installerUpdateArgs [optional parameters]` | This parameter is a pass through array of specific parameters that are relevant to administrator update scenarios. Optional bootstrapper parameters include: |
+| `--installerUpdateArgs [optional parameters]` | This parameter functions as a "pass-through array" of specific parameters that are relevant to administrator update scenarios. Optional parameters that are enabled for this purpose are: |
 | |`--quiet` : This is the default experience for administrator updates |
 | |`--passive`: This parameter overrides the `--quiet` parameter.  It causes the UI to appear in a non-interactive manner. |
 | |`--norestart` This parameter must be used in conjuncetion with either `--quiet` or `--passive` and it causes any necessary reboots to be delayed. |
