@@ -113,47 +113,11 @@ When invoking the Visual Studio bootstrapper programmatically to install the pro
 > When specifying multiple distinct workloads or components or languages, you must repeat the `--add` or `--remove` command-line switch for each item.
 
 ## Layout management parameters
-All layout management parameters assume that the command is "Install" which is the default (blank).
-
-::: moniker range="vs-2017"
-
-| **Layout parameters** | **Description** |
-| ----------------------- | --------------- |
-| `--layout <dir>` | Specifies a directory to create an offline install cache. For more information, see [Create a network-based installation of Visual Studio](create-a-network-installation-of-visual-studio.md).|
-| `--lang <one or more language-locales>` | **Optional**: Used with `--layout` to prepare an offline install cache with resource packages with the specified language(s). For more information, see the [List of language locales](#list-of-language-locales) section on this page.|
-| `--add <one or more workload or component IDs>` | **Optional**: One or more workload or component IDs to add. The required components of the artifact are installed, but not the recommended or optional components. You can control additional components globally using `--includeRecommended` and/or `--includeOptional`. For finer-grained control, you can append `;includeRecommended` or `;includeOptional` to the ID (for example, `--add Workload1;includeRecommended` or `--add Workload2;includeOptional`). For more information, see the [Workload and component IDs](workload-and-component-ids.md) page. <br/>**Note**: If `--add` is used, only the specified workloads and components and their dependencies are downloaded. If `--add` isn't specified, all workloads and components are downloaded to the layout.|
-| `--includeRecommended` | **Optional**: Includes the recommended components for any workloads that are installed, but not the optional components. The workloads are specified either with `--allWorkloads` or `--add`. |
-| `--includeOptional` | **Optional**: Includes the recommended *and* optional components for any workloads being included in the layout. The workloads are specified with `--add`.  |
-| `--keepLayoutVersion` | **New in 15.3, optional**: Apply changes to the layout without updating the version of the layout. |
-| `--verify` | **New in 15.3, optional**: Verify the contents of a layout. Any corrupt or missing files are listed. |
-| `--fix` | **New in 15.3, optional**: Verify the contents of a layout. If any files are corrupt or missing, they're redownloaded. Internet access is required to fix a layout. |
-| `--clean <one or more paths to catalogs>` | **New in 15.3, optional**: Removes old versions of components from a layout that has been updated to a newer version. |
-
-| **Advanced install options** | **Description** |
-| ----------------------- | --------------- |
-| `--channelId <id>` | **Optional**: The ID of the channel for the instance to be installed. This is required for the install command, and ignored for other commands if `--installPath` is specified. |
-| `--channelUri <uri>` | **Optional**: The URI of the channel manifest. If updates aren't wanted, `--channelUri` can point to a non-existent file (for example, --channelUri C:\doesntExist.chman). This can be used for the install command; it's ignored for other commands. |
-| `--installChannelUri <uri>` | **Optional**: The URI of the channel manifest to use for the installation. The URI specified by `--channelUri` (which must be specified when `--installChannelUri` is specified) is used to detect updates. This can be used for the install command; it's ignored for other commands. |
-| `--installCatalogUri <uri>` | **Optional**: The URI of the catalog manifest to use for the installation. If specified, the channel manager attempts to download the catalog manifest from this URI before using the URI in the install channel manifest. This parameter is used to support offline install, where the layout cache will be created with the product catalog already downloaded. This can be used for the install command; it's ignored for other commands. |
-| `--productId <id>` | **Optional** The ID of the product for the instance that will be installed. This is pre-populated in normal installation conditions. |
-| `--wait` | **Optional**: The process will wait until the install is completed before returning an exit code. This is useful when automating installations where one needs to wait for the install to finish to handle the return code from that install. |
-| `--locale <language-locale>` | **Optional**: Change the display language of the user interface for the installer itself. Setting will be persisted. For more information, see the [List of language locales](#list-of-language-locales) section on this page.|
-| `--cache` | **New in 15.2, optional**: If present, packages will be kept after being installed for subsequent repairs. This overrides the global policy setting to be used for subsequent installs, repairs, or modifications. The default policy is to cache packages. This is ignored for the uninstall command. Read how to [disable or move the package cache](disable-or-move-the-package-cache.md) for more information. |
-| `--nocache` | **New in 15.2, optional**: If present, packages will be deleted after being installed or repaired. They'll be downloaded again only if needed and deleted again after use. This overrides the global policy setting to be used for subsequent installs, repairs, or modifications. The default policy is to cache packages. This is ignored for the uninstall command. Read how to [disable or move the package cache](disable-or-move-the-package-cache.md) for more information. |
-| `--noUpdateInstaller` | **New in 15.2, optional**: If present, prevents the installer from updating itself when quiet is specified. The installer will fail the command and return a non-zero exit code if noUpdateInstaller is specified with quiet when an installer update is required. |
-| `--noWeb` | **New in 15.3, optional**: If present, Visual Studio setup uses the files in your layout directory to install Visual Studio. If a user tries to install components that aren't in the layout, setup fails.  For more information, see [Deploying from a network installation](create-a-network-installation-of-visual-studio.md). <br/><br/> **Important**: This switch doesn't stop Visual Studio setup from checking for updates. For more information, see [Control updates to network-based Visual Studio deployments](controlling-updates-to-visual-studio-deployments.md). |
-| `--path <name>=<path>` | **New in 15.7, optional**: Used to specify custom install paths for the installation. Supported path names are shared, cache, and install. |
-| `--path cache=<path>` | **New in 15.7, optional**: Uses the location you specify to download installation files. This location can only be set the first time that Visual Studio is installed. Example: `--path cache="C:\VS\cache"` |
-| `--path shared=<path>` | **New in 15.7, optional**: Contains shared files for side-by-side Visual Studio installations. Some tools and SDKs install to a location on this drive, while some others might override this setting and install to another drive. Example: `--path shared="C:\VS\shared"` <br><br>Important: This can be set only once and on the first time that Visual Studio is installed. |
-| `--path install=<path>` | **New in 15.7, optional**: Equivalent to `–-installPath`. Specifically, `--installPath "C:\VS"` and `--path install="C:\VS"` are equivalent. Only one of these commands can be used at a time. |
-
-::: moniker-end
-
-::: moniker range="vs-2019"
+All layout management operations assume that the command is Install which is the default. To create or update a layout using the command line, first acquire the correct boostrapper, copy it into the layout directory, and then use the following parameters:
 
 | **Layout options** | **Description** |
 | ----------------------- | --------------- |
-| `--layout <dir>` | Specifies a directory to create an offline install cache. For more information, see [Create a network-based installation of Visual Studio](create-a-network-installation-of-visual-studio.md).|
+| `--layout <dir>` | Specifies a directory to create or update an offline install cache. For more information, see [Create a network-based installation of Visual Studio](create-a-network-installation-of-visual-studio.md).|
 | `--lang <one or more language-locales>` | **Optional**: Used with `--layout` to prepare an offline install cache with resource packages with the specified language(s). For more information, see the [List of language locales](#list-of-language-locales) section on this page.|
 | `--add <one or more workload or component IDs>` | **Optional**: One or more workload or component IDs to add. The required components of the artifact are installed, but not the recommended or optional components. You can control additional components globally using `--includeRecommended` and/or `--includeOptional`. For finer-grained control, you can append `;includeRecommended` or `;includeOptional` to the ID (for example, `--add Workload1;includeRecommended` or `--add Workload2;includeOptional`). For more information, see the [Workload and component IDs](workload-and-component-ids.md) page. <br/>**Note**: If `--add` is used, only the specified workloads and components and their dependencies are downloaded. If `--add` isn't specified, all workloads and components are downloaded to the layout.|
 | `--includeRecommended` | **Optional**: Includes the recommended components for any workloads that are installed, but not the optional components. The workloads are specified either with `--allWorkloads` or `--add`. |
@@ -163,7 +127,7 @@ All layout management parameters assume that the command is "Install" which is t
 | `--fix` | **Optional**: Verify the contents of a layout.  If any files are corrupt or missing, they're redownloaded. Internet access is required to fix a layout. |
 | `--clean <one or more paths to catalogs>` | **Optional**: Removes old versions of components from a layout that has been updated to a newer version. |
 
-| **Advanced install options** | **Description** |
+| **Advanced layout parameters** | **Description** |
 | ----------------------- | --------------- |
 | `--channelId <id>` | **Optional**: The ID of the channel for the instance to be installed. This is required for the install command, and ignored for other commands if `--installPath` is specified. |
 | `--channelUri <uri>` | **Optional**: The URI of the channel manifest. If updates aren't wanted, `--channelUri` can point to a non-existent file (for example, --channelUri C:\doesntExist.chman). This can be used for the install command; it's ignored for other commands. |
@@ -178,10 +142,8 @@ All layout management parameters assume that the command is "Install" which is t
 | `--noWeb` | **Optional**: If present, Visual Studio setup uses the files in your layout directory to install Visual Studio. If a user tries to install components that aren't in the layout, setup fails.  For more information, see [Deploying from a network installation](create-a-network-installation-of-visual-studio.md). <br/><br/> **Important**: This switch doesn't stop Visual Studio setup from checking for updates. For more information, see [Control updates to network-based Visual Studio deployments](controlling-updates-to-visual-studio-deployments.md). |
 | `--path <name>=<path>` | **Optional**: Used to specify custom install paths for the installation. Supported path names are shared, cache, and install. |
 | `--path cache=<path>` | **Optional**: Uses the location you specify to download installation files. This location can only be set the first time that Visual Studio is installed. Example: `--path cache="C:\VS\cache"` |
-| `--path shared=<path>` | **Optional**: Contains shared files for side-by-side Visual Studio installations. Some tools and SDKs install to a location on this drive, while some others might override this setting and install to another drive. Example: `--path shared="C:\VS\shared"` <br><br>Important: This can be set only once and on the first time that Visual Studio is installed. |
+| `--path shared=<path>` | **Optional**: Contains shared files for side-by-side Visual Studio installations. Some tools and SDKs install to a location on this drive, while some others might override this setting and install to another drive. Example: `--path shared="C:\VS\shared"` <br\><br\>**Important**: This can be set only once and on the first time that Visual Studio is installed. |
 | `--path install=<path>` | **Optional**: Equivalent to `–-installPath`. Specifically, `--installPath "C:\VS"` and `--path install="C:\VS"` are equivalent. Only one of these commands can be used at a time. |
-
-::: moniker-end
 
 ## Administrator update parameters
 If you download an administrator update from the [Microsoft Update Catalog](https://catalog.update.microsoft.com) into your installation directory on your client machine, you can just double click on the file to apply the update. You can also open a command window and pass some of the parameters below to change the default behavior. 
@@ -193,12 +155,12 @@ Note that all administrator update parameters are run in the "update" context.
 | **Administrator update parameters** | **Description** |
 | ----------------------- | --------------- |
 | `--installerUpdateArgs [optional parameters]` | This parameter functions as a "pass-through array" of specific parameters that are relevant to administrator update scenarios. Optional parameters that are enabled for this purpose are: |
-| |`--quiet` : This is the default experience for administrator updates |
+| |`--quiet` : This is the default experience for administrator updates and is listed here for completeness. |
 | |`--passive`: This parameter overrides the `--quiet` parameter.  It causes the UI to appear in a non-interactive manner. |
 | |`--norestart` This parameter must be used in conjuncetion with either `--quiet` or `--passive` and it causes any necessary reboots to be delayed. |
 | |`--noWeb`: This parameter prevents Visual Studio from checking on the internet for updates to the product. |
 | |`--force`: This parameter forces Visual Studio to close, even if Visual Studio is in use. Use this parameter with caution, as it may cause loss owr work. This parameter must be used in user context. |
-| |`--installWhileDownloading`: This parameter allows Visual Studio to both download and install the product in parallel. It's the default experience for administrator updates. |
+| |`--installWhileDownloading`: This parameter allows Visual Studio to both download and install the product in parallel. It's the default experience for administrator updates and is listed here for completeness. |
 | |`--downloadThenInstall`: This parameter forces Visual Studio to download all files before installing them. It is mutually exclusive from the `--installWhileDownloading` parameter. |
 | `--checkPendingReboot` | The update will be aborted if there is a pending reboot on the machine, regardless of which application may have caused it. The default is to not check for pending reboots. |
 
