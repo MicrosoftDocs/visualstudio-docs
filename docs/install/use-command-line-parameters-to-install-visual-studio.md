@@ -100,7 +100,7 @@ When invoking the Visual Studio bootstrapper programmatically to install the pro
 | `--includeOptional` | **Optional**: During an install or modify command, this parameter includes the optional components for any workloads that are installed, but not the recommended components. The workloads are specified either with `--allWorkloads` or `--add`.  |
 | `--quiet, -q` | **Optional**: Used with any command, this parameter prevents any user interface from being displayed while the command is being executed. |
 | `--passive, -p` | **Optional**: This parameter causes the user interface to be displayed in a non-interactive manner. This parameter is mutually exclusive from (and in fact overrides) the `--quiet` parameter.  |
-| `--norestart` | **Optional**: This parameter must be paired with either the `--passive` or `--quiet` parameters.  During an install, update, or modify command, adding the `--norestart` parameter will cause the machine to not automatically restart. |
+| `--norestart` | **Optional**: This parameter must be paired with either the `--passive` or `--quiet` parameters.  During an install, update, or modify command, adding the `--norestart` parameter will delay any necessary reboot. |
 | `--force` | **Optional**: This parameter forces Visual Studio to close even if any Visual Studio process is in use. |
 | `--installWhileDownloading` | **Optional**: During an install, update, or modify command, this parameter allows downloading and installing to happen in parallel. It's the default experience. |
 | `--downloadThenInstall` | **Optional**: During an install, update, or modify command, this parameter forces Visual Studio download all files before installing them.  It is mutually exclusive from the `--installWhileDownloading` parameter. |
