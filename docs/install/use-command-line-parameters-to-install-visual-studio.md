@@ -84,8 +84,6 @@ When invoking the Visual Studio bootstrapper programmatically to install the pro
 | `uninstall` | Uninstalls an installed product. |
 | `export` | Exports installation selection to an installation configuration file. **Note**: Can only be used with vs_installer.exe. |
 
-## Installation commands and parameters
-
 | **Install option** | **Description** |
 | ----------------------- | --------------- |
 | `--installPath <dir>` | For the default install command, this parameter is **Optional** and describes where the instance will be installed on the client machine. For other commands like update or modify, this parameter is **Required** and denotes the installation directory for the instance to act upon. |
