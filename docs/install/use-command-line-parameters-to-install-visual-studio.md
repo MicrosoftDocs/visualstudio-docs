@@ -77,7 +77,7 @@ When invoking the Visual Studio bootstrapper programmatically to install the pro
 
 | **Command** | **Description** |
 | ----------------------- | --------------- |
-| (blank) | The default command both installs the product, and is used for all layout maintenance operations. |
+| (blank) | The default command both installs the product, and it is used for all layout maintenance operations. |
 | `modify` | Modifies an installed product. |
 | `update` | Updates an installed product. |
 | `repair` | Repairs an installed product. |
