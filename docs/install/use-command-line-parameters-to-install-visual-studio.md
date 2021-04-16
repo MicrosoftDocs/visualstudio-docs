@@ -102,8 +102,8 @@ When invoking the Visual Studio bootstrapper programmatically to install the pro
 | `--passive, -p` | **Optional**: This parameter causes the user interface to be displayed in a non-interactive manner. This parameter is mutually exclusive from (and in fact overrides) the `--quiet` parameter.  |
 | `--norestart` | **Optional**: This parameter must be paired with either the `--passive` or `--quiet` parameters.  During an install, update, or modify command, adding the `--norestart` parameter will delay any necessary reboot. |
 | `--force` | **Optional**: This parameter forces Visual Studio to close even if any Visual Studio process is in use. |
-| `--installWhileDownloading` | **Optional**: During an install, update, or modify command, this parameter allows downloading and installing to happen in parallel. It's the default experience. |
-| `--downloadThenInstall` | **Optional**: During an install, update, or modify command, this parameter forces Visual Studio download all files before installing them.  It is mutually exclusive from the `--installWhileDownloading` parameter. |
+| `--installWhileDownloading` | **Optional**: During an install, update, or modify command, this parameter allows Visual Studio to both download and install the product in parallel. It's the default experience. |
+| `--downloadThenInstall` | **Optional**: During an install, update, or modify command, this parameter forces Visual Studio to download all files before installing them. It is mutually exclusive from the `--installWhileDownloading` parameter. |
 | `--nickname <name>` | **Optional**: During an install command, this parameter defines the nickname to assign to an installed product. The nickname can't be longer than 10 characters.  |
 | `--productKey` | **Optional**: During an install command, this parameter defines the product key to use for an installed product. It's composed of 25 alphanumeric characters either in the format `xxxxx-xxxxx-xxxxx-xxxxx-xxxxx` or `xxxxxxxxxxxxxxxxxxxxxxxxx`. |
 | `--help, --?, -h, -?` | Displays an offline version of this page. |
