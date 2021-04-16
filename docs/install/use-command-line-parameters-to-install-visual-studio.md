@@ -84,7 +84,8 @@ When invoking the Visual Studio bootstrapper programmatically to install the pro
 | `uninstall` | Uninstalls an installed product. |
 | `export` | Exports installation selection to an installation configuration file. **Note**: Can only be used with vs_installer.exe. |
 
-| **Install option** | **Description** |
+
+| **Parameters** | **Description** |
 | ----------------------- | --------------- |
 | `--installPath <dir>` | For the default install command, this parameter is **Optional** and describes where the instance will be installed on the client machine. For other commands like update or modify, this parameter is **Required** and denotes the installation directory for the instance to act upon. |
 | `--add <one or more workload or component IDs>` | **Optional**: During an install or modify command, this repeatable parameter specifies one or more workload or component IDs to add. The required components of the artifact are installed, but not the recommended or optional components. You can control additional components globally using `--includeRecommended` and/or `--includeOptional` parameters. To include multiple workloads or components, repeat the `--add` command (for example, `--add Workload1 --add Workload2`). For finer-grained control, you can append `;includeRecommended` or `;includeOptional` to the ID (for example, `--add Workload1;includeRecommended` or `--add Workload2;includeRecommended;includeOptional`). For more information, see the [Workload and component IDs](workload-and-component-ids.md) page. |
