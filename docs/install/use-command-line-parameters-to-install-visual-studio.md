@@ -26,7 +26,7 @@ When you install Visual Studio programmatically or from a command prompt, you ca
 - Automate the installation process.
 - Create or maintain a network layout of the product files for installing or updating client machines.
 
-The command-line options are used in conjunction with either the setup bootstrapper, which is the small (~1 MB) file that initiates the download process, or the administrator update package, which is deployed to the Microsoft Update Catalog and Windows Softare Update Services (WSUS). 
+The command-line options can be used with either the setup bootstrapper, which is the small (~1 MB) file that initiates the download process, or the administrator update package, which is deployed to the Microsoft Update Catalog and Windows Softare Update Services (WSUS). 
 
 ::: moniker range="vs-2017"
 
