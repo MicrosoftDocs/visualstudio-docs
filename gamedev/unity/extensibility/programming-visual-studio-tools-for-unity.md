@@ -2,7 +2,7 @@
 title: "Programming Visual Studio Tools for Unity | Microsoft Docs"
 description: See examples of programming using the Visual Studio Tools for Unity (VSTU) API. Customize project files created by VSTU.
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "04/19/2021"
 ms.technology: vs-unity-tools
 ms.prod: visual-studio-dev16
 ms.topic: "conceptual"
