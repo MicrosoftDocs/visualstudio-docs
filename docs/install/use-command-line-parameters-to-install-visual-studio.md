@@ -73,7 +73,7 @@ You can get the administrator update by going to the [Microsoft Update Catalog](
 
 When invoking the Visual Studio bootstrapper programmatically to install the product or to maintain a layout, the first parameter is the command (the verb) that describes the operation to perform. The subsequent optional command line parameters, which are all prefixed by two dashes (--), further define how that operation is supposed to happen. All Visual Studio command-line parameters are case-insensitive, and additional examples can be found on the [Command-line parameter examples](command-line-parameter-examples.md) page.
 
-> Syntax example: `vs_enterprise.exe [command] <optional parameters>...`
+Syntax example: `vs_enterprise.exe [command] <optional parameters>...`
 
 | **Command** | **Description** |
 | ----------------------- | --------------- |
@@ -142,7 +142,7 @@ All layout management operations assume that the command is the default Install 
 | `--noWeb` | **Optional**: If present, Visual Studio setup uses the files in your layout directory to install Visual Studio. If a user tries to install components that aren't in the layout, setup fails.  For more information, see [Deploying from a network installation](create-a-network-installation-of-visual-studio.md). <br/><br/> **Important**: This switch doesn't stop Visual Studio setup from checking for updates. For more information, see [Control updates to network-based Visual Studio deployments](controlling-updates-to-visual-studio-deployments.md). |
 | `--path <name>=<path>` | **Optional**: Used to specify custom install paths for the installation. Supported path names are shared, cache, and install. |
 | `--path cache=<path>` | **Optional**: Uses the location you specify to download installation files. This location can only be set the first time that Visual Studio is installed. Example: `--path cache="C:\VS\cache"` |
-| `--path shared=<path>` | **Optional**: Contains shared files for side-by-side Visual Studio installations. Some tools and SDKs install to a location on this drive, while some others might override this setting and install to another drive. Example: `--path shared="C:\VS\shared"` <br\><br\>**Important**: This can be set only once and on the first time that Visual Studio is installed. |
+| `--path shared=<path>` | **Optional**: Contains shared files for side-by-side Visual Studio installations. Some tools and SDKs install to a location on this drive, while some others might override this setting and install to another drive. Example: `--path shared="C:\VS\shared"` <br/><br/>**Important**: This can be set only once and on the first time that Visual Studio is installed. |
 | `--path install=<path>` | **Optional**: Equivalent to `–-installPath`. Specifically, `--installPath "C:\VS"` and `--path install="C:\VS"` are equivalent. Only one of these commands can be used at a time. |
 
 ## Administrator update command and command-line parameters
@@ -158,7 +158,7 @@ Note that all administrator update parameters are run in the "update" context.
 | `--checkPendingReboot` | The update will be aborted if there is a pending reboot on the machine, regardless of which application may have caused it. The default is to not check for pending reboots. |
 
 
-> Syntax example: `visualstudioupdate-16.9.0to16.9.4.exe --installerUpdateArgs=--force,--noWeb --checkPendingReboot`
+Syntax example: `visualstudioupdate-16.9.0to16.9.4.exe --installerUpdateArgs=--force,--noWeb --checkPendingReboot`
 
 ## List of workload IDs and component IDs
 
