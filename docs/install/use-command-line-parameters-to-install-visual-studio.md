@@ -158,7 +158,7 @@ Note that all administrator update parameters are run in the "update" context.
 | `--checkPendingReboot` | The update will be aborted if there is a pending reboot on the machine, regardless of which application may have caused it. The default is to not check for pending reboots. |
 
 
-> Syntax example: `visualstudioupdate-16.9.0to16.9.4.exe --installerUpdateArgs [--force, --noWeb], --checkPendingReboot`
+> Syntax example: `visualstudioupdate-16.9.0to16.9.4.exe --installerUpdateArgs [--force, --noWeb] --checkPendingReboot`
 
 ## List of workload IDs and component IDs
 
