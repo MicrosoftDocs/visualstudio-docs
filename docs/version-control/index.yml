@@ -1,13 +1,13 @@
 ### YamlMime:Landing
 
-title: Version control in Visual Studio
-summary: Use source control from within Visual Studio.
+title: Version control in Visual Studio # < 60 chars
+summary: Use source control from within Visual Studio. # < 160 chars
 
 metadata:
-  title: The Git experience
+  title: The Git experience in Visual Studio # Required; page title displayed in search results. Include the brand. < 60 chars.
   description: Learn how to use Git and GitHub from within Visual Studio.
   ms.topic: landing-page
-  ms.date: 04/15/2021
+  ms.date: 04/20/2021
   author: TerryGLee
   ms.author: tglee
   manager: jmartens
