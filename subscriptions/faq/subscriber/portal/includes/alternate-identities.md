@@ -10,13 +10,13 @@ author: CaityBuschlen
 ms.author: cabuschl
 manager: 
 robots: 
-ms.date: 4/3/2020
+ms.date: 04/20/2020
 ms.faqid: q1_5
 ---
 
 ## How do I add alternate identities to my subscription and how does this impact my Azure credits and Azure DevOps?
 
-Adding an alternate account to your Visual Studio subscription allows you to access the subscription benefits, like Azure DevOps and Azure, with a different identity than that which the subscription is assigned to. In the past, this functionality was available only if your Visual Studio (VS) subscription was assigned to a Microsoft Account (MSA).We have extended this functionality for work or school accounts in Azure Active Directory (Azure AD).
+Adding an alternate account to your Visual Studio subscription allows you to access the subscription benefits, like Azure DevOps and Azure, with a different identity than that which the subscription is assigned to. In the past, this functionality was available only if your Visual Studio (VS) subscription was assigned to a Microsoft Account (MSA).  We have extended this functionality for work or school accounts in Azure Active Directory (Azure AD).
 
 This doesn't provide a copy of subscription to the other account; it only provides the ability to access the two benefits with the alternate account.
 
