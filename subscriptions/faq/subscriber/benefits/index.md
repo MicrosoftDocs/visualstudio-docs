@@ -11,9 +11,9 @@ ms.faqid: Section3
 
 # Activating subscription benefits
 
-[!INCLUDE [Why can't I find certain benefits?](includes/available-benefits.md)]
-
 [!INCLUDE [How do I use my benefits?](includes/use-benefits.md)]
+
+[!INCLUDE [Why can't I find certain benefits?](includes/available-benefits.md)]
 
 [!INCLUDE [What is the Visual Studio subscriptions with GitHub Enterprise setup process?](includes/ghe-process.md)]
 
