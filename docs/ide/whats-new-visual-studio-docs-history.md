@@ -291,7 +291,7 @@ Welcome to the history of what's new in Visual Studio docs. This article contain
 
 **Updated articles**
 
-- [Git experience in Visual Studio](./git-with-visual-studio.md)
+- [Git experience in Visual Studio](../version-control/git-with-visual-studio.md)
   - Updated alt text & metadata
   - Updates to New Git Experience content for 16.8 GA
 - [What's new in Visual Studio 2019](./whats-new-visual-studio-2019.md)
@@ -477,7 +477,7 @@ Welcome to the history of what's new in Visual Studio docs. This article contain
 
 **New articles**
 
-- [New Git experience in Visual Studio (Preview)](./git-with-visual-studio.md) - add New Git Experience content (Preview)
+- [New Git experience in Visual Studio (Preview)](../version-control/git-with-visual-studio.md) - add New Git Experience content (Preview)
 - [C++ EditorConfig formatting conventions](./cpp-editorconfig-properties.md) - new article
 - [What is GitHub Codespaces? (Preview)](./codespaces/codespaces-overview.md) - add Codespaces (Preview) content
 - [How to customize a codespace (Preview)](./codespaces/customize-codespaces.md) - add Codespaces (Preview) content

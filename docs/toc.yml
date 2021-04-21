@@ -905,15 +905,8 @@
     href: ide/walkthrough-creating-a-multiple-computer-build-environment.md
 - name: Debug >>
   href: debugger/index.yml
-- name: Version control
-  expanded: true
-  items:
-  - name: The new Git experience in Visual Studio
-    href: ide/git-with-visual-studio.md
-  - name: How Visual Studio makes source control easy
-    href: ide/git-visual-studio-source-control.md
-  - name: Compare Git and Team Explorer side-by-side
-    href: ide/git-team-explorer-feature-comparison.md
+- name: Version control >>
+  href: version-control/index.yml
 - name: Test >>
   displayName: Unit testing
   href: test/index.yml

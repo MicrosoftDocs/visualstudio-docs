@@ -1,11 +1,11 @@
 ### YamlMime:Landing
 
-title: Version control in Visual Studio # < 60 chars
-summary: Use source control from within Visual Studio. # < 160 chars
+title: Visual Studio version control documentation # < 60 chars
+summary: Share your code from within Visual Studio by using version control technologies such as Git and GitHub. # < 160 chars
 
 metadata:
-  title: The Git experience in Visual Studio # Required; page title displayed in search results. Include the brand. < 60 chars.
-  description: Learn how to use Git and GitHub from within Visual Studio.
+  title: Share code within Visual Studio by using Git and GitHub. # Required; page title displayed in search results. Include the brand. < 60 chars.
+  description: Learn how to use version control technologies such as Git and GitHub to share your code from within Visual Studio.
   ms.topic: landing-page
   ms.date: 04/20/2021
   author: TerryGLee
@@ -24,11 +24,11 @@ landingContent:
       - linkListType: overview
         links:
           - text: Git experience in Visual Studio
-            url: ../ide/git-with-visual-studio.md
+            url: git-with-visual-studio.md
       - linkListType: concept
         links:
           - text: How Visual Studio makes source control easy
-            url:  ../git-visual-studio-source-control.md
+            url:  git-visual-studio-source-control.md
 
   # Card
   - title: Get started
@@ -40,7 +40,7 @@ landingContent:
       - linkListType: how-to-guide
         links:
           - text: Compare Git and Team Explorer side-by-side
-            url: ../git-team-explorer-feature-comparison.md
+            url: git-team-explorer-feature-comparison.md
 
   # Card
   - title: What's new

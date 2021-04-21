@@ -80,9 +80,9 @@ Welcome to what's new in the Visual Studio docs for March 2021. This article lis
 ## IDE
 
 **New articles**
-- [How Visual Studio makes source control easy](./git-visual-studio-source-control.md) - create new Visual Studio Source Control topic
+- [How Visual Studio makes source control easy](../version-control/git-visual-studio-source-control.md) - create new Visual Studio Source Control topic
 - [Developer Command Prompt and Developer PowerShell](./reference/command-prompt-powershell.md) - Developer Command Prompt and Developer PowerShell
-- [Side-by-side comparison of Git and Team Explorer](./git-team-explorer-feature-comparison.md) - add new side-by-side comparison page of Team Explorer and new Git features
+- [Side-by-side comparison of Git and Team Explorer](../version-control/git-team-explorer-feature-comparison.md) - add new side-by-side comparison page of Team Explorer and new Git features
 
 **Updated articles**
 
