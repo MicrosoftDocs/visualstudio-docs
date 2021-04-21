@@ -1,7 +1,7 @@
 ### YamlMime:Landing
 
 title: Visual Studio version control documentation # < 60 chars
-summary: Share your code from within Visual Studio by using version control technologies such as Git and GitHub. # < 160 chars
+summary: Share your code from within Visual Studio 2019 by using version control technologies such as Git and GitHub. # < 160 chars
 
 metadata:
   title: Share code within Visual Studio by using Git and GitHub. # Required; page title displayed in search results. Include the brand. < 60 chars.
