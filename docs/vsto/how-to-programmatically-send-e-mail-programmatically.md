@@ -26,7 +26,7 @@ ms.workload:
 [!include[Add-ins note](includes/addinsnote.md)]
 
 ## Example
- [!code-csharp[Trin_OL_ProgramEmail#1](../vsto/codesnippet/CSharp/Trin_OL_ProgramEMail/thisaddin.cs#1)]
+ :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_OL_ProgramEMail/thisaddin.cs" id="Snippet1":::
 
 ## Compile the code
  This example requires:
