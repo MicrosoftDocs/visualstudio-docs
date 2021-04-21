@@ -115,6 +115,7 @@ If Visual Studio can't find the files it needs to debug a module in the dump, it
 
 ## See also
 
+- [How to debug a managed memory dump with .NET Diagnostic Analyzers](../debugger/how-to-debug-managed-memory-dump.md)
 - [Just-In-Time debugging](../debugger/just-in-time-debugging-in-visual-studio.md)
 - [Specify symbol (.pdb) and source files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)
 - [IntelliTrace](../debugger/intellitrace.md)

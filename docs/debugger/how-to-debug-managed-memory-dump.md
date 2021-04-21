@@ -2,7 +2,7 @@
 title: Debugging a managed memory dump with .NET Diagnostic Analyzers | Microsoft Docs
 description: Learn how to use Visual Studio's .NET Diagnostics Analyzers to analyze a managed memory dump 
 ms.custom: SEO-VS-2021
-ms.date: 04/16/2021
+ms.date: 04/21/2021
 ms.topic: how-to
 dev_langs: 
   - CSharp
@@ -12,7 +12,6 @@ helpviewer_keywords:
   - dump debugging
   - debugging managed memory dump
   - debugging [Visual Studio]
-ms.assetid: ??????????????????????????????
 author: poppastring
 ms.author: madownie
 manager: andster
@@ -97,3 +96,4 @@ To improve the apps responsiveness it is important to remove blocking synchronou
 
 * [Use dump files in the debugger](../debugger/using-dump-files.md)
 * [Generate source code from .NET assemblies while debugging](../debugger/decompilation.md)
+* [Specify symbol (.pdb) and source files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)
