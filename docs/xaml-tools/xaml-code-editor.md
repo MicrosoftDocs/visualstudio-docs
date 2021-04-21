@@ -3,6 +3,8 @@ title: XAML code editor
 description: Take a tour of the XAML code editor in Visual Studio
 ms.date: 06/16/2020
 ms.topic: overview
+f1_keywords:
+- VS.XamlEditor
 monikerRange: vs-2019
 author: TerryGLee
 ms.author: tglee
@@ -264,7 +266,7 @@ You can use the [Options](../ide/reference/options-dialog-box-visual-studio.md) 
 
 > [!NOTE]
 > You can also use keyboard shortcuts to access the Options dialog box. Here's how: Press **Ctrl**+**Q** to search the IDE, type **Options**, and then press **Enter**. Next, press **Ctrl**+**E** to search the Options dialog box, type **Text Editor**, press **Enter**, type **XAML**, and then press **Enter**.
->  
+>
 > For more information about keyboard shortcuts, see the [Shortcut tips for Visual Studio](../ide/productivity-shortcuts.md#code-editor) page.
 
 ### Universal text editor options

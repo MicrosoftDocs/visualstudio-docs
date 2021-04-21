@@ -7,7 +7,6 @@ ms.topic: conceptual
 f1_keywords:
 - VS.XamlDesigner
 - VS.DevicePanel
-- VS.XamlEditor
 - VS.DocumentOutline
 - Blend.Start.Dev12
 ms.devlang: CSharp
