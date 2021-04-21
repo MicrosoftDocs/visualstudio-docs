@@ -7,7 +7,6 @@ ms.topic: how-to
 ms.author: tglee
 author: TerryGLee
 ms.manager: jmartens
-monikerRange: vs-2019
 ---
 # Side-by-side comparison of Git and Team Explorer
 
@@ -66,4 +65,4 @@ For more information about the new Git experience, see the latest video, [Gettin
 
 - [The new Git experience in Visual Studio](git-with-visual-studio.md)
 - [Get Started with Git and GitHub in Visual Studio](/learn/modules/visual-studio-github-push/)
-- [Work with GitHub accounts in Visual Studio](work-with-github-accounts.md)
+- [Work with GitHub accounts in Visual Studio](../ide/work-with-github-accounts.md)
