@@ -64,7 +64,8 @@ In this example the concern is "app not responding to requests in a timely manne
 
 1. The **Analysis Summary** has stated that the “CLR thread pool is experiencing starvation”. This information suggests that the CLR has currently used all available thread pool threads, which means your service cannot respond to any new requests until a thread is released.
 
-    > [!NOTE] The **Remediation** in this case is "Do not synchronously wait on Monitors, Events, Task, or any other objects that may block your thread. See if you can update the method to be asynchronous.".
+    > [!NOTE] 
+    > The **Remediation** in this case is "Do not synchronously wait on Monitors, Events, Task, or any other objects that may block your thread. See if you can update the method to be asynchronous.".
 
 ## Navigating to the problematic code
 
@@ -84,6 +85,7 @@ My next job is to find that problematic code.
 
 1. In the decompiled source below it is evident that an asynchronous Task (ConsumeThreadPoolThread) is calling a synchronous blocking function, which our analzer noted we should avoid.
 
+    > [!NOTE]  
     > The "DoSomething()" method that contains a WaitHandle.WaitOne method, which is blocking the current thread pool thread until it receives a signal.
 
 To improve the apps responsiveness it is important to remove blocking synchronous code from all asynchronous contexts.
@@ -95,4 +97,3 @@ To improve the apps responsiveness it is important to remove blocking synchronou
 
 * [Use dump files in the debugger](../debugger/using-dump-files.md)
 * [Generate source code from .NET assemblies while debugging](../debugger/decompilation.md)
-
