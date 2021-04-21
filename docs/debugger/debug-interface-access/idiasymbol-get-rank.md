@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the rank (number of dimensions) of a FORTRAN multi-dimensional array."
 title: "IDiaSymbol::get_rank | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

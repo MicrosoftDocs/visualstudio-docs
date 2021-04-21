@@ -1,4 +1,5 @@
 ---
+description: "Creates an object that represents a primitive type."
 title: IDebugTypeFieldBuilder::CreatePrimitive | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference
@@ -6,8 +7,8 @@ helpviewer_keywords:
 - CreatePrimitive
 - IDebugTypeFieldBuilder::CreatePrimitive
 ms.assetid: 512c6ff0-97c5-409f-939f-4cc969bc4bb9
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk

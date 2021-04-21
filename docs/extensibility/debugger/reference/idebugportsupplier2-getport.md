@@ -1,4 +1,5 @@
 ---
+description: "Gets a port from a port supplier."
 title: IDebugPortSupplier2::GetPort | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference
@@ -7,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugPortSupplier2::GetPort
 ms.assetid: d55d5055-7386-4037-bf22-4c3e434a99ca
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk

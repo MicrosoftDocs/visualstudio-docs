@@ -2,7 +2,7 @@
 title: The Git experience in Visual Studio
 titleSuffix: ""
 description: Learn how the new integrated Git experience in Visual Studio 2019 can help you be more productive.
-ms.date: 01/15/2021
+ms.date: 04/01/2021
 ms.topic: conceptual
 ms.author: tglee
 author: TerryGLee
@@ -42,7 +42,7 @@ The **Create a Git repository** dialog box makes it easy to push your new reposi
 > [!TIP]
 > Whether your repository is public or private, it's best to have a remote backup of your code stored securely on GitHub even if you are not working with a team. This also makes your code available to you no matter what computer you're using.
 
-You can choose to create a local-only Git repository by using the **Local only** option. Or, you can link your repository with any existing empty remote repository on any other Git provider by using the **Existing remote** option.
+You can choose to create a local-only Git repository by using the **Local only** option. Or, you can link your local project with an existing empty remote repository on Azure DevOps or any other Git provider by using the **Existing Remote** option.
 
 ## Clone an existing Git repository
 
@@ -111,7 +111,7 @@ From both locations, you can switch between existing branches.
 
 ### Create a new branch
 
-You can also create a new branch. The equivalent command for this action is `git checkout <branchname>`.
+You can also create a new branch. The equivalent command for this action is `git checkout -b <branchname>`.
 
 Creating a new branch is as simple as entering the branch name and basing it off an existing branch.
 
@@ -196,8 +196,10 @@ While the new Git experience is now on by default in Visual Studio 2019 [version
 
 ## See also
 
+- [Get Started with Git and GitHub in Visual Studio](/learn/modules/visual-studio-github-push/) tutorial on Microsoft Learn
+- [Getting started with Git in Visual Studio](https://www.youtube.com/watch?v=GCZ9x3yqkyc) video on YouTube
 - [Announcing the Release of the Git Experience in Visual Studio](https://devblogs.microsoft.com/visualstudio/announcing-the-release-of-the-git-experience-in-visual-studio/) blog post
-- [The launch of the new Git experience](https://www.youtube.com/watch?v=UHrAg3iKoe0&t) on YouTube
+- [The launch of the new Git experience](https://www.youtube.com/watch?v=UHrAg3iKoe0&t) video on YouTube
 - [The Visual Studio Toolbox series presents: The new Git experience](https://channel9.msdn.com/Shows/Visual-Studio-Toolbox/The-New-Git-Experience) video on Channel 9 and on [YouTube](https://www.youtube.com/watch?v=ZiQ2LXtAJ6I&feature=youtu.be)
 - [Exciting new updates to the Git experience in Visual Studio](https://devblogs.microsoft.com/visualstudio/exciting-new-updates-to-the-git-experience-in-visual-studio/) blog post
 - [Improved Git Experience in Visual Studio 2019](https://devblogs.microsoft.com/visualstudio/improved-git-experience-in-visual-studio-2019/) blog post

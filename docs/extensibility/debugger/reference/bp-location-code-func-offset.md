@@ -1,4 +1,5 @@
 ---
+description: "Describes the offset location of a breakpoint in a function in code."
 title: BP_LOCATION_CODE_FUNC_OFFSET | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference
@@ -7,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - BP_LOCATION_CODE_FUNC_OFFSET structure
 ms.assetid: ab38f7ca-fa01-4cf3-a06c-56cbb7207617
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk

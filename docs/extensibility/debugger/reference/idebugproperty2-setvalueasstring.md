@@ -1,4 +1,5 @@
 ---
+description: "Sets the value of a property from a given string."
 title: IDebugProperty2::SetValueAsString | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference
@@ -7,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugProperty2::SetValueAsString
 ms.assetid: 9e6a5054-41b7-4223-b509-b93689d366a5
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk

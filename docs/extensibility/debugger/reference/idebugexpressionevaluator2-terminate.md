@@ -1,4 +1,5 @@
 ---
+description: "Stops and cleans up the expression evaluator."
 title: IDebugExpressionEvaluator2::Terminate | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference
@@ -6,8 +7,8 @@ helpviewer_keywords:
 - Terminate
 - IDebugExpressionEvaluator2::Terminate
 ms.assetid: 38265100-4d80-4902-833a-07bb569f9ba8
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk

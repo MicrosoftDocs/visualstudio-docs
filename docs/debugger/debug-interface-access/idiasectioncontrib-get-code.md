@@ -1,4 +1,5 @@
 ---
+description: "Retrieves a flag that indicates whether the section contains executable code."
 title: "IDiaSectionContrib::get_code | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

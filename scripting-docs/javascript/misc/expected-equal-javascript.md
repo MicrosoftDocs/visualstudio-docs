@@ -1,4 +1,5 @@
 ---
+description: "You attempted to create a variable to be used with conditional compilation statements, but did not place an equal sign between the variable and the value you want to assign to it."
 title: "Expected '=' (JavaScript) | Microsoft Docs"
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows

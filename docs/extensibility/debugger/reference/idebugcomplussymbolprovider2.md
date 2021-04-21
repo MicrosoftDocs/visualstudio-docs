@@ -1,12 +1,13 @@
 ---
+description: "Represents a COM+ symbol provider with methods that are specific to managed code and extends the IDebugComPlusSymbolProvider."
 title: IDebugComPlusSymbolProvider2 | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - IDebugComPlusSymbolProvider2 interface
 ms.assetid: fa2f9b49-03ad-43c7-92d6-6dcb9c3d0531
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk

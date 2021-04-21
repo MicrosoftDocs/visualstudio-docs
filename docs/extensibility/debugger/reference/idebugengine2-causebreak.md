@@ -1,4 +1,5 @@
 ---
+description: "Requests that all programs being debugged by this debug engine (DE) to stop execution the next time one of their threads attempts to run."
 title: IDebugEngine2::CauseBreak | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference
@@ -7,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugEngine2::CauseBreak
 ms.assetid: 17fe4698-b04e-4798-8412-80e0da60c387
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk

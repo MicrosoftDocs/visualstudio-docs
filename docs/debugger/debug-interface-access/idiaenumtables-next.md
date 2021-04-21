@@ -1,4 +1,5 @@
 ---
+description: "Retrieves a specified number of tables in the enumeration sequence."
 title: "IDiaEnumTables::Next | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

@@ -19,7 +19,7 @@ ms.workload:
 
 The Assembly Information dialog box is used to specify the values of the .NET Framework global assembly attributes, which are stored in the AssemblyInfo file created automatically with your project. In Solution Explorer, the AssemblyInfo file is located in the **My Project** node for Visual Basic projects (click **Show All files** to view it). For C# projects, it's located under **Properties**. For more information, see [Attributes (C#)](/dotnet/csharp/programming-guide/concepts/attributes/index).
 
-To access this dialog box, select a project node in **Solution Explorer**, and then, on the **Project** menu, select **Properties**.On the **Application** page, select the **Assembly Information** button.
+To access this dialog box, select a project node in **Solution Explorer**, and then, on the **Project** menu, select **Properties**. On the **Application** page, select the **Assembly Information** button.
 
 ## UIElement list
 
@@ -59,7 +59,7 @@ Specifies which culture the assembly supports. Corresponds to <xref:System.Resou
 Specifies whether types in the assembly will be available to COM. Corresponds to <xref:System.Runtime.InteropServices.ComVisibleAttribute>.
 
 > [!NOTE]
-> For more information on setting these properties when generating a NuGet package in a .NET Framework class library, see [Configure project properties for the package](/nuget/quickstart/create-and-publish-a-package-using-visual-studio-net-framework#configure-project-properties-for-the-package).
+> For more information on setting these properties when generating a NuGet package in a .NET Framework class library, see [Configure project properties for the package](/nuget/quickstart/create-and-publish-a-package-using-visual-studio-net-framework#configure-project-properties-for-the-package). And for more information about Licensing and Expressions as they relate to a NuGet package, see [licenses.nuget.org](/nuget/nuget-org/licenses.nuget.org/).
 
 ## See also
 

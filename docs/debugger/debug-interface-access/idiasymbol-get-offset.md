@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the offset of the symbol location."
 title: "IDiaSymbol::get_offset | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

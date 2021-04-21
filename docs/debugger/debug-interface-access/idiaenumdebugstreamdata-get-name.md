@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the name of a debug data stream."
 title: "IDiaEnumDebugStreamData::get_name | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

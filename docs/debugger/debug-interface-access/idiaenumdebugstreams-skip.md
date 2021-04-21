@@ -1,4 +1,5 @@
 ---
+description: "Skips a specified number of debug streams in an enumeration sequence."
 title: "IDiaEnumDebugStreams::Skip | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

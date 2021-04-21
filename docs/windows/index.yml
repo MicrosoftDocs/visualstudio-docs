@@ -8,6 +8,7 @@ metadata:
    description: Learn how to use Visual Studio to develop applications, services, and tools in the language of your choice, for any platform or device.
    ms.topic: hub-page
    ms.custom: contperf-fy21q1
+   ms.date: 03/30/2021
    monikerRange: ">=vs-2017"
    f1_keywords:
      - MSDNSTART
@@ -183,8 +184,8 @@ additionalContent:
         summary: Share your apps and code by using Web Deploy, InstallShield, NuGet, Continuous Integration, and more.
         url: ../deployment/index.yml
       - title: Version control
-        summary: Share code using version control technologies such as Git and TFVC.
-        url: /azure/devops/repos/index
+        summary: Share code using version control technologies such as Git and GitHub.
+        url: ../ide/git-with-visual-studio.md
       - title: DevOps
         summary: Continuously build and release your apps in the cloud, and implement Agile practices with Azure DevOps Services.
         url: /azure/devops

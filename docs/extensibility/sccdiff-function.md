@@ -1,4 +1,5 @@
 ---
+description: "This function displays (or optionally just checks for) the differences between the current file (on the local disk) and its last checked-in version in the source control system."
 title: SccDiff Function | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: conceptual
@@ -7,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - SccDiff function
 ms.assetid: d49bc8c5-f631-4153-9d3c-feb3564da305
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk

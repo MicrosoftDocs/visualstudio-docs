@@ -1,4 +1,5 @@
 ---
+description: "Retrieves a flag that indicates whether the section contains uninitialized data."
 title: "IDiaSectionContrib::get_uninitializedData | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

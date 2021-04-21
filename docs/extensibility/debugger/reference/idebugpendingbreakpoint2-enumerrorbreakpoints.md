@@ -1,4 +1,5 @@
 ---
+description: "Gets a list of all error breakpoints that resulted from this pending breakpoint."
 title: IDebugPendingBreakpoint2::EnumErrorBreakpoints | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference
@@ -8,8 +9,8 @@ helpviewer_keywords:
 - IDebugPendingBreakpoint2::EnumErrorBreakpoints method
 - EnumErrorBreakpoints method
 ms.assetid: 2f9a9720-c1ac-4430-8f28-200d85360452
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk

@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the base address of the local variables for the frame."
 title: "IDiaStackFrame::get_localsBase | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

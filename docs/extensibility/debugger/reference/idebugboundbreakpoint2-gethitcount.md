@@ -1,4 +1,5 @@
 ---
+description: "Gets the current hit count for this bound breakpoint."
 title: IDebugBoundBreakpoint2::GetHitCount | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference
@@ -8,8 +9,8 @@ helpviewer_keywords:
 - GetHitCount method
 - IDebugBoundBreakpoint2::GetHitCount method
 ms.assetid: 23481f37-047c-41d2-8286-4da1f4084961
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk

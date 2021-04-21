@@ -2,7 +2,7 @@
 title: "Visual Studio docs: History of what's new "
 titleSuffix: ""
 description: "History of what's new in Visual Studio docs"
-ms.date: 02/01/2021
+ms.date: 03/08/2021
 helpviewer_keywords:
   - "Visual Studio, what's new, docs"
   - "what's new [Visual Studio]"
@@ -19,7 +19,135 @@ ms.workload:
 
 # History of what's new in Visual Studio docs
 
-Welcome to the history of what's new in Visual Studio docs. This article contains the major changes to the docs prior to January 2021 (starting July 2020). For the latest What's New, see [Visual Studio docs: What's new in the docs](whats-new-visual-studio-docs.md).
+Welcome to the history of what's new in Visual Studio docs. This article contains the major changes to the docs prior to March 2021 (starting July 2020). For the latest What's New, see [Visual Studio docs: What's new in the docs](whats-new-visual-studio-docs.md).
+
+## February 2021
+
+### Debugger
+
+**Updated articles**
+
+- [Use breakpoints in the Visual Studio debugger](../debugger/using-breakpoints.md) - Updates for accessibility
+
+### Get started
+
+**Updated articles**
+
+- [Tutorial: Open a project from a repo in Visual Studio 2017](../get-started/tutorial-open-project-from-repo-visual-studio-2017.md) - update See Also links in VS2017 Open Project from a Repo
+- [Tutorial: Open a project from a repo](../get-started/tutorial-open-project-from-repo-visual-studio-2019.md) - Add link to VS2017 version of the 'Open a project from a repo' page
+
+### IDE
+
+**Updated articles**
+
+- [Troubleshoot and create logs for MSBuild problems](./msbuild-logs.md) - Add instructions on using the project system tools extension
+
+### Install
+
+**Updated articles**
+
+- [Update Visual Studio using a minimal offline layout](../install/update-minimal-layout.md)
+  - Add 2017 example in options table
+  - Add examples for VS2017
+
+### MSBuild
+
+**New articles**
+
+- [MSB3644: The reference assemblies for 'FrameworkVersion' were not found](../msbuild/errors/msb3644.md) - MSBuild errors
+- [MSB8036: The Windows SDK 'version' was not found](../msbuild/errors/msb8036.md) - MSBuild errors
+
+### Test
+
+**Updated articles**
+
+- [Use the Microsoft Unit Testing Framework for C++ in Visual Studio](../test/how-to-use-microsoft-test-framework-for-cpp.md) -  Small content refresh and edit
+- [Write unit tests for C++ DLLs in Visual Studio](../test/how-to-write-unit-tests-for-cpp-dlls.md) - Small content refresh and edit
+- [Run unit tests with Test Explorer](../test/run-unit-tests-with-test-explorer.md) - Updates for accessibility
+- [Walkthrough: Create and run unit tests for managed code](../test/walkthrough-creating-and-running-unit-tests-for-managed-code.md) - Updates for accessibility
+- [Isolate code under test with Microsoft Fakes](../test/isolating-code-under-test-with-microsoft-fakes.md) - Explicitly mention .NET 5.0 in Fakes docs
+
+## January 2021
+### Azure
+
+**New articles**
+
+- [Create and deploy to Cloud Services (extended support) in Visual Studio (Preview)](../azure/cloud-services-extended-support.md) - Cloud services extended support - no template
+
+### Code quality
+
+**New articles**
+
+- [Code metrics - Class coupling](../code-quality/code-metrics-class-coupling.md) - Code Metrics refresh
+- [Code metrics - Maintainability index range and meaning](../code-quality/code-metrics-maintainability-index-range-and-meaning.md) - Code Metrics refresh
+
+### Debugger
+
+**New articles**
+
+- [Debug .NET Core Apps in WSL 2 with Visual Studio](../debugger/debug-dotnet-core-in-wsl-2.md) - .NET Core WSL2 debugging
+
+**Updated articles**
+
+- [Create custom views of C++ objects in the debugger using the Natvis framework](../debugger/create-custom-views-of-native-objects.md) - Clarification for XML formatting of special characters in NatVis
+- [Security Warning: Attaching to a process owned by an untrusted user can be dangerous. If the following information looks suspicious or you are unsure, do not attach to this process](../debugger/security-warning-attaching-to-a-process-owned-by-an-untrusted-user.md) - Updates to security warning when attaching to an untrusted process
+
+### Deployment
+
+**Updated articles**
+
+- [&lt;InstallChecks&gt; element (bootstrapper)](../deployment/installchecks-element-bootstrapper.md) - Update bootstrapper package documentation to include new BeforeInstallChecks element
+
+### Extensibility
+
+**Updated articles**
+
+- [Walkthrough: Publish a Visual Studio extension](../extensibility/walkthrough-publishing-a-visual-studio-extension.md) - [PUBLIC_MOVE] commit from public PR 6214
+
+### Get started
+
+**New articles**
+
+- [Tutorial: Open a project from a repo in Visual Studio 2017](../get-started/tutorial-open-project-from-repo-visual-studio-2017.md) - update Open a Project from a Repo tutorial
+
+**Updated articles**
+
+- [Tutorial: Open a project from a repo](../get-started/tutorial-open-project-from-repo.md) - update Open a Project from a Repo tutorial
+
+### IDE
+
+**New articles**
+
+- [JavaScript F1 Help for Visual Studio](./not-in-toc/default-f1-javascript.md) - Added JS and TS default F1 pages
+- [TypeScript F1 Help for Visual Studio](./not-in-toc/default-f1-typescript.md) - Added JS and TS default F1 pages
+
+**Updated articles**
+
+- [Solutions and projects in Visual Studio](./solutions-and-projects-in-visual-studio.md) - add link to the Visual Studio Image Library
+
+### Install
+
+**Updated articles**
+
+- [Visual Studio build numbers and release dates](../install/visual-studio-build-numbers-and-release-dates.md) - Patch Tuesday updates
+
+### MSBuild
+
+**Updated articles**
+
+- [MSBuild glossary](../msbuild/msbuild-glossary.md) - Promote glossary keys to H2
+
+### Profiling
+
+**New articles**
+
+- [Visualize dotnet counters from the Visual Studio profiler](../profiling/dotnet-counters-tool.md) - Adding .NET Counters tool doc
+
+### Test
+
+**Updated articles**
+
+- [Run unit tests with Test Explorer](../test/run-unit-tests-with-test-explorer.md) - Add test audio cue doc
 
 ## December 2020
 ### Azure

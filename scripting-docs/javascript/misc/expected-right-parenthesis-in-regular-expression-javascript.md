@@ -1,4 +1,5 @@
 ---
+description: "You attempted to create a regular expression capture, assertion, or group, but did not include the closing parenthesis."
 title: "Expected ')' in regular expression (JavaScript) | Microsoft Docs"
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows

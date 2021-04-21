@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: 4e529a43-7aed-4eee-895d-862a631952df
-ms.date: 09/21/2020
+ms.date: 03/21/2021
 ms.topic: conceptual
 description:  Learn how admins can assign licenses to subscribers
 ---
@@ -62,6 +62,8 @@ Using a notification email address provides you with the option to allow your su
 After you add a subscriber, an assignment email will be automatically sent to the new subscriber with further instructions. You can send the assignment email again at any time by selecting the subscriber and then selecting the **Resend** button in the top menu.  To resend emails to multiple users, hold down the **Ctrl** key while selecting the subscribers.  When you select the **Resend** button, you'll see a dialog asking you to confirm you want to resend to those subscribers.  
 
 
+## Resources
+- Need help?  Contact [Subscriptions Support](https://aka.ms/vsadminhelp).
 
 ## See also
 - [Visual Studio documentation](/visualstudio/)
@@ -69,7 +71,5 @@ After you add a subscriber, an assignment email will be automatically sent to th
 - [Azure documentation](/azure/)
 - [Microsoft 365 documentation](/microsoft-365/)
 
-
 ## Next steps
 - Have a lot of users to add?  Learn how to assign subscriptions to [multiple subscribers](assign-license-bulk.md).
-- Need help?  Contact [Visual Studio Administration and Subscriptions Support](https://visualstudio.microsoft.com/support/support-overview-vs).

@@ -1,4 +1,5 @@
 ---
+description: "This function returns additional capabilities supported by the source control plug-in."
 title: SccGetExtendedCapabilities Function | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: conceptual
@@ -7,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - SccGetExtendedCapabilities function
 ms.assetid: 588c6a92-2147-4d8b-a357-96ca7da0a092
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk

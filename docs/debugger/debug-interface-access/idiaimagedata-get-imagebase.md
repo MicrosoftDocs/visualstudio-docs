@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the memory location where the image should be based."
 title: "IDiaImageData::get_imageBase | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

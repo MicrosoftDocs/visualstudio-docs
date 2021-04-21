@@ -1,4 +1,5 @@
 ---
+description: "Each unique function signature is identified by a SymTagFunctionType symbol."
 title: "FunctionType | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

@@ -1,7 +1,7 @@
 ---
 title: "Create a Node.js and Express app"
 description: In this tutorial, learn how to create a simple Node.js application using the Express web application framework in Visual Studio.
-ms.date: 04/20/2020
+ms.date: 03/25/2021
 ms.topic: tutorial
 ms.devlang: javascript
 author: mikejo5000
@@ -267,3 +267,6 @@ Congratulations on completing this tutorial!
 
 > [!div class="nextstepaction"]
 > [Deploy the app to Linux App Service](../javascript/publish-nodejs-app-azure.md)
+
+> [!div class="nextstepaction"]
+> [AngularJS language service extension](https://devblogs.microsoft.com/visualstudio/angular-language-service-for-visual-studio)

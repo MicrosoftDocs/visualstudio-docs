@@ -1,4 +1,5 @@
 ---
+description: "Maintains stack context between invocations of the IDiaFrameData::execute) method."
 title: "IDiaStackWalkFrame | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the virtual table shape symbol identifier of the symbol."
 title: "IDiaSymbol::get_virtualTableShapeId | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

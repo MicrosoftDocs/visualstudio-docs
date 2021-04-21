@@ -1,4 +1,5 @@
 ---
+description: "When you are stepping into an XML Web service from calling code, the call may sometimes time out, with the result being that you cannot continue debugging."
 title: "Timeout While Debugging Web Services | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "error-reference"

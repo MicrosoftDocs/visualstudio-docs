@@ -1,7 +1,7 @@
 ---
 title: "Create an ASP.NET Core app with TypeScript"
 description: In this tutorial, you create an app using ASP.NET Core and TypeScript
-ms.date: 03/16/2020
+ms.date: 03/25/2021
 ms.topic: tutorial
 ms.devlang: javascript
 author: mikejo5000
@@ -242,7 +242,7 @@ In this tutorial, you begin with a simple project containing code for an ASP.NET
       showMsg: function (): void {
          let v: any = jQuery.fn.jquery.toString();
          let content: any = $("#ts-example-2")[0].innerHTML;
-         alert(content.toString());
+         alert(content.toString() + " " + v + "!!");
          $("#ts-example-2")[0].innerHTML = content + " " + v + "!!";
       }
    };
@@ -281,7 +281,10 @@ In this tutorial, you begin with a simple project containing code for an ASP.NET
 
 ## Next steps
 
-You may want to learn more details about using TypeScript with ASP.NET Core.
+You may want to learn more details about using TypeScript with ASP.NET Core. If you are interested in AngularJS programming in Visual Studio, you can use the [AngularJS language service extension](https://devblogs.microsoft.com/visualstudio/angular-language-service-for-visual-studio) for Visual Studio.
 
 > [!div class="nextstepaction"]
 > [ASP.NET Core and TypeScript](https://www.typescriptlang.org/docs/handbook/asp-net-core.html)
+
+> [!div class="nextstepaction"]
+> [AngularJS language service extension](https://devblogs.microsoft.com/visualstudio/angular-language-service-for-visual-studio)

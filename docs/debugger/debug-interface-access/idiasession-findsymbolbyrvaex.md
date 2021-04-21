@@ -1,4 +1,5 @@
 ---
+description: "Retrieves a specified symbol type that contains, or is closest to, a specified relative virtual address (RVA) and offset."
 title: "IDiaSession::findSymbolByRVAEx | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

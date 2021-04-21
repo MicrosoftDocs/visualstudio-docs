@@ -1,4 +1,5 @@
 ---
+description: "Retrieves a flag that specifies whether the function contains a use of the longjmp) command (paired with a setjmp(/cpp/c-runtime-library/reference/setjmp) command, these form the C-style method of exception handling)."
 title: "IDiaSymbol::get_hasLongJump | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

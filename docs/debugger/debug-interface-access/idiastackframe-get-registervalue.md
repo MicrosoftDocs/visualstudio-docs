@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the value of a specified register as stored in the stack frame."
 title: "IDiaStackFrame::get_registerValue | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

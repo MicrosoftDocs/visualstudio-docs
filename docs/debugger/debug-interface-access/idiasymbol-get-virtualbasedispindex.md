@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the index of the symbol in the virtual base displacement table."
 title: "IDiaSymbol::get_virtualBaseDispIndex | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

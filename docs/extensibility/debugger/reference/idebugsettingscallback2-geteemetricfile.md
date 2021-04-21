@@ -1,12 +1,13 @@
 ---
+description: "Retrieves the expression evaluator metric file given the name or the metric."
 title: IDebugSettingsCallback2::GetEEMetricFile | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - IDebugSettingsCallback2::GetEEMetricFile
 ms.assetid: 3a0bf9e5-bbd2-4d15-840d-8244732787fc
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk

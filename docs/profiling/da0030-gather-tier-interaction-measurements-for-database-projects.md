@@ -1,5 +1,6 @@
 ---
 title: DA0030 - Gather Tier Interaction measurements for database projects | Microsoft Docs
+description: "Calls to System.Data methods are a significant proportion of the profiling data and you have not collected tier interaction data in the profiling run. Consider profiling again and adding tier interaction data."
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords: 

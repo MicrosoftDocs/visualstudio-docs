@@ -33,7 +33,7 @@ This topic describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprv
 
    - The [/start](../profiling/start.md) option initializes the profiler.
 
-     | | |
+     | Command | Description |
      |-------------------------------------| - |
      | **/start:concurrency** | Enables collecting both resource contention and thread execution data. |
      | **/start:concurrency,resourceonly** | Enables collecting only resource contention data. |

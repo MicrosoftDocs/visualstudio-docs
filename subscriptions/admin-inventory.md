@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: 7d74e113-8fb2-490e-8502-48cce7b1327a
-ms.date: 01/14/2021
+ms.date: 03/19/2021
 ms.topic: conceptual
 description:  Learn about admins' responsibility to conduct pre-production inventories
 ---
@@ -25,7 +25,7 @@ Here are some ways to simplify taking inventory of your pre-production environme
 
 ## Resources
 - [Visual Studio licensing white paper](https://visualstudio.microsoft.com/wp-content/uploads/2019/06/Visual-Studio-Licensing-Whitepaper-May-2019.pdf)
-- [Visual Studio subscriptions support](https://my.visualstudio.com/gethelp)
+- [Visual Studio subscriptions support](https://aka.ms/vsadminhelp)
 - [Volume Licensing terms](https://www.microsoft.com/licensing/product-licensing/products.aspx)
 
 ## See also

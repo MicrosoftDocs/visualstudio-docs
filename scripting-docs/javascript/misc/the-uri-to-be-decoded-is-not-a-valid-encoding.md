@@ -1,4 +1,5 @@
 ---
+description: "You attempted to decode an improperly formed URI."
 title: "The URI to be decoded is not a valid encoding | Microsoft Docs"
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows

@@ -1,4 +1,5 @@
 ---
+description: "Retrieves all children of a specified parent identifier that match the name and symbol type."
 title: "IDiaSession::findChildren | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

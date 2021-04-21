@@ -1,4 +1,5 @@
 ---
+description: "Resets an enumeration sequence of section contributions to the beginning."
 title: "IDiaEnumSectionContribs::Reset | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

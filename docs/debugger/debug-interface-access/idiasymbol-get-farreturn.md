@@ -1,4 +1,5 @@
 ---
+description: "Retrieves a flag that specifies whether the function contains a far return."
 title: "IDiaSymbol::get_farReturn | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

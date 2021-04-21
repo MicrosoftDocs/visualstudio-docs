@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the object file name to which the source was compiled."
 title: "IDiaInjectedSource::get_objectFilename | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

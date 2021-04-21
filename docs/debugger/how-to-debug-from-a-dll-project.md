@@ -1,8 +1,8 @@
 ---
 title: Debug from a DLL Project | Microsoft Docs
-Description: You can start the debugging of a DLL project from the project itself, by specifying the calling app in the project properties. See this article for details.
+description: You can start the debugging of a DLL project from the project itself, by specifying the calling app in the project properties. See this article for details.
 ms.custom: SEO-VS-2020
-ms.date: 10/10/2018
+ms.date: 3/30/2021
 ms.topic: how-to
 dev_langs: 
   - CSharp
@@ -75,7 +75,13 @@ Native and managed DLL projects have different settings to specify calling apps.
 
 1. Make sure the **Solutions Configuration** field is set to **Debug**. Press **F5**, click the green **Start** arrow, or select **Debug** > **Start Debugging**.
 
-If debugging does not hit your breakpoints, make sure that your DLL output (by default, the *\<project>\Debug* folder) is the location that the calling app is calling.
+Additional tips:
+
+- If debugging does not hit your breakpoints, make sure that your DLL output (by default, the *\<project>\Debug* folder) is the location that the calling app is calling.
+
+- If you want to break into code in a managed calling app from a native DLL, or vice versa, enable [mixed mode debugging](../debugger/how-to-debug-in-mixed-mode.md).
+
+- In some scenarios, you may need to tell the debugger where to find the source code. For more information, see [Use the No Symbols Loaded/No Source Loaded pages](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md#use-the-no-symbols-loadedno-source-loaded-pages).
 
 ## See also
 - [Debugging DLL projects](../debugger/debugging-dll-projects.md)

@@ -1,4 +1,5 @@
 ---
+description: "Retrieves a flag that specifies whether the function has a custom calling convention."
 title: "IDiaSymbol::get_customCallingConvention | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

@@ -1,4 +1,5 @@
 ---
+description: "Reads the specified number of bytes starting at the specified relative virtual address (RVA) from the executable file."
 title: "IDiaReadExeAtRVACallback::ReadExecutableAtRVA | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

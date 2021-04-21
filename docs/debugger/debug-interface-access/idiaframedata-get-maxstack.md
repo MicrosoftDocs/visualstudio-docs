@@ -1,4 +1,5 @@
 ---
+description: "IDiaFrameData::get_maxStack retrieves the maximum number of bytes pushed on the stack in the frame."
 title: "IDiaFrameData::get_maxStack | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

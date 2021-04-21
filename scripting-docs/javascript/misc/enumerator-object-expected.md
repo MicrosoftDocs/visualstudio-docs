@@ -1,4 +1,5 @@
 ---
+description: "You attempted to invoke the Enumerator.prototype.atEnd, Enumerator.prototype.item, Enumerator.prototype.moveFirst, or Enumerator.prototype.moveNext method on an object of a type other than Enumerator."
 title: "Enumerator object expected | Microsoft Docs"
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows

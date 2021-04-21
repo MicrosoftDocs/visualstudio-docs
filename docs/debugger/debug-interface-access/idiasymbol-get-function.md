@@ -1,4 +1,5 @@
 ---
+description: "Retrieves a flag that specifies whether the public symbol refers to a function."
 title: "IDiaSymbol::get_function | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

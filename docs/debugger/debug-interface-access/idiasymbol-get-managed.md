@@ -1,4 +1,5 @@
 ---
+description: "Retrieves a flag that specifies whether the symbol refers to managed code."
 title: "IDiaSymbol::get_managed | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

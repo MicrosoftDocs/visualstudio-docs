@@ -1,4 +1,5 @@
 ---
+description: "Retrieves an enumerator that finds symbols in the order of their addresses."
 title: "IDiaSession::getSymbolsByAddr | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

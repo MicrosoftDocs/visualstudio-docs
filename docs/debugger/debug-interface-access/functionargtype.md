@@ -1,4 +1,5 @@
 ---
+description: "Each parameter of a function is identified by a SymTagFunctionArgType symbol."
 title: "FunctionArgType | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"

@@ -62,6 +62,10 @@
           href: install/troubleshooting-network-related-errors-in-visual-studio.md
     - name: Deploy in an enterprise
       items:
+      - name: Applying administrator updates
+        href: install/applying-administrator-updates.md
+      - name: Enabling administrator updates
+        href: install/enabling-administrator-updates.md
       - name: Automate Visual Studio installation with a response file
         href: install/automated-installation-with-response-file.md
       - name: Automatically apply product keys when deploying Visual Studio
@@ -277,8 +281,6 @@
   - name: Connect to projects in Team Explorer
     displayName: Azure DevOps VSTS
     href: ide/connect-team-project.md
-  - name: New Git experience in Visual Studio
-    href: ide/git-with-visual-studio.md
   - name: Editor
     items:
     - name: Use the editor
@@ -903,6 +905,15 @@
     href: ide/walkthrough-creating-a-multiple-computer-build-environment.md
 - name: Debug >>
   href: debugger/index.yml
+- name: Version control
+  expanded: true
+  items:
+  - name: The new Git experience in Visual Studio
+    href: ide/git-with-visual-studio.md
+  - name: How Visual Studio makes source control easy
+    href: ide/git-visual-studio-source-control.md
+  - name: Compare Git and Team Explorer side-by-side
+    href: ide/git-team-explorer-feature-comparison.md
 - name: Test >>
   displayName: Unit testing
   href: test/index.yml
@@ -1070,6 +1081,8 @@
     items:
     - name: Call Hierarchy
       href: ide/reference/call-hierarchy.md
+    - name: Developer Command Prompt & Developer PowerShell
+      href: ide/reference/command-prompt-powershell.md
     - name: Preview Changes
       href: ide/preview-changes.md
     - name: Choose Toolbox items, WPF components

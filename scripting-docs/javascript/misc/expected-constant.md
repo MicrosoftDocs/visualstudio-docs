@@ -1,4 +1,5 @@
 ---
+description: "You attempted to use a (non-conditional compilation) variable in a conditional compilation test statement."
 title: "Expected constant | Microsoft Docs"
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows

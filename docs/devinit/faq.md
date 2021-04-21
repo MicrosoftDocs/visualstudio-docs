@@ -14,6 +14,9 @@ ms.technology: devinit
 ---
 # Frequently asked questions for devinit
 
+> [!IMPORTANT]
+> As of April 12th 2021, connecting to GitHub Codespaces from Visual Studio 2019 will no longer be supported and this private preview has concluded. We’re focused on evolving experiences for a cloud-powered inner loop and VDI solutions optimized for a broad set of Visual Studio workloads. As part of this `devinit` and associated tools will no longer be available. We encourage you to be involved in our developer community forum for Visual Studio for information on future previews and roadmap information.
+
 ## Is devinit just for GitHub Codespaces?
 
 For now, devinit is only available as part of the GitHub Codespaces private beta. However, we have plans to include devinit in an upcoming release of Visual Studio 2019.

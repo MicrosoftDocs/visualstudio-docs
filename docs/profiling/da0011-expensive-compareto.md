@@ -1,5 +1,6 @@
 ---
 title: DA0011 - Expensive CompareTo | Microsoft Docs
+description: "The CompareTo method of the type is expensive or allocates memory."
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords: 
