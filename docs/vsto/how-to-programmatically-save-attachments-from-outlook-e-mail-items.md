@@ -30,7 +30,7 @@ This example saves e-mail attachments to a specified folder when the mail is rec
 
 ## Example
 
-[!code-csharp[Trin_OL_SaveAttachments#1](../vsto/codesnippet/CSharp/Trin_OL_SaveAttachments/thisaddin.cs#1)]
+:::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_OL_SaveAttachments/thisaddin.cs" id="Snippet1":::
 
 ## See also
 
