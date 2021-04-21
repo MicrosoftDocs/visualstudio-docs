@@ -91,7 +91,8 @@ services:
 
 You can override certain settings by placing a file named *docker-compose.vs.debug.yml* (for **Fast** mode) or *docker-compose.vs.release.yml* (for **Regular** mode) in the same directory as your *docker-compose.yml* file. 
 
-> **Tip:** To find out the default values for any of these settings, look in *docker-compose.vs.debug.g.yml* or *docker-compose.vs.release.g.yml*.
+>[!TIP] 
+>To find out the default values for any of these settings, look in *docker-compose.vs.debug.g.yml* or *docker-compose.vs.release.g.yml*.
 
 ### Docker Compose file labels
 
