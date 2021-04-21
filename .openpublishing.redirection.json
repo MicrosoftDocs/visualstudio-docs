@@ -57563,6 +57563,11 @@
       "source_path": "mac/extending-visual-studio-mac.md",
       "redirect_url": "/visualstudio/mac/customizing-the-ide",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "gamedev/unity/extensibility/share-the-unity-log-callback-with-vstu.md",
+      "redirect_url": "/visualstudio/gamedev/unity/extensibility/programming-visual-studio-tools-for-unity",
+      "redirect_document_id": false
     }
   ]
 }

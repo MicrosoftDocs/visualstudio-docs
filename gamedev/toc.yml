@@ -18,8 +18,6 @@
       items:
       - name: Customizing project file generation
         href: unity/extensibility/customize-project-files-created-by-vstu.md
-      - name: Log callbacks
-        href: unity/extensibility/share-the-unity-log-callback-with-vstu.md
     - name: Tools for Unity changelogs
       items: 
       - name: Visual Studio
