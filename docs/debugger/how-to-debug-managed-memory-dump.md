@@ -42,7 +42,7 @@ In the example described in this article, the concern is that your app not respo
 
 1. Notice on the Memory Dump Summary page a new **Action** called **Run Diagnostics Analysis**.
 
-![Action - Diagnostics Analysis](../debugger/media/diagnostic-analyzer-dump-summary-actions.png)
+   ![Action - Diagnostics Analysis](../debugger/media/diagnostic-analyzer-dump-summary-actions.png)
 
 1. Selecting this action will start the debugger and open the new **Diagnostic Analysis** page with a list of available analyzer options, organized by the underlying symptom.
 
