@@ -57,7 +57,7 @@ To investigate these symptoms, the best options are available under **Process Re
  
 ## Review the results of the analyzers
 
-1. In this case the analyzer has found two errors. Select the analyzer result to see the **Analysis Summary** and suggested **Remediation**.
+1. In this case, the analyzer has found two errors. Select the analyzer result to see the **Analysis Summary** and suggested **Remediation**.
 
    ![Diagnostics analyzers results](../debugger/media/diagnostic-analyzer-diagnostics-analysis-results.png)
 
@@ -78,7 +78,7 @@ My next job is to find that problematic code.
 
 1. Each call stack frame corresponds to a method and by double-clicking on the stack frames Visual Studio will navigate to the code that led directly to this scenario on this thread.
 
-1. In this example there are no symbols or code, however, on the **Symbols not loaded** page you can select the **[Decompile Source code](../debugger/decompilation.md)** option.
+1. In this example, there are no symbols or code, however, on the **Symbols not loaded** page you can select the **[Decompile Source code](../debugger/decompilation.md)** option.
 
    ![Decompilation](../debugger/media/diagnostic-analyzer-decompilation.png)
 
@@ -87,7 +87,7 @@ My next job is to find that problematic code.
     > [!NOTE]  
     > The "DoSomething()" method that contains a WaitHandle.WaitOne method, which is blocking the current thread pool thread until it receives a signal.
 
-   To improve the apps responsiveness it is important to remove blocking synchronous code from all asynchronous contexts.
+   To improve the apps responsiveness, it is important to remove blocking synchronous code from all asynchronous contexts.
 
    ![Analyze decompiled code](../debugger/media/diagnostic-analyzer-decompiled-code.png)
 
