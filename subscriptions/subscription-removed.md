@@ -26,7 +26,7 @@ When your subscription is removed, you'll no longer accrue individual Azure cred
 
 To avoid losing your assets, please make sure to do one of the following if your subscription is removed:
 - Convert the subscription to pay-as-you-go.  For details, visit our [Azure DevTest Pay-As-You-Go subscriptions article](vs-azure-payg.md).  You will need to attach a payment instrument such as a credit card to this subscription. 
-- Move your assets to another Azure subscription if one is available to you.  For example, if you have an Azure subscription as part of a different Visual Studio subscription.  Instructions for [moving resources to a new subscription](https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/move-resource-group-and-subscription) are included in Azure's documentation.  
+- Move your assets to another Azure subscription if one is available to you.  For example, if you have an Azure subscription as part of a different Visual Studio subscription.  Instructions for [moving resources to a new subscription](https://docs.microsoft.com/azure/azure-resource-manager/management/move-resource-group-and-subscription) are included in Azure's documentation.  
 
   > [!IMPORTANT]
   > It is important that you move your Azure assets to another Azure subscription or change the existing Azure subscription to pay-as-you-go to avoid loss of your existing Azure assets. 
