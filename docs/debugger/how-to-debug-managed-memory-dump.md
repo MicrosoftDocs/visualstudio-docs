@@ -38,7 +38,7 @@ In the example described in this article, the concern is that your app not respo
 
 ## Opening a memory dump in Visual Studio
 
-1. Open the memory dump in Visual Studio by using the **File -> Open -> File** menu and select your memory dump.
+1. Open the memory dump in Visual Studio by using the **File > Open > File** menu command and select your memory dump.
 
 1. Notice on the Memory Dump Summary page a new **Action** called **Run Diagnostics Analysis**.
 
