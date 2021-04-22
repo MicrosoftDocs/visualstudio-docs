@@ -44,7 +44,7 @@ In the example described in this article, the concern is that your app not respo
 
    ![Action - Diagnostics Analysis](../debugger/media/diagnostic-analyzer-dump-summary-actions.png)
 
-1. Selecting this action will start the debugger and open the new **Diagnostic Analysis** page with a list of available analyzer options, organized by the underlying symptom.
+1. Select this action to start the debugger and open the new **Diagnostic Analysis** page with a list of available analyzer options, organized by the underlying symptom.
 
 
 ## Select and execute analyzers against the dump
