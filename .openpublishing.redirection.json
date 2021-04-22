@@ -45646,6 +45646,21 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/ide/git-with-visual-studio.md",
+      "redirect_url": "/visualstudio/version-control/git-with-visual-studio",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/git-visual-studio-source-control.md",
+      "redirect_url": "/visualstudio/version-control/git-visual-studio-source-control",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/git-team-explorer-feature-comparison.md",
+      "redirect_url": "/visualstudio/version-control/git-team-explorer-feature-comparison",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/ide/globalizing-applications.md",
       "redirect_url": "/visualstudio/ide/globalizing-and-localizing-applications",
       "redirect_document_id": false
@@ -52113,11 +52128,6 @@
     {
       "source_path": "docs/code-quality/ca1824-mark-assemblies-with-neutralresourceslanguageattribute.md",
       "redirect_url": "/dotnet/fundamentals/code-analysis/quality-rules/ca1824",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "docs/version-control/index.md",
-      "redirect_url": "/azure/devops/repos?view=azure-devops",
       "redirect_document_id": false
     },
     {
