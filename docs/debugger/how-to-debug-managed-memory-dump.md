@@ -59,7 +59,7 @@ In this example the concern is "app not responding to requests in a timely manne
 
 1. In this case the analyzer has found two errors. Select the analyzer result to see the **Analysis Summary** and suggested **Remediation**.
 
-![Diagnostics analyzers results](../debugger/media/diagnostic-analyzer-diagnostics-analysis-results.png)
+   ![Diagnostics analyzers results](../debugger/media/diagnostic-analyzer-diagnostics-analysis-results.png)
 
 1. The **Analysis Summary** has stated that the “CLR thread pool is experiencing starvation”. This information suggests that the CLR has currently used all available thread pool threads, which means your service cannot respond to any new requests until a thread is released.
 
