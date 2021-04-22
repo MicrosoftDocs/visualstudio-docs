@@ -51,7 +51,7 @@ In this example the concern is "app not responding to requests in a timely manne
 
 1. To investigate these symptoms, the best options are available under **Process Responsiveness** as it best matches my app's issue.
 
-![Select diagnostics analyzers](../debugger/media/diagnostic-analyzer-diagnostics-analysis-window.png)
+   ![Select diagnostics analyzers](../debugger/media/diagnostic-analyzer-diagnostics-analysis-window.png)
 
 1. Click the **Analyze** button to start the investagative process and present results based on the combination of process info and CLR data captured in the memory dump.
  
@@ -61,7 +61,7 @@ In this example the concern is "app not responding to requests in a timely manne
 
 ![Diagnostics analyzers results](../debugger/media/diagnostic-analyzer-diagnostics-analysis-results.png)
 
-1. The **Analysis Summary** has stated that the “CLR thread pool is experiencing starvation”. This information suggests that the CLR has currently used all available thread pool threads, which means your service cannot respond to any new requests until a thread is released.
+1. The **Analysis Summary** has stated that the â€œCLR thread pool is experiencing starvationâ€. This information suggests that the CLR has currently used all available thread pool threads, which means your service cannot respond to any new requests until a thread is released.
 
     > [!NOTE] 
     > The **Remediation** in this case is "Do not synchronously wait on Monitors, Events, Task, or any other objects that may block your thread. See if you can update the method to be asynchronous.".
