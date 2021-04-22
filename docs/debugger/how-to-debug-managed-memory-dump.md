@@ -76,7 +76,7 @@ My next job is to find that problematic code.
 
 ![Diagnostics analyzers link to call stack](../debugger/media/diagnostic-analyzer-call-stack.png)
 
-1. Each call stack frame corresponds to a method and by double-clicking on the stack frames Visual Studio to lead to the code that led directly to this scenario on this thread.
+1. Each call stack frame corresponds to a method and by double-clicking on the stack frames Visual Studio will navigate to the code that led directly to this scenario on this thread.
 
 1. In this example there are no symbols or code, however, on the **Symbols not loaded** page you can select the **[Decompile Source code](../debugger/decompilation.md)** option.
 
