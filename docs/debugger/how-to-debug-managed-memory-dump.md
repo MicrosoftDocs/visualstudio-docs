@@ -53,7 +53,9 @@ To investigate these symptoms, the best options are available under **Process Re
 
    ![Select diagnostics analyzers](../debugger/media/diagnostic-analyzer-diagnostics-analysis-window.png)
 
-1. Click the **Analyze** button to start the investigative process and present results based on the combination of process info and CLR data captured in the memory dump.
+1. Click the **Analyze** button to start the investigative process 
+
+1. The analyzer will present results based on the combination of process info and CLR data captured in the memory dump.
  
 ## Review the results of the analyzers
 
@@ -82,7 +84,7 @@ My next job is to find that problematic code.
 
    ![Decompilation](../debugger/media/diagnostic-analyzer-decompilation.png)
 
-1. In the decompiled source below it is evident that an asynchronous Task (ConsumeThreadPoolThread) is calling a synchronous blocking function, which our analyzer noted we should avoid.
+1. In the decompiled source below it is evident that an asynchronous Task (ConsumeThreadPoolThread) is calling a synchronous blocking function.
 
     > [!NOTE]  
     > The "DoSomething()" method that contains a WaitHandle.WaitOne method, which is blocking the current thread pool thread until it receives a signal.
