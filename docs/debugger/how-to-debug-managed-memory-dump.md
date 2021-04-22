@@ -87,7 +87,7 @@ My next job is to find that problematic code.
     > [!NOTE]  
     > The "DoSomething()" method that contains a WaitHandle.WaitOne method, which is blocking the current thread pool thread until it receives a signal.
 
-To improve the apps responsiveness it is important to remove blocking synchronous code from all asynchronous contexts.
+   To improve the apps responsiveness it is important to remove blocking synchronous code from all asynchronous contexts.
 
 ![Analyze decompiled code](../debugger/media/diagnostic-analyzer-decompiled-code.png)
 
