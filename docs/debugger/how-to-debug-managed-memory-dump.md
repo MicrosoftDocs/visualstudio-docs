@@ -33,7 +33,7 @@ In this tutorial, you will:
 > * Navigating to the problematic code
 
 
-In this example the concern is "app not responding to requests in a timely manner". 
+In the example described in this article, the concern is that your app not responding to requests in a timely manner. 
 
 
 ## Opening a memory dump in Visual Studio
