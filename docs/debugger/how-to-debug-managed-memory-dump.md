@@ -53,7 +53,7 @@ To investigate these symptoms, the best options are available under **Process Re
 
    ![Select diagnostics analyzers](../debugger/media/diagnostic-analyzer-diagnostics-analysis-window.png)
 
-1. Click the **Analyze** button to start the investagative process and present results based on the combination of process info and CLR data captured in the memory dump.
+1. Click the **Analyze** button to start the investigative process and present results based on the combination of process info and CLR data captured in the memory dump.
  
 ## Review the results of the analyzers
 
