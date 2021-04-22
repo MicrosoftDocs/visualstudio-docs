@@ -89,7 +89,7 @@ My next job is to find that problematic code.
 
    To improve the apps responsiveness it is important to remove blocking synchronous code from all asynchronous contexts.
 
-![Analyze decompiled code](../debugger/media/diagnostic-analyzer-decompiled-code.png)
+   ![Analyze decompiled code](../debugger/media/diagnostic-analyzer-decompiled-code.png)
 
 
 ## See also
