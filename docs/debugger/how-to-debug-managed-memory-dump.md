@@ -49,7 +49,7 @@ In the example described in this article, the concern is that your app not respo
 
 ## Select and execute analyzers against the dump
 
-1. To investigate these symptoms, the best options are available under **Process Responsiveness** as it best matches my app's issue.
+To investigate these symptoms, the best options are available under **Process Responsiveness** as it best matches the issue in this example.
 
    ![Select diagnostics analyzers](../debugger/media/diagnostic-analyzer-diagnostics-analysis-window.png)
 
