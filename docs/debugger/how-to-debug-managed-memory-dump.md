@@ -80,7 +80,7 @@ My next job is to find that problematic code.
 
 1. In this example there are no symbols or code, however, on the **Symbols not loaded** page you can select the **[Decompile Source code](../debugger/decompilation.md)** option.
 
-![Decompilation](../debugger/media/diagnostic-analyzer-decompilation.png)
+   ![Decompilation](../debugger/media/diagnostic-analyzer-decompilation.png)
 
 1. In the decompiled source below it is evident that an asynchronous Task (ConsumeThreadPoolThread) is calling a synchronous blocking function, which our analzer noted we should avoid.
 
