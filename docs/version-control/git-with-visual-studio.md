@@ -3,7 +3,7 @@ title: The Git experience in Visual Studio 2019
 titleSuffix: ""
 description: Learn how the new integrated Git experience in Visual Studio 2019 can help you be more productive.
 ms.date: 04/01/2021
-ms.topic: conceptual
+ms.topic: overview
 ms.author: tglee
 author: TerryGLee
 ms.manager: jillfra
