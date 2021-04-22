@@ -1,6 +1,361 @@
 {
   "redirections": [
     {
+      "source_path": "scripting-docs/javascript/misc/access-is-denied.md",
+      "redirect_url": "/archive/scripting-docs/javascript/misc/access-is-denied",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "scripting-docs/javascript/misc/array-length-must-be-a-finite-positive-integer.md",
+      "redirect_url": "/archive/scripting-docs/javascript/misc/array-length-must-be-a-finite-positive-integer",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "scripting-docs/javascript/misc/array-length-must-be-assigned-a-finite-positive-number.md",
+      "redirect_url": "/archive/scripting-docs/javascript/misc/array-length-must-be-assigned-a-finite-positive-number",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "scripting-docs/javascript/misc/array-or-arguments-object-expected.md",
+      "redirect_url": "/archive/scripting-docs/javascript/misc/array-or-arguments-object-expected",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "scripting-docs/javascript/misc/boolean-expected.md",
+      "redirect_url": "/archive/scripting-docs/javascript/misc/boolean-expected",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "scripting-docs/javascript/misc/can-t-have-break-outside-of-loop.md",
+      "redirect_url": "/archive/scripting-docs/javascript/misc/can-t-have-break-outside-of-loop",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "scripting-docs/javascript/misc/can-t-have-continue-outside-of-loop.md",
+      "redirect_url": "/archive/scripting-docs/javascript/misc/can-t-have-continue-outside-of-loop",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "scripting-docs/javascript/misc/cannot-assign-to-a-function-result.md",
+      "redirect_url": "/archive/scripting-docs/javascript/misc/cannot-assign-to-a-function-result",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "scripting-docs/javascript/misc/cannot-assign-to-this.md",
+      "redirect_url": "/archive/scripting-docs/javascript/misc/cannot-assign-to-this",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "scripting-docs/javascript/misc/circular-reference-in-value-argument-not-supported.md",
+      "redirect_url": "/archive/scripting-docs/javascript/misc/circular-reference-in-value-argument-not-supported",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "scripting-docs/javascript/misc/conditional-compilation-is-turned-off.md",
+      "redirect_url": "/archive/scripting-docs/javascript/misc/conditional-compilation-is-turned-off",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "scripting-docs/javascript/misc/date-object-expected.md",
+      "redirect_url": "/archive/scripting-docs/javascript/misc/date-object-expected",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "scripting-docs/javascript/misc/default-can-only-appear-once-in-a-switch-statement.md",
+      "redirect_url": "/archive/scripting-docs/javascript/misc/default-can-only-appear-once-in-a-switch-statement",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "scripting-docs/javascript/misc/enumerator-object-expected.md",
+      "redirect_url": "/archive/scripting-docs/javascript/misc/enumerator-object-expected",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "scripting-docs/javascript/misc/exception-thrown-and-not-caught.md",
+      "redirect_url": "/archive/scripting-docs/javascript/misc/exception-thrown-and-not-caught",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "scripting-docs/javascript/misc/expected-at-end.md",
+      "redirect_url": "/archive/scripting-docs/javascript/misc/expected-at-end",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "scripting-docs/javascript/misc/expected-at.md",
+      "redirect_url": "/archive/scripting-docs/javascript/misc/expected-at",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "scripting-docs/javascript/misc/expected-catch.md",
+      "redirect_url": "/archive/scripting-docs/javascript/misc/expected-catch",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "scripting-docs/javascript/misc/expected-colon.md",
+      "redirect_url": "/archive/scripting-docs/javascript/misc/expected-colon",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "scripting-docs/javascript/misc/expected-constant.md",
+      "redirect_url": "/archive/scripting-docs/javascript/misc/expected-constant",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "scripting-docs/javascript/misc/expected-equal-javascript.md",
+      "redirect_url": "/archive/scripting-docs/javascript/misc/expected-equal-javascript",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "scripting-docs/javascript/misc/expected-hexadecimal-digit.md",
+      "redirect_url": "/archive/scripting-docs/javascript/misc/expected-hexadecimal-digit",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "scripting-docs/javascript/misc/expected-identifier-javascript.md",
+      "redirect_url": "/archive/scripting-docs/javascript/misc/expected-identifier-javascript",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "scripting-docs/javascript/misc/expected-identifier-string-or-number.md",
+      "redirect_url": "/archive/scripting-docs/javascript/misc/expected-identifier-string-or-number",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "scripting-docs/javascript/misc/expected-left-curly-brace.md",
+      "redirect_url": "/archive/scripting-docs/javascript/misc/expected-left-curly-brace",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "scripting-docs/javascript/misc/expected-left-parenthesis-javascript.md",
+      "redirect_url": "/archive/scripting-docs/javascript/misc/expected-left-parenthesis-javascript",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "scripting-docs/javascript/misc/expected-minus.md",
+      "redirect_url": "/archive/scripting-docs/javascript/misc/expected-minus",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "scripting-docs/javascript/misc/expected-right-curly-brace.md",
+      "redirect_url": "/archive/scripting-docs/javascript/misc/expected-right-curly-brace",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "scripting-docs/javascript/misc/expected-right-parenthesis-in-regular-expression-javascript.md",
+      "redirect_url": "/archive/scripting-docs/javascript/misc/expected-right-parenthesis-in-regular-expression-javascript",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "scripting-docs/javascript/misc/expected-right-parenthesis-javascript.md",
+      "redirect_url": "/archive/scripting-docs/javascript/misc/expected-right-parenthesis-javascript",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "scripting-docs/javascript/misc/expected-right-square-bracket-in-regular-expression-javascript.md",
+      "redirect_url": "/archive/scripting-docs/javascript/misc/expected-right-square-bracket-in-regular-expression-javascript",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "scripting-docs/javascript/misc/expected-right-square-bracket.md",
+      "redirect_url": "/archive/scripting-docs/javascript/misc/expected-right-square-bracket",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "scripting-docs/javascript/misc/expected-semicolon.md",
+      "redirect_url": "/archive/scripting-docs/javascript/misc/expected-semicolon",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "scripting-docs/javascript/misc/expected-var.md",
+      "redirect_url": "/archive/scripting-docs/javascript/misc/expected-var",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "scripting-docs/javascript/misc/expected-while.md",
+      "redirect_url": "/archive/scripting-docs/javascript/misc/expected-while",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "scripting-docs/javascript/misc/false-windows-script-technologies.md",
+      "redirect_url": "/archive/scripting-docs/javascript/misc/false-windows-script-technologies",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "scripting-docs/javascript/misc/function-does-not-have-a-valid-prototype-object.md",
+      "redirect_url": "/archive/scripting-docs/javascript/misc/function-does-not-have-a-valid-prototype-object",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "scripting-docs/javascript/misc/function-expected.md",
+      "redirect_url": "/archive/scripting-docs/javascript/misc/function-expected",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "scripting-docs/javascript/misc/illegal-assignment-javascript.md",
+      "redirect_url": "/archive/scripting-docs/javascript/misc/illegal-assignment-javascript",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "scripting-docs/javascript/misc/invalid-character-javascript.md",
+      "redirect_url": "/archive/scripting-docs/javascript/misc/invalid-character-javascript",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "scripting-docs/javascript/misc/invalid-number.md",
+      "redirect_url": "/archive/scripting-docs/javascript/misc/invalid-number",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "scripting-docs/javascript/misc/invalid-range-in-character-set-javascript.md",
+      "redirect_url": "/archive/scripting-docs/javascript/misc/invalid-range-in-character-set-javascript",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "scripting-docs/javascript/misc/invalid-replacer-argument.md",
+      "redirect_url": "/archive/scripting-docs/javascript/misc/invalid-replacer-argument",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "scripting-docs/javascript/misc/javascript-object-expected.md",
+      "redirect_url": "/archive/scripting-docs/javascript/misc/javascript-object-expected",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "scripting-docs/javascript/misc/label-not-found.md",
+      "redirect_url": "/archive/scripting-docs/javascript/misc/label-not-found",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "scripting-docs/javascript/misc/label-redefined.md",
+      "redirect_url": "/archive/scripting-docs/javascript/misc/label-redefined",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "scripting-docs/javascript/misc/number-expected.md",
+      "redirect_url": "/archive/scripting-docs/javascript/misc/number-expected",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "scripting-docs/javascript/misc/object-doesn-t-support-this-property-or-method.md",
+      "redirect_url": "/archive/scripting-docs/javascript/misc/object-doesn-t-support-this-property-or-method",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "scripting-docs/javascript/misc/object-expected.md",
+      "redirect_url": "/archive/scripting-docs/javascript/misc/object-expected",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "scripting-docs/javascript/misc/object-member-expected.md",
+      "redirect_url": "/archive/scripting-docs/javascript/misc/object-member-expected",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "scripting-docs/javascript/misc/operator-subtractsummary-javascript.md",
+      "redirect_url": "/archive/scripting-docs/javascript/misc/operator-subtractsummary-javascript",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "scripting-docs/javascript/misc/regular-expression-object-expected.md",
+      "redirect_url": "/archive/scripting-docs/javascript/misc/regular-expression-object-expected",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "scripting-docs/javascript/misc/return-statement-outside-of-function.md",
+      "redirect_url": "/archive/scripting-docs/javascript/misc/return-statement-outside-of-function",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "scripting-docs/javascript/misc/setter-functions-must-have-one-argument.md",
+      "redirect_url": "/archive/scripting-docs/javascript/misc/setter-functions-must-have-one-argument",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "scripting-docs/javascript/misc/string-expected.md",
+      "redirect_url": "/archive/scripting-docs/javascript/misc/string-expected",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "scripting-docs/javascript/misc/syntax-error-in-regular-expression-javascript.md",
+      "redirect_url": "/archive/scripting-docs/javascript/misc/syntax-error-in-regular-expression-javascript",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "scripting-docs/javascript/misc/syntax-error-javascript.md",
+      "redirect_url": "/archive/scripting-docs/javascript/misc/syntax-error-javascript",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "scripting-docs/javascript/misc/the-number-of-fractional-digits-is-out-of-range.md",
+      "redirect_url": "/archive/scripting-docs/javascript/misc/the-number-of-fractional-digits-is-out-of-range",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "scripting-docs/javascript/misc/the-precision-is-out-of-range.md",
+      "redirect_url": "/archive/scripting-docs/javascript/misc/the-precision-is-out-of-range",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "scripting-docs/javascript/misc/the-uri-to-be-decoded-is-not-a-valid-encoding.md",
+      "redirect_url": "/archive/scripting-docs/javascript/misc/the-uri-to-be-decoded-is-not-a-valid-encoding",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "scripting-docs/javascript/misc/the-uri-to-be-encoded-contains-an-invalid-character.md",
+      "redirect_url": "/archive/scripting-docs/javascript/misc/the-uri-to-be-encoded-contains-an-invalid-character",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "scripting-docs/javascript/misc/the-use-of-a-future-reserved-word-for-an-identifier-is-invalid.md",
+      "redirect_url": "/archive/scripting-docs/javascript/misc/the-use-of-a-future-reserved-word-for-an-identifier-is-invalid",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "scripting-docs/javascript/misc/the-use-of-a-keyword-for-an-identifier-is-invalid.md",
+      "redirect_url": "/archive/scripting-docs/javascript/misc/the-use-of-a-keyword-for-an-identifier-is-invalid",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "scripting-docs/javascript/misc/throw-must-be-followed-by-an-expression-on-the-same-source-line.md",
+      "redirect_url": "/archive/scripting-docs/javascript/misc/throw-must-be-followed-by-an-expression-on-the-same-source-line",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "scripting-docs/javascript/misc/true-keyword.md",
+      "redirect_url": "/archive/scripting-docs/javascript/misc/true-keyword",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "scripting-docs/javascript/misc/undefined-identifier.md",
+      "redirect_url": "/archive/scripting-docs/javascript/misc/undefined-identifier",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "scripting-docs/javascript/misc/unexpected-quantifier-javascript.md",
+      "redirect_url": "/archive/scripting-docs/javascript/misc/unexpected-quantifier-javascript",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "scripting-docs/javascript/misc/unterminated-comment.md",
+      "redirect_url": "/archive/scripting-docs/javascript/misc/unterminated-comment",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "scripting-docs/javascript/misc/unterminated-string-constant-javascript.md",
+      "redirect_url": "/archive/scripting-docs/javascript/misc/unterminated-string-constant-javascript",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "scripting-docs/javascript/misc/vbarray-expected.md",
+      "redirect_url": "/archive/scripting-docs/javascript/misc/vbarray-expected",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "scripting-docs/javascript/misc/with-not-available-in-the-ecma-327-compact-profile.md",
+      "redirect_url": "/archive/scripting-docs/javascript/misc/with-not-available-in-the-ecma-327-compact-profile",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/vs-2015/welcome-to-visual-studio-2015.md",
       "redirect_url": "/previous-versions/visualstudio/visual-studio-2015/welcome-to-visual-studio-2015",
       "redirect_document_id": false,
