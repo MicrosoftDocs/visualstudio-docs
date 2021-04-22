@@ -74,7 +74,7 @@ My next job is to find that problematic code.
 
 1. The **Call Stack** window will show methods that might potentially quickly distinguish between my code (SyncOverAsyncExmple.*) from Framework code (System.*).
 
-![Diagnostics analyzers link to call stack](../debugger/media/diagnostic-analyzer-call-stack.png)
+   ![Diagnostics analyzers link to call stack](../debugger/media/diagnostic-analyzer-call-stack.png)
 
 1. Each call stack frame corresponds to a method and by double-clicking on the stack frames Visual Studio to lead to the code that led directly to this scenario on this thread.
 
