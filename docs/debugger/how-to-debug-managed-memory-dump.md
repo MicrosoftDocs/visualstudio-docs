@@ -82,7 +82,7 @@ My next job is to find that problematic code.
 
    ![Decompilation](../debugger/media/diagnostic-analyzer-decompilation.png)
 
-1. In the decompiled source below it is evident that an asynchronous Task (ConsumeThreadPoolThread) is calling a synchronous blocking function, which our analzer noted we should avoid.
+1. In the decompiled source below it is evident that an asynchronous Task (ConsumeThreadPoolThread) is calling a synchronous blocking function, which our analyzer noted we should avoid.
 
     > [!NOTE]  
     > The "DoSomething()" method that contains a WaitHandle.WaitOne method, which is blocking the current thread pool thread until it receives a signal.
