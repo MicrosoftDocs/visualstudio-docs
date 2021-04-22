@@ -688,7 +688,7 @@
     items:
     - name: Use dump files
       href: using-dump-files.md
-    - name: How to debug a managed memory dump with .NET Diagnostic Analyzers 
+    - name: Debug a managed memory dump
       href: how-to-debug-managed-memory-dump.md
     - name: Dump File Summary Extensibility API
       href: dump-file-summary-extensibility-api.md
