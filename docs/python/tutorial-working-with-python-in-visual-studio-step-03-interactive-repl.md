@@ -35,7 +35,7 @@ The Visual Studio **Interactive** window for Python provides a rich read-evaluat
 
     ![Python interactive window immediate results](media/vs-getting-started-python-12-interactive2.png)
 
-1. When you start writing a multiline statement, like a function definition, the **Interactive** window shows Python's **...** prompt for continuing lines, which, unlike the command-line REPL, provides automatic indentation:
+1. When you start writing a multiline statement, like a function definition, the **Interactive** window shows Python's **...** prompt for continuing lines, which, unlike the command-line REPL, provides automatic indentation. To add a new **...** line, press `Shift+Enter`:
 
     ![Python interactive window with statement continuation](media/vs-getting-started-python-13-interactive3.png)
 
