@@ -2,7 +2,7 @@
 title: Applying administrator updates to Visual Studio with Microsoft Endpoint Configuration Manager
 titleSuffix: ''
 description: Learn how to apply administrator updates to Visual Studio.
-ms.date: 04/07/2021
+ms.date: 04/16/2021
 ms.custom: 
 ms.topic: overview
 ms.assetid: 9a3fdb28-db3d-4970-bc17-7417a985f0fb
@@ -16,11 +16,11 @@ ms.technology: vs-installation
 ---
 # Applying administrator updates that use Microsoft Endpoint Configuration Manager
 
-This document describes different types and characteristics of Visual Studio administrator updates. Below, you will find information about how and when they should be distributed throughout your organization, what configuration options are available, and how to view reports and troubleshoot. For more information about the pre-requisites for using administrator updates, see [Enabling administrator updates](../install/enabling-administrator-updates.md).
+This document describes different types and characteristics of Visual Studio administrator updates. Below, you will find information about how and when they should be distributed throughout your organization, what configuration options are available, and how to view reports and troubleshoot. For more information about the pre-requisites for using administrator updates, see [Enabling administrator updates](../install/enabling-administrator-updates.md). Administrator updates presumes that Visual Studio is already installed on the computer. Applying administrator updates will not initiate a brand new installation.
 
 ## Understanding Visual Studio administrator updates 
 
-The Visual Studio administrator update package that is published to Microsoft Update for consumption by the Microsoft Catalog and WSUS contains information that the Configuration Manager needs to be able to download and distribute the update to Visual Studio to client machines. It also contains information that an IT administrator needs in order to decide which updates to distribute throughout the organization, and it facilitates maintenance of network layouts. The Visual Studio administrator update packages don’t contain enough information to do a fresh installation of the product, nor do they contain any of the actual product binaries that are published to the Content Delivery Network. Visual Studio administrator updates are cumulative, just like regular Visual Studio updates. You can assume that any Visual Studio update that has a higher product version number and a later release date is a superset of an older, lower version. 
+The Visual Studio administrator update package that is published to Microsoft Update for consumption by the Microsoft Catalog and WSUS contains information that the Configuration Manager needs to be able to download and distribute the Visual Studio update to client machines. It also contains information that an IT administrator needs in order to decide which updates to distribute throughout the organization. It can also be used to facilitate maintenance of network layouts. The Visual Studio administrator update packages don’t contain enough information to do a fresh installation of the product, nor do they contain any of the actual product binaries that are published to the Content Delivery Network. Visual Studio administrator updates are cumulative, just like regular Visual Studio updates. You can assume that any Visual Studio update that has a higher product version number and a later release date is a superset of an older, lower version. 
 
 Visual Studio administrator updates apply to Visual Studio servicing versions that are under support. For more information about which Visual Studio servicing baselines are still in support during a particular timeframe, see [Visual Studio Product Lifecycle and Servicing](https://docs.microsoft.com/visualstudio/productinfo/vs-servicing-vs). All supported Visual Studio servicing baselines will be kept secure.  
 
