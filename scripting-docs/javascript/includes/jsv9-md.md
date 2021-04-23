@@ -1,3 +1,0 @@
-Supported in the following document modes: Internet Explorer 9 standards, Internet Explorer 10 standards, and Internet Explorer 11 standards. Also supported in Store apps (Windows 8 and Windows Phone 8.1). See [Version Information](/microsoft-edge/dev-guide/whats-new/javascript-version-information).  
-  
- Not supported in the following document modes: Quirks, Internet Explorer 6 standards, Internet Explorer 7 standards, Internet Explorer 8 standards.

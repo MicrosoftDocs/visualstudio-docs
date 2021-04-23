@@ -1,1 +1,0 @@
-Internet Explorer 9 standards mode, Internet Explorer 10 standards mode, Internet Explorer 11 standards mode, and Windows Store apps
