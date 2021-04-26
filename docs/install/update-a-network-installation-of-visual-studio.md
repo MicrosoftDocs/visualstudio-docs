@@ -1,7 +1,7 @@
 ---
 title: Update a network-based installation
 description: Learn how to update a network-based Visual Studio installation by using the --layout command
-ms.date: 04/06/2021
+ms.date: 04/16/2021
 ms.custom: seodec18
 ms.topic: conceptual
 helpviewer_keywords:
@@ -23,9 +23,9 @@ It's possible to update a network installation layout of Visual Studio with the 
 ## How to update a network layout
 
 > [!IMPORTANT]
-> These instructions assume that you've previously created a network installation layout. For more information about how to do so, see the [Create a network installation of Visual Studio](create-a-network-installation-of-visual-studio.md) page.
+> These instructions assume that you've previously created a network installation layout and made some decisions about how the client is supposed to get the updates. For more information about how to do this, see the [Create a network installation of Visual Studio](create-a-network-installation-of-visual-studio.md) and [Control updates to Visual Studio deployments](../install/controlling-updates-to-visual-studio-deployments.md) page.
 
-To refresh your network install share so that it includes the latest updates, run the `--layout` command to incrementally download updated packages.
+To refresh your network install share so that it includes the latest updates, run the bootstrapper using the `--layout` parameter to download the updated packages.
 
 If you selected a partial layout when you [first created the network layout](create-a-network-installation-of-visual-studio.md), those settings are saved. Any future layout commands use the previous options plus any new options that you specify.
 

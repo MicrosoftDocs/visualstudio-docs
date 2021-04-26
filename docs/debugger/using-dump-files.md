@@ -39,6 +39,10 @@ The Visual Studio debugger can save dump files for managed or native code. It ca
 
 - To debug dump files from 64-bit machines, Visual Studio must be running on a 64-bit machine.
 
+::: moniker range=">= vs-2019"
+- Visual Studio can debug dump files of managed apps from Linux OS. 
+::: moniker-end
+
 - Visual Studio can debug dump files of native apps from ARM devices. It can also debug dumps of managed apps from ARM devices, but only in the native debugger.
 
 - To debug [kernel-mode](/windows-hardware/drivers/debugger/kernel-mode-dump-files) dump files or use the [SOS.dll](/dotnet/framework/tools/sos-dll-sos-debugging-extension) debugging extension in Visual Studio, download the debugging tools for Windows in the [Windows Driver Kit (WDK)](/windows-hardware/drivers/download-the-wdk).
@@ -111,6 +115,7 @@ If Visual Studio can't find the files it needs to debug a module in the dump, it
 
 ## See also
 
+- [How to debug a managed memory dump with .NET Diagnostic Analyzers](../debugger/how-to-debug-managed-memory-dump.md)
 - [Just-In-Time debugging](../debugger/just-in-time-debugging-in-visual-studio.md)
 - [Specify symbol (.pdb) and source files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)
 - [IntelliTrace](../debugger/intellitrace.md)

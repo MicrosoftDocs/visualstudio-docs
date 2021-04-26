@@ -22,8 +22,8 @@ ms.workload:
  [!INCLUDE[appliesto_olkallapp](../vsto/includes/appliesto-olkallapp-md.md)]
 
 ## Example
- [!code-csharp[Trin_Outlook_RL_SearchForContact#1](../vsto/codesnippet/CSharp/trin_outlook_rl_searchforcontact/thisaddin.cs#1)]
- [!code-vb[Trin_Outlook_RL_SearchForContact#1](../vsto/codesnippet/VisualBasic/trin_outlook_rl_searchforcontact/thisaddin.vb#1)]
+ :::code language="csharp" source="../vsto/codesnippet/CSharp/trin_outlook_rl_searchforcontact/thisaddin.cs" id="Snippet1":::
+ :::code language="vb" source="../vsto/codesnippet/VisualBasic/trin_outlook_rl_searchforcontact/thisaddin.vb" id="Snippet1":::
 
 ## See also
 - [Work with contact items](../vsto/working-with-contact-items.md)
