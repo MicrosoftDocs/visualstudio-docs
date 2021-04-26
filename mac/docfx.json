@@ -86,7 +86,8 @@
       "ms.technology": "vs-ide-general",
       "searchScope": [
         "Mac"
-      ]
+      ],
+      "recommendations": true
     },
     "fileMetadata": {
       "breadcrumb_path": {
