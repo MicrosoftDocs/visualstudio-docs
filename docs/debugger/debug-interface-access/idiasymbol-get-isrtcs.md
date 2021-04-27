@@ -20,7 +20,7 @@ Returns a value that tells whether the function was compiled with stack frame ru
 ## Syntax
 
 ```C++
-HRESULT get_framePadSize ( 
+HRESULT get_isRTCs ( 
    DWORD* pRetVal
 );
 ```

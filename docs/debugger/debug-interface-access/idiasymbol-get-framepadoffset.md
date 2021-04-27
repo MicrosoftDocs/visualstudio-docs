@@ -21,13 +21,13 @@ Retrieves the offset of the stack pad from the frame pointer register.
 
 ```C++
 HRESULT get_framePadOffset ( 
-   DWORD* pPadSize
+   DWORD* pPadOffset
 );
 ```
 
 #### Parameters
 
- `pPadSize`
+ `pPadOffset`
 
 [out] Returns the offset of the stack pad.
 
