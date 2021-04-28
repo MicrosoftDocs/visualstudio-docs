@@ -879,6 +879,10 @@
           href: idiasymbol-get-editandcontinueenabled.md
         - name: IDiaSymbol::get_farReturn
           href: idiasymbol-get-farreturn.md
+        - name: IDiaSymbol::get_framePadOffset
+          href: idiasymbol-get-framepadoffset.md
+        - name: IDiaSymbol::get_framePadSize
+          href: idiasymbol-get-framepadsize.md  
         - name: IDiaSymbol::get_framePointerPresent
           href: idiasymbol-get-framepointerpresent.md
         - name: IDiaSymbol::get_frontEndBuild
@@ -969,6 +973,8 @@
           href: idiasymbol-get-ispointertomemberfunction.md
         - name: IDiaSymbol::get_isReturnValue
           href: idiasymbol-get-isreturnvalue.md
+        - name: IDiaSymbol::get_isRTCs
+          href: idiasymbol-get-isrtcs.md  
         - name: IDiaSymbol::get_isSafeBuffers
           href: idiasymbol-get-issafebuffers.md
         - name: IDiaSymbol::get_isSdl

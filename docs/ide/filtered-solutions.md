@@ -8,7 +8,7 @@ ms.topic: conceptual
 helpviewer_keywords:
  - "filtered solution"
  - "solution filtering"
-author: jillre
+author: TerryGLee
 ms.author: stsu
 manager: jmartens
 monikerRange: ">= vs-2019"
