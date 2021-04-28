@@ -218,5 +218,5 @@ Use the following attributes to exclude an entire assembly of tests from Live Un
 
 - [Code testing tools](https://visualstudio.microsoft.com/vs/testing-tools/)
 - [Live Unit Testing blog](https://devblogs.microsoft.com/visualstudio/live-unit-testing-in-visual-studio-2017-enterprise/)
-- [Live Unit Testing FAQ](live-unit-testing-faq.md)
+- [Live Unit Testing FAQ](live-unit-testing-faq.yml)
 - [Channel 9 video: Live Unit Testing in Visual Studio](https://channel9.msdn.com/Events/Visual-Studio/Visual-Studio-2017-Launch/T105)
