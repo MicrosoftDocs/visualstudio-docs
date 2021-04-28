@@ -64,7 +64,7 @@ sections:
       - question: |
           Code analysis warnings are treated as errors
         answer: |
-          If your project uses the build option to treat warnings as errors, analyzer warnings may appear as errors. To prevent code analysis warnings from being treated as errors, follow the steps at [Code analysis FAQ](../code-quality/analyzers-faq#treat-warnings-as-errors).
+          If your project uses the build option to treat warnings as errors, analyzer warnings may appear as errors. To prevent code analysis warnings from being treated as errors, follow the steps at [Code analysis FAQ](/visualstudio/code-quality/analyzers-faq#treat-warnings-as-errors).
           
       - question: |
           See also
