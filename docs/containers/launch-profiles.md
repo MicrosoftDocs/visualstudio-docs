@@ -1,5 +1,5 @@
 ---
-title: "How to: Manage launch profiles for Docker Compose projects"
+title: "Manage launch profiles for Docker Compose projects"
 description: Learn how to use Docker Compose launch profiles and control which services are launched when you use Docker Compose in Visual Studio.
 author: ghogen
 manager: jmartens
@@ -9,13 +9,13 @@ ms.topic: how-to
 ms.date: 04/21/2021
 ms.author: ghogen
 ---
-# How to: Manage launch profiles for Docker Compose in Visual Studio
+# Manage launch profiles for Docker Compose in Visual Studio
 
-You can control which services in a multi-service Docker Compose project using Docker Compose profiles. In Visual Studio, you can configure the debugger to use a specific Docker Compose launch profile as well as further customize what is launched. By using launch profiles and Visual Studio launch settings, you can avoid running services unnecessarily when you're only trying to debug part of a larger family of services that make up your application.
+You can control which services in a multi-service Docker Compose project using Docker Compose profiles. In Visual Studio, you can configure the debugger to use a specific Docker Compose launch profile as well as further customize what is launched. By using launch profiles and Visual Studio launch settings, you can avoid running services unnecessarily when you're only trying to debug part of a larger set of services that make up your application.
 
 ## Managing launch settings
 
-Consider a Docker Compose project in which the docker-compose.yml has the following 5 services defined. It has 3 compose profiles (web, web1 and web2).
+Consider a Docker Compose project in which the *docker-compose.yml* has the following 5 services defined. It has 3 compose profiles (web, web1 and web2).
 
 ```yml
 version: '3.9'
@@ -52,7 +52,7 @@ services:
 
 In Visual Studio, choose **Debug** > **Manage Docker Compose Launch Settings**, or use Quick Launch (**Ctrl**+**Q**) and search for **Docker Compose** to find that command.
 
-![Screenshot of Debug Manage Compose Settings menu item](media/launch-settings/debug_dropdown_manage_compose.md)
+![Screenshot of Debug Manage Compose Settings menu item](media/launch-settings/debug_dropdown_manage_compose.png)
 
 It shows the three compose profiles and the five services as shown in the following screenshot:
 
