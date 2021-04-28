@@ -1,15 +1,15 @@
 ---
-title: "How to use managed identity"
+title: "How to use managed identity with Bridge to Kubernetes"
 ms.technology: vs-azure
 ms.date: 04/28/2021
 ms.topic: "conceptual"
-description: "Learn how to use managed identity in a Kubernetes cluster with Bridge to Kubernetes"
+description: "Learn how to use Azure Active Directory (Azure AD) managed identity in an AKS cluster with Bridge to Kubernetes"
 monikerRange: ">=vs-2019"
 manager: jmartens
 author: ghogen
 ms.author: ghogen
 ---
-# How to: Configure and use managed identity with Bridge to Kubernetes
+# Use managed identity with Bridge to Kubernetes
 
 If your AKS cluster uses [managed identity](/azure/active-directory/managed-identities-azure-resources/overview) security features to secure access to secrets and resources, Bridge to Kubernetes need some special configuration to ensure it can work with these features. An Azure Active Directory (AD) token needs to be downloaded to the local machine to ensure that local execution and debugging is properly secured, and this requires some special configuration in Bridge to Kubernetes. This article shows how to configure Bridge to Kubernetes to work with services that use managed identity.
 
@@ -68,4 +68,3 @@ There are other tutorials in that section as well for using managed identity to 
 ## See also
 
 [Azure Active Directory](/azure/active-directory/managed-identities-azure-resources/)
-
