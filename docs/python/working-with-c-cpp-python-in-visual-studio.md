@@ -114,7 +114,18 @@ Follow the instructions in this section to create two identical C++ projects nam
 1. At the top of the **Property Pages** dialog that appears, set **Configuration** to **All Configurations** and **Platform** to **Win32**.
 
 1. Set the specific properties as described in the following table, then select **OK**.
-
+    ::: moniker range=">=vs-2019"
+    | Tab | Property | Value |
+    | --- | --- | --- |
+    | **General** | **General** > **Target Name** | Specify the name of the module as you want to refer to it from Python in `from...import` statements. You use this same name in the C++ when defining the module for Python. If you want to use the name of the project as the module name, leave the default value of **$(ProjectName)**. |
+    | | **Advanced** > **Target File Extension** | **.pyd** |
+    | | **Project Defaults** > **Configuration Type** | **Dynamic Library (.dll)** |
+    | **C/C++** > **General** | **Additional Include Directories** | Add the Python *include* folder as appropriate for your installation, for example, `c:\Python36\include`.  |
+    | **C/C++** > **Preprocessor** | **Preprocessor Definitions** | **CPython only**: add `Py_LIMITED_API;` to the beginning of the string (including the semicolon). This definition restricts some of the functions you can call from Python and makes the code more portable between different versions of Python. If you're working with PyBind11, don't add this definition, otherwise you'll see build errors. |
+    | **C/C++** > **Code Generation** | **Runtime Library** | **Multi-threaded DLL (/MD)** (see Warning below) |
+    | **Linker** > **General** | **Additional Library Directories** | Add the Python *libs* folder containing *.lib* files as appropriate for your installation, for example, `c:\Python36\libs`. (Be sure to point to the *libs* folder that contains *.lib* files, and *not* the *Lib* folder that contains *.py* files.) |
+    ::: moniker-end
+    ::: moniker range="=vs-2017"
     | Tab | Property | Value |
     | --- | --- | --- |
     | **General** | **General** > **Target Name** | Specify the name of the module as you want to refer to it from Python in `from...import` statements. You use this same name in the C++ when defining the module for Python. If you want to use the name of the project as the module name, leave the default value of **$(ProjectName)**. |
@@ -124,7 +135,8 @@ Follow the instructions in this section to create two identical C++ projects nam
     | **C/C++** > **Preprocessor** | **Preprocessor Definitions** | **CPython only**: add `Py_LIMITED_API;` to the beginning of the string (including the semicolon). This definition restricts some of the functions you can call from Python and makes the code more portable between different versions of Python. If you're working with PyBind11, don't add this definition, otherwise you'll see build errors. |
     | **C/C++** > **Code Generation** | **Runtime Library** | **Multi-threaded DLL (/MD)** (see Warning below) |
     | **Linker** > **General** | **Additional Library Directories** | Add the Python *libs* folder containing *.lib* files as appropriate for your installation, for example, `c:\Python36\libs`. (Be sure to point to the *libs* folder that contains *.lib* files, and *not* the *Lib* folder that contains *.py* files.) |
-
+    ::: moniker-end
+    
     > [!Tip]
     > If you don't see the C/C++ tab in the project properties, it's because the project doesn't contain any files that it identifies as C/C++ source files. This condition can occur if you create a source file without a *.c* or *.cpp* extension. For example, if you accidentally entered `module.coo` instead of `module.cpp` in the new item dialog earlier, then Visual Studio creates the file but doesn't set the file type to "C/C+ Code," which is what activates the C/C++ properties tab. Such misidentification remains the case even if you rename the file with `.cpp`. To set the file type properly, right-click the file in **Solution Explorer**, select **Properties**, then set  **File Type** to **C/C++ Code**.
 
