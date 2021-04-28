@@ -40,7 +40,7 @@ HRESULT get_framePadOffset ( 
 
 ## Remarks
 
-This method is supported starting in Visual Studio 2019 version 16.10.
+This method is supported starting in Visual Studio 2019 version 16.10 Preview 2.
 
 ## Requirements
 
