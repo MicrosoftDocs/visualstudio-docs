@@ -3,8 +3,8 @@ title: Overview of GitHub Codespaces (Preview)
 description: Learn more about GitHub Codespaces with Visual Studio and how it can help extend your development environment to the cloud.
 ms.topic: overview
 ms.date: 09/04/2020
-author: TerryGLee
-ms.author: tglee
+author: gregvanl
+ms.author: gregvanl
 manager: jmartens
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
@@ -15,8 +15,8 @@ monikerRange: vs-2019
 
 # What is GitHub Codespaces? (Preview)
 
-> [!Important] 
-> As of April 12th 2021, connecting to GitHub Codespaces from Visual Studio 2019 will no longer be supported and this private preview has concluded. We're focused on evolving experiences for a cloud-powered inner loop and VDI solutions optimized for a broad set of Visual Studio workloads. We encourage you to be involved in our [developer community forum](https://developercommunity.visualstudio.com/home) for Visual Studio for information on future previews and roadmap information. 
+> [!Important]
+> As of April 12th 2021, connecting to GitHub Codespaces from Visual Studio 2019 will no longer be supported and this private preview has concluded. We're focused on evolving experiences for a cloud-powered inner loop and VDI solutions optimized for a broad set of Visual Studio workloads. We encourage you to be involved in our [developer community forum](https://developercommunity.visualstudio.com/home) for Visual Studio for information on future previews and roadmap information.
 
 Welcome to Codespaces! We're glad you're here.
 
@@ -34,9 +34,9 @@ GitHub Codespaces features are built on top of a few fundamental concepts. This 
 
 Many developers today try to code in remote setups or VMs that are configured with specific development and runtime stacks. They do so because it's too hard, too disruptive, and in some cases, near impossible to set up these development environments locally. Also, individuals want to try out new technologies or new frameworks without the fear of "messing up" the machines they need for their day-to-day work.
 
-While using remote environments and remote-capable tools empowers developers, there is often the overhead of machine management. Environment configuration often complicates onboarding and context-switching. GitHub Codespaces removes the barriers to rapid onboarding and context-switching by enabling many environments to exist simultaneously. 
+While using remote environments and remote-capable tools empowers developers, there is often the overhead of machine management. Environment configuration often complicates onboarding and context-switching. GitHub Codespaces removes the barriers to rapid onboarding and context-switching by enabling many environments to exist simultaneously.
 
-GitHub Codespaces provides managed solutions that allow you to focus on productivity over setup. GitHub Codespaces conceptually and technically extends Visual Studio 2019 for remote development. 
+GitHub Codespaces provides managed solutions that allow you to focus on productivity over setup. GitHub Codespaces conceptually and technically extends Visual Studio 2019 for remote development.
 
 ### About codespaces
 
