@@ -31,28 +31,31 @@ The completed sample from this walkthrough can be found on [python-samples-vs-cp
 
 ## Prerequisites
 
-- Visual Studio 2017 or later with the **Python Development** workload installed with the optional **Python native development tools** item selected. (This option includes the C++ workload and toolsets necessary to build native extensions.)
+- Visual Studio 2017 or later with the **Python Development** workload installed, including the **Python native development tools**, which brings in the C++ workload and toolsets necessary for native extensions.
 
     ![Selecting the Python native development tools option](media/cpp-install-native.png)
 
     > [!Tip]
     > Installing the **Data science and analytical applications** workload also includes Python and the **Python native development tools** option by default.
 
-For more information, see [Install Python support for Visual Studio](installing-python-support-in-visual-studio.md), including using other versions of Visual Studio. If you install Python separately, be sure to select **Download debugging symbols** under **Advanced Options** in the installer. This option is required to use mixed-mode debugging between your Python code and native code.
+For more information on install options, see [Install Python support for Visual Studio](installing-python-support-in-visual-studio.md). If you install Python separately, be sure to select **Download debugging symbols** under **Advanced Options** in its installer. This option is required to use mixed-mode debugging between your Python code and native code.
 
 ## Create the Python application
 
-1. Create a new Python project in Visual Studio by selecting **File** > **New** > **Project**. Search for "Python", select the **Python Application** template, give it a suitable name and location, and select **OK**.
+1. Create a new Python project in Visual Studio by selecting **File** > **New** > **Project**. Search for "Python", select the **Python Application** template, give it a name and location of your choice, and select **OK**.
 
-1. In the project's *.py* file, paste the following code that benchmarks the computation of a hyperbolic tangent (implemented without using the math library for easier comparison). Feel free to enter the code manually to experience some of the [Python editing features](editing-python-code-in-visual-studio.md).
+1. In the project's *.py* file, paste the following code (or enter it manually to experience some of the [Python editing features](editing-python-code-in-visual-studio.md)). This code computes a hyperbolic tangent without using the math library, and is what we will be accelerating with native extensions.
+
+    > [!Tip]
+    > Write your code in pure Python before rewriting in C++. This way you can more easily check that
+    > your native code is correct
 
     ```python
-    from itertools import islice
     from random import random
     from time import perf_counter
 
     COUNT = 500000  # Change this value depending on the speed of your computer
-    DATA = list(islice(iter(lambda: (random() - 0.5) * 3.0, None), COUNT))
+    DATA = [(random() - 0.5) * 3 for _ in range(COUNT)]
 
     e = 2.7182818284590452353602874713527
 
@@ -107,10 +110,10 @@ Follow the instructions in this section to create two identical C++ projects nam
 1. Right-click the C++ project in **Solution Explorer**, select **Properties**. The value for **Configuration** should be **Active (Debug)** and **Platform** will be **Active (x64)** or **Active (Win32)** depending on your selection in the preceding step.
 
     > [!Tip]
-    > For an actual project, you will want to configure both Debug and Release configurations. Here we
-    > configure the Debug configuration to use a *release* build of CPython, which disables some debugging
-    > features of the C++ runtime including assertions. Using CPython *debug* binaries (`python_d.exe`)
-    > requires different settings.
+    > For your own projects, you will want to configure both Debug and Release configurations. Here we only
+    > configure the Debug configuration, and set it to use a *release* build of CPython, which disables some
+    > debugging features of the C++ runtime including assertions. Using CPython *debug* binaries
+    > (`python_d.exe`) will require different settings.
 
 1. Set the specific properties as described in the following table, then select **OK**.
     ::: moniker range=">=vs-2019"
@@ -120,8 +123,8 @@ Follow the instructions in this section to create two identical C++ projects nam
     | | **Advanced** > **Target File Extension** | **.pyd** |
     | | **Project Defaults** > **Configuration Type** | **Dynamic Library (.dll)** |
     | **C/C++** > **General** | **Additional Include Directories** | Add the Python *include* folder as appropriate for your installation, for example, `c:\Python36\include`.  |
-    | **C/C++** > **Preprocessor** | **Preprocessor Definitions** | If present, change the **_DEBUG** value to **NDEBUG**, to match the non-debug version of CPython. For `python_d.exe`, leave this unchanged. |
-    | **C/C++** > **Code Generation** | **Runtime Library** | **Multi-threaded DLL (/MD)** to match the non-debug version of CPython. For `python_d.exe`, leave this unchanged. |
+    | **C/C++** > **Preprocessor** | **Preprocessor Definitions** | If present, change the **_DEBUG** value to **NDEBUG**, to match the non-debug version of CPython. (When using `python_d.exe`, leave this unchanged.) |
+    | **C/C++** > **Code Generation** | **Runtime Library** | **Multi-threaded DLL (/MD)** to match the non-debug version of CPython. (When using `python_d.exe`, leave this unchanged.) |
     | **Linker** > **General** | **Additional Library Directories** | Add the Python *libs* folder containing *.lib* files as appropriate for your installation, for example, `c:\Python36\libs`. (Be sure to point to the *libs* folder that contains *.lib* files, and *not* the *Lib* folder that contains *.py* files.) |
     ::: moniker-end
     ::: moniker range="=vs-2017"
@@ -131,8 +134,8 @@ Follow the instructions in this section to create two identical C++ projects nam
     | | **General** > **Target Extension** | **.pyd** |
     | | **Project Defaults** > **Configuration Type** | **Dynamic Library (.dll)** |
     | **C/C++** > **General** | **Additional Include Directories** | Add the Python *include* folder as appropriate for your installation, for example, `c:\Python36\include`.  |
-    | **C/C++** > **Preprocessor** | **Preprocessor Definitions** | If present, change the **_DEBUG** value to **NDEBUG**, to match the non-debug version of CPython. For `python_d.exe`, leave this unchanged. |
-    | **C/C++** > **Code Generation** | **Runtime Library** | **Multi-threaded DLL (/MD)** to match the non-debug version of CPython. For `python_d.exe`, leave this unchanged. |
+    | **C/C++** > **Preprocessor** | **Preprocessor Definitions** | If present, change the **_DEBUG** value to **NDEBUG**, to match the non-debug version of CPython. (When using `python_d.exe`, leave this unchanged.) |
+    | **C/C++** > **Code Generation** | **Runtime Library** | **Multi-threaded DLL (/MD)** to match the non-debug version of CPython. (When using `python_d.exe`, leave this unchanged.) |
     | **Linker** > **General** | **Additional Library Directories** | Add the Python *libs* folder containing *.lib* files as appropriate for your installation, for example, `c:\Python36\libs`. (Be sure to point to the *libs* folder that contains *.lib* files, and *not* the *Lib* folder that contains *.py* files.) |
     ::: moniker-end
     
@@ -381,7 +384,7 @@ After you've made the DLL available to Python as described in the previous secti
 
 ### Troubleshooting
 
-If you receive an `ImportError` when trying to import your module, it is likely that one.
+If you receive an `ImportError` when trying to import your module, it is likely that one of the following issues is the cause:
 
 * When building through a project reference, ensure that your C++ project properties match the Python environment activated for your Python project, especially the Include and Library directories.
 
