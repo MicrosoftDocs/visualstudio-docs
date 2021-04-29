@@ -177,7 +177,7 @@ sections:
   - name: Build artifact location
     questions:
       - question: |
-          I want the artifacts of a Live Unit Testing build to go to a specific location instead of the default location under the <em>.vs</em> folder. How can I change that?
+          I want the artifacts of a Live Unit Testing build to go to a specific location instead of the default location under the .vs folder. How can I change that?
         answer: |
           Set the `LiveUnitTesting_BuildRoot` user-level environment variable to the path where you want the Live Unit Testing build artifacts to be dropped. 
 
