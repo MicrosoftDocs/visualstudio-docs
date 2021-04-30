@@ -26,7 +26,7 @@ ms.workload:
 
 While you are debugging in Visual Studio, you can view strings with the built-in string visualizer. The string visualizer shows strings that are too long for a data tip or debugger window. It can also help you identify malformed strings.
 
-The built-in string visualizer includes plain text, XML, HTML, and JSON options. You can also open built-in visualizers for a few other types, such as [DataSet, DataTable, and DataView](../debugger/dataset-visualizer-dialog-box.md) objects, from the **Autos** or other debugger windows.
+The built-in string visualizers includes Text, XML, HTML, and JSON options. You can also open built-in visualizers for a few other types, such as [DataSet, DataTable, and DataView](../debugger/dataset-visualizer-dialog-box.md) objects, from the **Autos** or other debugger windows.
 
 > [!NOTE]
 > If you need to inspect XAML or WPF UI elements in a visualizer, see or [Inspect XAML properties while debugging](../xaml-tools/inspect-xaml-properties-while-debugging.md) or [How to use the WPF tree visualizer](../debugger/how-to-use-the-wpf-tree-visualizer.md).
@@ -38,6 +38,10 @@ To open the string visualizer, you must be paused during debugging. Hover over a
 **Expression** field shows the variable or expression you're hovering over.
 
 **Value** field shows the string value. A blank **Value** means that the chosen visualizer can't recognize the string. For example, the **XML Visualizer** shows a blank **Value** for a text string with no XML tags, or a JSON string. To view strings that the chosen visualizer can't recognize, choose the **Text Visualizer** instead. The **Text Visualizer** shows plain text.
+
+### Text string data
+
+The **Text Visualizer** shows plain text. If you need custom formatting for a C++ string, create a [Natvis visualization](../debugger/create-custom-views-of-native-objects.md).
 
 ### JSON string data
 
