@@ -6,8 +6,9 @@ manager: jmartens
 ms.technology: vs-azure
 ms.devlang: dotnet
 ms.topic: how-to
-ms.date: 04/21/2021
+ms.date: 04/30/2021
 ms.author: ghogen
+monikerRange: ">=vs-2019"
 ---
 # Manage launch profiles for Docker Compose
 
