@@ -84,3 +84,4 @@ Configure your project by setting the [Container Tools build properties](contain
 ## See also
 
 [Docker Compose build properties](docker-compose-properties.md)
+[Manage launch profiles for Docker Compose](launch-profiles.md)
