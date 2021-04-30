@@ -10,11 +10,16 @@ ms.date: 04/30/2021
 ms.author: ghogen
 monikerRange: ">=vs-2019"
 ---
-# Manage launch profiles for Docker Compose
+# Manage launch profiles for Docker Compose (Preview)
 
 You can control which services in a multi-service Docker Compose project using Docker Compose profiles. In Visual Studio, you can configure the debugger to use a specific Docker Compose launch profile as well as further customize what is launched. By using launch profiles and Visual Studio launch settings, you can avoid running services unnecessarily when you're only trying to debug part of a larger set of services that make up your application.
 
 For information about Docker Compose profiles, see [Using profiles with Compose](https://docs.docker.com/compose/profiles/).
+ 
+## Prerequisites
+
+- [Visual Studio 2019 version 16.10 Preview](https://visualstudio.microsoft.com/vs/preview/) or later
+- A solution with [Container Orchestration with Docker Compose](tutorial-multicontainer.md)
 
 ## Managing launch settings
 

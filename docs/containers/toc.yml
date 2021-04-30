@@ -26,7 +26,7 @@
       href: deploy-app-service.md
     - name: Deploy to Docker Hub
       href: deploy-docker-hub.md
-    - name: Manage launch profiles
+    - name: Manage launch profiles (Preview)
       href: launch-profiles.md
     - name: View and diagnose containers and images
       href: view-and-diagnose-containers.md
