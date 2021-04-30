@@ -1,5 +1,5 @@
 ---
-title: What happens when your subscription is removed | Microsoft Docs
+title: What happens when your Visual Studio subscription is removed | Microsoft Docs
 author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
