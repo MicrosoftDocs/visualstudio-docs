@@ -2,7 +2,7 @@
 title: "Troubleshooting and known issues (VS Tools for Unity)"
 description: Read about troubleshooting in Visual Studio Tools for Unity. See descriptions of known issues, and learn about solutions to those issues.
 ms.custom: ""
-ms.date: "07/03/2018"
+ms.date: "04/15/2021"
 ms.technology: vs-unity-tools
 ms.prod: visual-studio-dev16
 ms.topic: troubleshooting
@@ -19,9 +19,15 @@ In this section, you'll find solutions to common issues with Visual Studio Tools
 
 ## Troubleshooting the connection between Unity and Visual Studio
 
-### Confirm Editor Attaching is enabled
+### Confirm `Editor Attaching` is enabled or `Code Optimization On Startup` is set to `Debug`
 
-In the Unity Menu, select **Edit > Preferences** and then select the **External Tools** tab. Confirm that the **Editor Attaching** checkbox is enabled. For more information, see the [Unity Preferences documentation](https://docs.unity3d.com/Manual/Preferences.html).
+In the Unity Menu, select `Edit / Preferences`.
+
+Depending on the Unity version used :
+- Confirm that `Code Optimization On Startup` is set to `Debug`.
+- Or select the `External Tools` tab. Confirm that the `Editor Attaching` checkbox is enabled. 
+
+For more information, see the [Unity Preferences documentation](https://docs.unity3d.com/Manual/Preferences.html).
 
 ### Unable to attach
 
@@ -54,11 +60,22 @@ For FMOD, there is a workaround, you can pass `FMOD_STUDIO_INIT_SYNCHRONOUS_UPDA
 
 ## Incompatible project in Visual Studio
 
-First, check that Visual Studio is set as your external script editor in Unity (Edit/Preferences/External Tools). Then check that the Visual Studio   plugin is installed in Unity (Help/About must display a message like Microsoft Visual Studio Tools for Unity is enabled at the bottom). Then check that the extension is properly installed in Visual Studio (Help/About).
+The very important thing to know is that Visual Studio is saving the “Incompatible” state in project settings and will not try to reload a project until you explicitly use `Reload Project`. So, after each troubleshooting step, make sure you try to re-open the solution and try to right-click on all incompatible projects and choose `Reload Project`.
+
+1. Check that Visual Studio is set as your external script editor in Unity using `Edit / Preferences / External Tools`.
+2. Depending on your Unity version:
+   - Check that the Visual Studio plugin is installed in Unity. `Help / About` should display a message like Microsoft Visual Studio Tools for Unity is enabled at the bottom.
+   - Unity 2020.x+: Check that you are using the latest Visual Studio Editor package in `Window / Package Manager`.
+3. Try deleting all projects/solution files and the `.vs` folder in your project.
+4. Try recreating projects/solution using `Open C# Project` or `Edit / Preferences / External tools / Regenerate Project files`.
+5. Make sure you installed the Game/Unity workload in Visual Studio.
+6. Try to clean the MEF cache as explained [here](#visual-studio-crashes).
+7. Try to re-install Visual Studio (using the Game/Unity workload only to start).
+8. Try to disable third-party extensions in case they could interfere with the Unity extension in `Tools / Extensions`.
 
 ## Extra reloads, or Visual Studio losing all open windows
 
-Be sure to never touch project files directly from an asset processor or any other tool. If you really need to manipulate the project file, we expose an API for that. Please check the [Assembly references issues section](#assembly-reference-issues).
+Be sure to never touch project files directly from an asset processor or any other tool. If you really need to manipulate the project file, we expose an API for that. Please check the [Assembly references issues section](#assembly-reference-or-project-property-issues).
 
 If you experience extra reloads or if Visual Studio is losing all open Windows on reload, make sure that you have proper .NET targeting packs installed. Check the following section about frameworks for more information.
 
@@ -72,13 +89,15 @@ In the Exception Settings window (Debug > Windows > Exception Settings), expand 
 
 ## On Windows, Visual Studio asks to download the Unity target framework
 
-Visual Studio Tools for Unity requires the .NET framework 3.5, which isn't installed by default on Windows 8 or 10. To fix this issue, follow the instructions to download and install the .NET framework 3.5.
+When using the legacy Unity runtime (.NET 3.5 equivalent), Visual Studio Tools for Unity requires the .NET framework 3.5, which isn't installed by default on Windows 8 or 10. To fix this issue, follow the instructions to download and install the .NET framework 3.5.
 
-When using the new Unity runtime, .NET targeting packs version 4.6 and 4.7.1 are also required. It is possible to use the VS2017 installer to quickly install them (modify your VS2017 installation, individual components, .NET category, select all 4.x targeting packs).
+When using the new Unity runtime, .NET targeting packs version 4.6 or 4.7.1 are also required depending on the Unity version. It is possible to use the Visual Studio installer to quickly install them (modify your installation, individual components, .NET category, select all 4.x targeting packs).
 
-## Assembly reference issues
+## Assembly reference or project property issues
 
-If your project is complex reference-wise or if you want to better control this generation step, you can use our [API](/cross-platform/customize-project-files-created-by-vstu.md) for manipulating the generated project or solution content. You can also use [response files](https://docs.unity3d.com/Manual/PlatformDependentCompilation.html) in your Unity project and we'll process them.
+If your project is complex reference-wise or if you want to better control this generation step, you can use our [API](../extensibility/customize-project-files-created-by-vstu.md) for manipulating the generated project or solution content. You can also use [response files](https://docs.unity3d.com/Manual/PlatformDependentCompilation.html) in your Unity project and we'll process them.
+
+With recent Visual Studio and Unity versions, the best approach seems to use a custom `Directory.Build.props` file along with your generated projects. You will then be able to contribute to the project structure without interfering with the generation process. More information [here](https://docs.microsoft.com/visualstudio/msbuild/customize-your-build#directorybuildprops-and-directorybuildtargets).
 
 ## Breakpoints with a warning
 
@@ -86,7 +105,7 @@ If Visual Studio is unable to find a source location for a specific breakpoint y
 
 ## Breakpoints not hit
 
-Check that the script you are using is properly loaded/used in the current Unity scene. Quit both Visual Studio and Unity then delete all generated files (\*.csproj, \*.sln) and the whole Library folder.
+Check that the script you are using is properly loaded/used in the current Unity scene. Quit both Visual Studio and Unity then delete all generated files (\*.csproj, \*.sln), the `.vs` folder and the whole Library folder. You can find more information on C# debugging on the Unity [website](https://docs.unity3d.com/Manual/ManagedCodeDebugging.html).
 
 ## Unable to debug Android players
 
@@ -96,13 +115,13 @@ Wifi is versatile but super slow compared to USB because of latency. We saw a la
 
 USB is super-fast for debugging, and Visual Studio Tools for Unity is now able to detect USB devices, and talk to the adb server to properly forward ports for debugging.
 
-## Issues with Visual Studio 2015 and IntelliSense or code coloration
+## Issues with IntelliSense or code coloration
 
-Try upgrading your Visual Studio 2015 to update 3.
+Try upgrading your Visual Studio to the latest version. Try the same same troubleshooting steps as for [Incompatible projects](#incompatible-project-in-visual-studio).
 
 ## Known issues
 
- There are known issues in Visual Studio Tools for Unity that result from how the debugger interacts with Unity's older version of the C# compiler. We're working to help fix these problems, but you might experience the following issues in the meantime:
+There are known issues in Visual Studio Tools for Unity that result from how the debugger interacts with Unity's older version of the C# compiler. We're working to help fix these problems, but you might experience the following issues in the meantime:
 
 - When debugging, Unity sometimes crashes.
 
@@ -112,11 +131,11 @@ Try upgrading your Visual Studio 2015 to update 3.
 
 ## Report errors
 
- Please help us improve the quality of Visual Studio Tools for Unity by sending error reports when you experience crashing, freezes, or other errors. This helps us investigate and fix problems in Visual Studio Tools for Unity. Thank you!
+Please help us improve the quality of Visual Studio Tools for Unity by sending error reports when you experience crashing, freezes, or other errors. This helps us investigate and fix problems in Visual Studio Tools for Unity. Thank you!
 
 ### How to report an error when Visual Studio freezes
 
- There are reports that Visual Studio sometimes freezes when debugging with Visual Studio Tools for Unity, but we need more data to understand this problem. You can help us investigate by following the steps below.
+There are reports that Visual Studio sometimes freezes when debugging with Visual Studio Tools for Unity, but we need more data to understand this problem. You can help us investigate by following the steps below.
 
 ##### To report that Visual Studio freezes while debugging with Visual Studio Tools for Unity
 

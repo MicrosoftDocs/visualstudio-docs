@@ -1,0 +1,52 @@
+### YamlMime:Landing
+
+title: Visual Studio version control documentation # < 60 chars
+summary: Share your code from within Visual Studio 2019 by using version control technologies such as Git and GitHub. # < 160 chars
+
+metadata:
+  title: Version control in Visual Studio # Required; page title displayed in search results. Include the brand. < 60 chars.
+  description: Version control technologies such as Git and GitHub are available from directly within Visual Studio. You can use them to share and manage your code without leaving your codebase.
+  ms.topic: landing-page
+  ms.date: 04/20/2021
+  author: TerryGLee
+  ms.author: tglee
+  manager: jmartens
+  ms.prod: visual-studio-windows
+  ms.technology: vs-general-ide
+
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | whats-new
+
+landingContent:
+  # Card
+  - title: Overview
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: Git experience in Visual Studio
+            url: git-with-visual-studio.md
+      - linkListType: concept
+        links:
+          - text: How Visual Studio makes source control easy
+            url:  git-visual-studio-source-control.md
+
+  # Card
+  - title: Get started
+    linkLists:
+      - linkListType: learn
+        links:
+          - text: Get started with Git and GitHub in Visual Studio
+            url: /learn/modules/visual-studio-github-push/
+      - linkListType: how-to-guide
+        links:
+          - text: Compare Git and Team Explorer side-by-side
+            url: git-team-explorer-feature-comparison.md
+
+  # Card
+  - title: What's new
+    linkLists:
+      - linkListType: whats-new
+        links:
+          - text: Enhanced productivity with Git in Visual Studio (Preview)
+            url: https://devblogs.microsoft.com/visualstudio/enhanced-productivity-with-git-in-visual-studio/
+          - text: Visual Studio 2019 release notes
+            url: /visualstudio/releases/2019/release-notes/

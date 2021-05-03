@@ -1,7 +1,7 @@
 ---
 title: Use Design Time Data with the XAML Designer in Visual Studio
 description: Learn how to use design-time data in XAML.
-ms.date: 11/17/2020
+ms.date: 04/22/2021
 ms.topic: overview
 author: alihamie
 ms.author: tglee
@@ -61,7 +61,10 @@ You can set a design-time Source for images that are bound to the page or loaded
 
 ## Design-time data for ListViews
 
-ListViews are a popular way to display data in your Desktop app. However, they're difficult to visualize without any data. You can use this feature to create an inline design-time data ItemSource. The XAML Designer displays what is in that array in your ListView at design time. This is an example for WPF .NET Core. To use the system:String type, make sure you include
+ListViews are a popular way to display data in your Desktop app. However, they're difficult to visualize without any data. You can use this feature to create an inline design-time data ItemSource or Items. The XAML Designer displays what is in that array in your ListView at design time.
+
+### WPF .NET Core example
+To use the system:String type, make sure you include
 `xmlns:system="clr-namespace:System;assembly=mscorlib` in your XAML header.
 
 ```xml
@@ -131,6 +134,23 @@ xmlns:models="clr-namespace:Cities.Models"
 [![Actual model in design-time data with a ListView](media\xaml-design-time-listview-models.png "Actual model design-time data with a ListView")](media\xaml-design-time-listview-models.png#lightbox)
 
 The benefit here is that you can bind your controls to a design-time static version of your model.
+
+### UWP example
+
+x:Array is not supported in UWP. Therefore we can use `<d:ListView.Items>` instead. To use the system:String type, make sure you include
+`http://schemas.microsoft.com/winfx/2009/xaml` in your XAML header.
+
+```xml
+    <StackPanel>
+        <ListView>
+            <d:ListView.Items>
+                <system:String>Item One</system:String>
+                <system:String>Item Two</system:String>
+                <system:String>Item Three</system:String>
+            </d:ListView.Items>
+        </ListView>
+    </StackPanel>
+```
 
 ## Use design-time data with custom types and properties
 

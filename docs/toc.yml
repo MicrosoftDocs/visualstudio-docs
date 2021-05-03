@@ -905,15 +905,8 @@
     href: ide/walkthrough-creating-a-multiple-computer-build-environment.md
 - name: Debug >>
   href: debugger/index.yml
-- name: Version control
-  expanded: true
-  items:
-  - name: The new Git experience in Visual Studio
-    href: ide/git-with-visual-studio.md
-  - name: How Visual Studio makes source control easy
-    href: ide/git-visual-studio-source-control.md
-  - name: Compare Git and Team Explorer side-by-side
-    href: ide/git-team-explorer-feature-comparison.md
+- name: Version control >>
+  href: version-control/index.yml
 - name: Test >>
   displayName: Unit testing
   href: test/index.yml
@@ -1446,9 +1439,9 @@
     href: ide/whats-new-visual-studio-2017.md
   - name: What's new in Visual Studio 2019
     href: ide/whats-new-visual-studio-2019.md
-  - name: What's new in Visual Studio docs
+  - name: What's new in the docs
     href: ide/whats-new-visual-studio-docs.md
-  - name: History of what's new in Visual Studio docs
+  - name: History of what's new in the docs
     href: ide/whats-new-visual-studio-docs-history.md
   - name: Release notes & system requirements
     items:
