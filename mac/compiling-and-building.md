@@ -4,7 +4,7 @@ description: "This article describes how to compile and build projects and solut
 ms.topic: overview
 author: heiligerdankgesang
 ms.author: dominicn
-ms.date: 08/29/2019
+ms.date: 05/03/2021
 ms.assetid: FB253757-DB00-4889-A6BF-E44722E25BD1
 ---
 
@@ -22,7 +22,7 @@ On the Mac, you can use any of the following methods to build your application: 
 | MSBuild command line| - Build projects without installing Visual Studio for Mac.<br />- Run multi-processor builds for all project types.<br />-   Customize most areas of the build system.|
 | Azure Pipelines | - Automate your build process as part of a continuous integration/continuous delivery pipeline.<br />- Apply automated tests with every build.<br />- Employ virtually unlimited cloud-based resources for build processes.<br />- Modify the build workflow and create build activities to perform deeply customized tasks.|
 
-The documentation in this section goes into further details of the IDE-based build process. For more information about building applications via the command line, see [MSBuild](/visualstudio/msbuild/msbuild). For details on building applications with Azure Pipelines, see [Azure Pipelines](/azure/devops/pipelines).
+The documentation in this section goes into further details of the IDE-based build process. For building applications from the command line without installing Visual Studio for Mac, you can install the latest [.NET Core SDK](https://dotnet.microsoft.com/download). For more information about building applications via the command line, see [MSBuild](/visualstudio/msbuild/msbuild). For details on building applications with Azure Pipelines, see [Azure Pipelines](/azure/devops/pipelines).
 
 
 > [!NOTE]
