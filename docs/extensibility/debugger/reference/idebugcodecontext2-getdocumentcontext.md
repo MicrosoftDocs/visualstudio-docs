@@ -1,4 +1,5 @@
 ---
+description: "Gets the document context that corresponds to this code context."
 title: IDebugCodeContext2::GetDocumentContext | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference
@@ -7,9 +8,9 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugCodeContext2::GetDocumentContext
 ms.assetid: d552cc92-963f-43c1-949f-ae6b63a427b8
-author: acangialosi
-ms.author: anthc
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:

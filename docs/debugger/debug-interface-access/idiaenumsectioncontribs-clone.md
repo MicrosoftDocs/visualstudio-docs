@@ -1,4 +1,5 @@
 ---
+description: "Creates an enumerator that contains the same enumeration state as the current section contributions enumerator."
 title: "IDiaEnumSectionContribs::Clone | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 81d3f3a7-3684-4e5c-b028-29b268684a2c
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

@@ -1,7 +1,8 @@
 ---
 title: Debug an app that isn't part of a Visual Studio solution
 titleSuffix: 
-ms.custom: 
+description: Learn how to debug an app that isn't part of a Visual Studio solution. You may be able to attach the Visual Studio debugger.
+ms.custom: SEO-VS-2020
 ms.date: 02/21/2020
 ms.topic: how-to
 dev_langs: 
@@ -17,7 +18,7 @@ helpviewer_keywords:
 ms.assetid: 3ea176e8-1ce5-42c4-b7a2-abe3a2765033
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload: 
   - multiple
 ---

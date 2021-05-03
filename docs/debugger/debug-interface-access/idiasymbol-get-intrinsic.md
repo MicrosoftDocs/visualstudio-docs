@@ -1,4 +1,5 @@
 ---
+description: "Retrieves a flag that specifies whether a class is an intrinsic type."
 title: "IDiaSymbol::get_intrinsic | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: f969f595-d9f9-48b9-adaa-63a6e4e09575
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

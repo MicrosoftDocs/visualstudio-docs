@@ -1,4 +1,5 @@
 ---
+description: "Determines whether the current instruction pointer can be set to the given stack frame."
 title: IDebugThread2::CanSetNextStatement | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference
@@ -7,9 +8,9 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugThread2::CanSetNextStatement
 ms.assetid: 7014af80-ff4f-4790-a34b-0528918d1fa3
-author: acangialosi
-ms.author: anthc
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:

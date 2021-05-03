@@ -1,4 +1,5 @@
 ---
+description: "Gets the name of the port."
 title: IDebugPortRequest2::GetPortName | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference
@@ -7,9 +8,9 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugPortRequest2::GetPortName
 ms.assetid: 53e2a3a4-bb34-4a02-a983-6bd84ea70587
-author: acangialosi
-ms.author: anthc
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:

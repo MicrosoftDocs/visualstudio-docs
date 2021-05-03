@@ -6,7 +6,7 @@ ms.topic: "conceptual"
 description: "Describes the processes for using Bridge to Kubernetes to connect your development computer to your Kubernetes cluster"
 keywords: "Bridge to Kubernetes, Docker, Kubernetes, Azure, containers"
 monikerRange: ">=vs-2019"
-manager: jillfra
+manager: jmartens
 author: ghogen
 ms.author: ghogen
 ---
@@ -21,6 +21,8 @@ Bridge to Kubernetes redirects traffic between your connected Kubernetes cluster
 
 > [!WARNING]
 > Bridge to Kubernetes is intended for use in development and testing scenarios only. It is not intended or supported for use with production clusters or live services in active use.
+
+Information about the currently supported features and a future roadmap for Bridge to Kubernetes may be found at [Bridge to Kubernetes roadmap](https://github.com/microsoft/mindaro/projects/1).
 
 ## Using Bridge to Kubernetes
 
@@ -48,7 +50,7 @@ In addition, Bridge to Kubernetes provides a way to replicate environment variab
 
 ## Additional configuration with KubernetesLocalProcessConfig.yaml
 
-The `KubernetesLocalProcessConfig.yaml` file allows you to replicate environment variables and mounted files available to your pods in your cluster. For more information on the additional configuration options, see [Configure Bridge to Kubernetes][using-config-yaml].
+The `KubernetesLocalProcessConfig.yaml` file allows you to replicate environment variables and mounted files available to your pods in your cluster. When using Visual Studio for Bridge to Kubernetes development, the KubernetesLocalConfig.yaml file must be located in the same directory as the project file for the service you are redirecting. For more information on the additional configuration options, see [Configure Bridge to Kubernetes][using-config-yaml].
 
 ## Using routing capabilities for developing in isolation
 
@@ -81,7 +83,7 @@ The following diagram shows the same cluster with Bridge to Kubernetes enabled i
 
 ![Diagram of cluster with Bridge to Kubernetes enabled](media/bridge-to-kubernetes/kubr-cluster-devcomputer.svg)
 
-When a request with the *GENERATED_NAME* subdomain is received on the cluster, a *kubernetes-route-as=GENERATED_NAME* header is added to the to the request. The envoy pods handle routing that request to the appropriate service in the cluster. If the request is routed to the service that is being worked on in isolation, that request is redirected to your development computer by the remote agent.
+When a request with the *GENERATED_NAME* subdomain is received on the cluster, a *kubernetes-route-as=GENERATED_NAME* header is added to the request. The envoy pods handle routing that request to the appropriate service in the cluster. If the request is routed to the service that is being worked on in isolation, that request is redirected to your development computer by the remote agent.
 
 When a request without the *GENERATED_NAME* subdomain is received on the cluster, no header is added to the request. The envoy pods handle routing that request to the appropriate service in the cluster. If the request is routed to the service that is being replaced, that request is instead routed to the original service instead of the remote agent.
 
@@ -137,10 +139,8 @@ kubectl -n <namespace> apply -f <yaml file name>
 
 Bridge to Kubernetes has the following limitations:
 
-* A service must be backed by a single pod in order to connect to that service. You can't connect to a service with multiple pods, such as a service with replicas.
-* A pod may only have a single container running in that pod for Bridge to Kubernetes to successfully connect. Bridge to Kubernetes can't connect to services with pods that have additional containers, such as sidecar containers injected by services meshes.
+* A pod may only have a single container running in that pod for Bridge to Kubernetes to successfully connect.
 * Currently, Bridge to Kubernetes pods must be Linux containers. Windows containers are not supported.
-* Isolation cannot be used with HTTPS when you use Bridge to Kubernetes with Visual Studio. HTTPS is only supported in isolation mode when you use Visual Studio Code.
 * Bridge to Kubernetes needs elevated permissions to run on your development computer in order to edit your hosts file.
 * Bridge to Kubernetes can't be used on clusters with Azure Dev Spaces enabled.
 

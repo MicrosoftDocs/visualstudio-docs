@@ -12,7 +12,7 @@ helpviewer_keywords:
 - referencing components, troubleshooting
 author: TerryGLee
 ms.author: tglee
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ---

@@ -1,7 +1,7 @@
 ---
 title: Run as administrator
 description: Learn how to run Visual Studio as an administrator.
-ms.date: 01/06/2020
+ms.date: 03/09/2021
 ms.topic: conceptual
 helpviewer_keywords:
 - Visual Studio, user permissions
@@ -10,7 +10,7 @@ helpviewer_keywords:
 - permissions
 author: TerryGLee
 ms.author: tglee
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ---
@@ -66,7 +66,17 @@ If you need to run Visual Studio as an administrator, follow these steps to open
 
 ::: moniker-end
 
-You can also modify the application shortcut to always run with administrative permissions.
+You can also modify the application shortcut to always run with administrative permissions:
+
+1. Open the **Start** menu, scroll to the version of Visual Studio that you're using, and then select **More** > **Open file location**.
+
+1. In **File Explorer**, locate the **Visual Studio** shortcut for the version that you're using. Then, right-click the shortcut and select **Send to** > **Desktop (create shortcut)**.
+
+1. On the **Windows** desktop, right-click the **Visual Studio** shortcut, and then select **Properties**.
+
+1. Select the **Advanced** button, and then select the **Run as administrator** check box.
+
+1. Select **OK**, and then select **OK** again.
 
 ## See also
 

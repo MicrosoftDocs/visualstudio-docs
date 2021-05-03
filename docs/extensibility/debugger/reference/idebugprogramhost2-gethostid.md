@@ -1,4 +1,5 @@
 ---
+description: "Gets the process identifier of the process hosting this program."
 title: IDebugProgramHost2::GetHostId | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference
@@ -7,9 +8,9 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugProgramHost2::GetHostId
 ms.assetid: 7702e221-feb1-446b-a224-cb46c420987e
-author: acangialosi
-ms.author: anthc
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:

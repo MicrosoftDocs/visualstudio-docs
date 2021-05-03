@@ -1,4 +1,5 @@
 ---
+description: "Exe is the only symbol without either a lexical or class parent, as it represents the global scope of the .exe or .dll file."
 title: "Exe | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: a781d2cf-55fe-4373-9cf1-b732864244e0
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

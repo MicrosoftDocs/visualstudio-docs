@@ -4,7 +4,7 @@ description: Learn how to use Visual Studio Tools for AI to create an AI project
 ms.custom: SEO-VS-2020
 author: jillre
 ms.author: jillfra
-manager: jillfra
+manager: jmartens
 monikerRange: vs-2017
 ms.date: 11/13/2017
 ms.topic: how-to
@@ -31,10 +31,10 @@ Once you've [installed Visual Studio Tools for AI](installation.md), it's easy t
 
 6. Your project also has some properties created to make it easy to debug your app by automatically passing commandline arguments to these input parameters. **Right click** your project then select **Properties**
 
-    ![Properties](media/create-project/project-properties.png)
+    ![Screenshot of the Visual Studio Solution Explorer showing the context menu for TensorFlowApplication1 with Properties selected.](media/create-project/project-properties.png)
 
 7. Click the **Debug** tab to see the Script Arguments automatically added. you may change them as needed to where your input data is located and where you would like your output stored.
 
-    ![Properties](media/create-project//project-properties_1.png)
+    ![Screenshot of the Debug tab in the Properties settings for TensorFlowApplication1 showing the Script Arguments for the project.](media/create-project//project-properties_1.png)
 
 8. Run the program by pressing Ctrl+F5 or selecting **Debug > Start Without Debugging** on the menu. The results are displayed in a console window.

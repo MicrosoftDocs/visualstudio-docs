@@ -1,4 +1,5 @@
 ---
+description: "Subtracts the specified value from the current context and returns a new context."
 title: IDebugMemoryContext2::Subtract | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference
@@ -8,9 +9,9 @@ helpviewer_keywords:
 - Subtract method
 - IDebugMemoryContext2::Subtract method
 ms.assetid: 63df14c7-8d7e-47c1-afa7-5a1ab5d8eaba
-author: acangialosi
-ms.author: anthc
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:

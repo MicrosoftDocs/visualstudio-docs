@@ -1,4 +1,5 @@
 ---
+description: "Provides access to the records in a debug data stream."
 title: "IDiaEnumDebugStreamData | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: e2023c32-4c05-4d0c-a0be-f016a230c788
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

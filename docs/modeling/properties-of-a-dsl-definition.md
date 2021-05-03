@@ -1,12 +1,14 @@
 ---
 title: Properties of a DSL Definition
+description: Learn that the DslDefinition properties define domain-specific language definition properties such as version numbering.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
   - "Domain-Specific Language, definition file"
 author: JoshuaPartlow
 ms.author: joshuapa
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

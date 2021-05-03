@@ -1,14 +1,16 @@
 ---
 title: Windows Installer Basics | Microsoft Docs
+description: Learn about Windows Installer for use in installing a VSPackage, including organizing your VSPackage features into Windows Installer components.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - Windows Installer, VSPackages
 - VSPackages, Windows Installer basics
 ms.assetid: 497e479b-add8-4644-870a-917f15306b97
-author: acangialosi
-ms.author: anthc
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
 - vssdk
 ---

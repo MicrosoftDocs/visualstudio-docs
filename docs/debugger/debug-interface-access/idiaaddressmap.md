@@ -1,4 +1,5 @@
 ---
+description: "Provides control over how the DIA SDK computes virtual and relative virtual addresses for debug objects."
 title: "IDiaAddressMap | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: e6467529-508c-4328-85d7-89444ae4d1c1
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

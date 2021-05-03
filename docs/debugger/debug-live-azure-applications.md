@@ -1,7 +1,7 @@
 ---
 title: Debug live ASP.NET Azure apps
 titleSuffix: Visual Studio Enterprise
-description: Learn how to set snappoints and view snapshots with the Snapshot Debugger.
+description: Learn how to use the Snapshot Debugger in Visual Studio to set snappoints and take snapshots while debugging live ASP.NET Azure applications.
 ms.custom: 
 ms.date: 03/16/2018
 ms.topic: how-to
@@ -9,7 +9,7 @@ helpviewer_keywords:
   - debugger
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload: 
   - aspnet
   - azure

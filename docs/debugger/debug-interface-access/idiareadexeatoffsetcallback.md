@@ -1,4 +1,5 @@
 ---
+description: "Enables a client application to supply bytes of an executable file as  specified by file position."
 title: "IDiaReadExeAtOffsetCallback | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 3c961641-3ce3-4bc3-bd6e-a802fa3bec49
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

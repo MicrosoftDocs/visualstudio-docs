@@ -1,5 +1,7 @@
 ---
 title: "Channels (Threads View) | Microsoft Docs"
+description: Read about Threads view when using channels in the Visual Studio Concurrency Visualizer. View thread channels, disk channels, marker channels, and GPU channels.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:
@@ -9,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 2f798c17-2363-42a4-be94-a5751d208eac
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

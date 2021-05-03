@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the section part of the code address for the frame."
 title: "IDiaFrameData::get_addressSection | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: e4eedede-4a1c-4da2-a812-b92df328fd8d
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

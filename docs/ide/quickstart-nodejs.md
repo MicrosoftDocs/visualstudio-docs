@@ -2,14 +2,14 @@
 title: "Create your first Node.js app"
 ms.custom: SEO-VS-2020
 description: In this quickstart, you create a Node.js app in Visual Studio
-ms.date: 06/27/2018
+ms.date: 03/25/2021
 ms.technology: vs-javascript
 ms.topic: quickstart
 ms.devlang: javascript
 ms.assetid: b0e4ebed-1a01-41ef-aad1-4d8465ce5322
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 dev_langs:
   - JavaScript
 ms.workload:
@@ -109,5 +109,8 @@ Congratulations on completing this Quickstart in which you got started with the 
 > [!div class="nextstepaction"]
 > [Deploy the app to Linux App Service](../javascript/publish-nodejs-app-azure.md)
 
-- [Tutorial for Node.js and Express](../javascript/tutorial-nodejs.md)
-- [Tutorial for Node.js and React](../javascript/tutorial-nodejs-with-react-and-jsx.md)
+> [!div class="nextstepaction"]
+> [Tutorial for Node.js and Express](../javascript/tutorial-nodejs.md)
+
+> [!div class="nextstepaction"]
+> [Tutorial for Node.js and React](../javascript/tutorial-nodejs-with-react-and-jsx.md)

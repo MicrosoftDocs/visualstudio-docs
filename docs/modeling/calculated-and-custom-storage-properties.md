@@ -1,12 +1,14 @@
 ---
 title: Calculated and Custom Storage Properties
+description: Learn how all domain properties in a domain-specific language (DSL) can be displayed to the user on the diagram and in your language explorer.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - Domain-Specific Language, programming domain properties
 author: JoshuaPartlow
 ms.author: joshuapa
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ---

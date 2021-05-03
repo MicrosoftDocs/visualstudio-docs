@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the location type of a data symbol."
 title: "IDiaSymbol::get_locationType | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: fbb09c43-ebb7-4b4f-be53-ccff86eb183a
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

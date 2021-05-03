@@ -1,4 +1,5 @@
 ---
+description: "Writes a flag to the Concurrency Visualizer trace file."
 title: marker_series::write_flag Method | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: ca07f388-e5d5-46fd-b991-fe6e9029a68f
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload: 
   - multiple
 ---

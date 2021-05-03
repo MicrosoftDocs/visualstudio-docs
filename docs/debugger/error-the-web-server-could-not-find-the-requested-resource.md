@@ -1,4 +1,5 @@
 ---
+description: "Due to security considerations, IIS has returned a generic error."
 title: "The Web Server Could Not Find the Requested Resource | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "error-reference"
@@ -11,7 +12,7 @@ helpviewer_keywords:
   - "debugger, Web application errors"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

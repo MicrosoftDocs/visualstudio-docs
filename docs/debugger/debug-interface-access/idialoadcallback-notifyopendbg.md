@@ -1,4 +1,5 @@
 ---
+description: "Called when a candidate .dbg file has been opened."
 title: "IDiaLoadCallback::NotifyOpenDBG | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: dbc4dcf0-4ace-4dce-9790-0fdaf3a23d3b
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

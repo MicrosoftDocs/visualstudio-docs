@@ -1,5 +1,7 @@
 ---
 title: "How to: Programmatically move worksheets within workbooks"
+description: Learn how you can programmatically change the position of worksheets relative to other worksheets in a Microsoft Excel workbook. 
+ms.custom: SEO-VS-2020
 titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "how-to"
@@ -11,7 +13,7 @@ helpviewer_keywords:
   - "workbooks, moving worksheets in"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---
@@ -24,15 +26,15 @@ ms.workload:
 
 1. Assign the total number of sheets in the workbook to a variable and then move the first worksheet so that it becomes the last one.
 
-     [!code-csharp[Trin_VstcoreExcelAutomation#24](../vsto/codesnippet/CSharp/Trin_VstcoreExcelAutomationCS/Sheet1.cs#24)]
-     [!code-vb[Trin_VstcoreExcelAutomation#24](../vsto/codesnippet/VisualBasic/Trin_VstcoreExcelAutomation/Sheet1.vb#24)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreExcelAutomationCS/Sheet1.cs" id="Snippet24":::
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreExcelAutomation/Sheet1.vb" id="Snippet24":::
 
 ## To move a worksheet in a VSTO Add-in
 
 1. Assign the total number of sheets in the workbook to a variable and then move the first worksheet so that it becomes the last one.
 
-     [!code-csharp[Trin_VstcoreExcelAutomationAddIn#16](../vsto/codesnippet/CSharp/trin_vstcoreexcelautomationaddin/ThisAddIn.cs#16)]
-     [!code-vb[Trin_VstcoreExcelAutomationAddIn#16](../vsto/codesnippet/VisualBasic/trin_vstcoreexcelautomationaddin/ThisAddIn.vb#16)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/trin_vstcoreexcelautomationaddin/ThisAddIn.cs" id="Snippet16":::
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/trin_vstcoreexcelautomationaddin/ThisAddIn.vb" id="Snippet16":::
 
 ## See also
 - [Work with worksheets](../vsto/working-with-worksheets.md)

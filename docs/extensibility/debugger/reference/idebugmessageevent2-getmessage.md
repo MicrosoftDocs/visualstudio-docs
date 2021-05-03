@@ -1,4 +1,5 @@
 ---
+description: "Gets the message to be displayed."
 title: IDebugMessageEvent2::GetMessage | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference
@@ -8,9 +9,9 @@ helpviewer_keywords:
 - GetMessage method
 - IDebugMessageEvent2::GetMessage method
 ms.assetid: 9fca7285-f7f1-422d-8565-92bf0e0db60a
-author: acangialosi
-ms.author: anthc
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:

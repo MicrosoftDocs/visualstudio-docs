@@ -7,7 +7,7 @@ ms.topic: reference
 helpviewer_keywords:
   - "IntelliTest, Exploration bounds"
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 author: mikejo5000
@@ -185,4 +185,4 @@ The default for this option is **TestEmissionBranchHits=2**, which generates a m
 
 ## Got feedback?
 
-Post your ideas and feature requests on [Developer Community](https://developercommunity.visualstudio.com/content/idea/post.html?space=8).
+Post your ideas and feature requests on [Developer Community](https://aka.ms/feedback/suggest?space=8).

@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the program destroy flags."
 title: IDebugProgramDestroyEventFlags2::GetFlags | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference
@@ -6,9 +7,9 @@ helpviewer_keywords:
 - GetFlags
 - IDebugProgramDestroyEventFlags2::GetFlags
 ms.assetid: dd53bd0c-459a-4077-ba81-780defb71e87
-author: acangialosi
-ms.author: anthc
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:

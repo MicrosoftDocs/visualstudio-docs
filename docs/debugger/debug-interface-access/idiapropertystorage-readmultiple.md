@@ -1,4 +1,5 @@
 ---
+description: "Reads specified properties from the current property set."
 title: "IDiaPropertyStorage::ReadMultiple | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 6ccc9397-ce41-4f72-b261-72ac252cd4a5
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

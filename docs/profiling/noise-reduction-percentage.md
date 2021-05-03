@@ -1,5 +1,6 @@
 ---
 title: "Noise Reduction Percentage | Microsoft Docs"
+description: Learn about the Noise Reduction Percentage setting and how you can control the number of entries that are displayed in the call tree.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 1c10cd4c-2fdd-48c9-b562-a334b3b2df6c
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

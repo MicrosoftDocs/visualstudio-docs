@@ -1,5 +1,6 @@
 ---
 title: "Profiler command line: collect stand-alone app stats"
+description: Collect application statistics for stand-alone applications by using the profiler command line in Visual Studio.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: be2dbdd0-fc88-45f9-a1d5-bcb4f64e17ad
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 monikerRange: 'vs-2017'
 ms.workload: 
   - multiple

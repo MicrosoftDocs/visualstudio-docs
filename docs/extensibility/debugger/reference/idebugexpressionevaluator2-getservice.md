@@ -1,4 +1,5 @@
 ---
+description: "Retrieves a service object given its unique identifier."
 title: IDebugExpressionEvaluator2::GetService | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference
@@ -6,9 +7,9 @@ helpviewer_keywords:
 - IDebugExpressionEvaluator2::GetService
 - GetService
 ms.assetid: f8988a9e-9d18-42af-84a7-55f41e9adf63
-author: acangialosi
-ms.author: anthc
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:

@@ -1,5 +1,6 @@
 ---
 title: "Remote Debug a C++ Project | Microsoft Docs"
+description: Learn how to debug a Visual Studio C++ application from a remote computer by following these step-by-step instructions.
 ms.custom: "remotedebugging"
 ms.date: "08/14/2018"
 ms.topic: "conceptual"
@@ -14,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 8b8eca0d-122f-4eda-848a-cf0945f207d0
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "cplusplus"
 ---
@@ -57,7 +58,7 @@ The remote debugger is supported on Windows 7 and newer (not phone) and versions
 
 4. Set the **Debugger to launch** to **Remote Windows Debugger**.
 
-    ![RemoteDebuggingCPlus](../debugger/media/remotedebuggingcplus.png "RemoteDebuggingCPlus")
+    ![Screenshot of the Debugging tab in the Visual Studio Solution Explorer Properties. The Debugger to launch property is set to Remote Windows Debugger.](../debugger/media/remotedebuggingcplus.png)
 
 5. Make the following changes to the properties:
 
@@ -77,7 +78,7 @@ The remote debugger is supported on Windows 7 and newer (not phone) and versions
 
 7. For the **Debug** configuration, select the **Deploy** check box.
 
-    ![RemoteDebugCplusDeploy](../debugger/media/remotedebugcplusdeploy.png "RemoteDebugCplusDeploy")
+    ![Screenshot of the Configuration Manager in the Visual Studio Solution Explorer. The Debug configuration is selected, and Deploy is checked.](../debugger/media/remotedebugcplusdeploy.png)
 
 8. Start debugging (**Debug > Start Debugging**, or **F5**).
 
@@ -92,7 +93,7 @@ The remote debugger is supported on Windows 7 and newer (not phone) and versions
     > [!TIP]
     > Alternatively, you can deploy the files as a separate step. In the **Solution Explorer,** right-click the **mymfc** node and then choose **Deploy**.
 
-    If you have non-code files that are required by the application, you can specify them in **Additional Files to Deploy** on the **Remote Windows Debugger** page.
+    If you have non-code files that are required by the application, you can specify them in a semicolon delimited list in **Additional Files to Deploy** on the **Remote Windows Debugger** page.
 
     Alternatively, you can include the files in your project, and set the **Content** property to **Yes** in the **Properties** page for each file. These files are copied to the **Deployment Directory** specified on the **Remote Windows Debugger** page. You can also change the **Item Type** to **Copy File** and specify additional properties there if you need the files to be copied to a subfolder of the **Deployment Directory**.
 

@@ -12,7 +12,7 @@ dev_langs:
   - "DHTML"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 monikerRange: '>= vs-2019'
 ---
 # JavaScript and TypeScript in Visual Studio 2019
@@ -42,4 +42,4 @@ Visual Studio 2019 provides several options for integrating TypeScript compilati
 
 ## Projects
 
-UWP JavaScript apps are no longer supported in Visual Studio 2019. You cannot create or open JavaScript UWP projects (files with extension *.jsproj*). You can learn more using our documentation on [creating Progressive Web Apps (PWAs)](/microsoft-edge/progressive-web-apps/get-started) that run well on Windows.
+UWP JavaScript apps are no longer supported in Visual Studio 2019. You cannot create or open JavaScript UWP projects (files with extension *.jsproj*). You can learn more using our documentation on [creating Progressive Web Apps (PWAs)](/microsoft-edge/progressive-web-apps-chromium) that run well on Windows.

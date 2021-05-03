@@ -1,7 +1,7 @@
 ---
 title: Visual Studio enterprise guide
 description: Set up and troubleshoot Visual Studio in an enterprise environment.
-ms.date: 07/29/2020
+ms.date: 04/06/2021
 ms.custom: seodec18
 ms.topic: overview
 helpviewer_keywords:
@@ -9,9 +9,9 @@ helpviewer_keywords:
 - administrator guide, Visual Studio
 - installing Visual Studio, administrator guide
 ms.assetid: 
-author: ornellaalt
-ms.author: ornella
-manager: jillfra
+author: j-martens
+ms.author: jmartens
+manager: jmartens
 ms.workload:
 - multiple
 ms.prod: visual-studio-windows
@@ -21,7 +21,9 @@ ms.technology: vs-installation
 If you’re looking to save time while you're getting your company running on Visual Studio, start here. This enterprise guide includes tips that can help you install and update Visual Studio in common enterprise scenarios, get unblocked if you experience issues, and learn how to report a problem if you need more help. 
 
 ## Get started 
-Learn how to deploy Visual Studio to your enterprise in networked and offline environments. 
+Learn how to deploy Visual Studio to your enterprise in networked and offline environments.
+
+- **[Enabling Administrator Updates using Microsoft Endpoint Configuration Manager (SCCM)](enabling-administrator-updates.md)**.  Visual Studio updates are included in the [Microsoft Update Catalog](https://www.catalog.update.microsoft.com/Home.aspx) and the [Windows Server Update Services (WSUS)](https://docs.microsoft.com/windows-server/administration/windows-server-update-services/get-started/windows-server-update-services-wsus). Enterprise administrators can then download the update and distribute it to Visual Studio client machines across the organization using standard deployment tools such as Microsoft Endpoint Configuration Manager (SCCM).
 
 - **Understand options for enterprise deployment in networked environments**. The [Visual Studio administrator guide](visual-studio-administrator-guide.md) provides scenario-based guidance for system administrators. 
 
@@ -37,17 +39,19 @@ Learn how to deploy Visual Studio to your enterprise in networked and offline en
 
 Learn how to install Visual Studio in common enterprise scenarios. 
 
-- **[Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md)**. Use a variety of parameters to control or customize your Visual Studio installation. Automate the installation process or create a cache of the installation files for later use. 
+- **[Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md)**. Use a variety of parameters to control or customize your Visual Studio installation. Automate the installation process or create a cache of the installation files for later use. For more information, see [command line parameter examples](command-line-parameter-examples.md).
 
-- **See [command-line parameter examples for Visual Studio installation](command-line-parameter-examples.md)**. To illustrate how to use command-line parameters to install Visual Studio, view several examples that you can customize to match your needs. 
+- **[Create a network installation of Visual Studio](create-a-network-installation-of-visual-studio.md)**. Cache the files for the initial installation along with all product updates to a single folder. 
 
-- **[Install and use Visual Studio and Azure Services behind a firewall or proxy server](install-and-use-visual-studio-behind-a-firewall-or-proxy-server.md)**. If your organization uses security measures such as a firewall or a proxy server, then there are domain URLs that you might want to add to an "allow list" and ports and protocols that you might want to open so that you have the best experience when you install and use Visual Studio and Azure Services. 
+- **[Install and use Visual Studio and Azure Services behind a firewall or proxy server](install-and-use-visual-studio-behind-a-firewall-or-proxy-server.md)**. If your organization uses security measures such as a firewall or a proxy server, then there are domain URLs that you might want to add to an "allowlist" and ports and protocols that you might want to open so that you have the best experience when you install and use Visual Studio and Azure Services. 
 
-- **[Create a network installation of Visual Studio](create-a-network-installation-of-visual-studio.md)**. Cache the files for the initial installation along with all product updates to a single folder.  
+- **[Install required certificates for offline installation](../install/install-certificates-for-visual-studio-offline.md)**. Install necessary certificates if the client machine is completely disconnected from the internet.
 
 ## Update Visual Studio 
 
 Learn how to update Visual Studio successfully and fix update issues. 
+
+- **[Apply Administrator Updates using Microsoft Endpoint Configuration Manager (SCCM)](../install/applying-administrator-updates.md)**. Learn about distributing Visual Studio feature, security, and quality updates through SCCM. 
 
 - **[Update a network-based installation of Visual Studio](update-a-network-installation-of-visual-studio.md)**. Update a network installation layout of Visual Studio with the latest product updates so that it can be used both as an installation point for the latest update of Visual Studio and also to maintain installations that are already deployed to client workstations.
 
@@ -64,3 +68,4 @@ Learn how to update Visual Studio successfully and fix update issues.
 ## See also 
 
 - [Productivity guide for Visual Studio](../ide/productivity-features.md)
+

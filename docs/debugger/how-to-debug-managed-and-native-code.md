@@ -11,7 +11,7 @@ helpviewer_keywords:
   - "mixed mode debugging"
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "dotnet"
   - "cplusplus"
@@ -120,9 +120,11 @@ If you have Visual Studio installed, but don't have the workloads you need, sele
 1. Open Visual Studio and create a new project.
 
     ::: moniker range=">=vs-2019"
-    Press **Esc** to close the start window. Type **Ctrl + Q** to open the search box, type **console**, choose **Templates**, and then choose **Console App (.NET Core)** or **Console App (.NET Framework)** for C#. In the dialog box that appears, choose **Create**.
+    Press **Esc** to close the start window. Type **Ctrl + Q** to open the search box, type **console**, choose **Templates**, and then choose **Console App** for .NET Core or **Console App (.NET Framework)** for C#. In the dialog box that appears, choose **Next**.
 
-    Then, type a name like **Mixed_Mode_Calling_App** and click **Create**.
+    Then, type a name like **Mixed_Mode_Calling_App** and click **Next** or **Create**, whichever option is available.
+
+    For .NET Core, choose either the recommended target framework (.NET Core 3.1) or .NET 5, and then choose **Create**.
     ::: moniker-end
     ::: moniker range="vs-2017"
     From the top menu bar, choose **File** > **New** > **Project**. In the left pane of the **New project** dialog box, under **Visual C#**, choose **Windows Desktop**, and then in the middle pane choose **Console App (.NET Framework)** or  **Console App (.NET Core)**.
@@ -130,7 +132,7 @@ If you have Visual Studio installed, but don't have the workloads you need, sele
     Then, type a name like **Mixed_Mode_Calling_App** and click **OK**.
     ::: moniker-end
 
-    If you don't see the **Console App** project template, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **.NET desktop development** workload, then choose **Modify**.
+    If you don't see the correct project template, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **.NET Core cross-platform development** or **.NET desktop development** workload, depending on your target framework, and then choose **Modify**.
 
     > [!NOTE]
     > You could also add the new managed project to your existing C++ solution. We are creating the project in a new solution to make the mixed-mode debugging task more difficult.

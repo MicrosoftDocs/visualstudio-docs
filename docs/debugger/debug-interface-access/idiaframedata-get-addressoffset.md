@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the offset part of the code address for the frame."
 title: "IDiaFrameData::get_addressOffset | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: b68e2e68-6483-4936-bf97-1b0a13cb75e2
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

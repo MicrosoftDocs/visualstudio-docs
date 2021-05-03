@@ -1,4 +1,5 @@
 ---
+description: "System performance data that was collected during profiling indicate that a significant proportion of the memory for.NET Framework objects was reclaimed in generation 2 of garbage collection compared to generation 0 and generation 1 garbage collections."
 title: DA0022 - High rate of Gen 2 garbage collections | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference
@@ -9,7 +10,7 @@ f1_keywords:
 ms.assetid: f871a547-0e6f-4b11-b2d7-174d30fc2ed8
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 monikerRange: 'vs-2017'
 ms.workload: 
   - multiple

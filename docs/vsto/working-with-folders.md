@@ -1,5 +1,7 @@
 ---
 title: "Work with folders"
+description: Learn that the MAPIFolder class contains the methods and properties you use to access, create, and customize folders.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -13,7 +15,7 @@ helpviewer_keywords:
   - "Outlook [Office development in Visual Studio], folders"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

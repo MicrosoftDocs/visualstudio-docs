@@ -1,4 +1,5 @@
 ---
+description: "Gets information about the apps for Office that are to be automatically inserted during debugging."
 title: "GetAutoInsertExtensions method"
 ms.date: "02/02/2017"
 ms.topic: "reference"
@@ -7,7 +8,7 @@ dev_langs:
   - "CSharp"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

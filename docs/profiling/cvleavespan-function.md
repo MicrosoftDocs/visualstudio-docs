@@ -1,5 +1,7 @@
 ---
 title: CvLeaveSpan Function | Microsoft Docs
+description: See reference information for the Concurrency Visualizer SDK function CvLeaveSpan (C library).
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords: 
@@ -9,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 3bf65fdf-a471-4efd-ac7a-03e701bbae5d
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload: 
   - multiple
 ---

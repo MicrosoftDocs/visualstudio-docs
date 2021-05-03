@@ -1,5 +1,7 @@
 ---
 title: "Search Tools for Spy++ Views | Microsoft Docs"
+description: See dialog boxes that specify what data a Spy++ Views window will display. Dialog boxes include Find Window, Window Search, Message Search, Process Search, and Thread Search.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:
@@ -8,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: db0c32cf-8e50-4e1b-9a9f-4c07fd6a2163
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

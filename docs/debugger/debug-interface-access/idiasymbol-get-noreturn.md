@@ -1,4 +1,5 @@
 ---
+description: "Retrieves a flag that specifies whether the function has been marked as never returning with the noreturn) attribute."
 title: "IDiaSymbol::get_noReturn | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 704c1cc0-5b84-4334-a02a-70f43aff39d5
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

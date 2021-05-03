@@ -24,7 +24,7 @@ helpviewer_keywords:
 - XML documentation comments [JavaScript]
 author: TerryGLee
 ms.author: tglee
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ---

@@ -1,5 +1,6 @@
 ---
 title: DA0029 - Unsupported CLR Version | Microsoft Docs
+description: "You are trying to profile an application that uses the .NET Framework 1.1 that is not supported by the Profiling Tools."
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords: 
@@ -12,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: 76247259-c6f3-44c4-b3f9-d8dac16b5e0d
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 monikerRange: 'vs-2017'
 ms.workload: 
   - multiple

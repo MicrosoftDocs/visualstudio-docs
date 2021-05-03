@@ -1,4 +1,5 @@
 ---
+description: "Called when the processing of an intercepted exception has completed."
 title: IDebugInterceptExceptionCompleteEvent2::GetInterceptCookie
 titleSuffix: ""
 ms.date: 11/04/2016
@@ -8,9 +9,9 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugInterceptExceptionCompleteEvent2::GetInterceptCookie
 ms.assetid: 07b20866-e598-4783-9ecc-6aa8625c8804
-author: acangialosi
-ms.author: anthc
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:

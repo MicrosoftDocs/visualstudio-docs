@@ -1,4 +1,5 @@
 ---
+description: "Indicates whether an address map has been established for a particular session."
 title: "IDiaAddressMap::get_addressMapEnabled | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 6183dc5e-befa-4e5a-ae5a-f4aa24f3ed9e
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

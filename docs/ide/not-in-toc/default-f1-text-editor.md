@@ -1,39 +1,40 @@
 ---
 title: Default F1 help page for the text editor
 description: "Default page for F1 help requests for the Visual Studio text editor"
-ms.date: 08/20/2020
+ms.date: 03/25/2021
 ms.topic: troubleshooting
-ms.custom: contperfq1
+ms.custom: contperf-fy21q3
 robots: noindex,nofollow
 f1_keywords:
 - vs.texteditor
-manager: jillfra
+manager: jmartens
 author: mikejo5000
 ms.author: mikejo
 ---
-# F1 help for the text editor
+# Code editor F1 help
 
 It looks like we couldn't find what you were looking for, and we apologize. You can help us improve by leaving feedback through the buttons at the bottom of this page, or try one of the following suggestions.
 
-## Cursor position
+## Get help for your programming language?
 
-If you're looking for F1 help on a keyword or API name, be sure you position the cursor inside or just to the right of the word before you press **F1**. If that doesn't fix the issue, try one of the following suggestions.
+- [C# programming guide](/dotnet/csharp/programming-guide/) or [language reference](/dotnet/csharp/language-reference/).
+- [Visual Basic language features](/dotnet/visual-basic/programming-guide/language-features/) or [language reference](/dotnet/visual-basic/language-reference/).
+- [Python documentation](https://docs.python.org/).
+- [C/C++ language and standard libraries reference](/cpp/cpp/c-cpp-language-and-standard-libraries).
+- [F# guide](/dotnet/fsharp/).
+- [TypeScript documentation](https://www.typescriptlang.org/docs).
 
-## Find help on a keyword or API
-
-- For C# help, see the [C# programming guide](/dotnet/csharp/programming-guide/) or [language reference](/dotnet/csharp/language-reference/).
-- For Visual Basic help, see the [Visual Basic language features](/dotnet/visual-basic/programming-guide/language-features/) or [language reference](/dotnet/visual-basic/language-reference/).
-- For Python help, see [Python documentation](https://docs.python.org/).
-- For C++ help, see [C/C++ language and standard libraries reference](/cpp/cpp/c-cpp-language-and-standard-libraries).
-- For F# help, see the [F# guide](/dotnet/fsharp/).
-- For TypeScript help, see the [TypeScript documentation](https://www.typescriptlang.org/docs).
-
-## Search for help on a keyword or API name
+## Search for help on keyword, API name, file type, or UI settings
 
 If you're looking for F1 help on a keyword or API name:
+
 - Try searching on [docs.microsoft.com](/)
 - Try searching using a search engine.
 - Search for reference documentation on [.NET API browser](/dotnet/api/).
+
+## Cursor position
+
+If you're looking for F1 help on a keyword or API name, be sure you position the cursor inside or just to the right of the word before you press **F1**.
 
 ## Find the source code for an API
 

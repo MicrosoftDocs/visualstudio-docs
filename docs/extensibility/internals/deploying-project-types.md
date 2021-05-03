@@ -8,9 +8,9 @@ helpviewer_keywords:
 - projects [Visual Studio SDK], managed-code
 - projects [Visual Studio SDK], aggregator
 ms.assetid: 7f132f67-8589-464c-90dc-0d57ae02aa8f
-author: acangialosi
-ms.author: anthc
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
 - vssdk
 ---

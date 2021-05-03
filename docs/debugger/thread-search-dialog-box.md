@@ -1,5 +1,7 @@
 ---
 title: "Thread Search Dialog Box | Microsoft Docs"
+description: Learn about the Thread Search dialog box in the Spy++ debugging tool. Use this dialog box to find and select the node for a specific thread in Threads View.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 helpviewer_keywords:
@@ -7,7 +9,7 @@ helpviewer_keywords:
 ms.assetid: 52ecb289-9b86-455c-a52b-3dcd3f7255bf
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

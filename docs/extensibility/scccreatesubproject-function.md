@@ -1,4 +1,5 @@
 ---
+description: "This function creates a subproject with the given name under an existing parent project specified by the lpParentProjPath argument."
 title: SccCreateSubProject Function | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: conceptual
@@ -7,9 +8,9 @@ f1_keywords:
 helpviewer_keywords:
 - SccCreateSubProject function
 ms.assetid: 08154aed-ae5c-463c-8694-745d0e332965
-author: acangialosi
-ms.author: anthc
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
 - vssdk
 ---

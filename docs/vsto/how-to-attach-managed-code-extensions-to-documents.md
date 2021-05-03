@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "documents [Office development in Visual Studio], managed code extensions"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---
@@ -32,15 +32,15 @@ ms.workload:
 
 2. Add the following **Imports** or **using** statements to the top of your code file.
 
-     [!code-csharp[Trin_VstcoreDeployment#4](../vsto/codesnippet/CSharp/Trin_VstcoreDeploymentCS/Program.cs#4)]
-     [!code-vb[Trin_VstcoreDeployment#4](../vsto/codesnippet/VisualBasic/Trin_VstcoreDeploymentVB/Program.vb#4)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreDeploymentCS/Program.cs" id="Snippet4":::
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreDeploymentVB/Program.vb" id="Snippet4":::
 
 3. Call the static <xref:Microsoft.VisualStudio.Tools.Applications.ServerDocument.AddCustomization%2A> method.
 
      The following code example uses the <xref:Microsoft.VisualStudio.Tools.Applications.ServerDocument.AddCustomization%2A> overload. This overload takes the full path of the document and a <xref:System.Uri> that specifies the location of the deployment manifest for the customization you want to attach to the document. This example assumes that a Word document named **WordDocument1.docx** is on the desktop, and that the deployment manifest is located in a folder that is named **Publish** that is also on the desktop.
 
-     [!code-csharp[Trin_VstcoreDeployment#3](../vsto/codesnippet/CSharp/Trin_VstcoreDeploymentCS/Program.cs#3)]
-     [!code-vb[Trin_VstcoreDeployment#3](../vsto/codesnippet/VisualBasic/Trin_VstcoreDeploymentVB/Program.vb#3)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreDeploymentCS/Program.cs" id="Snippet3":::
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreDeploymentVB/Program.vb" id="Snippet3":::
 
 4. Build the project and run the application on the computer where you want to attach the customization. The computer must have the Visual Studio 2010 Tools for Office Runtime installed.
 

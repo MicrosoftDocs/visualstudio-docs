@@ -1,5 +1,7 @@
 ---
 title: Debugging Deployed ASP.NET Applications | Microsoft Docs
+description: Use Visual Studio to debug a deployed ASP.NET application by attaching to the worker process and ensuring the debugger has access to symbols for the application.
+ms.custom: SEO-VS-2020
 ms.date: 06/30/2018
 ms.topic: how-to
 dev_langs: 
@@ -17,7 +19,7 @@ helpviewer_keywords:
 ms.assetid: b938a91b-be96-416f-83bc-4177e7f3929a
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload: 
   - aspnet
 ---

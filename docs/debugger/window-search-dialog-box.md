@@ -1,5 +1,7 @@
 ---
 title: "Window Search Dialog Box | Microsoft Docs"
+description: Use Window Search to find and select the node for a specific window listed in Windows View. See this article for descriptions of the settings.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 helpviewer_keywords:
@@ -7,7 +9,7 @@ helpviewer_keywords:
 ms.assetid: 9c30390d-dc3c-4c27-ae1a-9d92dc076d2b
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

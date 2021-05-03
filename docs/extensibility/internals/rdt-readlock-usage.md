@@ -1,5 +1,7 @@
 ---
 title: RDT_ReadLock Usage | Microsoft Docs
+description: Learn about the _VSRDTFLAGS.RDT_ReadLock flag, which provides logic for locking a document in the Running Document Table.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -8,9 +10,9 @@ helpviewer_keywords:
 - RDT_EditLock
 - invisible
 ms.assetid: b935fc82-9d6b-4a8d-9b70-e9a5c5ad4a55
-author: acangialosi
-ms.author: anthc
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
 - vssdk
 ---

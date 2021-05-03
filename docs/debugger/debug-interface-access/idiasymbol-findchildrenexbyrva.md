@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the children of the symbol that are valid at a specified relative virtual address (RVA)."
 title: "IDiaSymbol::findChildrenExByRVA | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: cbc57c6c-7d64-4469-a114-1dd6671e5ec5
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

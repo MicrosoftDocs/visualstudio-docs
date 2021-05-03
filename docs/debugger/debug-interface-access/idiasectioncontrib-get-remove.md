@@ -1,4 +1,5 @@
 ---
+description: "Retrieves a flag that indicates whether the section is removed before it is made part of the in-memory image."
 title: "IDiaSectionContrib::get_remove | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: fd30ab7b-022b-4402-a42a-2d38e274c1b1
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

@@ -1,4 +1,5 @@
 ---
+description: "Initializes a new instance of the marker_series class."
 title: marker_series::marker_series Constructor | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 042c7d23-f1d8-4e09-9e76-a21c30243790
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload: 
   - multiple
 ---

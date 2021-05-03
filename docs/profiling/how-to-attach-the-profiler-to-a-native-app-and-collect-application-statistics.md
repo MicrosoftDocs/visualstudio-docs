@@ -1,12 +1,13 @@
 ---
 title: "Attach profiler to native app & collect app statistics"
+description: Use Visual Studio Profiling Tools to attach the profiler to a running native stand-alone application and get performance statistics using the sampling method.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 ms.assetid: df44fe42-281b-4398-b3fc-277b62ae41f1
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 monikerRange: 'vs-2017'
 ms.workload: 
   - cplusplus

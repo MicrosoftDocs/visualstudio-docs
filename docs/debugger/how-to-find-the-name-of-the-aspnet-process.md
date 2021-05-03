@@ -1,5 +1,7 @@
 ---
 title: Find the running ASP.NET process | Microsoft Docs
+description: Learn how to debug a running ASP.NET app. You attach the Visual Studio debugger to the ASP.NET process by name.   
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2018
 ms.topic: how-to
 dev_langs: 
@@ -13,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 931a7597-b0f0-4a28-931d-46e63344435f
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload: 
   - aspnet
 ---

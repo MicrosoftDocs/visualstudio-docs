@@ -1,5 +1,6 @@
 ---
 title: DA0503 - Average Working Set in Bytes for the Process being profiled | Microsoft Docs
+description: "This message reports the average amount of physical memory that the process is currently using in bytes (the working set)."
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords: 
@@ -9,7 +10,7 @@ f1_keywords:
 ms.assetid: 9047a494-eaaf-4679-b422-c64e8bde77a4
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 monikerRange: 'vs-2017'
 ms.workload: 
   - multiple

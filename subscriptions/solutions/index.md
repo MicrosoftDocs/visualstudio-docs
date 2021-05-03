@@ -68,6 +68,12 @@ ms.date: 12/07/2020
 ### Use product features
 [!INCLUDE [Cannot find IDE feature](downloading-activating-or-using-software/using-product-features/includes/cannot-find-ide-feature.md)]
 
+[!INCLUDE [Visual Studio IDE technical support](downloading-activating-or-using-software/using-product-features/includes/visual-studio-ide-technical-support.md)]
+
+[!INCLUDE [Azure DevOps technical support](downloading-activating-or-using-software/using-product-features/includes/azure-devops-technical-support.md)]
+
+[!INCLUDE [Windows developer technical support](downloading-activating-or-using-software/using-product-features/includes/windows-developer-technical-support.md)]
+
 ## License terms
 
 [!INCLUDE [Subscription licensing terms and conditions](licensing-terms/includes/subscription-licensing-terms-and-conditions.md)]
@@ -100,10 +106,13 @@ ms.date: 12/07/2020
 
 [!INCLUDE [Help me renew via Microsoft Store](renewing-purchasing-or-canceling/help-renewing/includes/help-me-renew-microsoft-store.md)]
 
+### Help with canceling
+[!INCLUDE [Help me cancel monthly or annual subscriptions](renewing-purchasing-or-canceling/help-canceling/includes/help-me-cancel-monthly-annual.md)]
+
 ### Order or purchase status
 [!INCLUDE [Find the status of my renewal or purchase](renewing-purchasing-or-canceling/order-or-purchase-status/includes/find-the-status-of-renewal-or-purchase.md)]
 
-[!INCLUDE [View my bill](renewing-purchasing-or-canceling/order-or-purchase-status/includes/viewing-my-bill.md)]
+[!INCLUDE [View my invoice](renewing-purchasing-or-canceling/order-or-purchase-status/includes/viewing-my-bill.md)]
 
 ## Issues with signing in 
 

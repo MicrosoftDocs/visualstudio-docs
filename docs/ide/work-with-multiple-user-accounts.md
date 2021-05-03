@@ -2,11 +2,11 @@
 title: Work with multiple user accounts
 description: Learn how to add all of your Microsoft accounts to Visual Studio so that you can access the resources from any account without having to sign in to it separately.
 ms.custom: SEO-VS-2020
-ms.date: 11/16/2020
+ms.date: 03/02/2021
 ms.topic: conceptual
-author: ornellaalt
-ms.author: ornella
-manager: jillfra
+author: j-martens
+ms.author: jmartens
+manager: jmartens
 ms.workload:
 - multiple
 ---
@@ -59,7 +59,7 @@ To see this in action, create a new **ASP.NET Core Web Application** project. In
 
 ::: moniker range=">=vs-2019"
 
-To see this in action, create a new **ASP.NET Core Web Application** project. On the **Create a new ASP.NET Core Web Application** page, choose the **Web Application** template, and then choose **Change** under **Authentication**.
+To see this in action, create a new **ASP.NET Core Web App** project. On the **Create a new ASP.NET Core Web Application** page, choose **ASP.NET Core 3.1** from the drop-down, choose the **Web Application** template, and then choose **Change** under **Authentication**.
 
 ::: moniker-end
 

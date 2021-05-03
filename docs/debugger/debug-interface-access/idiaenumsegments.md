@@ -1,4 +1,5 @@
 ---
+description: "Enumerates the various segments contained in the data source."
 title: "IDiaEnumSegments | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 0c9edd5e-b9ce-43e1-a791-cd4c5d16d923
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

@@ -1,12 +1,13 @@
 ---
 title: Profiling command line - Create basic reports
+description: Learn about the Summary and CallTrace options of VSPerfReport.exe, which create .csv (comma-separated-value) reports from a .vsp or .vsps profiling data file.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 ms.assetid: 6d73e21e-c04e-48ea-91cc-e517a5f2cd3f
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 monikerRange: 'vs-2017'
 ms.workload: 
   - multiple

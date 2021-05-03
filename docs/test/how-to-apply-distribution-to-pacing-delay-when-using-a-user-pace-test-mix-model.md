@@ -9,7 +9,7 @@ helpviewer_keywords:
 ms.assetid: ae8b35f9-d465-4d72-8d7d-7b56ae6ffd22
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ---
 # How to: Apply distribution to pacing delay for a user pace test mix model
 

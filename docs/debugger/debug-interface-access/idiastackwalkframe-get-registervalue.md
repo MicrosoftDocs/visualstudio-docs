@@ -1,4 +1,5 @@
 ---
+description: "IDiaStackWalkFrame::get_registerValue retrieves the value of a register."
 title: "IDiaStackWalkFrame::get_registerValue | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: ca3c20a9-934a-4b2c-a7f6-7d06e8611ff2
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

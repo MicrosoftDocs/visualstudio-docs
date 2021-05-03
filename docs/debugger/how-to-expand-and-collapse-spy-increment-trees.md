@@ -1,5 +1,7 @@
 ---
 title: Expand and Collapse Spy++ Trees | Microsoft Docs
+description: Learn two methods to expand and collapse the Windows, Processes, and Threads views. You can click on the icons in the window or use the Tree menu.   
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords: 
@@ -7,7 +9,7 @@ helpviewer_keywords:
 ms.assetid: 22993182-7026-4155-8046-b84fd99f803c
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload: 
   - multiple
 ---

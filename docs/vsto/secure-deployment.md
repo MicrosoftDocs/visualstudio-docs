@@ -1,5 +1,7 @@
 ---
 title: "Secure deployment"
+description: Learn how you must provide evidence on which to base a trust decision by signing the solution with a certificate, or using the ClickOnce trust prompt key. 
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -12,7 +14,7 @@ helpviewer_keywords:
   - "ClickOnce deployment [Office development in Visual Studio], security"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

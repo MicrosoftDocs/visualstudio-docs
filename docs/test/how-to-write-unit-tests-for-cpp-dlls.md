@@ -2,7 +2,7 @@
 title: Write Unit tests for C++ DLLs
 description: Learn about the several ways to test DLL code, depending on whether the DLL exports the functions that you want to test.
 ms.custom: SEO-VS-2020
-ms.date: 05/01/2019
+ms.date: 02/16/2021
 ms.topic: how-to
 ms.author: corob
 manager: markl
@@ -24,14 +24,14 @@ Add a separate test project. Link it to the output object file.
 
 Go to the procedure [To link the tests to the object or library files](#objectRef).
 
-**The unit tests call non-member functions which are not exported from the DLL, and the DLL can be built as a static library:**
-Change the DLL project so that it is compiled to a *.lib* file. Add a separate test project that references the project under test.
+**The unit tests call non-member functions that aren't exported from the DLL, and the DLL can be built as a static library:**
+Change the DLL project so that it's compiled to a *.lib* file. Add a separate test project that references the project under test.
 
 This approach has the benefit of allowing your tests to use non-exported members, but still keep the tests in a separate project.
 
 Go to the procedure [To change the DLL to a static library](#staticLink).
 
-**The unit tests must call non-member functions that are not exported, and the code must be built as a dynamic link library (DLL):**
+**The unit tests must call non-member functions that aren't exported, and the code must be built as a dynamic link library (DLL):**
 Add unit tests in the same project as the product code.
 
 Go to the procedure [To add unit tests in the same project](#sameProject).
@@ -40,7 +40,7 @@ Go to the procedure [To add unit tests in the same project](#sameProject).
 
 ### <a name="staticLink"></a> To change the DLL to a static library
 
-- If your tests must use members that are not exported by the DLL project, and the project under test is built as a dynamic library, consider converting it to a static library.
+- If your tests must use members that aren't exported by the DLL project, and the project under test is built as a dynamic library, consider converting it to a static library.
 
   1. In **Solution Explorer**, on the shortcut menu of the project under test, choose **Properties**. The project **Properties** window opens.
 
@@ -84,7 +84,7 @@ Go to the procedure [To add unit tests in the same project](#sameProject).
 
 ### <a name="objectRef"></a> To link the tests to the object or library files
 
-- If the DLL does not export the functions that you want to test, you can add the output *.obj* or *.lib* file to the dependencies of the test project.
+- If the DLL doesn't export the functions that you want to test, you can add the output *.obj* or *.lib* file to the dependencies of the test project.
 
   1. Create a Native Unit Test Project.
 
@@ -100,17 +100,17 @@ Go to the procedure [To add unit tests in the same project](#sameProject).
 
       ::: moniker-end
 
-  2. In **Solution Explorer**, on the shortcut menu of the test project, choose **Properties**.
+  1. In **Solution Explorer**, on the shortcut menu of the test project, choose **Properties**.
 
-  3. Choose **Configuration Properties** > **Linker** > **Input** > **Additional Dependencies**.
+  1. Choose **Configuration Properties** > **Linker** > **Input** > **Additional Dependencies**.
 
-       Choose **Edit**, and add the names of the **.obj** or **.lib** files. Do not use the full path names.
+       Choose **Edit**, and add the names of the **.obj** or **.lib** files. Don't use the full path names.
 
-  4. Choose **Configuration Properties** > **Linker** > **General** > **Additional Library Directories**.
+  1. Choose **Configuration Properties** > **Linker** > **General** > **Additional Library Directories**.
 
        Choose **Edit**, and add the directory path of the **.obj** or **.lib** files. The path is typically within the build folder of the project under test.
 
-  5. Choose **Configuration Properties** > **VC++ Directories** > **Include Directories**.
+  1. Choose **Configuration Properties** > **VC++ Directories** > **Include Directories**.
 
        Choose **Edit**, and then add the header directory of the project under test.
 
@@ -122,18 +122,20 @@ Go to the procedure [To add unit tests in the same project](#sameProject).
 
    1. In **Solution Explorer**, in the shortcut menu of the project under test, choose **Properties**. The project **Properties** window opens.
 
-   2. Choose **Configuration Properties** > **VC++ Directories**.
+   1. Choose **Configuration Properties** > **VC++ Directories**.
 
-   3. Edit the Include and Library directories:
+   1. Edit the Include and Library directories:
 
        |Directory|Property|
        |-|-|
-       |**Include Directories** | **$(VCInstallDir)UnitTest\include;$(IncludePath)**|
-       |**Library Directories** | **$(VCInstallDir)UnitTest\lib;$(LibraryPath)**|
+       |**Include Directories** | **$(VCInstallDir)Auxiliary\VS\UnitTest\include** |
+       |**Library Directories** | **$(VCInstallDir)Auxiliary\VS\UnitTest\lib** |
 
-2. Add a C++ Unit Test file:
+1. Add a C++ Unit Test file:
 
-   - In **Solution Explorer**, in the shortcut menu of the project, choose **Add** > **New Item** > **C++ Unit Test**.
+   1. Right-click on the project node in **Solution Explorer** and choose **Add** > **New Item**.
+
+   1. In the **Add New Item** dialog, select  **C++ File (.cpp)**, give it an appropriate name, and then choose **Add**.
 
    Go to [Write the unit tests](#addTests).
 
@@ -141,7 +143,7 @@ Go to the procedure [To add unit tests in the same project](#sameProject).
 
 1. In each unit test code file, add an `#include` statement for the headers of the project under test.
 
-2. Add test classes and methods to the unit test code files. For example:
+1. Add test classes and methods to the unit test code files. For example:
 
     ```cpp
     #include "stdafx.h"
@@ -165,9 +167,9 @@ Go to the procedure [To add unit tests in the same project](#sameProject).
 
 1. On the **Test** menu, choose **Windows** > **Test Explorer**.
 
-1. If all your tests are not visible in the window, build the test project by right-clicking its node in **Solution Explorer** and choosing **Build** or **Rebuild**.
+1. If not all of your tests are visible in the window, build the test project: right-click its node in **Solution Explorer** and choose **Build** or **Rebuild**.
 
-1. In **Test Explorer**, choose **Run All**, or select the specific tests you want to run. Right-click on a test for other options, including running it in debug mode with breakpoints enabled.
+1. In **Test Explorer**, choose **Run All**, or select the specific tests you want to run. Right-click on a test for other options, for example, to run it in debug mode with breakpoints enabled.
 
 ## See also
 

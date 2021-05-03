@@ -1,5 +1,6 @@
 ---
 title: DA0501 - Average CPU consumption by the Process being profiled. | Microsoft Docs
+description: "This message reports the percentage of time that a processor was busy executing instructions from the application."
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords: 
@@ -9,7 +10,7 @@ f1_keywords:
 ms.assetid: b01946b4-75e3-47d5-a1a1-cebfae66a3af
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 monikerRange: 'vs-2017'
 ms.workload: 
   - multiple

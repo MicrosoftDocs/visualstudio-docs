@@ -4,9 +4,9 @@ description: Learn about Visual Studio system-generated logs, the types of data 
 ms.custom: SEO-VS-2020
 ms.date: 05/24/2018
 ms.topic: conceptual
-author: jillre
-ms.author: michma
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ms.workload:
   - "multiple"
 ---
@@ -64,7 +64,7 @@ Extension authors should limit exposure of personal information by not using per
 
 ## Opt out of data collection
 
-Given the purpose of the data we collect and the constraints on its access and retention, we recommend that you use the default privacy settings for Visual Studio and Windows. However, you can [opt out](../ide/visual-studio-experience-improvement-program.md#opt-in-or-out) of the Visual Studio Experience Improvement Program. To opt out of system-generated log collection for all programs, see [Diagnostics, feedback, and privacy in Windows 10](https://privacy.microsoft.com/windows-10-feedback-diagnostics-and-privacy). Options may vary depending on the version of Windows you're using.
+Given the purpose of the data we collect and the constraints on its access and retention, we recommend that you use the default privacy settings for Visual Studio and Windows. However, you can [opt out](../ide/visual-studio-experience-improvement-program.md#opt-in-or-out) of the Visual Studio Experience Improvement Program. When you opt out, you are opting out of **optional** diagnostic data collection. Some diagnostic data collection is **required** to make sure Visual Studio is secure, up to date, and performing as expected. Required diagnostic data collection will not be affected by your choice to opt out of VSCEIP. To opt out of system-generated log collection for all programs, see [Diagnostics, feedback, and privacy in Windows 10](https://privacy.microsoft.com/windows-10-feedback-diagnostics-and-privacy). Options may vary depending on the version of Windows you're using.
 
 ## See also
 

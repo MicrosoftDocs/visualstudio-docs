@@ -6,7 +6,7 @@ ms.date: 03/26/2020
 ms.topic: reference
 author: TerryGLee
 ms.author: tglee
-manager: jillfra
+manager: jmartens
 ms.workload:
 - dotnet
 ---

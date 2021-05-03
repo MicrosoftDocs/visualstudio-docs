@@ -1,5 +1,7 @@
 ---
 title: "CustomType | Microsoft Docs"
+description: Find reference information about the CustomType symbol type (SymTagCustomType) in the Visual Studio debug interface access SDK.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
@@ -9,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 1b66bc0a-7979-416f-bf7f-e5df91584c91
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

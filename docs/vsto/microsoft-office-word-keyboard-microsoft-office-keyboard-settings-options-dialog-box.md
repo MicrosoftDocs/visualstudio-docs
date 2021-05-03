@@ -1,5 +1,7 @@
 ---
 title: "Office Word Keyboard, Settings, Options dialog box"
+description: Learn how you can make Microsoft Word receive shortcut key commands when the document has focus by selecting Dynamic keyboard scheme.
+ms.custom: SEO-VS-2020
 titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
@@ -14,7 +16,7 @@ helpviewer_keywords:
   - "keyboard shortcuts, Office development in Visual Studio"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

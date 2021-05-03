@@ -4,17 +4,19 @@
   items:
   - name: First look at testing tools
     href: improve-code-quality.md
-- name: Unit testing
-  items:
-  - name: Unit test tools overview
+  - name: Unit test tools and tasks
     href: unit-test-your-code.md
+- name: Tutorials
+  items:
   - name: Get started
     href: getting-started-with-unit-testing.md
+- name: Unit testing
+  items:
   - name: Unit test basics
     href: unit-test-basics.md
   - name: Create a unit test project
     href: create-a-unit-test-project.md
-  - name: Create Unit Tests command
+  - name: Create unit tests from code
     href: create-unit-tests-menu.md
   - name: IntelliTest
     items:
@@ -117,6 +119,12 @@
       href: customizing-code-coverage-analysis.md
     - name: Troubleshoot code coverage
       href: troubleshooting-code-coverage.md
+  - name: Migration
+    items:
+    - name: Upgrade from MSTestV1 to MSTestV2
+      href: mstest-update-to-mstestv2.md
+    - name: Migrate testsettings to runsettings
+      href: migrate-testsettings-to-runsettings.md
 - name: Live Unit Testing
   items:
   - name: Introduction

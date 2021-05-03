@@ -1,5 +1,7 @@
 ---
 title: "Stop Debugging In Progress Dialog Box | Microsoft Docs"
+description: Explore the Stop Debugging In Progress dialog box, which appears when the debugger tries to stop a debugging session, but stopping the session will take time.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 f1_keywords:
@@ -16,7 +18,7 @@ helpviewer_keywords:
 ms.assetid: ed7ef49d-e25f-4a4d-9396-9bc7b4143117
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

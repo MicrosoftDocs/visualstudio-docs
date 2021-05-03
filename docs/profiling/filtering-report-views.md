@@ -1,5 +1,7 @@
 ---
 title: "Filtering Report Views | Microsoft Docs"
+description: In Visual Studio, apply filters to profiling data files to limit the profiling data that's displayed in the Performance Report views and exported to report files.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:
@@ -7,7 +9,7 @@ helpviewer_keywords:
 ms.assetid: 820cf192-7fd6-4bee-9a51-aa69154aca85
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 monikerRange: 'vs-2017'
 ms.workload:
   - "multiple"

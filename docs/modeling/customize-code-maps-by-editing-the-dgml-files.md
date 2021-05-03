@@ -1,5 +1,7 @@
 ---
 title: Customize code maps by editing the DGML files
+description: Learn how to customize a code map by editing its Directed Graph Markup Language (.dgml) file.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
@@ -17,7 +19,7 @@ helpviewer_keywords:
 - dependency graphs, assigning categories and properties
 author: JoshuaPartlow
 ms.author: joshuapa
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ---

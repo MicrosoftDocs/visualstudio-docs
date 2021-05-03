@@ -1,6 +1,7 @@
 ---
 title: Attach performance tools to running processes
-ms.custom: seodec18
+description: Learn to use the Visual Studio profiler to attach to or detach from a running process to make sampling and gathering performance data easier.
+ms.custom: "SEO-VS-2020, seodec18"
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords: 
@@ -14,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 56a99c39-e7f6-4f48-ae56-04ab8e022bf7
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 monikerRange: 'vs-2017'
 ms.workload: 
   - multiple

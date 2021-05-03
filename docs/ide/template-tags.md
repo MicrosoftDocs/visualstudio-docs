@@ -4,7 +4,7 @@ description: Learn how to add or edit tags on project templates in Visual Studio
 ms.date: 04/30/2019
 author: minsa110
 ms.author: somin
-manager: jillfra
+manager: jmartens
 ms.topic: reference
 helpviewer_keywords:
   - "item templates, updating"

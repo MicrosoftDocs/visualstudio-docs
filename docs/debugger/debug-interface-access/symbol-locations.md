@@ -1,4 +1,5 @@
 ---
+description: "Most symbols have a defined location within the image file."
 title: "Symbol Locations | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -10,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 7c8cd8fe-169e-4161-9cff-5e9015984add
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

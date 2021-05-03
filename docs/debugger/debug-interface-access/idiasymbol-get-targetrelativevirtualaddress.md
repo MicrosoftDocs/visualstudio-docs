@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the relative virtual address (RVA) of a thunk target."
 title: "IDiaSymbol::get_targetRelativeVirtualAddress | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 49a159f3-6943-44d3-90a3-0dba51e8a7ec
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

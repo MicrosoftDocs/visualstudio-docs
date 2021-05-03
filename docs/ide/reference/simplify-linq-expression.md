@@ -1,10 +1,11 @@
 ---
 title: Simplify LINQ expression
+description: "This refactoring is used to remove unnecessary calls to the Enumerable for the Where method."
 ms.date: 08/12/2020
 ms.topic: reference
 author: m-redding
 ms.author: midumont
-manager: jillfra
+manager: jmartens
 dev_langs:
   - CSharp
 ms.workload: 

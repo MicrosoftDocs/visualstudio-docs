@@ -5,9 +5,9 @@ description: Learn how to repair an installation of Visual Studio 2017
 ms.date: 10/12/2020
 ms.custom: seodec18
 ms.topic: how-to
-author: ornellaalt
-ms.author: ornella
-manager: jillfra
+author: j-martens
+ms.author: jmartens
+manager: jmartens
 ms.workload:
 - multiple
 ms.prod: visual-studio-windows
@@ -27,7 +27,7 @@ Sometimes your Visual Studio installation becomes damaged or corrupted. A repair
 > If the install issue is caused by an issue in an underlying Windows service, like Windows Installer, repair may hit the same issue. Systemic issues can include a broken Windows Installer or unstable internet connection. To check for a systemic issue, use the error report generated from the installation operation.
 
 > [!NOTE] 
-> Repairing Visual Studio resets user settings, and re-installs the assemblies you already have. If you're experiencing a product issue, create a [Visual Studio Feedback Ticket](https://developercommunity.visualstudio.com/content/problem/post.html?space=8), as repair might not solve the issue.
+> Repairing Visual Studio resets user settings, and re-installs the assemblies you already have. If you're experiencing a product issue, create a [Visual Studio Feedback Ticket](https://aka.ms/feedback/suggest?space=8), as repair might not solve the issue.
 
 ## How to repair
 ::: moniker range="vs-2017"

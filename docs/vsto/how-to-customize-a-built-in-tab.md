@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "built-in tabs [Office development in Visual Studio]"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

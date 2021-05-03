@@ -5,7 +5,7 @@ ms.topic: how-to
 ms.date: 09/21/2020
 author: gregvanl
 ms.author: gregvanl
-manager: jillfra
+manager: jmartens
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
 ms.workload:
@@ -15,6 +15,10 @@ monikerRange: vs-2019
 
 # Supported Visual Studio features (Preview)
 
+> [!Important] 
+> As of April 12th 2021, connecting to GitHub Codespaces from Visual Studio 2019 will no longer be supported and this private preview has concluded. We're focused on evolving experiences for a cloud-powered inner loop and VDI solutions optimized for a broad set of Visual Studio workloads. We encourage you to be involved in our [developer community forum](https://developercommunity.visualstudio.com/home) for Visual Studio for information on future previews and roadmap information. 
+
+
 Visual Studio provides a rich development experience when connecting to a codespace. You get the Visual Studio inner-loop tools you're familiar with to edit, debug, test, and version your source code as well as productivity features like project templates, rich code navigation, and IntelliSense.
 
 In the current GitHub Codespaces [public beta](https://github.com/features/codespaces), some Visual Studio features may not have full support or may be initially missing. The following sections outline what you can expect with Visual Studio and the GitHub Codespaces beta and what you can look forward to in the future. 
@@ -22,7 +26,7 @@ In the current GitHub Codespaces [public beta](https://github.com/features/codes
 This is **not meant to be an exhaustive list**, but to explain Visual Studio's general capabilities when connected to a codespace.
 
 > [!NOTE]
-> If there is a feature you are missing while using codespaces with Visual Studio, please let us know by opening an issue on https://developercommunity.visualstudio.com/. This helps us prioritize the most wanted features.
+> If there is a feature you are missing while using codespaces with Visual Studio, please let us know by opening an issue on [Visual Studio Developer Community](https://aka.ms/feedback/suggest?space=8). This helps us prioritize the most wanted features.
 
 > [!NOTE]
 > The features described below are for Visual Studio and not the two other GitHub Codespaces clients; Visual Studio Code and the in-browser editor.
@@ -68,6 +72,7 @@ Most application types and project configurations are supported, but you will ne
 Not yet available:
 
 * UI designers - WinForms, WPF, and Resource designers
+* WinForms and WPF projects app casting is only available under a feature flag
 * Visual Basic and F# projects
 * .NET Framework targeted projects
 * Docker Compose projects
@@ -103,8 +108,8 @@ Not yet available:
 
 When working with Visual Studio connected to a codespace, you get the same accessibility features as when working locally.
 
-* Source Control - Full Git support through the new [Git window](https://devblogs.microsoft.com/visualstudio/improved-git-experience-in-visual-studio-2019/).
-* Accessibility - There is one known issue with assistive technology not being able to access the appcasting of a debugged app. Besides this limitation, we don't believe there are any other compatibility issues that don't already exist in the local Visual Studio experience. Please let us know if you detect bugs by filing an issue on [developer community](https://developercommunity.visualstudio.com/).
+* Source Control - Full Git support through the new [integrated Git experience](../git-with-visual-studio.md). For git submodules to be cloned in a codespace, you may need to run `git submodule update` from the terminal.
+* Accessibility - There is one known issue with assistive technology not being able to access the appcasting of a debugged app. Besides this limitation, we don't believe there are any other compatibility issues that don't already exist in the local Visual Studio experience. Please let us know if you detect bugs by filing an issue on [developer community](https://aka.ms/feedback/report?space=8).
 * Publishing - Publish to Azure through GitHub Actions is supported.
 * Connected services - App Insights, KeyVault, Storage, SQL, Redis, Cosmos, openAPI, and gRPC are partially supported.
 * Test Explorer* - Mostly supported.

@@ -3,13 +3,13 @@ title: Use MSBuild
 description: Learn the various parts of an MSBuild project file, including items, item metadata, properties, targets, and tasks.
 ms.date: 10/19/2020
 ms.topic: conceptual
-ms.custom: contperfq2
+ms.custom: contperf-fy21q2
 helpviewer_keywords:
 - MSBuild, tutorial
 ms.assetid: b8a8b866-bb07-4abf-b9ec-0b40d281c310
 author: ghogen
 ms.author: ghogen
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ---

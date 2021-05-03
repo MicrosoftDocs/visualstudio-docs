@@ -1,4 +1,5 @@
 ---
+description: "Returns a frame by relative virtual address (RVA)."
 title: "IDiaEnumFrameData::frameByRVA | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 4b8dec05-e76c-4cc4-9644-2369d583849f
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

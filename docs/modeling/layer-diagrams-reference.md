@@ -1,5 +1,7 @@
 ---
 title: Dependency Diagrams Reference
+description: Learn that in Visual Studio, you can use a dependency diagram to visualize the high-level, logical architecture of your system.
+ms.custom: SEO-VS-2020
 ms.date: 09/28/2018
 ms.topic: reference
 f1_keywords:
@@ -17,7 +19,7 @@ helpviewer_keywords:
 - constraints, architectural
 author: JoshuaPartlow
 ms.author: joshuapa
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ---

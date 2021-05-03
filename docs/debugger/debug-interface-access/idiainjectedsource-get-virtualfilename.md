@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the name given to non-file source code; that is, code that was injected."
 title: "IDiaInjectedSource::get_virtualFilename | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: b9977075-8fd1-4b11-bfff-d87e9f2586dc
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

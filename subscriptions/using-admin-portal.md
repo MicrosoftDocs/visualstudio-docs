@@ -52,7 +52,7 @@ For more information about the agreement you are viewing, select the second icon
 - [Visual Studio licensing white paper](https://visualstudio.microsoft.com/wp-content/uploads/2019/06/Visual-Studio-Licensing-Whitepaper-May-2019.pdf)
 - [Compare subscription options and pricing](https://visualstudio.microsoft.com/vs/pricing)
 - [Compare Visual Studio IDE features](https://visualstudio.microsoft.com/vs/compare)
-- [Visual Studio Admin and Subscriptions Support](https://visualstudio.microsoft.com/support/support-overview-vs)
+- [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/)
 
 ## See also
 - [Visual Studio documentation](/visualstudio/)

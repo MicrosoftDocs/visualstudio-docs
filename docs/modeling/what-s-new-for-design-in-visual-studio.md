@@ -1,5 +1,7 @@
 ---
 title: What's new for design in Visual Studio 2017
+description: Learn about new features for code design, like live dependency validation, that are available in Visual Studio 2017.
+ms.custom: SEO-VS-2020
 titleSuffix: ''
 ms.date: 11/04/2016
 ms.topic: conceptual
@@ -9,7 +11,7 @@ helpviewer_keywords:
 - modeling software [Visual Studio], What's New
 author: JoshuaPartlow
 ms.author: joshuapa
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 monikerRange: vs-2017

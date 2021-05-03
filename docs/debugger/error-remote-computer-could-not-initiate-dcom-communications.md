@@ -1,4 +1,5 @@
 ---
+description: "A DCOM error occurred when the remote machine tried to communicate with the local machine."
 title: "Remote computer could not initiate DCOM communications | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "error-reference"
@@ -11,7 +12,7 @@ dev_langs:
   - "C++"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

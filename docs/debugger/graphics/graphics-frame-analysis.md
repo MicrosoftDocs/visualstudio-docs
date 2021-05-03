@@ -1,12 +1,14 @@
 ---
 title: "Graphics Frame Analysis | Microsoft Docs"
+description: Use Graphics Frame Analysis in Visual Studio Graphics Analyzer to analyze and optimize the rendering performance of your Direct3D game or app.
+ms.custom: SEO-VS-2020
 ms.date: "02/09/2017"
 ms.topic: "conceptual"
 f1_keywords:
   - "vs.graphics.frameanalysis"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

@@ -1,5 +1,6 @@
 ---
 title: DA0012 - Significant amount of Reflection | Microsoft Docs
+description: "Calls to the System.Reflection methods such as InvokeMember and GetMember or to Type methods such as MemberInvoke are a significant proportion of the profiling data."
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords: 
@@ -10,7 +11,7 @@ f1_keywords:
 ms.assetid: c92a1d76-21fa-426e-8b1b-a3c08e9bcbca
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 monikerRange: 'vs-2017'
 ms.workload: 
   - multiple

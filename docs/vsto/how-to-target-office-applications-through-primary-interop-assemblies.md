@@ -1,5 +1,7 @@
 ---
 title: "Target Office apps through primary interop assemblies"
+description: Learn how you can use Visual Studio to programmatically target Microsoft Office applications through primary interop assemblies.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:
@@ -13,7 +15,7 @@ helpviewer_keywords:
   - "application development [Office development in Visual Studio], automating"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

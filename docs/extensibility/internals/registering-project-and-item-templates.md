@@ -1,5 +1,7 @@
 ---
 title: Registering Project and Item Templates | Microsoft Docs
+description: Learn how Visual Studio uses registration information for your project types to determine what to show in the Add New Project and Add New Item dialog boxes.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -9,9 +11,9 @@ helpviewer_keywords:
 - Add New Project dialog box
 - registry, Add New Project dialog box
 ms.assetid: 6b909f93-d7f5-4aec-81c6-ee9ff0f31638
-author: acangialosi
-ms.author: anthc
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
 - vssdk
 ---

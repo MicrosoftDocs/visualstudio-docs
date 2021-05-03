@@ -1,4 +1,5 @@
 ---
+description: "This warning dialog box appears when you are using Source Server."
 title: "Security Warning: Debugger Must Execute Untrusted Command | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
@@ -12,7 +13,7 @@ dev_langs:
 ms.assetid: e5c004b3-b364-4098-ac98-770076ca9981
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

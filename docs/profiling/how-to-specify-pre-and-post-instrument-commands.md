@@ -1,5 +1,6 @@
 ---
 title: Specify Pre- and Post-Instrument Commands | Microsoft Docs
+description: Learn how you can specify commands that run before or after the binaries in a performance session are instrumented.
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords: 
@@ -11,7 +12,7 @@ helpviewer_keywords:
 ms.assetid: 6a8d5340-1d1b-4d81-88dd-8e1f435eb828
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 monikerRange: 'vs-2017'
 ms.workload: 
   - multiple

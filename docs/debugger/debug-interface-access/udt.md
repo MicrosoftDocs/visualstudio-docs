@@ -1,4 +1,5 @@
 ---
+description: "Each class, structure, and union is identified by a SymTagUDT symbol."
 title: "UDT | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -13,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: f12459dd-c64d-4cc9-9ee3-a56e19e9e573
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

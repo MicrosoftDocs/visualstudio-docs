@@ -1,5 +1,7 @@
 ---
 title: Analyze and model your architecture
+description: Learn how you can use Visual Studio architecture and modeling tools to design and model your app to make sure your app meets architectural requirements.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: overview
 helpviewer_keywords:
@@ -14,7 +16,7 @@ helpviewer_keywords:
 - application modeling
 author: JoshuaPartlow
 ms.author: joshuapa
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ---

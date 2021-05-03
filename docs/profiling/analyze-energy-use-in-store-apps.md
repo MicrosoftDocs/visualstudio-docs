@@ -1,5 +1,7 @@
 ---
 title: "Analyze energy use in UWP apps | Microsoft Docs"
+description: Use the Visual Studio Energy Consumption profiler to analyze energy and power demands of UWP apps running on battery-powered devices.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:
@@ -10,7 +12,7 @@ dev_langs:
 ms.assetid: 96d06843-b97e-45a8-8126-07478a40bfc4
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "uwp"
 monikerRange: vs-2017

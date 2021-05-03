@@ -1,5 +1,6 @@
 ---
 title: "Summary View | Microsoft Docs"
+description: Learn how the Summary view displays information about the most performance-expensive functions or objects in a profiling run.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:
@@ -12,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: 98a1eb71-bbf5-4ce7-8559-cdc29f082c4b
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 monikerRange: 'vs-2017'
 ms.workload:
   - "multiple"

@@ -67,12 +67,12 @@
     "globalMetadata": {
       "feedback_system": "GitHub",
       "feedback_github_repo": "MicrosoftDocs/visualstudio-docs",
-      "feedback_product_url": "https://developercommunity.visualstudio.com/",
+      "feedback_product_url": "https://developercommunity2.visualstudio.com/search?space=8",
       "breadcrumb_path": "/visualstudio/_breadcrumb/toc.json",
       "extendBreadcrumb": "true",
-      "manager": "jillfra",
-      "author": "jillre",
-      "ms.author": "jillfra",
+      "manager": "jmartens",
+      "author": "j-martens",
+      "ms.author": "jmartens",
       "ms.date": "11/16/2016",
       "ms.topic": "conceptual",
       "audience": "developer",
@@ -87,7 +87,8 @@
       "featureFlags": [
         "enable_uhf_ppe"
       ],
-      "archive_url": "/previous-versions/visualstudio"
+      "archive_url": "/previous-versions/visualstudio",
+      "recommendations": true
     },
     "fileMetadata": {
       "open_to_public_contributors": {

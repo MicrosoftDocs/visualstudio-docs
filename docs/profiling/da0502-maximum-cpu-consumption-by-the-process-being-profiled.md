@@ -1,5 +1,6 @@
 ---
 title: DA0502 - Maximum CPU consumption by the Process being profiled | Microsoft Docs
+description: "This message reports the maximum percentage of time that a processor was busy executing instructions from the application."
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords: 
@@ -9,7 +10,7 @@ f1_keywords:
 ms.assetid: 1ee53df5-b0dc-4265-9d4f-527830d08725
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 monikerRange: 'vs-2017'
 ms.workload: 
   - multiple

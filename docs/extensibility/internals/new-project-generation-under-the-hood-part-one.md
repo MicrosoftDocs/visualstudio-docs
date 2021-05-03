@@ -1,14 +1,15 @@
 ---
 title: 'New Project Generation: Under the Hood, Part One | Microsoft Docs'
+description: Take a detailed look at what happens in the Visual Studio integrated development environment (IDE) as you create your own project type (Part 1 of 2).
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - projects [Visual Studio], new project dialog
 - projects [Visual Studio], new project generation
 ms.assetid: 66778698-0258-467d-8b8b-c351744510eb
-author: acangialosi
-ms.author: anthc
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
 - vssdk
 ---
@@ -30,7 +31,7 @@ Ever thought about how to create your own project type? Wonder what actually hap
 ## The New Project Dialog Box
  It all begins when you select a project type for a new project. Let's start by clicking **New Project** on the **File** menu. The **New Project** dialog box appears, looking something like this:
 
- ![New Project dialog box](../../extensibility/internals/media/newproject.gif "NewProject")
+ ![Screenshot of the New Project dialog box.](../../extensibility/internals/media/newproject.gif)
 
  Let's take a closer look. The **Project types** tree lists the various project types you can create. When you select a project type like **Visual C# Windows**, you'll see a list of application templates to get you started. **Visual Studio installed templates** are installed by Visual Studio and are available to any user of your computer. New templates that you create or collect can be added to **My Templates** and are available only to you.
 
@@ -100,11 +101,11 @@ devenv /installvstemplates
 
  For Visual Studio with C# developer settings, the **Project types** tree looks something like this:
 
- ![Project Types](../../extensibility/internals/media/projecttypes.png "ProjectTypes")
+ ![Screenshot of the Project types folder tree in Visual Studio with C# developer settings.](../../extensibility/internals/media/projecttypes.png)
 
  The corresponding ProjectTemplates folder looks like this:
 
- ![Project Templates](../../extensibility/internals/media/projecttemplates.png "ProjectTemplates")
+ ![Screenshot of the Project Templates folder tree in Visual Studio with C# developer settings.](../../extensibility/internals/media/projecttemplates.png)
 
  When the **New Project** dialog box opens, [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] traverses the ProjectTemplates folder and recreates its structure in the **Project types** tree with some changes:
 
@@ -202,7 +203,7 @@ devenv /installvstemplates
 
 10. Open the **New Project** dialog box and expand the **Visual C#** project node.
 
-    ![MyProjectNode](../../extensibility/internals/media/myprojectnode.png "MyProjectNode")
+    ![Screenshot of the Project types folder tree in the New Project dialog box with MyProjectNode highlighted under the expanded Visual C# project node.](../../extensibility/internals/media/myprojectnode.png)
 
     **MyProjectNode** appears as a child node of Visual C# just under the Windows node.
 

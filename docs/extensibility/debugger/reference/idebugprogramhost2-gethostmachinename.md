@@ -1,4 +1,5 @@
 ---
+description: "Gets the name of the machine that the process hosting this program is running on."
 title: IDebugProgramHost2::GetHostMachineName | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference
@@ -7,9 +8,9 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugProgramHost2::GetHostMachineName
 ms.assetid: 4677ffe4-aa9b-4450-a63b-74cd3984d956
-author: acangialosi
-ms.author: anthc
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:

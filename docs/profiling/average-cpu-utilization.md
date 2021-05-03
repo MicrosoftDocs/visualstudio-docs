@@ -1,5 +1,7 @@
 ---
 title: "Average CPU Utilization | Microsoft Docs"
+description: The Average CPU utilization of Utilization View is the profiled process's average utilization of the system's logical cores for the duration of the process.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:
@@ -9,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 5797d004-2325-46cf-bbf3-6739a15958ec
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

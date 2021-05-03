@@ -1,5 +1,7 @@
 ---
 title: "The workbook contains ActiveX controls that cannot be loaded"
+description: Learn how you can resolve the error that occurs when a workbook contains ActiveX controls that can't be loaded.
+ms.custom: SEO-VS-2020
 titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "error-reference"
@@ -10,7 +12,7 @@ dev_langs:
   - "CSharp"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

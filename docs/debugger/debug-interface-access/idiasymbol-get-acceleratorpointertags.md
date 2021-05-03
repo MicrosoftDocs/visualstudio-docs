@@ -1,4 +1,5 @@
 ---
+description: "Returns all accelerator pointer tag values that correspond to a C++ AMP accelerator stub function."
 title: "IDiaSymbol::get_acceleratorPointerTags | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -7,7 +8,7 @@ dev_langs:
 ms.assetid: 30e13cee-e511-49ec-affd-99b0097071b2
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

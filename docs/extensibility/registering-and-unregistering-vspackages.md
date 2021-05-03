@@ -1,14 +1,16 @@
 ---
 title: Registering and Unregistering VSPackages | Microsoft Docs
+description: Learn about registering and unregistering your VSPackages, including the attributes you use and the .pkgdef file.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - registration, VSPackages
 - VSPackages, registering
 ms.assetid: e25e7a46-6a55-4726-8def-ca316f553d6b
-author: acangialosi
-ms.author: anthc
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
 - vssdk
 ---

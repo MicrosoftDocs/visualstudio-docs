@@ -1,4 +1,5 @@
 ---
+description: "Retrieves a flag that specifies whether the function contains asynchronous (structured) exception handling."
 title: "IDiaSymbol::get_hasEHa | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: cb61dfd9-fe69-461c-8185-288440454864
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

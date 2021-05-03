@@ -1,5 +1,6 @@
 ---
 title: "MarkProfile | Microsoft Docs"
+description: The MarkProfile method inserts a profile mark in the .vsp file. Profiling for the thread containing the MarkProfile function must be ON for the mark to be inserted.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:
@@ -7,7 +8,7 @@ helpviewer_keywords:
 ms.assetid: 54dac8c8-c8ee-4023-af27-b25466e3a6ec
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 monikerRange: 'vs-2017'
 ms.workload:
   - "multiple"

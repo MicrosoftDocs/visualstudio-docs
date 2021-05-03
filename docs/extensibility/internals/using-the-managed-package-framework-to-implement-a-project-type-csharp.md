@@ -1,5 +1,6 @@
 ---
 title: Use Managed Package Framework for a project type (C#)
+description: Learn about the Managed Package Framework, which provides .NET classes you can use or inherit from to implement your own project types.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
@@ -8,9 +9,9 @@ helpviewer_keywords:
 - MPF projects
 - managed package framework, creating projects
 ms.assetid: 926de536-eead-415b-9451-f1ddc8c44630
-author: acangialosi
-ms.author: anthc
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
 - vssdk
 ---

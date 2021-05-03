@@ -1,4 +1,5 @@
 ---
+description: "The Dia2dump sample shows how to use the Microsoft Debug Interface Access Software Development Kit (DIA SDK) to query a PDB file for information."
 title: "Dia2dump Sample | Microsoft Docs"
 ms.date: "07/24/2018"
 ms.topic: "reference"
@@ -10,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 492c0893-7043-452f-a020-890a47230d20
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

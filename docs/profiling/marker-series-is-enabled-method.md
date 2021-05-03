@@ -1,4 +1,5 @@
 ---
+description: "Determines if any session has enabled the provider."
 title: marker_series::is_enabled Method | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 8ce4dd50-ca29-4c72-98d6-582693f7d501
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload: 
   - multiple
 ---

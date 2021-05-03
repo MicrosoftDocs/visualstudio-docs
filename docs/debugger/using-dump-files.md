@@ -1,6 +1,7 @@
 ---
 title: "Use dump files in the debugger | Microsoft Docs"
-ms.custom: "seodec18"
+description: A dump file is a snapshot of an executing app and loaded modules. Consider creating a dump file for situations where you don't have debug access to the app.
+ms.custom: "SEO-VS-2020, seodec18"
 ms.date: "11/05/2018"
 ms.topic: "conceptual"
 f1_keywords:
@@ -19,7 +20,7 @@ helpviewer_keywords:
 ms.assetid: b71be6dc-57e0-4730-99d2-b540a0863e49
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---
@@ -37,6 +38,10 @@ The Visual Studio debugger can save dump files for managed or native code. It ca
 ## <a name="BKMK_Requirements_and_limitations"></a> Requirements and limitations
 
 - To debug dump files from 64-bit machines, Visual Studio must be running on a 64-bit machine.
+
+::: moniker range=">= vs-2019"
+- Visual Studio can debug dump files of managed apps from Linux OS. 
+::: moniker-end
 
 - Visual Studio can debug dump files of native apps from ARM devices. It can also debug dumps of managed apps from ARM devices, but only in the native debugger.
 
@@ -110,6 +115,7 @@ If Visual Studio can't find the files it needs to debug a module in the dump, it
 
 ## See also
 
+- [How to debug a managed memory dump with .NET Diagnostic Analyzers](../debugger/how-to-debug-managed-memory-dump.md)
 - [Just-In-Time debugging](../debugger/just-in-time-debugging-in-visual-studio.md)
 - [Specify symbol (.pdb) and source files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)
 - [IntelliTrace](../debugger/intellitrace.md)

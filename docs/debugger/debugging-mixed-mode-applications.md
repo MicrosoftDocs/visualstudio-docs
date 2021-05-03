@@ -1,5 +1,7 @@
 ---
 title: "Debugging Mixed-Mode Applications | Microsoft Docs"
+description: Debug a mixed-mode application, which is an app that combines native code with managed code that runs on the common language runtime, in Visual Studio.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:
@@ -18,7 +20,7 @@ helpviewer_keywords:
 ms.assetid: 60e34477-ae4e-48c7-9093-3e37f72e1bc3
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

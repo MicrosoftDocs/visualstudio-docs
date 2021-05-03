@@ -1,5 +1,7 @@
 ---
 title: "Debugging Native Code | Microsoft Docs"
+description: Learn about common debugging problems and high-level techniques for native applications in Visual Studio.
+ms.custom: SEO-VS-2020
 ms.date: "04/11/2017"
 ms.topic: "conceptual"
 f1_keywords:
@@ -17,7 +19,7 @@ helpviewer_keywords:
 ms.assetid: d94eee90-7e0d-4cac-88c1-9831030daa5e
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "cplusplus"
 ---

@@ -1,5 +1,7 @@
 ---
 title: Display Process Properties | Microsoft Docs
+description: Processes View displays a tree of all active processes on your system. Learn how to display the properties of a process that appears in Processes View.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords: 
@@ -7,7 +9,7 @@ helpviewer_keywords:
 ms.assetid: 5d9eb6e9-2e47-40f2-bf9c-464caa703dc9
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload: 
   - multiple
 ---

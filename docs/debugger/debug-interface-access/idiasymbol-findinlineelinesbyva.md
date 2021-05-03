@@ -1,4 +1,5 @@
 ---
+description: "IDiaSymbol::findInlineeLinesByVA retrieves an enumeration that allows a client to iterate through the line number information of all functions that are inlined, directly or indirectly, in this symbol within the specified virtual address (VA)."
 title: "IDiaSymbol::findInlineeLinesByVA | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -7,7 +8,7 @@ dev_langs:
 ms.assetid: 61427d33-30d2-4ac9-9bd6-c58c6c705072
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

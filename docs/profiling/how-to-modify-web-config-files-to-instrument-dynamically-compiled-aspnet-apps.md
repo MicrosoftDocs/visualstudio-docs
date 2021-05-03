@@ -1,12 +1,13 @@
 ---
 title: "Web.Config file - Instrument & profile dynamic ASP.NET app"
+description: Learn how to use the Visual Studio Profiling Tools to collect timing and memory activity data for a dynamically compiled ASP.NET web application.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 ms.assetid: a92e5692-2183-4ae3-9431-b067c6a7aab4
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 monikerRange: 'vs-2017'
 ms.workload: 
   - aspnet

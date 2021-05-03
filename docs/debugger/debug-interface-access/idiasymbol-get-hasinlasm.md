@@ -1,4 +1,5 @@
 ---
+description: "Retrieves a flag that specifies whether the function contains inline assembly."
 title: "IDiaSymbol::get_hasInlAsm | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 7001c7cc-1459-4929-851b-a08066a803c6
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

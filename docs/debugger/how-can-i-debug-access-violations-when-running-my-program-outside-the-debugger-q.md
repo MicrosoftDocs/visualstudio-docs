@@ -1,6 +1,7 @@
 ---
 title: Debug access violations when running app outside Visual Studio
 titleSuffix: ""
+description: Use the Just-in-Time Debugger to debug an access violation that occurs outside the Visual Studio environment.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
@@ -17,7 +18,7 @@ helpviewer_keywords:
 ms.assetid: 780a298a-132e-4245-8370-8c82ca27c6c1
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload: 
   - multiple
 ---

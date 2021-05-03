@@ -8,7 +8,7 @@ helpviewer_keywords:
 - testing tools [Visual Studio]
 - unit tests [Visual Studio]
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 author: mikejo5000
@@ -18,7 +18,7 @@ author: mikejo5000
 Visual Studio testing tools can help you and your team develop and sustain high standards of code excellence.
 
 > [!NOTE]
-> Unit testing is available in all editions of Visual Studio. Other testing tools, such as Live Unit Testing, IntelliTest, and Coded UI Test, are only available in Visual Studio Enterprise edition. For more information about editions see [Compare Visual Studio IDEs](https://visualstudio.microsoft.com/vs/compare/).
+> Unit testing is available in all editions of Visual Studio. Other testing tools, such as Live Unit Testing and IntelliTest, are only available in Visual Studio Enterprise edition. For more information about editions see [Compare Visual Studio IDEs](https://visualstudio.microsoft.com/vs/compare/).
 
 ## Test Explorer
 
@@ -45,11 +45,17 @@ Visual Studio is also extensible and opens the door for third-party unit testing
 
 [Live Unit Testing](../test/live-unit-testing.md) automatically runs unit tests in the background, and graphically displays code coverage and test results in the Visual Studio code editor.
 
+> [!NOTE]
+> Live unit testing is available in Enterprise edition only and is only supported for .NET code.
+
 ## IntelliTest
 
 IntelliTest automatically generates unit tests and test data for your managed code. IntelliTest improves coverage and dramatically reduces the effort to create and maintain unit tests for new or existing code.
 
 ![IntelliTest in action](media/devtest-intellitest.png)
+
+> [!NOTE]
+> IntelliTest is available in Enterprise edition only. It is supported for C# code that targets the .NET Framework. .NET Core and .NET Standard are not currently supported.
 
 * [Generate unit tests for your code with IntelliTest](generate-unit-tests-for-your-code-with-intellitest.md)
 * [IntelliTest – One test to rule them all](https://devblogs.microsoft.com/devops/intellitest-one-test-to-rule-them-all/)
@@ -59,21 +65,30 @@ IntelliTest automatically generates unit tests and test data for your managed co
 
 [Code coverage](../test/using-code-coverage-to-determine-how-much-code-is-being-tested.md) determines what proportion of your project's code is actually being tested by coded tests such as unit tests. To guard effectively against bugs, your tests should exercise or "cover" a large proportion of your code.
 
+> [!NOTE]
+> Code coverage is available in Enterprise edition only.
+
 Code coverage analysis can be applied to both managed and unmanaged (native) code.
 
 Code coverage is an option when you run test methods using Test Explorer. The results table shows the percentage of the code that was run in each assembly, class, and method. In addition, the source editor shows you which code has been tested.
 
 * [Use code coverage to determine how much code is being tested](using-code-coverage-to-determine-how-much-code-is-being-tested.md)
-* [Unit testing, code coverage and code clone analysis with Visual Studio (Lab)](https://www.boost.org/doc/libs/1_71_0/libs/test/doc/html/index.html)
+* [Unit testing, code coverage and code clone analysis with Visual Studio (Lab)](https://azuredevopslabs.com/labs/devopsserver/liveunittesting)
 * [Customize code coverage analysis](customizing-code-coverage-analysis.md)
 
 ## Microsoft Fakes
 
 [Microsoft Fakes](../test/isolating-code-under-test-with-microsoft-fakes.md) help you isolate the code you're testing by replacing other parts of the application with stubs or shims.
 
+> [!NOTE]
+> Microsoft Fakes are available in Enterprise edition only and is supported only for .NET code.
+
 ## User interface testing with Coded UI and Selenium
 
 Coded UI tests provide a way to create fully automated tests to validate the functionality and behavior of your application’s user interface. They can automate UI testing across a variety of technologies, including XAML-based UWP apps, browser apps, and SharePoint apps.
+
+> [!NOTE]
+> Coded UI is a deprecated feature.
 
 Whether you choose best-of-breed Coded UI Tests or generic browser-based UI testing with Selenium, Visual Studio provides all the tools you need.
 
@@ -82,11 +97,7 @@ Whether you choose best-of-breed Coded UI Tests or generic browser-based UI test
 * [Use UI automation to test your code](use-ui-automation-to-test-your-code.md)
 * [Get started creating, editing, and maintaining a coded UI test](walkthrough-creating-editing-and-maintaining-a-coded-ui-test.md)
 * [Test UWP apps with coded UI tests](test-uwp-app-with-coded-ui-test.md)
-* [Introduction to coded UI tests with Visual Studio Enterprise (Lab)](https://www.boost.org/doc/libs/1_71_0/libs/test/doc/html/index.html)
-
-## Load testing
-
-[Load testing](../test/quickstart-create-a-load-test-project.md) simulates load on a server application by running unit tests and web performance tests.
+* [Introduction to coded UI tests with Visual Studio Enterprise (Lab)](https://azuredevopslabs.com/labs/tfs/codedui)
 
 ## Related scenarios
 

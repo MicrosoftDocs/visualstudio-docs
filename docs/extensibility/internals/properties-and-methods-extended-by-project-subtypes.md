@@ -1,14 +1,16 @@
 ---
 title: Properties and Methods Extended by Project Subtypes | Microsoft Docs
+description: Learn about features that project subtypes can enhanced or modified, which lets you customize the behavior of the project systems of Visual Studio.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - project subtypes, extended methods
 - project subtypes, extended properties
 ms.assetid: 2b9833bf-8551-4ae1-93db-197ba645c65e
-author: acangialosi
-ms.author: anthc
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
 - vssdk
 ---

@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "user controls [SharePoint development in Visual Studio], adding"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

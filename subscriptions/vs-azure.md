@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: 872c5746-5357-4764-949b-aa525a0adf1a
-ms.date: 10/28/2020
+ms.date: 03/18/2021
 ms.topic: how-to
 description:  Learn how to activate the Azure DevTest individual credit benefit included in your Visual Studio subscription.
 ---
@@ -70,11 +70,11 @@ If you have questions about transferring resources, removing spending limits, or
 |              Visual Studio Enterprise subscription with GitHub Enterprise               |     $150 monthly credit     |                             Yes                             |
 |               Visual Studio Enterprise monthly               |        Not available        |                                                             |
 |             Visual Studio Professional Standard              |     $50 monthly credit      |                             Yes
-|              Visual Studio Professional subscription with GitHub Enterprise              |     $150 monthly credit     |                             Yes                             |
+|              Visual Studio Professional subscription with GitHub Enterprise              |     $50 monthly credit     |                             Yes                             |
 |              Visual Studio Professional monthly              |        Not available        |                                                             |
 |                    Visual Studio Test Pro                    |     $50 monthly credit      |                             Yes                             |
 |                        MSDN Platforms                        |     $100 monthly credit     |                             Yes                             |
-|               Visual Studio Enterprise - NFR\*               |     $150 monthly credit     |                             Yes                             |
+|               Visual Studio Enterprise - NFR<sup>1</sup>                 |     $150 monthly credit     |                             Yes                             |
 |                Visual Studio Enterprise - FTE                |     $150 monthly credit     |                             Yes                             |
 |     Visual Studio Enterprise - Microsoft Partner Network     |     $150 monthly credit     |                             Yes                             |
 |    Visual Studio Professional - Microsoft Partner Network    |        Not available        |                                                             |
@@ -84,7 +84,8 @@ If you have questions about transferring resources, removing spending limits, or
 |      Visual Studio Enterprise – MCT Software & Services      |     $100 monthly credit     |                             Yes                             |
 | Visual Studio Enterprise – MCT Software & Services Developer |     $150 monthly credit     |                             Yes                             |
 
-*Includes Not for Resale (NFR), Most Valuable Professional (MVP), Regional Director (RD), Visual Studio Industry Partner (VSIP)
+<sup>1</sup>  *Includes: Not for Resale (NFR), Most Valuable Professional (MVP), Regional Director (RD), Visual Studio Industry Partner (VSIP)
+Excludes:  NFR Basic*
 
 > [!NOTE]
 > Microsoft no longer offers Visual Studio Professional Annual subscriptions and Visual Studio Enterprise Annual subscriptions in Cloud Subscriptions. There will be no change to existing customers experience and ability to renew, increase, decrease, or cancel their subscriptions. New customers are encouraged to go to [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/) to explore different options to purchase Visual Studio.
@@ -107,7 +108,7 @@ A:  Intellectual property produced by an employee created on resources provided 
 - Need help with Azure?  Check out these resources:
   - Technical Support: [https://azure.microsoft.com/support/options/](https://azure.microsoft.com/support/options/)
   - [Azure Tips & Tricks](https://microsoft.github.io/AzureTipsAndTricks/ "Azure Tips & Tricks") 
-- For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/).
+- For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://aka.ms/vssubscriberhelp).
 - Have a question about Visual Studio IDE, Azure DevOps Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).
 
 ## See also

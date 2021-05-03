@@ -4,7 +4,7 @@ description: Overview of the todo list sample app that runs in Node.js.
 ms.date: "08/04/2020"
 author: nebuk89
 ms.author: ghogen
-manager: jillfra
+manager: jmartens
 ms.technology: vs-azure
 ms.topic: conceptual
 ms.workload:
@@ -24,7 +24,7 @@ Before you can run the application, you need to get the application source code 
 
 1. Make sure that you have Docker for Windows or Docker Community Edition installed on the local machine. See [Docker for Windows installation documentation](https://docs.docker.com/docker-for-windows/install/). The install process makes the ZIP file containing the sample available at the localhost address.
 
-1. [Download the ZIP](http://localhost/assets/app.zip). Open the ZIP file and make sure you extract the contents.
+1. [Download the ZIP](https://github.com/docker/getting-started/tree/master/app). Open the ZIP file and make sure you extract the contents.
 
 1. Once extracted, use your favorite code editor to open the project. If you're in need of an editor, you can use [Visual Studio Code](https://code.visualstudio.com/). You should see the `package.json` and two subdirectories (`src` and `spec`).
 

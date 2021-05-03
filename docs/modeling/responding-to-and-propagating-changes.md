@@ -1,12 +1,14 @@
 ---
 title: Responding to and Propagating Changes
+description: Learn that when an element is created, deleted, or updated, you can write code that propagates the change to other parts of the model, or to external resources.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - Domain-Specific Language, events
 author: JoshuaPartlow
 ms.author: joshuapa
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ---

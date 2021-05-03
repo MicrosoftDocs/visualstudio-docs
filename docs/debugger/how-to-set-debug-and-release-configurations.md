@@ -1,5 +1,7 @@
 ---
 title: Set debug and release configurations | Microsoft Docs
+description: Set debug and release configurations in Visual Studio. You build the debug version for debugging and the release version for the final release distribution.
+ms.custom: SEO-VS-2020
 ms.date: 10/05/2018
 ms.topic: how-to
 f1_keywords: 
@@ -28,7 +30,7 @@ helpviewer_keywords:
 ms.assetid: 57b6bbb7-f2af-48f7-8773-127d75034ed2
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload: 
   - multiple
 ---

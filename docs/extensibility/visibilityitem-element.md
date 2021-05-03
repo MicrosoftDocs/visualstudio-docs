@@ -1,14 +1,16 @@
 ---
 title: VisibilityItem Element | Microsoft Docs
+description: The VisibilityItem element determines the static visibility of commands and toolbars. Entries identify a command or menu, and an associated command UI context.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - VisibilityItem element (VSCT XML schema)
 - VSCT XML schema elements, VisibilityItem
 ms.assetid: 0932f551-972d-4194-84bb-426e3e4375e4
-author: acangialosi
-ms.author: anthc
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
 - vssdk
 ---
@@ -25,8 +27,8 @@ The `VisibilityItem` element determines the static visibility of commands and to
 
 ```xml
 <VisibilityItem
-  guid ="="cmdGuidMyProductCommands"
-  id=="cmdidAddWidget"
+  guid="cmdGuidMyProductCommands"
+  id="cmdidAddWidget"
   context="guidNotViewSourceMode"/>
 ```
 

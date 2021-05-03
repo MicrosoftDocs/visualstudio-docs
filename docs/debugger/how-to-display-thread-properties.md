@@ -1,5 +1,7 @@
 ---
 title: Display Thread Properties | Microsoft Docs
+description: Threads View displays a tree of all active threads on your system. Learn how to display the properties of a thread that appears in Threads View.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords: 
@@ -7,7 +9,7 @@ helpviewer_keywords:
 ms.assetid: f0e64c0e-cdb3-4ad4-9723-09934166f3a2
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload: 
   - multiple
 ---

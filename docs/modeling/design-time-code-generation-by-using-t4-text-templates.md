@@ -1,5 +1,7 @@
 ---
 title: Design-Time Code Generation by using T4 Text Templates
+description: Learn how design-time T4 text templates let you generate program code and other files in your Visual Studio project.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
@@ -12,7 +14,7 @@ helpviewer_keywords:
 - text templates, generating code for your application
 author: JoshuaPartlow
 ms.author: joshuapa
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ---
@@ -345,7 +347,7 @@ A useful feature of templates is that they look very much like the files that th
 
 4. Verify the following properties of the **.tt** file:
 
-   | | |
+   |Property |Setting |
    |-|-|
    | **Custom Tool =** | **TextTemplatingFileGenerator** |
    | **Build Action =** | **None** |

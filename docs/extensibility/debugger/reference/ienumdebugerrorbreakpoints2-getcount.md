@@ -1,4 +1,5 @@
 ---
+description: "Returns the number of elements in the error breakpoints enumeration."
 title: IEnumDebugErrorBreakpoints2::GetCount | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference
@@ -7,9 +8,9 @@ f1_keywords:
 helpviewer_keywords:
 - IEnumDebugErrorBreakpoints2::GetCount
 ms.assetid: 56f7bb70-d55b-471c-8c65-09a9e7f4938e
-author: acangialosi
-ms.author: anthc
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:

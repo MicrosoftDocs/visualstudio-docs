@@ -22,7 +22,7 @@ helpviewer_keywords:
   - "BDC [SharePoint development in Visual Studio], designer"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

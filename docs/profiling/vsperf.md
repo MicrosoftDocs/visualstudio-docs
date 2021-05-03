@@ -1,11 +1,12 @@
 ---
 title: VSPerf | Microsoft Docs
+description: Learn how to use the VsPerf command line tool to profile UWP apps from the command line when Visual Studio is not installed on the device.
 ms.date: 11/04/2016
 ms.topic: reference
 ms.assetid: b5854e62-279e-4850-bfeb-0c6ef82f4805
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 monikerRange: 'vs-2017'
 ms.workload: 
   - multiple

@@ -1,4 +1,5 @@
 ---
+description: "The virtual table is identified by the SymTagVTable symbol."
 title: "VTable | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -10,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: c8be6692-7d2a-4721-99d3-8e2e565bb8a1
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

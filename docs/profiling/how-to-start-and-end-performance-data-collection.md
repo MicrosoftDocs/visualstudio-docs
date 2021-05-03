@@ -1,5 +1,6 @@
 ---
 title: Start and End Performance Data Collection | Microsoft Docs
+description: Learn how you can add the target binary that you want to profile to the performance session before you start profiling.
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords: 
@@ -12,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: 9f6eb0d5-d9e9-4bec-b627-445065610bce
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 monikerRange: 'vs-2017'
 ms.workload: 
   - multiple

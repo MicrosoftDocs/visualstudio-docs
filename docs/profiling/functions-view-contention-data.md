@@ -1,5 +1,7 @@
 ---
 title: "Functions View - Contention Data | Microsoft Docs"
+description: Get details about the Functions report view of contention data, which lists the functions in the profiling run that were blocked from execution during the profiling run.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:
@@ -7,7 +9,7 @@ helpviewer_keywords:
 ms.assetid: 208773b0-1a54-4b7a-ad37-2b6fd4f731d4
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 monikerRange: 'vs-2017'
 ms.workload:
   - "multiple"

@@ -1,4 +1,5 @@
 ---
+description: "The following FxCop legacy analysis rules are deprecated and won't be implemented as analyzers."
 title: Deprecated rules
 ms.date: 05/21/2019
 ms.topic: reference
@@ -7,7 +8,7 @@ helpviewer_keywords:
 - .NET analyzers, ported rules, unported rules, deprecated rules
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload:
 - dotnet
 ---

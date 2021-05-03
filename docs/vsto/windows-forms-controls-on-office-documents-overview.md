@@ -1,5 +1,7 @@
 ---
 title: "Windows Forms controls on Office documents overview"
+description: Learn how Windows Forms controls are objects that users can interact with to enter or manipulate data.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -24,7 +26,7 @@ helpviewer_keywords:
   - "Office applications [Office development in Visual Studio], Windows Forms"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

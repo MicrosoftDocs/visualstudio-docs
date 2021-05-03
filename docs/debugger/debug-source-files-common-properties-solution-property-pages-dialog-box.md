@@ -1,5 +1,6 @@
 ---
 title: "Debug Source Files/Solution Property Pages"
+description: Access the Debug Source Files property page in Visual Studio by right-clicking your solution in Solution Explorer and selecting Properties > Common Properties.
 ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -20,7 +21,7 @@ helpviewer_keywords:
 ms.assetid: 0af11464-eeb1-4d0b-87a6-0cc96779afb1
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

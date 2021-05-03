@@ -1,4 +1,5 @@
 ---
+description: "Retrieves an enumeration that allows a client to iterate through the line number information of all inlined functions that match a specified name."
 title: "IDiaSession::findInlineesByName | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -7,7 +8,7 @@ dev_langs:
 ms.assetid: 9860336d-f703-4ecb-bfc4-3f5beb175a76
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

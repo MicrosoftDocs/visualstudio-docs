@@ -10,7 +10,7 @@ helpviewer_keywords:
 - 64-bit programming [C++]
 author: TerryGLee
 ms.author: tglee
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ---

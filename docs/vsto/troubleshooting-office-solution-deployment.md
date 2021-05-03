@@ -1,5 +1,7 @@
 ---
 title: "Troubleshoot Office solution deployment"
+description: Learn how you can solve common problems that you might encounter when you deploy Office solutions.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "troubleshooting"
 dev_langs:
@@ -11,7 +13,7 @@ helpviewer_keywords:
   - "deploying applications [Office development in Visual Studio], troubleshooting"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

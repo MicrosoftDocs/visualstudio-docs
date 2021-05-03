@@ -5,7 +5,7 @@ ms.date: 11/20/2020
 ms.topic: reference
 author: andysterland
 ms.author: andster
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 monikerRange: ">= vs-2019"
@@ -13,6 +13,9 @@ ms.prod: visual-studio-windows
 ms.technology: devinit
 ---
 # set-env
+
+> [!IMPORTANT]
+> As of April 12th 2021, connecting to GitHub Codespaces from Visual Studio 2019 will no longer be supported and this private preview has concluded. We’re focused on evolving experiences for a cloud-powered inner loop and VDI solutions optimized for a broad set of Visual Studio workloads. As part of this `devinit` and associated tools will no longer be available. We encourage you to be involved in our developer community forum for Visual Studio for information on future previews and roadmap information.
 
 The `set-env` tool can be used to set environment variables for use in the current process. The environment variables are set only in the current process and will be used by other `devinit` tools if they run in that process.
 
@@ -49,7 +52,7 @@ The default behavior of the `set-env` tool is to list all of the current environ
 
 ## Usage in a codespace
 
-If you're using a codespace, you can set environment variables used in the codespace through customizing the `remoteEnv` property in [`.devcontainer.json`](/visualstudio/codespaces/reference/configuring) file.
+If you're using a codespace, you can set environment variables used in the codespace through customizing the `remoteEnv` property in [`.devcontainer.json`](https://code.visualstudio.com/docs/remote/devcontainerjson-reference) file.
 
 ## Example usage
 Below are examples of how to run `set-env` using a `.devinit.json`.

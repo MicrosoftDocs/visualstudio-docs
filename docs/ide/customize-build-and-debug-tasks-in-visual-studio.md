@@ -12,7 +12,7 @@ helpviewer_keywords:
 - launch.vs.json file [Visual Studio]
 author: TerryGLee
 ms.author: tglee
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ---
@@ -211,7 +211,7 @@ You can create tasks for any file or folder by specifying its name in the `appli
 
 |Macro|Description|
 |-|-|
-|`${env.<VARIABLE>}`| Specifies any environment variable (for example,  ${env.PATH}, ${env.COMSPEC} and so on) that is set for the developer command prompt. For more information, see [Developer command prompt for Visual Studio](/dotnet/framework/tools/developer-command-prompt-for-vs).|
+|`${env.<VARIABLE>}`| Specifies any environment variable (for example,  ${env.PATH}, ${env.COMSPEC} and so on) that is set for the developer command prompt. For more information, see [Developer Command Prompt and Developer PowerShell](../ide/reference/command-prompt-powershell.md).|
 |`${workspaceRoot}`| The full path to the workspace folder (for example, *C:\sources\hello*)|
 |`${file}`| The full path of the file or folder selected to run this task against (for example, *C:\sources\hello\src\hello.js*)|
 |`${relativeFile}`| The relative path to the file or folder (for example, *src\hello.js*)|

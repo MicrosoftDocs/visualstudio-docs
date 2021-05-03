@@ -1,5 +1,7 @@
 ---
 title: Edit a Register Value | Microsoft Docs
+description: Learn how to modify the contents of a register by editing its value in the Registers window (available only if address-level debugging is enabled).
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords: 
@@ -16,7 +18,7 @@ helpviewer_keywords:
 ms.assetid: e27b6bd8-e6d4-4f1d-8a86-9f4047bb1167
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload: 
   - multiple
 ---

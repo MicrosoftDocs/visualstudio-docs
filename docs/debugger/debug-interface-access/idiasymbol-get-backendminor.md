@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the back end minor version number of the compiler."
 title: "IDiaSymbol::get_backEndMinor | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 37f38d19-6685-440d-a477-7127c4f8699e
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

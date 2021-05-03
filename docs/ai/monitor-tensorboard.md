@@ -4,7 +4,7 @@ description: Learn how you can use Visual Studio to visualize your model trainin
 ms.custom: SEO-VS-2020
 author: jillre
 ms.author: jillfra
-manager: jillfra
+manager: jmartens
 monikerRange: vs-2017
 ms.date: 11/13/2017
 ms.topic: how-to
@@ -17,8 +17,8 @@ You can visualize your model training progress with TensorBoard.
 
 1. Right-click your project and click **Run TensorBoard**; then, select the directory of your output TensorBoard logs.
 
-    ![run tensorboard](media/monitor-tensorboard/run-tensorboard.png)
+    ![Screenshot of Visual Studio Solution Explorer with the MNIST project selected. A context menu is open, and the Run TensorBoard command is selected.](media/monitor-tensorboard/run-tensorboard.png)
 
 2. Notice the error decreasing over time, which means the quality is improving.
 
-    ![run tensorboard](media/monitor-tensorboard/tensorboard.png)
+    ![Screenshot of the main TensorBoard window showing graphic visualizations of data from the TensorBoard logs.](media/monitor-tensorboard/tensorboard.png)

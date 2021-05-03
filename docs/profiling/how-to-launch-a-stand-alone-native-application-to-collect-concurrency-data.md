@@ -1,11 +1,13 @@
 ---
 title: Profiler command line - Open native client app, get concurrency data
+description: Learn how to use the Visual Studio Profiling Tools command-line tools to start a native stand-alone client app and collect process and thread concurrency data.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 ms.assetid: e5aed651-afed-4b70-9a7e-1a6032cc614f
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 monikerRange: 'vs-2017'
 ms.workload: 
   - cplusplus

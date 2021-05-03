@@ -1,5 +1,7 @@
 ---
 title: 'Dependency Diagrams: Guidelines'
+description: Learn how to describe your app's architecture at a high level by creating dependency diagrams in Visual Studio.
+ms.custom: SEO-VS-2020
 ms.date: 09/28/2018
 ms.topic: conceptual
 helpviewer_keywords:
@@ -9,7 +11,7 @@ helpviewer_keywords:
 - constraints, architectural
 author: JoshuaPartlow
 ms.author: joshuapa
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ---

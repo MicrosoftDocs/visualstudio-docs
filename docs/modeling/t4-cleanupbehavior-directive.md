@@ -1,10 +1,12 @@
 ---
 title: T4 CleanUpBehavior directive
+description: Learn about the CleanUpBehavior directive and how to delete the appDomain after processing a text template.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 author: JoshuaPartlow
 ms.author: joshuapa
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ---

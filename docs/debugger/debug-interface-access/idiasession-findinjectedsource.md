@@ -1,4 +1,5 @@
 ---
+description: "Retrieves a list of sources that has been placed into the symbol store by attribute providers or other components of the compilation process."
 title: "IDiaSession::findInjectedSource | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 907531b6-1ef8-4153-986d-b72611a1632d
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

@@ -1,5 +1,7 @@
 ---
 title: Customizing File Storage and XML Serialization
+description: Learn about the XML file created or updated when you save an instance, or model, of a domain-specific language (DSL) in Visual Studio.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords:
@@ -8,7 +10,7 @@ helpviewer_keywords:
 - Domain-Specific Language, serialization
 author: JoshuaPartlow
 ms.author: joshuapa
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ---

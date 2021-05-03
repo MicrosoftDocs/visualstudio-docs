@@ -1,5 +1,6 @@
 ---
 title: "Just My Code (Threads View) | Microsoft Docs"
+description: Learn how you will filter the call stack to show only your code plus one level of called functions if you select the Just My Code option.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: a9ac8a2c-9d99-4207-8ed4-e87f033f440d
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

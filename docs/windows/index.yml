@@ -7,7 +7,8 @@ metadata:
    titleSuffix: ""
    description: Learn how to use Visual Studio to develop applications, services, and tools in the language of your choice, for any platform or device.
    ms.topic: hub-page
-   ms.custom: contperfq1
+   ms.custom: contperf-fy21q1
+   ms.date: 03/30/2021
    monikerRange: ">=vs-2017"
    f1_keywords:
      - MSDNSTART
@@ -183,8 +184,8 @@ additionalContent:
         summary: Share your apps and code by using Web Deploy, InstallShield, NuGet, Continuous Integration, and more.
         url: ../deployment/index.yml
       - title: Version control
-        summary: Share code using version control technologies such as Git and TFVC.
-        url: /azure/devops/repos/index
+        summary: Share code using version control technologies such as Git and GitHub.
+        url: ../ide/git-with-visual-studio.md
       - title: DevOps
         summary: Continuously build and release your apps in the cloud, and implement Agile practices with Azure DevOps Services.
         url: /azure/devops
@@ -203,4 +204,4 @@ additionalContent:
       - title: Develop with Docker containers
         summary: Use Docker containers to isolate modular components and improve scalability.
         url: ../containers/index.yml
-   footer: "[Blogs](https://devblogs.microsoft.com/visualstudio/) - [Twitter](https://twitter.com/VisualStudio) - [Stack Overflow](https://stackoverflow.com/questions/tagged/visual-studio) - [Issue Reporting](../ide/feedback-options.md) - [Developer Community](https://developercommunity.visualstudio.com/spaces/8/index.html) - [Troubleshooting](/troubleshoot/visualstudio/welcome-visual-studio)"
+   footer: "[Blogs](https://devblogs.microsoft.com/visualstudio/) - [Twitter](https://twitter.com/VisualStudio) - [Stack Overflow](https://stackoverflow.com/questions/tagged/visual-studio) - [Issue Reporting](../ide/feedback-options.md) - [Developer Community](https://aka.ms/feedback/suggest?space=8) - [Troubleshooting](/troubleshoot/visualstudio/welcome-visual-studio)"

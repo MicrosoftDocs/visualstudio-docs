@@ -1,11 +1,11 @@
 ---
 title: Available Tools
 description: List of all the devinit tools that can be used to customize a development environment. 
-ms.date: 12/02/2020
+ms.date: 02/08/2021
 ms.topic: reference
 author: andysterland
 ms.author: andster
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 monikerRange: ">= vs-2019"
@@ -13,6 +13,9 @@ ms.prod: visual-studio-windows
 ms.technology: devinit
 ---
 # Available tools
+
+> [!IMPORTANT]
+> As of April 12th 2021, connecting to GitHub Codespaces from Visual Studio 2019 will no longer be supported and this private preview has concluded. We’re focused on evolving experiences for a cloud-powered inner loop and VDI solutions optimized for a broad set of Visual Studio workloads. As part of this `devinit` and associated tools will no longer be available. We encourage you to be involved in our developer community forum for Visual Studio for information on future previews and roadmap information.
 
 The table below contains a list of all the currently available tools for devinit.
 
@@ -38,9 +41,11 @@ The table below contains a list of all the currently available tools for devinit
 | [**require-psmodule**](tool-require-psmodule.md)                                                 | Tool to install PowerShell modules from the gallery.                                                        |
 | [**require-vcpkg**](tool-require-vcpkg.md)                                                       | Tool to install vcpkg.                                                                                      |
 | [**require-vscomponent**](tool-require-vscomponent.md)                                           | Tool to modify VS installations based on a `.vsconfig` file.                                                |
+| [**require-winget**](tool-require-winget.md)                                                     | Tool to install winget.                                                                                     |
 | [**windowsfeature-enable**](tool-windowsfeature-enable.md)                                       | Tool set enable Windows features.                                                                           |
 | [**windowsfeature-disable**](tool-windowsfeature-disable.md)                                     | Tool set disable Windows features.                                                                          |
-| [**windowsfeature-list**](tool-windowsfeature-list.md)                                           | Tool to list the enable/disable state of all Windows features.                                                                        |
+| [**windowsfeature-list**](tool-windowsfeature-list.md)                                           | Tool to list the enable/disable state of all Windows features.                                              |
 | [**set-env**](tool-set-env.md)                                                                   | Tool to view and set environment variables.                                                                 |
 | [**vcpkg-install**](tool-vcpkg-install.md)                                                       | Tool to install packages via vcpkg.                                                                         |
+| [**winget-install**](tool-winget-install.md)                                                     | Tool to install packages via winget.                                                                        |
 | [**wsl-install**](tool-wsl-install.md)                                                           | Tool to install and configure Linux distros for the Window Subsystem for Linux.                             |

@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the number of bytes in the segment."
 title: "IDiaSegment::get_length | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 5d92e394-649b-49f2-bce7-12dd9d666d85
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

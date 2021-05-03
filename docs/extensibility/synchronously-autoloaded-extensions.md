@@ -1,11 +1,13 @@
 ---
 title: Synchronously autoloaded extensions
+description: Learn about the default behavior beginning with Visual Studio 2019, which blocks synchronously autoloaded packages from any extension.
+ms.custom: SEO-VS-2020
 ms.date: 12/11/2019
 ms.topic: conceptual
 ms.assetid: 822e3cf8-f723-4ff1-8467-e0fb42358a1f
-author: acangialosi
-ms.author: anthc
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
 - vssdk
 ---

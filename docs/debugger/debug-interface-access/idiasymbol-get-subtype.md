@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the sub type."
 title: "IDiaSymbol::get_subType | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -7,7 +8,7 @@ dev_langs:
 ms.assetid: 0b3cbf77-8f11-434a-ad60-ea9829fec6fa
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

@@ -1,5 +1,7 @@
 ---
 title: "Work with mail items"
+description: Learn that the MailItem class contains the methods and properties you use to perform tasks with email messages.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -12,7 +14,7 @@ helpviewer_keywords:
   - "mail items [Office development in Visual Studio], about mail items"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

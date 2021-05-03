@@ -6,7 +6,7 @@ ms.custom: SEO-VS-2020
 ms.topic: how-to
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ---
 # How to: Enable and disable binary code analysis for managed code
 

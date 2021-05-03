@@ -1,14 +1,16 @@
 ---
 title: RegPkg Utility | Microsoft Docs
+description: Learn how the RegPkg.exe utility registers a VSPackage with Visual Studio and prepares it for deployment.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - regpkg, registration utility
 - registration, regpkg utility
 ms.assetid: 1683ee18-59d1-4bab-a674-dd00dd960de3
-author: acangialosi
-ms.author: anthc
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
 - vssdk
 ---

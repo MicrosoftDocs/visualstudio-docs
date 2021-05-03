@@ -3,7 +3,7 @@ title: "Install Visual Studio 2019 for Mac"
 description: "Instructions on how to install Visual Studio 2019 for Mac and additional components required for cross-platform development."
 author: heiligerdankgesang
 ms.author: dominicn
-ms.date: 09/18/2019
+ms.date: 03/04/2021
 ms.technology: vs-ide-install
 ms.assetid: 22B1F2CD-32AE-464D-80AC-C8AB4786B015
 ms.custom: video
@@ -22,7 +22,8 @@ To start developing native, cross-platform .NET apps on macOS, install Visual St
 
 To build Xamarin apps for iOS or macOS, you'll also need:
 
-- Xcode 10.0 or above. The latest stable version is usually recommended.
+- A Mac that is compatible with the latest version of Xcode. See Apple's [minimum requirements documentation](https://developer.apple.com/support/xcode/)
+- The latest version of [Xcode](https://developer.apple.com/xcode). It may be possible to [use an older version of Xcode](https://docs.microsoft.com/xamarin/ios/troubleshooting/questions/old-version-xcode) if your Mac is not compatible with the latest version.
 - An Apple ID. If you don't have an Apple ID already you can create a new one at https://appleid.apple.com. It's necessary to have an Apple ID for installing and signing into Xcode.
 
 ## Installation instructions
@@ -43,7 +44,7 @@ To build Xamarin apps for iOS or macOS, you'll also need:
 
 6. The list of available workloads is displayed. Select the components you wish to use:
 
-    [![Choose which optional workload features you would like to install](media/install-selection.png)](media/install-selection.png#lightbox)
+    [![Screenshot of the "What would you like to install?" screen in the Visual Studio Mac Installer, showing a list of components available for installation.](media/install-selection.png)](media/install-selection.png#lightbox)
 
    If you do not wish to install all platforms, use the guide below to help you decide which platforms to install:
 
@@ -61,7 +62,7 @@ To build Xamarin apps for iOS or macOS, you'll also need:
 7. After you have made your selections, press the **Install** button.
 8. The installer will display progress as it downloads and installs Visual Studio for Mac and the selected workloads. You will be prompted to enter your password to grant the privileges necessary for installation.:
 
-    [![Choose which optional workload features you would like to install](media/installation-progress.png)](media/installation-progress.png#lightbox)
+    [![Screenshot from the Visual Studio Mac Installer showing an installation progress screen for The .NET developer toolkit for Mac.](media/installation-progress.png)](media/installation-progress.png#lightbox)
 
 9. Once installed, Visual Studio for Mac will prompt you to personalize your installation by signing in and selecting the key bindings that you'd like to use:
 
@@ -90,14 +91,21 @@ Installing Visual Studio for Mac allows you to start writing code for your apps.
 
 ### iOS
 
-1. [Hello, iOS](https://developer.xamarin.com/guides/ios/getting_started/hello,_iOS/)
-2. [Device Provisioning](https://developer.xamarin.com/guides/ios/getting_started/installation/device_provisioning)(To run your application on device).
+1. [Hello, iOS](https://docs.microsoft.com//xamarin/ios/get-started/hello-ios/)
+2. [Device Provisioning](https://docs.microsoft.com/xamarin/ios/get-started/installation/device-provisioning/)(To run your application on device).
 
 ### Android
 
-1. [Using the Xamarin Android SDK Manager](https://developer.xamarin.com/guides/android/getting_started/installation/android-sdk/?ide=xs)
-2. [Android SDK Emulator](https://developer.xamarin.com/guides/android/getting_started/installation/android-emulator/)
-4. [Set Up Device for Development](https://developer.xamarin.com/guides/android/getting_started/installation/set_up_device_for_development/)
+1. [Hello, Android](https://docs.microsoft.com/xamarin/android/get-started/hello-android/)
+2. [Using the Xamarin Android SDK Manager](https://docs.microsoft.com/xamarin/android/get-started/installation/android-sdk?tabs=macos)
+3. [Android SDK Emulator](https://docs.microsoft.com/xamarin/android/get-started/installation/android-emulator/)
+4. [Set Up Device for Development](https://docs.microsoft.com/xamarin/android/get-started/installation/set-up-device-for-development)
+
+### Xamarin.Forms
+
+Build native cross-platform applications with Xamarin.Forms:
+
+1. [Xamarin.Forms Quickstarts](https://docs.microsoft.com/xamarin/get-started/quickstarts/)
 
 ### .NET Core apps, ASP.NET Core web apps, Unity game development
 

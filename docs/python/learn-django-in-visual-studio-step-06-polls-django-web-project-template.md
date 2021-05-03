@@ -6,8 +6,9 @@ ms.date: 11/19/2018
 ms.topic: tutorial
 author: JoshuaPartlow
 ms.author: joshuapa
-manager: jillfra
+manager: jmartens
 ms.custom: seodec18
+monikerRange: vs-2017
 ms.workload:
   - python
   - data-science

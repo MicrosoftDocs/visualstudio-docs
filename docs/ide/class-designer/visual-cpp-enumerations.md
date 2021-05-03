@@ -9,7 +9,7 @@ helpviewer_keywords:
 ms.assetid: 11e90ba1-18cd-44f8-9e26-e3746a7a19d1
 author: TerryGLee
 ms.author: tglee
-manager: jillfra
+manager: jmartens
 ms.workload:
 - cplusplus
 ---

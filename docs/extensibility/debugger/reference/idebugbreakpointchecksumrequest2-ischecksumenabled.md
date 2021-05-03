@@ -1,13 +1,14 @@
 ---
+description: "Determines whether the checksum is enabled for this document."
 title: IDebugBreakpointChecksumRequest2::IsChecksumEnabled | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - IDebugBreakpointChecksumRequest2::IsChecksumEnabled
 ms.assetid: 8b1853b5-745c-4cd6-88a9-ce0673971bb0
-author: acangialosi
-ms.author: anthc
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:

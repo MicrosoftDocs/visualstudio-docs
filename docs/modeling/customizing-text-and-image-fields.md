@@ -1,10 +1,12 @@
 ---
 title: Customizing Text and Image Fields
+description: Learn about customizing text and image files. Also learn that when you define a text decorator in a shape, it's represented by a TextField.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 author: JoshuaPartlow
 ms.author: joshuapa
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

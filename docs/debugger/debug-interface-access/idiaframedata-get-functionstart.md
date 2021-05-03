@@ -1,4 +1,5 @@
 ---
+description: "IDiaFrameData::get_functionStart retrieves a flag that indicates whether the block contains the entry point of a function."
 title: "IDiaFrameData::get_functionStart | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 49fd24fb-65c2-4812-8303-56a968353e1b
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

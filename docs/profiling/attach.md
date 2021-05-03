@@ -1,11 +1,13 @@
 ---
 title: Attach | Microsoft Docs
+description: Use the Attach option of VSPerfCmd.exe to begin profiling the running process specified by the Process ID (PID).
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 ms.assetid: 79614283-6733-4592-a53a-d428052271ad
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 monikerRange: 'vs-2017'
 ms.workload: 
   - multiple

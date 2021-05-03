@@ -1,5 +1,7 @@
 ---
 title: "Office development samples"
+description: Learn about sample Visual Studio applications that demonstrate how to use the Microsoft Office developer tools to create Office solutions.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -9,7 +11,7 @@ helpviewer_keywords:
   - "Office development in Visual Studio, samples"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

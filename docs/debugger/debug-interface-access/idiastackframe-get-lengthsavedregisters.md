@@ -1,4 +1,5 @@
 ---
+description: "IDiaStackFrame::get_lengthSavedRegisters retrieves the number of bytes of saved registers pushed on the stack."
 title: "IDiaStackFrame::get_lengthSavedRegisters | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: b75fad6e-1ef4-44e6-89e3-c31c6fba10b3
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

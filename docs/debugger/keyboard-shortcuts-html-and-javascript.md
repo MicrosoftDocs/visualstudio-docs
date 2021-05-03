@@ -1,5 +1,7 @@
 ---
 title: "Keyboard shortcuts (HTML and JavaScript) | Microsoft Docs"
+description: See keyboard shortcuts for debugging UWP apps that use HTML and JavaScript. There are shortcuts for the JavaScript Console window and for DOM Explorer.
+ms.custom: SEO-VS-2020
 ms.date: "10/17/2019"
 ms.topic: "conceptual"
 dev_langs:
@@ -9,7 +11,7 @@ dev_langs:
   - "C++"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 monikerRange: vs-2017
 ms.workload:
   - "multiple"

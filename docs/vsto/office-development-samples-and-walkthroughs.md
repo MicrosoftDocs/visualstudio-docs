@@ -1,5 +1,7 @@
 ---
 title: "Office development samples and walkthroughs"
+description: Learn about sample applications, example code, and step-by-step walkthroughs that show the syntax, structure, and techniques used to build Office solutions.
+ms.custom: SEO-VS-2020
 ms.date: "08/14/2019"
 ms.topic: "conceptual"
 dev_langs:
@@ -17,7 +19,7 @@ helpviewer_keywords:
   - "examples [Office development in Visual Studio]"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

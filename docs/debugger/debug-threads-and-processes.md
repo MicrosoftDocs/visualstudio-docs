@@ -1,5 +1,7 @@
 ---
 title: "Tools to debug threads and processes | Microsoft Docs"
+description: Review tools to debug threads and processes in Visual Studio. Threads and processes represent sequences of instructions that must execute in a specific order.
+ms.custom: SEO-VS-2020
 ms.date: "04/21/2018"
 ms.topic: "conceptual"
 dev_langs:
@@ -16,7 +18,7 @@ helpviewer_keywords:
 ms.assetid: 9f0c8505-b6b2-452b-adfd-076db14d8115
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

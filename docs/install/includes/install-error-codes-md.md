@@ -1,8 +1,8 @@
 ---
-author: ornellaalt
-ms.author: ornella
-manager: jillfra
-ms.date: 04/25/2019
+author: j-martens
+ms.author: jmartens
+manager: jmartens
+ms.date: 04/16/2021
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
 ms.topic: include
@@ -11,6 +11,8 @@ ms.topic: include
 | **Value** | **Result** |
 | --------- | ---------- |
 | 0 | Operation completed successfully |
+| 1001 | Visual Studio installer process is running |
+| 1003 | Visual Studio is in use |
 | 1602 | Operation was canceled |
 | 1641 | Operation completed successfully, and reboot was initiated |
 | 3010 | Operation completed successfully, but install requires reboot before it can be used |

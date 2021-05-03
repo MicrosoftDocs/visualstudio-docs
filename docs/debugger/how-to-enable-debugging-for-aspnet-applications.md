@@ -1,6 +1,7 @@
 ---
 title: Enable debugging for ASP.NET apps | Microsoft Docs
-ms.custom: 
+description: Learn how to enable debugging for ASP.NET and ASP.NET Core apps in Visual Studio. You can run the process on an IIS Express server or a local IIS server. 
+ms.custom: SEO-VS-2020
 ms.date: 10/29/2020
 ms.topic: how-to
 dev_langs: 
@@ -15,7 +16,7 @@ helpviewer_keywords:
 ms.assetid: 3beed819-cece-4864-8184-bd410000973a
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload: 
   - aspnet
 ---
@@ -153,7 +154,7 @@ There are different ways to publish apps to IIS. These steps show how to create 
 
 3. Choose **IIS, FTP, etc.** and click **Publish**.
 
-    ![Publish to IIS](media/dbg-aspnet-local-iis.png "Publish to IIS")
+    ![Screenshot of the Pick a publish target dialog in Visual Studio. An IIS, FTP, Web Deploy is selected and the Publish button is highlighted.](media/dbg-aspnet-local-iis.png)
 
 4. In the **CustomProfile** dialog, for **Publish method**, choose **File system**.
 
@@ -175,7 +176,7 @@ There are different ways to publish apps to IIS. These steps show how to create 
 
 1. Select **Publish**.
 
-    ![Publish to IIS](media/dbg-aspnet-local-iis-select-site.png "Publish to IIS")
+    ![Screenshot of the Publish dialog, with the CustomProfile app selected, the Publish button highlighted, and LastBuildConfiguration set to Debug.](media/dbg-aspnet-local-iis-select-site.png)
 
 > [!IMPORTANT]
 > Debug mode greatly reduces the performance of your app. For best performance, set `debug="false"` in the *web.config* and specify a Release build when you deploy a production app or conduct performance measurements.

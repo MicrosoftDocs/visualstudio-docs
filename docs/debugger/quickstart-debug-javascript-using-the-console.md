@@ -1,5 +1,7 @@
 ---
 title: Debug JavaScript using the console | Microsoft Docs
+description: Use the JavaScript Console window in Visual Studio to interact with and debug Universal Windows Platform (UWP) apps built using JavaScript.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords:
@@ -12,7 +14,7 @@ helpviewer_keywords:
   - debugging, JavaScript
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 monikerRange: vs-2017
 ms.workload:
   - multiple

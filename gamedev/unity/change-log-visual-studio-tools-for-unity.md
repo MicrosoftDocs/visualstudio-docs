@@ -2,7 +2,7 @@
 title: "Change Log (Visual Studio Tools for Unity, Windows) | Microsoft Docs"
 description: View the change log for Visual Studio Tools for Unity, Windows. See changes from version 1.0.0.0 through 4.7.0.0 and beyond.
 ms.custom: ""
-ms.date: "11/13/2020"
+ms.date: "3/1/2021"
 ms.technology: vs-unity-tools
 ms.prod: visual-studio-dev16
 ms.topic: "conceptual"
@@ -16,6 +16,66 @@ ms.workload:
 # Change log (Visual Studio Tools for Unity, Windows)
 
 Visual Studio Tools for Unity change log.
+
+## 4.9.1.0
+Released March 2, 2021
+
+### New Features
+
+- **Evaluation:**
+
+  - Added `Active Scene` to locals, showing root game objects.
+
+  - Added `this.gameObject` to locals, given it's widely used in Unity projects.
+
+  - Added `Children` and `Components` groups to all `GameObject` instances, so that you can easily display all the object hierarchy.
+
+  - Added `Scene Path` to all `GameObject` instances, to show the location in the scene.
+
+  - Added support for `JobEntityBatch`/Lambdas when using Entities with source generators.
+
+  - Improved support for displaying large arrays (using index bucketing).
+  
+  - Added missing Unity messages for 2019.4 API.
+
+### Bug fixes
+
+- **Integration:**
+
+  - Fixed various UI issues for non ENU languages.
+
+  - Fixed stability issues with [`UNT0018`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0018.md) diagnostic.
+  
+- **Debugging:**
+
+  - Fixed VM disconnection issues when using `Trace` methods.
+
+- **Evaluation:**
+
+  - Fixed filtering of obsolete properties throwing exceptions.
+
+## 4.9.0.0
+Released January 20, 2021
+
+### New Features
+
+- **Integration:**
+
+  - Added support for `raytrace shaders`, `UXML` and `USS` files.
+
+  - Added `.vsconfig` generation support. Visual Studio should now detect which components are missing and prompt you to install them when using Unity projects.
+
+  - Updated Unity messages API (for all methods used as coroutines).
+
+  - Updated Android SDK detection.
+
+### Bug fixes
+
+- **Integration:**
+
+  - Fixed process refresh when using instance selection dialog.
+
+  - Fixed [`UNT0006`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0006.md) diagnostic, giving wrong warnings for Coroutines and `AssetPostprocessor.OnAssignMaterialModel`.
 
 ## 4.8.2.0
 Released November 10, 2020
@@ -1813,9 +1873,9 @@ Released November 28, 2012
 
 - Parsing of Info console message, so that clicking in the Error List take you to the first stackframe with symbols.
 
-- Add an [API](extensibility/customize-project-files-created-by-vstu.md) to let user participate in the project generation.
+- Add an API to let user participate in the project generation.
 
-- Add an [API](extensibility/share-the-unity-log-callback-with-vstu.md) to let user participate in the LogCallback.
+- Add an API to let user participate in the LogCallback.
 
 ### Bug fixes
 

@@ -1,12 +1,14 @@
 ---
 title: Properties of Domain Relationships
+description: Learn about the properties that are associated with a domain relationshop, like Access Modifier, Custome Attributes, and Generates Double Derived.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
   - "Domain-Specific Language, domain relationships"
 author: JoshuaPartlow
 ms.author: joshuapa
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

@@ -1,5 +1,7 @@
 ---
 title: "Message Search Dialog Box | Microsoft Docs"
+description: Use Message Search to find and select the node for a specific message in Messages View. You can search by handle, message type, and message ID.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 helpviewer_keywords:
@@ -7,7 +9,7 @@ helpviewer_keywords:
 ms.assetid: 44fb43b7-b006-46cc-a70c-036aac3cceec
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

@@ -10,7 +10,7 @@ helpviewer_keywords:
 - Visual Studio templates, using parameters
 author: TerryGLee
 ms.author: tglee
-manager: jillfra
+manager: jmartens
 ---
 # How to: Substitute parameters in a template
 

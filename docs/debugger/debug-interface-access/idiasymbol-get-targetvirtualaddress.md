@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the virtual address (VA) of a thunk target."
 title: "IDiaSymbol::get_targetVirtualAddress | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: a0a5ce72-95f8-443e-bb4b-8c21194faad0
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

@@ -1,6 +1,7 @@
 ---
 title: Run a worker process under a user account | Microsoft Docs
-ms.custom: seodec18
+description: Set up your computer so that you can run the ASP.NET worker process (aspnet_wp.exe or w3wp.exe) under a user account in Visual Studio.
+ms.custom: "SEO-VS-2020, seodec18"
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 
@@ -17,7 +18,7 @@ helpviewer_keywords:
 ms.assetid: b58e97b1-e62a-4318-aea4-52276ea20735
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload: 
   - multiple
 ---

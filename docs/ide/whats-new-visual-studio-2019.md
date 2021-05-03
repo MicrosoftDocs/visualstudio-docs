@@ -2,14 +2,14 @@
 title: "What's new in Visual Studio 2019"
 titleSuffix: ""
 description: "Learn about the new features in Visual Studio 2019."
-ms.date: 11/10/2020
+ms.date: 03/19/2021
 helpviewer_keywords:
   - "Visual Studio, what's new"
   - "what's new [Visual Studio]"
 ms.assetid: 00bec66b-bcee-46f5-91d9-f73a2b469744
 author: TerryGLee
 ms.author: tglee
-manager: jillfra
+manager: jmartens
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
 ms.topic: conceptual
@@ -18,7 +18,7 @@ ms.workload:
 ---
 # What's new in Visual Studio 2019
 
-**Updated for the [16.8 release](/visualstudio/releases/2019/release-notes/)**
+**Updated for the [16.9 release](/visualstudio/releases/2019/release-notes/)**
 
 >[!div class="button"]
 >[Download Visual Studio 2019](https://visualstudio.microsoft.com/downloads)
@@ -41,11 +41,19 @@ View the following video to learn more about how you can save time with new feat
 
 ### Improved search
 
-Formerly known as Quick Launch, our new search experience is faster and more effective. Now, search results appear dynamically as you type. And, search results can often include keyboard shortcuts for commands, so that you can more easily memorize them for future use.
+Formerly known as Quick Launch, our new search experience is faster and more effective. Now, search results appear dynamically as you type. And, search results can often include keyboard shortcuts for commands, so that you can memorize them for future use.
 
    ![An animation of the new search experience in Visual Studio 2019](media/vs-2019/new-search-feature.gif "The new search experience in Visual Studio 2019.")
 
 The new fuzzy search logic will find anything you need, regardless of typos. So, whether you're looking for commands, settings, documentation, or other useful things, the new search feature makes it easier to find what you're looking for.
+
+For more information, see [Use Visual Studio search](visual-studio-search.md).
+
+#### Intelligent search service
+
+**New in 16.9**: By using cloud-powered technology, artificial intelligence, and machine learning, we've improved our search results. Now, not only does search in Visual Studio produce more relevant results, but it can also help you discover product features more easily, too.
+
+For more information, see the [Intelligent Visual Studio search service](https://devblogs.microsoft.com/visualstudio/intelligent-visual-studio-search-service/) blog post.
 
 ### Refactorings
 
@@ -130,9 +138,9 @@ For more information, see the [Get to code: How we designed the new Visual Studi
 
 ### Git productivity
 
-**New in 16.8** Git is now the default version control experience in Visual Studio 2019. We have built out the feature set and iterated on it based on your feedback during the past two releases. The new experience has now been turned on by default for everyone. From the new Git menu, you can clone, create, or open repositories. Use the integrated Git tool windows to commit and push changes to your code, manage branches, stay up to date with your remote repositories, and resolve merge conflicts.
+**New in 16.8**: Git is now the default version control experience in Visual Studio 2019. We have built out the feature set and iterated on it based on your feedback during the past two releases. The new experience has now been turned on by default for everyone. From the new Git menu, you can clone, create, or open repositories. Use the integrated Git tool windows to commit and push changes to your code, manage branches, stay up to date with your remote repositories, and resolve merge conflicts.
 
-For more information, see the [Git productivity in Visual Studio](git-with-visual-studio.md) page.
+For more information, see the [Git experience in Visual Studio](../version-control/git-with-visual-studio.md) page.
 
 ### Live Share
 
@@ -208,19 +216,13 @@ For more information, see the [Pinnable Properties: Debug & Display Managed Obje
 
 We update Visual Studio 2019 often with new features that can make your development experience even better. To learn more about our latest innovations, check out the [Visual Studio Blog](https://devblogs.microsoft.com/visualstudio/). For a record of what we've released in preview to date, take a look at the [Preview Release Notes](/visualstudio/releases/2019/release-notes-preview/). And for a list of what we're planning to release next, see the [Visual Studio Roadmap](/visualstudio/productinfo/vs-roadmap).
 
-Meanwhile, here are a few of our new features currently in the works.
-
-- **Visual Studio 2019 support for GitHub Codespaces (Preview)**
-
-  Now more than ever, developers are juggling multiple projects at work and at home. New features, bug fixes, PR reviews, &amp; prototypes all compete for time and require constant context-switching. [GitHub Codespaces](https://github.com/features/codespaces) can help. You can develop entirely in the cloud and create dedicated, custom environments for each of your projects in seconds. With Visual Studio 2019, you can connect to your codespace and work just as you would locally.
-
-  For more information, see the [What is GitHub Codespaces](codespaces/codespaces-overview.md) page.
+Meanwhile, here is a new feature that's currently in the works.
 
 - **Improved Git experience in Visual Studio 2019 (Preview)**
 
    Although the new Git version control experience is now on by default in Visual Studio 2019 [version 16.8](/visualstudio/releases/2019/release-notes/), we continue to add features to enhance the experience in the newest Preview release.
 
-   For more information, see the [Git productivity in Visual Studio](git-with-visual-studio.md) page.
+   For more information, see the [Git experience in Visual Studio](../version-control/git-with-visual-studio.md) page.
 
 For more information about the Preview release&mdash;and a download link if you'd like to try it out&mdash;see the **[Visual Studio Preview](https://aka.ms/vspreview/)** page.
 
@@ -234,12 +236,13 @@ Why send feedback to the Visual Studio team? Because we take customer feedback s
 
 ## See also
 
+* [What's new in the Visual Studio docs](whats-new-visual-studio-docs.md)
 * [Visual Studio 2019 release notes](/visualstudio/releases/2019/release-notes/)
 * [Visual Studio 2019 for Mac release notes](/visualstudio/releasenotes/vs2019-mac-relnotes/)
 * [What's new in the Visual Studio 2019 SDK](../extensibility/whats-new-visual-studio-2019-sdk.md)
 * [What's new for C++ in Visual Studio](/cpp/overview/what-s-new-for-visual-cpp-in-visual-studio/)
-* [What's new for C# 8.0](/dotnet/csharp/whats-new/csharp-8/)
-* [What's new in .NET Core 3.1](/dotnet/core/whats-new/dotnet-core-3-1/)
+* [What's new for C# 9.0](/dotnet/csharp/whats-new/csharp-9)
+* [What's new in .NET 5](/dotnet/core/dotnet-five)
 * [What's new in .NET Framework](/dotnet/framework/whats-new/)
 * [Microsoft Build conference](https://www.microsoft.com/build)
 * [Microsoft Ignite conference](https://www.microsoft.com/ignite)

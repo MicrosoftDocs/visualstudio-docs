@@ -1,5 +1,6 @@
 ---
 title: "Ensure that DNS is Correctly Configured on the Target Computer | Microsoft Docs"
+description: "This error happens when the target computer cannot resolve the name of the Visual Studio debugger host computer."
 ms.date: "11/04/2016"
 ms.topic: "error-reference"
 f1_keywords:
@@ -11,7 +12,7 @@ dev_langs:
   - "C++"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

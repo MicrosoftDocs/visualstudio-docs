@@ -1,4 +1,5 @@
 ---
+description: "Allows (or disallows) expression evaluation to occur on the given thread, even if the program has stopped."
 title: IDebugEngineProgram2::WatchForExpressionEvaluationOnThread
 titleSuffix: ""
 ms.custom: SEO-VS-2020
@@ -9,9 +10,9 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugEngineProgram2::WatchForExpressionEvaluationOnThread
 ms.assetid: 01d05e77-8cac-4d1b-b19f-25756767ed27
-author: acangialosi
-ms.author: anthc
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:

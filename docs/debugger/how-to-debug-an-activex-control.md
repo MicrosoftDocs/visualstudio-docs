@@ -1,5 +1,7 @@
 ---
 title: Debug an ActiveX Control | Microsoft Docs
+description: Learn how to debug an ActiveX control. You must specify a containing executable, which you can do in Project Property Pages or when you begin debugging.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords: 
@@ -21,7 +23,7 @@ helpviewer_keywords:
 ms.assetid: bbc02cf7-a7e6-44fe-99af-87a43e1d7251
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload: 
   - multiple
 ---

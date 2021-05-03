@@ -1,11 +1,12 @@
 ---
 title: "Performance tools on Windows 8 & WS 2012 apps"
+description: Learn how enhanced security features in Windows 8 and Windows Server 2012 required significant changes in the way Visual Studio performance tools collect data. 
 ms.custom: SEO-VS-2020
 ms.date: "06/19/2017"
 ms.topic: "conceptual"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 monikerRange: 'vs-2017'
 ms.workload:
   - "multiple"

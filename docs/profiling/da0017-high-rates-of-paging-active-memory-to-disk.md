@@ -1,5 +1,6 @@
 ---
 title: DA0017 - High rates of paging active memory to disk | Microsoft Docs
+description: "System performance data that was collected in the profiling run indicates that an high rate of paging active memory to and from the disk occurred throughout the profiling run."
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords: 
@@ -9,7 +10,7 @@ f1_keywords:
 ms.assetid: 01011eec-5930-43b3-980d-2cb01e2ca7f6
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 monikerRange: 'vs-2017'
 ms.workload: 
   - multiple

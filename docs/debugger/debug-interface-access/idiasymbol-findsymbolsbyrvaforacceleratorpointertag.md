@@ -1,4 +1,5 @@
 ---
+description: "Given a corresponding tag value, this method returns an enumeration of symbols that are contained in this stub function at a specified relative virtual address."
 title: "IDiaSymbol::findSymbolsByRVAForAcceleratorPointerTag | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -7,7 +8,7 @@ dev_langs:
 ms.assetid: 024ccd78-5867-4ca7-bc26-548758e9ac53
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

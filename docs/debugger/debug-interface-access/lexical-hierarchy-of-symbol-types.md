@@ -1,4 +1,5 @@
 ---
+description: "The following table shows the symbol types in the lexical hierarchy."
 title: "Lexical Hierarchy of Symbol Types | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 912da653-ddfe-45a4-84aa-64281283739a
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

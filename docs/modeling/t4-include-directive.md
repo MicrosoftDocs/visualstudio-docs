@@ -1,10 +1,12 @@
 ---
 title: T4 Include Directive
+description: Learn that in a text template in Visual Studio, you can include text from another file by using an <#@include#> directive.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 author: JoshuaPartlow
 ms.author: joshuapa
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ---

@@ -1,4 +1,5 @@
 ---
+description: "Gets the state of this bound breakpoint."
 title: IDebugBoundBreakpoint2::GetState | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference
@@ -8,9 +9,9 @@ helpviewer_keywords:
 - GetState method
 - IDebugBoundBreakpoint2::GetState method
 ms.assetid: a40a8382-295e-4916-aae6-ffe3a9cd3f2d
-author: acangialosi
-ms.author: anthc
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:

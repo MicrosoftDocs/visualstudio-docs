@@ -1,4 +1,5 @@
 ---
+description: "Sets or changes the pass count associated with this bound breakpoint."
 title: IDebugBoundBreakpoint2::SetPassCount | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference
@@ -8,9 +9,9 @@ helpviewer_keywords:
 - SetPassCount method
 - IDebugBoundBreakpoint2::SetPassCount method
 ms.assetid: b32c12f9-b34d-43bd-a1b9-61af6cf8e51b
-author: acangialosi
-ms.author: anthc
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:

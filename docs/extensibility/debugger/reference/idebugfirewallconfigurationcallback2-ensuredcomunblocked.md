@@ -1,4 +1,5 @@
 ---
+description: "Requests that the firewall not block remote debugging."
 title: IDebugFirewallConfigurationCallback2::EnsureDCOMUnblocked
 titleSuffix: ""
 ms.custom: SEO-VS-2020
@@ -8,9 +9,9 @@ helpviewer_keywords:
 - EnsureDCOMUnblocked
 - IDebugFirewallConfigurationCallback2::EnsureDCOMUnblocked
 ms.assetid: acf54d27-32a6-47e7-aba6-3cc0004edc7f
-author: acangialosi
-ms.author: anthc
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:

@@ -1,10 +1,12 @@
 ---
 title: 'How to: Add a Drag-and-Drop Handler'
+description: Learn how you can add handlers for drag-and-drop events to your DSL so that users can drag items onto your diagram from other diagrams.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 author: JoshuaPartlow
 ms.author: joshuapa
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ---

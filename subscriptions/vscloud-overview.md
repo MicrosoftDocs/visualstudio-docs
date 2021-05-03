@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: af1f7888-6942-4515-9475-0928ecf49dab
-ms.date: 10/28/2020
+ms.date: 02/19/2021
 ms.topic: overview
 description:  Rent Visual Studio Professional or Visual Studio Enterprise on a month-to-month or annual basis, with no long-term contract.
 ---
@@ -123,9 +123,9 @@ A:  Although they will not be able to buy another Cloud Annual subscription, the
 
 ## Related resources
 - [Visual Studio Subscriptions Admin portal](https://manage.visualstudio.com/)
-- [Visual Studio subscription support](https://visualstudio.microsoft.com/vs/support/)
 - [Visual Studio cloud subscription billing FAQ](vscloud-billing-faq.md)
 - [Visual Studio cloud subscription purchasing for CSPs](vscloud-csp.md)
+- - For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, see Visual Studio [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/)
 
 ## See also
 - [Visual Studio documentation](/visualstudio/)

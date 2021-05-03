@@ -9,11 +9,11 @@ ms.assetid: 1C7AC52E-754E-473F-A5B5-00C3A40DAACD
 ---
 # How to report a problem in Visual Studio for Mac
 
-If you experience a problem with Visual Studio for Mac, we want to know about it. Here's how to report the problem to [Developer Community](https://developercommunity.visualstudio.com/spaces/41/index.html) so that we can diagnose and fix it.
+If you experience a problem with Visual Studio for Mac, we want to know about it. Here's how to report the problem to [Developer Community](https://aka.ms/feedback/report?space=41) so that we can diagnose and fix it.
 
 ## How to report a problem
 
-To report a problem for Visual Studio for Mac, the best option is to initiate the report from Visual Studio for Mac. Reporting through Visual Studio for Mac allows for diagnostic information to be automatically included in the report. If you can't use Visual Studio for Mac (due to a crash, for example), you can report the issue directly on the [Developer Community](https://developercommunity.visualstudio.com/content/problem/post.html?space=41) site.
+To report a problem for Visual Studio for Mac, the best option is to initiate the report from Visual Studio for Mac. Reporting through Visual Studio for Mac allows for diagnostic information to be automatically included in the report. If you can't use Visual Studio for Mac (due to a crash, for example), you can report the issue directly on the [Developer Community](https://aka.ms/feedback/report?space=41) site.
 
 To report a problem with Visual Studio for Mac, select **Help > Report a Problem** from the menu bar:
 
@@ -53,9 +53,9 @@ To report a problem with Visual Studio for Mac, select **Help > Report a Problem
 
 ## Search for solutions or provide feedback
 
-If you don't want to, or can't, use Visual Studio for Mac to report a problem, there's a chance that the problem has already been reported and a solution posted on the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/) page.
+If you don't want to, or can't, use Visual Studio for Mac to report a problem, there's a chance that the problem has already been reported and a solution posted on the [Visual Studio Developer Community](https://aka.ms/feedback/report?space=41/) page.
 
-If you don't have a problem to report but want to suggest a feature, there's a place for that, too. For more information, see the [Suggest a feature](https://developercommunity.visualstudio.com/content/idea/post.html?space=41) page.
+If you don't have a problem to report but want to suggest a feature, there's a place for that, too. For more information, see the [Suggest a feature](https://aka.ms/feedback/suggest?space=41) page.
 
 ## See also
 

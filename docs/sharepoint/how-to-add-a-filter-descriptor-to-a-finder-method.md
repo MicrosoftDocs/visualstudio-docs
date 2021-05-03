@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "BDC [SharePoint development in Visual Studio], filter descriptors"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---
@@ -60,8 +60,8 @@ ms.workload:
     > [!NOTE]
     > Replace the value of the `ServerName` field with the name of your server.
 
-     [!code-csharp[SP_BDC#11](../sharepoint/codesnippet/CSharp/SP_BDC/bdcmodel1/salesorderservice.cs#11)]
-     [!code-vb[SP_BDC#11](../sharepoint/codesnippet/VisualBasic/sp_bdc/bdcmodel1/salesorderservice.vb#11)]
+     :::code language="csharp" source="../sharepoint/codesnippet/CSharp/SP_BDC/bdcmodel1/salesorderservice.cs" id="Snippet11":::
+     :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/sp_bdc/bdcmodel1/salesorderservice.vb" id="Snippet11":::
 
 ## See also
 - [How to: Add a Finder method](../sharepoint/how-to-add-a-finder-method.md)

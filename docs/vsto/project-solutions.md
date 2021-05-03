@@ -1,5 +1,7 @@
 ---
 title: "Project solutions"
+description: Learn how you can use VSTO Add-ins to automate Project, extend Project features, or customize the Project user interface (UI).
+ms.custom: SEO-VS-2020
 ms.date: "08/14/2019"
 ms.topic: "conceptual"
 dev_langs:
@@ -14,7 +16,7 @@ helpviewer_keywords:
   - "solutions [Office development in Visual Studio], Project"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

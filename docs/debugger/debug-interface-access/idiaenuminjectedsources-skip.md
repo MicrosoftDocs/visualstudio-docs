@@ -1,4 +1,5 @@
 ---
+description: "Skips a specified number of injected sources in an enumeration sequence."
 title: "IDiaEnumInjectedSources::Skip | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 4aad6a51-f2d3-4064-b216-60d830d0a560
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

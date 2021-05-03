@@ -486,6 +486,20 @@
           href: updatemanifestforbrowserapplication-task.md
     - name: Special characters to escape
       href: special-characters-to-escape.md
+    - name: Error messages
+      items:
+      - name: MSB3277
+        href: errors/msb3277.md
+      - name: MSB3644
+        href: errors/msb3644.md
+      - name: MSB8036
+        href: errors/msb8036.md
+      - name: MSB8040
+        href: errors/msb8040.md
+      - name: MSB8041
+        href: errors/msb8041.md
+      - name: MSB8066
+        href: errors/msb8066.md
   - name: Use MSBuild programmatically
     items:
     - name: Overview

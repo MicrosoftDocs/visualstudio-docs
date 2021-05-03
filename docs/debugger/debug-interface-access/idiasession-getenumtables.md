@@ -1,4 +1,5 @@
 ---
+description: "Retrieves an enumerator for all tables contained in the symbol store."
 title: "IDiaSession::getEnumTables | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 66e0fba2-ca63-4e24-a46a-c99c7fb61dd1
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

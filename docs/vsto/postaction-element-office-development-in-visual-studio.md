@@ -1,5 +1,6 @@
 ---
 title: "&lt;postAction&gt; element (Office development in Visual Studio)"
+description: "The postAction element of the vstav3 namespace contains the entrypoint elements and all postActionData elements that are associated with post-deployment actions, which run after Office solutions are installed."
 ms.date: "02/02/2017"
 ms.topic: "reference"
 dev_langs:
@@ -11,7 +12,7 @@ helpviewer_keywords:
   - "postAction element"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

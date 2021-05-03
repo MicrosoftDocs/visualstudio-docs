@@ -1,5 +1,7 @@
 ---
 title: "Configuring Performance Sessions | Microsoft Docs"
+description: Learn how to configure the Visual Studio Profiling Tools to collect the performance data you want. This article lists the common tasks and provides links.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:
@@ -10,13 +12,13 @@ helpviewer_keywords:
 ms.assetid: e1c3ba41-ffca-4edf-9a7f-8a5a9244ef9b
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 monikerRange: 'vs-2017'
 ms.workload:
   - "multiple"
 ---
 # Configure performance sessions
-By using [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools, you can collect a wide variety of performance data for a large number of application types. This section shows you how to use the Performance Wizardand properties of the performance session and target binary to configure Profiling Tools to collect the data that interests you. Profiling Tools configuration properties can also be used to control how much data is collected in a profiling run. For more information, see [Control data collection](../profiling/controlling-data-collection.md).
+By using [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools, you can collect a wide variety of performance data for a large number of application types. This section shows you how to use the Performance Wizard and properties of the performance session and target binary to configure Profiling Tools to collect the data that interests you. Profiling Tools configuration properties can also be used to control how much data is collected in a profiling run. For more information, see [Control data collection](../profiling/controlling-data-collection.md).
 
 > [!NOTE]
 > In many cases, using the default properties of the Performance Wizard is an effective way of collecting profiling data. For more information, see [Beginners guide to performance profiling](../profiling/beginners-guide-to-performance-profiling.md) and [Getting started](../profiling/getting-started-with-performance-tools.md).

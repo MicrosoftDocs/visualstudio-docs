@@ -1,5 +1,6 @@
 ---
 title: "Modules View - Contention Data | Microsoft Docs"
+description: Learn how the Modules view of contention data displays concurrency data grouped by the modules that were sampled in the profiling data.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:
@@ -7,7 +8,7 @@ helpviewer_keywords:
 ms.assetid: 1a9aa122-2d8f-4a09-b503-92975aa6b648
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 monikerRange: 'vs-2017'
 ms.workload:
   - "multiple"

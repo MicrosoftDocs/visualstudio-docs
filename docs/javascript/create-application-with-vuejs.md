@@ -7,7 +7,7 @@ ms.topic: "how-to"
 ms.devlang: javascript
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 dev_langs:
   - JavaScript
 ms.workload:
@@ -63,20 +63,22 @@ For this example, you use an empty ASP.NET Core Application (C#). However, you c
 
 #### Create an Empty project
 
-1. Open Visual Studio and create a new project.
+* Open Visual Studio and create a new project.
 
     ::: moniker range=">=vs-2019"
-    Press **Esc** to close the start window. Type **Ctrl + Q** to open the search box, type **asp.net**, then choose **Create a new ASP.NET Core Web Application**. In the dialog box that appears, type the name **client-app**, and then choose **Create**.
+    In Visual Studio 2019, choose **Create a new project** in the start window. If the start window is not open, choose **File** > **Start Window**. Type **web app**, choose **C#** as the language, then choose **ASP.NET Core Empty**, and then choose **Next**. On the next screen, name the project **client-app**, and then choose **Next**.
+
+    Choose either the recommended target framework (.NET Core 3.1) or .NET 5, and then choose **Create**.
     ::: moniker-end
     ::: moniker range="vs-2017"
     From the top menu bar, choose **File** > **New** > **Project**. In the left pane of the **New Project** dialog box, expand **Visual C#**, then choose **Web**. In the middle pane, choose **ASP.NET Core Web Application**, type the name **client-app**, and then choose **OK**.
+
+    Select **Empty**, and then click **OK**.
+
+    Visual Studio creates the project, which opens in Solution Explorer (right pane).
     ::: moniker-end
 
     If you don't see the **ASP.NET Core Web Application** project template, you must install the **ASP.NET and web development** workload and the .**NET Core** development workload first. To install the workload(s), click the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box (select **File** > **New** > **Project**). The Visual Studio Installer launches. Select the required workloads.
-
-1. Select **Empty**, and then click **OK**.
-
-    Visual Studio creates the project, which opens in Solution Explorer (right pane).
 
 #### Configure the project startup file
 

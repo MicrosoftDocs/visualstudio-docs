@@ -2,7 +2,7 @@
 title: "Get started with profiling tools"
 description: "Take a brief look at the different diagnostic tools available in Visual Studio."
 ms.custom: ""
-ms.date: 09/08/2020
+ms.date: 02/18/2021
 ms.topic: overview
 f1_keywords:
   - vs.diagnosticshub.overview
@@ -13,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: d2ee0301-ea78-43d8-851a-71b7b2043d73
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---
@@ -142,7 +142,7 @@ The tool shows each event in a list view. Columns provide information about each
 
 ## Analyze asynchronous code (.NET)
 
-The [.NET Async Tool](../profiling/analyze-async.md) allows you to analyze the performance of asynchronous code in your application. This tool is available in the Performance Profiler. Open the Performance Profiler by choosing **Debug** > **Performance Profiler** (or **Alt + F2**).
+The [.NET Async tool](../profiling/analyze-async.md) allows you to analyze the performance of asynchronous code in your application. This tool is available in the Performance Profiler. Open the Performance Profiler by choosing **Debug** > **Performance Profiler** (or **Alt + F2**).
 
 The tool shows each async operation in a list view. You can see information such as the start time, end time, and total time for an async operation.
 
@@ -150,11 +150,19 @@ The tool shows each async operation in a list view. You can see information such
 
 ## Analyze database performance (.NET Core)
 
-For .NET Core apps that use ADO.NET or Entity Framework Core, the [Database Tool](../profiling/analyze-database.md) allows you to record the database queries that your application makes during a diagnostic session. You can then analyze information about individual queries in order to find places where your app's performance can be improved. This tool is available in the Performance Profiler. Open the Performance Profiler by choosing **Debug** > **Performance Profiler** (or **Alt + F2**).
+For .NET Core apps that use ADO.NET or Entity Framework Core, the [Database tool](../profiling/analyze-database.md) allows you to record the database queries that your application makes during a diagnostic session. You can then analyze information about individual queries in order to find places where your app's performance can be improved. This tool is available in the Performance Profiler. Open the Performance Profiler by choosing **Debug** > **Performance Profiler** (or **Alt + F2**).
 
 The tool shows each query in a list view. You can see information such as the query start time and duration.
 
 ![Allocation](./media/db-gotosource.png "Allocation")
+
+## Visualize .NET counters (.NET Core)
+
+Starting in Visual Studio 2019 version 16.7, you can use the [.NET Counters tool](../profiling/dotnet-counters-tool.md) in Visual Studio to visualize performance counters. You can visualize counters created using [dotnet counters](/dotnet/core/diagnostics/dotnet-counters). dotnet counters supports many counters such as CPU usage and garbage collector heap size.
+
+The tool shows live values for each counter in a list view.
+
+:::image type="content" source="../profiling/media/dotnet-counters-tool-collecting.png" alt-text=".NET Counter tool collecting.":::
 
 ::: moniker-end
 
@@ -229,6 +237,7 @@ Here is a table that lists the different tools Visual Studio offers and the diff
 |[Application Timeline](../profiling/application-timeline.md)|yes (XAML)|yes|no|
 |[Events viewer](../profiling/events-viewer.md)|yes|yes|yes|
 |[.NET Async](../profiling/analyze-async.md)|yes (.NET only)|yes|yes|
+|[.NET Counters](../profiling/dotnet-counters-tool.md)|yes (.NET Core only)|no|yes (ASP.NET Core only)|
 |[Database](../profiling/analyze-database.md)|yes (.NET Core only)|no|yes (ASP.NET Core only)|
 |[Performance Explorer](#analyze-performance-legacy-tools)|no|no|no|
 |[IntelliTrace](../debugger/intellitrace.md)|.NET with Visual Studio Enterprise only|.NET with Visual Studio Enterprise only|.NET with Visual Studio Enterprise only|

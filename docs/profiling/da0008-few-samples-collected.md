@@ -1,5 +1,6 @@
 ---
 title: DA0008 - Few samples collected | Microsoft Docs
+description: "Just a few samples were collected in the profiling run."
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords: 
@@ -10,7 +11,7 @@ f1_keywords:
 ms.assetid: 8a5b78aa-7b3d-476c-a47d-abfaff3fae7c
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 monikerRange: 'vs-2017'
 ms.workload: 
   - multiple

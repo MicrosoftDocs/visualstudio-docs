@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the original equipment manufacturer (OEM) symbol's ID value."
 title: "IDiaSymbol::get_oemSymbolId | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 187801f0-bd82-4c5b-9fae-8eeb1a4ac0ce
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

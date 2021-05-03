@@ -1,5 +1,7 @@
 ---
 title: "Unable to set data breakpoint | Microsoft Docs"
+description: Find explanations, solutions, and workarounds for "Unable to set data breakpoint errors" that occur when using "Break when Value Changes".
+ms.custom: SEO-VS-2020
 ms.date: "12/3/2019"
 ms.topic: "error-reference"
 f1_keywords:
@@ -75,7 +77,7 @@ The architecture (platform configuration) that your program runs on has a limite
 
 ## Provide feedback
 
-For any issues or suggestions about this feature, please let us know via Help > Send Feedback > [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio.md) in the IDE or in the [Developer Community](https://developercommunity.visualstudio.com/).
+For any issues or suggestions about this feature, please let us know via Help > Send Feedback > [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio.md) in the IDE or in the [Developer Community](https://aka.ms/feedback/suggest?space=8).
 
 ## See also
 

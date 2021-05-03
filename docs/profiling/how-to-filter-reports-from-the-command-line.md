@@ -1,11 +1,13 @@
 ---
 title: Filter Reports from the Command Line | Microsoft Docs
+description: Use VSPerfReport.exe to restrict reporting to a specific time period, or to selected processes and threads. This article lists the options, with descriptions.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 ms.assetid: 6e9b140f-b44f-4a5c-bd65-d868ddc94023
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 monikerRange: 'vs-2017'
 ms.workload: 
   - multiple

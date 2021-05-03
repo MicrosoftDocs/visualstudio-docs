@@ -7,7 +7,7 @@ ms.topic: quickstart
 ms.devlang: javascript
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 dev_langs:
   - JavaScript
 ms.workload:
@@ -134,6 +134,8 @@ Congratulations on completing this Quickstart! We hope you learned a little bit 
 
 ## Next steps
 
-- Go through the article for [Vue.js](create-application-with-vuejs.md)
-- Go through the [Tutorial for Node.js and Express](tutorial-nodejs.md)
-- [Deploy the app to Linux App Service](../javascript/publish-nodejs-app-azure.md)
+> [!div class="nextstepaction"]
+> [Create a Vue.js app](create-application-with-vuejs.md)
+
+> [!div class="nextstepaction"]
+> [Deploy the app to Linux App Service](../javascript/publish-nodejs-app-azure.md)

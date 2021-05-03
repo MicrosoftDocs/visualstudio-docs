@@ -1,5 +1,6 @@
 ---
 title: "Unable to Automatically Step Into the Server | Microsoft Docs"
+description: "Unable to Automatically Step Into the Server. The debugger was not notified before the remote procedure was executed."
 ms.date: "11/04/2016"
 ms.topic: "error-reference"
 f1_keywords:
@@ -14,7 +15,7 @@ helpviewer_keywords:
   - "remote debugging, notification error"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

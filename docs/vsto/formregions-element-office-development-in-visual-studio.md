@@ -1,4 +1,5 @@
 ---
+description: "The formRegions element of the vstov4 namespace contains the Microsoft Office Outlook form regions that are associated with a VSTO Add-in."
 title: "&lt;formRegions&gt; element (Office development in Visual Studio)"
 titleSuffix: ""
 ms.custom: "seodec18"
@@ -13,7 +14,7 @@ helpviewer_keywords:
   - "application manifests [Office development in Visual Studio], <formRegions> element"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

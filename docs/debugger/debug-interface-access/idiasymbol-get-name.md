@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the name of the symbol."
 title: "IDiaSymbol::get_name | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 050ec02f-b7b3-48fc-8e35-58bdf7d938b0
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

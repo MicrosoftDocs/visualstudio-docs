@@ -17,7 +17,7 @@ helpviewer_keywords:
 ms.assetid: c9b7525a-b1c9-40fc-8bce-77a5b8f960d8
 author: ghogen
 ms.author: ghogen
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ---
@@ -43,6 +43,7 @@ The following table describes the parameters for the `Exec` task.
 |`Outputs`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` output parameter.<br /><br /> Contains the output items from the task. The `Exec` task does not set these itself. Instead, you can provide them as if it did set them, so that they can be used later in the project.|
 |`StdErrEncoding`|Optional `String` output parameter.<br /><br /> Specifies the encoding of the captured task standard error stream. The default is the current console output encoding.|
 |`StdOutEncoding`|Optional `String` output parameter.<br /><br /> Specifies the encoding of the captured task standard output stream. The default is the current console output encoding.|
+|`UseUtf8Encoding`|Optional `String` parameter.<br /><br /> Specifies whether to use UTF8 code page when processing the command line for executed commands. Valid values are `Always`, `Never`, or `Detect`. The default is `Detect`, which means use the UTF8 code page only when non-ANSI characters are present.|
 |`WorkingDirectory`|Optional `String` parameter.<br /><br /> Specifies the directory in which the command will run.<br /><br />Default: The project's current working directory.|
 
 [!INCLUDE [ToolTaskExtension arguments](includes/tooltaskextension-base-params.md)]

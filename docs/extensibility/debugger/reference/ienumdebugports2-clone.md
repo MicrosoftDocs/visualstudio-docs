@@ -1,4 +1,5 @@
 ---
+description: "Returns a copy of the current ports enumeration as a separate object."
 title: IEnumDebugPorts2::Clone | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference
@@ -7,9 +8,9 @@ f1_keywords:
 helpviewer_keywords:
 - IEnumDebugPorts2::Clone
 ms.assetid: d5ce77e8-bb99-409a-98fa-20fe5a0de25e
-author: acangialosi
-ms.author: anthc
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:

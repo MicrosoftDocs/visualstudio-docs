@@ -1,6 +1,6 @@
 ---
 title: "Tutorial: Debug Visual Basic code"
-description: "Learn how to start the Visual Studio debugger, step through code, and inspect data."
+description: Learn features of the Visual Studio debugger and how to start the debugger, step through code, and inspect data in a Visual Basic application.
 ms.custom: "debug-experiment, seodec18, get-started"
 ms.date: 02/03/2020
 ms.technology: "vs-ide-debug"
@@ -12,7 +12,7 @@ helpviewer_keywords:
 ms.assetid: 62734c0d-a75a-4576-8f73-0e97c19280e1
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---
@@ -85,14 +85,16 @@ First, you'll create a .NET Core console application project. The project type c
 
 1. On the **Create a new project** window, enter or type *console* in the search box. Next, choose **Visual Basic** from the Language list, and then choose **Windows** from the Platform list. 
 
-   After you apply the language and platform filters, choose the **Console App (.NET Core)** template, and then choose **Next**.
+   After you apply the language and platform filters, choose the **Console App** template for .NET Core, and then choose **Next**.
 
-   ![Choose the Visual Basic template for the Console App (.NET Core)](../visual-basic/media/vs-2019/get-started-create-console-project.png)
+   ![Choose the Visual Basic template for the Console App](../visual-basic/media/vs-2019/get-started-create-console-project.png)
 
    > [!NOTE]
-   > If you do not see the **Console App (.NET Core)** template, you can install it from the **Create a new project** window. In the **Not finding what you're looking for?** message, choose the **Install more tools and features** link. Then, in the Visual Studio Installer, choose the **.NET Core cross-platform development** workload.
+   > If you do not see the **Console App** template, you can install it from the **Create a new project** window. In the **Not finding what you're looking for?** message, choose the **Install more tools and features** link. Then, in the Visual Studio Installer, choose the **.NET Core cross-platform development** workload.
 
-1. In the **Configure your new project** window, type or enter *get-started-debugging* in the **Project name** box. Then, choose **Create**.
+1. In the **Configure your new project** window, type or enter *get-started-debugging* in the **Project name** box. Then, choose **Next**.
+
+1. Choose either the recommended target framework (.NET Core 3.1) or .NET 5, and then choose **Create**.
 
    Visual Studio opens your new project.
    

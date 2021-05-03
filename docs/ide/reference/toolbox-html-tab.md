@@ -12,7 +12,7 @@ helpviewer_keywords:
 - HTML tab in Toolbox
 author: TerryGLee
 ms.author: tglee
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ---

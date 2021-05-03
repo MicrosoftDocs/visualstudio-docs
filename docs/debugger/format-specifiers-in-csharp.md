@@ -24,7 +24,7 @@ helpviewer_keywords:
 ms.assetid: 345c8589-5f36-4d34-a58c-e56271687dd6
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "dotnet"
 ---
@@ -46,7 +46,7 @@ We'll use the following example code:
 
 Add the `my_var1` variable to the **Watch** window while debugging, **Debug** > **Windows** > **Watch** > **Watch 1**. Next, right-click the variable and select **Hexadecimal Display**. Now the **Watch** window shows the value 0x0065. To see this value as a decimal integer rather than a hexadecimal integer, add the decimal format specifier **, d** in the **Name** column after the variable name. The **Value** column now shows **101**.
 
-![WatchFormatCSharp](../debugger/media/watchformatcsharp.png "WatchFormatCSharp")
+![Screenshot of the Visual Studio Watch window with one line that shows my_var1, d with a value of 101 and a type of int.](../debugger/media/watchformatcsharp.png)
 
 ::: moniker range=">= vs-2019" 
 

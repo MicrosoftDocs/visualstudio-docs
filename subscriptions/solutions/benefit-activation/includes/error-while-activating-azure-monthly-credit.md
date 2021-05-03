@@ -1,11 +1,11 @@
 ---
-title: I'm getting an error while trying to activate my Azure monthly credit.
+title: Getting an error while trying to activate my Azure monthly credit
 description: I'm getting an error while trying to activate my Azure monthly credit included with my Visual Studio subscription.
 ms.topic: include
 ms.assetid: eed8114a-651a-47e2-bb24-130acd2a76d0
 author: CaityBuschlen
 ms.author: cabuschl
-ms.date: 8/14/2020
+ms.date: 4/16/2021
 user.type: subscriber
 tags: benefit, azure
 subscription.type: vl, cloud, retail, partner
@@ -14,7 +14,9 @@ sap.id: 8dedd10e-cb1c-2eb1-bcda-fe00b07ac903
 
 ## I'm getting an error while trying to activate my Azure monthly credit.
 
-You can only have one Azure dev/test individual credit benefit per Azure subscription associated with your Visual Studio subscription. You may be seeing an error if you’ve previously activated the monthly Azure credit. If you're unsure if you activated the credit, log into the [Azure portal](https://portal.azure.com/) to verify. 
+You can only have one monthly Azure dev/test individual credit benefit per Azure subscription associated with your Visual Studio subscription. You may be seeing an error if you’ve previously activated the monthly Azure credit. If you're unsure if you activated the credit, log into the [Azure portal](https://portal.azure.com/) to verify. 
+
+If you have a new Visual Studio subscription and are receiving the error "You can't activate this Visual Studio benefit more than once" when trying to activate the monthly Azure credit benefit, contact Visual Studio Subscriptions support by clicking on the "Create a support ticket" button at the bottom of this solution. 
 
 ## Verify your email 
 

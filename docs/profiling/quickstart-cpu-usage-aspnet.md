@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "Diagnostics Tools, CPU Usage"
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "aspnet"
 ---
@@ -36,24 +36,17 @@ Windows 8 and later is required to run profiling tools with the debugger (**Diag
    In the dialog box that appears, choose **MVC** in the middle pane, and then click **OK**.
    ::: moniker-end
    ::: moniker range="vs-2019"
-   If the start window is not open, choose **File** > **Start Window**.
+   In Visual Studio 2019, choose **Create a new project** in the start window. If the start window is not open, choose **File** > **Start Window**, and then choose **Create a new project**.
 
-   On the start window, choose **Create a new project**.
+   Type **web app** in the search box, choose **C#** as the language, choose **ASP.NET Core Web Application (Model-View-Controller)**, and then choose **Next**. On the next screen, name the project *MyProfilingApp_MVC*, and then choose **Next**.
 
-   On the **Create a new project** window, enter or type *asp.net* in the search box. Next, choose **C#** from the Language list, and then choose **Windows** from the Platform list.
-
-   After you apply the language and platform filters, choose the **ASP.NET Web Application (.NET Core)** template, and then choose **Next**.
+   Choose either the recommended target framework (.NET Core 3.1) or .NET 5, and then choose **Create**.
 
    > [!NOTE]
    > If you do not see the **ASP.NET Web Application (.NET Core)** template, you can install it from the **Create a new project** window. In the **Not finding what you're looking for?** message, choose the **Install more tools and features** link. Then, in the Visual Studio Installer, choose the **ASP.NET and web development** workload.
-
-   In the **Configure your new project** window, type or enter *MyProfilingApp_MVC* in the **Project name** box. Then, choose **Create**.
-
-   In the window that appears, choose **Web Application (Model-View-Controller)** and then choose **Create**.
-
    ::: moniker-end
 
-   Visual Studio opens your new project.
+   Visual Studio creates and opens your new project.
 
 1. In Solution Explorer, right-click the Models folder and choose **Add** > **Class**.
 

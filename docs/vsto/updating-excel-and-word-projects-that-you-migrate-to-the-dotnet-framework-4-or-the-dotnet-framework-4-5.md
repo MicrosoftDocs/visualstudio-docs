@@ -1,5 +1,7 @@
 ---
 title: "Update Excel or Word project migrated to .NET Framework 4.5"
+description: You must modify your code if the target framework is changed to the .NET Framework 4 or later when you have an Excel or Word project that uses specific features.
+ms.custom: SEO-VS-2020
 titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
@@ -10,7 +12,7 @@ helpviewer_keywords:
   - "Office projects [Office development in Visual Studio], migrating to .NET Framework 4"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

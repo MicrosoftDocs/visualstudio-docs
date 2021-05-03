@@ -62,6 +62,10 @@
           href: install/troubleshooting-network-related-errors-in-visual-studio.md
     - name: Deploy in an enterprise
       items:
+      - name: Applying administrator updates
+        href: install/applying-administrator-updates.md
+      - name: Enabling administrator updates
+        href: install/enabling-administrator-updates.md
       - name: Automate Visual Studio installation with a response file
         href: install/automated-installation-with-response-file.md
       - name: Automatically apply product keys when deploying Visual Studio
@@ -182,14 +186,16 @@
     href: ide/visual-studio-search.md
   - name: Solutions and projects
     items:
-    - name: Work with solutions and projects
+    - name: Learn about solutions and projects
       href: ide/solutions-and-projects-in-visual-studio.md
     - name: Create a new project
       href: ide/create-new-project.md
-    - name: Create solutions and projects
+    - name: Work with solutions and projects
       href: ide/creating-solutions-and-projects.md
-    - name: Open a project from a repo
-      href: get-started/tutorial-open-project-from-repo.md
+    - name: Open a project from a repo in Visual Studio 2017
+      href: get-started/tutorial-open-project-from-repo-visual-studio-2017.md
+    - name: Open a project from a repo in Visual Studio 2019
+      href: get-started/tutorial-open-project-from-repo-visual-studio-2019.md
     - name: Port, migrate, and upgrade projects
       href: porting/port-migrate-and-upgrade-visual-studio-projects.md
     - name: Manage project and solution properties
@@ -275,8 +281,6 @@
   - name: Connect to projects in Team Explorer
     displayName: Azure DevOps VSTS
     href: ide/connect-team-project.md
-  - name: New Git experience in Visual Studio
-    href: ide/git-with-visual-studio.md
   - name: Editor
     items:
     - name: Use the editor
@@ -901,6 +905,8 @@
     href: ide/walkthrough-creating-a-multiple-computer-build-environment.md
 - name: Debug >>
   href: debugger/index.yml
+- name: Version control >>
+  href: version-control/index.yml
 - name: Test >>
   displayName: Unit testing
   href: test/index.yml
@@ -1068,6 +1074,8 @@
     items:
     - name: Call Hierarchy
       href: ide/reference/call-hierarchy.md
+    - name: Developer Command Prompt & Developer PowerShell
+      href: ide/reference/command-prompt-powershell.md
     - name: Preview Changes
       href: ide/preview-changes.md
     - name: Choose Toolbox items, WPF components
@@ -1431,9 +1439,9 @@
     href: ide/whats-new-visual-studio-2017.md
   - name: What's new in Visual Studio 2019
     href: ide/whats-new-visual-studio-2019.md
-  - name: What's new in Visual Studio docs
+  - name: What's new in the docs
     href: ide/whats-new-visual-studio-docs.md
-  - name: History of what's new in Visual Studio docs
+  - name: History of what's new in the docs
     href: ide/whats-new-visual-studio-docs-history.md
   - name: Release notes & system requirements
     items:

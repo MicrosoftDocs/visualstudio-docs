@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the number of items in a list or array."
 title: "IDiaSymbol::get_count | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: f6d6ac2f-6d96-4f88-962b-29c0a66890b0
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

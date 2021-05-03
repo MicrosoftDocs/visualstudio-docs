@@ -1,4 +1,5 @@
 ---
+description: "IDiaSession::findInlineFramesByAddr retrieves an enumeration that allows a client to iterate through all of the inline frames on a given address."
 title: "IDiaSession::findInlineFramesByAddr | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -7,7 +8,7 @@ dev_langs:
 ms.assetid: e7dc1ac7-bb09-45be-96d2-365a9b7336e4
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

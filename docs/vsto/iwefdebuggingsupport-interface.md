@@ -1,5 +1,7 @@
 ---
 title: "IWefDebuggingSupport interface"
+description: Learn how you can use a debugging environment like Visual Studio to facilitate debugging of Microsoft Office applications.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "interface"
 dev_langs:
@@ -7,7 +9,7 @@ dev_langs:
   - "CSharp"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

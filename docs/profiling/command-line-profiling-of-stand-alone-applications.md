@@ -1,5 +1,7 @@
 ---
 title: "Command-Line Profiling of Stand-Alone Applications | Microsoft Docs"
+description: Learn how to use the Profiling Tools from the command line to collect performance data for client (stand-alone) applications.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:
@@ -8,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: a47f2bf2-186d-4120-bb79-34e2f3a1ee42
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 monikerRange: 'vs-2017'
 ms.workload:
   - "multiple"

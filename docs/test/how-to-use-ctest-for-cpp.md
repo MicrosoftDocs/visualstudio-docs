@@ -5,7 +5,7 @@ ms.custom: SEO-VS-2020
 ms.date: 01/23/2020
 ms.topic: how-to
 ms.author: corob
-manager: jillfra
+manager: jmartens
 ms.workload: 
   - cplusplus
 author: corob-msft

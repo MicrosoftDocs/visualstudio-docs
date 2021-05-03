@@ -12,7 +12,7 @@ helpviewer_keywords:
 ms.assetid: cb077613-4a59-41b7-96ec-d8516689163c
 author: ghogen
 ms.author: ghogen
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ---
@@ -70,23 +70,23 @@ The following example shows how to use the `AfterTargets` attribute to add a cus
 ```xml
 <Project Sdk="Microsoft.NET.Sdk">
 
-<PropertyGroup>
-   <TargetFramework>netcoreapp3.1</TargetFramework>
-   <_OutputCopyLocation>$(OutputPath)..\..\CustomOutput\</_OutputCopyLocation>
-</PropertyGroup>
+  <PropertyGroup>
+     <TargetFramework>netcoreapp3.1</TargetFramework>
+     <_OutputCopyLocation>$(OutputPath)..\..\CustomOutput\</_OutputCopyLocation>
+  </PropertyGroup>
 
-<Target Name="CustomAfterBuild" AfterTargets="Build">
-  <ItemGroup>
-    <_FilesToCopy Include="$(OutputPath)**\*"/>
-  </ItemGroup>
-  <Message Text="_FilesToCopy: @(_FilesToCopy)" Importance="high"/>
+  <Target Name="CustomAfterBuild" AfterTargets="Build">
+    <ItemGroup>
+      <_FilesToCopy Include="$(OutputPath)**\*"/>
+    </ItemGroup>
+    <Message Text="_FilesToCopy: @(_FilesToCopy)" Importance="high"/>
 
-  <Message Text="DestFiles:
-      @(_FilesToCopy->'$(_OutputCopyLocation)%(RecursiveDir)%(Filename)%(Extension)')"/>
+    <Message Text="DestFiles:
+        @(_FilesToCopy->'$(_OutputCopyLocation)%(RecursiveDir)%(Filename)%(Extension)')"/>
 
-  <Copy SourceFiles="@(_FilesToCopy)"
-        DestinationFiles=
-        "@(_FilesToCopy->'$(_OutputCopyLocation)%(RecursiveDir)%(Filename)%(Extension)')"/>
+    <Copy SourceFiles="@(_FilesToCopy)"
+          DestinationFiles=
+          "@(_FilesToCopy->'$(_OutputCopyLocation)%(RecursiveDir)%(Filename)%(Extension)')"/>
   </Target>
 
   <Target Name="CustomClean" BeforeTargets="CoreClean">
@@ -171,16 +171,16 @@ In this example, this is an SDK-style project. As mentioned in the note about SD
 
 ```xml
 <Project>
-<Import Project="Sdk.props" Sdk="Microsoft.NET.Sdk" />
+  <Import Project="Sdk.props" Sdk="Microsoft.NET.Sdk"/>
 
-<PropertyGroup>
-   <TargetFramework>netcoreapp3.1</TargetFramework>
-</PropertyGroup>
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
 
-<Import Project="Sdk.targets" Sdk="Microsoft.NET.Sdk" />
+  <Import Project="Sdk.targets" Sdk="Microsoft.NET.Sdk"/>
 
-<PropertyGroup>
-   <BuildDependsOn>
+  <PropertyGroup>
+    <BuildDependsOn>
       $(BuildDependsOn);CustomAfterBuild
     </BuildDependsOn>
 
@@ -191,26 +191,25 @@ In this example, this is an SDK-style project. As mentioned in the note about SD
     <_OutputCopyLocation>$(OutputPath)..\..\CustomOutput\</_OutputCopyLocation>
   </PropertyGroup>
 
-<Target Name="CustomAfterBuild">
-  <ItemGroup>
-    <_FilesToCopy Include="$(OutputPath)**\*"/>
-  </ItemGroup>
-  <Message Text="_FilesToCopy: @(_FilesToCopy)" Importance="high"/>
+  <Target Name="CustomAfterBuild">
+    <ItemGroup>
+      <_FilesToCopy Include="$(OutputPath)**\*"/>
+    </ItemGroup>
+    <Message Importance="high" Text="_FilesToCopy: @(_FilesToCopy)"/>
 
-  <Message Text="DestFiles:
-      @(_FilesToCopy->'$(_OutputCopyLocation)%(RecursiveDir)%(Filename)%(Extension)')"/>
+    <Message Text="DestFiles:
+      @(_FilesToCopy-&gt;'$(_OutputCopyLocation)%(RecursiveDir)%(Filename)%(Extension)')"/>
 
-  <Copy SourceFiles="@(_FilesToCopy)"
-        DestinationFiles=
-        "@(_FilesToCopy->'$(_OutputCopyLocation)%(RecursiveDir)%(Filename)%(Extension)')"/>
+    <Copy SourceFiles="@(_FilesToCopy)"
+          DestinationFiles="@(_FilesToCopy-&gt;'$(_OutputCopyLocation)%(RecursiveDir)%(Filename)%(Extension)')"/>
   </Target>
 
   <Target Name="CustomClean">
-    <Message Text="Inside Custom Clean" Importance="high"/>
+    <Message Importance="high" Text="Inside Custom Clean"/>
     <ItemGroup>
       <_CustomFilesToDelete Include="$(_OutputCopyLocation)**\*"/>
     </ItemGroup>
-    <Delete Files='@(_CustomFilesToDelete)'/>
+    <Delete Files="@(_CustomFilesToDelete)"/>
   </Target>
 </Project>
 ```

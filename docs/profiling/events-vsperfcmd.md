@@ -1,11 +1,13 @@
 ---
 title: "Events (VSPerfCmd) | Microsoft Docs"
+description: Control Event Tracing for Windows (ETW) logging using the Events option in the VSPerfCmd.exe command-line tool. Review syntax parameters.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 ms.assetid: eb139327-4783-4f2a-874c-efad377a7be4
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 monikerRange: 'vs-2017'
 ms.workload:
   - "multiple"

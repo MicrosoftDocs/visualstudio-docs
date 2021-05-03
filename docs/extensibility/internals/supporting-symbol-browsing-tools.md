@@ -1,5 +1,7 @@
 ---
 title: Supporting Symbol-Browsing Tools | Microsoft Docs
+description: Visual Studio provides symbol browsing capabilities in Visual Studio. Learn how to extend these capabilities with libraries for the symbols in your components.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -13,9 +15,9 @@ helpviewer_keywords:
 - symbols
 - libraries, symbol-browsing tools
 ms.assetid: 70d8c9e5-4b0b-4a69-b3b3-90f36debe880
-author: acangialosi
-ms.author: anthc
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
 - vssdk
 ---

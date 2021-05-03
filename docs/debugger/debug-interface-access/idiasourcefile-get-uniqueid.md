@@ -1,4 +1,5 @@
 ---
+description: "Retrieves a simple integer key value that is unique for this image."
 title: "IDiaSourceFile::get_uniqueId | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: e0b8dbc0-6061-4f31-bead-2cd72be44e41
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

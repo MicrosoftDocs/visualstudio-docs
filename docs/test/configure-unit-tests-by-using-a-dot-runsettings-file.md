@@ -5,7 +5,7 @@ ms.custom: SEO-VS-2020
 ms.date: 07/15/2020
 ms.topic: conceptual
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload:
   - multiple
 author: mikejo5000
@@ -76,6 +76,9 @@ There are three ways of specifying a run settings file in Visual Studio 2019 ver
 
 #### Autodetect the run settings file
 
+> [!NOTE]
+> This will only work for a file named `.runsettings`.
+
 To autodetect the run settings file, place it at the root of your solution.
 
 If auto detection of run settings files is enabled, the settings in this file are applied across all tests run. You can turn on auto detection of runsettings files using two methods:
@@ -129,7 +132,7 @@ The file appears on the Test menu, and you can select or deselect it. While sele
 
 To run tests from the command line, use *vstest.console.exe*, and specify the settings file by using the **/Settings** parameter.
 
-1. Open a [Developer Command Prompt](/dotnet/framework/tools/developer-command-prompt-for-vs) for Visual Studio.
+1. Open [Developer Command Prompt for Visual Studio](../ide/reference/command-prompt-powershell.md).
 
 2. Enter a command similar to:
 
@@ -297,7 +300,7 @@ These settings are specific to the test adapter that runs test methods that have
     <DeleteDeploymentDirectoryAfterTestRunIsComplete>False</DeleteDeploymentDirectoryAfterTestRunIsComplete>
     <DeploymentEnabled>False</DeploymentEnabled>
     <AssemblyResolution>
-      <Directory Path="D:\myfolder\bin\" includeSubDirectories="false"/>
+      <Directory path="D:\myfolder\bin\" includeSubDirectories="false"/>
     </AssemblyResolution>
 </MSTest>
 ```
@@ -313,7 +316,7 @@ These settings are specific to the test adapter that runs test methods that have
 |**DeleteDeploymentDirectoryAfterTestRunIsComplete**|true|To retain the deployment directory after a test run, set this value to **false**.|
 |**MapInconclusiveToFailed**|false|If a test completes with an inconclusive status, it is mapped to the skipped status in **Test Explorer**. If you want inconclusive tests to be shown as failed, set the value to **true**.|
 |**InProcMode**|false|If you want your tests to be run in the same process as the MSTest adapter, set this value to **true**. This setting provides a minor performance gain. But if a test exits with an exception, the remaining tests don't run.|
-|**AssemblyResolution**|false|You can specify paths to additional assemblies when finding and running unit tests. For example, use these paths for dependency assemblies that aren't in the same directory as the test assembly. To specify a path, use a **Directory Path** element. Paths can include environment variables.<br /><br />`<AssemblyResolution>  <Directory Path="D:\myfolder\bin\" includeSubDirectories="false"/> </AssemblyResolution>`|
+|**AssemblyResolution**|false|You can specify paths to additional assemblies when finding and running unit tests. For example, use these paths for dependency assemblies that aren't in the same directory as the test assembly. To specify a path, use a **Directory Path** element. Paths can include environment variables.<br /><br />`<AssemblyResolution>  <Directory path="D:\myfolder\bin\" includeSubDirectories="false"/> </AssemblyResolution>`|
 
 ## Example *.runsettings* file
 

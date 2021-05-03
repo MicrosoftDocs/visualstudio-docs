@@ -1,13 +1,15 @@
 ---
 title: Registering Verbs for File Name Extensions | Microsoft Docs
+description: Learn how to register a verb that is associated with a programmatic identifier for a file name extension by using a Shell key.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - verbs, registering
 ms.assetid: 81a58e40-7cd0-4ef4-a475-c4e1e84d6e06
-author: acangialosi
-ms.author: anthc
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
 - vssdk
 ---

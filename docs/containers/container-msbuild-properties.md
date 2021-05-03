@@ -1,7 +1,7 @@
 ---
 title: Visual Studio Container Tools build properties
 author: ghogen
-description: Overview of the Container Tools build process
+description: Learn how to edit the Container Tools build properties to customize how Visual Studio builds and runs a container project.
 ms.author: ghogen
 ms.date: 06/06/2019
 ms.technology: vs-azure

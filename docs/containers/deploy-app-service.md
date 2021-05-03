@@ -3,11 +3,11 @@ title: Deploy an ASP.NET Core container to Azure App Service
 description: Learn how to use Visual Studio Container Tools to deploy an ASP.NET Core web app in a Docker container to Azure App Service
 ms.custom: SEO-VS-2020
 author: ghogen
-manager: jillfra
+manager: jmartens
 ms.technology: vs-azure
 ms.devlang: dotnet
 ms.topic: how-to
-ms.date: 01/27/2020
+ms.date: 02/21/2021
 ms.author: ghogen
 ---
 # Deploy an ASP.NET Core container to Azure App Service using Visual Studio
@@ -43,9 +43,9 @@ The following steps guide you through creating a basic ASP.NET Core app that wil
 ::: moniker-end
 ::: moniker range=">= vs-2019"
 1. From the Visual Studio start window, choose **Create a new project**.
-1. Choose **ASP.NET Core Web Application**, and choose **Next**.
-1. Give your new application a name (or take the default) and choose **Create**.
-1. Choose **Web Application**.
+1. Choose **ASP.NET Core Web App**, and choose **Next**.
+1. Give your new application a name (or take the default) and choose **Next**.
+1. Choose the .NET version you want to target. If you're not sure, choose the long-term support (LTS) version.
 1. Choose whether or not you want SSL support by using the **Configure for HTTPS** checkbox.
 1. Check the **Enable Docker Support** checkbox.
 1. Select the container type, and click **Create**.
@@ -59,13 +59,13 @@ The following steps guide you through creating a basic ASP.NET Core app that wil
 1. On the publish target dialog, choose **App Service Linux** or **App Service**. This is the operating system that will host the web server.
 1. You can publish only to App Service, or you can publish to both App Service and Azure Container Registry (ACR). To publish the container in an Azure Container Registry (ACR), choose **Create new App Service for containers**, and click **Publish**.
 
-   ![Screenshot of publish dialog](media/deploy-app-service/publish-app-service-linux.PNG)
+   ![Screenshot of publish dialog](media/deploy-app-service/publish-app-service-linux-1.png)
 
    To publish only to an Azure App Service without using Azure Container Registry, choose **Create new**, and click **Publish**.
 
 1. Check that you're signed in with the account that's associated with your Azure subscription, and choose a unique name, subscription, resource group, hosting plan, and container registry (if applicable), or accept the defaults.
 
-   ![Screenshot of publish settings](media/deploy-app-service/publish-app-service-linux2.png)
+   ![Screenshot of publish settings](media/deploy-app-service/publish-app-service-linux-2.png)
 
 1. Choose **Create**. Your container is deployed to Azure in the resource group and container registry you selected. This process takes a bit of time. When it's completed, the **Publish** tab shows information about what was published, including the site URL.
 

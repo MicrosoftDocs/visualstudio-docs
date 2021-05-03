@@ -1,11 +1,13 @@
 ---
 title: Profiler command line - Open client .NET app, get concurrency data
+description: Learn how to use the Visual Studio Profiling Tools command-line tools to start a .NET stand-alone app and collect process and thread concurrency data.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 ms.assetid: 17a48848-bd3e-44ef-9971-e39836ff1df2
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 monikerRange: 'vs-2017'
 ms.workload: 
   - dotnet
@@ -31,7 +33,7 @@ This topic describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprv
 
    - The [/start](../profiling/start.md) option initializes the profiler.
 
-     | | |
+     | Command | Description |
      |-------------------------------------| - |
      | **/start:concurrency** | Enables collecting both resource contention and thread execution data. |
      | **/start:concurrency,resourceonly** | Enables collecting only resource contention data. |

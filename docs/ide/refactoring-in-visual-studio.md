@@ -10,7 +10,7 @@ f1_keywords:
 ms.devlang: CSharp
 author: TerryGLee
 ms.author: tglee
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ---

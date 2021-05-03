@@ -1,5 +1,6 @@
 ---
 title: IDebugProperty3 | Microsoft Docs
+description: "This interface provides support for retrieving an arbitrarily long string associated with the property, associating a unique ID with the property, retrieving a list of custom viewers for the property, setting the value of a property with the ability to report any resulting errors."
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -7,9 +8,9 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugProperty3 interface
 ms.assetid: 8f9be68d-4490-4eca-8f6b-8a10ed77e226
-author: acangialosi
-ms.author: anthc
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
 - vssdk
 ---

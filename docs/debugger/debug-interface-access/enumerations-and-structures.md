@@ -1,4 +1,5 @@
 ---
+description: "These are the enumerations and structures used by the DIA SDK."
 title: "Enumerations and Structures | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: d17eed2d-d8fd-4a47-82d3-8125c0624010
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

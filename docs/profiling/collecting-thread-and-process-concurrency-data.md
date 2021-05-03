@@ -1,5 +1,6 @@
 ---
 title: "Collect thread & process concurrency data"
+description: Use the Profiling Tools concurrency profiling method to collect data about every synchronization event that causes a function to wait for resource access.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
@@ -8,7 +9,7 @@ helpviewer_keywords:
   - Profiling Tools, concurrency method
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 monikerRange: 'vs-2017'
 ms.workload: 
   - multiple

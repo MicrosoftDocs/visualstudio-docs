@@ -5,7 +5,7 @@ ms.custom: SEO-VS-2020
 ms.date: 07/24/2019
 ms.topic: conceptual
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 author: mikejo5000
@@ -20,7 +20,11 @@ This walkthrough demonstrates how to develop a tested method in C# using Microso
 
 1. Create a C# **Class Library (.NET Standard)** project. This project will contain the code that we want to test. Name the project **MyMath**.
 
-2. In the same solution, add a new **MSTest Test Project (.NET Core)** project. Name the test project **MathTests**.
+2. In the same solution, add a new MSTest test project.
+
+   Starting in Visual Studio 2019 version 16.9, the MSTest project template name changed from **MSTest Test Project (.NET Core)** to **Unit Test Project**.
+
+   Name the test project **MathTests**.
 
    ![New code and test projects](../test/media/test-driven-development-ide.png)
 

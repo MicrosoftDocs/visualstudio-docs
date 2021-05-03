@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the children of the symbol that are valid at a specified address."
 title: "IDiaSymbol::findChildrenExByAddr | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: c1e7885d-2d15-4529-9ac2-32dd22efe31c
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

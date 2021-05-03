@@ -16,9 +16,9 @@
   - name: Create your first C# app
     expanded: true
     items:
-      - name: 'Part 1: Create a C# console app'
+      - name: 'Create a C# console app'
         href: tutorial-console.md
-      - name: 'Part 2: Extend your C# console app'
+      - name: 'Extend your C# console app'
         href: tutorial-console-part-2.md
   - name: Create a web app
     href: tutorial-aspnet-core.md
@@ -28,18 +28,6 @@
     href: tutorial-wpf.md
   - name: Create a Windows Forms app
     href: ../../ide/create-csharp-winform-visual-studio.md?toc=/visualstudio/get-started/csharp/toc.json&bc=/visualstudio/get-started/csharp/breadcrumb/toc.json  
-  - name: Video Tutorial - Create an ASP.NET Core Web App
-    items:
-    - name: '1 - Install Visual Studio'
-      href: tutorial-aspnet-core-ef-step-01.md
-    - name: '2 - Create your first ASP.NET Core web app'
-      href: tutorial-aspnet-core-ef-step-02.md
-    - name: '3 - Work with data'
-      href: tutorial-aspnet-core-ef-step-03.md
-    - name: '4 - Expose a web API'
-      href: tutorial-aspnet-core-ef-step-04.md
-    - name: '5 - Deploy your ASP.NET Core app to Azure'
-      href: tutorial-aspnet-core-ef-step-05.md
 - name: Learn Visual Studio
   expanded: true
   items:

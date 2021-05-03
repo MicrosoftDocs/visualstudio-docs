@@ -1,4 +1,5 @@
 ---
+description: "Windows file sharing has been configured so that you will connect to the remote computer using a different user name."
 title: "Windows file sharing has been configured... | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "error-reference"
@@ -11,7 +12,7 @@ dev_langs:
   - "C++"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

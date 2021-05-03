@@ -1,4 +1,5 @@
 ---
+description: "This function checks in previously checked-out files to the source control system, storing the changes and creating a new version."
 title: SccCheckin Function | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: conceptual
@@ -7,9 +8,9 @@ f1_keywords:
 helpviewer_keywords:
 - SccCheckin function
 ms.assetid: e3f26ac2-6163-42e1-a764-22cfea5a3bc6
-author: acangialosi
-ms.author: anthc
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
 - vssdk
 ---

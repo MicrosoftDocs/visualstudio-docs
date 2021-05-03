@@ -1,15 +1,15 @@
 ---
 title: Customizing project and item templates
 description: Learn how to customize your project and item templates after they've been created.
-ms.custom: SEO-VS-2020
-ms.date: 01/02/2018
+ms.custom: SEO-VS-2021
+ms.date: 03/29/2018
 ms.topic: conceptual
 helpviewer_keywords:
 - customizing templates [Visual Studio]
 - Visual Studio templates, customizing
 author: TerryGLee
 ms.author: tglee
-manager: jillfra
+manager: jmartens
 ---
 # Customize project and item templates
 
@@ -39,3 +39,5 @@ For example, you can perform the following tasks:
 - [How to: Create item templates](../ide/how-to-create-item-templates.md)
 - [Visual Studio template schema reference](../extensibility/visual-studio-template-schema-reference.md)
 - <xref:Microsoft.VisualStudio.TemplateWizard.IWizard>
+- [Customize templates by using the `dotnet new` command](/dotnet/core/tools/custom-templates/)
+- [List or modify projects in a .NET solution file by using the `dotnet sln` command](/dotnet/core/tools/dotnet-sln/)

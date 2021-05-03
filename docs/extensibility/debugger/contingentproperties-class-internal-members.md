@@ -1,4 +1,5 @@
 ---
+description: "Contains additional properties for a System.Threading.Tasks.Task object."
 title: ContingentProperties Class - Internal Members | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: conceptual
@@ -6,9 +7,9 @@ helpviewer_keywords:
 - ContingentProperties class [.NET Framework debug engines]
 - debug engines, ContingentProperties class [.NET Framework]
 ms.assetid: c49d1362-ab1c-4b6d-9950-fcae40e0e66b
-author: acangialosi
-ms.author: anthc
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
 - vssdk
 ---

@@ -1,5 +1,7 @@
 ---
 title: T4 Text Template Directives
+description: Learn about T4 test template directives and how they provide instructions to the text template transformation engine.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -11,7 +13,7 @@ helpviewer_keywords:
 - text templates, template directive
 author: JoshuaPartlow
 ms.author: joshuapa
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ---

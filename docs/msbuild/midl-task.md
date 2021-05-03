@@ -25,7 +25,7 @@ helpviewer_keywords:
 ms.assetid: 727efa8c-3336-40b8-8bef-ae6cbd77a422
 author: ghogen
 ms.author: ghogen
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ---
@@ -73,7 +73,7 @@ Wraps the Microsoft Interface Definition Language (MIDL) compiler tool, *midl.ex
 
      Optional **String** parameter.
 
-     Specifies options to pass to the C/C++ preprocessor. Specify a space-delimited list of preprocessor options.
+     Specifies options to pass to the C/C++ preprocessor. Specify a space-delimited list of preprocessor options. Must contain the `/E` option.
 
      For more information, see the **/cpp_opt** option in [MIDL command-line reference](/windows/desktop/Midl/midl-command-line-reference).
 

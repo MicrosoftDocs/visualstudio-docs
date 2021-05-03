@@ -1,5 +1,7 @@
 ---
 title: 'How to: Create a Domain-Specific Language Solution'
+description: Learn how to create a domain-specific language (DSL) by using a specialized Visual Studio solution.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords:
@@ -10,7 +12,7 @@ helpviewer_keywords:
 - Domain-Specific Language Tools, creating solutions
 author: JoshuaPartlow
 ms.author: joshuapa
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ---

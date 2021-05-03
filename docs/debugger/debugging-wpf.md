@@ -1,5 +1,7 @@
 ---
 title: "Debugging WPF | Microsoft Docs"
+description: See a list of articles describing additional features in Visual Studio that make debugging Windows Presentation Foundation (WPF) applications easier.
+ms.custom: SEO-VS-2020
 ms.date: "10/22/2019"
 ms.topic: "conceptual"
 dev_langs:
@@ -13,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 7948e8a6-40b2-4ebb-8461-e220a9e78cd7
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

@@ -4,7 +4,7 @@ description: Describes how to share Docker images using the Docker Hub registry.
 ms.date: "08/04/2020"
 author: nebuk89
 ms.author: ghogen
-manager: jillfra
+manager: jmartens
 ms.technology: vs-azure
 ms.topic: conceptual
 ms.workload:
@@ -18,7 +18,7 @@ Now that we've built an image, let's share it! To share Docker images, you have 
 
 To push an image, first, you need to create a repo on Docker Hub.
 
-1. Go to [Docker Hub](https://hub.docker.com) and log in if you need to.
+1. Go to [Docker Hub](https://hub.docker.com/signup/msftedge?utm_source=msftedge) and log in if you need to.
 
 1. Click the **Create Repository** button.
 

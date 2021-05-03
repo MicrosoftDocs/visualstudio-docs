@@ -1,5 +1,7 @@
 ---
 title: "How to: Programmatically search within a specific folder"
+description: Learn how you can use Visual Studio to programmatically search within a specific Microsoft Outlook folder.
+ms.custom: SEO-VS-2020
 titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "how-to"
@@ -10,7 +12,7 @@ helpviewer_keywords:
   - "Outlook folders [Office development in Visual Studio], searching"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---
@@ -20,7 +22,7 @@ ms.workload:
  [!INCLUDE[appliesto_olkallapp](../vsto/includes/appliesto-olkallapp-md.md)]
 
 ## Example
- [!code-csharp[Trin_OL_SearchFolder#1](../vsto/codesnippet/CSharp/Trin_OL_SearchFolder/thisaddin.cs#1)]
+ :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_OL_SearchFolder/thisaddin.cs" id="Snippet1":::
 
 ## See also
 - [Work with folders](../vsto/working-with-folders.md)

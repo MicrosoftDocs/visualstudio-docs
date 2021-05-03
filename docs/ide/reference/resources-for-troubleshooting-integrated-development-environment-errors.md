@@ -1,8 +1,8 @@
 ---
-title: Resources for troubleshooting errors
+title: Resources for troubleshooting IDE errors
 description: Learn how to use Knowledge Base articles, forums, or product support to troubleshoot IDE errors that that aren't informative enough to help you resolve a problem.
 ms.custom: SEO-VS-2020
-ms.date: 07/23/2020
+ms.date: 12/18/2020
 ms.topic: troubleshooting
 f1_keywords:
 - VS.Message.0x00005A89
@@ -92,13 +92,13 @@ f1_keywords:
 ms.assetid: 8f866eb5-a206-4c16-807e-96a0f2c0e645
 author: TerryGLee
 ms.author: tglee
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ---
-# Resources for troubleshooting integrated development environment errors
+# Resources for troubleshooting IDE errors
 
-Not all error messages have a specific associated Help topic. If the information in the error message does not help you resolve the problem, you can consult other resources such as Knowledge Base articles, forums, or product support.
+Not all error messages have a specific associated Help topic. If the information in an error message doesn't help you resolve the problem, you can consult other resources such as Knowledge Base articles, forums, or product support.
 
 > [!NOTE]
 > This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Troubleshoot Visual Studio for Mac](/visualstudio/mac/troubleshooting).
@@ -109,9 +109,14 @@ You can search the Knowledge Base (KB) online for articles about product issues.
 
 ## Developer forums
 
-Forums let you interact with other developers, and also Microsoft employees. If you encounter an error that you cannot find a resolution for, you can post questions about the issue on a forum. You can also search the newsgroups to see whether others have posted about the same issue.
+Forums let you interact with other developers, and also Microsoft employees. If you encounter an error that you cannot find a resolution for, you can post questions about the issue on a forum. You can also search the forums to see whether others have posted about the same issue.
 
-You can access forums, blogs, chats, and other resources on the [Microsoft Technical Communities](https://techcommunity.microsoft.com/t5/Communities/ct-p/communities) website.
+Here's a list of forum resources:
+
+- [Visual Studio on Q&A](/answers/products/vs/)
+- [Visual Studio MSDN Forum](https://social.msdn.microsoft.com/Forums/vstudio)
+- [Stack Overflow](https://stackoverflow.com/search?q=%22visual+studio%22)
+- [Reddit](https://www.reddit.com/r/VisualStudio)
 
 ## Product support
 

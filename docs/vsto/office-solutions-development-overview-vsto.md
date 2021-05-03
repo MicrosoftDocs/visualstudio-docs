@@ -1,5 +1,7 @@
 ---
 title: "Office solutions development overview (VSTO)"
+description: Learn how to develop customizations for the familiar Microsoft Office user interfaces and tools such as the word processing features in Word and the data analysis features of Excel.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -10,7 +12,7 @@ helpviewer_keywords:
   - "Office development in Visual Studio, about developing solutions"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

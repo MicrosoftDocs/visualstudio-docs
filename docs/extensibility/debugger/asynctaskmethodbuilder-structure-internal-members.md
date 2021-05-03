@@ -1,4 +1,5 @@
 ---
+description: "This article describes the internal members of the System.Runtime.CompilerServices.AsyncTaskMethodBuilder class."
 title: AsyncTaskMethodBuilder Structure - Internal Members
 titleSuffix: ""
 ms.custom: SEO-VS-2020
@@ -8,9 +9,9 @@ helpviewer_keywords:
 - debug engines, AsyncTaskMethodBuilder structure [.NET Framework]
 - AsyncTaskMethodBuilder structure [.NET Framework debug engines]
 ms.assetid: f32f5857-7ef8-45fd-8b5a-7f644eb98b11
-author: acangialosi
-ms.author: anthc
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
 - vssdk
 ---

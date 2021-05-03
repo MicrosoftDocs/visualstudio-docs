@@ -1,4 +1,5 @@
 ---
+description: "Specifies whether this symbol is a pointer to a member function."
 title: "IDiaSymbol::get_isPointerToMemberFunction | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -7,7 +8,7 @@ dev_langs:
 ms.assetid: aa9b5599-9602-41be-ab50-d84b90bee72f
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

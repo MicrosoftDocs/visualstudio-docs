@@ -5,7 +5,7 @@ ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload: 
   - multiple
 author: mikejo5000
@@ -146,7 +146,7 @@ To use stubs, you must first generate stub types from the interface definitions.
 1. In **Solution Explorer**, 
     - For an older .NET Framework Project (non-SDK style), expand your unit test project's **References** node.
     ::: moniker range=">=vs-2019"
-    - For an SDK-style project targeting .NET Framework or .NET Core, expand the **Dependencies** node to find the assembly you would like to fake under **Assemblies**, **Projects**, or **Packages**.
+    - For an SDK-style project targeting .NET Framework, .NET Core, or .NET 5.0, expand the **Dependencies** node to find the assembly you would like to fake under **Assemblies**, **Projects**, or **Packages**.
     ::: moniker-end
     - If you're working in Visual Basic, select **Show All Files** in the **Solution Explorer** toolbar to see the **References** node.
 

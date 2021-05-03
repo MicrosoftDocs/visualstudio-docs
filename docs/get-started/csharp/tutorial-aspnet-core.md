@@ -3,14 +3,14 @@ title: "Tutorial: Get started with C# and ASP.NET Core"
 titleSuffix: ""
 description: "Learn how to create an ASP.NET Core web app in Visual Studio with C#, step-by-step."
 ms.custom: "seodec18, get-started"
-ms.date: 05/29/2019
+ms.date: 02/12/2021
 ms.technology: vs-ide-general
 ms.prod: visual-studio-windows
 ms.topic: tutorial
 ms.devlang: CSharp
-author: ornellaalt
-ms.author: ornella
-manager: jillfra
+author: j-martens
+ms.author: jmartens
+manager: jmartens
 dev_langs:
   - CSharp
 ms.workload:
@@ -98,18 +98,18 @@ If you don't see the **ASP.NET Core Web Application** project template, you can 
 
 ::: moniker range="vs-2019"
 
-1. On the start window, choose **Create a new project**.
+1. In the start window, choose **Create a new project**.
 
-   ![View the 'Create a new project' window](../../get-started/media/vs-2019/create-new-project-dark-theme.png)
+   :::image type="content" source="../../get-started/media/vs-2019/create-new-project-dark-theme.png" alt-text="View the 'Create a new project' window":::
 
-1. On the **Create a new project** window, enter or type *ASP.NET* in the search box. Next, choose **C#** from the Language list, and then choose **Windows** from the Platform list.
+1. In the **Create a new project** window, choose **C#** from the Language list. Next, choose **Windows** from the Platform list, and **Web** from the project types list.
 
-   After you apply the language and platform filters, choose the **ASP.NET Core Web Application** template, and then choose **Next**.
+      After you apply the language, platform, and project type filters, choose the **ASP.NET Core Web App** template, and then choose **Next**.
 
-   ![Choose the C# template for the ASP.NET Core Web Application](./media/vs-2019/csharp-create-new-project-search-aspnet-core-filtered.png)
+   :::image type="content" source="./media/vs-2019/csharp-create-new-project-aspnet-core.png" alt-text="Choose the C# template for the ASP.NET Core Web App":::
 
    > [!NOTE]
-   > If you don't see the **ASP.NET Core Web Application** template, you can install it from the **Create a new project** window. In the **Not finding what you're looking for?** message, choose the **Install more tools and features** link.
+   > If you don't see the **ASP.NET Core Web App** template, you can install it from the **Create a new project** window. In the **Not finding what you're looking for?** message, choose the **Install more tools and features** link.
    >
    > ![The 'Install more tools and features' link from the 'Not finding what you're looking for' message in the 'Create new project' window](../../get-started/media/vs-2019/not-finding-what-looking-for.png)
    >
@@ -119,15 +119,21 @@ If you don't see the **ASP.NET Core Web Application** project template, you can 
    >
    > After that, choose the **Modify** button in the Visual Studio Installer. If you're prompted to save your work, do so. Next, choose **Continue** to install the workload. Then, return to step 2 in this "[Create a project](#create-a-project)" procedure.
 
-1. In the **Configure your new project** window, type or enter *MyCoreApp* in the **Project name** box. Then, choose **Create**.
+1. In the **Configure your new project** window, type or enter *MyCoreApp* in the **Project name** box. Then, choose **Next**.
 
-   ![in the 'Configure your new project' window, name your project 'MyCoreApp'](./media/vs-2019/csharp-name-your-aspnet-mycoreapp-project.png)
+   :::image type="content" source="./media/vs-2019/csharp-name-your-aspnet-app.png" alt-text="in the 'Configure your new project' window, name your project 'MyCoreApp'":::
 
-1. In the **Create a new ASP.NET Core Web Application** window, verify that **ASP.NET Core 3.0** appears in the top drop-down menu. Then, choose **Web Application**, which includes example Razor Pages. Next, choose  **Create**.
+1. In the **Additional information** window, verify that **.NET Core 3.1** appears in the top drop-down menu. Note that you can choose to enable Docker support by checking the box. You can also add authentication support by clicking the change Authentication button. From there you can choose from:
+    - None: no authentication.
+    - Individual accounts: these are stored in a local or Azure-based database.
+    - Microsoft identity platform: this option uses Active Directory, Azure AD, or Microsoft 365 for authentication.
+    - Windows: suitable for intranet applications.
+    
+    Leave the **Enable Docker** box unchecked, and select **None** for Authentication Type. Then, select **Create**.
 
-   ![The 'Create a new ASP.NET Core Web Application' window](./media/vs-2019/csharp-create-aspnet-razor-pages-app.png)
+   :::image type="content" source="./media/vs-2019/aspnet-core-additional-information.png" alt-text="in the 'Additional information' window, make sure .NET Core 3.1 is selected and leave all defaults":::
 
-   Visual Studio opens your new project.
+   Visual Studio will open up your new project.
 
 ::: moniker-end
 
@@ -148,7 +154,7 @@ This solution follows the **Razor Page** design pattern. It's different than the
 
  1. View the **About.cshtml** file in the code editor.
 
-     ![View the About.cshtml file in the Visual Studio code editor](media/csharp-aspnet-razor-aboutcshtml-mycoreapp-code.png)
+     ![Screenshot showing the first ten lines of the About.cshtml file in the Visual Studio code editor.](media/csharp-aspnet-razor-aboutcshtml-mycoreapp-code.png)
 
  1. Choose the **About.cshtml.cs** file.
 
@@ -156,7 +162,7 @@ This solution follows the **Razor Page** design pattern. It's different than the
 
  1. View the **About.cshtml.cs** file in the code editor.
 
-     ![View the About.cshtml file in the Visual Studio code editor](media/csharp-aspnet-razor-aboutcshtmlcs-mycoreapp-code.png)
+     ![Screenshot showing the first 18 lines of the About.cshtml.cs file in the Visual Studio code editor. ](media/csharp-aspnet-razor-aboutcshtmlcs-mycoreapp-code.png)
 
  1. The project contains a **wwwroot** folder that is the root for your website. Expand the folder to view its contents.
 
@@ -345,7 +351,7 @@ Here's a quick FAQ to highlight some key concepts.
 
 ### What is C#?
 
-[C#](/dotnet/csharp/getting-started/introduction-to-the-csharp-language-and-the-net-framework) is a type-safe and object-oriented programming language that's designed to be both robust and easy to learn.
+[C#](https://docs.microsoft.com/dotnet/csharp/tour-of-csharp/) is a type-safe and object-oriented programming language that's designed to be both robust and easy to learn.
 
 ### What is ASP.NET Core?
 

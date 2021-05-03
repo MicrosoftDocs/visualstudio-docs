@@ -1,5 +1,7 @@
 ---
 title: Install the Stand-Alone Profiler | Microsoft Docs
+description: Learn how to install the stand-alone profiler, which can run without Visual Studio installed. There are situations where Visual Studio should not be installed.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords: 
@@ -8,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: cae81c95-83cd-4ab6-8a98-84ef977a2f6d
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 monikerRange: 'vs-2017'
 ms.workload: 
   - multiple

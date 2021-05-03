@@ -1,5 +1,6 @@
 ---
 title: Collect detailed timing data using instrumentation
+description: Use the Profiling Tools instrumentation method for detailed timing information about a section of your code, and to understand the impact of I/O operations.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: e9deb370-c459-45ac-84d3-14d646590d05
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 monikerRange: 'vs-2017'
 ms.workload: 
   - multiple

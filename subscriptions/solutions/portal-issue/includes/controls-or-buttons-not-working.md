@@ -1,5 +1,5 @@
 ---
-title: Controls or buttons are not working.
+title: Controls or buttons are not working
 description: Controls or buttons are not working in the Visual Studio subscription portal.
 ms.topic: include
 ms.assetid: 33b1aa45-b2fc-4c00-9862-3d1281d28fa2
@@ -9,7 +9,7 @@ ms.date: 08/14/2020
 user.type: subscriber
 tags: portal-error
 subscription.type: vl, cloud, retail, partner
-sap.id: 17a2bf94-0d03-2629-dfd8-e8935f9126ec
+sap.id: 8250612f-7446-20c5-7473-16d089f2280d
 ---
 
 ## We're sorry to hear that you're experiencing an issue with controls or buttons while using the Visual Studio subscriptions portal. 

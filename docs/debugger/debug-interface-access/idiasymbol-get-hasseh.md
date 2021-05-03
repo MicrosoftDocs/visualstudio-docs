@@ -1,4 +1,5 @@
 ---
+description: "Retrieves a flag that specifies whether the function contains any Structured Exception Handling (C/C++)) (for example, _try/__except blocks)."
 title: "IDiaSymbol::get_hasSEH | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 1a709ded-22c8-464c-97be-eba5e464210c
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

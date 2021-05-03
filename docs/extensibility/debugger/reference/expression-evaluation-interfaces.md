@@ -1,13 +1,14 @@
 ---
+description: "The following are the Expression Evaluation Interfaces for the Visual Studio Debugging SDK."
 title: Expression Evaluation Interfaces | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - expression evaluation, interfaces
 ms.assetid: 2d259f60-2cd7-460e-b02d-24a8fb202850
-author: acangialosi
-ms.author: anthc
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
 - vssdk
 ---

@@ -1,5 +1,7 @@
 ---
 title: Validation in a Domain-Specific Language
+description: Learn how you can define validation constraints to verify that the model created by the user is meaningful.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -7,7 +9,7 @@ helpviewer_keywords:
 - Domain-Specific Language, validation
 author: JoshuaPartlow
 ms.author: joshuapa
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ---

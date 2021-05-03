@@ -1,4 +1,5 @@
 ---
+description: "IDiaFrameData::get_allocatesBasePointer retrieves a flag that indicates whether the base pointer is allocated for code in this address range."
 title: "IDiaFrameData::get_allocatesBasePointer | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 8a33db5d-008c-4fe5-b64f-210c9b77f686
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

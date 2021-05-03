@@ -1,5 +1,7 @@
 ---
 title: "How to: Programmatically move items in Outlook"
+description: Learn how you can programmatically move items in Microsoft Outlook. This example moves unread e-mail messages from the Inbox to a folder named Test.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:
@@ -9,7 +11,7 @@ helpviewer_keywords:
   - "Outlook folders [Office development in Visual Studio], moving items"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---
@@ -19,7 +21,7 @@ ms.workload:
  [!INCLUDE[appliesto_olkallapp](../vsto/includes/appliesto-olkallapp-md.md)]
 
 ## Example
- [!code-csharp[Trin_OL_MoveItems#1](../vsto/codesnippet/CSharp/Trin_OL_MoveItems/thisaddin.cs#1)]
+ :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_OL_MoveItems/thisaddin.cs" id="Snippet1":::
 
 ## Compile the code
  This example requires:

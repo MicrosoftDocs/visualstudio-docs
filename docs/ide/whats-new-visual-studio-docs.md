@@ -1,15 +1,15 @@
 ---
-title: "Visual Studio docs: What's new for November 2020 "
+title: "Visual Studio docs: What's new for March 2021"
 titleSuffix: ""
-description: "What's new in the Visual Studio docs for November 2020."
-ms.date: 12/04/2020
+description: "What's new in the Visual Studio docs for March 2021."
+ms.date: 04/02/2021
 helpviewer_keywords:
   - "Visual Studio, what's new, docs"
   - "what's new [Visual Studio]"
 ms.assetid: 89844796-621B-4EF5-9D76-197084B011CB
 author: JoshuaPartlow
 ms.author: joshuapa
-manager: jillfra
+manager: jmartens
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
 ms.topic: conceptual
@@ -17,159 +17,208 @@ ms.workload:
   - "multiple"
 ---
 
-# Visual Studio docs: What's new for November 2020
+# Visual Studio docs: What's new for March 2021
 
-Welcome to what's new in the Visual Studio docs for November 2020. This article lists some of the major changes to docs during this period. For information about what was new in previous months, see the [what's new history](whats-new-visual-studio-docs-history.md) article.
+Welcome to what's new in the Visual Studio docs for March 2021. This article lists some of the major changes to docs during this period. For information about what was new in previous months, see the [what's new history](whats-new-visual-studio-docs-history.md) article.
 
 ## Code quality
 
-**New articles**
-
-- [Enable or install .NET analyzers](../code-quality/install-net-analyzers.md) - Add documentation to migrate from FxCop analyzers to .NET analyzers
-- [Migrate from FxCop analyzers to .NET analyzers](../code-quality/migrate-from-fxcop-analyzers-to-net-analyzers.md) - Add documentation to migrate from FxCop analyzers to .NET analyzers
-- [Migrate from legacy analysis (FxCop) to source analysis (.NET analyzers)](../code-quality/migrate-from-legacy-analysis-to-net-analyzers.md) - Add documentation to migrate from FxCop analyzers to .NET analyzers
-- [Frequently asked questions about legacy FxCop and .NET analyzers](../code-quality/net-analyzers-faq.md) - Add documentation to migrate from FxCop analyzers to .NET analyzers
-
 **Updated articles**
 
-- [Code analysis FAQ](../code-quality/analyzers-faq.md) - Added documentation to migrate from FxCop analyzers to .NET analyzers
-- [Fxcop rule port status](../code-quality/fxcop-rule-port-status.md) - Added documentation to migrate from FxCop analyzers to .NET analyzers
-- [Deprecated rules](../code-quality/fxcop-unported-deprecated-rules.md) - Added documentation to migrate from FxCop analyzers to .NET analyzers
-- [Unported rules that may be ported](../code-quality/fxcop-unported-rules-may-get-ported.md) - Added documentation to migrate from FxCop analyzers to .NET analyzers
-- [Unported rules](../code-quality/fxcop-unported-rules.md) - Added documentation to migrate from FxCop analyzers to .NET analyzers
-- [Install third-party analyzers](../code-quality/install-roslyn-analyzers.md) - Added documentation to migrate from FxCop analyzers to .NET analyzers
-- [Overview](../code-quality/use-roslyn-analyzers.md) - Added documentation to migrate from FxCop analyzers to .NET analyzers
+- [How to: Run legacy code analysis manually for managed code](../code-quality/how-to-run-legacy-code-analysis-manually-for-managed-code.md) - Confirm merge from working branch
+- [Enable or install first-party .NET analyzers](../code-quality/install-net-analyzers.md) - GitHub issue fixes
 
 ## Containers
 
 **Updated articles**
 
-- [How Bridge to Kubernetes works](../containers/overview-bridge-to-kubernetes.md) - Kubernetes permissions section
+- [Use Bridge to Kubernetes](../containers/bridge-to-kubernetes.md) - Bridge to Kubernetes: Use .NET todo-app sample
+- [Docker Compose build properties](../containers/docker-compose-properties.md) - Adding ComposeProjectName
+- [How Bridge to Kubernetes works](../containers/overview-bridge-to-kubernetes.md) - Bridge to Kubernetes: Update Limitations section
+- [Tutorial: Create a multi-container app with Docker Compose](../containers/tutorial-multicontainer.md) - Container Tools multicontainer tutorial: fix image link
 
 ## Debugger
 
-**New articles**
-
-- [Attach to a process running on a Docker container](../debugger/attach-to-process-running-in-docker-container.md) - Refactor attach to process docs for Linux scenarios
-
 **Updated articles**
 
-- [Attach to running processes with the Visual Studio debugger](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md) - Refactor attach to process docs for Linux scenarios
-- [Debug .NET Core on Linux using SSH by attaching to a process](../debugger/remote-debugging-dotnet-core-linux-with-ssh.md) - Refactor attach to process docs for Linux scenarios
+- [How to: Debug from a DLL project in Visual Studio (C#, C++, Visual Basic, F#)](../debugger/how-to-debug-from-a-dll-project.md) - Refresh how to debug from a DLL
+- [Specify symbol (.pdb) and source files in the Visual Studio debugger (C#, C++, Visual Basic, F#)](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md) - Refresh how to debug from a DLL
+- [C/C++ Assertions](../debugger/c-cpp-assertions.md) - GitHub issue fixes
+- [IDiaDataSource::loadDataForExe](../debugger/debug-interface-access/idiadatasource-loaddataforexe.md) - GitHub issues work
+- [Format specifiers for C++ in the Visual Studio debugger](../debugger/format-specifiers-in-cpp.md) - GitHub issues work
+- [Configure Windows Firewall for remote debugging](../debugger/configure-the-windows-firewall-for-remote-debugging.md) - GitHub issue fixes
+- [Remote Debug ASP.NET on a Remote IIS Computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md) - Updates to remote debugging docs for IIS and Azure
+- [Remote Debug ASP.NET Core on a Remote IIS Computer in Visual Studio](../debugger/remote-debugging-aspnet-on-a-remote-iis-computer.md) - Updates to remote debugging docs for IIS and Azure
+- [Remote Debug ASP.NET Core on IIS in Azure in Visual Studio](../debugger/remote-debugging-azure.md) - Updates to remote debugging docs for IIS and Azure
 
 ## Deployment
 
-**New articles**
+**Updated articles**
 
-- [Deploy a .NET Windows desktop application using ClickOnce](../deployment/quickstart-deploy-using-clickonce-folder.md) - Add quick start of ClickOnce for .NET Windows projects
+- [How to: Publish a WPF application with visual styles enabled](../deployment/how-to-publish-a-wpf-application-with-visual-styles-enabled.md) - Developer Command Prompt and Developer PowerShell
+- [Deploy an app to a folder using Visual Studio](../deployment/quickstart-deploy-to-local-folder.md) - Updates to remote debugging docs for IIS and Azure
+
+## Extensibility
 
 **Updated articles**
 
-- [First look at deployment in Visual Studio](../deployment/deploying-applications-services-and-components.md)
-  - Edit pass
-  - Discoverability and link updates for .NET 5
-- [Deployment in Visual Studio # Required; page title displayed in search results. Include the brand. < 60 chars.](../deployment/index.yml) - Discoverability and link updates for .NET 5
-- [Build ClickOnce applications from the command line](../deployment/building-clickonce-applications-from-the-command-line.md) - Add quick start of ClickOnce for .NET Windows projects
-- [Deploy your app to a folder, IIS, Azure, or another destination](../deployment/deploying-applications-services-and-components-resources.md) - Add quick start of ClickOnce for .NET Windows projects
-- [Deploy an app to a folder using Visual Studio](../deployment/quickstart-deploy-to-local-folder.md) - Add quick start of ClickOnce for .NET Windows projects
-
-## Designers
-
-**Updated articles**
-
-- [Tutorial: Get started with Windows Forms Designer](../designers/walkthrough-windows-forms-designer.md) - Typo corrected
+- [Visual language dictionary](../extensibility/ux-guidelines/visual-language-dictionary-for-visual-studio.md) - add missing Markdown brackets to fix icon rendering error
+- [VisibilityItem element](../extensibility/visibilityitem-element.md) - Confirm merge from working branch
+- [Troubleshooting template installation](../extensibility/troubleshooting-template-discovery.md) - Developer Command Prompt and Developer PowerShell
 
 ## Get started
 
 **Updated articles**
 
-- [Learn about projects and solutions](../get-started/tutorial-projects-solutions.md) - Updated alt text & metadata, as well as added note about Blank Solution template
-- [Tutorial: Open a project from a repo](../get-started/tutorial-open-project-from-repo.md) - Added Note and See Also link for New Git experience
+- [Tutorial: Open a project from a repo](../get-started/tutorial-open-project-from-repo-visual-studio-2019.md)
+  - update topics with side-by-side comparison of Git & Team Explorer link
+  - add sign-in links for more info to the sign-in section
+- [Tutorial: Get started with C# and ASP.NET Core in Visual Studio](../get-started/csharp/tutorial-aspnet-core.md)
+  - Confirm merge from working branch
+  - Update tutorial-aspnet-core.md
 
 ## IDE
 
 **New articles**
-
-- [Work with GitHub accounts in Visual Studio](./work-with-github-accounts.md) - Added working with GitHub page and info about GitHub sign in to other pages
-- [Extract base class](./reference/extract-base-class.md) - Added dotnet productivity features
-- [Inline method](./reference/inline-method.md) - Added dotnet productivity features
-- [Make class abstract](./reference/make-class-abstract.md) - Added dotnet productivity features
-- [Use `new()`](./reference/use-new.md) - Added dotnet productivity features
-- [Use pattern matching](./reference/use-pattern-matching.md) - Added dotnet productivity features
+- [How Visual Studio makes source control easy](../version-control/git-visual-studio-source-control.md) - create new Visual Studio Source Control topic
+- [Developer Command Prompt and Developer PowerShell](./reference/command-prompt-powershell.md) - Developer Command Prompt and Developer PowerShell
+- [Side-by-side comparison of Git and Team Explorer](../version-control/git-team-explorer-feature-comparison.md) - add new side-by-side comparison page of Team Explorer and new Git features
 
 **Updated articles**
 
-- [Git experience in Visual Studio](./git-with-visual-studio.md)
-  - Updated alt text & metadata
-  - Updates to New Git Experience content for 16.8 GA
+- [System-generated logs collected by Visual Studio](./diagnostic-data-collection.md) - Update diagnostic-data-collection.md
+- [Visual Studio Customer Experience Improvement Program](./visual-studio-experience-improvement-program.md) - Update visual-studio-experience-improvement-program.md
+- [Customize project and item templates](./customizing-project-and-item-templates.md) - add links about customizing templates and using the command line
+- [How to: Create project templates](./how-to-create-project-templates.md) - add links about customizing templates and using the command line
+- [Code editor F1 help](./not-in-toc/default-f1-text-editor.md) - Link updates for F1 default pages
+- [F1 help](./not-in-toc/default.md) - Link updates for F1 default pages
+- [Quickstart: Use Visual Studio to create your first Node.js app](./quickstart-nodejs.md) - AngularJS updates
+- [Extract a method refactoring](./reference/extract-method.md) - Update extract-method.md
+- [XAML Designer options page](./reference/xaml-designer.md) - Add information about newly added options inside the XAML designer
 - [What's new in Visual Studio 2019](./whats-new-visual-studio-2019.md)
-  - Updated alt text & metadata
-  - Updated the What's New in Visual Studio 2019 page for 16.8 GA
-- [Connect to projects in Team Explorer](./connect-team-project.md) - Updated the Team Explorer page with new Git experience note & link
-- [Work with multiple user accounts](./work-with-multiple-user-accounts.md) - Added info about GitHub sign in to other pages
-- [C++ EditorConfig formatting conventions](./cpp-editorconfig-properties.md)
-  - Prefix is cpp_, not _cpp__ for C++ .editorconfig settings
-  - Removed incorrect character in C++ .editorconfig example
-- [Convert `typeof` to `nameof`](./reference/convert-typeof-to-nameof.md) - Added dotnet productivity features
+  - add Intelligent Search Service info
+  - add new CSharp 9 link to See Also
+- [Developer Command Prompt and Developer PowerShell](./reference/command-prompt-powershell.md)
+  - Update feature titles and remove prereqs section
+  - Update heading hierarchy
+  - Developer Command Prompt and Developer PowerShell
+- [Connect to projects in Team Explorer](./connect-team-project.md) - update topics with side-by-side comparison of Git & Team Explorer link
+- [Git experience in Visual Studio](./git-with-visual-studio.md)
+  - add Azure DevOps to existing remote statement
+  - add new side-by-side comparison page of Team Explorer and new Git features
+  - -b argument missing in git-with-visual-studio.md
+- [Default keyboard shortcuts in Visual Studio](./default-keyboard-shortcuts-in-visual-studio.md) - add missing Set Breakpoint Conditions keyboard shortcut
+- [User permissions and Visual Studio](./user-permissions-and-visual-studio.md) - add procedure to set Admin perms on the shortcut
+- [Generate Equals and GetHashCode method overrides in Visual Studio](./reference/generate-equals-gethashcode-methods.md)
+  - reduce screenshot size and add minor edit to an instruction
+  - add code to pair with screenshots
+- [Use regular expressions in Visual Studio](./using-regular-expressions-in-visual-studio.md) - fix wrong regex
+- [Troubleshoot and create logs for MSBuild problems](./msbuild-logs.md) - Confirm merge from working branch
+- [Customize build and debug tasks for Open Folder development](./customize-build-and-debug-tasks-in-visual-studio.md) - Developer Command Prompt and Developer PowerShell
+- [Visual Studio productivity guide for C# developers](./csharp-developer-productivity.md) - update code inspection extension list for VS2019
 
 ## Install
+
+**New articles**
+- [Applying administrator updates that use Microsoft Endpoint Configuration Manager](../install/applying-administrator-updates.md) - Created new content about applying administrator updates
+- [Enabling administrator updates to Visual Studio with Microsoft Endpoint Configuration Manager](../install/enabling-administrator-updates.md) - Created new content about enabling administrator updates
 
 **Updated articles**
 
 - [Visual Studio build numbers and release dates](../install/visual-studio-build-numbers-and-release-dates.md)
-  - Added 16.8.2 data
-  - Added 16.8.1
-  - Updated build numbers for 16.8 GA and more
-- [Visual Studio images on Azure](../install/using-visual-studio-vm.md) - Changed published date and updated minor revision versions
-- [Visual Studio workload and component IDs](../install/workload-and-component-ids.md) - Updated component docs for 16.8
-- [Visual Studio Build Tools component directory](../install/workload-component-id-vs-build-tools.md) - Updated component docs for 16.8
-- [Visual Studio Community component directory](../install/workload-component-id-vs-community.md) - Updated component docs for 16.8
-- [Visual Studio Enterprise component directory](../install/workload-component-id-vs-enterprise.md) - Updated component docs for 16.8
-- [Visual Studio Team Explorer component directory](../install/workload-component-id-vs-team-explorer.md) - Updated component docs for 16.8
-- [Visual Studio Test Agent component directory](../install/workload-component-id-vs-test-agent.md) - Updated component docs for 16.8
-- [Visual Studio Test Controller component directory](../install/workload-component-id-vs-test-controller.md) - Updated component docs for 16.8
-- [Install and use Visual Studio and Azure Services behind a firewall or proxy server](../install/install-and-use-visual-studio-behind-a-firewall-or-proxy-server.md) - Added missing domain
+  - Update visual-studio-build-numbers-and-release-dates.md
+  - add 16.9.2 release data
+  - Patch Tuesday updates
+  - update date of build numbers page
+  - build numbers for 16.9 GA and 16.10 Preview 1
+  - Update for new releases
+- [Create an offline installation of Visual Studio](../install/create-an-offline-installation-of-visual-studio.md) - Admin update doc edits
+- [Install certificates required for Visual Studio offline installation](../install/install-certificates-for-visual-studio-offline.md) - Admin update doc edits
+- [Install Visual Studio versions side-by-side](../install/install-visual-studio-versions-side-by-side.md) - Admin update doc edits
+- [Install and use Visual Studio and Azure Services behind a firewall or proxy server](../install/install-and-use-visual-studio-behind-a-firewall-or-proxy-server.md) - Updated article.
 
-## MSBuild
-
-**New articles**
-
-- [Change waves](../msbuild/change-waves.md) - MSBuild: Change waves new topic
+## JavaScript
 
 **Updated articles**
 
-- [Property functions](../msbuild/property-functions.md) - Release 16.8
-- [Common MSBuild project items](../msbuild/common-msbuild-project-items.md) - Restores content for InternalsVisibleTo item
+- [JavaScript and TypeScript in Visual Studio # Required; page title displayed in search results. Include the brand. < 60 chars.](../javascript/index.yml) - AngularJS updates
+- [Quickstart: Use Visual Studio to create your first Vue.js app](../javascript/quickstart-vuejs-with-nodejs.md) - AngularJS updates
+- [Tutorial: Create an ASP.NET Core app with TypeScript in Visual Studio](../javascript/tutorial-aspnet-with-typescript.md)
+  - AngularJS updates
+  - visualstudio-docs/issues/6457 -- missing version
+- [Tutorial: Create a Node.js and Express app in Visual Studio](../javascript/tutorial-nodejs.md) - AngularJS updates
+- [Learn to use the code editor for JavaScript](../javascript/write-and-edit-code.md) - AngularJS updates
+- [Unit testing JavaScript and TypeScript in Visual Studio](../javascript/unit-testing-javascript-with-visual-studio.md)
+  - Unit tests for ASP.NET Core and TypeScript
+  - Developer Command Prompt and Developer PowerShell
+  - GitHub issue fixes
+- [Manage npm packages in Visual Studio](../javascript/npm-package-management.md) - GitHub issue fixes
+
+## MSBuild
+
+**Updated articles**
+
+- [How MSBuild builds projects](../msbuild/build-process-overview.md) - Fix bad element name.
+- [CreateCSharpManifestResourceName task](../msbuild/createcsharpmanifestresourcename-task.md) - fix incorrect cross-referencing typo
+- [How to: Extend the Visual Studio build process](../msbuild/how-to-extend-the-visual-studio-build-process.md) - Fix XML indentation
+- [MIDL task](../msbuild/midl-task.md) - Update midl-task.md
+- [Common MSBuild project items](../msbuild/common-msbuild-project-items.md) - Add in-article toc and improve formatting
+- [Item element (MSBuild)](../msbuild/item-element-msbuild.md) - Add in-article toc and improve formatting
+- [Exec task](../msbuild/exec-task.md) - Add doc for Utf8Encoding parameter
 
 ## Profiling
 
 **Updated articles**
 
-- [Measure application performance from the command line](../profiling/profile-apps-from-command-line.md) - Updating profiling from the command line docs
+- [Measure application performance from the command line](../profiling/profile-apps-from-command-line.md) - GitHub issue fixes
+- [First look at profiling tools](../profiling/profiling-feature-tour.md) - Discovery work for .NET Counters tool
+
+## Python
+
+**Updated articles**
+
+- [Tutorial: Get started with the Flask web framework in Visual Studio](../python/learn-flask-visual-studio-step-01-project-solution.md)
+  - Updated code and text about query parameters
+  - Removed Polls template content from Visual Studio 2019 Python tutorials
+- [Tutorial: Get started with the Django web framework in Visual Studio](../python/learn-django-in-visual-studio-step-01-project-and-solution.md) - Removed Polls template content from Visual Studio 2019 Python tutorials
+- [Step 5: Authenticate users in Django](../python/learn-django-in-visual-studio-step-05-django-authentication.md) - Removed Polls template content from Visual Studio 2019 Python tutorials
+- [Step 6: Use the Polls Django Web Project template](../python/learn-django-in-visual-studio-step-06-polls-django-web-project-template.md) - Removed Polls template content from Visual Studio 2019 Python tutorials
+- [Step 4: Use the full Flask Web Project template](../python/learn-flask-visual-studio-step-04-full-flask-project-template.md) - Removed Polls template content from Visual Studio 2019 Python tutorials
+- [Step 5: Use the Polls Flask Web Project template](../python/learn-flask-visual-studio-step-05-polls-flask-web-project-template.md) - Removed Polls template content from Visual Studio 2019 Python tutorials
+- [Django web project template](../python/python-django-web-application-project-template.md) - Removed Polls template content from Visual Studio 2019 Python tutorials
+- [Python web application project templates](../python/python-web-application-project-templates.md) - Removed Polls template content from Visual Studio 2019 Python tutorials
+- [Install debugging symbols for Python interpreters](../python/debugging-symbols-for-mixed-mode-c-cpp-python.md) - Add the last 3 releases of Python 2.7
 
 ## Test
 
-**Updated articles**
+**New articles**
 
-- [Run unit tests with Test Explorer](../test/run-unit-tests-with-test-explorer.md) - Added a short section on playlist xml format
-- [Isolate code under test with Microsoft Fakes](../test/isolating-code-under-test-with-microsoft-fakes.md) - Updated Documentation with .NET Core support
-- [Use shims to isolate your app for unit testing](../test/using-shims-to-isolate-your-application-from-other-assemblies-for-unit-testing.md) - Updated Documentation with .NET Core support
-
-## XAML tools
+- [Upgrade from  *.testsettings* to *.runsettings*](../test/migrate-testsettings-to-runsettings.md) - add migrate to runsettings doc
+- [Upgrade from MSTestV1 to MSTestV2](../test/mstest-update-to-mstestv2.md) - Add doc on upgrading from MSTestV1 to MSTestv2
 
 **Updated articles**
 
-- [Use Design Time Data with the XAML Designer in Visual Studio](../xaml-tools/xaml-designtime-data.md)
-  - Updated the Requirements section for 16.8 GA
-  - Modified the Requirements Section
-  - Update 16.8 Preview comment + link to GA
+- [Create unit test method stubs from code](../test/create-unit-tests-menu.md) - visualstudio-docs/issues/6484 -- update link
+- [First look at testing tools in Visual Studio](../test/improve-code-quality.md) - visualstudio-docs/issues/6429 -- update lab links
+- [Configure unit tests by using a *.runsettings* file](../test/configure-unit-tests-by-using-a-dot-runsettings-file.md)
+  - Developer Command Prompt and Developer PowerShell
+  - Fixed typos
+- [VSTest.Console.exe command-line options](../test/vstest-console-options.md) - Developer Command Prompt and Developer PowerShell
 
 ## Community contributors
 
 The following people contributed to the Visual Studio docs during this period. Thank you! Learn how to contribute to the Visual Studio docs by following the guidance in the [Contributor Guide](/contribute/).
 
-- [alexvy86](https://github.com/alexvy86) - Alex Villarreal (1)
-- [andyrosa2](https://github.com/andyrosa2) (1)
-- [b099l3](https://github.com/b099l3) - Iain Smith (1)
-- [hyoshioka0128](https://github.com/hyoshioka0128) - Hiroshi Yoshioka (1)
-- [MrCull](https://github.com/MrCull) - Mark (1)
+- [AndreKraemer](https://github.com/AndreKraemer) - Andre Kraemer (1)
+- [Bouke](https://github.com/Bouke) - Bouke Haarsma (1)
+- [Chandankkrr](https://github.com/Chandankkrr) - Chandan Rauniyar (1)
+- [glenn-slayden](https://github.com/glenn-slayden) - Glenn Slayden (1)
+- [grossag](https://github.com/grossag) - Adam Gross (1)
+- [icnocop](https://github.com/icnocop) - Rami (1)
+- [mookid](https://github.com/mookid) - Nathan Moreau (1)
+- [nebuk89](https://github.com/nebuk89) - Ben De St Paer-Gotch (1)
+- [stanciuadrian](https://github.com/stanciuadrian) - Adrian Stanciu (1)
+- [stegrams](https://github.com/stegrams) - Stefanos Grammenos (1)
+- [tanpuresiddhant](https://github.com/tanpuresiddhant) (1)
+- [WilheimRy](https://github.com/WilheimRy) (1)
+- [xh286286](https://github.com/xh286286) (1)

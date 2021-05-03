@@ -1,11 +1,11 @@
 ---
 title: Introduction to editing for JavaScript developers
 description: This introduction to the code editor in Visual Studio shows some of the ways that Visual Studio makes writing, navigating, and understanding JavaScript code easier.
-ms.date: 12/13/2018
+ms.date: 03/25/2021
 ms.topic: how-to
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 dev_langs:
   - JavaScript
 ms.workload:
@@ -34,15 +34,15 @@ You can use the IDE to add new files to your project.
 
 IntelliSense is an invaluable resource when you're coding. It can show you information about available members of a type, or parameter details for different overloads of a method. In the following code, when you type `Router()`, you see the argument types that you can pass. This is called signature help.
 
-![Use IntelliSense](../javascript/media/write-code-signature-checking.png)
+![Screenshot of a Visual Studio code window with JavaScript code being entered. IntelliSense information is shown for the Router() function.](../javascript/media/write-code-signature-checking.png)
 
 You can also use IntelliSense to complete a word after you type enough characters to disambiguate it. If you put your cursor after the `data` string in the following code and type `get`, IntelliSense will show you functions defined earlier in the code or defined in a third-party library that you've added to your project.
 
-![Use IntelliSense](../javascript/media/write-code-intellisense.png)
+![Screenshot of a Visual Studio code window with the word 'get' being entered. IntelliSense information is shown for all functions beginning with 'get'.](../javascript/media/write-code-intellisense.png)
 
 IntelliSense can also show you information about types when you hover over programming elements.
 
-To provide IntelliSense information, the language service can use TypeScript *d.ts* files and JSDoc comments. For most common JavaScript libraries, *d.ts* files are automatically acquired. For more details about how IntelliSense information is acquired, see [JavaScript IntelliSense](../ide/javascript-intellisense.md?toc=/visualstudio/javascript/toc.json)
+To provide IntelliSense information, the language service can use TypeScript *d.ts* files and JSDoc comments. For most common JavaScript libraries, *d.ts* files are automatically acquired. For more details about how IntelliSense information is acquired, see [JavaScript IntelliSense](../ide/javascript-intellisense.md?toc=/visualstudio/javascript/toc.json). If you are interested in AngularJS programming in Visual Studio, you can use the [AngularJS language service extension](https://devblogs.microsoft.com/visualstudio/angular-language-service-for-visual-studio) for Visual Studio to get IntelliSense.
 
 ## Check syntax
 

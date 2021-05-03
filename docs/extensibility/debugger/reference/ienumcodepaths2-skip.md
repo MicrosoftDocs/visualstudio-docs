@@ -1,4 +1,5 @@
 ---
+description: "Skips over the specified number of elements in the code paths enumeration."
 title: IEnumCodePaths2::Skip | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference
@@ -7,9 +8,9 @@ f1_keywords:
 helpviewer_keywords:
 - IEnumCodePaths2::Skip
 ms.assetid: 356472d8-68b2-4b7e-b5f0-1f16d4ee80af
-author: acangialosi
-ms.author: anthc
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:

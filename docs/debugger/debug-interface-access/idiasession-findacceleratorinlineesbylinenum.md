@@ -1,4 +1,5 @@
 ---
+description: "Returns an enumeration of symbols for inline frames that correspond to the specified source location."
 title: "IDiaSession::findAcceleratorInlineesByLinenum | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -7,7 +8,7 @@ dev_langs:
 ms.assetid: 386c87aa-f7b2-4d38-9dd6-fffba9ff01f0
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

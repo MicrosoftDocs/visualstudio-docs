@@ -10,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: a8a0b97e-8040-4711-85ab-36548b130ed2
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ---
 # How to: Add context parameters to a load test run setting
 

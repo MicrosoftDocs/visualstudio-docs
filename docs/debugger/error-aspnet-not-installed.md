@@ -1,4 +1,5 @@
 ---
+description: "This error occurs when ASP.NET is not installed correctly on the computer that you are trying to debug."
 title: "ASP.NET not installed"
 ms.date: "11/04/2016"
 ms.topic: "error-reference"
@@ -16,7 +17,7 @@ helpviewer_keywords:
   - "ASP.NET, installation error messages"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "aspnet"
 ---

@@ -1,4 +1,5 @@
 ---
+description: "Retrieves a specified number of section contributions in the enumeration sequence."
 title: "IDiaEnumSectionContribs::Next | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: a6bb2adb-ee6d-4f3c-ab5b-e89361c8880e
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

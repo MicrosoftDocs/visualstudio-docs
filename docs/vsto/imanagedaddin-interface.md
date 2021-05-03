@@ -1,5 +1,6 @@
 ---
 title: "IManagedAddin interface"
+description: "Implement the IManagedAddin interface to create a component that loads managed VSTO Add-ins."
 ms.date: "02/02/2017"
 ms.topic: "interface"
 dev_langs:
@@ -9,7 +10,7 @@ helpviewer_keywords:
   - "IManagedAddin interface"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

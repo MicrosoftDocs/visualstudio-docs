@@ -1,5 +1,6 @@
 ---
 title: "Kerberos Authentication Failed | Microsoft Docs"
+description: "This error occurs when the Visual Studio Remote Debugging Monitor is running under the Local System or Network Service account."
 ms.date: "11/04/2016"
 ms.topic: "error-reference"
 f1_keywords:
@@ -11,7 +12,7 @@ dev_langs:
   - "C++"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

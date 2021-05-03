@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the slot number of the location."
 title: "IDiaSymbol::get_slot | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 97e405b8-483f-4da0-91e7-ca4d88251ecd
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

@@ -1,4 +1,5 @@
 ---
+description: "You can identify keyboard shortcuts for Visual Studio commands, customize those shortcuts, and export them for others to use."
 title: Identify and customize keyboard shortcuts
 ms.date: 11/04/2016
 ms.topic: how-to
@@ -14,7 +15,7 @@ helpviewer_keywords:
 - exporting shortcut keys [Visual Studio]
 author: TerryGLee
 ms.author: tglee
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ---

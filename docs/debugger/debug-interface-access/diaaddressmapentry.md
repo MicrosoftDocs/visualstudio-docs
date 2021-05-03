@@ -1,4 +1,5 @@
 ---
+description: "Describes an entry in an address map."
 title: "DiaAddressMapEntry | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 5d0ae226-981d-4541-a801-fc4993fe663b
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

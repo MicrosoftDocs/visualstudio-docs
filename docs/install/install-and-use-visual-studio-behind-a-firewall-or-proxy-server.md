@@ -10,9 +10,9 @@ helpviewer_keywords:
 - installing Visual Studio, administrator guide
 - list of domains, locations, URLs
 ms.assetid:
-author: ornellaalt
-ms.author: ornella
-manager: jillfra
+author: j-martens
+ms.author: jmartens
+manager: jmartens
 ms.workload:
 - multiple
 ms.prod: visual-studio-windows
@@ -107,8 +107,8 @@ To make sure that you have access to everything you want when you use Visual Stu
 | Office web <br>add-in <br> Manifest <br>Verification <br>Service | verificationservice.osi.office.net | https/443 | Used to validate manifests for Office web add-ins |
 | SharePoint and <br>Office Add-ins | sharepoint.com<br> microsoft.com/microsoft-365<br> microsoftonline.com <br> outlook.com | https/443 | Used to publish and test SharePoint and Office Add-ins to SharePoint Online and Microsoft 365 |
 | Workflow Manager <br>Test Service<br> Host | | http/12292 | A firewall rule that is created automatically for testing SharePoint add-ins with workflows |
-| Automatically collected <br>reliability statistics <br>and other <br>Customer Experience <br>Improvement Programs (CEIP)<br> for Azure SDK and <br>for SQL Tools <br><br> | vortex.data.microsoft.com<br> <br>dc.services.visualstudio.com | https/443 | Used to send reliability statistics (crash/unresponsive data) from the user to Microsoft. Actual crash/unresponsive dumps will still be uploaded if Windows Error Reporting is enabled; only statistical information will be suppressed; <br>Used to reveal anonymous usage patterns for the Azure Tools SDK extension to Visual Studio, and for usage patterns for the SQL tooling to Visual Studio |
-| Visual Studio <br> Customer Experience <br>Improvement Program (CEIP) <br><br>PerfWatson.exe | vortex.data.microsoft.com<br>dc.services.visualstudio.com<br>visualstudio-devdiv-c2s.msedge.net<br>az667904.vo.msecnd.net <br>scus-breeziest-in.cloudapp.net<br> | https/443 | Used to collect anonymous usage patterns and error logs <br><br>Used to track UI freeze issues |
+| Automatically collected <br>reliability statistics <br>and other <br>Customer Experience <br>Improvement Programs (CEIP)<br> for Azure SDK and <br>for SQL Tools <br><br> | vortex.data.microsoft.com<br> <br>dc.services.visualstudio.com | https/443 | Used to send reliability statistics (crash/unresponsive data) from the user to Microsoft. Actual crash/unresponsive dumps will still be uploaded if Windows Error Reporting is enabled; only statistical information will be suppressed; <br>Used to reveal usage patterns for the Azure Tools SDK extension to Visual Studio, and for usage patterns for the SQL tooling to Visual Studio |
+| Visual Studio <br> Customer Experience <br>Improvement Program (CEIP) <br><br>PerfWatson.exe | vortex.data.microsoft.com<br>dc.services.visualstudio.com<br>visualstudio-devdiv-c2s.msedge.net<br>az667904.vo.msecnd.net <br>scus-breeziest-in.cloudapp.net<br> | https/443 | Used to collect usage patterns and error logs <br><br>Used to track UI freeze issues |
 | Creation and<br>Management of <br>Azure resources | management.azure.com <br>management.core.windows.net | https/443 | Used for creating Azure Websites or other resources to support the publishing of web applications, Azure Functions, or WebJobs |
 | Updated web publish tooling <br>checks and extension <br>recommendations | marketplace.visualstudio.com | https/443 | Used for checking for the availability of updated publish tooling. If disabled, a potential recommended extension for web publishing may not be shown |
 | Updated Azure Resource <br>Creation Endpoint Information | \*.blob.core.windows.net | https/443 | Used to update the endpoints used for the creation of Azure Resources for certain Azure Services. If disabled, the last downloaded or built in endpoint locations are used instead |
@@ -135,6 +135,7 @@ To make sure that you have access to everything you want when you use Visual Stu
 | Debugger | 1. <br>vsdebugger.blob.core.windows.net <br>vsdebugger.azureedge.net <br><br>2. <br>download.visualstudio.com/\*/<br/>onecore.msvsmon.\*.zip<br><br> 3. referencesource.microsoft.com/symbols <br><br> 4. <br>symbols.nuget.org/download/symbols<br><br> 5. visualstudio.com<br><br>6. msdl.microsoft.com/download/symbols | https/443 | 1. <br>Used for downloading debugger bits for .NET Core debugging on Unix / macOS over SSH <br><br>2. <br>Used for downloading debugger bits for remote Windows Docker container debugging<br><br> 3. Used for .NET framework source stepping <br><br> 4. <br>(If user opts-in) Used for downloading symbols published to nuget.org symbol server.<br><br> 5. (If user opts-in) Used for downloading MS symbols and binaries, might also be needed for debugging managed code in dumps |
 | GitHub Codespaces| \*.online.visualstudio.com | https/443 | Used to call GitHub Codespaces APIs |
 | Xamarin Android App Publishing | \*.googleapis.com <br/> play.google.com <br/>accounts.google.com | https/443 | Used to interact with Google Play Store service to publish/upload Xamarin Android Applications directly from Visual Studio. |
+| Visual Studio Search Service | data-ai.microsoft.com/search | https/443 | Used to provide AI-enabled Visual Studio Search Service in `Ctrl+Q` search box |
 | Azure Container Registry | *.azurecr.io | https/443 | Access container registries hosted on Azure, for configuration of CICD pipelines |
 | | | | |
 
@@ -149,7 +150,7 @@ We offer an [**installation chat**](https://visualstudio.microsoft.com/vs/suppor
 Here are a few more support options:
 
 * Report product issues to us via the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio.md) tool that appears both in the Visual Studio Installer and in the Visual Studio IDE.
-* Suggest a feature, track product issues, and find answers in the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/).
+* Suggest a feature, track product issues, and find answers in the [Visual Studio Developer Community](https://aka.ms/feedback/suggest?space=8).
 * Use your [GitHub](https://github.com/) account to talk to us and other Visual Studio developers in the [Visual Studio conversation in the Gitter community](https://gitter.im/Microsoft/VisualStudio).
 
 ## See also

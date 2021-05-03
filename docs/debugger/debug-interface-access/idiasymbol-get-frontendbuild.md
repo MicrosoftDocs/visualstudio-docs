@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the front end build number."
 title: "IDiaSymbol::get_frontEndBuild | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: f7dab1c6-112b-4966-baa5-afc976949c76
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

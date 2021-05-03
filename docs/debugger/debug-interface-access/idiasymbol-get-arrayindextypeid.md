@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the array index type identifier of the symbol."
 title: "IDiaSymbol::get_arrayIndexTypeId | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 124f86e2-6f66-4541-87c3-799f435b731e
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

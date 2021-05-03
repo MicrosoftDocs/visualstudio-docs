@@ -1,5 +1,7 @@
 ---
 title: "View threads in the Parallel Stacks window | Microsoft Docs"
+description: Use Parallel Stacks to help debug multithreaded applications. You can view stack information for all threads, and task-centered call stack information.
+ms.custom: SEO-VS-2020
 ms.date: "11/20/2018"
 ms.topic: "conceptual"
 f1_keywords:
@@ -14,7 +16,7 @@ helpviewer_keywords:
 ms.assetid: f50efb78-5206-4803-bb42-426ef8133f2f
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

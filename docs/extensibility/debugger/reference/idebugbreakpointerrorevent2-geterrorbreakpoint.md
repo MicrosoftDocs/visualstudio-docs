@@ -1,4 +1,5 @@
 ---
+description: "Gets an IDebugErrorBreakpoint2 object that describes the reason why a breakpoint was not bound."
 title: IDebugBreakpointErrorEvent2::GetErrorBreakpoint | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference
@@ -7,9 +8,9 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugBreakpointErrorEvent2::GetErrorBreakpoint
 ms.assetid: e5acfd19-ac17-47f3-a31a-b2aa8baca36d
-author: acangialosi
-ms.author: anthc
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:

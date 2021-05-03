@@ -2,13 +2,13 @@
 title: Sign in to Visual Studio
 description: Learn how to sign in to Visual Studio. 
 titleSuffix: ''
-ms.custom: "seodec18, contperfq1"
+ms.custom: "seodec18, contperf-fy21q1"
 ms.date: 09/11/2020
 ms.topic: how-to
 ms.assetid: b9531c25-e4cf-43ae-b331-a9f31a8cd171
-author: ornellaalt
-ms.author: ornella
-manager: jillfra
+author: j-martens
+ms.author: jmartens
+manager: jmartens
 ms.workload:
 - multiple
 ---

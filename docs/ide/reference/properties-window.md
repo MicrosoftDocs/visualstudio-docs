@@ -1,4 +1,5 @@
 ---
+description: "Use this window to view and change the design-time properties and events of selected objects that are located in editors and designers."
 title: Properties Window
 ms.date: 11/04/2016
 ms.topic: reference
@@ -17,7 +18,7 @@ helpviewer_keywords:
 ms.assetid: e6e0fa4f-75c4-4a52-af15-281cd61876ca
 author: TerryGLee
 ms.author: tglee
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ---

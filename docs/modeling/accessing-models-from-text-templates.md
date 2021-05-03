@@ -1,12 +1,14 @@
 ---
 title: Accessing Models from Text Templates
+description: Learn how you can use text templates to create report files, source code files, and other text files that are based on domain-specific language models.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
 - text templates, accessing models
 author: JoshuaPartlow
 ms.author: joshuapa
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ---

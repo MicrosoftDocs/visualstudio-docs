@@ -1,4 +1,5 @@
 ---
+description: "You do not have permission to inspect the process's identity."
 title: "You do not have permission to inspect the process&apos;s identity | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "error-reference"
@@ -9,7 +10,7 @@ dev_langs:
   - "C++"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

@@ -1,5 +1,7 @@
 ---
 title: "Debugging Managed Code | Microsoft Docs"
+description: See common debugging problems and techniques in Visual Studio for managed applications, or apps written in languages targeting the common language runtime.
+ms.custom: SEO-VS-2020
 ms.date: "09/23/2019"
 ms.topic: "conceptual"
 dev_langs:
@@ -13,7 +15,7 @@ helpviewer_keywords:
   - "managed code, debugging"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "dotnet"
 ---

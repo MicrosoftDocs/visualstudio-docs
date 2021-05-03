@@ -1,10 +1,12 @@
 ---
 title: VS Shell deployment
+description: Learn how an isolated shell lets you determine which Visual Studio functionality you need to interact with your DSL and how that solution should appear.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 author: JoshuaPartlow
 ms.author: joshuapa
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ---

@@ -1,5 +1,7 @@
 ---
 title: "Upgrade and migrate Office solutions"
+description: You must upgrade the project to use it in current versions of Visual Studio if you have a Offince project that was created in an earlier version of Visual Studio.
+ms.custom: SEO-VS-2020
 ms.date: "08/14/2019"
 ms.topic: "conceptual"
 dev_langs:
@@ -13,7 +15,7 @@ helpviewer_keywords:
   - "migrating Office solutions in Visual Studio"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

@@ -1,5 +1,7 @@
 ---
 title: LPTEXTOUTPROC | Microsoft Docs
+description: Learn about the LPTEXTOUTPROC function pointer. The Visual Studio IDE implements the function for displaying error and status.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 f1_keywords:
@@ -11,9 +13,9 @@ helpviewer_keywords:
 - LPTEXTOUTPROC callback function
 - SccMsgDataOnAfterGetFile structure
 ms.assetid: 2025c969-e3c7-4cf4-a5c5-099d342895ea
-author: acangialosi
-ms.author: anthc
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
 - vssdk
 ---

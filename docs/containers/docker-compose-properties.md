@@ -1,10 +1,10 @@
 ---
 title: Docker Compose build settings
 author: ghogen
-description: Overview of the Container Tools build process
+description: Learn how to edit the Docker Compose build properties to customize how Visual Studio builds and runs a Docker Compose application.
 ms.custom: SEO-VS-2020
 ms.author: ghogen
-ms.date: 08/12/2019
+ms.date: 04/06/2021
 ms.technology: vs-azure
 ms.topic: reference
 ---
@@ -31,15 +31,17 @@ The following table shows the MSBuild properties available for Docker Compose pr
 | Property name | Location | Description | Default value  |
 |---------------|----------|-------------|----------------|
 |AdditionalComposeFilePaths|dcproj|Specifies additional compose files in a semicolon-delimited list to be sent out to docker-compose.exe for all commands. Relative paths from the docker-compose project file (dcproj) are allowed.|-|
-|DockerComposeBaseFilePath|dcproj|Specifies the first part of the filenames of the docker-compose files, without the *.yml* extension. For example: <br>1.	DockerComposeBaseFilePath = null/undefined: use the base file path *docker-compose*, and files will be named *docker-compose.yml* and *docker-compose.override.yml*<br>2.	DockerComposeBaseFilePath = *mydockercompose*: files will be named *mydockercompose.yml* and *mydockercompose.override.yml*<br> 3.	DockerComposeBaseFilePath = *..\mydockercompose*: files will be up one level. |docker-compose|
-|DockerComposeBuildArguments|dcproj|Specifies the extra parameters to pass to the `docker-compose build` command. For example, `--parallel --pull` |
-|DockerComposeDownArguments|dcproj|Specifies the extra parameters to pass to the `docker-compose down` command. For example, `--timeout 500`|-|  
+|DockerComposeBaseFilePath|dcproj|Specifies the first part of the filenames of the docker-compose files, without the *.yml* extension. For example: <br>1.	DockerComposeBaseFilePath = null/undefined: use the base file path *docker-compose*, and files will be named *docker-compose.yml* and *docker-compose.override.yml*.<br>2.	DockerComposeBaseFilePath = *mydockercompose*: files will be named *mydockercompose.yml* and *mydockercompose.override.yml*.<br> 3.	DockerComposeBaseFilePath = *..\mydockercompose*: files will be up one level. |docker-compose|
+|DockerComposeBuildArguments|dcproj|Specifies the extra parameters to pass to the `docker-compose build` command. For example, `--parallel --pull`. |
+|DockerComposeDownArguments|dcproj|Specifies the extra parameters to pass to the `docker-compose down` command. For example, `--timeout 500`.|-|  
+|DockerComposeProjectName| dcproj | If specified, overrides the project name for a docker-compose project. | "dockercompose" + auto-generated hash |
 |DockerComposeProjectPath|csproj or vbproj|The relative path to the docker-compose project (dcproj) file. Set this property when publishing the service project to find the associated image build settings stored in the docker-compose.yml file.|-|
-|DockerComposeUpArguments|dcproj|Specifies the extra parameters to pass to the `docker-compose up` command. For example, `--timeout 500`|-|
-|DockerDevelopmentMode|dcproj| Controls whether "build-on-host" optimization ("Fast Mode" debugging) is enabled.  Allowed values are **Fast** and **Regular**. | Fast |
-|DockerLaunchAction| dcproj | Specifies the launch action to perform on F5 or Ctrl+F5.  Allowed values are None, LaunchBrowser, and LaunchWCFTestClient|None|
+|DockerComposeProjectsToIgnore|dcproj| Specifies projects to be ignored by docker-compose tools during debug. This property can be used for any project. File paths can be specified one of two ways: <br> 1. Relative to dcproj. For example, `<DockerComposeProjectsToIgnore>path\to\AngularProject1.csproj</DockerComposeProjectsToIgnore>`. <br> 2. Absolute paths.<br> **Note**: The paths should be separated by the delimiter character `;`.|-|
+|DockerComposeUpArguments|dcproj|Specifies the extra parameters to pass to the `docker-compose up` command. For example, `--timeout 500`.|-|
+|DockerDevelopmentMode| dcproj | Controls whether the user project is built in the container. The allowed values of **Fast** or **Regular** control [which stages are built](https://aka.ms/containerfastmode) in a Dockerfile. The Debug configuration is Fast mode by default and Regular mode otherwise. | Fast |
+|DockerLaunchAction| dcproj | Specifies the launch action to perform on F5 or Ctrl+F5.  Allowed values are None, LaunchBrowser, and LaunchWCFTestClient. | None |
 |DockerLaunchBrowser| dcproj | Indicates whether to launch the browser. Ignored if DockerLaunchAction is specified. | False |
-|DockerServiceName| dcproj|If DockerLaunchAction or DockerLaunchBrowser are specified, then DockerServiceName is the name of the service that should be launched.  Use this property to determine which of the potentially many projects that a docker-compose file can reference will be launched.|-|
+|DockerServiceName| dcproj| If DockerLaunchAction or DockerLaunchBrowser are specified, then DockerServiceName specifies which service referenced in the docker-compose file gets launched.|-|
 |DockerServiceUrl| dcproj | The URL to use when launching the browser.  Valid replacement tokens are "{ServiceIPAddress}", "{ServicePort}", and "{Scheme}".  For example: {Scheme}://{ServiceIPAddress}:{ServicePort}|-|
 |DockerTargetOS| dcproj | The target OS used when building the Docker image.|-|
 
@@ -86,9 +88,16 @@ services:
 > [!NOTE]
 > DockerComposeBuildArguments, DockerComposeDownArguments, and DockerComposeUpArguments are new in Visual Studio 2019 version 16.3.
 
-## Docker Compose file labels
+## Overriding Visual Studio's Docker Compose configuration
 
-You can also override certain settings by placing a file named *docker-compose.vs.debug.yml* (for **Debug** configuration) or *docker-compose.vs.release.yml* (for **Release** configuration) in the same directory as your *docker-compose.yml* file.  In this file, you can specify settings as follows:
+You can override certain settings by placing a file named *docker-compose.vs.debug.yml* (for **Fast** mode) or *docker-compose.vs.release.yml* (for **Regular** mode) in the same directory as your *docker-compose.yml* file. 
+
+>[!TIP] 
+>To find out the default values for any of these settings, look in *docker-compose.vs.debug.g.yml* or *docker-compose.vs.release.g.yml*.
+
+### Docker Compose file labels
+
+ In *docker-compose.vs.debug.yml* or *docker-compose.vs.release.yml*, you can define override-specific labels as follows:
 
 ```yml
 services:
@@ -102,13 +111,26 @@ Use double quotes around the values, as in the preceding example, and use the ba
 |Label name|Description|
 |----------|-----------|
 |com.microsoft.visualstudio.debuggee.arguments|The arguments passed to the program when starting debugging. For .NET Core apps, these arguments are typically additional search paths for NuGet packages followed by the path to the project's output assembly.|
-|com.microsoft.visualstudio.debuggee.killprogram|This command is used to stop the debuggee program that's running inside of the container (when necessary).|
 |com.microsoft.visualstudio.debuggee.program|The program launched when starting debugging. For .NET Core apps, this setting is typically **dotnet**.|
 |com.microsoft.visualstudio.debuggee.workingdirectory|The directory used as the starting directory when starting debugging. This setting is typically */app* for Linux containers, or *C:\app* for Windows containers.|
+|com.microsoft.visualstudio.debuggee.killprogram|This command is used to stop the debuggee program that's running inside of the container (when necessary).|
 
-## Customize the app startup process
+### Customize the Docker build process
 
-You can run a command or custom script before launching your app by using the `entrypoint` setting, and making it dependent on the configuration. For example, if you need to set up a certificate only in **Debug** mode by running `update-ca-certificates`, but not in **Release** mode, you could add the following code only in *docker-compose.vs.debug.yml*:
+You can declare which stage to build in your Dockerfile by using the `target` setting in the `build` property. This override can be used in only the *docker-compose.vs.debug.yml* or *docker-compose.vs.release.yml* 
+
+```yml
+services:
+  webapplication1:
+    build:
+      target: customStage
+    labels:
+      ...
+```
+
+### Customize the app startup process
+
+You can run a command or custom script before launching your app by using the `entrypoint` setting, and making it dependent on the `DockerDevelopmentMode`. For example, if you need to set up a certificate only in **Fast** mode by running `update-ca-certificates`, but not in **Regular** mode, you could add the following code in **only** *docker-compose.vs.debug.yml*:
 
 ```yml
 services:
@@ -117,8 +139,6 @@ services:
     labels:
       ...
 ```
-
-If you omit the *docker-compose.vs.release.yml* or *docker-compose.vs.debug.yml* then Visual Studio generates one based on default settings.
 
 ## Next steps
 

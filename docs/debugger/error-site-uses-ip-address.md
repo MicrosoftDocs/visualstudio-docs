@@ -1,4 +1,5 @@
 ---
+description: "This error occurs when the debugger tries to auto-attach to a Web application that is using an IP address."
 title: "Site Uses IP Address | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "error-reference"
@@ -13,7 +14,7 @@ helpviewer_keywords:
   - "debugger, Web application errors"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the symbol identifier of the upper bound of a FORTRAN array dimension."
 title: "IDiaSymbol::get_upperBoundId | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: ddfa1617-bd0f-4187-ba77-a225bab93a95
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

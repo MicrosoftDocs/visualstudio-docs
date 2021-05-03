@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the number of injected sources."
 title: "IDiaEnumInjectedSources::get_Count | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 659c415b-9f7b-470d-90e2-b4c0087f8dd3
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

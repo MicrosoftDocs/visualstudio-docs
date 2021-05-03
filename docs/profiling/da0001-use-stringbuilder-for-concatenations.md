@@ -1,5 +1,6 @@
 ---
 title: DA0001 - Use StringBuilder for concatenations | Microsoft Docs
+description: "Calls to System.String.Concat are a significant proportion of the profiling data. Consider using the System.Text.StringBuilder class to construct strings from multiple segments."
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords: 
@@ -10,7 +11,7 @@ f1_keywords:
 ms.assetid: a7cc7613-ad5f-48c8-bd2b-56372cc12dfc
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 monikerRange: 'vs-2017'
 ms.workload: 
   - multiple

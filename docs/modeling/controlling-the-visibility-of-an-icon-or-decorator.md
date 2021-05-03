@@ -1,10 +1,12 @@
 ---
 title: Controlling the Visibility of an Icon or Decorator
+description: Learn how you can control the visibility of an icon or decorator depending on the state of properties in the model.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 author: JoshuaPartlow
 ms.author: joshuapa
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

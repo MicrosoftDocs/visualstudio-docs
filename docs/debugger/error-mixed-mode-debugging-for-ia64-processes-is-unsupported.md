@@ -1,4 +1,5 @@
 ---
+description: "The Visual Studio debugger does not support debugging mixed native and managed code in an Itanium-based process."
 title: "Mixed mode debugging for IA64 processes is unsupported | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "error-reference"
@@ -11,7 +12,7 @@ dev_langs:
   - "C++"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

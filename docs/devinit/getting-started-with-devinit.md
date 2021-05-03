@@ -5,7 +5,7 @@ ms.date: 11/18/2020
 ms.topic: reference
 author: andysterland
 ms.author: andster
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 monikerRange: ">= vs-2019"
@@ -13,6 +13,9 @@ ms.prod: visual-studio-windows
 ms.technology: devinit
 ---
 # Getting Started with devinit
+
+> [!IMPORTANT]
+> As of April 12th 2021, connecting to GitHub Codespaces from Visual Studio 2019 will no longer be supported and this private preview has concluded. We’re focused on evolving experiences for a cloud-powered inner loop and VDI solutions optimized for a broad set of Visual Studio workloads. As part of this `devinit` and associated tools will no longer be available. We encourage you to be involved in our developer community forum for Visual Studio for information on future previews and roadmap information.
 
 devinit is a tool that you can use to enable anyone to get to code and be productive in your repository by running a simple command. You can use devinit to define all the system-wide dependencies that your repository needs something like SQL server, Node.js, Docker, or IIS. Devinit can invoke other tools and package managers to install what your repository needs. You define those dependencies in a JSON file named [.devinit.json](devinit-json.md) and then the next person to use your repository just has to run [`devinit init`](devinit-commands.md#init) to install all those dependencies. So, rather than spending half a day onboarding onto a new repository, it can be done in minutes.
 

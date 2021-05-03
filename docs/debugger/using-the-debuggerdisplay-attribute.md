@@ -1,5 +1,7 @@
 ---
 title: Display custom info using DebuggerDisplay | Microsoft Docs
+description: Use an instance of DebuggerDisplayAttribute to control how an object, property, or field is displayed in the debugger variable windows.
+ms.custom: SEO-VS-2020
 ms.date: 01/09/2019
 ms.topic: how-to
 helpviewer_keywords: 
@@ -9,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: f4eb7c76-af4e-493b-9ab6-9cb05949d9b3
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload: 
   - multiple
 ---

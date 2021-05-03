@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: 6601c395-f778-48c1-ab76-cf454b9193e4
-ms.date: 10/22/2020
+ms.date: 03/19/2021
 ms.topic: conceptual
 description: Learn about the super admin and admin roles, and how to assign admins. 
 ---
@@ -37,13 +37,14 @@ To assign new admins (admins):
 5. After you click **Add** to assign the new admin, they will receive an email inviting them to sign in to the portal.  
 
 ## Resources
-- [Visual Studio Administration and Subscriptions Support](https://visualstudio.microsoft.com/support/support-overview-vs)
+- [Visual Studio administration and subscriptions support](https://aka.ms/vsadminhelp)
 
 ## See also
 - [Visual Studio documentation](/visualstudio/)
 - [Azure DevOps documentation](/azure/devops/)
 - [Azure documentation](/azure/)
 - [Microsoft 365 documentation](/microsoft-365/)
+
 
 
 ## Next steps

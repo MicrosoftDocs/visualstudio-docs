@@ -1,6 +1,7 @@
 ---
 title: "Debug multithreaded applications | Microsoft Docs"
-ms.custom: "seodec18"
+description: Debug multithreaded applications in Visual Studio. Review tools and other articles about debugging multithreaded apps.
+ms.custom: "SEO-VS-2020, seodec18"
 ms.date: "11/06/2018"
 ms.topic: "conceptual"
 f1_keywords:
@@ -19,7 +20,7 @@ helpviewer_keywords:
 ms.assetid: 9d175bc2-1d95-4c47-9bc3-9755af968a9c
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

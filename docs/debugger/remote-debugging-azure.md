@@ -1,12 +1,13 @@
 ---
 title: "Remote Debug ASP.NET Core on IIS and Azure | Microsoft Docs"
+description: Learn how to set up and configure a Visual Studio ASP.NET Core app, deploy it to IIS using Azure, and attach the remote debugger from Visual Studio. 
 ms.custom: "remotedebugging"
 ms.date: 05/06/2020
 ms.topic: "conceptual"
 ms.assetid: a6c04b53-d1b9-4552-a8fd-3ed6f4902ce6
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "aspnet"
   - "dotnetcore"
@@ -24,13 +25,13 @@ The recommended way to remote debug on Azure depends on your scenario:
 
     In this scenario, you must deploy your app from Visual Studio to Azure but you do not need to manually install or configure IIS or the remote debugger (these components are represented with dotted lines), as shown in the following illustration.
 
-    ![Remote debugger components](../debugger/media/remote-debugger-azure-app-service.png "Remote_debugger_components")
+    ![Diagram showing the relationship between Visual Studio, Azure App Service, and an ASP.NET app. IIS and the Remote Debugger are represented with dotted lines.](../debugger/media/remote-debugger-azure-app-service.png)
 
 * To debug IIS on an Azure VM, follow steps in this topic (see the section [Remote Debug on an Azure VM](#remote_debug_azure_vm)). This allows you to use a customized configuration of IIS, but the setup and deployment steps are more complicated.
 
     For an Azure VM, you must deploy your app from Visual Studio to Azure and you also need to manually install the IIS role and the remote debugger, as shown in the following illustration.
 
-    ![Remote debugger components](../debugger/media/remote-debugger-azure-vm.png "Remote_debugger_components")
+    ![Diagram showing the relationship between Visual Studio, an Azure VM, and an ASP.NET app. IIS and the Remote Debugger are represented with solid lines.](../debugger/media/remote-debugger-azure-vm.png)
 
 * To debug ASP.NET Core on Azure Service Fabric, see [Debug a remote Service Fabric application](/azure/service-fabric/service-fabric-debugging-your-application#debug-a-remote-service-fabric-application).
 
@@ -52,10 +53,12 @@ Debugging between two computers connected through a proxy is not supported. Debu
 
 ## Create the ASP.NET Core application on the Visual Studio computer
 
-1. Create a new ASP.NET Core application.
+1. Create a new ASP.NET Core web application.
 
     ::: moniker range=">=vs-2019"
-    In Visual Studio 2019, type **Ctrl + Q** to open the search box, type **asp.net**, choose **Templates**, then choose **Create new ASP.NET Core Web Application**. In the dialog box that appears, name the project **MyASPApp**, and then choose **Create**. Next, choose **Web Application (Model-View-Controller)**, and then choose **Create**.
+    In Visual Studio 2019, choose **Create a new project** in the start window. If the start window is not open, choose **File** > **Start Window**. Type **web app**, choose **C#** as the language, then choose **ASP.NET Core Web Application (Model-View-Controller)**, and then choose **Next**. On the next screen, name the project **MyASPApp**, and then choose **Next**.
+
+    Choose either the recommended target framework (.NET Core 3.1) or .NET 5, and then choose **Create**.
     ::: moniker-end
     ::: moniker range="vs-2017"
     In Visual Studio 2017, choose **File > New > Project**, then select **Visual C# > Web > ASP.NET Core Web Application**. In the ASP.NET Core templates section, select **Web Application (Model-View-Controller)**. Make sure that ASP.NET Core 2.1 is selected, that **Enable Docker Support** is not selected and that **Authentication** is set to **No Authentication**. Name the project **MyASPApp**.
@@ -71,13 +74,23 @@ From Visual Studio, you can quickly publish and debug your app to a fully provis
 
 1. In Visual Studio, right-click the project node and choose **Publish**.
 
-    If you have previously configured any publishing profiles, the **Publish** pane appears. Click **New profile**.
+    If you have previously configured any publishing profiles, the **Publish** pane appears. Select either **New** or **New profile**.
 
-1. Choose **Azure App Service** from the **Publish** dialog box, select **Create New**, and follow the prompts to create a profile.
+1. Create a new publish profile.
 
-    For detailed instructions, see [Deploy an ASP.NET Core web app to Azure using Visual Studio](/aspnet/core/tutorials/publish-to-azure-webapp-using-vs).
+    ::: moniker range=">=vs-2019"
+    Choose **Azure** from the **Publish** dialog box and select **Next**. Then choose **Azure App Service (Windows)**, select **Next**, and follow the prompts to create a profile.
+
+    :::image type="content" source="../debugger/media/vs-2019/remotedbg-azure-app-service-profile.png" alt-text="Deploy an ASP.NET Core web app to Azure using Visual Studio":::
+    ::: moniker-end
+    ::: moniker range="vs-2017"
+
+    Choose **Azure App Service** from the **Publish** dialog box, select **Create New**, and follow the prompts to create a profile.
 
     ![Publish to Azure App Service](../debugger/media/remotedbg_azure_app_service_profile.png)
+    ::: moniker-end
+
+    For more detailed instructions, see [Deploy an ASP.NET Core web app to Azure using Visual Studio](/aspnet/core/tutorials/publish-to-azure-webapp-using-vs).
 
 1. In the Publish window, choose **Edit Configuration** and switch to a Debug configuration, and then choose **Publish**.
 
@@ -98,6 +111,7 @@ From Visual Studio, you can quickly publish and debug your app to a fully provis
 You can create an Azure VM for Windows Server and then install and configure IIS and the other required software components. This takes more time than deploying to an Azure App Service and requires that you follow the remaining steps in this tutorial.
 
 These procedures have been tested on these server configurations:
+
 * Windows Server 2012 R2 and IIS 8
 * Windows Server 2016 and IIS 10
 * Windows Server 2019 and IIS 10
@@ -135,7 +149,7 @@ When you download the software, you may get requests to grant permission to load
     > [!NOTE]
     > If the system doesn't have an Internet connection, obtain and install the *[Microsoft Visual C++ 2015 Redistributable](https://www.microsoft.com/download/details.aspx?id=53840)* before installing the .NET Core Windows Server Hosting bundle.
 
-3. Restart the system (or execute **net stop was /y** followed by **net start w3svc** from a command prompt to pick up a change to the system PATH).
+2. Restart the system (or execute **net stop was /y** followed by **net start w3svc** from a command prompt to pick up a change to the system PATH).
 
 ## Choose a deployment option
 
@@ -202,7 +216,7 @@ If you are importing publish settings, you can skip this section.
 
 ### (Optional) Publish and Deploy the app by publishing to a local folder from Visual Studio
 
-If you're not using Web Deploy, you must publish and deploy the app using the file system or other tools. You can start by creating a package using the file system, and then either deploy the package manually or use other tools like PowerShell, RoboCopy, or XCopy. In this section, we assume you are manually copying the package if you are not using Web Deploy.
+If you're not using Web Deploy, you must publish and deploy the app using the file system or other tools. You can start by creating a package using the file system, and then either deploy the package manually or use other tools like PowerShell, Robocopy, or XCopy. In this section, we assume you are manually copying the package if you are not using Web Deploy.
 
 [!INCLUDE [remote-debugger-deploy-app-local](../debugger/includes/remote-debugger-deploy-app-local.md)]
 

@@ -11,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: f46feb9b-4c16-4fec-b6e1-36a959692ba3
 author: ghogen
 ms.author: ghogen
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ---
@@ -37,7 +37,7 @@ msbuild SlnFolders.sln -target:NotInSlnfolder:Rebuild;NewFolder\InSolutionFolder
 
 If you would like to examine the options available to you, you can use a debugging option provided by MSBuild to do so. Set the environment variable `MSBUILDEMITSOLUTION=1` and build your solution. This will produce an MSBuild file named *\<SolutionName>.sln.metaproj* that shows MSBuild's internal view of the solution at build time. You can inspect this view to determine what targets are available to build.
 
-Do not build with this environment variable set unless you need this internal view. This setting can cause problems building projects in your solution.
+Do not build with this environment variable set unless you need this internal view. This setting can cause problems building projects in your solution. Look in the [binary log](obtaining-build-logs-with-msbuild.md#save-a-binary-log) instead.
 
 ## See also
 

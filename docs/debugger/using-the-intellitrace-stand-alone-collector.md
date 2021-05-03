@@ -1,5 +1,7 @@
 ---
 title: "Using the IntelliTrace stand-alone collector | Microsoft Docs"
+description: Use the IntelliTrace stand-alone collector to collect data without installing Visual Studio and without changing the target system's environment.
+ms.custom: SEO-VS-2020
 ms.date: "07/30/2019"
 ms.topic: "conceptual"
 f1_keywords:
@@ -9,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 1bde9807-8219-4a2a-a440-ac5ee5178159
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

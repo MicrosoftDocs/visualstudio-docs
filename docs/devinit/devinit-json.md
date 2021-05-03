@@ -5,7 +5,7 @@ ms.date: 11/02/2020
 ms.topic: reference
 author: andysterland
 ms.author: andster
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 monikerRange: ">= vs-2019"
@@ -13,6 +13,9 @@ ms.prod: visual-studio-windows
 ms.technology: devinit
 ---
 # devinit configuration file
+
+> [!IMPORTANT]
+> As of April 12th 2021, connecting to GitHub Codespaces from Visual Studio 2019 will no longer be supported and this private preview has concluded. We’re focused on evolving experiences for a cloud-powered inner loop and VDI solutions optimized for a broad set of Visual Studio workloads. We encourage you to be involved in our developer community forum for Visual Studio for information on future previews and roadmap information.
 
 The `.devinit.json` file defines the system-wide dependencies that your application needs in order to run and build. System-wide dependencies are things like Node.js, SQL Server, IIS, RabbitMQ, Docker, etc. These are the sort of things you would normally install on your dev box that aren't installed by a specific repo. It's not a place to define application-specific dependencies like you would in package managers such as NuGet or NPM. It is, however, a place to define that you need those package managers.
 

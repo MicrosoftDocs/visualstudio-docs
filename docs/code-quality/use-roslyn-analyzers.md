@@ -10,7 +10,7 @@ helpviewer_keywords:
 - Roslyn analyzers
 author: mikadumont
 ms.author: midumont
-manager: jillfra
+manager: jmartens
 ms.workload:
 - dotnet
 ---
@@ -376,7 +376,9 @@ There are multiple ways to suppress rule violations:
 
 When you build your project at the command line, rule violations appear in the build output if the following conditions are met:
 
-- The analyzers are installed as a NuGet package and not as a VSIX extension.
+- The analyzers are installed with the .NET SDK or as a NuGet package, and not as a VSIX extension.
+
+  For analyzers installed using the .NET SDK, you may need to [Enable the analyzers](../code-quality/install-net-analyzers.md). For code styles, you can also [enforce code styles on build](/dotnet/fundamentals/code-analysis/overview#code-style-analysis) by setting an MSBuild property.
 
 - One or more rules are violated in the project's code.
 
@@ -411,3 +413,4 @@ In a .NET Core project, if you add a reference to a project that has NuGet analy
 - [Submit a code analyzer bug](https://github.com/dotnet/roslyn-analyzers/issues)
 - [Use rule sets](../code-quality/using-rule-sets-to-group-code-analysis-rules.md)
 - [Suppress code analysis warnings](../code-quality/in-source-suppression-overview.md)
+- [Configuration options for code analysis (.NET)](/dotnet/fundamentals/code-analysis/configuration-options)

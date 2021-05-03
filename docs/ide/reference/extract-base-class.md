@@ -1,10 +1,11 @@
 ---
 title: Extract base class
+description: "This refactoring extracts members from a selected class to a new base class."
 ms.date: 11/03/2020
 ms.topic: reference
 author: mikadumont
 ms.author: midumont
-manager: jillfra
+manager: jmartens
 dev_langs:
   - CSharp
   - VB

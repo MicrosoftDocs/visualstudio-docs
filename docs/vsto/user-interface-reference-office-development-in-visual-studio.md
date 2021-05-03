@@ -1,5 +1,7 @@
 ---
 title: "User interface reference (Office development in Visual Studio)"
+description: Learn about Office development in Visual Studio and which user interface elements are part of Office projects.
+ms.custom: SEO-VS-2020
 titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
@@ -10,7 +12,7 @@ helpviewer_keywords:
   - "reference [Office development in Visual Studio], user interface"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

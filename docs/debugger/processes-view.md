@@ -1,5 +1,7 @@
 ---
 title: "Processes View | Microsoft Docs"
+description: Processes view displays a tree of all active processes on your system. Learn about its contents and uses, and follow the links to additional information. 
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:
@@ -9,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: e144e70e-eef2-45a7-a562-a177f177d9a1
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

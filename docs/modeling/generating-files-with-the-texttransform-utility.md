@@ -1,5 +1,7 @@
 ---
 title: Generating Files with the TextTransform Utility
+description: Learn how the TextTransform utility is a command-line tool that you can use to transform a text template.
+ms.custom: SEO-VS-2020
 ms.date: 07/26/2019
 ms.topic: conceptual
 helpviewer_keywords:
@@ -7,7 +9,7 @@ helpviewer_keywords:
 - TextTransform.exe
 author: JoshuaPartlow
 ms.author: joshuapa
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ---

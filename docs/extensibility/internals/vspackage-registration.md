@@ -1,14 +1,16 @@
 ---
 title: VSPackage Registration | Microsoft Docs
+description: Learn about VSPackage registration, where packages advise Visual Studio that they are installed and should be loaded by writing information in the registry.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - registration, VSPackages
 - VSPackages, registering
 ms.assetid: ecd20da8-b04b-4141-a8f4-a2ef91dd597a
-author: acangialosi
-ms.author: anthc
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
 - vssdk
 ---

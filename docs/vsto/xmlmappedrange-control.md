@@ -1,5 +1,7 @@
 ---
 title: "XmlMappedRange control"
+description: Learn that the XmlMappedRange control is a range that is created only when a non-repeating schema element is mapped onto a cell in Microsoft Excel.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -11,7 +13,7 @@ helpviewer_keywords:
   - "XMLMappedRange control, events"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

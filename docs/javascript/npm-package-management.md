@@ -2,12 +2,12 @@
 title: "Manage npm packages"
 description: Visual Studio helps you to manage packages using the Node.js package manager (npm)
 ms.custom: "seodec18"
-ms.date: "04/16/2020"
+ms.date: "02/23/2021"
 ms.topic: "how-to"
 ms.devlang: javascript
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 dev_langs:
   - JavaScript
 ms.workload:
@@ -50,7 +50,7 @@ For Node.js projects, the easiest way to install npm packages is through the npm
 
 In this window you can search for a package, specify options, and install.
 
-![Search npm package](../javascript/media/search-package.png)
+![Screenshot of the Install New npm Packages dialog. The azure 2.2.1-preview package is selected and the details and options for that package are shown.](../javascript/media/search-package.png)
 
 * **Dependency type** - Chose between **Standard**, **Development**, and **Optional** packages. Standard specifies that the package is a runtime dependency, whereas Development specifies that the package is only required during development.
 * **Add to package.json** - Recommended. This configurable option is deprecated.
@@ -68,7 +68,7 @@ You can see the progress of the installation in the **npm** output in the **Outp
 
 npm packages are shown in Solution Explorer. The entries under the **npm** node mimic the dependencies in the *package.json* file.
 
-![Search npm package](../javascript/media/solution-explorer-status.png)
+![Screenshot of the npm node in Solution Explorer showing the installation status of the npm packages.](../javascript/media/solution-explorer-status.png)
 
 ### Package status
 
@@ -82,12 +82,12 @@ Right-click the **npm** node to take one of the following actions:
 
 * **Install New npm Packages** Opens the UI to install new packages.
 * **Install npm Packages** Runs the npm install command to install all packages listed in *package.json*. (Runs `npm install`.)
-* **Update npm Packages** Updates packages to the latest versions, according to the semantic versioning (semver) range specified in *package.json*. (Runs `npm update --save`.). Semver ranges are typically specified using "~" or "^". For more information, [package.json configuration](../javascript/configure-packages-with-package-json.md).
+* **Update npm Packages** Updates packages to the latest versions, according to the semantic versioning (SemVer) range specified in *package.json*. (Runs `npm update --save`.). SemVer ranges are typically specified using "~" or "^". For more information, [package.json configuration](../javascript/configure-packages-with-package-json.md).
 
 Right-click a package node to take one of the following actions:
 
 * **Install npm Package(s)** Runs the npm install command to install the package version listed in *package.json*. (Runs `npm install`.)
-* **Update npm Package(s)** Updates the package to the latest version, according to the semver range specified in *package.json*. (Run `npm update --save`.) Semver ranges are typically specified using "~" or "^".
+* **Update npm Package(s)** Updates the package to the latest version, according to the SemVer range specified in *package.json*. (Run `npm update --save`.) SemVer ranges are typically specified using "~" or "^".
 * **Uninstall npm Package(s)** Uninstalls the package and removes it from *package.json* (Runs `npm uninstall --save`.)
 ::: moniker-end
 ::: moniker range="vs-2017"
@@ -159,7 +159,7 @@ When you save the file, Visual Studio adds the package under the **Dependencies 
 
 For projects with npm included, you can configure npm packages using `package.json`. Right-click the npm node in Solution Explorer and choose **Open package.json**.
 
-![Search npm package](../javascript/media/npm-add-package.png)
+![Screenshot of the Solution Explorer with the npm node selected. A right-click context menu is open and Open package.json is selected.](../javascript/media/npm-add-package.png)
 
 IntelliSense in *package.json* helps you select a particular version of an npm package.
 
@@ -178,5 +178,7 @@ It may take several minutes to install a package. Check progress on package inst
 * For Node.js projects, you must have the **Node.js development** workload installed for npm support.
 
 * In some scenarios, Solution Explorer may not show the correct status for installed npm packages due to a known issue described [here](https://github.com/aspnet/Tooling/issues/479). For example, the package may appear as not installed when it is installed. In most cases, you can update Solution Explorer by deleting *package.json*, restarting Visual Studio, and re-adding the *package.json* file as described earlier in this article. Or, when installing packages, you can use the npm Output window to verify installation status.
+
+* In some ASP.NET Core scenarios, the npm node in Solution Explorer may not be visible after your build the project. To make the node visible again, right-click the project node and choose **Unload Project.** Then right-click the project node and choose **Reload Project**.
 
 * If you see any errors when building your app or transpiling TypeScript code, check for npm package incompatibilities as a potential source of errors. To help identify errors, check the npm Output window when installing the packages, as described previously in this article. For example, if one or more npm package versions has been deprecated and results in an error, you may need to install a more recent version to fix errors. For information on using *package.json* to control npm package versions, see [package.json configuration](../javascript/configure-packages-with-package-json.md).

@@ -1,5 +1,7 @@
 ---
 title: Create a visual map of the call stack | Microsoft Docs
+description: Create a code map to visually trace the call stack as you debug. Make notes on the map to track what the code is doing, so you can focus on finding bugs.
+ms.custom: SEO-VS-2020
 ms.date: 11/26/2018
 ms.topic: how-to
 f1_keywords: 
@@ -26,7 +28,7 @@ helpviewer_keywords:
 ms.assetid: d6a72e5e-f88d-46fc-94a3-1789d34805ef
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload: 
   - multiple
 ---

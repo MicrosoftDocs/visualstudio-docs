@@ -70,7 +70,7 @@
       "uhfHeaderId": "MSDocsHeader-VisualStudioMac",
       "feedback_system": "GitHub",
       "feedback_github_repo": "MicrosoftDocs/visualstudio-docs",
-      "feedback_product_url": "https://developercommunity.visualstudio.com/spaces/41/index.html",
+      "feedback_product_url": "https://aka.ms/feedback/report?space=41",
       "contributors_to_exclude": [
         "conceptdev",
         "meganbradley",
@@ -86,7 +86,8 @@
       "ms.technology": "vs-ide-general",
       "searchScope": [
         "Mac"
-      ]
+      ],
+      "recommendations": true
     },
     "fileMetadata": {
       "breadcrumb_path": {

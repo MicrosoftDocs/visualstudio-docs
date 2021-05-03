@@ -1,4 +1,5 @@
 ---
+description: "IDiaStackFrame::get_lengthLocals retrieves the number of bytes of local variables pushed on the stack."
 title: "IDiaStackFrame::get_lengthLocals | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: dbc3e544-578a-4f0b-8d20-f21ad4cbb604
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

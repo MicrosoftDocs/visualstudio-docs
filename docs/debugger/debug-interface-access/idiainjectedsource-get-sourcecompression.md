@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the indicator of the source compression used."
 title: "IDiaInjectedSource::get_sourceCompression | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 854b142f-23a9-466c-bf7f-98e581d5abcd
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

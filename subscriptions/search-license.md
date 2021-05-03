@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: 9c0b9a4f-b9a3-491c-a68f-6e4bac7f7b3d
-ms.date: 09/21/2020
+ms.date: 03/21/2021
 ms.topic: how-to
 description:  Learn how admins can locate individual subscribers or groups in the Administration Portal.
 ---
@@ -31,14 +31,12 @@ The Visual Studio Subscriptions Administration Portal allows you to find a speci
    > [!div class="mx-imgBorder"]
    > ![Clear the filter from the subscriber list](_img/search-filter/clear-filter.png "Click Clear Filter to remove the filter and resume viewing all of your assigned subscriptions.")
 
-
 ## See also
 - [Visual Studio documentation](/visualstudio/)
 - [Azure DevOps documentation](/azure/devops/)
 - [Azure documentation](/azure/)
 - [Microsoft 365 documentation](/microsoft-365/)
 
-
 ## Next steps
 - Now that you know how to find a subscriber, learn how to [edit](edit-license.md) their subscription.
-- Need help using the Administration Portal?  Contact [Visual Studio Administration and Subscriptions Support](https://visualstudio.microsoft.com/support/support-overview-vs).
+- Need help using the Administration Portal?  Contact [Visual Studio Administration and Subscriptions Support](https://aka.ms/vsadminhelp).

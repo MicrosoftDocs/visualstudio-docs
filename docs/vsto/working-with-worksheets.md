@@ -1,5 +1,7 @@
 ---
 title: "Work with worksheets"
+description: Learn that the Worksheet and Worksheet classes contain the methods and properties you use to perform tasks with worksheets.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -10,7 +12,7 @@ helpviewer_keywords:
   - "worksheets [Office development in Visual Studio], common tasks"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

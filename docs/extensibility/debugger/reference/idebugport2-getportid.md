@@ -1,4 +1,5 @@
 ---
+description: "Gets the port identifier."
 title: IDebugPort2::GetPortId | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference
@@ -7,9 +8,9 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugPort2::GetPortId
 ms.assetid: 837cb924-c113-4224-aa86-3e02b33dfa70
-author: acangialosi
-ms.author: anthc
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:

@@ -1,5 +1,6 @@
 ---
 title: Support Navigation bar in a legacy language service
+description: Learn how to support the Navigation Bar in a legacy language service. The Navigation bar in the editor view displays the types and members in the file.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
@@ -7,9 +8,9 @@ helpviewer_keywords:
 - Navigation bar, supporting in language services [managed package framework]
 - language services [managed package framework], Navigation bar
 ms.assetid: 2d301ee6-4523-4b82-aedb-be43f352978e
-author: acangialosi
-ms.author: anthc
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
 - vssdk
 ---

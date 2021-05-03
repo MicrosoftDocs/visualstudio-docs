@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: 14e4cffb-a695-436c-b269-7820f7411f4e
-ms.date: 10/26/2020
+ms.date: 03/21/2021
 ms.topic: conceptual
 description:  Learn how to export a list of subscribers and details of their subscription assignments.
 ---
@@ -27,6 +27,9 @@ To perform the export:
 > [!div class="mx-imgBorder"]
 > ![Export subscribers](_img/exporting-subscriptions/exporting-subscriptions.png "Click Export to download a complete list of your assigned subscriptions.")
 
+## Resources
+- [Subscriptions Support](https://aka.ms/vsadminhelp)
+
 ## See also
 - [Visual Studio documentation](/visualstudio/)
 - [Azure DevOps documentation](/azure/devops/)
@@ -38,4 +41,3 @@ To perform the export:
     - [Expired subscriptions](handle-expired-license.md)
     - [Overallocations](handle-overclaimed-license.md)
     - [Maximum usage](maximum-usage.md)
-- Need assistance with any aspect of managing subscriptions?  Contact [Visual Studio Administration and Subscriptions Support](https://visualstudio.microsoft.com/support/support-overview-vs).

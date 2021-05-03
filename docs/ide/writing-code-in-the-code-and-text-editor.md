@@ -9,7 +9,7 @@ helpviewer_keywords:
 - code editor [Visual Studio]
 author: TerryGLee
 ms.author: tglee
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ---

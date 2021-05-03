@@ -8,9 +8,9 @@ helpviewer_keywords:
 - '{{PLACEHOLDER}}'
 - '{{PLACEHOLDER}}'
 ms.assetid: 556EDD3F-E365-43EE-B3DD-03AA4353F75B
-author: ornellaalt
-ms.author: ornella
-manager: jillfra
+author: j-martens
+ms.author: jmartens
+manager: jmartens
 ms.workload:
 - multiple
 ms.prod: visual-studio-windows
@@ -47,7 +47,7 @@ Repair fixes many common update issues. For more information on when and how to 
 
 ### Step 3 - Check with the developer community
 
-Search on your error message with the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/spaces/8/index.html). Other members of the community might have documented a solution to your problem.
+Search on your error message with the [Visual Studio Developer Community](https://aka.ms/feedback/suggest?space=8). Other members of the community might have documented a solution to your problem.
 
 ### Step 4 - Delete the Visual Studio Installer directory to fix upgrade problems
 

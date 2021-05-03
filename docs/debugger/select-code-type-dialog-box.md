@@ -1,5 +1,7 @@
 ---
 title: "Select Code Type Dialog Box | Microsoft Docs"
+description: Learn about the Select Code Type dialog box in Visual Studio. To open this dialog box, open the Attach to Process dialog box, and then click the Select button.
+ms.custom: SEO-VS-2020
 ms.date: "06/12/2020"
 ms.topic: "reference"
 f1_keywords:
@@ -19,7 +21,7 @@ no-loc: ["Blazor WebAssembly"]
 ms.assetid: 932269fe-94e3-43cb-8931-078f31afd177
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

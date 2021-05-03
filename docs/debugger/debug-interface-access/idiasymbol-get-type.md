@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the symbol that represents the type for this symbol."
 title: "IDiaSymbol::get_type | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 1c6a4176-dd4e-4c22-8b8f-0e559fc078ba
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

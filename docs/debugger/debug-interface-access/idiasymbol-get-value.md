@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the value of a constant."
 title: "IDiaSymbol::get_value | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 2e40174a-2a61-4e5f-bb32-9e0ceec2178a
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

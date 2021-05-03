@@ -3,9 +3,9 @@ title: Visual Studio on ARM powered devices
 description: Recommendations for using Visual Studio on devices with ARM-based processors.
 ms.date: 09/10/2020
 ms.topic: conceptual
-author: ornellaalt
-ms.author: ornella
-manager: jillfra
+author: j-martens
+ms.author: jmartens
+manager: jmartens
 ms.workload:
 - multiple
 ms.prod: visual-studio-windows
@@ -37,4 +37,4 @@ To debug an app running on a remote device, you'll need to [download and install
 Not all Visual Studio projects are configured to launch projects locally when you start debugging (**F5**) from an ARM device. You may need to configure Visual Studio for remote debugging, even though your app is running locally. For more information, see [remote debugging](../debugger/remote-debugging.md).
 
 ## We need your help!
-If you'd like Visual Studio to run natively on ARM devices, we'd love to hear about the scenarios and support necessary. You can reach us by posting on the [developer community](https://developercommunity.visualstudio.com/idea/1161018/native-arm-support-for-visual-studio.html). 
+If you'd like Visual Studio to run natively on ARM devices, we'd love to hear about the scenarios and support necessary. You can reach us by posting on the [developer community](https://developercommunity.visualstudio.com/idea/1161018/native-arm-support-for-visual-studio.html).

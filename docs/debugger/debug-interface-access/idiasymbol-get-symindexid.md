@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the unique symbol identifier."
 title: "IDiaSymbol::get_symIndexId | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: dd1fb3ba-31bf-497d-a6bf-79f1206e6642
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

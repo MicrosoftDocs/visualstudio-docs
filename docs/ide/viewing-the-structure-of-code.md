@@ -24,7 +24,7 @@ helpviewer_keywords:
 - object browser
 author: TerryGLee
 ms.author: tglee
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ---

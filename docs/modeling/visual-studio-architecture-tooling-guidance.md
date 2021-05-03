@@ -1,10 +1,12 @@
 ---
 title: Architecture Tooling Guidance
+description: Learn how the Architecture Tooling Guidance is a downloadable package of practical guidance about the use of the modeling tools in Visual Studio 2010.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 author: JoshuaPartlow
 ms.author: joshuapa
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 ---

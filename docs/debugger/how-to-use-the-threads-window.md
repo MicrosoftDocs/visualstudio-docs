@@ -14,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: adfbe002-3d7b-42a9-b42a-5ac0903dfc25
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload: 
   - multiple
 ---
@@ -38,12 +38,14 @@ Create the following multithreaded app project to use in this tutorial:
 
    On the **Create a new project** window, enter or type *console* in the search box. Next, choose **C#** or **C++** from the Language list, and then choose **Windows** from the Platform list. 
 
-   After you apply the language and platform filters, choose the **Console App (.NET Core)** or, for C++, **Console App** template, and then choose **Next**.
+   After you apply the language and platform filters, choose the **Console App** for .NET Core or for C++, and then choose **Next**.
 
    > [!NOTE]
-   > If you don't see the correct template, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **.NET desktop development** or **Desktop development with C++** workload, then choose **Modify**.
+   > If you don't see the correct template, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **.NET Core cross-platform development** or **Desktop development with C++** workload, then choose **Modify**.
 
-   In the **Configure your new project** window, type or enter *MyThreadWalkthroughApp* in the **Project name** box. Then, choose **Create**.
+   In the **Configure your new project** window, type or enter *MyThreadWalkthroughApp* in the **Project name** box. Then, choose **Next** or **Create**, whichever option is available.
+
+   For .NET Core, choose either the recommended target framework (.NET Core 3.1) or .NET 5, and then choose **Create**.
 
    ::: moniker-end
    ::: moniker range="vs-2017"
@@ -52,7 +54,7 @@ Create the following multithreaded app project to use in this tutorial:
    - For a C# app, under **Visual C#**, choose **Windows Desktop**, and then in the middle pane choose **Console App (.NET Framework)**.
    - For a C++ app, under **Visual C++**, choose **Windows Desktop**,, and then choose **Windows Console Application**.
 
-   If you don't see the **Console App (.NET Core)** or, for C++, the **Console App** project template, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **.NET desktop development** or **Desktop development with C++** workload, then choose **Modify**.
+   If you don't see the **Console App (.NET Framework)** or, for C++, the **Console App** project template, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **.NET desktop development** or **Desktop development with C++** workload, then choose **Modify**.
 
    Then, type a name like *MyThreadWalkthroughApp* and click **OK**.
 
@@ -141,7 +143,7 @@ Select a flag icon to change the thread state to flagged or unflagged, depending
 
 You can also right-click a line and select **Flag**, **Unflag**, or **Unflag All Threads** from the shortcut menu.
 
-The **Threads** window toolbar also has a **Show Flagged Threads Only** button, which is the righthand one of the two flag icons. It works the same as the button on the **Debug Location** toolbar, and either button controls the display in both locations.
+The **Threads** window toolbar also has a **Show Flagged Threads Only** button, which is the right-hand one of the two flag icons. It works the same as the button on the **Debug Location** toolbar, and either button controls the display in both locations.
 
 ### Other Threads window features
 

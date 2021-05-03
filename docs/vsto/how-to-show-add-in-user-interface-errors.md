@@ -1,5 +1,7 @@
 ---
 title: "How to: Show Add-in user interface errors"
+description: Learn how you can use Visual Studio to programmatically show VTSO Add-in user interface errors in Microsoft Office applications.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:
@@ -12,7 +14,7 @@ helpviewer_keywords:
   - "application-level add-ins [Office development in Visual Studio], user interface errors"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

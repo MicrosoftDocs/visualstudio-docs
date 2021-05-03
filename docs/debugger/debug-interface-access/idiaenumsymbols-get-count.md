@@ -1,4 +1,5 @@
 ---
+description: "Retrieves the number of symbols."
 title: "IDiaEnumSymbols::get_Count | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: fdaae6d7-e67b-4262-84c9-fbae381e8297
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

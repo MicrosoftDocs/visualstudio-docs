@@ -54,11 +54,7 @@ landingContent:
           - text: Create a Windows Forms app
             url: ../../ide/create-csharp-winform-visual-studio.md
           - text: Learn about the C# language
-            url: /dotnet/csharp/tutorials/intro-to-csharp/
-      - linkListType: video
-        links:
-          - text: Create an ASP.NET Core app
-            url: tutorial-aspnet-core-ef-step-01.md                       
+            url: /dotnet/csharp/tutorials/intro-to-csharp/              
        
   # Card
   - title: Learn Visual Studio
