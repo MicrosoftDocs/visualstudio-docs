@@ -27,7 +27,6 @@ Welcome to the history of what's new in Visual Studio docs. This article contain
 
 **Updated articles**
 
-- [How to: Run legacy code analysis manually for managed code](../code-quality/how-to-run-legacy-code-analysis-manually-for-managed-code.md) - Confirm merge from working branch
 - [Enable or install first-party .NET analyzers](../code-quality/install-net-analyzers.md) - GitHub issue fixes
 
 ### Containers
@@ -65,7 +64,6 @@ Welcome to the history of what's new in Visual Studio docs. This article contain
 **Updated articles**
 
 - [Visual language dictionary](../extensibility/ux-guidelines/visual-language-dictionary-for-visual-studio.md) - add missing Markdown brackets to fix icon rendering error
-- [VisibilityItem element](../extensibility/visibilityitem-element.md) - Confirm merge from working branch
 - [Troubleshooting template installation](../extensibility/troubleshooting-template-discovery.md) - Developer Command Prompt and Developer PowerShell
 
 ### Get started
@@ -75,9 +73,7 @@ Welcome to the history of what's new in Visual Studio docs. This article contain
 - [Tutorial: Open a project from a repo](../get-started/tutorial-open-project-from-repo-visual-studio-2019.md)
   - update topics with side-by-side comparison of Git & Team Explorer link
   - add sign-in links for more info to the sign-in section
-- [Tutorial: Get started with C# and ASP.NET Core in Visual Studio](../get-started/csharp/tutorial-aspnet-core.md)
-  - Confirm merge from working branch
-  - Update tutorial-aspnet-core.md
+- [Tutorial: Get started with C# and ASP.NET Core in Visual Studio](../get-started/csharp/tutorial-aspnet-core.md) - Update tutorial-aspnet-core.md
 
 ### IDE
 
@@ -115,7 +111,6 @@ Welcome to the history of what's new in Visual Studio docs. This article contain
   - reduce screenshot size and add minor edit to an instruction
   - add code to pair with screenshots
 - [Use regular expressions in Visual Studio](./using-regular-expressions-in-visual-studio.md) - fix wrong regex
-- [Troubleshoot and create logs for MSBuild problems](./msbuild-logs.md) - Confirm merge from working branch
 - [Customize build and debug tasks for Open Folder development](./customize-build-and-debug-tasks-in-visual-studio.md) - Developer Command Prompt and Developer PowerShell
 - [Visual Studio productivity guide for C# developers](./csharp-developer-productivity.md) - update code inspection extension list for VS2019
 
