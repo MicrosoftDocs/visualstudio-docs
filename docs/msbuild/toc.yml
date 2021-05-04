@@ -492,6 +492,10 @@
         href: errors/msb3277.md
       - name: MSB3644
         href: errors/msb3644.md
+      - name: MSB3721
+        href: errors/msb3721.md
+      - name: MSB3821
+        href: errors/msb3821.md
       - name: MSB8036
         href: errors/msb8036.md
       - name: MSB8040
