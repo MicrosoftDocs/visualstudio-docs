@@ -2,7 +2,7 @@
 title: "String Visualizer dialog box | Microsoft Docs"
 description: View strings with the built-in String Visualizer dialog box while you are debugging in Visual Studio.
 ms.date: "10/10/2018"
-ms.custom: "seoapril2019, SEO-VS-2020"
+ms.custom: contperf-fy21q4
 ms.topic: "reference"
 f1_keywords:
   - "vs.debug.stringviewer"
