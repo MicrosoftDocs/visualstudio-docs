@@ -357,7 +357,7 @@ Welcome to the history of what's new in Visual Studio docs. This article contain
 
 **Updated articles**
 
-- [FAQ - Find the debugging feature you need in Visual Studio](../debugger/find-your-debugging-task.md) - Discovery work for finding your debugging task and overview topics
+- [FAQ - Find the debugging feature you need in Visual Studio](../debugger/find-your-debugging-task.yml) - Discovery work for finding your debugging task and overview topics
 
 ### Get started
 
@@ -401,11 +401,11 @@ Welcome to the history of what's new in Visual Studio docs. This article contain
 - [Enable or install .NET analyzers](../code-quality/install-net-analyzers.md) - Add documentation to migrate from FxCop analyzers to .NET analyzers
 - [Migrate from FxCop analyzers to .NET analyzers](../code-quality/migrate-from-fxcop-analyzers-to-net-analyzers.md) - Add documentation to migrate from FxCop analyzers to .NET analyzers
 - [Migrate from legacy analysis (FxCop) to source analysis (.NET analyzers)](../code-quality/migrate-from-legacy-analysis-to-net-analyzers.md) - Add documentation to migrate from FxCop analyzers to .NET analyzers
-- [Frequently asked questions about legacy FxCop and .NET analyzers](../code-quality/net-analyzers-faq.md) - Add documentation to migrate from FxCop analyzers to .NET analyzers
+- [Frequently asked questions about legacy FxCop and .NET analyzers](../code-quality/net-analyzers-faq.yml) - Add documentation to migrate from FxCop analyzers to .NET analyzers
 
 **Updated articles**
 
-- [Code analysis FAQ](../code-quality/analyzers-faq.md) - Added documentation to migrate from FxCop analyzers to .NET analyzers
+- [Code analysis FAQ](../code-quality/analyzers-faq.yml) - Added documentation to migrate from FxCop analyzers to .NET analyzers
 - [Fxcop rule port status](../code-quality/fxcop-rule-port-status.md) - Added documentation to migrate from FxCop analyzers to .NET analyzers
 - [Deprecated rules](../code-quality/fxcop-unported-deprecated-rules.md) - Added documentation to migrate from FxCop analyzers to .NET analyzers
 - [Unported rules that may be ported](../code-quality/fxcop-unported-rules-may-get-ported.md) - Added documentation to migrate from FxCop analyzers to .NET analyzers

@@ -41,7 +41,7 @@ ms.workload:
 Breakpoints are one of the most important debugging techniques in your developer's toolbox. You set breakpoints wherever you want to pause debugger execution. For example, you may want to see the state of code variables or look at the call stack at a certain breakpoint.  If you are trying to resolve a warning or issue while using breakpoints, see [Troubleshoot breakpoints in the Visual Studio debugger](../debugger/troubleshooting-breakpoints.md).
 
 > [!NOTE]
-> If you know the task or problem you're trying to solve, but you need to know what kind of breakpoint to use, see [FAQ - Find your debugging feature](../debugger/find-your-debugging-task.md#pause-running-code).
+> If you know the task or problem you're trying to solve, but you need to know what kind of breakpoint to use, see [FAQ - Find your debugging feature](../debugger/find-your-debugging-task.yml#pause-running-code).
 
 ## <a name="BKMK_Overview"></a> Set breakpoints in source code
 
