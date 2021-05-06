@@ -137,7 +137,7 @@
   - name: Configure and use
     href: live-unit-testing.md
   - name: FAQ
-    href: live-unit-testing-faq.md
+    href: live-unit-testing-faq.yml
 - name: Web performance and load testing
   items:
   - name: "Quickstart: Create a load test project"

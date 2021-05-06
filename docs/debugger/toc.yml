@@ -415,7 +415,7 @@
     - name: Debug a live Azure Kubernetes app
       href: debug-live-azure-kubernetes.md
     - name: FAQ for snapshot debugging
-      href: debug-live-azure-apps-faq.md
+      href: debug-live-azure-apps-faq.yml
     - name: Troubleshooting snapshot debugging
       href: debug-live-azure-apps-troubleshooting.md
     - name: Time Travel Debugging live Azure virtual machine app
@@ -949,6 +949,6 @@
 - name: Resources
   items:
   - name: FAQ - Find your debugging feature
-    href: find-your-debugging-task.md
+    href: find-your-debugging-task.yml
   - name: What's new for the debugger in Visual Studio
     href: what-s-new-for-the-debugger-in-visual-studio.md

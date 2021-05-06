@@ -28,7 +28,7 @@ landingContent:
           - text: First look at the debugger
             url: debugger-feature-tour.md
           - text: FAQ - Find your debugging feature
-            url: find-your-debugging-task.md
+            url: find-your-debugging-task.yml
 
   # Card (optional)
   - title: Get started

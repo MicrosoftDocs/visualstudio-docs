@@ -23,9 +23,9 @@ Many of the legacy analysis (FxCop) rules have already been rewritten for .NET a
 
 For more information on the differences between legacy analysis and source analysis, see the following:
 
-- [Source code analysis versus legacy analysis](../code-quality/net-analyzers-faq.md#whats-the-difference-between-legacy-fxcop-and-net-analyzers)
+- [Source code analysis versus legacy analysis](../code-quality/net-analyzers-faq.yml#what-s-the-difference-between-legacy-fxcop-and--net-analyzers-)
 
-- [FAQ about .NET analyzers](../code-quality/net-analyzers-faq.md)
+- [FAQ about .NET analyzers](../code-quality/net-analyzers-faq.yml)
 
 ## Migration
 
