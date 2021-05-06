@@ -165,4 +165,4 @@ vsregedit set “C:\Program Files (x86)\Microsoft Visual Studio\Preview\Enterpri
 - <xref:Microsoft.VisualStudio.TestTools.UnitTesting?displayProperty=fullName>
 - [Create and run unit tests for existing code](/previous-versions/dd293546(v=vs.110))
 - [Unit test your code](unit-test-your-code.md)
-- [Live unit testing FAQ](live-unit-testing-faq.md)
+- [Live unit testing FAQ](live-unit-testing-faq.yml)

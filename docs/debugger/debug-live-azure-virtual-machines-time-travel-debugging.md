@@ -99,7 +99,7 @@ When a snappoint is turned on, it captures a snapshot whenever the line of code 
 
     The website itself is still live and end users aren't impacted by any subsequent TTD activity. Only one snapshot is captured per snappoint by default: after a snapshot is captured the snappoint turns off. If you want to capture another snapshot at the snappoint, you can turn the snappoint back on by clicking **Update Collection**.
 
-**Need help?** See the [Troubleshooting and known issues](../debugger/debug-live-azure-apps-troubleshooting.md) and [FAQ for snapshot debugging](../debugger/debug-live-azure-apps-faq.md) pages.
+**Need help?** See the [Troubleshooting and known issues](../debugger/debug-live-azure-apps-troubleshooting.md) and [FAQ for snapshot debugging](../debugger/debug-live-azure-apps-faq.yml) pages.
 
 ## Set a conditional snappoint
 
@@ -110,4 +110,4 @@ If it is difficult to recreate a particular state in your app, consider whether 
 In this tutorial, you've learned how to collect a time travel recording for Azure Virtual Machines. You may want to read more details about Snapshot Debugger.
 
 > [!div class="nextstepaction"]
-> [FAQ for snapshot debugging](../debugger/debug-live-azure-apps-faq.md)
+> [FAQ for snapshot debugging](../debugger/debug-live-azure-apps-faq.yml)
