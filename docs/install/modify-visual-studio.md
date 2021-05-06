@@ -1,5 +1,5 @@
 ---
-title: Modify Visual Studio
+title: "Modify Visual Studio workloads, components, & language packs"
 titleSuffix: ''
 description: Learn how to modify Visual Studio, step-by-step.
 ms.date: 10/12/2020
@@ -19,7 +19,7 @@ ms.workload:
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
 ---
-# Modify Visual Studio by adding or removing workloads and components
+# Modify Visual Studio workloads, components, and language packs
 
 ::: moniker range="vs-2019"
 
@@ -33,17 +33,15 @@ Not only have we made it easier for you to personalize Visual Studio to match th
 
 ::: moniker-end
 
-Here's how.
+## Prerequisites
 
->[!IMPORTANT]
->To install, update, or modify Visual Studio, you must log on with an account that has administrative permissions. For more information, see [User permissions and Visual Studio](../ide/user-permissions-and-visual-studio.md).
++ To install, update, or modify Visual Studio, you must log on with an account that has administrative permissions. For more information, see [User permissions and Visual Studio](../ide/user-permissions-and-visual-studio.md).
 
->[!NOTE]
-> The following procedures assume that you have an internet connection.
->
-> For more information about how to modify a previously created [offline installation](create-an-offline-installation-of-visual-studio.md) of Visual Studio, see both the [Update a network-based installation of Visual Studio](update-a-network-installation-of-visual-studio.md) page and the [Control updates to network-based Visual Studio deployments](controlling-updates-to-visual-studio-deployments.md) page.
++ The following procedures assume that you have an internet connection. For more information about how to modify a previously created [offline installation](create-an-offline-installation-of-visual-studio.md) of Visual Studio, see both the [Update a network-based installation of Visual Studio](update-a-network-installation-of-visual-studio.md) page and the [Control updates to network-based Visual Studio deployments](controlling-updates-to-visual-studio-deployments.md) page.
 
-## Open the Visual Studio Installer
+## Launch the installer
+
+To make modifications to your installation, you need to launch the Visual Studio installer.
 
 ::: moniker range="vs-2017"
 
@@ -93,13 +91,15 @@ Here's how.
 
 ::: moniker-end
 
-## Modify workloads
+## Change workloads or individual components
 
 ::: moniker range="vs-2017"
 
  [Workloads](https://visualstudio.microsoft.com/vs/support/selecting-workloads-visual-studio-2017/) contain the features you need for the programming language or platform that you're using. Use workloads to modify Visual Studio so that it supports the work you want to do, when you want to do it.
 
 1. In the Visual Studio Installer, choose the **Workloads** tab, and then select or deselect the workloads that you want.
+
+   Alternately, if you don't want to use workloads to customize your Visual Studio installation, choose the **Individual Components** tab and  select the components you want, and then follow the prompts.
 
     ![Visual Studio 2017 setup dialog](media/modify-workloads.png "Choose a workload in Visual Studio 2019")
 
@@ -110,6 +110,9 @@ Here's how.
     The "Download all, then install" option is handy if you want to download first and then install later.
 
 1. Choose **Modify**.
+
+1. If desired, choose the **Workloads** tab, and then select or deselect the workloads that you want.
+
 
 1. After the new workloads are installed, choose **Launch** from the Visual Studio Installer to open Visual Studio.
 
@@ -122,7 +125,7 @@ Here's how.
  > [!TIP]
 >For more information about which tool and component bundles you need for development, see [Visual Studio workloads](https://visualstudio.microsoft.com/vs/#workloads).
 
-1. In in the Visual Studio Installer, choose the **Workloads** tab, and then select or deselect the workloads that you want.
+1. In the Visual Studio Installer, choose the **Workloads** tab, and then select or deselect the workloads that you want.
 
     ![Visual Studio 2019 setup dialog](media/vs-2019/vs-installer-modify-workloads.png "Choose a workload in Visual Studio 2019")
 
@@ -138,16 +141,18 @@ Here's how.
 
 ::: moniker-end
 
-## Modify individual components
-
-If you don't want to use workloads to customize your Visual Studio installation, choose the **Individual Components** tab in the Visual Studio Installer, select the components you want, and then follow the prompts.
 
 >[!TIP]
 > For information about the SQL Server Data Tools (SSDT) component, see [Download and install SSDT for Visual Studio](/sql/ssdt/download-sql-server-data-tools-ssdt?view=sql-server-ver15&preserve-view=true).
 
 ## Modify language packs
 
-By default, the installer matches the language of the operating system when it runs for the first time. However, you can change the language whenever you want. To do so, choose the **Language packs** tab in the Visual Studio Installer, select the language you prefer, and then follow the prompts.
+By default, the installer matches the language of the operating system when it runs for the first time. However, you can change the language whenever you want. 
+
+To do so:
+1. Choose the **Language packs** tab in the Visual Studio Installer.
+2. Select the language you prefer.
+3. Follow the prompts.
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
@@ -156,6 +161,4 @@ By default, the installer matches the language of the operating system when it r
 * [List of Visual Studio workload & component IDs](workload-and-component-ids.md)
 * [Update Visual Studio](update-visual-studio.md)
 * [Update a network-based installation of Visual Studio](update-a-network-installation-of-visual-studio.md)
-* [Update Visual Studio while on a servicing baseline](update-servicing-baseline.md)
-* [Control updates to network-based Visual Studio deployments](controlling-updates-to-visual-studio-deployments.md)
 * [Uninstall Visual Studio](uninstall-visual-studio.md)
