@@ -14,11 +14,11 @@ ms.workload:
 
 In this article, you learn about one of the metrics designed specifically for object-oriented analysis: Depth of Inheritance. Depth of inheritance, also called depth of inheritance tree (DIT), is defined as “the maximum length from the node to the root of the tree” [CK](#ck). You can see this with a simple example. Create a new Class Library project and, before writing any code, calculate the code metrics by choosing **Analyze > Calculate Code Metrics for Solution**.
 
-image
+![Depth of inheritance example 1](media/depth-of-inheritance-example-1.png)
 
 Since all classes inherit from `System.Object`, the depth is 1 currently. If you inherit from this class and examine the new class, you can see the result:
 
-image
+![Depth of inheritance example 2](media/depth-of-inheritance-example-2.png)
 
 Notice that the lower the node in the tree (`Class2` in this case), the higher the depth of inheritance. You could continue to create children and cause the depth to increase as much as you want.
 
@@ -48,13 +48,13 @@ Here is how you read the depth metric:
 
 ## Code Analysis
 
-When using code analysis, the Extended Design Guideline rule set contains a maintainability area:
+Code analysis includes a category of Maintainability rules. For more information, see [Maintainability rules](/dotnet/fundamentals/code-analysis/quality-rules/maintainability-warnings). When using legacy code analysis, the Extended Design Guideline rule set contains a maintainability area:
 
-image
+![Depth of inheritance design guidelines rule sets](media/depth-of-inheritance-design-guidelines.png)
 
 Inside the maintainability area is a rule for inheritance:
 
-image
+![Depth of inheritance maintainability rule](media/depth-of-inheritance-maintainability-rule.png)
 
 This rule issues a warning when the depth of inheritance reaches 6 or greater, so it is a good rule to help prevent excessive inheritance. To learn more about the rule, see [CA1501](/dotnet/fundamentals/code-analysis/quality-rules/ca1501).
 

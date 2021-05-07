@@ -60,7 +60,7 @@ As described by the Software Assurance Technology Center (SATC) at NASA:
 
 ## Code Analysis
 
-When using code analysis, the Design Guideline rule sets contain maintainability areas:
+Code analysis includes a category of Maintainability rules. For more information, see [Maintainability rules](/dotnet/fundamentals/code-analysis/quality-rules/maintainability-warnings). When using legacy code analysis, the Extended Design Guideline rule set contains a maintainability area:
 
 ![Cyclomatic complexity design guidelines rule sets](media/cyclomatic-complexity-design-guidelines.png)
 
