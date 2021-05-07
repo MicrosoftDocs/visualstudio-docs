@@ -68,7 +68,7 @@ Inside the maintainability area is a rule for complexity:
 
 ![Cyclomatic complexity maintainability rule](media/cyclomatic-complexity-maintainability-rule.png)
 
-This rule issues a warning when the cyclomatic complexity reaches 25, so it can help you avoid excessive complexity. You can learn more about the rule in [Troubleshooting code metrics issues](/previous-versions/visualstudio/visual-studio-2015/test/troubleshooting-code-metrics-issues)
+This rule issues a warning when the cyclomatic complexity reaches 25, so it can help you avoid excessive complexity. To learn more about the rule, see [CA1502](/dotnet/fundamentals/code-analysis/quality-rules/ca1502)
 
 ## Putting It All Together
 
