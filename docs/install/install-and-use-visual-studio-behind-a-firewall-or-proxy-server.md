@@ -1,7 +1,7 @@
 ---
 title: Install and use behind a firewall or proxy server
 description: Review the domain URLs, ports, and protocols that you might want to add to an allow list or open if your organization uses a firewall or a proxy server
-ms.date: 06/17/2020
+ms.date: 05/07/2021
 ms.custom: seodec18
 ms.topic: conceptual
 helpviewer_keywords:
@@ -55,6 +55,8 @@ Because the Visual Studio Installer downloads files from various domains and the
 | \*.windows.net | Sign-in location |
 | \*.microsoftonline.com | Sign-in location |
 | \*.live.com | Sign-in location |
+| github-releases.githubusercontent.com | Linux Development |
+| az837173.vo.msecnd.net | Development with Azure Storage |
 | | |
 
 #### Non-Microsoft domains
