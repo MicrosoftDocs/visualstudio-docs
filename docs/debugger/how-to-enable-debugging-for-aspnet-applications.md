@@ -45,7 +45,7 @@ You can also debug an ASP.NET or ASP.NET Core app on a local IIS server (version
 
 IIS Express is the default, and is preconfigured. If you're debugging on Local IIS, make sure you meet the [requirements for local IIS debugging](#iis).
 
-1. Select the ASP.NET project in Visual Studio **Solution Explorer** and click the **Properties** icon, press **Alt**+**Enter**, or right-click and choose **Properties**.
+1. Select the ASP.NET project in Visual Studio **Solution Explorer** and click the **Properties** icon, or press **Alt**+**Enter**, or right-click and choose **Properties**.
 
 1. Select the **Web** tab.
 
@@ -59,7 +59,7 @@ IIS Express is the default, and is preconfigured. If you're debugging on Local I
 
    ![ASP.NET debugger settings](media/dbg-aspnet-enable-debugging2.png "ASP.NET debugger settings")
 
-1. Use **File** > **Save Selected Items** or **Ctrl**+**S** to save any changes.
+1. Choose **File** > **Save Selected Items** (or press **Ctrl**+**S**) to save any changes.
 
 1. To debug the app, in your project, set breakpoints on some code. In the Visual Studio toolbar, make sure the configuration is set to **Debug**, and the browser you want appears in **IIS Express (\<Browser name>)** or **Local IIS (\<Browser name>)** in the emulator field.
 
@@ -69,7 +69,7 @@ IIS Express is the default, and is preconfigured. If you're debugging on Local I
 
 IIS Express is the default, and is preconfigured. If you're debugging on Local IIS, make sure you meet the [requirements for local IIS debugging](#iis).
 
-1. Select the ASP.NET Core project in Visual Studio **Solution Explorer** and click the **Properties** icon, press **Alt**+**Enter**, or right-click and choose **Properties**.
+1. Select the ASP.NET Core project in Visual Studio **Solution Explorer** and click the **Properties** icon, or press **Alt**+**Enter**, or right-click and choose **Properties**.
 
 1. Select the **Debug** tab.
 
