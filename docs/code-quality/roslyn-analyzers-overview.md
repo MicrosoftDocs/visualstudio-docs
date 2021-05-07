@@ -95,6 +95,6 @@ You cannot configure the severity of rules from analyzers that were installed as
 
 ## See also
 
-- [Analyzers FAQ](analyzers-faq.md)
+- [Analyzers FAQ](analyzers-faq.yml)
 - [Write your own code analyzer](../extensibility/getting-started-with-roslyn-analyzers.md)
 - [.NET Compiler Platform SDK](/dotnet/csharp/roslyn-sdk/)

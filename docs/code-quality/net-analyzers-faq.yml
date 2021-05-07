@@ -1,0 +1,74 @@
+### YamlMime:FAQ
+metadata:
+  title: FxCop code analysis (binary analysis) and .NET analyzers (source analysis)
+  ms.date: 09/06/2018
+  description: Understand the difference between legacy FxCop (binary analysis) and .NET analyzers (source analysis) in Visual Studio. See answers to questions about how to use these analyzers.
+  ms.custom: SEO-VS-2020
+  ms.topic: conceptual
+  helpviewer_keywords:
+  - code analysis FAQ
+  author: mikejo5000
+  ms.author: mikejo
+  manager: jmartens
+  ms.workload:
+  - dotnet
+    
+title: Frequently asked questions about legacy FxCop and .NET analyzers
+summary: It can be a little confusing to understand the differences between legacy FxCop (binary analysis) and .NET analyzers (source analysis). This article aims to address some of questions you might have.
+
+
+sections:
+  - name: Ignored
+    questions:
+      - question: |
+          What's the difference between legacy FxCop and .NET analyzers?
+        answer: |
+          Legacy FxCop runs post-build analysis on a compiled assembly. It runs as a separate executable called **FxCopCmd.exe**. FxCopCmd.exe loads the compiled assembly, runs code analysis, and then reports the results (or *diagnostics*).
+          
+          .NET analyzers are based on the .NET Compiler Platform ("Roslyn"). You [enable them from the .NET SDK or install them as a NuGet package](install-net-analyzers.md) that's referenced by the project or solution. Analyzers run source-code based analysis during compiler execution. Analyzers are hosted within the compiler process, either **csc.exe** or **vbc.exe**, and run analysis when the project is built. Analyzer results are reported along with compiler results.
+          
+      - question: |
+          What's the difference between FxCop analyzers and .NET analyzers?
+        answer: |
+          Both FxCop analyzers and .NET analyzers refers to the .NET Compiler Platform ("Roslyn") analyzer implementations of FxCop CA rules. Prior to Visual Studio 2019 16.8 and .NET 5.0, these analyzers shipped as `Microsoft.CodeAnalysis.FxCopAnalyzers` [NuGet package](https://www.nuget.org/packages/Microsoft.CodeAnalysis.FxCopAnalyzers). Starting in Visual Studio 2019 16.8 and .NET 5.0, these analyzers are [included with the .NET SDK](/dotnet/fundamentals/code-analysis/overview). They are also available as `Microsoft.CodeAnalysis.NetAnalyzers` [NuGet package](https://www.nuget.org/packages/Microsoft.CodeAnalysis.NetAnalyzers). Please consider [migrating from FxCop analyzers to .NET analyzers](migrate-from-fxcop-analyzers-to-net-analyzers.md).
+          
+      - question: |
+          Does the Run Code Analysis command run .NET analyzers?
+        answer: |
+          Prior to Visual Studio 2019 16.5 release, when you select **Analyze** > **Run Code Analysis**, it executes legacy analysis. Starting Visual Studio 2019 16.5, **Run Code Analysis** menu option executes Roslyn-based analyzers for the selected project or solution. If you have installed .NET analyzers, they would also be executed. For more information, see [How to: Run Code Analysis Manually for Managed Code](how-to-run-code-analysis-manually-for-managed-code.md).
+          
+      - question: |
+          Does the RunCodeAnalysis msbuild project property run analyzers?
+        answer: |
+          No. The **RunCodeAnalysis** property in a project file (for example, *.csproj*) is only used to execute legacy FxCop. It runs a post-build msbuild task that invokes **FxCopCmd.exe**.
+
+      - question: |
+          So how do I run .NET analyzers then?
+        answer: |
+          To run .NET analyzers, first [enable them from the .NET SDK or install them as a NuGet package](install-net-analyzers.md). Then build your project or solution from Visual Studio or using msbuild. The warnings and errors that the Roslyn analyzers generate will appear in the **Error List** or the command window.
+          
+      - question: |
+          I get warning CA0507 even after I've installed the .NET analyzers NuGet package
+        answer: |
+          If you've installed .NET analyzers but continue to get warning CA0507 **""Run Code Analysis" has been deprecated in favor of FxCop analyzers, which run during build"**, you may need to set the **RunCodeAnalysis** msbuild property in your [project file](../ide/solutions-and-projects-in-visual-studio.md#project-file) to **false**. Otherwise, legacy analysis will execute after each build.
+          
+          ```xml
+          <RunCodeAnalysis>false</RunCodeAnalysis>
+          ```
+          
+      - question: |
+          Which rules have been ported to .NET analyzers?
+        answer: |
+          For information about which legacy analysis rules have been ported to .NET analyzers, see [Fxcop rule port status](fxcop-rule-port-status.md).
+          
+      - question: |
+          Code analysis warnings are treated as errors
+        answer: |
+          If your project uses the build option to treat warnings as errors, analyzer warnings may appear as errors. To prevent code analysis warnings from being treated as errors, follow the steps at [Code analysis FAQ](/visualstudio/code-quality/analyzers-faq#treat-warnings-as-errors).
+          
+      - question: |
+          See also
+        answer: |
+          - [Overview of .NET Compiler Platform analyzers](roslyn-analyzers-overview.md)
+          - [Migrate to .NET analyzers](migrate-from-legacy-analysis-to-net-analyzers.md)
+          - [Install .NET analyzers](install-net-analyzers.md)

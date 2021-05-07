@@ -79,7 +79,6 @@ Using this feature makes it easy to stay on top of your subscription assignments
 > The following limitations apply to the use of Azure AD groups for adding subscribers:
 > - The admin must be a member of the AAD tenant when initially adding a group to the admin portal.  After the group has been added, changes to the membership of the groups does not require admin involvement. 
 > - Groups must contain at least one member.  Empty groups are not supported.
-> - Groups must have less than 1,000 users. 
 > - All users must be in the top level of the group.  Nested groups are not supported.
 > - Only trusted agreements are supported. (Only agreements who can 'overallocate' subscriptions are trusted.)
 > - All members of the group must have an email address associated with their Azure AD account.
