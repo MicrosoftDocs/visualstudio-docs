@@ -69,8 +69,8 @@ webpack bundles JavaScript files so they can run in a browser. It can also trans
     This tutorial was tested with version 12.6.2.
 
     If you don't have it installed, we recommend you install the LTS version from the [Node.js](https://nodejs.org/en/download/) website for best compatibility with outside frameworks and libraries. Node.js is built for 32-bit and 64-bit architectures. The Node.js tools in Visual Studio, included in the Node.js workload, support both versions. Only one is required and the Node.js installer only supports one being installed at a time.
-    
-    In general, Visual Studio automatically detects the installed Node.js runtime. If it does not detect an installed runtime, you can configure your project to reference the installed runtime in the properties page (after you create a project, right-click the project node, choose **Properties**, and set the **Node.exe path**). You can use a global installation of Node.js or you can specify the path to a local interpreter in each of your Node.js projects. 
+
+    In general, Visual Studio automatically detects the installed Node.js runtime. If it does not detect an installed runtime, you can configure your project to reference the installed runtime in the properties page (after you create a project, right-click the project node, choose **Properties** (or press **Alt** + **Enter**), and set the **Node.exe path**). You can use a global installation of Node.js or you can specify the path to a local interpreter in each of your Node.js projects. 
 
 ## Create a project
 
@@ -94,7 +94,7 @@ First, create a Node.js web application project.
 
     ![Node.js project in Solution Explorer](../javascript/media/tutorial-nodejs-react-project-structure.png)
 
-    (1) Highlighted in **bold** is your project, using the name you gave in the **New Project** dialog box. In the file system, this project is represented by a *.njsproj* file in your project folder. You can set properties and environment variables associated with the project by right-clicking the project and choosing **Properties**. You can do round-tripping with other development tools, because the project file does not make custom changes to the Node.js project source.
+    (1) Highlighted in **bold** is your project, using the name you gave in the **New Project** dialog box. In the file system, this project is represented by a *.njsproj* file in your project folder. You can set properties and environment variables associated with the project by right-clicking the project and choosing **Properties** (or press **Alt** + **Enter**). You can do round-tripping with other development tools, because the project file does not make custom changes to the Node.js project source.
 
     (2) At the top level is a solution, which by default has the same name as your project. A solution, represented by a *.sln* file on disk, is a container for one or more related projects.
 
@@ -152,7 +152,7 @@ This app requires a number of npm modules to run correctly.
 
     This command runs the npm install command directly.
 
-    In the lower pane, select the **Output** window to see progress on installing the packages. Installation may take a few minutes and you may not see results immediately. To see the output, make sure that you select **Npm** in the **Show output from** field in the **Output** window.
+    In the lower pane, select the **Output** window to see progress on installing the packages. Installation may take a few minutes and you may not see results immediately. To see the output, make sure that you select **Npm** in the **Show output from** field in the **Output** window. (To open the window, choose **View** > **Output** or press **Ctrl** + **Alt** + **O**.)
 
     Here are the npm modules as they appear in Solution Explorer after they are installed.
 
@@ -172,7 +172,7 @@ In these steps, you add four new files to your project.
 
 For this simple app, you add the new project files in the project root. (In most apps, you typically add the files to subfolders and adjust relative path references accordingly.)
 
-1. In Solution Explorer, right-click the project **NodejsWebAppBlank** and choose **Add** > **New Item**.
+1. In Solution Explorer, right-click the project **NodejsWebAppBlank** and choose **Add** > **New Item** (or press **Ctrl** + **SHIFT** + **A**).
 
 1. In the **Add New Item** dialog box, choose **TypeScript JSX file**, type the name *app.tsx*, and select **Add** or **OK**.
 
@@ -465,10 +465,10 @@ For this scenario, use Chrome.
 
     The app opens in a new browser tab.
 
-4. Choose **Debug** > **Attach to Process**.
+4. Choose **Debug** > **Attach to Process** (or press **Ctrl** + **Alt** + **P**).
 
     > [!TIP]
-    > Starting in Visual Studio 2017, once you attach to the process the first time by following these steps, you can quickly reattach to the same process by choosing **Debug** > **Reattach to Process**.
+    > Starting in Visual Studio 2017, once you attach to the process the first time by following these steps, you can quickly reattach to the same process by choosing **Debug** > **Reattach to Process** (or press **Shift** + **Alt** + **P**).
 
 5. In the **Attach to Process** dialog box, get a filtered list of browser instances that you can attach to.
 
