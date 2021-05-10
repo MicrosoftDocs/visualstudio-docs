@@ -6,7 +6,7 @@ manager: jmartens
 ms.technology: vs-azure
 ms.devlang: dotnet
 ms.topic: how-to
-ms.date: 04/30/2021
+ms.date: 05/10/2021
 ms.author: ghogen
 monikerRange: ">=vs-2019"
 ---
@@ -23,7 +23,7 @@ For information about Docker Compose profiles, see [Using profiles with Compose]
 
 ## Managing launch settings
 
-Consider a Docker Compose project in which the *docker-compose.yml* has the following 5 services defined. It has 3 Compose profiles (web, web1 and web2).
+Consider the following Docker Compose project in which the *docker-compose.yml* has five services and three Compose profiles (web, web1 and web2).
 
 ```yml
 version: '3.9'
@@ -59,11 +59,15 @@ services:
 ```
 
 There are a few options to open the Docker Compose launch settings dialog:
-- In Visual Studio, choose **Debug** > **Manage Docker Compose Launch Settings**
-    ![Screenshot of Debug Manage Compose Settings menu item](media/launch-settings/debug_dropdown_manage_compose.png)
-- Right-click on the Visual Studio `docker-compose` project and select **Manage Docker Compose Launch Settings**
-- Use the Quick Launch (**Ctrl**+**Q**) and search for **Docker Compose** to find the aforementioned command.
+- In Visual Studio, choose **Debug** > **Manage Docker Compose Launch Settings**:
 
+    ![Screenshot of Debug Manage Compose Settings menu item](media/launch-settings/debug_dropdown_manage_compose.png)
+
+- Right-click on the Visual Studio `docker-compose` project and select **Manage Docker Compose Launch Settings**
+
+    ![Screenshot of the context menu item](media/launch-settings-context-menu.png)
+
+- Use the Quick Launch (**Ctrl**+**Q**) and search for **Docker Compose** to find the aforementioned command.
 
 In the example below, the user selected the `web1` Compose profile. This filters the **Services** list to only the 3 out of 5 included in that profile:
 
@@ -75,7 +79,7 @@ The next example demonstrates selecting between individual services instead of f
 
 ![Screenshot of launch settings dialog with some services deselected](media/launch-settings/launch-settings-selected.png)
 
-And this information will be saved in the launchSettings.json as shown below
+And this information will be saved in *launchSettings.json* as shown below
 
 ```json
 {
@@ -142,7 +146,7 @@ You can also change the action of webapplication1 to **Start without debugging**
 
 ```json
 {
-    "profiles": {
+  "profiles": {
     "test1": {
         "commandName": "DockerCompose",
         "composeProfile": {
@@ -155,7 +159,7 @@ You can also change the action of webapplication1 to **Start without debugging**
     },
     "commandVersion": "1.0"
     }
-    }
+  }
 }
 ```
 
@@ -167,12 +171,13 @@ Here is a description of each property in the *launchSettings.json*:
 | - | - |
 |commandName| Name of the command. Defaults to “DockerCompose”|
 |commandVersion| Version number used to manage the schema of the DockerCompose launch profile.|
+|composeProfile| Parent property that, together with its child properties, includes and serviceActions, determines the launch profile definition and launch action.|
 |composeProfile| Parent property that holds properties when the launch profile is created based on compose profile.|
 |composeProfile - includes | List of the Compose profile names that make up a launch profile.|
 |composeProfile - serviceActions | Lists the selected Compose profiles, services, and the launch action of each service|
 |serviceActions | Lists the selected services and the launch action.|
 |composeLaunchServiceName| If DockerLaunchAction or DockerLaunchBrowser are specified, DockerServiceName is the name of the service that should be launched. Use this property to determine which service within the Docker Compose file will be launched|
-|composeLaunchAction| Specifies the launch action to perform on F5 or Ctrl+F5. Allowed values are None, LaunchBrowser, and LaunchWCFTestClient.|
+|composeLaunchAction| Specifies the launch action to perform on **F5** or **Ctrl**+**F5**. Allowed values are None, LaunchBrowser, and LaunchWCFTestClient.|
 |composeLaunchUrl| The URL to use when launching the browser. Valid replacement tokens are "{ServiceIPAddress}", "{ServicePort}", and "{Scheme}". For example: {Scheme}://{ServiceIPAddress}:{ServicePort}|
 
 ## Next steps
