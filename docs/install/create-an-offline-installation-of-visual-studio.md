@@ -158,7 +158,7 @@ Open a command prompt and use the bootstrapper's parameters as defined in the [U
 ::: moniker range="vs-2019"
 
    > [!NOTE]
-   > A complete Visual Studio layout requires a minimum of 35 GB of disk space. For more information, see [System requirements](/visualstudio/releases/2019/system-requirements/).
+   > A complete Visual Studio layout requires a minimum of 41 GB of disk space. For more information, see [System requirements](/visualstudio/releases/2019/system-requirements/).
 
 ::: moniker-end
 
