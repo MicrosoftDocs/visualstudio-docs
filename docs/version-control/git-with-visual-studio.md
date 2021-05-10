@@ -9,8 +9,6 @@ author: TerryGLee
 ms.prod: visual-studio-windows
 ms.technology: vs-general-ide
 ms.manager: jmartens
-ms.prod: visual-studio-windows
-ms.technology: vs-general-ide
 ---
 # Git experience in Visual Studio
 
