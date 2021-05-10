@@ -88,17 +88,17 @@ And this information will be saved in *launchSettings.json* as shown below
         "commandName": "DockerCompose",
         "composeLaunchServiceName": "webapplication1",
         "serviceActions": {
-        "external1": "DoNotStart",
-        "external2": "DoNotStart",
-        "webapplication1": "StartDebugging",
-        "webapplication2": "StartWithoutDebugging",
-        "webapplication3": "DoNotStart"
+          "external1": "DoNotStart",
+          "external2": "DoNotStart",
+          "webapplication1": "StartDebugging",
+          "webapplication2": "StartWithoutDebugging",
+          "webapplication3": "DoNotStart"
         },
         "composeLaunchAction": "LaunchBrowser",
         "commandVersion": "1.0",
         "composeLaunchUrl": "{Scheme}://localhost:{ServicePort}"
       }
-    }
+   }
 }
 ```
 
@@ -116,29 +116,17 @@ This information will be saved as shown in the following code. Note that service
 
 ```json
 {
-    "profiles": {
+  "profiles": {
     "test1": {
-        "commandName": "DockerCompose",
-        "composeProfile": {
-          "includes": [
-              "web1"
-          ]
-        },
-        "commandVersion": "1.0"
-      }
-    }
-}
-    "profiles": {
-    "test1": {
-        "commandName": "DockerCompose",
-        "composeProfile": {
-        "includes": [
+      "commandName": "DockerCompose",
+      "composeProfile": {
+         "includes": [
             "web1"
-        ]
-        },
-        "commandVersion": "1.0"
+         ]
+      },
+      "commandVersion": "1.0"
     }
-    }
+  }
 }
 ```
 
@@ -150,13 +138,13 @@ You can also change the action of webapplication1 to **Start without debugging**
     "test1": {
         "commandName": "DockerCompose",
         "composeProfile": {
-        "includes": [
-            "web1"
-            ],
-        "serviceActions": {
-            "webapplication1": "StartWithoutDebugging"
-        }
-    },
+          "includes": [
+              "web1"
+              ],
+          "serviceActions": {
+              "webapplication1": "StartWithoutDebugging"
+          }
+        },
     "commandVersion": "1.0"
     }
   }
