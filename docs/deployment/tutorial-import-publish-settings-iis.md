@@ -64,7 +64,7 @@ A publish settings file (*\*.publishsettings*) is different than a publishing pr
 
     Visual Studio creates the project.
 
-1. Choose **Build** > **Build Solution** to build the project.
+1. Choose **Build** > **Build Solution** (or press **Ctrl** + **Shift** + **B**) to build the project.
 
 ## Install and configure Web Deploy on Windows Server
 
