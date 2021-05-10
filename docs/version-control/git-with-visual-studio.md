@@ -6,7 +6,11 @@ ms.date: 04/01/2021
 ms.topic: overview
 ms.author: tglee
 author: TerryGLee
-ms.manager: jillfra
+ms.prod: visual-studio-windows
+ms.technology: vs-general-ide
+ms.manager: jmartens
+ms.prod: visual-studio-windows
+ms.technology: vs-general-ide
 ---
 # Git experience in Visual Studio
 
