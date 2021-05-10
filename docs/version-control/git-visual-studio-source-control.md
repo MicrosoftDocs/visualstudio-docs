@@ -8,7 +8,7 @@ ms.author: tglee
 author: TerryGLee
 ms.manager: jmartens
 ms.prod: visual-studio-windows
-ms.technology: vs-general-ide
+ms.technology: vs-ide-general
 ---
 
 # How Visual Studio makes source control easy

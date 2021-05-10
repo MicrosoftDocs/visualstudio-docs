@@ -7,7 +7,7 @@ ms.topic: overview
 ms.author: tglee
 author: TerryGLee
 ms.prod: visual-studio-windows
-ms.technology: vs-general-ide
+ms.technology: vs-ide-general
 ms.manager: jmartens
 ---
 # Git experience in Visual Studio
