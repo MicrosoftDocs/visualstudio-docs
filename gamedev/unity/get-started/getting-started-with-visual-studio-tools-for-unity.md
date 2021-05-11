@@ -79,7 +79,7 @@ By default, Unity should already be configured to use Visual Studio or Visual St
     ![The External Tools preference menu in the Unity Editor on Windows](../media/vs/preferences-external-tools.png)
 
 4. If **Browse...** was selected, navigate to the **Common7/IDE** directory inside your Visual Studio installation directory and select **devenv.exe**. Then, click **Open**.
-5. Once Visual Studio is selected in the **External Script Editor** list, confirm that the **Editor Attaching** checkbox is selected.
+5. Once Visual Studio is selected in the **External Script Editor** list, confirm that the **Editor Attaching** checkbox is selected. Unity 2020 and newer will not have this option and this step can be skipped.
 6. Close the **Preferences** dialog to complete the configuration process.
 
 :::zone-end
