@@ -66,8 +66,6 @@ Inside the maintainability area is a rule for class coupling:
 
 This rule issues a warning when the class coupling is excessive. For more information, see [CA1506: Avoid excessive class coupling](/dotnet/fundamentals/code-analysis/quality-rules/ca1506).
 
-For a description of this rule, see the archived Code Analysis blog post: [Code Metrics as Check-in Policy](/archive/blogs/codeanalysis/code-metrics-as-check-in-policy) and the threshold description *Warning at above 80 for class and above 30 for a method*.  These values seem abnormally high, but at least provide an extreme upper limit. If you hit this warning, then something is almost certainly wrong.
-
 ## Citations
 
 ### CK94
