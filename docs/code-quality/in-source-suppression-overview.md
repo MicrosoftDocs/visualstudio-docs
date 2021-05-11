@@ -25,7 +25,7 @@ It is often useful to indicate that a warning is not applicable. This indicates 
 
 ## Suppress violations using the EditorConfig file
 
-In an **EditorConfig file**, set the severity to `none`, for example, `dotnet_diagnostic.CA1822.severity = none`. To add an EditorConfig file, see [Add an EditorConfig file to a project](../ide/create-portable-custom-editor-options?view=vs-2019#add-and-remove-editorconfig-files).
+In an **EditorConfig file**, set the severity to `none`, for example, `dotnet_diagnostic.CA1822.severity = none`. To add an EditorConfig file, see [Add an EditorConfig file to a project](../ide/create-portable-custom-editor-options.md#add-and-remove-editorconfig-files).
 
 ::: moniker-end
 
