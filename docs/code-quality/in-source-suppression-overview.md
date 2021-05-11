@@ -29,6 +29,10 @@ In an **EditorConfig file**, set the severity to `none`, for example, `dotnet_di
 
 ::: moniker-end
 
+## Suppress violations using project settings
+
+From **Solution Explorer**, open the properties for the project (right-click the project and choose **Properties** (or press **Alt + Enter**) and use the **Code Analysis** tab to configure options. For example, you can disable live code analysis or disable .NET analyzers.
+
 ## Suppress violations using a global suppression file
 
 The [global suppression file](#global-level-suppressions) uses the [SuppressMessage attribute](#in-source-suppression-and-the-suppressmessage-attribute).
@@ -49,11 +53,9 @@ The [global suppression file](#global-level-suppressions) uses the [SuppressMess
 - From the **Analyze** menu, select **Analyze** > **Run Code Analysis and Suppress Active Issues** on the menu bar to suppress all current violations. This is sometimes referred to as "baselining".
 ::: moniker-end
 
-- From **Solution Explorer**, open the properties for the project and use the **Code Analysis** tab to configure options. For example, you can disable live code analysis or disable .NET analyzers.
-
 ## Suppress violations in source code
 
-You can suppress violations in code using a preprocessor directive or the [SuppressMessage attribute](#in-source-suppression-and-the-suppressmessage-attribute).
+You can suppress violations in code using a preprocessor directive, the [#pragma warning (C#)](../../csharp/language-reference/preprocessor-directives.md#pragma-warning) or [Disable (Visual Basic)](../../visual-basic/language-reference/directives/disable-enable.md) directive to suppress the warning for only a specific line of code. Or, you can use the [SuppressMessage attribute](#in-source-suppression-and-the-suppressmessage-attribute).
 
 - From the **code editor**
 
