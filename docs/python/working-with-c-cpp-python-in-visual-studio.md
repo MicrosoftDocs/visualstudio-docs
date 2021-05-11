@@ -18,13 +18,13 @@ Modules written in C++ (or C) are commonly used to extend the capabilities of a 
 
 - Accelerator modules: because Python is an interpreted language, certain pieces of code can be written in C++ for higher performance.
 - Wrapper modules: expose existing C/C++ interfaces to Python code or expose a more "Pythonic" API that's easy to use from Python.
-- Low-level system access modules: created to access lower-level features of the CPython runtime, the operating system, or the underlying hardware.
+- Low-level system access modules: created to access lower-level features of the `CPython` runtime, the operating system, or the underlying hardware.
 
-This article walks through building a C++ extension module for CPython that computes a hyperbolic tangent and calls it from Python code. The routine is implemented first in Python to demonstrate the relative performance gain of implementing the same routine in C++.
+This article walks through building a C++ extension module for `CPython` that computes a hyperbolic tangent and calls it from Python code. The routine is implemented first in Python to demonstrate the relative performance gain of implementing the same routine in C++.
 
 This article also demonstrates two ways to make the C++ available to Python:
 
-- The standard CPython extensions as described in the [Python documentation](https://docs.python.org/3/c-api/)
+- The standard `CPython` extensions as described in the [Python documentation](https://docs.python.org/3/c-api/)
 - [PyBind11](https://github.com/pybind/pybind11), which is recommended for C++ 11 because of its simplicity.
 
 The completed sample from this walkthrough can be found on [python-samples-vs-cpp-extension](https://github.com/Microsoft/python-sample-vs-cpp-extension) (GitHub).
@@ -105,14 +105,14 @@ Follow the instructions in this section to create two identical C++ projects nam
     > [!Important]
     > A file with the *.cpp* extension is necessary to turn on the C++ property pages in the steps that follow.
 
-1. If you are using a 64-bit Python runtime, activate the **x64** configuration using the dropdown menu in the main toolbar. For a 32-bit Python rutime, activate the **Win32** configuration.
+1. If you are using a 64-bit Python runtime, activate the **x64** configuration using the dropdown menu in the main toolbar. For a 32-bit Python runtime, activate the **Win32** configuration.
 
 1. Right-click the C++ project in **Solution Explorer**, select **Properties**. The value for **Configuration** should be **Active (Debug)** and **Platform** will be **Active (x64)** or **Active (Win32)** depending on your selection in the preceding step.
 
     > [!Tip]
     > For your own projects, you will want to configure both Debug and Release configurations. Here we only
-    > configure the Debug configuration, and set it to use a *release* build of CPython, which disables some
-    > debugging features of the C++ runtime including assertions. Using CPython *debug* binaries
+    > configure the Debug configuration, and set it to use a *release* build of `CPython`, which disables some
+    > debugging features of the C++ runtime including assertions. Using `CPython` *debug* binaries
     > (`python_d.exe`) will require different settings.
 
 1. Set the specific properties as described in the following table, then select **OK**.
@@ -123,8 +123,8 @@ Follow the instructions in this section to create two identical C++ projects nam
     | | **Configuration Type** | **Dynamic Library (.dll)** |
     | **Advanced** | **Target File Extension** | **.pyd** |
     | **C/C++** > **General** | **Additional Include Directories** | Add the Python *include* folder as appropriate for your installation, for example, `c:\Python36\include`.  |
-    | **C/C++** > **Preprocessor** | **Preprocessor Definitions** | If present, change the **_DEBUG** value to **NDEBUG**, to match the non-debug version of CPython. (When using `python_d.exe`, leave this unchanged.) |
-    | **C/C++** > **Code Generation** | **Runtime Library** | **Multi-threaded DLL (/MD)** to match the non-debug version of CPython. (When using `python_d.exe`, leave this unchanged.) |
+    | **C/C++** > **Preprocessor** | **Preprocessor Definitions** | If present, change the **_DEBUG** value to **NDEBUG**, to match the non-debug version of `CPython`. (When using `python_d.exe`, leave this unchanged.) |
+    | **C/C++** > **Code Generation** | **Runtime Library** | **Multi-threaded DLL (/MD)** to match the non-debug version of `CPython`. (When using `python_d.exe`, leave this unchanged.) |
     | **Linker** > **General** | **Additional Library Directories** | Add the Python *libs* folder containing *.lib* files as appropriate for your installation, for example, `c:\Python36\libs`. (Be sure to point to the *libs* folder that contains *.lib* files, and *not* the *Lib* folder that contains *.py* files.) |
     ::: moniker-end
     ::: moniker range="=vs-2017"
@@ -134,8 +134,8 @@ Follow the instructions in this section to create two identical C++ projects nam
     | | **General** > **Target Extension** | **.pyd** |
     | | **Project Defaults** > **Configuration Type** | **Dynamic Library (.dll)** |
     | **C/C++** > **General** | **Additional Include Directories** | Add the Python *include* folder as appropriate for your installation, for example, `c:\Python36\include`.  |
-    | **C/C++** > **Preprocessor** | **Preprocessor Definitions** | If present, change the **_DEBUG** value to **NDEBUG**, to match the non-debug version of CPython. (When using `python_d.exe`, leave this unchanged.) |
-    | **C/C++** > **Code Generation** | **Runtime Library** | **Multi-threaded DLL (/MD)** to match the non-debug version of CPython. (When using `python_d.exe`, leave this unchanged.) |
+    | **C/C++** > **Preprocessor** | **Preprocessor Definitions** | If present, change the **_DEBUG** value to **NDEBUG**, to match the non-debug version of `CPython`. (When using `python_d.exe`, leave this unchanged.) |
+    | **C/C++** > **Code Generation** | **Runtime Library** | **Multi-threaded DLL (/MD)** to match the non-debug version of `CPython`. (When using `python_d.exe`, leave this unchanged.) |
     | **Linker** > **General** | **Additional Library Directories** | Add the Python *libs* folder containing *.lib* files as appropriate for your installation, for example, `c:\Python36\libs`. (Be sure to point to the *libs* folder that contains *.lib* files, and *not* the *Lib* folder that contains *.py* files.) |
     ::: moniker-end
     
@@ -173,7 +173,7 @@ Follow the instructions in this section to create two identical C++ projects nam
 
 To make the C++ DLL into an extension for Python, you first modify the exported methods to interact with Python types. You then add a function that exports the module, along with definitions of the module's methods.
 
-The sections that follow explain how to perform these steps using both the CPython extensions and PyBind11.
+The sections that follow explain how to perform these steps using both the `CPython` extensions and PyBind11.
 
 ### CPython extensions
 
@@ -291,7 +291,7 @@ The alternate method, described in the following steps, installs the module in y
 
 1. Create a file named *setup.py* in the C++ project by right-clicking the project and selecting **Add** > **New Item**. Then select **C++ File (.cpp)**, name the file `setup.py`, and select **OK** (naming the file with the *.py* extension makes Visual Studio recognize it as Python despite using the C++ file template). When the file appears in the editor, paste the following code into it as appropriate to the extension method:
 
-    **CPython extensions (superfastcode project):**
+    **`CPython` extensions (superfastcode project):**
 
     ```python
     from setuptools import setup, Extension
@@ -306,7 +306,7 @@ The alternate method, described in the following steps, installs the module in y
     )
     ```
 
-    **PyBind11 (superfastcode2 project):**
+    **`PyBind11` (superfastcode2 project):**
 
     ```python
     from setuptools import setup, Extension
@@ -381,7 +381,7 @@ After you've made the DLL available to Python as described in the previous secti
 
 1. Try increasing the `COUNT` variable so that the differences are more pronounced. A **Debug** build of the C++ module also runs slower than a **Release** build because the **Debug** build is less optimized and contains various error checks. Feel free to switch between those configurations for comparison (but remember to go back and update the properties from earlier for the **Release** configuration).
 
-In the output, you may see that the PyBind11 extension isn't as fast as the CPython extension, though it should be significantly faster than the pure Python implementation. This difference is largely because we used the `METH_O` call, which does not support multiple parameters, parameter names, or keywords arguments. PyBind11 generates slightly more complex code to provide a more Python-like interface to callers, but because the test code calls the function 500,000 times, the results may greatly amplify that overhead!
+In the output, you may see that the PyBind11 extension isn't as fast as the `CPython` extension, though it should be significantly faster than the pure Python implementation. This difference is largely because we used the `METH_O` call, which does not support multiple parameters, parameter names, or keywords arguments. PyBind11 generates slightly more complex code to provide a more Python-like interface to callers, but because the test code calls the function 500,000 times, the results may greatly amplify that overhead!
 
 We could reduce the overhead further by moving the `for` loop into the native code. This would involve using the [iterator protocol](https://docs.python.org/c-api/iter.html) (or PyBind11's `py::iterable` type for [the function parameter](https://pybind11.readthedocs.io/en/stable/advanced/functions.html#python-objects-as-args)) to process each element. Removing the repeated transitions between Python and C++ is an effective way to reduce the time taken to process the sequence.
 
@@ -420,11 +420,11 @@ Visual Studio supports debugging Python and C++ code together. This section walk
 
 ## Alternative approaches
 
-There are a variety of means to create Python extensions as described in the following table. The first two entries for CPython and PyBind11 are what has been discussed in this article already.
+There are a variety of means to create Python extensions as described in the following table. The first two entries for `CPython` and `PyBind11` are what has been discussed in this article already.
 
 | Approach | Vintage | Representative user(s) | 
 | --- | --- | --- |
-| C/C++ extension modules for CPython | 1991 | Standard Library | 
+| C/C++ extension modules for `CPython` | 1991 | Standard Library | 
 | [PyBind11](https://github.com/pybind/pybind11) (Recommended for C++) | 2015 |  |
 | [Cython](https://cython.org) (Recommended for C) | 2007 | [gevent](https://www.gevent.org/), [kivy](https://kivy.org/) |
 | [HPy](https://hpyproject.org/) | 2019 | |
