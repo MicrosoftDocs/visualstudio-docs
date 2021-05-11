@@ -119,9 +119,9 @@ Follow the instructions in this section to create two identical C++ projects nam
     ::: moniker range=">=vs-2019"
     | Tab | Property | Value |
     | --- | --- | --- |
-    | **General** | **General** > **Target Name** | Specify the name of the module as you want to refer to it from Python in `from...import` statements. You use this same name in the C++ when defining the module for Python. If you want to use the name of the project as the module name, leave the default value of **$(ProjectName)**. For `python_d.exe`, add `_d` to the end of the name. |
-    | | **Advanced** > **Target File Extension** | **.pyd** |
-    | | **Project Defaults** > **Configuration Type** | **Dynamic Library (.dll)** |
+    | **General** | **Target Name** | Specify the name of the module as you want to refer to it from Python in `from...import` statements. You use this same name in the C++ when defining the module for Python. If you want to use the name of the project as the module name, leave the default value of **$(ProjectName)**. For `python_d.exe`, add `_d` to the end of the name. |
+    | | **Configuration Type** | **Dynamic Library (.dll)** |
+    | **Advanced** | **Target File Extension** | **.pyd** |
     | **C/C++** > **General** | **Additional Include Directories** | Add the Python *include* folder as appropriate for your installation, for example, `c:\Python36\include`.  |
     | **C/C++** > **Preprocessor** | **Preprocessor Definitions** | If present, change the **_DEBUG** value to **NDEBUG**, to match the non-debug version of CPython. (When using `python_d.exe`, leave this unchanged.) |
     | **C/C++** > **Code Generation** | **Runtime Library** | **Multi-threaded DLL (/MD)** to match the non-debug version of CPython. (When using `python_d.exe`, leave this unchanged.) |
@@ -188,7 +188,7 @@ For more background on what's shown in this section, refer to the [Python/C API 
 1. Modify the `tanh_impl` method to accept and return Python types (a `PyObject*`, that is):
 
     ```cpp
-    PyObject* tanh_impl(PyObject *, PyObject* o) {
+    PyObject* tanh_impl(PyObject* /* unused module reference */, PyObject* o) {
         double x = PyFloat_AsDouble(o);
         double tanh_x = sinh_impl(x) / cosh_impl(x);
         return PyFloat_FromDouble(tanh_x);
@@ -199,8 +199,9 @@ For more background on what's shown in this section, refer to the [Python/C API 
 
     ```cpp
     static PyMethodDef superfastcode_methods[] = {
-        // The first property is the name exposed to Python, fast_tanh, the second is the C++
-        // function name that contains the implementation.
+        // The first property is the name exposed to Python, fast_tanh
+        // The second is the C++ function with the implementation
+        // METH_O means it takes a single PyObject argument
         { "fast_tanh", (PyCFunction)tanh_impl, METH_O, nullptr },
 
         // Terminate the array with an object containing nulls.
@@ -234,7 +235,7 @@ For more background on what's shown in this section, refer to the [Python/C API 
 
 If you completed the steps in the previous section, you certainly noticed that you used lots of boilerplate code to create the necessary module structures for the C++ code. PyBind11 simplifies the process through macros in a C++ header file that accomplish the same result with much less code. For background on what's shown in this section, see [PyBind11 basics](https://github.com/pybind/pybind11/blob/master/docs/basics.rst) (github.com).
 
-1. Install PyBind11 using pip: `pip install pybind11` or `py -m pip install pybind11`.
+1. Install PyBind11 using pip: `pip install pybind11` or `py -m pip install pybind11`. (Alternatively, you can install using the Python Environments window, and then use its "Open in Powershell" command for the next step.)
 
 1. In the same terminal, run `python -m pybind11 --includes` or `py -m pybind11 --includes`. This will print a list of paths that you should add to your project's **C/C++** > **General** > **Additional Include Directories** property (removing the `-I` prefix, if present).
 
@@ -293,46 +294,47 @@ The alternate method, described in the following steps, installs the module in y
     **CPython extensions (superfastcode project):**
 
     ```python
-    from distutils.core import setup, Extension, DEBUG
+    from setuptools import setup, Extension
 
     sfc_module = Extension('superfastcode', sources = ['module.cpp'])
 
-    setup(name = 'superfastcode', version = '1.0',
-        description = 'Python Package with superfastcode C++ extension',
-        ext_modules = [sfc_module]
-        )
+    setup(
+        name='superfastcode',
+        version='1.0',
+        description='Python Package with superfastcode C++ extension',
+        ext_modules=[sfc_module]
+    )
     ```
 
     **PyBind11 (superfastcode2 project):**
 
     ```python
-    import os, sys
-
-    from distutils.core import setup, Extension
-    from distutils import sysconfig
+    from setuptools import setup, Extension
+    import pybind11
 
     cpp_args = ['-std=c++11', '-stdlib=libc++', '-mmacosx-version-min=10.7']
 
     sfc_module = Extension(
-        'superfastcode2', sources = ['module.cpp'],
-        include_dirs=['pybind11/include'],
+        'superfastcode2',
+        sources=['module.cpp'],
+        include_dirs=[pybind11.get_include()],
         language='c++',
-        extra_compile_args = cpp_args,
+        extra_compile_args=cpp_args,
         )
 
     setup(
-        name = 'superfastcode2',
-        version = '1.0',
-        description = 'Python package with superfastcode2 C++ extension (PyBind11)',
-        ext_modules = [sfc_module],
+        name='superfastcode2',
+        version='1.0',
+        description='Python package with superfastcode2 C++ extension (PyBind11)',
+        ext_modules=[sfc_module],
     )
     ```
 
-1. Create a second file named *pyproject.toml* in the C++ project, and paste the following code into it:
+1. Create a second file named *pyproject.toml* in the C++ project, and paste the following code into it.
 
     ```toml
     [build-system]
-    requires = ["setuptools", "wheel"]
+    requires = ["setuptools", "wheel", "pybind11"]
     build-backend = "setuptools.build_meta"
     ```
 
@@ -377,10 +379,11 @@ After you've made the DLL available to Python as described in the previous secti
 
     If the **Start Without Debugging** command is disabled, right-click the Python project in **Solution Explorer** and select **Set as Startup Project**.
 
-1. Try increasing the `COUNT` variable so that the differences are more pronounced. A **Debug** build of the C++ module also runs slower than a **Release** build because the **Debug** build is less optimized and contains various error checks. Feel free to switch between those configurations for comparison.
+1. Try increasing the `COUNT` variable so that the differences are more pronounced. A **Debug** build of the C++ module also runs slower than a **Release** build because the **Debug** build is less optimized and contains various error checks. Feel free to switch between those configurations for comparison (but remember to go back and update the properties from earlier for the **Release** configuration).
 
-> [!NOTE]
-> In the output, you can see that the PyBind11 extension isn't as fast as the CPython extension, though it's still significantly faster than the straight Python implementation. The difference is due to a small amount of per-call overhead that PyBind11 introduces in order to make its C++ interface dramatically simpler. This per-call difference is actually quite negligible: because the test code calls the extension functions 500,000 times, the results you see here greatly amplify that overhead! Typically, a C++ function does much more work than the trivial `fast_tanh[2]` methods used here, in which case the overhead is unimportant. However, if you're implementing methods that might be called thousands of times per second, using the CPython approach can result in better performance than PyBind11.
+In the output, you may see that the PyBind11 extension isn't as fast as the CPython extension, though it should be significantly faster than the pure Python implementation. This difference is largely because we used the `METH_O` call, which does not support multiple parameters, parameter names, or keywords arguments. PyBind11 generates slightly more complex code to provide a more Python-like interface to callers, but because the test code calls the function 500,000 times, the results may greatly amplify that overhead!
+
+We could reduce the overhead further by moving the `for` loop into the native code. This would involve using the [iterator protocol](https://docs.python.org/c-api/iter.html) (or PyBind11's `py::iterable` type for [the function parameter](https://pybind11.readthedocs.io/en/stable/advanced/functions.html#python-objects-as-args)) to process each element. Removing the repeated transitions between Python and C++ is an effective way to reduce the time taken to process the sequence.
 
 ### Troubleshooting
 
@@ -423,12 +426,14 @@ There are a variety of means to create Python extensions as described in the fol
 | --- | --- | --- |
 | C/C++ extension modules for CPython | 1991 | Standard Library | 
 | [PyBind11](https://github.com/pybind/pybind11) (Recommended for C++) | 2015 |  |
-| Cython (Recommended for C) | 2007 | [gevent](https://www.gevent.org/), [kivy](https://kivy.org/) |
-| [Boost.Python](https://www.boost.org/doc/libs/1_66_0/libs/python/doc/html/index.html) | 2002 | |
+| [Cython](https://cython.org) (Recommended for C) | 2007 | [gevent](https://www.gevent.org/), [kivy](https://kivy.org/) |
+| [HPy](https://hpyproject.org/) | 2019 | |
+| [mypyc](https://mypyc.readthedocs.io/) | 2017 | |
 | ctypes | 2003 | [oscrypto](https://github.com/wbond/oscrypto) | 
+| cffi | 2013 | [cryptography](https://cryptography.io/), [pypy](https://pypy.org/) |
 | SWIG | 1996 | [crfsuite](http://www.chokkan.org/software/crfsuite/) | 
-| cffi | 2013 | [cryptography](https://cryptography.io/en/latest/), [pypy](https://pypy.org/) |
-| [cppyy](https://cppyy.readthedocs.io/en/latest/) | 2017 | |
+| [Boost.Python](https://www.boost.org/doc/libs/1_66_0/libs/python/doc/html/index.html) | 2002 | |
+| [cppyy](https://cppyy.readthedocs.io/) | 2017 | |
 
 ## See also
 
