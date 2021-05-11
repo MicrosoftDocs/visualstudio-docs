@@ -35,8 +35,7 @@ If your organization purchases Visual Studio subscriptions with GitHub Enterpris
 
 > [!IMPORTANT]
 > As mentioned above, existing subscriber data, history, and subscription ID will be maintained and any benefits they’ve activated won’t be interrupted because of this move.  
->
-> This feature is being deployed in phases and may not be immediately available on your agreement(s).
+
 
 When you click the **Move Now** button, a fly-out panel will present you with recommendations on moving your Enterprise and/or Professional subscriptions:
 
@@ -45,8 +44,7 @@ When you click the **Move Now** button, a fly-out panel will present you with re
 
 In this tile, you can review the impacted subscribers and specify whether you would like to notify them to receive an email notification after the move is complete.  This email informs subscribers that their benefits remain unchanged and encourages them to begin setting up a presence in GitHub.  
 
-After clicking the **Move all subscribers** button, you will confirm your selections and wait a few seconds for the subscription move to complete.  If applicable, you will need to perform these steps for Professional and Enterprise separately.  
-
+Clicking the **Move subscribers** button will allow you to move all recommended subscribers or choose individuals from a list.  After confirming your selections, it will take a few seconds for the subscription moves to complete. If applicable, you will need to perform these steps for Professional and Enterprise separately.  
 
 ## What is the Visual Studio with GitHub Enterprise setup process?
 GitHub Enterprise is set up and managed separately from Visual Studio subscriptions. Following a Visual Studio subscription with GitHub Enterprise purchase, a GitHub Enterprise account setup process is initiated in parallel with (but separate from) establishing an agreement in [manage.visualstudio.com](https://manage.visualstudio.com). Establishing this GitHub Enterprise account may take some time. 
