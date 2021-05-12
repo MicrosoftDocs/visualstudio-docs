@@ -159,8 +159,7 @@ Here is a description of each property in the *launchSettings.json*:
 | - | - |
 |commandName| Name of the command. Defaults to “DockerCompose”|
 |commandVersion| Version number used to manage the schema of the DockerCompose launch profile.|
-|composeProfile| Parent property that, together with its child properties, includes and serviceActions, determines the launch profile definition and launch action.|
-|composeProfile| Parent property that holds properties when the launch profile is created based on compose profile.|
+|composeProfile| Parent property that defines the launch profile definition. Its child properties are `includes` and `serviceActions`|
 |composeProfile - includes | List of the Compose profile names that make up a launch profile.|
 |composeProfile - serviceActions | Lists the selected Compose profiles, services, and the launch action of each service|
 |serviceActions | Lists the selected services and the launch action.|
