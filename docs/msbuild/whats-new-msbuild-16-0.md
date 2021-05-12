@@ -1,5 +1,5 @@
 ---
-title: What&apos;s New in MSBuild 16.0  | Microsoft Docs
+title: What's New in MSBuild 16.0  | Microsoft Docs
 description: Learn about the changed and updated features and properties for MSBuild 16.0, and link to release notes.
 ms.custom: SEO-VS-2020
 ms.date: 03/11/2019
