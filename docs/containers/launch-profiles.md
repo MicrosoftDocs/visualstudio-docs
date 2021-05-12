@@ -12,7 +12,7 @@ monikerRange: ">=vs-2019"
 ---
 # Manage launch profiles for Docker Compose (Preview)
 
-If you have an application that consists of multiple services and uses Docker Compose, you can configure which services run and debug by creating or editing an existing launch profile in Docker Compose launch settings. This allows you to dynamically run only the services that matter to your current scenario. You can create and select from launch profiles in order to customize your debugging experience and set specific launch actions such as `Browser Launch URL`. You will also have the option of either choosing each service individually or by choosing a Docker Compose profile which also looks at your Compose file to determine the group of services to run.
+If you have an application that consists of multiple services and uses Docker Compose, you can configure which services run and debug by creating or editing an existing launch profile in Docker Compose launch settings. Launch profiles allow you to dynamically run only the services that matter to your current scenario. You can create and select from launch profiles in order to customize your debugging experience and set specific launch actions such as `Browser Launch URL`. You will also have the option of either choosing each service individually or by choosing a Docker Compose profile, which also looks at your Compose file to determine the group of services to run.
 
 For information about Docker Compose profiles, see [Using profiles with Compose](https://docs.docker.com/compose/profiles/).
  
@@ -69,13 +69,13 @@ There are a few options to open the Docker Compose launch settings dialog:
 
 - Use the Quick Launch (**Ctrl**+**Q**) and search for **Docker Compose** to find the aforementioned command.
 
-In the example below, the user selected the `web1` Compose profile. This filters the **Services** list to only the 3 out of 5 included in that profile:
+In the example below, the `web1` Compose profile is selected, which filters the **Services** list to only the three out of five included in that profile:
 
 !["Screenshot of launch settings dialog box"](media/launch-settings/launch-settings-create-profile.png)
 
 The Docker Compose profiles section only appears if there are profiles defined in your *docker-compose.yml* files.
 
-The next example demonstrates selecting between individual services instead of filtering to the services in a Compose profile. Here, we show how the dialog would look if you created a new launch profile named `test2` that only starts 2 out of the 5 services, `webapplication1` with debugging and `webapplication2` without debugging.  This launch profile also launches a browser when the application starts and opens it to the home page of `webapplication1`. 
+The next example demonstrates selecting between individual services instead of filtering to the services in a Compose profile. Here, we show how the dialog would look if you created a new launch profile named `test2` that only starts two out of the five services, `webapplication1` with debugging and `webapplication2` without debugging.  This launch profile also launches a browser when the application starts and opens it to the home page of `webapplication1`. 
 
 ![Screenshot of launch settings dialog with some services deselected](media/launch-settings/launch-settings-selected.png)
 
@@ -112,7 +112,7 @@ To create another profile that makes use of the Compose profile, select **Use Do
 
 ![Screenshot of launch settings dialog with another profile created](media/launch-settings/launch-settings-create-profile.png)
 
-This information will be saved as shown in the following code. Note that service and its default action is not saved unless you change the default action.
+This information will be saved as shown in the following code. The configuration for the service and its default action are not saved unless you change the default action.
 
 ```json
 {
@@ -130,7 +130,7 @@ This information will be saved as shown in the following code. Note that service
 }
 ```
 
-You can also change the action of webapplication1 to **Start without debugging**. The settings in *launchSettings.json* then look like the following:
+You can also change the action of webapplication1 to **Start without debugging**. The settings in *launchSettings.json* then look like the following code:
 
 ```json
 {
