@@ -164,7 +164,7 @@ Here is a description of each property in the *launchSettings.json*:
 |composeProfile - includes | List of the Compose profile names that make up a launch profile.|
 |composeProfile - serviceActions | Lists the selected Compose profiles, services, and the launch action of each service|
 |serviceActions | Lists the selected services and the launch action.|
-|composeLaunchServiceName| If DockerLaunchAction or DockerLaunchBrowser are specified, DockerServiceName is the name of the service that should be launched. Use this property to determine which service within the Docker Compose file will be launched|
+|composeLaunchServiceName| If DockerLaunchAction or DockerLaunchBrowser are specified, DockerServiceName is the name of the service that should be launched. Use this property to determine which service within the Docker Compose file will be launched.|
 |composeLaunchAction| Specifies the launch action to perform on **F5** or **Ctrl**+**F5**. Allowed values are None, LaunchBrowser, and LaunchWCFTestClient.|
 |composeLaunchUrl| The URL to use when launching the browser. Valid replacement tokens are "{ServiceIPAddress}", "{ServicePort}", and "{Scheme}". For example: {Scheme}://{ServiceIPAddress}:{ServicePort}|
 
