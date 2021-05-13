@@ -268,16 +268,6 @@
     - name: Customize build and debug tasks
       displayName: makefile tasks.vs.json
       href: ide/customize-build-and-debug-tasks-in-visual-studio.md
-  - name: Develop with Codespaces (Preview)
-    items:
-    - name: Overview
-      href: ide/codespaces/codespaces-overview.md
-    - name: Use Visual Studio with a codespace
-      href: ide/codespaces/use-visual-studio-with-codespaces.md
-    - name: Customize a codespace
-      href: ide/codespaces/customize-codespaces.md
-    - name: Supported Visual Studio features
-      href: ide/codespaces/supported-features-codespaces.md
   - name: Connect to projects in Team Explorer
     displayName: Azure DevOps VSTS
     href: ide/connect-team-project.md
