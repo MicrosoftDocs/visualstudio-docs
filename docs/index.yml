@@ -58,8 +58,6 @@ productDirectory:
            text: Documentation
          - url: https://code.visualstudio.com/docs/remote/codespaces/
            text: Use with Visual Studio Code
-         - url: ./ide/codespaces/use-visual-studio-with-codespaces.md
-           text: Use with Visual Studio
          - url: https://github.com/features/codespaces/
            text: Product page
     - title: Visual Studio App Center
