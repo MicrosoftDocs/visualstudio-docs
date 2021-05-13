@@ -185,7 +185,7 @@ additionalContent:
         url: ../deployment/index.yml
       - title: Version control
         summary: Share code using version control technologies such as Git and GitHub.
-        url: ../ide/git-with-visual-studio.md
+        url: ../version-control/index.yml
       - title: DevOps
         summary: Continuously build and release your apps in the cloud, and implement Agile practices with Azure DevOps Services.
         url: /azure/devops
