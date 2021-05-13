@@ -65,7 +65,7 @@ There are a few options to open the Docker Compose launch settings dialog:
 
 - Right-click on the Visual Studio `docker-compose` project and select **Manage Docker Compose Launch Settings**
 
-    ![Screenshot of the context menu item](media/launch-settings-context-menu.png)
+    ![Screenshot of the context menu item](media/launch-settings/launch-settings-context-menu.png)
 
 - Use the Quick Launch (**Ctrl**+**Q**) and search for **Docker Compose** to find the aforementioned command.
 
