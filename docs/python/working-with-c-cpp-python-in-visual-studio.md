@@ -257,7 +257,7 @@ For more background on the code shown in this section, see the [Python/C API Ref
     }
     ```
 
-1. Build the C++ project again to verify your code. If you encounter errors, see the ["Troubleshooting"](#troubleshooting) section.
+1. Build the C++ project again to verify your code. If you encounter errors, see the ["Troubleshooting"](#troubleshoot-compiling-failures) section.
 
 ### PyBind11
 
