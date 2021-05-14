@@ -136,7 +136,7 @@ Follow the instructions in this section to create two identical C++ projects, *s
     | **General** | **General** > **Target Name** | Specify the name of the module to refer to it from Python in `from...import` statements. You use this same name in the C++ code when you define the module for Python. To use the name of the project as the module name, leave the default value of **$\<ProjectName>**. |
     | | **Advanced** > **Target File Extension** | **.pyd** |
     | | **Project Defaults** > **Configuration Type** | **Dynamic Library (.dll)** |
-    | **C/C++** > **General** | **Additional Include Directories** | Add the Python *include* folder as appropriate for your installation, for example, `c:\Python36\include`.  |
+    | **C/C++** > **General** | **Additional Include Directories** | Add the Python *include* folder as appropriate for your installation (for example, `c:\Python36\include`).  |
     | **C/C++** > **Preprocessor** | **Preprocessor Definitions** | **CPython only**: add `Py_LIMITED_API;` (including the semicolon) to the beginning of the string. This definition restricts some functions that you can call from Python and makes the code more portable between different versions of Python. If you're working with PyBind11, don't add this definition, because it will result in build errors. |
     | **C/C++** > **Code Generation** | **Runtime Library** | **Multi-threaded DLL (/MD)** (see Warning below) |
     | **Linker** > **General** | **Additional Library Directories** | Add the Python *libs* folder that contains *.lib* files, as appropriate for your installation (for example, *c:\Python36\libs*). Be sure to point to the *libs* folder that contains *.lib* files, and *not* the *Lib* folder that contains *.py* files. |
@@ -153,7 +153,7 @@ Follow the instructions in this section to create two identical C++ projects, *s
     | | **Project Defaults** > **Configuration Type** | **Dynamic Library (.dll)** |
     | **C/C++** > **General** | **Additional Include Directories** | Add the Python *include* folder, as appropriate for your installation (for example, *c:\Python36\include*).  |
     | **C/C++** > **Preprocessor** | **Preprocessor Definitions** | If it's present, change the **_DEBUG** value to **NDEBUG** to match the non-debug version of `CPython`. When you're using `python_d.exe`, leave this value unchanged. |
-    | **C/C++** > **Code Generation** | **Runtime Library** | **Multi-threaded DLL (/MD)** to match the non-debug version of `CPython`. When you use *python_d.exe*, leave this unchanged. |
+    | **C/C++** > **Code Generation** | **Runtime Library** | **Multi-threaded DLL (/MD)** to match the non-debug version of `CPython`. When you're using `python_d.exe`, leave this value unchanged. |
     | **Linker** > **General** | **Additional Library Directories** | Add the Python *libs* folder that contains *.lib* files, as appropriate for your installation (for example, *c:\Python36\libs*). Be sure to point to the *libs* folder that contains *.lib* files, and *not* the *Lib* folder that contains *.py* files. |
     | | |
 
