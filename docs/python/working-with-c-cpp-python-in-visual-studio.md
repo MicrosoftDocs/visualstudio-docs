@@ -402,7 +402,7 @@ You can make the DLL available to Python in either of two ways:
 
 ### Call the DLL from Python
 
-After you've made the DLL available to Python, as described in the previous section, you can now call the `superfastcode.fast_tanh` and `superfastcode2.fast_tanh2` functions from Python code and compare their performance to the Python implementation:
+After you've made the DLL available to Python, as described in the preceding section, you can call the `superfastcode.fast_tanh` and `superfastcode2.fast_tanh2` functions from Python code and compare their performance to the Python implementation. To call the DLL, do the following:
 
 1. Add the following lines in your *.py* file to call methods exported from the DLLs and display their outputs:
 
@@ -414,7 +414,7 @@ After you've made the DLL available to Python, as described in the previous sect
     test(lambda d: [fast_tanh2(x) for x in d], '[fast_tanh2(x) for x in d] (PyBind11 C++ extension)')
     ```
 
-1. Run the Python program by selecting **Debug** > **Start without Debugging** or selecting Ctrl+F5).
+1. Run the Python program by selecting **Debug** > **Start without Debugging** or by selecting Ctrl+F5.
 
     > [!NOTE]
     > If the **Start Without Debugging** command is disabled, in **Solution Explorer**, right-click the Python project, and then select **Set as Startup Project**.  
