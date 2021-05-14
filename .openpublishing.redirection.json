@@ -57900,31 +57900,6 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "docs/ide/codespaces/index.md",
-      "redirect_url": "/visualstudio/ide",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "docs/ide/codespaces/codespaces-overview.md",
-      "redirect_url": "/visualstudio/ide",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "docs/ide/codespaces/customize-codespaces.md",
-      "redirect_url": "/visualstudio/ide",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "docs/ide/codespaces/supported-features-codespaces.md",
-      "redirect_url": "/visualstudio/ide",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "docs/ide/codespaces/use-visual-studio-with-codespaces.md",
-      "redirect_url": "/visualstudio/ide",
-      "redirect_document_id": false
-    },
-    {
       "source_path": "docs/ide/editorconfig-code-style-settings-reference.md",
       "redirect_url": "/dotnet/fundamentals/code-analysis/code-style-rule-options",
       "redirect_document_id": false
