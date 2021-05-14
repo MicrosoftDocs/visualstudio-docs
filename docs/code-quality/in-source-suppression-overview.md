@@ -39,9 +39,16 @@ You can suppress violations in code using a preprocessor directive, the [#pragma
 
   If you choose **in Source**, you see a preview of the preprocessor directive that will be added to your code.
 
-  ![Suppress diagnostic from quick actions menu](media/suppress-diagnostic-from-editor.png)
+  ::: moniker range="vs-2017"
+  :::image type="content" source="media/suppress-diagnostic-from-editor.png" alt-text="Suppress diagnostic from quick actions menu":::
+  ::: moniker-end
+  ::: moniker range=">=vs-2019"
+  :::image type="content" source="media/vs-2019/suppress-diagnostic-from-editor.png" alt-text="Suppress diagnostic from quick actions menu":::
 
   If you choose **in Source (attribute)**, you see a preview of the [SuppressMessage attribute](#in-source-suppression-and-the-suppressmessage-attribute) that will be added to your code.
+
+  :::image type="content" source="media/vs-2019/suppress-diagnostic-from-editor-attribute.png" alt-text="Suppress diagnostic from quick actions menu using attribute":::
+  ::: moniker-end
 
 - From the **Error List**
 
