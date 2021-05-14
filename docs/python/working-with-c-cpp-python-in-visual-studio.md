@@ -271,7 +271,7 @@ For more information about the code in this section, see [PyBind11 basics](https
 
 1. Install PyBind11 by using pip: `pip install pybind11` or `py -m pip install pybind11`. 
 
-   Alternatively, you can install PyBind11 by using the Python Environments window, and then use its **Open in Powershell** command for the next step.
+   Alternatively, you can install PyBind11 by using the Python Environments window, and then use its **Open in PowerShell** command for the next step.
 
 1. In the same terminal, run `python -m pybind11 --includes` or `py -m pybind11 --includes`. 
 
