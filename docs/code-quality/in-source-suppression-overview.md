@@ -31,7 +31,7 @@ In an **EditorConfig file**, set the severity to `none`, for example, `dotnet_di
 
 ## Suppress violations in source code
 
-You can suppress violations in code using a preprocessor directive, the [#pragma warning (C#)](../../csharp/language-reference/preprocessor-directives.md#pragma-warning) or [Disable (Visual Basic)](../../visual-basic/language-reference/directives/disable-enable.md) directive to suppress the warning for only a specific line of code. Or, you can use the [SuppressMessage attribute](#in-source-suppression-and-the-suppressmessage-attribute).
+You can suppress violations in code using a preprocessor directive, the [#pragma warning (C#)](/dotnet/csharp/language-reference/preprocessor-directives.md#pragma-warning) or [Disable (Visual Basic)](/dotnet/visual-basic/language-reference/directives/disable-enable.md) directive to suppress the warning for only a specific line of code. Or, you can use the [SuppressMessage attribute](#in-source-suppression-and-the-suppressmessage-attribute).
 
 - From the **code editor**
 
@@ -66,7 +66,7 @@ The [global suppression file](#global-level-suppressions) uses the [SuppressMess
 
   ![Preview of adding SuppressMessage attribute to suppression file](media/preview-changes-in-suppression-file.png)
 
-- From the **code editor**, place the cursor in the line of code with the violation and press **Quick actions and refactorings** (or press**Ctrl**+**Period (.)**) to open the **Quick Actions** menu. Select **Suppress CAXXXX**, and then choose **in Suppression File**. You see a preview of the [global suppression file](#global-level-suppressions) that will be created or modified.
+- From the **code editor**, place the cursor in the line of code with the violation and press **Quick actions and refactorings** (or press **Ctrl**+**Period (.)**) to open the **Quick Actions** menu. Select **Suppress CAXXXX**, and then choose **in Suppression File**. You see a preview of the [global suppression file](#global-level-suppressions) that will be created or modified.
 
 ::: moniker range=">=vs-2019"
 
