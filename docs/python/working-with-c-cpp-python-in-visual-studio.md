@@ -133,12 +133,13 @@ Follow the instructions in this section to create two identical C++ projects, *s
 
     | Tab | Property | Value |
     | --- | --- | --- |
-    | **General** | **General** > **Target Name** | Specify the name of the module to refer to it from Python in `from...import` statements. You use this same name in the C++ code when you define the module for Python. To use the name of the project as the module name, leave the default value of **$\<ProjectName>**. |
+    | **General** | **Target Name** | Specify the name of the module to refer to it from Python in `from...import` statements. You use this same name in the C++ code when you define the module for Python. To use the name of the project as the module name, leave the default value of **$\<ProjectName>**.  For `python_d.exe`, add `_d` to the end of the name. |
+    | | **Configuration Type** | **Dynamic Library (.dll)** |
     | | **Advanced** > **Target File Extension** | **.pyd** |
     | | **Project Defaults** > **Configuration Type** | **Dynamic Library (.dll)** |
     | **C/C++** > **General** | **Additional Include Directories** | Add the Python *include* folder as appropriate for your installation (for example, `c:\Python36\include`).  |
-    | **C/C++** > **Preprocessor** | **Preprocessor Definitions** | **CPython only**: add `Py_LIMITED_API;` (including the semicolon) to the beginning of the string. This definition restricts some functions that you can call from Python and makes the code more portable between different versions of Python. If you're working with PyBind11, don't add this definition, because it will result in build errors. |
-    | **C/C++** > **Code Generation** | **Runtime Library** | **Multi-threaded DLL (/MD)** (see Warning below) |
+    | **C/C++** > **Preprocessor** | **Preprocessor Definitions** | If it's present, change the **_DEBUG** value to **NDEBUG** to match the non-debug version of CPython. When you're using *python_d.exe*, leave this value unchanged. |
+    | **C/C++** > **Code Generation** | **Runtime Library** | **Multi-threaded DLL (/MD)** to match the non-debug version of CPython. When you're using *python_d.exe*, leave this value as **Multi-threaded Debug DLL (/MDd)**. |
     | **Linker** > **General** | **Additional Library Directories** | Add the Python *libs* folder that contains *.lib* files, as appropriate for your installation (for example, *c:\Python36\libs*). Be sure to point to the *libs* folder that contains *.lib* files, and *not* the *Lib* folder that contains *.py* files. |
     | | |
 
@@ -239,7 +240,7 @@ For more background on the code shown in this section, see the [Python/C API Ref
 
 1. Add a structure that defines the module as you want to refer to it in your Python code, specifically when you use the `from...import` statement. 
 
-   Make this code match the value in the project properties under **Configuration Properties** > **General** > **Target Name**. 
+   The name that's being imported in this code should match the value in the project properties under **Configuration Properties** > **General** > **Target Name**. 
 
    In the following example, the `"superfastcode"` module name means that you can use `from superfastcode import fast_tanh` in Python, because `fast_tanh` is defined within `superfastcode_methods`. File names that are internal to the C++ project, such as *module.cpp*, are inconsequential.
 
@@ -325,16 +326,16 @@ Now that you have the DLLs structured as Python extensions, you can refer to the
 
 ### Make the DLL available to Python
 
-You can make the DLL available to Python in either of two ways:
+You can make the DLL available to Python in any of several ways. Here are two approaches to consider: 
 
-* The first method works if the Python project and the C++ project are in the same solution. Do the following: 
+* This first method works if the Python project and the C++ project are in the same solution. Do the following: 
 
    1. In **Solution Explorer**, right-click the **References** node in your Python project, and then select **Add Reference**. 
    1. In the dialog that appears, select the **Projects** tab, select both the **superfastcode** and **superfastcode2** projects, and then select **OK**.
 
       ![Screenshot showing how to add a reference to the "superfastcode" project.](media/cpp-add-reference.png)
 
-* The alternative method installs the module in your Python environment, which makes the module available to other Python projects as well. For more information, see the [**setuptools** project documentation](https://setuptools.readthedocs.io/). Do the following:
+* An alternative method installs the module in your Python environment, which makes the module available to other Python projects as well. For more information, see the [**setuptools** project documentation](https://setuptools.readthedocs.io/). Do the following:
 
     1. Create a file named *setup.py* in the C++ project by right-clicking the project and selecting **Add** > **New Item**. 
     
