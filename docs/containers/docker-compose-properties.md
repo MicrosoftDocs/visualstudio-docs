@@ -150,4 +150,6 @@ For information on MSBuild properties generally, see [MSBuild Properties](../msb
 
 [Container Tools launch settings](container-launch-settings.md)
 
+[Manage launch profiles for Docker Compose in Visual Studio](launch-profiles.md)
+
 [MSBuild reserved and well-known properties](../msbuild/msbuild-reserved-and-well-known-properties.md)
