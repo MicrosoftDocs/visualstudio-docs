@@ -33,7 +33,7 @@ You'll find the completed sample from this walkthrough on GitHub at [python-samp
 
 ## Prerequisites
 
-- Visual Studio 2017 or later, with the Python Development workload installed. The workload includes the Python native development tools, which bring in the C++ workload and toolsets that necessary for native extensions.
+- Visual Studio 2017 or later, with the Python Development workload installed. The workload includes the Python native development tools, which bring in the C++ workload and toolsets that are necessary for native extensions.
 
     ![Screenshot of a list of Python development options, highlighting the Python native development tools option.](media/cpp-install-native.png)
 
@@ -165,7 +165,7 @@ Follow the instructions in this section to create two identical C++ projects, *s
     > 
     > For example, if you accidentally entered *module.coo* instead of *module.cpp* earlier in the new item dialog, Visual Studio creates the file but doesn't set the file type to *C/C+ Code*, which activates the C/C++ properties tab. Such misidentification remains even if you rename the file with a *.cpp* file extension. 
     > 
-    > To set the file type properly, in **Solution Explorer**, right-click the file, select **Properties** and then, for **File Type**, select **C/C++ Code**.
+    > To set the file type properly, in **Solution Explorer**, right-click the file and select **Properties**. Then, for **File Type**, select **C/C++ Code**.
 
 1. Select **OK**.
 
