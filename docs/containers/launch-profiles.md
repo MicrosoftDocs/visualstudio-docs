@@ -21,7 +21,7 @@ For information about Docker Compose profiles, see [Using profiles with Compose]
 - [Visual Studio 2019 version 16.10 Preview](https://visualstudio.microsoft.com/vs/preview/) or later
 - A solution with [Container Orchestration with Docker Compose](tutorial-multicontainer.md)
 
-## Managing launch settings
+## Manage launch settings
 
 Consider the following Docker Compose project in which the *docker-compose.yml* has five services and three Compose profiles (web, web1 and web2).
 
@@ -61,7 +61,7 @@ services:
 There are a few options to open the Docker Compose launch settings dialog:
 - In Visual Studio, choose **Debug** > **Manage Docker Compose Launch Settings**:
 
-    ![Screenshot of Debug Manage Compose Settings menu item](media/launch-settings/debug_dropdown_manage_compose.png)
+    ![Screenshot of Debug Manage Compose Settings menu item](media/launch-settings/debug-dropdown-manage-compose.png)
 
 - Right-click on the Visual Studio `docker-compose` project and select **Manage Docker Compose Launch Settings**
 
@@ -102,13 +102,14 @@ And this information will be saved in *launchSettings.json* as shown below
 }
 ```
 
-## Creating a launch profile that uses a Docker Compose profile
+## Create a launch profile that uses a Docker Compose profile
 
 You can also further customize launch behaviors by creating Visual Studio launch profiles that make use of the Compose profiles.
 
 To create another profile that makes use of the Compose profile, select **Use Docker Compose profiles** and choose `web1`. Now the launch profile includes three services – `webapplication1` (which belongs to both `web` and `web1` Compose profiles), `external1` and `external2`. By default, the services without source code such as `external1` and  `external2` have the default action of **Start without debugging**. .NET applications with source code will default to **Start debugging**.
 
-**Important Note:** If a service doesn't specify a Compose profile, it will be included in all Compose profiles implicitly.
+> [!IMPORTANT]
+> If a service doesn't specify a Compose profile, it will be included in all Compose profiles implicitly.
 
 ![Screenshot of launch settings dialog with another profile created](media/launch-settings/launch-settings-create-profile.png)
 
