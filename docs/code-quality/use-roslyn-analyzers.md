@@ -1,6 +1,6 @@
 ---
 title: Analyzer configuration
-ms.date: 09/02/2020
+ms.date: 05/10/2021
 description: Learn how to customize Roslyn analyzer rules. See how to adjust analyzer severities, suppress violations, and designate files as generated code.
 ms.custom: SEO-VS-2020
 ms.topic: conceptual
@@ -317,60 +317,7 @@ Starting with Visual Studio 2019 16.5, end users can configure specific files an
 
 ## Suppress violations
 
-There are multiple ways to suppress rule violations:
-
-::: moniker range=">=vs-2019"
-
-- In an **EditorConfig file**
-
-  Set the severity to `none`, for example, `dotnet_diagnostic.CA1822.severity = none`.
-
-- From the **Analyze** menu
-
-  Select **Analyze** > **Build and Suppress Active Issues** on the menu bar to suppress all current violations. This is sometimes referred to as "baselining".
-
-::: moniker-end
-
-::: moniker range="vs-2017"
-
-- From the **Analyze** menu
-
-  Select **Analyze** > **Run Code Analysis and Suppress Active Issues** on the menu bar to suppress all current violations. This is sometimes referred to as "baselining".
-
-::: moniker-end
-
-- From **Solution Explorer**
-
-  Set the rule's severity to **None**.
-
-- From the **rule set editor**
-
-  Clear the check box next to its name or set **Action** to **None**.
-
-- From the **code editor**
-
-  Place the cursor in the line of code with the violation and press **Ctrl**+**Period (.)** to open the **Quick Actions** menu. Select **Suppress CAXXXX** > **in Source/in Suppression File**.
-
-  ![Suppress diagnostic from quick actions menu](media/suppress-diagnostic-from-editor.png)
-
-- From the **Error List**
-
-  Select the rules you want to suppress, and then right-click and select **Suppress** > **In Source/In Suppression File**.
-
-  - If you suppress **In Source**, the **Preview Changes** dialog opens and shows a preview of the C# [#pragma warning](/dotnet/csharp/language-reference/preprocessor-directives/preprocessor-pragma-warning) or Visual Basic [#Disable warning](/dotnet/visual-basic/language-reference/directives/directives) directive that's added to the source code.
-
-    ![Preview of adding #pragma warning in code file](media/pragma-warning-preview.png)
-
-  - If you select **In Suppression File**, the **Preview Changes** dialog opens and shows a preview of the <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> attribute that's added to the global suppressions file.
-
-    ![Preview of adding SuppressMessage attribute to suppression file](media/preview-changes-in-suppression-file.png)
-
-  In the **Preview Changes** dialog, select **Apply**.
-
-  > [!NOTE]
-  > If you don't see the **Suppress** menu option in **Solution Explorer**, the violation is likely coming from build and not live analysis. The **Error List** displays diagnostics, or rule violations, from both live code analysis and build. Since the build diagnostics can be stale, for example, if you've edited the code to fix the violation but haven't rebuilt, you cannot suppress these diagnostics from the **Error List**. Diagnostics from live analysis, or IntelliSense, are always up-to-date with current sources and can be suppressed from the **Error List**. To exclude *build* diagnostics from your selection, switch the **Error List** source filter from **Build + IntelliSense** to **IntelliSense Only**. Then, select the diagnostics you want to suppress and proceed as described previously.
-  >
-  > ![Error List source filter in Visual Studio](media/error-list-filter.png)
+You can suppress rule violations using various methods. For more information, see [Suppress code analysis violations](../code-quality/in-source-suppression-overview.md).
 
 ## Command-line usage
 
