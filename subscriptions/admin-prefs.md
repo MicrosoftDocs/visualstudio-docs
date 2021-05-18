@@ -1,15 +1,15 @@
 ---
-title:  Set agreement preferences in the Administration Portal
+title:  Set preferences in the Visual Studio subscriptions admin portal
 author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: 0fe9eaa4-f589-429e-a443-13bf86637d5a
-ms.date: 03/19/2021
+ms.date: 05/18/2021
 ms.topic: conceptual
 description: Learn how to set preferences for language, contacts, subscription level and others in the Administration Portal
 ---
 
-# Set preferences for your agreements in the Administration Portal
+# Set preferences for your agreements in the admin portal
 Super admins can set certain preferences in the Administration Portal (admin portal) that will be applied globally for each agreement.  These preferences will automatically populate subscription details for your admins when they are adding subscribers, and can only be modified globally by super admins.  
 
 ## Access preferences
@@ -25,7 +25,7 @@ To set your preferences:
 A panel will open on the left and your available preferences will be displayed. 
 
    > [!div class="mx-imgBorder"]
-   > ![Admin Preferences flyout dialog](_img/admin-prefs/admin-prefs-flyout.png "Set your preferences and click Save")
+   > ![Admin Preferences flyout dialog](_img/admin-prefs/admin-prefs-flyout2.png "Set your preferences and click Save")
 
 ## Set your preferences
 Let's explore each of the available preferences, and their effects. 
@@ -52,6 +52,9 @@ This preference allows you to decide whether admins can add subscribers from out
 
 ### Default downloads setting
 Enabling this setting, which is on by default, will enable subscribers to access downloads when admins create new subscriptions.  Admins can still disable downloads on an individual subscription basis.  Disabling access to downloads also disables access to product keys.  
+
+### Overallocation notification 
+Opt-in to receive an email when assignments on your agreement become overallocated. This email notification will be sent to the [Contact e-mail address](admin-prefs#contact-email-address), or all admins on your agreement if there is no Contact e-mail address. Use the drop down menu to configure the threshold at which you'd like to be notified. 
 
 
 ## Frequently asked questions
