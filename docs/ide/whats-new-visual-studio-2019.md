@@ -222,7 +222,7 @@ Meanwhile, here is a new feature that's currently in the works.
 
    Although the new Git version control experience is now on by default in Visual Studio 2019 [version 16.8](/visualstudio/releases/2019/release-notes/), we continue to add features to enhance the experience in the newest Preview release.
 
-   For more information, see the [Git experience in Visual Studio](/visualstudio/version-control/) page.
+   For more information, see the [Version control in Visual Studio](/visualstudio/version-control/) page.
 
 For more information about the Preview release&mdash;and a download link if you'd like to try it out&mdash;see the **[Visual Studio Preview](https://aka.ms/vspreview/)** page.
 
