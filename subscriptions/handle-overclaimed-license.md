@@ -22,7 +22,7 @@ To see your subscription allocations, click on the top icon at the left to open 
 
 Notice that the display uses a hashed bar to indicate over-allocated subscriptions.  The number of over-allocations across all subscription types is included in the Overview section at the top, and each subscription level also displays its own allocation status.  
 
-## Receive notifications when over-allocations occur.
+## Receive notifications when over-allocations occur
 You can designate an email address to receive notifications when overallocations occur, as well as set a threshold that must be exceeded before notifications are sent.  Learn more about [setting preferences for your agreements](admin-prefs.md) in the admin portal.
 
 ## Resolve over-allocated subscriptions
