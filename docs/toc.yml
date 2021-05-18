@@ -16,6 +16,7 @@
   items:
   - name: Install Visual Studio
     href: install/install-visual-studio.md
+    displayName: system requirements
   - name: Install offline
     items:
     - name: Create an offline installation of Visual Studio
@@ -1433,7 +1434,7 @@
     href: ide/whats-new-visual-studio-docs.md
   - name: History of what's new in the docs
     href: ide/whats-new-visual-studio-docs-history.md
-  - name: Release notes & system requirements
+  - name: Release notes
     items:
     - name: Release rhythm
       href: /visualstudio/productinfo/release-rhythm/
@@ -1442,7 +1443,7 @@
     - name: Visual Studio 2017 notes
       href: /visualstudio/releasenotes/vs2017-relnotes/
     - name: Visual Studio 2015 docs
-     href: vs-2015-archive.md   
+      href: vs-2015-archive.md   
     - name: License terms
       href: https://visualstudio.microsoft.com/license-terms/
     - name: Support lifecycle and servicing
