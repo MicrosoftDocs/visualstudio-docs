@@ -1,7 +1,7 @@
 ---
 title: Update Visual Studio using a minimal offline layout
 description: Learn how to Update Visual Studio using a minimal offline layout.
-ms.date: 05/17/2021
+ms.date: 05/18/2021
 ms.custom: seodec18
 ms.topic: how-to
 ms.assetid:
