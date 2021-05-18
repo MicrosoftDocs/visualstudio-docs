@@ -19,13 +19,13 @@ To set your preferences:
 1. Sign in to the admin portal with an ID that has super admin privileges.
 2. Click on the setting icon in the left pane.
    > [!div class="mx-imgBorder"]
-   > ![Admin Preferences button](_img/admin-prefs/admin-prefs-button.png "Click Manage Administrators and then Agreement Preferences to display preferences")
+   > ![Admin Preferences button](_img/admin-preferences/admin-preferences-button.png "Click Manage Administrators and then Agreement Preferences to display preferences")
 
 3. Click **Agreement Preferences**.
 A panel will open on the left and your available preferences will be displayed. 
 
    > [!div class="mx-imgBorder"]
-   > ![Admin Preferences flyout dialog](_img/admin-prefs/admin-prefs-flyout2.png "Set your preferences and click Save")
+   > ![Admin Preferences flyout dialog](_img/admin-preferences/admin-preferences-flyout-2.png "Set your preferences and click Save")
 
 ## Set your preferences
 Let's explore each of the available preferences, and their effects. 
