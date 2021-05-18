@@ -1437,34 +1437,12 @@
     items:
     - name: Release rhythm
       href: /visualstudio/productinfo/release-rhythm/
-    - name: Visual Studio 2017
-      items:
-      - name: Current release notes
-        href: /visualstudio/releasenotes/vs2017-relnotes/
-      - name: Preview release notes
-        href: /visualstudio/releasenotes/vs2017-preview-relnotes/
-      - name: Release notes history
-        href: /visualstudio/releasenotes/vs2017-relnotes-history/
-      - name: Distributable code
-        href: /visualstudio/productinfo/2017-redistribution-vs/
-      - name: Platform compatibility
-        href: /visualstudio/productinfo/vs2017-compatibility-vs/
-      - name: System requirements
-        href: /visualstudio/productinfo/vs2017-system-requirements-vs/
-    - name: Visual Studio 2019
-      items:
-      - name: Current release notes
-        href: /visualstudio/releases/2019/release-notes/
-      - name: Preview release notes
-        href: /visualstudio/releases/2019/release-notes-preview/
-      - name: Release notes history
-        href: /visualstudio/releases/2019/release-notes-history/
-      - name: Distributable code
-        href: /visualstudio/releases/2019/redistribution/
-      - name: Platform compatibility
-        href: /visualstudio/releases/2019/compatibility/
-      - name: System requirements
-        href: /visualstudio/releases/2019/system-requirements/
+    - name: Visual Studio 2019 notes
+      href: /visualstudio/releases/2019/release-notes/
+    - name: Visual Studio 2017 notes
+      href: /visualstudio/releasenotes/vs2017-relnotes/
+    - name: Visual Studio 2015 docs
+     href: vs-2015-archive.md   
     - name: License terms
       href: https://visualstudio.microsoft.com/license-terms/
     - name: Support lifecycle and servicing
@@ -1502,8 +1480,3 @@
     href: ide/developer-community-guidelines.md
   - name: Developer Community data privacy
     href: ide/developer-community-privacy.md
-- name: Visual Studio 2015
-  expanded: true
-  items:
-  - name: Visual Studio 2015 documentation
-    href: vs-2015-archive.md
