@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: 7aaa4727-00ef-41dc-937d-8d46973aaf56
-ms.date: 03/18/2021
+ms.date: 05/18/2021
 ms.topic: conceptual
 description:  Learn how admins on Volume License agreements can access the Visual Studio subscriptions Admin Portal
 ---
@@ -32,4 +32,4 @@ This applies to all Volume Licensing agreement types including, but not limited 
 ## Next steps
 - Learn how to [assign subscriptions](assign-license.md)
 - Learn more about the full range of [subscription benefits](https://visualstudio.microsoft.com/vs/benefits/)
-- [Set agreement preferences](admin-prefs.md)
+- [Set agreement preferences](admin-preferences.md)
