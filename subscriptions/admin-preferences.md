@@ -54,9 +54,9 @@ This preference allows you to decide whether admins can add subscribers from out
 Enabling this setting, which is on by default, will enable subscribers to access downloads when admins create new subscriptions.  Admins can still disable downloads on an individual subscription basis.  Disabling access to downloads also disables access to product keys.  
 
 ### Overallocation notification 
-Opt-in to receive an email when assignments on your agreement become overallocated. This email notification will be sent to the [Contact e-mail address](admin-prefs.md#contact-email-address), or all admins on your agreement if there is no Contact e-mail address. Use the drop down menu to configure the threshold at which you'd like to be notified. 
+Opt-in to receive an email when assignments on your agreement become overallocated. This email notification will be sent to the [Contact e-mail address](admin-preferences.md#contact-email-address), or all admins on your agreement if there is no Contact e-mail address. Use the drop down menu to configure the threshold at which you'd like to be notified. 
 
-
+ 
 ## Frequently asked questions
 ### Q:  Can I disable the **Contact email address** so subscribers cannot contact admins?
 A:  No - while you can determine which admins are contacted using a security group, group email alias or an individual email address, the feature cannot be disabled.
