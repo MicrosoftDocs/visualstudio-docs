@@ -25,11 +25,11 @@ This page will walk you through on resolving common errors seen when using "Brea
 > [!IMPORTANT]
 > Managed Data Breakpoints is supported in .NET Core 3.0 and up and .NET 5.0.3 and up. You can download the latest [here](https://dotnet.microsoft.com/download).
 
-Below is a list of errors that may occur when using managed data breakpoints. They contain additional explanation on why the error is happening and possible solutions or workarounds to resolve error.
+Below is a list of errors that may occur when using managed data breakpoints. They contain more explanation on why the error is happening and possible solutions or workarounds to resolve the error.
 
 - *"The version of .NET used by the target process does not support data breakpoints. Data breakpoints require .NET Core 3.x or .NET 5.0.3+, running on x86 or x64."*
 
-  - The support for managed data breakpoints began in .NET Core 3.0. It is currently not supported in .NET Framework or version of .NET Core under 3.0 or version of .NET under 5.0.3. 
+  - The support for managed data breakpoints began in .NET Core 3.0. It is currently not supported in .NET Framework, versions of .NET Core under 3.0, or versions of .NET under 5.0.3. 
     
   - **Solution**: The solution to this would be to upgrade your project to .NET Core 3.0.
 
@@ -66,8 +66,8 @@ Below is a list of errors that may occur when using managed data breakpoints. Th
 
 - *"Class **X** has a custom debugger view that blocks using data breakpoints on data specific only to it."*
   
-  - Data breakpoints are only supported on memory that is created by the target process (the application that is being debugged). The memory that the data breakpoint is being set on has been flagged as possibly being owned by an object created by a [DebuggerTypeProxy attribute](https://docs.microsoft.com/en-us/visualstudio/debugger/using-debuggertypeproxy-attribute) or something else that is not part of the target process.
-  - **Workaround**: Expand the "Raw View" of the object(s) instead of expanding the DebuggerTypeProxy view of the object(s), and then set the data breakpoint. This will guarantee that the data breakpoint is not on memory owned by an object created by a DebuggerTypeProxy attribute.
+  - Data breakpoints are only supported on memory that is created by the target process (the application that is being debugged). The memory that the data breakpoint is being set on has been flagged as possibly being owned by an object created by a [DebuggerTypeProxy attribute](using-debuggertypeproxy-attribute.md) or something else that isn't part of the target process.
+  - **Workaround**: Expand the "Raw View" of the object(s) instead of expanding the DebuggerTypeProxy view of the object(s), and then set the data breakpoint. This will guarantee that the data breakpoint isn't on memory owned by an object created by a DebuggerTypeProxy attribute.
 
 ## Data breakpoint hardware limitations
 
