@@ -128,12 +128,18 @@ Let's walk through a few examples of how to preview, generate, and regenerate a 
     MinimalLayout.exe regenerate -filepath c:\VSLayout\MinimalLayout.json
     ```
 
-A couple of other examples using the **generate** command:
+A few other examples using the **generate** command:
 
 - Here's how to add an additional workload, and include only the recommended packages.
 
     ```cmd
     MinimalLayout.exe generate --targetLocation c:\VSLayout\ --productIds Microsoft.VisualStudio.Product.Professional --baseVersion 16.4.0 --targetVersion 16.4.4 --add Microsoft.VisualStudio.Workload.ManagedDesktop Microsoft.VisualStudio.Workload.NetWeb;includeRecommended --languages en-US
+    ```
+
+- You can also generate a minimal offline layout which supports multiple products.
+
+    ```cmd
+    MinimalLayout.exe generate --targetLocation c:\VSLayout\ --productIds Microsoft.VisualStudio.Product.Enterprise,Microsoft.VisualStudio.Product.Professional --baseVersion 16.4.0 --targetVersion 16.4.4 --languages en-US
     ```
 
 - And finally, here's how you'd include multiple languages in your minimal layout.
@@ -164,12 +170,18 @@ A couple of other examples using the **generate** command:
     MinimalLayout.exe regenerate -filepath c:\VSLayout\MinimalLayout.json
     ```
 
-A couple of other examples using the **generate** command:
+A few other examples using the **generate** command:
 
 - Here's how to add an additional workload, and include only the recommended packages.
 
     ```cmd
     MinimalLayout.exe generate --targetLocation c:\VSLayout\ --productIds Microsoft.VisualStudio.Product.Professional --baseVersion 15.0.0 --targetVersion 15.9.31 --add Microsoft.VisualStudio.Workload.ManagedDesktop Microsoft.VisualStudio.Workload.NetWeb;includeRecommended --languages en-US
+    ```
+
+- You can also generate a minimal offline layout which supports multiple products.
+
+    ```cmd
+    MinimalLayout.exe generate --targetLocation c:\VSLayout\ --productIds Microsoft.VisualStudio.Product.Enterprise,Microsoft.VisualStudio.Product.Professional --baseVersion 15.0.0 --targetVersion 15.9.31 --languages en-US
     ```
 
 - And finally, here's how you'd include multiple languages in your minimal layout.
