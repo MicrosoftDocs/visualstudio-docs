@@ -81,7 +81,7 @@ By default, Docker stores images in the *%ProgramData%/Docker/* folder, which is
     "graph": "D:\\mypath\\images"
 ```
 
-:::image type=content source="media/troubleshooting-docker-errors/docker-daemon-settings.png" alt-text="Screenshot of Docker File Sharing":::
+:::image type="content" source="media/troubleshooting-docker-errors/docker-daemon-settings.png" alt-text="Screenshot of Docker File Sharing":::
 
 Click **Apply & Restart**. These steps modify the configuration file at *%ProgramData%\docker\config\daemon.json*. Previously built images are not moved.
 
@@ -89,7 +89,7 @@ Click **Apply & Restart**. These steps modify the configuration file at *%Progra
 
 When adding Docker support to a project, you choose either a Windows or a Linux container. If the Docker Server host is not configured to run the same container type as the project target, you will likely see an error similar to the one below:
 
-:::image type=content source="media/troubleshooting-docker-errors/docker-host-config-change-linux-to-windows.png" alt-text="Screenshot of Docker Host and Project Mismatch":::
+:::image type="content" source="media/troubleshooting-docker-errors/docker-host-config-change-linux-to-windows.png" alt-text="Screenshot of Docker Host and Project Mismatch":::
 
 To resolve this issue:
 
