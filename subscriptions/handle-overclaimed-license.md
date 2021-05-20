@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: a747100c-6f08-41a4-aaad-05099741742b
-ms.date: 03/21/2021
+ms.date: 05/18/2021
 ms.topic: conceptual
 description:  Learn how admins can resolve over-allocated subscriptions
 ---
@@ -21,6 +21,9 @@ To see your subscription allocations, click on the top icon at the left to open 
 > ![Notice of Over-claimed Subscriptions](_img/over-claimed/over-claimed-alert.png "The number of over-allocations is listed in the overview, and is represented by the hashed bar on the graph for each subscription type.")
 
 Notice that the display uses a hashed bar to indicate over-allocated subscriptions.  The number of over-allocations across all subscription types is included in the Overview section at the top, and each subscription level also displays its own allocation status.  
+
+## Receive notifications when over-allocations occur
+You can designate an email address to receive notifications when overallocations occur, as well as set a threshold that must be exceeded before notifications are sent.  Learn more about [setting preferences for your agreements](admin-preferences.md) in the admin portal.
 
 ## Resolve over-allocated subscriptions
 There are several ways to resolve over-allocations:
