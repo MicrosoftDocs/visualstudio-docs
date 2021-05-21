@@ -21,4 +21,4 @@ If the subscriptions portal controls or buttons are not working, you see a page 
 * Opening the portal in an Incognito or InPrivate window 
 * Refreshing the page  
 
-If none of these simple solutions solves the issue, click “Onilne request” to get help.
+If none of these simple solutions solves the issue, click “Online request” to get help.
