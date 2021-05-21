@@ -25,7 +25,7 @@ Azure subscriptions created through the Visual Studio Subscriptions benefit may 
 
 ## Azure credit benefit activation errors
 
-If you have a new Visual Studio subscription and are receiving the error "You can't activate this Visual Studio benefit more than once" when trying to activate the monthly Azure credit benefit, contact Visual Studio Subscriptions support by clicking on the "Create a support ticket" button at the bottom of this solution. 
+If you have a new Visual Studio subscription and are receiving the error "You can't activate this Visual Studio benefit more than once" when trying to activate the monthly Azure credit benefit, contact Visual Studio Subscriptions support by clicking on the "Online request" button at the bottom of this solution. 
 
 If your subscription has been assigned for a while, here are a few things to check first:
 - Confirm you haven't activated this benefit already by checking the Azure monthly credit tile on the [Benefits page](https://my.visualstudio.com/benefits) of the subscriptions portal. 
