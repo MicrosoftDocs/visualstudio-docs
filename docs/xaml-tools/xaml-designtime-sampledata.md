@@ -59,13 +59,13 @@ For example:
 </ListView>
 ```
 
-[![Sample data in a ListView with a DataTemplate](media\xaml-sampleData-TemplatedListView.png "Sample data in a ListView with a DataTemplate")](media\xaml-sampleData-xaml-sampleData-TemplatedListView.png#lightbox)
+[![Sample data ListView with a DataTemplate](media\xaml-sampleData-TemplatedListView.png "Sample data used in a ListView with a DataTemplate")](media\xaml-sampleData-TemplatedListView.png#lightbox)
 
 ## Enable sample data with suggested actions
 
 Another quick way to enable sample data can be done using the suggested actions feature. Suggested actions is a lightbulb on the designer that shows up on the top right when you select a control. You can enable sample data by selecting your control, clicking on the light bulb and then clicking on `Show Sample Data`. For example:
 
-[![Sample data in a ListView with a DataTemplate](media\xaml-sampleData-SuggestedActions.png "Sample data in a ListView with a DataTemplate")](media\xaml-sampleData-xaml-sampleData-SuggestedActions.png#lightbox)
+[![Sample data suggested actions](media\xaml-sampleData-SuggestedActions.png "Enable sample data with suggested actions")](media\xaml-sampleData-SuggestedActions.png#lightbox)
 
 ## Sample data with converters
 
