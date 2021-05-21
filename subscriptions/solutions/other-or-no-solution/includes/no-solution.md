@@ -14,7 +14,7 @@ sap.id: 34fccc61-0a31-cc35-22dd-016a1ebf1134
 
 ## Sorry, we couldn't find a solution for you. 
 
-Our team would love to help you out. Visual Studio Subscriptions support provides assistance with sales, subscriptions, accounts, and billing. Create an online ticket by clicking the Create a support ticket button below, and our team will get back to you within 1 business day. 
+Our team would love to help you out. Visual Studio Subscriptions support provides assistance with sales, subscriptions, accounts, and billing. Create an online ticket by clicking the "Online request" button at the bottom of this solution, and our team will get back to you within 1 business day. 
 
 ## Visual Studio IDE technical support resources  
 
@@ -24,7 +24,7 @@ Visual Studio IDE technical issues or questions should be directed to [Visual St
 
 - Review tutorials, troubleshooting guides, and helpful resources within [Visual Studio IDE documentation](https://docs.microsoft.com/visualstudio/ide/). 
 
-- Search the online [Developer Community](https://developercommunity.visualstudio.com/) and get expert answers from a community supported forum. You can search keywords and read, vote, comment all without logging in.  
+- Search the online [Developer Community](https://developercommunity.visualstudio.com/) and get expert answers from a community supported forum. You can search keywords, read, vote, and comment all without logging in.  
 
 - Search the Stack Overflow [public Q&A tagged with visual-studio](https://stackoverflow.com/questions/tagged/visual-studio?tab=Newest) to get answers to already asked questions or sign up for an account and ask a new question.  
 

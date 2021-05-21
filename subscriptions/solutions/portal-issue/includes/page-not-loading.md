@@ -14,11 +14,11 @@ sap.id: 8250612f-7446-20c5-7473-16d089f2280d
 
 ## We're sorry to hear that you're experiencing an issue with a page not loading while using the Visual Studio subscriptions portal. 
 
-If the subscriptions portal controls or buttons are not working, you see a page cannot be displayed or blank page error, the page is not loading or is timing out, or other portal functionality issue, try: 
+If the subscriptions portal controls or buttons aren't working, you see a page cannot be displayed or blank page error, the page isn't loading or is timing out, or other portal functionality issue, try: 
 
 * Clearing your browser cache and signing into the subscriptions portal again 
 * Opening the portal in a different browser 
 * Opening the portal in an Incognito or InPrivate window 
 * Refreshing the page  
 
-If none of these simple solutions solves the issue, click “Create a support ticket” to get help.
+If none of these simple solutions solve the issue, contact Visual Studio Subscriptions support by clicking on the "Online request" button below. 
