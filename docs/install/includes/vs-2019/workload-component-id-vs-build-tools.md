@@ -3,10 +3,10 @@ title: Visual Studio Build Tools 2019 workload and component IDs
 titleSuffix: ""
 description: "Use Visual Studio workload and component IDs to build classic Windows-based applications"
 keywords:
-author: ornellaalt
-ms.author: ornella
-manager: jillfra
-ms.date: 05/24/21
+author: j-martens
+ms.author: jmartens
+manager: jmartens
+ms.date: 05/24/2021
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
 ms.topic: include
