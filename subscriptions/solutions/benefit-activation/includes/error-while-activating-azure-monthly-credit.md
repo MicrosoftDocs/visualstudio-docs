@@ -16,7 +16,7 @@ sap.id: 8dedd10e-cb1c-2eb1-bcda-fe00b07ac903
 
 You can only have one monthly Azure dev/test individual credit benefit per Azure subscription associated with your Visual Studio subscription. You may be seeing an error if you’ve previously activated the monthly Azure credit. If you're unsure if you activated the credit, log into the [Azure portal](https://portal.azure.com/) to verify. 
 
-If you have a new Visual Studio subscription and are receiving the error "You can't activate this Visual Studio benefit more than once" when trying to activate the monthly Azure credit benefit, contact Visual Studio Subscriptions support by clicking on the "Create a support ticket" button at the bottom of this solution. 
+If you have a new Visual Studio subscription and are receiving the error "You can't activate this Visual Studio benefit more than once" when trying to activate the monthly Azure credit benefit, contact Visual Studio Subscriptions support by clicking on the "Online request" button at the bottom of this solution. 
 
 ## Verify your email 
 
