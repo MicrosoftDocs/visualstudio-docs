@@ -23,7 +23,7 @@ File sharing only needs to be managed if you are using Hyper-V with Docker. If y
 1. Right-click **Docker for Windows** in the notification area, and then select **Settings**.
 1. Select **Resources** > **File Sharing** and share the folder that needs to be accessed. Sharing your entire system drive is possible but not recommended.
 
-    ![shared drives](media/troubleshooting-docker-errors/docker-settings-image.png)
+    :::image type="content" source="media//troubleshooting-docker-errors/docker-settings-image.png" alt-text="Shared drives":::
 
 > [!TIP]
 > Visual Studio versions later than Visual Studio 2017 version 15.6 will  prompt when **Shared Drives** aren't configured.
@@ -81,7 +81,7 @@ By default, Docker stores images in the *%ProgramData%/Docker/* folder, which is
     "graph": "D:\\mypath\\images"
 ```
 
-![Screenshot of Docker File Sharing](media/troubleshooting-docker-errors/docker-daemon-settings.png)
+:::image type="content" source="media/troubleshooting-docker-errors/docker-daemon-settings.png" alt-text="Screenshot of Docker File Sharing":::
 
 Click **Apply & Restart**. These steps modify the configuration file at *%ProgramData%\docker\config\daemon.json*. Previously built images are not moved.
 
@@ -89,7 +89,7 @@ Click **Apply & Restart**. These steps modify the configuration file at *%Progra
 
 When adding Docker support to a project, you choose either a Windows or a Linux container. If the Docker Server host is not configured to run the same container type as the project target, you will likely see an error similar to the one below:
 
-![Screenshot of Docker Host and Project Mismatch](media/troubleshooting-docker-errors/docker-host-config-change-linux-to-windows.png)
+:::image type="content" source="media/troubleshooting-docker-errors/docker-host-config-change-linux-to-windows.png" alt-text="Screenshot of Docker Host and Project Mismatch":::
 
 To resolve this issue:
 
