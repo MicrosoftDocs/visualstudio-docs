@@ -36,13 +36,13 @@ If you haven't already installed Visual Studio 2017, go to the [Visual Studio d
 
 Visual Studio can help set up your environment, including installing tools common with Node.js development.
 
-1. In Visual Studio, go to **Tools > Get Tools and Features...**.
+1. In Visual Studio, go to **Tools** > **Get Tools and Features**.
 
 1. In the Visual Studio Installer, choose the **Node.js development** workload and select **Modify** to download and install the workload.
 
-    ![Node.js workload in VS Installer](../ide/media/quickstart-nodejs-workload.png)
+    ![Node.js workload in Visual Studio Installer](../ide/media/quickstart-nodejs-workload.png)
 
-1. Install the LTS version of [Node.js](https://nodejs.org/en/download/) runtime (which we recommend for best compatibility with outside frameworks and libraries).
+1. Install the LTS version of [Node.js](https://nodejs.org/download/) runtime. We recommend the LTS version for best compatibility with outside frameworks and libraries.
 
     While Node.js is built for 32-bit and 64-bit architectures, the Node.js installer only supports one version installed at a time.
 
@@ -54,7 +54,7 @@ Visual Studio can help set up your environment, including installing tools commo
 
 ## Create your app project
 
-1. If you haven't yet, install the LTS version of [Node.js runtime](https://nodejs.org/en/download/). (For more information, see the [prerequisites](#prerequisites).)
+1. If you haven't yet, install the LTS version of [Node.js runtime](https://nodejs.org/download/). For more information, see the [prerequisites](#prerequisites).
 
 1. Open Visual Studio.
 
@@ -71,7 +71,7 @@ Visual Studio can help set up your environment, including installing tools commo
     ::: moniker-end
 
     ::: moniker range="vs-2017"
-    1. From the top menu bar, choose **File > New > Project**.
+    1. From the top menu bar, choose **File** > **New** > **Project**.
 
     1. In the left pane of the **New Project** dialog, expand **JavaScript** and choose **Node.js**.
 
@@ -79,13 +79,13 @@ Visual Studio can help set up your environment, including installing tools commo
 
     ::: moniker-end
     
-    If you don't see the **Blank Node.js Web application** project template, you must add the **Node.js development** workload. (For detailed instructions, see the [prerequisites](#prerequisites).)
+    If you don't see the **Blank Node.js Web application** project template, you must add the **Node.js development** workload. For detailed instructions, see the [prerequisites](#prerequisites).
 
     Visual Studio creates and opens the project. The project's *server.js* file opens in the editor on the left.
 
 ## Explore the IDE
 
-1. Look at the **Solution Explorer** in the right pane.
+1. In the right pane, look at **Solution Explorer**.
 
    ![Solution Explorer](../ide/media/quickstart-nodejs-solution-explorer.png)
 
@@ -93,31 +93,31 @@ Visual Studio can help set up your environment, including installing tools commo
 
    - At the top level is a solution, which by default has the same name as your project. A solution, represented by a *.sln* file on disk, is a container for one or more related projects.
 
-   - The **npm** node shows installed npm packages. You can right-click the npm node to search for and install npm packages using a dialog box.
+   - The **npm** node shows installed npm packages. You can right-click the npm node to search for and install npm packages by using a dialog.
 
 1. If you want to install npm packages or Node.js commands from a command prompt, right-click the project node and choose **Open Command Prompt Here**.
 
-   ![Node.js command prompt](../ide/media/quickstart-nodejs-command-prompt.png)
+   ![Node dot j s command prompt](../ide/media/quickstart-nodejs-command-prompt.png)
 
-1. If you want to test navigation to source code, from the open *server.js* file, select `http.createServer` and press **F12** or choose **Go To Definition** from the context (right-click) menu. This command takes you to the definition of the `createServer` function in *http.d.ts*.
+1. If you want to test navigation to source code, from the open *server.js* file, select **http.createServer** and press **F12** or choose **Go To Definition** from the context (right-click) menu. This command takes you to the definition of the `createServer` function in *http.d.ts*.
 
    ![Go To Definition context menu](../ide/media/quickstart-nodejs-gotodefinition.png)
 
-1. Got back to *server.js* and locate this line of code: `res.end('Hello World\n');`. Modify the code like this:
+1. Go back to *server.js* and locate this line of code: `res.end('Hello World\n');`. Modify the code like this:
 
     `res.end('Hello World\n' + res.connection.`
 
-    When you type `connection.`, IntelliSense provides options to auto-complete the code entry.
+    When you type **connection.**, IntelliSense provides options to auto-complete the code entry.
 
    ![IntelliSense auto-complete](../ide/media/quickstart-nodejs-intellisense.png)
 
-1. Choose **localPort** and type `);` to complete the statement:
+1. Choose **localPort** and type **);** to complete the statement:
 
     `res.end('Hello World\n' + res.connection.localPort);`
 
 ## Run the app
 
-1. Press **Ctrl**+**F5** (or **Debug > Start Without Debugging**) to run the app. 
+1. Press **Ctrl+F5** (or **Debug** > **Start Without Debugging**) to run the app. 
  
    The app opens in a browser.
 
