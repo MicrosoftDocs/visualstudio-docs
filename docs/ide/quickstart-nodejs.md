@@ -99,7 +99,7 @@ Visual Studio can help set up your environment, including installing tools commo
 
    ![Node.js command prompt](../ide/media/quickstart-nodejs-command-prompt.png)
 
-1. In the open *server.js* file, select `http.createServer` and press **F12** or choose **Go To Definition** from the context (right-click) menu. This command takes you to the definition of the `createServer` function in *index.d.ts*.
+1. In the open *server.js* file, select `http.createServer` and press **F12** or choose **Go To Definition** from the context (right-click) menu. This command takes you to the definition of the `createServer` function in *http.d.ts*.
 
    ![Go To Definition context menu](../ide/media/quickstart-nodejs-gotodefinition.png)
 
