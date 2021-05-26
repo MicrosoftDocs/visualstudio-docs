@@ -57,7 +57,7 @@ In this window you can search for a package, specify options, and install.
 * **Selected version** - Select the version of the package you want to install.
 * **Other npm arguments** - Specify other standard npm arguments. For example, you can enter a version value such as `@~0.8` to install a specific version that is not available in the versions list.
 
-You can see the progress of the installation in the **npm** output in the **Output** window. This may take some time.
+You can see the progress of the installation in the **npm** output in the **Output** window (to open the window, choose **View** > **Output** or press **Ctrl** + **Alt** + **O**). This may take some time.
 
 ![npm output](../javascript/media/npm-output.png)
 
@@ -103,7 +103,7 @@ Right-click a package node or the **npm** node to take one of the following acti
 ### <a name="interactive"></a>Use the .npm command in the Node.js Interactive Window (Node.js)
 
 You can also use the `.npm` command in the Node.js Interactive Window to execute
- npm commands. To open the window, right-click the project in Solution Explorer and choose **Open Node.js Interactive Window**.
+ npm commands. To open the window, right-click the project in Solution Explorer and choose **Open Node.js Interactive Window** (or press **Ctrl** + **K**, **N**).
 
 In the window, you can use commands such as the following to install a package:
 
@@ -135,7 +135,7 @@ If your project does not already include a *package.json* file, you can add one 
 
    npm requires Node.js.
 
-1. To add the *package.json* file, right-click the project in Solution Explorer and choose **Add** > **New Item**. Choose the **npm Configuration File**, use the default name, and click **Add**.
+1. To add the *package.json* file, right-click the project in Solution Explorer and choose **Add** > **New Item** (or press **Ctrl** + **SHIFT** + **A**). Choose the **npm Configuration File**, use the default name, and click **Add**.
 
    ![Add package.json to your project](../javascript/media/npm-add-package-json.png)
 

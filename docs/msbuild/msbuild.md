@@ -106,7 +106,7 @@ MSBuild.exe MyProj.proj -property:Configuration=Debug
 ```xml
 <ItemGroup>
   <Compile Include="one.cs" />
-  <comPile Include="two.cs" />
+  <Compile Include="two.cs" />
 </ItemGroup>
 ```
 

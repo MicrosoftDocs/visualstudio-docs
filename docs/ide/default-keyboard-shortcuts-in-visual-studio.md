@@ -2,7 +2,7 @@
 title: Default keyboard shortcuts
 description: Learn about the default keyboard shortcuts in Visual Studio that allow you to access a variety of commands and windows.
 ms.custom: SEO-VS-2020
-ms.date: 03/10/2021
+ms.date: 05/21/2021
 ms.topic: reference
 helpviewer_keywords:
 - shortcut keys [Visual Studio], keyboard binding schemes
@@ -92,6 +92,7 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 |Commands|Keyboard shortcuts|
 |--------------| - |
 |Debug.ApplyCodeChanges|**Alt+F10**|
+|Debug.AttachtoProcess |**Ctrl+Alt+P**|
 |Debug.Autos|**Ctrl+Alt+V, A**|
 |Debug.BreakAll|**Ctrl+Alt+Break**|
 |Debug.Breakpoints|**Ctrl+Alt+B**|
@@ -127,6 +128,7 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 |Debug.ParallelWatch4|**Ctrl+Shift+D, 4**|
 |Debug.Processes|**Ctrl+Alt+Z**|
 |Debug.QuickWatch|**Shift+F9** or **Ctrl+Alt+Q**|
+|Debug.ReattachtoProcess|**Shift+Alt+P**|
 |Debug.RefreshWindowsapp|**Ctrl+Shift+R**|
 |Debug.Registers|**Ctrl+Alt+G**|
 |Debug.Restart|**Ctrl+Shift+F5**|

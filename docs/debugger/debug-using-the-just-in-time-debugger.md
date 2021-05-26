@@ -171,7 +171,7 @@ You might see the following error messages during Just-In-Time debugging:
 
     The debugger tried to attach to a process running under another user.
 
-    To work around this problem, in Visual Studio, open **Debug** > **Attach to Process**, and find the process you want to debug in the **Available Processes** list. If you do not know the name of the process, find the Process ID in the **Visual Studio Just-In-Time Debugger** dialog. Select the process in the **Available Processes** list, and select **Attach**. Select **No** to dismiss the Just-In-Time debugger dialog.
+    To work around this problem, in Visual Studio, open **Debug** > **Attach to Process** (or press **Ctrl** + **Alt** + **P**), and find the process you want to debug in the **Available Processes** list. If you do not know the name of the process, find the Process ID in the **Visual Studio Just-In-Time Debugger** dialog. Select the process in the **Available Processes** list, and select **Attach**. Select **No** to dismiss the Just-In-Time debugger dialog.
 
 - **Debugger could not be started because no user is logged on.**
 

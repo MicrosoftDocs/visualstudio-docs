@@ -364,4 +364,4 @@ This provides enough information for a preliminary investigation of the bug. Eit
 ## See also
 
 - [Live Unit Testing in Visual Studio](live-unit-testing.md)
-- [Live Unit Testing Frequently Asked Questions](live-unit-testing-faq.md)
+- [Live Unit Testing Frequently Asked Questions](live-unit-testing-faq.yml)

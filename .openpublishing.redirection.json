@@ -57900,11 +57900,6 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "docs/ide/codespaces/index.md",
-      "redirect_url": "/visualstudio/ide/codespaces/codespaces-overview",
-      "redirect_document_id": false
-    },
-    {
       "source_path": "docs/ide/editorconfig-code-style-settings-reference.md",
       "redirect_url": "/dotnet/fundamentals/code-analysis/code-style-rule-options",
       "redirect_document_id": false

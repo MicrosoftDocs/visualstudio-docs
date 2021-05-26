@@ -49,7 +49,7 @@
       - name: Suppress code analysis violations
         href: in-source-suppression-overview.md
     - name: FAQ
-      href: analyzers-faq.md
+      href: analyzers-faq.yml
   - name: Legacy analysis
     items:
     - name: Overview
@@ -92,7 +92,7 @@
       - name: Migrate from FxCop analyzers to .NET analyzers
         href: migrate-from-fxcop-analyzers-to-net-analyzers.md
       - name: FAQ
-        href: net-analyzers-faq.md
+        href: net-analyzers-faq.yml
     - name: Rule sets
       items:
       - name: Overview
@@ -459,6 +459,10 @@
         href: code-metrics-maintainability-index-range-and-meaning.md
       - name: Class coupling
         href: code-metrics-class-coupling.md
+      - name: Cyclomatic complexity
+        href: code-metrics-cyclomatic-complexity.md
+      - name: Depth of inheritance
+        href: code-metrics-depth-of-inheritance.md
 - name: C++ code analysis
   items:
   - name: Analyze C and C++ code

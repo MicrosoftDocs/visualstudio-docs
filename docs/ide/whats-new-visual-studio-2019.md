@@ -2,7 +2,7 @@
 title: "What's new in Visual Studio 2019"
 titleSuffix: ""
 description: "Learn about the new features in Visual Studio 2019."
-ms.date: 03/19/2021
+ms.date: 05/25/2021
 helpviewer_keywords:
   - "Visual Studio, what's new"
   - "what's new [Visual Studio]"
@@ -18,10 +18,13 @@ ms.workload:
 ---
 # What's new in Visual Studio 2019
 
-**Updated for the [16.9 release](/visualstudio/releases/2019/release-notes/)**
+**Updated for the [16.10 release](/visualstudio/releases/2019/release-notes/)**
 
 >[!div class="button"]
 >[Download Visual Studio 2019](https://visualstudio.microsoft.com/downloads)
+
+> [!TIP]
+> Join us at the **[Microsoft Build](https://devblogs.microsoft.com/visualstudio/the-visual-studio-family-welcomes-you-at-microsoft-build-2021/)** conference to learn more about the newest Visual Studio 2019 features, along with a sneak peek at what's to come in [Visual Studio 2022](https://devblogs.microsoft.com/visualstudio/visual-studio-2022/).
 
 With Visual Studio 2019, you'll get best-in-class tools and services for any developer, any app, and any platform. Whether you're using Visual Studio for the first time or you've been using it for years, there's a lot to like in our latest version!
 
@@ -222,9 +225,11 @@ Meanwhile, here is a new feature that's currently in the works.
 
    Although the new Git version control experience is now on by default in Visual Studio 2019 [version 16.8](/visualstudio/releases/2019/release-notes/), we continue to add features to enhance the experience in the newest Preview release.
 
-   For more information, see the [Git experience in Visual Studio](../version-control/git-with-visual-studio.md) page.
+   For more information, see the [Version control in Visual Studio](/visualstudio/version-control/) page.
 
 For more information about the Preview release&mdash;and a download link if you'd like to try it out&mdash;see the **[Visual Studio Preview](https://aka.ms/vspreview/)** page.
+
+And, to learn more about our next version, see the **[Visual Studio 2022](https://devblogs.microsoft.com/visualstudio/visual-studio-2022/)** blog post! We'll also present more information about Visual Studio 2022 in the **[Microsoft Build](https://devblogs.microsoft.com/visualstudio/the-visual-studio-family-welcomes-you-at-microsoft-build-2021/)** conference, if you'd like to join us there, too.
 
 ## Give us feedback
 
