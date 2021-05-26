@@ -1,7 +1,7 @@
 ---
-title: Use Design-time Sample Data with the XAML Designer in Visual Studio
-description: Learn how to use Sample design-time data in XAML.
-ms.date: 05/24/2021
+title: Use Design-Time Sample Data with the XAML Designer in Visual Studio
+description: Learn how to use design-time sample data in XAML.
+ms.date: 05/26/2021
 ms.topic: conceptual
 author: alihamie
 ms.author: tglee
@@ -11,14 +11,14 @@ monikerRange: vs-2019
 
 # Use Design-time Sample Data with the XAML Designer in Visual Studio
 
-Some data reliant controls, such as ListView, ListBox or DataGrid, are hard to visualize without data. In this document we'll be reviewing a new approach that allows developers working on **WPF .NET Core** projects or **WPF .NET Framework** projects with the new designer to enable sample data in these controls.
-
-> [!NOTE]
-> Visit [XAML design-time properties](/xaml/xaml-tools/xaml/xaml-designtime-data.md) to learn more about design-time properties in XAML. 
+Some data reliant controls, such as ListView, ListBox or DataGrid, are hard to visualize without data. In this document we'll be reviewing a new approach that allows developers working on **WPF .NET Core** projects or **WPF .NET Framework** projects with the new designer to enable sample data in these controls. 
 
 ## Sample Data feature basics
 
-Sample Data is for design-time visualization only and is applied to the design-time version of the ItemsSource property. Sample Data needs the design-time namespace to work. To get started, add the following lines of code to the header of your XAML document if they aren't already present:
+Sample data is for design-time visualization only, meaning it only appears in the XAML designer, not the running app. As such, it is applied to the design-time version of the ItemsSource property `d:ItemsSource`. Sample Data needs the design-time namespace to work. To get started, add the following lines of code to the header of your XAML document if they aren't already present:
+
+> [!NOTE]
+> Visit [XAML design-time properties](/xaml/xaml-tools/xaml/xaml-designtime-data.md) to learn more about design-time properties in XAML.
 
 ```xml
 xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
@@ -40,7 +40,7 @@ You can use the **ItemCount** property to specify how many items you would like 
 
 ## Sample Data works with DataTemplates
 
-Sample Data works for ListBox, ListView or DataGrid when you use data templates. The Sample Data feature will analyze the DataTemplate and try to generate the appropriate data for it. **It is important that elements in the DataTemplate have bindings in them for sample data to work**. It will work even if the bindings don't have a source yet.
+Sample Data works for ListBox, ListView or DataGrid controls when you use data templates. The Sample Data feature will analyze the DataTemplate and try to generate the appropriate data for it. **It is important that elements in the DataTemplate have bindings in them for sample data to work**. It will work even if the bindings don't have a source yet.
 For example:
 
 ```xml
@@ -70,7 +70,7 @@ To easily enable or disable Sample Data for a control from the designer you can 
 ## Sample Data with IValueConverters 
 
 Converters are not fully supported by the Sample Data feature. However you can get it to work by doing one or both of the following:
-- Making sure that your `Convert` function can handle a scenario where the value is already your targetType.
+- Make sure that your `Convert` function can handle a scenario where the value is already your targetType.
 
 - Implement the `ConvertBack` function that will convert your value back to the original type. 
 
