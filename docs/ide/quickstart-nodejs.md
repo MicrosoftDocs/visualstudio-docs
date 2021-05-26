@@ -17,7 +17,7 @@ ms.workload:
 ---
 # Quickstart: Create your first Node.js app with Visual Studio
 
-In this 5-10-minute introduction to the Visual Studio integrated development environment (IDE), you'll create a simple Node.js web app.
+In this 5-to-10-minute introduction to the Visual Studio integrated development environment (IDE), you'll create a simple Node.js web app.
 
 ## Prerequisites
 
@@ -42,9 +42,9 @@ Visual Studio can help set up your environment, including installing tools commo
 
     ![Node.js workload in Visual Studio Installer](../ide/media/quickstart-nodejs-workload.png)
 
-1. Install the LTS version of [Node.js](https://nodejs.org/download/) runtime. We recommend the LTS version for best compatibility with outside frameworks and libraries.
+1. Install the LTS version of the [Node.js runtime](https://nodejs.org/en/download/). We recommend the LTS version for best compatibility with outside frameworks and libraries.
 
-    While Node.js is built for 32-bit and 64-bit architectures, the Node.js installer only supports one version installed at a time.
+    Although Node.js is built for 32-bit and 64-bit architectures, the Node.js installer only supports one version installed at a time.
 
 1. If Visual Studio doesn't detect your installed runtime (it generally does), configure your project to reference the installed runtime:
 
@@ -54,7 +54,7 @@ Visual Studio can help set up your environment, including installing tools commo
 
 ## Create your app project
 
-1. If you haven't yet, install the LTS version of [Node.js runtime](https://nodejs.org/download/). For more information, see the [prerequisites](#prerequisites).
+1. If you haven't yet, install the LTS version of the [Node.js runtime](https://nodejs.org/en/download/). For more information, see the [prerequisites](#prerequisites).
 
 1. Open Visual Studio.
 
