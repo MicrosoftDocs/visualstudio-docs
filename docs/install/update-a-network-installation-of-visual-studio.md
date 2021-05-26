@@ -1,7 +1,7 @@
 ---
 title: Update a network-based installation
 description: Learn how to update a network-based Visual Studio installation by using the --layout command
-ms.date: 04/16/2021
+ms.date: 05/26/2021
 ms.custom: seodec18
 ms.topic: conceptual
 helpviewer_keywords:
@@ -58,9 +58,9 @@ Let's walk through a few examples of how to create and then update a layout:
   ```
 
     > [!IMPORTANT]
-    > An update operation doesn't install newly added optional components. If you need the newly added optional components, please remove the old optional components in the `Layout.JSON` [response file](automated-installation-with-response-file.md) and include the components you need in the "add" section of `Layout.JSON`. 
+    > An update operation doesn't install newly added optional components. If you need the newly added optional components, please remove the old optional components in the `Layout.JSON` [response file](automated-installation-with-response-file.md) and include the components you need in the "add" section of `Layout.JSON`. Running update command on layout will download the new missing components. 
     >
-    > **Workaround**: Run a separate modify operation after an upgrade to install the missing components.
+    > **Workaround**: Run a separate modify operation after an upgrade to install the missing components on client machines.
 
 * And finally, here's how to add an additional workload and localized language without updating the version. (This command adds the *ASP.NET and web development* workload.)  Now the Managed Desktop, Azure, and ASP.NET & Web Development workloads are included in this layout. The language resources for English, German, and French are also included for all these workloads.  However, the layout was not updated to the latest available version when this command was run. It remains at the existing version.
 
