@@ -40,7 +40,7 @@ By default you get 5 items displayed. However, you can use the **ItemCount** pro
 
 ## Sample Data works with DataTemplates
 
-Sample Data works for ListBox, ListView or DataGrid controls when you use data templates. The Sample Data feature will analyze the DataTemplate and try to generate the appropriate data for it. **It is important that elements in the DataTemplate have bindings in them for sample data to work**. It will work even if the bindings don't have a source yet.
+Sample Data works for ListBox, ListView or DataGrid controls when you use data templates. The Sample Data feature will analyze the DataTemplate and try to generate the appropriate data for it. For a specific element in the DataTemplate to have sample data it **needs to have a binding**, otherwise the Sample Data feature won't be able to generate data for it. Sample data will be generated even if the bindings doesn't have a source yet.
 For example:
 
 ```xml
@@ -84,7 +84,7 @@ If you experience a problem that isn't listed in this section, or can't be fixed
 
 - Sample Data requires Visual Studio 2019 version [16.10](/visualstudio/releases/2019/release-notes-v16.10) or later.
 
-- Supports Windows desktop projects that target Windows Presentation Foundation (WPF) for .NET Core or new designer for .NET Framework.
+- Supports Windows desktop projects that target Windows Presentation Foundation (WPF) for .NET Core or .NET Framework when using the new designer. To enable the new designer for .NET Framework go to Tools > Options > Environment > Preview Features, select New WPF XAML Designer for .NET Framework and then restart Visual Studio.
 
 ## See also
 
