@@ -11,7 +11,7 @@ monikerRange: vs-2019
 
 # Use Design-time Sample Data with the XAML Designer in Visual Studio
 
-Some data reliant controls, such as ListView, ListBox or DataGrid, are hard to visualize without data. In this document we'll be reviewing a new approach that allows developers working on **WPF .NET Core** projects or **WPF .NET Framework** projects with the new designer to enable sample data in these controls. 
+Some data reliant controls, such as ListView, ListBox or DataGrid, are hard to visualize without data. In this document we'll review a new approach that allows developers working on **WPF .NET Core** projects or **WPF .NET Framework** projects with the new designer to enable sample data in these controls. 
 
 ## Sample Data feature basics
 
@@ -36,7 +36,7 @@ After adding the namespaces, you can use `d:ItemsSource="{d:SampleData}"` to ena
 
 In this example, without `d:ItemsSource="{d:SampleData}"` the XAML Designer would show an empty DataGrid. Instead, with `d:SampleData` it now shows generated default sample data.
 
-You can use the **ItemCount** property to specify how many items you would like to display, for example: `d:ItemsSource="{d:SampleData ItemCount=2}"`
+By default you get 5 items displayed. However, you can use the **ItemCount** property to specify how many items you would like to display. for example: `d:ItemsSource="{d:SampleData ItemCount=2}"`
 
 ## Sample Data works with DataTemplates
 
