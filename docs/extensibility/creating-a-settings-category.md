@@ -112,7 +112,9 @@ To start this walkthrough, you must first complete the first section of [Create 
 
 9. Name the new settings file *MySettings.vssettings* and save it in an appropriate directory. Click **Finish**.
 
-     The **Export Complete** page reports that your settings were successfully exported.
+   The `.vssettings` file is the Visual Studio settings file. The file’s schema is open. Most commonly, the schema follows an XML structure where each category is a tag, which can itself contain subcategory tags. These sub-category tags can contain property value tags. While most packages use the common structure, any package in Visual Studio can contribute arbitrary XML to the file with the schema it chooses.
+
+   The **Export Complete** page reports that your settings were successfully exported.
 
 10. On the **File** menu, point to **Open**, and then click **File**. Locate *MySettings.vssettings* and open it.
 
