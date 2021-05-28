@@ -30,5 +30,4 @@ ms.topic: include
 | 8006 | Visual Studio processes running |
 | -1073720687 | Connectivity failure |
 | -1073741510 | Microsoft Visual Studio Installer was terminated (by the user or external process) |
-
 | Other<br>(for example:<br>-1, 1, 1603) | Failure condition occurred - check the logs for more information |
