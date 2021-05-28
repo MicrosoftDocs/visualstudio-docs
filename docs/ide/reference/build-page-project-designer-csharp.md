@@ -113,7 +113,7 @@ The following settings are used to specify which warnings are treated as errors.
 **Specific warnings** - Treats the specified warnings as errors. Separate multiple warning numbers with a comma or semicolon.
 
 > [!TIP]
-> If you don't want code analysis warnings to be treated as errors, see [Code analysis FAQ](../../code-quality/analyzers-faq.md#treat-warnings-as-errors).
+> If you don't want code analysis warnings to be treated as errors, see [Code analysis FAQ](/visualstudio/code-quality/analyzers-faq#treat-warnings-as-errors).
 
 ## Output
 

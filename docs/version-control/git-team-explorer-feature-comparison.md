@@ -7,6 +7,8 @@ ms.topic: how-to
 ms.author: tglee
 author: TerryGLee
 ms.manager: jmartens
+ms.prod: visual-studio-windows
+ms.technology: vs-ide-general
 ---
 # Side-by-side comparison of Git and Team Explorer
 

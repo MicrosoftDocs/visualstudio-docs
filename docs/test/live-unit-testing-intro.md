@@ -28,7 +28,7 @@ To learn more about Live Unit Testing:
 
 - Read detailed documentation: [Use Live Unit Testing with Visual Studio Enterprise Edition](live-unit-testing.md).
 
-- Read the [Live Unit Testing FAQ](live-unit-testing-faq.md) to learn what's new in Live Unit Testing as well as tips and techniques.
+- Read the [Live Unit Testing FAQ](live-unit-testing-faq.yml) to learn what's new in Live Unit Testing as well as tips and techniques.
 
 - Watch the Channel 9 video for an overview of Live Unit Testing and its features.</p>
 

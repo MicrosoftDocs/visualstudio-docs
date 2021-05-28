@@ -30,7 +30,7 @@ landingContent:
       - linkListType: concept
         links:
           - text: FAQ
-            url: analyzers-faq.md
+            url: analyzers-faq.yml
       - linkListType: how-to-guide
         links:
           - text: .NET code analysis

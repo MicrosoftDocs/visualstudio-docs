@@ -50,4 +50,4 @@ To assign new admins (admins):
 ## Next steps
 - Learn how to [assign subscriptions](assign-license.md)
 - Learn more about the full range of [subscription benefits](https://visualstudio.microsoft.com/vs/benefits/)
-- [Set agreement preferences](admin-prefs.md)
+- [Set agreement preferences](admin-preferences.md)

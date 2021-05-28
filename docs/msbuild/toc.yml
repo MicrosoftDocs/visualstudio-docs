@@ -492,12 +492,28 @@
         href: errors/msb3277.md
       - name: MSB3644
         href: errors/msb3644.md
+      - name: MSB3721
+        href: errors/msb3721.md
+      - name: MSB3821
+        href: errors/msb3821.md
+      - name: MSB8006
+        href: errors/msb8006.md
+      - name: MSB8013
+        href: errors/msb8013.md
+      - name: MSB8027
+        href: errors/msb8027.md
       - name: MSB8036
         href: errors/msb8036.md
+      - name: MSB8037
+        href: errors/msb8037.md
       - name: MSB8040
         href: errors/msb8040.md
       - name: MSB8041
         href: errors/msb8041.md
+      - name: MSB8042
+        href: errors/msb8042.md
+      - name: MSB8066
+        href: errors/msb8066.md
   - name: Use MSBuild programmatically
     items:
     - name: Overview

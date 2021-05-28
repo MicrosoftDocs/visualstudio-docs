@@ -26,6 +26,8 @@
       href: deploy-app-service.md
     - name: Deploy to Docker Hub
       href: deploy-docker-hub.md
+    - name: Manage launch profiles (Preview)
+      href: launch-profiles.md
     - name: View and diagnose containers and images
       href: view-and-diagnose-containers.md
     - name: Configure Container Tools
@@ -52,3 +54,5 @@
       href: overview-bridge-to-kubernetes.md
     - name: Configure Bridge to Kubernetes
       href: configure-bridge-to-kubernetes.md
+    - name: Use Azure AD managed identities with Bridge to Kubernetes
+      href: managed-identity.md
