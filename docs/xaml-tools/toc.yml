@@ -23,7 +23,7 @@
   - name: XAML Design Time Data
     href: xaml-designtime-data.md
   - name: XAML Design Time Sample Data
-    href: xaml-design-time-sample-data
+    href: xaml-design-time-sample-data.md
   - name: Blend for Visual Studio
     items:
     - name: Overview
