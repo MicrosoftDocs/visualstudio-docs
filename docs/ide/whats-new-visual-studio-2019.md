@@ -2,7 +2,7 @@
 title: "What's new in Visual Studio 2019"
 titleSuffix: ""
 description: "Learn about the new features in Visual Studio 2019."
-ms.date: 05/25/2021
+ms.date: 05/28/2021
 helpviewer_keywords:
   - "Visual Studio, what's new"
   - "what's new [Visual Studio]"
@@ -22,9 +22,6 @@ ms.workload:
 
 >[!div class="button"]
 >[Download Visual Studio 2019](https://visualstudio.microsoft.com/downloads)
-
-> [!TIP]
-> Join us at the **[Microsoft Build](https://devblogs.microsoft.com/visualstudio/the-visual-studio-family-welcomes-you-at-microsoft-build-2021/)** conference to learn more about the newest Visual Studio 2019 features, along with a sneak peek at what's to come in [Visual Studio 2022](https://devblogs.microsoft.com/visualstudio/visual-studio-2022/).
 
 With Visual Studio 2019, you'll get best-in-class tools and services for any developer, any app, and any platform. Whether you're using Visual Studio for the first time or you've been using it for years, there's a lot to like in our latest version!
 
@@ -229,7 +226,8 @@ Meanwhile, here is a new feature that's currently in the works.
 
 For more information about the Preview release&mdash;and a download link if you'd like to try it out&mdash;see the **[Visual Studio Preview](https://aka.ms/vspreview/)** page.
 
-And, to learn more about our next version, see the **[Visual Studio 2022](https://devblogs.microsoft.com/visualstudio/visual-studio-2022/)** blog post! We'll also present more information about Visual Studio 2022 in the **[Microsoft Build](https://devblogs.microsoft.com/visualstudio/the-visual-studio-family-welcomes-you-at-microsoft-build-2021/)** conference, if you'd like to join us there, too.
+> [!TIP]
+> To learn more about our next version, see the **[Visual Studio 2022](https://devblogs.microsoft.com/visualstudio/visual-studio-2022/)** blog post.
 
 ## Give us feedback
 
