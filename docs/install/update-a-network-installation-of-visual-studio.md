@@ -60,7 +60,7 @@ Let's walk through a few examples of how to create and then update a layout:
     > [!IMPORTANT]
     > An update operation doesn't download or install additional optional components either to the layout or onto the client. If you need to add or change optional components, first remove the old optional components from the `Layout.JSON` [response file](automated-installation-with-response-file.md) and include the new components you need in the "add" section of `Layout.JSON`. Then, when you run the update command on the layout, it will download the newly added components into the layout. 
     >
-    > **Workaround**: Run a separate modify operation after an upgrade to install the missing components on client machines.
+    > To get these new components installed on the client machine, make sure you do these three steps. First, verify that the layout contains the new components as described above. Next, update your client to the latest bits in the layout.  Finally, again on the client, run a modify operation which will install the new components (that were added to the layout) onto the client machine.
 
 * And finally, here's how to add an additional workload and localized language without updating the version. (This command adds the *ASP.NET and web development* workload.)  Now the Managed Desktop, Azure, and ASP.NET & Web Development workloads are included in this layout. The language resources for English, German, and French are also included for all these workloads.  However, the layout was not updated to the latest available version when this command was run. It remains at the existing version.
 
