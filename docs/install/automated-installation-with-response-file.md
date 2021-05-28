@@ -17,7 +17,7 @@ ms.workload:
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
 ---
-# How to define settings in a response file
+# Automate installs by using settings in a response file
 
 Administrators who deploy Visual Studio can specify a response file by using the `--in` parameter, as in the following example:
 
