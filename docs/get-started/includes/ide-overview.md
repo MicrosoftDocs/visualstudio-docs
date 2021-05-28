@@ -1,5 +1,5 @@
 ---
-ms.date: 03/02/2021
+ms.date: 05/28/2021
 ms.technology: vs-ide-general
 ms.custom: vs-get-started
 ms.author: tglee
@@ -17,7 +17,7 @@ The Visual Studio *integrated development environment* is a creative launching p
 
 ::: moniker range="vs-2019"
 
-[![The Visual Studio 2019 IDE](../media/vs-2019/ide-overview.png)](../media/vs-2019/ide-overview.png#lightbox)
+:::image type="content" source="../media/ide-overview.png" alt-text="A screenshot of the Visual Studio IDE, which includes callouts that indicate where key features and functionality are located." lightbox="../media/ide-overview.png":::
 
 ::: moniker-end
 
