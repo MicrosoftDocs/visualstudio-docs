@@ -1,7 +1,7 @@
 ---
-title: Use Design-Time Sample Data with the XAML Designer in Visual Studio
+title: Use design-time sample data with the XAML Designer in Visual Studio
 description: Learn how to use design-time sample data in XAML.
-ms.date: 05/26/2021
+ms.date: 05/28/2021
 ms.topic: conceptual
 author: alihamie
 ms.author: tglee
@@ -9,7 +9,7 @@ manager: jmartens
 monikerRange: vs-2019
 ---
 
-# Use Design-time Sample Data with the XAML Designer in Visual Studio
+# Use design-time sample data with the XAML Designer in Visual Studio
 
 Some data reliant controls, such as ListView, ListBox or DataGrid, are hard to visualize without data. In this document we'll review a new approach that allows developers working on **WPF .NET Core** projects or **WPF .NET Framework** projects with the new designer to enable sample data in these controls. 
 
@@ -32,13 +32,13 @@ After adding the namespaces, you can use `d:ItemsSource="{d:SampleData}"` to ena
 <DataGrid d:ItemsSource="{d:SampleData}"/>
 ```
 
-[![Sample data with DataGrid](media\xaml-sampleData-EmptyDataGrid.png "Sample data enabled on a DataGrid")](media\xaml-sampleData-EmptyDataGrid.png#lightbox)
+[![Sample data with DataGrid](media\xaml-sample-data-empty-datagrid.png "Sample data enabled on a DataGrid")](media\xaml-sample-data-empty-datagrid.png#lightbox)
 
 In this example, without `d:ItemsSource="{d:SampleData}"` the XAML Designer would show an empty DataGrid. Instead, with `d:SampleData` it now shows generated default sample data.
 
 By default you get 5 items displayed. However, you can use the **ItemCount** property to specify how many items you would like to display. for example: `d:ItemsSource="{d:SampleData ItemCount=2}"`
 
-## Sample Data works with DataTemplates
+## Sample data works with datatemplates
 
 Sample Data works for ListBox, ListView or DataGrid controls when you use data templates. The Sample Data feature will analyze the DataTemplate and try to generate the appropriate data for it. Sample Data will only be generated for elements in DataTemplates that use bindings. Sample data will be generated even if the bindings don't have a source yet.
 For example:
@@ -59,15 +59,15 @@ For example:
 </ListView>
 ```
 
-[![Sample Data ListView with a DataTemplate](media\xaml-sampleData-TemplatedListView.png "Sample Data used in a ListView with a DataTemplate")](media\xaml-sampleData-TemplatedListView.png#lightbox)
+[![Sample Data ListView with a DataTemplate](media\xaml-sample-data-templated-listview.png "Sample Data used in a ListView with a DataTemplate")](media\xaml-sample-data-templated-listview.png#lightbox)
 
-## Enable Sample Data with Suggested Actions
+## Enable sample data with suggested actions
 
 To easily enable or disable Sample Data for a control from the designer you can use the Suggested Actions feature. Suggested Actions is a lightbulb on the designer that shows up on the top right when you select a control. You can enable Sample Data by selecting your control, clicking on the light bulb and then clicking on `Show Sample Data`. For example:
 
-[![Sample Data Suggested Actions](media\xaml-sampleData-SuggestedActions.png "Enable Sample Data with Suggested Actions")](media\xaml-sampleData-SuggestedActions.png#lightbox)
+[![Sample Data Suggested Actions](media\xaml-sample-data-suggested-actions.png "Enable Sample Data with Suggested Actions")](media\xaml-sample-data-suggested-actions.png#lightbox)
 
-## Sample Data with IValueConverters 
+## Sample data with IValueConverters 
 
 Converters are not fully supported by the Sample Data feature. However you can get it to work by doing one or both of the following:
 - Make sure that your `Convert` function can handle a scenario where the value is already your targetType.
@@ -88,7 +88,7 @@ If you experience a problem that isn't listed in this section, or can't be fixed
 
 ## See also
 
-- [XAML design-time properties](/xaml/xaml-tools/xaml/xaml-designtime-data.md)
+- [XAML design-time properties](/xaml/xaml-tools/xaml/xaml-designtime-data)
 - [XAML in WPF apps](/dotnet/framework/wpf/advanced/xaml-in-wpf)
 - [XAML in UWP apps](/windows/uwp/xaml-platform/xaml-overview)
 - [XAML in Xamarin.Forms apps](/xamarin/xamarin-forms/xaml/)
