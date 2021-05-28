@@ -1,5 +1,5 @@
 ---
-description: "Imports, exports, or resets Visual Studio settings."
+description: "Imports, exports, or resets Visual Studio settings. .vssettings file extension"
 title: Import and Export Settings command
 ms.date: 05/28/2021
 ms.topic: reference
@@ -15,9 +15,11 @@ manager: jmartens
 ms.workload:
 - multiple
 ---
-# Import and Export Settings command
+# Import and Export Settings command (.vssettings file)
 
-Imports, exports, or resets Visual Studio settings.
+Imports, exports, or resets Visual Studio settings file, `.vssettings`.
+
+The file’s schema is open. Most commonly, the schema follows an XML structure where each category is a tag, which can itself contain subcategory tags. These sub-category tags can contain property value tags. While most packages use the common structure, any package in Visual Studio can contribute arbitrary XML to the file with the schema it chooses.
 
 ## Syntax
 
@@ -51,7 +53,7 @@ The following command exports the current settings to the file `MyFile.vssetting
 Tools.ImportandExportSettings /export:"c:\Files\MyFile.vssettings"
 ```
 
-The `.vssettings` file is the Visual Studio settings file. The file’s schema is open. Most commonly, the schema follows an XML structure where each category is a tag, which can itself contain subcategory tags. These sub-category tags can contain property value tags. While most packages use the common structure, any package in Visual Studio can contribute arbitrary XML to the file with the schema it chooses.
+
 
 ## See also
 
