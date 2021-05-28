@@ -76,7 +76,7 @@ You can use Visual Studio to build apps and games for macOS, Linux, and Windows,
 
 - Build mobile apps for iOS, Android, and Windows in C# and F# by using [Xamarin](https://developer.xamarin.com/guides/cross-platform/windows/visual-studio/).
 
-- Use standard web technologies&mdash;HTML, CSS, and JavaScript&mdash;to build mobile apps for iOS, Android, and Windows by using [Apache Cordova](/visualstudio/cross-platform/tools-for-cordova/).
+- Use standard web technologies&mdash;HTML, CSS, and JavaScript&mdash;to build mobile apps for iOS, Android, and Windows by using [Apache Cordova](/previous-versions/visualstudio/cross-platform/tools-for-cordova/).
 
 - Build 2D and 3D games in C# by using [Visual Studio Tools for Unity](/gamedev/unity/get-started/visual-studio-tools-for-unity.md).
 
