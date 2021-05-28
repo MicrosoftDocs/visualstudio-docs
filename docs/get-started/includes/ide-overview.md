@@ -33,7 +33,7 @@ This image shows Visual Studio with an open project and several key tool windows
 
 ::: moniker-end
 
-- [Team Explorer](/azure/devops/user-guide/work-team-explorer) (bottom right) lets you track work items and share code with others using version control technologies such as [Git](https://git-scm.com/) and [Team Foundation Version Control (TFVC)](/azure/devops/repos/tfvc/overview).
+- [Git Changes](/visualstudio/version-control/) (bottom right) lets you track work items and share code with others using version control technologies such as [Git](https://git-scm.com/) and [GitHub](https://docs.github.com/github).
 
 ## Editions
 
