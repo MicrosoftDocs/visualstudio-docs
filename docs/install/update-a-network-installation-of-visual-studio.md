@@ -58,7 +58,7 @@ Let's walk through a few examples of how to create and then update a layout:
   ```
 
     > [!IMPORTANT]
-    > An update operation doesn't install newly added optional components. If you need the newly added optional components, please remove the old optional components in the `Layout.JSON` [response file](automated-installation-with-response-file.md) and include the components you need in the "add" section of `Layout.JSON`. Running update command on layout will download the new missing components. 
+    > An update operation doesn't download or install additional optional components either to the layout or onto the client. If you need to add or change optional components, first remove the old optional components from the `Layout.JSON` [response file](automated-installation-with-response-file.md) and include the new components you need in the "add" section of `Layout.JSON`. Then, when you run the update command on the layout, it will download the newly added components into the layout. 
     >
     > **Workaround**: Run a separate modify operation after an upgrade to install the missing components on client machines.
 
