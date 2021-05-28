@@ -40,7 +40,7 @@ By default you get 5 items displayed. However, you can use the **ItemCount** pro
 
 ## Sample Data works with DataTemplates
 
-Sample Data works for ListBox, ListView or DataGrid controls when you use data templates. The Sample Data feature will analyze the DataTemplate and try to generate the appropriate data for it. For a specific element in the DataTemplate to have sample data it **needs to have a binding**, otherwise the Sample Data feature won't be able to generate data for it. Sample data will be generated even if the bindings doesn't have a source yet.
+Sample Data works for ListBox, ListView or DataGrid controls when you use data templates. The Sample Data feature will analyze the DataTemplate and try to generate the appropriate data for it. Sample Data will only be generated for elements in DataTemplates that use bindings. Sample data will be generated even if the bindings don't have a source yet.
 For example:
 
 ```xml
