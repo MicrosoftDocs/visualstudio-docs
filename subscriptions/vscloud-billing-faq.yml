@@ -76,7 +76,7 @@ sections:
   - name: How charges are processed
     questions:
       - question: |
-           Q: How are **monthly** cloud subscription charges processed?
+           Q: How are monthly cloud subscription charges processed?
         answer: |
           A: At the first purchase, we bill a prorated quantity to cover the remaining days in the current month. For instance, if a purchase of 10 Visual Studio Professional monthly
           cloud subscriptions was made on April 15, then we would charge 5 units because 50% of the month remains (15 days of a 30-day month).
@@ -86,7 +86,7 @@ sections:
           Professional monthly cloud subscription on May 10, we would bill roughly 0.677 units (21 days remaining in the 31-day month of May).
           
       - question: |
-           Q: How are **annual** cloud subscription charges processed?
+           Q: How are annual cloud subscription charges processed?
         answer: |
           A: At each purchase, we bill the full quantity purchased immediately. Charges are not spread over the year and there is no prorating. If you buy annual cloud subscriptions
           at different times in the year, you will have subscriptions renewing in different months. We do not make all of a customer's annual cloud subscriptions coterminous as is
