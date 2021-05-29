@@ -55,7 +55,6 @@ devenv /ResetSettings [SettingsFile|DefaultCollectionSpecifier]
 
 If no *SettingsFile* is specified, the IDE opens using the existing settings. 
 
-If using `devenv /ResetSettings General`, but you don't want the IDE left open, you can append '/Command "File.Exit"' to make Visual Studio close after applying the settings.
 
 ## Example
 
@@ -63,10 +62,14 @@ The first example applies the settings stored in the file `MySettings.vssettings
 
 The second example restores the Visual C# default profile.
 
-```shell
-devenv /resetsettings "%USERPROFILE%\MySettings.vssettings"
+The third example will also close Visual Studio after apply the settings. You can append `/Command "File.Exit"`.
 
-devenv /resetsettings CSharp
+```shell
+devenv /ResetSettings "%USERPROFILE%\MySettings.vssettings"
+
+devenv /ResetSettings CSharp
+
+devenv /NoSplash /ResetSettings General /Command Exit 
 ```
 
 ## See also
