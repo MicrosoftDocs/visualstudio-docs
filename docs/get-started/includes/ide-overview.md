@@ -17,7 +17,7 @@ The Visual Studio *integrated development environment* is a creative launching p
 
 ::: moniker range="vs-2019"
 
-:::image type="content" source="../media/ide-overview.png" alt-text="A screenshot of the Visual Studio IDE, which includes callouts that indicate where key features and functionality are located." lightbox="../media/ide-overview.png":::
+:::image type="content" source="../media/vs-2019/ide-overview.png" alt-text="A screenshot of the Visual Studio IDE, which includes callouts that indicate where key features and functionality are located." lightbox="../media/vs-2019/ide-overview.png":::
 
 ::: moniker-end
 
