@@ -13,7 +13,7 @@ monikerRange: vs-2019
 
 Some data reliant controls, such as ListView, ListBox or DataGrid, are hard to visualize without data. In this document we'll review a new approach that allows developers working on **WPF .NET Core** projects or **WPF .NET Framework** projects with the new designer to enable sample data in these controls. 
 
-## Sample Data feature basics
+## Sample data feature basics
 
 Sample data is for design-time visualization only, meaning it only appears in the XAML designer, not the running app. As such, it is applied to the design-time version of the ItemsSource property `d:ItemsSource`. Sample Data needs the design-time namespace to work. To get started, add the following lines of code to the header of your XAML document if they aren't already present:
 
