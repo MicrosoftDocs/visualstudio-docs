@@ -1432,8 +1432,6 @@
     href: ide/whats-new-visual-studio-2019.md
   - name: What's new in the docs
     href: ide/whats-new-visual-studio-docs.md
-  - name: History of what's new in the docs
-    href: ide/whats-new-visual-studio-docs-history.md
   - name: Release notes
     items:
     - name: Release rhythm
