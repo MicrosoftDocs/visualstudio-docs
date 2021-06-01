@@ -443,6 +443,8 @@
           href: ide/reference/regex-completion-through-intellisense.md
         - name: Remove unreachable code
           href: ide/reference/remove-unreachable-code.md
+        - name: Remove unused references
+          href: ide/reference/remove-unused-references.md
         - name: Rename
           href: ide/reference/rename.md
         - name: Simplify conditional expression
