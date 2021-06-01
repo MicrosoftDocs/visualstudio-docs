@@ -19,7 +19,7 @@ ms.workload:
 
 # Visual Studio docs: What's new for May 2021
 
-Welcome to what's new in the Visual Studio docs for May 2021. This article lists some of the major changes to docs during this period. For information about what was new in previous months, see the [what's new history](#what's-new-history) section.
+Welcome to what's new in the Visual Studio docs for May 2021. This article lists some of the major changes to docs during this period. For information about what was new in previous months, see the [what's new history](#whats-new-history) section.
 
 ## Code quality
 
