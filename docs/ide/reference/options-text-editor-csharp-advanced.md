@@ -2,12 +2,12 @@
 title: Options, Text Editor, C#, Advanced
 description: Learn how to use the Advanced page in the C# section to modify the settings for editor formatting, code refactoring, and XML documentation comments for C#.
 ms.custom: SEO-VS-2020
-ms.date: 11/13/2020
+ms.date: 06/01/2021
 ms.topic: reference
 f1_keywords:
 - VS.ToolsOptionsPages.Text_Editor.CSharp.Outlining
 - VS.ToolsOptionsPages.Text_Editor.CSharp.Advanced
-author: akhera99
+author: mikadumont
 ms.author: midumont
 manager: jmartens
 ms.workload:
@@ -97,6 +97,10 @@ Use the **Advanced** options page to modify the settings for editor formatting, 
 
    ![Quick Action to install NuGet package in Visual Studio](media/nuget-lightbulb.png)
 
+- Add missing using directives on paste
+
+    When this option is selected, `using` directives will automatically get added to your code when you paste a type to a file.
+
 ## Highlighting
 
 - Highlight references to symbol under cursor
@@ -123,11 +127,19 @@ Use the **Advanced** options page to modify the settings for editor formatting, 
 
 Select these check boxes to display dotted vertical lines between the curly brackets (**{}**) in your code. You can then easily see individual blocks of code for your declaration level and code level constructs.
 
-## Editor Help
+## Comments
+
+- Generate XML documentation comments for ///
+
+   When selected, inserts the XML elements for XML documentation comments after you type the `///` comment introduction. For more information about XML documentation, see [XML Documentation Comments (C# Programming Guide)](/dotnet/csharp/programming-guide/xmldoc/xml-documentation-comments).
+
 ::: moniker range=">=vs-2019"
+
+## Inline Hints
+
 - Inline Parameter Name Hints 
     
-    When selected, inserts parameter name hints for literals, casted literals, and object instantiations prior to each argument in function calls.  
+    When selected, inserts parameter name hints for literals, cast literals, and object instantiations prior to each argument in function calls.  
     
     ![Inline Parameter Name Hints for CSharp](media/inline-parameter-name-hints-csharp.png)
 
@@ -136,10 +148,14 @@ Select these check boxes to display dotted vertical lines between the curly brac
     When selected, inserts type hints for variables with inferred types and lambda parameter types.  
     
     ![Inline Type Hints for CSharp](media/inline-type-hints-csharp.png)
-::: moniker-end
-- Generate XML documentation comments for ///
 
-   When selected, inserts the XML elements for XML documentation comments after you type the `///` comment introduction. For more information about XML documentation, see [XML Documentation Comments (C# Programming Guide)](/dotnet/csharp/programming-guide/xmldoc/xml-documentation-comments).
+## Inheritance Margin 
+
+- When selected, adds icons to the margins representing your code's implementations and overrides. Clicking on the inheritance margin icons will display inheritance options that you can select to navigate to.
+
+    ![Inheritance Margin](media/inheritance-margin.png)
+
+::: moniker-end
 
 ## See also
 
