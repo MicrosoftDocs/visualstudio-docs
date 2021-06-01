@@ -29,9 +29,7 @@ RegPkg [/root:<root>] [/regfile:<regfile>] [/rgsfile:<rgsfile> [/rgm]] [/vrgfile
 ```
 
  /root:root
- Performs registration under the specified
-
- [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] root.
+ Performs registration under the specified [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] root.
 
  /regfile:FileName
  Creates a .reg file rather than updating the registry.  Cannot be used with /vrgfile or /rgsfile or /wixfile.
