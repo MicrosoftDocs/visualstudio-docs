@@ -139,7 +139,7 @@ Select these check boxes to display dotted vertical lines between the curly brac
 
 - Inline Parameter Name Hints 
     
-    When selected, inserts parameter name hints for literals, casted literals, and object instantiations prior to each argument in function calls.  
+    When selected, inserts parameter name hints for literals, cast literals, and object instantiations prior to each argument in function calls.  
     
     ![Inline Parameter Name Hints for CSharp](media/inline-parameter-name-hints-csharp.png)
 
@@ -151,7 +151,7 @@ Select these check boxes to display dotted vertical lines between the curly brac
 
 ## Inheritance Margin 
 
-- When selected, adds icons to the margins represeting your code's implementations and overrides. Clicking on the inhertiance margin icons will dispaly inhertiance options that you can select to navigate to.
+- When selected, adds icons to the margins representing your code's implementations and overrides. Clicking on the inheritance margin icons will display inheritance options that you can select to navigate to.
 
     ![Inheritance Margin](media/inheritance-margin.png)
 
