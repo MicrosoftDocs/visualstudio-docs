@@ -2,7 +2,7 @@
 title: Overview of Visual Studio
 titleSuffix: ''
 description: Learn about the Visual Studio integrated development environment.
-ms.date: 03/19/2019
+ms.date: 05/28/2021
 ms.technology: vs-ide-general
 ms.topic: overview
 ms.custom: [vs-get-started, SEO-VS-2020]
