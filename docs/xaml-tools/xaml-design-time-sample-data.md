@@ -18,7 +18,7 @@ Some data reliant controls, such as ListView, ListBox or DataGrid, are hard to v
 Sample data is for design-time visualization only, meaning it only appears in the XAML designer, not the running app. As such, it is applied to the design-time version of the ItemsSource property `d:ItemsSource`. Sample Data needs the design-time namespace to work. To get started, add the following lines of code to the header of your XAML document if they aren't already present:
 
 > [!NOTE]
-> Visit [XAML design-time properties](xaml-designtime-data) to learn more about design-time properties in XAML.
+> Visit [XAML design-time properties](../xaml-tools/xaml-designtime-data.md) to learn more about design-time properties in XAML.
 
 ```xml
 xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
@@ -88,7 +88,7 @@ If you experience a problem that isn't listed in this section, or can't be fixed
 
 ## See also
 
-- [XAML design-time properties](xaml-designtime-data)
+- [XAML design-time properties](../xaml-tools/xaml-designtime-data.md)
 - [XAML in WPF apps](/dotnet/framework/wpf/advanced/xaml-in-wpf)
 - [XAML in UWP apps](/windows/uwp/xaml-platform/xaml-overview)
 - [XAML in Xamarin.Forms apps](/xamarin/xamarin-forms/xaml/)
