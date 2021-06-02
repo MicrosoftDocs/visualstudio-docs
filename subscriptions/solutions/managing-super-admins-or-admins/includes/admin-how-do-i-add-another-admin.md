@@ -2,7 +2,7 @@
 title: How can I add another super admin or admin? 
 description: An admin wants to add another admin to the agreement.
 ms.topic: include 
-ms.assetid:  
+ms.assetid: bd89a871-2f8b-405f-9a49-b0338063f8f1  
 author: CaityBuschlen 
 ms.author: cabuschl 
 ms.date: 06/01/2021 
