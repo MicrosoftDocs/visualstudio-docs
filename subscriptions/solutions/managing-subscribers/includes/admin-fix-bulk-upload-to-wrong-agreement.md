@@ -19,7 +19,7 @@ First, be sure to upload the subscribers to the correct agreement then delete th
 
 ## Individual users
 1.	On the [Subscribers page of the admin portal](https://manage.visualstudio.com/subscribers), find the subscribers you need to remove by clicking on the column name and sorting, or use the filter option, to find your users more easily
-2.	Once you’ve found the suscribers to remove, select the check box beside the users. There's no limit to the number of users you can select at once. You can also select the first user in a list you want to remove, select shift, and then select the last user in the list, which will select all the users in the list. Or click the check icon at the top of the list to select all users. 
+2.	Once you’ve found the subscribers to remove, select the check box beside the users. There's no limit to the number of users you can select at once. You can also select the first user in a list you want to remove, select shift, and then select the last user in the list, which will select all the users in the list. Or click the check icon at the top of the list to select all users. 
 3.	Click the **Delete** button along the top of the grid and confirm deletion.
 
 ## Azure Active Directory (Azure AD) group
