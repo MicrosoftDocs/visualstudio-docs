@@ -49,7 +49,7 @@ In addition, Bridge to Kubernetes provides a way to replicate environment variab
 > For the duration of the connection to the cluster (plus an additional 15 minutes), Bridge to Kubernetes runs a process called *EndpointManager* with admin permissions on your local computer.
 
 > [!NOTE]
-> You can debug in parallel, with multiple services, but you need to launch two instances of Visual Studio. Make sure that your services listen on different ports locally, and then configure and debug them separately. Isolation is not supported in this scenario.
+> You can debug in parallel, with multiple services, but you need to launch as many instances of Visual Studio as services you want to debug. Make sure that your services listen on different ports locally, and then configure and debug them separately. Isolation is not supported in this scenario.
 
 ## Additional configuration with KubernetesLocalProcessConfig.yaml
 
