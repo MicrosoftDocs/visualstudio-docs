@@ -48,7 +48,7 @@ Visual Studio can help set up your environment, including installing tools commo
 
 1. If Visual Studio doesn't detect your installed runtime (it generally does), configure your project to reference the installed runtime:
 
-   1. After you [create your project](#create-a-project), right-click the project node.
+   1. After you [create your project](#create-your-app-project), right-click the project node.
 
    1. Select **Properties** and set the **Node.exe path**. You can use a global installation of Node.js or specify the path to a local interpreter in each of your Node.js projects.
 
