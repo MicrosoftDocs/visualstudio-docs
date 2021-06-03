@@ -29,6 +29,12 @@ If you haven't already installed Visual Studio, go to the [Visual Studio downloa
 
 ::: moniker-end
 
+::: moniker range="vs-2022"
+
+If you haven't already installed Visual Studio 2022 Preview, go to the [Visual Studio Preview downloads]() page to install it for free.
+
+::: moniker-end
+
 We'll construct a solution and project from scratch as an educational exercise to understand the concept of a project. In your general use of Visual Studio, you'll likely use some of the various project *templates* that Visual Studio offers when you create a new project.
 
 > [!NOTE]
@@ -214,7 +220,7 @@ We're going to use the new unit test project to test our method in the **QuickDa
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 1. Select the **Dependencies** node in the **QuickTest** project, and from the right-click or context menu, select **Add Project Reference...**.
 
@@ -284,7 +290,7 @@ If you want to check that your unit test is working, choose **Test** > **Run** >
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 If you want to check that your unit test is working, choose **Test** > **Run All Tests** from the menu bar. A window called **Test Explorer** opens, and you should see that the **TestGetCurrentDate** test passes.
 

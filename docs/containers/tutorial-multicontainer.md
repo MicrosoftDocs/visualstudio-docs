@@ -38,7 +38,7 @@ Do not select **Enable Docker Support**. You'll add Docker support later.
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 ![Create ASP.NET Core Web App project](./media/tutorial-multicontainer/vs-2019/create-web-project1.png)
 
@@ -55,7 +55,7 @@ Add a project to the same solution and call it *MyWebAPI*. Select **API** as the
 ::: moniker range="vs-2017"
    ![Screenshot of creating the Web API project](./media/tutorial-multicontainer/docker-tutorial-mywebapi.png)
 ::: moniker-end
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
    ![Screenshot of creating the Web API project](./media/tutorial-multicontainer/vs-2019/create-webapi-project.png)
 ::: moniker-end
 

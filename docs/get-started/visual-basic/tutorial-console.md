@@ -31,6 +31,12 @@ If you haven't already installed Visual Studio, go to the [Visual Studio downloa
 
 ::: moniker-end
 
+::: moniker range="vs-2022"
+
+If you haven't already installed Visual Studio 2022 Preview, go to the [Visual Studio Preview downloads]() page to install it for free.
+
+::: moniker-end
+
 ## Create a project
 
 First, we'll create a Visual Basic application project. The project type comes with all the template files you'll need, before you've even added anything!
@@ -67,12 +73,12 @@ If you don't see the **Console App (.NET Core)** project template, you can get i
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 > [!NOTE]
 > Some of the screenshots in this tutorial use the dark theme. If you aren't using the dark theme but would like to, see the [Personalize the Visual Studio IDE and Editor](../../ide/quickstart-personalize-the-ide.md) page to learn how.
 
-1. Open Visual Studio 2019.
+1. Open Visual Studio.
 
 1. On the start window, choose **Create a new project**.
 
@@ -140,7 +146,7 @@ Let's create an app that prompts you for your name and then displays it along wi
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 1. In the *WhatIsYourName* project, enter the following Visual Basic code immediately after the opening bracket that follows the `Sub Main(args As String())` line and before the `End Sub` line:
 
@@ -202,7 +208,7 @@ Let's create an app that prompts you for your name and then displays it along wi
 
 ::: moniker-end 
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 1. On the start window, choose **Create a new project**. 
 

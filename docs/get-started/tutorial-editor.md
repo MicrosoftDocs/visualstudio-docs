@@ -31,6 +31,13 @@ In this 10-minute introduction to the code editor in Visual Studio, we'll add co
 
 ::: moniker-end
 
+::: moniker range="vs-2022"
+
+> [!TIP]
+> If you haven't already installed Visual Studio 2022 Preview, go to the [Visual Studio Preview downloads]() page to install it for free.
+
+::: moniker-end
+
 This article assumes you're already familiar with a programming language. If you aren't, we suggest you look at one of the programming quickstarts first, such as create a web app with [Python](../ide/quickstart-python.md) or [C#](../get-started/csharp/tutorial-aspnet-core.md), or create a console app with [Visual Basic](../ide/quickstart-visual-basic-console.md) or [C++](/cpp/get-started/tutorial-console-cpp).
 
 ## Create a new code file
