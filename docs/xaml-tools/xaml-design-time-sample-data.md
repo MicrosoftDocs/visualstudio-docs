@@ -1,7 +1,7 @@
 ---
 title: Use design-time sample data with the XAML Designer in Visual Studio
 description: Learn how to use design-time sample data in XAML.
-ms.date: 05/28/2021
+ms.date: 06/01/2021
 ms.topic: conceptual
 author: alihamie
 ms.author: tglee
@@ -13,12 +13,12 @@ monikerRange: vs-2019
 
 Some data reliant controls, such as ListView, ListBox or DataGrid, are hard to visualize without data. In this document we'll review a new approach that allows developers working on **WPF .NET Core** projects or **WPF .NET Framework** projects with the new designer to enable sample data in these controls. 
 
-## Sample Data feature basics
+## Sample data feature basics
 
 Sample data is for design-time visualization only, meaning it only appears in the XAML designer, not the running app. As such, it is applied to the design-time version of the ItemsSource property `d:ItemsSource`. Sample Data needs the design-time namespace to work. To get started, add the following lines of code to the header of your XAML document if they aren't already present:
 
 > [!NOTE]
-> Visit [XAML design-time properties](/xaml/xaml-tools/xaml/xaml-designtime-data.md) to learn more about design-time properties in XAML.
+> Visit [XAML design-time properties](../xaml-tools/xaml-designtime-data.md) to learn more about design-time properties in XAML.
 
 ```xml
 xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
@@ -88,7 +88,7 @@ If you experience a problem that isn't listed in this section, or can't be fixed
 
 ## See also
 
-- [XAML design-time properties](/xaml/xaml-tools/xaml/xaml-designtime-data)
+- [XAML design-time properties](../xaml-tools/xaml-designtime-data.md)
 - [XAML in WPF apps](/dotnet/framework/wpf/advanced/xaml-in-wpf)
 - [XAML in UWP apps](/windows/uwp/xaml-platform/xaml-overview)
 - [XAML in Xamarin.Forms apps](/xamarin/xamarin-forms/xaml/)
