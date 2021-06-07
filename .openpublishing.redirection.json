@@ -57928,6 +57928,11 @@
       "source_path": "gamedev/unity/extensibility/share-the-unity-log-callback-with-vstu.md",
       "redirect_url": "/visualstudio/gamedev/unity/extensibility/programming-visual-studio-tools-for-unity",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/whats-new-visual-studio-docs-history.md",
+      "redirect_url": "/visualstudio/ide/whats-new-visual-studio-docs",
+      "redirect_document_id": false
     }
   ]
 }

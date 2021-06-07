@@ -18,7 +18,7 @@ ms.workload:
 ---
 # /ResetSettings (devenv.exe)
 
-Restores Visual Studio default settings and automatically launches the Visual Studio IDE. This switch optionally resets the settings to a specified settings file.
+Restores Visual Studio default settings and automatically launches the Visual Studio IDE. This switch optionally resets the settings to a specified settings file (`*.vssettings`).
 
 The default settings come from the profile that was selected when Visual Studio was first launched.
 
@@ -35,7 +35,7 @@ devenv /ResetSettings [SettingsFile|DefaultCollectionSpecifier]
 
 - *SettingsFile*
 
-  Optional. The full path and name of the settings file to apply to Visual Studio.
+  Optional. The full path and name of the `.vssettings` file to apply to Visual Studio.
 
 - *DefaultCollectionSpecifier*
 
@@ -53,7 +53,8 @@ devenv /ResetSettings [SettingsFile|DefaultCollectionSpecifier]
 
 ## Remarks
 
-If no *SettingsFile* is specified, the IDE opens using the existing settings.
+If no *SettingsFile* is specified, the IDE opens using the existing settings. 
+
 
 ## Example
 
@@ -61,10 +62,14 @@ The first example applies the settings stored in the file `MySettings.vssettings
 
 The second example restores the Visual C# default profile.
 
-```shell
-devenv /resetsettings "%USERPROFILE%\MySettings.vssettings"
+The third example will also close Visual Studio after apply the settings. You can append `/Command "File.Exit"`.
 
-devenv /resetsettings CSharp
+```shell
+devenv /ResetSettings "%USERPROFILE%\MySettings.vssettings"
+
+devenv /ResetSettings CSharp
+
+devenv /NoSplash /ResetSettings General /Command Exit 
 ```
 
 ## See also
