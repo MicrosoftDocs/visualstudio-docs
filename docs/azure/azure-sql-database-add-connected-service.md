@@ -11,7 +11,7 @@ monikerRange: ">= vs-2019"
 ---
 # Add a connection to Azure SQL Database
 
-With Visual Studio, you can connect any of the following to Azure SQL database by using the **Connected Services** feature:
+With Visual Studio, you can connect any of the following to Azure SQL Database by using the **Connected Services** feature:
 
 - .NET Framework console app
 - ASP.NET MVC (.NET Framework) 
