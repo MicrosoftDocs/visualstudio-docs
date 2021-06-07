@@ -13,23 +13,14 @@ ms.date: 12/07/2020
 
 ## Admin solutions
 
-[!INCLUDE [Admin sign-in issues](admin-solutions/includes/admin-sign-in-issues.md)]
-
-[!INCLUDE [Admin tasks](admin-solutions/includes/admin-task-how-to.md)]
-
 [!INCLUDE [Become a super admin](admin-solutions/includes/become-a-super-admin-managed.md)]
 
 [!INCLUDE [Become an admin](admin-solutions/includes/become-an-admin.md)]
 
 [!INCLUDE [Cannot access subscriptions](admin-solutions/includes/cannot-access-subs.md)]
 
-[!INCLUDE [Example change email](admin-solutions/includes/example-change-email.md)]
-
-[!INCLUDE [How do I change my sign-in email admin](admin-solutions/includes/how-do-i-change-my-sign-in-email-admin.md)]
-
 [!INCLUDE [I only see VSDE](admin-solutions/includes/only-see-vsde.md)]
 
-[!INCLUDE [Request subscriptions](admin-solutions/includes/request-subscriptions.md)]
 
 ## Benefit activations
 

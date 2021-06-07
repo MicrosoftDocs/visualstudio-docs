@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: 64455e79-229a-42f0-9d65-c2cca8ab8513
-ms.date: 02/18/2021
+ms.date: 05/18/2021
 ms.topic: how-to
 description: Learn how to contact your subscription admin for assistance with questions or issues. 
 ---
@@ -25,7 +25,7 @@ Given the size and complexity of many organizations, you may not be aware of who
 6. Finally, select **Send**.
 
 > [!NOTE]
-> **Super admins:**  To set the email address to which "Contact my Admin" requests are sent, specify that address in the [Agreement Preferences](admin-prefs.md#contact-email-address).
+> **Super admins:**  To set the email address to which "Contact my Admin" requests are sent, specify that address in the [Agreement Preferences](admin-preferences.md#contact-email-address).
 
 ## Resources
 - [Visual Studio subscriptions support](https://my.visualstudio.com/gethelp)

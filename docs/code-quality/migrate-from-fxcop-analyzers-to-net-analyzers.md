@@ -44,8 +44,8 @@ Starting with version `3.3.2`, `Microsoft.CodeAnalysis.FxCopAnalyzers` NuGet pac
 
 ## See also
 
-- [Source code analysis versus legacy analysis](net-analyzers-faq.md#whats-the-difference-between-legacy-fxcop-and-net-analyzers)
+- [Source code analysis versus legacy analysis](net-analyzers-faq.yml#what-s-the-difference-between-legacy-fxcop-and--net-analyzers-)
 - [Migrate from legacy analysis to .NET analyzers](migrate-from-legacy-analysis-to-net-analyzers.md)
 - [Enable or install .NET analyzers](install-net-analyzers.md)
-- [FAQ about .NET analyzers](net-analyzers-faq.md)
+- [FAQ about .NET analyzers](net-analyzers-faq.yml)
 - [Configure .NET analyzers](/dotnet/fundamentals/code-analysis/code-quality-rule-options)

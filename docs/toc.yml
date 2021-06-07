@@ -16,6 +16,7 @@
   items:
   - name: Install Visual Studio
     href: install/install-visual-studio.md
+    displayName: system requirements
   - name: Install offline
     items:
     - name: Create an offline installation of Visual Studio
@@ -150,32 +151,32 @@
     href: ide/quickstart-ide-orientation.md
   - name: "C++: Create a console app"
     href: /cpp/get-started/tutorial-console-cpp
-  - name: "Python: Create a web app"
-    href: ide/quickstart-python.md
-  - name: "Node.js: Create a web app"
-    href: ide/quickstart-nodejs.md
-  - name: "F#: Create a web service"
-    href: ide/quickstart-fsharp.md
   - name: "C#: Create a web app"
     href: ide/quickstart-aspnet-core.md
   - name: "C#: Create a console app"
     href: ide/quickstart-csharp-console.md
   - name: "Visual Basic: Create a console app"
     href: ide/quickstart-visual-basic-console.md
+  - name: "Node.js: Create a web app"
+    href: ide/quickstart-nodejs.md
+  - name: "Python: Create a web app"
+    href: ide/quickstart-python.md
+  - name: "F#: Create a web service"
+    href: ide/quickstart-fsharp.md
 - name: Tutorials
   items:
-  - name: C#
-    href: get-started/csharp/
-  - name: F#
-    href: /dotnet/fsharp/
-  - name: Visual Basic
-    href: get-started/visual-basic/
-  - name: C++
+  - name: C++ >>
     href: /cpp/get-started/tutorial-console-cpp
-  - name: Python
-    href: python/
-  - name: Node.js
+  - name: C#  >>
+    href: get-started/csharp/
+  - name: Visual Basic  >>
+    href: get-started/visual-basic/
+  - name: Node.js  >>
     href: javascript/
+  - name: Python  >>
+    href: python/    
+  - name: F#  >>
+    href: /dotnet/fsharp/
 - name: Develop
   items:
   - name: Organize and edit code
@@ -268,16 +269,6 @@
     - name: Customize build and debug tasks
       displayName: makefile tasks.vs.json
       href: ide/customize-build-and-debug-tasks-in-visual-studio.md
-  - name: Develop with Codespaces (Preview)
-    items:
-    - name: Overview
-      href: ide/codespaces/codespaces-overview.md
-    - name: Use Visual Studio with a codespace
-      href: ide/codespaces/use-visual-studio-with-codespaces.md
-    - name: Customize a codespace
-      href: ide/codespaces/customize-codespaces.md
-    - name: Supported Visual Studio features
-      href: ide/codespaces/supported-features-codespaces.md
   - name: Connect to projects in Team Explorer
     displayName: Azure DevOps VSTS
     href: ide/connect-team-project.md
@@ -452,6 +443,8 @@
           href: ide/reference/regex-completion-through-intellisense.md
         - name: Remove unreachable code
           href: ide/reference/remove-unreachable-code.md
+        - name: Remove unused references
+          href: ide/reference/remove-unused-references.md
         - name: Rename
           href: ide/reference/rename.md
         - name: Simplify conditional expression
@@ -1441,40 +1434,16 @@
     href: ide/whats-new-visual-studio-2019.md
   - name: What's new in the docs
     href: ide/whats-new-visual-studio-docs.md
-  - name: History of what's new in the docs
-    href: ide/whats-new-visual-studio-docs-history.md
-  - name: Release notes & system requirements
+  - name: Release notes
     items:
     - name: Release rhythm
       href: /visualstudio/productinfo/release-rhythm/
-    - name: Visual Studio 2017
-      items:
-      - name: Current release notes
-        href: /visualstudio/releasenotes/vs2017-relnotes/
-      - name: Preview release notes
-        href: /visualstudio/releasenotes/vs2017-preview-relnotes/
-      - name: Release notes history
-        href: /visualstudio/releasenotes/vs2017-relnotes-history/
-      - name: Distributable code
-        href: /visualstudio/productinfo/2017-redistribution-vs/
-      - name: Platform compatibility
-        href: /visualstudio/productinfo/vs2017-compatibility-vs/
-      - name: System requirements
-        href: /visualstudio/productinfo/vs2017-system-requirements-vs/
-    - name: Visual Studio 2019
-      items:
-      - name: Current release notes
-        href: /visualstudio/releases/2019/release-notes/
-      - name: Preview release notes
-        href: /visualstudio/releases/2019/release-notes-preview/
-      - name: Release notes history
-        href: /visualstudio/releases/2019/release-notes-history/
-      - name: Distributable code
-        href: /visualstudio/releases/2019/redistribution/
-      - name: Platform compatibility
-        href: /visualstudio/releases/2019/compatibility/
-      - name: System requirements
-        href: /visualstudio/releases/2019/system-requirements/
+    - name: Visual Studio 2019 notes
+      href: /visualstudio/releases/2019/release-notes/
+    - name: Visual Studio 2017 notes
+      href: /visualstudio/releasenotes/vs2017-relnotes/
+    - name: Visual Studio 2015 docs
+      href: vs-2015-archive.md   
     - name: License terms
       href: https://visualstudio.microsoft.com/license-terms/
     - name: Support lifecycle and servicing
@@ -1512,8 +1481,3 @@
     href: ide/developer-community-guidelines.md
   - name: Developer Community data privacy
     href: ide/developer-community-privacy.md
-- name: Visual Studio 2015
-  expanded: true
-  items:
-  - name: Visual Studio 2015 documentation
-    href: vs-2015-archive.md
