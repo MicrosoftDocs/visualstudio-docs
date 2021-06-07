@@ -6,7 +6,7 @@ ms.topic: overview
 author: alihamie
 ms.author: tglee
 manager: jmartens
-moniker range=">=vs-2019
+monikerRange: ">=vs-2019"
 ---
 
 # Use Design Time Data with the XAML Designer in Visual Studio
