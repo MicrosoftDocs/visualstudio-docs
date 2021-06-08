@@ -41,7 +41,7 @@ Dev17 will not load any extension that does not target Dev17 specifically.
 Learn how to migrate your pre-Dev17 extensions to Dev17:
 
 1. [Modernize your projects](modernize-projects.md).
-1. [Refactor your source code into a Shared Project](shared-projects.md) to allow for targeting Dev17 and older versions.
+1. [Refactor your source code into a shared project](shared-projects.md) to allow for targeting Dev17 and older versions.
 1. [Add a Dev17-targeted VSIX project](add-dev17-target.md), and our [package/assembly remapping table](migrated-pia.md).
 1. [Making necessary code adjustments](code-changes.md).
 1. [Testing your Dev17 extension](testing.md).

@@ -1,6 +1,6 @@
 # Adding a Dev17 target to your VS extension
 
-This document assumes you have completed the steps to [factor your VS extension with Shared Projects](shared-projects.md).
+This document assumes you have completed the steps to [factor your VS extension with shared projects](shared-projects.md).
 
 Proceed to add Dev17 support to your extension with these steps, which may be completed using Visual Studio 2019:
 
@@ -8,9 +8,9 @@ Proceed to add Dev17 support to your extension with these steps, which may be co
 This will be the project that targets Dev17.
 Remove any source code that came with the template, but *keep the `source.extension.vsixmanifest` file*.
 
-1. On your new VSIX project, Add a Shared Project reference to the same Shared Project that your Dev16-targeting VSIX references.
+1. On your new VSIX project, Add a shared project reference to the same shared project that your Dev16-targeting VSIX references.
 
-   ![A solution with one Shared Project and two VSIX projects](media/add-dev17-target/shared-project-with-two-heads.png)
+   ![A solution with one shared project and two VSIX projects](media/add-dev17-target/shared-project-with-two-heads.png)
 
 1. Verify that the new VSIX project builds properly.
 You may need to add references to match your original VSIX project to resolve any compiler errors.

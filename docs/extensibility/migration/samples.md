@@ -66,7 +66,7 @@ Supporting Dev17 requires adding a new shared project that will contain the exte
 
    [git commit f31f051](https://github.com/madskristensen/ImageOptimizer/pull/46/commits/f31f0515305623988f2c355ed3bf5952fc8f1d9e)
 
-   ![Move Files to Shared Project](media/samples/move-to-shared-project.png)
+   ![Move files to shared project](media/samples/move-to-shared-project.png)
 
 1. Now move all the metadata, VSCT files, linked files, and external tools/libraries to a shared location and add them back as linked items to the VSIX project. **Do not** remove `source.extension.vsixmanifest`.
 
@@ -120,7 +120,7 @@ See [Add Dev17 target](add-dev17-target.md).
 1. Add a reference to your shared project
    ##### [git commit dd49cb2](https://github.com/madskristensen/ImageOptimizer/pull/46/commits/dd49cb227b52c46206bf4be5c25790ac0377568d)
 
-   ![Add Shared Project reference](media/samples/dev17-add-shared-project.png)
+   ![Add shared project reference](media/samples/dev17-add-shared-project.png)
 
 1. Add the linked files from your Dev16 VSIX project and validate that their "Build Action" and "Include in VSIX" properties match. Also copy over your `source.extension.vsixmanifest` file, we'll be modifying it later to support Dev17.
    ##### [git commit 98c43ee](https://github.com/madskristensen/ImageOptimizer/pull/46/commits/98c43ee6fbe912c38a1275542c44c65e11d7dbd9)
