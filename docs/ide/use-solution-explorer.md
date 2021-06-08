@@ -1,8 +1,8 @@
 ---
 title: Learn about the Solution Explorer tool window
 description: Learn how you can use the Solution Explorer tool window in Visual Studio to create & manage your solutions and projects.
-ms.custom: "contperf-fy21q2"
-ms.date: 05/28/2021
+ms.custom: "contperf-fy21q4"
+ms.date: 06/08/2021
 ms.topic: conceptual
 f1_keywords:
 - VS.SolutionExplorer.Selection
@@ -18,11 +18,9 @@ ms.workload:
 ---
 # How to use Solution Explorer
 
-Want to know more about the Solution Explorer tool window in Visual Studio? You're in the right place. We'll cover how you can use the Solution Explorer tool window to view and interact with your code, and detail which menu bar options help you to do so.
+You can use the Solution Explorer tool window not only to view and interact with your code, but also to create and manage your solutions and projects. In this article, we'll detail the user interface (UI) options that help you do so.
 
 > [!NOTE]
 > This topic applies only to Visual Studio on Windows.
 
-To start, let's view a diagram of the Solution Explorer.
-
-
+To start, let's view a diagram of the Solution Explorer tool window.
