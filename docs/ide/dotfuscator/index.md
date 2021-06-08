@@ -64,7 +64,7 @@ For information about enhancing Dotfuscator, see the [Upgrades page][upgrades].
 
 ## Getting started
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 To begin using Dotfuscator Community from Visual Studio, type `dotfuscator` into the **Search Box** (Ctrl+Q).
 

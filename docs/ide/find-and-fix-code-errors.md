@@ -94,7 +94,7 @@ Quick Actions can be used wherever code analyzers determine there's an opportuni
 
 With experience, you can quickly use the arrow keys and **Ctrl**+**.** to check for easy refactoring opportunities and clean up your code!
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 ## Run Code Cleanup
 
