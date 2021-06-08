@@ -10,7 +10,7 @@ monikerRange: "vs-2022"
 ms.workload:
 - vssdk
 ---
-# Testing your extension with Dev17
+# Test your extension with Dev17
 
 This document assumes you already have a building Dev17-targeted extension.
 

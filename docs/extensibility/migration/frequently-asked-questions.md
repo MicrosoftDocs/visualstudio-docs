@@ -11,6 +11,7 @@ ms.workload:
 - vssdk
 ---
 # Frequently asked questions about migrating Visual Studio extensions to Visual Studio 2022 Preview
+
 **Q**: My extension does not require any interop changes as it just provides data (i.e. templates), can I create a single extension that includes Dev17 as well?
 
 **A**: Yes!  See [No-code extensions](no-code-extensions.md) for more info about this.
@@ -18,9 +19,11 @@ ms.workload:
 **Q**: A NuGet dependency is bringing in old interop assemblies and causing clashing classes.
 
 **A**: Add the following line to your CS Project to avoid duplicate assemblies:
-```
+
+```xml
     <PackageReference Include="<Name of offending assembly>" ExcludeAssets="compile" PrivateAssets="all" />
 ```
+
 This will prevent package references from importing the old version of the assembly from other dependencies.
 
 **Q**: My commands and hotkeys are not working in VS after switching my source files to a shared project.

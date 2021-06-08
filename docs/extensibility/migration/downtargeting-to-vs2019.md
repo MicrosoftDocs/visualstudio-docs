@@ -1,5 +1,5 @@
 ---
-title: Down-targeting your Visual Studio extension
+title: Target Visual Studio 2019 when creating an extension in Visual Studio 2022 Preview
 description: Learn how to make your Visual Studio extension work with Visual Studio 2019 if you create the project with Visual Studio 2022 Preview.
 ms.date: 06/08/2021
 ms.topic: conceptual
@@ -11,11 +11,9 @@ ms.workload:
 - vssdk
 ---
 
-# Down-targeting to Visual Studio 2019
+# Target Visual Studio 2019 when creating an extension in Visual Studio 2022 Preview
 
-When you create a new VSIX project using Dev17, the project is created from a template
-that targets Dev17.
-If you want to target Visual Studio 2019, you must modify the created project.
+When you create a new VSIX project using Dev17, the project is created from a template that targets Dev17. If you want to target Visual Studio 2019, you must modify the created project.
 
 Consider using [shared projects](shared-projects.md) to target Visual Studio 2019 and Dev17 while sharing most or all the code in your extension.
 

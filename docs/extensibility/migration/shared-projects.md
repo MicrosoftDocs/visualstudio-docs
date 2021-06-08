@@ -10,17 +10,13 @@ monikerRange: "vs-2022"
 ms.workload:
 - vssdk
 ---
-# Migrating your pre-Dev17 extension to use shared projects for multi-targeting
+# Migrate your pre-Dev17 extension to use shared projects for multi-targeting
 
-[Shared projects](/xamarin/cross-platform/app-fundamentals/shared-projects?tabs=windows)
-are a project type that were introduced in Visual Studio 2015. Shared
-projects in Visual Studio enable source code files to be shared
-between multiple projects and build differently using conditional compilation symbols and unique sets of references.
+[Shared projects](/xamarin/cross-platform/app-fundamentals/shared-projects?tabs=windows) are a project type that were introduced in Visual Studio 2015. Shared projects in Visual Studio enable source code files to be shared between multiple projects and build differently using conditional compilation symbols and unique sets of references.
 
 Because Dev17 requires a distinct set of reference assemblies from all prior VS versions, our guidance is to use shared projects to conveniently multi-target your extension to pre-Dev17 and Dev17+, giving you code sharing but distinct references.
 
-In the context of Visual Studio extensions you could have one VSIX project for Dev17 and later and one VSIX project for Visual Studio 2019 and earlier. Each of these would contain just a `source.extension.vsixmanifest` and the package references to either the 16.x SDK or the 17.x SDK.
-These VSIX projects would also have a shared project Reference to a new shared project that will host all your source code that can be shared across the two VS versions.
+In the context of Visual Studio extensions you could have one VSIX project for Dev17 and later and one VSIX project for Visual Studio 2019 and earlier. Each of these would contain just a `source.extension.vsixmanifest` and the package references to either the 16.x SDK or the 17.x SDK. These VSIX projects would also have a shared project Reference to a new shared project that will host all your source code that can be shared across the two VS versions.
 
 As a starting point, for this document we will assume you already have a VSIX project that targets Dev16 and that you want your extension to work on Dev17.
 

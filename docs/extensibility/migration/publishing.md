@@ -10,7 +10,7 @@ monikerRange: "vs-2022"
 ms.workload:
 - vssdk
 ---
-# Publishing your Dev17 extension
+# Publish your Dev17 extension
 
 Great, so you've [added a Dev17 target](add-dev17-target.md) to your extension and [tested](testing.md) it.
 Now you are ready to publish the extension for the world to admire.
