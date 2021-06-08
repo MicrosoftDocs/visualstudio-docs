@@ -1,6 +1,6 @@
 **Q**: My extension does not require any interop changes as it just provides data (i.e. templates), can I create a single extension that includes Dev17 as well?
 
-**A**: Yes!  See [No code extensions](no-code-extensions.md) for more info about this.
+**A**: Yes!  See [No-code extensions](no-code-extensions.md) for more info about this.
 
 **Q**: A NuGet dependency is bringing in old interop assemblies and causing clashing classes.
 

@@ -117,53 +117,62 @@ See [Add Dev17 target](add-dev17-target.md).
 
    ![Create a new VSIX project](media/samples/dev17-vsix-initial.png)
 
-1. Add a reference to your shared project
-   ##### [git commit dd49cb2](https://github.com/madskristensen/ImageOptimizer/pull/46/commits/dd49cb227b52c46206bf4be5c25790ac0377568d)
+1. Add a reference to your shared project.
+
+   [git commit dd49cb2](https://github.com/madskristensen/ImageOptimizer/pull/46/commits/dd49cb227b52c46206bf4be5c25790ac0377568d)
 
    ![Add shared project reference](media/samples/dev17-add-shared-project.png)
 
 1. Add the linked files from your Dev16 VSIX project and validate that their "Build Action" and "Include in VSIX" properties match. Also copy over your `source.extension.vsixmanifest` file, we'll be modifying it later to support Dev17.
-   ##### [git commit 98c43ee](https://github.com/madskristensen/ImageOptimizer/pull/46/commits/98c43ee6fbe912c38a1275542c44c65e11d7dbd9)
+
+   [git commit 98c43ee](https://github.com/madskristensen/ImageOptimizer/pull/46/commits/98c43ee6fbe912c38a1275542c44c65e11d7dbd9)
 
    ![Add Linked files to VSIX project](media/samples/dev17-add-linked-files.png)
 
 1. An attempted build shows that we are missing a reference to `System.Windows.Forms`. Simply add it to our Dev17 project and rebuild.
-   ##### [git commit de71ccd](https://github.com/madskristensen/ImageOptimizer/pull/46/commits/de71ccd9baff703aa6679392ad41a2cfe7bd7d72)
+
+   [git commit de71ccd](https://github.com/madskristensen/ImageOptimizer/pull/46/commits/de71ccd9baff703aa6679392ad41a2cfe7bd7d72)
+
    ```Diff
    + <Reference Include="System.Windows.Forms" />
    ```
 
 1. Upgrade `Microsoft.VisualStudio.SDK` and `Microsoft.VSSDK.BuildTools` package references to the Dev17 versions
-   ##### [git commit d581fc3](https://github.com/madskristensen/ImageOptimizer/pull/46/commits/d581fc3c954974124dc7e31e5ecc85f78f7828ab)
-    *Note: these are the latest versions available when this guide was created. It's recommended you get the latest versions available.*
-    ```diff
-    -<PackageReference Include="Microsoft.VisualStudio.SDK" Version="16.0.206" />
-    +<PackageReference Include="Microsoft.VisualStudio.SDK" Version="17.0.0-preview-1-31216-1036" />
-    -<PackageReference Include="Microsoft.VSSDK.BuildTools" Version="16.10.32" />
-    +<PackageReference Include="Microsoft.VSSDK.BuildTools" Version="17.0.63-dev17-g3f11f5ab" />
-    ```
+   [git commit d581fc3](https://github.com/madskristensen/ImageOptimizer/pull/46/commits/d581fc3c954974124dc7e31e5ecc85f78f7828ab)
+
+   > [!NOTE]
+   > These are the latest versions available when this guide was created. It's recommended you get the latest versions available.*
+   >
+   > ```diff
+   > -<PackageReference Include="Microsoft.VisualStudio.SDK" Version="16.0.206" />
+   > +<PackageReference Include="Microsoft.VisualStudio.SDK" Version="17.0.0-preview-1-31216-1036" />
+   > -<PackageReference Include="Microsoft.VSSDK.BuildTools" Version="16.10.32" />
+   > +<PackageReference Include="Microsoft.VSSDK.BuildTools" Version="17.0.63-dev17-g3f11f5ab" />
+   > ```
 
 1. Edit your `source.extension.vsixmanifest` file to reflect targeting Dev17.
-   ##### [git commit 9d393c7](https://github.com/madskristensen/ImageOptimizer/pull/46/commits/9d393c708c04ac4af48d1eb9ce3da4470db5d5cc)
+   [git commit 9d393c7](https://github.com/madskristensen/ImageOptimizer/pull/46/commits/9d393c708c04ac4af48d1eb9ce3da4470db5d5cc)
    1. Set the `<InstallationTarget>` tag to reflect Dev17 and indicate an amd64 payload:
+
       ```xml
       <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0,18.0)">
           <ProductArchitecture>amd64</ProductArchitecture>
       </InstallationTarget>
       ```
+
    1. Modify the Prerequisite to only include Dev17 and above:
+
       ```Diff
       - <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[15.0,)" DisplayName="Visual Studio core editor" />
       + <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[17.0,)" DisplayName="Visual Studio core editor" />
       ```
 
+And we're done!
 
-And we're done! 
-
-With this, building now produces both Dev16 and Dev17 VSIXes. 
-
+With this, building now produces both Dev16 and Dev17 VSIXes.
 
 ## Other samples
+
 - [ProPower Tools](https://github.com/microsoft/VS-PPT/pull/244)
   - PeekF1
     - Allows peeking into a web browser with help information about the selected class/object.

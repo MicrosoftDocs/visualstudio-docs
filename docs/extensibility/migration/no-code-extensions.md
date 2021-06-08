@@ -1,3 +1,6 @@
+
+# No-code extensions
+
 VS extensions that do not carry executable code are not required to pack distinct VSIXs for Dev17 and pre-Dev17.
 
 Instead, the one VSIX should be modified so that its `source.extension.vsixmanifest` file

@@ -18,21 +18,14 @@ For the preview releases of Dev17 the Marketplace will only support a single VSI
 
 ## Custom installer
 
-If you build an MSI/EXE to install your extension and spawn vsixinstaller.exe
-to install (part of) your extension,
-know that the VSIX installer in Dev17 has been updated.
-Developers will need to use the version of the VSIX
-installer that comes with Dev17 to install extensions to
-Dev17. The VSIX installer in Dev17 will also install
-applicable extensions targeting previous versions of Visual Studio that
-are installed side by side with Dev17 on the same machine.
+If you build an MSI/EXE to install your extension and spawn vsixinstaller.exe to install (part of) your extension,
+know that the VSIX installer in Dev17 has been updated. Developers will need to use the version of the VSIX
+installer that comes with Dev17 to install extensions to Dev17. The VSIX installer in Dev17 will also install
+applicable extensions targeting previous versions of Visual Studio that are installed side by side with Dev17 on the same machine.
 
 ## Network share
 
-You can share your extension over a LAN or any other way.
-If you target Dev17 and pre-Dev17, you will need to share you multiple VSIXs individually
-and give them filenames (or place them in unique folders) that help your users know
-which VSIX to install based on the version of VS they have installed.
+You can share your extension over a LAN or any other way. If you target Dev17 and pre-Dev17, you will need to share you multiple VSIXs individually and give them filenames (or place them in unique folders) that help your users know which VSIX to install based on the version of VS they have installed.
 
 ## Other considerations
 

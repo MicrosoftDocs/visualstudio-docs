@@ -1,4 +1,4 @@
-# Adding a Dev17 target to your VS extension
+# Adding a Dev17 target to your Visual Studio extension
 
 This document assumes you have completed the steps to [factor your VS extension with shared projects](shared-projects.md).
 
