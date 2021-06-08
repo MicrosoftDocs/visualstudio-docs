@@ -1,8 +1,22 @@
-# Dev17
+---
+title: Updating Visual Studio extensions to work with Visual Studio 2022 Preview
+description: Learn how to update your Visual Studio extension to work with Visual Studio 2022 Preview
+ms.date: 06/08/2021
+ms.topic: conceptual
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+monikerRange: "vs-2022"
+ms.workload:
+- vssdk
+---
+# Update a Visual Studio extension for Visual Studio 2022 Preview
+
+You can update your extension to work with Visual Studio 2022 Preview by following this guide. Visual Studio 2022 Preview is a 64-bit application, and introduces some breaking changes in the VS SDK. This guide walks you through the steps required to get your extension working with the current preview of Visual Studio 2022, so your extension can be ready for users to install before Visual Studio 2022 reaches GA.
 
 ## Installing
 
-Dev17 will first be available as a private release to only select partners, that's you!
+You can download Dev17 using the following link:
 
 **[Dev17 Enterprise Installer](https://aka.ms/vs/17/pre/701041097_-835410096/vs_Enterprise.exe)**
 
@@ -22,8 +36,7 @@ The VS SDK targeting Dev17 for managed extensions is up *exclusively* on NuGet:
 - The [Microsoft.VisualStudio.Sdk](https://www.nuget.org/packages/Microsoft.VisualStudio.Sdk/) (17.x versions) meta-package brings in most or all of the reference assemblies you will need.
 - The [Microsoft.VSSDK.BuildTools](https://www.nuget.org/packages/Microsoft.VSSDK.BuildTools/) (17.x versions) package should be referenced from your VSIX project so it can build a Dev17-compliant VSIX.
 
-Extensions *must* be compiled with the "Any CPU" or "x64" platform.
-The "x86" platform is incompatible with Dev17's 64-bit process.
+Extensions *must* be compiled with the "Any CPU" or "x64" platform. The "x86" platform is incompatible with Dev17's 64-bit process.
 
 ### Extensions written in C++
 

@@ -1,3 +1,15 @@
+---
+title: APIs removed in Visual Studio 2022 Preview
+description: Learn about VS SDK APIs removed in Visual Studio 2022 Preview, for extension authors updating their extensions to work with Visual Studio 2022 Preview.
+ms.date: 06/08/2021
+ms.topic: conceptual
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+monikerRange: "vs-2022"
+ms.workload:
+- vssdk
+---
 # Dev17 Removed APIs
 
 The APIs below have been removed and can no longer be used, please see each section for details on how to migrate.

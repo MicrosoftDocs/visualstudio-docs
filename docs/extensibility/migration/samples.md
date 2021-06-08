@@ -1,3 +1,15 @@
+---
+title: ImageOptimizer sample for updating Visual Studio extensions
+description: Follow an example to learn how to update a Visual Studio extension to work with Visual Studio 2022 Preview.
+ms.date: 06/08/2021
+ms.topic: conceptual
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+monikerRange: "vs-2022"
+ms.workload:
+- vssdk
+---
 # ImageOptimizer - Step by Step
 
 This guide will show all the steps required for adding Dev17 support while maintaining Dev16 support using the Image Optimizer extension as a case study.  

@@ -1,3 +1,15 @@
+---
+title: Add a Visual Studio 2022 Preview target to your Visual Studio extension
+description: Learn how to add a target to your VSIX project to build your Visual Studio extension project to work with Visual Studio 2022 Preview.
+ms.date: 06/08/2021
+ms.topic: conceptual
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+monikerRange: "vs-2022"
+ms.workload:
+- vssdk
+---
 # Adding a Dev17 target to your Visual Studio extension
 
 This document assumes you have completed the steps to [factor your VS extension with shared projects](shared-projects.md).

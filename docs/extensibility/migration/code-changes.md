@@ -1,3 +1,15 @@
+---
+title: Accommodating breaking API changes in the VS SDK API
+description: Learn how to deal with changes that break your build when migrating your Visual Studio extension to work with Visual Studio 2022 Preview.
+ms.date: 06/08/2021
+ms.topic: conceptual
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+monikerRange: "vs-2022"
+ms.workload:
+- vssdk
+---
 # Accommodating breaking API changes
 
 This document assumes you have already [created a VSIX project that references the Dev17 SDK](add-dev17-target.md).

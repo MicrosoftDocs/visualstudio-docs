@@ -1,3 +1,15 @@
+---
+title: VS SDK NuGet packages
+description: Learn about VS SDK metapackage and other NuGet packages that you might need when migrating a Visual Studio extension to Visual Studio 2022 Preview.
+ms.date: 06/08/2021
+ms.topic: conceptual
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+monikerRange: "vs-2022"
+ms.workload:
+- vssdk
+---
 # SDK reference packages
 
 The easiest way to author VS extensions is with a reference to the

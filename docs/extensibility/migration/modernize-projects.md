@@ -1,3 +1,15 @@
+---
+title: Modernizing your VSIX projects
+description: Learn how to use the latest features and best practices when updating your Visual Studio extension to work with Visual Studio 2022.
+ms.date: 06/08/2021
+ms.topic: conceptual
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+monikerRange: "vs-2022"
+ms.workload:
+- vssdk
+---
 # Modernizing your VSIX projects
 
 Before adding Dev17 support to your extension,

@@ -1,4 +1,15 @@
-
+---
+title: No-code extensions
+description: Learn about special rules for extensions that do not carry executable code when updating Visual Studio extensions to work with Visual Studio 2022 Preview.
+ms.date: 06/08/2021
+ms.topic: conceptual
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+monikerRange: "vs-2022"
+ms.workload:
+- vssdk
+---
 # No-code extensions
 
 VS extensions that do not carry executable code are not required to pack distinct VSIXs for Dev17 and pre-Dev17.

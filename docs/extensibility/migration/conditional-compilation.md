@@ -1,4 +1,16 @@
-## Using conditional compilation symbols
+---
+title: Use conditional compilation symbols when migrating a Visual Studio extension to work with Visual Studio 2022 Preview
+description: Learn how to use compilation symbols to handle differences between versions when migrating your Visual Studio extension to work with Visual Studio 2022 Preview.
+ms.date: 06/08/2021
+ms.topic: conceptual
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+monikerRange: "vs-2022"
+ms.workload:
+- vssdk
+---
+# Using conditional compilation symbols
 
 If you wish to use the same source code, even the same file,
 for Dev17 and below you may need to use conditional compilation so

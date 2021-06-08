@@ -1,3 +1,15 @@
+---
+title: Update your Visual Studio extension to work use shared projects for multi-targeting
+description: Learn how to use shared projects to update your Visual Studio 2019 or earlier extension to target multiple Visual Studio versions.
+ms.date: 06/08/2021
+ms.topic: conceptual
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+monikerRange: "vs-2022"
+ms.workload:
+- vssdk
+---
 # Migrating your pre-Dev17 extension to use shared projects for multi-targeting
 
 [Shared projects](/xamarin/cross-platform/app-fundamentals/shared-projects?tabs=windows)

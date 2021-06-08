@@ -1,3 +1,15 @@
+---
+title: Test your extension with Visual Studio 2022 Preview
+description: Learn how to test your Visual Studio extension with Visual Studio 2022 Preview, the final step in updating your extension.
+ms.date: 06/08/2021
+ms.topic: conceptual
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+monikerRange: "vs-2022"
+ms.workload:
+- vssdk
+---
 # Testing your extension with Dev17
 
 This document assumes you already have a building Dev17-targeted extension.
