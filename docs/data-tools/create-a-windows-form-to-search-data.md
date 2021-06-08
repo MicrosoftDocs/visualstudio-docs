@@ -44,7 +44,7 @@ Tasks illustrated in this walkthrough include:
 
 ## Prerequisites
 
-You must have the **Data storage and processing** workload installed. See [Modify Visual Studio](../install/modify-visual-studio).
+You must have the **Data storage and processing** workload installed. See [Modify Visual Studio](../install/modify-visual-studio.md).
 
 This walkthrough uses SQL Server Express LocalDB and the Northwind sample database.
 
