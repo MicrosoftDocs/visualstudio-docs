@@ -1428,11 +1428,11 @@
 - name: Resources
   expanded: true
   items:
-  - name: What's new in Visual Studio 2017
+  - name: "Visual Studio 2017: What's new"
     href: ide/whats-new-visual-studio-2017.md
-  - name: What's new in Visual Studio 2019
+  - name: "Visual Studio 2019: What's new"
     href: ide/whats-new-visual-studio-2019.md
-  - name: What's new in the docs
+  - name: What's new in the documentation
     href: ide/whats-new-visual-studio-docs.md
   - name: Release notes
     items:
