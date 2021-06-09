@@ -9,6 +9,38 @@
     href: starting-to-develop-visual-studio-extensions.md
   - name: "Create your First Extension: Hello World"
     href: extensibility-hello-world.md
+  - href: Updating extensions for Visual Studio 2022 (Preview)
+    items:
+    - name: Overview
+      href: migration/overview.md
+    - name: Modernize projects
+      href: migration/modernize-projects.md
+    - name: Shared projects
+      href: migration/shared-projects.md
+    - name: Add a Visual Studio 2022 Preview target
+      href: migration/add-dev17-target.md
+    - name: Code changes
+      href: migration/code-changes.md
+    - name: Conditional compilation 
+      href: migration/conditional-compilation.md
+    - name: Publish an extension
+      href: migration/publishing.md
+    - name: Test an extension
+      href: migration/testing.md
+    - name: No-code extensions
+      href: migration/no-code-extensions.md
+    - name: 'Example: ImageOptimizer'
+      href: migration/samples.md
+    - name: Downtargeting to Visual Studio 2019
+      href: migration/downtargeting-vs2019.md
+    - name: Breaking API list
+      href: migration/breaking-api-list.md
+    - name: Removed API list
+      href: migration/removed-api-list.md
+    - name: Migrated PIA
+      href: migration/migrated-pia.md
+    - name: Frequently asked questions
+      href: migration/frequently-asked-questions.md
   - name: What's New Visual Studio 2019 SDK
   # Auto-expanded node
     items:
