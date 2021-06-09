@@ -10,9 +10,11 @@ monikerRange: "vs-2022"
 ms.workload:
 - vssdk
 ---
-# ImageOptimizer - Step by Step
+# ImageOptimizer - Update a Visual Studio extension step by step
 
-This guide will show all the steps required for adding Dev17 support while maintaining Dev16 support using the Image Optimizer extension as a case study.  
+[!INCLUDE(preview-note)](./includes/preview-note.md)
+
+This guide will show all the steps required for adding Visual Studio 2022 support while maintaining Visual Studio 2019 support using the Image Optimizer extension as a case study.  
 This is meant to be a thorough guide with git commit links to each step, but you are free to see the finalized PR here: 
 [https://github.com/madskristensen/ImageOptimizer/pull/46](https://github.com/madskristensen/ImageOptimizer/pull/46).
 
@@ -55,7 +57,7 @@ Building the project succeeds and we get a few threading warnings. We fix these 
 
 See [Shared projects](shared-projects.md).
 
-Supporting Dev17 requires adding a new shared project that will contain the extension's source code which will be shared between the dev16 and dev17 VSIX projects.
+Supporting Visual Studio 2022 requires adding a new shared project that will contain the extension's source code which will be shared between the Visual Studio 2019 and Visual Studio 2022 VSIX projects.
 
 1. Add a new shared project to your solution
 
@@ -120,28 +122,28 @@ Supporting Dev17 requires adding a new shared project that will contain the exte
 
 1. Build your project to validate your changes and fix any error/issues. Check the [Frequently Asked Questions](frequently-asked-questions.md) page for common issues.
 
-## Step 3 - Add a Dev17 VSIX project
+## Step 3 - Add a Visual Studio 2022 VSIX project
 
-See [Add Dev17 target](add-dev17-target.md).
+See [Add Visual Studio 2022 target](add-Visual Studio 2022-target.md).
 
 1. Add a new VSIX project to your solution.
 1. Remove any additional source code in the new project except for `source.extension.vsixmanifest.`
 
-   ![Create a new VSIX project](media/samples/dev17-vsix-initial.png)
+   ![Create a new VSIX project](media/samples/Visual Studio 2022-vsix-initial.png)
 
 1. Add a reference to your shared project.
 
    [git commit dd49cb2](https://github.com/madskristensen/ImageOptimizer/pull/46/commits/dd49cb227b52c46206bf4be5c25790ac0377568d)
 
-   ![Add shared project reference](media/samples/dev17-add-shared-project.png)
+   ![Add shared project reference](media/samples/Visual Studio 2022-add-shared-project.png)
 
-1. Add the linked files from your Dev16 VSIX project and validate that their "Build Action" and "Include in VSIX" properties match. Also copy over your `source.extension.vsixmanifest` file, we'll be modifying it later to support Dev17.
+1. Add the linked files from your Visual Studio 2019 VSIX project and validate that their "Build Action" and "Include in VSIX" properties match. Also copy over your `source.extension.vsixmanifest` file, we'll be modifying it later to support Visual Studio 2022.
 
    [git commit 98c43ee](https://github.com/madskristensen/ImageOptimizer/pull/46/commits/98c43ee6fbe912c38a1275542c44c65e11d7dbd9)
 
-   ![Add Linked files to VSIX project](media/samples/dev17-add-linked-files.png)
+   ![Add Linked files to VSIX project](media/samples/Visual Studio 2022-add-linked-files.png)
 
-1. An attempted build shows that we are missing a reference to `System.Windows.Forms`. Simply add it to our Dev17 project and rebuild.
+1. An attempted build shows that we are missing a reference to `System.Windows.Forms`. Simply add it to our Visual Studio 2022 project and rebuild.
 
    [git commit de71ccd](https://github.com/madskristensen/ImageOptimizer/pull/46/commits/de71ccd9baff703aa6679392ad41a2cfe7bd7d72)
 
@@ -149,7 +151,7 @@ See [Add Dev17 target](add-dev17-target.md).
    + <Reference Include="System.Windows.Forms" />
    ```
 
-1. Upgrade `Microsoft.VisualStudio.SDK` and `Microsoft.VSSDK.BuildTools` package references to the Dev17 versions.
+1. Upgrade `Microsoft.VisualStudio.SDK` and `Microsoft.VSSDK.BuildTools` package references to the Visual Studio 2022 versions.
 
    [git commit d581fc3](https://github.com/madskristensen/ImageOptimizer/pull/46/commits/d581fc3c954974124dc7e31e5ecc85f78f7828ab)
 
@@ -160,13 +162,13 @@ See [Add Dev17 target](add-dev17-target.md).
    > -<PackageReference Include="Microsoft.VisualStudio.SDK" Version="16.0.206" />
    > +<PackageReference Include="Microsoft.VisualStudio.SDK" Version="17.0.0-preview-1-31216-1036" />
    > -<PackageReference Include="Microsoft.VSSDK.BuildTools" Version="16.10.32" />
-   > +<PackageReference Include="Microsoft.VSSDK.BuildTools" Version="17.0.63-dev17-g3f11f5ab" />
+   > +<PackageReference Include="Microsoft.VSSDK.BuildTools" Version="17.0.63-Visual Studio 2022-g3f11f5ab" />
    > ```
 
-1. Edit your `source.extension.vsixmanifest` file to reflect targeting Dev17.
+1. Edit your `source.extension.vsixmanifest` file to reflect targeting Visual Studio 2022.
 
    [git commit 9d393c7](https://github.com/madskristensen/ImageOptimizer/pull/46/commits/9d393c708c04ac4af48d1eb9ce3da4470db5d5cc)
-   1. Set the `<InstallationTarget>` tag to reflect Dev17 and indicate an amd64 payload:
+   1. Set the `<InstallationTarget>` tag to reflect Visual Studio 2022 and indicate an amd64 payload:
 
       ```xml
       <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0,18.0)">
@@ -174,7 +176,7 @@ See [Add Dev17 target](add-dev17-target.md).
       </InstallationTarget>
       ```
 
-   1. Modify the Prerequisite to only include Dev17 and above:
+   1. Modify the Prerequisite to only include Visual Studio 2022 and above:
 
       ```Diff
       - <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[15.0,)" DisplayName="Visual Studio core editor" />
@@ -183,7 +185,7 @@ See [Add Dev17 target](add-dev17-target.md).
 
 And we're done!
 
-With this, building now produces both Dev16 and Dev17 VSIXes.
+With this, building now produces both Visual Studio 2019 and Visual Studio 2022 VSIXes.
 
 ## Other samples
 

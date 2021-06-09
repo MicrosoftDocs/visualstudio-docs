@@ -12,7 +12,9 @@ ms.workload:
 ---
 # No-code extensions
 
-VS extensions that do not carry executable code are not required to pack distinct VSIXs for Dev17 and pre-Dev17.
+[!INCLUDE(preview-note)](./includes/preview-note.md)
+
+VS extensions that do not carry executable code are not required to pack distinct VSIXs for Visual Studio 2022 and pre-Visual Studio 2022.
 
 Instead, the one VSIX should be modified so that its `source.extension.vsixmanifest` file
 declares two installation targets, like this:

@@ -12,14 +12,14 @@ ms.workload:
 ---
 # Use conditional compilation symbols
 
-If you wish to use the same source code, even the same file, for Dev17 and below you may need to use conditional compilation so
-that you can fork your code to adapt to breaking changes. Conditional compilation is a feature of the C#/VB/C++ languages that
-can be used to share most code while accommodating divergent APIs in specific places.
+[!INCLUDE(preview-note)](./includes/preview-note.md)
+
+If you wish to use the same source code, even the same file, for Visual Studio 2022 and earlier versions, you might need to use conditional compilation so that you can fork your code to adapt to breaking changes. Conditional compilation is a feature of the C#, Visual Basic, and C++ languages that can be used to share most code while accommodating divergent APIs in specific places.
 
 More information on usage of preprocessor directives and conditional compilation symbols can be found in the Microsoft docs [#if
 preprocessor directive](/dotnet/csharp/language-reference/preprocessor-directives#conditional-compilation).
 
-Your project(s) that target older VS versions will need a conditional compilation symbol that can then be used to fork the code to use the different APIs. You can set the conditional compilation symbol in the project properties page, as shown in the following image:
+Your project(s) that target earlier Visual Studio versions will need a conditional compilation symbol that can then be used to fork the code to use the different APIs. You can set the conditional compilation symbol in the project properties page, as shown in the following image:
 
 ![Setting conditional compilation symbols](media/conditional-compilation/ccsymbols-image-2.png)
 
@@ -31,7 +31,7 @@ You can then use that symbol as a pre-processor directive (`#if`) as shown in th
     Guid myGuid = new Guid("{633FBA02-719B-40E7-96BF-0899767CD104}");
     uint myFlags = 0;
     IVsShell shell = await AsyncServiceProvider.GlobalProvider.GetServiceAsync<SVsShell, IVsShell>();
-#if Dev16
+#if Visual Studio 2019
     shell.LoadUILibrary(myGuid, myFlags, out uint ptrLib);
 #else
     shell.LoadUILibrary(myGuid, myFlags, out IntPtr ptrLib);
@@ -53,9 +53,9 @@ When using the `#if` syntax, notice how we can use the language service context 
 
 ## XAML sharing techniques
 
-XAML has no preprocessor to allow customizing content based on preprocessor symbols. Copying and maintaining two XAML pages where their content must differ between Dev17 and earlier versions may be required.
+XAML has no preprocessor to allow customizing content based on preprocessor symbols. Copying and maintaining two XAML pages where their content must differ between Visual Studio 2022 and earlier versions may be required.
 
-However in some cases, a reference to a type that exists in distinct assemblies across Dev17 and earlier versions might still be representable in one XAML file by removing the namespace that references the assembly:
+However in some cases, a reference to a type that exists in distinct assemblies across Visual Studio 2022 and earlier versions might still be representable in one XAML file by removing the namespace that references the assembly:
 
 ```diff
 -xmlns:vsui="clr-namespace:Microsoft.VisualStudio.PlatformUI;assembly=Microsoft.VisualStudio.Shell.14.0"

@@ -14,17 +14,17 @@ ms.workload:
 
 The easiest way to author VS extensions is with a reference to the
 [`Microsoft.VisualStudio.Sdk` NuGet package](https://www.nuget.org/packages/microsoft.visualstudio.sdk).
-This package is available for targeting Visual Studio 2017 (15.0), Visual Studio 2019 (16.0, 16.9), and now Dev17.
+This package is available for targeting Visual Studio 2017 (15.0), Visual Studio 2019 (16.0, 16.9), and now Visual Studio 2022.
 
 Depending on your extension, adding extra VS SDK packages that are not included in the above meta-package may be necessary.
 When referencing specific other SDK packages, these packages may vary across major VS versions.
 
-Note that many interop assemblies were embeddable prior to Dev17. Beginning in Dev17, embedding is no longer required or supported.
+Note that many interop assemblies were embeddable prior to Visual Studio 2022. Beginning in Visual Studio 2022, embedding is no longer required or supported.
 Please *reference* our interop assemblies instead of linking them.
 
-The following table provides a mapping from assemblies or packages your pre-Dev17 extension may already be referencing to the new package ID to reference when targeting Dev17. In some cases, assemblies are now available in NuGet packages that previously were only available from a local VS installation.
+The following table provides a mapping from assemblies or packages your pre-Visual Studio 2022 extension may already be referencing to the new package ID to reference when targeting Visual Studio 2022. In some cases, assemblies are now available in NuGet packages that previously were only available from a local VS installation.
 
-Pre-Dev17 | Dev17
+Pre-Visual Studio 2022 | Visual Studio 2022
 --|--
 `envdte` | `Microsoft.VisualStudio.Interop`
 `envdte100` | `Microsoft.VisualStudio.Interop`

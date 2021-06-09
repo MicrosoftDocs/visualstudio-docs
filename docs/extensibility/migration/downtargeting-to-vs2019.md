@@ -11,13 +11,15 @@ ms.workload:
 - vssdk
 ---
 
-# Target Visual Studio 2019 when creating an extension in Visual Studio 2022 Preview
+# Target a previous version when creating an extension in Visual Studio 2022 Preview
 
-When you create a new VSIX project using Dev17, the project is created from a template that targets Dev17. If you want to target Visual Studio 2019, you must modify the created project.
+[!INCLUDE(preview-note)](./includes/preview-note.md)
 
-Consider using [shared projects](shared-projects.md) to target Visual Studio 2019 and Dev17 while sharing most or all the code in your extension.
+When you create a new VSIX project using Visual Studio 2022 Preview, the project is created from a template that targets Visual Studio 2022. If you want to target Visual Studio 2019 or an earlier version, you must modify the created project.
 
-Follow these steps on the VSIX project that should target Dev16:
+Consider using [shared projects](shared-projects.md) to target Visual Studio 2019 and Visual Studio 2022 while sharing most or all the code in your extension.
+
+Follow these steps on the VSIX project that should target Visual Studio 2019:
 
 1. Edit the `source.extension.vsixmanifest` file to remove the `ProductArchitecture` element and the version range:
 

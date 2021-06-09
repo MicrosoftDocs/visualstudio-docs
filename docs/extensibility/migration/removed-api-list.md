@@ -10,9 +10,11 @@ monikerRange: "vs-2022"
 ms.workload:
 - vssdk
 ---
-# Dev17 Removed APIs
+# Visual Studio 2022 SDK Removed APIs
 
-The APIs below have been removed and can no longer be used, please see each section for details on how to migrate.
+[!INCLUDE(preview-note)](./includes/preview-note.md)
+
+The APIs below have been removed from the Visual Studio SDK and can no longer be used, please see each section for details on how to update your code.
 
 * [`IVsImageService`](#ivsimageservice)
 * [`IBlockContextProvider`](#iblockcontextprovider)
@@ -26,9 +28,9 @@ The APIs below have been removed and can no longer be used, please see each sect
 
 ## IVsImageService
 
-The `IVsImageService` is being removed in Dev17. All users of `IVsImageService` should move to `IVsImageService2` instead.
+The `IVsImageService` is being removed in Visual Studio 2022. All users of `IVsImageService` should move to `IVsImageService2` instead.
 
-### Migration
+### Recommended updates
 
 If you use `IVsImageService`, replace calls to its methods with calls to equivalent methods on `IVsImageService2`:
 
@@ -48,31 +50,31 @@ Using those two methods, you can continue to reference images by name.
 
 ## IBlockContextProvider
 
-The `IBlockContextProvider` and related types are being removed in Dev17. All users of `IBlockContextProvider` should move to `IStructureContextSourceProvider` instead.
+The `IBlockContextProvider` and related types are being removed in Visual Studio 2022. All users of `IBlockContextProvider` should move to `IStructureContextSourceProvider` instead.
 
-### Migration
+### Recommended updates
 
 Users of `IBlockContextProvider` should use `IStructureContextSourceProvider` instead ([documentation](/dotnet/api/microsoft.visualstudio.text.adornments.istructurecontextsourceprovider)).
 
 ## IToolTipProvider
 
-The `IToolTipProvider` and related types are being removed in Dev17. All users of `IToolTipProvider` should move to `IToolTipService` instead.
+The `IToolTipProvider` and related types are being removed in Visual Studio 2022. All users of `IToolTipProvider` should move to `IToolTipService` instead.
 
-### Migration
+### Recommended updates
 
 Users of `IToolTipProvider` should use `IToolTipService` instead ([documentation](/dotnet/api/microsoft.visualstudio.text.adornments.itooltipservice)).
 
 ## IVsTextScanner and IVsFullTextScanner
 
-The `IVsTextScanner` and `IVsFullTextScanner` are being removed in Dev17. All users of `IVsTextScanner` or `IVsFullTextScanner` should move to `IVsTextLines` instead.
+The `IVsTextScanner` and `IVsFullTextScanner` are being removed in Visual Studio 2022. All users of `IVsTextScanner` or `IVsFullTextScanner` should move to `IVsTextLines` instead.
 
-### Migration
+### Recommended updates
 
 Users of `IVsTextScanner` or `IVsFullTextScanner` should use `IVsTextLines` instead ([documentation](/dotnet/apimicrosoft.visualstudio.textmanager.interop.ivstextlines.getlinetext)).
 
 ## Asynchronous solution load and lightweight solution load
 
-The Asynchronous solution load (ASL) and lightweight solution load (LSL) features are being removed in Dev17, as such the following methods are being removed:
+The Asynchronous solution load (ASL) and lightweight solution load (LSL) features are being removed in Visual Studio 2022, as such the following methods are being removed:
 
 ### Interfaces
 
@@ -94,15 +96,15 @@ The Asynchronous solution load (ASL) and lightweight solution load (LSL) feature
 * `VSPROPID_ActiveSolutionLoadManager`
 * `UICONTEXT_BackgroundProjectLoad`
 
-### Migration
+### Recommended updates
 
 None.
 
 ## IVsDummy
 
-The `IVsDummy` is being removed in Dev17 and will not be replaced. 
+The `IVsDummy` is being removed in Visual Studio 2022 and will not be replaced. 
 
-### Migration
+### Recommended updates
 
 None. But, it should have no impact as the API did nothing.
 
@@ -119,7 +121,7 @@ Support for opening a solution from source safe is being removed, as such the fo
 
 * `IVsSCCProvider3` - Entire interface
 
-### Migration
+### Recommended updates
 
 None.
 
@@ -127,6 +129,6 @@ None.
 
 The current WPF XAML Designer for .NET Framework has been deprecated and will be replaced with a new WPF XAML Designer for .NET Framework, based on the same architecture used for the WPF XAML Designer for .NET (.NET Core). This also means that the WPF .NET Framework control extensibility model based on .design.dll and Microsoft.Windows.Design.Extensibility is no longer supported. The new WPF XAML Designer for .NET Framework will provide the same extensibility model as the WPF XAML Designer for .NET (.NET Core). If you already created a .designtools.dll extension for .NET (.NET Core), that same extension will work for the new WPF XAML Designer for .NET Framework. Please refer to the migration link below for further information about how to migrate to the new extensibility model for WPF platforms (.NET Framework and .NET Core) and UWP platforms moving forward. 
 
-### Migration
+### Recommended updates
 
 See [XAML designer extensibility migration](https://github.com/microsoft/xaml-designer-extensibility/blob/main/documents/xaml-designer-extensibility-migration.md).
