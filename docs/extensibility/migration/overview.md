@@ -75,4 +75,4 @@ These extensions should follow [these simple steps](no-code-extensions.md) to be
 ### MSBuild tasks
 
 If you author MSBuild tasks, be aware that in Dev17 it is much more likely that they will be loaded in a 64-bit MSBuild.exe process.
-If your task requires a 32-bit process to run, refer to [this MSBuild documentation](/visualstudio/msbuild/how-to-configure-targets-and-tasks?view=vs-2019#usingtask-attributes-and-task-parameters) to ensure MSBuild knows to load your task in a 32-bit process.
+If your task requires a 32-bit process to run, refer to [this MSBuild documentation](../../msbuild/how-to-configure-targets-and-tasks.md#usingtask-attributes-and-task-parameters) to ensure MSBuild knows to load your task in a 32-bit process.

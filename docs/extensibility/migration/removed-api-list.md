@@ -14,14 +14,14 @@ ms.workload:
 
 The APIs below have been removed and can no longer be used, please see each section for details on how to migrate.
 
-* [`IVsImageService`](#IVsImageService)
-* [`IBlockContextProvider`](#IBlockContextProvider)
-* [`IToolTipProvider`](#IToolTipProvider)
-* [`IVsTextScanner` and `IVsFullTextScanner`](#IVsTextScanner-and-IVsFullTextScanner)
-* [Asynchronous solution load and lightweight solution load](#Asynchronous-solution-load-and-lightweight-solution-load)
-* [`IVsDummy`](#IvSDummy)
-* [`Microsoft.VisualStudio.Shell.Task`](#Task)
-* [Open from source safe](#Open-from-source-safe)
+* [`IVsImageService`](#ivsimageservice)
+* [`IBlockContextProvider`](#inblockcontextprovider)
+* [`IToolTipProvider`](#itooltipprovider)
+* [`IVsTextScanner` and `IVsFullTextScanner`](#ivstextscanner-and-ivsfulltextscanner)
+* [Asynchronous solution load and lightweight solution load](#asynchronous-solution-load-and-lightweight-solution-load)
+* [`IVsDummy`](#ivsdummy)
+* [`Microsoft.VisualStudio.Shell.Task`](#microsoft-visualstudio-shell-task)
+* [Open from source safe](#open-from-source-safe)
 * [New WPF XAML Designer for .NET Framework](#new-wpf-xaml-designer-for-net-framework)
 
 ## IVsImageService
@@ -29,6 +29,7 @@ The APIs below have been removed and can no longer be used, please see each sect
 The `IVsImageService` is being removed in Dev17. All users of `IVsImageService` should move to `IVsImageService2` instead.
 
 ### Migration
+
 If you use `IVsImageService`, replace calls to its methods with calls to equivalent methods on `IVsImageService2`:
 
 | **IVsImageService Method** | **Equivalent IVsImageService2 Method** |

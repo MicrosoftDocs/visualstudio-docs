@@ -61,7 +61,7 @@ Supporting Dev17 requires adding a new shared project that will contain the exte
 
    [git commit abf249d](https://github.com/madskristensen/ImageOptimizer/pull/46/commits/abf249d5a4bed9010652f3f3fc4753c7c771c892)
 
-   ![Framework version bump](media/samples/add-shared-project.png)
+   ![Add shared project](media/samples/add-shared-project.png)
 
 1. Add a reference to the shared project to your VSIX project.
 
@@ -118,7 +118,7 @@ Supporting Dev17 requires adding a new shared project that will contain the exte
 
        - If the properties tool window prevents you from setting a specific Build Action, you can manually modify the csproj as done above and set the Build Action as needed.
 
-1. Build your project to validate your changes and fix any error/issues. Check the [Frequently Asked Questions](Frequently-Asked-Questions) page for common issues.
+1. Build your project to validate your changes and fix any error/issues. Check the [Frequently Asked Questions](frequently-asked-questions.md) page for common issues.
 
 ## Step 3 - Add a Dev17 VSIX project
 
