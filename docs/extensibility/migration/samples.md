@@ -2,7 +2,7 @@
 title: ImageOptimizer sample for updating Visual Studio extensions
 description: Follow an example to learn how to update a Visual Studio extension to work with Visual Studio 2022 Preview.
 ms.date: 06/08/2021
-ms.topic: conceptual
+ms.topic: sample
 author: leslierichardson95
 ms.author: lerich
 manager: jmartens
@@ -149,7 +149,8 @@ See [Add Dev17 target](add-dev17-target.md).
    + <Reference Include="System.Windows.Forms" />
    ```
 
-1. Upgrade `Microsoft.VisualStudio.SDK` and `Microsoft.VSSDK.BuildTools` package references to the Dev17 versions
+1. Upgrade `Microsoft.VisualStudio.SDK` and `Microsoft.VSSDK.BuildTools` package references to the Dev17 versions.
+
    [git commit d581fc3](https://github.com/madskristensen/ImageOptimizer/pull/46/commits/d581fc3c954974124dc7e31e5ecc85f78f7828ab)
 
    > [!NOTE]
@@ -163,6 +164,7 @@ See [Add Dev17 target](add-dev17-target.md).
    > ```
 
 1. Edit your `source.extension.vsixmanifest` file to reflect targeting Dev17.
+
    [git commit 9d393c7](https://github.com/madskristensen/ImageOptimizer/pull/46/commits/9d393c708c04ac4af48d1eb9ce3da4470db5d5cc)
    1. Set the `<InstallationTarget>` tag to reflect Dev17 and indicate an amd64 payload:
 

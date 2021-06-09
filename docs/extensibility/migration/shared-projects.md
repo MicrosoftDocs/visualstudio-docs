@@ -1,5 +1,5 @@
 ---
-title: Update your Visual Studio extension to work use shared projects for multi-targeting
+title: Update your Visual Studio extension to use shared projects for multi-targeting
 description: Learn how to use shared projects to update your Visual Studio 2019 or earlier extension to target multiple Visual Studio versions.
 ms.date: 06/08/2021
 ms.topic: conceptual
@@ -10,7 +10,7 @@ monikerRange: "vs-2022"
 ms.workload:
 - vssdk
 ---
-# Migrate your pre-Dev17 extension to use shared projects for multi-targeting
+# Update your pre-Dev17 extension to use shared projects for multi-targeting
 
 [Shared projects](/xamarin/cross-platform/app-fundamentals/shared-projects?tabs=windows) are a project type that were introduced in Visual Studio 2015. Shared projects in Visual Studio enable source code files to be shared between multiple projects and build differently using conditional compilation symbols and unique sets of references.
 

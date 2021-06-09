@@ -2,7 +2,7 @@
 title: Add a Visual Studio 2022 Preview target to your Visual Studio extension
 description: Learn how to add a target to your VSIX project to build your Visual Studio extension project to work with Visual Studio 2022 Preview.
 ms.date: 06/08/2021
-ms.topic: conceptual
+ms.topic: how-to
 author: leslierichardson95
 ms.author: lerich
 manager: jmartens
@@ -10,7 +10,7 @@ monikerRange: "vs-2022"
 ms.workload:
 - vssdk
 ---
-# Adding a Dev17 target to your Visual Studio extension
+# Add a Dev17 target to your Visual Studio extension
 
 This document assumes you have completed the steps to [factor your VS extension with shared projects](shared-projects.md).
 
@@ -59,7 +59,7 @@ Remove any source code that came with the template, but *keep the `source.extens
    This `ProductArchitecture` element is critical. Dev17 will *not* install your extension without it.
 
    | Element | Value | Description |
-   |- | - | - |
+   | - | - | - |
    | ProductArchitecture | X86, AMD64 | The platforms that are supported by this VSIX. Not case sensitive. One platform  per element and one element per  InstallTarget. For product versions less than 17.0 the default value is x86 and can be omitted.  For product versions 17.0 and greater this element is required and there is no default value. For Dev17 the only valid content for this element is "amd64". |
 
 1. Make any other adjustments necessary in your source.extension.vsixmanifest to match the one that targets Dev16 (if any).

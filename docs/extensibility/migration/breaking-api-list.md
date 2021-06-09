@@ -2,7 +2,7 @@
 title: Breaking API changes in Visual Studio 2022 Preview
 description: Learn about API changes that cause existing VS extensions to fail to compile when migrating extensions to Visual Studio 2022 Preview.
 ms.date: 06/08/2021
-ms.topic: conceptual
+ms.topic: reference
 author: leslierichardson95
 ms.author: lerich
 manager: jmartens

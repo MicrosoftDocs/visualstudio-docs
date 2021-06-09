@@ -12,8 +12,7 @@ ms.workload:
 ---
 # Modernize your VSIX projects
 
-Before adding Dev17 support to your extension,
-we strongly recommend taking this time to clean up and modernize your existing project before going further, including:
+Before adding Dev17 support to your extension, we strongly recommend taking this time to clean up and modernize your existing project before going further, including:
 
 1. [Migrate from packages.config to `PackageReference`](/nuget/consume-packages/migrate-packages-config-to-package-reference).
 
@@ -35,16 +34,9 @@ we strongly recommend taking this time to clean up and modernize your existing p
 
    Be sure to pick package versions that match the minimum version of VS you are targeting.
 
-   Note that some assemblies that are not unique to the VS SDK (for example, Newtonsoft.Json.dll)
-   may have been discoverable through a simple `<Reference Include="Newtonsoft.Json" />`
-   reference before Dev17 but in Dev17 requires a package reference instead because in Dev17
+   Note that some assemblies that are not unique to the VS SDK (for example, Newtonsoft.Json.dll) may have been discoverable through a simple `<Reference Include="Newtonsoft.Json" />` reference before Dev17 but in Dev17 requires a package reference instead because in Dev17
    we remove some VS runtime and SDK directories from MSBuild's default assembly search path.
 
-   Note that in switching from direct assembly references to NuGet package references,
-   you may pick up additional assembly references and analyzer packages due to NuGet automatically
-   installing the transitive closure of dependencies.
-   This is generally a Good Thing, but may result in additional warnings being flagged during your build.
-   Please work through these and resolve as many as you can, and consider suppressing those you cannot
-   using in-code `#pragma warning disable <id>` regions.
+   Note that in switching from direct assembly references to NuGet package references, you may pick up additional assembly references and analyzer packages due to NuGet automatically installing the transitive closure of dependencies. This is generally a Good Thing, but may result in additional warnings being flagged during your build. Please work through these and resolve as many as you can, and consider suppressing those you cannot using in-code `#pragma warning disable <id>` regions.
 
 Now you're ready to [use shared projects](shared-projects.md) to prepare for adding a Dev17 target to you extension.
