@@ -15,12 +15,12 @@ ms.workload:
 The APIs below have been removed and can no longer be used, please see each section for details on how to migrate.
 
 * [`IVsImageService`](#ivsimageservice)
-* [`IBlockContextProvider`](#inblockcontextprovider)
+* [`IBlockContextProvider`](#iblockcontextprovider)
 * [`IToolTipProvider`](#itooltipprovider)
 * [`IVsTextScanner` and `IVsFullTextScanner`](#ivstextscanner-and-ivsfulltextscanner)
 * [Asynchronous solution load and lightweight solution load](#asynchronous-solution-load-and-lightweight-solution-load)
 * [`IVsDummy`](#ivsdummy)
-* [`Microsoft.VisualStudio.Shell.Task`](#microsoft-visualstudio-shell-task)
+* [`Microsoft.VisualStudio.Shell.Task`](#microsoftvisualstudioshelltask)
 * [Open from source safe](#open-from-source-safe)
 * [New WPF XAML Designer for .NET Framework](#new-wpf-xaml-designer-for-net-framework)
 
