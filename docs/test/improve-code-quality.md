@@ -28,7 +28,7 @@ The **Test Explorer** window helps developers create, manage, and run unit tests
 ![Visual Studio Test Explorer](media/devtest-testexplorer.png)
 ::: moniker-end
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 ![Visual Studio Test Explorer 16.2](media/vs-2019/test-explorer-16-2.PNG)
 ::: moniker-end
 

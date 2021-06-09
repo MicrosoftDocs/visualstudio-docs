@@ -6,7 +6,7 @@ ms.topic: conceptual
 author: alihamie
 ms.author: tglee
 manager: jmartens
-monikerRange: vs-2019
+monikerRange: ">=vs-2019"
 ---
 
 # Use design-time sample data with the XAML Designer in Visual Studio

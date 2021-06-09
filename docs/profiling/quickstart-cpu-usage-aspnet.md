@@ -35,7 +35,7 @@ Windows 8 and later is required to run profiling tools with the debugger (**Diag
 
    In the dialog box that appears, choose **MVC** in the middle pane, and then click **OK**.
    ::: moniker-end
-   ::: moniker range="vs-2019"
+   ::: moniker range=">=vs-2019"
    In Visual Studio 2019, choose **Create a new project** in the start window. If the start window is not open, choose **File** > **Start Window**, and then choose **Create a new project**.
 
    Type **web app** in the search box, choose **C#** as the language, choose **ASP.NET Core Web Application (Model-View-Controller)**, and then choose **Next**. On the next screen, name the project *MyProfilingApp_MVC*, and then choose **Next**.
@@ -163,7 +163,7 @@ Windows 8 and later is required to run profiling tools with the debugger (**Diag
     ```
 
     ::: moniker-end
-    ::: moniker range="vs-2019"
+    ::: moniker range=">=vs-2019"
 
     ```csharp
     public IActionResult Privacy()
@@ -209,7 +209,7 @@ Windows 8 and later is required to run profiling tools with the debugger (**Diag
    ::: moniker range="vs-2017"
    In Visual Studio 2017, click the **About** link to run the code.
    ::: moniker-end
-   ::: moniker range="vs-2019"
+   ::: moniker range=">=vs-2019"
    In Visual Studio 2019, click the **Privacy** link to run the code.
    ::: moniker-end
 
