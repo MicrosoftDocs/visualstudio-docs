@@ -13,7 +13,7 @@ ms.workload:
 
 # Target a previous version when creating an extension in Visual Studio 2022 Preview
 
-[!INCLUDE(preview-note)](./includes/preview-note.md)
+[!INCLUDE(preview-note)](../includes/preview-note.md)
 
 When you create a new VSIX project using Visual Studio 2022 Preview, the project is created from a template that targets Visual Studio 2022. If you want to target Visual Studio 2019 or an earlier version, you must modify the created project.
 

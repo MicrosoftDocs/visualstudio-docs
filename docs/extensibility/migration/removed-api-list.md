@@ -12,7 +12,7 @@ ms.workload:
 ---
 # Visual Studio 2022 SDK Removed APIs
 
-[!INCLUDE(preview-note)](./includes/preview-note.md)
+[!INCLUDE(preview-note)](../includes/preview-note.md)
 
 The APIs below have been removed from the Visual Studio SDK and can no longer be used, please see each section for details on how to update your code.
 

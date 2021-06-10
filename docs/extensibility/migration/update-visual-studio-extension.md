@@ -18,9 +18,7 @@ You can update your extension to work with Visual Studio 2022 Preview by followi
 
 Install Visual Studio 2022 Preview from [Visual Studio 2022 Preview downloads](https://visualstudio.microsoft.com/vs/preview/vs2022).
 
-### Visual Studio SDK
-
-#### Extensions written in a .NET language
+### Extensions written in a .NET language
 
 The VS SDK targeting Visual Studio 2022 for managed extensions is up *exclusively* on NuGet:
 
@@ -29,44 +27,55 @@ The VS SDK targeting Visual Studio 2022 for managed extensions is up *exclusivel
 
 Extensions *must* be compiled with the "Any CPU" or "x64" platform. The "x86" platform is incompatible with Visual Studio 2022's 64-bit process.
 
-#### Extensions written in C++
+### Extensions written in C++
 
 The Visual Studio SDK for extensions compiled with C++ is available with the installed Visual Studio SDK, as usual.
 
 Extensions *must* be compiled specifically against the Visual Studio 2022 SDK and for amd64.
 
-#### Migrating extensions to Visual Studio 2022
+### Update your extension to Visual Studio 2022
 
-##### Extensions with running code
+#### Extensions with running code
 
 Extensions with running code *must* be compiled specifically for Visual Studio 2022.
 Visual Studio 2022 will not load any extension that does not target Visual Studio 2022 specifically.
 
 Learn how to migrate your pre-Visual Studio 2022 extensions to Visual Studio 2022:
 
-1. [Modernize your projects](modernize-projects.md).
-1. [Refactor your source code into a shared project](shared-projects.md) to allow for targeting Visual Studio 2022 and older versions.
-1. [Add a Visual Studio 2022-targeted VSIX project](add-dev17-target.md), and our [package/assembly remapping table](migrated-pia.md).
-1. [Making necessary code adjustments](code-changes.md).
-1. [Testing your Visual Studio 2022 extension](testing.md).
-1. [Publishing your Visual Studio 2022 extension](publishing.md).
+1. [Modernize your projects](#modernize-your-vsix-projects).
+1. [Refactor your source code into a shared project](#use-shared-projects-for-multitargeting) to allow for targeting Visual Studio 2022 and older versions.
+1. [Add a Visual Studio 2022-targeted VSIX project](#add-a-visual-studio-2022-target), and our [package/assembly remapping table](migrated-pia.md).
+1. [Making necessary code adjustments](#handle-breaking-api-changes).
+1. [Testing your Visual Studio 2022 extension](#test-your-extension).
+1. [Publishing your Visual Studio 2022 extension](#publish-your-extension).
 
-#### Authoring a new extension in Visual Studio 2022 that targets Visual Studio 2019
+#### Extensions without running code
 
-If you are authoring a *new* VS extension, using Visual Studio 2022, and want to (also) target Visual Studio 2019
-check out [this guide](downtargeting-to-vs2019.md).
+Extensions that do not contain any running code (for example, project/item templates) are *not* required to follow the above steps including the production of two distinct VSIXs.
 
-##### Extensions without running code
+Instead, the one VSIX should be modified so that its `source.extension.vsixmanifest` file
+declares two installation targets, like this:
 
-Extensions that do not contain any running code (e.g. project/item templates) are *not* required
-to follow the above steps including the production of two distinct VSIXs.
+```xml
+<Installation>
+   <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[15.0,17.0)">
+      <ProductArchitecture>x86</ProductArchitecture>
+   </InstallationTarget>
+   <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0,18.0)">
+      <ProductArchitecture>amd64</ProductArchitecture>
+   </InstallationTarget>
+</Installation>
+```
 
-These extensions should follow [these simple steps](no-code-extensions.md) to be compatible with Visual Studio 2022.
+You can skip the steps in this article about using shared projects and multiple VSIXs. You can proceed with [testing](#test-your-extension)!
 
-#### MSBuild tasks
+### How to author a new extension in Visual Studio 2022 that targets Visual Studio 2019
 
-If you author MSBuild tasks, be aware that in Visual Studio 2022 it is much more likely that they will be loaded in a 64-bit MSBuild.exe process.
-If your task requires a 32-bit process to run, refer to [this MSBuild documentation](../../msbuild/how-to-configure-targets-and-tasks.md#usingtask-attributes-and-task-parameters) to ensure MSBuild knows to load your task in a 32-bit process.
+If you are authoring a *new* Visual Studio extension, using Visual Studio 2022 Preview, and want to (also) target Visual Studio 2019 or an earlier version, check out [this guide](downtargeting-to-vs2019.md).
+
+### MSBuild tasks
+
+If you author MSBuild tasks, be aware that in Visual Studio 2022 it is much more likely that they will be loaded in a 64-bit MSBuild.exe process. If your task requires a 32-bit process to run, refer to [this MSBuild documentation](../../msbuild/how-to-configure-targets-and-tasks.md#usingtask-attributes-and-task-parameters) to ensure MSBuild knows to load your task in a 32-bit process.
 
 ## Modernize your VSIX projects
 
@@ -97,26 +106,6 @@ Before adding Visual Studio 2022 support to your extension, we strongly recommen
 
    Note that in switching from direct assembly references to NuGet package references, you may pick up additional assembly references and analyzer packages due to NuGet automatically installing the transitive closure of dependencies. This is generally a Good Thing, but may result in additional warnings being flagged during your build. Please work through these and resolve as many as you can, and consider suppressing those you cannot using in-code `#pragma warning disable <id>` regions.
 
-## No-code extensions
-
-VS extensions that do not carry executable code are not required to pack distinct VSIXs for Visual Studio 2022 and pre-Visual Studio 2022.
-
-Instead, the one VSIX should be modified so that its `source.extension.vsixmanifest` file
-declares two installation targets, like this:
-
-```xml
-<Installation>
-   <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[15.0,17.0)">
-      <ProductArchitecture>x86</ProductArchitecture>
-   </InstallationTarget>
-   <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0,18.0)">
-      <ProductArchitecture>amd64</ProductArchitecture>
-   </InstallationTarget>
-</Installation>
-```
-
-You can skip the steps in this article about using shared projects and multiple VSIXs. You can proceed with [testing](#test-your-extension)!
-
 ## Use shared projects for multi-targeting
 
 [Shared projects](/xamarin/cross-platform/app-fundamentals/shared-projects?tabs=windows) are a project type that were introduced in Visual Studio 2015. Shared projects in Visual Studio enable source code files to be shared between multiple projects and build differently using conditional compilation symbols and unique sets of references.
@@ -129,7 +118,7 @@ As a starting point, for this document we will assume you already have a VSIX pr
 
 All these steps can be completed with Visual Studio 2019.
 
-1. If you have not already done so, [modernize your projects](modernize-projects.md) to ease steps later in this migration.
+1. If you have not already done so, [modernize your projects](#modernize-your-vsix-projects) to ease steps later in this migration.
 
 1. Add a new shared project to your solution for each existing project that references the VS SDK.
    ![Add New Project command](media/shared-projects/add-new-project.png)
@@ -168,7 +157,7 @@ Your project is now ready to add Visual Studio 2022 support.
 
 ## Add a Visual Studio 2022 target
 
-This document assumes you have completed the steps to [factor your VS extension with shared projects](shared-projects.md).
+This document assumes you have completed the steps to [factor your Visual Studio extension with shared projects](shared-projects.md).
 
 Proceed to add Visual Studio 2022 support to your extension with these steps, which may be completed using Visual Studio 2019:
 
@@ -226,8 +215,7 @@ congratulations: you're ready for testing!
 
 ## Handle breaking API changes
 
-If you do not have build breaks in your Visual Studio 2022-targeted VSIX project, congratulations: you're ready for [testing](#test-your-extension)!
-The remainder of this document discusses how to correct the build breaks you might encounter while migrating your Visual Studio 2019 code to Visual Studio 2022.
+If you do not have build breaks in your Visual Studio 2022-targeted VSIX project, congratulations: you're ready for [testing](#test-your-extension)! The remainder of this section discusses how to correct the build breaks you might encounter while migrating your Visual Studio 2019 code to Visual Studio 2022.
 
 There are [breaking API changes](breaking-api-list.md) in Visual Studio 2022 that may require changes to your code from when it ran on prior versions. Please review that document for tips on how to update your code for each of them.
 
@@ -297,7 +285,7 @@ You can use Visual Studio 2022 Preview to build and test your extensions whether
 
 We strongly recommend you test with each version of Visual Studio that you intend the extension to support.
 
-Now you're ready to [publish your extension](publishing.md).
+Now you're ready to [publish your extension](#publish-your-extension).
 
 ## Publish your extension
 
@@ -315,8 +303,7 @@ For the preview releases of Visual Studio 2022 the Marketplace will only support
 
 If you build an MSI/EXE to install your extension and spawn vsixinstaller.exe to install (part of) your extension,
 know that the VSIX installer in Visual Studio 2022 has been updated. Developers will need to use the version of the VSIX
-installer that comes with Visual Studio 2022 to install extensions to Visual Studio 2022. The VSIX installer in Visual Studio 2022 will also install
-applicable extensions targeting previous versions of Visual Studio that are installed side by side with Visual Studio 2022 on the same machine.
+installer that comes with Visual Studio 2022 to install extensions to Visual Studio 2022. The VSIX installer in Visual Studio 2022 will also install applicable extensions targeting previous versions of Visual Studio that are installed side by side with Visual Studio 2022 on the same machine.
 
 ### Network share
 
@@ -334,7 +321,7 @@ mirror that of their dependents.
 
 **Q**: My extension does not require any interop changes as it just provides data (i.e. templates), can I create a single extension that includes Visual Studio 2022 as well?
 
-**A**: Yes!  See [No-code extensions](no-code-extensions.md) for more info about this.
+**A**: Yes!  See [No-code extensions](#no-code-extensions) for more info about this.
 
 **Q**: A NuGet dependency is bringing in old interop assemblies and causing clashing classes.
 

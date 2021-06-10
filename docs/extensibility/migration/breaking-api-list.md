@@ -12,7 +12,7 @@ ms.workload:
 ---
 # Breaking API changes in Visual Studio 2022
 
-[!INCLUDE(preview-note)](./includes/preview-note.md)
+[!INCLUDE(preview-note)](../includes/preview-note.md)
 
 If you're migrating an extension to Visual Studio 2022, the breaking changes listed here might affect you.
 
