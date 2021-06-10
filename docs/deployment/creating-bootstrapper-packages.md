@@ -57,20 +57,17 @@ CustomBootstrapperPackage
 Next, copy the redistributable files into the bootstrapper folder location. For more information, see [How to: Create a localized bootstrapper package](../deployment/how-to-create-a-localized-bootstrapper-package.md).
 
 ```
-*\Program Files (x86)\Microsoft SDKs\ClickOnce Bootstrapper*
-```
-
-or, for older versions of Visual Studio
-
-```
-*\Program Files\Microsoft Visual Studio 14.0\SDK\Bootstrapper\Packages*
+*\Program Files (x86)\Microsoft SDKs\ClickOnce Bootstrapper\Packages*
 ```
 
 or
 
 ```
-*\Program Files (x86)\Microsoft Visual Studio 14.0\SDK\Bootstrapper\Packages*
+*<VS Install Path>\MSBuild\Microsoft\VisualStudio\BootstrapperPackages*
 ```
+
+>[!NOTE]
+>The path listed above under the Visual Studio install path works starting with the Visual Studio 2019 Update 7 release.
 
 You can also find the bootstrapper folder location from the **Path** value in the following registry key:
 
