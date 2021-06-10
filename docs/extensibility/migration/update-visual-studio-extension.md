@@ -29,7 +29,7 @@ Extensions *must* be compiled with the "Any CPU" or "x64" platform. The "x86" pl
 
 ### Extensions written in C++
 
-The Visual Studio SDK for extensions compiled with C++ is available with the installed Visual Studio SDK, as usual.
+The VS SDK for extensions compiled with C++ is available with the installed Visual Studio SDK, as usual.
 
 Extensions *must* be compiled specifically against the Visual Studio 2022 SDK and for amd64.
 
@@ -37,8 +37,7 @@ Extensions *must* be compiled specifically against the Visual Studio 2022 SDK an
 
 #### Extensions with running code
 
-Extensions with running code *must* be compiled specifically for Visual Studio 2022.
-Visual Studio 2022 will not load any extension that does not target Visual Studio 2022 specifically.
+Extensions with running code *must* be compiled specifically for Visual Studio 2022. Visual Studio 2022 will not load any extension that does not target Visual Studio 2022 specifically.
 
 Learn how to migrate your pre-Visual Studio 2022 extensions to Visual Studio 2022:
 
@@ -69,9 +68,8 @@ declares two installation targets, like this:
 
 You can skip the steps in this article about using shared projects and multiple VSIXs. You can proceed with [testing](#test-your-extension)!
 
-### How to author a new extension in Visual Studio 2022 that targets Visual Studio 2019
-
-If you are authoring a *new* Visual Studio extension, using Visual Studio 2022 Preview, and want to (also) target Visual Studio 2019 or an earlier version, check out [this guide](downtargeting-to-vs2019.md).
+> [!NOTE]
+> If you are authoring a *new* Visual Studio extension, using Visual Studio 2022 Preview, and want to (also) target Visual Studio 2019 or an earlier version, check out [this guide](downtargeting-to-vs2019.md).
 
 ### MSBuild tasks
 
