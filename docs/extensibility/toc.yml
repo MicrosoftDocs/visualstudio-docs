@@ -31,7 +31,7 @@
       href: migration/no-code-extensions.md
     - name: 'Example: ImageOptimizer'
       href: migration/samples.md
-    - name: Downtargeting to Visual Studio 2019
+    - name: Targeting previous versions
       href: migration/downtargeting-to-vs2019.md
     - name: Breaking API list
       href: migration/breaking-api-list.md
@@ -39,8 +39,8 @@
       href: migration/removed-api-list.md
     - name: Migrated PIA
       href: migration/migrated-pia.md
-    - name: Frequently asked questions
-      href: migration/frequently-asked-questions.md
+    - name: Updating extensions FAQ
+      href: migration/updating-extensions-faq.md
   - name: What's New Visual Studio 2019 SDK
   # Auto-expanded node
     items:
