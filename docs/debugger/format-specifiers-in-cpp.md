@@ -98,6 +98,7 @@ The following tables describe the format specifiers that you can use in Visual S
 |nr|Suppress "Raw View" item|
 |nvo|Show "Raw View" item for numeric values only|
 |!|raw format, ignoring any data type views customizations|\<customized representation>|4|
+|handle|Displays information about win32 handle|0x000000000000009c| Displays useful information about handle such as thread ID, etc. |
 
 ::: moniker-end
 
