@@ -61,7 +61,7 @@ This tool creates update layouts for Visual Studio 2017 (15.9) and onwards. The 
 * **Verify**: Use this command to determine if the layout folder is corrupted.
 * **Fix**: Use this command to fix a corrupted layout folder, including replacing any missing packages from the layout folder.
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 #### Options
 
@@ -108,7 +108,7 @@ Before creating the layout, you can find out the total size of the download and 
 
 Let's walk through a few examples of how to preview, generate, and regenerate a minimal layout:
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 - First, here's an example of how to preview a layout for Visual Studio Enterprise versions 16.4.0 to 16.4.4 for English only.
 

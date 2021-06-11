@@ -43,7 +43,7 @@ Other supported bootstrappers include vs_feedbackclient.exe, vs_teamexplorer.exe
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 Start by downloading the Visual Studio 2019 bootstrapper from either the [Visual Studio downloads page](https://visualstudio.microsoft.com/downloads) or the [Visual Studio 2019 Releases](https://docs.microsoft.com/visualstudio/releases/2019/history#installing-an-earlier-release) page for your chosen version and edition of Visual Studio.  Your setup executable&mdash;or to be more specific, a bootstrapper file&mdash;will match or be similar to one of the following:
 
@@ -64,7 +64,7 @@ Other supported bootstrappers include [vs_teamexplorer.exe](https://download.vis
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 >[!TIP]
 >If you previously downloaded a bootstrapper file and want to verify what version it is, here's how. In Windows, open File Explorer, right-click the bootstrapper file, choose **Properties**, choose the **Details** tab, and then view the **Product version** number. To match that number to a release of Visual Studio, see [Visual Studio 2019 Releases](https://docs.microsoft.com/visualstudio/releases/2019/history).
@@ -110,7 +110,7 @@ xcopy /e c:\VSLayout \\server\products\VS2017
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 ```cmd
 xcopy /e c:\VSLayout \\server\products\VS2019
@@ -221,7 +221,7 @@ Administrators can deploy Visual Studio onto client workstations as part of an i
 > If you do not use `--wait`, the `vs_enterprise.exe` process exits before the installation is complete and returns an inaccurate exit code that doesn't represent the state of the install operation.
 >
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 > [!IMPORTANT]
 > For offline installations, if you get an error message that says "A product matching the following parameters cannot be found", make sure that you are using the `--noweb` switch with version 16.3.5 or later.
 >

@@ -58,7 +58,7 @@ The base `response.json` file in a layout should look similar to the following e
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 ```json
 {
@@ -113,7 +113,7 @@ The following example installs Visual Studio Enterprise with six common workload
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 ```json
 {

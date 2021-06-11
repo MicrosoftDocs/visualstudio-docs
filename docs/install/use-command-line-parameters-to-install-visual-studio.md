@@ -40,7 +40,7 @@ To get the bootstrapper for Visual Studio 2017 version 15.9, go to the [**Visual
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 You can get the Visual Studio 2019 bootstrapper from either the [Visual Studio downloads page](https://visualstudio.microsoft.com/downloads) or the [Visual Studio 2019 Releases](https://docs.microsoft.com/visualstudio/releases/2019/history#installing-an-earlier-release) page for your chosen version and edition of Visual Studio. Your setup file --or bootstrapper-- will match or be similar to one of the following:
 
@@ -60,7 +60,7 @@ You can get the Visual Studio 2019 bootstrapper from either the [Visual Studio d
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 >[!TIP]
 >If you previously downloaded a bootstrapper file and want to verify its version, here's how. In Windows, open File Explorer, right-click the bootstrapper file, choose **Properties**, choose the **Details** tab, and then view the **Product version** number. To match that number to a release of Visual Studio, refer to the [Visual Studio 2019 Releases](https://docs.microsoft.com/visualstudio/releases/2019/history) page.

@@ -62,7 +62,7 @@ To completely remove all installations of Visual Studio 2017 and the Visual Stud
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 1. Find the **Visual Studio Installer** on your computer.
 

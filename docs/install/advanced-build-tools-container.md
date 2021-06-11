@@ -21,7 +21,7 @@ The sample Dockerfile in [Install Build Tools into a container](build-tools-cont
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 The sample Dockerfile in [Install Build Tools into a container](build-tools-container.md) always uses the [microsoft/dotnet-framework:4.8](https://hub.docker.com/r/microsoft/dotnet-framework) image based on the latest microsoft/windowsservercore image and the latest Visual Studio Build Tools installer. If you publish this image to a [Docker registry](https://azure.microsoft.com/services/container-registry) for others to pull, this image might be okay for many scenarios. However, in practice it's more common to be specific about what base image you use, what binaries you download, and which tool versions you install.
 
@@ -105,7 +105,7 @@ ENTRYPOINT ["C:\\BuildTools\\Common7\\Tools\\VsDevCmd.bat", "&&", "powershell.ex
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 ```dockerfile
 # escape=`
@@ -157,7 +157,7 @@ docker build -t buildtools2017:15.6.27428.2037 -t buildtools2017:latest -m 2GB .
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 ```shell
 docker build -t buildtools2019:16.0.28714.193 -t buildtools2019:latest -m 2GB .
@@ -191,7 +191,7 @@ The command 'cmd /S /C C:\TEMP\Install.cmd C:\TEMP\vs_buildtools.exe ...' return
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 ```shell
 > docker build -t buildtools2019:16.0.28714.193 -t buildtools2019:latest -m 2GB .
