@@ -24,9 +24,8 @@ ms.workload:
 
 ## To create a project for visual web parts
 
-::: moniker range="=vs-2017"
 1. On the menu bar, choose **File** >**New** > **Project**.
-
+::: moniker range="=vs-2017"
      The **New Project** dialog box opens.
 
 2. In the **New Project** dialog box, under either **Visual C#** or **Visual Basic**, expand the **Office/SharePoint** node, and then choose the **SharePoint Solutions** category.
