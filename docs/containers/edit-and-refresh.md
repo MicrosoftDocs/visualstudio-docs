@@ -35,6 +35,12 @@ To debug apps in a local Docker container, the following tools must be installed
 
 ::: moniker-end
 
+::: moniker range="vs-2022"
+
+* [Visual Studio 2022 Preview]() with the Web Development workload installed
+
+::: moniker-end
+
 To run Docker containers locally, you must have a local Docker client. You can use [Docker for Windows](https://www.docker.com/get-docker), which uses Hyper-V and requires Windows 10.
 
 Docker containers are available for .NET Framework and .NET Core projects. Let's look at two examples. First, we look at a .NET Core web app. Then, we look at a .NET Framework console app.
