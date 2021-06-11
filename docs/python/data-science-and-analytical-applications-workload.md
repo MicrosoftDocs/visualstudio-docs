@@ -32,8 +32,8 @@ The Data Science and Analytical Applications workload, which you select and inst
 Python and R are two of the primary scripting languages used for data science. Both languages are easy to learn and are supported by a rich ecosystem of packages. Those packages address a wide range of scenarios such as data acquisition, cleaning, model training, deployment, and plotting. F# is also a powerful functional-first .NET language that’s suited for a wide variety of data processing tasks.
 ::: moniker-end
 
-::: moniker range="vs-2019"
-Python is a primary scripting language used for data science. Python is easy to learn and is supported by a rich ecosystem of packages. Those packages address a wide range of scenarios such as data acquisition, cleaning, model training, deployment, and plotting. F# is also a powerful functional-first .NET language that's suited for a wide variety of data processing tasks. (For the R language we recommend [Azure Notebooks](https://notebooks.azure.com).)
+::: moniker range=">=vs-2019"
+Python is a primary scripting language used for data science. Python is easy to learn and is supported by a rich ecosystem of packages. Those packages address a wide range of scenarios such as data acquisition, cleaning, model training, deployment, and plotting. F# is also a powerful functional-first .NET language that's suited for a wide variety of data processing tasks.)
 ::: moniker-end
 
 <!--Note link on the image because this one is large -->
@@ -43,7 +43,7 @@ Python is a primary scripting language used for data science. Python is easy to 
 
 By default, the workload installs the following options, which you can modify in the summary section for the workload in the Visual Studio installer:
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 - F# desktop language support
 - Python:
   - Python language support

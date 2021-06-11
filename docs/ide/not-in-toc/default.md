@@ -1,6 +1,8 @@
 ---
 title: Default page for F1 help
 description: "Default page for F1 help requests for Visual Studio"
+ms.prod: visual-studio
+ms.technology: 
 ms.date: 03/25/2021
 ms.topic: error-reference
 ms.custom: contperf-fy21q3

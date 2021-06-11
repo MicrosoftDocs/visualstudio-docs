@@ -48,6 +48,9 @@ In addition, Bridge to Kubernetes provides a way to replicate environment variab
 > [!NOTE]
 > For the duration of the connection to the cluster (plus an additional 15 minutes), Bridge to Kubernetes runs a process called *EndpointManager* with admin permissions on your local computer.
 
+> [!NOTE]
+> You can debug in parallel, with multiple services, but you need to launch as many instances of Visual Studio as services you want to debug. Make sure that your services listen on different ports locally, and then configure and debug them separately. Isolation is not supported in this scenario.
+
 ## Additional configuration with KubernetesLocalProcessConfig.yaml
 
 The `KubernetesLocalProcessConfig.yaml` file allows you to replicate environment variables and mounted files available to your pods in your cluster. When using Visual Studio for Bridge to Kubernetes development, the KubernetesLocalConfig.yaml file must be located in the same directory as the project file for the service you are redirecting. For more information on the additional configuration options, see [Configure Bridge to Kubernetes][using-config-yaml].
