@@ -99,43 +99,42 @@ Before adding Visual Studio 2022 support to your extension, we strongly recommen
 
    Be sure to pick package versions that match the minimum version of VS you are targeting.
 
-   Note that some assemblies that are not unique to the VS SDK (for example, Newtonsoft.Json.dll) may have been discoverable through a simple `<Reference Include="Newtonsoft.Json" />` reference before Visual Studio 2022 but in Visual Studio 2022 requires a package reference instead because in Visual Studio 2022
-   we remove some VS runtime and SDK directories from MSBuild's default assembly search path.
+   Some assemblies that are not unique to the VS SDK (for example, Newtonsoft.Json.dll) may have been discoverable through a simple `<Reference Include="Newtonsoft.Json" />` reference before Visual Studio 2022 but in Visual Studio 2022 requires a package reference instead because in Visual Studio 2022, we remove some Visual Studio runtime and SDK directories from MSBuild's default assembly search path.
 
-   Note that in switching from direct assembly references to NuGet package references, you may pick up additional assembly references and analyzer packages due to NuGet automatically installing the transitive closure of dependencies. This is generally a Good Thing, but may result in additional warnings being flagged during your build. Please work through these and resolve as many as you can, and consider suppressing those you cannot using in-code `#pragma warning disable <id>` regions.
+   In switching from direct assembly references to NuGet package references, you might pick up additional assembly references and analyzer packages due to NuGet automatically installing the transitive closure of dependencies. This is generally OK, but might result in additional warnings being flagged during your build. Work through these warnings and resolve as many as you can, and consider suppressing those warnings you cannot resolve using in-code `#pragma warning disable <id>` regions.
 
 ## Use shared projects for multi-targeting
 
 [Shared projects](/xamarin/cross-platform/app-fundamentals/shared-projects?tabs=windows) are a project type that were introduced in Visual Studio 2015. Shared projects in Visual Studio enable source code files to be shared between multiple projects and build differently using conditional compilation symbols and unique sets of references.
 
-Because Visual Studio 2022 requires a distinct set of reference assemblies from all prior VS versions, our guidance is to use shared projects to conveniently multi-target your extension to pre-Visual Studio 2022 and Visual Studio 2022+, giving you code sharing but distinct references.
+Because Visual Studio 2022 requires a distinct set of reference assemblies from all prior VS versions, our guidance is to use shared projects to conveniently multi-target your extension to pre-Visual Studio 2022 and Visual Studio 2022 (and later versions), giving you code sharing, but distinct references.
 
-In the context of Visual Studio extensions you could have one VSIX project for Visual Studio 2022 and later and one VSIX project for Visual Studio 2019 and earlier. Each of these would contain just a `source.extension.vsixmanifest` and the package references to either the 16.x SDK or the 17.x SDK. These VSIX projects would also have a shared project Reference to a new shared project that will host all your source code that can be shared across the two VS versions.
+In the context of Visual Studio extensions, you could have one VSIX project for Visual Studio 2022 and later and one VSIX project for Visual Studio 2019 and earlier. Each of these projects would contain just a `source.extension.vsixmanifest` and the package references to either the 16.x SDK or the 17.x SDK. These VSIX projects would also have a shared project reference to a new shared project that will host all your source code that can be shared across the two VS versions.
 
 As a starting point, for this document we will assume you already have a VSIX project that targets Visual Studio 2019 and that you want your extension to work on Visual Studio 2022.
 
 All these steps can be completed with Visual Studio 2019.
 
-1. If you have not already done so, [modernize your projects](#modernize-your-vsix-project) to ease steps later in this migration.
+1. If you have not already done so, [modernize your projects](#modernize-your-vsix-project) to ease steps later in this update process.
 
 1. Add a new shared project to your solution for each existing project that references the VS SDK.
    ![Add New Project command](media/shared-projects/add-new-project.png)
    ![New project template](media/shared-projects/new-shared-project-template.png)
 
-1. Add a reference from each VS SDK referencing project to its shared project counterpart.
+1. Add a reference from each VS SDK-referencing project to its shared project counterpart.
    ![Add shared project Reference](media/shared-projects/add-shared-project-reference.png)
 
 1. Move all the source code (including .cs, .resx) from each VS SDK-referencing project to its shared project counterpart.
 Leave the `source.extension.vsixmanifest` file in the VSIX project.
    ![Shared project contains all source files](media/shared-projects/source-files-in-shared-project.png)
 
-1. Metadata files (release notes, license, icons, etc.) and VSCT files should be moved to a shared directory and added as linked files to the VSIX project.
+1. Metadata files (release notes, license, icons, and so on) and VSCT files should be moved to a shared directory and added as linked files to the VSIX project.
    ![Add metadata and VSCT files as linked files](media/shared-projects/add-linked-items-to-vsix.png)
     - For Metadata files, set BuildAction to `Content` and set Include in VSIX to `true`.
 
       ![Include metadata files in VSIX](./media/shared-projects/include-metadata-files-in-vsix.png)
     - For VSCT files, set BuildAction to `VSCTCompile` and don't include in VSIX.
-      VS might complain that this is not supported, but you can manually change the build action by unloading the project and changing `Content` to `VSCTCompile`
+      Visual Studio might complain that this setting is not supported, but you can manually change the build action by unloading the project and changing `Content` to `VSCTCompile`
 
     ```diff
     -<Content Include="..\SharedFiles\VSIXProject1Package.vsct">
@@ -159,14 +158,13 @@ This document assumes you have completed the steps to [factor your Visual Studio
 
 Proceed to add Visual Studio 2022 support to your extension with these steps, which may be completed using Visual Studio 2019:
 
-1. Add a New VSIX Project to your solution. This will be the project that targets Visual Studio 2022.
-Remove any source code that came with the template, but *keep the `source.extension.vsixmanifest` file*.
+1. Add a New VSIX Project to your solution. This will be the project that targets Visual Studio 2022. Remove any source code that came with the template, but *keep the `source.extension.vsixmanifest` file*.
 
 1. On your new VSIX project, Add a shared project reference to the same shared project that your Visual Studio 2019-targeting VSIX references.
 
-   ![A solution with one shared project and two VSIX projects](media/add-Visual Studio 2022-target/shared-project-with-two-heads.png)
+   ![A solution with one shared project and two VSIX projects](media/add-dev17-target/shared-project-with-two-heads.png)
 
-1. Verify that the new VSIX project builds properly. You may need to add references to match your original VSIX project to resolve any compiler errors.
+1. Verify that the new VSIX project builds properly. You might need to add references to match your original VSIX project to resolve any compiler errors.
 
 1. For managed VS extensions, update your package references from 16.x (or earlier) to the 17.x package versions in your Visual Studio 2022-targeted project file using the NuGet Package Manager or directly editing the project file:
 
@@ -177,9 +175,9 @@ Remove any source code that came with the template, but *keep the `source.extens
     +<PackageReference Include="Microsoft.VSSDK.BuildTools" Version="17.0.63-preview.1" />
     ```
 
-   Note: use versions that are actually available from nuget.org. The ones used above are just for demonstration purposes.
+   Note, you'll use versions that are actually available from nuget.org. The ones used previously are just for demonstration purposes.
 
-   In many cases, package IDs have changed. Please refer to the [package/assembly mapping table](migrated-pia.md) for a list of changes in Visual Studio 2022.
+   In many cases, package IDs have changed. Refer to the [package/assembly mapping table](migrated-pia.md) for a list of changes in Visual Studio 2022.
 
    Extensions written in C++ do not yet have an available SDK to compile with.
 
@@ -196,8 +194,8 @@ Remove any source code that came with the template, but *keep the `source.extens
    </InstallationTarget>
    ```
 
-   Note that in Visual Studio 2019, the designer for this file does not expose the new `ProductArchitecture` element,
-   so this change will need to be done with an xml editor, which you can access via the Open With command in Solution Explorer.
+   In Visual Studio 2019, the designer for this file does not expose the new `ProductArchitecture` element,
+   so this change will need to be done with an xml editor, which you can access via the **Open With** command in **Solution Explorer**.
 
    This `ProductArchitecture` element is critical. Visual Studio 2022 will *not* install your extension without it.
 
@@ -205,17 +203,14 @@ Remove any source code that came with the template, but *keep the `source.extens
    | - | - | - |
    | ProductArchitecture | X86, AMD64 | The platforms that are supported by this VSIX. Not case sensitive. One platform  per element and one element per  InstallTarget. For product versions less than 17.0 the default value is x86 and can be omitted.  For product versions 17.0 and greater this element is required and there is no default value. For Visual Studio 2022 the only valid content for this element is "amd64". |
 
-1. Make any other adjustments necessary in your source.extension.vsixmanifest to match the one that targets Visual Studio 2019 (if any).
-It is critical that the Id of the VSIX, in the `Identity` element of the manifest, is identical for both extensions.
+1. Make any other adjustments necessary in your source.extension.vsixmanifest to match the one that targets Visual Studio 2019 (if any). It is critical that the Id of the VSIX, in the `Identity` element of the manifest, is identical for both extensions.
 
-At this point you have a Visual Studio 2022-targeted extension VSIX. You should build your Visual Studio 2022-targeted VSIX project and [work through any build breaks that appear](#handle-breaking-api-changes). If you do not have build breaks in your Visual Studio 2022-targeted VSIX project,
+At this point, you have a Visual Studio 2022-targeted extension VSIX. You should build your Visual Studio 2022-targeted VSIX project and [work through any build breaks that appear](#handle-breaking-api-changes). If you do not have build breaks in your Visual Studio 2022-targeted VSIX project,
 congratulations: you're ready for testing!
 
 ## Handle breaking API changes
 
-If you do not have build breaks in your Visual Studio 2022-targeted VSIX project, congratulations: you're ready for [testing](#test-your-extension)! The remainder of this section discusses how to correct the build breaks you might encounter while migrating your Visual Studio 2019 code to Visual Studio 2022.
-
-There are [breaking API changes](breaking-api-list.md) in Visual Studio 2022 that may require changes to your code from when it ran on prior versions. Please review that document for tips on how to update your code for each of them.
+There are [breaking API changes](breaking-api-list.md) in Visual Studio 2022 that may require changes to your code from when it ran on prior versions. Review that document for tips on how to update your code for each of them.
 
 When adapting your code, we recommend you use [conditional compilation](#use-conditional-compilation-symbols) so that your code can continue to support pre-Visual Studio 2022 while adding support for Visual Studio 2022.
 
@@ -249,7 +244,7 @@ You can then use that symbol as a pre-processor directive (`#if`) as shown in th
 #endif
 ```
 
-In some cases we can simply use `var` to avoid naming the type, thus avoiding the need for `#if` regions. The above snippet can also be written as:
+In some cases, you can simply use `var` to avoid naming the type, thus avoiding the need for `#if` regions. The above snippet can also be written as:
 
 ```cs
     Guid myGuid = new Guid("{633FBA02-719B-40E7-96BF-0899767CD104}");
@@ -258,7 +253,7 @@ In some cases we can simply use `var` to avoid naming the type, thus avoiding th
     shell.LoadUILibrary(myGuid, myFlags, out var ptrLib);
 ```
 
-When using the `#if` syntax, notice how we can use the language service context dropdown in the document shown below to change syntax highlighting and the other help the language service offers to focus attention on one target VS version for our extension vs. another.
+When using the `#if` syntax, notice how you can use the language service context dropdown in the document shown below to change syntax highlighting and the other help the language service offers to focus attention on one target Visual Studio version for our extension vs. another.
 
 ![Conditional compilation in a shared project](media/conditional-compilation/conditional-compilation-if-region.png)
 
@@ -293,9 +288,9 @@ Great, so you've added a Visual Studio 2022 target to your extension and tested 
 
 Publishing your extension to the [Visual Studio Marketplace](https://marketplace.visualstudio.com/) is a great way to get new users to find and install your extension. Whether your extension targets Visual Studio 2022 exclusively or targets older VS versions too, the Marketplace is there to support you.
 
-In the future the Marketplace will allow you to upload multiple VSIXs to just one Marketplace listing, allowing you to upload your Visual Studio 2022-targeted VSIX and a pre-Visual Studio 2022 VSIX. Your users will automatically get the right VSIX for the VS version they have installed, when using the VS extension manager.
+In the future, the Marketplace will allow you to upload multiple VSIXs to just one Marketplace listing, allowing you to upload your Visual Studio 2022-targeted VSIX and a pre-Visual Studio 2022 VSIX. Your users will automatically get the right VSIX for the VS version they have installed, when using the VS extension manager.
 
-For the preview releases of Visual Studio 2022 the Marketplace will only support a single VSIX file per Marketplace listing. While Visual Studio 2022 is in preview we encourage you to have a separate Visual Studio 2022 only Marketplace listing for your extension. That way you can iterate your Visual Studio 2022 extension as needed without impacting your customers on earlier versions of Visual Studio. You can also mark the extension as 'preview' to set the expectation it will be likely be less reliable, even the source of that unreliability is Visual Studio 2022, than your mainstream extension.
+For the preview releases of Visual Studio 2022, the Marketplace will only support a single VSIX file per Marketplace listing. While Visual Studio 2022 is in preview we encourage you to have a separate Visual Studio 2022 only Marketplace listing for your extension. That way you can iterate your Visual Studio 2022 extension as needed without impacting your customers on earlier versions of Visual Studio. You can also mark the extension as 'preview' to set the expectation it will likely be less reliable, even if the source of that unreliability is Visual Studio 2022, than your mainstream extension.
 
 ### Custom installer
 
@@ -312,18 +307,18 @@ You can share your extension over a LAN or any other way. If you target Visual S
 #### Dependencies
 
 If your VSIX specifies another VSIX as a dependency via the
-`<dependency>` element each referenced VSIX needs to install in the same targets and product architectures as your VSIX. If a dependent VSIX does not support the targeted installation of Visual Studio your VSIX will fail. It's ok for the dependent VSIX to support more targets and architectures than yours, just not less. This will likely mean the deployment and distribution approach of VSIX with dependencies should
+`<dependency>` element, each referenced VSIX needs to install in the same targets and product architectures as your VSIX. If a dependent VSIX does not support the targeted installation of Visual Studio, your VSIX will fail. It's ok for the dependent VSIX to support more targets and architectures than yours, just not less. This restriction means that the deployment and distribution approach of a VSIX with dependencies should
 mirror that of their dependents.
 
 ## Q & A
 
-**Q**: My extension does not require any interop changes as it just provides data (i.e. templates), can I create a single extension that includes Visual Studio 2022 as well?
+**Q**: My extension does not require any interop changes as it just provides data (for example, templates), can I create a single extension that includes Visual Studio 2022 as well?
 
 **A**: Yes!  See [Extensions without running code](#extensions-without-running-code) for more info about this.
 
 **Q**: A NuGet dependency is bringing in old interop assemblies and causing clashing classes.
 
-**A**: Add the following line to your CS Project to avoid duplicate assemblies:
+**A**: Add the following line to your .csproj file to avoid duplicate assemblies:
 
 ```xml
     <PackageReference Include="<Name of offending assembly>" ExcludeAssets="compile" PrivateAssets="all" />
@@ -331,6 +326,10 @@ mirror that of their dependents.
 
 This will prevent package references from importing the old version of the assembly from other dependencies.
 
-**Q**: My commands and hotkeys are not working in VS after switching my source files to a shared project.
+**Q**: My commands and hotkeys are not working in Visual Studio after switching my source files to a shared project.
 
 **A**: [Step 2.4](samples.md#step-2---refactor-source-code-into-a-shared-project) of the Image Optimizer sample shows how to add VSCT files as linked items so that they are compiled into your VSCT file.
+
+## Next steps
+
+Follow a step-by-step example, [ImageOptimizer](samples.md), with links to the project and code changes for each step.
