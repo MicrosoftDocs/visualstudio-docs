@@ -7,6 +7,7 @@ ms.topic: conceptual
 ms.author: tglee
 author: TerryGLee
 ms.manager: jillfra
+monikerRange: "<=vs-2019"
 ---
 # Connect to projects in Team Explorer
 

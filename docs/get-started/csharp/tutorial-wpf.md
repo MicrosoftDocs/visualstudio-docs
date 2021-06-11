@@ -66,9 +66,9 @@ When you create an application in Visual Studio, you first create a project and 
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
-1. Open Visual Studio 2019.
+1. Open Visual Studio.
 
 1. On the start window, choose **Create new project**.
 

@@ -33,7 +33,7 @@ Windows 8 and later is required to run profiling tools with the debugger (**Diag
 
    If you don't see the **Windows Console Application** project template, choose the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box. The Visual Studio Installer launches. Choose the **Desktop development with C++** workload, and then choose **Modify**.
    ::: moniker-end
-   ::: moniker range="vs-2019"
+   ::: moniker range=">=vs-2019"
    If the start window is not open, choose **File** > **Start Window**.
 
    On the start window, choose **Create a new project**.

@@ -59,7 +59,7 @@ Save the following example Dockerfile to a new file on your disk. If the file is
    # escape=`
 
    # Use the latest Windows Server Core image with .NET Framework 4.7.2.
-   FROM mcr.microsoft.com/dotnet/framework/sdk:4.7.2-windowsservercore-ltsc2019
+   FROM mcr.microsoft.com/dotnet/framework/sdk:4.8-windowsservercore-ltsc2019
 
    # Restore the default Windows shell for correct batch processing.
    SHELL ["cmd", "/S", "/C"]
@@ -95,7 +95,7 @@ Save the following example Dockerfile to a new file on your disk. If the file is
    
    ::: moniker-end
 
-   ::: moniker range="vs-2019"
+   ::: moniker range=">=vs-2019"
 
    ```dockerfile
    # escape=`
@@ -152,7 +152,7 @@ Save the following example Dockerfile to a new file on your disk. If the file is
 
    ::: moniker-end
 
-   ::: moniker range="vs-2019"
+   ::: moniker range=">=vs-2019"
 
    ```shell
    docker build -t buildtools2019:latest -m 2GB .
@@ -180,7 +180,7 @@ Now that you have created an image, you can run it in a container to do both int
 
    ::: moniker-end
 
-   ::: moniker range="vs-2019"
+   ::: moniker range=">=vs-2019"
 
    ```shell
    docker run -it buildtools2019

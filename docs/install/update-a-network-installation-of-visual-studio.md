@@ -84,7 +84,7 @@ Depending on how your network environment is configured, an update can either be
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 * Administrators can update client deployments of Visual Studio without any user interaction with two separate commands:
   * First, update the Visual Studio installer: <br>```vs_enterprise.exe --quiet --update```

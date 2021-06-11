@@ -5,7 +5,7 @@ description: A list of released versions and build numbers for Visual Studio, so
 author: TerryGLee
 ms.author: tglee
 manager: jmartens
-ms.date: 05/25/2021
+ms.date: 06/08/2021
 ms.topic: reference
 ms.workload:
 - multiple
@@ -15,6 +15,17 @@ open_to_public_contributors: false
 ---
 # Visual Studio build numbers and release dates
 
+::: moniker range="vs-2022"
+
+## Visual Studio 2022 Preview
+
+The following table lists the build numbers and release dates for Visual Studio 2022 Preview, to date.
+
+| **Version**| **Channel** | **Release date** | **Build version** |
+| ---------------------- | ----------- | ---------------- | ----------------- |
+
+::: moniker-end
+
 ::: moniker range="vs-2019"
 
 ## Visual Studio 2019
@@ -23,6 +34,10 @@ The following table lists the build numbers and release dates for Visual Studio 
 
 | **Version**| **Channel** | **Release date** | **Build version** |
 | ---------------------- | ----------- | ---------------- | ----------------- |
+| 16.10.1 | Release | June 8, 2021 | 16.10.31402.337 |
+| 16.9.7 | Release | June 8, 2021 | 16.9.31328.270 |
+| 16.7.16 | Release | June 8, 2021 | 16.7.31327.30 |
+| 16.4.23| Release | June 8, 2021 | 16.4.31327.141 |
 | 16.11.0 | Preview 1 | May 25, 2021 | 16.11.31320.298 |
 | 16.10.0 | Release | May 25, 2021 | 16.10.31321.278 |
 | 16.10.0 | Preview 4 | May 18, 2021 | 16.10.31313.381 |

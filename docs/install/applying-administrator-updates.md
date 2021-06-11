@@ -48,7 +48,7 @@ The title of each administrator update describes both the applicable version r
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 * **Visual Studio 2019 version 16.7.0 to 16.7.12 update** classified as a “Security Update” will apply to any Visual Studio 2019 edition on the client between versions 16.7.0 through 16.7.12, and it will update those client editions to 16.7.12.  
 
@@ -75,7 +75,7 @@ There are a few configuration options that are can be used to tailor the Visual 
   - The client machine must have, at some point, already run the bootstrapper from that network layout location. Ideally, the original client install would have happened using the bootstrapper from the network layout, but it's also possible to have just installed an update using an updated bootstrapper in that same network location. Either one of these actions would embed, on the client machine, a connection with that particular layout location.   
   - The network layout location (where the client is connected to) must be [updated to contain the updated product bits](../install/update-a-network-installation-of-visual-studio.md) that the administrator update wants to deploy. 
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 * **Servicing baseline stickiness**: As described above, administrator feature updates advance a Visual Studio installation to a more current minor version of the product. Sometimes, however, Visual Studio users need to remain at a particular stable and secure servicing baseline level, and they want to control when their machines advances to a more current minor version. To configure a client machine to remain on a servicing baseline and ignore undesired administrator feature updates sent to it, you’ll need to create and set the **BaselineStickinessVersions2019** Reg_SZ data value to a string that represents the preferred baseline that the client machine should snap to and stay on. The string can contain an allowable servicing baseline version such as **16.7.0**.  
 

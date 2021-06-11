@@ -21,7 +21,7 @@ ms.technology: vs-installation
 ---
 # Modify Visual Studio workloads, components, and language packs
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 It's easy to modify Visual Studio so that it includes only what you want, when you want it. To do so, open the Visual Studio Installer to add or remove workloads and components.
 
@@ -65,7 +65,7 @@ To make modifications to your installation, you need to launch the Visual Studio
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 1. Find the **Visual Studio Installer** on your computer.
 
@@ -118,7 +118,7 @@ To make modifications to your installation, you need to launch the Visual Studio
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
  Workloads contain the features you need for the programming language or platform that you're using. Use workloads to modify Visual Studio so that it supports the work you want to do, when you want to do it.
 
