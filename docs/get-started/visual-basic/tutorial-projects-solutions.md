@@ -31,6 +31,13 @@ In this introductory article, we'll explore what it means to create a *solution*
 
 ::: moniker-end
 
+::: moniker range="vs-2022"
+
+> [!TIP]
+> If you haven't already installed Visual Studio Preview, go to the [Visual Studio 2022 Preview downloads](https://visualstudio.microsoft.com/vs/preview/vs2022) page to install it for free.
+
+::: moniker-end
+
 We'll construct a solution and project from scratch as an educational exercise to understand the concept of a project. In your general use of Visual Studio, you'll likely use some of the various project *templates* that Visual Studio offers when you create a new project.
 
 > [!NOTE]

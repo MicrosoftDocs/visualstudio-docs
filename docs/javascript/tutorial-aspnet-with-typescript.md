@@ -22,9 +22,15 @@ If you haven't already installed Visual Studio, go to the [Visual Studio downloa
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads) page to install it for free.
+
+::: moniker-end
+
+::: moniker range="vs-2022"
+
+If you haven't already installed Visual Studio 2022 Preview, go to the [Visual Studio 2022 Preview downloads](https://visualstudio.microsoft.com/vs/preview/vs2022) page to install it for free.
 
 ::: moniker-end
 
@@ -214,7 +220,7 @@ In this tutorial, you begin with a simple project containing code for an ASP.NET
 1. Follow instructions in [npm package management](../javascript/npm-package-management.md#aspnet-core-projects) to add a `package.json` file to your project. This adds npm support to your project.
 
    >[!NOTE]
-   > For ASP.NET Core projects, you can also use [Library Manager](https://docs.microsoft.com/aspnet/core/client-side/libman/?view=aspnetcore-3.1&preserve-view=true) or yarn instead of npm to install client-side JavaScript and CSS files.
+   > For ASP.NET Core projects, you can also use [Library Manager](/aspnet/core/client-side/libman/) or yarn instead of npm to install client-side JavaScript and CSS files.
 
 1. In this example, add a TypeScript definition file for jQuery to your project. Include the following in your *package.json* file.
 
