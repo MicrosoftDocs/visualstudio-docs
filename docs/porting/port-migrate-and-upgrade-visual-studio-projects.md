@@ -259,7 +259,7 @@ If you don't see a project or file type listed here that should be, consult the 
 
 ## Migrate a project
 
-While we try to maintain compatibility with previous versions, there can be changes that aren't compatible with previous versions. (See [Platform Targeting and Compatibility](/visualstudio/releases/2019/compatibility) for which project types are supported in Visual Studio 2022.) When this happens, a newer version of Visual Studio won't load the project or offer a migration path. You might have to maintain that project in a previous version of Visual Studio.
+While we try to maintain compatibility with previous versions, there can be changes that aren't compatible with previous versions. <!--(See [Platform Targeting and Compatibility](/visualstudio/releases/2019/compatibility) for which project types are supported in Visual Studio 2022.)--> When this happens, a newer version of Visual Studio won't load the project or offer a migration path. You might have to maintain that project in a previous version of Visual Studio.
 
 Sometimes, the newer version of Visual Studio can open a project, but it must update or migrate the project in a way that might render it incompatible with previous versions. Visual Studio uses a number of criteria to determine whether such migration is necessary:
 
