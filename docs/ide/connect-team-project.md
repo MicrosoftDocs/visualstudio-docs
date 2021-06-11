@@ -7,6 +7,7 @@ ms.topic: conceptual
 ms.author: tglee
 author: TerryGLee
 ms.manager: jillfra
+monikerRange: "<=vs-2019"
 ---
 # Connect to projects in Team Explorer
 
@@ -90,42 +91,6 @@ How you use Team Explorer to connect to a project depends on the version of Visu
       ![Screenshot of the 'Solutions and Folders' notification from Team Explorer in Visual Studio 2019 version 16.7 and earlier](../get-started/media/open-proj-repo-solutions-folders.png)
 
    If you do not have a solution file in your repo, a 'No Solutions Found' message appears. However, you can double-click any file from the folder menu to open it in the Visual Studio code editor.
-
-::: moniker-end
-
-::: moniker range=">=vs-2022"
-
-Team Explorer connects Visual Studio to Team Foundation version control (TFVC) repositories, and to projects hosted on [Azure DevOps Services](/azure/devops/user-guide/what-is-azure-devops-services) or an on-premises [Azure DevOps Server](/azure/devops/user-guide/about-azure-devops-services-tfs?view=azure-devops&preserve-view=true) (formerly known as TFS). You can manage source code, work items, and builds.
-
-> [!IMPORTANT]
-> In Visual Studio 2022 Preview, the new Git version control experience is now on by default. If you'd like to learn more about how it compares with Team Explorer, see the [**Side-by-side comparison of Git and Team Explorer**](git-team-explorer-feature-comparison.md) page.
->
-> However, if you prefer to continue to use Team Explorer, go to **Tools** > **Options** > **Environment** > **Preview Features** and then toggle the **New Git user experience** checkbox.
-
-1. Open Visual Studio 2022 Preview.
-
-1. On the start window, select **Clone a repository**.
-
-   ![Screenshot of the Clone a Repository dialog in Visual Studio 2019 version 16.8 and later, for Azure DevOps](../ide/media/vs-2019/clone-repository.png)
-
-1. In the **Browse a repository** section, select **Azure DevOps**.
-
-    ![Screenshot of the 'Browse a repository' section of the The 'Connect to a Project' dialog box in Visual Studio 2019 version 16.8 and and later](../ide/media/vs-2019/browse-repository-azure-devops.png)
-
-1. If you see a sign-in window, sign in to your account.
-
-1. In the **Connect to a Project** dialog box, choose the repo that you want to connect to, and then select **Clone**.
-
-      ![Screenshot of the 'Connect to a Project' dialog box that's generated from Visual Studio 2019 version 16.8 and later](../ide/media/vs-2019/connect-project-azure-devops.png)
-
-      > [!TIP]
-      > If you don't see a pre-populated list of repos to connect to, select **Add Azure DevOps Server** to enter a server URL. (Alternatively, you might see a "No servers found" prompt that includes links to add an existing Azure DevOps Server or to create an Azure DevOps account.)
-
-   Next, Visual Studio opens **Solution Explorer** that shows the folders and files.
-
-1. Select the **Team Explorer** tab to view the Azure DevOps actions.
-
-      ![Screenshot of the 'Team Explorer' dialog box that's generated from Visual Studio 2019 version 16.8 and later](../ide/media/vs-2019/team-explorer-azure-devops.png)
 
 ::: moniker-end
 
