@@ -12,9 +12,9 @@ ms.workload:
 ---
 # SDK reference packages
 
-[!INCLUDE(../includes/preview-note.md)]
+[!INCLUDE [preview-note](../includes/preview-note.md)]
 
-The easiest way to author VS extensions is with a reference to the
+The easiest way to author Visual Studio extensions is with a reference to the
 [`Microsoft.VisualStudio.Sdk` NuGet package](https://www.nuget.org/packages/microsoft.visualstudio.sdk).
 This package is available for targeting Visual Studio 2017 (15.0), Visual Studio 2019 (16.0, 16.9), and now Visual Studio 2022.
 
@@ -24,7 +24,7 @@ When referencing specific other SDK packages, these packages may vary across maj
 Note that many interop assemblies were embeddable prior to Visual Studio 2022. Beginning in Visual Studio 2022, embedding is no longer required or supported.
 Please *reference* our interop assemblies instead of linking them.
 
-The following table provides a mapping from assemblies or packages your pre-Visual Studio 2022 extension may already be referencing to the new package ID to reference when targeting Visual Studio 2022. In some cases, assemblies are now available in NuGet packages that previously were only available from a local VS installation.
+The following table provides a mapping from assemblies or packages your pre-Visual Studio 2022 extension may already be referencing to the new package ID to reference when targeting Visual Studio 2022. In some cases, assemblies are now available in NuGet packages that previously were only available from a local Visual Studio installation.
 
 Pre-Visual Studio 2022 | Visual Studio 2022
 --|--

@@ -12,7 +12,7 @@ ms.workload:
 ---
 # ImageOptimizer - Update a Visual Studio extension step by step
 
-[!INCLUDE(../includes/preview-note.md)]
+[!INCLUDE [preview-note](../includes/preview-note.md)]
 
 This guide will show all the steps required for adding Visual Studio 2022 support while maintaining Visual Studio 2019 support using the Image Optimizer extension as a case study.  
 This is meant to be a thorough guide with git commit links to each step, but you are free to see the finalized PR here: 
@@ -69,7 +69,7 @@ Supporting Visual Studio 2022 requires adding a new shared project that will con
 
    [git commit e8e941e](https://github.com/madskristensen/ImageOptimizer/pull/46/commits/e8e941e5a5482cc15f5b9e7e4f1727f5cab5b12c)
 
-   ![Add Shared Project reference](media/shared-projects/add-shared-project-reference.png)
+   :::image type="content" source="media/shared-projects/add-shared-project-reference.png" alt-text="Add shared project reference" lightbox="media/shared-projects/add-shared-project-reference":::
 
 1. Move your source code files (cs, xaml, resx) to the new shared project **except** for the following:
     - `source.extension.vsixmanifest`
@@ -85,6 +85,7 @@ Supporting Visual Studio 2022 requires adding a new shared project that will con
 1. Now move all the metadata, VSCT files, linked files, and external tools/libraries to a shared location and add them back as linked items to the VSIX project. **Do not** remove `source.extension.vsixmanifest`.
 
    [git commit 73ba920 - Moving files](https://github.com/madskristensen/ImageOptimizer/pull/46/commits/73ba920b7db0bdb7c4d66aa9bc932c268efd49cb)
+
    [git commit d5e36b2 - Adding external tools/libraries](https://github.com/madskristensen/ImageOptimizer/pull/46/commits/d5e36b2d047290d38ffc977511510bc03e257f13)
 
    1. For this project we need to move the extension icon, VSCT file, and external tools to our new folder `ImageOptimizer\Resources`. Copy them to the shared folder and remove them from the VSIX project.
@@ -129,19 +130,19 @@ See [Add Visual Studio 2022 target](update-visual-studio-extension.md#add-a-visu
 1. Add a new VSIX project to your solution.
 1. Remove any additional source code in the new project except for `source.extension.vsixmanifest.`
 
-   ![Create a new VSIX project](media/samples/dev17-vsix-initial.png)
+   ![Create a new VSIX project](media/samples/visual-studio-2022-vsix-initial.png)
 
 1. Add a reference to your shared project.
 
    [git commit dd49cb2](https://github.com/madskristensen/ImageOptimizer/pull/46/commits/dd49cb227b52c46206bf4be5c25790ac0377568d)
 
-   ![Add shared project reference](media/samples/dev17-add-shared-project.png)
+   ![Add shared project reference](media/samples/visual-studio-2022-add-shared-project.png)
 
 1. Add the linked files from your Visual Studio 2019 VSIX project and validate that their "Build Action" and "Include in VSIX" properties match. Also copy over your `source.extension.vsixmanifest` file, we'll be modifying it later to support Visual Studio 2022.
 
    [git commit 98c43ee](https://github.com/madskristensen/ImageOptimizer/pull/46/commits/98c43ee6fbe912c38a1275542c44c65e11d7dbd9)
 
-   ![Add Linked files to VSIX project](media/samples/dev17-add-linked-files.png)
+   ![Add Linked files to VSIX project](media/samples/visual-studio-2022-add-linked-files.png)
 
 1. An attempted build shows that we are missing a reference to `System.Windows.Forms`. Simply add it to our Visual Studio 2022 project and rebuild.
 
@@ -156,7 +157,7 @@ See [Add Visual Studio 2022 target](update-visual-studio-extension.md#add-a-visu
    [git commit d581fc3](https://github.com/madskristensen/ImageOptimizer/pull/46/commits/d581fc3c954974124dc7e31e5ecc85f78f7828ab)
 
    > [!NOTE]
-   > These are the latest versions available when this guide was created. It's recommended you get the latest versions available.*
+   > These are the latest versions available when this guide was created. It's recommended you get the latest versions available.
    >
    > ```diff
    > -<PackageReference Include="Microsoft.VisualStudio.SDK" Version="16.0.206" />

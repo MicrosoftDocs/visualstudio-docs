@@ -10,9 +10,9 @@ monikerRange: "vs-2022"
 ms.workload:
 - vssdk
 ---
-# Visual Studio 2022 SDK Removed APIs
+# Visual Studio 2022 SDK removed APIs
 
-[!INCLUDE(../includes/preview-note.md)]
+[!INCLUDE [preview-note](../includes/preview-note.md)]
 
 The APIs below have been removed from the Visual Studio SDK and can no longer be used, please see each section for details on how to update your code.
 
@@ -86,7 +86,7 @@ The Asynchronous solution load (ASL) and lightweight solution load (LSL) feature
 * `IVsAsynchronousProjectCreate` - Entire interface
 * `IVsAsynchronousProjectCreateUI` - Entire interface
 
-### Enums, Properties, and UI Contexts
+### Enums, properties, and UI contexts
 
 * `VSHPROPID_ProjectUnloadStatus` - Enum: `UNLOADSTATUS_LoadPendingIfNeeded`
 * `VSHPROPID_DemandLoadDependencies`

@@ -12,7 +12,7 @@ ms.workload:
 ---
 # Breaking API changes in Visual Studio 2022
 
-[!INCLUDE(../includes/preview-note.md)]
+[!INCLUDE [preview-note](../includes/preview-note.md)]
 
 If you're migrating an extension to Visual Studio 2022, the breaking changes listed here might affect you.
 
@@ -41,9 +41,9 @@ versions of Visual Studio using the previous interop assembly.
 
 This has a few very important advantages that will make updating your extension to Visual Studio 2022 easier:
 
-1. Any broken APIs will become build time errors making them easier to find and fix.
-1. You only need to update code that uses an API that was broken in Visual Studio 2022.
-1. You will not be able to accidentally use the old, now broken API.
+- Any broken APIs will become build time errors making them easier to find and fix.
+- You only need to update code that uses an API that was broken in Visual Studio 2022.
+- You will not be able to accidentally use the old, now broken API.
 
 Overall, these changes will result in a more stable version of Visual Studio for all users. The major drawback of this approach is that your
 managed assemblies will not be able to run in both Visual Studio 2019 and Visual Studio 2022 without compiling your code once for each target Visual Studio version.
@@ -76,7 +76,7 @@ Sample error:
 
 > error CS0433: The type 'IVsDpiAware' exists in both 'Microsoft.VisualStudio.Interop, Version=17.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' and 'Microsoft.VisualStudio.Shell.Interop.16.0.DesignTime, Version=16.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'
 
-Refer to our [reference assembly remapping table](migrated-pia.md) to see which assembly name is the preferred name in Visual Studio 2022.
+Refer to our [reference assembly remapping table](migrated-assemblies.md) to see which assembly name is the preferred name in Visual Studio 2022.
 Considering the two assemblies named in the sample error above and looking at this table, notice that `Microsoft.VisualStudio.Interop` is the new assembly name. The fix then would be to remove the reference to `Microsoft.VisualStudio.Shell.Interop.16.0.DesignTime` from the project.
 
 In some cases we offer a Visual Studio 2022-versioned package for the deprecated assembly that contains type forwarders. When this is available, you have the option to *upgrade* your package reference to the Visual Studio 2022 version instead of removing it. The type forwarders will resolve the error from the compiler.
@@ -93,7 +93,7 @@ Sample error:
 
 > Error CS0012 The type 'IVsTextViewFilter' is defined in an assembly that is not referenced. You must add a reference to assembly 'Microsoft.VisualStudio.TextManager.Interop, Version=7.1.40304.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'
 
-Using the [reference assembly remapping table](migrated-pia.md), you can confirm that the requested assembly is in fact not one you should have to reference.
+Using the [reference assembly remapping table](migrated-assemblies.md), you can confirm that the requested assembly is in fact not one you should have to reference.
 
 The best fix is to update your dependency to a version that compiled against the Visual Studio 2022 SDK so the removed interop assembly is no longer requested by the compiler.
 

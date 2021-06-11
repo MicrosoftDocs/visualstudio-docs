@@ -16,13 +16,13 @@
     - name: 'Example: ImageOptimizer'
       href: migration/samples.md
     - name: Targeting previous versions
-      href: migration/downtargeting-to-vs2019.md
+      href: migration/target-previous-versions.md
     - name: Breaking API list
       href: migration/breaking-api-list.md
     - name: Removed API list
       href: migration/removed-api-list.md
     - name: Migrated PIA
-      href: migration/migrated-pia.md
+      href: migration/migrated-assemblies.md
   - name: What's New Visual Studio 2019 SDK
   # Auto-expanded node
     items:
