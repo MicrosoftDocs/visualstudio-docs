@@ -28,13 +28,23 @@ Before you install versions side-by-side, review the following conditions:
 
 ::: moniker-end
 
-::: moniker range=">= vs-2019"
+::: moniker range="vs-2019"
 
 Before you install versions side-by-side, review the following conditions:
 
 * If you use Visual Studio 2019 to open a solution that was created in Visual Studio 2017, you can later open and modify the solution again in the earlier version as long as you haven't implemented any features that are specific to Visual Studio 2019.
 
 * If you try to use Visual Studio 2019 to open a solution that was created in Visual Studio 2017 or an earlier version, you might need to modify your projects and files to be compatible with Visual Studio 2019. For more information, see the [Port, migrate, and upgrade Visual Studio Projects](../porting/port-migrate-and-upgrade-visual-studio-projects.md) page.
+
+::: moniker-end
+
+::: moniker range=">=vs-2022"
+
+Before you install versions side-by-side, review the following conditions:
+
+* If you use Visual Studio 2022 to open a solution that was created in Visual Studio 2017 or Visual Studio 2019, you can later open and modify the solution again in the earlier version as long as you haven't implemented any features that are specific to Visual Studio 2022.
+
+* If you try to use Visual Studio 2022 to open a solution that was created in Visual Studio 2019 or an earlier version, you might need to modify your projects and files to be compatible with Visual Studio 2022. For more information, see the [Port, migrate, and upgrade Visual Studio Projects](../porting/port-migrate-and-upgrade-visual-studio-projects.md) page.
 
 ::: moniker-end
 
@@ -52,12 +62,17 @@ When upgrading from one minor version of Visual Studio to the next, the Visual S
 
 ::: moniker-end
 
-::: moniker range=">=vs-2019"
+::: moniker range="vs-2019"
 
 1. Download the Visual Studio 2019 bootstrapper file from either the [Visual Studio downloads page](https://visualstudio.microsoft.com/downloads) or the [Visual Studio 2019 Releases](https://docs.microsoft.com/visualstudio/releases/2019/history#installing-an-earlier-release) page for the minor version that you would like to install side-by-side with your existing version of Visual Studio.
 
 ::: moniker-end
 
+::: moniker range=">=vs-2022"
+
+1. Download the Visual Studio 2022 bootstrapper file from either the [Visual Studio downloads page](https://visualstudio.microsoft.com/downloads) or the [Visual Studio 2022 Releases](https://docs.microsoft.com/visualstudio/releases/2022/history) page for the minor version that you would like to install side-by-side with your existing version of Visual Studio.
+
+::: moniker-end
 
 2. Open the command prompt in administrator mode. To do this, open the Windows Start menu, type "cmd", right-click on the Command Prompt search result, and select **Run as administrator**. In the command prompt, change the directory to the folder where your Visual Studio bootstrapper file is located.
 
@@ -78,11 +93,23 @@ When upgrading from one minor version of Visual Studio to the next, the Visual S
    * vs_professional.exe for Visual Studio Professional
    * vs_community.exe for Visual Studio Community
 
-::: moniker-end 
+::: moniker-end
   
+::: moniker range="vs-2019"
+
    ```
    vs_Enterprise.exe --installPath "C:\Program Files (x86)\Microsoft Visual Studio\<AddNewPath>"
    ```
+
+::: moniker-end
+  
+::: moniker range=">=vs-20229"
+
+   ```
+   vs_Enterprise.exe --installPath "C:\Program Files\Microsoft Visual Studio\<AddNewPath>"
+   ```
+
+::: moniker-end
 
 4. Follow the installer dialogs to select the components you need for your installation. For more information, see [Install Visual Studio](install-visual-studio.md#step-4---choose-workloads).
 
@@ -96,12 +123,12 @@ For language-specific information, see the appropriate topic in the following ta
 
 ::: moniker range="vs-2017"
 
-| Language | Topic |
-|--------------|-----------|
+| Language     | Topic                                                                                                                                                   |
+|--------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Visual Basic | [Application Page, Project Designer (Visual Basic)](../ide/reference/application-page-project-designer-visual-basic.md?view=vs-2017&preserve-view=true) |
-| Visual C# | [Application Page, Project Designer (C#)](../ide/reference/application-page-project-designer-csharp.md?view=vs-2017&preserve-view=true) |
-| Visual F# | [Develop with Visual F# in Visual Studio](../ide/fsharp-visual-studio.md?view=vs-2017&preserve-view=true) |
-|C++ | [How to: Modify the target framework and platform toolset](/cpp/build/how-to-modify-the-target-framework-and-platform-toolset/) |
+| Visual C#    | [Application Page, Project Designer (C#)](../ide/reference/application-page-project-designer-csharp.md?view=vs-2017&preserve-view=true)                 |
+| Visual F#    | [Develop with Visual F# in Visual Studio](../ide/fsharp-visual-studio.md?view=vs-2017&preserve-view=true)                                               |
+| C++          | [How to: Modify the target framework and platform toolset](/cpp/build/how-to-modify-the-target-framework-and-platform-toolset/)                         |
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
@@ -115,12 +142,12 @@ For language-specific information, see the appropriate topic in the following ta
 
 ::: moniker range=">= vs-2019"
 
-| Language | Topic |
-|--------------|-----------|
-| Visual Basic | [Application Page, Project Designer (Visual Basic)](../ide/reference/application-page-project-designer-visual-basic.md) |
-| Visual C# | [Application Page, Project Designer (C#)](../ide/reference/application-page-project-designer-csharp.md) |
-| Visual F# | [Develop with Visual F# in Visual Studio](../ide/fsharp-visual-studio.md) |
-| C++ | [How to: Modify the target framework and platform toolset](/cpp/build/how-to-modify-the-target-framework-and-platform-toolset/) |
+| Language     | Topic                                                                                                                           |
+|--------------|---------------------------------------------------------------------------------------------------------------------------------|
+| Visual Basic | [Application Page, Project Designer (Visual Basic)](../ide/reference/application-page-project-designer-visual-basic.md)         |
+| Visual C#    | [Application Page, Project Designer (C#)](../ide/reference/application-page-project-designer-csharp.md)                         |
+| Visual F#    | [Develop with Visual F# in Visual Studio](../ide/fsharp-visual-studio.md)                                                       |
+| C++          | [How to: Modify the target framework and platform toolset](/cpp/build/how-to-modify-the-target-framework-and-platform-toolset/) |
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 

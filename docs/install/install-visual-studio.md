@@ -23,9 +23,15 @@ ms.technology: vs-installation
 ---
 # Install Visual Studio
 
-::: moniker range=">=vs-2019"
+::: moniker range="vs-2019"
 
 Welcome to Visual Studio 2019! In this version, it's easy to choose and install just the features you need. And because of its reduced minimum footprint, it installs quickly and with less system impact.
+
+::: moniker-end
+
+::: moniker range=">=vs-2022"
+
+Welcome to Visual Studio 2022! In this version, it's easy to choose and install just the features you need. And because of its reduced minimum footprint, it installs quickly and with less system impact.
 
 ::: moniker-end
 
@@ -38,9 +44,15 @@ Welcome to a new way to install Visual Studio! In this version, we've made it ea
 > [!NOTE]
 > This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Install Visual Studio for Mac](/visualstudio/mac/installation/).
 
-::: moniker range=">=vs-2019"
+::: moniker range="vs-2019"
 
 Want to know more about what else is new in this version? See our [release notes](/visualstudio/releases/2019/release-notes/).
+
+::: moniker-end
+
+::: moniker range=">=vs-2022"
+
+Want to know more about what else is new in this version? See our [release notes](/visualstudio/releases/2022/release-notes/).
 
 ::: moniker-end
 
@@ -68,10 +80,19 @@ Before you begin installing Visual Studio:
 
 ::: moniker-end
 
-::: moniker range=">=vs-2019"
+::: moniker range="vs-2019"
 
 1. Check the [system requirements](/visualstudio/releases/2019/system-requirements). These requirements help you know whether your computer supports Visual Studio 2019.
 
+::: moniker-end
+
+::: moniker range=">=vs-2022"
+
+1. Check the [system requirements](/visualstudio/releases/2022/system-requirements). These requirements help you know whether your computer supports Visual Studio 2022.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
 1. Apply the latest Windows updates. These updates ensure that your computer has both the latest security updates and the required system components for Visual Studio.
 
 1. Reboot. The reboot ensures that any pending installs or updates don't hinder the Visual Studio install.
@@ -86,9 +107,15 @@ For questions about running previous versions of Visual Studio side by side with
 
 ::: moniker-end
 
-::: moniker range=">=vs-2019"
+::: moniker range="vs-2019"
 
 For questions about running previous versions of Visual Studio side by side with Visual Studio 2019, see the [Visual Studio 2019 Platform Targeting and Compatibility](/visualstudio/releases/2019/compatibility/) page.
+
+::: moniker-end
+
+::: moniker range=">=vs-2022"
+
+For questions about running previous versions of Visual Studio side by side with Visual Studio 2022, see the [Visual Studio 2022 Platform Targeting and Compatibility](/visualstudio/releases/2019/compatibility/) page.
 
 ::: moniker-end
 

@@ -27,7 +27,7 @@ We designed Visual Studio 2017 to work well in a variety of network and computer
 
 ::: moniker range=">=vs-2019"
 
-We designed Visual Studio 2019 to work well in a variety of network and computer configurations. While we recommend that you try the [Visual Studio web installer](https://visualstudio.microsoft.com/downloads)&mdash;which is a small file that allows you to stay current with all the latest fixes and features&mdash;we understand that you might not be able to.
+We designed Visual Studio 2019 and later to work well in a variety of network and computer configurations. While we recommend that you try the [Visual Studio web installer](https://visualstudio.microsoft.com/downloads)&mdash;which is a small file that allows you to stay current with all the latest fixes and features&mdash;we understand that you might not be able to.
 
 ::: moniker-end
 
@@ -78,26 +78,39 @@ You must have an internet connection to complete this step.
 
 ::: moniker range="vs-2017"
 
-To get the latest bootstrapper for Visual Studio 2017 version 15.9, go to the [Visual Studio previous versions](https://visualstudio.microsoft.com/vs/older-downloads/) page and download one of the following bootstrapper files: 
+To get the latest bootstrapper for Visual Studio 2017 version 15.9, go to the [Visual Studio previous versions](https://visualstudio.microsoft.com/vs/older-downloads/) page and download one of the following bootstrapper files:
 
-| Edition | Filename |
-|-------------|-----------------------|
-|Visual Studio Professional 2017 version 15.9 | vs_professional.exe |
-|Visual Studio Enterprise 2017 version 15.9 | vs_enterprise.exe |
-|Visual Studio Build Tools 2017 version 15.9  | vs_buildtools.exe |
+| Edition                                      | Filename            |
+|----------------------------------------------|---------------------|
+| Visual Studio Professional 2017 version 15.9 | vs_professional.exe |
+| Visual Studio Enterprise 2017 version 15.9   | vs_enterprise.exe   |
+| Visual Studio Build Tools 2017 version 15.9  | vs_buildtools.exe   |
 
 ::: moniker-end
 
-::: moniker range=">=vs-2019"
+::: moniker range="vs-2019"
 
 Start by downloading the Visual Studio 2019 bootstrapper from either the [Visual Studio downloads page](https://visualstudio.microsoft.com/downloads) or the [Visual Studio 2019 Releases](https://docs.microsoft.com/visualstudio/releases/2019/history#installing-an-earlier-release) page for your chosen version and edition of Visual Studio. Your setup file&mdash;or bootstrapper&mdash;will match or be similar to one of the following:
 
-| Edition                    | File                                                                    |
-|----------------------------|-------------------------------------------------------------------------|
+| Edition                         | File                                                                                                                                                                                                                               |
+|---------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Visual Studio 2019 Community    | [vs_community.exe](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=community&rel=16&utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=offline+install&utm_content=download+vs2019)       |
 | Visual Studio 2019 Professional | [vs_professional.exe](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=professional&rel=16&utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=offline+install&utm_content=download+vs2019) |
 | Visual Studio 2019 Enterprise   | [vs_enterprise.exe](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=enterprise&rel=16&utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=offline+install&utm_content=download+vs2019)     |
-| Visual Studio 2019 Build Tools   | [vs_buildtools.exe](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=buildtools&rel=16&utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=offline+install&utm_content=download+vs2019)     |
+| Visual Studio 2019 Build Tools  | [vs_buildtools.exe](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=buildtools&rel=16&utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=offline+install&utm_content=download+vs2019)     |
+
+::: moniker-end
+
+::: moniker range=">=vs-2022"
+
+>![!TIP]
+> Released versions of Visual Studio 2022 are not yet available, the bootstrappers below are for the preview release of Visual Studio 2022.
+Start by downloading the Visual Studio 2022 bootstrapper from the [Visual Studio downloads page](https://aka.ms/vs2022preview).
+
+| Edition                    | Download                                                                                  |
+|----------------------------|-------------------------------------------------------------------------------------------|
+| Visual Studio 2022 Enterprise   | [vs_enterprise.exe](https://aka.ms/vs/17/preview/bootstrapper/vs_enterprise.exe)     |
+| Visual Studio 2022 Professional | [vs_professional.exe](https://aka.ms/vs/17/preview/bootstrapper/vs_professional.exe) |
 
 ::: moniker-end
 
@@ -108,10 +121,17 @@ Start by downloading the Visual Studio 2019 bootstrapper from either the [Visual
 
 ::: moniker-end
 
-::: moniker range=">=vs-2019"
+::: moniker range="vs-2019"
 
 >[!TIP]
 >If you previously downloaded a bootstrapper file and want to verify its version, here's how. In Windows, open File Explorer, right-click the bootstrapper file, choose **Properties**, choose the **Details** tab, and then view the **Product version** number. To match that number to a release of Visual Studio, refer to the [Visual Studio 2019 Releases](https://docs.microsoft.com/visualstudio/releases/2019/history) page.
+
+::: moniker-end
+
+::: moniker range=">=vs-2022"
+
+>[!TIP]
+>If you previously downloaded a bootstrapper file and want to verify its version, here's how. In Windows, open File Explorer, right-click the bootstrapper file, choose **Properties**, choose the **Details** tab, and then view the **Product version** number. To match that number to a release of Visual Studio, refer to the [Visual Studio 2022 Releases](https://docs.microsoft.com/visualstudio/releases/2022/history) page.
 
 ::: moniker-end
 

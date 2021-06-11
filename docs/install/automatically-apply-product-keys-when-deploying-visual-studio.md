@@ -17,6 +17,13 @@ ms.technology: vs-installation
 
 You can apply your product key programmatically as part of a script that is used to automate the deployment of Visual Studio. You can set a product key on a device programmatically either during an installation of Visual Studio or after an installation completes.
 
+::: moniker range=">=vs-2022"
+
+> [!IMPORTANT]
+> Visual Studio 2022 is currently in preview and during the preview period Visual Studio 2022 is available under an evaluation license which does not require product key to be applied.
+
+::: moniker-end
+
 ## Apply the license after installation
 
 ::: moniker range="vs-2017"
@@ -25,9 +32,15 @@ You can activate an installed version of Visual Studio with a product key by usi
 
 ::: moniker-end
 
-::: moniker range=">=vs-2019"
+::: moniker range="vs-2019"
 
 You can activate an installed version of Visual Studio with a product key by using the `StorePID.exe` utility on the target machines, in silent mode. `StorePID.exe` is a utility program that installs with Visual Studio 2019 at the following default location: <br> `C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE`
+
+::: moniker-end
+
+::: moniker range=">=vs-2022"
+
+You can activate an installed version of Visual Studio with a product key by using the `StorePID.exe` utility on the target machines, in silent mode. `StorePID.exe` is a utility program that installs with Visual Studio 2022 at the following default location: <br> `C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE`
 
 ::: moniker-end
 
@@ -50,13 +63,19 @@ The following example shows a command line for applying the license for Visual S
 
 ::: moniker-end
 
-::: moniker range=">=vs-2019"
+::: moniker range="vs-2019"
 
 The following example shows a command line for applying the license for Visual Studio 2019 Enterprise, which has an MPC of 09260, a product key of `AAAAA-BBBBB-CCCCC-DDDDDD-EEEEEE`, and assumes a default installation location:
 
 ```cmd
 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\StorePID.exe" AAAAA-BBBBB-CCCCC-DDDDDD-EEEEEE 09260
 ```
+
+::: moniker-end
+
+::: moniker range=">=vs-2022"
+
+Visual Studio 2022 is currently in preview and during the preview period Visual Studio 2022 is available under an evaluation license which does not require product key to be applied.
 
 ::: moniker-end
 
@@ -72,7 +91,7 @@ The following example shows a command line for applying the license for Visual S
 
 ::: moniker-end
 
-::: moniker range=">=vs-2019"
+::: moniker range="vs-2019"
 
 | Visual Studio Edition                | MPC   |
 |--------------------------------------|-------|
@@ -94,7 +113,7 @@ If `StorePID.exe` successfully applies the product key, it returns an `%ERRORLEV
 | `PID_ACTION_NOUPGRADE`    | 6    |
 
 > [!NOTE]
-> When you run a virtual instance of Visual Studio, make sure that you also virtualize the local AppData folder and the registry. To troubleshoot virtual instances, run `C:\Program Files (x86)\Microsoft Visual Studio\<version>\Common7\IDE\DDConfigCA.exe`.  
+> When you run a virtual instance of Visual Studio, make sure that you also virtualize the local AppData folder and the registry. To troubleshoot virtual instances, run `<Visual Studio installation directory>\Common7\IDE\DDConfigCA.exe`.  
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 

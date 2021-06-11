@@ -84,11 +84,19 @@ Depending on how your network environment is configured, an update can either be
 
 ::: moniker-end
 
-::: moniker range=">=vs-2019"
+::: moniker range="vs-2019"
 
 * Administrators can update client deployments of Visual Studio without any user interaction with two separate commands:
   * First, update the Visual Studio installer: <br>```vs_enterprise.exe --quiet --update```
   * Then, update the Visual Studio application itself: <br>```vs_enterprise.exe update --installPath "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise" --quiet --wait --norestart```
+
+::: moniker-end
+
+::: moniker range=">=vs-2022"
+
+* Administrators can update client deployments of Visual Studio without any user interaction with two separate commands:
+  * First, update the Visual Studio installer: <br>```vs_enterprise.exe --quiet --update```
+  * Then, update the Visual Studio application itself: <br>```vs_enterprise.exe update --installPath "C:\Program Files\Microsoft Visual Studio\2022\Enterprise" --quiet --wait --norestart```
 
 ::: moniker-end
 
