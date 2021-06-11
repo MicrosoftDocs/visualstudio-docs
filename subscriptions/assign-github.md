@@ -28,6 +28,10 @@ For more information about managing Visual Studio subscriptions, check out these
 > If Visual Studio subscriptions with GitHub Enterprise are assigned by Visual Studio subscription admins without purchasing first, GitHub will not be notified that you wish to create a GitHub Enterprise account.  **A purchase of at least one** Visual Studio subscription with GitHub Enterprise should be made before subscriptions are assigned.
 
 ## Moving to Visual Studio with GitHub Enterprise
+</br>
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWEAsv]
+
 If your organization purchases Visual Studio subscriptions with GitHub Enterprise bundles after standard Visual Studio Enterprise and Visual Studio Professional subscriptions have been assigned, the admin portal contains a feature to help you move your existing subscribers to the corresponding Visual Studio Enterprise with GitHub Enterprise and/or Visual Studio Professional with GitHub Enterprise subscriptions.  For example, subscribers with Visual Studio Professional subscriptions will move to Visual Studio Professional with GitHub Enterprise subscriptions. In the left bar “Overview” panel you will see the following tile:
 
    > [!div class="mx-imgBorder"]

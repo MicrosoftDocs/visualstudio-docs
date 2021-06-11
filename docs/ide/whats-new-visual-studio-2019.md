@@ -2,7 +2,7 @@
 title: "What's new in Visual Studio 2019"
 titleSuffix: ""
 description: "Learn about the new features in Visual Studio 2019."
-ms.date: 03/19/2021
+ms.date: 05/28/2021
 helpviewer_keywords:
   - "Visual Studio, what's new"
   - "what's new [Visual Studio]"
@@ -18,7 +18,7 @@ ms.workload:
 ---
 # What's new in Visual Studio 2019
 
-**Updated for the [16.9 release](/visualstudio/releases/2019/release-notes/)**
+**Updated for the [16.10 release](/visualstudio/releases/2019/release-notes/)**
 
 >[!div class="button"]
 >[Download Visual Studio 2019](https://visualstudio.microsoft.com/downloads)
@@ -222,9 +222,12 @@ Meanwhile, here is a new feature that's currently in the works.
 
    Although the new Git version control experience is now on by default in Visual Studio 2019 [version 16.8](/visualstudio/releases/2019/release-notes/), we continue to add features to enhance the experience in the newest Preview release.
 
-   For more information, see the [Git experience in Visual Studio](../version-control/git-with-visual-studio.md) page.
+   For more information, see the [Version control in Visual Studio](/visualstudio/version-control/) page.
 
-For more information about the Preview release&mdash;and a download link if you'd like to try it out&mdash;see the **[Visual Studio Preview](https://aka.ms/vspreview/)** page.
+For more information about the Preview release of Visual Studio 2019&mdash;and a download link if you'd like to try it out&mdash;see the **[Visual Studio Preview](https://aka.ms/vspreview/)** page.
+
+> [!TIP]
+> To learn more about our next version, see the **[Visual Studio 2022](https://devblogs.microsoft.com/visualstudio/visual-studio-2022/)** blog post.
 
 ## Give us feedback
 

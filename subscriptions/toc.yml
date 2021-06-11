@@ -161,7 +161,7 @@
     - name: Super admins and administrators
       href: admin-roles.md
     - name: Set agreement preferences
-      href: admin-prefs.md
+      href: admin-preferences.md
     - name: Overview
       href: using-admin-portal.md
     - name: Add monthly subscriptions
