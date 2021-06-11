@@ -274,7 +274,7 @@ However in some cases, a reference to a type that exists in distinct assemblies 
 To test an extension that targets Visual Studio 2022 you will need to have Visual Studio 2022 Preview installed.
 You will not be able to run 64-bit extensions on versions of Visual Studio prior to Visual Studio 2022 Preview.
 
-You can use Visual Studio 2022 Preview to build and test your extensions whether they target Visual Studio 2022 or an earlier version. When launching a VSIX project from Visual Studio 2022 an experimental instance of VS will be launched.
+You can use Visual Studio 2022 Preview to build and test your extensions whether they target Visual Studio 2022 or an earlier version. When launching a VSIX project from Visual Studio 2022 an experimental instance of Visual Studio will be launched.
 
 We strongly recommend you test with each version of Visual Studio that you intend the extension to support.
 
@@ -300,7 +300,7 @@ installer that comes with Visual Studio 2022 to install extensions to Visual Stu
 
 ### Network share
 
-You can share your extension over a LAN or any other way. If you target Visual Studio 2022 and pre-Visual Studio 2022, you will need to share you multiple VSIXs individually and give them filenames (or place them in unique folders) that help your users know which VSIX to install based on the version of VS they have installed.
+You can share your extension over a LAN or any other way. If you target Visual Studio 2022 and pre-Visual Studio 2022, you will need to share you multiple VSIXs individually and give them filenames (or place them in unique folders) that help your users know which VSIX to install based on the version of Visual Studio they have installed.
 
 ### Other considerations
 
