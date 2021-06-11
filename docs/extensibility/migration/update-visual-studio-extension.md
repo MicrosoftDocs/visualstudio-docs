@@ -42,7 +42,7 @@ Extensions with running code *must* be compiled specifically for Visual Studio 2
 Learn how to migrate your pre-Visual Studio 2022 extensions to Visual Studio 2022:
 
 1. [Modernize your projects](#modernize-your-vsix-project).
-1. [Refactor your source code into a shared project](#use-shared-projects-for-multitargeting) to allow for targeting Visual Studio 2022 and older versions.
+1. [Refactor your source code into a shared project](#use-shared-projects-for-multi-targeting) to allow for targeting Visual Studio 2022 and older versions.
 1. [Add a Visual Studio 2022-targeted VSIX project](#add-a-visual-studio-2022-target), and our [package/assembly remapping table](migrated-pia.md).
 1. [Making necessary code adjustments](#handle-breaking-api-changes).
 1. [Testing your Visual Studio 2022 extension](#test-your-extension).
@@ -155,7 +155,7 @@ Your project is now ready to add Visual Studio 2022 support.
 
 ## Add a Visual Studio 2022 target
 
-This document assumes you have completed the steps to [factor your Visual Studio extension with shared projects](shared-projects.md).
+This document assumes you have completed the steps to [factor your Visual Studio extension with shared projects](#use-shared-projects-for-multi-targeting).
 
 Proceed to add Visual Studio 2022 support to your extension with these steps, which may be completed using Visual Studio 2019:
 
@@ -319,7 +319,7 @@ mirror that of their dependents.
 
 **Q**: My extension does not require any interop changes as it just provides data (i.e. templates), can I create a single extension that includes Visual Studio 2022 as well?
 
-**A**: Yes!  See [No-code extensions](#no-code-extensions) for more info about this.
+**A**: Yes!  See [Extensions without running code](#extensions-without-running-code) for more info about this.
 
 **Q**: A NuGet dependency is bringing in old interop assemblies and causing clashing classes.
 

@@ -129,19 +129,19 @@ See [Add Visual Studio 2022 target](update-visual-studio-extension.md#add-a-visu
 1. Add a new VSIX project to your solution.
 1. Remove any additional source code in the new project except for `source.extension.vsixmanifest.`
 
-   ![Create a new VSIX project](media/samples/Visual Studio 2022-vsix-initial.png)
+   ![Create a new VSIX project](media/samples/dev17-vsix-initial.png)
 
 1. Add a reference to your shared project.
 
    [git commit dd49cb2](https://github.com/madskristensen/ImageOptimizer/pull/46/commits/dd49cb227b52c46206bf4be5c25790ac0377568d)
 
-   ![Add shared project reference](media/samples/Visual Studio 2022-add-shared-project.png)
+   ![Add shared project reference](media/samples/dev17-add-shared-project.png)
 
 1. Add the linked files from your Visual Studio 2019 VSIX project and validate that their "Build Action" and "Include in VSIX" properties match. Also copy over your `source.extension.vsixmanifest` file, we'll be modifying it later to support Visual Studio 2022.
 
    [git commit 98c43ee](https://github.com/madskristensen/ImageOptimizer/pull/46/commits/98c43ee6fbe912c38a1275542c44c65e11d7dbd9)
 
-   ![Add Linked files to VSIX project](media/samples/Visual Studio 2022-add-linked-files.png)
+   ![Add Linked files to VSIX project](media/samples/dev17-add-linked-files.png)
 
 1. An attempted build shows that we are missing a reference to `System.Windows.Forms`. Simply add it to our Visual Studio 2022 project and rebuild.
 
