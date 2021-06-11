@@ -80,7 +80,7 @@ This walkthrough describes how to develop a native C++ DLL using test-first meth
 
 ## <a name="create_dll_project"></a> Create a DLL project
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 The following steps show how to create a DLL project in Visual Studio 2019.
 
