@@ -12,7 +12,7 @@ ms.workload:
 ---
 # SDK reference packages
 
-[!INCLUDE(preview-note)](../includes/preview-note.md)
+[!INCLUDE(../includes/preview-note.md)]
 
 The easiest way to author VS extensions is with a reference to the
 [`Microsoft.VisualStudio.Sdk` NuGet package](https://www.nuget.org/packages/microsoft.visualstudio.sdk).

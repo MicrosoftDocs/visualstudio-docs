@@ -12,13 +12,13 @@ ms.workload:
 ---
 # Breaking API changes in Visual Studio 2022
 
-[!INCLUDE(preview-note)](../includes/preview-note.md)
+[!INCLUDE(../includes/preview-note.md)]
 
 If you're migrating an extension to Visual Studio 2022, the breaking changes listed here might affect you.
 
 ## Reference assemblies no longer installed
 
-Many of the assemblies you may have been referencing that MSBuild resolved from a Visual Studio installation directory are no longer installed. You should use NuGet to acquire the Visual Studio SDK ref assemblies you need. See [Modernize projects](modernize-projects.md) for detailed steps on doing this.
+Many of the assemblies you may have been referencing that MSBuild resolved from a Visual Studio installation directory are no longer installed. You should use NuGet to acquire the Visual Studio SDK ref assemblies you need. See [Modernize projects](update-visual-studio-extension.md#modernize-your-vsix-projects) for detailed steps on doing this.
 
 ## Removed APIs
 

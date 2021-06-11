@@ -12,7 +12,7 @@ ms.workload:
 ---
 # ImageOptimizer - Update a Visual Studio extension step by step
 
-[!INCLUDE(preview-note)](../includes/preview-note.md)
+[!INCLUDE(../includes/preview-note.md)]
 
 This guide will show all the steps required for adding Visual Studio 2022 support while maintaining Visual Studio 2019 support using the Image Optimizer extension as a case study.  
 This is meant to be a thorough guide with git commit links to each step, but you are free to see the finalized PR here: 
@@ -22,7 +22,7 @@ We also have [additional samples](https://github.com/microsoft/VSExtensibility/w
 
 ## Step 1 - Modernize the project
 
-See [Modernize the project](modernize-projects.md).
+See [Modernize the project](update-visual-studio-extension.md#modernize-your-vsix-project).
 
 [git commit e052465](https://github.com/madskristensen/ImageOptimizer/pull/46/commits/e052465f30e6bed37e6d76eac016047095e8e18b)
 
@@ -55,7 +55,7 @@ Building the project succeeds and we get a few threading warnings. We fix these 
 
 ## Step 2 - Refactor source code into a shared project
 
-See [Shared projects](shared-projects.md).
+See [Shared projects](update-visual-studio-extension.md#use-shared-projects-for-multitargeting).
 
 Supporting Visual Studio 2022 requires adding a new shared project that will contain the extension's source code which will be shared between the Visual Studio 2019 and Visual Studio 2022 VSIX projects.
 
@@ -124,7 +124,7 @@ Supporting Visual Studio 2022 requires adding a new shared project that will con
 
 ## Step 3 - Add a Visual Studio 2022 VSIX project
 
-See [Add Visual Studio 2022 target](add-Visual Studio 2022-target.md).
+See [Add Visual Studio 2022 target](update-visual-studio-extension.md#add-a-visual-studio-2022-target).
 
 1. Add a new VSIX project to your solution.
 1. Remove any additional source code in the new project except for `source.extension.vsixmanifest.`
@@ -193,4 +193,8 @@ With this, building now produces both Visual Studio 2019 and Visual Studio 2022 
   - PeekF1
     - Allows peeking into a web browser with help information about the selected class/object.
   - FixMixedTabs
-    - Scans your documents and replaces tabs with spaces or vice versa 
+    - Scans your documents and replaces tabs with spaces or vice versa
+
+## Next steps
+
+Prepare to update your extension by reading this [start-to-finish guide](update-visual-studio-extension.md).
