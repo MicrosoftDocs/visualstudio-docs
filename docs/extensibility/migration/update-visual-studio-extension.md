@@ -41,7 +41,7 @@ Extensions with running code *must* be compiled specifically for Visual Studio 2
 
 Learn how to migrate your pre-Visual Studio 2022 extensions to Visual Studio 2022:
 
-1. [Modernize your projects](#modernize-your-vsix-projects).
+1. [Modernize your projects](#modernize-your-vsix-project).
 1. [Refactor your source code into a shared project](#use-shared-projects-for-multitargeting) to allow for targeting Visual Studio 2022 and older versions.
 1. [Add a Visual Studio 2022-targeted VSIX project](#add-a-visual-studio-2022-target), and our [package/assembly remapping table](migrated-pia.md).
 1. [Making necessary code adjustments](#handle-breaking-api-changes).
@@ -75,7 +75,7 @@ You can skip the steps in this article about using shared projects and multiple 
 
 If you author MSBuild tasks, be aware that in Visual Studio 2022 it is much more likely that they will be loaded in a 64-bit MSBuild.exe process. If your task requires a 32-bit process to run, refer to [this MSBuild documentation](../../msbuild/how-to-configure-targets-and-tasks.md#usingtask-attributes-and-task-parameters) to ensure MSBuild knows to load your task in a 32-bit process.
 
-## Modernize your VSIX projects
+## Modernize your VSIX project
 
 Before adding Visual Studio 2022 support to your extension, we strongly recommend taking this time to clean up and modernize your existing project before going further, including:
 
@@ -116,7 +116,7 @@ As a starting point, for this document we will assume you already have a VSIX pr
 
 All these steps can be completed with Visual Studio 2019.
 
-1. If you have not already done so, [modernize your projects](#modernize-your-vsix-projects) to ease steps later in this migration.
+1. If you have not already done so, [modernize your projects](#modernize-your-vsix-project) to ease steps later in this migration.
 
 1. Add a new shared project to your solution for each existing project that references the VS SDK.
    ![Add New Project command](media/shared-projects/add-new-project.png)

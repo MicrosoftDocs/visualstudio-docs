@@ -55,7 +55,7 @@ Building the project succeeds and we get a few threading warnings. We fix these 
 
 ## Step 2 - Refactor source code into a shared project
 
-See [Shared projects](update-visual-studio-extension.md#use-shared-projects-for-multitargeting).
+See [Shared projects](update-visual-studio-extension.md#use-shared-projects-for-multi-targeting).
 
 Supporting Visual Studio 2022 requires adding a new shared project that will contain the extension's source code which will be shared between the Visual Studio 2019 and Visual Studio 2022 VSIX projects.
 
@@ -120,7 +120,7 @@ Supporting Visual Studio 2022 requires adding a new shared project that will con
 
        - If the properties tool window prevents you from setting a specific Build Action, you can manually modify the csproj as done above and set the Build Action as needed.
 
-1. Build your project to validate your changes and fix any error/issues. Check the [Frequently Asked Questions](frequently-asked-questions.md) page for common issues.
+1. Build your project to validate your changes and fix any error/issues. Check the [Frequently Asked Questions](update-visual-studio-extension.md#q--a) section for common issues.
 
 ## Step 3 - Add a Visual Studio 2022 VSIX project
 
