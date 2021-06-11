@@ -113,4 +113,4 @@ A: Not at this time. Your customers can take advantage of [Azure dev/test pricin
 - [Microsoft 365 documentation](/microsoft-365/)
 
 ## Next steps
-See the [cloud billing FAQ](vscloud-billing-faq.md) for answers to common billing questions.
+See the [cloud billing FAQ](vscloud-billing-faq.yml) for answers to common billing questions.
