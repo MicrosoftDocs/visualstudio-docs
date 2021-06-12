@@ -225,7 +225,7 @@ preprocessor directive](/dotnet/csharp/language-reference/preprocessor-directive
 
 Your project(s) that target earlier Visual Studio versions will need a conditional compilation symbol that can then be used to fork the code to use the different APIs. You can set the conditional compilation symbol in the project properties page, as shown in the following image:
 
-![Setting conditional compilation symbols](media/update-visual-studio-extension/ccsymbols-image-2.png)
+![Setting conditional compilation symbols](media/update-visual-studio-extension/conditional-compilation-symbols.png)
 
 Be sure to set the compilation symbol for *all* configurations, since by default the symbol you enter may only apply to one configuration.
 
