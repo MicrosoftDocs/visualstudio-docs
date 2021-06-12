@@ -118,21 +118,21 @@ All these steps can be completed with Visual Studio 2019.
 1. If you have not already done so, [modernize your projects](#modernize-your-vsix-project) to ease steps later in this update process.
 
 1. Add a new shared project to your solution for each existing project that references the VS SDK.
-   ![Add New Project command](media/shared-projects/add-new-project.png)
-   ![New project template](media/shared-projects/new-shared-project-template.png)
+   ![Add New Project command](media/update-visual-studio-extension/add-new-project.png)
+   ![New project template](media/update-visual-studio-extension/new-shared-project-template.png)
 
 1. Add a reference from each VS SDK-referencing project to its shared project counterpart.
-   :::image type="content" source="media/shared-projects/add-shared-project-reference.png" alt-text="Add shared project reference" lightbox="media/shared-projects/add-shared-project-reference":::
+   :::image type="content" source="media/update-visual-studio-extension/add-shared-project-reference.png" alt-text="Add shared project reference" lightbox="media/update-visual-studio-extension/add-shared-project-reference.png":::
 
 1. Move all the source code (including .cs, .resx) from each VS SDK-referencing project to its shared project counterpart.
 Leave the `source.extension.vsixmanifest` file in the VSIX project.
-   ![Shared project contains all source files](media/shared-projects/source-files-in-shared-project.png)
+   ![Shared project contains all source files](media/update-visual-studio-extension/source-files-in-shared-project.png)
 
 1. Metadata files (release notes, license, icons, and so on) and VSCT files should be moved to a shared directory and added as linked files to the VSIX project.
-   ![Add metadata and VSCT files as linked files](media/shared-projects/add-linked-items-to-vsix.png)
+   ![Add metadata and VSCT files as linked files](media/update-visual-studio-extension/add-linked-items-to-vsix.png)
     - For Metadata files, set BuildAction to `Content` and set Include in VSIX to `true`.
 
-      ![Include metadata files in VSIX](./media/shared-projects/include-metadata-files-in-vsix.png)
+      ![Include metadata files in VSIX](./media/update-visual-studio-extension/include-metadata-files-in-vsix.png)
     - For VSCT files, set BuildAction to `VSCTCompile` and don't include in VSIX.
       Visual Studio might complain that this setting is not supported, but you can manually change the build action by unloading the project and changing `Content` to `VSCTCompile`
 
@@ -146,7 +146,7 @@ Leave the `source.extension.vsixmanifest` file in the VSIX project.
     +</VSCTCompile>
     ```
 
-      ![Set VSCT files as VSCTCompile](media/shared-projects/build-linked-vsct-files.png)
+      ![Set VSCT files as VSCTCompile](media/update-visual-studio-extension/build-linked-vsct-files.png)
 
 1. Build your project(s) to confirm you have not introduced any new errors.
 
@@ -162,7 +162,7 @@ Proceed to add Visual Studio 2022 support to your extension with these steps, wh
 
 1. On your new VSIX project, Add a shared project reference to the same shared project that your Visual Studio 2019-targeting VSIX references.
 
-   ![A solution with one shared project and two VSIX projects](media/add-visual-studio-2022-target/shared-project-with-two-heads.png)
+   ![A solution with one shared project and two VSIX projects](media/update-visual-studio-extension/shared-project-with-two-heads.png)
 
 1. Verify that the new VSIX project builds properly. You might need to add references to match your original VSIX project to resolve any compiler errors.
 
@@ -225,7 +225,7 @@ preprocessor directive](/dotnet/csharp/language-reference/preprocessor-directive
 
 Your project(s) that target earlier Visual Studio versions will need a conditional compilation symbol that can then be used to fork the code to use the different APIs. You can set the conditional compilation symbol in the project properties page, as shown in the following image:
 
-![Setting conditional compilation symbols](media/conditional-compilation/ccsymbols-image-2.png)
+![Setting conditional compilation symbols](media/update-visual-studio-extension/ccsymbols-image-2.png)
 
 Be sure to set the compilation symbol for *all* configurations, since by default the symbol you enter may only apply to one configuration.
 
@@ -255,7 +255,7 @@ In some cases, you can simply use `var` to avoid naming the type, thus avoiding 
 
 When using the `#if` syntax, notice how you can use the language service context dropdown in the document shown below to change syntax highlighting and the other help the language service offers to focus attention on one target Visual Studio version for our extension vs. another.
 
-![Conditional compilation in a shared project](media/conditional-compilation/conditional-compilation-if-region.png)
+![Conditional compilation in a shared project](media/update-visual-studio-extension/conditional-compilation-if-region.png)
 
 ### XAML sharing techniques
 

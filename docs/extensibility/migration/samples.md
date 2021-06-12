@@ -69,7 +69,7 @@ Supporting Visual Studio 2022 requires adding a new shared project that will con
 
    [git commit e8e941e](https://github.com/madskristensen/ImageOptimizer/pull/46/commits/e8e941e5a5482cc15f5b9e7e4f1727f5cab5b12c)
 
-   :::image type="content" source="media/shared-projects/add-shared-project-reference.png" alt-text="Add shared project reference" lightbox="media/shared-projects/add-shared-project-reference":::
+   :::image type="content" source="media/update-visual-studio-extension/add-shared-project-reference.png" alt-text="Add shared project reference" lightbox="media/update-visual-studio-extension/add-shared-project-reference.png":::
 
 1. Move your source code files (cs, xaml, resx) to the new shared project **except** for the following:
     - `source.extension.vsixmanifest`
@@ -136,7 +136,7 @@ See [Add Visual Studio 2022 target](update-visual-studio-extension.md#add-a-visu
 
    [git commit dd49cb2](https://github.com/madskristensen/ImageOptimizer/pull/46/commits/dd49cb227b52c46206bf4be5c25790ac0377568d)
 
-   ![Add shared project reference](media/samples/visual-studio-2022-add-shared-project.png)
+   :::image type="content" source="media/update-visual-studio-extension/add-shared-project-reference.png" alt-text="Add reference to shared project" lightbox="media/update-visual-studio-extension/add-shared-project-reference.png":::
 
 1. Add the linked files from your Visual Studio 2019 VSIX project and validate that their "Build Action" and "Include in VSIX" properties match. Also copy over your `source.extension.vsixmanifest` file, we'll be modifying it later to support Visual Studio 2022.
 
