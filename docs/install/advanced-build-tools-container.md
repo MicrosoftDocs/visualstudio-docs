@@ -21,6 +21,13 @@ The sample Dockerfile in [Install Build Tools into a container](build-tools-cont
 
 ::: moniker-end
 
+::: moniker range=">=vs-2022"
+
+>[!IMPORTANT]
+>Visual Studio 2022 is currently in preview and is not recommended for use in production environments.
+
+::: moniker-end
+
 ::: moniker range=">=vs-2019"
 
 The sample Dockerfile in [Install Build Tools into a container](build-tools-container.md) always uses the [microsoft/dotnet-framework:4.8](https://hub.docker.com/r/microsoft/dotnet-framework) image based on the latest microsoft/windowsservercore image and the latest Visual Studio Build Tools installer. If you publish this image to a [Docker registry](https://azure.microsoft.com/services/container-registry) for others to pull, this image might be okay for many scenarios. However, in practice it's more common to be specific about what base image you use, what binaries you download, and which tool versions you install.
