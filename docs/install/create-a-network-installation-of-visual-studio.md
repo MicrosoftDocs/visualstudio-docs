@@ -118,7 +118,7 @@ If you run into a problem with the Visual Studio bootstrapper throwing an error 
 
 Host the layout on a network share so it can be run from the client machines.
 
-The following example uses [xcopy](/windows-server/administration/windows-commands/xcopy/). You can also use [robocopy](/windows-server/administration/windows-commands/robocopy/), should you wish.
+The following example uses [`xcopy`](/windows-server/administration/windows-commands/xcopy/). You can also use [`robocopy`](/windows-server/administration/windows-commands/robocopy/), should you wish.
 
 ::: moniker range="vs-2017"
 
