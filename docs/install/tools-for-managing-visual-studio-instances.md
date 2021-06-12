@@ -50,7 +50,7 @@ Get-CimInstance MSFT_VSInstance
 
 ## Using Microsoft Endpoint Configuration Manager
 
-[Microsoft Endpoint Configuration Manager software inventory](https://docs.microsoft.com/mem/configmgr/core/clients/manage/inventory/introduction-to-software-inventory) capabilities can be used to query and collect information about Visual Studio instances on client devices. For example, the following query will return the display name, version and the device name that Visual Studio is installed on for all installed Visual Studio 2017 and 2019 instances:
+[Microsoft Endpoint Configuration Manager software inventory](/mem/configmgr/core/clients/manage/inventory/introduction-to-software-inventory) capabilities can be used to query and collect information about Visual Studio instances on client devices. For example, the following query will return the display name, version and the device name that Visual Studio is installed on for all installed Visual Studio 2017 and 2019 instances:
 
 ```WQL
 select distinct SMS_G_System_COMPUTER_SYSTEM.Name, SMS_G_System_ADD_REMOVE_PROGRAMS.DisplayName, SMS_G_System_ADD_REMOVE_PROGRAMS.Version from SMS_R_System inner join SMS_G_System_COMPUTER_SYSTEM on SMS_G_System_COMPUTER_SYSTEM.ResourceID = SMS_R_System.ResourceId inner join SMS_G_System_ADD_REMOVE_PROGRAMS on SMS_G_System_ADD_REMOVE_PROGRAMS.ResourceID = SMS_R_System.ResourceId where SMS_G_System_ADD_REMOVE_PROGRAMS.DisplayName like "Visual Studio %[a-z]% 201[7,9]" 
