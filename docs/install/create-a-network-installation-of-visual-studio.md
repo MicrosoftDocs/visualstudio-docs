@@ -45,7 +45,7 @@ Other supported bootstrappers include vs_feedbackclient.exe, vs_teamexplorer.exe
 
 ::: moniker range="vs-2019"
 
-Start by downloading the Visual Studio 2019 bootstrapper from either the [Visual Studio downloads page](https://visualstudio.microsoft.com/downloads) or the [Visual Studio 2019 Releases](https://docs.microsoft.com/visualstudio/releases/2019/history#installing-an-earlier-release) page for your chosen version and edition of Visual Studio.  Your setup executable&mdash;or to be more specific, a bootstrapper file&mdash;will match or be similar to one of the following:
+Start by downloading the Visual Studio 2019 bootstrapper from either the [Visual Studio downloads page](https://visualstudio.microsoft.com/downloads) or the [Visual Studio 2019 Releases](/visualstudio/releases/2019/history#installing-an-earlier-release) page for your chosen version and edition of Visual Studio.  Your setup executable&mdash;or to be more specific, a bootstrapper file&mdash;will match or be similar to one of the following:
 
 | Edition                    | Download                                                                                                                                                                                                                           |
 |----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -80,14 +80,14 @@ Start by downloading the Visual Studio 2022 bootstrapper from the [Visual Studio
 ::: moniker range="vs-2019"
 
 >[!TIP]
->If you previously downloaded a bootstrapper file and want to verify what version it is, here's how. In Windows, open File Explorer, right-click the bootstrapper file, choose **Properties**, choose the **Details** tab, and then view the **Product version** number. To match that number to a release of Visual Studio, see [Visual Studio 2019 Releases](https://docs.microsoft.com/visualstudio/releases/2019/history).
+>If you previously downloaded a bootstrapper file and want to verify what version it is, here's how. In Windows, open File Explorer, right-click the bootstrapper file, choose **Properties**, choose the **Details** tab, and then view the **Product version** number. To match that number to a release of Visual Studio, see [Visual Studio 2019 Releases](/visualstudio/releases/2019/history).
 
 ::: moniker-end
 
 ::: moniker range=">=vs-2022"
 
 >[!TIP]
->If you previously downloaded a bootstrapper file and want to verify what version it is, here's how. In Windows, open File Explorer, right-click the bootstrapper file, choose **Properties**, choose the **Details** tab, and then view the **Product version** number. To match that number to a release of Visual Studio, see [Visual Studio 2022 Releases](https://docs.microsoft.com/visualstudio/releases/2022/history).
+>If you previously downloaded a bootstrapper file and want to verify what version it is, here's how. In Windows, open File Explorer, right-click the bootstrapper file, choose **Properties**, choose the **Details** tab, and then view the **Product version** number. To match that number to a release of Visual Studio, see [Visual Studio 2022 Releases](/visualstudio/releases/2022/history).
 
 ::: moniker-end
 
@@ -275,7 +275,7 @@ As product updates become available, you might want to [update the network insta
 
 ## How to create a layout for a previous Visual Studio release
 
-First you need to understand that there are two types of Visual Studio bootstrappers - one that can be characterized by the words "latest", "current", "evergreen" and "tip", and one that essentially means "fixed version". Both types of bootstrapper files have the exact same name, and the best way to distinguish the type is to pay attention to where you got it from. The Visual Studio bootstrappers available on the [Visual Studio downloads page](https://visualstudio.microsoft.com/downloads) are considered evergreen Visual Studio bootstrappers, and they always install (or update) the latest release that's available in the channel at the time the bootstrapper is run. The Visual Studio bootstrappers available on the [Visual Studio 2019 Releases](https://docs.microsoft.com/visualstudio/releases/2019/history) [Visual Studio 2022 Releases](https://docs.microsoft.com/visualstudio/releases/2022/history)  page, or that are embedded inside the administrator update in the Microsoft Update Catalog install a particular fixed version of the product. 
+First you need to understand that there are two types of Visual Studio bootstrappers - one that can be characterized by the words "latest", "current", "evergreen" and "tip", and one that essentially means "fixed version". Both types of bootstrapper files have the exact same name, and the best way to distinguish the type is to pay attention to where you got it from. The Visual Studio bootstrappers available on the [Visual Studio downloads page](https://visualstudio.microsoft.com/downloads) are considered evergreen Visual Studio bootstrappers, and they always install (or update) the latest release that's available in the channel at the time the bootstrapper is run. The Visual Studio bootstrappers available on the [Visual Studio 2019 Releases](/visualstudio/releases/2019/history) [Visual Studio 2022 Releases](/visualstudio/releases/2022/history)  page, or that are embedded inside the administrator update in the Microsoft Update Catalog install a particular fixed version of the product.
 
 So, if you download an evergreen Visual Studio bootstrapper today and run it six months from now, it will install the Visual Studio release that is current at the time the bootstrapper is run. It's designed to always install the latest bits and keep you current.
 
