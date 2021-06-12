@@ -74,11 +74,11 @@ When upgrading from one minor version of Visual Studio to the next, the Visual S
 
 ::: moniker-end
 
-2. Open the command prompt in administrator mode. To do this, open the Windows Start menu, type "cmd", right-click on the Command Prompt search result, and select **Run as administrator**. In the command prompt, change the directory to the folder where your Visual Studio bootstrapper file is located.
+1. Open the command prompt in administrator mode. To do this, open the Windows Start menu, type "cmd", right-click on the Command Prompt search result, and select **Run as administrator**. In the command prompt, change the directory to the folder where your Visual Studio bootstrapper file is located.
 
 ::: moniker range="vs-2017"
 
-3. Run the following command, specifying a new folder path for the installation location and replacing the .exe file name with the appropriate bootstrapper name for the version of Visual Studio you are installing. The .exe file name should match or be similar to one of the following files:
+1. Run the following command, specifying a new folder path for the installation location and replacing the .exe file name with the appropriate bootstrapper name for the version of Visual Studio you are installing. The .exe file name should match or be similar to one of the following files:
 
    * vs_enterprise.exe for Visual Studio Enterprise
    * vs_professional.exe for Visual Studio Professional
@@ -87,7 +87,7 @@ When upgrading from one minor version of Visual Studio to the next, the Visual S
 
 ::: moniker range=">=vs-2019"
 
-3. Run the following command, specifying a new folder path for the installation location and replacing the .exe file name with the appropriate bootstrapper name for the version of Visual Studio you are installing. The .exe file name should match or be similar to one of the following files:
+1. Run the following command, specifying a new folder path for the installation location and replacing the .exe file name with the appropriate bootstrapper name for the version of Visual Studio you are installing. The .exe file name should match or be similar to one of the following files:
 
    * vs_enterprise.exe for Visual Studio Enterprise
    * vs_professional.exe for Visual Studio Professional
@@ -97,21 +97,21 @@ When upgrading from one minor version of Visual Studio to the next, the Visual S
   
 ::: moniker range="vs-2019"
 
-   ```
-   vs_Enterprise.exe --installPath "C:\Program Files (x86)\Microsoft Visual Studio\<AddNewPath>"
-   ```
+```shell
+vs_Enterprise.exe --installPath "C:\Program Files (x86)\Microsoft Visual Studio\<AddNewPath>"
+```
 
 ::: moniker-end
   
 ::: moniker range=">=vs-2022"
 
-   ```
-   vs_Enterprise.exe --installPath "C:\Program Files\Microsoft Visual Studio\<AddNewPath>"
-   ```
+```shell
+vs_Enterprise.exe --installPath "C:\Program Files\Microsoft Visual Studio\<AddNewPath>"
+```
 
 ::: moniker-end
 
-4. Follow the installer dialogs to select the components you need for your installation. For more information, see [Install Visual Studio](install-visual-studio.md#step-4---choose-workloads).
+1. Follow the installer dialogs to select the components you need for your installation. For more information, see [Install Visual Studio](install-visual-studio.md#step-4---choose-workloads).
 
 ## .NET Framework versions and side-by-side installations
 
