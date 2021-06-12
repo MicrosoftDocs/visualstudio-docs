@@ -49,7 +49,7 @@ You can activate an installed version of Visual Studio with a product key by usi
 >[!IMPORTANT]
 > Make sure to include the dashes in the product key.
 
- ```cmd
+ ```shell
  StorePID.exe [product key including the dashes] [MPC]
  ```
 
@@ -57,7 +57,7 @@ You can activate an installed version of Visual Studio with a product key by usi
 
 The following example shows a command line for applying the license for Visual Studio 2017 Enterprise, which has an MPC of 08860, a product key of `AAAAA-BBBBB-CCCCC-DDDDDD-EEEEEE`, and assumes a default installation location:
 
-```cmd
+```shell
 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\StorePID.exe" AAAAA-BBBBB-CCCCC-DDDDDD-EEEEEE 08860
 ```
 
@@ -67,7 +67,7 @@ The following example shows a command line for applying the license for Visual S
 
 The following example shows a command line for applying the license for Visual Studio 2019 Enterprise, which has an MPC of 09260, a product key of `AAAAA-BBBBB-CCCCC-DDDDDD-EEEEEE`, and assumes a default installation location:
 
-```cmd
+```shell
 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\StorePID.exe" AAAAA-BBBBB-CCCCC-DDDDDD-EEEEEE 09260
 ```
 

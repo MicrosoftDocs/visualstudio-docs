@@ -32,17 +32,17 @@ The command-line options can be used with either the setup bootstrapper, which i
 
 To get the bootstrapper for Visual Studio 2017 version 15.9, go to the [**Visual Studio previous versions**](https://visualstudio.microsoft.com/vs/older-downloads/) page and download one of the following bootstrapper files:
 
-| Edition | Filename |
-|-------------|-----------------------|
-|Visual Studio Enterprise 2017 version 15.9 | vs_enterprise.exe |
-|Visual Studio Professional 2017 version 15.9 | vs_professional.exe |
-|Visual Studio Build Tools 2017 version 15.9  | vs_buildtools.exe |
+| Edition                                      | Filename            |
+|----------------------------------------------|---------------------|
+| Visual Studio Enterprise 2017 version 15.9   | vs_enterprise.exe   |
+| Visual Studio Professional 2017 version 15.9 | vs_professional.exe |
+| Visual Studio Build Tools 2017 version 15.9  | vs_buildtools.exe   |
 
 ::: moniker-end
 
 ::: moniker range="vs-2019"
 
-You can get the Visual Studio 2019 bootstrapper from either the [Visual Studio downloads page](https://visualstudio.microsoft.com/downloads) or the [Visual Studio 2019 Releases](https://docs.microsoft.com/visualstudio/releases/2019/history#installing-an-earlier-release) page for your chosen version and edition of Visual Studio. Your setup file --or bootstrapper-- will match or be similar to one of the following:
+You can get the Visual Studio 2019 bootstrapper from either the [Visual Studio downloads page](https://visualstudio.microsoft.com/downloads) or the [Visual Studio 2019 Releases](/visualstudio/releases/2019/history#installing-an-earlier-release) page for your chosen version and edition of Visual Studio. Your setup file --or bootstrapper-- will match or be similar to one of the following:
 
 | Edition                         | File                                                                                                                                                                                                                                               |
 |---------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -76,14 +76,14 @@ Start by downloading the Visual Studio 2022 bootstrapper from the [Visual Studio
 ::: moniker range="vs-2019"
 
 >[!TIP]
->If you previously downloaded a bootstrapper file and want to verify its version, here's how. In Windows, open File Explorer, right-click the bootstrapper file, choose **Properties**, choose the **Details** tab, and then view the **Product version** number. To match that number to a release of Visual Studio, refer to the [Visual Studio 2019 Releases](https://docs.microsoft.com/visualstudio/releases/2019/history) page.
+>If you previously downloaded a bootstrapper file and want to verify its version, here's how. In Windows, open File Explorer, right-click the bootstrapper file, choose **Properties**, choose the **Details** tab, and then view the **Product version** number. To match that number to a release of Visual Studio, refer to the [Visual Studio 2019 Releases](/visualstudio/releases/2019/history) page.
 
 ::: moniker-end
 
 ::: moniker range=">=vs-2022"
 
 >[!TIP]
->If you previously downloaded a bootstrapper file and want to verify its version, here's how. In Windows, open File Explorer, right-click the bootstrapper file, choose **Properties**, choose the **Details** tab, and then view the **Product version** number. To match that number to a release of Visual Studio, refer to the [Visual Studio 2022 Releases](https://docs.microsoft.com/visualstudio/releases/2022/history) page.
+>If you previously downloaded a bootstrapper file and want to verify its version, here's how. In Windows, open File Explorer, right-click the bootstrapper file, choose **Properties**, choose the **Details** tab, and then view the **Product version** number. To match that number to a release of Visual Studio, refer to the [Visual Studio 2022 Releases](/visualstudio/releases/2022/history) page.
 
 ::: moniker-end
 

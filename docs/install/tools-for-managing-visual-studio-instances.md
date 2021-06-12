@@ -28,15 +28,15 @@ The following tools and utilities will help you detect and manage installed Visu
 * [**vswhere**](https://github.com/microsoft/vswhere): an executable built into Visual Studio or available for separate distribution that helps you find the location of all Visual Studio instances on a particular machine.
 * [**VSSetup.PowerShell**](https://github.com/microsoft/vssetup.powershell): PowerShell scripts that use the Setup Configuration API to identify installed instances of Visual Studio.
 * [**VS-Setup-Samples**](https://github.com/microsoft/vs-setup-samples): C# and C++ samples that demonstrate how to use the Setup Configuration API to query an existing installation.
-* [**Windows Management Instrumentation (WMI)**](https://docs.microsoft.com/windows/win32/wmisdk/wmi-start-page): Visual Studio instance information can be queried through the Visual Studio class MSFT_VSInstance.
+* [**Windows Management Instrumentation (WMI)**](/windows/win32/wmisdk/wmi-start-page): Visual Studio instance information can be queried through the Visual Studio class MSFT_VSInstance.
 * The [**Setup Configuration API**](<xref:Microsoft.VisualStudio.Setup.Configuration>) provides interfaces for developers who want to build their own utilities for interrogating Visual Studio instances.
-* [**Microsoft Endpoint Configuration Manager software inventory**](https://docs.microsoft.com/mem/configmgr/core/clients/manage/inventory/introduction-to-software-inventory): can be used to collect information about Visual Studio instances on client devices.
+* [**Microsoft Endpoint Configuration Manager software inventory**](/mem/configmgr/core/clients/manage/inventory/introduction-to-software-inventory): can be used to collect information about Visual Studio instances on client devices.
 
 ## Using vswhere.exe
 
 `vswhere.exe` is automatically included in Visual Studio 2017 and later, or you can download it from [the vswhere releases page](https://github.com/Microsoft/vswhere/releases). Use `vswhere -?` to get help information about the tool. For example, this command shows all releases of Visual Studio, including earlier versions of the product and prereleases, and outputs the results in JSON format:
 
-```cmd
+```shell
 C:\Program Files (x86)\Microsoft Visual Studio\Installer> vswhere.exe -legacy -prerelease -format json
 ```
 
@@ -44,7 +44,7 @@ C:\Program Files (x86)\Microsoft Visual Studio\Installer> vswhere.exe -legacy -p
 
 If the Visual Studio Client Detector Utility is installed on the machine, then you can query for Visual Studio instance information using WMI. The Visual Studio Client Detector Utility is installed by default with every Visual Studio 2017, Visual Studio 2019, and Visual Studio 2022 update that was released on or after May 12, 2020. It is also available on the [Microsoft Update Catalog](https://catalog.update.microsoft.com/) if you want to install it independently.  For an example of how to use the utility to return Visual Studio instance information, open up PowerShell as an administrator on the client machine, and type in the following command:
 
-```cmd
+```shell
 Get-CimInstance MSFT_VSInstance
 ```
 
@@ -77,7 +77,7 @@ As these entries are not stored in the global registry, there are special instru
 
 1. From the Regedit main menu, select **File** > **Load Hive...** and then select the private registry file, which is stored in the **AppData\Local** folder. For example:
 
-   ```cmd
+   ```shell
    %localappdata%\Microsoft\VisualStudio\<config>\privateregistry.bin
    ```
 

@@ -48,13 +48,14 @@ This tool creates update layouts for Visual Studio 2017 (15.9) and onwards. The 
 ```MinimalLayout.exe [command] <options>...```
 
 #### Commands
+
 * **Preview**: Use this command to preview how many packages will download, and the total space used to create this layout.
 * **Generate**: Use this command to generate the minimal layout for updating Visual Studio.
 * **Regenerate**: Use this command to regenerate a layout using an existing minimal layout response file. Every minimal layout produces a `MinimalLayout.json` response file, which contains the original minimal layout input parameters. You can use the **Regenerate** command and a `MinimalLayout.json` response file to regenerate the minimal layout. This is useful if you want to create a minimal layout for a new Visual Studio update based on the previous minimal layout's response file.
 
    For this command, a `MinimalLayout.json` file path from an already generated layout is required.
 
-    ```cmd
+    ```shell
     MinimalLayout.exe regenerate --filePath C:\MinimalLayout\MinimalLayout.json
     ```
 
@@ -110,85 +111,85 @@ Let's walk through a few examples of how to preview, generate, and regenerate a 
 
 ::: moniker range=">=vs-2019"
 
-- First, here's an example of how to preview a layout for Visual Studio Enterprise versions 16.4.0 to 16.4.4 for English only.
+* First, here's an example of how to preview a layout for Visual Studio Enterprise versions 16.4.0 to 16.4.4 for English only.
 
-    ```cmd
-    MinimalLayout.exe preview --targetLocation c:\VSLayout\ --productIds Microsoft.VisualStudio.Product.Enterprise --baseVersion 16.4.0 --targetVersion 16.4.4 --languages en-US
-    ```
+```shell
+MinimalLayout.exe preview --targetLocation c:\VSLayout\ --productIds Microsoft.VisualStudio.Product.Enterprise --baseVersion 16.4.0 --targetVersion 16.4.4 --languages en-US
+```
 
-- Here's how to generate that same layout with one workload.
+* Here's how to generate that same layout with one workload.
 
-    ```cmd
-    MinimalLayout.exe generate --targetLocation c:\VSLayout\ --productIds Microsoft.VisualStudio.Product.Enterprise --baseVersion 16.4.0 --targetVersion 16.4.4 --add Microsoft.VisualStudio.Workload.ManagedDesktop;includeOptional --languages en-US
-    ```
+```shell
+MinimalLayout.exe generate --targetLocation c:\VSLayout\ --productIds Microsoft.VisualStudio.Product.Enterprise --baseVersion 16.4.0 --targetVersion 16.4.4 --add Microsoft.VisualStudio.Workload.ManagedDesktop;includeOptional --languages en-US
+```
 
-- And here's how to regenerate a minimal offline layout using an existing response file.
+* And here's how to regenerate a minimal offline layout using an existing response file.
 
-    ```cmd
-    MinimalLayout.exe regenerate -filepath c:\VSLayout\MinimalLayout.json
-    ```
+```shell
+MinimalLayout.exe regenerate -filepath c:\VSLayout\MinimalLayout.json
+```
 
 A few other examples using the **generate** command:
 
-- Here's how to add an additional workload, and include only the recommended packages.
+* Here's how to add an additional workload, and include only the recommended packages.
 
-    ```cmd
-    MinimalLayout.exe generate --targetLocation c:\VSLayout\ --productIds Microsoft.VisualStudio.Product.Professional --baseVersion 16.4.0 --targetVersion 16.4.4 --add Microsoft.VisualStudio.Workload.ManagedDesktop Microsoft.VisualStudio.Workload.NetWeb;includeRecommended --languages en-US
-    ```
+```shell
+MinimalLayout.exe generate --targetLocation c:\VSLayout\ --productIds Microsoft.VisualStudio.Product.Professional --baseVersion 16.4.0 --targetVersion 16.4.4 --add Microsoft.VisualStudio.Workload.ManagedDesktop Microsoft.VisualStudio.Workload.NetWeb;includeRecommended --languages en-US
+```
 
-- You can also generate a minimal offline layout which supports multiple products.
+* You can also generate a minimal offline layout which supports multiple products.
 
-    ```cmd
-    MinimalLayout.exe generate --targetLocation c:\VSLayout\ --productIds Microsoft.VisualStudio.Product.Enterprise,Microsoft.VisualStudio.Product.Professional --baseVersion 16.4.0 --targetVersion 16.4.4 --languages en-US
-    ```
+```shell
+MinimalLayout.exe generate --targetLocation c:\VSLayout\ --productIds Microsoft.VisualStudio.Product.Enterprise,Microsoft.VisualStudio.Product.Professional --baseVersion 16.4.0 --targetVersion 16.4.4 --languages en-US
+```
 
-- And finally, here's how you'd include multiple languages in your minimal layout.
+* And finally, here's how you'd include multiple languages in your minimal layout.
 
-    ```cmd
-    MinimalLayout.exe generate --targetLocation c:\VSLayout\ --productIds Microsoft.VisualStudio.Product.Enterprise --baseVersion 16.4.0 --targetVersion 16.4.4 --add Microsoft.VisualStudio.Workload.ManagedDesktop;includeOptional --languages en-US fr-FR
-    ```
+```shell
+MinimalLayout.exe generate --targetLocation c:\VSLayout\ --productIds Microsoft.VisualStudio.Product.Enterprise --baseVersion 16.4.0 --targetVersion 16.4.4 --add Microsoft.VisualStudio.Workload.ManagedDesktop;includeOptional --languages en-US fr-FR
+```
 
 ::: moniker-end
 
 ::: moniker range="vs-2017"
 
-- First, here's an example of how to preview a layout for Visual Studio Enterprise versions 15.0.0 to 15.9.31 for English only.
+* First, here's an example of how to preview a layout for Visual Studio Enterprise versions 15.0.0 to 15.9.31 for English only.
 
-    ```cmd
-    MinimalLayout.exe preview --targetLocation c:\VSLayout\ --productIds Microsoft.VisualStudio.Product.Enterprise --baseVersion 15.0.0 --targetVersion 15.9.31 --languages en-US
-    ```
+```shell
+MinimalLayout.exe preview --targetLocation c:\VSLayout\ --productIds Microsoft.VisualStudio.Product.Enterprise --baseVersion 15.0.0 --targetVersion 15.9.31 --languages en-US
+```
 
-- Here's how to generate that same layout with one workload.
+* Here's how to generate that same layout with one workload.
 
-    ```cmd
-    MinimalLayout.exe generate --targetLocation c:\VSLayout\ --productIds Microsoft.VisualStudio.Product.Enterprise --baseVersion 15.0.0 --targetVersion 15.9.31 --add Microsoft.VisualStudio.Workload.ManagedDesktop;includeOptional --languages en-US
-    ```
+```shell
+MinimalLayout.exe generate --targetLocation c:\VSLayout\ --productIds Microsoft.VisualStudio.Product.Enterprise --baseVersion 15.0.0 --targetVersion 15.9.31 --add Microsoft.VisualStudio.Workload.ManagedDesktop;includeOptional --languages en-US
+```
 
-- And here's how to regenerate a minimal offline layout using an existing response file.
+* And here's how to regenerate a minimal offline layout using an existing response file.
 
-    ```cmd
-    MinimalLayout.exe regenerate -filepath c:\VSLayout\MinimalLayout.json
-    ```
+```shell
+MinimalLayout.exe regenerate -filepath c:\VSLayout\MinimalLayout.json
+```
 
 A few other examples using the **generate** command:
 
-- Here's how to add an additional workload, and include only the recommended packages.
+* Here's how to add an additional workload, and include only the recommended packages.
 
-    ```cmd
-    MinimalLayout.exe generate --targetLocation c:\VSLayout\ --productIds Microsoft.VisualStudio.Product.Professional --baseVersion 15.0.0 --targetVersion 15.9.31 --add Microsoft.VisualStudio.Workload.ManagedDesktop Microsoft.VisualStudio.Workload.NetWeb;includeRecommended --languages en-US
-    ```
+```shell
+MinimalLayout.exe generate --targetLocation c:\VSLayout\ --productIds Microsoft.VisualStudio.Product.Professional --baseVersion 15.0.0 --targetVersion 15.9.31 --add Microsoft.VisualStudio.Workload.ManagedDesktop Microsoft.VisualStudio.Workload.NetWeb;includeRecommended --languages en-US
+```
 
-- You can also generate a minimal offline layout which supports multiple products.
+* You can also generate a minimal offline layout which supports multiple products.
 
-    ```cmd
-    MinimalLayout.exe generate --targetLocation c:\VSLayout\ --productIds Microsoft.VisualStudio.Product.Enterprise,Microsoft.VisualStudio.Product.Professional --baseVersion 15.0.0 --targetVersion 15.9.31 --languages en-US
-    ```
+```shell
+MinimalLayout.exe generate --targetLocation c:\VSLayout\ --productIds Microsoft.VisualStudio.Product.Enterprise,Microsoft.VisualStudio.Product.Professional --baseVersion 15.0.0 --targetVersion 15.9.31 --languages en-US
+```
 
-- And finally, here's how you'd include multiple languages in your minimal layout.
+* And finally, here's how you'd include multiple languages in your minimal layout.
 
-    ```cmd
-    MinimalLayout.exe generate --targetLocation c:\VSLayout\ --productIds Microsoft.VisualStudio.Product.Enterprise --baseVersion 15.0.0 --targetVersion 15.9.31 --add Microsoft.VisualStudio.Workload.ManagedDesktop;includeOptional --languages en-US fr-FR
-    ```
+```shell
+MinimalLayout.exe generate --targetLocation c:\VSLayout\ --productIds Microsoft.VisualStudio.Product.Enterprise --baseVersion 15.0.0 --targetVersion 15.9.31 --add Microsoft.VisualStudio.Workload.ManagedDesktop;includeOptional --languages en-US fr-FR
+```
 
 ::: moniker-end
 
@@ -196,17 +197,17 @@ A few other examples using the **generate** command:
 
 Use the **verify** and **fix** commands to maintain your minimal layout after it's created. The **verify** command determines if there are any corrupt or missing packages in the minimal layout. If you encounter any problems after running the **verify** command, use the **fix** command to correct those missing or corrupt packages.
 
-- Here's how to verify if a layout has corrupt or missing packages:
+* Here's how to verify if a layout has corrupt or missing packages:
 
-    ```cmd
-    MinimalLayout.exe Verify --targetLocation c:\VSLayout\ --productIds Microsoft.VisualStudio.Product.Enterprise --baseVersion 16.4.0 --targetVersion 16.4.4 --add Microsoft.VisualStudio.Workload.ManagedDesktop --includeRecommended --languages en-US
-    ```
+```shell
+MinimalLayout.exe Verify --targetLocation c:\VSLayout\ --productIds Microsoft.VisualStudio.Product.Enterprise --baseVersion 16.4.0 --targetVersion 16.4.4 --add Microsoft.VisualStudio.Workload.ManagedDesktop --includeRecommended --languages en-US
+```
 
-- And here's how to fix that layout:
+* And here's how to fix that layout:
 
-    ```cmd
-    MinimalLayout.exe fix --targetLocation C:\VSLayout\ --productIds Microsoft.VisualStudio.Product.Enterprise --baseVersion 16.4.0 --targetVersion 16.4.4 --add Microsoft.VisualStudio.Workload.ManagedDesktop;includeRecommended --languages en-US
-    ```
+```shell
+MinimalLayout.exe fix --targetLocation C:\VSLayout\ --productIds Microsoft.VisualStudio.Product.Enterprise --baseVersion 16.4.0 --targetVersion 16.4.4 --add Microsoft.VisualStudio.Workload.ManagedDesktop;includeRecommended --languages en-US
+```
 
 >[!NOTE]
 > This layout cannot be used to repair a Visual Studio installation. To repair an existing instance of Visual Studio, see [Repair Visual Studio](repair-visual-studio.md).
@@ -219,7 +220,7 @@ After generating a minimal layout, you can copy the entire minimal layout folder
 Navigate to the folder and identify the bootstrapper application name. The name of the bootstrapper application depends on the ProductId value specified while generating the minimal layout. Refer to the table below for common examples.
 
 | ProductId value                             | Application name    |
-|-:-------------------------------------------|-:-------------------|
+|---------------------------------------------|---------------------|
 | Microsoft.VisualStudio.Product.Enterprise   | vs_enterprise.exe   |
 | Microsoft.VisualStudio.Product.Professional | vs_professional.exe |
 | Microsoft.VisualStudio.Product.BuildTools   | vs_buildtools.exe   |
@@ -230,7 +231,7 @@ The update is applied to a Visual Studio instance in two steps. Start by updatin
 
     Run the following command, substituting `vs_enterprise.exe`  with the correct bootstrapper application name if necessary.
 
-    ```cmd
+    ```shell
     vs_enterprise.exe --quiet --update --offline C:\VSLayout\vs_installer.opc
     ```
 
@@ -241,21 +242,27 @@ The update is applied to a Visual Studio instance in two steps. Start by updatin
     Run the following command, substituting the installPath command-line parameter appropriately. Be sure to use the correct bootstrapper application name as well.
 
 ::: moniker range="vs-2017"
-    ```cmd
-    vs_enterprise.exe update --noWeb --quiet --installpath "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise"
-    ```
+
+```shell
+vs_enterprise.exe update --noWeb --quiet --installpath "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise"
+```
+
 ::: moniker-end
 
 ::: moniker range="vs-2019"
-    ```cmd
-    vs_enterprise.exe update --noWeb --quiet --installpath "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise"
-    ```
+
+```shell
+vs_enterprise.exe update --noWeb --quiet --installpath "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise"
+```
+
 ::: moniker-end
 
 ::: moniker range=">=vs-2022"
-    ```cmd
-    vs_enterprise.exe update --noWeb --quiet --installpath "C:\Program Files\Microsoft Visual Studio\2022\Enterprise"
-    ```
+
+```shell
+vs_enterprise.exe update --noWeb --quiet --installpath "C:\Program Files\Microsoft Visual Studio\2022\Enterprise"
+```
+
 ::: moniker-end
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]

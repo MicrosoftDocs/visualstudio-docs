@@ -57,7 +57,6 @@ Because the Visual Studio Installer downloads files from various domains and the
 | \*.live.com                           | Sign-in location                            |
 | github-releases.githubusercontent.com | Linux Development                           |
 | az837173.vo.msecnd.net                | Development with Azure Storage              |
-|                                       |                                             |
 
 #### Non-Microsoft domains
 
@@ -78,7 +77,6 @@ Because the Visual Studio Installer downloads files from various domains and the
 | appstoreconnect.apple.com         | Xamarin.iOS provisioning                                                                                                                    |
 | idmsa.apple.com                   | Xamarin.iOS provisioning                                                                                                                    |
 | akamized.net                      | Content Delivery Network (Akamai Technologies)                                                                                              |
-|                                   |                                                                                                                                             |
 
 ## Use Visual Studio and Azure Services
 

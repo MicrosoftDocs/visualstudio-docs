@@ -33,6 +33,7 @@ If you experience a catastrophic error and can't repair or uninstall Visual Stud
 ## Run InstallCleanup.exe
 
 You can use either of the following command-line switches with the `InstallCleanup.exe` tool:
+
 | Switch | Behavior                                                                                                                                                                                                                                                                                                                 |
 |--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | `-i`   | This switch is the default if no other switch is passed. It removes only the main installation directory and product information. Use this switch if you intend to reinstall the same version of Visual Studio after you run the `InstallCleanup.exe` tool.                                                              |
@@ -46,7 +47,7 @@ Here's how to run the `InstallCleanup.exe` tool:
    * Right-click **Command Prompt**, and then choose **Run as administrator**.
 1. Enter the full path of the `InstallCleanup.exe` tool and add the command-line switch you prefer. By default, the path of the tool is as follows. The double quotes enclose a command containing spaces:
 
-   ```cmd
+   ```shell
    "C:\Program Files (x86)\Microsoft Visual Studio\Installer\resources\app\layout\InstallCleanup.exe"
    ```
 

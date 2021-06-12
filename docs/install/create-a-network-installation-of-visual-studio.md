@@ -124,7 +124,7 @@ The following example uses [xcopy](/windows-server/administration/windows-comman
 
 Example:
 
-```cmd
+```shell
 xcopy /e c:\VSLayout \\server\products\VS2017
 ```
 
@@ -132,7 +132,7 @@ xcopy /e c:\VSLayout \\server\products\VS2017
 
 ::: moniker range="vs-2019"
 
-```cmd
+```shell
 xcopy /e c:\VSLayout \\server\products\VS2019
 ```
 
@@ -140,7 +140,7 @@ xcopy /e c:\VSLayout \\server\products\VS2019
 
 ::: moniker range=">=vs-2022"
 
-```cmd
+```shell
 xcopy /e c:\VSLayout \\server\products\VS2022
 ```
 
@@ -162,37 +162,37 @@ Here are a few examples of how to create a custom partial layout.
 
 * To download all workloads and components for only one language, run:
 
-    ```cmd
+    ```shell
     vs_enterprise.exe --layout C:\VSLayout --lang en-US
     ```
 
 * To download all workloads and components for multiple languages, run:
 
-    ```cmd
+    ```shell
     vs_enterprise.exe --layout C:\VSLayout --lang en-US de-DE ja-JP
     ```
 
 * To download one workload for all languages, run:
 
-    ```cmd
+    ```shell
     vs_enterprise.exe --layout C:\VSLayout --add Microsoft.VisualStudio.Workload.Azure --includeRecommended
     ```
 
 * To download two workloads and one optional component for three languages, run:
 
-    ```cmd
+    ```shell
     vs_enterprise.exe --layout C:\VSLayout --add Microsoft.VisualStudio.Workload.Azure --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Component.GitHub.VisualStudio --includeRecommended --lang en-US de-DE ja-JP
     ```
 
 * To download two workloads and all of their recommended components:
 
-    ```cmd
+    ```shell
     vs_enterprise.exe --layout C:\VSLayout --add Microsoft.VisualStudio.Workload.Azure --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Component.GitHub.VisualStudio --includeRecommended
     ```
 
 * To download two workloads and all of their recommended and optional components, run:
 
-    ```cmd
+    ```shell
     vs_enterprise.exe --layout C:\VSLayout --add Microsoft.VisualStudio.Workload.Azure --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Component.GitHub.VisualStudio --includeOptional
     ```
 
@@ -200,25 +200,25 @@ Here are a few examples of how to create a custom partial layout.
 
 When you run a layout command, the options that you specify are saved (such as the workloads and languages). Subsequent layout commands will include all of the previous options.  Here is an example of a layout with one workload for English only:
 
-```cmd
+```shell
 vs_enterprise.exe --layout c:\VSLayout --add Microsoft.VisualStudio.Workload.ManagedDesktop --lang en-US
 ```
 
 When you want to update that layout to a newer version, you don't have to specify any additional command-line parameters. The previous settings are saved and used by any subsequent layout commands in this layout folder.  The following command will update the existing partial layout.
 
-```cmd
+```shell
 vs_enterprise.exe --layout c:\VSLayout
 ```
 
 When you want to add an additional workload, here's an example of how to do so. In this case, we'll add the Azure workload and a localized language.  Now, both Managed Desktop and Azure are included in this layout.  The language resources for English and German are included for all these workloads. The layout is updated to the latest available version.
 
-```cmd
+```shell
 vs_enterprise.exe --layout c:\VSLayout --add Microsoft.VisualStudio.Workload.Azure --lang de-DE
 ```
 
 If you want to update an existing layout to a full layout, use the --all option, as shown in the following example.
 
-```cmd
+```shell
 vs_enterprise.exe --layout c:\VSLayout --all
 ```
 
@@ -228,13 +228,13 @@ Administrators can deploy Visual Studio onto client workstations as part of an i
 
 * Users can install by running the following command: <br>
 
-    ```cmd
+    ```shell
     \\server\products\VS\vs_enterprise.exe
     ```
 
 * Administrators can install in an unattended mode by running the following command:
 
-    ```cmd
+    ```shell
     \\server\products\VS\vs_enterprise.exe --quiet --wait --norestart
     ```
 

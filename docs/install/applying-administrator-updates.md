@@ -115,7 +115,7 @@ You can use one of the following methods to verify that the administrator update
 Administrative updates may return the following return codes:  
 
 | Error code | Definition                                                                                                                                                                                                  |
-|------------|-:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 0          | The administrative update was successfully installed.                                                                                                                                                       |
 | 1001       | Visual Studio Installer or a related setup process is running. The update is not applied.                                                                                                                   |
 | 1002       | Visual Studio Installer is paused. The update is not applied.                                                                                                                                               |
@@ -137,7 +137,7 @@ For an exhaustive list of client error codes, see [Use command-line parameters
 You can use the following methods to provide feedback about Visual Studio administrator updates or report issues that affect the updates:
 
 * Refer to the [Troubleshooting Visual Studio installation and upgrade issues](../install/troubleshooting-installation-issues.md) guidance.
-* Ask questions to the community at the [Visual Studio Setup Q&A Forum](https://docs.microsoft.com/answers/topics/vs-setup.html).
+* Ask questions to the community at the [Visual Studio Setup Q&A Forum](/answers/topics/vs-setup.html).
 * Go to the [Visual Studio support page](https://visualstudio.microsoft.com/vs/support/), and check whether your issue is listed in the FAQ.  You can also select the [Support Link](https://visualstudio.microsoft.com/vs/support/#talktous) button for chat help.
 * [Provide feature feedback or report a problem](https://aka.ms/vs/wsus/feedback) to the Visual Studio team regarding this experience of applying administrator updates.
 * Contact your organization’s technical account manager for Microsoft.
@@ -147,8 +147,8 @@ You can use the following methods to provide feedback about Visual Studio admini
 * [Enabling administrator updates](../install/enabling-administrator-updates.md)
 * [Visual Studio administrator guide](../install/visual-studio-administrator-guide.md)
 * [Visual Studio Product Lifecycle and Servicing](https://docs.microsoft.com/visualstudio/productinfo/vs-servicing-vs)
-* [Visual Studio 2019 Release Notes](https://docs.microsoft.com/visualstudio/releases/2019/release-notes)
-* [Visual Studio 2017 Release Notes](https://docs.microsoft.com/visualstudio/releasenotes/vs2017-relnotes)
+* [Visual Studio 2019 Release Notes](/visualstudio/releases/2019/release-notes)
+* [Visual Studio 2017 Release Notes](h/visualstudio/releasenotes/vs2017-relnotes)
 * [Install Visual Studio](../install/install-visual-studio.md)
 * [Using Command Line Parameters to install Visual Studio](../install/use-command-line-parameters-to-install-visual-studio.md)
 * [Tools for detecting and managing Visual Studio instances](../install/tools-for-managing-visual-studio-instances.md)
@@ -156,6 +156,6 @@ You can use the following methods to provide feedback about Visual Studio admini
 * [How to define settings in a response file](../install/automated-installation-with-response-file.md)
 * [Control updates to network-based Visual Studio deployments](../install/controlling-updates-to-visual-studio-deployments.md)
 * [Microsoft Update Catalog FAQ](https://www.catalog.update.microsoft.com/faq.aspx)
-* [Microsoft Endpoint Configuration Manager (SCCM) documentation](https://docs.microsoft.com/mem/configmgr)
+* [Microsoft Endpoint Configuration Manager (SCCM) documentation](/mem/configmgr)
 * [Import updates from Microsoft Catalog into Configuration Manager](https://docs.microsoft.com/mem/configmgr/sum/get-started/synchronize-software-updates#import-updates-from-the-microsoft-update-catalog)
-* [Windows Server Update Services (WSUS) documentation](https://docs.microsoft.com/windows-server/administration/windows-server-update-services/get-started-windows-server-update-services-wsus)
+* [Windows Server Update Services (WSUS) documentation](/windows-server/administration/windows-server-update-services/get-started-windows-server-update-services-wsus)

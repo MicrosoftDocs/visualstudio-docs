@@ -18,7 +18,7 @@ ms.technology: vs-installation
 ---
 # Control updates to network-based Visual Studio deployments
 
-Enterprise administrators often create a layout and host it on a network file share to deploy to their end users. This page describes how to configure your network layout options properly. 
+Enterprise administrators often create a layout and host it on a network file share to deploy to their end users. This page describes how to configure your network layout options properly.
 
 ## Controlling where Visual Studio looks for updates
 
@@ -28,17 +28,17 @@ By default, Visual Studio continues to look online for updates even if the insta
 
 **Scenario 2: Client originally installed and should only receive updates from the network layout**
 
-If you want to control where the Visual Studio client looks for updates, for example, if your client machine does not have internet access and you want to ensure that it only and always installs from the layout, then you can configure the location where the client's installer looks for updated product bits. It is best to make sure this setting is configured correctly before the client does the initial install from the layout. 
+If you want to control where the Visual Studio client looks for updates, for example, if your client machine does not have internet access and you want to ensure that it only and always installs from the layout, then you can configure the location where the client's installer looks for updated product bits. It is best to make sure this setting is configured correctly before the client does the initial install from the layout.
 
 1. Create an offline layout:
 
-   ```cmd
+   ```shell
    vs_enterprise.exe --layout C:\vsoffline --lang en-US
    ```
 
 2. Copy it to the file share where you want to host it:
 
-   ```cmd
+   ```shell
    xcopy /e C:\vsoffline \\server\share\VS
    ```
 
@@ -52,7 +52,7 @@ If you want to control where the Visual Studio client looks for updates, for exa
 
    Now end users can run setup from this share to install Visual Studio.
 
-   ```cmd
+   ```shell
    \\server\share\VS\vs_enterprise.exe
    ```
 
@@ -60,7 +60,7 @@ When an enterprise administrator determines it is time for their users to update
 
 1. Use a command that is similar to the following command:
 
-   ```cmd
+   ```shell
    vs_enterprise.exe --layout \\server\share\VS --lang en-US
    ```
 
@@ -77,7 +77,6 @@ Any installation update initiated from the client will automatically install the
 **Scenario 3: Client originally installed from the web, but now should only receive updates from a network layout**
 
 In some cases, the client machine may have already installed Visual Studio from the web, but now the administrator wants to have all future updates come from a managed layout. The only supported way to do this is to create a network layout with the desired version of the product, and then on the client machine, run the bootstrapper _from the layout location_ (e.g. `\\server\share\vs_enterprise.exe`). Ideally, the original client install would have happened using the bootstrapper from the network layout with the correctly configured ChannelURI, but running the updated bootstrapper from the network layout location will also work. Either one of these actions would embed, on the client machine, a connection with that particular layout location. The only caveat for this scenario to work correctly is that the “ChannelURI” in the layout’s `response.json` file must be the same as the ChannelURI that was set on the client’s machine when the original install happened. Most likely this value was originally set to the internet [release channel](https://aka.ms/vs/16/release/channel).
-
 
 ## Controlling notifications in the Visual Studio IDE
 
@@ -103,7 +102,7 @@ You can disable the notifications if you don't want end users to be notified of 
 
 Because Visual Studio 2017 [stores registry entries in a private registry](tools-for-managing-visual-studio-instances.md#editing-the-registry-for-a-visual-studio-instance), you can't directly edit the registry in the typical way. However, Visual Studio includes a `vsregedit.exe` utility that you can use to change Visual Studio settings. You can turn off notifications with the following command:
 
-```cmd
+```shell
 vsregedit.exe set "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise" HKCU ExtensionManager AutomaticallyCheckForUpdates2Override dword 0
 ```
 
@@ -113,7 +112,7 @@ vsregedit.exe set "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterpris
 
 Because Visual Studio 2019 [stores registry entries in a private registry](tools-for-managing-visual-studio-instances.md#editing-the-registry-for-a-visual-studio-instance), you can't directly edit the registry in the typical way. However, Visual Studio includes a `vsregedit.exe` utility that you can use to change Visual Studio settings. You can turn off notifications with the following command:
 
-```cmd
+```shell
 vsregedit.exe set "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise" HKCU ExtensionManager AutomaticallyCheckForUpdates2Override dword 0
 ```
 
@@ -123,7 +122,7 @@ vsregedit.exe set "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterpris
 
 Because Visual Studio 2022 [stores registry entries in a private registry](tools-for-managing-visual-studio-instances.md#editing-the-registry-for-a-visual-studio-instance), you can't directly edit the registry in the typical way. However, Visual Studio includes a `vsregedit.exe` utility that you can use to change Visual Studio settings. You can turn off notifications with the following command:
 
-```cmd
+```shell
 vsregedit.exe set "C:\Program Files\Microsoft Visual Studio\2022\Enterprise" HKCU ExtensionManager AutomaticallyCheckForUpdates2Override dword 0
 ```
 

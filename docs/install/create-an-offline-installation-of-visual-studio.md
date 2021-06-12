@@ -90,7 +90,7 @@ To get the latest bootstrapper for Visual Studio 2017 version 15.9, go to the [V
 
 ::: moniker range="vs-2019"
 
-Start by downloading the Visual Studio 2019 bootstrapper from either the [Visual Studio downloads page](https://visualstudio.microsoft.com/downloads) or the [Visual Studio 2019 Releases](https://docs.microsoft.com/visualstudio/releases/2019/history#installing-an-earlier-release) page for your chosen version and edition of Visual Studio. Your setup file&mdash;or bootstrapper&mdash;will match or be similar to one of the following:
+Start by downloading the Visual Studio 2019 bootstrapper from either the [Visual Studio downloads page](https://visualstudio.microsoft.com/downloads) or the [Visual Studio 2019 Releases](/visualstudio/releases/2019/history#installing-an-earlier-release) page for your chosen version and edition of Visual Studio. Your setup file&mdash;or bootstrapper&mdash;will match or be similar to one of the following:
 
 | Edition                         | File                                                                                                                                                                                                                               |
 |---------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -107,8 +107,8 @@ Start by downloading the Visual Studio 2019 bootstrapper from either the [Visual
 > Released versions of Visual Studio 2022 are not yet available, the bootstrappers below are for the preview release of Visual Studio 2022.
 Start by downloading the Visual Studio 2022 bootstrapper from the [Visual Studio downloads page](https://aka.ms/vs2022preview).
 
-| Edition                    | Download                                                                                  |
-|----------------------------|-------------------------------------------------------------------------------------------|
+| Edition                         | Download                                                                             |
+|---------------------------------|--------------------------------------------------------------------------------------|
 | Visual Studio 2022 Enterprise   | [vs_enterprise.exe](https://aka.ms/vs/17/preview/bootstrapper/vs_enterprise.exe)     |
 | Visual Studio 2022 Professional | [vs_professional.exe](https://aka.ms/vs/17/preview/bootstrapper/vs_professional.exe) |
 
@@ -117,21 +117,21 @@ Start by downloading the Visual Studio 2022 bootstrapper from the [Visual Studio
 ::: moniker range="vs-2017"
 
 >[!TIP]
->If you previously downloaded a bootstrapper file and want to verify what version it is, here's how. In Windows, open File Explorer, right-click the bootstrapper file, choose **Properties**, choose the **Details** tab, and then view the **Product version** number. To match that number to a release of Visual Studio, refer to the [Visual Studio build numbers and release dates](visual-studio-build-numbers-and-release-dates.md) page.
+>If you previously downloaded a bootstrapper file and want to verify what version it is, here's how. In Windows, open File Explorer, right-click the bootstrapper file, choose **Properties**, choose the **Details** tab, and then view the **Product version** number. To match that number to a release of Visual Studio, refer to the [Visual Studio build numbers and release dates](/visual-studio-build-numbers-and-release-dates.md) page.
 
 ::: moniker-end
 
 ::: moniker range="vs-2019"
 
 >[!TIP]
->If you previously downloaded a bootstrapper file and want to verify its version, here's how. In Windows, open File Explorer, right-click the bootstrapper file, choose **Properties**, choose the **Details** tab, and then view the **Product version** number. To match that number to a release of Visual Studio, refer to the [Visual Studio 2019 Releases](https://docs.microsoft.com/visualstudio/releases/2019/history) page.
+>If you previously downloaded a bootstrapper file and want to verify its version, here's how. In Windows, open File Explorer, right-click the bootstrapper file, choose **Properties**, choose the **Details** tab, and then view the **Product version** number. To match that number to a release of Visual Studio, refer to the [Visual Studio 2019 Releases](/visualstudio/releases/2019/history) page.
 
 ::: moniker-end
 
 ::: moniker range=">=vs-2022"
 
 >[!TIP]
->If you previously downloaded a bootstrapper file and want to verify its version, here's how. In Windows, open File Explorer, right-click the bootstrapper file, choose **Properties**, choose the **Details** tab, and then view the **Product version** number. To match that number to a release of Visual Studio, refer to the [Visual Studio 2022 Releases](https://docs.microsoft.com/visualstudio/releases/2022/history) page.
+>If you previously downloaded a bootstrapper file and want to verify its version, here's how. In Windows, open File Explorer, right-click the bootstrapper file, choose **Properties**, choose the **Details** tab, and then view the **Product version** number. To match that number to a release of Visual Studio, refer to the [Visual Studio 2022 Releases](/visualstudio/releases/2022/history) page.
 
 ::: moniker-end
 
@@ -146,25 +146,25 @@ Open a command prompt and use the bootstrapper's parameters as defined in the [U
 
 - For .NET web and .NET desktop development, run:
 
-   ```cmd
+   ```shell
     vs_enterprise.exe --layout c:\vslayout --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Microsoft.VisualStudio.Workload.NetWeb --add Component.GitHub.VisualStudio --includeOptional --lang en-US
     ```
 
 - For .NET desktop and Office development, run:
 
-   ```cmd
+   ```shell
     vs_enterprise.exe --layout c:\vslayout --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Microsoft.VisualStudio.Workload.Office --includeOptional --lang en-US
     ```
 
 - For C++ desktop development, run:
 
-   ```cmd
+   ```shell
     vs_enterprise.exe --layout c:\vslayout --add Microsoft.VisualStudio.Workload.NativeDesktop --includeRecommended --lang en-US
     ```
 
 - To create a complete local layout, English only, with all features (this will take a long time&mdash;we have _lots_ of features!), run:
 
-   ```cmd
+   ```shell
     vs_enterprise.exe --layout c:\vslayout --lang en-US
     ```
 
@@ -188,13 +188,13 @@ When you install Visual Studio from a local install cache, the Visual Studio ins
 
 For example, if you created a local installation cache with the following command:
 
-```cmd
+```shell
 vs_enterprise.exe --layout c:\vslayout --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Microsoft.VisualStudio.Workload.NetWeb --add Component.GitHub.VisualStudio --includeOptional --lang en-US
 ```
 
 Then use this command to run the installation:
 
-```cmd
+```shell
 c:\vslayout\vs_enterprise.exe --noweb --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Microsoft.VisualStudio.Workload.NetWeb --add Component.GitHub.VisualStudio --includeOptional
 ```
 
