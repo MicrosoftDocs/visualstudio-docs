@@ -103,6 +103,8 @@ Visual Studio 2022 is currently in preview and during the preview period Visual 
 
 ::: moniker-end
 
+::: moniker range="vs-2017"
+
 If `StorePID.exe` successfully applies the product key, it returns an `%ERRORLEVEL%` of 0. If it encounters errors, it returns one of the following codes, depending on the error condition:
 
 | Error                     | Code |
@@ -117,6 +119,27 @@ If `StorePID.exe` successfully applies the product key, it returns an `%ERRORLEV
 
 > [!NOTE]
 > When you run a virtual instance of Visual Studio, make sure that you also virtualize the local AppData folder and the registry. To troubleshoot virtual instances, run `<Visual Studio installation directory>\Common7\IDE\DDConfigCA.exe`.  
+
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+If `StorePID.exe` successfully applies the product key, it returns an `%ERRORLEVEL%` of 0. If it encounters errors, it returns one of the following codes, depending on the error condition:
+
+| Error                     | Code |
+|---------------------------|------|
+| `PID_ACTION_SUCCESS`      | 0    |
+| `PID_ACTION_NOTINSTALLED` | 1    |
+| `PID_ACTION_INVALID`      | 2    |
+| `PID_ACTION_EXPIRED`      | 3    |
+| `PID_ACTION_INUSE`        | 4    |
+| `PID_ACTION_FAILURE`      | 5    |
+| `PID_ACTION_NOUPGRADE`    | 6    |
+
+> [!NOTE]
+> When you run a virtual instance of Visual Studio, make sure that you also virtualize the local AppData folder and the registry. To troubleshoot virtual instances, run `<Visual Studio installation directory>\Common7\IDE\DDConfigCA.exe`.  
+
+::: moniker-end
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
