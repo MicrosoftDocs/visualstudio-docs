@@ -1,5 +1,5 @@
 ---
-title: Learn about solutions and projects
+title: 'What are Visual Studio solutions &amp; projects?'
 description: Learn about Visual Studio projects and solutions, how to create new projects from a template, and how to view & manage projects in Solution Explorer.
 ms.custom: "SEO-VS-2020, contperf-fy21q2"
 ms.date: 12/31/2020
@@ -23,9 +23,9 @@ manager: jmartens
 ms.workload:
 - multiple
 ---
-# Solutions and projects in Visual Studio
+# What are solutions and projects in Visual Studio?
 
-This page describes the concept of a *project* and a *solution* in Visual Studio. It also briefly covers the Solution Explorer tool window and how to create a new project.
+In this article, you'll learn what  a *project* and a *solution* is in Visual Studio. It also briefly covers the Solution Explorer tool window and how to create a new project.
 
 > [!NOTE]
 > This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Projects and solutions in Visual Studio for Mac](/visualstudio/mac/projects-and-solutions).
