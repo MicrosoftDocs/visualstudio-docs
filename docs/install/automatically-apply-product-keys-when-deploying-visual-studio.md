@@ -24,9 +24,10 @@ You can apply your product key programmatically as part of a script that is used
 
 ::: moniker-end
 
+::: moniker range="vs-2017"
+
 ## Apply the license after installation
 
-::: moniker range="vs-2017"
 
 You can activate an installed version of Visual Studio with a product key by using the `StorePID.exe` utility on the target machines, in silent mode. `StorePID.exe` is a utility program that installs with Visual Studio 2017 at the following default location: <br> `C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE`
 
@@ -42,6 +43,8 @@ You can activate an installed version of Visual Studio with a product key by usi
 ::: moniker-end
 
 ::: moniker range="vs-2019"
+
+## Apply the license after installation
 
 You can activate an installed version of Visual Studio with a product key by using the `StorePID.exe` utility on the target machines, in silent mode. `StorePID.exe` is a utility program that installs with Visual Studio 2019 at the following default location: <br> `C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE`
 
