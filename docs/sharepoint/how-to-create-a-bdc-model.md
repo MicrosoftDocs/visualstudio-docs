@@ -24,10 +24,11 @@ ms.workload:
 
 1. On the menu bar, choose **File** > **New** > **Project**.
 ::: moniker range="=vs-2017"
+
     > [!NOTE]
     > If your IDE is set to use Visual Basic development settings, choose **File** > **New Project**.
 
-     The **New Project** dialog box opens.
+  The **New Project** dialog box opens.
 
 2. Under either **Visual Basic** or **Visual C#**, choose **Office/SharePoint**, **SharePoint Solutions**.
 

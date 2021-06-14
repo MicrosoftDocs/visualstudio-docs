@@ -47,7 +47,6 @@ First, create a web part project by using the **Visual Web Part** project templa
 
 2. On the menu bar, choose **File** > **New** > **Project**.
 ::: moniker range="=vs-2017"
-     The **New Project** dialog box appears.
 
 3. In the **New Project** dialog box, under either **Visual C#** or **Visual Basic**, expand **Office/SharePoint**, and then choose the **SharePoint Solutions** category.
 
