@@ -31,7 +31,7 @@ You can apply your product key programmatically as part of a script that is used
 You can activate an installed version of Visual Studio with a product key by using the `StorePID.exe` utility on the target machines, in silent mode. `StorePID.exe` is a utility program that installs with Visual Studio 2017 at the following default location:
 
 ```shell
-C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE`
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE
 ```
 
  Run `StorePID.exe` with elevated privileges, either by using a System Center agent or an elevated command prompt. Follow it with the product key and the Microsoft Product Code (MPC).
@@ -52,7 +52,7 @@ C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE`
 You can activate an installed version of Visual Studio with a product key by using the `StorePID.exe` utility on the target machines, in silent mode. `StorePID.exe` is a utility program that installs with Visual Studio 2019 at the following default location:
 
 ```shell
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE`
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE
 ```
 
  Run `StorePID.exe` with elevated privileges, either by using a System Center agent or an elevated command prompt. Follow it with the product key and the Microsoft Product Code (MPC).
