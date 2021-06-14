@@ -230,4 +230,4 @@ The Git Repository window has a list of branches displayed in a tree structure. 
 - [Get Started with Git and GitHub in Visual Studio](/learn/modules/visual-studio-github-push/) tutorial on Microsoft Learn
 - [Getting started with Git in Visual Studio](https://www.youtube.com/watch?v=GCZ9x3yqkyc) video on YouTube
 - [Enhanced productivity with Git in Visual Studio](https://devblogs.microsoft.com/visualstudio/enhanced-productivity-with-git-in-visual-studio/) blog post
-- [Options dialog box](ide/reference/options-dialog-box-visual-studio)
+- [Options dialog box](../ide/reference/options-dialog-box-visual-studio)
