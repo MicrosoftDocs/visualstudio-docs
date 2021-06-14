@@ -4,11 +4,11 @@ titleSuffix: ""
 description: How gitconfig files and git preferences work and are used in Visual Studio
 ms.date: 06/08/2021
 ms.topic: conceptual
-ms.author: tglee
-author: TerryGLee
+ms.author: prnadago
+author: prnadago
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
-ms.manager: jmartens
+ms.manager:
 ---
 # Git settings and preferences in Visual Studio
 
@@ -121,25 +121,25 @@ When Visual Studio performs a remote Git operation, the remote endpoint may reje
 
 2. Set **Credential helper** to the desired value, and select **OK** to save.
 
-    :::image type="content" source="media/credential-helper-setting.png" alt-text="Screenshot showing the credential helper setting in the Options dialog box.":::
+:::image type="content" source="media/credential-helper-setting.png" alt-text="Screenshot showing the credential helper setting in the Options dialog box.":::
 
 ### Diff & merge Tools
 
 Git will show diffs and merge conflicts in your preferred tools. The settings in this section correspond to the `git config` [diff.tool](https://git-scm.com/docs/git-config#Documentation/git-config.txt-difftool) and [merge.tool](https://git-scm.com/docs/git-config#Documentation/git-config.txt-mergetool) settings. You can configure Git to use Visual Studio as your merge or diff tool in **Git Global Settings** and **Git Repository Settings** by selecting **Use Visual Studio**. To configure other diff and merge tools, use `git config` with the [diff.tool](https://git-scm.com/docs/git-config#Documentation/git-config.txt-difftool) or [merge.tool](https://git-scm.com/docs/git-config#Documentation/git-config.txt-mergetool) switch.
 
-    :::image type="content" source="media/tools-setting.png" alt-text="Screenshot that shows the section to set default Diff tool and Merge tool in the Options dialog box.":::
+:::image type="content" source="media/tools-setting.png" alt-text="Screenshot that shows the section to set default Diff tool and Merge tool in the Options dialog box.":::
 
 ### Git files
 
 The **Git files** section is available in the **Git Repository Settings** scope and allows you to view and edit the [gitignore](https://git-scm.com/docs/gitignore) and [gitattributes](https://git-scm.com/docs/gitattributes) files for your repository.
 
-    :::image type="content" source="media/git-files-setting.png" alt-text="Screenshot that shows the section to view and edit the Ignore and attributes files in your repository.":::
+:::image type="content" source="media/git-files-setting.png" alt-text="Screenshot that shows the section to view and edit the Ignore and attributes files in your repository.":::
 
 ### Remotes
 
 The **Remotes** pane under **Git Repository Settings** allows you to configure the remotes for the repository. This setting corresponds to the [git remote](https://git-scm.com/docs/git-remote) command and allows you to add, edit, or remove remotes.
 
-    :::image type="content" source="media/remotes-settings.png" alt-text="Screenshot showing the Git Remotes pane in the Options dialog box.":::
+:::image type="content" source="media/remotes-settings.png" alt-text="Screenshot showing the Git Remotes pane in the Options dialog box.":::
 
 ### Other
 
@@ -162,7 +162,7 @@ The following settings manage Git-related preferences in Visual Studio, and are 
 
 **Default location** configures the default folder in which repositories are cloned.
 
-    :::image type="content" source="media/default-location-setting.png" alt-text="Screenshot showing the default location field in the Options dialog box.":::
+:::image type="content" source="media/default-location-setting.png" alt-text="Screenshot showing the default location field in the Options dialog box.":::
 
 ### Close open solutions not under Git when opening a repository
 
@@ -171,14 +171,15 @@ By default, Visual Studio will close any open solution or folder when switching 
 - Yes: When a repository is opened, the currently open solution is always closed
 - No: When a repository is opened, Visual Studio performs a check as to whether the current solution is under Git. If it is not, then the solution remains open.
 - Always ask (default): When this is set, you can make a choice through a dialog box per repository open, whether you want to keep the current solution open or close it.
-    :::image type="content" source="media/close-sln-setting.png" alt-text="Screenshot showing the close solution setting in the Options dialog box.":::
+
+:::image type="content" source="media/close-sln-setting.png" alt-text="Screenshot showing the close solution setting in the Options dialog box.":::
 
 
 ### Enable download of author images from 3rd party source
 
 Enable download of author images from 3rd party source is a Visual Studio specific setting at global scope. When checked, author images are downloaded from the [Gravatar image service](https://en.gravatar.com/), if available, and displayed in the commit and history views.
 
-    :::image type="content" source="media/download-image-setting.png" alt-text="Screenshot showing checkbox to enable download of author images from 3ed party source in the Options dialog box. ":::
+:::image type="content" source="media/download-image-setting.png" alt-text="Screenshot showing checkbox to enable download of author images from 3ed party source in the Options dialog box. ":::
 
 >[!IMPORTANT]
 >In order to provide author images in the Commit and History views, the tool creates an MD5 hash for the author email addresses stored in the active repository. This hash is then sent to Gravatar to find a matching hash value for users that have previously signed up for the service. If a match is found, the user image will be retrieved from the service and displayed in Visual Studio. Users that have not configured the service will return a randomly generated image. Note, email addresses are not recorded by Visual Studio, nor are they ever shared with Gravatar or any other third party.
@@ -187,7 +188,7 @@ Enable download of author images from 3rd party source is a Visual Studio specif
 
 When **Commit changes after merge by default** is enabled, Git automatically creates a new commit when a branch is merged with the current branch.
 
-    :::image type="content" source="media/merge-commit-setting.png" alt-text="Screenshot showing the checkbox to commit changes after merge by default in the Options dialog box.":::
+:::image type="content" source="media/merge-commit-setting.png" alt-text="Screenshot showing the checkbox to commit changes after merge by default in the Options dialog box.":::
 
 - When checked, `git merge` commands issued by Visual Studio are run with the `--commit` option.
 - When unchecked, `git merge` commands issued by Visual Studio are run with the `--no-commit --no-ff` options.
@@ -198,7 +199,7 @@ For more information on these options, see [--commit and --no-commit](https://gi
 
 When enabled, this setting allows you to `push --force-with-lease` from within Visual Studio. By default **Enable push --force-with-lease** is disabled.
 
-    :::image type="content" source="media/push-force-setting.png" alt-text="Screenshot showing the checkbox to enable push force with lease in the Options dialog box.":::
+:::image type="content" source="media/push-force-setting.png" alt-text="Screenshot showing the checkbox to enable push force with lease in the Options dialog box.":::
 
 For more information, see [push --force-with-lease](https://git-scm.com/docs/git-push#Documentation/git-push.txt---no-force-with-lease).
 
@@ -206,19 +207,19 @@ For more information, see [push --force-with-lease](https://git-scm.com/docs/git
 <!-- todo: write section -->
 Opening or switching to a Git repository in Visual Studio loads the Git context so that you can view changes, commits, branches, and manage your repository from within the IDE. In addition, Visual Studio will also load the code of the repository in Solution Explorer. Visual Studio will scan the repository folder for solutions, CMakeLists.txt, or any other view files that it recognizes and display them as a list in Solution Explorer. From there, you can select a solution to load or the folder to view the directory contents. When you turn off this checkbox, then Visual Studio will not open the repository folder in Solution Explorer. This will essentially allow you to open Visual Studio as a Git repository manager only. This setting is on by default.
 
-    :::image type="content" source="media/open-folder-setting.png" alt-text="Screenshot showing the checkbox to open folder when opening a Git repository in the Options dialog box.":::
+:::image type="content" source="media/open-folder-setting.png" alt-text="Screenshot showing the checkbox to open folder when opening a Git repository in the Options dialog box.":::
 
 ### Automatically load the solution when opening a Git repository
 
 This setting is applicable only when the [Open folder in Solution Explorer when opening a Git repository](#open-folder-in-solution-explorer-when-opening-a-git-repository) setting is turned on. When you open a Git repository in Visual Studio, and the subsequent folder scan detects there is only one solution present in your repository, then Visual Studio automatically loads that solution. If you turn off the setting, then the Solution Explorer will display the single solution present in the repository in the list of views. But it will not load the solution. By default, this setting is off.
 
-    :::image type="content" source="media/load-solution-setting.png" alt-text="Screenshot showing the checkbox to automatically load the solution when opening a Git repository in the Options dialog box.":::
+:::image type="content" source="media/load-solution-setting.png" alt-text="Screenshot showing the checkbox to automatically load the solution when opening a Git repository in the Options dialog box.":::
 
 ### Automatically check out branches with double-click or Enter key
 
 The Git Repository window has a list of branches displayed in a tree structure. Single selecting a branch will switch the commit history pane to display the commits for the selected branch. To check out a branch, you can right-click to open the context menu and select **Checkout**. If you turn on this setting, then double-clicking or pressing the Enter key will check out the branch and display its commits. 
   
-    :::image type="content" source="media/checkout-branch-setting.png" alt-text="Screenshot showing the checkbox to check out branches with double-click or Enter key in the Options dialog box.":::
+:::image type="content" source="media/checkout-branch-setting.png" alt-text="Screenshot showing the checkbox to check out branches with double-click or Enter key in the Options dialog box.":::
 
 
 ## See also
