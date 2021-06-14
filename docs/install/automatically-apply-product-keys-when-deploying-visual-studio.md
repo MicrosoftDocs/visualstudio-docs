@@ -76,12 +76,6 @@ The following example shows a command line for applying the license for Visual S
 
 ::: moniker-end
 
-::: moniker range=">=vs-2022"
-
-Visual Studio 2022 is currently in preview and during the preview period Visual Studio 2022 is available under an evaluation license which does not require product key to be applied.
-
-::: moniker-end
-
 ::: moniker range="vs-2017"
 
  The following table lists the MPC codes for each edition of Visual Studio:
