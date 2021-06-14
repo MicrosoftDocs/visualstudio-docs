@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: b6fbfa3e-654a-462f-8e22-e313b6ea617f
-ms.date: 02/19/2021
+ms.date: 06/10/2021
 ms.topic: conceptual
 description: Learn what happens when your Visual Studio subscription expires
 ---
@@ -24,7 +24,7 @@ The product keys page, <https://my.visualstudio.com/productkeys>, is no longer a
 Not all benefits are impacted in the same way when a subscription expires.  No benefits may be activated after your subscription expires.  Benefits you have previously activated may still be available.  
 
 ### Visual Studio IDE
-Most subscriptions provide perpetual licenses for the Visual Studio IDE. Download the Visual Studio [Licensing White Paper](https://aka.ms/vslicensing) to determine if your subscription is eligible for perpetual use rights.  If your subscription is eligible for perpetual use rights, you will continue to have access to your current version of the IDE but will not receive updates to future versions. To continue using the IDE after expiration, you will need to go to the [product key page](https://my.visualstudio.com/productkeys) and download the product key **before your subscription expires**.
+Most subscriptions provide perpetual licenses for the Visual Studio IDE. Download the Visual Studio [Licensing White Paper](https://aka.ms/vslicensing) to determine if your subscription is eligible for perpetual use rights.  If your subscription is eligible, you will continue to have access to your **current version** of the IDE but will not receive updates to future versions. To continue using the IDE after expiration, you will need to go to the [product key page](https://my.visualstudio.com/productkeys) and download the product key **before your subscription expires**.  After claiming the key, you'll need to [enter it](https://docs.microsoft.com/visualstudio/ide/how-to-unlock-visual-studio?view=vs-2019#enter-a-product-key) to activate your IDE installation.  
 
 ### Azure DevOps
 Azure DevOps acquired through a Visual Studio subscription will be unavailable.  
