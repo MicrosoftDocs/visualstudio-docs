@@ -1,5 +1,5 @@
 ---
-title: Work with solutions and projects
+title: "Create &amp; use Visual Studio projects &amp; solutions"
 description: Learn about the difference between solutions and projects and how to use them in Visual Studio.
 ms.custom: "SEO-VS-2020, contperf-fy21q2"
 ms.date: 12/23/2020
@@ -17,7 +17,9 @@ manager: jmartens
 ms.workload:
 - multiple
 ---
-# Work with solutions and projects
+# Create, work with, and delete Visual Studio projects and solutions
+
+In this article, you'll learn how to create and use Visual Studio projects using templates or custom designed to store the artifacts you need to build your apps. 
 
 *Projects* hold the items needed to build your app in Visual Studio, such as source code files, bitmaps, icons, and component and service references. When you create a new project, Visual Studio creates a *solution* to contain the project. You can then add other new or existing projects to the solution if you want. Solutions can also contain files that aren't connected to any specific project.
 
