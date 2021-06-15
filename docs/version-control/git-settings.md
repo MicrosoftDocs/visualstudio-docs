@@ -157,7 +157,7 @@ The following settings manage Git-related preferences in Visual Studio, and are 
 - [Enable push --force](#enable-push---force-with-lease)
 - [Open folder in Solution Explorer when opening a Git repository](#open-folder-in-solution-explorer-when-opening-a-git-repository)
 - [Automatically load the solution when opening a Git repository](#automatically-load-the-solution-when-opening-a-git-repository)
-- [Automatically check out branches with double-click or Enter key](#automatically-check-out-branches-with-double-click-or-enter-key)
+- [Automatically check out branches with double-click or the Enter key](#automatically-check-out-branches-with-double-click-or-the-enter-key)
 
 ### Default location
 
@@ -216,7 +216,7 @@ This setting is applicable only when the [Open folder in Solution Explorer when 
 
 :::image type="content" source="media/load-solution-setting.png" alt-text="Screenshot showing the checkbox to automatically load the solution when opening a Git repository in the Options dialog box.":::
 
-### Automatically check out branches with double-click or Enter key
+### Automatically check out branches with double-click or the Enter key
 
 The Git Repository window has a list of branches displayed in a tree structure. Single selecting a branch will switch the commit history pane to display the commits for the selected branch. To check out a branch, you can right-click to open the context menu and select **Checkout**. If you turn on this setting, then double-clicking or pressing the Enter key will check out the branch and display its commits. 
   
