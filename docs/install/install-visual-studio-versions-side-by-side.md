@@ -52,7 +52,7 @@ When upgrading from one minor version of Visual Studio to the next, the Visual S
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 1. Download the Visual Studio 2019 bootstrapper file from either the [Visual Studio downloads page](https://visualstudio.microsoft.com/downloads) or the [Visual Studio 2019 Releases](https://docs.microsoft.com/visualstudio/releases/2019/history#installing-an-earlier-release) page for the minor version that you would like to install side-by-side with your existing version of Visual Studio.
 
@@ -70,7 +70,7 @@ When upgrading from one minor version of Visual Studio to the next, the Visual S
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 3. Run the following command, specifying a new folder path for the installation location and replacing the .exe file name with the appropriate bootstrapper name for the version of Visual Studio you are installing. The .exe file name should match or be similar to one of the following files:
 
