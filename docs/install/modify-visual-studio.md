@@ -4,7 +4,7 @@ titleSuffix: ''
 description: Learn how to modify Visual Studio, step-by-step.
 ms.date: 10/12/2020
 ms.topic: how-to
-ms.custom: contperf-fy21q2
+ms.custom: acquisition
 helpviewer_keywords:
 - modify Visual Studio
 - change visual studio
