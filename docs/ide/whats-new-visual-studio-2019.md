@@ -18,7 +18,7 @@ ms.workload:
 ---
 # What's new in Visual Studio 2019
 
-**Updated for the 16.10 release.** See [full release notes](/visualstudio/releases/2019/release-notes/) | [Product roadmap](/visualstudio/productinfo/vs-roadmap)
+**Updated for the 16.10 release.** See [full release notes](/visualstudio/releases/2019/release-notes/) | View [product roadmap](/visualstudio/productinfo/vs-roadmap)
 
 >[!div class="button"]
 >[Download Visual Studio 2019](https://visualstudio.microsoft.com/downloads)
