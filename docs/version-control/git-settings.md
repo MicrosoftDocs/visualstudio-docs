@@ -1,20 +1,21 @@
 ---
-title: Git Settings
+title: Git settings in Visual Studio
 titleSuffix: ""
-description: How gitconfig files and git preferences work and are used in Visual Studio
+description: Learn how Visual Studio uses .gitconfig files and Git settings to manage your preferences
 ms.date: 06/08/2021
 ms.topic: conceptual
 ms.author: prnadago
 author: prnadago
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
-ms.manager:
+ms.manager: jmartens
+monikerRange: ">=vs-2019"
 ---
 # Git settings and preferences in Visual Studio
 
-Visual Studio allows you to configure and view common Git settings and preferences, such as your name and email address, your preferred diff and merge tools, and more. These preferences and settings can be viewed and configured in the **Options dialog box** on either the **Git Global Settings** page (applies to all your repositories) or the **Git Repository Settings** page (applies to the current repository).
+In Visual Studio, you can configure and view common Git settings and preferences, such as your name and email address, your preferred diff and merge tools, and more. These settings and preferences can be viewed and configured in the **Options dialog box** on either the **Git Global Settings** page (applies to all your repositories) or the **Git Repository Settings** page (applies to the current repository).
 
-Visual Studio allows you to configure two types of settings:
+You can configure two types of settings:
 
 - [Git settings](#git-settings) - The settings in this section correspond to Git settings that are saved in Git configuration files. These settings can be viewed and modified in Visual Studio, but are managed by Git configuration files.
 - [Visual Studio settings](#visual-studio-settings) - The settings in this section configure Git-related settings and preferences that are managed by Visual Studio.
@@ -29,13 +30,13 @@ Visual Studio allows you to configure two types of settings:
 
 :::image type="content" source="media/source-control-settings.png" alt-text="The navigation pane in the Options dialog box with a callout to Git settings.":::
 
-3. Visual Studio allows you to configure several common Git settings, as described in the following sections of this article. After configuring your desired settings, select **OK** to save the updated settings.
+3. You can configure several common Git settings, as described in the following sections of this article. After configuring your desired settings, select **OK** to save the updated settings.
 
 :::image type="content" source="media/ok-button.png" alt-text="The display area of the Options dialog box with a callout to the OK button.":::
 
 ## Git settings
 
-Visual Studio allows you to configure and check some of the most common Git configuration settings. The settings in this section can be viewed and modified in Visual Studio, but are managed by Git configuration files.
+You can also configure and check some of the most common Git configuration settings. You can view and modify the following settings in Visual Studio, even though they are managed by Git configuration files.
 
 - [Name and email](#name-and-email)
 - [Prune remote branches during fetch](#prune-remote-branches-during-fetch)
@@ -45,7 +46,7 @@ Visual Studio allows you to configure and check some of the most common Git conf
 - [Diff & merge Tools](#diff--merge-tools)
 - [Git files](#git-files)
 - [Remotes](#remotes)
-- [Other](#other)
+- [Other settings](#other-settings)
 
 >[!NOTE]
 >Git settings configured in Visual Studio's **Global Settings** correspond to settings in Git's user-specific configuration file, and the settings in **Repository Settings** correspond to settings in the repository-specific configuration file. For more information about Git configuration, see the [Pro Git chapter on customizing Git](https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration), the [git-config documentation](https://git-scm.com/docs/git-config), and the [Pro Git reference on configuration files](https://git-scm.com/docs/git-config#FILES). To configure Git settings not exposed in Visual Studio, use the `git config` command to write a value to your configuration files: `git config [--local|--global|--system] section.key value`.
@@ -64,7 +65,7 @@ The name and email that you provide will be used as the committer information fo
 
 Pruning removes remote-tracking branches that no longer exist on the remote and helps you keep your branches list clean and up to date. This setting is available at both global and repository scopes, and corresponds to the `git config` [fetch.prune](https://git-scm.com/docs/git-config#Documentation/git-config.txt-fetchprune) setting.
 
-We recommend setting this option to **True** at the global level. Valid settings are:
+We recommend setting this option to **True** at the global level. Valid settings are, as follows:
 
 - True (recommended)
 - False
@@ -76,9 +77,9 @@ We recommend setting this option to **True** at the global level. Valid settings
 
 :::image type="content" source="media/prune-setting.png" alt-text="Screenshot that shows 'Prune remote branches during fetch' highlighted and with 'True' selected from the drop-down.":::    
 
-### Rebase local branch when pulling
+### Rebase local branch in a pull
 
-Rebasing sets aside the changes made by commits in the current branch that are not in the upstream branch, resets the current branch to the upstream branch, then applies the changes that were set aside. This setting is available at both global and repository scopes, and corresponds to the `git config` [pull.rebase](https://git-scm.com/docs/git-config#Documentation/git-config.txt-pullrebase) setting. Valid settings are:
+Rebasing sets aside the changes made by commits in the current branch that are not in the upstream branch, resets the current branch to the upstream branch, then applies the changes that were set aside. This setting is available at both global and repository scopes, and corresponds to the `git config` [pull.rebase](https://git-scm.com/docs/git-config#Documentation/git-config.txt-pullrebase) setting. Valid settings are, as follows:
 
 - True: Rebase current branch on top of upstream branch after fetch.
 - False: Merge the current branch into the upstream branch.
@@ -97,7 +98,7 @@ To configure `pull.rebase` to use interactive mode, use the command line.
 
 ### Cryptographic network provider
 
-Cryptographic network provider is a Git configuration setting at global scope that configures which TLS/SSL backend to use at runtime, and corresponds to the `git config` [http.sslBackend](https://git-scm.com/docs/git-config#Documentation/git-config.txt-httpsslBackend) setting. The values are:
+Cryptographic network provider is a Git configuration setting at global scope that configures which TLS/SSL backend to use at runtime, and corresponds to the `git config` [http.sslBackend](https://git-scm.com/docs/git-config#Documentation/git-config.txt-httpsslBackend) setting. The values are, as follows:
 
 - OpenSSL: Use [OpenSSL](https://www.openssl.org/) for TLS and SSL protocols.
 - Secure Channel: Use [Secure Channel (schannel)](/windows/win32/secauthn/secure-channel) for TLS and SSL protocols. Schannel is the native Windows solution, accessing the Windows Credential Store, thereby allowing for enterprise-wide management of certificates.
@@ -111,7 +112,7 @@ Cryptographic network provider is a Git configuration setting at global scope th
 
 ### Credential helper
 
-When Visual Studio performs a remote Git operation, the remote endpoint may reject the request because it requires credentials to be provided with the request. At that time, Git invokes a credential helper, which will return the credentials needed to perform the operation, and then will try the request again. The credential helper used corresponds to the `git config` [credential.helper](https://git-scm.com/docs/gitcredentials) setting. It is available at the global scope with the following values:
+When Visual Studio performs a remote Git operation, the remote endpoint might reject the request because it requires credentials to be provided with the request. At that time, Git invokes a credential helper, which will return the credentials needed to perform the operation, and then will try the request again. The credential helper used corresponds to the `git config` [credential.helper](https://git-scm.com/docs/gitcredentials) setting. It is available at the global scope with the following values:
 
 - GCM for Windows: Use [Git Credential Manager for Windows](https://github.com/microsoft/Git-Credential-Manager-for-Windows) as the helper.
 - GCM Core: Use [Git Credential Manager Core](https://github.com/microsoft/Git-Credential-Manager-Core) as the helper.
@@ -123,7 +124,7 @@ When Visual Studio performs a remote Git operation, the remote endpoint may reje
 
 :::image type="content" source="media/credential-helper-setting.png" alt-text="Screenshot showing the credential helper setting in the Options dialog box.":::
 
-### Diff & merge Tools
+### Diff & merge tools
 
 Git will show diffs and merge conflicts in your preferred tools. The settings in this section correspond to the `git config` [diff.tool](https://git-scm.com/docs/git-config#Documentation/git-config.txt-difftool) and [merge.tool](https://git-scm.com/docs/git-config#Documentation/git-config.txt-mergetool) settings. You can configure Git to use Visual Studio as your merge or diff tool in **Git Global Settings** and **Git Repository Settings** by selecting **Use Visual Studio**. To configure other diff and merge tools, use `git config` with the [diff.tool](https://git-scm.com/docs/git-config#Documentation/git-config.txt-difftool) or [merge.tool](https://git-scm.com/docs/git-config#Documentation/git-config.txt-mergetool) switch.
 
@@ -131,17 +132,17 @@ Git will show diffs and merge conflicts in your preferred tools. The settings in
 
 ### Git files
 
-The **Git files** section is available in the **Git Repository Settings** scope and allows you to view and edit the [gitignore](https://git-scm.com/docs/gitignore) and [gitattributes](https://git-scm.com/docs/gitattributes) files for your repository.
+You can use the **Git files** section in the **Git Repository Settings** scope to view and edit the [gitignore](https://git-scm.com/docs/gitignore) and [gitattributes](https://git-scm.com/docs/gitattributes) files for your repository.
 
 :::image type="content" source="media/git-files-setting.png" alt-text="Screenshot that shows the section to view and edit the Ignore and attributes files in your repository.":::
 
 ### Remotes
 
-The **Remotes** pane under **Git Repository Settings** allows you to configure the remotes for the repository. This setting corresponds to the [git remote](https://git-scm.com/docs/git-remote) command and allows you to add, edit, or remove remotes.
+You can use the **Remotes** pane under **Git Repository Settings** to configure the remotes for your repository. This setting corresponds to the [git remote](https://git-scm.com/docs/git-remote) command and allows you to add, edit, or remove remotes.
 
 :::image type="content" source="media/remotes-settings.png" alt-text="Screenshot showing the Git Remotes pane in the Options dialog box.":::
 
-### Other
+### Other settings
 
 To view all of your other Git configuration settings, you can open and view the configuration files themselves, or you can run `git config --list` to display the settings.
 
@@ -151,7 +152,7 @@ The following settings manage Git-related preferences in Visual Studio, and are 
 
 - [Default location](#default-location)
 - [Close open solutions not under Git when opening a repository](#close-open-solutions-not-under-git-when-opening-a-repository)
-- [Enable download of author images from 3rd party source](#enable-download-of-author-images-from-3rd-party-source)
+- [Enable download of author images from third-party sources](#enable-download-of-author-images-from-third-party-sources)
 - [Commit changes after merge by default](#commit-changes-after-merge-by-default)
 - [Enable push --force](#enable-push---force-with-lease)
 - [Open folder in Solution Explorer when opening a Git repository](#open-folder-in-solution-explorer-when-opening-a-git-repository)
@@ -166,7 +167,7 @@ The following settings manage Git-related preferences in Visual Studio, and are 
 
 ### Close open solutions not under Git when opening a repository
 
-By default, Visual Studio will close any open solution or folder when switching to another repository. At that time, it may also load the solution or folder of the new repository based on if you choose to [Open folder in Solution Explorer when opening a Git repository](#open-folder-in-solution-explorer-when-opening-a-git-repository) and [Automatically load the solution when opening a Git repository](#automatically-load-the-solution-when-opening-a-git-repository). This maintains the consistency between the open code and open repository. However, if your solution is not in the same folder root as your repository, you may want to keep the solution open when switching to its repository. This setting allows you to do that. The values are:
+By default, Visual Studio closes any open solution or folder when you switch to another repository. When it does so, it might also load the solution or folder of the new repository based on if you choose to [Open folder in Solution Explorer when opening a Git repository](#open-folder-in-solution-explorer-when-opening-a-git-repository) and [Automatically load the solution when opening a Git repository](#automatically-load-the-solution-when-opening-a-git-repository). This maintains the consistency between the open code and open repository. However, if your solution is not in the same folder root as your repository, you may want to keep the solution open when you switch to its repository. You can do that with this setting. The values are, as follows:
 
 - Yes: When a repository is opened, the currently open solution is always closed
 - No: When a repository is opened, Visual Studio performs a check as to whether the current solution is under Git. If it is not, then the solution remains open.
@@ -175,9 +176,9 @@ By default, Visual Studio will close any open solution or folder when switching 
 :::image type="content" source="media/close-sln-setting.png" alt-text="Screenshot showing the close solution setting in the Options dialog box.":::
 
 
-### Enable download of author images from 3rd party source
+### Enable download of author images from third-party sources
 
-Enable download of author images from 3rd party source is a Visual Studio specific setting at global scope. When checked, author images are downloaded from the [Gravatar image service](https://en.gravatar.com/), if available, and displayed in the commit and history views.
+Enable download of author images from third-party sources is a Visual Studio-specific setting at global scope. When checked, author images are downloaded from the [Gravatar image service](https://en.gravatar.com/), if available, and displayed in the commit and history views.
 
 :::image type="content" source="media/download-image-setting.png" alt-text="Screenshot showing checkbox to enable download of author images from 3ed party source in the Options dialog box. ":::
 
@@ -205,7 +206,7 @@ For more information, see [push --force-with-lease](https://git-scm.com/docs/git
 
 ### Open folder in Solution Explorer when opening a Git repository
 <!-- todo: write section -->
-Opening or switching to a Git repository in Visual Studio loads the Git context so that you can view changes, commits, branches, and manage your repository from within the IDE. In addition, Visual Studio will also load the code of the repository in Solution Explorer. Visual Studio will scan the repository folder for solutions, CMakeLists.txt, or any other view files that it recognizes and display them as a list in Solution Explorer. From there, you can select a solution to load or the folder to view the directory contents. When you turn off this checkbox, then Visual Studio will not open the repository folder in Solution Explorer. This will essentially allow you to open Visual Studio as a Git repository manager only. This setting is on by default.
+When you use Visual Studio to open or switch to a Git repository, Visual Studio loads the Git content so that you can view changes, commits, branches, and manage your repository from within the IDE. In addition, Visual Studio will also load the code of the repository in Solution Explorer. Visual Studio will scan the repository folder for solutions, CMakeLists.txt, or any other view files that it recognizes and display them as a list in Solution Explorer. From there, you can select a solution to load or the folder to view the directory contents. When you turn off this checkbox, then Visual Studio will not open the repository folder in Solution Explorer. This will essentially allow you to open Visual Studio as a Git repository manager only. This setting is on by default.
 
 :::image type="content" source="media/open-folder-setting.png" alt-text="Screenshot showing the checkbox to open folder when opening a Git repository in the Options dialog box.":::
 
