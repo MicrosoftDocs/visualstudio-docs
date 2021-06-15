@@ -178,7 +178,7 @@ You can also use the toggles to show/hide differences, show/hide word difference
 
 ## Personalize your Git settings
 
-To personalize and customize your Git settings at a repository level as well as at a global level, go to either **Git** > **Settings** on the menu bar, or to **Tools** > **Options** > **Source Control** on the menu bar. Then, choose the options you want.
+To personalize and customize your Git settings at a repository level as well as at a global level, go to either **Git** > **Settings** on the menu bar, or to **Tools** > **Options** > **Source Control** on the menu bar. Then, choose the [options](git-settings.md) you want.
 
 :::image type="content" source="media/git-options-settings.png" alt-text="The Options dialog box where you can choose personalization and customization settings in Visual Studio IDE ":::
 
