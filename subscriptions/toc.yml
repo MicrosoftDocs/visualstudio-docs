@@ -13,7 +13,7 @@
       - name: Overview
         href: vscloud-overview.md
       - name: Billing FAQ
-        href: vscloud-billing-faq.md
+        href: vscloud-billing-faq.yml
       - name: Buying for CSPs
         href: vscloud-csp.md
     - name: Microsoft Partner Network
