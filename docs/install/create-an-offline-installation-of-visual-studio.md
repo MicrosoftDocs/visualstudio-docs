@@ -107,10 +107,10 @@ Start by downloading the Visual Studio 2019 bootstrapper from either the [Visual
 > Released versions of Visual Studio 2022 are not yet available, the bootstrappers below are for the preview release of Visual Studio 2022.
 Start by downloading the Visual Studio 2022 bootstrapper from the [Visual Studio downloads page](https://aka.ms/vs2022preview).
 
-| Edition                         | Download                                                                             |
-|---------------------------------|--------------------------------------------------------------------------------------|
-| Visual Studio 2022 Enterprise   | [vs_enterprise.exe](https://aka.ms/vs/17/preview/bootstrapper/vs_enterprise.exe)     |
-| Visual Studio 2022 Professional | [vs_professional.exe](https://aka.ms/vs/17/preview/bootstrapper/vs_professional.exe) |
+| Edition                         | Download                                                            |
+|---------------------------------|---------------------------------------------------------------------|
+| Visual Studio 2022 Professional | [vs_professional.exe](https://aka.ms/vs/17/pre/vs_professional.exe) |
+| Visual Studio 2022 Enterprise   | [vs_enterprise.exe](https://aka.ms/vs/17/pre/vs_enterprise.exe)     |
 
 ::: moniker-end
 
@@ -212,22 +212,22 @@ c:\vslayout\vs_enterprise.exe --noweb --add Microsoft.VisualStudio.Workload.Mana
 
 ### List of language locales
 
-| **Language-locale** | **Language** |
-| ----------------------- | --------------- |
-| cs-CZ | Czech |
-| de-DE | German |
-| en-US | English |
-| es-ES | Spanish |
-| fr-FR | French |
-| it-IT | Italian |
-| ja-JP | Japanese |
-| ko-KR | Korean |
-| pl-PL | Polish |
-| pt-BR | Portuguese - Brazil |
-| ru-RU | Russian |
-| tr-TR | Turkish |
-| zh-CN | Chinese - Simplified |
-| zh-TW | Chinese - Traditional |
+| **Language-locale** | **Language**          |
+|---------------------|-----------------------|
+| cs-CZ               | Czech                 |
+| de-DE               | German                |
+| en-US               | English               |
+| es-ES               | Spanish               |
+| fr-FR               | French                |
+| it-IT               | Italian               |
+| ja-JP               | Japanese              |
+| ko-KR               | Korean                |
+| pl-PL               | Polish                |
+| pt-BR               | Portuguese - Brazil   |
+| ru-RU               | Russian               |
+| tr-TR               | Turkish               |
+| zh-CN               | Chinese - Simplified  |
+| zh-TW               | Chinese - Traditional |
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
