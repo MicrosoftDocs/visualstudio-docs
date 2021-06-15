@@ -1,7 +1,7 @@
 ---
 title: Advanced features
 description: Learn about the advanced features that might be more appropriate for experienced developers, or those developers who are already familiar with Visual Studio.
-ms.custom: SEO-VS-2020
+ms.custom: acquisition
 ms.date: 06/01/2018
 ms.topic: conceptual
 author: TerryGLee
