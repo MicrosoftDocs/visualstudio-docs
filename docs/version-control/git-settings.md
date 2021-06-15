@@ -24,15 +24,15 @@ You can configure two types of settings:
 
 1. To configure Git settings in Visual Studio, choose **Settings** from the top-level Git menu.
 
-:::image type="content" source="media/git-menu-settings.png" alt-text="The Git menu with a callout to the Settings command.":::
+   :::image type="content" source="media/git-menu-settings.png" alt-text="The Git menu with a callout to the Settings command.":::
 
 2. Choose **Git Global Settings** or **Git Repository Settings** to view and configure global-level or repository-level settings.
 
-:::image type="content" source="media/source-control-settings.png" alt-text="The navigation pane in the Options dialog box with a callout to Git settings.":::
+   :::image type="content" source="media/source-control-settings.png" alt-text="The navigation pane in the Options dialog box with a callout to Git settings.":::
 
 3. You can configure several common Git settings, as described in the following sections of this article. After configuring your desired settings, select **OK** to save the updated settings.
 
-:::image type="content" source="media/ok-button.png" alt-text="The display area of the Options dialog box with a callout to the OK button.":::
+   :::image type="content" source="media/ok-button.png" alt-text="The display area of the Options dialog box with a callout to the OK button.":::
 
 ## Git settings
 
@@ -59,7 +59,7 @@ The name and email that you provide will be used as the committer information fo
 
 2. Provide your user name and email, then choose **OK** to save. 
 
-  :::image type="content" source="media/user-email-setting.png" alt-text="Git Global settings pane in Options dialog box with a callout to username an email.":::
+   :::image type="content" source="media/user-email-setting.png" alt-text="Git Global settings pane in Options dialog box with a callout to username an email.":::
 
 ### Prune remote branches during fetch
 
@@ -108,7 +108,7 @@ Cryptographic network provider is a Git configuration setting at global scope th
 
 2. Set **Cryptographic network provider** to the desired value, and select **OK** to save.
 
-    :::image type="content" source="media/network-provider-setting.png" alt-text="Screenshot that shows 'Cryptographic network provider' highlighted with 'OpenSSL' selected from the drop-down.":::
+   :::image type="content" source="media/network-provider-setting.png" alt-text="Screenshot that shows 'Cryptographic network provider' highlighted with 'OpenSSL' selected from the drop-down.":::
 
 ### Credential helper
 
@@ -180,7 +180,7 @@ By default, Visual Studio closes any open solution or folder when you switch to 
 
 Enable download of author images from third-party sources is a Visual Studio-specific setting at global scope. When checked, author images are downloaded from the [Gravatar image service](https://en.gravatar.com/), if available, and displayed in the commit and history views.
 
-:::image type="content" source="media/download-image-setting.png" alt-text="Screenshot showing checkbox to enable download of author images from 3ed party source in the Options dialog box. ":::
+:::image type="content" source="media/download-image-setting.png" alt-text="Screenshot showing checkbox to enable download of author images from third-party source in the Options dialog box. ":::
 
 >[!IMPORTANT]
 >In order to provide author images in the Commit and History views, the tool creates an MD5 hash for the author email addresses stored in the active repository. This hash is then sent to Gravatar to find a matching hash value for users that have previously signed up for the service. If a match is found, the user image will be retrieved from the service and displayed in Visual Studio. Users that have not configured the service will return a randomly generated image. Note, email addresses are not recorded by Visual Studio, nor are they ever shared with Gravatar or any other third party.
