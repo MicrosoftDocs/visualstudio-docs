@@ -38,3 +38,4 @@ Clicking OK in the **Options** dialog box saves all settings on all pages. Click
 ## See also
 
 - [Customizing the Editor](../how-to-change-text-case-in-the-editor.md)
+- [Git settings and preferences](../../version-control/git-settings.md)
