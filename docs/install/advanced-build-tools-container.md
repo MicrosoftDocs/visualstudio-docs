@@ -24,7 +24,7 @@ The sample Dockerfile in [Install Build Tools into a container](build-tools-cont
 ::: moniker range=">=vs-2022"
 
 >[!IMPORTANT]
->Visual Studio 2022 is currently in preview and is not recommended for use in production environments.
+> Visual Studio 2022 is currently in preview and is not [licensed](https://visualstudio.microsoft.com/license-terms/vs2022-prerelease/) for use in production environments.
 
 ::: moniker-end
 
@@ -157,7 +157,7 @@ ENTRYPOINT ["C:\\BuildTools\\Common7\\Tools\\VsDevCmd.bat", "&&", "powershell.ex
 ::: moniker range=">=vs-2022"
 
 >[!IMPORTANT]
->This is using a preview version of Visual Studio 2022 which is not supported for use in production environments.
+> Visual Studio 2022 is currently in preview and is not [licensed](https://visualstudio.microsoft.com/license-terms/vs2022-prerelease/) for use in production environments.
 
 ```dockerfile
 # escape=`
