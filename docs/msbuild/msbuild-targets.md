@@ -50,6 +50,8 @@ Therefore, to extend the behavior of an existing target, create new target and s
 </Target>
 ```
 
+Give your target a descriptive name, as you would name a function in code.
+
 ## Target build order
 
  Targets must be ordered if the input to one target depends on the output of another target.
