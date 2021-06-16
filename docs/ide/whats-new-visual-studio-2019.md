@@ -216,7 +216,7 @@ For more information, see the [Pinnable Properties: Debug & Display Managed Obje
 
 We update Visual Studio often with new features that can make your development experience even better. To learn more about our latest innovations, check out the [Visual Studio Blog](https://devblogs.microsoft.com/visualstudio/). For a record of what we've released in preview to date, take a look at the [Preview Release Notes](/visualstudio/releases/2019/release-notes-preview/). And for a list of what we're planning to release next, see the [Visual Studio Roadmap](/visualstudio/productinfo/vs-roadmap).
 
-Meanwhile, here is a new feature that's currently in the works.
+Meanwhile, here's what's currently in the works:
 
 - **Improved Git experience in Visual Studio 2019 (Preview)**
 
