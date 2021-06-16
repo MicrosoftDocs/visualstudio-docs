@@ -2,7 +2,7 @@
 title: "What's new in Visual Studio 2019"
 titleSuffix: ""
 description: "Learn about the new features in Visual Studio 2019."
-ms.date: 05/28/2021
+ms.date: 06/17/2021
 helpviewer_keywords:
   - "Visual Studio, what's new"
   - "what's new [Visual Studio]"
@@ -214,7 +214,7 @@ For more information, see the [Pinnable Properties: Debug & Display Managed Obje
 
 ## What's next
 
-We update Visual Studio 2019 often with new features that can make your development experience even better. To learn more about our latest innovations, check out the [Visual Studio Blog](https://devblogs.microsoft.com/visualstudio/). For a record of what we've released in preview to date, take a look at the [Preview Release Notes](/visualstudio/releases/2019/release-notes-preview/). And for a list of what we're planning to release next, see the [Visual Studio Roadmap](/visualstudio/productinfo/vs-roadmap).
+We update Visual Studio often with new features that can make your development experience even better. To learn more about our latest innovations, check out the [Visual Studio Blog](https://devblogs.microsoft.com/visualstudio/). For a record of what we've released in preview to date, take a look at the [Preview Release Notes](/visualstudio/releases/2019/release-notes-preview/). And for a list of what we're planning to release next, see the [Visual Studio Roadmap](/visualstudio/productinfo/vs-roadmap).
 
 Meanwhile, here is a new feature that's currently in the works.
 
@@ -224,10 +224,11 @@ Meanwhile, here is a new feature that's currently in the works.
 
    For more information, see the [Version control in Visual Studio](/visualstudio/version-control/) page.
 
-For more information about the Preview release of Visual Studio 2019&mdash;and a download link if you'd like to try it out&mdash;see the **[Visual Studio Preview](https://aka.ms/vspreview/)** page.
+<!--For more information about the Preview release of Visual Studio 2019&mdash;and a download link if you'd like to try it out&mdash;see the **[Visual Studio Preview](https://aka.ms/vspreview/)** page.-->
 
-> [!TIP]
-> To learn more about our next version, see the **[Visual Studio 2022](https://devblogs.microsoft.com/visualstudio/visual-studio-2022/)** blog post.
+- **The first public preview of Visual Studio 2022 is now available**
+
+    The public preview of our next major release, [Visual Studio 2022](https://devblogs.microsoft.com/visualstudio/visual-studio-2022/), is now available. The new version is faster, more approachable, and more lightweight. And, for the first time ever, Visual Studio is 64-bit. For a download link and more info, see the **[Download Visual Studio 2022 Preview 1](https://devblogs.microsoft.com/visualstudio/?p=232975&preview=true)** blog post.
 
 ## Give us feedback
 
