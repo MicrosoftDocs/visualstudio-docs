@@ -20,20 +20,20 @@ ms.technology: vs-installation
 ---
 # Install and use Visual Studio and Azure Services behind a firewall or proxy server
 
-If you or your organization uses security measures such as a firewall or a proxy server, then there are domain URLs that you might want to add to an "allow list" and ports and protocols that you might want to open so that you have the best experience when you install and use Visual Studio and Azure Services.
+If you or your organization uses security measures such as a firewall or a proxy server, then there are domain URLs that you might want to add to an "allowlist" and ports and protocols that you might want to open so that you have the best experience when you install and use Visual Studio and Azure Services.
 
-* **[Install Visual Studio](#install-visual-studio)**: These tables include the domain URLs to add to an allow list so that you have access to all the components and workloads that you want.
+* **[Install Visual Studio](#install-visual-studio)**: These tables include the domain URLs to add to an allowlist so that you have access to all the components and workloads that you want.
 
-* **[Use Visual Studio and Azure Services](#use-visual-studio-and-azure-services)**: This table includes the domain URLs to add to an allow list and the ports and protocols to open so that you have access to all the features and services that you want.
+* **[Use Visual Studio and Azure Services](#use-visual-studio-and-azure-services)**: This table includes the domain URLs to add to an allowlist and the ports and protocols to open so that you have access to all the features and services that you want.
 
 > [!NOTE]
 > This article was written for Visual Studio on Windows, but certain information is also applicable to [installing Visual Studio for Mac](/visualstudio/mac/install-behind-a-firewall-or-proxy-server) behind a firewall or proxy server.
 
 ## Install Visual Studio
 
-### URLs to add to an allow list
+### URLs to add to an allowlist
 
-Because the Visual Studio Installer downloads files from various domains and their download servers, here are the domain URLs that you might want to add to an allow list as trusted in the UI or in your deployment scripts.
+Because the Visual Studio Installer downloads files from various domains and their download servers, here are the domain URLs that you might want to add to an allowlist as trusted in the UI or in your deployment scripts.
 
 #### Microsoft domains
 
@@ -80,9 +80,9 @@ Because the Visual Studio Installer downloads files from various domains and the
 
 ## Use Visual Studio and Azure Services
 
-### URLs to add to an allow list and ports and protocols to open
+### URLs to add to an allowlist and ports and protocols to open
 
-To make sure that you have access to everything you want when you use Visual Studio or Azure Services behind a firewall or proxy server, here are the URLs you should add to an allow list and the ports and protocols that you might want to open.
+To make sure that you have access to everything you want when you use Visual Studio or Azure Services behind a firewall or proxy server, here are the URLs you should add to an allowlist and the ports and protocols that you might want to open.
 
 | Service or scenario                                                                                                                                                       | DNS endpoint                                                                                                                                                                                                                                                                                                                                                                                                                                         | Protocol/Port                                                                                                                                                                                    | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
