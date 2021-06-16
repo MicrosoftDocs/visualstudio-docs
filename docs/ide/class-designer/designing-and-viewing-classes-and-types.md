@@ -24,6 +24,9 @@ ms.workload:
 
 Design, visualize, and refactor classes and other types in your code with **Class Designer** in Visual Studio. Use class diagrams to create and edit classes in your C#, Visual Basic, or C++ project. You can also use class diagrams to understand your project structure better or reorganize your code.
 
+>[!NOTE]
+>Class Designer is not available in .NET Core projects.
+
 ## What you can do with class diagrams
 
 - **Design**: Edit your project's code by editing the class diagram. Add new elements and delete unwanted ones. Your changes are reflected in code.

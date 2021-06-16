@@ -26,7 +26,17 @@ You create a project from a template using **File** > **New** > **Project**. To 
 
 ![New project dialog for web apps](media/projects-new-project-dialog-web.png)
 
+::: moniker range="<=vs-2017"
+
 The generic **Web Project** template, mentioned earlier, provides only an empty Visual Studio project with no code and no assumptions other than being a Python project. For details on the **Azure Cloud Service** template, see [Azure cloud service projects for Python](python-azure-cloud-service-project-template.md).
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+The generic **Web Project** template, mentioned earlier, provides only an empty Visual Studio project with no code and no assumptions other than being a Python project.
+
+::: moniker-end
 
 All the other templates are based on the Bottle, Flask, or Django web frameworks, and fall into three general groups as described in the following sections. The apps created by any of these templates contain sufficient code to run and debug the app locally. Each one also provides the necessary [WSGI app object](https://www.python.org/dev/peps/pep-3333/) (python.org) for use with production web servers.
 
@@ -74,7 +84,11 @@ If you're using source control, you typically omit the virtual environment folde
 
 When deploying to Microsoft Azure App Service, select a version of Python as a [site extension](./managing-python-on-azure-app-service.md?view=vs-2019&preserve-view=true) and manually install packages. Also, because Azure App Service does **not** automatically install packages from a *requirements.txt* file when deployed from Visual Studio, follow the configuration details on [aka.ms/PythonOnAppService](managing-python-on-azure-app-service.md).
 
+::: moniker range="<=vs-2017"
+
 Microsoft Azure Cloud Services *does* support the *requirements.txt* file. See [Azure cloud service projects](python-azure-cloud-service-project-template.md) for details.
+
+::: moniker-end
 
 ## Debugging
 
@@ -136,11 +150,15 @@ Pyramid apps are currently best created using the `pcreate` command-line tool. O
 
 If you have settings for another framework that you would like to share, or if you'd like to request settings for another framework, open an [issue on GitHub](https://github.com/Microsoft/PTVS/issues).
 
+::: moniker range="<=vs-2017"
+
 ## Convert a project to Azure Cloud Service
 
 The **Convert to Microsoft Azure Cloud Service Project** command (image below) adds a cloud service project to your solution. This project includes the deployment settings and configuration for the virtual machines and services to be used. Use the **Publish** command on the cloud project to deploy to Cloud Services; the **Publish** command on the Python project still deploys to Web Sites. For more information, see [Azure cloud service projects](python-azure-cloud-service-project-template.md).
 
 ![Convert to Microsoft Azure cloud service project command](media/template-web-convert-menu.png)
+
+::: moniker-end
 
 ## See also
 
