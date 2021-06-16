@@ -1,7 +1,7 @@
 ---
 title: "Tutorial: Get started with Visual Basic"
 description: "Learn how to create Visual Basic console apps in Visual Studio, step-by-step."
-ms.custom: "seodec18, get-started"
+ms.custom: "acquisition, seodec18, get-started"
 ms.date: 02/10/2021
 ms.technology: vs-ide-general
 ms.prod: visual-studio-windows
