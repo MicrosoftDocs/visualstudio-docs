@@ -24,6 +24,8 @@ landingContent:
         links:
           - text: Git experience in Visual Studio
             url: git-with-visual-studio.md
+          - text: Git settings and preferences
+            url: git-settings.md
       - linkListType: concept
         links:
           - text: How Visual Studio makes source control easy
