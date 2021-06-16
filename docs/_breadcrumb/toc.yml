@@ -107,6 +107,9 @@
       - name: VSTO
         tocHref: /visualstudio/vsto/
         topicHref: /visualstudio/vsto/create-vsto-add-ins-for-office-by-using-visual-studio
+    - name: Version Control
+      tocHref: /visualstudio/version-control
+      topicHref: /visualstudio/version-control/index
     - name: Azure Development
       tocHref: /visualstudio/azure
       topicHref: /visualstudio/azure/index
