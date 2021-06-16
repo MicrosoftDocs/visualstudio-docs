@@ -103,7 +103,7 @@ Start by downloading the Visual Studio 2019 bootstrapper from either the [Visual
 
 ::: moniker range=">=vs-2022"
 
->![!TIP]
+>[!TIP]
 > Released versions of Visual Studio 2022 are not yet available, the bootstrappers below are for the preview release of Visual Studio 2022.
 Start by downloading the Visual Studio 2022 bootstrapper from the [Visual Studio downloads page](https://aka.ms/vs2022preview).
 
