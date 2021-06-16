@@ -26,7 +26,7 @@ The following table lists the build numbers and release dates for Visual Studio 
 | 17.0.0 | Preview 1 | June 17, 2021 | 17.0.31410.414 |
 
 > [!NOTE]
-> For a list of the build numbers and release dates for the previous version, see [Visual Studio 2019 build numbers and release dates](visual-studio-build-numbers-and-release-dates.md?view=vs-2019&preserve-view=true).
+> To view data for the previous version, see [Visual Studio 2019 build numbers and release dates](visual-studio-build-numbers-and-release-dates.md?view=vs-2019&preserve-view=true).
 
 ::: moniker-end
 
@@ -236,9 +236,9 @@ The following table lists the build numbers and release dates for Visual Studio 
 | 16.0.0 | Preview 1 | December 4, 2018 | 16.0.28329.73 |
 
 > [!NOTE]
-> For a list of the build numbers and release dates for the *previous* version, see [Visual Studio 2017 build numbers and release dates](visual-studio-build-numbers-and-release-dates.md?view=vs-2017&preserve-view=true).
+> To view data for the *previous* version, see [Visual Studio 2017 build numbers and release dates](visual-studio-build-numbers-and-release-dates.md?view=vs-2017&preserve-view=true).
 >
->And for a list of the build numbers and release dates for the *next* version, see [Visual Studio 2022 build numbers and release dates](visual-studio-build-numbers-and-release-dates.md?view=vs-2022&preserve-view=true).
+>To view data for the *next* version, see [Visual Studio 2022 build numbers and release dates](visual-studio-build-numbers-and-release-dates.md?view=vs-2022&preserve-view=true).
 
 ::: moniker-end
 
@@ -431,7 +431,7 @@ The following table lists the build numbers and release dates for Visual Studio 
 | 15.0.0 | Release | March 7, 2017 | 15.0.26228.4 |
 
 > [!NOTE]
-> For more information about build numbers and release dates for the next version of Visual Studio, see the [Visual Studio 2019 build numbers and release dates](?preserve-view=true&view=vs-2019) page.
+> To view data for newer versions, see either [Visual Studio 2019 build numbers and release dates](?preserve-view=true&view=vs-2019) or [Visual Studio 2022 build numbers and release dates](?preserve-view=true&view=vs-2022).
 
 ::: moniker-end
 
