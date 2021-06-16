@@ -145,7 +145,7 @@ A conda environment is one created using the `conda` tool, or with integrated co
 
 ::: moniker range=">=vs-2019"
 
-1. Select **+ Add Environment** in the **Python Environments** window (or from the Python toolbar), which opens the **Add environment** dialog box. In that dialog, select the **Conda environment** tab:
+1. Select **Add Environment...** in the **Python Environments** window (or from the Python toolbar), which opens the **Add environment** dialog box. In that dialog, select the **Conda environment** tab:
 
     ![Conda environment tab in the Add environment dialog](media/environments/environments-conda-1-2019.png)
 
@@ -225,7 +225,7 @@ Use the following steps to identify an environment that's installed in a non-sta
 
 ::: moniker range=">=vs-2019"
 
-1. Select **+ Add Environment** in the **Python Environments** window (or from the Python toolbar), which opens the **Add environment** dialog box. In that dialog, select the **Existing environment** tab:
+1. Select **Add Environment...** in the **Python Environments** window (or from the Python toolbar), which opens the **Add environment** dialog box. In that dialog, select the **Existing environment** tab:
 
     ![Existing environment tab in the Add environment dialog](media/environments/environments-custom-1-2019.png)
 
