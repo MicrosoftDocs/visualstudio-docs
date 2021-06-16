@@ -60,32 +60,22 @@ When upgrading from one minor version of Visual Studio to the next, the Visual S
 
 1. Download the latest bootstrapper for Visual Studio 2017 version 15.9 from the [Visual Studio previous versions](https://visualstudio.microsoft.com/vs/older-downloads/) page for the version that you would like to install side-by-side with your existing version of Visual Studio.
 
-::: moniker-end
-
-::: moniker range="vs-2019"
-
-1. Download the Visual Studio 2019 bootstrapper file from either the [Visual Studio downloads page](https://visualstudio.microsoft.com/downloads) or the [Visual Studio 2019 Releases](/visualstudio/releases/2019/history#installing-an-earlier-release) page for the minor version that you would like to install side-by-side with your existing version of Visual Studio.
-
-::: moniker-end
-
-::: moniker range=">=vs-2022"
-
-1. Download the Visual Studio 2022 bootstrapper file from either the [Visual Studio downloads page](https://visualstudio.microsoft.com/downloads) or the [Visual Studio 2022 Releases](/visualstudio/releases/2022/history) page for the minor version that you would like to install side-by-side with your existing version of Visual Studio.
-
-::: moniker-end
-
 1. Open the command prompt in administrator mode. To do this, open the Windows Start menu, type "cmd", right-click on the Command Prompt search result, and select **Run as administrator**. In the command prompt, change the directory to the folder where your Visual Studio bootstrapper file is located.
-
-::: moniker range="vs-2017"
 
 1. Run the following command, specifying a new folder path for the installation location and replacing the .exe file name with the appropriate bootstrapper name for the version of Visual Studio you are installing. The .exe file name should match or be similar to one of the following files:
 
    * vs_enterprise.exe for Visual Studio Enterprise
    * vs_professional.exe for Visual Studio Professional
 
+1. Follow the installer dialogs to select the components you need for your installation. For more information, see [Install Visual Studio](install-visual-studio.md#step-4---choose-workloads).
+
 ::: moniker-end
 
 ::: moniker range="vs-2019"
+
+1. Download the Visual Studio 2019 bootstrapper file from either the [Visual Studio downloads page](https://visualstudio.microsoft.com/downloads) or the [Visual Studio 2019 Releases](/visualstudio/releases/2019/history#installing-an-earlier-release) page for the minor version that you would like to install side-by-side with your existing version of Visual Studio.
+
+1. Open the command prompt in administrator mode. To do this, open the Windows Start menu, type "cmd", right-click on the Command Prompt search result, and select **Run as administrator**. In the command prompt, change the directory to the folder where your Visual Studio bootstrapper file is located.
 
 1. Run the following command, specifying a new folder path for the installation location and replacing the .exe file name with the appropriate bootstrapper name for the version of Visual Studio you are installing. The .exe file name should match or be similar to one of the following files:
 
@@ -97,9 +87,15 @@ When upgrading from one minor version of Visual Studio to the next, the Visual S
    vs_Enterprise.exe --installPath "C:\Program Files (x86)\Microsoft Visual Studio\<AddNewPath>"
    ```
 
+1. Follow the installer dialogs to select the components you need for your installation. For more information, see [Install Visual Studio](install-visual-studio.md#step-4---choose-workloads).
+
 ::: moniker-end
-  
+
 ::: moniker range=">=vs-2022"
+
+1. Download the Visual Studio 2022 bootstrapper file from either the [Visual Studio downloads page](https://visualstudio.microsoft.com/downloads) or the [Visual Studio 2022 Releases](/visualstudio/releases/2022/history) page for the minor version that you would like to install side-by-side with your existing version of Visual Studio.
+
+1. Open the command prompt in administrator mode. To do this, open the Windows Start menu, type "cmd", right-click on the Command Prompt search result, and select **Run as administrator**. In the command prompt, change the directory to the folder where your Visual Studio bootstrapper file is located.
 
 1. Run the following command, specifying a new folder path for the installation location and replacing the .exe file name with the appropriate bootstrapper name for the version of Visual Studio you are installing. The .exe file name should match or be similar to one of the following files:
 
@@ -111,9 +107,9 @@ When upgrading from one minor version of Visual Studio to the next, the Visual S
    vs_Enterprise.exe --installPath "C:\Program Files\Microsoft Visual Studio\<AddNewPath>"
    ```
 
-::: moniker-end
-
 1. Follow the installer dialogs to select the components you need for your installation. For more information, see [Install Visual Studio](install-visual-studio.md#step-4---choose-workloads).
+   
+::: moniker-end
 
 ## .NET Framework versions and side-by-side installations
 
