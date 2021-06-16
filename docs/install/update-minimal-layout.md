@@ -55,9 +55,9 @@ This tool creates update layouts for Visual Studio 2017 (15.9) and onwards. The 
 
    For this command, a `MinimalLayout.json` file path from an already generated layout is required.
 
-```shell
-MinimalLayout.exe regenerate --filePath C:\MinimalLayout\MinimalLayout.json
-```
+   ```shell
+   MinimalLayout.exe regenerate --filePath C:\MinimalLayout\MinimalLayout.json
+   ```
 
 * **Verify**: Use this command to determine if the layout folder is corrupted.
 * **Fix**: Use this command to fix a corrupted layout folder, including replacing any missing packages from the layout folder.
@@ -241,25 +241,25 @@ The update is applied to a Visual Studio instance in two steps. Start by updatin
 
 ::: moniker range="vs-2017"
 
-  ```shell
-  vs_enterprise.exe update --noWeb --quiet --installpath "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise"
-  ```
+    ```shell
+    vs_enterprise.exe update --noWeb --quiet --installpath "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise"
+    ```
 
 ::: moniker-end
 
 ::: moniker range="vs-2019"
 
-  ```shell
-  vs_enterprise.exe update --noWeb --quiet --installpath "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise"
-  ```
+    ```shell
+    vs_enterprise.exe update --noWeb --quiet --installpath "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise"
+    ```
 
 ::: moniker-end
 
 ::: moniker range=">=vs-2022"
 
-  ```shell
-  vs_enterprise.exe update --noWeb --quiet --installpath "C:\Program Files\Microsoft Visual Studio\2022\Enterprise"
-  ```
+    ```shell
+    vs_enterprise.exe update --noWeb --quiet --installpath "C:\Program Files\Microsoft Visual Studio\2022\Enterprise"
+    ```
 
 ::: moniker-end
 
