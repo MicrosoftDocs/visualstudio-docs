@@ -16,7 +16,7 @@ ms.workload:
 ---
 # Create a new project in Visual Studio
 
-In this article, we'll show you how to quickly create a new project in Visual Studio.
+In this article, we'll show you how to quickly create a new project in Visual Studio from a template.
 
 ::: moniker range="vs-2017"
 
