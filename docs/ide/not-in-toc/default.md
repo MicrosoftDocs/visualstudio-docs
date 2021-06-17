@@ -37,3 +37,5 @@ It looks like we couldn't find what you were looking for, and we apologize.
 ## Give feedback
 
 Tell us what keyword you were looking for and where you were in the product using the Feedback button at the bottom of this page. 
+
+:::image type="content" source="/media/search-error-page.png" alt-text="Sorry we couldn't find a match":::
