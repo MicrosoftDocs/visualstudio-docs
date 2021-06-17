@@ -21,7 +21,7 @@ ms.technology: vs-installation
 
 Administrators who deploy Visual Studio can specify a response file by using the `--in` parameter, as in the following example:
 
-```cmd
+```shell
 vs_enterprise.exe --in customInstall.json
 ```
 

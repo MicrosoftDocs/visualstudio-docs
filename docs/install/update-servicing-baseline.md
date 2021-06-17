@@ -16,7 +16,7 @@ monikerRange: ">=vs-2019"
 ---
 # Update Visual Studio while on a servicing baseline
 
-We update Visual Studio often during its product lifecycle. There are two types of updates: 
+We update Visual Studio often during its product lifecycle. There are two types of updates:
 
 * **Minor release updates**&mdash;for example, 16.0 to 16.1&mdash;that include new features and components.  
 * **Servicing updates**—for example, 16.0.4 to 16.0.5—that include only targeted fixes for critical issues.
@@ -45,7 +45,7 @@ Administrators who use a network layout installation should modify the `channelU
 
 For an internet-based installation, add `--channelUri` with a non-existent channel manifest to the command-line used to launch setup. This disables Visual Studio from using the latest available release for an update. Here's an example:
 
-```cmd
+```shell
 vs_enterprise.exe --channelUri c:\doesnotexist.chman
 ```
 
@@ -63,15 +63,27 @@ For an internet-based installation, run the new fixed version bootstrapper with 
 
 1. Update the Visual Studio installer:
 
-    ```cmd
+    ```shell
     vs_enterprise.exe --quiet --update
     ```
 
+::: moniker range="vs-2019"
+ 
 2. Update the Visual Studio application itself:
-
-    ```cmd
+    ```shell
     vs_enterprise.exe update --installPath "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise" --quiet --wait --norestart --channelUri c:\doesnotexist.chman
     ```
+
+::: moniker-end
+
+::: moniker range=">=vs-2022"
+
+2. Update the Visual Studio application itself:
+    ```shell
+    vs_enterprise.exe update --installPath "C:\Program Files\Microsoft Visual Studio\2022\Enterprise" --quiet --wait --norestart --channelUri c:\doesnotexist.chman
+    ```
+
+::: moniker-end
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 

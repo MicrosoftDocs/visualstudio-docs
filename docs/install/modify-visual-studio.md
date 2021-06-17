@@ -113,7 +113,6 @@ To make modifications to your installation, you need to launch the Visual Studio
 
 1. If desired, choose the **Workloads** tab, and then select or deselect the workloads that you want.
 
-
 1. After the new workloads are installed, choose **Launch** from the Visual Studio Installer to open Visual Studio.
 
 ::: moniker-end
@@ -141,7 +140,6 @@ To make modifications to your installation, you need to launch the Visual Studio
 
 ::: moniker-end
 
-
 >[!TIP]
 > For information about the SQL Server Data Tools (SSDT) component, see [Download and install SSDT for Visual Studio](/sql/ssdt/download-sql-server-data-tools-ssdt?view=sql-server-ver15&preserve-view=true).
 
@@ -150,9 +148,10 @@ To make modifications to your installation, you need to launch the Visual Studio
 By default, the installer matches the language of the operating system when it runs for the first time. However, you can change the language whenever you want. 
 
 To do so:
+
 1. Choose the **Language packs** tab in the Visual Studio Installer.
-2. Select the language you prefer.
-3. Follow the prompts.
+1. Select the language you prefer.
+1. Follow the prompts.
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
