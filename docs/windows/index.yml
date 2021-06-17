@@ -21,9 +21,9 @@ highlightedContent:
    - title: Welcome to the Visual Studio IDE
      itemType: overview
      url: ../get-started/visual-studio-ide.md
-   - title: Visual Studio 2019 Release Notes
+   - title: Visual Studio 2022 Preview
      itemType: whats-new
-     url: /visualstudio/releases/2019/release-notes/
+     url: /visualstudio/releases/2022/release-notes-preview
    - title: Improve your Visual Studio skills
      itemType: learn
      url: /learn/browse/?products=vs
