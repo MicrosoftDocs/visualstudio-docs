@@ -1,6 +1,6 @@
 ---
 title: Default page for F1 help
-description: "Default page for F1 help requests for Visual Studio"
+description: "Oops! No F1 match found."
 ms.prod: visual-studio
 ms.technology: 
 ms.date: 03/25/2021
@@ -13,9 +13,9 @@ manager: jmartens
 author: mikejo5000
 ms.author: mikejo
 ---
-# Oops! No F1 match found.
+# Oops! No F1 match found
 
-It looks like we couldn't find what you were looking for, and we apologize. 
+We're sorry! It looks like we couldn't find what you were looking for. 
 
 ## Now what?
 
@@ -31,11 +31,11 @@ It looks like we couldn't find what you were looking for, and we apologize.
 - Browse the Knowledge Base for [Visual Studio troubleshooting](/troubleshoot/visualstudio/welcome-visual-studio/)
 
 
-**If you didn't mean to click**, [re-map or disable the F1 help key](../not-in-toc/change-f1-help-key.md)
+**If you didn't mean to click**, [remap or disable the F1 help key](../not-in-toc/change-f1-help-key.md)
 
 
 ## Give feedback
 
-Tell us what keyword you were looking for and where you were in the product using the Feedback button at the bottom of this page. 
+Tell us what keyword you were looking for and where you were in the product. Use the Feedback button at the bottom of this page. 
 
 :::image type="content" source="/media/search-error-page.png" alt-text="Sorry we couldn't find a match":::
