@@ -33,6 +33,6 @@ We're sorry! It looks like we couldn't find what you were looking for.
 ## Help us serve you better
 
 Tell us what keyword you were looking for and where you were in the product. 
-Use the `This Page` feedback button at the bottom of this page. 
+<br/>Use the `This Page` feedback button at the bottom of this page. 
 
 :::image type="content" source="../media/search-error-page.png" alt-text="Sorry we couldn't find a match" border="false":::
