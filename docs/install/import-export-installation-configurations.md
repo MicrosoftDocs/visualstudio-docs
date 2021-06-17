@@ -60,7 +60,7 @@ When you're ready to import an installation configuration file, follow these ste
 
 1. Make sure you've got the workloads and components that you want, and then choose **Close**.
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 ## Automatically install missing components
 

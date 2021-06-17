@@ -31,6 +31,13 @@ In this 10-minute introduction to the code editor in Visual Studio, we'll add co
 
 ::: moniker-end
 
+::: moniker range="vs-2022"
+
+> [!TIP]
+> If you haven't already installed Visual Studio Preview, go to the [Visual Studio 2022 Preview downloads](https://visualstudio.microsoft.com/vs/preview/vs2022) page to install it for free.
+
+::: moniker-end
+
 This article assumes you're already familiar with Visual Basic. If you aren't, we suggest you look at a tutorial such as [Get started with Visual Basic in Visual Studio](../../get-started/visual-basic/tutorial-console.md) first.
 
 > [!TIP]
