@@ -17,34 +17,60 @@ ms.technology: vs-installation
 
 You can apply your product key programmatically as part of a script that is used to automate the deployment of Visual Studio. You can set a product key on a device programmatically either during an installation of Visual Studio or after an installation completes.
 
-## Apply the license after installation
+::: moniker range=">=vs-2022"
+
+> [!IMPORTANT]
+> Visual Studio 2022 is currently in preview and during the preview period Visual Studio 2022 is available under an evaluation license which does not require product key to be applied.
+
+::: moniker-end
 
 ::: moniker range="vs-2017"
 
-You can activate an installed version of Visual Studio with a product key by using the `StorePID.exe` utility on the target machines, in silent mode. `StorePID.exe` is a utility program that installs with Visual Studio 2017 at the following default location: <br> `C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE`
+## Apply the license after installation
 
-::: moniker-end
+You can activate an installed version of Visual Studio with a product key by using the `StorePID.exe` utility on the target machines, in silent mode. `StorePID.exe` is a utility program that installs with Visual Studio 2017 at the following default location:
 
-::: moniker range="vs-2019"
-
-You can activate an installed version of Visual Studio with a product key by using the `StorePID.exe` utility on the target machines, in silent mode. `StorePID.exe` is a utility program that installs with Visual Studio 2019 at the following default location: <br> `C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE`
-
-::: moniker-end
+```shell
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE
+```
 
  Run `StorePID.exe` with elevated privileges, either by using a System Center agent or an elevated command prompt. Follow it with the product key and the Microsoft Product Code (MPC).
 
 >[!IMPORTANT]
 > Make sure to include the dashes in the product key.
 
- ```cmd
+ ```shell
  StorePID.exe [product key including the dashes] [MPC]
  ```
+
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+## Apply the license after installation
+
+You can activate an installed version of Visual Studio with a product key by using the `StorePID.exe` utility on the target machines, in silent mode. `StorePID.exe` is a utility program that installs with Visual Studio 2019 at the following default location:
+
+```shell
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE
+```
+
+ Run `StorePID.exe` with elevated privileges, either by using a System Center agent or an elevated command prompt. Follow it with the product key and the Microsoft Product Code (MPC).
+
+>[!IMPORTANT]
+> Make sure to include the dashes in the product key.
+
+ ```shell
+ StorePID.exe [product key including the dashes] [MPC]
+ ```
+
+::: moniker-end
 
 ::: moniker range="vs-2017"
 
 The following example shows a command line for applying the license for Visual Studio 2017 Enterprise, which has an MPC of 08860, a product key of `AAAAA-BBBBB-CCCCC-DDDDDD-EEEEEE`, and assumes a default installation location:
 
-```cmd
+```shell
 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\StorePID.exe" AAAAA-BBBBB-CCCCC-DDDDDD-EEEEEE 08860
 ```
 
@@ -54,7 +80,7 @@ The following example shows a command line for applying the license for Visual S
 
 The following example shows a command line for applying the license for Visual Studio 2019 Enterprise, which has an MPC of 09260, a product key of `AAAAA-BBBBB-CCCCC-DDDDDD-EEEEEE`, and assumes a default installation location:
 
-```cmd
+```shell
 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\StorePID.exe" AAAAA-BBBBB-CCCCC-DDDDDD-EEEEEE 09260
 ```
 
@@ -81,6 +107,8 @@ The following example shows a command line for applying the license for Visual S
 
 ::: moniker-end
 
+::: moniker range="vs-2017"
+
 If `StorePID.exe` successfully applies the product key, it returns an `%ERRORLEVEL%` of 0. If it encounters errors, it returns one of the following codes, depending on the error condition:
 
 | Error                     | Code |
@@ -94,7 +122,28 @@ If `StorePID.exe` successfully applies the product key, it returns an `%ERRORLEV
 | `PID_ACTION_NOUPGRADE`    | 6    |
 
 > [!NOTE]
-> When you run a virtual instance of Visual Studio, make sure that you also virtualize the local AppData folder and the registry. To troubleshoot virtual instances, run `C:\Program Files (x86)\Microsoft Visual Studio\<version>\Common7\IDE\DDConfigCA.exe`.  
+> When you run a virtual instance of Visual Studio, make sure that you also virtualize the local AppData folder and the registry. To troubleshoot virtual instances, run `<Visual Studio installation directory>\Common7\IDE\DDConfigCA.exe`.  
+
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+If `StorePID.exe` successfully applies the product key, it returns an `%ERRORLEVEL%` of 0. If it encounters errors, it returns one of the following codes, depending on the error condition:
+
+| Error                     | Code |
+|---------------------------|------|
+| `PID_ACTION_SUCCESS`      | 0    |
+| `PID_ACTION_NOTINSTALLED` | 1    |
+| `PID_ACTION_INVALID`      | 2    |
+| `PID_ACTION_EXPIRED`      | 3    |
+| `PID_ACTION_INUSE`        | 4    |
+| `PID_ACTION_FAILURE`      | 5    |
+| `PID_ACTION_NOUPGRADE`    | 6    |
+
+> [!NOTE]
+> When you run a virtual instance of Visual Studio, make sure that you also virtualize the local AppData folder and the registry. To troubleshoot virtual instances, run `<Visual Studio installation directory>\Common7\IDE\DDConfigCA.exe`.  
+
+::: moniker-end
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
