@@ -35,6 +35,12 @@ If you haven't already installed Visual Studio, go to the [Visual Studio downloa
 
 ::: moniker-end
 
+::: moniker range="vs-2022"
+
+If you haven't already installed Visual Studio 2022 Preview, go to the [Visual Studio 2022 Preview downloads](https://visualstudio.microsoft.com/vs/preview/vs2022) page to install it for free.
+
+::: moniker-end
+
 ### Choose your theme (optional)
 
 This quickstart tutorial includes screenshots that use the dark theme. If you aren't using the dark theme but would like to, see the [Personalize the Visual Studio IDE and Editor](quickstart-personalize-the-ide.md) page to learn how.
@@ -75,7 +81,7 @@ Soon after, Visual Studio opens your project file.
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 1. In the start window, choose **Create a new project**.
 
@@ -171,7 +177,7 @@ Congratulations on completing this Quickstart! We hope you learned a little bit 
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 1. In the **Solution Explorer**, expand the **Pages** folder, and then choose **Index.cshtml**.
 

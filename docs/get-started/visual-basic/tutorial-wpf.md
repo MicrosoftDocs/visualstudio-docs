@@ -25,9 +25,15 @@ If you haven't already installed Visual Studio, go to the [Visual Studio downloa
 
 ::: moniker-end
 
-::: moniker range=">=vs-2019"
+::: moniker range="vs-2019"
 
 If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads) page to install it for free.
+
+::: moniker-end
+
+::: moniker range="vs-2022"
+
+If you haven't already installed Visual Studio 2022 Preview, go to the [Visual Studio 2022 Preview downloads](https://visualstudio.microsoft.com/vs/preview/vs2022) page to install it for free.
 
 ::: moniker-end
 
@@ -71,9 +77,9 @@ Visual Studio creates the HelloWPFApp project and solution, and **Solution Explo
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
-1. Open Visual Studio 2019.
+1. Open Visual Studio.
 
 2. On the **Create a new project** screen, search for "WPF", and choose **WPF App (.NET Framework)**, and then choose **Next**.
 
@@ -322,6 +328,12 @@ Congratulations on completing this tutorial! You can find the *.exe* you built u
 ::: moniker range="vs-2019"
 
 - [What's new in Visual Studio 2019](../../ide/whats-new-visual-studio-2019.md)
+- [Productivity tips](../../ide/productivity-features.md)
+
+::: moniker-end
+
+::: moniker range="vs-2022"
+
 - [Productivity tips](../../ide/productivity-features.md)
 
 ::: moniker-end

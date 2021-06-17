@@ -31,7 +31,7 @@ For lists of the workloads and components that you can install by using the comm
 
 * Install a minimal instance of Visual Studio, with no interactive prompts but progress displayed:
 
-  ```cmd
+  ```shell
    vs_enterprise.exe --installPath C:\minVS ^
    --add Microsoft.VisualStudio.Workload.CoreEditor ^
    --passive --norestart
@@ -39,7 +39,7 @@ For lists of the workloads and components that you can install by using the comm
 
 * Update a Visual Studio instance by using the command line, with no interactive prompts but progress displayed:
 
-   ```cmd
+   ```shell
    vs_enterprise.exe --update --quiet --wait
    vs_enterprise.exe update --wait --passive --norestart --installPath "C:\installPathVS"
    ```
@@ -49,7 +49,7 @@ For lists of the workloads and components that you can install by using the comm
 
 * Install a desktop instance of Visual Studio silently, with the French language pack, returning only when the product is installed.
 
-  ```cmd
+  ```shell
    vs_enterprise.exe --installPath C:\desktopVS ^
    --addProductLang fr-FR ^
    --add Microsoft.VisualStudio.Workload.ManagedDesktop ^
@@ -60,7 +60,7 @@ For lists of the workloads and components that you can install by using the comm
 
 * Use in batch files or scripts to wait for the Visual Studio installer to complete before the next command is executed. For batch files, an `%ERRORLEVEL%` environment variable will contain the return value of the command, as documented in the [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md) page. Some command utilities require additional parameters to wait for completion and to get the installer's return value. The following is an example of the additional parameters used with the PowerShell script command 'Start-Process':
 
-   ```cmd
+   ```shell
    start /wait vs_professional.exe --installPath "C:\VS" --passive --wait > nul
    echo %errorlevel%
    ```
@@ -88,7 +88,7 @@ For lists of the workloads and components that you can install by using the comm
 
 * Download the Visual Studio core editor (the most minimal Visual Studio configuration). Only include the English language pack:
 
-  ```cmd
+  ```shell
    vs_community.exe --layout C:\VS ^
    --lang en-US ^
    --add Microsoft.VisualStudio.Workload.CoreEditor
@@ -96,7 +96,7 @@ For lists of the workloads and components that you can install by using the comm
 
 * Download the .NET desktop and .NET web workloads along with all recommended components and the GitHub extension. Only include the English language pack:
 
-  ```cmd
+  ```shell
    vs_community.exe --layout C:\VS ^
    --lang en-US ^
    --add Microsoft.VisualStudio.Workload.NetWeb ^
@@ -109,7 +109,7 @@ For lists of the workloads and components that you can install by using the comm
 
 * Start an interactive installation of all workloads and components that are available in the Visual Studio Enterprise edition:
 
-   ```cmd
+   ```shell
    vs_enterprise.exe --all
    ```
 
@@ -117,7 +117,7 @@ For lists of the workloads and components that you can install by using the comm
 
 * Install a second, named instance of Visual Studio Professional on a machine with Visual Studio Community edition already installed, with support for Node.js development:
 
-   ```cmd
+   ```shell
    vs_professional.exe --installPath C:\VSforNode ^
    --add Microsoft.VisualStudio.Workload.Node --includeRecommended --nickname VSforNode
   ```
@@ -128,7 +128,7 @@ For lists of the workloads and components that you can install by using the comm
 
 * Remove the Profiling Tools component from the default installed Visual Studio instance:
 
-  ```cmd
+  ```shell
    vs_enterprise.exe modify ^
    --installPath "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise" ^
    --remove Microsoft.VisualStudio.Component.DiagnosticTools ^
@@ -141,9 +141,22 @@ For lists of the workloads and components that you can install by using the comm
 
 * Remove the Profiling Tools component from the default installed Visual Studio instance:
 
-  ```cmd
+  ```shell
    vs_enterprise.exe modify ^
    --installPath "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise" ^
+   --remove Microsoft.VisualStudio.Component.DiagnosticTools ^
+   --passive
+  ```
+
+::: moniker-end
+
+::: moniker range=">=vs-2022"
+
+* Remove the Profiling Tools component from the default installed Visual Studio instance:
+
+  ```shell
+   vs_enterprise.exe modify ^
+   --installPath "C:\Program Files\Microsoft Visual Studio\2022\Enterprise" ^
    --remove Microsoft.VisualStudio.Component.DiagnosticTools ^
    --passive
   ```
@@ -184,13 +197,13 @@ This command-line command is **new in 15.9**. For more information about it, see
 
 * Using export to save the selection from an installation:
 
-  ```cmd
+  ```shell
   "C:\Program Files (x86)\Microsoft Visual Studio\Installer\vs_installer.exe" export --installPath "C:\VS" --config "C:\.vsconfig"
   ```
 
 * Using export to save custom selection from scratch:
 
-  ```cmd
+  ```shell
   "C:\Program Files (x86)\Microsoft Visual Studio\Installer\vs_installer.exe" export --add Microsoft.VisualStudio.Workload.ManagedDesktop --includeRecommended --config "C:\.vsconfig"
   ```
 
@@ -204,13 +217,13 @@ This command-line parameter is **new in 15.9**. For more information about it, s
 
 * Using --config to install the workloads and components from a previously saved installation configuration file:
 
-  ```cmd
+  ```shell
   vs_enterprise.exe --config "C:\.vsconfig" --installPath "C:\VS"
   ```
 
 * Using --config to add workloads and components to an existing installation:
 
-  ```cmd
+  ```shell
   vs_enterprise.exe modify --installPath "C:\VS" --config "C:\.vsconfig"
   ```
 

@@ -28,7 +28,7 @@ This administrator guide provides scenario-based guidance for enterprise deploym
 
 Before you deploy Visual Studio across your organization, there are a few decisions to make and tasks to complete:
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 * Make sure that each target computer meets the [minimum installation requirements](/visualstudio/releases/2019/system-requirements/).
 
@@ -54,7 +54,7 @@ Before you deploy Visual Studio across your organization, there are a few decisi
 
   For computers that are not connected to the internet, creating a minimal layout is the easiest and fastest way to update your offline Visual Studio instances. For more information, see [Update Visual Studio using a minimal offline layout](update-minimal-layout.md).
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 * Decide which [workloads and components](workload-and-component-ids.md?view=vs-2019&preserve-view=true) your company needs.
 
@@ -72,7 +72,7 @@ Before you deploy Visual Studio across your organization, there are a few decisi
 
 * Decide if you want to enable Group Policy, and if you want to configure Visual Studio to disable customer feedback on individual computers.
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 ## Step 1 - Download Visual Studio product files
 
