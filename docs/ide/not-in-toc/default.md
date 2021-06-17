@@ -19,7 +19,7 @@ We're sorry! It looks like we couldn't find what you were looking for.
 
 ## Now what?
 
-**If you're looking for `F1` help on a window, a keyword, or an API name:**
+**Looking for `F1` help on a window, a keyword, or an API name?**
 - **[Recommended] Try your favorite search engine**
 - Use the [docs.microsoft.com](/) toolbar to search 
 - See our reference documentation on [.NET API browser](/dotnet/api/)
@@ -27,13 +27,14 @@ We're sorry! It looks like we couldn't find what you were looking for.
 - Browse the Knowledge Base for [Visual Studio troubleshooting](/troubleshoot/visualstudio/welcome-visual-studio/)
 
 
-**If you didn't mean to click**, [remap or disable the `F1` help key](../not-in-toc/change-f1-help-key.md)
+**Didn't mean to click?**, [remap or disable the `F1` help key](../not-in-toc/change-f1-help-key.md)
 
 
-## Give feedback
+## Help us serve you better
 
-Tell us what keyword you were looking for and where you were in the product. Use the `This Page` feedback button at the bottom of this page. 
+Tell us what keyword you were looking for and where you were in the product. 
+Use the `This Page` feedback button at the bottom of this page. 
 
 :::image type="content" source="\media\search-error-page.png" alt-text="Sorry we couldn't find a match":::
 
-:::image type="content" source="media\search-error-page.png" alt-text="Sorry we couldn't find a match":::
+:::image type="content" source="media/search-error-page.png" alt-text="Sorry we couldn't find a match":::
