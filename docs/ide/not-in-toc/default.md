@@ -36,5 +36,3 @@ We're sorry! It looks like we couldn't find what you were looking for.
 
 Tell us where you were in the product and what help you needed.   
 <br/>Use the `This Page` feedback button at the bottom of this page. 
-
-:::image type="content" source="../media/search-error-page.png" alt-text="Sorry we couldn't find a match" border="false":::
