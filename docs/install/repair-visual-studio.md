@@ -55,7 +55,7 @@ Sometimes your Visual Studio installation becomes damaged or corrupted. A repair
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 1. Find the **Visual Studio Installer** on your computer.
 
