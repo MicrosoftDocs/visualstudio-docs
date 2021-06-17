@@ -27,7 +27,7 @@ We're sorry! It looks like we couldn't find what you were looking for.
 - Browse the Knowledge Base for [Visual Studio troubleshooting](/troubleshoot/visualstudio/welcome-visual-studio/)
 
 
-**Didn't mean to click?**, [remap or disable the `F1` help key](../not-in-toc/change-f1-help-key.md)
+**Didn't mean to click?** [Remap or disable the `F1` help key](../not-in-toc/change-f1-help-key.md)
 
 
 ## Help us serve you better
