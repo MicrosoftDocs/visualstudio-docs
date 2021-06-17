@@ -20,7 +20,7 @@ We're sorry! It looks like we couldn't find what you were looking for.
 ## Now what?
 
 **Looking for `F1` help on a window, a keyword, or an API name?**
-- **[Recommended] Try your favorite search engine**
+- Try your favorite search engine **[Recommended]**
 - Use the [docs.microsoft.com](/) toolbar to search 
 - See our reference documentation on [.NET API browser](/dotnet/api/)
 - Get help on the [text code editor](../../ide/writing-code-in-the-code-and-text-editor.md)
@@ -35,6 +35,4 @@ We're sorry! It looks like we couldn't find what you were looking for.
 Tell us what keyword you were looking for and where you were in the product. 
 Use the `This Page` feedback button at the bottom of this page. 
 
-:::image type="content" source="\media\search-error-page.png" alt-text="Sorry we couldn't find a match":::
-
-:::image type="content" source="media/search-error-page.png" alt-text="Sorry we couldn't find a match":::
+:::image type="content" source="../media/search-error-page.png" alt-text="Sorry we couldn't find a match" border="false":::
