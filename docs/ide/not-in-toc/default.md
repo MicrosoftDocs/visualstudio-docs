@@ -5,7 +5,7 @@ ms.prod: visual-studio
 ms.technology: 
 ms.date: 06/20/2021
 ms.topic: error-reference
-ms.custom: contperf-fy21q3
+ms.custom: contperf-fy21q4
 robots: noindex,nofollow
 f1_keywords:
 - vs.ambient
@@ -16,6 +16,8 @@ ms.author: mikejo
 # Oops! No `F1` help match was found
 
 We're sorry! It looks like we couldn't find what you were looking for. 
+
+:::image type="content" source="../media/search-error-page-sm.png" alt-text="Sorry we couldn't find a match" border="false":::
 
 ## Now what?
 
@@ -32,7 +34,7 @@ We're sorry! It looks like we couldn't find what you were looking for.
 
 ## Help us serve you better
 
-Tell us what keyword you were looking for and where you were in the product. 
+Tell us where you were in the product and what help you needed.   
 <br/>Use the `This Page` feedback button at the bottom of this page. 
 
 :::image type="content" source="../media/search-error-page.png" alt-text="Sorry we couldn't find a match" border="false":::
