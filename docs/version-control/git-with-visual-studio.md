@@ -2,7 +2,7 @@
 title: The Git experience in Visual Studio 2019
 titleSuffix: ""
 description: Learn how the new integrated Git experience in Visual Studio 2019 can help you be more productive.
-ms.date: 04/01/2021
+ms.date: 06/17/2021
 ms.topic: overview
 ms.author: tglee
 author: TerryGLee
@@ -182,11 +182,15 @@ To personalize and customize your Git settings at a repository level as well as 
 
 :::image type="content" source="media/git-options-settings.png" alt-text="The Options dialog box where you can choose personalization and customization settings in Visual Studio IDE ":::
 
+::: moniker range="vs-2019"
+
 ## How to use the full Team Explorer experience in Visual Studio
 
 The new Git experience is the default version control system in Visual Studio 2019 from [version 16.8](/visualstudio/releases/2019/release-notes/) onwards. However, if you want to turn it off, you can. Go to **Tools** > **Options** > **Environment** > **Preview Features** and then toggle the **New Git user experience** checkbox, which will switch you back to Team Explorer for Git.
 
 :::image type="content" source="media/git-opt-new-user-experience.png" alt-text="The Preview Features section of the Options dialog box in Visual Studio ":::
+
+::: moniker-end
 
 ## What's next
 
