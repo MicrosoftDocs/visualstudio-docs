@@ -68,6 +68,10 @@ To add an empty code map:
 
 Similarly, you can create a new code map file without adding it to your solution by selecting **Architecture** > **New Code Map** or **File** > **New** > **File**.
 
+Learn more:
+- [Share code maps](share-code-maps.md)
+- [Create code maps for C++](code-maps-for-cpp.md)
+- [Improve code map performance](code-maps-performance.md)
 
 ## Generate a code map for your solution
 
@@ -227,6 +231,10 @@ Suppose you have a code review to perform in some files with pending changes. To
 
 ## See also
 
+- [Share code maps](share-code-maps.md)
+- [Create code maps for C++](code-maps-for-cpp.md)
+- [Improve code map performance](code-maps-performance.md)
+- [Video: Understand design from code with Visual Studio 2015 code maps](https://channel9.msdn.com/Events/Visual-Studio/Connect-event-2015/502)
 - [Video: Understand design from code with Visual Studio 2015 code maps](https://channel9.msdn.com/Events/Visual-Studio/Connect-event-2015/502)
 - [Use code maps to debug your applications](../modeling/use-code-maps-to-debug-your-applications.md)
 - [Map methods on the call stack while debugging](../debugger/map-methods-on-the-call-stack-while-debugging-in-visual-studio.md)
