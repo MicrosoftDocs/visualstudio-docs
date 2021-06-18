@@ -1,7 +1,7 @@
 ---
 title: Attach profiler to .NET service to collect app statistics
 description: Use Visual Studio Profiling Tools command-line tools to attach the profiler to a .NET Framework service and get performance statistics using the sampling method.
-ms.custom: "SEO-VS-2020, seodec18"
+ms.custom: "SEO-VS-2020"
 ms.date: 11/04/2016
 ms.topic: how-to
 ms.assetid: a0046c47-26c8-4bec-96a0-81da05e5104a

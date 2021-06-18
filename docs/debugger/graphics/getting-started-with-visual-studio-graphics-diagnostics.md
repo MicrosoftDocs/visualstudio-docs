@@ -1,7 +1,7 @@
 ---
 title: Getting started with graphics diagnostics | Microsoft Docs
 description: Prepare to use Graphics Diagnostics for the first time, then capture frames from a Direct3D app and examine them in the Graphics Analyzer.
-ms.custom: "SEO-VS-2020, seodec18"
+ms.custom: "SEO-VS-2020"
 ms.date: 06/08/2020
 ms.topic: how-to
 author: mikejo5000

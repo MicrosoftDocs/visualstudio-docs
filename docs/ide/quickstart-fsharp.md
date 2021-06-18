@@ -3,7 +3,7 @@ title: "Quickstart: Create an ASP.NET Core web service in F#"
 description: "Learn how to create an ASP.NET Core web service in Visual Studio with F#, step-by-step."
 ms.date: 08/24/2018
 ms.topic: quickstart
-ms.custom: acquisition
+ms.custom: vs-acquisition
 author: "cartermp"
 ms.author: "phcart"
 manager: andrehal

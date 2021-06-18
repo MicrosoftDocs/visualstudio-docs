@@ -9,8 +9,8 @@ helpviewer_keywords:
 - dependency diagrams
 - diagrams - modeling, layer
 - constraints, architectural
-author: JoshuaPartlow
-ms.author: joshuapa
+author: mgoertz-msft
+ms.author: mgoertz
 manager: jmartens
 ms.workload:
 - multiple
@@ -19,7 +19,7 @@ ms.workload:
 
 Describe your app's architecture at a high level by creating *dependency diagrams* in Visual Studio. Make sure that your code stays consistent with this design by validating your code with a dependency diagram. You can also include layer validation in your build process. See [Channel 9 Video: Design and validate your architecture using dependency diagrams](https://channel9.msdn.com/Series/Visual-Studio-2012-Premium-and-Ultimate-Overview/Visual-Studio-Ultimate-2012-Using-layer-diagrams-to-design-and-validate-your-architecture).
 
-To see which editions of Visual Studio support this feature, see [Edition support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).
+To see which editions of Visual Studio support this feature, see [Edition support for architecture and modeling tools](../modeling/analyze-and-model-your-architecture.md#VersionSupport).
 
 > [!NOTE]
 > Dependency diagrams for .NET Core projects are supported starting in Visual Studio 2019 version 16.2.

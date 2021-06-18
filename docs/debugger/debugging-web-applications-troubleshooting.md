@@ -1,7 +1,7 @@
 ---
 title: "Debugging web apps - troubleshooting | Microsoft Docs"
 description: Discover links to common procedures that can be used to debug and resolve errors in web applications.
-ms.custom: "SEO-VS-2020, seodec18"
+ms.custom: "SEO-VS-2020"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:
