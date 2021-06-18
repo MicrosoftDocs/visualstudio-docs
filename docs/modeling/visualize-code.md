@@ -26,7 +26,7 @@ You can use the visualization and modeling tools in Visual Studio to help you un
 
 These tools also help you communicate more easily with the people involved with your project.
 
-To see which editions of Visual Studio support each feature, see [Edition support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport)
+To see which editions of Visual Studio support each feature, see [Edition support for architecture and modeling tools]../ide/class-designer/how-to-add-class-diagrams-to-projects.md)
 
 ## What do you want to do?
 

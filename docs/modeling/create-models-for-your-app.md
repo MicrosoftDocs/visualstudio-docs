@@ -28,7 +28,7 @@ ms.workload:
 
 Modeling diagrams help you understand, clarify, and communicate ideas about your code and the user requirements that your software system must support.
 
-To see which versions of Visual Studio support each type of diagram, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).
+To see which versions of Visual Studio support each type of diagram, see [Version support for architecture and modeling tools]../ide/class-designer/how-to-add-class-diagrams-to-projects.md).
 
 To visualize the architecture of a system or existing code, create the following diagrams:
 
