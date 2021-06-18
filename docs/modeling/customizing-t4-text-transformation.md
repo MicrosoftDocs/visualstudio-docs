@@ -7,8 +7,8 @@ ms.topic: conceptual
 helpviewer_keywords:
 - text templates, API
 - text templates, custom hosts
-author: JoshuaPartlow
-ms.author: joshuapa
+author: mgoertz-msft
+ms.author: mgoertz
 manager: jmartens
 ms.workload:
 - multiple

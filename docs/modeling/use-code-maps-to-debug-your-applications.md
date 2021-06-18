@@ -13,8 +13,8 @@ helpviewer_keywords:
 - mapping code relationships
 - code maps
 - mapping relationships in code
-author: JoshuaPartlow
-ms.author: joshuapa
+author: mgoertz-msft
+ms.author: mgoertz
 manager: jmartens
 ms.workload:
 - multiple
