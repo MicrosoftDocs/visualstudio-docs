@@ -21,7 +21,7 @@ While you don't have to sign in, there are many advantages to doing so. When you
 
 ::: moniker range="vs-2017"
 
-> [! WARNING]
+> [!WARNING]
 > To work with resources configured for conditional access, upgrade to Visual Studio 2019 Update 16.6 or later. For more information, see [How to use Visual Studio with accounts that require multi-factor authentication](work-with-multi-factor-authentication.md).
 > Using Visual Studio 2017 to access resources configured for conditional access may trigger a degraded authentication experience, prompting reauthentication several times within the same Visual Studio session. 
 > 
