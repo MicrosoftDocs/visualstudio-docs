@@ -6,7 +6,7 @@ summary: Create C# apps with Visual Studio.
 metadata:
   title: C# development with Visual Studio
   description: Create C# apps by using Visual Studio.
-  ms.custom: acquisition
+  ms.custom: vs-acquisition
   ms.topic: landing-page
   ms.date: 06/19/2021
   author: ghogen
