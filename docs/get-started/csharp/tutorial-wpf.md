@@ -1,7 +1,7 @@
 ---
 title: "Hello World app with WPF in C#"
 description: Create a simple Windows Desktop .NET app in C# with Visual Studio using the Windows Presentation Foundation (WPF) UI framework.
-ms.custom: "seodec18, get-started"
+ms.custom: "acquisition, get-started"
 ms.date: 02/10/2021
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
