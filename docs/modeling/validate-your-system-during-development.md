@@ -16,7 +16,7 @@ ms.workload:
 
 Visual Studio can help keep your software consistent with user requirements and with the architecture of your system.
 
-To see which versions of Visual Studio support each of these features, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).
+To see which versions of Visual Studio support each of these features, see [Version support for architecture and modeling tools](../modeling/analyze-and-model-your-architecture.md#VersionSupport).
 
 ## Key Tasks
 
