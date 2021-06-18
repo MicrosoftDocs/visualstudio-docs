@@ -1,7 +1,7 @@
 ---
 title: "Use dump files in the debugger | Microsoft Docs"
 description: A dump file is a snapshot of an executing app and loaded modules. Consider creating a dump file for situations where you don't have debug access to the app.
-ms.custom: "SEO-VS-2020, seodec18"
+ms.custom: "SEO-VS-2020"
 ms.date: "11/05/2018"
 ms.topic: "conceptual"
 f1_keywords:

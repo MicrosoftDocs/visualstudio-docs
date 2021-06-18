@@ -5,7 +5,7 @@ description: Learn about the Visual Studio integrated development environment.
 ms.date: 05/28/2021
 ms.technology: vs-ide-general
 ms.topic: overview
-ms.custom: [acquisition, vs-get-started, SEO-VS-2020]
+ms.custom: [vs-acquisition,  vs-get-started, SEO-VS-2020]
 author: TerryGLee
 f1_keywords:
 - vs.startpage

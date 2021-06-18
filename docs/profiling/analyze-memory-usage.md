@@ -1,7 +1,7 @@
 ---
 title: "Analyze memory usage"
 description: Learn about the tools you can use to find memory leaks and inefficient memory usage, tools such as the Memory Usage tool and the .NET Object Allocation tool.
-ms.custom: "SEO-VS-2020, seodec18"
+ms.custom: "SEO-VS-2020"
 ms.date: "10/12/2020"
 ms.topic: "conceptual"
 author: "mikejo5000"

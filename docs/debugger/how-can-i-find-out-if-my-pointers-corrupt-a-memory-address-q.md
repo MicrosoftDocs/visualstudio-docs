@@ -1,7 +1,7 @@
 ---
 title: Find out if my pointers corrupt a memory address | Microsoft Docs
 description: To determine whether your pointer is corrupting memory, you can look for heap corruption, and you can set a data breakpoint to find out how a value is modified.
-ms.custom: "SEO-VS-2020, seodec18"
+ms.custom: "SEO-VS-2020"
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 
