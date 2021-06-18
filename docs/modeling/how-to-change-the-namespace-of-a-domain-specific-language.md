@@ -6,8 +6,8 @@ ms.topic: how-to
 titleSuffix: ""
 helpviewer_keywords:
   - "Domain-Specific Language, namespace"
-author: JoshuaPartlow
-ms.author: joshuapa
+author: mgoertz-msft
+ms.author: mgoertz
 manager: jmartens
 ms.custom: SEO-VS-2020
 ms.workload:

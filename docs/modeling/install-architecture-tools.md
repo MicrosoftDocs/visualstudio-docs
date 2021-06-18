@@ -3,8 +3,8 @@ title: Install architecture code tools
 description: Install Code Map and Live Dependency Validation.
 ms.date: 05/16/2021
 ms.topic: how-to
-author: JoshuaPartlow
-ms.author: joshuapa
+author: mgoertz-msft
+ms.author: mgoertz
 manager: jmartens
 ---
 # Install Code Map and Live Dependency Validation
