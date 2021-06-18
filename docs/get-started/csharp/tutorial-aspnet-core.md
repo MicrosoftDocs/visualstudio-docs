@@ -2,7 +2,7 @@
 title: "Tutorial: Get started with C# and ASP.NET Core"
 titleSuffix: ""
 description: "Learn how to create an ASP.NET Core web app in Visual Studio with C#, step-by-step."
-ms.custom: "seodec18, get-started"
+ms.custom: "acquisition, get-started"
 ms.date: 02/12/2021
 ms.technology: vs-ide-general
 ms.prod: visual-studio-windows
