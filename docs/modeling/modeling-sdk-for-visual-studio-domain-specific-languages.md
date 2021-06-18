@@ -8,8 +8,8 @@ ms.topic: conceptual
 helpviewer_keywords:
 - Domain-Specific Language Tools
 - Domain-Specific Language
-author: JoshuaPartlow
-ms.author: joshuapa
+author: mgoertz-msft
+ms.author: mgoertz
 manager: jmartens
 ms.workload:
 - multiple

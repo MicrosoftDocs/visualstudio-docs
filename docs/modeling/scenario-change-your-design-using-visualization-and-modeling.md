@@ -11,8 +11,8 @@ helpviewer_keywords:
 - walkthrough [Visual Studio ALM], visualizing code
 - walkthrough [Visual Studio ALM], modeling software
 - walkthroughs [Visual Studio ALM], modeling software
-author: JoshuaPartlow
-ms.author: joshuapa
+author: mgoertz-msft
+ms.author: mgoertz
 ms.custom: SEO-VS-2020
 manager: jmartens
 ms.workload:

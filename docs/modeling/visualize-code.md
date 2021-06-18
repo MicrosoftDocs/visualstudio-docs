@@ -8,8 +8,8 @@ helpviewer_keywords:
 - code, understanding
 - code, visualizing
 - code, exploring
-author: JoshuaPartlow
-ms.author: joshuapa
+author: mgoertz-msft
+ms.author: mgoertz
 manager: jmartens
 ms.workload:
 - multiple
