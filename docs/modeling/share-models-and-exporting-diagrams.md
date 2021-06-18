@@ -16,7 +16,7 @@ ms.workload:
 # Share models and exporting diagrams
 In Visual Studio, you can share models and diagrams with colleagues in several ways.
 
- To see which editions of Visual Studio support this feature, see [Edition support for architecture and modeling tools]../ide/class-designer/how-to-add-class-diagrams-to-projects.md).
+ To see which editions of Visual Studio support this feature, see [Edition support for architecture and modeling tools](../ide/class-designer/how-to-add-class-diagrams-to-projects.md).
 
 ## Working on a Model as a Team
  Users of Visual Studio can create and edit models, dependency diagrams, and directed graphs.

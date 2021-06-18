@@ -38,6 +38,7 @@ To see which editions of Visual Studio support each feature, see [Edition suppor
 
 ## See also
 
+- [Install architecture code tools](install-architecture-tools.md)
 - [Scenario: Change your design using visualization and modeling](../modeling/scenario-change-your-design-using-visualization-and-modeling.md)
 - [Analyze and Model Architecture](../modeling/analyze-and-model-your-architecture.md)
 - [Model your app's architecture](../modeling/model-your-app-s-architecture.md)

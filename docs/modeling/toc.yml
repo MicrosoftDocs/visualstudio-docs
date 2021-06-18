@@ -8,7 +8,7 @@
   items:
   - name: Visualize code
     href: visualize-code.md
-  - name: Use code maps to map dependencies
+  - name: Map dependencies with code maps
     href: map-dependencies-across-your-solutions.md
   - name: Share code maps
     href: share-code-maps.md
