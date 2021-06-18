@@ -27,7 +27,7 @@ Make sure your app meets architectural requirements by using Visual Studio archi
 1. Understand existing program code better by [visualizing the code](visualize-code.md) structure, behavior, and relationships with code maps and dependency diagrams.
     - See the code's organization and relationships by creating **code maps**. 
     - Visualize dependencies between assemblies, namespaces, classes, methods, and so on.
-    - Find conflicts between your code and its design by creating **dependency diagrams** to validate code.|- 
+    - Find conflicts between your code and its design by creating **dependency diagrams** to validate code.
     - See the class structure and members for a specific project by [creating class diagrams from code](../ide/class-designer/designing-and-viewing-classes-and-types.md).
     - [Generate text using T4 templates](../modeling/code-generation-and-t4-text-templates.md) with text blocks and control logic inside templates to generate text-based files. 
     
@@ -67,7 +67,7 @@ Learn more:
 
 A DSL is a notation that you design for a specific purpose. In Visual Studio, it's usually graphical.
 
-Use deomain-specific language to: 
+Use domain-specific language to: 
 - Generate or configure parts of the application. Work is required to develop the notation and tools. The result can be a better fit to your domain than a UML customization.
 - For large projects or in product lines where the investment in developing the DSL and its tools is returned by its use in more than one project.
 
