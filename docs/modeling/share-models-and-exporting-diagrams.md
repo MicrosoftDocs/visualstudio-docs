@@ -26,7 +26,7 @@ In Visual Studio, you can share models and diagrams with colleagues in several w
  For suggestions about organizing models in a medium or large project, see [Structure your modeling solution](../modeling/structure-your-modeling-solution.md).
 
 ## Reading and Reviewing Models
- Team members using some versions of Visual Studio (which cannot create models) can read models, modeling diagrams, and directed graphs, but cannot edit them.  To see which editions of Visual Studio support this feature, see [Edition support for architecture and modeling tools]../ide/class-designer/how-to-add-class-diagrams-to-projects.md).
+ Team members using some versions of Visual Studio (which cannot create models) can read models, modeling diagrams, and directed graphs, but cannot edit them.  To see which editions of Visual Studio support this feature, see [Edition support for architecture and modeling tools](../modeling/analyze-and-model-your-architecture.md#VersionSupport).
 
  A dependency diagram can be opened only within the model in which it was created. To provide access to a diagram, you must therefore provide access to all the modeling project files, or to copies of them.
 

@@ -29,7 +29,7 @@ You must have the following installed on the computer where you want to develop 
 
 [!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]
 
-You must have a suitable edition of Visual Studio installed on the computer where you want to run your layer extensions. To see which editions of Visual Studio support dependency diagrams, see [Edition support for architecture and modeling tools]../ide/class-designer/how-to-add-class-diagrams-to-projects.md).
+You must have a suitable edition of Visual Studio installed on the computer where you want to run your layer extensions. To see which editions of Visual Studio support dependency diagrams, see [Edition support for architecture and modeling tools](../modeling/analyze-and-model-your-architecture.md#VersionSupport).
 
 ## See also
 

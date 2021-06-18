@@ -18,7 +18,7 @@ ms.workload:
 
 In Visual Studio, you can save modeling diagrams in read-only formats so that you can share them with stakeholders, users, or project team members who do not use the same version of Visual Studio.
 
-To see which editions of Visual Studio support this feature, see [Edition support for architecture and modeling tools]../ide/class-designer/how-to-add-class-diagrams-to-projects.md).
+To see which editions of Visual Studio support this feature, see [Edition support for architecture and modeling tools](../modeling/analyze-and-model-your-architecture.md#VersionSupport).
 
 ## Copy a diagram or part of a diagram to another application
 
