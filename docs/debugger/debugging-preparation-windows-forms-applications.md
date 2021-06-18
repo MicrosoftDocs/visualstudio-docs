@@ -1,7 +1,7 @@
 ---
 title: "Prepare to debug Windows Forms apps | Microsoft Docs"
 description: Take preparation steps to debug Windows Forms applications, which are created by the Windows Forms project template in Visual Studio.
-ms.custom: "SEO-VS-2020, seodec18"
+ms.custom: "SEO-VS-2020"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:

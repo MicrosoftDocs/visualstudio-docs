@@ -1,7 +1,7 @@
 ---
 title: "Project Settings for a VB debug config | Microsoft Docs"
 description: Learn how to change the project settings for a Visual Basic debug configuration in the Property Pages window of Visual Studio.
-ms.custom: "SEO-VS-2020, seodec18"
+ms.custom: "SEO-VS-2020"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 f1_keywords:

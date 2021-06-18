@@ -3,7 +3,7 @@ title: Install Visual Studio
 titleSuffix: ''
 description: Learn how to install Visual Studio, step-by-step.
 ms.date: 12/13/2019
-ms.custom: acquisition
+ms.custom: vs-acquisition
 ms.topic: conceptual
 f1_keywords:
 - vs.about

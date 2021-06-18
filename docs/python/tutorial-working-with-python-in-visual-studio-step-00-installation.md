@@ -7,7 +7,7 @@ ms.topic: tutorial
 author: JoshuaPartlow
 ms.author: joshuapa
 manager: jmartens
-ms.custom: acquisition
+ms.custom: vs-acquisition
 ms.workload:
   - python
   - data-science

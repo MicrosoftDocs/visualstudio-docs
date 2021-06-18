@@ -1,7 +1,7 @@
 ---
 title: "Recommended debugger property settings for C#, VB | Microsoft Docs"
 description: See the build and compile property settings that should be the same for all managed debugging. Other settings can vary depending on project type.
-ms.custom: "SEO-VS-2020, seodec18"
+ms.custom: "SEO-VS-2020"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:
