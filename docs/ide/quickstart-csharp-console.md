@@ -1,5 +1,5 @@
 ---
-title: "Use Visual Studio to create your first C# console app"
+title: "Tutorial: Create C# console app with Visual Studio"
 titleSuffix: ""
 description: "Learn how to create a simple Hello World console app in Visual Studio with C#, step-by-step."
 ms.custom: "vs-acquisition"
