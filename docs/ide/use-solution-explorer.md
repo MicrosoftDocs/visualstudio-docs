@@ -42,13 +42,13 @@ Next, let's take a look at the Solution Explorer menu bar.
 
 The menu bar contains the following UI (user interface) elements, from left to right:
 
-- **Back** button, to toggle between a search results
-- **Forward** button, to toggle between a search results
+- **Back** button, to toggle between search results
+- **Forward** button, to toggle between search results
 - **Home** button, to return to the default view
 - **Switch** button, to switch between solutions and available views
-- **Pending Changes Filter** button & drop-down menu, to
+- **Pending Changes Filter** button & drop-down menu, to ...
 - **Sync with Active Document** button, to ...
-- **Refresh** button, which only appears when you select a function, string, package, or similar file dependency
+- **Refresh** button, which only appears when you select a function, string, package, or another dependency
 - **Collapse All** button, to ...
 - **Show All Files** button, to ...
 - **Properties** button, to ...
