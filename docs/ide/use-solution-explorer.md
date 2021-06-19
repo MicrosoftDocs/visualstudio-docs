@@ -2,7 +2,7 @@
 title: Learn about the Solution Explorer tool window
 description: Learn how you can use the Solution Explorer tool window in Visual Studio to create & manage your files, projects, and solutions.
 ms.custom: "contperf-fy21q4"
-ms.date: 06/18/2021
+ms.date: 06/21/2021
 ms.topic: conceptual
 f1_keywords:
 - VS.SolutionExplorer.Selection
@@ -29,7 +29,7 @@ To start, let's take a look at the Solution Explorer tool window in the [Visual 
 
 [![The Solution Explorer tool window in Visual Studio](../media/solution-explorer-tool-window.png)](../media/solution-explorer-tool-window.png#lightbox)
 
-Your Solution Explorer tool window might look different than what you see here. For example, if you choose to open a local folder or repository instead of a specific project or solution, you'll see a **Folder View**, where your solution and project information appears in folders.
+Your Solution Explorer tool window might look different than what you see here. For example, if you choose to open a local folder or a repository instead of a specific project or solution, you'll see a **Folder View**, where your solution and project information appears in folders.
 
 > [!TIP]
 > If you don't see the Solution Explorer tool window, open it from the Visual Studio menu bar by using **View** > **Solution Explorer**, or by pressing **Ctrl**+**Alt**+**L**.
@@ -42,16 +42,17 @@ Next, let's take a look at the Solution Explorer menu bar.
 
 The menu bar contains the following UI (user interface) elements, from left to right:
 
-- **Back** button, to help you
-- **Forward** button, to help you
-- **Home** button, to ...
-- **Switch** button, to switch between available views, such as **Folder View** and the default view, and to view a repository that contains multiple solutions.
-- **Pending Changes Filter** button, which includes a drop-down menu where you can ... This is useful when ...
+- **Back** button, to toggle between a search results
+- **Forward** button, to toggle between a search results
+- **Home** button, to return to the default view
+- **Switch** button, to switch between solutions and available views
+- **Pending Changes Filter** button & drop-down menu, to
 - **Sync with Active Document** button, to ...
+- **Refresh** button, which only appears when you select a function, string, package, or similar file dependency
 - **Collapse All** button, to ...
 - **Show All Files** button, to ...
 - **Properties** button, to ...
-- **Preview Selected Items** button, to ...
+- **Preview Selected Items** button, to view a selected element in the code editor
 
 ## The Solution Explorer right-click context menu
 
