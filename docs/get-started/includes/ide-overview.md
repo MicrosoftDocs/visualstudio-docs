@@ -1,5 +1,5 @@
 ---
-ms.date: 06/21/2021
+ms.date: 05/28/2021
 ms.technology: vs-ide-general
 ms.custom: vs-get-started
 ms.author: tglee
