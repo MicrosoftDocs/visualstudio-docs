@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "docs/data-tools/additional-resources-for-troubleshooting-data-access-errors.md",
+      "redirect_url": "/answers/products/?WT.mc_id=msdnredirect-web-msdn",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "scripting-docs/javascript/misc/access-is-denied.md",
       "redirect_url": "/archive/scripting-docs/javascript/misc/access-is-denied",
       "redirect_document_id": false

@@ -12,6 +12,11 @@ ms.workload:
 ---
 # Update a Visual Studio extension for Visual Studio 2022
 
+> [!IMPORTANT]
+> The advice in this guide is intended to guide developers in migrating extensions that require major changes to work both in Visual Studio 2019 and 2022. In those cases it is recommend to have two VSIX projects and conditional compilation.
+> Many extensions will be able to work in both Visual Studio 2019 and 2022 with minor changes that won't require following the advice on modernizing your extension in this guide.
+> Try your extension in Visual Studio 2022 and evaluate what option is best for your extension.
+
 You can update your extension to work with Visual Studio 2022 Preview by following this guide. Visual Studio 2022 Preview is a 64-bit application, and introduces some breaking changes in the VS SDK. This guide walks you through the steps required to get your extension working with the current preview of Visual Studio 2022, so your extension can be ready for users to install before Visual Studio 2022 reaches GA.
 
 ## Installing
