@@ -25,9 +25,11 @@ You can use the Solution Explorer tool window to create & manage your solutions 
 
 ## Solution Explorer tool window
 
-To start, let's take a look at the Solution Explorer tool window in the [Visual Studio IDE](../get-started/visual-studio-ide.md), with an open C# console solution that has two projects:
+To start, let's take a look at the Solution Explorer tool window in the [Visual Studio IDE](../get-started/visual-studio-ide.md), with an open C# console solution that has two projects.
 
 [![The Solution Explorer tool window in Visual Studio](media/solution-explorer-tool-window.png)](media/solution-explorer-tool-window.png#lightbox)
+
+The tool window contains the following UI (user interface) elements:
 
 - **Menu bar**, where you can control how your files appear
 - **Search bar**, where you can search for specific files and file types
@@ -36,19 +38,19 @@ To start, let's take a look at the Solution Explorer tool window in the [Visual 
 - **Project node**, where you can manage your project(s)
 - **Dependencies node**, where you can manage your solution & project dependencies
 - **Program node**, where you can view, edit, and manage your program or application (app)
-- **[Git changes tab](../version-control/git-with-visual-studio?view=vs-2019#git-changes-window)**, where you can use Git & GitHub within Visual Studio to collaborate on projects with your team
+- **[Git changes tab](./version-control/git-with-visual-studio?view=vs-2019&preserve-view=true#git-changes-window)**, where you can use Git & GitHub within Visual Studio to collaborate on projects with your team
 
 <!-- >[!NOTE]
 > Your Solution Explorer tool window might look different than what you see here. For example, if you choose to open a local folder or a repository instead of a specific project or solution, you'll see a **Folder View**, where your solution and project information appears in folders.<-->
 
 > [!TIP]
-> If you don't see the Solution Explorer tool window, you canopen it from the Visual Studio menu bar by using **View** > **Solution Explorer**, or by pressing **Ctrl**+**Alt**+**L**.
+> If you don't see the Solution Explorer tool window, you can open it from the Visual Studio menu bar by using **View** > **Solution Explorer**, or by pressing **Ctrl**+**Alt**+**L**.
 
 ## Solution Explorer menu bar
 
 Let's take a closer look at the Solution Explorer menu bar.
 
-[![The Solution Explorer tool window in Visual Studio](media/solution-explorer-menu-bar.png)](media/solution-explorer-menu-bar.png#lightbox)
+[![The Solution Explorer menu bar in Visual Studio](media/solution-explorer-menu-bar.png)](media/solution-explorer-menu-bar.png#lightbox)
 
 The menu bar contains the following UI elements, from left to right:
 
