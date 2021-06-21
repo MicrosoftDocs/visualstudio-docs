@@ -25,11 +25,20 @@ You can use the Solution Explorer tool window to create & manage your solutions 
 
 ## The Solution Explorer tool window
 
-To start, let's take a look at the Solution Explorer tool window in the [Visual Studio IDE](../get-started/visual-studio-ide.md), where we've opened a [C# Calculator solution](..//get-started/csharp/tutorial-console.md?view=vs-2019#code-complete).
+To start, let's take a look at the Solution Explorer tool window in the [Visual Studio IDE](../get-started/visual-studio-ide.md), with an open solution with two projects:
 
 [![The Solution Explorer tool window in Visual Studio](media/solution-explorer-tool-window.png)](media/solution-explorer-tool-window.png#lightbox)
 
-Your Solution Explorer tool window might look different than what you see here. For example, if you choose to open a local folder or a repository instead of a specific project or solution, you'll see a **Folder View**, where your solution and project information appears in folders.
+- **Menu bar**, where you can interact with and control which files appear
+- **Search bar**, where you can search for specific files and file types
+- **Main window**, where you can view and manage your files, projects, & solutions
+- **Solution node**, where you can manage your solution
+- **Project node**, where you can manage your project(s)
+- **Dependencies node**, where you can manage your solution & project dependencies
+- **[Git changes tab](../version-control/git-with-visual-studio?view=vs-2019#git-changes-window)**, where you can use Git & GitHub to collaborate on projects with your team
+
+<!-- >[!NOTE]
+> Your Solution Explorer tool window might look different than what you see here. For example, if you choose to open a local folder or a repository instead of a specific project or solution, you'll see a **Folder View**, where your solution and project information appears in folders.<-->
 
 > [!TIP]
 > If you don't see the Solution Explorer tool window, open it from the Visual Studio menu bar by using **View** > **Solution Explorer**, or by pressing **Ctrl**+**Alt**+**L**.
@@ -40,7 +49,7 @@ Next, let's take a look at the Solution Explorer menu bar.
 
 [![The Solution Explorer tool window in Visual Studio](media/solution-explorer-menu-bar.png)](media/solution-explorer-menu-bar.png#lightbox)
 
-The menu bar contains the following UI (user interface) elements, from left to right:
+The menu bar contains the following UI elements, from left to right:
 
 - **Back** button, to toggle between search results
 - **Forward** button, to toggle between search results
