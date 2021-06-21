@@ -23,7 +23,7 @@ You can use the Solution Explorer tool window to create & manage your solutions 
 > [!NOTE]
 > This topic applies only to Visual Studio on Windows.
 
-## The Solution Explorer tool window
+## Solution Explorer tool window
 
 To start, let's take a look at the Solution Explorer tool window in the [Visual Studio IDE](../get-started/visual-studio-ide.md), with an open C# console solution that has two projects:
 
