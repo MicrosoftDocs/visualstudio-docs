@@ -38,7 +38,7 @@ Your Solution Explorer tool window might look different than what you see here. 
 
 Next, let's take a look at the Solution Explorer menu bar.
 
-[![The Solution Explorer tool window in Visual Studio](../media/solution-explorer-tool-window.png)](../media/solution-explorer-tool-window.png#lightbox)
+[![The Solution Explorer tool window in Visual Studio](../media/solution-explorer-menu-bar.png)](../media/solution-explorer-menu-bar.png#lightbox)
 
 The menu bar contains the following UI (user interface) elements, from left to right:
 
@@ -48,18 +48,19 @@ The menu bar contains the following UI (user interface) elements, from left to r
 - **Switch** button, to switch between solutions and available views
 - **Pending Changes Filter** button & drop-down menu, to ...
 - **Sync with Active Document** button, to ...
-- **Refresh** button, which only appears when you select a function, string, package, or another dependency
-- **Collapse All** button, to ...
-- **Show All Files** button, to ...
-- **Properties** button, to ...
-- **Preview Selected Items** button, to view a selected element in the code editor
+- **Refresh** button, which appears only when you select a dependency, such as function, string, or package
+- **Collapse All** button, to collapse the file view in the main window
+- **Show All Files** button, to view all files, including [unloaded projects](filtered-solutions.md#toggle-unloaded-project-visibility)
+- **Properties** button, to view and change settings for specific files and components
+- **Preview Selected Items** button, to view a selected file or component in the code editor
 
 ## The Solution Explorer right-click context menu
 
 When you're managing your files in Solution Explorer, there are several features that you can access by using the right-click context menu. Most of these features are available universally in the [Visual Studio IDE](../get-started/visual-studio-ide.md), while some are specific to the programming language or platform you're using.
 
-Here, we'll cover the context menu items that appear in a simple [C# Calculator solution](..//get-started/csharp/tutorial-console.md?view=vs-2019#code-complete).
+For more information about the options that are available in the right-click context menu, see the [Manage project and solution properties](managing-project-and-solution-properties.md) page.
 
+<!--Here, we'll cover the main context menu items that appear in a [C# Calculator solution](..//get-started/csharp/tutorial-console.md?view=vs-2019#code-complete).-->
 
 ## See also
 
