@@ -56,16 +56,22 @@
     items:
     - name: About benefits
       href: about-benefits.md
+    - name: "Azure Dev/Test offers"
+      items:
+      - name: For individuals (credits)
+        items:
+        - name: Azure DevTest individual credit
+          href: vs-azure.md
+      - name: For organizations
+        items:
+        - name: Azure DevTest Pay-As-You-Go
+          href: vs-azure-payg.md
+        - name: Azure EA DevTest
+          href: azure-ea-devtest.md
     - name: Tools
       items:
-      - name: Azure DevTest individual credit
-        href: vs-azure.md
       - name: Azure DevOps
         href: vs-azure-devops.md
-      - name: Azure DevTest Pay-As-You-Go
-        href: vs-azure-payg.md
-      - name: Azure EA DevTest
-        href: azure-ea-devtest.md
       - name: CAST Highlight
         href: vs-cast.md
       - name: CloudPilot
