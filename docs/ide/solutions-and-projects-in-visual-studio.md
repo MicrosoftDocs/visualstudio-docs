@@ -1,5 +1,5 @@
 ---
-title: 'What are Visual Studio solutions &amp; projects?'
+title: 'What are Visual Studio solutions & projects?'
 description: Learn about Visual Studio projects and solutions, how to create new projects from a template, and how to view & manage projects in Solution Explorer.
 ms.custom: "SEO-VS-2020, contperf-fy21q2"
 ms.date: 12/31/2020
