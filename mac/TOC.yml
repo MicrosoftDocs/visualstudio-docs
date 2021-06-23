@@ -201,7 +201,7 @@
     - name: Visual Studio Customer Experience Improvement Program
       href: visual-studio-experience-improvement-program.md
     - name: Report a Problem
-      href: report-a-problem.yml
+      href: report-a-problem.md
     - name: "Troubleshooting: How do I release a new version of my existing extension?"
       href: migrate-extensions.md
     - name: "Troubleshooting: Does Visual Studio for Mac support Team Foundation Version Control?"
