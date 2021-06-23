@@ -31,6 +31,6 @@ The VSCEIP is turned on by default. You can turn it off, or back on again, by fo
 
 * [Customer Experience Improvement Program (Visual Studio on Windows)](/visualstudio/ide/visual-studio-experience-improvement-program)
 * [System-generated logs collected by Visual Studio (on Windows)](/visualstudio/ide/diagnostic-data-collection)
-* [How to report a problem with Visual Studio for Mac](report-a-problem.md)
+* [How to report a problem with Visual Studio for Mac](report-a-problem.yml)
 * [Visual Studio for Mac Developer Community](https://aka.ms/feedback/vsm-home)
 * [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement)
