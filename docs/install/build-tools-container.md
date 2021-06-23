@@ -99,7 +99,7 @@ Save the following example Dockerfile to a new file on your disk. If the file is
    
    ::: moniker-end
 
-   ::: moniker range="vs-2019"
+   ::: moniker range=">=vs-2019"
 
    ```dockerfile
    # escape=`
@@ -160,7 +160,7 @@ Save the following example Dockerfile to a new file on your disk. If the file is
 
    ::: moniker-end
 
-   ::: moniker range="vs-2019"
+   ::: moniker range=">=vs-2019"
 
    ```shell
    docker build -t buildtools2019:latest -m 2GB .
@@ -188,7 +188,7 @@ Now that you have created an image, you can run it in a container to do both int
 
    ::: moniker-end
 
-   ::: moniker range="vs-2019"
+   ::: moniker range=">=vs-2019"
 
    ```shell
    docker run -it buildtools2019

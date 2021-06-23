@@ -1,7 +1,7 @@
 ---
 title: "Tutorial: Debug Visual Basic code"
 description: Learn features of the Visual Studio debugger and how to start the debugger, step through code, and inspect data in a Visual Basic application.
-ms.custom: "debug-experiment, seodec18, get-started"
+ms.custom: "debug-experiment, vs-acquisition, get-started"
 ms.date: 02/03/2020
 ms.technology: "vs-ide-debug"
 ms.topic: tutorial
@@ -55,6 +55,12 @@ If you haven't already installed Visual Studio, go to the [Visual Studio downloa
 
 ::: moniker-end
 
+::: moniker range="vs-2022"
+
+If you haven't already installed Visual Studio 2022 Preview, go to the [Visual Studio 2022 Preview downloads](https://visualstudio.microsoft.com/vs/preview/vs2022) page to install it for free.
+
+::: moniker-end
+
 If you need to install the workload but already have Visual Studio, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. The Visual Studio Installer launches. Choose the **.NET Core cross-platform development** workload, then choose **Modify**.
 
 ## Create a project
@@ -75,9 +81,9 @@ First, you'll create a .NET Core console application project. The project type c
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
-1. Open Visual Studio 2019.
+1. Open Visual Studio.
 
    If the start window is not open, choose **File** > **Start Window**.
 

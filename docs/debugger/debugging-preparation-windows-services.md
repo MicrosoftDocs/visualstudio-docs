@@ -1,7 +1,7 @@
 ---
 title: "Prepare to debug Windows services | Microsoft Docs"
 description: Prepare to debug Windows services, which are programs that run in the background under Windows, in Visual Studio.
-ms.custom: "SEO-VS-2020, seodec18"
+ms.custom: "SEO-VS-2020"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:

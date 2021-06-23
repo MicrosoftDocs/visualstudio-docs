@@ -1,7 +1,7 @@
 ---
 title: Examine system code after an exception | Microsoft Docs
 description: Learn how to examine code in a system call to find the cause of the exception. The procedure applies even if symbols for the system code have not been loaded.
-ms.custom: "SEO-VS-2020, seodec18"
+ms.custom: "SEO-VS-2020"
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 
