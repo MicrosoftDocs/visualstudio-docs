@@ -1,7 +1,7 @@
 ---
 title: "Edit code and continue debugging | Microsoft Docs"
 description: Use the Edit and Continue command while debugging in Visual Studio so that you can make changes to your source code while your program is in break mode.
-ms.custom: "SEO-VS-2020, seodec18"
+ms.custom: "SEO-VS-2020"
 ms.date: "05/31/2018"
 ms.topic: "conceptual"
 f1_keywords:

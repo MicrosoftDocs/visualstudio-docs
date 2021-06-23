@@ -1,7 +1,7 @@
 ---
 title: "How to run a program (C#)"
 description: "Beginner's guide on how to run a C# program in Visual Studio."
-ms.custom: "get-started"
+ms.custom: "vs-acquisition, get-started"
 ms.date: 10/16/2019
 ms.technology: vs-ide-general
 ms.prod: visual-studio-windows

@@ -43,7 +43,7 @@ For more information about how to use these lists, see the [Use command-line par
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 **Updated for the [16.8 release](/visualstudio/releases/2019/release-notes/)**
 

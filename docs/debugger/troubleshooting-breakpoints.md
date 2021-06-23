@@ -1,7 +1,7 @@
 ---
 title: "Troubleshoot breakpoints in the debugger | Microsoft Docs"
 description: If a breakpoint is disabled or could not be set, it is displayed as a hollow circle. Look here information on problems that can occur when setting breakpoints.
-ms.custom: "SEO-VS-2020, seodec18"
+ms.custom: "SEO-VS-2020"
 ms.date: "01/23/2018"
 ms.topic: "troubleshooting"
 author: "mikejo5000"

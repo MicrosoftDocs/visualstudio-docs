@@ -1,7 +1,7 @@
 ---
 title: "Walkthrough: Debugging Rendering Errors Due to Shading | Microsoft Docs"
 description: Follow an investigation that finds a shader bug. It shows the use of Visual Studio Graphics Diagnostics, including Graphics Pixel History, and HLSL Debugger.
-ms.custom: "SEO-VS-2020, seodec18"
+ms.custom: "SEO-VS-2020"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 ms.assetid: 01875b05-cc7b-4add-afba-f2b776f86974

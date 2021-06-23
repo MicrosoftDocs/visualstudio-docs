@@ -1,7 +1,7 @@
 ---
 title: "Tutorial: Debug C++ code"
 description: Learn features of the Visual Studio debugger and how to start the debugger, step through code, and inspect data in a C++ application.
-ms.custom: "debug-experiment, seodec18, get-started"
+ms.custom: "debug-experiment,  get-started"
 ms.date: 02/04/2020
 ms.technology: "vs-ide-debug"
 ms.topic: tutorial
@@ -51,6 +51,12 @@ If you haven't already installed Visual Studio, go to the [Visual Studio downloa
 ::: moniker range=">=vs-2019"
 
 If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads) page to install it for free.
+
+::: moniker-end
+
+::: moniker range="vs-2022"
+
+If you haven't already installed Visual Studio 2022 Preview, go to the [Visual Studio 2022 Preview downloads](https://visualstudio.microsoft.com/vs/preview/vs2022) page to install it for free.
 
 ::: moniker-end
 

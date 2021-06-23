@@ -1,7 +1,7 @@
 ---
 title: Manage exceptions with the debugger | Microsoft Docs
 description: Learn how to specify which exceptions the debugger breaks on, at which point you want the debugger to break, and how breaks are handled.
-ms.custom: "SEO-VS-2020, seodec18"
+ms.custom: "SEO-VS-2020"
 ms.date: 10/09/2018
 ms.topic: how-to
 f1_keywords: 
