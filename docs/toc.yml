@@ -164,6 +164,7 @@
   - name: "F#: Create a web service"
     href: ide/quickstart-fsharp.md
 - name: Tutorials
+  expanded: true
   items:
   - name: C++ >>
     href: /cpp/get-started/tutorial-console-cpp

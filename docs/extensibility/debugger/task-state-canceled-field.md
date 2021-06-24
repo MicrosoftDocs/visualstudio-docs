@@ -2,7 +2,7 @@
 description: "The task was canceled before it reached the running state, or it confirmed its cancellation and completed without exception."
 title: TASK_STATE_CANCELED Field | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - TASK_STATE_CANCELED field, Task class [.NET Framework debug engines]
 ms.assetid: f4f5a96a-8230-493d-9696-8d2716bda261

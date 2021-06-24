@@ -2,7 +2,7 @@
 description: "Given a list of fully qualified file names, this function checks them out to the local drive."
 title: SccCheckout Function | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - SccCheckout
 helpviewer_keywords:

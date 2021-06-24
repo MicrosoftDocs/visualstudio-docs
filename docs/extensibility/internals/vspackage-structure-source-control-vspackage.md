@@ -3,7 +3,7 @@ title: VSPackage Structure (Source Control VSPackage) | Microsoft Docs
 description: Learn about the Source Control Package SDK, which provides guidelines for a VSPackage with a source control implementer to integrate with Visual Studio.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - VSPackages, structure
 - source control packages, VSPackage overview

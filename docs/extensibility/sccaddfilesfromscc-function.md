@@ -2,7 +2,7 @@
 description: "This function adds a list of files from source control to the currently opened project."
 title: SccAddFilesFromSCC Function | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - SccAddFilesFromSCC
 helpviewer_keywords:
