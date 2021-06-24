@@ -15,17 +15,16 @@ ms.author: mikejo
 ---
 # Oops! No `F1` help match was found
 
-We're sorry! It looks like we couldn't find what you were looking for. 
-
 :::image type="content" source="../media/search-error-page-sm.png" alt-text="Sorry we couldn't find a match" border="false":::
 
 ## Now what?
 
+We're sorry! It looks like we couldn't find what you were looking for. 
+
 **Looking for `F1` help on a window, a keyword, or an API name?**
 - Try your favorite search engine **[Recommended]**
 - Use the [docs.microsoft.com](/) toolbar to search 
-- See our reference documentation on [.NET API browser](/dotnet/api/)
-- Get help on the [text code editor](../../ide/writing-code-in-the-code-and-text-editor.md)
+- Search the [.NET API browser](/dotnet/api/) or read our [text code editor overview](../../ide/writing-code-in-the-code-and-text-editor.md)
 - Browse the Knowledge Base for [Visual Studio troubleshooting](/troubleshoot/visualstudio/welcome-visual-studio/)
 
 
