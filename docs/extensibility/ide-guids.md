@@ -3,7 +3,7 @@ title: IDE GUIDs | Microsoft Docs
 description: The VSConstants class publishes a set of GUIDs of some parts of the IDE. This article lists the GUIDs.
 ms.custom: SEO-VS-2020
 ms.date: 03/22/2018
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - GUIDs, integrated development environment
 - IDE, GUIDs

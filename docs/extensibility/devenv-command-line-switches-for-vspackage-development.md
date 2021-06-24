@@ -3,7 +3,7 @@ title: Devenv Command-Line Switches for VSPackage Development | Microsoft Docs
 description: Learn how developers can automate tasks from the command line when executing devenv.exe, the file that starts the Visual Studio IDE.
 ms.custom: SEO-VS-2020
 ms.date: 12/10/2018
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - /Setup command line switch
 - /ResetSkipPkgs command line switch

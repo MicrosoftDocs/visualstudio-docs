@@ -3,7 +3,7 @@ title: Expression Evaluator | Microsoft Docs
 description: Learn about expression evaluators, which examine the syntax of a language to parse and evaluate variables and expressions at runtime in break mode.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - expressions [Debugging SDK]
 - debugging [Debugging SDK], expression evaluation

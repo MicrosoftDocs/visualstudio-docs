@@ -3,7 +3,7 @@ title: KeyBindings Element | Microsoft Docs
 description: The KeyBindings element groups KeyBinding elements and other KeyBindings groupings. This article contains an example.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - KeyBindings
 helpviewer_keywords:
