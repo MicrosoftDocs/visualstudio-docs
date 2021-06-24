@@ -3,7 +3,7 @@ title: Breakpoint-Related Methods | Microsoft Docs
 description: Visual Studio debugging supports bound breakpoints, which are successfully bound to a location in the code, and pending breakpoints, which are not yet bound.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - debugging [Debugging SDK], breakpoint methods
 - breakpoints, methods

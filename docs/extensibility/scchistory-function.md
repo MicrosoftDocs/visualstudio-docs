@@ -2,7 +2,7 @@
 description: "This function displays the history of the specified files."
 title: SccHistory Function | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - SccHistory
 helpviewer_keywords:

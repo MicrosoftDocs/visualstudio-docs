@@ -3,7 +3,7 @@ title: Bitmap Element | Microsoft Docs
 description: The Bitmap element defines a bitmap. The bitmap is loaded either from a resource or from a file. This article contains an example.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - VSCT XML schema elements, Bitmaps
 - Bitmaps element (VSCT XML schema)

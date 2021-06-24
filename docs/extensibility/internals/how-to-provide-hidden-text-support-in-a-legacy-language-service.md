@@ -3,7 +3,7 @@ title: Provide hidden text support in legacy language service
 description: Learn how to provide hidden text support in a legacy language service by adding editor-controlled or client-controlled hidden text regions.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - hidden text, supporting
 - editors [Visual Studio SDK], hidden text

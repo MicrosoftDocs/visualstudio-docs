@@ -3,7 +3,7 @@ title: Group Element | Microsoft Docs
 description: The Group element defines a VSPackage command group. This article describes attributes, child elements, and parent elements.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - VSCT XML schema elements, Groups
 - Groups element (VSCT XML schema)

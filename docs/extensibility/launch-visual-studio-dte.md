@@ -4,7 +4,7 @@ description: Learn how to launch Visual Studio using DTE to support side-by-side
 ms.custom: SEO-VS-2020
 titleSuffix: ''
 ms.date: 04/26/2019
-ms.topic: conceptual
+ms.topic: how-to
 author: leslierichardson95
 ms.author: lerich
 manager: jmartens
