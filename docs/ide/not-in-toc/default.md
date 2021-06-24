@@ -17,7 +17,13 @@ ms.author: mikejo
 
 We're sorry! It looks like we couldn't find what you were looking for. 
 
-:::image type="content" source="../media/search-error-page-sm.png" alt-text="Sorry we couldn't find a match" border="false":::
+| AAA | BBB |
+|-|-|
+
+| :::image type="content" source="../media/search-error-page-sm.png" alt-text="Sorry we couldn't find a match" border="false"::: | BBB |
+|-|-|
+
+
 
 ## Now what?
 
