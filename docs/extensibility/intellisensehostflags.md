@@ -3,7 +3,7 @@ title: IntelliSenseHostFlags | Microsoft Docs
 description: The IntelliSenseHostFlags enumeration specifies IntelliSense host flags. This article describes the enum values.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - IntellisenseHostFlags
 helpviewer_keywords:

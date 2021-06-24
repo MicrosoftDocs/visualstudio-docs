@@ -3,7 +3,7 @@ title: VSIX Manifest Designer | Microsoft Docs
 description: Learn how the VSIX Manifest Designer modifies a VSIX package manifest file, which sets the installation behavior for a Visual Studio extension.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - VS.Sdk.VsixManifestEditor
 helpviewer_keywords:

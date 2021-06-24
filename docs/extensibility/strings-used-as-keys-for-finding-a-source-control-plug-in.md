@@ -3,7 +3,7 @@ title: Strings used as keys to find a source control plug-in
 description: Learn about the strings that are the keys for accessing the registry to find information about the Source Control plug-in.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - source control plug-ins, strings used for finding
 ms.assetid: c1e31f76-42a1-4c3d-afb2-664044ef12fd
