@@ -4,8 +4,6 @@ description: "Default page for F1 help requests for the Visual Studio JavaScript
 ms.date: 01/19/2021
 ms.topic: troubleshooting
 robots: noindex,nofollow
-f1_keywords:
-- "javascript_language_reference"
 dev_langs:
   - JavaScript
 manager: jmartens

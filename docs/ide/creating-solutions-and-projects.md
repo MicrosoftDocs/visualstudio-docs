@@ -7,7 +7,6 @@ ms.topic: how-to
 f1_keywords:
 - vs.openprojectfromweb
 - VS.ToolsOptionsPages.Projects.General
-- SolutionItemsProject
 helpviewer_keywords:
 - solutions [Visual Studio], creating
 - projects [Visual Studio], creating

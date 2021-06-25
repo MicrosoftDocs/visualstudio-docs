@@ -4,8 +4,6 @@ description: While you debug, see variables and expressions in Watch and QuickWa
 ms.custom: "SEO-VS-2020"
 ms.date: 10/11/2018
 ms.topic: how-to
-f1_keywords: 
-  - vs.debug.watch
 helpviewer_keywords: 
   - debugging [Visual Studio], Watch window
   - expressions [debugger], evaluating

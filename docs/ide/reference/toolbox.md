@@ -6,7 +6,6 @@ ms.date: 06/01/2020
 ms.topic: reference
 f1_keywords:
 - vs.toolbox.general
-- vs.toolbox
 helpviewer_keywords:
 - Toolbox [Visual Studio]
 - custom controls [Visual Studio]
