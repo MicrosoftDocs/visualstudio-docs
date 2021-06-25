@@ -12,7 +12,9 @@ ms.workload:
 ---
 # Popular keyboard shortcuts for Visual Studio
 
-You can access frequently used commands in Visual Studio by choosing these default keyboard shortcuts. For a complete list of commands that have default shortcuts, see [Default keyboard shortcuts](../ide/default-keyboard-shortcuts-in-visual-studio.md).
+You can access frequently used commands in Visual Studio by choosing these default keyboard shortcuts. For a complete list of commands that have default shortcuts, see [Default keyboard shortcuts](default-keyboard-shortcuts-in-visual-studio.md).
+
+To learn more about keyboard accessibility, see [Use Visual Studio without a mouse](./reference/how-to-use-the-keyboard-exclusively.md?view=vs-2019).
 
 The *Global* context means that the shortcut is applicable in any tool window in Visual Studio.
 
@@ -167,5 +169,5 @@ The *Global* context means that the shortcut is applicable in any tool window in
 
 ## See also
 
-- [Identify and customize keyboard shortcuts in Visual Studio](../ide/identifying-and-customizing-keyboard-shortcuts-in-visual-studio.md)
+- [Identify and customize keyboard shortcuts in Visual Studio](identifying-and-customizing-keyboard-shortcuts-in-visual-studio.md)
 - [All keyboard shortcuts in Visual Studio](default-keyboard-shortcuts-in-visual-studio.md)
