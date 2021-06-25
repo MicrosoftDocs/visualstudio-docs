@@ -46231,6 +46231,21 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/ide/not-in-toc/default-f1-typescript.md",
+      "redirect_url": "/visualstudio/ide/not-in-toc/default",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/not-in-toc/default-f1-javascript.md",
+      "redirect_url": "/visualstudio/ide/not-in-toc/default",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/not-in-toc/default-f1-text-editor.md",
+      "redirect_url": "/visualstudio/ide/not-in-toc/default",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/ide/not-in-toc/intellicode-faq.md",
       "redirect_url": "/visualstudio/intellicode/faq",
       "redirect_document_id": false
