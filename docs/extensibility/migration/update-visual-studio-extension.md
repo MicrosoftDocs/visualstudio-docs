@@ -99,7 +99,7 @@ Before adding Visual Studio 2022 support to your extension, we strongly recommen
    >-<Reference Include="Microsoft.VisualStudio.OLE.Interop" />
    >-<Reference Include="Microsoft.VisualStudio.Interop" />
    >-<Reference Include="Microsoft.VisualStudio.Interop.8.0" />
-   >+<PackageReference Include="Microsoft.VisualStudio.Sdk" >Version="..." />
+   >+<PackageReference Include="Microsoft.VisualStudio.Sdk" Version="..." />
    >```
 
    Be sure to pick package versions that match the minimum version of Visual Studio you are targeting.
