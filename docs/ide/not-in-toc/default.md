@@ -9,6 +9,23 @@ ms.custom: contperf-fy21q4
 robots: noindex,nofollow
 f1_keywords:
 - vs.ambient
+- vs.texteditor
+- typescript
+- javascript_language_reference
+- vs.output
+- SolutionItemsProject
+- VS.SolutionExplorer
+- VS.SolutionExplorer.Selection
+- vs.addnewitem
+- vs.addnewsolutionitem
+- VS.ReferenceManager
+- vs.debug.watch
+- VS.ErrorList
+- vs.about
+- vs.unittesting.testexplorer.overview
+- vs.gotoline
+- vs.toolbox
+- vs.objectbrowser
 manager: jmartens
 author: mikejo5000
 ms.author: mikejo
