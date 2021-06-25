@@ -4,8 +4,6 @@ description: "Default page for F1 help requests for the Visual Studio TypeScript
 ms.date: 01/19/2021
 ms.topic: troubleshooting
 robots: noindex,nofollow
-f1_keywords:
-- "typescript"
 dev_langs:
   - JavaScript
 manager: jmartens

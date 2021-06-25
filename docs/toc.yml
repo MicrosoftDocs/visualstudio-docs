@@ -1433,7 +1433,7 @@
     href: ide/whats-new-visual-studio-2017.md
   - name: "Visual Studio 2019: What's new"
     href: ide/whats-new-visual-studio-2019.md
-  - name: What's new in the documentation
+  - name: "What's new in Docs"
     href: ide/whats-new-visual-studio-docs.md
   - name: Release notes
     items:
@@ -1449,14 +1449,14 @@
       href: https://visualstudio.microsoft.com/license-terms/
     - name: Support lifecycle and servicing
       href: /visualstudio/productinfo/vs-servicing-vs/
-  - name: Customer Experience Improvement Program
+  - name: Customer Experience Improvement
     items:
-    - name: Overview
+    - name: About the program
       displayName: Customer Experience Improvement Program
       href: ide/visual-studio-experience-improvement-program.md
     - name: System-generated logs
       href: ide/diagnostic-data-collection.md
-  - name: Resources for troubleshooting IDE errors
+  - name: Troubleshooting IDE errors
     href: ide/reference/resources-for-troubleshooting-integrated-development-environment-errors.md
 - name: Send feedback
   items:
@@ -1464,7 +1464,7 @@
     href: ide/feedback-options.md
   - name: Report a problem
     items:
-    - name: How to report a problem
+    - name: Report a problem
       href: ide/how-to-report-a-problem-with-visual-studio.md
     - name: Report a problem states and FAQ
       href: ide/report-a-problem.md

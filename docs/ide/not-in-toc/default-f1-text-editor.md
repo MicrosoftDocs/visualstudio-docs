@@ -5,8 +5,6 @@ ms.date: 03/25/2021
 ms.topic: troubleshooting
 ms.custom: contperf-fy21q3
 robots: noindex,nofollow
-f1_keywords:
-- vs.texteditor
 manager: jmartens
 author: mikejo5000
 ms.author: mikejo
