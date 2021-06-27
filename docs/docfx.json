@@ -71,15 +71,12 @@
       "breadcrumb_path": "/visualstudio/_breadcrumb/toc.json",
       "extendBreadcrumb": "true",
       "manager": "jmartens",
-      "author": "j-martens",
-      "ms.author": "jmartens",
-      "ms.date": "11/16/2016",
       "ms.topic": "conceptual",
       "audience": "developer",
       "defaultDevLang": "csharp",
       "ms.prod": "visual-studio-windows",
       "uhfHeaderId": "MSDocsHeader-VisualStudio",
-      "titleSuffix": "Visual Studio",
+      "titleSuffix": "Visual Studio (Windows)",
       "toc_preview": true,
       "searchScope": [
         "VS IDE"
