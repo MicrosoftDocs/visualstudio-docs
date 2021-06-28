@@ -59,6 +59,14 @@ If you enable remote debugging for a cloud service, it doesn't exhibit degraded 
 
 ### To attach the debugger to a cloud service in Azure
 
+::: moniker range=">=vs-2022"
+
+The [Kudu console](https://github.com/projectkudu/kudu/wiki/Kudu-console) gives you direct, elevated command-line access to the App Service server and its file system. This is both a valuable debugging tool and allows for CLI operations such as installing packages.
+
+::: moniker-end
+
+::: moniker range="<=vs-2017"
+
 1. In Server Explorer, expand the node for your cloud service.
 
 2. Open the shortcut menu for the role or role instance to which you want to attach, and then select **Attach Debugger**.
@@ -91,10 +99,12 @@ From Azure SDK 2.3, remote debugging has the following limitations:
     The reserved port range 'range' for endpoint Microsoft.WindowsAzure.Plugins.RemoteDebugger.Connector of role 'role' overlaps with an already defined port or range.
   * Allocation failed. Please retry later, try reducing the VM size or number of role instances, or try deploying to a different region.
 
+::: moniker-end
+
 ## Debugging Azure virtual machines
 
 ::: moniker range=">=vs-2022"
-[!Important]
+
 The [Kudu console](https://github.com/projectkudu/kudu/wiki/Kudu-console) gives you direct, elevated command-line access to the App Service server and its file system. This is both a valuable debugging tool and allows for CLI operations such as installing packages.
 
 ::: moniker-end
