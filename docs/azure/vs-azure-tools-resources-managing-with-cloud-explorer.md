@@ -8,6 +8,9 @@ ms.topic: conceptual
 ms.date: 03/25/2017
 ms.author: ghogen
 ---
+
+# Manage the resources associated with your Azure accounts in Visual Studio Cloud Explorer
+
 ::: moniker range=">=vs-2022"
 [!Important]
 Cloud Explorer has been retired in Visual Studio 2022. Instead, you can use the following alternatives:
@@ -20,9 +23,7 @@ For more information about Visual Studio 2022, see our [release notes](/visualst
 
 ::: moniker-end
 
-::: moniker range="<vs-2017"
-
-# Manage the resources associated with your Azure accounts in Visual Studio Cloud Explorer
+::: moniker range="<=vs-2017"
 
 Cloud Explorer enables you to view your Azure resources and resource groups, inspect their properties, and perform key developer diagnostics actions from within Visual Studio.
 

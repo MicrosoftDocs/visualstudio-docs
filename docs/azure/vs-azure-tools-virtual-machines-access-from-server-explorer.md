@@ -8,6 +8,9 @@ ms.topic: conceptual
 ms.date: 8/31/2017
 ms.author: ghogen
 ---
+
+# Accessing Azure Virtual Machines from Server Explorer
+
 ::: moniker range=">=vs-2022"
 [!Important]
 The Azure node of Server Explorer has been retired in Visual Studio 2022. Instead, you can use the following alternatives:
@@ -20,9 +23,7 @@ For more information about Visual Studio 2022, see our [release notes](/visualst
 
 ::: moniker-end
 
-::: moniker range="<vs-2017"
-
-# Accessing Azure Virtual Machines from Server Explorer
+::: moniker range="<=vs-2017"
 
 If you have virtual machines hosted by Azure, you can access them in Server Explorer. You must first sign in to your Azure subscription to view your mobile services. To sign in, open the shortcut menu for the Azure node in Server Explorer, and choose **Connect to Microsoft Azure**.
 
