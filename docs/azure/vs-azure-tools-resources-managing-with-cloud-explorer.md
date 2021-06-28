@@ -23,7 +23,7 @@ ms.author: ghogen
 
 ::: moniker-end
 
-::: moniker range="<=vs-2017"
+::: moniker range="<=vs-2019"
 
 Cloud Explorer enables you to view your Azure resources and resource groups, inspect their properties, and perform key developer diagnostics actions from within Visual Studio.
 
