@@ -99,7 +99,8 @@ The [Kudu console](https://github.com/projectkudu/kudu/wiki/Kudu-console) gives 
 
 ::: moniker-end
 
-::: moniker range="<vs-2017"
+::: moniker range="<=vs-2017"
+
 You can debug programs that run on Azure virtual machines by using Server Explorer in Visual Studio. When you enable remote debugging on an Azure virtual machine, Azure installs the remote debugging extension on the virtual machine. Then, you can attach to processes on the virtual machine and debug as you normally would.
 
 > [!NOTE]
