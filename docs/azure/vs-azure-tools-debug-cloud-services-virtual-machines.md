@@ -93,6 +93,13 @@ From Azure SDK 2.3, remote debugging has the following limitations:
 
 ## Debugging Azure virtual machines
 
+::: moniker range=">=vs-2022"
+[!Important]
+The [Kudu console](https://github.com/projectkudu/kudu/wiki/Kudu-console) gives you direct, elevated command-line access to the App Service server and its file system. This is both a valuable debugging tool and allows for CLI operations such as installing packages.
+
+::: moniker-end
+
+::: moniker range="<vs-2017"
 You can debug programs that run on Azure virtual machines by using Server Explorer in Visual Studio. When you enable remote debugging on an Azure virtual machine, Azure installs the remote debugging extension on the virtual machine. Then, you can attach to processes on the virtual machine and debug as you normally would.
 
 > [!NOTE]
@@ -121,6 +128,8 @@ You can debug programs that run on Azure virtual machines by using Server Explor
     ![Select code type dialog box](./media/vs-azure-tools-debug-cloud-services-virtual-machines/IC718346.png)
 
 5. Choose the processes you want to debug on the virtual machine and then select **Attach**. For example, you might choose the w3wp.exe process if you wanted to debug a web app on the virtual machine. See [Debug One or More Processes in Visual Studio](../debugger/debug-multiple-processes.md) and [Azure Role Architecture](/archive/blogs/kwill/windows-azure-role-architecture) for more information.
+
+::: moniker-end
 
 ## Create a web project and a virtual machine for debugging
 
