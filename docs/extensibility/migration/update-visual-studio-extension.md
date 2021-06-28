@@ -242,7 +242,7 @@ You can then use that symbol as a pre-processor directive (`#if`) as shown in th
     Guid myGuid = new Guid("{633FBA02-719B-40E7-96BF-0899767CD104}");
     uint myFlags = 0;
     IVsShell shell = await AsyncServiceProvider.GlobalProvider.GetServiceAsync<SVsShell, IVsShell>();
-#if Visual Studio 2019
+#if Dev16
     shell.LoadUILibrary(myGuid, myFlags, out uint ptrLib);
 #else
     shell.LoadUILibrary(myGuid, myFlags, out IntPtr ptrLib);
