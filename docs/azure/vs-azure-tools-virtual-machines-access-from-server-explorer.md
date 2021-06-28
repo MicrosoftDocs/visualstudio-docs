@@ -15,9 +15,8 @@ ms.author: ghogen
 > [!Important]
 > The Azure node of Server Explorer has been retired in Visual Studio 2022. Instead, you can use the following > alternatives:
 > - Use [Microsoft Azure Storage Explorer](/azure/vs-azure-tools-storage-manage-with-storage-explorer) is a free, standalone app from Microsoft. You can use it to work visually with Azure Storage data on Windows, macOS, and Linux.
-> - The [Kudu console](https://github.com/projectkudu/kudu/wiki/Kudu-console) gives you direct, elevated command-line access to the App Service server and its file system. This is both a valuable debugging tool and allows for CLI operations such as installing packages.
 >
-> If needed, you can continue to use the Azure node of Server Explorer in previous versions of Visual Studio.
+> If needed, you can use the Azure Portal or continue to use the Azure node of Server Explorer in previous versions of Visual Studio.
 >
 > For more information about Visual Studio 2022, see our [release notes](/visualstudio/releases/2022/release-notes-preview/).
 
