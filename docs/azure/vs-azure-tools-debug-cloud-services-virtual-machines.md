@@ -59,14 +59,6 @@ If you enable remote debugging for a cloud service, it doesn't exhibit degraded 
 
 ### To attach the debugger to a cloud service in Azure
 
-::: moniker range=">=vs-2022"
-
-The [Kudu console](https://github.com/projectkudu/kudu/wiki/Kudu-console) gives you direct, elevated command-line access to the App Service server and its file system. This is both a valuable debugging tool and allows for CLI operations such as installing packages.
-
-::: moniker-end
-
-::: moniker range="<=vs-2017"
-
 1. In Server Explorer, expand the node for your cloud service.
 
 2. Open the shortcut menu for the role or role instance to which you want to attach, and then select **Attach Debugger**.
@@ -99,17 +91,7 @@ From Azure SDK 2.3, remote debugging has the following limitations:
     The reserved port range 'range' for endpoint Microsoft.WindowsAzure.Plugins.RemoteDebugger.Connector of role 'role' overlaps with an already defined port or range.
   * Allocation failed. Please retry later, try reducing the VM size or number of role instances, or try deploying to a different region.
 
-::: moniker-end
-
 ## Debugging Azure virtual machines
-
-::: moniker range=">=vs-2022"
-
-The [Kudu console](https://github.com/projectkudu/kudu/wiki/Kudu-console) gives you direct, elevated command-line access to the App Service server and its file system. This is both a valuable debugging tool and allows for CLI operations such as installing packages.
-
-::: moniker-end
-
-::: moniker range="<=vs-2017"
 
 You can debug programs that run on Azure virtual machines by using Server Explorer in Visual Studio. When you enable remote debugging on an Azure virtual machine, Azure installs the remote debugging extension on the virtual machine. Then, you can attach to processes on the virtual machine and debug as you normally would.
 
@@ -139,8 +121,6 @@ You can debug programs that run on Azure virtual machines by using Server Explor
     ![Select code type dialog box](./media/vs-azure-tools-debug-cloud-services-virtual-machines/IC718346.png)
 
 5. Choose the processes you want to debug on the virtual machine and then select **Attach**. For example, you might choose the w3wp.exe process if you wanted to debug a web app on the virtual machine. See [Debug One or More Processes in Visual Studio](../debugger/debug-multiple-processes.md) and [Azure Role Architecture](/archive/blogs/kwill/windows-azure-role-architecture) for more information.
-
-::: moniker-end
 
 ## Create a web project and a virtual machine for debugging
 
