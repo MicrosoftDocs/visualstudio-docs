@@ -13,10 +13,9 @@ ms.author: ghogen
 
 ::: moniker range=">=vs-2022"
 > [!Important]
-> The Azure node of Server Explorer has been retired in Visual Studio 2022. Instead, you can use the following > alternatives:
-> - Use [Microsoft Azure Storage Explorer](/azure/vs-azure-tools-storage-manage-with-storage-explorer) is a free, standalone app from Microsoft. You can use it to work visually with Azure Storage data on Windows, macOS, and Linux.
+> The Azure node of Server Explorer has been retired in Visual Studio 2022. You can use the Azure Portal or continue to use the Azure node of Server Explorer in previous versions of Visual Studio.
 >
-> If needed, you can use the Azure Portal or continue to use the Azure node of Server Explorer in previous versions of Visual Studio.
+> Also, [Microsoft Azure Storage Explorer](/azure/vs-azure-tools-storage-manage-with-storage-explorer) is a free, standalone app from Microsoft. You can use it to work visually with Azure Storage data on Windows, macOS, and Linux.
 >
 > For more information about Visual Studio 2022, see our [release notes](/visualstudio/releases/2022/release-notes-preview/).
 
