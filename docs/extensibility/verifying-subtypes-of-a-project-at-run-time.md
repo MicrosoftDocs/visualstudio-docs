@@ -3,7 +3,7 @@ title: Verifying Subtypes of a Project at Run Time | Microsoft Docs
 description: Learn how to have your VSPackage verify the presence of a specified custom project subtype that it depends on.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - project subtypes
 - check subtypes

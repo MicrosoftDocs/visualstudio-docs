@@ -3,7 +3,7 @@ title: Define Element | Microsoft Docs
 description: The Define element defines a symbol name and value pair. This symbol can be evaluated by conditional attributes.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - VSCT XML schema elements, Define
 - Define element (VSCT XML schema)

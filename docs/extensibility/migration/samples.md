@@ -18,7 +18,7 @@ This guide will show all the steps required for adding Visual Studio 2022 suppor
 This is meant to be a thorough guide with git commit links to each step, but you are free to see the finalized PR here: 
 [https://github.com/madskristensen/ImageOptimizer/pull/46](https://github.com/madskristensen/ImageOptimizer/pull/46).
 
-We also have [additional samples](https://github.com/microsoft/VSExtensibility/wiki/Samples#other-samples) at the end of this guide.
+We also have [additional samples](#other-samples) at the end of this guide.
 
 ## Step 1 - Modernize the project
 

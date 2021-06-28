@@ -3,7 +3,7 @@ title: Combos Element | Microsoft Docs
 description: The Combos element groups Combo elements, which define commands that appear in a combo box. This article contains an example.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - Combos element (VSCT XML schema)
 - VSCT XML schema elements, Combos
