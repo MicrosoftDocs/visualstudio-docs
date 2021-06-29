@@ -4,8 +4,6 @@ description: Learn about the Error List window and how to use it to perform task
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
-f1_keywords:
-- VS.ErrorList
 helpviewer_keywords:
 - Task List
 - build errors

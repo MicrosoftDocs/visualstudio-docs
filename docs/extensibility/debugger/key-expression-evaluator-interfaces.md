@@ -3,7 +3,7 @@ title: Key Expression Evaluator Interfaces | Microsoft Docs
 description: Learn about the interfaces you should be familiar with when you write an expression evaluator, along with the evaluation context.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - debugging [Debugging SDK], expression evaluation
 - expression evaluation, interfaces

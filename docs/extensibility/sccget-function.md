@@ -2,7 +2,7 @@
 description: "This function retrieves a copy of one or more files for viewing and compiling but not for editing."
 title: SccGet Function | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - SccGet
 helpviewer_keywords:

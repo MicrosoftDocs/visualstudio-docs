@@ -3,6 +3,7 @@ title: "Evaluating the function &apos;function&apos; timed out and needed to be 
 description: "Full message text: Evaluating the function 'function' timed out and needed to be aborted in an unsafe way."
 ms.date: "06/18/2021"
 ms.topic: "error-reference"
+ms.custom: "contperf-fy21q4"
 f1_keywords:
   - "vs.debug.error.unsafe_func_eval_abort"
 author: "mikejo5000"

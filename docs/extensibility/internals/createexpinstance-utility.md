@@ -3,7 +3,7 @@ title: CreateExpInstance Utility | Microsoft Docs
 description: Learn about the CreateExpInstance utility that allows you to create, reset, or delete an experimental instance of Visual Studio.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - experimental builds
 - experimental hive
