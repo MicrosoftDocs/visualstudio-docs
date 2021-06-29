@@ -29,7 +29,7 @@ For more information about accessibility in Visual Studio, see [Accessibility ti
 
 ## Printable shortcut cheatsheet
 
-Download and print our Visual Studio cheatsheet.
+Download and print our Visual Studio shortcut cheatsheet.
 
 [ ![Visual Studio Cheatsheet.](media/default-keyboard-shortcuts-in-visual-studio/visual-studio-shortcut-cheatsheet.png)](media/default-keyboard-shortcuts-in-visual-studio/visual-studio-shortcut-cheatsheet-extended.png#lightbox)
 
