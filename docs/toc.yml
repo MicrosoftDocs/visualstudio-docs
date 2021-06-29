@@ -1455,6 +1455,8 @@
       href: ide/visual-studio-experience-improvement-program.md
     - name: System-generated logs
       href: ide/diagnostic-data-collection.md
+  - name: Connected experiences in Visual Studio
+    href: ide/reference/connected-experiences.md
   - name: Resources for troubleshooting IDE errors
     href: ide/reference/resources-for-troubleshooting-integrated-development-environment-errors.md
 - name: Send feedback
