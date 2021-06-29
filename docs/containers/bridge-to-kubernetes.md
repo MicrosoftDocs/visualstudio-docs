@@ -17,6 +17,7 @@ In this tutorial, you'll learn how to use Bridge to Kubernetes to redirect traff
 
 This guide also provides a script for deploying a large sample application with multiple microservices on a Kubernetes cluster.
 
+Learn more about Bridge to Kubernetes with the article, [How Bridge to Kubernetes works](overview-bridge-to-kubernetes.md).
 
 ## Prerequisites
 
