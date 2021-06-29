@@ -152,10 +152,7 @@ namespace ConsoleLauncherApp
             {
                 ISetupInstance[] setupInstances = new ISetupInstance[1];
                 enumerator.Next(1, setupInstances, out count);
-                if (count == 1 &&
-                    setupInstances != null &&
-                    setupInstances.Length == 1 &&
-                    setupInstances[0] != null)
+                if (count == 1 && setupInstances[0] != null)
                 {
                     yield return setupInstances[0];
                 }
@@ -173,9 +170,6 @@ namespace ConsoleLauncherApp
         {
             [DllImport("ole32.dll")]
             public static extern int CreateBindCtx(uint reserved, out IBindCtx ppbc);
-
-            [DllImport("ole32.dll")]
-            public static extern void GetRunningObjectTable(int reserved, out IRunningObjectTable prot);
         }
     }
 }
