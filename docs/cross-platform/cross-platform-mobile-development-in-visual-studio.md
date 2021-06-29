@@ -104,7 +104,7 @@ With Visual Studio Tools for Xamarin, you can target Android, iOS, and Windows i
 |**Learn more**|
 |--------------------|
 |[Install Visual Studio](https://visualstudio.microsoft.com/vs/community/) (VisualStudio.com)|
-|[Get started with Visual Studio Tools for Apache Cordova](/visualstudio/cross-platform/tools-for-cordova/)|
+|[Get started with Visual Studio Tools for Apache Cordova](/previous-versions/visualstudio/cross-platform/tools-for-cordova/)|
 |[Learn about the Visual Studio Emulator for Android](https://visualstudio.microsoft.com/vs/msft-android-emulator/) (VisualStudio.com)|
 
 ::: moniker-end

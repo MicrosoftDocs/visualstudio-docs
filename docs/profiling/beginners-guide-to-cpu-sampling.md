@@ -1,7 +1,7 @@
 ---
 title: Beginners guide to CPU sampling
 description: Learn how Visual Studio profiling tools reveal how much time is used by the functions in your application, guiding you to areas to speed up the application.
-ms.custom: "SEO-VS-2020, seodec18"
+ms.custom: "SEO-VS-2020"
 ms.date: 02/27/2017
 ms.topic: how-to
 f1_keywords: 

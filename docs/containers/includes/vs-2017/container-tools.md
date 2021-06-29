@@ -8,7 +8,7 @@ ms.technology: vs-azure
 ms.topic: include
 ---
 
-With Visual Studio, you can easily build, debug, and run containerized ASP.NET Core apps and publish them to Azure Container Registry (ACR), Docker Hub, Azure App Service, or your own container registry. In this article, we'll publish to ACR.
+With Visual Studio, you can easily build, debug, and run containerized ASP.NET Core apps and publish them to Azure Container Registry, Docker Hub, Azure App Service, or your own container registry. In this article, we'll publish to Container Registry.
 
 ## Prerequisites
 
@@ -40,12 +40,12 @@ For Docker installation, first review the information at [Docker Desktop for Win
 A *Dockerfile*, the recipe for creating a final Docker image, is created in the project. Refer to [Dockerfile reference](https://docs.docker.com/engine/reference/builder/) for an understanding of the commands within it.:
 
 ```
-FROM microsoft/dotnet:2.1-aspnetcore-runtime AS base
+FROM mcr.microsoft.com/dotnet/aspnet:2.1 AS base
 WORKDIR /app
 EXPOSE 59518
 EXPOSE 44364
 
-FROM microsoft/dotnet:2.1-sdk AS build
+FROM mcr.microsoft.com/dotnet/sdk:2.1 AS build
 WORKDIR /src
 COPY HelloDockerTools/HelloDockerTools.csproj HelloDockerTools/
 RUN dotnet restore HelloDockerTools/HelloDockerTools.csproj

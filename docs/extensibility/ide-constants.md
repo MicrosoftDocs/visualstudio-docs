@@ -3,7 +3,7 @@ title: IDE Constants | Microsoft Docs
 description: The VSConstants class provides constants specific to the IDE and that were previously defined only in header files.
 ms.custom: SEO-VS-2020
 ms.date: 03/22/2018
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - IDE, errors
 - logical views

@@ -1,6 +1,16 @@
 {
   "redirections": [
     {
+      "source_path": "docs/ide/default-keyboard-shortcuts-for-frequently-used-commands-in-visual-studio.md",
+      "redirect_url": "/visualstudio/ide/default-keyboard-shortcuts-in-visual-studio",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/data-tools/additional-resources-for-troubleshooting-data-access-errors.md",
+      "redirect_url": "/answers/products/?WT.mc_id=msdnredirect-web-msdn",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "scripting-docs/javascript/misc/access-is-denied.md",
       "redirect_url": "/archive/scripting-docs/javascript/misc/access-is-denied",
       "redirect_document_id": false
@@ -46226,6 +46236,21 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/ide/not-in-toc/default-f1-typescript.md",
+      "redirect_url": "/visualstudio/ide/not-in-toc/default",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/not-in-toc/default-f1-javascript.md",
+      "redirect_url": "/visualstudio/ide/not-in-toc/default",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/not-in-toc/default-f1-text-editor.md",
+      "redirect_url": "/visualstudio/ide/not-in-toc/default",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/ide/not-in-toc/intellicode-faq.md",
       "redirect_url": "/visualstudio/intellicode/faq",
       "redirect_document_id": false
@@ -57927,6 +57952,11 @@
     {
       "source_path": "gamedev/unity/extensibility/share-the-unity-log-callback-with-vstu.md",
       "redirect_url": "/visualstudio/gamedev/unity/extensibility/programming-visual-studio-tools-for-unity",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/whats-new-visual-studio-docs-history.md",
+      "redirect_url": "/visualstudio/ide/whats-new-visual-studio-docs",
       "redirect_document_id": false
     }
   ]

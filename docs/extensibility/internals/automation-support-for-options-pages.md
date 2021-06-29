@@ -3,7 +3,7 @@ title: Automation Support for Options Pages | Microsoft Docs
 description: Learn how to make your custom Tools Options pages in VSPackages available to the Visual Studio automation model.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - Tools Options pages [Visual Studio SDK], automation support
 - automation [Visual Studio SDK], creating Tools Options pages

@@ -151,32 +151,33 @@
     href: ide/quickstart-ide-orientation.md
   - name: "C++: Create a console app"
     href: /cpp/get-started/tutorial-console-cpp
-  - name: "Python: Create a web app"
-    href: ide/quickstart-python.md
-  - name: "Node.js: Create a web app"
-    href: ide/quickstart-nodejs.md
-  - name: "F#: Create a web service"
-    href: ide/quickstart-fsharp.md
   - name: "C#: Create a web app"
     href: ide/quickstart-aspnet-core.md
   - name: "C#: Create a console app"
     href: ide/quickstart-csharp-console.md
   - name: "Visual Basic: Create a console app"
     href: ide/quickstart-visual-basic-console.md
+  - name: "Node.js: Create a web app"
+    href: ide/quickstart-nodejs.md
+  - name: "Python: Create a web app"
+    href: ide/quickstart-python.md
+  - name: "F#: Create a web service"
+    href: ide/quickstart-fsharp.md
 - name: Tutorials
+  expanded: true
   items:
-  - name: C#
-    href: get-started/csharp/
-  - name: F#
-    href: /dotnet/fsharp/
-  - name: Visual Basic
-    href: get-started/visual-basic/
-  - name: C++
+  - name: C++ >>
     href: /cpp/get-started/tutorial-console-cpp
-  - name: Python
-    href: python/
-  - name: Node.js
+  - name: C#  >>
+    href: get-started/csharp/
+  - name: Visual Basic  >>
+    href: get-started/visual-basic/
+  - name: Node.js  >>
     href: javascript/
+  - name: Python  >>
+    href: python/    
+  - name: F#  >>
+    href: /dotnet/fsharp/
 - name: Develop
   items:
   - name: Organize and edit code
@@ -443,6 +444,8 @@
           href: ide/reference/regex-completion-through-intellisense.md
         - name: Remove unreachable code
           href: ide/reference/remove-unreachable-code.md
+        - name: Remove unused references
+          href: ide/reference/remove-unused-references.md
         - name: Rename
           href: ide/reference/rename.md
         - name: Simplify conditional expression
@@ -977,14 +980,9 @@
     href: ide/reference/accessibility-products-and-services-from-microsoft.md
 - name: Reference
   items:
-  - name: Keyboard shortcuts
-    items:
-    - name: Popular commands
-      displayName: keyboard shortcuts
-      href: ide/default-keyboard-shortcuts-for-frequently-used-commands-in-visual-studio.md
-    - name: All commands
-      displayName: keyboard commands
-      href: ide/default-keyboard-shortcuts-in-visual-studio.md
+  - name: Keyboard shortcuts & commands
+    displayName: keyboard, shortcuts, short cuts, ctrl, short-cut
+    href: ide/default-keyboard-shortcuts-in-visual-studio.md
   - name: Visual Studio commands
     items:
     - name: Reference
@@ -1426,14 +1424,12 @@
 - name: Resources
   expanded: true
   items:
-  - name: What's new in Visual Studio 2017
+  - name: "Visual Studio 2017: What's new"
     href: ide/whats-new-visual-studio-2017.md
-  - name: What's new in Visual Studio 2019
+  - name: "Visual Studio 2019: What's new"
     href: ide/whats-new-visual-studio-2019.md
-  - name: What's new in the docs
+  - name: "What's new in Docs"
     href: ide/whats-new-visual-studio-docs.md
-  - name: History of what's new in the docs
-    href: ide/whats-new-visual-studio-docs-history.md
   - name: Release notes
     items:
     - name: Release rhythm
@@ -1448,16 +1444,16 @@
       href: https://visualstudio.microsoft.com/license-terms/
     - name: Support lifecycle and servicing
       href: /visualstudio/productinfo/vs-servicing-vs/
-  - name: Customer Experience Improvement Program
+  - name: Customer Experience Improvement
     items:
-    - name: Overview
+    - name: About the program
       displayName: Customer Experience Improvement Program
       href: ide/visual-studio-experience-improvement-program.md
     - name: System-generated logs
       href: ide/diagnostic-data-collection.md
   - name: Connected experiences in Visual Studio
     href: ide/reference/connected-experiences.md
-  - name: Resources for troubleshooting IDE errors
+  - name: Troubleshooting IDE errors
     href: ide/reference/resources-for-troubleshooting-integrated-development-environment-errors.md
 - name: Send feedback
   items:
@@ -1465,7 +1461,7 @@
     href: ide/feedback-options.md
   - name: Report a problem
     items:
-    - name: How to report a problem
+    - name: Report a problem
       href: ide/how-to-report-a-problem-with-visual-studio.md
     - name: Report a problem states and FAQ
       href: ide/report-a-problem.md

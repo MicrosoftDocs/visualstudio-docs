@@ -1,7 +1,7 @@
 ---
 title: "Create your first console app with Visual Basic"
 description: "Learn how to create a simple Hello World console app in Visual Studio with Visual Basic, step-by-step."
-ms.custom: "seodec18"
+ms.custom: "vs-acquisition"
 ms.date: 03/23/2019
 ms.technology: vs-ide-general
 ms.prod: visual-studio-windows
@@ -31,6 +31,12 @@ If you haven't already installed Visual Studio, go to the [Visual Studio downloa
 
 ::: moniker-end
 
+::: moniker range="vs-2022"
+
+If you haven't already installed Visual Studio 2022 Preview, go to the [Visual Studio 2022 Preview downloads](https://visualstudio.microsoft.com/vs/preview/vs2022) page to install it for free.
+
+::: moniker-end
+
 ## Create a project
 
 First, you'll create a Visual Basic application project. The project type comes with all the template files you'll need, before you've even added anything!
@@ -55,12 +61,12 @@ First, you'll create a Visual Basic application project. The project type comes 
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 > [!NOTE]
 > Some of the screenshots in this Quickstart use the dark theme. If you aren't using the dark theme but would like to, see the [Personalize the Visual Studio IDE and Editor](quickstart-personalize-the-ide.md) page to learn how.
 
-1. Open Visual Studio 2019.
+1. Open Visual Studio.
 
 1. On the start window, choose **Create a new project**.
 

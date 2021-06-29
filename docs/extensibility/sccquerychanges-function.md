@@ -2,7 +2,7 @@
 description: "This function enumerates a given list of files, providing information about name changes for each file via a callback function."
 title: SccQueryChanges Function | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - SccQueryChanges
 helpviewer_keywords:

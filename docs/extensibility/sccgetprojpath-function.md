@@ -2,7 +2,7 @@
 description: "This function prompts the user for a project path, which is a string that is meaningful only to the source control plug-in."
 title: SccGetProjPath Function | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - SccGetProjPath
 helpviewer_keywords:

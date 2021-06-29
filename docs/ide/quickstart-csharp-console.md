@@ -1,8 +1,8 @@
 ---
-title: "Use Visual Studio to create your first C# console app"
+title: "Tutorial: Create C# console app with Visual Studio"
 titleSuffix: ""
 description: "Learn how to create a simple Hello World console app in Visual Studio with C#, step-by-step."
-ms.custom: "seodec18"
+ms.custom: "vs-acquisition"
 ms.date: 03/23/2019
 ms.technology: vs-ide-general
 ms.prod: visual-studio-windows
@@ -32,6 +32,12 @@ If you haven't already installed Visual Studio, go to the [Visual Studio downloa
 
 ::: moniker-end
 
+::: moniker range="vs-2022"
+
+If you haven't already installed Visual Studio 2022 Preview, go to the [Visual Studio 2022 Preview downloads](https://visualstudio.microsoft.com/vs/preview/vs2022) page to install it for free.
+
+::: moniker-end
+
 ## Create a project
 
 First, you'll create a C# application project. The project type comes with all the template files you'll need, before you've even added anything!
@@ -56,9 +62,9 @@ First, you'll create a C# application project. The project type comes with all t
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
-1. Open Visual Studio 2019.
+1. Open Visual Studio.
 
 1. On the start window, choose **Create a new project**.
 
@@ -97,7 +103,7 @@ After you select your C# project template and name your project, Visual Studio c
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 Visual Studio includes default "Hello World" code in your project.
 

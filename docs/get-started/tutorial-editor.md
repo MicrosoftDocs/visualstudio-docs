@@ -3,7 +3,7 @@ title: Introduction to editing in the code editor
 description: Learn how to use the code editor in Visual Studio to add code to a file, and also how to write code, navigate to it, and refactor it.
 ms.date: 11/30/2017
 ms.technology: vs-ide-general
-ms.custom: [get-started, SEO-VS-2020]
+ms.custom: [vs-acquisition,  get-started, SEO-VS-2020]
 ms.topic: tutorial
 author: TerryGLee
 ms.author: tglee
@@ -28,6 +28,13 @@ In this 10-minute introduction to the code editor in Visual Studio, we'll add co
 
 > [!TIP]
 > If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads) page to install it for free.
+
+::: moniker-end
+
+::: moniker range="vs-2022"
+
+> [!TIP]
+> If you haven't already installed Visual Studio 2022 Preview, go to the [Visual Studio 2022 Preview downloads](https://visualstudio.microsoft.com/vs/preview/vs2022) page to install it for free.
 
 ::: moniker-end
 

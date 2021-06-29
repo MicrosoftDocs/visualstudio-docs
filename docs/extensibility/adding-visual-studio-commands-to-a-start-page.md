@@ -3,7 +3,7 @@ title: Adding Visual Studio Commands to a Start Page | Microsoft Docs
 description: Learn about the different ways to bind Visual Studio commands to XAML objects on a custom Start Page in Visual Studio.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - start page commands
 - vs:VSCommands

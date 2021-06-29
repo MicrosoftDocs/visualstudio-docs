@@ -1,7 +1,7 @@
 ---
 title: Update a network-based installation
 description: Learn how to update a network-based Visual Studio installation by using the --layout command
-ms.date: 04/16/2021
+ms.date: 05/26/2021
 ms.custom: seodec18
 ms.topic: conceptual
 helpviewer_keywords:
@@ -35,36 +35,36 @@ Let's walk through a few examples of how to create and then update a layout:
 
 * First, here's an example of how to create a layout with one workload for English only:
 
-  ```cmd
+  ```shell
   vs_enterprise.exe --layout c:\VSLayout --add Microsoft.VisualStudio.Workload.ManagedDesktop --lang en-US
   ```
 
 * Here's how to update that same layout to a newer version. You don't have to specify any additional command-line parameters. The previous settings were saved and will be used by any subsequent layout commands in this layout folder.
 
-  ```cmd
+  ```shell
   vs_enterprise.exe --layout c:\VSLayout
   ```
 
 * Here's how to update your layout to a newer version in an unattended manner. The layout operation runs the setup process in a new console window. The window is left open so users can see the final result and a summary of any errors that might have occurred. If you are performing a layout operation in an unattended manner (for example, you have a script that is regularly run to update your layout to the latest version), then use the `--passive` parameter and the process will automatically close the window.
 
-  ```cmd
+  ```shell
   vs_enterprise.exe --layout c:\VSLayout --passive
   ```
 
 * Here's how to add an additional workload and localized language.  (This command adds the *Azure development* workload.)  Now both Managed Desktop and Azure are included in this layout.  The language resources for English and German are also included for all these workloads.  And, the layout is updated to the latest available version.
 
-  ```cmd
+  ```shell
   vs_enterprise.exe --layout c:\VSLayout --add Microsoft.VisualStudio.Workload.Azure --lang de-DE
   ```
 
     > [!IMPORTANT]
-    > An update operation doesn't install newly added optional components. If you need the newly added optional components, please remove the old optional components in the `Layout.JSON` [response file](automated-installation-with-response-file.md) and include the components you need in the "add" section of `Layout.JSON`. 
+    > An update operation doesn't download or install additional optional components either to the layout or onto the client. If you need to add or change optional components, first remove the old optional components from the `Layout.JSON` [response file](automated-installation-with-response-file.md) and include the new components you need in the "add" section of `Layout.JSON`. Then, when you run the update command on the layout, it will download the newly added components into the layout. 
     >
-    > **Workaround**: Run a separate modify operation after an upgrade to install the missing components.
+    > To get these new components installed on the client machine, make sure you do these three steps. First, verify that the layout contains the new components as described above. Next, update your client to the latest bits in the layout.  Finally, again on the client, run a modify operation which will install the new components (that were added to the layout) onto the client machine.
 
 * And finally, here's how to add an additional workload and localized language without updating the version. (This command adds the *ASP.NET and web development* workload.)  Now the Managed Desktop, Azure, and ASP.NET & Web Development workloads are included in this layout. The language resources for English, German, and French are also included for all these workloads.  However, the layout was not updated to the latest available version when this command was run. It remains at the existing version.
 
-  ```cmd
+  ```shell
   vs_enterprise.exe --layout c:\VSLayout --add Microsoft.VisualStudio.Workload.NetWeb --lang fr-FR --keepLayoutVersion
   ```
 
@@ -92,6 +92,14 @@ Depending on how your network environment is configured, an update can either be
 
 ::: moniker-end
 
+::: moniker range=">=vs-2022"
+
+* Administrators can update client deployments of Visual Studio without any user interaction with two separate commands:
+  * First, update the Visual Studio installer: <br>```vs_enterprise.exe --quiet --update```
+  * Then, update the Visual Studio application itself: <br>```vs_enterprise.exe update --installPath "C:\Program Files\Microsoft Visual Studio\2022\Enterprise" --quiet --wait --norestart```
+
+::: moniker-end
+
 > [!NOTE]
 > Use the [vswhere.exe command](tools-for-managing-visual-studio-instances.md) to identify the install path of an existing instance of Visual Studio on a client machine.
 >
@@ -102,7 +110,7 @@ Depending on how your network environment is configured, an update can either be
 
 Use `--verify` to perform verification on the offline cache supplied. It checks if packages files are either missing or invalid. At the end of the verification, it prints the list of missing files and invalid files.
 
-```cmd
+```shell
 vs_enterprise.exe --layout <layoutDir> --verify
 ```
 
@@ -120,7 +128,7 @@ Microsoft ships updates to Visual Studio periodically, so the new layout that yo
 
 Use `--fix` to perform the same verification as `--verify` and also try to fix the identified issues. The `--fix` process needs an internet connection, so make sure your machine is connected to the internet before you invoke `--fix`.
 
-```cmd
+```shell
 vs_enterprise.exe --layout <layoutDir> --fix
 ```
 
@@ -136,17 +144,17 @@ A few files are saved inside each "GUID" folder. The two files of most interest 
 
 Here are a few examples of how to use the --clean option:
 
-```cmd
+```shell
 vs_enterprise.exe --layout <layoutDir> --clean <file-path-of-catalog1> <file-path-of-catalog2> …
 ```
 
-```cmd
+```shell
 vs_enterprise.exe --layout <layoutDir> --clean <file-path-of-catalog1> --clean <file-path-of-catalog2> …
 ```
 
 You can also invoke vs_enterprise.exe inside the &lt;layoutDir&gt;. Here's an example:
 
-```cmd
+```shell
 c:\VSLayout\vs_enterprise.exe --layout c:\VSLayout --clean c:\VSLayout\Archive\1cd70189-fc55-4583-8ad8-a2711e928325\Catalog.json --clean c:\VS2017Layout\Archive\d420889f-6aad-4ba4-99e4-ed7833795a10\Catalog.json
 ```
 

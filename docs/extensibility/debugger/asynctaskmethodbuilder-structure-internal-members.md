@@ -4,7 +4,7 @@ title: AsyncTaskMethodBuilder Structure - Internal Members
 titleSuffix: ""
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - debug engines, AsyncTaskMethodBuilder structure [.NET Framework]
 - AsyncTaskMethodBuilder structure [.NET Framework debug engines]

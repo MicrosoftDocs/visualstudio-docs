@@ -3,7 +3,7 @@ title: Sample Implementation of Changing Values | Microsoft Docs
 description: Every local displayed in the Locals window has an IDebugProperty2 object associated with it. Learn how Visual Studio updates the value of the local in memory.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: sample
 helpviewer_keywords:
 - expression evaluation, local values
 - debugging [Debugging SDK], expression evaluation

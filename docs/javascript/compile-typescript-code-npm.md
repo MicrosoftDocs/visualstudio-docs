@@ -109,7 +109,7 @@ The [TypeScript npm package](https://www.npmjs.com/package/typescript) adds Type
 
 ### Run the application
 
-For instructions to run the app after you compile it, see [Create your first Node.js app](../ide/quickstart-nodejs.md?toc=%252fvisualstudio%252fjavascript%252ftoc.json#run-the-application).
+For instructions to run the app after you compile it, see [Create your first Node.js app](../ide/quickstart-nodejs.md?toc=%252fvisualstudio%252fjavascript%252ftoc.json#run-the-app).
 
 ## Automate build tasks
 

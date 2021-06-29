@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: 872c5746-5357-4764-949b-aa525a0adf1a
-ms.date: 05/18/2021
+ms.date: 06/07/2021
 ms.topic: how-to
 description:  Learn how to activate the Azure DevTest individual credit benefit included in your Visual Studio subscription.
 ---
@@ -37,7 +37,7 @@ As a Visual Studio subscriber, you can use Microsoft Azure at no extra charge.  
 0. Bookmark the [Azure portal](https://portal.azure.com) for easy access in the future.
 
 ## Maintain a subscription to use monthly credits
-If your Visual Studio subscription expires or is removed, all the subscription benefits, including the monthly Azure dev/test individual credit are no longer available. To continue using Azure with a monthly credit, you will need to renew your subscription, purchase a new subscription, or transfer the Azure benefit to an active subscription that includes the Azure dev/test individual credit.  
+If your Visual Studio subscription expires or is removed, all the subscription benefits, including the monthly Azure dev/test individual credit are no longer available. To continue using Azure with a monthly credit, you will need to renew your subscription, purchase a new subscription, and/or transfer your Azure resources to a different Azure subscription that includes the Azure dev/test individual credit.  
 
 > [!IMPORTANT]
 > You must transfer your resources to another Azure subscription before your current Azure subscription is disabled or you will lose access to your data.  

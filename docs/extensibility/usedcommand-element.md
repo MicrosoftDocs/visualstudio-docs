@@ -3,7 +3,7 @@ title: UsedCommand Element | Microsoft Docs
 description: The UsedCommand element enables a VSPackage to access a command that is defined in another .vsct file.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - UsedCommands element (VSCT XML schema)
 - VSCT XML schema elements, UsedCommands

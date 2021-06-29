@@ -603,7 +603,7 @@ Visual Studio content displays a Visual Studio logo as well as other graphics.  
 |tabLeftBD.gif|Used to render the code snippet container||
 |tabRightBD.gif|Used to render the code snippet container||
 |vs_logo_bk.gif|Used for normal contrast logo references as defined in Branding.xml tag \<LogoFileName>.  For Visual Studio products, logo name is vs_logo_bk.gif.||
-|vs_logo_wh.gif|Used for normal high logo references as defined in Branding.xml tag \<LogoFileNameHC>.  For Visual Studio products, logo name is vs_logo_wh.gif.||
+|vs_logo_wh.gif|Used for high contrast logo references as defined in Branding.xml tag \<LogoFileNameHC>.  For Visual Studio products, logo name is vs_logo_wh.gif.||
 |ccOff.png|Captioning graphic||
 |ccOn.png|Captioning graphic||
 |ImageSprite.png|Used to render Collapsible Area|expanded or collapse graphic|

@@ -1,7 +1,7 @@
 ---
 title: "Create an ASP.NET Core web app in C#"
 description: "Learn how to create a simple Hello World web app in Visual Studio with C# and ASP.NET Core, step-by-step."
-ms.custom: "mvc,seodec18"
+ms.custom: "vs-acquisition"
 ms.date: 11/06/2019
 ms.technology: vs-ide-general
 ms.prod: visual-studio-windows
@@ -32,6 +32,12 @@ If you haven't already installed Visual Studio, go to the [Visual Studio downloa
 ::: moniker range="vs-2019"
 
 If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads) page to install it for free.
+
+::: moniker-end
+
+::: moniker range="vs-2022"
+
+If you haven't already installed Visual Studio 2022 Preview, go to the [Visual Studio 2022 Preview downloads](https://visualstudio.microsoft.com/vs/preview/vs2022) page to install it for free.
 
 ::: moniker-end
 
@@ -75,7 +81,7 @@ Soon after, Visual Studio opens your project file.
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 1. In the start window, choose **Create a new project**.
 
@@ -171,7 +177,7 @@ Congratulations on completing this Quickstart! We hope you learned a little bit 
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 1. In the **Solution Explorer**, expand the **Pages** folder, and then choose **Index.cshtml**.
 

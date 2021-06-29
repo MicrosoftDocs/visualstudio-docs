@@ -2,7 +2,7 @@
 title: Troubleshoot installation or upgrade issues
 description: Sometimes, things can go wrong. If your Visual Studio installation or upgrade fails, this page can help.
 ms.date: 06/24/2020
-ms.custom: seodec18
+ms.custom: vs-acquisition
 ms.topic: troubleshooting
 helpviewer_keywords:
 - '{{PLACEHOLDER}}'
@@ -35,7 +35,7 @@ There are some known issues with the Visual Studio Installer that Microsoft is w
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 There are some known issues with the Visual Studio Installer that Microsoft is working on fixing. To see if there's a workaround for your problem, check the [Known Issues section of our release notes](/visualstudio/releases/2019/release-notes#-known-issues).
 
@@ -65,7 +65,7 @@ The Visual Studio Installer bootstrapper is a minimal light-weight executable th
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 1. Close the Visual Studio Installer.
 2. Delete the Visual Studio Installer directory. Typically, the directory is `C:\Program Files (x86)\Microsoft Visual Studio\Installer`.
@@ -88,7 +88,7 @@ In some situations, such as those related to corrupted files, the problems might
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 1. Collect your setup logs. See [How to get the Visual Studio installation logs](#installation-logs) for details.
 2. Open the Visual Studio Installer, and then click **Report a problem** to open the Visual Studio Feedback tool.
