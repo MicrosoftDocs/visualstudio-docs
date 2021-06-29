@@ -1,14 +1,9 @@
 ---
 title: Learn about the Solution Explorer tool window
 description: Learn how you can use the Solution Explorer tool window in Visual Studio to create & manage your files, projects, and solutions.
-ms.custom: "contperf-fy21q4"
 ms.date: 06/21/2021
 ms.topic: conceptual
-f1_keywords:
-- VS.SolutionExplorer.Selection
 helpviewer_keywords:
-- solutions [Visual Studio]
-- projects [Visual Studio]
 - solution explorer [Visual Studio]
 author: TerryGLee
 ms.author: tglee
@@ -48,7 +43,7 @@ The tool window contains the following UI (user interface) elements:
 
 ## Solution Explorer menu bar
 
-Let's take a closer look at the Solution Explorer menu bar.
+To continue, let's take a closer look at the Solution Explorer menu bar.
 
 [![The Solution Explorer menu bar in Visual Studio](media/solution-explorer-menu-bar.png)](media/solution-explorer-menu-bar.png#lightbox)
 
