@@ -618,7 +618,7 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 |WindowsAzure.RetryMobileServiceScriptOperation|**Ctrl+Num \*, Ctrl+R**|
 |WindowsAzure.ShowMobileServiceScriptErrorDetails|**Ctrl+Num \*, Ctrl+D**|
 
-## Context specific shortcuts
+## Context-specific shortcuts
 
 
 ### ADO.NET Entity Data Model Designer

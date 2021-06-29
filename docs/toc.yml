@@ -981,7 +981,7 @@
 - name: Reference
   items:
   - name: Keyboard shortcuts & commands
-    displayName: keyboard shortcuts short cuts
+    displayName: keyboard, shortcuts, short cuts, ctrl, short-cut
     href: ide/default-keyboard-shortcuts-in-visual-studio.md
   - name: Visual Studio commands
     items:
