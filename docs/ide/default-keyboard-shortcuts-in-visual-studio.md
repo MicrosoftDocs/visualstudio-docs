@@ -27,7 +27,9 @@ For a list of common keyboard shortcuts and other productivity information, see:
 
 For more information about accessibility in Visual Studio, see [Accessibility tips and tricks](../ide/reference/accessibility-tips-and-tricks.md) and [How to: Use the keyboard exclusively](../ide/reference/how-to-use-the-keyboard-exclusively.md).
 
+## Printable shortcut cheatsheet
 
+Download and print our [Visual Studio cheatsheet](media/default-keyboard-shortcuts-in-visual-studio/visual-studio-shortcut-cheatsheet.png).
 
 ## Most popular keyboard shortcuts
 
