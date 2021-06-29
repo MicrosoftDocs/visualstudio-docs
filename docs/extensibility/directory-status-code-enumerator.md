@@ -3,7 +3,7 @@ title: Directory Status Code Enumerator | Microsoft Docs
 description: The SccDirStatus enumerator contains named constant values that specify the state of a directory in the source control system and is used by SccDirQueryInfo.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - directory status code enumerator
 - source control plug-ins, directory status enumeration

@@ -5,7 +5,7 @@ keywords: "color, hex code, hue, themed UI, theming"
 author: "brickgeorge"
 ms.author: madsk
 ms.date: 08/04/2017
-ms.topic: conceptual
+ms.topic: reference
 ms.assetid: 694ffb31-132c-4d63-b930-8254e7c50c25
 ms.reviewer: "Jamie.Young"
 manager: jmartens

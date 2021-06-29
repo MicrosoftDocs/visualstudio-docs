@@ -3,7 +3,7 @@ title: The Structure of the [Content_types].xml File | Microsoft Docs
 description: Learn about the structure of the content types file, which contains information about the kinds of content in a VSIX package.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - content_types
 - content types

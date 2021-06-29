@@ -1,7 +1,7 @@
 ---
 title: "Tutorial: Create a simple C# console app"
 description: "Learn how to create a C# console app in Visual Studio, step-by-step."
-ms.custom: "seodec18, get-started"
+ms.custom: "vs-acquisition, get-started"
 ms.date: 02/10/2021
 ms.technology: vs-ide-general
 ms.prod: visual-studio-windows
@@ -29,6 +29,12 @@ If you haven't already installed Visual Studio, go to the [Visual Studio downloa
 ::: moniker range="vs-2019"
 
 If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads) page to install it for free.
+
+::: moniker-end
+
+::: moniker range="vs-2022"
+
+If you haven't already installed Visual Studio 2022 Preview, go to the [Visual Studio 2022 Preview downloads](https://visualstudio.microsoft.com/vs/preview/vs2022) page to install it for free.
 
 ::: moniker-end
 
@@ -69,9 +75,9 @@ If you don't see the **Console App (.NET Core)** project template, you can get i
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
-1. Open Visual Studio 2019.
+1. Open Visual Studio.
 
 1. On the start window, choose **Create a new project**.
 
@@ -610,7 +616,7 @@ Continue with more tutorials:
 
 :::moniker-end
 
-:::moniker range="vs-2019"
+:::moniker range=">=vs-2019"
 
 Continue with the second part of this tutorial:
 

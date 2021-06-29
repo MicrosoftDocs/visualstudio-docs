@@ -3,7 +3,7 @@ title: KeyBinding Element | Microsoft Docs
 description: The KeyBinding element specifies keyboard shortcuts for the commands. Commands can have both single and dual key bindings associated with them.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - VSCT XML schema elements, KeyBindings
 - KeyBinding element (VSCT XML schema)

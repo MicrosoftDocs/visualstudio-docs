@@ -34,9 +34,9 @@ When you create a picture viewer, the first step is to create a Windows Forms Ap
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
-## Open Visual Studio 2019
+## Open Visual Studio
 
 1. On the start window, choose **Create a new project**.
 

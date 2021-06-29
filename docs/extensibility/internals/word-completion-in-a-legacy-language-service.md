@@ -3,7 +3,7 @@ title: Word Completion in a Legacy Language Service | Microsoft Docs
 description: Word completion can be supported for a legacy language service in the Visual Studio SDK. Learn how legacy language services are implemented in a VSPackage.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - language services [managed package framework], IntelliSense Complete Word
 - IntelliSense, Complete Word

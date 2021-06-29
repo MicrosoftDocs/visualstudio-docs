@@ -3,7 +3,7 @@ title: Command Flag Element | Microsoft Docs
 description: The Command flag Element modifies its parent element. Review its parent elements and child elements.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - CommandFlag element (VSCT XML schema)
 - VSCT XML schema elements, CommandFlag

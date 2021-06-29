@@ -8,7 +8,7 @@ ms.topic: quickstart
 author: JoshuaPartlow
 ms.author: joshuapa
 manager: jmartens
-ms.custom: SEO-VS-2020
+ms.custom: [vs-acquisition,  SEO-VS-2020]
 ms.workload:
   - python
   - data-science

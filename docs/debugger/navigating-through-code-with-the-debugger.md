@@ -1,7 +1,7 @@
 ---
 title: "Navigate code with the debugger | Microsoft Docs"
 description: "Learn how to use Visual Studio debugger to troubleshoot your code. Topics include: getting into break mode, stepping through code, and running to a target."
-ms.custom: "SEO-VS-2020, seodec18"
+ms.custom: "SEO-VS-2020"
 ms.date: 11/12/2018
 ms.topic: how-to
 f1_keywords: 

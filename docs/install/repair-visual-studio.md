@@ -3,7 +3,7 @@ title: Repair Visual Studio
 titleSuffix: ''
 description: Learn how to repair an installation of Visual Studio 2017
 ms.date: 10/12/2020
-ms.custom: seodec18
+ms.custom: vs-acquisition
 ms.topic: how-to
 author: j-martens
 ms.author: jmartens
@@ -55,7 +55,7 @@ Sometimes your Visual Studio installation becomes damaged or corrupted. A repair
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 1. Find the **Visual Studio Installer** on your computer.
 

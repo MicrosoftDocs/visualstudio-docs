@@ -3,7 +3,7 @@ title: Tutorial projects and solutions Visual Basic
 description: Learn how to create a solution and a project in Visual Studio as a Visual Basic developer.
 ms.date: 12/12/2018
 ms.technology: vs-ide-general
-ms.custom: [get-started, SEO-VS-2020]
+ms.custom: [vs-acquisition, get-started, SEO-VS-2020]
 ms.topic: tutorial
 author: TerryGLee
 ms.author: tglee
@@ -28,6 +28,13 @@ In this introductory article, we'll explore what it means to create a *solution*
 
 > [!TIP]
 > If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads) page to install it for free.
+
+::: moniker-end
+
+::: moniker range="vs-2022"
+
+> [!TIP]
+> If you haven't already installed Visual Studio Preview, go to the [Visual Studio 2022 Preview downloads](https://visualstudio.microsoft.com/vs/preview/vs2022) page to install it for free.
 
 ::: moniker-end
 

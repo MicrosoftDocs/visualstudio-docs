@@ -3,8 +3,8 @@ title: Use ModelBus in a Text Template
 description: Learn how to resolve references to access target models if you write text templates that read a model that contains Visual Studio ModelBus references.
 ms.date: 11/04/2016
 ms.topic: how-to
-author: JoshuaPartlow
-ms.author: joshuapa
+author: mgoertz-msft
+ms.author: mgoertz
 manager: jmartens
 ms.workload:
 - multiple

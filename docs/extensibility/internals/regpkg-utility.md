@@ -3,7 +3,7 @@ title: RegPkg Utility | Microsoft Docs
 description: Learn how the RegPkg.exe utility registers a VSPackage with Visual Studio and prepares it for deployment.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - regpkg, registration utility
 - registration, regpkg utility
@@ -29,9 +29,7 @@ RegPkg [/root:<root>] [/regfile:<regfile>] [/rgsfile:<rgsfile> [/rgm]] [/vrgfile
 ```
 
  /root:root
- Performs registration under the specified
-
- [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] root.
+ Performs registration under the specified [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] root.
 
  /regfile:FileName
  Creates a .reg file rather than updating the registry.  Cannot be used with /vrgfile or /rgsfile or /wixfile.

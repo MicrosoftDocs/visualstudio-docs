@@ -6,7 +6,6 @@ ms.date: 06/01/2020
 ms.topic: reference
 f1_keywords:
 - vs.toolbox.general
-- vs.toolbox
 helpviewer_keywords:
 - Toolbox [Visual Studio]
 - custom controls [Visual Studio]
@@ -31,7 +30,7 @@ Toolbox appears in conjunction with designer views, such as the designer view of
 
 The .NET version that your project targets also affects the set of controls visible in Toolbox. You can change the target framework version from the project's property pages, if necessary. Select the project node in **Solution Explorer**, and then on the menu bar, choose **Project** > **projectname Properties**. On the **Application** tab, use the **Target framework** drop-down.
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 ![Screenshot of the Application dialog box showing the options in the Target framework drop-down.](media/vs-2019/toolbox-change-dotnet-version.png "Screenshot of the dialog box where you can change the .NET version")
 

@@ -39,6 +39,6 @@ Security is also an important consideration in the build process. A few addition
 - [Security in .NET](/dotnet/standard/security/index)
 - [Azure security](/azure/security/)
 - [Windows 10 Mobile security guide](/windows/security/threat-protection/windows-10-mobile-security-guide)
-- [Apache Cordova platform security features](/visualstudio/cross-platform/tools-for-cordova/security/best-practices?view=toolsforcordova-2017&preserve-view=true)
+- [Apache Cordova platform security features](/previous-versions/visualstudio/cross-platform/tools-for-cordova/security/best-practices?view=toolsforcordova-2017&preserve-view=true)
 - [ASP.NET Core security](/aspnet/core/security/?view=aspnetcore-2.1&preserve-view=true)
 - [Windows Forms security](/dotnet/framework/winforms/windows-forms-security)

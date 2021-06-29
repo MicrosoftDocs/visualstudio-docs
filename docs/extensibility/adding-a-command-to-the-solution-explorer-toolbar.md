@@ -3,7 +3,7 @@ title: Adding a Command to the Solution Explorer Toolbar | Microsoft Docs
 description: Learn how to add a button that executes a command to the Solution Explorer toolbar in Visual Studio.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - toolbars [Visual Studio], adding buttons
 - buttons [Visual Studio], adding to Solution Explorer

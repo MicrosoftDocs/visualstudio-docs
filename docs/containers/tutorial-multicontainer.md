@@ -15,15 +15,25 @@ In this tutorial, you'll learn how to manage more than one container and communi
 ## Prerequisites
 
 ::: moniker range="vs-2017"
+
 * [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
 * [Visual Studio 2017](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download) with the **Web Development**, **Azure Tools** workload, or **.NET Core cross-platform development** workload installed
 ::: moniker-end
 
-::: moniker range=">= vs-2019"
+::: moniker range="vs-2019"
+
 * [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
 * [Visual Studio 2019](https://visualstudio.microsoft.com/downloads) with the **Web Development**, **Azure Tools** workload, and/or **.NET Core cross-platform development** workload installed
 * [.NET Core 2.2 Development Tools](https://dotnet.microsoft.com/download/dotnet-core/2.2) for development with .NET Core 2.2
 * [.NET Core 3 Development Tools](https://dotnet.microsoft.com/download/dotnet-core/3.1) for development with .NET Core 3.1.
+::: moniker-end
+
+::: moniker range=">=vs-2022"
+
+* [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
+* [Visual Studio 2022 Preview](https://visualstudio.microsoft.com/vs/preview/vs2022) with the **Web Development**, **Azure Tools** workload, and/or **.NET Core cross-platform development** workload installed
+* [.NET Core 3 Development Tools](https://dotnet.microsoft.com/download/dotnet-core/3.1) for development with .NET Core 3.1.
+* [.NET 5 Development Toos](https://dotnet.microsoft.com/download/dotnet-core/5.0) for development with .NET 5.
 ::: moniker-end
 
 ## Create a Web Application project
@@ -38,7 +48,7 @@ Do not select **Enable Docker Support**. You'll add Docker support later.
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 ![Create ASP.NET Core Web App project](./media/tutorial-multicontainer/vs-2019/create-web-project1.png)
 
@@ -55,7 +65,7 @@ Add a project to the same solution and call it *MyWebAPI*. Select **API** as the
 ::: moniker range="vs-2017"
    ![Screenshot of creating the Web API project](./media/tutorial-multicontainer/docker-tutorial-mywebapi.png)
 ::: moniker-end
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
    ![Screenshot of creating the Web API project](./media/tutorial-multicontainer/vs-2019/create-webapi-project.png)
 ::: moniker-end
 

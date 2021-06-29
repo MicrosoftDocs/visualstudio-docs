@@ -2,8 +2,8 @@
 title: "Tutorial: Get started with C# and ASP.NET Core"
 titleSuffix: ""
 description: "Learn how to create an ASP.NET Core web app in Visual Studio with C#, step-by-step."
-ms.custom: "seodec18, get-started"
-ms.date: 02/12/2021
+ms.custom: "vs-acquisition, get-started"
+ms.date: 06/12/2021
 ms.technology: vs-ide-general
 ms.prod: visual-studio-windows
 ms.topic: tutorial
@@ -21,29 +21,30 @@ ms.workload:
 
 In this tutorial for C# development with ASP.NET Core using Visual Studio, you'll create a C# ASP.NET Core web app, make changes to it, explore some features of the IDE, and then run the app.
 
-## Before you begin
+## Prerequisites
 
-### Install Visual Studio
+1. Install Visual Studio
+   ::: moniker range="vs-2017"
+   
+   If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download) page to install it for free.
+   
+   ::: moniker-end
+   
+   ::: moniker range="vs-2019"
+   
+   If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads) page to install it for free.
+   
+   ::: moniker-end
 
-::: moniker range="vs-2017"
+   ::: moniker range="vs-2022"
 
-If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download) page to install it for free.
+   If you haven't already installed Visual Studio 2022 Preview, go to the [Visual Studio 2022 Preview downloads](https://visualstudio.microsoft.com/vs/preview/vs2022) page to install it for free.
 
-::: moniker-end
+   ::: moniker-end
 
-::: moniker range="vs-2019"
+1. Update Visual Studio - If you've already installed Visual Studio, make sure that you're running the most recent release. For more information about how to update your installation, see the [Update Visual Studio to the most recent release](../../install/update-visual-studio.md) page.
 
-If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads) page to install it for free.
-
-::: moniker-end
-
-### Update Visual Studio
-
-If you've already installed Visual Studio, make sure that you're running the most recent release. For more information about how to update your installation, see the [Update Visual Studio to the most recent release](../../install/update-visual-studio.md) page.
-
-### Choose your theme (optional)
-
-This tutorial includes screenshots that use the dark theme. If you aren't using the dark theme but would like to, see the [Personalize the Visual Studio IDE and Editor](../../ide/quickstart-personalize-the-ide.md) page to learn how.
+1. Choose your theme (optional) - This tutorial includes screenshots that use the dark theme. You can [Personalize the Visual Studio IDE and Editor](../../ide/quickstart-personalize-the-ide.md) page to learn how.
 
 ## Create a project
 
@@ -96,7 +97,7 @@ If you don't see the **ASP.NET Core Web Application** project template, you can 
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 1. In the start window, choose **Create a new project**.
 

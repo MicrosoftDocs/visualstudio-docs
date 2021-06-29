@@ -1,44 +1,54 @@
 ---
-title: Default page for F1 help
-description: "Default page for F1 help requests for Visual Studio"
-ms.date: 03/25/2021
+title: F1 help no-match fallback
+description: "Oops! No F1 match found."
+ms.prod: visual-studio
+ms.technology: 
+ms.date: 06/20/2021
 ms.topic: error-reference
-ms.custom: contperf-fy21q3
+ms.custom: contperf-fy21q4
 robots: noindex,nofollow
 f1_keywords:
 - vs.ambient
+- vs.texteditor
+- typescript
+- javascript_language_reference
+- vs.output
+- SolutionItemsProject
+- VS.SolutionExplorer
+- VS.SolutionExplorer.Selection
+- vs.addnewitem
+- vs.addnewsolutionitem
+- VS.ReferenceManager
+- vs.debug.watch
+- VS.ErrorList
+- vs.about
+- vs.unittesting.testexplorer.overview
+- vs.gotoline
+- vs.toolbox
+- vs.objectbrowser
 manager: jmartens
 author: mikejo5000
 ms.author: mikejo
 ---
-# F1 help: match not found
+# Oops! No `F1` help match was found
 
-It looks like we couldn't find what you were looking for, and we apologize. 
+:::image type="content" source="../media/search-error-page-sm.png" alt-text="Sorry we couldn't find a match" border="false":::
 
 ## Now what?
 
-- Search again with these tools. If you're looking for F1 help on a window, a keyword, or an API name:
-  - Try searching using your favorite search engine
-  - Try searching on [docs.microsoft.com](/)
+We're sorry! It looks like we couldn't find what you were looking for. 
 
-- Leave feedback through the buttons at the bottom of this page on what you were looking for
-
-- [Re-map or disable the F1 help key](../not-in-toc/change-f1-help-key.md)
-
-
-## Next steps
-
-Additional documentation can be found here or through the table of contents: 
-- See our reference documentation on [.NET API browser](/dotnet/api/)
-- Get help on the [Visual Studio text code editor](../../ide/writing-code-in-the-code-and-text-editor.md)
+**Looking for `F1` help on a window, a keyword, or an API name?**
+- Try your favorite search engine **[Recommended]**
+- Use the [docs.microsoft.com](/) toolbar to search 
+- Search the [.NET API browser](/dotnet/api/) or read our [text code editor overview](../../ide/writing-code-in-the-code-and-text-editor.md)
 - Browse the Knowledge Base for [Visual Studio troubleshooting](/troubleshoot/visualstudio/welcome-visual-studio/)
-- Read the [Visual Studio overview](../../get-started/visual-studio-ide.md)
 
-Programming guides:
-- [C# programming guide](/dotnet/csharp/programming-guide/) or [language reference](/dotnet/csharp/language-reference/)
-- [Visual Basic language features](/dotnet/visual-basic/programming-guide/language-features/) or [language reference](/dotnet/visual-basic/language-reference/)
-- [Python documentation](https://docs.python.org/)
-- [C/C++ language and standard libraries reference](/cpp/cpp/c-cpp-language-and-standard-libraries)
-- [F# guide](/dotnet/fsharp/)
-- [TypeScript documentation](https://www.typescriptlang.org/docs)
 
+**Didn't mean to click?** [Remap or disable the `F1` help key](../not-in-toc/change-f1-help-key.md)
+
+
+## Help us serve you better
+
+Tell us where you were in the product and what help you needed.   
+<br/>Use the `This Page` feedback button at the bottom of this page. 

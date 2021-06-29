@@ -62,6 +62,9 @@ To activate your LinkedIn Premium subscription and LinkedIn Learning benefit:
    > [!div class="mx-imgBorder"]
    > ![LinkedIn Learning Home](_img/vs-linkedin/vs-linkedin-learning-home.png "Welcome to LinkedIn Premium with LinkedIn Learning!")
 
+> [!NOTE]
+> This offer is not included in Visual Studio Dev Essentials memberships.
+
 ## Eligibility
 
 | Subscription Level                                                 |     Channels                                            | Benefit                                                          | Renewable?    |
@@ -74,7 +77,7 @@ To activate your LinkedIn Premium subscription and LinkedIn Learning benefit:
 | MSDN Platforms (Standard)                                          | VL, Retail                                              | Not available                                              | NA         |
 | Visual Studio Enterprise, Visual Studio Professional (monthly cloud) | Azure                                       | Not available                                                           |NA|
 
-<sup>1</sup>  *Excludes:  NFR, NFR Basic, Visual Studio Industry Partner, Microsoft Partner Network (MPN), FTE, MCT Software & Services Developer, BizSpark, Imagine, Most Valuable Professional (MVP), Regional Director (RD).  MCT Software & Services.*
+<sup>1</sup>  *Excludes:  Visual Studio Dev Essentials, NFR, NFR Basic, Visual Studio Industry Partner, Microsoft Partner Network (MPN), FTE, MCT Software & Services Developer, BizSpark, Imagine, Most Valuable Professional (MVP), Regional Director (RD).  MCT Software & Services.*
 
 > [!NOTE]
 > Microsoft no longer offers Visual Studio Professional Annual subscriptions and Visual Studio Enterprise Annual subscriptions in Cloud Subscriptions. There will be no change to existing customers experience and ability to renew, increase, decrease, or cancel their subscriptions. New customers are encouraged to go to [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/) to explore different options to purchase Visual Studio.

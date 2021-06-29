@@ -34,7 +34,7 @@ The first step in creating a matching game is to create the project and add a ta
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 1. On the start window, choose **Create a new project**.
 

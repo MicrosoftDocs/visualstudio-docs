@@ -36,7 +36,7 @@ When you create a [network layout](../install/create-a-network-installation-of-v
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 When you create a [network layout](../install/create-a-network-installation-of-visual-studio.md) or a [local offline cache](../install/create-an-offline-installation-of-visual-studio.md), the necessary certificates are downloaded to the Certificates folder. You can manually install the certificates by right-clicking each of the certificate files, selecting Install Certificate, and then clicking through the Certificate Manager wizard. If asked for a password, leave it blank.
 
@@ -54,7 +54,7 @@ If you are scripting the deployment of Visual Studio in an offline environment t
 
 2. Create a batch file with the following commands:
 
-   ```cmd
+   ```shell
    certmgr.exe -add [layout path]\certificates\manifestRootCertificate.cer -n "Microsoft Root Certificate Authority 2011" -s -r LocalMachine root
 
    certmgr.exe -add [layout path]\certificates\manifestCounterSignRootCertificate.cer -n "Microsoft Root Certificate Authority 2010" -s -r LocalMachine root
@@ -64,7 +64,7 @@ If you are scripting the deployment of Visual Studio in an offline environment t
    
    Alternatively, create a batch file that uses certutil.exe, which ships with Windows, with the following commands:
    
-      ```cmd
+      ```shell
    certutil.exe -addstore -f "Root" "[layout path]\certificates\manifestRootCertificate.cer"
 
    certutil.exe -addstore -f "Root" "[layout path]\certificates\manifestCounterSignRootCertificate.cer"

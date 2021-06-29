@@ -2,7 +2,7 @@
 description: "This function prompts the user for advanced options for a given command."
 title: SccGetCommandOptions Function | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - SccGetCommandOptions
 helpviewer_keywords:

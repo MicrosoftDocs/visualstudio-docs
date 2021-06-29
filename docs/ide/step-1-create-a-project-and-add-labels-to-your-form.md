@@ -37,7 +37,7 @@ As the first steps in developing this quiz, you create the project, and you add 
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 1. On the start window, choose **Create a new project**.
 
