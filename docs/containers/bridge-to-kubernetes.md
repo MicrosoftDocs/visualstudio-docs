@@ -27,7 +27,7 @@ Learn more about Bridge to Kubernetes with the article, [How Bridge to Kubernete
 
 ## About the data
 
-This tutorial uses Bridge to Kubernetes to develop a microservice version of a simple TODO sample application on any Kubernetes cluster. This TODO App sample application][todo-app-github], using Visual Studio, has been adapted from code provided by [TodoMVC](http://todomvc.com). 
+This tutorial uses Bridge to Kubernetes to develop a microservice version of a simple TODO sample application on any Kubernetes cluster. This [TODO App sample application][todo-app-github], using Visual Studio, has been adapted from code provided by [TodoMVC](http://todomvc.com). 
 
  These steps should work with any Kubernetes cluster. So, if you already have your own application running on a Kubernetes cluster, you can still follow the steps below and use the names of your own services.
 
