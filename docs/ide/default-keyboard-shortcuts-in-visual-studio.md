@@ -2,7 +2,7 @@
 title: Default keyboard shortcuts
 description: Learn about the default keyboard shortcuts in Visual Studio that allow you to access a variety of commands and windows.
 ms.custom: SEO-VS-2020
-ms.date: 05/21/2021
+ms.date: 06/21/2021
 ms.topic: reference
 helpviewer_keywords:
 - shortcut keys [Visual Studio], keyboard binding schemes
@@ -22,7 +22,6 @@ You can access a variety of [commands](reference/visual-studio-commands.md) and 
 
 For a list of common keyboard shortcuts and other productivity information, see:
 
-- [Keyboard shortcuts for frequently used commands](../ide/default-keyboard-shortcuts-for-frequently-used-commands-in-visual-studio.md)
 - [Keyboard tips](../ide/productivity-shortcuts.md)
 - [Productivity tips](../ide/productivity-features.md).
 
@@ -53,6 +52,161 @@ For more information about accessibility in Visual Studio, see [Accessibility ti
 - [Team Foundation context menus](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_TFcontext)
 - [Azure](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_windowsazure)
 - [Diagnostics hub](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_diagnostics)
+
+
+## Most popular keyboard shortcuts
+
+All shortcuts in this section apply globally unless otherwise specified. The *Global* context means that the shortcut is applicable in any tool window in Visual Studio.
+
+> [!NOTE]
+> You can [look up the shortcut](identifying-and-customizing-keyboard-shortcuts-in-visual-studio.md) for any command by opening the **Options** dialog box, expanding the **Environment** node, and then choosing **Keyboard**.
+
+### Build: popular shortcuts
+
+|Commands|Keyboard shortcuts |
+|--------------| - |
+|Build.BuildSolution|**Ctrl+Shift+B** |
+|Build.Cancel|**Ctrl+Break** |
+|Build.Compile|**Ctrl+F7** |
+|Build.RunCodeAnalysisonSolution|**Alt+F11**|
+
+### Debug: popular shortcuts
+
+|Commands|Keyboard shortcuts [Special contexts]|
+|--------------| - |
+|Debug.BreakatFunction|**Ctrl+B**|
+|Debug.BreakAll|**Ctrl+Alt+Break**|
+|Debug.DeleteAllBreakpoints|**Ctrl+Shift+F9**|
+|Debug.Exceptions|**Ctrl+Alt+E**|
+|Debug.QuickWatch|**Ctrl+Alt+Q**<br /><br />or **Shift+F9**|
+|Debug.Restart|**Ctrl+Shift+F5**|
+|Debug.RunToCursor|**Ctrl+F10**|
+|Debug.SetNextStatement|**Ctrl+Shift+F10**|
+|Debug.Start|**F5**|
+|Debug.StartWithoutDebugging|**Ctrl+F5**|
+|Debug.StepInto|**F11**|
+|Debug.StepOut|**Shift+F11**|
+|Debug.StepOver|**F10**|
+|Debug.StopDebugging|**Shift+F5**|
+|Debug.ToggleBreakpoint|**F9**|
+
+### Edit: popular shortcuts
+
+|Commands|Keyboard shortcuts [Special contexts]|
+|--------------| - |
+|Edit.BreakLine|**Enter** [Text Editor, Report Designer, Windows Forms Designer]<br /><br />or **Shift+Enter** [Text Editor]|
+|Edit.CollapseToDefinitions|**Ctrl+M**, **Ctrl+O** [Text Editor]|
+|Edit.CommentSelection|**Ctrl+K**, **Ctrl+C** [Text Editor]|
+|Edit.CompleteWord|**Alt+Right Arrow** [Text Editor, Workflow Designer]<br /><br />or **Ctrl+Spacebar** [Text Editor, Workflow Designer]<br /><br />or **Ctrl+K**, **W** [Workflow Designer]<br /><br />or **Ctrl+K, Ctrl+W** [Workflow Designer]|
+|Edit.Copy|**Ctrl+C**<br /><br />or **Ctrl+Insert**|
+|Edit.Cut|**Ctrl+X**<br /><br />or **Shift+Delete**|
+|Edit.Delete|**Delete** [Team Explorer]<br /><br />or **Shift+Delete** [Sequence Diagram, UML Activity Diagram, Layer Diagram]<br /><br />or **Ctrl+Delete** [Class Diagram]|
+|Edit.Find|**Ctrl+F**|
+|Edit.FindAllReferences|**Shift+F12**|
+|Edit.FindinFiles|**Ctrl+Shift+F**|
+|Edit.FindNext|**F3**|
+|Edit.FindNextSelected|**Ctrl+F3**|
+|Edit.FormatDocument|**Ctrl+K, Ctrl+D** [Text Editor]|
+|Edit.FormatSelection|**Ctrl+K, Ctrl+F** [Text Editor]|
+|Edit.GoTo|**Ctrl+G**|
+|Edit.GoToDeclaration|**Ctrl+F12**|
+|Edit.GoToDefinition|**F12**|
+|Edit.GoToFindCombo|**Ctrl+D**|
+|Edit.GoToNextLocation|**F8**|
+|Edit.InsertSnippet|**Ctrl+K**, **Ctrl+X**|
+|Edit.InsertTab|**Tab** [Report Designer, Windows Forms Designer, Text Editor]|
+|Edit.LineCut|**Ctrl+L** [Text Editor]|
+|Edit.LineDownExtendColumn|**Shift+Alt+Down Arrow** [Text Editor]|
+|Edit.LineOpenAbove|**Ctrl+Enter** [Text Editor]|
+|Edit.ListMembers|**Ctrl+J** [Text Editor, Workflow Designer]<br /><br />or **Ctrl+K, Ctrl+L** [Workflow Designer]<br /><br />or **Ctrl+K, L** [Workflow Designer]|
+|Edit.NavigateTo|**Ctrl+,**|
+|Edit.OpenFile|**Ctrl+Shift+G**|
+|Edit.OvertypeMode|**Insert** [Text Editor]|
+|Edit.ParameterInfo|**Ctrl+Shift+Spacebar** [Text Editor, Workflow Designer]<br /><br />or **Ctrl+K, Ctrl+P** [Workflow Designer]<br /><br />or **Ctrl+K, P** [Workflow Designer]|
+|Edit.Paste|**Ctrl+V**<br /><br />or **Shift+Insert**|
+|Edit.PeekDefinition|**Alt+F12** [Text Editor]|
+|Edit.Redo|**Ctrl+Y**<br /><br />or **Shift+Alt+Backspace**<br /><br />or **Ctrl+Shift+Z**|
+|Edit.Replace|**Ctrl+H**|
+|Edit.SelectAll|**Ctrl+A**|
+|Edit.SelectCurrentWord|**Ctrl+W** [Text Editor]|
+|Edit.SelectionCancel|**Esc** [Text Editor, Report Designer, Settings Designer, Windows Forms Designer, Managed Resources Editor]|
+|Edit.SurroundWith|**Ctrl+K, Ctrl+S**|
+|Edit.TabLeft|**Shift+Tab** [Text Editor, Report Designer, Windows Forms Editor]|
+|Edit.ToggleAllOutlining|**Ctrl+M, Ctrl+L** [Text Editor]|
+|Edit.ToggleBookmark|**Ctrl+K, Ctrl+K** [Text Editor]|
+|Edit.ToggleCompletionMode|**Ctrl+Alt+Space** [Text Editor]|
+|Edit.ToggleOutliningExpansion|**Ctrl+M, Ctrl+M** [Text Editor]|
+|Edit.UncommentSelection|**Ctrl+K, Ctrl+U** [Text Editor]|
+|Edit.Undo|**Ctrl+Z**<br /><br />or **Alt+Backspace**|
+|Edit.WordDeleteToEnd|**Ctrl+Delete** [Text Editor]|
+|Edit.WordDeleteToStart|**Ctrl+Backspace** [Text Editor]|
+
+### File: popular shortcuts
+
+|Commands|Keyboard shortcuts [Special contexts]|
+|--------------| - |
+|File.Exit|**Alt+F4**|
+|File.NewFile|**Ctrl+N**|
+|File.NewProject|**Ctrl+Shift+N**|
+|File.NewWebSite|**Shift+Alt+N**|
+|File.OpenFile|**Ctrl+O**|
+|File.OpenProject|**Ctrl+Shift+O**|
+|File.OpenWebSite|**Shift+Alt+O**|
+|File.Rename|**F2** [Team Explorer]|
+|File.SaveAll|**Ctrl+Shift+S**|
+|File.SaveSelectedItems|**Ctrl+S**|
+|File.ViewinBrowser|**Ctrl+Shift+W**|
+
+### Project: popular shortcuts
+
+|Commands|Keyboard shortcuts [Special contexts]|
+|--------------| - |
+|Project.AddExistingItem|**Shift+Alt+A**|
+|Project.AddNewItem|**Ctrl+Shift+A**|
+
+### Refactor: popular shortcuts
+
+|Command|Keyboard shortcut [Special contexts]|
+|-------------| - |
+|Refactor.ExtractMethod|**Ctrl+R, Ctrl+M**|
+
+### Tools: popular shortcuts
+
+|Command|Keyboard shortcut [Special contexts]|
+|-------------| - |
+|Tools.AttachtoProcess|**Ctrl+Alt+P**|
+
+### View: popular shortcuts
+
+|Commands|Keyboard shortcuts [Special contexts]|
+|--------------| - |
+|View.ClassView|**Ctrl+Shift+C**|
+|View.EditLabel|**F2**|
+|View.ErrorList|**Ctrl+\\, Ctrl+E**<br /><br />or **Ctrl+\\, E**|
+|View.NavigateBackward|**Ctrl+-**|
+|View.NavigateForward|**Ctrl+Shift+-**|
+|View.ObjectBrowser|**Ctrl+Alt+J**|
+|View.Output|**Ctrl+Alt+O**|
+|View.PropertiesWindow|**F4**|
+|View.Refresh|**F5** [Team Explorer]|
+|View.ServerExplorer|**Ctrl+Alt+S**|
+|View.ShowSmartTag|**Ctrl+.**<br /><br />or **Shift+Alt+F10** [HTML Editor Design View]|
+|View.SolutionExplorer|**Ctrl+Alt+L**|
+|View.TfsTeamExplorer|**Ctrl+\\, Ctrl+M**|
+|View.Toolbox|**Ctrl+Alt+X**|
+|View.ViewCode|**Enter** [Class Diagram]<br /><br />or **F7** [Settings Designer]|
+|View.ViewDesigner|**Shift+F7** [HTML Editor Source View]|
+
+### Window: popular shortcuts
+
+|Commands|Keyboard shortcuts [Special contexts]|
+|--------------| - |
+|Window.ActivateDocumentWindow|**Esc**|
+|Window.CloseDocumentWindow|**Ctrl+F4**|
+|Window.NextDocumentWindow|**Ctrl+F6**|
+|Window.NextDocumentWindowNav|**Ctrl+Tab**|
+|Window.NextSplitPane|**F6**|
+
 
 ## Global shortcuts
 
@@ -460,7 +614,11 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 |WindowsAzure.RetryMobileServiceScriptOperation|**Ctrl+Num \*, Ctrl+R**|
 |WindowsAzure.ShowMobileServiceScriptErrorDetails|**Ctrl+Num \*, Ctrl+D**|
 
-## ADO.NET Entity Data Model Designer
+## Context specific shortcuts
+
+### ADO.NET Entity Data Model Designer
+
+The shortcuts specific to this context are:
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
@@ -475,7 +633,10 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 |View.EntityDataModelBrowser|**Ctrl+1**|
 |View.EntityDataModelMappingDetails|**Ctrl+2**|
 
-## Class diagram
+### Class diagram
+
+The shortcuts specific to this context are:
+
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
@@ -487,7 +648,10 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 |Edit.RemovefromDiagram|**Delete**|
 |View.ViewCode|**Enter**|
 
-## Coded UI Test Editor
+### Coded UI Test Editor
+
+The shortcuts specific to this context are:
+
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
@@ -498,14 +662,20 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 |OtherContextMenus.UITestEditorContextMenu.Movecode|**Ctrl+Alt+C**|
 |OtherContextMenus.UITestEditorContextMenu.Splitintoanewmethod|**Ctrl+Shift+T**|
 
-## DataSet Editor
+### DataSet Editor
+
+The shortcuts specific to this context are:
+
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
 |OtherContextMenus.ColumnContext.InsertColumn|**Insert**|
 |OtherContextMenus.DbTableContext.Add.Column|**Ctrl+L**|
 
-## Difference Viewer
+### Difference Viewer
+
+The shortcuts specific to this context are:
+
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
@@ -521,7 +691,10 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 |EditorContextMenus.CodeWindow.AddComment|**Ctrl+Shift+K**|
 |EditorContextMenus.CodeWindow.EditLocalFile|**Ctrl+Shift+P**|
 
-## DOM Explorer
+### DOM Explorer
+
+The shortcuts specific to this context are:
+
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
@@ -529,13 +702,19 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 |DOMExplorer.SelectElement|**Ctrl+B**|
 |DOMExplorer.ShowLayout|**Ctrl+Shift+I**|
 
-## F# interactive
+### F# interactive
+
+The shortcuts specific to this context are:
+
 
 |Command|Keyboard shortcut|
 |-------------| - |
 |OtherContextMenus.FSIConsoleContext.CancelInteractiveEvaluation|**Ctrl+Break**|
 
-## Graph Document Editor
+### Graph Document Editor
+
+The shortcuts specific to this context are:
+
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
@@ -547,7 +726,10 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 |ArchitectureContextMenus.DirectedGraphContextMenu.Remove|**Delete**|
 |ArchitectureContextMenus.DirectedGraphContextMenu.Rename|**F2**|
 
-## Graphics diagnostics
+### Graphics diagnostics
+
+The shortcuts specific to this context are:
+
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
@@ -561,13 +743,19 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 |Graphics.ZoomIn|**Shift+Alt+=**|
 |Graphics.ZoomOut|**Shift+Alt+-**|
 
-## HTML Editor
+### HTML Editor
+
+The shortcuts specific to this context are:
+
 
 |Command|Keyboard shortcut|
 |-------------| - |
 |OtherContextMenus.HTMLContext.GoToController|**Ctrl+M, Ctrl+G**|
 
-## HTML Editor Design View
+### HTML Editor Design View
+
+The shortcuts specific to this context are:
+
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
@@ -590,7 +778,10 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 |View.ViewMarkup|**Shift+F7**|
 |Window.PreviousTab|**Ctrl+PgUp**|
 
-## HTML Editor Source View
+### HTML Editor Source View
+
+The shortcuts specific to this context are:
+
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
@@ -600,13 +791,19 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 |View.ViewDesigner|**Shift+F7**|
 |Window.PreviousTab|**Ctrl+PgUp**|
 
-## Layer diagram
+### Layer diagram
+
+The shortcuts specific to this context are:
+
 
 |Command|Keyboard shortcut|
 |-------------| - |
 |Edit.Delete|**Shift+Delete**|
 
-## Managed Resources Editor
+### Managed Resources Editor
+
+The shortcuts specific to this context are:
+
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
@@ -621,7 +818,10 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 |Resources.Other|**Ctrl+6**|
 |Resources.Strings|**Ctrl+1**|
 
-## Merge Editor window
+### Merge Editor window
+
+The shortcuts specific to this context are:
+
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
@@ -629,7 +829,10 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 |TeamFoundationContextMenus.MergeContextMenu.SetFocusonResultWindow|**Alt+2**|
 |TeamFoundationContextMenus.MergeContextMenu.SetFocusonRightWindow|**Alt+3**|
 
-## Microsoft SQL Server Data Tools, Schema Compare
+### Microsoft SQL Server Data Tools, Schema Compare
+
+The shortcuts specific to this context are:
+
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
@@ -640,7 +843,10 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 |SQL.SSDTSchemaCompareStop|**Alt+Break**|
 |SQL.SSDTSchemaCompareWriteUpdates|**Shift+Alt+U**|
 
-## Microsoft SQL Server Data Tools, Table Designer
+### Microsoft SQL Server Data Tools, Table Designer
+
+The shortcuts specific to this context are:
+
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
@@ -651,7 +857,10 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 |SQL.Rename|**F2**<br /><br /> or<br /><br /> **Ctrl+R, R**<br /><br /> or<br /><br /> **Ctrl+R, Ctrl+R**|
 |ViewFileInScriptPanel|**Shift+Alt+PgDn**|
 
-## Microsoft SQL Server Data Tools, T-SQL Editor
+### Microsoft SQL Server Data Tools, T-SQL Editor
+
+The shortcuts specific to this context are:
+
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
@@ -672,7 +881,10 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 |TSqlEditorCloneQuery|**Ctrl+Alt+N**|
 |TSqlEditorDatabaseCombo|**Shift+Alt+PgDn**|
 
-## Microsoft SQL Server Data Tools, T-SQL PDW Editor
+### Microsoft SQL Server Data Tools, T-SQL PDW Editor
+
+The shortcuts specific to this context are:
+
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
@@ -687,13 +899,19 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 |TSqlEditorCloneQuery|**Ctrl+Alt+N**|
 |TSqlEditorDatabaseCombo|**Shift+Alt+PgDn**|
 
-## Page Inspector
+### Page Inspector
+
+The shortcuts specific to this context are:
+
 
 |Command|Keyboard shortcut|
 |-------------| - |
 |PageInspector.Minimize|**F12**|
 
-## Query Designer
+### Query Designer
+
+The shortcuts specific to this context are:
+
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
@@ -706,7 +924,10 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 |QueryDesigner.Results|**Ctrl+4**|
 |QueryDesigner.SQL|**Ctrl+3**|
 
-## Query results
+### Query results
+
+The shortcuts specific to this context are:
+
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
@@ -714,7 +935,10 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 |SQL.QueryResultsRefresh|**Shift+Alt+R**|
 |SQL.QueryResultsStop|**Alt+Break**|
 
-## Report Designer
+### Report Designer
+
+The shortcuts specific to this context are:
+
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
@@ -740,14 +964,20 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 |Edit.TabLeft|**Shift+Tab**|
 |View.ReportData|**Ctrl+Alt+D**|
 
-## Sequence diagram
+### Sequence diagram
+
+The shortcuts specific to this context are:
+
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
 |ArchitectureDesigner.Sequence.NavigateToCode|**F12**|
 |Edit.Delete|**Shift+Del**|
 
-## Settings Designer
+### Settings Designer
+
+The shortcuts specific to this context are:
+
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
@@ -756,13 +986,19 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 |Edit.SelectionCancel|**Esc**|
 |View.ViewCode|**F7**|
 
-## Solution Explorer
+### Solution Explorer
+
+The shortcuts specific to this context are:
+
 
 |Command|Keyboard shortcut|
 |-------------| - |
 |ClassViewContextMenus.ClassViewProject.View.ViewinPageInspector|**Ctrl+K, Ctrl+G**|
 
-## Team Explorer
+### Team Explorer
+
+The shortcuts specific to this context are:
+
 
 |Command|Keyboard Shortcut|
 |-------------| - |
@@ -787,13 +1023,19 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 |TeamFoundationContextMenus.MyWorkPageInProgress.TfsContextMyWorkPageNewLinkedWI|**Shift+Alt+L**|
 |View.Refresh|**F5**|
 
-## Test Explorer
+### Test Explorer
+
+The shortcuts specific to this context are:
+
 
 |Command|Keyboard shortcut|
 |-------------| - |
 |TestExplorer.OpenTest|**F12**|
 
-## Text Editor
+### Text Editor
+
+The shortcuts specific to this context are:
+
 
 | Commands | Keyboard shortcuts |
 | - | - |
@@ -912,38 +1154,56 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 | TeamFoundationContextMenus.Annotate.TfsAnnotateMoveNextRegion | **Alt+PgDn** |
 | TeamFoundationContextMenus.Annotate.TfsAnnotateMovePreviousRegion | **Alt+PgUp** |
 
-## UML activity diagram
+### UML activity diagram
+
+The shortcuts specific to this context are:
+
 
 |Command|Keyboard shortcut|
 |-------------| - |
 |Edit.Delete|**Shift+Del**|
 
-## UML class diagram
+### UML class diagram
+
+The shortcuts specific to this context are:
+
 
 |Command|Keyboard shortcut|
 |-------------| - |
 |Edit.DeleteFromModel|**Shift+Del**|
 
-## UML component diagram
+### UML component diagram
+
+The shortcuts specific to this context are:
+
 
 |Command|Keyboard shortcut|
 |-------------| - |
 |Edit.DeleteFromModel|**Shift+Del**|
 
-## UML use case diagram
+### UML use case diagram
+
+The shortcuts specific to this context are:
+
 
 |Command|Keyboard shortcut|
 |-------------| - |
 |Edit.DeleteFromModel|**Shift+Del**|
 
-## VC Accelerator Editor
+### VC Accelerator Editor
+
+The shortcuts specific to this context are:
+
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
 |Edit.NewAccelerator|**Insert**|
 |Edit.NextKeyTyped|**Ctrl+W**|
 
-## VC Dialog Editor
+### VC Dialog Editor
+
+The shortcuts specific to this context are:
+
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
@@ -977,7 +1237,10 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 |Format.TestDialog|**Ctrl+T**|
 |Format.ToggleGuides|**Ctrl+G**|
 
-## VC Image Editor
+### VC Image Editor
+
+The shortcuts specific to this context are:
+
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
@@ -1019,13 +1282,19 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 |Image.ZoomIn|**Ctrl+Shift+.**<br /><br /> or<br /><br /> **Ctrl+Up Arrow**|
 |Image.ZoomOut|**Ctrl+Shift+,**<br /><br /> or<br /><br /> **Ctrl+Down Arrow**|
 
-## VC String Editor
+### VC String Editor
+
+The shortcuts specific to this context are:
+
 
 |Command|Keyboard shortcut|
 |-------------| - |
 |Edit.NewString|**Insert**|
 
-## View Designer
+### View Designer
+
+The shortcuts specific to this context are:
+
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
@@ -1038,13 +1307,19 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 |QueryDesigner.Results|**Ctrl+4**|
 |QueryDesigner.SQL|**Ctrl+3**|
 
-## Visual Studio
+### Visual Studio
+
+The shortcuts specific to this context are:
+
 
 |Command|Keyboard shortcut|
 |-------------| - |
 |OtherContextMenus.ORDesignerContext.HideMethodsPane|**Ctrl+1**|
 
-## Windows Forms Designer
+### Windows Forms Designer
+
+The shortcuts specific to this context are:
+
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
@@ -1073,7 +1348,10 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 |Edit.SizeControlUp|**Ctrl+Shift+Up Arrow**|
 |Edit.TabLeft|**Shift+Tab**|
 
-## Work Item Editor
+### Work Item Editor
+
+The shortcuts specific to this context are:
+
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
@@ -1081,7 +1359,10 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 |Edit.RefreshWorkItem|**F5**|
 |Team.NewLinkedWorkItem|**Shift+Alt+L**|
 
-## Work Item Query View
+### Work Item Query View
+
+The shortcuts specific to this context are:
+
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
@@ -1092,7 +1373,10 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 |Team.Refresh|**F5**|
 |Window.Toggle|**Shift+Alt+V**|
 
-## Work Item Results View
+### Work Item Results View
+
+The shortcuts specific to this context are:
+
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
@@ -1105,7 +1389,10 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 |Team.Refresh|**F5**|
 |Window.Toggle|**Shift+Alt+V**|
 
-## Workflow Designer
+### Workflow Designer
+
+The shortcuts specific to this context are:
+
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
@@ -1133,7 +1420,10 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 |WorkflowDesigner.ZoomIn|**Ctrl+Num +**|
 |WorkflowDesigner.ZoomOut|**Ctrl+Num -**|
 
-## XAML UI Designer
+### XAML UI Designer
+
+The shortcuts specific to this context are:
+
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
@@ -1155,14 +1445,20 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 |View.EdgeRightMoveRight|**Ctrl+Shift+Alt+.**|
 |View.ShowPropertyMarkerMenu|**Ctrl+Spacebar**|
 
-## XML (Text) Editor
+### XML (Text) Editor
+
+The shortcuts specific to this context are:
+
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
 |XML.StartXSLTDebugging|**Alt+F5**|
 |XML.StartXSLTWithoutDebugging|**Ctrl+Alt+F5**|
 
-## XML Schema Designer
+### XML Schema Designer
+
+The shortcuts specific to this context are:
+
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
