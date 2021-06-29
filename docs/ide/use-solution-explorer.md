@@ -1,7 +1,7 @@
 ---
 title: Learn about the Solution Explorer tool window
 description: Learn how you can use the Solution Explorer tool window in Visual Studio to create & manage your files, projects, and solutions.
-ms.date: 06/21/2021
+ms.date: 06/29/2021
 ms.topic: conceptual
 helpviewer_keywords:
 - solution explorer [Visual Studio]
@@ -33,7 +33,7 @@ The tool window contains the following UI (user interface) elements:
 - **Project node**, where you can manage your project(s)
 - **Dependencies node**, where you can manage your solution & project dependencies
 - **Program node**, where you can view, edit, and manage your program or application (app)
-- **[Git changes tab](./version-control/git-with-visual-studio?view=vs-2019&preserve-view=true#git-changes-window)**, where you can use Git & GitHub within Visual Studio to collaborate on projects with your team
+- **[Git changes tab](../version-control/git-with-visual-studio?view=vs-2019&preserve-view=true#git-changes-window)**, where you can use Git & GitHub within Visual Studio to collaborate on projects with your team
 
 <!-- >[!NOTE]
 > Your Solution Explorer tool window might look different than what you see here. For example, if you choose to open a local folder or a repository instead of a specific project or solution, you'll see a **Folder View**, where your solution and project information appears in folders.<-->
