@@ -980,14 +980,9 @@
     href: ide/reference/accessibility-products-and-services-from-microsoft.md
 - name: Reference
   items:
-  - name: Keyboard shortcuts
-    items:
-    - name: Popular commands
-      displayName: keyboard shortcuts
-      href: ide/default-keyboard-shortcuts-for-frequently-used-commands-in-visual-studio.md
-    - name: All commands
-      displayName: keyboard commands
-      href: ide/default-keyboard-shortcuts-in-visual-studio.md
+  - name: Keyboard shortcuts & commands
+    displayName: keyboard shortcuts short cuts
+    href: ide/default-keyboard-shortcuts-in-visual-studio.md
   - name: Visual Studio commands
     items:
     - name: Reference
