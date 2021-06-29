@@ -22,7 +22,7 @@ You can use the Solution Explorer tool window to create & manage your solutions 
 
 To start, let's take a look at the Solution Explorer tool window in the [Visual Studio IDE](../get-started/visual-studio-ide.md), with an open C# console solution that has two projects.
 
-[![The Solution Explorer tool window in Visual Studio](media/solution-explorer-tool-window.png)](media/solution-explorer-tool-window.png#lightbox)
+[![The Solution Explorer tool window in Visual Studio.](media/solution-explorer-tool-window.png)](media/solution-explorer-tool-window.png#lightbox)
 
 The tool window contains the following UI (user interface) elements:
 
@@ -35,9 +35,6 @@ The tool window contains the following UI (user interface) elements:
 - **Program node**, where you can view, edit, and manage your program or application (app)
 - **[Git changes tab](../version-control/git-with-visual-studio.md?view=vs-2019&preserve-view=true#git-changes-window)**, where you can use Git & GitHub within Visual Studio to collaborate on projects with your team
 
-<!-- >[!NOTE]
-> Your Solution Explorer tool window might look different than what you see here. For example, if you choose to open a local folder or a repository instead of a specific project or solution, you'll see a **Folder View**, where your solution and project information appears in folders.<-->
-
 > [!TIP]
 > If you don't see the Solution Explorer tool window, you can open it from the Visual Studio menu bar by using **View** > **Solution Explorer**, or by pressing **Ctrl**+**Alt**+**L**.
 
@@ -45,7 +42,7 @@ The tool window contains the following UI (user interface) elements:
 
 To continue, let's take a closer look at the Solution Explorer menu bar.
 
-[![The Solution Explorer menu bar in Visual Studio](media/solution-explorer-menu-bar.png)](media/solution-explorer-menu-bar.png#lightbox)
+[The Solution Explorer menu bar in Visual Studio.](media/solution-explorer-menu-bar.png)
 
 The menu bar contains the following UI elements, from left to right:
 
@@ -63,9 +60,7 @@ The menu bar contains the following UI elements, from left to right:
 
 ### Solution Explorer right-click context menu
 
-In Solution Explorer, there are several file properties that you can interact with by using the right-click context menu. <!--Many of these file properties are universally available in the [Visual Studio IDE](../get-started/visual-studio-ide.md), while some are specific to the programming language or platform you're using.--> For more information about the right-click context menu options, see the [Manage project and solution properties](managing-project-and-solution-properties.md) page.
-
-<!--Let's discover the main context menu items that appear in a [C# Calculator solution](..//get-started/csharp/tutorial-console.md?view=vs-2019#code-complete).-->
+In Solution Explorer, there are several file properties that you can interact with by using the right-click context menu. For more information about the right-click context menu options, see the [Manage project and solution properties](managing-project-and-solution-properties.md) page.
 
 ## See also
 
