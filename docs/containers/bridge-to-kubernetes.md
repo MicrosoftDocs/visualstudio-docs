@@ -1,9 +1,9 @@
 ---
-title: Use Bridge to Kubernetes with Visual Studio
+title: "Tutorial: Use Bridge to Kubernetes with Visual Studio"
 titleSuffix: ""
 ms.technology: vs-azure
 ms.date: 03/24/2021
-ms.topic: "quickstart"
+ms.topic: "tutorial"
 description: "Learn how to use Bridge to Kubernetes with Visual Studio to connect your development computer to a Kubernetes cluster"
 keywords: "Bridge to Kubernetes, Azure Dev Spaces, Dev Spaces, Docker, Kubernetes, Azure, containers"
 monikerRange: ">=vs-2019"
@@ -12,7 +12,7 @@ author: ghogen
 manager: jmartens
 ---
 
-# Use Bridge to Kubernetes
+# Tutorial: Use Bridge to Kubernetes to redirect traffic between clusters and development computers
 
 You can use Bridge to Kubernetes to redirect traffic between your Kubernetes cluster and code running on your development computer. This guide also provides a script for deploying a large sample application with multiple microservices on a Kubernetes cluster.
 
