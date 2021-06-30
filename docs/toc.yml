@@ -200,6 +200,8 @@
       href: get-started/tutorial-open-project-from-repo-visual-studio-2019.md
     - name: Port, migrate, and upgrade projects
       href: porting/port-migrate-and-upgrade-visual-studio-projects.md
+    - name: Use the Solution Explorer tool window
+      href: ide/use-solution-explorer.md
     - name: Manage project and solution properties
       href: ide/managing-project-and-solution-properties.md
     - name: Project references
@@ -980,14 +982,9 @@
     href: ide/reference/accessibility-products-and-services-from-microsoft.md
 - name: Reference
   items:
-  - name: Keyboard shortcuts
-    items:
-    - name: Popular commands
-      displayName: keyboard shortcuts
-      href: ide/default-keyboard-shortcuts-for-frequently-used-commands-in-visual-studio.md
-    - name: All commands
-      displayName: keyboard commands
-      href: ide/default-keyboard-shortcuts-in-visual-studio.md
+  - name: Keyboard shortcuts & commands
+    displayName: keyboard, shortcuts, short cuts, ctrl, short-cut
+    href: ide/default-keyboard-shortcuts-in-visual-studio.md
   - name: Visual Studio commands
     items:
     - name: Reference
@@ -1444,7 +1441,7 @@
     - name: Visual Studio 2017 notes
       href: /visualstudio/releasenotes/vs2017-relnotes/
     - name: Visual Studio 2015 docs
-      href: vs-2015-archive.md   
+      href: vs-2015-archive.md
     - name: License terms
       href: https://visualstudio.microsoft.com/license-terms/
     - name: Support lifecycle and servicing
@@ -1456,6 +1453,8 @@
       href: ide/visual-studio-experience-improvement-program.md
     - name: System-generated logs
       href: ide/diagnostic-data-collection.md
+  - name: Connected experiences in Visual Studio
+    href: ide/reference/connected-experiences.md
   - name: Troubleshooting IDE errors
     href: ide/reference/resources-for-troubleshooting-integrated-development-environment-errors.md
 - name: Send feedback
