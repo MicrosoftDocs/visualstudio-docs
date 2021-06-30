@@ -42,7 +42,7 @@ The tool window contains the following UI (user interface) elements:
 
 To continue, let's take a closer look at the Solution Explorer menu bar.
 
-[The Solution Explorer menu bar in Visual Studio.](media/solution-explorer-menu-bar.png)
+![The Solution Explorer menu bar in Visual Studio.](media/solution-explorer-menu-bar.png)
 
 The menu bar contains the following UI elements, from left to right:
 
