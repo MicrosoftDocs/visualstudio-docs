@@ -133,7 +133,7 @@ For more complete instructions for debugging ASP.NET applications that have been
    - To find processes running under all user accounts, select the **Show processes from all users** check box.
 
      >[!NOTE]
-     >If you try to attach to a process owned by an untrusted user account, a security warning dialog box confirmation will appear. For more information see [Security Warning: Attaching to a process owned by an untrusted user can be dangerous. If the following information looks suspicious or you are unsure, do not attach to this process](../debugger/security-warning-attaching-to-a-process-owned-by-an-untrusted-user.md).
+     >If you try to attach to a process owned by an untrusted user account, a security warning dialog box confirmation will appear. For more information, see [Security Warning: Attaching to a process owned by an untrusted user can be dangerous. If the following information looks suspicious or you are unsure, do not attach to this process](../debugger/security-warning-attaching-to-a-process-owned-by-an-untrusted-user.md).
 
 5. In the **Attach to** field, make sure the type of code you plan to debug is listed. The default **Automatic** setting works for most app types.
 
@@ -156,9 +156,9 @@ If neither of those workarounds is possible, a third option is to attach to the 
 
 ## Attach to a .NET Core process running on Azure App Service (Windows)
 
-   ![Screenshot of the Attach Debugger option from within the Publish summary page](../debugger/media/attach_debugger_publish_profile.png)
-   
-If you are publishing to Azure App Service (Windows) you will find the "Attach Debugger" option under the "..." menu on the Hosting section. Visual Studio will attempt to attach the remote debugger to the instance of Azure App Service (Windows) the profile is publishing to.
+If you're publishing to Azure App Service (Windows), you'll find the **Attach Debugger** option under the **...** menu under **Hosting**. Visual Studio attempts to attach the remote debugger to the instance of Azure App Service (Windows) that the profile is publishing to.
+
+:::image type="content" source="../debugger/media/attach-debugger-publish-profile.png" alt-text="Screenshot of the Attach Debugger option from within the Publish summary page.":::
 
 ## Attach to a .NET Core process running on Linux using SSH
 
