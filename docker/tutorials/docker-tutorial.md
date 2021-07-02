@@ -5,7 +5,6 @@ ms.date: "08/04/2020"
 author: nebuk89
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-azure
 ms.topic: tutorial
 ms.workload:
   - "azure"
