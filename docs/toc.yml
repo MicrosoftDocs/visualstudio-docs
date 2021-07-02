@@ -902,7 +902,7 @@
 - name: Debug >>
   href: debugger/index.yml
 - name: Version control >>
-  displayName: git, github, source control, source, versioning
+  displayName: git, github, source control, source, versioning, clone, integrate, release
   href: version-control/index.yml
 - name: Test >>
   displayName: Unit testing
