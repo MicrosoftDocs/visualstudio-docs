@@ -252,7 +252,7 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 |Delete all breakpoints|**Ctrl+Shift+F9**|
 |Launch|**Alt+F2**|
 |Disassembly|**Ctrl+Alt+D**|
-|Dom explorer|**Ctrl+Alt+V, D**|
+|DOM explorer|**Ctrl+Alt+V, D**|
 |Enable breakpoint|**Ctrl+F9**|
 |Exceptions|**Ctrl+Alt+E**|
 |Function breakpoint|**Ctrl+K, B** (Visual Studio 2019)<br />**Ctrl**+**B** (Visual Studio 2017)|
@@ -261,7 +261,7 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 |Immediate|**Ctrl+Alt+I**|
 |IntelliTrace calls|**Ctrl+Alt+Y, T**|
 |IntelliTrace events|**Ctrl+Alt+Y, F**|
-|Java script console|**Ctrl+Alt+V, C**|
+|JavaScript console|**Ctrl+Alt+V, C**|
 |Locals|**Ctrl+Alt+V, L**|
 |Process combo|**Ctrl+5**|
 |Stack frame combo|**Ctrl+7**|
@@ -417,7 +417,7 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 |Commands|Keyboard shortcuts|
 |--------------| - |
 |Add and remove help content|**Ctrl+Alt+F1**|
-|F 1 help|**F1**|
+|F1 help|**F1**|
 |View help|**Ctrl+F1**|
 |Window help|**Shift+F1**|
 
@@ -860,8 +860,8 @@ The shortcuts specific to this context are:
 |T SQL editor show estimated plan|**Ctrl+D, E**|
 |T SQL editor toggle execution plan|**Ctrl+D, A**|
 |T SQL editor toggle results pane|**Ctrl+D, R**|
-|TSQLEditorCloneQuery|**Ctrl+Alt+N**|
-|TSQLEditorDatabaseCombo|**Shift+Alt+PgDn**|
+|T SQL editor clone query|**Ctrl+Alt+N**|
+|T SQL editor database combo|**Shift+Alt+PgDn**|
 
 ### Microsoft SQL Server Data Tools, T-SQL PDW Editor
 
@@ -877,8 +877,8 @@ The shortcuts specific to this context are:
 |T SQL editor show estimated plan|**Ctrl+D, E**|
 |T SQL editor toggle execution plan|**Ctrl+D, A**|
 |T SQL editor toggle results pane|**Ctrl+D, R**|
-|T SQLEditorCloneQuery|**Ctrl+Alt+N**|
-|T SQLEditorDatabaseCombo|**Shift+Alt+PgDn**|
+|T SQL editor clone query|**Ctrl+Alt+N**|
+|T SQL editor database combo|**Shift+Alt+PgDn**|
 
 ### Page Inspector
 
@@ -1315,7 +1315,7 @@ The shortcuts specific to this context are:
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
-|Create copyof work item|**Shift+Alt+C**|
+|Create copy of work item|**Shift+Alt+C**|
 |Refresh work item|**F5**|
 |New linked work item|**Shift+Alt+L**|
 
