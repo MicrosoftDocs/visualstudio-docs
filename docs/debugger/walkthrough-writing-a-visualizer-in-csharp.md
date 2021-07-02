@@ -174,7 +174,7 @@ In the debugger-side code, you specify the type to visualize (the object source)
     Choose **File** > **New** > **Project**. In the language drop-down, choose **C#**. In the search box, type **console app**, and then choose either **Console App (.NET Framework)** or **Console Application** for .NET. Click **Next**. In the dialog box that appears, type the name `MyTestConsole`, and then click **Create**.
 
     > [!NOTE]
-    > If you want to easily test the visualizer using a test harness, create a .NET Framework console app. You can create a .NET console app instead, but the test harness described later is not yet supported for .NET, so you will need to install the visualizer to test it. For this scenario, first create the console app here, and then follow steps described in [Add a debuggee-side data object](#(Optional)-Add-a-debuggee-side-data-object).
+    > If you want to easily test the visualizer using a test harness, create a .NET Framework console app. You can create a .NET console app instead, but the test harness described later is not yet supported for .NET, so you will need to install the visualizer to test it. For this scenario, first create the console app here, and then follow steps described in [Add a debuggee-side data object](#optional-add-a-debuggee-side-data-object).
     ::: moniker-end
     ::: moniker range="vs-2017"
     From the top menu bar, choose **File** > **New** > **Project**. In the left pane of the **New project** dialog box, under **Visual C#**, choose **Windows Desktop**, and then in the middle pane choose **Console App (.NET Framework)**.
@@ -293,7 +293,7 @@ In this section, you switch from the `System.String` data object to a custom dat
 
    Next, update the console app to use the custom data object.
 
-1. In Solution Explorer under the `MyTestConsole` project, right-click the **References** or **Dependencies** node, and add a project reference to `MyDataObject`.
+1. In Solution Explorer under the MyTestConsole project, right-click the **References** or **Dependencies** node, and add a project reference to `MyDataObject`.
 
 1. In Program.cs, replace the code in the `Main` method with the following code.
 
@@ -315,7 +315,7 @@ In this section, you switch from the `System.String` data object to a custom dat
    }
    ```
 
-   The debugger needs a reference to the visualizer. One way to keep the reference is to keep the preceding code in place.
+   The debugger needs a reference to the visualizer. One way to maintain the reference is to keep the preceding code in place.
 
 1. For a .NET Framework console app, you can run the test harness (press **F5**), or you can follow instructions in [How to: Install a Visualizer](../debugger/how-to-install-a-visualizer.md).
 
@@ -325,7 +325,7 @@ In this section, you switch from the `System.String` data object to a custom dat
 
 1. After installing the visualizer, set a breakpoint, run the console app, and hover over `customDataObject`. If everything is set up correctly, you should see the magnifying glass icon.
 
-   ![Visualizer magnifying glass icon](../debugger/media/vs-2019/visualizer-csharp-data-object.png)
+   :::image type="content" source="../debugger/media/vs-2019/visualizer-csharp-data-object.png" alt-text="Visualizer magnifying glass icon.":::
 
    When you choose **MyFirstVisualizer** from the magnifying glass, you will see the Form with the data object text in the title.
 
