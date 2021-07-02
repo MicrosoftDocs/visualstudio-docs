@@ -319,11 +319,17 @@ In this section, you switch from the `System.String` data object to a custom dat
 
 1. For a .NET Framework console app, you can run the test harness (press **F5**), or you can follow instructions in [How to: Install a Visualizer](../debugger/how-to-install-a-visualizer.md).
 
-1. For a .NET console app, install the MyFirstVisualizer.dll and the MyDataObject.dll to the folders described in [How to: Install a Visualizer](../debugger/how-to-install-a-visualizer.md).
+   The test harness shows the Windows Form.
 
-   When you run the console app, you will see the Form with the data object text in the title.
+1. For a .NET console app, copy the `MyFirstVisualizer.dll` and the `MyDataObject.dll` to the folders described in [How to: Install a Visualizer](../debugger/how-to-install-a-visualizer.md).
 
+1. After installing the visualizer, set a breakpoint, run the console app, and hover over `customDataObject`. If everything is set up correctly, you should see the magnifying glass icon.
 
+   ![Visualizer magnifying glass icon](../debugger/media/vs-2019/visualizer-csharp-data-object.png)
+
+   When you choose **MyFirstVisualizer** from the magnifying glass, you will see the Form with the data object text in the title.
+
+   ![Visualizer showing a Windows Form](../debugger/media/vs-2019/visualizer-csharp-windows-form.png)
 
 ::: moniker-end
 
