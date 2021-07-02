@@ -336,6 +336,8 @@ Output:
 -->
 ```
 
+<a name="TargetFramework"></a>
+
 ## MSBuild TargetFramework and TargetPlatform functions
 
 MSBuild 16.7 and higher define several functions for handling [TargetFramework and TargetPlatform properties](msbuild-target-framework-and-target-platform.md).
@@ -384,7 +386,7 @@ Value5 = True
 MSBuild 16.5 and higher define several functions for comparing strings that represent versions.
 
 > [!Note]
-> Comparison operators in conditions [can compare strings that can be parsed as `System.Version` objects](#msbuild-conditions.md#Comparing-versions), but the comparison can produce unexpected results. Prefer the property functions.
+> Comparison operators in conditions [can compare strings that can be parsed as `System.Version` objects](msbuild-conditions.md#comparing-versions), but the comparison can produce unexpected results. Prefer the property functions.
 
 |Function signature|Description|
 |------------------------|-----------------|
@@ -410,7 +412,7 @@ In these methods, versions are parsed like <xref:System.Version?displayProperty=
 * `+` is not allowed as positive sign in integer components (it is treated as semver metadata and ignored)
 
 > [!TIP]
-> Comparisons of [TargetFramework properties](msbuild-target-framework-and-target-platform.md) should generally use [IsTargetFrameworkCompatible](#MSBuild-TargetFramework-and-TargetPlatform-functions) instead of extracting and comparing versions. This allows comparing `TargetFramework`s that vary in `TargetFrameworkIdentifier` as well as version.
+> Comparisons of [TargetFramework properties](msbuild-target-framework-and-target-platform.md) should generally use [IsTargetFrameworkCompatible](#TargetFramework) instead of extracting and comparing versions. This allows comparing `TargetFramework`s that vary in `TargetFrameworkIdentifier` as well as version.
 
 ## MSBuild condition functions
 
