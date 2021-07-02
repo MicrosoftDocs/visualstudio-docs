@@ -1,8 +1,7 @@
 ---
-title: Sign in on Windows
+title: Sign in
 description: Learn how to sign in to Visual Studio. 
-titleSuffix: ''
-ms.custom: "seodec18, contperf-fy21q1"
+ms.custom: "contperf-fy21q1"
 ms.date: 09/11/2020
 ms.topic: how-to
 ms.assetid: b9531c25-e4cf-43ae-b331-a9f31a8cd171
@@ -31,30 +30,15 @@ While you don't have to sign in, there are many advantages to doing so. When you
 
 Here's a full list of what you can expect and what you can do after you sign in:
 
+|Benefit|Description|
+|---|---|
+|Extend the Visual Studio trial period|Use Visual Studio Professional or Visual Studio Enterprise **for an additional 90 days**, instead of being limited to the trial period of 30 days. <br/>See [Extend a trial version or update a license](../ide/how-to-unlock-visual-studio.md).|
+|Unlock Visual Studio (Visual Studio subscription or an Azure DevOps organization)|Unlock Visual Studio if you use an account that's associated with a Visual Studio subscription or an Azure DevOps organization.<br/>See [Extend a trial version or update a license](../ide/how-to-unlock-visual-studio.md).|
+|Synchronize your Visual Studio settings|Settings that you customize, such as key bindings, window layout, and color theme, apply immediately when you sign in to Visual Studio on any device. <br/>See [Synchronize settings in Visual Studio](../ide/synchronized-settings-in-visual-studio.md).|
+|Automatically connect to services|Connect to services, such as Azure and Azure DevOps Services, in the IDE without prompting again for credentials for the same account.|
+|Continue using Visual Studio Community edition|If your Community edition installation prompts you for a license, sign in to the IDE to continue using Visual Studio Community for **free**. |
+|Get 'Visual Studio Dev Essentials'|This program includes free software offerings, training, support, and more. <br/>See [Visual Studio Dev Essentials](https://visualstudio.microsoft.com/dev-essentials/).|
 
-#### Extend the Visual Studio trial period
-
-You can use Visual Studio Professional or Visual Studio Enterprise for an additional 90 days, instead of being limited to the trial period of 30 days. For more information, see [Extend a trial version or update a license](../ide/how-to-unlock-visual-studio.md).
-
-#### Synchronize your Visual Studio settings
-
-Settings that you customize, such as key bindings, window layout, and color theme, apply immediately when you sign in to Visual Studio on any device. See [Synchronize settings in Visual Studio](../ide/synchronized-settings-in-visual-studio.md).
-
-#### Use Visual Studio Community edition
-
-If your Community edition installation prompts you for a license, sign in to the IDE to continue using Visual Studio Community for **free**. 
-
-#### Unlock Visual Studio (Visual Studio subscription or an Azure DevOps organization)
-
-Unlock Visual Studio if you use an account that's associated with a Visual Studio subscription or an Azure DevOps organization using the steps in [Extend a trial version or update a license](../ide/how-to-unlock-visual-studio.md).
-
-#### The Visual Studio Dev Essentials program
-
-This program includes free software offerings, training, support, and more. See [Visual Studio Dev Essentials](https://visualstudio.microsoft.com/dev-essentials/) for more information.
-
-#### Automatically connect to services
-
-Connect to services, such as Azure and Azure DevOps Services, in the IDE without prompting again for credentials for the same account.
 
 ## How to sign in 
 
@@ -88,9 +72,3 @@ Unless you sign out, you're automatically signed in to Visual Studio whenever yo
 ## Troubleshooting
 
 See the [Subscription support](https://visualstudio.microsoft.com/subscriptions/support/) page to get help.
-
-## See also
-
-* [Extend a trial version or update a license](../ide/how-to-unlock-visual-studio.md)
-* [Work with GitHub accounts in Visual Studio](../ide/work-with-github-accounts.md)
-* [Visual Studio IDE overview](../get-started/visual-studio-ide.md)
