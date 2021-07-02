@@ -79,7 +79,6 @@ This walkthrough shows how to create a native C++ math library SDK, package the 
     </PackageManifest>
     ```
 
-
 5. In **Solution Explorer**, open the shortcut menu for the **NativeMathVSIX** project, and then choose **Add** > **New Item**.
 
 6. In the list of **Visual C# Items**, expand **Data**, and then select **XML File**. In the **Name** box, specify `SDKManifest.xml`, and then choose the **OK** button.
