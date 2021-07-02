@@ -4,8 +4,8 @@ title: Visual Studio version control documentation # < 60 chars
 summary: Share your code from within Visual Studio 2019 by using version control technologies such as Git and GitHub. # < 160 chars
 
 metadata:
-  title: Version & source control in Visual Studio # Required; page title displayed in search results. Include the brand. < 60 chars.
-  description: Share and version control code with Git & GitHub in Visual Studio. You can use them to share and manage your code without leaving your codebase.
+  title: Version control & source control in Visual Studio # Required; page title displayed in search results. Include the brand. < 60 chars.
+  description: Use version control technologies, Git & GitHub, and share code  in Visual Studio. You can use them to share and manage your code without leaving your codebase.
   ms.topic: landing-page
   ms.date: 04/20/2021
   author: TerryGLee
