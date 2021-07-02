@@ -34,7 +34,6 @@ All shortcuts in this section apply globally unless otherwise specified. The *Gl
 > [!NOTE]
 > You can [look up the shortcut](identifying-and-customizing-keyboard-shortcuts-in-visual-studio.md) for any command by opening the **Options** dialog box, expanding the **Environment** node, and then choosing **Keyboard**.
 
-
 #### Build: popular shortcuts
 
 |Commands|Keyboard shortcuts |
@@ -48,7 +47,7 @@ All shortcuts in this section apply globally unless otherwise specified. The *Gl
 
 |Commands|Keyboard shortcuts [Special contexts]|
 |--------------| - |
-|Breakat function|**Ctrl+B**|
+|Break at function|**Ctrl+B**|
 |Break all|**Ctrl+Alt+Break**|
 |Delete all breakpoints|**Ctrl+Shift+F9**|
 |Exceptions|**Ctrl+Alt+E**|
@@ -77,7 +76,7 @@ All shortcuts in this section apply globally unless otherwise specified. The *Gl
 |Delete|**Delete** [Team Explorer]<br /><br />or **Shift+Delete** [Sequence Diagram, UML Activity Diagram, Layer Diagram]<br /><br />or **Ctrl+Delete** [Class Diagram]|
 |Find|**Ctrl+F**|
 |Find all references|**Shift+F12**|
-|Findin files|**Ctrl+Shift+F**|
+|Find in files|**Ctrl+Shift+F**|
 |Find next|**F3**|
 |Find next selected|**Ctrl+F3**|
 |Format document|**Ctrl+K, Ctrl+D** [Text Editor]|
@@ -95,7 +94,7 @@ All shortcuts in this section apply globally unless otherwise specified. The *Gl
 |List members|**Ctrl+J** [Text Editor, Workflow Designer]<br /><br />or **Ctrl+K, Ctrl+L** [Workflow Designer]<br /><br />or **Ctrl+K, L** [Workflow Designer]|
 |Navigate to|**Ctrl+,**|
 |Open file|**Ctrl+Shift+G**|
-|Overtype mode|**Insert** [Text Editor]|
+|Over type mode|**Insert** [Text Editor]|
 |Parameter info|**Ctrl+Shift+Spacebar** [Text Editor, Workflow Designer]<br /><br />or **Ctrl+K, Ctrl+P** [Workflow Designer]<br /><br />or **Ctrl+K, P** [Workflow Designer]|
 |Paste|**Ctrl+V**<br /><br />or **Shift+Insert**|
 |Peek definition|**Alt+F12** [Text Editor]|
@@ -129,7 +128,7 @@ All shortcuts in this section apply globally unless otherwise specified. The *Gl
 |Rename|**F2** [Team Explorer]|
 |Save all|**Ctrl+Shift+S**|
 |Save selected items|**Ctrl+S**|
-|Viewin browser|**Ctrl+Shift+W**|
+|View in browser|**Ctrl+Shift+W**|
 
 #### Project: popular shortcuts
 
@@ -148,7 +147,7 @@ All shortcuts in this section apply globally unless otherwise specified. The *Gl
 
 |Command|Keyboard shortcut [Special contexts]|
 |-------------| - |
-|Attachto process|**Ctrl+Alt+P**|
+|Attach to process|**Ctrl+Alt+P**|
 
 #### View: popular shortcuts
 
@@ -166,7 +165,7 @@ All shortcuts in this section apply globally unless otherwise specified. The *Gl
 |Server explorer|**Ctrl+Alt+S**|
 |Show smart tag|**Ctrl+.**<br /><br />or **Shift+Alt+F10** [HTML Editor Design View]|
 |Solution explorer|**Ctrl+Alt+L**|
-|Tfs team explorer|**Ctrl+\\, Ctrl+M**|
+|TFS team explorer|**Ctrl+\\, Ctrl+M**|
 |Toolbox|**Ctrl+Alt+X**|
 |View code|**Enter** [Class Diagram]<br /><br />or **F7** [Settings Designer]|
 |View designer|**Shift+F7** [HTML Editor Source View]|
@@ -180,7 +179,6 @@ All shortcuts in this section apply globally unless otherwise specified. The *Gl
 |Next document window|**Ctrl+F6**|
 |Next document window nav|**Ctrl+Tab**|
 |Next split pane|**F6**|
-
 
 ## Global shortcuts
 
@@ -246,7 +244,7 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 |Commands|Keyboard shortcuts|
 |--------------| - |
 |Apply code changes|**Alt+F10**|
-|Attachto process|**Ctrl+Alt+P**|
+|Attach to process|**Ctrl+Alt+P**|
 |Autos|**Ctrl+Alt+V, A**|
 |Break all|**Ctrl+Alt+Break**|
 |Breakpoints|**Ctrl+Alt+B**|
@@ -258,11 +256,11 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 |Enable breakpoint|**Ctrl+F9**|
 |Exceptions|**Ctrl+Alt+E**|
 |Function breakpoint|**Ctrl+K, B** (Visual Studio 2019)<br />**Ctrl**+**B** (Visual Studio 2017)|
-|Go to previous callor intelli trace event|**Ctrl+Shift+F11**|
+|Go to previous call or IntelliTrace event|**Ctrl+Shift+F11**|
 |Start diagnostics|**Alt+F5**|
 |Immediate|**Ctrl+Alt+I**|
-|Intelli trace calls|**Ctrl+Alt+Y, T**|
-|Intelli trace events|**Ctrl+Alt+Y, F**|
+|IntelliTrace calls|**Ctrl+Alt+Y, T**|
+|IntelliTrace events|**Ctrl+Alt+Y, F**|
 |Java script console|**Ctrl+Alt+V, C**|
 |Locals|**Ctrl+Alt+V, L**|
 |Process combo|**Ctrl+5**|
@@ -282,13 +280,13 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 |Parallel watch 4|**Ctrl+Shift+D, 4**|
 |Processes|**Ctrl+Alt+Z**|
 |Quick watch|**Shift+F9** or **Ctrl+Alt+Q**|
-|Reattachto process|**Shift+Alt+P**|
-|Refresh windowsapp|**Ctrl+Shift+R**|
+|Reattach to process|**Shift+Alt+P**|
+|Refresh Windows app|**Ctrl+Shift+R**|
 |Registers|**Ctrl+Alt+G**|
 |Restart|**Ctrl+Shift+F5**|
 |Run to cursor|**Ctrl+F10**|
 |Set next statement|**Ctrl+Shift+F10**|
-|Show call stackon code map|**Ctrl+Shift+`**|
+|Show call stack on code map|**Ctrl+Shift+`**|
 |Show next statement|**Alt+Num** *|
 |Start|**F5**|
 |Start windows phone application analysis|**Alt+F1**|
@@ -337,7 +335,7 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 |Duplicate|**Ctrl+D**|
 |Find|**Ctrl+F**|
 |Find all references|**Shift+F12**|
-|Findin files|**Ctrl+Shift+F**|
+|Find in files|**Ctrl+Shift+F**|
 |Find next|**F3**|
 |Find next selected|**Ctrl+F3**|
 |Find previous|**Shift+F3**|
@@ -369,7 +367,7 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 |Redo|**Ctrl+Y**<br /><br /> or<br /><br /> **Ctrl+Shift+Z**<br /><br /> or<br /><br /> **Shift+Alt+Backspace**|
 |Refresh remote references|**Ctrl+Shift+J**|
 |Replace|**Ctrl+H**|
-|Replacein files|**Ctrl+Shift+H**|
+|Replace in files|**Ctrl+Shift+H**|
 |Select all|**Ctrl+A**|
 |Select next control|**Tab**|
 |Select previous control|**Shift+Tab**|
@@ -391,7 +389,7 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 |Commands|Keyboard shortcuts|
 |--------------| - |
 |Breakpoint conditions|**Alt+F9, C**|
-|Breakpoint editlabels|**Alt+F9, L**|
+|Breakpoint edit labels|**Alt+F9, L**|
 |Show item|**Ctrl+`**|
 |Execute|**Ctrl+Alt+F5**|
 |Go to view|**Ctrl+M, Ctrl+G**|
@@ -418,7 +416,7 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
-|Addand remove help content|**Ctrl+Alt+F1**|
+|Add and remove help content|**Ctrl+Alt+F1**|
 |F 1 help|**F1**|
 |View help|**Ctrl+F1**|
 |Window help|**Shift+F1**|
@@ -443,9 +441,9 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 |Add new item|**Ctrl+Shift+A**|
 |Class wizard|**Ctrl+Shift+X**|
 |Override|**Ctrl+Alt+Ins**|
-|Previewchanges|**Alt+;** then **Alt+C**|
-|Publishselectedfiles|**Alt+;** then **Alt+P**|
-|Replaceselectedfilesfromserver|**Alt+;** then **Alt+R**|
+|Preview changes|**Alt+;** then **Alt+C**|
+|Publish selected files|**Alt+;** then **Alt+P**|
+|Replace selected files from server|**Alt+;** then **Alt+R**|
 
 ### <a name="bkmk_projectContext"></a> Project and solution context menus
 
@@ -522,7 +520,7 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
-|Attachto process|**Ctrl+Alt+P**|
+|Attach to process|**Ctrl+Alt+P**|
 |Code snippets manager|**Ctrl+K, Ctrl+B**|
 |Force gc|**Ctrl+Shift+Alt+F12, Ctrl+Shift+Alt+F12**|
 
@@ -564,9 +562,9 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 |Server explorer|**Ctrl+Alt+S**|
 |Show smart tag|**Shift+Alt+F10**<br /><br /> or<br /><br /> **Ctrl+.**|
 |Solution explorer|**Ctrl+Alt+L**|
-|Sql server object explorer|**Ctrl+\\, Ctrl+S**|
+|SQL server object explorer|**Ctrl+\\, Ctrl+S**|
 |Task list|**Ctrl+\\, T**<br /><br /> or<br /><br /> **Ctrl+\\, Ctrl+T**|
-|Tfs team explorer|**Ctrl+\\, Ctrl+M**|
+|TFS team explorer|**Ctrl+\\, Ctrl+M**|
 |Toolbox|**Ctrl+Alt+X**|
 |Uml model explorer|**Ctrl+\\, Ctrl+U**|
 |View code|**F7**|
@@ -581,24 +579,24 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 |Commands|Keyboard shortcuts|
 |--------------| - |
 |Activate document window|**Esc**|
-|Add tabto selection|**Ctrl+Shift+Alt+Space**|
+|Add tab to selection|**Ctrl+Shift+Alt+Space**|
 |Close document window|**Ctrl+F4**|
 |Close tool window|**Shift+Esc**|
 |Keep tab open|**Ctrl+Alt+Home**|
-|Moveto navigation bar|**Ctrl+F2**|
+|Move to navigation bar|**Ctrl+F2**|
 |Next document window|**Ctrl+F6**|
 |Next document window nav|**Ctrl+Tab**|
 |Next pane|**Alt+F6**|
 |Next split pane|**F6**|
 |Next tab|**Ctrl+Alt+PgDn**<br /><br /> or<br /><br /> **Ctrl+PgDn**|
-|Next taband addto selection|**Ctrl+Shift+Alt+PgDn**|
+|Next tab and add to selection|**Ctrl+Shift+Alt+PgDn**|
 |Next tool window nav|**Alt+F7**|
 |Previous document window|**Ctrl+Shift+F6**|
 |Previous document window nav|**Ctrl+Shift+Tab**|
 |Previous pane|**Shift+Alt+F6**|
 |Previous split pane|**Shift+F6**|
 |Previous tab|**Ctrl+Alt+PgUp**<br /><br /> or<br /><br /> **Ctrl+PgUp**|
-|Previous taband addto selection|**Ctrl+Shift+Alt+PgUp**|
+|Previous tab and add to selection|**Ctrl+Shift+Alt+PgUp**|
 |Previous tool window nav|**Shift+Alt+F7**|
 |Quick launch|**Ctrl+Q**|
 |Quick launch previous category|**Ctrl+Shift+Q**|
@@ -616,7 +614,6 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 
 ## Context-specific shortcuts
 
-
 ### ADO.NET Entity Data Model Designer
 
 The shortcuts specific to this context are:
@@ -630,14 +627,13 @@ The shortcuts specific to this context are:
 |Up|**Alt+Up Arrow**|
 |Up 5|**Alt+PgUp**|
 |Rename|**Ctrl+R, R**|
-|Removefrom diagram|**Shift+Del**|
+|Remove from diagram|**Shift+Del**|
 |Entity data model browser|**Ctrl+1**|
 |Entity data model mapping details|**Ctrl+2**|
 
 ### Class diagram
 
 The shortcuts specific to this context are:
-
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
@@ -646,27 +642,25 @@ The shortcuts specific to this context are:
 |Delete|**Ctrl+Del**|
 |Expand collapse base type list|**Shift+Alt+B**|
 |Navigate to lollipop|**Shift+Alt+L**|
-|Removefrom diagram|**Delete**|
+|Remove from diagram|**Delete**|
 |View code|**Enter**|
 
 ### Coded UI Test Editor
 
 The shortcuts specific to this context are:
 
-
 |Commands|Keyboard shortcuts|
 |--------------| - |
-|Copy referenceto clipboard|**Ctrl+C**|
+|Copy reference to clipboard|**Ctrl+C**|
 |Insert delay before|**Ctrl+Alt+D**|
 |Locate all|**Shift+Alt+L**|
-|Locatethe ui control|**Ctrl+Shift+L**|
-|Movecode|**Ctrl+Alt+C**|
-|Splitintoanewmethod|**Ctrl+Shift+T**|
+|Locate the ui control|**Ctrl+Shift+L**|
+|Move code|**Ctrl+Alt+C**|
+|Split into a new method|**Ctrl+Shift+T**|
 
 ### DataSet Editor
 
 The shortcuts specific to this context are:
-
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
@@ -676,7 +670,6 @@ The shortcuts specific to this context are:
 ### Difference Viewer
 
 The shortcuts specific to this context are:
-
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
@@ -696,7 +689,6 @@ The shortcuts specific to this context are:
 
 The shortcuts specific to this context are:
 
-
 |Commands|Keyboard shortcuts|
 |--------------| - |
 |Refresh|**F5**|
@@ -707,7 +699,6 @@ The shortcuts specific to this context are:
 
 The shortcuts specific to this context are:
 
-
 |Command|Keyboard shortcut|
 |-------------| - |
 |Cancel interactive evaluation|**Ctrl+Break**|
@@ -715,7 +706,6 @@ The shortcuts specific to this context are:
 ### Graph Document Editor
 
 The shortcuts specific to this context are:
-
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
@@ -730,7 +720,6 @@ The shortcuts specific to this context are:
 ### Graphics diagnostics
 
 The shortcuts specific to this context are:
-
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
@@ -748,7 +737,6 @@ The shortcuts specific to this context are:
 
 The shortcuts specific to this context are:
 
-
 |Command|Keyboard shortcut|
 |-------------| - |
 |Go to controller|**Ctrl+M, Ctrl+G**|
@@ -757,19 +745,18 @@ The shortcuts specific to this context are:
 
 The shortcuts specific to this context are:
 
-
 |Commands|Keyboard shortcuts|
 |--------------| - |
 |Move control down|**Ctrl+Down Arrow**|
 |Move control up|**Ctrl+Up Arrow**|
 |Bold|**Ctrl+B**|
-|Convertto hyperlink|**Ctrl+L**|
+|Convert to hyperlink|**Ctrl+L**|
 |Insert bookmark|**Ctrl+Shift+L**|
 |Italic|**Ctrl+I**|
 |Underline|**Ctrl+U**|
 |Add content page|**Ctrl+M, Ctrl+C**|
-|Columntothe left|**Ctrl+Alt+Left Arrow**|
-|Columntothe right|**Ctrl+Alt+Right Arrow**|
+|Column to the left|**Ctrl+Alt+Left Arrow**|
+|Column to the right|**Ctrl+Alt+Right Arrow**|
 |Row above|**Ctrl+Alt+Up Arrow**|
 |Row below|**Ctrl+Alt+Down Arrow**|
 |Net nonvisual controls|**Ctrl+Shift+N**|
@@ -783,7 +770,6 @@ The shortcuts specific to this context are:
 
 The shortcuts specific to this context are:
 
-
 |Commands|Keyboard shortcuts|
 |--------------| - |
 |Go to controller|**Ctrl+M, Ctrl+G**|
@@ -796,7 +782,6 @@ The shortcuts specific to this context are:
 
 The shortcuts specific to this context are:
 
-
 |Command|Keyboard shortcut|
 |-------------| - |
 |Delete|**Shift+Delete**|
@@ -804,7 +789,6 @@ The shortcuts specific to this context are:
 ### Managed Resources Editor
 
 The shortcuts specific to this context are:
-
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
@@ -823,26 +807,24 @@ The shortcuts specific to this context are:
 
 The shortcuts specific to this context are:
 
-
 |Commands|Keyboard shortcuts|
 |--------------| - |
-|Set focuson left window|**Alt+1**|
-|Set focuson result window|**Alt+2**|
-|Set focuson right window|**Alt+3**|
+|Set focus on left window|**Alt+1**|
+|Set focus on result window|**Alt+2**|
+|Set focus on right window|**Alt+3**|
 
 ### Microsoft SQL Server Data Tools, Schema Compare
 
 The shortcuts specific to this context are:
 
-
 |Commands|Keyboard shortcuts|
 |--------------| - |
-|Ssdt schema compare compare|**Shift+Alt+C**|
-|Ssdt schema compare generate script|**Shift+Alt+G**|
-|Ssdt schema compare next change|**Shift+Alt+.**|
-|Ssdt schema compare previous change|**Shift+Alt+,**|
-|Ssdt schema compare stop|**Alt+Break**|
-|Ssdt schema compare write updates|**Shift+Alt+U**|
+|SSDT schema compare compare|**Shift+Alt+C**|
+|SSDT schema compare generate script|**Shift+Alt+G**|
+|SSDT schema compare next change|**Shift+Alt+.**|
+|SSDT schema compare previous change|**Shift+Alt+,**|
+|SSDT schema compare stop|**Alt+Break**|
+|SSDT schema compare write updates|**Shift+Alt+U**|
 
 ### Microsoft SQL Server Data Tools, Table Designer
 
@@ -853,8 +835,8 @@ The shortcuts specific to this context are:
 |--------------| - |
 |CommitAllEdits|**Shift+Alt+U**|
 |Expand wildcards|**Ctrl+R, E**<br /><br /> or<br /><br /> **Ctrl+R, Ctrl+E**|
-|Fullyqualify names|**Ctrl+R, Q**<br /><br /> or<br /><br /> **Ctrl+R, Ctrl+Q**|
-|Moveto schema|**Ctrl+R, M**<br /><br /> or<br /><br /> **Ctrl+R, Ctrl+M**|
+|Fully qualify names|**Ctrl+R, Q**<br /><br /> or<br /><br /> **Ctrl+R, Ctrl+Q**|
+|Move to schema|**Ctrl+R, M**<br /><br /> or<br /><br /> **Ctrl+R, Ctrl+M**|
 |Rename|**F2**<br /><br /> or<br /><br /> **Ctrl+R, R**<br /><br /> or<br /><br /> **Ctrl+R, Ctrl+R**|
 |ViewFileInScriptPanel|**Shift+Alt+PgDn**|
 
@@ -862,48 +844,45 @@ The shortcuts specific to this context are:
 
 The shortcuts specific to this context are:
 
-
 |Commands|Keyboard shortcuts|
 |--------------| - |
 |CommitAllEdits|**Shift+Alt+U**|
 |Execute with debugger|**Alt+F5**|
 |Expand wildcards|**Ctrl+R, E**<br /><br /> or<br /><br /> **Ctrl+R, Ctrl+E**|
-|Fullyqualify names|**Ctrl+R, Q**<br /><br /> or<br /><br /> **Ctrl+R, Ctrl+Q**|
-|Moveto schema|**Ctrl+R, M**<br /><br /> or<br /><br /> **Ctrl+R, Ctrl+M**|
+|Fully qualify names|**Ctrl+R, Q**<br /><br /> or<br /><br /> **Ctrl+R, Ctrl+Q**|
+|Move to schema|**Ctrl+R, M**<br /><br /> or<br /><br /> **Ctrl+R, Ctrl+M**|
 |Rename|**F2**<br /><br /> or<br /><br /> **Ctrl+R, R**<br /><br /> or<br /><br /> **Ctrl+R, Ctrl+R**|
-|T sql editor cancel query|**Alt+Break**|
-|T sql editor execute query|**Ctrl+Shift+E**|
-|T sql editor results as file|**Ctrl+D, F**|
-|T sql editor results as grid|**Ctrl+D, G**|
-|T sql editor results as text|**Ctrl+D, T**|
-|T sql editor show estimated plan|**Ctrl+D, E**|
-|T sql editor toggle execution plan|**Ctrl+D, A**|
-|T sql editor toggle results pane|**Ctrl+D, R**|
-|TSqlEditorCloneQuery|**Ctrl+Alt+N**|
-|TSqlEditorDatabaseCombo|**Shift+Alt+PgDn**|
+|T SQL editor cancel query|**Alt+Break**|
+|T SQL editor execute query|**Ctrl+Shift+E**|
+|T SQL editor results as file|**Ctrl+D, F**|
+|T SQL editor results as grid|**Ctrl+D, G**|
+|T SQL editor results as text|**Ctrl+D, T**|
+|T SQL editor show estimated plan|**Ctrl+D, E**|
+|T SQL editor toggle execution plan|**Ctrl+D, A**|
+|T SQL editor toggle results pane|**Ctrl+D, R**|
+|TSQLEditorCloneQuery|**Ctrl+Alt+N**|
+|TSQLEditorDatabaseCombo|**Shift+Alt+PgDn**|
 
 ### Microsoft SQL Server Data Tools, T-SQL PDW Editor
 
 The shortcuts specific to this context are:
 
-
 |Commands|Keyboard shortcuts|
 |--------------| - |
-|T sql editor cancel query|**Alt+Break**|
-|T sql editor execute query|**Ctrl+Shift+E**|
-|T sql editor results as file|**Ctrl+D, F**|
-|T sql editor results as grid|**Ctrl+D, G**|
-|T sql editor results as text|**Ctrl+D, T**|
-|T sql editor show estimated plan|**Ctrl+D, E**|
-|T sql editor toggle execution plan|**Ctrl+D, A**|
-|T sql editor toggle results pane|**Ctrl+D, R**|
-|TSqlEditorCloneQuery|**Ctrl+Alt+N**|
-|TSqlEditorDatabaseCombo|**Shift+Alt+PgDn**|
+|T SQL editor cancel query|**Alt+Break**|
+|T SQL editor execute query|**Ctrl+Shift+E**|
+|T SQL editor results as file|**Ctrl+D, F**|
+|T SQL editor results as grid|**Ctrl+D, G**|
+|T SQL editor results as text|**Ctrl+D, T**|
+|T SQL editor show estimated plan|**Ctrl+D, E**|
+|T SQL editor toggle execution plan|**Ctrl+D, A**|
+|T SQL editor toggle results pane|**Ctrl+D, R**|
+|T SQLEditorCloneQuery|**Ctrl+Alt+N**|
+|T SQLEditorDatabaseCombo|**Shift+Alt+PgDn**|
 
 ### Page Inspector
 
 The shortcuts specific to this context are:
-
 
 |Command|Keyboard shortcut|
 |-------------| - |
@@ -913,22 +892,20 @@ The shortcuts specific to this context are:
 
 The shortcuts specific to this context are:
 
-
 |Commands|Keyboard shortcuts|
 |--------------| - |
 |Cancel retrieving data|**Ctrl+T**|
 |Criteria|**Ctrl+2**|
 |Diagram|**Ctrl+1**|
-|Execute sql|**Ctrl+R**|
+|Execute SQL|**Ctrl+R**|
 |Goto row|**Ctrl+G**|
 |Join mode|**Ctrl+Shift+J**|
 |Results|**Ctrl+4**|
-|Sql|**Ctrl+3**|
+|SQL|**Ctrl+3**|
 
 ### Query results
 
 The shortcuts specific to this context are:
-
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
@@ -939,7 +916,6 @@ The shortcuts specific to this context are:
 ### Report Designer
 
 The shortcuts specific to this context are:
-
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
@@ -969,7 +945,6 @@ The shortcuts specific to this context are:
 
 The shortcuts specific to this context are:
 
-
 |Commands|Keyboard shortcuts|
 |--------------| - |
 |Navigate to code|**F12**|
@@ -978,7 +953,6 @@ The shortcuts specific to this context are:
 ### Settings Designer
 
 The shortcuts specific to this context are:
-
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
@@ -991,15 +965,13 @@ The shortcuts specific to this context are:
 
 The shortcuts specific to this context are:
 
-
 |Command|Keyboard shortcut|
 |-------------| - |
-|Viewin page inspector|**Ctrl+K, Ctrl+G**|
+|View in page inspector|**Ctrl+K, Ctrl+G**|
 
 ### Team Explorer
 
 The shortcuts specific to this context are:
-
 
 |Command|Keyboard Shortcut|
 |-------------| - |
@@ -1020,8 +992,8 @@ The shortcuts specific to this context are:
 |Go to team explorer section 9 content|**Alt+9**|
 |Team explorer navigate backward|**Alt+Left Arrow**|
 |Team explorer navigate forward|**Alt+Right Arrow**|
-|Tfs context my work page create copy wi|**Shift+Alt+C**|
-|Tfs context my work page new linked wi|**Shift+Alt+L**|
+|TFS context my work page create copy wi|**Shift+Alt+C**|
+|TFS context my work page new linked wi|**Shift+Alt+L**|
 |Refresh|**F5**|
 
 ### Test Explorer
@@ -1036,7 +1008,6 @@ The shortcuts specific to this context are:
 ### Text Editor
 
 The shortcuts specific to this context are:
-
 
 | Commands | Keyboard shortcuts |
 | - | - |
@@ -1066,7 +1037,7 @@ The shortcuts specific to this context are:
 |Expand all outlining| **Ctrl+M, Ctrl+X** |
 |Expand current region| **Ctrl+M, Ctrl+E** |
 |Expand selection| **Shift+Alt+=** |
-|Expand selectionto containing block| **Shift+Alt+]** |
+|Expand selection to containing block| **Shift+Alt+]** |
 |Format document| **Ctrl+K, Ctrl+D** |
 |Format selection| **Ctrl+K, Ctrl+F** |
 |Goto all| **Ctrl+T**<br /><br /> or<br /><br /> **Ctrl+,** |
@@ -1078,7 +1049,7 @@ The shortcuts specific to this context are:
 |Hide selection| **Ctrl+M, Ctrl+H** |
 |Increase filter level| **Alt+.** |
 |Incremental search| **Ctrl+I** |
-|Insert caretsat all matching| **Shift+Alt+;** |
+|Insert carets at all matching| **Shift+Alt+;** |
 |Insert next matching caret| **Shift+Alt+.** |
 |Insert tab| **Tab** |
 |Line cut| **Ctrl+L** |
@@ -1104,7 +1075,7 @@ The shortcuts specific to this context are:
 |Move selected lines down| **Alt+Down Arrow** |
 |Move selected lines up| **Alt+Up Arrow** |
 |Next highlighted reference| **Ctrl+Shift+Down Arrow** |
-|Overtype mode| **Insert** |
+|Over type mode| **Insert** |
 |Page down| **PgDn** |
 |Page down extend| **Shift+PgDn** |
 |Page up| **PgUp** |
@@ -1151,14 +1122,13 @@ The shortcuts specific to this context are:
 |Word transpose| **Ctrl+Shift+T** |
 |Execute in interactive| **Alt+Enter** |
 |Execute line in interactive| **Alt+'** |
-|Viewin page inspector| **Ctrl+K, Ctrl+G** |
-|Tfs annotate move next region| **Alt+PgDn** |
-|Tfs annotate move previous region| **Alt+PgUp** |
+|View in page inspector| **Ctrl+K, Ctrl+G** |
+|TFS annotate move next region| **Alt+PgDn** |
+|TFS annotate move previous region| **Alt+PgUp** |
 
 ### UML activity diagram
 
 The shortcuts specific to this context are:
-
 
 |Command|Keyboard shortcut|
 |-------------| - |
@@ -1168,7 +1138,6 @@ The shortcuts specific to this context are:
 
 The shortcuts specific to this context are:
 
-
 |Command|Keyboard shortcut|
 |-------------| - |
 |Delete from model|**Shift+Del**|
@@ -1176,7 +1145,6 @@ The shortcuts specific to this context are:
 ### UML component diagram
 
 The shortcuts specific to this context are:
-
 
 |Command|Keyboard shortcut|
 |-------------| - |
@@ -1186,7 +1154,6 @@ The shortcuts specific to this context are:
 
 The shortcuts specific to this context are:
 
-
 |Command|Keyboard shortcut|
 |-------------| - |
 |Delete from model|**Shift+Del**|
@@ -1194,7 +1161,6 @@ The shortcuts specific to this context are:
 ### VC Accelerator Editor
 
 The shortcuts specific to this context are:
-
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
@@ -1204,7 +1170,6 @@ The shortcuts specific to this context are:
 ### VC Dialog Editor
 
 The shortcuts specific to this context are:
-
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
@@ -1231,7 +1196,7 @@ The shortcuts specific to this context are:
 |Center horizontal|**Ctrl+Shift+F9**|
 |Center vertical|**Ctrl+F9**|
 |Check mnemonics|**Ctrl+M**|
-|Sizeto content|**Shift+F7**|
+|Size to content|**Shift+F7**|
 |Space across|**Alt+Right Arrow**<br /><br /> or<br /><br /> **Alt+Left Arrow**|
 |Space down|**Alt+Up Arrow**<br /><br /> or<br /><br /> **Alt+Down Arrow**|
 |Tab order|**Ctrl+D**|
@@ -1242,12 +1207,11 @@ The shortcuts specific to this context are:
 
 The shortcuts specific to this context are:
 
-
 |Commands|Keyboard shortcuts|
 |--------------| - |
 |Airbrush tool|**Ctrl+A**|
 |Brush tool|**Ctrl+B**|
-|Copyand outline selection|**Ctrl+Shift+U**|
+|Copy and outline selection|**Ctrl+Shift+U**|
 |Draw opaque|**Ctrl+J**|
 |Ellipse tool|**Alt+P**|
 |Erase tool|**Ctrl+Shift+I**|
@@ -1279,14 +1243,13 @@ The shortcuts specific to this context are:
 |Small brush|**Ctrl+.**|
 |Smaller brush|**Ctrl+-**|
 |Text tool|**Ctrl+T**|
-|Use selectionas brush|**Ctrl+U**|
+|Use selection as brush|**Ctrl+U**|
 |Zoom in|**Ctrl+Shift+.**<br /><br /> or<br /><br /> **Ctrl+Up Arrow**|
 |Zoom out|**Ctrl+Shift+,**<br /><br /> or<br /><br /> **Ctrl+Down Arrow**|
 
 ### VC String Editor
 
 The shortcuts specific to this context are:
-
 
 |Command|Keyboard shortcut|
 |-------------| - |
@@ -1296,22 +1259,20 @@ The shortcuts specific to this context are:
 
 The shortcuts specific to this context are:
 
-
 |Commands|Keyboard shortcuts|
 |--------------| - |
 |Cancel retrieving data|**Ctrl+T**|
 |Criteria|**Ctrl+2**|
 |Diagram|**Ctrl+1**|
-|Execute sql|**Ctrl+R**|
+|Execute SQL|**Ctrl+R**|
 |Goto row|**Ctrl+G**|
 |Join mode|**Ctrl+Shift+J**|
 |Results|**Ctrl+4**|
-|Sql|**Ctrl+3**|
+|SQL|**Ctrl+3**|
 
 ### Visual Studio
 
 The shortcuts specific to this context are:
-
 
 |Command|Keyboard shortcut|
 |-------------| - |
@@ -1320,7 +1281,6 @@ The shortcuts specific to this context are:
 ### Windows Forms Designer
 
 The shortcuts specific to this context are:
-
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
@@ -1353,7 +1313,6 @@ The shortcuts specific to this context are:
 
 The shortcuts specific to this context are:
 
-
 |Commands|Keyboard shortcuts|
 |--------------| - |
 |Create copyof work item|**Shift+Alt+C**|
@@ -1364,10 +1323,9 @@ The shortcuts specific to this context are:
 
 The shortcuts specific to this context are:
 
-
 |Commands|Keyboard shortcuts|
 |--------------| - |
-|Create copyof work item|**Shift+Alt+C**|
+|Create copy of work item|**Shift+Alt+C**|
 |Indent|**Shift+Alt+Right Arrow**|
 |Outdent|**Shift+Alt+Left Arrow**|
 |New linked work item|**Shift+Alt+L**|
@@ -1378,10 +1336,9 @@ The shortcuts specific to this context are:
 
 The shortcuts specific to this context are:
 
-
 |Commands|Keyboard shortcuts|
 |--------------| - |
-|Create copyof work item|**Shift+Alt+C**|
+|Create copy of work item|**Shift+Alt+C**|
 |Indent|**Shift+Alt+Right Arrow**|
 |Outdent|**Shift+Alt+Left Arrow**|
 |Goto next work item|**Shift+Alt+N**|
@@ -1393,7 +1350,6 @@ The shortcuts specific to this context are:
 ### Workflow Designer
 
 The shortcuts specific to this context are:
-
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
@@ -1425,7 +1381,6 @@ The shortcuts specific to this context are:
 
 The shortcuts specific to this context are:
 
-
 |Commands|Keyboard shortcuts|
 |--------------| - |
 |Fit all|**Ctrl+0** (zero)|
@@ -1450,24 +1405,22 @@ The shortcuts specific to this context are:
 
 The shortcuts specific to this context are:
 
-
 |Commands|Keyboard shortcuts|
 |--------------| - |
-|Start xslt debugging|**Alt+F5**|
-|Start xslt without debugging|**Ctrl+Alt+F5**|
+|Start XSLT debugging|**Alt+F5**|
+|Start XSLT without debugging|**Ctrl+Alt+F5**|
 
 ### XML Schema Designer
 
 The shortcuts specific to this context are:
 
-
 |Commands|Keyboard shortcuts|
 |--------------| - |
-|Bottomto top|**Alt+Up Arrow**|
-|Leftto right|**Alt+Right Arrow**|
-|Rightto left|**Alt+Left Arrow**|
-|Topto bottom|**Alt+Down Arrow**|
-|Removefrom workspace|**Delete**|
+|Bottom to top|**Alt+Up Arrow**|
+|Left to right|**Alt+Right Arrow**|
+|Right to left|**Alt+Left Arrow**|
+|Top to bottom|**Alt+Down Arrow**|
+|Remove from workspace|**Delete**|
 |Show content model view|**Ctrl+2**|
 |Show graph view|**Ctrl+3**|
 |Show start view|**Ctrl+1**|
