@@ -122,6 +122,12 @@ The following people contributed to the Visual Studio docs during this period. T
 
 ## What's new history
 
+The following sections provide the previous three months of what's new in the Visual Studio docs.
+
+* [May 2021](#may-2021)
+* [April 2021](#april-2021)
+* [March 2021](#march-2021)
+
 ### May 2021
 
 #### Code quality
