@@ -42211,141 +42211,6 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "connected-environment/get-started-netcore-01.md",
-      "redirect_url": "/azure/dev-spaces/get-started-netcore",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "connected-environment/get-started-netcore-02.md",
-      "redirect_url": "/azure/dev-spaces/get-started-netcore",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "connected-environment/get-started-netcore-03.md",
-      "redirect_url": "/azure/dev-spaces/get-started-netcore",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "connected-environment/get-started-netcore-04.md",
-      "redirect_url": "/azure/dev-spaces/get-started-netcore",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "connected-environment/get-started-netcore-05.md",
-      "redirect_url": "/azure/dev-spaces/get-started-netcore",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "connected-environment/get-started-netcore-06.md",
-      "redirect_url": "/azure/dev-spaces/get-started-netcore",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "connected-environment/get-started-netcore-07.md",
-      "redirect_url": "/azure/dev-spaces/get-started-netcore",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "connected-environment/get-started-netcore-visualstudio-01.md",
-      "redirect_url": "/azure/dev-spaces/get-started-netcore-visualstudio",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "connected-environment/get-started-netcore-visualstudio-02.md",
-      "redirect_url": "/azure/dev-spaces/get-started-netcore-visualstudio",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "connected-environment/get-started-netcore-visualstudio-03.md",
-      "redirect_url": "/azure/dev-spaces/get-started-netcore-visualstudio",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "connected-environment/get-started-netcore-visualstudio-04.md",
-      "redirect_url": "/azure/dev-spaces/get-started-netcore-visualstudio",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "connected-environment/get-started-netcore-visualstudio-05.md",
-      "redirect_url": "/azure/dev-spaces/get-started-netcore-visualstudio",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "connected-environment/get-started-netcore-visualstudio-06.md",
-      "redirect_url": "/azure/dev-spaces/get-started-netcore-visualstudio",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "connected-environment/get-started-netcore-visualstudio-07.md",
-      "redirect_url": "/azure/dev-spaces/get-started-netcore-visualstudio",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "connected-environment/get-started-nodejs-01.md",
-      "redirect_url": "/azure/dev-spaces/get-started-nodejs",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "connected-environment/get-started-nodejs-02.md",
-      "redirect_url": "/azure/dev-spaces/get-started-nodejs",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "connected-environment/get-started-nodejs-03.md",
-      "redirect_url": "/azure/dev-spaces/get-started-nodejs",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "connected-environment/get-started-nodejs-04.md",
-      "redirect_url": "/azure/dev-spaces/get-started-nodejs",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "connected-environment/get-started-nodejs-05.md",
-      "redirect_url": "/azure/dev-spaces/get-started-nodejs",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "connected-environment/get-started-nodejs-06.md",
-      "redirect_url": "/azure/dev-spaces/get-started-nodejs",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "connected-environment/get-started-nodejs-07.md",
-      "redirect_url": "/azure/dev-spaces/get-started-nodejs",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "connected-environment/get-started.md",
-      "redirect_url": "/azure/dev-spaces/azure-dev-spaces",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "connected-environment/how-to/share-dev-environment.md",
-      "redirect_url": "/azure/dev-spaces/how-to/share-dev-spaces",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "connected-environment/how-to/use-a-custom-nuget-feed.md",
-      "redirect_url": "/azure/dev-spaces/how-to/use-custom-nuget-feed",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "connected-environment/how-to/use-kubectl-with-vsce.md",
-      "redirect_url": "/azure/dev-spaces/how-to/use-kubectl-with-azure-dev-spaces",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "connected-environment/troubleshooting.md",
-      "redirect_url": "/azure/dev-spaces/troubleshooting",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "connected-environment/visual-studio-connected-environment.md",
-      "redirect_url": "/azure/dev-spaces/azure-dev-spaces",
-      "redirect_document_id": false
-    },
-    {
       "source_path": "docs/code-quality/analyzer-rule-sets.md",
       "redirect_url": "/dotnet/fundamentals/code-analysis/code-quality-rule-options",
       "redirect_document_id": false
@@ -44816,11 +44681,6 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "docs/data-tools/create-a-sql-database-by-using-a-script.md",
-      "redirect_url": "https://msdn.microsoft.com/library/hh864423(v=vs.103).aspx",
-      "redirect_document_id": false
-    },
-    {
       "source_path": "docs/data-tools/install-sql-server-sample-databases.md",
       "redirect_url": "https://github.com/microsoft/sql-server-samples/releases/tag/wide-world-importers-v1.0",
       "redirect_document_id": false
@@ -45158,11 +45018,6 @@
     {
       "source_path": "docs/debugger/run-store-apps-from-visual-studio.md",
       "redirect_url": "/visualstudio/debugger/debugging-windows-store-and-windows-universal-apps",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "docs/debugger/run-windows-phone-apps-in-the-emulator.md",
-      "redirect_url": "http://msdn.microsoft.com/en-US/library/dn632391(VS.140).aspx",
       "redirect_document_id": false
     },
     {
@@ -45939,12 +45794,7 @@
       "source_path": "docs/ide/command-line-arguments-for-the-help-content-manager.md",
       "redirect_url": "/visualstudio/help-viewer/command-line-arguments",
       "redirect_document_id": true
-    },
-    {
-      "source_path": "docs/ide/connected-environment.md",
-      "redirect_url": "/visualstudio/ide/signing-in-to-visual-studio",
-      "redirect_document_id": false
-    },
+    },  
     {
       "source_path": "docs/ide/create-an-offline-installation-of-visual-studio.md",
       "redirect_url": "/visualstudio/install/create-an-offline-installation-of-visual-studio",
@@ -46918,16 +46768,6 @@
     {
       "source_path": "docs/modeling/validate-your-uml-model.md",
       "redirect_url": "/visualstudio/modeling/what-s-new-for-design-in-visual-studio",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "docs/msbuild/additional-msbuild-resources.md",
-      "redirect_url": "https://social.msdn.microsoft.com/forums/vstudio/home?forum=msbuild",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "docs/msbuild/additional-resources-for-msbuild.md",
-      "redirect_url": "https://social.msdn.microsoft.com/forums/vstudio/home?forum=msbuild",
       "redirect_document_id": false
     },
     {
@@ -51958,11 +51798,6 @@
     {
       "source_path": "subscriptions/vs-license-terms.md",
       "redirect_url": "https://www.microsoft.com/en-us/licensing/product-licensing/products.aspx",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "subscriptions/vs-priority-support.md",
-      "redirect_url": "https://social.msdn.microsoft.com/Forums/vstudio/en-US/home",
       "redirect_document_id": false
     },
     {
