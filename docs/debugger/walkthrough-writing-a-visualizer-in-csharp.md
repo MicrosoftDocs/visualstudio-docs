@@ -36,7 +36,7 @@ Follow the tasks below to create a visualizer.
     ::: moniker range=">=vs-2019"
     Choose **File** > **New** > **Project**. In the language drop-down, choose **C#**. In the search box, type **class library**, and then choose **Class Library (.NET Framework)**. Click **Next**. In the dialog box that appears, type the name `MyFirstVisualizer`, and then click **Create**.
 
-    For the visualizer project, make sure you select a .NET Framework class library and not .NET Core.
+    For the visualizer project, make sure you select a .NET Framework class library and not .NET. Although the visualizer needs to be .NET Framework, the calling app can be .NET Core.
     ::: moniker-end
     ::: moniker range="vs-2017"
     From the top menu bar, choose **File** > **New** > **Project**. In the left pane of the **New project** dialog box, under **Visual C#**, choose **.NET Framework**, and then in the middle pane choose **Class Library (.NET Framework)**.
@@ -174,7 +174,7 @@ In the debugger-side code, you specify the type to visualize (the object source)
     Choose **File** > **New** > **Project**. In the language drop-down, choose **C#**. In the search box, type **console app**, and then choose either **Console App (.NET Framework)** or **Console Application** for .NET. Click **Next**. In the dialog box that appears, type the name `MyTestConsole`, and then click **Create**.
 
     > [!NOTE]
-    > If you want to easily test the visualizer using a test harness, create a .NET Framework console app. You can create a .NET console app instead, but the test harness described later is not yet supported for .NET, so you will need to install the visualizer to test it. For this scenario, first create the console app here, and then follow steps described in [Add a debuggee-side data object](#optional-add-a-debuggee-side-data-object).
+    > If you want to easily test the visualizer using a test harness, create a .NET Framework console app. You can create a .NET console app instead, but the test harness described later is not yet supported for .NET, so you will need to install the visualizer to test it. For this scenario, first create the console app here, and then follow steps described in [Add a debuggee-side data object](#add-a-debuggee-side-data-object).
     ::: moniker-end
     ::: moniker range="vs-2017"
     From the top menu bar, choose **File** > **New** > **Project**. In the left pane of the **New project** dialog box, under **Visual C#**, choose **Windows Desktop**, and then in the middle pane choose **Console App (.NET Framework)**.
@@ -237,7 +237,7 @@ In the debugger-side code, you specify the type to visualize (the object source)
    If you want to use your visualizer in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] rather than just calling it from the test harness, you have to install it. For more information, see [How to: Install a Visualizer](../debugger/how-to-install-a-visualizer.md).
 
 ::: moniker range=">=vs-2019"
-## (Optional) Add a debuggee-side data object
+## Add a debuggee-side data object
 
 In this section, you switch from the `System.String` data object to a custom data object.  
 
@@ -248,7 +248,7 @@ In this section, you switch from the `System.String` data object to a custom dat
 
 1. Click **Next**. In the dialog box that appears, type the name `MyDataObject`, and then click **Create**.
 
-1. [.NET Standard class library only] In Solution Explorer, right-click the project and choose **Edit Project File**. Change the `<TargetFramework>` value to `netstandard2.0`.
+1. (.NET Standard class library only) In Solution Explorer, right-click the project and choose **Edit Project File**. Change the `<TargetFramework>` value to `netstandard2.0`.
 
 1. Inside the `MyDataObject` namespace, replace the default code with the following code.
 
@@ -304,7 +304,7 @@ In this section, you switch from the `System.String` data object to a custom dat
    DebuggerSide.TestShowVisualizer(customDataObject.MyData);
    ```
 
-1. [.NET console app only] Enclose the call to `TestShowVisualizer` in a try catch statement, since the test harness is unsupported.
+1. (.NET console app) Enclose the call to `TestShowVisualizer` in a try-catch statement, since the test harness is unsupported.
 
    ```csharp
    try
@@ -319,11 +319,11 @@ In this section, you switch from the `System.String` data object to a custom dat
 
 1. For a .NET Framework console app, you can run the test harness (press **F5**), or you can follow instructions in [How to: Install a Visualizer](../debugger/how-to-install-a-visualizer.md).
 
-   The test harness shows the Windows Form.
+   If you run the app using the test harness, the app shows the Windows Form.
 
 1. For a .NET console app, copy the `MyFirstVisualizer.dll` and the `MyDataObject.dll` to the folders described in [How to: Install a Visualizer](../debugger/how-to-install-a-visualizer.md).
 
-1. After installing the visualizer, set a breakpoint, run the console app, and hover over `customDataObject`. If everything is set up correctly, you should see the magnifying glass icon.
+1. After installing the visualizer, set a breakpoint, run the console app, and hover over `customDataObject`. If everything is set up correctly, you should see the magnifying glass icon ![VisualizerIcon](../debugger/media/dbg-tips-visualizer-icon.png "Visualizer icon").
 
    :::image type="content" source="../debugger/media/vs-2019/visualizer-csharp-data-object.png" alt-text="Visualizer magnifying glass icon.":::
 
