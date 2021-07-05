@@ -1,8 +1,8 @@
 ---
-title: "Visual Studio docs: What's new for May 2021"
+title: "Visual Studio docs: What's new for June 2021"
 titleSuffix: ""
-description: "What's new in the Visual Studio docs for May 2021."
-ms.date: 06/01/2021
+description: "What's new in the Visual Studio docs for June 2021."
+ms.date: 06/30/2021
 helpviewer_keywords:
   - "Visual Studio, what's new, docs"
   - "what's new [Visual Studio]"
@@ -17,11 +17,120 @@ ms.workload:
   - "multiple"
 ---
 
-# Visual Studio docs: What's new for May 2021
+# Visual Studio docs: What's new for June 2021
 
-Welcome to what's new in the Visual Studio docs for May 2021. This article lists some of the major changes to docs during this period. For information about what was new in previous months, see the [what's new history](#whats-new-history) section.
+Welcome to what's new in the Visual Studio docs for June 2021. This article lists some of the major changes to docs during this period. For information about what was new in previous months, see the [what's new history](#whats-new-history) section.
 
-## Code quality
+## Azure
+
+**Updated articles**
+
+- [Manage the resources associated with your Azure accounts in Visual Studio Cloud Explorer](../azure/vs-azure-tools-resources-managing-with-cloud-explorer.md) - Add deprecation of Cloud Explorer and Server Explorer Azure node
+- [Accessing Azure Virtual Machines from Server Explorer](../azure/vs-azure-tools-virtual-machines-access-from-server-explorer.md) - Add deprecation of Cloud Explorer and Server Explorer Azure node
+
+## Containers
+
+**Updated articles**
+
+- [Quickstart: Use Docker with a React Single-page App in Visual Studio](../containers/container-tools-react.md) - Remove references to EOL Windows 10, version 1903
+
+## Data tools
+
+**Updated articles**
+
+- [Create a Windows Form to search data](../data-tools/create-a-windows-form-to-search-data.md) - Windows Forms Data Tools: Update and add note about .NET Core
+
+## IDE
+
+**New articles**
+
+- [Connected experiences in Visual Studio](./reference/connected-experiences.md) - New article added
+- [How to use Solution Explorer](./use-solution-explorer.md) - New article added
+- [Remove Unused References](./reference/remove-unused-references.md) - New article added
+
+**Updated articles**
+
+- [Options, Text Editor, C#, Advanced](./reference/options-text-editor-csharp-advanced.md) - Added docs for some new 16.10 .NET Productivity Features
+- [Quickstart: Create your first Node.js app with Visual Studio](./quickstart-nodejs.md) - Article updated
+
+## Install
+
+**Updated articles**
+
+- [Install Build Tools into a container](../install/build-tools-container.md) - Update how VS Build Tools is installed
+
+## Modeling
+
+**New articles**
+
+- [Install Code Map and Live Dependency Validation](../modeling/install-architecture-tools.md) - New article created
+
+## MSBuild
+
+**New articles**
+
+- [MSB3270: There was a mismatch between the processor architecture of the project being built 'arch' and the processor architecture of the reference 'reference', 'arch'](../msbuild/errors/msb3270.md) - New article created
+- [MSB3577: Two output file names resolved to the same output path: path](../msbuild/errors/msb3577.md) - New article created
+- [MSB4181: The 'task' task returned false but did not log an error](../msbuild/errors/msb4181.md) - New article created
+- [MSB6003: The specified task executable executable could not be run](../msbuild/errors/msb6003.md) - New article created
+
+**Updated articles**
+
+- [MSBuild targets](../msbuild/msbuild-targets.md) - MSBuild: Clarify how to extend and customize targets
+- [Item metadata in task batching](../msbuild/item-metadata-in-task-batching.md) - MSBuild: clarify Identity metadata batching behavior
+
+## Python
+
+**Updated articles**
+
+- [Python projects in Visual Studio](../python/managing-python-projects-in-visual-studio.md) - Addressed GitHub issues in Python content
+- [Work with the Python Interactive window](../python/python-interactive-repl-in-visual-studio.md) - Addressed GitHub issues in Python content
+- [Python web application project templates](../python/python-web-application-project-templates.md) - Addressed GitHub issues in Python content
+
+## SharePoint
+
+**Updated articles**
+
+- [How to: add and remove mapped folders](../sharepoint/how-to-add-and-remove-mapped-folders.md) - Remove sp13
+- [How to: Create a BDC model](../sharepoint/how-to-create-a-bdc-model.md) - Remove sp13
+- [How to: Create a SharePoint Web Part by using a designer](../sharepoint/how-to-create-a-sharepoint-web-part-by-using-a-designer.md) - Remove sp13
+
+## VSTO
+
+**Updated articles**
+
+- [Visual Studio Tools for Office runtime installation scenarios](../vsto/visual-studio-tools-for-office-runtime-installation-scenarios.md) - Updated the doc to include new versions of Office
+
+## XAML tools
+
+**New articles**
+
+- [Use design-time sample data with the XAML Designer in Visual Studio](../xaml-tools/xaml-design-time-sample-data.md) - New article created
+
+## Community contributors in June
+
+The following people contributed to the Visual Studio docs during this period. Thank you! Learn how to contribute by following the links under "Get involved" in the [what's new landing page](index.yml).
+
+- [boop5](https://github.com/boop5) - LSC (1)
+- [cdmihai](https://github.com/cdmihai) - Mihai Codoban (1)
+- [hyoshioka0128](https://github.com/hyoshioka0128) - Hiroshi Yoshioka (1)
+- [isra-fel](https://github.com/isra-fel) - Yeming Liu (1)
+- [Quenty](https://github.com/Quenty) - James Onnen (1)
+- [ThomasIAm](https://github.com/ThomasIAm) - Thomas van den Nieuwenhoff (1)
+- [walterlv](https://github.com/walterlv) - walterlv (1)
+- [Youssef1313](https://github.com/Youssef1313) - Youssef Victor (1)
+
+## What's new history
+
+The following sections provide the previous three months of what's new in the Visual Studio docs.
+
+* [May 2021](#may-2021)
+* [April 2021](#april-2021)
+* [March 2021](#march-2021)
+
+### May 2021
+
+#### Code quality
 
 **New articles**
 
@@ -34,13 +143,13 @@ Welcome to what's new in the Visual Studio docs for May 2021. This article lists
 
 - [Suppress code analysis violations](../code-quality/in-source-suppression-overview.md) - Refactoring docs on suppression of CA rules
 
-## Containers
+#### Containers
 
 **New articles**
 
 - [Manage launch profiles for Docker Compose (Preview)](../containers/launch-profiles.md) - Container Tools - launch settings
 
-## Debugger
+#### Debugger
 
 **New articles**
 
@@ -51,14 +160,14 @@ Welcome to what's new in the Visual Studio docs for May 2021. This article lists
 
 - [Troubleshooting data breakpoint errors](../debugger/troubleshoot-data-breakpoint-errors.md) - Update troubleshooting data breakpoint errors doc
 
-## IDE
+#### IDE
 
 **Updated articles**
 
 - [/ResetSettings (devenv.exe)](./reference/resetsettings-devenv-exe.md) - More fixes
 - [Quickstart: Create your first Node.js app with Visual Studio](./quickstart-nodejs.md) - Suggested edits
 
-## Install
+#### Install
 
 **Updated articles**
 
@@ -68,7 +177,7 @@ Welcome to what's new in the Visual Studio docs for May 2021. This article lists
   - Reflect removal of '--productIds' option in MinimalLayout docs
 - [Modify Visual Studio workloads, components, and language packs](../install/modify-visual-studio.md) - Simplify instructions for performance
 
-## MSBuild
+#### MSBuild
 
 **New articles**
 
@@ -85,33 +194,24 @@ Welcome to what's new in the Visual Studio docs for May 2021. This article lists
 - [MSBuild conditions](../msbuild/msbuild-conditions.md) - MSBuild version comparisons
 - [Property functions](../msbuild/property-functions.md) - MSBuild version comparisons
 
-## Python
+#### Python
 
 **Updated articles**
 
 - [Step 2: Create a Django app with views and page templates](../python/learn-django-in-visual-studio-step-02-create-an-app.md) - Separated Visual Studio 2017 and 2019 information
 - [Create a C++ extension for Python](../python/working-with-c-cpp-python-in-visual-studio.md) - Article reviewed and updated
 
-## Test
+#### Test
 
 **New articles**
 
 - [Live Unit Testing frequently asked questions](../test/live-unit-testing-faq.yml) - FAQ.md converted into yml
 
-## XAML tools
+#### XAML tools
 
 **New articles**
 
 - [Use design-time sample data with the XAML Designer in Visual Studio](../xaml-tools/xaml-design-time-sample-data.md) - Added XAML Design-time Sample Data Documentation
-
-## Community contributors in May
-
-The following people contributed to the Visual Studio docs during this period. Thank you! Learn how to contribute by following the links under "Get involved" in the [what's new landing page](index.yml).
-
-- [7sharp9](https://github.com/7sharp9) - Dave Thomas (1)
-- [heath-hamilton](https://github.com/heath-hamilton) - Heath Hamilton (1)
-
-## What's new history
 
 ### April 2021
 
@@ -501,49 +601,3 @@ The following people contributed to the Visual Studio docs during this period. T
   - Developer Command Prompt and Developer PowerShell
   - Fixed typos
 - [VSTest.Console.exe command-line options](../test/vstest-console-options.md) - Developer Command Prompt and Developer PowerShell
-
-### February 2021
-
-#### Debugger
-
-**Updated articles**
-
-- [Use breakpoints in the Visual Studio debugger](../debugger/using-breakpoints.md) - Updates for accessibility
-
-#### Get started
-
-**Updated articles**
-
-- [Tutorial: Open a project from a repo in Visual Studio 2017](../get-started/tutorial-open-project-from-repo-visual-studio-2017.md) - update See Also links in VS2017 Open Project from a Repo
-- [Tutorial: Open a project from a repo](../get-started/tutorial-open-project-from-repo-visual-studio-2019.md) - Add link to VS2017 version of the 'Open a project from a repo' page
-
-#### IDE
-
-**Updated articles**
-
-- [Troubleshoot and create logs for MSBuild problems](./msbuild-logs.md) - Add instructions on using the project system tools extension
-
-#### Install
-
-**Updated articles**
-
-- [Update Visual Studio using a minimal offline layout](../install/update-minimal-layout.md)
-  - Add 2017 example in options table
-  - Add examples for VS2017
-
-#### MSBuild
-
-**New articles**
-
-- [MSB3644: The reference assemblies for 'FrameworkVersion' were not found](../msbuild/errors/msb3644.md) - MSBuild errors
-- [MSB8036: The Windows SDK 'version' was not found](../msbuild/errors/msb8036.md) - MSBuild errors
-
-#### Test
-
-**Updated articles**
-
-- [Use the Microsoft Unit Testing Framework for C++ in Visual Studio](../test/how-to-use-microsoft-test-framework-for-cpp.md) -  Small content refresh and edit
-- [Write unit tests for C++ DLLs in Visual Studio](../test/how-to-write-unit-tests-for-cpp-dlls.md) - Small content refresh and edit
-- [Run unit tests with Test Explorer](../test/run-unit-tests-with-test-explorer.md) - Updates for accessibility
-- [Walkthrough: Create and run unit tests for managed code](../test/walkthrough-creating-and-running-unit-tests-for-managed-code.md) - Updates for accessibility
-- [Isolate code under test with Microsoft Fakes](../test/isolating-code-under-test-with-microsoft-fakes.md) - Explicitly mention .NET 5.0 in Fakes docs
