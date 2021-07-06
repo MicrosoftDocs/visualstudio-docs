@@ -4,6 +4,8 @@ description: Learn how to use the Reference Manager dialog box to add and manage
 ms.custom: SEO-VS-2020
 ms.date: 08/02/2019
 ms.topic: how-to
+f1_keywords:
+- VS.ReferenceManager
 helpviewer_keywords:
 - C# projects, references
 - references [Visual Studio], adding
