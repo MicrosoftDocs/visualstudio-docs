@@ -1,7 +1,7 @@
 ### YamlMime:Landing
 
 title: Visual Studio version control documentation # < 60 chars
-summary: Share your code from within Visual Studio 2019 by using version control technologies such as Git and GitHub. # < 160 chars
+summary: Share your code from within Visual Studio by using version control technologies such as Git and GitHub. # < 160 chars
 
 metadata:
   title: Version control & source control with Git in Visual Studio # Required; page title displayed in search results. Include the brand. < 60 chars.
@@ -48,7 +48,10 @@ landingContent:
     linkLists:
       - linkListType: whats-new
         links:
-          - text: Enhanced productivity with Git in Visual Studio (Preview)
+          - text: Enhanced productivity with Git in Visual Studio
             url: https://devblogs.microsoft.com/visualstudio/enhanced-productivity-with-git-in-visual-studio/
+          - text: Visual Studio 2022 (Preview) release notes
+            url: /visualstudio/releases/2022/release-notes-preview/
           - text: Visual Studio 2019 release notes
             url: /visualstudio/releases/2019/release-notes/
+
