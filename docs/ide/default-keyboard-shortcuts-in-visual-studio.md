@@ -263,7 +263,7 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 |Immediate|**Ctrl+Alt+I**| Debug.Immediate |
 |IntelliTrace calls|**Ctrl+Alt+Y, T**| Debug.IntelliTraceCalls |
 |IntelliTrace events|**Ctrl+Alt+Y, F**| Debug.IntelliTraceEvents |
-|Java script console|**Ctrl+Alt+V, C**| Debug.JavaScriptConsole |
+|JavaScript console|**Ctrl+Alt+V, C**| Debug.JavaScriptConsole |
 |Locals|**Ctrl+Alt+V, L**| Debug.Locals |
 |Process combo|**Ctrl+5**| Debug.LocationToolbar.ProcessCombo |
 |Stack frame combo|**Ctrl+7**| Debug.LocationToolbar.StackFrameCombo |
