@@ -166,7 +166,7 @@ All shortcuts in this section apply globally unless otherwise specified. The *Gl
 |Server explorer|**Ctrl+Alt+S**| View.ServerExplorer |
 |Show smart tag|**Ctrl+.**<br /><br />or **Shift+Alt+F10** [HTML Editor Design View]| View.ShowSmartTag |
 |Solution explorer|**Ctrl+Alt+L**| View.SolutionExplorer |
-|Tfs team explorer|**Ctrl+\\, Ctrl+M**| View.TfsTeamExplorer |
+|TFS Team explorer|**Ctrl+\\, Ctrl+M**| View.TfsTeamExplorer |
 |Toolbox|**Ctrl+Alt+X**| View.Toolbox |
 |View code|**Enter** [Class Diagram]<br /><br />or **F7** [Settings Designer]| View.ViewCode |
 |View designer|**Shift+F7** [HTML Editor Source View]| View.ViewDesigner |
@@ -1020,8 +1020,8 @@ The shortcuts specific to this context are:
 |Go to team explorer section 9 content|**Alt+9**| TeamFoundationContextMenus.Commands.GoToTeamExplorerSection9Content |
 |Team explorer navigate backward|**Alt+Left Arrow**| TeamFoundationContextMenus.Commands.TeamExplorerNavigateBackward |
 |Team explorer navigate forward|**Alt+Right Arrow**| TeamFoundationContextMenus.Commands.TeamExplorerNavigateForward |
-|Tfs context my work page create copy wi|**Shift+Alt+C**| TeamFoundationContextMenus.MyWorkPageInProgress.TfsContextMyWorkPageCreateCopyWI |
-|Tfs context my work page new linked wi|**Shift+Alt+L**| TeamFoundationContextMenus.MyWorkPageInProgress.TfsContextMyWorkPageNewLinkedWI |
+|TFS context my work page create copy wi|**Shift+Alt+C**| TeamFoundationContextMenus.MyWorkPageInProgress.TfsContextMyWorkPageCreateCopyWI |
+|TFS context my work page new linked wi|**Shift+Alt+L**| TeamFoundationContextMenus.MyWorkPageInProgress.TfsContextMyWorkPageNewLinkedWI |
 |Refresh|**F5**| View.Refresh |
 
 ### Test Explorer
@@ -1152,8 +1152,8 @@ The shortcuts specific to this context are:
 |Execute in interactive| **Alt+Enter** | EditorContextMenus.CodeWindow.ExecuteInInteractive |
 |Execute line in interactive| **Alt+'** | EditorContextMenus.CodeWindow.ExecuteLineInInteractive |
 |View  in page inspector| **Ctrl+K, Ctrl+G** | OtherContextMenus.HTMLContext.ViewinPageInspector |
-|Tfs annotate move next region| **Alt+PgDn** | TeamFoundationContextMenus.Annotate.TfsAnnotateMoveNextRegion |
-|Tfs annotate move previous region| **Alt+PgUp** | TeamFoundationContextMenus.Annotate.TfsAnnotateMovePreviousRegion |
+|TFS annotate move next region| **Alt+PgDn** | TeamFoundationContextMenus.Annotate.TfsAnnotateMoveNextRegion |
+|TFS annotate move previous region| **Alt+PgUp** | TeamFoundationContextMenus.Annotate.TfsAnnotateMovePreviousRegion |
 
 ### UML activity diagram
 
