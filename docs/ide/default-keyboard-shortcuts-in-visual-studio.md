@@ -37,18 +37,18 @@ All shortcuts in this section apply globally unless otherwise specified. The *Gl
 
 #### Build: popular shortcuts
 
-|Commands|Keyboard shortcuts |Command Id
+|Commands|Keyboard shortcuts |Command Id|
 |-|-|-|
 |Build solution|**Ctrl+Shift+B** | Build.BuildSolution |
 |Cancel|**Ctrl+Break** | Build.Cancel |
 |Compile|**Ctrl+F7** | Build.Compile |
-|Run code analysison solution|**Alt+F11**| Build.RunCodeAnalysisonSolution |
+|Run code analysis on solution|**Alt+F11**| Build.RunCodeAnalysisonSolution |
 
 #### Debug: popular shortcuts
 
-|Commands|Keyboard shortcuts [Special contexts]|Command Id
+|Commands|Keyboard shortcuts [Special contexts]|Command Id|
 |-|-|-|
-|Break  at function|**Ctrl+B**| Debug.BreakatFunction |
+|Break at function|**Ctrl+B**| Debug.BreakatFunction |
 |Break all|**Ctrl+Alt+Break**| Debug.BreakAll |
 |Delete all breakpoints|**Ctrl+Shift+F9**| Debug.DeleteAllBreakpoints |
 |Exceptions|**Ctrl+Alt+E**| Debug.Exceptions |
@@ -66,7 +66,7 @@ All shortcuts in this section apply globally unless otherwise specified. The *Gl
 
 #### Edit: popular shortcuts
 
-|Commands|Keyboard shortcuts [Special contexts]|Command Id
+|Commands|Keyboard shortcuts [Special contexts]|Command Id|
 |-|-|-|
 |Break line|**Enter** [Text Editor, Report Designer, Windows Forms Designer]<br /><br />or **Shift+Enter** [Text Editor]| Edit.BreakLine |
 |Collapse to definitions|**Ctrl+M**, **Ctrl+O** [Text Editor]| Edit.CollapseToDefinitions |
@@ -77,7 +77,7 @@ All shortcuts in this section apply globally unless otherwise specified. The *Gl
 |Delete|**Delete** [Team Explorer]<br /><br />or **Shift+Delete** [Sequence Diagram, UML Activity Diagram, Layer Diagram]<br /><br />or **Ctrl+Delete** [Class Diagram]| Edit.Delete |
 |Find|**Ctrl+F**| Edit.Find |
 |Find all references|**Shift+F12**| Edit.FindAllReferences |
-|Find  in files|**Ctrl+Shift+F**| Edit.FindinFiles |
+|Find in files|**Ctrl+Shift+F**| Edit.FindinFiles |
 |Find next|**F3**| Edit.FindNext |
 |Find next selected|**Ctrl+F3**| Edit.FindNextSelected |
 |Format document|**Ctrl+K, Ctrl+D** [Text Editor]| Edit.FormatDocument |
@@ -117,7 +117,7 @@ All shortcuts in this section apply globally unless otherwise specified. The *Gl
 
 #### File: popular shortcuts
 
-|Commands|Keyboard shortcuts [Special contexts]|Command Id
+|Commands|Keyboard shortcuts [Special contexts]|Command Id|
 |-|-|-|
 |Exit|**Alt+F4**| File.Exit |
 |New file|**Ctrl+N**| File.NewFile |
@@ -129,30 +129,30 @@ All shortcuts in this section apply globally unless otherwise specified. The *Gl
 |Rename|**F2** [Team Explorer]| File.Rename |
 |Save all|**Ctrl+Shift+S**| File.SaveAll |
 |Save selected items|**Ctrl+S**| File.SaveSelectedItems |
-|View  in browser|**Ctrl+Shift+W**| File.ViewinBrowser |
+|View in browser|**Ctrl+Shift+W**| File.ViewinBrowser |
 
 #### Project: popular shortcuts
 
-|Commands|Keyboard shortcuts [Special contexts]|Command Id
+|Commands|Keyboard shortcuts [Special contexts]|Command Id|
 |-|-|-|
 |Add existing item|**Shift+Alt+A**| Project.AddExistingItem |
 |Add new item|**Ctrl+Shift+A**| Project.AddNewItem |
 
 #### Refactor: popular shortcuts
 
-|Command|Keyboard shortcut [Special contexts]|Command Id
+|Command|Keyboard shortcut [Special contexts]|Command Id|
 |-|-|-|
 |Extract method|**Ctrl+R, Ctrl+M**| Refactor.ExtractMethod |
 
 #### Tools: popular shortcuts
 
-|Command|Keyboard shortcut [Special contexts]|Command Id
+|Command|Keyboard shortcut [Special contexts]|Command Id|
 |-|-|-|
-|Attach  to process|**Ctrl+Alt+P**| Tools.AttachtoProcess |
+|Attach to process|**Ctrl+Alt+P**| Tools.AttachtoProcess |
 
 #### View: popular shortcuts
 
-|Commands|Keyboard shortcuts [Special contexts]|Command Id
+|Commands|Keyboard shortcuts [Special contexts]|Command Id|
 |-|-|-|
 |Class view|**Ctrl+Shift+C**| View.ClassView |
 |Edit label|**F2**| View.EditLabel |
@@ -173,7 +173,7 @@ All shortcuts in this section apply globally unless otherwise specified. The *Gl
 
 #### Window: popular shortcuts
 
-|Commands|Keyboard shortcuts [Special contexts]|Command Id
+|Commands|Keyboard shortcuts [Special contexts]|Command Id|
 |-|-|-|
 |Activate document window|**Esc**| Window.ActivateDocumentWindow |
 |Close document window|**Ctrl+F4**| Window.CloseDocumentWindow |
@@ -214,36 +214,36 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 
 ### <a name="bkmk_analyze"></a> Analyze
 
-|Commands|Keyboard shortcuts|Command Id
+|Commands|Keyboard shortcuts|Command Id|
 |-|-|-|
 |Navigate backward|**Shift+Alt+3**| Analyze.NavigateBackward |
 |Navigate forward|**Shift+Alt+4**| Analyze.NavigateForward |
 
 ### <a name="bkmk_architecture"></a> Architecture
 
-|Commands|Keyboard shortcuts|Command Id
+|Commands|Keyboard shortcuts|Command Id|
 |-|-|-|
 |New diagram|**Ctrl+\\, Ctrl+N**| Architecture.NewDiagram |
 
 ### <a name="bkmk_build"></a> Build
 
-|Commands|Keyboard shortcuts|Command Id
+|Commands|Keyboard shortcuts|Command Id|
 |-|-|-|
 |Build selection|**Ctrl+B** (Visual Studio 2019)| Build.BuildSelection |
 |Build solution|**Ctrl+Shift+B**| Build.BuildSolution |
 |Cancel|**Ctrl+Break**| Build.Cancel |
 |Compile|**Ctrl+F7**| Build.Compile |
-|Run code analysison solution|**Alt+F11**| Build.RunCodeAnalysisonSolution |
+|Run code analysis  on solution|**Alt+F11**| Build.RunCodeAnalysisonSolution |
 
 ### <a name="bkmk_classview"></a> Class View context menus
 
-|Commands|Keyboard shortcuts|Command Id
+|Commands|Keyboard shortcuts|Command Id|
 |-|-|-|
 |Properties|**Alt+Enter**| ClassViewContextMenus.ClassViewMultiselectProjectreferencesItems.Properties |
 
 ### <a name="bkmk_debug"></a> Debug
 
-|Commands|Keyboard shortcuts|Command Id
+|Commands|Keyboard shortcuts|Command Id|
 |-|-|-|
 |Apply code changes|**Alt+F10**| Debug.ApplyCodeChanges |
 |Attach  to process|**Ctrl+Alt+P**| Debug.AttachtoProcess |
@@ -258,11 +258,11 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 |Enable breakpoint|**Ctrl+F9**| Debug.EnableBreakpoint |
 |Exceptions|**Ctrl+Alt+E**| Debug.Exceptions |
 |Function breakpoint|**Ctrl+K, B** (Visual Studio 2019)<br />**Ctrl**+**B** (Visual Studio 2017)| Debug.FunctionBreakpoint |
-|Go to previous callor intelli trace event|**Ctrl+Shift+F11**| Debug.GoToPreviousCallorIntelliTraceEvent |
+|Go to previous call or IntelliTrace event|**Ctrl+Shift+F11**| Debug.GoToPreviousCallorIntelliTraceEvent |
 |Start diagnostics|**Alt+F5**| Debug.Graphics.StartDiagnostics |
 |Immediate|**Ctrl+Alt+I**| Debug.Immediate |
-|Intelli trace calls|**Ctrl+Alt+Y, T**| Debug.IntelliTraceCalls |
-|Intelli trace events|**Ctrl+Alt+Y, F**| Debug.IntelliTraceEvents |
+|IntelliTrace calls|**Ctrl+Alt+Y, T**| Debug.IntelliTraceCalls |
+|IntelliTrace events|**Ctrl+Alt+Y, F**| Debug.IntelliTraceEvents |
 |Java script console|**Ctrl+Alt+V, C**| Debug.JavaScriptConsole |
 |Locals|**Ctrl+Alt+V, L**| Debug.Locals |
 |Process combo|**Ctrl+5**| Debug.LocationToolbar.ProcessCombo |
@@ -282,13 +282,13 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 |Parallel watch 4|**Ctrl+Shift+D, 4**| Debug.ParallelWatch4 |
 |Processes|**Ctrl+Alt+Z**| Debug.Processes |
 |Quick watch|**Shift+F9** or **Ctrl+Alt+Q**| Debug.QuickWatch |
-|Reattach  to process|**Shift+Alt+P**| Debug.ReattachtoProcess |
+|Re attach  to process|**Shift+Alt+P**| Debug.ReattachtoProcess |
 |Refresh windowsapp|**Ctrl+Shift+R**| Debug.RefreshWindowsapp |
 |Registers|**Ctrl+Alt+G**| Debug.Registers |
 |Restart|**Ctrl+Shift+F5**| Debug.Restart |
 |Run to cursor|**Ctrl+F10**| Debug.RunToCursor |
 |Set next statement|**Ctrl+Shift+F10**| Debug.SetNextStatement |
-|Show call stackon code map|**Ctrl+Shift+`**| Debug.ShowCallStackonCodeMap |
+|Show call stack on code map|**Ctrl+Shift+`**| Debug.ShowCallStackonCodeMap |
 |Show next statement|**Alt+Num** *| Debug.ShowNextStatement |
 |Start|**F5**| Debug.Start |
 |Start windows phone application analysis|**Alt+F1**| Debug.StartWindowsPhoneApplicationAnalysis |
@@ -314,7 +314,7 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 
 ### <a name="bkmk_debugger"></a> Debugger context menus
 
-|Commands|Keyboard shortcuts|Command Id
+|Commands|Keyboard shortcuts|Command Id|
 |-|-|-|
 |Delete|**Alt+F9, D**| DebuggerContextMenus.BreakpointsWindow.Delete |
 |Go to disassembly|**Alt+F9, A**| DebuggerContextMenus.BreakpointsWindow.GoToDisassembly |
@@ -322,13 +322,13 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 
 ### <a name="bkmk_diagnostics"></a> Diagnostics Hub
 
-|Command|Keyboard shortcut|Command Id
+|Command|Keyboard shortcut|Command Id|
 |-|-|-|
 |Stop collection|**Ctrl+Alt+F2**| DiagnosticsHub.StopCollection |
 
 ### <a name="bkmk_edit"></a> Edit
 
-|Commands|Keyboard shortcuts|Command Id
+|Commands|Keyboard shortcuts|Command Id|
 |-|-|-|
 |Copy|**Ctrl+C**<br /><br /> or<br /><br /> **Ctrl+Ins**| Edit.Copy |
 |Cut|**Ctrl+X**<br /><br /> or<br /><br /> **Shift+Delete**| Edit.Cut |
@@ -337,7 +337,7 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 |Duplicate|**Ctrl+D**| Edit.Duplicate |
 |Find|**Ctrl+F**| Edit.Find |
 |Find all references|**Shift+F12**| Edit.FindAllReferences |
-|Find  in files|**Ctrl+Shift+F**| Edit.FindinFiles |
+|Find in files|**Ctrl+Shift+F**| Edit.FindinFiles |
 |Find next|**F3**| Edit.FindNext |
 |Find next selected|**Ctrl+F3**| Edit.FindNextSelected |
 |Find previous|**Shift+F3**| Edit.FindPrevious |
@@ -388,10 +388,10 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 
 ### <a name="bkmk_editorContext"></a> Editor context menus
 
-|Commands|Keyboard shortcuts|Command Id
+|Commands|Keyboard shortcuts|Command Id|
 |-|-|-|
 |Breakpoint conditions|**Alt+F9, C**| EditorContextMenus.CodeWindow.Breakpoint.BreakpointConditions |
-|Breakpoint editlabels|**Alt+F9, L**| EditorContextMenus.CodeWindow.Breakpoint.BreakpointEditlabels |
+|Breakpoint edit labels|**Alt+F9, L**| EditorContextMenus.CodeWindow.Breakpoint.BreakpointEditlabels |
 |Show item|**Ctrl+`**| EditorContextMenus.CodeWindow.CodeMap.ShowItem |
 |Execute|**Ctrl+Alt+F5**| EditorContextMenus.CodeWindow.Execute |
 |Go to view|**Ctrl+M, Ctrl+G**| EditorContextMenus.CodeWindow.GoToView |
@@ -400,7 +400,7 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 
 ### <a name="bkmk_file"></a> File
 
-|Commands|Keyboard shortcuts|Command Id
+|Commands|Keyboard shortcuts|Command Id|
 |-|-|-|
 |Exit|**Alt+F4**| File.Exit |
 |New file|**Ctrl+N**| File.NewFile |
@@ -412,51 +412,51 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 |Print|**Ctrl+P**| File.Print |
 |Save all|**Ctrl+Shift+S**| File.SaveAll |
 |Save selected items|**Ctrl+S**| File.SaveSelectedItems |
-|View  in browser|**Ctrl+Shift+W**| File.ViewinBrowser |
+|View in browser|**Ctrl+Shift+W**| File.ViewinBrowser |
 
 ### <a name="bkmk_help"></a> Help
 
-|Commands|Keyboard shortcuts|Command Id
+|Commands|Keyboard shortcuts|Command Id|
 |-|-|-|
 |Add  and remove help content|**Ctrl+Alt+F1**| Help.AddandRemoveHelpContent |
-|F 1 help|**F1**| Help.F1Help |
+|F1 help|**F1**| Help.F1Help |
 |View help|**Ctrl+F1**| Help.ViewHelp |
 |Window help|**Shift+F1**| Help.WindowHelp |
 
 ### <a name="bkmk_loadtest"></a> Load test
 
-|Command|Keyboard shortcut|Command Id
+|Command|Keyboard shortcut|Command Id|
 |-|-|-|
 |Jump to counter pane|**Ctrl+R, Q**| LoadTest.JumpToCounterPane |
 
 ### <a name="bkmk_otherContext"></a> Other context menus
 
-|Command|Keyboard shortcut|Command Id
+|Command|Keyboard shortcut|Command Id|
 |-|-|-|
 |Add new diagram|**Insert**| OtherContextMenus.MicrosoftDataEntityDesignContext.AddNewDiagram |
 
 ### <a name="bkmk_project"></a> Project
 
-|Commands|Keyboard shortcuts|Command Id
+|Commands|Keyboard shortcuts|Command Id|
 |-|-|-|
 |Add existing item|**Shift+Alt+A**| Project.AddExistingItem |
 |Add new item|**Ctrl+Shift+A**| Project.AddNewItem |
 |Class wizard|**Ctrl+Shift+X**| Project.ClassWizard |
 |Override|**Ctrl+Alt+Ins**| Project.Override |
-|Preview  changes|**Alt+;** then **Alt+C**| Project.Previewchanges |
-|Publish  selected  files|**Alt+;** then **Alt+P**| Project.Publishselectedfiles |
-|Replace  selected  files  from  server|**Alt+;** then **Alt+R**| Project.Replaceselectedfilesfromserver |
+|Preview changes|**Alt+;** then **Alt+C**| Project.Previewchanges |
+|Publish selected files|**Alt+;** then **Alt+P**| Project.Publishselectedfiles |
+|Replace selected files from server|**Alt+;** then **Alt+R**| Project.Replaceselectedfilesfromserver |
 
 ### <a name="bkmk_projectContext"></a> Project and solution context menus
 
-|Commands|Keyboard shortcuts|Command Id
+|Commands|Keyboard shortcuts|Command Id|
 |-|-|-|
 |Move down|**Alt+Down Arrow**| ProjectandSolutionContextMenus.Item.MoveDown |
 |Move up|**Alt+Up Arrow**| ProjectandSolutionContextMenus.Item.MoveUp |
 
 ### <a name="bkmk_refactor"></a> Refactor
 
-|Commands|Keyboard shortcuts|Command Id
+|Commands|Keyboard shortcuts|Command Id|
 |-|-|-|
 |Encapsulate field|**Ctrl+R, Ctrl+E**| Refactor.EncapsulateField |
 |Extract interface|**Ctrl+R, Ctrl+I**| Refactor.ExtractInterface |
@@ -467,7 +467,7 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 
 ### <a name="bkmk_solutionexplorerGLOBAL"></a> Solution Explorer
 
-|Commands|Keyboard shortcuts|Command Id
+|Commands|Keyboard shortcuts|Command Id|
 |-|-|-|
 |Open files filter|**Ctrl+[**, **O** (letter 'O')<br /><br /> or<br /><br /> **Ctrl+[**, **Ctrl+O** (letter 'O')| SolutionExplorer.OpenFilesFilter |
 |Pending changes filter|**Ctrl+[**, **P**<br /><br /> or<br /><br /> **Ctrl+[**, **Ctrl+P**| SolutionExplorer.PendingChangesFilter |
@@ -475,7 +475,7 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 
 ### <a name="bkmk_team"></a> Team
 
-|Commands|Keyboard shortcuts|Command Id
+|Commands|Keyboard shortcuts|Command Id|
 |-|-|-|
 |Go to git branches|**Ctrl+0** (zero), **Ctrl+N**<br /><br /> or<br /><br /> **Ctrl+0, N**| Team.Git.GoToGitBranches |
 |Go to git changes|**Ctrl+0** (zero), **Ctrl+G**<br /><br /> or<br /><br /> **Ctrl+0, G**| Team.Git.GoToGitChanges |
@@ -484,7 +484,7 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 
 ### <a name="bkmk_TFcontext"></a> Team Foundation context menus
 
-|Commands|Keyboard shortcuts|Command Id
+|Commands|Keyboard shortcuts|Command Id|
 |-|-|-|
 |Go to builds|**Ctrl+0** (zero), **Ctrl+B**<br /><br /> or<br /><br /> **Ctrl+0, B**| TeamFoundationContextMenus.Commands.GoToBuilds |
 |Go to connect|**Ctrl+0** (zero), **Ctrl+C**<br /><br /> or<br /><br /> **Ctrl+0, C**| TeamFoundationContextMenus.Commands.GoToConnect |
@@ -499,14 +499,14 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 
 ### <a name="bkmk_test"></a> Test
 
-|Commands|Keyboard shortcuts|Command Id
+|Commands|Keyboard shortcuts|Command Id|
 |-|-|-|
 |Use coded ui test builder|**Ctrl+\\, Ctrl+C**| Test.UseCodedUITestBuilder |
 |Use existing action recording|**Ctrl+\\, Ctrl+A**| Test.UseExistingActionRecording |
 
 ### <a name="bkmk_testexplorerGLOBAL"></a> Test Explorer
 
-|Commands|Keyboard shortcuts|Command Id
+|Commands|Keyboard shortcuts|Command Id|
 |-|-|-|
 |Debug all tests|**Ctrl+R, Ctrl+A**| TestExplorer.DebugAllTests |
 |Debug all tests in context|**Ctrl+R, Ctrl+T**| TestExplorer.DebugAllTestsInContext |
@@ -520,15 +520,15 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 
 ### <a name="bkmk_tools"></a> Tools
 
-|Commands|Keyboard shortcuts|Command Id
+|Commands|Keyboard shortcuts|Command Id|
 |-|-|-|
-|Attach  to process|**Ctrl+Alt+P**| Tools.AttachtoProcess |
+|Attach to process|**Ctrl+Alt+P**| Tools.AttachtoProcess |
 |Code snippets manager|**Ctrl+K, Ctrl+B**| Tools.CodeSnippetsManager |
 |Force gc|**Ctrl+Shift+Alt+F12, Ctrl+Shift+Alt+F12**| Tools.ForceGC |
 
 ### <a name="bkmk_view"></a> View
 
-|Commands|Keyboard shortcuts|Command Id
+|Commands|Keyboard shortcuts|Command Id|
 |-|-|-|
 |All windows|**Shift+Alt+M**| View.AllWindows |
 |Architecture explorer|**Ctrl+\\, Ctrl+R**| View.ArchitectureExplorer |
@@ -545,7 +545,7 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 |Document outline|**Ctrl+Alt+T**| View.DocumentOutline |
 |Edit label|**F2**| View.EditLabel |
 |Error list|**Ctrl+\\, E**<br /><br /> or<br /><br /> **Ctrl+\\, Ctrl+E**| View.ErrorList |
-|F # interactive|**Ctrl+Alt+F**| View.F#Interactive |
+|F# interactive|**Ctrl+Alt+F**| View.F#Interactive |
 |Find symbol results|**Ctrl+Alt+F12**| View.FindSymbolResults |
 |Forward|**Alt+Right Arrow**  (Functions differently from View.NavigateForward in Text Editor)| View.Forward |
 |Forward browse context|**Ctrl+Shift+7**| View.ForwardBrowseContext |
@@ -564,24 +564,24 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 |Server explorer|**Ctrl+Alt+S**| View.ServerExplorer |
 |Show smart tag|**Shift+Alt+F10**<br /><br /> or<br /><br /> **Ctrl+.**| View.ShowSmartTag |
 |Solution explorer|**Ctrl+Alt+L**| View.SolutionExplorer |
-|Sql server object explorer|**Ctrl+\\, Ctrl+S**| View.SQLServerObjectExplorer |
+|SQL server object explorer|**Ctrl+\\, Ctrl+S**| View.SQLServerObjectExplorer |
 |Task list|**Ctrl+\\, T**<br /><br /> or<br /><br /> **Ctrl+\\, Ctrl+T**| View.TaskList |
-|Tfs team explorer|**Ctrl+\\, Ctrl+M**| View.TfsTeamExplorer |
+|TFS team explorer|**Ctrl+\\, Ctrl+M**| View.TfsTeamExplorer |
 |Toolbox|**Ctrl+Alt+X**| View.Toolbox |
-|Uml model explorer|**Ctrl+\\, Ctrl+U**| View.UMLModelExplorer |
+|UML model explorer|**Ctrl+\\, Ctrl+U**| View.UMLModelExplorer |
 |View code|**F7**| View.ViewCode |
 |View designer|**Shift+F7**| View.ViewDesigner |
 |Web browser|**Ctrl+Alt+R**| View.WebBrowser |
 |Zoom in|**Ctrl+Shift+.**| View.ZoomIn |
 |Zoom out|**Ctrl+Shift+,**| View.ZoomOut |
-|Show test explorer|**Ctrl+E, T**| TestExplorer.ShowTestExplorer |
+|Show Test Explorer|**Ctrl+E, T**| TestExplorer.ShowTestExplorer |
 
 ### <a name="bkmk_window"></a> Window
 
-|Commands|Keyboard shortcuts|Command Id
+|Commands|Keyboard shortcuts|Command Id|
 |-|-|-|
 |Activate document window|**Esc**| Window.ActivateDocumentWindow |
-|Add tabto selection|**Ctrl+Shift+Alt+Space**| Window.AddTabtoSelection |
+|Add tab to selection|**Ctrl+Shift+Alt+Space**| Window.AddTabtoSelection |
 |Close document window|**Ctrl+F4**| Window.CloseDocumentWindow |
 |Close tool window|**Shift+Esc**| Window.CloseToolWindow |
 |Keep tab open|**Ctrl+Alt+Home**| Window.KeepTabOpen |
@@ -591,25 +591,25 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 |Next pane|**Alt+F6**| Window.NextPane |
 |Next split pane|**F6**| Window.NextSplitPane |
 |Next tab|**Ctrl+Alt+PgDn**<br /><br /> or<br /><br /> **Ctrl+PgDn**| Window.NextTab |
-|Next taband addto selection|**Ctrl+Shift+Alt+PgDn**| Window.NextTabandAddtoSelection |
+|Next tab and add to selection|**Ctrl+Shift+Alt+PgDn**| Window.NextTabandAddtoSelection |
 |Next tool window nav|**Alt+F7**| Window.NextToolWindowNav |
 |Previous document window|**Ctrl+Shift+F6**| Window.PreviousDocumentWindow |
 |Previous document window nav|**Ctrl+Shift+Tab**| Window.PreviousDocumentWindowNav |
 |Previous pane|**Shift+Alt+F6**| Window.PreviousPane |
 |Previous split pane|**Shift+F6**| Window.PreviousSplitPane |
 |Previous tab|**Ctrl+Alt+PgUp**<br /><br /> or<br /><br /> **Ctrl+PgUp**| Window.PreviousTab |
-|Previous taband addto selection|**Ctrl+Shift+Alt+PgUp**| Window.PreviousTabandAddtoSelection |
+|Previous tab and add to selection|**Ctrl+Shift+Alt+PgUp**| Window.PreviousTabandAddtoSelection |
 |Previous tool window nav|**Shift+Alt+F7**| Window.PreviousToolWindowNav |
 |Quick launch|**Ctrl+Q**| Window.QuickLaunch |
 |Quick launch previous category|**Ctrl+Shift+Q**| Window.QuickLaunchPreviousCategory |
 |Show dock menu|**Alt+-**| Window.ShowDockMenu |
-|Show ez mdi file list|**Ctrl+Alt+Down Arrow**| Window.ShowEzMDIFileList |
+|Show Ex MDI file list|**Ctrl+Alt+Down Arrow**| Window.ShowEzMDIFileList |
 |Solution explorer search|**Ctrl+;**| Window.SolutionExplorerSearch |
 |Window search|**Alt+`**| Window.WindowSearch |
 
 ### <a name="bkmk_windowsazure"></a> Azure
 
-|Commands|Keyboard shortcuts|Command Id
+|Commands|Keyboard shortcuts|Command Id|
 |-|-|-|
 |Retry mobile service script operation|**Ctrl+Num \*, Ctrl+R**| WindowsAzure.RetryMobileServiceScriptOperation |
 |Show mobile service script error details|**Ctrl+Num \*, Ctrl+D**| WindowsAzure.ShowMobileServiceScriptErrorDetails |
@@ -621,7 +621,7 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 
 The shortcuts specific to this context are:
 
-|Commands|Keyboard shortcuts|Command Id
+|Commands|Keyboard shortcuts|Command Id|
 |-|-|-|
 |Down|**Alt+Down Arrow**| OtherContextMenus.MicrosoftDataEntityDesignContext.MoveProperties.Down |
 |Down 5|**Alt+PgDn**| OtherContextMenus.MicrosoftDataEntityDesignContext.MoveProperties.Down5 |
@@ -630,7 +630,7 @@ The shortcuts specific to this context are:
 |Up|**Alt+Up Arrow**| OtherContextMenus.MicrosoftDataEntityDesignContext.MoveProperties.Up |
 |Up 5|**Alt+PgUp**| OtherContextMenus.MicrosoftDataEntityDesignContext.MoveProperties.Up5 |
 |Rename|**Ctrl+R, R**| OtherContextMenus.MicrosoftDataEntityDesignContext.Refactor.Rename |
-|Remove  from diagram|**Shift+Del**| OtherContextMenus.MicrosoftDataEntityDesignContext.RemovefromDiagram |
+|Remove from diagram|**Shift+Del**| OtherContextMenus.MicrosoftDataEntityDesignContext.RemovefromDiagram |
 |Entity data model browser|**Ctrl+1**| View.EntityDataModelBrowser |
 |Entity data model mapping details|**Ctrl+2**| View.EntityDataModelMappingDetails |
 
@@ -639,14 +639,14 @@ The shortcuts specific to this context are:
 The shortcuts specific to this context are:
 
 
-|Commands|Keyboard shortcuts|Command Id
+|Commands|Keyboard shortcuts|Command Id|
 |-|-|-|
 |Collapse|**Num -**| ClassDiagram.Collapse |
 |Expand|**Num +**| ClassDiagram.Expand |
 |Delete|**Ctrl+Del**| Edit.Delete |
 |Expand collapse base type list|**Shift+Alt+B**| Edit.ExpandCollapseBaseTypeList |
 |Navigate to lollipop|**Shift+Alt+L**| Edit.NavigateToLollipop |
-|Remove  from diagram|**Delete**| Edit.RemovefromDiagram |
+|Remove from diagram|**Delete**| Edit.RemovefromDiagram |
 |View code|**Enter**| View.ViewCode |
 
 ### Coded UI Test Editor
@@ -654,21 +654,21 @@ The shortcuts specific to this context are:
 The shortcuts specific to this context are:
 
 
-|Commands|Keyboard shortcuts|Command Id
+|Commands|Keyboard shortcuts|Command Id|
 |-|-|-|
-|Copy referenceto clipboard|**Ctrl+C**| OtherContextMenus.UITestEditorContextMenu.CopyReferencetoClipboard |
+|Copy reference to clipboard|**Ctrl+C**| OtherContextMenus.UITestEditorContextMenu.CopyReferencetoClipboard |
 |Insert delay before|**Ctrl+Alt+D**| OtherContextMenus.UITestEditorContextMenu.InsertDelayBefore |
 |Locate all|**Shift+Alt+L**| OtherContextMenus.UITestEditorContextMenu.LocateAll |
-|Locatethe ui control|**Ctrl+Shift+L**| OtherContextMenus.UITestEditorContextMenu.LocatetheUIControl |
-|Movecode|**Ctrl+Alt+C**| OtherContextMenus.UITestEditorContextMenu.Movecode |
-|Splitintoanewmethod|**Ctrl+Shift+T**| OtherContextMenus.UITestEditorContextMenu.Splitintoanewmethod |
+|Locate  the ui control|**Ctrl+Shift+L**| OtherContextMenus.UITestEditorContextMenu.LocatetheUIControl |
+|Move code|**Ctrl+Alt+C**| OtherContextMenus.UITestEditorContextMenu.Movecode |
+|Split into a new method|**Ctrl+Shift+T**| OtherContextMenus.UITestEditorContextMenu.Splitintoanewmethod |
 
 ### DataSet Editor
 
 The shortcuts specific to this context are:
 
 
-|Commands|Keyboard shortcuts|Command Id
+|Commands|Keyboard shortcuts|Command Id|
 |-|-|-|
 |Insert column|**Insert**| OtherContextMenus.ColumnContext.InsertColumn |
 |Column|**Ctrl+L**| OtherContextMenus.DbTableContext.Add.Column |
@@ -678,7 +678,7 @@ The shortcuts specific to this context are:
 The shortcuts specific to this context are:
 
 
-|Commands|Keyboard shortcuts|Command Id
+|Commands|Keyboard shortcuts|Command Id|
 |-|-|-|
 |Ignore trim whitespace|**Ctrl+\\, Ctrl+Spacebar**| Diff.IgnoreTrimWhitespace |
 |Inline view|**Ctrl+\\, Ctrl+1**| Diff.InlineView |
@@ -697,7 +697,7 @@ The shortcuts specific to this context are:
 The shortcuts specific to this context are:
 
 
-|Commands|Keyboard shortcuts|Command Id
+|Commands|Keyboard shortcuts|Command Id|
 |-|-|-|
 |Refresh|**F5**| DOMExplorer.Refresh |
 |Select element|**Ctrl+B**| DOMExplorer.SelectElement |
@@ -708,7 +708,7 @@ The shortcuts specific to this context are:
 The shortcuts specific to this context are:
 
 
-|Command|Keyboard shortcut|Command Id
+|Command|Keyboard shortcut|Command Id|
 |-|-|-|
 |Cancel interactive evaluation|**Ctrl+Break**| OtherContextMenus.FSIConsoleContext.CancelInteractiveEvaluation |
 
@@ -717,7 +717,7 @@ The shortcuts specific to this context are:
 The shortcuts specific to this context are:
 
 
-|Commands|Keyboard shortcuts|Command Id
+|Commands|Keyboard shortcuts|Command Id|
 |-|-|-|
 |Add node|**Insert**| ArchitectureContextMenus.DirectedGraphContextMenu.Advanced.Add.AddNode |
 |Both dependencies|**B**| ArchitectureContextMenus.DirectedGraphContextMenu.Advanced.Select.BothDependencies |
@@ -732,7 +732,7 @@ The shortcuts specific to this context are:
 The shortcuts specific to this context are:
 
 
-|Commands|Keyboard shortcuts|Command Id
+|Commands|Keyboard shortcuts|Command Id|
 |-|-|-|
 |Capture frame|None| Debug.Graphics.CaptureFrame |
 |Move pixel selection down|**Shift+Alt+Down Arrow**| Graphics.MovePixelSelectionDown |
@@ -749,7 +749,7 @@ The shortcuts specific to this context are:
 The shortcuts specific to this context are:
 
 
-|Command|Keyboard shortcut|Command Id
+|Command|Keyboard shortcut|Command Id|
 |-|-|-|
 |Go to controller|**Ctrl+M, Ctrl+G**| OtherContextMenus.HTMLContext.GoToController |
 
@@ -758,18 +758,18 @@ The shortcuts specific to this context are:
 The shortcuts specific to this context are:
 
 
-|Commands|Keyboard shortcuts|Command Id
+|Commands|Keyboard shortcuts|Command Id|
 |-|-|-|
 |Move control down|**Ctrl+Down Arrow**| Edit.MoveControlDown |
 |Move control up|**Ctrl+Up Arrow**| Edit.MoveControlUp |
 |Bold|**Ctrl+B**| Format.Bold |
-|Convertto hyperlink|**Ctrl+L**| Format.ConverttoHyperlink |
+|Convert  to hyperlink|**Ctrl+L**| Format.ConverttoHyperlink |
 |Insert bookmark|**Ctrl+Shift+L**| Format.InsertBookmark |
 |Italic|**Ctrl+I**| Format.Italic |
 |Underline|**Ctrl+U**| Format.Underline |
 |Add content page|**Ctrl+M, Ctrl+C**| Project.AddContentPage |
-|Columntothe left|**Ctrl+Alt+Left Arrow**| Table.ColumntotheLeft |
-|Columntothe right|**Ctrl+Alt+Right Arrow**| Table.ColumntotheRight |
+|Column  to  the left|**Ctrl+Alt+Left Arrow**| Table.ColumntotheLeft |
+|Column  to  the right|**Ctrl+Alt+Right Arrow**| Table.ColumntotheRight |
 |Row above|**Ctrl+Alt+Up Arrow**| Table.RowAbove |
 |Row below|**Ctrl+Alt+Down Arrow**| Table.RowBelow |
 |Net nonvisual controls|**Ctrl+Shift+N**| View.ASP.NETNonvisualControls |
@@ -784,7 +784,7 @@ The shortcuts specific to this context are:
 The shortcuts specific to this context are:
 
 
-|Commands|Keyboard shortcuts|Command Id
+|Commands|Keyboard shortcuts|Command Id|
 |-|-|-|
 |Go to controller|**Ctrl+M, Ctrl+G**| OtherContextMenus.HTMLContext.GoToController |
 |Next view|**Ctrl+PgDn**| View.NextView |
@@ -797,7 +797,7 @@ The shortcuts specific to this context are:
 The shortcuts specific to this context are:
 
 
-|Command|Keyboard shortcut|Command Id
+|Command|Keyboard shortcut|Command Id|
 |-|-|-|
 |Delete|**Shift+Delete**| Edit.Delete |
 
@@ -806,7 +806,7 @@ The shortcuts specific to this context are:
 The shortcuts specific to this context are:
 
 
-|Commands|Keyboard shortcuts|Command Id
+|Commands|Keyboard shortcuts|Command Id|
 |-|-|-|
 |Edit cell|**F2**| Edit.EditCell |
 |Remove|**Delete**| Edit.Remove |
@@ -824,46 +824,46 @@ The shortcuts specific to this context are:
 The shortcuts specific to this context are:
 
 
-|Commands|Keyboard shortcuts|Command Id
+|Commands|Keyboard shortcuts|Command Id|
 |-|-|-|
-|Set focuson left window|**Alt+1**| TeamFoundationContextMenus.MergeContextMenu.SetFocusonLeftWindow |
-|Set focuson result window|**Alt+2**| TeamFoundationContextMenus.MergeContextMenu.SetFocusonResultWindow |
-|Set focuson right window|**Alt+3**| TeamFoundationContextMenus.MergeContextMenu.SetFocusonRightWindow |
+|Set focus on left window|**Alt+1**| TeamFoundationContextMenus.MergeContextMenu.SetFocusonLeftWindow |
+|Set focus on result window|**Alt+2**| TeamFoundationContextMenus.MergeContextMenu.SetFocusonResultWindow |
+|Set focus on right window|**Alt+3**| TeamFoundationContextMenus.MergeContextMenu.SetFocusonRightWindow |
 
 ### Microsoft SQL Server Data Tools, Schema Compare
 
 The shortcuts specific to this context are:
 
 
-|Commands|Keyboard shortcuts|Command Id
+|Commands|Keyboard shortcuts|Command Id|
 |-|-|-|
-|Ssdt schema compare compare|**Shift+Alt+C**| SQL.SSDTSchemaCompareCompare |
-|Ssdt schema compare generate script|**Shift+Alt+G**| SQL.SSDTSchemaCompareGenerateScript |
-|Ssdt schema compare next change|**Shift+Alt+.**| SQL.SSDTSchemaCompareNextChange |
-|Ssdt schema compare previous change|**Shift+Alt+,**| SQL.SSDTSchemaComparePreviousChange |
-|Ssdt schema compare stop|**Alt+Break**| SQL.SSDTSchemaCompareStop |
-|Ssdt schema compare write updates|**Shift+Alt+U**| SQL.SSDTSchemaCompareWriteUpdates |
+|SSDT schema compare compare|**Shift+Alt+C**| SQL.SSDTSchemaCompareCompare |
+|SSDT schema compare generate script|**Shift+Alt+G**| SQL.SSDTSchemaCompareGenerateScript |
+|SSDT schema compare next change|**Shift+Alt+.**| SQL.SSDTSchemaCompareNextChange |
+|SSDT schema compare previous change|**Shift+Alt+,**| SQL.SSDTSchemaComparePreviousChange |
+|SSDT schema compare stop|**Alt+Break**| SQL.SSDTSchemaCompareStop |
+|SSDT schema compare write updates|**Shift+Alt+U**| SQL.SSDTSchemaCompareWriteUpdates |
 
 ### Microsoft SQL Server Data Tools, Table Designer
 
 The shortcuts specific to this context are:
 
 
-|Commands|Keyboard shortcuts|Command Id
+|Commands|Keyboard shortcuts|Command Id|
 |-|-|-|
 |CommitAllEdits|**Shift+Alt+U**|
 |Expand wildcards|**Ctrl+R, E**<br /><br /> or<br /><br /> **Ctrl+R, Ctrl+E**| SQL.ExpandWildcards |
-|Fullyqualify names|**Ctrl+R, Q**<br /><br /> or<br /><br /> **Ctrl+R, Ctrl+Q**| SQL.FullyqualifyNames |
-|Move  to schema|**Ctrl+R, M**<br /><br /> or<br /><br /> **Ctrl+R, Ctrl+M**| SQL.MovetoSchema |
+|Fully qualify names|**Ctrl+R, Q**<br /><br /> or<br /><br /> **Ctrl+R, Ctrl+Q**| SQL.FullyqualifyNames |
+|Move to schema|**Ctrl+R, M**<br /><br /> or<br /><br /> **Ctrl+R, Ctrl+M**| SQL.MovetoSchema |
 |Rename|**F2**<br /><br /> or<br /><br /> **Ctrl+R, R**<br /><br /> or<br /><br /> **Ctrl+R, Ctrl+R**| SQL.Rename |
-|ViewFileInScriptPanel|**Shift+Alt+PgDn**|
+|ViewFileInScriptPanel|**Shift+Alt+PgDn**| |
 
 ### Microsoft SQL Server Data Tools, T-SQL Editor
 
 The shortcuts specific to this context are:
 
 
-|Commands|Keyboard shortcuts|Command Id
+|Commands|Keyboard shortcuts|Command Id|
 |-|-|-|
 |CommitAllEdits|**Shift+Alt+U**|
 |Execute with debugger|**Alt+F5**| SQL.ExecuteWithDebugger |
@@ -879,15 +879,15 @@ The shortcuts specific to this context are:
 |T SQL editor show estimated plan|**Ctrl+D, E**| SQL.TSqlEditorShowEstimatedPlan |
 |T SQL editor toggle execution plan|**Ctrl+D, A**| SQL.TSqlEditorToggleExecutionPlan |
 |T SQL editor toggle results pane|**Ctrl+D, R**| SQL.TSqlEditorToggleResultsPane |
-|TSqlEditorCloneQuery|**Ctrl+Alt+N**|
-|TSqlEditorDatabaseCombo|**Shift+Alt+PgDn**|
+|T SQL editor clone query|**Ctrl+Alt+N**|SQL.TSqlEditorCloneQuery |
+|T SQL editor database combo|**Shift+Alt+PgDn**|SQL.TSqlEditorDatabaseCombo |
 
 ### Microsoft SQL Server Data Tools, T-SQL PDW Editor
 
 The shortcuts specific to this context are:
 
 
-|Commands|Keyboard shortcuts|Command Id
+|Commands|Keyboard shortcuts|Command Id|
 |-|-|-|
 |T SQL editor cancel query|**Alt+Break**| SQL.TSqlEditorCancelQuery |
 |T SQL editor execute query|**Ctrl+Shift+E**| SQL.TSqlEditorExecuteQuery |
@@ -897,15 +897,15 @@ The shortcuts specific to this context are:
 |T SQL editor show estimated plan|**Ctrl+D, E**| SQL.TSqlEditorShowEstimatedPlan |
 |T SQL editor toggle execution plan|**Ctrl+D, A**| SQL.TSqlEditorToggleExecutionPlan |
 |T SQL editor toggle results pane|**Ctrl+D, R**| SQL.TSqlEditorToggleResultsPane |
-|TSqlEditorCloneQuery|**Ctrl+Alt+N**|
-|TSqlEditorDatabaseCombo|**Shift+Alt+PgDn**|
+|T SQL editor clone query|**Ctrl+Alt+N**|SQL.TSqlEditorCloneQuery |
+|T SQL editor clone query|**Shift+Alt+PgDn**|SQL.TSqlEditorCloneQuery |
 
 ### Page Inspector
 
 The shortcuts specific to this context are:
 
 
-|Command|Keyboard shortcut|Command Id
+|Command|Keyboard shortcut|Command Id|
 |-|-|-|
 |Minimize|**F12**| PageInspector.Minimize |
 
@@ -914,7 +914,7 @@ The shortcuts specific to this context are:
 The shortcuts specific to this context are:
 
 
-|Commands|Keyboard shortcuts|Command Id
+|Commands|Keyboard shortcuts|Command Id|
 |-|-|-|
 |Cancel retrieving data|**Ctrl+T**| QueryDesigner.CancelRetrievingData |
 |Criteria|**Ctrl+2**| QueryDesigner.Criteria |
@@ -930,7 +930,7 @@ The shortcuts specific to this context are:
 The shortcuts specific to this context are:
 
 
-|Commands|Keyboard shortcuts|Command Id
+|Commands|Keyboard shortcuts|Command Id|
 |-|-|-|
 |Query results new row|**Alt+End**| SQL.QueryResultsNewRow |
 |Query results refresh|**Shift+Alt+R**| SQL.QueryResultsRefresh |
@@ -941,7 +941,7 @@ The shortcuts specific to this context are:
 The shortcuts specific to this context are:
 
 
-|Commands|Keyboard shortcuts|Command Id
+|Commands|Keyboard shortcuts|Command Id|
 |-|-|-|
 |Break line|**Enter**| Edit.BreakLine |
 |Char left|**Left Arrow**| Edit.CharLeft |
@@ -970,7 +970,7 @@ The shortcuts specific to this context are:
 The shortcuts specific to this context are:
 
 
-|Commands|Keyboard shortcuts|Command Id
+|Commands|Keyboard shortcuts|Command Id|
 |-|-|-|
 |Navigate to code|**F12**| ArchitectureDesigner.Sequence.NavigateToCode |
 |Delete|**Shift+Del**| Edit.Delete |
@@ -980,7 +980,7 @@ The shortcuts specific to this context are:
 The shortcuts specific to this context are:
 
 
-|Commands|Keyboard shortcuts|Command Id
+|Commands|Keyboard shortcuts|Command Id|
 |-|-|-|
 |Edit cell|**F2**| Edit.EditCell |
 |Remove row|**Ctrl+Delete**| Edit.RemoveRow |
@@ -992,16 +992,16 @@ The shortcuts specific to this context are:
 The shortcuts specific to this context are:
 
 
-|Command|Keyboard shortcut|Command Id
+|Command|Keyboard shortcut|Command Id|
 |-|-|-|
-|View  in page inspector|**Ctrl+K, Ctrl+G**| ClassViewContextMenus.ClassViewProject.View.ViewinPageInspector |
+|View in page inspector|**Ctrl+K, Ctrl+G**| ClassViewContextMenus.ClassViewProject.View.ViewinPageInspector |
 
 ### Team Explorer
 
 The shortcuts specific to this context are:
 
 
-|Command|Keyboard Shortcut|Command Id
+|Command|Keyboard Shortcut|Command Id|
 |-|-|-|
 |Delete|**Delete**| Edit.Delete |
 |Rename|**F2**| File.Rename |
@@ -1029,7 +1029,7 @@ The shortcuts specific to this context are:
 The shortcuts specific to this context are:
 
 
-|Command|Keyboard shortcut|Command Id
+|Command|Keyboard shortcut|Command Id|
 |-|-|-|
 |Open test|**F12**| TestExplorer.OpenTest |
 
@@ -1038,7 +1038,7 @@ The shortcuts specific to this context are:
 The shortcuts specific to this context are:
 
 
-| Commands | Keyboard shortcuts |Command Id
+| Commands | Keyboard shortcuts |Command Id|
 |-|-|-|
 |Break line| **Enter**<br /><br /> or<br /><br /> **Shift+Enter** | Edit.BreakLine |
 |Char left| **Left Arrow** | Edit.CharLeft |
@@ -1066,19 +1066,19 @@ The shortcuts specific to this context are:
 |Expand all outlining| **Ctrl+M, Ctrl+X** | Edit.ExpandAllOutlining |
 |Expand current region| **Ctrl+M, Ctrl+E** | Edit.ExpandCurrentRegion |
 |Expand selection| **Shift+Alt+=** | Edit.ExpandSelection |
-|Expand selectionto containing block| **Shift+Alt+]** | Edit.ExpandSelectiontoContainingBlock |
+|Expand selection to containing block| **Shift+Alt+]** | Edit.ExpandSelectiontoContainingBlock |
 |Format document| **Ctrl+K, Ctrl+D** | Edit.FormatDocument |
 |Format selection| **Ctrl+K, Ctrl+F** | Edit.FormatSelection |
 |Goto all| **Ctrl+T**<br /><br /> or<br /><br /> **Ctrl+,** | Edit.GotoAll |
 |Goto brace| **Ctrl+]** | Edit.GotoBrace |
 |Goto brace extend| **Ctrl+Shift+]** | Edit.GotoBraceExtend |
 |Goto recent| **Ctrl+T,R** | Edit.GotoRecent |
-|Goto next issuein file| **Alt+PgDn** | Edit.GotoNextIssueinFile |
-|Goto previous issuein file| **Alt+PgUp** | Edit.GotoPreviousIssueinFile |
+|Goto next issue in file| **Alt+PgDn** | Edit.GotoNextIssueinFile |
+|Goto previous issue in file| **Alt+PgUp** | Edit.GotoPreviousIssueinFile |
 |Hide selection| **Ctrl+M, Ctrl+H** | Edit.HideSelection |
 |Increase filter level| **Alt+.** | Edit.IncreaseFilterLevel |
 |Incremental search| **Ctrl+I** | Edit.IncrementalSearch |
-|Insert caretsat all matching| **Shift+Alt+;** | Edit.InsertCaretsatAllMatching |
+|Insert carets at all matching| **Shift+Alt+;** | Edit.InsertCaretsatAllMatching |
 |Insert next matching caret| **Shift+Alt+.** | Edit.InsertNextMatchingCaret |
 |Insert tab| **Tab** | Edit.InsertTab |
 |Line cut| **Ctrl+L** | Edit.LineCut |
@@ -1160,7 +1160,7 @@ The shortcuts specific to this context are:
 The shortcuts specific to this context are:
 
 
-|Command|Keyboard shortcut|Command Id
+|Command|Keyboard shortcut|Command Id|
 |-|-|-|
 |Delete|**Shift+Del**| Edit.Delete |
 
@@ -1169,7 +1169,7 @@ The shortcuts specific to this context are:
 The shortcuts specific to this context are:
 
 
-|Command|Keyboard shortcut|Command Id
+|Command|Keyboard shortcut|Command Id|
 |-|-|-|
 |Delete from model|**Shift+Del**| Edit.DeleteFromModel |
 
@@ -1178,7 +1178,7 @@ The shortcuts specific to this context are:
 The shortcuts specific to this context are:
 
 
-|Command|Keyboard shortcut|Command Id
+|Command|Keyboard shortcut|Command Id|
 |-|-|-|
 |Delete from model|**Shift+Del**| Edit.DeleteFromModel |
 
@@ -1187,7 +1187,7 @@ The shortcuts specific to this context are:
 The shortcuts specific to this context are:
 
 
-|Command|Keyboard shortcut|Command Id
+|Command|Keyboard shortcut|Command Id|
 |-|-|-|
 |Delete from model|**Shift+Del**| Edit.DeleteFromModel |
 
@@ -1196,7 +1196,7 @@ The shortcuts specific to this context are:
 The shortcuts specific to this context are:
 
 
-|Commands|Keyboard shortcuts|Command Id
+|Commands|Keyboard shortcuts|Command Id|
 |-|-|-|
 |New accelerator|**Insert**| Edit.NewAccelerator |
 |Next key typed|**Ctrl+W**| Edit.NextKeyTyped |
@@ -1206,7 +1206,7 @@ The shortcuts specific to this context are:
 The shortcuts specific to this context are:
 
 
-|Commands|Keyboard shortcuts|Command Id
+|Commands|Keyboard shortcuts|Command Id|
 |-|-|-|
 |Move control down|**Down Arrow**| Edit.MoveControlDown |
 |Move control left|**Left Arrow**| Edit.MoveControlLeft |
@@ -1231,7 +1231,7 @@ The shortcuts specific to this context are:
 |Center horizontal|**Ctrl+Shift+F9**| Format.CenterHorizontal |
 |Center vertical|**Ctrl+F9**| Format.CenterVertical |
 |Check mnemonics|**Ctrl+M**| Format.CheckMnemonics |
-|Sizeto content|**Shift+F7**| Format.SizetoContent |
+|Size to content|**Shift+F7**| Format.SizetoContent |
 |Space across|**Alt+Right Arrow**<br /><br /> or<br /><br /> **Alt+Left Arrow**| Format.SpaceAcross |
 |Space down|**Alt+Up Arrow**<br /><br /> or<br /><br /> **Alt+Down Arrow**| Format.SpaceDown |
 |Tab order|**Ctrl+D**| Format.TabOrder |
@@ -1243,11 +1243,11 @@ The shortcuts specific to this context are:
 The shortcuts specific to this context are:
 
 
-|Commands|Keyboard shortcuts|Command Id
+|Commands|Keyboard shortcuts|Command Id|
 |-|-|-|
 |Airbrush tool|**Ctrl+A**| Image.AirbrushTool |
 |Brush tool|**Ctrl+B**| Image.BrushTool |
-|Copyand outline selection|**Ctrl+Shift+U**| Image.CopyandOutlineSelection |
+|Copy and outline selection|**Ctrl+Shift+U**| Image.CopyandOutlineSelection |
 |Draw opaque|**Ctrl+J**| Image.DrawOpaque |
 |Ellipse tool|**Alt+P**| Image.EllipseTool |
 |Erase tool|**Ctrl+Shift+I**| Image.EraseTool |
@@ -1279,7 +1279,7 @@ The shortcuts specific to this context are:
 |Small brush|**Ctrl+.**| Image.SmallBrush |
 |Smaller brush|**Ctrl+-**| Image.SmallerBrush |
 |Text tool|**Ctrl+T**| Image.TextTool |
-|Use selectionas brush|**Ctrl+U**| Image.UseSelectionasBrush |
+|Use selection as brush|**Ctrl+U**| Image.UseSelectionasBrush |
 |Zoom in|**Ctrl+Shift+.**<br /><br /> or<br /><br /> **Ctrl+Up Arrow**| Image.ZoomIn |
 |Zoom out|**Ctrl+Shift+,**<br /><br /> or<br /><br /> **Ctrl+Down Arrow**| Image.ZoomOut |
 
@@ -1288,7 +1288,7 @@ The shortcuts specific to this context are:
 The shortcuts specific to this context are:
 
 
-|Command|Keyboard shortcut|Command Id
+|Command|Keyboard shortcut|Command Id|
 |-|-|-|
 |New string|**Insert**| Edit.NewString |
 
@@ -1297,7 +1297,7 @@ The shortcuts specific to this context are:
 The shortcuts specific to this context are:
 
 
-|Commands|Keyboard shortcuts|Command Id
+|Commands|Keyboard shortcuts|Command Id|
 |-|-|-|
 |Cancel retrieving data|**Ctrl+T**| QueryDesigner.CancelRetrievingData |
 |Criteria|**Ctrl+2**| QueryDesigner.Criteria |
@@ -1313,7 +1313,7 @@ The shortcuts specific to this context are:
 The shortcuts specific to this context are:
 
 
-|Command|Keyboard shortcut|Command Id
+|Command|Keyboard shortcut|Command Id|
 |-|-|-|
 |Hide methods pane|**Ctrl+1**| OtherContextMenus.ORDesignerContext.HideMethodsPane |
 
@@ -1322,7 +1322,7 @@ The shortcuts specific to this context are:
 The shortcuts specific to this context are:
 
 
-|Commands|Keyboard shortcuts|Command Id
+|Commands|Keyboard shortcuts|Command Id|
 |-|-|-|
 |Break line|**Enter**| Edit.BreakLine |
 |Char left|**Left Arrow**| Edit.CharLeft |
@@ -1354,9 +1354,9 @@ The shortcuts specific to this context are:
 The shortcuts specific to this context are:
 
 
-|Commands|Keyboard shortcuts|Command Id
+|Commands|Keyboard shortcuts|Command Id|
 |-|-|-|
-|Create copyof work item|**Shift+Alt+C**| Edit.CreateCopyofWorkItem |
+|Create copy of work item|**Shift+Alt+C**| Edit.CreateCopyofWorkItem |
 |Refresh work item|**F5**| Edit.RefreshWorkItem |
 |New linked work item|**Shift+Alt+L**| Team.NewLinkedWorkItem |
 
@@ -1365,9 +1365,9 @@ The shortcuts specific to this context are:
 The shortcuts specific to this context are:
 
 
-|Commands|Keyboard shortcuts|Command Id
+|Commands|Keyboard shortcuts|Command Id|
 |-|-|-|
-|Create copyof work item|**Shift+Alt+C**| Edit.CreateCopyofWorkItem |
+|Create copy of work item|**Shift+Alt+C**| Edit.CreateCopyofWorkItem |
 |Indent|**Shift+Alt+Right Arrow**| Edit.Indent |
 |Outdent|**Shift+Alt+Left Arrow**| Edit.Outdent |
 |New linked work item|**Shift+Alt+L**| Team.NewLinkedWorkItem |
@@ -1379,9 +1379,9 @@ The shortcuts specific to this context are:
 The shortcuts specific to this context are:
 
 
-|Commands|Keyboard shortcuts|Command Id
+|Commands|Keyboard shortcuts|Command Id|
 |-|-|-|
-|Create copyof work item|**Shift+Alt+C**| Edit.CreateCopyofWorkItem |
+|Create copy of work item|**Shift+Alt+C**| Edit.CreateCopyofWorkItem |
 |Indent|**Shift+Alt+Right Arrow**| Edit.Indent |
 |Outdent|**Shift+Alt+Left Arrow**| Edit.Outdent |
 |Goto next work item|**Shift+Alt+N**| Team.GotoNextWorkItem |
@@ -1395,7 +1395,7 @@ The shortcuts specific to this context are:
 The shortcuts specific to this context are:
 
 
-|Commands|Keyboard shortcuts|Command Id
+|Commands|Keyboard shortcuts|Command Id|
 |-|-|-|
 |Complete word|**Ctrl+K, W**<br /><br /> or<br /><br /> **Ctrl+K, Ctrl+W**<br /><br /> or<br /><br /> **Ctrl+Spacebar**<br /><br /> or<br /><br /> **Alt+Right Arrow**| Edit.CompleteWord |
 |Decrease filter level|**Alt+,**| Edit.DecreaseFilterLevel |
@@ -1426,7 +1426,7 @@ The shortcuts specific to this context are:
 The shortcuts specific to this context are:
 
 
-|Commands|Keyboard shortcuts|Command Id
+|Commands|Keyboard shortcuts|Command Id|
 |-|-|-|
 |Fit all|**Ctrl+0** (zero)| Design.FitAll |
 |Show handles|**F9**| Design.ShowHandles |
@@ -1436,10 +1436,10 @@ The shortcuts specific to this context are:
 |Edit text|**F2**| Format.EditText |
 |All|**Ctrl+Shift+R**| Format.ResetLayout.All |
 |Run project code|**Ctrl+F9**|
-|Hide  ( blend  only )|**Ctrl+H**| Timeline.Hide (Blend only) |
-|Lock  ( blend  only )|**Ctrl+L**| Timeline.Lock (Blend only) |
-|Show  ( blend  only )|**Ctrl+Shift+H**| Timeline.Show (Blend only) |
-|Unlock  ( blend  only )|**Ctrl+Shift+L**| Timeline.Unlock (Blend only) |
+|Hide (Blend only)|**Ctrl+H**| Timeline.Hide (Blend only) |
+|Lock (Blend only)|**Ctrl+L**| Timeline.Lock (Blend only) |
+|Show (Blend only)|**Ctrl+Shift+H**| Timeline.Show (Blend only) |
+|Unlock (Blend only)|**Ctrl+Shift+L**| Timeline.Unlock (Blend only) |
 |Edge left move left|**Ctrl+Shift+,**| View.EdgeLeftMoveLeft |
 |Edge left move right|**Ctrl+Shift+.**| View.EdgeLeftMoveRight |
 |Edge right move left|**Ctrl+Shift+Alt+,**| View.EdgeRightMoveLeft |
@@ -1451,7 +1451,7 @@ The shortcuts specific to this context are:
 The shortcuts specific to this context are:
 
 
-|Commands|Keyboard shortcuts|Command Id
+|Commands|Keyboard shortcuts|Command Id|
 |-|-|-|
 |Start XSLT debugging|**Alt+F5**| XML.StartXSLTDebugging |
 |Start XSLT without debugging|**Ctrl+Alt+F5**| XML.StartXSLTWithoutDebugging |
@@ -1461,13 +1461,13 @@ The shortcuts specific to this context are:
 The shortcuts specific to this context are:
 
 
-|Commands|Keyboard shortcuts|Command Id
+|Commands|Keyboard shortcuts|Command Id|
 |-|-|-|
-|Bottom  to top|**Alt+Up Arrow**| GraphView.BottomtoTop |
-|Left  to right|**Alt+Right Arrow**| GraphView.LefttoRight |
-|Right  to left|**Alt+Left Arrow**| GraphView.RighttoLeft |
-|Top  to bottom|**Alt+Down Arrow**| GraphView.ToptoBottom |
-|Remove  from workspace|**Delete**| OtherContextMenus.GraphView.RemovefromWorkspace |
+|Bottom to top|**Alt+Up Arrow**| GraphView.BottomtoTop |
+|Left to right|**Alt+Right Arrow**| GraphView.LefttoRight |
+|Right to left|**Alt+Left Arrow**| GraphView.RighttoLeft |
+|Top to bottom|**Alt+Down Arrow**| GraphView.ToptoBottom |
+|Remove from workspace|**Delete**| OtherContextMenus.GraphView.RemovefromWorkspace |
 |Show content model view|**Ctrl+2**| XsdDesigner.ShowContentModelView |
 |Show graph view|**Ctrl+3**| XsdDesigner.ShowGraphView |
 |Show start view|**Ctrl+1**| XsdDesigner.ShowStartView |
