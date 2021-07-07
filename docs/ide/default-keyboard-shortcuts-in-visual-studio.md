@@ -868,7 +868,7 @@ The shortcuts specific to this context are:
 |CommitAllEdits|**Shift+Alt+U**|
 |Execute with debugger|**Alt+F5**| SQL.ExecuteWithDebugger |
 |Expand wildcards|**Ctrl+R, E**<br /><br /> or<br /><br /> **Ctrl+R, Ctrl+E**| SQL.ExpandWildcards |
-|Fullyqualify names|**Ctrl+R, Q**<br /><br /> or<br /><br /> **Ctrl+R, Ctrl+Q**| SQL.FullyqualifyNames |
+|Fully qualify names|**Ctrl+R, Q**<br /><br /> or<br /><br /> **Ctrl+R, Ctrl+Q**| SQL.FullyqualifyNames |
 |Move  to schema|**Ctrl+R, M**<br /><br /> or<br /><br /> **Ctrl+R, Ctrl+M**| SQL.MovetoSchema |
 |Rename|**F2**<br /><br /> or<br /><br /> **Ctrl+R, R**<br /><br /> or<br /><br /> **Ctrl+R, Ctrl+R**| SQL.Rename |
 |T SQL editor cancel query|**Alt+Break**| SQL.TSqlEditorCancelQuery |
