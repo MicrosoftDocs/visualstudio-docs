@@ -34,151 +34,153 @@ All shortcuts in this section apply globally unless otherwise specified. The *Gl
 > [!NOTE]
 > You can [look up the shortcut](identifying-and-customizing-keyboard-shortcuts-in-visual-studio.md) for any command by opening the **Options** dialog box, expanding the **Environment** node, and then choosing **Keyboard**.
 
+
 #### Build: popular shortcuts
 
-|Commands|Keyboard shortcuts |
-|--------------| - |
-|Build solution|**Ctrl+Shift+B** |
-|Cancel|**Ctrl+Break** |
-|Compile|**Ctrl+F7** |
-|Run code analysison solution|**Alt+F11**|
+|Commands|Keyboard shortcuts |Command Id
+|-|-|-|
+|Build solution|**Ctrl+Shift+B** | Build.BuildSolution |
+|Cancel|**Ctrl+Break** | Build.Cancel |
+|Compile|**Ctrl+F7** | Build.Compile |
+|Run code analysison solution|**Alt+F11**| Build.RunCodeAnalysisonSolution |
 
 #### Debug: popular shortcuts
 
-|Commands|Keyboard shortcuts [Special contexts]|
-|--------------| - |
-|Break at function|**Ctrl+B**|
-|Break all|**Ctrl+Alt+Break**|
-|Delete all breakpoints|**Ctrl+Shift+F9**|
-|Exceptions|**Ctrl+Alt+E**|
-|Quick watch|**Ctrl+Alt+Q**<br /><br />or **Shift+F9**|
-|Restart|**Ctrl+Shift+F5**|
-|Run to cursor|**Ctrl+F10**|
-|Set next statement|**Ctrl+Shift+F10**|
-|Start|**F5**|
-|Start without debugging|**Ctrl+F5**|
-|Step into|**F11**|
-|Step out|**Shift+F11**|
-|Step over|**F10**|
-|Stop debugging|**Shift+F5**|
-|Toggle breakpoint|**F9**|
+|Commands|Keyboard shortcuts [Special contexts]|Command Id
+|-|-|-|
+|Break  at function|**Ctrl+B**| Debug.BreakatFunction |
+|Break all|**Ctrl+Alt+Break**| Debug.BreakAll |
+|Delete all breakpoints|**Ctrl+Shift+F9**| Debug.DeleteAllBreakpoints |
+|Exceptions|**Ctrl+Alt+E**| Debug.Exceptions |
+|Quick watch|**Ctrl+Alt+Q**<br /><br />or **Shift+F9**| Debug.QuickWatch |
+|Restart|**Ctrl+Shift+F5**| Debug.Restart |
+|Run to cursor|**Ctrl+F10**| Debug.RunToCursor |
+|Set next statement|**Ctrl+Shift+F10**| Debug.SetNextStatement |
+|Start|**F5**| Debug.Start |
+|Start without debugging|**Ctrl+F5**| Debug.StartWithoutDebugging |
+|Step into|**F11**| Debug.StepInto |
+|Step out|**Shift+F11**| Debug.StepOut |
+|Step over|**F10**| Debug.StepOver |
+|Stop debugging|**Shift+F5**| Debug.StopDebugging |
+|Toggle breakpoint|**F9**| Debug.ToggleBreakpoint |
 
 #### Edit: popular shortcuts
 
-|Commands|Keyboard shortcuts [Special contexts]|
-|--------------| - |
-|Break line|**Enter** [Text Editor, Report Designer, Windows Forms Designer]<br /><br />or **Shift+Enter** [Text Editor]|
-|Collapse to definitions|**Ctrl+M**, **Ctrl+O** [Text Editor]|
-|Comment selection|**Ctrl+K**, **Ctrl+C** [Text Editor]|
-|Complete word|**Alt+Right Arrow** [Text Editor, Workflow Designer]<br /><br />or **Ctrl+Spacebar** [Text Editor, Workflow Designer]<br /><br />or **Ctrl+K**, **W** [Workflow Designer]<br /><br />or **Ctrl+K, Ctrl+W** [Workflow Designer]|
-|Copy|**Ctrl+C**<br /><br />or **Ctrl+Insert**|
-|Cut|**Ctrl+X**<br /><br />or **Shift+Delete**|
-|Delete|**Delete** [Team Explorer]<br /><br />or **Shift+Delete** [Sequence Diagram, UML Activity Diagram, Layer Diagram]<br /><br />or **Ctrl+Delete** [Class Diagram]|
-|Find|**Ctrl+F**|
-|Find all references|**Shift+F12**|
-|Find in files|**Ctrl+Shift+F**|
-|Find next|**F3**|
-|Find next selected|**Ctrl+F3**|
-|Format document|**Ctrl+K, Ctrl+D** [Text Editor]|
-|Format selection|**Ctrl+K, Ctrl+F** [Text Editor]|
-|Go to|**Ctrl+G**|
-|Go to declaration|**Ctrl+F12**|
-|Go to definition|**F12**|
-|Go to find combo|**Ctrl+D**|
-|Go to next location|**F8**|
-|Insert snippet|**Ctrl+K**, **Ctrl+X**|
-|Insert tab|**Tab** [Report Designer, Windows Forms Designer, Text Editor]|
-|Line cut|**Ctrl+L** [Text Editor]|
-|Line down extend column|**Shift+Alt+Down Arrow** [Text Editor]|
-|Line open above|**Ctrl+Enter** [Text Editor]|
-|List members|**Ctrl+J** [Text Editor, Workflow Designer]<br /><br />or **Ctrl+K, Ctrl+L** [Workflow Designer]<br /><br />or **Ctrl+K, L** [Workflow Designer]|
-|Navigate to|**Ctrl+,**|
-|Open file|**Ctrl+Shift+G**|
-|Over type mode|**Insert** [Text Editor]|
-|Parameter info|**Ctrl+Shift+Spacebar** [Text Editor, Workflow Designer]<br /><br />or **Ctrl+K, Ctrl+P** [Workflow Designer]<br /><br />or **Ctrl+K, P** [Workflow Designer]|
-|Paste|**Ctrl+V**<br /><br />or **Shift+Insert**|
-|Peek definition|**Alt+F12** [Text Editor]|
-|Redo|**Ctrl+Y**<br /><br />or **Shift+Alt+Backspace**<br /><br />or **Ctrl+Shift+Z**|
-|Replace|**Ctrl+H**|
-|Select all|**Ctrl+A**|
-|Select current word|**Ctrl+W** [Text Editor]|
-|Selection cancel|**Esc** [Text Editor, Report Designer, Settings Designer, Windows Forms Designer, Managed Resources Editor]|
-|Surround with|**Ctrl+K, Ctrl+S**|
-|Tab left|**Shift+Tab** [Text Editor, Report Designer, Windows Forms Editor]|
-|Toggle all outlining|**Ctrl+M, Ctrl+L** [Text Editor]|
-|Toggle bookmark|**Ctrl+K, Ctrl+K** [Text Editor]|
-|Toggle completion mode|**Ctrl+Alt+Space** [Text Editor]|
-|Toggle outlining expansion|**Ctrl+M, Ctrl+M** [Text Editor]|
-|Uncomment selection|**Ctrl+K, Ctrl+U** [Text Editor]|
-|Undo|**Ctrl+Z**<br /><br />or **Alt+Backspace**|
-|Word delete to end|**Ctrl+Delete** [Text Editor]|
-|Word delete to start|**Ctrl+Backspace** [Text Editor]|
+|Commands|Keyboard shortcuts [Special contexts]|Command Id
+|-|-|-|
+|Break line|**Enter** [Text Editor, Report Designer, Windows Forms Designer]<br /><br />or **Shift+Enter** [Text Editor]| Edit.BreakLine |
+|Collapse to definitions|**Ctrl+M**, **Ctrl+O** [Text Editor]| Edit.CollapseToDefinitions |
+|Comment selection|**Ctrl+K**, **Ctrl+C** [Text Editor]| Edit.CommentSelection |
+|Complete word|**Alt+Right Arrow** [Text Editor, Workflow Designer]<br /><br />or **Ctrl+Spacebar** [Text Editor, Workflow Designer]<br /><br />or **Ctrl+K**, **W** [Workflow Designer]<br /><br />or **Ctrl+K, Ctrl+W** [Workflow Designer]| Edit.CompleteWord |
+|Copy|**Ctrl+C**<br /><br />or **Ctrl+Insert**| Edit.Copy |
+|Cut|**Ctrl+X**<br /><br />or **Shift+Delete**| Edit.Cut |
+|Delete|**Delete** [Team Explorer]<br /><br />or **Shift+Delete** [Sequence Diagram, UML Activity Diagram, Layer Diagram]<br /><br />or **Ctrl+Delete** [Class Diagram]| Edit.Delete |
+|Find|**Ctrl+F**| Edit.Find |
+|Find all references|**Shift+F12**| Edit.FindAllReferences |
+|Find  in files|**Ctrl+Shift+F**| Edit.FindinFiles |
+|Find next|**F3**| Edit.FindNext |
+|Find next selected|**Ctrl+F3**| Edit.FindNextSelected |
+|Format document|**Ctrl+K, Ctrl+D** [Text Editor]| Edit.FormatDocument |
+|Format selection|**Ctrl+K, Ctrl+F** [Text Editor]| Edit.FormatSelection |
+|Go to|**Ctrl+G**| Edit.GoTo |
+|Go to declaration|**Ctrl+F12**| Edit.GoToDeclaration |
+|Go to definition|**F12**| Edit.GoToDefinition |
+|Go to find combo|**Ctrl+D**| Edit.GoToFindCombo |
+|Go to next location|**F8**| Edit.GoToNextLocation |
+|Insert snippet|**Ctrl+K**, **Ctrl+X**| Edit.InsertSnippet |
+|Insert tab|**Tab** [Report Designer, Windows Forms Designer, Text Editor]| Edit.InsertTab |
+|Line cut|**Ctrl+L** [Text Editor]| Edit.LineCut |
+|Line down extend column|**Shift+Alt+Down Arrow** [Text Editor]| Edit.LineDownExtendColumn |
+|Line open above|**Ctrl+Enter** [Text Editor]| Edit.LineOpenAbove |
+|List members|**Ctrl+J** [Text Editor, Workflow Designer]<br /><br />or **Ctrl+K, Ctrl+L** [Workflow Designer]<br /><br />or **Ctrl+K, L** [Workflow Designer]| Edit.ListMembers |
+|Navigate to|**Ctrl+,**| Edit.NavigateTo |
+|Open file|**Ctrl+Shift+G**| Edit.OpenFile |
+|Overtype mode|**Insert** [Text Editor]| Edit.OvertypeMode |
+|Parameter info|**Ctrl+Shift+Spacebar** [Text Editor, Workflow Designer]<br /><br />or **Ctrl+K, Ctrl+P** [Workflow Designer]<br /><br />or **Ctrl+K, P** [Workflow Designer]| Edit.ParameterInfo |
+|Paste|**Ctrl+V**<br /><br />or **Shift+Insert**| Edit.Paste |
+|Peek definition|**Alt+F12** [Text Editor]| Edit.PeekDefinition |
+|Redo|**Ctrl+Y**<br /><br />or **Shift+Alt+Backspace**<br /><br />or **Ctrl+Shift+Z**| Edit.Redo |
+|Replace|**Ctrl+H**| Edit.Replace |
+|Select all|**Ctrl+A**| Edit.SelectAll |
+|Select current word|**Ctrl+W** [Text Editor]| Edit.SelectCurrentWord |
+|Selection cancel|**Esc** [Text Editor, Report Designer, Settings Designer, Windows Forms Designer, Managed Resources Editor]| Edit.SelectionCancel |
+|Surround with|**Ctrl+K, Ctrl+S**| Edit.SurroundWith |
+|Tab left|**Shift+Tab** [Text Editor, Report Designer, Windows Forms Editor]| Edit.TabLeft |
+|Toggle all outlining|**Ctrl+M, Ctrl+L** [Text Editor]| Edit.ToggleAllOutlining |
+|Toggle bookmark|**Ctrl+K, Ctrl+K** [Text Editor]| Edit.ToggleBookmark |
+|Toggle completion mode|**Ctrl+Alt+Space** [Text Editor]| Edit.ToggleCompletionMode |
+|Toggle outlining expansion|**Ctrl+M, Ctrl+M** [Text Editor]| Edit.ToggleOutliningExpansion |
+|Uncomment selection|**Ctrl+K, Ctrl+U** [Text Editor]| Edit.UncommentSelection |
+|Undo|**Ctrl+Z**<br /><br />or **Alt+Backspace**| Edit.Undo |
+|Word delete to end|**Ctrl+Delete** [Text Editor]| Edit.WordDeleteToEnd |
+|Word delete to start|**Ctrl+Backspace** [Text Editor]| Edit.WordDeleteToStart |
 
 #### File: popular shortcuts
 
-|Commands|Keyboard shortcuts [Special contexts]|
-|--------------| - |
-|Exit|**Alt+F4**|
-|New file|**Ctrl+N**|
-|New project|**Ctrl+Shift+N**|
-|New web site|**Shift+Alt+N**|
-|Open file|**Ctrl+O**|
-|Open project|**Ctrl+Shift+O**|
-|Open web site|**Shift+Alt+O**|
-|Rename|**F2** [Team Explorer]|
-|Save all|**Ctrl+Shift+S**|
-|Save selected items|**Ctrl+S**|
-|View in browser|**Ctrl+Shift+W**|
+|Commands|Keyboard shortcuts [Special contexts]|Command Id
+|-|-|-|
+|Exit|**Alt+F4**| File.Exit |
+|New file|**Ctrl+N**| File.NewFile |
+|New project|**Ctrl+Shift+N**| File.NewProject |
+|New web site|**Shift+Alt+N**| File.NewWebSite |
+|Open file|**Ctrl+O**| File.OpenFile |
+|Open project|**Ctrl+Shift+O**| File.OpenProject |
+|Open web site|**Shift+Alt+O**| File.OpenWebSite |
+|Rename|**F2** [Team Explorer]| File.Rename |
+|Save all|**Ctrl+Shift+S**| File.SaveAll |
+|Save selected items|**Ctrl+S**| File.SaveSelectedItems |
+|View  in browser|**Ctrl+Shift+W**| File.ViewinBrowser |
 
 #### Project: popular shortcuts
 
-|Commands|Keyboard shortcuts [Special contexts]|
-|--------------| - |
-|Add existing item|**Shift+Alt+A**|
-|Add new item|**Ctrl+Shift+A**|
+|Commands|Keyboard shortcuts [Special contexts]|Command Id
+|-|-|-|
+|Add existing item|**Shift+Alt+A**| Project.AddExistingItem |
+|Add new item|**Ctrl+Shift+A**| Project.AddNewItem |
 
 #### Refactor: popular shortcuts
 
-|Command|Keyboard shortcut [Special contexts]|
-|-------------| - |
-|Extract method|**Ctrl+R, Ctrl+M**|
+|Command|Keyboard shortcut [Special contexts]|Command Id
+|-|-|-|
+|Extract method|**Ctrl+R, Ctrl+M**| Refactor.ExtractMethod |
 
 #### Tools: popular shortcuts
 
-|Command|Keyboard shortcut [Special contexts]|
-|-------------| - |
-|Attach to process|**Ctrl+Alt+P**|
+|Command|Keyboard shortcut [Special contexts]|Command Id
+|-|-|-|
+|Attach  to process|**Ctrl+Alt+P**| Tools.AttachtoProcess |
 
 #### View: popular shortcuts
 
-|Commands|Keyboard shortcuts [Special contexts]|
-|--------------| - |
-|Class view|**Ctrl+Shift+C**|
-|Edit label|**F2**|
-|Error list|**Ctrl+\\, Ctrl+E**<br /><br />or **Ctrl+\\, E**|
-|Navigate backward|**Ctrl+-**|
-|Navigate forward|**Ctrl+Shift+-**|
-|Object browser|**Ctrl+Alt+J**|
-|Output|**Ctrl+Alt+O**|
-|Properties window|**F4**|
-|Refresh|**F5** [Team Explorer]|
-|Server explorer|**Ctrl+Alt+S**|
-|Show smart tag|**Ctrl+.**<br /><br />or **Shift+Alt+F10** [HTML Editor Design View]|
-|Solution explorer|**Ctrl+Alt+L**|
-|TFS team explorer|**Ctrl+\\, Ctrl+M**|
-|Toolbox|**Ctrl+Alt+X**|
-|View code|**Enter** [Class Diagram]<br /><br />or **F7** [Settings Designer]|
-|View designer|**Shift+F7** [HTML Editor Source View]|
+|Commands|Keyboard shortcuts [Special contexts]|Command Id
+|-|-|-|
+|Class view|**Ctrl+Shift+C**| View.ClassView |
+|Edit label|**F2**| View.EditLabel |
+|Error list|**Ctrl+\\, Ctrl+E**<br /><br />or **Ctrl+\\, E**| View.ErrorList |
+|Navigate backward|**Ctrl+-**| View.NavigateBackward |
+|Navigate forward|**Ctrl+Shift+-**| View.NavigateForward |
+|Object browser|**Ctrl+Alt+J**| View.ObjectBrowser |
+|Output|**Ctrl+Alt+O**| View.Output |
+|Properties window|**F4**| View.PropertiesWindow |
+|Refresh|**F5** [Team Explorer]| View.Refresh |
+|Server explorer|**Ctrl+Alt+S**| View.ServerExplorer |
+|Show smart tag|**Ctrl+.**<br /><br />or **Shift+Alt+F10** [HTML Editor Design View]| View.ShowSmartTag |
+|Solution explorer|**Ctrl+Alt+L**| View.SolutionExplorer |
+|Tfs team explorer|**Ctrl+\\, Ctrl+M**| View.TfsTeamExplorer |
+|Toolbox|**Ctrl+Alt+X**| View.Toolbox |
+|View code|**Enter** [Class Diagram]<br /><br />or **F7** [Settings Designer]| View.ViewCode |
+|View designer|**Shift+F7** [HTML Editor Source View]| View.ViewDesigner |
 
 #### Window: popular shortcuts
 
-|Commands|Keyboard shortcuts [Special contexts]|
-|--------------| - |
-|Activate document window|**Esc**|
-|Close document window|**Ctrl+F4**|
-|Next document window|**Ctrl+F6**|
-|Next document window nav|**Ctrl+Tab**|
-|Next split pane|**F6**|
+|Commands|Keyboard shortcuts [Special contexts]|Command Id
+|-|-|-|
+|Activate document window|**Esc**| Window.ActivateDocumentWindow |
+|Close document window|**Ctrl+F4**| Window.CloseDocumentWindow |
+|Next document window|**Ctrl+F6**| Window.NextDocumentWindow |
+|Next document window nav|**Ctrl+Tab**| Window.NextDocumentWindowNav |
+|Next split pane|**F6**| Window.NextSplitPane |
+
 
 ## Global shortcuts
 
@@ -212,1218 +214,1263 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 
 ### <a name="bkmk_analyze"></a> Analyze
 
-|Commands|Keyboard shortcuts|
-|--------------| - |
-|Navigate backward|**Shift+Alt+3**|
-|Navigate forward|**Shift+Alt+4**|
+|Commands|Keyboard shortcuts|Command Id
+|-|-|-|
+|Navigate backward|**Shift+Alt+3**| Analyze.NavigateBackward |
+|Navigate forward|**Shift+Alt+4**| Analyze.NavigateForward |
 
 ### <a name="bkmk_architecture"></a> Architecture
 
-|Commands|Keyboard shortcuts|
-|--------------| - |
-|New diagram|**Ctrl+\\, Ctrl+N**|
+|Commands|Keyboard shortcuts|Command Id
+|-|-|-|
+|New diagram|**Ctrl+\\, Ctrl+N**| Architecture.NewDiagram |
 
 ### <a name="bkmk_build"></a> Build
 
-|Commands|Keyboard shortcuts|
-|--------------| - |
-|Build selection|**Ctrl+B** (Visual Studio 2019)|
-|Build solution|**Ctrl+Shift+B**|
-|Cancel|**Ctrl+Break**|
-|Compile|**Ctrl+F7**|
-|Run code analysison solution|**Alt+F11**|
+|Commands|Keyboard shortcuts|Command Id
+|-|-|-|
+|Build selection|**Ctrl+B** (Visual Studio 2019)| Build.BuildSelection |
+|Build solution|**Ctrl+Shift+B**| Build.BuildSolution |
+|Cancel|**Ctrl+Break**| Build.Cancel |
+|Compile|**Ctrl+F7**| Build.Compile |
+|Run code analysison solution|**Alt+F11**| Build.RunCodeAnalysisonSolution |
 
 ### <a name="bkmk_classview"></a> Class View context menus
 
-|Commands|Keyboard shortcuts|
-|--------------| - |
-|Properties|**Alt+Enter**|
+|Commands|Keyboard shortcuts|Command Id
+|-|-|-|
+|Properties|**Alt+Enter**| ClassViewContextMenus.ClassViewMultiselectProjectreferencesItems.Properties |
 
 ### <a name="bkmk_debug"></a> Debug
 
-|Commands|Keyboard shortcuts|
-|--------------| - |
-|Apply code changes|**Alt+F10**|
-|Attach to process|**Ctrl+Alt+P**|
-|Autos|**Ctrl+Alt+V, A**|
-|Break all|**Ctrl+Alt+Break**|
-|Breakpoints|**Ctrl+Alt+B**|
-|Call stack|**Ctrl+Alt+C**|
-|Delete all breakpoints|**Ctrl+Shift+F9**|
-|Launch|**Alt+F2**|
-|Disassembly|**Ctrl+Alt+D**|
-|DOM explorer|**Ctrl+Alt+V, D**|
-|Enable breakpoint|**Ctrl+F9**|
-|Exceptions|**Ctrl+Alt+E**|
-|Function breakpoint|**Ctrl+K, B** (Visual Studio 2019)<br />**Ctrl**+**B** (Visual Studio 2017)|
-|Go to previous call or IntelliTrace event|**Ctrl+Shift+F11**|
-|Start diagnostics|**Alt+F5**|
-|Immediate|**Ctrl+Alt+I**|
-|IntelliTrace calls|**Ctrl+Alt+Y, T**|
-|IntelliTrace events|**Ctrl+Alt+Y, F**|
-|JavaScript console|**Ctrl+Alt+V, C**|
-|Locals|**Ctrl+Alt+V, L**|
-|Process combo|**Ctrl+5**|
-|Stack frame combo|**Ctrl+7**|
-|Thread combo|**Ctrl+6**|
-|Toggle current thread flagged state|**Ctrl+8**|
-|Toggle flagged threads|**Ctrl+9**|
-|Memory 1|**Ctrl+Alt+M, 1**|
-|Memory 2|**Ctrl+Alt+M, 2**|
-|Memory 3|**Ctrl+Alt+M, 3**|
-|Memory 4|**Ctrl+Alt+M, 4**|
-|Modules|**Ctrl+Alt+U**|
-|Parallel stacks|**Ctrl+Shift+D, S**|
-|Parallel watch 1|**Ctrl+Shift+D, 1**|
-|Parallel watch 2|**Ctrl+Shift+D, 2**|
-|Parallel watch 3|**Ctrl+Shift+D, 3**|
-|Parallel watch 4|**Ctrl+Shift+D, 4**|
-|Processes|**Ctrl+Alt+Z**|
-|Quick watch|**Shift+F9** or **Ctrl+Alt+Q**|
-|Reattach to process|**Shift+Alt+P**|
-|Refresh Windows app|**Ctrl+Shift+R**|
-|Registers|**Ctrl+Alt+G**|
-|Restart|**Ctrl+Shift+F5**|
-|Run to cursor|**Ctrl+F10**|
-|Set next statement|**Ctrl+Shift+F10**|
-|Show call stack on code map|**Ctrl+Shift+`**|
-|Show next statement|**Alt+Num** *|
-|Start|**F5**|
-|Start windows phone application analysis|**Alt+F1**|
-|Start without debugging|**Ctrl+F5**|
-|Step into|**F11**|
-|Step into current process|**Ctrl+Alt+F11**|
-|Step into specific|**Shift+Alt+F11**|
-|Step out|**Shift+F11**|
-|Step out current process|**Ctrl+Shift+Alt+F11**|
-|Step over|**F10** (When debugging: Performs a step over action)|
-|Step over|**F10** (When not debugging: Starts debugging and stops on the first line of user code)|
-|Step over current process|**Ctrl+Alt+F10**|
-|Stop debugging|**Shift+F5**|
-|Stop performance analysis|**Shift+Alt+F2**|
-|Tasks|**Ctrl+Shift+D, K**|
-|Threads|**Ctrl+Alt+H**|
-|Toggle breakpoint|**F9**|
-|Toggle disassembly|**Ctrl+F11**|
-|Watch 1|**Ctrl+Alt+W, 1**|
-|Watch 2|**Ctrl+Alt+W, 2**|
-|Watch 3|**Ctrl+Alt+W, 3**|
-|Watch 4|**Ctrl+Alt+W, 4**|
+|Commands|Keyboard shortcuts|Command Id
+|-|-|-|
+|Apply code changes|**Alt+F10**| Debug.ApplyCodeChanges |
+|Attach  to process|**Ctrl+Alt+P**| Debug.AttachtoProcess |
+|Autos|**Ctrl+Alt+V, A**| Debug.Autos |
+|Break all|**Ctrl+Alt+Break**| Debug.BreakAll |
+|Breakpoints|**Ctrl+Alt+B**| Debug.Breakpoints |
+|Call stack|**Ctrl+Alt+C**| Debug.CallStack |
+|Delete all breakpoints|**Ctrl+Shift+F9**| Debug.DeleteAllBreakpoints |
+|Launch|**Alt+F2**| Debug.DiagnosticsHub.Launch |
+|Disassembly|**Ctrl+Alt+D**| Debug.Disassembly |
+|Dom explorer|**Ctrl+Alt+V, D**| Debug.DOMExplorer |
+|Enable breakpoint|**Ctrl+F9**| Debug.EnableBreakpoint |
+|Exceptions|**Ctrl+Alt+E**| Debug.Exceptions |
+|Function breakpoint|**Ctrl+K, B** (Visual Studio 2019)<br />**Ctrl**+**B** (Visual Studio 2017)| Debug.FunctionBreakpoint |
+|Go to previous callor intelli trace event|**Ctrl+Shift+F11**| Debug.GoToPreviousCallorIntelliTraceEvent |
+|Start diagnostics|**Alt+F5**| Debug.Graphics.StartDiagnostics |
+|Immediate|**Ctrl+Alt+I**| Debug.Immediate |
+|Intelli trace calls|**Ctrl+Alt+Y, T**| Debug.IntelliTraceCalls |
+|Intelli trace events|**Ctrl+Alt+Y, F**| Debug.IntelliTraceEvents |
+|Java script console|**Ctrl+Alt+V, C**| Debug.JavaScriptConsole |
+|Locals|**Ctrl+Alt+V, L**| Debug.Locals |
+|Process combo|**Ctrl+5**| Debug.LocationToolbar.ProcessCombo |
+|Stack frame combo|**Ctrl+7**| Debug.LocationToolbar.StackFrameCombo |
+|Thread combo|**Ctrl+6**| Debug.LocationToolbar.ThreadCombo |
+|Toggle current thread flagged state|**Ctrl+8**| Debug.LocationToolbar.ToggleCurrentThreadFlaggedState |
+|Toggle flagged threads|**Ctrl+9**| Debug.LocationToolbar.ToggleFlaggedThreads |
+|Memory 1|**Ctrl+Alt+M, 1**| Debug.Memory1 |
+|Memory 2|**Ctrl+Alt+M, 2**| Debug.Memory2 |
+|Memory 3|**Ctrl+Alt+M, 3**| Debug.Memory3 |
+|Memory 4|**Ctrl+Alt+M, 4**| Debug.Memory4 |
+|Modules|**Ctrl+Alt+U**| Debug.Modules |
+|Parallel stacks|**Ctrl+Shift+D, S**| Debug.ParallelStacks |
+|Parallel watch 1|**Ctrl+Shift+D, 1**| Debug.ParallelWatch1 |
+|Parallel watch 2|**Ctrl+Shift+D, 2**| Debug.ParallelWatch2 |
+|Parallel watch 3|**Ctrl+Shift+D, 3**| Debug.ParallelWatch3 |
+|Parallel watch 4|**Ctrl+Shift+D, 4**| Debug.ParallelWatch4 |
+|Processes|**Ctrl+Alt+Z**| Debug.Processes |
+|Quick watch|**Shift+F9** or **Ctrl+Alt+Q**| Debug.QuickWatch |
+|Reattach  to process|**Shift+Alt+P**| Debug.ReattachtoProcess |
+|Refresh windowsapp|**Ctrl+Shift+R**| Debug.RefreshWindowsapp |
+|Registers|**Ctrl+Alt+G**| Debug.Registers |
+|Restart|**Ctrl+Shift+F5**| Debug.Restart |
+|Run to cursor|**Ctrl+F10**| Debug.RunToCursor |
+|Set next statement|**Ctrl+Shift+F10**| Debug.SetNextStatement |
+|Show call stackon code map|**Ctrl+Shift+`**| Debug.ShowCallStackonCodeMap |
+|Show next statement|**Alt+Num** *| Debug.ShowNextStatement |
+|Start|**F5**| Debug.Start |
+|Start windows phone application analysis|**Alt+F1**| Debug.StartWindowsPhoneApplicationAnalysis |
+|Start without debugging|**Ctrl+F5**| Debug.StartWithoutDebugging |
+|Step into|**F11**| Debug.StepInto |
+|Step into current process|**Ctrl+Alt+F11**| Debug.StepIntoCurrentProcess |
+|Step into specific|**Shift+Alt+F11**| Debug.StepIntoSpecific |
+|Step out|**Shift+F11**| Debug.StepOut |
+|Step out current process|**Ctrl+Shift+Alt+F11**| Debug.StepOutCurrentProcess |
+|Step over|**F10** (When debugging: Performs a step over action)| Debug.StepOver |
+|Step over|**F10** (When not debugging: Starts debugging and stops on the first line of user code)| Debug.StepOver |
+|Step over current process|**Ctrl+Alt+F10**| Debug.StepOverCurrentProcess |
+|Stop debugging|**Shift+F5**| Debug.StopDebugging |
+|Stop performance analysis|**Shift+Alt+F2**| Debug.StopPerformanceAnalysis |
+|Tasks|**Ctrl+Shift+D, K**| Debug.Tasks |
+|Threads|**Ctrl+Alt+H**| Debug.Threads |
+|Toggle breakpoint|**F9**| Debug.ToggleBreakpoint |
+|Toggle disassembly|**Ctrl+F11**| Debug.ToggleDisassembly |
+|Watch 1|**Ctrl+Alt+W, 1**| Debug.Watch1 |
+|Watch 2|**Ctrl+Alt+W, 2**| Debug.Watch2 |
+|Watch 3|**Ctrl+Alt+W, 3**| Debug.Watch3 |
+|Watch 4|**Ctrl+Alt+W, 4**| Debug.Watch4 |
 
 ### <a name="bkmk_debugger"></a> Debugger context menus
 
-|Commands|Keyboard shortcuts|
-|--------------| - |
-|Delete|**Alt+F9, D**|
-|Go to disassembly|**Alt+F9, A**|
-|Go to source code|**Alt+F9, S**|
+|Commands|Keyboard shortcuts|Command Id
+|-|-|-|
+|Delete|**Alt+F9, D**| DebuggerContextMenus.BreakpointsWindow.Delete |
+|Go to disassembly|**Alt+F9, A**| DebuggerContextMenus.BreakpointsWindow.GoToDisassembly |
+|Go to source code|**Alt+F9, S**| DebuggerContextMenus.BreakpointsWindow.GoToSourceCode |
 
 ### <a name="bkmk_diagnostics"></a> Diagnostics Hub
 
-|Command|Keyboard shortcut|
-|-------------| - |
-|Stop collection|**Ctrl+Alt+F2**|
+|Command|Keyboard shortcut|Command Id
+|-|-|-|
+|Stop collection|**Ctrl+Alt+F2**| DiagnosticsHub.StopCollection |
 
 ### <a name="bkmk_edit"></a> Edit
 
-|Commands|Keyboard shortcuts|
-|--------------|-|
-|Copy|**Ctrl+C**<br /><br /> or<br /><br /> **Ctrl+Ins**|
-|Cut|**Ctrl+X**<br /><br /> or<br /><br /> **Shift+Delete**|
-|Cycle clipboard ring|**Ctrl+Shift+V**<br /><br /> or<br /><br /> **Ctrl+Shift+Ins**|
-|Delete|**Delete**|
-|Duplicate|**Ctrl+D**|
-|Find|**Ctrl+F**|
-|Find all references|**Shift+F12**|
-|Find in files|**Ctrl+Shift+F**|
-|Find next|**F3**|
-|Find next selected|**Ctrl+F3**|
-|Find previous|**Shift+F3**|
-|Find previous selected|**Ctrl+Shift+F3**|
-|Generate method|**Ctrl+K, Ctrl+M**|
-|Go to|**Ctrl+G**|
-|Go to all|**Ctrl+,** or **Ctrl+T**|
-|Go to declaration|**Ctrl+F12**|
-|Go to definition|**F12**|
-|Go to member|**Ctrl+1, Ctrl+M** or **Ctrl+1, M** or **Alt+\\**|
-|Go to next location|**F8** (Next error in Error List or Output window)|
-|Go to prev location|**Shift+F8** (Previous error in Error List or Output window)|
-|Insert snippet|**Ctrl+K, Ctrl+X**|
-|Move control down|**Ctrl+Down Arrow**|
-|Move control down grid|**Down Arrow**|
-|Move control left|**Ctrl+Left Arrow**|
-|Move control left grid|**Left Arrow**|
-|Move control right|**Ctrl+Right Arrow**|
-|Move control right grid|**Right Arrow**|
-|Move control up|**Ctrl+Up Arrow**|
-|Move control up grid|**Up Arrow**|
-|Next bookmark|**Ctrl+K, Ctrl+N**|
-|Next bookmark in folder|**Ctrl+Shift+K, Ctrl+Shift+N**|
-|Open file|**Ctrl+Shift+G** (Opens the file name under the cursor)|
-|Paste|**Ctrl+V**<br /><br /> or<br /><br /> **Shift+Ins**|
-|Previous bookmark|**Ctrl+K, Ctrl+P**|
-|Previous bookmark in folder|**Ctrl+Shift+K, Ctrl+Shift+P**|
-|Quick find symbol|**Shift+Alt+F12**|
-|Redo|**Ctrl+Y**<br /><br /> or<br /><br /> **Ctrl+Shift+Z**<br /><br /> or<br /><br /> **Shift+Alt+Backspace**|
-|Refresh remote references|**Ctrl+Shift+J**|
-|Replace|**Ctrl+H**|
-|Replace in files|**Ctrl+Shift+H**|
-|Select all|**Ctrl+A**|
-|Select next control|**Tab**|
-|Select previous control|**Shift+Tab**|
-|Show tile grid|**Enter**|
-|Size control down|**Ctrl+Shift+Down Arrow**|
-|Size control down grid|**Shift+Down Arrow**|
-|Size control left|**Ctrl+Shift+Left Arrow**|
-|Size control left grid|**Shift+Left Arrow**|
-|Size control right|**Ctrl+Shift+Right Arrow**|
-|Size control right grid|**Shift+Right Arrow**|
-|Size control up|**Ctrl+Shift+Up Arrow**|
-|Size control up grid|**Shift+Up Arrow**|
-|Stop search|**Alt+F3, S**|
-|Surround with|**Ctrl+K, Ctrl+S**|
-|Undo|**Ctrl+Z**<br /><br /> or<br /><br /> **Alt+Backspace**|
+|Commands|Keyboard shortcuts|Command Id
+|-|-|-|
+|Copy|**Ctrl+C**<br /><br /> or<br /><br /> **Ctrl+Ins**| Edit.Copy |
+|Cut|**Ctrl+X**<br /><br /> or<br /><br /> **Shift+Delete**| Edit.Cut |
+|Cycle clipboard ring|**Ctrl+Shift+V**<br /><br /> or<br /><br /> **Ctrl+Shift+Ins**| Edit.CycleClipboardRing |
+|Delete|**Delete**| Edit.Delete |
+|Duplicate|**Ctrl+D**| Edit.Duplicate |
+|Find|**Ctrl+F**| Edit.Find |
+|Find all references|**Shift+F12**| Edit.FindAllReferences |
+|Find  in files|**Ctrl+Shift+F**| Edit.FindinFiles |
+|Find next|**F3**| Edit.FindNext |
+|Find next selected|**Ctrl+F3**| Edit.FindNextSelected |
+|Find previous|**Shift+F3**| Edit.FindPrevious |
+|Find previous selected|**Ctrl+Shift+F3**| Edit.FindPreviousSelected |
+|Generate method|**Ctrl+K, Ctrl+M**| Edit.GenerateMethod |
+|Go to|**Ctrl+G**| Edit.GoTo |
+|Go to all|**Ctrl+,** or **Ctrl+T**| Edit.GoToAll |
+|Go to declaration|**Ctrl+F12**| Edit.GoToDeclaration |
+|Go to definition|**F12**| Edit.GoToDefinition |
+|Go to member|**Ctrl+1, Ctrl+M** or **Ctrl+1, M** or **Alt+\\**| Edit.GoToMember |
+|Go to next location|**F8** (Next error in Error List or Output window)| Edit.GoToNextLocation |
+|Go to prev location|**Shift+F8** (Previous error in Error List or Output window)| Edit.GoToPrevLocation |
+|Insert snippet|**Ctrl+K, Ctrl+X**| Edit.InsertSnippet |
+|Move control down|**Ctrl+Down Arrow**| Edit.MoveControlDown |
+|Move control down grid|**Down Arrow**| Edit.MoveControlDownGrid |
+|Move control left|**Ctrl+Left Arrow**| Edit.MoveControlLeft |
+|Move control left grid|**Left Arrow**| Edit.MoveControlLeftGrid |
+|Move control right|**Ctrl+Right Arrow**| Edit.MoveControlRight |
+|Move control right grid|**Right Arrow**| Edit.MoveControlRightGrid |
+|Move control up|**Ctrl+Up Arrow**| Edit.MoveControlUp |
+|Move control up grid|**Up Arrow**| Edit.MoveControlUpGrid |
+|Next bookmark|**Ctrl+K, Ctrl+N**| Edit.NextBookmark |
+|Next bookmark in folder|**Ctrl+Shift+K, Ctrl+Shift+N**| Edit.NextBookmarkInFolder |
+|Open file|**Ctrl+Shift+G** (Opens the file name under the cursor)| Edit.OpenFile |
+|Paste|**Ctrl+V**<br /><br /> or<br /><br /> **Shift+Ins**| Edit.Paste |
+|Previous bookmark|**Ctrl+K, Ctrl+P**| Edit.PreviousBookmark |
+|Previous bookmark in folder|**Ctrl+Shift+K, Ctrl+Shift+P**| Edit.PreviousBookmarkInFolder |
+|Quick find symbol|**Shift+Alt+F12**| Edit.QuickFindSymbol |
+|Redo|**Ctrl+Y**<br /><br /> or<br /><br /> **Ctrl+Shift+Z**<br /><br /> or<br /><br /> **Shift+Alt+Backspace**| Edit.Redo |
+|Refresh remote references|**Ctrl+Shift+J**| Edit.RefreshRemoteReferences |
+|Replace|**Ctrl+H**| Edit.Replace |
+|Replace  in files|**Ctrl+Shift+H**| Edit.ReplaceinFiles |
+|Select all|**Ctrl+A**| Edit.SelectAll |
+|Select next control|**Tab**| Edit.SelectNextControl |
+|Select previous control|**Shift+Tab**| Edit.SelectPreviousControl |
+|Show tile grid|**Enter**| Edit.ShowTileGrid |
+|Size control down|**Ctrl+Shift+Down Arrow**| Edit.SizeControlDown |
+|Size control down grid|**Shift+Down Arrow**| Edit.SizeControlDownGrid |
+|Size control left|**Ctrl+Shift+Left Arrow**| Edit.SizeControlLeft |
+|Size control left grid|**Shift+Left Arrow**| Edit.SizeControlLeftGrid |
+|Size control right|**Ctrl+Shift+Right Arrow**| Edit.SizeControlRight |
+|Size control right grid|**Shift+Right Arrow**| Edit.SizeControlRightGrid |
+|Size control up|**Ctrl+Shift+Up Arrow**| Edit.SizeControlUp |
+|Size control up grid|**Shift+Up Arrow**| Edit.SizeControlUpGrid |
+|Stop search|**Alt+F3, S**| Edit.StopSearch |
+|Surround with|**Ctrl+K, Ctrl+S**| Edit.SurroundWith |
+|Undo|**Ctrl+Z**<br /><br /> or<br /><br /> **Alt+Backspace**| Edit.Undo |
 
 ### <a name="bkmk_editorContext"></a> Editor context menus
 
-|Commands|Keyboard shortcuts|
-|--------------| - |
-|Breakpoint conditions|**Alt+F9, C**|
-|Breakpoint edit labels|**Alt+F9, L**|
-|Show item|**Ctrl+`**|
-|Execute|**Ctrl+Alt+F5**|
-|Go to view|**Ctrl+M, Ctrl+G**|
-|Toggle header code file|**Ctrl+K, Ctrl+O** (letter 'O')|
-|View call hierarchy|**Ctrl+K, Ctrl+T**<br /><br /> or<br /><br /> **Ctrl+K, T**|
+|Commands|Keyboard shortcuts|Command Id
+|-|-|-|
+|Breakpoint conditions|**Alt+F9, C**| EditorContextMenus.CodeWindow.Breakpoint.BreakpointConditions |
+|Breakpoint editlabels|**Alt+F9, L**| EditorContextMenus.CodeWindow.Breakpoint.BreakpointEditlabels |
+|Show item|**Ctrl+`**| EditorContextMenus.CodeWindow.CodeMap.ShowItem |
+|Execute|**Ctrl+Alt+F5**| EditorContextMenus.CodeWindow.Execute |
+|Go to view|**Ctrl+M, Ctrl+G**| EditorContextMenus.CodeWindow.GoToView |
+|Toggle header code file|**Ctrl+K, Ctrl+O** (letter 'O')| EditorContextMenus.CodeWindow.ToggleHeaderCodeFile |
+|View call hierarchy|**Ctrl+K, Ctrl+T**<br /><br /> or<br /><br /> **Ctrl+K, T**| EditorContextMenus.CodeWindow.ViewCallHierarchy |
 
 ### <a name="bkmk_file"></a> File
 
-|Commands|Keyboard shortcuts|
-|--------------| - |
-|Exit|**Alt+F4**|
-|New file|**Ctrl+N**|
-|New project|**Ctrl+Shift+N**|
-|New web site|**Shift+Alt+N**|
-|Open file|**Ctrl+O** (letter 'O')|
-|Open project|**Ctrl+Shift+O** (letter 'O')|
-|Open web site|**Shift+Alt+O** (letter 'O')|
-|Print|**Ctrl+P**|
-|Save all|**Ctrl+Shift+S**|
-|Save selected items|**Ctrl+S**|
-|Viewin browser|**Ctrl+Shift+W**|
+|Commands|Keyboard shortcuts|Command Id
+|-|-|-|
+|Exit|**Alt+F4**| File.Exit |
+|New file|**Ctrl+N**| File.NewFile |
+|New project|**Ctrl+Shift+N**| File.NewProject |
+|New web site|**Shift+Alt+N**| File.NewWebSite |
+|Open file|**Ctrl+O** (letter 'O')| File.OpenFile |
+|Open project|**Ctrl+Shift+O** (letter 'O')| File.OpenProject |
+|Open web site|**Shift+Alt+O** (letter 'O')| File.OpenWebSite |
+|Print|**Ctrl+P**| File.Print |
+|Save all|**Ctrl+Shift+S**| File.SaveAll |
+|Save selected items|**Ctrl+S**| File.SaveSelectedItems |
+|View  in browser|**Ctrl+Shift+W**| File.ViewinBrowser |
 
 ### <a name="bkmk_help"></a> Help
 
-|Commands|Keyboard shortcuts|
-|--------------| - |
-|Add and remove help content|**Ctrl+Alt+F1**|
-|F1 help|**F1**|
-|View help|**Ctrl+F1**|
-|Window help|**Shift+F1**|
+|Commands|Keyboard shortcuts|Command Id
+|-|-|-|
+|Add  and remove help content|**Ctrl+Alt+F1**| Help.AddandRemoveHelpContent |
+|F 1 help|**F1**| Help.F1Help |
+|View help|**Ctrl+F1**| Help.ViewHelp |
+|Window help|**Shift+F1**| Help.WindowHelp |
 
 ### <a name="bkmk_loadtest"></a> Load test
 
-|Command|Keyboard shortcut|
-|-------------| - |
-|Jump to counter pane|**Ctrl+R, Q**|
+|Command|Keyboard shortcut|Command Id
+|-|-|-|
+|Jump to counter pane|**Ctrl+R, Q**| LoadTest.JumpToCounterPane |
 
 ### <a name="bkmk_otherContext"></a> Other context menus
 
-|Command|Keyboard shortcut|
-|-------------| - |
-|Add new diagram|**Insert**|
+|Command|Keyboard shortcut|Command Id
+|-|-|-|
+|Add new diagram|**Insert**| OtherContextMenus.MicrosoftDataEntityDesignContext.AddNewDiagram |
 
 ### <a name="bkmk_project"></a> Project
 
-|Commands|Keyboard shortcuts|
-|--------------| - |
-|Add existing item|**Shift+Alt+A**|
-|Add new item|**Ctrl+Shift+A**|
-|Class wizard|**Ctrl+Shift+X**|
-|Override|**Ctrl+Alt+Ins**|
-|Preview changes|**Alt+;** then **Alt+C**|
-|Publish selected files|**Alt+;** then **Alt+P**|
-|Replace selected files from server|**Alt+;** then **Alt+R**|
+|Commands|Keyboard shortcuts|Command Id
+|-|-|-|
+|Add existing item|**Shift+Alt+A**| Project.AddExistingItem |
+|Add new item|**Ctrl+Shift+A**| Project.AddNewItem |
+|Class wizard|**Ctrl+Shift+X**| Project.ClassWizard |
+|Override|**Ctrl+Alt+Ins**| Project.Override |
+|Preview  changes|**Alt+;** then **Alt+C**| Project.Previewchanges |
+|Publish  selected  files|**Alt+;** then **Alt+P**| Project.Publishselectedfiles |
+|Replace  selected  files  from  server|**Alt+;** then **Alt+R**| Project.Replaceselectedfilesfromserver |
 
 ### <a name="bkmk_projectContext"></a> Project and solution context menus
 
-|Commands|Keyboard shortcuts|
-|--------------| - |
-|Move down|**Alt+Down Arrow**|
-|Move up|**Alt+Up Arrow**|
+|Commands|Keyboard shortcuts|Command Id
+|-|-|-|
+|Move down|**Alt+Down Arrow**| ProjectandSolutionContextMenus.Item.MoveDown |
+|Move up|**Alt+Up Arrow**| ProjectandSolutionContextMenus.Item.MoveUp |
 
 ### <a name="bkmk_refactor"></a> Refactor
 
-|Commands|Keyboard shortcuts|
-|--------------| - |
-|Encapsulate field|**Ctrl+R, Ctrl+E**|
-|Extract interface|**Ctrl+R, Ctrl+I**|
-|Extract method|**Ctrl+R, Ctrl+M**|
-|Remove parameters|**Ctrl+R, Ctrl+V**|
-|Rename|**Ctrl+R, Ctrl+R**|
-|Reorder parameters|**Ctrl+R, Ctrl+O** (letter 'O')|
+|Commands|Keyboard shortcuts|Command Id
+|-|-|-|
+|Encapsulate field|**Ctrl+R, Ctrl+E**| Refactor.EncapsulateField |
+|Extract interface|**Ctrl+R, Ctrl+I**| Refactor.ExtractInterface |
+|Extract method|**Ctrl+R, Ctrl+M**| Refactor.ExtractMethod |
+|Remove parameters|**Ctrl+R, Ctrl+V**| Refactor.RemoveParameters |
+|Rename|**Ctrl+R, Ctrl+R**| Refactor.Rename |
+|Reorder parameters|**Ctrl+R, Ctrl+O** (letter 'O')| Refactor.ReorderParameters |
 
 ### <a name="bkmk_solutionexplorerGLOBAL"></a> Solution Explorer
 
-|Commands|Keyboard shortcuts|
-|--------------| - |
-|Open files filter|**Ctrl+[**, **O** (letter 'O')<br /><br /> or<br /><br /> **Ctrl+[**, **Ctrl+O** (letter 'O')|
-|Pending changes filter|**Ctrl+[**, **P**<br /><br /> or<br /><br /> **Ctrl+[**, **Ctrl+P**|
-|Sync with active document|**Ctrl+[**, **S**<br /><br /> or<br /><br /> **Ctrl+[**, **Ctrl+S**|
+|Commands|Keyboard shortcuts|Command Id
+|-|-|-|
+|Open files filter|**Ctrl+[**, **O** (letter 'O')<br /><br /> or<br /><br /> **Ctrl+[**, **Ctrl+O** (letter 'O')| SolutionExplorer.OpenFilesFilter |
+|Pending changes filter|**Ctrl+[**, **P**<br /><br /> or<br /><br /> **Ctrl+[**, **Ctrl+P**| SolutionExplorer.PendingChangesFilter |
+|Sync with active document|**Ctrl+[**, **S**<br /><br /> or<br /><br /> **Ctrl+[**, **Ctrl+S**| SolutionExplorer.SyncWithActiveDocument |
 
 ### <a name="bkmk_team"></a> Team
 
-|Commands|Keyboard shortcuts|
-|--------------| - |
-|Go to git branches|**Ctrl+0** (zero), **Ctrl+N**<br /><br /> or<br /><br /> **Ctrl+0, N**|
-|Go to git changes|**Ctrl+0** (zero), **Ctrl+G**<br /><br /> or<br /><br /> **Ctrl+0, G**|
-|Go to git commits|**Ctrl+0** (zero), **Ctrl+O** (letter 'O')<br /><br /> or<br /><br /> **Ctrl+0, O**|
-|Team explorer search|**Ctrl+'**|
+|Commands|Keyboard shortcuts|Command Id
+|-|-|-|
+|Go to git branches|**Ctrl+0** (zero), **Ctrl+N**<br /><br /> or<br /><br /> **Ctrl+0, N**| Team.Git.GoToGitBranches |
+|Go to git changes|**Ctrl+0** (zero), **Ctrl+G**<br /><br /> or<br /><br /> **Ctrl+0, G**| Team.Git.GoToGitChanges |
+|Go to git commits|**Ctrl+0** (zero), **Ctrl+O** (letter 'O')<br /><br /> or<br /><br /> **Ctrl+0, O**| Team.Git.GoToGitCommits |
+|Team explorer search|**Ctrl+'**| Team.TeamExplorerSearch |
 
 ### <a name="bkmk_TFcontext"></a> Team Foundation context menus
 
-|Commands|Keyboard shortcuts|
-|--------------| - |
-|Go to builds|**Ctrl+0** (zero), **Ctrl+B**<br /><br /> or<br /><br /> **Ctrl+0, B**|
-|Go to connect|**Ctrl+0** (zero), **Ctrl+C**<br /><br /> or<br /><br /> **Ctrl+0, C**|
-|Go to documents|**Ctrl+0** (zero), **Ctrl+D**<br /><br /> or<br /><br /> **Ctrl+0, D**|
-|Go to home|**Ctrl+0** (zero), **Ctrl+H**<br /><br /> or<br /><br /> **Ctrl+0, H**|
-|Go to my work|**Ctrl+0** (zero), **Ctrl+M**<br /><br /> or<br /><br /> **Ctrl+0, M**|
-|Go to pending changes|**Ctrl+0** (zero), **Ctrl+P**<br /><br /> or<br /><br /> **Ctrl+0, P**|
-|Go to reports|**Ctrl+0** (zero), **Ctrl+R**<br /><br /> or<br /><br /> **Ctrl+0, R**|
-|Go to settings|**Ctrl+0** (zero), **Ctrl+S**<br /><br /> or<br /><br /> **Ctrl+0, S**|
-|Go to web access|**Ctrl+0** (zero), **Ctrl+A**<br /><br /> or<br /><br /> **Ctrl+0, A**|
-|Go to work items|**Ctrl+0** (zero), **Ctrl+W**<br /><br /> or<br /><br /> **Ctrl+0, W**|
+|Commands|Keyboard shortcuts|Command Id
+|-|-|-|
+|Go to builds|**Ctrl+0** (zero), **Ctrl+B**<br /><br /> or<br /><br /> **Ctrl+0, B**| TeamFoundationContextMenus.Commands.GoToBuilds |
+|Go to connect|**Ctrl+0** (zero), **Ctrl+C**<br /><br /> or<br /><br /> **Ctrl+0, C**| TeamFoundationContextMenus.Commands.GoToConnect |
+|Go to documents|**Ctrl+0** (zero), **Ctrl+D**<br /><br /> or<br /><br /> **Ctrl+0, D**| TeamFoundationContextMenus.Commands.GoToDocuments |
+|Go to home|**Ctrl+0** (zero), **Ctrl+H**<br /><br /> or<br /><br /> **Ctrl+0, H**| TeamFoundationContextMenus.Commands.GoToHome |
+|Go to my work|**Ctrl+0** (zero), **Ctrl+M**<br /><br /> or<br /><br /> **Ctrl+0, M**| TeamFoundationContextMenus.Commands.GoToMyWork |
+|Go to pending changes|**Ctrl+0** (zero), **Ctrl+P**<br /><br /> or<br /><br /> **Ctrl+0, P**| TeamFoundationContextMenus.Commands.GoToPendingChanges |
+|Go to reports|**Ctrl+0** (zero), **Ctrl+R**<br /><br /> or<br /><br /> **Ctrl+0, R**| TeamFoundationContextMenus.Commands.GoToReports |
+|Go to settings|**Ctrl+0** (zero), **Ctrl+S**<br /><br /> or<br /><br /> **Ctrl+0, S**| TeamFoundationContextMenus.Commands.GoToSettings |
+|Go to web access|**Ctrl+0** (zero), **Ctrl+A**<br /><br /> or<br /><br /> **Ctrl+0, A**| TeamFoundationContextMenus.Commands.GoToWebAccess |
+|Go to work items|**Ctrl+0** (zero), **Ctrl+W**<br /><br /> or<br /><br /> **Ctrl+0, W**| TeamFoundationContextMenus.Commands.GoToWorkItems |
 
 ### <a name="bkmk_test"></a> Test
 
-|Commands|Keyboard shortcuts|
-|--------------| - |
-|Use coded ui test builder|**Ctrl+\\, Ctrl+C**|
-|Use existing action recording|**Ctrl+\\, Ctrl+A**|
+|Commands|Keyboard shortcuts|Command Id
+|-|-|-|
+|Use coded ui test builder|**Ctrl+\\, Ctrl+C**| Test.UseCodedUITestBuilder |
+|Use existing action recording|**Ctrl+\\, Ctrl+A**| Test.UseExistingActionRecording |
 
 ### <a name="bkmk_testexplorerGLOBAL"></a> Test Explorer
 
-|Commands|Keyboard shortcuts|
-|--------------| - |
-|Debug all tests|**Ctrl+R, Ctrl+A**|
-|Debug all tests in context|**Ctrl+R, Ctrl+T**|
-|Debug last run|**Ctrl+R, D**|
-|Repeat last run|**Ctrl+R, L**|
-|Run all tests|**Ctrl+R, A**|
-|Run all tests in context|**Ctrl+R, T**|
-|Show test explorer|**Ctrl+E, T**|
-|Open tab|**Ctrl+E, L**|
-|Code coverage results|**Ctrl+E, C**|
+|Commands|Keyboard shortcuts|Command Id
+|-|-|-|
+|Debug all tests|**Ctrl+R, Ctrl+A**| TestExplorer.DebugAllTests |
+|Debug all tests in context|**Ctrl+R, Ctrl+T**| TestExplorer.DebugAllTestsInContext |
+|Debug last run|**Ctrl+R, D**| TestExplorer.DebugLastRun |
+|Repeat last run|**Ctrl+R, L**| TestExplorer.RepeatLastRun |
+|Run all tests|**Ctrl+R, A**| TestExplorer.RunAllTests |
+|Run all tests in context|**Ctrl+R, T**| TestExplorer.RunAllTestsInContext |
+|Show test explorer|**Ctrl+E, T**| TestExplorer.ShowTestExplorer |
+|Open tab|**Ctrl+E, L**| LiveUnitTesting.OpenTab |
+|Code coverage results|**Ctrl+E, C**| Test.CodeCoverageResults |
 
 ### <a name="bkmk_tools"></a> Tools
 
-|Commands|Keyboard shortcuts|
-|--------------| - |
-|Attach to process|**Ctrl+Alt+P**|
-|Code snippets manager|**Ctrl+K, Ctrl+B**|
-|Force gc|**Ctrl+Shift+Alt+F12, Ctrl+Shift+Alt+F12**|
+|Commands|Keyboard shortcuts|Command Id
+|-|-|-|
+|Attach  to process|**Ctrl+Alt+P**| Tools.AttachtoProcess |
+|Code snippets manager|**Ctrl+K, Ctrl+B**| Tools.CodeSnippetsManager |
+|Force gc|**Ctrl+Shift+Alt+F12, Ctrl+Shift+Alt+F12**| Tools.ForceGC |
 
 ### <a name="bkmk_view"></a> View
 
-|Commands|Keyboard shortcuts|
-|--------------| - |
-|All windows|**Shift+Alt+M**|
-|Architecture explorer|**Ctrl+\\, Ctrl+R**|
-|Backward|**Alt+Left Arrow** (Functions differently from View.NavigateBackward in Text Editor)|
-|Bookmark window|**Ctrl+K, Ctrl+W**|
-|Browse next|**Ctrl+Shift+1**|
-|Browse previous|**Ctrl+Shift+2**|
-|Call hierarchy|**Ctrl+Alt+K**|
-|Class view|**Ctrl+Shift+C**|
-|Class view go to search combo|**Ctrl+K, Ctrl+V**|
-|Code definition window|**Ctrl+\\, D**<br /><br /> or<br /><br /> **Ctrl+\\, Ctrl+D**|
-|Command window|**Ctrl+Alt+A**|
-|Data sources|**Shift+Alt+D**|
-|Document outline|**Ctrl+Alt+T**|
-|Edit label|**F2**|
-|Error list|**Ctrl+\\, E**<br /><br /> or<br /><br /> **Ctrl+\\, Ctrl+E**|
-|F # interactive|**Ctrl+Alt+F**|
-|Find symbol results|**Ctrl+Alt+F12**|
-|Forward|**Alt+Right Arrow**  (Functions differently from View.NavigateForward in Text Editor)|
-|Forward browse context|**Ctrl+Shift+7**|
-|Full screen|**Shift+Alt+Enter**|
-|Navigate backward|**Ctrl+-**|
-|Navigate forward|**Ctrl+Shift+-**|
-|Next error|**Ctrl+Shift+F12**|
-|Notifications|**Ctrl+W, N**<br /><br /> or<br /><br /> **Ctrl+W, Ctrl+N**|
-|Object browser|**Ctrl+Alt+J**|
-|Object browser go to search combo|**Ctrl+K, Ctrl+R**|
-|Output|**Ctrl+Alt+O** (letter 'O')|
-|Pop browse context|**Ctrl+Shift+8** (C++ only)|
-|Properties window|**F4**|
-|Property pages|**Shift+F4**|
-|Resource view|**Ctrl+Shift+E**|
-|Server explorer|**Ctrl+Alt+S**|
-|Show smart tag|**Shift+Alt+F10**<br /><br /> or<br /><br /> **Ctrl+.**|
-|Solution explorer|**Ctrl+Alt+L**|
-|SQL server object explorer|**Ctrl+\\, Ctrl+S**|
-|Task list|**Ctrl+\\, T**<br /><br /> or<br /><br /> **Ctrl+\\, Ctrl+T**|
-|TFS team explorer|**Ctrl+\\, Ctrl+M**|
-|Toolbox|**Ctrl+Alt+X**|
-|Uml model explorer|**Ctrl+\\, Ctrl+U**|
-|View code|**F7**|
-|View designer|**Shift+F7**|
-|Web browser|**Ctrl+Alt+R**|
-|Zoom in|**Ctrl+Shift+.**|
-|Zoom out|**Ctrl+Shift+,**|
-|Show test explorer|**Ctrl+E, T**|
+|Commands|Keyboard shortcuts|Command Id
+|-|-|-|
+|All windows|**Shift+Alt+M**| View.AllWindows |
+|Architecture explorer|**Ctrl+\\, Ctrl+R**| View.ArchitectureExplorer |
+|Backward|**Alt+Left Arrow** (Functions differently from View.NavigateBackward in Text Editor)| View.Backward |
+|Bookmark window|**Ctrl+K, Ctrl+W**| View.BookmarkWindow |
+|Browse next|**Ctrl+Shift+1**| View.BrowseNext |
+|Browse previous|**Ctrl+Shift+2**| View.BrowsePrevious |
+|Call hierarchy|**Ctrl+Alt+K**| View.CallHierarchy |
+|Class view|**Ctrl+Shift+C**| View.ClassView |
+|Class view go to search combo|**Ctrl+K, Ctrl+V**| View.ClassViewGoToSearchCombo |
+|Code definition window|**Ctrl+\\, D**<br /><br /> or<br /><br /> **Ctrl+\\, Ctrl+D**| View.CodeDefinitionWindow |
+|Command window|**Ctrl+Alt+A**| View.CommandWindow |
+|Data sources|**Shift+Alt+D**| View.DataSources |
+|Document outline|**Ctrl+Alt+T**| View.DocumentOutline |
+|Edit label|**F2**| View.EditLabel |
+|Error list|**Ctrl+\\, E**<br /><br /> or<br /><br /> **Ctrl+\\, Ctrl+E**| View.ErrorList |
+|F # interactive|**Ctrl+Alt+F**| View.F#Interactive |
+|Find symbol results|**Ctrl+Alt+F12**| View.FindSymbolResults |
+|Forward|**Alt+Right Arrow**  (Functions differently from View.NavigateForward in Text Editor)| View.Forward |
+|Forward browse context|**Ctrl+Shift+7**| View.ForwardBrowseContext |
+|Full screen|**Shift+Alt+Enter**| View.FullScreen |
+|Navigate backward|**Ctrl+-**| View.NavigateBackward |
+|Navigate forward|**Ctrl+Shift+-**| View.NavigateForward |
+|Next error|**Ctrl+Shift+F12**| View.NextError |
+|Notifications|**Ctrl+W, N**<br /><br /> or<br /><br /> **Ctrl+W, Ctrl+N**| View.Notifications |
+|Object browser|**Ctrl+Alt+J**| View.ObjectBrowser |
+|Object browser go to search combo|**Ctrl+K, Ctrl+R**| View.ObjectBrowserGoToSearchCombo |
+|Output|**Ctrl+Alt+O** (letter 'O')| View.Output |
+|Pop browse context|**Ctrl+Shift+8** (C++ only)| View.PopBrowseContext |
+|Properties window|**F4**| View.PropertiesWindow |
+|Property pages|**Shift+F4**| View.PropertyPages |
+|Resource view|**Ctrl+Shift+E**| View.ResourceView |
+|Server explorer|**Ctrl+Alt+S**| View.ServerExplorer |
+|Show smart tag|**Shift+Alt+F10**<br /><br /> or<br /><br /> **Ctrl+.**| View.ShowSmartTag |
+|Solution explorer|**Ctrl+Alt+L**| View.SolutionExplorer |
+|Sql server object explorer|**Ctrl+\\, Ctrl+S**| View.SQLServerObjectExplorer |
+|Task list|**Ctrl+\\, T**<br /><br /> or<br /><br /> **Ctrl+\\, Ctrl+T**| View.TaskList |
+|Tfs team explorer|**Ctrl+\\, Ctrl+M**| View.TfsTeamExplorer |
+|Toolbox|**Ctrl+Alt+X**| View.Toolbox |
+|Uml model explorer|**Ctrl+\\, Ctrl+U**| View.UMLModelExplorer |
+|View code|**F7**| View.ViewCode |
+|View designer|**Shift+F7**| View.ViewDesigner |
+|Web browser|**Ctrl+Alt+R**| View.WebBrowser |
+|Zoom in|**Ctrl+Shift+.**| View.ZoomIn |
+|Zoom out|**Ctrl+Shift+,**| View.ZoomOut |
+|Show test explorer|**Ctrl+E, T**| TestExplorer.ShowTestExplorer |
 
 ### <a name="bkmk_window"></a> Window
 
-|Commands|Keyboard shortcuts|
-|--------------| - |
-|Activate document window|**Esc**|
-|Add tab to selection|**Ctrl+Shift+Alt+Space**|
-|Close document window|**Ctrl+F4**|
-|Close tool window|**Shift+Esc**|
-|Keep tab open|**Ctrl+Alt+Home**|
-|Move to navigation bar|**Ctrl+F2**|
-|Next document window|**Ctrl+F6**|
-|Next document window nav|**Ctrl+Tab**|
-|Next pane|**Alt+F6**|
-|Next split pane|**F6**|
-|Next tab|**Ctrl+Alt+PgDn**<br /><br /> or<br /><br /> **Ctrl+PgDn**|
-|Next tab and add to selection|**Ctrl+Shift+Alt+PgDn**|
-|Next tool window nav|**Alt+F7**|
-|Previous document window|**Ctrl+Shift+F6**|
-|Previous document window nav|**Ctrl+Shift+Tab**|
-|Previous pane|**Shift+Alt+F6**|
-|Previous split pane|**Shift+F6**|
-|Previous tab|**Ctrl+Alt+PgUp**<br /><br /> or<br /><br /> **Ctrl+PgUp**|
-|Previous tab and add to selection|**Ctrl+Shift+Alt+PgUp**|
-|Previous tool window nav|**Shift+Alt+F7**|
-|Quick launch|**Ctrl+Q**|
-|Quick launch previous category|**Ctrl+Shift+Q**|
-|Show dock menu|**Alt+-**|
-|Show ez mdi file list|**Ctrl+Alt+Down Arrow**|
-|Solution explorer search|**Ctrl+;**|
-|Window search|**Alt+`**|
+|Commands|Keyboard shortcuts|Command Id
+|-|-|-|
+|Activate document window|**Esc**| Window.ActivateDocumentWindow |
+|Add tabto selection|**Ctrl+Shift+Alt+Space**| Window.AddTabtoSelection |
+|Close document window|**Ctrl+F4**| Window.CloseDocumentWindow |
+|Close tool window|**Shift+Esc**| Window.CloseToolWindow |
+|Keep tab open|**Ctrl+Alt+Home**| Window.KeepTabOpen |
+|Move  to navigation bar|**Ctrl+F2**| Window.MovetoNavigationBar |
+|Next document window|**Ctrl+F6**| Window.NextDocumentWindow |
+|Next document window nav|**Ctrl+Tab**| Window.NextDocumentWindowNav |
+|Next pane|**Alt+F6**| Window.NextPane |
+|Next split pane|**F6**| Window.NextSplitPane |
+|Next tab|**Ctrl+Alt+PgDn**<br /><br /> or<br /><br /> **Ctrl+PgDn**| Window.NextTab |
+|Next taband addto selection|**Ctrl+Shift+Alt+PgDn**| Window.NextTabandAddtoSelection |
+|Next tool window nav|**Alt+F7**| Window.NextToolWindowNav |
+|Previous document window|**Ctrl+Shift+F6**| Window.PreviousDocumentWindow |
+|Previous document window nav|**Ctrl+Shift+Tab**| Window.PreviousDocumentWindowNav |
+|Previous pane|**Shift+Alt+F6**| Window.PreviousPane |
+|Previous split pane|**Shift+F6**| Window.PreviousSplitPane |
+|Previous tab|**Ctrl+Alt+PgUp**<br /><br /> or<br /><br /> **Ctrl+PgUp**| Window.PreviousTab |
+|Previous taband addto selection|**Ctrl+Shift+Alt+PgUp**| Window.PreviousTabandAddtoSelection |
+|Previous tool window nav|**Shift+Alt+F7**| Window.PreviousToolWindowNav |
+|Quick launch|**Ctrl+Q**| Window.QuickLaunch |
+|Quick launch previous category|**Ctrl+Shift+Q**| Window.QuickLaunchPreviousCategory |
+|Show dock menu|**Alt+-**| Window.ShowDockMenu |
+|Show ez mdi file list|**Ctrl+Alt+Down Arrow**| Window.ShowEzMDIFileList |
+|Solution explorer search|**Ctrl+;**| Window.SolutionExplorerSearch |
+|Window search|**Alt+`**| Window.WindowSearch |
 
 ### <a name="bkmk_windowsazure"></a> Azure
 
-|Commands|Keyboard shortcuts|
-|--------------| - |
-|Retry mobile service script operation|**Ctrl+Num \*, Ctrl+R**|
-|Show mobile service script error details|**Ctrl+Num \*, Ctrl+D**|
+|Commands|Keyboard shortcuts|Command Id
+|-|-|-|
+|Retry mobile service script operation|**Ctrl+Num \*, Ctrl+R**| WindowsAzure.RetryMobileServiceScriptOperation |
+|Show mobile service script error details|**Ctrl+Num \*, Ctrl+D**| WindowsAzure.ShowMobileServiceScriptErrorDetails |
 
 ## Context-specific shortcuts
+
 
 ### ADO.NET Entity Data Model Designer
 
 The shortcuts specific to this context are:
 
-|Commands|Keyboard shortcuts|
-|--------------| - |
-|Down|**Alt+Down Arrow**|
-|Down 5|**Alt+PgDn**|
-|To bottom|**Alt+End**|
-|To top|**Alt+Home**|
-|Up|**Alt+Up Arrow**|
-|Up 5|**Alt+PgUp**|
-|Rename|**Ctrl+R, R**|
-|Remove from diagram|**Shift+Del**|
-|Entity data model browser|**Ctrl+1**|
-|Entity data model mapping details|**Ctrl+2**|
+|Commands|Keyboard shortcuts|Command Id
+|-|-|-|
+|Down|**Alt+Down Arrow**| OtherContextMenus.MicrosoftDataEntityDesignContext.MoveProperties.Down |
+|Down 5|**Alt+PgDn**| OtherContextMenus.MicrosoftDataEntityDesignContext.MoveProperties.Down5 |
+|To bottom|**Alt+End**| OtherContextMenus.MicrosoftDataEntityDesignContext.MoveProperties.ToBottom |
+|To top|**Alt+Home**| OtherContextMenus.MicrosoftDataEntityDesignContext.MoveProperties.ToTop |
+|Up|**Alt+Up Arrow**| OtherContextMenus.MicrosoftDataEntityDesignContext.MoveProperties.Up |
+|Up 5|**Alt+PgUp**| OtherContextMenus.MicrosoftDataEntityDesignContext.MoveProperties.Up5 |
+|Rename|**Ctrl+R, R**| OtherContextMenus.MicrosoftDataEntityDesignContext.Refactor.Rename |
+|Remove  from diagram|**Shift+Del**| OtherContextMenus.MicrosoftDataEntityDesignContext.RemovefromDiagram |
+|Entity data model browser|**Ctrl+1**| View.EntityDataModelBrowser |
+|Entity data model mapping details|**Ctrl+2**| View.EntityDataModelMappingDetails |
 
 ### Class diagram
 
 The shortcuts specific to this context are:
 
-|Commands|Keyboard shortcuts|
-|--------------| - |
-|Collapse|**Num -**|
-|Expand|**Num +**|
-|Delete|**Ctrl+Del**|
-|Expand collapse base type list|**Shift+Alt+B**|
-|Navigate to lollipop|**Shift+Alt+L**|
-|Remove from diagram|**Delete**|
-|View code|**Enter**|
+
+|Commands|Keyboard shortcuts|Command Id
+|-|-|-|
+|Collapse|**Num -**| ClassDiagram.Collapse |
+|Expand|**Num +**| ClassDiagram.Expand |
+|Delete|**Ctrl+Del**| Edit.Delete |
+|Expand collapse base type list|**Shift+Alt+B**| Edit.ExpandCollapseBaseTypeList |
+|Navigate to lollipop|**Shift+Alt+L**| Edit.NavigateToLollipop |
+|Remove  from diagram|**Delete**| Edit.RemovefromDiagram |
+|View code|**Enter**| View.ViewCode |
 
 ### Coded UI Test Editor
 
 The shortcuts specific to this context are:
 
-|Commands|Keyboard shortcuts|
-|--------------| - |
-|Copy reference to clipboard|**Ctrl+C**|
-|Insert delay before|**Ctrl+Alt+D**|
-|Locate all|**Shift+Alt+L**|
-|Locate the ui control|**Ctrl+Shift+L**|
-|Move code|**Ctrl+Alt+C**|
-|Split into a new method|**Ctrl+Shift+T**|
+
+|Commands|Keyboard shortcuts|Command Id
+|-|-|-|
+|Copy referenceto clipboard|**Ctrl+C**| OtherContextMenus.UITestEditorContextMenu.CopyReferencetoClipboard |
+|Insert delay before|**Ctrl+Alt+D**| OtherContextMenus.UITestEditorContextMenu.InsertDelayBefore |
+|Locate all|**Shift+Alt+L**| OtherContextMenus.UITestEditorContextMenu.LocateAll |
+|Locatethe ui control|**Ctrl+Shift+L**| OtherContextMenus.UITestEditorContextMenu.LocatetheUIControl |
+|Movecode|**Ctrl+Alt+C**| OtherContextMenus.UITestEditorContextMenu.Movecode |
+|Splitintoanewmethod|**Ctrl+Shift+T**| OtherContextMenus.UITestEditorContextMenu.Splitintoanewmethod |
 
 ### DataSet Editor
 
 The shortcuts specific to this context are:
 
-|Commands|Keyboard shortcuts|
-|--------------| - |
-|Insert column|**Insert**|
-|Column|**Ctrl+L**|
+
+|Commands|Keyboard shortcuts|Command Id
+|-|-|-|
+|Insert column|**Insert**| OtherContextMenus.ColumnContext.InsertColumn |
+|Column|**Ctrl+L**| OtherContextMenus.DbTableContext.Add.Column |
 
 ### Difference Viewer
 
 The shortcuts specific to this context are:
 
-|Commands|Keyboard shortcuts|
-|--------------| - |
-|Ignore trim whitespace|**Ctrl+\\, Ctrl+Spacebar**|
-|Inline view|**Ctrl+\\, Ctrl+1**|
-|Left only view|**Ctrl+\\, Ctrl+3**|
-|Next difference|**F8**|
-|Previous difference|**Shift+F8**|
-|Right only view|**Ctrl+\\, Ctrl+4**|
-|Side by side view|**Ctrl+\\, Ctrl+2**|
-|Switch between left and right|**Ctrl+\\, Ctrl+Tab**|
-|Synchronize view toggle|**Ctrl+\\, Ctrl+Down Arrow**|
-|Add comment|**Ctrl+Shift+K**|
-|Edit local file|**Ctrl+Shift+P**|
+
+|Commands|Keyboard shortcuts|Command Id
+|-|-|-|
+|Ignore trim whitespace|**Ctrl+\\, Ctrl+Spacebar**| Diff.IgnoreTrimWhitespace |
+|Inline view|**Ctrl+\\, Ctrl+1**| Diff.InlineView |
+|Left only view|**Ctrl+\\, Ctrl+3**| Diff.LeftOnlyView |
+|Next difference|**F8**| Diff.NextDifference |
+|Previous difference|**Shift+F8**| Diff.PreviousDifference |
+|Right only view|**Ctrl+\\, Ctrl+4**| Diff.RightOnlyView |
+|Side by side view|**Ctrl+\\, Ctrl+2**| Diff.SideBySideView |
+|Switch between left and right|**Ctrl+\\, Ctrl+Tab**| Diff.SwitchBetweenLeftAndRight |
+|Synchronize view toggle|**Ctrl+\\, Ctrl+Down Arrow**| Diff.SynchronizeViewToggle |
+|Add comment|**Ctrl+Shift+K**| EditorContextMenus.CodeWindow.AddComment |
+|Edit local file|**Ctrl+Shift+P**| EditorContextMenus.CodeWindow.EditLocalFile |
 
 ### DOM Explorer
 
 The shortcuts specific to this context are:
 
-|Commands|Keyboard shortcuts|
-|--------------| - |
-|Refresh|**F5**|
-|Select element|**Ctrl+B**|
-|Show layout|**Ctrl+Shift+I**|
+
+|Commands|Keyboard shortcuts|Command Id
+|-|-|-|
+|Refresh|**F5**| DOMExplorer.Refresh |
+|Select element|**Ctrl+B**| DOMExplorer.SelectElement |
+|Show layout|**Ctrl+Shift+I**| DOMExplorer.ShowLayout |
 
 ### F# interactive
 
 The shortcuts specific to this context are:
 
-|Command|Keyboard shortcut|
-|-------------| - |
-|Cancel interactive evaluation|**Ctrl+Break**|
+
+|Command|Keyboard shortcut|Command Id
+|-|-|-|
+|Cancel interactive evaluation|**Ctrl+Break**| OtherContextMenus.FSIConsoleContext.CancelInteractiveEvaluation |
 
 ### Graph Document Editor
 
 The shortcuts specific to this context are:
 
-|Commands|Keyboard shortcuts|
-|--------------| - |
-|Add node|**Insert**|
-|Both dependencies|**B**|
-|Incoming dependencies|**I**|
-|Outgoing dependencies|**O**|
-|New comment|**Ctrl+Shift+K**<br /><br /> or<br /><br /> **Ctrl+E, C**|
-|Remove|**Delete**|
-|Rename|**F2**|
+
+|Commands|Keyboard shortcuts|Command Id
+|-|-|-|
+|Add node|**Insert**| ArchitectureContextMenus.DirectedGraphContextMenu.Advanced.Add.AddNode |
+|Both dependencies|**B**| ArchitectureContextMenus.DirectedGraphContextMenu.Advanced.Select.BothDependencies |
+|Incoming dependencies|**I**| ArchitectureContextMenus.DirectedGraphContextMenu.Advanced.Select.IncomingDependencies |
+|Outgoing dependencies|**O**| ArchitectureContextMenus.DirectedGraphContextMenu.Advanced.Select.OutgoingDependencies |
+|New comment|**Ctrl+Shift+K**<br /><br /> or<br /><br /> **Ctrl+E, C**| ArchitectureContextMenus.DirectedGraphContextMenu.NewComment |
+|Remove|**Delete**| ArchitectureContextMenus.DirectedGraphContextMenu.Remove |
+|Rename|**F2**| ArchitectureContextMenus.DirectedGraphContextMenu.Rename |
 
 ### Graphics diagnostics
 
 The shortcuts specific to this context are:
 
-|Commands|Keyboard shortcuts|
-|--------------| - |
-|Capture frame|None|
-|Move pixel selection down|**Shift+Alt+Down Arrow**|
-|Move pixel selection left|**Shift+Alt+Left Arrow**|
-|Move pixel selection right|**Shift+Alt+Right Arrow**|
-|Move pixel selection up|**Shift+Alt+Up Arrow**|
-|Zoom to actual size|**Shift+Alt+0** (zero)|
-|Zoom to fit in window|**Shift+Alt+9**|
-|Zoom in|**Shift+Alt+=**|
-|Zoom out|**Shift+Alt+-**|
+
+|Commands|Keyboard shortcuts|Command Id
+|-|-|-|
+|Capture frame|None| Debug.Graphics.CaptureFrame |
+|Move pixel selection down|**Shift+Alt+Down Arrow**| Graphics.MovePixelSelectionDown |
+|Move pixel selection left|**Shift+Alt+Left Arrow**| Graphics.MovePixelSelectionLeft |
+|Move pixel selection right|**Shift+Alt+Right Arrow**| Graphics.MovePixelSelectionRight |
+|Move pixel selection up|**Shift+Alt+Up Arrow**| Graphics.MovePixelSelectionUp |
+|Zoom to actual size|**Shift+Alt+0** (zero)| Graphics.ZoomToActualSize |
+|Zoom to fit in window|**Shift+Alt+9**| Graphics.ZoomToFitInWindow |
+|Zoom in|**Shift+Alt+=**| Graphics.ZoomIn |
+|Zoom out|**Shift+Alt+-**| Graphics.ZoomOut |
 
 ### HTML Editor
 
 The shortcuts specific to this context are:
 
-|Command|Keyboard shortcut|
-|-------------| - |
-|Go to controller|**Ctrl+M, Ctrl+G**|
+
+|Command|Keyboard shortcut|Command Id
+|-|-|-|
+|Go to controller|**Ctrl+M, Ctrl+G**| OtherContextMenus.HTMLContext.GoToController |
 
 ### HTML Editor Design View
 
 The shortcuts specific to this context are:
 
-|Commands|Keyboard shortcuts|
-|--------------| - |
-|Move control down|**Ctrl+Down Arrow**|
-|Move control up|**Ctrl+Up Arrow**|
-|Bold|**Ctrl+B**|
-|Convert to hyperlink|**Ctrl+L**|
-|Insert bookmark|**Ctrl+Shift+L**|
-|Italic|**Ctrl+I**|
-|Underline|**Ctrl+U**|
-|Add content page|**Ctrl+M, Ctrl+C**|
-|Column to the left|**Ctrl+Alt+Left Arrow**|
-|Column to the right|**Ctrl+Alt+Right Arrow**|
-|Row above|**Ctrl+Alt+Up Arrow**|
-|Row below|**Ctrl+Alt+Down Arrow**|
-|Net nonvisual controls|**Ctrl+Shift+N**|
-|Edit master|**Ctrl+M, Ctrl+M**|
-|Next view|**Ctrl+PgDn**|
-|Show smart tag|**Shift+Alt+F10**|
-|View markup|**Shift+F7**|
-|Previous tab|**Ctrl+PgUp**|
+
+|Commands|Keyboard shortcuts|Command Id
+|-|-|-|
+|Move control down|**Ctrl+Down Arrow**| Edit.MoveControlDown |
+|Move control up|**Ctrl+Up Arrow**| Edit.MoveControlUp |
+|Bold|**Ctrl+B**| Format.Bold |
+|Convertto hyperlink|**Ctrl+L**| Format.ConverttoHyperlink |
+|Insert bookmark|**Ctrl+Shift+L**| Format.InsertBookmark |
+|Italic|**Ctrl+I**| Format.Italic |
+|Underline|**Ctrl+U**| Format.Underline |
+|Add content page|**Ctrl+M, Ctrl+C**| Project.AddContentPage |
+|Columntothe left|**Ctrl+Alt+Left Arrow**| Table.ColumntotheLeft |
+|Columntothe right|**Ctrl+Alt+Right Arrow**| Table.ColumntotheRight |
+|Row above|**Ctrl+Alt+Up Arrow**| Table.RowAbove |
+|Row below|**Ctrl+Alt+Down Arrow**| Table.RowBelow |
+|Net nonvisual controls|**Ctrl+Shift+N**| View.ASP.NETNonvisualControls |
+|Edit master|**Ctrl+M, Ctrl+M**| View.EditMaster |
+|Next view|**Ctrl+PgDn**| View.NextView |
+|Show smart tag|**Shift+Alt+F10**| View.ShowSmartTag |
+|View markup|**Shift+F7**| View.ViewMarkup |
+|Previous tab|**Ctrl+PgUp**| Window.PreviousTab |
 
 ### HTML Editor Source View
 
 The shortcuts specific to this context are:
 
-|Commands|Keyboard shortcuts|
-|--------------| - |
-|Go to controller|**Ctrl+M, Ctrl+G**|
-|Next view|**Ctrl+PgDn**|
-|Synchronize views|**Ctrl+Shift+Y**|
-|View designer|**Shift+F7**|
-|Previous tab|**Ctrl+PgUp**|
+
+|Commands|Keyboard shortcuts|Command Id
+|-|-|-|
+|Go to controller|**Ctrl+M, Ctrl+G**| OtherContextMenus.HTMLContext.GoToController |
+|Next view|**Ctrl+PgDn**| View.NextView |
+|Synchronize views|**Ctrl+Shift+Y**| View.SynchronizeViews |
+|View designer|**Shift+F7**| View.ViewDesigner |
+|Previous tab|**Ctrl+PgUp**| Window.PreviousTab |
 
 ### Layer diagram
 
 The shortcuts specific to this context are:
 
-|Command|Keyboard shortcut|
-|-------------| - |
-|Delete|**Shift+Delete**|
+
+|Command|Keyboard shortcut|Command Id
+|-|-|-|
+|Delete|**Shift+Delete**| Edit.Delete |
 
 ### Managed Resources Editor
 
 The shortcuts specific to this context are:
 
-|Commands|Keyboard shortcuts|
-|--------------| - |
-|Edit cell|**F2**|
-|Remove|**Delete**|
-|Remove row|**Ctrl+Delete**|
-|Selection cancel|**Escape**|
-|Audio|**Ctrl+4**|
-|Files|**Ctrl+5**|
-|Icons|**Ctrl+3**|
-|Images|**Ctrl+2**|
-|Other|**Ctrl+6**|
-|Strings|**Ctrl+1**|
+
+|Commands|Keyboard shortcuts|Command Id
+|-|-|-|
+|Edit cell|**F2**| Edit.EditCell |
+|Remove|**Delete**| Edit.Remove |
+|Remove row|**Ctrl+Delete**| Edit.RemoveRow |
+|Selection cancel|**Escape**| Edit.SelectionCancel |
+|Audio|**Ctrl+4**| Resources.Audio |
+|Files|**Ctrl+5**| Resources.Files |
+|Icons|**Ctrl+3**| Resources.Icons |
+|Images|**Ctrl+2**| Resources.Images |
+|Other|**Ctrl+6**| Resources.Other |
+|Strings|**Ctrl+1**| Resources.Strings |
 
 ### Merge Editor window
 
 The shortcuts specific to this context are:
 
-|Commands|Keyboard shortcuts|
-|--------------| - |
-|Set focus on left window|**Alt+1**|
-|Set focus on result window|**Alt+2**|
-|Set focus on right window|**Alt+3**|
+
+|Commands|Keyboard shortcuts|Command Id
+|-|-|-|
+|Set focuson left window|**Alt+1**| TeamFoundationContextMenus.MergeContextMenu.SetFocusonLeftWindow |
+|Set focuson result window|**Alt+2**| TeamFoundationContextMenus.MergeContextMenu.SetFocusonResultWindow |
+|Set focuson right window|**Alt+3**| TeamFoundationContextMenus.MergeContextMenu.SetFocusonRightWindow |
 
 ### Microsoft SQL Server Data Tools, Schema Compare
 
 The shortcuts specific to this context are:
 
-|Commands|Keyboard shortcuts|
-|--------------| - |
-|SSDT schema compare compare|**Shift+Alt+C**|
-|SSDT schema compare generate script|**Shift+Alt+G**|
-|SSDT schema compare next change|**Shift+Alt+.**|
-|SSDT schema compare previous change|**Shift+Alt+,**|
-|SSDT schema compare stop|**Alt+Break**|
-|SSDT schema compare write updates|**Shift+Alt+U**|
+
+|Commands|Keyboard shortcuts|Command Id
+|-|-|-|
+|Ssdt schema compare compare|**Shift+Alt+C**| SQL.SSDTSchemaCompareCompare |
+|Ssdt schema compare generate script|**Shift+Alt+G**| SQL.SSDTSchemaCompareGenerateScript |
+|Ssdt schema compare next change|**Shift+Alt+.**| SQL.SSDTSchemaCompareNextChange |
+|Ssdt schema compare previous change|**Shift+Alt+,**| SQL.SSDTSchemaComparePreviousChange |
+|Ssdt schema compare stop|**Alt+Break**| SQL.SSDTSchemaCompareStop |
+|Ssdt schema compare write updates|**Shift+Alt+U**| SQL.SSDTSchemaCompareWriteUpdates |
 
 ### Microsoft SQL Server Data Tools, Table Designer
 
 The shortcuts specific to this context are:
 
 
-|Commands|Keyboard shortcuts|
-|--------------| - |
+|Commands|Keyboard shortcuts|Command Id
+|-|-|-|
 |CommitAllEdits|**Shift+Alt+U**|
-|Expand wildcards|**Ctrl+R, E**<br /><br /> or<br /><br /> **Ctrl+R, Ctrl+E**|
-|Fully qualify names|**Ctrl+R, Q**<br /><br /> or<br /><br /> **Ctrl+R, Ctrl+Q**|
-|Move to schema|**Ctrl+R, M**<br /><br /> or<br /><br /> **Ctrl+R, Ctrl+M**|
-|Rename|**F2**<br /><br /> or<br /><br /> **Ctrl+R, R**<br /><br /> or<br /><br /> **Ctrl+R, Ctrl+R**|
+|Expand wildcards|**Ctrl+R, E**<br /><br /> or<br /><br /> **Ctrl+R, Ctrl+E**| SQL.ExpandWildcards |
+|Fullyqualify names|**Ctrl+R, Q**<br /><br /> or<br /><br /> **Ctrl+R, Ctrl+Q**| SQL.FullyqualifyNames |
+|Move  to schema|**Ctrl+R, M**<br /><br /> or<br /><br /> **Ctrl+R, Ctrl+M**| SQL.MovetoSchema |
+|Rename|**F2**<br /><br /> or<br /><br /> **Ctrl+R, R**<br /><br /> or<br /><br /> **Ctrl+R, Ctrl+R**| SQL.Rename |
 |ViewFileInScriptPanel|**Shift+Alt+PgDn**|
 
 ### Microsoft SQL Server Data Tools, T-SQL Editor
 
 The shortcuts specific to this context are:
 
-|Commands|Keyboard shortcuts|
-|--------------| - |
+
+|Commands|Keyboard shortcuts|Command Id
+|-|-|-|
 |CommitAllEdits|**Shift+Alt+U**|
-|Execute with debugger|**Alt+F5**|
-|Expand wildcards|**Ctrl+R, E**<br /><br /> or<br /><br /> **Ctrl+R, Ctrl+E**|
-|Fully qualify names|**Ctrl+R, Q**<br /><br /> or<br /><br /> **Ctrl+R, Ctrl+Q**|
-|Move to schema|**Ctrl+R, M**<br /><br /> or<br /><br /> **Ctrl+R, Ctrl+M**|
-|Rename|**F2**<br /><br /> or<br /><br /> **Ctrl+R, R**<br /><br /> or<br /><br /> **Ctrl+R, Ctrl+R**|
-|T SQL editor cancel query|**Alt+Break**|
-|T SQL editor execute query|**Ctrl+Shift+E**|
-|T SQL editor results as file|**Ctrl+D, F**|
-|T SQL editor results as grid|**Ctrl+D, G**|
-|T SQL editor results as text|**Ctrl+D, T**|
-|T SQL editor show estimated plan|**Ctrl+D, E**|
-|T SQL editor toggle execution plan|**Ctrl+D, A**|
-|T SQL editor toggle results pane|**Ctrl+D, R**|
-|T SQL editor clone query|**Ctrl+Alt+N**|
-|T SQL editor database combo|**Shift+Alt+PgDn**|
+|Execute with debugger|**Alt+F5**| SQL.ExecuteWithDebugger |
+|Expand wildcards|**Ctrl+R, E**<br /><br /> or<br /><br /> **Ctrl+R, Ctrl+E**| SQL.ExpandWildcards |
+|Fullyqualify names|**Ctrl+R, Q**<br /><br /> or<br /><br /> **Ctrl+R, Ctrl+Q**| SQL.FullyqualifyNames |
+|Move  to schema|**Ctrl+R, M**<br /><br /> or<br /><br /> **Ctrl+R, Ctrl+M**| SQL.MovetoSchema |
+|Rename|**F2**<br /><br /> or<br /><br /> **Ctrl+R, R**<br /><br /> or<br /><br /> **Ctrl+R, Ctrl+R**| SQL.Rename |
+|T SQL editor cancel query|**Alt+Break**| SQL.TSqlEditorCancelQuery |
+|T SQL editor execute query|**Ctrl+Shift+E**| SQL.TSqlEditorExecuteQuery |
+|T SQL editor results as file|**Ctrl+D, F**| SQL.TSqlEditorResultsAsFile |
+|T SQL editor results as grid|**Ctrl+D, G**| SQL.TSqlEditorResultsAsGrid |
+|T SQL editor results as text|**Ctrl+D, T**| SQL.TSqlEditorResultsAsText |
+|T SQL editor show estimated plan|**Ctrl+D, E**| SQL.TSqlEditorShowEstimatedPlan |
+|T SQL editor toggle execution plan|**Ctrl+D, A**| SQL.TSqlEditorToggleExecutionPlan |
+|T SQL editor toggle results pane|**Ctrl+D, R**| SQL.TSqlEditorToggleResultsPane |
+|TSqlEditorCloneQuery|**Ctrl+Alt+N**|
+|TSqlEditorDatabaseCombo|**Shift+Alt+PgDn**|
 
 ### Microsoft SQL Server Data Tools, T-SQL PDW Editor
 
 The shortcuts specific to this context are:
 
-|Commands|Keyboard shortcuts|
-|--------------| - |
-|T SQL editor cancel query|**Alt+Break**|
-|T SQL editor execute query|**Ctrl+Shift+E**|
-|T SQL editor results as file|**Ctrl+D, F**|
-|T SQL editor results as grid|**Ctrl+D, G**|
-|T SQL editor results as text|**Ctrl+D, T**|
-|T SQL editor show estimated plan|**Ctrl+D, E**|
-|T SQL editor toggle execution plan|**Ctrl+D, A**|
-|T SQL editor toggle results pane|**Ctrl+D, R**|
-|T SQL editor clone query|**Ctrl+Alt+N**|
-|T SQL editor database combo|**Shift+Alt+PgDn**|
+
+|Commands|Keyboard shortcuts|Command Id
+|-|-|-|
+|T SQL editor cancel query|**Alt+Break**| SQL.TSqlEditorCancelQuery |
+|T SQL editor execute query|**Ctrl+Shift+E**| SQL.TSqlEditorExecuteQuery |
+|T SQL editor results as file|**Ctrl+D, F**| SQL.TSqlEditorResultsAsFile |
+|T SQL editor results as grid|**Ctrl+D, G**| SQL.TSqlEditorResultsAsGrid |
+|T SQL editor results as text|**Ctrl+D, T**| SQL.TSqlEditorResultsAsText |
+|T SQL editor show estimated plan|**Ctrl+D, E**| SQL.TSqlEditorShowEstimatedPlan |
+|T SQL editor toggle execution plan|**Ctrl+D, A**| SQL.TSqlEditorToggleExecutionPlan |
+|T SQL editor toggle results pane|**Ctrl+D, R**| SQL.TSqlEditorToggleResultsPane |
+|TSqlEditorCloneQuery|**Ctrl+Alt+N**|
+|TSqlEditorDatabaseCombo|**Shift+Alt+PgDn**|
 
 ### Page Inspector
 
 The shortcuts specific to this context are:
 
-|Command|Keyboard shortcut|
-|-------------| - |
-|Minimize|**F12**|
+
+|Command|Keyboard shortcut|Command Id
+|-|-|-|
+|Minimize|**F12**| PageInspector.Minimize |
 
 ### Query Designer
 
 The shortcuts specific to this context are:
 
-|Commands|Keyboard shortcuts|
-|--------------| - |
-|Cancel retrieving data|**Ctrl+T**|
-|Criteria|**Ctrl+2**|
-|Diagram|**Ctrl+1**|
-|Execute SQL|**Ctrl+R**|
-|Goto row|**Ctrl+G**|
-|Join mode|**Ctrl+Shift+J**|
-|Results|**Ctrl+4**|
-|SQL|**Ctrl+3**|
+
+|Commands|Keyboard shortcuts|Command Id
+|-|-|-|
+|Cancel retrieving data|**Ctrl+T**| QueryDesigner.CancelRetrievingData |
+|Criteria|**Ctrl+2**| QueryDesigner.Criteria |
+|Diagram|**Ctrl+1**| QueryDesigner.Diagram |
+|Execute SQL|**Ctrl+R**| QueryDesigner.ExecuteSQL |
+|Goto row|**Ctrl+G**| QueryDesigner.GotoRow |
+|Join mode|**Ctrl+Shift+J**| QueryDesigner.JoinMode |
+|Results|**Ctrl+4**| QueryDesigner.Results |
+|Sql|**Ctrl+3**| QueryDesigner.SQL |
 
 ### Query results
 
 The shortcuts specific to this context are:
 
-|Commands|Keyboard shortcuts|
-|--------------| - |
-|Query results new row|**Alt+End**|
-|Query results refresh|**Shift+Alt+R**|
-|Query results stop|**Alt+Break**|
+
+|Commands|Keyboard shortcuts|Command Id
+|-|-|-|
+|Query results new row|**Alt+End**| SQL.QueryResultsNewRow |
+|Query results refresh|**Shift+Alt+R**| SQL.QueryResultsRefresh |
+|Query results stop|**Alt+Break**| SQL.QueryResultsStop |
 
 ### Report Designer
 
 The shortcuts specific to this context are:
 
-|Commands|Keyboard shortcuts|
-|--------------| - |
-|Break line|**Enter**|
-|Char left|**Left Arrow**|
-|Char left extend|**Shift+Left Arrow**|
-|Char right|**Right Arrow**|
-|Char right extend|**Shift+Right Arrow**|
-|Insert tab|**Tab**|
-|Line down|**Down Arrow**|
-|Line down extend|**Shift+Down Arrow**|
-|Line up|**Up Arrow**|
-|Line up extend|**Shift+Up Arrow**|
-|Move control down|**Ctrl+Down Arrow**|
-|Move control left|**Ctrl+Left Arrow**|
-|Move control right|**Ctrl+Right Arrow**|
-|Move control up|**Ctrl+Up Arrow**|
-|Selection cancel|**Esc**|
-|Size control down|**Ctrl+Shift+Down Arrow**|
-|Size control left|**Ctrl+Shift+Left Arrow**|
-|Size control right|**Ctrl+Shift+Right Arrow**|
-|Size control up|**Ctrl+Shift+Up Arrow**|
-|Tab left|**Shift+Tab**|
-|Report data|**Ctrl+Alt+D**|
+
+|Commands|Keyboard shortcuts|Command Id
+|-|-|-|
+|Break line|**Enter**| Edit.BreakLine |
+|Char left|**Left Arrow**| Edit.CharLeft |
+|Char left extend|**Shift+Left Arrow**| Edit.CharLeftExtend |
+|Char right|**Right Arrow**| Edit.CharRight |
+|Char right extend|**Shift+Right Arrow**| Edit.CharRightExtend |
+|Insert tab|**Tab**| Edit.InsertTab |
+|Line down|**Down Arrow**| Edit.LineDown |
+|Line down extend|**Shift+Down Arrow**| Edit.LineDownExtend |
+|Line up|**Up Arrow**| Edit.LineUp |
+|Line up extend|**Shift+Up Arrow**| Edit.LineUpExtend |
+|Move control down|**Ctrl+Down Arrow**| Edit.MoveControlDown |
+|Move control left|**Ctrl+Left Arrow**| Edit.MoveControlLeft |
+|Move control right|**Ctrl+Right Arrow**| Edit.MoveControlRight |
+|Move control up|**Ctrl+Up Arrow**| Edit.MoveControlUp |
+|Selection cancel|**Esc**| Edit.SelectionCancel |
+|Size control down|**Ctrl+Shift+Down Arrow**| Edit.SizeControlDown |
+|Size control left|**Ctrl+Shift+Left Arrow**| Edit.SizeControlLeft |
+|Size control right|**Ctrl+Shift+Right Arrow**| Edit.SizeControlRight |
+|Size control up|**Ctrl+Shift+Up Arrow**| Edit.SizeControlUp |
+|Tab left|**Shift+Tab**| Edit.TabLeft |
+|Report data|**Ctrl+Alt+D**| View.ReportData |
 
 ### Sequence diagram
 
 The shortcuts specific to this context are:
 
-|Commands|Keyboard shortcuts|
-|--------------| - |
-|Navigate to code|**F12**|
-|Delete|**Shift+Del**|
+
+|Commands|Keyboard shortcuts|Command Id
+|-|-|-|
+|Navigate to code|**F12**| ArchitectureDesigner.Sequence.NavigateToCode |
+|Delete|**Shift+Del**| Edit.Delete |
 
 ### Settings Designer
 
 The shortcuts specific to this context are:
 
-|Commands|Keyboard shortcuts|
-|--------------| - |
-|Edit cell|**F2**|
-|Remove row|**Ctrl+Delete**|
-|Selection cancel|**Esc**|
-|View code|**F7**|
+
+|Commands|Keyboard shortcuts|Command Id
+|-|-|-|
+|Edit cell|**F2**| Edit.EditCell |
+|Remove row|**Ctrl+Delete**| Edit.RemoveRow |
+|Selection cancel|**Esc**| Edit.SelectionCancel |
+|View code|**F7**| View.ViewCode |
 
 ### Solution Explorer
 
 The shortcuts specific to this context are:
 
-|Command|Keyboard shortcut|
-|-------------| - |
-|View in page inspector|**Ctrl+K, Ctrl+G**|
+
+|Command|Keyboard shortcut|Command Id
+|-|-|-|
+|View  in page inspector|**Ctrl+K, Ctrl+G**| ClassViewContextMenus.ClassViewProject.View.ViewinPageInspector |
 
 ### Team Explorer
 
 The shortcuts specific to this context are:
 
-|Command|Keyboard Shortcut|
-|-------------| - |
-|Delete|**Delete**|
-|Rename|**F2**|
-|Go to team explorer navigation|**Alt+Home**|
-|Go to team explorer next section content|**Alt+Down Arrow**|
-|Go to team explorer page content|**Alt+0** (zero)|
-|Go to team explorer previous section content|**Alt+Up Arrow**|
-|Go to team explorer section 1 content|**Alt+1**|
-|Go to team explorer section 2 content|**Alt+2**|
-|Go to team explorer section 3 content|**Alt+3**|
-|Go to team explorer section 4 content|**Alt+4**|
-|Go to team explorer section 5 content|**Alt+5**|
-|Go to team explorer section 6 content|**Alt+6**|
-|Go to team explorer section 7 content|**Alt+7**|
-|Go to team explorer section 8 content|**Alt+8**|
-|Go to team explorer section 9 content|**Alt+9**|
-|Team explorer navigate backward|**Alt+Left Arrow**|
-|Team explorer navigate forward|**Alt+Right Arrow**|
-|TFS context my work page create copy wi|**Shift+Alt+C**|
-|TFS context my work page new linked wi|**Shift+Alt+L**|
-|Refresh|**F5**|
+
+|Command|Keyboard Shortcut|Command Id
+|-|-|-|
+|Delete|**Delete**| Edit.Delete |
+|Rename|**F2**| File.Rename |
+|Go to team explorer navigation|**Alt+Home**| TeamFoundationContextMenus.Commands.GoToTeamExplorerNavigation |
+|Go to team explorer next section content|**Alt+Down Arrow**| TeamFoundationContextMenus.Commands.GoToTeamExplorerNextSectionContent |
+|Go to team explorer page content|**Alt+0** (zero)| TeamFoundationContextMenus.Commands.GoToTeamExplorerPageContent |
+|Go to team explorer previous section content|**Alt+Up Arrow**| TeamFoundationContextMenus.Commands.GoToTeamExplorerPreviousSectionContent |
+|Go to team explorer section 1 content|**Alt+1**| TeamFoundationContextMenus.Commands.GoToTeamExplorerSection1Content |
+|Go to team explorer section 2 content|**Alt+2**| TeamFoundationContextMenus.Commands.GoToTeamExplorerSection2Content |
+|Go to team explorer section 3 content|**Alt+3**| TeamFoundationContextMenus.Commands.GoToTeamExplorerSection3Content |
+|Go to team explorer section 4 content|**Alt+4**| TeamFoundationContextMenus.Commands.GoToTeamExplorerSection4Content |
+|Go to team explorer section 5 content|**Alt+5**| TeamFoundationContextMenus.Commands.GoToTeamExplorerSection5Content |
+|Go to team explorer section 6 content|**Alt+6**| TeamFoundationContextMenus.Commands.GoToTeamExplorerSection6Content |
+|Go to team explorer section 7 content|**Alt+7**| TeamFoundationContextMenus.Commands.GoToTeamExplorerSection7Content |
+|Go to team explorer section 8 content|**Alt+8**| TeamFoundationContextMenus.Commands.GoToTeamExplorerSection8Content |
+|Go to team explorer section 9 content|**Alt+9**| TeamFoundationContextMenus.Commands.GoToTeamExplorerSection9Content |
+|Team explorer navigate backward|**Alt+Left Arrow**| TeamFoundationContextMenus.Commands.TeamExplorerNavigateBackward |
+|Team explorer navigate forward|**Alt+Right Arrow**| TeamFoundationContextMenus.Commands.TeamExplorerNavigateForward |
+|Tfs context my work page create copy wi|**Shift+Alt+C**| TeamFoundationContextMenus.MyWorkPageInProgress.TfsContextMyWorkPageCreateCopyWI |
+|Tfs context my work page new linked wi|**Shift+Alt+L**| TeamFoundationContextMenus.MyWorkPageInProgress.TfsContextMyWorkPageNewLinkedWI |
+|Refresh|**F5**| View.Refresh |
 
 ### Test Explorer
 
 The shortcuts specific to this context are:
 
 
-|Command|Keyboard shortcut|
-|-------------| - |
-|Open test|**F12**|
+|Command|Keyboard shortcut|Command Id
+|-|-|-|
+|Open test|**F12**| TestExplorer.OpenTest |
 
 ### Text Editor
 
 The shortcuts specific to this context are:
 
-| Commands | Keyboard shortcuts |
-| - | - |
-|Break line| **Enter**<br /><br /> or<br /><br /> **Shift+Enter** |
-|Char left| **Left Arrow** |
-|Char left extend| **Shift+Left Arrow** |
-|Char left extend column| **Shift+Alt+Left Arrow** |
-|Char right| **Right Arrow** |
-|Char right extend| **Shift+Right Arrow** |
-|Char right extend column| **Shift+Alt+Right Arrow** |
-|Clear bookmarks| **Ctrl+K, Ctrl+L** |
-|Collapse all outlining| **Ctrl+M, Ctrl+A** |
-|Collapse current region| **Ctrl+M, Ctrl+S** |
-|Collapse tag| **Ctrl+M, Ctrl+T** |
-|Collapse to definitions| **Ctrl+M, Ctrl+O** (letter 'O') |
-|Contract selection| **Shift+Alt+-** |
-|Comment selection| **Ctrl+K, Ctrl+C** |
-|Complete word| **Ctrl+Space**<br /><br /> or<br /><br /> **Alt+Right Arrow** |
-|Copy parameter tip| **Ctrl+Shift+Alt+C** |
-|Decrease filter level| **Alt+,** |
-|Delete backwards| **Backspace**<br /><br /> or<br /><br /> **Shift+Bkspce** |
-|Delete horizontal white space| **Ctrl+K, Ctrl+\\** |
-|Document end| **Ctrl+End** |
-|Document end extend| **Ctrl+Shift+End** |
-|Document start| **Ctrl+Home** |
-|Document start extend| **Ctrl+Shift+Home** |
-|Expand all outlining| **Ctrl+M, Ctrl+X** |
-|Expand current region| **Ctrl+M, Ctrl+E** |
-|Expand selection| **Shift+Alt+=** |
-|Expand selection to containing block| **Shift+Alt+]** |
-|Format document| **Ctrl+K, Ctrl+D** |
-|Format selection| **Ctrl+K, Ctrl+F** |
-|Goto all| **Ctrl+T**<br /><br /> or<br /><br /> **Ctrl+,** |
-|Goto brace| **Ctrl+]** |
-|Goto brace extend| **Ctrl+Shift+]** |
-|Goto recent| **Ctrl+T,R** |
-|Goto next issuein file| **Alt+PgDn** |
-|Goto previous issuein file| **Alt+PgUp** |
-|Hide selection| **Ctrl+M, Ctrl+H** |
-|Increase filter level| **Alt+.** |
-|Incremental search| **Ctrl+I** |
-|Insert carets at all matching| **Shift+Alt+;** |
-|Insert next matching caret| **Shift+Alt+.** |
-|Insert tab| **Tab** |
-|Line cut| **Ctrl+L** |
-|Line delete| **Ctrl+Shift+L** |
-|Line down| **Down Arrow** |
-|Line down extend| **Shift+Down Arrow** |
-|Line down extend column| **Shift+Alt+Down Arrow** |
-|Line end| **End** |
-|Line end extend| **Shift+End** |
-|Line end extend column| **Shift+Alt+End** |
-|Line open above| **Ctrl+Enter** |
-|Line open below| **Ctrl+Shift+Enter** |
-|Line start| **Home** |
-|Line start extend| **Shift+Home** |
-|Line start extend column| **Shift+Alt+Home** |
-|Line transpose| **Shift+Alt+T** |
-|Line up| **Up Arrow** |
-|Line up extend| **Shift+Up Arrow** |
-|Line up extend column| **Shift+Alt+Up Arrow** |
-|List members| **Ctrl+J** |
-|Make lowercase| **Ctrl+U** |
-|Make uppercase| **Ctrl+Shift+U** |
-|Move selected lines down| **Alt+Down Arrow** |
-|Move selected lines up| **Alt+Up Arrow** |
-|Next highlighted reference| **Ctrl+Shift+Down Arrow** |
-|Over type mode| **Insert** |
-|Page down| **PgDn** |
-|Page down extend| **Shift+PgDn** |
-|Page up| **PgUp** |
-|Page up extend| **Shift+PgUp** |
-|Parameter info| **Ctrl+Shift+Spacebar** |
-|Paste parameter tip| **Ctrl+Shift+Alt+P** |
-|Peek backward| **Ctrl+Alt+-** |
-|Peek definition| **Alt+F12** |
-|Peek forward| **Ctrl+Alt+=** |
-|Previous highlighted reference| **Ctrl+Shift+Up Arrow** |
-|Quick info| **Ctrl+K, Ctrl+I** |
-|Reverse incremental search| **Ctrl+Shift+I** |
-|Scroll line down| **Ctrl+Down Arrow** |
-|Scroll line up| **Ctrl+Up Arrow** |
-|Select current word| **Ctrl+W** |
-|Selection cancel| **Escape** |
-|Select to last go back| **Ctrl+=** |
-|Show code lens menu| **Ctrl+K, Ctrl+\`** |
-|Show navigate menu| **Alt+\`** |
-|Stop hiding current| **Ctrl+M, Ctrl+U** |
-|Stop outlining| **Ctrl+M, Ctrl+P** |
-|Swap anchor| **Ctrl+K, Ctrl+A** |
-|Tab left| **Shift+Tab** |
-|Toggle all outlining| **Ctrl+M, Ctrl+L** |
-|Toggle bookmark| **Ctrl+K, Ctrl+K** |
-|Toggle completion mode| **Ctrl+Alt+Space** |
-|Toggle outlining expansion| **Ctrl+M, Ctrl+M** |
-|Toggle task list shortcut| **Ctrl+K, Ctrl+H** |
-|Toggle word wrap| **Ctrl+E, Ctrl+W** |
-|Uncomment selection| **Ctrl+K, Ctrl+U** |
-|View bottom| **Ctrl+PgDn** |
-|View bottom extend| **Ctrl+Shift+PgDn** |
-|View top| **Ctrl+PgUp** |
-|View top extend| **Ctrl+Shift+PgUp** |
-|View white space| **Ctrl+R, Ctrl+W** |
-|Word delete to end| **Ctrl+Delete** |
-|Word delete to start| **Ctrl+Backspace** |
-|Word next| **Ctrl+Right Arrow** |
-|Word next extend| **Ctrl+Shift+Right Arrow** |
-|Word next extend column| **Ctrl+Shift+Alt+Right Arrow** |
-|Word previous| **Ctrl+Left Arrow** |
-|Word previous extend| **Ctrl+Shift+Left Arrow** |
-|Word previous extend column| **Ctrl+Shift+Alt+Left Arrow** |
-|Word transpose| **Ctrl+Shift+T** |
-|Execute in interactive| **Alt+Enter** |
-|Execute line in interactive| **Alt+'** |
-|View in page inspector| **Ctrl+K, Ctrl+G** |
-|TFS annotate move next region| **Alt+PgDn** |
-|TFS annotate move previous region| **Alt+PgUp** |
+
+| Commands | Keyboard shortcuts |Command Id
+|-|-|-|
+|Break line| **Enter**<br /><br /> or<br /><br /> **Shift+Enter** | Edit.BreakLine |
+|Char left| **Left Arrow** | Edit.CharLeft |
+|Char left extend| **Shift+Left Arrow** | Edit.CharLeftExtend |
+|Char left extend column| **Shift+Alt+Left Arrow** | Edit.CharLeftExtendColumn |
+|Char right| **Right Arrow** | Edit.CharRight |
+|Char right extend| **Shift+Right Arrow** | Edit.CharRightExtend |
+|Char right extend column| **Shift+Alt+Right Arrow** | Edit.CharRightExtendColumn |
+|Clear bookmarks| **Ctrl+K, Ctrl+L** | Edit.ClearBookmarks |
+|Collapse all outlining| **Ctrl+M, Ctrl+A** | Edit.CollapseAllOutlining |
+|Collapse current region| **Ctrl+M, Ctrl+S** | Edit.CollapseCurrentRegion |
+|Collapse tag| **Ctrl+M, Ctrl+T** | Edit.CollapseTag |
+|Collapse to definitions| **Ctrl+M, Ctrl+O** (letter 'O') | Edit.CollapseToDefinitions |
+|Contract selection| **Shift+Alt+-** | Edit.ContractSelection |
+|Comment selection| **Ctrl+K, Ctrl+C** | Edit.CommentSelection |
+|Complete word| **Ctrl+Space**<br /><br /> or<br /><br /> **Alt+Right Arrow** | Edit.CompleteWord |
+|Copy parameter tip| **Ctrl+Shift+Alt+C** | Edit.CopyParameterTip |
+|Decrease filter level| **Alt+,** | Edit.DecreaseFilterLevel |
+|Delete backwards| **Backspace**<br /><br /> or<br /><br /> **Shift+Bkspce** | Edit.DeleteBackwards |
+|Delete horizontal white space| **Ctrl+K, Ctrl+\\** | Edit.DeleteHorizontalWhiteSpace |
+|Document end| **Ctrl+End** | Edit.DocumentEnd |
+|Document end extend| **Ctrl+Shift+End** | Edit.DocumentEndExtend |
+|Document start| **Ctrl+Home** | Edit.DocumentStart |
+|Document start extend| **Ctrl+Shift+Home** | Edit.DocumentStartExtend |
+|Expand all outlining| **Ctrl+M, Ctrl+X** | Edit.ExpandAllOutlining |
+|Expand current region| **Ctrl+M, Ctrl+E** | Edit.ExpandCurrentRegion |
+|Expand selection| **Shift+Alt+=** | Edit.ExpandSelection |
+|Expand selectionto containing block| **Shift+Alt+]** | Edit.ExpandSelectiontoContainingBlock |
+|Format document| **Ctrl+K, Ctrl+D** | Edit.FormatDocument |
+|Format selection| **Ctrl+K, Ctrl+F** | Edit.FormatSelection |
+|Goto all| **Ctrl+T**<br /><br /> or<br /><br /> **Ctrl+,** | Edit.GotoAll |
+|Goto brace| **Ctrl+]** | Edit.GotoBrace |
+|Goto brace extend| **Ctrl+Shift+]** | Edit.GotoBraceExtend |
+|Goto recent| **Ctrl+T,R** | Edit.GotoRecent |
+|Goto next issuein file| **Alt+PgDn** | Edit.GotoNextIssueinFile |
+|Goto previous issuein file| **Alt+PgUp** | Edit.GotoPreviousIssueinFile |
+|Hide selection| **Ctrl+M, Ctrl+H** | Edit.HideSelection |
+|Increase filter level| **Alt+.** | Edit.IncreaseFilterLevel |
+|Incremental search| **Ctrl+I** | Edit.IncrementalSearch |
+|Insert caretsat all matching| **Shift+Alt+;** | Edit.InsertCaretsatAllMatching |
+|Insert next matching caret| **Shift+Alt+.** | Edit.InsertNextMatchingCaret |
+|Insert tab| **Tab** | Edit.InsertTab |
+|Line cut| **Ctrl+L** | Edit.LineCut |
+|Line delete| **Ctrl+Shift+L** | Edit.LineDelete |
+|Line down| **Down Arrow** | Edit.LineDown |
+|Line down extend| **Shift+Down Arrow** | Edit.LineDownExtend |
+|Line down extend column| **Shift+Alt+Down Arrow** | Edit.LineDownExtendColumn |
+|Line end| **End** | Edit.LineEnd |
+|Line end extend| **Shift+End** | Edit.LineEndExtend |
+|Line end extend column| **Shift+Alt+End** | Edit.LineEndExtendColumn |
+|Line open above| **Ctrl+Enter** | Edit.LineOpenAbove |
+|Line open below| **Ctrl+Shift+Enter** | Edit.LineOpenBelow |
+|Line start| **Home** | Edit.LineStart |
+|Line start extend| **Shift+Home** | Edit.LineStartExtend |
+|Line start extend column| **Shift+Alt+Home** | Edit.LineStartExtendColumn |
+|Line transpose| **Shift+Alt+T** | Edit.LineTranspose |
+|Line up| **Up Arrow** | Edit.LineUp |
+|Line up extend| **Shift+Up Arrow** | Edit.LineUpExtend |
+|Line up extend column| **Shift+Alt+Up Arrow** | Edit.LineUpExtendColumn |
+|List members| **Ctrl+J** | Edit.ListMembers |
+|Make lowercase| **Ctrl+U** | Edit.MakeLowercase |
+|Make uppercase| **Ctrl+Shift+U** | Edit.MakeUppercase |
+|Move selected lines down| **Alt+Down Arrow** | Edit.MoveSelectedLinesDown |
+|Move selected lines up| **Alt+Up Arrow** | Edit.MoveSelectedLinesUp |
+|Next highlighted reference| **Ctrl+Shift+Down Arrow** | Edit.NextHighlightedReference |
+|Overtype mode| **Insert** | Edit.OvertypeMode |
+|Page down| **PgDn** | Edit.PageDown |
+|Page down extend| **Shift+PgDn** | Edit.PageDownExtend |
+|Page up| **PgUp** | Edit.PageUp |
+|Page up extend| **Shift+PgUp** | Edit.PageUpExtend |
+|Parameter info| **Ctrl+Shift+Spacebar** | Edit.ParameterInfo |
+|Paste parameter tip| **Ctrl+Shift+Alt+P** | Edit.PasteParameterTip |
+|Peek backward| **Ctrl+Alt+-** | Edit.PeekBackward |
+|Peek definition| **Alt+F12** | Edit.PeekDefinition |
+|Peek forward| **Ctrl+Alt+=** | Edit.PeekForward |
+|Previous highlighted reference| **Ctrl+Shift+Up Arrow** | Edit.PreviousHighlightedReference |
+|Quick info| **Ctrl+K, Ctrl+I** | Edit.QuickInfo |
+|Reverse incremental search| **Ctrl+Shift+I** | Edit.ReverseIncrementalSearch |
+|Scroll line down| **Ctrl+Down Arrow** | Edit.ScrollLineDown |
+|Scroll line up| **Ctrl+Up Arrow** | Edit.ScrollLineUp |
+|Select current word| **Ctrl+W** | Edit.SelectCurrentWord |
+|Selection cancel| **Escape** | Edit.SelectionCancel |
+|Select to last go back| **Ctrl+=** | Edit.SelectToLastGoBack |
+|Show code lens menu| **Ctrl+K, Ctrl+\`** | Edit.ShowCodeLensMenu |
+|Show navigate menu| **Alt+\`** | Edit.ShowNavigateMenu |
+|Stop hiding current| **Ctrl+M, Ctrl+U** | Edit.StopHidingCurrent |
+|Stop outlining| **Ctrl+M, Ctrl+P** | Edit.StopOutlining |
+|Swap anchor| **Ctrl+K, Ctrl+A** | Edit.SwapAnchor |
+|Tab left| **Shift+Tab** | Edit.TabLeft |
+|Toggle all outlining| **Ctrl+M, Ctrl+L** | Edit.ToggleAllOutlining |
+|Toggle bookmark| **Ctrl+K, Ctrl+K** | Edit.ToggleBookmark |
+|Toggle completion mode| **Ctrl+Alt+Space** | Edit.ToggleCompletionMode |
+|Toggle outlining expansion| **Ctrl+M, Ctrl+M** | Edit.ToggleOutliningExpansion |
+|Toggle task list shortcut| **Ctrl+K, Ctrl+H** | Edit.ToggleTaskListShortcut |
+|Toggle word wrap| **Ctrl+E, Ctrl+W** | Edit.ToggleWordWrap |
+|Uncomment selection| **Ctrl+K, Ctrl+U** | Edit.UncommentSelection |
+|View bottom| **Ctrl+PgDn** | Edit.ViewBottom |
+|View bottom extend| **Ctrl+Shift+PgDn** | Edit.ViewBottomExtend |
+|View top| **Ctrl+PgUp** | Edit.ViewTop |
+|View top extend| **Ctrl+Shift+PgUp** | Edit.ViewTopExtend |
+|View white space| **Ctrl+R, Ctrl+W** | Edit.ViewWhiteSpace |
+|Word delete to end| **Ctrl+Delete** | Edit.WordDeleteToEnd |
+|Word delete to start| **Ctrl+Backspace** | Edit.WordDeleteToStart |
+|Word next| **Ctrl+Right Arrow** | Edit.WordNext |
+|Word next extend| **Ctrl+Shift+Right Arrow** | Edit.WordNextExtend |
+|Word next extend column| **Ctrl+Shift+Alt+Right Arrow** | Edit.WordNextExtendColumn |
+|Word previous| **Ctrl+Left Arrow** | Edit.WordPrevious |
+|Word previous extend| **Ctrl+Shift+Left Arrow** | Edit.WordPreviousExtend |
+|Word previous extend column| **Ctrl+Shift+Alt+Left Arrow** | Edit.WordPreviousExtendColumn |
+|Word transpose| **Ctrl+Shift+T** | Edit.WordTranspose |
+|Execute in interactive| **Alt+Enter** | EditorContextMenus.CodeWindow.ExecuteInInteractive |
+|Execute line in interactive| **Alt+'** | EditorContextMenus.CodeWindow.ExecuteLineInInteractive |
+|View  in page inspector| **Ctrl+K, Ctrl+G** | OtherContextMenus.HTMLContext.ViewinPageInspector |
+|Tfs annotate move next region| **Alt+PgDn** | TeamFoundationContextMenus.Annotate.TfsAnnotateMoveNextRegion |
+|Tfs annotate move previous region| **Alt+PgUp** | TeamFoundationContextMenus.Annotate.TfsAnnotateMovePreviousRegion |
 
 ### UML activity diagram
 
 The shortcuts specific to this context are:
 
-|Command|Keyboard shortcut|
-|-------------| - |
-|Delete|**Shift+Del**|
+
+|Command|Keyboard shortcut|Command Id
+|-|-|-|
+|Delete|**Shift+Del**| Edit.Delete |
 
 ### UML class diagram
 
 The shortcuts specific to this context are:
 
-|Command|Keyboard shortcut|
-|-------------| - |
-|Delete from model|**Shift+Del**|
+
+|Command|Keyboard shortcut|Command Id
+|-|-|-|
+|Delete from model|**Shift+Del**| Edit.DeleteFromModel |
 
 ### UML component diagram
 
 The shortcuts specific to this context are:
 
-|Command|Keyboard shortcut|
-|-------------| - |
-|Delete from model|**Shift+Del**|
+
+|Command|Keyboard shortcut|Command Id
+|-|-|-|
+|Delete from model|**Shift+Del**| Edit.DeleteFromModel |
 
 ### UML use case diagram
 
 The shortcuts specific to this context are:
 
-|Command|Keyboard shortcut|
-|-------------| - |
-|Delete from model|**Shift+Del**|
+
+|Command|Keyboard shortcut|Command Id
+|-|-|-|
+|Delete from model|**Shift+Del**| Edit.DeleteFromModel |
 
 ### VC Accelerator Editor
 
 The shortcuts specific to this context are:
 
-|Commands|Keyboard shortcuts|
-|--------------| - |
-|New accelerator|**Insert**|
-|Next key typed|**Ctrl+W**|
+
+|Commands|Keyboard shortcuts|Command Id
+|-|-|-|
+|New accelerator|**Insert**| Edit.NewAccelerator |
+|Next key typed|**Ctrl+W**| Edit.NextKeyTyped |
 
 ### VC Dialog Editor
 
 The shortcuts specific to this context are:
 
-|Commands|Keyboard shortcuts|
-|--------------| - |
-|Move control down|**Down Arrow**|
-|Move control left|**Left Arrow**|
-|Move control right|**Right Arrow**|
-|Move control up|**Up Arrow**|
-|Scroll column left|**Ctrl+Left Arrow**|
-|Scroll column right|**Ctrl+Right Arrow**|
-|Scroll line down|**Ctrl+Down Arrow**|
-|Scroll line up|**Ctrl+Up Arrow**|
-|Size control down|**Shift+Down Arrow**|
-|Size control left|**Shift+Left Arrow**|
-|Size control right|**Shift+Right Arrow**|
-|Size control up|**Shift+Up Arrow**|
-|Align bottoms|**Ctrl+Shift+Down Arrow**|
-|Align centers|**Shift+F9**|
-|Align lefts|**Ctrl+Shift+Left Arrow**|
-|Align middles|**F9**|
-|Align rights|**Ctrl+Shift+Right Arrow**|
-|Align tops|**Ctrl+Shift+Up Arrow**|
-|Button bottom|**Ctrl+B**|
-|Button right|**Ctrl+R**|
-|Center horizontal|**Ctrl+Shift+F9**|
-|Center vertical|**Ctrl+F9**|
-|Check mnemonics|**Ctrl+M**|
-|Size to content|**Shift+F7**|
-|Space across|**Alt+Right Arrow**<br /><br /> or<br /><br /> **Alt+Left Arrow**|
-|Space down|**Alt+Up Arrow**<br /><br /> or<br /><br /> **Alt+Down Arrow**|
-|Tab order|**Ctrl+D**|
-|Test dialog|**Ctrl+T**|
-|Toggle guides|**Ctrl+G**|
+
+|Commands|Keyboard shortcuts|Command Id
+|-|-|-|
+|Move control down|**Down Arrow**| Edit.MoveControlDown |
+|Move control left|**Left Arrow**| Edit.MoveControlLeft |
+|Move control right|**Right Arrow**| Edit.MoveControlRight |
+|Move control up|**Up Arrow**| Edit.MoveControlUp |
+|Scroll column left|**Ctrl+Left Arrow**| Edit.ScrollColumnLeft |
+|Scroll column right|**Ctrl+Right Arrow**| Edit.ScrollColumnRight |
+|Scroll line down|**Ctrl+Down Arrow**| Edit.ScrollLineDown |
+|Scroll line up|**Ctrl+Up Arrow**| Edit.ScrollLineUp |
+|Size control down|**Shift+Down Arrow**| Edit.SizeControlDown |
+|Size control left|**Shift+Left Arrow**| Edit.SizeControlLeft |
+|Size control right|**Shift+Right Arrow**| Edit.SizeControlRight |
+|Size control up|**Shift+Up Arrow**| Edit.SizeControlUp |
+|Align bottoms|**Ctrl+Shift+Down Arrow**| Format.AlignBottoms |
+|Align centers|**Shift+F9**| Format.AlignCenters |
+|Align lefts|**Ctrl+Shift+Left Arrow**| Format.AlignLefts |
+|Align middles|**F9**| Format.AlignMiddles |
+|Align rights|**Ctrl+Shift+Right Arrow**| Format.AlignRights |
+|Align tops|**Ctrl+Shift+Up Arrow**| Format.AlignTops |
+|Button bottom|**Ctrl+B**| Format.ButtonBottom |
+|Button right|**Ctrl+R**| Format.ButtonRight |
+|Center horizontal|**Ctrl+Shift+F9**| Format.CenterHorizontal |
+|Center vertical|**Ctrl+F9**| Format.CenterVertical |
+|Check mnemonics|**Ctrl+M**| Format.CheckMnemonics |
+|Sizeto content|**Shift+F7**| Format.SizetoContent |
+|Space across|**Alt+Right Arrow**<br /><br /> or<br /><br /> **Alt+Left Arrow**| Format.SpaceAcross |
+|Space down|**Alt+Up Arrow**<br /><br /> or<br /><br /> **Alt+Down Arrow**| Format.SpaceDown |
+|Tab order|**Ctrl+D**| Format.TabOrder |
+|Test dialog|**Ctrl+T**| Format.TestDialog |
+|Toggle guides|**Ctrl+G**| Format.ToggleGuides |
 
 ### VC Image Editor
 
 The shortcuts specific to this context are:
 
-|Commands|Keyboard shortcuts|
-|--------------| - |
-|Airbrush tool|**Ctrl+A**|
-|Brush tool|**Ctrl+B**|
-|Copy and outline selection|**Ctrl+Shift+U**|
-|Draw opaque|**Ctrl+J**|
-|Ellipse tool|**Alt+P**|
-|Erase tool|**Ctrl+Shift+I**|
-|Filled ellipse tool|**Ctrl+Shift+Alt+P**|
-|Filled rectangle tool|**Ctrl+Shift+Alt+R**|
-|Filled rounded rectangle tool|**Ctrl+Shift+Alt+W**|
-|Fill tool|**Ctrl+F**|
-|Flip horizontal|**Ctrl+H**|
-|Flip vertical|**Shift+Alt+H**|
-|Larger brush|**Ctrl+=**|
-|Line tool|**Ctrl+L**|
-|Magnification tool|**Ctrl+M**|
-|Magnify|**Ctrl+Shift+M**|
-|New image type|**Insert**|
-|Next color|**Ctrl+]**<br /><br /> or<br /><br /> **Ctrl+Right Arrow**|
-|Next right color|**Ctrl+Shift+]**<br /><br /> or<br /><br /> **Ctrl+Shift+Right Arrow**|
-|Outlined ellipse tool|**Shift+Alt+P**|
-|Outlined rectangle tool|**Shift+Alt+R**|
-|Outlined rounded rectangle tool|**Shift+Alt+W**|
-|Pencil tool|**Ctrl+I**|
-|Previous color|**Ctrl+[**<br /><br /> or<br /><br /> **Ctrl+Left Arrow**|
-|Previous right color|**Ctrl+Shift+[**<br /><br /> or<br /><br /> **Ctrl+Shift+Left Arrow**|
-|Rectangle selection tool|**Shift+Alt+S**|
-|Rectangle tool|**Alt+R**|
-|Rotate 90 degrees|**Ctrl+Shift+H**|
-|Rounded rectangle tool|**Alt+W**|
-|Show grid|**Ctrl+Alt+S**|
-|Show tile grid|**Ctrl+Shift+Alt+S**|
-|Small brush|**Ctrl+.**|
-|Smaller brush|**Ctrl+-**|
-|Text tool|**Ctrl+T**|
-|Use selection as brush|**Ctrl+U**|
-|Zoom in|**Ctrl+Shift+.**<br /><br /> or<br /><br /> **Ctrl+Up Arrow**|
-|Zoom out|**Ctrl+Shift+,**<br /><br /> or<br /><br /> **Ctrl+Down Arrow**|
+
+|Commands|Keyboard shortcuts|Command Id
+|-|-|-|
+|Airbrush tool|**Ctrl+A**| Image.AirbrushTool |
+|Brush tool|**Ctrl+B**| Image.BrushTool |
+|Copyand outline selection|**Ctrl+Shift+U**| Image.CopyandOutlineSelection |
+|Draw opaque|**Ctrl+J**| Image.DrawOpaque |
+|Ellipse tool|**Alt+P**| Image.EllipseTool |
+|Erase tool|**Ctrl+Shift+I**| Image.EraseTool |
+|Filled ellipse tool|**Ctrl+Shift+Alt+P**| Image.FilledEllipseTool |
+|Filled rectangle tool|**Ctrl+Shift+Alt+R**| Image.FilledRectangleTool |
+|Filled rounded rectangle tool|**Ctrl+Shift+Alt+W**| Image.FilledRoundedRectangleTool |
+|Fill tool|**Ctrl+F**| Image.FillTool |
+|Flip horizontal|**Ctrl+H**| Image.FlipHorizontal |
+|Flip vertical|**Shift+Alt+H**| Image.FlipVertical |
+|Larger brush|**Ctrl+=**| Image.LargerBrush |
+|Line tool|**Ctrl+L**| Image.LineTool |
+|Magnification tool|**Ctrl+M**| Image.MagnificationTool |
+|Magnify|**Ctrl+Shift+M**| Image.Magnify |
+|New image type|**Insert**| Image.NewImageType |
+|Next color|**Ctrl+]**<br /><br /> or<br /><br /> **Ctrl+Right Arrow**| Image.NextColor |
+|Next right color|**Ctrl+Shift+]**<br /><br /> or<br /><br /> **Ctrl+Shift+Right Arrow**| Image.NextRightColor |
+|Outlined ellipse tool|**Shift+Alt+P**| Image.OutlinedEllipseTool |
+|Outlined rectangle tool|**Shift+Alt+R**| Image.OutlinedRectangleTool |
+|Outlined rounded rectangle tool|**Shift+Alt+W**| Image.OutlinedRoundedRectangleTool |
+|Pencil tool|**Ctrl+I**| Image.PencilTool |
+|Previous color|**Ctrl+[**<br /><br /> or<br /><br /> **Ctrl+Left Arrow**| Image.PreviousColor |
+|Previous right color|**Ctrl+Shift+[**<br /><br /> or<br /><br /> **Ctrl+Shift+Left Arrow**| Image.PreviousRightColor |
+|Rectangle selection tool|**Shift+Alt+S**| Image.RectangleSelectionTool |
+|Rectangle tool|**Alt+R**| Image.RectangleTool |
+|Rotate 90 degrees|**Ctrl+Shift+H**| Image.Rotate90Degrees |
+|Rounded rectangle tool|**Alt+W**| Image.RoundedRectangleTool |
+|Show grid|**Ctrl+Alt+S**| Image.ShowGrid |
+|Show tile grid|**Ctrl+Shift+Alt+S**| Image.ShowTileGrid |
+|Small brush|**Ctrl+.**| Image.SmallBrush |
+|Smaller brush|**Ctrl+-**| Image.SmallerBrush |
+|Text tool|**Ctrl+T**| Image.TextTool |
+|Use selectionas brush|**Ctrl+U**| Image.UseSelectionasBrush |
+|Zoom in|**Ctrl+Shift+.**<br /><br /> or<br /><br /> **Ctrl+Up Arrow**| Image.ZoomIn |
+|Zoom out|**Ctrl+Shift+,**<br /><br /> or<br /><br /> **Ctrl+Down Arrow**| Image.ZoomOut |
 
 ### VC String Editor
 
 The shortcuts specific to this context are:
 
-|Command|Keyboard shortcut|
-|-------------| - |
-|New string|**Insert**|
+
+|Command|Keyboard shortcut|Command Id
+|-|-|-|
+|New string|**Insert**| Edit.NewString |
 
 ### View Designer
 
 The shortcuts specific to this context are:
 
-|Commands|Keyboard shortcuts|
-|--------------| - |
-|Cancel retrieving data|**Ctrl+T**|
-|Criteria|**Ctrl+2**|
-|Diagram|**Ctrl+1**|
-|Execute SQL|**Ctrl+R**|
-|Goto row|**Ctrl+G**|
-|Join mode|**Ctrl+Shift+J**|
-|Results|**Ctrl+4**|
-|SQL|**Ctrl+3**|
+
+|Commands|Keyboard shortcuts|Command Id
+|-|-|-|
+|Cancel retrieving data|**Ctrl+T**| QueryDesigner.CancelRetrievingData |
+|Criteria|**Ctrl+2**| QueryDesigner.Criteria |
+|Diagram|**Ctrl+1**| QueryDesigner.Diagram |
+|Execute SQL|**Ctrl+R**| QueryDesigner.ExecuteSQL |
+|Goto row|**Ctrl+G**| QueryDesigner.GotoRow |
+|Join mode|**Ctrl+Shift+J**| QueryDesigner.JoinMode |
+|Results|**Ctrl+4**| QueryDesigner.Results |
+|Sql|**Ctrl+3**| QueryDesigner.SQL |
 
 ### Visual Studio
 
 The shortcuts specific to this context are:
 
-|Command|Keyboard shortcut|
-|-------------| - |
-|Hide methods pane|**Ctrl+1**|
+
+|Command|Keyboard shortcut|Command Id
+|-|-|-|
+|Hide methods pane|**Ctrl+1**| OtherContextMenus.ORDesignerContext.HideMethodsPane |
 
 ### Windows Forms Designer
 
 The shortcuts specific to this context are:
 
-|Commands|Keyboard shortcuts|
-|--------------| - |
-|Break line|**Enter**|
-|Char left|**Left Arrow**|
-|Char left extend|**Shift+Left Arrow**|
-|Char right|**Right Arrow**|
-|Char right extend|**Shift+Right Arrow**|
-|Document end|**End**|
-|Document end extend|**Shift+End**|
-|Document start|**Home**|
-|Document start extend|**Shift+Home**|
-|Insert tab|**Tab**|
-|Line down|**Down Arrow**|
-|Line down extend|**Shift+Up Arrow**|
-|Line up|**Up Arrow**|
-|Line up extend|**Shift+Down Arrow**|
-|Move control down|**Ctrl+Down Arrow**|
-|Move control left|**Ctrl+Left Arrow**|
-|Move control right|**Ctrl+Right Arrow**|
-|Move control up|**Ctrl+Up Arrow**|
-|Selection cancel|**Escape**|
-|Size control down|**Ctrl+Shift+Down Arrow**|
-|Size control left|**Ctrl+Shift+Left Arrow**|
-|Size control right|**Ctrl+Shift+Right Arrow**|
-|Size control up|**Ctrl+Shift+Up Arrow**|
-|Tab left|**Shift+Tab**|
+
+|Commands|Keyboard shortcuts|Command Id
+|-|-|-|
+|Break line|**Enter**| Edit.BreakLine |
+|Char left|**Left Arrow**| Edit.CharLeft |
+|Char left extend|**Shift+Left Arrow**| Edit.CharLeftExtend |
+|Char right|**Right Arrow**| Edit.CharRight |
+|Char right extend|**Shift+Right Arrow**| Edit.CharRightExtend |
+|Document end|**End**| Edit.DocumentEnd |
+|Document end extend|**Shift+End**| Edit.DocumentEndExtend |
+|Document start|**Home**| Edit.DocumentStart |
+|Document start extend|**Shift+Home**| Edit.DocumentStartExtend |
+|Insert tab|**Tab**| Edit.InsertTab |
+|Line down|**Down Arrow**| Edit.LineDown |
+|Line down extend|**Shift+Up Arrow**| Edit.LineDownExtend |
+|Line up|**Up Arrow**| Edit.LineUp |
+|Line up extend|**Shift+Down Arrow**| Edit.LineUpExtend |
+|Move control down|**Ctrl+Down Arrow**| Edit.MoveControlDown |
+|Move control left|**Ctrl+Left Arrow**| Edit.MoveControlLeft |
+|Move control right|**Ctrl+Right Arrow**| Edit.MoveControlRight |
+|Move control up|**Ctrl+Up Arrow**| Edit.MoveControlUp |
+|Selection cancel|**Escape**| Edit.SelectionCancel |
+|Size control down|**Ctrl+Shift+Down Arrow**| Edit.SizeControlDown |
+|Size control left|**Ctrl+Shift+Left Arrow**| Edit.SizeControlLeft |
+|Size control right|**Ctrl+Shift+Right Arrow**| Edit.SizeControlRight |
+|Size control up|**Ctrl+Shift+Up Arrow**| Edit.SizeControlUp |
+|Tab left|**Shift+Tab**| Edit.TabLeft |
 
 ### Work Item Editor
 
 The shortcuts specific to this context are:
 
-|Commands|Keyboard shortcuts|
-|--------------| - |
-|Create copy of work item|**Shift+Alt+C**|
-|Refresh work item|**F5**|
-|New linked work item|**Shift+Alt+L**|
+
+|Commands|Keyboard shortcuts|Command Id
+|-|-|-|
+|Create copyof work item|**Shift+Alt+C**| Edit.CreateCopyofWorkItem |
+|Refresh work item|**F5**| Edit.RefreshWorkItem |
+|New linked work item|**Shift+Alt+L**| Team.NewLinkedWorkItem |
 
 ### Work Item Query View
 
 The shortcuts specific to this context are:
 
-|Commands|Keyboard shortcuts|
-|--------------| - |
-|Create copy of work item|**Shift+Alt+C**|
-|Indent|**Shift+Alt+Right Arrow**|
-|Outdent|**Shift+Alt+Left Arrow**|
-|New linked work item|**Shift+Alt+L**|
-|Refresh|**F5**|
-|Toggle|**Shift+Alt+V**|
+
+|Commands|Keyboard shortcuts|Command Id
+|-|-|-|
+|Create copyof work item|**Shift+Alt+C**| Edit.CreateCopyofWorkItem |
+|Indent|**Shift+Alt+Right Arrow**| Edit.Indent |
+|Outdent|**Shift+Alt+Left Arrow**| Edit.Outdent |
+|New linked work item|**Shift+Alt+L**| Team.NewLinkedWorkItem |
+|Refresh|**F5**| Team.Refresh |
+|Toggle|**Shift+Alt+V**| Window.Toggle |
 
 ### Work Item Results View
 
 The shortcuts specific to this context are:
 
-|Commands|Keyboard shortcuts|
-|--------------| - |
-|Create copy of work item|**Shift+Alt+C**|
-|Indent|**Shift+Alt+Right Arrow**|
-|Outdent|**Shift+Alt+Left Arrow**|
-|Goto next work item|**Shift+Alt+N**|
-|Goto previous work item|**Shift+Alt+P**|
-|New linked work item|**Shift+Alt+L**|
-|Refresh|**F5**|
-|Toggle|**Shift+Alt+V**|
+
+|Commands|Keyboard shortcuts|Command Id
+|-|-|-|
+|Create copyof work item|**Shift+Alt+C**| Edit.CreateCopyofWorkItem |
+|Indent|**Shift+Alt+Right Arrow**| Edit.Indent |
+|Outdent|**Shift+Alt+Left Arrow**| Edit.Outdent |
+|Goto next work item|**Shift+Alt+N**| Team.GotoNextWorkItem |
+|Goto previous work item|**Shift+Alt+P**| Team.GotoPreviousWorkItem |
+|New linked work item|**Shift+Alt+L**| Team.NewLinkedWorkItem |
+|Refresh|**F5**| Team.Refresh |
+|Toggle|**Shift+Alt+V**| Window.Toggle |
 
 ### Workflow Designer
 
 The shortcuts specific to this context are:
 
-|Commands|Keyboard shortcuts|
-|--------------| - |
-|Complete word|**Ctrl+K, W**<br /><br /> or<br /><br /> **Ctrl+K, Ctrl+W**<br /><br /> or<br /><br /> **Ctrl+Spacebar**<br /><br /> or<br /><br /> **Alt+Right Arrow**|
-|Decrease filter level|**Alt+,**|
-|Increase filter level|**Alt+.**|
-|List members|**Ctrl+K, L**<br /><br /> or<br /><br /> **Ctrl+K, Ctrl+L**<br /><br /> or<br /><br /> **Ctrl+J**|
-|Parameter info|**Ctrl+K, P**<br /><br /> or<br /><br /> **Ctrl+K, Ctrl+P**<br /><br /> or<br /><br /> **Ctrl+Shift+Spacebar**|
-|Quick info|**Ctrl+K, I**<br /><br /> or<br /><br /> **Ctrl+K, Ctrl+I**|
-|Collapse|**Ctrl+E, Ctrl+C**<br /><br /> or<br /><br /> **Ctrl+E, C**|
-|Collapse all|or|
-|Connect nodes|**Ctrl+E, Ctrl+F**<br /><br /> or<br /><br /> **Ctrl+E, F**|
-|Create variable|**Ctrl+E, Ctrl+N**<br /><br /> or<br /><br /> **Ctrl+E, N**|
-|Expand all|**Ctrl+E, Ctrl+X**<br /><br /> or<br /><br /> **Ctrl+E, X**|
-|Expand in place|**Ctrl+E, Ctrl+E**<br /><br /> or<br /><br /> **Ctrl+E, E**|
-|Go to parent|**Ctrl+E, Ctrl+P**<br /><br /> or<br /><br /> **Ctrl+E, P**|
-|Move focus|**Ctrl+E, Ctrl+M**<br /><br /> or<br /><br /> **Ctrl+E, M**|
-|Navigate through designer|**Ctrl+Alt+F6**|
-|Restore|**Ctrl+E, Ctrl+R**<br /><br /> or<br /><br /> **Ctrl+E, R**|
-|Show hide argument designer|**Ctrl+E, Ctrl+A**<br /><br /> or<br /><br /> **Ctrl+E, A**|
-|Show hide imports designer|**Ctrl+E, Ctrl+I**<br /><br /> or<br /><br /> **Ctrl+E, I**|
-|Show hide overview map|**Ctrl+E, Ctrl+O** (letter 'O')<br /><br /> or<br /><br /> **Ctrl+E, O**|
-|Show hide variable designer|**Ctrl+E, Ctrl+V**<br /><br /> or<br /><br /> **Ctrl+E, V**|
-|Toggle selection|**Ctrl+E, Ctrl+S**<br /><br /> or<br /><br /> **Ctrl+E, S**|
-|Zoom in|**Ctrl+Num +**|
-|Zoom out|**Ctrl+Num -**|
+
+|Commands|Keyboard shortcuts|Command Id
+|-|-|-|
+|Complete word|**Ctrl+K, W**<br /><br /> or<br /><br /> **Ctrl+K, Ctrl+W**<br /><br /> or<br /><br /> **Ctrl+Spacebar**<br /><br /> or<br /><br /> **Alt+Right Arrow**| Edit.CompleteWord |
+|Decrease filter level|**Alt+,**| Edit.DecreaseFilterLevel |
+|Increase filter level|**Alt+.**| Edit.IncreaseFilterLevel |
+|List members|**Ctrl+K, L**<br /><br /> or<br /><br /> **Ctrl+K, Ctrl+L**<br /><br /> or<br /><br /> **Ctrl+J**| Edit.ListMembers |
+|Parameter info|**Ctrl+K, P**<br /><br /> or<br /><br /> **Ctrl+K, Ctrl+P**<br /><br /> or<br /><br /> **Ctrl+Shift+Spacebar**| Edit.ParameterInfo |
+|Quick info|**Ctrl+K, I**<br /><br /> or<br /><br /> **Ctrl+K, Ctrl+I**| Edit.QuickInfo |
+|Collapse|**Ctrl+E, Ctrl+C**<br /><br /> or<br /><br /> **Ctrl+E, C**| WorkflowDesigner.Collapse |
+|Collapse all|or| WorkflowDesigner.CollapseAll |
+|Connect nodes|**Ctrl+E, Ctrl+F**<br /><br /> or<br /><br /> **Ctrl+E, F**| WorkflowDesigner.ConnectNodes |
+|Create variable|**Ctrl+E, Ctrl+N**<br /><br /> or<br /><br /> **Ctrl+E, N**| WorkflowDesigner.CreateVariable |
+|Expand all|**Ctrl+E, Ctrl+X**<br /><br /> or<br /><br /> **Ctrl+E, X**| WorkflowDesigner.ExpandAll |
+|Expand in place|**Ctrl+E, Ctrl+E**<br /><br /> or<br /><br /> **Ctrl+E, E**| WorkflowDesigner.ExpandInPlace |
+|Go to parent|**Ctrl+E, Ctrl+P**<br /><br /> or<br /><br /> **Ctrl+E, P**| WorkflowDesigner.GoToParent |
+|Move focus|**Ctrl+E, Ctrl+M**<br /><br /> or<br /><br /> **Ctrl+E, M**| WorkflowDesigner.MoveFocus |
+|Navigate through designer|**Ctrl+Alt+F6**| WorkflowDesigner.NavigateThroughDesigner |
+|Restore|**Ctrl+E, Ctrl+R**<br /><br /> or<br /><br /> **Ctrl+E, R**| WorkflowDesigner.Restore |
+|Show hide argument designer|**Ctrl+E, Ctrl+A**<br /><br /> or<br /><br /> **Ctrl+E, A**| WorkflowDesigner.ShowHideArgumentDesigner |
+|Show hide imports designer|**Ctrl+E, Ctrl+I**<br /><br /> or<br /><br /> **Ctrl+E, I**| WorkflowDesigner.ShowHideImportsDesigner |
+|Show hide overview map|**Ctrl+E, Ctrl+O** (letter 'O')<br /><br /> or<br /><br /> **Ctrl+E, O**| WorkflowDesigner.ShowHideOverviewMap |
+|Show hide variable designer|**Ctrl+E, Ctrl+V**<br /><br /> or<br /><br /> **Ctrl+E, V**| WorkflowDesigner.ShowHideVariableDesigner |
+|Toggle selection|**Ctrl+E, Ctrl+S**<br /><br /> or<br /><br /> **Ctrl+E, S**| WorkflowDesigner.ToggleSelection |
+|Zoom in|**Ctrl+Num +**| WorkflowDesigner.ZoomIn |
+|Zoom out|**Ctrl+Num -**| WorkflowDesigner.ZoomOut |
 
 ### XAML UI Designer
 
 The shortcuts specific to this context are:
 
-|Commands|Keyboard shortcuts|
-|--------------| - |
-|Fit all|**Ctrl+0** (zero)|
-|Show handles|**F9**|
-|Zoom in|**Ctrl+Alt+=**|
-|Zoom out|**Ctrl+Alt+-**|
+
+|Commands|Keyboard shortcuts|Command Id
+|-|-|-|
+|Fit all|**Ctrl+0** (zero)| Design.FitAll |
+|Show handles|**F9**| Design.ShowHandles |
+|Zoom in|**Ctrl+Alt+=**| Design.ZoomIn |
+|Zoom out|**Ctrl+Alt+-**| Design.ZoomOut |
 |Designer options|**Ctrl+Shift+;**|
-|Edit text|**F2**|
-|All|**Ctrl+Shift+R**|
+|Edit text|**F2**| Format.EditText |
+|All|**Ctrl+Shift+R**| Format.ResetLayout.All |
 |Run project code|**Ctrl+F9**|
-|Hide  ( blend  only )|**Ctrl+H**|
-|Lock  ( blend  only )|**Ctrl+L**|
-|Show  ( blend  only )|**Ctrl+Shift+H**|
-|Unlock  ( blend  only )|**Ctrl+Shift+L**|
-|Edge left move left|**Ctrl+Shift+,**|
-|Edge left move right|**Ctrl+Shift+.**|
-|Edge right move left|**Ctrl+Shift+Alt+,**|
-|Edge right move right|**Ctrl+Shift+Alt+.**|
-|Show property marker menu|**Ctrl+Spacebar**|
+|Hide  ( blend  only )|**Ctrl+H**| Timeline.Hide (Blend only) |
+|Lock  ( blend  only )|**Ctrl+L**| Timeline.Lock (Blend only) |
+|Show  ( blend  only )|**Ctrl+Shift+H**| Timeline.Show (Blend only) |
+|Unlock  ( blend  only )|**Ctrl+Shift+L**| Timeline.Unlock (Blend only) |
+|Edge left move left|**Ctrl+Shift+,**| View.EdgeLeftMoveLeft |
+|Edge left move right|**Ctrl+Shift+.**| View.EdgeLeftMoveRight |
+|Edge right move left|**Ctrl+Shift+Alt+,**| View.EdgeRightMoveLeft |
+|Edge right move right|**Ctrl+Shift+Alt+.**| View.EdgeRightMoveRight |
+|Show property marker menu|**Ctrl+Spacebar**| View.ShowPropertyMarkerMenu |
 
 ### XML (Text) Editor
 
 The shortcuts specific to this context are:
 
-|Commands|Keyboard shortcuts|
-|--------------| - |
-|Start XSLT debugging|**Alt+F5**|
-|Start XSLT without debugging|**Ctrl+Alt+F5**|
+
+|Commands|Keyboard shortcuts|Command Id
+|-|-|-|
+|Start XSLT debugging|**Alt+F5**| XML.StartXSLTDebugging |
+|Start XSLT without debugging|**Ctrl+Alt+F5**| XML.StartXSLTWithoutDebugging |
 
 ### XML Schema Designer
 
 The shortcuts specific to this context are:
 
-|Commands|Keyboard shortcuts|
-|--------------| - |
-|Bottom to top|**Alt+Up Arrow**|
-|Left to right|**Alt+Right Arrow**|
-|Right to left|**Alt+Left Arrow**|
-|Top to bottom|**Alt+Down Arrow**|
-|Remove from workspace|**Delete**|
-|Show content model view|**Ctrl+2**|
-|Show graph view|**Ctrl+3**|
-|Show start view|**Ctrl+1**|
+
+|Commands|Keyboard shortcuts|Command Id
+|-|-|-|
+|Bottom  to top|**Alt+Up Arrow**| GraphView.BottomtoTop |
+|Left  to right|**Alt+Right Arrow**| GraphView.LefttoRight |
+|Right  to left|**Alt+Left Arrow**| GraphView.RighttoLeft |
+|Top  to bottom|**Alt+Down Arrow**| GraphView.ToptoBottom |
+|Remove  from workspace|**Delete**| OtherContextMenus.GraphView.RemovefromWorkspace |
+|Show content model view|**Ctrl+2**| XsdDesigner.ShowContentModelView |
+|Show graph view|**Ctrl+3**| XsdDesigner.ShowGraphView |
+|Show start view|**Ctrl+1**| XsdDesigner.ShowStartView |
 
 ## See also
 
