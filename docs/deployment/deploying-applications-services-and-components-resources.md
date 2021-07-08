@@ -5,6 +5,8 @@ description: Learn more about publishing options for your app using the Publish 
 ms.custom: [SEO-VS-2020, "contperf-fy21q1"]
 ms.date: 08/21/2020
 ms.topic: "troubleshooting"
+f1_keywords:
+- vs.publish
 dev_langs:
   - "FSharp"
   - "VB"
