@@ -1,6 +1,6 @@
 ---
-title: Sign in
-description: Learn how to sign in to Visual Studio. 
+title: Sign in 
+description: Sign in to Visual Studio to Extend the Visual Studio trial period, Unlock Visual Studio, and more
 ms.custom: "contperf-fy21q1"
 ms.date: 09/11/2020
 ms.topic: how-to
@@ -11,9 +11,9 @@ manager: jmartens
 ms.workload:
 - multiple
 ---
-# Sign in to Visual Studio on Windows
+# Sign in to Visual Studio on Windows 
 
-While you don't have to sign in, there are many advantages to doing so. When you sign in, you can personalize, optimize, and enrich your Visual Studio experience. 
+While you don't have to sign in, there are many advantages to doing so. In this article, you'll learn [how to sign in](#how-to-sign-in), how to [update your profile](#update-your-profile), and the benefits to your Visual Studio experience. 
 
 > [!NOTE]
 > This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Sign in to Visual Studio for Mac](/visualstudio/mac/signing-in).
@@ -25,8 +25,6 @@ While you don't have to sign in, there are many advantages to doing so. When you
 > Using Visual Studio 2017 to access resources configured for conditional access may trigger a degraded authentication experience, prompting reauthentication several times within the same Visual Studio session. 
 > 
 ::: moniker-end
-
-## Benefits
 
 Here's a full list of what you can expect and what you can do after you sign in:
 
