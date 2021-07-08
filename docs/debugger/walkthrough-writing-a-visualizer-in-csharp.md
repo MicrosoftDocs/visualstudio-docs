@@ -174,7 +174,7 @@ In the debugger-side code, you specify the type to visualize (the object source)
     Choose **File** > **New** > **Project**. In the language drop-down, choose **C#**. In the search box, type **console app**, and then choose either **Console App (.NET Framework)** or **Console Application** for .NET. Click **Next**. In the dialog box that appears, type the name `MyTestConsole`, and then click **Create**.
 
     > [!NOTE]
-    > If you want to easily test the visualizer using a test harness, create a .NET Framework console app. You can create a .NET console app instead, but the test harness described later is not yet supported for .NET, so you will need to install the visualizer to test it. For this scenario, first create the console app here, and then follow steps described in [Add a debuggee-side data object](#add-a-debuggee-side-data-object).
+    > If you want to easily test the visualizer using a test harness, create a .NET Framework console app. You can create a .NET console app instead, but the test harness described later is not yet supported for .NET, so you will need to install the visualizer to test it. For a .NET console app, first create the console app here, add the required DLL and project references, and then follow steps described in [Add a debuggee-side data object](#add-a-debuggee-side-data-object).
     ::: moniker-end
     ::: moniker range="vs-2017"
     From the top menu bar, choose **File** > **New** > **Project**. In the left pane of the **New project** dialog box, under **Visual C#**, choose **Windows Desktop**, and then in the middle pane choose **Console App (.NET Framework)**.
@@ -241,7 +241,7 @@ In the debugger-side code, you specify the type to visualize (the object source)
 
 In this section, you switch from the `System.String` data object to a custom data object.  
 
-1. Choose **File** > **New** > **Project**. In the language drop-down, choose **C#**. In the search box, type **class library**, and then choose either **Class Library (.NET Framework)** or **Class Library** for .NET Standard.
+1. In Solution Explorer, right-click the solution, choose **Add**, and then click **New Project**. In the language drop-down, choose **C#**. In the search box, type **class library**, and then choose either **Class Library (.NET Framework)** or **Class Library** for .NET Standard.
 
    >[!NOTE]
    >If you are using a .NET Framework test console app, make sure you create a .NET Framework class library project.
@@ -249,6 +249,10 @@ In this section, you switch from the `System.String` data object to a custom dat
 1. Click **Next**. In the dialog box that appears, type the name `MyDataObject`, and then click **Create**.
 
 1. (.NET Standard class library only) In Solution Explorer, right-click the project and choose **Edit Project File**. Change the `<TargetFramework>` value to `netstandard2.0`.
+
+   ```xml
+   <TargetFramework>netstandard2.0</TargetFramework>
+   ```
 
 1. Inside the `MyDataObject` namespace, replace the default code with the following code.
 
@@ -315,7 +319,7 @@ In this section, you switch from the `System.String` data object to a custom dat
    }
    ```
 
-   The debugger needs a reference to the visualizer. One way to maintain the reference is to keep the preceding code in place.
+   The console app needs a runtime reference to the visualizer. You can maintain the reference by keeping the preceding code instead of commenting it out.
 
 1. For a .NET Framework console app, you can run the test harness (press **F5**), or you can follow instructions in [How to: Install a Visualizer](../debugger/how-to-install-a-visualizer.md).
 
