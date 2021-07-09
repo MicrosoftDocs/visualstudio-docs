@@ -7,8 +7,8 @@ ms.technology: vs-ide-general
 ms.prod: visual-studio-windows
 ms.topic: tutorial
 ms.devlang: CSharp
-author: ghogen
-ms.author: ghogen
+author: j-martens
+ms.author: jmartens
 manager: jmartens
 monikerRange: ">=vs-2019"
 dev_langs:
