@@ -129,9 +129,7 @@ By default, the Developer PowerShell that launches is configured for the Visual 
 
 ## See also
 
-- [Developer PowerShell](https://devblogs.microsoft.com/visualstudio/the-powershell-you-know-and-love-now-with-a-side-of-visual-studio/)
-- [Say hello to the new Visual Studio terminal](https://devblogs.microsoft.com/visualstudio/say-hello-to-the-new-visual-studio-terminal/)
 - [Windows Terminal](/windows/terminal/)
 - [.NET Framework Tools](/dotnet/framework/tools/index)
-- [Manage external tools](../managing-external-tools.md)
 - [Use the Microsoft C++ toolset from the command line](/cpp/build/building-on-the-command-line)
+- [Visual Studio Code users](https://code.visualstudio.com/docs/cpp/config-msvc#:~:text=To%20open%20the%20Developer%20Command,item%20to%20open%20the%20prompt.)
