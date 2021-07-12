@@ -106,7 +106,7 @@ Follow the tasks below to create a visualizer.
 
   1. When sending objects, like commands or data, to the *debuggee-side* use the `IVisualizerObjectProvider2.Serialize` method to pass it to a stream, it will determine the best serialization format to use based on the runtime of the *debugee* process. Then, pass the stream to the `IVisualizerObjectProvider2.TransferData` method.
 
-  1. If the *debuggee-side* visualizer component needs to return anything to the *debugger-side*, it will be located in the <xref:System.IO.Stream> object returned by the <xref:Microsoft.VisualStudio.DebuggerVisualizers.IVisualizerObjectProvider2.Transfer%2A> method. Use the `IVisualizerObjectProvider2.GetDeserializableObjectFrom` method to get an  <xref:Microsoft.VisualStudio.DebuggerVisualizers.IDeserializableObject> instance from it and process it as required.
+  1. If the *debuggee-side* visualizer component needs to return anything to the *debugger-side*, it will be located in the <xref:System.IO.Stream> object returned by the <xref:Microsoft.VisualStudio.DebuggerVisualizers.IVisualizerObjectProvider2.TransferData%2A> method. Use the `IVisualizerObjectProvider2.GetDeserializableObjectFrom` method to get an  <xref:Microsoft.VisualStudio.DebuggerVisualizers.IDeserializableObject> instance from it and process it as required.
 
   Please refer to the [Add a debuggee-side data object](#add-a-debuggee-side-data-object) section (step 4) to learn what other changes are required on the *debuggee-side* when using Binary Serialization is not supported.
 
@@ -287,7 +287,7 @@ In this section, you switch from the `System.String` data object to a custom dat
    Next, update the MyFirstVisualizer project to use the new data object.
 
    > [!IMPORTANT]
-   > Additional steps might be needed for a visualizer to work in .NET 5.0 and above due to security concerns regarding the underlying binary serialization method used it. Please read this [section](#to-override-the-dialogdebuggervisualizer.show-method) before continuing.
+   > Additional steps might be needed for a visualizer to work in .NET 5.0 and above due to security concerns regarding the underlying binary serialization method used it. Please read this [section](#to-override-the-dialogdebuggervisualizershow-method) before continuing.
 
    1. If the visualizer implements the <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource.TransferData%2A> method, use the newly added <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource.GetDeserializableObject%2A> method that is available in the latest version of `VisualizerObjectSource`. The <xref:Microsoft.VisualStudio.DebuggerVisualizers.IDeserializableObject> it returns helps to determine the object's serialization format (binary or JSON) and to deserialize the underlying object so that it may be used.
 
