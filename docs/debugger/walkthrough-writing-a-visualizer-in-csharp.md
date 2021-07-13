@@ -106,7 +106,7 @@ Follow the tasks below to create a visualizer.
 
   1. When sending objects, like commands or data, to the *debuggee-side* use the `IVisualizerObjectProvider2.Serialize` method to pass it to a stream, it will determine the best serialization format to use based on the runtime of the *debugee* process. Then, pass the stream to the `IVisualizerObjectProvider2.TransferData` method.
 
-  1. If the *debuggee-side* visualizer component needs to return anything to the *debugger-side*, it will be located in the <xref:System.IO.Stream> object returned by the <xref:Microsoft.VisualStudio.DebuggerVisualizers.IVisualizerObjectProvider2.TransferData%2A> method. Use the `IVisualizerObjectProvider2.GetDeserializableObjectFrom` method to get an  <xref:Microsoft.VisualStudio.DebuggerVisualizers.IDeserializableObject> instance from it and process it as required.
+  1. If the *debuggee-side* visualizer component needs to return anything to the *debugger-side*, it will be located in the <xref:System.IO.Stream> object returned by the <xref:Microsoft.VisualStudio.DebuggerVisualizers.IVisualizerObjectProvider.TransferData%2A> method. Use the `IVisualizerObjectProvider2.GetDeserializableObjectFrom` method to get an  <xref:Microsoft.VisualStudio.DebuggerVisualizers.IDeserializableObject> instance from it and process it as required.
 
   Please refer to the [Add a debuggee-side data object](#add-a-debuggee-side-data-object) section (step 4) to learn what other changes are required on the *debuggee-side* when using Binary Serialization is not supported.
 
