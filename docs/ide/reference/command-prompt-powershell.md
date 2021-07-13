@@ -1,7 +1,10 @@
 ---
 title: 'Command-line shells & prompt for developers'
 description:  Start from Tools > Command Line menu. Visual Studio Developer Command Prompt, Developer PowerShell, and terminal let you use .NET and C++ tools more easily.
-ms.date: 04/11/2021
+author: TerryGLee
+ms.author: tglee
+ms.date: 06/11/2021
+ms.topic: reference
 ms.custom: contperf-fy21q4
 helpviewer_keywords:
   - "Visual Studio command prompt"
@@ -20,7 +23,6 @@ Visual Studio 2019 includes two command-line shells for developers:
 
 - **Visual Studio Developer PowerShell** - More powerful than a command prompt. For example, you can pass the output of one command (known as a *cmdlet*) to another cmdlet. This shell has the same environment variables set as Developer Command Prompt. Available since Visual Studio 2019.
 
-
 :::image type="content" source="media/developer-command-prompt-for-vs/command-prompt.png" alt-text="Developer Command Prompt for Visual Studio showing clrver tool":::
 
 Starting in Visual Studio 2019 version 16.5, Visual Studio includes an integrated **terminal** that can host either of these shells (Developer Command Prompt and Developer PowerShell). You can also open multiple tabs of each shell. The Visual Studio terminal is built on top of [Windows Terminal](/windows/terminal/). To open the terminal in Visual Studio, choose **View** > **Terminal**.
@@ -34,8 +36,8 @@ Both shells have specific environment variables set that enable you to use comma
 |Popular commands|Description|
 |--|--|
 |[`MSBuild`](../../msbuild/msbuild-command-line-reference.md)|Build a project or solution|
-|[`clrver`](/dotnet/framework/tools/clrver-exe-clr-version-tool)| A [.NET Framework tools](/dotnet/framework/tools/index) for clr.|
-|[`ildasm`](/dotnet/framework/tools/ildasm-exe-il-disassembler)|A [.NET Framework tool](/dotnet/framework/tools/index) for disassembler.|
+|[`clrver`](/dotnet/framework/tools/clrver-exe-clr-version-tool)| A [.NET Framework tool](/dotnet/framework/tools/index) for CLR|
+|[`ildasm`](/dotnet/framework/tools/ildasm-exe-il-disassembler)|A [.NET Framework tool](/dotnet/framework/tools/index) for disassembler|
 |[`dotnet`](/dotnet/core/tools/dotnet)|A [.NET CLI command](/dotnet/core/tools/index)|
 |[`dotnet run`](/dotnet/core/tools/dotnet-run)|A [.NET CLI command](/dotnet/core/tools/index)|
 |[`CL`](/cpp/build/reference/compiler-command-line-syntax)|C/C++ compile tool|
@@ -126,9 +128,7 @@ By default, the Developer PowerShell that launches is configured for the Visual 
 
 ## See also
 
-- [Developer PowerShell](https://devblogs.microsoft.com/visualstudio/the-powershell-you-know-and-love-now-with-a-side-of-visual-studio/)
-- [Say hello to the new Visual Studio terminal](https://devblogs.microsoft.com/visualstudio/say-hello-to-the-new-visual-studio-terminal/)
 - [Windows Terminal](/windows/terminal/)
 - [.NET Framework Tools](/dotnet/framework/tools/index)
-- [Manage external tools](../managing-external-tools.md)
 - [Use the Microsoft C++ toolset from the command line](/cpp/build/building-on-the-command-line)
+- [Visual Studio Code users](https://code.visualstudio.com/docs/cpp/config-msvc#:~:text=To%20open%20the%20Developer%20Command,item%20to%20open%20the%20prompt.)

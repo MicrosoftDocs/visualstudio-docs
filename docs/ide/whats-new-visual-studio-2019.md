@@ -226,7 +226,7 @@ Meanwhile, here's what's currently in the works:
 
 - **The first public release of Visual Studio 2022 (Preview) is now available**
 
-    The public preview of our next major release, [Visual Studio 2022](https://devblogs.microsoft.com/visualstudio/visual-studio-2022/), is now available. The new version is faster, more approachable, and more lightweight. And, for the first time ever, Visual Studio is 64-bit. For a download link and more info, see the **[Download Visual Studio 2022 Preview 1](https://devblogs.microsoft.com/visualstudio/?p=232975&preview=true)** blog post.
+    The public preview of our next major release, [Visual Studio 2022](/visualstudio/releases/2022/release-notes-preview/), is now available. The new version is faster, more approachable, and more lightweight. And, for the first time ever, Visual Studio is 64-bit. For a download link and more info, see the **[Visual Studio 2022 Preview 1 now available!](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-preview-1-now-available/)** blog post.
 
 ## Give us feedback
 

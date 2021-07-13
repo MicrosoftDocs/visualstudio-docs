@@ -3,7 +3,7 @@ title: Overview for C# developers
 description: Learn about the Visual Studio integrated development environment and how it can be tailored to C# developers.
 ms.date: 03/19/2019
 ms.technology: vs-ide-general
-ms.custom: [get-started, SEO-VS-2020]
+ms.custom: [vs-acquisition, get-started, SEO-VS-2020]
 ms.topic: overview
 author: TerryGLee
 ms.author: tglee

@@ -1,7 +1,7 @@
 ---
 title: "Create a Node.js and React app"
 description: Learn how to create a Node.js web application project from a Visual Studio template.
-ms.custom: ""
+ms.custom: vs-acquisition
 ms.date: 4/21/2020
 ms.topic: tutorial
 ms.devlang: javascript
@@ -302,7 +302,7 @@ In the previous steps, you added *webpack-config.js* to the project. Next, you a
 
 1. In the command prompt, type the following command:
 
-    `node_modules\.bin\webpack app.tsx --config webpack-config.js`
+    `node_modules\.bin\webpack ./app.tsx --config webpack-config.js`
 
     The command prompt window shows the result.
 
@@ -330,7 +330,7 @@ Starting in Visual Studio 2019, a build script is required. Instead of transpili
 
    ```json
    "scripts": {
-    "build": "webpack-cli app.tsx --config webpack-config.js"
+    "build": "webpack-cli ./app.tsx --config webpack-config.js"
    }
    ```
 

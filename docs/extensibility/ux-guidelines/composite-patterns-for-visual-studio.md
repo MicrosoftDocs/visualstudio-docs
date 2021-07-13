@@ -3,7 +3,7 @@ title: Composite Patterns for Visual Studio | Microsoft Docs
 description: Learn about important composite patterns for consistency in Visual Studio. Composite patterns combine interaction and design elements.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 ms.assetid: e48ecfb2-f4b5-4d3a-b4a2-7a4d62fa4ec0
 author: leslierichardson95
 ms.author: lerich

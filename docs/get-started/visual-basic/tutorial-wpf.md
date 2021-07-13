@@ -1,7 +1,7 @@
 ---
 title: "Hello World app with WPF in Visual Basic"
 description: Create a simple Windows Desktop .NET app in Visual Basic with Visual Studio using the Windows Presentation Foundation (WPF) UI framework.
-ms.custom: "seodec18, get-started"
+ms.custom: "vs-acquisition, seodec18, get-started"
 ms.date: 04/23/2019
 ms.technology: vs-ide-general
 ms.prod: visual-studio-windows

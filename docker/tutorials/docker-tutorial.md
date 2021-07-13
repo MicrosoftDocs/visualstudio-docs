@@ -1,12 +1,11 @@
 ---
-title: "Docker tutorial - Get started with Docker"
+title: "Tutorial: Get started with Docker & Visual Studio Code"
 description: A multi-step tutorial that covers the basics of working with Docker with Visual Studio Code.
 ms.date: "08/04/2020"
 author: nebuk89
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-azure
-ms.topic: conceptual
+ms.topic: tutorial
 ms.workload:
   - "azure"
 next_page: app.md

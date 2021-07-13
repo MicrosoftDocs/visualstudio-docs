@@ -7,7 +7,6 @@ ms.topic: reference
 f1_keywords:
 - vs.build.output
 - vs.debug.output
-- vs.output
 helpviewer_keywords:
 - Output window, about Output window
 - Output window

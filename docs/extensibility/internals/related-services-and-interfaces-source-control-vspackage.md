@@ -4,7 +4,7 @@ titleSuffix: ""
 description: Learn about the source control VSPackage-related interfaces in the Visual Studio SDK. The package implements some interfaces and uses others for source control.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - source control packages, interfaces
 - interfaces, source control packages

@@ -1,14 +1,14 @@
 ---
-title: "Tutorial: Extend a simple C# console app"
+title: "Tutorial 2: Extend your C# console app"
 description: "Learn how to develop a C# console app in Visual Studio, step-by-step."
-ms.custom: "get-started"
+ms.custom: "vs-acquisition, get-started"
 ms.date: 04/15/2021
 ms.technology: vs-ide-general
 ms.prod: visual-studio-windows
 ms.topic: tutorial
 ms.devlang: CSharp
-author: ghogen
-ms.author: ghogen
+author: j-martens
+ms.author: jmartens
 manager: jmartens
 monikerRange: ">=vs-2019"
 dev_langs:
@@ -17,13 +17,26 @@ ms.workload:
   - "dotnet"
   - "dotnetcore"
 ---
-# Tutorial: Extend a simple C# console app
+# Tutorial: Extend C# console app and debug in Visual Studio (part 2 of 2)
 
-In this tutorial, you'll learn how to use Visual Studio to extend the console app you created in the first part. You'll learn some of the features in Visual Studio that you'll need for daily development, such as managing multiple projects, and referencing third-party packages.
+In part 2 of this tutorial series, you'll dive a little deeper in the build and debug features in Visual Studio that you'll need for daily development, such as managing multiple projects, debugging, and referencing third-party packages. You'll run the C# console app you created in [Part 1 of this tutorial(tutorial-console.md) and explore some features of the Visual Studio integrated development environment (IDE) while you do so. This tutorial is part 2 of a two-part tutorial series.
 
-If you just completed the [first part](tutorial-console.md) of this series, you already have the Calculator console app.  To skip part 1, you can start by opening the project from a GitHub repo. The C# Calculator app is in the [vs-tutorial-samples repo](https://github.com/MicrosoftDocs/vs-tutorial-samples), so you can just follow the steps in [Tutorial: Open a project from a repo](../tutorial-open-project-from-repo.md) to get started.
+In this tutorial, you will:
 
-## Add a new project
+> [!div class="checklist"]
+> * Add another project to your first one.
+> * Reference libraries and add packages.
+> * Debug some more.
+> * Inspect your complete code.
+
+
+## Prerequisites
+
+You must either:
++ Use the [Calculator console app from part 1 of this tutorial series](tutorial-console.md) 
++ Use the C# Calculator app in the [vs-tutorial-samples repo](https://github.com/MicrosoftDocs/vs-tutorial-samples) that you can [open from a repo](../tutorial-open-project-from-repo.md) to get started.
+
+## Add another project
 
 Real-world code involves many projects working together in a solution. Now, let's add another project to the Calculator app. This will be a class library that provides some of the calculator functions.
 
@@ -743,15 +756,12 @@ namespace CalculatorProgram
 
 ## Next steps
 
-Congratulations on completing this tutorial! To learn even more, continue with the following tutorials.
+Congratulations on completing this tutorial! To learn even more, continue with the following content:
 
-> [!div class="nextstepaction"]
-> [Continue with more C# tutorials](/dotnet/csharp/tutorials/)
-
-> [!div class="nextstepaction"]
-> [Continue with Visual Studio IDE overview](/../visual-studio-ide.md)
-
-## See also
-
-- [C# IntelliSense](../../ide/visual-csharp-intellisense.md)
+- [Continue with more C# tutorials](/dotnet/csharp/tutorials/)
+- [Quickstart: create a ASP.NET Core web app](../../ide/quickstart-aspnet-core.md)
 - [Learn to debug C# code in Visual Studio](tutorial-debugger.md)
+- Walkthrough on how to [create and run unit tests](../../test/walkthrough-creating-and-running-unit-tests-for-managed-code.md)
+- [Run a C# program](run-program.md)
+- [C# IntelliSense](../../ide/visual-csharp-intellisense.md)
+- [Continue with Visual Studio IDE overview](/../visual-studio-ide.md)

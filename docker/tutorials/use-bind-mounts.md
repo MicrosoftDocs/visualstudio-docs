@@ -5,7 +5,7 @@ ms.date: "08/04/2020"
 author: nebuk89
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-azure
+
 ms.topic: conceptual
 ms.workload:
   - "azure"
@@ -43,14 +43,15 @@ To run your container to support a development workflow, you'll do the following
 
     ```bash
     docker run -dp 3000:3000 \
-        -w /app -v ${PWD}:/app \
+        -w /app \
+        -v "%cd%:/app" \
         node:12-alpine \
         sh -c "yarn install && yarn run dev"
     ```
 
     - `-dp 3000:3000` - same as before. Run in detached (background) mode and create a port mapping
     - `-w /app` - sets the "working directory" or the current directory that the command will run from
-    - `-v ${PWD}:/app` - bind mount the current directory from the host in the container into the `/app` directory
+    - `-v "%cd%:/app"` - bind mount the current directory from the host in the container into the `/app` directory
     - `node:12-alpine` - the image to use. Note that this is the base image for your app from the Dockerfile
     - `sh -c "yarn install && yarn run dev"` - the command. We're starting a shell using `sh` (alpine doesn't have `bash`) and running `yarn install` to install *all* dependencies and then running `yarn run dev`. If you look in the `package.json`, we'll see that the `dev` script is starting `nodemon`.
 

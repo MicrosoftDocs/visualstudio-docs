@@ -1,7 +1,7 @@
 ---
 title: "Prepare to debug C#, F#, and VB projects | Microsoft Docs"
 description: Get information about preparing to debug the C#, F#, and Visual Basic project types created by the Visual Studio project templates.
-ms.custom: "SEO-VS-2020, seodec18"
+ms.custom: "SEO-VS-2020"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:

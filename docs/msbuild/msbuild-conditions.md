@@ -67,7 +67,7 @@ The relational operators `<`, `>`, `<=`, and `>=` support versions as parsed by 
 > [!CAUTION]
 > `System.Version` comparisons can produce surprising results when one or both versions do not specify all four parts. For instance, version 1.1 is older than version 1.1.0.
 
-MSBuild provides [property functions to compare versions](property-functions.md#MSBuild-version-comparison-functions) that have a different set of rules compatible with semantic versioning (semver).
+MSBuild provides [property functions to compare versions](property-functions.md#msbuild-version-comparison-functions) that have a different set of rules compatible with semantic versioning (semver).
 
 ## See also
 

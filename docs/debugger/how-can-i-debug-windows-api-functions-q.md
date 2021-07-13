@@ -1,7 +1,7 @@
 ---
 title: Debug Windows API functions | Microsoft Docs
 description: Learn how to debug a Windows API function that has NT symbols loaded. In 32-bit code you use the decorated form of the function name to set the breakpoint.
-ms.custom: "SEO-VS-2020, seodec18"
+ms.custom: "SEO-VS-2020"
 ms.date: 06/03/2020
 ms.topic: how-to
 f1_keywords: 

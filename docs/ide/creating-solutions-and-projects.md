@@ -1,5 +1,5 @@
 ---
-title: "Create &amp; use Visual Studio projects &amp; solutions"
+title: "Create & use Visual Studio projects & solutions"
 description: Learn about the difference between solutions and projects and how to use them in Visual Studio.
 ms.custom: "SEO-VS-2020, contperf-fy21q2"
 ms.date: 06/14/2021
@@ -7,7 +7,6 @@ ms.topic: how-to
 f1_keywords:
 - vs.openprojectfromweb
 - VS.ToolsOptionsPages.Projects.General
-- SolutionItemsProject
 helpviewer_keywords:
 - solutions [Visual Studio], creating
 - projects [Visual Studio], creating

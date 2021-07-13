@@ -1,7 +1,6 @@
 ---
 title: "Getting Started with Visual Studio Tools for Unity | Microsoft Docs"
 description: "Learn how to install and setup Visual Studio for Unity development."
-ms.custom: ""
 ms.date: "01/27/2021"
 ms.technology: vs-unity-tools
 ms.prod: visual-studio-dev16
