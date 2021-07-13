@@ -92,7 +92,7 @@ Then, pass the stream to the `IVisualizerObjectProvider2.TransferData` method.
 method. Use the `IVisualizerObjectProvider2.GetDeserializableObjectFrom` method to get an
 <xref:Microsoft.VisualStudio.DebuggerVisualizers.IDeserializableObject> instance from it and process it as required.
 
-Please refer to the [Special debuggee side considerations for .NET 5.0+](#special-debuggee-side-considerations-for-net-50+)
+Please refer to the [Special debuggee side considerations for .NET 5.0+](#special-debuggee-side-considerations-for-net-50)
 section to learn what other changes are required on the *debuggee-side* when using Binary Serialization is not supported.
 
 > [!NOTE]
@@ -122,7 +122,7 @@ In the debuggee-side code:
 
 > [!IMPORTANT]
 > Additional steps might be needed for a visualizer to work in .NET 5.0 and above due to security concerns regarding the underlying binary
-serialization method used by default. Please read this [section](#special-debugger-side-considerations-for-net-50+) before continuing.
+serialization method used by default. Please read this [section](#special-debugger-side-considerations-for-net-50) before continuing.
 
 1. If the visualizer implements the <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource.TransferData%2A> method, 
 use the newly added <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource.GetDeserializableObject%2A> method that
