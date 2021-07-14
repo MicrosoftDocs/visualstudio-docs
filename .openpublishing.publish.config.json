@@ -22,7 +22,6 @@
       "locale": "en-us",
       "monikers": [],
       "moniker_ranges": [
-        "vs-2015",
         ">= vs-2017"
       ],
       "xref_query_tags": [
