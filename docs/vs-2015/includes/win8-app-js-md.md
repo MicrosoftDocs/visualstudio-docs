@@ -1,1 +1,0 @@
-Windows Store app built for Windows using JavaScript
