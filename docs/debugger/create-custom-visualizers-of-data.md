@@ -79,15 +79,15 @@ Moreover, it has been marked completely obsolete in ASP.NET Core 5 and its usage
 Hence, this section describes the necessary steps that should be taken so that your visualizer is still supported in
 this scenario.
 
-1. For compatibility reasons, the <xref:Microsoft.VisualStudio.DebuggerVisualizers.DialogDebuggerVisualizer.Show%2A> method
-that was overrided in the preceding section still takes in an <xref:Microsoft.VisualStudio.DebuggerVisualizers.IVisualizerObjectProvider>. Nonetheless, it is actually of type <xref:Microsoft.VisualStudio.DebuggerVisualizers.IVisualizerObjectProvider2>.
+- For compatibility reasons, the <xref:Microsoft.VisualStudio.DebuggerVisualizers.DialogDebuggerVisualizer.Show%2A> method
+that was overridden in the preceding section still takes in an <xref:Microsoft.VisualStudio.DebuggerVisualizers.IVisualizerObjectProvider>. Nonetheless, it is actually of type <xref:Microsoft.VisualStudio.DebuggerVisualizers.IVisualizerObjectProvider2>.
 Therefore, cast the `objectProvider` object to the updated interface.
 
-1. When sending objects, like commands or data, to the *debuggee-side* use the `IVisualizerObjectProvider2.Serialize` method
-to pass it to a stream, it will determine the best serialization format to use based on the runtime of the *debugee* process.
+- When sending objects, like commands or data, to the *debuggee-side* use the `IVisualizerObjectProvider2.Serialize` method
+to pass it to a stream, it will determine the best serialization format to use based on the runtime of the *debuggee* process.
 Then, pass the stream to the `IVisualizerObjectProvider2.TransferData` method.
 
-1. If the *debuggee-side* visualizer component needs to return anything to the *debugger-side*, it will be located in the
+- If the *debuggee-side* visualizer component needs to return anything to the *debugger-side*, it will be located in the
 <xref:System.IO.Stream> object returned by the <xref:Microsoft.VisualStudio.DebuggerVisualizers.IVisualizerObjectProvider.TransferData%2A>
 method. Use the `IVisualizerObjectProvider2.GetDeserializableObjectFrom` method to get an
 <xref:Microsoft.VisualStudio.DebuggerVisualizers.IDeserializableObject> instance from it and process it as required.
@@ -124,12 +124,12 @@ In the debuggee-side code:
 > Additional steps might be needed for a visualizer to work in .NET 5.0 and above due to security concerns regarding the underlying binary
 serialization method used by default. Please read this [section](#special-debugger-side-considerations-for-net-50) before continuing.
 
-1. If the visualizer implements the <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource.TransferData%2A> method, 
+- If the visualizer implements the <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource.TransferData%2A> method, 
 use the newly added <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource.GetDeserializableObject%2A> method that
 is available in the latest version of `VisualizerObjectSource`. The <xref:Microsoft.VisualStudio.DebuggerVisualizers.IDeserializableObject>
 it returns helps to determine the object's serialization format (binary or JSON) and to deserialize the underlying object so that it may be used.
 
-1. If the *debuggee-side* returns data to the *debugger-side* as part of the `TransferData` call, serialize the response to the
+- If the *debuggee-side* returns data to the *debugger-side* as part of the `TransferData` call, serialize the response to the
 *debugger-side's* stream via the <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource.Serialize%2A> method.
 
 ## See also
