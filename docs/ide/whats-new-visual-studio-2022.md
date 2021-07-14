@@ -26,19 +26,19 @@ With Visual Studio, you'll always get the best-in-class tools and services avail
 
 ## Visual Studio 2022 is 64-bit
 
-Visual Studio 2022 on Windows is now a 64-bit application. This means you can open, edit, run, and debug even the biggest and most complex solutions without running out of memory. To learn more, see the [Visual Studio 2022 vision](https://devblogs.microsoft.com/visualstudio/visual-studio-2022/) blog post.
+Visual Studio 2022 on Windows is now a 64-bit application. This means you can open, edit, run, and debug even the biggest and most complex solutions without running out of memory. To learn more, see the [**Visual Studio 2022 vision**](https://devblogs.microsoft.com/visualstudio/visual-studio-2022/) blog post.
 
 ## IntelliCode includes whole line completion
 
-In Visual Studio 2022, the [IntelliCode](/visualstudio/intellicode/) feature can now automatically complete code up to a whole line at a time. To learn more, see the [Type less, code more with IntelliCode completions](https://devblogs.microsoft.com/visualstudio/type-less-code-more-with-intellicode-completions/) blog post.
+In Visual Studio 2022, the [IntelliCode](/visualstudio/intellicode/) feature can now automatically complete code up to a whole line at a time. To learn more, see the [**Type less, code more with IntelliCode completions**](https://devblogs.microsoft.com/visualstudio/type-less-code-more-with-intellicode-completions/) blog post.
 
 ## Build modern apps with improved tools
 
-Visual Studio 2022 includes better cross-platform app development tools and the latest version of C++ build tools. As well, we're updating Hot Reload so that you can edit either C++ or .NET projects while your application is running. For more information, see the [Visual Studio 2022 Preview 2 is out!](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-preview-2-is-out/) blog post.
+Visual Studio 2022 includes better cross-platform app development tools and the latest version of C++ build tools. As well, we're updating Hot Reload so that you can edit either C++ or .NET projects while your application is running. For more information, see the [**Visual Studio 2022 Preview 2 is out!**](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-preview-2-is-out/) blog post.
 
 ## What's next
 
-Want to learn more about what we're planning for Visual Studio 2022? See the [Roadmap](/visualstudio/productinfo/vs-roadmap/) page for details.
+Want to learn more about what we're planning for Visual Studio 2022? See the [**Roadmap**](/visualstudio/productinfo/vs-roadmap/) page for details.
 
 ## Give us feedback
 
