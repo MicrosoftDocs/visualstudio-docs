@@ -22,13 +22,15 @@ ms.workload:
 >[!div class="button"]
 >[Download Visual Studio 2022 Preview](https://visualstudio.microsoft.com/vs/preview/vs2022/)
 
-With Visual Studio you'll always get the best-in-class tools and services available for any developer, any app, and any platform. Here's what's new in our next version, Visual Studio 2022!
+With Visual Studio you'll always get the best-in-class tools and services available for any developer, any app, and any platform. Here's what's new in our next version, Visual Studio 2022, currently in Preview!
 
-## 64-bit
-First off the deck,
+## Visual Studio 2022 is 64-bit
 
+Visual Studio 2022 on Windows is now a 64-bit application. This means you can open, edit, run, and debug even the biggest and most complex solutions without running out of memory. To learn more, see the [Visual Studio 2022 vision](https://devblogs.microsoft.com/visualstudio/visual-studio-2022/) blog post.
 
+## IntelliCode includes whole line completion
 
+In Visual Studio 2022, the [IntelliCode](/visualstudio/intellicode/) feature can now automatically complete code up to a whole line at a time. To learn more, see the [Type less, code more with IntelliCode completions](https://devblogs.microsoft.com/visualstudio/type-less-code-more-with-intellicode-completions/) blog post.
 
 ## Give us feedback
 
