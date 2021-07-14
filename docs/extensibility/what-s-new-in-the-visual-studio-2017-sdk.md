@@ -30,7 +30,7 @@ To learn about these changes, see the following topics:
 * [Changes to extensibility for Visual Studio 2017](breaking-changes-2017.md)
 * [Ngen support in VSIX v3](ngen-support.md)
 * [Install outside the extensions folder](set-install-root.md)
-* [Frequently asked questions for Visual Studio 2017 extensibility](faq-2017.md)
+* [Frequently asked questions for Visual Studio 2017 extensibility](faq-2017.yml)
 
 ## Migrate extensibility project to Visual Studio 2017
 
