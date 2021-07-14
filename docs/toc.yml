@@ -1428,7 +1428,7 @@
   expanded: true
   items:
   - name: "Visual Studio 2022: What's new"
-  - href: ide/whats-new-visual-studio-2022.md
+    href: ide/whats-new-visual-studio-2022.md
   - name: "Visual Studio 2019: What's new"
     href: ide/whats-new-visual-studio-2019.md
   - name: "Visual Studio 2017: What's new"
