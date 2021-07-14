@@ -1,15 +1,15 @@
 ---
 title: "What's new in Visual Studio 2022 (Preview)"
 titleSuffix: ""
-description: "Learn about the new features in Visual Studio 2022."
-ms.date: 07/13/2021
+description: "Learn about the new features in the preview release of Visual Studio 2022."
+ms.date: 07/14/2021
 helpviewer_keywords:
   - "Visual Studio, what's new"
   - "what's new [Visual Studio]"
 author: TerryGLee
 ms.author: tglee
 manager: jmartens
-ms.prod: visual-studio-windows
+ms.prod: visual-studio-dev17
 ms.technology: vs-ide-general
 ms.topic: conceptual
 ms.workload:
@@ -17,13 +17,14 @@ ms.workload:
 ---
 # What's new in Visual Studio 2022 (Preview)
 
-**Updated for the 17.0 Preview 2 release.** See [full release notes](/visualstudio/releases/2019/release-notes/) | View [product roadmap](/visualstudio/productinfo/vs-roadmap)
+**Updated for the 17.0 Preview 2 release.** See [full release notes](/visualstudio/releases/2022/release-notes-preview/) | View [product roadmap](/visualstudio/productinfo/vs-roadmap/)
 
 >[!div class="button"]
->[Download Visual Studio 2022 Preview](https://visualstudio.microsoft.com/downloads)
+>[Download Visual Studio 2022 Preview](https://visualstudio.microsoft.com/vs/preview/vs2022/)
 
 With Visual Studio you'll always get the best-in-class tools and services available for any developer, any app, and any platform. Here's what's new in our next version, Visual Studio 2022!
 
+## 64-bit
 First off the deck,
 
 
@@ -41,4 +42,5 @@ Why send feedback to the Visual Studio team? Because we take customer feedback s
 
 * [What's new in the Visual Studio docs](whats-new-visual-studio-docs.md)
 * [Visual Studio 2019 release notes](/visualstudio/releases/2019/release-notes/)
+* [Microsoft Build conference](https://www.microsoft.com/build)
 * [Microsoft Ignite conference](https://www.microsoft.com/ignite)
