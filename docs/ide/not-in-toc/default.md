@@ -47,5 +47,7 @@ We're sorry! It looks like we couldn't find what you were looking for.
 
 ## Help us serve you better
 
-Tell us where you were in the product and what help you needed.   
-<br/>Use the `This Page` feedback button at the bottom of this page. 
+We'd love to get your feedback on how to provide the help you need.
+
+> [!div class="nextstepaction"]
+> [Share your feedback (5 minute survey)](https://www.surveymonkey.com/r/F1_Help_Visual_Studio)
