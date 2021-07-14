@@ -44,7 +44,7 @@
     - name: Migrate debugger COM registration
       href: migrate-debugger-com-registration.md
     - name: Frequently Asked Questions
-      href: faq-2017.md
+      href: faq-2017.yml
   - name: Migrate Extensibility Projects to Visual Studio 2017
     href: how-to-migrate-extensibility-projects-to-visual-studio-2017.md
   - name: Roundtrip Extensions for Visual Studio
