@@ -732,6 +732,12 @@
         href: ide/fsharp-visual-studio.md
       - name: Target older .NET versions
         href: ide/fsharp-target-older-dotnet-versions.md
+    - name: Python >>
+      href: python/index.yml
+    - name: JavaScript/TypeScript >>
+      href: javascript/index.yml
+    - name: Azure >>
+      href: azure/index.yml
     - name: 3D graphical assets
       items:
       - name: Work with 3D assets for games and apps
