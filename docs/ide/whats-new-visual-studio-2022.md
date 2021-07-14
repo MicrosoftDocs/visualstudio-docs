@@ -32,6 +32,10 @@ Visual Studio 2022 on Windows is now a 64-bit application. This means you can op
 
 In Visual Studio 2022, the [IntelliCode](/visualstudio/intellicode/) feature can now automatically complete code up to a whole line at a time. To learn more, see the [Type less, code more with IntelliCode completions](https://devblogs.microsoft.com/visualstudio/type-less-code-more-with-intellicode-completions/) blog post.
 
+## What's next
+
+Want to learn more about what we're planning for Visual Studio 2022? See the [Roadmap](/visualstudio/productinfo/vs-roadmap/) page for details.
+
 ## Give us feedback
 
 Why send feedback to the Visual Studio team? Because we take customer feedback seriously. It drives much of what we do.
