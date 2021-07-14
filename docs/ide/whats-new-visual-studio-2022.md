@@ -10,6 +10,7 @@ author: TerryGLee
 ms.author: tglee
 manager: jmartens
 ms.prod: visual-studio-dev17
+ms.technology:
 ms.topic: conceptual
 ms.workload:
   - "multiple"
