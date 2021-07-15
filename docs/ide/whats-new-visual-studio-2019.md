@@ -228,7 +228,7 @@ Meanwhile, here's what's currently in the works:
 
     Our newest version, [Visual Studio 2022 (Preview)](/visualstudio/releases/2022/release-notes-preview/) is faster, more approachable, and more lightweight. And, for the first time ever, Visual Studio is 64-bit.
 
-    For a download link and more info, see the **[**Visual Studio 2022 vision**](https://devblogs.microsoft.com/visualstudio/visual-studio-2022/)** blog post.
+    For a download link and more info, see the **[Visual Studio 2022 vision](https://devblogs.microsoft.com/visualstudio/visual-studio-2022/)** blog post.
 
 ## Give us feedback
 
