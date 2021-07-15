@@ -2,7 +2,7 @@
 title: "What's new in Visual Studio 2022 (Preview)"
 titleSuffix: ""
 description: "Learn about the new features in the preview release of Visual Studio 2022."
-ms.date: 07/14/2021
+ms.date: 07/15/2021
 helpviewer_keywords:
   - "Visual Studio, what's new"
   - "what's new [Visual Studio]"
@@ -22,7 +22,7 @@ ms.workload:
 >[!div class="button"]
 >[Download Visual Studio 2022 Preview](https://visualstudio.microsoft.com/vs/preview/vs2022/)
 
-With Visual Studio, you'll always get the best-in-class tools and services available for any developer, any app, and any platform. Here's what's new in our next version, Visual Studio 2022, currently in Preview!
+With Visual Studio, you'll always get the best-in-class tools and services available for any developer, any app, and any platform. Whether you're using Visual Studio for the first time or you've been using it for years, there's a lot to like in our newest version, currently in Preview.
 
 ## Visual Studio 2022 is 64-bit
 
