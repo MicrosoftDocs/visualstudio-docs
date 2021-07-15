@@ -30,7 +30,7 @@ Visual Studio 2022 on Windows is now a 64-bit application. This means you can op
 
 ## IntelliCode includes whole line completion
 
-In Visual Studio 2022, the [IntelliCode](/visualstudio/intellicode/) feature can now automatically complete code up to a whole line at a time. To learn more, see the [**Type less, code more with IntelliCode completions**](https://devblogs.microsoft.com/visualstudio/type-less-code-more-with-intellicode-completions/) blog post.
+In Visual Studio 2022, the [IntelliCode](/visualstudio/intellicode/) feature can now automatically complete code up to a whole line at a time. For details, see the [**Type less, code more with IntelliCode completions**](https://devblogs.microsoft.com/visualstudio/type-less-code-more-with-intellicode-completions/) blog post.
 
 ## Build modern apps with improved tools
 
@@ -38,7 +38,7 @@ Visual Studio 2022 includes better cross-platform app development tools and the 
 
 ## What's next
 
-Want to learn more about what we're planning for Visual Studio 2022? See the [**Roadmap**](/visualstudio/productinfo/vs-roadmap/) page for details.
+Want to know more about what we're planning for Visual Studio 2022? See the [**Roadmap**](/visualstudio/productinfo/vs-roadmap/) page for details.
 
 ## Give us feedback
 
@@ -46,7 +46,7 @@ Why send feedback to the Visual Studio team? Because we take customer feedback s
 
 * If you want to make a suggestion about how we can improve Visual Studio, you can do so by using the [Suggest a Feature](suggest-a-feature.md) tool.
 
-* If you experience an issue where Visual Studio stops responding, crashes, or other performance issue, you can easily share repro steps and supporting files with us by using the [Report a Problem](how-to-report-a-problem-with-visual-studio.md) tool.
+* If you experience an issue where Visual Studio stops responding, crashes, or other performance issues, you can easily share repro steps and supporting files with us by using the [Report a Problem](how-to-report-a-problem-with-visual-studio.md) tool.
 
 ## See also
 
