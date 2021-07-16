@@ -41,7 +41,6 @@
       "breadcrumb_path": "/visualstudio/_breadcrumb/toc.json",
       "extendBreadcrumb": "true",
       "manager": "jmartens",
-      "ms.topic": "conceptual",
       "audience": "developer",
       "defaultDevLang": "csharp",
       "ms.prod": "visual-studio-windows",
@@ -90,7 +89,8 @@
         "xml-tools/**/**.md": "vs-xml-tools"
       },
       "titleSuffix": {
-        "ai/**/**.md": "AI tools for Visual Studio"
+        "ai/**/**.md": "AI tools for Visual Studio",
+        "msbuild/**/**.md": "MSBuild"
       },
       "feedback_system": {
         "extensibility/**/*": "None"
@@ -98,6 +98,9 @@
       "searchScope": {
         "extensibility/**/*.md": [
           "VS Extensibility"
+        ],
+        "msbuild/**/*.md": [
+          "MSBuild"
         ]
       }
     },

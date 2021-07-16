@@ -11,8 +11,8 @@ dev_langs:
   - "DHTML"
 ms.assetid: 74dca14c-5071-416f-a92b-d09f95e3dfb8
 caps.latest.revision: 1
-author: "bowdenk7"
-ms.author: "jillfra"
+author: "mikejo5000"
+ms.author: "mikejo"
 manager: jmartens
 ---
 # JavaScript in Visual Studio 2017
