@@ -1,7 +1,7 @@
 ---
-title: "Debug .NET Core apps in WSL 2"
-description: Learn to run and debug your .NET Core apps in WSL 2 without leaving Visual Studio.
-ms.date: "01/25/2021"
+title: "Debug .NET apps in WSL 2"
+description: Learn to run and debug your .NET apps in WSL 2 without leaving Visual Studio.
+ms.date: "07/16/2021"
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "debugging, linux"
@@ -14,9 +14,9 @@ ms.workload:
   - "multiple"
 ---
 
-# Debug .NET Core Apps in WSL 2 with Visual Studio
+# Debug .NET Apps in WSL 2 with Visual Studio
 
-You can easily run and debug your .NET Core apps in Linux without leaving Visual Studio using WSL 2. If you are a cross-platform developer, you can use this method as a simple way to test more of your target environments.
+You can easily run and debug your .NET apps in Linux without leaving Visual Studio using WSL 2. If you are a cross-platform developer, you can use this method as a simple way to test more of your target environments.
 
 For a Windows .NET user targeting Linux, WSL 2 lives in a sweet spot between production realism and productivity. In Visual Studio, you can already debug in a remote Linux environment using the [remote debugger](../debugger/remote-debugging-dotnet-core-linux-with-ssh.md), or with containers using the [Container Tools](../containers/overview.md). When production realism is your main concern, you should use one of those options. When an easy and fast inner-loop is more important, WSL 2 is a great option.
 
@@ -55,14 +55,14 @@ You don’t have to choose just one method! You can have a launch profile for Do
     }
     ```
 
-   Once you select the new profile, the extension checks that your WSL 2 distribution is configured to run .NET Core apps, and helps you install any missing dependencies. Once you've installed these dependencies, you are ready to debug in WSL 2.
+   Once you select the new profile, the extension checks that your WSL 2 distribution is configured to run .NET apps, and helps you install any missing dependencies. Once you've installed these dependencies, you are ready to debug in WSL 2.
 
 1. Start debugging as normal, and your app will run in your default WSL 2 distribution.
 
    An easy way to verify that you're running in Linux is to check the value of `Environment.OSVersion`.
 
 >[!NOTE]
-> Only Ubuntu and Debian have been tested and are supported. Other distributions supported by .NET Core should work but require manually installing the [.NET Core Runtime](https://aka.ms/wsldotnet) and [Curl](https://curl.haxx.se/).
+> Only Ubuntu and Debian have been tested and are supported. Other distributions supported by .NET should work but require manually installing the [.NET Runtime](https://aka.ms/wsldotnet) and [Curl](https://curl.haxx.se/).
 
 ## Choose a specific distribution
 
