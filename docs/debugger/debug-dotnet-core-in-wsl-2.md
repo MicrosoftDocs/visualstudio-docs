@@ -1,5 +1,5 @@
 ---
-title: "Debug .NET apps in WSL 2"
+title: "Debug .NET apps in Linux using WSL 2"
 description: Learn to run and debug your .NET apps in WSL 2 without leaving Visual Studio.
 ms.date: "07/16/2021"
 ms.topic: "conceptual"
