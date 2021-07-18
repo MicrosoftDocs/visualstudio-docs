@@ -5,7 +5,7 @@ summary: Share your code from within Visual Studio by using version control tech
 
 metadata:
   title: Version control & source control with Git in Visual Studio # Required; page title displayed in search results. Include the brand. < 60 chars.
-  description: Use version control technologies in Visual Studio. You can share, integrate, and manage your code releases in Git & GitHub without leaving your codebase.
+  description: Use version / source control technologies in Visual Studio. You can share, integrate, and manage your code releases in Git & GitHub without leaving your codebase.
   ms.topic: landing-page
   ms.date: 07/02/2021
   author: TerryGLee
