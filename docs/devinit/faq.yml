@@ -16,7 +16,7 @@ metadata:
 title: Frequently asked questions for devinit
 summary: |
   > [!IMPORTANT]
-  > As of April 12th 2021, connecting to GitHub Codespaces from Visual Studio 2019 will no longer be supported and this private preview has concluded. We’re focused on evolving experiences for a cloud-powered inner loop and VDI solutions optimized for a broad set of Visual Studio workloads. As part of this `devinit` and associated tools will no longer be available. We encourage you to be involved in our developer community forum for Visual Studio for information on future previews and roadmap information.
+  > As of April 12, 2021, connecting to GitHub Codespaces from Visual Studio 2019 will no longer be supported and this private preview has concluded. We’re focused on evolving experiences for a cloud-powered inner loop and VDI solutions optimized for a broad set of Visual Studio workloads. As part of this `devinit` and associated tools will no longer be available. We encourage you to be involved in our developer community forum for Visual Studio for information on future previews and roadmap information.
   
 
 sections:
@@ -58,7 +58,7 @@ sections:
           For those reasons devinit is about customizing the Windows environment you currently have.
           
       - question: |
-          What about other VM creation tools (for example, Terraform, Packer, Chef, Vagrant, etc.)
+          What about other VM creation tools (for example, Terraform, Packer, Chef, Vagrant)
         answer: |
           There's lots of great tools for creating Windows images and you should use them! However, we couldn't find one that fulfilled all the scenarios we had in mind. We want devinit to be a tool for developers to customize their environment with whatever is needed for a particular repo and to have great integration with Visual Studio, rather than be a tool to create VM images.
 
