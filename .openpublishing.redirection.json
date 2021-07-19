@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "docs/ide/reference/keyboard-environment-options-dialog-box.md",
+      "redirect_url": "/visualstudio/ide/identifying-and-customizing-keyboard-shortcuts-in-visual-studio",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/ide/default-keyboard-shortcuts-for-frequently-used-commands-in-visual-studio.md",
       "redirect_url": "/visualstudio/ide/default-keyboard-shortcuts-in-visual-studio",
       "redirect_document_id": false
