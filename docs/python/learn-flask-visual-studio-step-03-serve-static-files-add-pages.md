@@ -275,10 +275,7 @@ The following steps demonstrate inheritance:
 
 ## Next steps
 
-> [!div class="nextstepaction"]
-> [Use the full Flask Web Project template](learn-flask-visual-studio-step-04-full-flask-project-template.md)
-
-## Go deeper
+You can go deeper with these resources:
 
 - [Deploy the web app to Azure App Service](publishing-python-web-applications-to-azure-from-visual-studio.md)
 - For more capabilities of Jinja templates, such as control flow, see [Jinja Template Designer Documentation](http://jinja.palletsprojects.com/en/2.10.x/templates/) (jinja.pocoo.org)
