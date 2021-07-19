@@ -9,6 +9,7 @@ manager: jmartens
 monikerRange: "vs-2022"
 ms.workload:
 - vssdk
+feedback_system: GitHub
 ---
 # Update a Visual Studio extension for Visual Studio 2022
 
