@@ -18,7 +18,7 @@ metadata:
 
 productDirectory:
     items:
-    - title: Visual Studio
+    - title: Visual Studio test
       imageSrc: ./media/vs-ide-2019.svg
       links:
         - url: ./windows/index.yml?view=vs-2019&preserve-view=true
