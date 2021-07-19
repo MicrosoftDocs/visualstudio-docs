@@ -480,8 +480,6 @@ The following people contributed to the Visual Studio docs during this period. T
 - [Tutorial: Get started with the Django web framework in Visual Studio](../python/learn-django-in-visual-studio-step-01-project-and-solution.md) - Removed Polls template content from Visual Studio 2019 Python tutorials
 - [Step 5: Authenticate users in Django](../python/learn-django-in-visual-studio-step-05-django-authentication.md) - Removed Polls template content from Visual Studio 2019 Python tutorials
 - [Step 6: Use the Polls Django Web Project template](../python/learn-django-in-visual-studio-step-06-polls-django-web-project-template.md) - Removed Polls template content from Visual Studio 2019 Python tutorials
-- [Step 4: Use the full Flask Web Project template](../python/learn-flask-visual-studio-step-04-full-flask-project-template.md) - Removed Polls template content from Visual Studio 2019 Python tutorials
-- [Step 5: Use the Polls Flask Web Project template](../python/learn-flask-visual-studio-step-05-polls-flask-web-project-template.md) - Removed Polls template content from Visual Studio 2019 Python tutorials
 - [Django web project template](../python/python-django-web-application-project-template.md) - Removed Polls template content from Visual Studio 2019 Python tutorials
 - [Python web application project templates](../python/python-web-application-project-templates.md) - Removed Polls template content from Visual Studio 2019 Python tutorials
 - [Install debugging symbols for Python interpreters](../python/debugging-symbols-for-mixed-mode-c-cpp-python.md) - Add the last 3 releases of Python 2.7
