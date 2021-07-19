@@ -3,9 +3,10 @@ title: F1 help no-match fallback
 description: "Oops! No F1 match found."
 ms.prod: visual-studio
 ms.technology: 
-ms.date: 06/20/2021
+ms.date: 07/20/2021
 ms.topic: error-reference
 ms.custom: contperf-fy21q4
+recommendations: false
 robots: noindex,nofollow
 f1_keywords:
 - vs.ambient
