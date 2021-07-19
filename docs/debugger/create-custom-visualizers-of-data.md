@@ -2,7 +2,7 @@
 title: "Create custom data visualizers | Microsoft Docs"
 description: Visual Studio debugger visualizers are components that display data. Learn about the six standard visualizers, and about how you can write or download others. 
 ms.custom: SEO-VS-2020
-ms.date: "05/27/2020"
+ms.date: "07/13/2021"
 ms.topic: "conceptual"
 f1_keywords:
   - "vs.debug.visualizer.troubleshoot"
@@ -76,7 +76,7 @@ the <xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter> class 
 serialization is being curtailed in .NET 5 and above due to security concerns regarding its *unfixible* vulnerabilities.
 Moreover, it has been marked completely obsolete in ASP.NET Core 5 and its usage will throw as described in the
 [ASP.NET Core Documentation](/dotnet/core/compatibility/core-libraries/5.0/binaryformatter-serialization-obsolete).
-Hence, this section describes the necessary steps that should be taken so that your visualizer is still supported in
+This section describes the steps you should take to make sure your visualizer is still supported in
 this scenario.
 
 - For compatibility reasons, the <xref:Microsoft.VisualStudio.DebuggerVisualizers.DialogDebuggerVisualizer.Show%2A> method
@@ -121,7 +121,7 @@ In the debuggee-side code:
 #### Special debuggee side considerations for .NET 5.0+
 
 > [!IMPORTANT]
-> Additional steps might be needed for a visualizer to work in .NET 5.0 and above due to security concerns regarding the underlying binary
+> Additional steps might be needed for a visualizer to work starting in .NET 5.0 due to security concerns regarding the underlying binary
 serialization method used by default. Please read this [section](#special-debugger-side-considerations-for-net-50) before continuing.
 
 - If the visualizer implements the <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource.TransferData%2A> method, 
