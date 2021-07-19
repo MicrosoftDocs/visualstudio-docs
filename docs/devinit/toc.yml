@@ -10,7 +10,7 @@
   - name: devinit and GitHub Codespaces
     href: devinit-and-codespaces.md
   - name: Frequently asked questions
-    href: faq.md
+    href: faq.yml
   - name: Tools
     items:
     - name: Tool list
