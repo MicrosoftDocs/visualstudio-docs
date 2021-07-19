@@ -58,8 +58,7 @@ All **\<Framework> Web Project** templates create a starter web app with an iden
 | --- | --- |
 | **Bottle Web Project** | Generates an app whose static files are contained in the *static* folder and handled through code in *app.py*. Routing for the individual pages is contained in *routes.py*, and the *views* folder contains the page templates.|
 | **Django Web Project** | Generates a Django project and a Django app with three pages, authentication support, and a SQLite database (but no data models). For more information, see [Django templates](python-django-web-application-project-template.md) and [Learn Django Step 4](learn-django-in-visual-studio-step-04-full-django-project-template.md). |
-| **Flask Web Project** | Generates an app whose static files are contained in the *static* folder. Code in *views.py* handles routing, with page templates using the Jinja engine contained in the *templates* folder. The *runserver.py* file provides startup code. See [Learn Flask Step 4](learn-flask-visual-studio-step-04-full-flask-project-template.md). |
-| **Flask/Jade Web Project** | Generates the same app as with the **Flask Web Project** template but using the Jade extension for the Jinja templating engine. |
+| **Flask Web Project** | Generates an app whose static files are contained in the *static* folder. Code in *views.py* handles routing, with page templates using the Jinja engine contained in the *templates* folder. The *runserver.py* file provides startup code. See 
 
 ::: moniker range="vs-2017"
 ### Polls group

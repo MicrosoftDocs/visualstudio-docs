@@ -2,7 +2,7 @@
   "redirections": [
     {
       "source_path": "mac/2017/ide-tour.md",
-      "redirect_url": "/visualstudio/mac/ide-tour",
+      "redirect_url": "/visualstudio/mac/ide-tour?view=vsmac-2019",
       "redirect_document_id": false
     },
     {
