@@ -19,7 +19,7 @@ ms.workload:
 Visual Studio enables you to set up your applications to target different platforms, including 64-bit platforms. For more information on 64-bit platform support in Visual Studio, see [64-bit applications](/dotnet/framework/64-bit-apps).
 
 > [!NOTE]
-> Visual Studio 2022 on Windows is now a 64-bit application. This means you can open, edit, run, and debug even the biggest and most complex solutions without running out of memory. To learn more, see the [**Visual Studio 2022 vision**](https://devblogs.microsoft.com/visualstudio/visual-studio-2022/) blog post.
+> Visual Studio 2022 on Windows is now a 64-bit application. For more information, see the [**Visual Studio 2022 vision**](https://devblogs.microsoft.com/visualstudio/visual-studio-2022/) blog post.
 
 ## Deploy a 64-bit application
 
