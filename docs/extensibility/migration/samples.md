@@ -9,6 +9,7 @@ manager: jmartens
 monikerRange: "vs-2022"
 ms.workload:
 - vssdk
+feedback_system: GitHub
 ---
 # ImageOptimizer - Update a Visual Studio extension step by step
 
