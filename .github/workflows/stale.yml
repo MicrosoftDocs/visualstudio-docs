@@ -38,4 +38,4 @@ jobs:
           
           [Contact Us](mailto:vs-content@microsoft.com) 
           [Contributor Guide](https://review.docs.microsoft.com/en-us/help/contribute/visualstudio-docs-contribute?branch=master)
-        debug-only: true
+          
