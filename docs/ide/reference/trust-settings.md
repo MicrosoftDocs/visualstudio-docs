@@ -1,9 +1,10 @@
 ---
-title: Trust Settings for Files and Folders
+title: Trust Settings for files and folders
 description: Learn how to change trust settings for files and folders to keep Visual Studio secure.
-author: 2percentsilk
-ms.author: allisb
-ms.date: 09/05/2018
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
+ms.date: 07/21/2021
 ms.topic: reference
 f1_keywords:
  - VS.ToolsOptionsPages.Environment.PathTrustOptions
@@ -16,10 +17,23 @@ helpviewer_keywords:
 ---
 # Configure trust settings for files and folders
 
-Visual Studio prompts for user approval before opening projects that have the [mark of the web](/previous-versions/windows/internet-explorer/ie-developer/compatibility/ms537628(v=vs.85)). For added security, you can also configure Visual Studio to prompt for user approval before opening any file or folder that has the mark of the web attribute, or that isn't designated as *trusted*. File and folder checks are disabled by default.
+::: moniker range=">=vs-2022"
+
+In Visual Studio 2022 (Preview 2), we've revamped the Trust Settings functionality to show a warning whenever untrusted code in files, folders, projects, and solutions are about to be opened in the IDE. To learn more, see the "Trusted Locations" section of the [Visual Studio 2022 Preview release notes](/visualstudio/releases/2022/release-notes-preview#trustedlocations-170P2).
+
+We'll add more information here as we continue to update the feature. Stay tuned!
+
+::: moniker-end
+
+::: moniker range="<=vs-2019"
+
+Visual Studio prompts for user approval before opening projects that have the [Mark of the Web](/previous-versions/windows/internet-explorer/ie-developer/compatibility/ms537628(v=vs.85)). For added security, you can also configure Visual Studio to prompt for user approval before opening any file or folder that has the mark of the web attribute, or that isn't designated as *trusted*. File and folder checks are disabled by default.
 
 > [!WARNING]
 > You should still ensure that the file, folder, or solution comes from a trusted person or a trusted location before approving it.
+
+> [!NOTE]
+> In Visual Studio 2022 (Preview 2), we've revamped the Trust Settings functionality to show a warning whenever untrusted code in files, folders, projects, and solutions are about to be opened in the IDE. To learn more, see the "Trusted Locations" section of the [Visual Studio 2022 Preview release notes](/visualstudio/releases/2022/release-notes-preview#trustedlocations-170P2).
 
 ## Configure trust settings
 
@@ -63,3 +77,9 @@ To remove trusted paths, follow these steps:
    > To select multiple entries, hold down **Shift** while you select the paths.
 
    The selected paths are removed from the **Trusted Paths** list.
+
+::: moniker-end
+
+## See also
+
+[Build an application in Visual Studio](../walkthrough-building-an-application.md)
