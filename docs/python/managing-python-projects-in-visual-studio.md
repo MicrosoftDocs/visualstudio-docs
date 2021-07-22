@@ -76,7 +76,6 @@ The following table summarizes the templates available in Visual Studio 2017 (no
 | --- | --- |
 | [**From existing Python code**](#create-project-from-existing-files) | Creates a Visual Studio project from existing Python code in a folder structure.  |
 | **Python Application** | A basic project structure for a new Python application with a single, empty source file. By default, the project runs in the console interpreter of the default global environment, which you can change by [assigning a different environment](selecting-a-python-environment-for-a-project.md). |
-| [**Azure cloud service**](python-azure-cloud-service-project-template.md) | A project for an Azure cloud service written in Python. |
 | [**Web projects**](python-web-application-project-templates.md) | Projects for web apps based on various frameworks including Bottle, Django, and Flask. |
 | **IronPython Application** | Similar to the Python Application template, but uses IronPython by default enabling .NET interop and mixed-mode debugging with .NET languages. |
 | **IronPython WPF Application** | A project structure using IronPython with Windows Presentation Foundation XAML files for the application's user interface. Visual Studio provides a XAML UI designer, code-behind can be written in Python, and the application runs without displaying a console. |

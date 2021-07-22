@@ -72,7 +72,7 @@ To quickly test Python support after following the installation steps, open the 
     | **Python web support** | Installs tools for web development including HTML, CSS, and JavaScript editing support, along with templates for projects using the Bottle, Flask, and Django frameworks. See [Python web project templates](python-web-application-project-templates.md). |
     | **Python IoT support** | Supports Windows IoT Core development using Python. |
     | **Python native development tools** | Installs the C++ compiler and other necessary components to develop native extensions for Python. See [Create a C++ extension for Python](working-with-c-cpp-python-in-visual-studio.md). Also install the **Desktop development with C++** workload for full C++ support. |
-    | **Azure Cloud Services core tools** | Provides additional support for developer Azure Cloud Services in Python. See [Azure cloud service projects](python-azure-cloud-service-project-template.md). |
+
     ::: moniker-end
 
     ::: moniker range=">=vs-2019"
