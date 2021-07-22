@@ -45,8 +45,6 @@ To assign new admins (admins):
 - [Azure documentation](/azure/)
 - [Microsoft 365 documentation](/microsoft-365/)
 
-
-
 ## Next steps
 - Learn how to [assign subscriptions](assign-license.md)
 - Learn more about the full range of [subscription benefits](https://visualstudio.microsoft.com/vs/benefits/)
