@@ -1,6 +1,26 @@
 {
   "redirections": [
     {
+      "source_path": "mac/2017/ide-tour.md",
+      "redirect_url": "/visualstudio/mac/ide-tour?view=vsmac-2019",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/python/python-azure-cloud-service-project-template.md",
+      "redirect_url": "/visualstudio/python/managing-python-projects-in-visual-studio",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/python/learn-flask-visual-studio-step-05-polls-flask-web-project-template.md",
+      "redirect_url": "/visualstudio/python/learn-flask-visual-studio-step-01-project-solution",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/python/learn-flask-visual-studio-step-04-full-flask-project-template.md",
+      "redirect_url": "/visualstudio/python/learn-flask-visual-studio-step-01-project-solution",
+      "redirect_document_id": false
+    },    
+    {
       "source_path": "docs/ide/reference/keyboard-environment-options-dialog-box.md",
       "redirect_url": "/visualstudio/ide/identifying-and-customizing-keyboard-shortcuts-in-visual-studio",
       "redirect_document_id": false
