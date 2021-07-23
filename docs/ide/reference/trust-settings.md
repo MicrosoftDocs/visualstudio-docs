@@ -4,7 +4,7 @@ description: Learn how to change trust settings for files and folders to keep Vi
 author: TerryGLee
 ms.author: tglee
 manager: jmartens
-ms.date: 07/21/2021
+ms.date: 07/22/2021
 ms.topic: reference
 f1_keywords:
  - VS.ToolsOptionsPages.Environment.PathTrustOptions
@@ -19,7 +19,9 @@ helpviewer_keywords:
 
 ::: moniker range=">=vs-2022"
 
-In Visual Studio 2022 (Preview 2), we've revamped the Trust Settings functionality to show a warning whenever untrusted code in files, folders, projects, and solutions are about to be opened in the IDE. To learn more, see the "Trusted Locations" section of the [Visual Studio 2022 Preview release notes](/visualstudio/releases/2022/release-notes-preview#trustedlocations-170P2).
+In Visual Studio 2022 (Preview 2), we've revamped the Trust Settings functionality to show a warning whenever untrusted code in files, folders, projects, and solutions are about to be opened in the IDE.
+
+:::image type="content" source="media/vs-2022/trusted-settings-warning-message.png" alt-text="Screenshot of the Trust Settings warning message":::
 
 We'll add more information here as we continue to update the feature. Stay tuned!
 
@@ -33,7 +35,7 @@ Visual Studio prompts for user approval before opening projects that have the [M
 > You should still ensure that the file, folder, or solution comes from a trusted person or a trusted location before approving it.
 
 > [!NOTE]
-> In Visual Studio 2022 (Preview 2), we've revamped the Trust Settings functionality to show a warning whenever untrusted code in files, folders, projects, and solutions are about to be opened in the IDE. To learn more, see the "Trusted Locations" section of the [Visual Studio 2022 Preview release notes](/visualstudio/releases/2022/release-notes-preview#trustedlocations-170P2).
+> In Visual Studio 2022 (Preview), we've revamped the Trust Settings functionality to show a warning whenever untrusted code in files, folders, projects, and solutions are about to be opened in the IDE. To learn more, see the "Trusted Locations" section of the [Visual Studio 2022 Preview release notes](/visualstudio/releases/2022/release-notes-preview#trustedlocations-170P2).
 
 ## Configure trust settings
 
