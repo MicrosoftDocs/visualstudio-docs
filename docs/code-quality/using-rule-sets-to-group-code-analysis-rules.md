@@ -23,7 +23,7 @@ You can customize a rule set by adding or deleting rules or by changing rule sev
 Rule sets are available for [managed code analysis](/dotnet/fundamentals/code-analysis/code-quality-rule-options), [legacy analysis of managed code](how-to-configure-code-analysis-for-a-managed-code-project.md), and [C++ code analysis](/cpp/code-quality/using-rule-sets-to-specify-the-cpp-rules-to-run).
 
 >[!NOTE]
-> Starting in Visual Studio 2019 version 16.3, you can use EditorConfig files to configure rules for .NET source code analysis, but not legacy analysis. For more information, see [EditorConfig versus rule sets](../code-quality/analyzers-faq.yml#editorconfig-versus-rule-sets).
+> Starting in Visual Studio 2019 version 16.3, you can use EditorConfig files to configure rules for .NET source code analysis, but not legacy analysis. For more information, see [EditorConfig versus rule sets](../code-quality/analyzers-faq.yml) section in the FAQ.
 
 ## Rule set format
 
