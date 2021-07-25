@@ -2,6 +2,7 @@
 title: Getting started with R Tutorial
 description: A walkthrough of using R in Visual Studio including project creation, the interactive window, code editing, and debugging.
 ms.date: 06/29/2017
+ms.prod: visual-studio-dev15
 ms.topic: tutorial
 author: kraigb
 ms.author: kraigb
