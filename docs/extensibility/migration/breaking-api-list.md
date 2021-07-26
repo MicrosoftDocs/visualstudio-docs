@@ -119,6 +119,8 @@ This makes certain type assignments or casts fail.
 
 This also means where you used to use `new DTE()`, you must now use `new _DTE()`.
 
+To mitigate most issues with this, use `DTE2` from the `EnvDTE80` namespace instead.
+
 ### Missing argument on a method invocation
 
 A few methods no longer declare default arguments for what were optional parameters in the interop API.

@@ -91,11 +91,11 @@ sections:
      style: cards
      className: cardsW
      items:
-     - href: /samples/xamarin/mac-samples/hello-mac/
+     - href: /xamarin/mac/get-started/hello-mac/
        html: Hello World app to get started with Mac development.
        image:
          src: ../media/samples/hellomac.png
-         href: /samples/xamarin/mac-samples/hello-mac/
+         href: /xamarin/mac/get-started/hello-mac/
        title: "Hello, Mac"
      - href: /samples/xamarin/mac-samples/maccontrols/
        html: UI control examples for Mac apps.
