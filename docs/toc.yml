@@ -1437,6 +1437,8 @@
     items:
     - name: Release rhythm
       href: /visualstudio/productinfo/release-rhythm/
+    - name: Visual Studio 2022 notes
+      href: /visualstudio/releases/2022/release-notes-preview/
     - name: Visual Studio 2019 notes
       href: /visualstudio/releases/2019/release-notes/
     - name: Visual Studio 2017 notes

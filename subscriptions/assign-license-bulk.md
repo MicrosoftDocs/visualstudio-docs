@@ -133,6 +133,9 @@ A: The feature is currently only available to organizations with trusted agreeme
 ### Q: I added someone to my Azure AD security group, but I don't see them added in the Subscriptions Administration Portal, and they don't have a subscription. Why not?  
 A: Depending on how your organization has configured Azure AD, you may see delays of up to 24 hours before the user is added. If it's been longer than 24 hours, please visit [Visual Studio administration and subscriptions support](https://my.visualstudio.com/gethelp).  
 
+## Resources
+- [Visual Studio administration and subscriptions support](https://aka.ms/vsadminhelp)
+
 ## See also
 - [Visual Studio documentation](/visualstudio/)
 - [Azure DevOps documentation](/azure/devops/)
@@ -141,4 +144,3 @@ A: Depending on how your organization has configured Azure AD, you may see delay
 
 ## Next steps
 - Have just one or two subscribers to add?  Check out [Add single users](assign-license.md)
-- Need help? Contact [Subscriptions Support](https://aka.ms/vsadminhelp).
