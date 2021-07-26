@@ -2,7 +2,7 @@
 title: Create unit test method stubs
 description: Learn how to use the Create Unit Tests command, which allows easy configuration of a test project, the test class, and the test method stub within it.
 ms.custom: SEO-VS-2020
-ms.date: 04/24/2020
+ms.date: 07/26/2021
 ms.topic: how-to
 helpviewer_keywords: 
   - unit testing, create unit tests
@@ -45,7 +45,7 @@ If you plan to run these tests as part of the test automation process, you might
 
 To automatically generate unit tests for NUnit or xUnit, install one of these test framework extensions from Visual Studio Marketplace:
 
-* [NUnit extension for test generators](https://marketplace.visualstudio.com/items?itemName=NUnitDevelopers.TestGeneratorNUnitextension)
+* [NUnit extension for test generators](https://marketplace.visualstudio.com/items?itemName=NUnitDevelopers.TestGeneratorNUnitextension-18371)
 * [xUnit.net extension for test generators](https://marketplace.visualstudio.com/items?itemName=YowkoTsai.xUnitnetTestGenerator)
 
 ## When should I use this feature?
