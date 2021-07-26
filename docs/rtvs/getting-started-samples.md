@@ -2,6 +2,7 @@
 title: Sample R projects
 description: An index of a collection of samples to get started with R and Visual Studio.
 ms.date: 01/24/2018
+ms.prod: visual-studio-dev15
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb
