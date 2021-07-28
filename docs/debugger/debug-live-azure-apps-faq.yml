@@ -24,7 +24,7 @@ sections:
       - question: |
           What is the performance cost of taking a snapshot?
         answer: |
-          When the Snapshot Debugger captures a snapshot of your app, it forks the app's process and suspends the forked copy. When you debug a snapshot, you're debugging against the forked copy of the process. This process takes only 10-20 milliseconds but doesn't copy the full heap of the app. Instead, it copies only the page table and sets pages to copy on write. If some of your app's objects on the heap change, their respective pages are then copied. That's whey each snapshot has a small in-memory cost (on the order of hundreds of kilobytes for most apps).
+          When the Snapshot Debugger captures a snapshot of your app, it forks the app's process and suspends the forked copy. When you debug a snapshot, you're debugging against the forked copy of the process. This process takes only 10-20 milliseconds but doesn't copy the full heap of the app. Instead, it copies only the page table and sets pages to copy on write. If some of your app's objects on the heap change, their respective pages are then copied. That's why each snapshot has a small in-memory cost (on the order of hundreds of kilobytes for most apps).
 
       - question: |
           What happens if I have a scaled-out Azure App Service (multiple instances of my app)?
