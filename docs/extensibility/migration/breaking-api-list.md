@@ -9,6 +9,7 @@ manager: jmartens
 monikerRange: "vs-2022"
 ms.workload:
 - vssdk
+feedback_system: GitHub
 ---
 # Breaking API changes in Visual Studio 2022
 
@@ -117,6 +118,8 @@ If so, you can update to the new namespace, or switch to the more managed-friend
 This makes certain type assignments or casts fail.
 
 This also means where you used to use `new DTE()`, you must now use `new _DTE()`.
+
+To mitigate most issues with this, use `DTE2` from the `EnvDTE80` namespace instead.
 
 ### Missing argument on a method invocation
 
