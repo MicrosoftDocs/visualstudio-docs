@@ -488,18 +488,40 @@
       href: special-characters-to-escape.md
     - name: Error messages
       items:
+      - name: MSB3027
+        href: errors/msb3027.md
       - name: MSB3075
         href: errors/msb3075.md
+      - name: MSB3086
+        href: errors/msb3086.md
       - name: MSB3103
         href: errors/msb3103.md
+      - name: MSB3190
+        href: errors/msb3190.md
       - name: MSB3270
         href: errors/msb3270.md
       - name: MSB3274
         href: errors/msb3274.md
+      - name: MSB3275
+        href: errors/msb3275.md
       - name: MSB3277
         href: errors/msb3277.md
+      - name: MSB3303
+        href: errors/msb3303.md
+      - name: MSB3304
+        href: errors/msb3304.md
+      - name: MSB3305
+        href: errors/msb3305.md
+      - name: MSB3325
+        href: errors/msb3325.md
+      - name: MSB3326
+        href: errors/msb3326.md
+      - name: MSB3327
+        href: errors/msb3327.md
       - name: MSB3552
         href: errors/msb3552.md
+      - name: MSB3553
+        href: errors/msb3553.md
       - name: MSB3554
         href: errors/msb3554.md
       - name: MSB3577
@@ -514,18 +536,34 @@
         href: errors/msb3821.md
       - name: MSB3822
         href: errors/msb3822.md
+      - name: MSB3836
+        href: errors/msb3836.md
+      - name: MSB3884
+        href: errors/msb3884.md
       - name: MSB3971
         href: errors/msb3971.md
       - name: MSB4086
         href: errors/msb4086.md
+      - name: MSB4094
+        href: errors/msb4094.md
+      - name: MSB4096
+        href: errors/msb4096.md
+      - name: MSB4166
+        href: errors/msb4166.md
+      - name: MSB4175
+        href: errors/msb4175.md
       - name: MSB4181
         href: errors/msb4181.md
+      - name: MSB6001
+        href: errors/msb6001.md
       - name: MSB6003
         href: errors/msb6003.md
       - name: MSB6004
         href: errors/msb6004.md
       - name: MSB8006
         href: errors/msb8006.md
+      - name: MSB6011
+        href: errors/msb6011.md
       - name: MSB8013
         href: errors/msb8013.md
       - name: MSB8027
