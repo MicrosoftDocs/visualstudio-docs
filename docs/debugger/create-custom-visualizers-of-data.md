@@ -2,7 +2,7 @@
 title: "Create custom data visualizers | Microsoft Docs"
 description: Visual Studio debugger visualizers are components that display data. Learn about the six standard visualizers, and about how you can write or download others. 
 ms.custom: SEO-VS-2020
-ms.date: "07/13/2021"
+ms.date: "07/29/2021"
 ms.topic: "conceptual"
 f1_keywords:
   - "vs.debug.visualizer.troubleshoot"
@@ -41,9 +41,13 @@ You can write a custom visualizer for an object of any managed class except for 
 
 The architecture of a debugger visualizer has two parts:
 
-- The *debugger side* runs within the Visual Studio debugger, and creates and displays the visualizer user interface.
+- The *debugger side* runs within the Visual Studio debugger, and creates and displays the visualizer user interface. 
+
+  It is important to consider that Visual Studio executes on the .NET Framework Runtime, therefore this component has to be written for it too. Hence, it is not possible to write it for .NET Core.
 
 - The *debuggee side* runs within the process Visual Studio is debugging (the *debuggee*). The data object to visualize (for example, a String object) exists in the debuggee process. The debuggee side sends the object to the debugger side, which displays it in the user interface you create.
+
+  It is important to consider that the runtime for which you build this component should match the one in which the debuggee process will run, that is .NET Framework or .NET Core.
 
 The debugger side receives the data object from an *object provider* that implements the <xref:Microsoft.VisualStudio.DebuggerVisualizers.IVisualizerObjectProvider> interface. The debuggee side sends the object through the *object source*, which is derived from <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource>.
 
