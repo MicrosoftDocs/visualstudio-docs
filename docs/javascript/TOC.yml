@@ -24,6 +24,8 @@
     href: tutorial-create-react-app.md
   - name: Create an Angular app
     href: tutorial-create-angular-app.md
+  - name: Create a Vue.js app
+    href: tutorial-create-vue-app.md
   - name: Create an ASP.NET Core app with React
     href: tutorial-asp-net-core-with-react.md
   - name: Create an ASP.NET Core app with Angular
