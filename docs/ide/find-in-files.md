@@ -2,7 +2,7 @@
 title: Find in Files
 description: Learn about the Find in Files feature and how to use it to search a specific set of files.
 ms.custom: SEO-VS-2020
-ms.date: 07/29/2021
+ms.date: 07/30/2021
 ms.topic: conceptual
 f1_keywords:
 - vs.findinfiles
@@ -86,8 +86,8 @@ You can also use the adjacent **Browse (...)** button to locate where you want s
 
 To refine your search, you can select or clear the following option(s):
 
-- **Include external items** - Use this option to include external items, such as files like "windows.h" that you might reference but aren't part of the solution.
-- **Include miscellaneous files** - Use this option to include miscellaneous files, such as files that you've opened but aren't part of the solution.
+- **Include external items** - Use this option to include external items, such as files like "windows.h" that you might reference but aren't part of a solution.
+- **Include miscellaneous files** - Use this option to include miscellaneous files, such as files that you've opened but aren't part of a solution.
 
 ## File types
 
@@ -180,6 +180,14 @@ Appends the results from the search to the previous search results.
 Displays a list of files containing search matches rather than displaying the search matches themselves.
 
 ::: moniker-end
+
+## Multiple searches
+
+You can keep the results from one search while you're performing other searches. This makes it easy to compare results and see them side-by-side.
+
+:::image type="content" source="media/find-files-search-results.png" alt-text="Screenshot of the Search Results window with three search results as tabs showing.":::
+
+To keep several search results, select the **Keep Results** button after each search. Then, when you search for something else, the results are shown in a new tab. You can keep the results of up to five searches. If you've already got five search results showing, the next search will reuse the oldest search result tab.
 
 ## See also
 
