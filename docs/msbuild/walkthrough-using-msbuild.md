@@ -1,7 +1,7 @@
 ---
 title: Use MSBuild
 description: Learn the various parts of an MSBuild project file, including items, item metadata, properties, targets, and tasks.
-ms.date: 10/19/2020
+ms.date: 07/28/2021
 ms.topic: conceptual
 ms.custom: contperf-fy21q2
 helpviewer_keywords:
@@ -49,12 +49,12 @@ In the installer, make sure MSBuild tools for the workloads you use are selected
 
 **To create a project file**
 
-1. Open Visual Studio and create a project.
+1. Open Visual Studio and create a project:
 
     ::: moniker range=">=vs-2019"
-    Press **Esc** to close the start window. Type **Ctrl + Q** to open the search box, type **winforms**, then choose **Create a new Windows Forms App (.NET Framework)**. In the dialog box that appears, choose **Create**.
+    In the search box, type **winforms**, then choose **Create a new Windows Forms App (.NET Framework)**. In the dialog box that appears, choose **Create**.
 
-    In the **Name** box, type `BuildApp`. Enter a **Location** for the solution, for example, *D:\\*. Accept the defaults for **Solution**, **Solution Name** (**BuildApp**), and **Framework**.
+    In the **Project name** box, type `BuildApp`. Enter a **Location** for the solution, for example, *D:\\*.
     ::: moniker-end
     ::: moniker range="vs-2017"
     From the top menu bar, choose **File** > **New** > **Project**. In the left pane of the **New Project** dialog box, expand **Visual C#** > **Windows Desktop**, then choose **Windows Forms App (.NET Framework)**. Then choose **OK**.
@@ -96,7 +96,11 @@ Newer .NET Core (SDK-style) projects have a `Sdk` attribute.
 <Project Sdk="Microsoft.NET.Sdk">
 ```
 
-If the project is not an SDK-style project, you must specify the xmlns namespace in the Project element. If `ToolsVersion` is present in a new project, it must be "15.0".
+If the project is not an SDK-style project, you must specify the xmlns namespace in the Project element. If `ToolsVersion` is present in a new project, it must match the MSBuild version. If you don't know the MSBuild version, you can get it from the first two numbers from the output of the following command line (for example, 16.0):
+
+```console
+MSBuild -ver
+```
 
 The work of building an application is done with [Target](../msbuild/target-element-msbuild.md) and [Task](../msbuild/task-element-msbuild.md) elements.
 
@@ -123,7 +127,7 @@ MSBuild keeps track of the targets of a build, and guarantees that each target i
 
 **To add a target and a task**
 
-1. Add these lines to the project file, just after the Import statement:
+1. Add these lines to the project file, just after the Import statement or the opening Project element.
 
     ```xml
     <Target Name="HelloWorld">
@@ -161,7 +165,7 @@ Run MSBuild from the **Developer Command Prompt** for Visual Studio to build the
 
    (Windows 10) In the search box on the taskbar, start typing the name of the tool, such as `dev` or `developer command prompt`. This brings up a list of installed apps that match your search pattern.
 
-   If you need to find it manually, the file is *LaunchDevCmd.bat* in the *<visualstudio installation folder\>\<version>\Common7\Tools* folder.
+   If you need to find it manually, the file is *LaunchDevCmd.bat* in the *<visualstudio installation folder\>\Common7\Tools* folder.
 
 2. From the command window, navigate to the folder containing the project file, in this case, *D:\BuildApp\BuildApp*.
 
@@ -243,13 +247,22 @@ Use this syntax to examine some of the properties in the project file.
     msbuild buildapp.csproj -t:HelloWorld
     ```
 
-1. Examine the output. You should see these two lines (your .NET Framework version may differ):
+1. Examine the output. You should see these two lines (your output may differ):
 
-    ::: moniker range=">=vs-2019"
+    ::: moniker range="=vs-2022"
 
     ```output
     Configuration is Debug
-    MSBuildToolsPath is C:\Program Files (x86)\Microsoft Visual Studio\2019\<Visual Studio SKU>\MSBuild\15.0\Bin
+    MSBuildToolsPath is C:\Program Files\Microsoft Visual Studio\2022\MSBuild\Current\Bin\amd64
+    ```
+
+    ::: moniker-end
+
+    ::: moniker range="vs-2019"
+
+    ```output
+    Configuration is Debug
+    MSBuildToolsPath is C:\Program Files (x86)\Microsoft Visual Studio\2019\MSBuild\16.0\Bin
     ```
 
     ::: moniker-end
