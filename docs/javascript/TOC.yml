@@ -22,6 +22,8 @@
     href: tutorial-nodejs-with-react-and-jsx.md
   - name: Create a React app
     href: tutorial-create-react-app.md
+  - name: Create an Angular app
+    href: tutorial-create-angular-app.md
   - name: Create an ASP.NET Core app with React
     href: tutorial-asp-net-core-with-react.md
   - name: Create an ASP.NET Core app with Angular
