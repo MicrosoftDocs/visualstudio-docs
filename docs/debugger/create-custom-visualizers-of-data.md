@@ -85,7 +85,7 @@ this scenario.
 
 - For compatibility reasons, the <xref:Microsoft.VisualStudio.DebuggerVisualizers.DialogDebuggerVisualizer.Show%2A> method
 that was overridden in the preceding section still takes in an <xref:Microsoft.VisualStudio.DebuggerVisualizers.IVisualizerObjectProvider>. However, starting in Visual Studio 2019 version 16.10, it is actually of type <xref:Microsoft.VisualStudio.DebuggerVisualizers.IVisualizerObjectProvider2>.
-Therefore, cast the `objectProvider` object to the updated interface.
+For this reason, cast the `objectProvider` object to the updated interface.
 
 - When sending objects, like commands or data, to the *debuggee-side* use the `IVisualizerObjectProvider2.Serialize` method
 to pass it to a stream, it will determine the best serialization format to use based on the runtime of the *debuggee* process.
