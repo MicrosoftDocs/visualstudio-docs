@@ -43,11 +43,11 @@ The architecture of a debugger visualizer has two parts:
 
 - The *debugger side* runs within the Visual Studio debugger, and creates and displays the visualizer user interface. 
 
-  It is important to consider that Visual Studio executes on the .NET Framework Runtime, therefore this component has to be written for it too. Hence, it is not possible to write it for .NET Core.
+  Because Visual Studio executes on the .NET Framework Runtime, this component has to be written for .NET Framework. For this reason, it is not possible to write it for .NET Core.
 
 - The *debuggee side* runs within the process Visual Studio is debugging (the *debuggee*). The data object to visualize (for example, a String object) exists in the debuggee process. The debuggee side sends the object to the debugger side, which displays it in the user interface you create.
 
-  It is important to consider that the runtime for which you build this component should match the one in which the debuggee process will run, that is .NET Framework or .NET Core.
+  The runtime for which you build this component should match the one in which the debuggee process will run, that is, either .NET Framework or .NET Core.
 
 The debugger side receives the data object from an *object provider* that implements the <xref:Microsoft.VisualStudio.DebuggerVisualizers.IVisualizerObjectProvider> interface. The debuggee side sends the object through the *object source*, which is derived from <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource>.
 
@@ -84,7 +84,7 @@ This section describes the steps you should take to make sure your visualizer is
 this scenario.
 
 - For compatibility reasons, the <xref:Microsoft.VisualStudio.DebuggerVisualizers.DialogDebuggerVisualizer.Show%2A> method
-that was overridden in the preceding section still takes in an <xref:Microsoft.VisualStudio.DebuggerVisualizers.IVisualizerObjectProvider>. Nonetheless, it is actually of type <xref:Microsoft.VisualStudio.DebuggerVisualizers.IVisualizerObjectProvider2>.
+that was overridden in the preceding section still takes in an <xref:Microsoft.VisualStudio.DebuggerVisualizers.IVisualizerObjectProvider>. However, starting in Visual Studio 2019 version 16.10, it is actually of type <xref:Microsoft.VisualStudio.DebuggerVisualizers.IVisualizerObjectProvider2>.
 Therefore, cast the `objectProvider` object to the updated interface.
 
 - When sending objects, like commands or data, to the *debuggee-side* use the `IVisualizerObjectProvider2.Serialize` method
