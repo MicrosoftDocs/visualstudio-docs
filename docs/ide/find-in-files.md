@@ -2,7 +2,7 @@
 title: Find in Files
 description: Learn about the Find in Files feature and how to use it to search a specific set of files.
 ms.custom: SEO-VS-2020
-ms.date: 07/23/2021
+ms.date: 07/30/2021
 ms.topic: conceptual
 f1_keywords:
 - vs.findinfiles
@@ -69,9 +69,9 @@ To search for a new text string or expression, specify it in the Search box. To 
 
 You can select or clear the following option(s):
 
-- **Match case** - When selected, a **Find Results** search will be case-sensitive.
-- **Match whole word** - When selected, the **Find Results** windows will only return whole word matches.
-- **Use regular expressions** - When selected, you can use special notations to define patterns of text to match in the Search box (or in the **Replace** text box). For a list of these notations, see [Using regular expressions in Visual Studio](../ide/using-regular-expressions-in-visual-studio.md).
+- **Match case** - Use this option to make sure that your search is case-sensitive.
+- **Match whole word** - Use this option to make sure that your search returns only whole word matches.
+- **Use regular expressions** - Use this option to use special notations that define patterns of text to match in the Search box (or in the **Replace** text box). For a list of these notations, see [Using regular expressions in Visual Studio](../ide/using-regular-expressions-in-visual-studio.md).
 
     > [!Important]
     > The **Expression Builder** button appears next to the Search box only if you've selected the **Use regular expressions** checkbox.
@@ -82,9 +82,12 @@ You can select or clear the following option(s):
 
 The option you choose from the **Look in** drop-down list determines whether **Find in Files** searches the entire workspace, the entire solution, the current project, the current directory, all open documents, or the current document.
 
-You can also use the adjacent **Browse (...)** button to locate where you want search.
+You can also use the adjacent **Browse (...)** button to locate where you want search. Even better, if you've already specified a directory, this button will append the new directory instead of replacing is. For instance, if your "Look in" value was ".\Code", you could click the **Browse (...)** button and navigate to a folder named "Shared Code". The **Browse (...)** box would now show ".\Code;.\Shared Code" and when the Find command is executed, it will search both of those folders.
 
-And, you can toggle either the **Include external items** checkbox or the **Include miscellaneous files** checkbox, or both.
+To refine your search, you can select or clear the following option(s):
+
+- **Include external items** - Use this option to include external items, such as files like "windows.h" that you might reference but aren't part of a solution.
+- **Include miscellaneous files** - Use this option to include miscellaneous files, such as files that you've opened but aren't part of a solution.
 
 ## File types
 
@@ -177,6 +180,14 @@ Appends the results from the search to the previous search results.
 Displays a list of files containing search matches rather than displaying the search matches themselves.
 
 ::: moniker-end
+
+## Multiple searches
+
+You can keep the results from one search while you're performing other searches. This makes it easy to compare results and see them side-by-side.
+
+:::image type="content" source="media/find-files-search-results.png" alt-text="Screenshot of the Search Results window with three search results as tabs showing.":::
+
+To keep several search results, select the **Keep Results** button after each search. Then, when you search for something else, the results are shown in a new tab. You can keep the results of up to five searches. If you've already got five search results showing, the next search will reuse the oldest search result tab.
 
 ## See also
 

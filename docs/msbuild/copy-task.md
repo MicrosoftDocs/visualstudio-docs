@@ -8,7 +8,6 @@ f1_keywords:
 - http://schemas.microsoft.com/developer/msbuild/2003#Copy
 - MSBuild.Copy.SourceFileNotFound
 - MSBuild.Copy.Retrying
-- MSBuild.Copy.ExceededRetries
 dev_langs:
 - VB
 - CSharp
