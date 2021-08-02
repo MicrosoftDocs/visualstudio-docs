@@ -36,7 +36,7 @@ Follow the tasks below to create a visualizer.
     ::: moniker range=">=vs-2019"
     Choose **File** > **New** > **Project**. In the language drop-down, choose **C#**. In the search box, type **class library**, and then choose **Class Library (.NET Framework)**. Click **Next**. In the dialog box that appears, type the name `MyFirstVisualizer`, and then click **Create**.
 
-    For the visualizer project, make sure you select a .NET Framework class library and not .NET. Although the visualizer needs to be .NET Framework, the calling app can be .NET Core.
+    For the visualizer project, make sure you select a .NET Framework class library and not .NET. Although the visualizer needs to be .NET Framework, the calling app can be .NET.
     ::: moniker-end
     ::: moniker range="vs-2017"
     From the top menu bar, choose **File** > **New** > **Project**. In the left pane of the **New project** dialog box, under **Visual C#**, choose **.NET Framework**, and then in the middle pane choose **Class Library (.NET Framework)**.
@@ -174,7 +174,7 @@ In the debugger-side code, you specify the type to visualize (the object source)
     Choose **File** > **New** > **Project**. In the language drop-down, choose **C#**. In the search box, type **console app**, and then choose either **Console App (.NET Framework)** or **Console Application** for .NET. Click **Next**. In the dialog box that appears, type the name `MyTestConsole`, and then click **Create**.
 
     > [!NOTE]
-    > If you want to easily test the visualizer using a test harness, create a .NET Framework console app. You can create a .NET console app instead, but the test harness described later is not yet supported for .NET, so you will need to install the visualizer to test it. For a .NET console app, first create the console app here, add the required DLL and project references, and then follow steps described in [Add a debuggee-side data object](#add-a-debuggee-side-data-object).
+    > If you want to easily test the visualizer using a test harness, create a .NET Framework console app. You can create a .NET console app instead, but the test harness described later is not yet supported for .NET, so you will need to install the visualizer to test it. For a .NET console app, first create the console app here, add the required DLL and project references, and then follow steps described in [Add a debuggee-side data object](#add-a-debuggee-side-data-object). For ASP.NET Core scenarios, see [Special debugger side considerations for .NET 5.0+](../debugger/create-custom-visualizers-of-data.md#special-debugger-side-considerations-for-net-50).
     ::: moniker-end
     ::: moniker range="vs-2017"
     From the top menu bar, choose **File** > **New** > **Project**. In the left pane of the **New project** dialog box, under **Visual C#**, choose **Windows Desktop**, and then in the middle pane choose **Console App (.NET Framework)**.
