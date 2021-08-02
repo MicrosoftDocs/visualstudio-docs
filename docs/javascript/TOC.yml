@@ -14,6 +14,12 @@
     href: ../ide/quickstart-nodejs.md?toc=%252fvisualstudio%252fjavascript%252ftoc.json
   - name: Create a Vue.js project
     href: quickstart-vuejs-with-nodejs.md
+  - name: Create a React app
+    href: tutorial-create-react-app.md
+  - name: Create an Angular app
+    href: tutorial-create-angular-app.md
+  - name: Create a Vue.js app
+    href: tutorial-create-vue-app.md
 - name: Tutorials
   items:
   - name: Create a Node.js app with Express
