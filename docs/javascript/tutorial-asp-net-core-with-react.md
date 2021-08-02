@@ -22,7 +22,7 @@ Currently, Visual Studio includes ASP.NET Core Single Page Application (SPA) tem
 Starting in Visual Studio 2022 Preview 2, you can use the method described in this article to create ASP.NET Core Single Page Applications that:
 
 - Put the client app in a separate project, outside from the ASP.NET Core project
-- Create the client project based on the framework cli installed on your computer
+- Create the client project based on the framework CLI installed on your computer
 
 ## Prerequisites
 

@@ -54,7 +54,7 @@ Make sure to have the following installed:
 
 Choose **Build** > **Build Solution**  to build the project.
 
-Note, the initial build may take a while, as the Angular cli will run the npm install command.
+Note, the initial build may take a while, as the Angular CLI will run the npm install command.
 
 ## Start Your Project
 
