@@ -2,7 +2,7 @@
 title: Find in Files
 description: Learn about the Find in Files feature and how to use it to search a specific set of files.
 ms.custom: SEO-VS-2020
-ms.date: 07/30/2021
+ms.date: 08/02/2021
 ms.topic: conceptual
 f1_keywords:
 - vs.findinfiles
@@ -91,7 +91,11 @@ To refine your search, you can select or clear the following option(s):
 
 ## File types
 
-The **File types** option indicates the types of files to search through in the **Look in** directories. Select any item in the list to enter a preconfigured search string that will find files of those particular types. You can also can exclude files. To do so, prefix any path or file type with the "!" character to exclude it from the search.
+The **File types** option indicates the types of files to search through in the **Look in** directories. Select any item in the list to enter a preconfigured search string that will find files of those particular types.
+
+:::image type="content" source="media/find-file-types.png" alt-text="Screenshot of the File Types section of the Find In Files dialog box.":::
+
+You can search for multiple file types by separating them with a semicolon (`;`). You can also can exclude folders and files by prefixing any path or file type with an exclamation mark (`!`).
 
 ### Append results
 
@@ -130,9 +134,7 @@ Specifies that subfolders of the **Look in** folder will be searched.
 
 ## Find options
 
-You can expand or collapse the **Find options** section. The following options can be selected or cleared:
-
-You can select or clear the following option(s):
+You can expand or collapse the **Find options** section. You can select or clear the following option(s):
 
 **Match case**
 
