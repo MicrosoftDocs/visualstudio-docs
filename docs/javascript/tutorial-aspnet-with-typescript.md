@@ -11,11 +11,15 @@ dev_langs:
   - JavaScript
 ms.workload:
   - "nodejs"
-monikerRange: '<= vs-2019'
 ---
 # Tutorial: Create an ASP.NET Core app with TypeScript in Visual Studio
 
 In this tutorial for Visual Studio development ASP.NET Core and TypeScript, you create a simple web application, add some TypeScript code, and then run the app.
+
+::: moniker range=">=vs-2022"
+
+Starting in Visual Studio 2022, see [Create an ASP.NET Core app with Angular in Visual Studio](../javascript/tutorial-asp-net-core-with-angular.md) to create an ASP.NET Core app with Angular and TypeScript.
+::: moniker-end
 
 ::: moniker range="vs-2017"
 
