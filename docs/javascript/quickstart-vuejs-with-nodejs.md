@@ -12,6 +12,7 @@ dev_langs:
   - JavaScript
 ms.workload:
   - "nodejs"
+monikerRange: '<= vs-2019'
 ---
 # Quickstart: Use Visual Studio to create your first Vue.js app
 
