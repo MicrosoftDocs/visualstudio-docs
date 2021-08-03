@@ -118,11 +118,6 @@ Watch this video or read on to learn more about adding subscribers using the Azu
 
 
 ## Frequently asked questions
-### Q: Can I choose multiple subscription levels to be assigned within an Azure AD group? 
-A: No -- everyone in the group receives the same subscription. 
-
-### Q: Can I edit subscriber details of individuals added in an Azure AD group?  
-A: No -- To modify information for an individual subscriber, you will need to remove them from the Azure AD security group and assign them a subscription individually.  
 
 ### Q: Why can't I see the option to use Azure Active Directory groups to add subscribers?
 A: The feature is currently only available to organizations with trusted agreements.  Select the **Details** button to display your agreement information.
@@ -130,8 +125,17 @@ A: The feature is currently only available to organizations with trusted agreeme
    > [!div class="mx-imgBorder"]
    > ![Click the Details button](_img/assign-license-bulk/bulk-add-agreement.png "Click the Details button to see what kind of agreement you have")
 
-### Q: I added someone to my Azure AD security group, but I don't see them added in the Subscriptions Administration Portal, and they don't have a subscription. Why not?  
-A: Depending on how your organization has configured Azure AD, you may see delays of up to 24 hours before the user is added. If it's been longer than 24 hours, please visit [Visual Studio administration and subscriptions support](https://my.visualstudio.com/gethelp).  
+### Q: I added users to my Azure Active Directory group, but they don’t have subscriptions yet. Why? 
+A: If the changes were made directly in Azure Active Directory the subscriptions should be assigned very quickly, however if the changes were made in an on-prem Active Directory it will first need to be sync’d to Azure Active Directory. Depending how your on-prem Active Directory is configured the changes could take up to 24 hours to be reflected. If it has been longer than 24 hours our [support team can help troubleshoot any issues](https://aka.ms/vsadminhelp). 
+
+### Q: Can I choose multiple subscription levels to be assigned within an Azure Active Directory group?
+A: No -- everyone in the group receives the same subscription level.
+
+### Q: Can I edit subscriber details of individuals added in an Azure Active Directory group?
+A: No -- To modify information for an individual subscriber, you will need to remove them from the Azure Active Directory security group and assign them a subscription individually.
+
+### Q: Can I add separate notification email addresses for members of an Azure Active Directory group?
+A: No – separate email addresses for notifications are currently not supported for subscriptions added using Azure Active Directory groups. All emails will be sent to the primary email (user principle name)
 
 ## Resources
 - [Visual Studio administration and subscriptions support](https://aka.ms/vsadminhelp)
@@ -143,4 +147,4 @@ A: Depending on how your organization has configured Azure AD, you may see delay
 - [Microsoft 365 documentation](/microsoft-365/)
 
 ## Next steps
-- Have just one or two subscribers to add?  Check out [Add single users](assign-license.md)
+- Have just one or two subscribers to add? Check out [Add single users](assign-license.md)

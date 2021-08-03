@@ -36,11 +36,11 @@ Make sure to have the following installed:
 
 1. In the New Project Dialog, select **Create a new project**. 
 
-   :::image type="content" source="media/vs-2022/asp-net-core-create-new-project.png" alt-text="Create a new project":::
+   :::image type="content" source="media/vs-2022/create-new-project.png" alt-text="Create a new project":::
 
 1. Search for Angular in the search bar at the top and then select **Standalone Angular Template**.
 
-   :::image type="content" source="media/vs-2022/asp-net-core-with-angular-choose-template.png" alt-text="Choose a template":::
+   :::image type="content" source="media/vs-2022/angular-choose-template.png" alt-text="Choose a template":::
 
 1. Give your project and solution a name. When you get to the **Additional information** window, be sure to check the **Add integration for Empty ASP.NET Web API Project** option. This option adds files to your Angular template so that it can be hooked up later with the ASP.NET Core project.
 
