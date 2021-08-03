@@ -2,9 +2,9 @@
 title: Visual Studio IDE benefit in Visual Studio subscription | Microsoft Docs
 author: evanwindom
 ms.author: v-evwin
-manager: lank
+manager: cabuschl
 ms.assetid: c4b13464-76be-40f1-ad60-ed79ee264b12
-ms.date: 03/17/2021
+ms.date: 07/30/2021
 ms.topic: how-to
 description:  Learn how to download and install the Visual Studio IDE included in your Visual Studio subscription
 ---
@@ -61,8 +61,8 @@ To download the IDE:
 | Visual Studio Enterprise subscription with GitHub Enterprise   | VL | Available       |  Yes          |
 | Visual Studio Professional (Standard, monthly cloud) | VL, Azure, Retail                                       | Available                                                            |  Yes          |
 | Visual Studio Professional subscription with GitHub Enterprise | VL   | Available              |  Yes          |
-| Visual Studio Test Professional (Standard)                         | VL, Retail                                              | Available                                             |  Yes         |
-| MSDN Platforms (Standard)                                          | VL, Retail                                              | Not available                                              |  N/A          |
+| Visual Studio Test Professional (Standard)                         | All                                            | Not available                                             |  N/A         |
+| MSDN Platforms (Standard)                                          | All                                              | Not available                                              |  N/A          |
 
 <sup>1</sup>  *Includes:  Not for Resale (NFR), NFR Basic, Visual Studio Industry Partner (VSIP), Microsoft Partner Network (MPN), FTE, MCT Software & Services Developer, BizSpark, Imagine, Most Valuable Professional (MVP), Regional Director (RD).  Excludes: MCT Software & Services.*
 
