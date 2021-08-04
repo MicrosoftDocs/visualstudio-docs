@@ -4,7 +4,7 @@ author: ghogen
 description: Learn about the launch settings for Container Tools that are related to how Visual Studio handles containerized apps.
 ms.author: ghogen
 ms.date: 08/15/2019
-ms.technology: vs-azure
+ms.technology: vs-container-tools
 ms.topic: reference
 ---
 # Container Tools launch settings

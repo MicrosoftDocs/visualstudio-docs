@@ -3,8 +3,8 @@ title: Developer Community guidelines
 description: "Describes the guidelines for working with the Visual Studio Developer Community."
 ms.date: 6/30/2020
 ms.topic: conceptual
-author: madskristensen
-ms.author: madsk
+author: anandmeg
+ms.author: meghaanand
 manager: jmartens
 ms.workload:
   - "multiple"

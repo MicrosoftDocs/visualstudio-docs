@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "product support [Visual Studio]"
   - "Help [Visual Studio], product support"
 ms.assetid: e0846d4d-2ce1-48e3-b219-674ff070bf4e
-author: TerryGLee
-ms.author: tglee
+author: anandmeg
+ms.author: meghaanand
 manager: jmartens
 ms.workload:
   - "multiple"
