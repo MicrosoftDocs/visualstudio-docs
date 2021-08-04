@@ -6,11 +6,11 @@ ms.date: 06/29/2021
 ms.technology: vs-ide-general
 ms.topic: overview
 ms.custom: [vs-acquisition,  vs-get-started, SEO-VS-2020]
-author: TerryGLee
+author: anandmeg
 f1_keywords:
 - vs.startpage
 - VS.StartPage.HowDoI
-ms.author: tglee
+ms.author: meghaanand
 manager: jmartens
 ms.workload:
 - multiple

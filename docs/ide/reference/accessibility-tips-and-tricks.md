@@ -6,8 +6,8 @@ ms.topic: conceptual
 helpviewer_keywords:
   - "accessibility [Visual Studio]"
 ms.assetid: 6b491d88-f79e-4686-8841-857624bdcfda
-author: TerryGLee
-ms.author: tglee
+author: anandmeg
+ms.author: meghaanand
 manager: jmartens
 ms.workload:
   - "multiple"

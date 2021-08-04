@@ -4,7 +4,7 @@ author: ghogen
 description: Overview of the Container Tools build and debugging process
 ms.author: ghogen
 ms.date: 03/15/2021
-ms.technology: vs-azure
+ms.technology: vs-container-tools
 ms.topic: conceptual
 ---
 # How Visual Studio builds containerized apps

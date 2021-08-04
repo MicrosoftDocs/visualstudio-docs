@@ -3,8 +3,8 @@ title: Visual Studio workload and component IDs
 titleSuffix: ''
 description: Use workload and component IDs to install Visual Studio by using a command line, or to specify as a dependency in a VSIX manifest
 keywords:
-author: j-martens
-ms.author: jmartens
+author: anandmeg
+ms.author: meghaanand
 manager: jmartens
 ms.date: 05/25/2021
 ms.topic: reference

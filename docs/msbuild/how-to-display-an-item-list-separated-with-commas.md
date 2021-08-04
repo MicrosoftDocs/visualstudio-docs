@@ -42,7 +42,7 @@ The separator can be either a single character or a string and must be enclosed 
 
 ## Example
 
-In this example, [Exec](../msbuild/exec-task.md) task runs the findstr tool to find specified text strings in the file, *Phrases.txt*. In the findstr command, literal search strings are indicated by the **-c:** switch, so the item separator, `-c:` is inserted between items in the `@(Phrase)` item list.
+In this example, [Exec](../msbuild/exec-task.md) task runs the findstr tool to find specified text strings in the file, *Phrases.txt*. In the findstr command, literal search strings are indicated by the **/c:** switch, so the item separator, ` /c:` is inserted between items in the `@(Phrase)` item list.
 
 For this example, the equivalent command-line command is:
 

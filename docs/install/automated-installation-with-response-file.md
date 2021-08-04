@@ -9,8 +9,8 @@ helpviewer_keywords:
 - automate
 - installation
 - command-line
-author: j-martens
-ms.author: jmartens
+author: anandmeg
+ms.author: meghaanand
 manager: jmartens
 ms.workload:
 - multiple

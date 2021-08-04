@@ -1,5 +1,5 @@
 ---
-title: "Docker tutorial - Part 7: Use Docker Compose"
+title: "Docker tutorial - Part 8: Use Docker Compose"
 description: Describes how to install and use Docker Compose.
 ms.date: "08/04/2020"
 author: nebuk89

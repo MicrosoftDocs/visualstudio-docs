@@ -4,7 +4,7 @@ description: Learn how to use Visual Studio Container Tools to deploy an ASP.NET
 ms.custom: SEO-VS-2020
 author: ghogen
 manager: jmartens
-ms.technology: vs-azure
+ms.technology: vs-container-tools
 ms.devlang: dotnet
 ms.topic: how-to
 ms.date: 02/21/2021
