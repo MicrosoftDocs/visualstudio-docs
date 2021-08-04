@@ -90,8 +90,8 @@ f1_keywords:
 - VB_E_TERRCLASSNOTREG
 - vs.webclient.help.general
 ms.assetid: 8f866eb5-a206-4c16-807e-96a0f2c0e645
-author: TerryGLee
-ms.author: tglee
+author: anandmeg
+ms.author: meghaanand
 manager: jmartens
 ms.workload:
 - multiple

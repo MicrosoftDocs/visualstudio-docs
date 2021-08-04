@@ -1,5 +1,5 @@
 ---
-title: "Tutorial: Get started with Docker & Visual Studio Code"
+title: "Tutorial: Get started with Docker & Visual Studio Code on Windows or Mac"
 description: A multi-step tutorial that covers the basics of working with Docker with Visual Studio Code.
 ms.date: "08/04/2020"
 author: nebuk89
@@ -13,7 +13,12 @@ next_page: app.md
 
 # Tutorial: Get started with Docker
 
-In this tutorial, you'll learn about creating and deploying Docker apps, including using multiple containers with a database, and using Docker Compose. You'll also deploy your containerized app to Azure.
+In this tutorial, you'll learn about creating and deploying Docker apps on Windows or Mac using Visual Studio Code, including using multiple containers with a database, and using Docker Compose. You'll also deploy your containerized app to Azure.
+
+## Prerequisites
+
+- [Visual Studio Code](https://code.microsoft.com/download)
+- Docker Desktop for [Windows](https://docs.docker.com/docker-for-windows/install/) or [Mac](https://docs.docker.com/docker-for-mac/install/).
 
 ## Start the tutorial
 

@@ -1,5 +1,5 @@
 ---
-title: "Docker tutorial - Part 3: Share your app"
+title: "Docker tutorial - Part 2: Share your app"
 description: Describes how to share Docker images using the Docker Hub registry.
 ms.date: "08/04/2020"
 author: nebuk89

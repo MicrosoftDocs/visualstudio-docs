@@ -5,8 +5,8 @@ ms.date: 03/19/2019
 ms.technology: vs-ide-general
 ms.custom: [vs-acquisition, get-started, SEO-VS-2020]
 ms.topic: overview
-author: TerryGLee
-ms.author: tglee
+author: anandmeg
+ms.author: meghaanand
 manager: jmartens
 dev_langs:
 - CSharp
