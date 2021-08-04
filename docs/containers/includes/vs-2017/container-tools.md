@@ -4,7 +4,7 @@ author: ghogen
 description: Learn how to use Visual Studio 2017 tooling and Docker for Windows
 ms.author: ghogen
 ms.date: 02/01/2019
-ms.technology: vs-azure
+ms.technology: vs-container-tools
 ms.topic: include
 ---
 
