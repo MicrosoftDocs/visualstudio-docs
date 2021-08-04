@@ -1434,21 +1434,13 @@
   - name: "What's new in Docs"
     href: ide/whats-new-visual-studio-docs.md
   - name: Release notes
-    items:
-    - name: Release rhythm
-      href: /visualstudio/productinfo/release-rhythm/
-    - name: Visual Studio 2022 notes
-      href: /visualstudio/releases/2022/release-notes-preview/
-    - name: Visual Studio 2019 notes
-      href: /visualstudio/releases/2019/release-notes/
-    - name: Visual Studio 2017 notes
-      href: /visualstudio/releasenotes/vs2017-relnotes/
-    - name: Visual Studio 2015 docs
-      href: vs-2015-archive.md
-    - name: License terms
-      href: https://visualstudio.microsoft.com/license-terms/
-    - name: Support lifecycle and servicing
-      href: /visualstudio/productinfo/vs-servicing-vs/
+    href: /visualstudio/releases/
+  - name: Release rhythm
+    href: /visualstudio/productinfo/release-rhythm/
+  - name: License terms
+    href: https://visualstudio.microsoft.com/license-terms/
+  - name: Support lifecycle and servicing
+    href: /visualstudio/productinfo/vs-servicing-vs/
   - name: Customer Experience Improvement
     items:
     - name: About the program
