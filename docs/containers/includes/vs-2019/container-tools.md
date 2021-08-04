@@ -5,7 +5,7 @@ description: Learn how to use Visual Studio 2019 tooling and Docker for Windows
 ms.author: ghogen
 ms.date: 03/08/2021
 ms.prod: visual-studio-dev16
-ms.technology: vs-azure
+ms.technology: vs-container-tools
 ms.topic: include
 ---
 

@@ -5,7 +5,7 @@ author: ghogen
 ms.author: ghogen
 ms.topic: how-to
 ms.date: 03/20/2019
-ms.technology: vs-azure
+ms.technology: vs-container-tools
 ---
 # How to configure Visual Studio Container Tools
 
