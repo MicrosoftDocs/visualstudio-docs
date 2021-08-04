@@ -1,5 +1,5 @@
 ---
-title: "Docker tutorial - Part 1: Build and run the todo list sample app"
+title: "Docker tutorial - Part 2: Build and run the todo list sample app"
 description: Overview of the todo list sample app that runs in Node.js.
 ms.date: "08/04/2020"
 author: nebuk89
@@ -12,6 +12,9 @@ ms.workload:
 ---
 # Build and run the todo sample app
 
+>[!NOTE]
+> This is a continuation of a tutorial that starts [here](docker-tutorial.md)
+
 For the rest of this tutorial, you'll be working with a simple todo list manager that is running in Node.js. If you're not familiar with Node.js, don't worry! No real JavaScript experience is needed!
 
 At this point, your development team is quite small and you're simply building an app to prove out your MVP (minimum viable product). You want to show how it works and what it's capable of doing without needing to think about how it will work for a large team, multiple developers, and so on.
@@ -22,7 +25,7 @@ At this point, your development team is quite small and you're simply building a
 
 Before you can run the application, you need to get the application source code onto your machine. For real projects, you will typically clone the repo. But, for this tutorial, we have created a ZIP file containing the application.
 
-1. Make sure that you have Docker for Windows or Docker Community Edition installed on the local machine. See [Docker for Windows installation documentation](https://docs.docker.com/docker-for-windows/install/). The install process makes the ZIP file containing the sample available at the localhost address.
+1. If you're using Windows, make sure that you have Docker for Windows or Docker Community Edition installed on the local machine. See [Docker for Windows installation documentation](https://docs.docker.com/docker-for-windows/install/). The install process makes the ZIP file containing the sample available at the localhost address. For Mac, install [Docker Desktop for Mac](https://docs.docker.com/docker-for-mac/install/).
 
 1. Download the source for the app from the [Docker](https://github.com/docker/getting-started) repo. You can download the ZIP file for the repo. To download the ZIP file, use the green **Code** button and choose **Download ZIP**. Open the ZIP file and Extract All to extract the source of the app from the *app* folder to a folder on your hard drive.
 

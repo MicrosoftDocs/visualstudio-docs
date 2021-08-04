@@ -2,8 +2,8 @@
 ms.date: 07/01/2021
 ms.technology: vs-ide-general
 ms.custom: vs-get-started
-ms.author: tglee
-author: TerryGLee
+author: anandmeg
+ms.author: meghaanand
 manager: jmartens
 ms.topic: include
 ---
