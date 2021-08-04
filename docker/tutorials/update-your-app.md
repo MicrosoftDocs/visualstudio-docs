@@ -1,5 +1,5 @@
 ---
-title: "Docker tutorial - Part 2: Update your app"
+title: "Docker tutorial - Part 3: Update your app"
 description: Describes how to update a Docker app.
 ms.date: "08/04/2020"
 author: nebuk89

@@ -4,8 +4,8 @@ description: A connected experience connects to the internet from a client machi
 ms.date: 05/20/2021
 ms.topic: conceptual
 helpviewer_keywords:
-author: SayyedaM
-ms.author: sayyedamussa
+author: anandmeg
+ms.author: meghaanand
 manager: jmartens
 ms.workload:
 - multiple

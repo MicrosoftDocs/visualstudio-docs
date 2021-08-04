@@ -6,8 +6,8 @@ ms.date: 06/27/2019
 ms.topic: how-to
 helpviewer_keywords:
   - minidumps for Visual Studio issues"
-author: corob-msft
-ms.author: corob
+author: anandmeg
+ms.author: meghaanand
 manager: jmartens
 dev_langs:
  - CSharp
