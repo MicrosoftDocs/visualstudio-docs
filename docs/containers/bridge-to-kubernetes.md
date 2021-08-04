@@ -1,6 +1,6 @@
 ---
 title: "Tutorial: Connect development machines with Bridge to Kubernetes"
-ms.technology: vs-azure
+ms.technology: vs-container-tools
 ms.date: 03/24/2021
 ms.topic: "tutorial"
 description: "Connect your development computer to a Kubernetes cluster with Bridge to Kubernetes with Visual Studio."

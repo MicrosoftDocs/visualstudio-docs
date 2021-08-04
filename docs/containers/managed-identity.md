@@ -1,6 +1,6 @@
 ---
 title: "How to use managed identity with Bridge to Kubernetes"
-ms.technology: vs-azure
+ms.technology: vs-container-tools
 ms.date: 04/28/2021
 ms.topic: "conceptual"
 description: "Learn how to use Azure Active Directory (Azure AD) managed identity in an AKS cluster with Bridge to Kubernetes"
