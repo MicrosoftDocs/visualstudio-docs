@@ -9,8 +9,8 @@ ms.topic: tutorial
 dev_langs:
   - "VB"
 ms.assetid: f84339c7-d617-4f56-bfcd-af2215c347ba
-author: j-martens
-ms.author: jmartens
+author: anandmeg
+ms.author: meghaanand
 manager: jmartens
 ms.workload:
   - "dotnet"

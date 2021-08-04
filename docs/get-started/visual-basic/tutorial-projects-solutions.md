@@ -5,8 +5,8 @@ ms.date: 12/12/2018
 ms.technology: vs-ide-general
 ms.custom: [vs-acquisition, get-started, SEO-VS-2020]
 ms.topic: tutorial
-author: TerryGLee
-ms.author: tglee
+author: anandmeg
+ms.author: meghaanand
 manager: jmartens
 dev_langs:
 - VB

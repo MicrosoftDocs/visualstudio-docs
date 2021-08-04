@@ -6,8 +6,8 @@ ms.topic: how-to
 helpviewer_keywords:
   - "perfview"
   - "ETL Trace"
-author: corob-msft
-ms.author: corob
+author: anandmeg
+ms.author: meghaanand
 manager: jmartens
 dev_langs:
  - CSharp
