@@ -1,13 +1,15 @@
 ---
 title: Startup, Environment, Options Dialog Box
+description: Learn how to use the Startup page in the Environment section to set a different default action when Visual Studio opens.
+ms.custom: SEO-VS-2020
 ms.date: 03/28/2019
 ms.topic: reference
 f1_keywords:
   - "VS.ToolsOptionsPages.Environment.Startup"
 ms.assetid: 9d517203-3c62-4660-b7b4-ea7d032dcb1e
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

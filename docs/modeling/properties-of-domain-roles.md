@@ -1,10 +1,12 @@
 ---
 title: Properties of Domain Roles
+description: Learn about the properties that are associated with a domain role, like Collection Type, Custome Attributes, and Is Property Browsable.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: mgoertz-msft
+ms.author: mgoertz
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

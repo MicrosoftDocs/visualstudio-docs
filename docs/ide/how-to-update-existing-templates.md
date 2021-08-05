@@ -1,15 +1,17 @@
 ---
 title: Update existing project item templates
+description: Learn how to use Export Template Wizard and other manual processes to update project item templates that you've already created.
+ms.custom: SEO-VS-2020
 ms.date: 01/02/2018
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
-  - "item templates, updating"
-  - "Visual Studio templates, updating"
-  - "project templates, updating"
-  - "updating templates [Visual Studio]"
-author: jillre
-ms.author: jillfra
-manager: jillfra
+- item templates, updating
+- Visual Studio templates, updating
+- project templates, updating
+- updating templates [Visual Studio]
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ---
 # How to: Update existing templates
 

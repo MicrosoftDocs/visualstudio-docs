@@ -1,5 +1,7 @@
 ---
 title: "GetFrameworkPath Task | Microsoft Docs"
+description: Learn how to use the MSBuild GetFrameworkPath task to retrieve the path to the .NET Framework assemblies.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 f1_keywords:
@@ -13,16 +15,19 @@ helpviewer_keywords:
   - "GetFrameworkPath task [MSBuild]"
   - "MSBuild, GetFrameworkPath task"
 ms.assetid: 5b7bcdd7-d4a0-442d-af29-8aadb3b10598
-author: mikejo5000
-ms.author: mikejo
-manager: jillfra
+author: ghogen
+ms.author: ghogen
+manager: jmartens
 ms.workload:
   - "multiple"
 ---
 # GetFrameworkPath task
+
+Retrieves the path to the .NET Framework assemblies.
 Retrieves the path to the .NET Framework assemblies.
 
 ## Task parameters
+
 The following table describes the parameters of the `GetFrameworkPath` task.
 
 |Parameter|Description|
@@ -35,11 +40,13 @@ The following table describes the parameters of the `GetFrameworkPath` task.
 |`Path`|Optional `String` output parameter.<br /><br /> Contains the path to the latest framework assemblies, if any are available. Otherwise returns `null`.|
 
 ## Remarks
-If several versions of the .NET Framework are installed, this task returns the version that [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] is designed to run on.
+
+If several versions of the .NET Framework are installed, this task returns the version that MSBuild is designed to run on.
 
 In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension base class](../msbuild/taskextension-base-class.md).
 
 ## Example
+
 The following example uses the `GetFrameworkPath` task to store the path to the .NET Framework in the `FrameworkPath` property.
 
 ```xml
@@ -55,5 +62,6 @@ The following example uses the `GetFrameworkPath` task to store the path to the 
 ```
 
 ## See also
+
 - [Tasks](../msbuild/msbuild-tasks.md)
 - [Task reference](../msbuild/msbuild-task-reference.md)

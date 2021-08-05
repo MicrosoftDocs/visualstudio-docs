@@ -11,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 5262d8b1-2648-429e-85d5-90fcaadfb362
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---
@@ -35,7 +35,7 @@ For more information on using the feature and on feature limitations, see [Edit 
 
 ## Edit XAML code and continue debugging
 
-To modify XAML code during a debugging session, see [Write and debug running XAML code with XAML Hot Reload](xaml-hot-reload.md).
+To modify XAML code during a debugging session, see [Write and debug running XAML code with XAML Hot Reload](../xaml-tools/xaml-hot-reload.md).
 
 ## Debug issues that are hard to reproduce
 
@@ -134,6 +134,7 @@ If you need to debug the kinds of issues that are common to multithreaded apps, 
 
     You can also view the location of threads in the [Parallel Stacks window](../debugger/get-started-debugging-multithreaded-apps.md).
 
+::: moniker range="vs-2017"
 ## Examine payloads for web services and network resources (UWP)
 
 In UWP apps, you can analyze network operations performed using the `Windows.Web.Http` API. You can use this tool to help debug web services and network resources. To use the tool, select **Debug > Performance Profiler**. Select **Network**, and then choose **Start**. In your app, go through the scenario that uses `Windows.Web.Http`, and then choose **Stop collection** to generate the report.
@@ -145,6 +146,7 @@ Select an operation in the summary view to view more details.
 ![Detailed information in the Network Usage tool](../profiling/media/prof-tour-network-usage-details.png "DetailedViewNetworkUsage")
 
 For more information, see [Network Usage](../profiling/network-usage.md).
+::: moniker-end
 
 ## <a name="modules_window"></a> Get more familiar with how the debugger attaches to your app (C#, C++, Visual Basic, F#)
 

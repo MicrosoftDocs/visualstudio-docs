@@ -1,15 +1,16 @@
 ---
-title: "m_contingentProperties Field | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+description: "Stores additional properties of the System.Threading.Tasks.Task object."
+title: m_contingentProperties Field | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: reference
 helpviewer_keywords:
-  - "m_contingentProperties field, Task class [.NET Framework debug engines]"
+- m_contingentProperties field, Task class [.NET Framework debug engines]
 ms.assetid: 49e8cb36-db39-440b-acda-a325651f1165
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # m_contingentProperties field
 Stores additional properties of the <xref:System.Threading.Tasks.Task> object.

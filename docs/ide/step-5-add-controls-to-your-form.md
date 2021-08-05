@@ -1,15 +1,17 @@
 ---
-title: "Step 5: Add controls to your form"
+title: 'Step 5: Add controls to your form'
+description: Learn how to add controls, such as a <xref:System.Windows.Forms.PictureBox> control and a <xref:System.Windows.Forms.CheckBox> control, to your form.
+ms.custom: SEO-VS-2020
 ms.date: 08/30/2019
 ms.assetid: dc2746f4-0b5c-4674-9ef7-f40f94150f52
 ms.topic: tutorial
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
-author: TerryGLee
-ms.author: tglee
-manager: jillfra
+author: j-martens
+ms.author: jmartens
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Step 5: Add controls to your form
 

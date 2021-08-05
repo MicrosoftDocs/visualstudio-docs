@@ -1,15 +1,17 @@
 ---
 title: Inside the Editor
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+description: Learn about the subsystems and features of the editor. You can extend features of the Visual Studio editor.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "editors [Visual Studio SDK], new - architecture"
+- editors [Visual Studio SDK], new - architecture
 ms.assetid: 822cbb8d-7ab4-40ee-bd12-44016ebcce81
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Inside the editor
 

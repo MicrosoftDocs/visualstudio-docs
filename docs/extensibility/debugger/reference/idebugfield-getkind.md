@@ -1,20 +1,21 @@
 ---
-title: "IDebugField::GetKind | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "This method gets the kind of field."
+title: IDebugField::GetKind | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugField::GetKind"
+- IDebugField::GetKind
 helpviewer_keywords:
-  - "IDebugField::GetKind method"
+- IDebugField::GetKind method
 ms.assetid: e7c9c60a-8e55-4ecc-aa63-0c814a1e92cc
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugField::GetKind
 This method gets the kind of field.

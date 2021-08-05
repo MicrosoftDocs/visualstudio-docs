@@ -1,29 +1,31 @@
 ---
-title: "How to: Debug an ActiveX Control | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-f1_keywords:
-  - "vc.controls.debug"
-dev_langs:
-  - "CSharp"
-  - "VB"
-  - "FSharp"
-  - "C++"
-helpviewer_keywords:
-  - "testing [Visual Studio], test containers"
-  - "ActiveX control container debugging [Visual Studio]"
-  - "debugging ActiveX controls"
-  - "data-bound controls, ActiveX"
-  - "test container"
-  - "containers, specifying for debug sessions"
-  - "ActiveX controls, debugging"
-  - "testing [Visual Studio], ActiveX controls"
+title: Debug an ActiveX Control | Microsoft Docs
+description: Learn how to debug an ActiveX control. You must specify a containing executable, which you can do in Project Property Pages or when you begin debugging.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
+f1_keywords: 
+  - vc.controls.debug
+dev_langs: 
+  - CSharp
+  - VB
+  - FSharp
+  - C++
+helpviewer_keywords: 
+  - testing [Visual Studio], test containers
+  - ActiveX control container debugging [Visual Studio]
+  - debugging ActiveX controls
+  - data-bound controls, ActiveX
+  - test container
+  - containers, specifying for debug sessions
+  - ActiveX controls, debugging
+  - testing [Visual Studio], ActiveX controls
 ms.assetid: bbc02cf7-a7e6-44fe-99af-87a43e1d7251
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
-ms.workload:
-  - "multiple"
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.workload: 
+  - multiple
 ---
 # How to: Debug an ActiveX Control
 

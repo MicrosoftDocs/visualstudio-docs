@@ -1,5 +1,7 @@
 ---
 title: "Document host item"
+description: Learn that the Document host item is a type that extends the Document type from the primary interop assembly for Word.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -15,7 +17,7 @@ helpviewer_keywords:
   - "host items [Office development in Visual Studio], Document"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

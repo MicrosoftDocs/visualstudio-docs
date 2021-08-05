@@ -1,17 +1,19 @@
 ---
-title: "Create a Load Test Plug-In"
+title: Create a Load Test Plug-In
+description: Learn how to create a load test plug-in to run code at different times while the load test runs, which can expand upon or modify functionality of the load test.
+ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
-ms.topic: conceptual
-f1_keywords:
-  - "vs.test.load.loadtestplugin"
-helpviewer_keywords:
-  - "code, load tests"
-  - "plug-ins, load test"
-  - "load tests, plug-ins"
+ms.topic: how-to
+f1_keywords: 
+  - vs.test.load.loadtestplugin
+helpviewer_keywords: 
+  - code, load tests
+  - plug-ins, load test
+  - load tests, plug-ins
 ms.assetid: 27806972-1b15-4388-833d-6d0632816f1f
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
 ---
 # How to: Create a load test plug-in
 

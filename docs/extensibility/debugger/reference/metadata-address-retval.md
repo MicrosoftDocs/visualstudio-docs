@@ -1,20 +1,21 @@
 ---
-title: "METADATA_ADDRESS_RETVAL | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "This structure represents a return value from a method or function."
+title: METADATA_ADDRESS_RETVAL | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "METADATA_ADDRESS_RETVAL"
+- METADATA_ADDRESS_RETVAL
 helpviewer_keywords:
-  - "METADATA_ADDRESS_RETVAL structure"
+- METADATA_ADDRESS_RETVAL structure
 ms.assetid: 5b0ec0fb-84b3-4ce7-8e24-becf3d881d7d
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # METADATA_ADDRESS_RETVAL
 This structure represents a return value from a method or function.

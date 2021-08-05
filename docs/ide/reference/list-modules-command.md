@@ -1,19 +1,21 @@
 ---
 title: List Modules Command
+description: Learn about the List Modules command and how it lists the modules for the current process.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "debug.listmodules"
+- debug.listmodules
 helpviewer_keywords:
-  - "Debug.ListModules command"
-  - "ListModules command"
-  - "list modules command"
+- Debug.ListModules command
+- ListModules command
+- list modules command
 ms.assetid: 3cb73774-6ac0-43b2-b781-75ed47175bfd
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # List Modules Command
 Lists the modules for the current process.

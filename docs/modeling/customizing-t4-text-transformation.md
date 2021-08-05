@@ -1,15 +1,17 @@
 ---
 title: Customizing T4 Text Transformation
+description: Learn how you can extend the default template transformation process by customizing the text template directive processor or the text template host.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "text templates, API"
-  - "text templates, custom hosts"
-author: jillre
-ms.author: jillfra
-manager: jillfra
+- text templates, API
+- text templates, custom hosts
+author: mgoertz-msft
+ms.author: mgoertz
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Customize T4 Text Transformation
 

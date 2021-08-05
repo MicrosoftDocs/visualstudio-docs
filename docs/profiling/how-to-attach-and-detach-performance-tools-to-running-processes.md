@@ -1,22 +1,24 @@
 ---
-title: "Attach performance tools to running processes"
-ms.custom: "seodec18"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-f1_keywords:
-  - "vs.performance.attach"
-helpviewer_keywords:
-  - "performance tools, attach process"
-  - "profiling tools, detach process"
-  - "profiling tools, attach process"
-  - "performance tools, detach process"
-  - "profiler"
+title: Attach performance tools to running processes
+description: Learn to use the Visual Studio profiler to attach to or detach from a running process to make sampling and gathering performance data easier.
+ms.custom: "SEO-VS-2020"
+ms.date: 11/04/2016
+ms.topic: how-to
+f1_keywords: 
+  - vs.performance.attach
+helpviewer_keywords: 
+  - performance tools, attach process
+  - profiling tools, detach process
+  - profiling tools, attach process
+  - performance tools, detach process
+  - profiler
 ms.assetid: 56a99c39-e7f6-4f48-ae56-04ab8e022bf7
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
-ms.workload:
-  - "multiple"
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+monikerRange: 'vs-2017'
+ms.workload: 
+  - multiple
 ---
 # How to: Attach and detach performance tools to running processes
 The profiler can be used to attach to or detach from a running process to make sampling and gathering performance data easier. You can use this method to profile a process when you want to avoid gathering data about application load time, or to monitor the performance of a process after it reaches a specific state.

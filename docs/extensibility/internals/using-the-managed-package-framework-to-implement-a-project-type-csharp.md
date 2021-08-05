@@ -1,17 +1,19 @@
 ---
-title: "Using Managed Package Framework for a Project Type (C#) | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Use Managed Package Framework for a project type (C#)
+description: Learn about the Managed Package Framework, which provides .NET classes you can use or inherit from to implement your own project types.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "projects [Visual Studio SDK], creating with MPF"
-  - "MPF projects"
-  - "managed package framework, creating projects"
+- projects [Visual Studio SDK], creating with MPF
+- MPF projects
+- managed package framework, creating projects
 ms.assetid: 926de536-eead-415b-9451-f1ddc8c44630
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Using the Managed Package Framework to Implement a Project Type (C#)
 The Managed Package Framework (MPF) provides C# classes you can use or inherit from to implement your own project types. The MPF implements many of the interfaces Visual Studio expects a project type to provide, leaving you free to concentrate on implementing the particulars of your project type.

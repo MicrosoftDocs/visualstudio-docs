@@ -1,5 +1,7 @@
 ---
 title: "Accessibility in Office projects"
+description: Learn how Microsoft Office projects include many accessibility features that enable you to build custom solutions that meet standard accessibility requirements.
+ms.custom: SEO-VS-2020
 ms.date: 02/02/2017
 ms.topic: conceptual
 dev_langs:
@@ -12,13 +14,13 @@ helpviewer_keywords:
   - "accessibility [Office development in Visual Studio]"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---
 # Accessibility in Office projects
 
-Microsoft Visual Studio and Microsoft Office include many accessibility features that enable you to build custom solutions that meet standard accessibility requirements. Microsoft publishes guidelines for accessibility on the Web. For details, see the [Accessibility website](http://go.microsoft.com/fwlink/?LinkID=37113).
+Microsoft Visual Studio and Microsoft Office include many accessibility features that enable you to build custom solutions that meet standard accessibility requirements. Microsoft publishes guidelines for accessibility on the Web. For details, see the [Accessibility website](https://www.microsoft.com/accessibility/).
 
 In most cases, Office projects in Visual Studio meet accessibility standards or exposes properties that you can set to make your solutions accessible. However, there are some features that have limited accessibility.
 
@@ -82,5 +84,5 @@ You can use Magnifier to overcome these limitations. Magnifier is a display util
 
 - [Develop Office solutions](../vsto/developing-office-solutions.md)
 - [Controls on Office documents](../vsto/controls-on-office-documents.md)
-- [Accessibility for people with disabilities](../ide/reference/accessibility-for-people-with-disabilities.md)
+- [Accessibility for people with disabilities](../ide/reference/accessibility-features-of-visual-studio.md)
 - [Accessibility features of Visual Studio](../ide/reference/accessibility-features-of-visual-studio.md)

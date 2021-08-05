@@ -1,14 +1,16 @@
 ---
 title: Data-Driven Coded UI Test tutorial
+description: Learn how to use data-driven coded UI tests to test different conditions by running your tests multiple times with different parameter values.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "coded UI tests, data-driven"
-author: jillre
-ms.author: jillfra
-manager: jillfra
+- coded UI tests, data-driven
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Create a data-driven coded UI test
 

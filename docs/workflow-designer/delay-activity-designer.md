@@ -1,13 +1,15 @@
 ---
 title: "Workflow Designer - Delay Activity Designer"
+description: Learn about Delay activities and how you can use the Delay activity designer to create and configure a Delay activity.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
   - "System.Activities.Statements.Delay.UI"
 ms.assetid: f51742a8-2c9a-47d1-8a23-18459d03ae19
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

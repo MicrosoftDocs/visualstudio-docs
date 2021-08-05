@@ -1,23 +1,25 @@
 ---
-title: "ResolveComReference Task | Microsoft Docs"
-ms.date: "07/25/2019"
-ms.topic: "reference"
+title: ResolveComReference Task | Microsoft Docs
+description: Learn how MSBuild uses the ResolveComReference task to take a list of one or more type library names or .tlb files and resolve them to locations on disk.
+ms.custom: SEO-VS-2020
+ms.date: 07/25/2019
+ms.topic: reference
 f1_keywords:
-  - "http://schemas.microsoft.com/developer/msbuild/2003#ResolveComReference"
+- http://schemas.microsoft.com/developer/msbuild/2003#ResolveComReference
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+- VB
+- CSharp
+- C++
+- jsharp
 helpviewer_keywords:
-  - "MSBuild, ResolveCOMReference task"
-  - "ResolveCOMReference task [MSBuild]"
+- MSBuild, ResolveCOMReference task
+- ResolveCOMReference task [MSBuild]
 ms.assetid: c9bf5fcf-6453-40ea-b50f-a212adc3e9b5
-author: mikejo5000
-ms.author: mikejo
-manager: jillfra
+author: ghogen
+ms.author: ghogen
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # ResolveComReference task
 
@@ -77,6 +79,16 @@ Takes a list of one or more type library names or *.tlb* files and resolves thos
 In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [Task base class](../msbuild/task-base-class.md).
 
 The COM DLL doesn't need to be registered on the machine for this task to work.
+
+## MSB4803 Error
+
+If you try to run a project that uses the `ResolveCOMReference` task from the `dotnet` CLI commands, you get the error:
+
+```output
+MSB4803: The task "ResolveComReference" is not supported on the .NET Core version of MSBuild. Please use the .NET Framework version of MSBuild.
+```
+
+This task is not supported on the .NET Core version of MSBuild, which is what's used when you run the `dotnet build` command from the command line. Try building the project by invoking [MSBuild.exe](msbuild-command-line-reference.md) from the Visual Studio Developer Command Prompt, since this uses the .NET Framework version of MSBuild.
 
 ## See also
 

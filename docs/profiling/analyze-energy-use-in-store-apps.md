@@ -1,5 +1,7 @@
 ---
 title: "Analyze energy use in UWP apps | Microsoft Docs"
+description: Use the Visual Studio Energy Consumption profiler to analyze energy and power demands of UWP apps running on battery-powered devices.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:
@@ -10,9 +12,10 @@ dev_langs:
 ms.assetid: 96d06843-b97e-45a8-8126-07478a40bfc4
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "uwp"
+monikerRange: vs-2017
 ---
 # Analyze energy use in UWP apps
 
@@ -84,7 +87,7 @@ if (performance && performance.mark) {
 
 1. On the **Debug** menu, choose **Start Diagnostics Without Debugging**.
 
-     ![Choose Energy Consumption in the diagnostics hub](../profiling/media/energyprof_diagnosticshub.png "ENERGYPROF_DiagnosticsHub")
+     ![Choose Energy Consumption in the Performance Profiler](../profiling/media/energyprof_diagnosticshub.png "ENERGYPROF_DiagnosticsHub")
 
 2. Choose **Energy Consumption** and then choose **Start**.
 
@@ -106,7 +109,7 @@ if (performance && performance.mark) {
 
 2. From the **Select Installed App Package** list, choose the target.
 
-3. Choose **Energy Consumption** on the diagnostics hub page.
+3. Choose **Energy Consumption** on the Performance Profiler page.
 
 4. Choose **Start** to begin profiling.
 
@@ -117,7 +120,7 @@ if (performance && performance.mark) {
 
  ![Energy profiler report page](../profiling/media/energyprof_all.png "ENERGYPROF_All")
 
-|||
+|Image|Description|
 |-|-|
 |![Step 1](../profiling/media/procguid_1.png "ProcGuid_1")|The report file is named Report*YYYYMMDD-HHMM*.diagsession. You can change the name if you decide to save the report.|
 |![Step 2](../profiling/media/procguid_2.png "ProcGuid_2")|The timeline shows the length of the profiling session, app lifecycle activation events, and user marks.|

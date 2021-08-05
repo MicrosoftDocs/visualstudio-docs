@@ -1,23 +1,25 @@
 ---
-title: "Troubleshooting ClickOnce Deployments | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-helpviewer_keywords:
-  - "deploying applications, ClickOnce"
-  - "troubleshooting ClickOnce deployments"
-  - "ClickOnce deployment, troubleshooting"
-  - "Windows applications, ClickOnce deployments"
-  - "deploying applications [ClickOnce], troubleshooting"
+title: Troubleshooting ClickOnce Deployments | Microsoft Docs
+description: Use this article to help you diagnose and resolve the most common issues with ClickOnce deployments.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: troubleshooting
+dev_langs: 
+  - VB
+  - CSharp
+  - C++
+helpviewer_keywords: 
+  - deploying applications, ClickOnce
+  - troubleshooting ClickOnce deployments
+  - ClickOnce deployment, troubleshooting
+  - Windows applications, ClickOnce deployments
+  - deploying applications [ClickOnce], troubleshooting
 ms.assetid: 58e90012-f68b-4852-8ae9-58e361cbcc32
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
-ms.workload:
-  - "multiple"
+manager: jmartens
+ms.workload: 
+  - multiple
 ---
 # Troubleshoot ClickOnce deployments
 This topic helps you diagnose and resolve the most common issues with [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployments.
@@ -54,3 +56,4 @@ This topic helps you diagnose and resolve the most common issues with [!INCLUDE[
 
 - [ClickOnce deployment manifest](../deployment/clickonce-deployment-manifest.md)
 - [ClickOnce application manifest](../deployment/clickonce-application-manifest.md)
+- [Visual Studio troubleshooting](/troubleshoot/visualstudio/welcome-visual-studio/)

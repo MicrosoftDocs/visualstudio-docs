@@ -1,17 +1,18 @@
 ---
-title: "IDebugBreakpointUnboundEvent2 | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "This interface tells the session debug manager (SDM) that a bound breakpoint has been unbound from a loaded program."
+title: IDebugBreakpointUnboundEvent2 | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugBreakpointUnboundEvent2"
+- IDebugBreakpointUnboundEvent2
 helpviewer_keywords:
-  - "IDebugBreakpointUnboundEvent2"
+- IDebugBreakpointUnboundEvent2
 ms.assetid: 6b1e1863-0c64-4d85-8ab9-aface522fdea
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IDebugBreakpointUnboundEvent2
 This interface tells the session debug manager (SDM) that a bound breakpoint has been unbound from a loaded program.

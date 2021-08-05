@@ -1,15 +1,17 @@
 ---
-title: "How to: Start Spy++ | Microsoft Docs"
-ms.date: "12/16/2018"
-ms.topic: "conceptual"
-helpviewer_keywords:
-  - "Spy++, starting"
+title: Start Spy++ | Microsoft Docs
+description: Know how to start the Spy++ tool from Visual Studio or at a command prompt when you want to debug a solution.
+ms.custom: SEO-VS-2020
+ms.date: 12/16/2018
+ms.topic: how-to
+helpviewer_keywords: 
+  - Spy++, starting
 ms.assetid: 1d36813a-dc2a-4fda-9b3d-a38928a62ced
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
-ms.workload:
-  - "multiple"
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.workload: 
+  - multiple
 ---
 # How to: Start Spy++
 
@@ -25,7 +27,7 @@ You can start Spy++ either from Visual Studio or at a command prompt.
 Spy++ requires the following components. You can select these components from the Visual Studio Installer by selecting the **Individual Components** tab, and then selecting the following components.
 
 * Under Debugging and testing, select **C++ profiling tools**
-* Under Development activities, select **Visual Studio C++ core features**
+* Under Development activities, select **C++ core features**
 
 If you made any changes, follow the prompts to install these components.
 

@@ -1,18 +1,21 @@
 ---
-title: "How to: Compare Performance Data Files | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-f1_keywords:
-  - "vsperf.choosediffbinaries"
-helpviewer_keywords:
-  - "profiling tools, how to compare profiler result files"
-  - "profiler result files, how to compare"
+title: Compare Performance Data Files | Microsoft Docs
+description: Learn how to compare results of two different profiler data files (.vsp or .vsps) to find differences, performance regressions, and performance improvements.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
+f1_keywords: 
+  - vsperf.choosediffbinaries
+helpviewer_keywords: 
+  - profiling tools, how to compare profiler result files
+  - profiler result files, how to compare
 ms.assetid: 1905b45d-c6b3-43c8-87b1-1aee734f37f9
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
-ms.workload:
-  - "multiple"
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+monikerRange: 'vs-2017'
+ms.workload: 
+  - multiple
 ---
 # How to: Compare performance data files
 You can compare the results of two different profiler data files (.*vsp* or .*vsps*) by creating a comparison ("Diff") report or view. The comparison shows the differences, performance regressions, and improvements that occurred from one profiling session to the other.

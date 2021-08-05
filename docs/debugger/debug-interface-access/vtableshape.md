@@ -1,7 +1,8 @@
 ---
+description: "The VTable) symbol has a class child symbol identified by the SymTagVTableShape tag."
 title: "VTableShape | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -10,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: dd97f4c3-115d-46a9-b506-2531e30a0d8f
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

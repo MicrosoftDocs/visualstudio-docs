@@ -1,26 +1,28 @@
 ---
-title: "How to: Debug Optimized Code | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-f1_keywords:
-  - "vs.debug"
-dev_langs:
-  - "CSharp"
-  - "VB"
-  - "FSharp"
-  - "C++"
-helpviewer_keywords:
-  - "breakpoints, in optimized code"
-  - "debugging [C++], optimized code"
-  - "optimization, debug builds"
-  - "debug builds, optimizing"
-  - "optimized code, debugging"
+title: Debug Optimized Code | Microsoft Docs
+description: If possible, don't build a Win32 Release target until your program is debugged, because optimization can complicate debugging. See the details in this article.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
+f1_keywords: 
+  - vs.debug
+dev_langs: 
+  - CSharp
+  - VB
+  - FSharp
+  - C++
+helpviewer_keywords: 
+  - breakpoints, in optimized code
+  - debugging [C++], optimized code
+  - optimization, debug builds
+  - debug builds, optimizing
+  - optimized code, debugging
 ms.assetid: fc8eeeb8-6629-4c9b-99f7-2016aee81dff
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
-ms.workload:
-  - "multiple"
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.workload: 
+  - multiple
 ---
 # How to: Debug Optimized Code
 
@@ -52,7 +54,7 @@ ms.workload:
 
 ## To turn on optimization in a Debug build configuration
 
-1. When you create a new project, select the `Win32 Debug` target. Use the `Win32``Debug` target until your program is fully debugged and you are ready to build a `Win32 Release` target. The compiler does not optimize the `Win32 Debug` target.
+1. When you create a new project, select the `Win32 Debug` target. Use the `Win32 Debug` target until your program is fully debugged and you are ready to build a `Win32 Release` target. The compiler does not optimize the `Win32 Debug` target.
 
 2. Select the project in Solution Explorer.
 

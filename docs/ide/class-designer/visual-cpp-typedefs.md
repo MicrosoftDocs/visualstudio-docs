@@ -1,18 +1,20 @@
 ---
 title: C++ Typedefs in Class Designer
+description: Learn about how Class Designer supports C++ typedef types declared with the keyword typedef.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 f1_keywords:
-  - "vs.classdesigner.typedef"
-  - "vs.classdesigner.aliasofline"
+- vs.classdesigner.typedef
+- vs.classdesigner.aliasofline
 helpviewer_keywords:
-  - "Class Designer [Visual Studio], typedefs"
+- Class Designer [Visual Studio], typedefs
 ms.assetid: c1984108-71fc-4d3a-b4d4-3eac2c6b4ebf
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ms.workload:
-  - "cplusplus"
+- cplusplus
 ---
 # C++ typedefs in Class Designer
 

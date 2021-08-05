@@ -1,7 +1,8 @@
 ---
+description: "Retrieves a flag that indicates whether the section can be discarded."
 title: "IDiaSectionContrib::get_discardable | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 30ca88d4-3198-4b0f-b30e-2e54b3607fe9
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

@@ -1,7 +1,9 @@
 ---
 title: "How to: Resize controls within worksheet cells"
+description: Learn how you can use Visual Studio to resize controls within Microsoft Excel worksheet cells both at design time and at run time.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: "how-to"
 dev_langs:
   - "VB"
   - "CSharp"
@@ -12,7 +14,7 @@ helpviewer_keywords:
   - "Windows Forms controls [Office development in Visual Studio], resizing"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---
@@ -46,8 +48,8 @@ ms.workload:
 
 1. Add a control to range A1.
 
-     [!code-vb[Trin_VstcoreProgrammingControlsExcel#5](../vsto/codesnippet/VisualBasic/my excel chart/Sheet1.vb#5)]
-     [!code-csharp[Trin_VstcoreProgrammingControlsExcel#5](../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsExcelCS/Sheet1.cs#5)]
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/my excel chart/Sheet1.vb" id="Snippet5":::
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsExcelCS/Sheet1.cs" id="Snippet5":::
 
      When you resize the cell that contains the control, the control resizes to fit the cell.
 
@@ -64,8 +66,8 @@ ms.workload:
 
 1. Call the placement property of the control and set the value to <xref:Microsoft.Office.Interop.Excel.XlPlacement.xlFreeFloating>.
 
-     [!code-vb[Trin_VstcoreProgrammingControlsExcel#6](../vsto/codesnippet/VisualBasic/my excel chart/Sheet1.vb#6)]
-     [!code-csharp[Trin_VstcoreProgrammingControlsExcel#6](../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsExcelCS/Sheet1.cs#6)]
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/my excel chart/Sheet1.vb" id="Snippet6":::
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsExcelCS/Sheet1.cs" id="Snippet6":::
 
 ## See also
 - [Controls on Office documents](../vsto/controls-on-office-documents.md)

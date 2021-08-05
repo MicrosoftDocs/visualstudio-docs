@@ -1,15 +1,17 @@
 ---
 title: Best Practices for Using Code Snippets
+description: Learn about code snippets, what the intent of a code snippet is, and how best to use them to suit your application. 
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "code snippets, best practices"
-  - "code snippets, security"
-author: jillre
-ms.author: jillfra
-manager: jillfra
+- code snippets, best practices
+- code snippets, security
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Best practices for using code snippets
 

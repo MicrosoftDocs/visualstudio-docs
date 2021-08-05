@@ -1,19 +1,21 @@
 ---
-title: "Solution User Options (.Suo) File | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Solution User Options (.Suo) File | Microsoft Docs
+description: Learn about the solution user options (.suo) file, which contains per-user solution options in a structured storage file stored in a binary format.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: reference
 helpviewer_keywords:
-  - ".suo files, VSPackages"
-  - "suo files, VSPackages"
-  - "solutions, .suo files"
-  - "solutions, user options"
-  - "solution user options (.suo) file"
+- .suo files, VSPackages
+- suo files, VSPackages
+- solutions, .suo files
+- solutions, user options
+- solution user options (.suo) file
 ms.assetid: 75258e0d-600d-4a3d-94f4-3d7ac12cb47c
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Solution User Options (.Suo) File
 The solution user options (.suo) file contains per-user solution options. This file should not be checked in to source code control.

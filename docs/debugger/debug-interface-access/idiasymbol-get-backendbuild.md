@@ -1,7 +1,8 @@
 ---
+description: "Retrieves the back end build number of the compiler."
 title: "IDiaSymbol::get_backEndBuild | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 423af497-9294-438e-92b4-456c6f56dc56
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

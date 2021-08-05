@@ -1,5 +1,7 @@
 ---
 title: "Debugging GPU Code | Microsoft Docs"
+description: Learn about debugging C++ code that's running on the graphics processing unit (GPU) in Visual Studio.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:
@@ -10,7 +12,7 @@ dev_langs:
 ms.assetid: c7e77a5a-cb57-4b11-9187-ecc89acc8775
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---
@@ -18,7 +20,7 @@ ms.workload:
 You can debug C++ code that is running on the graphics processing unit (GPU). GPU debugging support in Visual Studio includes race detection, launching processes and attaching to them, and integration into the debugging windows.
 
 ## Supported Platforms
- Debugging is supported on [!INCLUDE[win7](../debugger/includes/win7_md.md)], [!INCLUDE[win8](../debugger/includes/win8_md.md)], [!INCLUDE[winsvr08_r2](../debugger/includes/winsvr08_r2_md.md)], and [!INCLUDE[winserver8](../debugger/includes/winserver8_md.md)]. For debugging on the software emulator, [!INCLUDE[win8](../debugger/includes/win8_md.md)], or [!INCLUDE[winserver8](../debugger/includes/winserver8_md.md)] is required. For debugging on the hardware, you must install the drivers for your graphics card. Not all hardware vendors implement all debugger features. See the vendor documentation for limitations.
+ Debugging is supported on [!INCLUDE[win7](../debugger/includes/win7_md.md)], [!INCLUDE[win8](../debugger/includes/win8_md.md)], Windows 10, [!INCLUDE[winsvr08_r2](../debugger/includes/winsvr08_r2_md.md)], [!INCLUDE[winserver8](../debugger/includes/winserver8_md.md)] and Windows Server 2016. For debugging on the software emulator, [!INCLUDE[win8](../debugger/includes/win8_md.md)], Windows 10 or [!INCLUDE[winserver8](../debugger/includes/winserver8_md.md)], Windows Server 2016 is required. For debugging on the hardware, you must install the drivers for your graphics card. Not all hardware vendors implement all debugger features. See the vendor documentation for limitations.
 
 > [!NOTE]
 > Independent hardware vendors who want to support GPU debugging in Visual Studio must create a DLL that implements the VSD3DDebug interface and targets their own drivers.
@@ -71,9 +73,9 @@ You can debug C++ code that is running on the graphics processing unit (GPU). GP
  This error happens if you are debugging on a remote PC. The debugger cannot determine until run time whether the drivers are installed on the remote PC. The drivers are available from the manufacturer of the graphics card.
 
 ### Error: Timeout Detection and Recovery (TDR) must be disabled at the remote site.
- It is possible for C++ AMP computations to exceed the default time interval that's set by the Windows timeout detection and recovery process (TDR). When that happens, the computation is canceled and the data is lost. For more information, see [Handling TDRs in C++ AMP](http://go.microsoft.com/fwlink/p/?LinkId=249154).
+ It is possible for C++ AMP computations to exceed the default time interval that's set by the Windows timeout detection and recovery process (TDR). When that happens, the computation is canceled and the data is lost. For more information, see [Handling TDRs in C++ AMP](/archive/blogs/nativeconcurrency/handling-tdrs-in-c-amp).
 
 ## See also
 - [Walkthrough: Debugging a C++ AMP Application](/cpp/parallel/amp/walkthrough-debugging-a-cpp-amp-application)
 - [Project Settings for a C++ Debug Configuration](../debugger/project-settings-for-a-cpp-debug-configuration.md)
-- [Start GPU Debugging in Visual Studio](http://go.microsoft.com/fwlink/p/?LinkId=255381)
+- [Start GPU Debugging in Visual Studio](/archive/blogs/nativeconcurrency/start-gpu-debugging-in-visual-studio-2012)

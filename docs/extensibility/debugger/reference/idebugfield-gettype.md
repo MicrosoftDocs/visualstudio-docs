@@ -1,20 +1,21 @@
 ---
-title: "IDebugField::GetType | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "This method gets the type of field."
+title: IDebugField::GetType | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugField::GetType"
+- IDebugField::GetType
 helpviewer_keywords:
-  - "IDebugField::GetType method"
+- IDebugField::GetType method
 ms.assetid: b3cdec9f-ef7b-44d0-a775-d17ef7eae968
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugField::GetType
 This method gets the type of field.

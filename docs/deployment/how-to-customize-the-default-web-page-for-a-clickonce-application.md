@@ -1,22 +1,24 @@
 ---
-title: "Customize default web page for ClickOnce application"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-helpviewer_keywords:
-  - "Publish.htm Web page"
-  - "ClickOnce deployment default Web page"
-  - "deploying applications [ClickOnce], publishing"
-  - "publishing, ClickOnce"
+title: Customize default web page for ClickOnce application
+description: Learn about the Web page generated when you publish a ClickOnce application to the Web, which contains the name of the application and other information.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
+dev_langs: 
+  - VB
+  - CSharp
+  - C++
+helpviewer_keywords: 
+  - Publish.htm Web page
+  - ClickOnce deployment default Web page
+  - deploying applications [ClickOnce], publishing
+  - publishing, ClickOnce
 ms.assetid: 418de18c-bee9-4f24-9cd9-0252d175070d
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
-ms.workload:
-  - "multiple"
+manager: jmartens
+ms.workload: 
+  - multiple
 ---
 # How to: Customize the default Web page for a ClickOnce application
 When publishing a ClickOnce application to the Web, a Web page is automatically generated and published along with the application. The default page contains the name of the application and links to install the application, install prerequisites, or access help on MSDN.

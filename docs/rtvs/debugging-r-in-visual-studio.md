@@ -2,17 +2,18 @@
 title: Debugging R code
 description: Visual Studio provides a full debugging experience for R including breakpoints, attach, call stack, and inspecting variables.
 ms.date: 01/24/2018
+ms.prod: visual-studio-dev15
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb
-manager: jillfra
+manager: jmartens
 ms.workload:
   - data-science
 ---
 
 # Debug R in Visual Studio
 
-R Tools for Visual Studio (RTVS) integrates with the full debugging experience of Visual Studio (see [Debugging in Visual Studio](/visualstudio/debugger/debugger-feature-tour). This support includes breakpoints, attaching to running processes, inspecting and watching variables, and inspecting the call stack. This article, then, explores those aspects of debugging that are unique to R and RTVS.
+R Tools for Visual Studio (RTVS) integrates with the full debugging experience of Visual Studio (see [Debugging in Visual Studio](../debugger/debugger-feature-tour.md). This support includes breakpoints, attaching to running processes, inspecting and watching variables, and inspecting the call stack. This article, then, explores those aspects of debugging that are unique to R and RTVS.
 
 Starting the debugger for the startup R file in an R project is the same as for other project types: use **Debug** > **Start Debugging**, the **F5** key, or the **Source startup file** on the debug toolbar:
 

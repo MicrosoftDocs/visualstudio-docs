@@ -1,7 +1,10 @@
 ---
 title: "Get data for built-in SharePoint node in Server Explorer"
+titleSuffix: ""
+description: Get data for the underlying SharePoint component of a built-in SharePoint node in the Server Explorer window of Visual Studio.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: how-to
 dev_langs:
   - "VB"
   - "CSharp"
@@ -10,7 +13,7 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, extending SharePoint Connections node in Server Explorer"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---
@@ -20,8 +23,8 @@ ms.workload:
 ## Example
  The following code example demonstrates how to get data for the underlying SharePoint list that a list node represents in **Server Explorer**. By default, list nodes have a **View in Browser** context menu item that you can click to open the lists in a Web browser. This example extends list nodes by adding a **View in Visual Studio** context menu item that opens the lists directly in Visual Studio. The code accesses the list data for the node to get the URL of the list to open in Visual Studio.
 
- [!code-vb[SPExtensibility.ProjectSystemExtension.General#10](../sharepoint/codesnippet/VisualBasic/projectsystemexamples/extension/serverexplorerextensionnodeinfo.vb#10)]
- [!code-csharp[SPExtensibility.ProjectSystemExtension.General#10](../sharepoint/codesnippet/CSharp/projectsystemexamples/extension/serverexplorerextensionnodeinfo.cs#10)]
+ :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/projectsystemexamples/extension/serverexplorerextensionnodeinfo.vb" id="Snippet10":::
+ :::code language="csharp" source="../sharepoint/codesnippet/CSharp/projectsystemexamples/extension/serverexplorerextensionnodeinfo.cs" id="Snippet10":::
 
  This example uses the SharePoint project service to obtain the <xref:EnvDTE.DTE> object that is used to open lists in Visual Studio. For more information about the SharePoint project service, see [Use the SharePoint project service](../sharepoint/using-the-sharepoint-project-service.md).
 

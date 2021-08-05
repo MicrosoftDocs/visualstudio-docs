@@ -1,7 +1,8 @@
 ---
+description: "Retrieves the back-end major version number of the compiler."
 title: "IDiaSymbol::get_backEndMajor | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 900a05dd-c29b-44ad-b46b-f43bda819a66
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

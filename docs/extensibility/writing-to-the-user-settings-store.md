@@ -1,13 +1,15 @@
 ---
-title: "Writing to the User Settings Store | Microsoft Docs"
-ms.date: "05/23/2019"
-ms.topic: "conceptual"
+title: Writing to the User Settings Store | Microsoft Docs
+description: Learn how to add Notepad to Visual Studio as an external tool by reading from and writing to the user settings store by using this walkthrough.
+ms.custom: SEO-VS-2020
+ms.date: 05/23/2019
+ms.topic: how-to
 ms.assetid: efd27f00-7fe5-45f8-9b97-371af732be97
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Writing to the User Settings Store
 User settings are writeable settings like the ones in the **Tools / Options** dialog, properties windows, and certain other dialog boxes. Visual Studio extensions may use these to store small amounts of data. This walkthrough shows how to add Notepad to Visual Studio as an external tool by reading from and writing to the user settings store.

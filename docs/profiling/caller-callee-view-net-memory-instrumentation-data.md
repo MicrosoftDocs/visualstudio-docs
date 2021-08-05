@@ -1,5 +1,7 @@
 ---
 title: "Caller-Callee View - NET Memory Instrumentation Data | Microsoft Docs"
+description: Review the Caller/Callee view of .NET memory profiling data, which shows allocation and timing data for a selected function and the parent and child functions of it.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:
@@ -7,7 +9,8 @@ helpviewer_keywords:
 ms.assetid: da624c06-8741-4afb-aad1-f8c0002f3de2
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+monikerRange: 'vs-2017'
 ms.workload:
   - "multiple"
 ---
@@ -87,7 +90,7 @@ The Caller/Callee view of .NET memory profiling data that was collected by using
 |**Min Application Inclusive Time**|The minimum application inclusive time of a call to this function in this context.|
 
 ## Application exclusive values
- Application exclusive values indicate the time that was spent in the function, excluding time that was spent in child functions. The indicated time also excludes time that was spent incalls to the operating system, such as context switches and input/output operations.
+ Application exclusive values indicate the time that was spent in the function, excluding time that was spent in child functions. The indicated time also excludes time that was spent in calls to the operating system, such as context switches and input/output operations.
 
 |Column|Description|
 |------------|-----------------|

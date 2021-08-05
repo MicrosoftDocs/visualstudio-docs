@@ -1,16 +1,18 @@
 ---
-title: "Adding a Tool Window | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Adding a Tool Window | Microsoft Docs
+description: Learn how to create a tool window and integrate it into Visual Studio by adding a control and a toolbar containing a command to the tool window.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
 helpviewer_keywords:
-  - "tutorials"
-  - "tool windows"
+- tutorials
+- tool windows
 ms.assetid: 8e16c381-03c8-404e-92ef-3614cdf3150a
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Add a tool window
 

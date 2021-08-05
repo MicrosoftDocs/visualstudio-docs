@@ -1,17 +1,18 @@
 ---
-title: "IDebugFunctionObject | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "This interface represents a function."
+title: IDebugFunctionObject | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugFunctionObject"
+- IDebugFunctionObject
 helpviewer_keywords:
-  - "IDebugFunctionObject interface"
+- IDebugFunctionObject interface
 ms.assetid: 8d94e97c-a9d1-400c-8a98-a44b5385b33a
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IDebugFunctionObject
 > [!IMPORTANT]

@@ -1,16 +1,18 @@
 ---
-title: "Creating a Source Control VSPackage | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Creating a Source Control VSPackage | Microsoft Docs
+description: Learn how to create a source control VSPackage that creates a deep integration path for source control to integrate with Visual Studio.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "source control [Visual Studio SDK], creating source control packages"
-  - "source control packages"
+- source control [Visual Studio SDK], creating source control packages
+- source control packages
 ms.assetid: cca0a9ed-48ff-409f-8036-ed8db0f7533e
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Create a source control VSPackage
 This documentation includes links to the architecture overview of a source-control package integrated with [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)], the API that is defined by the interfaces to be implemented and the services to be consumed, and a sample that illustrates a simple source control package implementation.

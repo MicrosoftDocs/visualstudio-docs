@@ -1,28 +1,32 @@
 ---
-title: "SGen Task | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
+title: SGen Task | Microsoft Docs
+description: Learn how MSBuild uses the SGen task to create an XML serialization assembly for types, by wrapping the XML Serializer Generator tool Sgen.exe. 
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: reference
 f1_keywords:
-  - "http://schemas.microsoft.com/developer/msbuild/2003#SGen"
+- http://schemas.microsoft.com/developer/msbuild/2003#SGen
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+- VB
+- CSharp
+- C++
+- jsharp
 helpviewer_keywords:
-  - "SGen task [MSBuild]"
-  - "MSBuild, SGen task"
+- SGen task [MSBuild]
+- MSBuild, SGen task
 ms.assetid: 22c5ade4-4159-4667-b891-0c1aa06f4df5
-author: mikejo5000
-ms.author: mikejo
-manager: jillfra
+author: ghogen
+ms.author: ghogen
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # SGen task
+
 Creates an XML serialization assembly for types in the specified assembly. This task wraps the XML Serializer Generator tool (*Sgen.exe*). For more information, see [XML Serializer Generator tool (Sgen.exe)](/dotnet/framework/serialization/xml-serializer-generator-tool-sgen-exe).
 
 ## Parameters
+
  The following table describes the parameters of the `SGen` task.
 
 | Parameter | Description |
@@ -39,14 +43,14 @@ Creates an XML serialization assembly for types in the specified assembly. This 
 | `SerializationAssemblyName` | Optional `String` parameter.<br /><br /> Specifies the name of the generated serialization assembly. |
 | `ShouldGenerateSerializer` | Required `Boolean` parameter.<br /><br /> If `true`, the SGen task should generate a serialization assembly. |
 | `Timeout` | Optional `Int32` parameter.<br /><br /> Specifies the amount of time, in milliseconds, after which the task executable is terminated. The default value is `Int.MaxValue`, indicating that there is no time out period. |
-| `ToolPath` | Optional `String` parameter.<br /><br /> Specifies the location from where the task will load the underlying executable file (*sgen.exe*). If this parameter is not specified, the task uses the SDK installation path corresponding to the version of the framework that is running [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)]. |
+| `ToolPath` | Optional `String` parameter.<br /><br /> Specifies the location from where the task will load the underlying executable file (*sgen.exe*). If this parameter is not specified, the task uses the SDK installation path corresponding to the version of the framework that is running MSBuild. |
 | `Types` | Optional `String[]` parameter.<br /><br /> Gets or sets a list of specific Types to generate serialization code for. SGen will generate serialization code only for those types. |
 | `UseProxyTypes` | Required `Boolean` parameter.<br /><br /> If `true`, the SGen task generates serialization code only for the XML Web service proxy types. |
 
-## Remarks
- In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Tasks.ToolTaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.ToolTask> class. For a list of these additional parameters and their descriptions, see [ToolTaskExtension base class](../msbuild/tooltaskextension-base-class.md).
+[!INCLUDE [ToolTaskExtension arguments](includes/tooltaskextension-base-params.md)]
 
 ## See also
+
 - [Task reference](../msbuild/msbuild-task-reference.md)
 - [Tasks](../msbuild/msbuild-tasks.md)
 - [MSBuild concepts](../msbuild/msbuild-concepts.md)

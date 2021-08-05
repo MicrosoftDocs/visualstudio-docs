@@ -1,5 +1,7 @@
 ---
 title: "VBA and Office solutions in Visual Studio compared"
+description: Learn about the differences between Microsoft Visual Basic for Applications (VBA) and Microsoft Office solutions in Visual Studio.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -10,7 +12,7 @@ helpviewer_keywords:
   - "managed code extensions [Office development in Visual Studio], VBA compared to"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

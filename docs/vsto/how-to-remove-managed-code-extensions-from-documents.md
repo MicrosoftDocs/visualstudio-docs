@@ -1,7 +1,9 @@
 ---
 title: "How to: Remove managed code extensions from documents"
+description: Programmatically remove the customization assembly from a document or workbook that is part of a document-level customization for Microsoft Word or Excel.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: "how-to"
 dev_langs:
   - "VB"
   - "CSharp"
@@ -10,7 +12,7 @@ helpviewer_keywords:
   - "documents [Office development in Visual Studio], managed code extensions"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---
@@ -20,8 +22,6 @@ ms.workload:
  [!INCLUDE[appliesto_alldoc](../vsto/includes/appliesto-alldoc-md.md)]
 
  You can remove the customization assembly by using one of the `RemoveCustomization` methods provided by the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)]. Which method you use depends on whether you want to remove the customization at run time (that is, by running code in the customization while the Word document or Excel workbook is open), or if you want to remove the customization from a closed document or a document that is on a server that does not have Microsoft Office installed.
-
- ![link to video](../vsto/media/playvideo.gif "link to video") For a related video demonstration, see [How Do I: Attach or Detach a VSTO Assembly from a Word Document?](http://go.microsoft.com/fwlink/?LinkId=136782).
 
 ## To remove the customization assembly at run time
 
@@ -35,15 +35,15 @@ ms.workload:
 
 2. Add the following **Imports** or **using** statement to the top of your code file.
 
-     [!code-csharp[Trin_VstcoreDeployment#1](../vsto/codesnippet/CSharp/Trin_VstcoreDeploymentCS/Program.cs#1)]
-     [!code-vb[Trin_VstcoreDeployment#1](../vsto/codesnippet/VisualBasic/Trin_VstcoreDeploymentVB/Program.vb#1)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreDeploymentCS/Program.cs" id="Snippet1":::
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreDeploymentVB/Program.vb" id="Snippet1":::
 
 3. Call the static <xref:Microsoft.VisualStudio.Tools.Applications.ServerDocument.RemoveCustomization%2A> method of the <xref:Microsoft.VisualStudio.Tools.Applications.ServerDocument> class, and specify the solution document path for the parameter.
 
      The following code example assumes that you are removing the customization from a document named *WordDocument1.docx* that is on the desktop.
 
-     [!code-csharp[Trin_VstcoreDeployment#2](../vsto/codesnippet/CSharp/Trin_VstcoreDeploymentCS/Program.cs#2)]
-     [!code-vb[Trin_VstcoreDeployment#2](../vsto/codesnippet/VisualBasic/Trin_VstcoreDeploymentVB/Program.vb#2)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreDeploymentCS/Program.cs" id="Snippet2":::
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreDeploymentVB/Program.vb" id="Snippet2":::
 
 4. Build the project and run the application on the computer where you want to remove the customization. The computer must have the Visual Studio 2010 Tools for Office runtime installed.
 

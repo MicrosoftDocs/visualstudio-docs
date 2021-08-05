@@ -1,20 +1,21 @@
 ---
-title: "IDebugEngine3::SetSymbolPath | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Sets the path or paths that are searched for debugging symbols."
+title: IDebugEngine3::SetSymbolPath | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugEngine3::SetSymbolPath"
+- IDebugEngine3::SetSymbolPath
 helpviewer_keywords:
-  - "IDebugEngine3::SetSymbolPath"
+- IDebugEngine3::SetSymbolPath
 ms.assetid: 47b48f84-8a96-401f-84df-0baa8a96d26e
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugEngine3::SetSymbolPath
 Sets the path or paths that are searched for debugging symbols.
@@ -57,7 +58,7 @@ int SetSymbolPath(
  The symbol path can also contain one or more cache locations. Caches are listed in priority order, with the highest priority cache first, and separated by * symbols. For example:
 
 ```
-\\symbols\symbols;\\someotherserver\symbols;c:\symbols\httpsymbols*http://msdl.microsoft.com
+\\symbols\symbols;\\someotherserver\symbols;c:\symbols\httpsymbols*https://msdl.microsoft.com
 ```
 
  The [LoadSymbols](../../../extensibility/debugger/reference/idebugengine3-loadsymbols.md) method performs the actual load of the symbols.

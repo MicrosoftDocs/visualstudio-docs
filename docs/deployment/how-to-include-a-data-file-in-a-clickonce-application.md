@@ -1,21 +1,23 @@
 ---
-title: "How to: Include a Data File in a ClickOnce Application | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-helpviewer_keywords:
-  - "ClickOnce deployment, data"
-  - "deploying applications [ClickOnce], data files"
-  - "data access, ClickOnce applications"
+title: Include a data file in a ClickOnce app
+description: Learn how to add a data file of any type into your ClickOnce application to be stored in a data directory on the destination computer local disk.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
+dev_langs: 
+  - VB
+  - CSharp
+  - C++
+helpviewer_keywords: 
+  - ClickOnce deployment, data
+  - deploying applications [ClickOnce], data files
+  - data access, ClickOnce applications
 ms.assetid: 89ee46ef-bc8c-4ab0-a2ac-1220f9da06fc
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
-ms.workload:
-  - "multiple"
+manager: jmartens
+ms.workload: 
+  - multiple
 ---
 # How to: Include a data file in a ClickOnce application
 Each [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application you install is assigned a data directory on the destination computer's local disk where the application can manage its own data. Data files can include files of any type: text files, XML files, or even Microsoft Access database (*.mdb*) files. The following procedures show you how to add a data file of any type into your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application.

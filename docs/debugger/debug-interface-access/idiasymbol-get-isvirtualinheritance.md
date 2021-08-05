@@ -1,13 +1,14 @@
 ---
+description: "Specifies whether the this pointer points to a data member with virtual inheritance."
 title: "IDiaSymbol::get_isVirtualInheritance | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 ms.assetid: 72906b92-dd4a-42e3-9b24-b77628fa48c1
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

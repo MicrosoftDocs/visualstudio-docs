@@ -1,20 +1,21 @@
 ---
-title: "IDebugProperty3::GetStringCharLength | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Returns the number of characters in the associated property's string."
+title: IDebugProperty3::GetStringCharLength | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugProperty3::GetStringCharLength"
+- IDebugProperty3::GetStringCharLength
 helpviewer_keywords:
-  - "IDebugProperty3::GetStringCharLength"
+- IDebugProperty3::GetStringCharLength
 ms.assetid: 89a8676b-6da9-4358-91c2-039bf33f99e4
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugProperty3::GetStringCharLength
 Returns the number of characters in the associated property's string.

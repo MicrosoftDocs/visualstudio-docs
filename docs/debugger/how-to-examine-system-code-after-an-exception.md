@@ -1,22 +1,23 @@
 ---
-title: "Examine system code after an exception | Microsoft Docs"
-ms.custom: "seodec18"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-dev_langs:
-  - "CSharp"
-  - "VB"
-  - "FSharp"
-  - "C++"
-helpviewer_keywords:
-  - "debugging, exceptions"
-  - "exceptions, debugging"
+title: Examine system code after an exception | Microsoft Docs
+description: Learn how to examine code in a system call to find the cause of the exception. The procedure applies even if symbols for the system code have not been loaded.
+ms.custom: "SEO-VS-2020"
+ms.date: 11/04/2016
+ms.topic: how-to
+dev_langs: 
+  - CSharp
+  - VB
+  - FSharp
+  - C++
+helpviewer_keywords: 
+  - debugging, exceptions
+  - exceptions, debugging
 ms.assetid: a38ad49b-7cf3-483d-91c4-eb3116eba50c
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
-ms.workload:
-  - "multiple"
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.workload: 
+  - multiple
 ---
 # How to: Examine System Code After an Exception
 When an exception occurs, you might have to examine code inside a system call to determine the cause of the exception. The following procedure explains how to do this if you do not have symbols loaded for the system code or if Just My Code is enabled.

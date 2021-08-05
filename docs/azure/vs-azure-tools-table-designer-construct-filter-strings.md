@@ -2,9 +2,7 @@
 title: Constructing filter strings for the table designer | Microsoft Docs
 description: Constructing filter strings for the table designer
 author: ghogen
-manager: jillfra
-assetId: a1a10ea1-687a-4ee1-a952-6b24c2fe1a22
-ms.custom: vs-azure
+manager: jmartens
 ms.workload: azure-vs
 ms.topic: conceptual
 ms.date: 11/18/2016
@@ -12,9 +10,9 @@ ms.author: ghogen
 ---
 # Constructing Filter Strings for the Table Designer
 ## Overview
-To filter data in an Azure table that is displayed in the Visual Studio **Table Designer**, you construct a filter string and enter it into the filter field. The filter string syntax is defined by the WCF Data Services and is similar to a SQL WHERE clause, but is sent to the Table service via an HTTP request. The **Table Designer** handles the proper encoding for you, so to filter on a desired property value, you need only enter the property name, comparison operator, criteria value, and optionally, Boolean operator in the filter field. You do not need to include the $filter query option as you would if you were constructing a URL to query the table via the [Storage Services REST API Reference](http://go.microsoft.com/fwlink/p/?LinkId=400447).
+To filter data in an Azure table that is displayed in the Visual Studio **Table Designer**, you construct a filter string and enter it into the filter field. The filter string syntax is defined by the WCF Data Services and is similar to a SQL WHERE clause, but is sent to the Table service via an HTTP request. The **Table Designer** handles the proper encoding for you, so to filter on a desired property value, you need only enter the property name, comparison operator, criteria value, and optionally, Boolean operator in the filter field. You do not need to include the $filter query option as you would if you were constructing a URL to query the table via the [Storage Services REST API Reference](/rest/api/storageservices/).
 
-The WCF Data Services are based on the [Open Data Protocol](http://go.microsoft.com/fwlink/p/?LinkId=214805) (OData). For details on the filter system query option (**$filter**), see the [OData URI Conventions specification](http://go.microsoft.com/fwlink/p/?LinkId=214806).
+The WCF Data Services are based on the [Open Data Protocol](https://www.odata.org/) (OData). For details on the filter system query option (**$filter**), see the [OData URI Conventions specification](https://www.odata.org/documentation/odata-version-2-0/uri-conventions/).
 
 ## Comparison Operators
 The following logical operators are supported for all property types:
@@ -35,7 +33,7 @@ When constructing a filter string, the following rules are important:
 
 * Use the logical operators to compare a property to a value. Note that it is not possible to compare a property to a dynamic value; one side of the expression must be a constant.
 * All parts of the filter string are case-sensitive.
-* The constant value must be of the same data type as the property in order for the filter to return valid results. For more information about supported property types, see [Understanding the Table Service Data Model](http://go.microsoft.com/fwlink/p/?LinkId=400448).
+* The constant value must be of the same data type as the property in order for the filter to return valid results. For more information about supported property types, see [Understanding the Table Service Data Model](/rest/api/storageservices/Understanding-the-Table-Service-Data-Model).
 
 ## Filtering on String Properties
 When you filter on string properties, enclose the string constant in single quotation marks.
@@ -95,7 +93,7 @@ not IsActive
 ```
 
 ## Filtering on DateTime Properties
-To filter on a DateTime value, specify the **datetime** keyword, followed by the date/time constant in single quotation marks. The date/time constant must be in combined UTC format, as described in [Formatting DateTime Property Values](http://go.microsoft.com/fwlink/p/?LinkId=400449).
+To filter on a DateTime value, specify the **datetime** keyword, followed by the date/time constant in single quotation marks. The date/time constant must be in combined UTC format, as described in [Formatting DateTime Property Values](/rest/api/storageservices/Formatting-DateTime-Property-Values).
 
 The following example returns entities where the CustomerSince property is equal to July 10, 2008:
 

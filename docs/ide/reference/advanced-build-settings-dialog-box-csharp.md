@@ -1,18 +1,20 @@
 ---
 title: Advanced Build Settings Dialog Box (C#)
+description: Learn how you can use Visual Studio to specify the project's advanced build configuration properties.
+ms.custom: SEO-VS-2020
 ms.date: 08/05/2019
 ms.technology: vs-ide-compile
 ms.topic: reference
 f1_keywords:
-  - "cs.AdvancedBuildSettings"
+- cs.AdvancedBuildSettings
 helpviewer_keywords:
-  - "Build options [C#], advanced"
+- Build options [C#], advanced
 ms.assetid: 141f2dee-1563-4ce6-ba37-32920b082519
 author: ghogen
 ms.author: ghogen
-manager: jillfra
+manager: jmartens
 ms.workload:
-  - "dotnet"
+- dotnet
 ---
 # Advanced Build Settings dialog box (C#)
 

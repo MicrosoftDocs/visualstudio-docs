@@ -1,14 +1,16 @@
 ---
-title: "Tutorial 3: Create a matching game"
+title: 'Tutorial 3: Create a matching game'
+description: Learn how to build a matching game, where the player must match pairs of hidden icons.
+ms.custom: SEO-VS-2020
 ms.date: 10/16/2019
 ms.assetid: 525815c8-2845-45e8-be96-100d1f144725
 ms.topic: tutorial
 ms.technology: vs-ide-general
-author: TerryGLee
-ms.author: tglee
-manager: jillfra
+author: j-martens
+ms.author: jmartens
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Tutorial 3: Create a matching game
 
@@ -55,6 +57,6 @@ To begin the tutorial, start with **[Step 1: Create a project and add a table to
 
 ## See also
 
-* [More C# tutorials](/visualstudio/get-started/csharp/)
-* [Visual Basic tutorials](/visualstudio/get-started/visual-basic/)
+* [More C# tutorials](../get-started/csharp/index.yml)
+* [Visual Basic tutorials](../get-started/visual-basic/index.yml)
 * [C++ tutorials](/cpp/get-started/tutorial-console-cpp)

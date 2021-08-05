@@ -1,18 +1,20 @@
 ---
-title: "Determining Which Editor Opens a File in a Project | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Determining Which Editor Opens a File in a Project | Microsoft Docs
+description: Learn about the registry keys and Visual Studio SDK methods that are used by Visual Studio to determine which editor opens a file in a project.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "editors [Visual Studio SDK], determining which editor opens a file"
-  - "projects [Visual Studio SDK], determining which editor opens file"
-  - "project types, determining which editor opens a file"
-  - "persistence, determining which editor opens a file"
+- editors [Visual Studio SDK], determining which editor opens a file
+- projects [Visual Studio SDK], determining which editor opens file
+- project types, determining which editor opens a file
+- persistence, determining which editor opens a file
 ms.assetid: acbcf4d8-a53a-4727-9043-696a47369479
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Determine which editor opens a file in a project
 When a user opens a file in a project, the environment goes through a polling process, eventually opening the appropriate editor or designer for that file. The initial procedure employed by the environment is the same for both standard and custom editors. The environment uses a variety of criteria when polling which editor to use to open a file and the VSPackage must coordinate with the environment during this process.

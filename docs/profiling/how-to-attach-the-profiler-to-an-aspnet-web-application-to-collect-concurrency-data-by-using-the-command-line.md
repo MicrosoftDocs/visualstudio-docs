@@ -1,16 +1,19 @@
 ---
-title: "Attach profiler to ASP.NET app to collect concurrency data"
-ms.custom: "seodec18"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Attach profiler to ASP.NET to collect concurrency data
+description: Use Visual Studio Profiling Tools command-line tools to attach the profiler to an ASP.NET application and collect process and thread concurrency data.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
 ms.assetid: 0e215fdd-55f8-43ef-9534-06542eefe223
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
-ms.workload:
-  - "aspnet"
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+monikerRange: 'vs-2017'
+ms.workload: 
+  - aspnet
 ---
 # How to: Attach the profiler to an ASP.NET web application to collect concurrency data by using the command line
+
 This article describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools command-line tools to attach the profiler to an ASP.NET application and collect process and thread concurrency data.
 
 To get the path to the profiling tools, see [Specify the path to command line tools](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md). On 64-bit computers, both 64-bit and 32-bit versions of the tools are available. To use the profiler command-line tools, you must add the tools path to the PATH environment variable of the Command Prompt window or add it to the command itself.

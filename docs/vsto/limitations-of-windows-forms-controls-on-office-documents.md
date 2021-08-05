@@ -1,5 +1,8 @@
 ---
 title: "Limitations of Windows Forms controls on Office documents"
+description: Learn about the limitations of Windows Forms control methods and properties on Microsoft Office documents. 
+ms.custom: SEO-VS-2020
+titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -17,7 +20,7 @@ helpviewer_keywords:
   - "Windows Forms controls [Office development in Visual Studio], Toolbox"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

@@ -5,6 +5,7 @@ author: cobey
 ms.author: cobey
 ms.date: 05/06/2018
 ms.assetid: 0FE5E929-1846-4F48-B5E3-70990FAF9504
+ms.topic: how-to
 ---
 # Comments
 

@@ -1,15 +1,17 @@
 ---
 title: C# IntelliSense
-ms.date: 11/04/2016
+description: Learn about some IntelliSense features that you can use while coding your C# project.
+ms.custom: SEO-VS-2020
+ms.date: 06/01/2021
 ms.topic: conceptual
 helpviewer_keywords:
-  - "C#, IntelliSense"
-  - "IntelliSense [C#]"
-author: jillre
-ms.author: jillfra
-manager: jillfra
+- C#, IntelliSense
+- IntelliSense [C#]
+author: mikadumont
+ms.author: midumont
+manager: jmartens
 ms.workload:
-  - "dotnet"
+- dotnet
 ---
 # C# IntelliSense
 
@@ -93,6 +95,10 @@ To initiate the **Add using** operation, position the cursor on a type reference
 ![Add using, quick action expanded image](../ide/media/addusing-quickaction.png)
 
 Click the error light bulb icon, and then choose **using System.Xml;** to automatically add the using directive.
+
+### Add missing using directives on paste
+
+IntelliSense can automatically add missing `using` directives to your code when you paste a type to your code file. This feature saves you time by automating the task of adding missing using directives when pasting a type to a file. Enable this feature in **Tools** > **Options** > **Text Editor** > **C#** or **Basic** > **Advanced** and select **Add missing using directives on paste**.
 
 ### Remove and sort usings
 

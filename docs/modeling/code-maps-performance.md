@@ -1,12 +1,14 @@
 ---
 title: Code maps are slow
+description: Learn how to improve code map performance and how you can minimize the time required to finish rendering.
+ms.custom: SEO-VS-2020
 ms.date: 05/16/2018
 ms.topic: conceptual
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: mgoertz-msft
+ms.author: mgoertz
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Improve performance for code maps
 

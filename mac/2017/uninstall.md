@@ -1,11 +1,12 @@
 ---
 title: "Uninstall Visual Studio for Mac"
 description: "Instructions for uninstalling Visual Studio for Mac and related tools."
-author: conceptdev
-ms.author: crdun
+author: heiligerdankgesang
+ms.author: dominicn
 ms.date: 05/06/2018
 ms.technology: vs-ide-install
 ms.assetid: 4EB95F75-BC2E-4982-9564-2975805712D8
+ms.topic: how-to
 ---
 
 # Uninstalling Visual Studio for Mac
@@ -13,8 +14,6 @@ ms.assetid: 4EB95F75-BC2E-4982-9564-2975805712D8
 There are a number of Xamarin products that enable cross-platform application development, including stand-alone apps like Visual Studio for Mac.
 
 You can use this guide to uninstall each product individually by navigating to the relevant section, or you can use the scripts provided in the [Uninstall Script](#uninstall-script) section to uninstall everything.
-
-If you have previously had Xamarin Studio installed on your machine, you may also need to follow the instructions in [Xamarin's uninstall](/xamarin/cross-platform/get-started/installation/uninstalling-xamarin#uninstall-xamarin-studio-on-mac) guide, in addition to the following steps.
 
 ## Uninstall Script
 

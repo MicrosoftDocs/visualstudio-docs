@@ -1,25 +1,27 @@
 ---
 title: Customize code maps by editing the DGML files
+description: Learn how to customize a code map by editing its Directed Graph Markup Language (.dgml) file.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
-  - "dependency graphs, creating path aliases"
-  - "dependency graphs, linking items to nodes"
-  - "graph documents, creating path aliases"
-  - "dependency graphs, grouping nodes"
-  - "graph documents, editing"
-  - "graph documents, linking items to nodes"
-  - "graph documents, customizing"
-  - "graph documentings, assigning categories and properties"
-  - "dependency graphs, editing"
-  - "dependency graphs, customizing"
-  - "graph documents, grouping nodes"
-  - "dependency graphs, assigning categories and properties"
-author: jillre
-ms.author: jillfra
-manager: jillfra
+- dependency graphs, creating path aliases
+- dependency graphs, linking items to nodes
+- graph documents, creating path aliases
+- dependency graphs, grouping nodes
+- graph documents, editing
+- graph documents, linking items to nodes
+- graph documents, customizing
+- graph documentings, assigning categories and properties
+- dependency graphs, editing
+- dependency graphs, customizing
+- graph documents, grouping nodes
+- dependency graphs, assigning categories and properties
+author: mgoertz-msft
+ms.author: mgoertz
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Customize code maps by editing the DGML files
 

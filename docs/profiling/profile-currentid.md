@@ -1,5 +1,6 @@
 ---
 title: "PROFILE_CURRENTID | Microsoft Docs"
+description: Learn how to use the PROFILE_CURRENTID to cause the function to operate on the current thread or process, rather than a specifically indicated one.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:
@@ -7,21 +8,22 @@ helpviewer_keywords:
 ms.assetid: 55ccf665-a05e-48c3-adf7-7714c0a9aaef
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+monikerRange: 'vs-2017'
 ms.workload:
   - "multiple"
 ---
 # PROFILE_CURRENTID
 The PROFILE_CURRENTID returns the pseudo-token for the thread ID or process ID, in a call to NameProfile, StartProfile, StopProfile, SuspendProfile, and ResumeProfile functions. Use it to cause the function to operate on the current thread or process, rather than a specifically indicated one.
 
-## Example
+## Example 1
  PROFILE_CURRENTID is defined in *VSPerf.h* as:
 
 ```cpp
 static const unsigned int PROFILE_CURRENTID = (unsigned int)-1;
 ```
 
-## Example
+## Example 2
  The following example illustrates PROFILE_CURRENTID. The example uses PROFILE_CURRENTID as a parameter identifying the current thread in a call to the [StartProfile](../profiling/startprofile.md) function.
 
 ```cpp

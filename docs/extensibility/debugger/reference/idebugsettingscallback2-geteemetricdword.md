@@ -1,18 +1,19 @@
 ---
-title: "IDebugSettingsCallback2::GetEEMetricDword | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Retrieves a value that corresponds to the specified metric of the expression evaluator."
+title: IDebugSettingsCallback2::GetEEMetricDword | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "IDebugSettingsCallback2::GetEEMetricDword"
+- IDebugSettingsCallback2::GetEEMetricDword
 ms.assetid: c5f8f417-0ef0-4fd0-a779-b0a8ead4effe
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugSettingsCallback2::GetEEMetricDword
 Retrieves a value that corresponds to the specified metric of the expression evaluator.

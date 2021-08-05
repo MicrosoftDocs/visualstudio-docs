@@ -1,5 +1,8 @@
 ---
 title: "Add controls to worksheet at run time in VSTO add-in project"
+description: Learn how to use the Ribbon to enable users to add a Button, a NamedRange, and a ListObject to a worksheet. 
+ms.custom: SEO-VS-2020
+titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -12,7 +15,7 @@ helpviewer_keywords:
   - "worksheets, adding controls at run time"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---
@@ -96,8 +99,8 @@ ms.workload:
 
      This code uses the `GetVstoObject` method to get a host item that represents the first worksheet in the workbook, and then adds a <xref:Microsoft.Office.Tools.Excel.Controls.Button> control to the currently selected cell.
 
-     [!code-csharp[Trin_Excel_Dynamic_Controls#2](../vsto/codesnippet/CSharp/Trin_Excel_Dynamic_Controls/Ribbon1.cs#2)]
-     [!code-vb[Trin_Excel_Dynamic_Controls#2](../vsto/codesnippet/VisualBasic/Trin_Excel_Dynamic_Controls/Ribbon1.vb#2)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_Excel_Dynamic_Controls/Ribbon1.cs" id="Snippet2":::
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_Excel_Dynamic_Controls/Ribbon1.vb" id="Snippet2":::
 
 3. In **Solution Explorer**, select *Ribbon1.cs* or *Ribbon1.vb*.
 
@@ -109,8 +112,8 @@ ms.workload:
 
      This code uses the `GetVstoObject` method to get a host item that represents the first worksheet in the workbook, and then defines a <xref:Microsoft.Office.Tools.Excel.NamedRange> control for the currently selected cell or cells.
 
-     [!code-csharp[Trin_Excel_Dynamic_Controls#3](../vsto/codesnippet/CSharp/Trin_Excel_Dynamic_Controls/Ribbon1.cs#3)]
-     [!code-vb[Trin_Excel_Dynamic_Controls#3](../vsto/codesnippet/VisualBasic/Trin_Excel_Dynamic_Controls/Ribbon1.vb#3)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_Excel_Dynamic_Controls/Ribbon1.cs" id="Snippet3":::
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_Excel_Dynamic_Controls/Ribbon1.vb" id="Snippet3":::
 
 7. In the Ribbon Designer, double-click **ListObject**.
 
@@ -118,13 +121,13 @@ ms.workload:
 
      This code uses the `GetVstoObject` method to get a host item that represents the first worksheet in the workbook, and then defines a <xref:Microsoft.Office.Tools.Excel.ListObject> for the currently selected cell or cells.
 
-     [!code-csharp[Trin_Excel_Dynamic_Controls#4](../vsto/codesnippet/CSharp/Trin_Excel_Dynamic_Controls/Ribbon1.cs#4)]
-     [!code-vb[Trin_Excel_Dynamic_Controls#4](../vsto/codesnippet/VisualBasic/Trin_Excel_Dynamic_Controls/Ribbon1.vb#4)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_Excel_Dynamic_Controls/Ribbon1.cs" id="Snippet4":::
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_Excel_Dynamic_Controls/Ribbon1.vb" id="Snippet4":::
 
 9. Add the following statements to the top of the Ribbon code file.
 
-     [!code-csharp[Trin_Excel_Dynamic_Controls#1](../vsto/codesnippet/CSharp/Trin_Excel_Dynamic_Controls/Ribbon1.cs#1)]
-     [!code-vb[Trin_Excel_Dynamic_Controls#1](../vsto/codesnippet/VisualBasic/Trin_Excel_Dynamic_Controls/Ribbon1.vb#1)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_Excel_Dynamic_Controls/Ribbon1.cs" id="Snippet1":::
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_Excel_Dynamic_Controls/Ribbon1.vb" id="Snippet1":::
 
 ## Remove controls from the worksheet
  Controls are not persisted when the worksheet is saved and closed. You should programmatically remove all generated Windows Forms controls before the worksheet is saved, or only an outline of the control will appear when the workbook is opened again. Add code to the <xref:Microsoft.Office.Interop.Excel.AppEvents_Event.WorkbookBeforeSave> event that removes Windows Forms controls from the controls collection of the generated host item. For more information, see [Persist dynamic controls in Office documents](../vsto/persisting-dynamic-controls-in-office-documents.md).
@@ -137,12 +140,12 @@ ms.workload:
 
 3. Add the following method to the `ThisAddIn` class. This code gets the first worksheet in the workbook and then uses the `HasVstoObject` method to check whether the worksheet has a generated worksheet object. If the generated worksheet object has controls, the code gets that worksheet object and iterates through the control collection, removing the controls.
 
-     [!code-csharp[Trin_Excel_Dynamic_Controls#6](../vsto/codesnippet/CSharp/Trin_Excel_Dynamic_Controls/ThisAddIn.cs#6)]
-     [!code-vb[Trin_Excel_Dynamic_Controls#6](../vsto/codesnippet/VisualBasic/Trin_Excel_Dynamic_Controls/ThisAddIn.vb#6)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_Excel_Dynamic_Controls/ThisAddIn.cs" id="Snippet6":::
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_Excel_Dynamic_Controls/ThisAddIn.vb" id="Snippet6":::
 
 4. In C#, you must create an event handler for the <xref:Microsoft.Office.Interop.Excel.AppEvents_Event.WorkbookBeforeSave> event. You can place this code in the `ThisAddIn_Startup` method. For more information about creating event handlers, see [How to: Create event handlers in Office projects](../vsto/how-to-create-event-handlers-in-office-projects.md). Replace the `ThisAddIn_Startup` method with the following code.
 
-     [!code-csharp[Trin_Excel_Dynamic_Controls#5](../vsto/codesnippet/CSharp/Trin_Excel_Dynamic_Controls/ThisAddIn.cs#5)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_Excel_Dynamic_Controls/ThisAddIn.cs" id="Snippet5":::
 
 ## Test the solution
  Add controls to a worksheet by selecting them from a custom tab on the ribbon. When you save the worksheet, these controls are removed.

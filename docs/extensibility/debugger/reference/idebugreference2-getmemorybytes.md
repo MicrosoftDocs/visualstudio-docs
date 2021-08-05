@@ -1,20 +1,21 @@
 ---
-title: "IDebugReference2::GetMemoryBytes | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Gets the memory bytes that physically contain the value of a reference."
+title: IDebugReference2::GetMemoryBytes | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugReference2::GetMemoryBytes"
+- IDebugReference2::GetMemoryBytes
 helpviewer_keywords:
-  - "IDebugReference2::GetMemoryBytes"
+- IDebugReference2::GetMemoryBytes
 ms.assetid: 2006cb2b-1dfa-4a2d-8e3e-db2ce0302e0d
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugReference2::GetMemoryBytes
 Gets the memory bytes that physically contain the value of a reference. Reserved for future use.

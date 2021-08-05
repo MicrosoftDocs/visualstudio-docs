@@ -1,27 +1,29 @@
 ---
-title: "Scenario: Change your design using visualization and modeling"
+title: 'Change your design using visualization and modeling'
+description: Learn about the visualization and modeling tools in Visual Studio, and how you use those tools to change your design.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: overview
 helpviewer_keywords:
-  - "code visualization [Visual Studio ALM]"
-  - "modeling software [Visual Studio ALM]"
-  - "software modeling [Visual Studio ALM]"
-  - "walkthroughs [Visual Studio ALM], visualizing code"
-  - "walkthrough [Visual Studio ALM], visualizing code"
-  - "walkthrough [Visual Studio ALM], modeling software"
-  - "walkthroughs [Visual Studio ALM], modeling software"
-author: jillre
-ms.author: jillfra
-manager: jillfra
+- code visualization [Visual Studio ALM]
+- modeling software [Visual Studio ALM]
+- software modeling [Visual Studio ALM]
+- walkthroughs [Visual Studio ALM], visualizing code
+- walkthrough [Visual Studio ALM], visualizing code
+- walkthrough [Visual Studio ALM], modeling software
+- walkthroughs [Visual Studio ALM], modeling software
+author: mgoertz-msft
+ms.author: mgoertz
+ms.custom: SEO-VS-2020
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Scenario: Change your design using visualization and modeling
 
 Make sure that your software system meets users' needs by using the visualization and modeling tools in Visual Studio.
 Use tools such as code maps, dependency diagrams, and class diagrams to:
 
-To see which versions of Visual Studio support each tool, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).
+To see which versions of Visual Studio support each tool, see [Version support for architecture and modeling tools](../modeling/analyze-and-model-your-architecture.md#VersionSupport).
 
 - Clarify users' requirements and business processes.
 
@@ -73,7 +75,7 @@ For more information about Team Foundation Server, see:
 
 The following table describes roles that these tools can play during multiple and various stages of the software development lifecycle:
 
-||**User Requirements Modeling**|**Business Process Modeling**|**System Architecture & Design**|**Code Visualization & Exploration**|**Verification**|
+|Tool / Role|User Requirements Modeling|Business Process Modeling|System Architecture & Design|Code Visualization & Exploration|Verification|
 |------|-|-|-|-|-|
 |Domain-Specific Language (DSL) diagram|Yes|Yes|Yes|||
 |Dependency diagram, layer validation|||Yes|Yes|Yes|
@@ -104,7 +106,7 @@ Both teams also use dependency validation to make sure that code under developme
 - [Validate code with dependency diagrams](../modeling/validate-code-with-layer-diagrams.md)
 
 > [!NOTE]
-> Some versions of Visual Studio support dependency validation and read-only versions of code maps for visualization and modeling. To see which editions of Visual Studio support this feature, see [Edition support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).
+> Some versions of Visual Studio support dependency validation and read-only versions of code maps for visualization and modeling. To see which editions of Visual Studio support this feature, see [Edition support for architecture and modeling tools](../modeling/analyze-and-model-your-architecture.md#VersionSupport).
 
 ## Understand and communicate information about the system
 
@@ -180,7 +182,7 @@ See:
 
 - [Use the visual designer](/azure/devops/pipelines/get-started-designer)
 
-- [TFVC gated check-in](/azure/devops/pipelines/build/triggers#gated)
+- [TFVC gated check-in](/azure/devops/pipelines/build/triggers)
 
 - [Build and release tasks](/azure/devops/pipelines/tasks/index)
 
@@ -208,9 +210,9 @@ As their work progresses, the teams update their work items to reflect the time 
 
 See:
 
-- [About Agile tools and Agile project management](/azure/devops/boards/backlogs/backlogs-overview?view=vsts)
+- [About Agile tools and Agile project management](/azure/devops/boards/backlogs/backlogs-overview?view=vsts&preserve-view=true)
 
-- [Charts, dashboards, and widgets (Azure DevOps Services)](/azure/devops/report/dashboards/overview?view=vsts)
+- [Charts, dashboards, and widgets (Azure DevOps Services)](/azure/devops/report/dashboards/overview?view=vsts&preserve-view=true)
 
 - [Create your backlog and tasks using Project](/azure/devops/boards/backlogs/office/create-your-backlog-tasks-using-project)
 
@@ -230,13 +232,13 @@ To make sure that the code conforms to the design, the teams configure their bui
 
 See:
 
-- [Testing the application](/azure/devops/test/overview?view=vsts)
+- [Testing the application](/azure/devops/test/overview?view=vsts&preserve-view=true)
 
 - [Validate your system during development](../modeling/validate-your-system-during-development.md)
 
-- [Use version control](http://go.microsoft.com/fwlink/?LinkID=525605)
+- [Use version control](/azure/devops/repos/tfvc/overview?view=azure-devops&preserve-view=true)
 
-- [Azure Pipelines](/azure/devops/pipelines/index?view=vsts)
+- [Azure Pipelines](/azure/devops/pipelines/index?view=vsts&preserve-view=true)
 
 ## Update the System Using Visualization and Modeling
 
@@ -472,11 +474,11 @@ Dependency diagrams help you:
 
 |**Category**|**Links**|
 |-|-|
-|**Forums**|- [Visual Studio Visualization & Modeling Tools](http://go.microsoft.com/fwlink/?LinkId=184720)<br />- [Visual Studio Visualization & Modeling SDK (DSL Tools)](http://go.microsoft.com/fwlink/?LinkId=184721)|
+|**Forums**|- [Visual Studio Visualization & Modeling Tools](https://social.msdn.microsoft.com/Forums/en-US/home?forum=vsarch)<br />- [Visual Studio Visualization & Modeling SDK (DSL Tools)](https://social.msdn.microsoft.com/Forums/home?forum=dslvsarchx)|
 
 ## See also
 
 - [Visualize code](../modeling/visualize-code.md)
 - [Use models in your development process](../modeling/use-models-in-your-development-process.md)
-- [Use models in Agile development](https://msdn.microsoft.com/592ac27c-3d3e-454a-9c38-b76658ed137f)
+- [Use models in Agile development](/previous-versions/ff398061(v=vs.140))
 - [Validate your system during development](../modeling/validate-your-system-during-development.md)

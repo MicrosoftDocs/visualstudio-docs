@@ -1,20 +1,21 @@
 ---
-title: "IDebugCoreServer3::EnableAutoAttach | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Enables automatic attaching for the specified debug engines."
+title: IDebugCoreServer3::EnableAutoAttach | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugCoreServer3::EnableAutoAttach"
+- IDebugCoreServer3::EnableAutoAttach
 helpviewer_keywords:
-  - "IDebugCoreServer3::EnableAutoAttach"
+- IDebugCoreServer3::EnableAutoAttach
 ms.assetid: 06aa633b-263b-4e08-8844-9a52d5120b94
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugCoreServer3::EnableAutoAttach
 Enables automatic attaching for the specified debug engines.

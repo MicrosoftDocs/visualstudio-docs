@@ -1,20 +1,21 @@
 ---
-title: "IDebugPointerObject::Dereference | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Gets the object pointed to."
+title: IDebugPointerObject::Dereference | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugPointerObject::Dereference"
+- IDebugPointerObject::Dereference
 helpviewer_keywords:
-  - "IDebugPointerObject::Dereference method"
+- IDebugPointerObject::Dereference method
 ms.assetid: 196ec2cc-8569-4780-b217-23b24e7f50ca
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugPointerObject::Dereference
 Gets the object pointed to.

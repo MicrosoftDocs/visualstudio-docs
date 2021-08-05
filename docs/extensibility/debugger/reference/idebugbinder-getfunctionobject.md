@@ -1,20 +1,21 @@
 ---
-title: "IDebugBinder::GetFunctionObject | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "This method gets an IDebugFunctionObject object used to create function parameters."
+title: IDebugBinder::GetFunctionObject | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugBinder::GetFunctionObject"
+- IDebugBinder::GetFunctionObject
 helpviewer_keywords:
-  - "IDebugBinder::GetFunctionObject method"
+- IDebugBinder::GetFunctionObject method
 ms.assetid: 8fb789df-8f30-420d-8ca5-bb496a6738f1
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugBinder::GetFunctionObject
 This method gets an [IDebugFunctionObject](../../../extensibility/debugger/reference/idebugfunctionobject.md) object used to create function parameters.

@@ -1,17 +1,19 @@
 ---
-title: "Resources in VSPackages | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Resources in VSPackages | Microsoft Docs
+description: Learn which types of localized resources can be embedded in VSPackages. You can also embed resources in native satellite UI DLLs or managed satellite DLLs.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "managed VSPackages, resources in"
-  - "resources, managed VSPackages"
-  - "VSPackages, managed resources"
+- managed VSPackages, resources in
+- resources, managed VSPackages
+- VSPackages, managed resources
 ms.assetid: cc8c17a6-b190-4856-b001-0c1104f104b2
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Resources in VSPackages
 You can embed localized resources in native satellite UI DLLs, managed satellite DLLs, or in a managed VSPackage itself.
@@ -36,8 +38,8 @@ You can embed localized resources in native satellite UI DLLs, managed satellite
 
   You can use the <xref:Microsoft.VisualStudio.Shell.PackageRegistrationAttribute> attribute to indicate to [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] that managed resources are available.
 
-  [!code-csharp[VSSDKResources#1](../../extensibility/internals/codesnippet/CSharp/resources-in-vspackages_1.cs)]
-  [!code-vb[VSSDKResources#1](../../extensibility/internals/codesnippet/VisualBasic/resources-in-vspackages_1.vb)]
+  :::code language="csharp" source="../../snippets/csharp/VS_Snippets_VSSDK/vssdkresources/cs/vssdkresourcespackage.cs" id="Snippet1":::
+  :::code language="vb" source="../../snippets/visualbasic/VS_Snippets_VSSDK/vssdkresources/vb/vssdkresourcespackage.vb" id="Snippet1":::
 
   Setting <xref:Microsoft.VisualStudio.Shell.PackageRegistrationAttribute> in this manner indicates that [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] should ignore unmanaged satellite DLLs when it searches for resources, for example, by using <xref:Microsoft.VisualStudio.Shell.Interop.IVsShell.LoadPackageString%2A>. If [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] encounters two or more resources that have the same resource ID, it uses the first resource it finds.
 

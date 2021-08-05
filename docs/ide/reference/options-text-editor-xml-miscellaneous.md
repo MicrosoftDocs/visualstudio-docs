@@ -1,13 +1,15 @@
 ---
 title: Options, Text Editor, XML, Miscellaneous
+description: Learn how to use the Miscellaneous page in the XAML section to to change the autocompletion and schema settings for the XML Editor.
+ms.custom: SEO-VS-2020
 ms.date: 10/29/2018
 ms.topic: reference
 f1_keywords:
-  - "VS.ToolsOptionsPages.Text_Editor.XML.Miscellaneous"
+- VS.ToolsOptionsPages.Text_Editor.XML.Miscellaneous
 ms.assetid: b6538cbe-badd-4313-a1fb-39e906736bbe
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ---
 # Options, Text Editor, XML, Miscellaneous
 

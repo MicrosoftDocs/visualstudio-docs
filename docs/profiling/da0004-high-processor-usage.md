@@ -1,22 +1,24 @@
 ---
-title: "DA0004: High processor usage | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-f1_keywords:
-  - "vs.performance.rules.DAHighProcessorUsage"
-  - "vs.performance.rules.DA0004"
-  - "vs.performance.DA0004"
-  - "vs.performance.4"
+title: DA0004 - High processor usage | Microsoft Docs
+description: "Processor (CPU) utilization was high in profiling data that was collected using the instrumentation method."
+ms.date: 11/04/2016
+ms.topic: reference
+f1_keywords: 
+  - vs.performance.rules.DAHighProcessorUsage
+  - vs.performance.rules.DA0004
+  - vs.performance.DA0004
+  - vs.performance.4
 ms.assetid: 2c4fb569-929e-4f1d-8c50-b590ee371351
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
-ms.workload:
-  - "multiple"
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+monikerRange: 'vs-2017'
+ms.workload: 
+  - multiple
 ---
 # DA0004: High processor usage
 
-|||
+|Item|Value|
 |-|-|
 |Rule Id|DA0004|
 |Category|Profiling Tools Usage|

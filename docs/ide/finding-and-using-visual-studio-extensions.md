@@ -1,19 +1,21 @@
 ---
 title: Find and install extensions
+description: Learn about extensions in Visual Studio and how to manage them so you have the controls, samples, templates, tools, and other components you need.
+ms.custom: SEO-VS-2020
 ms.date: 09/18/2019
 ms.topic: conceptual
 f1_keywords:
-  - "vs.ExtensionManager"
+- vs.ExtensionManager
 helpviewer_keywords:
-  - "install extensions"
-  - "install packages"
-  - "managing extensions visual studio"
+- install extensions
+- install packages
+- managing extensions visual studio
 ms.assetid: 4ca92d93-31b9-47ef-8109-4a429d9e2ca3
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Manage extensions for Visual Studio
 

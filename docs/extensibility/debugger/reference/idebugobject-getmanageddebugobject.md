@@ -1,20 +1,21 @@
 ---
-title: "IDebugObject::GetManagedDebugObject | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Creates a copy of the managed object in the address space of the debug engine."
+title: IDebugObject::GetManagedDebugObject | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugObject::GetManagedDebugObject"
+- IDebugObject::GetManagedDebugObject
 helpviewer_keywords:
-  - "IDebugObject::GetManagedDebugObject method"
+- IDebugObject::GetManagedDebugObject method
 ms.assetid: cb89692e-7657-47ff-846d-311943521951
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugObject::GetManagedDebugObject
 Creates a copy of the managed object in the address space of the debug engine.

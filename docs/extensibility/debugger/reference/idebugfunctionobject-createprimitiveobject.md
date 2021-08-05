@@ -1,20 +1,21 @@
 ---
-title: "IDebugFunctionObject::CreatePrimitiveObject | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Creates a primitive data object, such as a simple integer."
+title: IDebugFunctionObject::CreatePrimitiveObject | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugFunctionObject::CreatePrimitiveObject"
+- IDebugFunctionObject::CreatePrimitiveObject
 helpviewer_keywords:
-  - "IDebugFunctionObject::CreatePrimitiveObject method"
+- IDebugFunctionObject::CreatePrimitiveObject method
 ms.assetid: 6e9dc8b6-b4e1-4abf-b6e0-e885910775bc
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugFunctionObject::CreatePrimitiveObject
 Creates a primitive data object, such as a simple integer.

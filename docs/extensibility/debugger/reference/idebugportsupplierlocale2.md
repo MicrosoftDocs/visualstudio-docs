@@ -1,15 +1,16 @@
 ---
-title: "IDebugPortSupplierLocale2 | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Provides locale support for a port supplier."
+title: IDebugPortSupplierLocale2 | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "IDebugPortSupplierLocale2 interface"
+- IDebugPortSupplierLocale2 interface
 ms.assetid: 910e7220-da2a-4339-9fff-9fb1bad3c28c
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IDebugPortSupplierLocale2
 Provides locale support for a port supplier.

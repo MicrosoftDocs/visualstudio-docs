@@ -1,20 +1,21 @@
 ---
-title: "IDebugClassField::EnumBaseClasses | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Creates an enumerator for the base classes of this class."
+title: IDebugClassField::EnumBaseClasses | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugClassField::EnumBaseClasses"
+- IDebugClassField::EnumBaseClasses
 helpviewer_keywords:
-  - "IDebugClassField::EnumBaseClasses method"
+- IDebugClassField::EnumBaseClasses method
 ms.assetid: 78749674-ef75-46d3-a1f4-ff33afd90e32
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugClassField::EnumBaseClasses
 Creates an enumerator for the base classes of this class.

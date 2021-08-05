@@ -1,7 +1,8 @@
 ---
+description: "Specifies the type of memory to access."
 title: "MemoryTypeEnum | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 8778c047-edeb-4495-8f9f-3f8bbb297099
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

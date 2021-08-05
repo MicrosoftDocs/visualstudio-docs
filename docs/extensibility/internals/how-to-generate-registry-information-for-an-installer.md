@@ -1,24 +1,26 @@
 ---
-title: "How to: Generate Registry Information for an Installer | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: 'How to: Generate Registry Information for an Installer | Microsoft Docs'
+description: Learn how to use the RegPkg.exe utility in Visual Studio to generate VSPackage registry information for incorporation in a Windows installer setup package.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
 helpviewer_keywords:
-  - "registration, VSPackages"
-  - "VSPackages, registering"
-  - "VSPackages, registration manifests"
+- registration, VSPackages
+- VSPackages, registering
+- VSPackages, registration manifests
 ms.assetid: b1b41012-a777-4ccf-81a6-3b41f0e96583
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # How to: Generate registry information for an installer
 
-The *RegPkg.exe* utility can be used to generate a registration manifest for a managed VSPackage. The manifest can be incorporated into a Windows Installer setup package. RegPkg also can generate a file that can be included in a setup source file based on the [Windows Installer XML toolset](http://go.microsoft.com/fwlink/?LinkId=62238).
+The *RegPkg.exe* utility can be used to generate a registration manifest for a managed VSPackage. The manifest can be incorporated into a Windows Installer setup package. RegPkg also can generate a file that can be included in a setup source file based on the [Windows Installer XML toolset](https://wixtoolset.org/).
 
 > [!IMPORTANT]
-> RegPkg generates path names that are specific to your development system, so every time you use RegPkg, you must edit the output to use appropriate Windows Installer formatted properties. For example, the `InprocServer32` value should be *\<SystemFolder\>mscoree.dll* and paths should use *\<#filekey\>* and *\<$componentkey\>*. Adjusting the output in this way supports computers with Windows installed on a different drive or in a different directory, localized directory names, and paths that users can choose. For more information, see [Formatted](http://go.microsoft.com/fwlink/?LinkId=71120) in the Windows Installer SDK. If you follow RegPkg conventions for your development system paths—for example, file IDs of the form *File_\<filename\>*—you need make fewer changes.
+> RegPkg generates path names that are specific to your development system, so every time you use RegPkg, you must edit the output to use appropriate Windows Installer formatted properties. For example, the `InprocServer32` value should be *\<SystemFolder\>mscoree.dll* and paths should use *\<#filekey\>* and *\<$componentkey\>*. Adjusting the output in this way supports computers with Windows installed on a different drive or in a different directory, localized directory names, and paths that users can choose. For more information, see [Formatted](https://msdn.microsoft.com/library?url=/library/msi/setup/formatted.asp) in the Windows Installer SDK. If you follow RegPkg conventions for your development system paths—for example, file IDs of the form *File_\<filename\>*—you need make fewer changes.
 
 ## To create a registration manifest
 

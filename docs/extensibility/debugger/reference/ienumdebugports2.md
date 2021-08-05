@@ -1,17 +1,18 @@
 ---
-title: "IEnumDebugPorts2 | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "This interface enumerates the ports of a machine or port supplier."
+title: IEnumDebugPorts2 | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IEnumDebugPorts2"
+- IEnumDebugPorts2
 helpviewer_keywords:
-  - "IEnumDebugPorts2"
+- IEnumDebugPorts2
 ms.assetid: 1754eef3-cf62-42e0-b218-1911acba77d4
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IEnumDebugPorts2
 This interface enumerates the ports of a machine or port supplier.

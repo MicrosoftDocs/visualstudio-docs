@@ -1,23 +1,25 @@
 ---
 title: -LCID (devenv.exe)
+description: Learn how to use the LCID devenv command-line switch to set the default language used for text, currency, and other values within the IDE.
+ms.custom: SEO-VS-2020
 ms.date: 12/10/2018
 ms.topic: reference
 helpviewer_keywords:
-  - "language default"
-  - "locale IDs, setting for IDE"
-  - "Devenv, /L switch"
-  - "Devenv, /LCID switch"
-  - "locale IDs"
-  - "L Devenv switch"
-  - "/L Devenv switch"
-  - "LCID devenv switch"
-  - "/LCID Devenv switch"
+- language default
+- locale IDs, setting for IDE
+- Devenv, /L switch
+- Devenv, /LCID switch
+- locale IDs
+- L Devenv switch
+- /L Devenv switch
+- LCID devenv switch
+- /LCID Devenv switch
 ms.assetid: 3a3f4e70-ea66-4351-9d62-acb1dec30e8e
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # /LCID (devenv.exe)
 
@@ -47,13 +49,18 @@ The following table lists the LCIDs of the languages supported by Visual Studio.
 |--------------|----------|
 |Chinese (Simplified)|2052|
 |Chinese (Traditional)|1028|
+|Czech|1029|
 |English|1033|
 |French|1036|
 |German|1031|
 |Italian|1040|
 |Japanese|1041|
 |Korean|1042|
+|Polish|1045|
+|Portuguese (Brazil)|1046|
+|Russian|1049|
 |Spanish|3082|
+|Turkish|1055
 
 ## Example
 

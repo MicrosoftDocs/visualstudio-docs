@@ -2,10 +2,10 @@
 title: Define custom menu commands for Python projects
 description: By editing project and targets files,  you can add custom commands to the Python project context menu in Visual Studio to invoke executable programs, scripts, modules, inline code snippets, and pip.
 ms.date: 11/12/2018
-ms.topic: conceptual
+ms.topic: how-to
 author: JoshuaPartlow
 ms.author: joshuapa
-manager: jillfra
+manager: jmartens
 ms.custom: seodec18
 ms.workload:
   - python
@@ -144,7 +144,7 @@ All attribute values are case-insensitive.
 | ExecuteIn | Yes | Specifies the environment in which to run the command:<ul><li>**console**: (Default) Runs Target and the arguments as if they are entered directly on the command line. A command window appears while the Target is running, then is closed automatically.</li><li>**consolepause**: Same as console, but waits for a keypress before closing the window.</li><li>**output**: Runs Target and displays its results in the **Output** window in Visual Studio. If TargetType is "pip", Visual Studio uses Target as the package name and appends Arguments.</li><li>**repl**: Runs Target in the [Python Interactive](python-interactive-repl-in-visual-studio.md) window; the optional display name is used for the title of the window.</li><li>**none**: behaves the same as console.</li></ul>|
 | WorkingDirectory | Optional | The folder in which to run the command. |
 | ErrorRegex<br>WarningRegEx | Optional | Used only when ExecuteIn is `output`. Both values specify a regular expression with which Visual Studio parses command output to show errors and warnings in its **Error List** window. If not specified, the command does not affect the **Error List** window. For more information on what Visual Studio expects, see [Named capture groups](#named-capture-groups-for-regular-expressions). |
-| RequiredPackages | Optional | A list of package requirements for the command using the same format as [*requirements.txt*](https://pip.readthedocs.io/en/1.1/requirements.html) (pip.readthedocs.io). The **Run PyLint** command, for example specifies `pylint>=1.0.0`. Before running the command, Visual Studio checks that all packages in the list are installed. Visual Studio uses pip to install any missing packages. |
+| RequiredPackages | Optional | A list of package requirements for the command using the same format as [*requirements.txt*](https://pip.pypa.io/en/stable/user_guide/#requirements-files) (pip.readthedocs.io). The **Run PyLint** command, for example specifies `pylint>=1.0.0`. Before running the command, Visual Studio checks that all packages in the list are installed. Visual Studio uses pip to install any missing packages. |
 | Environment | Optional | A string of environment variables to define before running the command. Each variable uses the form \<NAME>=\<VALUE> with multiple variables separated by semicolons. A variable with multiple values must be contained in single or double quotes, as in 'NAME=VALUE1;VALUE2'. |
 
 #### Named capture groups for regular expressions
@@ -379,7 +379,7 @@ Indicates that the contents of the `<Target>` or `<CreatePythonCommandItem>` ele
 
 Attribute values can be empty if you refer to a property that's not defined. For example, if you use the token `$(StartupFile)` but no startup file has been defined in the project, then the token resolves to an empty string. In such cases, you may want to define a default value. For example, the **Run server** and **Run debug server** commands defined in the Bottle, Flask, and Django project templates default to *manage.py* if you haven't otherwise specified a server startup file in the project properties.
 
-### Visual Studio hangs and crashes when running the command
+### Visual Studio stops responding and crashes when running the command
 
 You're likely attempting to run a console command with `ExecuteIn="output"`, in which case Visual Studio may crash trying to parse the output. Use `ExecuteIn="console"` instead. (See [Issue 3682](https://github.com/Microsoft/PTVS/issues/3681).)
 

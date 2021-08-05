@@ -1,20 +1,21 @@
 ---
 title: Add custom controls to the Data Sources window
+description: Add custom controls to the Data Sources window in Visual Studio. Customize the bindable controls list. Add associated controls.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 f1_keywords:
-  - "vs.datasource.howtoaddcustomcontrol"
+- vs.datasource.howtoaddcustomcontrol
 helpviewer_keywords:
-  - "Data Sources Window, adding controls"
-  - "controls [Visual Studio], adding to Data Sources Window"
-  - "DefaultBindingPropertyAttribute class, using"
-  - "LookupBindingPropertiesAttribute class, using"
-  - "ComplexBindingPropertiesAttribute class, using"
-  - "Data Sources Window, selecting controls"
+- Data Sources Window, adding controls
+- controls [Visual Studio], adding to Data Sources Window
+- DefaultBindingPropertyAttribute class, using
+- LookupBindingPropertiesAttribute class, using
+- ComplexBindingPropertiesAttribute class, using
+- Data Sources Window, selecting controls
 ms.assetid: 8c43e7d2-ba94-4d9b-96de-3aa971955afd
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: ghogen
+ms.author: ghogen
+manager: jmartens
 ---
 # Add custom controls to the Data Sources window
 

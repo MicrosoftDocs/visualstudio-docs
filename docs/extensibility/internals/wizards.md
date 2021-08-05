@@ -1,15 +1,17 @@
 ---
-title: "Wizards | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Wizards | Microsoft Docs
+description: Learn how to list your wizard among the available wizards and templates in Visual Studio and about the requirements that your wizard must meet in the IDE.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "projects [Visual Studio SDK], providing wizard support"
+- projects [Visual Studio SDK], providing wizard support
 ms.assetid: 59d9a77f-ee80-474b-a14f-90f477ab717b
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Wizards
 After you create a wizard, you typically want to add it to the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE) so that others can use it. The added wizard then appears in the **Add New Project** or **Add New Item** dialog boxes. To see the **Add New Project** or **Add New Item** dialog boxes, right-click an open solution in **Solution Explorer**, point to **Add**, and then click **New Project** or **New Item**.

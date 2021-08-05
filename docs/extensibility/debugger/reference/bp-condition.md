@@ -1,20 +1,21 @@
 ---
-title: "BP_CONDITION | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Describes the conditions under which a breakpoint fires."
+title: BP_CONDITION | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "BP_CONDITION"
+- BP_CONDITION
 helpviewer_keywords:
-  - "BP_CONDITION structure"
+- BP_CONDITION structure
 ms.assetid: 407f87a3-2878-429b-8c65-b68feb36622a
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # BP_CONDITION
 Describes the conditions under which a breakpoint fires.

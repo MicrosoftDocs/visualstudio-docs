@@ -1,19 +1,21 @@
 ---
 title: Upgrade .mdf files
+description: Review options for upgrading a database file (.mdf) after you install a newer version of Visual Studio.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
-  - "SQL Server Express"
-  - "SQL Server LocalDB"
-  - "LocalDB"
-  - "SQLEXPRESS"
-  - "upgrading SQLExpress to SQLExpress"
-  - "upgrading to LocalDB"
-author: jillre
-ms.author: jillfra
-manager: jillfra
+- SQL Server Express
+- SQL Server LocalDB
+- LocalDB
+- SQLEXPRESS
+- upgrading SQLExpress to SQLExpress
+- upgrading to LocalDB
+author: ghogen
+ms.author: ghogen
+manager: jmartens
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # Upgrade .mdf files
 

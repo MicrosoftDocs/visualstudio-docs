@@ -1,7 +1,9 @@
 ---
 title: "Troubleshoot Office solutions"
+description: Learn some tips for solving common problems that you might encounter when creating solutions by using the Office development tools in Visual Studio.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: "troubleshooting"
 dev_langs:
   - "VB"
   - "CSharp"
@@ -11,7 +13,7 @@ helpviewer_keywords:
   - "troubleshooting [Office development in Visual Studio]"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---
@@ -51,3 +53,7 @@ ms.workload:
 - [Common tasks in Office programming](../vsto/common-tasks-in-office-programming.md)
 
  Lists frequently asked questions about programming Office solutions and provides links to topics that can help solve common problems.
+
+## See also
+
+- [Visual Studio troubleshooting](/troubleshoot/visualstudio/welcome-visual-studio/)

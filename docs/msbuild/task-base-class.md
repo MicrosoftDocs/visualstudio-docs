@@ -1,23 +1,27 @@
 ---
-title: "Task Base Class | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
+title: Task Base Class | Microsoft Docs
+description: Learn about the parameters that the Microsoft.Build.Utilities.Task base class adds to the tasks that inherit from it.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: reference
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+- VB
+- CSharp
+- C++
+- jsharp
 ms.assetid: 6c3f6238-b9f0-4325-b8b0-de61090bd0a2
-author: mikejo5000
-ms.author: mikejo
-manager: jillfra
+author: ghogen
+ms.author: ghogen
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Task base class
+
 Many tasks ultimately inherit from the <xref:Microsoft.Build.Utilities.Task> class. This class adds several parameters to the tasks that derive from them. These parameters are listed in this document.
 
 ## Parameters
+
  The following table describes the parameters of this base class.
 
 |Parameter|Description|
@@ -29,5 +33,6 @@ Many tasks ultimately inherit from the <xref:Microsoft.Build.Utilities.Task> cla
 |<xref:Microsoft.Build.Utilities.Task.Log%2A>|Optional <xref:Microsoft.Build.Utilities.TaskLoggingHelper> read-only parameter.<br /><br /> The logging helper object..|
 
 ## See also
+
 - [Task reference](../msbuild/msbuild-task-reference.md)
 - [Tasks](../msbuild/msbuild-tasks.md)

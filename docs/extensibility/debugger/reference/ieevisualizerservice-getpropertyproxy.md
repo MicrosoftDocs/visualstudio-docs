@@ -1,20 +1,21 @@
 ---
-title: "IEEVisualizerService::GetPropertyProxy | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "This method returns a proxy for a property object."
+title: IEEVisualizerService::GetPropertyProxy | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IEEVisualizerService::GetPropertyProxy"
+- IEEVisualizerService::GetPropertyProxy
 helpviewer_keywords:
-  - "IEEVisualizerService::GetPropertyProxy method"
+- IEEVisualizerService::GetPropertyProxy method
 ms.assetid: 748750f4-76e7-4580-9da2-afba07681b37
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IEEVisualizerService::GetPropertyProxy
 This method returns a proxy for a property object.

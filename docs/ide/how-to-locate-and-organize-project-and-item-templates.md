@@ -1,14 +1,16 @@
 ---
 title: Locate templates
+description: Learn how to locate and organize project and item templates.
+ms.custom: SEO-VS-2020
 ms.date: 01/02/2018
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
-  - "project templates [Visual Studio], locations"
-  - "item templates [Visual Studio], locations"
-  - "template locations [Visual Studio]"
-author: jillre
-ms.author: jillfra
-manager: jillfra
+- project templates [Visual Studio], locations
+- item templates [Visual Studio], locations
+- template locations [Visual Studio]
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ---
 # How to: Locate and organize project and item templates
 

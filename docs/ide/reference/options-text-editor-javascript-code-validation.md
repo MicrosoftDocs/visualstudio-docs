@@ -1,5 +1,7 @@
 ---
 title: Options, Text Editor, JavaScript, Code Validation
+description: Learn how to use the Code Validation page of the Options dialog box to modify settings that affect the way that JavaScript handles errors. 
+ms.custom: SEO-VS-2020
 ms.date: 10/29/2018
 ms.technology: vs-javascript
 ms.topic: reference
@@ -7,7 +9,7 @@ f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.TypeScript.Code_Validation.JavaScript_Errors"
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

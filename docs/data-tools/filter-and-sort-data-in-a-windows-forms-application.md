@@ -1,24 +1,26 @@
 ---
 title: Filter and sort data in a Windows Forms application
+description: Filter and sort data in a Windows Forms application. Set the Filter property to a string expression that returns the desired records.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 dev_langs:
-  - "VB"
-  - "CSharp"
+- VB
+- CSharp
 helpviewer_keywords:
-  - "row states, filtering"
-  - "data views, sorting"
-  - "row version, filtering"
-  - "row states"
-  - "data views, filtering"
-  - "sorting datasets, using data views"
-  - "dataset filtering, using data views"
+- row states, filtering
+- data views, sorting
+- row version, filtering
+- row states
+- data views, filtering
+- sorting datasets, using data views
+- dataset filtering, using data views
 ms.assetid: f4f100f1-776d-46dc-b2fd-5b35b98d9561
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: ghogen
+ms.author: ghogen
+manager: jmartens
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # Filter and sort data in a Windows Forms application
 
@@ -33,15 +35,15 @@ You sort data by setting the <xref:System.Windows.Forms.BindingSource.Sort%2A> p
 
 - Set the <xref:System.Windows.Forms.BindingSource.Filter%2A> property to the expression you want to return. For example, the following code returns customers with a `CompanyName` that starts with "B":
 
-     [!code-csharp[VbRaddataDisplaying#6](../data-tools/codesnippet/CSharp/filter-and-sort-data-in-a-windows-forms-application_1.cs)]
-     [!code-vb[VbRaddataDisplaying#6](../data-tools/codesnippet/VisualBasic/filter-and-sort-data-in-a-windows-forms-application_1.vb)]
+     :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataDisplaying/CS/Form1.cs" id="Snippet6":::
+     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataDisplaying/VB/Form1.vb" id="Snippet6":::
 
 ## To sort data by using a BindingSource component
 
 - Set the <xref:System.Windows.Forms.BindingSource.Sort%2A> property to the column you want to sort on. For example, the following code sorts customers on the `CompanyName` column in descending order:
 
-     [!code-csharp[VbRaddataDisplaying#7](../data-tools/codesnippet/CSharp/filter-and-sort-data-in-a-windows-forms-application_2.cs)]
-     [!code-vb[VbRaddataDisplaying#7](../data-tools/codesnippet/VisualBasic/filter-and-sort-data-in-a-windows-forms-application_2.vb)]
+     :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataDisplaying/CS/Form1.cs" id="Snippet7":::
+     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataDisplaying/VB/Form1.vb" id="Snippet7":::
 
 ## See also
 

@@ -1,10 +1,13 @@
 ---
 title: View recent jobs
-author: lisawong19
-ms.author: liwong
-manager: routlaw
+description: Learn that once jobs are submitted, you can view the list of jobs to see their status, duration, and more.
+ms.custom: SEO-VS-2020
+author: jillre
+ms.author: jillfra
+manager: jmartens
+monikerRange: vs-2017
 ms.date: 11/13/2017
-ms.topic: conceptual
+ms.topic: how-to
 ms.workload:
   - "multiple"
 ---

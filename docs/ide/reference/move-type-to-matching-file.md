@@ -3,14 +3,14 @@ title: Move type to matching file refactoring
 description: Move a type to a separate file with the same name. Right-click the type, select Quick Actions and Refactorings, and select Move Type to <TypeName>.cs.
 ms.date: 01/26/2018
 ms.topic: reference
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 dev_langs:
-  - CSharp
-  - VB
+- CSharp
+- VB
 ms.workload:
-  - "dotnet"
+- dotnet
 ---
 # Move a type to a matching file refactoring
 

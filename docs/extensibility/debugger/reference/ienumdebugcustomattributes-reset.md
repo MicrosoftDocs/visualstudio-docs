@@ -1,20 +1,21 @@
 ---
-title: "IEnumDebugCustomAttributes::Reset | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Resets the custom attributes enumeration sequence to the beginning."
+title: IEnumDebugCustomAttributes::Reset | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IEnumCustomAttributes::Reset"
+- IEnumCustomAttributes::Reset
 helpviewer_keywords:
-  - "IEnumDebugCustomAttributes::Reset"
+- IEnumDebugCustomAttributes::Reset
 ms.assetid: e0db6518-5a71-4adb-a407-4d2ac7a3e369
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IEnumDebugCustomAttributes::Reset
 Resets the enumeration sequence to the beginning.

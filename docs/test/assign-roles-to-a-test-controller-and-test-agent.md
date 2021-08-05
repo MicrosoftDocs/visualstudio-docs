@@ -1,17 +1,19 @@
 ---
-title: "Test controller and test agent roles for automated tests"
+title: Test controller and test agent roles
+description: Learn how to create and configure a test setting that uses a test controller and test agent to distribute testing across several machines using Visual Studio.
+ms.custom: SEO-VS-2020
 ms.date: 10/20/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "testing, walkthroughs, test controller and test agents"
-  - "test agent, walkthrough"
-  - "walkthroughs [Visual Studio ALM] testing"
-  - "test controller, walkthrough"
-  - "walkthroughs, test controller and test agents"
+- testing, walkthroughs, test controller and test agents
+- test agent, walkthrough
+- walkthroughs [Visual Studio ALM] testing
+- test controller, walkthrough
+- walkthroughs, test controller and test agents
 ms.assetid: 57ed43ae-4e67-4139-8aec-3e9fceb0a745
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
 ---
 # Assign roles to a test controller and test agent
 

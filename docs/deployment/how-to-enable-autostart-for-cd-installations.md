@@ -1,21 +1,23 @@
 ---
-title: "How to: Enable AutoStart for CD Installations | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-helpviewer_keywords:
-  - "ClickOnce deployment, AutoStart"
-  - "ClickOnce deployment, installation on CD or DVD"
-  - "deploying applications [ClickOnce], installation on CD or DVD"
+title: Enable AutoStart for CD Installations | Microsoft Docs
+description: Learn how to enable AutoStart when deploying a ClickOnce application by means of removable media such as CD-ROM or DVD-ROM.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
+dev_langs: 
+  - VB
+  - CSharp
+  - C++
+helpviewer_keywords: 
+  - ClickOnce deployment, AutoStart
+  - ClickOnce deployment, installation on CD or DVD
+  - deploying applications [ClickOnce], installation on CD or DVD
 ms.assetid: caaec619-900c-4790-90e3-8c91f5347635
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
-ms.workload:
-  - "multiple"
+manager: jmartens
+ms.workload: 
+  - multiple
 ---
 # How to: Enable AutoStart for CD installations
 When deploying a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application by means of removable media such as CD-ROM or DVD-ROM, you can enable `AutoStart` so that the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application is automatically launched when the media is inserted.

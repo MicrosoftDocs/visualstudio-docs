@@ -1,13 +1,15 @@
 ---
 title: Walkthrough Analyzing Managed Code for Code Defects | Microsoft Docs
 ms.date: 01/29/2018
+description: Learn how to use legacy code analysis to analyze .NET managed code assemblies. See how to check for defects and for conformance with .NET design guidelines.
+ms.custom: SEO-VS-2020
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "code analysis [Visual Studio]"
   - "managed code, analyzing"
 author: mikadumont
 ms.author: midumont
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "dotnet"
 ---
@@ -87,15 +89,15 @@ This article steps you through the process of using legacy analysis to analyze y
 
 1. Use the following tips to correct the warnings:
 
-   [CA1014: Mark assemblies with CLSCompliantAttribute](../code-quality/ca1014.md): Add the code `[assembly: CLSCompliant(true)]` to the end of the AssemblyInfo.cs file.
+   [CA1014: Mark assemblies with CLSCompliantAttribute](/dotnet/fundamentals/code-analysis/quality-rules/ca1014): Add the code `[assembly: CLSCompliant(true)]` to the end of the AssemblyInfo.cs file.
 
-   [CA1032: Implement standard exception constructors](../code-quality/ca1032.md): Add the constructor `public demo (String s) : base(s) { }` to the class `demo`.
+   [CA1032: Implement standard exception constructors](/dotnet/fundamentals/code-analysis/quality-rules/ca1032): Add the constructor `public demo (String s) : base(s) { }` to the class `demo`.
 
-   [CA1032: Implement standard exception constructors](../code-quality/ca1032.md): Add the constructor `public demo (String s, Exception e) : base(s, e) { }` to the class `demo`.
+   [CA1032: Implement standard exception constructors](/dotnet/fundamentals/code-analysis/quality-rules/ca1032): Add the constructor `public demo (String s, Exception e) : base(s, e) { }` to the class `demo`.
 
-   [CA1032: Implement standard exception constructors](../code-quality/ca1032.md): Add the constructor `protected demo (SerializationInfo info, StreamingContext context) : base(info, context) { }` to the class demo. You'll also need to add a `using` statement for <xref:System.Runtime.Serialization?displayProperty=fullName>.
+   [CA1032: Implement standard exception constructors](/dotnet/fundamentals/code-analysis/quality-rules/ca1032): Add the constructor `protected demo (SerializationInfo info, StreamingContext context) : base(info, context) { }` to the class demo. You'll also need to add a `using` statement for <xref:System.Runtime.Serialization?displayProperty=fullName>.
 
-   [CA1032: Implement standard exception constructors](../code-quality/ca1032.md): Add the constructor `public demo () : base() { }` to the class `demo`.
+   [CA1032: Implement standard exception constructors](/dotnet/fundamentals/code-analysis/quality-rules/ca1032): Add the constructor `public demo () : base() { }` to the class `demo`.
 
    [CA1709: Identifiers should be cased correctly](../code-quality/ca1709.md): Change the casing of the namespace `testCode` to `TestCode`.
 
@@ -103,9 +105,9 @@ This article steps you through the process of using legacy analysis to analyze y
 
    [CA1709: Identifiers should be cased correctly](../code-quality/ca1709.md): Change the name of the member to `Item`.
 
-   [CA1710: Identifiers should have correct suffix](../code-quality/ca1710.md): Change the name of the class and its constructors to `DemoException`.
+   [CA1710: Identifiers should have correct suffix](/dotnet/fundamentals/code-analysis/quality-rules/ca1710): Change the name of the class and its constructors to `DemoException`.
 
-   [CA2237: Mark ISerializable types with SerializableAttribute](../code-quality/ca2237.md): Add the `[Serializable ()]` attribute to the class `demo`.
+   [CA2237: Mark ISerializable types with SerializableAttribute](/dotnet/fundamentals/code-analysis/quality-rules/ca2237): Add the `[Serializable ()]` attribute to the class `demo`.
 
    [CA2210: Assemblies should have valid strong names](../code-quality/ca2210.md): Sign 'CodeAnalysisManagedDemo' with a strong name key:
 

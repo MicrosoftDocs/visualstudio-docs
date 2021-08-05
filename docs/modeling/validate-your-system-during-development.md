@@ -1,20 +1,22 @@
 ---
 title: Validate your system during development
+description: Learn how Visual Studio can help keep your software consistent with user requirements and with the architecture of your system.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "dependency diagrams"
-author: jillre
-ms.author: jillfra
-manager: jillfra
+- dependency diagrams
+author: mgoertz-msft
+ms.author: mgoertz
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Validate your system during development
 
 Visual Studio can help keep your software consistent with user requirements and with the architecture of your system.
 
-To see which versions of Visual Studio support each of these features, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).
+To see which versions of Visual Studio support each of these features, see [Version support for architecture and modeling tools](../modeling/analyze-and-model-your-architecture.md#VersionSupport).
 
 ## Key Tasks
 

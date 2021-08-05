@@ -1,14 +1,16 @@
 ---
 title: Develop apps for the Universal Windows Platform (UWP)
-ms.date: "10/24/2017"
+description: Learn about creating apps using Visual Studio and the Universal Windows Platform development tools.
+ms.custom: SEO-VS-2020
+ms.date: 10/24/2017
 ms.technology: vs-ide-general
 ms.topic: conceptual
 ms.assetid: eac59cb6-f12e-4a77-9953-6d62b164a643
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ms.workload:
-  - "uwp"
+- uwp
 ---
 # Develop apps for the Universal Windows Platform (UWP)
 
@@ -42,7 +44,7 @@ Here is the list of software that you need:
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 - [Windows 10](https://support.microsoft.com/help/17777/downloads-for-windows). Visual Studio 2019 supports UWP development only on Windows 10. For more details, see Visual Studio [Platform targeting](/visualstudio/releases/2019/compatibility/) and [System requirements](/visualstudio/releases/2019/system-requirements/).
 

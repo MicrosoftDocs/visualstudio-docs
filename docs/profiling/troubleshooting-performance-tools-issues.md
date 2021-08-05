@@ -1,11 +1,13 @@
 ---
 title: "Troubleshooting Performance Tools Issues | Microsoft Docs"
+description: Learn about various you may experience when troubleshooting Performance Tools issues, for example when no data is collected by the profiling tools.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 ms.assetid: 0b61cdf7-75b7-4abd-aff2-7bd997717626
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+monikerRange: 'vs-2017'
 ms.workload:
   - "multiple"
 ---

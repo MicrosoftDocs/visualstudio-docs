@@ -1,17 +1,19 @@
 ---
 title: Create dependency diagrams from your code
+description: Learn how you can create a dependency diagram in Visual Studio to visualize your software system's high-level, logical architecture. 
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
-  - "architecture, dependency diagrams"
-  - "dependency diagrams"
-  - "diagrams - modeling, layer"
-  - "constraints, architectural"
-author: jillre
-ms.author: jillfra
-manager: jillfra
+- architecture, dependency diagrams
+- dependency diagrams
+- diagrams - modeling, layer
+- constraints, architectural
+author: mgoertz-msft
+ms.author: mgoertz
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Create dependency diagrams from your code
 

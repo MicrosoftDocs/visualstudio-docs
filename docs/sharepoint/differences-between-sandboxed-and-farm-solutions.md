@@ -1,5 +1,7 @@
 ---
 title: "Differences Between Sandboxed and Farm Solutions | Microsoft Docs"
+description: Understand the differences between sandboxed and farm solutions. Know how Visual Studio approaches debugging with either type of solution.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -12,7 +14,7 @@ helpviewer_keywords:
   - "farm solutions [SharePoint development in Visual Studio]"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

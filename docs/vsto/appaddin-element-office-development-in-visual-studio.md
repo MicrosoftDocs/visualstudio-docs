@@ -1,8 +1,10 @@
 ---
 title: "&lt;appAddin&gt; element (Office development in Visual Studio)"
+description: Learn how the appAddin element of the vstov4 namespace stores customization-specific information for VSTO Add-ins.
+ms.custom: SEO-VS-2020
 titleSuffix: ""
 ms.date: 02/02/2017
-ms.topic: conceptual
+ms.topic: reference
 dev_langs:
   - "VB"
   - "CSharp"
@@ -10,7 +12,7 @@ helpviewer_keywords:
   - "application manifests [Office development in Visual Studio], <appAddin> element"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

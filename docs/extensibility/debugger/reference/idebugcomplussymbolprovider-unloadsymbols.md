@@ -1,19 +1,20 @@
 ---
-title: "IDebugComPlusSymbolProvider::UnloadSymbols | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Unloads the debug symbols for the specified module from memory."
+title: IDebugComPlusSymbolProvider::UnloadSymbols | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "UnloadSymbols"
-  - "IDebugComPlusSymbolProvider::UnloadSymbols"
+- UnloadSymbols
+- IDebugComPlusSymbolProvider::UnloadSymbols
 ms.assetid: 53e3ddc1-ab47-4097-8fef-b26e5504b37a
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugComPlusSymbolProvider::UnloadSymbols
 Unloads the debug symbols for the specified module from memory.

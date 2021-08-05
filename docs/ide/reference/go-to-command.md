@@ -1,18 +1,20 @@
 ---
 title: Go To Command
+description: Learn about the Go To command and how it moves the cursor to the specified line.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "edit.goto"
+- edit.goto
 helpviewer_keywords:
-  - "Debug.Goto command"
-  - "Go To command"
+- Debug.Goto command
+- Go To command
 ms.assetid: 201e1dd2-6701-467d-8cc1-faec2ef20511
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Go To Command
 Moves the cursor to the specified line.

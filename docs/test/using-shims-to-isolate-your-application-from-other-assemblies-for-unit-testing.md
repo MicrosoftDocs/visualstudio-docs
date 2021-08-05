@@ -1,13 +1,15 @@
 ---
-title: "Using shims to isolate your application for unit testing"
+title: Isolate your app with shims (unit testing)
+description: Learn how to use shim types to divert calls to specific methods to code that you write as part of your test. A shim can return consistent results at every call.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
-ms.author: jillfra
-manager: jillfra
-author: jillre
-dev_langs:
- - CSharp
- - VB
+ms.topic: how-to
+ms.author: mikejo
+manager: jmartens
+author: mikejo5000
+dev_langs: 
+  - CSharp
+  - VB
 ---
 # Use shims to isolate your app for unit testing
 
@@ -21,9 +23,9 @@ For an overview and "quick start" guidance, see [Isolate code under test with Mi
 
 - Visual Studio Enterprise
 - A .NET Framework project
-
-> [!NOTE]
-> .NET Standard projects are not supported.
+::: moniker range=">=vs-2019"
+- .NET Core, .NET 5.0, and SDK-style project support previewed in Visual Studio 2019 Update 6, and is enabled by default in Update 8. For more information, see [Microsoft Fakes for .NET Core and SDK-style projects](/visualstudio/releases/2019/release-notes#microsoft-fakes-for-net-core-and-sdk-style-projects).
+::: moniker-end
 
 ## Example: The Y2K bug
 
@@ -60,9 +62,12 @@ using (ShimsContext.Create()) {
 
 First, add a Fakes assembly:
 
-1. In **Solution Explorer**, expand your unit test project's **References** node.
-
-   - If you're working in Visual Basic, select **Show All Files** in the **Solution Explorer** toolbar in order to see the **References** node.
+1. In **Solution Explorer**, 
+    - For an older .NET Framework Project (non-SDK style), expand your unit test project's **References** node.
+    ::: moniker range=">=vs-2019"
+    - For an SDK-style project targeting .NET Framework, .NET Core, or .NET 5.0, expand the **Dependencies** node to find the assembly you would like to fake under **Assemblies**, **Projects**, or **Packages**.
+    ::: moniker-end
+    - If you're working in Visual Basic, select **Show All Files** in the **Solution Explorer** toolbar to see the **References** node.
 
 2. Select the assembly that contains the class definitions for which you want to create shims. For example, if you want to shim **DateTime**, select **System.dll**.
 
@@ -418,7 +423,7 @@ public class ShimMyClass : ShimBase<MyClass> {
 
 Each generated shim type holds an instance of the `IShimBehavior` interface, through the `ShimBase<T>.InstanceBehavior` property. The behavior is used whenever a client calls an instance member that was not explicitly shimmed.
 
-If the behavior has not been explicitly set, it uses the instance returned by the static `ShimsBehaviors.Current` property. By default, this property returns a behavior that throws a `NotImplementedException` exception.
+If the behavior has not been explicitly set, it uses the instance returned by the static `ShimBehaviors.Current` property. By default, this property returns a behavior that throws a `NotImplementedException` exception.
 
 This behavior can be changed at any time by setting the `InstanceBehavior` property on any shim instance. For example, the following snippet changes the shim to a behavior that does nothing or returns the default value of the return type—that is, `default(T)`:
 
@@ -426,26 +431,26 @@ This behavior can be changed at any time by setting the `InstanceBehavior` prope
 // unit test code
 var shim = new ShimMyClass();
 //return default(T) or do nothing
-shim.InstanceBehavior = ShimsBehaviors.DefaultValue;
+shim.InstanceBehavior = ShimBehaviors.DefaultValue;
 ```
 
-The behavior can also be changed globally for all shimmed instances for which the `InstanceBehavior` property was not explicitly set by setting the static `ShimsBehaviors.Current` property:
+The behavior can also be changed globally for all shimmed instances for which the `InstanceBehavior` property was not explicitly set by setting the static `ShimBehaviors.Current` property:
 
 ```csharp
 // unit test code
 // change default shim for all shim instances
 // where the behavior has not been set
-ShimsBehaviors.Current = ShimsBehaviors.DefaultValue;
+ShimBehaviors.Current = ShimBehaviors.DefaultValue;
 ```
 
 ## Detect environment accesses
 
-It is possible to attach a behavior to all the members, including static methods, of a particular type by assigning the `ShimsBehaviors.NotImplemented` behavior to the static property `Behavior` of the corresponding shim type:
+It is possible to attach a behavior to all the members, including static methods, of a particular type by assigning the `ShimBehaviors.NotImplemented` behavior to the static property `Behavior` of the corresponding shim type:
 
 ```csharp
 // unit test code
 // assigning the not implemented behavior
-ShimMyClass.Behavior = ShimsBehaviors.NotImplemented;
+ShimMyClass.Behavior = ShimBehaviors.NotImplemented;
 // shorthand
 ShimMyClass.BehaveAsNotImplemented();
 ```
@@ -513,10 +518,10 @@ System.Fakes.ShimEnvironment.GetCommandLineArgsGet = ...
 
 ## Limitations
 
-Shims cannot be used on all types from the .NET base class library **mscorlib** and **System**.
+Shims cannot be used on all types from the .NET base class library **mscorlib** and **System** in .NET Framework, and in **System.Runtime** in .NET Core or .NET 5.0.
 
 ## See also
 
 - [Isolate code under test with Microsoft Fakes](../test/isolating-code-under-test-with-microsoft-fakes.md)
 - [Peter Provost's blog: Visual Studio 2012 shims](http://www.peterprovost.org/blog/2012/04/25/visual-studio-11-fakes-part-2)
-- [Video (1h16): Testing untestable code with fakes in Visual Studio 2012](http://go.microsoft.com/fwlink/?LinkId=261837)
+- [Video (1h16): Testing untestable code with fakes in Visual Studio 2012](https://channel9.msdn.com/Events/TechEd/Europe/2012/DEV411)

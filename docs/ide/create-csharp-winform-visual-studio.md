@@ -6,15 +6,15 @@ ms.topic: tutorial
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
 ms.devlang: CSharp
-author: TerryGLee
-ms.author: tglee
-manager: jillfra
+author: j-martens
+ms.author: jmartens
+manager: jmartens
 dev_langs:
   - CSharp
 ms.workload:
   - "multiple"
 ---
-# Create a Windows Forms app in Visual Studio with C#
+# Create a Windows Forms app in Visual Studio with C\#
 
 In this short introduction to the Visual Studio integrated development environment (IDE), you'll create a simple C# application that has a Windows-based user interface (UI).
 
@@ -27,6 +27,15 @@ If you haven't already installed Visual Studio, go to the [Visual Studio downloa
 ::: moniker range="vs-2019"
 
 If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads) page to install it for free.
+
+> [!NOTE]
+> Some of the screenshots in this tutorial use the dark theme. If you aren't using the dark theme but would like to, see the [Personalize the Visual Studio IDE and Editor](../ide/quickstart-personalize-the-ide.md) page to learn how.
+
+::: moniker-end
+
+::: moniker range="vs-2022"
+
+If you haven't already installed Visual Studio, go to the [Visual Studio 2022 Preview downloads](https://visualstudio.microsoft.com/vs/preview/vs2022) page to install it for free.
 
 > [!NOTE]
 > Some of the screenshots in this tutorial use the dark theme. If you aren't using the dark theme but would like to, see the [Personalize the Visual Studio IDE and Editor](../ide/quickstart-personalize-the-ide.md) page to learn how.
@@ -51,9 +60,9 @@ First, you'll create a C# application project. The project type comes with all t
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
-1. Open Visual Studio 2019.
+1. Open Visual Studio.
 
 1. On the start window, choose **Create a new project**.
 
@@ -158,6 +167,6 @@ To learn more, continue with the following tutorial:
 
 ## See also
 
-* [More C# tutorials](/visualstudio/get-started/csharp/)
-* [Visual Basic tutorials](/visualstudio/get-started/visual-basic/)
+* [More C# tutorials](../get-started/csharp/index.yml)
+* [Visual Basic tutorials](../get-started/visual-basic/index.yml)
 * [C++ tutorials](/cpp/get-started/tutorial-console-cpp)

@@ -1,10 +1,12 @@
 ---
-title: "Walkthrough: Capturing Graphics Information Programmatically | Microsoft Docs"
+title: "Capture graphics info programmatically"
+description: See how to use Visual Studio Graphics Diagnostics to programmatically capture graphics information from a Direct3D app.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---
@@ -31,7 +33,7 @@ This section shows how to do these tasks:
 - Capturing graphics information
 
 > [!NOTE]
-> Previous implementations of programmatic capture relied on Remote Tools for Visual Studio for [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] to provide capture functionality.
+> Previous implementations of programmatic capture relied on Remote Tools for Visual Studio to provide capture functionality.
 
 ### Preparing your app to use programmatic capture
 To use programmatic capture in your app, it must include the necessary headers. These headers are part of the Windows 10 SDK.

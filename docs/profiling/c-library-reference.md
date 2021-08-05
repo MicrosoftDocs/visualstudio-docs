@@ -1,15 +1,17 @@
 ---
-title: "C Library Reference | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-helpviewer_keywords:
-  - "Concurrency Visualizer SDK, C Library Reference"
+title: C Library Reference | Microsoft Docs
+description: Read an introduction to the C library reference information for the Concurrency Visualizer SDK in Visual Studio.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: reference
+helpviewer_keywords: 
+  - Concurrency Visualizer SDK, C Library Reference
 ms.assetid: 46907a60-25e2-470d-a650-ae7349f868fd
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
-ms.workload:
-  - "multiple"
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.workload: 
+  - multiple
 ---
 # C library reference
 This section contains reference information for the Concurrency Visualizer SDK.

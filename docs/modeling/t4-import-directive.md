@@ -1,12 +1,14 @@
 ---
 title: T4 Import Directive
+description: Learn that in a Visual Studio T4 text template, the import directive allows you to refer to elements in another namespace without providing a fully qualified name.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: mgoertz-msft
+ms.author: mgoertz
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # T4 Import Directive
 

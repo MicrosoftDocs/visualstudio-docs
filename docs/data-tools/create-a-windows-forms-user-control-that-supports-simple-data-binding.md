@@ -1,19 +1,21 @@
 ---
-title: Create a user control that supports simple data binding
+title: Create user controls that support simple data binding
+description: Learn to create a Windows Forms user control that supports simple data binding, using the DefaultBindingPropertyAttribute class in Visual Studio.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 dev_langs:
-  - "VB"
-  - "CSharp"
+- VB
+- CSharp
 helpviewer_keywords:
-  - "custom controls [Visual Studio], Data Sources Window"
-  - "Data Sources Window, controls"
+- custom controls [Visual Studio], Data Sources Window
+- Data Sources Window, controls
 ms.assetid: b1488366-6dfb-454e-9751-f42fd3f3ddfb
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: ghogen
+ms.author: ghogen
+manager: jmartens
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # Create a Windows Forms user control that supports simple data binding
 
@@ -107,8 +109,8 @@ For simple controls that support databinding, implement the <xref:System.Compone
 
 2. Replace the code in the **PhoneNumberBox** with the following:
 
-     [!code-csharp[VbRaddataDisplaying#3](../data-tools/codesnippet/CSharp/create-a-windows-forms-user-control-that-supports-simple-data-binding_1.cs)]
-     [!code-vb[VbRaddataDisplaying#3](../data-tools/codesnippet/VisualBasic/create-a-windows-forms-user-control-that-supports-simple-data-binding_1.vb)]
+     :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataDisplaying/CS/PhoneNumberBox.cs" id="Snippet3":::
+     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataDisplaying/VB/PhoneNumberBox.vb" id="Snippet3":::
 
 3. From the **Build** menu, choose **Build Solution**.
 

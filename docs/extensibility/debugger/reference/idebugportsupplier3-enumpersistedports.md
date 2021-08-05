@@ -1,20 +1,21 @@
 ---
-title: "IDebugPortSupplier3::EnumPersistedPorts | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "This method retrieves an object that allows enumeration of the list of persisted ports."
+title: IDebugPortSupplier3::EnumPersistedPorts | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugPortSupplier3::EnumPersistedPorts"
+- IDebugPortSupplier3::EnumPersistedPorts
 helpviewer_keywords:
-  - "IDebugPortSupplier3::EnumPersistedPorts"
+- IDebugPortSupplier3::EnumPersistedPorts
 ms.assetid: 1c3dead3-5d6c-4067-8418-4015f0b0dd07
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugPortSupplier3::EnumPersistedPorts
 This method retrieves an object that allows enumeration of the list of persisted ports.

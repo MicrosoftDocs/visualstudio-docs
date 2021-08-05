@@ -1,12 +1,14 @@
 ---
 title: Generate a constructor quick action
-ms.date: 01/26/2018
+description: Learn how to use the Quick Actions and Refactorings menu to immediately generate the code for a new constructor on a class.
+ms.custom: SEO-VS-2020
+ms.date: 07/10/2020
 ms.topic: reference
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: mikadumont
+ms.author: midumont
+manager: jmartens
 ms.workload:
-  - "dotnet"
+- dotnet
 ---
 # Generate a constructor in Visual Studio
 
@@ -25,6 +27,7 @@ This code generation applies to:
 **How:** There are several ways to generate a constructor:
 
 - [Generate constructor and pick members](#pick)
+- [Generate constructor with properties](#with)
 - [Generate constructor from selected fields](#selection)
 - [Generate constructor from new usage](#usage)
 - [Add parameter to existing constructor](#addparameter)
@@ -42,9 +45,9 @@ This code generation applies to:
       - Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
    - **Mouse**
       - Right-click and select the **Quick Actions and Refactorings** menu.
-      - Click the ![screwdriver](media/screwdriver.png) icon that appears in the left margin if the text cursor is already on the empty line in the class.
+      - Click the :::image type="icon" source="media/screwdriver.png"::: icon that appears in the left margin if the text cursor is already on the empty line in the class.
 
-   ![Generate constructor preview](media/constructor1-preview-cs.png)
+   ![Screenshot of the Generate constructor option.](media/constructor1-preview-cs.png)
 
 1. Select **Generate constructor** from the drop-down menu.
 
@@ -59,7 +62,17 @@ This code generation applies to:
 
    The constructor is created with the specified parameters.
 
-   ![Generate constructor result](media/constructor1-result-cs.png)
+   ![Screenshot showing that constructor is created with the specified parameters.](media/constructor1-result-cs.png)
+
+## <a id = "with"></a> Generate constructor with properties (C# only)
+
+1. Place your cursor on the instance.
+
+2. Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
+
+3. Select **Generate constructor in `<QualifiedName>`(with properties)**.
+
+   ![Screenshot of the Generate constructor in Key (with properties) option.](media/generate-constructor-with-properties.png)
 
 ## <a id="selection"></a> Generate constructor from selected fields (C# only)
 
@@ -73,15 +86,15 @@ This code generation applies to:
       - Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
    - **Mouse**
       - Right-click and select the **Quick Actions and Refactorings** menu.
-      - Click the ![screwdriver](media/screwdriver.png) icon that appears in the left margin if the text cursor is already on the line with the selection.
+      - Click the :::image type="icon" source="media/screwdriver.png"::: icon that appears in the left margin if the text cursor is already on the line with the selection.
 
-      ![Generate Constructor preview](media/constructor2-preview-cs.png)
+      ![Screenshot of the Generate constructor Person string string option.](media/constructor2-preview-cs.png)
 
 1. Select **Generate constructor 'TypeName(...)'** from the drop-down menu.
 
    The constructor is created with the selected parameters.
 
-   ![Generate Constructor result](media/constructor2-result-cs.png)
+   ![Screenshot showing that the constructor is created with the selected parameters.](media/constructor2-result-cs.png)
 
 ## <a id="usage"></a> Generate constructor from new usage (C# and Visual Basic)
 
@@ -101,10 +114,10 @@ This code generation applies to:
       - Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
    - **Mouse**
       - Right-click and select the **Quick Actions and Refactorings** menu.
-      - Hover over the red squiggle and click the ![error light bulb](media/error-bulb.png) icon that appears.
-      - Click the ![error light bulb](media/error-bulb.png) icon that appears in the left margin if the text cursor is already on the line with the red squiggle.
+      - Hover over the red squiggle and click the :::image type="icon" source="media/error-bulb.png"::: icon that appears.
+      - Click the :::image type="icon" source="media/error-bulb.png"::: icon that appears in the left margin if the text cursor is already on the line with the red squiggle.
 
-      ![Generate constructor preview](media/constructor-preview-cs.png)
+      ![Screenshot of the Generate constructor in Person option.](media/constructor-preview-cs.png)
 
 3. Select **Generate constructor in '*TypeName*'** from the drop-down menu.
 
@@ -127,7 +140,7 @@ This code generation applies to:
 
 2. Place your cursor on the line where there is a red squiggle indicating you've used a constructor that doesn't yet exist.
 
-    ![Generate constructor highlight](media/constructor4-highlight-cs.png)
+    ![Screenshot showing the line where there is a red squiggle.](media/constructor4-highlight-cs.png)
 
 3. Next, do one of the following:
 
@@ -135,16 +148,16 @@ This code generation applies to:
       - Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
    - **Mouse**
       - Right-click and select the **Quick Actions and Refactorings** menu.
-      - Hover over the red squiggle and click the ![error light bulb](media/error-bulb.png) icon that appears.
-      - Click the ![error light bulb](media/error-bulb.png) icon that appears in the left margin if the text cursor is already on the line with the red squiggle.
+      - Hover over the red squiggle and click the :::image type="icon" source="media/error-bulb.png"::: icon that appears.
+      - Click the :::image type="icon" source="media/error-bulb.png"::: icon that appears in the left margin if the text cursor is already on the line with the red squiggle.
 
-      ![Generate constructor preview](media/constructor4-preview-cs.png)
+      ![Screenshot of the Add parameter to Person string string option.](media/constructor4-preview-cs.png)
 
 4. Select **Add parameter to 'TypeName(...)'** from the drop-down menu.
 
    The parameter is added to the constructor, with its type inferred from its usage.
 
-   ![Generate constructor result](media/constructor4-result-cs.png)
+   ![Screenshot showing that the parameter is added to the constructor, with its type inferred from its usage.](media/constructor4-result-cs.png)
 
 You can also add a parameter to an existing method. For more information, see [Add parameter to a method](add-parameter.md).
 
@@ -152,7 +165,7 @@ You can also add a parameter to an existing method. For more information, see [A
 
 1. Find an existing constructor, and add a parameter:
 
-   ![Generate constructor highlight](media/constructor5-highlight-cs.png)
+   ![Screenshot showing an existing constructor.](media/constructor5-highlight-cs.png)
 
 1. Place your cursor inside the newly added parameter.
 
@@ -162,15 +175,15 @@ You can also add a parameter to an existing method. For more information, see [A
       - Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
    - **Mouse**
       - Right-click and select the **Quick Actions and Refactorings** menu.
-      - Click the ![screwdriver](media/screwdriver.png) icon that appears in the left margin if the text cursor is already on the line with the added parameter.
+      - Click the :::image type="icon" source="media/screwdriver.png"::: icon that appears in the left margin if the text cursor is already on the line with the added parameter.
 
-   ![Generate constructor preview](media/constructor5-preview-cs.png)
+   ![Screenshot of the Create and initialize property Age option.](media/constructor5-preview-cs.png)
 
 1. Select **Create and initialize property** or **Create and initialize field** from the drop-down menu.
 
    The field or property is declared and automatically named to match your types. A line of code is also added to initialize the field or property in the constructor body.
 
-   ![Generate constructor result](media/constructor5-result-cs.png)
+   ![Screenshot showing that the field or property is declared and automatically named to match your types.](media/constructor5-result-cs.png)
 
 ## See also
 

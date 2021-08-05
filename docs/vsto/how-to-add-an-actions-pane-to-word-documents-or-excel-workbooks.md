@@ -1,7 +1,9 @@
 ---
 title: "Add Actions pane to Word documents or Excel workbooks"
+description: Learn that to add an actions pane to a Microsoft Office Word document or a Microsoft Excel workbook, you should first create a Windows Forms user control.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: "how-to"
 dev_langs:
   - "VB"
   - "CSharp"
@@ -12,7 +14,7 @@ helpviewer_keywords:
   - "actions panes [Office development in Visual Studio], adding controls"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---
@@ -45,14 +47,14 @@ ms.workload:
 
 5. Add the code to the <xref:System.Windows.Forms.Control.Click> event handler of the button. The following example shows code for a Microsoft Office Word document.
 
-     [!code-csharp[Trin_VstcoreActionsPaneWord#12](../vsto/codesnippet/CSharp/Trin_VstcoreActionsPaneWordCS/HelloControl.cs#12)]
-     [!code-vb[Trin_VstcoreActionsPaneWord#12](../vsto/codesnippet/VisualBasic/Trin_VstcoreActionsPaneWordVB/HelloControl.vb#12)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreActionsPaneWordCS/HelloControl.cs" id="Snippet12":::
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreActionsPaneWordVB/HelloControl.vb" id="Snippet12":::
 
 6. In C#, you must add an event handler for the button click. You can place this code in the `HelloControl` constructor after the call to `InitializeComponent`.
 
      For information about how to create event handlers, see [How to: Create Event Handlers in Office Projects](../vsto/how-to-create-event-handlers-in-office-projects.md).
 
-     [!code-csharp[Trin_VstcoreActionsPaneWord#13](../vsto/codesnippet/CSharp/Trin_VstcoreActionsPaneWordCS/HelloControl.cs#13)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreActionsPaneWordCS/HelloControl.cs" id="Snippet13":::
 
 ## Add the user control to the actions pane
  To show the actions pane, add the user control to the <xref:Microsoft.Office.Tools.ActionsPane.Controls%2A> property of the `ThisDocument.ActionsPane` field (Word) or `ThisWorkbook.ActionsPane` field (Excel).
@@ -61,13 +63,13 @@ ms.workload:
 
 1. Add the following code to the `ThisDocument` or `ThisWorkbook` class as a class-level declaration (do not add this code to a method).
 
-     [!code-csharp[Trin_VstcoreActionsPaneWord#14](../vsto/codesnippet/CSharp/Trin_VstcoreActionsPaneWordCS/ThisDocument.cs#14)]
-     [!code-vb[Trin_VstcoreActionsPaneWord#14](../vsto/codesnippet/VisualBasic/Trin_VstcoreActionsPaneWordVB/ThisDocument.vb#14)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreActionsPaneWordCS/ThisDocument.cs" id="Snippet14":::
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreActionsPaneWordVB/ThisDocument.vb" id="Snippet14":::
 
 2. Add the following code to the `ThisDocument_Startup` event handler of the `ThisDocument` class or the `ThisWorkbook_Startup` event handler of the `ThisWorkbook` class.
 
-     [!code-csharp[Trin_VstcoreActionsPaneWord#15](../vsto/codesnippet/CSharp/Trin_VstcoreActionsPaneWordCS/ThisDocument.cs#15)]
-     [!code-vb[Trin_VstcoreActionsPaneWord#15](../vsto/codesnippet/VisualBasic/Trin_VstcoreActionsPaneWordVB/ThisDocument.vb#15)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreActionsPaneWordCS/ThisDocument.cs" id="Snippet15":::
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreActionsPaneWordVB/ThisDocument.vb" id="Snippet15":::
 
 ## See also
 - [Actions pane overview](../vsto/actions-pane-overview.md)

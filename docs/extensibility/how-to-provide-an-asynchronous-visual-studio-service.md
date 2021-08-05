@@ -1,13 +1,15 @@
 ---
-title: "How to: Provide an Asynchronous Visual Studio Service | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: 'How to: Provide an Asynchronous Visual Studio Service | Microsoft Docs'
+description: Learn how to provide an asynchronous Visual Studio service. This approach allows you to obtain a service without blocking the UI thread.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
 ms.assetid: 0448274c-d3d2-4e12-9d11-8aca78a1f3f5
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # How to: Provide an asynchronous Visual Studio service
 If you want to obtain a service without blocking the UI thread, you should create an asynchronous service and load the package on a background thread. For this purpose you can use an <xref:Microsoft.VisualStudio.Shell.AsyncPackage> rather than a <xref:Microsoft.VisualStudio.Shell.Package>, and add the service with the asynchronous package's special asynchronous methods.
@@ -124,6 +126,8 @@ public sealed class TestAsyncPackage : AsyncPackage
     }
 
     ```
+    To make this service visible outside this package, set the promote flag value to *true* as the last parameter:
+    `this.AddService(typeof(STextWriterService), CreateTextWriterService, true);`
 
 2. Add a reference to *Microsoft.VisualStudio.Shell.Interop.14.0.DesignTime.dll*.
 

@@ -1,19 +1,21 @@
 ---
 title: Replace In Files Command
+description: Learn about the Replace in Files command and how it replaces text in files by using some of the options available on the Replace in Files tab of the Find and Replace window.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "edit.replaceinfiles"
+- edit.replaceinfiles
 helpviewer_keywords:
-  - "Edit.ReplaceInFiles command"
-  - "Replace In Files command"
-  - "ReplaceInFiles command"
+- Edit.ReplaceInFiles command
+- Replace In Files command
+- ReplaceInFiles command
 ms.assetid: f116066a-4f65-4f2c-94ef-12cbd8cfb598
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Replace In Files Command
 Replaces text in files using a subset of the options available on the **Replace in Files** tab of the **Find and Replace** window.

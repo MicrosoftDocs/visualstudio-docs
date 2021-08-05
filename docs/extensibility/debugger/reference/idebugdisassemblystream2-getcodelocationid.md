@@ -1,20 +1,21 @@
 ---
-title: "IDebugDisassemblyStream2::GetCodeLocationId | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Returns a code location identifier for a particular code context."
+title: IDebugDisassemblyStream2::GetCodeLocationId | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugDisassemblyStream2::GetCodeLocationId"
+- IDebugDisassemblyStream2::GetCodeLocationId
 helpviewer_keywords:
-  - "IDebugDisassemblyStream2::GetCodeLocationId"
+- IDebugDisassemblyStream2::GetCodeLocationId
 ms.assetid: 567adfb8-2f54-499a-a027-e4ecb82277ef
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugDisassemblyStream2::GetCodeLocationId
 Returns a code location identifier for a particular code context.

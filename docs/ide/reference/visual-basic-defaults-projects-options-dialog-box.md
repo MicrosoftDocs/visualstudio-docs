@@ -1,19 +1,21 @@
 ---
 title: Visual Basic Defaults, Projects, Options Dialog Box
+description: Learn how to use the Visual Basic Defaults page in the Projects and Solutions section to specify the default settings for Visual Basic project options.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "VS.ToolsOptionsPages.Projects.VBDefaults"
+- VS.ToolsOptionsPages.Projects.VBDefaults
 helpviewer_keywords:
-  - "Option Explicit statement, setting in the IDE"
-  - "Option Compare statement, setting in the IDE"
-  - "Option Strict statement, setting in the IDE"
+- Option Explicit statement, setting in the IDE
+- Option Compare statement, setting in the IDE
+- Option Strict statement, setting in the IDE
 ms.assetid: 2465cd9d-18b6-4c4a-b1ea-86dbab23fc79
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Visual Basic Defaults, Projects, Options Dialog Box
 Specifies the default settings for Visual Basic project options. When a new project is created, the specified option statements will be added to the project header in the Code Editor. The options apply to all Visual Basic projects.

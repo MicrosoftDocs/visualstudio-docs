@@ -1,14 +1,16 @@
 ---
-title: "Attach the profiler to a .NET app to collect concurrency data | Microsoft Docs"
-ms.custom: "seodec18"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Attach profiler to .NET to collect concurrency data
+description: Learn to get process and thread concurrency data by using Visual Studio Profiling Tools command-line tools to attach the profiler to a running .NET Framework app.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
 ms.assetid: fdd41576-797e-4312-8520-fee7bb767e4a
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
-ms.workload:
-  - "dotnet"
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+monikerRange: 'vs-2017'
+ms.workload: 
+  - dotnet
 ---
 # How to: Attach the profiler to a .NET Framework stand-alone application to collect concurrency data by using the command line
 This article describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools command-line tools to attach the profiler to a running .NET Framework stand-alone (client) application and collect process and thread concurrency data.

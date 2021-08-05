@@ -1,6 +1,9 @@
 ---
-title: "Unable to Connect to the Microsoft Visual Studio Remote Debugging Monitor | Microsoft Docs"
-ms.date: "08/24/2017"
+title: "Unable to Connect to the Microsoft Visual Studio Remote Debugging Monitor"
+description: Learn the meaning of "Unable to Connect to the Microsoft Visual Studio Remote Debugging Monitor", the possible causes, and the solutions. 
+ms.custom: SEO-VS-2020
+titleSuffix: ""
+ms.date: "04/14/2020"
 ms.topic: "reference"
 f1_keywords:
   - "vs.debug.error.remote_debug"
@@ -12,7 +15,7 @@ dev_langs:
   - "C++"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---
@@ -20,7 +23,7 @@ ms.workload:
 This message may occur because the remote debugging monitor is not properly set up on the remote machine or the remote machine is inaccessible due to network problems or the presence of a firewall.
 
 > [!IMPORTANT]
-> If you believe you have received this message because of a product bug, please [report this issue](../ide/how-to-report-a-problem-with-visual-studio.md) to Visual Studio. If you need more help, see [Talk to Us](../ide/talk-to-us.md) for ways to contact Microsoft.
+> If you believe you have received this message because of a product bug, please [report this issue](../ide/how-to-report-a-problem-with-visual-studio.md) to Visual Studio. If you need more help, see [Talk to Us](../ide/feedback-options.md) for ways to contact Microsoft.
 
 ## <a name="specificerrors"></a>What is the detailed error message?
 
@@ -28,6 +31,7 @@ The `Unable to Connect to the Microsoft Visual Studio Remote Debugging Monitor` 
 
 - [The debugger cannot connect to the remote computer. The debugger was unable to resolve the specified computer name](#cannot_connect)
 - [Connection request was rejected by the remote debugger](#rejected)
+- [Connection with the remote endpoint was terminated](#connection_terminated)
 - [Invalid access to memory location](#invalid_access)
 - [There is no server by the specified name running on the remote computer](#no_server)
 - [The requested name was valid, but no data of the requested type was found](#valid_name)
@@ -60,6 +64,20 @@ Try these steps:
 In the **Attach to Process** dialog box or in the project properties, make sure that the remote computer name and the port number matches the name and port number shown in the remote debugger window. If incorrect, fix and try again.
 
 If these values are correct and the message mentions **Windows Authentication** mode, check that the remote debugger is in the correct authentication mode (**Tools > Options**).
+
+## <a name="connection_terminated"></a> Connection with the remote endpoint was terminated
+
+If you are debugging an Azure App Service app, try using the [Attach Debugger](../debugger/remote-debugging-azure.md#remote_debug_azure_app_service) command from Cloud Explorer or Server Explorer instead of **Attach to Process**.
+
+If you are using **Attach to Process** to debug:
+
+- In the **Attach to Process** dialog box or in the project properties, make sure that the remote computer name and the port number matches the name and port number shown in the remote debugger window. If incorrect, fix and try again.
+
+- If you are trying to connect using a host name, try an IP address instead.
+
+- Check the application log on the server (Event Viewer on Windows) for more detailed information to help resolve the issue.
+
+- Otherwise, try restarting Visual Studio with Administrator privileges, and then try again.
 
 ## <a name="invalid_access"></a> Invalid access to memory location
 

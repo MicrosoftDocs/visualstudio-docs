@@ -1,31 +1,35 @@
 ---
-title: "CL Task | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
+title: CL Task | Microsoft Docs
+description: Describes the purpose and parameters of the MSBuild CL task, which wraps the Microsoft C++ compiler tool, cl.exe.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: reference
 f1_keywords:
-  - "VC.Project.VCCLCompilerTool.UseUnicodeForAssemblerListing"
-  - "vc.task.cl"
-  - "VC.Project.VCCLCompilerTool.TreatSpecificWarningsAsErrors"
-  - "VC.Project.VCCLCompilerTool.CreateHotpatchableImage"
+- VC.Project.VCCLCompilerTool.UseUnicodeForAssemblerListing
+- vc.task.cl
+- VC.Project.VCCLCompilerTool.TreatSpecificWarningsAsErrors
+- VC.Project.VCCLCompilerTool.CreateHotpatchableImage
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+- VB
+- CSharp
+- C++
+- jsharp
 helpviewer_keywords:
-  - "MSBuild (C++), CL task"
-  - "CL task (MSBuild (C++))"
+- MSBuild (C++), CL task
+- CL task (MSBuild (C++))
 ms.assetid: 651ba971-b755-4f03-a549-4816beb3cc0d
-author: mikejo5000
-ms.author: mikejo
-manager: jillfra
+author: ghogen
+ms.author: ghogen
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # CL task
-Wraps the Microsoft C++ compiler tool, *cl.exe*. The compiler produces executable (*.exe*) files, dynamic-link library (*.dll*) files, or code module (*.netmodule*) files. For more information, see [Compiler options](/cpp/build/reference/compiler-options).
+
+Wraps the Microsoft C++ compiler tool, *cl.exe*. The compiler produces executable (*.exe*) files, dynamic-link library (*.dll*) files, or code module (*.netmodule*) files. For more information, see [Compiler options](/cpp/build/reference/compiler-options) and [Use MSBuild from the command line](/cpp/build/msbuild-visual-cpp) and [Use the Microsoft C++ toolset from the command line](/cpp/build/building-on-the-command-line).
 
 ## Parameters
+
  The following list describes the parameters of the **CL** task. Most task parameters, and a few sets of parameters, correspond to a command-line option.
 
 - **AdditionalIncludeDirectories**
@@ -795,4 +799,5 @@ Wraps the Microsoft C++ compiler tool, *cl.exe*. The compiler produces executabl
    For more information, see the **TLogReadFiles** and **TLogWriteFiles** parameters in this table.
 
 ## See also
+
 - [Task reference](../msbuild/msbuild-task-reference.md)

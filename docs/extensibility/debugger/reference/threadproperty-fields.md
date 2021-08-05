@@ -1,20 +1,21 @@
 ---
-title: "THREADPROPERTY_FIELDS | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Specifies what information about a thread is to be retrieved."
+title: THREADPROPERTY_FIELDS | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "THREADPROPERTY_FIELDS"
+- THREADPROPERTY_FIELDS
 helpviewer_keywords:
-  - "THREADPROPERTY_FIELDS enumeration"
+- THREADPROPERTY_FIELDS enumeration
 ms.assetid: 5b88acb9-03ea-4c29-a788-f0087dccbe23
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # THREADPROPERTY_FIELDS
 Specifies what information about a thread is to be retrieved.

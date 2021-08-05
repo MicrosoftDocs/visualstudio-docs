@@ -1,12 +1,14 @@
 ---
 title: Embedding a Diagram in a Windows Form
+description: Learn how you can embed a DSL diagram in a Windows control, which appears in the Visual Studio window.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
-author: jillre
-ms.author: jillfra
-manager: jillfra
+ms.topic: how-to
+author: mgoertz-msft
+ms.author: mgoertz
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Embed a Diagram in a Windows Form
 

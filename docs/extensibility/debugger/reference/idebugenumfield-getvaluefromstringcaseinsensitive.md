@@ -1,20 +1,21 @@
 ---
-title: "IDebugEnumField::GetValueFromStringCaseInsensitive | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "This method uses a case-insensitive search to return the value associated with the name of an enumeration constant."
+title: IDebugEnumField::GetValueFromStringCaseInsensitive | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugEnumField::GetValueFromStringCaseInsensitive"
+- IDebugEnumField::GetValueFromStringCaseInsensitive
 helpviewer_keywords:
-  - "IDebugEnumField::GetValueFromStringCaseInsensitive method"
+- IDebugEnumField::GetValueFromStringCaseInsensitive method
 ms.assetid: ef95b38e-d9b2-4fb5-a166-7c2e14641dc7
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugEnumField::GetValueFromStringCaseInsensitive
 This method uses a case-insensitive search to return the value associated with the name of an enumeration constant.

@@ -1,5 +1,7 @@
 ---
 title: "VSIX Language Pack Schema 2.0 Reference | Microsoft Docs"
+description: The VSIX Language Pack schema provides localized installation information for VSIX packages. Version 2.0 supports additional localization elements.
+ms.custom: SEO-VS-2020
 ms.date: "10/26/2017"
 ms.topic: "conceptual"
 helpviewer_keywords:
@@ -8,9 +10,9 @@ helpviewer_keywords:
   - "localize package"
   - "localize extension"
 ms.assetid: 2a2932bc-cdbe-4d32-91fa-a3e0474f9098
-ms.author: zorio
-author: zoeyr
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ---
 # VSIX language pack schema 2.0 reference
 
@@ -47,7 +49,7 @@ Within the `<Metadata>` element you can have the following elements:
 <?xml version="1.0" encoding="utf-8"?>
 <PackageLanguagePackManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011">
   <Metadata>
-    <DisplayName>Arbol de Familia</LocalizedName>
+    <DisplayName>Arbol de Familia</DisplayName>
     <Description> Esta extensión pone control personalizado en la caja de herramientas por manejar información de familia.</Description>
     <MoreInfo> http://www.contoso.com/products/es/ArbolDeFamilia.htm</MoreInfo>
     <License>Eula.rtf</License>

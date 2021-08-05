@@ -1,20 +1,21 @@
 ---
-title: "IDebugProgram2::WriteDump | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Writes a dump to a file."
+title: IDebugProgram2::WriteDump | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugProgram2::WriteDump"
+- IDebugProgram2::WriteDump
 helpviewer_keywords:
-  - "IDebugProgram2::WriteDump"
+- IDebugProgram2::WriteDump
 ms.assetid: 375afb8c-882d-44db-bfa7-e2c9eb555122
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugProgram2::WriteDump
 Writes a dump to a file.

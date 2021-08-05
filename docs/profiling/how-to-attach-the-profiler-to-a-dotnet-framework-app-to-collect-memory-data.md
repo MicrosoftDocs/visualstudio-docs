@@ -1,13 +1,15 @@
 ---
-title: "Attach the profiler to a .NET app to collect memory data"
-ms.custom: "seodec18"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
-ms.workload:
-  - "dotnet"
+title: Attach profiler to .NET to collect memory data
+description: Learn to use Visual Studio Profiling Tools command-line tools to attach the profiler to a running .NET Framework stand-alone (client) app and get memory data.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+monikerRange: 'vs-2017'
+ms.workload: 
+  - dotnet
 ---
 # How to: Attach the profiler to a .NET Framework stand-alone application to collect memory data by using the command line
 

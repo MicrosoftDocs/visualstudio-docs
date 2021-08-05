@@ -1,5 +1,7 @@
 ---
 title: "Program VSTO Add-ins"
+description: Learn how you can use the ThisAddIn class to perform tasks such as accessing the object model of the Microsoft Office host application.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 f1_keywords:
@@ -29,7 +31,7 @@ helpviewer_keywords:
   - "ThisAddIn_Shutdown"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---
@@ -104,8 +106,8 @@ Excel.Workbook newWorkbook = Globals.ThisAddIn.Application.Workbooks.Add(System.
 
  The following code example works with a document in Word only when the user creates a document or opens an existing document.
 
- [!code-csharp[Trin_WordAddIn_Menus#3](../vsto/codesnippet/CSharp/trin_wordaddin_menus.cs/thisaddin.cs#3)]
- [!code-vb[Trin_WordAddIn_Menus#3](../vsto/codesnippet/VisualBasic/trin_wordaddin_menus.vb/thisaddin.vb#3)]
+ :::code language="csharp" source="../vsto/codesnippet/CSharp/trin_wordaddin_menus.cs/thisaddin.cs" id="Snippet3":::
+ :::code language="vb" source="../vsto/codesnippet/VisualBasic/trin_wordaddin_menus.vb/thisaddin.vb" id="Snippet3":::
 
 ### ThisAddIn members to use for other tasks
  The following table describes other common tasks and shows which members of the `ThisAddIn` class you can use to perform the tasks.
@@ -113,7 +115,7 @@ Excel.Workbook newWorkbook = Globals.ThisAddIn.Application.Workbooks.Add(System.
 |Task|Member to use|
 |----------|-------------------|
 |Run code to initialize the VSTO Add-in when the VSTO Add-in is loaded.|Add code to the `ThisAddIn_Startup` method. This is the default event handler for the <xref:Microsoft.Office.Tools.AddInBase.Startup> event. For more information, see [Events in Office projects](../vsto/events-in-office-projects.md).|
-|Run code to clean up resources used by the VSTO Add-in before the VSTO Add-in is unloaded.|Add code to the `ThisAddIn_Shutdown` method. This is the default event handler for the <xref:Microsoft.Office.Tools.AddInBase.Shutdown> event. For more information, see [Events in Office projects](../vsto/events-in-office-projects.md). **Note:**  In Outlook, by default the `ThisAddIn_Startup` event handler is not always called when the VSTO Add-in is unloaded. For more information, see [Events in Office projects](../vsto/events-in-office-projects.md).|
+|Run code to clean up resources used by the VSTO Add-in before the VSTO Add-in is unloaded.|Add code to the `ThisAddIn_Shutdown` method. This is the default event handler for the <xref:Microsoft.Office.Tools.AddInBase.Shutdown> event. For more information, see [Events in Office projects](../vsto/events-in-office-projects.md). **Note:**  In Outlook, by default the `ThisAddIn_Shutdown` event handler is not always called when the VSTO Add-in is unloaded. For more information, see [Events in Office projects](../vsto/events-in-office-projects.md).|
 |Display a custom task pane.|Use the `CustomTaskPanes` field. For more information, see [Custom task panes](../vsto/custom-task-panes.md).|
 |Expose objects in your VSTO Add-in to other Microsoft Office solutions.|Override the <xref:Microsoft.Office.Tools.AddInBase.RequestComAddInAutomationService%2A> method. For more information, see [Call code in VSTO Add-ins from other Office solutions](../vsto/calling-code-in-vsto-add-ins-from-other-office-solutions.md).|
 |Customize a feature in the Microsoft Office system by implementing an extensibility interface.|Override the <xref:Microsoft.Office.Tools.AddInBase.RequestService%2A> method to return an instance of a class that implements the interface. For more information, see [Customize UI features by using extensibility interfaces](../vsto/customizing-ui-features-by-using-extensibility-interfaces.md). **Note:**  To customize the ribbon UI, you can also override the <xref:Microsoft.Office.Tools.AddInBase.CreateRibbonExtensibilityObject%2A> method.|

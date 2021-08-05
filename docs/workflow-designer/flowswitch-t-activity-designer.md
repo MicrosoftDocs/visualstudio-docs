@@ -1,18 +1,20 @@
 ---
-title: "Workflow Designer - FlowSwitch<T> Activity Designer"
+title: Workflow Designer - FlowSwitch&lt;T&gt; Activity Designer
+description: Learn how the FlowSwitch <T> activity is a conditional node that provides branching for the flow of control based on match criterion. 
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "System.Activities.Core.Presentation.FlowSwitchLink.UI"
-  - "System.Activities.Statements.FlowSwitch`1.UI"
-  - "System.Activities.Core.Presentation.FlowSwitchLink`1.UI"
-  - "System.Activities.Core.Presentation.FlowSwitchLinkIdentifier.UI"
+- System.Activities.Core.Presentation.FlowSwitchLink.UI
+- System.Activities.Statements.FlowSwitch`1.UI
+- System.Activities.Core.Presentation.FlowSwitchLink`1.UI
+- System.Activities.Core.Presentation.FlowSwitchLinkIdentifier.UI
 ms.assetid: 5b9c5afe-7499-4ee8-8c33-28aff14bde07
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # FlowSwitch\<T> Activity Designer
 

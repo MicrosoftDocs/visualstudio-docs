@@ -1,20 +1,21 @@
 ---
-title: "IDebugObject2::GetAlias | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Gets the alias associated with this object, if any."
+title: IDebugObject2::GetAlias | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugObject2::GetAlias"
+- IDebugObject2::GetAlias
 helpviewer_keywords:
-  - "IDebugObject2::GetAlias method"
+- IDebugObject2::GetAlias method
 ms.assetid: aa6824d5-c932-42ba-8713-950e7d1fb42f
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugObject2::GetAlias
 Gets the alias associated with this object, if any.

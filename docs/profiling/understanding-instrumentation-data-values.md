@@ -1,5 +1,6 @@
 ---
 title: "Understanding Instrumentation Data Values | Microsoft Docs"
+description: Learn how the instrumentation profiling method records detailed timing information for the function calls, lines, and instructions in the profiled application.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:
@@ -7,7 +8,8 @@ helpviewer_keywords:
   - "instrumentation profiling method"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+monikerRange: 'vs-2017'
 ms.workload:
   - "multiple"
 ---

@@ -1,7 +1,8 @@
 ---
+description: "Retrieves the section part of the memory address where a block begins."
 title: "IDiaLineNumber::get_addressSection | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: a01c1bae-04b2-4c30-8621-60939a3124c2
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

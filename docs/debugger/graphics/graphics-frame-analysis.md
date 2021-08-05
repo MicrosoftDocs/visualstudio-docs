@@ -1,12 +1,14 @@
 ---
 title: "Graphics Frame Analysis | Microsoft Docs"
+description: Use Graphics Frame Analysis in Visual Studio Graphics Analyzer to analyze and optimize the rendering performance of your Direct3D game or app.
+ms.custom: SEO-VS-2020
 ms.date: "02/09/2017"
 ms.topic: "conceptual"
 f1_keywords:
   - "vs.graphics.frameanalysis"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---
@@ -87,7 +89,7 @@ Use Graphics Frame Analysis in Visual Studio Graphics Analyzer to analyze and op
 
  ![The statistical relevance of the draw call variant](media/pix_frame_analysis_summary_stats.png "pix_frame_analysis_summary_stats")
 
- To determine statistical relevance, Frame Analysis uses the [Student's t-test](http://www.wikipedia.org/wiki/Student%27s_t-test).
+ To determine statistical relevance, Frame Analysis uses the [Student's t-test](https://en.wikipedia.org/wiki/Student's_t-test).
 
 ### Details table
  Below the Summary table is the Details table, which is collapsed by default. The content of the Details table depends on the hardware platform of the playback machine. For information about supported hardware platforms, see [Hardware support](#HardwareSupport).

@@ -1,15 +1,17 @@
 ---
-title: "Workflow Designer - WriteLine Activity Designer"
+title: Workflow Designer - WriteLine Activity Designer
+description: Learn about the WriteLine activity and how you can use the WriteLine activity designer to create and configure a WriteLine activity.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "System.Activities.Statements.WriteLine.UI"
+- System.Activities.Statements.WriteLine.UI
 ms.assetid: 1b5f29a8-b7fd-477e-949e-2f689cae3c96
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # WriteLine Activity Designer
 

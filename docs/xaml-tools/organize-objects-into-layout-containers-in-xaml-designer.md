@@ -1,11 +1,13 @@
 ---
-title: Organize objects into layout containers in XAML Designer
-ms.date: 11/04/2016
+title: Organize objects into layout containers
+description: Learn about the layout panels and controls in XAML Designer that are used for arranging objects on a page, such as Grid, Canvas, Border, and Viewbox.
+ms.custom: SEO-VS-2020
+ms.date: 07/17/2020
 ms.topic: conceptual
 ms.assetid: 29c80c38-0fa3-48d6-b3a8-3b864f482e44
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ---
 # Organize objects into layout containers in XAML Designer
 
@@ -92,8 +94,6 @@ Enable users to scroll down a page or area of a page. You can add only one objec
 ### Viewbox
 
 Scale objects much like you would with a zoom control. You can add only one object to a **Viewbox**. If you want to apply that effect to more than one object, add a layout panel to the **ViewBox**, and then add your controls to that layout panel.
-
-(Available only for WPF projects.)
 
 ![ViewBox layout control](../designers/media/f5b13c66-d918-4141-8a16-bd8f8628687a.png)
 

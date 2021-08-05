@@ -1,7 +1,8 @@
 ---
+description: "Retrieves a flag that specifies whether the function is an introducing virtual function."
 title: "IDiaSymbol::get_intro | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 101afe4a-4c57-45de-87b4-330394c6de10
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

@@ -1,7 +1,10 @@
 ---
 title: "How to: Programmatically remove all comments from documents"
+description: Learn how you can use Visual Studio to programmatically remove all comments from a Microsoft Word document.
+ms.custom: SEO-VS-2020
+titleSuffix: ""
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: "how-to"
 dev_langs:
   - "VB"
   - "CSharp"
@@ -10,7 +13,7 @@ helpviewer_keywords:
   - "comments, removing from documents"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---
@@ -23,8 +26,8 @@ ms.workload:
 
 1. Call the <xref:Microsoft.Office.Tools.Word.Document.DeleteAllComments%2A> method of the `ThisDocument` class in your project. To use this code example, run it from the `ThisDocument` class.
 
-     [!code-vb[Trin_VstcoreWordAutomation#119](../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationVB/ThisDocument.vb#119)]
-     [!code-csharp[Trin_VstcoreWordAutomation#119](../vsto/codesnippet/CSharp/Trin_VstcoreWordAutomationCS/ThisDocument.cs#119)]
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationVB/ThisDocument.vb" id="Snippet119":::
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreWordAutomationCS/ThisDocument.cs" id="Snippet119":::
 
 ## To remove all comments from a document by using a VSTO Add-in
 
@@ -32,8 +35,8 @@ ms.workload:
 
      The following code example removes all comments from the active document. To use this code example, run it from the `ThisAddIn` class in your project.
 
-     [!code-vb[Trin_VstcoreWordAutomationAddIn#119](../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationAddIn/ThisAddIn.vb#119)]
-     [!code-csharp[Trin_VstcoreWordAutomationAddIn#119](../vsto/codesnippet/CSharp/Trin_VstcoreWordAutomationAddIn/ThisAddIn.cs#119)]
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationAddIn/ThisAddIn.vb" id="Snippet119":::
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreWordAutomationAddIn/ThisAddIn.cs" id="Snippet119":::
 
 ## See also
 - [How to: Programmatically add comments to text in documents](../vsto/how-to-programmatically-add-comments-to-text-in-documents.md)

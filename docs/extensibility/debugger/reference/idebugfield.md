@@ -1,17 +1,18 @@
 ---
-title: "IDebugField | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "This interface represents a field, that is, a description of a symbol or type."
+title: IDebugField | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugField"
+- IDebugField
 helpviewer_keywords:
-  - "IDebugField interface"
+- IDebugField interface
 ms.assetid: adecdd1c-b1b9-4027-92da-74cbe910636f
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IDebugField
 This interface represents a field, that is, a description of a symbol or type.

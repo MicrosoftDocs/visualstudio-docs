@@ -1,5 +1,7 @@
 ---
 title: "Deploy ClickOnce apps without re-signing"
+description: Learn about deploying ClickOnce applications from multiple network locations without re-signing or changing the ClickOnce manifests.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:
@@ -16,7 +18,7 @@ helpviewer_keywords:
 ms.assetid: 1218a98d-1ad5-4eef-95dd-0e0b3c44168c
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---
@@ -44,13 +46,13 @@ This article describes a feature of ClickOnce introduced in the .NET Framework v
 
  The important point to remember is that applications that exclude a `deploymentProvider` cannot change their install location during updates, until they ship an update that includes the `deploymentProvider` tag again.
 
- Here are two examples to clarify this point. In the first example, you publish a ClickOnce application that has no `deploymentProvider` tag, and you ask users to install it from http://www.adatum.com/MyApplication/. If you decide you want to publish the next update of the application from http://subdomain.adatum.com/MyApplication/, you have no way of signifying this in the deployment manifest that resides in http://www.adatum.com/MyApplication/. You can do one of two things:
+ Here are two examples to clarify this point. In the first example, you publish a ClickOnce application that has no `deploymentProvider` tag, and you ask users to install it from `http://www.adatum.com/MyApplication/`. If you decide you want to publish the next update of the application from `http://subdomain.adatum.com/MyApplication/`, you have no way of signifying this in the deployment manifest that resides in `http://www.adatum.com/MyApplication/`. You can do one of two things:
 
 - Tell your users to uninstall the previous version, and install the new version from the new location.
 
-- Include an update on http://www.adatum.com/MyApplication/ that includes a `deploymentProvider` pointing to http://www.adatum.com/MyApplication/. Then, release another update later with `deploymentProvider` pointing to http://subdomain.adatum.com/MyApplication/.
+- Include an update on `http://www.adatum.com/MyApplication/` that includes a `deploymentProvider` pointing to `http://www.adatum.com/MyApplication/`. Then, release another update later with `deploymentProvider` pointing to `http://subdomain.adatum.com/MyApplication/`.
 
-  In the second example, you publish a ClickOnce application that specifies `deploymentProvider`, and you then decide to remove it. Once the new version without `deploymentProvider` is downloaded to clients, you cannot redirect the path used for updates until you release a version of your application that has `deploymentProvider` restored. As with the first example, `deploymentProvider` must initially point to the current update location, not your new location. In this case, if you attempt to insert a `deploymentProvider` that refers to http://subdomain.adatum.com/MyApplication/, then the next update fails.
+  In the second example, you publish a ClickOnce application that specifies `deploymentProvider`, and you then decide to remove it. Once the new version without `deploymentProvider` is downloaded to clients, you cannot redirect the path used for updates until you release a version of your application that has `deploymentProvider` restored. As with the first example, `deploymentProvider` must initially point to the current update location, not your new location. In this case, if you attempt to insert a `deploymentProvider` that refers to `http://subdomain.adatum.com/MyApplication/`, then the next update fails.
 
 ## Create a deployment
  For step by step guidance on creating deployments that can be deployed from different network locations, see [Walkthrough: Manually deploy a ClickOnce application that does not require re-signing and that preserves branding information](../deployment/walkthrough-manually-deploying-a-clickonce-app-no-re-signing-required.md).

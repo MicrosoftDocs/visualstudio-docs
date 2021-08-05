@@ -1,15 +1,17 @@
 ---
 title: Image Editor
+description: Learn how to work with the Visual Studio Image Editor to view and modify texture and image resources that are used in DirectX app development.
+ms.custom: SEO-VS-2020
 ms.date: 08/10/2018
 ms.topic: conceptual
 f1_keywords:
-  - "vs.graphics.designer.imageeditor"
-  - "vs.graphics.imageeditor"
-author: jillre
-ms.author: jillfra
-manager: jillfra
+- vs.graphics.designer.imageeditor
+- vs.graphics.imageeditor
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Image editor
 

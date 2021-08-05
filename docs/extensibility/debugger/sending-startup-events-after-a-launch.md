@@ -1,15 +1,17 @@
 ---
-title: "Sending Startup Events After a Launch | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Sending Startup Events After a Launch | Microsoft Docs
+description: Learn about the series of startup events that the debug engine sends to the debug session after the debug engine is attached to a program.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "debugging [Debugging SDK], startup events"
+- debugging [Debugging SDK], startup events
 ms.assetid: 306ea0b4-6d9e-4871-8d8d-a4032d422940
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Send startup events after a launch
 Once the debug engine (DE) is attached to the program, it sends a series of startup events back to the debug session.

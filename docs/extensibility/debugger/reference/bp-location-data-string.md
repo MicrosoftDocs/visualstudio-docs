@@ -1,19 +1,20 @@
 ---
-title: "BP_LOCATION_DATA_STRING | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Used for setting data breakpoints that are based on a string that the user can enter from the integrated development environment (IDE)."
+title: BP_LOCATION_DATA_STRING | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "BP_LOCATION_DATA_STRING"
+- BP_LOCATION_DATA_STRING
 helpviewer_keywords:
-  - "BP_LOCATION_DATA_STRING structure"
+- BP_LOCATION_DATA_STRING structure
 ms.assetid: 445d6f3f-95b0-47ac-85e2-51b778240687
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
+- CPP
 ---
 # BP_LOCATION_DATA_STRING
 Used for setting data breakpoints that are based on a string that the user can enter from the integrated development environment (IDE).

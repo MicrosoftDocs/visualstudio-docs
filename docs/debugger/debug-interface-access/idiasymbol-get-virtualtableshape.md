@@ -1,7 +1,8 @@
 ---
+description: "Retrieves the symbol interface of the type of the virtual table for a user-defined type."
 title: "IDiaSymbol::get_virtualTableShape | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 92360cbd-0761-446e-93f9-04dc8f4b66c6
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

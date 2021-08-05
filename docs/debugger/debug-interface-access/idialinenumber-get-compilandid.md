@@ -1,7 +1,8 @@
 ---
+description: "Retrieves a unique identifier for the compiland that contributed this line."
 title: "IDiaLineNumber::get_compilandId | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 2cd6f551-8091-47c7-803f-3f79a766a211
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

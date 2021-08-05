@@ -1,16 +1,18 @@
 ---
 title: Shader Designer
+description: Learn how to work with the Visual Studio Shader Designer to create, modify, and export custom visual effects that are known as shaders.
+ms.custom: SEO-VS-2020
 ms.date: 09/21/2018
 ms.topic: conceptual
 f1_keywords:
-  - "vs.graphics.designer.effectdesigner"
-  - "vs.graphics.shaderdesigner"
+- vs.graphics.designer.effectdesigner
+- vs.graphics.shaderdesigner
 ms.assetid: 5db09a16-b82c-4ba3-8ec9-630cdc109397
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Shader Designer
 

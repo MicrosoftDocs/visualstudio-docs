@@ -4,7 +4,7 @@ description: "This article describes how to set multiple projects to start on ru
 author: sayedihashimi
 ms.author: sayedha
 ms.date: 02/21/2019
-ms.topic: conceptual
+ms.topic: how-to
 ms.prod: visual-studio-mac
 ms.assetid: fd354fff-ce6b-4505-a815-84a2311e39ba
 ---

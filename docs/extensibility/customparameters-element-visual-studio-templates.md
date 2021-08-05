@@ -1,18 +1,20 @@
 ---
-title: "CustomParameters Element (Visual Studio Templates) | Microsoft Docs"
-ms.date: "11/04/2016"
+title: CustomParameters Element (Visual Studio Templates) | Microsoft Docs
+description: Learn about the CustomParameters element and how it groups the custom parameters that are to be passed to the template wizard when the wizard makes parameter replacements.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
 ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
-  - "http://schemas.microsoft.com/developer/vstemplate/2005#CustomParameters"
+- http://schemas.microsoft.com/developer/vstemplate/2005#CustomParameters
 helpviewer_keywords:
-  - "CustomParameters element [Visual Studio project templates]"
+- CustomParameters element [Visual Studio project templates]
 ms.assetid: cf3efc91-1532-4022-bbb8-a18658424fee
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # CustomParameters element (Visual Studio templates)
 Groups the custom parameters that are to be passed to the template wizard when the wizard makes parameter replacements.

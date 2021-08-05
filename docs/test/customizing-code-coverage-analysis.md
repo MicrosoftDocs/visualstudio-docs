@@ -1,12 +1,14 @@
 ---
-title: "Customizing Code Coverage Analysis"
+title: Customizing Code Coverage Analysis
+description: Learn how to use the ExcludeFromCodeCoverageAttribute attribute to exclude test code from coverage results. You can include assemblies outside your solution.
+ms.custom: SEO-VS-2020
 ms.date: 08/21/2019
 ms.topic: conceptual
-ms.author: jillfra
-manager: jillfra
+ms.author: mikejo
+manager: jmartens
 ms.workload:
-  - "multiple"
-author: jillre
+- multiple
+author: mikejo5000
 ---
 # Customize code coverage analysis
 
@@ -28,13 +30,13 @@ To customize code coverage, follow these steps:
 
 ::: moniker range="vs-2017"
 
-3. To select the run settings file, on the **Test** menu, choose **Test Settings** > **Select Test Settings File**. To specify a run settings file for running tests from the command line, see [Configure unit tests](../test/configure-unit-tests-by-using-a-dot-runsettings-file.md#command-line).
+3. To select the run settings file, on the **Test** menu, choose **Test Settings** > **Select Test Settings File**. To specify a run settings file for running tests from the command line, see [Configure unit tests](../test/configure-unit-tests-by-using-a-dot-runsettings-file.md#specify-a-run-settings-file-from-the-command-line).
 
 ::: moniker-end
 
 ::: moniker range=">=vs-2019"
 
-3. To select the run settings file, on the **Test** menu, choose **Select Settings File**. To specify a run settings file for running tests from the command line, see [Configure unit tests](../test/configure-unit-tests-by-using-a-dot-runsettings-file.md#command-line).
+3. To select the run settings file, on the **Test** menu, choose **Select Settings File**. To specify a run settings file for running tests from the command line, see [Configure unit tests](../test/configure-unit-tests-by-using-a-dot-runsettings-file.md#specify-a-run-settings-file-from-the-command-line).
 
 ::: moniker-end
 
@@ -80,7 +82,7 @@ For example, the following XML excludes a single assembly by specifying its name
 ```xml
 <ModulePaths>
   <Exclude>
-   <ModulePath>Fabrikam.Math.UnitTest.dll</ModulePath>
+   <ModulePath>.*Fabrikam.Math.UnitTest.dll</ModulePath>
    <!-- Add more ModulePath nodes here. -->
   </Exclude>
 </ModulePaths>
@@ -91,7 +93,7 @@ The following example specifies that only a single assembly should be included i
 ```xml
 <ModulePaths>
   <Include>
-   <ModulePath>Fabrikam.Math.dll</ModulePath>
+   <ModulePath>.*Fabrikam.Math.dll</ModulePath>
    <!-- Add more ModulePath nodes here. -->
   </Include>
 </ModulePaths>
@@ -191,7 +193,7 @@ Note that searching for symbols increases code coverage runtime. So keep this sm
 <!--
 About include/exclude lists:
 Empty "Include" clauses imply all; empty "Exclude" clauses imply none.
-Each element in the list is a regular expression (ECMAScript syntax). See https://docs.microsoft.com/visualstudio/ide/using-regular-expressions-in-visual-studio.
+Each element in the list is a regular expression (ECMAScript syntax). See /visualstudio/ide/using-regular-expressions-in-visual-studio.
 An item must first match at least one entry in the include list to be included.
 Included items must then not match any entries in the exclude list to remain included.
 -->

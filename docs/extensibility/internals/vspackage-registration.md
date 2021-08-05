@@ -1,16 +1,18 @@
 ---
-title: "VSPackage Registration | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: VSPackage Registration | Microsoft Docs
+description: Learn about VSPackage registration, where packages advise Visual Studio that they are installed and should be loaded by writing information in the registry.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "registration, VSPackages"
-  - "VSPackages, registering"
+- registration, VSPackages
+- VSPackages, registering
 ms.assetid: ecd20da8-b04b-4141-a8f4-a2ef91dd597a
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # VSPackage Registration
 VSPackages must advise [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] that they are installed and should be loaded. This process is accomplished by writing information in the registry. That is a typical job of an installer.
@@ -51,4 +53,4 @@ VSPackages must advise [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.m
 
 ## See also
 - [Windows Installer](/windows/desktop/Msi/windows-installer-portal)
-- [Managed Package Registration](https://msdn.microsoft.com/library/f69e0ea3-6a92-4639-8ca9-4c9c210e58a1)
+- [Managed Package Registration](/previous-versions/bb166783(v=vs.100))

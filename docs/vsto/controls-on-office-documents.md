@@ -1,5 +1,7 @@
 ---
 title: "Controls on Office documents"
+description: Learn how you can use the Office development tools in Visual Studio to add Windows Forms controls and host controls to Word documents and Excel worksheets.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -13,7 +15,7 @@ helpviewer_keywords:
   - "documents [Office development in Visual Studio], controls"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

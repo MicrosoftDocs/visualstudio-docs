@@ -1,16 +1,18 @@
 ---
-title: "Registering the Program | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Registering the Program | Microsoft Docs
+description: Learn how a program to be debugged is registered with a port after the debug engine acquires a port.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "programs, registration"
-  - "debugging [Debugging SDK], program registration"
+- programs, registration
+- debugging [Debugging SDK], program registration
 ms.assetid: d726a161-7db3-4ef4-b258-9f6a5be68418
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Register the program
 After the debug engine has acquired a port, represented by an [IDebugPort2](../../extensibility/debugger/reference/idebugport2.md) interface, the next step in enabling the program to be debugged is to register it with the port. Once registered, the program is available for debugging by one of the following means:

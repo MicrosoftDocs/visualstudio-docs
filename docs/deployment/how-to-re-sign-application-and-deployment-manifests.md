@@ -1,23 +1,25 @@
 ---
-title: "How to: Re-sign Application and Deployment Manifests | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-helpviewer_keywords:
-  - "Office applications, signing manifests"
-  - "deploying applications [ClickOnce], signing manifests"
-  - "deploying applications, signing manifests"
-  - "ClickOnce deployment, signing manifests"
-  - "Office development in Visual Studio, signing manifests"
+title: Re-sign Application and Deployment Manifests | Microsoft Docs
+description: Learn how to re-sign both the application and deployment manifests with a certificate after changes are made to deployment properties.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
+dev_langs: 
+  - VB
+  - CSharp
+  - C++
+helpviewer_keywords: 
+  - Office applications, signing manifests
+  - deploying applications [ClickOnce], signing manifests
+  - deploying applications, signing manifests
+  - ClickOnce deployment, signing manifests
+  - Office development in Visual Studio, signing manifests
 ms.assetid: d53bceb9-4d3b-4c22-b909-8f370e7231fb
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
-ms.workload:
-  - "multiple"
+manager: jmartens
+ms.workload: 
+  - multiple
 ---
 # How to: Re-sign application and deployment manifests
 After you make changes to deployment properties in the application manifest for Windows Forms applications, Windows Presentation Foundation applications (xbap), or Office solutions, you must re-sign both the application and deployment manifests with a certificate. This process helps ensure that tampered files are not installed on end user computers.
@@ -25,7 +27,7 @@ After you make changes to deployment properties in the application manifest for 
  Another scenario where you might re-sign the manifests is when your customers want to sign the application and deployment manifests with their own certificate.
 
 ## Re-sign the Application and Deployment Manifests
- This procedure assumes that you have already made changes to your application manifest file (*.manifest*). For more information, see [How to: Change deployment properties](https://msdn.microsoft.com/library/66052a3a-8127-4964-8147-2477ef5d1472).
+ This procedure assumes that you have already made changes to your application manifest file (*.manifest*). For more information, see [How to: Change deployment properties](/previous-versions/cc442869(v=vs.110)).
 
 #### To re-sign the application and deployment manifests with Mage.exe
 
@@ -114,6 +116,6 @@ After you make changes to deployment properties in the application manifest for 
 - [How to: Enable ClickOnce security settings](../deployment/how-to-enable-clickonce-security-settings.md)
 - [How to: Set a security zone for a ClickOnce application](../deployment/how-to-set-a-security-zone-for-a-clickonce-application.md)
 - [How to: Set custom permissions for a ClickOnce application](../deployment/how-to-set-custom-permissions-for-a-clickonce-application.md)
-- [How to: Debug a ClickOnce application with restricted permissions](../deployment/how-to-debug-a-clickonce-application-with-restricted-permissions.md)
+- [How to: Debug a ClickOnce application with restricted permissions](securing-clickonce-applications.md)
 - [How to: Add a trusted publisher to a client computer for ClickOnce applications](../deployment/how-to-add-a-trusted-publisher-to-a-client-computer-for-clickonce-applications.md)
 - [How to: Configure the ClickOnce trust prompt behavior](../deployment/how-to-configure-the-clickonce-trust-prompt-behavior.md)

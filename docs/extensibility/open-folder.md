@@ -1,7 +1,9 @@
 ---
 title: "Visual Studio Open Folder extensibility overview | Microsoft Docs"
+description: Learn about extensibility for the Open Folder feature, which allows users to open a codebase in Visual Studio without project or solution files.
+ms.custom: SEO-VS-2020
 ms.date: "02/21/2018"
-ms.topic: "conceptual"
+ms.topic: overview
 ms.assetid: 94c3f8bf-1de3-40ea-aded-7f40c4b314c7
 author: "vukelich"
 ms.author: "svukel"
@@ -45,7 +47,7 @@ Features that use the following types will need to adopt new APIs to support Ope
 
 ## Feedback, comments, issues
 
-Open Folder and the `Microsoft.VisualStudio.Workspace.*` APIs are under active development. If you see unexpected behavior, then see the known issues for the release of interest. [Developer Community](https://developercommunity.visualstudio.com) is the recommended place to vote and create any issues. For each feedback, we highly recommend a detailed description of your issue. Include the Visual Studio version you're developing for, the APIs you're using (both what you've implemented and what you're interacting with), the expected outcome, and the actual outcome. If possible, include a dump of the devenv.exe process. Use GitHub's issue tracking for giving feedback on this and related documentation.
+Open Folder and the `Microsoft.VisualStudio.Workspace.*` APIs are under active development. If you see unexpected behavior, then see the known issues for the release of interest. [Developer Community](https://aka.ms/feedback/suggest?space=8) is the recommended place to vote and create any issues. For each feedback, we highly recommend a detailed description of your issue. Include the Visual Studio version you're developing for, the APIs you're using (both what you've implemented and what you're interacting with), the expected outcome, and the actual outcome. If possible, include a dump of the devenv.exe process. Use GitHub's issue tracking for giving feedback on this and related documentation.
 
 ## Next steps
 

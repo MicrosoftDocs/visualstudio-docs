@@ -1,18 +1,20 @@
 ---
-title: "Adding Command-Line Switches | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Adding Command-Line Switches | Microsoft Docs
+description: Learn how to add command-line switches that are applied to a VSPackage when the devenv.exe command is executed.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
 helpviewer_keywords:
-  - "command-line switches, adding"
-  - "command-line switches, retrieving"
-  - "IVsAppCommandLine::GetOption method"
-  - "command line, switches"
+- command-line switches, adding
+- command-line switches, retrieving
+- IVsAppCommandLine::GetOption method
+- command line, switches
 ms.assetid: 8bbbd87e-76fe-4fb5-8ef9-65f5e31967cf
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Add command-line switches
 You can add command-line switches that apply to your VSPackage when *devenv.exe* is executed. Use <xref:Microsoft.VisualStudio.Shell.ProvideAppCommandLineAttribute> to declare the name of the switch and its properties. In this example, the MySwitch switch is added for a subclass of VSPackage named **AddCommandSwitchPackage** with no arguments and with the VSPackage loaded automatically.
@@ -23,9 +25,8 @@ You can add command-line switches that apply to your VSPackage when *devenv.exe*
 
  The named parameters are shown in the following descriptions.
 
-||||
-|-|-|-|-|
-| Parameter | Description|
+|Name|Description|
+|-|-|
 | Arguments | The number of arguments for the switch. Can be "*", or a list of arguments. |
 | DemandLoad | Load the VSPackage automatically if this is set to 1, otherwise set to 0. |
 | HelpString | The help string or resource ID of the string to display with **devenv /?**. |

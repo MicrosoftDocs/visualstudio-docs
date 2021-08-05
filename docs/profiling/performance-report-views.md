@@ -1,5 +1,6 @@
 ---
 title: "Performance Report Views | Microsoft Docs"
+description: Learn how views of profiling data files are displayed in the Visual Studio integrated development environmentIDE.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:
@@ -9,7 +10,8 @@ helpviewer_keywords:
 ms.assetid: 3e84e513-dc64-40bb-b385-03281f28b519
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+monikerRange: 'vs-2017'
 ms.workload:
   - "multiple"
 ---

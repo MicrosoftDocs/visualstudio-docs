@@ -1,15 +1,17 @@
 ---
-title: "Test a Large Application with Multiple UI Maps"
+title: Test a Large Application with Multiple UI Maps
+description: Learn how to use coded UI tests when you are testing a large application by using multiple UI Maps. This feature requires Visual Studio Enterprise.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
-helpviewer_keywords:
-  - "coded UI tests, multiple UI maps"
-  - "coded UI tests, for large applications"
-author: jillre
-ms.author: jillfra
-manager: jillfra
-ms.workload:
-  - "multiple"
+ms.topic: how-to
+helpviewer_keywords: 
+  - coded UI tests, multiple UI maps
+  - coded UI tests, for large applications
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.workload: 
+  - multiple
 ---
 # Test a large application with multiple UI Maps
 

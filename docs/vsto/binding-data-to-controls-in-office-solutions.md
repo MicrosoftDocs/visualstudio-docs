@@ -1,5 +1,7 @@
 ---
 title: "Bind data to controls in Office solutions"
+description: Learn how you can bind Windows Forms controls and host controls on a Microsoft Office Word document or Excel worksheet to a data source.
+ms.custom: SEO-VS-2020
 ms.date: 02/02/2017
 ms.topic: conceptual
 dev_langs:
@@ -15,7 +17,7 @@ helpviewer_keywords:
   - "controls, data binding"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---
@@ -28,8 +30,6 @@ ms.workload:
 
  Both Windows Forms and host controls use the Windows Forms data binding model, which supports both *simple data binding* and *complex data binding* to data sources such as datasets and data tables. For complete information about the data binding model in Windows Forms, see [Data bind and Windows Forms](/dotnet/framework/winforms/data-binding-and-windows-forms).
 
- ![link to video](../vsto/media/playvideo.gif "link to video") For a related video demonstration, see [How do I: Consume database data in Excel?](http://go.microsoft.com/fwlink/?LinkID=130287).
-
 ## Simple data binding
  Simple data binding exists when a control property is bound to a single data element, such as a value in a data table. For example, the <xref:Microsoft.Office.Tools.Excel.NamedRange> control has a <xref:Microsoft.Office.Tools.Excel.NamedRange.Value2%2A> property that can be bound to a field in a dataset. When the field in the dataset changes, the value in the named range also changes. All host controls, except for the <xref:Microsoft.Office.Tools.Word.XMLNodes> control, support simple data binding. The <xref:Microsoft.Office.Tools.Word.XMLNodes> control is a collection, and therefore it does not support data binding.
 
@@ -37,8 +37,8 @@ ms.workload:
 
  The following example demonstrates how to bind the <xref:Microsoft.Office.Tools.Excel.NamedRange.Value2%2A> property to a data element in a document-level project.
 
- [!code-vb[Trin_BindableComponent#4](../vsto/codesnippet/VisualBasic/Trin_BindableComponent/Sheet1.vb#4)]
- [!code-csharp[Trin_BindableComponent#4](../vsto/codesnippet/CSharp/Trin_BindableComponent/Sheet1.cs#4)]
+ :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_BindableComponent/Sheet1.vb" id="Snippet4":::
+ :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_BindableComponent/Sheet1.cs" id="Snippet4":::
 
  For walkthroughs that demonstrates simple data binding, see [Walkthrough: Simple data binding in a document-level project](../vsto/walkthrough-simple-data-binding-in-a-document-level-project.md) for a document-level project and [Walkthrough: Simple data binding in VSTO Add-in project](../vsto/walkthrough-simple-data-binding-in-vsto-add-in-project.md) for a VSTO Add-in project.
 
@@ -49,8 +49,8 @@ ms.workload:
 
  The following code example creates a <xref:System.Data.DataSet> with two <xref:System.Data.DataTable> objects and populates one of the tables with data. The code then binds the <xref:Microsoft.Office.Tools.Excel.ListObject> to the table that contains data. This example is for an Excel document-level project.
 
- [!code-csharp[Trin_ExcelListObject#18](../vsto/codesnippet/CSharp/Trin_ExcelListObject/Trin_ExcelListObject.cs#18)]
- [!code-vb[Trin_ExcelListObject#18](../vsto/codesnippet/VisualBasic/Trin_ExcelListObject/Sheet1.vb#18)]
+ :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_ExcelListObject/Trin_ExcelListObject.cs" id="Snippet18":::
+ :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_ExcelListObject/Sheet1.vb" id="Snippet18":::
 
  For walkthroughs that demonstrate complex data binding, see [Walkthrough: Complex data binding in a document-level project](../vsto/walkthrough-complex-data-binding-in-a-document-level-project.md) for a document-level project and [Walkthrough: Complex data binding in VSTO Add-in project](../vsto/walkthrough-complex-data-binding-in-vsto-add-in-project.md) for a VSTO Add-in project.
 

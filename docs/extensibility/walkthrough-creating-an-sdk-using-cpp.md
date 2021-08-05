@@ -1,13 +1,15 @@
 ---
-title: "Walkthrough: Creating an SDK using C++ | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: 'Walkthrough: Creating an SDK using C++ | Microsoft Docs'
+description: Learn how to create a native C++ math library SDK, package the SDK as a Visual Studio Extension, and then use it to create an app by using this walkthrough.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
 ms.assetid: 36ea793b-3832-41a1-b906-69e680ad5e1d
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Walkthrough: Create an SDK using C++
 This walkthrough shows how to create a native C++ math library SDK, package the SDK as a Visual Studio Extension (VSIX), and then use it to create an app. The walkthrough is divided into these steps:
@@ -29,11 +31,11 @@ This walkthrough shows how to create a native C++ math library SDK, package the 
 
 3. Update *NativeMath.h* to match the following code.
 
-     [!code-cpp[CreatingAnSDKUsingCpp#1](../extensibility/codesnippet/CPP/walkthrough-creating-an-sdk-using-cpp_1.h)]
+     :::code language="cpp" source="../snippets/cpp/VS_Snippets_VSSDK/creatingansdkusingcpp/cpp/nativemath/nativemath.h" id="Snippet1":::
 
 4. Update *NativeMath.cpp* to match this code:
 
-     [!code-cpp[CreatingAnSDKUsingCpp#2](../extensibility/codesnippet/CPP/walkthrough-creating-an-sdk-using-cpp_2.cpp)]
+     :::code language="cpp" source="../snippets/cpp/VS_Snippets_VSSDK/creatingansdkusingcpp/cpp/nativemath/nativemath.cpp" id="Snippet2":::
 
 5. In **Solution Explorer**, open the shortcut menu for **Solution 'NativeMath'**, and then choose **Add** > **New Project**.
 
@@ -41,11 +43,11 @@ This walkthrough shows how to create a native C++ math library SDK, package the 
 
 7. Update *Class1.h* to match this code:
 
-     [!code-cpp[CreatingAnSDKUsingCpp#3](../extensibility/codesnippet/CPP/walkthrough-creating-an-sdk-using-cpp_3.h)]
+     :::code language="cpp" source="../snippets/cpp/VS_Snippets_VSSDK/creatingansdkusingcpp/cpp/nativemathwrt/class1.h" id="Snippet3":::
 
 8. Update *Class1.cpp* to match this code:
 
-     [!code-cpp[CreatingAnSDKUsingCpp#4](../extensibility/codesnippet/CPP/walkthrough-creating-an-sdk-using-cpp_4.cpp)]
+     :::code language="cpp" source="../snippets/cpp/VS_Snippets_VSSDK/creatingansdkusingcpp/cpp/nativemathwrt/class1.cpp" id="Snippet4":::
 
 9. On the menu bar, choose **Build** > **Build Solution**.
 
@@ -59,7 +61,23 @@ This walkthrough shows how to create a native C++ math library SDK, package the 
 
 4. Use the following XML to replace the existing XML.
 
-    [!code-xml[CreatingAnSDKUsingCpp#6](../extensibility/codesnippet/XML/walkthrough-creating-an-sdk-using-cpp_6.xml)]
+    ```xml
+    <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+      <Metadata>
+        <Identity Id="NativeMathVSIX..c6b3cae1-e7e2-4e71-90f6-21017ea0dff7" Version="1.0" Language="en-US" Publisher="MyName" />
+        <DisplayName>Native Math SDK</DisplayName>
+        <Description>Native Math Library w/ Windows Runtime Additions</Description>
+      </Metadata>
+      <Installation Scope="Global" AllUsers="true">
+        <InstallationTarget Id="Microsoft.ExtensionSDK" TargetPlatformIdentifier="Windows" TargetPlatformVersion="v8.0" SdkName="NativeMathSDK" SdkVersion="1.0" />
+      </Installation>
+      <Dependencies>
+      </Dependencies>
+      <Assets>
+        <Asset Type="Microsoft.ExtensionSDK" d:Source="File" Path="SDKManifest.xml" />
+      </Assets>
+    </PackageManifest>
+    ```
 
 5. In **Solution Explorer**, open the shortcut menu for the **NativeMathVSIX** project, and then choose **Add** > **New Item**.
 
@@ -67,7 +85,7 @@ This walkthrough shows how to create a native C++ math library SDK, package the 
 
 7. Use this XML to replace the contents of the file:
 
-     [!code-xml[CreatingAnSDKUsingCpp#5](../extensibility/codesnippet/XML/walkthrough-creating-an-sdk-using-cpp_5.xml)]
+    :::code language="xml" source="../snippets/cpp/VS_Snippets_VSSDK/creatingansdkusingcpp/cpp/nativemathvsix/sdkmanifest.xml" id="Snippet5":::
 
 8. In **Solution Explorer**, under the **NativeMathVSIX** project, create this folder structure:
 
@@ -100,8 +118,21 @@ This walkthrough shows how to create a native C++ math library SDK, package the 
      Copy *$SolutionRoot$\Debug\NativeMathWRT\NativeMathWRT.pri* and paste it in the *$SolutionRoot$\NativeMathVSIX\References\CommonConfiguration\Neutral* folder.
 
 11. In the *$SolutionRoot$\NativeMathVSIX\DesignTime\Debug\x86\\* folder, create a text file that's named *NativeMathSDK.props*, and then paste the following contents in it:
-
-    [!code-xml[CreatingAnSDKUsingCpp#7](../extensibility/codesnippet/XML/walkthrough-creating-an-sdk-using-cpp_7.xml)]
+   
+    ```xml
+    <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+      <PropertyGroup>
+        <NativeMathSDKPath>$(FrameworkSDKRoot)\..\..\UAP\v0.8.0.0\ExtensionSDKs\NativeMathSDK\1.0\</NativeMathSDKPath>
+        <IncludePath>$(NativeMathSDKPath)DesignTime\CommonConfiguration\Neutral\Include;$(IncludePath)</IncludePath>
+        <LibraryPath>$(NativeMathSDKPath)DesignTime\Debug\x86;$(LibraryPath)</LibraryPath>
+      </PropertyGroup>
+      <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+         <Link>
+           <AdditionalDependencies>NativeMath.lib;%(AdditionalDependencies)</AdditionalDependencies>
+         </Link>
+      </ItemDefinitionGroup>
+    </Project>
+    ```
 
 12. On the menu bar, choose **View** > **Other Windows** > **Properties Window** (Keyboard: Choose the **F4** key).
 
@@ -147,15 +178,15 @@ This walkthrough shows how to create a native C++ math library SDK, package the 
 
 6. In **Solution Explorer**, open **MainPage.xaml**, and then use the following XAML to replace its content:
 
-    [!code-xml[CreatingAnSDKUsingCppDemoApp#1](../extensibility/codesnippet/Xaml/walkthrough-creating-an-sdk-using-cpp_8.xaml)]
+    :::code language="xml" source="../snippets/cpp/VS_Snippets_VSSDK/creatingansdkusingcppdemoapp/cpp/mainpage.xaml" id="Snippet1":::
 
 7. Update *Mainpage.xaml.h* to match this code:
 
-    [!code-cpp[CreatingAnSDKUsingCppDemoApp#2](../extensibility/codesnippet/CPP/walkthrough-creating-an-sdk-using-cpp_9.h)]
+    :::code language="cpp" source="../snippets/cpp/VS_Snippets_VSSDK/creatingansdkusingcppdemoapp/cpp/mainpage.xaml.h" id="Snippet2":::
 
 8. Update *MainPage.xaml.cpp* to match this code:
 
-     [!code-cpp[CreatingAnSDKUsingCppDemoApp#3](../extensibility/codesnippet/CPP/walkthrough-creating-an-sdk-using-cpp_10.cpp)]
+    :::code language="cpp" source="../snippets/cpp/VS_Snippets_VSSDK/creatingansdkusingcppdemoapp/cpp/mainpage.xaml.cpp" id="Snippet3":::
 
 9. Choose the **F5** key to run the app.
 

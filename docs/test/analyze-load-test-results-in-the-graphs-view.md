@@ -1,20 +1,22 @@
 ---
-title: "Analyze load test results in Graphs view of Load Test Analyzer"
+title: Analyze load test results - Graphs view (Load Test Analyzer)
+description: Learn how to display test results as graphs. Each graph is displayed in a panel with the graph name in a drop-down list. 
+ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
 ms.topic: conceptual
 f1_keywords:
-  - "vs.test.load.monitor.graph.view"
+- vs.test.load.monitor.graph.view
 helpviewer_keywords:
-  - "graphs, analyzing load tests"
-  - "load tests, graphs in Load Test Viewer"
-  - "Load Test Viewer, graphs"
-  - "load tests, results graphs"
-  - "load tests, using graphs"
-  - "load test results, graphs"
+- graphs, analyzing load tests
+- load tests, graphs in Load Test Viewer
+- Load Test Viewer, graphs
+- load tests, results graphs
+- load tests, using graphs
+- load test results, graphs
 ms.assetid: 4a919cd8-541c-40ee-be3b-352fabc56140
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
 ---
 # Analyze load test results in the Graphs view of the Load Test Analyzer
 

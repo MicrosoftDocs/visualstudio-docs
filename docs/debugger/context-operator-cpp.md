@@ -1,5 +1,7 @@
 ---
 title: "Context operator in the debugger (C++) | Microsoft Docs"
+description: You may need to provide context for a C++ name that is in an outer scope and is hidden by a local name. Learn how to use the context operator to do this. 
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:
@@ -19,7 +21,7 @@ helpviewer_keywords:
 ms.assetid: 73cc9afe-f4a4-474e-bb89-5a33fb5e570c
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "cplusplus"
 ---

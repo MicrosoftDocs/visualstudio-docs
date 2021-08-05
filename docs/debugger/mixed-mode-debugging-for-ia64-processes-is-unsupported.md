@@ -1,5 +1,7 @@
 ---
-title: "Mixed mode debugging for IA64 processes is unsupported. | Microsoft Docs"
+title: "Mixed mode debugging for IA64 processes is unsupported"
+description: Visual Studio does not support mixed-mode debugging of managed and native code in IA64 (Itanium) processes. See this article for workarounds.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:
@@ -12,7 +14,7 @@ dev_langs:
 ms.assetid: 20bc1e38-049b-4388-87c4-936815d85b46
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

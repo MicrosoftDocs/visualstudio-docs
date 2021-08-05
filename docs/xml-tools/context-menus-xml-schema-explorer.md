@@ -1,13 +1,15 @@
 ---
-title: "Context Menus in XML Schema Explorer"
+title: Context Menus in XML Schema Explorer
+description: Learn about the Context Menus in XML Schema Explorer that contain items for performing schema-specific searches and other operations. 
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 ms.assetid: 42ab17ca-b8c1-40d7-beda-d033f66fe874
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Context menus (XML Schema Explorer)
 

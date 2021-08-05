@@ -1,18 +1,19 @@
 ---
-title: "IDebugProcessQueryProperties::QueryProperty | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "This method queries for a specified property value of the debugging process."
+title: IDebugProcessQueryProperties::QueryProperty | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "IDebugProcessQueryProperties::QueryProperty"
+- IDebugProcessQueryProperties::QueryProperty
 ms.assetid: 9a91707d-a590-44ef-b122-69d9816a7a79
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugProcessQueryProperties::QueryProperty
 This method queries for a specified property value of the debugging process.

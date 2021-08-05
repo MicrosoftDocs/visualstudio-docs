@@ -1,7 +1,9 @@
 ---
 title: "How to: Create a SharePoint Command | Microsoft Docs"
+description: Learn how to create a custom SharePoint command to call the API of the server object model in a SharePoint tools extension.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: how-to
 dev_langs:
   - "VB"
   - "CSharp"
@@ -9,7 +11,7 @@ helpviewer_keywords:
   - "SharePoint commands [SharePoint development in Visual Studio], creating"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---
@@ -22,7 +24,7 @@ ms.workload:
 
 1. Create a class library project that has the following configuration:
 
-    - Targets the .NET Framework 3.5. For more information about selecting the target framework, see [How to: Target a Version of the .NET Framework](../ide/how-to-target-a-version-of-the-dotnet-framework.md).
+    - Targets the .NET Framework 3.5. For more information about selecting the target framework, see [How to: Target a Version of the .NET Framework](../ide/visual-studio-multi-targeting-overview.md).
 
     - Targets the AnyCPU or x64 platform. By default, the target platform for class library projects is AnyCPU. For more information about selecting the target platform, see [How to: Configure Projects to Target Platforms](../ide/how-to-configure-projects-to-target-platforms.md).
 
@@ -56,8 +58,8 @@ ms.workload:
 ## Example
  The following code example demonstrates a SharePoint command that has the identifier `Contoso.Commands.UpgradeSolution`. This command uses APIs in the server object model to upgrade to a deployed solution.
 
- [!code-csharp[SPExtensibility.ProjectExtension.UpgradeDeploymentStep#5](../sharepoint/codesnippet/CSharp/UpgradeDeploymentStep/SharePointCommands/Commands.cs#5)]
- [!code-vb[SPExtensibility.ProjectExtension.UpgradeDeploymentStep#5](../sharepoint/codesnippet/VisualBasic/upgradedeploymentstep/sharepointcommands/commands.vb#5)]
+ :::code language="csharp" source="../sharepoint/codesnippet/CSharp/UpgradeDeploymentStep/SharePointCommands/Commands.cs" id="Snippet5":::
+ :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/upgradedeploymentstep/sharepointcommands/commands.vb" id="Snippet5":::
 
  In addition to the implicit first <xref:Microsoft.VisualStudio.SharePoint.Commands.ISharePointCommandContext> parameter, this command also has a custom string parameter that contains the full path of the .wsp file that is being upgraded to the SharePoint site. To see this code in the context of a larger example, see [Walkthrough: Create a custom deployment step for SharePoint projects](../sharepoint/walkthrough-creating-a-custom-deployment-step-for-sharepoint-projects.md).
 

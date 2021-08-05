@@ -1,20 +1,21 @@
 ---
-title: "IDebugExpressionEvaluator::GetMethodLocationProperty | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "This method converts a method location and offset into a memory address."
+title: IDebugExpressionEvaluator::GetMethodLocationProperty | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugExpressionEvaluator::GetMethodLocationProperty"
+- IDebugExpressionEvaluator::GetMethodLocationProperty
 helpviewer_keywords:
-  - "IDebugExpressionEvaluator::GetMethodLocationProperty method"
+- IDebugExpressionEvaluator::GetMethodLocationProperty method
 ms.assetid: 52c42a2e-f144-476b-8bef-442464c8fe8e
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugExpressionEvaluator::GetMethodLocationProperty
 This method converts a method location and offset into a memory address.

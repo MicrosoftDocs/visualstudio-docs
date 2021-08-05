@@ -1,5 +1,7 @@
 ---
 title: "Excel solutions"
+description: Learn you can use project templates to automate Excel, extend Excel features, and customize the Excel user interface (UI)
+ms.custom: SEO-VS-2020
 ms.date: "08/14/2019"
 ms.topic: "conceptual"
 dev_langs:
@@ -23,7 +25,7 @@ helpviewer_keywords:
   - "Office projects [Office development in Visual Studio], Excel"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---
@@ -111,4 +113,4 @@ ms.workload:
 | [Walkthrough: Create your first VSTO Add-in for Excel](../vsto/walkthrough-creating-your-first-vsto-add-in-for-excel.md) | Demonstrates how to create a basic VSTO Add-in for Excel. |
 | [Walkthrough: Add controls to a worksheet at run time in VSTO Add-in project](../vsto/walkthrough-adding-controls-to-a-worksheet-at-run-time-in-vsto-add-in-project.md) | Demonstrates how to add a Windows Forms button, a <xref:Microsoft.Office.Tools.Excel.NamedRange>, and a <xref:Microsoft.Office.Tools.Excel.ListObject> to a worksheet at run time by using a VSTO Add-in. |
 | [Understand co-authoring and Add-ins](./understanding-coauthoring-and-addins.md) | Describes adjustments you might need to make to your solutions to accommodate coauthoring. |
-| [Excel 2010 in Office development](http://go.microsoft.com/fwlink/?LinkId=199011) | Provides links to articles and reference documentation about developing Excel solutions. These are not specific to Office development using Visual Studio. |
+| [Excel 2010 in Office development](/previous-versions/office/developer/office-2010/ee658205(v=office.14)) | Provides links to articles and reference documentation about developing Excel solutions. These are not specific to Office development using Visual Studio. |

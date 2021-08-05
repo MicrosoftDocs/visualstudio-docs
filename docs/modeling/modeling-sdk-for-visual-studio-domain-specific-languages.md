@@ -1,16 +1,18 @@
 ---
 title: Modeling SDK for Visual Studio - Domain-Specific Languages
-titleSuffix: ""
+description: Learn that by using the Modeling SDK for Visual Studio, you can create powerful model-based development tools that you can integrate into Visual Studio.
+ms.custom: SEO-VS-2020
+titleSuffix: ''
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "Domain-Specific Language Tools"
-  - "Domain-Specific Language"
-author: jillre
-ms.author: jillfra
-manager: jillfra
+- Domain-Specific Language Tools
+- Domain-Specific Language
+author: mgoertz-msft
+ms.author: mgoertz
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Modeling SDK for Visual Studio - Domain-Specific Languages
 

@@ -1,20 +1,21 @@
 ---
-title: "IEnumDebugReferenceInfo2::GetCount | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Returns the number of DEBUG_REFERENCE_INFO elements in the enumeration."
+title: IEnumDebugReferenceInfo2::GetCount | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IEnumDebugReferenceInfo2::GetCount"
+- IEnumDebugReferenceInfo2::GetCount
 helpviewer_keywords:
-  - "IEnumDebugReferenceInfo2::GetCount"
+- IEnumDebugReferenceInfo2::GetCount
 ms.assetid: e62706e0-d2cd-48fb-8fdf-444463c651ab
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IEnumDebugReferenceInfo2::GetCount
 Returns the number of elements in the enumeration.

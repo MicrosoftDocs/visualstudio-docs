@@ -1,15 +1,17 @@
 ---
-title: "Service Essentials | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Service Essentials | Microsoft Docs
+description: Learn about services, which are interfaces for another VSPackage to consume. Services in a VSPackage can override built-in or other services.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "services, essentials"
+- services, essentials
 ms.assetid: fbe84ad9-efe1-48b1-aba3-b50b90424d47
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Service Essentials
 A service is a contract between two VSPackages. One VSPackage provides a specific set of interfaces for another VSPackage to consume. [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] is itself a collection of VSPackages that provides services to other VSPackages.

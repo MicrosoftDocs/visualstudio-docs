@@ -1,10 +1,11 @@
 ---
-title: Signing in to Visual Studio Subscriptions with your work or school account | Microsoft Docs
+title: Sign in to Visual Studio Subscriptions with work or school accounts | Microsoft Docs
 author: evanwindom
-ms.author: lank
-manager: lank
-ms.date: 07/11/2019
-ms.topic: conceptual
+ms.author: v-evwin
+manager: cabuschl
+ms.assetid: f39a2672-c283-4755-93d3-31c7c7a032d0
+ms.date: 02/19/2021
+ms.topic: how-to
 description:  Learn how to sign in to your Visual Studio subscription(s) with your work or school account. 
 ---
 
@@ -48,7 +49,7 @@ You can also see your currently selected subscription in the upper right corner,
         > [!NOTE]
         > This will be the case for many subscribers who have used Visual Studio subscriptions (formerly MSDN) in the past.
 
-    - If one pathway fails, try the other.  Subscription administrators may have modified your subscription.
+    - If one pathway fails, try the other.  Subscription admins may have modified your subscription.
 
 5. Enter your password.
 6. Click **Sign in**.
@@ -63,7 +64,14 @@ A:  Many users have more than one subscription.  If you are able to sign in to t
 1. You're logged in with a different Microsoft Account.  It's possible that you have multiple subscriptions, such as a Professional or Enterprise subscription and a Visual Studio Dev Essentials membership, and they're associated with different email addresses. To see the other subscriptions, sign out and sign back in using the other MSA.
 2. You have multiple subscriptions associated with the same email address.  To see all of the subscriptions associated with your email address, visit https://my.visualstudio.com/subscriptions and choose the subscription you wish to use. 
 
-If you're still having trouble, you can reach out to our [subscriptions support](https://visualstudio.microsoft.com/subscriptions/support/) team for assistance.  
+## Resources 
+- For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, see Visual Studio [Subscriptions support](https://aka.ms/vssubscriberhelp).
+
+## See also
+- [Visual Studio documentation](/visualstudio/)
+- [Azure DevOps documentation](/azure/devops/)
+- [Azure documentation](/azure/)
+- [Microsoft 365 documentation](/microsoft-365/)
 
 ## Next steps
-Once you've successfully signed in to the subscriptions portal, we recommend visiting the Benefits page at https://my.visualstudio.com/benefits and exploring the great tools, services, and offers available to you.  
+After you've successfully signed in to the subscriptions portal, we recommend visiting the Benefits page at https://my.visualstudio.com/benefits and exploring the great tools, services, and offers available to you.

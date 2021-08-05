@@ -1,19 +1,21 @@
 ---
-title: "Visual Studio Debugger Extensibility | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Visual Studio Debugger Extensibility | Microsoft Docs
+description: This article describes Visual Studio debugger extensibility and provides links to articles about Visual Studio debugging.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "debugging [Visual Studio], Debugging SDK"
-  - "Debugging SDK"
+- debugging [Visual Studio], Debugging SDK
+- Debugging SDK
 ms.assetid: c088b6a2-c3ad-446b-830d-9c6f41b2934b
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Visual Studio debugger extensibility
-Visual Studio includes a fully interactive source code debugger, providing a powerful and easy-to-use tool for tracking down bugs in your program. The debugger has complete support for Visual Basic, C#, C/C++, and JavaScript. However, with the [!INCLUDE[vsipsdk](../../extensibility/includes/vsipsdk_md.md)], that is available from the [Microsoft Download Center](http://go.microsoft.com/fwlink/?LinkId=214453), other programming languages can be supported in the debugger with the same rich features.
+Visual Studio includes a fully interactive source code debugger, providing a powerful and easy-to-use tool for tracking down bugs in your program. The debugger has complete support for Visual Basic, C#, C/C++, and JavaScript. However, with the [!INCLUDE[vsipsdk](../../extensibility/includes/vsipsdk_md.md)], that is available from the [Microsoft Download Center](https://www.microsoft.com/download/details.aspx?id=21835), other programming languages can be supported in the debugger with the same rich features.
 
  The [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] debugger is the common front end (that is, the user interface) to the debugging components that are, in turn, specific to the language being debugged. For new languages, all that is necessary for support by the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] debugger is to create the necessary back-end components, such as a debug engine (DE). This point is where the [!INCLUDE[vsipsdk](../../extensibility/includes/vsipsdk_md.md)] comes in.
 

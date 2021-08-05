@@ -1,13 +1,15 @@
 ---
-title: "Step 11: Run your picture viewer app and try other features"
+title: "Run your picture viewer app and try other features"
+description: Run your picture viewer app and try other features in the create a picture viewer tutorial. 
 ms.date: 09/11/2019
+ms.custom: SEO-VS-2020
 ms.assetid: 656614d0-4fe7-4a67-8edc-c10919377d09
 ms.topic: tutorial
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
-author: TerryGLee
-ms.author: tglee
-manager: jillfra
+author: j-martens
+ms.author: jmartens
+manager: jmartens
 ms.workload:
   - "multiple"
 ---
@@ -52,6 +54,6 @@ To return to the previous tutorial step, see [Step 10: Write code for additional
 
 ## See also
 
-* [More C# tutorials](/visualstudio/get-started/csharp/)
-* [More Visual Basic tutorials](/visualstudio/get-started/visual-basic/)
+* [More C# tutorials](../get-started/csharp/index.yml)
+* [More Visual Basic tutorials](../get-started/visual-basic/index.yml)
 * [C++ tutorial](/cpp/get-started/tutorial-console-cpp)

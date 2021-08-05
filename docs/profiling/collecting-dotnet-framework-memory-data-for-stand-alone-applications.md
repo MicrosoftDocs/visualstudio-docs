@@ -1,13 +1,16 @@
 ---
-title: "Get .NET Framework memory data using profiler command line"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Profiler command line - Get .NET memory data
+description: Learn how to use the sampling method from the command line to collect memory allocation and object lifetime data for a stand-alone .NET client.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
 ms.assetid: 7bce69e2-407c-4342-8516-641586968928
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
-ms.workload:
-  - "dotnet"
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+monikerRange: 'vs-2017'
+ms.workload: 
+  - dotnet
 ---
 # Collect .NET Framework memory data by using the profiler command line
 

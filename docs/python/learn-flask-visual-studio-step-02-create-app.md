@@ -6,7 +6,7 @@ ms.date: 01/07/2019
 ms.topic: tutorial
 author: JoshuaPartlow
 ms.author: joshuapa
-manager: jillfra
+manager: jmartens
 ms.custom: seodec18
 ms.workload:
   - python
@@ -79,7 +79,7 @@ In the code created by the "Blank Flask Web Project" template, you have a single
 
 7. Select **Debug** > **Start Debugging** (**F5**) or use the **Web Server** button on the toolbar (the browser you see may vary) to start the app and open a browser. Try both the / and /home URL routes.
 
-8. You can also set breakpoints at various parts of the code and restart the app to follow the startup sequence. For example, set a breakpoint on the first lines of *runserver.py* and *HelloFlask\_*init_*.py*, and on the `return "Hello Flask!"` line in *views.py*. Then restart the app (**Debug** > **Restart**, **Ctrl**+**F5**, or the toolbar button shown below) and step through (**F10**) the code, or run from each breakpoint using **F5**.
+8. You can also set breakpoints at various parts of the code and restart the app to follow the startup sequence. For example, set a breakpoint on the first lines of *runserver.py* and *HelloFlask\_*init_*.py*, and on the `return "Hello Flask!"` line in *views.py*. Then restart the app (**Debug** > **Restart**, **Ctrl**+**Shift**+**F5**, or the toolbar button shown below) and step through (**F10**) the code, or run from each breakpoint using **F5**.
 
     ![Restart button on the debugging toolbar in Visual Studio](media/debugging-restart-toolbar-button.png)
 
@@ -200,10 +200,6 @@ Answer: The *.html* extension for page template files is entirely optional, beca
 
 In fact, when you're working with a Flask project, Visual Studio automatically detects when the HTML file you're editing is actually a Flask template, and provides certain auto-complete features. For example, when you start typing a Flask page template comment, `{#`, Visual Studio automatically gives you the closing `#}` characters. The **Comment Selection** and **Uncomment Selection** commands (on the **Edit** > **Advanced** menu and on the toolbar) also use template comments instead of HTML comments.
 
-### Question: When I run the project, I see an error that the template cannot be found. What's wrong?
-
-Answer: If you see errors that the template cannot be found, make sure you added the app to the Flask project's *settings.py* in the `INSTALLED_APPS` list. Without that entry, Flask won't know to look in the app's *templates* folder.
-
 ### Question: Can templates be organized into further subfolders?
 
 Answer: Yes, you can use subfolders and then refer to the relative path under *templates* in calls to `render_template`. Doing so is a great way to effectively create namespaces for your templates.
@@ -215,5 +211,5 @@ Answer: Yes, you can use subfolders and then refer to the relative path under *t
 
 ## Go deeper
 
-- [Flask Quickstart - Rendering Templates](http://flask.pocoo.org/docs/1.0/quickstart/#rendering-templates) (flask.pocoo.org)
+- [Flask Quickstart - Rendering Templates](https://flask.palletsprojects.com/en/1.0.x/quickstart/#rendering-templates) (flask.pocoo.org)
 - Tutorial source code on GitHub: [Microsoft/python-sample-vs-learning-flask](https://github.com/Microsoft/python-sample-vs-learning-flask)

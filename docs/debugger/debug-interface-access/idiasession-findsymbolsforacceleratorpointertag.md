@@ -1,13 +1,14 @@
 ---
+description: "Returns an enumeration of symbols for the variable that the specified tag value corresponds to in the parent Accelerator stub function."
 title: "IDiaSession::findSymbolsForAcceleratorPointerTag | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 ms.assetid: 95fd5e7a-c637-437e-b369-c864eef733c2
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

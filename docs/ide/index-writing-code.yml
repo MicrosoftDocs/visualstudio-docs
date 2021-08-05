@@ -1,7 +1,7 @@
 ### YamlMime:Landing
 
-title: Edit code in Visual Studio
-summary: Learn about editing tasks such as opening a project, using code editor features, and maintaining consistent code style.
+title: Organize and edit code in Visual Studio
+summary: Learn about working with code projects, using code editor features, and maintaining consistent code style.
 
 metadata:
   title: Code editor features
@@ -9,8 +9,8 @@ metadata:
   ms.prod: visual-studio-windows
   ms.technology: vs-ide-general
   ms.topic: landing-page
-  author: gewarren
-  ms.author: gewarren
+  author: terryglee
+  ms.author: tglee
   ms.date: 10/15/2019
 
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
@@ -32,6 +32,8 @@ landingContent:
         links:
           - text: Use Visual Studio without projects or solutions
             url: develop-code-in-visual-studio-without-projects-or-solutions.md
+          - text: Use Visual Studio search
+            url: visual-studio-search.md
 
   # Card
   - title: Use editing features
@@ -59,7 +61,7 @@ landingContent:
       - linkListType: tutorial
         links:
           - text: Get started with C# and ASP.NET Core in Visual Studio
-            url: tutorial-csharp-aspnet-core.md
+            url: ../get-started/csharp/tutorial-aspnet-core.md
           - text: Create a C++ console app in Visual Studio
             url: /cpp/get-started/tutorial-console-cpp
           - text: Get started with Python in Visual Studio

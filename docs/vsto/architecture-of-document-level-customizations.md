@@ -1,5 +1,7 @@
 ---
 title: "Architecture of document-Level customizations"
+description: Learn about aspects of document-level customizations, including customization components and how customizations work with Microsoft Office applications.
+ms.custom: SEO-VS-2020
 ms.date: 02/02/2017
 ms.topic: conceptual
 dev_langs:
@@ -16,7 +18,7 @@ helpviewer_keywords:
   - "architecture [Office development in Visual Studio], document-level customizations"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

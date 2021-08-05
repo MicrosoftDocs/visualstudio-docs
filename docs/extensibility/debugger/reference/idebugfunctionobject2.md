@@ -1,15 +1,16 @@
 ---
-title: "IDebugFunctionObject2 | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Represents a function and enhances the IDebugFunctionObject interface."
+title: IDebugFunctionObject2 | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "IDebugFunctionObject2 interface"
+- IDebugFunctionObject2 interface
 ms.assetid: 56b2fdff-146d-4138-a34c-59a9c65a3ddd
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IDebugFunctionObject2
 > [!IMPORTANT]

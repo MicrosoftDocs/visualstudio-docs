@@ -1,15 +1,17 @@
 ---
-title: "Commands That Must Be Run After Installation | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Commands That Must Be Run After Installation | Microsoft Docs
+description: Learn about the commands that must be run as part of your installation of an extension deployed through a .msi file in Visual Studio. 
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "post-install commands"
+- post-install commands
 ms.assetid: c9601f2e-2c6e-4da9-9a6e-e707319b39e2
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Commands that must be run after installation
 If you deploy your extension through a *.msi* file, you must run **devenv /setup** as part of your installation in order for Visual Studio to discover your extensions.
@@ -46,7 +48,7 @@ If you deploy your extension through a *.msi* file, you must run **devenv /setup
 ## Run devenv.exe
  After the AppSearch standard action runs in the installer, each property in the AppSearch table has a value pointing to the *devenv.exe* file for the corresponding version of Visual Studio. If any of the specified registry values are not present — because that version of Visual Studio is not installed — the specified property is set to null.
 
- Windows Installer supports running an executable to which a property points through custom action type 50. The custom action should include the in-script execution options, `msidbCustomActionTypeInScript` (1024) and `msidbCustomActionTypeCommit` (512), to ensure that the VSPackage has been successfully installed before integrating it into [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]. For more information, see [CustomAction table](https://docs.microsoft.com/windows/desktop/msi/customaction-table) and [Custom action in-script execution options](https://docs.microsoft.com/windows/desktop/msi/custom-action-in-script-execution-options).
+ Windows Installer supports running an executable to which a property points through custom action type 50. The custom action should include the in-script execution options, `msidbCustomActionTypeInScript` (1024) and `msidbCustomActionTypeCommit` (512), to ensure that the VSPackage has been successfully installed before integrating it into [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]. For more information, see [CustomAction table](/windows/desktop/msi/customaction-table) and [Custom action in-script execution options](/windows/desktop/msi/custom-action-in-script-execution-options).
 
  Custom actions of type 50 specify the property containing the executable as the value of the Source column and command-line arguments in the Target column.
 

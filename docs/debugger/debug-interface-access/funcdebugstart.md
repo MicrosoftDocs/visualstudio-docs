@@ -1,7 +1,8 @@
 ---
+description: "If a function has a defined point at which debugging is to begin, that point is identified by a symbol with a SymTagFuncDebugStart tag."
 title: "FuncDebugStart | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -10,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 1cbc6ca5-87d0-4c30-a39e-0a9dc62ce1a9
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

@@ -1,12 +1,14 @@
 ---
-title: "How to test a C++ DLL for UWP apps"
+title: How to test a C++ DLL for UWP apps
+description: Learn how to create unit tests for a C++ DLL for Universal Windows Platform apps with the Microsoft Test Framework for C++.
+ms.custom: SEO-VS-2020
 ms.date: 05/01/2019
-ms.topic: conceptual
-ms.author: mblome
-manager: jillfra
-ms.workload:
-  - "uwp"
-author: mikeblome
+ms.topic: how-to
+ms.author: corob
+manager: jmartens
+ms.workload: 
+  - uwp
+author: corob-msft
 ---
 # How to test a C++ DLL
 
@@ -18,7 +20,7 @@ This topic also creates a single Visual Studio solution and separate projects fo
 
 ## <a name="Create_the_solution_and_the_unit_test_project"></a> Create the solution and the unit test project
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 Start by creating a new test project. On the **File** menu, choose **New** > **Project**. In the **Create a New Project** dialog, type "test" into the search box and then set **Language** to C++. Then choose **Unit Test App (Universal Windows)** from the list of project templates.
 
@@ -73,7 +75,7 @@ Start by creating a new test project. On the **File** menu, choose **New** > **P
 
 ## <a name="Add_the_DLL_project_to_the_solution"></a> Add the DLL project to the solution
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 In **Solution Explorer**, choose the solution name. From the shortcut menu, choose **Add**, and then **New Project**. In the **Add a New Project** dialog, set **Language** to C++ and type "DLL" into the search box. From the results list, choose **Unit Test App (Universal Windows - C++/CX)**.
 

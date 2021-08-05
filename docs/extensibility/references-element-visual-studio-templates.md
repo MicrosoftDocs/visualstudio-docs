@@ -1,19 +1,21 @@
 ---
-title: "References Element (Visual Studio Templates) | Microsoft Docs"
-ms.date: "11/04/2016"
+title: References Element (Visual Studio Templates) | Microsoft Docs
+description: Learn about the References element and how it groups the assembly references that the template adds to projects.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
 ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
-  - "http://schemas.microsoft.com/developer/vstemplate/2005#References"
+- http://schemas.microsoft.com/developer/vstemplate/2005#References
 helpviewer_keywords:
-  - "<References> element [Visual Studio Templates]"
-  - "References element [Visual Studio Templates]"
+- <References> element [Visual Studio Templates]
+- References element [Visual Studio Templates]
 ms.assetid: 1969146d-46bf-422d-8d46-0e9493925003
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # References element (Visual Studio templates)
 Groups the assembly references that the template adds to projects.

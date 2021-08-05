@@ -4,11 +4,11 @@ description: This article describes some basic ways Visual Studio can help you f
 ms.date: 05/02/2018
 ms.topic: conceptual
 ms.assetid: c3a14d28-d811-4ff3-bd09-21dce14025ca
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Make code work in Visual Studio
 
@@ -72,7 +72,7 @@ Visual Studio includes a built-in set of [.NET Compiler Platform analyzers](../c
 
 ### C++ code analysis
 
-To analyze C++ code, run [static code analysis](../code-quality/quick-start-code-analysis-for-c-cpp.md). Get in the habit of running it once you've cleaned up the obvious errors that prevent a successful build, and take some time to address the warnings it may produce. You'll save yourself some headaches down the road, and you may learn a few code style techniques.
+To analyze C++ code, run [static code analysis](/cpp/code-quality/quick-start-code-analysis-for-c-cpp). Get in the habit of running it once you've cleaned up the obvious errors that prevent a successful build, and take some time to address the warnings it may produce. You'll save yourself some headaches down the road, and you may learn a few code style techniques.
 
 Press **Alt**+**F11** (or select **Analyze** > **Run Code Analysis on Solution** from the top menu) to start static code analysis.
 
@@ -94,7 +94,7 @@ Quick Actions can be used wherever code analyzers determine there's an opportuni
 
 With experience, you can quickly use the arrow keys and **Ctrl**+**.** to check for easy refactoring opportunities and clean up your code!
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 ## Run Code Cleanup
 
@@ -114,7 +114,7 @@ Now that you've successfully built your code and performed a little clean up, ru
 
 Stop your app by pressing **Shift**+**F5** or by clicking the **Stop** button. Or, you can just close the app's main window (or command-line dialog).
 
-If your code ran perfectly and exactly as expected, congratulations! However, if it hung, or crashed, or gave you some strange results, you'll need to find the source of those problems and fix the bugs.
+If your code ran perfectly and exactly as expected, congratulations! However, if it stops responding, or crashed, or gave you some strange results, you'll need to find the source of those problems and fix the bugs.
 
 ### Set simple breakpoints
 
@@ -126,7 +126,7 @@ Set a breakpoint by clicking in the far margin of the line where you want the br
 
 Common uses for breakpoints include:
 
-- To narrow down the source of a crash or hang, scatter breakpoints throughout and around the code of the method call you think is causing the failure. As you run code in the debugger, remove and then reset the breakpoints closer together until you find the offending line of code. See the next section to learn how to run code in the debugger.
+- To narrow down the source of a crash or unresponsive program, scatter breakpoints throughout and around the code of the method call you think is causing the failure. As you run code in the debugger, remove and then reset the breakpoints closer together until you find the offending line of code. See the next section to learn how to run code in the debugger.
 
 - When you introduce new code, set a breakpoint at the beginning of it, and run the code to make sure it is behaving as expected.
 
@@ -140,13 +140,13 @@ For more information about using breakpoints, read [Using breakpoints](../debugg
 
 When your running code hits a breakpoint and pauses, the line of code marked in yellow (the current statement) has not executed yet. At this point, you may want to execute the current statement and then inspect the changed values. You can use several *step* commands to execute code in the debugger. If the marked code is a method call, you can step into it by pressing **F11**. You can also *step over* the line of code by pressing **F10**. For additional commands and details on how to step through code, read [Navigate code with the debugger](../debugger/navigating-through-code-with-the-debugger.md).
 
-![Visual Studio run-time value inspection](../ide/media/vs_ide_gs_debug_hit_breakpoint.png)
+![Screenshot of the Visual Studio code window. A red dot in the left gutter indicates a breakpoint at the line of code marked in yellow.](../ide/media/vs_ide_gs_debug_hit_breakpoint.png)
 
 In the preceding illustration, you can advance the debugger one statement by pressing either **F10** or **F11** (since there is no method call here, both commands have the same result).
 
 While the debugger is paused, you can inspect your variables and call stacks to determine what is going on. Are the values in the ranges you expect to see? Are calls being made in the right order?
 
-![Visual Studio run-time value inspection](../ide/media/vs_ide_gs_debug_inspect_value.png)
+![Screenshot of the Visual Studio code window. At the line of code marked in yellow, a variable is selected and a dropdown shows its current value and references.](../ide/media/vs_ide_gs_debug_inspect_value.png)
 
 Hover over a variable to see its current value and references. If you see a value you didn't expect, you probably have a bug in the preceding or calling code. For more in-depth debugging information, [learn more](../debugger/debugger-feature-tour.md) about using the debugger.
 

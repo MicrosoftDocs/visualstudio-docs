@@ -1,7 +1,9 @@
 ---
 title: "Import custom master page & site page with image"
+description: In this walkthrough, import a SharePoint custom master page and a site page that has an image into a Visual Studio SharePoint project.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: how-to
 dev_langs:
   - "VB"
   - "CSharp"
@@ -10,7 +12,7 @@ helpviewer_keywords:
   - "importing items [SharePoint development in Visual Studio]"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

@@ -1,17 +1,19 @@
 ---
-title: "Stepping in Break Mode | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Stepping in Break Mode | Microsoft Docs
+description: Learn about the process that occurs when the debugger is in break mode. The debugger must then step through code.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "break mode, stepping"
-  - "stepping, in break mode"
-  - "debugging [Debugging SDK], stepping in break mode"
+- break mode, stepping
+- stepping, in break mode
+- debugging [Debugging SDK], stepping in break mode
 ms.assetid: b08dc8ee-6c63-4462-a097-6f525cfbb35a
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Stepping in break mode
 The following section describes the process that occurs when the debugger is in break mode and must step through code:

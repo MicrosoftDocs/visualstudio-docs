@@ -1,7 +1,8 @@
 ---
 title: "Get started (Office development in Visual Studio)"
+description: Learn how you can start using the Microsoft Office developer tools in Visual Studio to build Office solutions.
 titleSuffix: ""
-ms.custom: "seodec18"
+ms.custom: "seodec18, SEO-VS-2020"
 ms.date: "08/14/2019"
 ms.topic: "conceptual"
 dev_langs:
@@ -11,7 +12,7 @@ helpviewer_keywords:
   - "Office development in Visual Studio, getting started"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---
@@ -82,5 +83,5 @@ ms.workload:
 
  Provides information about how to make Office solutions available to your users, and describes the major issues to consider when you choose a deployment method and set security.
 
-- [Visual Studio Tools for Office technical articles and Visual How Tos](http://go.microsoft.com/fwlink/?LinkID=106640)
+- [Visual Studio Tools for Office technical articles and Visual How Tos](/previous-versions/office/developer/office-2007/bb871648(v=office.12))
  Contains links into videos and technical articles about Office solutions created by using Visual Studio.

@@ -1,17 +1,18 @@
 ---
-title: "IDebugEnumField | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "This interface represents an enumeration type."
+title: IDebugEnumField | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugEnumField"
+- IDebugEnumField
 helpviewer_keywords:
-  - "IDebugEnumField interface"
+- IDebugEnumField interface
 ms.assetid: 42f685bf-0f39-47f4-98b0-6022efe2bf97
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IDebugEnumField
 This interface represents an enumeration type.

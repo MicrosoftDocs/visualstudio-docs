@@ -1,7 +1,8 @@
 ---
-title: "Error: User Could Not Execute Stored Procedure sp_enable_sql_debug | Microsoft Docs"
+description: "The Stored Procedure sp_enable_sql_debug could not execute on the server."
+title: "User Could Not Execute Stored Procedure sp_enable_sql_debug | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "troubleshooting"
+ms.topic: "error-reference"
 dev_langs:
   - "CSharp"
   - "VB"
@@ -9,7 +10,7 @@ dev_langs:
   - "C++"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---
@@ -21,9 +22,9 @@ The Stored Procedure sp_enable_sql_debug could not execute on the server. This c
 
 - Lack of necessary permissions on the server. To debug on SQL Server 2005, both the account running Visual Studio and the account used to connect to SQL Server must be members of the sysadmin role. The account used to connect to SQL Server is either your Windows user account (if you are using Windows authentication) or an account with user ID and password (if you use SQL authentication).
 
-For more information, see [How to: Set SQL Server Permissions for Debugging](https://msdn.microsoft.com/84e088d0-0409-41d4-841b-f5d4b0fda414).
+For more information, see [How to: Set SQL Server Permissions for Debugging](/previous-versions/w1bhybwz(v=vs.100)).
 
 ## See also
 
-- [How to: Set SQL Server Permissions for Debugging](https://msdn.microsoft.com/84e088d0-0409-41d4-841b-f5d4b0fda414)
+- [How to: Set SQL Server Permissions for Debugging](/previous-versions/w1bhybwz(v=vs.100))
 - [Setting Up SQL Debugging](/previous-versions/visualstudio/visual-studio-2010/s4sszxst\(v\=vs.100\))

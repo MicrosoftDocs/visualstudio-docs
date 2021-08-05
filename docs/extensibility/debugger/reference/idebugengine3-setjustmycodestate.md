@@ -1,20 +1,21 @@
 ---
-title: "IDebugEngine3::SetJustMyCodeState | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "This method tells the debug engine about the JustMyCode state information."
+title: IDebugEngine3::SetJustMyCodeState | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugEngine3::SetJustMyCodeState"
+- IDebugEngine3::SetJustMyCodeState
 helpviewer_keywords:
-  - "IDebugEngine3::SetJustMyCodeState"
+- IDebugEngine3::SetJustMyCodeState
 ms.assetid: 8ec17fbf-df93-424a-b2ed-fd1e5ee51256
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugEngine3::SetJustMyCodeState
 This method tells the debug engine about the JustMyCode state information.

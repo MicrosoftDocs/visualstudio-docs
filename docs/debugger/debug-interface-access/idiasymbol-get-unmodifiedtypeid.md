@@ -1,13 +1,14 @@
 ---
+description: "Retrieves the ID of the original (unmodified) type."
 title: "IDiaSymbol::get_unmodifiedTypeId | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 ms.assetid: 4f7fc73c-f524-4d7a-b378-a9ab99a96104
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

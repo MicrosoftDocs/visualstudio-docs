@@ -1,16 +1,18 @@
 ---
-title: "What&#39;s New in the Source Control Plug-in API Version 1.2 | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: What&apos;s new in the source control plug-in API 1.2
+description: Learn about what's new in the advanced source code control functionality in the Source Control Plug-in API version 1.2.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "source control plug-ins, what's new in API v1.2"
-  - "what's new [Visual Studio SDK], source control plug-ins"
+- source control plug-ins, what's new in API v1.2
+- what's new [Visual Studio SDK], source control plug-ins
 ms.assetid: 7c5fa471-456e-4f95-8309-5750ec4e5e85
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # What&#39;s New in the Source Control Plug-in API Version 1.2
 This section highlights the advanced source code control functionality in the Source Control Plug-in API version 1.2. The following lists the new features in version 1.2:

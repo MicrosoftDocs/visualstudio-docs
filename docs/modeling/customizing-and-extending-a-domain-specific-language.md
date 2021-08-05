@@ -1,14 +1,16 @@
 ---
 title: Customizing and Extending a Domain-Specific Language
+description: Learn how the Visual Studio Modeling and Visualization SDK (VMSDK) provides several levels at which you can define modeling tools.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "Domain-Specific Language Tools, creating solutions"
-author: jillre
-ms.author: jillfra
-manager: jillfra
+- Domain-Specific Language Tools, creating solutions
+author: mgoertz-msft
+ms.author: mgoertz
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Customize and extend a domain-specific language
 
@@ -34,7 +36,7 @@ Visual Studio Modeling and Visualization SDK (VMSDK) provides several levels at 
 |Icon on shape changes to indicate state.|Set the visibility of the decorator mapping in the DSL Details window. Locate several image decorators on the same position. See  [Updating Shapes and Connectors to Reflect the Model](../modeling/updating-shapes-and-connectors-to-reflect-the-model.md).<br /><br /> Or, override `ImageField.GetDisplayImage()`. See example in <xref:Microsoft.VisualStudio.Modeling.Diagrams.ImageField>.|
 |Set a background image on any shape|Override InitializeInstanceResources() to add an anchored ImageField.|
 |Nest shapes to any depth|Set up a recursive embedding tree. Define BoundsRules to contain the shapes.|
-|Attach connectors at fixed points on an element's boundary.|Define embedded terminal elements, represented by small ports on the diagram. Use BoundsRules to fix the ports in place. See the Circuit Diagram sample at [Visualization and Modeling SDK](http://go.microsoft.com/fwlink/?LinkID=186128).|
+|Attach connectors at fixed points on an element's boundary.|Define embedded terminal elements, represented by small ports on the diagram. Use BoundsRules to fix the ports in place. See the Circuit Diagram sample at [Visualization and Modeling SDK](https://code.msdn.microsoft.com/Visualization-and-Modeling-313535db).|
 |Text field displays a value derived from other values.|Map the text decorator to a Calculated or Custom Storage domain property. For more information, see [Calculated and Custom Storage Properties](../modeling/calculated-and-custom-storage-properties.md).|
 |Propagate changes between model elements, or between shapes|See [Validation in a Domain-Specific Language](../modeling/validation-in-a-domain-specific-language.md).|
 |Propagate changes to resources such as other Visual Studio extensions outside the store.|See [Event Handlers Propagate Changes Outside the Model](../modeling/event-handlers-propagate-changes-outside-the-model.md).|

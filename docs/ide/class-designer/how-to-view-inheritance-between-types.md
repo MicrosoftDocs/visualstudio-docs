@@ -1,19 +1,21 @@
 ---
-title: "How to: View Inheritance Between Types (Class Designer)"
+title: View inheritance between types
+description: Learn how to find the inheritance relationship between a base type and its derived types on a class diagram in Class Designer.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 f1_keywords:
-  - "vs.classdesigner.AssociationTypeNotFoundError"
+- vs.classdesigner.AssociationTypeNotFoundError
 helpviewer_keywords:
-  - "types [Visual Studio], inheritance"
-  - "types [Visual Studio], base"
-  - "types [Visual Studio], derived"
+- types [Visual Studio], inheritance
+- types [Visual Studio], base
+- types [Visual Studio], derived
 ms.assetid: ea3f0ada-f53b-4fb1-9fb5-908286f5ec3e
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: View inheritance between types in Class Designer
 

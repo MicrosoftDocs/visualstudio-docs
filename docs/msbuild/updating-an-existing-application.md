@@ -1,12 +1,14 @@
 ---
-title: "Updating an existing application to MSBuild 15 | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-author: mikejo5000
-ms.author: mikejo
-manager: jillfra
+title: Updating an existing application to MSBuild 15 | Microsoft Docs
+description: Learn how to ensure that programmatic builds from your application match builds done within Visual Studio or MSBuild.exe.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: conceptual
+author: ghogen
+ms.author: ghogen
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Update an existing application for MSBuild 15
 
@@ -32,7 +34,7 @@ The mechanism for changing your project to avoid loading MSBuild from a central 
 
 #### Use NuGet packages (preferred)
 
-These instructions assume that you're using [PackageReference-style NuGet references](https://docs.microsoft.com/nuget/consume-packages/package-references-in-project-files).
+These instructions assume that you're using [PackageReference-style NuGet references](/nuget/consume-packages/package-references-in-project-files).
 
 Change your project file(s) to reference MSBuild assemblies from their NuGet packages. Specify `ExcludeAssets=runtime` to tell NuGet that the assemblies are needed only at build time, and shouldn't be copied to the output directory.
 
@@ -79,7 +81,33 @@ Do not specify `ExcludeAssets=runtime` for the Microsoft.Build.Locator package.
 
 ### Register instance before calling MSBuild
 
-Add a call to the Locator API before calling any method that uses MSBuild.
+> [!IMPORTANT]
+> You cannot reference any MSBuild types (from the `Microsoft.Build` namespace) in the method that calls MSBuildLocator. For example, you cannot do this:
+>
+> ```csharp
+> void ThisWillFail()
+> {
+>     MSBuildLocator.RegisterDefaults();
+>     Project p = new Project(SomePath); // Could be any MSBuild type
+>     // Code that uses the MSBuild type
+> }
+> ```
+>
+> Instead, you must do this:
+>
+> ```csharp
+> void MethodThatDoesNotDirectlyCallMSBuild()
+> {
+>     MSBuildLocator.RegisterDefaults();
+>     MethodThatCallsMSBuild();
+> }
+> 
+> void MethodThatCallsMSBuild()
+> {
+>     Project p = new Project(SomePath);
+>     // Code that uses the MSBuild type
+> }
+> ```
 
 The simplest way to add the call to the Locator API is to add a call to
 

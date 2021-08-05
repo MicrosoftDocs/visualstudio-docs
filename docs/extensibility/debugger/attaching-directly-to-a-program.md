@@ -1,15 +1,17 @@
 ---
-title: "Attaching Directly to a Program | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Attaching Directly to a Program | Microsoft Docs
+description: Learn how Visual Studio implements attaching a debug engine to a process that is already running by using this procedure in the Visual Studio IDE.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
 helpviewer_keywords:
-  - "debug engines, attaching to programs"
+- debug engines, attaching to programs
 ms.assetid: ad2b7db8-821c-440c-ba07-c55c6a395e0f
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Attach directly to a program
 Users who want to debug programs in a process that is already running typically follow this process:

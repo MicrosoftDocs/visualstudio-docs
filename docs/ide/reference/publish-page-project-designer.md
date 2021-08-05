@@ -1,5 +1,7 @@
 ---
 title: Publish Page, Project Designer
+description: The Publish page of the Project Designer is used to configure properties for your ClickOnce deployment.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.technology: vs-ide-deployment
 ms.topic: reference
@@ -10,7 +12,7 @@ helpviewer_keywords:
   - "Publish page in Project Designer"
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

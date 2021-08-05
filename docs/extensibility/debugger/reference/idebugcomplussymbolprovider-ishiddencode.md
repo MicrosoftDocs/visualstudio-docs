@@ -1,18 +1,19 @@
 ---
-title: "IDebugComPlusSymbolProvider::IsHiddenCode | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Determines if the code at the specified debugger address is hidden."
+title: IDebugComPlusSymbolProvider::IsHiddenCode | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "IDebugComPlusSymbolProvider::IsHiddenCode"
+- IDebugComPlusSymbolProvider::IsHiddenCode
 ms.assetid: 1352c6ab-7b92-4a16-b2d2-6520b628830e
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugComPlusSymbolProvider::IsHiddenCode
 Determines if the code at the specified debugger address is hidden.

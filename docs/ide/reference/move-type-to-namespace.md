@@ -1,14 +1,17 @@
 ---
 title: Move type to namespace
+description: Learn how to use the Quick Actions and Refactorings menu to move a type to a different namespace or folder.
+ms.custom: SEO-VS-2020
 ms.date: 06/17/2019
 ms.topic: reference
 author: mikadumont
 ms.author: midumont
-manager: jillfra
+manager: jmartens
 dev_langs:
   - CSharp
 ms.workload: 
   - "dotnet"
+monikerRange: vs-2019
 ---
 # Move type to namespace
 

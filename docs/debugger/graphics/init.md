@@ -1,11 +1,13 @@
 ---
 title: "Init | Microsoft Docs"
+description: Use the Init() method of VsgDbg to prepare the in-app component of graphics diagnostics to log graphics information.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 ms.assetid: c55ddec8-9101-4673-979b-4109caca9146
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

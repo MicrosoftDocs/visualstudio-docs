@@ -1,21 +1,23 @@
 ---
 title: Create lookup tables in WPF applications
+description: Create lookup tables in WPF apps. A lookup table is a control that shows information from a data table based on a foreign-key field value in another table.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
-  - "data [WPF], displaying"
-  - "WPF, data binding in Visual Studio"
-  - "WPF data binding [Visual Studio]"
-  - "displaying data, WPF"
-  - "WPF [WPF], data"
-  - "WPF Designer, data binding"
-  - "data binding, WPF"
+- data [WPF], displaying
+- WPF, data binding in Visual Studio
+- WPF data binding [Visual Studio]
+- displaying data, WPF
+- WPF [WPF], data
+- WPF Designer, data binding
+- data binding, WPF
 ms.assetid: 56a1fbff-c7e8-4187-a1c1-ffd17024bc1b
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: ghogen
+ms.author: ghogen
+manager: jmartens
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # Create lookup tables in WPF applications
 

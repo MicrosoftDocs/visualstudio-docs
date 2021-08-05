@@ -1,20 +1,21 @@
 ---
-title: "EVALFLAGS | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Specifies flags that control expression evaluation."
+title: EVALFLAGS | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "EVALFLAGS"
+- EVALFLAGS
 helpviewer_keywords:
-  - "EVALFLAGS enumeration"
+- EVALFLAGS enumeration
 ms.assetid: 7b2cb14a-511a-4fef-9e4f-308139719fba
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # EVALFLAGS
 Specifies flags that control expression evaluation.

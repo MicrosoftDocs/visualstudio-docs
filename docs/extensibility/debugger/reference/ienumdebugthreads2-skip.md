@@ -1,20 +1,21 @@
 ---
-title: "IEnumDebugThreads2::Skip | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Skips over the specified number of elements in the threads enumeration."
+title: IEnumDebugThreads2::Skip | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IEnumDebugThreads2::Skip"
+- IEnumDebugThreads2::Skip
 helpviewer_keywords:
-  - "IEnumDebugThreads2::Skip"
+- IEnumDebugThreads2::Skip
 ms.assetid: eab068d4-1f8d-44cd-bc54-92a10fe23de6
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IEnumDebugThreads2::Skip
 Skips over the specified number of elements.

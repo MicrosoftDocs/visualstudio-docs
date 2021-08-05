@@ -1,5 +1,7 @@
 ---
 title: "ClickOnce Deployment on Windows Vista | Microsoft Docs"
+description: Learn how Visual Studio generates external UAC manifest for ClickOnce and Registration-Free COM applications, which require an external manifest.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:
@@ -14,7 +16,7 @@ helpviewer_keywords:
 ms.assetid: b21a0ebc-0ff6-4f49-8993-7d1ad3f8cac2
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---
@@ -46,6 +48,6 @@ Visual Studio provides the following options for manifest generation:
 
 ## See also
 - [ClickOnce security and deployment](../deployment/clickonce-security-and-deployment.md)
-- [User permissions and Visual Studio](https://msdn.microsoft.com/library/d5c55084-1e7b-4b61-b478-137db01c0fc0)
+- [User permissions and Visual Studio](/previous-versions/ms165100(v=vs.100))
 - [Application Page, Project Designer (C#)](../ide/reference/application-page-project-designer-csharp.md)
 - [Application Page, Project Designer (Visual Basic)](../ide/reference/application-page-project-designer-visual-basic.md)

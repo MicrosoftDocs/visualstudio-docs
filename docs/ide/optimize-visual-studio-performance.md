@@ -1,17 +1,19 @@
 ---
 title: Improve performance if Visual Studio is slow
-titleSuffix: ""
+titleSuffix: ''
+description: Learn how to improve Visual Studio performance if you find that it is running slowly.
+ms.custom: SEO-VS-2020
 ms.date: 04/11/2018
 ms.topic: conceptual
 helpviewer_keywords:
-  - "performance [Visual Studio]"
-author: jillre
-ms.author: jillfra
-manager: jillfra
+- performance [Visual Studio]
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 f1_keywords:
-  - "vs.performancecenter"
+- vs.performancecenter
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Optimize Visual Studio performance
 

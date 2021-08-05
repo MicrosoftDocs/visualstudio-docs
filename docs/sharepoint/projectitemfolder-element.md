@@ -1,5 +1,7 @@
 ---
 title: "ProjectItemFolder Element | Microsoft Docs"
+description: Get reference information about the ProjectItemFolder element, which represents a mapped folder in the SharePoint project item XML schema reference.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -9,7 +11,7 @@ helpviewer_keywords:
   - "ProjectItemFolder element"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---
@@ -50,7 +52,7 @@ ms.workload:
 
 ## Element information
 
-|||
+|Property|Value|
 |-|-|
 |**Namespace**|http:\/\/schemas.microsoft.com/VisualStudio/2010/<br>SharePointTools/SharePointProjectItemModel|
 |**Schema name**|SharePoint Project Item Schema|

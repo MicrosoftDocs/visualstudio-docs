@@ -1,19 +1,20 @@
 ---
-title: "IDebugObject::IsProxy | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Determines if the object is a transparent proxy."
+title: IDebugObject::IsProxy | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "IDebugObject::IsProxy"
-  - "IsProxy"
+- IDebugObject::IsProxy
+- IsProxy
 ms.assetid: 06c66b87-db95-4400-ab26-5d33e743a439
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugObject::IsProxy
 Determines if the object is a transparent proxy.

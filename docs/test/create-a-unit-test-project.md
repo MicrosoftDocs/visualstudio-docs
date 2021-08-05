@@ -1,12 +1,14 @@
 ---
-title: "Create a unit test project"
+title: Create a unit test project
+description: Learn how to create a unit test project. The test project can be in the same solution as the production code, or it can be in a separate solution.
+ms.custom: SEO-VS-2020
 ms.date: 01/29/2019
-ms.topic: conceptual
-ms.author: jillfra
-manager: jillfra
-ms.workload:
-  - "multiple"
-author: jillre
+ms.topic: how-to
+ms.author: mikejo
+manager: jmartens
+ms.workload: 
+  - multiple
+author: mikejo5000
 ---
 # Create a unit test project
 

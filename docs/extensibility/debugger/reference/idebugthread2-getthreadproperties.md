@@ -1,20 +1,21 @@
 ---
-title: "IDebugThread2::GetThreadProperties | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Gets the properties that describe this thread."
+title: IDebugThread2::GetThreadProperties | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugThread2::GetThreadProperties"
+- IDebugThread2::GetThreadProperties
 helpviewer_keywords:
-  - "IDebugThread2::GetThreadProperties"
+- IDebugThread2::GetThreadProperties
 ms.assetid: 304403fd-f4f8-4096-ac2c-bd3b59663aad
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugThread2::GetThreadProperties
 Gets the properties that describe this thread.

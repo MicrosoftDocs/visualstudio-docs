@@ -1,15 +1,17 @@
 ---
-title: "Source Control Configuration Details | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Source Control Configuration Details | Microsoft Docs
+description: Learn about implementing source control for a project type in Visual Studio, which involves configuring your project system or editor to request permissions.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "source control [Visual Studio SDK], configuration details"
+- source control [Visual Studio SDK], configuration details
 ms.assetid: adbee9fc-7a2e-4abe-a3b8-e6615bcd797f
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Source Control Configuration Details
 In order to implement source control, you need to properly configure your project system or editor to do the following:

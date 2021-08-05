@@ -1,18 +1,20 @@
 ---
 title: Code snippets schema reference
-ms.date: 02/25/2019
+description: Learn about the IntelliSense Code Snippet XML schema and how you can use them to increase your own productivity.
+ms.custom: SEO-VS-2020
+ms.date: 03/31/2020
 ms.topic: reference
 helpviewer_keywords:
-  - "schema reference [Visual Studio]"
-  - "snippets [Visual Studio], schema reference"
-  - "code snippets [Visual Studio], schema reference"
-  - "IntelliSense Code Snippets, XML Schema"
+- schema reference [Visual Studio]
+- snippets [Visual Studio], schema reference
+- code snippets [Visual Studio], schema reference
+- IntelliSense Code Snippets, XML Schema
 ms.assetid: 58a60621-725f-4763-93b7-62ea5424ef88
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Code snippets schema reference
 
@@ -109,6 +111,7 @@ There are three attributes available for the Code element:
    |`VB`|Identifies a Visual Basic code snippet.|
    |`CSharp`|Identifies a C# code snippet.|
    |`CPP`|Identifies a C++ code snippet.|
+   |`XAML`|Identifies a XAML code snippet.|
    |`XML`|Identifies an XML code snippet.|
    |`JavaScript`|Identifies a JavaScript code snippet.|
    |`TypeScript`|Identifies a TypeScript code snippet.|
@@ -229,7 +232,7 @@ A text value is required. This text describes the code snippet.
 Specifies a function to execute when the literal or object receives focus in Visual Studio.
 
 > [!NOTE]
-> The `Function` element is only supported in C# code snippets.
+> Not all languages support `function` elements. See language specific documentation for what functions are available.
 
 ```xml
 <Function>
@@ -497,10 +500,10 @@ Groups individual `Reference` elements.
 
 ## Shortcut element
 
-Specifies the shortcut text used to insert the snippet. The text value of a `Shortcut` element can only contain alphanumeric characters, hyphens ( - ), and underscores ( _ ).
+Specifies the shortcut text used to insert the snippet. The text value of a `Shortcut` element can only contain alphanumeric characters, and underscores ( _ ).
 
 > [!CAUTION]
-> _ and - are not supported characters in C++ snippet shortcuts.
+> Underscore (_) is not supported characters in C++ snippet shortcuts.
 
 ```xml
 <Shortcut>

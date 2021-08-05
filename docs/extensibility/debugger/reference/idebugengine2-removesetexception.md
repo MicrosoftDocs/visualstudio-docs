@@ -1,20 +1,21 @@
 ---
-title: "IDebugEngine2::RemoveSetException | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Removes the specified exception so it is no longer handled by the debug engine."
+title: IDebugEngine2::RemoveSetException | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugEngine2::RemoveSetException"
+- IDebugEngine2::RemoveSetException
 helpviewer_keywords:
-  - "IDebugEngine2::RemoveSetException"
+- IDebugEngine2::RemoveSetException
 ms.assetid: bdd25097-0e9d-4218-b417-0497ea48d2e8
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugEngine2::RemoveSetException
 Removes the specified exception so it is no longer handled by the debug engine.

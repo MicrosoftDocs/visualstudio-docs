@@ -1,5 +1,7 @@
 ---
 title: "Graphics Pixel History | Microsoft Docs"
+description: Troubleshoot rendering problems by seeing the history of a specific pixel. Graphics Pixel History shows the effects of Direct3D events.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:
@@ -7,7 +9,7 @@ f1_keywords:
 ms.assetid: 0a2cbde5-1ad9-487e-857c-a3664158c268
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

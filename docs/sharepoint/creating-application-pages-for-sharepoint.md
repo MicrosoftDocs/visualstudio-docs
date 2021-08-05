@@ -1,5 +1,7 @@
 ---
 title: "Creating Application Pages for SharePoint | Microsoft Docs"
+description: Create application pages for SharePoint. An application page is an ASP.NET web page that's designed for use in a SharePoint website.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -13,7 +15,7 @@ helpviewer_keywords:
   - "application pages [SharePoint development in Visual Studio], creating"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---
@@ -23,14 +25,14 @@ ms.workload:
  Visual Studio enables you to design application pages by using a designer. The designer displays a content area for each content placeholder that is defined in a master page. You can design the application page by dragging controls to these content areas.
 
 ## Application pages
- Application pages are shared across all sites on the server, whereas a site page is specific to one site. For more information, [SharePoint Page Types](http://go.microsoft.com/fwlink/?LinkID=211584).
+ Application pages are shared across all sites on the server, whereas a site page is specific to one site. For more information, [SharePoint Page Types](/previous-versions/office/developer/sharepoint-2010/aa979592(v=office.14)).
 
  By default, most of the pages that appear when you create a SharePoint site are site pages. A site page can be added to a SharePoint page library. Users can customize a site page by using tools such as SharePoint Designer. A site page can also host features such as dynamic Web Parts, and Web Part Zones.
 
  Application pages cannot do these things. However an application page is the best type of page to create if you want the page to contain custom code. Although you can add custom code to a site page, the code stops running when the user customizes the page by using tools such as SharePoint Designer.
 
 > [!NOTE]
-> Visual Studio does not provide templates that help you create site pages for a SharePoint site. For more information, see [SharePoint Page Types](http://go.microsoft.com/fwlink/?LinkID=211584).
+> Visual Studio does not provide templates that help you create site pages for a SharePoint site. For more information, see [SharePoint Page Types](/previous-versions/office/developer/sharepoint-2010/aa979592(v=office.14)).
 
 ## Create an application page
  To create an application page, add an **Application Page** item to a SharePoint project. When you create an application page, Visual Studio adds the following folders to your project:
@@ -63,9 +65,9 @@ ms.workload:
 ## Choose a master page
  By default, an **Application Page** item references the master page of the site that you are using to debug your project. That page is named v4.master and you can find it listed in the **Master Page Gallery** of the SharePoint site.
 
- You can explicitly change which master page is used by the application page by setting the `MasterPageFile` attribute of the application `Page` element. (For example: `MasterPageFile="~/_layouts/applicationv4.master"`). In fact, you must set this attribute if dynamic master pages are not enabled on the SharePoint server. For more information about master pages in SharePoint, see [Master Pages](http://go.microsoft.com/fwlink/?LinkID=169281).
+ You can explicitly change which master page is used by the application page by setting the `MasterPageFile` attribute of the application `Page` element. (For example: `MasterPageFile="~/_layouts/applicationv4.master"`). In fact, you must set this attribute if dynamic master pages are not enabled on the SharePoint server. For more information about master pages in SharePoint, see [Master Pages](/previous-versions/office/developer/sharepoint-2010/ms443795(v=office.14)).
 
 ## See also
-- [SharePoint Foundation Development in Depth](http://go.microsoft.com/fwlink/?LinkID=182103)
+- [SharePoint Foundation Development in Depth](/previous-versions/office/developer/sharepoint-2010/ee539092(v=office.14))
 - [ASP.NET overview](/aspnet/overview)
 - [ASP.NET Web Pages](/aspnet/web-pages/index)

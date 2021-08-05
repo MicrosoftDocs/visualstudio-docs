@@ -1,16 +1,19 @@
 ---
-title: "How to: Choose Collection Methods | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-helpviewer_keywords:
-  - "performance tools, choosing collection method"
-  - "profiling tools, choosing collection method"
-  - "performance collection methods"
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
-ms.workload:
-  - "multiple"
+title: Choose Collection Methods | Microsoft Docs
+description: The Visual Studio Profiling Tools support three methods of collecting performance data. Learn how to choose the one you need for your application.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
+helpviewer_keywords: 
+  - performance tools, choosing collection method
+  - profiling tools, choosing collection method
+  - performance collection methods
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+monikerRange: 'vs-2017'
+ms.workload: 
+  - multiple
 ---
 # How to: Choose collection methods
 

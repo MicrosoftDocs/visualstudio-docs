@@ -1,16 +1,18 @@
 ---
-title: "Project Modeling | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Project Modeling | Microsoft Docs
+description: Learn about the standard project objects that are required to create automation for your new project type and the path that project automation follows.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: reference
 helpviewer_keywords:
-  - "automation [Visual Studio SDK], implementing project objects"
-  - "project models, automation"
+- automation [Visual Studio SDK], implementing project objects
+- project models, automation
 ms.assetid: c8db8fdb-88c1-4b12-86fe-f3c30a18f9ee
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Project Modeling
 The next step in providing automation for your project is to implement the standard project objects: the <xref:EnvDTE.Projects> and `ProjectItems` collections; the `Project` and <xref:EnvDTE.ProjectItem> objects; and the remaining objects unique to your implementation. These standard objects are defined in Dteinternal.h file. An implementation of the standard objects is provided in the BscPrj sample. You can use these classes as models to create your own standard project objects that stand side-by-side with project objects from other project types.

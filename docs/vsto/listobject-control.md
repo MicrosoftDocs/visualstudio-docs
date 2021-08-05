@@ -1,5 +1,7 @@
 ---
 title: "ListObject control"
+description: The ListObject control is a list that exposes events and can be bound to data. Also, you can add ListObject controls to a worksheet at design time or at run time.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 f1_keywords:
@@ -15,7 +17,7 @@ helpviewer_keywords:
   - "ListObject control, improving performance when bound to data"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

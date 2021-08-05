@@ -4,15 +4,15 @@ description: Tutorial that describes how to add tables and foreign keys to a dat
 ms.date: 09/19/2019
 ms.topic: conceptual
 helpviewer_keywords:
-  - "database tables, creating"
-  - "database files, creating"
-  - "table designer"
+- database tables, creating
+- database files, creating
+- table designer
 ms.assetid: 99c2b06f-47aa-414e-8057-a3453712fd23
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: ghogen
+ms.author: ghogen
+manager: jmartens
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # Create a database and add tables in Visual Studio
 
@@ -22,9 +22,12 @@ You can use Visual Studio to create and update a local database file in SQL Serv
 
 To complete this walkthrough, you'll need the **.NET desktop development** and **Data storage and processing** workloads installed in Visual Studio. To install them, open **Visual Studio Installer** and choose **Modify** (or **More** > **Modify**) next to the version of Visual Studio you want to modify.
 
+> [!NOTE]
+> The procedures in this article apply only to .NET Framework Windows Forms projects, not to .NET Core Windows Forms projects.
+
 ## Create a project and a local database file
 
-1. Create a new **Windows Forms App** project and name it **SampleDatabaseWalkthrough**.
+1. Create a new **Windows Forms App (.NET Framework)** project and name it **SampleDatabaseWalkthrough**.
 
 2. On the menu bar, select **Project** > **Add New Item**.
 

@@ -1,18 +1,20 @@
 ---
 title: Code Metrics window
 ms.date: 12/12/2017
+description: Learn how to view, filter, rearrange, and export Visual Studio code metrics analysis data. See how to create work items based on code metric results.
+ms.custom: SEO-VS-2020
 ms.topic: reference
 f1_keywords:
-  - "vs.codemetrics.output"
+- vs.codemetrics.output
 helpviewer_keywords:
-  - "code metrics results"
-  - "code metrics results window"
-  - "results window, code metrics"
-author: jillre
-ms.author: jillfra
-manager: jillfra
+- code metrics results
+- code metrics results window
+- results window, code metrics
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Use the Code Metrics Results window
 
@@ -76,9 +78,9 @@ You can select and copy a selected row of code metrics data to the clipboard as 
 
 ## Create a work item based on code metric results
 
-You can create an [Azure Boards](/azure/devops/boards/index?view=vsts) work item that is based on results in the **Code Metric Results** window. When the work item is created, Visual Studio automatically enters a title in the **Title** field and code metrics data under the **History** tab.
+You can create an [Azure Boards](/azure/devops/boards/index?view=vsts&preserve-view=true) work item that is based on results in the **Code Metric Results** window. When the work item is created, Visual Studio automatically enters a title in the **Title** field and code metrics data under the **History** tab.
 
-For more information about Azure Boards work items, see [Work items](/azure/devops/boards/work-items/index?view=vsts).
+For more information about Azure Boards work items, see [Work items](/azure/devops/boards/work-items/index?view=vsts&preserve-view=true).
 
 ### To create a work item based on a result
 

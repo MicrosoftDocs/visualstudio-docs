@@ -1,5 +1,7 @@
 ---
 title: "Ribbon overview"
+description: Learn how the ribbon is a way to organize related commands so that they are easier to find and how commands appear as controls on the ribbon. 
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -15,14 +17,14 @@ helpviewer_keywords:
   - "custom Ribbon, multiple Ribbons"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---
 # Ribbon overview
   The ribbon is a way to organize related commands so that they are easier to find. Commands appear as controls on the ribbon. Controls are organized into *groups* along a horizontal strip at the top edge of an application window. Related groups are organized on tabs.
 
- Most of the features that were accessed by using menus and toolbars in earlier versions of the Microsoft Office system can now be accessed by using the ribbon. For more information, see the technical article [Developer overview of the user interface for the 2007 Microsoft Office system](http://go.microsoft.com/fwlink/?LinkID=70860).
+ Most of the features that were accessed by using menus and toolbars in earlier versions of the Microsoft Office system can now be accessed by using the ribbon. For more information, see the technical article [Developer overview of the user interface for the 2007 Microsoft Office system](/previous-versions/office/developer/office-2007/aa338198(v=office.12)).
 
  [!INCLUDE[appliesto_ribbon](../vsto/includes/appliesto-ribbon-md.md)]
 
@@ -104,8 +106,8 @@ ms.workload:
 
  Add the following code:
 
- [!code-vb[Trin_Ribbon_Choose_Ribbon#1](../vsto/codesnippet/VisualBasic/trin_Ribbon_choose_Ribbon_4/ThisWorkbook.vb#1)]
- [!code-csharp[Trin_Ribbon_Choose_Ribbon#1](../vsto/codesnippet/CSharp/trin_Ribbon_choose_Ribbon_4/ThisWorkbook.cs#1)]
+ :::code language="vb" source="../vsto/codesnippet/VisualBasic/trin_Ribbon_choose_Ribbon_4/ThisWorkbook.vb" id="Snippet1":::
+ :::code language="csharp" source="../vsto/codesnippet/CSharp/trin_Ribbon_choose_Ribbon_4/ThisWorkbook.cs" id="Snippet1":::
 
 ### Related topics
 

@@ -1,19 +1,22 @@
 ---
-title: "IDebugComPlusSymbolProvider::GetAttributedClassesinModule | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Retrieves the classes with the specified attribute in a given module."
+title: IDebugComPlusSymbolProvider::GetAttributedClassesinModule
+titleSuffix: ""
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "IDebugComPlusSymbolProvider::GetAttributedClassesinModule"
-  - "GetAttributedClassesinModule"
+- IDebugComPlusSymbolProvider::GetAttributedClassesinModule
+- GetAttributedClassesinModule
 ms.assetid: d8b087f3-1d32-4570-9eb0-7e0f7b051bc8
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugComPlusSymbolProvider::GetAttributedClassesinModule
 Retrieves the classes with the specified attribute in a given module.

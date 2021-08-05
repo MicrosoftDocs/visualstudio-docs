@@ -1,20 +1,21 @@
 ---
-title: "IDebugReference2::SetReferenceType | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Sets the reference type."
+title: IDebugReference2::SetReferenceType | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugReference2::SetReferenceType"
+- IDebugReference2::SetReferenceType
 helpviewer_keywords:
-  - "IDebugReference2::SetReferenceType"
+- IDebugReference2::SetReferenceType
 ms.assetid: 5854a172-ea82-481c-97d9-c7fc16923d44
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugReference2::SetReferenceType
 Sets the reference type. Reserved for future use.

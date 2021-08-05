@@ -1,5 +1,7 @@
 ---
 title: "Trust Office solutions by using inclusion lists"
+description: Learn how inclusion lists enable users to grant trust to Office solutions that are signed with a certificate that identifies the publisher.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -12,7 +14,7 @@ helpviewer_keywords:
   - "inclusion lists [Office development in Visual Studio]"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---
@@ -31,7 +33,7 @@ ms.workload:
 
  If prompting is disabled, only solutions that have a trusted and known certificate can be installed. If the prompting level is set to Authenticode required, the solution must be signed with a certificate from a known authority, but it does not require a certificate that chains to a trusted root authority (a trusted certificate). If prompting is allowed, the solution could be signed with a certificate with an unknown identity. In this scenario, the trust decision is deferred to the end user, and a temporary certificate would be sufficient to install a solution.
 
- For more information, see [How to: Configure inclusion list security](../vsto/how-to-configure-inclusion-list-security.md) and Table 2, titled Prompting Level Registry Key Value Launch Effects, in [Configure ClickOnce trusted publishers](http://go.microsoft.com/fwlink/?LinkId=94774).
+ For more information, see [How to: Configure inclusion list security](../vsto/how-to-configure-inclusion-list-security.md) and Table 2, titled Prompting Level Registry Key Value Launch Effects, in [Configure ClickOnce trusted publishers](/previous-versions/dotnet/articles/ms996418(v=msdn.10)).
 
 ## Structure of the inclusion list
  A valid inclusion list entry has two parts: a path to the deployment manifest, and the public key used to sign the solution. After a solution is added to the inclusion list, it is considered trusted. When the Office solution runs, the Office application compares the public key in the inclusion list with the signing key in the deployment manifest to verify that the solution that is currently running is the same as the original trusted version.

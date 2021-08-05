@@ -1,5 +1,7 @@
 ---
 title: Publish to a website
+description: Learn how to use the Publish tool to publish ASP.NET, ASP.NET Core, .NET Core, and Python apps to a website from Visual Studio. 
+ms.custom: SEO-VS-2020
 ms.date: 01/29/2019
 ms.topic: quickstart
 helpviewer_keywords:
@@ -7,7 +9,7 @@ helpviewer_keywords:
 ms.assetid: fc82b1f1-d342-4b82-9a44-590479f0a895
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---
@@ -18,7 +20,7 @@ You can use the **Publish** tool to publish ASP.NET, ASP.NET Core, .NET Core, an
 [!INCLUDE [quickstart-prereqs](includes/quickstart-prereqs.md)]
 
 > [!NOTE]
-> If you need to publish a Windows desktop application to a network file share, see [Deploy a desktop app using ClickOnce](how-to-publish-a-clickonce-application-using-the-publish-wizard.md) (C# or Visual Basic). For C++/CLI, see [Deploy a native app using ClickOnce](/cpp/windows/clickonce-deployment-for-visual-cpp-applications) or, for C/C++, see [Deploy a native app using a Setup project](/cpp/windows/walkthrough-deploying-a-visual-cpp-application-by-using-a-setup-project).
+> If you need to publish a Windows desktop application to a network file share, see [Deploy a desktop app using ClickOnce](how-to-publish-a-clickonce-application-using-the-publish-wizard.md) (C# or Visual Basic). For C++/CLR, see [Deploy a native app using ClickOnce](/cpp/windows/clickonce-deployment-for-visual-cpp-applications) or, for C/C++, see [Deploy a native app using a Setup project](/cpp/windows/walkthrough-deploying-a-visual-cpp-application-by-using-a-setup-project).
 
 ## Publish to a Web site
 
@@ -26,25 +28,23 @@ You can use the **Publish** tool to publish ASP.NET, ASP.NET Core, .NET Core, an
 
     ![The Publish command on the project context menu in Solution Explorer](../deployment/media/quickstart-publish.png "Choose Publish")
 
-1. If you have previously configured any publishing profiles, the **Publish** pane appears. Select **Create new profile**.
+1. If you have previously configured any publishing profiles, the **Publish** pane appears. Select **New**.
 
-1. In the **Pick a publish target** dialog box, choose **IIS, FTP, etc**.
+1. In the **Publish** window, choose **Web Server (IIS)**.
 
-    ![Choose IIS, FTP, etc.](../deployment/media/quickstart-publish-iis-ftp.png "Choose IIS, FTP, etc.")
+    ![Choose publish target](../deployment/media/quickstart-publish-iis.png "Choose IIS, FTP, etc.")
 
-1. Select **Publish**. The profile publish settings dialog box opens.
+1. Choose **Web Deploy** as the deployment method. Web Deploy simplifies deployment of Web applications and Web sites to IIS servers, and must be installed as an application on the server. Use the [Web platform installer](https://www.microsoft.com/web/downloads/platform.aspx) to install it.
 
-    ![Choose Folder](../deployment/media/quickstart-publish-settings-web.png "Choose Folder")
+    ![Choose deployment method](../deployment/media/quickstart-publish-iis-web-deploy.png "Choose IIS, FTP, etc.")
 
-1. In the **Publish method** field, choose a method such as **Web Deploy** or **FTP**. The settings that you see next correspond to your publishing method. Web Deploy simplifies deployment of Web applications and Web sites to IIS servers, and must be installed as an application on the server. Use the [Web platform installer](https://www.microsoft.com/web/downloads/platform.aspx) to install it.
+1. Configure the required settings for the publish method and select **Finish**. 
 
-1. Configure required settings for the publish method and select **Validate Connection**. If the server or target is available and your settings are correct, a message that indicates the connection is validated, and you're ready to publish.
+    ![Web Deploy connection details](../deployment/media/quickstart-publish-iis-web-deploy-connection-details.png)
 
-    ![Validate your connection](../deployment/media/quickstart-publish-web-deploy.png "Validate your connection")
+1. To publish, select **Publish** in the summary page. The Output window shows deployment progress and results.
 
-1. Select **Settings** to configure other deployment settings, such as whether to deploy a Debug or Release configuration, and then select **Save**. If you're debugging remotely, a Debug configuration is required.
-
-1. To publish, select **Publish**. The Output window shows deployment progress and results.
+   If you need help troubleshooting ASP.NET Core on IIS, see [Troubleshoot ASP.NET Core on Azure App Service and IIS](/aspnet/core/test/troubleshoot-azure-iis).
 
 ## Next steps
 

@@ -1,8 +1,9 @@
 ---
 title: "How to: Expose code to VBA in a C# project"
-ms.custom: "seodec18"
+description: Learn how you can expose code in a Visual C# project to Visual Basic for Applications (VBA) code if you want the two types of code to interact with each other.
+ms.custom: "seodec18, SEO-VS-2020"
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: "how-to"
 dev_langs:
   - "VB"
   - "CSharp"
@@ -13,7 +14,7 @@ helpviewer_keywords:
   - "exposing code to VBA"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

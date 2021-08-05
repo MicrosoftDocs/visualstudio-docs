@@ -1,7 +1,9 @@
 ---
 title: "How to: Define a SharePoint Project Item Type | Microsoft Docs"
+description: Understand how to define a project item type when you want to create a custom SharePoint project item.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: how-to
 dev_langs:
   - "VB"
   - "CSharp"
@@ -11,7 +13,7 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, defining new project item types"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---
@@ -43,8 +45,8 @@ ms.workload:
 ## Example
  The following code example demonstrates how to define a simple project item type. This project item type writes a message to the **Output** window and **Error List** window when a user adds a project item of this type to a project.
 
- [!code-vb[SPExtensibility.ProjectSystemExtension.General#2](../sharepoint/codesnippet/VisualBasic/projectsystemexamples/extension/projectitemtype.vb#2)]
- [!code-csharp[SPExtensibility.ProjectSystemExtension.General#2](../sharepoint/codesnippet/CSharp/projectsystemexamples/extension/projectitemtype.cs#2)]
+ :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/projectsystemexamples/extension/projectitemtype.vb" id="Snippet2":::
+ :::code language="csharp" source="../sharepoint/codesnippet/CSharp/projectsystemexamples/extension/projectitemtype.cs" id="Snippet2":::
 
  This example uses the SharePoint project service to write the message to the **Output** window and **Error List** window. For more information, see [Use the SharePoint project service](../sharepoint/using-the-sharepoint-project-service.md).
 

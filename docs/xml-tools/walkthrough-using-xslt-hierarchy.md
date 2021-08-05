@@ -1,10 +1,12 @@
 ---
-title: "Walkthrough: Using XSLT Hierarchy"
+title: 'Walkthrough: Using XSLT Hierarchy'
+description: Learn how to debug in a referenced style sheet using the the XSLT Hierarchy tool in Visual Studio by following the steps in this walkthrough.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
-author: jillre
-ms.author: jillfra
-manager: jillfra
+ms.topic: how-to
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ---
 # Walkthrough: Use XSLT hierarchy
 

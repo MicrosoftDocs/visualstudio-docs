@@ -1,7 +1,8 @@
 ---
+description: "Retrieves the file name of the library or object file from which the object was loaded."
 title: "IDiaSymbol::get_libraryName | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: d04ddd9a-812d-46e4-bd39-28bdf3edfb70
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

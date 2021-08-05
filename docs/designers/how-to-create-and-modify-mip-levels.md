@@ -1,13 +1,15 @@
 ---
-title: "How to: Create and Modify MIP Levels"
+title: 'How to: Create and Modify MIP Levels'
+description: Learn how to use the Image Editor to generate and modify MIP levels for texture-space Level-of-Detail.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 ms.assetid: f64d4369-2307-4175-a39a-2e45506f7fa1
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Create and modify MIP levels
 This document demonstrates how to use the **Image Editor** to generate and modify *MIP levels* for texture-space Level-of-Detail (LoD).

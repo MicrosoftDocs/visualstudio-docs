@@ -1,18 +1,20 @@
 ---
-title: Customize build debug tasks using tasks.vs.json launch.vs.json
+title: Customize build debug tasks with JSON files
+description: Learn how to customize tasks to provide some configuration details to run and debug a codebase that Visual Studio doesn't recognize.
+ms.custom: SEO-VS-2020
 ms.date: 02/21/2018
 ms.topic: conceptual
 helpviewer_keywords:
-  - NMAKE [Visual Studio]
-  - makefiles [Visual Studio]
-  - customize codebases [Visual Studio]
-  - tasks.vs.json file [Visual Studio]
-  - launch.vs.json file [Visual Studio]
-author: jillre
-ms.author: jillfra
-manager: jillfra
+- NMAKE [Visual Studio]
+- makefiles [Visual Studio]
+- customize codebases [Visual Studio]
+- tasks.vs.json file [Visual Studio]
+- launch.vs.json file [Visual Studio]
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Customize build and debug tasks for "Open Folder" development
 
@@ -195,7 +197,7 @@ This section describes some of the properties you can specify in *tasks.vs.json*
 
 You can create tasks for any file or folder by specifying its name in the `appliesTo` field, for example `"appliesTo": "hello.js"`. The following file masks can be used as values:
 
-|||
+|File mask|Description|
 |-|-|
 |`"*"`| task is available to all files and folders in the workspace|
 |`"*/"`| task is available to all folders in the workspace|
@@ -207,9 +209,9 @@ You can create tasks for any file or folder by specifying its name in the `appli
 
 #### Macros for tasks.vs.json
 
-|||
+|Macro|Description|
 |-|-|
-|`${env.<VARIABLE>}`| Specifies any environment variable (for example,  ${env.PATH}, ${env.COMSPEC} and so on) that is set for the developer command prompt. For more information, see [Developer command prompt for Visual Studio](/dotnet/framework/tools/developer-command-prompt-for-vs).|
+|`${env.<VARIABLE>}`| Specifies any environment variable (for example,  ${env.PATH}, ${env.COMSPEC} and so on) that is set for the developer command prompt. For more information, see [Developer Command Prompt and Developer PowerShell](../ide/reference/command-prompt-powershell.md).|
 |`${workspaceRoot}`| The full path to the workspace folder (for example, *C:\sources\hello*)|
 |`${file}`| The full path of the file or folder selected to run this task against (for example, *C:\sources\hello\src\hello.js*)|
 |`${relativeFile}`| The relative path to the file or folder (for example, *src\hello.js*)|
@@ -218,6 +220,8 @@ You can create tasks for any file or folder by specifying its name in the `appli
 |`${fileExtname}`| The extension of the selected file (for example,  *.js*)|
 
 ## Configure debugging with launch.vs.json
+
+To configure CMake projects for debugging, see [Configure CMake debugging sessions](/cpp/build/configure-cmake-debugging-sessions).
 
 1. To configure your codebase for debugging, in **Solution Explorer** choose the **Debug and Launch Settings** menu item from the right-click or context menu of your executable file.
 

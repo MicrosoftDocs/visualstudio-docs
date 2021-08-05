@@ -1,13 +1,15 @@
 ---
-title: "Workflow Designer - Control Flow Activity Designers"
+title: Workflow Designer - Control Flow Activity Designers
+description: Learn about Control Flow Activity Designers, which are system-provided activities used to control the flow within a workflow.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 ms.assetid: ba74af23-5398-4e62-bd90-c50612e3bfef
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Control Flow Activity Designers
 
@@ -41,7 +43,7 @@ Workflow Designer includes a number of system-provided activities that you can u
 
 For other types of activity designers, see the following topics:
 
- [Using the Activity Designers](../workflow-designer/using-the-activity-designers.md)
+ [Using the Activity Designers](control-flow-activity-designers.md)
 
  [Flowchart](../workflow-designer/flowchart-activity-designers.md)
 
@@ -59,4 +61,4 @@ For other types of activity designers, see the following topics:
 
 ## External Resources
 
-- [Using the Activity Designers](../workflow-designer/using-the-activity-designers.md)
+- [Using the Activity Designers](control-flow-activity-designers.md)

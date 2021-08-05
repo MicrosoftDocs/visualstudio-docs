@@ -1,8 +1,8 @@
 ---
 title: Create an Offline Installer
-description:
-author: conceptdev
-ms.author: crdun
+description: An offline installer feature is planned for future versions of Visual Studio for Mac.
+author: heiligerdankgesang
+ms.author: dominicn
 ms.date: 11/06/2018
 ms.technology: vs-ide-install
 ms.assetid: 5CA4B8C1-2D01-46EA-A6B2-8573B324509B

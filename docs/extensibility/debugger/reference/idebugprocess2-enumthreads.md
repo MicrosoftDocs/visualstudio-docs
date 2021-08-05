@@ -1,20 +1,21 @@
 ---
-title: "IDebugProcess2::EnumThreads | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Retrieves a list of all the threads running in the process."
+title: IDebugProcess2::EnumThreads | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugProcess2::EnumThreads"
+- IDebugProcess2::EnumThreads
 helpviewer_keywords:
-  - "IDebugProcess2::EnumThreads"
+- IDebugProcess2::EnumThreads
 ms.assetid: 05677385-7a7f-4545-8438-af00dde85db0
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugProcess2::EnumThreads
 Retrieves a list of all the threads running in the process.

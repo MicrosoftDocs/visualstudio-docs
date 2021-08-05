@@ -1,21 +1,22 @@
 ---
-title: "IDebugMemoryContext2::GetInfo | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Retrieves a CONTEXT_INFO structure that describes the context."
+title: IDebugMemoryContext2::GetInfo | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugMemoryContext2::GetInfo"
+- IDebugMemoryContext2::GetInfo
 helpviewer_keywords:
-  - "GetInfo method"
-  - "IDebugMemoryContext2::GetInfo method"
+- GetInfo method
+- IDebugMemoryContext2::GetInfo method
 ms.assetid: 08c7f091-1816-4d64-8834-f9ecaac5c58d
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugMemoryContext2::GetInfo
 Retrieves a [CONTEXT_INFO](../../../extensibility/debugger/reference/context-info.md) structure that describes the context.

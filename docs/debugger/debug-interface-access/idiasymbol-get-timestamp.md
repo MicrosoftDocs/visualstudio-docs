@@ -1,7 +1,8 @@
 ---
+description: "Retrieves the timestamp of the underlying executable file."
 title: "IDiaSymbol::get_timeStamp | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 5d707b76-dbaa-4d88-86c3-6f3672cc6d4c
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

@@ -1,13 +1,16 @@
 ---
-title: "Console | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Console | Microsoft Docs
+description: Use the Console option of VSPerfCmd.exe to start the specified application in a new command prompt window. You must use it with the Launch option.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: reference
 ms.assetid: e825ba66-1383-46ad-8712-396bc9c14036
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
-ms.workload:
-  - "multiple"
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+monikerRange: 'vs-2017'
+ms.workload: 
+  - multiple
 ---
 # Console
 The VSPerfCmd.exe **Console** option starts the specified application in a new command prompt window. **Console** can only be used with the VSPerfCmd **Launch** option. If the application is not a command-line application, **Console** has no effect.

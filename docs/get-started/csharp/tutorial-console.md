@@ -1,24 +1,39 @@
 ---
-title: "Tutorial: Create a simple C# console app"
+title: "Tutorial: Create a simple C# console app "
 description: "Learn how to create a C# console app in Visual Studio, step-by-step."
-ms.custom: "seodec18, get-started"
-ms.date: 03/23/2019
+ms.custom: "vs-acquisition, get-started"
+ms.date: 02/10/2021
 ms.technology: vs-ide-general
 ms.prod: visual-studio-windows
 ms.topic: tutorial
 ms.devlang: CSharp
-author: TerryGLee
-ms.author: tglee
-manager: jillfra
+author: anandmeg
+ms.author: meghaanand
+manager: jmartens
 dev_langs:
   - CSharp
 ms.workload:
   - "dotnet"
   - "dotnetcore"
 ---
-# Tutorial: Create a simple C# console app in Visual Studio
+# Tutorial: Create a simple C# console app in Visual Studio (part 1 of 2)
 
-In this tutorial for C#, you'll use Visual Studio to create and run a console app and explore some features of the Visual Studio integrated development environment (IDE) while you do so.
+In this tutorial,  you'll use Visual Studio to create and run a C# console app and explore some features of the Visual Studio integrated development environment (IDE) while you do so. This tutorial is part 1 of a two-part tutorial series.
+
+In this tutorial, you will:
+
+> [!div class="checklist"]
+> * Create a Visual Studio project.
+> * Create a C# console app.
+> * Debug your app.
+> * Close your app.
+> * Inspect your complete code.
+
+[In part 2](tutorial-console-part-2.md), you'll extend this app with additional projects, debugging tricks, and reference 3rd party packages.
+
+## Prerequisites
+
+You must have Visual Studio installed.
 
 ::: moniker range="vs-2017"
 
@@ -29,6 +44,12 @@ If you haven't already installed Visual Studio, go to the [Visual Studio downloa
 ::: moniker range="vs-2019"
 
 If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads) page to install it for free.
+
+::: moniker-end
+
+::: moniker range="vs-2022"
+
+If you haven't already installed Visual Studio 2022 Preview, go to the [Visual Studio 2022 Preview downloads](https://visualstudio.microsoft.com/vs/preview/vs2022) page to install it for free.
 
 ::: moniker-end
 
@@ -69,22 +90,22 @@ If you don't see the **Console App (.NET Core)** project template, you can get i
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
-1. Open Visual Studio 2019.
+1. Open Visual Studio.
 
 1. On the start window, choose **Create a new project**.
 
    ![View the 'Create a new project' window](../../get-started/media/vs-2019/create-new-project-dark-theme.png)
 
-1. On the **Create a new project** window, enter or type *console* in the search box. Next, choose **C#** from the Language list, and then choose **Windows** from the Platform list. 
+1. In the **Create a new project** window, choose **C#** from the Language list. Next, choose **Windows** from the Platform list and **Console** from the project types list. 
 
-   After you apply the language and platform filters, choose the **Console App (.NET Core)** template, and then choose **Next**.
+   After you apply the language, platform, and project type filters, choose the **Console Application** template, and then choose **Next**.
 
-   ![Choose the C# template for the Console App (.NET Framework)](./media/vs-2019/csharp-create-new-project-search-console-net-core-filtered.png)
+    :::image type="content" source="./media/vs-2019/csharp-create-new-project-console-net-core.png" alt-text="Choose the C# template for the Console App (.NET Framework)":::
 
    > [!NOTE]
-   > If you do not see the **Console App (.NET Core)** template, you can install it from the **Create a new project** window. In the **Not finding what you're looking for?** message, choose the **Install more tools and features** link.
+   > If you do not see the **Console Application** template, you can install it from the **Create a new project** window. In the **Not finding what you're looking for?** message, choose the **Install more tools and features** link.
    >
    > ![The 'Install more tools and features' link from the 'Not finding what you're looking for' message in the 'Create new project' window](../../get-started/media/vs-2019/not-finding-what-looking-for.png) 
    > 
@@ -94,12 +115,16 @@ If you don't see the **Console App (.NET Core)** project template, you can get i
    >
    > After that, choose the **Modify** button in the Visual Studio Installer. You might be prompted to save your work; if so, do so. Next, choose **Continue** to install the workload. Then, return to step 2 in this "[Create a project](#create-a-project)" procedure.
 
-1. In the **Configure your new project** window, type or enter *Calculator* in the **Project name** box. Then, choose **Create**.
+1. In the **Configure your new project** window, type or enter *Calculator* in the **Project name** box. Then, choose **Next**.
 
-   ![in the 'Configure your new project' window, name your project 'Calculator'](./media/vs-2019/csharp-name-your-calculator-project.png)
+    :::image type="content" source="./media/vs-2019/csharp-name-your-calculator-project.png" alt-text="in the 'Configure your new project' window, name your project 'Calculator'":::
+   
+1. In the **Additional information** window, **.NET Core 3.1** should already be selected for your target framework. If not, select **.NET Core 3.1**. Then, choose **Create**.
+
+    :::image type="content" source="./media/vs-2019/csharp-target-framework.png" alt-text="in the 'In the 'Additional information' window, make sure .NET Core 3.1 is selected":::
 
    Visual Studio opens your new project, which includes default "Hello World" code.
-   
+
 ::: moniker-end
 
 ## Create the app
@@ -128,9 +153,12 @@ Let's start with some basic integer math in C#.
 
     Notice that when you do so, the IntelliSense feature in Visual Studio offers you the option to autocomplete the entry.
 
+    > [!NOTE]
+    > The following animation isn't intended to duplicate the preceding code. It's intended only to show how the autocomplete feature works.
+
     ![Animation of integer math code that shows the IntelliSense autocomplete feature in the Visual Studio IDE](./media/integer-math-intellisense.gif)
 
-1. Choose **Calculator** to run your program, or press **F5**.
+1. Choose the green **Start** button next to **Calculator** to build and run your program, or press **F5**.
 
    ![Choose the Calculator button to run the app from the toolbar](./media/csharp-console-calculator-button.png)
 
@@ -232,7 +260,7 @@ As in the following screenshot, if you run the app and divide number 42 by the n
 
 Let's fix the code so that it handles decimals.
 
-1. Press **Ctrl** + **F** to open the **Find and Replace** control.
+1. Press **Ctrl** + **H** to open the **Find and Replace** control.
 
 1. Change each instance of the `int` variable to `float`.
 
@@ -248,7 +276,7 @@ Let's fix the code so that it handles decimals.
 
 However, the app produces only a decimal result. Let's make a few more tweaks to the code so that the app can calculate decimals too.
 
-1. Use the **Find and Replace** control (**Ctrl** + **F**) to change each instance of the `float` variable to `double`, and to change each instance of the `Convert.ToInt32` method to `Convert.ToDouble`.
+1. Use the **Find and Replace** control (**Ctrl** + **H**) to change each instance of the `float` variable to `double`, and to change each instance of the `Convert.ToInt32` method to `Convert.ToDouble`.
 
 1. Run your calculator app and divide the number **42.5** by the number **119.75**.
 
@@ -262,18 +290,21 @@ However, the app produces only a decimal result. Let's make a few more tweaks to
 
 We've improved on our basic calculator app, but it doesn't yet have fail safes in place to handle exceptions, such as user input errors.
 
-For example, if you try to divide a number by zero, or enter an alpha character when the app expects a numeric character (or vice versa), the app stops working and returns an error.
+For example, if you try to divide a number by zero, or enter an alpha character when the app expects a numeric character (or vice versa), the app might stop working, return an error, or return an unexpected nonnumeric result.
 
-Let's walk through a few common user input errors, locate them in the debugger, and fix them in the code.
+Let's walk through a few common user input errors, locate them in the debugger if they appear there, and fix them in the code.
 
->[!TIP]
->For more information about the debugger and how it works, see the [First look at the Visual Studio debugger](../../debugger/debugger-feature-tour.md) page.
+> [!TIP]
+> For more information about the debugger and how it works, see the [First look at the Visual Studio debugger](../../debugger/debugger-feature-tour.md) page.
 
 ### Fix the "divide by zero" error
 
-When you try to divide a number by zero, the console app freezes. Visual Studio then shows you what's wrong in the code editor.
+When you try to divide a number by zero, the console app might freeze and then show you what's wrong in the code editor.
 
-   ![The Visual Studio code editor shows the divide-by-zero error](./media/csharp-console-calculator-dividebyzero-error.png)
+   ![Screenshot of the Visual Studio code editor showing a line highlighted in yellow and an Exception Unhandled error for 'Attempted to divide by zero'.](./media/csharp-console-calculator-dividebyzero-error.png)
+
+> [!NOTE]
+> Sometimes, the app doesn't freeze and the debugger won't show a divide-by-zero error. Instead, the app might return an unexpected nonnumeric result, such as an infinity symbol. The following code fix still applies.
 
 Let's change the code to handle this error.
 
@@ -299,7 +330,7 @@ Let's change the code to handle this error.
 
 Now, when you divide any number by zero, the app will ask for another number. Even better: It won't stop asking until you provide a number other than zero.
 
-   ![The Visual Studio code editor shows the divide-by-zero error](./media/csharp-console-calculator-dividebyzero.png)
+   ![Screenshot of the Visual Studio code editor showing the code for the switch statement with the check for entry of a non-zero divisor added.](./media/csharp-console-calculator-dividebyzero.png)
 
 ### Fix the "format" error
 
@@ -317,15 +348,15 @@ The `Calculator` class will handle the bulk of the calculation work, and the `Pr
 
 Let's get started.
 
-1. Delete everything *after* the following code block:
+1. Delete everything in the `Calculator` namespace between its opening and closing braces:
 
     ```csharp
-
     using System;
 
     namespace Calculator
     {
-
+        
+    }
     ```
 
 1. Next, add a new `Calculator` class, as follows:
@@ -464,7 +495,7 @@ Let's get started.
 
 1. Close Visual Studio.
 
-## Code complete
+## Review: code complete
 
 During this tutorial, we've made a lot of changes to the calculator app. The app now handles computing resources more efficiently, and it handles most user input errors.
 
@@ -588,12 +619,32 @@ namespace Calculator
 
 ## Next steps
 
-Congratulations on completing this tutorial! To learn even more, continue with the following tutorials.
+:::moniker range="vs-2017"
+
+Continue with more tutorials:
 
 > [!div class="nextstepaction"]
-> [Continue with more C# tutorials](/dotnet/csharp/tutorials/)
+> [C# tutorials](/dotnet/csharp/tutorials)
 
-## See also
+> [!div class="nextstepaction"]
+> [Tour the Visual Studio IDE](../visual-studio-ide.md)
 
-* [C# IntelliSense](../../ide/visual-csharp-intellisense.md)
-* [Learn to debug C# code in Visual Studio](tutorial-debugger.md)
+:::moniker-end
+
+:::moniker range=">=vs-2019"
+
+Continue with the second part of this tutorial:
+
+> [!div class="nextstepaction"]
+> [Tutorial Part 2: Using multiple projects and 3rd party packages](tutorial-console-part-2.md)
+:::moniker-end
+
+Also of interest:
+
+- [Continue with more C# tutorials](/dotnet/csharp/tutorials/)
+- [Quickstart: create a ASP.NET Core web app](../../ide/quickstart-aspnet-core.md)
+- [Learn to debug C# code in Visual Studio](tutorial-debugger.md)
+- Walkthrough on how to [create and run unit tests](../../test/walkthrough-creating-and-running-unit-tests-for-managed-code.md)
+- [Run a C# program](run-program.md)
+- [C# IntelliSense](../../ide/visual-csharp-intellisense.md)
+- [Continue with Visual Studio IDE overview](/../visual-studio-ide.md)

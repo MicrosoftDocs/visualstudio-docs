@@ -1,5 +1,7 @@
 ---
 title: "Configure a computer to develop Office solutions"
+description: Learn how you can install a supported version of Visual Studio, the .NET Framework, and Microsoft Office so you can create VSTO Add-ins and customizations for Microsoft Office.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -9,7 +11,7 @@ helpviewer_keywords:
   - "Office development in Visual Studio, installing tools"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---
@@ -21,7 +23,7 @@ To create VSTO Add-ins and customizations for Microsoft Office, install a suppor
 |--------------|------------------------|
 |Visual Studio 2017| Any edition with the **Office/SharePoint development** workload.|
 |.NET Framework|- The .NET Framework 4 or later.|
-|Microsoft Office|<ul><li>Any suite edition of Office including Office Professional Plus for Office 365.</li><li>Any of the following standalone applications:<br /><br /> <ul><li>Excel</li><li>InfoPath (Office 2013 and Office 2010 only)</li><li>Outlook</li><li>PowerPoint</li><li>Project</li><li>Visio</li><li>Word</li></ul></li></ul><br /> Visual Basic for Applications (VBA) must be installed as part of Office. **Important:** Click-to-Run versions of Office 2010 applications are not supported.|
+|Microsoft Office|<ul><li>Any suite edition of Office including Microsoft 365 apps for enterprise.</li><li>Any of the following standalone applications:<br /><br /> <ul><li>Excel</li><li>InfoPath (Office 2013 and Office 2010 only)</li><li>Outlook</li><li>PowerPoint</li><li>Project</li><li>Visio</li><li>Word</li></ul></li></ul><br /> Visual Basic for Applications (VBA) must be installed as part of Office. **Important:** Click-to-Run versions of Office 2010 applications are not supported.|
 
 For detailed installation steps, see [How to: Configure a computer to develop Office solutions](../vsto/how-to-configure-a-computer-to-develop-office-solutions.md).
 

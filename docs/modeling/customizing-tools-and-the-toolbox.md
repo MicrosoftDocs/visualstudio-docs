@@ -1,18 +1,20 @@
 ---
 title: Customizing Tools and the Toolbox
+description: Learn how you must define toolbox items for the elements that you want to let users add to their models.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 f1_keywords:
-  - "vs.dsltools.dsldesigner.selectiondialog"
-  - "vs.dsltools.dsldesigner.selecticondialog"
-  - "vs.dsltools.dsldesigner.selectcursordialog"
+- vs.dsltools.dsldesigner.selectiondialog
+- vs.dsltools.dsldesigner.selecticondialog
+- vs.dsltools.dsldesigner.selectcursordialog
 helpviewer_keywords:
-  - "Domain-Specific Language, toolbox"
-author: jillre
-ms.author: jillfra
-manager: jillfra
+- Domain-Specific Language, toolbox
+author: mgoertz-msft
+ms.author: mgoertz
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Customizing Tools and the Toolbox
 

@@ -1,5 +1,6 @@
 ---
 title: "Profiling and Windows Vista security | Microsoft Docs"
+description: Depending on the User Access Permissions settings that are available, an individual user might have security permission to profile a process on that computer. 
 ms.date: "11/02/2018"
 ms.topic: "conceptual"
 helpviewer_keywords:
@@ -8,7 +9,8 @@ helpviewer_keywords:
 ms.assetid: 842112fc-b886-4801-8cd7-a25b314b0393
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+monikerRange: 'vs-2017'
 ms.workload:
   - "multiple"
 ---

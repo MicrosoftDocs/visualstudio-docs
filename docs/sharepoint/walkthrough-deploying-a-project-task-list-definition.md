@@ -1,7 +1,9 @@
 ---
 title: "Walkthrough: Deploying a Project Task List Definition | Microsoft Docs"
+description: In this walkthrough, use Visual Studio to create, customize, debug, and deploy a SharePoint list to track project tasks.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: how-to
 dev_langs:
   - "VB"
   - "CSharp"
@@ -9,7 +11,7 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, deploying"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---
@@ -69,8 +71,8 @@ In the task list, you can add an event receiver that automatically sets the due 
 
 6. Add code to the `ItemAdded` method in the **ProjectTaskListEventReceiver** code file. Each time a new task is added, a default due date and a description is added to the task. The default due date is July 1, 2009.
 
-     [!code-vb[SPProjectTaskList#1](../sharepoint/codesnippet/VisualBasic/projecttasklist1/projecttasklisteventreceiver/projecttasklisteventreceiver.vb#1)]
-     [!code-csharp[SPProjectTaskList#1](../sharepoint/codesnippet/CSharp/projecttasklist/projecttasklisteventreceiver/projecttasklisteventreceiver.cs#1)]
+     :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/projecttasklist1/projecttasklisteventreceiver/projecttasklisteventreceiver.vb" id="Snippet1":::
+     :::code language="csharp" source="../sharepoint/codesnippet/CSharp/projecttasklist/projecttasklisteventreceiver/projecttasklisteventreceiver.cs" id="Snippet1":::
 
 ## Customize the project task list feature
 
@@ -156,7 +158,7 @@ Visual Studio recycles the IIS application pool, retracts any existing versions 
 
      For example, `Install-SPUserSolution -Identity ProjectTaskList.wsp -Site http://NewSiteName`.
 
-     For more information about remote deployment, see [Using Solutions](http://go.microsoft.com/fwlink/?LinkId=217680) and [Adding and Deploying Solutions with PowerShell in SharePoint 2010](http://go.microsoft.com/fwlink/?LinkId=217682).
+     For more information about remote deployment, see [Using Solutions](/previous-versions/office/developer/sharepoint-2010/ee534972(v=office.14)) and [Adding and Deploying Solutions with PowerShell in SharePoint 2010](http://www.dotnetmafia.com/blogs/dotnettipoftheday/archive/2009/12/02/adding-and-deploying-solutions-with-powershell-in-sharepoint-2010.aspx).
 
 ## Next steps
 
@@ -166,7 +168,7 @@ You can learn more about how to customize and deploy SharePoint solutions from t
 
 - [How to: Create an event receiver](../sharepoint/how-to-create-an-event-receiver.md)
 
-- [Windows PowerShell for SharePoint Server 2010](http://go.microsoft.com/fwlink/?LinkId=217684)
+- [Windows PowerShell for SharePoint Server 2010](/powershell/module/sharepoint-server)
 
 ## See also
 [Package and deploy SharePoint solutions](../sharepoint/packaging-and-deploying-sharepoint-solutions.md)

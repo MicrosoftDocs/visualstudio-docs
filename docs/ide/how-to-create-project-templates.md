@@ -1,14 +1,16 @@
 ---
 title: Create project templates
+description: Learn how to use the Export Template Wizard and other methods to create project templates in Visual Studio.
+ms.custom: SEO-VS-2020
 ms.date: 01/02/2018
-ms.topic: conceptual
+ms.topic: how-to
 f1_keywords:
-  - "VS.ExportTemplateWizard"
+- VS.ExportTemplateWizard
 helpviewer_keywords:
-  - "project templates [Visual Studio], creating"
-author: jillre
-ms.author: jillfra
-manager: jillfra
+- project templates [Visual Studio], creating
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ---
 # How to: Create project templates
 
@@ -60,3 +62,4 @@ If you have the Visual Studio SDK installed, you can wrap the finished template 
 - [Create project and item templates](../ide/creating-project-and-item-templates.md)
 - [How to: Create item templates](../ide/how-to-create-item-templates.md)
 - [Get started with the VSIX project template](../extensibility/getting-started-with-the-vsix-project-template.md)
+- [Customize project and item templates](customizing-project-and-item-templates.md)

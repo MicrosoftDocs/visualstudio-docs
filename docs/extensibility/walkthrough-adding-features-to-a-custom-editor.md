@@ -1,15 +1,17 @@
 ---
-title: "Walkthrough: Adding Features to a Custom Editor | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: 'Walkthrough: Adding Features to a Custom Editor | Microsoft Docs'
+description: Learn how to add more features to a custom editor after you create the editor by using this walkthrough.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
 helpviewer_keywords:
-  - "editors [Visual Studio SDK], custom - add features"
+- editors [Visual Studio SDK], custom - add features
 ms.assetid: bfe083b6-3e35-4b9c-ad4f-b30b9ff412a5
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Walkthrough: Add features to a custom editor
 After you create a custom editor, you can add more features to it.
@@ -28,11 +30,11 @@ After you create a custom editor, you can add more features to it.
 
 3. Implement an editor factory by setting up the <xref:Microsoft.VisualStudio.Shell.Interop.IVsEditorFactory> interface.
 
-     For more information, see [Editor factories](../extensibility/editor-factories.md).
+     For more information, see [Editor factories](/previous-versions/visualstudio/visual-studio-2015/extensibility/editor-factories?preserve-view=true&view=vs-2015).
 
 4. Decide whether you want your editor to use in-place activation or simplified embedding to manage the document view object window.
 
-     A simplified embedding editor window hosts a standard document view, while an in-place activation editor window hosts an ActiveX control or other active object as its document view. For more information, see [Simplified Embedding](../extensibility/simplified-embedding.md) and [In-place activation](../extensibility/in-place-activation.md).
+     A simplified embedding editor window hosts a standard document view, while an in-place activation editor window hosts an ActiveX control or other active object as its document view. For more information, see [Simplified Embedding](../extensibility/simplified-embedding.md) and [In-place activation](/previous-versions/visualstudio/visual-studio-2015/misc/in-place-activation?preserve-view=true&view=vs-2015).
 
 5. Implement the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> interface to handle commands.
 
@@ -109,7 +111,7 @@ After you create a custom editor, you can add more features to it.
 
 12. Implement context-sensitive Help support.
 
-     This step allows you to provide F1 Help and Dynamic Help window support for items in your editor. For more information, see [How to: Provide context for editors](../extensibility/how-to-provide-context-for-editors.md).
+     This step allows you to provide F1 Help and Dynamic Help window support for items in your editor. For more information, see [How to: Provide context for editors](/previous-versions/visualstudio/visual-studio-2015/extensibility/how-to-provide-context-for-editors?preserve-view=true&view=vs-2015).
 
 13. Expose an Automation Object Model from your editor by implementing the `IDispatch` interface.
 
@@ -147,5 +149,5 @@ After you create a custom editor, you can add more features to it.
   - `Window.Object`
 
 ## See also
+
 - [Contribute to the automation model](../extensibility/internals/contributing-to-the-automation-model.md)
-- [How to: Provide context for editors](../extensibility/how-to-provide-context-for-editors.md)

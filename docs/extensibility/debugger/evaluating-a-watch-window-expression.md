@@ -1,17 +1,19 @@
 ---
-title: "Evaluating a Watch Window Expression | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Evaluating a Watch Window Expression | Microsoft Docs
+description: Learn how Visual Studio calls the debug engine to determine the current value of each expression in its watch list when execution pauses.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "Watch window expressions"
-  - "Watch window, expressions"
-  - "expression evaluation, Watch window expressions"
+- Watch window expressions
+- Watch window, expressions
+- expression evaluation, Watch window expressions
 ms.assetid: b07e72c7-60d3-4b30-8e3f-6db83454c348
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Evaluate a watch window expression
 > [!IMPORTANT]

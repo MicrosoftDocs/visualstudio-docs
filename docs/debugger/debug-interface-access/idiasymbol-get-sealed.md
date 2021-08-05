@@ -1,7 +1,8 @@
 ---
+description: "Retrieves a flag that specifies whether the class or method is sealed."
 title: "IDiaSymbol::get_sealed | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: cd1fef1f-47de-47c7-885f-f6f0a9a07d8c
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

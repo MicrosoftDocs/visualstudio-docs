@@ -1,17 +1,19 @@
 ---
-title: "Custom Tools | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Custom Tools | Microsoft Docs
+description: Learn how to create custom tools in Visual Studio that associate a tool with an item in a project and run that tool whenever the file is saved.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "VSPackages, custom tools"
-  - "tools [Visual Studio], custom"
-  - "custom tools"
+- VSPackages, custom tools
+- tools [Visual Studio], custom
+- custom tools
 ms.assetid: d669f154-9b23-48b6-b9f6-7419c8dd61a6
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Custom tools
 *Custom tools* let you associate a tool with an item in a project and run that tool whenever the file is saved. Certain custom tools, sometimes referred to as *single-file generators*, are frequently used to implement translators that generate code from data and vice versa. For example, single-file generators create [!INCLUDE[csprcs](../../data-tools/includes/csprcs_md.md)] and [!INCLUDE[vbprvb](../../code-quality/includes/vbprvb_md.md)] source code out of the *.settings* and *.resx* files. The generated source code provides strongly-typed access to the data in the *.settings* and *.resx* files. The [!INCLUDE[csprcs](../../data-tools/includes/csprcs_md.md)] and [!INCLUDE[vbprvb](../../code-quality/includes/vbprvb_md.md)] project types support custom tools; [!INCLUDE[vcprvc](../../code-quality/includes/vcprvc_md.md)] project types do not. Your own project types can also support custom tools.

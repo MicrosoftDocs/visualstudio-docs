@@ -6,9 +6,9 @@ ms.topic: tutorial
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
 ms.devlang: vb
-author: TerryGLee
-ms.author: tglee
-manager: jillfra
+author: j-martens
+ms.author: jmartens
+manager: jmartens
 dev_langs:
   - VB
 ms.workload:
@@ -33,6 +33,15 @@ If you haven't already installed Visual Studio, go to the [Visual Studio downloa
 
 ::: moniker-end
 
+::: moniker range="vs-2022"
+
+If you haven't already installed Visual Studio, go to the [Visual Studio 2022 Preview downloads](https://visualstudio.microsoft.com/vs/preview/vs2022) page to install it for free.
+
+> [!NOTE]
+> Some of the screenshots in this tutorial use the dark theme. If you aren't using the dark theme but would like to, see the [Personalize the Visual Studio IDE and Editor](../ide/quickstart-personalize-the-ide.md) page to learn how.
+
+::: moniker-end
+
 ## Create a project
 
 First, you'll create a Visual Basic application project. The project type comes with all the template files you'll need, before you've even added anything.
@@ -51,9 +60,9 @@ First, you'll create a Visual Basic application project. The project type comes 
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
-1. Open Visual Studio 2019.
+1. Open Visual Studio.
 
 1. On the start window, choose **Create a new project**.
 
@@ -158,6 +167,6 @@ To learn more, continue with the following tutorial:
 
 ## See also
 
-* [More Visual Basic tutorials](/visualstudio/get-started/visual-basic/)
-* [C# tutorials](/visualstudio/get-started/csharp/)
+* [More Visual Basic tutorials](../get-started/visual-basic/index.yml)
+* [C# tutorials](../get-started/csharp/index.yml)
 * [C++ tutorials](/cpp/get-started/tutorial-console-cpp)

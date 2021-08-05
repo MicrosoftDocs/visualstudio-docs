@@ -1,20 +1,21 @@
 ---
-title: "IDebugDocumentPosition2::GetFileName | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Gets the file name of the source file that contains the document position."
+title: IDebugDocumentPosition2::GetFileName | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugDocumentPosition2::GetFileName"
+- IDebugDocumentPosition2::GetFileName
 helpviewer_keywords:
-  - "IDebugDocumentPosition2::GetFileName"
+- IDebugDocumentPosition2::GetFileName
 ms.assetid: d713635e-088f-465b-b26d-00ac971c9e86
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugDocumentPosition2::GetFileName
 Gets the file name of the source file that contains the document position.

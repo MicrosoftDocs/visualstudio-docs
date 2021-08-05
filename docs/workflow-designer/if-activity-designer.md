@@ -1,15 +1,17 @@
 ---
-title: "Workflow Designer - If Activity Designer"
+title: Workflow Designer - If Activity Designer
+description: Learn how the If activity evaluates a condition and executes an activity depending on the results of that evaluation.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "System.Activities.Statements.If.UI"
+- System.Activities.Statements.If.UI
 ms.assetid: 930a8fa2-db98-43e9-ad6d-a85cc7a6519a
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # If Activity Designer
 

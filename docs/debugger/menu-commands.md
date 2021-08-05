@@ -1,5 +1,7 @@
 ---
 title: "Menu Commands | Microsoft Docs"
+description: See a list of the Spy++ menus and, for each menu, a link to further information.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:
@@ -8,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 9d1aab27-9ac0-4096-8e12-c47503acb2e9
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

@@ -1,20 +1,21 @@
 ---
-title: "IDebugObject::GetValue | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Gets the value of the object as a consecutive series of bytes."
+title: IDebugObject::GetValue | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugObject::GetValue"
+- IDebugObject::GetValue
 helpviewer_keywords:
-  - "IDebugObject::GetValue method"
+- IDebugObject::GetValue method
 ms.assetid: eec6051e-8ecb-49fa-bdd4-dd786f211692
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugObject::GetValue
 Gets the value of the object as a consecutive series of bytes.

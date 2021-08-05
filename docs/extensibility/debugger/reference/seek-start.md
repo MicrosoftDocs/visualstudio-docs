@@ -1,20 +1,21 @@
 ---
-title: "SEEK_START | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Specifies the position from which to start seeking in a disassembly stream."
+title: SEEK_START | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "SEEK_START"
+- SEEK_START
 helpviewer_keywords:
-  - "SEEK_START enumeration"
+- SEEK_START enumeration
 ms.assetid: 55bd8901-626e-428b-a263-23b14417f4c6
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # SEEK_START
 Specifies the position from which to start seeking in a disassembly stream.

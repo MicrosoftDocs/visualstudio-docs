@@ -1,19 +1,20 @@
 ---
-title: "IDebugGenericParamField::GetConstraints | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Retrieves the constraints that are associated with this generic parameter."
+title: IDebugGenericParamField::GetConstraints | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "IDebugGenericParamField::GetConstraints"
-  - "GetConstraints"
+- IDebugGenericParamField::GetConstraints
+- GetConstraints
 ms.assetid: 86a78b5a-ee0f-4999-a0ba-919d3dc7d969
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugGenericParamField::GetConstraints
 Retrieves the constraints that are associated with this generic parameter.

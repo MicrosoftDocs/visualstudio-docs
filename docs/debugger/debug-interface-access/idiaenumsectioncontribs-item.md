@@ -1,7 +1,8 @@
 ---
+description: "Retrieves section contributions by means of an index."
 title: "IDiaEnumSectionContribs::Item | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 63a28f23-0ca0-44a7-b11b-ca0206d642a0
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

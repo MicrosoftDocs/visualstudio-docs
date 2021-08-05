@@ -1,13 +1,15 @@
 ---
-title: "Walkthrough: Saving User Settings on a Start Page | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: 'Walkthrough: Saving User Settings on a Start Page | Microsoft Docs'
+description: Learn how to persist user settings for your Start Page by saving a setting to the registry by using this walkthrough.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
 ms.assetid: 754b9bf3-8681-4c77-b0a4-09146a4e1d2d
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 monikerRange: vs-2017
 ---
 # Walkthrough: Save user settings on a Start Page
@@ -75,7 +77,7 @@ For more information about how to persist settings, see [Extending User Settings
 
 2. Add the following `using` directives to the top of the file.
 
-     [!code-csharp[StartPageDTE#11](../extensibility/codesnippet/CSharp/walkthrough-saving-user-settings-on-a-start-page_1.cs)]
+     :::code language="csharp" source="../snippets/csharp/VS_Snippets_VSSDK/startpagedte/cs/startpagecontrol/mycontrol.xaml.cs" id="Snippet11":::
 
 3. Add a private `SettingsStore` property, as shown in the following example.
 

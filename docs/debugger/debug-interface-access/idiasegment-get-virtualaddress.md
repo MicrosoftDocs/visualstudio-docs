@@ -1,7 +1,8 @@
 ---
+description: "Retrieves the virtual address (VA) of the beginning of the section."
 title: "IDiaSegment::get_virtualAddress | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 30073dd0-c864-4c4a-8863-80f243419f6c
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

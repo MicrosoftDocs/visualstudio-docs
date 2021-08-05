@@ -1,5 +1,8 @@
 ---
 title: "Deploy, publish, & upgrade SharePoint solution packages"
+description: Deploy, publish, and upgrade SharePoint solution packages. Customize the deployment process. Publish packages to a remote or local server.
+ms.custom: SEO-VS-2020
+titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 f1_keywords:
@@ -13,7 +16,7 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, deploying"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---
@@ -48,7 +51,7 @@ ms.workload:
  You can also add commands to run before and after deployment. For more information, see [How to: Set SharePoint deployment commands](../sharepoint/how-to-set-sharepoint-deployment-commands.md).
 
 ## Publish packages to a remote or local server
- To publish a sandboxed SharePoint solution to a remote server, on the menu bar, choose **Build**, **Publish**, and then, in the **Publish** dialog box, choose the **Publish to SharePoint Site** option button, providing the remote server's URL, such as **https://someremoteserver.sharepoint.microsoftonline.com**.
+ To publish a sandboxed SharePoint solution to a remote server, on the menu bar, choose **Build**, **Publish**, and then, in the **Publish** dialog box, choose the **Publish to SharePoint Site** option button, providing the remote server's URL, such as `https://someremoteserver.sharepoint.microsoftonline.com`.
 
  To publish a SharePoint solution to a local server, in the **Publish** dialog box, choose the **Publish to File System** option button, providing a local system path.
 

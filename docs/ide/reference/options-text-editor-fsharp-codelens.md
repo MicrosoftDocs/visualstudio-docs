@@ -1,14 +1,16 @@
 ---
 title: Options, Text Editor, F#, CodeLens
+description: Learn how to use the CodeLens page in the F# section to modify the text editor CodeLens settings for F#.
+ms.custom: SEO-VS-2020
 ms.date: 01/16/2019
 ms.topic: reference
 f1_keywords:
-  - "VS.ToolsOptionsPages.Text_Editor.F%2523.CodeLens"
-author: jillre
-ms.author: jillfra
-manager: jillfra
+- VS.ToolsOptionsPages.Text_Editor.F%2523.CodeLens
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ms.workload:
-  - "dotnet"
+- dotnet
 ---
 # Options, Text Editor, F#, CodeLens
 

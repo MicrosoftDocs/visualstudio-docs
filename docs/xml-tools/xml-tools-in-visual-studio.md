@@ -1,39 +1,41 @@
 ---
 title: XML editor and schema designer
+description: Learn about the tools in Visual Studio for working with XML, XSLT, and XML schemas, including the XML editor, XML Schema Designer, and the XSLT debugger.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: overview
 f1_keywords:
-  - "vb.xmldesigner"
+- vb.xmldesigner
 helpviewer_keywords:
-  - "XML [Visual Studio], resources"
-  - "Enterprise Templates, XML and"
-  - "discovery files, XML"
-  - "server controls, XML and"
-  - "Web server controls, XML"
-  - "XSL"
-  - "XML [Visual Studio], data sources"
-  - "XML schemas"
-  - "XML [Visual Studio], SGML relationship to"
-  - "CSS, style sheets for XML"
-  - "XML [Visual Studio], .NET classes"
-  - "data [Visual Studio], XML"
-  - "classes [Visual Studio], XML"
-  - "style sheets, for XML"
-  - "Web services"
-  - "SGML, XML"
-  - "XML [Visual Studio]"
-  - "datasets [Visual Basic], XML Schemas"
-  - "XSD schemas"
-  - "XSL, style sheets"
-  - "XMLDataDocument class"
+- XML [Visual Studio], resources
+- Enterprise Templates, XML and
+- discovery files, XML
+- server controls, XML and
+- Web server controls, XML
+- XSL
+- XML [Visual Studio], data sources
+- XML schemas
+- XML [Visual Studio], SGML relationship to
+- CSS, style sheets for XML
+- XML [Visual Studio], .NET classes
+- data [Visual Studio], XML
+- classes [Visual Studio], XML
+- style sheets, for XML
+- Web services
+- SGML, XML
+- XML [Visual Studio]
+- datasets [Visual Basic], XML Schemas
+- XSD schemas
+- XSL, style sheets
+- XMLDataDocument class
 ms.assetid: 1fd5de47-2d61-4180-9539-c2c4bf9ab768
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
-# XML tools in Visual Studio
+# Overview of XML tools in Visual Studio
 
 *Extensible Markup Language (XML)* is a markup language that provides a format for describing data. XML separates the data and its presentation by using associated style sheets such as Extensible Stylesheet Language (XSL) and cascading style sheets (CSS). Visual Studio includes tools and features that make it easier to work with XML, XSLT, and XML schemas.
 

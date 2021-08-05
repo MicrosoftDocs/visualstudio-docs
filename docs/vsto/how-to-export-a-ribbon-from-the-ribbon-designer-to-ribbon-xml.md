@@ -1,7 +1,10 @@
 ---
 title: "How to: Export a ribbon from the Ribbon Designer to Ribbon XML"
+description: Learn that to customize the ribbon, you can export the ribbon from the designer to Ribbon XML and edit the XML directly.
+ms.custom: SEO-VS-2020
+titleSuffix: ""
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: "how-to"
 dev_langs:
   - "VB"
   - "CSharp"
@@ -15,7 +18,7 @@ helpviewer_keywords:
   - "exporting Ribbon"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---
@@ -45,8 +48,8 @@ ms.workload:
 
      After you uncomment the code, it should resemble the following example. In this example, the Ribbon class is called `MyRibbon`.
 
-     [!code-csharp[Trin_Ribbon_Custom_Tab_XML#1](../vsto/codesnippet/CSharp/Trin_Ribbon_Custom_Tab_XML_O12/ThisAddIn.cs#1)]
-     [!code-vb[Trin_Ribbon_Custom_Tab_XML#1](../vsto/codesnippet/VisualBasic/Trin_Ribbon_Custom_Tab_XML_O12/ThisAddIn.vb#1)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_Ribbon_Custom_Tab_XML_O12/ThisAddIn.cs" id="Snippet1":::
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_Ribbon_Custom_Tab_XML_O12/ThisAddIn.vb" id="Snippet1":::
 
 6. Switch to the Ribbon XML code file and find the `Ribbon Callbacks` region.
 

@@ -1,5 +1,7 @@
 ---
 title: "Walkthrough: Create your first VSTO Add-in for Project"
+description: Create an application-level Add-in for Microsoft Project. This feature is available to the application itself, regardless of which projects are open.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -12,7 +14,7 @@ helpviewer_keywords:
   - "add-ins [Office development in Visual Studio], creating your first project"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---
@@ -73,8 +75,8 @@ ms.workload:
 
     When the user creates a new project, this event handler adds a task to the project.
 
-    [!code-vb[Trin_ProjectAddInTutorial#1](../vsto/codesnippet/VisualBasic/Trin_ProjectAddInTutorial/ThisAddIn.vb#1)]
-    [!code-csharp[Trin_ProjectAddInTutorial#1](../vsto/codesnippet/CSharp/Trin_ProjectAddInTutorial/ThisAddIn.cs#1)]
+    :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_ProjectAddInTutorial/ThisAddIn.vb" id="Snippet1":::
+    :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_ProjectAddInTutorial/ThisAddIn.cs" id="Snippet1":::
 
    To modify the project, this code example uses the following objects:
 
@@ -84,7 +86,7 @@ ms.workload:
 
 1. If you are using C#, add the following code to the `ThisAddIn_Startup` event handler. This code connects the `Application_Newproject` event handler with the NewProject event.
 
-     [!code-csharp[Trin_ProjectAddInTutorial#2](../vsto/codesnippet/CSharp/Trin_ProjectAddInTutorial/ThisAddIn.cs#2)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_ProjectAddInTutorial/ThisAddIn.cs" id="Snippet2":::
 
 ## Test the project
  When you build and run the project, verify that the new task appears in the resulting new project.

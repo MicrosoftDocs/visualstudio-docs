@@ -1,5 +1,7 @@
 ---
 title: "XmlMappedRange control"
+description: Learn that the XmlMappedRange control is a range that is created only when a non-repeating schema element is mapped onto a cell in Microsoft Excel.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -11,7 +13,7 @@ helpviewer_keywords:
   - "XMLMappedRange control, events"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---
@@ -19,8 +21,6 @@ ms.workload:
   The <xref:Microsoft.Office.Tools.Excel.XmlMappedRange> control is a range that is created only when a non-repeating schema element is mapped onto a cell in Microsoft Office Excel. For example, when the `maxOccurs` attribute of a schema element equals 1. After Visual Studio creates the XML mapped range, you can program against it directly without having to traverse the Excel object model. You can only delete a <xref:Microsoft.Office.Tools.Excel.XmlMappedRange> control within Excel when the element mapping is removed.
 
  [!INCLUDE[appliesto_xlalldoc](../vsto/includes/appliesto-xlalldoc-md.md)]
-
- ![link to video](../vsto/media/playvideo.gif "link to video") For a related video demonstration, see [How do I: Use XML mapping in Excel?](http://go.microsoft.com/fwlink/?LinkID=130288).
 
 ## Bind data to the control
  An <xref:Microsoft.Office.Tools.Excel.XmlMappedRange> control supports binding to a single data field (simple data binding). The <xref:Microsoft.Office.Tools.Excel.ListObject> control can supports complex data binding, and is automatically created when a repeating schema element is mapped onto a cell. For more information, see [ListObject control](../vsto/listobject-control.md).

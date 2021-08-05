@@ -1,11 +1,13 @@
 ---
 title: "LineOff | Microsoft Docs"
+description: Learn how the VSPerfCmd LineOff option disables line number data collection when VSPerfCmd is used to start the application. 
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 ms.assetid: 76082063-20ef-47ae-ad64-81b43b654865
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+monikerRange: 'vs-2017'
 ms.workload:
   - "multiple"
 ---

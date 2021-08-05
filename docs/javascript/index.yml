@@ -7,6 +7,7 @@ metadata:
   title: JavaScript and TypeScript in Visual Studio # Required; page title displayed in search results. Include the brand. < 60 chars.
   description: Learn how to use Visual Studio to create JavaScript and TypeScript apps.
   ms.topic: landing-page
+  ms.technology: vs-javascript
   author: mikejo5000
   ms.author: mikejo
   manager: jillfra
@@ -55,7 +56,8 @@ landingContent:
             url: tutorial-nodejs.md
           - text: Create a web app with Node.js and React
             url: tutorial-nodejs-with-react-and-jsx.md
-
+          - text: Create an ASP.NET Core app with TypeScript
+            url: tutorial-aspnet-with-typescript.md
 
   # Card
   - title: Learn Visual Studio
@@ -64,6 +66,10 @@ landingContent:
         links:
           - text: Write and edit code
             url: write-and-edit-code.md
+          - text: Compile TypeScript code using tsc
+            url: compile-typescript-code-npm.md
+          - text: Compile TypeScript code using NuGet
+            url: compile-typescript-code-nuget.md
           - text: Manage npm packages
             url: npm-package-management.md
           - text: Use the Node.js interactive REPL
@@ -74,6 +80,3 @@ landingContent:
             url: develop-javascript-code-without-solutions-projects.md
           - text: Write and run unit tests
             url: unit-testing-javascript-with-visual-studio.md
-
-
-

@@ -1,11 +1,13 @@
 ---
 title: "Output | Microsoft Docs"
+description: Learn how the Output option specifies the name of the profiling data file for the performance session. Output must be used with the Start option.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 ms.assetid: 5e286e61-4548-42cf-a635-e608c5edbe2b
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+monikerRange: 'vs-2017'
 ms.workload:
   - "multiple"
 ---

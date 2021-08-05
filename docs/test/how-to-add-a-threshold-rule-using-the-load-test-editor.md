@@ -1,16 +1,18 @@
 ---
-title: "Add a Threshold Rule for load testing"
+title: Add a Threshold Rule for load testing
+description: Learn about threshold rules in load tests, which compare a performance counter value with either a constant value or another performance counter value.
+ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
-ms.topic: conceptual
-helpviewer_keywords:
-  - "load tests, monitoring"
-  - "load tests, thresholds"
-  - "load tests, analyzing"
-  - "thresholds in load tests"
+ms.topic: how-to
+helpviewer_keywords: 
+  - load tests, monitoring
+  - load tests, thresholds
+  - load tests, analyzing
+  - thresholds in load tests
 ms.assetid: 3d8fac8f-426f-4155-9ced-f7cd4c79792c
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
 ---
 # How to: Add a threshold rule using the load test editor
 

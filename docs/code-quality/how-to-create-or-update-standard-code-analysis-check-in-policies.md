@@ -1,16 +1,18 @@
 ---
-title: "Create or Update Standard Code Analysis Check-in Policies"
+title: Create/update standard code analysis check-in policies
+description: Learn how to ensure that code analysis runs on all code projects in an Azure DevOps project. See how to configure a project code analysis check-in policy.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: "conceptual"
-f1_keywords:
-  - "vs.codeanalysis.policyeditor"
-helpviewer_keywords:
-  - "code analysis, migrating check-in policy"
-author: jillre
-ms.author: jillfra
-manager: jillfra
-ms.workload:
-  - "multiple"
+ms.topic: how-to
+f1_keywords: 
+  - vs.codeanalysis.policyeditor
+helpviewer_keywords: 
+  - code analysis, migrating check-in policy
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.workload: 
+  - multiple
 ---
 # How to: Create or Update Standard Code Analysis Check-in Policies
 
@@ -23,7 +25,7 @@ Code analysis check-in policies are set in the project settings and apply to eac
 
 - For managed code, you set the check-in policy by specifying a *rule set* that contains a subset of the code analysis rules.
 
-- For C/C++ code, in Visual Studio 2017 version 15.6 and earlier, the check-in policy requires that all code analysis rules are run. You can add pre-processor directives to disable specific rules for the individual code projects in your Azure DevOps project. In 15.7 and later, you can use **/analyze:ruleset** to specify which rules to run. For more information, see [Using Rule Sets to Specify the C++ Rules to Run](using-rule-sets-to-specify-the-cpp-rules-to-run.md).
+- For C/C++ code, in Visual Studio 2017 version 15.6 and earlier, the check-in policy requires that all code analysis rules are run. You can add pre-processor directives to disable specific rules for the individual code projects in your Azure DevOps project. In 15.7 and later, you can use **/analyze:ruleset** to specify which rules to run. For more information, see [Using Rule Sets to Specify the C++ Rules to Run](/cpp/code-quality/using-rule-sets-to-specify-the-cpp-rules-to-run).
 
 After you specify a check-in policy for managed code, team members can synchronize their code analysis settings for code projects to the Azure DevOps project policy settings.
 
@@ -63,4 +65,4 @@ For more information about how to create and implement a custom check-in policy 
 
 ## See also
 
-- [Create and use code analysis check-in policies](../code-quality/how-to-create-or-update-standard-code-analysis-check-in-policies.md)
+- [Implement Custom Code Analysis Check-in Policies for Managed Code](../code-quality/implementing-custom-code-analysis-check-in-policies-for-managed-code.md)

@@ -1,5 +1,7 @@
 ---
 title: "ClickOnce and Application Settings | Microsoft Docs"
+description: Learn how application settings files work in a ClickOnce application and how ClickOnce migrates settings when the user upgrades to the next version.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:
@@ -11,19 +13,19 @@ helpviewer_keywords:
 ms.assetid: 891caba6-faef-4a3c-8f71-60e6fadb60eb
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---
 # ClickOnce and application settings
 Application settings for Windows Forms makes it easy to create, store, and maintain custom application and user preferences on the client. The following document describes how application settings files work in a ClickOnce application, and how ClickOnce migrates settings when the user upgrades to the next version.
 
- The information below applies only to the default application settings provider, the \<xref:System.Configuration.LocalFileSettingsProvider> class. If you supply a custom provider, that provider will determine how it stores its data and how it upgrades its settings between versions. For more information on application settings providers, see [Application settings architecture](/dotnet/framework/winforms/advanced/application-settings-architecture).
+ The information below applies only to the default application settings provider, the <xref:System.Configuration.LocalFileSettingsProvider> class. If you supply a custom provider, that provider will determine how it stores its data and how it upgrades its settings between versions. For more information on application settings providers, see [Application settings architecture](/dotnet/framework/winforms/advanced/application-settings-architecture).
 
 ## Application settings files
  Application settings consumes two files: *\<app>.exe.config* and *user.config*, where *app* is the name of your Windows Forms application. *user.config* is created on the client the first time your application stores user-scoped settings. *\<app>.exe.config*, by contrast, will exist prior to deployment if you define default values for settings. Visual Studio will include this file automatically when you use its **Publish** command. If you create your ClickOnce application using *Mage.exe* or *MageUI.exe*, you must make sure this file is included with your application's other files when you populate your application manifest.
 
- In a Windows Forms applications not deployed using ClickOnce, an application's *\<app>.exe.config* file is stored in the application directory, while the *user.config* file is stored in the user's **Documents and Settings** folder. In a ClickOnce application, *\<app>.exe.config* lives in the application directory inside of the ClickOnce application cache, and *user.config* lives in the ClickOnce data directory for that application.
+ In a Windows Forms application not deployed using ClickOnce, an application's *\<app>.exe.config* file is stored in the application directory, while the *user.config* file is stored in the user's **Documents and Settings** folder. In a ClickOnce application, *\<app>.exe.config* lives in the application directory inside of the ClickOnce application cache, and *user.config* lives in the ClickOnce data directory for that application.
 
  Regardless of how you deploy your application, application settings ensures safe read access to *\<app>.exe.config*, and safe read/write access to *user.config*.
 
@@ -41,7 +43,7 @@ Application settings for Windows Forms makes it easy to create, store, and maint
 |Setting's default changed; local setting still set to original default in *user.config*|The setting is merged into the current version's *user.config* with the new default as the value|
 |Setting's default changed; setting set to non-default in *user.config*|The setting is merged into the current version's *user.config* with the non-default value retained|
 
-If you have created your own application settings wrapper class and wish to customize the update logic, you can override the \<xref:System.Configuration.ApplicationSettingsBase.Upgrade%2A> method.
+If you have created your own application settings wrapper class and wish to customize the update logic, you can override the <xref:System.Configuration.ApplicationSettingsBase.Upgrade%2A> method.
 
 ## ClickOnce and roaming settings
  ClickOnce does not work with roaming settings, which allows your settings file to follow you across machines on a network. If you need roaming settings, you will need either to implement an application settings provider that stores settings over the network, or develop your own custom settings classes for storing settings on a remote computer. For more information in settings providers, see [Application settings architecture](/dotnet/framework/winforms/advanced/application-settings-architecture).

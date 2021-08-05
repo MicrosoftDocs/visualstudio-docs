@@ -1,7 +1,8 @@
 ---
+description: "Retrieves a frame data element by means of an index."
 title: "IDiaEnumFrameData::Item | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 2761a72d-1868-4f5b-a32e-c2a1d9358c91
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

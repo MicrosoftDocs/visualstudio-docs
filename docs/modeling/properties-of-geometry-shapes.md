@@ -1,14 +1,16 @@
 ---
 title: Properties of Geometry Shapes
+description: Learn how you can use geometry shapes to specify how instances of domain classes are displayed in a domain-specific language.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
   - "vs.dsltools.dsldesigner.geometryshape"
 helpviewer_keywords:
   - "Domain-Specific Language, geometry shape"
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: mgoertz-msft
+ms.author: mgoertz
+manager: jmartens
 ms.workload:
   - "multiple"
 ---
@@ -47,4 +49,4 @@ You can use geometry shapes to specify how instances of domain classes are displ
 
 ## See also
 
-- [Domain-Specific Language Tools Glossary](https://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)
+- [Domain-Specific Language Tools Glossary](/previous-versions/bb126564(v=vs.100))

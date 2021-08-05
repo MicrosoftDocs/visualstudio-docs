@@ -1,20 +1,21 @@
 ---
-title: "IDebugSymbolProvider::GetAddressesFromContext | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "This method maps a document context into an array of debug addresses."
+title: IDebugSymbolProvider::GetAddressesFromContext | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugSymbolProvider::GetAddressesFromContext"
+- IDebugSymbolProvider::GetAddressesFromContext
 helpviewer_keywords:
-  - "IDebugSymbolProvider::GetAddressesFromContext method"
+- IDebugSymbolProvider::GetAddressesFromContext method
 ms.assetid: a3124883-a255-4543-a5ec-e1c7a97beb69
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugSymbolProvider::GetAddressesFromContext
 This method maps a document context into an array of debug addresses.

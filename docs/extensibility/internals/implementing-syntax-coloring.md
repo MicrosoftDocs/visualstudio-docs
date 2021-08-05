@@ -1,17 +1,19 @@
 ---
-title: "Implementing Syntax Coloring | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Implementing Syntax Coloring | Microsoft Docs
+description: Learn how to implement syntax coloring in Visual Studio by using the language service features of the managed package framework (MPF).
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
 helpviewer_keywords:
-  - "syntax coloring, implementing"
-  - "editors [Visual Studio SDK], colorizing text"
-  - "text, colorizing in editors"
+- syntax coloring, implementing
+- editors [Visual Studio SDK], colorizing text
+- text, colorizing in editors
 ms.assetid: 96e762ca-efd0-41e7-8958-fda4897c8c7a
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Implementing Syntax Coloring
 When the language service provides syntax colorization, the parser converts a line of text into an array of colorable items and returns token types corresponding to these colorable items. The parser should return token types that belong to a list of colorable items. [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] displays each colorable item in the code window according to the attributes assigned by the colorizer object to the appropriate token type.

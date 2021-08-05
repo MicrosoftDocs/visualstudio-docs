@@ -1,13 +1,14 @@
 ---
+description: "Returns an enumeration of symbols for inline frames corresponding to the specified inline function name."
 title: "IDiaSession::findAcceleratorInlineesByName | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 ms.assetid: e203e5c2-6563-43fa-be56-3063955043ab
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

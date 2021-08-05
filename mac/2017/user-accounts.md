@@ -1,10 +1,11 @@
 ---
 title: "User Accounts"
 description: "Information about signing in to Visual Studio for Mac and enabling subscriptions in Visual Studio for Mac"
-author: conceptdev
-ms.author: crdun
+author: heiligerdankgesang
+ms.author: dominicn
 ms.date: 05/06/2018
 ms.assetid: 17AB4F31-4921-4B4E-8D9D-95FB84294521
+ms.topic: overview
 ---
 
 # User Accounts

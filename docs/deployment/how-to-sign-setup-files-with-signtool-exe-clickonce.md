@@ -1,23 +1,25 @@
 ---
-title: "How to: Sign Setup Files with SignTool.exe (ClickOnce) | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-helpviewer_keywords:
-  - "ClickOnce applications, signtool.exe"
-  - "deploying applications [ClickOnce], re-signing setup.exe"
-  - "ClickOnce deployment, signtool.exe"
-  - "ClickOnce applications, re-signing setup.exe"
-  - "ClickOnce deployment, re-signing setup.exe"
+title: Sign setup files with SignTool.exe (ClickOnce)
+description: Learn how to use SignTool.exe to sign a Setup program for ClickOnce applications, which helps ensure that tampered files are not installed.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
+dev_langs: 
+  - VB
+  - CSharp
+  - C++
+helpviewer_keywords: 
+  - ClickOnce applications, signtool.exe
+  - deploying applications [ClickOnce], re-signing setup.exe
+  - ClickOnce deployment, signtool.exe
+  - ClickOnce applications, re-signing setup.exe
+  - ClickOnce deployment, re-signing setup.exe
 ms.assetid: 545a4005-d283-4110-9821-c78a9833c250
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
-ms.workload:
-  - "multiple"
+manager: jmartens
+ms.workload: 
+  - multiple
 ---
 # How to: Sign setup files with SignTool.exe (ClickOnce)
 You can use *SignTool.exe* to sign a Setup program (*setup.exe*). This process helps ensure that tampered files are not installed on end-user computers.

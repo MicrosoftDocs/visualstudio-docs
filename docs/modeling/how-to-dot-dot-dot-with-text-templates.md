@@ -1,12 +1,14 @@
 ---
 title: How to ... with Text Templates
+description: Learn about answers to common questions encountered when using text templates to generate text.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: mgoertz-msft
+ms.author: mgoertz
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to ... with Text Templates
 Text templates in Visual Studio provide a useful way of generating text of any kind. You can use text templates to generate text at run time as part of your application and at design time to generate some of your project code. This topic summarizes the most frequently asked "How do I ...?" questions.

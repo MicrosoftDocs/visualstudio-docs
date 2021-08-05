@@ -1,20 +1,22 @@
 ---
-title: "Support URL for prerequisites in ClickOnce deployment"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-helpviewer_keywords:
-  - "ClickOnce deployment, prerequisites"
-  - "ClickOnce deployment, URLs"
+title: Support URL for prerequisites in ClickOnce deployment
+description: Learn how a ClickOnce deployment tests for prerequisites for the ClickOnce application to run and how the deployment deals with missing prerequisites.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
+dev_langs: 
+  - VB
+  - CSharp
+  - C++
+helpviewer_keywords: 
+  - ClickOnce deployment, prerequisites
+  - ClickOnce deployment, URLs
 ms.assetid: 590742c3-a286-4160-aa75-7a441bb2207b
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
-ms.workload:
-  - "multiple"
+manager: jmartens
+ms.workload: 
+  - multiple
 ---
 # How to: Specify a support URL for individual prerequisites in a ClickOnce deployment
 A [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment can test for a number of prerequisites that must be available on the client computer for the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application to run. These dependencies include the required minimum version of the .NET Framework, the version of the operating system, and any assemblies that must be preinstalled in the global assembly cache (GAC). [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)], however, cannot install any of these prerequisites itself; if a prerequisite is not found, it simply halts installation and displays a dialog box explaining why the installation failed.

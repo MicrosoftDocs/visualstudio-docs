@@ -1,13 +1,15 @@
 ---
-title: "Create a Recorder Plug-In for web performance tests"
+title: Create a Recorder Plug-In for web performance tests
+description: Learn how the WebTestRecorderPlugin lets you modify a recorded web performance test after you choose Stop in the Web Performance Test Recorder toolbar.
+ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
-ms.topic: conceptual
-helpviewer_keywords:
-  - "Web performance tests, recorder plug-in"
+ms.topic: how-to
+helpviewer_keywords: 
+  - Web performance tests, recorder plug-in
 ms.assetid: 6fe13be1-aeb5-4927-9bff-35950e194da9
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
 ---
 # How to: Create a recorder plug-in
 

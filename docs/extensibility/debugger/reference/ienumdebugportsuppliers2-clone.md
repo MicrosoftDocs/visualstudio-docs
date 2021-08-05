@@ -1,20 +1,21 @@
 ---
-title: "IEnumDebugPortSuppliers2::Clone | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Returns a copy of the current port suppliers enumeration as a separate object."
+title: IEnumDebugPortSuppliers2::Clone | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IEnumDebugPortSuppliers2::Clone"
+- IEnumDebugPortSuppliers2::Clone
 helpviewer_keywords:
-  - "IEnumDebugPortSuppliers2::Clone"
+- IEnumDebugPortSuppliers2::Clone
 ms.assetid: 98b9914d-4f32-44da-b422-68830bce44b4
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IEnumDebugPortSuppliers2::Clone
 Returns a copy of the current enumeration as a separate object.

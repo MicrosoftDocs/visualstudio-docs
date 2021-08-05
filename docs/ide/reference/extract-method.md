@@ -3,16 +3,16 @@ title: Extract a method
 description: Turn a fragment of code into its own method by selecting the code and typing Ctrl+R, Ctrl+M.
 ms.date: 01/26/2018
 ms.topic: reference
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 f1_keywords:
-  - "vs.csharp.refactoring.extractmethod"
+- vs.csharp.refactoring.extractmethod
 dev_langs:
-  - CSharp
-  - VB
+- CSharp
+- VB
 ms.workload:
-  - "dotnet"
+- dotnet
 ---
 # Extract a method refactoring
 
@@ -34,11 +34,11 @@ This refactoring applies to:
 
    - C#:
 
-       ![Highlighted code- C#](media/extractmethod-highlight-cs.png)
+       ![Screenshot showing C# code for the Program class. In the Main function of that class, a line of code highlighted.](media/extractmethod-highlight-cs.png)
 
    - Visual Basic:
 
-       ![Highlighted code - Visual Basic](media/extractmethod-highlight-vb.png)
+       ![Screenshot showing Visual Basic code for the Main Sub. In that Sub, a line of code is highlighted.](media/extractmethod-highlight-vb.png)
 
 2. Next, do one of the following:
 
@@ -57,11 +57,11 @@ This refactoring applies to:
 
    - C#:
 
-      ![Rename method - C#](media/extractmethod-rename-cs.png)
+      ![Screenshot showing C# code for the Program class. A method name is highlighted and the Rename popup window is open.](media/extractmethod-rename-cs.png)
 
    - Visual Basic:
 
-      ![Rename method - Visual Basic](media/extractmethod-rename-vb.png)
+      ![Screenshot showing Visual Basic code for the Main Sub. A method name is highlighted and the Rename popup window is open.](media/extractmethod-rename-vb.png)
 
 3. When you're happy with the change, choose the **Apply** button or press **Enter** and the changes will be committed.
 

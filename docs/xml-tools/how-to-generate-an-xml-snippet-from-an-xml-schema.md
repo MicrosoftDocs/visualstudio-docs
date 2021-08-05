@@ -1,13 +1,15 @@
 ---
-title: "How to: Generate an XML Snippet From an XML Schema"
+title: 'How to: Generate an XML Snippet From an XML Schema'
+description: Learn how to use the XML editor to generate an XML snippet from an XML Schema definition language (XSD) schema.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 ms.assetid: 2c128d2a-aaa6-4814-aa95-e07056afe338
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Generate an XML snippet from an XML schema
 

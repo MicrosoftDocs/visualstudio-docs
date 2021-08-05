@@ -1,7 +1,8 @@
 ---
+description: "Retrieves the language of the source."
 title: "IDiaSymbol::get_language | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: c759ad3c-1c21-4234-869b-86aa3a608a38
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

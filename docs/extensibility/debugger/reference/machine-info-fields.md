@@ -1,20 +1,21 @@
 ---
-title: "MACHINE_INFO_FIELDS | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Specifies what kind of information to retrieve for a particular machine."
+title: MACHINE_INFO_FIELDS | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "MACHINE_INFO_FIELDS"
+- MACHINE_INFO_FIELDS
 helpviewer_keywords:
-  - "MACHINE_INFO_FIELDS enumeration"
+- MACHINE_INFO_FIELDS enumeration
 ms.assetid: 2d61d206-7d40-4df1-8c88-1b3c9c78821e
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # MACHINE_INFO_FIELDS
 Specifies what kind of information to retrieve for a particular machine.

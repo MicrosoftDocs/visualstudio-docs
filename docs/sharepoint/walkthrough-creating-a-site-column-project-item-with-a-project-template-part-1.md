@@ -1,7 +1,10 @@
 ---
 title: "Create site column project item with project template, part 1"
+titleSuffix: ""
+description: Define a project item type for creating a site column, and then create a project template to use for creating a SharePoint project that contains the project item.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: how-to
 dev_langs:
   - "VB"
   - "CSharp"
@@ -12,7 +15,7 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, defining new project item types"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---
@@ -32,7 +35,7 @@ ms.workload:
   This is a stand-alone walkthrough. After you complete this walkthrough, you can enhance the project item by adding a wizard to the project template. For more information, see [Walkthrough: Create a site column project item with a project template, Part 2](../sharepoint/walkthrough-creating-a-site-column-project-item-with-a-project-template-part-2.md).
 
 > [!NOTE]
-> For a series of sample workflows, see [SharePoint workflow samples](https://docs.microsoft.com/sharepoint/dev/general-development/sharepoint-workflow-samples).
+> For a series of sample workflows, see [SharePoint workflow samples](/sharepoint/dev/general-development/sharepoint-workflow-samples).
 
 ## Prerequisites
  You need the following components on the development computer to complete this walkthrough:
@@ -43,7 +46,7 @@ ms.workload:
 
   Knowledge of the following concept is helpful, but not required, to complete the walkthrough:
 
-- Site columns in SharePoint. For more information, see [Columns](http://go.microsoft.com/fwlink/?LinkId=183547).
+- Site columns in SharePoint. For more information, see [Columns](/previous-versions/office/developer/sharepoint-2010/ms196085(v=office.14)).
 
 - Project templates in Visual Studio. For more information, see [Creating Project and Item Templates](../ide/creating-project-and-item-templates.md).
 
@@ -141,8 +144,8 @@ ms.workload:
 
 1. In the **SiteColumnProjectItemTypeProvider** code file, replace the default code with the following code, and then save the file.
 
-     [!code-csharp[SPExtensibility.ProjectItem.SiteColumn#1](../sharepoint/codesnippet/CSharp/sitecolumnprojectitem/projectitemtypedefinition/sitecolumnprojectitemtypeprovider.cs#1)]
-     [!code-vb[SPExtensibility.ProjectItem.SiteColumn#1](../sharepoint/codesnippet/VisualBasic/sitecolumnprojectitem/projectitemtypedefinition/sitecolumnprojectitemtypeprovider.vb#1)]
+     :::code language="csharp" source="../sharepoint/codesnippet/CSharp/sitecolumnprojectitem/projectitemtypedefinition/sitecolumnprojectitemtypeprovider.cs" id="Snippet1":::
+     :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/sitecolumnprojectitem/projectitemtypedefinition/sitecolumnprojectitemtypeprovider.vb" id="Snippet1":::
 
 ## Create a Visual Studio project template
  By creating a project template, you enable other developers to create SharePoint projects that contain site column project items. A SharePoint project template includes files that are required for all projects in Visual Studio, such as *.csproj* or *.vbproj* and *.vstemplate* files, and files that are specific to SharePoint projects. For more information, see [Create item templates and project templates for SharePoint project items](../sharepoint/creating-item-templates-and-project-templates-for-sharepoint-project-items.md).
@@ -264,7 +267,7 @@ ms.workload:
     </Elements>
     ```
 
-     The new XML adds a `Field` element that defines the name of the site column, its base type, and the group in which to list the site column in the gallery. For more information about the contents of this file, see [Field Definition Schema](http://go.microsoft.com/fwlink/?LinkId=184290).
+     The new XML adds a `Field` element that defines the name of the site column, its base type, and the group in which to list the site column in the gallery. For more information about the contents of this file, see [Field Definition Schema](/previous-versions/office/developer/sharepoint-2010/ms196289(v=office.14)).
 
 2. Save and close the file.
 
@@ -425,9 +428,9 @@ ms.workload:
 
    - Adds `ProjectItem` elements for each filethat's included in each project instance.
 
-   - Uses the namespace "<http://schemas.microsoft.com/developer/vstemplate/2005>". Other project files in this solution use the "<http://schemas.microsoft.com/developer/msbuild/2003>" namespace. Therefore, XML schema warning messages will be generated, but you can disregard them in this walkthrough.
+   - Uses the namespace `http://schemas.microsoft.com/developer/vstemplate/2005`. Other project files in this solution use the `http://schemas.microsoft.com/developer/msbuild/2003` namespace. Therefore, XML schema warning messages will be generated, but you can disregard them in this walkthrough.
 
-     For more information about the contents of *.vstemplate* files, see [Visual Studio Template Schema Reference](/visualstudio/extensibility/visual-studio-template-schema-reference).
+     For more information about the contents of *.vstemplate* files, see [Visual Studio Template Schema Reference](../extensibility/visual-studio-template-schema-reference.md).
 
 2. Save and close the file.
 
@@ -633,7 +636,7 @@ ms.workload:
 
 1. In **Solution Explorer**, in the **SiteColumnProjectItem** project, open the source.extension.vsixmanifest file in the manifest editor.
 
-     The source.extension.vsixmanifest file is the basis for the extension.vsixmanifest file that all VSIX packages require. For more information about this file, see [VSIX Extension Schema 1.0 Reference](https://msdn.microsoft.com/76e410ec-b1fb-4652-ac98-4a4c52e09a2b).
+     The source.extension.vsixmanifest file is the basis for the extension.vsixmanifest file that all VSIX packages require. For more information about this file, see [VSIX Extension Schema 1.0 Reference](/previous-versions/dd393700(v=vs.110)).
 
 2. In the **Product Name** box, enter **Site Column**.
 

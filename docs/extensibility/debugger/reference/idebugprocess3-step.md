@@ -1,20 +1,21 @@
 ---
-title: "IDebugProcess3::Step | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Causes the process to step one instruction or statement."
+title: IDebugProcess3::Step | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugProcess3::Step"
+- IDebugProcess3::Step
 helpviewer_keywords:
-  - "IDebugProcess3::Step"
+- IDebugProcess3::Step
 ms.assetid: 6ad9094c-27cc-4927-8a7c-1b4d97b2e436
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugProcess3::Step
 Causes the process to step one instruction or statement.
@@ -56,7 +57,7 @@ int Step(
 ## Remarks
  In case there is any thread synchronization or communication between threads, other threads in the process should run when a particular thread is stepping.
 
- **Warning** Do not send a stopping event or an immediate (synchronous) event to [Event](../../../extensibility/debugger/reference/idebugeventcallback2-event.md) while handling this call; otherwise the debugger may hang.
+ **Warning** Do not send a stopping event or an immediate (synchronous) event to [Event](../../../extensibility/debugger/reference/idebugeventcallback2-event.md) while handling this call; otherwise the debugger may stop responding.
 
 ## See also
 - [IDebugProcess3](../../../extensibility/debugger/reference/idebugprocess3.md)

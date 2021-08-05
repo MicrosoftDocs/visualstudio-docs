@@ -1,22 +1,22 @@
 ---
 title: Dotfuscator Community
 ms.date: 03/28/2019
-ms.devlang: "dotnet"
-ms.topic: conceptual
+ms.devlang: dotnet
+ms.topic: overview
 keywords: Dotfuscator, Dotfuscator CE, Dotfuscator Community, PreEmptive, PreEmptive Solutions, PreEmptive Protection, protection, community edition, obfuscation, .NET, free, Visual Studio 2019, Visual Studio 2017, Visual Studio
 helpviewer_keywords:
-  - "PreEmptive Protection Dotfuscator"
-  - "Dotfuscator Community Edition"
-  - "Dotfuscator CE"
-  - "Dotfuscator Community"
-  - "Dotfuscator"
-  - "obfuscation"
-  - "protection"
-description: "Learn how you can protect your .NET applications with the free copy of Dotfuscator Community included in Visual Studio."
+- PreEmptive Protection Dotfuscator
+- Dotfuscator Community Edition
+- Dotfuscator CE
+- Dotfuscator Community
+- Dotfuscator
+- obfuscation
+- protection
+description: Learn how you can protect your .NET applications with the free copy of Dotfuscator Community included in Visual Studio.
 ms.assetid: d9550502-0a82-49a6-b005-2caa791fbe02
-author: "Joe-Sewell-PreEmptive"
-ms.author: jillfra
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ---
 # Dotfuscator Community
 
@@ -64,7 +64,7 @@ For information about enhancing Dotfuscator, see the [Upgrades page][upgrades].
 
 ## Getting started
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 To begin using Dotfuscator Community from Visual Studio, type `dotfuscator` into the **Search Box** (Ctrl+Q).
 
@@ -92,7 +92,7 @@ See [the full Dotfuscator Community User Guide at preemptive.com][full] for deta
 
 <!-- Copyright © 2019 PreEmptive Solutions, LLC -->
 
-[assemblies]:  https://docs.microsoft.com/dotnet/standard/assembly-format
+[assemblies]:  /dotnet/standard/assembly-format
 [software-protection]:  https://www.preemptive.com/software-protection
 [obfuscation]:  https://www.preemptive.com/obfuscation
 [app-protection]:  https://www.preemptive.com/application-protection

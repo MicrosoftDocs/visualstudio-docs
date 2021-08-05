@@ -1,5 +1,6 @@
 ---
 title: "Process View - Contention Data | Microsoft Docs"
+description: Learn how the Process view displays contention data for the processes and threads that were executed during the profiling run.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:
@@ -7,7 +8,8 @@ helpviewer_keywords:
 ms.assetid: 8821d98c-0771-43b2-a38b-e9039a3abd75
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+monikerRange: 'vs-2017'
 ms.workload:
   - "multiple"
 ---

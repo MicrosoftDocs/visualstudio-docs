@@ -1,20 +1,21 @@
 ---
-title: "IDebugStackFrame2::GetName | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Gets the name of the stack frame."
+title: IDebugStackFrame2::GetName | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugStackFrame2::GetName"
+- IDebugStackFrame2::GetName
 helpviewer_keywords:
-  - "IDebugStackFrame2::GetName"
+- IDebugStackFrame2::GetName
 ms.assetid: 069d4f96-363f-404e-9c89-5318c4c9821b
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugStackFrame2::GetName
 Gets the name of the stack frame.

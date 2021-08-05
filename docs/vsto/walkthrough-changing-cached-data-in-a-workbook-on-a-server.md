@@ -1,5 +1,8 @@
 ---
 title: "Walkthrough: Change cached data in a workbook on a server"
+description: Learn how to modify a dataset that is cached in a Microsoft Excel workbook without starting Excel by using the ServerDocument class.
+ms.custom: SEO-VS-2020
+titleSuffix: ""
 ms.date: "08/14/2019"
 ms.topic: "conceptual"
 dev_langs:
@@ -13,7 +16,7 @@ helpviewer_keywords:
   - "documents [Office development in Visual Studio], server-side data access"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---
@@ -48,7 +51,7 @@ ms.workload:
 
 - [!INCLUDE[Excel_14_short](../vsto/includes/excel-14-short-md.md)].
 
-- Access to a running instance of Microsoft SQL Server or Microsoft SQL Server Express that has the AdventureWorksLT sample database attached to it. You can download the AdventureWorksLT database from the [CodePlex website](http://go.microsoft.com/fwlink/?linkid=87843). For more information about attaching a database, see the following topics:
+- Access to a running instance of Microsoft SQL Server or Microsoft SQL Server Express that has the AdventureWorksLT sample database attached to it. You can download the AdventureWorksLT database from the [SQL Server Samples GitHub repo](https://github.com/Microsoft/sql-server-samples/releases/tag/adventureworks). For more information about attaching a database, see the following topics:
 
   - To attach a database by using SQL Server Management Studio or SQL Server Management Studio Express, see [How to: Attach a database (SQL Server Management Studio)](/sql/relational-databases/databases/attach-a-database).
 
@@ -197,8 +200,8 @@ ms.workload:
 
 2. Replace the `Sheet1_Startup` event handler with the following code. This code uses an instance of the `ProductTableAdapter` class that is defined in the **AdventureWorksDataSet** project to fill the cached dataset with data, if it is currently empty.
 
-     [!code-csharp[Trin_CachedDataWalkthroughs#8](../vsto/codesnippet/CSharp/AdventureWorksDataSet/AdventureWorksReport/Sheet1.cs#8)]
-     [!code-vb[Trin_CachedDataWalkthroughs#8](../vsto/codesnippet/VisualBasic/AdventureWorksDataSet/AdventureWorksReport/Sheet1.vb#8)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/AdventureWorksDataSet/AdventureWorksReport/Sheet1.cs" id="Snippet8":::
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/AdventureWorksDataSet/AdventureWorksReport/Sheet1.vb" id="Snippet8":::
 
 ## Checkpoint
  Build and run the Excel workbook project to ensure that it compiles and runs without errors. This operation also fills the cached dataset and saves the data in the workbook.
@@ -253,8 +256,8 @@ ms.workload:
 
 7. Add the following **using** (for C#) or **Imports** (for Visual Basic) statement to the top of the code file.
 
-    [!code-csharp[Trin_CachedDataWalkthroughs#1](../vsto/codesnippet/CSharp/AdventureWorksDataSet/DataWriter/Program.cs#1)]
-    [!code-vb[Trin_CachedDataWalkthroughs#1](../vsto/codesnippet/VisualBasic/AdventureWorksDataSet/DataWriter/Module1.vb#1)]
+    :::code language="csharp" source="../vsto/codesnippet/CSharp/AdventureWorksDataSet/DataWriter/Program.cs" id="Snippet1":::
+    :::code language="vb" source="../vsto/codesnippet/VisualBasic/AdventureWorksDataSet/DataWriter/Module1.vb" id="Snippet1":::
 
 8. Add the following code to the `Main` method. This code declares the following objects:
 
@@ -267,8 +270,8 @@ ms.workload:
      > [!NOTE]
      > The following code assumes that you are using a workbook that has the *.xlsx* file extension. If the workbook in your project has a different file extension, modify the path as necessary.
 
-     [!code-csharp[Trin_CachedDataWalkthroughs#6](../vsto/codesnippet/CSharp/AdventureWorksDataSet/DataWriter/Program.cs#6)]
-     [!code-vb[Trin_CachedDataWalkthroughs#6](../vsto/codesnippet/VisualBasic/AdventureWorksDataSet/DataWriter/Module1.vb#6)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/AdventureWorksDataSet/DataWriter/Program.cs" id="Snippet6":::
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/AdventureWorksDataSet/DataWriter/Module1.vb" id="Snippet6":::
 
 9. Add the following code to the `Main` method, after the code you added in the previous step. This code performs the following tasks:
 
@@ -280,8 +283,8 @@ ms.workload:
 
    - It saves the changes to the cached dataset in the workbook.
 
-     [!code-csharp[Trin_CachedDataWalkthroughs#7](../vsto/codesnippet/CSharp/AdventureWorksDataSet/DataWriter/Program.cs#7)]
-     [!code-vb[Trin_CachedDataWalkthroughs#7](../vsto/codesnippet/VisualBasic/AdventureWorksDataSet/DataWriter/Module1.vb#7)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/AdventureWorksDataSet/DataWriter/Program.cs" id="Snippet7":::
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/AdventureWorksDataSet/DataWriter/Module1.vb" id="Snippet7":::
 
 10. In **Solution Explorer**, right-click the **DataWriter** project, point to **Debug**, and then click **Start new instance**.
 

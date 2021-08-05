@@ -1,28 +1,30 @@
 ---
 title: Building and Cleaning Projects and Solutions
+description: Learn how you can build, rebuild, or clean all or some of the projects or project items in a solution.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.technology: vs-ide-compile
 ms.topic: conceptual
 f1_keywords:
-  - "VS.BuildProjectPicker"
-  - "vs.batchbuild"
+- VS.BuildProjectPicker
+- vs.batchbuild
 helpviewer_keywords:
-  - "Clean Solution command"
-  - "builds [Visual Studio], managing"
-  - "solution build configurations, starting"
-  - "Build Solution command"
-  - "project build configurations, starting"
-  - "build configurations, starting"
-  - "project build configurations, dependencies"
-  - "Rebuild Solution command"
-  - "solution build configurations, build order"
-  - "builds [Visual Studio], preparing"
+- Clean Solution command
+- builds [Visual Studio], managing
+- solution build configurations, starting
+- Build Solution command
+- project build configurations, starting
+- build configurations, starting
+- project build configurations, dependencies
+- Rebuild Solution command
+- solution build configurations, build order
+- builds [Visual Studio], preparing
 ms.assetid: 710891fd-379e-42c2-a84b-44a7af694ca0
 author: ghogen
 ms.author: ghogen
-manager: jillfra
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Build and clean projects and solutions in Visual Studio
 

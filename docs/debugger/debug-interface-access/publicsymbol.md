@@ -1,7 +1,8 @@
 ---
+description: "When the .exe file is created, each public symbol (at a minimum, each global function and data symbol) is given a SymTagPublicSymbol tag."
 title: "PublicSymbol | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -11,7 +12,7 @@ helpviewer_keywords:
 ms.assetid: f8d33007-302d-4549-9dad-47fb33ea60b7
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

@@ -1,17 +1,19 @@
 ---
-title: "How to: Customize the Code Analysis Dictionary"
+title: 'How to: Customize the Code Analysis Dictionary'
 ms.date: 11/04/2016
-ms.topic: "conceptual"
-helpviewer_keywords:
-  - "code analysis dictionary"
-  - "custom dictionary, code analysis"
-  - "dictionary, code analysis"
+description: Learn about the code analysis dictionary that identifies spelling and naming convention errors. See how to create a custom dictionary and apply it to a project.
+ms.custom: SEO-VS-2020
+ms.topic: how-to
+helpviewer_keywords: 
+  - code analysis dictionary
+  - custom dictionary, code analysis
+  - dictionary, code analysis
 ms.assetid: 667e3b4e-beff-48be-b3d1-376e1716a895
-author: jillre
-ms.author: jillfra
-manager: jillfra
-ms.workload:
-  - "multiple"
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.workload: 
+  - multiple
 ---
 # How to: Customize the Code Analysis Dictionary
 
@@ -260,12 +262,12 @@ Terms in the Dictionary/Acronyms/CasingExceptions node are applied to the follow
 
 1. In **Solution Explorer**, use one of the following procedures:
 
-2. To add a dictionary to a single project, right-click the project name and then click **Add Existing Item**. Specify the file in the **Add Existing Item** dialog box.
+    - To add a dictionary to a single project, right-click the project name and then click **Add Existing Item**. Specify the file in the **Add Existing Item** dialog box.
+  
+    - To add a dictionary that is shared among two or more projects, locate the file to share in the **Add Existing Item** dialog box, click the down arrow on the **Add** button and then click **Add As Link**.
 
-3. To add a dictionary that is shared among two or more projects, locate the file to share in the **Add Existing Item** dialog box, click the down arrow on the **Add** button and then click **Add As Link**.
+2. In **Solution Explorer**, right-click the **CustomDictionary.xml** file name and click **Properties**.
 
-4. In **Solution Explorer**, right-click the **CustomDictionary.xml** file name and click **Properties**.
+3. From the **Build Action** list, select **CodeAnalysisDictionary**.
 
-5. From the **Build Action** list, select **CodeAnalysisDictionary**.
-
-6. From the **Copy to Output Directory** list, select **Do not copy**.
+4. From the **Copy to Output Directory** list, select **Do not copy**.

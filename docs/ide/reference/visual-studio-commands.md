@@ -1,17 +1,19 @@
 ---
 title: Commands
+description: Learn about the various commands you have access to in Visual Studio. 
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "Visual Studio, commands"
-  - "commands, Visual Studio"
-  - "command syntax"
+- Visual Studio, commands
+- commands, Visual Studio
+- command syntax
 ms.assetid: 76ffa394-ee89-4629-aba9-1a62b72e6cc1
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Visual Studio commands
 

@@ -1,18 +1,20 @@
 ---
-title: "KeyBindings Element | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: KeyBindings Element | Microsoft Docs
+description: The KeyBindings element groups KeyBinding elements and other KeyBindings groupings. This article contains an example.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: reference
 f1_keywords:
-  - "KeyBindings"
+- KeyBindings
 helpviewer_keywords:
-  - "VSCT XML schema elements, KeyBindings"
-  - "KeyBindings element (VSCT XML schema)"
+- VSCT XML schema elements, KeyBindings
+- KeyBindings element (VSCT XML schema)
 ms.assetid: 26a15d5c-ddea-4977-af7f-d795ff09c7ad
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # KeyBindings element
 The KeyBindings element groups KeyBinding elements and other KeyBindings groupings.

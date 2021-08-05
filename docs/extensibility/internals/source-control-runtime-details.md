@@ -1,15 +1,17 @@
 ---
-title: "Source Control Runtime Details | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Source Control Runtime Details | Microsoft Docs
+description: Learn how a project is added to source control, either when a user adds a file to the project in source control or through an automation controller.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "source control [Visual Studio SDK], runtime details"
+- source control [Visual Studio SDK], runtime details
 ms.assetid: 1acd30e0-f98c-4bde-b9cd-4076845887df
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Source Control Runtime Details
 A project is added to source control when the user adds a file in the project to source control, or through an automation controller, such as a wizard. A project does not specify for itself that it is under source control; it supports source control, but must be added to it manually.

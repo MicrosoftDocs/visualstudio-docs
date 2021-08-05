@@ -1,16 +1,18 @@
 ---
-title: "How to: Specify the .NET Framework Runtime | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-helpviewer_keywords:
-  - "Profiling Tools, .NET Framework versions"
-  - ".NET Framework versions,profililng"
+title: Specify the .NET Framework Runtime | Microsoft Docs
+description: Learn how applications can be composed of modules that were built by using different versions of the .NET Framework run-time.
+ms.date: 11/04/2016
+ms.topic: how-to
+helpviewer_keywords: 
+  - Profiling Tools, .NET Framework versions
+  - .NET Framework versions,profililng
 ms.assetid: d39f3579-719a-4f47-a97d-5b4232fe4c64
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
-ms.workload:
-  - "dotnet"
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+monikerRange: 'vs-2017'
+ms.workload: 
+  - dotnet
 ---
 # How to: Specify the .NET Framework runtime
 

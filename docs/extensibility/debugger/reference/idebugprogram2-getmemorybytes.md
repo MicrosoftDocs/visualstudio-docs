@@ -1,20 +1,21 @@
 ---
-title: "IDebugProgram2::GetMemoryBytes | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Retrieves the memory bytes occupied by the program."
+title: IDebugProgram2::GetMemoryBytes | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugProgram2::GetMemoryBytes"
+- IDebugProgram2::GetMemoryBytes
 helpviewer_keywords:
-  - "IDebugProgram2::GetMemoryBytes"
+- IDebugProgram2::GetMemoryBytes
 ms.assetid: 1cdedb47-caf8-468e-aaf4-163f16afb403
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugProgram2::GetMemoryBytes
 Retrieves the memory bytes occupied by the program.

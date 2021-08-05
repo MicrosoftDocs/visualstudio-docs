@@ -1,16 +1,18 @@
 ---
-title: "Command Flag Element | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Command Flag Element | Microsoft Docs
+description: The Command flag Element modifies its parent element. Review its parent elements and child elements.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: reference
 helpviewer_keywords:
-  - "CommandFlag element (VSCT XML schema)"
-  - "VSCT XML schema elements, CommandFlag"
+- CommandFlag element (VSCT XML schema)
+- VSCT XML schema elements, CommandFlag
 ms.assetid: 5ef63399-d2db-4dc1-97ce-be1bd4ef4e39
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Command flag Eelement
 Modifies its parent element.
@@ -54,7 +56,6 @@ Modifies its parent element.
 |PostExec|Makes the command non-blocking. The development environment defers execution until all pre-processing queries are completed.<br /><br /> Valid for: `Button`|
 |RouteToDocs|The command is routed to the active document.<br /><br /> Valid for: `Button`|
 |StretchHorizontally|When this flag is set, the width becomes the minimum width for the combo box, and if there is room on the toolbar, the combo box stretches to fill available space. This occurs only if the toolbar is horizontally docked, and only one combo box on the toolbar can use the flag (the flag is ignored on all except the first combo box).<br /><br /> Valid for: `Combo`|
-|TextMenuUseButton|Use the `ButtonText` field for menus. The default field is `MenuText` if it is specified.<br /><br /> Valid for: `Button`|
 |TextChanges|The command or menu text can be changed at run time, typically through the `QueryStatus` method.<br /><br /> Valid for: `Button`, `Menu`|
 |TextChangesButton|Valid for: `Button`|
 |TextIsAnchorCommand|For a menu controller, the text of the menu is taken from the default (anchor) command. An anchor command is the last command selected or latched. If this flag is not set, the menu controller uses its own `MenuText` field. However, clicking the menu controller still enables the last selected command from that controller.<br /><br /> We recommend that you combine this flag with the `TextChanges` flag.<br /><br /> This flag applies only to menus of type MenuController or MenuControllerLatched.<br /><br /> Valid for: `Menu`|

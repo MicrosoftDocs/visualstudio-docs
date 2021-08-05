@@ -1,15 +1,17 @@
 ---
-title: "Analyzing Load Test Results"
+title: Analyzing Load Test Results
+description: Learn how to use the Load Test Analyzer to find bottlenecks, identify errors, and measure improvements in your app.
+ms.custom: SEO-VS-2020
 ms.date: 10/20/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "load tests, test results"
-  - "load tests, analyzing test results"
-  - "load tests, managing test results"
+- load tests, test results
+- load tests, analyzing test results
+- load tests, managing test results
 ms.assetid: 8a4ba300-425d-447c-91d9-c53f4345feee
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
 ---
 # Analyze load test results using the Load Test Analyzer
 

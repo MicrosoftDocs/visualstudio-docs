@@ -1,20 +1,21 @@
 ---
-title: "IDebugProgram2::Terminate | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Terminates the program."
+title: IDebugProgram2::Terminate | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugProgram2::Terminate"
+- IDebugProgram2::Terminate
 helpviewer_keywords:
-  - "IDebugProgram2::Terminate"
+- IDebugProgram2::Terminate
 ms.assetid: 4d3127d3-b1e9-4b28-ac22-2f2eea255f86
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugProgram2::Terminate
 Terminates the program.

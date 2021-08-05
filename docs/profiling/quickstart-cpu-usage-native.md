@@ -1,7 +1,7 @@
 ---
 title: "Analyze CPU usage data (C++)"
 description: "Measure app performance in C++ using the CPU Usage diagnostics tool"
-ms.date: 08/06/2018
+ms.date: 02/14/2020
 ms.topic: quickstart
 f1_keywords:
   - ""
@@ -10,7 +10,7 @@ helpviewer_keywords:
   - "Diagnostics Tools, CPU Usage"
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "cplusplus"
 ---
@@ -18,23 +18,40 @@ ms.workload:
 
 The Visual Studio provides many powerful features to help you analyze performance issues in your application. This topic provides a quick way to learn some of the basic features. Here, we look at the tool to identify performance bottlenecks due to high CPU usage. The Diagnostics Tools are supported for .NET development in Visual Studio, including ASP.NET, and for native/C++ development.
 
-The Diagnostic hub offers you a lot of other options to run and manage your diagnostics session. If the **CPU Usage** tool described here does not give you the data that you need, the [other profiling tools](../profiling/profiling-feature-tour.md) provide different kinds of information that might be helpful to you. In many cases, the performance bottleneck of your application may be caused by something other than your CPU, such as memory, rendering UI, or network request time. The Diagnostics hub offers you a lot of other options to record and analyze this kind of data.
+The Diagnostic hub offers you a lot of other options to run and manage your diagnostics session. If the **CPU Usage** tool described here does not give you the data that you need, the [other profiling tools](../profiling/profiling-feature-tour.md) provide different kinds of information that might be helpful to you. In many cases, the performance bottleneck of your application may be caused by something other than your CPU, such as memory, rendering UI, or network request time. The Performance Profiler offers you a lot of other options to record and analyze this kind of data. [PerfTips](../profiling/perftips.md), another debugger-integrated profiling tool, also allows you to step through code and identify how long it takes particular functions or code blocks to complete.
 
 Windows 8 and later is required to run profiling tools with the debugger (**Diagnostic Tools** window). On Windows 7 and later, you can use the post-mortem tool, the [Performance Profiler](../profiling/profiling-feature-tour.md).
 
 ## Create a project
 
-1. In Visual Studio, choose **File** > **New Project**.
+1. Open Visual Studio and create the project.
 
-2. Under **Visual C++**, choose **Windows Desktop**, and then in the middle pane choose **Windows Console Application**.
+   ::: moniker range="vs-2017"
+   From the top menu bar, choose **File** > **New** > **Project**.
 
-    If you don't see the **Windows Console Application** project template, click the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box. The Visual Studio Installer launches. Choose the **Desktop development with C++** workload, then choose **Modify**.
+   In the **New Project** dialog box in the left pane, expand **Visual C++**, and then choose **Windows Desktop**. In the middle pane, choose **Windows Console Application**. Then name the project *Diagnostics_Get_Started_Native*.
 
-3. Type a name like **Diagnostics_Get_Started_Native** and click **OK**.
+   If you don't see the **Windows Console Application** project template, choose the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box. The Visual Studio Installer launches. Choose the **Desktop development with C++** workload, and then choose **Modify**.
+   ::: moniker-end
+   ::: moniker range=">=vs-2019"
+   If the start window is not open, choose **File** > **Start Window**.
 
-    Visual Studio creates the project.
+   On the start window, choose **Create a new project**.
 
-4. In *MyDbgApp.cpp*, replace the following code
+   On the **Create a new project** window, enter or type *console* in the search box. Next, choose **C++** from the Language list, and then choose **Windows** from the Platform list.
+
+   After you apply the language and platform filters, choose the **Console App** template, and then choose **Next**.
+
+   > [!NOTE]
+   > If you do not see the **Console App** template, you can install it from the **Create a new project** window. In the **Not finding what you're looking for?** message, choose the **Install more tools and features** link. Then, in the Visual Studio Installer, choose the **Desktop development with C++** workload.
+
+   In the **Configure your new project** window, type or enter *Diagnostics_Get_Started_Native* in the **Project name** box. Then, choose **Create**.
+
+   ::: moniker-end
+
+   Visual Studio opens your new project.
+
+1. In *Diagnostics_Get_Started_Native*, replace the following code
 
     ```c++
     int main()
@@ -119,8 +136,7 @@ Windows 8 and later is required to run profiling tools with the debugger (**Diag
 
      ![Set breakpoints for profiling](../profiling/media/quickstart-cpu-usage-breakpoints-cplusplus.png "Set breakpoints for profiling")
 
-    > [!TIP]
-    > By setting two breakpoints, you can limit data collection to the parts of code that you want to analyze.
+    By setting two breakpoints, you can limit data collection to the parts of code that you want to analyze.
 
 3. The **Diagnostic Tools** window is already visible unless you have turned it off. To bring up the window again, click **Debug** > **Windows** > **Show Diagnostic Tools**.
 

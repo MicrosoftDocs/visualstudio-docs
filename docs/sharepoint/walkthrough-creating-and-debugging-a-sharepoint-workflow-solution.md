@@ -1,7 +1,9 @@
 ---
 title: "Create & debug SharePoint workflow solution"
+description: In this walkthrough, create and debug a SharePoint workflow solution. Create a basic sequential workflow template. Create workflow activities and handle events.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: how-to
 f1_keywords:
   - "VS.SharePointTools.Workflow.WorkflowConditions"
   - "VS.SharePointTools.Workflow.WorkflowList"
@@ -13,7 +15,7 @@ helpviewer_keywords:
   - "workflows [SharePoint development in Visual Studio]"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---
@@ -277,9 +279,9 @@ ms.workload:
 ## Next steps
  You can learn more about how to create workflow templates from these topics:
 
-- To learn more about SharePoint workflow activities, see [Workflow Activities for SharePoint Foundation](http://go.microsoft.com/fwlink/?LinkId=178992).
+- To learn more about SharePoint workflow activities, see [Workflow Activities for SharePoint Foundation](/previous-versions/office/developer/sharepoint-2010/ms446847(v=office.14)).
 
-- To learn more about Windows Workflow Foundation activities, see [System.Workflow.Activities Namespace](http://go.microsoft.com/fwlink/?LinkId=178993).
+- To learn more about Windows Workflow Foundation activities, see [System.Workflow.Activities Namespace](/dotnet/api/system.windows.media.color).
 
 ## See also
 - [Create SharePoint workflow solutions](../sharepoint/creating-sharepoint-workflow-solutions.md)

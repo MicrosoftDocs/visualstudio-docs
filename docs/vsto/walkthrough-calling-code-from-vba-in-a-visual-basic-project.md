@@ -1,5 +1,8 @@
 ---
 title: "Walkthrough: Call code from VBA in a Visual Basic project"
+description: Learn how to call a method in a document-level customization for Microsoft Word from Visual Basic for Applications (VBA) code in the document.
+ms.custom: SEO-VS-2020
+titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -16,7 +19,7 @@ helpviewer_keywords:
   - "document-level customizations [Office development in Visual Studio], calling code"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---
@@ -151,7 +154,7 @@ ms.workload:
 
 2. Add the following method to the `ThisDocument` class. This method creates a table with two rows and two columns at the beginning of the document. The parameters specify the text that is displayed in the first row. Later in this walkthrough, you will call this method from VBA code in the document.
 
-     [!code-vb[Trin_CallingVBCustomizationFromVBA#1](../vsto/codesnippet/VisualBasic/CallingCodeFromVBA/ThisDocument.vb#1)]
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/CallingCodeFromVBA/ThisDocument.vb" id="Snippet1":::
 
 3. Build the project.
 

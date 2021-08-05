@@ -1,27 +1,28 @@
 ---
-title: "Use debugger windows while debugging a foreground app | Microsoft Docs"
-ms.custom: "seodec18"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-f1_keywords:
-  - "vs.debug.background"
-dev_langs:
-  - "CSharp"
-  - "VB"
-  - "FSharp"
-  - "C++"
-helpviewer_keywords:
-  - "foreground program debugging"
-  - "remote debugging, debugging foreground programs"
-  - "debugging [Visual Studio], while observing foreground programs"
-  - "focus, debugging while observing foreground programs"
-  - "debugging [Visual Studio], foreground programs"
+title: Use debugger windows while debugging a foreground app | Microsoft Docs
+description: If you are debugging a program that must stay in the foreground, use remote debugging to avoid putting it in the background.
+ms.custom: "SEO-VS-2020"
+ms.date: 11/04/2016
+ms.topic: how-to
+f1_keywords: 
+  - vs.debug.background
+dev_langs: 
+  - CSharp
+  - VB
+  - FSharp
+  - C++
+helpviewer_keywords: 
+  - foreground program debugging
+  - remote debugging, debugging foreground programs
+  - debugging [Visual Studio], while observing foreground programs
+  - focus, debugging while observing foreground programs
+  - debugging [Visual Studio], foreground programs
 ms.assetid: 9e67a308-1c81-42ab-966b-7fc3c1d2bf7a
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
-ms.workload:
-  - "multiple"
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.workload: 
+  - multiple
 ---
 # How Can I Use Debugger Windows While Debugging a Foreground Program?
 ## Problem Description

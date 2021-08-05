@@ -1,7 +1,8 @@
 ---
+description: "Retrieves the one-based source line number where the statement or expression ends."
 title: "IDiaLineNumber::get_lineNumberEnd | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: b101853e-2bcf-47c1-acef-e13984c7ea9d
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

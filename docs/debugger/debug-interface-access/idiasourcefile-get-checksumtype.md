@@ -1,7 +1,8 @@
 ---
+description: "Retrieves the checksum type."
 title: "IDiaSourceFile::get_checksumType | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 4c363e61-a6a9-409a-9cc0-d06eb2bee645
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

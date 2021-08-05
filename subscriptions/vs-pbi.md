@@ -1,10 +1,11 @@
 ---
-title: Power BI Pro Benefit in Visual Studio Subscriptions | Microsoft Docs
+title: Power BI Pro Benefit in Visual Studio subscriptions | Microsoft Docs
 author: evanwindom
-ms.author: jaunger
-manager: evelynp
-ms.date: 12/19/2018
-ms.topic: conceptual
+ms.author: v-evwin
+manager: cabuschl
+ms.assetid: 383fc910-3f4c-474a-a3f8-0f13525f05e9
+ms.date: 03/17/2021
+ms.topic: how-to
 description:  Learn about the Power BI Pro subscription included with selected Visual Studio subscriptions.
 ---
 
@@ -21,50 +22,52 @@ To use Power BI Pro, you’ll need to set up an account or sign in using an exis
 
 2. Locate the Power BI Pro tile in the Tools section on the Benefits page. Click on the **Get Code** link at the bottom of the benefit tile.   You’ll receive a notification that the code was successfully retrieved.  Click **Activate**.
    > [!div class="mx-imgBorder"]
-   > ![Power BI Pro Benefit Tile](_img/vs-pbi/vs-pbi-tile.png)
+   > ![Power BI Pro Benefit Tile](_img/vs-pbi/vs-pbi-tile.png "On the Power BI Pro tile, click 'Get Code' and then 'Activate' to get started.")
 
-3. You may already have an account if you’ve activated certain other subscription benefits, such as Office 365 Developer Subscription or Enterprise Mobility + Security.  If an existing account is found, you’ll have the choice to add your Power BI Pro subscription to your existing account or sign up for a new account.  We highly recommend adding it to your existing account so you can access your various benefits with a single user ID.
+3. You may already have an account if you’ve activated certain other subscription benefits, such as Microsoft 365 Developer Subscription or Enterprise Mobility + Security.  If an existing account is found, you’ll have the choice to add your Power BI Pro subscription to your existing account or sign up for a new account.  We highly recommend adding it to your existing account so you can access your various benefits with a single user ID.
    > [!div class="mx-imgBorder"]
-   > ![Power BI Pro Benefit Existing Account](_img/vs-pbi/vs-pbi-existing-account.png)
+   > ![Power BI Pro Benefit Existing Account](_img/vs-pbi/vs-pbi-existing-account.png "Add Power BI Pro to your existing account if you have one.")
 
 4. To create a new account, provide your contact information, then click **Next**.
 
 5. Next, create your user ID and password.  If you already have an account and you’re creating a new one, you’ll need to provide a different company name than you used on the existing account.  Click **Create my account**.
    > [!div class="mx-imgBorder"]
-   > ![Power BI Pro Benefit Create UserID](_img/vs-pbi/vs-pbi-create-user-id-cropped.png)
+   > ![Power BI Pro Benefit Create UserID](_img/vs-pbi/vs-pbi-create-user-id-cropped.png "For new accounts, enter a user ID and password.")
 
 6. To make sure a real person is creating an account, we’ll ask you to enter a confirmation code.  Please provide a phone number and choose whether to receive your code via a phone call or text message.  Click **Text me** or **Call me**.
    > [!div class="mx-imgBorder"]
-   > ![Power BI Pro Benefit Not A Robot](_img/vs-pbi/vs-pbi-robot1-cropped.png)
+   > ![Power BI Pro Benefit Not A Robot](_img/vs-pbi/vs-pbi-robot1-cropped.png "Choose 'Text me' or 'Call me' to receive your confirmation code.")
 
 7. Enter the code you receive, and click **Next**.
 
 8. Provide your contact information, then click **Next**.
    > [!div class="mx-imgBorder"]
-   > ![Power BI Pro Benefit Contact Information](_img/vs-pbi/vs-pbi-contact-cropped.png)
+   > ![Power BI Pro Benefit Contact Information](_img/vs-pbi/vs-pbi-contact-cropped.png "Provide your contact information for your account.")
 
 9. The next page will confirm your Power BI Pro Developer (MSDN) subscription has a $0.00 price.  Click **Next**.
 
 10. Finally, we’ll collect some payment information.  Don’t worry – you won’t be charged anything.  Notice that the price is still $0.00.  You can choose a credit card, bank account, or invoice as a form of payment.  If you choose **Invoice**, you may be asked for some feedback on why you prefer that payment method.  Please provide the information requested for your preferred payment method, and click **Place order**.
     > [!div class="mx-imgBorder"]
-    > ![Power BI Pro Benefit Contact Information](_img/vs-pbi/vs-pbi-payment-blurred-cropped.png)
+    > ![Power BI Pro Benefit Paymant Information](_img/vs-pbi/vs-pbi-payment-blurred-cropped.png "Choose your payment method.  Remember, you will not be charged for this offer.")
 
-11. The next page confirms you’re all set to start using Power BI Pro.  The page will provide a link to the sign-in page.  We recommend recording the link to the sign-in page as well as your user ID.  (You will also receive a welcome email at the address you provided when you set up the account.)  You may also see an automated Office 365 Assistant window, which you can use if you have questions.  Click **Let’s get started** to continue.
+11. The next page confirms you’re all set to start using Power BI Pro.  The page will provide a link to the sign-in page.  We recommend recording the link to the sign-in page as well as your user ID.  (You will also receive a welcome email at the address you provided when you set up the account.)  You may also see an automated Microsoft 365 Assistant window, which you can use if you have questions.  Click **Let’s get started** to continue.
 
-12. Now that your Power BI Pro account is set up, you’ll see the Office 365 Admin center, where you can manage users and domains, install Office software, and learn about Office 365.  That’s it!  You’re ready to go.
+12. Now that your Power BI Pro account is set up, you’ll see the Microsoft 365 Admin center, where you can manage users and domains, install Office software, and learn about Microsoft 365.  That’s it!  You’re ready to go.
 
 ## Eligibility
 
 | Subscription Level                                                 |     Channels                                            | Benefit                                                          | Renewable?    |
 |--------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------|---------------|
 | Visual Studio Enterprise (Standard)   | VL, Azure, Retail,  selected NFR<sup>1</sup> | Available       |  Yes|
+| Visual Studio Enterprise subscription with GitHub Enterprise  | VL | Available       |  Yes|
 | Visual Studio Professional (Standard, monthly cloud) | VL, Azure, Retail                                       | Not available                                                            |NA         |
+| Visual Studio Professional subscription with GitHub Enterprise | VL                                      | Not available                                                            |NA         |
 | Visual Studio Test Professional (Standard)                         | VL, Retail                                              | Not available                                                            |NA         |
 | MSDN Platforms (Standard)                                          | VL, Retail                                              | Available       |  Yes|
 | Visual Studio Enterprise (monthly cloud) | Azure                                       | Not available                                  |NA|
 ||
 
-<sup>1</sup>  *Includes:  Not for Resale (NFR), Visual Studio Industry Partner (VSIP), BizSpark, MCT Software & Services Developer, MCT Software & Service, Most Valuable Professional (MVP), Regional Director (RD).  Excludes:  Microsoft Partner Network (MPN), FTE, Imagine.*
+<sup>1</sup>  *Includes:  Not for Resale (NFR), Visual Studio Industry Partner (VSIP), BizSpark, MCT Software & Services Developer, MCT Software & Service, Most Valuable Professional (MVP), Regional Director (RD).  Excludes:  Microsoft Partner Network (MPN), FTE, Imagine, NFR Basic.*
 
 > [!NOTE]
 > Microsoft no longer offers Visual Studio Professional Annual subscriptions and Visual Studio Enterprise Annual subscriptions in Cloud Subscriptions. There will be no change to existing customers experience and ability to renew, increase, decrease, or cancel their subscriptions. New customers are encouraged to go to [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/) to explore different options to purchase Visual Studio.
@@ -83,7 +86,7 @@ A:  Yes, you can use it in a production, with two important caveats:
 - This Power BI Pro benefit cannot be used on government tenants.
 
 ### Q:  When I try to activate Power BI Pro, I get a message "You already have an account through work".  Can I still use the benefit?
-A:  Yes.  The message indicates that you're logged on to a domain that already has active Office 365 tenants on which you are not an administrator.  To add Power BI Pro to a tenant, you must be an administrator on that tenant.  To resolve this issue, follow these steps to create your own tenant.
+A:  Yes.  The message indicates that you're logged on to a domain that already has active Microsoft 365 tenants on which you are not an admin.  To add Power BI Pro to a tenant, you must be an admin on that tenant.  To resolve this issue, follow these steps to create your own tenant.
 1. When you see the message that you already have an account through work, click **Create a new account**.
 
 2. On the next screen, provide your contact information, and click **Next**.
@@ -102,8 +105,15 @@ A:  No.  The Power BI Pro benefit cannot be added to government tenants.
   - Check out the [online documentation](/power-bi/).
   - Problems signing up?  Check out [Signing up for Power BI as an Individual](/power-bi/service-self-service-signup-for-power-bi)
   - Explore top issues, get help from the community or submit a support ticket on the [Support page](https://powerbi.microsoft.com/support/).
-- For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/).
+- For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact [Visual Studio subscriptions support](https://my.visualstudio.com/gethelp)
 - Have a question about Visual Studio IDE, Azure DevOps Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).
 
+## See also
+- [Visual Studio documentation](/visualstudio/)
+- [Azure DevOps documentation](/azure/devops/)
+- [Azure documentation](/azure/)
+- [Microsoft 365 documentation](/microsoft-365/)
+
 ## Next steps
-To activate your Power BI Pro benefit, visit [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs)
+- To activate your Power BI Pro benefit, visit [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs).
+- Take advantage of your own development sandbox by activating your [Azure DevTest individual credit](vs-azure.md).

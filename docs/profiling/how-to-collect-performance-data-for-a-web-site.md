@@ -1,22 +1,25 @@
 ---
-title: "How to: Collect Performance Data for a Web Site | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-f1_keywords:
-  - "vsperf.url.url"
-  - "vsperf.chooseurl"
-  - "vs.performance.wizard.asppage"
-  - "vsperf.url.ok"
-  - "vsperf.url.cancel"
-helpviewer_keywords:
-  - "Profiling Tools,profiling ASP.NET"
-  - "web sites, performance profiling"
-  - "ASP.NET, performance profilng"
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
-ms.workload:
-  - "multiple"
+title: Collect Performance Data for a Web Site | Microsoft
+description: Learn how to use the Performance Wizard to collect performance data for an ASP.NET web app. The app runs on your local computer, and can be open in Visual Studio.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
+f1_keywords: 
+  - vsperf.url.url
+  - vsperf.chooseurl
+  - vs.performance.wizard.asppage
+  - vsperf.url.ok
+  - vsperf.url.cancel
+helpviewer_keywords: 
+  - Profiling Tools,profiling ASP.NET
+  - web sites, performance profiling
+  - ASP.NET, performance profilng
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+monikerRange: 'vs-2017'
+ms.workload: 
+  - multiple
 ---
 # How to: Collect performance data for a web site
 

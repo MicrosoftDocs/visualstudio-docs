@@ -1,13 +1,15 @@
 ---
-title: "Select a Run Setting for a Load Test"
+title: Select a Run Setting for a Load Test
+description: A load test can include run settings, which are properties that influence the way a load test runs. Learn how to select the active run setting.
+ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
-ms.topic: conceptual
-helpviewer_keywords:
-  - "load tests, run settings, active"
+ms.topic: how-to
+helpviewer_keywords: 
+  - load tests, run settings, active
 ms.assetid: ed6ff546-acfa-4dd8-b3a2-6e7455930ca4
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
 ---
 # How to: Select the active run setting for a load test
 

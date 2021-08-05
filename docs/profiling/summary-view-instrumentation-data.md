@@ -1,5 +1,6 @@
 ---
 title: "Summary View - Instrumentation Data | Microsoft Docs"
+description: Learn how the Summary view displays information about the most performance-expensive functions and a description of the Notification Links and Report lists.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:
@@ -7,7 +8,8 @@ helpviewer_keywords:
 ms.assetid: 0a3b3a1f-e22b-4ac8-b46e-71694e9b2cf1
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+monikerRange: 'vs-2017'
 ms.workload:
   - "multiple"
 ---

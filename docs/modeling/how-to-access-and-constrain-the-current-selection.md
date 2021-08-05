@@ -1,12 +1,14 @@
 ---
 title: "How to: Access and Constrain the Current Selection"
+description: Learn how you can determine what element the user right-clicked when you write a command or gesture handler for your domain-specific language.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
   - "Domain-Specific Language, accessing the current selection"
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: mgoertz-msft
+ms.author: mgoertz
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

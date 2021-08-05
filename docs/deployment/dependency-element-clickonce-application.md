@@ -1,5 +1,7 @@
 ---
 title: "&lt;dependency&gt; Element (ClickOnce Application) | Microsoft Docs"
+description: The dependency element identifies a platform or assembly dependency that is required for the application.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 f1_keywords:
@@ -23,7 +25,7 @@ helpviewer_keywords:
 ms.assetid: 09d6a1e0-60f8-4fbd-843b-8e49ee3115a3
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

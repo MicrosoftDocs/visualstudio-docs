@@ -1,5 +1,7 @@
 ---
 title: "Office UI customization"
+description: Learn how you can customize the user interface (UI) of Microsoft Office applications by using the Office developer tools in Visual Studio.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -13,7 +15,7 @@ helpviewer_keywords:
   - "Office applications [Office development in Visual Studio], UI customization"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---
@@ -40,7 +42,7 @@ ms.workload:
 |Feature|Supported project types|Supported Microsoft Office applications|
 |-------------|-----------------------------|---------------------------------------------|
 |Actions pane|Document-level customizations|Excel<br /><br /> Word|
-|Custom task panes|VSTO Add-ins|Excel<br /><br /> [!INCLUDE[InfoPath_15_short](../vsto/includes/infopath-15-short-md.md)]<br /><br /> [!INCLUDE[InfoPath_14_short](../vsto/includes/infopath-14-short-md.md)]<br /><br /> Outlook<br /><br /> PowerPoint<br /><br /> Word<br /><br /> Excel|
+|Custom task panes|VSTO Add-ins|Excel<br /><br /> [!INCLUDE[InfoPath_15_short](../vsto/includes/infopath-15-short-md.md)]<br /><br /> [!INCLUDE[InfoPath_14_short](../vsto/includes/infopath-14-short-md.md)]<br /><br /> Outlook<br /><br /> PowerPoint<br /><br /> Word|
 |Custom Ribbon UI|Document-level customizations<br /><br /> VSTO Add-ins|Excel<br /><br /> [!INCLUDE[InfoPath_15_short](../vsto/includes/infopath-15-short-md.md)]<br /><br /> [!INCLUDE[InfoPath_14_short](../vsto/includes/infopath-14-short-md.md)]<br /><br /> Outlook<br /><br /> PowerPoint<br /><br /> Project<br /><br /> Word<br /><br /> Visio|
 |Backstage view|Document-level customizations<br /><br /> VSTO Add-ins|Excel<br /><br /> [!INCLUDE[InfoPath_15_short](../vsto/includes/infopath-15-short-md.md)].<br /><br /> [!INCLUDE[InfoPath_14_short](../vsto/includes/infopath-14-short-md.md)]<br /><br /> Outlook<br /><br /> PowerPoint<br /><br /> Project<br /><br /> Word<br /><br /> Visio|
 |Outlook form regions|VSTO Add-ins|Outlook|
@@ -70,7 +72,7 @@ ms.workload:
 
  Visual Studio does not provide a designer or APIs for customizing the Backstage view. However, if you add a **Ribbon (XML)** item to your Office project, you can add XML to the Ribbon XML file to customize the Backstage view. For more information about **Ribbon (XML)** items, see [Ribbon XML](../vsto/ribbon-xml.md).
 
- For more information about customizing the Backstage view, see [Introduction to the Office 2010 Backstage view for developers](http://go.microsoft.com/fwlink/?LinkId=182189) and [Customize the Office 2010 Backstage view for developers](http://go.microsoft.com/fwlink/?LinkId=182188).
+ For more information about customizing the Backstage view, see [Introduction to the Office 2010 Backstage view for developers](/previous-versions/office/developer/office-2010/ee691833(v=office.14)) and [Customize the Office 2010 Backstage view for developers](/previous-versions/office/developer/office-2010/ee815851(v=office.14)).
 
 ## <a name="FormRegion"></a> Outlook form regions
  Use form regions to add custom functionality to standard Microsoft Office Outlook forms. You can create form regions that extend any existing form with additional fields or controls. If you create a new form region by using the Office development tools in Visual Studio, you can use only Windows Forms controls on the form region. If you import a form region that was designed in Outlook, then you can use only native Outlook controls.

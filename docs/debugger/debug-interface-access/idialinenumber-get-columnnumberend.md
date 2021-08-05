@@ -1,7 +1,8 @@
 ---
+description: "Retrieves the one-based source column number where the expression or statement ends."
 title: "IDiaLineNumber::get_columnNumberEnd | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 02fa56c1-87b6-405a-adee-3bb6bc62de2d
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

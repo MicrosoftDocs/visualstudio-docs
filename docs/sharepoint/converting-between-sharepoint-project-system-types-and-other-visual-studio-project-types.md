@@ -1,5 +1,8 @@
 ---
 title: "Convert: SharePoint project system types to/from other types"
+titleSuffix: ""
+description: Convert between SharePoint project system types and other Visual Studio project types. See a list that details the types that can be converted.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -9,7 +12,7 @@ helpviewer_keywords:
   - "SharePoint project service"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---
@@ -31,8 +34,8 @@ ms.workload:
 ## Example
  The following code example demonstrates how to use the <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectService.Convert%2A> method to convert an <xref:Microsoft.VisualStudio.SharePoint.ISharePointProject> object to an <xref:EnvDTE.Project>.
 
- [!code-csharp[SPExtensibility.ProjectService.FromDTE#2](../sharepoint/codesnippet/CSharp/spprojectserviceaddin/connect.cs#2)]
- [!code-vb[SPExtensibility.ProjectService.FromDTE#2](../sharepoint/codesnippet/VisualBasic/spprojectserviceaddin/connect.vb#2)]
+:::code language="csharp" source="../sharepoint/codesnippet/CSharp/spprojectserviceaddin/connect.cs" id="Snippet2":::
+:::code language="vb" source="../sharepoint/codesnippet/VisualBasic/spprojectserviceaddin/connect.vb" id="Snippet2":::
 
  This example requires:
 

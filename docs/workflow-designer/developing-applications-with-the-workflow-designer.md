@@ -1,21 +1,23 @@
 ---
-title: "Developing Applications with the Workflow Designer"
+title: Developing Applications with the Workflow Designer
+description: Learn how to develop applications with the Workflow Designer, which you can use for the graphical construction and debugging of WF applications in Visual Studio. 
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 f1_keywords:
-  - "DefaultWorkflowDesigner"
-  - "DefaultWorkflowDesigner.UI"
+- DefaultWorkflowDesigner
+- DefaultWorkflowDesigner.UI
 helpviewer_keywords:
-  - "Visual Studio Workflow Designer [WFD], overview"
-  - "Workflow Designer [WFD]"
-  - "Visual Studio Workflow Designer [WFD]"
-  - "Workflow Designer [WFD], overview"
+- Visual Studio Workflow Designer [WFD], overview
+- Workflow Designer [WFD]
+- Visual Studio Workflow Designer [WFD]
+- Workflow Designer [WFD], overview
 ms.assetid: 4cd062b1-b496-4668-bbc1-ee85545e066d
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Develop apps with the Workflow Designer
 

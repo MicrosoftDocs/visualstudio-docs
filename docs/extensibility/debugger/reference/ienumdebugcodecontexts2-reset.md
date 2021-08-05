@@ -1,20 +1,21 @@
 ---
-title: "IEnumDebugCodeContexts2::Reset | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Resets the code contexts enumeration to the first element."
+title: IEnumDebugCodeContexts2::Reset | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IEnumDebugCodeContexts2::Reset"
+- IEnumDebugCodeContexts2::Reset
 helpviewer_keywords:
-  - "IEnumDebugCodeContexts2::Reset"
+- IEnumDebugCodeContexts2::Reset
 ms.assetid: df6cf1e3-2ef8-4d38-81a0-8e9adf151884
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IEnumDebugCodeContexts2::Reset
 Resets the enumeration to the first element.

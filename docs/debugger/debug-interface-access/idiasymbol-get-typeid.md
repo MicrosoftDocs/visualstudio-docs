@@ -1,7 +1,8 @@
 ---
+description: "Retrieves the type identifier of the symbol."
 title: "IDiaSymbol::get_typeId | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: b40be36e-10e1-463c-9c6d-21862679d29f
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

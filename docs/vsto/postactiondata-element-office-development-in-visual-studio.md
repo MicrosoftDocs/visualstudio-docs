@@ -1,7 +1,9 @@
 ---
-title: "&lt;postActionData&gt; element (Office development in Visual Studio)"
+title: "&lt;postActionData&gt; element (Office development)"
+description: "The postActionData element of the vstav3 namespace specifies the data associated with any post-deployment action that runs after Office solutions are installed."
+titleSuffix: ""
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "VB"
   - "CSharp"
@@ -11,11 +13,11 @@ helpviewer_keywords:
   - "postActionData element"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---
-# &lt;postActionData&gt; element (Office development in Visual Studio)
+# &lt;postActionData&gt; element (Office development)
   The `postActionData` element of the `vstav3` namespace specifies the data associated with any post-deployment action that runs after Office solutions are installed.
 
 ## Syntax

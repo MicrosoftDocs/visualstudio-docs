@@ -1,20 +1,21 @@
 ---
-title: "IDebugOutputStringEvent2::GetString | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Gets the displayable message."
+title: IDebugOutputStringEvent2::GetString | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugOutputStringEvent2::GetString"
+- IDebugOutputStringEvent2::GetString
 helpviewer_keywords:
-  - "IDebugOutputStringEvent2::GetString"
+- IDebugOutputStringEvent2::GetString
 ms.assetid: f059f8e0-ad44-49ac-ba90-73576ada5e06
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugOutputStringEvent2::GetString
 Gets the displayable message.

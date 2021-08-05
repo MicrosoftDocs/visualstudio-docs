@@ -1,7 +1,9 @@
 ---
 title: "Walkthrough: Add Feature Event Receivers | Microsoft Docs"
+description: In this walkthrough, add feature event receivers, which are methods that execute when a SharePoint feature is installed, activated, deactivated, or removed.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: how-to
 dev_langs:
   - "VB"
   - "CSharp"
@@ -13,12 +15,12 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, feature event receivers"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---
 # Walkthrough: Add feature event receivers
-  Feature event receivers are methods that execute when one of the following feature-related events occurs in SharePoint:
+Feature event receivers are methods that execute when one of the following feature-related events occurs in SharePoint:
 
 - A feature is installed.
 
@@ -28,7 +30,7 @@ ms.workload:
 
 - A feature is removed.
 
-  This walkthrough demonstrates how to add an event receiver to a feature in a SharePoint project. It demonstrates the following tasks:
+This walkthrough demonstrates how to add an event receiver to a feature in a SharePoint project. It demonstrates the following tasks:
 
 - Creating an empty project with a feature event receiver.
 
@@ -81,12 +83,12 @@ ms.workload:
 
 3. If your project is written in [!INCLUDE[csprcs](../sharepoint/includes/csprcs-md.md)], add the following code at the top of the event receiver if it is not already there:
 
-     [!code-csharp[SP_FeatureEvt#1](../sharepoint/codesnippet/CSharp/featureevttest2/features/feature1/feature1.eventreceiver.cs#1)]
+     :::code language="csharp" source="../sharepoint/codesnippet/CSharp/featureevttest2/features/feature1/feature1.eventreceiver.cs" id="Snippet1":::
 
 4. The event receiver class contains several commented-out methods that act as events. Replace the **FeatureDeactivating** method with the following:
 
-     [!code-vb[SP_FeatureEvt#2](../sharepoint/codesnippet/VisualBasic/featureevt2vb/features/feature1/feature1.eventreceiver.vb#2)]
-     [!code-csharp[SP_FeatureEvt#2](../sharepoint/codesnippet/CSharp/featureevttest2/features/feature1/feature1.eventreceiver.cs#2)]
+     :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/featureevt2vb/features/feature1/feature1.eventreceiver.vb" id="Snippet2":::
+     :::code language="csharp" source="../sharepoint/codesnippet/CSharp/featureevttest2/features/feature1/feature1.eventreceiver.cs" id="Snippet2":::
 
 ## Test the feature event receiver
  Next, deactivate the feature to test whether the **FeatureDeactivating** method outputs an announcement to the SharePoint Announcements list.

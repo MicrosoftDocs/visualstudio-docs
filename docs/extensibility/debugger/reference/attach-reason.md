@@ -1,20 +1,21 @@
 ---
-title: "ATTACH_REASON | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Specifies the reason for the debug engine (DE) to attach to a program node."
+title: ATTACH_REASON | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "ATTACH_REASON"
+- ATTACH_REASON
 helpviewer_keywords:
-  - "ATTACH_REASON enumeration"
+- ATTACH_REASON enumeration
 ms.assetid: 159fb70b-a344-4ba6-9115-b7eaa16e228f
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # ATTACH_REASON
 Specifies the reason for the debug engine (DE) to attach to a program node.

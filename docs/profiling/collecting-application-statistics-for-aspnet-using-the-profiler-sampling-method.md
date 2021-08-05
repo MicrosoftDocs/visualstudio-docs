@@ -1,16 +1,19 @@
 ---
-title: "Collect statistics for ASP.NET web apps | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-helpviewer_keywords:
-  - "profiling tools, sampling method"
-  - "sampling profling method"
+title: Collect statistics for ASP.NET web apps
+description: Review procedures and options to collect performance statistics for ASP.NET Web apps using the VSPerfASPNETCmd and VSPerfCmd tool and the sampling profiling method.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
+helpviewer_keywords: 
+  - profiling tools, sampling method
+  - sampling profling method
 ms.assetid: f8383ab1-eb49-4d3f-8608-d8b4d51a81be
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
-ms.workload:
-  - "aspnet"
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+monikerRange: 'vs-2017'
+ms.workload: 
+  - aspnet
 ---
 # Collect statistics for ASP.NET web apps
 

@@ -47,7 +47,9 @@ namespace DesignLibrary
             catch(FileNotFoundException e)
             {
                 Console.WriteLine("Unable to open {0}.", inFile);
-            }
+            };
+            // For functionally equivalent code, also catch 
+            // remaining exceptions that may be thrown by File.Open
 
             try
             {

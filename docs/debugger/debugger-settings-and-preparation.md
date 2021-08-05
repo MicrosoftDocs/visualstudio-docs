@@ -1,5 +1,7 @@
 ---
 title: "Debugger Settings and Preparation | Microsoft Docs"
+description: This section tells you how to prepare to use Visual Studio debugger, and describes relevant properties. Follow the links to the information you need.
+ms.custom: SEO-VS-2020
 ms.date: "08/01/2018"
 ms.topic: "reference"
 f1_keywords:
@@ -15,7 +17,7 @@ helpviewer_keywords:
 ms.assetid: f15a1400-b204-418d-8878-ab7755470fd7
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

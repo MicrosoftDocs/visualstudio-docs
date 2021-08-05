@@ -1,5 +1,7 @@
 ---
 title: Options, Text Editor, JavaScript, IntelliSense
+description: Learn how to use the IntelliSense page of the Options dialog box to modify settings that affect the behavior of IntelliSense for JavaScript.
+ms.custom: SEO-VS-2020
 ms.date: 10/29/2018
 ms.technology: vs-javascript
 ms.topic: reference
@@ -10,7 +12,7 @@ f1_keywords:
 ms.assetid: b4a9816d-cf87-4dc6-a8d4-1591d6a48103
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

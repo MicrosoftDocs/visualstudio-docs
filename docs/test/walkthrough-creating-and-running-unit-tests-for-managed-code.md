@@ -1,22 +1,26 @@
 ---
 title: C# unit test tutorial
-ms.date: 05/14/2019
+description: Learn how to create, run, and customize a series of unit tests using the Microsoft unit test framework for managed code and Visual Studio Test Explorer.
+ms.custom: SEO-VS-2020
+ms.date: 02/12/2021
 ms.topic: conceptual
 helpviewer_keywords:
-  - "unit tests, walkthrough"
-  - "unit tests, creating"
-  - "unit tests, generating"
-  - "unit tests, running"
-  - "unit tests, authoring"
-ms.author: jillfra
-manager: jillfra
+- unit tests, walkthrough
+- unit tests, creating
+- unit tests, generating
+- unit tests, running
+- unit tests, authoring
+ms.author: mikejo
+manager: jmartens
 ms.workload:
-  - "dotnet"
-author: jillre
+- dotnet
+author: mikejo5000
 ---
 # Walkthrough: Create and run unit tests for managed code
 
 This article steps you through creating, running, and customizing a series of unit tests using the Microsoft unit test framework for managed code and Visual Studio **Test Explorer**. You start with a C# project that is under development, create tests that exercise its code, run the tests, and examine the results. Then you change the project code and rerun the tests.
+
+
 
 ## Create a project to test
 
@@ -45,9 +49,14 @@ This article steps you through creating, running, and customizing a series of un
 
 2. On the start window, choose **Create a new project**.
 
-3. Search for and select the C# **Console App (.NET Core)** project template, and then click **Next**.
+3. Search for and select the C# **Console App** project template for .NET Core, and then click **Next**.
 
-4. Name the project **Bank**, and then click **Create**.
+   > [!NOTE]
+   > If you do not see the **Console App** template, you can install it from the **Create a new project** window. In the **Not finding what you're looking for?** message, choose the **Install more tools and features** link. Then, in the Visual Studio Installer, choose the **.NET Core cross-platform development** workload.
+
+4. Name the project **Bank**, and then click **Next**.
+
+   Choose either the recommended target framework (.NET Core 3.1) or .NET 5, and then choose **Create**.
 
    The Bank project is created and displayed in **Solution Explorer** with the *Program.cs* file open in the code editor.
 
@@ -128,7 +137,7 @@ This article steps you through creating, running, and customizing a series of un
 
 6. Rename the file to *BankAccount.cs* by right-clicking and choosing **Rename** in **Solution Explorer**.
 
-7. On the **Build** menu, click **Build Solution**.
+7. On the **Build** menu, click **Build Solution** (or press **Ctrl** + **SHIFT** + **B**).
 
 You now have a project with methods you can test. In this article, the tests focus on the `Debit` method. The `Debit` method is called when money is withdrawn from an account.
 
@@ -153,11 +162,14 @@ You now have a project with methods you can test. In this article, the tests foc
 
 ::: moniker range=">=vs-2019"
 
-2. Search for and select the C# **MSTest Test Project (.NET Core)** project template, and then click **Next**.
+2. Type **unit test** in the search box, select **C#** as the language, and then select the C# **Unit Test Project** for .NET Core template, and then click **Next**.
 
-3. Name the project **BankTests**.
+   > [!NOTE]
+   > Starting in Visual Studio 2019 version 16.9, the MSTest project template name changed from **MSTest Unit Test Project (.NET Core)** to **Unit Test Project**.
 
-4. Click **Create**.
+3. Name the project **BankTests** and click **Next**.
+
+4. Choose either the recommended target framework (.NET Core 3.1) or .NET 5, and then choose **Create**.
 
    The **BankTests** project is added to the **Bank** solution.
 
@@ -177,7 +189,7 @@ Create a test class to verify the `BankAccount` class. You can use the *UnitTest
 
 ### Rename a file and class
 
-1. To rename the file, in **Solution Explorer**, select the *UnitTest1.cs* file in the BankTests project. From the right-click menu, choose **Rename**, and then rename the file to *BankAccountTests.cs*.
+1. To rename the file, in **Solution Explorer**, select the *UnitTest1.cs* file in the BankTests project. From the right-click menu, choose **Rename** (or press **F2**), and then rename the file to *BankAccountTests.cs*.
 
 ::: moniker range="vs-2017"
 
@@ -187,7 +199,7 @@ Create a test class to verify the `BankAccount` class. You can use the *UnitTest
 
 ::: moniker range=">=vs-2019"
 
-2. To rename the class, position the cursor on `UnitTest1` in the code editor, right-click, and then choose **Rename**. Type in **BankAccountTests** and then press **Enter**.
+2. To rename the class, position the cursor on `UnitTest1` in the code editor, right-click, and then choose **Rename** (or press **F2**). Type in **BankAccountTests** and then press **Enter**.
 
 ::: moniker-end
 
@@ -279,11 +291,11 @@ A test method must meet the following requirements:
 
 ## Build and run the test
 
-1. On the **Build** menu, choose **Build Solution**.
+1. On the **Build** menu, choose **Build Solution** (or press **Ctrl** + **SHIFT** + **B**).
 
-2. If **Test Explorer** is not open, open it by choosing **Test** > **Windows** > **Test Explorer** from the top menu bar.
+2. If **Test Explorer** is not open, open it by choosing **Test** > **Windows** > **Test Explorer** from the top menu bar (or press **Ctrl** + **E**, **T**).
 
-3. Choose **Run All** to run the test.
+3. Choose **Run All** to run the test (or press **Ctrl** + **R**, **V**).
 
    While the test is running, the status bar at the top of the **Test Explorer** window is animated. At the end of the test run, the bar turns green if all the test methods pass, or red if any of the tests fail.
 
@@ -313,7 +325,7 @@ m_balance -= amount;
 
 ### Rerun the test
 
-In **Test Explorer**, choose **Run All** to rerun the test. The red/green bar turns green to indicate that the test passed.
+In **Test Explorer**, choose **Run All** to rerun the test (or press **Ctrl** + **R**, **V**). The red/green bar turns green to indicate that the test passed.
 
 ![Test Explorer in Visual Studio 2019 showing passed test](media/test-explorer-banktests-passed.png)
 
@@ -423,7 +435,7 @@ public void Debit_WhenAmountIsMoreThanBalance_ShouldThrowArgumentOutOfRange()
 
 ### Retest, rewrite, and reanalyze
 
-Assume there's a bug in the method under test and the `Debit` method doesn't even throw an <xref:System.ArgumentOutOfRangeException> never mind output the correct message with the exception. Currently, the test method doesn't handle this case. If the `debitAmount` value is valid (that is, less than the balance and greater than zero), no exception is caught, so the assert never fires. Yet, the test method passes. This is not good, because you want the test method to fail if no exception is thrown.
+Currently, the test method doesn't handle all the cases that it should. If the method under test, the `Debit` method, failed to throw an <xref:System.ArgumentOutOfRangeException> when the `debitAmount` was larger than the balance (or less than zero), the test method would pass. This is not good, because you want the test method to fail if no exception is thrown.
 
 This is a bug in the test method. To resolve the issue, add an <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.Fail%2A> assert at the end of the test method to handle the case where no exception is thrown.
 

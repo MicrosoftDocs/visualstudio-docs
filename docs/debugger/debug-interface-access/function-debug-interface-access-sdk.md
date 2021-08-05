@@ -1,7 +1,8 @@
 ---
+description: "Each function is identified by a SymTagFunction symbol."
 title: "Function (Debug Interface Access SDK) | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 458dc91c-b78b-4427-84f4-615d89e26760
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---
@@ -19,7 +20,7 @@ Each function is identified by a `SymTagFunction` symbol.
 ## Properties
  The following table shows the properties that are valid for this symbol type.
 
-|Property|`Data type`|Description|
+|Property|Data type|Description|
 |--------------|-----------------|-----------------|
 |[IDiaSymbol::get_access](../../debugger/debug-interface-access/idiasymbol-get-access.md)|`DWORD`|One of the values of the [CV_access_e Enumeration](../../debugger/debug-interface-access/cv-access-e.md), if the function is a member function.|
 |[IDiaSymbol::get_addressOffset](../../debugger/debug-interface-access/idiasymbol-get-addressoffset.md)|`DWORD`|Offset part of location; for details, see the [LocationType Enumeration](../../debugger/debug-interface-access/locationtype.md).|

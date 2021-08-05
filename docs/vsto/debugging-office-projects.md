@@ -1,5 +1,7 @@
 ---
 title: "Debug Office projects"
+description: Learn how you can debug Office projects by using the same Microsoft Visual Studio tools you use for other Visual Studio projects. 
+ms.custom: SEO-VS-2020
 ms.date: "08/14/2019"
 ms.topic: "conceptual"
 dev_langs:
@@ -14,12 +16,12 @@ helpviewer_keywords:
   - "Outlook [Office development in Visual Studio], projects"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---
 # Debug Office projects
-  You can debug Office projects by using the same Microsoft [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] tools you use for other [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] projects. [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] debugger features, such as the ability to insert breakpoints and view variables in the **Locals** window, are also available when you debug Office projects. For more information about [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] debugging tools, see [Debug in Visual Studio](../debugger/debugging-in-visual-studio.md).
+  You can debug Office projects by using the same Microsoft [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] tools you use for other [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] projects. [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] debugger features, such as the ability to insert breakpoints and view variables in the **Locals** window, are also available when you debug Office projects. For more information about [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] debugging tools, see [Debug in Visual Studio](../debugger/debugger-feature-tour.md).
 
 > [!TIP]
 > To simplify debugging, close any open instances of the Office application before you build and debug it.

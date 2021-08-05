@@ -1,20 +1,22 @@
 ---
-title: "How to: Create File Associations For a ClickOnce Application | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-helpviewer_keywords:
-  - "file associations, ClickOnce applications"
-  - "ClickOnce deployment, file associations"
+title: Create file associations (ClickOnce app)
+description: Learn how to associate a ClickOnce application with one or more file name extensions, so that the application starts when the user opens such a file.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
+dev_langs: 
+  - VB
+  - CSharp
+  - C++
+helpviewer_keywords: 
+  - file associations, ClickOnce applications
+  - ClickOnce deployment, file associations
 ms.assetid: 835230c8-3177-440f-85e3-e40f1d8b4f9d
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
-ms.workload:
-  - "multiple"
+manager: jmartens
+ms.workload: 
+  - multiple
 ---
 # How to: Create file associations for a ClickOnce application
 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] applications can be associated with one or more file name extensions, so that the application will be started automatically when the user opens a file of those types. Adding file name extension support to a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application is straightforward.

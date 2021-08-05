@@ -1,7 +1,10 @@
 ---
 title: "Walkthrough: Extending Server Explorer to Display Web Parts | Microsoft Docs"
+titleSuffix: ""
+description: In this walkthrough, extend Server Explorer so that it displays the Web Part gallery on each connected SharePoint site.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: how-to
 dev_langs:
   - "VB"
   - "CSharp"
@@ -12,7 +15,7 @@ helpviewer_keywords:
   - "SharePoint Connections [SharePoint development in Visual Studio], creating a new node type"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---
@@ -45,9 +48,9 @@ ms.workload:
 
   Knowledge of the following concepts is helpful, but not required, to complete the walkthrough:
 
-- Using the server object model for SharePoint. For more information, see [Using the SharePoint Foundation Server-Side Object Model](http://go.microsoft.com/fwlink/?LinkId=177796).
+- Using the server object model for SharePoint. For more information, see [Using the SharePoint Foundation Server-Side Object Model](/previous-versions/office/developer/sharepoint-2010/ee538251(v=office.14)).
 
-- Web Parts in SharePoint solutions. For more information, see [Web Parts Overview](http://go.microsoft.com/fwlink/?LinkId=177803).
+- Web Parts in SharePoint solutions. For more information, see [Web Parts Overview](/previous-versions/office/ms432401(v=office.14)).
 
 ## Create the projects
  To complete this walkthrough, you must create three projects:
@@ -207,8 +210,8 @@ ms.workload:
     > [!NOTE]
     > After you add this code, the project will have some compile errors, but they'll go away when you add code in later steps.
 
-     [!code-csharp[SPExtensibility.SPExplorer.WebPartNodeWithCommands#1](../sharepoint/codesnippet/CSharp/WebPartNode/webpartnodeextension/sitenodeextension.cs#1)]
-     [!code-vb[SPExtensibility.SPExplorer.WebPartNodeWithCommands#1](../sharepoint/codesnippet/VisualBasic/spextensibility.spexplorer.webpartnodewithcommands.webpartnode/webpartnodeextension/sitenodeextension.vb#1)]
+     :::code language="csharp" source="../sharepoint/codesnippet/CSharp/WebPartNode/webpartnodeextension/sitenodeextension.cs" id="Snippet1":::
+     :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/spextensibility.spexplorer.webpartnodewithcommands.webpartnode/webpartnodeextension/sitenodeextension.vb" id="Snippet1":::
 
 ## Define a node type that represents a web part
  Create a class that defines a new type of node that represents a Web Part. Visual Studio uses this new node type to display child nodes under the **Web Part Gallery** node. Each child node represents a single Web Part on the SharePoint site.
@@ -219,8 +222,8 @@ ms.workload:
 
 1. In the WebPartNodeExtension project, open the WebPartNodeTypeProvder code file, and then paste the following code into it.
 
-     [!code-vb[SPExtensibility.SPExplorer.WebPartNodeWithCommands#2](../sharepoint/codesnippet/VisualBasic/spextensibility.spexplorer.webpartnodewithcommands.webpartnode/webpartnodeextension/webpartnodetypeprovider.vb#2)]
-     [!code-csharp[SPExtensibility.SPExplorer.WebPartNodeWithCommands#2](../sharepoint/codesnippet/CSharp/WebPartNode/webpartnodeextension/webpartnodetypeprovider.cs#2)]
+     :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/spextensibility.spexplorer.webpartnodewithcommands.webpartnode/webpartnodeextension/webpartnodetypeprovider.vb" id="Snippet2":::
+     :::code language="csharp" source="../sharepoint/codesnippet/CSharp/WebPartNode/webpartnodeextension/webpartnodetypeprovider.cs" id="Snippet2":::
 
 ## Define the web part data class
  Define a class that contains data about a single Web Part on the SharePoint site. Later in this walkthrough, you will create a custom SharePoint command that retrieves data about each Web Part on the site and then assigns the data to instances of this class.
@@ -229,8 +232,8 @@ ms.workload:
 
 1. In the WebPartNodeExtension project, open the WebPartNodeInfo code file, and then paste the following code into it.
 
-     [!code-vb[SPExtensibility.SPExplorer.WebPartNodeWithCommands#3](../sharepoint/codesnippet/VisualBasic/spextensibility.spexplorer.webpartnodewithcommands.webpartnode/webpartnodeextension/webpartnodeinfo.vb#3)]
-     [!code-csharp[SPExtensibility.SPExplorer.WebPartNodeWithCommands#3](../sharepoint/codesnippet/CSharp/WebPartNode/webpartnodeextension/webpartnodeinfo.cs#3)]
+     :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/spextensibility.spexplorer.webpartnodewithcommands.webpartnode/webpartnodeextension/webpartnodeinfo.vb" id="Snippet3":::
+     :::code language="csharp" source="../sharepoint/codesnippet/CSharp/WebPartNode/webpartnodeextension/webpartnodeinfo.cs" id="Snippet3":::
 
 ## Define the IDs for the SharePoint commands
  Define several strings that identify the custom SharePoint commands. You will implement these commands later in this walkthrough.
@@ -239,8 +242,8 @@ ms.workload:
 
 1. In the WebPartNodeExtension project, open the WebPartCommandIds code file, and then paste the following code into it.
 
-     [!code-csharp[SPExtensibility.SPExplorer.WebPartNodeWithCommands#4](../sharepoint/codesnippet/CSharp/WebPartNode/webpartnodeextension/webpartcommandids.cs#4)]
-     [!code-vb[SPExtensibility.SPExplorer.WebPartNodeWithCommands#4](../sharepoint/codesnippet/VisualBasic/spextensibility.spexplorer.webpartnodewithcommands.webpartnode/webpartnodeextension/webpartcommandids.vb#4)]
+     :::code language="csharp" source="../sharepoint/codesnippet/CSharp/WebPartNode/webpartnodeextension/webpartcommandids.cs" id="Snippet4":::
+     :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/spextensibility.spexplorer.webpartnodewithcommands.webpartnode/webpartnodeextension/webpartcommandids.vb" id="Snippet4":::
 
 ## Create the custom SharePoint commands
  Create custom commands that call into the server object model for SharePoint to retrieve data about the Web Parts on the SharePoint site. Each command is a method that has the <xref:Microsoft.VisualStudio.SharePoint.Commands.SharePointCommandAttribute> applied to it.
@@ -249,8 +252,8 @@ ms.workload:
 
 1. In the WebPartCommands project, open the WebPartCommands code file, and then paste the following code into it.
 
-     [!code-csharp[SPExtensibility.SPExplorer.WebPartNodeWithCommands#6](../sharepoint/codesnippet/CSharp/WebPartNode/WebPartCommands/WebPartCommands.cs#6)]
-     [!code-vb[SPExtensibility.SPExplorer.WebPartNodeWithCommands#6](../sharepoint/codesnippet/VisualBasic/spextensibility.spexplorer.webpartnodewithcommands.webpartnode/webpartcommands/webpartcommands.vb#6)]
+     :::code language="csharp" source="../sharepoint/codesnippet/CSharp/WebPartNode/WebPartCommands/WebPartCommands.cs" id="Snippet6":::
+     :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/spextensibility.spexplorer.webpartnodewithcommands.webpartnode/webpartcommands/webpartcommands.vb" id="Snippet6":::
 
 ## Checkpoint
  At this point in the walkthrough, all the code for the **Web Part Gallery** node and the SharePoint commands are now in the projects. Build the solution to make sure that both projects compile without errors.
@@ -269,7 +272,7 @@ ms.workload:
 
 1. In **Solution Explorer**, under the WebPartNode project, open the **source.extension.vsixmanifest** file in the manifest editor.
 
-     The source.extension.vsixmanifest file is the basis for the extension.vsixmanifest file that all VSIX packages require. For more information about this file, see [VSIX Extension Schema 1.0 Reference](https://msdn.microsoft.com/76e410ec-b1fb-4652-ac98-4a4c52e09a2b).
+     The source.extension.vsixmanifest file is the basis for the extension.vsixmanifest file that all VSIX packages require. For more information about this file, see [VSIX Extension Schema 1.0 Reference](/previous-versions/dd393700(v=vs.110)).
 
 2. In the **Product Name** box, enter **Web Part Gallery Node for Server Explorer**.
 
@@ -297,7 +300,7 @@ ms.workload:
 10. In the **Type** box, enter **SharePoint.Commands.v4**.
 
     > [!NOTE]
-    > This element specifies a custom extension that you want to include in the Visual Studio extension. For more information, see [Asset Element (VSX Schema)](https://msdn.microsoft.com/9fcfc098-edc7-484b-9d4c-acd17829d737).
+    > This element specifies a custom extension that you want to include in the Visual Studio extension. For more information, see [Asset Element (VSX Schema)](/previous-versions/dd393737(v=vs.110)).
 
 11. In the **Source** list, choose the **A project in current solution** list item.
 

@@ -1,20 +1,21 @@
 ---
-title: "IEnumDebugCustomAttributes::Skip | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Skips a specified number of custom attributes in an enumeration sequence."
+title: IEnumDebugCustomAttributes::Skip | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IEnumCustomAttributes::Skip"
+- IEnumCustomAttributes::Skip
 helpviewer_keywords:
-  - "IEnumDebugCustomAttributes::Skip"
+- IEnumDebugCustomAttributes::Skip
 ms.assetid: 54c72e23-cd4c-4746-935c-abea8057dd1b
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IEnumDebugCustomAttributes::Skip
 Skips a specified number of custom attributes in an enumeration sequence.

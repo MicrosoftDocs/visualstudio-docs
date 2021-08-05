@@ -1,20 +1,21 @@
 ---
-title: "MODULE_FLAGS | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Used to describe a module."
+title: MODULE_FLAGS | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "MODULE_FLAGS"
+- MODULE_FLAGS
 helpviewer_keywords:
-  - "MODULE_FLAGS enumeration"
+- MODULE_FLAGS enumeration
 ms.assetid: 0e555b42-b846-4dbb-812e-8e3d11c85b2d
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # MODULE_FLAGS
 Used to describe a module.

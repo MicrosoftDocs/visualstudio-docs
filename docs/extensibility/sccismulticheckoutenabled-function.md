@@ -1,17 +1,18 @@
 ---
-title: "SccIsMultiCheckoutEnabled Function | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+description: "This function checks whether the source control plug-in allows multiple checkouts on a file."
+title: SccIsMultiCheckoutEnabled Function | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: reference
 f1_keywords:
-  - "SccIsMultiCheckoutEnabled"
+- SccIsMultiCheckoutEnabled
 helpviewer_keywords:
-  - "SccIsMultiCheckoutEnabled function"
+- SccIsMultiCheckoutEnabled function
 ms.assetid: 6721639d-e475-4766-81b5-ee40a280fc70
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # SccIsMultiCheckoutEnabled Function
 This function checks whether the source control plug-in allows multiple checkouts on a file.

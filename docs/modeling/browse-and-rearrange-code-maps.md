@@ -1,27 +1,29 @@
 ---
 title: Browse and rearrange code maps
+description: Learn how you can rearrange items on code maps to make them easier to read and improve their performance.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 f1_keywords:
-  - "vs.progression.dgmlgraph.layouthelp"
-  - "vs.progression.graphdocument"
-  - "vs.progression.dgmlgraph.message.notUlt.noexpandgroup"
-  - "vs.progression.colorsetpicker"
-  - "vs.progression.iconsetpicker"
+- vs.progression.dgmlgraph.layouthelp
+- vs.progression.graphdocument
+- vs.progression.dgmlgraph.message.notUlt.noexpandgroup
+- vs.progression.colorsetpicker
+- vs.progression.iconsetpicker
 helpviewer_keywords:
-  - "Visual Studio Ultimate, dependency graphs"
-  - "code visualization [Visual Studio ALM]"
-  - "graph documents, browsing"
-  - "Visual Studio ALM, dependency graphs"
-  - "code visualization"
-  - "Visual Studio ALM, graph documents"
-  - "Visual Studio Ultimate, graph documents"
-  - "dependency graphs, browsing"
-author: jillre
-ms.author: jillfra
-manager: jillfra
+- Visual Studio Ultimate, dependency graphs
+- code visualization [Visual Studio ALM]
+- graph documents, browsing
+- Visual Studio ALM, dependency graphs
+- code visualization
+- Visual Studio ALM, graph documents
+- Visual Studio Ultimate, graph documents
+- dependency graphs, browsing
+author: mgoertz-msft
+ms.author: mgoertz
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Browse and rearrange code maps
 

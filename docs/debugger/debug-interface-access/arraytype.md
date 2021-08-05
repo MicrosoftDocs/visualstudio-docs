@@ -1,7 +1,9 @@
 ---
 title: "ArrayType | Microsoft Docs"
+description: Find reference information about the ArrayType symbol type (SymTagArray) in the Visual Studio debug interface access SDK.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 1d973a3a-2bde-46df-8625-85d519bb3cc9
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

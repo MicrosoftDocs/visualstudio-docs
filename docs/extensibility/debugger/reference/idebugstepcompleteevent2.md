@@ -1,17 +1,18 @@
 ---
-title: "IDebugStepCompleteEvent2 | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "This interface is sent by the debug engine (DE) to the session debug manager (SDM) when the program being debugged completes a step into, a step over, or a step out of a line of source code or statement or instruction."
+title: IDebugStepCompleteEvent2 | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugStepCompleteEvent2"
+- IDebugStepCompleteEvent2
 helpviewer_keywords:
-  - "IDebugStepCompleteEvent2 interface"
+- IDebugStepCompleteEvent2 interface
 ms.assetid: eba2b76e-f90d-486b-ae5c-c47f1b8ba2e5
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IDebugStepCompleteEvent2
 This interface is sent by the debug engine (DE) to the session debug manager (SDM) when the program being debugged completes a step into, a step over, or a step out of a line of source code or statement or instruction.

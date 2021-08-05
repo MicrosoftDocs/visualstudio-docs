@@ -1,16 +1,18 @@
 ---
-title: "List of Available Services | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: List of Available Services | Microsoft Docs
+description: View a list of the available services supported by Visual Studio and the Visual Studio SDK, including service GUIDs for obtaining an interface for each service.
+ms.custom: SEO-VS-2020 
+ms.date: 11/04/2016
+ms.topic: reference
 helpviewer_keywords:
-  - "services, Visual Studio"
-  - "Visual Studio, services"
+- services, Visual Studio
+- Visual Studio, services
 ms.assetid: 724eb24b-b87c-4971-a2e7-adee7afc03b2
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # List of Available Services
 

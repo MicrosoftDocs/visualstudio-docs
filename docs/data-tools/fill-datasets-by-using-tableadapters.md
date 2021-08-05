@@ -1,24 +1,26 @@
 ---
 title: Fill datasets by using TableAdapters
+description: Fill datasets using TableAdapters. A TableAdapter component fills a dataset with data from the DB, based on one or more queries or stored procedures you specify.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 dev_langs:
-  - "VB"
-  - "CSharp"
+- VB
+- CSharp
 helpviewer_keywords:
-  - "datasets [Visual Basic]"
-  - "datasets [Visual Basic], loading data"
-  - "data retrieval"
-  - "retrieving data"
-  - "datasets [Visual Basic], filling"
-  - "data [Visual Studio], retrieving"
-  - "data [Visual Studio], datasets"
+- datasets [Visual Basic]
+- datasets [Visual Basic], loading data
+- data retrieval
+- retrieving data
+- datasets [Visual Basic], filling
+- data [Visual Studio], retrieving
+- data [Visual Studio], datasets
 ms.assetid: 55f3bfbe-db78-4486-add3-c62f49e6b9a0
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: ghogen
+ms.author: ghogen
+manager: jmartens
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # Fill datasets by using TableAdapters
 
@@ -48,8 +50,8 @@ TableAdapters are designer-generated components that connect to a database, run 
 
 While TableAdapters are designed with the **Dataset Designer**, the TableAdapter classes are not generated as nested classes of  <xref:System.Data.DataSet>. They are located in separate namespaces that are specific to each dataset. For example, if you have a dataset named `NorthwindDataSet`, the TableAdapters that are associated with  <xref:System.Data.DataTable>s in the `NorthwindDataSet` would be in the `NorthwindDataSetTableAdapters` namespace. To access a particular TableAdapter programmatically, you must declare a new instance of the TableAdapter. For example:
 
-[!code-csharp[VbRaddataTableAdapters#7](../data-tools/codesnippet/CSharp/fill-datasets-by-using-tableadapters_1.cs)]
-[!code-vb[VbRaddataTableAdapters#7](../data-tools/codesnippet/VisualBasic/fill-datasets-by-using-tableadapters_1.vb)]
+:::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataTableAdapters/CS/Class1.cs" id="Snippet7":::
+:::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataTableAdapters/VB/Class1.vb" id="Snippet7":::
 
 ## Associated DataTable schema
 

@@ -1,20 +1,21 @@
 ---
-title: "IDebugDocumentContext2::GetStatementRange | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Gets the file statement range of the document context."
+title: IDebugDocumentContext2::GetStatementRange | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugDocumentContext2::GetStatementRange"
+- IDebugDocumentContext2::GetStatementRange
 helpviewer_keywords:
-  - "IDebugDocumentContext2::GetStatementRange"
+- IDebugDocumentContext2::GetStatementRange
 ms.assetid: bc94851a-0ec4-47ea-99c7-0a585e54e726
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugDocumentContext2::GetStatementRange
 Gets the file statement range of the document context.

@@ -1,17 +1,18 @@
 ---
-title: "IDebugEngine3 | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Represents a single debug engine (DE) that controls the debugging of one or more modules."
+title: IDebugEngine3 | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugEngine3"
+- IDebugEngine3
 helpviewer_keywords:
-  - "IDebugEngine3 interface"
+- IDebugEngine3 interface
 ms.assetid: 8bdf4bb7-3b5d-4991-8981-772d4f6bb656
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IDebugEngine3
 Represents a single debug engine (DE) that controls the debugging of one or more modules.

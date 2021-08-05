@@ -1,24 +1,26 @@
 ---
 title: Validate code with dependency diagrams
+description: Learn that to make sure that code doesn't conflict with its design, you should validate your code with dependency diagrams in Visual Studio.
+ms.custom: SEO-VS-2020
 ms.date: 09/28/2018
 ms.topic: conceptual
 helpviewer_keywords:
-  - "dependency diagrams, validating"
-  - "validation, dependency diagrams"
-  - "validation, code"
-  - "code exploration, validating"
-  - "architecture, validating"
-  - "Visual Studio Ultimate, validating code"
-  - "validation, architecture"
-  - "validation, dependencies"
-  - "MSBuild, tasks"
-  - "MSBuild, dependency diagrams"
-  - "MSBuild, validating code"
-author: jillre
-ms.author: jillfra
-manager: jillfra
+- dependency diagrams, validating
+- validation, dependency diagrams
+- validation, code
+- code exploration, validating
+- architecture, validating
+- Visual Studio Ultimate, validating code
+- validation, architecture
+- validation, dependencies
+- MSBuild, tasks
+- MSBuild, dependency diagrams
+- MSBuild, validating code
+author: mgoertz-msft
+ms.author: mgoertz
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Validate code with dependency diagrams
 
@@ -44,9 +46,9 @@ To make sure that code doesn't conflict with its design, validate your code with
 
 - A solution that has a modeling project with a dependency diagram. This dependency diagram must be linked to artifacts in C# or Visual Basic projects that you want to validate. See [Create dependency diagrams from your code](../modeling/create-layer-diagrams-from-your-code.md).
 
-To see which editions of Visual Studio support this feature, see [Edition support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).
+To see which editions of Visual Studio support this feature, see [Edition support for architecture and modeling tools](../modeling/analyze-and-model-your-architecture.md#VersionSupport).
 
-You can validate code manually from an open dependency diagram in Visual Studio or from a command prompt. You can also validate code automatically when running local builds or Azure Pipelines builds. See [Channel 9 Video: Design and validate your architecture using dependency diagrams](http://go.microsoft.com/fwlink/?LinkID=252073).
+You can validate code manually from an open dependency diagram in Visual Studio or from a command prompt. You can also validate code automatically when running local builds or Azure Pipelines builds. See [Channel 9 Video: Design and validate your architecture using dependency diagrams](https://channel9.msdn.com/Series/Visual-Studio-2012-Premium-and-Ultimate-Overview/Visual-Studio-Ultimate-2012-Using-layer-diagrams-to-design-and-validate-your-architecture).
 
 > [!IMPORTANT]
 > If you want to run layer validation using Team Foundation Server (TFS), you must also install the same version of Visual Studio on your build server.
@@ -164,7 +166,7 @@ Use these tasks to manage validation errors in the **Error List** window:
 
 ## Validate code automatically
 
-You can perform layer validation every time that you run a local build. If your team uses Azure DevOps, you can perform layer validation with gated check-ins, which you can specify by creating a custom MSBuild task, and use build reports to collect validation errors. To create gated check-in builds, see [TFVC gated check-in](/azure/devops/pipelines/build/triggers#gated).
+You can perform layer validation every time that you run a local build. If your team uses Azure DevOps, you can perform layer validation with gated check-ins, which you can specify by creating a custom MSBuild task, and use build reports to collect validation errors. To create gated check-in builds, see [TFVC gated check-in](/azure/devops/pipelines/build/triggers).
 
 ### To validate code automatically during a local build
 
@@ -223,6 +225,8 @@ The following section describes the syntax that is used in these errors, explain
 | DV1001: **Invalid namespace name** | This issue is reported on a code element associated with a layer which "Allowed Namespace Names" property does not contain the namespace in which this code element is defined. This is a naming constraint violation. Note that the syntax of "Allowed Namespace Names" is to be a semi-colon list of namespaces in which code elements associated with are layer are permitted to be defined. |
 | DV1002: **Dependency on unreferenceable namespace** | This issue is reported on a code element associated with a layer and referencing another code element defined in a namespace which is defined in the "Unreferenceable Namespace" property of the layer. This is a naming constraint violation. Note that the "Unreferenceable Namespaces" property is defined as a Semi-colon separated list of namespaces that should not be referenced in code elements associated with this layer. |
 | DV1003: **Disallowed namespace name** | This issue is reported on a code element associated with a layer which "Disallowed Namespace Names" property contains the namespace in which this code element is defined. This is a naming constraint violation. Note that the "Disallowed namespace name" property is defined as a Semi-colon separated list of namespaces in which code elements associated with this Layer should not be defined. |
+| DV2001: **Layer Diagram Presence** | This issue is reported on a project that does not include a dependency diagram file, but refers to the dependency validation analyzers. If Dependency Validation has not been used, you can remove "Microsoft.DependencyValidation.Analyzers" directly from Solution Explorer or suppress this warning. To add a dependency diagram see [Create dependency diagrams from your code](../modeling/create-layer-diagrams-from-your-code.md). |
+| DV2002: **Unmapped Types Base** | This issue is reported when a code element is not mapped to any layer. |
 | DV3001: **Missing Link** | Layer '*LayerName*' links to '*Artifact*' which cannot be found. Are you missing an assembly reference? |
 | DV9001: **Architectural analysis found internal errors** | Results might not be complete. For more information, see the detailed build event log or output window. |
 

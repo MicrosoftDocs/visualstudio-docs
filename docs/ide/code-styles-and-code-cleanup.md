@@ -1,15 +1,17 @@
 ---
 title: Code style options and code cleanup
+description: Learn how to configure Visual Studio to apply code style preferences using the Code Cleanup (Visual Studio 2019) and Format Document (Visual Studio 2017) commands.
+ms.custom: SEO-VS-2020
 ms.date: 04/25/2019
 ms.topic: conceptual
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
 f1_keywords:
-  - "VS.ToolsOptionsPages.Text_Editor.CSharp.Code_Style.General"
-  - "VS.ToolsOptionsPages.Text_Editor.Basic.Code_Style.General"
+- VS.ToolsOptionsPages.Text_Editor.CSharp.Code_Style.General
+- VS.ToolsOptionsPages.Text_Editor.Basic.Code_Style.General
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Code style preferences
 
@@ -20,7 +22,7 @@ You can define code style settings per-project by using an [EditorConfig file](#
 
 ## Code styles in EditorConfig files
 
-[Code style settings](../ide/editorconfig-code-style-settings-reference.md) for .NET can be specified by adding an [EditorConfig](create-portable-custom-editor-options.md) file to your project. EditorConfig files are associated with a codebase rather than a Visual Studio personalization account. Settings in an EditorConfig file take precedence over code styles that are specified in the **Options** dialog box. Use an EditorConfig file when you want to enforce coding styles for all contributors to your repo or project.
+[Code style settings](/dotnet/fundamentals/code-analysis/code-style-rule-options) for .NET can be specified by adding an [EditorConfig](create-portable-custom-editor-options.md) file to your project. EditorConfig files are associated with a codebase rather than a Visual Studio personalization account. Settings in an EditorConfig file take precedence over code styles that are specified in the **Options** dialog box. Use an EditorConfig file when you want to enforce coding styles for all contributors to your repo or project.
 
 ::: moniker range=">=vs-2019"
 
@@ -52,7 +54,15 @@ Options set in this window are applicable to your Visual Studio personalization 
 
 ### Preference and severity
 
-For each code style setting on this page, you can set the **Preference** and **Severity** values using the drop-downs on each line. Severity can be set to **Refactoring Only**, **Suggestion**, **Warning**, or **Error**. If you want to enable [Quick Actions](../ide/quick-actions.md) for a code style, ensure that the **Severity** setting is set to something other than **Refactoring Only**. The **Quick Actions** light bulb ![light bulb](media/light-bulb-dropdown.png), error light bulb ![error light bulb](media/error-bulb.png), or screwdriver ![screwdriver](media/screwdriver.png) icon appears when a non-preferred style is used, and you can choose an option on the **Quick Actions** list to automatically rewrite code to the preferred style.
+For each code style setting on this page, you can set the **Preference** and **Severity** values using the drop-downs on each line. Severity can be set to **Refactoring Only**, **Suggestion**, **Warning**, or **Error**. If you want to enable [Quick Actions](../ide/quick-actions.md) for a code style, ensure that the **Severity** setting is set to something other than **Refactoring Only**. The **Quick Actions** light bulb :::image type="icon" source="media/light-bulb-dropdown.png":::, error light bulb :::image type="icon" source="media/error-bulb.png":::, or screwdriver :::image type="icon" source="media/screwdriver.png"::: icon appears when a non-preferred style is used, and you can choose an option on the **Quick Actions** list to automatically rewrite code to the preferred style.
+
+::: moniker range=">=vs-2019"
+
+## Enforce code styles on build
+
+Starting in Visual Studio 2019 version 16.8, which includes the .NET 5.0 RC2 SDK, you can [enforce the .NET coding conventions on build](/dotnet/fundamentals/productivity/code-analysis#code-style-analysis) for all .NET projects. At build time, .NET code style violations will appear as warnings or errors with an "IDE" prefix. This enables you to strictly enforce consistent code styles in your codebase.
+
+::: moniker-end
 
 ## Apply code styles
 
@@ -98,5 +108,5 @@ If you want your code style settings to be applied every time you save a file, y
 ## See also
 
 - [Quick Actions](../ide/quick-actions.md)
-- [.NET coding convention settings for EditorConfig](../ide/editorconfig-code-style-settings-reference.md)
+- [.NET coding convention settings for EditorConfig](/dotnet/fundamentals/code-analysis/code-style-rule-options)
 - [Editor behavior (Visual Studio for Mac)](/visualstudio/mac/editor-behavior)

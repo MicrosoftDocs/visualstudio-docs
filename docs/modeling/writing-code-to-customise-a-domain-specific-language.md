@@ -1,12 +1,14 @@
 ---
 title: Customize a Domain-Specific Language
+description: Learn how to use custom code to access, modify, or create a model in a domain-specific language (DSL).
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
   - "Domain-Specific Language, programming"
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: mgoertz-msft
+ms.author: mgoertz
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

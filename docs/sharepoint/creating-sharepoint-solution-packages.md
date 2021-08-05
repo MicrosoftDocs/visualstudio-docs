@@ -1,5 +1,7 @@
 ---
 title: "Creating SharePoint Solution Packages | Microsoft Docs"
+description: Create and customize deployment packages for SharePoint solutions using the Package Designer. Explore packaging tools, designer options, and folder structure.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -10,7 +12,7 @@ helpviewer_keywords:
   - "packages [SharePoint development in Visual Studio]"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---
@@ -31,7 +33,7 @@ ms.workload:
 |-------------------------------|------------------------------------|
 |Name|Required. The default name of the package is set to *ProjectName*.|
 |Reset WebServer|Optional. Select if you want to restart the Web server after the *.wsp* file is installed on the SharePoint server.|
-|Deployment Server Type|Required. By default, the scope is set to ApplicationServer.<br /><br /> ApplicationServer: Describes a server that hosts services.<br /><br /> WebFrontEnd: Describes a server that hosts Web sites.|
+|Deployment Server Type|Optional. Represents the type of server hosting the package. If not set this will default to WebFrontEnd.<br /><br /> ApplicationServer: Describes a server that hosts services.<br /><br /> WebFrontEnd: Describes a server that hosts Web sites.|
 |Items in the Solution|All SharePoint project items and Features that can be added to the package.|
 |Items in the Package|Optional. All SharePoint items and Features that you want to deploy in your package.|
 

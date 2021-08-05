@@ -2,10 +2,10 @@
 title: Measure performance of Python code
 description: Use the Visual Studio profiler to check the performance of Python code when using CPython-based interpreters.
 ms.date: 11/12/2018
-ms.topic: conceptual
+ms.topic: how-to
 author: JoshuaPartlow
 ms.author: joshuapa
-manager: jillfra
+manager: jmartens
 ms.custom: seodec18
 ms.workload:
   - python
@@ -17,7 +17,7 @@ You can profile a Python application when using CPython-based interpreters. (See
 
 ## Profiling for CPython-based interpreters
 
-Profiling is started through the **Analyze** > **Launch Python Profiling** menu command, which opens a configuration dialog:
+Profiling is started through the **Debug** > **Launch Python Profiling** menu command, which opens a configuration dialog:
 
 ![Profiling configuration dialog](media/profiling-start.png)
 
@@ -26,7 +26,7 @@ When you select **OK**, the profiler runs and opens a performance report through
 ![Profiling performance report](media/profiling-results.png)
 
 > [!Note]
-> At present, Visual Studio supports only this level of full-application profiling, but we certainly want to hear your feedback on future capabilities. Use the **Product feedback** button at the bottom of this page.
+> When you profile a Python application Visual Studio collects data for the lifetime of the process. At present, it is not possible to pause profiling. We do want to hear your feedback on future capabilities. Use the **Product feedback** button at the bottom of this page.
 
 ## Profiling for IronPython
 
@@ -34,4 +34,4 @@ Because IronPython is not a CPython-based interpreter, the profiling feature abo
 
 Instead, use the Visual Studio .NET profiler by launching *ipy.exe* directly as the target application, using the appropriate arguments to launch your startup script. Include `-X:Debug` on the command line to ensure that all of your Python code can be debugged and profiled. This argument generates a performance report including time spent both in the IronPython runtime and your code. Your code is identified using mangled names.
 
-Alternately, IronPython has some of its own built-in profiling but there's currently no good visualizer for it. See [An IronPython Profiler](https://blogs.msdn.microsoft.com/curth/2009/03/30/an-ironpython-profiler/) (MSDN blogs) for what's available.
+Alternately, IronPython has some of its own built-in profiling but there's currently no good visualizer for it. See [An IronPython Profiler](/archive/blogs/curth/an-ironpython-profiler) (MSDN blogs) for what's available.

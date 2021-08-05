@@ -1,16 +1,18 @@
 ---
-title: "Private Galleries | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Private Galleries | Microsoft Docs
+description: Learn how to share the controls, templates, and tools that you develop in the Visual Studio SDK by posting them to a private gallery.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "VSIX galleries, private"
-  - "private galleries, VSIX"
+- VSIX galleries, private
+- private galleries, VSIX
 ms.assetid: b6b3dee7-91c5-4556-9f69-0d56b675e83b
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Private galleries
 You can share the controls, templates, and tools that you develop by posting them to a *private gallery* on the intranet for your organization, as follows:
@@ -36,9 +38,9 @@ You can share the controls, templates, and tools that you develop by posting the
 
 5. In the **URL** field, enter the URL of the Atom feed or SharePoint site that is hosting the private gallery.
 
-    1. If the host is an Atom feed that connects to the private gallery, the URL would resemble this one: http://www.mywebsite/mygallery/atom.xml.  This URL can refer to a file or a network path.
+    1. If the host is an Atom feed that connects to the private gallery, the URL would resemble this one: `http://www.mywebsite/mygallery/atom.xml`.  This URL can refer to a file or a network path.
 
-    2. If the host is a SharePoint site, the URL would resemble this one: http://mysharepoint/sites/mygallery/forms/AllItems.aspx.
+    2. If the host is a SharePoint site, the URL would resemble this one: `http://mysharepoint/sites/mygallery/forms/AllItems.aspx`.
 
 ### Manage private galleries
  An administrator can make a private gallery available to several computers at the same time by modifying the system registry on each computer. To accomplish this, create a *.pkgdef* file that describes the new registry keys and their values.  The format of this file is as follows.

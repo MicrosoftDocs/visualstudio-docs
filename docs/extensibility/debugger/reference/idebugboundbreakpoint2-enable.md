@@ -1,21 +1,22 @@
 ---
-title: "IDebugBoundBreakpoint2::Enable | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Enables or disables the breakpoint."
+title: IDebugBoundBreakpoint2::Enable | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugBoundBreakpoint2::Enable"
+- IDebugBoundBreakpoint2::Enable
 helpviewer_keywords:
-  - "Enable method"
-  - "IDebugBoundBreakpoint2::Enable method"
+- Enable method
+- IDebugBoundBreakpoint2::Enable method
 ms.assetid: 1b4e3f73-c94d-4aa3-9aa8-0d8cb8a6c5ca
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugBoundBreakpoint2::Enable
 Enables or disables the breakpoint.

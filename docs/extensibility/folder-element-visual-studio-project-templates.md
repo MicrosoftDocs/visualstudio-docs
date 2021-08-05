@@ -1,18 +1,20 @@
 ---
-title: "Folder Element (Visual Studio Project Templates) | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.technology: "vs-ide-general"
-ms.topic: "conceptual"
+title: Folder Element (Visual Studio Project Templates) | Microsoft Docs
+description: Learn about the Folder element and how it specifies a folder that will be added to the project.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.technology: vs-ide-general
+ms.topic: reference
 f1_keywords:
-  - "http://schemas.microsoft.com/developer/vstemplate/2005#Folder"
+- http://schemas.microsoft.com/developer/vstemplate/2005#Folder
 helpviewer_keywords:
-  - "Folder element [Visual Studio project templates]"
+- Folder element [Visual Studio project templates]
 ms.assetid: 558e3d41-0db5-4c44-82bb-6bb87892b093
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Folder element (Visual Studio project templates)
 Specifies a folder that will be added to the project.

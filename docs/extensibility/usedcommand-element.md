@@ -1,16 +1,18 @@
 ---
-title: "UsedCommand Element | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: UsedCommand Element | Microsoft Docs
+description: The UsedCommand element enables a VSPackage to access a command that is defined in another .vsct file.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: reference
 helpviewer_keywords:
-  - "UsedCommands element (VSCT XML schema)"
-  - "VSCT XML schema elements, UsedCommands"
+- UsedCommands element (VSCT XML schema)
+- VSCT XML schema elements, UsedCommands
 ms.assetid: 99cd05d3-644a-42ff-b289-8458cd1b20c0
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # UsedCommand Element
 Enables a VSPackage to access a command that is defined in another .vsct file. For example, if your VSPackage uses the standard **Copy** command, which is defined by the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] shell, you can add the command to a menu or toolbar without re-implementing it.

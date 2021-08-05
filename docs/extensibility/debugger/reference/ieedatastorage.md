@@ -1,17 +1,18 @@
 ---
-title: "IEEDataStorage | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "This interface represents an array of bytes."
+title: IEEDataStorage | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IEEDataStorage"
+- IEEDataStorage
 helpviewer_keywords:
-  - "IEEDataStorage interface"
+- IEEDataStorage interface
 ms.assetid: 704e932d-2325-410e-89c4-ce88c6ec19da
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IEEDataStorage
 This interface represents an array of bytes.

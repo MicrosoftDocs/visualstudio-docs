@@ -2,10 +2,11 @@
 title: Sample R projects
 description: An index of a collection of samples to get started with R and Visual Studio.
 ms.date: 01/24/2018
+ms.prod: visual-studio-dev15
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb
-manager: jillfra
+manager: jmartens
 ms.workload:
   - data-science
 ---
@@ -60,7 +61,7 @@ As with all examples, open the file, place the cursor at the top, and then step 
 
 ## What's special about Microsoft R Open and Microsoft ML Server?
 
-[Microsoft R Open](https://aka.ms/rtvs-r-open), Microsoft's distribution of R, is different from [CRAN R](https://cran.r-project.org/) in two important ways:
+[Microsoft R Open](https://mran.revolutionanalytics.com/download/), Microsoft's distribution of R, is different from [CRAN R](https://cran.r-project.org/) in two important ways:
 
 1. [Better computation performance](https://mran.revolutionanalytics.com/rro/#intelmkl1) when used with the [Intel Math Kernel Libraries](https://software.intel.com/intel-mkl). The libraries are available as a free download from Microsoft for use with Microsoft R Open.
 

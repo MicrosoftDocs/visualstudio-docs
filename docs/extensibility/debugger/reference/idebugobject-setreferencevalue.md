@@ -1,20 +1,21 @@
 ---
-title: "IDebugObject::SetReferenceValue | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Sets the reference value of this object."
+title: IDebugObject::SetReferenceValue | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugObject::SetReferenceValue"
+- IDebugObject::SetReferenceValue
 helpviewer_keywords:
-  - "IDebugObject::SetReferenceValue method"
+- IDebugObject::SetReferenceValue method
 ms.assetid: 08c78a4e-98eb-41cb-8b75-02a6a43d49f7
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugObject::SetReferenceValue
 Sets the reference value of this object.

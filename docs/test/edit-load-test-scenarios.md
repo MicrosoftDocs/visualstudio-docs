@@ -1,15 +1,17 @@
 ---
 title: Load Test Scenarios
+description: Learn how to edit load test scenarios, which enable you to configure tests to simulate complex, realistic workloads.
+ms.custom: SEO-VS-2020
 ms.date: 10/03/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "load tests, scenarios"
-  - "load tests, user activities"
-  - "load tests, modeling scenarios"
+- load tests, scenarios
+- load tests, user activities
+- load tests, modeling scenarios
 ms.assetid: fec04f2e-bf38-4d44-b2ec-fa50f58fd0d9
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
 ---
 # Edit load test scenarios
 

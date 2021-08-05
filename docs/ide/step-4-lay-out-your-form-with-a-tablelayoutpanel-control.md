@@ -1,15 +1,17 @@
 ---
-title: "Step 4: Lay out your form with a TableLayoutPanel control"
+title: 'Lay out your form with a TableLayoutPanel control'
+description: Lay out your form with a TableLayoutPanel control in the create a picture viewer tutorial. 
 ms.date: 08/30/2019
+ms.custom: SEO-VS-2020
 ms.assetid: 61acde79-e115-4bad-bb06-1fbe37717a3e
 ms.topic: tutorial
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
-author: TerryGLee
-ms.author: tglee
-manager: jillfra
+author: j-martens
+ms.author: jmartens
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Step 4: Lay out your form with a TableLayoutPanel control
 

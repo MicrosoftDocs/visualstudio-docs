@@ -1,17 +1,19 @@
 ---
-title: "Adding a Most Recently Used List to a Submenu | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Adding a Most Recently Used List to a Submenu | Microsoft Docs
+description: Learn how to add a dynamic list that contains the most recently used menu commands to a submenu in the Visual Studio integrated development environment (IDE).
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
 helpviewer_keywords:
-  - "MRU lists"
-  - "menus, creating MRU list"
-  - "most recently used"
+- MRU lists
+- menus, creating MRU list
+- most recently used
 ms.assetid: 27d4bbcf-99b1-498f-8b66-40002e3db0f8
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Add a most recently used list to a submenu
 This walkthrough builds on the demonstrations in [Add a submenu to a menu](../extensibility/adding-a-submenu-to-a-menu.md), and shows how to add a dynamic list to a submenu. The dynamic list forms the basis for creating a Most Recently Used (MRU) list.
@@ -31,7 +33,7 @@ To follow this walkthrough, you must install the Visual Studio SDK. For more inf
 
 - Follow the procedures in [Adding a submenu to a menu](../extensibility/adding-a-submenu-to-a-menu.md) to create the submenu that is modified in the following procedures.
 
-  The procedures in this walkthrough assume that the name of the VSPackage is `TopLevelMenu`, which is the name that is used in [Add a menu to the Visual Studio menu bar](../extensibility/adding-a-menu-to-the-visual-studio-menu-bar.md).
+  The procedures in this walkthrough assume that the name of the VSPackage is `TestCommand`, which is the name that is used in [Add a menu to the Visual Studio menu bar](../extensibility/adding-a-menu-to-the-visual-studio-menu-bar.md).
 
 ## Create a dynamic item list command
 
@@ -39,24 +41,23 @@ To follow this walkthrough, you must install the Visual Studio SDK. For more inf
 
 2. In the `Symbols` section, in the `GuidSymbol` node named guidTestCommandPackageCmdSet, add the symbol for the `MRUListGroup` group and the `cmdidMRUList` command, as follows.
 
-    ```csharp
-    <IDSymbol name="MRUListGroup" value="0x1200"/>
+    ```xml
+    <IDSymbol name="MRUListGroup" value="0x1200"/>
     <IDSymbol name="cmdidMRUList" value="0x0200"/>
     ```
 
 3. In the `Groups` section, add the declared group after the existing group entries.
 
-    ```cpp
+    ```xml
     <Group guid="guidTestCommandPackageCmdSet" id="MRUListGroup"
             priority="0x0100">
         <Parent guid="guidTestCommandPackageCmdSet" id="SubMenu"/>
     </Group>
-
     ```
 
 4. In the `Buttons` section, add a node to represent the newly declared command, after the existing button entries.
 
-    ```csharp
+    ```xml
     <Button guid="guidTestCommandPackageCmdSet" id="cmdidMRUList"
         type="Button" priority="0x0100">
         <Parent guid="guidTestCommandPackageCmdSet" id="MRUListGroup" />
@@ -179,7 +180,6 @@ To follow this walkthrough, you must install the Visual Studio SDK. For more inf
             }
         }
     }
-
     ```
 
 ## Testing the MRU list

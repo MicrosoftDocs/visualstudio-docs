@@ -1,21 +1,23 @@
 ---
-title: "DA0021: High rate of Gen 1 garbage collections | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-f1_keywords:
-  - "vs.performance.21"
-  - "vs.performance.DA0021"
-  - "vs.performance.rules.DA0021"
+description: "System performance data that was collected during profiling indicate that a significant proportion of the memory for.NET Framework objects was reclaimed in generation 1 of garbage collection compared to generation 0 data collection."
+title: DA0021 - High rate of Gen 1 garbage collections | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: reference
+f1_keywords: 
+  - vs.performance.21
+  - vs.performance.DA0021
+  - vs.performance.rules.DA0021
 ms.assetid: ebf5d9b3-a1ac-4688-8f0f-39a85f4dd15f
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
-ms.workload:
-  - "multiple"
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+monikerRange: 'vs-2017'
+ms.workload: 
+  - multiple
 ---
 # DA0021: High rate of Gen 1 garbage collections
 
-|||
+|Item|Value|
 |-|-|
 |Rule Id|DA0021|
 |Category|.NET Framework Usage|
@@ -33,11 +35,11 @@ ms.workload:
 
  Objects in generation 0 are collected frequently and usually very efficiently. Objects in generation 1 are collected less frequently and less efficiently. Finally, long-lived objects in generation 2 should be collected even less frequently. Generation 2 collection, which is a full garbage collection run, is also the most expensive operation.
 
- This rule fires when proportionally too many generation 1 garbage collections have occurred. If too many fairly short-lived objects survive generation 0 collection but are then able to be collected in a generation 1 collection, the cost of memory management can become excessive. For more information, see the [Mid-life crisis](http://go.microsoft.com/fwlink/?LinkId=177835) post on the Rico Mariani's Performance Tidbits on the MSDN Web site.
+ This rule fires when proportionally too many generation 1 garbage collections have occurred. If too many fairly short-lived objects survive generation 0 collection but are then able to be collected in a generation 1 collection, the cost of memory management can become excessive. For more information, see the [Mid-life crisis](/archive/blogs/ricom/mid-life-crisis) post on the Rico Mariani's Performance Tidbits on the MSDN Web site.
 
 ## How to investigate a warning
  Double-click the message in the Errors List window to navigate to the [Marks View](../profiling/marks-view.md) of the profiling data. Find the **.NET CLR Memory\\# of Gen 0 Collections** and **.NET CLR Memory\\# of Gen 1 Collections** columns. Determine if there are specific phases of program execution where garbage collection is occurring more frequently. Compare these values to the **% Time in GC** column to see if the pattern of managed memory allocations is causing excessive memory management overhead.
 
  To understand the application's pattern of managed memory usage, profile it again running a.NET Memory allocation profile and request Object Lifetime measurements.
 
- For information about how to improve garbage collection performance, see [Garbage Collector Basics and Performance Hints](http://go.microsoft.com/fwlink/?LinkId=148226) on the Microsoft Web site. For information about the overhead of automatic garbage collection, see [Large Object Heap Uncovered](http://go.microsoft.com/fwlink/?LinkId=177836).
+ For information about how to improve garbage collection performance, see [Garbage Collector Basics and Performance Hints](/previous-versions/dotnet/articles/ms973837(v=msdn.10)) on the Microsoft Web site. For information about the overhead of automatic garbage collection, see [Large Object Heap Uncovered](/archive/msdn-magazine/2008/june/clr-inside-out-large-object-heap-uncovered).

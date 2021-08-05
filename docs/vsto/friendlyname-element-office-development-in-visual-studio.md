@@ -1,9 +1,10 @@
 ---
+description: "The friendlyName element of the vstov4 namespace stores the name that appears in the list of installed programs."
 title: "&lt;friendlyName&gt; element (Office development in Visual Studio)"
 titleSuffix: ""
 ms.custom: "seodec18"
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "VB"
   - "CSharp"
@@ -11,7 +12,7 @@ helpviewer_keywords:
   - "application manifests [Office development in Visual Studio], <friendlyName> element"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

@@ -1,18 +1,20 @@
 ---
 title: Watch Command
+description: Learn about the Watch command and how it creates and opens a specified instance of a Watch window.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "debug.watch"
+- debug.watch
 helpviewer_keywords:
-  - "Watch command"
-  - "Debug.Watch command"
+- Watch command
+- Debug.Watch command
 ms.assetid: aa02e647-d9f5-4905-a651-52a8df595795
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Watch Command
 Creates and opens a specified instance of a **Watch** window. You can use a **Watch** window to calculate the values of variables, expressions, and registers, to edit these values, and to save the results.

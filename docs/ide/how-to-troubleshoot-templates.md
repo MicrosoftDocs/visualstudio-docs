@@ -1,12 +1,14 @@
 ---
-title: Troubleshoot project template and item template loading
+title: Troubleshoot project templates and item templates
+description: Learn how to troubleshoot templates when they fail to load in the development environment.
+ms.custom: SEO-VS-2020
 ms.date: 01/02/2018
 ms.topic: troubleshooting
 helpviewer_keywords:
-  - "templates [Visual Studio], troubleshooting"
-author: jillre
-ms.author: jillfra
-manager: jillfra
+- templates [Visual Studio], troubleshooting
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ---
 # How to: Troubleshoot templates
 
@@ -39,7 +41,7 @@ If the *vstemplate* file in a template doesn't adhere to the Visual Studio templ
 1. Verify that the XML of the *vstemplate* file adheres to the template schema. For more information on the *vstemplate* schema, see [Template schema reference](../extensibility/visual-studio-template-schema-reference.md).
 
     > [!NOTE]
-    > To get IntelliSense support while authoring the *vstemplate* file, add a `xmlns` attribute to the `VSTemplate` element, and assign it a value of http://schemas.microsoft.com/developer/vstemplate/2005.
+    > To get IntelliSense support while authoring the *vstemplate* file, add a `xmlns` attribute to the `VSTemplate` element, and assign it a value of `http://schemas.microsoft.com/developer/vstemplate/2005`.
 
 1. Save and close the *vstemplate* file.
 

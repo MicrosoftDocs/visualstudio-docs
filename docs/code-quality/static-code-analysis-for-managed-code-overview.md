@@ -1,17 +1,19 @@
 ---
-title: Code analysis for managed code
+title: Legacy analysis for managed code
 ms.date: 06/12/2019
+description: Learn about legacy analysis in Visual Studio. See how to suppress warnings and how to run analyses manually, automatically, and during check-ins and builds.
+ms.custom: SEO-VS-2020
 ms.topic: conceptual
 helpviewer_keywords:
   - "code analysis, managed code"
   - "managed code, code analysis"
 author: mikadumont
 ms.author: midumont
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "dotnet"
 ---
-# Overview of code analysis for managed code in Visual Studio
+# Overview of legacy analysis for managed code in Visual Studio
 
 Visual Studio can perform code analysis of managed code in two ways: with [legacy analysis](../code-quality/walkthrough-analyzing-managed-code-for-code-defects.md), also known as FxCop static analysis of managed assemblies, and with the more modern .NET Compiler Platform-based [code analyzers](../code-quality/roslyn-analyzers-overview.md). This topic covers legacy analysis. To learn more about .NET Compiler Platform-based code analysis, see [Overview of .NET Compiler Platform-based analyzers](../code-quality/roslyn-analyzers-overview.md).
 
@@ -78,7 +80,7 @@ You can accomplish this by specifying check-in policies. For more information, s
 
 ## Team build integration
 
-You can use the integrated features of the build system to run the analysis tool as part of the build process. For more information, see [Azure Pipelines](/azure/devops/pipelines/index?view=vsts).
+You can use the integrated features of the build system to run the analysis tool as part of the build process. For more information, see [Azure Pipelines](/azure/devops/pipelines/index?view=vsts&preserve-view=true).
 
 ## See also
 

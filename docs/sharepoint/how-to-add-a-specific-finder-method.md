@@ -1,7 +1,9 @@
 ---
 title: "How to: Add a Specific Finder Method | Microsoft Docs"
+description: Get an entity instance by adding a Finder method. The BDC service calls the method when a user picks an entity in a business data web part or external list.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: how-to
 dev_langs:
   - "VB"
   - "CSharp"
@@ -14,7 +16,7 @@ helpviewer_keywords:
   - "Business Data Connectivity service [SharePoint development in Visual Studio], get an entity"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---
@@ -59,7 +61,7 @@ ms.workload:
 
 6. In the **Method Details** window, choose the method instance of the method.
 
-7. In the **Properties Window**, set the **Return Parameter Name** property to the name of the return parameter of the method. For more information about method instance properties, see [MethodInstance](http://go.microsoft.com/fwlink/?LinkID=169282).
+7. In the **Properties Window**, set the **Return Parameter Name** property to the name of the return parameter of the method. For more information about method instance properties, see [MethodInstance](/previous-versions/office/developer/sharepoint-2010/ee556838(v=office.14)).
 
 8. In **Solution Explorer**, open the shortcut menu of the service code file that was generated for the entity, and then choose **View Code**.
 
@@ -76,8 +78,8 @@ ms.workload:
      > [!NOTE]
      > Replace the value of the `ServerName` field with the name of your server.
 
-     [!code-csharp[SP_BDC#3](../sharepoint/codesnippet/CSharp/SP_BDC/bdcmodel1/contactservice.cs#3)]
-     [!code-vb[SP_BDC#3](../sharepoint/codesnippet/VisualBasic/sp_bdc/bdcmodel1/contactservice.vb#3)]
+     :::code language="csharp" source="../sharepoint/codesnippet/CSharp/SP_BDC/bdcmodel1/contactservice.cs" id="Snippet3":::
+     :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/sp_bdc/bdcmodel1/contactservice.vb" id="Snippet3":::
 
 ## See also
 - [Design a business data connectivity model](../sharepoint/designing-a-business-data-connectivity-model.md)

@@ -1,9 +1,10 @@
 ---
-title: Visual Studio subscriptions offered to partners in the Microsoft Partner Network (MPN)
+title: Visual Studio subscriptions offered in the Microsoft Partner Network | Microsoft Docs
 author: evanwindom
-ms.author: lank
-manager: lank
-ms.date: 07/28/2019
+ms.author: v-evwin
+manager: cabuschl
+ms.assetid: 7f4399d8-41da-41e5-a666-acc34958b8c0
+ms.date: 03/21/2021
 ms.topic: conceptual
 description:  Details on what subscriptions are offered, what rules apply, and how many subscriptions are offered in MPN.
 ---
@@ -38,11 +39,11 @@ Regardless of how many competencies a partner earns, the number of Visual Studio
 
 | Maximum benefit for partners with only silver competencies                   | Maximum benefit for partners with at least one gold competency               |
 |------------------------------------------------------------------------------|------------------------------------------------------------------------------|
-| 25 Visual Studio Enterprise subscriptions per country; 75 worldwide          | 50 Visual Studio Enterprise subscriptions per country; 150 worldwide         |
+| 25 Visual Studio Enterprise subscriptions per country/region; 75 worldwide          | 50 Visual Studio Enterprise subscriptions per country/region; 150 worldwide         |
 
 ## Subscriptions for partners purchasing the Action Pack
 
-Partners with a competency are not eligible to purchase the Action Pack. Only one Action Pack can be purchased per partner.
+Partners with a competency are eligible to purchase the Action Pack. Only one Action Pack can be purchased per partner.
 
 With the Action Pack, the partner earns **3 Visual Studio Professional (MPN) subscriptions**. Visual Studio Professional (MPN) is a custom offering without a commercially-available equivalent in the market. Here is what is included:
 
@@ -52,8 +53,7 @@ With the Action Pack, the partner earns **3 Visual Studio Professional (MPN) sub
 
 Visual Studio Professional (MPN) subscribers can also download and use software for their development, including the SQL Server Developer Edition.
 
-The Visual Studio Professional (MPN) subscription does not include Azure DevOps Services benefits, monthly Azure credits, technical support, training, or other subscriber benefits that are available
-with Visual Studio subscriptions that are offered commercially.
+The Visual Studio Professional (MPN) subscription does not include Azure DevOps Services benefits, Azure DevTest individual credit, technical support, training, or other subscriber benefits that are available with Visual Studio subscriptions that are offered commercially.
 
 ## Internal use-only restriction
 
@@ -66,10 +66,16 @@ This internal use-only restriction essentially means that partners cannot use th
 With Visual Studio subscriptions offered via MPN, the licensed user must sign in to Visual Studio using the same identity/login that was used to activate the Visual Studio subscription. Product keys are not offered to unlock the product; signing in is the only option for running Visual Studio. The Visual Studio subscriber can operate offline for up to 30 days before Visual Studio stops working. While working online, Visual Studio silently refreshes the user's license status periodically to ensure the subscription is still valid.
 
 ## Resources
-
-- [MPN Program Administrator Guide](https://assets.microsoft.com/en-us/Program-Administrator-Guide-to-Software-and-Online-Services-Benefits_1.pdf) - includes instructions on how to assign Visual Studio subscriptions to MPN employees.
+- [Microsoft Partner Network Programs Guide](https://assets.microsoft.com/MPN-MAPS-Product-Usage-Guide.pdf?tpqid=300-000121)
 - [Assign Visual Studio subscriptions to MPN employees](manage-mpn-subscriptions.md)
-- [Use terms](http://www.microsoft.com/useterms/) - Visual Studio subscriptions offered via MPN are subject to the Visual Studio subscriptions not for resale (NFR) EULA.
+- [Use terms](https://www.microsoft.com/useterms/) - Visual Studio subscriptions offered via MPN are subject to the Visual Studio subscriptions not for resale (NFR) EULA.
+- For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact [Visual Studio subscriptions support](https://aka.ms/vssubscriberhelp).
+
+## See also
+- [Visual Studio documentation](/visualstudio/)
+- [Azure DevOps documentation](/azure/devops/)
+- [Azure documentation](/azure/)
+- [Microsoft 365 documentation](/microsoft-365/)
 
 ## Next steps
 

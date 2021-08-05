@@ -1,17 +1,18 @@
 ---
-title: "SccRunScc Function | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+description: "This function invokes the source control administration tool."
+title: SccRunScc Function | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: reference
 f1_keywords:
-  - "SccRunScc"
+- SccRunScc
 helpviewer_keywords:
-  - "SccRunScc function"
+- SccRunScc function
 ms.assetid: bbe7c931-b17a-4779-9cf6-59e5f9f0c172
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # SccRunScc Function
 This function invokes the source control administration tool.

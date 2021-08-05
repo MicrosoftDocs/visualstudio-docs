@@ -1,5 +1,7 @@
 ---
-title: "Understand memory allocation & object lifetime data values"
+title: "Memory allocation & object lifetime data values"
+description: Learn how the .NET memory allocation profiling method collects information about the size and number of objects that were created in an allocation. 
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:
@@ -7,7 +9,8 @@ helpviewer_keywords:
   - "Profiling Tools, .NET memory method"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+monikerRange: 'vs-2017'
 ms.workload:
   - "multiple"
 ---

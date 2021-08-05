@@ -1,5 +1,7 @@
 ---
 title: Publish to Azure App Service
+description: Learn about the methods to publish ASP.NET, ASP.NET Core, Node.js, and .NET Core apps to Azure App Service or Azure App Service Linux.
+ms.custom: SEO-VS-2020
 ms.date: 01/29/2019
 ms.topic: quickstart
 helpviewer_keywords:
@@ -7,7 +9,7 @@ helpviewer_keywords:
 ms.assetid: fc82b1f1-d342-4b82-9a44-590479f0a895
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "azure"
 ---
@@ -15,33 +17,45 @@ ms.workload:
 
 For ASP.NET, ASP.NET Core, Node.js, and .NET Core apps, publish to Azure App Service or Azure App Service Linux (using containers) using one of the following methods.
 
-* For continuous (or automated) deployment of apps, use Azure DevOps with [Azure Pipelines](https://docs.microsoft.com/azure/devops/pipelines/get-started-yaml?view=azdevops).
+* For continuous (or automated) deployment of apps, use Azure DevOps with [Azure Pipelines](/azure/devops/pipelines/get-started-yaml?view=azdevops&preserve-view=true).
 
-* For one-time (or manual) deployment of apps, use the **Publish** tool in Visual Studio to deploy ASP.NET, ASP.NET Core, Node.js, and .NET Core apps to Azure App Service or App Service for Linux (using containers). For Python apps, follow the steps on [Python - Publish to Azure App Service](../python/publishing-python-web-applications-to-azure-from-visual-studio.md).
+* For one-time (or manual) deployment of apps, use the **Publish** tool in Visual Studio to deploy ASP.NET, ASP.NET Core, Node.js, and .NET Core apps to Azure App Service or [App Service for Linux](../deployment/quickstart-deploy-to-linux.md) (using containers). For Python apps, follow the steps on [Python - Publish to Azure App Service](../python/publishing-python-web-applications-to-azure-from-visual-studio.md).
 
 This article describes how to use the **Publish** tool for one-time deployment.
 
 [!INCLUDE [quickstart-prereqs-azure](includes/quickstart-prereqs-azure.md)]
 
-## Publish to Azure App Service
+## Publish to Azure App Service on Windows
 
-1. In Solution Explorer, right-click the project and choose **Publish** (or use the **Build** > **Publish** menu item).
+1. In Solution Explorer, right-click the project node and choose **Publish** (or use the **Build** > **Publish** menu item).
 
     ![The Publish command on the project context menu in Solution Explorer](../deployment/media/quickstart-publish.png "Choose Publish")
 
-1. If you have previously configured any publishing profiles, the **Publish** pane appears, in which case select **Create new profile**.
+1. If you have previously configured any publishing profiles, the **Publish** window appears. Select **New**.
 
-1. In the **Pick a publish target** dialog box, choose **App Service**.
+1. In the **Publish** window, select **Azure**.
 
-    ![Choose Azure App Service](../deployment/media/quickstart-publish-azure.png "Choose Azure App Service")
+    ![Choose publish target](../deployment/media/quickstart-publish-azure-new.png)
 
-1. Select **Publish**. The **Create App Service** dialog box appears. Sign in with you Azure account, if necessary, then the default app service settings populate the fields.
+1. Select **Azure App Service (Windows)** and **Next**.
 
-    ![Create App Service](../deployment/media/quickstart-publish-settings-app-service.png "Create Azure App Service")
+    ![Choose Azure App Service on Linux](../deployment/media/quickstart-publish-windows-select-azure-service.png)
 
-1. Select **Create**. Visual Studio deploys the app to your Azure App Service, and the web app loads in your browser. The project properties **Publish** pane shows the site URL and other details.
+1. Sign in with your Azure account, if necessary. Select **Create a new Azure App Service...**
 
-    ![Publish property pane showing a profile summary](../deployment/media/quickstart-publish-app-service-summary.png)
+    ![Link to create new instance of Azure App Service](../deployment/media/quickstart-publish-windows-create-new-link.png)
+
+1. In the **Create Azure App Service (Windows)** dialog, the **App Name**, **Resource Group**, and **App Service Plan** entry fields are populated. You can keep these names or change them. When ready, select **Create**.
+
+    ![Screenshot of the Create Azure App Service (Windows) dialog with the Name, Subscription, Resource Group, and Hosting Plan fields populated.](../deployment/media/quickstart-publish-windows-create-new-dialog.png)
+
+1. In the **Publish** dialog, the newly created instance has been automatically selected. When ready, select **Finish**.
+
+    ![Screenshot of the Publish window accessed from Visual Studio Solution Explorer. Azure is selected as the publishing target.](../deployment/media/quickstart-publish-windows-select-instance.png)
+
+1. Select **Publish**. Visual Studio deploys the app to your Azure App Service, and the web app loads in your browser. The project properties **Publish** pane shows the site URL and other details.
+
+    ![Publish property pane showing a profile summary](../deployment/media/quickstart-publish-windows-summary-page.png)
 
 ## Clean up resources
 

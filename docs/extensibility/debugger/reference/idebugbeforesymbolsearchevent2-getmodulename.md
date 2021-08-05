@@ -1,19 +1,20 @@
 ---
-title: "IDebugBeforeSymbolSearchEvent2::GetModuleName | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Retrieves the name of the module currently being debugged."
+title: IDebugBeforeSymbolSearchEvent2::GetModuleName | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "GetModuleName"
-  - "IDebugBeforeSymbolSearchEvent2::GetModuleName"
+- GetModuleName
+- IDebugBeforeSymbolSearchEvent2::GetModuleName
 ms.assetid: 0b4abeac-2eaf-4b2e-a2d5-c9ec303bc869
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugBeforeSymbolSearchEvent2::GetModuleName
 Retrieves the name of the module currently being debugged.

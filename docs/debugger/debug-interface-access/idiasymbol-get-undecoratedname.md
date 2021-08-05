@@ -1,7 +1,8 @@
 ---
+description: "Retrieves the undecorated name for a C++ decorated, or linkage, name."
 title: "IDiaSymbol::get_undecoratedName | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: e49edf25-a51d-4787-bd5b-2bf5af827c8c
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

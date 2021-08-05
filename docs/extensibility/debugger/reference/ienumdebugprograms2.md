@@ -1,17 +1,18 @@
 ---
-title: "IEnumDebugPrograms2 | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "This interface enumerates the programs running in the current debug session."
+title: IEnumDebugPrograms2 | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IEnumDebugPrograms2"
+- IEnumDebugPrograms2
 helpviewer_keywords:
-  - "IEnumDebugPrograms2"
+- IEnumDebugPrograms2
 ms.assetid: 7fbb8fb7-db64-4546-a364-dc668430c8af
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IEnumDebugPrograms2
 This interface enumerates the programs running in the current debug session.

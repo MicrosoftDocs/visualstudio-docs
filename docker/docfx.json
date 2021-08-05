@@ -1,0 +1,57 @@
+{
+  "build": {
+    "content": [
+      {
+        "files": [
+          "**/*.md",
+          "**/*.yml"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "_themes/**",
+          "_themes.pdf/**",
+          "**/docfx.json",
+          "_repo.en-us/**",
+          "README.md",
+          "LICENSE",
+          "LICENSE-CODE",
+          "ThirdPartyNotices.md"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "**/*.png",
+          "**/*.jpg"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "_themes/**",
+          "_themes.pdf/**",
+          "**/docfx.json",
+          "_repo.en-us/**"
+        ]
+      }
+    ],
+    "overwrite": [],
+    "externalReference": [],
+    "globalMetadata": {
+      "feedback_system": "GitHub",
+      "feedback_github_repo": "MicrosoftDocs/visualstudio-docs",
+      "breadcrumb_path": "/visualstudio/docker/breadcrumb/toc.json",
+      "extendBreadcrumb": true,
+      "ms.prod": "visual-studio-family",
+      "manager": "jmartens",
+      "author": "ghogen",
+      "ms.author": "ghogen",
+      "audience": "developer"
+    },
+    "fileMetadata": {},
+    "template": [],
+    "dest": "Docker",
+    "markdownEngineName": "markdig"
+  }
+}

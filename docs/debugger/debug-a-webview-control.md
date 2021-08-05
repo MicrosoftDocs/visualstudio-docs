@@ -1,19 +1,21 @@
 ---
-title: "Debug a WebView control (UWP) | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Debug a WebView control (UWP) | Microsoft Docs
+description: Learn how to inspect and debug the WebView controls used in a Windows Runtime app. You can use the DOM Explorer and the JavaScript Console window. 
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
 dev_langs:
-  - "CSharp"
-  - "VB"
-  - "FSharp"
-  - "C++"
+  - CSharp
+  - VB
+  - FSharp
+  - C++
 ms.assetid: 7d105907-8b39-4d07-8762-5c5ed74c7f21
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
 monikerRange: vs-2017
 ms.workload:
-  - "uwp"
+  - uwp
 ---
 # Debug a WebView control in a UWP App
 
@@ -21,7 +23,7 @@ ms.workload:
 
 - Open the [DOM Explorer](../debugger/quickstart-debug-html-and-css.md) for a `WebView` instance, and inspect DOM elements, investigate CSS style issues, and test dynamically rendered changes to styles.
 
-- Select the webpage or `iFrame` displayed in the `WebView` instance as a target in the [JavaScript Console](../debugger/javascript-console-commands.md?view=vs-2017) window, and then interact with the webpage using console commands. The console provides access to the current script execution context.
+- Select the webpage or `iFrame` displayed in the `WebView` instance as a target in the [JavaScript Console](../debugger/javascript-console-commands.md?view=vs-2017&preserve-view=true) window, and then interact with the webpage using console commands. The console provides access to the current script execution context.
 
 ### Attach the debugger (C#, Visual Basic, C++)
 
@@ -54,7 +56,7 @@ ms.workload:
 
      The DOM Explorer associated with the `WebView` appears as a new tab in Visual Studio.
 
-5. View and modify live DOM elements and CSS styles as described in [Debug CSS styles using DOM Explorer](/visualstudio/debugger/quickstart-debug-html-and-css).
+5. View and modify live DOM elements and CSS styles as described in [Debug CSS styles using DOM Explorer](quickstart-debug-html-and-css.md).
 
 ### Use the JavaScript Console window to inspect and debug a WebView control
 
@@ -75,7 +77,7 @@ ms.workload:
     > [!NOTE]
     > Using the console, you can interact with a single `WebView`, `iFrame`, share contract, or web worker at a time. Each element requires a separate instance of the web platform host (WWAHost.exe). You can interact with one host at a time.
 
-6. View and modify variables in your app or use console commands, as described in [QuickStart: Debug JavaScript](../debugger/quickstart-debug-javascript-using-the-console.md) and [JavaScript Console commands](../debugger/javascript-console-commands.md?view=vs-2017).
+6. View and modify variables in your app or use console commands, as described in [QuickStart: Debug JavaScript](../debugger/quickstart-debug-javascript-using-the-console.md) and [JavaScript Console commands](../debugger/javascript-console-commands.md?view=vs-2017&preserve-view=true).
 
 ## See also
 

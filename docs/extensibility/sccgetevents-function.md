@@ -1,17 +1,18 @@
 ---
-title: "SccGetEvents Function | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+description: "This function retrieves a queued status event."
+title: SccGetEvents Function | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: reference
 f1_keywords:
-  - "SccGetEvents"
+- SccGetEvents
 helpviewer_keywords:
-  - "SccGetEvents function"
+- SccGetEvents function
 ms.assetid: 32f8147d-6dcc-465e-b07b-42da5824f9b0
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # SccGetEvents function
 This function retrieves a queued status event.

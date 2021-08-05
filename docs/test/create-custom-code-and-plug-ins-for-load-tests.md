@@ -1,16 +1,18 @@
 ---
-title: "Create custom code and plug-ins for load tests"
+title: Create custom code and plug-ins for load tests
+description: Learn how to use the load test API and the web performance test API to create custom plug-ins for tests to expand to the built-in functionality. 
+ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
-ms.topic: conceptual
-f1_keywords:
-  - "vs.test.dialog.recorderplugin"
-helpviewer_keywords:
-  - "Web performance tests, plug-ins"
-  - "load tests, plug-ins"
+ms.topic: how-to
+f1_keywords: 
+  - vs.test.dialog.recorderplugin
+helpviewer_keywords: 
+  - Web performance tests, plug-ins
+  - load tests, plug-ins
 ms.assetid: 0c0fcc99-673b-4ea0-a268-0475f66e5cb6
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
 ---
 # Create custom code and plug-ins for load tests
 

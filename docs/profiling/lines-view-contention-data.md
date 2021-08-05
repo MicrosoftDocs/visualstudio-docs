@@ -1,5 +1,6 @@
 ---
 title: "Lines View - Contention Data | Microsoft Docs"
+description: Learn how the Lines view of contention data lists performance data for the statements that were executing when the samples were collected in the profiling run.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:
@@ -7,7 +8,8 @@ helpviewer_keywords:
 ms.assetid: 859b02d2-eddf-4ad3-95de-0df67ee2ab03
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+monikerRange: 'vs-2017'
 ms.workload:
   - "multiple"
 ---

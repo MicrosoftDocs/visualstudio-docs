@@ -1,13 +1,15 @@
 ---
-title: "Addressing DPI Issues2 | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Addressing DPI Issues2 | Microsoft Docs
+description: Learn about the issues involved in programming for high-resolution screens, such as scaling up content, layout issues, and using DPI-scaling APIs.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: conceptual
 ms.assetid: 359184aa-f5b6-4b6c-99fe-104655b3a494
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Address DPI issues
 An increasing number of devices are shipping with "high-resolution" screens. These screens typically have over 200 pixels per inch (ppi). Working with an application on these computers will require content to be scaled up to meet the needs of viewing the content at a normal viewing distance for the device. As of 2014, the primary target for high-density displays is mobile computing devices (tablets, clamshell laptops, and phones).

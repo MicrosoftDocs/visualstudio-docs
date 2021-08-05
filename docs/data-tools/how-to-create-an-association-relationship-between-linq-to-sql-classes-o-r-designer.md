@@ -1,13 +1,15 @@
 ---
-title: Relationships between LINQ to SQL classes (O/R Designer)
+title: Relationships between LINQ to SQL classes
+description: Create an association between LINQ to SQL entity classes using the Association Editor dialog box in Object Relational Designer (O/R Designer).
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 ms.assetid: 56133e65-81f3-44c3-bc28-ffdd0671a0d2
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: ghogen
+ms.author: ghogen
+manager: jmartens
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # How to: Create an association between LINQ to SQL classes (O/R Designer)
 Associations between entity classes in [!INCLUDE[vbtecdlinq](../data-tools/includes/vbtecdlinq_md.md)] are analogous to relationships between tables in a database. You can create associations between entity classes by using the **Association Editor** dialog box.

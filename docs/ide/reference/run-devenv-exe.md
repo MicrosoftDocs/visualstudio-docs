@@ -1,20 +1,22 @@
 ---
 title: -Run (devenv.exe)
+description: Learn how to use the Run devenv command-line switch to compile and run the specified project or solution.
+ms.custom: SEO-VS-2020
 ms.date: 12/10/2018
 ms.topic: reference
 helpviewer_keywords:
-  - "/Run Devenv"
-  - "Run Devenv switch"
-  - "applications [Visual Studio], running"
-  - "/R Devenv switch"
-  - "Devenv, /Run switch"
-  - "R Devenv switch (/R)"
+- /Run Devenv
+- Run Devenv switch
+- applications [Visual Studio], running
+- /R Devenv switch
+- Devenv, /Run switch
+- R Devenv switch (/R)
 ms.assetid: b1f22f9d-39a5-4918-8a2a-4b5c1e872665
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # /Run (devenv.exe)
 

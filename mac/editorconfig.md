@@ -6,17 +6,18 @@ ms.author: cobey
 ms.date: 05/06/2018
 ms.technology: vs-ide-install
 ms.assetid: 26A0DE31-2FBF-4E1B-99FB-083111AA1680
+ms.topic: how-to
 ---
 
 # Creating and editing a custom EditorConfig file
 
-In Visual Studio for Mac, you can add an [EditorConfig](http://editorconfig.org/) file to your project or solution to enforce consistent coding styles for everyone that works in the codebase. The settings declared in the EditorConfig file take precedence over global Visual Studio for Mac text editor settings. Using an EditorConfig file within your project or codebase allows you to set your coding style, preferences, and warnings for your project. Because the file is part of your codebase, it makes it easier for all users to adhere to the coding practices of a project, regardless of the IDE or code editor that they use.
+In Visual Studio for Mac, you can add an [EditorConfig](https://editorconfig.org/) file to your project or solution to enforce consistent coding styles for everyone that works in the codebase. The settings declared in the EditorConfig file take precedence over global Visual Studio for Mac text editor settings. Using an EditorConfig file within your project or codebase allows you to set your coding style, preferences, and warnings for your project. Because the file is part of your codebase, it makes it easier for all users to adhere to the coding practices of a project, regardless of the IDE or code editor that they use.
 
-[EditorConfig](http://editorconfig.org/) files are supported on many IDEs and code editors, including Visual Studio.
+[EditorConfig](https://editorconfig.org/) files are supported on many IDEs and code editors, including Visual Studio.
 
 ## Supported settings
 
-The editor in Visual Studio for Mac supports the core set of [EditorConfig properties](http://editorconfig.org/#supported-properties):
+The editor in Visual Studio for Mac supports the core set of [EditorConfig properties](https://editorconfig.org/#supported-properties):
 
 - `indent_style`
 - `indent_size`
@@ -45,7 +46,7 @@ EditorConfig also supports [Coding conventions](/visualstudio/ide/editorconfig-c
 
     Adding the item at the solution level automatically creates and nests it in a **Solution Items** folder:
 
-    ![Solution item displayed in solution pad](media/editorconfig-image1a.png)
+    ![Solution item displayed in Solution Window](media/editorconfig-image1a.png)
 
 4. Edit the file. For example:
 
@@ -129,7 +130,7 @@ In the example above, some settings are applied to all files in the project and 
 
 ![after editorconfig settings have been applied](media/editorconfig-image5.png)
 
-For more information on available EditorConfig settings, see the [.NET coding convention settings for EditorConfig](/visualstudio/ide/editorconfig-code-style-settings-reference) article and the [Supported Properties](http://editorconfig.org/#supported-properties) section on the official documentation.
+For more information on available EditorConfig settings, see the [.NET coding convention settings for EditorConfig](/visualstudio/ide/editorconfig-code-style-settings-reference) article and the [Supported Properties](https://editorconfig.org/#supported-properties) section on the official documentation.
 
 ## Override EditorConfig Settings
 

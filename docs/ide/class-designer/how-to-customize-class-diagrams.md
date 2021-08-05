@@ -1,18 +1,20 @@
 ---
-title: "How to: Customize Class Diagrams (Class Designer)"
+title: 'How to: Customize Class Diagrams (Class Designer)'
+description: Learn how to change the way that class diagrams display information, and how to customize the whole diagram or the individual types on the design surface.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
-  - "class diagrams, customizing"
-  - "shapes, removing type from class diagrams"
-  - "type shapes, removing from class diagrams"
-  - "class diagrams, removing type shapes"
+- class diagrams, customizing
+- shapes, removing type from class diagrams
+- type shapes, removing from class diagrams
+- class diagrams, removing type shapes
 ms.assetid: e9030aea-c77d-4cc1-b8f6-b6ca469b692d
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Customize class diagrams
 

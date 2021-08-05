@@ -1,14 +1,16 @@
 ---
 title: Understanding Models, Classes and Relationships
+description: Learn how a domain-specific language (DSL) is defined by its DSL Definition file and that most of the program code in the DSL solution is generated from this file.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "Domain-Specific Language, models"
-author: jillre
-ms.author: jillfra
-manager: jillfra
+- Domain-Specific Language, models
+author: mgoertz-msft
+ms.author: mgoertz
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Understanding Models, Classes and Relationships
 A domain-specific language (DSL) is defined by its DSL Definition file, together with any custom program code that you might write. Most of the program code in the DSL solution is generated from this file.
@@ -144,4 +146,4 @@ A domain-specific language (DSL) is defined by its DSL Definition file, together
 
 ## See also
 
-- [Domain-Specific Language Tools Glossary](https://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)
+- [Domain-Specific Language Tools Glossary](/previous-versions/bb126564(v=vs.100))

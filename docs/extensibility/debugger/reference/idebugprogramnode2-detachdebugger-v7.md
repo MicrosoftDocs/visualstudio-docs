@@ -1,20 +1,21 @@
 ---
-title: "IDebugProgramNode2::DetachDebugger_V7 | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugProgramNode2::DetachDebugger_V7 | Microsoft Docs
+description: "This method is an old, deprecated form of the detach method used prior to Visual Studio 2005."
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugProgramNode2::DetachDebugger"
+- IDebugProgramNode2::DetachDebugger
 helpviewer_keywords:
-  - "IDebugProgramNode2::DetachDebugger"
-  - "IDebugProgramNode2::DetachDebugger_V7"
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+- IDebugProgramNode2::DetachDebugger
+- IDebugProgramNode2::DetachDebugger_V7
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugProgramNode2::DetachDebugger_V7
 

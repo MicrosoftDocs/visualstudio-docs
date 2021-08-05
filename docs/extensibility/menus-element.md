@@ -1,16 +1,18 @@
 ---
-title: "Menus Element | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Menus Element | Microsoft Docs
+description: The Menus element defines all the menus and toolbars that a VSPackage implements. This article contains an example.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: reference
 helpviewer_keywords:
-  - "VSCT XML schema elements, Menus"
-  - "Menus element (VSCT XML schema)"
+- VSCT XML schema elements, Menus
+- Menus element (VSCT XML schema)
 ms.assetid: d825a99b-e05c-4dd9-8933-a180216d667a
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Menus element
 Defines all the menus and toolbars that a VSPackage implements.

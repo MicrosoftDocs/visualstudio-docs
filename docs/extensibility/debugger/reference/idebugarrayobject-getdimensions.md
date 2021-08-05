@@ -1,17 +1,18 @@
 ---
-title: "IDebugArrayObject::GetDimensions | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Gets the dimensions of the array."
+title: IDebugArrayObject::GetDimensions | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugArrayObject::GetDimensions"
+- IDebugArrayObject::GetDimensions
 helpviewer_keywords:
-  - "IDebugArrayObject::GetDimensions method"
+- IDebugArrayObject::GetDimensions method
 ms.assetid: 113e0aff-9028-49d6-b104-9fe7be4772d7
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IDebugArrayObject::GetDimensions
 Gets the dimensions of the array.

@@ -1,14 +1,16 @@
 ---
 title: Domain Path Syntax
+description: Learn about Domain Path Syntax and how DSL Definitions use an XPath-like syntax to locate specific elements in a model.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "Domain-Specific Language, domain path"
-author: jillre
-ms.author: jillfra
-manager: jillfra
+- Domain-Specific Language, domain path
+author: mgoertz-msft
+ms.author: mgoertz
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Domain Path Syntax
 DSL Definitions use an XPath-like syntax to locate specific elements in a model.

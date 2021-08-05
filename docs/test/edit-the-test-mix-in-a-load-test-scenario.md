@@ -1,16 +1,18 @@
 ---
 title: Test mix for a Load Test Scenario
+description: Learn how to edit the test mix of a scenario, which is a combination of the selection of web performance and unit tests and the distribution of those tests.
+ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "load tests, adding tests"
-  - "test mix"
-  - "load tests, test mix"
-  - "load tests, removing tests"
+- load tests, adding tests
+- test mix
+- load tests, test mix
+- load tests, removing tests
 ms.assetid: 303e1d70-5d98-424a-b51e-e0898e16d3f8
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
 ---
 # Edit the test mix to specify which web performance, unit and coded UI tests to include in a load test scenario
 

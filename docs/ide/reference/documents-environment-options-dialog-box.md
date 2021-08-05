@@ -1,36 +1,38 @@
 ---
 title: Documents, Environment, Options Dialog Box
+description: Learn how to use the Environments page in the Documents section to control the display of documents in the IDE and manage external changes to documents and files.
+ms.custom: SEO-VS-2020
 ms.date: 03/28/2019
 ms.topic: reference
 f1_keywords:
-  - "VS.Environment.Documents"
-  - "VS.ToolsOptionsPages.Environment.Documents"
+- VS.Environment.Documents
+- VS.ToolsOptionsPages.Environment.Documents
 helpviewer_keywords:
-  - "Documents Environment Options dialog box"
-  - "defaults, directories"
-  - "error messages, customizing"
-  - "files [Visual Studio], default options"
-  - "files [Visual Basic], auto-loading modified"
-  - "windows, customizing environment"
-  - "in-memory editing"
-  - "folders [Visual Studio], specifying where Open File goes"
-  - "Open File dialog box"
-  - "windows, enabling re-use of current"
-  - "notifications, files changed"
-  - "files [Visual Studio], displaying in Solution Explorer"
-  - "default directories"
-  - "read-only files, editing"
-  - "Options dialog box, showing Miscellaneous Files"
-  - "directories [Visual Studio], IDE environment options"
-  - "Options dialog box, Documents page"
-  - "warnings, files changed"
-  - "Solution Explorer, displaying files in"
+- Documents Environment Options dialog box
+- defaults, directories
+- error messages, customizing
+- files [Visual Studio], default options
+- files [Visual Basic], auto-loading modified
+- windows, customizing environment
+- in-memory editing
+- folders [Visual Studio], specifying where Open File goes
+- Open File dialog box
+- windows, enabling re-use of current
+- notifications, files changed
+- files [Visual Studio], displaying in Solution Explorer
+- default directories
+- read-only files, editing
+- Options dialog box, showing Miscellaneous Files
+- directories [Visual Studio], IDE environment options
+- Options dialog box, Documents page
+- warnings, files changed
+- Solution Explorer, displaying files in
 ms.assetid: 4e3ccf1b-cd68-4db6-9470-710c911b47fc
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Options dialog box: Environment \> Documents
 

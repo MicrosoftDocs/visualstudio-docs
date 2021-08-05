@@ -1,15 +1,16 @@
 ---
-title: "IDebugArrayObject2 | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Represents a managed array object, and allows an expression evaluator (EE) to determine the base index (lower bounds) for the array."
+title: IDebugArrayObject2 | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "IDebugArrayObject2 interface"
+- IDebugArrayObject2 interface
 ms.assetid: be6e504d-4ab3-4141-a61b-0953ee0e038e
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IDebugArrayObject2
 > [!IMPORTANT]

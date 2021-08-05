@@ -1,11 +1,12 @@
 ---
 title: "Getting started building games with Unity"
 description: "Getting started with Unity and Visual Studio for Mac"
-author: asb3993
-ms.author: amburns
-ms.date: 05/20/2019
+author: heiligerdankgesang
+ms.author: dominicn
+ms.date: 11/09/2020
 ms.technology: vs-ide-general
 ms.assetid: D07FA43B-9D18-4DFA-8343-CD538FAD84DB
+ms.topic: how-to
 ---
 
 # Getting started building games with Unity in Visual Studio for Mac
@@ -106,7 +107,7 @@ This lab is intended for developers who are familiar with C#, although deep expe
 
     ![moving one cube along the axis](media/unity-image17.png)
 
-22. Now you can add some code to drive the enemy logic so that it pursues the player. Right-click the **Assets** folder in the **Project** pad and select **Create > C# Script**.
+22. Now you can add some code to drive the enemy logic so that it pursues the player. Right-click the **Assets** folder in the **Project** window and select **Create > C# Script**.
 
     ![C# script context action](media/unity-image18.png)
 
@@ -138,7 +139,7 @@ This lab is intended for developers who are familiar with C#, although deep expe
 
 5. The Visual Studio solution is straightforward. It contains an **Assets** folder (the same one from **Finder**) and the **EnemyAI.cs** script created earlier. In more sophisticated projects, the hierarchy will likely look different than what you see in Unity.
 
-    ![Solution pad in Visual Studio for Mac](media/unity-image24.png)
+    ![Solution Window in Visual Studio for Mac](media/unity-image24.png)
 
 6. **EnemyAI.cs** is open in the editor. The initial script just contains stubs for the **Start** and **Update** methods.
 
@@ -188,11 +189,11 @@ This lab is intended for developers who are familiar with C#, although deep expe
 
 1. Set a breakpoint on the first line of code in the **Start** method. You can either click in the editor margin at the target line or place cursor on the line and press **F9**.
 
-    ![setting breakpoint in visual studio for mac](media/unity-image25.png)
+    ![setting breakpoint in Visual Studio for Mac](media/unity-image25.png)
 
 2. Click the **Start Debugging** button or press **F5**. This will build the project and attach it to Unity for debugging.
 
-    ![start button in visual studio for mac](media/unity-image26.png)
+    ![start button in Visual Studio for Mac](media/unity-image26.png)
 
 3. Return to **Unity** and click the **Run** button to start the game.
 
@@ -200,21 +201,21 @@ This lab is intended for developers who are familiar with C#, although deep expe
 
 4. The breakpoint should be hit and you can now use the Visual Studio for Mac debugging tools.
 
-    ![breakpoint hit in visual studio for mac](media/unity-image28.png)
+    ![breakpoint hit in Visual Studio for Mac](media/unity-image28.png)
 
-5. From the **Locals** pad, locate the **this** pointer, which references an **EnemyAI** object. Expand the reference and see that you can browse the associated members like **Speed**.
+5. From the **Locals** window, locate the **this** pointer, which references an **EnemyAI** object. Expand the reference and see that you can browse the associated members like **Speed**.
 
-    ![locals debugging pad in visual studio for mac](media/unity-image29.png)
+    ![The Locals window in Visual Studio for Mac](media/unity-image29.png)
 
 6. Remove the breakpoint from the **Start** method the same way it was added-by either clicking it in the margin or selecting the line and press **F9**.
 
-    ![breakpoint hit in visual studio for mac](media/unity-image30.png)
+    ![Removing a breakpoint in Visual Studio for Mac by clicking on it](media/unity-image30.png)
 
 7. Press **F10** to step over the first line of code that finds the **Player** game object using a tag as parameter.
 
 8. Hover the mouse cursor over the **player** variable within the code editor window to view its associated members. You can even expand the overlay to view child properties.
 
-    ![debugging window in visual studio for mac editor](media/unity-image31.png)
+    ![debugging window in Visual Studio for Mac editor](media/unity-image31.png)
 
 9. Press **F5** or press the **Run** button to continue execution. Return to Unity to see the enemy cube repeatedly approach the player cube. You may need to adjust the camera if it's not visible.
 
@@ -222,7 +223,7 @@ This lab is intended for developers who are familiar with C#, although deep expe
 
 10. Switch back to **Visual Studio for Mac** and set a breakpoint on the first line of the **Update** method. It should be hit immediately.
 
-    ![setting a breakpoint in visual studio for mac](media/unity-image33.png)
+    ![Removing a breakpoint in Visual Studio for Mac](media/unity-image33.png)
 
 11. Suppose the speed is too fast and we want to test the impact of the change without restarting the app. Locate the **Speed** variable within the **Autos** or **Locals** window and then change it to **"10"** and press **Enter**.
 
@@ -258,15 +259,15 @@ This lab is intended for developers who are familiar with C#, although deep expe
 
 4. The newly created class provides stubs for the **Start** and **Update** methods. After the closing brace of the **Update** method, start typing **"onmouseup"**. As you type, notice that Visual Studio's IntelliSense quickly zeros in on the method you're planning to implement. Select it from the provided autocomplete list. It will fill out a method stub for you, including any parameters.
 
-    ![intellisense in visual studio for mac](media/unity-image41.png)
+    ![intellisense in Visual Studio for Mac](media/unity-image41.png)
 
 5. Inside the **OnMouseUp** method, type **"base."** to see all of the base methods available to call. You can also explore the different overloads of each function using the paging option in the top-right corner of the IntelliSense flyout.
 
-    ![exploring overloads in visual studio for mac](media/unity-image42.png)
+    ![exploring overloads in Visual Studio for Mac](media/unity-image42.png)
 
 6. Visual Studio for Mac also enables you to easily define new shaders. From **Solution Explorer**, right-click **Assets** and select **Add > New Shader**.
 
-    ![new shader action in visual studio for mac](media/unity-image43.png)
+    ![new shader action in Visual Studio for Mac](media/unity-image43.png)
 
 7. The shader file format gets full color and font treatment to make it easier to read and understand.
 

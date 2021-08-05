@@ -1,15 +1,17 @@
 ---
-title: "Getting Started with the VSIX Project Template | Microsoft Docs"
-ms.date: "3/16/2019"
-ms.topic: "conceptual"
+title: Getting Started with the VSIX Project Template | Microsoft Docs
+description: Learn how to use the VSIX Project template to create an extension or to package an existing extension for deployment. 
+ms.custom: SEO-VS-2020
+ms.date: 3/16/2019
+ms.topic: how-to
 helpviewer_keywords:
-  - "Visual Studio SDK, VSIX project template"
+- Visual Studio SDK, VSIX project template
 ms.assetid: 89fac33e-9380-4723-9b45-048a6e16f0ed
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Get started with the VSIX Project template
 

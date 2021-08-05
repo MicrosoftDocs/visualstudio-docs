@@ -1,22 +1,24 @@
 ---
 title: Understand build platforms
+description: Learn how you can store different versions of solution and project properties that apply to different target platforms in Visual Studio.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.technology: vs-ide-compile
 ms.topic: conceptual
 f1_keywords:
-  - "vs.build.newsolutionplatform"
-  - "vs.build.editprojectplatforms"
-  - "vs.build.newprojectplatform"
-  - "vs.build.editsolutionplatforms"
-  - "vc.proj.configurationsctrl.multipleplatforms"
+- vs.build.newsolutionplatform
+- vs.build.editprojectplatforms
+- vs.build.newprojectplatform
+- vs.build.editsolutionplatforms
+- vc.proj.configurationsctrl.multipleplatforms
 helpviewer_keywords:
-  - "build platforms [Visual Studio]"
+- build platforms [Visual Studio]
 ms.assetid: c1e5da1b-cda1-4545-b46c-0440fba27485
 author: ghogen
 ms.author: ghogen
-manager: jillfra
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Understand build platforms
 

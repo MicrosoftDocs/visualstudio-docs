@@ -1,20 +1,21 @@
 ---
-title: "IDebugStackFrame2::GetCodeContext | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Gets the code context for this stack frame."
+title: IDebugStackFrame2::GetCodeContext | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugStackFrame2::GetCodeContext"
+- IDebugStackFrame2::GetCodeContext
 helpviewer_keywords:
-  - "IDebugStackFrame2::GetCodeContext"
+- IDebugStackFrame2::GetCodeContext
 ms.assetid: 93d66159-a41d-49ef-982f-91bb4d073b74
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugStackFrame2::GetCodeContext
 Gets the code context for this stack frame.

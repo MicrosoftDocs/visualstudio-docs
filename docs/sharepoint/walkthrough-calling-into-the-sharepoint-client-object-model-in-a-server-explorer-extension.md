@@ -1,7 +1,10 @@
 ---
 title: "Server Explorer: Extending the SharePoint Connections node"
+titleSuffix: ""
+description: In this walkthrough, see how to call the SharePoint client object model from an extension for the SharePoint Connections node in Server Explorer.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: how-to
 dev_langs:
   - "VB"
   - "CSharp"
@@ -10,7 +13,7 @@ helpviewer_keywords:
   - "SharePoint commands [SharePoint development in Visual Studio]"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---
@@ -41,9 +44,9 @@ ms.workload:
 
 Knowledge of the following concepts is helpful, but not required, to complete the walkthrough:
 
-- Using the SharePoint client object model. For more information, see [Managed Client Object Model](http://go.microsoft.com/fwlink/?LinkId=177797).
+- Using the SharePoint client object model. For more information, see [Managed Client Object Model](/previous-versions/office/developer/sharepoint-2010/ee537247(v=office.14)).
 
-- Web parts in SharePoint. For more information, see [Web Parts Overview](http://go.microsoft.com/fwlink/?LinkId=177803).
+- Web parts in SharePoint. For more information, see [Web Parts Overview](/previous-versions/office/ms432401(v=office.14)).
 
 ## Create the projects
  To complete this walkthrough, you must create two projects:
@@ -157,8 +160,8 @@ Knowledge of the following concepts is helpful, but not required, to complete th
     > [!NOTE]
     > After you add this code, the project will have some compile errors. These errors will go away when you add code in later steps.
 
-     [!code-csharp[SPExtensibility.SPExplorer.WebPartNode#1](../sharepoint/codesnippet/CSharp/webpartnode/webpartnodeextension/sitenodeextension.cs#1)]
-     [!code-vb[SPExtensibility.SPExplorer.WebPartNode#1](../sharepoint/codesnippet/VisualBasic/spextensibility.spexplorer.webpartnode.webpartnode/webpartnodeextension/sitenodeextension.vb#1)]
+     :::code language="csharp" source="../sharepoint/codesnippet/CSharp/webpartnode/webpartnodeextension/sitenodeextension.cs" id="Snippet1":::
+     :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/spextensibility.spexplorer.webpartnode.webpartnode/webpartnodeextension/sitenodeextension.vb" id="Snippet1":::
 
 ## Define a node type that represents a web part
  Create a class that defines a new type of node that represents a Web Part. Visual Studio uses this new node type to display child nodes under the **Web Part Gallery** node. Each of these child nodes represents a single Web Part on the SharePoint site.
@@ -169,8 +172,8 @@ Knowledge of the following concepts is helpful, but not required, to complete th
 
 1. Paste the following code into the **WebPartNodeTypeProvider** code file for the **WebPartNodeExtension** project.
 
-     [!code-csharp[SPExtensibility.SPExplorer.WebPartNode#2](../sharepoint/codesnippet/CSharp/webpartnode/webpartnodeextension/webpartnodetypeprovider.cs#2)]
-     [!code-vb[SPExtensibility.SPExplorer.WebPartNode#2](../sharepoint/codesnippet/VisualBasic/spextensibility.spexplorer.webpartnode.webpartnode/webpartnodeextension/webpartnodetypeprovider.vb#2)]
+     :::code language="csharp" source="../sharepoint/codesnippet/CSharp/webpartnode/webpartnodeextension/webpartnodetypeprovider.cs" id="Snippet2":::
+     :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/spextensibility.spexplorer.webpartnode.webpartnode/webpartnodeextension/webpartnodetypeprovider.vb" id="Snippet2":::
 
 ## Checkpoint
  At this point in the walkthrough, all the code for the **Web Part Gallery** node is now in the project. Build the **WebPartNodeExtension** project to make sure that it compiles without errors.
@@ -186,7 +189,7 @@ Knowledge of the following concepts is helpful, but not required, to complete th
 
 1. In **Solution Explorer**, in the **WebPartNode** project, open **source.extension.vsixmanifest** file in the manifest editor.
 
-     The source.extension.vsixmanifest file is the basis for the extension.vsixmanifest file that all VSIX packages require. For more information about this file, see [VSIX Extension Schema 1.0 Reference](https://msdn.microsoft.com/76e410ec-b1fb-4652-ac98-4a4c52e09a2b).
+     The source.extension.vsixmanifest file is the basis for the extension.vsixmanifest file that all VSIX packages require. For more information about this file, see [VSIX Extension Schema 1.0 Reference](/previous-versions/dd393700(v=vs.110)).
 
 2. In the **Product Name** box, enter **Web Part Gallery Node for Server Explorer**.
 

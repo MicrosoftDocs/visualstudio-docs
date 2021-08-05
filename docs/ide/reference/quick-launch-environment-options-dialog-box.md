@@ -1,19 +1,21 @@
 ---
 title: Quick Launch, Environment, Options Dialog Box
+description: Learn how to use the Quick Launch page in the Environment section to quickly search and execute actions for IDE assets such as options, templates, and menus.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "VS.ToolsOptionsPages.Environment.QuickLaunch"
-  - "vs.quicklaunch"
+- VS.ToolsOptionsPages.Environment.QuickLaunch
+- vs.quicklaunch
 helpviewer_keywords:
-  - "searching IDE"
-  - "IDE, searching"
+- searching IDE
+- IDE, searching
 ms.assetid: 4200f297-d065-4723-9a30-d91ff2e26c9d
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 monikerRange: vs-2017
 ---
 # Quick Launch, Environment, Options Dialog Box

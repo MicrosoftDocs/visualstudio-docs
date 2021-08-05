@@ -1,20 +1,21 @@
 ---
-title: "EXCEPTION_INFO | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Describes an exception or run-time error thrown by the program being debugged."
+title: EXCEPTION_INFO | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "EXCEPTION_INFO"
+- EXCEPTION_INFO
 helpviewer_keywords:
-  - "EXCEPTION_INFO structure"
+- EXCEPTION_INFO structure
 ms.assetid: d046957a-b97d-420b-b46b-c67cbaef709e
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # EXCEPTION_INFO
 Describes an exception or run-time error thrown by the program being debugged.

@@ -1,5 +1,7 @@
 ---
 title: "Call Tree View - .NET Memory Instrumentation Data | Microsoft Docs"
+description: Read about the Call Tree view of .NET memory allocation instrumentation data in Performance Explorer.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:
@@ -7,7 +9,8 @@ helpviewer_keywords:
 ms.assetid: dd359707-245a-4a36-8305-2e980b9edd53
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+monikerRange: 'vs-2017'
 ms.workload:
   - "dotnet"
 ---

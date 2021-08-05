@@ -1,18 +1,19 @@
 ---
 title: Overview of Visual Studio
-titleSuffix: ""
-ms.date: 03/19/2019
+titleSuffix: ''
+description: Learn about the Visual Studio integrated development environment.
+ms.date: 06/29/2021
 ms.technology: vs-ide-general
-ms.topic: conceptual
-ms.custom: vs-get-started
-author: jillre
+ms.topic: overview
+ms.custom: [vs-acquisition,  vs-get-started, SEO-VS-2020]
+author: anandmeg
 f1_keywords:
-  - vs.startpage
-  - VS.StartPage.HowDoI
-ms.author: jillfra
-manager: jillfra
+- vs.startpage
+- VS.StartPage.HowDoI
+ms.author: meghaanand
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Welcome to the Visual Studio IDE
 

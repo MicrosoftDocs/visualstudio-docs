@@ -1,15 +1,17 @@
 ---
-title: "Workflow Designer - Type Collection Editor Dialog Box"
+title: Workflow Designer - Type Collection Editor Dialog Box
+description: Learn how you can use the Type Collection Editor dialog box to add known types to the Send and Receive activities. 
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "TypeCollectionEditor.UI"
+- TypeCollectionEditor.UI
 ms.assetid: 63cdea6b-bca2-4c06-b8b4-c8faabd40726
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Type Collection Editor Dialog Box
 

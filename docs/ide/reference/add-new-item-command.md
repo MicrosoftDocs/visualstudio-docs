@@ -1,18 +1,18 @@
 ---
 title: Add New Item Command
+description: Learn how to use the Add New Item command to add a new solution item or frameset to the current solution.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
-f1_keywords:
-  - "project.addnewitem"
 helpviewer_keywords:
-  - "Add New Item command"
-  - "File.AddNewItem command"
+- Add New Item command
+- File.AddNewItem command
 ms.assetid: 63b7df32-db83-463b-bbe7-7ff011fe5298
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Add New Item Command
 Adds a new solution item, such as an .htm, .css, .txt, or frameset to the current solution and opens it.

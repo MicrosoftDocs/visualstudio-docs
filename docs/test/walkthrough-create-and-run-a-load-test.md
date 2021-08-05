@@ -1,15 +1,17 @@
 ---
-title: "Create and run a load test"
+title: Create and run a load test
+description: Learn how to create a load test that contains unit tests. You create and run load tests using Visual Studio Enterprise.
+ms.custom: SEO-VS-2020
 ms.date: 10/01/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "unit tests, in load tests"
-  - "unit tests, load test walkthrough"
-  - "load tests, walkthrough"
+- unit tests, in load tests
+- unit tests, load test walkthrough
+- load tests, walkthrough
 ms.assetid: bbf075a5-96d5-48ed-a03c-330f0fc04748
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
 ---
 # Walkthrough: Create and run a load test that contains unit tests
 
@@ -35,23 +37,25 @@ In this walkthrough, you will complete the following tasks:
 
 ### To start the New Load Test Wizard
 
+1. Make sure you have installed the **Web performance and load testing tools** component described in [Create a load test project](../test/quickstart-create-a-load-test-project.md).
+
 1. Open the Bank solution that you created in [Walkthrough: Creating and running unit tests for managed code](../test/walkthrough-creating-and-running-unit-tests-for-managed-code.md).
 
-2. In **Solution Explorer**, open the shortcut menu for the Bank solution node, choose **Add**, and then choose **New Project**.
+1. In **Solution Explorer**, open the shortcut menu for the Bank solution node, choose **Add**, and then choose **New Project**.
 
      The **Add New Project** dialog box displays.
 
-3. In the **Add New Project** dialog box, expand **Visual C#** and choose **Test**. From the list of templates, choose **Web Performance and Load Test Project** and in the **Name** field, type `BankLoadTest`. Choose **OK**.
+1. In the **Add New Project** dialog box, expand **Visual C#** and choose **Test**. From the list of templates, choose **Web Performance and Load Test Project** and in the **Name** field, type `BankLoadTest`. Choose **OK**.
 
      The BankLoadTest web performance and load test project is added to the solution.
 
-4. Open the shortcut menu for the new BankLoadTest web performance and load test project, choose **Add**, and then choose **Load Test**.
+1. Open the shortcut menu for the new BankLoadTest web performance and load test project, choose **Add**, and then choose **Load Test**.
 
-5. The **New Load Test Wizard** starts.
+1. The **New Load Test Wizard** starts.
 
-6. The **Welcome** page of the **New Load Test Wizard** is the first page.
+1. The **Welcome** page of the **New Load Test Wizard** is the first page.
 
-7. Choose **Next**.
+1. Choose **Next**.
 
 ### To edit settings for load test scenario
 

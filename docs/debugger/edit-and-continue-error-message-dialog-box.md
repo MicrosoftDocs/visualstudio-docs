@@ -1,5 +1,7 @@
 ---
 title: "Edit and Continue error message dialog box| Microsoft Docs"
+description: Edit and Continue may report that it isn't available for your code changes. This article provides possible reasons.
+ms.custom: SEO-VS-2020
 ms.date: "10/15/2018"
 ms.topic: "reference"
 f1_keywords:
@@ -15,7 +17,7 @@ helpviewer_keywords:
 ms.assetid: f98c91c0-447a-4533-85b6-87170a0dc4c3
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---
@@ -29,7 +31,7 @@ Possible reasons for this error message include:
 - Trying to edit optimized code. You may need to switch from a release build to a debug build.
 - Trying to edit code while it's running, instead of while paused in the debugger. Try [setting a breakpoint](../debugger/using-breakpoints.md), and editing the code while paused.
 - Trying to edit managed code when only unmanaged debugging is enabled. Edit and Continue doesn't work with [mixed-mode debugging](../debugger/how-to-debug-in-mixed-mode.md).
-- Making a code change that isn't supported by Edit and Continue in your programming language. For more information, see articles about [supported code changes in C#](supported-code-changes-csharp.md), [unsupported edits in Visual Basic Edit and Continue](/visualstudio/debugger/supported-code-changes-csharp), and [supported C++ code changes](supported-code-changes-cpp.md).
+- Making a code change that isn't supported by Edit and Continue in your programming language. For more information, see articles about [supported code changes in C#](supported-code-changes-csharp.md), [unsupported edits in Visual Basic Edit and Continue](supported-code-changes-csharp.md), and [supported C++ code changes](supported-code-changes-cpp.md).
 - Trying to edit code in an app you're attached to, instead of starting debugging from the **Debug** menu.
 - Trying to edit code while debugging a Dr. Watson dump.
 - Trying to edit code after an unhandled exception occurs, and the option **Unwind the call stack on unhandled exceptions** is not selected.

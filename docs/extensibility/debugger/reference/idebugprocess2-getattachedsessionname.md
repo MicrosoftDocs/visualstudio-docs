@@ -1,20 +1,21 @@
 ---
-title: "IDebugProcess2::GetAttachedSessionName | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Gets the name of the session that is debugging this process."
+title: IDebugProcess2::GetAttachedSessionName | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugProcess2::GetAttachedSessionName"
+- IDebugProcess2::GetAttachedSessionName
 helpviewer_keywords:
-  - "IDebugProcess2::GetAttachedSessionName"
+- IDebugProcess2::GetAttachedSessionName
 ms.assetid: 7e5e116f-2c0c-4bc8-ad3f-e9fd2318a7e4
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugProcess2::GetAttachedSessionName
 Gets the name of the session that is debugging this process. An IDE can display this information to a user who is debugging a particular process on a particular machine.

@@ -1,35 +1,39 @@
 ---
-title: "Unzip Task | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "reference"
+title: Unzip Task | Microsoft Docs
+description: Learn about parameters and usage of the MSBuild Unzip task, which unzips a .zip archive to a specified location.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
+ms.topic: reference
 f1_keywords:
-  - "http://schemas.microsoft.com/developer/msbuild/2003#Unzip"
+- http://schemas.microsoft.com/developer/msbuild/2003#Unzip
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+- VB
+- CSharp
+- C++
+- jsharp
 helpviewer_keywords:
-  - "Unzip task [MSBuild]"
-  - "MSBuild, Unzip task"
+- Unzip task [MSBuild]
+- MSBuild, Unzip task
 ms.assetid: 916bb2e3-3017-4828-ae27-c0b5c99bbb48
 caps.latest.revision: 16
-author: Mikejo5000
-ms.author: mikejo
-manager: jillfra
+author: ghogen
+ms.author: ghogen
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Unzip task
+
 Unzips a *.zip* archive to the specified location.
 
 >[!NOTE]
 >The `Unzip` task is available in MSBuild 15.8 and above only.
 
 ## Parameters
+
  The following table describes the parameters of the `Unzip` task.
 
 |Parameter|Description|
@@ -40,9 +44,11 @@ Unzips a *.zip* archive to the specified location.
 |`SourceFiles`|Required <xref:Microsoft.Build.Framework.ITaskItem>`[]` parameter.<br /><br /> Specifies one or more the files to unzip. When specifying multiple files they are unzipped in order to the same folder.|
 
 ## Remarks
+
  In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension base class](../msbuild/taskextension-base-class.md).
 
 ## Example
+
  The following example unzips an archive and overwrites any read-only files.
 
 ```xml
@@ -60,5 +66,6 @@ Unzips a *.zip* archive to the specified location.
 ```
 
 ## See also
+
 - [Tasks](../msbuild/msbuild-tasks.md)
 - [Task reference](../msbuild/msbuild-task-reference.md)

@@ -1,23 +1,25 @@
 ---
-title: "How to: Restore Hidden Debugger Commands | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-dev_langs:
-  - "CSharp"
-  - "VB"
-  - "FSharp"
-  - "C++"
-  - "JScript"
-helpviewer_keywords:
-  - "debugger, restoring commands"
-  - "debugging [Visual Studio], restoring commands"
-  - "commands, debugger"
+title: Restore Hidden Debugger Commands | Microsoft Docs
+description: Learn to restore hidden debugger commands in Visual Studio. Default IDE settings for some languages may hide certain debugger commands.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
+dev_langs: 
+  - CSharp
+  - VB
+  - FSharp
+  - C++
+  - JScript
+helpviewer_keywords: 
+  - debugger, restoring commands
+  - debugging [Visual Studio], restoring commands
+  - commands, debugger
 ms.assetid: 76ac9b77-f536-43b5-a9fc-984854b1c566
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
-ms.workload:
-  - "multiple"
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.workload: 
+  - multiple
 ---
 # How to: Restore Hidden Debugger Commands
 When you set up Visual Studio, you are asked to choose a set of default IDE settings for your primary programming language. Default IDE settings for some languages may hide certain debugger commands.

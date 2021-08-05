@@ -1,15 +1,16 @@
 ---
-title: "IDebugComPlusSymbolProvider | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Represents a COM+ symbol provider with methods that are specific to managed code."
+title: IDebugComPlusSymbolProvider | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "IDebugComPlusSymbolProvider interface"
+- IDebugComPlusSymbolProvider interface
 ms.assetid: 5b98e908-fd15-49a6-9010-933c9b948085
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IDebugComPlusSymbolProvider
 Represents a COM+ symbol provider with methods that are specific to managed code.

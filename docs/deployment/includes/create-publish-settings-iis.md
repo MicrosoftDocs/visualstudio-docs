@@ -5,6 +5,8 @@
 
     ![Configure Web Deploy configuration](../../deployment/media/tutorial-configure-web-deploy-publishing.png)
 
+   If you don't see the **Deploy** menu, see the preceding section to verify that Web Deploy is running.
+
 3. In the **Configure Web Deploy Publishing** dialog box, examine the settings.
 
 4. Click **Setup**.

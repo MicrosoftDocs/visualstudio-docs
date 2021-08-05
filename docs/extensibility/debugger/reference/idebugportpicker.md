@@ -1,15 +1,16 @@
 ---
-title: "IDebugPortPicker | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Represents a customized UI for selecting the port."
+title: IDebugPortPicker | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "IDebugPortPicker interface"
+- IDebugPortPicker interface
 ms.assetid: 8b7f6685-a3c5-4355-b706-c1b574f6ff84
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IDebugPortPicker
 Represents a customized UI for selecting the port.

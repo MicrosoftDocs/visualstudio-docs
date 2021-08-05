@@ -1,7 +1,9 @@
 ---
 title: "Constants (Debug Interface Access SDK) | Microsoft Docs"
+description: See a list of string constants that can be used to identify various sections of a program debug database (PDB) file through the debug interface access (DIA) SDK.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -10,7 +12,7 @@ helpviewer_keywords:
 ms.assetid: aca4ec77-bc08-4cdd-a6ce-8d4a28ea5ea3
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

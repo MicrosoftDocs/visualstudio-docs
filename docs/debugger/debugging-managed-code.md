@@ -1,5 +1,7 @@
 ---
 title: "Debugging Managed Code | Microsoft Docs"
+description: See common debugging problems and techniques in Visual Studio for managed applications, or apps written in languages targeting the common language runtime.
+ms.custom: SEO-VS-2020
 ms.date: "09/23/2019"
 ms.topic: "conceptual"
 dev_langs:
@@ -13,7 +15,7 @@ helpviewer_keywords:
   - "managed code, debugging"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "dotnet"
 ---
@@ -70,7 +72,7 @@ Provides considerations for debugging Windows service applications, including se
 [Debugging and Profiling](/dotnet/framework/debug-trace-profile/index)\
 Discusses debugging .NET applications and the configuration requirements.
 
-[Debugging Script and Web Applications](/visualstudio/debugger/how-to-enable-debugging-for-aspnet-applications)\
+[Debugging Script and Web Applications](how-to-enable-debugging-for-aspnet-applications.md)\
 Describes common debugging problems and techniques you may encounter when debugging script and Web applications.
 
 ## See also

@@ -1,14 +1,16 @@
 ---
-title: "Test Controller and Test Agent Requirements for Load Testing"
+title: "Test controller/test agent requirements (load testing)"
+description: Learn about test controller and test agent requirements for load testing. Visual Studio supports several test types.
+ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "agents, requirements"
-  - "controllers, requirements"
+- agents, requirements
+- controllers, requirements
 ms.assetid: 372d97ce-12e4-46a9-9863-da508adba68f
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
 ---
 # Test controller and test agent requirements for load testing
 

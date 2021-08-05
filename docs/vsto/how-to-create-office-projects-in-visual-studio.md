@@ -1,9 +1,10 @@
 ---
 title: "How to: Create Office projects in Visual Studio"
+description: Learn how you can use Visual Studio to create VSTO Add-in and document-level customizations for Microsoft Office applications.
 titleSuffix: ""
-ms.custom: "seodec18"
+ms.custom: "seodec18, SEO-VS-2020"
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: "how-to"
 f1_keywords:
   - "VST.SelectDocWizard.Page1"
   - "VST.SelectDocWizard.Http"
@@ -20,7 +21,7 @@ helpviewer_keywords:
   - "application-level add-ins [Office development in Visual Studio], creating projects"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

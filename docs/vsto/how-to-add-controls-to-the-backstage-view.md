@@ -1,7 +1,9 @@
 ---
 title: "How to: Add controls to the Backstage view "
+description: Learn how you can use the Ribbon Designer to add controls to the menu that opens when you click the File tab.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: "how-to"
 dev_langs:
   - "VB"
   - "CSharp"
@@ -17,14 +19,14 @@ helpviewer_keywords:
   - "Microsoft Office Menu"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---
 # How to: Add controls to the Backstage view
   You can use the Ribbon Designer to add controls to the menu that opens when you click the **File** tab. When you run the application, controls that you add to the **File** tab appear a group named **Add-ins**.
 
- You cannot position controls before or after built-in controls by using the Ribbon designer in Visual Studio. A built-in control is a control that already appears in Backstage view. If you want to position controls before or after built-in controls, you must use a Ribbon XML. For more information about **Ribbon (XML)**, see [Ribbon XML](../vsto/ribbon-xml.md). For more information about customizing the Backstage view, see [Introduction to the Office 2010 Backstage view for developers](http://go.microsoft.com/fwlink/?LinkId=182189) and [Customize the Office 2010 Backstage view for developers](http://go.microsoft.com/fwlink/?LinkId=182188).
+ You cannot position controls before or after built-in controls by using the Ribbon designer in Visual Studio. A built-in control is a control that already appears in Backstage view. If you want to position controls before or after built-in controls, you must use a Ribbon XML. For more information about **Ribbon (XML)**, see [Ribbon XML](../vsto/ribbon-xml.md). For more information about customizing the Backstage view, see [Introduction to the Office 2010 Backstage view for developers](/previous-versions/office/developer/office-2010/ee691833(v=office.14)) and [Customize the Office 2010 Backstage view for developers](/previous-versions/office/developer/office-2010/ee815851(v=office.14)).
 
  [!INCLUDE[appliesto_ribbon](../vsto/includes/appliesto-ribbon-md.md)]
 

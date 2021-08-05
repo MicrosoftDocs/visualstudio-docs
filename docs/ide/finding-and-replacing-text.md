@@ -1,35 +1,37 @@
 ---
 title: Find and replace text, and multi-caret selection
-ms.date: 08/14/2018
+description: Learn about the Find and Replace feature and how to use it to find and replace instances of a pattern. 
+ms.custom: SEO-VS-2020
+ms.date: 10/17/2020
 ms.topic: conceptual
 f1_keywords:
-  - "vs.find"
-  - "vs.findreplacecontrol"
-  - "vs.findreplace.findsymbol"
-  - "vs.findreplace.symbol"
-  - "findresultswindow"
-  - "vs.findreplace.quickreplace"
-  - "vs.findsymbol"
-  - "vs.findresults1"
-  - "vs,findsymbolwindow"
-  - "vs.findreplace.quickfind"
-  - "vs.lookin"
-  - "vs.replace"
+- vs.find
+- vs.findreplacecontrol
+- vs.findreplace.findsymbol
+- vs.findreplace.symbol
+- findresultswindow
+- vs.findreplace.quickreplace
+- vs.findsymbol
+- vs.findresults1
+- vs,findsymbolwindow
+- vs.findreplace.quickfind
+- vs.lookin
+- vs.replace
 helpviewer_keywords:
-  - "text searches"
-  - "Replace in Files dialog box"
-  - "Find in Files dialog box"
-  - "text searches, finding and replacing text"
-  - "text, finding and replacing"
-  - "find and replace"
-  - "find text"
-  - "replace text"
-  - "multi-caret selection"
-author: jillre
-ms.author: jillfra
-manager: jillfra
+- text searches
+- Replace in Files dialog box
+- Find in Files dialog box
+- text searches, finding and replacing text
+- text, finding and replacing
+- find and replace
+- find text
+- replace text
+- multi-caret selection
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Find and replace text
 
@@ -116,15 +118,15 @@ Use the following keys and actions for multi-caret selection behaviors:
 |**Ctrl**+**Alt** + double-click|Add a secondary word selection|
 |**Ctrl**+**Alt** + click + drag|Add a secondary selection|
 |**Shift**+**Alt**+**.**|Add the next matching text as a selection|
-|**Ctrl**+**Shift**+**Alt**+**,**|Add all matching text as selections|
+|**Shift**+**Alt**+**;**|Add all matching text as selections|
 |**Shift**+**Alt**+**,**|Remove last selected occurrence|
-|**Ctrl**+**Shift**+**Alt**+**.**|Skip next matching occurrence|
+|**Shift**+**Alt**+**/**|Skip next matching occurrence|
 |**Alt** + click|Add a box selection|
 |**Esc** or click|Clear all selections|
 
 Some of the commands are also available on the **Edit** menu, under **Multiple Carets**:
 
-![Multiple carets fly-out menu in Visual Studio](media/edit-menu-multiple-carets.png)
+:::image type="content" source="media/edit-menu-multiple-carets-find-replace.png" alt-text="Screenshot of the Multiple Carets fly-out menu in Visual Studio":::
 
 ## See also
 

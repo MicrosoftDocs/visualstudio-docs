@@ -1,16 +1,18 @@
 ---
-title: "Context Parameters | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Context Parameters | Microsoft Docs
+description: Learn about context parameters in the Visual Studio integrated development environment (IDE) that define the state of a project when you add or implement a wizard. 
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: reference
 helpviewer_keywords:
-  - "wizards, context parameters"
-  - "context parameters"
+- wizards, context parameters
+- context parameters
 ms.assetid: 1a062dcb-8a8f-40dd-bea9-3d10f9448966
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Context parameters
 In the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE), you can add wizards to the **New Project**, **Add New Item**, or **Add Sub Project** dialog boxes. The added wizards are available on the **File** menu or by right-clicking a project in **Solution Explorer**. The IDE passes context parameters to the implementation of the wizard. The context parameters define the state of the project when the IDE calls the wizard.
@@ -58,4 +60,4 @@ In the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] integrated d
 - [Custom parameters](../../extensibility/internals/custom-parameters.md)
 - [Wizards](../../extensibility/internals/wizards.md)
 - [Wizard (.vsz) file](../../extensibility/internals/wizard-dot-vsz-file.md)
-- [Context parameters for launching wizards](https://msdn.microsoft.com/Library/051a10f4-9e45-4604-b344-123044f33a24)
+- [Context parameters for launching wizards](/previous-versions/tz690efs(v=vs.140))

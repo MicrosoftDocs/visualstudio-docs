@@ -1,5 +1,7 @@
 ---
 title: "Creating ClickOnce Applications for Others to Deploy | Microsoft Docs"
+description: Learn about customer hosted ClickOnce applications developed in .NET Framework 3.5 and previous versions of the .NET Framework.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:
@@ -21,7 +23,7 @@ helpviewer_keywords:
 ms.assetid: d20766c7-4ef3-45ab-8aa0-3f15b61eccaa
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

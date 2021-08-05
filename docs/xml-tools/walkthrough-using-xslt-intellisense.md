@@ -1,13 +1,15 @@
 ---
-title: "Walkthrough: Using XSLT IntelliSense"
+title: 'Walkthrough: Using XSLT IntelliSense'
+description: Learn how to use XSLT IntelliSense to auto-complete the values of some attributes by following the steps in this walkthrough.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 ms.assetid: 079d95ac-2eaf-4ae1-9cd3-2c81a961a942
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Walkthrough: Using XSLT IntelliSense
 

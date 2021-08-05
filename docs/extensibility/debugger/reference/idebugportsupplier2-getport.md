@@ -1,20 +1,21 @@
 ---
-title: "IDebugPortSupplier2::GetPort | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Gets a port from a port supplier."
+title: IDebugPortSupplier2::GetPort | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugPortSupplier2::GetPort"
+- IDebugPortSupplier2::GetPort
 helpviewer_keywords:
-  - "IDebugPortSupplier2::GetPort"
+- IDebugPortSupplier2::GetPort
 ms.assetid: d55d5055-7386-4037-bf22-4c3e434a99ca
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugPortSupplier2::GetPort
 Gets a port from a port supplier.

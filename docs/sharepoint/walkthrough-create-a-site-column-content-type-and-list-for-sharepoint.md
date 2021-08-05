@@ -1,7 +1,10 @@
 ---
 title: "Create site column, content type, and list for SharePoint"
+titleSuffix: ""
+description: In this walkthrough, create a custom site column (field), custom content type that uses the site column, and list that uses the content type in SharePoint.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: how-to
 f1_keywords:
   - "VS.SharePointTools.ListDesigner.GeneralMessageHelp"
   - "Microsoft.VisualStudio.SharePoint.Designers.ListDesigner.ViewModels.ListViewModel.SortingAndGrouping"
@@ -16,7 +19,7 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, content types"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---
@@ -48,33 +51,48 @@ ms.workload:
 #### To create the project
 
 1. On the [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] **File** menu, choose **New** > **Project**.
+::: moniker range="=vs-2017"
+2. In the **New Project** dialog box, under either **Visual C#** or **Visual Basic**, expand the **Office/SharePoint** node, and then select **SharePoint Solutions**.
 
-2. In the **New Project** dialog box, under either **Visual C#** or **Visual Basic**, expand the **SharePoint** node, and then choose **2010**.
+3. In the **Templates** pane, choose the **SharePoint Empty Project** for the particular version of SharePoint you have installed. For example, if you have SharePoint 2016 install select the **SharePoint 2016 - Empty Project** template.  
 
-3. In the **Templates** pane, choose **SharePoint 2010 Project**, change the name of the project to **Clinic**, and then choose the **OK** button.
+4. Change the name of the project to **Clinic**, and then choose the **OK** button.
 
-     The SharePoint 2010 Project template is an empty project that's used in this example to contain site columns and other project items that are added later.
+5. On the **Specify the site and security level for debugging** dialog, enter the URL for the local SharePoint site to which you want to add the new custom field item, or use the default location (`http://<`*SystemName*`>/)`.
 
-4. On the **Specify the site and security level for debugging** page, enter the URL for the local SharePoint site to which you want to add the new custom field item, or use the default location (`http://<`*SystemName*`>/)`.
+6. In the **What is the trust level for this SharePoint solution?** section, use the default value **Deploy as a sandboxed solution**.
+
+     For more information about sandboxed and farm solutions, see [Sandboxed solution considerations](../sharepoint/sandboxed-solution-considerations.md).
+
+7. Choose the **Finish** button. The project is now listed in **Solution Explorer**.
+::: moniker-end
+::: moniker range=">=vs-2019"
+2.  On the **Create a New Project** dialog select the **SharePoint Empty Project** for the particular version of SharePoint you have installed. For example, if you have SharePoint 2016 install select the **SharePoint 2016 - Empty Project** template.
+    [!INCLUDE[new-project-dialog-search](../sharepoint/includes/new-project-dialog-search-md.md)]
+
+3. Change the name of the project to **Clinic**, and then choose the **Create** button.
+
+4. On the **Specify the site and security level for debugging** dialog, enter the URL for the local SharePoint site to which you want to add the new custom field item, or use the default location (`http://<`*SystemName*`>/)`.
 
 5. In the **What is the trust level for this SharePoint solution?** section, use the default value **Deploy as a sandboxed solution**.
 
      For more information about sandboxed and farm solutions, see [Sandboxed solution considerations](../sharepoint/sandboxed-solution-considerations.md).
 
 6. Choose the **Finish** button. The project is now listed in **Solution Explorer**.
+::: moniker-end
 
 #### To add site columns
 
-1. Add a new site column. To do this, in **Solution Explorer**, open the shortcut menu for **Clinic**, and then choose **Add** > **New Item**.
+1. Add a new site column. To do this, in **Solution Explorer**, right-click on the **Clinic** project, and then choose **Add** > **New Item**.
 
-2. In the **Add New Item** dialog box, choose **Site Column**, change the name to **Patient Name**, and then choose the **Add** button.
+2. In the **Add New Item** dialog box, choose **Site Column**, change the name to **PatientName**, and then choose the **Add** button.
 
-3. In the site column's *Elements.xml* file, leave the **Type** setting as **Text**, and change the **Group** setting to **Clinic Site Columns**. When complete, the site column's *Elements.xml* file should look like the following example.
+3. In the site column's *Elements.xml* file, leave the **Type** setting as **Text**, change the **Group** setting to **Clinic Site Columns**. When complete, the site column's *Elements.xml* file should look like the following example.
 
     ```xml
     <Field
          ID="{f9ba60d1-5631-41fb-b016-a38cf48eef63}"
-         Name="Clinic - Patient Name"
+         Name="PatientName"
          DisplayName="Patient Name"
          Type="Text"
          Required="FALSE"
@@ -82,7 +100,11 @@ ms.workload:
     </Field>
     ```
 
-4. Using the same procedure, add two more site columns to the project: **Patient ID** (Type = "Integer") and **Doctor Name** (Type = "Text"). Set their Group value to **Clinic Site Columns**.
+    > [!TIP]
+    > Visual Studio will automatically add a space in the DisplayName for you if you use camel casing in the name of the Site Column.
+    > It's recommended not to use spaces in the Site Column name as it may cause issues when you try to deploy the solution to SharePoint.
+
+4. Using the same procedure, add two more site columns to the project: **PatientID** (Type = "Integer") and **DoctorName** (Type = "Text"). Set their Group value to **Clinic Site Columns**.
 
 ## Create a custom content type
  Next, create a content type—based on the Contacts content type—that includes the site columns that you created in the previous procedure. By basing a content type on an existing content type, you can save time because the base content type provides several site columns for use in the new content type.
@@ -127,11 +149,11 @@ ms.workload:
 
 2. On the menu bar, choose **Project** > **Add New Item**.
 
-3. Under either **Visual C#** or **Visual Basic**, expand the **SharePoint** node, and then choose the **2010** node.
+3. Under either **Visual C#** or **Visual Basic**, expand the **SharePoint** node.
 
 4. In the **Templates** pane, choose the **List** template, change the name to **Patients**, and then choose the **Add** button.
 
-5. Leave the **Customize the list based on** setting as **Default (Blank)**, and then choose the **Finish** button.
+5. Leave the **Customize the list based on** setting as **Default (Custom List)**, and then choose the **Finish** button.
 
 6. In the List Designer, choose the **Content Types** button to display the **Content Type Settings** dialog box.
 
@@ -160,11 +182,11 @@ ms.workload:
     > [!TIP]
     > If you choose a column from the list of site columns, an existing site column is used. However, if you enter a column name value without choosing any columns in the list, a custom list column is created, even if a column with the same name already exists in the list.
 
-     Optionally, rather than setting the data type for the custom list column to **Single Line of Text**, you could instead set the data type for this column to Lookup, and its values would be retrieved from a table or another list. For information about Lookup columns, see [List Relationships in SharePoint 2010](http://go.microsoft.com/fwlink/?LinkId=224994) and [Lookups and List Relationships](http://go.microsoft.com/fwlink/?LinkID=224995).
+     Optionally, rather than setting the data type for the custom list column to **Single Line of Text**, you could instead set the data type for this column to Lookup, and its values would be retrieved from a table or another list. For information about Lookup columns, see [List Relationships in SharePoint 2010](/previous-versions/msp-n-p/ff798514(v=pandp.10)) and [Lookups and List Relationships](/previous-versions/office/developer/sharepoint-2010/ff623048(v=office.14)).
 
 10. Next to the **Patient ID** and **Patient Name** boxes, select the **Required** check box.
 
-11. On the **Views** tab, choose an empty row to create a view. Enter **Patient Details**.
+11. On the **Views** tab, choose an empty row to create a view. Enter **Patient Details** in a blank row under the **View Name** column.
 
      On the **Views** tab, you can specify the columns that you want to appear in the SharePoint list.
 
@@ -216,6 +238,6 @@ ms.workload:
 ## See also
 - [Create site columns, content types, and lists for SharePoint](../sharepoint/creating-site-columns-content-types-and-lists-for-sharepoint.md)
 - [Develop SharePoint solutions](../sharepoint/developing-sharepoint-solutions.md)
-- [How to: Create a Custom Field Type](http://go.microsoft.com/fwlink/?LinkId=192079)
-- [Content Types](http://go.microsoft.com/fwlink/?LinkId=192080)
-- [Columns](http://go.microsoft.com/fwlink/?LinkId=192081)
+- [How to: Create a Custom Field Type](/previous-versions/office/developer/sharepoint-2010/bb862248(v=office.14))
+- [Content Types](/previous-versions/office/developer/sharepoint-2010/ms479905(v=office.14))
+- [Columns](/previous-versions/office/developer/sharepoint-2010/ms196085(v=office.14))

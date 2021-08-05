@@ -1,13 +1,14 @@
 ---
+description: "IDiaSymbol::findInlineFramesByVA retrieves an enumeration that allows a client to iterate through all of the inline frames on a specified virtual address (VA)."
 title: "IDiaSymbol::findInlineFramesByVA | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 ms.assetid: 54295d3e-bbb6-4c10-ab9d-adcfc22b1f71
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

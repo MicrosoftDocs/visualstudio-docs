@@ -1,15 +1,17 @@
 ---
-title: "Add Counters to Counter Sets for load testing"
+title: Add Counters to Counter Sets for load testing
+description: When you create a load test with the Load Test Wizard, you add an initial set of counters. Learn how to add counters by using Load Test Editor.
+ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
-ms.topic: conceptual
-helpviewer_keywords:
-  - "counters, counter sets"
-  - "counter sets"
-  - "load tests, counter sets"
+ms.topic: how-to
+helpviewer_keywords: 
+  - counters, counter sets
+  - counter sets
+  - load tests, counter sets
 ms.assetid: e17d0e71-f982-4fc1-a2df-a1065d37473d
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
 ---
 # How to: Add counters to counter sets using the Load Test Editor
 

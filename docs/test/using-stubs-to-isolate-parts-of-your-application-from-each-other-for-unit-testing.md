@@ -1,15 +1,17 @@
 ---
-title: "Using stubs to isolate parts of your app for testing"
+title: Using stubs to isolate parts of your app for testing
+description: Learn about a stub, which is a small piece of code that takes the place of another component during testing. Using a stub returns consistent results.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
-ms.author: jillfra
-manager: jillfra
-ms.workload:
-  - "multiple"
-author: jillre
-dev_langs:
- - CSharp
- - VB
+ms.topic: how-to
+ms.author: mikejo
+manager: jmartens
+ms.workload: 
+  - multiple
+author: mikejo5000
+dev_langs: 
+  - CSharp
+  - VB
 ---
 # Use stubs to isolate parts of your application from each other for unit testing
 
@@ -29,7 +31,7 @@ Because stubs rely on your being able to structure your code in this way, you ty
 
 ### Design for dependency injection
 
-To use stubs, your application has to be designed so that the different components are not dependent on each other, but only dependent on interface definitions. Instead of being coupled at compile time, components are connected at run time. This pattern helps to make software that is robust and easy to update, because changes tend not to propagate across component boundaries. We recommend following it even if you don't use stubs. If you are writing new code, it's easy to follow the [dependency injection](http://en.wikipedia.org/wiki/Dependency_injection) pattern. If you are writing tests for existing software, you might have to refactor it. If that would be impractical, you could consider using shims instead.
+To use stubs, your application has to be designed so that the different components are not dependent on each other, but only dependent on interface definitions. Instead of being coupled at compile time, components are connected at run time. This pattern helps to make software that is robust and easy to update, because changes tend not to propagate across component boundaries. We recommend following it even if you don't use stubs. If you are writing new code, it's easy to follow the [dependency injection](https://en.wikipedia.org/wiki/Dependency_injection) pattern. If you are writing tests for existing software, you might have to refactor it. If that would be impractical, you could consider using shims instead.
 
 Let's start this discussion with a motivating example, the one in the diagram. The class StockAnalyzer reads share prices and generates some interesting results. It has some public methods, which we want to test. To keep things simple, let's just look at one of those methods, a very simple one that reports the current price of a particular share. We want to write a unit test of that method. Here's the first draft of a test:
 
@@ -141,11 +143,14 @@ To use stubs, you must first generate stub types from the interface definitions.
 
 #### Add a Fakes Assembly
 
-1. In **Solution Explorer**, expand your unit test project's **References**.
+1. In **Solution Explorer**, 
+    - For an older .NET Framework Project (non-SDK style), expand your unit test project's **References** node.
+    ::: moniker range=">=vs-2019"
+    - For an SDK-style project targeting .NET Framework, .NET Core, or .NET 5.0, expand the **Dependencies** node to find the assembly you would like to fake under **Assemblies**, **Projects**, or **Packages**.
+    ::: moniker-end
+    - If you're working in Visual Basic, select **Show All Files** in the **Solution Explorer** toolbar to see the **References** node.
 
-   If you're working in Visual Basic, select **Show All Files** in the **Solution Explorer** toolbar in order to see the **References** node.
-
-2. Select the assembly that contains the interface definitions for which you want to create stubs.
+2. Select the assembly that contains the class definitions for which you want to create shims. For example, if you want to shim **DateTime**, select **System.dll**.
 
 3. On the shortcut menu, choose **Add Fakes Assembly**.
 

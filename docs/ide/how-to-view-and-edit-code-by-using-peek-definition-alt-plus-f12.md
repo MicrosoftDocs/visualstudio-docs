@@ -1,12 +1,14 @@
 ---
 title: Using Peek Definition
+description: Learn how to use the Peek Definition command to view and edit your code without having to switch context from the code you're currently writing.
+ms.custom: SEO-VS-2020
 ms.date: 01/10/2018
-ms.topic: conceptual
-author: jillre
-ms.author: jillfra
-manager: jillfra
+ms.topic: how-to
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: View and edit code by using Peek Definition (Alt+F12)
 
@@ -68,7 +70,7 @@ You can use these keyboard shortcuts with the **Peek Definition** window:
 |-------------------|:-----------------------:|
 |Open the definition window|**Alt**+**F12**|
 |Close the definition window|**Esc**|
-|Promote the definition window to a regular document tab|**Shift**+**Alt**+**Home**|
+|Promote the definition window to a regular document tab|**Ctrl**+**Alt**+**Home**|
 |Navigate between definition windows|**Ctrl**+**Alt**+**-** and **Ctrl**+**Alt**+**=**|
 |Navigate between multiple results|**F8** and **Shift**+**F8**|
 |Toggle between the code editor window and the definition window|**Shift**+**Esc**|

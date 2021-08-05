@@ -1,20 +1,22 @@
 ---
 title: Extend the functionality of a TableAdapter
+description: Learn to extend the functionality of a TableAdapter by adding code to the TableAdapter's partial class file.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 dev_langs:
-  - "VB"
-  - "CSharp"
+- VB
+- CSharp
 helpviewer_keywords:
-  - "data [Visual Studio], TableAdapters"
-  - "data [Visual Studio], extending TableAdapters"
-  - "TableAdapters, adding functionality"
+- data [Visual Studio], TableAdapters
+- data [Visual Studio], extending TableAdapters
+- TableAdapters, adding functionality
 ms.assetid: 418249c8-c7f3-47ef-a94c-744cb6fe6aaf
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: ghogen
+ms.author: ghogen
+manager: jmartens
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # Extend the functionality of a TableAdapter
 
@@ -40,8 +42,8 @@ The following example assumes a TableAdapter named `CustomersTableAdapter`is in 
 
 4. Replace the code with the correct namespace and partial class name for your project as follows:
 
-     [!code-csharp[VbRaddataTableAdapters#2](../data-tools/codesnippet/CSharp/extend-the-functionality-of-a-tableadapter_1.cs)]
-     [!code-vb[VbRaddataTableAdapters#2](../data-tools/codesnippet/VisualBasic/extend-the-functionality-of-a-tableadapter_1.vb)]
+     :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataTableAdapters/CS/CustomersTableAdapterExtended.cs" id="Snippet2":::
+     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataTableAdapters/VB/CustomersTableAdapterExtended.vb" id="Snippet2":::
 
 ## See also
 

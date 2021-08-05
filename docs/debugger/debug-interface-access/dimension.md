@@ -1,7 +1,8 @@
 ---
+description: "Each FORTRAN array has a dimension that is identified by a SymTagDimension symbol."
 title: "Dimension | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 94f791da-bfea-454f-8a14-da31e8e1596a
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

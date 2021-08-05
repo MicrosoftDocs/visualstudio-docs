@@ -1,29 +1,33 @@
 ---
-title: "Vbc Task | Microsoft Docs"
-ms.date: "04/12/2018"
-ms.topic: "reference"
+title: Vbc Task | Microsoft Docs
+description: Learn how MSBuild uses the Vbc task to wrap vbc.exe, which produces executables, dynamic-link libraries, or code modules.
+ms.custom: SEO-VS-2020
+ms.date: 04/12/2018
+ms.topic: reference
 f1_keywords:
-  - "http://schemas.microsoft.com/developer/msbuild/2003#Vbc"
+- http://schemas.microsoft.com/developer/msbuild/2003#Vbc
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+- VB
+- CSharp
+- C++
+- jsharp
 helpviewer_keywords:
-  - "Vbc task [MSBuild]"
-  - "MSBuild, Vbc task"
+- Vbc task [MSBuild]
+- MSBuild, Vbc task
 ms.assetid: 595278b1-2782-4577-b1ba-b4b5ab5625a3
-author: mikejo5000
-ms.author: mikejo
-manager: jillfra
+author: ghogen
+ms.author: ghogen
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 
 # Vbc task
+
 Wraps *vbc.exe*, which produces executables (*.exe*), dynamic-link libraries (*.dll*), or code modules (*.netmodule*). For more information on *vbc.exe*, see [Visual Basic command-line compiler](/dotnet/visual-basic/reference/command-line-compiler/index).
 
 ## Parameters
+
  The following table describes the parameters of the `Vbc` task.
 
 | Parameter | Description |
@@ -69,12 +73,12 @@ Wraps *vbc.exe*, which produces executables (*.exe*), dynamic-link libraries (*.
 | `RootNamespace` | Optional `String` parameter.<br /><br /> Specifies the root namespace for all type declarations. This parameter corresponds to the [-rootnamespace](/dotnet/visual-basic/reference/command-line-compiler/rootnamespace) switch of the *vbc.exe* compiler. |
 | `SdkPath` | Optional `String` parameter.<br /><br /> Specifies the location of *mscorlib.dll* and *microsoft.visualbasic.dll*. This parameter corresponds to the [-sdkpath](/dotnet/visual-basic/reference/command-line-compiler/sdkpath) switch of the *vbc.exe* compiler. |
 | `Sources` | Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` parameter.<br /><br /> Specifies one or more Visual Basic source files. |
-| `TargetCompactFramework` | Optional `Boolean` parameter.<br /><br /> If `true`, the task targets the [!INCLUDE[Compact](../extensibility/includes/compact_md.md)]. This switch corresponds to the [-netcf](/dotnet/visual-basic/reference/command-line-compiler/netcf) switch of the *vbc.exe* compiler. |
+| `TargetCompactFramework` | Optional `Boolean` parameter.<br /><br /> If `true`, the task targets the .NET Compact Framework. This switch corresponds to the [-netcf](/dotnet/visual-basic/reference/command-line-compiler/netcf) switch of the *vbc.exe* compiler. |
 | `TargetType` | Optional `String` parameter.<br /><br /> Specifies the file format of the output file. This parameter can have a value of `library`, which creates a code library, `exe`, which creates a console application, `module`, which creates a module, or `winexe`, which creates a Windows program. Default is `library`. This parameter corresponds to the [-target](/dotnet/visual-basic/reference/command-line-compiler/target) switch of the *vbc.exe* compiler. |
 | `Timeout` | Optional `Int32` parameter.<br /><br /> Specifies the amount of time, in milliseconds, after which the task executable is terminated. The default value is `Int.MaxValue`, indicating that there is no time out period. |
-| `ToolPath` | Optional `String` parameter.<br /><br /> Specifies the location from where the task will load the underlying executable file (*vbc.exe*). If this parameter is not specified, the task uses the SDK installation path corresponding to the version of the framework that is running [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)]. |
+| `ToolPath` | Optional `String` parameter.<br /><br /> Specifies the location from where the task will load the underlying executable file (*vbc.exe*). If this parameter is not specified, the task uses the SDK installation path corresponding to the version of the framework that is running MSBuild. |
 | `TreatWarningsAsErrors` | Optional `Boolean` parameter.<br /><br /> If `true`, all warnings are treated as errors. For more information, see [-warnaserror (Visual Basic)](/dotnet/visual-basic/reference/command-line-compiler/warnaserror). |
-| `UseHostCompilerIfAvailable` | Optional `Boolean` parameter.<br /><br /> Instructs the task to use the in-process compiler object, if available. Used only by [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. |
+| `UseHostCompilerIfAvailable` | Optional `Boolean` parameter.<br /><br /> Instructs the task to use the in-process compiler object, if available. Used only by Visual Studio. |
 | `Utf8Output` | Optional `Boolean` parameter.<br /><br /> Logs compiler output using UTF-8 encoding. This parameter corresponds to the [-utf8output](/dotnet/visual-basic/reference/command-line-compiler/utf8output) switch of the *vbc.exe* compiler. |
 | `Verbosity` | Optional `String` parameter.<br /><br /> Specifies the verbosity of the compiler's output. Verbosity can be `Quiet`, `Normal` (the default), or `Verbose`. |
 | `WarningsAsErrors` | Optional `String` parameter.<br /><br /> Specifies a list of warnings to treat as errors. For more information, see [-warnaserror (Visual Basic)](/dotnet/visual-basic/reference/command-line-compiler/warnaserror).<br /><br /> This parameter overrides the `TreatWarningsAsErrors` parameter. |
@@ -82,10 +86,10 @@ Wraps *vbc.exe*, which produces executables (*.exe*), dynamic-link libraries (*.
 | `Win32Icon` | Optional `String` parameter.<br /><br /> Inserts an *.ico* file in the assembly, which gives the output file the desired appearance in **File Explorer**. This parameter corresponds to the [-win32icon](/dotnet/visual-basic/reference/command-line-compiler/win32icon) switch of the *vbc.exe* compiler. |
 | `Win32Resources` | Optional `String` parameter.<br /><br /> Inserts a Win32 resource (*.res*) file in the output file. This parameter corresponds to the [-win32resource](/dotnet/visual-basic/reference/command-line-compiler/win32resource) switch of the *vbc.exe* compiler. |
 
-## Remarks
- In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Tasks.ToolTaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.ToolTask> class. For a list of these additional parameters and their descriptions, see [ToolTaskExtension base class](../msbuild/tooltaskextension-base-class.md).
+[!INCLUDE [ToolTaskExtension arguments](includes/tooltaskextension-base-params.md)]
 
 ## Example
+
  The following example compiles a Visual Basic project.
 
 ```xml
@@ -97,6 +101,7 @@ Wraps *vbc.exe*, which produces executables (*.exe*), dynamic-link libraries (*.
 ```
 
 ## See also
+
 - [Visual Basic command-line compiler](/dotnet/visual-basic/reference/command-line-compiler/index)
 - [Tasks](../msbuild/msbuild-tasks.md)
 - [Task reference](../msbuild/msbuild-task-reference.md)

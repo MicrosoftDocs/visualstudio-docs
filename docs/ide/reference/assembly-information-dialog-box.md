@@ -1,23 +1,25 @@
 ---
 title: Assembly Information Dialog Box
+description: Learn about the Assembly Information dialog box and how it is used to specify the values of the .NET Framework global assembly attributes.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "vb.ProjectPropertiesAssemblyInfo"
+- vb.ProjectPropertiesAssemblyInfo
 helpviewer_keywords:
-  - "Assembly Information dialog box"
+- Assembly Information dialog box
 ms.assetid: 8f1f6449-e03d-4a5b-9076-d3b1f84ada48
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Assembly Information dialog box
 
 The Assembly Information dialog box is used to specify the values of the .NET Framework global assembly attributes, which are stored in the AssemblyInfo file created automatically with your project. In Solution Explorer, the AssemblyInfo file is located in the **My Project** node for Visual Basic projects (click **Show All files** to view it). For C# projects, it's located under **Properties**. For more information, see [Attributes (C#)](/dotnet/csharp/programming-guide/concepts/attributes/index).
 
-To access this dialog box, select a project node in **Solution Explorer**, and then, on the **Project** menu, select **Properties**.On the **Application** page, select the **Assembly Information** button.
+To access this dialog box, select a project node in **Solution Explorer**, and then, on the **Project** menu, select **Properties**. On the **Application** page, select the **Assembly Information** button.
 
 ## UIElement list
 
@@ -57,9 +59,9 @@ Specifies which culture the assembly supports. Corresponds to <xref:System.Resou
 Specifies whether types in the assembly will be available to COM. Corresponds to <xref:System.Runtime.InteropServices.ComVisibleAttribute>.
 
 > [!NOTE]
-> For more information on setting these properties when generating a NuGet package in a .NET Framework class library, see [Configure project properties for the package](/nuget/quickstart/create-and-publish-a-package-using-visual-studio-net-framework#configure-project-properties-for-the-package).
+> For more information on setting these properties when generating a NuGet package in a .NET Framework class library, see [Configure project properties for the package](/nuget/quickstart/create-and-publish-a-package-using-visual-studio-net-framework#configure-project-properties-for-the-package). And for more information about Licensing and Expressions as they relate to a NuGet package, see [licenses.nuget.org](/nuget/nuget-org/licenses.nuget.org/).
 
 ## See also
 
 - [Application Page, Project Designer (Visual Basic)](../../ide/reference/application-page-project-designer-visual-basic.md)
-- [Attributes](https://msdn.microsoft.com/Library/ae334cee-d96c-4243-a5e3-06dd7fcaf205)
+- [Attributes](/previous-versions/z0w1kczw(v=vs.140))

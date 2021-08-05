@@ -1,16 +1,18 @@
 ---
-title: "How to: Copy Class Diagram Elements to a Microsoft Office Document (Class Designer)"
+title: Copy class diagram elements to an Office doc
+description: Learn how to use Class Designer to copy shapes from a .NET class diagram to other documents; you'll either get a copy of the shape or its underlying code.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
-  - "class diagrams, copying elements to Office documents"
-  - "Office documents [Visual Studio]"
+- class diagrams, copying elements to Office documents
+- Office documents [Visual Studio]
 ms.assetid: c43061ad-d258-46b1-be66-f97a312e86d5
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Copy class diagram elements to a Microsoft Office document
 

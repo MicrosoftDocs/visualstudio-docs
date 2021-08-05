@@ -1,13 +1,15 @@
 ---
-title: "XML Document Validation in XML editor"
+title: XML Document Validation in XML editor
+description: Learn about XML document validation in the XML editor and how it checks XML 1.0 syntax and performs data validation as you type.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: abb353bd-6c4a-4978-b03b-a8c245bbfb55
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # XML document validation
 

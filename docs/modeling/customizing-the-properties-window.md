@@ -1,14 +1,16 @@
 ---
 title: Customizing the Properties Window
+description: Learn how you can customize the appearance and behavior of the properties window in your domain-specific language (DSL) in Visual Studio. 
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
-  - "Domain-Specific Language, Properties window"
-author: jillre
-ms.author: jillfra
-manager: jillfra
+- Domain-Specific Language, Properties window
+author: mgoertz-msft
+ms.author: mgoertz
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Customize the Properties window
 

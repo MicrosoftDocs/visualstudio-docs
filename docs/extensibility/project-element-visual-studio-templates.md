@@ -1,19 +1,21 @@
 ---
-title: "Project Element (Visual Studio Templates) | Microsoft Docs"
-ms.date: "11/04/2016"
+title: Project Element (Visual Studio Templates) | Microsoft Docs
+description: Learn about the Project element and how it specifies the files or directories to add to the project.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
 ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
-  - "http://schemas.microsoft.com/developer/vstemplate/2005#Project"
+- http://schemas.microsoft.com/developer/vstemplate/2005#Project
 helpviewer_keywords:
-  - "Project element [Visual Studio Templates]"
-  - "<Project> element [Visual Studio Templates]"
+- Project element [Visual Studio Templates]
+- <Project> element [Visual Studio Templates]
 ms.assetid: 1da15ea6-26e2-462b-a03e-584ef4996579
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Project element (Visual Studio templates)
 Specifies the files or directories to add to the project.

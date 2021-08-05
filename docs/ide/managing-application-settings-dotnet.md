@@ -1,16 +1,18 @@
 ---
 title: Manage application settings (.NET)
+description: Learn how to manage application settings (formerly called dynamic properties) that are not included in the application code, but are needed at runtime.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 f1_keywords:
-  - "msvse_settingsdesigner.err.nameblank"
+- msvse_settingsdesigner.err.nameblank
 helpviewer_keywords:
-  - "application settings [Visual Studio]"
-author: jillre
-ms.author: jillfra
-manager: jillfra
+- application settings [Visual Studio]
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Manage application settings (.NET)
 

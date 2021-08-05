@@ -5,6 +5,7 @@ author: heiligerdankgesang
 ms.author: dominicn
 ms.date: 05/06/2018
 ms.assetid: 61EAAB8F-3C32-4574-924F-CFC616604089
+ms.topic: overview
 ---
 
 # Managing app resources

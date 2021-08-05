@@ -1,19 +1,20 @@
 ---
-title: "IDebugGenericParamField::GetNameOfFormalParam | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Retrieves the name of this generic parameter."
+title: IDebugGenericParamField::GetNameOfFormalParam | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "IDebugGenericParamField::GetNameOfFormalParam"
-  - "GetNameOfFormalParam"
+- IDebugGenericParamField::GetNameOfFormalParam
+- GetNameOfFormalParam
 ms.assetid: 05032a83-49ce-4007-b5d6-7b56945b956c
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugGenericParamField::GetNameOfFormalParam
 Retrieves the name of this generic parameter.

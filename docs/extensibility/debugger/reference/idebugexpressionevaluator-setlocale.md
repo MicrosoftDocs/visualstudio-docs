@@ -1,20 +1,21 @@
 ---
-title: "IDebugExpressionEvaluator::SetLocale | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "This method sets the language to use to create printable results."
+title: IDebugExpressionEvaluator::SetLocale | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugExpressionEvaluator::SetLocale"
+- IDebugExpressionEvaluator::SetLocale
 helpviewer_keywords:
-  - "IDebugExpressionEvaluator::SetLocale method"
+- IDebugExpressionEvaluator::SetLocale method
 ms.assetid: d3d2027d-74e2-4ae6-bcc7-59d12f873b7c
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugExpressionEvaluator::SetLocale
 This method sets the language to use to create printable results.

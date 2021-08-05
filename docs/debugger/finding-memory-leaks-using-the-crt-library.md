@@ -1,40 +1,39 @@
 ---
-title: "Find memory leaks with the CRT Library | Microsoft Docs"
-ms.date: "10/04/2018"
-ms.topic: "conceptual"
-dev_langs:
-  - "CSharp"
-  - "VB"
-  - "FSharp"
-  - "C++"
-helpviewer_keywords:
-  - "breakpoints, on memory allocation"
-  - "_CrtMemState"
-  - "_CrtMemCheckpoint"
-  - "memory leaks"
-  - "_CrtMemDifference"
-  - "memory leaks, detecting and isolating"
-  - "_CrtDumpMemoryLeaks"
-  - "_CrtSetBreakAlloc"
-  - "_crtBreakAlloc"
-  - "_CrtSetReportMode"
-  - "memory, debugging"
-  - "_CrtMemDumpStatistics"
-  - "debugging memory leaks"
-  - "_CRTDBG_MAP_ALLOC"
-  - "_CrtSetDbgFlag"
+title: Find memory leaks with the CRT Library | Microsoft Docs
+description: Learn how the C/C++ debugger and C Run-time Library (CRT) can help find memory leaks. The techniques include memory-leak reports and comparing memory snapshots.
+ms.custom: SEO-VS-2020
+ms.date: 10/04/2018
+ms.topic: how-to
+dev_langs: 
+  - C++
+helpviewer_keywords: 
+  - breakpoints, on memory allocation
+  - _CrtMemState
+  - _CrtMemCheckpoint
+  - memory leaks
+  - _CrtMemDifference
+  - memory leaks, detecting and isolating
+  - _CrtDumpMemoryLeaks
+  - _CrtSetBreakAlloc
+  - _crtBreakAlloc
+  - _CrtSetReportMode
+  - memory, debugging
+  - _CrtMemDumpStatistics
+  - debugging memory leaks
+  - _CRTDBG_MAP_ALLOC
+  - _CrtSetDbgFlag
 ms.assetid: cf6dc7a6-cd12-4283-b1b6-ea53915f7ed1
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
-ms.workload:
-  - "multiple"
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.workload: 
+  - multiple
 ---
 # Find memory leaks with the CRT library
 
 Memory leaks are among the most subtle and hard-to-detect bugs in C/C++ apps. Memory leaks result from the failure to correctly deallocate memory that was previously allocated. A small memory leak might not be noticed at first, but over time can cause symptoms ranging from poor performance to crashing when the app runs out of memory. A leaking app that uses up all available memory can cause other apps to crash, creating confusion as to which app is responsible. Even harmless memory leaks might indicate other problems that should be corrected.
 
- The [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] debugger and C Run-time Library (CRT) can help you detect and identify memory leaks.
+The [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] debugger and C Run-time Library (CRT) can help you detect and identify memory leaks.
 
 ## Enable memory leak detection
 
@@ -69,7 +68,7 @@ By default, `_CrtDumpMemoryLeaks` outputs the memory-leak report to the **Debug*
 You can use `_CrtSetReportMode` to redirect the report to another location, or back to the **Output** window as shown here:
 
 ```cpp
-_CrtSetReportMode( _CRT_ERROR, _CRTDBG_MODE_DEBUG );
+_CrtSetReportMode( _CRT_WARN, _CRTDBG_MODE_DEBUG );
 ```
 
 ## Interpret the memory-leak report
@@ -184,6 +183,8 @@ You can use the allocation number to set a breakpoint on the memory allocation.
 1. In the **Watch** window, type `_crtBreakAlloc` in the **Name** column.
 
    If you're using the multithreaded DLL version of the CRT library (the /MD option), add the context operator: `{,,ucrtbased.dll}_crtBreakAlloc`
+   
+   Make sure that debug symbols are loaded. Otherwise `_crtBreakAlloc` will be reported as *unidentified*.
 
 1. Press **Enter**.
 
@@ -208,7 +209,8 @@ _CrtSetBreakAlloc(18);
 ```
 
 ## Compare memory states
- Another technique for locating memory leaks involves taking snapshots of the application's memory state at key points. To take a snapshot of the memory state at a given point in your application, create a `_CrtMemState` structure and pass it to the `_CrtMemCheckpoint` function.
+
+Another technique for locating memory leaks involves taking snapshots of the application's memory state at key points. To take a snapshot of the memory state at a given point in your application, create a `_CrtMemState` structure and pass it to the `_CrtMemCheckpoint` function.
 
 ```cpp
 _CrtMemState s1;
@@ -251,9 +253,11 @@ if ( _CrtMemDifference( &s3, &s1, &s2) )
 One technique for finding memory leaks begins by placing `_CrtMemCheckpoint` calls at the beginning and end of your app, then using `_CrtMemDifference` to compare the results. If `_CrtMemDifference` shows a memory leak, you can add more `_CrtMemCheckpoint` calls to divide your program using a binary search, until you've isolated the source of the leak.
 
 ## False positives
+
  `_CrtDumpMemoryLeaks` can give false indications of memory leaks if a library marks internal allocations as normal blocks instead of CRT blocks or client blocks. In that case, `_CrtDumpMemoryLeaks` is unable to tell the difference between user allocations and internal library allocations. If the global destructors for the library allocations run after the point where you call `_CrtDumpMemoryLeaks`, every internal library allocation is reported as a memory leak. Versions of the Standard Template Library earlier than Visual Studio .NET may cause `_CrtDumpMemoryLeaks` to report such false positives.
 
 ## See also
+
 - [CRT debug heap details](../debugger/crt-debug-heap-details.md)
 - [Debugger security](../debugger/debugger-security.md)
 - [Debugging native code](../debugger/debugging-native-code.md)

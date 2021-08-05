@@ -1,7 +1,10 @@
 ---
 title: "How to: Add an Existing BDC Model File to a SharePoint Project | Microsoft Docs"
+titleSuffix: ""
+description: Add an existing Business Data Connectivity (BDC) model file to a SharePoint project in Visual Studio, so you can customize, package, and redeploy a BDC model.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: how-to
 f1_keywords:
   - "VS.SharePointTools.BDC.ImportDialog"
 dev_langs:
@@ -14,7 +17,7 @@ helpviewer_keywords:
   - "BDC [SharePoint development in Visual Studio], remove a model"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

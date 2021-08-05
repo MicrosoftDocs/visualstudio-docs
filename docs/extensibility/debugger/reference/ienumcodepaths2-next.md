@@ -1,20 +1,21 @@
 ---
-title: "IEnumCodePaths2::Next | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Returns the next set of elements from the code paths enumeration."
+title: IEnumCodePaths2::Next | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IEnumCodePaths2::Next"
+- IEnumCodePaths2::Next
 helpviewer_keywords:
-  - "IEnumCodePaths2::Next"
+- IEnumCodePaths2::Next
 ms.assetid: c7a8fe97-2abc-4cee-8aef-64f1daa93b5c
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IEnumCodePaths2::Next
 Returns the next set of elements from the enumeration.

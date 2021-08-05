@@ -1,13 +1,15 @@
 ---
-title: "How to: Create a Basic Phong Shader"
+title: 'How to: Create a Basic Phong Shader'
+description: Learn how to use Shader Designer and Directed Graph Shader Language to create a lighting shader that implements the classic Phong lighting model.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 ms.assetid: c7c69da8-142b-4d3b-9be9-4be0d5970b25
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Create a basic Phong shader
 

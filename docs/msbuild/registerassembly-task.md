@@ -1,28 +1,32 @@
 ---
-title: "RegisterAssembly Task | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
+title: RegisterAssembly Task | Microsoft Docs
+description: Learn how MSBuild uses the RegisterAssembly task to read the metadata within a specified assembly and add the necessary entries to the registry.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: reference
 f1_keywords:
-  - "http://schemas.microsoft.com/developer/msbuild/2003#RegisterAssembly"
+- http://schemas.microsoft.com/developer/msbuild/2003#RegisterAssembly
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+- VB
+- CSharp
+- C++
+- jsharp
 helpviewer_keywords:
-  - "MSBuild, RegisterAssembly task"
-  - "RegisterAssembly task [MSBuild]"
+- MSBuild, RegisterAssembly task
+- RegisterAssembly task [MSBuild]
 ms.assetid: ba5f19ac-6764-4d28-9b79-a86de58f8987
-author: mikejo5000
-ms.author: mikejo
-manager: jillfra
+author: ghogen
+ms.author: ghogen
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # RegisterAssembly task
+
 Reads the metadata within the specified assembly and adds the necessary entries to the registry, which allows COM clients to create .NET Framework classes transparently. The behavior of this task is similar, but not identical, to that of the [Regasm.exe (Assembly Registration tool)](/dotnet/framework/tools/regasm-exe-assembly-registration-tool).
 
 ## Parameters
+
  The following table describes the parameters of the `RegisterAssembly` task.
 
 |Parameter|Description|
@@ -33,9 +37,11 @@ Reads the metadata within the specified assembly and adds the necessary entries 
 |`TypeLibFiles`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` output parameter.<br /><br /> Specifies the type library to generate from the specified assembly. The generated type library contains definitions of the accessible types defined within the assembly. The type library is only generated if one of the following conditions is true:<br /><br /> -   A type library of that name does not exist at that location.<br />-   A type library exists but it's older than the assembly being passed in.<br /><br /> If the type library is newer than the assembly being passed, a new one won't be created, but the assembly will still be registered.<br /><br /> If this parameter is specified, it must have the same number of items as the `Assemblies` parameter or the task will fail. If no inputs are specified, the task will default to the name of the assembly and change the extension of the item to *.tlb*.|
 
 ## Remarks
+
  In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension base class](../msbuild/taskextension-base-class.md).
 
 ## Example
+
  The following example uses the `RegisterAssembly` task to register the assembly specified by the `MyAssemblies` item collection.
 
 ```xml
@@ -54,5 +60,6 @@ Reads the metadata within the specified assembly and adds the necessary entries 
 ```
 
 ## See also
+
 - [Tasks](../msbuild/msbuild-tasks.md)
 - [Task reference](../msbuild/msbuild-task-reference.md)

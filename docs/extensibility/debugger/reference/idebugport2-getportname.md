@@ -1,20 +1,21 @@
 ---
-title: "IDebugPort2::GetPortName | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Gets the port name."
+title: IDebugPort2::GetPortName | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugPort2::GetPortName"
+- IDebugPort2::GetPortName
 helpviewer_keywords:
-  - "IDebugPort2::GetPortName"
+- IDebugPort2::GetPortName
 ms.assetid: 4478b3d5-aa30-4105-8d05-e3bae2f8917a
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugPort2::GetPortName
 Gets the port name.

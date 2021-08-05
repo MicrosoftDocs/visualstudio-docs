@@ -1,5 +1,8 @@
 ---
-title: "Update Ribbon customizations in Office projects migrated to .NET Framework 4, 4.5"
+title: "Update Ribbon customizations migrated to .NET Framework 4.5"
+description: Learn that you must make changes to your project code if the target framework is changed to the .NET Framework 4 or later.
+ms.custom: SEO-VS-2020
+titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -9,11 +12,12 @@ helpviewer_keywords:
   - "Office projects [Office development in Visual Studio], migrating to .NET Framework 4"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---
-# Update Ribbon customizations in Office projects that you migrate to the .NET Framework 4 or the .NET Framework 4.5
+# Update Ribbon customizations migrated to .NET Framework 4.5
+
   If your project contains a Ribbon customization that was created by using the **Ribbon (Visual Designer)** project item, you must make the following changes to your project code if the target framework is changed to the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or later.
 
 - Modify the generated Ribbon code.

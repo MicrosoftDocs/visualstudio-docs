@@ -1,7 +1,8 @@
 ---
-title: "Error: Unable to Start Debugging on the Web Server | Microsoft Docs"
+description: "When you try to debug an ASP.NET application running on a Web server, you may get this error message: Unable to start debugging on the Web server`."
+title: "Unable to Start Debugging on the Web Server | Microsoft Docs"
 ms.date: "05/23/2018"
-ms.topic: "troubleshooting"
+ms.topic: "error-reference"
 f1_keywords:
   - "vs.debug.error.http"
   - "vwd.nonadmin.error."
@@ -23,7 +24,7 @@ helpviewer_keywords:
   - "remote debugging, errors"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---
@@ -46,6 +47,7 @@ The `Unable to start debugging on the Web server` message is generic. Usually, a
 - [Could not start ASP.NET debugging](#aspnet)
 - [The debugger cannot connect to the remote computer](#cannot_connect)
 - [See help for common configuration errors. Running the webpage outside of the debugger may provide further information.](#see_help)
+- [Operation not supported. Unknown error: *errornumber*](#operation_not_supported)
 
 ## <a name="IISlist"></a> IIS does not list a website that matches the launch url
 
@@ -99,6 +101,10 @@ Also, if you are using a HOSTS file, make sure it is configured correctly. For e
 - Are you running Visual Studio and the Web server on the same machine? Open your project properties and make sure that the project is configured to connect to the correct Web server and launch URL. (Open **Properties > Web > Servers** or **Properties > Debug** depending on your project type.)
 
 - If that does not work or you are debugging remotely, follow steps in [Check your IIS Configuration](#vxtbshttpservererrorsthingstocheck).
+
+## <a name="operation_not_supported"></a> Operation not supported. Unknown error: *errornumber*
+
+If you are doing URL rewrites, test a basic web.config with no URL rewrites. See the **Note** about the URL Rewrite Module in [Check your IIS Configuration](#vxtbshttpservererrorsthingstocheck).
 
 ## <a name="vxtbshttpservererrorsthingstocheck"></a> Check your IIS configuration
 

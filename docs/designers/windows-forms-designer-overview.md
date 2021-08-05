@@ -1,12 +1,14 @@
 ---
 title: Design Windows Forms apps
+description: Learn about Windows Forms Designer in Visual Studio, which provides a rapid development solution for creating Windows Forms-based applications. 
+ms.custom: SEO-VS-2020
 ms.date: 08/09/2019
-ms.topic: conceptual
+ms.topic: overview
 helpviewer_keywords:
-  - "Windows Forms Designer"
-author: jillre
-ms.author: jillfra
-manager: jillfra
+- Windows Forms Designer
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ---
 # Windows Forms Designer overview
 

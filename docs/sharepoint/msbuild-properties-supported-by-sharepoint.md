@@ -1,5 +1,7 @@
 ---
 title: "MSBuild Properties Supported by SharePoint | Microsoft Docs"
+description: Read a list of MSBuild property names and descriptions that are supported by and are specific to SharePoint.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -9,14 +11,14 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, MSBuild properties"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---
 # MsBuild properties supported by SharePoint
   Any [!INCLUDE[vstecmsbuild](../sharepoint/includes/vstecmsbuild-md.md)] property defined in the Microsoft.VisualStudio.SharePoint.targets file, project file, or project user file can be used in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] SharePoint projects. In addition to the common [!INCLUDE[vstecmsbuild](../sharepoint/includes/vstecmsbuild-md.md)] properties supplied by the project, SharePoint defines additional properties that are specific to SharePoint projects.
 
- For a list of common [!INCLUDE[vstecmsbuild](../sharepoint/includes/vstecmsbuild-md.md)] properties, see [Common MSBuild Project Properties](http://go.microsoft.com/fwlink/?LinkID=168687). For a full list of the properties supported by your programming language, look in the *.targets* file, the project file (*.csproj* or *.vbproj*), or the project user file (*csproj.user* or *.vbproj.user*).
+ For a list of common [!INCLUDE[vstecmsbuild](../sharepoint/includes/vstecmsbuild-md.md)] properties, see [Common MSBuild Project Properties](/previous-versions/dotnet/netframework-4.0/bb629394(v=vs.100)). For a full list of the properties supported by your programming language, look in the *.targets* file, the project file (*.csproj* or *.vbproj*), or the project user file (*csproj.user* or *.vbproj.user*).
 
 ## MsBuild properties specific to SharePoint
  The following table lists [!INCLUDE[vstecmsbuild](../sharepoint/includes/vstecmsbuild-md.md)] properties that apply specifically to SharePoint projects in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]. Other properties exist, but they are for internal use.

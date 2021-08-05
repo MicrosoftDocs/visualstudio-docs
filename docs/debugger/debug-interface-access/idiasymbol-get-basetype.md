@@ -1,7 +1,7 @@
 ---
 title: "IDiaSymbol::get_baseType | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +9,7 @@ helpviewer_keywords:
 ms.assetid: 5c69a241-a8d3-48ed-8b36-27463a196572
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

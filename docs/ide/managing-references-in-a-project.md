@@ -1,26 +1,28 @@
 ---
 title: Manage references in a project
+description: Learn how to manage references to external components and connected services in a project. 
+ms.custom: SEO-VS-2020
 ms.date: 08/02/2019
 ms.topic: conceptual
 f1_keywords:
-  - "vs.ProjectPropertiesReferencePaths"
-  - "cs.ProjectPropertiesReferencePaths"
+- vs.ProjectPropertiesReferencePaths
+- cs.ProjectPropertiesReferencePaths
 helpviewer_keywords:
-  - "C# projects, references"
-  - "referencing objects, project references"
-  - "external component references"
-  - "referencing namespaces"
-  - "Visual Basic projects, references"
-  - "referencing components, external components"
-  - "Web references, types of project references"
-  - "namespaces [Visual Studio], referencing"
-  - "COM components, referencing"
-  - "objects [Visual Studio], referencing"
-author: jillre
-ms.author: jillfra
-manager: jillfra
+- C# projects, references
+- referencing objects, project references
+- external component references
+- referencing namespaces
+- Visual Basic projects, references
+- referencing components, external components
+- Web references, types of project references
+- namespaces [Visual Studio], referencing
+- COM components, referencing
+- objects [Visual Studio], referencing
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Manage references in a project
 
@@ -103,7 +105,7 @@ You can create applications that reference projects or assemblies that target a 
 
 For more information, see [Framework targeting overview](../ide/visual-studio-multi-targeting-overview.md).
 
-## Project-to project references
+## Project-to-project references
 
 Project-to-project references are references to projects that contain assemblies; you add project references by using the **Projects** tab of the Reference Manager dialog box. Visual Studio can find an assembly when given a path to the project.
 

@@ -1,5 +1,7 @@
 ---
 title: "Work with calendar items"
+description: Learn that the AppointmentItem class contains the methods and properties you use to perform tasks with calendar items.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -15,7 +17,7 @@ helpviewer_keywords:
   - "e-mail [Office development in Visual Studio], calendars"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

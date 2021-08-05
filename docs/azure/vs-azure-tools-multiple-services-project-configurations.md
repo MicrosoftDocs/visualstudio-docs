@@ -1,12 +1,11 @@
 ---
-title: Configure Azure project with multiple service configurations
+title: Configure cloud service with multiple configurations
 description: Learn how to configure an Azure cloud service project by changing the ServiceDefinition.csdef, ServiceConfiguration.Local.cscfg, and ServiceConfiguration.Cloud.cscfg files.
+ms.custom: SEO-VS-2020
 author: ghogen
-manager: jillfra
-assetId: a4fb79ed-384f-4183-9f74-5cac257206b9
-ms.custom: vs-azure
+manager: jmartens
 ms.workload: azure-vs
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 11/11/2017
 ms.author: ghogen
 ---
@@ -49,7 +48,7 @@ By default, diagnostics are enabled for the Web role. The Azure cloud service pr
 
 ## Settings page
 
-On the **Settings** page, you can add settings to a configuration as name-value pairs. Code running in the role can read the values of your configuration settings at run time using classes provided by the [Azure Managed Library](http://go.microsoft.com/fwlink?LinkID=171026), specifically, the [GetConfigurationSettingValue](https://msdn.microsoft.com/library/azure/microsoft.windowsazure.serviceruntime.roleenvironment.getconfigurationsettingvalue.aspx) method.
+On the **Settings** page, you can add settings to a configuration as name-value pairs. Code running in the role can read the values of your configuration settings at run time using classes provided by the [Azure Managed Library](/previous-versions/azure/dn602775(v=azure.11)), specifically, the [GetConfigurationSettingValue](/previous-versions/azure/reference/ee772857(v=azure.100)) method.
 
 ### Configuring a connection string for a storage account
 
@@ -89,7 +88,7 @@ You can use the **Local Storage** property page to reserve one or more local sto
 
 ## Certificates page
 
-The **Certificates** property page adds information about your certificates to your service configuration. Note that your certificates are not packaged with your service; you must upload your certificates separately to Azure through the [Azure portal](http://portal.azure.com).
+The **Certificates** property page adds information about your certificates to your service configuration. Note that your certificates are not packaged with your service; you must upload your certificates separately to Azure through the [Azure portal](https://portal.azure.com).
 
 Adding a certificate here adds information about your certificates to your service configuration. Certificates are not packaged with the service; you must upload your certificates separately through the Azure portal.
 

@@ -2,8 +2,6 @@
   "build": {
     "content": [
       {
-        "group": "vs-2015",
-        "src": "./vs-2015",
         "files": [
           "**/*.md",
           "**/*.yml"
@@ -11,30 +9,14 @@
         "exclude": [
           "**/obj/**",
           "vsdocsdocs/**",
-          "**/includes/**",
-          "missingapi.yml"
-        ]
-      },
-      {
-        "group": "vs-2017-2019",
+          "**/includes/**"
+        ],
         "src": "./",
-        "files": [
-          "**/*.md",
-          "**/*.yml"
-        ],
-        "exclude": [
-          "**/obj/**",
-          "vsdocsdocs/**",
-          "**/includes/**",
-          "missingapi.yml",
-          "vs-2015/**"
-        ]
+        "group": "vs"
       }
     ],
     "resource": [
       {
-        "group": "vs-2015",
-        "src": "./vs-2015",
         "files": [
           "**/*.png",
           "**/*.jpg",
@@ -44,26 +26,10 @@
         "exclude": [
           "**/obj/**",
           "vsdocsdocs/**",
-          "**/includes/**",
-          "missingapi.yml"
-        ]
-      },
-      {
-        "group": "vs-2017-2019",
+          "**/includes/**"
+        ],
         "src": "./",
-        "files": [
-          "**/*.png",
-          "**/*.jpg",
-          "**/*.gif",
-          "**/*.svg"
-        ],
-        "exclude": [
-          "**/obj/**",
-          "vsdocsdocs/**",
-          "**/includes/**",
-          "missingapi.yml",
-          "vs-2015/**"
-        ]
+        "group": "vs"
       }
     ],
     "overwrite": [],
@@ -71,35 +37,28 @@
     "globalMetadata": {
       "feedback_system": "GitHub",
       "feedback_github_repo": "MicrosoftDocs/visualstudio-docs",
-      "feedback_product_url": "https://developercommunity.visualstudio.com/",
+      "feedback_product_url": "https://developercommunity2.visualstudio.com/search?space=8",
       "breadcrumb_path": "/visualstudio/_breadcrumb/toc.json",
       "extendBreadcrumb": "true",
-      "ROBOTS": "INDEX,FOLLOW",
-      "manager": "jillfra",
-      "author": "jillre",
-      "ms.author": "jillfra",
-      "ms.date": "11/16/2016",
-      "ms.topic": "conceptual",
+      "manager": "jmartens",
       "audience": "developer",
       "defaultDevLang": "csharp",
       "ms.prod": "visual-studio-windows",
       "uhfHeaderId": "MSDocsHeader-VisualStudio",
-      "titleSuffix": "Visual Studio",
+      "titleSuffix": "Visual Studio (Windows)",
       "toc_preview": true,
       "searchScope": [
         "VS IDE"
       ],
       "featureFlags": [
         "enable_uhf_ppe"
-      ]
+      ],
+      "archive_url": "/previous-versions/visualstudio",
+      "recommendations": true
     },
     "fileMetadata": {
-      "open_to_public_contributors": {
-        "vs-2015/**/**.md": false
-      },
       "ms.prod": {
-        "rtvs/**/**.md": "visual-studio-dev15",
-        "vs-2015/**/**.md": "visual-studio-dev14"
+        "rtvs/**/**.md": "visual-studio-dev15"
       },
       "monikerRange": {
         "rtvs/**/**.md": "vs-2017"
@@ -131,38 +90,29 @@
       },
       "titleSuffix": {
         "ai/**/**.md": "AI tools for Visual Studio",
-        "vs-2015/**/**.md": "Visual Studio 2015"
-      },
-      "breadcrumb_path": {
-        "vs-2015/**/*.md": "/visualstudio/_breadcrumb/vs-2015/toc.json"
+        "msbuild/**/**.md": "MSBuild"
       },
       "feedback_system": {
-        "vs-2015/**/*": "None"
+        "extensibility/**/*": "None"
       },
       "searchScope": {
         "extensibility/**/*.md": [
           "VS Extensibility"
         ],
-        "vs-2015/extensibility/**/*.md": [
-          "VS Extensibility"
+        "msbuild/**/*.md": [
+          "MSBuild"
         ]
       }
     },
     "template": [],
-    "xref": [
-      "missingapi.yml"
-    ],
     "dest": "vsdocsdocs",
+    "markdownEngineName": "markdig",
+    "xref": [],
     "groups": {
-      "vs-2015": {
-        "moniker_range": "vs-2015",
-        "dest": "vs-2015-dest"
-      },
-      "vs-2017-2019": {
-        "moniker_range": ">= vs-2017",
-        "dest": "vs-2017-2019-dest"
+      "vs": {
+        "dest": "vs-dest",
+        "moniker_range": ">= vs-2017"
       }
-    },
-    "markdownEngineName": "markdig"
+    }
   }
 }

@@ -1,20 +1,21 @@
 ---
-title: "IDebugAddress2::GetProcessID | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Retrieves the ID of the process that owns the object represented by this IDebugAddress2 interface."
+title: IDebugAddress2::GetProcessID | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugAddress2::GetProcessID"
+- IDebugAddress2::GetProcessID
 helpviewer_keywords:
-  - "IDebugAddress2::GetProcessID method"
+- IDebugAddress2::GetProcessID method
 ms.assetid: 2c18889d-074a-4b95-87b4-bf1a067f44ed
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugAddress2::GetProcessID
 Retrieves the ID of the process that owns the object represented by this [IDebugAddress2](../../../extensibility/debugger/reference/idebugaddress2.md) interface.

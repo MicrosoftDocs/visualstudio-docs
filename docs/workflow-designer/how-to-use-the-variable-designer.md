@@ -1,15 +1,17 @@
 ---
-title: "Workflow Designer - How to: Use the Variable Designer"
+title: 'Workflow Designer - How to: Use the Variable Designer'
+description: Learn how you can use the variable designer to create variables for use in data-binding scenarios and conditional statements.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 f1_keywords:
-  - "System.Activities.Presentation.View.DesignTimeVariable.UI"
+- System.Activities.Presentation.View.DesignTimeVariable.UI
 ms.assetid: 0318dfb0-bf8f-4f92-9b86-ae4c1b2161ad
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Use the Variable Designer
 

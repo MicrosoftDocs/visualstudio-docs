@@ -1,7 +1,8 @@
 ---
+description: "Retrieves the image relative virtual address (RVA) of the contribution."
 title: "IDiaSectionContrib::get_relativeVirtualAddress | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 32f9674d-94f1-4590-99de-a2eb60da4af8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

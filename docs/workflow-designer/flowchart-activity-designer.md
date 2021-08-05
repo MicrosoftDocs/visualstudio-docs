@@ -1,17 +1,19 @@
 ---
-title: "Workflow Designer - Flowchart Activity Designer"
+title: Workflow Designer - Flowchart Activity Designer
+description: Learn how you can use the Flowchart activity to create workflows that define and manage complex flow controls.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "System.Activities.Statements.Flowchart.UI"
-  - "System.Activities.Statements.FlowStep.UI"
-  - "System.Activities.Core.Presentation.FlowStart.UI"
+- System.Activities.Statements.Flowchart.UI
+- System.Activities.Statements.FlowStep.UI
+- System.Activities.Core.Presentation.FlowStart.UI
 ms.assetid: d5af2276-5215-4138-880a-cf2b90bbf3a0
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Flowchart Activity Designer
 

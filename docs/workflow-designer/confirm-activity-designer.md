@@ -1,13 +1,15 @@
 ---
 title: "Workflow Designer - Confirm Activity Designer"
+description: Learn about the Confirm activity designer and how you can use this designer to create and configure a Confirm activity.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
   - "System.Activities.Statements.Confirm.UI"
 ms.assetid: c753b67b-b0e7-462a-bb4e-ba8db04a078d
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

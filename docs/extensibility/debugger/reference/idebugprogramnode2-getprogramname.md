@@ -1,20 +1,21 @@
 ---
-title: "IDebugProgramNode2::GetProgramName | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "IDebugProgramNode2::GetProgramName gets the name of the program."
+title: IDebugProgramNode2::GetProgramName | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugProgramNode2::GetProgramName"
+- IDebugProgramNode2::GetProgramName
 helpviewer_keywords:
-  - "IDebugProgramNode2::GetProgramName"
+- IDebugProgramNode2::GetProgramName
 ms.assetid: 510c7f5d-48ff-4d9f-ad79-fbad9f15239d
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugProgramNode2::GetProgramName
 Gets the name of the program.

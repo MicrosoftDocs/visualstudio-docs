@@ -1,13 +1,15 @@
 ---
-title: "Colors and Styling for Visual Studio | Microsoft Docs"
-ms.date: "07/31/2017"
-ms.topic: "conceptual"
+title: Colors and Styling for Visual Studio | Microsoft Docs
+description: Learn how the Visual Studio User Experience uses color as a communication tool, instead of for purely aesthetic reasons.
+ms.custom: SEO-VS-2020
+ms.date: 07/31/2017
+ms.topic: reference
 ms.assetid: 0e384ea1-4d9e-4307-8884-6e183900732c
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Colors and Styling for Visual Studio
 
@@ -277,7 +279,7 @@ Only a handful of system colors can be used for High Contrast themes. When choos
 
 ### System color set
 
-The table at [WPF Team Blog: SystemColors Reference](https://blogs.msdn.microsoft.com/wpf/2010/11/30/systemcolors-reference/) indicates the complete set of system color names, and the corresponding hues displayed in each theme.
+The table at [WPF Team Blog: SystemColors Reference](/archive/blogs/wpf/systemcolors-reference) indicates the complete set of system color names, and the corresponding hues displayed in each theme.
 
 When applying this limited set of colors to your UI, *it is expected that you will lose subtle details that were present in the "normal" themes*. Here is an example of UI with subtle gray colors that are used to distinguish areas within a tool window. When paired with the same window displayed in High Contrast mode, you can see that all the backgrounds are the same hue and the borders of those areas are indicated by border alone:
 
@@ -334,7 +336,7 @@ Sometimes you'll want to allow the end user to customize your UI, like when you'
 
 A VSPackage can control the fonts and colors through custom categories and display items on the Fonts and Colors property page. When using this mechanism, VSPackages must implement the [IVsFontAndColorDefaultsProvider](/dotnet/api/microsoft.visualstudio.shell.interop.ivsfontandcolordefaultsprovider) interface and its associated interfaces.
 
-In principle, this mechanism can be used to modify all existing display items and the categories that contain them. However, it should not be used to modify the Text Editor category or its display items. For more information on the Text Editor category, see [Font and Color Overview](../font-and-color-overview.md).
+In principle, this mechanism can be used to modify all existing display items and the categories that contain them. However, it should not be used to modify the Text Editor category or its display items. For more information on the Text Editor category, see [Font and Color Overview](/previous-versions/visualstudio/visual-studio-2015/extensibility/font-and-color-overview?preserve-view=true&view=vs-2015).
 
 To implement custom categories or display Items, a VSPackage must:
 
@@ -417,7 +419,7 @@ To do this, a VSPackage must:
 
   **OR**
 
-- **poll the IDE for changes**. This can be done through the system-implemented [IVsFontAndColorStorage](/dotnet/api/microsoft.visualstudio.shell.interop.ivsfontandcolorstorage) interface. Although primarily for support of persistence, the [GetItem](/dotnet/api/microsoft.visualstudio.shell.interop.ivsfontandcolorstorage.getitem) method can obtain font and color information for Display Items. For more information on font and color settings, see the MSDN article [Accessing Stored Font and Color Settings](../accessing-stored-font-and-color-settings.md).
+- **poll the IDE for changes**. This can be done through the system-implemented [IVsFontAndColorStorage](/dotnet/api/microsoft.visualstudio.shell.interop.ivsfontandcolorstorage) interface. Although primarily for support of persistence, the [GetItem](/dotnet/api/microsoft.visualstudio.shell.interop.ivsfontandcolorstorage.getitem) method can obtain font and color information for Display Items. For more information on font and color settings, see the MSDN article [Accessing Stored Font and Color Settings](/previous-versions/visualstudio/visual-studio-2015/extensibility/accessing-stored-font-and-color-settings?preserve-view=true&view=vs-2015).
 
 > [!NOTE]
 > To ensure that polling results are correct, use the [IVsFontAndColorCacheManager](/dotnet/api/microsoft.visualstudio.shell.interop.ivsfontandcolorcachemanager) interface to determine if a cache flush and update are needed prior to calling the retrieval methods of the [IVsFontAndColorStorage](/dotnet/api/microsoft.visualstudio.shell.interop.ivsfontandcolorstorage) interface.

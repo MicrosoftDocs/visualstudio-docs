@@ -3,7 +3,7 @@ title: Debugging - Data Visualizations
 description: Debugging is a common, and necessary, part of programming. Visual Studio for Mac contains a whole suite of features to make debugging easy. This article looks at the different data visualizations that can be viewed when inspecting objects in the debugger.
 author: jmatthiesen
 ms.author: jomatthi
-ms.date: 05/06/2018
+ms.date: 11/09/2020
 ms.technology: vs-ide-debug
 ms.assetid: 527E6BEC-EF15-4002-ACB5-62AE1C16F6B7
 ---
@@ -12,14 +12,14 @@ ms.assetid: 527E6BEC-EF15-4002-ACB5-62AE1C16F6B7
 
 Visual Studio for Mac includes UI support for the debugger, allowing visualizations of the values of a variable, field, or property while debugging. These data visualizers show an extended version of the data and allow developers to inspect known structures, for example showing the color of a color struct.
 
-Visualizers in the debug  **Local** pad can be displayed by clicking on the preview icon that appears to the right of the value, when the user hovers over the row:
+Visualizers in the debug  **Locals** window can be displayed by clicking on the preview icon that appears to the right of the value, when the user hovers over the row:
 
-![Local Pad](media/data-visualizations-image9.png)
+![Locals Window](media/data-visualizations-image9.png)
 
 The list below looks at many of the new visualizations available when debugging in Visual Studio for Mac.
 
 ## Point
-A Point/PointF, or CGPoint in iOS and Mac, will render as a tuple showing the X and Y values in the debug pad:
+A Point/PointF, or CGPoint in iOS and Mac, will render as a tuple showing the X and Y values in the debug windows:
 
 ![Point Visualization](media/data-visualizations-image10.png)
 

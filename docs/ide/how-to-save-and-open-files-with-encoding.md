@@ -1,18 +1,20 @@
 ---
-title: "How to: Save and open files with encoding"
+title: 'How to: Save and open files with encoding'
+description: Learn how to save and open files with specific encoding so, when you open the file, Visual Studio displays the file correctly.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
-  - "Unicode, bidirectional language support"
-  - "files, encoding"
-  - "bidirectional language support, encoded files"
-  - "file encoding, bidirectional languages"
+- Unicode, bidirectional language support
+- files, encoding
+- bidirectional language support, encoded files
+- file encoding, bidirectional languages
 ms.assetid: cb52b732-b395-4ba1-a3ef-104b3942a12a
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Save and open files with encoding
 
@@ -31,6 +33,9 @@ You can save files with specific character encoding to support bidirectional lan
      This option is useful if you intend to exchange the file with users of a different operating system.
 
      If you want to work with a file that you know is encoded in a specific way, you can tell Visual Studio to use that encoding when opening the file. The method you use depends on whether the file is part of your project.
+
+> [!NOTE]
+> If you want to save the project file with encoding, the **Save File As** option is not enabled until you unload the project.
 
 ## To open an encoded file that is part of a project
 

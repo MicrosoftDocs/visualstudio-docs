@@ -1,29 +1,31 @@
 ---
 title: General, Environment, Options Dialog Box
+description: Learn how to use the General page in the Environment section to change color themes, status bar settings, file extension associations, and more for the IDE.
+ms.custom: SEO-VS-2020
 ms.date: 07/26/2019
 ms.topic: reference
 f1_keywords:
-  - "VS.Environment.General"
-  - "VS.Message.0x800a002e"
-  - "VS.OptionsDialog.Environment"
-  - "VS.ToolsOptionsPages.Environment"
-  - "VS.ToolsOptionsPages.Environment.General"
+- VS.Environment.General
+- VS.Message.0x800a002e
+- VS.OptionsDialog.Environment
+- VS.ToolsOptionsPages.Environment
+- VS.ToolsOptionsPages.Environment.General
 helpviewer_keywords:
-  - "recently used file lists"
-  - "Windows menu, customizing"
-  - "status bar, displaying"
-  - "Options dialog box, General Environment"
-  - "General Environment Options dialog box"
-  - "Environment Options dialog box"
-author: jillre
-ms.author: jillfra
-manager: jillfra
+- recently used file lists
+- Windows menu, customizing
+- status bar, displaying
+- Options dialog box, General Environment
+- General Environment Options dialog box
+- Environment Options dialog box
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Options dialog box: Environment \> General
 
-Use this page to change color themes, status bar settings, and file extension associations, among other options, for the integrated development environment (IDE). You can access the **Options** dialog box by opening the **Tools** menu, choosing **Options**, opening the **Environment** folder and then choosing the **General** page. If this page does not appear in the list, select the **Show all settings** check box in the **Options** dialog box.
+Use this page to change color themes, status bar settings, and file extension associations, among other options, for the integrated development environment (IDE). You can access the **Options** dialog box by opening the **Tools** menu, choosing **Options**, opening the **Environment** folder and then choosing the **General** page.
 
 ## Visual Experience
 

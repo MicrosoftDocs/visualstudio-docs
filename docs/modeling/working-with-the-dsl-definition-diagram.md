@@ -1,21 +1,23 @@
 ---
 title: Working with the DSL Definition Diagram
+description: Learn that the diagram of a DSL Tools definition is an important tool for defining a domain-specific language.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 f1_keywords:
-  - "vs.dsltools.dsldesigner.diagram"
-  - "vs.dsltools.dsldesigner.dsldiagram"
+- vs.dsltools.dsldesigner.diagram
+- vs.dsltools.dsldesigner.dsldiagram
 helpviewer_keywords:
-  - "Domain-Specific Language Tools, diagram"
-  - "Domain-Specific Language Tools, Split Tree"
-  - "Domain-Specific Language Tools, Show Map Lines"
-  - "Domain-Specific Language Tools, Show As Class"
-  - "Domain-Specific Language Tools, Bring Tree Here"
-author: jillre
-ms.author: jillfra
-manager: jillfra
+- Domain-Specific Language Tools, diagram
+- Domain-Specific Language Tools, Split Tree
+- Domain-Specific Language Tools, Show Map Lines
+- Domain-Specific Language Tools, Show As Class
+- Domain-Specific Language Tools, Bring Tree Here
+author: mgoertz-msft
+ms.author: mgoertz
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Working with the DSL Definition Diagram
 The diagram of a [!INCLUDE[dsl](../modeling/includes/dsl_md.md)] definition is an important tool for defining the domain-specific language. You can add elements to your domain model and define relationships on the diagram, and you can modify the layout of the diagram to make it more readable.
@@ -66,4 +68,4 @@ The diagram of a [!INCLUDE[dsl](../modeling/includes/dsl_md.md)] definition is a
 
 ## See also
 
-- [Domain-Specific Language Tools Glossary](https://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)
+- [Domain-Specific Language Tools Glossary](/previous-versions/bb126564(v=vs.100))

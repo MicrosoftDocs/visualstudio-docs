@@ -1,16 +1,18 @@
 ---
 title: Manage external tools
+description: Learn how to add and manage new external tools that you can access through the Tools menu. 
+ms.custom: SEO-VS-2020
 ms.date: 11/20/2017
 ms.topic: conceptual
 f1_keywords:
-  - "vs.externaltools"
+- vs.externaltools
 helpviewer_keywords:
-  - "external tools [Visual Studio]"
-author: jillre
-ms.author: jillfra
-manager: jillfra
+- external tools [Visual Studio]
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Manage external tools
 

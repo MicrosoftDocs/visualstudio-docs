@@ -1,7 +1,10 @@
 ---
 title: "Autofill incrementally changing data ranges programmatically"
+description:  Learn how the AutoFill method of the Range object enables you to fill a range in a worksheet with values automatically.
+ms.custom: SEO-VS-2020
+titleSuffix: ""
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: "how-to"
 dev_langs:
   - "VB"
   - "CSharp"
@@ -12,7 +15,7 @@ helpviewer_keywords:
   - "workbooks, filling ranges"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---
@@ -31,8 +34,8 @@ ms.workload:
     > You cannot pass a <xref:Microsoft.Office.Tools.Excel.NamedRange> control in place of the <xref:Microsoft.Office.Interop.Excel.Range>. For more information, see [Programmatic limitations of host items and host controls](../vsto/programmatic-limitations-of-host-items-and-host-controls.md).
 
 ## Example
- [!code-csharp[Trin_VstcoreExcelAutomation#49](../vsto/codesnippet/CSharp/Trin_VstcoreExcelAutomationCS/Sheet1.cs#49)]
- [!code-vb[Trin_VstcoreExcelAutomation#49](../vsto/codesnippet/VisualBasic/Trin_VstcoreExcelAutomation/Sheet1.vb#49)]
+ :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreExcelAutomationCS/Sheet1.cs" id="Snippet49":::
+ :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreExcelAutomation/Sheet1.vb" id="Snippet49":::
 
 ## Compile the code
  The first cell of the range that you want to fill must contain an initial value.

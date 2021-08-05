@@ -1,5 +1,6 @@
 ---
 title: "Summary View - .NET Memory Data | Microsoft Docs"
+description: Learn how The Summary view displays information about the .NET functions and types that allocated the most memory.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:
@@ -7,7 +8,8 @@ helpviewer_keywords:
 ms.assetid: 0cb317c3-0ae6-4531-aaa8-447576eec037
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+monikerRange: 'vs-2017'
 ms.workload:
   - "dotnet"
 ---

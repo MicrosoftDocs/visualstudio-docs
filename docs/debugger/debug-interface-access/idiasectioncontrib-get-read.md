@@ -1,7 +1,8 @@
 ---
+description: "Retrieves a flag that indicates whether the section can be read."
 title: "IDiaSectionContrib::get_read | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 68bfb35c-eabd-412a-bc8f-3094703b98c4
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

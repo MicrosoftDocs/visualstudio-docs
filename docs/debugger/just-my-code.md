@@ -1,13 +1,15 @@
 ---
-title: "Debug user code with Just My Code | Microsoft Docs"
-ms.date: "02/13/2019"
-ms.topic: "conceptual"
+title: Debug user code with Just My Code | Microsoft Docs
+description: Just My Code is a debugging feature that automatically steps over calls to non-user code. Learn how to enable, disable, and use this feature.
+ms.custom: SEO-VS-2020
+ms.date: 02/13/2019
+ms.topic: how-to
 ms.assetid: 0f0df097-bbaf-46ad-9ad1-ef5f40435079
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
-ms.workload:
-  - "multiple"
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.workload: 
+  - multiple
 ---
 # Debug only user code with Just My Code
 
@@ -195,7 +197,7 @@ A *.natstepfilter* file is an XML file with this syntax:
 <a name="BKMK_JS_User_and_non_user_code"></a>
 JavaScript Just My Code controls stepping and call stack display by categorizing code in one of these classifications:
 
-|||
+|Classification|Description|
 |-|-|
 |**MyCode**|User code that you own and control.|
 |**LibraryCode**|Non-user code from libraries that you use regularly and your app relies on to function correctly (for example WinJS or jQuery).|
@@ -280,7 +282,7 @@ Specifications in this file override the default classifications and the *mycode
 
 The **Eval**, **Function**, and **ScriptBlock** key value pairs determine how dynamically generated code is classified:
 
-|||
+|Name|Description|
 |-|-|
 |**Eval**|Script that is executed by passing a string to the host-provided `eval` function. By default, Eval script is classified as **MyCode**.|
 |**Function**|Script that is executed by passing a string to the `Function` constructor. By default, Function script is classified as **LibraryCode**.|
@@ -296,7 +298,7 @@ You can change the value to one of these keywords:
 
 The **MyCode**, **Libraries**, and **Unrelated** key value pairs specify the URLs or files that you want to include in a classification:
 
-|||
+|Name|Description|
 |-|-|
 |**MyCode**|An array of URLs or files that are classified as **MyCode**.|
 |**Libraries**|An array of URLs or files that are classified as **LibraryCode**.|

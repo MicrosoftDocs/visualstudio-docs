@@ -1,20 +1,21 @@
 ---
-title: "IEnumDebugFields::Next | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "This method returns the next set of elements from the fields enumeration."
+title: IEnumDebugFields::Next | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IEnumDebugFields::Next"
+- IEnumDebugFields::Next
 helpviewer_keywords:
-  - "IEnumDebugFields::Next method"
+- IEnumDebugFields::Next method
 ms.assetid: 22c177a2-af81-4234-812b-f9b47be245a2
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IEnumDebugFields::Next
 This method returns the next set of elements from the enumeration.

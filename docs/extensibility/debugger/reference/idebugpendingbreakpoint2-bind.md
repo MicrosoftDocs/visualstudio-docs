@@ -1,21 +1,22 @@
 ---
-title: "IDebugPendingBreakpoint2::Bind | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Binds this pending breakpoint to one or more code locations."
+title: IDebugPendingBreakpoint2::Bind | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugPendingBreakpoint2::Bind"
+- IDebugPendingBreakpoint2::Bind
 helpviewer_keywords:
-  - "Bind method"
-  - "IDebugPendingBreakpoint2::Bind method"
+- Bind method
+- IDebugPendingBreakpoint2::Bind method
 ms.assetid: 46e3f307-219d-40cd-a929-d41399c60ecf
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugPendingBreakpoint2::Bind
 Binds this pending breakpoint to one or more code locations.

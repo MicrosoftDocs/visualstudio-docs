@@ -1,5 +1,7 @@
 ---
 title: "Troubleshooting SharePoint Packaging and Deployment | Microsoft Docs"
+description: Understand and fix various problems that you might encounter when you package and deploy SharePoint solutions.
+ms.custom: SEO-VS-2020
 ms.date: "02/22/2017"
 ms.topic: "conceptual"
 f1_keywords:
@@ -20,7 +22,7 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, deployment conflict resolution"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---
@@ -67,7 +69,7 @@ ms.workload:
 ### Resolution
  To work around this problem, perform the following steps:
 
-1. Install update KB967535 as outlined in the Microsoft Support article [FIX: A hotfix is available to fix two problems in ASP.NET on IIS 7.0 for Windows Vista and Windows Server 2008](http://go.microsoft.com/fwlink/?LinkId=179055).
+1. Install update KB967535 as outlined in the Microsoft Support article [FIX: A hotfix is available to fix two problems in ASP.NET on IIS 7.0 for Windows Vista and Windows Server 2008](https://support.microsoft.com/help/967535).
 
 2. Add the following line to the Web.config file:
 

@@ -1,13 +1,15 @@
 ---
-title: "Configure Windows Firewall for remote debugging | Microsoft Docs"
-ms.date: "10/31/2018"
-ms.topic: "conceptual"
+title: Configure Windows Firewall for remote debugging | Microsoft Docs
+description: Configure Windows Firewall for remote debugging. Configure ports for remote debugging. Troubleshoot the remote debugging connection.
+ms.custom: SEO-VS-2020
+ms.date: 10/31/2018
+ms.topic: how-to
 ms.assetid: 66e3230a-d195-4473-bbce-8ca198516014
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
-ms.workload:
-  - "multiple"
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.workload: 
+  - multiple
 ---
 # Configure Windows Firewall for remote debugging
 
@@ -41,6 +43,16 @@ Visual Studio and the remote debugger try to open the correct ports during insta
 1. Add a name for the rule (for example, **msvsmon**, **IIS**, or **Web Deploy**), and then select **Finish**.
 
    The new rule should appear and be selected in the **Inbound Rules** or **Outbound Rules** list.
+
+**To open a port using PowerShell:**
+
+For Windows Firewall, you can use PowerShell commands such as [New-NetFirewallRule](/powershell/module/netsecurity/new-netfirewallrule?view=win10-ps).
+
+The following example opens port 4024 for the remote debugger on the remote computer. The path you need to use may be different.
+
+```ps
+New-NetFirewallRule -DisplayName "msvsmon" -Direction Inbound -Program "Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\Remote Debugger\x86\msvsmon.exe" -LocalPort 4024 -Protocol TCP -Authentication Required -Action Allow
+```
 
 ### Ports on the remote computer that enable remote debugging
 

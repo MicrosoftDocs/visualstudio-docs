@@ -1,16 +1,18 @@
 ---
-title: "Designer Initialization and Metadata Configuration | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Designer Initialization and Metadata Configuration | Microsoft Docs
+description: Learn how the Visual Studio SDK facilitates the control of a designer's or designer component's initialization and its metadata by a VSPackage.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "designers [Visual Studio SDK], initializing"
-  - "designers [Visual Studio SDK], configuring metadata"
+- designers [Visual Studio SDK], initializing
+- designers [Visual Studio SDK], configuring metadata
 ms.assetid: f7fe9a7e-f669-4642-ad5d-186b2e6e6ec9
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Designer initialization and metadata configuration
 
@@ -96,4 +98,4 @@ If the global flag was set to `false`, then the metadata change is local to the 
 - <xref:Microsoft.VisualStudio.Shell.Design.DesignSurfaceExtension>
 - <xref:Microsoft.VisualStudio.Shell.Design.DesignSurfaceExtensionAttribute>
 - <xref:System.ComponentModel.ToolboxItemFilterType>
-- [Extend design-time support](https://msdn.microsoft.com/Library/d6ac8a6a-42fd-4bc8-bf33-b212811297e2)
+- [Extend design-time support](/previous-versions/37899azc(v=vs.140))

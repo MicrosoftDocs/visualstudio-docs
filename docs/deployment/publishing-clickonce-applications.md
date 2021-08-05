@@ -1,5 +1,7 @@
 ---
 title: "Publishing ClickOnce Applications | Microsoft Docs"
+description: Learn how to use the Publish Wizard to publish a ClickOnce application for the first time. Make later changes on the Publish page in the Project Designer.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:
@@ -17,7 +19,7 @@ helpviewer_keywords:
 ms.assetid: eb6dfe79-f54c-4331-8e36-073688e70973
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---
@@ -66,7 +68,7 @@ When publishing a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.m
 ### Publish Options dialog box
  The Publish Options dialog box specifies an application's deployment options.
 
-|||
+|Title|Description|
 |-|-|
 |[How to: Change the publish language for a ClickOnce application](../deployment/how-to-change-the-publish-language-for-a-clickonce-application.md)|Describes how to specify a language and culture to match the localized version.|
 |[How to: Specify a Start menu name for a ClickOnce application](../deployment/how-to-specify-a-start-menu-name-for-a-clickonce-application.md)|Describes how to change the display name for a ClickOnce application.|
@@ -90,7 +92,7 @@ When publishing a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.m
 |[Walkthrough: Manually deploy a ClickOnce application](../deployment/walkthrough-manually-deploying-a-clickonce-application.md)|Explains how to use .NET Framework utilities to deploy your ClickOnce application.|
 |[Walkthrough: Manually deploy a ClickOnce application that does not require re-signing and that preserves branding information](../deployment/walkthrough-manually-deploying-a-clickonce-app-no-re-signing-required.md)|Explains how to use .NET Framework utilities to deploy your ClickOnce application without re-signing the manifests.|
 |[How to: Configure projects to target platforms](../ide/how-to-configure-projects-to-target-platforms.md)|Explains how to publish for a 64-bit processor by changing the **Target CPU** or **Platform target** property in your project.|
-|[Walkthrough: Enable a ClickOnce application to run on multiple .NET Framework versions](https://msdn.microsoft.com/library/7f4383af-ed87-4853-b4d4-02a3967a5fd9)|Explains how to enable a ClickOnce application to install and run on multiple versions of the NET Framework.|
+|[Walkthrough: Enable a ClickOnce application to run on multiple .NET Framework versions](/previous-versions/dd996998(v=vs.100))|Explains how to enable a ClickOnce application to install and run on multiple versions of the NET Framework.|
 |[Walkthrough: Create a custom installer for a ClickOnce application](../deployment/walkthrough-creating-a-custom-installer-for-a-clickonce-application.md)|Explains how to create a custom installer to install a ClickOnce application.|
 |[How to: Publish a WPF application with visual styles enabled](../deployment/how-to-publish-a-wpf-application-with-visual-styles-enabled.md)|Provides step-by-step instructions to resolve an error that appears when you attempt to publish a WPF application that has visual styles enabled.|
 

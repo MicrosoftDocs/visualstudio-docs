@@ -1,17 +1,19 @@
 ---
 title: CodeIndex command
+description: "Learn how to use the CodeIndex command to manage code indexing on Azure DevOps Server (formerly known as Team Foundation Server)."
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "command-line tools [Team Foundation Server]"
-  - "TFSConfig"
-  - "CodeIndex command [Team Foundation Server]"
+- command-line tools [Team Foundation Server]
+- TFSConfig
+- CodeIndex command [Team Foundation Server]
 ms.assetid: b79568d4-6a64-4ca9-a1ee-3e57f92a9c5c
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # CodeIndex command
 
@@ -19,7 +21,7 @@ Use the **CodeIndex** command to manage code indexing on Team Foundation Server.
 
 ## Required permissions
 
-To use the **CodeIndex** command, you must be a member of the **Team Foundation Administrators** security group. See [Permissions and groups defined for Azure DevOps Services and TFS](/azure/devops/organizations/security/permissions?view=vsts).
+To use the **CodeIndex** command, you must be a member of the **Team Foundation Administrators** security group. See [Permissions and groups defined for Azure DevOps Services and TFS](/azure/devops/organizations/security/permissions?view=vsts&preserve-view=true).
 
 > [!NOTE]
 > Even if you log on with administrative credentials, you must open an elevated Command Prompt window to run this command. You must also run this command from the application tier for Team Foundation.
@@ -119,4 +121,4 @@ TFSConfig CodeIndex /destroyCodeIndex /collectionName:"Fabrikam Website"
 ## See also
 
 - [Find code changes and other history with CodeLens](../ide/find-code-changes-and-other-history-with-codelens.md)
-- [Managing server configuration with TFSConfig](/tfs/server/ref/command-line/tfsconfig-cmd)
+- [Managing server configuration with TFSConfig](/azure/devops/server/command-line/tfsconfig-cmd)

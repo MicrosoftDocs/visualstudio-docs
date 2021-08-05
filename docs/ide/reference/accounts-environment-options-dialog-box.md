@@ -1,15 +1,17 @@
 ---
 title: Accounts options reference
+description: Learn how to set some options related to the accounts you use when you sign in to Visual Studio.
+ms.custom: SEO-VS-2020
 ms.date: 12/10/2018
 ms.topic: reference
 f1_keywords:
-  - "VS.ToolsOptionsPages.Environment.RoamingSettings"
+- VS.ToolsOptionsPages.Environment.RoamingSettings
 ms.assetid: 3cfe09d2-1120-46e8-b882-f7056acb778b
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Accounts, Environment, Options dialog box
 

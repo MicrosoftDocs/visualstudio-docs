@@ -1,13 +1,15 @@
 ---
-title: "How to: Save and Edit Connection Strings"
+title: 'How to: Save and Edit Connection Strings'
+description: Know how to save and edit connection strings in Visual Studio applications. Save or edit a connection string directly in application settings.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 ms.assetid: f8ef3a2c-029c-423b-9d9e-a4f1add4f640
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: ghogen
+ms.author: ghogen
+manager: jmartens
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # How to: Save and edit connection strings
 Connection strings in Visual Studio applications are saved in the application configuration file (also referred to as application settings), or hard-coded directly in your application. Saving connection strings in the application configuration file simplifies the task of maintaining your application. If the connection string needs to be changed, you can update it in the application settings file (as opposed to having to change it in the source code and recompile the application).

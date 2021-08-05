@@ -1,23 +1,27 @@
 ---
-title: "ToolTaskExtension Base Class | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
+title: ToolTaskExtension Base Class | Microsoft Docs
+description: Learn about the parameters that the Microsoft.Build.Tasks.ToolTaskExtension base class adds to the tasks that inherit from it.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: reference
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+- VB
+- CSharp
+- C++
+- jsharp
 ms.assetid: 258ae433-f68a-49f1-b276-da20e3472e68
-author: mikejo5000
-ms.author: mikejo
-manager: jillfra
+author: ghogen
+ms.author: ghogen
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # ToolTaskExtension base class
+
 Many tasks inherit from the <xref:Microsoft.Build.Tasks.ToolTaskExtension> class, which inherits from the <xref:Microsoft.Build.Utilities.ToolTask> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. This inheritance chain adds several parameters to the tasks that derive from them. These parameters are listed in this document.
 
 ## Parameters
+
  The following table describes the parameters of the base classes.
 
 | Parameter | Description |
@@ -35,10 +39,11 @@ Many tasks inherit from the <xref:Microsoft.Build.Tasks.ToolTaskExtension> class
 | <xref:Microsoft.Build.Utilities.ToolTask.StandardOutputImportance%2A> | Optional `String` parameter.<br /><br /> Importance with which to log text from the standard out stream. |
 | <xref:Microsoft.Build.Utilities.ToolTask.Timeout%2A> | Virtual optional `Int32` parameter.<br /><br /> Specifies the amount of time, in milliseconds, after which the task executable is terminated. The default value is `Int.MaxValue`, indicating that there is no time out period. Time-out is in milliseconds. |
 | <xref:Microsoft.Build.Utilities.ToolTask.ToolExe%2A> | Virtual optional `string` parameter.<br /><br /> Projects may implement this to override a ToolName. Tasks may override this to preserve the ToolName. |
-| <xref:Microsoft.Build.Utilities.ToolTask.ToolPath%2A> | Optional `string` parameter.<br /><br /> Specifies the location from where the task loads the underlying executable file. If this parameter is not specified, the task uses the SDK installation path that corresponds to the version of the framework that is running [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)]. |
+| <xref:Microsoft.Build.Utilities.ToolTask.ToolPath%2A> | Optional `string` parameter.<br /><br /> Specifies the location from where the task loads the underlying executable file. If this parameter is not specified, the task uses the SDK installation path that corresponds to the version of the framework that is running MSBuild. |
 | <xref:Microsoft.Build.Utilities.ToolTask.UseCommandProcessor%2A> | Optional `bool` parameter.<br /><br /> When set to `true`, this task creates a batch file for the command line and executes it by using the command-processor instead of executing the command directly. |
 | <xref:Microsoft.Build.Utilities.ToolTask.YieldDuringToolExecution%2A> | Optional `bool` parameter.<br /><br /> When set to `true`, this task yields the node when its task is executing. |
 
 ## See also
+
 - [Task reference](../msbuild/msbuild-task-reference.md)
 - [Tasks](../msbuild/msbuild-tasks.md)

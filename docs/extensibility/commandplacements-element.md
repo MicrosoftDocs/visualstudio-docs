@@ -1,18 +1,20 @@
 ---
-title: "CommandPlacements Element | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: CommandPlacements Element | Microsoft Docs
+description: The CommandPlacements element groups CommandPlacement elements and other CommandPlacements groupings. The CommandPlacements element is optional.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: reference
 f1_keywords:
-  - "CommandPlacements"
+- CommandPlacements
 helpviewer_keywords:
-  - "CommandPlacements element (VSCT XML schema)"
-  - "VSCT XML schema elements, CommandPlacements"
+- CommandPlacements element (VSCT XML schema)
+- VSCT XML schema elements, CommandPlacements
 ms.assetid: 78a5724a-3b9f-4c78-9c0d-8faa3924f81c
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # CommandPlacements element
 The CommandPlacements element groups CommandPlacement elements and other CommandPlacements groupings.

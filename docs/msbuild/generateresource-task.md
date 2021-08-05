@@ -1,28 +1,32 @@
 ---
-title: "GenerateResource Task | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
+title: GenerateResource Task | Microsoft Docs
+description: Use the MSBuild GenerateResource task to convert between .txt or .resx files and common language runtime binary .resources files.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: reference
 f1_keywords:
-  - "http://schemas.microsoft.com/developer/msbuild/2003#GenerateResource"
+- http://schemas.microsoft.com/developer/msbuild/2003#GenerateResource
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+- VB
+- CSharp
+- C++
+- jsharp
 helpviewer_keywords:
-  - "MSBuild, GenerateResource task"
-  - "GenerateResource task [MSBuild]"
+- MSBuild, GenerateResource task
+- GenerateResource task [MSBuild]
 ms.assetid: c0aff32f-f2cc-46f6-9c3e-a5c9f8f912b1
-author: mikejo5000
-ms.author: mikejo
-manager: jillfra
+author: ghogen
+ms.author: ghogen
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # GenerateResource task
+
 Converts between *.txt* and *.resx* (XML-based resource format) files and common language runtime binary *.resources* files that can be embedded in a runtime binary executable or compiled into satellite assemblies. This task is typically used to convert *.txt* or *.resx* files to *.resources* files. The `GenerateResource` task is functionally similar to [resgen.exe](/dotnet/framework/tools/resgen-exe-resource-file-generator).
 
 ## Parameters
+
 The following table describes the parameters of the `GenerateResource` task.
 
 |Parameter|Description|
@@ -55,6 +59,7 @@ The following table describes the parameters of the `GenerateResource` task.
 |`UseSourcePath`|Optional `Boolean` parameter.<br /><br /> If `true`, specifies that the input file's directory is to be used for resolving relative file paths.|
 
 ## Remarks
+
 Because *.resx* files may contain links to other resource files, it is not sufficient to simply compare *.resx* and *.resources* file timestamps to see if the outputs are up-to-date. Instead, the `GenerateResource` task follows the links in the *.resx* files and checks the timestamps of the linked files as well. This means that you should not generally use `Inputs` and `Outputs` attributes on the target containing the `GenerateResource` task, as this may cause it to be skipped when it should actually run.
 
 In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension base class](../msbuild/taskextension-base-class.md).
@@ -62,6 +67,7 @@ In addition to the parameters listed above, this task inherits parameters from t
 When using MSBuild 4.0 to target .NET 3.5 projects, the build may fail on x86 resources. To work around this problem, you can build the target as an AnyCPU assembly.
 
 ## Example
+
 The following example uses the `GenerateResource` task to generate *.resources* files from the files specified by the `Resx` item collection.
 
 ```xml
@@ -89,5 +95,6 @@ Assuming that the assembly is named myAssembly, the following code generates an 
 Without the \<LogicalName> metadata, the resource would be named *myAssembly.myResource.resources*.  This example applies only to the Visual Basic and Visual C# build process.
 
 ## See also
+
 - [Tasks](../msbuild/msbuild-tasks.md)
 - [Task reference](../msbuild/msbuild-task-reference.md)

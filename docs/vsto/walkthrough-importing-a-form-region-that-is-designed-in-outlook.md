@@ -1,5 +1,8 @@
 ---
 title: "Walkthrough: Import a form region that is designed in Outlook"
+description: Learn how to design a form region in Microsoft Outlook, and then import the form region into an Outlook VSTO Add-in project by using the New Form Region wizard.
+ms.custom: SEO-VS-2020
+titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -10,7 +13,7 @@ helpviewer_keywords:
   - "form regions [Office development in Visual Studio], importing"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---
@@ -39,7 +42,6 @@ ms.workload:
 > [!NOTE]
 > Your computer might show different names or locations for some of the Visual Studio user interface elements in the following instructions. The Visual Studio edition that you have and the settings that you use determine these elements. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).
 
- ![link to video](../vsto/media/playvideo.gif "link to video") For a related video demonstration, see [How do I: Create Outlook form regions using Visual Studio 2008?](http://go.microsoft.com/fwlink/?LinkID=130305).
 ## Design a form region by using the form region designer in Outlook
  In this step you will design a form region in Outlook. You will then the save the form region to an easy-to-find location so that you can import it into [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].
 
@@ -158,8 +160,8 @@ ms.workload:
 
 2. Add the following code to the `TaskFormRegion` class. This code populates the combo box on the form region with the subject line of each task from the Outlook Tasks folder.
 
-    [!code-csharp[Trin_Outlook_FR_Import#1](../vsto/codesnippet/CSharp/Trin_Outlook_FR_Import/TaskFormRegion.cs#1)]
-    [!code-vb[Trin_Outlook_FR_Import#1](../vsto/codesnippet/VisualBasic/Trin_Outlook_FR_Import_O12/TaskFormRegion.vb#1)]
+    :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_Outlook_FR_Import/TaskFormRegion.cs" id="Snippet1":::
+    :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_Outlook_FR_Import_O12/TaskFormRegion.vb" id="Snippet1":::
 
 3. Add the following code to the `TaskFormRegion` class. This code performs the following tasks:
 
@@ -169,13 +171,13 @@ ms.workload:
 
    - Adds the subject of the task to the hidden field on the form region. The hidden field stores these values as part of the Outlook item.
 
-     [!code-csharp[Trin_Outlook_FR_Import#2](../vsto/codesnippet/CSharp/Trin_Outlook_FR_Import/TaskFormRegion.cs#2)]
-     [!code-vb[Trin_Outlook_FR_Import#2](../vsto/codesnippet/VisualBasic/Trin_Outlook_FR_Import_O12/TaskFormRegion.vb#2)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_Outlook_FR_Import/TaskFormRegion.cs" id="Snippet2":::
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_Outlook_FR_Import_O12/TaskFormRegion.vb" id="Snippet2":::
 
 4. Add the following code to the `TaskFormRegion` class. This code provides the helper method `FindTaskBySubjectName` that was described in the preceding step.
 
-    [!code-csharp[Trin_Outlook_FR_Import#3](../vsto/codesnippet/CSharp/Trin_Outlook_FR_Import/TaskFormRegion.cs#3)]
-    [!code-vb[Trin_Outlook_FR_Import#3](../vsto/codesnippet/VisualBasic/Trin_Outlook_FR_Import_O12/TaskFormRegion.vb#3)]
+    :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_Outlook_FR_Import/TaskFormRegion.cs" id="Snippet3":::
+    :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_Outlook_FR_Import_O12/TaskFormRegion.vb" id="Snippet3":::
 
 5. Add the following code to the `TaskFormRegion` class. This code performs the following tasks:
 
@@ -185,8 +187,8 @@ ms.workload:
 
    - Adds the `Microsoft.Office.Interop.Outlook.TaskItem.Subject` and `Microsoft.Office.Interop.Outlook.TaskItem.PercentComplete` values to the dependent task list box.
 
-     [!code-csharp[Trin_Outlook_FR_Import#4](../vsto/codesnippet/CSharp/Trin_Outlook_FR_Import/TaskFormRegion.cs#4)]
-     [!code-vb[Trin_Outlook_FR_Import#4](../vsto/codesnippet/VisualBasic/Trin_Outlook_FR_Import_O12/TaskFormRegion.vb#4)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_Outlook_FR_Import/TaskFormRegion.cs" id="Snippet4":::
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_Outlook_FR_Import_O12/TaskFormRegion.vb" id="Snippet4":::
 
 6. Replace the `TaskFormRegion_FormRegionShowing` event handler with the following code. This code performs the following tasks:
 
@@ -194,8 +196,8 @@ ms.workload:
 
    - Calls the `RefreshTaskListBox` helper method when the form region appears. This displays any dependent tasks that were added to the list box when the item was previously opened.
 
-     [!code-csharp[Trin_Outlook_FR_Import#5](../vsto/codesnippet/CSharp/Trin_Outlook_FR_Import/TaskFormRegion.cs#5)]
-     [!code-vb[Trin_Outlook_FR_Import#5](../vsto/codesnippet/VisualBasic/Trin_Outlook_FR_Import_O12/TaskFormRegion.vb#5)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_Outlook_FR_Import/TaskFormRegion.cs" id="Snippet5":::
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_Outlook_FR_Import_O12/TaskFormRegion.vb" id="Snippet5":::
 
 ## Test the Outlook form region
  To test the form region, add tasks to the list of prerequisite tasks on the form region. Update the completion status of a prerequisite task, and then view the updated completion status of the task in the prerequisite task list.

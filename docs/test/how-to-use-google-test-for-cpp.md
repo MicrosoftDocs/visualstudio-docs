@@ -1,13 +1,13 @@
 ---
-title: "How to use Google Test for C++"
+title: How to use Google Test for C++
 description: Use Google Test to create C++ unit tests in Visual Studio.
 ms.date: 05/06/2017
-ms.topic: conceptual
-ms.author: mblome
+ms.topic: how-to
+ms.author: corob
 manager: markl
-ms.workload:
-  - "cplusplus"
-author: mikeblome
+ms.workload: 
+  - cplusplus
+author: corob-msft
 ---
 
 # How to use Google Test for C++ in Visual Studio
@@ -16,7 +16,7 @@ In Visual Studio 2017 and later, Google Test is integrated into the Visual Studi
 
 ![Install Google Test](media/cpp-google-component.png)
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 ## Add a Google Test project in Visual Studio 2019
 
@@ -61,7 +61,7 @@ an IntelliSense window will appear and enable you to select the full path to the
 
 ## Write and run tests
 
-You are now ready to write and run Google Tests. See the [Google Test primer](https://github.com/google/googletest/blob/master/googletest/docs/primer.md) for information about the test macros. See [Run unit tests with Test Explorer](run-unit-tests-with-test-explorer.md) for information about discovering, running, and grouping your tests by using **Test Explorer**.
+You are now ready to write and run Google Tests. See the [Google Test primer](https://github.com/google/googletest/blob/master/docs/primer.md) for information about the test macros. See [Run unit tests with Test Explorer](run-unit-tests-with-test-explorer.md) for information about discovering, running, and grouping your tests by using **Test Explorer**.
 
 ## See also
 

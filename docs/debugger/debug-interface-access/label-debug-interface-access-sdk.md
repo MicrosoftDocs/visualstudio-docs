@@ -1,7 +1,8 @@
 ---
+description: "A location in program code is identified by a SymTagLabel symbol."
 title: "Label (Debug Interface Access SDK) | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -10,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 8cef7620-5bc8-4500-8bd0-e9e638bccb24
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

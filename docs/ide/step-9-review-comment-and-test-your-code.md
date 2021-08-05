@@ -1,5 +1,7 @@
 ---
 title: "Step 9: Review, comment, and test your code"
+description: Learn how to add a comment to your code and test your app.
+ms.custom: SEO-VS-2020
 ms.date: 08/30/2019
 ms.assetid: f26f79ba-c91b-4164-b87f-679a1b231c09
 ms.topic: tutorial
@@ -8,9 +10,9 @@ ms.technology: vs-ide-general
 dev_langs:
   - "CSharp"
   - "VB"
-author: TerryGLee
-ms.author: tglee
-manager: jillfra
+author: j-martens
+ms.author: jmartens
+manager: jmartens
 ms.workload:
   - "multiple"
 ---
@@ -50,9 +52,8 @@ You just built something that works, and although it's not done yet, it can alre
 
      [!INCLUDE [devlang-control-csharp-vb](./includes/devlang-control-csharp-vb.md)]
 
-     [!code-csharp[VbExpressTutorial1Step9_10#1](../ide/codesnippet/CSharp/step-9-review-comment-and-test-your-code_1.cs)]
-
-     [!code-vb[VbExpressTutorial1Step9_10#1](../ide/codesnippet/VisualBasic/step-9-review-comment-and-test-your-code_1.vb)]
+     :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial1step9_10/cs/form1.cs" id="Snippet1":::
+     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial1step9_10/vb/form1.vb" id="Snippet1":::
 
     Your **showButton** button's <xref:System.Windows.Forms.Control.Click> event handler is now finished, and it works. You have started writing code, starting with an `if` statement. An `if` statement is how you tell your app, "Check this one thing, and if it's true, do these actions." In this case, you tell your app to open the **Open File** dialog box, and if the user selects a file and chooses the **OK** button, load that file in the **PictureBox**.
 

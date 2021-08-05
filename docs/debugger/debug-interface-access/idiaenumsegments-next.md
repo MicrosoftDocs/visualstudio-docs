@@ -1,7 +1,8 @@
 ---
+description: "Retrieves a specified number of segments in the enumeration sequence."
 title: "IDiaEnumSegments::Next | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 53f61874-d821-47ab-a1f5-27e982804a6a
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

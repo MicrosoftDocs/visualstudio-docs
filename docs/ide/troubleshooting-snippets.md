@@ -1,17 +1,19 @@
 ---
 title: Troubleshoot snippets
+description: Learn how to troubleshoot problems with IntelliSense code snippets that are typically caused by bad content in the snippet file or a corrupt snippet file.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: troubleshooting
 helpviewer_keywords:
-  - "IntelliSense Code Snippets, troubleshooting"
-  - "troubleshooting IntelliSense Code Snippets"
-  - "troubleshooting Visual Basic, IntelliSense Code Snippets"
+- IntelliSense Code Snippets, troubleshooting
+- troubleshooting IntelliSense Code Snippets
+- troubleshooting Visual Basic, IntelliSense Code Snippets
 ms.assetid: 7b6dd40e-2f78-4b50-8e68-41fac1bcb81e
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Troubleshoot snippets
 

@@ -1,20 +1,21 @@
 ---
-title: "IEnumDebugPrograms2::Next | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Returns the next set of elements from the programs enumeration."
+title: IEnumDebugPrograms2::Next | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IEnumDebugPrograms2::Next"
+- IEnumDebugPrograms2::Next
 helpviewer_keywords:
-  - "IEnumDebugPrograms2::Next"
+- IEnumDebugPrograms2::Next
 ms.assetid: 9120e263-e97c-4a40-ab2c-e9264ce3d6c4
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IEnumDebugPrograms2::Next
 Returns the next set of elements from the enumeration.

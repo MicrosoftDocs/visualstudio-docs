@@ -1,15 +1,17 @@
 ---
-title: "Step 3: Set your form properties"
+title: 'Step 3: Set your form properties'
+description: Learn how to use the Properties window to change the way your form looks.
+ms.custom: SEO-VS-2020
 ms.date: 08/30/2019
 ms.assetid: 634ef037-1525-48c8-ac7f-abf04be69376
 ms.topic: tutorial
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
-author: TerryGLee
-ms.author: tglee
-manager: jillfra
+author: j-martens
+ms.author: jmartens
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Step 3: Set your form properties
 

@@ -1,5 +1,7 @@
 ---
 title: "Build Office solutions"
+description: Learn the differences between building and debugging Office projects and building and debugging other types of projects in Visual Studio, such as Windows Forms.
+ms.custom: SEO-VS-2020
 ms.date: 08/14/2019
 ms.topic: conceptual
 dev_langs:
@@ -23,7 +25,7 @@ helpviewer_keywords:
   - "Office solutions [Office development in Visual Studio], debugging"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

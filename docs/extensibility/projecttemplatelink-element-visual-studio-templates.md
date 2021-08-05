@@ -1,19 +1,21 @@
 ---
-title: "ProjectTemplateLink Element (Visual Studio Templates) | Microsoft Docs"
-ms.date: "11/04/2016"
+title: ProjectTemplateLink Element (Visual Studio Templates) | Microsoft Docs
+description: Learn about the <element> element and how it specifies the path to the .vstemplate file of one project in a multi-project template.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
 ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
-  - "http://schemas.microsoft.com/developer/vstemplate/2005#ProjectTemplateLink"
+- http://schemas.microsoft.com/developer/vstemplate/2005#ProjectTemplateLink
 helpviewer_keywords:
-  - "<ProjectTemplateLink> element [Visual Studio Templates]"
-  - "ProjectTemplateLink element [Visual Studio Templates]"
+- <ProjectTemplateLink> element [Visual Studio Templates]
+- ProjectTemplateLink element [Visual Studio Templates]
 ms.assetid: b0449111-8b48-45a1-a031-ea24b765e969
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # ProjectTemplateLink element (Visual Studio templates)
 Specifies the path to the *.vstemplate* file of one project in a multi-project template.
@@ -45,7 +47,7 @@ Specifies the path to the *.vstemplate* file of one project in a multi-project t
 |Attribute|Description|
 |---------------|-----------------|
 |`ProjectName`|Optional attribute.<br /><br /> Specifies the name for each individual project in a multi-project template. The **New Project** dialog box cannot assign names to individual projects.|
-|`CopyParameters`|Enables all the variables in the main group template to be copied to each of the linked templates.<br /><br /> The parameters in the linked templates have a prefix `"$ext_*$"`. For example, if in the parent group template the parameter `$projectname$` has a value **ExampleProject1**, when the linked template gets its turn to be executed, it acquires a parameter `$ext_projectname$`, which is a copy of the `$projectname$` parameter from the parent group template.<br /><br /> This enables linked templates to share some common parameters, which may be conveniently created only in the parent group template.<br /><br /> This attribute is optional, and it automatically defaults to `false` when it is not included.<br /><br /> Introduced in Visual Studio 2013 Update 2. To reference the correct product version, see [Reference assemblies delivered in the Visual Studio 2013 SDK Update 2](https://msdn.microsoft.com/library/42b65c3e-e42b-4c39-98c8-bea285f25ffb).|
+|`CopyParameters`|Enables all the variables in the main group template to be copied to each of the linked templates.<br /><br /> The parameters in the linked templates have a prefix `"$ext_*$"`. For example, if in the parent group template the parameter `$projectname$` has a value **ExampleProject1**, when the linked template gets its turn to be executed, it acquires a parameter `$ext_projectname$`, which is a copy of the `$projectname$` parameter from the parent group template.<br /><br /> This enables linked templates to share some common parameters, which may be conveniently created only in the parent group template.<br /><br /> This attribute is optional, and it automatically defaults to `false` when it is not included.<br /><br /> Introduced in Visual Studio 2013 Update 2. To reference the correct product version, see [Reference assemblies delivered in the Visual Studio 2013 SDK Update 2](/previous-versions/dn632168(v=vs.120)).|
 
 ### Child elements
  None.

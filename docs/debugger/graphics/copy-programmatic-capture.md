@@ -1,11 +1,13 @@
 ---
 title: "Copy (Programmatic Capture) | Microsoft Docs"
+description: Use the Copy method of the VsgDbg class to copy the contents of the active graphics log (.vsglog) file into a new file.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 ms.assetid: 30ec235a-0abb-44b9-8852-61bc9e67ce22
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

@@ -1,5 +1,7 @@
 ---
 title: "SharePoint Development Walkthroughs | Microsoft Docs"
+description: See links to walkthroughs that show how to develop and deploy SharePoint solutions by using Visual Studio. The links are organized by feature area.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -9,7 +11,7 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, walkthroughs"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

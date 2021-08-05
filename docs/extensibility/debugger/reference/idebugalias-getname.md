@@ -1,20 +1,21 @@
 ---
-title: "IDebugAlias::GetName | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Gets the name of this alias."
+title: IDebugAlias::GetName | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugAlias::GetName"
+- IDebugAlias::GetName
 helpviewer_keywords:
-  - "IDebugAlias::GetName method"
+- IDebugAlias::GetName method
 ms.assetid: ac2d8891-56b5-40ef-9866-ed74f18bb043
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugAlias::GetName
 Gets the name of this alias.

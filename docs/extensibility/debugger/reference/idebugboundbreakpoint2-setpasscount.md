@@ -1,21 +1,22 @@
 ---
-title: "IDebugBoundBreakpoint2::SetPassCount | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Sets or changes the pass count associated with this bound breakpoint."
+title: IDebugBoundBreakpoint2::SetPassCount | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugBoundBreakpoint2::SetPassCount"
+- IDebugBoundBreakpoint2::SetPassCount
 helpviewer_keywords:
-  - "SetPassCount method"
-  - "IDebugBoundBreakpoint2::SetPassCount method"
+- SetPassCount method
+- IDebugBoundBreakpoint2::SetPassCount method
 ms.assetid: b32c12f9-b34d-43bd-a1b9-61af6cf8e51b
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugBoundBreakpoint2::SetPassCount
 Sets or changes the pass count associated with this bound breakpoint.

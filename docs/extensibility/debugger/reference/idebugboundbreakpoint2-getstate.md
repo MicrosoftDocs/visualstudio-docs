@@ -1,21 +1,22 @@
 ---
-title: "IDebugBoundBreakpoint2::GetState | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Gets the state of this bound breakpoint."
+title: IDebugBoundBreakpoint2::GetState | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugBoundBreakpoint2::GetState"
+- IDebugBoundBreakpoint2::GetState
 helpviewer_keywords:
-  - "GetState method"
-  - "IDebugBoundBreakpoint2::GetState method"
+- GetState method
+- IDebugBoundBreakpoint2::GetState method
 ms.assetid: a40a8382-295e-4916-aae6-ffe3a9cd3f2d
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugBoundBreakpoint2::GetState
 Gets the state of this bound breakpoint.

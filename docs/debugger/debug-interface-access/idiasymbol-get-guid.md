@@ -1,7 +1,8 @@
 ---
+description: "Retrieves the symbol's globally unique identifier (GUID)."
 title: "IDiaSymbol::get_guid | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: c02a6c92-f406-4646-82e7-3cd005af900e
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

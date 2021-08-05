@@ -1,20 +1,21 @@
 ---
-title: "IDebugExpression2::EvaluateSync | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "This method evaluates the expression synchronously."
+title: IDebugExpression2::EvaluateSync | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugExpression2::EvaluateSync"
+- IDebugExpression2::EvaluateSync
 helpviewer_keywords:
-  - "IDebugExpression2::EvaluateSync"
+- IDebugExpression2::EvaluateSync
 ms.assetid: 88964915-dce3-4005-b4f3-9f37415e41e4
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugExpression2::EvaluateSync
 This method evaluates the expression synchronously.

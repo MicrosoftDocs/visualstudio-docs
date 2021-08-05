@@ -1,7 +1,8 @@
 ---
+description: "Retrieves the compiland identifier for the section."
 title: "IDiaSectionContrib::get_compilandId | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 71ef2e63-d095-42b6-88d8-626e3129f0d9
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

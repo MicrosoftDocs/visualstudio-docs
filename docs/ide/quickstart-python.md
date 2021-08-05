@@ -1,12 +1,14 @@
 ---
-title: "Quickstart: use Visual Studio to create a Python web app"
+title: "Quickstart: Create a Python web app with Visual Studio"
+titleSuffix: ""
 description: In this quickstart, you use Visual Studio and the Flask framework to build a simple web app in Python.
 ms.date: 03/07/2019
 ms.technology: vs-python
 ms.topic: quickstart
 author: JoshuaPartlow
 ms.author: joshuapa
-manager: jillfra
+manager: jmartens
+ms.custom: [vs-acquisition,  SEO-VS-2020]
 ms.workload:
   - python
   - data-science
@@ -177,7 +179,7 @@ You're now ready to add a bit of Python code to implement a minimal web app.
 
 3. Select **Debug > Start Without Debugging** (**Ctrl**+**F5**), which saves changes to files and runs the app.
 
-4. A command window appears with the message "* Running in <https://localhost:4449/>", and a browser window should open to `localhost:4449` where you see the message, "Hello, Python!" The GET request also appears in the command window with a status of 200.
+4. A command window appears with the message **Running in https:\//localhost:4449**, and a browser window should open to `localhost:4449` where you see the message, "Hello, Python!" The GET request also appears in the command window with a status of 200.
 
     If a browser does not open automatically, start the browser of your choice and navigate to `localhost:4449`.
 

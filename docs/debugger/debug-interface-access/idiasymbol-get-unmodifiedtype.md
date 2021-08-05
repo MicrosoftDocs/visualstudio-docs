@@ -1,7 +1,8 @@
 ---
+description: "Retrieves the original type for this symbol."
 title: "IDiaSymbol::get_unmodifiedType | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: bf914dc0-ff84-4f5d-9f75-1733b17f3be0
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

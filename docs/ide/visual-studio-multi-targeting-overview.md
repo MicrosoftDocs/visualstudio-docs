@@ -1,24 +1,23 @@
 ---
 title: Targeted .NET frameworks
-ms.date: 02/06/2018
-ms.topic: conceptual
+description: Learn how to specify the version of the .NET Framework that you want your project to target so the application can only use functionality that's available in the specified version.
+ms.date: 03/31/2020
+ms.topic: overview
 helpviewer_keywords:
-  - "targeting .NET Framework [Visual Studio]"
-  - "framework targeting [Visual Studio]"
-  - ".NET framework targeting [Visual Studio]"
-author: jillre
-ms.author: jillfra
-manager: jillfra
+- targeting .NET Framework [Visual Studio]
+- framework targeting [Visual Studio]
+- .NET framework targeting [Visual Studio]
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ms.workload:
-  - "dotnet"
+- dotnet
 ---
 # Framework targeting overview
 
 In Visual Studio, you can specify the version of .NET that you want your project to target. Framework targeting helps guarantee that the application uses only functionality that is available in the specified framework version. For .NET Framework apps to run on another computer, the framework version that the application targets must be compatible with the framework version that's installed on the computer.
 
-A Visual Studio solution can contain projects that target different versions of .NET.
-
-For more information about target frameworks, see [Target frameworks](/dotnet/standard/frameworks).
+A Visual Studio solution can contain projects that target different versions of .NET.  However, note that you can only build against a single version of .NET either using reference conditionals for a single build or recursively build different binaries for each version.  For more information about target frameworks, see [Target frameworks](/dotnet/standard/frameworks).
 
 > [!TIP]
 > You can also target applications for different platforms. For more information, see [Multitargeting](../msbuild/msbuild-multitargeting-overview.md).

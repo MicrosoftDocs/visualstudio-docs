@@ -1,10 +1,13 @@
 ---
-title: "Performance tools on Windows 8 & Windows Server 2012 apps"
+title: "Performance tools on Windows 8 & WS 2012 apps"
+description: Learn how enhanced security features in Windows 8 and Windows Server 2012 required significant changes in the way Visual Studio performance tools collect data. 
+ms.custom: SEO-VS-2020
 ms.date: "06/19/2017"
 ms.topic: "conceptual"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+monikerRange: 'vs-2017'
 ms.workload:
   - "multiple"
 ---
@@ -31,13 +34,13 @@ These profiling features and options are not supported when profiling UWP apps:
 
 For more information about profiling UWP apps, see the following articles:
 
-- [Run UWP apps on the local machine](/visualstudio/debugger/start-a-debugging-session-for-a-store-app-in-visual-studio-vb-csharp-cpp-and-xaml)
+- [Run UWP apps on the local machine](../debugger/start-a-debugging-session-for-a-store-app-in-visual-studio-vb-csharp-cpp-and-xaml.md)
 - [Run UWP apps on a remote machine](../debugger/run-windows-store-apps-on-a-remote-machine.md)
 - [First look at profiling tools](profiling-feature-tour.md)
 - [JavaScript memory](../profiling/javascript-memory.md)
-- [Profile Visual C++, Visual C#, and Visual Basic code in UWP apps on a local machine](https://msdn.microsoft.com/2d0c939e-0bac-48c5-b727-46f6c6113060)
-- [Profile Visual C++, Visual C#, and Visual Basic code in UWP apps on a remote device](https://msdn.microsoft.com/b932a2be-11b0-40fd-b996-75c6b6a79d22)
-- [Analyze performance data for Visual C++, Visual C#, and Visual Basic code in UWP apps](https://msdn.microsoft.com/5de4a413-d924-425f-afc4-e1ecfb0fca18)
+- [Profile Visual C++, Visual C#, and Visual Basic code in UWP apps on a local machine](/previous-versions/hh696631(v=vs.140))
+- [Profile Visual C++, Visual C#, and Visual Basic code in UWP apps on a remote device](/previous-versions/hh972878(v=vs.140))
+- [Analyze performance data for Visual C++, Visual C#, and Visual Basic code in UWP apps](/previous-versions/hh780914(v=vs.140))
 
 ## Collect data on apps running on the Windows 8 desktop or on Windows Server 2012 from the Visual Studio IDE
 
@@ -66,7 +69,7 @@ Both tools are installed with Visual Studio for use on the local computer.
 
 To profile applications on devices that do not have Visual Studio installed, do one of the following:
 
-- Download the tools as part of the Remote Tools for Visual Studio from the [MSDN web site](http://go.microsoft.com/fwlink/?LinkID=219549).
+- Download the tools as part of the Remote Tools for Visual Studio from the [MSDN web site](https://visualstudio.microsoft.com/#downloads+d-additional-software).
 
 - Copy and run the stand-alone profiler tools installation program from your Visual Studio computer. To get the path to the profiling tools, see [Specify the path to command line tools](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md). Choose the setup program for the operating system (x86/x64) of the remote computer.
 

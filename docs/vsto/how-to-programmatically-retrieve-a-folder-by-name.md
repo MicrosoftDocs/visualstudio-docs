@@ -1,7 +1,9 @@
 ---
 title: "How to: Programmatically retrieve a folder by name"
+description: Learn how you can use Visual Studio to programmatically retrieve a folder by name and then display the contents of the folder.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: "how-to"
 dev_langs:
   - "VB"
   - "CSharp"
@@ -9,7 +11,7 @@ helpviewer_keywords:
   - "Outlook folders [Office development in Visual Studio], retrieving by name"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---
@@ -19,7 +21,7 @@ ms.workload:
  [!INCLUDE[appliesto_olkallapp](../vsto/includes/appliesto-olkallapp-md.md)]
 
 ## Example
- [!code-csharp[Trin_OL_GetFolderName#1](../vsto/codesnippet/CSharp/Trin_OL_GetFolderName/thisaddin.cs#1)]
+ :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_OL_GetFolderName/thisaddin.cs" id="Snippet1":::
 
 ## Compile the code
  This example requires:

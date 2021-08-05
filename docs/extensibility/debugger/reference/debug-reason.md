@@ -1,20 +1,21 @@
 ---
-title: "DEBUG_REASON | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Specifies why the process was launched for debugging."
+title: DEBUG_REASON | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "DEBUG_REASON"
+- DEBUG_REASON
 helpviewer_keywords:
-  - "DEBUG_REASON enumeration"
+- DEBUG_REASON enumeration
 ms.assetid: ad2ee898-8648-4671-9078-d32873862346
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # DEBUG_REASON
 Specifies why the process was launched for debugging.

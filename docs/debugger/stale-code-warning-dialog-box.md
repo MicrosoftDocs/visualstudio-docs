@@ -1,5 +1,7 @@
 ---
 title: "Stale Code Warning Dialog Box | Microsoft Docs"
+description: Read about the Stale Code Warning dialog box, which appears when you've made changes to native code that Edit and Continue couldn't immediately apply.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:
@@ -17,7 +19,7 @@ helpviewer_keywords:
 ms.assetid: 594b894c-e652-4e13-a980-9909473d5712
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

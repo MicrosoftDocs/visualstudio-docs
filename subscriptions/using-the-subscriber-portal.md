@@ -1,10 +1,11 @@
 ---
-title: Using the Subscriber Portal - http://my.visualstudio.com | Microsoft Docs
+title: Using the Subscriber Portal in Visual Studio subscriptions| Microsoft Docs
 author: evanwindom
-ms.author: lank
-manager: lank
-ms.date: 07/19/2019
-ms.topic: conceptual
+ms.author: v-evwin
+manager: cabuschl
+ms.assetid: 8470f035-2a82-4052-9a12-6f24ce796861
+ms.date: 02/19/2021
+ms.topic: overview
 description: Learn about the full range of benefits available to you on the Visual Studio subscriptions portal
 ---
 
@@ -12,7 +13,7 @@ description: Learn about the full range of benefits available to you on the Visu
 
 The Visual Studio Subscriptions Portal, [https://my.visualstudio.com](https://my.visualstudio.com?wt.mc_id=o~msft~docs), is your all-in-one resource to take advantage of the full range of benefits provided through your Visual Studio subscription.
 
-Using the portal requires that you sign in with the identity associated with your subscription.  This may your Microsoft Account (MSA) or an email address provided to you by an organization, such as your employer or school.  Learn about [signing in](signing-in.md).
+Using the portal requires that you sign in with the identity associated with your subscription.  This may be your Microsoft Account (MSA) or an email address provided to you by an organization, such as your employer or school.  Learn about [signing in](./index.yml).
 
 The portal is organized in six pages.  Each page provides you with access to different products or services included with your subscription.  The six pages are Benefits, Downloads, Product Keys, Subscriptions, Support, and Marketplace.
 
@@ -41,11 +42,17 @@ The Subscriptions page provides you with the capabilities to see which subscript
 
 ## Support
 
-In addition to the individual benefits found in the Support category on the Benefits page, the Support page provides access to resources to help you get the most out of your Visual Studio subscription. Access [support resources](https://visualstudio.microsoft.com/subscriptions/support/) to resolve technical issues or questions related to subscriptions sales, accounts, and billing.
+In addition to the individual benefits found in the Support category on the Benefits page, the Support page provides access to resources to help you get the most out of your Visual Studio subscription. Access [support resources](https://aka.ms/vssubscriberhelp) to resolve technical issues or questions related to subscriptions sales, accounts, and billing.
 
 ## [Marketplace](https://marketplace.visualstudio.com/)
 
 Need to renew a Visual Studio cloud subscription?  Want to download the latest extensions for the Visual Studio family of products?  The Marketplace helps users find extensions, tools, and services that make Azure DevOps, Azure DevOps Server, and Visual Studio Code even better. You can even become a publisher, and publish your own extensions on the Marketplace.
 
+## See also
+- [Visual Studio documentation](/visualstudio/)
+- [Azure DevOps documentation](/azure/devops/)
+- [Azure documentation](/azure/)
+- [Microsoft 365 documentation](/microsoft-365/)
+
 ## Next steps
-Sign in to the portal at [https://my.visualstudio.com](https://my.visualstudio.com?wt.mc_id=o~msft~docs) and check out your benefits.  You can also learn more about signing in to the portal with your [Microsoft Account](sign-in-msa.md) (MSA), your [work or school account](sign-in-work.md), and even your [GitHub account](sign-in-github.md). 
+Sign in to the portal at [https://my.visualstudio.com](https://my.visualstudio.com?wt.mc_id=o~msft~docs) and check out your benefits.  You can also learn more about signing in to the portal with your [Microsoft Account](sign-in-msa.md) (MSA), your [work or school account](sign-in-work.md), and even your [GitHub account](sign-in-github.md).

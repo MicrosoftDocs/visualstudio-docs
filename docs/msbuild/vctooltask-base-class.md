@@ -1,16 +1,18 @@
 ---
-title: "VCToolTask Class | Microsoft Docs"
-ms.date: "03/10/2019"
-ms.topic: "reference"
+title: VCToolTask Class | Microsoft Docs
+description: Learn about several parameters that the VCToolTask base class adds to the tasks that inherit from it.
+ms.custom: SEO-VS-2020
+ms.date: 03/10/2019
+ms.topic: reference
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
-author: mikeblome
-ms.author: mblome
+- VB
+- CSharp
+- C++
+- jsharp
+author: ghogen
+ms.author: ghogen
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # VCToolTask base class
 

@@ -1,17 +1,18 @@
 ---
-title: "IDebugThread2 | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "This interface represents a thread running in a program."
+title: IDebugThread2 | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugThread2"
+- IDebugThread2
 helpviewer_keywords:
-  - "IDebugThread2 interface"
+- IDebugThread2 interface
 ms.assetid: 221b4b1b-4a26-466e-bc29-5eff800fab13
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IDebugThread2
 This interface represents a thread running in a program.

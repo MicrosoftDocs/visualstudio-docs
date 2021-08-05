@@ -1,13 +1,15 @@
 ---
 title: Texture Nodes
+description: Learn about texture nodes that sample various texture types and geometries, then produce or transform texture coordinates in Shader Designer.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 ms.assetid: b7df5ef3-dd4f-4964-9d96-34e0e180515e
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Texture nodes
 

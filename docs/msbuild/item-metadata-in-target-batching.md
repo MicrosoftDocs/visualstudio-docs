@@ -1,25 +1,29 @@
 ---
-title: "Item Metadata in Target Batching | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Item Metadata in Target Batching | Microsoft Docs
+description: Learn how MSBuild uses item metadata in target batching to perform dependency analysis on the inputs and outputs of a build target.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "batching [MSBuild]"
-  - "MSBuild, target batching"
-  - "target batching [MSBuild]"
+- batching [MSBuild]
+- MSBuild, target batching
+- target batching [MSBuild]
 ms.assetid: f3cc4186-6a4c-4161-bbe5-1ec638b4925b
-author: mikejo5000
-ms.author: mikejo
-manager: jillfra
+author: ghogen
+ms.author: ghogen
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Item metadata in target batching
-[!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] has the ability to perform dependency analysis on the inputs and outputs of a build target. If it is determined that the inputs or outputs of the target are up-to-date, the target will be skipped and the build will proceed. `Target` elements use the `Inputs` and `Outputs` attributes to specify the items to inspect during dependency analysis.
 
-If a target contains a task that uses batched items as inputs or outputs, the `Target` element of the target should use batching in its `Inputs` or `Outputs` attributes to enable [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] to skip batches of items that are already up-to-date.
+MSBuild has the ability to perform dependency analysis on the inputs and outputs of a build target. If it is determined that the inputs or outputs of the target are up-to-date, the target will be skipped and the build will proceed. `Target` elements use the `Inputs` and `Outputs` attributes to specify the items to inspect during dependency analysis.
+
+If a target contains a task that uses batched items as inputs or outputs, the `Target` element of the target should use batching in its `Inputs` or `Outputs` attributes to enable MSBuild to skip batches of items that are already up-to-date.
 
 ## Batch targets
-The following example contains an item list named `Res` that is divided into two batches based on the `Culture` item metadata. Each of these batches is passed into the `AL` task, which creates an output assembly for each batch. By using batching on the `Outputs` attribute of the `Target` element, [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] can determine if each of the individual batches is up-to-date before running the target. Without using target batching, both batches of items would be run by the task every time the target was executed.
+
+The following example contains an item list named `Res` that is divided into two batches based on the `Culture` item metadata. Each of these batches is passed into the `AL` task, which creates an output assembly for each batch. By using batching on the `Outputs` attribute of the `Target` element, MSBuild can determine if each of the individual batches is up-to-date before running the target. Without using target batching, both batches of items would be run by the task every time the target was executed.
 
 ```xml
 <Project
@@ -60,6 +64,7 @@ The following example contains an item list named `Res` that is divided into two
 ```
 
 ## See also
+
 - [How to: Build incrementally](../msbuild/how-to-build-incrementally.md)
 - [Batching](../msbuild/msbuild-batching.md)
 - [Target element (MSBuild)](../msbuild/target-element-msbuild.md)

@@ -1,16 +1,16 @@
 ### YamlMime:Landing
 
-title: Code analysis in Visual Studio
+title: Analyze code in Visual Studio
 summary: Visual Studio provides several different tools to analyze and improve code quality.
 
 metadata:
   title: Code analyzers
   description: Learn how Visual Studio can help you analyze code quality.
   ms.prod: visual-studio-windows
-  ms.technology: vs-ide-general
+  ms.technology: vs-ide-code-analysis
   ms.topic: landing-page
-  author: gewarren
-  ms.author: gewarren
+  author: Mikejo5000
+  ms.author: mikejo
   ms.date: 10/15/2019
 
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
@@ -21,49 +21,59 @@ metadata:
 landingContent:
 
   # Card
-  - title: Analyze C and C++ code
+  - title: Configure .NET code analysis
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: Analyze .NET code
+            url: roslyn-analyzers-overview.md
+      - linkListType: concept
+        links:
+          - text: FAQ
+            url: analyzers-faq.yml
+      - linkListType: how-to-guide
+        links:
+          - text: .NET code analysis
+            url: use-roslyn-analyzers.md
+          - text: .NET code quality analysis
+            url: /dotnet/fundamentals/code-analysis/configuration-files?toc=%2fvisualstudio%2fcode-quality%2ftoc.json
+          - text: .NET code style analysis
+            url: ../ide/code-styles-and-code-cleanup.md?toc=%252fvisualstudio%252fcode-quality%252ftoc.json
+
+  # Card
+  - title: .NET code analysis
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: .NET source code analysis
+            url: /dotnet/fundamentals/code-analysis/overview
+          - text: .NET code quality analysis
+            url: /dotnet/fundamentals/productivity/code-analysis#code-quality-analysis
+          - text: .NET code style analysis
+            url: /dotnet/fundamentals/productivity/code-analysis#code-style-analysis
+      - linkListType: reference
+        links:
+          - text: .NET code quality rules
+            url: /dotnet/fundamentals/productivity/code-analysis/quality-rules/index
+          - text: .NET code style rules
+            url: /dotnet/fundamentals/productivity/code-analysis/style-rules/index
+
+  # Card
+  - title: C++ code analysis
     linkLists:
       - linkListType: overview
         links:
           - text: Analyze C and C++ code
-            url: code-analysis-for-c-cpp-overview.md
+            url: /cpp/code-quality/code-analysis-for-c-cpp-overview
+          - text: EditorConfig formatting conventions
+            url: ../ide/cpp-editorconfig-properties.md
       - linkListType: reference
         links:
           - text: C++ code analysis warnings
-            url: code-analysis-for-c-cpp-warnings.md
+            url: /cpp/code-quality/code-analysis-for-c-cpp-warnings
 
   # Card
-  - title: Analyze managed code quality
-    linkLists:
-      - linkListType: overview
-        links:
-          - text: Source analysis
-            url: roslyn-analyzers-overview.md
-          - text: Legacy analysis
-            url: static-code-analysis-for-managed-code-overview.md
-      - linkListType: concept
-        links:
-          - text: FAQ
-            url: analyzers-faq.md
-      - linkListType: how-to-guide
-        links:
-          - text: Install FxCop analyzers
-            url: install-fxcop-analyzers.md
-      - linkListType: reference
-        links:
-          - text: Managed code analysis warnings
-            url: code-analysis-for-managed-code-warnings.md
-
-  # Card
-  - title: Analyze managed code style
-    linkLists:
-      - linkListType: how-to-guide
-        links:
-          - text: Analyze code style
-            url: ../ide/create-portable-custom-editor-options.md
-
-  # Card
-  - title: Measure code complexity
+  - title: Measure code complexity (.NET)
     linkLists:
       - linkListType: concept
         links:

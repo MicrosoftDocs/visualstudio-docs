@@ -1,20 +1,21 @@
 ---
-title: "BSTR_ARRAY | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "A structure that describes an array of strings."
+title: BSTR_ARRAY | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "BSTR_ARRAY"
+- BSTR_ARRAY
 helpviewer_keywords:
-  - "BSTR_ARRAY structure"
+- BSTR_ARRAY structure
 ms.assetid: 48da37f7-a237-48a9-9ff9-389c1a00862c
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # BSTR_ARRAY
 A structure that describes an array of strings.

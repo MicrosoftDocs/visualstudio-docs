@@ -1,18 +1,20 @@
 ---
 title: Projects and Solutions, Options dialog box
+description: Learn how to use the General page in the Projects and Solutions section to define the behavior of Visual Studio related to projects and solutions.
+ms.custom: SEO-VS-2020
 ms.date: 07/26/2019
 ms.topic: reference
 f1_keywords:
-  - "VS.ToolsOptionsPages.Projects.General"
+- VS.ToolsOptionsPages.Projects.General
 helpviewer_keywords:
-  - "Projects and Solutions Options dialog box"
-  - "Options dialog box, Projects and Solutions"
+- Projects and Solutions Options dialog box
+- Options dialog box, Projects and Solutions
 ms.assetid: 2801f24e-a138-488a-ae3c-e1f99a678ac0
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Options dialog box: Projects and Solutions \> General
 

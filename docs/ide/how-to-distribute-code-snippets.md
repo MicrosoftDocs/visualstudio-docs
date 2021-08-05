@@ -1,17 +1,19 @@
 ---
 title: Distribute code snippets as an extension
+description: Learn how to use the Code Snippets Manager to distribute code snippets to other developers.
+ms.custom: SEO-VS-2020
 ms.date: 03/21/2019
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
-  - "code snippets, distributing"
+- code snippets, distributing
 ms.assetid: 5f717abd-e167-47ae-818c-6b0bae100ceb
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 dev_langs:
-  - "VB"
+- VB
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Distribute code snippets
 

@@ -1,13 +1,16 @@
 ---
-title: "Roslyn Analyzers and Code-aware Library for ImmutableArrays | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Roslyn analyzers and code-aware libraries for ImmutableArrays
+description: Learn how to build a real world Roslyn analyzer to catch common errors when using the System.Collections.Immutable NuGet package.
+ms.custom: SEO-VS-2020
+titleSuffix: ""
+ms.date: 11/04/2016
+ms.topic: conceptual
 ms.assetid: 0b0afa22-3fca-4d59-908e-352464c1d903
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Roslyn analyzers and code-aware library for ImmutableArrays
 
@@ -19,7 +22,7 @@ You need the following to build this example:
 
 * Visual Studio 2015 (not an Express Edition) or a later version. You can use the free [Visual Studio Community Edition](https://visualstudio.microsoft.com/vs/community/)
 * [Visual Studio SDK](../extensibility/visual-studio-sdk.md). You can also, when installing Visual Studio, check **Visual Studio Extensibility Tools** under **Common Tools** to install the SDK at the same time. If you have already installed Visual Studio, you can also install this SDK by going to the main menu **File** > **New** > **Project**, choosing **C#** in the left navigation pane, and then choosing **Extensibility**. When you choose the "**Install the Visual Studio Extensibility Tools**" breadcrumb project template, it prompts you to download and install the SDK.
-* [.NET Compiler Platform ("Roslyn") SDK](https://aka.ms/roslynsdktemplates). You can also install this SDK by going to the main menu **File** > **New** > **Project**, choosing **C#** in the left navigation pane, and then choosing **Extensibility**. When you choose "**Download the .NET Compiler Platform SDK**" breadcrumb project template, it prompts you to download and install the SDK. This SDK includes the [Roslyn Syntax Visualizer](https://github.com/dotnet/roslyn/wiki/Syntax%20Visualizer). This useful tool helps you figure out what code model types you should look for in your analyzer. The analyzer infrastructure calls into your code for specific code model types, so your code only executes when necessary and can focus only on analyzing relevant code.
+* [.NET Compiler Platform ("Roslyn") SDK](https://marketplace.visualstudio.com/items?itemName=VisualStudioProductTeam.NETCompilerPlatformSDK). You can also install this SDK by going to the main menu **File** > **New** > **Project**, choosing **C#** in the left navigation pane, and then choosing **Extensibility**. When you choose "**Download the .NET Compiler Platform SDK**" breadcrumb project template, it prompts you to download and install the SDK. This SDK includes the [Roslyn Syntax Visualizer](https://github.com/dotnet/roslyn/blob/master/docs/wiki/Syntax-Visualizer.md). This useful tool helps you figure out what code model types you should look for in your analyzer. The analyzer infrastructure calls into your code for specific code model types, so your code only executes when necessary and can focus only on analyzing relevant code.
 
 ## What's the problem?
 
@@ -306,4 +309,4 @@ You can see all the finished code [here](https://github.com/DustinCampbell/CoreF
 * [Completed code on GitHub](https://github.com/DustinCampbell/CoreFxAnalyzers/tree/master/Source/CoreFxAnalyzers)
 * [Several examples on GitHub, grouped into three kinds of analyzers](https://github.com/dotnet/roslyn/blob/master/docs/analyzers/Analyzer%20Samples.md)
 * [Other docs on the GitHub OSS site](https://github.com/dotnet/roslyn/tree/master/docs/analyzers)
-* [FxCop rules implemented with Roslyn analyzers on GitHub](https://github.com/dotnet/roslyn/tree/master/src/Diagnostics/FxCop)
+* [FxCop rules implemented with Roslyn analyzers on GitHub](https://github.com/dotnet/roslyn/tree/master/src/Features/Core/Portable/Diagnostics/Analyzers)

@@ -1,5 +1,7 @@
 ---
 title: "Function Details View | Microsoft Docs"
+description: In Performance Explorer, learn about the Function Details View window, Cost Distribution bar chart, Function Performance Details table, and the Function Code View window.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:
@@ -10,7 +12,8 @@ helpviewer_keywords:
 ms.assetid: 8806954f-cf28-48d5-81b2-d722ceaf7d27
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+monikerRange: 'vs-2017'
 ms.workload:
   - "multiple"
 ---
@@ -78,14 +81,14 @@ The **Function Details View** window displays the following information:
 ### Sampling
  The following table explains the values in the Performance Metric list for profiling data that was collected by using the sampling method.
 
-|||
+|Value|Description|
 |-|-|
 |**Inclusive Samples (Collected Samples)**|-   For a calling function, the number of samples that were collected when the selected function was called by this calling function.<br />-   For the Function Body, the number of samples that were collected when the selected function was executing its own code.<br />-   For a called function, the number of samples that were collected when the called function was executing because of a call from the selected function.|
 
 ### Instrumentation
  The following table explains the values in the Performance Metric list for profiling data that was collected by using the instrumentation method.
 
-|||
+|Value|Description|
 |-|-|
 |**Elapsed Inclusive Time (Elapsed Time)**|Elapsed time includes time that was spent in calls to the operating system, such as context switches and input/output operations.<br /><br /> -   For a **Calling Function**, the amount of elapsed time that was spent executing the instances of the selected function that were called by the function. Time spent in functions called by the selected function is included.<br />-   For the **Function Body**, the total amount of elapsed time spent executing the code of the selected function. Time spent in called functions is not included.<br />-   For a called function, the amount time spent executing the instances of the function that were called by the selected function. The total includes time that was spent in functions that the function called. Time spent in functions called by the selected function is included.|
 |**Application Inclusive Time (Application Time)**|Application time does not include time that was spent in calls to the operating system, such as context switches and input/output operations.<br /><br /> -   For a **Calling Function**, the amount of application time that was spent executing the instances of the selected function that were called by the function. Time spent in functions called by the selected function is included.<br />-   For the **Function Body**, the total amount of application time spent executing the code of the selected function. Time spent in called functions is not included.<br />-   For a called function, the amount application time spent executing the instances of the function that were called by the selected function. The total includes time that was spent in functions that the function called.|
@@ -93,7 +96,7 @@ The **Function Details View** window displays the following information:
 ### .NET Memory
  The following table explains the values in the Performance Metric list for profiling data that was collected by using the .NET memory profiling method.
 
-|||
+|Value|Description|
 |-|-|
 |**Inclusive Allocations (Allocations)**|-   For a **Calling Function**, the number of objects that were allocated by the instances of the selected function that the function called. The number includes objects that were allocated by functions that the selected function called.<br />-   For the **Function Body**, the number of objects that were allocated by the by the selected function when it was executing its own code. Objects allocated in functions called by the selected function are not included.<br />-   For a called function, the number of objects that were allocated by the instances of the function that were called by the selected function. The number includes objects that were allocated by functions that the function called.|
 |**Inclusive Bytes (Bytes)**|-   For a **Calling Function**, the number of bytes that were allocated by the instances of the selected function that the function called. The number includes bytes that were allocated by functions that the selected function called.<br />-   For the **Function Body**, the total number of bytes that were allocated by the selected function when it was executing its own code. Bytes allocated in functions called by the selected function are not included.<br />-   For a called function, the number of bytes that were allocated by the instances of the function that were called by the selected function. The number includes bytes that were allocated by functions that the function called.|
@@ -101,7 +104,7 @@ The **Function Details View** window displays the following information:
 ### Concurrency
  The following table explains the values in the Performance Metric list for profiling data that was collected by using the concurrency method.
 
-|||
+|Value|Description|
 |-|-|
 |**Inclusive Contentions (Contentions)**|-   For a **Calling Function**, the number of resource contention events that occurred in the instances of the selected function that the function called. The number includes contention events in functions that the selected function called.<br />-   For the **Function Body**, the total number of contention events that occurred when the function was executing its own code. Contentions occurring in functions that were called by the selected function are not included.<br />-   For a called function, the number of contention events that occurred in the instances of the function that were called by the selected function. The number includes contention events that occurred in functions that function called.|
 |**Inclusive Blocked Time (Blocked Time)**|-   For a calling function, the time that was spent in resource contention events for the instances of the selected function that the function called. The time includes blocked time in functions that selected function called.<br />-   For the **Function Body**, the total time that was spent in contention events that occurred when the function was executing its own code. Contentions occurring in functions that the selected function called are not included.<br />-   For a called function, the time that was spent in resource contention events for the instances of the function that the selected function called. The time includes blocked time that occurred in functions that the function called.|

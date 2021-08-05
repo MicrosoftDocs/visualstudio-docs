@@ -1,16 +1,18 @@
 ---
 title: Project Properties Reference
+description: Learn how to configure and customize project properties.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "user interface [Visual Studio], projects"
-  - "projects [Visual Studio], user interface"
+- user interface [Visual Studio], projects
+- projects [Visual Studio], user interface
 ms.assetid: eec49aec-5474-48a7-889d-709045b9a475
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Project Properties reference
 

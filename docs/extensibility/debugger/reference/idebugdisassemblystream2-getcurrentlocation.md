@@ -1,20 +1,21 @@
 ---
-title: "IDebugDisassemblyStream2::GetCurrentLocation | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Returns a code location identifier that represents the current code location."
+title: IDebugDisassemblyStream2::GetCurrentLocation | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugDisassemblyStream2::GetCurrentLocation"
+- IDebugDisassemblyStream2::GetCurrentLocation
 helpviewer_keywords:
-  - "IDebugDisassemblyStream2::GetCurrentLocation"
+- IDebugDisassemblyStream2::GetCurrentLocation
 ms.assetid: 512302f1-12b1-4107-8a6e-c5bc878ce1c3
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugDisassemblyStream2::GetCurrentLocation
 Returns a code location identifier that represents the current code location.

@@ -1,6 +1,8 @@
 ---
-title: "Step 5: Add Enter event handlers for NumericUpDown controls"
+title: "Add Enter event handlers for NumericUpDown controls"
+description: Add Enter event handlers for NumericUpDown controls in the create a timed math quiz tutorial. 
 ms.date: 11/04/2016
+ms.custom: SEO-VS-2020
 ms.topic: tutorial
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
@@ -8,9 +10,9 @@ dev_langs:
   - "CSharp"
   - "VB"
 ms.assetid: 45a99a5d-c881-4298-b74d-adb481dec5ee
-author: TerryGLee
-ms.author: tglee
-manager: jillfra
+author: j-martens
+ms.author: jmartens
+manager: jmartens
 ms.workload:
   - "multiple"
 ---
@@ -19,9 +21,7 @@ ms.workload:
 In the fifth part of this tutorial, you'll add <xref:System.Windows.Forms.Control.Enter> event handlers to make entering answers for quiz problems a little easier. This code will select and clear the current value in each <xref:System.Windows.Forms.NumericUpDown> control as soon as the quiz taker chooses it and starts to enter a different value.
 
 > [!NOTE]
-> This topic is part of a tutorial series about basic coding concepts.
-> - For an overview of the tutorial, see [Tutorial 2: Create a timed math quiz](../ide/tutorial-2-create-a-timed-math-quiz.md).
-> - To download a completed version of the code, see [Complete math quiz tutorial sample](https://code.msdn.microsoft.com/Complete-Math-Quiz-8581813c).
+> This topic is part of a tutorial series about basic coding concepts. For an overview of the tutorial, see [Tutorial 2: Create a timed math quiz](../ide/tutorial-2-create-a-timed-math-quiz.md).
 
 ## To verify the default behavior
 
@@ -53,8 +53,8 @@ In the fifth part of this tutorial, you'll add <xref:System.Windows.Forms.Contro
 
 3. In the method for the **answer_Enter** event handler, add the following code:
 
-     [!code-vb[VbExpressTutorial3Step5_6#11](../ide/codesnippet/VisualBasic/step-5-add-enter-event-handlers-for-the-numericupdown-controls_1.vb)]
-     [!code-csharp[VbExpressTutorial3Step5_6#11](../ide/codesnippet/CSharp/step-5-add-enter-event-handlers-for-the-numericupdown-controls_1.cs)]
+     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial3step5_6/vb/form1.vb" id="Snippet11":::
+     :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial3step5_6/cs/form1.cs" id="Snippet11":::
 
      [!INCLUDE [devlang-control-csharp-vb](./includes/devlang-control-csharp-vb.md)]
 

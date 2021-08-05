@@ -1,14 +1,15 @@
 ---
 title: Load a subset of projects
+description: Learn about solution filtering and how it allows you to quickly load a subset of projects in a solution.
+ms.custom: SEO-VS-2020
 ms.date: 04/22/2019
-ms.prod: visual-studio-dev16
 ms.topic: conceptual
 helpviewer_keywords:
  - "filtered solution"
  - "solution filtering"
-author: jillre
+author: TerryGLee
 ms.author: stsu
-manager: jillfra
+manager: jmartens
 monikerRange: ">= vs-2019"
 ---
 # Filtered solutions in Visual Studio
@@ -22,6 +23,9 @@ The following features are available:
 - When you reopen a solution, Visual Studio remembers which projects were loaded in your previous session and only loads those projects.
 
 - You can create a solution filter file to save one or more project-load configurations or share the configuration with teammates.
+
+> [!NOTE]
+> This topic applies to Visual Studio on Windows.
 
 ## Open a filtered solution
 

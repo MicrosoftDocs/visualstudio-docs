@@ -1,20 +1,21 @@
 ---
-title: "EncUnavailableReason | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Represents the reasons that Edit and Continue is not available."
+title: EncUnavailableReason | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "EncUnavailableReason"
+- EncUnavailableReason
 helpviewer_keywords:
-  - "EncUnavailableReason enumeration"
+- EncUnavailableReason enumeration
 ms.assetid: c10aa4c0-d7e0-4de1-b8ff-7e050985eb12
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # EncUnavailableReason
 `This is for internal use only!` Represents the reasons that **Edit and Continue** is not available.

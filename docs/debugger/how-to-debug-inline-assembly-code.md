@@ -1,24 +1,26 @@
 ---
-title: "How to: Debug Inline Assembly Code | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-f1_keywords:
-  - "vs.debug.inline"
-dev_langs:
-  - "CSharp"
-  - "VB"
-  - "FSharp"
-  - "C++"
-helpviewer_keywords:
-  - "assembly language, debugging inline assembly code"
-  - "debugging [C++], inline assembly code"
-  - "inline assembly, debugging"
+title: Debug Inline Assembly Code | Microsoft Docs
+description: When you debug inline assembly code, use the Disassembly window to see the assembly instructions, and use the Registers window to view the register values.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
+f1_keywords: 
+  - vs.debug.inline
+dev_langs: 
+  - CSharp
+  - VB
+  - FSharp
+  - C++
+helpviewer_keywords: 
+  - assembly language, debugging inline assembly code
+  - debugging [C++], inline assembly code
+  - inline assembly, debugging
 ms.assetid: cc5664e0-0b38-40c1-bb65-04ae720c2adb
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
-ms.workload:
-  - "multiple"
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.workload: 
+  - multiple
 ---
 # How to: Debug Inline Assembly Code
 

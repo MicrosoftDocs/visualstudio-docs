@@ -1,5 +1,7 @@
 ---
 title: "&lt;InstallChecks&gt; Element (Bootstrapper) | Microsoft Docs"
+description: The InstallChecks element supports starting a variety of tests on the local computer to make sure that all prerequisites for an application have been installed.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:
@@ -12,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: ad329c87-b0ad-4304-84de-ae9496514c42
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---
@@ -150,7 +152,7 @@ The `InstallChecks` element supports starting a variety of tests against the loc
 ## InstallConditions
  When `InstallChecks` are evaluated, they produce properties. The properties are then used by `InstallConditions` to determine whether a package should install, bypass, or fail. The following table lists the `InstallConditions`:
 
-|||
+|Condition|Description|
 |-|-|
 |`FailIf`|If any `FailIf` condition evaluates to true, the package will fail. The rest of the conditions will not be evaluated.|
 |`BypassIf`|If any `BypassIf` condition evaluates to true, the package will be bypassed. The rest of the conditions will not be evaluated.|
@@ -169,9 +171,19 @@ The `InstallChecks` element supports starting a variety of tests against the loc
  For example, to block installation on a computer running Windows 95, use code such as the following:
 
 ```xml
-<!-- Block install on Windows 95 -->
+    <!-- Block install on Windows 95 -->
     <FailIf Property="Version9X" Compare="VersionLessThan" Value="4.10" String="InvalidPlatform"/>
 ```
+
+ To skip running install checks if a FailIf or BypassIf condition is met, use the BeforeInstallChecks attribute.  For example:
+
+```xml
+    <!-- Block install and do not evaluate install checks if user does not have admin privileges -->
+    <FailIf Property="AdminUser" Compare="ValueEqualTo" Value="false" String="AdminRequired" BeforeInstallChecks="true"/>
+```
+
+>[!NOTE]
+>The `BeforeInstallChecks` attribute is supported starting with the Visual Studio 2019 Update 9 release.
 
 ## See also
 - [\<Commands> element](../deployment/commands-element-bootstrapper.md)

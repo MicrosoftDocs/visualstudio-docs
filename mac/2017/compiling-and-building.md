@@ -1,10 +1,11 @@
 ---
 title: "Compiling and Building"
 description: "This article describes how to compile and build projects and solutions in Visual Studio for Mac"
-author: conceptdev
-ms.author: crdun
+author: heiligerdankgesang
+ms.author: dominicn
 ms.date: 05/06/2018
 ms.assetid: FB253757-DB00-4889-A6BF-E44722E25BD1
+ms.topic: overview
 ---
 
 # Compiling and building in Visual Studio for Mac
@@ -41,7 +42,7 @@ See the [MSBuild](/visualstudio/msbuild/msbuild) content for more information on
 
 ## Building from Azure Pipelines
 
-* [Build your Xamarin App](/vsts/pipelines/apps/mobile/xamarin?view=vsts&tabs=vsts)
+* [Build your Xamarin App](/vsts/pipelines/apps/mobile/xamarin?view=vsts&preserve-view=true&tabs=vsts)
 * [Continuous Integration with Xamarin](https://developer.xamarin.com/guides/cross-platform/ci/)
 
 ## See also

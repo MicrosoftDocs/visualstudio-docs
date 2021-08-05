@@ -1,15 +1,17 @@
 ---
-title: "Tutorial 1: Create a picture viewer"
+title: 'Tutorial 1: Create a picture viewer'
+description: Learn how to build an app that loads a picture from a file and displays it in a window.
+ms.custom: SEO-VS-2020
 ms.date: 10/16/2019
 ms.assetid: 3071d6df-2b2f-4e95-ab68-bef727323136
 ms.topic: tutorial
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
-author: TerryGLee
-ms.author: tglee
-manager: jillfra
+author: j-martens
+ms.author: jmartens
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Tutorial 1: Create a picture viewer
 
@@ -62,6 +64,6 @@ To begin the tutorial, start with **[Step 1: Create a Windows Forms application 
 
 ## See also
 
-* [More C# tutorials](/visualstudio/get-started/csharp/)
-* [Visual Basic tutorials](/visualstudio/get-started/visual-basic/)
+* [More C# tutorials](../get-started/csharp/index.yml)
+* [Visual Basic tutorials](../get-started/visual-basic/index.yml)
 * [C++ tutorials](/cpp/get-started/tutorial-console-cpp)

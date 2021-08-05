@@ -1,19 +1,21 @@
 ---
 title: List Registers Command
+description: Learn about the List Registers command and how it displays the value of the selected registers and lets you modify the list of registers to show.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "debug.listregisters"
+- debug.listregisters
 helpviewer_keywords:
-  - "list registers command"
-  - "Debug.ListRegisters command"
-  - "ListRegisters command"
+- list registers command
+- Debug.ListRegisters command
+- ListRegisters command
 ms.assetid: 19a9d789-f6c9-46b3-b1f6-4934fc33e055
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # List Registers Command
 Displays the value of the selected registers and lets you modify the list of registers to show.

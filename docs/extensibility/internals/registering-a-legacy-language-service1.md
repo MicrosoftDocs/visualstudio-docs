@@ -1,17 +1,19 @@
 ---
-title: "Registering a Legacy Language Service1 | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Registering a Legacy Language Service1 | Microsoft Docs
+description: Learn about the registering a legacy language service from a VSPackage with Visual Studio by adding registry keys and entries.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "language services [managed package framework], registering"
+- language services [managed package framework], registering
 ms.assetid: d33b08af-09e0-4c79-87b2-5536b27fbacf
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
-# Registering a Legacy Language Service
+# Registering a legacy language service 1
 In the managed package framework (MPF), the language service is proffered by a VSPackage (see [VSPackages](../../extensibility/internals/vspackages.md)) and is registered with [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] by adding registry keys and entries. This registration process is done in partly during installation and partly at run time.
 
 ## Register the Language Service by Using Attributes

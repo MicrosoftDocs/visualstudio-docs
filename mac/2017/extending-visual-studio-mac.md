@@ -1,8 +1,8 @@
 ---
 title: "Extending Visual Studio for Mac"
 description: "Visual Studio for Mac's features and functionality can be extended with modules called extension packages. The first part of this guide creates a simple Visual Studio for Mac extension package to insert the date and time into a document. The second part of this guide introduces the fundamentals of the extension package system and some of the core APIs that form the foundation of Visual Studio for Mac."
-author: conceptdev
-ms.author: crdun
+author: heiligerdankgesang
+ms.author: dominicn
 ms.date: 04/14/2017
 ms.technology: vs-ide-sdk
 ms.assetid: D5245AB0-8404-426B-B538-F49125E672B2
@@ -130,7 +130,7 @@ This ties together the Command and CommandItem - the CommandItem calls the Comma
 
 <!--The extension package detailed in the [Walkthrough](~/extending-visual-studio-mac-walkthrough.md) deals with the Text Editor in Visual Studio for Mac, but this is only one of many possible areas for customization. -->
 
-For information on the scope of areas that are available for development, see the [Extension Tree Reference](http://monodevelop.com/Developers/Articles/Extension_Tree_Reference) and the [API Overview](http://monodevelop.com/Developers/Articles/API_Overview). When building advanced extension packages, also refer to [Developer Articles](http://monodevelop.com/Developers/Articles). Below is a partial list of areas for customization:
+For information on the scope of areas that are available for development, see the [Extension Tree Reference](https://www.monodevelop.com/developers/articles/extension-tree-reference/) and the [API Overview](https://www.monodevelop.com/developers/articles/api-overview/). When building advanced extension packages, also refer to [Developer Articles](https://www.monodevelop.com/developers/articles/). Below is a partial list of areas for customization:
 
 * Pads
 * Key Binding Schemes
@@ -157,7 +157,7 @@ For information on the scope of areas that are available for development, see th
 ## Additional Information
 
 > [!NOTE]
-> We are currently working on improving the extensibility scenarios for Visual Studio for Mac. If you are creating extensions and need additional help or information, or would like to provide feedback, please fill in the [Visual Studio for Mac Extension Authoring](https://aka.ms/vsmac-extensions-survey) form.
+> We are currently working on improving the extensibility scenarios for Visual Studio for Mac. If you are creating extensions and need additional help or information, or would like to provide feedback, please fill in the [Visual Studio for Mac Extension Authoring](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR3YufGX_azhFl7MkrQO9i9JUNVMyMklVVlAzQVdURDg2NjQxTFRBVTJURC4u) form.
 
 ## See also
 

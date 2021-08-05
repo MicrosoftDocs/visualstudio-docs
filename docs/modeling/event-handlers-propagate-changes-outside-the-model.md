@@ -1,15 +1,17 @@
 ---
 title: Event Handlers Propagate Changes Outside the Model
+description: Learn that in the Visualization and Modeling SDK, you can define store event handlers to propagate changes to resources outside the store.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "Domain-Specific Language, programming domain models"
-  - "Domain-Specific Language, events"
-author: jillre
-ms.author: jillfra
-manager: jillfra
+- Domain-Specific Language, programming domain models
+- Domain-Specific Language, events
+author: mgoertz-msft
+ms.author: mgoertz
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Event Handlers Propagate Changes Outside the Model
 

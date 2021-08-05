@@ -1,19 +1,21 @@
 ---
-title: "How to: Register a Library with the Object Manager | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: 'How to: Register a Library with the Object Manager | Microsoft Docs'
+description: Learn how to register a library with the Visual Studio object manager so that you can view symbols in browsing tools, such as Class View and Object Browser.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
 helpviewer_keywords:
-  - "libraries, registering with object manager"
-  - "IVsLibrary2 interface, registering library with object manager"
-  - "IVsSimpleLibrary2 interface, registering library with object manager"
-  - "IVsObjectManager2 interface, registering library with object manager"
-  - "libraries, symbol-browsing tools"
+- libraries, registering with object manager
+- IVsLibrary2 interface, registering library with object manager
+- IVsSimpleLibrary2 interface, registering library with object manager
+- IVsObjectManager2 interface, registering library with object manager
+- libraries, symbol-browsing tools
 ms.assetid: f124dd05-cb0f-44ad-bb2a-7c0b34ef4038
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # How to: Register a library with the object manager
 Symbols-browsing tools, such as **Class View**, **Object Browser**, **Call Browser** and **Find Symbol Results**, enable you to view symbols in your project or in external components. The symbols include namespaces, classes, interfaces, methods, and other language elements. The libraries track these symbols and expose them to the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] object manager that populates the tools with the data.

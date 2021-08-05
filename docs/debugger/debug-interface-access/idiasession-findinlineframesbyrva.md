@@ -1,13 +1,14 @@
 ---
+description: "IDiaSession::findInlineFramesByRVA retrieves an enumeration that allows a client to iterate through all of the inline frames on a specified relative virtual address (RVA)."
 title: "IDiaSession::findInlineFramesByRVA | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 ms.assetid: ddb3ff0e-cb3d-4fa0-af56-f064b218b264
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

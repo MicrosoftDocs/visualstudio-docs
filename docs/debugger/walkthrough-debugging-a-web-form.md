@@ -1,6 +1,7 @@
 ---
 title: "Debug a Web Form | Microsoft Docs"
-ms.custom: "seodec18"
+description: Follow a walkthrough to see how to debug an ASP.NET Web application (Web Form), including how to set breakpoints and examine variables.
+ms.custom: "SEO-VS-2020"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:
@@ -20,7 +21,7 @@ helpviewer_keywords:
 ms.assetid: e2b4fa14-8f5b-444d-a903-54070b784bd4
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---
@@ -92,7 +93,7 @@ The dialog boxes and menu commands you see might differ from those described in 
    textBox1.Text = "Button was clicked!";
    ```
 
-    A red dot appears and the text on the line is highlighted in red. The red dot represents a breakpoint. When you run the application under the debugger, the debugger will break execution at that location when the code is hit. You can then view the state of your application and debug it. For more information, see [Breakpoints](https://msdn.microsoft.com/library/fe4eedc1-71aa-4928-962f-0912c334d583).
+    A red dot appears and the text on the line is highlighted in red. The red dot represents a breakpoint. When you run the application under the debugger, the debugger will break execution at that location when the code is hit. You can then view the state of your application and debug it. For more information, see [Breakpoints](/previous-versions/ktf38f66(v=vs.100)).
 
 2. On the **Debug** menu, click **Start Debugging**.
 

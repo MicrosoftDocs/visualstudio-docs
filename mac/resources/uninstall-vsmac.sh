@@ -42,7 +42,9 @@ rm -rf ~/Library/Xamarin.Mac
 # Uninstall Workbooks and Inspector
 echo "Uninstalling Workbooks and Inspector..."
 
-sudo /Library/Frameworks/Xamarin.Interactive.framework/Versions/Current/uninstall
+if [ -f "/Library/Frameworks/Xamarin.Interactive.framework/Versions/Current/uninstall" ]; then
+    sudo /Library/Frameworks/Xamarin.Interactive.framework/Versions/Current/uninstall
+fi
 
 
 # Uninstall the Visual Studio for Mac Installer

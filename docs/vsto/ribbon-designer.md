@@ -1,5 +1,7 @@
 ---
 title: "Ribbon Designer"
+description: Learn how you can use the Ribbon Designer to add custom tabs, groups, and controls to the ribbon of a Microsoft Office application.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 f1_keywords:
@@ -23,7 +25,7 @@ helpviewer_keywords:
   - "Ribbon [Office development in Visual Studio], shortcut keys"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---
@@ -42,8 +44,6 @@ ms.workload:
 
 > [!NOTE]
 > There are some tasks that you cannot accomplish by using the Ribbon Designer. For more information about these tasks and how you can accomplish them, see [Ribbon overview](../vsto/ribbon-overview.md).
-
- ![link to video](../vsto/media/playvideo.gif "link to video") For a related video demonstration, see [How do I: Use the Ribbon Designer to customize the ribbon in Outlook?](http://go.microsoft.com/fwlink/?LinkID=130312).
 
 ## Add a Ribbon (Visual Designer) item to a project
  To use the Ribbon Designer, add a new **Ribbon (Visual Designer)** item to your project. For more information, see [How to: Get started customizing the ribbon](../vsto/how-to-get-started-customizing-the-ribbon.md).
@@ -160,7 +160,7 @@ ms.workload:
 ## <a name="CustomizingMicrosoftOfficeButton"></a> Customize Backstage view
  You can use the Ribbon Designer to add controls to the menu that opens when you click the **File** tab. This menu is called the Backstage view.
 
- You cannot position controls before or after built-in controls by using the Ribbon designer. A built-in control is a control that already appears in Backstage view. If you want to position controls before or after built-in controls, you must use Ribbon XML. For more information about **Ribbon (XML)**, see [Ribbon XML](../vsto/ribbon-xml.md). For more information about customizing the Backstage view, see [Introduction to the Office 2010 Backstage view for developers](http://go.microsoft.com/fwlink/?LinkId=182189) and [Customize the Office 2010 Backstage view for developers](http://go.microsoft.com/fwlink/?LinkId=182188).
+ You cannot position controls before or after built-in controls by using the Ribbon designer. A built-in control is a control that already appears in Backstage view. If you want to position controls before or after built-in controls, you must use Ribbon XML. For more information about **Ribbon (XML)**, see [Ribbon XML](../vsto/ribbon-xml.md). For more information about customizing the Backstage view, see [Introduction to the Office 2010 Backstage view for developers](/previous-versions/office/developer/office-2010/ee691833(v=office.14)) and [Customize the Office 2010 Backstage view for developers](/previous-versions/office/developer/office-2010/ee815851(v=office.14)).
 
  [!INCLUDE[appliesto_ribbon_2010](../vsto/includes/appliesto-ribbon-2010-md.md)]
 

@@ -1,12 +1,14 @@
 ---
 title: "How to: Handle Deployment Conflicts | Microsoft Docs"
+description: See an example of how to implement your own code to handle deployment conflicts for a SharePoint project item.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: how-to
 helpviewer_keywords:
   - "SharePoint development in Visual Studio, extending deployment"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---
@@ -36,8 +38,8 @@ ms.workload:
 
  For simplicity, the <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectItemEvents.DeploymentStepStarted> event handler in this example assumes that a deployment conflict exists (that is, it always adds a new <xref:Microsoft.VisualStudio.SharePoint.Deployment.IDeploymentConflict> object), and the `Resolve` method simply returns **true** to indicate that the conflict was resolved. In a real scenario, your <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectItemEvents.DeploymentStepStarted> event handler would first determine if a conflict exists between a file in the current project item and a file at the deployment location, and then add an <xref:Microsoft.VisualStudio.SharePoint.Deployment.IDeploymentConflict> object only if a conflict exists. For example, you might use the `e.ProjectItem.Files` property in the event handler to analyze the files in the project item, and you might call a SharePoint command to analyze the files at the deployment location. Similarly, in a real scenario the `Resolve` method might call a SharePoint command to resolve the conflict on the SharePoint site. For more information about creating SharePoint commands, see [How to: Create a SharePoint command](../sharepoint/how-to-create-a-sharepoint-command.md).
 
- [!code-vb[SPExtensibility.ProjectItemExtension.DeploymentConflict#1](../sharepoint/codesnippet/VisualBasic/deploymentconflict/extension/deploymentconflictextension.vb#1)]
- [!code-csharp[SPExtensibility.ProjectItemExtension.DeploymentConflict#1](../sharepoint/codesnippet/CSharp/deploymentconflict/extension/deploymentconflictextension.cs#1)]
+ :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/deploymentconflict/extension/deploymentconflictextension.vb" id="Snippet1":::
+ :::code language="csharp" source="../sharepoint/codesnippet/CSharp/deploymentconflict/extension/deploymentconflictextension.cs" id="Snippet1":::
 
 ## Compile the code
  This example requires references to the following assemblies:

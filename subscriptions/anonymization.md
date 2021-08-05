@@ -1,9 +1,10 @@
 ---
 title: Anonymization of Visual Studio subscriber data | Microsoft Docs
 author: evanwindom
-ms.author: lank
-manager: lank
-ms.date: 07/19/2019
+ms.author: v-evwin
+manager: cabuschl
+ms.assetid: ce5fc8a4-484c-4df6-97c3-cb60174fb66b
+ms.date: 03/11/2021
 ms.topic: conceptual
 description:  Learn how subscriber data is anonymized when access to subscriptions is lost.
 ---
@@ -28,13 +29,24 @@ Events that render a subscription unusable to a subscriber will trigger anonymiz
 ### Q:  Does the anonymization of the subscriber's personal information cause them to lose access to the subscription?
 A:  No.  The anonymization is in response to an event that causes the loss of access to the subscription, but does not cause the lack of access.
 
-### Q:  I'm an administrator for my organization's subscriptions.  If one of my subscriber's information is anonymized, can that subscription be reassigned to another user?
-A:  Yes -- As long as the subscription has not expired, it can be reassigned to another subscriber.
+### Q:  I'm an admin for my organization's subscriptions.  If one of my subscriber's information is anonymized, can that subscription be reassigned to another user?
+A:  Yes.  A subscriptions can be reassigned if these criteria are met:
+- The subscription has not expired
+- A minimum of 90 days have passed since the subscription was last assigned to a subscriber.  For example, if a subscription was assigned to a subscriber on June 1, it cannot be reassigned until at least August 30.
 
 ### Q: How can I prevent anonymization caused by deleting a sign-in email address?
 A:  There are two ways to prevent the issue:
 - Deploy a single identity management system -- either MSA or AAD -- but not both.  
 - Associate the AAD and MSA identities via the tenant. 
+
+## Support resources
+- For assistance with sales, subscriptions, accounts, and billing for Visual Studio Subscriptions, see Visual Studio [Subscriptions support](https://aka.ms/vssubscriberhelp).
+
+## See also
+- [Visual Studio documentation](/visualstudio/)
+- [Azure DevOps documentation](/azure/devops/)
+- [Azure documentation](/azure/)
+- [Microsoft 365 documentation](/microsoft-365/)
 
 ## Next steps
 Learn how to prevent anonymization by [associating MSA and AAD identities](/azure/active-directory/b2b/add-users-administrator).

@@ -1,5 +1,7 @@
 ---
-title: "Allocation Hooks and C Run-Time Memory Allocations | Microsoft Docs"
+title: "Allocation Hooks and C Run-Time Memory Allocations"
+description: Understand allocation hooks and C run-time memory allocations in Visual Studio debugging. Allocation hook functions must explicitly ignore _CRT_BLOCK blocks.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:
@@ -17,7 +19,7 @@ helpviewer_keywords:
 ms.assetid: cc34ee96-3d91-41bd-a019-aa3759139e7e
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

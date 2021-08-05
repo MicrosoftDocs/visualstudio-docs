@@ -1,5 +1,6 @@
 ---
 title: "Summary View | Microsoft Docs"
+description: Learn how the Summary view displays information about the most performance-expensive functions or objects in a profiling run.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:
@@ -12,7 +13,8 @@ helpviewer_keywords:
 ms.assetid: 98a1eb71-bbf5-4ce7-8559-cdc29f082c4b
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+monikerRange: 'vs-2017'
 ms.workload:
   - "multiple"
 ---
@@ -30,7 +32,7 @@ The Summary view displays information about the most performance-expensive funct
 ## Notifications links
  You can click links in the Notification list to set display options for the report. The list is to the right of the timeline graph.
 
-|||
+|Option|Description|
 |-|-|
 |**Show Non-User Code**<br /><br /> **Show Just My Code**|Not available for native code or for profiling data that was collected by using the instrumentation method. Toggles between displaying only data from user code (**Show Just My Code**) and displaying data from all code, including system code (**Show Non-User Code**). By default, data is limited to user code. To change the setting, see [How to: Filter profiling tools report views to display Just My Code](../profiling/how-to-filter-profiling-tools-report-views-to-display-just-my-code.md).|
 |**View Guidance**|Displays performance rule warnings in the **Error List** window. For more information, see [Use performance rules to analyze data](../profiling/using-performance-rules-to-analyze-data.md)|
@@ -38,7 +40,7 @@ The Summary view displays information about the most performance-expensive funct
 ## Report
  You can click links in the Report list to open different views and to compare, save, or filter the report. The list is to the right of the timeline graph.
 
-| | |
+|Option |Description |
 |----------------------------| - |
 | **Show Trimmed Call Tree** | Displays the most expensive execution paths in the Call Tree View. For more information, see [Call Tree view](../profiling/call-tree-view.md). |
 | **Show Hot Lines** | Not available for profiling data that was collected by using the instrumentation method. Displays the most expensive source code lines in Lines View. For more information, see [Lines view](../profiling/lines-view.md). |

@@ -1,20 +1,21 @@
 ---
-title: "IEnumDebugObjects::Skip | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "This method skips over the specified number of IDebugObject elements."
+title: IEnumDebugObjects::Skip | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IEnumDebugObjects::Skip"
+- IEnumDebugObjects::Skip
 helpviewer_keywords:
-  - "IEnumDebugObjects::Skip method"
+- IEnumDebugObjects::Skip method
 ms.assetid: 957cead8-0a9c-4403-b190-b9fbadc49d42
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IEnumDebugObjects::Skip
 This method skips over the specified number of elements.

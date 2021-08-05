@@ -1,7 +1,10 @@
 ---
 title: "Unmanaged API reference (Office development in Visual Studio)"
+description: The unmanaged API reference is used to help load-managed VSTO Add-ins. You can also create your own VSTO Add-in loader component by implementing this interface.
+ms.custom: SEO-VS-2020
+titleSuffix: ""
 ms.date: "08/14/2019"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "VB"
   - "CSharp"
@@ -10,7 +13,7 @@ helpviewer_keywords:
   - "Office development in Visual Studio, unmanaged API reference"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

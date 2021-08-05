@@ -1,20 +1,21 @@
 ---
-title: "IDebugDisassemblyStream2::GetSize | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Gets the size in instructions of this disassembly stream."
+title: IDebugDisassemblyStream2::GetSize | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugDisassemblyStream2::GetSize"
+- IDebugDisassemblyStream2::GetSize
 helpviewer_keywords:
-  - "IDebugDisassemblyStream2::GetSize"
+- IDebugDisassemblyStream2::GetSize
 ms.assetid: 8f512704-12d0-46d2-959a-4f8dffe117b5
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugDisassemblyStream2::GetSize
 Gets the size in instructions of this disassembly stream.

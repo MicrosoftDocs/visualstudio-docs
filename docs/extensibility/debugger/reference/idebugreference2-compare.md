@@ -1,20 +1,21 @@
 ---
-title: "IDebugReference2::Compare | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Compares one reference to another."
+title: IDebugReference2::Compare | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugReference2::Compare"
+- IDebugReference2::Compare
 helpviewer_keywords:
-  - "IDebugReference2::Compare"
+- IDebugReference2::Compare
 ms.assetid: 3361c495-2673-4b7c-82e3-dee74e1fa58d
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugReference2::Compare
 Compares one reference to another. Reserved for future use.

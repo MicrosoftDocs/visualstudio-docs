@@ -1,13 +1,15 @@
 ---
 title: "Modify standard menu command in DSL"
+description: Learn how you can modify the behavior of some of the standard commands that are defined automatically in your DSL.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
   - ".vsct files, adding commands to a domain-specific language"
   - "Domain-Specific Language, adding custom commands"
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: mgoertz-msft
+ms.author: mgoertz
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

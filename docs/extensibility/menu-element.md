@@ -1,16 +1,18 @@
 ---
-title: "Menu Element | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Menu Element | Microsoft Docs
+description: The Menu element defines one menu item. The kinds of menu are Context, Menu, MenuController, MenuControllerLatched, Toolbar, and ToolWindowToolbar.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: reference
 helpviewer_keywords:
-  - "VSCT XML schema elements, Menus"
-  - "Menus element (VSCT XML schema)"
+- VSCT XML schema elements, Menus
+- Menus element (VSCT XML schema)
 ms.assetid: ce0560f3-b4c9-4ab2-a99c-d4e10f37b9e0
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Menu element
 Defines one menu item. These are the six kinds of menus: Context, Menu, MenuController, MenuControllerLatched, Toolbar, and ToolWindowToolbar.
@@ -59,12 +61,11 @@ Defines one menu item. These are the six kinds of menus: Context, Menu, MenuCont
 ```
 <Menu guid="cmdGuidWidgetCommands" id="menuIDEditWidget"
   priority="0x0002" type="Menu">
-  <Parent guid="cmdSetGuidWidgetCommands" id="groupIDFileEdit">
-    <CommandFlag>AlwaysCreate</CommandFlag>
-    <Strings>
-      <ButtonText>Edit Widget</ButtonText>
-    </Strings>
-    </Parent>
+  <Parent guid="cmdSetGuidWidgetCommands" id="groupIDFileEdit"/>
+  <CommandFlag>AlwaysCreate</CommandFlag>
+  <Strings>
+    <ButtonText>Edit Widget</ButtonText>
+  </Strings>
 </Menu>
 ```
 

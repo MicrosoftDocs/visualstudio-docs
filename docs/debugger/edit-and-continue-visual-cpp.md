@@ -1,5 +1,7 @@
 ---
 title: "Edit and Continue (C++) | Microsoft Docs"
+description: Edit and Continue is available for C++ projects. Learn what edits are supported, and how to can control whether, and when, your edits are applied.
+ms.custom: SEO-VS-2020
 ms.date: "05/31/2018"
 ms.topic: "conceptual"
 dev_langs:
@@ -14,7 +16,7 @@ helpviewer_keywords:
 ms.assetid: 1815251e-a877-433e-9e5e-69bd9ba254c7
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "cplusplus"
 ---
@@ -23,7 +25,7 @@ You can use Edit and Continue in C++ projects. See [Supported Code Changes (C++)
 
 For more information about Visual Studio 2015 Update 3 improvements, see [C++ Edit and Continue in Visual Studio 2015 Update 3](https://devblogs.microsoft.com/cppblog/c-edit-and-continue-in-visual-studio-2015-update-3/).
 
- The [/Zo (Enhance Optimized Debugging)](/cpp/build/reference/zo-enhance-optimized-debugging) compiler option that was introduced in Visual Studio 2013 Update 3 adds additional information to .pdb (symbol) files for binaries compiled without the [/Od (Disable (Debug))](https://msdn.microsoft.com/library/aafb762y.aspx) option.
+ The [/Zo (Enhance Optimized Debugging)](/cpp/build/reference/zo-enhance-optimized-debugging) compiler option that was introduced in Visual Studio 2013 Update 3 adds additional information to .pdb (symbol) files for binaries compiled without the [/Od (Disable (Debug))](/cpp/build/reference/od-disable-debug) option.
 
  **/Zo** disables Edit and Continue. See [How to: Debug Optimized Code](../debugger/how-to-debug-optimized-code.md).
 
@@ -66,7 +68,7 @@ For more information about Visual Studio 2015 Update 3 improvements, see [C++ Ed
 ## <a name="BKMK_How_to_reset_the_point_of_execution"></a> How to reset the point of execution
  Some code changes can cause the point of execution to move to a new location when Edit and Continue applies the changes. Edit and Continue places the point of execution as accurately as possible, but the results may not be correct in all cases.
 
- In C++, a dialog box informs you when the point of execution changes. You should verify that the location is correct before you continue debugging. If it is not correct, use the **Set Next Statement** command. For more information, see [Set the next statement to execute](https://msdn.microsoft.com/library/y740d9d3.aspx#BKMK_Set_the_next_statement_to_execute).
+ In C++, a dialog box informs you when the point of execution changes. You should verify that the location is correct before you continue debugging. If it is not correct, use the **Set Next Statement** command. For more information, see [Set the next statement to execute](./navigating-through-code-with-the-debugger.md#BKMK_Set_the_next_statement_to_execute).
 
 ## <a name="BKMK_How_to_work_with_stale_code"></a> How to work with stale code
  In some cases, Edit and Continue cannot apply code changes to the executable immediately, but might be able to apply the code changes later if you continue debugging. This happens if you edit a function that calls the current function or if you add more than 64 bytes of new variables to a function on the call stack

@@ -1,8 +1,8 @@
 ---
 title: "Updating Visual Studio for Mac"
 description: "Instructions for updating Visual Studio for Mac and accessing preview releases."
-author: conceptdev
-ms.author: crdun
+author: heiligerdankgesang
+ms.author: dominicn
 ms.date: 05/06/2018
 ms.technology: vs-ide-install
 ms.assetid: DB8DC9FE-FF21-4061-8A96-3F9FC08A4F8F

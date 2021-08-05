@@ -1,13 +1,15 @@
 ---
 title: "Workflow Designer Shell Features"
+description: Learn how the Workflow Designer Shell features contain a number of buttons for managing the current view.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 f1_keywords:
   - "WFDShellFeatures.UI"
 ms.assetid: 14bfe312-9592-408e-92ce-e98585ad16e7
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

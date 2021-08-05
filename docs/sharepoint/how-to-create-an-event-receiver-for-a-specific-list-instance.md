@@ -1,7 +1,10 @@
 ---
 title: "How to: Create an Event Receiver for a Specific List Instance | Microsoft Docs"
+titleSuffix: ""
+description: Create an event receiver for a specific list instance. A list instance event receiver responds to events that occur in any instance of a list definition.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: how-to
 dev_langs:
   - "VB"
   - "CSharp"
@@ -10,7 +13,7 @@ helpviewer_keywords:
   - "event receivers [SharePoint development in Visual Studio]"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

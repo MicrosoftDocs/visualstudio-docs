@@ -1,5 +1,7 @@
 ---
 title: "CRT Debug Library Use | Microsoft Docs"
+description: Learn how the C run-time (CRT) library supports your debugging efforts, and what you must do to use the CRT debug libraries.
+ms.custom: SEO-VS-2020
 ms.date: "10/03/2019"
 ms.topic: "conceptual"
 f1_keywords:
@@ -25,7 +27,7 @@ helpviewer_keywords:
 ms.assetid: 464de16b-4215-4787-9bfa-921aaff9d9f4
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

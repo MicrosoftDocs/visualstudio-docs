@@ -1,23 +1,28 @@
 ---
-title: "Resolving Assemblies at Design Time | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Resolving Assemblies at Design Time | Microsoft Docs
+description: Learn how MSBuild resolves references to assemblies at design time by using reference assemblies in the targeting pack.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "msbuild"
+- msbuild
 ms.assetid: 20dae076-733e-49c1-a2e9-b336757ae21d
-author: mikejo5000
-ms.author: mikejo
-manager: jillfra
+author: ghogen
+ms.author: ghogen
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Resolve assemblies at design time
+
 When you add a reference to an assembly through the **.NET** tab of the **Add Reference** dialog, the reference points to an intermediate reference assembly; that is, an assembly that contains all the type and signature information, but that doesn't necessarily contain any code. The **.NET** tab lists reference assemblies that correspond to runtime assemblies in the .NET Framework. In addition, it lists reference assemblies that correspond to runtime assemblies in the registered AssemblyFoldersEx folders that are used by third parties.
 
 ## Multi-targeting
- [!INCLUDE[vs_dev12](../extensibility/includes/vs_dev12_md.md)] lets you target versions of the .NET Framework that run either on the Common Language Runtime (CLR) version 2.0 or version 4. These versions include .NET Framework versions 2.0, 3.0, 3.5, 4, 4.5, and 4.5.1, and Silverlight versions 1.0, 2.0, and 3.0. If a new .NET Framework version that is based on CLR version 2.0 or version 4 is released, the Framework can be installed by using a targeting pack, and it will automatically show up as a target in Visual Studio.
+
+ Visual Studio lets you target versions of the .NET Framework that run on multiple versions of the .NET Framework. When a new .NET Framework version is released, the Framework can be installed by using a targeting pack, and it will automatically show up as a target in Visual Studio.
 
 ## How type resolution works
+
  At run time, the CLR resolves the types in the assembly by looking in the GAC, the *bin* directory, and in any probing paths. This is handled by the fusion loader. But, how does the fusion loader know what it is looking for? It depends on a resolution made at design time, when the application is built.
 
  During the build, the compiler resolves application types by using reference assemblies. In .NET Framework versions 2.0, 3.0, 3.5, 4, 4.5, and 4.5.1, the reference assemblies install when the .NET Framework installs.

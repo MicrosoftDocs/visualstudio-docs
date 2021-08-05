@@ -1,21 +1,22 @@
 ---
-title: "IDebugPendingBreakpoint2::CanBind | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Determines whether this pending breakpoint can bind to a code location."
+title: IDebugPendingBreakpoint2::CanBind | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugPendingBreakpoint2::CanBind"
+- IDebugPendingBreakpoint2::CanBind
 helpviewer_keywords:
-  - "IDebugPendingBreakpoint2::CanBind method"
-  - "CanBind method"
+- IDebugPendingBreakpoint2::CanBind method
+- CanBind method
 ms.assetid: 84a2b189-ccf1-467e-8fab-0c0da68f0b91
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugPendingBreakpoint2::CanBind
 Determines whether this pending breakpoint can bind to a code location.

@@ -1,7 +1,8 @@
 ---
+description: "Retrieves a symbol by its unique identifier."
 title: "IDiaSession::symbolById | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 062e4b5a-9c4d-4703-88da-ec13102c2b66
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

@@ -1,17 +1,19 @@
 ---
-title: "Creating Reusable Groups of Buttons | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Creating Reusable Groups of Buttons | Microsoft Docs
+description: Learn how to create a command group, which is a collection of commands that appear together on a menu or toolbar.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
 helpviewer_keywords:
-  - "button groups, creating in VSPackages"
-  - "VSPackages, creating reusable button groups"
-  - "buttons, creating reusable groups"
+- button groups, creating in VSPackages
+- VSPackages, creating reusable button groups
+- buttons, creating reusable groups
 ms.assetid: 0c561617-fb86-476d-8bd1-c6e5e7464c65
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Create reusable groups of buttons
 A command group is a collection of commands that always appear together on a menu or toolbar. Any command group can be re-used by assigning it to different parent menus in the CommandPlacements section of the *.vsct* file.

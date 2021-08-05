@@ -1,17 +1,19 @@
 ---
-title: "Creating and Running Unit Tests for UWP apps"
+title: Creating and Running Unit Tests for UWP apps
+description: Learn about Visual Studio support for unit testing Universal Windows Platform apps. Visual Studio provides unit test templates for C#, Visual Basic, and C++.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "unit tests, creating"
-  - "unit tests"
-  - "unit tests, UWP apps"
-  - "unit tests, running"
-ms.author: jillfra
-manager: jillfra
+- unit tests, creating
+- unit tests
+- unit tests, UWP apps
+- unit tests, running
+ms.author: mikejo
+manager: jmartens
 ms.workload:
-  - "uwp"
-author: jillre
+- uwp
+author: mikejo5000
 ---
 # Walkthrough: Create and run unit tests for UWP apps
 

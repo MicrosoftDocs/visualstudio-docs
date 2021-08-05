@@ -1,15 +1,15 @@
 ---
-title: "Introduction Live Unit Testing"
+title: Introduction Live Unit Testing
 description: Learn about the advantages of Live Unit Testing and how to use it when unit testing your projects.
 ms.date: 09/11/2017
 ms.topic: conceptual
 helpviewer_keywords:
-  - "Live Unit Testing"
-author: jillre
-ms.author: jillfra
-manager: jillfra
+- Live Unit Testing
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
 ms.workload:
-  - "dotnet"
+- dotnet
 ---
 # Live Unit Testing overview
 
@@ -20,7 +20,7 @@ Live Unit Testing indicates whether your unit tests adequately cover your code. 
 If you have a solution that includes one or more unit test projects, you can enable Live Unit Testing by selecting **Test** > **Live Unit Testing** > **Start** from the top-level menu bar in Visual Studio.
 
 > [!NOTE]
-> Live Unit Testing is only available in Visual Studio Enterprise edition.
+> Live Unit Testing is only available in Visual Studio Enterprise edition and is supported only in .NET.
 
 To learn more about Live Unit Testing:
 
@@ -28,7 +28,7 @@ To learn more about Live Unit Testing:
 
 - Read detailed documentation: [Use Live Unit Testing with Visual Studio Enterprise Edition](live-unit-testing.md).
 
-- Read the [Live Unit Testing FAQ](live-unit-testing-faq.md) to learn what's new in Live Unit Testing as well as tips and techniques.
+- Read the [Live Unit Testing FAQ](live-unit-testing-faq.yml) to learn what's new in Live Unit Testing as well as tips and techniques.
 
 - Watch the Channel 9 video for an overview of Live Unit Testing and its features.</p>
 

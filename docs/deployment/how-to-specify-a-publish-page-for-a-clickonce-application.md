@@ -1,22 +1,24 @@
 ---
-title: "How to: Specify a Publish Page for a ClickOnce Application | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-helpviewer_keywords:
-  - "deploying applications [ClickOnce], specifying publish page"
-  - "Publish Page property"
-  - "publishing, ClickOnce"
-  - "ClickOnce deployment, specifying publish page"
+title: Specify a publish page (ClickOnce app)
+description: Learn how to set the Publish Page property for your project, which allows you to specify a Web page for your ClickOnce application.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
+dev_langs: 
+  - VB
+  - CSharp
+  - C++
+helpviewer_keywords: 
+  - deploying applications [ClickOnce], specifying publish page
+  - Publish Page property
+  - publishing, ClickOnce
+  - ClickOnce deployment, specifying publish page
 ms.assetid: 9d70eebb-bdee-4b42-8e7e-7a07e199bdf7
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
-ms.workload:
-  - "multiple"
+manager: jmartens
+ms.workload: 
+  - multiple
 ---
 # How to: Specify a publish page for a ClickOnce application
 When publishing a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application, a default Web page (publish.htm) is generated and published along with the application. This page contains the name of the application, a link to install the application and/or any prerequisites, and a link to a Help topic describing [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)]. The **Publish Page** property for your project allows you to specify a name for the Web page for your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application.

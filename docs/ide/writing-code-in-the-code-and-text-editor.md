@@ -1,15 +1,17 @@
 ---
 title: Code editor features
+description: Learn about the features that the code editor in Visual Studio provides to make it easier for you to write and manage your code and text.
+ms.custom: SEO-VS-2020
 ms.date: 02/23/2018
 ms.topic: conceptual
 helpviewer_keywords:
-  - "code, editing [Visual Studio]"
-  - "code editor [Visual Studio]"
-author: jillre
-ms.author: jillfra
-manager: jillfra
+- code, editing [Visual Studio]
+- code editor [Visual Studio]
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Features of the code editor
 
@@ -26,7 +28,7 @@ The different Visual Studio languages offer different sets of features, and in s
 
 ## Editor features
 
-|||
+|Feature|Description|
 |-|-|
 |Syntax Coloring|Some syntax elements of code and markup files are colored differently to distinguish them. For example, keywords (such as `using` in C# and `Imports` in Visual Basic) are one color, but types (such as `Console` and `Uri`) are another color. Other syntax elements are also colorized, such as string literals and comments. C++ uses color to differentiate among types, enumerations, and macros, among other tokens.<br /><br /> You can see the default color for each type, and you can change the color for any specific syntax element in the [Fonts and Colors, Environment, Options dialog box](../ide/reference/fonts-and-colors-environment-options-dialog-box.md), which you can open from the **Tools** menu.|
 |Error and Warning Marks|As you add code and build your solution, you may see (a) different-colored wavy underlines (known as squiggles) or (b) light bulbs appearing in your code. Red squiggles denote syntax errors, blue denotes compiler errors, green denotes warnings, and purple denotes other types of errors. [Quick Actions](../ide/quick-actions.md) suggest fixes for problems and make it easy to apply the fix.<br /><br /> You can see the default color for each error and warning squiggle in the **Tools** > **Options** > **Environment** > **Fonts and Colors** dialog box. Look for **Syntax Error**, **Compiler Error**, **Warning**, and **Other Error**.|
@@ -44,7 +46,7 @@ The different Visual Studio languages offer different sets of features, and in s
 
 You can find a number of advanced features on the **Edit** > **Advanced** menu on the toolbar. Not all of these features are available for all types of code files.
 
-|||
+|Feature|Description|
 |-|-|
 |Format Document|Sets the proper indentation of lines of code and moves curly braces to separate lines in the document.|
 |Format Selection|Sets the proper indentation of lines of code and moves curly braces to separate lines in the selection.|

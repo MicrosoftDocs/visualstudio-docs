@@ -1,20 +1,21 @@
 ---
-title: "MODULE_INFO | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Describes a particular module (DLL, EXE, or assembly)."
+title: MODULE_INFO | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "MODULE_INFO"
+- MODULE_INFO
 helpviewer_keywords:
-  - "MODULE_INFO structure"
+- MODULE_INFO structure
 ms.assetid: f2e06180-1ab3-4eb5-a428-7994cceb61b6
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # MODULE_INFO
 Describes a particular module (DLL, EXE, or assembly).

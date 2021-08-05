@@ -1,7 +1,8 @@
 ---
-title: "Error: Unable to Automatically Step Into the Server | Microsoft Docs"
+title: "Unable to Automatically Step Into the Server | Microsoft Docs"
+description: "Unable to Automatically Step Into the Server. The debugger was not notified before the remote procedure was executed."
 ms.date: "11/04/2016"
-ms.topic: "troubleshooting"
+ms.topic: "error-reference"
 f1_keywords:
   - "vs.debug.error.causality_no_server_response"
 dev_langs:
@@ -14,7 +15,7 @@ helpviewer_keywords:
   - "remote debugging, notification error"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---
@@ -23,7 +24,7 @@ The error reads:
 
  Unable to Automatically Step Into the Server. The debugger was not notified before the remote procedure was executed
 
- This error can occur when you are trying to step into a web service (see [Stepping Into an XML Web Service](https://msdn.microsoft.com/library/8e67de38-bf5f-41cc-a457-1b88ce63d764)). It can occur whenever [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] is not set up properly.
+ This error can occur when you are trying to step into a web service (see [Stepping Into an XML Web Service](/previous-versions/zc57803s(v=vs.100))). It can occur whenever [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] is not set up properly.
 
  Possible causes are:
 

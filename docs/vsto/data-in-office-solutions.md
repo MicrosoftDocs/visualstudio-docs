@@ -1,5 +1,7 @@
 ---
 title: "Data in Office solutions"
+description: Learn the various ways to work with data when you create Microsoft Office solutions by using Visual Studio.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -11,7 +13,7 @@ helpviewer_keywords:
   - "datasets [Office development in Visual Studio]"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---
@@ -44,7 +46,7 @@ ms.workload:
 
  Lists topics that illustrate how to work with data in Visual Studio.
 
-- [Save data](../data-tools/saving-data.md)
+- [Save data](../data-tools/save-data-back-to-the-database.md)
 
  Provides links to topics about working with datasets, including modifying data in a dataset and writing changes back to the data source.
 

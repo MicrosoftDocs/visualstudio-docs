@@ -1,17 +1,18 @@
 ---
-title: "IDebugPortEvents2 | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "This interface notifies a listener (typically the session debug manager [SDM] or a debug engine) of process and program creation and destruction on a particular port."
+title: IDebugPortEvents2 | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugPortEvents2"
+- IDebugPortEvents2
 helpviewer_keywords:
-  - "IDebugPortEvents2 interface"
+- IDebugPortEvents2 interface
 ms.assetid: 2c017094-3ba2-4067-83f9-147df1d96bce
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IDebugPortEvents2
 This interface notifies a listener (typically the session debug manager [SDM] or a debug engine) of process and program creation and destruction on a particular port. This information can be used to present a real-time view of the processes and programs running on the port.

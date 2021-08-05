@@ -1,17 +1,19 @@
 ---
 title: Refactor rename
-ms.date: 01/26/2018
+description: Learn how to use the Refactor Rename feature to rename identifiers for code symbols, such as fields, local variables, methods, namespaces, properties and types.
+ms.custom: SEO-VS-2020
+ms.date: 05/04/2020
 ms.topic: reference
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 f1_keywords:
-  - "vs.csharp.refactoring.rename"
+- vs.csharp.refactoring.rename
 dev_langs:
-  - CSharp
-  - VB
+- CSharp
+- VB
 ms.workload:
-  - "dotnet"
+- dotnet
 ---
 # Rename a code symbol refactoring
 
@@ -39,7 +41,7 @@ This refactoring applies to:
 
        ![Highlighted code - Visual Basic](media/rename-highlight-vb.png)
 
-2. Next, do one of the following:
+2. Next, use your keyboard or mouse as follows:
 
    - **Keyboard**
       - Press **Ctrl+R**, then **Ctrl+R**. (Note that your keyboard shortcut may be different based on which profile you've selected.)
@@ -64,7 +66,7 @@ This refactoring applies to:
 
 ## Remarks
 
-- Starting in Visual Studio 2019 version 16.3, when you rename a type that matches the name of the file it's in, a checkbox appears that enable you to rename the file at the same time. This option appears when you rename a class, interface, or enumeration. This option is not supported for partial types with multiple definitions.
+- Starting in Visual Studio 2019 version 16.3, when you rename a type that matches the name of the file it's in, a checkbox appears that enables you to rename the file at the same time. This option appears when you rename a class, interface, or enumeration. This option is not supported for partial types with multiple definitions.
 
    ![Rename animation with file - C#](media/rename-with-file-animated-cs.gif)
 
@@ -73,6 +75,8 @@ This refactoring applies to:
    ![Rename Conflict](media/rename-conflict-cs.png)
 
 - Another way to rename a symbol is to change its name in the editor. Then, with the cursor in the symbol name, press **Ctrl**+**.** or just expand the light bulb icon menu that appears and choose **Rename \<old name> to \<new name>**.
+
+   ![Rename in the editor](media/rename-with-editor-cs.png)
 
 ## See also
 

@@ -1,16 +1,17 @@
 ---
-title: "AsyncVoidMethodBuilder Structure - Internal Members | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+description: "This topic describes the internal members of the System.Runtime.CompilerServices.AsyncVoidMethodBuilder class."
+title: AsyncVoidMethodBuilder Structure - Internal Members | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: reference
 helpviewer_keywords:
-  - "debug engines, AsyncVoidMethodBuilder structure [.NET Framework]"
-  - "AsyncVoidMethodBuilder structure [.NET Framework debug engines]"
+- debug engines, AsyncVoidMethodBuilder structure [.NET Framework]
+- AsyncVoidMethodBuilder structure [.NET Framework debug engines]
 ms.assetid: fe2970ab-d4c5-4355-a8e4-772ee0a57178
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # AsyncVoidMethodBuilder structure - internal members
 This topic describes the internal members of the <xref:System.Runtime.CompilerServices.AsyncVoidMethodBuilder> class. For general information about this class, see the <xref:System.Runtime.CompilerServices.AsyncVoidMethodBuilder> reference topic.

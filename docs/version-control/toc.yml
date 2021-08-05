@@ -1,0 +1,22 @@
+- name: Version control documentation
+  href: index.yml
+- name: Overview
+  items:
+  - name: Git experience in Visual Studio
+    href: git-with-visual-studio.md
+  - name: Git settings and preferences
+    href: git-settings.md
+  - name: How Visual Studio makes source control easy
+    href: git-visual-studio-source-control.md
+- name: Get started
+  items:
+  - name: Get started with Git and GitHub in Visual Studio
+    href: /learn/modules/visual-studio-github-push/
+  - name: Compare Git and Team Explorer side-by-side
+    href: git-team-explorer-feature-comparison.md
+- name: What's new
+  items:
+  - name: Enhanced productivity with Git in Visual Studio (Preview)
+    href: https://devblogs.microsoft.com/visualstudio/enhanced-productivity-with-git-in-visual-studio/
+  - name: Visual Studio 2019 release notes
+    href: /visualstudio/releases/2019/release-notes/

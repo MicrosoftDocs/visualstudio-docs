@@ -1,10 +1,11 @@
 ---
 title: "Connected Services"
-description: "Add Azure data storage, authentication, and push notifications to mobile apps from within Visual Studio for Mac"
+description: Learn how to add Azure data storage, authentication, and push notifications from within Visual Studio for Mac to a cross-platform application.
 ms.assetid: 41CB62FF-0F39-4CE8-8917-6A77F058719F
 author: sayedihashimi
 ms.author: sayedha
 ms.date: 11/06/2018
+ms.topic: how-to
 ---
 
 # Connected Services walkthrough
@@ -66,7 +67,7 @@ A new service requires the following parameters:
 - **Resource Group** – a way or organizing all your Azure resources for a project. Option to use existing or create a new one. If this is your first Azure service, create a new one.
 - **Service Plan** – Determines the location and cost of any resources that use it. Option to use existing or create a new one. If this is your first Azure service, use the default one or create a new one in the free tier (F1).
 
-Visit the [Mobile apps documentation](/azure/app-service-mobile/) for more information.
+Visit the [Mobile apps documentation](/azure/developer/mobile-apps/azure-mobile-apps/overview) for more information.
 
 ## See also
 

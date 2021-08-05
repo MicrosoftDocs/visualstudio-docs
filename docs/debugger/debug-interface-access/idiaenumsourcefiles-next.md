@@ -1,7 +1,8 @@
 ---
+description: "Retrieves a specified number of source files in the enumeration sequence."
 title: "IDiaEnumSourceFiles::Next | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 83bf6317-ff39-4c5c-8987-cba34e7a6983
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

@@ -1,20 +1,21 @@
 ---
-title: "GETNAME_TYPE | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Specifies the name type of files to retrieve."
+title: GETNAME_TYPE | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "GETNAME_TYPE"
+- GETNAME_TYPE
 helpviewer_keywords:
-  - "GETNAME_TYPE enumeration"
+- GETNAME_TYPE enumeration
 ms.assetid: 2f9f1679-e9e8-4c9c-ac90-aa07bfe69914
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # GETNAME_TYPE
 Specifies the name type of files to retrieve.

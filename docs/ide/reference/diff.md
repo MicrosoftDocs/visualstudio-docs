@@ -1,17 +1,19 @@
 ---
 title: -Diff (devenv.exe)
+description: Learn how to use the Diff devenv command-line switch to compare two files.
+ms.custom: SEO-VS-2020
 ms.date: 12/10/2018
 ms.topic: reference
 helpviewer_keywords:
-  - "Devenv, /Diff switch"
-  - "/Diff Devenv switch"
-  - "Diff Devenv switch"
+- Devenv, /Diff switch
+- /Diff Devenv switch
+- Diff Devenv switch
 ms.assetid: 5377fedb-632a-4e86-a947-7c11c86451e7
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # /Diff (devenv.exe)
 

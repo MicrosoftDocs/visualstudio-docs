@@ -1,7 +1,8 @@
 ---
+description: "Enumerates the various section contributions contained in the data source."
 title: "IDiaEnumSectionContribs | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 0d6c0632-310f-4a99-8921-58149a1817e3
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

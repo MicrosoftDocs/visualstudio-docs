@@ -1,23 +1,28 @@
 ---
-title: XAML Designer overview
-ms.date: 07/31/2019
+title: Create UIs with Visual Studio XAML Designer
+description: Learn about the workspace UI and features of the XAML Designer in Blend for Visual Studio that provides a visual interface to help you design XAML-based apps.
+ms.date: 03/03/2020
 ms.topic: conceptual
+ms.custom: contperf-fy21q4, SEO-VS-2020
 f1_keywords:
-  - "VS.XamlDesigner"
-  - "VS.DevicePanel"
-  - "VS.XamlEditor"
-  - "VS.DocumentOutline"
-  - "Blend.Start.Dev12"
+- VS.XamlDesigner
+- VS.DevicePanel
+- VS.DocumentOutline
+- Blend.Start.Dev12
+ms.devlang: CSharp
 ms.assetid: c54969a7-d75a-4a35-9b37-af7a596a7c24
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ---
 # Create a UI by using XAML Designer
 
-The XAML Designer in Visual Studio and Blend for Visual Studio provides a visual interface to help you design XAML-based apps, such as WPF, UWP, and Xamarin.Forms apps. You can create user interfaces for your apps by dragging controls from the Toolbox window (Assets window in Blend for Visual Studio) and setting properties in the Properties window. You can also edit XAML directly in XAML view.
+The XAML Designer in Visual Studio and Blend for Visual Studio provides a visual interface to help you design XAML-based apps, such as WPF and UWP. You can create user interfaces for your apps by dragging controls from the Toolbox window (Assets window in Blend for Visual Studio) and setting properties in the Properties window. You can also edit XAML directly in XAML view.
 
-For advanced users, you can even [customize the XAML Designer](../extensibility/xaml-designer-extensibility-migration.md).
+For advanced users, you can even [customize the XAML Designer](https://github.com/microsoft/xaml-designer-extensibility/blob/master/documents/xaml-designer-extensibility-migration.md).
+
+> [!NOTE]
+> Xamarin.Forms does not support a XAML designer. To view your Xamarin.Forms XAML UIs and edit them while the app is running, use XAML Hot Reload for Xamarin.Forms. For more information, see the [XAML Hot Reload for Xamarin.Forms (Preview)](/xamarin/xamarin-forms/xaml/hot-reload/) page.
 
 ## XAML Designer workspace
 
@@ -81,7 +86,7 @@ Displays or hides the snap grid that shows the gridlines. Gridlines are used whe
 
 **Turn on/off snapping to gridlines**
 
-If **snapping to gridlines** is enabled, when you drag an element on the artboard, the element tends to align with the closest horizontal and vertical gridlines.
+If **snapping to gridlines** is enabled, an element tends to align with the closest horizontal and vertical gridlines when you drag it onto the artboard.
 
 **Toggle artboard background**
 
@@ -107,7 +112,7 @@ The Document Outline window in Visual Studio is similar to the [Objects and Time
 
 - View the hierarchical structure of all elements on the artboard.
 
-- Select elements so that you can modify them (for example, move them around in the hierarchy or set their properties in the Properties window). For more information, see [Work with elements in XAML Designer](../xaml-tools/working-with-elements-in-xaml-designer.md).
+- Select elements so that you can modify them. For example, you can move them around in the hierarchy or set their properties in the Properties window. For more information, see [Work with elements in XAML Designer](../xaml-tools/working-with-elements-in-xaml-designer.md).
 
 - Create and modify templates for elements that are controls.
 
@@ -118,7 +123,7 @@ To view the Objects and Timeline window in Blend for Visual Studio, on the menu 
 
 ![Document Outline window in Visual Studio](media/document-outline-window.png)
 
-The main view in the Document Outline/Objects and Timeline window displays the hierarchy of a document in a tree structure. You can use the hierarchical nature of the document outline to examine the document at varying levels of detail and to lock and hide elements singly or in groups. These are the options available in the Document Outline/Objects and Timeline window:
+The main view in the Document Outline/Objects and Timeline window displays the hierarchy of a document in a tree structure. You can use the hierarchical nature of the document outline to examine the document at varying levels of detail and to lock and hide elements singly or in groups. The following options are available in the Document Outline/Objects and Timeline window:
 
 **Show/hide**
 

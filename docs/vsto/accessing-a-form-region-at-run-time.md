@@ -1,5 +1,7 @@
 ---
 title: "Access a form region at run time"
+description: Learn how to access a form region in various project types and versions of Microsoft Office at run time.
+ms.custom: SEO-VS-2020
 ms.date: 02/02/2017
 ms.topic: conceptual
 dev_langs:
@@ -11,7 +13,7 @@ helpviewer_keywords:
   - "form regions [Office development in Visual Studio], accessing at run time"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---
@@ -30,24 +32,24 @@ ms.workload:
 
  The following example gets the collection of form regions that appear in the Inspector that currently has focus. This example then accesses a form region in the collection named `formRegion1` and sets the text that appears in a text box to `Hello World`.
 
- [!code-vb[Trin_Outlook_FR_Access#2](../vsto/codesnippet/VisualBasic/Trin_Outlook_FR_Access_O12/ThisAddIn.vb#2)]
- [!code-csharp[Trin_Outlook_FR_Access#2](../vsto/codesnippet/CSharp/Trin_Outlook_FR_Access_O12/ThisAddIn.cs#2)]
+ :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_Outlook_FR_Access_O12/ThisAddIn.vb" id="Snippet2":::
+ :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_Outlook_FR_Access_O12/ThisAddIn.cs" id="Snippet2":::
 
 ## Access form regions that appear in a specific Outlook Explorer window
  To access all form regions that appear in a specific Outlook Explorer, call the `FormRegions` property of the `Globals` class and pass in an <xref:Microsoft.Office.Interop.Outlook.Explorer> object that represents the Explorer.
 
  The following example gets the collection of form regions that appear in the Explorer that currently has focus. This example then accesses a form region in the collection named `formRegion1` and sets the text that appears in a text box to `Hello World`.
 
- [!code-vb[Trin_Outlook_FR_Access#3](../vsto/codesnippet/VisualBasic/Trin_Outlook_FR_Access_O12/ThisAddIn.vb#3)]
- [!code-csharp[Trin_Outlook_FR_Access#3](../vsto/codesnippet/CSharp/Trin_Outlook_FR_Access_O12/ThisAddIn.cs#3)]
+ :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_Outlook_FR_Access_O12/ThisAddIn.vb" id="Snippet3":::
+ :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_Outlook_FR_Access_O12/ThisAddIn.cs" id="Snippet3":::
 
 ## Access all form regions
  To access all form regions that appear in all Explorers and all Inspectors, call the `FormRegions` property of the `Globals` class.
 
  The following example gets the collection of form regions that appear in all Explorers and all Inspectors. This example then accesses a form region named `formRegion1` and sets the text that appears in a text box to `Hello World`.
 
- [!code-vb[Trin_Outlook_FR_Access#1](../vsto/codesnippet/VisualBasic/Trin_Outlook_FR_Access_O12/ThisAddIn.vb#1)]
- [!code-csharp[Trin_Outlook_FR_Access#1](../vsto/codesnippet/CSharp/Trin_Outlook_FR_Access_O12/ThisAddIn.cs#1)]
+ :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_Outlook_FR_Access_O12/ThisAddIn.vb" id="Snippet1":::
+ :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_Outlook_FR_Access_O12/ThisAddIn.cs" id="Snippet1":::
 
 ## Access controls on a form region
  To access controls on a form region by using the `Globals` class, you must make the controls accessible to code outside of the form region code file.

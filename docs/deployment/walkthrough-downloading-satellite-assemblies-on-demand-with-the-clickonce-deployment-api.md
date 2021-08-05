@@ -1,5 +1,7 @@
 ---
-title: "Download satellite assembly on demand with ClickOnce deployment API"
+title: "Download satellite assembly on demand (ClickOnce API)"
+description: Learn how to mark satellite assemblies as optional and download only the assembly a client machine needs for its current culture settings.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:
@@ -18,7 +20,7 @@ helpviewer_keywords:
 ms.assetid: fdaa553f-a27e-44eb-a4e2-08c122105a87
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---
@@ -39,8 +41,8 @@ Windows Forms applications can be configured for multiple cultures through the u
 
 1. Add the following code to your application to enable on-demand downloading of satellite assemblies.
 
-    [!code-csharp[ClickOnce.SatelliteAssembliesSDK#1](../deployment/codesnippet/CSharp/walkthrough-downloading-satellite-assemblies-on-demand-with-the-clickonce-deployment-api_1.cs)]
-    [!code-vb[ClickOnce.SatelliteAssembliesSDK#1](../deployment/codesnippet/VisualBasic/walkthrough-downloading-satellite-assemblies-on-demand-with-the-clickonce-deployment-api_1.vb)]
+    :::code language="csharp" source="../snippets/csharp/VS_Snippets_Winforms/ClickOnce.SatelliteAssembliesSDK/CS/Program.cs" id="Snippet1":::
+    :::code language="vb" source="../snippets/visualbasic/VS_Snippets_Winforms/ClickOnce.SatelliteAssembliesSDK/VB/Form1.vb" id="Snippet1":::
 
 2. Generate satellite assemblies for your application by using [Resgen.exe (Resource File Generator)](/dotnet/framework/tools/resgen-exe-resource-file-generator) or [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].
 

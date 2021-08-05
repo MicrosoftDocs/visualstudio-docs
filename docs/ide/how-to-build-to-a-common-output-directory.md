@@ -1,8 +1,10 @@
 ---
 title: "How to: Build to a common output directory"
+description: Learn how you can change the build output paths of your projects to force all outputs to be placed in the same folder.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.technology: vs-ide-compile
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
   - "output directory"
   - "builds [Visual Studio], common directory"
@@ -10,7 +12,7 @@ helpviewer_keywords:
 ms.assetid: 1fcc2c48-07cb-4c4f-9556-36945e7dfc4e
 author: ghogen
 ms.author: ghogen
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

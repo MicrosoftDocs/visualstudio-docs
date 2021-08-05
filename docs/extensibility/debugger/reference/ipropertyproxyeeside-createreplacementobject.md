@@ -1,20 +1,21 @@
 ---
-title: "IPropertyProxyEESide::CreateReplacementObject | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Creates a copy of a data object specific to the expression evaluator (EE)."
+title: IPropertyProxyEESide::CreateReplacementObject | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IPropertyProxyEESide::CreateReplacementObject"
+- IPropertyProxyEESide::CreateReplacementObject
 helpviewer_keywords:
-  - "IPropertyProxyEESide::CreateReplacementObject"
+- IPropertyProxyEESide::CreateReplacementObject
 ms.assetid: 0cfe79b8-c3f1-48b0-a225-e39dee2c92fe
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IPropertyProxyEESide::CreateReplacementObject
 Creates a copy of a data object specific to the expression evaluator (EE).

@@ -1,22 +1,24 @@
 ---
 title: Code snippets
+description: Learn about code snippets and how they are small blocks of reusable code that can be inserted into a code file.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 f1_keywords:
-  - "vs.ExpansionManagerImport"
-  - "vs.codesnippetmanager"
+- vs.ExpansionManagerImport
+- vs.codesnippetmanager
 helpviewer_keywords:
-  - "surround with"
-  - "code snippets"
-author: jillre
-ms.author: jillfra
-manager: jillfra
+- surround with
+- code snippets
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 dev_langs:
- - CSharp
- - VB
- - CPP
+- CSharp
+- VB
+- CPP
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Code snippets
 

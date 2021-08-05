@@ -1,7 +1,9 @@
 ---
 title: "How to: Configure inclusion list security"
+description: Configure the ClickOnce trust prompt to control whether end users are given the option of installing Office solutions by saving a trust decision to the inclusion list.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: "how-to"
 dev_langs:
   - "VB"
   - "CSharp"
@@ -10,7 +12,7 @@ helpviewer_keywords:
   - "inclusion lists [Office development in Visual Studio]"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

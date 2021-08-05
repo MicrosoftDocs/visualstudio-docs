@@ -1,48 +1,48 @@
 ---
-title: "Step 4: Add the CheckTheAnswer() method"
+title: 'Step 4: Add the CheckTheAnswer() method'
+description: Learn how to write a CheckTheAnswer()method to determine whether the answers to the math problems are correct.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: tutorial
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
 dev_langs:
-  - "CSharp"
-  - "VB"
+- CSharp
+- VB
 ms.assetid: c66f3831-b4a0-40bc-a109-8f46f4db35ed
-author: TerryGLee
-ms.author: tglee
-manager: jillfra
+author: j-martens
+ms.author: jmartens
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Step 4: Add the CheckTheAnswer() method
 
 In the fourth part of this tutorial, you'll write a method, `CheckTheAnswer()`, that determines whether the answers to the math problems are correct. This topic is part of a tutorial series about basic coding concepts. For an overview of the tutorial, see [Tutorial 2: Create a timed math quiz](../ide/tutorial-2-create-a-timed-math-quiz.md).
 
 > [!NOTE]
-> This topic is part of a tutorial series about basic coding concepts.
-> - For an overview of the tutorial, see [Tutorial 2: Create a timed math quiz](../ide/tutorial-2-create-a-timed-math-quiz.md).
-> - To download a completed version of the code, see [Complete math quiz tutorial sample](https://code.msdn.microsoft.com/Complete-Math-Quiz-8581813c).
+> This topic is part of a tutorial series about basic coding concepts. For an overview of the tutorial, see [Tutorial 2: Create a timed math quiz](../ide/tutorial-2-create-a-timed-math-quiz.md).
 
 ## To verify whether the answers are correct
 
 > [!NOTE]
 > If you're following along in Visual Basic, you'll use the `Function` keyword instead of the usual `Sub` keyword because this method returns a value. It's really that simple: a sub doesn't return a value, but a function does.
 
-1. Add the `CheckTheAnswer()` method.
+1. Add the `CheckTheAnswer()` method. This method should be in line with the other methods you made, such as `StartTheQuiz()`.
 
      When this method is called, it adds the values of addend1 and addend2 and compares the result to the value in the sum <xref:System.Windows.Forms.NumericUpDown> control. If the values are equal, the method returns a value of `true`. Otherwise, the method returns a value of `false`. Your code should look like the following.
 
-     [!code-vb[VbExpressTutorial3Step4#8](../ide/codesnippet/VisualBasic/step-4-add-the-checktheanswer-parens-method_1.vb)]
-     [!code-csharp[VbExpressTutorial3Step4#8](../ide/codesnippet/CSharp/step-4-add-the-checktheanswer-parens-method_1.cs)]
+     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial3step4/vb/form1.vb" id="Snippet8":::
+     :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial3step4/cs/form1.cs" id="Snippet8":::
 
      [!INCLUDE [devlang-control-csharp-vb](./includes/devlang-control-csharp-vb.md)]
 
      Next, you'll check the answer by updating the code in the method for the timer's <xref:System.Windows.Forms.Timer.Tick> event handler to call the new `CheckTheAnswer()` method.
 
-2. Add the following code to the `if else` statement.
+2. Add the following code to the `if else` statement in the `Timer1_Tick()` method, so that the timer stops when the user gets the answer right.
 
-     [!code-vb[VbExpressTutorial3Step4#10](../ide/codesnippet/VisualBasic/step-4-add-the-checktheanswer-parens-method_2.vb)]
-     [!code-csharp[VbExpressTutorial3Step4#10](../ide/codesnippet/CSharp/step-4-add-the-checktheanswer-parens-method_2.cs)]
+     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial3step4/vb/form1.vb" id="Snippet10":::
+     :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial3step4/cs/form1.cs" id="Snippet10":::
 
      If the answer is correct, `CheckTheAnswer()` returns `true`. The event handler stops the timer, shows a congratulatory message, and then makes the **Start** button available again. Otherwise, the quiz continues.
 

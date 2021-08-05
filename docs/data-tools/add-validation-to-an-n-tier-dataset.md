@@ -1,20 +1,22 @@
 ---
 title: Add validation to an n-tier dataset
+description: Add validation to an n-tier dataset in Visual Studio. Validate changes to individual columns or whole rows.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 dev_langs:
-  - "VB"
-  - "CSharp"
+- VB
+- CSharp
 helpviewer_keywords:
-  - "n-tier applications, validating"
-  - "validation [Visual Basic], n-tier data applications"
-  - "validating n-tier data applications"
+- n-tier applications, validating
+- validation [Visual Basic], n-tier data applications
+- validating n-tier data applications
 ms.assetid: 34ce4db6-09bb-4b46-b435-b2514aac52d3
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: ghogen
+ms.author: ghogen
+manager: jmartens
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # Add validation to an n-tier dataset
 Adding validation to a dataset that is separated into an n-tier solution is basically the same as adding validation to a single-file dataset (a dataset in a single project). The suggested location for performing validation on data is during the <xref:System.Data.DataTable.ColumnChanging> and/or <xref:System.Data.DataTable.RowChanging> events of a data table.

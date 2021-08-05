@@ -1,17 +1,19 @@
 ---
 title: -Upgrade (devenv.exe)
+description: Learn how to use the Upgrade devenv command-line switch to update the solution file and all of its project files, or the project file specified, to the current Visual Studio formats for these files.
+ms.custom: SEO-VS-2020
 ms.date: 12/10/2018
 ms.topic: reference
 helpviewer_keywords:
-  - "/upgrade Devenv switch"
-  - "Devenv, /upgrade switch"
-  - "upgrade Devenv switch"
+- /upgrade Devenv switch
+- Devenv, /upgrade switch
+- upgrade Devenv switch
 ms.assetid: 3468045c-5cc9-4157-9a9d-622452145d27
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # /Upgrade (devenv.exe)
 

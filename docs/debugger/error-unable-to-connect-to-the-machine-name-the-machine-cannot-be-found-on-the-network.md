@@ -1,7 +1,8 @@
 ---
-title: "Error: Unable to connect to the machine &lt;name&gt;. The machine cannot be found on the network. | Microsoft Docs"
+title: "Unable to connect to the machine &lt;name&gt;. The machine cannot be found on the network. | Microsoft Docs"
+description: "This behavior occurs if one of the following conditions is true: (1) Your connection to the remote computer was broken. (2) Your user account on the remote computer is disabled. (3) Your password on the remote computer has expired."
 ms.date: "11/04/2016"
-ms.topic: "troubleshooting"
+ms.topic: "error-reference"
 f1_keywords:
   - "vs.debug.remote.dcom_disabled"
 dev_langs:
@@ -13,7 +14,7 @@ helpviewer_keywords:
   - "DCOM, unable to connect error"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

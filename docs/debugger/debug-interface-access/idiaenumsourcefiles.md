@@ -1,7 +1,8 @@
 ---
+description: "Enumerates the various source files contained in the data source."
 title: "IDiaEnumSourceFiles | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 5c0779a6-a2ea-408a-90da-ebdecf2b83c0
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

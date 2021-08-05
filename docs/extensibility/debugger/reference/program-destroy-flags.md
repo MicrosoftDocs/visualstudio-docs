@@ -1,18 +1,19 @@
 ---
-title: "PROGRAM_DESTROY_FLAGS | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Enumerates the valid values of the program destroy flags."
+title: PROGRAM_DESTROY_FLAGS | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "PROGRAM_DESTROY_FLAGS enumeration"
+- PROGRAM_DESTROY_FLAGS enumeration
 ms.assetid: be00d4a3-d5b8-4159-b632-64577f534883
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # PROGRAM_DESTROY_FLAGS
 Enumerates the valid values of the program destroy flags.

@@ -1,13 +1,15 @@
 ---
-title: "Extending Solutions | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Extending Solutions | Microsoft Docs
+description: Learn about extending solutions. A solution is a grouping of one or more projects that work together to create an application.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: conceptual
 ms.assetid: 5cb60183-2a87-4551-a19f-c7c4e65d60c0
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Extend solutions
 A solution is a grouping of one or more projects that work together to create an application.

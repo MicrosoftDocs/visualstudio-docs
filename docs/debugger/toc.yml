@@ -6,8 +6,6 @@
     href: what-is-debugging.md
   - name: Debugging techniques and tools
     href: write-better-code-with-visual-studio.md
-  - name: Find your debugging task
-    href: find-your-debugging-task.md
 - name: Quickstarts
   items:
   - name: First look at the debugger
@@ -16,16 +14,16 @@
     href: quickstart-debug-with-managed.md
   - name: Debug a C++ app
     href: quickstart-debug-with-cplusplus.md
-  - name: Debug an ASP.NET app
+  - name: Debug an ASP.NET Core app
     href: quickstart-debug-aspnet.md
 - name: Tutorials
   items:
   - name: Learn to debug C#
-    href: /visualstudio/get-started/csharp/tutorial-debugger?toc=/visualstudio/debugger/toc.json
+    href: ../get-started/csharp/tutorial-debugger.md?toc=%252fvisualstudio%252fdebugger%252ftoc.json
   - name: Learn to debug C++
     href: getting-started-with-the-debugger-cpp.md
   - name: Learn to debug Visual Basic
-    href: /visualstudio/get-started/visual-basic/tutorial-debugger?toc=/visualstudio/debugger/toc.json
+    href: ../get-started/visual-basic/tutorial-debugger.md?toc=%252fvisualstudio%252fdebugger%252ftoc.json
   - name: Running Python code in the debugger...
     href: ../python/tutorial-working-with-python-in-visual-studio-step-04-debugging.md
   - name: Debug a live Azure app
@@ -46,10 +44,14 @@
       href: using-breakpoints.md
     - name: Troubleshooting breakpoints
       href: troubleshooting-breakpoints.md
+    - name: Troubleshooting C# data breakpoints
+      href: troubleshoot-data-breakpoint-errors.md
   - name: Data inspection
     items:
     - name: Inspect data in debugger windows
       href: debugger-windows.md
+    - name: Inspect exceptions
+      href: exception-helper.md 
     - name: Inspect variables
       href: autos-and-locals-windows.md
     - name: Watch variables
@@ -152,8 +154,6 @@
     items:
     - name: Debugger tips and tricks
       href: debugger-tips-and-tricks.md
-    - name: Attach to running processes with the debugger
-      href: attach-to-running-processes-with-the-visual-studio-debugger.md
     - name: Debug at design time
       href: walkthrough-debugging-at-design-time.md
     - name: Just-In-Time Debugger
@@ -180,8 +180,6 @@
           href: native-run-time-checks-customization.md
         - name: Write a run-time error reporting function
           href: how-to-write-a-run-time-error-reporting-function.md
-        - name: Use run-time checks without the C Run-Time Library
-          href: using-run-time-checks-without-the-c-run-time-library.md
     - name: Specify symbol (.pdb) and source files in the debugger
       href: specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md
     - name: Debug user code
@@ -264,6 +262,10 @@
           href: visualizer-api-reference.md
     - name: restore hidden debugger commands
       href: how-to-restore-hidden-debugger-commands.md
+  - name: Source code
+    items:
+    - name: Decompile .NET assemblies
+      href: decompilation.md    
   - name: Remote debugging
     items:
     - name: Remote debugging
@@ -272,7 +274,7 @@
       href: remote-debugging-aspnet-on-a-remote-iis-computer.md
     - name: Remote debug ASP.NET on an IIS computer
       href: remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md
-    - name: Remote debug ASP.NET on Azure
+    - name: Remote debug ASP.NET Core on Azure
       href: remote-debugging-azure.md
     - name: Remote debug a C# or Visual Basic project
       href: remote-debugging-csharp.md
@@ -303,7 +305,7 @@
       - name: Ensure that DNS is correctly configured on the target computer
         href: error-ensure-that-dns-is-correctly-configured-on-the-target-computer.md
       - name: The Microsoft Visual Studio Remote Debugging Monitor (MSVSMON.EXE) does not appear to be running on the remote computer.
-        href: /visualstudio/debugger/error-remote-debugging-monitor-msvsmon-exe-does-not-appear-to-be-running
+        href: ./error-remote-debugging-monitor-msvsmon-exe-does-not-appear-to-be-running.md
       - name: Unable to connect to the Microsoft Visual Studio Remote Debugging Monitor
         href: unable-to-connect-to-the-microsoft-visual-studio-remote-debugging-monitor.md
       - name: Unable to initiate DCOM communication
@@ -332,6 +334,12 @@
         href: error-mixed-mode-debugging-for-x64-processes-is-supported-only-when-using-microsoft-dotnet-framework-4-or-greater.md
       - name: Remote machine does not appear in a Remote Connections dialog
         href: error-remote-machine-does-not-appear-in-a-remote-connections-dialog.md
+  - name: Attach to process
+    items:
+    - name: Attach to running processes with the debugger
+      href: attach-to-running-processes-with-the-visual-studio-debugger.md
+    - name: Attach to a process running in a Docker container
+      href: attach-to-process-running-in-docker-container.md
   - name: Multithreaded app debugging
     items:
     - name: Debug multithreaded applications
@@ -407,11 +415,19 @@
     - name: Debug a live Azure Kubernetes app
       href: debug-live-azure-kubernetes.md
     - name: FAQ for snapshot debugging
-      href: debug-live-azure-apps-faq.md
+      href: debug-live-azure-apps-faq.yml
     - name: Troubleshooting snapshot debugging
       href: debug-live-azure-apps-troubleshooting.md
     - name: Time Travel Debugging live Azure virtual machine app
       href: debug-live-azure-virtual-machines-time-travel-debugging.md
+  - name: Linux debugging
+    items:
+    - name: Debug .NET Core apps in WSL 2
+      href: debug-dotnet-core-in-wsl-2.md
+    - name: Debug .NET Core on Linux using SSH
+      href: remote-debugging-dotnet-core-linux-with-ssh.md
+    - name: Debug with Container Tools >>
+      href: ../containers/edit-and-refresh.md
   - name: Application types
     items:
     - name: Debug specific application types
@@ -434,6 +450,10 @@
           href: deploy-windows-store-apps-from-visual-studio.md
       - name: Debug an installed app package
         href: debug-installed-app-package.md
+      - name: Inspect XAML properties while debugging
+        href: ../xaml-tools/inspect-xaml-properties-while-debugging.md
+      - name: Write and debug running XAML code
+        href: ../xaml-tools/xaml-hot-reload.md
       - name: Debug XAML in Blend
         href: ../xaml-tools/debug-xaml-in-blend.md?toc=/visualstudio/debugger/toc.json
       - name: HTML and CSS
@@ -490,6 +510,10 @@
         items:
         - name: Debug WPF
           href: debugging-wpf.md
+        - name: Inspect XAML properties while debugging
+          href: ../xaml-tools/inspect-xaml-properties-while-debugging.md
+        - name: Write and debug running XAML code
+          href: ../xaml-tools/xaml-hot-reload.md
         - name: Use the WPF Tree Visualizer
           href: how-to-use-the-wpf-tree-visualizer.md
         - name: Display WPF trace information
@@ -572,8 +596,6 @@
           items:
           - name: COM server and container debugging
             href: com-server-and-container-debugging.md
-          - name: Debug COM clients and servers using RPC debugging
-            href: how-to-debug-com-clients-and-servers-using-rpc-debugging.md
         - name: ActiveX control
           items:
           - name: Debug an ActiveX control
@@ -646,18 +668,8 @@
         href: javascript-console-commands.md
       - name: Keyboard shortcuts (HTML and JavaScript)
         href: keyboard-shortcuts-html-and-javascript.md
-      - name: Client-side scripts
-        items:
-        - name: Client-side script debugging
-          href: client-side-script-debugging.md
-        - name: Limitations on script debugging
-          href: limitations-on-script-debugging.md
-        - name: Attach (script)
-          items:
-          - name: Attach to script
-            href: how-to-attach-to-script.md
-          - name: "Warning: Script debugging disabled"
-            href: warning-script-debugging-disabled.md
+      - name: "Warning: Script debugging disabled"
+        href: warning-script-debugging-disabled.md
     - name: WCF services
       items:
       - name: Debug WCF services
@@ -676,6 +688,8 @@
     items:
     - name: Use dump files
       href: using-dump-files.md
+    - name: Debug a managed memory dump
+      href: how-to-debug-managed-memory-dump.md
     - name: Dump File Summary Extensibility API
       href: dump-file-summary-extensibility-api.md
   - name: Debugger security
@@ -934,5 +948,7 @@
           href: copyright-notice-for-spy-increment-help.md
 - name: Resources
   items:
+  - name: FAQ - Find your debugging feature
+    href: find-your-debugging-task.yml
   - name: What's new for the debugger in Visual Studio
     href: what-s-new-for-the-debugger-in-visual-studio.md

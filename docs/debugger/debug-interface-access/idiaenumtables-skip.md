@@ -1,7 +1,8 @@
 ---
+description: "Skips a specified number of tables in an enumeration sequence."
 title: "IDiaEnumTables::Skip | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 5c9db956-0654-4f1a-8775-530aa980d8ec
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

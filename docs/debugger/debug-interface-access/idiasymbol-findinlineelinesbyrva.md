@@ -1,13 +1,14 @@
 ---
+description: "IDiaSymbol::findInlineeLinesByRVA retrieves an enumeration that allows a client to iterate through the line number information of all functions that are inlined, directly or indirectly, in this symbol within the specified relative virtual address (RVA)."
 title: "IDiaSymbol::findInlineeLinesByRVA | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 ms.assetid: ac108db1-9dbf-4dc4-bf48-159ca8d3725c
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

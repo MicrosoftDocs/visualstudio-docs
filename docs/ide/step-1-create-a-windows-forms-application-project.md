@@ -1,15 +1,17 @@
 ---
-title: "Step 1: Create a Windows Forms App project"
+title: 'Step 1: Create a Windows Forms App project'
+description: Learn how to create a Windows Forms App project for your picture viewer.
+ms.custom: SEO-VS-2020
 ms.date: 08/30/2019
 ms.assetid: 16ac2422-e720-4e3a-b511-bc2a54201a86
 ms.topic: tutorial
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
-author: TerryGLee
-ms.author: tglee
-manager: jillfra
+author: j-martens
+ms.author: jmartens
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Step 1: Create a Windows Forms App project
 
@@ -32,9 +34,9 @@ When you create a picture viewer, the first step is to create a Windows Forms Ap
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
-## Open Visual Studio 2019
+## Open Visual Studio
 
 1. On the start window, choose **Create a new project**.
 

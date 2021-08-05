@@ -1,5 +1,7 @@
 ---
 title: "GetFileHash  Task | Microsoft Docs"
+description: Learn to use the MSBuild GetFileHash task to compute checksums of the contents of a file or set of files.
+ms.custom: SEO-VS-2020
 ms.date: "01/28/2019"
 ms.topic: "reference"
 dev_langs:
@@ -10,9 +12,9 @@ dev_langs:
 helpviewer_keywords:
   - "GetFileHash task [MSBuild]"
   - "MSBuild, GetFileHash task"
-author: mikejo5000
-ms.author: mikejo
-manager: jillfra
+author: ghogen
+ms.author: ghogen
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

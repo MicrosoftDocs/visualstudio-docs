@@ -1,5 +1,7 @@
 ---
 title: "MFC Debugging Techniques | Microsoft Docs"
+description: "Learn techniques for debugging MFC programs, including: coded breakpoints, tracing, memory leak detection, object memory dumps, and program size reduction."
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:
@@ -22,7 +24,7 @@ helpviewer_keywords:
 ms.assetid: b154fc31-5e90-4734-8cbd-58dd9fe1f750
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---
@@ -74,7 +76,7 @@ Be sure to remove `AfxDebugBreak` statements when you create a release build or 
 [In this topic](#BKMK_In_this_topic)
 
 ## <a name="BKMK_The_TRACE_macro"></a> The TRACE macro
-To display messages from your program in the debugger [Output window](../ide/reference/output-window.md), you can use the [ATLTRACE](https://msdn.microsoft.com/Library/c796baa5-e2b9-4814-a27d-d800590b102e) macro or the MFC [TRACE](https://msdn.microsoft.com/Library/7b6f42d8-b55a-4bba-ab04-c46251778e6f) macro. Like [assertions](../debugger/c-cpp-assertions.md), the trace macros are active only in the Debug version of your program and disappear when compiled in the Release version.
+To display messages from your program in the debugger [Output window](../ide/reference/output-window.md), you can use the [ATLTRACE](/previous-versions/6xkxyz08(v=vs.140)) macro or the MFC [TRACE](/previous-versions/6w95a4ha(v=vs.140)) macro. Like [assertions](../debugger/c-cpp-assertions.md), the trace macros are active only in the Debug version of your program and disappear when compiled in the Release version.
 
 The following examples show some of the ways you can use the **TRACE** macro. Like `printf`, the **TRACE** macro can handle a number of arguments.
 
@@ -109,7 +111,7 @@ For more information on the **TRACE** macro, see [Diagnostic Services](/cpp/mfc/
 MFC provides classes and functions for detecting memory that is allocated but never deallocated.
 
 ### <a name="BKMK_Tracking_memory_allocations"></a> Tracking memory allocations
-In MFC, you can use the macro [DEBUG_NEW](https://msdn.microsoft.com/Library/9b379344-4093-4bec-a3eb-e0d8a63ada9d) in place of the **new** operator to help locate memory leaks. In the Debug version of your program, `DEBUG_NEW` keeps track of the file name and line number for each object that it allocates. When you compile a Release version of your program, `DEBUG_NEW` resolves to a simple **new** operation without the file name and line number information. Thus, you pay no speed penalty in the Release version of your program.
+In MFC, you can use the macro [DEBUG_NEW](/previous-versions/tz7sxz99(v=vs.140)) in place of the **new** operator to help locate memory leaks. In the Debug version of your program, `DEBUG_NEW` keeps track of the file name and line number for each object that it allocates. When you compile a Release version of your program, `DEBUG_NEW` resolves to a simple **new** operation without the file name and line number information. Thus, you pay no speed penalty in the Release version of your program.
 
 If you do not want to rewrite your entire program to use `DEBUG_NEW` in place of **new**, you can define this macro in your source files:
 
@@ -128,11 +130,11 @@ Before you can use the memory diagnostics facilities, you must enable diagnostic
 
 **To enable or disable memory diagnostics**
 
-- Call the global function [AfxEnableMemoryTracking](https://msdn.microsoft.com/Library/0a40e0c4-855d-46e2-9577-a8f2346f47db) to enable or disable the diagnostic memory allocator. Because memory diagnostics are on by default in the debug library, you will typically use this function to temporarily turn them off, which increases program execution speed and reduces diagnostic output.
+- Call the global function [AfxEnableMemoryTracking](/previous-versions/hzsxb6e8(v=vs.140)) to enable or disable the diagnostic memory allocator. Because memory diagnostics are on by default in the debug library, you will typically use this function to temporarily turn them off, which increases program execution speed and reduces diagnostic output.
 
   **To select specific memory diagnostic features with afxMemDF**
 
-- If you want more precise control over the memory diagnostic features, you can selectively turn individual memory diagnostic features on and off by setting the value of the MFC global variable [afxMemDF](https://msdn.microsoft.com/Library/cf117501-5446-4fce-81b3-f7194bc95086). This variable can have the following values as specified by the enumerated type **afxMemDF**.
+- If you want more precise control over the memory diagnostic features, you can selectively turn individual memory diagnostic features on and off by setting the value of the MFC global variable [afxMemDF](/previous-versions/ahe4a83t(v=vs.140)). This variable can have the following values as specified by the enumerated type **afxMemDF**.
 
   |Value|Description|
   |-----------|-----------------|

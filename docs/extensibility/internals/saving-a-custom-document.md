@@ -1,17 +1,19 @@
 ---
-title: "Saving a Custom Document | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Saving a Custom Document | Microsoft Docs
+description: Learn about the process that occurs for a custom document for a project type that you add to the Visual Studio IDE.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "persistence, saving custom documents"
-  - "projects [Visual Studio SDK], saving custom documents"
-  - "editors [Visual Studio SDK], saving custom documents"
+- persistence, saving custom documents
+- projects [Visual Studio SDK], saving custom documents
+- editors [Visual Studio SDK], saving custom documents
 ms.assetid: 040b36d6-1f0a-4579-971c-40fbb46ade1d
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Saving a Custom Document
 The environment handles the **Save**, **Save As**, and **Save All** commands. When a user clicks **Save**, **Save As**, **or Save All** on the **File** menu or closes the solution, resulting in a Save All, the following process occurs.

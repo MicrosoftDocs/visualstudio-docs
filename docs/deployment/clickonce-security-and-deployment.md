@@ -1,5 +1,7 @@
 ---
 title: "ClickOnce Security and Deployment | Microsoft Docs"
+description: Learn about Visual Studio support for ClickOnce, a deployment technology that enables you to create self-updating Windows-based applications.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:
@@ -14,7 +16,7 @@ helpviewer_keywords:
 ms.assetid: abab6d34-c3c2-45c1-a8b6-43c7d3131e7a
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---
@@ -94,7 +96,7 @@ ms.workload:
 |[GenerateApplicationManifest task](../msbuild/generateapplicationmanifest-task.md)|Generates the application manifest.<br /><br /> Can be run from MSBuild. For more information, see [MSBuild reference](../msbuild/msbuild-reference.md).|
 |[GenerateDeploymentManifest task](../msbuild/generatedeploymentmanifest-task.md)|Generates the deployment manifest.<br /><br /> Can be run from MSBuild. For more information, see [MSBuild reference](../msbuild/msbuild-reference.md).|
 |[SignFile task](../msbuild/signfile-task.md)|Signs the application and deployment manifests.<br /><br /> Can be run from MSBuild. For more information, see [MSBuild reference](../msbuild/msbuild-reference.md).|
-|[Microsoft.Build.Tasks.Deployment.ManifestUtilities](https://docs.microsoft.com/dotnet/api/microsoft.build.tasks.deployment.manifestutilities)|Develop your own application to generate the application and deployment manifests.|
+|[Microsoft.Build.Tasks.Deployment.ManifestUtilities](/dotnet/api/microsoft.build.tasks.deployment.manifestutilities)|Develop your own application to generate the application and deployment manifests.|
 
  The following table shows the .NET Framework version required to support ClickOnce applications in these browsers.
 
@@ -102,6 +104,8 @@ ms.workload:
 |-------------|----------------------------|
 |Internet Explorer|2.0, 3.0, 3.5, 3.5 SP1, 4|
 |Firefox|2.0 SP1, 3.5 SP1, 4|
+|Chrome|3.5|
+|Microsoft Edge|3.5|
 
 ## See also
 - [ClickOnce deployment on Windows Vista](../deployment/clickonce-deployment-on-windows-vista.md)

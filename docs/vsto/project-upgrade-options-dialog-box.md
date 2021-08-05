@@ -1,5 +1,7 @@
 ---
 title: "Project Upgrade, Options dialog box"
+description: Use the Project Upgrade page to specify that Visual Studio automatically changes VSTO Add-in projects to target the version of Office on the development computer.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 f1_keywords:
@@ -13,7 +15,7 @@ helpviewer_keywords:
   - "Options dialog box, Project Upgrade page"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---
@@ -28,4 +30,4 @@ ms.workload:
 
 ## See also
 - [Upgrade and migrate Office solutions](../vsto/upgrading-and-migrating-office-solutions.md)
-- [How to: Upgrade Office solutions](https://msdn.microsoft.com/a269e539-b717-4680-a568-2152b070347e)
+- [How to: Upgrade Office solutions](/previous-versions/4bez6837(v=vs.140))

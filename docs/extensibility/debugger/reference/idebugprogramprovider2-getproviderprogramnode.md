@@ -1,20 +1,21 @@
 ---
-title: "IDebugProgramProvider2::GetProviderProgramNode | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Retrieves the program node for a specific program."
+title: IDebugProgramProvider2::GetProviderProgramNode | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugProgramProvider2::GetProviderProgramNode"
+- IDebugProgramProvider2::GetProviderProgramNode
 helpviewer_keywords:
-  - "IDebugProgramProvider2::GetProviderProgramNode"
+- IDebugProgramProvider2::GetProviderProgramNode
 ms.assetid: e62e8e83-acbb-4c52-aedf-ffbd4670db29
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugProgramProvider2::GetProviderProgramNode
 Retrieves the program node for a specific program.

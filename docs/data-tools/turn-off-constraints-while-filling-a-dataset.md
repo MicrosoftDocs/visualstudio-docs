@@ -1,25 +1,27 @@
 ---
 title: Turn off constraints while filling a dataset
+description: Know how to turn off constraints while filling a dataset. Suspend update constraints programmatically or by using the Dataset Designer.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 f1_keywords:
-  - "DataRow.BeginEdit"
-  - "DataRow.EndEdit"
-  - "DataRow.CancelEdit"
+- DataRow.BeginEdit
+- DataRow.EndEdit
+- DataRow.CancelEdit
 dev_langs:
-  - "VB"
-  - "CSharp"
+- VB
+- CSharp
 helpviewer_keywords:
-  - "updating datasets, constraints"
-  - "constraints [Visual Basic], datasets"
-  - "datasets [Visual Basic], constraints"
-  - "constraints [Visual Basic], suspending during dataset update"
+- updating datasets, constraints
+- constraints [Visual Basic], datasets
+- datasets [Visual Basic], constraints
+- constraints [Visual Basic], suspending during dataset update
 ms.assetid: 553f7d0c-2faa-4c17-b226-dd02855bf1dc
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: ghogen
+ms.author: ghogen
+manager: jmartens
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # Turn off constraints while filling a dataset
 
@@ -34,8 +36,8 @@ If there were no mechanism to allow temporary constraint suspension, an error wo
 
 - The following example shows how to temporarily turn off constraint checking in a dataset:
 
-     [!code-csharp[VbRaddataEditing#10](../data-tools/codesnippet/CSharp/turn-off-constraints-while-filling-a-dataset_1.cs)]
-     [!code-vb[VbRaddataEditing#10](../data-tools/codesnippet/VisualBasic/turn-off-constraints-while-filling-a-dataset_1.vb)]
+     :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataEditing/CS/Form1.cs" id="Snippet10":::
+     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataEditing/VB/Form1.vb" id="Snippet10":::
 
 ## To suspend update constraints using the Dataset Designer
 

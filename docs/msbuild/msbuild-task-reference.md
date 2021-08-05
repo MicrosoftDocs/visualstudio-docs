@@ -1,45 +1,47 @@
 ---
-title: "MSBuild Task Reference | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
+title: MSBuild Task Reference | Microsoft Docs
+description: Learn about the tasks that are included with MSBuild, which provide code that runs during the build process.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: reference
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+- VB
+- CSharp
+- C++
+- jsharp
 helpviewer_keywords:
-  - "MSBuild, tasks"
+- MSBuild, tasks
 ms.assetid: b3144b27-a426-4259-b8ae-5f7991b202b6
-author: mikejo5000
-ms.author: mikejo
-manager: jillfra
+author: ghogen
+ms.author: ghogen
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # MSBuild task reference
 
-Tasks provide the code that runs during the build process. The tasks in the following list are included with [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)]. When [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] is installed, additional tasks are available that are used to build [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] projects. For more information, see [C++ tasks](../msbuild/msbuild-tasks-specific-to-visual-cpp.md).
+Tasks provide the code that runs during the build process. The tasks in the following list are included with MSBuild. When the C++ workload is installed, additional tasks are available that are used to build C++ projects. For more information, see [C++ tasks](../msbuild/msbuild-tasks-specific-to-visual-cpp.md).
 
 In addition to the parameters listed in the topics in this section, each task also has the following parameters:
 
 | Parameter | Description |
 |-------------------| - |
-| `Condition` | Optional `String` parameter.<br /><br /> A `Boolean` expression that the [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] engine uses to determine whether this task will be executed. For information about the conditions that are supported by [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)], see [Conditions](../msbuild/msbuild-conditions.md). |
+| `Condition` | Optional `String` parameter.<br /><br /> A `Boolean` expression that the MSBuild engine uses to determine whether this task will be executed. For information about the conditions that are supported by MSBuild, see [Conditions](../msbuild/msbuild-conditions.md). |
 | `ContinueOnError` | Optional parameter. Can contain one of the following values:<br /><br /> -   **WarnAndContinue** or **true**. When a task fails, subsequent tasks in the [Target](../msbuild/target-element-msbuild.md) element and the build continue to execute, and all errors from the task are treated as warnings.<br />-   **ErrorAndContinue**. When a task fails, subsequent tasks in the `Target` element and the build continue to execute, and all errors from the task are treated as errors.<br />-   **ErrorAndStop** or **false** (default). When a task fails, the remaining tasks in the `Target` element and the build aren't executed, and the entire `Target` element and the build is considered to have failed.<br /><br /> Versions of the .NET Framework before 4.5 supported only the `true` and `false` values.<br /><br /> For more information, see [How to: Ignore errors in tasks](../msbuild/how-to-ignore-errors-in-tasks.md). |
 
 ## In this section
 
 - [Task base class](../msbuild/task-base-class.md)
 
- Adds several parameters to the tasks that derive from the <xref:Microsoft.Build.Utilities.Task> class.
+ Adds several parameters to the tasks that derive from the <xref:Microsoft.Build.Utilities.Task> class. Not intended to be used directly.
 
 - [TaskExtension base class](../msbuild/taskextension-base-class.md)
 
- Adds several parameters to the tasks that derive from the <xref:Microsoft.Build.Tasks.TaskExtension> class.
+ Adds several parameters to the tasks that derive from the <xref:Microsoft.Build.Tasks.TaskExtension> class. Not intended to be used directly.
 
 - [ToolTaskExtension base class](../msbuild/tooltaskextension-base-class.md)
 
- Adds several parameters to the tasks that derive from the <xref:Microsoft.Build.Tasks.ToolTaskExtension> class.
+ Adds several parameters to the tasks that derive from the <xref:Microsoft.Build.Tasks.ToolTaskExtension> class. Not intended to be used directly.
 
 - [AL (Assembly Linker) task](../msbuild/al-assembly-linker-task.md)
 
@@ -79,7 +81,7 @@ In addition to the parameters listed in the topics in this section, each task al
 
 - [CreateCSharpManifestResourceName task](../msbuild/createcsharpmanifestresourcename-task.md)
 
- Creates a [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)]-style manifest name from a given *.resx* file name or other resource.
+ Creates a C#-style manifest name from a given *.resx* file name or other resource.
 
 - [CreateItem task](../msbuild/createitem-task.md)
 
@@ -91,7 +93,7 @@ In addition to the parameters listed in the topics in this section, each task al
 
 - [CreateVisualBasicManifestResourceName task](../msbuild/createvisualbasicmanifestresourcename-task.md)
 
- Creates a [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)]-style manifest name from a given *.resx* file name or other resource.
+ Creates a Visual Basic-style manifest name from a given *.resx* file name or other resource.
 
 - [Csc task](../msbuild/csc-task.md)
 
@@ -135,7 +137,7 @@ In addition to the parameters listed in the topics in this section, each task al
 
 - [GenerateApplicationManifest task](../msbuild/generateapplicationmanifest-task.md)
 
- Generates a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application manifest or a native manifest.
+ Generates a ClickOnce application manifest or a native manifest.
 
 - [GenerateBootstrapper task](../msbuild/generatebootstrapper-task.md)
 
@@ -143,7 +145,7 @@ In addition to the parameters listed in the topics in this section, each task al
 
 - [GenerateDeploymentManifest task](../msbuild/generatedeploymentmanifest-task.md)
 
- Generates a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment manifest.
+ Generates a ClickOnce deployment manifest.
 
 - [GenerateResource task](../msbuild/generateresource-task.md)
 
@@ -167,7 +169,7 @@ In addition to the parameters listed in the topics in this section, each task al
 
 - [GetFrameworkSdkPath task](../msbuild/getframeworksdkpath-task.md)
 
- Retrieves the path to the [!INCLUDE[winsdklong](../deployment/includes/winsdklong_md.md)].
+ Retrieves the path to the Windows Software Development Kit (SDK).
 
 - [GetReferenceAssemblyPaths task](../msbuild/getreferenceassemblypaths-task.md)
 
@@ -191,7 +193,7 @@ In addition to the parameters listed in the topics in this section, each task al
 
 - [MSBuild task](../msbuild/msbuild-task.md)
 
- Builds [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] projects from another [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] project.
+ Builds MSBuild projects from another MSBuild project.
 
 - [ReadLinesFromFile task](../msbuild/readlinesfromfile-task.md)
 

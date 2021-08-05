@@ -1,17 +1,19 @@
 ---
-title: "Saving Data in Project Files | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Saving Data in Project Files | Microsoft Docs
+description: Learn about the interfaces that the Managed Package Framework provides to save and retrieve subtype-specific data in the project file.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
 helpviewer_keywords:
-  - "data [Visual Studio], saving in project files"
-  - "project files"
-  - "project files, saving data"
+- data [Visual Studio], saving in project files
+- project files
+- project files, saving data
 ms.assetid: a3d4b15b-a91e-41ba-b235-e62632d11bc5
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Save data in project files
 A project subtype can save and retrieve subtype-specific data in the project file. The Managed Package Framework (MPF) provides two interfaces to accomplish this task:
@@ -200,7 +202,7 @@ A project subtype can save and retrieve subtype-specific data in the project fil
     ```
 
 > [!NOTE]
-> All code examples provided in this topic are parts of a larger example in [VSSDK samples](https://aka.ms/vs2015sdksamples).
+> All code examples provided in this topic are parts of a larger example in [VSSDK samples](https://github.com/Microsoft/VSSDK-Extensibility-Samples).
 
 ## See also
 - [Persist data in the MSBuild project file](../extensibility/internals/persisting-data-in-the-msbuild-project-file.md)

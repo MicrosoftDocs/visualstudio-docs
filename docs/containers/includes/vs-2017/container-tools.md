@@ -4,17 +4,17 @@ author: ghogen
 description: Learn how to use Visual Studio 2017 tooling and Docker for Windows
 ms.author: ghogen
 ms.date: 02/01/2019
-ms.technology: vs-azure
+ms.technology: vs-container-tools
 ms.topic: include
 ---
 
-With Visual Studio, you can easily build, debug, and run containerized ASP.NET Core apps and publish them to Azure Container Registry (ACR), Docker Hub, Azure App Service, or your own container registry. In this article, we'll publish to ACR.
+With Visual Studio, you can easily build, debug, and run containerized ASP.NET Core apps and publish them to Azure Container Registry, Docker Hub, Azure App Service, or your own container registry. In this article, we'll publish to Container Registry.
 
 ## Prerequisites
 
 * [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
 * [Visual Studio 2017](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download) with the **Web Development**, **Azure Tools** workload, and/or **.NET Core cross-platform development** workload installed
-* To publish to Azure Container Registry, an Azure subscription. [Sign up for a free trial](https://azure.microsoft.com/offers/ms-azr-0044p/).
+* To publish to Azure Container Registry, an Azure subscription. [Sign up for a free trial](https://azure.microsoft.com/free/dotnet/).
 
 ## Installation and setup
 
@@ -24,12 +24,14 @@ For Docker installation, first review the information at [Docker Desktop for Win
 
 1. From the Visual Studio menu, select **File > New > Project**.
 1. Under the **Templates** section of the **New Project** dialog box, select **Visual C# > Web**.
-1. Select **ASP.NET Core Web Application**.
+1. Select **ASP.NET Core Web Application** or if you want to use the .NET Framework instead of .NET Core, select **ASP.NET Web Application**.
 1. Give your new application a name (or take the default) and select **OK**.
 1. Select **Web Application**.
 1. Check the **Enable Docker Support** checkbox.
 
    ![Enable Docker Support check box](../../media/container-tools/enable-docker-support.PNG)
+
+   The screenshot shows .NET Core; if you're using .NET Framework, it looks a bit different.
 
 1. Select the type of container you want (Windows or Linux) and click **OK**.
 
@@ -38,12 +40,12 @@ For Docker installation, first review the information at [Docker Desktop for Win
 A *Dockerfile*, the recipe for creating a final Docker image, is created in the project. Refer to [Dockerfile reference](https://docs.docker.com/engine/reference/builder/) for an understanding of the commands within it.:
 
 ```
-FROM microsoft/dotnet:2.1-aspnetcore-runtime AS base
+FROM mcr.microsoft.com/dotnet/aspnet:2.1 AS base
 WORKDIR /app
 EXPOSE 59518
 EXPOSE 44364
 
-FROM microsoft/dotnet:2.1-sdk AS build
+FROM mcr.microsoft.com/dotnet/sdk:2.1 AS build
 WORKDIR /src
 COPY HelloDockerTools/HelloDockerTools.csproj HelloDockerTools/
 RUN dotnet restore HelloDockerTools/HelloDockerTools.csproj
@@ -60,7 +62,7 @@ COPY --from=publish /app .
 ENTRYPOINT ["dotnet", "HelloDockerTools.dll"]
 ```
 
-The preceding *Dockerfile* is based on the [microsoft/aspnetcore](https://hub.docker.com/r/microsoft/aspnetcore/) image, and includes instructions for modifying the base image by building your project and adding it to the container.
+The preceding *Dockerfile* is based on the [microsoft/aspnetcore](https://hub.docker.com/r/microsoft/aspnetcore/) image, and includes instructions for modifying the base image by building your project and adding it to the container. If you're using the .NET Framework, the base image will be different.
 
 When the new project dialog's **Configure for HTTPS** check box is checked, the *Dockerfile* exposes two ports. One port is used for HTTP traffic; the other port is used for HTTPS. If the check box isn't checked, a single port (80) is exposed for HTTP traffic.
 
@@ -105,7 +107,7 @@ Once the develop and debug cycle of the app is completed, you can create a produ
     | **DNS Prefix** | Globally unique name | Name that uniquely identifies your container registry. |
     | **Subscription** | Choose your subscription | The Azure subscription to use. |
     | **[Resource Group](/azure/azure-resource-manager/resource-group-overview)** | myResourceGroup |  Name of the resource group in which to create your container registry. Choose **New** to create a new resource group.|
-    | **[SKU](https://docs.microsoft.com/azure/container-registry/container-registry-skus)** | Standard | Service tier of the container registry  |
+    | **[SKU](/azure/container-registry/container-registry-skus)** | Standard | Service tier of the container registry  |
     | **Registry Location** | A location close to you | Choose a Location in a [region](https://azure.microsoft.com/regions/) near you or near other services that will use your container registry. |
 
     ![Visual Studio's create Azure Container Registry dialog][0]

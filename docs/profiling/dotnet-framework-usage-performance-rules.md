@@ -1,18 +1,21 @@
 ---
 title: ".NET Framework Usage Performance Rules | Microsoft Docs"
+description: Understand performance rules in the .NET Framework Usage category. Identify specific methods that can be optimized and identify more general usage patterns.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 ms.assetid: ab573755-6370-48aa-853d-a7321c424c79
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+monikerRange: 'vs-2017'
 ms.workload:
   - "multiple"
 ---
 # .NET Framework usage performance rules
 Performance rules in the.NET Framework Usage category identify specific methods that can be optimized and also identify more general usage patterns, such as garbage collection and lock contention, that can be investigated for performance issues.
 
-|||
+|Rule|Description|
 |-|-|
 |[DA0001: Use StringBuilder for concatenations](../profiling/da0001-use-stringbuilder-for-concatenations.md)|Calls to <xref:System.String.Concat(System.String,System.String)?displayProperty=fullName> are a significant proportion of the profiling data. Consider using the <xref:System.Text.StringBuilder> class to construct strings from multiple segments.|
 |[DA0005: Frequent GC2 collections](../profiling/da0005-frequent-gc2-collections.md)|A relatively high number of .NET memory objects are being reclaimed in generation 2 garbage collection. If too many short-lived objects survive generation 1 collection, the cost of memory management can easily become excessive.|

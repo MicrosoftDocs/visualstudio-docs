@@ -1,17 +1,18 @@
 ---
-title: "SccGetVersion Function | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+description: "This function gets the version number of the Source Control Plug-in API supported by the source control plug-in."
+title: SccGetVersion Function | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: reference
 f1_keywords:
-  - "SccGetVersion"
+- SccGetVersion
 helpviewer_keywords:
-  - "SccGetVersion function"
+- SccGetVersion function
 ms.assetid: a6e786bf-744e-4272-9e21-0be44d23b1a1
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # SccGetVersion Function
 This function gets the version number of the Source Control Plug-in API supported by the source control plug-in.

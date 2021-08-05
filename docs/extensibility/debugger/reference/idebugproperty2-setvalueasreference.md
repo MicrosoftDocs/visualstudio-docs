@@ -1,20 +1,21 @@
 ---
-title: "IDebugProperty2::SetValueAsReference | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Sets the value of this property to the value of the given reference."
+title: IDebugProperty2::SetValueAsReference | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugProperty2::SetValueAsReference"
+- IDebugProperty2::SetValueAsReference
 helpviewer_keywords:
-  - "IDebugProperty2::SetValueAsReference method"
+- IDebugProperty2::SetValueAsReference method
 ms.assetid: 341b1b89-4ab8-4e1c-abe2-fb955df5c6b0
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugProperty2::SetValueAsReference
 Sets the value of this property to the value of the given reference.

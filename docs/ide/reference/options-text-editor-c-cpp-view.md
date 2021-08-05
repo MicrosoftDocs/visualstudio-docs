@@ -1,13 +1,15 @@
 ---
 title: Options, Text Editor, C/C++, View
+description: Learn how to use the View page in the C/C++ section to change the default behavior of Code Squiggles, Inactive Code, Outlining, and more within Visual Studio.
+ms.custom: SEO-VS-2020
 ms.date: 10/29/2018
 ms.topic: reference
 f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.C/C++.View"
   - "VS.ToolsOptionsPages.Text_Editor.C%2FC%2B%2B.View"
   - "VS.ToolsOptionsPages.Text_Editor.C\\C++.View"
-author: mikeblome
-ms.author: mblome
+author: corob-msft
+ms.author: corob
 manager: markl
 ms.workload:
   - "cplusplus"
@@ -51,4 +53,4 @@ You can enable or disable the following settings to manage the way in which text
 ## See also
 
 - [Setting Language-Specific Editor Options](../../ide/reference/setting-language-specific-editor-options.md)
-- [Refactoring in C++ (VC Blog)](http://blogs.msdn.com/b/vcblog/archive/2014/11/14/all-about-c-refactoring-in-visual-studio-2015-preview.aspx)
+- [Refactoring in C++ (VC Blog)](https://devblogs.microsoft.com/cppblog/all-about-c-refactoring-in-visual-studio-2015-preview/)

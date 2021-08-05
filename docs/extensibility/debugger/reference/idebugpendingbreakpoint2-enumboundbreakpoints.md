@@ -1,21 +1,22 @@
 ---
-title: "IDebugPendingBreakpoint2::EnumBoundBreakpoints | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Enumerates all breakpoints bound from this pending breakpoint."
+title: IDebugPendingBreakpoint2::EnumBoundBreakpoints | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugPendingBreakpoint2::EnumBoundBreakpoints"
+- IDebugPendingBreakpoint2::EnumBoundBreakpoints
 helpviewer_keywords:
-  - "EnumBoundBreakpoints method"
-  - "IDebugPendingBreakpoint2::EnumBoundBreakpoints method"
+- EnumBoundBreakpoints method
+- IDebugPendingBreakpoint2::EnumBoundBreakpoints method
 ms.assetid: 179c7c54-8446-462d-b099-e0f9cf06dc52
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugPendingBreakpoint2::EnumBoundBreakpoints
 Enumerates all breakpoints bound from this pending breakpoint.

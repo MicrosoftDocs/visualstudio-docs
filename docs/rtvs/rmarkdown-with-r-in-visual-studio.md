@@ -2,10 +2,11 @@
 title: R Markdown
 description: How to create R Markdown documents in Visual Studio to produce high-quality reports, presentations, and dashboards.
 ms.date: 11/16/2017
+ms.prod: visual-studio-dev15
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb
-manager: jillfra
+manager: jmartens
 ms.workload:
   - data-science
 ---
@@ -19,7 +20,7 @@ R Tools for Visual Studio (RTVS) provides a R Markdown item template, editor sup
 ## Using R Markdown
 
 1. Close Visual Studio.
-1. (One time only) Install `pandoc` from [pandoc.org](http://pandoc.org/installing.html).
+1. (One time only) Install `pandoc` from [pandoc.org](https://pandoc.org/installing.html).
 1. Restart Visual Studio, which should pick up the pandoc installation.
 1. Install the `knitr` and `rmarkdown` packages, which you can do from the [interactive window](interactive-repl-for-r-in-visual-studio.md):
 
@@ -33,6 +34,7 @@ R Tools for Visual Studio (RTVS) provides a R Markdown item template, editor sup
 
 1. The default contents of the new file are as follows:
 
+    <!-- markdownlint-disable MD048 -->
     ~~~markdown
     ---
     title: "Untitled"
@@ -41,7 +43,7 @@ R Tools for Visual Studio (RTVS) provides a R Markdown item template, editor sup
 
     This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and Microsoft Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
-    When you click the **R Tools | Publish | Preview** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+    When you select the **R Tools | Publish | Preview** button, a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
 
     ```{r}
     summary(cars)
@@ -56,6 +58,7 @@ R Tools for Visual Studio (RTVS) provides a R Markdown item template, editor sup
     Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
 
     ~~~
+    <!-- markdownlint-disable MD048 -->
 
 ## Previews
 

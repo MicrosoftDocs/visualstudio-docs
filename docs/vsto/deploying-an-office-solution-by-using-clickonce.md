@@ -1,5 +1,7 @@
 ---
 title: "Deploy an Office solution by using ClickOnce"
+description: Learn how you can deploy your Office solution in fewer steps if you use ClickOnce. If you publish updates, your solution will automatically detect and install them. 
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -10,7 +12,7 @@ helpviewer_keywords:
   - "ClickOnce deployment [Office development in Visual Studio], deploying solutions"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---
@@ -37,7 +39,7 @@ ms.workload:
 
 - [Roll back a solution to an earlier version](#Roll)
 
-  For more information about how to deploy an Office solution by creating a Windows Installer file, see [Deploy an Office solution by using Windows Installer](../vsto/deploying-an-office-solution-by-using-windows-installer.md).
+  For more information about how to deploy an Office solution by creating a Windows Installer file, see [Deploy an Office solution by using Windows Installer](../vsto/deploying-a-vsto-solution-by-using-windows-installer.md).
 
 ## <a name="Publish"></a> Publish the solution
  You can publish your solution by using the **Publish Wizard** or the **Project Designer**. In this procedure, you'll use the **Project Designer** because it provides the complete set of publishing options. See [Publish wizard &#40;Office development in Visual Studio&#41;](../vsto/publish-wizard-office-development-in-visual-studio.md).
@@ -210,8 +212,8 @@ ms.workload:
 
    - Deletes the file if the user uninstalls the solution.
 
-     [!code-vb[Trin_ExcelWorkbookPDA#7](../vsto/codesnippet/VisualBasic/trin_excelworkbookpda/filecopypda/class1.vb#7)]
-     [!code-csharp[Trin_ExcelWorkbookPDA#7](../vsto/codesnippet/CSharp/trin_excelworkbookpda/filecopypda/class1.cs#7)]
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/trin_excelworkbookpda/filecopypda/class1.vb" id="Snippet7":::
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/trin_excelworkbookpda/filecopypda/class1.cs" id="Snippet7":::
 
 ### Build and publish the solution
 
@@ -311,7 +313,7 @@ ms.workload:
 
     - Use the Office Configuration Tool to add the server that's running SharePoint to the Trust Center in Word or Excel on all user computers.
 
-         See [Security policies and settings in Office 2010](http://go.microsoft.com/fwlink/?LinkId=99227).
+         See [Security policies and settings in Office 2010](/previous-versions/office/office-2010/cc178946(v=office.14)).
 
     - Ensure that each user performs the following steps.
 
@@ -352,7 +354,7 @@ ms.workload:
 |Error Code|Definition|
 |----------------|----------------|
 |0|The solution was successfully installed or uninstalled, or the VSTOInstaller Help appeared.|
-|-100|One or more command-line options aren't valid or was set more than once. For more information, enter "vstoinstaller /?" or see [Create a custom installer for a ClickOnce Office solution](https://msdn.microsoft.com/3e5887ed-155f-485d-b8f6-3c02c074085e).|
+|-100|One or more command-line options aren't valid or was set more than once. For more information, enter "vstoinstaller /?" or see [Create a custom installer for a ClickOnce Office solution](/previous-versions/bb772078(v=vs.110)).|
 |-101|One or more command-line options aren't valid. For more information, enter "vstoinstaller /?".|
 |-200|The deployment manifest URI isn't valid. For more information, enter "vstoinstaller /?".|
 |-201|The solution couldn't be installed because the deployment manifest isn't valid. See [Deployment manifests for Office solutions](../vsto/deployment-manifests-for-office-solutions.md).|
@@ -454,7 +456,7 @@ ms.workload:
 
 - [Deploy an Office solution](../vsto/deploying-an-office-solution.md)
 - [Publish Office solutions](../vsto/deploying-an-office-solution-by-using-clickonce.md)
-- [How to: Publish an Office solution by using ClickOnce](https://msdn.microsoft.com/2b6c247e-bc04-4ce4-bb64-c4e79bb3d5b8)
-- [How to: Install a ClickOnce Office solution](https://msdn.microsoft.com/14702f48-9161-4190-994c-78211fe18065)
-- [How to: Publish a document-level Office solution to a SharePoint server by using ClickOnce](https://msdn.microsoft.com/2408e809-fb78-42a1-9152-00afa1522e58)
-- [Create a custom installer for a ClickOnce office solution](https://msdn.microsoft.com/3e5887ed-155f-485d-b8f6-3c02c074085e)
+- [How to: Publish an Office solution by using ClickOnce](/previous-versions/bb386095(v=vs.110))
+- [How to: Install a ClickOnce Office solution](/previous-versions/bb608592(v=vs.110))
+- [How to: Publish a document-level Office solution to a SharePoint server by using ClickOnce](/previous-versions/bb608595(v=vs.110))
+- [Create a custom installer for a ClickOnce office solution](/previous-versions/bb772078(v=vs.110))

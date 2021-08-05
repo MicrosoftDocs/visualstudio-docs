@@ -1,16 +1,18 @@
 ---
-title: "Extending the Status Bar | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Extending the Status Bar | Microsoft Docs
+description: Learn how to extend the Visual Studio status bar at the bottom of the IDE, which displays information.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "status bars, about status bars"
-  - "status bars, overview"
+- status bars, about status bars
+- status bars, overview
 ms.assetid: f955115c-4c5f-45ec-b41b-365868c5ec0c
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Extend the status bar
 You can use the Visual Studio status bar at the bottom of the IDE to display information.

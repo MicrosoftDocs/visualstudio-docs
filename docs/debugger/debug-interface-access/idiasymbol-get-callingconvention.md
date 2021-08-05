@@ -1,7 +1,8 @@
 ---
+description: "Returns an indicator of a methods calling convention."
 title: "IDiaSymbol::get_callingConvention | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 355d3877-b6b6-45fd-a1d8-baed428d8f96
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

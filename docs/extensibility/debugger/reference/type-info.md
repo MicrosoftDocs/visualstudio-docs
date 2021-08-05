@@ -1,20 +1,21 @@
 ---
-title: "TYPE_INFO | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "This structure specifies various kinds of information about a field's type."
+title: TYPE_INFO | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "TYPE_INFO"
+- TYPE_INFO
 helpviewer_keywords:
-  - "TYPE_INFO structure"
+- TYPE_INFO structure
 ms.assetid: d725cb68-a565-49d1-a16f-ff0445c587a0
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # TYPE_INFO
 This structure specifies various kinds of information about a field's type.

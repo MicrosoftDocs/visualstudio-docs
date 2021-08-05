@@ -1,5 +1,7 @@
 ---
 title: "Event logging for Office solutions"
+description: Learn how you can use the event viewer in Windows to see exception messages that are captured by the Visual Studio Tools for Office runtime.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -12,7 +14,7 @@ helpviewer_keywords:
   - "Office development in Visual Studio, event viewer"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

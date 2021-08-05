@@ -1,5 +1,6 @@
 ---
 title: "Resource Details View - Contention Data | Microsoft Docs"
+description: Learn how the Resource Details view presents a timeline graph of the blocking events that were caused by contentions over a selected resource.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:
@@ -9,7 +10,8 @@ helpviewer_keywords:
 ms.assetid: a4ecfe1c-abbc-4fb3-9ab2-34de50486901
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+monikerRange: 'vs-2017'
 ms.workload:
   - "multiple"
 ---

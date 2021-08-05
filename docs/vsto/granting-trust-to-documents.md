@@ -1,5 +1,7 @@
 ---
 title: "Grant trust to documents"
+description: Learn how a document-level project has the same security requirements as application-level projects, like signing the manifests with a certificate or clicking the trust prompt.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -12,7 +14,7 @@ helpviewer_keywords:
   - "granting trust [Office development in Visual Studio]"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---
@@ -24,7 +26,7 @@ ms.workload:
 ## Trusted locations
  Applications in [!INCLUDE[Office_15_short](../vsto/includes/office-15-short-md.md)] and Office 2010 have Trust Centers where users can configure security and privacy settings, such as trusted locations. For Office solutions, the local computer is considered a trusted location. However, because of higher risk, there are certain directories that cannot ever be trusted, such as the temporary folders for the system, for each user, and for Internet Explorer.
 
- For more information about the Trust Center, see [Security and policies and settings in Office 2010](http://go.microsoft.com/fwlink/?LinkId=89202). For more information about how to create, manage, remove, and configure trusted folders, see [Configure trusted locations and trusted publishers settings in the 2007 Office system](http://go.microsoft.com/fwlink/?LinkId=89203) and [Create, remove, or change a trusted location for your files](https://support.office.com/article/Create-remove-or-change-a-trusted-location-for-your-files-f5151879-25ea-4998-80a5-4208b3540a62).
+ For more information about the Trust Center, see [Security and policies and settings in Office 2010](/previous-versions/office/office-2010/cc178946(v=office.14)). For more information about how to create, manage, remove, and configure trusted folders, see [Configure trusted locations and trusted publishers settings in the 2007 Office system](/previous-versions/office/office-2007-resource-kit/cc178948(v=office.12)) and [Create, remove, or change a trusted location for your files](https://support.office.com/article/Create-remove-or-change-a-trusted-location-for-your-files-f5151879-25ea-4998-80a5-4208b3540a62).
 
 ## Security considerations for Office solutions
  There are several security concerns when you consider which folders to add to the trusted locations:
@@ -35,7 +37,7 @@ ms.workload:
 
 - Although the document itself is trusted by using the trusted locations, additional permissions are needed to trust the customization. You can grant full trust to the customization by using signing the manifests with a certificate, clicking the trust prompt, or installing the Office solution to the *Program Files* directory.
 
-- You can store the document or workbook of a document-level solution in the same directory as the assembly, or in a different directory. For example, the document could be located on a SharePoint server and the assembly could be located on a network file share. For more information, see [How to: Publish a document-level Office solution to a SharePoint server by using ClickOnce](https://msdn.microsoft.com/2408e809-fb78-42a1-9152-00afa1522e58).
+- You can store the document or workbook of a document-level solution in the same directory as the assembly, or in a different directory. For example, the document could be located on a SharePoint server and the assembly could be located on a network file share. For more information, see [How to: Publish a document-level Office solution to a SharePoint server by using ClickOnce](/previous-versions/bb608595(v=vs.110)).
 
 ## See also
 - [Grant trust to Office solutions](../vsto/granting-trust-to-office-solutions.md)

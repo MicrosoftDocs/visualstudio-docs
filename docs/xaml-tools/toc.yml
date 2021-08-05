@@ -2,6 +2,8 @@
   href: index.yml
 - name: XAML overview
   href: xaml-overview.md
+- name: XAML code editor
+  href: xaml-code-editor.md
 - name: XAML Designer
   items:
   - name: Design XAML in Visual Studio and Blend
@@ -18,6 +20,10 @@
     href: walkthrough-binding-to-data-in-xaml-designer.md
   - name: Debug or disable project code
     href: debugging-or-disabling-project-code-in-xaml-designer.md
+  - name: XAML Design Time Data
+    href: xaml-designtime-data.md
+  - name: XAML Design Time Sample Data
+    href: xaml-design-time-sample-data.md
   - name: Blend for Visual Studio
     items:
     - name: Overview
@@ -63,52 +69,11 @@
   - name: Get started
     displayName: Windows Presentation Foundation (WPF)
     href: ../designers/getting-started-with-wpf.md
-  - name: WPF overview
-    href: ../designers/introduction-to-wpf.md
-  - name: Data binding
-    items:
-    - name: WPF data binding with LINQ to XML
-      href: ../designers/wpf-data-binding-with-linq-to-xml-overview.md
-    - name: LINQ to XML dynamic properties
-      items:
-      - name: Overview
-        displayName: LINQ to XML dynamic properties
-        href: ../designers/linq-to-xml-dynamic-properties.md
-      - name: XAttribute class dynamic properties
-        items:
-        - name: Value (XAttribute dynamic property)
-          href: ../designers/value-xattribute-dynamic-property.md
-      - name: XElement class dynamic properties
-        items:
-        - name: Attribute (XElement dynamic property)
-          href: ../designers/attribute-xelement-dynamic-property.md
-        - name: Element (XElement dynamic property)
-          href: ../designers/element-xelement-dynamic-property.md
-        - name: Elements (XElement dynamic property)
-          href: ../designers/elements-xelement-dynamic-property.md
-        - name: Descendants (XElement dynamic property)
-          href: ../designers/descendants-xelement-dynamic-property.md
-        - name: Value (XElement dynamic property)
-          href: ../designers/value-xelement-dynamic-property.md
-        - name: Xml (XElement dynamic property)
-          href: ../designers/xml-xelement-dynamic-property.md
-      - name: Examples
-        items:
-        - name: WPF data binding using LINQ to XML
-          href: ../designers/wpf-data-binding-using-linq-to-xml-example.md
-        - name: Build and run the LinqToXmlDataBinding example
-          href: ../designers/how-to-build-and-run-the-linqtoxmldatabinding-example.md
-        - name: "Walkthrough: LINQ to XML data binding"
-          href: ../designers/walkthrough-linqtoxmldatabinding-example.md
-        - name: L2DBForm.xaml source code
-          href: ../designers/l2dbform-xaml-source-code.md
-        - name: L2DBForm.xaml.cs source code
-          href: ../designers/l2dbform-xaml-cs-source-code.md
   - name: Debug WPF apps
     items:
     - name: Debug WPF
-      href: ../debugger/debugging-wpf.md?toc=/visualstudio/xaml-tools/toc.json
+      href: ../debugger/debugging-wpf.md?toc=/visualstudio/xaml-tools/toc.json&bc=/visualstudio/xaml-tools/breadcrumb/toc.json
     - name: Use the WPF Tree Visualizer
-      href: ../debugger/how-to-use-the-wpf-tree-visualizer.md?toc=/visualstudio/xaml-tools/toc.json
+      href: ../debugger/how-to-use-the-wpf-tree-visualizer.md?toc=/visualstudio/xaml-tools/toc.json&bc=/visualstudio/xaml-tools/breadcrumb/toc.json
     - name: Display WPF trace information
-      href: ../debugger/how-to-display-wpf-trace-information.md?toc=/visualstudio/xaml-tools/toc.json
+      href: ../debugger/how-to-display-wpf-trace-information.md?toc=/visualstudio/xaml-tools/toc.json&bc=/visualstudio/xaml-tools/breadcrumb/toc.json

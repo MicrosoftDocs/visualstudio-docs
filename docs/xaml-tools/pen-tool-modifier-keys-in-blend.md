@@ -1,12 +1,14 @@
 ---
 title: Pen tool modifier keys
 titleSuffix: Blend for Visual Studio
+description: Learn about the Pen tool modifier keys in Blend for Visual Studio that access commands for modifying a path while you are creating it with the Pen tool.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 ms.assetid: c3ab14c6-a320-46db-a6b3-7fd1ca261587
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ms.workload:
   - "multiple"
 ---
@@ -32,6 +34,6 @@ The following table lists shortcuts that you can use to modify a path while you 
 
 ## See also
 
-- [Artboard modifier keys](../designers/artboard-modifier-keys-in-blend.md)
-- [Direct Selection tool modifier keys](../designers/direct-selection-tool-modifier-keys-in-blend.md)
-- [Draw shapes and paths](../designers/draw-shapes-and-paths.md)
+- [Artboard modifier keys](artboard-modifier-keys-in-blend.md)
+- [Direct Selection tool modifier keys](direct-selection-tool-modifier-keys-in-blend.md)
+- [Draw shapes and paths](draw-shapes-and-paths.md)

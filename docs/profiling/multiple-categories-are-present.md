@@ -1,5 +1,6 @@
 ---
 title: "Multiple Categories Are Present | Microsoft Docs"
+description: Learn that when a section that contains more than one kind of activity for a given time range, two colors are displayed, one vertically stacked on the other.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: f5c7ec07-8052-4df7-a0ca-7ec8bb3eee18
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

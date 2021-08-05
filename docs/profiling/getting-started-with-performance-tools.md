@@ -1,5 +1,7 @@
 ---
 title: "Getting started with performance tools | Microsoft Docs"
+description: Learn about the different ways that Visual Studio offers to collect, view, and analyze code performance data.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2018"
 ms.topic: "conceptual"
 helpviewer_keywords:
@@ -8,7 +10,8 @@ helpviewer_keywords:
 ms.assetid: 02085214-a8e4-40fd-9b26-32391a7a7082
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+monikerRange: 'vs-2017'
 ms.workload:
   - "multiple"
 ---

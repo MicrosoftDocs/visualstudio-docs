@@ -1,14 +1,16 @@
 ---
-title: "Warnings and errors | Microsoft IntelliTest Developer Test Tool"
+title: Warnings and errors | Microsoft IntelliTest Developer Test Tool
+description: This article includes IntelliTest warnings and errors, divided into categories, with descriptions for each warning and error.
+ms.custom: SEO-VS-2020
 ms.date: 05/02/2017
 ms.topic: reference
 helpviewer_keywords:
-  - "IntelliTest, Warnings and errors"
-ms.author: jillfra
-manager: jillfra
+- IntelliTest, Warnings and errors
+ms.author: mikejo
+manager: jmartens
 ms.workload:
-  - "multiple"
-author: jillre
+- multiple
+author: mikejo5000
 ---
 # Warnings and errors
 
@@ -26,7 +28,7 @@ author: jillre
 * **Constraint Solving**
   * [Cannot Concretize Solution](#cannot-concretize-solution)
 
-* **Domains**
+* **Domains or Runtime**
   * [Need Help To Construct Object](#help-construct)
   * [Need Help To Find Types](#help-types)
   * [Usable Type Guessed](#usable-type-guessed)
@@ -366,7 +368,7 @@ interface, IntelliTest must choose a particular
 implementation of that type. To make that choice, it
 needs to know which types exist.
 
-When this warning is shown, it indiicates that IntelliTest looked at some
+When this warning is shown, it indicates that IntelliTest looked at some
 of referenced assemblies and found an implementation
 type, but it is not sure if it should use that type,
 or if there are more appropriate types available
@@ -506,4 +508,4 @@ In some situations, changing a static field is acceptable:
 
 ## Got feedback?
 
-Post your ideas and feature requests on [Developer Community](https://developercommunity.visualstudio.com/content/idea/post.html?space=8).
+Post your ideas and feature requests on [Developer Community](https://aka.ms/feedback/suggest?space=8).

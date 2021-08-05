@@ -1,22 +1,24 @@
 ---
-title: "Debug ClickOnce apps that use System.Deployment.Application"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-helpviewer_keywords:
-  - "ClickOnce deployment, debugging"
-  - "debugging, ClickOnce applications"
-  - "debugging, System.Deployment"
-  - "deploying applications [ClickOnce], debugging"
+title: Debug ClickOnce apps that use System.Deployment.Application
+description: Learn how to use and customize advanced ClickOnce deployment features by accessing the deployment object model provided by System.Deployment.Application.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
+dev_langs: 
+  - VB
+  - CSharp
+  - C++
+helpviewer_keywords: 
+  - ClickOnce deployment, debugging
+  - debugging, ClickOnce applications
+  - debugging, System.Deployment
+  - deploying applications [ClickOnce], debugging
 ms.assetid: 86f31948-2ca8-47c0-8e8b-c2b817bbf79f
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
-ms.workload:
-  - "multiple"
+manager: jmartens
+ms.workload: 
+  - multiple
 ---
 # Debug ClickOnce applications that use System.Deployment.Application
 In [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)], [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment allows you to configure how an application is updated. However, if you need to use and customize advanced [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment features, you will need to access the deployment object model provided by <xref:System.Deployment.Application>. You can use the <xref:System.Deployment.Application> APIs for advanced tasks such as:

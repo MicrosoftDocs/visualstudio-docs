@@ -1,16 +1,17 @@
 ---
-title: "Enumerations (Visual Studio Debugging) | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Following are enumerations for the Visual Studio Debugging SDK."
+title: Enumerations (Visual Studio Debugging) | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "enumerations [Visual Studio SDK]"
-  - "debugging [Debugging SDK], enumerations"
+- enumerations [Visual Studio SDK]
+- debugging [Debugging SDK], enumerations
 ms.assetid: 557065bf-081f-4d57-8744-bae02b8a5a6e
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Enumerations (Visual Studio Debugging)
 Following are enumerations for the [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)] Debugging SDK.

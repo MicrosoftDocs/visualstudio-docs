@@ -1,13 +1,13 @@
 ---
 title: "Publish to IIS by importing publish settings"
 description: "Create and import a publishing profile to deploy an application from Visual Studio to IIS"
-ms.date: 01/31/2019
+ms.date: 05/06/2020
 ms.topic: tutorial
 helpviewer_keywords:
   - "deployment, publish settings"
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---
@@ -46,25 +46,25 @@ A publish settings file (*\*.publishsettings*) is different than a publishing pr
     If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/) page to install it for free.
 ::: moniker-end
 
-* On your server, you must be running Windows Server 2012 or Windows Server 2016, and you must have the [IIS Web Server role](/iis/get-started/whats-new-in-iis-8/iis-80-using-aspnet-35-and-aspnet-45) correctly installed (required to generate the publish settings file (*\*.publishsettings*)). Either ASP.NET 4.5 or ASP.NET Core must also be installed on the server. To set up ASP.NET 4.5, see [IIS 8.0 Using ASP.NET 3.5 and ASP.NET 4.5](/iis/get-started/whats-new-in-iis-8/iis-80-using-aspnet-35-and-aspnet-45). To set up ASP.NET Core, see [Host ASP.NET Core on Windows with IIS](/aspnet/core/publishing/iis?tabs=aspnetcore2x#iis-configuration).
+* On your server, you must be running Windows Server 2012, Windows Server 2016, or Windows Server 2019, and you must have the [IIS Web Server role](/iis/get-started/whats-new-in-iis-8/iis-80-using-aspnet-35-and-aspnet-45) correctly installed (required to generate the publish settings file (*\*.publishsettings*)). Either ASP.NET 4.5 or ASP.NET Core must also be installed on the server. To set up ASP.NET 4.5, see [IIS 8.0 Using ASP.NET 3.5 and ASP.NET 4.5](/iis/get-started/whats-new-in-iis-8/iis-80-using-aspnet-35-and-aspnet-45). To set up ASP.NET Core, see [Host ASP.NET Core on Windows with IIS](/aspnet/core/publishing/iis?tabs=aspnetcore2x#iis-configuration). For ASP.NET Core, make sure you configure the Application Pool to use **No Managed Code**, as described in the article.
 
 ## Create a new ASP.NET project in Visual Studio
 
 1. On the computer running Visual Studio, create a new project.
 
-    Choose the correct template. In this example, choose either **ASP.NET Web Application (.NET Framework)** or (for C# only) **ASP.NET Core Web Application**, and then click **OK**.
+    Choose the correct template. In this example, choose either **ASP.NET Web Application (.NET Framework)** or (for C# only) **ASP.NET Core Web Application**, and then select **OK**.
 
-    If you don't see the specified project templates, click the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box. The Visual Studio Installer launches. Install the **ASP.NET and web development** workload.
+    If you don't see the specified project templates, go to the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box. The Visual Studio Installer launches. Install the **ASP.NET and web development** workload.
 
     The project template you choose (ASP.NET or ASP.NET Core) must correspond to the version of ASP.NET installed on the web server.
 
-1. Choose either **MVC** (.NET Framework) or **Web Application (Model-View-Controller)** (for .NET Core), and make sure that **No Authentication** is selected, and then click **OK**.
+1. Choose either **MVC** (.NET Framework) or **Web Application (Model-View-Controller)** (for .NET Core), and make sure that **No Authentication** is selected, and then select **OK**.
 
-1. Type a name like **MyWebApp** and click **OK**.
+1. Type a name like **MyWebApp** and select **OK**.
 
     Visual Studio creates the project.
 
-1. Choose **Build** > **Build Solution** to build the project.
+1. Choose **Build** > **Build Solution** (or press **Ctrl** + **Shift** + **B**) to build the project.
 
 ## Install and configure Web Deploy on Windows Server
 

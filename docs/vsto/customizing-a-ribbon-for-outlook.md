@@ -1,5 +1,7 @@
 ---
 title: "Customize a Ribbon for Outlook"
+description: Learn that when you customize the ribbon in Microsoft Office Outlook, you must consider where your custom ribbon will appear in the application.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -13,14 +15,12 @@ helpviewer_keywords:
   - "Ribbon [Office development in Visual Studio], Outlook"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---
 # Customize a ribbon for Outlook
   When you customize the ribbon in Microsoft Office Outlook, you must consider where your custom ribbon will appear in the application. Outlook displays the ribbon in the main application user interface (UI) and in windows that open when users perform certain tasks, such as creating e-mail messages. These application windows are named inspectors.
-
- ![link to video](../vsto/media/playvideo.gif "link to video") For a related video demonstration, see [How do I: Use the Ribbon designer to customize the Ribbon in Outlook?](http://go.microsoft.com/fwlink/?LinkID=130312).
 
  [!INCLUDE[appliesto_olkallapp](../vsto/includes/appliesto-olkallapp-md.md)]
 
@@ -41,8 +41,8 @@ ms.workload:
 
  The following code example demonstrates how to display a custom ribbon only in the `Microsoft.Outlook.Mail.Compose` inspector. This is the inspector that opens when a user creates a new e-mail message. The ribbon to display is specified in the `GetResourceText()` method, which is generated in the **Ribbon** class. For more information about the **Ribbon** class, see [Ribbon XML](../vsto/ribbon-xml.md).
 
- [!code-csharp[Trin_RibbonOutlookBasic#1](../vsto/codesnippet/CSharp/Trin_RibbonOutlookBasic/Ribbon1.cs#1)]
- [!code-vb[Trin_RibbonOutlookBasic#1](../vsto/codesnippet/VisualBasic/Trin_RibbonOutlookBasic/Ribbon1.vb#1)]
+ :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_RibbonOutlookBasic/Ribbon1.cs" id="Snippet1":::
+ :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_RibbonOutlookBasic/Ribbon1.vb" id="Snippet1":::
 
 ## See also
 - [Access the Ribbon at run time](../vsto/accessing-the-ribbon-at-run-time.md)

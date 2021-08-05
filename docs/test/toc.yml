@@ -1,27 +1,29 @@
 - name: Testing tools in Visual Studio
-  href: improve-code-quality.md
-- name: Unit testing
+  href: index.yml
+- name: Overview
   items:
-  - name: Unit test tools overview
+  - name: First look at testing tools
+    href: improve-code-quality.md
+  - name: Unit test tools and tasks
     href: unit-test-your-code.md
+- name: Tutorials
+  items:
   - name: Get started
     href: getting-started-with-unit-testing.md
+- name: Unit testing
+  items:
   - name: Unit test basics
     href: unit-test-basics.md
   - name: Create a unit test project
     href: create-a-unit-test-project.md
-  - name: Create Unit Tests command
+  - name: Create unit tests from code
     href: create-unit-tests-menu.md
   - name: IntelliTest
     items:
+    - name: Overview
+      href: intellitest-manual/index.md
     - name: "How to: Generate unit tests with IntelliTest"
       href: generate-unit-tests-for-your-code-with-intellitest.md
-    - name: Overview
-      href: intellitest-manual/introduction.md
-    - name: Getting started
-      href: intellitest-manual/getting-started.md
-    - name: Index to sections
-      href: intellitest-manual/index.md
     - name: Test generation
       href: intellitest-manual/test-generation.md
     - name: Dynamic symbolic execution
@@ -42,6 +44,8 @@
     items:
     - name: Run unit tests with Test Explorer
       href: run-unit-tests-with-test-explorer.md
+    - name: Debug unit tests with Test Explorer
+      href: debug-unit-tests-with-test-explorer.md
     - name: Test Explorer FAQ
       href: test-explorer-faq.md
   - name: Run tests from the command line
@@ -115,6 +119,12 @@
       href: customizing-code-coverage-analysis.md
     - name: Troubleshoot code coverage
       href: troubleshooting-code-coverage.md
+  - name: Migration
+    items:
+    - name: Upgrade from MSTestV1 to MSTestV2
+      href: mstest-update-to-mstestv2.md
+    - name: Migrate testsettings to runsettings
+      href: migrate-testsettings-to-runsettings.md
 - name: Live Unit Testing
   items:
   - name: Introduction
@@ -127,7 +137,7 @@
   - name: Configure and use
     href: live-unit-testing.md
   - name: FAQ
-    href: live-unit-testing-faq.md
+    href: live-unit-testing-faq.yml
 - name: Web performance and load testing
   items:
   - name: "Quickstart: Create a load test project"

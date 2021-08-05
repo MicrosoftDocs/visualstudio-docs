@@ -1,20 +1,21 @@
 ---
-title: "IDebugStackFrame2::GetDebugProperty | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Gets a description of the properties of a stack frame."
+title: IDebugStackFrame2::GetDebugProperty | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugStackFrame2::GetDebugProperty"
+- IDebugStackFrame2::GetDebugProperty
 helpviewer_keywords:
-  - "IDebugStackFrame2::GetDebugProperty"
+- IDebugStackFrame2::GetDebugProperty
 ms.assetid: 02c2fa04-1424-4bca-9936-feaecd2afab6
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugStackFrame2::GetDebugProperty
 Gets a description of the properties of a stack frame.

@@ -1,20 +1,21 @@
 ---
-title: "IDebugCustomAttribute::GetAttributeBytes | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Gets the attribute information as a blob of bytes."
+title: IDebugCustomAttribute::GetAttributeBytes | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugCustomAttribute::GetAttributeBytes"
+- IDebugCustomAttribute::GetAttributeBytes
 helpviewer_keywords:
-  - "IDebugCustomAttribute::GetAttributeBytes"
+- IDebugCustomAttribute::GetAttributeBytes
 ms.assetid: cf34583b-6530-4dcc-89f8-eb27e4e8d594
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugCustomAttribute::GetAttributeBytes
 Gets the attribute information as a blob of bytes.

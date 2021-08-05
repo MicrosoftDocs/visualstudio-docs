@@ -1,6 +1,7 @@
 ---
 title: "Debugging web apps -  errors and troubleshooting"
-ms.custom: "seodec18"
+description: Find links to reference pages to help debug web applications, such as a troubleshooting page and pages that describe each error that you may encounter.
+ms.custom: "SEO-VS-2020"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:
@@ -24,7 +25,7 @@ helpviewer_keywords:
 ms.assetid: 63f2742e-2031-48a8-9773-d9b547c62230
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---
@@ -51,4 +52,4 @@ You may encounter the following errors when attempting to debug Web applications
 
 ## See also
 - [Debugger Security](../debugger/debugger-security.md)
-- [Debugging Web Applications and Script](/visualstudio/debugger/how-to-enable-debugging-for-aspnet-applications)
+- [Debugging Web Applications and Script](how-to-enable-debugging-for-aspnet-applications.md)

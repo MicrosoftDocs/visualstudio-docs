@@ -1,24 +1,26 @@
 ---
-title: "The Structure of the [Content_types].xml File | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: The Structure of the [Content_types].xml File | Microsoft Docs
+description: Learn about the structure of the content types file, which contains information about the kinds of content in a VSIX package.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: reference
 helpviewer_keywords:
-  - "content_types"
-  - "content types"
-  - "opc"
-  - "vsix"
+- content_types
+- content types
+- opc
+- vsix
 ms.assetid: 9c399598-b9fa-4da7-84b5-defbf82e9335
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # The Structure of the [Content_types].xml File
 Contains information about the kinds of content in a VSIX package. Visual Studio uses the [Content_Types].xml file to install the package, but it does not install the file itself.
 
 > [!NOTE]
-> Although this topic applies only to [Content_Type].xml files that are used in VSIX packages, the [Content_Types].xml file type is part of the *Open Packaging Conventions (OPC)* standard. For more information, see [OPC: A New Standard For Packaging Your Data](http://go.microsoft.com/fwlink/?LinkID=148207) on the MSDN Web site.
+> Although this topic applies only to [Content_Type].xml files that are used in VSIX packages, the [Content_Types].xml file type is part of the *Open Packaging Conventions (OPC)* standard. For more information, see [OPC: A New Standard For Packaging Your Data](/archive/msdn-magazine/2007/august/opc-a-new-standard-for-packaging-your-data) on the MSDN Web site.
 
 ## Attributes and Elements
  The following sections describe the root element and its attributes and child elements.
@@ -39,7 +41,7 @@ Contains information about the kinds of content in a VSIX package. Visual Studio
 
 | Value | Description |
 | - | - |
-| http://schemas.openformats.org/package/2006/content-types | The location of the content types schema. |
+| `http://schemas.openformats.org/package/2006/content-types` | The location of the content types schema. |
 
 ### Child Elements
  The `Types` element can contain any number of `Default` elements.
@@ -95,5 +97,5 @@ Contains information about the kinds of content in a VSIX package. Visual Studio
 
 ## See also
 - [Anatomy of a VSIX Package](../extensibility/anatomy-of-a-vsix-package.md)
-- [VSIX Extension Schema 1.0 Reference](https://msdn.microsoft.com/library/76e410ec-b1fb-4652-ac98-4a4c52e09a2b)
-- [OPC: A New Standard For Packaging Your Data](http://go.microsoft.com/fwlink/?LinkID=148207)
+- [VSIX Extension Schema 1.0 Reference](/previous-versions/dd393700(v=vs.110))
+- [OPC: A New Standard For Packaging Your Data](/archive/msdn-magazine/2007/august/opc-a-new-standard-for-packaging-your-data)

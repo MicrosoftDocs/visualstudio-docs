@@ -1,15 +1,17 @@
 ---
 title: Options, Text Editor, C#, Advanced
-ms.date: 01/16/2019
+description: Learn how to use the Advanced page in the C# section to modify the settings for editor formatting, code refactoring, and XML documentation comments for C#.
+ms.custom: SEO-VS-2020
+ms.date: 06/01/2021
 ms.topic: reference
 f1_keywords:
-  - "VS.ToolsOptionsPages.Text_Editor.CSharp.Outlining"
-  - "VS.ToolsOptionsPages.Text_Editor.CSharp.Advanced"
-author: jillre
-ms.author: jillfra
-manager: jillfra
+- VS.ToolsOptionsPages.Text_Editor.CSharp.Outlining
+- VS.ToolsOptionsPages.Text_Editor.CSharp.Advanced
+author: mikadumont
+ms.author: midumont
+manager: jmartens
 ms.workload:
-  - "dotnet"
+- dotnet
 ---
 # Options, Text Editor, C#, Advanced
 
@@ -20,9 +22,9 @@ Use the **Advanced** options page to modify the settings for editor formatting, 
 
 ## Analysis
 
-- Enable full solution analysis
+- Live code analysis or Background analysis scope
 
-   Enables code analysis on all files in the solution, not just open code files. For more information, see [Full solution analysis](../../code-quality/how-to-enable-and-disable-full-solution-analysis-for-managed-code.md).
+   Configure the background analysis scope for managed code. For more information, see [How to: Configure live code analysis scope for managed code](../../code-quality/configure-live-code-analysis-scope-managed-code.md).
 
 ## Using Directives
 
@@ -81,12 +83,23 @@ Use the **Advanced** options page to modify the settings for editor formatting, 
    using System.Linq;
    ```
 
+::: moniker range=">=vs-2019"                                              
+- Suggest usings for types in .NET Framework assemblies
+::: moniker-end
+                                         
+::: moniker range="vs-2017"                                                
 - Suggest usings for types in reference assemblies
+::: moniker-end                                                            
+
 - Suggest usings for types in NuGet packages
 
    When these options are selected, a [Quick Action](../quick-actions.md) is available to install a NuGet package and add a `using` directive for unreferenced types.
 
    ![Quick Action to install NuGet package in Visual Studio](media/nuget-lightbulb.png)
+
+- Add missing using directives on paste
+
+    When this option is selected, `using` directives will automatically get added to your code when you paste a type to a file.
 
 ## Highlighting
 
@@ -114,11 +127,35 @@ Use the **Advanced** options page to modify the settings for editor formatting, 
 
 Select these check boxes to display dotted vertical lines between the curly brackets (**{}**) in your code. You can then easily see individual blocks of code for your declaration level and code level constructs.
 
-## Editor Help
+## Comments
 
 - Generate XML documentation comments for ///
 
    When selected, inserts the XML elements for XML documentation comments after you type the `///` comment introduction. For more information about XML documentation, see [XML Documentation Comments (C# Programming Guide)](/dotnet/csharp/programming-guide/xmldoc/xml-documentation-comments).
+
+::: moniker range=">=vs-2019"
+
+## Inline Hints
+
+- Inline Parameter Name Hints 
+    
+    When selected, inserts parameter name hints for literals, cast literals, and object instantiations prior to each argument in function calls.  
+    
+    ![Inline Parameter Name Hints for CSharp](media/inline-parameter-name-hints-csharp.png)
+
+- Inline Type Hints 
+    
+    When selected, inserts type hints for variables with inferred types and lambda parameter types.  
+    
+    ![Inline Type Hints for CSharp](media/inline-type-hints-csharp.png)
+
+## Inheritance Margin 
+
+- When selected, adds icons to the margins representing your code's implementations and overrides. Clicking on the inheritance margin icons will display inheritance options that you can select to navigate to.
+
+    ![Inheritance Margin](media/inheritance-margin.png)
+
+::: moniker-end
 
 ## See also
 

@@ -1,16 +1,18 @@
 ---
-title: "Exposing Events in the Visual Studio SDK | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Exposing Events in the Visual Studio SDK | Microsoft Docs
+description: Learn about the Visual Studio SDK methods and registry entries that expose events for projects and project items.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
 helpviewer_keywords:
-  - "events [Visual Studio], exposing"
-  - "automation [Visual Studio SDK], exposing events"
+- events [Visual Studio], exposing
+- automation [Visual Studio SDK], exposing events
 ms.assetid: 70bbc258-c221-44f8-b0d7-94087d83b8fe
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Expose events in the Visual Studio SDK
 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] lets you source events by using automation. We recommend that you source events for projects and project items.

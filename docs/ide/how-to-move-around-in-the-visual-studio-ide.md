@@ -1,22 +1,24 @@
 ---
 title: How to move around in the IDE
+description: Learn how to move around in the Visual Studio IDE from window to window and file to file in several different ways.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
-  - "environments [Visual Studio], navigation"
-  - "documents [Visual Studio], navigating"
-  - "IDE, navigation"
-  - "navigation [Visual Studio]"
-  - "files [Visual Studio], navigating between"
-  - "windows [Visual Studio], navigating"
-  - "Window.NextDocumentWindowNav"
-  - "IDE navigator"
+- environments [Visual Studio], navigation
+- documents [Visual Studio], navigating
+- IDE, navigation
+- navigation [Visual Studio]
+- files [Visual Studio], navigating between
+- windows [Visual Studio], navigating
+- Window.NextDocumentWindowNav
+- IDE navigator
 ms.assetid: 6c36b6eb-c93f-496b-af08-4199f7afd8bd
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Move around in the Visual Studio IDE
 

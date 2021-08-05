@@ -150,12 +150,31 @@ namespace WpfApp1
                 // For CustomerID, address, etc we use the values from current customer.  
                 // User can modify these in the datagrid after the order is entered.  
 
+                Customer currentCustomer = (Customer)custViewSource.View.CurrentItem;
+
                 Order newOrder = new Order()
                 {
                     OrderDate = add_orderDatePicker.SelectedDate,
                     RequiredDate = add_requiredDatePicker.SelectedDate,
-                    ShippedDate = add_shippedDatePicker.SelectedDate
+                    ShippedDate = add_shippedDatePicker.SelectedDate,
+                    CustomerID = currentCustomer.CustomerID,
+                    ShipAddress = currentCustomer.Address,
+                    ShipCity = currentCustomer.City,
+                    ShipCountry = currentCustomer.Country,
+                    ShipName = currentCustomer.CompanyName,
+                    ShipPostalCode = currentCustomer.PostalCode,
+                    ShipRegion = currentCustomer.Region
                 };
+
+                try
+                {
+                    newOrder.EmployeeID = Int32.Parse(add_employeeIDTextBox.Text);
+                }
+                catch
+                {
+                    MessageBox.Show("EmployeeID must be a valid integer value.");
+                    return;
+                }
 
                 try
                 {
@@ -226,25 +245,6 @@ namespace WpfApp1
             {
                 MessageBox.Show("No customer selected.");
                 return;
-            }
-
-            Order newOrder = new Order();
-            newOrder.CustomerID = cust.CustomerID;
-
-            // Get address and other mostly constant fields from   
-            // an existing order, if one exists  
-            var coll = custViewSource.Source as IEnumerable<Customer>;
-            var lastOrder = (from c in coll
-                             from ord in c.Orders
-                             select ord).LastOrDefault();
-            if (lastOrder != null)
-            {
-                newOrder.ShipAddress = lastOrder.ShipAddress;
-                newOrder.ShipCity = lastOrder.ShipCity;
-                newOrder.ShipCountry = lastOrder.ShipCountry;
-                newOrder.ShipName = lastOrder.ShipName;
-                newOrder.ShipPostalCode = lastOrder.ShipPostalCode;
-                newOrder.ShipRegion = lastOrder.ShipRegion;
             }
 
             existingCustomerGrid.Visibility = Visibility.Collapsed;

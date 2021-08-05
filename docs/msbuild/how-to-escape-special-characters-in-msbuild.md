@@ -1,22 +1,24 @@
 ---
-title: "How to: Escape Special Characters in MSBuild | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: 'How to: Escape Special Characters in MSBuild | Microsoft Docs'
+description: Learn how to escape special characters so you can use these characters as literals in MSBuild project files.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "special characters, escaping"
-  - "characters, escapes"
-  - "escape characters"
-  - "MSBuild, escaping special characters"
+- special characters, escaping
+- characters, escapes
+- escape characters
+- MSBuild, escaping special characters
 ms.assetid: 1aa3669c-1647-4960-b770-752e2532102f
-author: mikejo5000
-ms.author: mikejo
-manager: jillfra
+author: ghogen
+ms.author: ghogen
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Escape special characters in MSBuild
 
-Certain characters have special meaning in [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] project files. Examples of the characters include semicolons (`;`) and asterisks (`*`). For a complete list of these special characters, see [MSBuild special characters](../msbuild/msbuild-special-characters.md).
+Certain characters have special meaning in MSBuild project files. Examples of the characters include semicolons (`;`) and asterisks (`*`). For a complete list of these special characters, see [MSBuild special characters](../msbuild/msbuild-special-characters.md).
 
 In order to use these special characters as literals in a project file, they must be specified by using the syntax `%<xx>`, where `<xx>` represents the ASCII hexadecimal value of the character.
 
@@ -28,7 +30,7 @@ One example of where special characters are used is in the `Include` attribute o
 <Compile Include="MyFile.cs;MyClass.cs"/>
 ```
 
-If you want to declare an item that contains a semicolon in the name, you must use the `%<xx>` syntax to escape the semicolon and prevent [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] from declaring two separate items. For example, the following item escapes the semicolon and declares one item named `MyFile.cs;MyClass.cs`.
+If you want to declare an item that contains a semicolon in the name, you must use the `%<xx>` syntax to escape the semicolon and prevent MSBuild from declaring two separate items. For example, the following item escapes the semicolon and declares one item named `MyFile.cs;MyClass.cs`.
 
 ```xml
 <Compile Include="MyFile.cs%3BMyClass.cs"/>

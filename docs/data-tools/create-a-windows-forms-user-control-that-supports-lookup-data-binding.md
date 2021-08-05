@@ -1,20 +1,22 @@
 ---
-title: Using lookup tables in data binding - Windows Forms controls| Microsoft Docs
+title: Using lookup tables in data binding - Windows Forms
+description: Learn to create a Windows Forms user control that supports lookup data binding, using the LookupBindingPropertiesAttribute class in Visual Studio.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 dev_langs:
-  - "VB"
-  - "CSharp"
+- VB
+- CSharp
 helpviewer_keywords:
-  - "data binding, user controls"
-  - "LookupBindingPropertiesAttribute class, examples"
-  - "user controls [Visual Basic], creating"
+- data binding, user controls
+- LookupBindingPropertiesAttribute class, examples
+- user controls [Visual Basic], creating
 ms.assetid: c48b4d75-ccfc-4950-8b14-ff8adbfe4208
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: ghogen
+ms.author: ghogen
+manager: jmartens
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # Create a Windows Forms user control that supports lookup data binding
 
@@ -102,8 +104,8 @@ For lookup controls that support data binding, you can implement the <xref:Syste
 
 2. Replace the code in the `LookupBox` with the following:
 
-     [!code-vb[VbRaddataDisplaying#5](../data-tools/codesnippet/VisualBasic/create-a-windows-forms-user-control-that-supports-lookup-data-binding_1.vb)]
-     [!code-csharp[VbRaddataDisplaying#5](../data-tools/codesnippet/CSharp/create-a-windows-forms-user-control-that-supports-lookup-data-binding_1.cs)]
+     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataDisplaying/VB/LookupBox.vb" id="Snippet5":::
+     :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataDisplaying/CS/LookupBox.cs" id="Snippet5":::
 
 3. From the **Build** menu, choose **Build Solution**.
 

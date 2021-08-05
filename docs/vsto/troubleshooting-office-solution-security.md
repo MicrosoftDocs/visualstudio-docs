@@ -1,7 +1,9 @@
 ---
 title: "Troubleshoot Office solution security"
+description: Learn some tips for solving common problems that you might encounter when you work with securing Microsoft Office solutions.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: "troubleshooting"
 dev_langs:
   - "VB"
   - "CSharp"
@@ -9,7 +11,7 @@ helpviewer_keywords:
   - "security [Office development in Visual Studio], troubleshooting"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---
@@ -33,14 +35,15 @@ ms.workload:
 
 - Restricted sites
 
-  If the location of the deployment manifest has been assigned to the restricted sites zone, [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] does not install the solution. If the location is known and can be trusted, the user can remove the location from the restricted sites zone and install the solution. For information about how to manage zones, see [Configuring ClickOnce Trusted Publishers](http://go.microsoft.com/fwlink/?LinkId=94774).
+  If the location of the deployment manifest has been assigned to the restricted sites zone, [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] does not install the solution. If the location is known and can be trusted, the user can remove the location from the restricted sites zone and install the solution. For information about how to manage zones, see [Configuring ClickOnce Trusted Publishers](/previous-versions/dotnet/articles/ms996418(v=msdn.10)).
 
 ## Solutions cannot be installed from network file shares or web locations when Internet Explorer Enhanced Security Configuration or Internet Explorer 7 is installed
  Internet Explorer Enhanced Security Configuration (IEESC) in Windows Server 2003 and higher, and Internet Explorer 7 and higher, significantly restricts the ability of users to browse the Internet. When users try to install Office solutions from a network file share or web location, they might get the following error message: "Customized functionality in this application will not work because the certificate used to sign the deployment manifest for *SolutionName* is not trusted. Contact your administrator for further assistance."
 
  With IEESC and Internet Explorer 7 and higher, if the URL of the deployment manifest is categorized in the Internet zone, the manifest must have a certificate from a trusted publisher or the solution cannot be installed. Without IEESC, the default behavior is to prompt the end user to make a trust decision.
 
- To manage the effect of IEESC and Internet Explorer 7 and higher, identify websites and universal naming convention (UNC) paths that you trust and add them to one of the trusted security zones (Local intranet or Trusted sites).For information about how to manage zones, see [Configure ClickOnce trusted publishers](http://go.microsoft.com/fwlink/?LinkId=94774).
+ To manage the effect of IEESC and Internet Explorer 7 and higher, identify websites and universal naming convention (UNC) paths that you trust and add them to one of the trusted security zones (Local intranet or Trusted sites).For information about how to manage zones, see [Configure ClickOnce trusted publishers](/previous-versions/dotnet/articles/ms996418(v=msdn.10)).
 
 ## See also
 - [Secure Office solutions](../vsto/securing-office-solutions.md)
+- [Visual Studio troubleshooting](/troubleshoot/visualstudio/welcome-visual-studio/)

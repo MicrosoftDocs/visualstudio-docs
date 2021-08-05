@@ -1,15 +1,16 @@
 ---
-title: "IDebugFirewallConfigurationCallback2 | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Enables a debug engine that uses DCOM to ask the Visual Studio UI to make sure that the firewall will not block remote debugging."
+title: IDebugFirewallConfigurationCallback2 | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "IDebugFirewallConfigurationCallback2 interface"
+- IDebugFirewallConfigurationCallback2 interface
 ms.assetid: 0827361c-b97c-4851-9898-ab6d88c81811
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IDebugFirewallConfigurationCallback2
 Enables a debug engine that uses DCOM to ask the [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)] UI to make sure that the firewall will not block remote debugging.

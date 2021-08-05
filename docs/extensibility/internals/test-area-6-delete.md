@@ -1,16 +1,18 @@
 ---
-title: "Test Area 6: Delete | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: 'Test Area 6: Delete | Microsoft Docs'
+description: This source control test area covers delete actions in Solution Explorer for your Visual Studio source control plug-in.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "source control [Visual Studio SDK], deleting items"
-  - "source control plug-ins, deleting items"
+- source control [Visual Studio SDK], deleting items
+- source control plug-ins, deleting items
 ms.assetid: 6f2e872c-5ba2-4303-9f50-a90cef9a6225
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Test Area 6: Delete
 This source-control plug-in test area covers delete actions.

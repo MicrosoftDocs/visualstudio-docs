@@ -1,13 +1,15 @@
 ---
-title: "Ngen support in VSIX v3 | Microsoft Docs"
-ms.date: "11/09/2016"
-ms.topic: "conceptual"
+title: Ngen support in VSIX v3 | Microsoft Docs
+description: Learn how to enable Native Image Generator, which is a tool that extension developers can use to improve the performance of managed applications.
+ms.custom: SEO-VS-2020
+ms.date: 11/09/2016
+ms.topic: conceptual
 ms.assetid: 1472e884-c74e-4c23-9d4a-6d8bdcac043b
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Ngen support in VSIX v3
 

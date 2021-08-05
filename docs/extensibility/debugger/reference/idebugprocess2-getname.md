@@ -1,20 +1,21 @@
 ---
-title: "IDebugProcess2::GetName | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Gets the title, friendly name, or file name of the process."
+title: IDebugProcess2::GetName | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugProcess2::GetName"
+- IDebugProcess2::GetName
 helpviewer_keywords:
-  - "IDebugProcess2::GetName"
+- IDebugProcess2::GetName
 ms.assetid: a2f66ab5-53e5-4cdc-a1b5-3b8afa8ee646
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugProcess2::GetName
 Gets the title, friendly name, or file name of the process.

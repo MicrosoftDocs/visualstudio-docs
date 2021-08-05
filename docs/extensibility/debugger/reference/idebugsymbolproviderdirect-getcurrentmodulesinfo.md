@@ -1,19 +1,20 @@
 ---
-title: "IDebugSymbolProviderDirect::GetCurrentModulesInfo | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Retrieves information about the modules in the symbol group."
+title: IDebugSymbolProviderDirect::GetCurrentModulesInfo | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "IDebugSymbolProviderDirect::GetCurrentModulesInfo"
-  - "GetCurrentModulesInfo"
+- IDebugSymbolProviderDirect::GetCurrentModulesInfo
+- GetCurrentModulesInfo
 ms.assetid: b3b45ed2-ea4e-4389-b78a-11fc9796a6c1
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugSymbolProviderDirect::GetCurrentModulesInfo
 Retrieves information about the modules in the symbol group.

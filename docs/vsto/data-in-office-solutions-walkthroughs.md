@@ -1,5 +1,7 @@
 ---
 title: "Data in Office solutions walkthroughs"
+description: Learn how to work with data in document-level customizations and VSTO Add-ins for Microsoft Word and Microsoft Excel.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -10,7 +12,7 @@ helpviewer_keywords:
   - "walkthroughs [Office development in Visual Studio], data"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

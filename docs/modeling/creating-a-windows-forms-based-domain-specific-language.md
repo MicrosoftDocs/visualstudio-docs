@@ -1,12 +1,14 @@
 ---
-title: Creating a Windows Forms-Based Domain-Specific Language
+title: Create a Windows Forms-Based Domain-Specific Language
+description: Provides information about how to use Windows Forms to display the state of a domain-specific language model.
 ms.date: 11/04/2016
-ms.topic: conceptual
-author: jillre
-ms.author: jillfra
-manager: jillfra
+ms.topic: how-to
+author: mgoertz-msft
+ms.author: mgoertz
+manager: jmartens
+ms.custom: SEO-VS-2020
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Create a Windows Forms-based Domain-Specific Language
 
@@ -24,10 +26,8 @@ The **Minimal WinForm Designer** DSL template creates a minimal DSL that you can
 
     In this walkthrough, the following names are assumed:
 
-   | | |
-   |-|-|
-   | Solution and DSL name | FarmApp |
-   | Namespace | Company.FarmApp |
+    - Solution and DSL name: `FarmApp`
+    - Namespace: `Company.FarmApp`
 
 2. Experiment with the initial example that the template provides:
 
@@ -63,9 +63,9 @@ When you update the DSL Definition file to define your own DSL, you will have to
 
 ## Update the DSL definition
 
-The following the DSL definition is used in this walkthrough.
+The following image is the DSL definition used in this walkthrough.
 
-![DSL&#45;Wpf&#45;1](../modeling/media/dsl-wpf-1.png)
+![DSL definition](../modeling/media/dsl-wpf-1.png)
 
 1. Open DslDefinition.dsl in the DSL designer.
 
@@ -123,7 +123,7 @@ Now you can create a new user control that will display the information that is 
 
      The properties and relationships of your model class appear in the Data Sources window.
 
-     ![DslWpf&#45;3](../modeling/media/dslwpf-3.png)
+     ![Data sources window](../modeling/media/dslwpf-3.png)
 
 ### Connect your model to a form
 
@@ -168,7 +168,8 @@ Now you can create a new user control that will display the information that is 
 
 - It ensures that, when the user selects a row, the Properties window displays the properties of the corresponding model element, instead of the data grid row.
 
-  ![DslWpf4](../modeling/media/dslwpf4.png)
+  ![Schema of the DSL binding](../modeling/media/dslwpf4.png)
+  
   Schema of links between data sources and views.
 
 ### Complete the bindings to the DSL
@@ -295,7 +296,7 @@ The DSL solution can now build and run, although you might want to add further i
 
     You should be able to edit the name of the element in the data grid view. You can also delete it from there.
 
-   ![DSL&#45;Wpf&#45;2](../modeling/media/dsl-wpf-2.png)
+   ![Sample data grid view](../modeling/media/dsl-wpf-2.png)
 
 ### About the code to add an element
 

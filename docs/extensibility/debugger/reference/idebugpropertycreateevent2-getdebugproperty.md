@@ -1,20 +1,21 @@
 ---
-title: "IDebugPropertyCreateEvent2::GetDebugProperty | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Gets the new property."
+title: IDebugPropertyCreateEvent2::GetDebugProperty | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugPropertyCreateEvent2::GetDebugProperty"
+- IDebugPropertyCreateEvent2::GetDebugProperty
 helpviewer_keywords:
-  - "IDebugPropertyCreateEvent2::GetDebugProperty"
+- IDebugPropertyCreateEvent2::GetDebugProperty
 ms.assetid: d7e43183-444c-4417-af19-82e28229f83a
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugPropertyCreateEvent2::GetDebugProperty
 Gets the new property.

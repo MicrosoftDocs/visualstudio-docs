@@ -5,6 +5,7 @@ author: cobey
 ms.author: cobey
 ms.date: 11/06/2018
 ms.assetid: 4C1B7952-CD45-4132-AD6B-01CF993D83F8
+ms.topic: how-to
 ---
 
 # Editor themes

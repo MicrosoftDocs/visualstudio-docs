@@ -1,20 +1,21 @@
 ---
-title: "IDebugProgram2::EnumCodePaths | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Retrieves a list of the code paths for a given position in a source file."
+title: IDebugProgram2::EnumCodePaths | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugProgram2::EnumCodePaths"
+- IDebugProgram2::EnumCodePaths
 helpviewer_keywords:
-  - "IDebugProgram2::EnumCodePaths"
+- IDebugProgram2::EnumCodePaths
 ms.assetid: fb100c3c-9c29-4d63-bd1f-a3e531cb395f
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugProgram2::EnumCodePaths
 Retrieves a list of the code paths for a given position in a source file.

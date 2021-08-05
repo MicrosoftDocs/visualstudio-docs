@@ -1,13 +1,15 @@
 ---
 title: Options, Text Editor, HTML (Web Forms), Miscellaneous
+description: Learn how to use the Miscellaneous page in the HTML section to set preferences for how the HTML editor handles elements pasted into the page.
+ms.custom: SEO-VS-2020
 ms.date: 1/15/2019
 ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.HTML.Miscellaneous"
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ms.workload:
   - "multiple"
 ---
@@ -23,7 +25,7 @@ Use the **Miscellaneous** options page to set preferences for how the HTML edito
 
 - **Require '<' to trigger tag completion window**
 
-   When this check box is selected, the tag completion window appears when you type the less than character ("<").
+   When this check box is selected, the tag completion window appears when you type the less-than character ("<").
 
 ## See also
 

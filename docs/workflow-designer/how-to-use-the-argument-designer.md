@@ -1,16 +1,18 @@
 ---
-title: "Workflow Designer - How to: Use the Argument Designer"
+title: 'Workflow Designer - How to: Use the Argument Designer'
+description: Learn about the argument designer and how to use the argument designer to allow data to flow into and out of an activity.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 f1_keywords:
-  - "System.Activities.Presentation.View.ArgumentDesigner.UI"
-  - "System.Activities.Presentation.View.DesignTimeArgument.UI"
+- System.Activities.Presentation.View.ArgumentDesigner.UI
+- System.Activities.Presentation.View.DesignTimeArgument.UI
 ms.assetid: 64813fd5-1ea1-499a-98b4-ab2a44b7ee5e
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Use the Argument Designer
 

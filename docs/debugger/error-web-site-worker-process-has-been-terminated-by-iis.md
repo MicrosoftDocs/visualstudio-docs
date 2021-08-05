@@ -1,7 +1,8 @@
 ---
-title: "Error: Web site worker process has been terminated by IIS | Microsoft Docs"
+description: "The debugger stopped execution of code on the Web site."
+title: "Web site worker process has been terminated by IIS | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "troubleshooting"
+ms.topic: "error-reference"
 f1_keywords:
   - "vs.debug.error.web_server_process_terminated"
 dev_langs:
@@ -11,7 +12,7 @@ dev_langs:
   - "C++"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

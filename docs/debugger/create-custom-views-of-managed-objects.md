@@ -1,5 +1,7 @@
 ---
 title: "Create custom views of managed objects | Microsoft Docs"
+description: Visual Studio debugger displays data in its variable windows. Learn to customize how data types—including custom types—are displayed. 
+ms.custom: SEO-VS-2020
 ms.date: "01/08/2019"
 ms.topic: "conceptual"
 f1_keywords:
@@ -20,7 +22,7 @@ helpviewer_keywords:
 ms.assetid: 9969e9b2-9008-4729-8a14-0d6deaa61576
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "dotnet"
 ---
@@ -35,10 +37,10 @@ In .NET Framework 2.0 code, Visual Basic does not support the DebuggerBrowsable 
 
 ## Visualizers
 
-You can write a visualizer to display any managed data type. For more information, see [How to: Write a Visualizer](/visualstudio/debugger/create-custom-visualizers-of-data).
+You can write a visualizer to display any managed data type. For more information, see [How to: Write a Visualizer](create-custom-visualizers-of-data.md).
 
 > [!NOTE]
-> For C++ code, you can add custom data type expansions using the Natvis framework, as described in [Create custom views of C++ objects in the debugger](/visualstudio/debugger/create-custom-views-of-native-objects).
+> For C++ code, you can add custom data type expansions using the Natvis framework, as described in [Create custom views of C++ objects in the debugger](create-custom-views-of-native-objects.md).
 
 ## See also
 

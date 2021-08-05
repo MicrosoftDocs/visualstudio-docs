@@ -1,5 +1,7 @@
 ---
 title: "Flag Markers | Microsoft Docs"
+description: Learn about flag markers do in the Visual Studio Concurrency Visualizer. A flag marker represents something that occurred at an instant in time in an app.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:
@@ -7,7 +9,7 @@ f1_keywords:
 ms.assetid: f3ec919e-63e5-484b-adbf-8f0e79342e75
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

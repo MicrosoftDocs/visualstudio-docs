@@ -1,5 +1,7 @@
 ---
 title: "Develop Office solutions"
+description: Learn how to design a project by using Office developer tools in Visual Studio. Also learn how to begin implementing the code and custom user interface (UI).
+ms.custom: SEO-VS-2020
 ms.date: "08/14/2019"
 ms.topic: "conceptual"
 dev_langs:
@@ -11,7 +13,7 @@ helpviewer_keywords:
   - "Office solutions [Office development in Visual Studio], developing"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

@@ -1,20 +1,22 @@
 ---
 title: Using 3D Assets in Your Game or App
+description: Learn how to use Visual Studio to process 3D assets and include them in builds. Visual Studio provides build customizations for each asset that it produces.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 f1_keywords:
-  - "VC.Project.ImageContentTask.ContentOutput"
-  - "VC.Project.MeshContentTask.ContentOutput"
-  - "VC.Project.ImageContentTask.GeneratePremultipliedAlpha"
-  - "VC.Project.ImageContentTask.Compress"
-  - "VC.Project.ShaderGraphContentTask.ContentOutput"
-  - "VC.Project.ImageContentTask.GenerateMips"
+- VC.Project.ImageContentTask.ContentOutput
+- VC.Project.MeshContentTask.ContentOutput
+- VC.Project.ImageContentTask.GeneratePremultipliedAlpha
+- VC.Project.ImageContentTask.Compress
+- VC.Project.ShaderGraphContentTask.ContentOutput
+- VC.Project.ImageContentTask.GenerateMips
 ms.assetid: ea587909-e434-46a8-abf8-9b3e95a58b4f
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Use 3D assets in your game or app
 
@@ -91,7 +93,7 @@ When you use the image content pipeline tool to build a texture asset, you can c
 
 |Property|Description|
 |--------------|-----------------|
-|**Compress**|Specifies the compression type that's used for the output file.<br /><br /> The available options are:<br /><br /> -   **No Compression**<br />-   **BC1_UNORM compression**<br />-   **BC1_UNORM_SRGB compression**<br />-   **BC2_UNORM compression**<br />-   **BC2_UNORM_SRGB compression**<br />-   **BC3_UNORM compression**<br />-   **BC3_UNORM_SRGB compression**<br />-   **BC4_UNORM compression**<br />-   **BC4_SNORM compression**<br />-   **BC5_UNORM compression**<br />-   **BC5_SNORM compression**<br />-   **BC6H_UF16 compression**<br />-   **BC6H_SF16 compression**<br />-   **BC7_UNORM compression**<br />-   **BC7_UNORM_SRGB compression**<br /><br /> For information about which compression formats are supported in different versions of DirectX, see [Programming Guide for DXGI](http://go.microsoft.com/fwlink/p/?LinkId=246265).|
+|**Compress**|Specifies the compression type that's used for the output file.<br /><br /> The available options are:<br /><br /> -   **No Compression**<br />-   **BC1_UNORM compression**<br />-   **BC1_UNORM_SRGB compression**<br />-   **BC2_UNORM compression**<br />-   **BC2_UNORM_SRGB compression**<br />-   **BC3_UNORM compression**<br />-   **BC3_UNORM_SRGB compression**<br />-   **BC4_UNORM compression**<br />-   **BC4_SNORM compression**<br />-   **BC5_UNORM compression**<br />-   **BC5_SNORM compression**<br />-   **BC6H_UF16 compression**<br />-   **BC6H_SF16 compression**<br />-   **BC7_UNORM compression**<br />-   **BC7_UNORM_SRGB compression**<br /><br /> For information about which compression formats are supported in different versions of DirectX, see [Programming Guide for DXGI](/windows/win32/direct3ddxgi/dx-graphics-dxgi-overviews).|
 |Convert to pre-multiplied alpha format|**Yes** to convert the image to pre-multiplied alpha format in the output file; otherwise, **No**. Only the output file is changed, the source image is unchanged.|
 |**Generate Mips**|**Yes** to generate a full MIP chain at build time and include it in the output file; otherwise, **No**. If **No**, and the source file already contains a mipmap chain, then the output file will have a MIP chain; otherwise, the output file will have no MIP chain.|
 |**Content Output**|Specifies the name of the output file. **Important:**  Changing the file name extension of the output file has no effect on its file format.|
@@ -116,7 +118,7 @@ When you use the shader content pipeline tool to build a shader asset, you can c
 
 ### Use textures and images
 
-Direct3D provides functions for creating texture resources. In Direct3D 11, the D3DX11 utility library provides additional functions for creating texture resources and resource views directly from image files. For more information about how to create a texture resource in Direct3D 11, see [Textures](http://go.microsoft.com/fwlink/p/?LinkID=246267). For more information about how to use the D3DX11 library to create a texture resource or resource view from an image file, see [How to: Initialize a texture from a file](http://go.microsoft.com/fwlink/p/?LinkId=246268).
+Direct3D provides functions for creating texture resources. In Direct3D 11, the D3DX11 utility library provides additional functions for creating texture resources and resource views directly from image files. For more information about how to create a texture resource in Direct3D 11, see [Textures](/windows/win32/direct3d11/overviews-direct3d-11-resources-textures). For more information about how to use the D3DX11 library to create a texture resource or resource view from an image file, see [How to: Initialize a texture from a file](/windows/win32/direct3d11/overviews-direct3d-11-resources-textures-how-to).
 
 ### Use 3D models
 
@@ -124,7 +126,7 @@ Direct3D 11 does not provide functions for creating resources from 3D models. In
 
 ### Use shaders
 
-Direct3D provides functions for creating shader resources and binding them to the programmable graphics pipeline. For more information about how to create a shader resource in Direct3D and bind it to the pipeline, see [Programming guide for HLSL](http://go.microsoft.com/fwlink/p/?LinkID=261521).
+Direct3D provides functions for creating shader resources and binding them to the programmable graphics pipeline. For more information about how to create a shader resource in Direct3D and bind it to the pipeline, see [Programming guide for HLSL](/windows/win32/direct3dhlsl/dx-graphics-hlsl-pguide).
 
 In the programmable graphics pipeline, each stage of the pipeline must give the next stage of the pipeline a result that's formatted in a way that it can understand. Because the Shader Designer can only create pixel shaders, this means that it's up to your app to ensure that the data that it receives is in the format that it expects. Several programmable shader stages occur before the pixel shader and perform geometric transformations—the vertex shader, the hull shader, the domain shader, and the geometry shader. The non-programmable tessellation stage also occurs before the pixel shader. No matter which of these stages directly precedes the pixel shader, it must give its result in this format:
 

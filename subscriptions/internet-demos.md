@@ -1,9 +1,10 @@
 ---
-title: Using product keys to support internet demonstrations via Terminal Services | Microsoft Docs
+title: Internet demos via Terminal Services in Visual Studio subscriptions| Microsoft Docs
 author: evanwindom
-ms.author: lank
-manager: lank
-ms.date: 07/19/2019
+ms.author: v-evwin
+manager: cabuschl
+ms.assetid: 1c5ede60-cb5a-4d5f-a6a2-a1f536f6c4ad
+ms.date: 03/21/2021
 ms.topic: conceptual
 description:  Learn how to use product keys to support internet demonstrations via Terminal Services and enable RDS access
 ---
@@ -28,6 +29,16 @@ End users can connect to access applications via RDS if the following conditions
 - Connections must be over the Internet.
 - Up to 200 concurrent user connections may be used for demonstrations of the application.
 - The product keys to enable user connections must be obtained by a Visual Studio subscriber.
+
+## Support resources
+- For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact [Visual Studio subscriptions support](https://aka.ms/vssubscriberhelp).
+
+## See also
+- [Windows Server documentation](/windows-server/)
+- [Visual Studio documentation](/visualstudio/)
+- [Azure DevOps documentation](/azure/devops/)
+- [Azure documentation](/azure/)
+- [Microsoft 365 documentation](/microsoft-365/)
 
 ## Next steps
 If you need guidance for deploying RDS, check out the multi-part blog series on **Remote Desktop Services (RDS) 2012 session deployment** at https://techcommunity.microsoft.com/t5/Ask-The-Performance-Team/bg-p/AskPerf. 

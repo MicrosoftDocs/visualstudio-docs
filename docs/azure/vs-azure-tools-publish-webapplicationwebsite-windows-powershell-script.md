@@ -1,10 +1,9 @@
 ---
-title: Publish-WebApplicationWebSite (Windows PowerShell script) | Microsoft Docs
+title: Publish a web app by using a PowerShell script
 description: Learn how to publish a web project to an Azure website. This script creates the required resources in your Azure subscription if they don't exist.
+ms.custom: SEO-VS-2020
 author: ghogen
-manager: jillfra
-assetId: 63cfaa2d-f04d-40dc-8677-345385c278d5
-ms.custom: vs-azure
+manager: jmartens
 ms.workload: azure-vs
 ms.topic: conceptual
 ms.date: 11/11/2016
@@ -49,7 +48,7 @@ The name of the Azure subscription that you want to create the website in.
 | Accept wildcard characters? |false |
 
 ## WebDeployPackage
-The path to the web deployment package to publish to the website. You can create this package by using the Publish Web wizard in Visual Studio. For more information, see [Get started with Azure Cloud Services and ASP.NET](http://go.microsoft.com/fwlink/p/?LinkID=623089).
+The path to the web deployment package to publish to the website. You can create this package by using the Publish Web wizard in Visual Studio. For more information, see [Get started with Azure Cloud Services and ASP.NET](vs-azure-tools-publish-webapplicationwebsite-windows-powershell-script.md).
 
 | Parameter | Default value |
 | --- | --- |

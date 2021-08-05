@@ -1,20 +1,21 @@
 ---
-title: "IDebugModule3::IsUserCode | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Retrieves information on whether the module represents user code or not."
+title: IDebugModule3::IsUserCode | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugModule3::IsUserCode"
+- IDebugModule3::IsUserCode
 helpviewer_keywords:
-  - "IDebugModule3::IsUserCode"
+- IDebugModule3::IsUserCode
 ms.assetid: 77022946-bb8b-4114-aa81-614df6e54b13
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugModule3::IsUserCode
 Retrieves information on whether the module represents user code or not.

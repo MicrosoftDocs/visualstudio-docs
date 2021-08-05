@@ -1,18 +1,20 @@
 ---
-title: "Step 2: Add a Random object and a list of icons"
+title: 'Step 2: Add a Random object and a list of icons'
+description: Learn how to create a set of matching symbols for the game.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: tutorial
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
 dev_langs:
-  - "CSharp"
-  - "VB"
+- CSharp
+- VB
 ms.assetid: 95faea28-eddc-4cfa-95fb-3b34b5a976d7
-author: TerryGLee
-ms.author: tglee
-manager: jillfra
+author: j-martens
+ms.author: jmartens
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Step 2: Add a Random object and a list of icons
 
@@ -26,8 +28,8 @@ In this step, you create a set of matching symbols for the game. Each symbol is 
 
 2. In the existing code, add the following code.
 
-     [!code-csharp[VbExpressTutorial4Step2_3_4#1](../ide/codesnippet/CSharp/step-2-add-a-random-object-and-a-list-of-icons_1.cs)]
-     [!code-vb[VbExpressTutorial4Step2_3_4#1](../ide/codesnippet/VisualBasic/step-2-add-a-random-object-and-a-list-of-icons_1.vb)]
+     :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial4step2_3_4/cs/form1.cs" id="Snippet1":::
+     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial4step2_3_4/vb/form1.vb" id="Snippet1":::
 
       > [!IMPORTANT]
       > Use the programming language control at the top right of this page to view either the C# code snippet or the Visual Basic code snippet.<br><br>![Programming language control for Docs.Microsoft.com](../ide/media/docs-programming-language-control.png)

@@ -1,20 +1,21 @@
 ---
-title: "IDebugExpressionContext2::GetName | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Retrieves the name of the evaluation context."
+title: IDebugExpressionContext2::GetName | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugExpressionContext2::GetName"
+- IDebugExpressionContext2::GetName
 helpviewer_keywords:
-  - "IDebugExpressionContext2::GetName"
+- IDebugExpressionContext2::GetName
 ms.assetid: c2b70d22-17af-4986-a7e3-930910367216
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugExpressionContext2::GetName
 Retrieves the name of the evaluation context.

@@ -1,27 +1,27 @@
 ---
 title: Install Dotfuscator Community
 ms.date: 03/28/2019
-ms.devlang: "dotnet"
-ms.topic: conceptual
+ms.devlang: dotnet
+ms.topic: how-to
 keywords: Dotfuscator, Dotfuscator Community, Dotfuscator CE, PreEmptive, PreEmptive Solutions, PreEmptive Protection, protection, community edition, obfuscation, .NET, free, Visual Studio 2017, Visual Studio 2019, Visual Studio, install
 helpviewer_keywords:
-  - "PreEmptive Protection Dotfuscator"
-  - "Dotfuscator Community Edition"
-  - "Dotfuscator CE"
-  - "Dotfuscator Community"
-  - "Dotfuscator"
-  - "obfuscation"
-  - "protection"
-  - "Dotfuscator installer"
-  - "Dotfuscator setup"
-  - "install Dotfuscator"
-  - "installing Dotfuscator"
-  - "set up Dotfuscator"
-description: "Learn how to install the free copy of Dotfuscator Community included in Visual Studio."
+- PreEmptive Protection Dotfuscator
+- Dotfuscator Community Edition
+- Dotfuscator CE
+- Dotfuscator Community
+- Dotfuscator
+- obfuscation
+- protection
+- Dotfuscator installer
+- Dotfuscator setup
+- install Dotfuscator
+- installing Dotfuscator
+- set up Dotfuscator
+description: Learn how to install the free copy of Dotfuscator Community included in Visual Studio.
 ms.assetid: f2146651-e24a-4e24-ade8-8ddee8ff4e43
-author: "Joe-Sewell-PreEmptive"
-ms.author: jillfra
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ---
 # Install Dotfuscator Community
 

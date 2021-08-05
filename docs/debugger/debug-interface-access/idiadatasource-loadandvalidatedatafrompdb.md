@@ -1,7 +1,8 @@
 ---
+description: "Opens and verifies that the program database (.pdb) file matches the signature information provided, and  prepares the .pdb file as a debug data source."
 title: "IDiaDataSource::loadAndValidateDataFromPdb | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: d66712dd-6c24-4192-919a-cce262066f0e
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

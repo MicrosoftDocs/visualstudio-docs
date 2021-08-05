@@ -1,46 +1,48 @@
 ---
 title: Options, Text Editor, All Languages, Tabs
+description: Learn how to use the Tabs page in the All Languages section to change the default behavior of the code editor tabs within Visual Studio.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "VS.ToolsOptionsPages.Text_Editor.All_Languages.Tabs"
-  - "VS.ToolsOptionsPages.Text_Editor.Basic.Tabs"
-  - "VS.ToolsOptionsPages.Text_Editor.CSharp.Tabs"
-  - "VS.ToolsOptionsPages.Text_Editor.C%2FC%2B%2B.Tabs"
-  - "VS.ToolsOptionsPages.Text_Editor.CoffeeScript.Tabs"
-  - "VS.ToolsOptionsPages.Text_Editor.CSS.Tabs"
-  - "VS.ToolsOptionsPages.Text_Editor.Dockerfile.Tabs"
-  - "VS.ToolsOptionsPages.Text_Editor.F%2523.Tabs"
-  - "VS.ToolsOptionsPages.Text_Editor.HQL.Tabs"
-  - "VS.ToolsOptionsPages.Text_Editor.HTML.Tabs"
-  - "VS.ToolsOptionsPages.Text_Editor.HTMLX.Tabs"
-  - "VS.ToolsOptionsPages.Text_Editor.JavaScript.Tabs"
-  - "VS.ToolsOptionsPages.Text_Editor.TypeScript.Tabs"
-  - "VS.ToolsOptionsPages.Text_Editor.JSON.Tabs"
-  - "VS.ToolsOptionsPages.Text_Editor.LESS.Tabs"
-  - "VS.ToolsOptionsPages.Text_Editor.Plain_Text.Tabs"
-  - "VS.ToolsOptionsPages.Text_Editor.ResJSON.Tabs"
-  - "VS.ToolsOptionsPages.Text_Editor.SCSS.Tabs"
-  - "VS.ToolsOptionsPages.Text_Editor.SQL_Server_Tools.Tabs"
-  - "VS.ToolsOptionsPages.Text_Editor.StreamAnalytics.Tabs"
-  - "VS.ToolsOptionsPages.Text_Editor.T-SQL90.Tabs"
-  - "VS.ToolsOptionsPages.Text_Editor.U-SQL.Tabs"
-  - "VS.ToolsOptionsPages.Text_Editor.XAML.Tabs"
-  - "VS.ToolsOptionsPages.Text_Editor.XML.Tabs"
+- VS.ToolsOptionsPages.Text_Editor.All_Languages.Tabs
+- VS.ToolsOptionsPages.Text_Editor.Basic.Tabs
+- VS.ToolsOptionsPages.Text_Editor.CSharp.Tabs
+- VS.ToolsOptionsPages.Text_Editor.C%2FC%2B%2B.Tabs
+- VS.ToolsOptionsPages.Text_Editor.CoffeeScript.Tabs
+- VS.ToolsOptionsPages.Text_Editor.CSS.Tabs
+- VS.ToolsOptionsPages.Text_Editor.Dockerfile.Tabs
+- VS.ToolsOptionsPages.Text_Editor.F%2523.Tabs
+- VS.ToolsOptionsPages.Text_Editor.HQL.Tabs
+- VS.ToolsOptionsPages.Text_Editor.HTML.Tabs
+- VS.ToolsOptionsPages.Text_Editor.HTMLX.Tabs
+- VS.ToolsOptionsPages.Text_Editor.JavaScript.Tabs
+- VS.ToolsOptionsPages.Text_Editor.TypeScript.Tabs
+- VS.ToolsOptionsPages.Text_Editor.JSON.Tabs
+- VS.ToolsOptionsPages.Text_Editor.LESS.Tabs
+- VS.ToolsOptionsPages.Text_Editor.Plain_Text.Tabs
+- VS.ToolsOptionsPages.Text_Editor.ResJSON.Tabs
+- VS.ToolsOptionsPages.Text_Editor.SCSS.Tabs
+- VS.ToolsOptionsPages.Text_Editor.SQL_Server_Tools.Tabs
+- VS.ToolsOptionsPages.Text_Editor.StreamAnalytics.Tabs
+- VS.ToolsOptionsPages.Text_Editor.T-SQL90.Tabs
+- VS.ToolsOptionsPages.Text_Editor.U-SQL.Tabs
+- VS.ToolsOptionsPages.Text_Editor.XAML.Tabs
+- VS.ToolsOptionsPages.Text_Editor.XML.Tabs
 helpviewer_keywords:
-  - "indents, Code Editor"
-  - "Code Editor, default behavior"
-  - "tabs, setting in Code Editor"
-  - "All Languages Text Editor Options dialog box"
-  - "editors, Code Editor"
-  - "Code Editor, indenting"
-  - "Code Editor, tabs"
+- indents, Code Editor
+- Code Editor, default behavior
+- tabs, setting in Code Editor
+- All Languages Text Editor Options dialog box
+- editors, Code Editor
+- Code Editor, indenting
+- Code Editor, tabs
 ms.assetid: 7e208e1d-5e3a-4bf7-a27b-4417e3e049c7
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Options, Text Editor, All Languages, Tabs
 

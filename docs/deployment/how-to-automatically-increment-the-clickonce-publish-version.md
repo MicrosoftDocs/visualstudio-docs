@@ -1,22 +1,24 @@
 ---
-title: "How to: Automatically Increment the ClickOnce Publish Version | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-helpviewer_keywords:
-  - "deploying applications [ClickOnce], incrementing publish version automatically"
-  - "Publish Version property, incrementing"
-  - "ClickOnce deployment, incrementing publish version automatically"
-  - "publishing, ClickOnce"
+title: Auto-increment the ClickOnce publish version
+description: Learn how to disable automatic incrementing of revision number for your ClickOnce application using Visual Studio.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
+dev_langs: 
+  - VB
+  - CSharp
+  - C++
+helpviewer_keywords: 
+  - deploying applications [ClickOnce], incrementing publish version automatically
+  - Publish Version property, incrementing
+  - ClickOnce deployment, incrementing publish version automatically
+  - publishing, ClickOnce
 ms.assetid: 686ab88a-6305-4914-a05b-fe269cc0ae1e
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
-ms.workload:
-  - "multiple"
+manager: jmartens
+ms.workload: 
+  - multiple
 ---
 # How to: Automatically increment the ClickOnce publish version
 

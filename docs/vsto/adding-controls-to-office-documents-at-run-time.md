@@ -1,5 +1,7 @@
 ---
 title: "Add controls to Office documents at run time"
+description: Learn how you can add controls to a Microsoft Office Word document and Microsoft Office Excel workbook at run time.
+ms.custom: SEO-VS-2020
 ms.date: 02/02/2017
 ms.topic: conceptual
 dev_langs:
@@ -19,7 +21,7 @@ helpviewer_keywords:
   - "helper methods [Office development in Visual Studio]"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---
@@ -35,8 +37,6 @@ ms.workload:
 - [Add host controls to documents](#HostControls).
 
 - [Add Windows Forms controls to documents](#WindowsForms).
-
-  ![link to video](../vsto/media/playvideo.gif "link to video") For a related video demonstration, see [How do I: Add controls to a document surface at run time?](http://go.microsoft.com/fwlink/?LinkId=132782).
 
 ## <a name="ControlsCollection"></a> Manage controls at run time by using control collections
  To add, get, or remove controls at run time, use helper methods of <xref:Microsoft.Office.Tools.Excel.ControlCollection> and <xref:Microsoft.Office.Tools.Word.ControlCollection> objects.
@@ -56,6 +56,9 @@ ms.workload:
 
  [!code-vb[Trin_ExcelWorkbookDynamicControls#3](../vsto/codesnippet/VisualBasic/trin_excelworkbookdynamiccontrols4/ThisWorkbook.vb#3)]
  [!code-csharp[Trin_ExcelWorkbookDynamicControls#3](../vsto/codesnippet/CSharp/trin_excelworkbookdynamiccontrols4/ThisWorkbook.cs#3)]
+ :::code language="vb" source="../vsto/codesnippet/VisualBasic/trin_excelworkbookdynamiccontrols4/ThisWorkbook.vb" id="Snippet3":::
+ :::code language="csharp" source="../vsto/codesnippet/CSharp/trin_excelworkbookdynamiccontrols4/ThisWorkbook.cs" id="Snippet3":::
+
 
 ### Access and delete controls
  You can use the `Controls` property of a <xref:Microsoft.Office.Tools.Excel.Worksheet> or <xref:Microsoft.Office.Tools.Word.Document> to iterate through all the controls in your document, including the controls you added at design time. Controls that you add at design time are also called *static controls*.
@@ -64,6 +67,9 @@ ms.workload:
 
  [!code-vb[Trin_ExcelWorkbookDynamicControls#4](../vsto/codesnippet/VisualBasic/trin_excelworkbookdynamiccontrols4/ThisWorkbook.vb#4)]
  [!code-csharp[Trin_ExcelWorkbookDynamicControls#4](../vsto/codesnippet/CSharp/trin_excelworkbookdynamiccontrols4/ThisWorkbook.cs#4)]
+ :::code language="vb" source="../vsto/codesnippet/VisualBasic/trin_excelworkbookdynamiccontrols4/ThisWorkbook.vb" id="Snippet4":::
+ :::code language="csharp" source="../vsto/codesnippet/CSharp/trin_excelworkbookdynamiccontrols4/ThisWorkbook.cs" id="Snippet4":::
+
 
  You cannot remove static controls at run time. If you try to use the `Delete` or `Remove` method to remove a static control, a <xref:Microsoft.Office.Tools.CannotRemoveControlException> will be thrown.
 
@@ -110,8 +116,8 @@ When a document is saved and then closed, all dynamically created host controls 
 
   The following code example demonstrates how to use the <xref:Microsoft.Office.Tools.Excel.ControlCollection.AddControl%2A> method to dynamically add a custom user control to a worksheet in a document-level Excel project. In this example, the user control is named `UserControl1`, and the <xref:Microsoft.Office.Interop.Excel.Range> is named `range1`. To use this example, run it from a `Sheet`*n* class in the project.
 
-  [!code-vb[Trin_VstcoreProgrammingControlsExcel#2](../vsto/codesnippet/VisualBasic/my excel chart/Sheet1.vb#2)]
-  [!code-csharp[Trin_VstcoreProgrammingControlsExcel#2](../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsExcelCS/Sheet1.cs#2)]
+  :::code language="vb" source="../vsto/codesnippet/VisualBasic/my excel chart/Sheet1.vb" id="Snippet2":::
+  :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsExcelCS/Sheet1.cs" id="Snippet2":::
 
 ### Use members of custom controls
  After using one of the `AddControl` methods to add a control to a worksheet or document, you now have two different control objects:
@@ -130,8 +136,8 @@ When a document is saved and then closed, all dynamically created host controls 
 
   For example, both the <xref:Microsoft.Office.Tools.Excel.ControlSite> class and the <xref:System.Windows.Forms.Control> class have a `Top` property. To get or set the distance between the top of the control and the top of the document, use the <xref:Microsoft.Office.Tools.Excel.ControlSite.Top%2A> property of the <xref:Microsoft.Office.Tools.Excel.ControlSite>, not the <xref:System.Windows.Forms.Control.Top%2A> property of the <xref:System.Windows.Forms.Control>.
 
-  [!code-vb[Trin_VstcoreProgrammingControlsExcel#3](../vsto/codesnippet/VisualBasic/my excel chart/Sheet1.vb#3)]
-  [!code-csharp[Trin_VstcoreProgrammingControlsExcel#3](../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsExcelCS/Sheet1.cs#3)]
+  :::code language="vb" source="../vsto/codesnippet/VisualBasic/my excel chart/Sheet1.vb" id="Snippet3":::
+  :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsExcelCS/Sheet1.cs" id="Snippet3":::
 
 ## See also
 - [Controls on Office documents](../vsto/controls-on-office-documents.md)

@@ -1,20 +1,21 @@
 ---
-title: "IDebugCoreServer3::GetServerName | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Retrieves the name of the server."
+title: IDebugCoreServer3::GetServerName | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugCoreServer3::GetServerName"
+- IDebugCoreServer3::GetServerName
 helpviewer_keywords:
-  - "IDebugCoreServer3::GetServerName"
+- IDebugCoreServer3::GetServerName
 ms.assetid: 0fc3fcf5-d6a3-4a00-bf14-458b8645714e
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugCoreServer3::GetServerName
 Retrieves the name of the server.

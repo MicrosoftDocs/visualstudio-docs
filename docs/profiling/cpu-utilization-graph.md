@@ -1,5 +1,7 @@
 ---
 title: "CPU Utilization Graph | Microsoft Docs"
+description: Learn about the CPU Utilization graph, which shows the level of utilization in an app over time. Utilization is shown as the number of logical cores in use.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:
@@ -9,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 5332fd38-622d-47a3-874f-8c2fd7a30f95
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---
@@ -20,7 +22,7 @@ The CPU Utilization graph shows the level of utilization in an app over time. Th
 
 - Green indicates the utilization of the logical cores in the system by the current process.
 
-- Light gray indicates the utilization of logical cores by other processes on the system. A high percentage of light gray in the CPU graph indicates that the system is heavily loaded by other processes and that your process is likely to be pre-empted by them. To reduce the consumption of logical cores by other processes, reduce the number of them running on the system.
+- Light gray indicates the utilization of logical cores by other processes on the system. A high percentage of light gray in the CPU graph indicates that the system is heavily loaded by other processes and that your process is likely to be preempted by them. To reduce the consumption of logical cores by other processes, reduce the number of them running on the system.
 
 - Dark gray indicates the consumption of logical cores by the system process. You can't directly control this, but it's useful to know when it's occurring because it can affect the availability of logical cores for your process.
 

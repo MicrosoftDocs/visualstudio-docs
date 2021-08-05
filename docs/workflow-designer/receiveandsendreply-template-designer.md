@@ -1,14 +1,16 @@
 ---
-title: "Workflow Designer - ReceiveAndSendReply Template Designer"
+title: ReceiveAndSendReply Template Designer
+description: Learn how to use the ReceiveAndSendReply template in Workflow Designer to create a pair of pre-configured Receive and SendReply activities.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
   - "System.ServiceModel.Activities.ReceiveAndSendReply.UI"
   - "System.ServiceModel.Activities.SendReply.UI"
 ms.assetid: d1d9a058-df7e-48f5-a2e7-3caeeba7eaa6
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ms.workload:
   - "multiple"
 ---
@@ -42,7 +44,7 @@ The following table shows the <xref:System.ServiceModel.Activities.SendReply> pr
 | <xref:System.ServiceModel.Activities.SendReply.Request%2A> | True | Reference to the <xref:System.ServiceModel.Activities.Receive> activity paired with this <xref:System.ServiceModel.Activities.SendReply> activity. This property must not be **null**. <xref:System.ServiceModel.Activities.Receive> and <xref:System.ServiceModel.Activities.SendReply> activities are used together on the server to model a request/response messaging pattern. This property specifies which <xref:System.ServiceModel.Activities.Send> activity is paired. In the designer, you can't edit this property because it's automatically bound to the <xref:System.ServiceModel.Activities.Send> activity from which you created the <xref:System.ServiceModel.Activities.SendReply> activity. |
 | <xref:System.ServiceModel.Activities.SendReply.Content%2A> | False | Specifies the message or parameter content to receive. It can be either a <xref:System.ServiceModel.Activities.ReceiveMessageContent> activity or a <xref:System.ServiceModel.Activities.ReceiveParametersContent> activity. Edit this property by clicking the ellipsis button next to the **Content** field in property grid, or by clicking the **Define** button next to the **Content** label on the **Receive** activity designer surface. Both display the **Content Definition** dialog. For more information about how to use this box, see the [Content Definition Dialog Box](../workflow-designer/content-definition-dialog-box.md) topic. |
 | <xref:System.ServiceModel.Activities.SendReply.CorrelationInitializers%2A> | False | Specifies the collection of <xref:System.ServiceModel.Activities.CorrelationInitializer> objects that initialize multiple <xref:System.ServiceModel.Activities.CorrelationHandle> objects that configure this <xref:System.ServiceModel.Activities.Receive> activity within the workflow. Click the ellipsis button next to the <xref:System.ServiceModel.Activities.SendReply.CorrelationInitializers%2A> property in the properties grid to open the **Add Correlation Initializers** dialog box. For more information about using this box, see the [Add CorrelationInitializers Dialog Box](../workflow-designer/add-correlationinitializers-dialog-box.md) topic. |
-| <xref:System.ServiceModel.Activities.SendReply.Action%2A> | False | Specifies the action header of the message. If it's not explicitly set, its value defaults to:<br /><br /> <strong>https://tempuri.org/{service contract namespace}/{service contract name}/{operation name}</strong> |
+| <xref:System.ServiceModel.Activities.SendReply.Action%2A> | False | Specifies the action header of the message. If it's not explicitly set, its value defaults to:<br /><br /> `https://tempuri.org/{service contract namespace}/{service contract name}/{operation name}` |
 | <xref:System.ServiceModel.Activities.SendReply.PersistBeforeSend%2A> | False | Specifies whether the workflow instance should be persisted before the reply message is sent. The default value is **false**. |
 
 ## See also

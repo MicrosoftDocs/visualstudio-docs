@@ -1,7 +1,9 @@
 ---
 title: "How to: Populate documents with data from services"
+description: Learn how you can use the data from services in your solution, and how you can use Windows Forms controls to display the data in a document.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: "how-to"
 dev_langs:
   - "VB"
   - "CSharp"
@@ -11,7 +13,7 @@ helpviewer_keywords:
   - "data [Office development in Visual Studio], adding to documents"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---
@@ -22,8 +24,6 @@ Data access works the same way in document-level projects for Microsoft Office a
 [!INCLUDE[appliesto_alldoc](../vsto/includes/appliesto-alldoc-md.md)]
 
 The following example shows how to add data-bound controls to documents at design time. For an example of how to add data-bound controls in VSTO Add-ins at run time, see [Walkthrough: Bind to data from a service in a VSTO Add-in project](../vsto/walkthrough-binding-to-data-from-a-service-in-a-vsto-add-in-project.md).
-
-![link to video](../vsto/media/playvideo.gif "link to video") For a related video demonstration, see [How do I: Interact with web services from Microsoft Excel?](http://go.microsoft.com/fwlink/?LinkID=130284).
 
 ## To populate a document-level project with data from a web service
 

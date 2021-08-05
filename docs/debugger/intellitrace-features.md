@@ -1,5 +1,7 @@
 ---
 title: "IntelliTrace Features | Microsoft Docs"
+description: Learn about IntelliTrace features in Visual Studio. Use IntelliTrace to record events and method calls in your application.
+ms.custom: SEO-VS-2020
 ms.date: "09/19/2018"
 ms.topic: "conceptual"
 helpviewer_keywords:
@@ -17,7 +19,7 @@ helpviewer_keywords:
   - "debugging [Visual Studio ALM], IntelliTrace"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---
@@ -65,7 +67,7 @@ You can use the navigation gutter that appears to the left of the code window. I
 
 The navigation gutter allows you to move forwards and backwards through method calls and events in historical debugging mode. For more information about historical debugging, see [Historical Debugging](../debugger/historical-debugging.md). It has a number of commands:
 
-|||
+|Command|Description|
 |-|-|
 |**Set Debugger Context Here**|Set the debugging context to the call timeframe where it appears.<br /><br /> This icon appears only on the current call stack.|
 |**Return to Call Site**|Move the pointer and debugging context back to where the current function was called.<br /><br /> If you are in Live Debugging mode, this command turns Historical Debugging on. If you navigate back to the original execution break, Historical Debugging is turned off and Live Debugging is turned on.|
@@ -117,7 +119,7 @@ When you save IntelliTrace data to file, you get one .itrace file for each proce
 
 ## Forums
 
-[Visual Studio Debugger](http://go.microsoft.com/fwlink/?LinkId=262263)
+[Visual Studio Debugger](https://social.msdn.microsoft.com/Forums/en-US/home)
 
 ## Videos
 

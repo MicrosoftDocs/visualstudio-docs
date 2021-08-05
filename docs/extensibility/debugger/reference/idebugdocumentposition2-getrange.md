@@ -1,20 +1,21 @@
 ---
-title: "IDebugDocumentPosition2::GetRange | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Gets the range for this document position."
+title: IDebugDocumentPosition2::GetRange | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugDocumentPosition2::GetRange"
+- IDebugDocumentPosition2::GetRange
 helpviewer_keywords:
-  - "IDebugDocumentPosition2::GetRange"
+- IDebugDocumentPosition2::GetRange
 ms.assetid: 91a06ee7-253a-4215-be22-04bf57305aa8
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugDocumentPosition2::GetRange
 Gets the range for this document position.

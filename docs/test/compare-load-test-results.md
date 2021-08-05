@@ -1,14 +1,16 @@
 ---
-title: "Comparing load test results"
+title: Comparing load test results
+description: Learn how to generate Excel load test reports that are based on two or more test results, including run comparison reports and trend reports.
+ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
-ms.topic: conceptual
-helpviewer_keywords:
-  - "load tests, reporting"
-  - "load tests, results"
+ms.topic: how-to
+helpviewer_keywords: 
+  - load tests, reporting
+  - load tests, results
 ms.assetid: 31874114-459a-45d5-9f8b-2ea503627db8
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
 ---
 # Report load tests results for test comparisons or trend analysis
 

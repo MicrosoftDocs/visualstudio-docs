@@ -1,13 +1,15 @@
 ---
-title: "Creating a Software Development Kit | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Creating a Software Development Kit | Microsoft Docs
+description: Learn about the general infrastructure of SDKs and how to create a platform SDK and an extension SDK.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
 ms.assetid: 8496afb4-1573-4585-ac67-c3d58b568a12
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Create a software development kit
 

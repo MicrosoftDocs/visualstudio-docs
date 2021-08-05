@@ -1,5 +1,7 @@
 ---
 title: "Bookmark control"
+description: Learn how the Bookmark control is a bookmark that has a unique name, exposes events, and can be bound to data.
+ms.custom: SEO-VS-2020
 ms.date: 02/02/2017
 ms.topic: conceptual
 f1_keywords:
@@ -14,7 +16,7 @@ helpviewer_keywords:
   - "Bookmark control"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

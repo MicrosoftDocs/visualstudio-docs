@@ -1,18 +1,21 @@
 ---
-title: "How to: Collect Event Tracing for Windows (ETW) Data | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-f1_keywords:
-  - "vs.performance.property.events"
-helpviewer_keywords:
-  - "event trace providers, performance tools"
-  - "profiling tools, event trace providers"
-  - "performance tools, enabling event trace providers"
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
-ms.workload:
-  - "multiple"
+title: Collect Event Tracing for Windows (ETW) Data | Microsoft Docs
+description: Learn how to use Event Tracing for Windows (ETW) to determine where performance issues occur in the application. You view the data with VSPerfReport.exe.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
+f1_keywords: 
+  - vs.performance.property.events
+helpviewer_keywords: 
+  - event trace providers, performance tools
+  - profiling tools, event trace providers
+  - performance tools, enabling event trace providers
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+monikerRange: 'vs-2017'
+ms.workload: 
+  - multiple
 ---
 # How to: Collect Event Tracing for Windows (ETW) data
 

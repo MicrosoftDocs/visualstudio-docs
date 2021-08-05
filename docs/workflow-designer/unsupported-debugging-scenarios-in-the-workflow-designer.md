@@ -1,13 +1,15 @@
 ---
-title: "Unsupported debugging scenarios in the Workflow Designer"
+title: Unsupported debugging scenarios
+description: Learn about unsupported debugging scenarios in the Workflow Designer, for example, "Execution cannot be continued after code has been edited."
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 ms.assetid: 6adbe379-41d0-4681-9cd0-b91f187c3c2c
-ms.author: jillfra
-manager: jillfra
+ms.author: tglee
+manager: jmartens
 ms.workload:
-  - "multiple"
-author: jillre
+- multiple
+author: TerryGLee
 ---
 # Unsupported debugging scenarios in the Workflow Designer
 

@@ -1,11 +1,13 @@
 ---
 title: Shader Designer Nodes
+description: Use the articles in this section of the documentation to learn about the various Shader Designer nodes that you can use to create graphics effects.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: overview
 ms.assetid: f5192fbd-c78f-40a8-a4d4-443209610268
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

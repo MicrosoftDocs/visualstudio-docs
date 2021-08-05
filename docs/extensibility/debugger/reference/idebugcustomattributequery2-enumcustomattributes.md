@@ -1,20 +1,21 @@
 ---
-title: "IDebugCustomAttributeQuery2::EnumCustomAttributes | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Gets an enumerator for all custom attributes attached to this field."
+title: IDebugCustomAttributeQuery2::EnumCustomAttributes | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugCustomAttributeQuery2::EnumCustomAttributes"
+- IDebugCustomAttributeQuery2::EnumCustomAttributes
 helpviewer_keywords:
-  - "IDebugCustomAttributeQuery2::EnumCustomAttributes"
+- IDebugCustomAttributeQuery2::EnumCustomAttributes
 ms.assetid: 94bfce74-aa3d-45f0-8e04-5715faf85217
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugCustomAttributeQuery2::EnumCustomAttributes
 Gets an enumerator for all custom attributes attached to this field.

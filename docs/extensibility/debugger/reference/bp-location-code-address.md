@@ -1,19 +1,20 @@
 ---
-title: "BP_LOCATION_CODE_ADDRESS | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Describes the location of a breakpoint at an address in code."
+title: BP_LOCATION_CODE_ADDRESS | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "BP_LOCATION_CODE_ADDRESS"
+- BP_LOCATION_CODE_ADDRESS
 helpviewer_keywords:
-  - "BP_LOCATION_CODE_ADDRESS structure"
+- BP_LOCATION_CODE_ADDRESS structure
 ms.assetid: 83c9da8b-19d9-4be5-b225-854543654901
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
+- CPP
 ---
 # BP_LOCATION_CODE_ADDRESS
 Describes the location of a breakpoint at an address in code.

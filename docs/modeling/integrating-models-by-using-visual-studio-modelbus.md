@@ -1,10 +1,12 @@
 ---
 title: Integrating Models by using Modelbus
+description: Learn that Visual Studio ModelBus provides a method for creating links between models and from other tools into models.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
-author: jillre
-ms.author: jillfra
-manager: jillfra
+ms.topic: how-to
+author: mgoertz-msft
+ms.author: mgoertz
+manager: jmartens
 ms.workload:
   - "multiple"
 ---
@@ -30,15 +32,13 @@ For additional information and sample code, see:
 
 ### <a name="expose"></a> To expose a DSL Definition to Model Bus
 
-1. Download and install the Visual Studio Model Bus extension, unless you have already installed it. For more information, see [Visualization and Modeling SDK](http://go.microsoft.com/fwlink/?LinkID=185579).
+1. Open the DSL definition file. Right-click the design surface and then click **Enable Modelbus**.
 
-2. Open the DSL definition file. Right-click the design surface and then click **Enable Modelbus**.
+2. In the dialog box, choose **I want to expose this DSL to the ModelBus**. You can choose both options if you want this DSL both to expose its models and to consume references to other DSLs.
 
-3. In the dialog box, choose **I want to expose this DSL to the ModelBus**. You can choose both options if you want this DSL both to expose its models and to consume references to other DSLs.
+3. Click **OK**. A new project "ModelBusAdapter" is added to the DSL solution.
 
-4. Click **OK**. A new project "ModelBusAdapter" is added to the DSL solution.
-
-5. If you want to access the DSL from a text template, you must modify AdapterManager.tt in the new project. Omit this step if you want to access the DSL from other code such as commands and event handlers. For more information, see [Using Visual Studio ModelBus in a Text Template](../modeling/using-visual-studio-modelbus-in-a-text-template.md).
+4. If you want to access the DSL from a text template, you must modify AdapterManager.tt in the new project. Omit this step if you want to access the DSL from other code such as commands and event handlers. For more information, see [Using Visual Studio ModelBus in a Text Template](../modeling/using-visual-studio-modelbus-in-a-text-template.md).
 
    1. Change the base class of AdapterManagerBase to [VsTextTemplatingModelingAdapterManager](/previous-versions/ee844317(v=vs.140)).
 
@@ -50,9 +50,9 @@ For additional information and sample code, see:
 
       If you want to access the DSL both from text templates and from other code, you need two adapters, one modified and one unmodified.
 
-6. Click **Transform All Templates**.
+5. Click **Transform All Templates**.
 
-7. Rebuild the solution.
+6. Rebuild the solution.
 
    It is now possible for ModelBus to open instances of this DSL.
 
@@ -70,9 +70,9 @@ To ensure that element IDs are persisted:
 
 3. For each class to which you want to create Model Bus references:
 
-    Click the class node, and in the Properties window, make sure that **Serialize Id** is set to `true`.
+    Click the class node, and in the Properties window, make sure that **Serialize ID** is set to `true`.
 
-   Alternatively, if you want to use element names to identify elements instead of guids, you can override parts of the generated adapters. Override the following methods in the adapter class:
+   Alternatively, if you want to use element names to identify elements instead of GUIDs, you can override parts of the generated adapters. Override the following methods in the adapter class:
 
 - Override `GetElementId` to return the identifier you want to use. This method is called when creating references.
 
@@ -118,7 +118,7 @@ To enable a DSL to use references to another DSL, you should first make it a *co
 
 2. Select the appropriate **Kind of ModelBusReference**: to a model or to an element inside a model.
 
-3. In file dialog filter string, enter a string such as `Family Tree files |*.ftree`. Subsitute the file extension of your exposed DSL.
+3. In file dialog filter string, enter a string such as `Family Tree files |*.ftree`. Substitute the file extension of your exposed DSL.
 
 4. If you chose to reference an element in a model, you can add a list of types that the user can select, for example Company.FamilyTree.Person.
 

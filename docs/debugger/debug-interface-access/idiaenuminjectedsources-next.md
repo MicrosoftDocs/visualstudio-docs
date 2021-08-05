@@ -1,7 +1,8 @@
 ---
+description: "Retrieves a specified number of injected sources in the enumeration sequence."
 title: "IDiaEnumInjectedSources::Next | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 38af80fc-748f-4b15-bff1-823db21dd4d0
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

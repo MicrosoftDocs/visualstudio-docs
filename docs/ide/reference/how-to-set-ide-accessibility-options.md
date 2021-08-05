@@ -4,13 +4,13 @@ description: "Learn how to set accessibility options in Visual Studio that will 
 ms.date: 08/23/2019
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
   - "accessibility [Visual Studio]"
 ms.assetid: ddc96c4c-0600-46c1-8267-7dce4c44ad24
-author: TerryGLee
-ms.author: tglee
-manager: jillfra
+author: anandmeg
+ms.author: meghaanand
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

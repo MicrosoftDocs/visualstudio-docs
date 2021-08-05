@@ -1,20 +1,21 @@
 ---
-title: "IDebugProcess2::GetPort | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Gets the port that the process is running on."
+title: IDebugProcess2::GetPort | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugProcess2::GetPort"
+- IDebugProcess2::GetPort
 helpviewer_keywords:
-  - "IDebugProcess2::GetPort"
+- IDebugProcess2::GetPort
 ms.assetid: e39b6e5a-64eb-48cf-a53d-da4fdb968e2d
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugProcess2::GetPort
 Gets the port that the process is running on.

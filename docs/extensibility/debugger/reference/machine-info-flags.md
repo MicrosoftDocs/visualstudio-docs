@@ -1,20 +1,21 @@
 ---
-title: "MACHINE_INFO_FLAGS | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Used to describe a machine."
+title: MACHINE_INFO_FLAGS | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "MACHINE_INFO_FLAGS"
+- MACHINE_INFO_FLAGS
 helpviewer_keywords:
-  - "MACHINE_INFO_FLAGS enumeration"
+- MACHINE_INFO_FLAGS enumeration
 ms.assetid: 1482095d-9a2e-4ef1-9e14-362c0b85194e
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # MACHINE_INFO_FLAGS
 Used to describe a machine.

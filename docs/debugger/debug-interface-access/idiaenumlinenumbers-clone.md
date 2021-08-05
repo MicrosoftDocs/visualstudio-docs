@@ -1,7 +1,8 @@
 ---
+description: "Creates an enumerator that contains the same enumeration state as the current line number enumerator."
 title: "IDiaEnumLineNumbers::Clone | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: fcd2479a-8ff7-4aba-a737-06123c280d54
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

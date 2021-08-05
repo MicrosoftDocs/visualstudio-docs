@@ -1,18 +1,20 @@
 ---
-title: "Step 10: Write code for additional buttons and a check box"
+title: 'Write code for additional buttons and a check box'
+description: Learn to write code for additional buttons and a check box in the create a picture viewer tutorial. 
 ms.date: 08/30/2019
+ms.custom: SEO-VS-2020
 ms.assetid: 185cf370-ab39-4ac0-b6bc-601d5b95a4a2
 ms.topic: tutorial
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
 dev_langs:
-  - "CSharp"
-  - "VB"
-author: TerryGLee
-ms.author: tglee
-manager: jillfra
+- CSharp
+- VB
+author: j-martens
+ms.author: jmartens
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Step 10: Write code for additional buttons and a check box
 
@@ -29,9 +31,9 @@ Add the following code to your **Form1** code file (*Form1.cs* or *Form1.vb*).
 
   [!INCLUDE [devlang-control-csharp-vb](./includes/devlang-control-csharp-vb.md)]
 
-  [!code-csharp[VbExpressTutorial1Step9_10#2](../ide/codesnippet/CSharp/step-10-write-code-for-additional-buttons-and-a-check-box_1.cs)]
+  :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial1step9_10/cs/form1.cs" id="Snippet2":::
 
-  [!code-vb[VbExpressTutorial1Step9_10#2](../ide/codesnippet/VisualBasic/step-10-write-code-for-additional-buttons-and-a-check-box_1.vb)]
+  :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial1step9_10/vb/form1.vb" id="Snippet2":::
 
 > [!NOTE]
 > Your code might not display "camelCase" letters.

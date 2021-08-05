@@ -1,23 +1,25 @@
 ---
 title: Update data by using a TableAdapter
+description: Update data in a dataset. Send the data back to the database by calling the Update method of a TableAdapter.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 dev_langs:
-  - "VB"
-  - "CSharp"
+- VB
+- CSharp
 helpviewer_keywords:
-  - "data [Visual Studio], saving"
-  - "data [Visual Studio], TableAdapters"
-  - "updating data, TableAdapters"
-  - "TableAdapters, updating data"
-  - "data [Visual Studio], updating"
-  - "saving data"
+- data [Visual Studio], saving
+- data [Visual Studio], TableAdapters
+- updating data, TableAdapters
+- TableAdapters, updating data
+- data [Visual Studio], updating
+- saving data
 ms.assetid: 5e32e10e-9bac-4969-9bdd-b8f6919d3516
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: ghogen
+ms.author: ghogen
+manager: jmartens
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # Update data by using a TableAdapter
 
@@ -42,8 +44,8 @@ Call the `Update` method of a TableAdapter. Pass the name of the data table that
 
 - Enclose the TableAdapter's`Update` method in a `try`/`catch` block. The following example shows how to  update  the contents of the `Customers` table in `NorthwindDataSet` from within a `try`/`catch` block .
 
-     [!code-csharp[VbRaddataSaving#9](../data-tools/codesnippet/CSharp/update-data-by-using-a-tableadapter_1.cs)]
-     [!code-vb[VbRaddataSaving#9](../data-tools/codesnippet/VisualBasic/update-data-by-using-a-tableadapter_1.vb)]
+     :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataSaving/CS/Form3.cs" id="Snippet9":::
+     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataSaving/VB/Form3.vb" id="Snippet9":::
 
 ## See also
 

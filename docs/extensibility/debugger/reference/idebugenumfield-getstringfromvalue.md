@@ -1,20 +1,21 @@
 ---
-title: "IDebugEnumField::GetStringFromValue | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "This method obtains the name of the enumeration constant given its value."
+title: IDebugEnumField::GetStringFromValue | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugEnumField::GetStringFromValue"
+- IDebugEnumField::GetStringFromValue
 helpviewer_keywords:
-  - "IDebugEnumField::GetStringFromValue method"
+- IDebugEnumField::GetStringFromValue method
 ms.assetid: 5f95fd0c-fdce-497f-9f54-2ad8749494e9
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugEnumField::GetStringFromValue
 This method obtains the name of the enumeration constant given its value.

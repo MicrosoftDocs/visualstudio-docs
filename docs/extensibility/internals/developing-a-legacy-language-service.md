@@ -1,21 +1,23 @@
 ---
-title: "Developing a Legacy Language Service | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Developing a Legacy Language Service | Microsoft Docs
+description: Learn about implementing a legacy language service as part of a VSPackage, or by using Managed Extensibility Framework (MEF) extensions.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: conceptual
 f1_keywords:
-  - "vs.vsip.LangServWiz.langtoks"
-  - "vs.vsip.LangServWiz.welcome"
-  - "vs.vsip.LangServWiz.langSpec"
-  - "vs.vsip.LangServWiz.langInfo"
-  - "vs.vsip.LangServWiz.langServOpts"
+- vs.vsip.LangServWiz.langtoks
+- vs.vsip.LangServWiz.welcome
+- vs.vsip.LangServWiz.langSpec
+- vs.vsip.LangServWiz.langInfo
+- vs.vsip.LangServWiz.langServOpts
 helpviewer_keywords:
-  - "language services, developing"
+- language services, developing
 ms.assetid: 6151ba88-c1c3-41de-a1cc-668f494d48d1
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Develop a legacy language service
 This section links to topics that help you create a legacy language service.

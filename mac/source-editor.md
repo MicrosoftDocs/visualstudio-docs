@@ -47,7 +47,7 @@ Word wrap can assist you in managing space when working on long lines of code or
 
 Word wrap is disabled by default but can be enabled via **Preferences** in Visual Studio for Mac. 
 
-To enable word wrap, navigate to **Visual Studio > Preferences > Text Editor > New Editor > Word Wrap**:
+To enable word wrap, navigate to **Visual Studio > Preferences > Text Editor > Word Wrap**:
 
 ![Word Wrap Options](media/source-neweditor-wordwrap1.png)
 

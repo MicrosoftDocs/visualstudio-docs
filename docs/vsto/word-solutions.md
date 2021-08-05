@@ -1,5 +1,7 @@
 ---
 title: "Word solutions"
+description: Learn how you can use Visual Studio solutions to automate Word, extend Word features, and customize the Word user interface (UI).
+ms.custom: SEO-VS-2020
 ms.date: "08/14/2019"
 ms.topic: "conceptual"
 dev_langs:
@@ -23,7 +25,7 @@ helpviewer_keywords:
   - "document-level customizations [Office development in Visual Studio], Word"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---
@@ -109,4 +111,4 @@ ms.workload:
 |[Walkthrough: Create your first document-level customization for Word](../vsto/walkthrough-creating-your-first-document-level-customization-for-word.md)|Demonstrates how to create a basic document-level customization for Word.|
 |[Walkthrough: Create your first VSTO Add-in for Word](../vsto/walkthrough-creating-your-first-vsto-add-in-for-word.md)|Demonstrates how to create a basic VSTO Add-in for Word.|
 |[Walkthrough: Add controls to a document at run time in a VSTO Add-in](../vsto/walkthrough-adding-controls-to-a-document-at-run-time-in-a-vsto-add-in.md)|Demonstrates how to add a Windows Forms button and a <xref:Microsoft.Office.Tools.Word.RichTextContentControl> to a document at run time by using a VSTO Add-in.|
-|[Word 2010 in Office development](http://go.microsoft.com/fwlink/?LinkId=199020)|Provides links to articles and reference documentation about developing Word solutions (not specific to Office development using Visual Studio).|
+|[Word 2010 in Office development](/previous-versions/office/developer/office-2010/ff601860(v=office.14))|Provides links to articles and reference documentation about developing Word solutions (not specific to Office development using Visual Studio).|

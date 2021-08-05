@@ -1,16 +1,18 @@
 ---
-title: "Use config file to define data source"
+title: Use config file to define data source
+description: Learn how to use a data source defined in an app.config file for unit testing, starting with creating an app.config file that defines a data source.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "configuration files [Visual Studio ALM], defining data sources"
-  - "unit tests, walkthrough"
-  - "data sources, defining with configuration files"
-author: jillre
-ms.author: jillfra
-manager: jillfra
+- configuration files [Visual Studio ALM], defining data sources
+- unit tests, walkthrough
+- data sources, defining with configuration files
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Walkthrough: Using a configuration file to define a data source
 
@@ -159,7 +161,7 @@ The final *app.config* file should look similar to this:
 <?xml version="1.0" encoding="utf-8" ?>
 <configuration>
     <configSections>
-        <section name="microsoft.visualstudio.testtools" type="Microsoft.VisualStudio.TestTools.UnitTesting.TestConfigurationSection, Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"/>
+        <section name="microsoft.visualstudio.testtools" type="Microsoft.VisualStudio.TestTools.UnitTesting.TestConfigurationSection, Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions" />
     </configSections>
     <connectionStrings>
         <add name="MyJetConn" connectionString="Provider=Microsoft.Jet.OLEDB.4.0; Data Source=C:\testdatasource.accdb; Persist Security Info=False;" providerName="System.Data.OleDb" />

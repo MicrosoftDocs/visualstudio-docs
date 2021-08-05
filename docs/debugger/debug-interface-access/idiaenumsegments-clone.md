@@ -1,7 +1,8 @@
 ---
+description: "Creates an enumerator that contains the same enumeration state as the current enumerator."
 title: "IDiaEnumSegments::Clone | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 93deaac6-72ab-4408-ba14-66174a618757
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

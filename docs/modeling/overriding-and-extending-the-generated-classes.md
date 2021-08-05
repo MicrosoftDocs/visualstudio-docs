@@ -1,14 +1,16 @@
 ---
 title: Overriding and Extending the Generated Classes
+description: Learn how your DSL Definition is a platform on which you can build a powerful set of tools that are based on a domain-specific language.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "Domain-Specific Language, providing overridable classes"
-author: jillre
-ms.author: jillfra
-manager: jillfra
+- Domain-Specific Language, providing overridable classes
+author: mgoertz-msft
+ms.author: mgoertz
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Override and extend the generated classes
 

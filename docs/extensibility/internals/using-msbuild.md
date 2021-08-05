@@ -1,17 +1,19 @@
 ---
-title: "Using MSBuild | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Using MSBuild | Microsoft Docs
+description: MSBuild supplies an extensible XML format for creating project files that fully describe project items to be built, build tasks, and build configurations.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "VSPackages, compiling with MSBuild"
-  - "MSBuild, extensibility"
-  - "packages, compiling with MSBuild"
+- VSPackages, compiling with MSBuild
+- MSBuild, extensibility
+- packages, compiling with MSBuild
 ms.assetid: 9d38c388-1f64-430e-8f6c-e88bc99a4260
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Using MSBuild
 MSBuild supplies a well-defined, extensible XML format for creating project files that fully describe project items to be built, build tasks, and build configurations.

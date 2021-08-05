@@ -1,5 +1,7 @@
 ---
 title: Set Current Stack Frame Command
+description: Learn about the Set Current Stack Frame command and how it allows you to set a particular stack frame.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -8,9 +10,9 @@ helpviewer_keywords:
   - "Set Current Stack Frame command"
   - "Debug.SetCurrentStackFrame command"
 ms.assetid: 3dcf52c0-6781-4598-bac2-0094dce67c20
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

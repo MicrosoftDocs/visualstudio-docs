@@ -1,13 +1,15 @@
 ---
-title: "Walkthrough: Build an application"
+title: 'Walkthrough: Build an application'
+description: Become more familiar with several options that you can configure when you build applications with Visual Studio.
+ms.custom: SEO-VS-2020
 ms.date: 09/25/2017
 ms.technology: vs-ide-compile
 ms.topic: conceptual
 author: ghogen
 ms.author: ghogen
-manager: jillfra
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Walkthrough: Build an application
 
@@ -148,7 +150,7 @@ You can change how much information about the build process appears in the **Out
 
      The build information includes the time that the build started (located at the beginning) and the order in which files were processed. This information also includes the actual compiler syntax that Visual Studio runs during the build.
 
-     For example, in the C# build, the [/nowarn](/dotnet/visual-basic/reference/command-line-compiler/nowarn) option lists the warning code, **1762**, that you specified earlier in this topic, along with three other warnings.
+     For example, in the C# build, the [/nowarn](/dotnet/visual-basic/reference/command-line-compiler/nowarn) option lists the warning code, **0168**, that you specified earlier in this topic, along with three other warnings.
 
      In the Visual Basic build, [/nowarn](/dotnet/visual-basic/reference/command-line-compiler/nowarn) doesn't include specific warnings to exclude, so no warnings appear.
 

@@ -1,7 +1,9 @@
 ---
 title: "How to: Get started customizing the ribbon"
+description: Learn that to customize the Ribbon of a Microsoft Office application, add a Ribbon (Visual Designer) or Ribbon (XML) item to an Office project.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: "how-to"
 dev_langs:
   - "VB"
   - "CSharp"
@@ -12,7 +14,7 @@ helpviewer_keywords:
   - "customizing the Ribbon, adding Ribbon to project"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

@@ -1,15 +1,17 @@
 ---
-title: "Contributing to the Add New Item Dialog Box | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Contributing to the Add New Item Dialog Box | Microsoft Docs
+description: Learn how to contribute to the Add New Item dialog box in Visual Studio by registering Add Item templates under the Projects registry subkey.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "Add New Item dialog box, contributing to"
+- Add New Item dialog box, contributing to
 ms.assetid: b2e53175-9372-4d17-8c2b-9264c9e51e9c
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Contribute to the Add New Item dialog box
 A project subtype can provide a complete new directory of items for the **Add New Item** dialog box by registering **Add Item** templates under the **Projects** registry subkey.

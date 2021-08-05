@@ -1,20 +1,22 @@
 ---
 title: Code Generation and T4 Text Templates
+description: Learn how a T4 text template is a mixture of text blocks and control logic that can generate a text file.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: overview
 f1_keywords:
-  - "VS.ToolsOptionsPages.TextTemplating.TextTemplating"
+- VS.ToolsOptionsPages.TextTemplating.TextTemplating
 helpviewer_keywords:
-  - "generating text"
-  - ".tt files"
-  - "code generation"
-  - "text templates"
-  - "generating code"
-author: jillre
-ms.author: jillfra
-manager: jillfra
+- generating text
+- .tt files
+- code generation
+- text templates
+- generating code
+author: mgoertz-msft
+ms.author: mgoertz
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Code Generation and T4 Text Templates
 

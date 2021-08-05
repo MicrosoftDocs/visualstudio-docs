@@ -1,17 +1,18 @@
 ---
-title: "IDebugBinder | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "This interface binds a symbol field, typically returned by the symbol provider, to a memory context or object that contains the symbol's current value."
+title: IDebugBinder | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugBinder"
+- IDebugBinder
 helpviewer_keywords:
-  - "IDebugBinder interface"
+- IDebugBinder interface
 ms.assetid: d1f31e5b-c6e2-4e02-8959-b3e86041b29c
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IDebugBinder
 > [!IMPORTANT]

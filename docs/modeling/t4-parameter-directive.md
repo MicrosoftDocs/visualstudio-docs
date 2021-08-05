@@ -1,12 +1,14 @@
 ---
 title: T4 Parameter Directive
+description: Learn that in Visual Studio, the parameter directive declares properties in your template code that are initialized from values passed in from the external context.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: mgoertz-msft
+ms.author: mgoertz
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # T4 Parameter Directive
 

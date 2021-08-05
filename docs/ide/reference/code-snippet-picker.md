@@ -1,18 +1,20 @@
 ---
 title: Code Snippet Picker
+description: Learn how to use the Code Snippet Picker to insert ready-made blocks of code into the active document.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "vs.expansionpicker"
+- vs.expansionpicker
 helpviewer_keywords:
-  - "Code Snippet Picker"
-  - "IntelliSense code snippets, Code Snippet Picker"
-  - "code snippets, Code Snippet Picker"
-author: jillre
-ms.author: jillfra
-manager: jillfra
+- Code Snippet Picker
+- IntelliSense code snippets, Code Snippet Picker
+- code snippets, Code Snippet Picker
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Code Snippet Picker
 

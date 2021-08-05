@@ -1,5 +1,7 @@
 ---
 title: "Application Deployment Prerequisites | Microsoft Docs"
+description: Learn about the deployment prerequisites for your applications, including using the Prerequisites Dialog Box and bootstrapper packages.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:
@@ -16,7 +18,7 @@ helpviewer_keywords:
 ms.assetid: fc6e047e-ad94-44e8-8ff5-b6d1f4ca7735
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

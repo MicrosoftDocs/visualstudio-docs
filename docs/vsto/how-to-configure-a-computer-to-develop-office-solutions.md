@@ -1,7 +1,10 @@
 ---
 title: "How to: Configure a computer to develop Office solutions"
+description: Learn how to configure a development computer so that you can use the Microsoft Office developer tools in Visual Studio.
+ms.custom: SEO-VS-2020
+titleSuffix: ""
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: "how-to"
 dev_langs:
   - "VB"
   - "CSharp"
@@ -10,7 +13,7 @@ helpviewer_keywords:
   - "Office development in Visual Studio, installing tools"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---
@@ -25,7 +28,7 @@ ms.workload:
 
      Make sure that you also install the PIAs for the version of Office that you install. The PIAs are installed with Office by default. If you modify Office setup, make sure that the **.NET Programmability Support** feature is selected for the applications you want to target.
 
-3. If you have an English version of Visual Studio but use non-English settings for Windows, you can install the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] language pack to see [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] messages in the same language as Windows. Non-English versions of Visual Studio automatically install the language pack. The language pack is available from the [Microsoft download center](http://go.microsoft.com/fwlink/?LinkId=140386).
+3. If you have an English version of Visual Studio but use non-English settings for Windows, you can install the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] language pack to see [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] messages in the same language as Windows. Non-English versions of Visual Studio automatically install the language pack. The language pack is available from the [Microsoft download center](https://www.microsoft.com/download/details.aspx?id=54246).
 
 ## See also
 

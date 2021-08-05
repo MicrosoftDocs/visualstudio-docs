@@ -1,18 +1,20 @@
 ---
-title: "Step 6: Name your button controls"
+title: 'Step 6: Name your button controls'
+description: Learn how to name your button controls.
+ms.custom: SEO-VS-2020
 ms.date: 08/30/2016
 ms.assetid: 56b3baa3-651e-4ad4-8942-e334c5c57158
 ms.topic: tutorial
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
 dev_langs:
-  - "CSharp"
-  - "VB"
-author: TerryGLee
-ms.author: tglee
-manager: jillfra
+- CSharp
+- VB
+author: j-martens
+ms.author: jmartens
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Step 6: Name your button controls
 
@@ -72,9 +74,9 @@ You can verify the names by choosing the control selector drop-down list in the 
 
     The following shows the new code that you see in the code editor.
 
-    [!code-csharp[VbExpressTutorial1Step6_#2](../ide/codesnippet/CSharp/step-6-name-your-button-controls_2.cs)]
+    :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial1step6/cs/form1.cs" id="Snippet2":::
 
-    [!code-vb[VbExpressTutorial1Step6_#2](../ide/codesnippet/VisualBasic/step-6-name-your-button-controls_2.vb)]
+    :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial1step6/vb/form1.vb" id="Snippet2":::
 
     > [!NOTE]
     > Your code might not display event handlers in "camelCase" letters.

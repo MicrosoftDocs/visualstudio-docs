@@ -1,21 +1,23 @@
 ---
 title: Read models and diagrams in other Visual Studio editions
-titleSuffix: ""
+description: Learn about reading models and diagrams in Visual Studio, as well as read-only behavior when using a version of Visual Studio that does not support model creation.
+ms.custom: SEO-VS-2020
+titleSuffix: ''
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "models, versions of Visual Studio"
-author: jillre
-ms.author: jillfra
-manager: jillfra
+- models, versions of Visual Studio
+author: mgoertz-msft
+ms.author: mgoertz
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Read models and diagrams in other Visual Studio editions
 
 When you open a model in a version of Visual Studio that does not support model creation, the model opens in read-only mode. In this mode, you can change the layout of the diagrams, but you cannot change the model.
 
-To see which versions of Visual Studio support model creation, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).
+To see which versions of Visual Studio support model creation, see [Version support for architecture and modeling tools](../modeling/analyze-and-model-your-architecture.md#VersionSupport).
 
 ## Obtaining Access to a Model and Diagrams
 

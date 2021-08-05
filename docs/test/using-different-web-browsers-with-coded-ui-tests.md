@@ -1,12 +1,14 @@
 ---
-title: "Using Different Web Browsers with Coded UI Tests"
+title: Using Different Web Browsers with Coded UI Tests
+description: Learn how to customize your test and play it back using different browsers for your web applications.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
-ms.author: jillfra
-manager: jillfra
-ms.workload:
-  - "multiple"
-author: jillre
+ms.topic: how-to
+ms.author: mikejo
+manager: jmartens
+ms.workload: 
+  - multiple
+author: mikejo5000
 ---
 # Use different web browsers with coded UI tests
 

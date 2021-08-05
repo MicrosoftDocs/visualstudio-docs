@@ -1,5 +1,6 @@
 ---
 title: "Utilization View | Microsoft Docs"
+description: Learn that the Utilization view displays information about the CPU, GPU, and other system resources that are used by the current process.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: b4f7ceab-3653-4069-bb74-c309aec62866
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

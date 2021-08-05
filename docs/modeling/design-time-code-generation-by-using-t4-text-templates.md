@@ -1,20 +1,22 @@
 ---
 title: Design-Time Code Generation by using T4 Text Templates
+description: Learn how design-time T4 text templates let you generate program code and other files in your Visual Studio project.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
-  - "text templates, guidelines for code generation"
-  - "text templates, data source model"
-  - "TextTemplatingFileGenerator custom tool"
-  - "Transform All Templates"
-  - "text templates, getting started"
-  - "Text Template project item"
-  - "text templates, generating code for your application"
-author: jillre
-ms.author: jillfra
-manager: jillfra
+- text templates, guidelines for code generation
+- text templates, data source model
+- TextTemplatingFileGenerator custom tool
+- Transform All Templates
+- text templates, getting started
+- Text Template project item
+- text templates, generating code for your application
+author: mgoertz-msft
+ms.author: mgoertz
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Design-Time Code Generation by using T4 Text Templates
 
@@ -242,7 +244,7 @@ To load a file from a location relative to the text template, you can use `this.
 Then you can write, for example:
 
 ```csharp
-<# string fileName = this.Host.ResolvePath("filename.txt");
+<# string filename = this.Host.ResolvePath("filename.txt");
   string [] properties = File.ReadLines(filename);
 #>
 ...
@@ -251,7 +253,7 @@ Then you can write, for example:
 ```
 
 ```vb
-<# Dim fileName = Me.Host.ResolvePath("propertyList.txt")
+<# Dim filename = Me.Host.ResolvePath("propertyList.txt")
    Dim properties = File.ReadLines(filename)
 #>
 ...
@@ -345,7 +347,7 @@ A useful feature of templates is that they look very much like the files that th
 
 4. Verify the following properties of the **.tt** file:
 
-   | | |
+   |Property |Setting |
    |-|-|
    | **Custom Tool =** | **TextTemplatingFileGenerator** |
    | **Build Action =** | **None** |

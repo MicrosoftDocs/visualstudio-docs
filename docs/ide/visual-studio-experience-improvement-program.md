@@ -3,15 +3,15 @@ title: Customer Experience Improvement Program
 description: "Find out how to manage privacy settings in Visual Studio."
 ms.date: 05/21/2018
 ms.topic: conceptual
-author: PoulChapman
-ms.author: tglee
-manager: jillfra
+author: anandmeg
+ms.author: meghaanand
+manager: jmartens
 ms.workload:
   - "multiple"
 ---
 # Visual Studio Customer Experience Improvement Program
 
-The Visual Studio Customer Experience Improvement Program (VSCEIP) is designed to help Microsoft improve Visual Studio over time. This program [collects information about errors](../ide/diagnostic-data-collection.md), computer hardware, and how people use Visual Studio, without interrupting users in their tasks at the computer. The information that's collected helps Microsoft identify which features to improve. This document covers how to opt in or out of the VSCEIP.
+The Visual Studio Customer Experience Improvement Program (VSCEIP) is designed to help Microsoft improve Visual Studio over time. This program [collects information about errors](../ide/diagnostic-data-collection.md), computer hardware, and how people use Visual Studio, without interrupting users in their tasks at the computer. The information that's collected helps Microsoft identify which features to improve. This document covers how to opt in or out of the VSCEIP. When you opt out, you are opting out of **optional** diagnostic data collection. Some diagnostic data collection is **required** to make sure Visual Studio is secure, up to date, and performing as expected. Required diagnostic data collection will not be affected by your choice to opt out of VSCEIP.
 
 [!INCLUDE [gdpr-hybrid-note](../misc/includes/gdpr-hybrid-note.md)]
 > [!NOTE]
@@ -68,5 +68,5 @@ For more information about the information collected, processed, or transmitted 
 * [Diagnostic information collected by Visual Studio](diagnostic-data-collection.md)
 * [Visual Studio feedback options](../ide/feedback-options.md)
 * [How to report a problem with Visual Studio](../ide/how-to-report-a-problem-with-visual-studio.md)
-* [Visual Studio Developer Community](https://developercommunity.visualstudio.com/)
+* [Visual Studio Developer Community](https://aka.ms/feedback/suggest?space=8)
 * [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement)

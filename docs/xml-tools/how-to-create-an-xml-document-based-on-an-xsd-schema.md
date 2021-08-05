@@ -1,13 +1,15 @@
 ---
-title: "How to: Create an XML Document Based on an XSD Schema"
+title: 'How to: Create an XML Document Based on an XSD Schema'
+description: Learn how to use the Generate Sample XML feature to create an XML document based on an XSD schema.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 ms.assetid: 193b195f-e918-4c79-a1a1-8096a1433bde
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Create an XML document based on an XSD schema
 
@@ -37,7 +39,7 @@ Also, note that `xs:base64Binary` content will be generated only if enumerations
 
 1. Follow the steps in [How to: Create and edit an XSD schema file](../xml-tools/how-to-create-and-edit-an-xsd-schema-file.md).
 
-2. In the [XML Schema Explorer](../xml-tools/xml-schema-explorer.md), right-click the `PurchaseOrder` global element. Select **Generate Sample XML**.
+2. In the [XML Schema Explorer](../xml-tools/xml-schema-explorer.md), right-click the `PurchaseOrder` global element, and then select **Generate Sample XML**.
 
      When you select this option, the PurchaseOrder.*xml* file with the following sample XML content will be generated and opened in the XML editor:
 

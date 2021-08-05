@@ -1,7 +1,8 @@
 ---
+description: "Indicates the kind of location information contained in a symbol."
 title: "LocationType | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: d3e1eedc-bfd3-4c91-881b-d69565138d0f
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

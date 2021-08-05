@@ -1,5 +1,7 @@
 ---
 title: "XMLNode control"
+description: Learn that the XMLNode control is a mapped XML node object that exposes events and can be bound to data.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -9,7 +11,7 @@ helpviewer_keywords:
   - "XMLNode control"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

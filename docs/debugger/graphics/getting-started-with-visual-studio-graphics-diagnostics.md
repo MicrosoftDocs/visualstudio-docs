@@ -1,13 +1,14 @@
 ---
-title: "Getting started with graphics diagnostics | Microsoft Docs"
-ms.custom: "seodec18"
-ms.date: "05/26/2017"
-ms.topic: "conceptual"
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
-ms.workload:
-  - "multiple"
+title: Getting started with graphics diagnostics | Microsoft Docs
+description: Prepare to use Graphics Diagnostics for the first time, then capture frames from a Direct3D app and examine them in the Graphics Analyzer.
+ms.custom: "SEO-VS-2020"
+ms.date: 06/08/2020
+ms.topic: how-to
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.workload: 
+  - multiple
 ---
 # Getting Started with Visual Studio Graphics Diagnostics
 In this section you'll prepare to use Graphics Diagnostics for the first time, then you'll capture frames from a Direct3D app and examine them in the Graphics Analyzer.
@@ -29,11 +30,11 @@ In this section you'll prepare to use Graphics Diagnostics for the first time, t
 
 1. In Search, type **Apps and features** and then open the **Apps & features** settings.
 
-2. On the right-hand side of the **Apps & features** dialog, choose **Manage optional features** (under **Apps & features**).
+2. On the right-hand side of the **Apps & features** settings, choose **Optional features** (under **Apps & features**).
 
-   The **Manage optional features** dialog appears.
+   The **Optional features** settings appear.
 
-3. In the **Manage optional features** dialog, choose **Add a feature**. A list of optional features you can install appears.
+3. In the **Optional features** settings, choose **Add a feature**. A list of optional features you can install appears.
 
 4. Select **Graphics Tools** from the list of features, then choose **Install**.
 
@@ -46,12 +47,18 @@ In this section you'll prepare to use Graphics Diagnostics for the first time, t
  Now that you have everything you need, you're ready to start using Graphics Diagnostics. Just follow these steps.
 
 ### 1 - Create a Direct3D app
- If you already have your own Direct3D app to explore Graphics Diagnostics with, great! Otherwise, use one of the following:
 
+If you already have your own Direct3D app to explore Graphics Diagnostics with, great! Otherwise, use one of the following:
+
+::: moniker range=">=vs-2019"
+Download a sample from [Direct3D Game Sample](/samples/microsoft/windows-universal-samples/simple3dgamedx/).
+::: moniker-end
+::: moniker range="vs-2017"
 - The **DirectX 11 App (Universal Windows)** or **DirectX 12 App (Universal Windows)** project templates for Windows 10.
 - [Direct3D 12 UAP sample](https://code.msdn.microsoft.com/Direct3D-12-UAP-Sample-ecb1779f) for Windows 10.
+::: moniker-end
 
-  Make sure you can build the app before moving on.
+Make sure you can build and run the app before moving on. Choose **Build** > **Build Solution** to make sure it builds without errors. Then choose **Debug** > **Start without Debugging** (**Ctrl + F5**) to make sure it runs correctly. Depending on what machine you are testing with the tool, you may need to adjust the platform and debugging target for the sample. For example, to test against the x64 platform on your Visual Studio host machine, choose **x64** as the Solution Platform and **Local Machine** as your debugging target. 
 
 ### 2 - Start a Graphics Diagnostics session
  Now you're ready to start your first graphics diagnostics session. In Visual Studio, on the main menu, choose **Debug, Graphics, Start Graphics Debugging**, or just press **Alt+F5**. This starts your app under Graphics Diagnostics and displays the diagnostics session windows in Visual Studio.

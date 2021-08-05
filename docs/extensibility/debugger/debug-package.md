@@ -1,15 +1,17 @@
 ---
-title: "Debug Package | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Debug Package | Microsoft Docs
+description: Learn how the debug package runs in Visual Studio shell and handles UI by consuming the debugging interfaces and communicating with the session debug manager.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: reference
 helpviewer_keywords:
-  - "debugging [Debugging SDK], packages"
+- debugging [Debugging SDK], packages
 ms.assetid: 99947fd4-fb87-4c69-b26c-65634e17d285
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Debug package
 The debug package runs in the Visual Studio shell and handles all of the UI. It consumes the Visual Studio debugging interfaces and communicates with the session debug manager (SDM).

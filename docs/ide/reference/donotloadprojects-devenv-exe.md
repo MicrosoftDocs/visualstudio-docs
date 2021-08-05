@@ -1,16 +1,18 @@
 ---
 title: -DoNotLoadProjects (devenv.exe)
+description: Learn how to use the DoNotLoadProjects devenv command-line switch to open the specified solution without loading any projects.
+ms.custom: SEO-VS-2020
 ms.date: 04/30/2019
 ms.topic: reference
 helpviewer_keywords:
-  - "Devenv, /DoNotLoadProjects switch"
-  - "/DoNotLoadProjects Devenv switch"
-  - "DoNotLoadProjects Devenv switch"
-author: jillre
-ms.author: jillfra
-manager: jillfra
+- Devenv, /DoNotLoadProjects switch
+- /DoNotLoadProjects Devenv switch
+- DoNotLoadProjects Devenv switch
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # /DoNotLoadProjects (devenv.exe)
 

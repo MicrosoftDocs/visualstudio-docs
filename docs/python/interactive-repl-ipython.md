@@ -1,11 +1,11 @@
 ---
 title: IPython REPL (interactive window)
 description: Use the Visual Studio interactive window in IPython mode for a user-friendly interactive development environment with Interactive Parallel Computing features.
-ms.date: 01/28/2019
-ms.topic: conceptual
+ms.date: 07/28/2021
+ms.topic: how-to
 author: JoshuaPartlow
 ms.author: joshuapa
-manager: jillfra
+manager: jmartens
 ms.custom: seodec18
 ms.workload:
   - python
@@ -16,7 +16,7 @@ ms.workload:
 
 The Visual Studio **Interactive** window in IPython mode is an advanced yet user-friendly interactive development environment that has Interactive Parallel Computing features. This article walks through using IPython in the Visual Studio **Interactive** window, in which all of the regular [Interactive window](python-interactive-repl-in-visual-studio.md) features are also available.
 
-For this walkthrough you should have the [Anaconda](https://www.continuum.io) environment installed, which includes IPython and the necessary libraries.
+For this walkthrough, you will need to have installed IPython, numpy and matplotlib. If you are using Anaconda, these libraries are already installed. The rest of the walkthrough assumes you are using Anaconda.
 
 > [!Note]
 > IronPython does not support IPython, despite the fact that you can select it on the **Interactive Options** form. For more information see the [feature request](https://github.com/Microsoft/PTVS/issues/84).
@@ -77,6 +77,4 @@ IPython has many other useful features such as escaping to the system shell, var
 
 ## See also
 
-- To use Jupyter easily and without installation, try the free [Azure Notebooks hosted service](https://notebooks.azure.com/) that lets you keep and share your notebooks with others.
-
-- The [Azure Data Science Virtual Machine](/azure/machine-learning/data-science-virtual-machine/overview) is also pre-configured to run Jupyter notebooks along with a wide range of other data science tools.
+- The [Azure Data Science Virtual Machine](/azure/machine-learning/data-science-virtual-machine/overview) is pre-configured to run Jupyter notebooks along with a wide range of other data science tools.

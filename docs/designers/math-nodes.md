@@ -1,13 +1,15 @@
 ---
 title: Math Nodes
+description: Learn about math nodes in the Shader Designer, which perform algebraic, logic, trigonometric, and other mathematical operations. 
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 ms.assetid: adc225cc-1cf5-4f7c-9b00-e7ac8450b6b9
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Math nodes
 

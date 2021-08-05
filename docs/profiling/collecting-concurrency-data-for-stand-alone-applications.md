@@ -1,16 +1,19 @@
 ---
-title: "Profiler command line to get stand-alone app concurrency data"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-helpviewer_keywords:
-  - "concurrency profiling method"
-  - "profiling tools,concurrency method"
+title: Profiler command line - Get stand-alone app concurrency data
+description: Collect concurrency data for stand-alone applications by using the profiler command line in Visual Studio.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
+helpviewer_keywords: 
+  - concurrency profiling method
+  - profiling tools,concurrency method
 ms.assetid: 0a2c6d8a-50b3-48aa-b617-9137b049d21e
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
-ms.workload:
-  - "multiple"
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+monikerRange: 'vs-2017'
+ms.workload: 
+  - multiple
 ---
 # Collect concurrency data for stand-alone applications by using the profiler command line
 The concurrency method of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools enables you to collect resource contention data and thread activity data that shows you CPU utilization, thread contention, thread migration, synchronization delays, areas of overlapped IO, and other system events.

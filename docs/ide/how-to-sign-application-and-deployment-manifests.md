@@ -1,23 +1,25 @@
 ---
-title: "How to: Sign application and deployment manifests"
+title: 'How to: Sign application and deployment manifests'
+description: Learn about requirements for signing for publishing ClickOnce application and deployment manifests. Signing is optional for .exe-based applications.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.technology: vs-ide-deployment
 ms.topic: conceptual
 helpviewer_keywords:
-  - "manifests [Visual Studio]"
-  - "code signing [Visual Studio], Authenticode"
-  - "deployment manifests [Visual Studio]"
-  - "signing manifests [Visual Studio]"
-  - "application manifests [Visual Studio]"
-  - "ClickOnce deployment [Visual Studio], signing assemblies"
-  - "key files [Visual Studio]"
-  - "assemblies [Visual Studio], signing"
+- manifests [Visual Studio]
+- code signing [Visual Studio], Authenticode
+- deployment manifests [Visual Studio]
+- signing manifests [Visual Studio]
+- application manifests [Visual Studio]
+- ClickOnce deployment [Visual Studio], signing assemblies
+- key files [Visual Studio]
+- assemblies [Visual Studio], signing
 ms.assetid: 64173505-8bfb-41cf-a0de-b9075173f3a2
-author: mikejo5000
-ms.author: mikejo
-manager: jillfra
+author: ghogen
+ms.author: ghogen
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Sign application and deployment manifests
 

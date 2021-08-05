@@ -1,22 +1,21 @@
 ---
-title: "Set a watch on variables | Microsoft Docs"
-ms.custom: "seodec18"
-ms.date: "10/11/2018"
-ms.topic: "conceptual"
-f1_keywords:
-  - "vs.debug.watch"
-helpviewer_keywords:
-  - "debugging [Visual Studio], Watch window"
-  - "expressions [debugger], evaluating"
-  - "variables [debugger], evaluating"
-  - "expression evaluation"
-  - "registers, evaluating"
-  - "debugging [Visual Studio], expression evaluation"
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
-ms.workload:
-  - "multiple"
+title: Set a watch on variables | Microsoft Docs
+description: While you debug, see variables and expressions in Watch and QuickWatch. Watch can display several variables, QuickWatch only one, and only while in break.
+ms.custom: "SEO-VS-2020"
+ms.date: 10/11/2018
+ms.topic: how-to
+helpviewer_keywords: 
+  - debugging [Visual Studio], Watch window
+  - expressions [debugger], evaluating
+  - variables [debugger], evaluating
+  - expression evaluation
+  - registers, evaluating
+  - debugging [Visual Studio], expression evaluation
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.workload: 
+  - multiple
 ---
 # Watch variables with Watch windows and QuickWatch
 
@@ -24,7 +23,8 @@ While you're debugging, you can use **Watch** windows and **QuickWatch** to watc
 
 **Watch** windows can display several variables at a time while debugging. The **QuickWatch** dialog displays a single variable at a time, and must be closed before debugging can continue.
 
-If this is the first time that you've tried to debug code, you may want to read [Debugging for absolute beginners](../debugger/debugging-absolute-beginners.md) and [Debugging techniques and tools](../debugger/write-better-code-with-visual-studio.md) before going through this article.
+> [!NOTE]
+> If this is the first time that you've tried to debug code, you may want to read [Debugging for absolute beginners](../debugger/debugging-absolute-beginners.md) and [Debugging techniques and tools](../debugger/write-better-code-with-visual-studio.md) before going through this article.
 
 ## Observe variables with a Watch window
 
@@ -96,6 +96,17 @@ Use the left and right arrows (Shift+F3 and F3, respectively) to navigate betwee
 ![Search in Watch Window](../debugger/media/ee-search-watch.png "Search in Watch Window")
 
 To make your search more or less thorough, use the **Search Deeper** dropdown at the top of the **Watch** window to select how many levels deep you want to search into nested objects. 
+
+## Pin properties in the Watch window
+
+>[!NOTE]
+> This feature is supported in .NET Core 3.0 or higher.
+
+You can quickly inspect objects by their properties in the Watch window with the **Pinnable Properties** tool.  To use this tool, hover over a property and select the pin icon that appears or right-click and select the **Pin Member as Favorite** option in the resulting context menu.  This bubbles up that property to the top of the object’s property list, and the property name and value is displayed in the **Value** column.  To unpin a property, select the pin icon again or select the **Unpin Member as Favorite** option in the context menu.
+
+![Pin properties in the Watch window](../debugger/media/basic-pin-watch.gif "Pin properties in the Watch window")
+
+You can also toggle property names and filter out non-pinned properties when viewing the object’s property list in the Watch window.  You can access both options by selecting the buttons in the toolbar above the watch window.
 
 ::: moniker-end
 

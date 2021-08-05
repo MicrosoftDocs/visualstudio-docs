@@ -1,22 +1,24 @@
 ---
-title: "How to: Specify Which Files Are Published by ClickOnce | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-f1_keywords:
-  - "Microsoft.VisualStudio.Publish.BaseProvider.Dialog.File"
-dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-helpviewer_keywords:
-  - "ClickOnce deployment, file exclusion"
-  - "files, publishing via ClickOnce"
+title: Specify files to publish (ClickOnce)
+description: Learn how to exclude files, mark files as data files or prerequisites, and create groups for conditional installation for a ClickOnce application.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
+f1_keywords: 
+  - Microsoft.VisualStudio.Publish.BaseProvider.Dialog.File
+dev_langs: 
+  - VB
+  - CSharp
+  - C++
+helpviewer_keywords: 
+  - ClickOnce deployment, file exclusion
+  - files, publishing via ClickOnce
 ms.assetid: 579c134a-d50f-4e0c-8e05-2a4ff654896a
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
-ms.workload:
-  - "multiple"
+manager: jmartens
+ms.workload: 
+  - multiple
 ---
 # How to: Specify which files are published by ClickOnce
 When publishing a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application, all non-code files in the project are deployed along with the application. In some cases, you may not want or need to publish certain files, or you may want to install certain files based on conditions. Visual Studio provides the capabilities to exclude files, mark files as data files or prerequisites, and create groups of files for conditional installation.

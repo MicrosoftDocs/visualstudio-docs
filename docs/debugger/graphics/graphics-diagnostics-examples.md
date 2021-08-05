@@ -1,11 +1,13 @@
 ---
 title: "Graphics Diagnostics Examples | Microsoft Docs"
+description: View examples of how to debug rendering problems in DirectX-based apps by using Visual Studio Graphics Diagnostics.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 ms.assetid: 45dd86b2-801e-4b07-a8c4-7bd25641d7f8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---
@@ -20,7 +22,7 @@ These examples show how to debug rendering problems in DirectX-based apps by usi
 - [Walkthrough: Capturing Graphics Information Programmatically](walkthrough-capturing-graphics-information-programmatically.md)
 
 ## Use Graphics Diagnostics with an ARM-based device
- You can use Graphics Diagnostics to debug your Direct3D app on an ARM-based device by using remote debugging. For more information see [How to: Use Graphics Diagnostics with an ARM Device](/visualstudio/debugger/graphics/graphics-diagnostics-examples).
+ You can use Graphics Diagnostics to debug your Direct3D app on an ARM-based device by using remote debugging. For more information see [How to: Use Graphics Diagnostics with an ARM Device](graphics-diagnostics-examples.md).
 
 ## Playing back graphics information
  After you capture graphics information from a running app, you can play back the captured events to diagnose rendering problems. To play back, you can use your development machine, or you can use a remote machine or device that you are connected to. For more information, see [How to: Change the Graphics Diagnostics Playback Machine](how-to-change-the-graphics-diagnostics-playback-machine.md).

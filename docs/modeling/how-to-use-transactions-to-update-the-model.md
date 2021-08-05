@@ -1,12 +1,14 @@
 ---
-title: "How to: Use Transactions to Update the Model"
+title: 'How to: Use Transactions to Update the Model'
+description: Learn that transactions make sure that changes that were made to the store are treated as a group and how to use transactions to update the model.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: mgoertz-msft
+ms.author: mgoertz
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Use Transactions to Update the Model
 Transactions make sure that changes that were made to the store are treated as a group. Changes that are grouped can be committed or rolled back as a single unit.

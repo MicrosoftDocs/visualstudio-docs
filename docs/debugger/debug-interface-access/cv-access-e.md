@@ -1,7 +1,9 @@
 ---
 title: "CV_access_e | Microsoft Docs"
+description: Get information about the CV_access_e enumeration type, which specifies the scope of visibility (access level) of members in the debug interface access SDK.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 33c05d65-abb4-4800-a382-54a3805ea7b0
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

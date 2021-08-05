@@ -1,27 +1,27 @@
 ---
-title: "Automate installation with a response file"
-description: "Learn how to create a JSON response file that helps you automate your Visual Studio installation"
+title: Automate installation with a response file
+description: Learn how to create a JSON response file that helps you automate your Visual Studio installation
 ms.date: 03/30/2019
-ms.custom: "seodec18"
+ms.custom: seodec18
 ms.topic: conceptual
 helpviewer_keywords:
-  - "response file"
-  - "automate"
-  - "installation"
-  - "command-line"
-author: TerryGLee
-ms.author: tglee
-manager: jillfra
+- response file
+- automate
+- installation
+- command-line
+author: anandmeg
+ms.author: meghaanand
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
 ---
-# How to define settings in a response file
+# Automate installs by using settings in a response file
 
 Administrators who deploy Visual Studio can specify a response file by using the `--in` parameter, as in the following example:
 
-```cmd
+```shell
 vs_enterprise.exe --in customInstall.json
 ```
 
@@ -58,7 +58,7 @@ The base `response.json` file in a layout should look similar to the following e
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 ```json
 {
@@ -113,7 +113,7 @@ The following example installs Visual Studio Enterprise with six common workload
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 ```json
 {
@@ -153,3 +153,4 @@ The following example installs Visual Studio Enterprise with six common workload
 ## See also
 
 * [Visual Studio workload and component IDs](workload-and-component-ids.md)
+* [Troubleshoot network-related errors when you install or use Visual Studio](troubleshooting-network-related-errors-in-visual-studio.md)

@@ -1,15 +1,17 @@
 ---
 title: Working with 3D Assets for Games and Apps
+description: Learn about the Visual Studio tools that you can use to create or modify 3D models, textures, and shaders for DirectX-based games and apps.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 f1_keywords:
-  - "vs.graphics"
+- vs.graphics
 ms.assetid: 910d673b-c884-4eeb-9928-0e89f3d38cb6
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Work with 3D assets for games and apps
 
@@ -40,11 +42,11 @@ Shaders are small, domain-specific programs that run on the graphics processing 
 You can use the Visual Studio Shader Designer, which is a graph-based shader design tool, to create custom visual effects without knowing HLSL programming.
 
 > [!NOTE]
-> For more information about how to start with DirectX programming, see [DirectX](http://go.microsoft.com/fwlink/p/?LinkId=224633). For more information about how to debug a DirectX-based app, see [Graphics diagnostics (debugging DirectX graphics)](../debugger/graphics/visual-studio-graphics-diagnostics.md).
+> For more information about how to start with DirectX programming, see [DirectX](/windows/win32/directx). For more information about how to debug a DirectX-based app, see [Graphics diagnostics (debugging DirectX graphics)](../debugger/graphics/visual-studio-graphics-diagnostics.md).
 
 ## DirectX version compatibility
 
-Visual Studio uses DirectX to render 2D and 3D assets. You can select either the DirectX 11 renderer, or the Windows Advanced Rasterization Platform (WARP) software renderer. The DirectX 11 renderer provides high-performance, hardware-accelerated rendering on DirectX 11 and DirectX 10 GPUs. The WARP renderer helps make sure that your assets work with a broad range of computers—this includes computers that don't have modern graphics hardware and computers that have integrated graphics hardware. For more information about WARP, see [Windows Advanced Rasterization Platform (WARP) guide](http://go.microsoft.com/fwlink/p/?LinkId=224634).
+Visual Studio uses DirectX to render 2D and 3D assets. You can select either the DirectX 11 renderer, or the Windows Advanced Rasterization Platform (WARP) software renderer. The DirectX 11 renderer provides high-performance, hardware-accelerated rendering on DirectX 11 and DirectX 10 GPUs. The WARP renderer helps make sure that your assets work with a broad range of computers—this includes computers that don't have modern graphics hardware and computers that have integrated graphics hardware. For more information about WARP, see [Windows Advanced Rasterization Platform (WARP) guide](/windows/win32/direct3darticles/directx-warp).
 
 ## Related topics
 

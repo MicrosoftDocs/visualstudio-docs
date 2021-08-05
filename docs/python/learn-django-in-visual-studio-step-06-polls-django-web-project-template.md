@@ -6,8 +6,9 @@ ms.date: 11/19/2018
 ms.topic: tutorial
 author: JoshuaPartlow
 ms.author: joshuapa
-manager: jillfra
+manager: jmartens
 ms.custom: seodec18
+monikerRange: vs-2017
 ms.workload:
   - python
   - data-science
@@ -155,7 +156,7 @@ To see the effect, run the app first to see that no polls yet exist. Then visit 
 
 ### Question: Is it possible to initialize the database using the Django administrative utility?
 
-Answer: Yes, you can use the [django-admin loaddata command](https://docs.djangoproject.com/en/1.9/ref/django-admin/#loaddata) to accomplish the same task as the seeding page in the app. When working on a full web app, you might use a combination of the two methods: initialize a database from the command line, then convert the seed page here to an API to which you can send any other arbitrary JSON rather than relying on a hard-coded file.
+Answer: Yes, you can use the [django-admin loaddata command](https://docs.djangoproject.com/en/2.0/ref/django-admin/#loaddata) to accomplish the same task as the seeding page in the app. When working on a full web app, you might use a combination of the two methods: initialize a database from the command line, then convert the seed page here to an API to which you can send any other arbitrary JSON rather than relying on a hard-coded file.
 
 ## Step 6-3: Use migrations
 
@@ -371,4 +372,4 @@ Running a web app on your development computer is just one step in making the ap
 
 - Change the app from SQLite to a production-level data store such as PostgreSQL, MySQL, and SQL Server (all of which can be hosted on Azure). As described on [When to use SQLite](https://www.sqlite.org/whentouse.html) (sqlite.org), SQLite works fine for low to medium traffic sites with fewer than 100K hits/day, but is not recommended for higher volumes. It's also limited to a single computer, so it cannot be used in any multi-server scenario such as load-balancing and geo-replication. For information on Django's support for other databases, see [Database setup](https://docs.djangoproject.com/en/2.0/intro/tutorial02/#database-setup). You can also use the [Azure SDK for Python](/azure/python/) to work with Azure storage services like tables and blobs.
 
-- Set up a continuous integration/continuous deployment pipeline on a service like Azure DevOps. In addition to working with source control (via Azure Repos or GitHub, or elsewhere), you can configure an Azure DevOps Project to automatically run your unit tests as a pre-requisite for release, and also configure the pipeline to deploy to a staging server for additional tests before deploying to production. Azure DevOps, furthermore, integrates with monitoring solutions like App Insights and closes the whole cycle with agile planning tools. For more information, see [Create a CI/CD pipeline for Python with the Azure DevOps project](/azure/devops-project/azure-devops-project-python?view=vsts) and also the general [Azure DevOps documentation](/azure/devops/?view=vsts).
+- Set up a continuous integration/continuous deployment pipeline on a service like Azure DevOps. In addition to working with source control (via Azure Repos or GitHub, or elsewhere), you can configure an Azure DevOps Project to automatically run your unit tests as a pre-requisite for release, and also configure the pipeline to deploy to a staging server for additional tests before deploying to production. Azure DevOps, furthermore, integrates with monitoring solutions like App Insights and closes the whole cycle with agile planning tools. For more information, see [Create a CI/CD pipeline for Python with the Azure DevOps project](/azure/devops-project/azure-devops-project-python?view=vsts&preserve-view=true) and also the general [Azure DevOps documentation](/azure/devops/?view=vsts&preserve-view=true).

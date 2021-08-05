@@ -1,5 +1,7 @@
 ---
 title: "CommentMarkAtProfile | Microsoft Docs"
+description: Use the CommentMarkAtProfile method to insert a timestamp value, a numeric mark, and a comment string into the .vsp file.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:
@@ -8,12 +10,13 @@ helpviewer_keywords:
 ms.assetid: 04294ca3-bf9c-4c76-86f1-898c2140de27
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+monikerRange: 'vs-2017'
 ms.workload:
   - "multiple"
 ---
 # CommentMarkAtProfile
-The `CommentMarkAtProfile` method inserts a timestamp value, a numeric mark, and a comment string in the .*vsp* file. The timestamp value can be used to synchronize external events. For the mark and comment to be inserted, profiling for the thread that contains the CommentMarkAtProfile function must be ON.
+The `CommentMarkAtProfile` method inserts a timestamp value, a numeric mark, and a comment string into the *.vsp* file. The timestamp value can be used to synchronize external events. For the mark and comment to be inserted, profiling for the thread that contains the CommentMarkAtProfile function must be ON.
 
 ## Syntax
 
@@ -61,7 +64,7 @@ PROFILE_COMMAND_STATUS PROFILERAPI CommentMarkAtProfile (
 
 ## Function information
 
-|||
+|Item|Value|
 |-|-|
 |**Header**|Include *VSPerf.h*|
 |**Library**|Use *VSPerf.lib*|

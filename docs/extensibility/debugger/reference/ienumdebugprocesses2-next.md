@@ -1,20 +1,21 @@
 ---
-title: "IEnumDebugProcesses2::Next | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Returns the next set of elements from the processes enumeration."
+title: IEnumDebugProcesses2::Next | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IEnumDebugProcesses2::Next"
+- IEnumDebugProcesses2::Next
 helpviewer_keywords:
-  - "IEnumDebugProcesses2::Next"
+- IEnumDebugProcesses2::Next
 ms.assetid: abef89eb-198b-49cd-a4c9-17bce6cac0e1
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IEnumDebugProcesses2::Next
 Returns the next set of elements from the enumeration.

@@ -1,6 +1,8 @@
 ---
 title: "Expressions in the debugger | Microsoft Docs"
-ms.date: "02/07/2018"
+description: Learn which language expressions are not supported by the expression evaluators in the Visual Studio debugger.
+ms.custom: SEO-VS-2020
+ms.date: "03/02/2020"
 ms.topic: "conceptual"
 f1_keywords:
   - "vs.debug.expressions"
@@ -16,7 +18,7 @@ helpviewer_keywords:
 ms.assetid: 70f9b531-44c7-4d77-980d-5eddbf2bff41
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---
@@ -93,12 +95,12 @@ Debugger intrinsic functions:
 
 |Area|Intrinsic functions|
 |----------|-------------------------|
-|**String length**|strlen, wcslen, strnlen, wcsnlen|
-|**String comparison**|strcmp, wcscmp, stricmp, _stricmp, _strcmpi, wcsicmp, _wcscmpi, _wcsnicmp, strncmp, wcsncmp, strnicmp, wcsnicmp|
-|**String search**|strchr, wcschr, strstr, wcsstr|
-|**Win32**|GetLastError(), TlsGetValue()|
-|**Windows 8**|WindowsGetStringLen(), WindowsGetStringRawBuffer()<br /><br /> These functions require the process that is being debugged to be running on Windows 8. Debugging dump files generated from a Windows 8 device also requires that the Visual Studio computer be running Windows 8. However, if you are debugging a Windows 8 device remotely, the Visual Studio computer can be running Windows 7.|
-|**Miscellaneous**|__log2<br /><br /> Returns the log base 2 of a specified integer, rounded to the nearest lower integer.|
+|**String length**|[strlen, wcslen](/cpp/c-runtime-library/reference/strlen-wcslen-mbslen-mbslen-l-mbstrlen-mbstrlen-l), [strnlen, wcsnlen](/cpp/c-runtime-library/reference/strnlen-strnlen-s)|
+|**String comparison**|[strcmp, wcscmp](/cpp/c-runtime-library/reference/strcmp-wcscmp-mbscmp), [stricmp, wcsicmp](/cpp/c-runtime-library/reference/stricmp-wcsicmp), [_stricmp, _strcmpi, _wcsicmp, _wcscmpi](/cpp/c-runtime-library/reference/stricmp-wcsicmp-mbsicmp-stricmp-l-wcsicmp-l-mbsicmp-l), [strncmp, wcsncmp](/cpp/c-runtime-library/reference/strncmp-wcsncmp-mbsncmp-mbsncmp-l), [strnicmp, wcsnicmp](/cpp/c-runtime-library/reference/strnicmp-wcsnicmp), [_strnicmp, _wcsnicmp](/cpp/c-runtime-library/reference/strnicmp-wcsnicmp-mbsnicmp-strnicmp-l-wcsnicmp-l-mbsnicmp-l)|
+|**String search**|[strchr, wcschr](/cpp/c-runtime-library/reference/strchr-wcschr-mbschr-mbschr-l), [memchr, wmemchr](/cpp/c-runtime-library/reference/memchr-wmemchr), [strstr, wcsstr](/cpp/c-runtime-library/reference/strstr-wcsstr-mbsstr-mbsstr-l)|
+|**Win32**|[CoDecodeProxy](/windows/win32/api/combaseapi/nf-combaseapi-codecodeproxy), [DecodePointer](/previous-versions/bb432242(v=vs.85)), [GetLastError](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror), [TlsGetValue](/windows/win32/api/processthreadsapi/nf-processthreadsapi-tlsgetvalue)|
+|**Windows 8**|[RoInspectCapturedStackBackTrace](/windows/win32/api/roerrorapi/nf-roerrorapi-roinspectcapturedstackbacktrace), [WindowsCompareStringOrdinal](/windows/win32/api/winstring/nf-winstring-windowscomparestringordinal), [WindowsGetStringLen](/windows/win32/api/winstring/nf-winstring-windowsgetstringlen), [WindowsGetStringRawBuffer](/windows/win32/api/winstring/nf-winstring-windowsgetstringrawbuffer)<br /><br /> These functions require the process that is being debugged to be running on Windows 8. Debugging dump files generated from a Windows 8 device also requires that the Visual Studio computer be running Windows 8. However, if you are debugging a Windows 8 device remotely, the Visual Studio computer can be running Windows 7.|
+|**Miscellaneous**|__log2 // Returns the log base 2 of a specified integer, rounded to the nearest lower integer.<br /><br />__findNonNull, DecodeHString, DecodeWinRTRestrictedException, DynamicCast, DynamicMemberLookup, GetEnvBlockLength<br /><br />Stdext_HashMap_Int_OperatorBracket_idx, Std_UnorderedMap_Int_OperatorBracket_idx<br /><br />ConcurrencyArray_OperatorBracket_idx // Concurrency::array<>::operator[index<>] and operator(index<>)<br /><br />ConcurrencyArray_OperatorBracket_int // Concurrency::array<>::operator(int, int, ...)<br /><br />ConcurrencyArray_OperatorBracket_tidx // Concurrency::array<>::operator[tiled_index<>] and operator(tiled_index<>)<br /><br />ConcurrencyArrayView_OperatorBracket_idx // Concurrency::array_view<>::operator[index<>] and operator(index<>)<br /><br />ConcurrencyArrayView_OperatorBracket_int // Concurrency::array_view<>::operator(int, int, ...)<br /><br />ConcurrencyArrayView_OperatorBracket_tidx // Concurrency::array_view<>::operator[tiled_index<>] and operator(tiled_index<>)<br /><br />TreeTraverse_Init // Initializes a new tree traversal<br /><br />TreeTraverse_Next // Returns nodes in a tree<br /><br />TreeTraverse_Skip // Skips nodes in a pending tree traversal`|
 
 ## C++/CLI - Unsupported Expressions
 

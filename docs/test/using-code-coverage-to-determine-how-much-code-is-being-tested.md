@@ -1,16 +1,18 @@
 ---
 title: Code coverage testing
+description: Learn how to use the code coverage feature of Visual Studio to determine what proportion of your project code is being tested by coded tests.
+ms.custom: SEO-VS-2020
 ms.date: 07/23/2019
 ms.topic: conceptual
 helpviewer_keywords:
-  - "code coverage"
+- code coverage
 dev_langs:
-  - "CSharp"
-  - "VB"
-  - "CPP"
-author: jillre
-ms.author: jillfra
-manager: jillfra
+- CSharp
+- VB
+- CPP
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
 ---
 # Use code coverage to determine how much code is being tested
 
@@ -266,7 +268,7 @@ You can exercise more control over which assemblies and elements are selected fo
 
 ## Analyze code coverage in Azure Pipelines
 
-When you check in your code, your tests run on the build server along with tests from other team members. It's useful to analyze code coverage in Azure Pipelines to get the most up-to-date and comprehensive picture of coverage in the whole project. It also includes automated system tests and other coded tests that you don't usually run on the development machines. For more information, see [Run unit tests with your builds](/azure/devops/pipelines/test/getting-started-with-continuous-testing?view=vsts).
+When you check in your code, your tests run on the build server along with tests from other team members. It's useful to analyze code coverage in Azure Pipelines to get the most up-to-date and comprehensive picture of coverage in the whole project. It also includes automated system tests and other coded tests that you don't usually run on the development machines. For more information, see [Run unit tests with your builds](/azure/devops/pipelines/test/getting-started-with-continuous-testing?view=vsts&preserve-view=true).
 
 ## Analyze code coverage from the command line
 

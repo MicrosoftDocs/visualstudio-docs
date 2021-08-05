@@ -1,20 +1,21 @@
 ---
-title: "DEBUG_ADDRESS | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "This structure represents an address."
+title: DEBUG_ADDRESS | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "DEBUG_ADDRESS"
+- DEBUG_ADDRESS
 helpviewer_keywords:
-  - "DEBUG_ADDRESS structure"
+- DEBUG_ADDRESS structure
 ms.assetid: 79f5e765-9aac-4b6e-82ef-bed88095e9ba
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # DEBUG_ADDRESS
 This structure represents an address.

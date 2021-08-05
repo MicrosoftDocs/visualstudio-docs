@@ -1,20 +1,21 @@
 ---
-title: "BP_PASSCOUNT_STYLE | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Specifies the condition associated with the breakpoint pass count that causes the breakpoint to fire."
+title: BP_PASSCOUNT_STYLE | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "BP_PASSCOUNT_STYLE"
+- BP_PASSCOUNT_STYLE
 helpviewer_keywords:
-  - "BP_PASSCOUNT_STYLE structure"
+- BP_PASSCOUNT_STYLE structure
 ms.assetid: 0a647047-e2d5-4724-a0b8-68108425ecad
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # BP_PASSCOUNT_STYLE
 Specifies the condition associated with the breakpoint pass count that causes the breakpoint to fire.

@@ -1,13 +1,15 @@
 ---
-title: Objects added to designer use a different data connection
+title: Objects use different connection
+description: 'The objects you are adding to the designer use a different data connection than the designer. View information about this Visual Studio O/R Designer message.'
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: reference
+ms.topic: error-reference
 ms.assetid: 332ed2f3-3377-4d51-8e3b-fdb98231978e
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: ghogen
+ms.author: ghogen
+manager: jmartens
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # The objects you are adding to the designer use a different data connection than the designer
 

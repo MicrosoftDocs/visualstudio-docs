@@ -1,14 +1,16 @@
 ---
 title: Understanding the DSL Code
+description: Learn how the Domain-Specific Language (DSL) solution generates an API that you can use to read and update instances of the DSL in Visual Studio.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "Domain-Specific Language, generated code"
-author: jillre
-ms.author: jillfra
-manager: jillfra
+- Domain-Specific Language, generated code
+author: mgoertz-msft
+ms.author: mgoertz
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Understanding the DSL Code
 
@@ -186,7 +188,7 @@ Press **F5** and experiment if you are not familiar with this solution template.
 
  `CommandSet.cs`
 
- The right-click menu commands that are visible on the diagram. You can adapt or add to this set. This file contains the code for the commands. The location of the commands on menus is determined by the Commands.vsct file. For more information, see [Writing User Commands and Actions](../modeling/writing-user-commands-and-actions.md).
+ The right-click menu commands that are visible on the diagram. You can adapt or add to this set. This file contains the code for the commands. The location of the commands on menus is determined by the Commands.vsct file. For more information, see [Writing User Commands and Actions](how-to-modify-a-standard-menu-command-in-a-domain-specific-language.md).
 
  `Constants.cs`
 
@@ -276,7 +278,7 @@ namespace Company.EmbedInForm
 
  `GeneratedVSCT.vsct`
 
- Locates the standard menu commands on menus, such as the diagram right-click (context) menu, the **Edit** menu, and so on. The code for the commands is in CommandSet.cs. You can relocate or modify the standard commands, and you can add your own commands. For more information, see [Writing User Commands and Actions](../modeling/writing-user-commands-and-actions.md).
+ Locates the standard menu commands on menus, such as the diagram right-click (context) menu, the **Edit** menu, and so on. The code for the commands is in CommandSet.cs. You can relocate or modify the standard commands, and you can add your own commands. For more information, see [Writing User Commands and Actions](how-to-modify-a-standard-menu-command-in-a-domain-specific-language.md).
 
  `ModelExplorer.cs`
 

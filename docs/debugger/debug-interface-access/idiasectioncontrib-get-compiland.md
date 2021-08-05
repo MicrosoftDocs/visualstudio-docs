@@ -1,7 +1,8 @@
 ---
+description: "Retrieves a reference to the compiland symbol that contributed this section."
 title: "IDiaSectionContrib::get_compiland | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: c0496f6f-f8f2-435f-8674-6c32db6c5934
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

@@ -1,7 +1,9 @@
 ---
 title: "How to: Add and Remove Additional Assemblies | Microsoft Docs"
+description: Learn to add and remove additional assemblies in SharePoint solution packages. Also add or delete safe controls and class resources.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: how-to
 f1_keywords:
   - "VS.SharePointTools.RAD.CustomAssembly"
 dev_langs:
@@ -11,7 +13,7 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, packages"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---
@@ -21,7 +23,7 @@ ms.workload:
  You can also add and change the safe controls and class resource files associated with the assemblies.
 
 ## Add additional assemblies, safe controls, and class resources
- You can add additional assemblies into the SharePoint solution package. Additional assemblies in a sandboxed solution deploy to the global assembly cache, but SharePoint project items in a sandboxed solution are added to the content database. You can also add safe controls and class resources to these additional assemblies. For more information about safe controls, see [Providing Packaging and Deployment Information in Project Items](../sharepoint/providing-packaging-and-deployment-information-in-project-items.md) or "Creating a SafeControl Entry" in [Deploying Web Parts in SharePoint Foundation](http://go.microsoft.com/fwlink/?LinkId=245505).
+ You can add additional assemblies into the SharePoint solution package. Additional assemblies in a sandboxed solution deploy to the global assembly cache, but SharePoint project items in a sandboxed solution are added to the content database. You can also add safe controls and class resources to these additional assemblies. For more information about safe controls, see [Providing Packaging and Deployment Information in Project Items](../sharepoint/providing-packaging-and-deployment-information-in-project-items.md) or "Creating a SafeControl Entry" in [Deploying Web Parts in SharePoint Foundation](/previous-versions/office/developer/sharepoint-2010/cc768621(v=office.14)).
 
 #### To add an existing assembly
 

@@ -1,7 +1,8 @@
 ---
+description: "Retrieves the segment number."
 title: "IDiaSegment::get_frame | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 9fece9c7-064a-4d6b-9cef-fc387f322205
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

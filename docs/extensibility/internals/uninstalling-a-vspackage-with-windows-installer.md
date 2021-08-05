@@ -1,17 +1,19 @@
 ---
-title: "Uninstalling a VSPackage With Windows Installer | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Uninstalling a VSPackage With Windows Installer | Microsoft Docs
+description: Windows Installer can uninstall your VSPackage by reversing the installation. Learn how to deal with custom actions in your Windows Installer package.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "packages, uninstalling"
-  - "VSPackages, uninstalling"
-  - "uninstalling VSPackages"
+- packages, uninstalling
+- VSPackages, uninstalling
+- uninstalling VSPackages
 ms.assetid: c4575ac7-82da-4af8-a375-ea756a101fbf
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Uninstalling a VSPackage With Windows Installer
 For the most part, Windows Installer can uninstall your VSPackage just by "undoing" what it did to install your VSPackage. The custom actions discussed in [Commands That Must Be Run After Installation](../../extensibility/internals/commands-that-must-be-run-after-installation.md) must be run after an uninstall as well. Because the calls to devenv.exe occur just before the InstallFinalize standard action for both installation and uninstallation, the CustomAction and InstallExecuteSequence table entries serve both cases.
@@ -33,5 +35,5 @@ For the most part, Windows Installer can uninstall your VSPackage just by "undoi
 > `Installed` is the property Windows Installer sets when it detects that your VSPackage has already been installed on the system.
 
 ## See also
-- [Windows Installer](https://msdn.microsoft.com/library/187d8965-c79d-4ecb-8689-10930fa8b3b5)
+- [Windows Installer](/previous-versions/ee231230(v=vs.100))
 - [Detecting System Requirements](../../extensibility/internals/detecting-system-requirements.md)

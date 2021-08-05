@@ -1,20 +1,21 @@
 ---
-title: "IEnumDebugAddresses::Reset | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "This method resets the addresses enumeration to the first element."
+title: IEnumDebugAddresses::Reset | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IEnumDebugAddresses::Reset"
+- IEnumDebugAddresses::Reset
 helpviewer_keywords:
-  - "IEnumDebugAddresses::Reset method"
+- IEnumDebugAddresses::Reset method
 ms.assetid: 3a9d7f20-5bc6-4e13-8e91-5af4092e092f
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IEnumDebugAddresses::Reset
 This method resets the enumeration to the first element.

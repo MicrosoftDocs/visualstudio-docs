@@ -1,12 +1,14 @@
 ---
 title: Extend your DSL by using MEF
+description: Learn how you can extend your domain-specific language (DSL) by using the Managed Extensibility Framework (MEF).
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
-author: jillre
-ms.author: jillfra
-manager: jillfra
+ms.topic: how-to
+author: mgoertz-msft
+ms.author: mgoertz
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Extend your DSL by using MEF
 

@@ -1,28 +1,32 @@
 ---
-title: "RemoveDuplicates Task | Microsoft Docs"
-ms.date: "03/01/2018"
-ms.topic: "reference"
+title: RemoveDuplicates Task | Microsoft Docs
+description: Learn how MSBuild uses the RemoveDuplicates task to remove duplicate items from the specified item collection.
+ms.custom: SEO-VS-2020
+ms.date: 03/01/2018
+ms.topic: reference
 f1_keywords:
-  - "http://schemas.microsoft.com/developer/msbuild/2003#RemoveDuplicates"
+- http://schemas.microsoft.com/developer/msbuild/2003#RemoveDuplicates
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+- VB
+- CSharp
+- C++
+- jsharp
 helpviewer_keywords:
-  - "MSBuild, RemoveDuplicates task"
-  - "RemoveDuplicates task [MSBuild]"
+- MSBuild, RemoveDuplicates task
+- RemoveDuplicates task [MSBuild]
 ms.assetid: 481cbab6-73ff-488c-aba5-2c09f9eb1e04
-author: mikejo5000
-ms.author: mikejo
-manager: jillfra
+author: ghogen
+ms.author: ghogen
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # RemoveDuplicates task
+
 Removes duplicate items from the specified item collection.
 
 ## Parameters
+
  The following table describes the parameters of the `RemoveDuplicates` task.
 
 |Parameter|Description|
@@ -31,11 +35,13 @@ Removes duplicate items from the specified item collection.
 |`Inputs`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` parameter.<br /><br /> The item collection to remove duplicate items from.|
 
 ## Remarks
+
  This task is case insensitive and does not compare item metadata when determining duplicates.
 
  In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension base class](../msbuild/taskextension-base-class.md).
 
 ## Example
+
  The following example uses the `RemoveDuplicates` task to remove duplicate items from the `MyItems` item collection. When the task is complete, the `FilteredItems` item collection contains one item.
 
 ```xml
@@ -84,6 +90,7 @@ Removes duplicate items from the specified item collection.
 ```
 
 ## See also
+
 - [Task reference](../msbuild/msbuild-task-reference.md)
 - [MSBuild concepts](../msbuild/msbuild-concepts.md)
 - [Tasks](../msbuild/msbuild-tasks.md)

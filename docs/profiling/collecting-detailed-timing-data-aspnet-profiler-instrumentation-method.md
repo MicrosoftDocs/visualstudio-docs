@@ -1,16 +1,19 @@
 ---
-title: "VSPerfCmd: Get timing data for ASP.NET web app using instrumentation"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-helpviewer_keywords:
-  - "profiling tools,instrumentation method"
-  - "instrumentation profiling method"
+title: Collect timing data for ASP.NET using instrumentation
+description: Learn how to use VSPerfCmd to collect detailed performance data for an ASP.NET Web application. It provides complete access to Profiling Tools functionality. 
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
+helpviewer_keywords: 
+  - profiling tools,instrumentation method
+  - instrumentation profiling method
 ms.assetid: 29f2fc55-aaf7-4e18-a672-8815455fba73
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
-ms.workload:
-  - "aspnet"
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+monikerRange: 'vs-2017'
+ms.workload: 
+  - aspnet
 ---
 # Collect detailed timing data for an ASP.NET web application using the profiler instrumentation method from the command line
 This section describes the procedures and options for collecting detailed performance data for an [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Web application by using the **VSPerfCmd** command line tool and the instrumentation method.

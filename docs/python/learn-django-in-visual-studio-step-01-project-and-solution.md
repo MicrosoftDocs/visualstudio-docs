@@ -6,7 +6,7 @@ ms.date: 11/19/2018
 ms.topic: tutorial
 author: JoshuaPartlow
 ms.author: joshuapa
-manager: jillfra
+manager: jmartens
 ms.custom: seodec18
 ms.workload:
   - python
@@ -19,13 +19,22 @@ ms.workload:
 
 In this tutorial, you learn how to:
 
-> [!div class="checklist"]
-> - Create a basic Django project in a Git repository using the "Blank Django Web Project" template (step 1)
-> - Create a Django app with one page and render that page using a template (step 2)
-> - Serve static files, add pages, and use template inheritance (step 3)
-> - Use the Django Web Project template to create an app with multiple pages and responsive design (step 4)
-> - Authenticate users (step 5)
-> - Use the Polls Django Web Project template to create an app that uses models, database migrations, and customizations to the administrative interface (step 6)
+::: moniker range="vs-2017"
+- Create a basic Django project in a Git repository using the "Blank Django Web Project" template (step 1)
+- Create a Django app with one page and render that page using a template (step 2)
+- Serve static files, add pages, and use template inheritance (step 3)
+- Use the Django Web Project template to create an app with multiple pages and responsive design (step 4)
+- Authenticate users (step 5)
+- Use the Polls Django Web Project template to create an app that uses models, database migrations, and customizations to the administrative interface (step 6)
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+- Create a basic Django project in a Git repository using the "Blank Django Web Project" template (step 1)
+- Create a Django app with one page and render that page using a template (step 2)
+- Serve static files, add pages, and use template inheritance (step 3)
+- Use the Django Web Project template to create an app with multiple pages and responsive design (step 4)
+- Authenticate users (step 5)
+::: moniker-end
 
 ## Prerequisites
 
@@ -106,7 +115,7 @@ Because you selected the **Create new Git repository** in the **New Project** di
 
 Answer: First of all, using source control from the start, especially if you also use a remote repository, provides a regular offsite backup of your project. Unlike maintaining a project just on a local file system, source control also provides a complete change history and the easy ability to revert a single file or the whole project to a previous state. That change history helps determine the cause of regressions (test failures). Furthermore, source control is essential if multiple people are working on a project, as it manages overwrites and provides conflict resolution. Finally, source control, which is fundamentally a form of automation, sets you up well for automating builds, testing, and release management. It's really the first step in using DevOps for a project, and because the barriers to entry are so low, there's really no reason to not use source control from the beginning.
 
-For further discussion on source control as automation, see [The Source of Truth: The Role of Repositories in DevOps](https://msdn.microsoft.com/magazine/mt763232), an article in MSDN Magazine written for mobile apps that applies also to web apps.
+For further discussion on source control as automation, see [The Source of Truth: The Role of Repositories in DevOps](/archive/msdn-magazine/2016/september/mobile-devops-the-source-of-truth-the-role-of-repositories-in-devops), an article in MSDN Magazine written for mobile apps that applies also to web apps.
 
 ### Question: Can I prevent Visual Studio from auto-committing a new project?
 

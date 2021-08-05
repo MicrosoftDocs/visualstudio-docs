@@ -1,20 +1,21 @@
 ---
-title: "IDebugBinder3::GetTypeArguments | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "This method retrieves a list of argument types associated with this object."
+title: IDebugBinder3::GetTypeArguments | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugBinder3::GetTypeArguments"
+- IDebugBinder3::GetTypeArguments
 helpviewer_keywords:
-  - "IDebugBinder3::GetTypeArguments method"
+- IDebugBinder3::GetTypeArguments method
 ms.assetid: fa0c37a7-327f-463e-9a9d-bb3f534584cb
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugBinder3::GetTypeArguments
 This method retrieves a list of argument types associated with this object.

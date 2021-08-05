@@ -1,18 +1,20 @@
 ---
-title: "Syntax Colorizing in a Legacy Language Service | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Syntax Colorizing in a Legacy Language Service | Microsoft Docs
+description: Learn how to support syntax colorization in a legacy language service by supply a parser or scanner that can identify the types of lexical elements or tokens.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "language services [managed package framework], syntax highlighting"
-  - "colorization, supporting in language services [managed package framework]"
-  - "syntax highlighting, supporting in language services [managed package framework]"
-  - "language services [managed package framework], colorization"
+- language services [managed package framework], syntax highlighting
+- colorization, supporting in language services [managed package framework]
+- syntax highlighting, supporting in language services [managed package framework]
+- language services [managed package framework], colorization
 ms.assetid: 1ca1736a-f554-42e4-a9c7-fe8c3c1717df
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Syntax Colorizing in a Legacy Language Service
 Syntax colorization is a feature that causes different elements of a programming language to be displayed in a source file in different colors and styles. To support this feature, you need to supply a parser or scanner that can identify the types of lexical elements or tokens in the file. Many languages distinguish keywords, delimiters (such as parentheses or braces), and comments by colorizing them in different ways.

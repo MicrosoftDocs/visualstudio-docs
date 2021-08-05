@@ -1,17 +1,19 @@
 ---
 title: Visual Basic IntelliSense
+description: Learn how to use the IntelliSense features offered by the Visual Basic source code editor.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 f1_keywords:
-  - "VS.ToolsOptionsPages.Text_Editor.Basic.IntelliSense"
+- VS.ToolsOptionsPages.Text_Editor.Basic.IntelliSense
 helpviewer_keywords:
-  - "IntelliSense [Visual Basic]"
-  - "IntelliSense [Visual Studio], Visual Basic"
-author: jillre
-ms.author: jillfra
-manager: jillfra
+- IntelliSense [Visual Basic]
+- IntelliSense [Visual Studio], Visual Basic
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # IntelliSense for Visual Basic code files
 

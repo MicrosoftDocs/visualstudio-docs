@@ -1,20 +1,22 @@
 ---
-title: "How to: Set the Current Session | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-helpviewer_keywords:
-  - "current performance sessions"
-  - "Performance Explorer, selecting sessions"
-  - "profiling tools, setting sessions"
-  - "multiple performance sessions"
-  - "performance sessions, setting multiple"
-  - "performance tools, setting current performance session"
-  - "sessions, setting multiple"
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
-ms.workload:
-  - "multiple"
+title: Set the Current Session | Microsoft Docs
+description: Learn how you open multiple performance sessions in the Performance Explorer and select one of the visible performance sessions to be set as the current session.
+ms.date: 11/04/2016
+ms.topic: how-to
+helpviewer_keywords: 
+  - current performance sessions
+  - Performance Explorer, selecting sessions
+  - profiling tools, setting sessions
+  - multiple performance sessions
+  - performance sessions, setting multiple
+  - performance tools, setting current performance session
+  - sessions, setting multiple
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+monikerRange: 'vs-2017'
+ms.workload: 
+  - multiple
 ---
 # How to: Set the current session
 

@@ -1,16 +1,18 @@
 ---
 title: "Remote debug ASP.NET on an IIS computer"
+description: Learn how to set up and configure a Visual Studio ASP.NET MVC 4.5.2 application, deploy it to IIS, and attach the remote debugger from Visual Studio. 
 ms.custom: ['remotedebugging', 'seodec18']
-ms.date: "05/21/2018"
+ms.date: 05/06/2020
 ms.topic: "conceptual"
 ms.assetid: 9cb339b5-3caf-4755-aad1-4a5da54b2a23
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "aspnet"
 ---
 # Remote Debug ASP.NET on a Remote IIS Computer
+
 To debug an ASP.NET application that has been deployed to IIS, install and run the remote tools on the computer where you deployed your app, and then attach to your running app from Visual Studio.
 
 ![Remote debugger components](../debugger/media/remote-debugger-aspnet.png "Remote_debugger_components")
@@ -30,6 +32,7 @@ Visual Studio 2017 is required to follow the steps shown in this article.
 ::: moniker-end
 
 These procedures have been tested on these server configurations:
+
 * Windows Server 2012 R2 and IIS 8 (For Windows Server 2008 R2, the server steps are different)
 
 ## Network requirements
@@ -83,7 +86,7 @@ If you want more detailed information to install ASP.NET on IIS, see [IIS 8.0 Us
 
 1. Use the Web Platform Installer (WebPI) to install ASP.NET 4.5 (from the Server node in Windows Server 2012 R2, choose **Get New Web Platform Components** and then search for ASP.NET)
 
-    ![RemoteDBG_IIS_AspNet_45](../debugger/media/remotedbg_iis_aspnet_45.png "RemoteDBG_IIS_AspNet_45")
+    ![Screenshot of the Web Platform Installer 5.0 showing the search results for asp.net with the web platform component IIS: ASP.NET 4.5 circled in red.](../debugger/media/remotedbg_iis_aspnet_45.png)
 
     > [!NOTE]
     > If you are using Windows Server 2008 R2, install ASP.NET 4 instead using this command:
@@ -105,7 +108,7 @@ If you need help to deploy the app to IIS, consider these options:
 You can use this option create a publish settings file and import it into Visual Studio.
 
 > [!NOTE]
-> This deployment method uses Web Deploy. If you want to configure Web Deploy manually in Visual Studio instead of importing the settings, you can install Web Deploy 3.6 instead of Web Deploy 3.6 for Hosting Servers. However, if you configure Web Deploy manually, you will need to make sure that an app folder on the server is configured with the correct values and permissions (see [Configure ASP.NET Web site](#BKMK_deploy_asp_net)).
+> This deployment method uses Web Deploy, which must be installed on the server. If you want to configure Web Deploy manually instead of importing the settings, you can install Web Deploy 3.6 instead of Web Deploy 3.6 for Hosting Servers. However, if you configure Web Deploy manually, you will need to make sure that an app folder on the server is configured with the correct values and permissions (see [Configure ASP.NET Web site](#BKMK_deploy_asp_net)).
 
 ### Install and configure Web Deploy for Hosting Servers on Windows Server
 
@@ -121,16 +124,23 @@ You can use this option create a publish settings file and import it into Visual
 
 After the app deploys successfully, it should start automatically. If the app does not start from Visual Studio, start the app in IIS.
 
-1. In the **Settings** dialog box, enable debugging by clicking **Next**, choose a **Debug** configuration, and then choose **Remove additional files at destination** under the **File Publish** options.
+1. Switch to a debug configuration.
 
-    > [!NOTE]
-    > If you choose a Release configuration, you disable debugging in the *web.config* file when you publish.
+   ::: moniker range=">=vs-2019"
+   Choose **Edit** to edit the profile, and then choose **Settings**. Choose a **Debug** configuration, and then choose **Remove additional files at destination** under the **File Publish** options.
+   ::: moniker-end
+   ::: moniker range="vs-2017"
+   In the **Settings** dialog box, enable debugging by clicking **Next**, choose a **Debug** configuration, and then choose **Remove additional files at destination** under the **File Publish** options.
+   ::: moniker-end
+
+   > [!IMPORTANT]
+   > If you choose a Release configuration, you disable debugging in the *web.config* file when you publish.
 
 1. Click **Save** and then republish the app.
 
 ## (Optional) Deploy by publishing to a local folder
 
-You can use this option to deploy your app if you want to copy the app to IIS using Powershell, RoboCopy, or you want to manually copy the files.
+You can use this option to deploy your app if you want to copy the app to IIS using PowerShell, RoboCopy, or you want to manually copy the files.
 
 ### <a name="BKMK_deploy_asp_net"></a> Configure the ASP.NET Web site on the Windows Server computer
 

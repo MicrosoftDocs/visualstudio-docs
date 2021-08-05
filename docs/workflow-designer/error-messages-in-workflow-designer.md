@@ -1,17 +1,19 @@
 ---
-title: "Error Messages in Workflow Designer"
+title: Error Messages in Workflow Designer
+description: Learn about the types of error messages that you can encounter when working with Workflow Designer.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "WFDErrorMessages.UI"
-  - "System.Activities.Presentation.ErrorActivity.UI"
-  - "System.Activities.Presentation.View.ErrorView.UI"
+- WFDErrorMessages.UI
+- System.Activities.Presentation.ErrorActivity.UI
+- System.Activities.Presentation.View.ErrorView.UI
 ms.assetid: 4d8bbc2e-34fc-477f-9140-4adfd70c34a0
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Error Messages in Workflow Designer
 

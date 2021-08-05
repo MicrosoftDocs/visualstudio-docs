@@ -1,24 +1,26 @@
 ---
 title: Work with datasets in n-tier applications
+description: Learn to work with datasets in n-tier applications. N-tier data applications are data-centric apps that are separated into multiple logical layers (or tiers).
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "datasets [Visual Basic], n-tier applications"
-  - "multi-tier database applications"
-  - "DataSet project [VS n-tier applications]"
-  - "distributed applications [VS n-tier applications]"
-  - "data [Visual Basic], n-tier applications"
-  - "TableAdapters, n-tier applications"
-  - "n-tier applications"
-  - "tiers, n-tier applications"
-  - "typed datasets, n-tier applications"
-  - "multiple tier applications"
+- datasets [Visual Basic], n-tier applications
+- multi-tier database applications
+- DataSet project [VS n-tier applications]
+- distributed applications [VS n-tier applications]
+- data [Visual Basic], n-tier applications
+- TableAdapters, n-tier applications
+- n-tier applications
+- tiers, n-tier applications
+- typed datasets, n-tier applications
+- multiple tier applications
 ms.assetid: f6ae2ee0-ea5f-4a79-8f4b-e21c115afb20
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: ghogen
+ms.author: ghogen
+manager: jmartens
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # Work with datasets in n-tier applications
 

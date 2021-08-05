@@ -1,5 +1,7 @@
 ---
 title: "Workflow Designer - Interop Activity Designer"
+description: Learn about the Interop activity designer and how you can use the Interop activity designer to create and configure an Interop activity.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -7,7 +9,7 @@ f1_keywords:
 ms.assetid: 800a3403-ba86-41c4-8de1-c4fee9703eb1
 author: jillre
 ms.author: jillfra
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

@@ -1,18 +1,21 @@
 ---
-title: "Detach | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Detach | Microsoft Docs
+description: Use the Detach option of VSPerfCmd.exe to disconnect the profiler from the specified process, or from all processes if none are specified.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: reference
 ms.assetid: d9d1b52c-7f28-467d-b1e0-512afc4e46c9
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
-ms.workload:
-  - "multiple"
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+monikerRange: 'vs-2017'
+ms.workload: 
+  - multiple
 ---
 # Detach
 The VSPerfCmd.exe **Detach** option disconnects the profiler from the specified processes or all processes if none are specified. Profiling must have been initialized by using the sampling method.
 
- Profiling that was started with either the **Launch** or the **Attach** options can be disconnected with **Detach**. The profiler can be reattched by using subsequent **Attach** commands.
+ Profiling that was started with either the **Launch** or the **Attach** options can be disconnected with **Detach**. The profiler can be reattached by using subsequent **Attach** commands.
 
  **Detach** does not close the profiling data file. Use the **Shutdown** option to end profiling and close the data file.
 

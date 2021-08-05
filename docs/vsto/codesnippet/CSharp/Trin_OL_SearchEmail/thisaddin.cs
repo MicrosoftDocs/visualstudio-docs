@@ -20,19 +20,25 @@ namespace Trin_OL_SearchEmail
         private void SearchforEmail(string partialAddress)
         {
             string contactMessage = string.Empty;
+            Outlook.ContactItem foundContact;
             Outlook.MAPIFolder contacts = (Outlook.MAPIFolder)
                 this.Application.ActiveExplorer().Session.GetDefaultFolder
                  (Outlook.OlDefaultFolders.olFolderContacts);
-            foreach (Outlook.ContactItem foundContact in contacts.Items)
+            foreach (var contact in contacts.Items)
             {
-                if (foundContact.Email1Address != null)
+                //The contacts folder may also distribution list so check to make sure we have a ContactItem
+                if (contact is Outlook.ContactItem)
                 {
-                    if (foundContact.Email1Address.Contains(partialAddress))
+                    foundContact = contact as Outlook.ContactItem;
+                    if (foundContact.Email1Address != null)
                     {
-                        contactMessage = contactMessage + "New contact"
-                        + foundContact.FirstName + " " + foundContact.LastName
-                        + " Email Address is " + foundContact.Email1Address +
-                        ". \n";
+                        if (foundContact.Email1Address.Contains(partialAddress))
+                        {
+                            contactMessage = contactMessage + "New contact"
+                            + foundContact.FirstName + " " + foundContact.LastName
+                            + " Email Address is " + foundContact.Email1Address +
+                            ". \n";
+                        }
                     }
                 }
             }

@@ -1,7 +1,9 @@
 ---
 title: "Create web part for SharePoint using designer"
+description: In this walkthrough, create a web part visually by using the SharePoint Visual Web Part project template in Visual Studio.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: how-to
 dev_langs:
   - "VB"
   - "CSharp"
@@ -11,7 +13,7 @@ helpviewer_keywords:
   - "Web Parts [SharePoint development in Visual Studio], designing"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---
@@ -44,15 +46,21 @@ First, create a web part project by using the **Visual Web Part** project templa
 1. Start [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] by using the **Run as Administrator** option.
 
 2. On the menu bar, choose **File** > **New** > **Project**.
-
-     The **New Project** dialog box appears.
+::: moniker range="=vs-2017"
 
 3. In the **New Project** dialog box, under either **Visual C#** or **Visual Basic**, expand **Office/SharePoint**, and then choose the **SharePoint Solutions** category.
 
 4. In the list of templates, choose the **SharePoint 2013 - Visual Web Part** template, and then choose the **OK** button.
 
      The **SharePoint Customization Wizard** appears. By using this wizard, you can specify the site that you'll use to debug the project and the trust level of the solution.
+::: moniker-end
+::: moniker range=">=vs-2019"
+3. On the **Create a New Project** dialog select the *SharePoint Empty Project** for the particular version of SharePoint you have installed. For example, if you have SharePoint 2019 install select the **SharePoint 2019 - Empty Project** template.
+    [!INCLUDE[new-project-dialog-search](../sharepoint/includes/new-project-dialog-search-md.md)]
 
+4. In the **Name** box, enter **TestProject1**, then choose the **Create** button.
+
+::: moniker-end
 5. In the **What is the trust level for this SharePoint solution?** section, choose the **Deploy as a farm solution** option button.
 
 6. Choose the **Finish** button to accept the default local SharePoint site.
@@ -95,13 +103,13 @@ Add code that enables the user to add calendars to the master calendar view.
 
 2. Add the following statements to the top of the user control code file.
 
-     [!code-vb[SP_VisualWebPart#1](../sharepoint/codesnippet/VisualBasic/sp_visualwebpart.vb/visualwebpart1/visualwebpart1usercontrol.ascx.vb#1)]
-     [!code-csharp[SP_VisualWebPart#1](../sharepoint/codesnippet/CSharp/sp_visualwebpart.cs/visualwebpart1/visualwebpart1usercontrol.ascx.cs#1)]
+     :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/sp_visualwebpart.vb/visualwebpart1/visualwebpart1usercontrol.ascx.vb" id="Snippet1":::
+     :::code language="csharp" source="../sharepoint/codesnippet/CSharp/sp_visualwebpart.cs/visualwebpart1/visualwebpart1usercontrol.ascx.cs" id="Snippet1":::
 
 3. Add the following line of code to the `VisualWebPart1` class. This code declares a monthly calendar view control.
 
-     [!code-vb[SP_VisualWebPart#2](../sharepoint/codesnippet/VisualBasic/sp_visualwebpart.vb/visualwebpart1/visualwebpart1usercontrol.ascx.vb#2)]
-     [!code-csharp[SP_VisualWebPart#2](../sharepoint/codesnippet/CSharp/sp_visualwebpart.cs/visualwebpart1/visualwebpart1usercontrol.ascx.cs#2)]
+     :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/sp_visualwebpart.vb/visualwebpart1/visualwebpart1usercontrol.ascx.vb" id="Snippet2":::
+     :::code language="csharp" source="../sharepoint/codesnippet/CSharp/sp_visualwebpart.cs/visualwebpart1/visualwebpart1usercontrol.ascx.cs" id="Snippet2":::
 
 4. Replace the `Page_Load` method of the `VisualWebPart1` class with the following code. This code performs the following tasks:
 
@@ -111,13 +119,13 @@ Add code that enables the user to add calendars to the master calendar view.
 
    - Specifies a template for each type of item that appears in the calendar view.
 
-     [!code-vb[SP_VisualWebPart#3](../sharepoint/codesnippet/VisualBasic/sp_visualwebpart.vb/visualwebpart1/visualwebpart1usercontrol.ascx.vb#3)]
-     [!code-csharp[SP_VisualWebPart#3](../sharepoint/codesnippet/CSharp/sp_visualwebpart.cs/visualwebpart1/visualwebpart1usercontrol.ascx.cs#3)]
+     :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/sp_visualwebpart.vb/visualwebpart1/visualwebpart1usercontrol.ascx.vb" id="Snippet3":::
+     :::code language="csharp" source="../sharepoint/codesnippet/CSharp/sp_visualwebpart.cs/visualwebpart1/visualwebpart1usercontrol.ascx.cs" id="Snippet3":::
 
 5. Replace the `Button1_Click` method of the `VisualWebPart1` class with the following code. This code adds items from each selected calendar to the master calendar view.
 
-     [!code-vb[SP_VisualWebPart#4](../sharepoint/codesnippet/VisualBasic/sp_visualwebpart.vb/visualwebpart1/visualwebpart1usercontrol.ascx.vb#4)]
-     [!code-csharp[SP_VisualWebPart#4](../sharepoint/codesnippet/CSharp/sp_visualwebpart.cs/visualwebpart1/visualwebpart1usercontrol.ascx.cs#4)]
+     :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/sp_visualwebpart.vb/visualwebpart1/visualwebpart1usercontrol.ascx.vb" id="Snippet4":::
+     :::code language="csharp" source="../sharepoint/codesnippet/CSharp/sp_visualwebpart.cs/visualwebpart1/visualwebpart1usercontrol.ascx.cs" id="Snippet4":::
 
 ## Test the web part
 

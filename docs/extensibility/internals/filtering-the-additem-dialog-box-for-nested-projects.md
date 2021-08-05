@@ -1,16 +1,18 @@
 ---
-title: "Filtering the AddItem Dialog Box for Nested Projects | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Filtering the AddItem Dialog Box for Nested Projects | Microsoft Docs
+description: Learn how to filter the AddItem dialog box for a nested project in Visual Studio by implementing the IVsFilterAddProjectItemDlg interface of the parent project.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "filtering, nested projects"
-  - "nested projects, AddItem dialog box filtering"
+- filtering, nested projects
+- nested projects, AddItem dialog box filtering
 ms.assetid: 5b3e352e-7f18-4f66-be16-b0ad55637ce5
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Filter the AddItem dialog box for nested projects
 When you display an **AddItem** dialog box for a nested project, the parent project can control what items are displayed in the dialog box.

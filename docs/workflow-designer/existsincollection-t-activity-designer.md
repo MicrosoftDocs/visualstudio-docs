@@ -1,13 +1,15 @@
 ---
-title: "Workflow Designer - ExistsInCollection&lt;T&gt; Activity Designer"
+title: ExistsInCollection&lt;T&gt; Activity Designer
+description: Learn how you can use the ExistsInCollection <T> activity designer in Workflow Designer to create and configure an ExistsInCollection <T> activity.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
   - "System.Activities.Statements.ExistsInCollection`1.UI"
 ms.assetid: 0acf9a13-caf5-4bb4-ba22-ec37d2b7267a
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

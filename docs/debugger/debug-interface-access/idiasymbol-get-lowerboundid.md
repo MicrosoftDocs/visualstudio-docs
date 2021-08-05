@@ -1,7 +1,8 @@
 ---
+description: "Retrieves the symbol identifier of the lower bound of a FORTRAN array dimension."
 title: "IDiaSymbol::get_lowerBoundId | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 12ce98e9-a225-4947-88c9-5fda39dd67e4
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

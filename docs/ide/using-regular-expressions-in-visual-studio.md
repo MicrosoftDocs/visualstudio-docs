@@ -1,21 +1,23 @@
 ---
 title: Use regular expressions
+description: Learn about some regular expression characters, operators, constructs, and pattern examples that you can use in Visual Studio.
+ms.custom: SEO-VS-2020
 ms.date: 09/13/2019
 ms.topic: conceptual
 f1_keywords:
-  - "vsregularexpressionhelp"
-  - "vs.regularexpressionhelp"
-  - "vs.wildcardsbuilder"
-  - "vs.netregularexpressionhelp"
-  - "vs.wildcards"
+- vsregularexpressionhelp
+- vs.regularexpressionhelp
+- vs.wildcardsbuilder
+- vs.netregularexpressionhelp
+- vs.wildcards
 helpviewer_keywords:
-  - "regular expressions [Visual Studio]"
-  - "regular expressions"
-author: jillre
-ms.author: jillfra
-manager: jillfra
+- regular expressions [Visual Studio]
+- regular expressions
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Use regular expressions in Visual Studio
 
@@ -52,7 +54,7 @@ The following table contains some regular expression characters, operators, cons
 |Match any [whitespace character](/dotnet/standard/base-types/character-classes-in-regular-expressions#whitespace-character-s)|\s|`Public\sInterface` matches the phrase "Public Interface"|
 |Match any [decimal digit character](/dotnet/standard/base-types/character-classes-in-regular-expressions#decimal-digit-character-d)|\d|`\d` matches "4" and "0" in "wd40"|
 
-An example regular expression that combines some of the operators and constructs to match a hexadecimal number is `\b0[xX]([0-9a-fA-F]+\)\b`. This expression matches "0xc67f" but not "0xc67g".
+An example regular expression that combines some of the operators and constructs to match a hexadecimal number is `\b0[xX]([0-9a-fA-F]+)\b`. This expression matches "0xc67f" but not "0xc67g".
 
 > [!TIP]
 > In Windows operating systems, most lines end in "\r\n" (a carriage return followed by a new line). These characters aren't visible but are present in the editor and passed to the .NET regular expression service.

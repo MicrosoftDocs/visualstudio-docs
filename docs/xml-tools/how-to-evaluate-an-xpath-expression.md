@@ -1,13 +1,15 @@
 ---
 title: Evaluate an XPath expression while debugging
 ms.date: 03/05/2019
-ms.topic: conceptual
+description: Learn how to evaluate XPath expressions by using the QuickWatch window during debugging.
+ms.custom: SEO-VS-2020
+ms.topic: how-to
 ms.assetid: 159ba4ef-75e4-4ac8-80dc-e064e0bec345
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Evaluate XPath expressions
 

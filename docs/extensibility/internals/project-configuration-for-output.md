@@ -1,15 +1,17 @@
 ---
-title: "Project Configuration for Output | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Project Configuration for Output | Microsoft Docs
+description: Learn about the build processes that every configuration can support and the interfaces and methods by which output items can be made available.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: reference
 helpviewer_keywords:
-  - "project configurations, output"
+- project configurations, output
 ms.assetid: a4517f73-45af-4745-9d7f-9fddf887b636
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Project Configuration for Output
 Every configuration can support a set of build processes that produce output items such as executable or resource files. These output items are private to the user and can be placed in groups that link related types of output such as executable files (.exe, .dll, .lib) and source files (.idl, .h files).

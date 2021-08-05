@@ -1,7 +1,8 @@
 ---
+description: "Retrieves a specified number of line numbers in the enumeration sequence."
 title: "IDiaEnumLineNumbers::Next | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 363d5b40-1316-4ab8-836f-63637f619e0a
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

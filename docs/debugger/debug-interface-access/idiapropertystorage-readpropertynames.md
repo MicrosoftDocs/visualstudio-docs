@@ -1,7 +1,8 @@
 ---
+description: "Retrieves corresponding string names for given property identifiers."
 title: "IDiaPropertyStorage::ReadPropertyNames | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: f8bcab77-afca-4a8f-8710-697842f8a518
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

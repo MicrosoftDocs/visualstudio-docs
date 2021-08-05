@@ -1,7 +1,8 @@
 ---
+description: "Retrieves the number of valid address ranges associated with the local symbol."
 title: "IDiaSymbol::get_countLiveRanges | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 55f79e1a-d4c2-42cd-ab37-d8253b20e34c
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

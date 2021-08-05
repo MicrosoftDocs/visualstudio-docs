@@ -1,7 +1,7 @@
 ---
 title: "Debug a parallel application | Microsoft Docs"
 description: Debug using the Parallel Tasks and Parallel Stacks windows in Visual Studio
-ms.date: "03/22/2018"
+ms.date: "02/14/2020"
 ms.topic: "conceptual"
 dev_langs:
   - "CSharp"
@@ -19,7 +19,7 @@ helpviewer_keywords:
 ms.assetid: 2820ac4c-c893-4d87-8c62-83981d561493
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---
@@ -58,33 +58,47 @@ This walkthrough shows how to use the **Parallel Tasks** and **Parallel Stacks**
 
 1. Open Visual Studio and create a new project.
 
-    ::: moniker range=">=vs-2019"
-    Press **Esc** to close the start window. Type **Ctrl + Q** to open the search box, type **console** (or **c++**), choose **Templates**, and then:
+   ::: moniker range=">=vs-2019"
 
-    - For C# or Visual Basic, choose **Create new Console App (.NET Framework) project** for either C# or Visual Basic. In the dialog box that appears, choose **Create**.
-    - For C++, choose **Create new Console App project** for C++. In the dialog box that appears, choose **Create**.
+   If the start window is not open, choose **File** > **Start Window**.
 
-    Then, type a name or use the default name and click **Create**.
-    ::: moniker-end
-    ::: moniker range="vs-2017"
-    From the top menu bar, choose **File** > **New** > **Project**. In the left pane of the **New project** dialog box, choose the following:
+   On the start window, choose **Create a new project**.
 
-    - For a C# app, under **Visual C#**, choose **Windows Desktop**, and then in the middle pane choose **Console App (.NET Framework)**.
-    - For a Visual Basic app, under **Visual Basic**, choose **Windows Desktop**, and then in the middle pane choose **Console App (.NET Framework)**.
-    - For a C++ app, under **Visual C++**, choose **Windows Desktop**,, and then choose **Windows Console Application**.
+   On the **Create a new project** window, enter or type *console* in the search box. Next, choose **C#**, **C++**, or **Visual Basic** from the Language list, and then choose **Windows** from the Platform list.
 
-    Then, type a name or use the default name and click **OK**.
-    ::: moniker-end
+   After you apply the language and platform filters, choose the **Console App** for .NET Core or C++, and then choose **Next**.
 
-    If you don't see the **Console App** project template, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **.NET desktop development** or **Desktop development with C++** workload, then choose **Modify**.
+   > [!NOTE]
+   > If you don't see the correct template, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **.NET Core cross-platform development** or **Desktop development with C++** workload, then choose **Modify**.
+
+   In the **Configure your new project** window, type a name or use the default name in the **Project name** box. Then, choose **Next** or **Create**, whichever option is available.
+
+   For .NET Core, choose either the recommended target framework (.NET Core 3.1) or .NET 5, and then choose **Create**.
+
+   ::: moniker-end
+   ::: moniker range="vs-2017"
+   From the top menu bar, choose **File** > **New** > **Project**. In the left pane of the **New project** dialog box, choose the following:
+
+   - For a C# app, under **Visual C#**, choose **Windows Desktop**, and then in the middle pane choose **Console App (.NET Framework)**.
+   - For a Visual Basic app, under **Visual Basic**, choose **Windows Desktop**, and then in the middle pane choose **Console App (.NET Framework)**.
+   - For a C++ app, under **Visual C++**, choose **Windows Desktop**,, and then choose **Windows Console Application**.
+
+   If you don't see the **Console App (.NET Core)** or, for C++, the **Console App** project template, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **.NET desktop development** or **Desktop development with C++** workload, then choose **Modify**.
+
+   Then, type a name or use the default name and click **OK**.
+
+   Select **OK**.
+   ::: moniker-end
+
+   A new console project appears. After the project has been created, a source file appears.
 
 1. Open the .cpp, .cs, or .vb code file in the project. Delete its contents to create an empty code file.
 
 1. Paste the following code for your chosen language into the empty code file.
 
-   [!code-csharp[Debugger#1](../debugger/codesnippet/CSharp/walkthrough-debugging-a-parallel-application_1.cs)]
-   [!code-cpp[Debugger#1](../debugger/codesnippet/CPP/walkthrough-debugging-a-parallel-application_1.cpp)]
-   [!code-vb[Debugger#1](../debugger/codesnippet/VisualBasic/walkthrough-debugging-a-parallel-application_1.vb)]
+   :::code language="csharp" source="../snippets/csharp/VS_Snippets_Misc/debugger/cs/s.cs" id="Snippet1":::
+   :::code language="cpp" source="../snippets/cpp/VS_Snippets_Misc/debugger/cpp/beta2_native.cpp" id="Snippet1":::
+   :::code language="vb" source="../snippets/visualbasic/VS_Snippets_Misc/debugger/vb/module1.vb" id="Snippet1":::
 
 1. On the **File** menu, click **Save All**.
 
@@ -214,9 +228,9 @@ This walkthrough shows how to use the **Parallel Tasks** and **Parallel Stacks**
 
 2. On the **Debug** menu, point to **Windows** and then click **Threads**. Dock the **Threads** window at the bottom of Visual Studio.
 
-3. On the **Debug** menu, point to **Windows** and click **Call Stack**. Dock the **Call Stack** window at the bottom Visual Studio.
+3. On the **Debug** menu, point to **Windows** and click **Call Stack**. Dock the **Call Stack** window at the bottom of Visual Studio.
 
-4. Double-click a thread in the **Threads** window to makes it current. Current threads have the yellow arrow. When you change the current thread, the other windows are updated. Next, we will examine tasks.
+4. Double-click a thread in the **Threads** window to make it current. Current threads have the yellow arrow. When you change the current thread, the other windows are updated. Next, we will examine tasks.
 
 5. On the **Debug** menu, point to **Windows**, and then click **Tasks**. The following illustration shows the **Tasks** window.
 
@@ -234,7 +248,7 @@ This walkthrough shows how to use the **Parallel Tasks** and **Parallel Stacks**
 
 1. To resume execution until the second breakpoint is hit, on the **Debug** menu, click **Continue**.
 
-     Previously, the **Status** column showed all tasks as Active, but now two of the tasks are Blocked. Tasks can be blocked for many different reasons. In the **Status** column, hover over a waiting task to learn why it is blocked. For example, in the following illustration, task 3 is waiting on task 4.
+     Previously, the **Status** column showed all tasks as Active, but now two of the tasks are Blocked. Tasks can be blocked for [many different reasons](/dotnet/standard/parallel-programming/potential-pitfalls-in-data-and-task-parallelism). In the **Status** column, hover over a waiting task to learn why it is blocked. For example, in the following illustration, task 3 is waiting on task 4.
 
      ![Two waiting tasks in Tasks window](../debugger/media/pdb_walkthrough_7.png "PDB_Walkthrough_7")
 

@@ -1,7 +1,8 @@
 ---
+description: "Initiates access to a source of debugging symbols."
 title: "IDiaDataSource | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 6260ac76-4f9d-4144-ba22-32f8620b32c2
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

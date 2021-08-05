@@ -1,10 +1,12 @@
 ---
 title: Multiple DSLs in One Solution
+description: Learn how you can package several domain-specific languages (DSLs) as part of a single solution so that they are installed together.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
-author: jillre
-ms.author: jillfra
-manager: jillfra
+ms.topic: how-to
+author: mgoertz-msft
+ms.author: mgoertz
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

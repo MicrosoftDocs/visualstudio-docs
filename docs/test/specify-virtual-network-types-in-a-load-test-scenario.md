@@ -1,17 +1,19 @@
 ---
-title: Specifying Virtual Network Types in a Load Test Scenario
+title: Specify virtual network types (load testing)
+description: Learn how to use a network mix to create a closer approximation of how end-users interact with your applications.
+ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
-ms.topic: conceptual
-helpviewer_keywords:
-  - "load tests, scenarios"
-  - "load tests, adding networks"
-  - "load tests, removing networks"
-  - "load tests, virtual networks"
-  - "network mix"
+ms.topic: how-to
+helpviewer_keywords: 
+  - load tests, scenarios
+  - load tests, adding networks
+  - load tests, removing networks
+  - load tests, virtual networks
+  - network mix
 ms.assetid: 3c4f7874-081a-4ec4-9510-4d6d7d863a11
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
 ---
 # Specify virtual network types in a load test scenario
 

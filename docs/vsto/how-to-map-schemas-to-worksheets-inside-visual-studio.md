@@ -1,9 +1,10 @@
 ---
 title: "How to: Map schemas to worksheets inside Visual Studio"
+description: Learn how you can map an XML schema to a Microsoft Office Excel worksheet while the worksheet is open in Visual Studio. 
 titleSuffix: ""
-ms.custom: "seodec18"
+ms.custom: "seodec18, SEO-VS-2020"
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: "how-to"
 dev_langs:
   - "VB"
   - "CSharp"
@@ -14,7 +15,7 @@ helpviewer_keywords:
   - "worksheets [Office development in Visual Studio], XML schemas"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

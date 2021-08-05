@@ -1,5 +1,7 @@
 ---
-title: "&lt;trustInfo&gt; Element (ClickOnce Application) | Microsoft Docs"
+title: "&lt;trustInfo&gt; element (ClickOnce application) | Microsoft Docs"
+description: The trustInfo element describes the minimum security permissions required for the application to run on the client computer. The trustInfo element is required.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 f1_keywords:
@@ -19,7 +21,7 @@ helpviewer_keywords:
 ms.assetid: 8a813a74-e158-4308-be78-565937f6af83
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

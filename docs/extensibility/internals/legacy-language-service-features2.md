@@ -1,17 +1,19 @@
 ---
-title: "Legacy Language Service Features2 | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Legacy Language Service Features2 | Microsoft Docs
+description: Learn about some of the legacy language service features you can provide by using Managed Extensibility Framework (MEF) extensions in the Visual Studio SDK.
+ms.custom: SEO-VS-2020 
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "editors [Visual Studio SDK], code development aides"
+- editors [Visual Studio SDK], code development aides
 ms.assetid: 97c38622-ae0b-4ae0-90ed-604072c298d3
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
-# Legacy Language Service Features
+# Legacy language service features 2
 The following topics list some of the legacy language service features you can provide.
 
  Legacy language services are implemented as part of a VSPackage, but the newer way to implement language service features is to use MEF extensions. To find out more about the new way to implement a language service, see [Editor and Language Service Extensions](../../extensibility/editor-and-language-service-extensions.md).

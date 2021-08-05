@@ -1,12 +1,14 @@
 ---
-title: "Extend Coded UI Tests and Action Recordings"
+title: Extend Coded UI Tests and Action Recordings
+description: Learn how to create an extension to the coded UI test framework for your specific UI by taking advantage of the extensibility of the coded UI test framework.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
-ms.author: jillfra
-manager: jillfra
-ms.workload:
-  - "multiple"
-author: jillre
+ms.topic: how-to
+ms.author: mikejo
+manager: jmartens
+ms.workload: 
+  - multiple
+author: mikejo5000
 ---
 # Extend coded UI tests and action recordings
 
@@ -18,7 +20,7 @@ The testing framework for coded UI tests and action recordings does not support 
 
 ## Sample extension to test Microsoft Excel
 
-This [blog post](https://blogs.msdn.microsoft.com/gautamg/2010/01/05/3-introducing-sample-excel-extension/) contains a link to a [sample extension](https://msdnshared.blob.core.windows.net/media/MSDNBlogsFS/prod.evol.blogs.msdn.com/CommunityServer.Components.PostAttachments/00/09/94/38/24/ExcelPluginSample.zip) for the coded UI test framework. You can also view the entire [blog post series for coded UI test extensibility](https://blogs.msdn.microsoft.com/gautamg/2010/01/05/series-on-coded-ui-test-extensibility/).
+This [blog post](/archive/blogs/gautamg/3-introducing-sample-excel-extension) contains a link to a [sample extension](https://msdnshared.blob.core.windows.net/media/MSDNBlogsFS/prod.evol.blogs.msdn.com/CommunityServer.Components.PostAttachments/00/09/94/38/24/ExcelPluginSample.zip) for the coded UI test framework. You can also view the entire [blog post series for coded UI test extensibility](/archive/blogs/gautamg/series-on-coded-ui-test-extensibility).
 
 > [!NOTE]
 > The sample is intended for use with Microsoft Excel 2010. It may or may not work with other versions of Excel.

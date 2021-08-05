@@ -1,12 +1,12 @@
 ---
-title: Manage package dependencies with a requirements.txt file
+title: Manage package dependencies with requirements.txt
 description: A requirements.txt file describes a project's dependencies. If you receive a project that contains a requirements.txt file, you can easily install those dependencies in one step.
 ms.date: 03/18/2019
-ms.topic: conceptual
+ms.topic: how-to
 author: JoshuaPartlow
 ms.author: joshuapa
-manager: jillfra
-ms.custom: seodec18
+manager: jmartens
+ms.custom: "seodec18, SEO-VS-2020"
 ms.workload:
   - python
   - data-science

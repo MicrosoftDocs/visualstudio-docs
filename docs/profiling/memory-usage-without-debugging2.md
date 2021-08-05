@@ -1,38 +1,39 @@
 ---
-title: "Analyze memory usage without debugging | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/15/2018"
-ms.topic: "conceptual"
-dev_langs:
-  - "CSharp"
-  - "VB"
-  - "FSharp"
-  - "C++"
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
-ms.workload:
-  - "multiple"
+title: Analyze memory usage in the Performance Profiler
+description: Learn how to use the Memory Usage tool without the debugger in the Visual Studio Performance Profiler to monitor your app's memory use.
+ms.custom: 
+ms.date: 04/02/2020
+ms.topic: how-to
+dev_langs: 
+  - CSharp
+  - VB
+  - FSharp
+  - C++
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.workload: 
+  - multiple
 ---
-# Analyze memory usage without the debugger
+# Analyze memory usage without debugging in the Performance Profiler
 
-The **Memory Usage** tool monitors your app's memory use. You can use the tool to study the real-time memory effects of scenarios you're actively developing in Visual Studio. You can take detailed snapshots of the app's memory states, and compare snapshots to find the root causes of memory issues.
+The **Memory Usage** tool monitors your app's memory use. You can use the tool to study the real-time memory effects of scenarios you're actively developing in Visual Studio. You can take detailed snapshots of the app's memory states, and compare snapshots to find the root causes of memory issues. The Memory Usage tool is supported on .NET, ASP.NET, C++, or mixed mode (.NET and native) apps.
 
-The **Memory Usage** tool can run with or without the debugger. The following instructions show how to use the **Memory Usage** tool without the debugger in the Visual Studio **Performance Profiler**.
-
->[!NOTE]
->- To measure memory usage for a .NET Core app, you must use the **Memory Usage** tool with the debugger. For instructions, see [Profile memory usage in Visual Studio](memory-usage.md).
->- To analyze memory use in JavaScript or HTML UWP apps, use the [JavaScript Memory](../profiling/javascript-memory.md) tool in **Performance Profiler**.
+The Memory Usage tool can run [with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md). In this article, we show how to use the Memory Usage tool without the debugger in the Visual Studio **Performance Profiler**, which is recommended for release builds.
 
 ## Memory Usage diagnostic sessions
 
 **To start a Memory Usage diagnostic session:**
 
-1. Open a C# Universal Windows (UWP) project in Visual Studio.
+1. Open a project in Visual Studio.
+
+   The Memory Usage tool supports .NET, ASP.NET, C++, or mixed mode (.NET and native) apps.
+
+1. In the Debug menu, set the solution configuration to **Release** and select **Local Windows Debugger** (or **Local Machine**) as the deployment target.
 
 1. On the menu bar, choose  **Debug** > **Performance Profiler**.
 
-1. Select **Memory Usage**, and then select **Start**.
+1. Under **Available Tools**, select **Memory Usage**, and then select **Start**.
 
    ![Start a Memory Usage diagnostic session](../profiling/media/memuse_start_diagnosticssession.png "Start a Memory Usage diagnostic session")
 
@@ -40,7 +41,7 @@ The **Memory Usage** tool can run with or without the debugger. The following in
 
 When you start a diagnostic session, your app starts, and the **Diagnostic Tools** window displays a timeline graph of your app's memory use.
 
-![Memory Usage overview page](../profiling/media/memuse__reportoverview.png "MEMUSE__ReportOverview")
+![Screenshot of the Diagnostic Tools window in the Visual Studio Performance Profiler showing a timeline graph of the app's memory use.](../profiling/media/memuse__reportoverview.png "MEMUSE__ReportOverview")
 
 The timeline graph shows memory fluctuations as the app runs. Spikes in the graph usually indicate that some code is collecting or creating data, and then discarding it when the processing is done. Large spikes indicate areas that you might be able to optimize. Of more concern is a rise in memory consumption that's not returned, because it may indicate inefficient memory use or even a memory leak.
 
@@ -60,7 +61,7 @@ To stop a monitoring session without creating a report, just close the diagnosti
 
 After you stop data collection, the **Memory Usage** tool stops the app and displays the **Memory Usage** overview page.
 
-![Memory Usage overview page](../profiling/media/memuse__reportoverview1.png "Memory Usage overview page")
+![Screenshot of the overview page in the Memory Usage tool in the Visual Studio Performance Profiler, showing a memory usage graph and two snapshot panes.](../profiling/media/memuse__reportoverview1.png "Memory Usage overview page")
 
 ### <a name="BKMK_Memory_Usage_snapshot_views"></a> Memory Usage snapshots
 
@@ -70,7 +71,7 @@ The numbers are links that open detailed **Memory Usage** report views in new Vi
 
   ![Snapshot view links](../profiling/media/memuse__snapshotview_numbered.png "Snapshot view links")
 
-|||
+|Image|Description|
 |-|-|
 |![Step 1](../profiling/media/procguid_1.png "ProcGuid_1")|The total number of bytes in memory when the snapshot was taken.<br /><br /> Select this link to display a snapshot details report sorted by the total size of the type instances.|
 |![Step 2](../profiling/media/procguid_2.png "ProcGuid_2")|The total number of objects in memory when the snapshot was taken.<br /><br /> Select this link to display a snapshot details report sorted by the count of instances of the types.|
@@ -87,13 +88,13 @@ In a snapshot report, you can expand **Object Type** entries to display child en
 
 If an **Object Type** is blue, you can select it to navigate to the object in the source code, in a separate window.
 
-Types that you can't identify or whose involvement in your code you don't understand are probably .NET Framework, operating system, or compiler objects. The **Memory Usage** tool displays these objects if they're involved in the ownership chains of your objects.
+Types that you can't identify or whose involvement in your code you don't understand are probably .NET, operating system, or compiler objects. The **Memory Usage** tool displays these objects if they're involved in the ownership chains of your objects.
 
 In the snapshot report:
 
 - The **Managed Heap** tree shows the types and instances in the report. Selecting a type or instance displays the **Paths to Root** and **Referenced Objects** trees for the selected item.
 
-- The **Paths to Root** tree shows the chain of objects that reference a type or instance. The .NET Framework garbage collector cleans up the memory for an object only when all references to it have been released.
+- The **Paths to Root** tree shows the chain of objects that reference a type or instance. The .NET garbage collector cleans up the memory for an object only when all references to it have been released.
 
 - The **Referenced Types** or **Referenced Objects** tree shows the objects that the selected type or instance references.
 
@@ -124,7 +125,7 @@ Both links open the same report. The only difference is the starting sort order 
 
 The **Managed Heap** tree in a snapshot details report has the following columns:
 
-|||
+|Name|Description|
 |-|-|
 |**Object Type**|The name of the type or object instance.|
 |**Count**|The number of object instances of the type. **Count**  is always 1 for an instance.|
@@ -133,7 +134,7 @@ The **Managed Heap** tree in a snapshot details report has the following columns
 |**Module**|The module that contains the object.|
 
 ### <a name="BKMK_Paths_to_Root_tree__Snapshot_details_"></a> Paths to Root tree (Snapshot details reports)
-The **Paths to Root tree** shows the chain of objects that reference a type or instance. The .NET Framework garbage collector cleans up the memory for an object only when all references to it have been released.
+The **Paths to Root tree** shows the chain of objects that reference a type or instance. The .NET garbage collector cleans up the memory for an object only when all references to it have been released.
 
 For a type in the **Paths to Root** tree, the number of objects that hold references to that type appears in the **Reference Count** column.
 
@@ -146,7 +147,7 @@ The **Referenced Types** or **Referenced Objects** tree shows the objects that t
 
 A **Referenced Types** tree in a snapshot details report has the following columns. A **Referenced Objects** tree does not have the **Reference Count** column.
 
-|||
+|Name|Description|
 |-|-|
 |**Object Type** or **Instance**|The name of the type or instance.|
 |**Reference Count**|For types, the number of object instances of the type.|
@@ -170,7 +171,7 @@ Both links open the same report. The only difference is the starting sort order 
 
 The **Managed Heap** tree in a snapshot diff report has the following columns:
 
-|||
+|Name|Description|
 |-|-|
 |**Object Type**|The name of the type or object instance.|
 |**Count**|The number of instances of a type in the primary snapshot. **Count** is always 1 for an instance.|
@@ -183,7 +184,7 @@ The **Managed Heap** tree in a snapshot diff report has the following columns:
 
 ### <a name="BKMK_Paths_to_Root_tree__Snapshot_diff_"></a> Paths to Root tree (Snapshot diff reports)
 
-The **Paths to Root tree** shows the chain of objects that reference a type or instance. The .NET Framework garbage collector cleans up the memory for an object only when all references to it have been released.
+The **Paths to Root tree** shows the chain of objects that reference a type or instance. The .NET garbage collector cleans up the memory for an object only when all references to it have been released.
 
 For a type in the **Paths to Root** tree, the number of objects that hold references to that type appears in the **Reference Count** column. The difference in count from the previous snapshot is in the **Reference Diff** column.
 
@@ -197,7 +198,7 @@ The **Referenced Types** or **Referenced Objects** tree shows the objects that t
 
 A **Referenced Types** tree in a snapshot diff report has the following columns. A **Referenced Objects** tree has the **Instance**, **Size (Bytes)**, **Inclusive Size (Bytes)**, and **Module** columns.
 
-|||
+|Name|Description|
 |-|-|
 |**Object Type** or **Instance**|The name of the type or object instance.|
 |**Reference Count**|The number of instances of a type in the primary snapshot.|
@@ -213,4 +214,4 @@ A **Referenced Types** tree in a snapshot diff report has the following columns.
 - [Profiling in Visual Studio](../profiling/index.yml)
 - [First look at profiling tools](../profiling/profiling-feature-tour.md)
 - [Performance best practices for UWP apps using C++, C#, and Visual Basic](/previous-versions/windows/apps/hh750313\(v\=win.10\))
-- [Diagnosing memory issues with the new Memory Usage tool in Visual Studio](http://go.microsoft.com/fwlink/p/?LinkId=394706)
+- [Diagnosing memory issues with the new Memory Usage tool in Visual Studio](https://devblogs.microsoft.com/devops/diagnosing-memory-issues-with-the-new-memory-usage-tool-in-visual-studio/)

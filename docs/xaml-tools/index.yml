@@ -9,8 +9,8 @@ metadata:
   ms.prod: visual-studio-windows
   ms.technology: vs-ide-designers
   ms.topic: landing-page
-  author: gewarren
-  ms.author: gewarren
+  author: jillre
+  ms.author: jillfra
   ms.date: 10/10/2019
 
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
@@ -36,6 +36,10 @@ landingContent:
             url: designing-xaml-in-visual-studio.md
           - text: About XAML Designer
             url: creating-a-ui-by-using-xaml-designer-in-visual-studio.md
+          - text: XAML Design Time Data
+            url: xaml-designtime-data.md
+          - text: XAML Design Time Sample Data
+            url: xaml-design-time-sample-data.md
 
   # Card
   - title: Debug XAML
@@ -44,12 +48,14 @@ landingContent:
         links:
           - text: Write and debug running XAML code
             url: xaml-hot-reload.md
-          - text: Debug XAML in Blend
-            url: debug-xaml-in-blend.md
+          - text: Inspect XAML properties
+            url: inspect-xaml-properties-while-debugging.md
           - text: Debug WPF apps
-            url: ../debugger/debugging-wpf.md?toc=/visualstudio/debugger/toc.json&bc=/visualstudio/debugger/breadcrumb/toc.json
+            url: ../debugger/debugging-wpf.md
           - text: Debug UWP apps
             url: ../debugger/debugging-windows-store-and-windows-universal-apps.md
+          - text: Debug XAML in Blend
+            url: debug-xaml-in-blend.md
 
   # Card
   - title: Develop WPF apps
@@ -57,7 +63,7 @@ landingContent:
       - linkListType: overview
         links:
           - text: WPF overview
-            url: ../designers/introduction-to-wpf.md
+            url: /dotnet/desktop/wpf/introduction-to-wpf
       - linkListType: get-started
         links:
           - text: Get started with WPF in Visual Studio

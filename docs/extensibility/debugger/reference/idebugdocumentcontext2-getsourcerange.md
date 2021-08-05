@@ -1,20 +1,21 @@
 ---
-title: "IDebugDocumentContext2::GetSourceRange | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Gets the source code range of this document context."
+title: IDebugDocumentContext2::GetSourceRange | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugDocumentContext2::GetSourceRange"
+- IDebugDocumentContext2::GetSourceRange
 helpviewer_keywords:
-  - "IDebugDocumentContext2::GetSourceRange"
+- IDebugDocumentContext2::GetSourceRange
 ms.assetid: 5903c75e-5390-4d13-9314-1ee276255313
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugDocumentContext2::GetSourceRange
 Gets the source code range of this document context.

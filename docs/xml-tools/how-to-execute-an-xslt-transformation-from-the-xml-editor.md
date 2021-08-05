@@ -1,13 +1,15 @@
 ---
 title: Execute an XSLT transformation
+description: Learn how to use the XML editor to associate an XSLT style sheet with an XML document, perform an XSLT transformation, and view the output.
+ms.custom: SEO-VS-2020
 ms.date: 03/05/2019
-ms.topic: conceptual
+ms.topic: how-to
 ms.assetid: 56a0fe82-5231-487d-8b6e-a08a9b04e0fc
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Execute an XSLT transformation from the XML editor
 

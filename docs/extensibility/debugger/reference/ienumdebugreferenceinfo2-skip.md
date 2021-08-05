@@ -1,20 +1,21 @@
 ---
-title: "IEnumDebugReferenceInfo2::Skip | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Skips over the specified number of DEBUG_REFERENCE_INFO elements."
+title: IEnumDebugReferenceInfo2::Skip | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IEnumDebugReferenceInfo2::Skip"
+- IEnumDebugReferenceInfo2::Skip
 helpviewer_keywords:
-  - "IEnumDebugReferenceInfo2::Skip"
+- IEnumDebugReferenceInfo2::Skip
 ms.assetid: 12f07ed8-92bd-47b5-9113-f73fec5bdde6
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IEnumDebugReferenceInfo2::Skip
 Skips over the specified number of elements.

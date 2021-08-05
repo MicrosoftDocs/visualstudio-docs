@@ -1,13 +1,16 @@
 ---
-title: "How to: Migrate Extensibility Projects to Visual Studio 2017 | Microsoft Docs"
-ms.date: "11/09/2016"
-ms.topic: "conceptual"
+title: Migrate Extensibility Projects to Visual Studio 2017
+titleSuffix: ""
+description: Learn how to upgrade extensibility projects to Visual Studio 2017 and how to upgrade from extension manifest version 2 to the version 3 VSIX manifest.
+ms.custom: SEO-VS-2020
+ms.date: 11/09/2016
+ms.topic: how-to
 ms.assetid: 8ca07b00-a3ff-40ab-b647-c0a93b55e86a
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 monikerRange: vs-2017
 ---
 # How to: Migrate extensibility projects to Visual Studio 2017
@@ -173,7 +176,7 @@ Debugger | Just-In-Time debugger | Microsoft.VisualStudio.Component.Debugger.Jus
 
 ## Find component IDs
 
-The list of components sorted by Visual Studio product is at [Visual Studio 2017 workload and component IDs](https://aka.ms/vs2017componentIDs). Use these component IDs for your prerequisite IDs in your manifest.
+The list of components sorted by Visual Studio product is at [Visual Studio 2017 workload and component IDs](../install/workload-and-component-ids.md?view=vs-2019&preserve-view=true). Use these component IDs for your prerequisite IDs in your manifest.
 
 If you are unsure which component contains a specific binary, download the [Component -> Binary mapping spreadsheet](https://aka.ms/vs2017componentid-binaries).
 

@@ -1,7 +1,8 @@
 ---
+description: "Use the DIA SDK to access the Microsoft debug information."
 title: "Overview (Debug Interface Access SDK) | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -18,7 +19,7 @@ helpviewer_keywords:
 ms.assetid: 720b4479-a8bc-4fec-860e-80c1a0780405
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

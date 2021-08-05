@@ -1,7 +1,9 @@
 ---
 title: "CompilandDetails | Microsoft Docs"
+description: Find reference information about the CompilandDetails symbol type (SymTagCompilandDetails) in the Visual Studio debug interface access SDK.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,12 +11,12 @@ helpviewer_keywords:
 ms.assetid: ddc7d794-c622-4c63-b2a6-72f8b2d0022a
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---
 # CompilandDetails
-Compiland information is split between symbols with a `SymTagCompiland` tag (low detail) and a `SymTagCompilandDetails` tag (high detail). `SymTagCompilandDetails` requires loading additional symbols. However, it provides a wealth of information about the compiland that is not available with a `SymTagCompiland` symbol.
+Compiland information is split between symbols with a `SymTagCompiland` tag (low detail) and a `SymTagCompilandDetails` tag (high detail). `SymTagCompilandDetails` provides a wealth of information about the compiland that is not available with a `SymTagCompiland` symbol.
 
 ## Properties
  The following table shows the properties that are valid for this symbol type.

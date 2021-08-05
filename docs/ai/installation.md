@@ -2,9 +2,10 @@
 title: Install AI Tools
 description: Describes how to install AI Tools for Visual Studio
 keywords: ai, visual studio
-author: lisawong19
-ms.author: liwong
-manager: routlaw
+author: jillre
+ms.author: jillfra
+manager: jmartens
+monikerRange: vs-2017
 ms.date: 11/13/2017
 ms.topic: "conceptual"
 ms.workload:
@@ -18,7 +19,7 @@ Visual Studio Tools for AI can be installed on Windows 64-bit operating systems.
 
 This extension works with Visual Studio 2015 and Visual Studio 2017, Community edition or higher.
 
-You can download the tools from the [Visual Studio Marketplace](https://aka.ms/vstoolsforai), or from within Visual Studio:
+You can download the tools from the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.vstoolsai-vs2017), or from within Visual Studio:
 
 1. Select **Tools** > **Extensions and Updates**.
 
@@ -27,10 +28,9 @@ You can download the tools from the [Visual Studio Marketplace](https://aka.ms/v
 2. In the **Extensions and Updates** dialog box, select **Online** on the left-hand side.
 3. In the search box in the upper right-hand corner, type or enter "tools for ai".
 4. Select **Visual Studio Tools for AI** from the results.
-5. Click **Download**.
+5. Select **Download**.
 
 ## Prepare your local machine
-
 Before training deep learning models on your local computer, make sure you have the applicable prerequisites installed. This includes making sure you have the latest drivers and libraries for your NVIDIA GPU (if you have one). Also ensure you've installed Python and Python libraries such as NumPy, SciPy, and appropriate deep learning frameworks such as Microsoft Cognitive Toolkit (CNTK), TensorFlow, Caffe2, MXNet, Keras, Theano, PyTorch, and Chainer, that you plan to use in your project.
 
 > [!NOTE]
@@ -131,7 +131,7 @@ The [Microsoft Cognitive Toolkit](https://cntk.ai) is a unified deep-learning to
 > [!NOTE]
 > CNTK currently does not support macOS.
 
-To install CNTK Python package, see [how to install CNTK](https://docs.microsoft.com/cognitive-toolkit/Setup-CNTK-on-your-machine).
+To install CNTK Python package, see [how to install CNTK](/cognitive-toolkit/Setup-CNTK-on-your-machine).
 
 ### TensorFlow
 

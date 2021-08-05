@@ -1,18 +1,21 @@
 ---
-title: "Walkthrough: Creating an Inline Task | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: 'Walkthrough: Creating an Inline Task | Microsoft Docs'
+description: Walk through creating an MSBuild task inline in the project file, without having to create a separate assembly to host the task.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "MSBuild, tutorial"
-  - "MSBuild, tasks"
+- MSBuild, tutorial
+- MSBuild, tasks
 ms.assetid: 438194cb-668c-41a9-a7e2-c118d14c1ea7
-author: mikejo5000
-ms.author: mikejo
-manager: jillfra
+author: ghogen
+ms.author: ghogen
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Walkthrough: Create an inline task
+
 MSBuild tasks are typically created by compiling a class that implements the <xref:Microsoft.Build.Framework.ITask> interface. Starting with the .NET Framework version 4, you can create tasks inline in the project file. You do not have to create a separate assembly to host the task. For more information, see [Inline tasks](../msbuild/msbuild-inline-tasks.md).
 
  This walkthrough shows how to create and run these inline tasks:
@@ -34,13 +37,12 @@ To create and run the tasks, use Visual Studio and the **Visual Studio Command P
 3. Use the **Command Prompt Window** to build the project and examine the results.
 
 ## Create and modify an MSBuild project
+
  The Visual Studio project system is based on MSBuild. Therefore, you can create a build project file by using Visual Studio. In this section, you create a Visual C# project file. (You can create a Visual Basic project file instead. In the context of this tutorial, the difference between the two project files is minor.)
 
 #### To create and modify a project file
 
-1. In Visual Studio, on the **File** menu, click **New** and then click **Project**.
-
-2. In the **New Project** dialog box, select the **Visual C#** project type, and then select the **Windows Forms Application** template. In the **Name** box, type `InlineTasks`. Type a **Location** for the solution, for example, *D:\\*. Ensure that **Create directory for solution** is selected, **Add to Source Control** is cleared, and **Solution Name** is **InlineTasks**.
+1. In Visual Studio, create a new project using the C# **Windows Forms Application** template. In the **Name** box, type `InlineTasks`. Type a **Location** for the solution, for example, *D:\\*. Ensure that **Create directory for solution** is selected, **Add to Source Control** is cleared, and **Solution Name** is **InlineTasks**.
 
 3. Click **OK** to create the project file.
 
@@ -51,6 +53,7 @@ To create and run the tasks, use Visual Studio and the **Visual Studio Command P
      The project file appears in the code editor.
 
 ## Add a basic Hello task
+
  Now, add to the project file a basic task that displays the message "Hello, world!" Also add a default TestBuild target to invoke the task.
 
 #### To add a basic Hello task
@@ -68,7 +71,7 @@ To create and run the tasks, use Visual Studio and the **Visual Studio Command P
      <ParameterGroup />
      <Task>
        <Code Type="Fragment" Language="cs">
-         Log.LogMessage("Hello, world!", MessageImportance.High);
+         Log.LogMessage(MessageImportance.High, "Hello, world!");
        </Code>
      </Task>
    </UsingTask>
@@ -82,6 +85,7 @@ To create and run the tasks, use Visual Studio and the **Visual Studio Command P
    This code creates an inline task that is named Hello and has no parameters, references, or `Using` directives. The Hello task contains just one line of code, which displays a hello message on the default logging device, typically the console window.
 
 ### Run the Hello task
+
  Run MSBuild by using the **Command Prompt Window** to construct the Hello task and to process the TestBuild target that invokes it.
 
 ##### To run the Hello task
@@ -102,6 +106,7 @@ To create and run the tasks, use Visual Studio and the **Visual Studio Command P
    By alternating between the code editor and the **Command Prompt Window**, you can change the project file and quickly see the results.
 
 ## Define the Echo task
+
  Create an inline task that accepts a string parameter and displays the string on the default logging device.
 
 #### To define the Echo task
@@ -115,7 +120,7 @@ To create and run the tasks, use Visual Studio and the **Visual Studio Command P
      </ParameterGroup>
      <Task>
        <Code Type="Fragment" Language="cs">
-         Log.LogMessage(Text, MessageImportance.High);
+         Log.LogMessage(MessageImportance.High, Text);
        </Code>
      </Task>
    </UsingTask>
@@ -133,6 +138,7 @@ To create and run the tasks, use Visual Studio and the **Visual Studio Command P
    This code defines an inline task that is named Echo and has just one required input parameter Text. By default, parameters are of type System.String. The value of the Text parameter is set when the TestBuild target invokes the Echo task.
 
 ## Define the Adder task
+
  Create an inline task that adds two integer parameters and emits their sum as an MSBuild property.
 
 #### To define the Adder task
@@ -169,6 +175,7 @@ To create and run the tasks, use Visual Studio and the **Visual Studio Command P
    This code defines an inline task that is named Adder and has two required integer input parameters, A and B, and one integer output parameter, C. The Adder task adds the two input parameters and returns the sum in the output parameter. The sum is emitted as the MSBuild property `Sum`. The values of the input parameters are set when the TestBuild target invokes the Adder task.
 
 ## Define the RegX task
+
  Create an inline task that accepts an item group and a regular expression, and returns a list of all items that have file content that matches the expression.
 
 #### To define the RegX task
@@ -238,19 +245,23 @@ To create and run the tasks, use Visual Studio and the **Visual Studio Command P
   The value of the input parameters are set when the TestBuild target invokes the RegX task. The RegX task reads every file and returns the list of files that match the regular expression. This list is returned as the `Result` output parameter, which is emitted as the MSBuild item `MatchedFiles`.
 
 ### Handle reserved characters
+
  The MSBuild parser processes inline tasks as XML. Characters that have reserved meaning in XML, for example, "\<" and ">", are detected and handled as if they were XML, and not .NET source code. To include the reserved characters in code expressions such as `Files.Length > 0`, write the `Code` element so that its contents are contained in a CDATA expression, as follows:
 
  ```xml
 <Code Type="Fragment" Language="cs">
   <![CDATA[
 
-  // Your code goes here.
-
+  if (Files.Length > 0)
+  {
+      // Your code goes here.
+  }
   ]]>
 </Code>
 ```
 
 ## See also
+
 - [Inline tasks](../msbuild/msbuild-inline-tasks.md)
 - [Tasks](../msbuild/msbuild-tasks.md)
 - [Targets](../msbuild/msbuild-targets.md)

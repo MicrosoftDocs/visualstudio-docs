@@ -1,15 +1,17 @@
 ---
-title: "Configuring Test Iterations for load testing"
+title: Configuring Test Iterations for load testing
+description: Learn how to configure test iteration settings, to configure the maximum number of iterations in the scenario, and how long to pause between them.
+ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
-ms.topic: conceptual
-helpviewer_keywords:
-  - "load tests, scenarios, iterations"
-  - "load test, iterations"
-  - "load tests, scenarios"
+ms.topic: how-to
+helpviewer_keywords: 
+  - load tests, scenarios, iterations
+  - load test, iterations
+  - load tests, scenarios
 ms.assetid: ac480fb7-f4f7-47dc-9ae5-98be3aca4fba
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
 ---
 # Configure test iterations in a load test scenario
 

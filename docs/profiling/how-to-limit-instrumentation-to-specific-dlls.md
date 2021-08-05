@@ -1,14 +1,17 @@
 ---
-title: "How to: Limit Instrumentation to Specific DLLs | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-helpviewer_keywords:
-  - "performance tools, runtime profiling control window"
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
-ms.workload:
-  - "multiple"
+title: Limit Instrumentation to Specific DLLs | Microsoft Docs
+description: Learn how to use the instrumentation profiling method to limit the collection of profiling data to one or more DLLs in an application.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
+helpviewer_keywords: 
+  - performance tools, runtime profiling control window
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+monikerRange: 'vs-2017'
+ms.workload: 
+  - multiple
 ---
 # How to: Limit instrumentation to specific DLLs
 

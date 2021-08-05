@@ -1,7 +1,8 @@
 ---
+description: "IDiaFrameData::get_lengthLocals retrieves the number of bytes of local variables pushed on the stack."
 title: "IDiaFrameData::get_lengthLocals | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 51fe15c3-4cd6-4a06-8a41-a56502209762
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

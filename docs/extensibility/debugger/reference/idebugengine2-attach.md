@@ -1,20 +1,21 @@
 ---
-title: "IDebugEngine2::Attach | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Attaches a debug engine (DE) to a program or programs."
+title: IDebugEngine2::Attach | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugEngine2::Attach"
+- IDebugEngine2::Attach
 helpviewer_keywords:
-  - "IDebugEngine2::Attach"
+- IDebugEngine2::Attach
 ms.assetid: 173dcbda-5019-4c5e-bca9-a071838b5739
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugEngine2::Attach
 Attaches a debug engine (DE) to a program or programs. Called by the session debug manager (SDM) when the DE is running in-process to the SDM.

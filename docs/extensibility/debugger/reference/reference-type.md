@@ -1,20 +1,21 @@
 ---
-title: "REFERENCE_TYPE | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Specifies the reference type."
+title: REFERENCE_TYPE | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "REFERENCE_TYPE"
+- REFERENCE_TYPE
 helpviewer_keywords:
-  - "REFERENCE_TYPE enumeration"
+- REFERENCE_TYPE enumeration
 ms.assetid: b1ffba10-eb9d-48ba-bf48-6d8b71d6f270
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # REFERENCE_TYPE
 Specifies the reference type.

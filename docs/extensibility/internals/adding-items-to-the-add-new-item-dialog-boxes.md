@@ -1,15 +1,17 @@
 ---
-title: "Adding Items to the Add New Item Dialog Boxes | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Adding Items to the Add New Item Dialog Boxes | Microsoft Docs
+description: Learn how to add items to the Add New Item dialog box in Visual Studio, so that you can display templates and project elements for use in your projects.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
 helpviewer_keywords:
-  - "Add New Item dialog box, adding items"
+- Add New Item dialog box, adding items
 ms.assetid: 2f70863b-425b-4e65-86b4-d6a898e29dc7
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Add items to the Add New Item dialog box
 The process for adding items to the **Add New Item** dialog box starts with the registry keys. As shown in the following registry entries, the **AddItemTemplates** section contains the path and name of the directory in which items made available in the **Add New Item** dialog box are put.

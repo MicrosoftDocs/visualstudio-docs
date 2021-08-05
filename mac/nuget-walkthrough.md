@@ -3,7 +3,7 @@ title: "Including a NuGet package in your project"
 description: This document covers how to include a NuGet package in a project using Visual Studio for Mac. It walks through finding and downloading a package, as well as introducing the IDE integration features.
 author: jmatthiesen
 ms.author: jomatthi
-ms.date: 09/18/2019
+ms.date: 11/09/2020
 ms.assetid: 5C800815-0B13-4B27-B017-95FCEF1A0EA2
 ms.custom: conceptual
 ---
@@ -18,11 +18,11 @@ For an intro to using NuGet in Visual Studio for Mac, see [Quickstart: Install a
 
 ## Find and Install a Package
 
-1. With a project open in Visual Studio for Mac, right-click on the **Dependencies** folder (**Packages** folder if using a Xamarin project) in the **Solution Pad** and select **Manage NuGet Packages...**.
+1. With a project open in Visual Studio for Mac, right-click on the **Dependencies** folder (**Packages** folder if using a Xamarin project) in the **Solution Window** and select **Manage NuGet Packages...**.
 
     ![Add new NuGet package context action](media/nuget-walkthrough-packages-menu.png)
 
-2. This launches the **Manage NuGet Packages** window. Ensure that the Source drop-down in the top left corner of the dialog is set to `nuget.org`.
+2. This launches the **Manage NuGet Packages** window. Ensure that the Source drop-down in the top left corner of the dialog is set to `nuget.org`, so that you're searching the central NuGet package repository.
 
     ![List NuGet Packages](media/nuget-walkthrough-add-packages1.png)
 
@@ -58,7 +58,7 @@ Package updates can be done either all at once, by right-clicking on the **Depen
 
 Right-click on **Dependencies** to access the context menu and choose **Update** to update all packages:
 
-![Packages menu](media/nuget-walkthrough-packages-menu-update.png)
+![Dependencies context menu with the Update menu highlighted](media/nuget-walkthrough-packages-menu-update.png)
 
 * **Manage NuGet Packages** - Opens the window to add more packages to the project.
 * **Update** - Checks the source server for each package and downloads any newer versions.
@@ -66,7 +66,21 @@ Right-click on **Dependencies** to access the context menu and choose **Update**
 
 Update and Restore options are also available at the Solution level, and affect all the projects in the solution.
 
-From the solution pad, you can view what version of a package is currently installed and right-click on the package to update.
+### Updating to pre-release versions of packages
+To update to a newer pre-release version of a package, you can right-click on **Dependencies** to open the context menu and choose the **Manage NuGet Packages...** menu.
+
+![Dependencies context menu with Manage NuGet Packages... menu highlighted](media/nuget-walkthrough-packages-menu-manage-nuget-packages.png)
+
+Check the **Show pre-release packages** checkbox at the bottom of the dialog.
+
+![Manage NuGet Packages dialog opened with the 'Show pre-release packages' option checked](media/nuget-walkthrough-show-pre-release-packages.png)
+
+Finally, from the **Updates** tab of the dialog, select the package you wish to update and choose the new pre-release version from the **New Version** drop-down and click **Update Package**.
+
+![Manage NuGet Packages dialog opened to the Installed tab, with a package selected and the New Version dropdown list open.](media/nuget-walkthrough-packages-nuget-dialog-update-installed-package.png)
+
+### Locating outdated packages
+From the Solution Window, you can view what version of a package is currently installed and right-click on the package to update.
 
 ![Packages menu with the options to Update, Remove, Refresh](media/nuget-walkthrough-PackageMenu.png)
 
@@ -79,6 +93,32 @@ In the menu shown, you have two options:
 * **Update** - Checks the source server and downloads a newer version (if it exists).
 * **Remove** - Removes the package from this project and removes the relevant assemblies from the project's References.
 
+## Manage packages for the solution
+
+Managing packages for a solution is a convenient means to work with multiple projects simultaneously.
+
+1. Right-click the solution and select **Manage NuGet Packages...**:
+
+    ![Manage NuGet packages for the solution](media/nuget-walkthrough-manage-packages-solution.png)
+
+1. When managing packages for the solution, the UI lets you select the projects that are affected by the operations:
+
+    ![Project selector when managing packages for the solution](media/nuget-walkthrough-add-to-projects.png)
+
+### Consolidate tab
+
+When working in a solution with multiple projects, it's considered a best practice to make sure that anywhere you use the same NuGet package in each project, you're also using the same version number of that package. Visual Studio for Mac helps make this easier by providing a **Consolidate** tab in the Package Manager UI when you choose to manage packages for a solution. Using this tab, you can easily see where packages with distinct version numbers are used by different projects in the solution:
+
+![Package Manager UI Consolidate tab](media/nuget-walkthrough-consolidate-tab.png)
+
+In this example, the NuGetDemo project is using Microsoft.EntityFrameworkCore 2.20, whereas NuGetDemo.Shared is using Microsoft.EntityFrameworkCore 2.2.6. To consolidate package versions, do the following:
+
+- Select the projects to update in the project list.
+- Select the version to use in all those projects in the **New Version** list, such as Microsoft.EntityFrameworkCore 3.0.0.
+- Select the **Consolidate Package** button.
+
+The Package Manager installs the selected package version into all selected projects, after which the package no longer appears on the **Consolidate** tab.
+
 ## Adding Package Sources
 
 Packages available for installation are initially retrieved from nuget.org. However, you can add other package locations to Visual Studio for Mac. This can be useful for testing your own NuGet packages under development, or to use a private NuGet server inside your company or organization.
@@ -89,11 +129,11 @@ In Visual Studio for Mac, navigate to **Visual Studio > Preferences > NuGet > So
 
 Click **Add** to set-up a new source. Enter a friendly name and the URL (or file path) to the package source. If the source is a secure web server, enter the username and password as well, otherwise leave these entries blank:
 
-![Add Package Sources](media/nuget-walkthrough-PackageSource2.png)
+![Add Package Source dialog with a prompt for Name, location URL, user name, and password.](media/nuget-walkthrough-PackageSource2.png)
 
 Different sources can then be selected when searching for packages:
 
-![Add Package Sources](media/nuget-walkthrough-PackageSource3.png)
+![Add Package Source dialog showing a drop down with a list of package sources.](media/nuget-walkthrough-PackageSource3.png)
 
 ## Version Control
 

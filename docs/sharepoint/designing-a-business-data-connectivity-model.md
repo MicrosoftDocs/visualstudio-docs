@@ -1,5 +1,7 @@
 ---
 title: "Designing a Business Data Connectivity Model | Microsoft Docs"
+description: Design a business data connectivity (BDC) model. Add entities and methods. Define method parameters. Add filter descriptors. Validate the BDC model.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -10,7 +12,7 @@ helpviewer_keywords:
   - "Business Data Connectivity service [SharePoint development in Visual Studio], designing a model"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---
@@ -43,10 +45,10 @@ ms.workload:
 
  When you run the project, method instances appear in a drop-down list above the SharePoint list. Users can choose method instances to view the data.
 
- To add default values to the method instance, you have to modify the XML of the model directly. For more information, see [DefaultValue](http://go.microsoft.com/fwlink/?LinkID=169279).
+ To add default values to the method instance, you have to modify the XML of the model directly. For more information, see [DefaultValue](/previous-versions/office/developer/sharepoint-2010/ee559319(v=office.14)).
 
 ## Add filter descriptors
- Consumers of the model might want to retrieve instances of an entity that match some criteria. To enable this functionality, you can add a filter descriptor to a method. Filter descriptors enable model consumers to filter method result sets by passing values to methods before they execute. For more information, see [How to: Add Filter Parameters to Operations to Limit Instances from the External System](http://go.microsoft.com/fwlink/?LinkID=169267).
+ Consumers of the model might want to retrieve instances of an entity that match some criteria. To enable this functionality, you can add a filter descriptor to a method. Filter descriptors enable model consumers to filter method result sets by passing values to methods before they execute. For more information, see [How to: Add Filter Parameters to Operations to Limit Instances from the External System](/previous-versions/office/developer/sharepoint-2010/ee554889(v=office.14)).
 
  SharePoint provides several features that enable users to provide filter values. For example, Business Data Web Parts provide a filter text box. Users can limit the data in a list by entering a value in the text box. For more information about how to add a filter descriptor to a method, see [How to: Add a filter descriptor to a Finder method](../sharepoint/how-to-add-a-filter-descriptor-to-a-finder-method.md).
 
@@ -55,19 +57,19 @@ ms.workload:
 
  The **Associated Type Descriptor** property relates the filter descriptor to an input parameter. When a user provides a filter value, the BDC service passes that value into the method by using the input parameter.
 
- The **Type** property describes the filtering pattern that you want to use. In SharePoint, the filtering pattern you select affects the text that appears in the User Interface (UI). For example, for a Comparator filtering pattern, the text **is equal to** appears as a control above a Business Data Web Part. For more information about each filtering pattern, see [Types of Filters Supported by the BDC](http://go.microsoft.com/fwlink/?LinkId=169287).
+ The **Type** property describes the filtering pattern that you want to use. In SharePoint, the filtering pattern you select affects the text that appears in the User Interface (UI). For example, for a Comparator filtering pattern, the text **is equal to** appears as a control above a Business Data Web Part. For more information about each filtering pattern, see [Types of Filters Supported by the BDC](/previous-versions/office/developer/sharepoint-2010/ee556392(v=office.14)).
 
- For more information about the properties of a filter descriptor, see [FilterDescriptor](http://go.microsoft.com/fwlink/?LinkID=169280).
+ For more information about the properties of a filter descriptor, see [FilterDescriptor](/previous-versions/office/developer/sharepoint-2010/ee557835(v=office.14)).
 
 ### Provide default values
- In some cases, the user might not provide a filter value. You can provide a default value by adding a default value to the method instance, or by setting the default value in the code of your method. For more information about how to add a default value to the method instance, see [MethodInstance](http://go.microsoft.com/fwlink/?LinkID=169282). For an example of how to set the default value of an input parameter in the code of your method, see [How to: Add a filter descriptor to a Finder method](../sharepoint/how-to-add-a-filter-descriptor-to-a-finder-method.md).
+ In some cases, the user might not provide a filter value. You can provide a default value by adding a default value to the method instance, or by setting the default value in the code of your method. For more information about how to add a default value to the method instance, see [MethodInstance](/previous-versions/office/developer/sharepoint-2010/ee556838(v=office.14)). For an example of how to set the default value of an input parameter in the code of your method, see [How to: Add a filter descriptor to a Finder method](../sharepoint/how-to-add-a-filter-descriptor-to-a-finder-method.md).
 
 ## Validate the model
  You can validate your model during development. Visual Studio identifies issues that can prevent your model from behaving as expected. These issues appear in the Visual Studio **Error List**.
 
  You can validate a model by opening the shortcut menu for the BDC Designer and then choosing **Validate**. If the model contains any errors, they appear in the **Error List**. You can quickly move the cursor to the code that contains an error by double-clicking the error in the list. As an alternative, you can choose the **F8** or **Shift**+**F8** keys repeatedly to step forward or backward through the errors in the list.
 
- Validation errors can occur when the rules of the model are violated in some way. For example, if the **IsCollection** property of a type descriptor is set to **true**, but no child type descriptors exist, a validation error will appear. You might have to refer to the rules of a BDC model to understand some errors that appear in the Visual Studio **Error List**. For more information about the rules of a BDC model, see [BDCMetadata Schema](http://go.microsoft.com/fwlink/?LinkID=169275).
+ Validation errors can occur when the rules of the model are violated in some way. For example, if the **IsCollection** property of a type descriptor is set to **true**, but no child type descriptors exist, a validation error will appear. You might have to refer to the rules of a BDC model to understand some errors that appear in the Visual Studio **Error List**. For more information about the rules of a BDC model, see [BDCMetadata Schema](/previous-versions/office/developer/sharepoint-2010/ee556387(v=office.14)).
 
 ## Debug the solution that contains the model
  You can debug your code as you would debug any code in Visual Studio. To debug your code, set breakpoints anywhere in your code and then start the debugger. Visual Studio opens the SharePoint site. In SharePoint, create a list or Web Part that uses your business data. Then, you can step through your code. For more information about debugging SharePoint projects, see [Troubleshoot SharePoint solutions](../sharepoint/troubleshooting-sharepoint-solutions.md).
@@ -85,12 +87,12 @@ ms.workload:
 |To create lists and Web Parts by using external content types (entities) in your model.|Selectable in Clients|
 |To create, read, update, and delete entity data.|Execute|
 
- For more information about these settings, see [Business Data Connectivity service management](http://go.microsoft.com/fwlink/?LinkID=178883).
+ For more information about these settings, see [Business Data Connectivity service management](/previous-versions/office/sharepoint-server-2010/ee661742(v=office.14)).
 
- You can also set security permissions for individual models or external content types. For more information about how to set the security permissions of a model, see [BDC model management](http://go.microsoft.com/fwlink/?LinkID=178884). For more information about how to set the security permissions of an external content type, see [External content type management](http://go.microsoft.com/fwlink/?LinkID=178885).
+ You can also set security permissions for individual models or external content types. For more information about how to set the security permissions of a model, see [BDC model management](/previous-versions/office/sharepoint-server-2010/ee524073(v=office.14)). For more information about how to set the security permissions of an external content type, see [External content type management](/previous-versions/office/sharepoint-server-2010/ee524076(v=office.14)).
 
 > [!NOTE]
-> Use these settings to debug a solution on your local SharePoint Server. For more information about how to configure BDC-related security settings on production SharePoint server, see [Business Data Connectivity Services security overview](http://go.microsoft.com/fwlink/?LinkID=178886).
+> Use these settings to debug a solution on your local SharePoint Server. For more information about how to configure BDC-related security settings on production SharePoint server, see [Business Data Connectivity Services security overview](/previous-versions/office/sharepoint-server-2010/ee661743(v=office.14)).
 
 ### Retract models that become corrupt
  The first time that you start the debugger, Visual Studio deploys the entire model to SharePoint. For each time thereafter, Visual Studio updates the model in SharePoint with any changes that you make between deployments.
@@ -101,7 +103,7 @@ ms.workload:
  If you change the name of an identifier after you deploy the model, you might receive a deployment error. You cannot resolve this error by setting the **Incremental Update** property of the model to **False**. You must retract the model manually, and then deploy the solution again. For more information, see [Troubleshoot SharePoint solutions](../sharepoint/troubleshooting-sharepoint-solutions.md). You can avoid this error by setting the **Incremental Update** property to **False** before you initially deploy the model.
 
 ## Locate documentation for BDC model elements
- Visual Studio adds an XML element to the model for each entity, method, or other item that you create. Element attributes appear as properties in the **Properties** window. For information about the elements and attributes that Visual Studio generates as you design the model, see [BDCMetadata Schema](http://go.microsoft.com/fwlink/?LinkID=169275).
+ Visual Studio adds an XML element to the model for each entity, method, or other item that you create. Element attributes appear as properties in the **Properties** window. For information about the elements and attributes that Visual Studio generates as you design the model, see [BDCMetadata Schema](/previous-versions/office/developer/sharepoint-2010/ee556387(v=office.14)).
 
 ## Related topics
 

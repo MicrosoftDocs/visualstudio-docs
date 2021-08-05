@@ -1,7 +1,8 @@
 ---
-title: "Error: The web server is not configured correctly | Microsoft Docs"
+description: "After taking steps detailed here to resolve the issue, and before trying again to debug, you may also need to reset IIS."
+title: "The web server is not configured correctly | Microsoft Docs"
 ms.date: "09/20/2017"
-ms.topic: "troubleshooting"
+ms.topic: "error-reference"
 f1_keywords:
   - "vs.debug.remote.projnotconfigured"
 dev_langs:
@@ -13,7 +14,7 @@ helpviewer_keywords:
   - "debugger, Web application errors"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

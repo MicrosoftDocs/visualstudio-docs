@@ -1,21 +1,23 @@
 ---
-title: "How to: Disable URL Activation of ClickOnce Applications | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-helpviewer_keywords:
-  - "disallowUrlActivation"
-  - "URL activation, ClickOnce applications"
-  - "ClickOnce deployment, URL activation"
+title: Disable URL Activation of ClickOnce apps
+description: Learn how to disable automatic start on install for your ClickOnce application, in case you want users to start the application from the Start menu.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
+dev_langs: 
+  - VB
+  - CSharp
+  - C++
+helpviewer_keywords: 
+  - disallowUrlActivation
+  - URL activation, ClickOnce applications
+  - ClickOnce deployment, URL activation
 ms.assetid: db31a16b-960f-4264-91d7-c7c40f876068
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
-ms.workload:
-  - "multiple"
+manager: jmartens
+ms.workload: 
+  - multiple
 ---
 # How to: Disable URL activation of ClickOnce applications
 

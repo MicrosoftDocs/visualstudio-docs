@@ -1,12 +1,14 @@
 ---
 title: Guidelines for Writing T4 Text Templates
+description: Learn the general guidelines that are helpful if you are generating program code or other application resources in Visual Studio.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: mgoertz-msft
+ms.author: mgoertz
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Guidelines for Writing T4 Text Templates
 

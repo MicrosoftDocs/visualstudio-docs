@@ -1,17 +1,19 @@
 ---
-title: "Localizing VSIX Packages | Microsoft Docs"
-ms.date: "10/26/2017"
-ms.topic: "conceptual"
+title: Localizing VSIX Packages | Microsoft Docs
+description: Learn how to localize a VSIX package by creating an Extension.vsixlangpack file for each target language and then putting them in the correct folder.
+ms.custom: SEO-VS-2020
+ms.date: 10/26/2017
+ms.topic: conceptual
 helpviewer_keywords:
-  - "localize package"
-  - "localize extension"
-  - "localized deployment"
+- localize package
+- localize extension
+- localized deployment
 ms.assetid: 10e80b13-b39e-466c-a7c8-774a862355af
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Localizing VSIX Packages
 
@@ -97,6 +99,6 @@ The following example shows relevant portions of an *Extension.vsixmanifest* fil
 
 |Title|Description|
 |-----------|-----------------|
-|[VSIX Language Pack schema 2.0 reference](/visualstudio/extensibility/vsix-language-pack-schema-2-0-reference)|A VSIX language pack describes the localization information of a .vsix deployment file.|
+|[VSIX Language Pack schema 2.0 reference](vsix-language-pack-schema-2-0-reference.md)|A VSIX language pack describes the localization information of a .vsix deployment file.|
 |[Anatomy of a VSIX package](../extensibility/anatomy-of-a-vsix-package.md)|Describes the structure and contents of a vsix package.|
 |[Localize menu commands](../extensibility/localizing-menu-commands.md)|Shows how to localize other text resources in an extension.|

@@ -1,13 +1,15 @@
 ---
-title: "Creating Custom Project and Item Templates | Microsoft Docs"
-ms.date: "3/16/2019"
-ms.topic: "conceptual"
+title: Creating Custom Project and Item Templates | Microsoft Docs
+description: Learn how template creation templates in the Visual Studio SDK let you include templates in larger extensions.
+ms.custom: SEO-VS-2020
+ms.date: 3/16/2019
+ms.topic: overview
 ms.assetid: 586da5dc-f678-402b-afd0-0332959fd7a6
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Create custom project and item templates
 
@@ -68,7 +70,7 @@ For basic template creation scenarios, you should use the **Export Template** wi
 
 2. Set the VSIX project as the startup project. In the **Solution Explorer**, select the VSIX project node, right-click, and select **Set as Startup Project**.
 
-3. Set the project template project as an asset of the VSIX project. Open the *.vsixmanifest* file. Go to the **Assets** tab and click **New**.
+3. Set the project template project as an asset of the VSIX project. Open the *.vsixmanifest* file. Go to the **Assets** tab and select **New**.
 
     1. Set the **Type** field to **Microsoft.VisualStudio.ProjectTemplate** or **Microsoft.VisualStudio.ItemTemplate**.
 
@@ -76,7 +78,7 @@ For basic template creation scenarios, you should use the **Export Template** wi
 
 4. Build the solution, and press **F5**. The experimental instance appears.
 
-5. For a project template project, you should see your project template listed in the **New Project** dialog (**File** > **New** > **Project**), in the Visual C# or Visual Basic node. For an item template project, you should see your item template listed in the **Add New Item** dialog. To view the **Add New Item** dialog, from the **Solution Explorer**, select the project node and click **Add** > **New Item**).
+5. For a project template project, you should see your project template listed in the **New Project** dialog (**File** > **New** > **Project**), in the Visual C# or Visual Basic node. For an item template project, you should see your item template listed in the **Add New Item** dialog. To view the **Add New Item** dialog, from the **Solution Explorer**, select the project node and select **Add** > **New Item**).
 
 ## See also
 

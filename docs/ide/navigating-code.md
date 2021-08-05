@@ -1,23 +1,25 @@
 ---
 title: Code navigation commands
-ms.date: 08/14/2018
+description: Learn about the different options you have to navigate around in your code in the editor.
+ms.custom: SEO-VS-2020
+ms.date: 11/21/2019
 ms.topic: conceptual
 helpviewer_keywords:
-  - "code editor, navigation"
-  - "code editor, go to"
-  - "code editor, go to definition"
-  - "code editor, go to line"
-  - "code editor, peek definition"
-  - "code editor, navigation bar"
-  - "go to definition"
-  - "peek definition"
-  - "go to line"
-  - "go to"
-author: jillre
-ms.author: jillfra
-manager: jillfra
+- code editor, navigation
+- code editor, go to
+- code editor, go to definition
+- code editor, go to line
+- code editor, peek definition
+- code editor, navigation bar
+- go to definition
+- peek definition
+- go to line
+- go to
+author: TerryGLee
+ms.author: tglee
+manager: tglee
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Navigate code
 
@@ -118,6 +120,15 @@ Input | Function
 ------------ | ---
 **Keyboard** | Place your text cursor somewhere inside the type name, and press **Ctrl**+**F12**
 **Mouse** | Right-click on the type name and select **Go To Implementation**
+
+## Go To Base
+
+Using Go To Base, you can navigate up the inheritance chain of the selected element. If there are multiple results, you will see them listed in the **Go To Base** window:
+
+Input | Function
+------------ | ---
+**Keyboard** | Place your text cursor somewhere inside the type name, and press **Alt**+**Home**
+**Mouse** | Right-click on the type name and select **Go To Base**
 
 ## Call Hierarchy
 

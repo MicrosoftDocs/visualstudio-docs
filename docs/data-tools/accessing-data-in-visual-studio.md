@@ -1,27 +1,32 @@
 ---
-title: Data access and tools
+title: Work with data in Visual Studio
+description: Work with data in Visual Studio. Create apps that connect to data in other database products or services over local machines, LANs, or public or private clouds.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
-f1_keywords:
- - "80025080"
 helpviewer_keywords:
- - "data [Visual Studio]"
- - "data access [Visual Studio]"
- - "data [C#]"
- - "ADO.NET, data access"
-author: jillre
-ms.author: jillfra
-manager: jillfra
+- data [Visual Studio]
+- data access [Visual Studio]
+- data [C#]
+- ADO.NET, data access
+author: ghogen
+ms.author: ghogen
+manager: jmartens
 ms.workload:
- - "data-storage"
+- data-storage
 ---
-# Access data in Visual Studio
+# Work with data in Visual Studio
 
 In Visual Studio, you can create applications that connect to data in virtually any database product or service, in any format, anywhere—on a local machine, on a local area network, or in a public, private, or hybrid cloud.
 
 For applications in JavaScript, Python, PHP, Ruby, or C++, you connect to data like you do anything else, by obtaining libraries and writing code. For .NET applications, Visual Studio provides tools that you can use to explore data sources, create object models to store and manipulate data in memory, and bind data to the user interface. Microsoft Azure provides SDKs for .NET, Java, Node.js, PHP, Python, Ruby, and mobile apps, and tools in Visual Studio for connecting to Azure Storage.
 
+::: moniker range="vs-2017"
 The following lists show just a few of the many database and storage systems that can be used from Visual Studio. The [Microsoft Azure](https://azure.microsoft.com/) offerings are data services that include all provisioning and administration of the underlying data store. The **Azure development** workload in [Visual Studio 2017](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download) enables you to work with Azure data stores directly from Visual Studio.
+::: moniker-end
+::: moniker range=">=vs-2019"
+The following lists show just a few of the many database and storage systems that can be used from Visual Studio. The [Microsoft Azure](https://azure.microsoft.com/) offerings are data services that include all provisioning and administration of the underlying data store. The **Azure development** workload in [Visual Studio 2019](https://visualstudio.microsoft.com/downloads) enables you to work with Azure data stores directly from Visual Studio.
+::: moniker-end
 
 ![Azure development workload](media/azure-development-workload.png)
 
@@ -80,7 +85,7 @@ All .NET data access, including in .NET Core, is based on ADO.NET, a set of clas
 
 For data-access documentation related to ASP.NET, see [Working with Data](https://www.asp.net/web-forms/overview/presenting-and-managing-data) on the ASP.NET site. For a tutorial on using Entity Framework with ASP.NET MVC, see [Getting Started with Entity Framework 6 Code First using MVC 5](/aspnet/mvc/overview/getting-started/getting-started-with-ef-using-mvc/creating-an-entity-framework-data-model-for-an-asp-net-mvc-application).
 
-Universal Windows Platform (UWP) apps in C# or Visual Basic can use the Microsoft Azure SDK for .NET to access Azure Storage and other Azure services. The Windows.Web.HttpClient class enables communication with any RESTful service. For more information, see [How to connect to an HTTP server using Windows.Web.Http](https://msdn.microsoft.com/library/windows/apps/dn469430.aspx).
+Universal Windows Platform (UWP) apps in C# or Visual Basic can use the Microsoft Azure SDK for .NET to access Azure Storage and other Azure services. The Windows.Web.HttpClient class enables communication with any RESTful service. For more information, see [How to connect to an HTTP server using Windows.Web.Http](/previous-versions/windows/apps/dn469430(v=win.10)).
 
 For data storage on the local machine, the recommended approach is to use SQLite, which runs in the same process as the app. If an object-relational mapping (ORM) layer is required, you can use Entity Framework. For more information, see [Data access](/windows/uwp/data-access/index) in the Windows Developer Center.
 
@@ -88,7 +93,7 @@ If you are connecting to Azure services, be sure to download the latest [Azure S
 
 ### Data providers
 
-For a database to be consumable in ADO.NET, it must have a custom *ADO.NET data provider* or else must expose an ODBC or OLE DB interface. Microsoft provides a [list of ADO.NET data providers](https://docs.microsoft.com/dotnet/framework/data/adonet/ado-net-overview) for SQL Server products, as well as ODBC and OLE DB providers.
+For a database to be consumable in ADO.NET, it must have a custom *ADO.NET data provider* or else must expose an ODBC or OLE DB interface. Microsoft provides a [list of ADO.NET data providers](/dotnet/framework/data/adonet/ado-net-overview) for SQL Server products, as well as ODBC and OLE DB providers.
 
 ### Data modeling
 
@@ -107,7 +112,7 @@ There is no requirement to use any of these technologies. In some scenarios, esp
 
 ## Native C++
 
-C++ applications that connect to SQL Server should use the [Microsoft® ODBC Driver 13.1 for SQL Server](https://www.microsoft.com/download/details.aspx?id=53339) in most cases. If the servers are linked, then OLE DB is necessary and for that you use the [SQL Server Native Client](/sql/relational-databases/native-client/sql-server-native-client). You can access other databases by using [ODBC](https://docs.microsoft.com/sql/odbc/microsoft-open-database-connectivity-odbc?view=sql-server-2017) or OLE DB drivers directly. ODBC is the current standard database interface, but most database systems provide custom functionality that can't be accessed through the ODBC interface. OLE DB is a legacy COM data-access technology that is still supported but not recommended for new applications. For more information, see [Data Access in Visual C++](/cpp/data/data-access-in-cpp).
+C++ applications that connect to SQL Server should use the [Microsoft® ODBC Driver 13.1 for SQL Server](https://www.microsoft.com/download/details.aspx?id=53339) in most cases. If the servers are linked, then OLE DB is necessary and for that you use the [SQL Server Native Client](/sql/relational-databases/native-client/sql-server-native-client). You can access other databases by using [ODBC](/sql/odbc/microsoft-open-database-connectivity-odbc?view=sql-server-2017&preserve-view=true) or OLE DB drivers directly. ODBC is the current standard database interface, but most database systems provide custom functionality that can't be accessed through the ODBC interface. OLE DB is a legacy COM data-access technology that is still supported but not recommended for new applications. For more information, see [Data Access in Visual C++](/cpp/data/data-access-in-cpp).
 
 C++ programs that consume REST services can use the [C++ REST SDK](https://github.com/Microsoft/cpprestsdk).
 
@@ -141,7 +146,7 @@ Install [Python support in Visual Studio](../python/overview-of-python-tools-for
 
 [ADO.NET](/dotnet/framework/data/adonet/index)&mdash;Describes the ADO.NET architecture and how to use the ADO.NET classes to manage application data and interact with data sources and XML.
 
-[ADO.NET Entity Framework](https://docs.microsoft.com/ef/ef6/)&mdash;Describes how to create data applications that allow developers to program against a conceptual model instead of directly against a relational database.
+[ADO.NET Entity Framework](/ef/ef6/)&mdash;Describes how to create data applications that allow developers to program against a conceptual model instead of directly against a relational database.
 
 [WCF Data Services 4.5](/dotnet/framework/data/wcf/index)&mdash;Describes how to use [!INCLUDE[ssAstoria](../data-tools/includes/ssastoria_md.md)] to deploy data services on the web or an intranet that implement the [Open Data Protocol (OData)](https://www.odata.org/).
 

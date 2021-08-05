@@ -1,20 +1,21 @@
 ---
-title: "IDebugProgramPublisher2::UnpublishProgram | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Makes a program unavailable to be debugged."
+title: IDebugProgramPublisher2::UnpublishProgram | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugProgramPublisher2::UnpublishProgram"
+- IDebugProgramPublisher2::UnpublishProgram
 helpviewer_keywords:
-  - "IDebugProgramPublisher2::UnpublishProgram"
+- IDebugProgramPublisher2::UnpublishProgram
 ms.assetid: 627e7d38-b2ac-4873-9a40-37ff7f47cd1d
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugProgramPublisher2::UnpublishProgram
 Makes a program unavailable to be debugged.

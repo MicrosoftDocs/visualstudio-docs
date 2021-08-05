@@ -1,15 +1,16 @@
 ---
 title: Breaking Changes in Visual Studio 2017 extensibility
-titleSuffix: ""
-ms.date: "11/09/2016"
-ms.topic: "conceptual"
+description: Learn about technical details of breaking changes made to the extensibility model in Visual Studio 2017 and what you can do to address them.
+ms.custom: SEO-VS-2020
+titleSuffix: ''
+ms.date: 11/09/2016
+ms.topic: conceptual
 ms.assetid: 54d5af60-0b44-4ae1-aa57-45aa03f89f3d
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
-
+- vssdk
 ---
 # Changes in Visual Studio 2017 extensibility
 
@@ -92,7 +93,7 @@ Most Visual Studio core assemblies are no longer installed into the GAC. The fol
 
 ### Global COM registration
 
-* Previously, Visual Studio installed many registry keys into the HKEY_CLASSES_ROOT and HKEY_LOCAL_MACHINE hives to support native COM registration. To eliminate this impact, Visual Studio now uses [Registration-Free Activation for COM components](https://msdn.microsoft.com/library/ms973913.aspx).
+* Previously, Visual Studio installed many registry keys into the HKEY_CLASSES_ROOT and HKEY_LOCAL_MACHINE hives to support native COM registration. To eliminate this impact, Visual Studio now uses [Registration-Free Activation for COM components](/previous-versions/dotnet/articles/ms973913(v=msdn.10)).
 * As a result, most TLB / OLB / DLL files under %ProgramFiles(x86)%\Common Files\Microsoft Shared\MSEnv are no longer installed by default by Visual Studio. These files are now installed under [INSTALLDIR] with corresponding Registration-Free COM manifests used by the Visual Studio host process.
 * As a result, external code that relies on global COM registration for Visual Studio COM interfaces will no longer find these registrations. Code running inside Visual Studio process will not see a difference.
 

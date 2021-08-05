@@ -1,23 +1,27 @@
 ---
-title: "Task Writing | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Task Writing | Microsoft Docs
+description: Learn about how you can create your own tasks to provide the code that runs during the MSBuild build process.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "MSBuild, writing tasks"
-  - "tasks, creating for MSBuild"
-  - "MSBuild, creating tasks"
+- MSBuild, writing tasks
+- tasks, creating for MSBuild
+- MSBuild, creating tasks
 ms.assetid: 3ebc5f87-8f00-46fc-82a1-228f35a6823b
-author: mikejo5000
-ms.author: mikejo
-manager: jillfra
+author: ghogen
+ms.author: ghogen
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Task writing
-Tasks provide the code that runs during the build process. Tasks are contained in targets. A library of typical tasks is included with [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)], and you can also create your own tasks. For more information about the library of tasks that are included with [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)], see [Task reference](../msbuild/msbuild-task-reference.md).
+
+Tasks provide the code that runs during the build process. Tasks are contained in targets. A library of typical tasks is included with MSBuild, and you can also create your own tasks. For more information about the library of tasks that are included with MSBuild, see [Task reference](../msbuild/msbuild-task-reference.md).
 
 ## Tasks
- Examples of tasks include [Copy](../msbuild/copy-task.md), which copies one or more files, [MakeDir](../msbuild/makedir-task.md), which creates a directory, and [Csc](../msbuild/csc-task.md), which compiles [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] source code files. Each task is implemented as a .NET class that implements the <xref:Microsoft.Build.Framework.ITask> interface, which is defined in the *Microsoft.Build.Framework.dll* assembly.
+
+ Examples of tasks include [Copy](../msbuild/copy-task.md), which copies one or more files, [MakeDir](../msbuild/makedir-task.md), which creates a directory, and [Csc](../msbuild/csc-task.md), which compiles C# source code files. Each task is implemented as a .NET class that implements the <xref:Microsoft.Build.Framework.ITask> interface, which is defined in the *Microsoft.Build.Framework.dll* assembly.
 
  There are two approaches you can use when implementing a task:
 
@@ -54,7 +58,7 @@ namespace MyTasks
 </Project>
 ```
 
- When tasks run, they can also receive inputs from the project file if you create .NET properties on the task class. [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] sets these properties immediately before calling the task's `Execute` method. To create a string property, use task code such as:
+ When tasks run, they can also receive inputs from the project file if you create .NET properties on the task class. MSBuild sets these properties immediately before calling the task's `Execute` method. To create a string property, use task code such as:
 
 ```csharp
 using System;
@@ -86,14 +90,16 @@ namespace MyTasks
 ```
 
 ## Register tasks
- If a project is going to run a task, [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] must know how to locate the assembly that contains the task class. Tasks are registered using the [UsingTask element (MSBuild)](../msbuild/usingtask-element-msbuild.md).
 
- The [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] file *Microsoft.Common.Tasks* is a project file that contains a list of `UsingTask` elements that register all the tasks that are supplied with [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)]. This file is automatically included when building every project. If a task that is registered in *Microsoft.Common.Tasks* is also registered in the current project file, the current project file takes precedence; that is, you can override a default task with your own task that has the same name.
+ If a project is going to run a task, MSBuild must know how to locate the assembly that contains the task class. Tasks are registered using the [UsingTask element (MSBuild)](../msbuild/usingtask-element-msbuild.md).
+
+ The MSBuild file *Microsoft.Common.Tasks* is a project file that contains a list of `UsingTask` elements that register all the tasks that are supplied with MSBuild. This file is automatically included when building every project. If a task that is registered in *Microsoft.Common.Tasks* is also registered in the current project file, the current project file takes precedence; that is, you can override a default task with your own task that has the same name.
 
 > [!TIP]
-> You can see a list of the tasks that are supplied with [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] by viewing the contents of *Microsoft.Common.Tasks*.
+> You can see a list of the tasks that are supplied with MSBuild by viewing the contents of *Microsoft.Common.Tasks*.
 
 ## Raise events from a task
+
  If your task derives from the <xref:Microsoft.Build.Utilities.Task> helper class, you can use any of the following helper methods on the <xref:Microsoft.Build.Utilities.Task> class to raise events that will be caught and displayed by any registered loggers:
 
 ```csharp
@@ -126,6 +132,7 @@ public class SimpleTask : ITask
 ```
 
 ## Require task parameters to be set
+
  You can mark certain task properties as "required" so that any project file that runs the task must set values for these properties or the build fails. Apply the `[Required]` attribute to the .NET property in your task as follows:
 
 ```csharp
@@ -135,9 +142,9 @@ public string RequiredProperty { get; set; }
 
  The `[Required]` attribute is defined by <xref:Microsoft.Build.Framework.RequiredAttribute> in the <xref:Microsoft.Build.Framework> namespace.
 
-## How [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] invokes a task
+## How MSBuild invokes a task
 
-When invoking a task, [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] first instantiates the task class, then calls that object's property setters for task parameters that are set in the task element in the project file. If the task element does not specify a parameter, or if the expression specified in the element evaluates to an empty string, the property setter is not called.
+When invoking a task, MSBuild first instantiates the task class, then calls that object's property setters for task parameters that are set in the task element in the project file. If the task element does not specify a parameter, or if the expression specified in the element evaluates to an empty string, the property setter is not called.
 
 For example, in the project
 
@@ -157,13 +164,13 @@ A task should not depend on any relative order of parameter-property setter invo
 
 ### Task parameter types
 
-The [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] natively handles properties of type `string`, `bool`, `ITaskItem` and `ITaskItem[]`. If a task accepts a parameter of a different type, [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] invokes <xref:System.Convert.ChangeType%2A> to convert from `string` (with all property and item references expanded) to the destination type. If the conversion fails for any input parameter, [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] emits an error and does not call the task's `Execute()` method.
+The MSBuild natively handles properties of type `string`, `bool`, `ITaskItem` and `ITaskItem[]`. If a task accepts a parameter of a different type, MSBuild invokes <xref:System.Convert.ChangeType%2A> to convert from `string` (with all property and item references expanded) to the destination type. If the conversion fails for any input parameter, MSBuild emits an error and does not call the task's `Execute()` method.
 
-## Example
+## Example 1
 
 ### Description
 
-This following [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] class demonstrates a task deriving from the <xref:Microsoft.Build.Utilities.Task> helper class. This task returns `true`, indicating that it succeeded.
+This following C# class demonstrates a task deriving from the <xref:Microsoft.Build.Utilities.Task> helper class. This task returns `true`, indicating that it succeeded.
 
 ### Code
 
@@ -184,11 +191,11 @@ namespace SimpleTask1
 }
 ```
 
-## Example
+## Example 2
 
 ### Description
 
-This following [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] class demonstrates a task implementing the <xref:Microsoft.Build.Framework.ITask> interface. This task returns `true`, indicating that it succeeded.
+This following C# class demonstrates a task implementing the <xref:Microsoft.Build.Framework.ITask> interface. This task returns `true`, indicating that it succeeded.
 
 ### Code
 
@@ -220,17 +227,17 @@ namespace SimpleTask2
 }
 ```
 
-## Example
+## Example 3
 
 ### Description
 
-This [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] class demonstrates a task that derives from the <xref:Microsoft.Build.Utilities.Task> helper class. It has a required string property, and raises an event that is displayed by all registered loggers.
+This C# class demonstrates a task that derives from the <xref:Microsoft.Build.Utilities.Task> helper class. It has a required string property, and raises an event that is displayed by all registered loggers.
 
 ### Code
 
-[!code-csharp[msbuild_SimpleTask3#1](../msbuild/codesnippet/CSharp/task-writing_1.cs)]
+:::code language="csharp" source="../snippets/csharp/VS_Snippets_Misc/msbuild_SimpleTask3/CS/SimpleTask3.cs" id="Snippet1":::
 
-## Example
+## Example 4
 
 ### Description
 

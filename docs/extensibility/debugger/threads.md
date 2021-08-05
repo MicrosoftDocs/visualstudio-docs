@@ -1,16 +1,18 @@
 ---
-title: "Threads | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Threads | Microsoft Docs
+description: This article describes the definition and role of a thread in the debugger architecture in Visual Studio.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: reference
 helpviewer_keywords:
-  - "debugging [Debugging SDK], threads"
-  - "threading [Debugging SDK]"
+- debugging [Debugging SDK], threads
+- threading [Debugging SDK]
 ms.assetid: 2243d24a-c3d2-41d1-abbb-6db21a2db9ee
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Threads
 In the debugger architecture, a *thread*:

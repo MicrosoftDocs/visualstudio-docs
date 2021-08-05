@@ -1,20 +1,21 @@
 ---
-title: "DisassemblyData | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Describes one disassembly instruction for the integrated development environment (IDE) to display."
+title: DisassemblyData | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "DisassemblyData"
+- DisassemblyData
 helpviewer_keywords:
-  - "DisassemblyData structure"
+- DisassemblyData structure
 ms.assetid: 10e70aa7-9381-40d3-bdd1-d2cad78ef16c
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # DisassemblyData
 Describes one disassembly instruction for the integrated development environment (IDE) to display.

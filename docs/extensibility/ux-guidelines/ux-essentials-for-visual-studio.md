@@ -1,13 +1,15 @@
 ---
-title: "UX Essentials for Visual Studio | Microsoft Docs"
-ms.date: "04/26/2017"
-ms.topic: "conceptual"
+title: UX Essentials for Visual Studio | Microsoft Docs
+description: Review these user experience best practices for new features you develop for Visual Studio, including knowing about screen resolution.
+ms.custom: SEO-VS-2020
+ms.date: 04/26/2017
+ms.topic: reference
 ms.assetid: a793cf7a-f230-43ce-88d0-fa5d6f1aa9c7
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # UX Essentials for Visual Studio
 

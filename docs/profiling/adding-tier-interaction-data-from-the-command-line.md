@@ -1,5 +1,7 @@
 ---
 title: "Adding tier interaction data from the command line | Microsoft Docs"
+description: For multi-tiered applications that communicate with one or more databases, use tier interaction profiling for execution time information for synchronous calls. 
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:
@@ -7,7 +9,8 @@ helpviewer_keywords:
   - "profiling tools,tier interaction method"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+monikerRange: 'vs-2017'
 ms.workload:
   - "multiple"
 ---

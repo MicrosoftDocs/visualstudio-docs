@@ -1,9 +1,9 @@
 ---
 title: Refactoring code
 description: Refining code using Visual Studio for Mac and quick actions.
-author: cobey
-ms.author: cobey
-ms.date: 03/29/2019
+author: jmatthiesen
+ms.author: jomatthi
+ms.date: 07/03/2020
 ms.assetid: C7782BF3-016F-4B41-8A81-85FC540A1A8F
 ms.custom: video
 ---
@@ -25,9 +25,9 @@ This highlights the symbol and any references to it. When you start typing a new
 
 ![Renaming and identifier](media/refactoring-renaming2.png)
 
-## Quick actions
+## Quick Actions and Refactorings
 
-Quick Actions let you easily refactor, generate, or otherwise modify code with a single action.
+Quick Actions and Refactorings let you easily refactor, generate, or otherwise modify code with a single action.
 
 Quick Actions can be used to:
 
@@ -49,7 +49,7 @@ The icon that appears when a Quick Action is available gives an indication of th
 
    ![Light bulb with mouse hovering](media/refactoring-lightbulb-hover.png)
 
-- Light bulbs and screwdrivers appear in the left margin of the editor when you move the caret into a line of code for which a Quick Action is available.
+- Light bulbs and screwdrivers appear in the left margin of the editor when you move the caret into a line of code for which a Quick Action or Refactoring is available.
 
 - Press **Option (⌥)**+**Enter** anywhere on a line to see a list of available Quick Actions and refactorings.
 

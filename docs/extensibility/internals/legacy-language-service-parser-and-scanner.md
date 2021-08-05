@@ -1,16 +1,18 @@
 ---
-title: "Legacy Language Service Parser and Scanner | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Legacy Language Service Parser and Scanner | Microsoft Docs
+description: Learn about the legacy language service parser and scanner that select information about the code being displayed.
+ms.custom: SEO-VS-2020 
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "parsers, language services [managed package framework]"
-  - "language services [managed package framework], Parsers"
+- parsers, language services [managed package framework]
+- language services [managed package framework], Parsers
 ms.assetid: 1ac3de27-a23b-438d-9593-389e45839cfa
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Legacy Language Service Parser and Scanner
 The parser is the heart of the language service. The Managed Package Framework (MPF) language classes require a language parser to select information about the code being displayed. A parser separates the text into lexical tokens and then identifies those tokens by type and functionality.

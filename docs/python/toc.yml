@@ -23,7 +23,7 @@
   - name: Create a project from a template
     href: quickstart-02-python-in-visual-studio-project-from-template.md
   - name: Open and run Python code in a folder
-    href: quickstart-05-python-visual-studio-open-folder.md  
+    href: quickstart-05-python-visual-studio-open-folder.md
   - name: Create a project from existing code
     href: quickstart-01-python-in-visual-studio-project-from-existing-code.md
   - name: Create a project from a repository
@@ -70,11 +70,6 @@
       href: learn-flask-visual-studio-step-02-create-app.md
     - name: 3 - Serve static files and add pages
       href: learn-flask-visual-studio-step-03-serve-static-files-add-pages.md
-    - name: 4 - Use the Flask Web Project template
-      href: learn-flask-visual-studio-step-04-full-flask-project-template.md
-    - name: 5 - Use the Polls Flask Web Project template
-      href: learn-flask-visual-studio-step-05-polls-flask-web-project-template.md
-
 - name: Concepts
   items:
   - name: Python projects
@@ -86,10 +81,8 @@
       href: python-web-application-project-templates.md
     - name: Django web project template
       href: python-django-web-application-project-template.md
-    - name: Azure cloud service template
-      href: python-azure-cloud-service-project-template.md
   - name: Azure SDK for Python
-    href: /python/azure/?view=azure-python
+    href: /python/azure/?view=azure-python&preserve-view=true
 - name: How-to guides
   items:
   - name: Manage Python environments

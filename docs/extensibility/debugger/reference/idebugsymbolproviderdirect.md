@@ -1,15 +1,16 @@
 ---
-title: "IDebugSymbolProviderDirect | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Represents a symbol provider that has direct access to metadata and core symbol interfaces."
+title: IDebugSymbolProviderDirect | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "IDebugSymbolProviderDirect interface"
+- IDebugSymbolProviderDirect interface
 ms.assetid: 872b04a8-70de-4ab5-aceb-684c81828545
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IDebugSymbolProviderDirect
 Represents a symbol provider that has direct access to metadata and core symbol interfaces.

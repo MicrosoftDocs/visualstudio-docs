@@ -1,13 +1,16 @@
 ---
-title: "Counter | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Counter | Microsoft Docs
+description: Learn about the Counter option of VSPerfCmd.exe. It specifies a sampling interval, or is a measure of event intervals in instrumentation profiling.  
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: reference
 ms.assetid: aa4b4cdb-e6ea-433a-9579-56f3785e1385
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
-ms.workload:
-  - "multiple"
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+monikerRange: 'vs-2017'
+ms.workload: 
+  - multiple
 ---
 # Counter
 The **Counter** option collects data from processor (hardware) performance counters.

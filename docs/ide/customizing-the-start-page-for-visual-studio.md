@@ -1,18 +1,20 @@
 ---
 title: Change the startup experience
+description: Learn how to customize your startup experience so Visual Studio opens with the tools that are most useful to you.
+ms.custom: SEO-VS-2020
 ms.date: 02/01/2017
 ms.topic: conceptual
 f1_keywords:
-  - "vs.ToolsOptionsPages.Startup"
+- vs.ToolsOptionsPages.Startup
 helpviewer_keywords:
-  - "Start Page [Visual Studio]"
-  - "customizing Start Page [Visual Studio]"
-  - "Visual Studio Start Page"
-author: jillre
-ms.author: jillfra
-manager: jillfra
+- Start Page [Visual Studio]
+- customizing Start Page [Visual Studio]
+- Visual Studio Start Page
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Customize startup
 

@@ -1,16 +1,18 @@
 ---
 title: Customizing the Model Explorer
+description: Learn how you can change the appearance and behavior of the explorer for your domain-specific language designer.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 f1_keywords:
-  - "vs.dsltools.dsldesigner.explorerbehavior"
+- vs.dsltools.dsldesigner.explorerbehavior
 helpviewer_keywords:
-  - "Domain-Specific Language Tools, Domain-Specific Language Explorer"
-author: jillre
-ms.author: jillfra
-manager: jillfra
+- Domain-Specific Language Tools, Domain-Specific Language Explorer
+author: mgoertz-msft
+ms.author: mgoertz
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Customizing the Model Explorer
 You can change the appearance and behavior of the explorer for your domain-specific language designer as follows:
@@ -107,4 +109,4 @@ You can change the appearance and behavior of the explorer for your domain-speci
 
 ## See also
 
-- [Domain-Specific Language Tools Glossary](https://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)
+- [Domain-Specific Language Tools Glossary](/previous-versions/bb126564(v=vs.100))

@@ -1,12 +1,14 @@
 ---
 title: Insert XML documentation comments
-ms.date: 01/26/2018
+description: Learn how to insert XML documentation comments in your code that you can use to create a compiler-generated XML file to distribute alongside your .NET assembly.
+ms.custom: SEO-VS-2020
+ms.date: 01/22/2020
 ms.topic: reference
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: mikadumont
+ms.author: midumont
+manager: jmartens
 ms.workload:
-  - "dotnet"
+- dotnet
 ---
 # How to: Insert XML comments for documentation generation
 
@@ -24,7 +26,7 @@ The compiler-generated XML file can be distributed alongside your .NET assembly 
 
 1. Place your text cursor above the element you want to document, for example, a method.
 
-1. Do one of the following:
+2. Do one of the following:
 
    - Type `///` in C#, or `'''` in Visual Basic
 
@@ -38,9 +40,13 @@ The compiler-generated XML file can be distributed alongside your .NET assembly 
 
    ![XML comment template - Visual Basic](media/doc-preview-vb.png)
 
-1. Enter descriptions for each XML element to fully document the code element.
+3. Enter descriptions for each XML element to fully document the code element.
 
-   ![Completed comment](media/doc-result-cs.png)
+   ![Screenshot showing the completed comment.](media/doc-result-cs.png)
+
+You can use styles in XML comments that will render in Quick Info when hovering over the element. These styles include: italics, bold, bullets, and a clickable link.
+
+   ![Screenshot showing the completed comment with style tags for italics, bold, bullets, and a clickable link.](media/doc-style-cs.png) 
 
 > [!NOTE]
 > There is an [option](../../ide/reference/options-text-editor-csharp-advanced.md) to toggle XML documentation comments after typing `///` in C# or `'''` Visual Basic. From the menu bar, choose **Tools** > **Options** to open the **Options** dialog box. Then, navigate to **Text Editor** > **C#** or **Basic** > **Advanced**. In the **Editor Help** section, look for the **Generate XML documentation comments** option.

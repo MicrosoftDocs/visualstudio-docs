@@ -1,5 +1,6 @@
 ---
 title: "Instruction Pointers (IPs) View | Microsoft Docs"
+description: Learn how the Instruction Pointers view enables you to see specific instructions that are executed during sampling profiling.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:
@@ -14,7 +15,8 @@ helpviewer_keywords:
 ms.assetid: 5e26e0fd-383b-4fb6-a29d-a458d8232828
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+monikerRange: 'vs-2017'
 ms.workload:
   - "multiple"
 ---

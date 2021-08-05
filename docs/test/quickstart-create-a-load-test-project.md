@@ -1,12 +1,14 @@
 ---
-title: "Create a web performance and load test project"
+title: Create a web performance and load test project
+description: Learn how to create and run a web performance and load test project in Visual Studio with this quickstart.
+ms.custom: SEO-VS-2020
 ms.date: 03/14/2018
 ms.topic: quickstart
 helpviewer_keywords:
-  - "load testing, quickstart"
-author: jillre
-ms.author: jillfra
-manager: jillfra
+- load testing, quickstart
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
 ---
 # Quickstart: Create a load test project
 
@@ -72,7 +74,7 @@ In this section, we'll create a C# load test project. You can also create a Visu
 
    The **New Load Test Wizard** opens.
 
-1. Select the **On-premises Load Test** option, and then choose **Next**. You can learn more about cloud-based load testing [here](/azure/devops/test/load-test/get-started-simple-cloud-load-test?view=vsts).
+1. Select the **On-premises Load Test** option, and then choose **Next**. You can learn more about cloud-based load testing [here](/azure/devops/test/load-test/get-started-simple-cloud-load-test?view=vsts&preserve-view=true).
 
    ![New load test wizard - first page](media/load-test-wizard-page-1.png)
 

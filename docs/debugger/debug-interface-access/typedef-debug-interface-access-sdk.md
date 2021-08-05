@@ -1,7 +1,8 @@
 ---
+description: "Symbols with SymTagTypedef tags introduce names for other types."
 title: "Typedef (Debug Interface Access SDK) | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 9ab441b9-cc72-47fa-83e2-87b3c2b891b4
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

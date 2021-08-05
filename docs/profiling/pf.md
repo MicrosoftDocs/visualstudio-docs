@@ -1,11 +1,13 @@
 ---
 title: "PF | Microsoft Docs"
+description: Learn how the VSPerfCmd.exe PF option sets the profiling event that is sampled to page faults, and it changes the number of page faults in a sampling interval.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 ms.assetid: cdc0a094-a986-4629-bd1c-dd5fdca323dc
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+monikerRange: 'vs-2017'
 ms.workload:
   - "multiple"
 ---

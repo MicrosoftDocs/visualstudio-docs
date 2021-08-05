@@ -1,7 +1,9 @@
 ---
 title: "How to: Populate worksheets with data from a database"
+description: Learn how you can use the data from an object in your solution, and how you can use Windows Forms controls to display the data in a worksheet.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: "how-to"
 dev_langs:
   - "VB"
   - "CSharp"
@@ -11,7 +13,7 @@ helpviewer_keywords:
   - "data [Office development in Visual Studio], adding to worksheets"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---
@@ -22,8 +24,6 @@ You can access data in document-level Office projects in the same way that you a
 [!INCLUDE[appliesto_xlalldoc](../vsto/includes/appliesto-xlalldoc-md.md)]
 
 The following example shows how to add data-bound controls in document-level projects using a designer. For an example of how to add data-bound controls in application-level projects at run time, see [Walkthrough: Complex data binding in VSTO Add-in project](../vsto/walkthrough-complex-data-binding-in-vsto-add-in-project.md).
-
-![link to video](../vsto/media/playvideo.gif "link to video") For a related video demonstration, see [How do I: Transfer data into an Excel worksheet?](http://go.microsoft.com/fwlink/?LinkID=130277), and [How do I: Consume database data in Excel?](http://go.microsoft.com/fwlink/?LinkID=130287).
 
 ## Add a data-bound control to a worksheet at design time
 
@@ -72,5 +72,3 @@ For information about how to send updates to the typed dataset and the database,
 - [How to: Populate documents with data from a database](../vsto/how-to-populate-documents-with-data-from-a-database.md)
 - [How to: Populate documents with data from services](../vsto/how-to-populate-documents-with-data-from-services.md)
 - [How to: Update a data source with data from a host control](../vsto/how-to-update-a-data-source-with-data-from-a-host-control.md)
-- [How do I: Transfer data into an Excel worksheet](http://go.microsoft.com/fwlink/?LinkID=130277)
-- [How do I: Consume database data in Excel?](http://go.microsoft.com/fwlink/?LinkID=130287)

@@ -1,6 +1,8 @@
 ---
 title: "Troubleshooting the Visual Studio Emulator for Android | Microsoft Docs"
-ms.custom: ""
+description: Learn information that can help you resolve issues that you may experience when you're using the Visual Studio Emulator for Android. 
+ms.custom: SEO-VS-2020
+ms.prod: visual-studio-dev15
 ms.date: "11/04/2016"
 ms.technology: vs-ide-mobile
 ms.topic: "conceptual"
@@ -8,6 +10,7 @@ ms.assetid: f3fb5df4-3aae-40e4-9450-bbe15b0c5af5
 author: conceptdev
 ms.author: crdun
 manager: crdun
+monikerRange: 'vs-2017'
 ms.workload:
   - "multiple"
 ---
@@ -37,7 +40,7 @@ This topic contains information to help you resolve issues that you may experien
 
 - [Visual Studio gets stuck trying to deploy the app to the emulator or the emulator does not appear as a debug target in other IDEs](#ADB)
 
-- [Emulator hangs because it couldn't set up the UDP port](#XamarinPlayer)
+- [Emulator stops responding because it couldn't set up the UDP port](#XamarinPlayer)
 
 - [Cannot attach debugger to a Xamarin project](#Skylake)
 
@@ -61,7 +64,7 @@ This topic contains information to help you resolve issues that you may experien
 ## <a name="NoInstall"></a> Emulator fails to install
  If you don't have Hyper-V installed, you will see the following message when you try to install the emulator. You must have a machine that supports HyperV and it must be enabled.
 
- ![Android&#95;Emu&#95;Install&#95;Issue](../cross-platform/media/android_emu_install_issue.png "Android_Emu_Install_Issue")
+ ![Screenshot of a Visual Studio message saying that setup is blocked for Microsoft Visual Studio Emulator for Android because the computer does not suppert Hyper-V.](../cross-platform/media/android_emu_install_issue.png "Android_Emu_Install_Issue")
 
 > [!NOTE]
 > This message applies both to the Visual Studio Emulator for Android and the Windows Phone Emulator. Windows 8.1 and Windows 10 support the emulator.
@@ -126,7 +129,7 @@ This topic contains information to help you resolve issues that you may experien
 
 - In Hyper-V Manager, open the Virtual Switch Manager and check to see that you have two network switches; verify that the first one is the internal switch and the second is external.
 
-     ![Android&#95;Emu&#95;V&#95;Switch&#95;Man](../cross-platform/media/android_emu_v_switch_man.png "Android_Emu_V_Switch_Man")
+     ![Screenshot of the Virtual Switch Manager in Hyper-V Manager. A new virtual switch is highlighted and it's properties show that it is an external network switch.](../cross-platform/media/android_emu_v_switch_man.png "Android_Emu_V_Switch_Man")
 
      If the setup is incorrect and you are using Windows 10, you might try  to [Reinstall network devices using netcfg -d command](https://support.microsoft.com/help/10741/windows-fix-network-connection-issues) (section 6).
 
@@ -261,8 +264,8 @@ This topic contains information to help you resolve issues that you may experien
 
   Restart the emulator and you should now be able to see the emulator connected to ADB and associated Android tools.
 
-## <a name="XamarinPlayer"></a> Emulator hangs because it couldn't set up the UDP port
- You may experience this issue due to incompatibility with Xamarin Player. If the emulator appears to hang or if you see this error message, "The emulator is unable to connect to the device operating system: Couldn't set up the UDP port.  Some functionality might be disabled", you may be experiencing this issue. Take the following steps.
+## <a name="XamarinPlayer"></a> Emulator stops responding because it couldn't set up the UDP port
+ You may experience this issue due to incompatibility with Xamarin Player. If the emulator appears to stop responding or if you see this error message, "The emulator is unable to connect to the device operating system: Couldn't set up the UDP port.  Some functionality might be disabled", you may be experiencing this issue. Take the following steps.
 
 1. Uninstall Xamarin Player.
 

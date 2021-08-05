@@ -1,19 +1,20 @@
 ---
-title: "IDebugComPlusSymbolProvider::ReplaceSymbols | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Replaces the current debug symbols with those in the specified data stream."
+title: IDebugComPlusSymbolProvider::ReplaceSymbols | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "ReplaceSymbols"
-  - "IDebugComPlusSymbolProvider::ReplaceSymbols"
+- ReplaceSymbols
+- IDebugComPlusSymbolProvider::ReplaceSymbols
 ms.assetid: 82fbc8db-c4b1-432f-bec9-1a9dc09570be
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugComPlusSymbolProvider::ReplaceSymbols
 Replaces the current debug symbols with those in the specified data stream.

@@ -3,15 +3,16 @@ title: "Create a Vue.js app using Node.js"
 description: You can create Node.js applications in Visual Studio using the Vue.js framework
 ms.custom: "seodec18"
 ms.date: "07/06/2018"
-ms.topic: "conceptual"
+ms.topic: "how-to"
 ms.devlang: javascript
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 dev_langs:
   - JavaScript
 ms.workload:
   - "nodejs"
+monikerRange: '<= vs-2019'
 ---
 
 # Create a Vue.js application using Node.js Tools for Visual Studio
@@ -46,7 +47,7 @@ The following new features support Vue.js application development in Visual Stud
 
     If you don't have it installed, install the LTS version from the [Node.js](https://nodejs.org/en/download/) website. In general, Visual Studio automatically detects the installed Node.js runtime. If it does not detect an installed runtime, you can configure your project to reference the installed runtime in the properties page. (After you create a project, right-click the project node and choose **Properties**).
 
-## Create a Vue.js project using a template
+## Create a Vue.js project using Node.js
 
 You can use the new Vue.js templates to create a new project. Use of the template is the easiest way to get started. For detailed steps, see [Use Visual Studio to create your first Vue.js app](../javascript/quickstart-vuejs-with-nodejs.md).
 
@@ -63,20 +64,22 @@ For this example, you use an empty ASP.NET Core Application (C#). However, you c
 
 #### Create an Empty project
 
-1. Open Visual Studio and create a new project.
+* Open Visual Studio and create a new project.
 
     ::: moniker range=">=vs-2019"
-    Press **Esc** to close the start window. Type **Ctrl + Q** to open the search box, type **asp.net**, then choose **Create a new ASP.NET Core Web Application**. In the dialog box that appears, type the name **client-app**, and then choose **Create**.
+    In Visual Studio 2019, choose **Create a new project** in the start window. If the start window is not open, choose **File** > **Start Window**. Type **web app**, choose **C#** as the language, then choose **ASP.NET Core Empty**, and then choose **Next**. On the next screen, name the project **client-app**, and then choose **Next**.
+
+    Choose either the recommended target framework (.NET Core 3.1) or .NET 5, and then choose **Create**.
     ::: moniker-end
     ::: moniker range="vs-2017"
     From the top menu bar, choose **File** > **New** > **Project**. In the left pane of the **New Project** dialog box, expand **Visual C#**, then choose **Web**. In the middle pane, choose **ASP.NET Core Web Application**, type the name **client-app**, and then choose **OK**.
+
+    Select **Empty**, and then click **OK**.
+
+    Visual Studio creates the project, which opens in Solution Explorer (right pane).
     ::: moniker-end
 
     If you don't see the **ASP.NET Core Web Application** project template, you must install the **ASP.NET and web development** workload and the .**NET Core** development workload first. To install the workload(s), click the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box (select **File** > **New** > **Project**). The Visual Studio Installer launches. Select the required workloads.
-
-1. Select **Empty**, and then click **OK**.
-
-    Visual Studio creates the project, which opens in Solution Explorer (right pane).
 
 #### Configure the project startup file
 

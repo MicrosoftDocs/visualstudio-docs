@@ -1,20 +1,21 @@
 ---
-title: "IDebugMethodField::IsCustomAttributeDefined | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Determines whether a specific custom attribute has been defined."
+title: IDebugMethodField::IsCustomAttributeDefined | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugMethodField::IsCustomAttributeDefined"
+- IDebugMethodField::IsCustomAttributeDefined
 helpviewer_keywords:
-  - "IDebugMethodField::IsCustomAttributeDefined method"
+- IDebugMethodField::IsCustomAttributeDefined method
 ms.assetid: 1b5d95a8-cc87-4acb-9e6a-3928f3632b7c
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugMethodField::IsCustomAttributeDefined
 Determines whether a specific custom attribute has been defined.

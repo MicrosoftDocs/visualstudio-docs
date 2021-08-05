@@ -1,20 +1,21 @@
 ---
-title: "IDebugCoreServer2::GetPort | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Retrieves a specific port."
+title: IDebugCoreServer2::GetPort | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugCoreServer2::GetPort"
+- IDebugCoreServer2::GetPort
 helpviewer_keywords:
-  - "IDebugCoreServer2::GetPort"
+- IDebugCoreServer2::GetPort
 ms.assetid: 3f5ea4a8-6085-4600-980a-9e48f8b5be56
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugCoreServer2::GetPort
 Retrieves a specific port.

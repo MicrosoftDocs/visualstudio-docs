@@ -1,20 +1,21 @@
 ---
-title: "IDebugCoreServer2::GetMachineUtilities_V7 | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "This method gets the machine utilities for a server."
+title: IDebugCoreServer2::GetMachineUtilities_V7 | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugCoreServer2::GetMachineUtilities_V7"
+- IDebugCoreServer2::GetMachineUtilities_V7
 helpviewer_keywords:
-  - "IDebugCoreServer2::GetMachineUtilities_V7"
+- IDebugCoreServer2::GetMachineUtilities_V7
 ms.assetid: 64c1f08f-853b-4498-9810-29791581ef2f
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugCoreServer2::GetMachineUtilities_V7
 This method gets the machine utilities for a server.

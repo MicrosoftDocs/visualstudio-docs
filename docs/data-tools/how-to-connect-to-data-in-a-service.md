@@ -1,21 +1,23 @@
 ---
-title: "How to: Connect to Data in a Service"
+title: 'How to: Connect to Data in a Service'
+description: Connect your app to data returned from a service by running the Data Source Configuration Wizard and selecting Service on the Choose a Data Source Type page.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
-  - "data [Visual Studio], connecting to web services"
-  - "data sources, creating from web services"
-  - "data [Visual Studio], reading from web services"
-  - "reading data, from web services"
-  - "web services, reading data"
-  - "web services, as data sources"
-  - "web services, connecting"
+- data [Visual Studio], connecting to web services
+- data sources, creating from web services
+- data [Visual Studio], reading from web services
+- reading data, from web services
+- web services, reading data
+- web services, as data sources
+- web services, connecting
 ms.assetid: a6b54353-05fe-4e5c-8631-90231fc95504
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: ghogen
+ms.author: ghogen
+manager: jmartens
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # How to: Connect to data in a service
 

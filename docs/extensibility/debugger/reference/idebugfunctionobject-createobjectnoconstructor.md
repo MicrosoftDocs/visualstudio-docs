@@ -1,20 +1,21 @@
 ---
-title: "IDebugFunctionObject::CreateObjectNoConstructor | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Creates an object with no constructor."
+title: IDebugFunctionObject::CreateObjectNoConstructor | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugFunctionObject::CreateObjectNoConstructor"
+- IDebugFunctionObject::CreateObjectNoConstructor
 helpviewer_keywords:
-  - "IDebugFunctionObject::CreateObjectNoConstructor method"
+- IDebugFunctionObject::CreateObjectNoConstructor method
 ms.assetid: 4e2bd6d5-f4bd-4c10-a998-3db451c9a0c8
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugFunctionObject::CreateObjectNoConstructor
 Creates an object with no constructor.

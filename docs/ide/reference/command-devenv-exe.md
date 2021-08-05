@@ -1,17 +1,19 @@
 ---
 title: -Command (devenv.exe)
+description: Learn how to use the Command devenv command-line switch to execute a specified command after launching the Visual Studio IDE.
+ms.custom: SEO-VS-2020
 ms.date: 12/10/2018
 ms.topic: reference
 helpviewer_keywords:
-  - "Devenv, /Command switch"
-  - "/Command Devenv switch"
-  - "Command Devenv switch"
+- Devenv, /Command switch
+- /Command Devenv switch
+- Command Devenv switch
 ms.assetid: 13c20cd6-f09d-400a-8b7b-ecc266a32cef
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # /Command (devenv.exe)
 

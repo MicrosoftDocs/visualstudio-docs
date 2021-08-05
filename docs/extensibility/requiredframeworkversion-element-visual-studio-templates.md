@@ -1,17 +1,20 @@
 ---
-title: "RequiredFrameworkVersion Element (Visual Studio Templates) | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Specifies the minimum version of the .NET Framework that is required by the template."
+title: RequiredFrameworkVersion Element (Visual Studio Templates)
+titleSuffix: ""
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
 ms.technology: vs-ide-general
 ms.topic: reference
 helpviewer_keywords:
-  - "<RequiredFrameworkVersion> (Visual Studio Templates)"
-  - "RequiredFrameworkVersion (Visual Studio Templates)"
+- <RequiredFrameworkVersion> (Visual Studio Templates)
+- RequiredFrameworkVersion (Visual Studio Templates)
 ms.assetid: 08a4f609-51a5-4723-b89f-99277fb18871
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # RequiredFrameworkVersion element (Visual Studio templates)
 

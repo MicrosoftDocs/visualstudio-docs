@@ -1,15 +1,17 @@
 ---
-title: "Use a code analysis check-in policy"
+title: Use a code analysis check-in policy
 ms.date: 11/04/2016
-ms.topic: "conceptual"
-helpviewer_keywords:
-  - "code analysis, check-in policies"
+description: Learn how to use a code analysis check-in policy to verify that code complies with inheritance, class coupling, maintainability, and complexity standards.
+ms.custom: SEO-VS-2020
+ms.topic: how-to
+helpviewer_keywords: 
+  - code analysis, check-in policies
 ms.assetid: d1b3b04f-4dd9-40e6-b2d4-b414d33fb647
-author: jillre
-ms.author: jillfra
-manager: jillfra
-ms.workload:
-  - "multiple"
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.workload: 
+  - multiple
 ---
 # How to: Enforce maintainable code with a code analysis check-in policy
 

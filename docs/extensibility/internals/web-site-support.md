@@ -1,15 +1,17 @@
 ---
-title: "Web Site Support | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Web Site Support | Microsoft Docs
+description: Learn about web site project systems, which are created by adding templates and registration attributes to an existing project system.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "web site projects"
+- web site projects
 ms.assetid: ce9f4266-bb64-4c09-be88-4bd6413f60d0
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Web Site Support
 A Web site project system is a project system that creates Web projects. Web projects in turn create Web applications. A Web site project generates one executable file for each Web page that has associated code. Additional executable files are generated from the source code files in the /App_Code folder.

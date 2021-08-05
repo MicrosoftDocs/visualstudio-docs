@@ -1,7 +1,8 @@
 ---
+description: "This function retrieves a pointer to a symbol representing the parent/container of this symbol."
 title: "IDiaSymbol::get_container | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 24e832eb-80b3-484c-a41b-11477ec9de99
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

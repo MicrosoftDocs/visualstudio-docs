@@ -1,16 +1,18 @@
 ---
-title: "Registering a Tool Window | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Registering a Tool Window | Microsoft Docs
+description: Learn how you can register your tool windows with Visual Studio using ProvideToolWindowAttribute and ProvideToolWindowVisibilityAttribute.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
 helpviewer_keywords:
-  - "tool windows, registering managed"
-  - "tool windows, registering"
+- tool windows, registering managed
+- tool windows, registering
 ms.assetid: 8c8c4a24-3da4-497b-9db2-0ddd7cfbfdd2
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Register a tool window
 You can register your tool windows using <xref:Microsoft.VisualStudio.Shell.ProvideToolWindowAttribute> and  <xref:Microsoft.VisualStudio.Shell.ProvideToolWindowVisibilityAttribute>.
@@ -29,4 +31,4 @@ public class PackageToolWindow : Package
 {
 ```
 
- In the code above, the <xref:Microsoft.VisualStudio.Shell.ProvideToolWindowAttribute> registers the `PersistedWindowPane` and `DynamicWindowPane` tool windows with Visual Studio. The persisted tool window is docked and tabbed with **Solution Explorer**, and the dynamic window is given a default starting position and size. The dynamic window is made transient, which indicates that it is not created on startup. This writes a `DontForceCreate` value in the `ToolWindows` key in the system registry. For more information, see [Tool window display configuration](../extensibility/tool-window-display-configuration.md).
+ In the code above, the <xref:Microsoft.VisualStudio.Shell.ProvideToolWindowAttribute> registers the `PersistedWindowPane` and `DynamicWindowPane` tool windows with Visual Studio. The persisted tool window is docked and tabbed with **Solution Explorer**, and the dynamic window is given a default starting position and size. The dynamic window is made transient, which indicates that it is not created on startup. This writes a `DontForceCreate` value in the `ToolWindows` key in the system registry. For more information, see [Tool window display configuration](/previous-versions/visualstudio/visual-studio-2015/extensibility/tool-window-display-configuration?preserve-view=true&view=vs-2015).

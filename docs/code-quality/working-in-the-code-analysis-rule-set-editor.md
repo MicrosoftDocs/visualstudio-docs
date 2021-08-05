@@ -1,15 +1,17 @@
 ---
 title: Use the Code Analysis Rule Set Editor
 ms.date: 04/04/2018
+description: Learn how to edit and view rule sets in Visual Studio. See how to set rule severity, specify rules in a custom set, and adjust the data in the rule set grid.
+ms.custom: SEO-VS-2020
 ms.topic: conceptual
 f1_keywords:
-  - "vs.codeanalysis.ruleseteditor"
+- vs.codeanalysis.ruleseteditor
 ms.assetid: 370c97bf-bb29-4b2f-b9ae-ba125bce7b2d
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Use the code analysis rule set editor
 
@@ -32,9 +34,9 @@ The editor displays the rules in a tree structure that groups the rules by a rul
    > [!TIP]
    > You can change how rules are grouped in the **Group by** drop-down.
 
-- Click the **Action** field of a group, and then specify the action to apply to all rules in the group.
+- Click the **Action** field of a group, specify the action to apply to all rules in the group.
 
-- Select or clear the check box for an individual rule. When you select the check box for a rule, the rule is set to the Warning action.
+- Select or clear the check box for an individual rule. When you select the check box for a rule, the rule is set to the **Warning** action.
 
 ## Toolbar
 
@@ -57,14 +59,14 @@ The following table describes the controls on the toolbar of the rule set editor
 
 ## Rule set fields
 
-Rule set fields display information about a rule set, and can be used to sort and group the rule list. To display or hide fields, select **Column Options** on the rule set editor toolbar, and then check or clear the check boxes of the fields to show or hide.
+Rule set fields display information about a rule set, and can be used to sort and group the rule list. To display or hide fields, select **Column Options** on the rule set editor toolbar, and then select or clear the check boxes of the fields to show or hide.
 
 The following table describes the fields of a rule set:
 
 |Field|Description|
 |-----------|-----------------|
 |**ID**|The identifier of the rule.|
-|**Category**|In addition to their membership in rule sets, code analysis rules are also grouped by category. For more information, see [Code analysis warnings](../code-quality/code-analysis-for-managed-code-warnings.md).|
+|**Category**|In addition to their membership in rule sets, code analysis rules are also grouped by category. For more information, see [Code analysis warnings](/dotnet/fundamentals/code-analysis/quality-rules/index).|
 |**Name**|The title of the rule.|
 |**Namespace**|The namespace of the rule.|
 |**Target Type**|Indicates whether the rule is for native, managed, or database code.|
@@ -75,9 +77,9 @@ The following table describes the fields of a rule set:
 
 From the column headers of the rule set grid, you can sort and filter the rules by the values of the field.
 
-- To sort the rule set lists, click the column header of the field by which you want to sort. If the rule sets are grouped, each group is sorted individually.
+- To sort the rule set lists, select the column header of the field by which you want to sort. If the rule sets are grouped, each group is sorted individually.
 
-- To filter the rule sets by the value of a field, click the filter button on the column header of the field by which you want to filter. Select the check boxes of the values that you want to show, and clear the check boxes of the values that you want to hide.
+- To filter the rule sets by the value of a field, select the filter button on the column header of the field by which you want to filter. Select the check boxes of the values that you want to show, and clear the check boxes of the values that you want to hide.
 
 ## See also
 

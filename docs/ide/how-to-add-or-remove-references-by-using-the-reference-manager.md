@@ -1,26 +1,28 @@
 ---
 title: Add references in the Reference Manager
+description: Learn how to use the Reference Manager dialog box to add and manage references to developed components.
+ms.custom: SEO-VS-2020
 ms.date: 08/02/2019
-ms.topic: conceptual
+ms.topic: how-to
 f1_keywords:
-  - "VS.ReferenceManager"
+- VS.ReferenceManager
 helpviewer_keywords:
-  - "C# projects, references"
-  - "references [Visual Studio], adding"
-  - "assemblies [Visual Studio], references"
-  - "Visual Basic projects, references"
-  - "project references, adding"
-  - "referencing components, adding references"
-  - "project references, removing"
-  - "referencing assemblies"
-  - "referencing components, removing references"
-  - "references [Visual Studio], removing"
-  - "referencing components, assemblies not listed"
-author: jillre
-ms.author: jillfra
-manager: jillfra
+- C# projects, references
+- references [Visual Studio], adding
+- assemblies [Visual Studio], references
+- Visual Basic projects, references
+- project references, adding
+- referencing components, adding references
+- project references, removing
+- referencing assemblies
+- referencing components, removing references
+- references [Visual Studio], removing
+- referencing components, assemblies not listed
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Add or remove references by using the Reference Manager
 
@@ -41,6 +43,9 @@ The Reference Manager dialog box shows different categories on the left side, de
 - **Windows**, with **Core** and **Extensions** subgroups. You can explore the references in the Windows SDK or extension SDKs by using the **Object Browser**.
 
 - **Browse**, with **Recent** subgroup
+ 
+    > [!NOTE]
+    > You might not see **Browse** in the Reference Manager dialog box if you're developing C++ projects.
 
 ## Add a reference
 

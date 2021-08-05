@@ -1,7 +1,8 @@
 ---
+description: "Indicates whether the calculation and use of relative virtual addresses (RVA) is enabled."
 title: "IDiaAddressMap::get_relativeVirtualAddressEnabled | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 4c48af81-7148-4d9a-818e-dbe62cbfc638
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

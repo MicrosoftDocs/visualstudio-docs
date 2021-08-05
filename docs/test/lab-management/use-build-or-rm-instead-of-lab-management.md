@@ -1,18 +1,23 @@
 ---
-title: "Use Azure Pipelines for automated testing"
+title: Use Azure Pipelines for automated testing
+description: Learn how you can implement automated testing for build-deploy-test automation using Azure Pipelines and Team Foundation Server.
+ms.custom: SEO-VS-2020
 ms.date: 10/19/2018
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
-  - "automated testing, lab management, test lab"
-ms.author: jillfra
-manager: jillfra
+  - automated testing, lab management, test lab
+ms.author: mikejo
+manager: jmartens
 ms.workload:
-  - "multiple"
-author: jillre
+  - multiple
+author: mikejo5000
 ---
 # Use Azure Test Plans instead of Lab Management for automated testing
 
-If you use Microsoft Test Manager and Lab Management for automated testing or for build-deploy-test automation, this topic explains how you can achieve the same goals using the [build and release](/azure/devops/pipelines/index?view=vsts) features in Azure Pipelines and Team Foundation Server (TFS).
+If you use Microsoft Test Manager and Lab Management for automated testing or for build-deploy-test automation, this topic explains how you can achieve the same goals using the [build and release](/azure/devops/pipelines/index?view=vsts&preserve-view=true) features in Azure Pipelines and Team Foundation Server (TFS).
+
+> [!NOTE]
+> Microsoft Test Manager is deprecated in Visual Studio 2017 and removed in Visual Studio 2019.
 
 ## Build-deploy-test automation
 
@@ -22,7 +27,7 @@ Microsoft Test Manager and Lab Management rely on a XAML build definition to aut
 |-------|----------------------|-----------------|
 | Identify the machines to deploy the build to and run tests. | Create a standard lab environment in Microsoft Test Manager with those machines. | n/a |
 | Identify the tests to be run. | Create a test suite in Microsoft Test Manager, create test cases, and associate automation with each test case. Create test settings in Microsoft Test Manager identifying the role of machines in the lab environment in which tests should be run. | Create automated test suite in Microsoft Test Manager in the same manner if you plan to manage your testing through test plans. Alternatively, you can skip this if you want to run tests directly from test binaries produced by your builds. There is no need to create test settings in either case. |
-| Automate deployment and testing. | Create a XAML build definition using LabDefaultTemplate.*.xaml. Specify the build, test suites, and lab environment in the build definition. | Create a [build or release pipeline](/azure/devops/pipelines/index?view=vsts) with a single environment. Run the same deployment script (from the XAML build definition) using the Command line task, and run automated tests using Test Agent Deployment and Run Functional Tests tasks. Specify the list of machines and their credentials as inputs to these tasks. |
+| Automate deployment and testing. | Create a XAML build definition using LabDefaultTemplate.*.xaml. Specify the build, test suites, and lab environment in the build definition. | Create a [build or release pipeline](/azure/devops/pipelines/index?view=vsts&preserve-view=true) with a single environment. Run the same deployment script (from the XAML build definition) using the Command line task, and run automated tests using Test Agent Deployment and Run Functional Tests tasks. Specify the list of machines and their credentials as inputs to these tasks. |
 
 Some of the benefits of using Azure Pipelines or TFS for this scenario are:
 
@@ -37,7 +42,7 @@ Some of the benefits of using Azure Pipelines or TFS for this scenario are:
 
 ## Self-service management of SCVMM environments
 
-The [Test Center in Microsoft Test Manager](/azure/devops/test/mtm/guidance-mtm-usage?view=vsts) supports the ability to manage a library of environment templates as well as provision environments on demand using an [SCVMM server](/system-center/vmm/overview?view=sc-vmm-1801).
+The [Test Center in Microsoft Test Manager](/azure/devops/test/mtm/guidance-mtm-usage?view=vsts&preserve-view=true) supports the ability to manage a library of environment templates as well as provision environments on demand using an [SCVMM server](/system-center/vmm/overview?view=sc-vmm-1801&preserve-view=true).
 
 The self-service provisioning features of Lab Center have two distinct goals:
 
@@ -67,4 +72,4 @@ However, Azure Pipelines and TFS, in conjunction with the SCVMM build and deploy
 * Start and stop virtual machines
 * Run custom PowerShell scripts for SCVMM
 
-For more information, see [Create a virtual network isolated environment for build-deploy-test scenarios](/azure/devops/pipelines/targets/create-virtual-network?view=vsts).
+For more information, see [Create a virtual network isolated environment for build-deploy-test scenarios](/azure/devops/pipelines/targets/create-virtual-network?view=vsts&preserve-view=true).

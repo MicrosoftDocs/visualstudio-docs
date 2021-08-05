@@ -1,7 +1,8 @@
 ---
+description: "Retrieves a flag that specifies whether the symbol refers to a code address."
 title: "IDiaSymbol::get_code | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 5f425fa3-7ba6-4979-8b3e-0fcd06cbba73
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

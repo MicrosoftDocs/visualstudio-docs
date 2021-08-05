@@ -1,14 +1,16 @@
 ---
 title: Draw shapes and paths
+description: Use the features of the XAML Designer in Blend for Visual Studio to draw paths and shapes, modify them, and combine them.
+ms.custom: SEO-VS-2020
 titleSuffix: Blend for Visual Studio
-ms.date: 07/31/2019
+ms.date: 09/22/2020
 ms.topic: conceptual
 ms.assetid: d5378c59-e2e5-49f0-91f1-aa82d984a33c
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Draw shapes and paths
 
@@ -20,7 +22,7 @@ Shapes and paths use vector graphics, so they scale well to high resolution disp
 
 Find shapes in the **Assets** window.
 
-![Shapes category on the Assets window](media/blend-shapes.png)
+:::image type="content" source="media/blend-shapes.png" alt-text="Screenshot of the Shapes category of the Assets window in Blend for Visual Studio":::
 
 Drag any shape that you want to the artboard. Then, use handles on the shape to scale, rotate, move, or skew the shape.
 
@@ -93,11 +95,14 @@ You can combine paths and shapes into a single path.
 
 ![Combine paths](../designers/media/2df17a5d-a338-4ef4-96c5-dae51cc1ca8a.png)
 
-|||||
-|-|-|-|-|
-|![Two shapes before combining](../designers/media/b1_1.png)|Two shapes before combining|![Intersect](../designers/media/b1_4.png)|Intersect|
-|![Unite](../designers/media/b1_2.png)|Unite|![Exclude overlap](../designers/media/b1_5.png)|Exclude Overlap|
-|![Divide](../designers/media/b1_3.png)|Divide|![Subtract](../designers/media/b1_6.png)|Subtract|
+|Number|Action|
+|-|-|
+|![Two shapes before combining](../designers/media/b1_1.png)|Two shapes before combining|
+|![Unite](../designers/media/b1_2.png)|Unite|
+|![Divide](../designers/media/b1_3.png)|Divide|
+|![Intersect](../designers/media/b1_4.png)|Intersect|
+|![Exclude overlap](../designers/media/b1_5.png)|Exclude Overlap|
+|![Subtract](../designers/media/b1_6.png)|Subtract|
 
 **Watch a short video:** ![Configure installed features](../designers/media/bldadminconsoleinitialconfigicon.png) [Working with paths: Combine paths](https://www.youtube.com/watch?v=Io5bC0-nH6Q#t=195).
 

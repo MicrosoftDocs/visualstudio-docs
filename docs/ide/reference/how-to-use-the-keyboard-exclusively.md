@@ -1,21 +1,21 @@
 ---
 title: Use Visual Studio without a mouse
-titleSuffix: ""
-description: "Learn how to navigate and write code within the Visual Studio integrated development environment (IDE) by just using the keyboard."
-ms.date: 05/10/2019
-ms.topic: conceptual
+titleSuffix: ''
+description: Learn how to navigate and write code within the Visual Studio integrated development environment (IDE) by just using the keyboard.
+ms.date: 10/16/2020
+ms.topic: how-to
 helpviewer_keywords:
-  - "Toolbox, shortcut keys"
-  - "shortcut keys [Visual Studio]"
-  - "windows [Visual Studio], accessibility"
-  - "dialog boxes [Visual Studio], shortcut keys"
-  - "accessibility [Visual Studio]"
+- Toolbox, shortcut keys
+- shortcut keys [Visual Studio]
+- windows [Visual Studio], accessibility
+- dialog boxes [Visual Studio], shortcut keys
+- accessibility [Visual Studio]
 ms.assetid: d71a4cc1-d352-4164-8538-3f9fa070a331
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to use the keyboard exclusively
 
@@ -31,13 +31,13 @@ For a full listing of command shortcut keys in Visual Studio, see [Default keybo
 ::: moniker-end
 
 > [!NOTE]
-> Depending on your settings or the edition of Visual Studio you use, the dialog boxes and menu commands you see might differ from those described in Help. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Reset settings](../environment-settings.md#reset-settings).
+> Depending on your settings or the edition of Visual Studio you use, the dialog boxes and menu commands you see might differ from those described in Help. To change your settings, select **Import and Export Settings** on the **Tools** menu. For more information, see [Reset settings](../environment-settings.md#reset-settings).
 
 ## Toolbox controls
 
 To add a control on the Toolbox to a form or designer without using the mouse:
 
-1. On the menu bar, choose **View** > **Toolbox**.
+1. On the menu bar, select **View** > **Toolbox**.
 
 2. Use the **Ctrl**+**Up arrow** or **Ctrl**+**Down arrow** keys to move among the sections in the **Toolbox** tab.
 
@@ -65,9 +65,9 @@ To move among the options in a dialog box and change option settings by using on
 
 ## Navigate between windows and files
 
-- To move among files in an editor or designer, choose the **Ctrl**+**Tab** keyboard shortcut to display the IDE Navigator with **Active Files** selected. Choose the **Enter** key to navigate to the highlighted file.
+- To move among files in an editor or designer, use the **Ctrl**+**Tab** keyboard shortcut to display the IDE Navigator with **Active Files** selected. Choose the **Enter** key to navigate to the highlighted file.
 
-- To move among docked tool windows, choose the **Alt**+**F7** keyboard shortcut to display the IDE Navigator with **Active Tool Windows** selected. Choose the **Enter** key to navigate to the highlighted window.
+- To move among docked tool windows, use the **Alt**+**F7** keyboard shortcut to display the IDE Navigator with **Active Tool Windows** selected. Choose the **Enter** key to navigate to the highlighted window.
 
 ## Move and dock tool windows
 
@@ -75,7 +75,7 @@ To move among the options in a dialog box and change option settings by using on
 
 2. On the **Window** menu, select the **Dockable** option.
 
-3. Press **Alt**+**Spacebar**, and then choose **Move**.
+3. Press **Alt**+**Spacebar**, and then select **Move**.
 
    The docking guide diamond appears.
 

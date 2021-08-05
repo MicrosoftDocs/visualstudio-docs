@@ -1,5 +1,7 @@
 ---
 title: "ClickOnce Unmanaged API Reference | Microsoft Docs"
+description: Learn about the ClickOnce unmanaged public APIs from dfshim.dll, including CleanOnlineAppCache, GetDeploymentDataFromManifest, and LaunchApplication.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 api_name:
   - "CleanOnlineAppCache"
@@ -25,7 +27,7 @@ helpviewer_keywords:
 ms.assetid: ec002138-4054-456d-bcc1-79ac2f4a4fd7
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "cplusplus"
 ---

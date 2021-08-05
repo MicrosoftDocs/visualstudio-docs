@@ -1,18 +1,20 @@
 ---
-title: "ProjectType Element (Visual Studio Templates) | Microsoft Docs"
-ms.date: "11/04/2016"
+title: ProjectType Element (Visual Studio Templates) | Microsoft Docs
+description: Learn about the ProjectType element and how it categorizes the project template so that it appears in the New Project or Add New Item dialog box.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
 ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
-  - "http://schemas.microsoft.com/developer/vstemplate/2005#ProjectType"
+- http://schemas.microsoft.com/developer/vstemplate/2005#ProjectType
 helpviewer_keywords:
-  - "ProjectType element [Visual Studio project templates]"
+- ProjectType element [Visual Studio project templates]
 ms.assetid: ccf9d83f-c7f3-49c7-a31f-e1f22bec004c
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # ProjectType element (Visual Studio templates)
 Categorizes the project template so that it appears under the specified group in the **New Project** or **Add New Item** dialog box.

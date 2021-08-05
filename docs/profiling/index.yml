@@ -10,7 +10,7 @@ metadata:
   author: mikejo5000
   ms.author: mikejo
   manager: jillfra
-  ms.date: 09/17/2019
+  ms.date: 06/03/2020
 
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
 
@@ -18,49 +18,69 @@ landingContent:
 # Cards and links should be based on top customer tasks or top subjects
 # Start card title with a verb
   # Card (optional)
-  - title: About profiling
-    linkLists:
-      - linkListType: overview
-        links:
-          - text: First look at profiling tools
-            url: profiling-feature-tour.md
-      - linkListType: concept
-        links:
-         - text: Ways to run profiling tools
-           url: running-profiling-tools-with-or-without-the-debugger.md
-
-  # Card (optional)
   - title: Get started
     linkLists:
-      - linkListType: quickstart
-        links:
-          - text: Analyze CPU usage (C#, Visual Basic)
-            url: quickstart-cpu-usage-managed.md
-          - text: Analyze CPU usage (C++)
-            url: quickstart-cpu-usage-native.md
-          - text: Analyze CPU usage (ASP.NET)
-            url: quickstart-cpu-usage-aspnet.md
       - linkListType: tutorial
         links:
           - text: Get started analyzing CPU usage
             url: beginners-guide-to-performance-profiling.md
           - text: Get started measuring memory usage
-            url: beginners-guide-to-performance-profiling.md
-
-  # Card (optional)
-  - title: More performance tools
-    linkLists:
+            url: memory-usage.md
       - linkListType: how-to-guide
         links:
           - text: PerfTips
             url: perftips.md
+
+  # Card (optional)
+  - title: Fundamentals
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: First look at profiling tools
+            url: profiling-feature-tour.md
+          - text: Ways to run profiling tools
+            url: running-profiling-tools-with-or-without-the-debugger.md
+      - linkListType: concept
+        links:
+         - text: Understanding performance collection methods
+           url: understanding-performance-collection-methods-perf-profiler.md
+            
+  # Card (optional)
+  - title: Performance tools
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+          - text: CPU Usage
+            url: cpu-usage.md
+          - text: Database
+            url: analyze-database.md
+          - text: Events Viewer
+            url: events-viewer.md
+          - text: Memory Usage
+            url: memory-usage-without-debugging2.md
+          - text: .NET Object Allocation Tracking
+            url: dotnet-alloc-tool.md
+          - text: .NET Async
+            url: analyze-async.md
+          - text: .NET Counters
+            url: dotnet-counters-tool.md  
+          - text: GPU Usage (Direct3D)
+            url: gpu-usage.md
           - text: Analyze resource consumption (XAML)
             url: application-timeline.md
-          - text: Analyze GPU usage (Direct3D)
-            url: gpu-usage.md
-          - text: Analyze network usage (UWP)
-            url: network-usage.md
-          - text: Analyze energy usage (UWP)
-            url: analyze-energy-use-in-store-apps.md
-          - text: Performance Explorer (legacy)
-            url: performance-explorer.md
+
+  # Card (optional)
+  - title: Guides
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+          - text: Optimize profiler settings
+            url: optimize-profiler-settings.md
+          - text: Measure performance from the command line
+            url: profile-apps-from-command-line.md
+          - text: Use multiple profiler tools simultaneously
+            url: use-multiple-profiler-tools-simultaneously.md
+
+          
+          
+        

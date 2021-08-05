@@ -1,16 +1,18 @@
 ---
 title: How to create and apply a resource
+description: Learn how to create and apply a resource in the XAML Designer so that you can store and reuse styles and templates for elements.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 f1_keywords:
-  - "VS.XamlDesigner.CreateResource"
-  - "VS.XamlDesigner.EditResource"
+- VS.XamlDesigner.CreateResource
+- VS.XamlDesigner.EditResource
 ms.assetid: 3ff4006d-659d-4073-9a41-06ff85e6cfdf
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to create and apply a resource
 

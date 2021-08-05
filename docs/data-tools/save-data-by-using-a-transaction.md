@@ -1,21 +1,23 @@
 ---
-title: "How to: Save data by using a transaction"
+title: 'How to: Save data by using a transaction'
+description: Review how to save data by using a transaction with DataSet tools in Visual Studio. You save data in a transaction by using the System.Transactions namespace.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 dev_langs:
-  - "VB"
-  - "CSharp"
+- VB
+- CSharp
 helpviewer_keywords:
-  - "saving data, using transactions"
-  - "System.Transactions namespace"
-  - "transactions, saving data"
-  - "data [Visual Studio], saving"
+- saving data, using transactions
+- System.Transactions namespace
+- transactions, saving data
+- data [Visual Studio], saving
 ms.assetid: 8b835e8f-34a3-413d-9bb5-ebaeb87f1198
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: ghogen
+ms.author: ghogen
+manager: jmartens
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # How to: Save data by using a transaction
 
@@ -41,8 +43,8 @@ To roll back the transaction, throw an exception prior to calling the <xref:Syst
 
 - Add code to save data within the using statement that contains the transaction. The following code shows how to create and instantiate a <xref:System.Transactions.TransactionScope> object in a using statement:
 
-     [!code-vb[VbRaddataSaving#11](../data-tools/codesnippet/VisualBasic/save-data-by-using-a-transaction_1.vb)]
-     [!code-csharp[VbRaddataSaving#11](../data-tools/codesnippet/CSharp/save-data-by-using-a-transaction_1.cs)]
+     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataSaving/VB/Form2.vb" id="Snippet11":::
+     :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataSaving/CS/Form2.cs" id="Snippet11":::
 
 ## See also
 

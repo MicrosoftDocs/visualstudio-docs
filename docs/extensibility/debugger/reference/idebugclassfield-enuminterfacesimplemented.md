@@ -1,20 +1,21 @@
 ---
-title: "IDebugClassField::EnumInterfacesImplemented | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Creates an enumerator for the interfaces implemented by this class."
+title: IDebugClassField::EnumInterfacesImplemented | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugClassField::EnumInterfacesImplemented"
+- IDebugClassField::EnumInterfacesImplemented
 helpviewer_keywords:
-  - "IDebugClassField::EnumInterfacesImplemented method"
+- IDebugClassField::EnumInterfacesImplemented method
 ms.assetid: e5523e45-d350-491e-a92c-fe0ca97d2052
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugClassField::EnumInterfacesImplemented
 Creates an enumerator for the interfaces implemented by this class.

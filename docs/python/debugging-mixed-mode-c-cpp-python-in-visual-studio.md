@@ -2,10 +2,10 @@
 title: Mixed-mode debugging for Python
 description: Simultaneously debug C++ and Python in Visual Studio including stepping between environments, viewing values, and evaluating expressions.
 ms.date: 11/12/2018
-ms.topic: conceptual
+ms.topic: how-to
 author: JoshuaPartlow
 ms.author: joshuapa
-manager: jillfra
+manager: jmartens
 ms.custom: seodec18
 ms.workload:
   - python
@@ -31,9 +31,8 @@ Mixed-mode debugging features include the following, as explained in this articl
 
 ![Mixed-mode debugging for Python in Visual Studio](media/mixed-mode-debugging.png)
 
-|   |   |
-|---|---|
-| ![movie camera icon for video](../install/media/video-icon.png "Watch a video") | For an introduction to building, testing, and debugging native C modules with Visual Studio, see [Deep Dive: Create Native Modules](https://youtu.be/D9RlT06a1EI) (youtube.com, 9m 09s). The video is applicable to both Visual Studio 2015 and 2017. |
+![movie camera icon for video](../install/media/video-icon.png "Watch a video") For an introduction to building, testing, and debugging native C modules with Visual Studio, see [Deep Dive: Create Native Modules](https://youtu.be/D9RlT06a1EI) (youtube.com, 9m 09s). The video is applicable to both Visual Studio 2015 and 2017.
+
 
 ## Enable mixed-mode debugging in a Python project
 
@@ -64,6 +63,9 @@ Visual Studio (2017 version 15.5 and later) supports mixed-mode debugging from a
 1. Select the **Debugging** tab, select **Python/Native Debugging** from the **Debugger to launch**, and select **OK**.
 
     ![Selecting the Python/Native debugger in a C/C++ project](media/mixed-mode-debugging-select-cpp-debugger.png)
+
+> [!Note]
+> If you don't have the option to select **Python/Native Debugging** you need to first install the **Python native development tools** using the VS installer. You can find it as an option under the Python development workload. For additional information, see [How to install Python support in Visual Studio on Windows](installing-python-support-in-visual-studio.md).
 
 Using this method, be aware that you can't debug the *py.exe* launcher itself, because it spawns a child *python.exe* process that the debugger won't be attached to. If you want to launch *python.exe* directly with arguments, change the **Command** option in the **Python/Native Debugging** properties (shown in the previous image) to specify the full path to *python.exe*, then specify arguments in **Command Arguments**.
 

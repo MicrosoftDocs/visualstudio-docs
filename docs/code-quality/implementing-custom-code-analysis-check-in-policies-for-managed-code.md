@@ -1,17 +1,19 @@
 ---
 title: Custom code analysis check-in policies for managed code
 ms.date: 11/04/2016
-ms.topic: conceptual
+description: Learn how to create a customized code analysis check-in policy. See how to ensure that Visual Studio managed code conforms to an Azure DevOps project policy.
+ms.custom: SEO-VS-2020
+ms.topic: how-to
 f1_keywords:
-  - "vs.code.analysis.selecttfsrulesets"
-  - "vs.code.analysis.browsefortfsruleset"
-  - "vs.code.analysis.policyeditor"
+  - vs.code.analysis.selecttfsrulesets
+  - vs.code.analysis.browsefortfsruleset
+  - vs.code.analysis.policyeditor
 ms.assetid: fd029003-5671-4b24-8b6f-032e0a98b2e8
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
 ms.workload:
-  - "dotnet"
+  - dotnet
 ---
 # Implement Custom Code Analysis Check-in Policies for Managed Code
 
@@ -52,7 +54,7 @@ To create a custom rule set for an Azure DevOps project, you first create a spec
 
 1. In **Source Control Explorer**, right-click the new folder, and then click **Add Items to Folder**.
 
-     For more information, see [Git and Azure Repos](/azure/devops/repos/git/overview?view=vsts).
+     For more information, see [Git and Azure Repos](/azure/devops/repos/git/overview?view=vsts&preserve-view=true).
 
 2. Click the rule set file that you created, and then click **Finish**.
 

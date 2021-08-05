@@ -1,23 +1,25 @@
 ---
-title: "How to: Create and remove project dependencies"
+title: 'How to: Create and remove project dependencies'
+description: Learn how you can use Visual Studio to create and remove your project's dependency on code from other projects.
+ms.custom: SEO-VS-2020
 ms.date: 06/21/2017
-ms.topic: conceptual
+ms.topic: how-to
 f1_keywords:
-  - "VS.ProjectDependenciesDlg"
+- VS.ProjectDependenciesDlg
 helpviewer_keywords:
-  - "vs.build.projectdependencies"
-  - "project dependencies"
-  - "builds [Visual Studio], setting up"
-  - "project build configurations, dependencies"
-  - "dependencies, project"
-  - "projects [Visual Studio], dependencies"
+- vs.build.projectdependencies
+- project dependencies
+- builds [Visual Studio], setting up
+- project build configurations, dependencies
+- dependencies, project
+- projects [Visual Studio], dependencies
 ms.assetid: e2a0a8ff-dae7-40a8-b774-b88aa5235183
 ms.technology: vs-ide-compile
 author: ghogen
 ms.author: ghogen
-manager: jillfra
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Create and remove project dependencies
 

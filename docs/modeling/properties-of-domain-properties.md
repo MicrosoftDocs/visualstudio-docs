@@ -1,12 +1,14 @@
 ---
 title: Properties of Domain Properties
+description: Learn how a domain property is a feature of a model element that can hold a value, and how domain properties are listed in the domain class box on the diagram.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
   - "Domain-Specific Language, domain properties"
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: mgoertz-msft
+ms.author: mgoertz
+manager: jmartens
 ms.workload:
   - "multiple"
 ---
@@ -44,4 +46,4 @@ A *domain property* is a feature of a model element that can hold a value. For e
 
 ## See also
 
-- [Domain-Specific Language Tools Glossary](https://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)
+- [Domain-Specific Language Tools Glossary](/previous-versions/bb126564(v=vs.100))

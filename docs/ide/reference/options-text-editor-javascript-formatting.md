@@ -1,5 +1,7 @@
 ---
 title: Options, Text Editor, JavaScript, Formatting
+description: Learn how to use the Formatting page of the Options dialog box to set options for formatting code in the Code Editor. 
+ms.custom: SEO-VS-2020
 ms.date: 10/29/2018
 ms.technology: vs-javascript
 ms.topic: reference
@@ -13,7 +15,7 @@ f1_keywords:
 ms.assetid: 28a0aef1-9353-4d94-95a5-54b42e15c0dc
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

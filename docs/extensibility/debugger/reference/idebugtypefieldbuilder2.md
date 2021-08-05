@@ -1,15 +1,16 @@
 ---
-title: "IDebugTypeFieldBuilder2 | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Extends the IDebugTypeFieldBuilder to be able to create array types."
+title: IDebugTypeFieldBuilder2 | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "IDebugTypeFieldBuilder2 interface"
+- IDebugTypeFieldBuilder2 interface
 ms.assetid: 23911c5b-2bbf-4734-9976-87a0bd6ea36c
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IDebugTypeFieldBuilder2
 Extends the **IDebugTypeFieldBuilder** to be able to create array types.

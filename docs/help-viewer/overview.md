@@ -1,5 +1,6 @@
 ---
 title: Offline help documentation
+description: Install and view offline help documentation for various products and technologies, such as Visual Studio and .NET, using Microsoft Help Viewer.
 ms.date: 11/02/2017
 ms.topic: conceptual
 f1_keywords:
@@ -16,7 +17,7 @@ helpviewer_keywords:
 ms.assetid: 74e41666-2ce8-4ac0-a0e5-3723d1e322c2
 author: ghogen
 ms.author: ghogen
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

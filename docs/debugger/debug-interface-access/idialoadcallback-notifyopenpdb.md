@@ -1,7 +1,8 @@
 ---
+description: "Called when a candidate .pdb file is opened."
 title: "IDiaLoadCallback::NotifyOpenPDB | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: c0547f99-8468-4e57-82ca-9ef7d6707c8a
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

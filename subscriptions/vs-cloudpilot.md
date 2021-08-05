@@ -1,9 +1,10 @@
 ---
-title: CloudPilot Benefit in to Visual Studio Subscriptions | Microsoft Docs
+title: CloudPilot benefit in to Visual Studio subscriptions | Microsoft Docs
 author: evanwindom
-ms.author: lank
-manager: lank
-ms.date: 07/30/2019
+ms.author: v-evwin
+manager: cabuschl
+ms.assetid: 6255b6a3-f101-4b2c-b7fa-851eccc944b2
+ms.date: 03/18/2021
 ms.topic: conceptual
 description:  Learn about the CloudPilot benefit available in selected Visual Studio subscriptions
 ---
@@ -54,13 +55,15 @@ CloudPilot, by UnifyCloud, is designed to help developers quickly and easily mov
 | Subscription Level                                                 |     Channels                                            | Benefit                                                          | Renewable?    |
 |--------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------|---------------|
 | Visual Studio Enterprise (Standard)   | VL, Azure, Retail, | 2 licenses, 90 days, unlimited scans       |  No.  Available to new subscribers only          |
+| Visual Studio Enterprise subscription with GitHub Enterprise   | VL | 2 licenses, 90 days, unlimited scans       |  No.  Available to new subscribers only          |
 | Visual Studio Professional (Standard) | VL, Azure, Retail                                       | 1 license, 30 days, one scan                                                            |  No.  Available to new subscribers only           |
+| Visual Studio Professional subscription with GitHub Enterprise | VL | 1 license, 30 days, one scan                                                            |  No.  Available to new subscribers only           |
 | Visual Studio Test Professional (Standard)                         | VL, Retail                                              | Not available                                             |  N/A           |
 | MSDN Platforms (Standard)                                          | VL, Retail                                              | Not available                                              |  N/A          |
 | Visual Studio Enterprise (Standard)  | NFR<sup>1</sup> |Not available  | N/A |
 | Visual Studio Enterprise, Visual Studio Professional (monthly cloud) | Azure | Not available | N/A |
 
-<sup>1</sup>  *Includes:  Not for Resale (NFR), FTE, Most Valuable Professional (MVP), Regional Director (RD), Microsoft Partner Network (MPN), Visual Studio Industry Partner (VSIP), Microsoft Certified Trainer, BizSpark, Imagine*
+<sup>1</sup>  *Includes:  Not for Resale (NFR), FTE, Most Valuable Professional (MVP), Regional Director (RD), Microsoft Partner Network (MPN), Visual Studio Industry Partner (VSIP), Microsoft Certified Trainer, BizSpark, Imagine, NFR Basic*
 
 > [!NOTE]
 > Microsoft no longer offers Visual Studio Professional Annual subscriptions and Visual Studio Enterprise Annual subscriptions in Cloud Subscriptions. There will be no change to existing customers experience and ability to renew, increase, decrease, or cancel their subscriptions. New customers are encouraged to go to [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/) to explore different options to purchase Visual Studio.
@@ -71,11 +74,14 @@ Not sure which subscription you're using?  Connect to [https://my.visualstudio.c
 - Need help with using CloudPilot?  Check out these resources:
   - [Contact UnifyCloud](https://www.unifycloud.com/contacts/) for inquiries about UnifyCloud products.
   - [CloudPilot User Manual](https://www.cloudatlasinc.com/cloudpilot/doc/CloudPilot-User-Manual.pdf )
-  - [Submit a support request](https://support.datacamp.com/hc/requests/new)
-
-- For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/).
+- For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, see Visual Studio [Subscriptions support](https://aka.ms/vssubscriberhelp).
 - Have a question about Visual Studio IDE, Azure DevOps Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).
 
-## Next steps
+## See also
+- [Visual Studio documentation](/visualstudio/)
+- [Azure DevOps documentation](/azure/devops/)
+- [Azure documentation](/azure/)
+- [Microsoft 365 documentation](/microsoft-365/)
 
-If you haven't already activated the Azure benefit that comes with your subscription, visit [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs) and click on the Azure tile in the Tools category to set up your Azure subscription and redeem your Azure credits.
+## Next steps
+If you haven't already activated the Azure DevTest individual credit benefit that comes with your subscription, visit [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs) and click on the Azure tile in the Tools category to set up your Azure subscription and redeem your Azure DevTest individual credit.

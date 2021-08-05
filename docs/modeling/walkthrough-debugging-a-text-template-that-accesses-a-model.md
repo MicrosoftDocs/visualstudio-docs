@@ -1,12 +1,14 @@
 ---
-title: "Walkthrough: Debugging a Text Template that Accesses a Model"
+title: 'Walkthrough: Debug Text Templates that Access a Model'
+description: Provides information about how to debug a text template that accesses a model.
 ms.date: 11/04/2016
-ms.topic: conceptual
-author: jillre
-ms.author: jillfra
-manager: jillfra
+ms.topic: how-to
+author: mgoertz-msft
+ms.author: mgoertz
+manager: jmartens
+ms.custom: SEO-VS-2020
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Walkthrough: Debugging a Text Template that Accesses a Model
 When you modify or add text templates in a domain-specific language solution, you may get errors when the engine transforms the template to source code or when it compiles the generated code. The following walkthrough demonstrates some of the things you can do to debug a text template.

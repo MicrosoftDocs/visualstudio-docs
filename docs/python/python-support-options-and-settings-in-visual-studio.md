@@ -13,7 +13,7 @@ f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.Python.Advanced"
 author: JoshuaPartlow
 ms.author: joshuapa
-manager: jillfra
+manager: jmartens
 ms.workload:
   - python
   - data-science
@@ -46,7 +46,7 @@ There are also additional Python-specific options on the **Text Editor** > **Pyt
 | **Show notifications bar to create environments** | On | *Visual Studio 2019 only.* When this option is set and the user opens a project that contains a *requirements.txt* or *environment.yml* file, Visual Studio displays an information bar with suggestions to create a virtual environment or conda environment, respectively, instead of using the default global environment. |
 | **Show notifications bar to install packages** | On | *Visual Studio 2019 only.* When this option is set and the user opens a project that contains a *requirements.txt* file (and is not using the default global environment) Visual Studio compares those requirements with packages installed in the current environment. If any packages are missing, Visual Studio displays a prompt to install those dependencies. |
 | **Always run package managers as administrator** | Off | Always elevates `pip install` and similar package manager operations for all environments. When installing packages, Visual Studio prompts for administrator privileges if the environment is located in a protected area of the file system such as *c:\Program Files*. In that prompt you can choose to always elevate the install command for just that one environment. See [Packages tab](python-environments-window-tab-reference.md#packages-tab). |
-| **Automatically generate completion DB on first use** | On | *Applies to Visual Studio 2017 version 15.5 and earlier and to later versions when using an IntelliSense database.* Prioritizes completion of the database for a library when you write code that uses it. For more information, see [Intellisense tab](python-environments-window-tab-reference.md#intellisense-tab). |
+| **Automatically generate completion DB on first use** | On | *Applies to Visual Studio 2017 version 15.5 and earlier and to later versions when using an IntelliSense database.* Prioritizes completion of the database for a library when you write code that uses it. For more information, see [Intellisense tab](python-environments-window-tab-reference.md?view=vs-2017&preserve-view=true#intellisense-tab). |
 | **Ignore system-wide PYTHONPATH variables** | On | PYTHONPATH is ignored by default because Visual Studio provides a more direct means to specify search paths in environments and projects. See [Search paths](search-paths.md) for details. |
 | **Update search paths when adding linked files** | On | When set, adding a [linked file](managing-python-projects-in-visual-studio.md#linked-files) to a project updates [Search paths](search-paths.md) so that IntelliSense can include the contents of the linked file's folder in its completion database. Clear this option to exclude such content from the completion database. |
 | **Warn when imported module cannot be found** | On | Clear this option to suppress warnings when you know an imported module isn't presently available but doesn't otherwise affect code operation. |
@@ -70,7 +70,7 @@ There are also additional Python-specific options on the **Text Editor** > **Pyt
 | --- | --- | --- |
 | **Conda executable path** | (blank) | Specifies an exact path to the *conda.exe* executable rather than relying on the default Miniconda installation that's included with the Python workload. If another path is given here, it takes precedence over the default installation and any other conda.exe executables specified in the registry. You might change this setting if you manually install a newer version of Anaconda or Miniconda, or want to use a 32-bit distro rather than the default 64-bit distro. |
 
-![Python options dialog, Language server tab](media/options-conda.png)
+![Screenshot of the Visual Studio Tools Options dialog with Conda selected in the Python options and the Conda executable path field shown in the right pane.](media/options-conda.png)
 
 ::: moniker-end
 
@@ -130,7 +130,7 @@ There are also additional Python-specific options on the **Text Editor** > **Pyt
 | **Disable completions from Typeshed** | Off | Visual Studio IntelliSense normally uses a bundled version of Typeshed (a set of *.pyi* files) to find type hints for standard library and third-party libraries for both Python 2 and Python 3. Setting this option disables the bundled TypeShed behavior. |
 | **Custom Typeshed path** | (blank) | If set, Visual Studio uses the Typeshed files at this path instead of its bundled version. Ignore if **Disable completions from Typeshed** is set. |
 
-![Python options dialog, Language server tab](media/options-language-server.png)
+![Screenshot of the Visual Studio Tools Options dialog with Language Server selected in the Python options and the Language Server options shown in the right pane.](media/options-language-server.png)
 
 ::: moniker-end
 
@@ -168,6 +168,6 @@ There are also additional Python-specific options on the **Text Editor** > **Pyt
 
 (**Environment** > **Fonts and Colors** tab within the **Text Editor** group.)
 
-The names of the Python options are all prefixed with **Python** and are self-explanatory. The default font for all Visual Studio color themes is 10pt Consolas regular (not bold). The default colors vary by theme. Typically, you change a font or color if you find it difficult to read text with the default settings.
+The names of the Python options are all prefixed with **Python** and are self-explanatory. The default font for all Visual Studio color themes is 10 pt Consolas regular (not bold). The default colors vary by theme. Typically, you change a font or color if you find it difficult to read text with the default settings.
 
 ![Python font and color options](media/options-fonts-and-colors.png)

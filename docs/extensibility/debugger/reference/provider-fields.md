@@ -1,20 +1,21 @@
 ---
-title: "PROVIDER_FIELDS | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Specifies properties associated with a program provider."
+title: PROVIDER_FIELDS | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "PROVIDER_FIELDS"
+- PROVIDER_FIELDS
 helpviewer_keywords:
-  - "PROVIDER_FIELDS enumeration"
+- PROVIDER_FIELDS enumeration
 ms.assetid: 39631545-2b0e-45b4-978b-d63656484b02
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # PROVIDER_FIELDS
 Specifies properties associated with a program provider.

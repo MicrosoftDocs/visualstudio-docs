@@ -1,5 +1,7 @@
 ---
 title: "Pseudovariables | Microsoft Docs"
+description: Review pseudovariables in the Visual Studio debugger. Pseudovariables are terms used to display certain data in a variable window or the QuickWatch dialog box.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:
@@ -14,7 +16,7 @@ helpviewer_keywords:
 ms.assetid: fae84f68-2138-4144-9bd4-c9e271b6182a
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---
@@ -41,7 +43,7 @@ Pseudovariables are terms used to display certain information in a variable wind
 |`$clk`|Displays the time in clock cycles.|
 |`$user`|Displays a structure with account information for the account running the application. For security reasons, the password information is not displayed.|
 |`$exceptionstack`|Displays the stack trace of the current Windows Runtime exception. `$ exceptionstack` works only in UWP apps. `$ exceptionstack` is not supported for C++ and SEH exceptions|
-|`$returnvalue`|Displays the return value of a .NET method.|
+|`$returnvalue`|Displays the return value of a method.|
 
  In C# you can use the pseudovariables shown in the following table:
 

@@ -1,19 +1,21 @@
 ---
-title: "How to: Add or remove imported namespaces (Visual Basic)"
+title: Add or remove imported namespaces (Visual Basic)
+description: Learn how to add or remove imported namespaces and add or remove user imports.
+ms.custom: SEO-VS-2020
 ms.date: 06/21/2017
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
-  - "adding imported namespaces"
-  - "removing imported namespaces"
-  - "namespaces [Visual Studio], imported"
-  - "imported namespaces [Visual Studio]"
-  - "references [Visual Studio], imported namespaces"
+- adding imported namespaces
+- removing imported namespaces
+- namespaces [Visual Studio], imported
+- imported namespaces [Visual Studio]
+- references [Visual Studio], imported namespaces
 ms.assetid: 44cebec3-0ea0-47c2-8406-4edeab6a997e
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Add or remove imported namespaces (Visual Basic)
 

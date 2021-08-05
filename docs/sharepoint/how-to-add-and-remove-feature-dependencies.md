@@ -1,7 +1,9 @@
 ---
 title: "How to: Add and Remove Feature Dependencies | Microsoft Docs"
+description: Review how to add and remove feature dependencies to your SharePoint solution using the Feature Designer in Visual Studio.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: how-to
 f1_keywords:
   - "MICROSOFT.VISUALSTUDIO.SHAREPOINT.DESIGNERS.CUSTOMDEPENDENCYWINDOW"
   - "VS.SHAREPOINTTOOLS.RAD.FEATUREDESIGNERDEPENDENCY"
@@ -12,7 +14,7 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, features"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

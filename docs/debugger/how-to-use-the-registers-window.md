@@ -1,29 +1,30 @@
 ---
-title: "View register values in the debugger | Microsoft Docs"
-ms.custom: "seodec18"
-ms.date: "11/19/2018"
-ms.topic: "conceptual"
-f1_keywords:
-  - "vs.debug.registers"
-dev_langs:
-  - "CSharp"
-  - "VB"
-  - "FSharp"
-  - "C++"
-  - "JScript"
-helpviewer_keywords:
-  - "registers, debugging"
-  - "register contents"
-  - "flags, Registers window"
-  - "register groups"
-  - "debugging [Visual Studio], Registers window"
-  - "Registers window"
+title: View register values in the debugger | Microsoft Docs
+description: View register values in the Registers window in Visual Studio. During debugging, register values change as code executes in your app.
+ms.custom: "SEO-VS-2020"
+ms.date: 11/19/2018
+ms.topic: how-to
+f1_keywords: 
+  - vs.debug.registers
+dev_langs: 
+  - CSharp
+  - VB
+  - FSharp
+  - C++
+  - JScript
+helpviewer_keywords: 
+  - registers, debugging
+  - register contents
+  - flags, Registers window
+  - register groups
+  - debugging [Visual Studio], Registers window
+  - Registers window
 ms.assetid: 2918ffa2-562f-40d6-9053-ef321bbeb767
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
-ms.workload:
-  - "multiple"
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.workload: 
+  - multiple
 ---
 # View register values in the Registers window (C#, C++, Visual Basic, F#)
 

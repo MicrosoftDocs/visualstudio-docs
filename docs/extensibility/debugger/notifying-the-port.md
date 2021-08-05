@@ -1,15 +1,17 @@
 ---
-title: "Notifying the Port | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Notifying the Port | Microsoft Docs
+description: Learn how the port is notified after launching a program. This article contains a detailed description.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "ports, notification"
+- ports, notification
 ms.assetid: f9fce48e-7d4e-4627-a0fb-77b75428146a
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Notify the port
 After launching a program, the port must be notified, as follows:

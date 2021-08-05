@@ -1,16 +1,18 @@
 ---
 title: MSTest assert classes and methods
+description: Learn how to use Assert statements to test the correctness of your code behavior during a unit test of your application code.
+ms.custom: SEO-VS-2020
 ms.date: 06/07/2018
 ms.topic: reference
 helpviewer_keywords:
-  - "Assert classes"
-  - "Assert methods"
-  - "unit tests, Assert classes"
-ms.author: jillfra
-manager: jillfra
+- Assert classes
+- Assert methods
+- unit tests, Assert classes
+ms.author: mikejo
+manager: jmartens
 ms.workload:
-  - "multiple"
-author: jillre
+- multiple
+author: mikejo5000
 ---
 # Use Assert classes for unit testing
 

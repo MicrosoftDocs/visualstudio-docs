@@ -1,20 +1,21 @@
 ---
-title: "TEXT_DOC_ATTR_2 | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Describes the attributes of a document."
+title: TEXT_DOC_ATTR_2 | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "TEXT_DOC_ATTR_2"
+- TEXT_DOC_ATTR_2
 helpviewer_keywords:
-  - "TEXT_DOC_ATTR_2 enumeration"
+- TEXT_DOC_ATTR_2 enumeration
 ms.assetid: 2333b33b-042b-4ac6-9ebe-e66f95f52f51
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # TEXT_DOC_ATTR_2
 Describes the attributes of a document.

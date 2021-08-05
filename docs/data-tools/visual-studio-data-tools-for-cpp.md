@@ -1,15 +1,17 @@
 ---
 title: Data tools for C++
+description: Explore Visual Studio data tools for C++. Connect to localDB through ODBC and the SQL native client from a C++ application.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: overview
 dev_langs:
-  - "CPP"
-author: jillre
-ms.author: jillfra
-manager: jillfra
+- CPP
+author: ghogen
+ms.author: ghogen
+manager: jmartens
 ms.workload:
-  - "data-storage"
-  - "cplusplus"
+- data-storage
+- cplusplus
 ---
 # Visual Studio data tools for C++
 

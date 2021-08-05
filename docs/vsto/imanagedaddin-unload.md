@@ -1,7 +1,8 @@
 ---
 title: "IManagedAddin::Unload"
+description: "Called just before a managed VSTO Add-in is unloaded."
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: "interface"
 dev_langs:
   - "VB"
   - "CSharp"
@@ -9,7 +10,7 @@ helpviewer_keywords:
   - "Unload method"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

@@ -1,5 +1,7 @@
 ---
 title: "Use WPF controls in Office solutions"
+description: Learn how you can use Windows Presentation Foundation (WPF) controls for designing user interfaces in Visual Studio.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -9,13 +11,13 @@ helpviewer_keywords:
   - "WPF [Office development in Visual Studio]"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---
 # Use WPF controls in Office solutions
 
-Although solutions created by using the Office development tools in Visual Studio are designed to work with directly with Windows Forms controls, you can also use WPF controls in your solutions. Windows Presentation Foundation (WPF) is an alternative to Windows Forms for designing user interfaces. WPF uses a markup language called Extensible Application Markup Language (XAML) to provide new techniques for incorporating UI, media, and documents. For more information, see [WPF overview](../designers/introduction-to-wpf.md).
+Although solutions created by using the Office development tools in Visual Studio are designed to work with directly with Windows Forms controls, you can also use WPF controls in your solutions. Windows Presentation Foundation (WPF) is an alternative to Windows Forms for designing user interfaces. WPF uses a markup language called Extensible Application Markup Language (XAML) to provide new techniques for incorporating UI, media, and documents. For more information, see [WPF overview](/dotnet/framework/wpf/introduction-to-wpf).
 
 [!INCLUDE[appliesto_all](../vsto/includes/appliesto-all-md.md)]
 

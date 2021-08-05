@@ -1,14 +1,16 @@
 ---
-title: "Add a data source to a web performance test"
+title: Add a data source to a web performance test
+description: Learn how to bind data to provide different values to the same test, for example, to provide different values to your form post parameters.
+ms.custom: SEO-VS-2020
 ms.date: 10/03/2016
-ms.topic: conceptual
-helpviewer_keywords:
-  - "Web performance tests, walkthroughs"
-  - "Web performance tests, data binding (database)"
+ms.topic: how-to
+helpviewer_keywords: 
+  - Web performance tests, walkthroughs
+  - Web performance tests, data binding (database)
 ms.assetid: 2ada376d-f168-455d-9643-6acb535360c1
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
 ---
 # Add a data source to a web performance test
 
@@ -58,7 +60,7 @@ Your solution should also include a web performance test that browses through th
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 1. If you don’t have Visual Studio Enterprise, you can download it from the [Visual Studio Downloads](https://visualstudio.microsoft.com/downloads) page.
 

@@ -1,7 +1,8 @@
 ---
+description: "Retrieves a specified number of debug streams in the enumeration sequence."
 title: "IDiaEnumDebugStreams::Next | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: eb8eae5a-be27-45f4-a7bd-6e4ef0652385
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

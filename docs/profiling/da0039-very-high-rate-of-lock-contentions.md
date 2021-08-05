@@ -1,21 +1,23 @@
 ---
-title: "DA0039: Very High Rate of Lock contentions | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-f1_keywords:
-  - "vs.performance.39"
-  - "vs.performance.DA0039"
-  - "vs.performance.rules.DA0039"
+title: DA0039 - Very High Rate of Lock contentions | Microsoft Docs
+description: "System performance data that is collected with the profiling data indicates that an excessively high rate of lock contentions occurred during application execution."
+ms.date: 11/04/2016
+ms.topic: reference
+f1_keywords: 
+  - vs.performance.39
+  - vs.performance.DA0039
+  - vs.performance.rules.DA0039
 ms.assetid: 5a9fc57d-9097-413b-af0c-8726b1a57048
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
-ms.workload:
-  - "multiple"
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+monikerRange: 'vs-2017'
+ms.workload: 
+  - multiple
 ---
 # DA0039: Very high rate of lock contentions
 
-|||
+|Item|Value|
 |-|-|
 |Rule Id|DA0039|
 |Category|.NET Framework Usage|
@@ -29,9 +31,9 @@ ms.workload:
  System performance data that is collected with the profiling data indicates that an excessively high rate of lock contentions occurred during application execution. Consider profiling again using the concurrency profiling method to find the cause of the contention.
 
 ## Rule description
- Locks are used to protect critical sections of code that must be executed serially by one thread at a time in a multi-threaded application. The Microsoft .NET Common Language Run-time (CLR) provides a full set of synchronization and locking primitives. For example, the C# language supports a lock statement (SyncLock in Visual Basic). A managed application can call the Monitor.Enter and Monitor.Exit methods in the System.Threading namespace to acquire and release a lock directly. The .NET Framework supports additional synchronization and locking primitives, including classes that support Mutexes, ReaderWriterLocks, and Semaphores. For more information, see [Overview of Synchronization Primitives](http://go.microsoft.com/fwlink/?LinkId=177867) in the .NET Framework Developer's Guide on the MSDN Web site. The .NET Framework classes are themselves layered over lower-level synchronization services built into the Windows operating system. These include critical section objects and many different Wait and event signaling functions. For more information, see the [Synchronization](http://go.microsoft.com/fwlink/?LinkId=177869) section of Win32 and COM Development in the MSDN Library.
+ Locks are used to protect critical sections of code that must be executed serially by one thread at a time in a multi-threaded application. The Microsoft .NET Common Language Run-time (CLR) provides a full set of synchronization and locking primitives. For example, the C# language supports a lock statement (SyncLock in Visual Basic). A managed application can call the Monitor.Enter and Monitor.Exit methods in the System.Threading namespace to acquire and release a lock directly. The .NET Framework supports additional synchronization and locking primitives, including classes that support Mutexes, ReaderWriterLocks, and Semaphores. For more information, see [Overview of Synchronization Primitives](/dotnet/standard/threading/overview-of-synchronization-primitives) in the .NET Framework Developer's Guide on the MSDN Web site. The .NET Framework classes are themselves layered over lower-level synchronization services built into the Windows operating system. These include critical section objects and many different Wait and event signaling functions. For more information, see the [Synchronization](/windows/win32/sync/synchronization) section of Win32 and COM Development in the MSDN Library.
 
- Underlying both the .NET Framework classes and native Windows objects that are used for synchronization and locking are shared memory locations that must be changed using interlocked operations. Interlocked operations use hardware-specific instructions that operate on shared memory locations to change their state using atomic operations. Atomic operations are guaranteed to be consistent across all processors in the machine. Locks and WaitHandles are .NET objects that automatically use interlocked operations when they are set or reset. There may be other shared memory data structures in your application that also requires you to use interlocked operations in order to be updated in a thread-safe manner. For more information, see [Interlocked Operations](http://go.microsoft.com/fwlink/?LinkId=177870) in the .NET Framework section of the MSDN Library.
+ Underlying both the .NET Framework classes and native Windows objects that are used for synchronization and locking are shared memory locations that must be changed using interlocked operations. Interlocked operations use hardware-specific instructions that operate on shared memory locations to change their state using atomic operations. Atomic operations are guaranteed to be consistent across all processors in the machine. Locks and WaitHandles are .NET objects that automatically use interlocked operations when they are set or reset. There may be other shared memory data structures in your application that also requires you to use interlocked operations in order to be updated in a thread-safe manner. For more information, see [Interlocked Operations](/dotnet/api/system.threading.interlocked) in the .NET Framework section of the MSDN Library.
 
  Synchronization and locking are mechanisms used to ensure that multi-threading applications execute correctly. Each thread of a multi-threaded application is an independent execution unit that is scheduled independently by the operating system. A lock contention occurs whenever a thread that is trying to acquire a lock is delayed because another thread is holding the lock.
 

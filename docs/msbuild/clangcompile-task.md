@@ -1,5 +1,7 @@
 ---
 title: "ClangCompile Task | Microsoft Docs"
+description: Describes the purpose and parameters of the MSBuild ClangCompile task, which wraps the C++ compiler tool, clang.exe.
+ms.custom: SEO-VS-2020
 ms.date: "03/10/2019"
 ms.topic: "reference"
 f1_keywords:
@@ -13,8 +15,8 @@ dev_langs:
 helpviewer_keywords:
   - "MSBuild (C++), ClangCompile task"
   - "ClangCompile task (MSBuild (C++))"
-author: mikeblome
-ms.author: mblome
+author: corob-msft
+ms.author: corob
 ms.workload:
   - "multiple"
 ---

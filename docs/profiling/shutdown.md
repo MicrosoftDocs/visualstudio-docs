@@ -1,13 +1,15 @@
 ---
-title: "Shutdown | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Shutdown | Microsoft Docs
+description: Learn how the Shutdown option waits for any currently profiled process to end or detach, and then it turns off the profiler and closes the profiling data file.
+ms.date: 11/04/2016
+ms.topic: reference
 ms.assetid: a1e37500-4ad1-4670-9737-3d9a20536386
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
-ms.workload:
-  - "multiple"
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+monikerRange: 'vs-2017'
+ms.workload: 
+  - multiple
 ---
 # Shutdown
 The **Shutdown** option waits for any currently profiled process to end or detach, and then it turns off the profiler and closes the profiling data file. The **Shutdown** option must be the last command of a profiling run.

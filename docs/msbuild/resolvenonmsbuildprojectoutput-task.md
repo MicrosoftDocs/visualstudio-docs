@@ -1,5 +1,7 @@
 ---
 title: "ResolveNonMSBuildProjectOutput Task | Microsoft Docs"
+description: Learn how MSBuild uses the ResolveNonMSBuildProjectOutput task to determine the output files for non-MSBuild project references.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
@@ -11,16 +13,18 @@ helpviewer_keywords:
   - "MSBuild, ResolveNonMSBuildProjectOutput task"
   - "ResolveNonMSBuildProjectOutput task [MSBuild]"
 ms.assetid: a0b8fcec-8c8d-4867-85ac-5304c5108e5e
-author: mikejo5000
-ms.author: mikejo
-manager: jillfra
+author: ghogen
+ms.author: ghogen
+manager: jmartens
 ms.workload:
   - "multiple"
 ---
 # ResolveNonMSBuildProjectOutput task
+
 Determines the output files for non-MSBuild project references.
 
 ## Parameters
+
  The following table describes the parameters of the `ResolveNonMSBuildProjectOutput` task.
 
 |Parameter|Description|
@@ -31,8 +35,10 @@ Determines the output files for non-MSBuild project references.
 |`UnresolvedProjectReferences`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` output parameter.<br /><br /> Contains the list of project reference items that could not be resolved by using the preresolved list of outputs.<br /><br /> Because Visual Studio only preresolves non-MSBuild projects, this means that project references in this list are in the MSBuild format.|
 
 ## Remarks
+
  In addition to having the parameters that are listed in the table, this task inherits parameters from the <xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension base class](../msbuild/taskextension-base-class.md).
 
 ## See also
+
 - [Tasks](../msbuild/msbuild-tasks.md)
 - [Task reference](../msbuild/msbuild-task-reference.md)

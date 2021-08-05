@@ -1,12 +1,15 @@
 ---
-title: "How to: Use Rule-based UI Context for Visual Studio Extensions | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Use rule-based UI context for Visual Studio extensions
+titleSuffix: ""
+description: Learn how to use Rules-based UI Contexts, which allows extension authors to define conditions when a UI Context is activated and VSPackages are loaded.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
 ms.assetid: 8dd2cd1d-d8ba-49b9-870a-45acf3a3259d
-author: madskristensen
-ms.author: madsk
+author: leslierichardson95
+ms.author: lerich
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # How to: Use rule-based UI Context for Visual Studio extensions
 
@@ -99,7 +102,7 @@ Rule-based UI Context can be used in various ways:
     name: "Test auto load",
     expression: "(SingleProject | MultipleProjects) & DotConfig",
     termNames: new[] { "SingleProject", "MultipleProjects","DotConfig" },
-    termValues: new[] { VSConstants.UICONTEXT_SolutionHasSingleProject_string , VSConstants.UICONTEXT_SolutionHasMultipleProjects_string , "HierSingleSelectionName:.config$" })]
+    termValues: new[] { VSConstants.UICONTEXT.SolutionHasSingleProject_string , VSConstants.UICONTEXT.SolutionHasMultipleProjects_string , "HierSingleSelectionName:.config$" })]
 ```
 
  Now the expression references three terms. The first two terms, "SingleProject" and "MultipleProjects", refer to other well-known UI Contexts (by their GUIDs). The third term, "DotConfig" is the rule-based UI Context defined earlier in this article.
@@ -130,7 +133,7 @@ Here are the various types of term that are supported:
 |UserSettingsStoreQuery:\<query>|"query" represents a full path into the user settings store, which must evaluate to a non-zero value. The query is split into a "collection" and "propertyName" at the last slash.|
 |ConfigSettingsStoreQuery:\<query>|"query" represents a full path into the config settings store, which must evaluate to a non-zero value. The query is split into a "collection" and "propertyName" at the last slash.|
 |ActiveProjectFlavor:\<projectTypeGuid>|The term will be true whenever the currently selected project is flavored (aggregated) and has a flavor matching the given project type GUID.|
-|ActiveEditorContentType:\<contentType>|The term will be true when the selected document is a text editor with the given content type.|
+|ActiveEditorContentType:\<contentType>|The term will be true when the selected document is a text editor with the given content type. Note: when the selected document is renamed, this term does not refresh until the file is closed and reopened.|
 |ActiveProjectCapability:\<Expression>|The term is true when active project capabilities match the provided expression. An expression can be something like VB &#124; CSharp.|
 |SolutionHasProjectCapability:\<Expression>|Similar to above but term is true when solution has any loaded project that matches to the expression.|
 |SolutionHasProjectFlavor:\<projectTypeGuid>|The term will be true whenever a solution has project that is flavored (aggregated) and has a flavor matching the given project type GUID.|

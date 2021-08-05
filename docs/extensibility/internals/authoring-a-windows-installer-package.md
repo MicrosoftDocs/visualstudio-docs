@@ -1,16 +1,18 @@
 ---
-title: "Authoring a Windows Installer Package | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Authoring a Windows Installer Package | Microsoft Docs
+description: Learn how to author a Windows Installer package for Visual Studio that consists of database tables containing file and registry data.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - ".msi files, VSPackages"
-  - "msi files, VSPackages"
+- .msi files, VSPackages
+- msi files, VSPackages
 ms.assetid: 0ce7c21d-0d3f-47fe-a0bb-eed506e32609
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Author a Windows Installer package
 Data drives the Windows Installer model. Rather than writing a procedural script to copy files and write registry entries, for example, you author rows and columns in database tables that contain file and registry data.
@@ -39,7 +41,7 @@ A variety of third-party setup tools provide a development environment for Windo
 
 - Windows Installer XML toolset
 
-   The Windows Installer XML (WiX) toolset builds Windows Installer packages from XML source files. The WiX toolset is a Microsoft open-source project. You can download the source code and executables from [Wix toolset](http://sourceforge.net/projects/wix).
+   The Windows Installer XML (WiX) toolset builds Windows Installer packages from XML source files. The WiX toolset is a Microsoft open-source project. You can download the source code and executables from [Wix toolset](https://sourceforge.net/projects/wix/).
 
    For commercial products that integrate into [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] by using the [!INCLUDE[vsipsdk](../../extensibility/includes/vsipsdk_md.md)], see [Visual Studio Marketplace](https://marketplace.visualstudio.com/).
 

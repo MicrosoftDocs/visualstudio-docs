@@ -1,20 +1,21 @@
 ---
-title: "IDebugDocumentTextEvents2::onInsertText | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Notifies the debug package that text has been inserted into the document."
+title: IDebugDocumentTextEvents2::onInsertText | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugDocumentTextEvents2::OnInsertText"
+- IDebugDocumentTextEvents2::OnInsertText
 helpviewer_keywords:
-  - "IDebugDocumentTextEvents2::onInsertText"
+- IDebugDocumentTextEvents2::onInsertText
 ms.assetid: 6040181f-7288-4a42-953c-d23f74200431
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugDocumentTextEvents2::onInsertText
 Notifies the debug package that text has been inserted into the document.

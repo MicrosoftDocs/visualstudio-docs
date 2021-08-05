@@ -1,21 +1,23 @@
 ---
 title: Options, Text Editor, C#, IntelliSense
+description: Learn how to use the IntelliSense page in the C# section to modify settings that affect the behavior of IntelliSense for C#.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "VS.ToolsOptionsPages.Text_Editor.CSharp.Intellisense"
+- VS.ToolsOptionsPages.Text_Editor.CSharp.Intellisense
 helpviewer_keywords:
-  - "underlines, wavy"
-  - "IntelliSense [C#], options"
-  - "IntelliSense [C#], wavy underlines"
-  - "wavy underlines"
-  - "Text Editor Options dialog box, IntelliSense"
+- underlines, wavy
+- IntelliSense [C#], options
+- IntelliSense [C#], wavy underlines
+- wavy underlines
+- Text Editor Options dialog box, IntelliSense
 ms.assetid: 3466dedb-e5f4-424c-8dd8-e4941b2f4fc2
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ms.workload:
-  - "dotnet"
+- dotnet
 ---
 # Options, Text Editor, C#, IntelliSense
 

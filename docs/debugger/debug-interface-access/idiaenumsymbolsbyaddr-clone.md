@@ -1,7 +1,8 @@
 ---
+description: "Makes a copy of an IDiaEnumSymbolsByAddr object."
 title: "IDiaEnumSymbolsByAddr::Clone | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: f4582c69-bc3f-4a26-bcca-b641102b85fe
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

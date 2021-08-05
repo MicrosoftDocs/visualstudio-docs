@@ -1,20 +1,21 @@
 ---
-title: "IDebugEngineLaunch2::ResumeProcess | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Resumes process execution."
+title: IDebugEngineLaunch2::ResumeProcess | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugEngineLaunch2::ResumeProcess"
+- IDebugEngineLaunch2::ResumeProcess
 helpviewer_keywords:
-  - "IDebugEngineLaunch2::ResumeProcess"
+- IDebugEngineLaunch2::ResumeProcess
 ms.assetid: 61ccc14e-75c6-44e7-aae4-57a9aac52089
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugEngineLaunch2::ResumeProcess
 Resumes process execution.

@@ -1,20 +1,21 @@
 ---
-title: "METADATA_ADDRESS_PARAM | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "This structure represents a parameter of a method or function."
+title: METADATA_ADDRESS_PARAM | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "METADATA_ADDRESS_PARAM"
+- METADATA_ADDRESS_PARAM
 helpviewer_keywords:
-  - "METADATA_ADDRESS_PARAM structure"
+- METADATA_ADDRESS_PARAM structure
 ms.assetid: 90904f19-0e71-4cb3-a56e-6a2e92f66dfc
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # METADATA_ADDRESS_PARAM
 This structure represents a parameter of a method or function.

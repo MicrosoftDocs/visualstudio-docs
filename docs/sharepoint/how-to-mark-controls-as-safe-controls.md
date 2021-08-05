@@ -1,7 +1,9 @@
 ---
 title: "How to: Mark Controls as Safe Controls | Microsoft Docs"
+description: Mark controls as safe controls in the Safe Control Entries property of a SharePoint project item or in the Package Designer when you add an assembly.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: how-to
 dev_langs:
   - "VB"
   - "CSharp"
@@ -11,14 +13,14 @@ helpviewer_keywords:
   - "safe controls [SharePoint development in Visual Studio]"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---
 # How to: Mark controls as safe controls
   For security, SharePoint differentiates between Web controls that are protected against script injection and Web controls that are not. Protected controls, or *safe controls*, can be accessed by untrusted users. You can mark controls as safe in the Safe Control Entries property of a SharePoint project item or in the **Package Designer** when you add an assembly to the package. For more information, see
 
-- [web.config file Settings Change](http://go.microsoft.com/fwlink/?LinkId=178965) and [Registering a Web Part Assembly as a Safe Control](http://go.microsoft.com/fwlink/?LinkId=171013).
+- [web.config file Settings Change](/previous-versions/office/developer/sharepoint-2007/bb802890(v=office.12)) and [Registering a Web Part Assembly as a Safe Control](/previous-versions/office/developer/sharepoint2003/dd587360(v=office.11)).
 
 > [!IMPORTANT]
 > These procedures are for illustrative purposes. Mark controls safe only if you are certain that they are secure.
@@ -73,7 +75,7 @@ ms.workload:
 
 10. For this example, leave the **Deployment Target** option as GlobalAssemblyCache.
 
-     This step causes the assembly to deploy to the system Global Assembly Cache (GAC). If you want the assembly to deploy to the Web application (Bin) folder, select that option instead. For more information, see [Deploying Web Parts in SharePoint Foundation](http://go.microsoft.com/fwlink/?LinkId=177509).
+     This step causes the assembly to deploy to the system Global Assembly Cache (GAC). If you want the assembly to deploy to the Web application (Bin) folder, select that option instead. For more information, see [Deploying Web Parts in SharePoint Foundation](/previous-versions/office/developer/sharepoint-2010/cc768621(v=office.14)).
 
 11. In the **Safe Controls** box, choose the **Click here to add a new item** button.
 
@@ -88,7 +90,7 @@ ms.workload:
     |Safe Against Script|Leave the **Safe Against Script** check box clear.|
 
     > [!NOTE]
-    > The **Assembly Name** value for assemblies added through the **Advanced** tab of the **Package Designer** cannot be a token, it must be a strongly-named assembly. For more information, see [Creating and Using Strong-Named Assemblies](http://go.microsoft.com/fwlink/?LinkId=177513).
+    > The **Assembly Name** value for assemblies added through the **Advanced** tab of the **Package Designer** cannot be a token, it must be a strongly-named assembly. For more information, see [Creating and Using Strong-Named Assemblies](/previous-versions/dotnet/netframework-4.0/xwb8f617(v=vs.100)).
 
 13. Choose the **Tab** key to create another safe control entry.
 

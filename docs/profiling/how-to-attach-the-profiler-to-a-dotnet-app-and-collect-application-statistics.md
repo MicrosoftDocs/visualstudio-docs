@@ -1,14 +1,16 @@
 ---
-title: "Attach profiler to .NET Framework stand-alone app; get app stats"
-ms.custom: "seodec18"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Attach profiler to .NET stand-alone app; get app stats
+description: Learn to use Visual Studio Profiling Tools command-line tools to attach the profiler to a running .NET Framework stand-alone (client) application and get statistics.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
 ms.assetid: b62fcbc1-791f-474e-890a-a6c332e0c9ea
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
-ms.workload:
-  - "dotnet"
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+monikerRange: 'vs-2017'
+ms.workload: 
+  - dotnet
 ---
 # How to: Attach the profiler to a .NET Framework stand-alone application and collect application statistics by using the command line
 This article describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools command-line tools to attach the profiler to a running .NET Framework stand-alone (client) application and collect performance statistics by using the sampling method.
@@ -66,9 +68,8 @@ This article describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsp
 
    - By default, performance data is sampled every 10,000,000 non-halted processor clock cycles. This is approximately one time every 10 seconds on a 1GH processor. You can specify one of the following options to change the clock cycle interval or to specify a different sampling event.[/targetclr](../profiling/targetclr.md)**:**`Version` specifies the version of the CLR to profile when more than one version of the runtime is loaded in an application. Optional.
 
-   |||
-   |-|-|
    |Sample event|Description|
+   |-|-|
    |[/timer](../profiling/timer.md) **:** `Interval`|Changes the sampling interval to the number of non-halted clock cycles that are specified by `Interval`.|
    |[/pf](../profiling/pf.md) [**:**`Interval`]|Changes the sampling event to page faults. If `Interval` is specified, sets the number of page faults between samples. Default is 10.|
    |[/sys](../profiling/sys-vsperfcmd.md) [**:**`Interval`]|Changes the sampling event to system calls from the process to the operating system kernel (syscalls). If `Interval` is specified, sets the number of calls between samples. Default is 10.|

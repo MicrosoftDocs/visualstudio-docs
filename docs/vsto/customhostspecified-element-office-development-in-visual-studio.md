@@ -1,9 +1,10 @@
 ---
 title: "&lt;customHostSpecified&gt; element (Office development in Visual Studio)"
+description: Learn how the customHostSpecified element indicates that this solution is not a stand-alone application.
 titleSuffix: ""
-ms.custom: "seodec18"
+ms.custom: "seodec18, SEO-VS-2020"
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "VB"
   - "CSharp"
@@ -13,7 +14,7 @@ helpviewer_keywords:
   - "customHostSpecified element"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

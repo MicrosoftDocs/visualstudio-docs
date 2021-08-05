@@ -1,14 +1,16 @@
 ---
-title: "Static helper classes | Microsoft IntelliTest Developer Test Tool"
+title: Static helper classes | Microsoft IntelliTest Developer Test Tool
+description: Learn about the static helper classes that IntelliTest provides for authoring parameterized unit tests.
+ms.custom: SEO-VS-2020
 ms.date: 05/02/2017
 ms.topic: reference
 helpviewer_keywords:
-  - "IntelliTest, Static helper classes"
-ms.author: jillfra
-manager: jillfra
+- IntelliTest, Static helper classes
+ms.author: mikejo
+manager: jmartens
 ms.workload:
-  - "multiple"
-author: jillre
+- multiple
+author: mikejo5000
 ---
 # Static helper classes
 
@@ -194,4 +196,4 @@ public static void AreElementsNotNull<T>(T[] value)
 
 ## Got feedback?
 
-Post your ideas and feature requests on [Developer Community](https://developercommunity.visualstudio.com/content/idea/post.html?space=8).
+Post your ideas and feature requests on [Developer Community](https://aka.ms/feedback/suggest?space=8).

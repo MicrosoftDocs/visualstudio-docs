@@ -11,7 +11,7 @@ ms.assetid: a556f9d7-86a8-408e-aa54-392584845889
 
 When you're developing ASP.NET Core projects, you can configure how your project should be started in development scenarios by customizing the contents of the launchSettings.json file. In Visual Studio for Mac, you can update this file by using the project options UI or by directly editing it. This file is the same configuration file that you can use when running Visual Studio on Windows or from the command line through `dotnet`. This file is stored in your project under the Properties folder.
 
-For more detailed info, see [Use multiple environments in ASP.NET Core](https://docs.microsoft.com/aspnet/core/fundamentals/environments). In this article, we'll cover how to update this file in Visual Studio for Mac.
+For more detailed info, see [Use multiple environments in ASP.NET Core](/aspnet/core/fundamentals/environments). In this article, we'll cover how to update this file in Visual Studio for Mac.
 
 ## Update the start configuration by using Visual Studio for Mac
 
@@ -25,12 +25,12 @@ Select **Run** > **Configurations** > **Default**.
 
 Primarily, you'll configure two things here:
 
- - Environment variables
- - App URL for the project
+- Environment variables
+- App URL for the project
 
 ## Configure environment variables
 
-You can use the grid to specify values for environment variables. These environment variables will be set when you start your application in Visual Studio for Mac. When you're developing ASP.NET Core applications, you should be aware of the special `ASPNETCORE_ENVIRONMENT` environment variable. To learn more, see [Use multiple environments in ASP.NET Core](https://docs.microsoft.com/aspnet/core/fundamentals/environments).
+You can use the grid to specify values for environment variables. These environment variables will be set when you start your application in Visual Studio for Mac. When you're developing ASP.NET Core applications, you should be aware of the special `ASPNETCORE_ENVIRONMENT` environment variable. To learn more, see [Use multiple environments in ASP.NET Core](/aspnet/core/fundamentals/environments).
 
 
 ## Configure the start URL

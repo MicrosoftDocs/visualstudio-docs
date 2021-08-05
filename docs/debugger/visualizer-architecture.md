@@ -1,5 +1,7 @@
 ---
 title: "Visualizer Architecture | Microsoft Docs"
+description: A visualizer displays a specific type of data element, and may allow editing also. Learn about the architecture of a visualizer.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:
@@ -10,7 +12,7 @@ dev_langs:
 ms.assetid: 6aad395f-7170-4d9e-b2b8-a5faf453380e
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---
@@ -80,7 +82,7 @@ The architecture of a debugger visualizer has two parts:
 |<xref:Microsoft.VisualStudio.DebuggerVisualizers.IVisualizerObjectProvider.TransferData%2A><br /><br /> —or—<br /><br /> <xref:Microsoft.VisualStudio.DebuggerVisualizers.IVisualizerObjectProvider.TransferObject%2A>|<xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource.TransferData%2A>|
 
 ## See also
-- [How to: Write a Visualizer](/visualstudio/debugger/create-custom-visualizers-of-data)
+- [How to: Write a Visualizer](create-custom-visualizers-of-data.md)
 - [Walkthrough: Writing a Visualizer in C#](../debugger/walkthrough-writing-a-visualizer-in-csharp.md)
 - [Walkthrough: Writing a Visualizer in Visual Basic](../debugger/walkthrough-writing-a-visualizer-in-visual-basic.md)
 - [Walkthrough: Writing a Visualizer in Visual Basic](../debugger/walkthrough-writing-a-visualizer-in-visual-basic.md)

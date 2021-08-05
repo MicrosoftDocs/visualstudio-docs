@@ -1,20 +1,22 @@
 ---
-title: "How to: Select a Load Test Results Repository"
+title: 'How to: Select a Load Test Results Repository'
+description: Learn how to identify a local or remote SQL server to store your test results. The server must have a load test results store.
+ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
-ms.topic: conceptual
-f1_keywords:
-  - "vs.test.load.dialog.connectstringmissing"
-  - "vs.test.load.dialog.databaseconnectstring"
-helpviewer_keywords:
-  - "load tests, results repository"
-  - "results, load test"
-  - "load test results, repository"
-  - "Load Test Results Repository"
-  - "SQL, Load Test Results Store"
+ms.topic: how-to
+f1_keywords: 
+  - vs.test.load.dialog.connectstringmissing
+  - vs.test.load.dialog.databaseconnectstring
+helpviewer_keywords: 
+  - load tests, results repository
+  - results, load test
+  - load test results, repository
+  - Load Test Results Repository
+  - SQL, Load Test Results Store
 ms.assetid: fa0c4dd9-612f-4a57-b8eb-458f129d9cda
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
 ---
 # How to: Select a load test results repository
 

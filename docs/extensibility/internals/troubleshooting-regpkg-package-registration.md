@@ -1,15 +1,17 @@
 ---
-title: "Troubleshooting RegPkg Package Registration | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Troubleshooting RegPkg Package Registration | Microsoft Docs
+description: Use this information to troubleshoot RegPkg package registration in Visual Studio. Use the version of RegPkg that is appropriate for your package.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: troubleshooting
 helpviewer_keywords:
-  - "RegPkg"
+- RegPkg
 ms.assetid: f33f822f-697a-4bad-9c10-554b4c8f6246
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Troubleshooting RegPkg Package Registration
 > [!NOTE]
@@ -32,3 +34,4 @@ ms.workload:
 
 ## See also
 - [VSPackages](../../extensibility/internals/vspackages.md)
+- [Visual Studio troubleshooting](/troubleshoot/visualstudio/welcome-visual-studio/)

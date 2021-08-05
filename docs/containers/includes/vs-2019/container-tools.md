@@ -1,22 +1,21 @@
 ---
-title: Visual Studio Tools for Docker with ASP.NET Core
+title: Visual Studio Tools for Docker with ASP.NET
 author: ghogen
 description: Learn how to use Visual Studio 2019 tooling and Docker for Windows
 ms.author: ghogen
-ms.date: 02/01/2019
-ms.prod: visual-studio-dev16
-ms.technology: vs-azure
+ms.date: 03/08/2021
+ms.technology: vs-container-tools
 ms.topic: include
 ---
 
-With Visual Studio, you can easily build, debug, and run containerized ASP.NET Core apps and publish them to Azure Container Registry (ACR), Docker Hub, Azure App Service, or your own container registry. In this article, we'll publish to ACR.
+With Visual Studio, you can easily build, debug, and run containerized .NET, ASP.NET, and ASP.NET Core apps and publish them to Azure Container Registry (ACR), Docker Hub, Azure App Service, or your own container registry. In this article, we'll publish an ASP.NET Core app to ACR.
 
 ## Prerequisites
 
 * [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
 * [Visual Studio 2019](https://visualstudio.microsoft.com/downloads) with the **Web Development**, **Azure Tools** workload, and/or **.NET Core cross-platform development** workload installed
-* [.NET Core 2.2 Development Tools](https://dotnet.microsoft.com/download/dotnet-core/2.2) for development with .NET Core 2.2
-* To publish to Azure Container Registry, an Azure subscription. [Sign up for a free trial](https://azure.microsoft.com/offers/ms-azr-0044p/).
+* [.NET Core Development Tools](https://dotnet.microsoft.com/download/dotnet-core/) for development with .NET Core
+* To publish to Azure Container Registry, an Azure subscription. [Sign up for a free trial](https://azure.microsoft.com/free/dotnet/).
 
 ## Installation and setup
 
@@ -24,10 +23,12 @@ For Docker installation, first review the information at [Docker Desktop for Win
 
 ## Add a project to a Docker container
 
-1. Create a new project using the **ASP.NET Core Web Application** template.
-1. Select **Web Application**, and make sure the **Enable Docker Support** checkbox is selected.
+1. Create a new project using the **ASP.NET Core Web App** template or if you want to use the .NET Framework instead of .NET Core, choose **ASP.NET Web Application (.NET Framework)**.
+1. On the **Create new web application** screen, make sure the **Enable Docker Support** checkbox is selected.
 
-   ![Enable Docker Support check box](../../media/container-tools/vs-2019/create-new-web-application.PNG)
+   ![Enable Docker Support check box](../../media/container-tools/vs-2019/webapp-additional-information-31-docker.png)
+
+   The screenshot shows .NET Core; if you're using .NET Framework, it looks a bit different.
 
 1. Select the type of container you want (Windows or Linux) and click **Create**.
 
@@ -35,30 +36,30 @@ For Docker installation, first review the information at [Docker Desktop for Win
 
 A *Dockerfile*, the recipe for creating a final Docker image, is created in the project. Refer to [Dockerfile reference](https://docs.docker.com/engine/reference/builder/) for an understanding of the commands within it.:
 
-```
-FROM microsoft/dotnet:2.2-aspnetcore-runtime-stretch-slim AS base
+```dockerfile
+FROM mcr.microsoft.com/dotnet/core/aspnet:3.1 AS base
 WORKDIR /app
 EXPOSE 80
 EXPOSE 443
 
-FROM microsoft/dotnet:2.2-sdk-stretch AS build
+FROM mcr.microsoft.com/dotnet/core/sdk:3.1 AS build
 WORKDIR /src
-COPY ["HelloDockerTools/HelloDockerTools.csproj", "HelloDockerTools/"]
-RUN dotnet restore "HelloDockerTools/HelloDockerTools.csproj"
+COPY ["WebApplication1/WebApplication1.csproj", "WebApplication1/"]
+RUN dotnet restore "WebApplication1/WebApplication1.csproj"
 COPY . .
-WORKDIR "/src/HelloDockerTools"
-RUN dotnet build "HelloDockerTools.csproj" -c Release -o /app
+WORKDIR "/src/WebApplication1"
+RUN dotnet build "WebApplication1.csproj" -c Release -o /app/build
 
 FROM build AS publish
-RUN dotnet publish "HelloDockerTools.csproj" -c Release -o /app
+RUN dotnet publish "WebApplication1.csproj" -c Release -o /app/publish
 
 FROM base AS final
 WORKDIR /app
-COPY --from=publish /app .
-ENTRYPOINT ["dotnet", "HelloDockerTools.dll"]
+COPY --from=publish /app/publish .
+ENTRYPOINT ["dotnet", "WebApplication1.dll"]
 ```
 
-The preceding *Dockerfile* is based on the [microsoft/aspnetcore](https://hub.docker.com/r/microsoft/aspnetcore/) image, and includes instructions for modifying the base image by building your project and adding it to the container.
+The preceding *Dockerfile* is based on the [microsoft/aspnetcore](https://hub.docker.com/r/microsoft/aspnetcore/) image, and includes instructions for modifying the base image by building your project and adding it to the container. If you're using the .NET Framework, the base image will be different.
 
 When the new project dialog's **Configure for HTTPS** check box is checked, the *Dockerfile* exposes two ports. One port is used for HTTP traffic; the other port is used for HTTPS. If the check box isn't checked, a single port (80) is exposed for HTTP traffic.
 
@@ -66,27 +67,24 @@ When the new project dialog's **Configure for HTTPS** check box is checked, the 
 
 Select **Docker** from the debug drop-down in the toolbar, and start debugging the app. You might see a message with a prompt about trusting a certificate; choose to trust the certificate to continue.
 
-The **Container Tools** option in the **Output** window shows what actions are taking place.
+The **Container Tools** option in the **Output** window shows what actions are taking place. The first time, it might take a while to download the base image, but it's much faster on subsequent runs.
 
-Open the **Package Manager Console** (PMC) from the menu **Tools**> NuGet Package Manager, **Package Manager Console**.
+>[!NOTE]
+> If you need to change ports for debugging, you can do that in the *launchSettings.json* file. See [Container Launch Settings](../../container-launch-settings.md).
 
-The resulting Docker image of the app is tagged as *dev*. The image is based on the *2.2-aspnetcore-runtime* tag of the *microsoft/dotnet* base image. Run the `docker images` command in the **Package Manager Console** (PMC) window. The images on the machine are displayed:
+## Containers window
 
-```console
-REPOSITORY        TAG                     IMAGE ID      CREATED         SIZE
-hellodockertools  dev                     d72ce0f1dfe7  30 seconds ago  255MB
-microsoft/dotnet  2.2-aspnetcore-runtime  fcc3887985bb  6 days ago      255MB
-```
+If you have Visual Studio 2019 version 16.4 or later, you can use the **Containers** window to view running containers on your machine, as well as images that you have available.
 
-> [!NOTE]
-> The **dev** image does not contain the app binaries and other content, as **Debug** configurations use volume mounting to provide the iterative edit and debug experience. To create a production image containing all contents, use the **Release** configuration.
+Open the **Containers** window by using the search box in the IDE (press **Ctrl**+**Q** to use it), type in `container`, and choose the **Containers** window from the list.
 
-Run the `docker ps` command in PMC. Notice the app is running using the container:
+You can mount the **Containers** window in a convenient place, such as below the editor, by moving it around and following the window placement guides.
 
-```console
-CONTAINER ID        IMAGE                  COMMAND               CREATED             STATUS              PORTS                                           NAMES
-cf5d2ef5f19a        hellodockertools:dev   "tail -f /dev/null"   2 minutes ago       Up 2 minutes        0.0.0.0:52036->80/tcp, 0.0.0.0:44342->443/tcp   priceless_cartwright
-```
+In the window, find your container and step through each tab to view the environment variables, port mappings, logs, and the filesystem.
+
+![Screenshot of Containers window](../../media/overview/vs-2019/container-tools-window.png)
+
+For more information, see [View and diagnose containers and images in Visual Studio](../../view-and-diagnose-containers.md).
 
 ## Publish Docker images
 
@@ -94,8 +92,14 @@ Once the develop and debug cycle of the app is completed, you can create a produ
 
 1. Change the configuration drop-down to **Release** and build the app.
 1. Right-click your project in **Solution Explorer** and choose **Publish**.
-1. On the publish target dialog, select the **Container Registry** tab.
-1. Choose **Create New Azure Container Registry** and click **Publish**.
+1. On the **Publish** dialog, select the **Docker Container Registry** tab.
+
+   ![Screenshot of Publish dialog - choose Docker Container Registry](../../media/container-tools/vs-2019/docker-container-registry.png)
+
+1. Choose **Create New Azure Container Registry**.
+
+   ![Screenshot of Publish dialog - choose Create a new Azure Container Registry](../../media/container-tools/vs-2019/select-existing-or-create-new-azure-container-registry.png)
+
 1. Fill in your desired values in the **Create a new Azure Container Registry**.
 
     | Setting      | Suggested value  | Description                                |
@@ -103,14 +107,18 @@ Once the develop and debug cycle of the app is completed, you can create a produ
     | **DNS Prefix** | Globally unique name | Name that uniquely identifies your container registry. |
     | **Subscription** | Choose your subscription | The Azure subscription to use. |
     | **[Resource Group](/azure/azure-resource-manager/resource-group-overview)** | myResourceGroup |  Name of the resource group in which to create your container registry. Choose **New** to create a new resource group.|
-    | **[SKU](https://docs.microsoft.com/azure/container-registry/container-registry-skus)** | Standard | Service tier of the container registry  |
+    | **[SKU](/azure/container-registry/container-registry-skus)** | Standard | Service tier of the container registry  |
     | **Registry Location** | A location close to you | Choose a Location in a [region](https://azure.microsoft.com/regions/) near you or near other services that will use your container registry. |
 
     ![Visual Studio's create Azure Container Registry dialog][0]
 
-1. Click **Create**
+1. Click **Create**. The **Publish** dialog now shows the created registry.
 
-   ![Screenshot showing successful publish](../../media/container-tools/publish-succeeded.png)
+   ![Screenshot of Publish dialog showing Azure Container Registry created](../../media/container-tools/vs-2019/created-azure-container-registry.png)
+
+1. Choose **Finish** to complete the process of publishing your container image to the newly created registry in Azure.
+
+   ![Screenshot showing successful publish](../../media/container-tools/vs-2019/publish-succeeded.png)
 
 ## Next Steps
 

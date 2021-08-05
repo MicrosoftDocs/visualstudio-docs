@@ -1,17 +1,18 @@
 ---
-title: "IDebugEventCallback2 | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "This interface is used by the debug engine (DE) to send debug events to the session debug manager (SDM)."
+title: IDebugEventCallback2 | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugEventCallback2"
+- IDebugEventCallback2
 helpviewer_keywords:
-  - "IDebugEventCallback2"
+- IDebugEventCallback2
 ms.assetid: 2c935ee0-2e22-4be0-a852-73736f33c8c9
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IDebugEventCallback2
 This interface is used by the debug engine (DE) to send debug events to the session debug manager (SDM).

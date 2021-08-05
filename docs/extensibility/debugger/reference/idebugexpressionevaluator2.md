@@ -1,15 +1,16 @@
 ---
-title: "IDebugExpressionEvaluator2 | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Represents an enhanced version of an expression evaluator (EE)."
+title: IDebugExpressionEvaluator2 | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "IDebugExpressionEvaluator2 interface"
+- IDebugExpressionEvaluator2 interface
 ms.assetid: cebe649f-1c77-4d33-854f-30d4f00eceb4
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IDebugExpressionEvaluator2
 > [!IMPORTANT]

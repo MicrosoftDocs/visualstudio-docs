@@ -1,12 +1,14 @@
 ---
-title: "Analyzing Coded UI Tests Using Coded UI Test Logs"
+title: Analyzing Coded UI Tests Using Coded UI Test Logs
+description: Learn about coded UI test logs, which filter and record important information about your coded UI test runs. 
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
-ms.author: jillfra
-manager: jillfra
+ms.author: mikejo
+manager: jmartens
 ms.workload:
-  - "multiple"
-author: jillre
+- multiple
+author: mikejo5000
 ---
 # Analyzing coded UI tests using coded UI test logs
 
@@ -84,4 +86,4 @@ When you run a coded UI test with the modifications to the *QTAgent\*.exe.config
 ## See also
 
 - [Use UI automation to test your code](../test/use-ui-automation-to-test-your-code.md)
-- [How to: Run tests from Microsoft Visual Studio](https://msdn.microsoft.com/Library/1a1207a9-2a33-4a1e-a1e3-ddf0181b1046)
+- [How to: Run tests from Microsoft Visual Studio](/previous-versions/ms182470(v=vs.140))

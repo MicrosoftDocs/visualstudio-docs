@@ -1,13 +1,15 @@
 ---
-title: "Live Unit Testing"
-ms.date: "03/07/2017"
-ms.topic: conceptual
+title: Live Unit Testing
+description: Learn about Live Unit Testing during application development, including supported frameworks and how to configure Live Unit Testing.
+ms.custom: SEO-VS-2020
+ms.date: 04/07/2020
+ms.topic: how-to
 helpviewer_keywords:
-  - "Live Unit Testing"
-author: jillre
-ms.author: jillfra
+- Live Unit Testing
+author: mikejo5000
+ms.author: mikejo
 ms.workload:
-  - "dotnet"
+- dotnet
 ---
 # How to configure and use Live Unit Testing
 
@@ -73,7 +75,7 @@ The configurable options include:
 
 ## Start, pause, and stop
 
-To enable Live Unit Testing, select **Test** > **Live Unit Testing** > **Start** from the top-level Visual Studio menu. When Live Unit Testing is enabled, the options available on the **Live Unit Testing** menu change from a single item, **Start**, to **Pause**, **Stop**, and **Reset Clean**:
+To enable Live Unit Testing, select **Test** > **Live Unit Testing** > **Start** from the top-level Visual Studio menu. When Live Unit Testing is enabled, the options available on the **Live Unit Testing** menu change from a single item, **Start**, to **Pause** and **Stop**:
 
 - **Pause** temporarily suspends Live Unit Testing.
 
@@ -81,10 +83,8 @@ To enable Live Unit Testing, select **Test** > **Live Unit Testing** > **Start**
 
 - **Stop** completely stops Live Unit Testing. Live Unit Testing discards all data that it has collected.
 
-- **Reset Clean** stops Live Unit Testing, deletes persisted data, and then restarts Live Unit Testing.
-
 > [!NOTE]
-> If you start Live Unit Testing in a solution that does not include a unit test project, the **Pause**, **Stop**, and **Reset Clean** options appear on the **Live Unit Testing** menu, but Live Unit Testing does not start. The **Output** window displays a message that begins, "No supported test adapters are referenced by this solution...".
+> If you start Live Unit Testing in a solution that does not include a unit test project, the **Pause** and **Stop** options appear on the **Live Unit Testing** menu, but Live Unit Testing does not start. The **Output** window displays a message that begins, "No supported test adapters are referenced by this solution...".
 
 At any time, you can temporarily pause or completely stop Live Unit Testing. You may want to do this, for example, if you're in the middle of a refactoring and know that your tests will be broken for a while.
 
@@ -126,12 +126,13 @@ From the failed test, you can easily debug the product code, make edits, and con
 
 For example, the test failure shown in the previous image was caused by an incorrect assumption in the test method that non-alphabetic characters return `true` when passed to the <xref:System.Char.IsLower%2A?displayProperty=fullName> method. After you correct the test method, all the tests should pass. You don't have to pause or stop Live Unit Testing.
 
+::: moniker range="vs-2017"
 ## Test Explorer
 
 **Test Explorer** provides an interface that lets you run and debug tests and analyze test results. Live Unit Testing integrates with **Test Explorer**. When Live Unit Testing is not enabled or is stopped, **Test Explorer** displays the status of unit tests the last time a test was run. Source code changes require that you rerun the tests. In contrast, when Live Unit Testing is enabled, the status of unit tests in **Test Explorer** is updated immediately. You don't need to explicitly run the unit tests.
 
 > [!TIP]
-> Open **Test Explorer** by selecting **Test** > **Windows** > **Test Explorer** from the top-level Visual Studio menu.
+> Open **Live Unit Testing** by selecting **Test** > **Windows** > **Test Explorer** from the top-level Visual Studio menu.
 
 You may notice in the **Test Explorer** window that some tests are faded out. For example, when you enable Live Unit Testing after opening a previously saved project, the **Test Explorer** window had faded out all but the failed test, as the following image shows. In this case, Live Unit Testing has rerun the failed test, but it has not rerun the successful tests. This is because Live Unit Testing's persisted data indicates that there were no changes since the tests were last run successfully.
 
@@ -144,13 +145,35 @@ There are some differences between Live Unit Testing automatically running and u
 - Running or debugging tests from the Test Explorer window runs regular binaries, whereas Live Unit Testing runs instrumented binaries.
 - Live Unit Testing does not create a new application domain to run tests, but rather runs tests from the default domain. Tests run from the **Test Explorer** window do create a new application domain.
 - Live Unit Testing runs tests in each test assembly sequentially. In the **Test Explorer** window, you can choose to run multiple tests in parallel.
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+## Live Unit Testing window
+
+**Live Unit Testing**, similar to **Test Explorer**, provides an interface that lets you run and debug tests and analyze test results. When Live Unit Testing is enabled, the status of unit tests in **Test Explorer** is updated immediately. You don't need to explicitly run the unit tests. When Live Unit Testing is not enabled or is stopped, **Live Unit Testing** displays the status of unit tests the last time a test was run. After you restart Live Unit Testing, a source code change is required to rerun the tests.
+
+> [!TIP]
+> Start Live Unit Testing by selecting **Test** > **Live Unit Testing** > **Start** from the top-level Visual Studio menu. You can also open the **Live Unit Testing** window using **View** > **Other Windows** > **Live Unit Testing Window**.
+
+You may notice in the **Live Unit Testing** window that some tests are faded out. For example, when you stop and restart Live Unit Testing, the **Live Unit Testing** window fades out all the tests, as the following image shows. Faded-out test results indicate that the test was not a part of the latest Live Unit Test run. Tests only run when a change to the test or the test's dependencies is detected. If there is no change, it avoids unnecessarily running the test. In this case, the grayed out test result is still "up-to-date" though it was not a part of the latest run.
+
+![Faded out tests in Test Explorer](media/vs-2019/lut-test-explorer.png)
+
+You can rerun any tests that appear faded by making a code change.
+
+There are some differences between Live Unit Testing automatically running and updating test results and explicitly running tests from **Test Explorer**. These differences include:
+
+- Running or debugging tests from the Test Explorer window runs regular binaries, whereas Live Unit Testing runs instrumented binaries.
+- Live Unit Testing does not create a new application domain to run tests, but rather runs tests from the default domain. Tests run from the **Test Explorer** window do create a new application domain.
+- Live Unit Testing runs tests in each test assembly sequentially. In the **Test Explorer** window, you can choose to run multiple tests in parallel.
+::: moniker-end
 
 ## Large solutions
 
 If your solution has 10 or more projects, Visual Studio displays the following dialog when you:
 
 - start Live Unit Testing and there is no persisted data
-- select **Test** > **Live Unit Testing** > **Reset Clean**
+- select **Tools** > **Options** > **Live Unit Testing** > **Delete Persisted Data**
 
 ![Live Unit Testing dialog for large projects](media/lut-large-project.png)
 
@@ -164,16 +187,16 @@ For solutions with many test projects, you can control which projects and indivi
 
 To select the individual projects in unit tests, do the following after Live Unit Testing is started:
 
-1. Right-click the solution in **Solution Explorer** and choose **Live Tests** > **Exclude** to exclude the entire solution.
-1. Right-click each test project that you'd like to include in the tests and choose **Live Tests** > **Include**.
+1. Right-click the solution in **Solution Explorer** and choose **Live Unit Testing** > **Exclude** to exclude the entire solution.
+1. Right-click each test project that you'd like to include in the tests and choose **Live Unit Testing** > **Include**.
 
 ### Exclude individual tests from the code editor window
 
 You can use the code editor window to include or exclude individual test methods. Right-click on the signature of the test method in the code editor window, and then select one of the following options:
 
-- **Live Tests** > **Include \<selected method>**
-- **Live Tests** > **Exclude \<selected method>**
-- **Live Tests** > **Exclude All But \<selected method>**
+- **Live Unit Testing** > **Include \<selected method>**
+- **Live Unit Testing** > **Exclude \<selected method>**
+- **Live Unit Testing** > **Exclude All But \<selected method>**
 
 ### Exclude tests programmatically
 
@@ -194,6 +217,6 @@ Use the following attributes to exclude an entire assembly of tests from Live Un
 ## See also
 
 - [Code testing tools](https://visualstudio.microsoft.com/vs/testing-tools/)
-- [Live Unit Testing blog](https://go.microsoft.com/fwlink/?linkid=842514)
-- [Live Unit Testing FAQ](live-unit-testing-faq.md)
+- [Live Unit Testing blog](https://devblogs.microsoft.com/visualstudio/live-unit-testing-in-visual-studio-2017-enterprise/)
+- [Live Unit Testing FAQ](live-unit-testing-faq.yml)
 - [Channel 9 video: Live Unit Testing in Visual Studio](https://channel9.msdn.com/Events/Visual-Studio/Visual-Studio-2017-Launch/T105)

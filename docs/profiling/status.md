@@ -1,11 +1,13 @@
 ---
 title: "Status | Microsoft Docs"
+description: Learn how the VSPerfCmd.exe Status option displays information about the state of the profiler and any processes that are currently being profiled.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 ms.assetid: ba656fa4-ef9d-4d8c-a3b6-739c3b5d23ae
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+monikerRange: 'vs-2017'
 ms.workload:
   - "multiple"
 ---

@@ -6,7 +6,7 @@ ms.date: 06/05/2019
 ms.topic: overview
 author: JoshuaPartlow
 ms.author: joshuapa
-manager: jillfra
+manager: jmartens
 ms.custom: seodec18
 ms.workload:
   - python
@@ -35,7 +35,7 @@ To get started:
 
 ::: moniker range=">=vs-2019"
 > [!Note]
-> Visual Studio supports Python version 2.7, as well as version 3.5 and greater. While it is possible to use Visual Studio to edit code written in other versions of Python, those versions are not officially supported and features such as IntelliSense and debugging might not work.
+> Visual Studio supports Python version 2.7, as well as version 3.5 through 3.7. While it is possible to use Visual Studio to edit code written in other versions of Python, those versions are not officially supported and features such as IntelliSense and debugging might not work. Python version 3.8 support is still under development, specific details about support can be seen in this tracking [issue on GitHub](https://github.com/microsoft/PTVS/issues/5822).
 ::: moniker-end
 
 ## Support for multiple interpreters
@@ -301,17 +301,17 @@ Visual Studio 2015 and earlier are available at [visualstudio.microsoft.com/vs/o
 
 1. Git support for Visual Studio 2012 is available in the Visual Studio Tools for Git extension, available on the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=TFSPowerToolsTeam.VisualStudioToolsforGit).
 
-1. Deployment to Azure Web Site requires [Azure SDK for .NET 2.1 - Visual Studio 2010 SP1](https://go.microsoft.com/fwlink/?LinkId=313855). Later versions don't support Visual Studio 2010.
+1. Deployment to Azure Web Site requires [Azure SDK for .NET 2.1 - Visual Studio 2010 SP1](https://www.microsoft.com/web/handlers/webpi.ashx/getinstaller/VS2010SP1AzurePack.2E2.2E1.appids). Later versions don't support Visual Studio 2010.
 
-1. Support for Azure Web Role and Worker Role requires [Azure SDK for .NET 2.3 - VS 2012](https://go.microsoft.com/fwlink/?LinkId=323511) or later.
+1. Support for Azure Web Role and Worker Role requires [Azure SDK for .NET 2.3 - VS 2012](https://www.microsoft.com/web/handlers/webpi.ashx/getinstaller/VWDOrVs11AzurePack.appids) or later.
 
-1. Support for Azure Web Role and Worker Role requires [Azure SDK for .NET 2.3 - VS 2013](https://go.microsoft.com/fwlink/?LinkId=323510) or later.
+1. Support for Azure Web Role and Worker Role requires [Azure SDK for .NET 2.3 - VS 2013](https://www.microsoft.com/web/handlers/webpi.ashx/getinstaller/VWDOrVs2013AzurePack.appids) or later.
 
 1. Django template editor in Visual Studio 2013 has some known issues that are resolved by installing Update 2.
 
-1. Requires Windows 8 or later. Visual Studio 2013 Express for Web doesn't have the **Attach to Process** dialog, but Azure Web Site remote debugging is still possible using the **Attach Debugger (Python)** command in **Server Explorer**. Remote debugging requires [Azure SDK for .NET 2.3 - Visual Studio 2013](https://go.microsoft.com/fwlink/?LinkId=323510) or later.
+1. Requires Windows 8 or later. Visual Studio 2013 Express for Web doesn't have the **Attach to Process** dialog, but Azure Web Site remote debugging is still possible using the **Attach Debugger (Python)** command in **Server Explorer**. Remote debugging requires [Azure SDK for .NET 2.3 - Visual Studio 2013](https://www.microsoft.com/web/handlers/webpi.ashx/getinstaller/VWDOrVs2013AzurePack.appids) or later.
 
-1. Requires Windows 8 or later. **Attach Debugger (Python)** command in **Server Explorer** requires [Azure SDK for .NET 2.3 - Visual Studio 2013](https://go.microsoft.com/fwlink/?LinkId=323510) or later.
+1. Requires Windows 8 or later. **Attach Debugger (Python)** command in **Server Explorer** requires [Azure SDK for .NET 2.3 - Visual Studio 2013](https://www.microsoft.com/web/handlers/webpi.ashx/getinstaller/VWDOrVs2013AzurePack.appids) or later.
 
 1. Requires Windows 8 or later.
 ::: moniker-end

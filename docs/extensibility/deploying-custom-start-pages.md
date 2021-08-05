@@ -1,16 +1,18 @@
 ---
-title: "Deploying Custom Start Pages | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Deploying Custom Start Pages | Microsoft Docs
+description: Learn how to deploy custom Start Pages by using VSIX deployment or by copying the files to the correct locations on the target computer.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "package start page"
-  - "deploy start page"
+- package start page
+- deploy start page
 ms.assetid: 4a7eb360-de83-41d5-be53-3cfb160d19f9
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 monikerRange: vs-2017
 ---
 # Deploy custom Start Pages

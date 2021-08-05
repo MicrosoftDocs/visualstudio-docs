@@ -1,12 +1,14 @@
 ---
-title: "Create a Coded UI Test"
+title: Create a Coded UI Test
+description: Learn how to use a coded UI test for a Windows Presentation Framework app and see solutions for tests with timing issues and refactoring of controls.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
-ms.author: jillfra
-manager: jillfra
+ms.author: mikejo
+manager: jmartens
 ms.workload:
-  - "multiple"
-author: jillre
+- multiple
+author: mikejo5000
 ---
 # Walkthrough: Create, edit, and maintain a coded UI test
 

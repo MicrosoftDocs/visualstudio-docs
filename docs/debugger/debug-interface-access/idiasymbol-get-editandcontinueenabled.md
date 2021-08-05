@@ -1,7 +1,8 @@
 ---
+description: "Retrieves a flag indicating whether the module was compiled with the /Z7, /Zi, /ZI (Debug Information Format)) compiler switch."
 title: "IDiaSymbol::get_editAndContinueEnabled | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: cd703c64-9ff8-4654-8493-8cde9309cb22
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

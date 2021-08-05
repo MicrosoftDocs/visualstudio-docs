@@ -1,29 +1,32 @@
 ---
-title: "MSBuild Tasks Specific to C++ | Microsoft Docs"
-ms.date: "03/10/2019"
-ms.topic: "reference"
+title: MSBuild Tasks Specific to C++ | Microsoft Docs
+description: See MSBuild tasks that are available when C++ is installed, which MSBuild uses when building C++ code.
+ms.custom: SEO-VS-2020
+ms.date: 03/10/2019
+ms.topic: reference
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+- VB
+- CSharp
+- C++
+- jsharp
 helpviewer_keywords:
-  - "MSBuild, tasks specific to C++"
+- MSBuild, tasks specific to C++
 ms.assetid: 05410f0c-7356-4692-bc00-20664421c9ff
-author: mikejo5000
-ms.author: mikejo
-manager: jillfra
+author: ghogen
+ms.author: ghogen
+manager: jmartens
 ms.workload:
-  - "cplusplus"
+- cplusplus
 ---
 # MSBuild tasks specific to C++
-Tasks provide the code that runs during the build process. When C++ is installed, the following tasks are available, in addition to those that are installed with [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)]. For more information, see [MSBuild (C++) overview](/cpp/build/msbuild-visual-cpp-overview).
+
+Tasks provide the code that runs during the build process. When C++ is installed, the following tasks are available, in addition to those that are installed with MSBuild. For more information, see [MSBuild (C++) overview](/cpp/build/msbuild-visual-cpp-overview).
 
  In addition to the parameters for each task, every task also has the following parameters.
 
 | Parameter | Description |
 |-------------------| - |
-| `Condition` | Optional `String` parameter.<br /><br /> A `Boolean` expression that the [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] engine uses to determine whether this task will be executed. For information about the conditions that are supported by [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)], see [Conditions](../msbuild/msbuild-conditions.md). |
+| `Condition` | Optional `String` parameter.<br /><br /> A `Boolean` expression that the MSBuild engine uses to determine whether this task will be executed. For information about the conditions that are supported by MSBuild, see [Conditions](../msbuild/msbuild-conditions.md). |
 | `ContinueOnError` | Optional parameter. Can contain one of the following values:<br /><br /> -   **WarnAndContinue** or **true**. When a task fails, subsequent tasks in the [Target](../msbuild/target-element-msbuild.md) element and the build continue to execute, and all errors from the task are treated as warnings<br />-   **ErrorAndContinue**. When a task fails, subsequent tasks in the `Target` element and the build continue to execute, and all errors from the task are treated as errors.<br />-   **ErrorAndStop** or **false** (default). When a task fails, the remaining tasks in the`Target` element and the build aren't executed, and the entire `Target` element and the build are considered to have failed.<br /><br /> Versions of the .NET Framework before 4.5 supported only the `true` and `false` values.<br /><br /> For more information, see [How to: Ignore errors in tasks](../msbuild/how-to-ignore-errors-in-tasks.md). |
 
 ### Related topics

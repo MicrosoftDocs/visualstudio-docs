@@ -1,7 +1,9 @@
 ---
 title: "Creating SharePoint Workflow Solutions | Microsoft Docs"
+description: Create SharePoint workflow solutions using tools to make custom workflows that manage the lifecycle of documents and list items in SharePoint websites.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: overview
 f1_keywords:
   - "VSTO.NewSharePointWorkflowWizard.Page3"
   - "VS.SharePointTools.Workflow.WorkflowName"
@@ -17,7 +19,7 @@ helpviewer_keywords:
   - "workflows [SharePoint development in Visual Studio]"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---
@@ -25,12 +27,12 @@ ms.workload:
 
 [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] provides tools to help you create custom workflows that manage the life cycle of documents and list items in a SharePoint Web site. Items provided include a designer, a set of activity controls, and the necessary assembly references. [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] also includes the **SharePoint Customization Wizard**, to help create and configure the workflows.
 
-For more information about SharePoint, see [Microsoft SharePoint Products and Technologies](http://go.microsoft.com/fwlink/?LinkId=178470).
+For more information about SharePoint, see [Microsoft SharePoint Products and Technologies](/sharepoint/dev/).
 
 ## Workflows in SharePoint
  When you add a workflow to a SharePoint library or list, you enforce a business process on all items in the library or list. A workflow describes the actions that the system or users must perform on each item, such as sending the item to be edited and then reviewed. These actions, known as *activities*, are the building blocks of the workflow.
 
- You can create SharePoint workflows in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] and deploy them to a SharePoint Web site. After a workflow is deployed to SharePoint, you associate it with a library or list. It can then be started automatically, by a process, or manually, by a user. For more information about workflow operation, see [Develop SharePoint workflows using Visual Studio](https://docs.microsoft.com/sharepoint/dev/general-development/develop-sharepoint-workflows-using-visual-studio).
+ You can create SharePoint workflows in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] and deploy them to a SharePoint Web site. After a workflow is deployed to SharePoint, you associate it with a library or list. It can then be started automatically, by a process, or manually, by a user. For more information about workflow operation, see [Develop SharePoint workflows using Visual Studio](/sharepoint/dev/general-development/develop-sharepoint-workflows-using-visual-studio).
 
 ## Create custom SharePoint workflows
  Two SharePoint workflow projects are available to you in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]: **Sequential Workflow** and **State Machine Workflow**.
@@ -43,7 +45,7 @@ For more information about SharePoint, see [Microsoft SharePoint Products and Te
 
  ![State Machine Workflow](../sharepoint/media/sp-state.png "State Machine Workflow")
 
- For more information about workflow types, see [Workflow Types](http://go.microsoft.com/fwlink/?LinkId=178995).
+ For more information about workflow types, see [Workflow Types](/previous-versions/office/developer/sharepoint-2010/ms468447(v=office.14)).
 
 ### Use the wizard
  When you create a SharePoint workflow project in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], you first specify its settings in the **SharePoint Customization Wizard**. The wizard uses these settings to create a project in **Solution Explorer**. This project contains a code file, several files that are used to deploy the workflow, and references to assemblies that are required to create a custom SharePoint workflow.
@@ -79,20 +81,20 @@ For more information about SharePoint, see [Microsoft SharePoint Products and Te
 
 - **Windows Workflow v3.5**
 
-  Not all core workflow activities are supported by SharePoint. For more information, see [Workflow Activities for Windows SharePoint Services Overview](http://go.microsoft.com/fwlink/?LinkID=156094).
+  Not all core workflow activities are supported by SharePoint. For more information, see [Workflow Activities for Windows SharePoint Services Overview](/previous-versions/office/developer/sharepoint-2010/ms446847(v=office.14)).
 
 #### SharePoint workflow activities
- The **SharePoint Workflow** tabs contain specialized activities for use in [!INCLUDE[wss_14_long](../sharepoint/includes/wss-14-long-md.md)]. These activities simplify and streamline the development of document life cycle workflows. For more information about the activities listed in the **SharePoint Workflow** tab, see [Workflow Activities for Windows SharePoint Services Overview](http://go.microsoft.com/fwlink/?LinkID=156094).
+ The **SharePoint Workflow** tabs contain specialized activities for use in [!INCLUDE[wss_14_long](../sharepoint/includes/wss-14-long-md.md)]. These activities simplify and streamline the development of document life cycle workflows. For more information about the activities listed in the **SharePoint Workflow** tab, see [Workflow Activities for Windows SharePoint Services Overview](/previous-versions/office/developer/sharepoint-2010/ms446847(v=office.14)).
 
 #### Windows workflow activities
  The **Windows Workflow** tabs contain activities that are provided by the [!INCLUDE[TLA#tla_workflow](../sharepoint/includes/tlasharptla-workflow-md.md)]. You can use these activities to create workflow schedules for any kind of Windows workflow application.
 
- For more information about the activities listed in the **Windows Workflows** tab, see [Windows Workflow Foundation Activities](http://go.microsoft.com/fwlink/?LinkID=156096). For more information about the Windows Workflow Foundation, see [Windows Workflow Foundation Overview](http://go.microsoft.com/fwlink/?LinkID=128632).
+ For more information about the activities listed in the **Windows Workflows** tab, see [Windows Workflow Foundation Activities](/previous-versions/dotnet/netframework-3.5/ms733615(v=vs.90)). For more information about the Windows Workflow Foundation, see [Windows Workflow Foundation Overview](/previous-versions/dotnet/netframework-3.5/ms734631(v=vs.90)).
 
 ### Work with activities in the designer
  Your workflow schedule can contain a combination of Windows Workflow activities and SharePoint Workflow activities.
 
- The designer displays visual cues to help you position and configure activities correctly. When you drag or copy an activity onto the workflow schedule, the designer displays green plus-sign (+) icons that show you valid locations for that activity in the workflow. You cannot position an activity in a location where it would not be valid. For example, you cannot position a Send activity as the first activity in a Listen activity branch. For more information, see [SharePoint Designer Developer Center](http://go.microsoft.com/fwlink/?LinkId=178476).
+ The designer displays visual cues to help you position and configure activities correctly. When you drag or copy an activity onto the workflow schedule, the designer displays green plus-sign (+) icons that show you valid locations for that activity in the workflow. You cannot position an activity in a location where it would not be valid. For example, you cannot position a Send activity as the first activity in a Listen activity branch. For more information, see [SharePoint Designer Developer Center](https://developer.microsoft.com/office/docs).
 
 ## Collect information during the workflow
  You might want to gather information from users at predefined times in the workflow. You can collect information by using forms or item properties.

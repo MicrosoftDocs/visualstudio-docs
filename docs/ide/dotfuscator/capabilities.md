@@ -1,22 +1,22 @@
 ---
 title: Capabilities of Dotfuscator
 ms.date: 03/28/2019
-ms.devlang: "dotnet"
+ms.devlang: dotnet
 ms.topic: conceptual
 keywords: Dotfuscator, Dotfuscator Community, Dotfuscator CE, PreEmptive, PreEmptive Solutions, PreEmptive Protection, protection, community edition, obfuscation, .NET, free, Visual Studio 2017, Visual Studio 2019, Visual Studio
 helpviewer_keywords:
-  - "PreEmptive Protection Dotfuscator"
-  - "Dotfuscator Community Edition"
-  - "Dotfuscator Community"
-  - "Dotfuscator CE"
-  - "Dotfuscator"
-  - "obfuscation"
-  - "protection"
-description: "Learn the capabilities of the free copy of Dotfuscator Community included in Visual Studio."
+- PreEmptive Protection Dotfuscator
+- Dotfuscator Community Edition
+- Dotfuscator Community
+- Dotfuscator CE
+- Dotfuscator
+- obfuscation
+- protection
+description: Learn the capabilities of the free copy of Dotfuscator Community included in Visual Studio.
 ms.assetid: 0ee89c58-c900-48fc-a6a2-65ace00e8bab
-author: "Joe-Sewell-PreEmptive"
-ms.author: jillfra
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ---
 # Capabilities of Dotfuscator
 
@@ -59,7 +59,7 @@ Many of these same methods may also be used to enforce [end-of-life deadlines][s
 
 <!-- Copyright © 2019 PreEmptive Solutions, LLC -->
 
-[assemblies]:  https://docs.microsoft.com/dotnet/standard/assembly-format
+[assemblies]:  /dotnet/standard/assembly-format
 [uwp]:  https://www.preemptive.com/blog/article/856-uwp-applications-in-dotfuscator-ce/91-dotfuscator-ce
 [xamarin]:  https://www.preemptive.com/obfuscating-xamarin-with-dotfuscator
 

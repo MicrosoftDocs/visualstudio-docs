@@ -1,7 +1,8 @@
 ---
+description: "Retrieves the object file name to which the source was compiled."
 title: "IDiaInjectedSource::get_objectFilename | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 7c42847a-f0df-443a-a9fe-c495c1271ea8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

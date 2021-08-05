@@ -1,19 +1,21 @@
 ---
-title: "How to: Create a Nullable Type (Class Designer)"
+title: 'How to: Create a Nullable Type (Class Designer)'
+description: Learn how to create a nullable type in Class Designer.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
-  - "nullable types, Class Designer"
-  - "Class Designer [Visual Studio], nullable types"
+- nullable types, Class Designer
+- Class Designer [Visual Studio], nullable types
 ms.assetid: 84673a89-3f6d-4668-919e-1c0f56182fe5
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 dev_langs:
- - CSharp
- - VB
+- CSharp
+- VB
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Create a nullable type in Class Designer
 

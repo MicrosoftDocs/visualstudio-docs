@@ -1,13 +1,15 @@
 ---
-title: "Manifest to Code | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Manifest to Code | Microsoft Docs
+description: Learn how to use the Manifest from Code tool that takes an .imagemanifest file for use with the Visual Studio Image Service.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: reference
 ms.assetid: 17ecacea-397d-4a97-b003-01bd5d56e936
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Manifest to Code
 The Manifest to Code tool is a console application that takes an .imagemanifest file for the Visual Studio Image Service and generates a wrapper file or files for referencing the image manifest's values in C++, C#, VB, or .vsct files for Visual Studio extensions. This tool generates wrapper files that can be used for requesting images from the Visual Studio Image Service directly, or for passing the manifest values through APIs if the code does not handle any of its own UI and rendering.
@@ -19,9 +21,8 @@ The Manifest to Code tool is a console application that takes an .imagemanifest 
 
  **Arguments**
 
-||||
-|-|-|-|
 |**Switch name**|**Notes**|**Required or Optional**|
+|-|-|-|
 |/manifest|The path to the image manifest to use to create or update the code wrapper.|Required|
 |/language|The language in which to generate the code wrapper.<br /><br /> Valid values: CPP, C++, CS, CSharp, C#, VB, or VSCT The values are case-insensitive.<br /><br /> For the VSCT language option, the /monikerClass, /classAccess, and /namespace options are ignored.|Required|
 |/imageIdClass|The name of the imageIdClass and the associated file created by the tool. For the C++ language option, only .h files are generated.<br /><br /> Default: \<Manifest Path>\MyImageIds.\<Lang Ext>|Optional|

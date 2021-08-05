@@ -1,5 +1,7 @@
 ---
 title: "Global access to objects in Office projects"
+description: Learn how you can use the Globals class to access several different project items at run time from any code in the project.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -27,7 +29,7 @@ helpviewer_keywords:
   - "ThisAddIn_Shutdown"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---
@@ -51,20 +53,19 @@ ms.workload:
 
 - A factory object that enables you to create Ribbon controls, and host items at run time in projects that target the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or the [!INCLUDE[net_v45](../vsto/includes/net-v45-md.md)]. You can access this object by using the `Globals.Factory` property. This object is an instance of a class that implements one the following interfaces:
 
-  - <xref:Microsoft.Office.Tools.Factory>
+  - [Microsoft.Office.Tools.Factory](xref:Microsoft.Office.Tools.Factory)
 
-  - <xref:Microsoft.Office.Tools.Excel.Factory>
+  - [Microsoft.Office.Tools.Excel.Factory](xref:Microsoft.Office.Tools.Excel.Factory)
 
-  - <xref:Microsoft.Office.Tools.Outlook.Factory>
+  - [Microsoft.Office.Tools.Outlook.Factory](xref:Microsoft.Office.Tools.Outlook.Factory)
 
-  - <xref:Microsoft.Office.Tools.Word.Factory>
+  - [Microsoft.Office.Tools.Word.Factory](xref:Microsoft.Office.Tools.Word.Factory)
 
   For example, you can use the `Globals.Sheet1` property to insert text into a <xref:Microsoft.Office.Tools.Excel.NamedRange> control on `Sheet1` when a user clicks a button on the actions pane in a document-level project for Excel.
 
-  [!code-vb[Trin_VstcoreProgramming#1](../vsto/codesnippet/VisualBasic/Trin_VstcoreProgrammingExcelVB/Sheet1.vb#1)]
-  [!code-csharp[Trin_VstcoreProgramming#1](../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingExcelCS/Sheet1.cs#1)]
+  :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreProgrammingExcelVB/Sheet1.vb" id="Snippet1":::
+  :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingExcelCS/Sheet1.cs" id="Snippet1":::
 
-## Initialize the Globals class
  Code that attempts to use the `Globals` class before the document or VSTO Add-in is initialized might throw a run time exception. For example, using `Globals` when declaring a class-level variable might fail because the `Globals` class might not be initialized with references to all of the host items before the declared object is instantiated.
 
 > [!NOTE]

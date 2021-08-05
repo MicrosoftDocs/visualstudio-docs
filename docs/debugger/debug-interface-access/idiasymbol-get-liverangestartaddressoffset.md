@@ -1,7 +1,8 @@
 ---
+description: "Returns the offset part of the starting address of the range in which the local symbol is valid."
 title: "IDiaSymbol::get_liveRangeStartAddressOffset | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: f5b28914-0a14-4b22-8259-59d7f97ee610
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

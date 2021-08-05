@@ -1,23 +1,27 @@
 ---
-title: "AssignTargetPath Task | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
+title: AssignTargetPath Task | Microsoft Docs
+description: Use the MSBuild AssignTargetPath task to accept a list of files and add TargetPath attributes if they are not already specified.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: reference
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+- VB
+- CSharp
+- C++
+- jsharp
 ms.assetid: 0e830e31-3bcf-4259-b2a8-a5df49b92d51
-author: mikejo5000
-ms.author: mikejo
-manager: jillfra
+author: ghogen
+ms.author: ghogen
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # AssignTargetPath task
+
 This task accepts a list of files and adds `<TargetPath>` attributes if they are not already specified.
 
 ## Task parameters
+
 The following table describes the parameters of the `AssignTargetPath` task.
 
 |Parameter|Description|
@@ -27,9 +31,11 @@ The following table describes the parameters of the `AssignTargetPath` task.
 |`AssignedFiles`|Optional<br /><br /> <xref:Microsoft.Build.Framework.ITaskItem> `[]` output parameter.<br /><br /> Contains the resulting list of files.|
 
 ## Remarks
+
 In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension base class](../msbuild/taskextension-base-class.md).
 
 ## Example
+
 The following example executes the `AssignTargetPath` task to configure a project.
 
 ```xml
@@ -46,5 +52,6 @@ RootFolder="Resources"
 ```
 
 ## See also
+
 - [Tasks](../msbuild/msbuild-tasks.md)
 - [Task reference](../msbuild/msbuild-task-reference.md)

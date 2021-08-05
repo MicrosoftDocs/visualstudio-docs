@@ -1,13 +1,15 @@
 ---
 title: Rules Propagate Changes Within the Model
+description: Learn how you can create a store rule to propagate a change from one element to another in Visualization and Modeling SDK (VMSDK).
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
   - "Domain-Specific Language, programming domain models"
   - "Domain-Specific Language, rules"
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: mgoertz-msft
+ms.author: mgoertz
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

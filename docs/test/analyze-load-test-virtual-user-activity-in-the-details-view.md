@@ -1,16 +1,18 @@
 ---
-title: "Analyzing Load Test Virtual User Activity"
+title: Analyzing Load Test Virtual User Activity
+description: Learn about the Details view, which displays the Virtual User Activity Chart. Analyze what individual virtual users did during the load test. 
+ms.custom: SEO-VS-2020
 ms.date: 10/03/2016
 ms.topic: conceptual
 f1_keywords:
-  - "vs.test.load.monitor.activitychart"
+- vs.test.load.monitor.activitychart
 helpviewer_keywords:
-  - "virtual user activity chart"
-  - "load test, virtual user activity chart"
+- virtual user activity chart
+- load test, virtual user activity chart
 ms.assetid: 63f4bd42-3cfb-4eee-af68-e8334976539e
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
 ---
 # Analyzing load test virtual user activity in the Details view of the Load Test Analyzer
 

@@ -1,7 +1,8 @@
 ---
-title: "Error: Transact-SQL execution ended without debugging | Microsoft Docs"
+description: "This error occurs when you're trying to debug a Transact-SQL or SQLCLR procedure and the debugger doesn't receive debugging messages from the SQL Server."
+title: "Transact-SQL execution ended without debugging | Microsoft Docs"
 ms.date: "11/08/2018"
-ms.topic: "troubleshooting"
+ms.topic: "error-reference"
 f1_keywords:
   - "vs.debug.error.sqlde_sql_executed_but_not_debugged"
 dev_langs:
@@ -12,7 +13,7 @@ dev_langs:
   - "SQL"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---
@@ -34,7 +35,7 @@ There are two accounts involved:
 
   To correct this error, you might need to:
 
-  - Verify your permissions settings. For more information, see [How to: Set SQL Server Permissions for Debugging](https://msdn.microsoft.com/84e088d0-0409-41d4-841b-f5d4b0fda414).
+  - Verify your permissions settings. For more information, see [How to: Set SQL Server Permissions for Debugging](/previous-versions/w1bhybwz(v=vs.100)).
 
   - Make sure SQL debugging if set up correctly.
 
@@ -42,7 +43,7 @@ There are two accounts involved:
 
 ## See also
 
-- [Setting Up SQL Debugging](https://docs.microsoft.com/previous-versions/visualstudio/visual-studio-2010/s4sszxst(v=vs.100))
-- [How to: Set SQL Server Permissions for Debugging](https://msdn.microsoft.com/84e088d0-0409-41d4-841b-f5d4b0fda414)
+- [Setting Up SQL Debugging](/previous-versions/visualstudio/visual-studio-2010/s4sszxst(v=vs.100))
+- [How to: Set SQL Server Permissions for Debugging](/previous-versions/w1bhybwz(v=vs.100))
 - [Debugger Settings and Preparation](../debugger/debugger-settings-and-preparation.md)
 - [Remote Debugging](../debugger/remote-debugging.md)

@@ -1,11 +1,14 @@
 ---
 title: "Command-Line Profiling Tools Reference | Microsoft Docs"
+description: Command-line performance tools enable programmers to profile their applications at the command prompt. See an overview of the tools, with links to details.
+ms.custom: SEO-VS-2020.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 ms.assetid: a34ba40e-01b1-4386-90b1-c8e628a8c527
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+monikerRange: 'vs-2017'
 ms.workload:
   - "multiple"
 ---

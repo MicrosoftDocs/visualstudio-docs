@@ -1,6 +1,7 @@
 ---
 title: "Use dump files in the debugger | Microsoft Docs"
-ms.custom: "seodec18"
+description: A dump file is a snapshot of an executing app and loaded modules. Consider creating a dump file for situations where you don't have debug access to the app.
+ms.custom: "SEO-VS-2020"
 ms.date: "11/05/2018"
 ms.topic: "conceptual"
 f1_keywords:
@@ -19,7 +20,7 @@ helpviewer_keywords:
 ms.assetid: b71be6dc-57e0-4730-99d2-b540a0863e49
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---
@@ -30,13 +31,17 @@ A *dump file* is a snapshot that shows the process that was executing and module
 
 Opening a dump file with a heap in Visual Studio is something like stopping at a breakpoint in a debug session. Although you can't continue execution, you can examine the stacks, threads, and variable values of the app at the time of the dump.
 
-Dumps are mostly used to debug issues from machines that developers don't have access to. You can use a dump file from a customer's machine when you can't reproduce a crash or hang on your own machine. Testers also create dumps to save crash or hang data to use for more testing.
+Dumps are mostly used to debug issues from machines that developers don't have access to. You can use a dump file from a customer's machine when you can't reproduce a crash or unresponsive program on your own machine. Testers also create dumps to save crash or unresponsive program data to use for more testing.
 
 The Visual Studio debugger can save dump files for managed or native code. It can debug dump files created by Visual Studio or by other apps that save files in the *minidump* format.
 
 ## <a name="BKMK_Requirements_and_limitations"></a> Requirements and limitations
 
 - To debug dump files from 64-bit machines, Visual Studio must be running on a 64-bit machine.
+
+::: moniker range=">= vs-2019"
+- Visual Studio can debug dump files of managed apps from Linux OS. 
+::: moniker-end
 
 - Visual Studio can debug dump files of native apps from ARM devices. It can also debug dumps of managed apps from ARM devices, but only in the native debugger.
 
@@ -69,7 +74,7 @@ With [Just-In-Time Debugging](../debugger/just-in-time-debugging-in-visual-studi
 1. Browse to a path and select a name for the dump file, and then select **Save**.
 
 >[!NOTE]
->You can create dump files with any program that supports the Windows minidump format. For example, the **Procdump** command-line utility from [Windows Sysinternals](https://technet.microsoft.com/sysinternals/default) can create process crash dump files based on triggers or on demand. See [Requirements and limitations](../debugger/using-dump-files.md#BKMK_Requirements_and_limitations) for information about using other tools to create dump files.
+>You can create dump files with any program that supports the Windows minidump format. For example, the **Procdump** command-line utility from [Windows Sysinternals](/sysinternals/) can create process crash dump files based on triggers or on demand. See [Requirements and limitations](../debugger/using-dump-files.md#BKMK_Requirements_and_limitations) for information about using other tools to create dump files.
 
 ## <a name="BKMK_Open_a_dump_file"></a> Open a dump file
 
@@ -110,6 +115,7 @@ If Visual Studio can't find the files it needs to debug a module in the dump, it
 
 ## See also
 
+- [How to debug a managed memory dump with .NET Diagnostic Analyzers](../debugger/how-to-debug-managed-memory-dump.md)
 - [Just-In-Time debugging](../debugger/just-in-time-debugging-in-visual-studio.md)
 - [Specify symbol (.pdb) and source files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)
 - [IntelliTrace](../debugger/intellitrace.md)

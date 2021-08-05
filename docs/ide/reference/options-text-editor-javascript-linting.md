@@ -1,5 +1,7 @@
 ---
 title: Options, Text Editor, JavaScript, Linting
+description: Learn how to use the Linting page of the Options dialog box to set options for analyzing code in the Code Editor.
+ms.custom: SEO-VS-2020
 ms.date: 1/15/2019
 ms.technology: vs-javascript
 ms.topic: reference
@@ -10,7 +12,7 @@ f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.TypeScript.Linting"
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

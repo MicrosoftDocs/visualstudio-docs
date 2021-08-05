@@ -1,18 +1,20 @@
 ---
 title: Customize captions for data-bound controls
+description: Customize how Visual Studio creates captions for data-bound controls. Modify the smart captioning behavior of the Data Sources window. Turn off smart captioning.
+ms.custom: SEO-VS-2020
 ms.date: 11/03/2017
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
-  - "Label captions, Data Sources window"
-  - "smart captions"
-  - "captions, data-bound"
-  - "Data Sources Window, label captions"
+- Label captions, Data Sources window
+- smart captions
+- captions, data-bound
+- Data Sources Window, label captions
 ms.assetid: 6d4d15f8-4d78-42fd-af64-779ae98d62c8
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: ghogen
+ms.author: ghogen
+manager: jmartens
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # Customize how Visual Studio creates captions for data-bound controls
 

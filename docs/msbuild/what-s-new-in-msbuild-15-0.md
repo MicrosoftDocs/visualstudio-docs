@@ -1,14 +1,16 @@
 ---
-title: "What&#39;s New in MSBuild 15 | Microsoft Docs"
-ms.date: "03/01/2017"
-ms.topic: "conceptual"
+title: What's New in MSBuild 15 | Microsoft Docs
+description: See changed, updated, and new features of MSBuild 15, available for the .NET Core SDK and for building .NET Core projects on Windows, macOS, and Linux.
+ms.custom: SEO-VS-2020
+ms.date: 03/01/2017
+ms.topic: conceptual
 ms.assetid: 9976b6fd-d052-4017-b848-35b5bf4b2f66
-author: mikejo5000
-ms.author: mikejo
-manager: jillfra
+author: ghogen
+ms.author: ghogen
+manager: jmartens
 ms.workload:
-  - "multiple"
-monikerRange: ">=vs-2017"
+- multiple
+monikerRange: '>=vs-2017'
 ---
 # What's new in MSBuild 15
 
@@ -33,6 +35,7 @@ MSBuild is now available as part of the [.NET Core SDK](https://www.microsoft.co
 - The `SDK35ToolsPath` and `SDK40ToolsPath` properties point to the .NET Framework SDK that's packaged with this version of Visual Studio (for example, 10.0A for the 4.X tools).
 
 ## Updates
+
 - [Project element](../msbuild/project-element-msbuild.md) has a new `SDK` attribute. Also the `Xmlns` attribute is now optional. For more information on the `SDK` attribute, see [How to: Use MSBuild project SDKs](../msbuild/how-to-use-project-sdk.md), [Packages, metapackages, and frameworks](/dotnet/core/packages) and [Additions to the csproj format for .NET Core](/dotnet/core/tools/csproj).
 - [Item element](../msbuild/item-element-msbuild.md) outside targets has a new `Update` attribute. Also, the restriction on the `Remove` attribute has been eliminated.
 - *Directory.Build.props* is a user-defined file that provides customizations to projects under a directory. This file is automatically imported from *Microsoft.Common.props* unless the property `ImportDirectoryBuildTargets` is set to **false**. *Directory.Build.targets* is imported by *Microsoft.Common.targets*.
@@ -47,4 +50,5 @@ MSBuild is now available as part of the [.NET Core SDK](https://www.microsoft.co
   `<Import Project="$([MSBuild]::GetDirectoryNameOfFileAbove($(MSBuildThisFileDirectory), dir.props))\dir.props" />`
 
 ## See also
+
 - [MSBuild](../msbuild/msbuild.md)

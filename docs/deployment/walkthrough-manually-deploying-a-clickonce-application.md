@@ -1,5 +1,7 @@
 ---
-title: "Walkthrough: Manually Deploying a ClickOnce Application | Microsoft Docs"
+title: "Manually deploy a ClickOnce app"
+description: Learn how to create a ClickOnce deployment by using either the command-line version or the graphical version of the Manifest Generation and Editing Tool.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:
@@ -17,7 +19,7 @@ helpviewer_keywords:
 ms.assetid: ccee6551-a1b9-4ca2-8845-9c1cf4ac2560
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---
@@ -29,7 +31,7 @@ If you cannot use Visual Studio to deploy your [!INCLUDE[ndptecclick](../deploym
 
 - Install *Mage.exe* and *MageUI.exe*.
 
-   *Mage.exe* and *MageUI.exe* are part of the [!INCLUDE[winsdklong](../deployment/includes/winsdklong_md.md)]. You must either have the [!INCLUDE[winsdkshort](../debugger/debug-interface-access/includes/winsdkshort_md.md)] installed or the version of the [!INCLUDE[winsdkshort](../debugger/debug-interface-access/includes/winsdkshort_md.md)] included with Visual Studio. For more information, see [Windows SDK](http://go.microsoft.com/fwlink/?LinkId=158044) on MSDN.
+   *Mage.exe* and *MageUI.exe* are part of the [!INCLUDE[winsdklong](../deployment/includes/winsdklong_md.md)]. You must either have the [!INCLUDE[winsdkshort](../debugger/debug-interface-access/includes/winsdkshort_md.md)] installed or the version of the [!INCLUDE[winsdkshort](../debugger/debug-interface-access/includes/winsdkshort_md.md)] included with Visual Studio. For more information, see [Windows SDK](https://www.microsoft.com/download/details.aspx?id=8279) on MSDN.
 
 - Provide an application to deploy.
 
@@ -52,7 +54,7 @@ If you cannot use Visual Studio to deploy your [!INCLUDE[ndptecclick](../deploym
 
 - Make sure that the application does not have a manifest with UAC information.
 
-   You need to determine whether your application contains a manifest with User Account Control (UAC) information, such as an `<dependentAssembly>` element. To examine an application manifest, you can use the Windows Sysinternals [Sigcheck](http://go.microsoft.com/fwlink/?LinkId=158035) utility.
+   You need to determine whether your application contains a manifest with User Account Control (UAC) information, such as an `<dependentAssembly>` element. To examine an application manifest, you can use the Windows Sysinternals [Sigcheck](/sysinternals/downloads/sigcheck) utility.
 
    If your application contains a manifest with UAC details, you must re-build it without the UAC information. For a C# project in Visual Studio, open the project properties and select the Application tab. In the **Manifest** drop-down list, select **Create application without a manifest**. For a Visual Basic project in Visual Studio, open the project properties, select the Application tab, and click **View UAC Settings**. In the opened manifest file, remove all elements within the single `<asmv1:assembly>` element.
 
@@ -129,13 +131,13 @@ If you cannot use Visual Studio to deploy your [!INCLUDE[ndptecclick](../deploym
 
 6. On the default **Name** tab, type the name and version number of this deployment. Also specify the **Processor** that your application is built for, such as x86.
 
-7. Select the **Files** tab and click the ellipsis (**...**) button next to the **Application directory** text box. A **Browse For Folder** dialog box appears.
+7. Select the **Files** tab and then select the ellipsis (**...**) button next to the **Application directory** text box. A **Browse For Folder** dialog box appears.
 
-8. Select the version subdirectory containing your application files, and then click **OK**.
+8. Select the version subdirectory containing your application files, and then select **OK**.
 
 9. If you will deploy from Internet Information Services (IIS), select the **When populating add the .deploy extension to any file that does not have it** check box.
 
-10. Click the **Populate** button to add all your application files to the file list. If your application contains more than one executable file, mark the main executable file for this deployment as the startup application by selecting **Entry Point** from the **File Type** drop-down list. (If your application contains only one executable file, *MageUI.exe* will mark it for you.)
+10. Go to the **Populate** button to add all your application files to the file list. If your application contains more than one executable file, mark the main executable file for this deployment as the startup application by selecting **Entry Point** from the **File Type** drop-down list. (If your application contains only one executable file, *MageUI.exe* will mark it for you.)
 
 11. Select the **Permissions Required** tab and select the level of trust that you need your application to assert. The default is **FullTrust**, which will be suitable for most applications.
 
@@ -147,9 +149,9 @@ If you cannot use Visual Studio to deploy your [!INCLUDE[ndptecclick](../deploym
 
      If your certificate is kept in a certificate store accessible from your computer, select the **Sign with stored certificate** option, and select the certificate from the provided list.
 
-14. Click **OK** to sign your application manifest. The **Save As** dialog box appears.
+14. Select **OK** to sign your application manifest. The **Save As** dialog box appears.
 
-15. In the **Save As** dialog box, specify the version directory, and then click **Save**.
+15. In the **Save As** dialog box, specify the version directory, and then select **Save**.
 
 16. Select **File**, **New**, **Deployment Manifest** from the menu to create your deployment manifest.
 
@@ -163,9 +165,9 @@ If you cannot use Visual Studio to deploy your [!INCLUDE[ndptecclick](../deploym
 
 21. Select the **Update Options** tab, and specify how often you would like this application to update. If your application uses <xref:System.Deployment.Application.UpdateCheckInfo> to check for updates itself, clear the **This application should check for updates** check box.
 
-22. Select the **Application Reference** tab and then click the **Select Manifest** button. An open dialog box appears.
+22. Select the **Application Reference** tab and then go to the **Select Manifest** button. An open dialog box appears.
 
-23. Select the application manifest that you created earlier and then click **Open**.
+23. Select the application manifest that you created earlier and then select **Open**.
 
 24. Select **File**, **Save As** from the menu. A **Signing Options** dialog box appears prompting you to sign the deployment manifest.
 
@@ -175,16 +177,16 @@ If you cannot use Visual Studio to deploy your [!INCLUDE[ndptecclick](../deploym
 
      If your certificate is kept in a certificate store accessible from your computer, select the **Sign with stored certificate** option, and select the certificate from the provided list.
 
-26. Click **OK** to sign your deployment manifest. The **Save As** dialog box appears.
+26. Go to **OK** to sign your deployment manifest. The **Save As** dialog box appears.
 
-27. In the **Save As** dialog box, move up one directory to the root of your deployment and then click **Save**.
+27. In the **Save As** dialog box, move up one directory to the root of your deployment and then select **Save**.
 
 28. Copy all of the files in the deployment directory to the deployment destination or media. This may be either a folder on a Web site or FTP site, a file share, or a CD-ROM.
 
 29. Provide your users with the URL, UNC, or physical media required to install your application. If you provide a URL or a UNC, you must give your users the full path the deployment manifest. For example, if AppToDeploy is deployed to http://webserver01/ in the AppToDeploy directory, the full URL path would be http://webserver01/AppToDeploy/AppToDeploy.application.
 
 ## Next steps
- When you need to deploy a new version of the application, create a new directory named after the new version—for example, 1.0.0.1—and copy the new application files into the new directory. Next, you need to follow the previous steps to create and sign a new application manifest, and update and sign the deployment manifest. Be careful to specify the same higher version in both the *Mage.exe* `-New` and `-Update` calls, as [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] only updates higher versions, with the left-most integer most significant. If you used *MageUI.exe*, you can update the deployment manifest by opening it, selecting the **Application Reference** tab, clicking the **Select Manifest** button, and then selecting the updated application manifest.
+ When you need to deploy a new version of the application, create a new directory named after the new version—for example, 1.0.0.1—and copy the new application files into the new directory. Next, you need to follow the previous steps to create and sign a new application manifest, and update and sign the deployment manifest. Be careful to specify the same higher version in both the *Mage.exe* `-New` and `-Update` calls, as [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] only updates higher versions, with the left-most integer most significant. If you used *MageUI.exe*, you can update the deployment manifest by opening it, selecting the **Application Reference** tab, go to the **Select Manifest** button, and then selecting the updated application manifest.
 
 ## See also
 - [Mage.exe (Manifest Generation and Editing Tool)](/dotnet/framework/tools/mage-exe-manifest-generation-and-editing-tool)

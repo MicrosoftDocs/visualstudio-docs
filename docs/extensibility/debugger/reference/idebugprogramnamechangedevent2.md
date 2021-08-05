@@ -1,15 +1,16 @@
 ---
-title: "IDebugProgramNameChangedEvent2 | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Sent from the debug engine (DE) to the session debug manager (SDM) when the name of a program changes."
+title: IDebugProgramNameChangedEvent2 | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "IDebugProgramNameChangedEvent2 interface"
+- IDebugProgramNameChangedEvent2 interface
 ms.assetid: be1f1cd5-0b2f-435c-a052-dca28a7c978d
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IDebugProgramNameChangedEvent2
 Sent from the debug engine (DE) to the session debug manager (SDM) when the name of a program changes.

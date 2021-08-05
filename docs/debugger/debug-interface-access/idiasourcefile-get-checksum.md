@@ -1,7 +1,8 @@
 ---
+description: "Retrieves the checksum bytes."
 title: "IDiaSourceFile::get_checksum | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: aad63a7e-4e22-44e4-8a5b-81b5174ced1e
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

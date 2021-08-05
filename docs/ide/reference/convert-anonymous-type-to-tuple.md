@@ -1,12 +1,15 @@
 ---
 title: Convert Anonymous Type to Tuple
-ms.date: 02/13/2019
+description: Learn how to use the Quick Actions and Refactorings menu to convert an anonymous type to a tuple in Visual Studio.
+ms.custom: SEO-VS-2020
+ms.date: 03/10/2020
 ms.topic: reference
-author: kendrahavens
-ms.author: kehavens
-manager: jillfra
+author: mikadumont
+ms.author: midumont
+manager: jmartens
 dev_langs:
   - CSharp
+  - VB
 ms.workload:
   - "dotnet"
 ---
@@ -15,6 +18,8 @@ ms.workload:
 This refactoring applies to:
 
 - C#
+
+- Visual Basic
 
 **What:** Convert an anonymous type to tuple.
 
@@ -31,7 +36,7 @@ This refactoring applies to:
 
 2. Press **Enter** to accept the refactoring.
 
-   ![Convert Anonymous Type to Tuple](media/convert-anon-to-tuple-complete.png)
+   ![Convert Anonymous Type to Tuple accepted](media/convert-anon-to-tuple-complete.png)
 
 ## See also
 

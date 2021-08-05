@@ -1,18 +1,20 @@
 ---
 title: Devenv command line switches
+description: Learn about devenv command-line switches and how to use them to set IDE options, and also build, debug, and deploy projects, all from the command line.
+ms.custom: SEO-VS-2020
 ms.date: 12/10/2018
 ms.topic: reference
 helpviewer_keywords:
-  - "switches, Devenv"
-  - "command-line switches, Devenv"
-  - "command line [Visual Studio], switches"
-  - "Devenv"
+- switches, Devenv
+- command-line switches, Devenv
+- command line [Visual Studio], switches
+- Devenv
 ms.assetid: e12bc6ed-74fd-4bea-8d7c-89b99c20bad8
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Devenv command-line switches
 
@@ -66,6 +68,7 @@ The following command-line switches display the IDE and do the described task.
 |[/LCID or /L](lcid-devenv-exe.md)|Sets the default language for the IDE. If the specified language isn't included in your installation of Visual Studio, this setting is ignored.<br /><br /> `devenv /l 1033`|
 |[/Log](log-devenv-exe.md)|Starts Visual Studio and logs all activity to the log file.<br /><br /> `devenv /log mylogfile.xml`|
 |[/NoSplash](nosplash-devenv-exe.md)|Opens the IDE without showing the splash screen.<br /><br /> `devenv /nosplash File1 File2`|
+|[/ResetSettings](resetsettings-devenv-exe.md)|Restores Visual Studio default settings. Optionally resets the settings to the specified `.vssettings` file.<br /><br /> `devenv /resetsettings mysettings.vssettings`|
 |[/Run or /R](run-devenv-exe.md)|Compiles and runs the specified solution.<br /><br /> `devenv /run mysln.sln`|
 |[/RunExit](runexit-devenv-exe.md)|Compiles and runs the specified solution, minimizes the IDE when the solution is run, and closes the IDE after the solution has finished running.<br /><br /> `devenv /runexit mysln.sln`|
 |[/SafeMode](safemode-devenv-exe.md)|Starts Visual Studio in safe mode. This switch loads only the default environment, the default services, and the shipped versions of third-party packages.<br /><br /> This switch takes no arguments.|
@@ -83,7 +86,6 @@ The following command-line switches don't display the IDE.
 |[/Project](project-devenv-exe.md)|The project to build, clean, or deploy. You can use this switch only if you've also supplied the `/Build`, `/Rebuild`, `/Clean`, or `/Deploy` switch.<br /><br /> `devenv mysln.sln /build Debug /project proj1`|
 |[/ProjectConfig](projectconfig-devenv-exe.md)|Specifies the project configuration to build or deploy. You can use this switch only if you've also supplied the `/Project` switch.<br /><br /> `devenv mysln.sln /build Release /project proj1 /projectconfig Release`|
 |[/Rebuild](rebuild-devenv-exe.md)|Cleans and then builds the specified solution or project according to the configuration of the specified solution.<br /><br /> `devenv mysln.sln /rebuild`|
-|[/ResetSettings](resetsettings-devenv-exe.md)|Restores Visual Studio default settings. Optionally resets the settings to the specified `.vssettings` file.<br /><br /> `devenv /resetsettings mysettings.vssettings`|
 |[/Upgrade](upgrade-devenv-exe.md)|Upgrades the specified solution file and all its project files, or the specified project file, to the current Visual Studio formats for these files.<br /><br /> `devenv mysln.sln /upgrade`|
 
 ## See also

@@ -1,18 +1,20 @@
 ---
-title: "UsedCommands Element | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: UsedCommands Element | Microsoft Docs
+description: The UsedCommands element groups UsedCommand elements and other UsedCommands groupings. The UsedCommands element is optional.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: reference
 f1_keywords:
-  - "UsedCommands"
+- UsedCommands
 helpviewer_keywords:
-  - "UsedCommands element (VSCT XML schema)"
-  - "VSCT XML schema elements, UsedCommands"
+- UsedCommands element (VSCT XML schema)
+- VSCT XML schema elements, UsedCommands
 ms.assetid: 5e000ee0-a919-46e9-9277-2a0659f1eb78
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # UsedCommands Element
 The UsedCommands element groups UsedCommand elements and other UsedCommands groupings.

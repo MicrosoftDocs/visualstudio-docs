@@ -1,25 +1,31 @@
 ---
 title: Use Class Designer
+description: Learn how to design, visualize, and refactor classes and other types in your code with Class Designer in Visual Studio.
+ms.custom: SEO-VS-2020
 ms.date: 05/08/2018
 ms.topic: conceptual
 f1_keywords:
-  - "vs.classdesigner.diagram"
+- vs.classdesigner.diagram
+- vs.classdesigner.enum
 helpviewer_keywords:
-  - "Class Designer [Visual Studio]"
-  - "Class Designer, about Class Designer"
-  - "types [Visual Studio], viewing"
-  - "classes [Visual Studio], viewing"
-  - "class designer"
+- Class Designer [Visual Studio]
+- Class Designer, about Class Designer
+- types [Visual Studio], viewing
+- classes [Visual Studio], viewing
+- class designer
 ms.assetid: 40ed2c9d-0ce0-4b95-ad78-5dec2065ccea
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Design and view classes and types with Class Designer
 
 Design, visualize, and refactor classes and other types in your code with **Class Designer** in Visual Studio. Use class diagrams to create and edit classes in your C#, Visual Basic, or C++ project. You can also use class diagrams to understand your project structure better or reorganize your code.
+
+>[!NOTE]
+>Class Designer is not available in .NET Core projects.
 
 ## What you can do with class diagrams
 

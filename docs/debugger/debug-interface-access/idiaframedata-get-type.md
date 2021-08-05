@@ -1,7 +1,8 @@
 ---
+description: "Retrieves the compiler-specific frame type."
 title: "IDiaFrameData::get_type | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: efca38b5-c479-4d0a-a164-f903f25c5509
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

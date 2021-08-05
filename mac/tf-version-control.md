@@ -6,6 +6,7 @@ ms.author: jomatthi
 ms.date: 09/02/2019
 ms.technology: vs-ide-general
 ms.assetid: 52D3D26A-4D01-4FD1-AAA1-AE7D7BD39746
+ms.topic: troubleshooting
 ---
 
 # Does Visual Studio for Mac support Team Foundation Version Control?
@@ -18,7 +19,7 @@ ms.assetid: 52D3D26A-4D01-4FD1-AAA1-AE7D7BD39746
 
 For the best version control experience on macOS, we recommend using **Git** instead of Team Foundation Version Control (TFVC). 
 
-Git is supported in Visual Studio for Mac and is the default option for repositories hosted in Team Foundation Server (TFS)/Azure DevOps. To learn more about using Git with TFS/Azure DevOps, see the [Setting up a Git Repository](/visualstudio/mac/set-up-git-repository) guide.
+Git is supported in Visual Studio for Mac and is the default option for repositories hosted in Team Foundation Server (TFS)/Azure DevOps. To learn more about using Git with TFS/Azure DevOps, see the [Setting up a Git Repository](./set-up-git-repository.md) guide.
 
 ## Unsupported workarounds for TFVC
 
@@ -62,7 +63,7 @@ To **setup the TEE-CLC manually**:
 
 Once the TEE-CLC is installed, you can run the command `tf eula` to view and accept the license agreement for the client.
 
-Finally, to authenticate with your TFS/Azure DevOps environment, you'll need to create a personal access token on the server. Learn more about [authenticating with personal access tokens](https://docs.microsoft.com/azure/devops/integrate/get-started/authentication/pats?view=azure-devops). When creating a personal access token to use with TFVC, be sure to provide Full Access when configuring the token.
+Finally, to authenticate with your TFS/Azure DevOps environment, you'll need to create a personal access token on the server. Learn more about [authenticating with personal access tokens](/azure/devops/integrate/get-started/authentication/pats?view=azure-devops&preserve-view=true). When creating a personal access token to use with TFVC, be sure to provide Full Access when configuring the token.
 
 #### Using the TEE-CLC to connect to your repo
 

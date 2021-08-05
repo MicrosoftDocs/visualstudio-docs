@@ -1,7 +1,8 @@
 ---
+description: "Retrieves a specified symbol type that contains, or is closest to, a specified address."
 title: "IDiaSession::findSymbolByAddr | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: c130abc5-4d0a-4d2d-8286-94fde36ddd4a
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

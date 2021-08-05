@@ -1,19 +1,20 @@
 ---
-title: "IDebugSymbolProviderDirect::GetMetaDataImport | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Retrieves the metadata import information."
+title: IDebugSymbolProviderDirect::GetMetaDataImport | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "GetMetaDataImport"
-  - "IDebugSymbolProviderDirect::GetMetaDataImport"
+- GetMetaDataImport
+- IDebugSymbolProviderDirect::GetMetaDataImport
 ms.assetid: b51a492c-af00-4b08-93fb-6c19ee4916aa
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugSymbolProviderDirect::GetMetaDataImport
 Retrieves the metadata import information.

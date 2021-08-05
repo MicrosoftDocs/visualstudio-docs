@@ -1,17 +1,18 @@
 ---
-title: "marker_series::write_flag Method | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-f1_keywords:
-  - "cvmarkersojb/Concurrency::diagnostic::marker_series::write_flag"
-helpviewer_keywords:
-  - "Concurrency::diagnostic::marker_series::write_flag method"
+description: "Writes a flag to the Concurrency Visualizer trace file."
+title: marker_series::write_flag Method | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: reference
+f1_keywords: 
+- cvmarkersojb/Concurrency, diagnostic::marker_series::write_flag
+helpviewer_keywords: 
+- Concurrency, diagnostic::marker_series::write_flag method
 ms.assetid: ca07f388-e5d5-46fd-b991-fe6e9029a68f
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
-ms.workload:
-  - "multiple"
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.workload: 
+  - multiple
 ---
 # marker_series::write_flag method
 Writes a flag to the Concurrency Visualizer trace file.

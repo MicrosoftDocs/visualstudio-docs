@@ -1,5 +1,7 @@
 ---
 title: "Work with documents"
+description: Learn about the step-by-step procedures and code examples for using the object model of Microsoft Word to work with documents in Office projects.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -11,7 +13,7 @@ helpviewer_keywords:
   - "Word [Office development in Visual Studio], document common tasks"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---

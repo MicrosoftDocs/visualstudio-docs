@@ -1,16 +1,18 @@
 ---
-title: "Getting Started with Source Control Plug-ins | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Getting Started with Source Control Plug-ins | Microsoft Docs
+description: Learn about creating a source control plug-in that implements the functions defined in the Source Control Plug-in API for use in source code version control. 
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "source control plug-ins, getting started"
-  - "getting started, source control plug-ins"
+- source control plug-ins, getting started
+- getting started, source control plug-ins
 ms.assetid: 46ac1f9f-4ecc-4a72-88d3-4c7e1647e1cb
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Get started with source control plug-ins
 To create a source control plug-in, you must create a DLL that implements the functions defined in the Source Control Plug-in API, and then to register the DLL with [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] to make it available for use in source code version control.

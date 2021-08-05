@@ -1,7 +1,8 @@
 ---
+description: "Each unique function signature is identified by a SymTagFunctionType symbol."
 title: "FunctionType | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -10,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 646a07e7-9d4f-4e21-95e3-3e403cdd4843
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

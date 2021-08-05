@@ -1,21 +1,23 @@
 ---
 title: Add editor support for other languages
+description: Learn about how the Visual Studio editor supports reading and navigating through different computer languages and how you can add support for other languages.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "syntax colorization"
-  - "IntelliSense"
-  - "IDE, navigation"
-  - "documents [Visual Studio], navigation"
-  - "TextMate bundle"
-  - "TextMate language grammar"
-  - "language support"
+- syntax colorization
+- IntelliSense
+- IDE, navigation
+- documents [Visual Studio], navigation
+- TextMate bundle
+- TextMate language grammar
+- language support
 ms.assetid: d78c43ee-4ef2-42e5-984e-d137de4e7e92
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Add Visual Studio editor support for other languages
 
@@ -29,16 +31,45 @@ Features in the Visual Studio editor such as syntax colorization, statement comp
 
 Visual Studio currently provides syntax colorization and basic statement completion support for the following languages using [TextMate Grammars](https://manual.macromates.com/en/language_grammars). If your favorite language isn't in the table, though, don't worry&mdash;you can add it.
 
-|||||||
-|-|-|-|-|-|-|
-|Bat|F#|Java|Markdown|Rust|Visual Basic|
-|Clojure|Go|JavaDoc|Objective-C|ShaderLab|C#|
-|CMake|Groovy|JSON|Perl|ShellScript|Visual C++|
-|CoffeeScript|HTML|LESS|Python|SQL|VBNet|
-|CSS|INI|LUA|R|Swift|XML|
-|Docker|Jade|Make|Ruby|TypeScript|YAML|
 
-In addition to syntax colorization and basic statement completion, Visual Studio also has a feature called [Navigate To](https://blogs.msdn.microsoft.com/benwilli/2015/04/09/visual-studio-tip-3-use-navigate-to/). This feature enables you to quickly search code files, file paths, and code symbols. Visual Studio provides Navigate To support for the following languages.
+- Bat
+- F#
+- Java
+- Markdown
+- Rust
+- Visual Basic
+- Clojure
+- Go
+- JavaDoc
+- Objective-C
+- ShaderLab
+- C#
+- CMake
+- Groovy
+- JSON
+- Perl
+- ShellScript
+- Visual C++
+- CoffeeScript
+- HTML
+- LESS
+- Python
+- SQL
+- VBNet
+- CSS
+- INI
+- LUA
+- R
+- Swift
+- XML
+- Docker
+- Jade
+- Make
+- Ruby
+- TypeScript
+- YAML
+
+In addition to syntax colorization and basic statement completion, Visual Studio also has a feature called [Navigate To](/archive/blogs/benwilli/visual-studio-tip-3-use-navigate-to). This feature enables you to quickly search code files, file paths, and code symbols. Visual Studio provides Navigate To support for the following languages.
 
 - C#
 
@@ -86,3 +117,5 @@ For details about how to create TextMate Grammars, see [TextMate - Introduction 
 - [Add a Language Server Protocol extension](../extensibility/adding-an-lsp-extension.md)
 - [Walkthrough: Create a code snippet](../ide/walkthrough-creating-a-code-snippet.md)
 - [Walkthrough: Display statement completion](../extensibility/walkthrough-displaying-statement-completion.md)
+- [Example code: TextMate Grammar](https://github.com/microsoft/VSSDK-Extensibility-Samples/tree/master/TextmateGrammar)
+- [Example code: Custom language support](https://github.com/microsoft/VSSDK-Extensibility-Samples/tree/master/Ook_Language_Integration)

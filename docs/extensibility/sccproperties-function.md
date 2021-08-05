@@ -1,17 +1,18 @@
 ---
-title: "SccProperties Function | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+description: "This function displays source control properties for a file or project."
+title: SccProperties Function | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: reference
 f1_keywords:
-  - "SccProperties"
+- SccProperties
 helpviewer_keywords:
-  - "SccProperties function"
+- SccProperties function
 ms.assetid: 1bed38c9-73d2-4474-9717-f9dc26a89cbe
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # SccProperties Function
 This function displays source control properties for a file or project.

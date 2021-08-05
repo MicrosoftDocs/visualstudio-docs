@@ -1,16 +1,18 @@
 ---
-title: "GuidSymbol Element | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: GuidSymbol Element | Microsoft Docs
+description: The GuidSymbol element contains the GUID of the GUID:ID pair that represents a menu, group, or command.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: reference
 helpviewer_keywords:
-  - "VSCT XML schema elements, GuidSymbol"
-  - "GuidSymbol element (VSCT XML schema)"
+- VSCT XML schema elements, GuidSymbol
+- GuidSymbol element (VSCT XML schema)
 ms.assetid: 11fb3545-8974-4776-9a54-6b6e7739ae31
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # GuidSymbol element
 The `GuidSymbol` element contains the GUID of the GUID:ID pair that represents a menu, group, or command. The ID comes from an `IDSymbol` element in the `GuidSymbol` element. The `GuidSymbol` element has a `name` attribute that provides a friendly name for the GUID, which is contained in the `value` attribute.

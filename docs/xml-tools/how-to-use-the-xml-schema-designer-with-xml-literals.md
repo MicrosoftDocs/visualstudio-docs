@@ -1,15 +1,17 @@
 ---
-title: "How to: Use the XML Schema Designer with XML Literals"
+title: 'How to: Use the XML Schema Designer with XML Literals'
+description: Learn how to use the XML Schema Designer to view a schema associated with an XML literal in a Visual Basic project.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 ms.assetid: d11803e7-f81a-41a2-a145-ba494a45cc93
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 dev_langs:
-  - "VB"
+- VB
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Use the XML Schema Designer with XML literals
 

@@ -1,23 +1,25 @@
 ---
 title: Working with C++ Code (Class Designer)
+description: Learn how to use class diagrams to design and visualize C++ code element, classes, and other types in a project.
+ms.custom: SEO-VS-2020
 ms.date: 06/21/2017
 ms.topic: conceptual
 f1_keywords:
-  - "vs.classdesigner.cpplimitation"
+- vs.classdesigner.cpplimitation
 helpviewer_keywords:
-  - "C++, Class Designer"
-  - "Class Designer, C++ support"
-  - "Class Designer, limitations"
-  - "Class Designer, tasks in C++"
-  - "C++, class diagrams"
-  - "C++, class diagrams"
-  - "C++, Class Designer"
+- C++, Class Designer
+- Class Designer, C++ support
+- Class Designer, limitations
+- Class Designer, tasks in C++
+- C++, class diagrams
+- C++, class diagrams
+- C++, Class Designer
 ms.assetid: f5b40921-2ef7-4de0-b595-45b44c79ffa6
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ms.workload:
-  - "cplusplus"
+- cplusplus
 ---
 # Work with C++ code in Class Designer
 
@@ -40,7 +42,7 @@ ms.workload:
 - Typedef
 
 > [!NOTE]
-> This is not the same as the UML class diagram, which you can create in a Modeling Project. For more information, see [UML Class Diagrams: Reference](../../modeling/create-uml-modeling-projects-and-diagrams.md).
+> This is not the same as the UML class diagram, which you can create in a Modeling Project. For more information, see [UML Class Diagrams: Reference](../../modeling/what-s-new-for-design-in-visual-studio.md).
 
 ## Troubleshoot type resolution and display issues
 
@@ -78,7 +80,7 @@ The error you are most likely to see for a type resolution issue is **Code could
 
 ### Troubleshoot other error messages
 
-You can find assistance with troubleshooting errors and warnings in the Microsoft Developer Network (MSDN) public forums. See the [Visual Studio Class Designer Forum](http://go.microsoft.com/fwlink/?linkid=160754).
+You can find assistance with troubleshooting errors and warnings in the Microsoft Developer Network (MSDN) public forums. See the [Visual Studio Class Designer Forum](https://social.msdn.microsoft.com/Forums/en-US/home?forum=vsclassdesigner).
 
 ## Limitations for C++ code elements
 

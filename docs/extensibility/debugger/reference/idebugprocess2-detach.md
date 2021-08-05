@@ -1,20 +1,21 @@
 ---
-title: "IDebugProcess2::Detach | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Detaches the debugger from this process by detaching all of the programs in the process."
+title: IDebugProcess2::Detach | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugProcess2::Detach"
+- IDebugProcess2::Detach
 helpviewer_keywords:
-  - "IDebugProcess2::Detach"
+- IDebugProcess2::Detach
 ms.assetid: ee2b9084-2db1-4e49-a1d9-387284b7c3f8
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugProcess2::Detach
 Detaches the debugger from this process by detaching all of the programs in the process.

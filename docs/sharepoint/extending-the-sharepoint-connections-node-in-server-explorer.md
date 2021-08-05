@@ -1,5 +1,8 @@
 ---
 title: "Extending the SharePoint Connections Node in Server Explorer | Microsoft Docs"
+titleSuffix: ""
+description: Extend the SharePoint connections node in the Server Explorer window in Visual Studio. Add custom properties to nodes. Get data for built-in nodes.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -11,7 +14,7 @@ helpviewer_keywords:
   - "SharePoint Connections [SharePoint development in Visual Studio], creating a new node type"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---
@@ -41,8 +44,8 @@ ms.workload:
 
  The following code example demonstrates how to get the data object for a list node. To see this example in the context of a larger example, see [How to: Get data for a built-in SharePoint node in Server Explorer](../sharepoint/how-to-get-data-for-a-built-in-sharepoint-node-in-server-explorer.md).
 
- [!code-vb[SPExtensibility.ProjectSystemExtension.General#11](../sharepoint/codesnippet/VisualBasic/projectsystemexamples/extension/serverexplorerextensionnodeinfo.vb#11)]
- [!code-csharp[SPExtensibility.ProjectSystemExtension.General#11](../sharepoint/codesnippet/CSharp/projectsystemexamples/extension/serverexplorerextensionnodeinfo.cs#11)]
+ :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/projectsystemexamples/extension/serverexplorerextensionnodeinfo.vb" id="Snippet11":::
+ :::code language="csharp" source="../sharepoint/codesnippet/CSharp/projectsystemexamples/extension/serverexplorerextensionnodeinfo.cs" id="Snippet11":::
 
  The following table lists the data object types for each built-in node type.
 

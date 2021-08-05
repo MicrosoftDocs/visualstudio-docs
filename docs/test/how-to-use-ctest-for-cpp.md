@@ -1,12 +1,14 @@
 ---
-title: "How to use CTest for C++"
-ms.date: 05/01/2019
-ms.topic: conceptual
-ms.author: mblome
-manager: jillfra
-ms.workload:
-  - "cplusplus"
-author: mikeblome
+title: How to use CTest for C++
+description: Learn how to create and run tests with CTest, which is integrated into the Visual Studio IDE by default. 
+ms.custom: SEO-VS-2020
+ms.date: 01/23/2020
+ms.topic: how-to
+ms.author: corob
+manager: jmartens
+ms.workload: 
+  - cplusplus
+author: corob-msft
 ---
 # How to use CTest for C++ in Visual Studio 2017 and later
 
@@ -14,7 +16,7 @@ CMake (which includes CTest) is integrated into the Visual Studio IDE by default
 
 ## To write tests
 
-CMake support in Visual Studio doesn't involve the Visual Studio project system. Therefore, you write and configure CTest tests just as you would in any CMake environment. Use the `enable_testing()` command to enable testing, and the `add_test()` command to add a new test. To learn more about CTest, see the [CMake documentation](https://gitlab.kitware.com/cmake/community/wikis/doc/ctest/Testing-With-CTest). 
+CMake support in Visual Studio doesn't involve the Visual Studio project system. Therefore, you write and configure CTest tests just as you would in any CMake environment. Use the `enable_testing()` command to enable testing, and the `add_test()` or `gtest_discover_tests()` command to add a new test. To learn more about CTest, see the [CMake documentation](https://gitlab.kitware.com/cmake/community/wikis/doc/ctest/Testing-With-CTest). 
 
 For more information about using CMake in Visual Studio, see [CMake projects in Visual Studio](/cpp/build/cmake-projects-in-visual-studio).
 

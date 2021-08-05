@@ -1,19 +1,21 @@
 ---
-title: "Diagnosing task failures | Microsoft Docs"
-ms.date: "09/25/2019"
-ms.topic: "troubleshooting"
+title: Diagnosing task failures | Microsoft Docs
+description: Learn how to diagnose MSBuild task failures by identifying the failing task, tool name, and other information.
+ms.custom: SEO-VS-2020
+ms.date: 09/25/2019
+ms.topic: troubleshooting
 f1_keywords:
-  - "MSBuild.ToolTask.ToolCommandFailed"
+- MSBuild.ToolTask.ToolCommandFailed
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
-author: mikejo5000
-ms.author: mikejo
-manager: jillfra
+- VB
+- CSharp
+- C++
+- jsharp
+author: ghogen
+ms.author: ghogen
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Diagnosing task failures
 

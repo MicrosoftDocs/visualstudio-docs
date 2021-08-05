@@ -1,7 +1,9 @@
 ---
 title: "Creating Pages for SharePoint | Microsoft Docs"
+description: Create application pages for SharePoint by using a template in Visual Studio. Create site pages, master pages, and page layouts by using SharePoint Designer.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: overview
 dev_langs:
   - "VB"
   - "CSharp"
@@ -14,7 +16,7 @@ helpviewer_keywords:
   - "page layouts[SharePoint development in Visual Studio], designing"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---
@@ -35,7 +37,7 @@ ms.workload:
 |Master pages|Create a master page if you want to define a common structure for site pages and application pages.|
 |Page layouts|Page layouts are specific to [!INCLUDE[moss_14_long](../sharepoint/includes/moss-14-long-md.md)] and enable you to further define a common structure for site pages and application pages.|
 
- For an overview of each type of page, see [Building Block: Pages and the User Interface](http://go.microsoft.com/fwlink/?LinkID=182095), and [Page Layouts and Master Pages](http://go.microsoft.com/fwlink/?LinkID=182096).
+ For an overview of each type of page, see [Building Block: Pages and the User Interface](/previous-versions/office/developer/sharepoint-2010/ee539040(v=office.14)), and [Page Layouts and Master Pages](/previous-versions/office/developer/sharepoint-2010/ms543497(v=office.14)).
 
 ## Create application pages
  You can create application pages in Visual Studio by adding an **Application Page** item to a SharePoint project. You can add controls to the page, and then handle control events by adding code.
@@ -52,7 +54,7 @@ ms.workload:
 
  You can add these files to your solution directly or you can import them. In either case, you must create the appropriate mapped folders for each item that you add. For more information about how to create a mapped folder, see [How to: add and remove mapped folders](../sharepoint/how-to-add-and-remove-mapped-folders.md).
 
- For more information about creating Cascading Style Sheets, see [Cascading Style Sheets Class Usage in SharePoint Foundation](http://go.microsoft.com/fwlink/?LinkID=182098). For more information about creating JavaScript and JScript files for a SharePoint solution, see [Setting Up a Basic ASPX Page for ECMAScript](http://go.microsoft.com/fwlink/?LinkID=182099). For more information about themes, see [Building Block: Pages and the User Interface](http://go.microsoft.com/fwlink/?LinkID=182095).
+ For more information about creating Cascading Style Sheets, see [Cascading Style Sheets Class Usage in SharePoint Foundation](/previous-versions/office/developer/sharepoint-2010/ms438349(v=office.14)). For more information about creating JavaScript and JScript files for a SharePoint solution, see [Setting Up a Basic ASPX Page for ECMAScript](/previous-versions/office/developer/sharepoint-2010/ee535709(v=office.14)). For more information about themes, see [Building Block: Pages and the User Interface](/previous-versions/office/developer/sharepoint-2010/ee539040(v=office.14)).
 
 ## Related topics
 

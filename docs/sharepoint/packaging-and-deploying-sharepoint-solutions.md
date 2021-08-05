@@ -1,7 +1,9 @@
 ---
 title: "Packaging and Deploying SharePoint Solutions | Microsoft Docs"
+description: Package and deploy SharePoint solutions, which are deployed to a SharePoint server by using a solution package (.wsp) file.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: overview
 dev_langs:
   - "VB"
   - "CSharp"
@@ -11,7 +13,7 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, packaging and deploying"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---
@@ -29,9 +31,9 @@ ms.workload:
 - [Deploy files in SharePoint solutions](#deploy-files-in-sharepoint-solutions)
 
 ## Create features and packages
- You can use Visual Studio to group related SharePoint elements into a *Feature*. For example, a Feature for a Contacts list definition may include the list instance and the list definition. You can combine these two elements into a single Feature for deployment purposes. For more information about features, see [Building Block: Features](http://go.microsoft.com/fwlink/?LinkID=169183).
+ You can use Visual Studio to group related SharePoint elements into a *Feature*. For example, a Feature for a Contacts list definition may include the list instance and the list definition. You can combine these two elements into a single Feature for deployment purposes. For more information about features, see [Building Block: Features](/previous-versions/office/developer/sharepoint-2010/ee537350(v=office.14)).
 
- Next, you can create a SharePoint solution package (*.wsp*) to bundle multiple features, site definitions, assemblies, and other files into a single package, which stores the files in a format needed by SharePoint to deploy the files to the server. For more information, see [Building Block: Solutions](http://go.microsoft.com/fwlink/?LinkID=169186).
+ Next, you can create a SharePoint solution package (*.wsp*) to bundle multiple features, site definitions, assemblies, and other files into a single package, which stores the files in a format needed by SharePoint to deploy the files to the server. For more information, see [Building Block: Solutions](/previous-versions/office/developer/sharepoint-2010/ee537008(v=office.14)).
 
 ## Feature and packaging tool support
  You can use the SharePoint development tools in Visual Studio to quickly organize your SharePoint files into Features and solution packages for easier deployment. You can use the following tools to configure the Feature and solution package.
@@ -45,13 +47,13 @@ ms.workload:
 ### Feature designer and package designer
  You can create Features, set scopes, and mark other Features as dependencies by using the Feature Designer. The designer also displays the final XML file that describes each feature. For more information, see [Create SharePoint features](../sharepoint/creating-sharepoint-features.md).
 
- Apply the feature to a specific Web site or group of Web sites by setting its *scope* in the Feature Designer. If a feature is activated for an individual Web site, the feature only works in that particular Web site. If a feature is activated for a site collection, the items in the feature apply to the whole site collection. For more information, see [Element Scope](http://go.microsoft.com/fwlink/?LinkID=169189).
+ Apply the feature to a specific Web site or group of Web sites by setting its *scope* in the Feature Designer. If a feature is activated for an individual Web site, the feature only works in that particular Web site. If a feature is activated for a site collection, the items in the feature apply to the whole site collection. For more information, see [Element Scope](/previous-versions/office/developer/sharepoint-2010/ms476615(v=office.14)).
 
- If your feature relies on other features, you can set a *feature activation dependency* to mark the dependent features before making your feature available. A feature activation dependency checks if the dependent features are already activated at that scope. For more information, see [Activation Dependencies and Scope](http://go.microsoft.com/fwlink/?LinkID=169190).
+ If your feature relies on other features, you can set a *feature activation dependency* to mark the dependent features before making your feature available. A feature activation dependency checks if the dependent features are already activated at that scope. For more information, see [Activation Dependencies and Scope](/previous-versions/office/developer/sharepoint-2010/aa543162(v=office.14)).
 
  In the Package Designer, you can group SharePoint elements into a single solution package and configure whether to reset the Web server during deployment. To set the deployment server type, use the **Properties** window. The designer also generates the XML file that describes the package contents. For more information, see [Create SharePoint solution packages](../sharepoint/creating-sharepoint-solution-packages.md).
 
- During deployment, the Internet Information Services (IIS) service is stopped to copy the solution files to the SharePoint server. By using the Package Designer in Visual Studio, you can select whether the Web server should be restarted. To configure if the solution is deployed to a front-end Web server or an application server, use the **Properties** window. For more information, see [Solution Element (Solution)](http://go.microsoft.com/fwlink/?LinkID=169191).
+ During deployment, the Internet Information Services (IIS) service is stopped to copy the solution files to the SharePoint server. By using the Package Designer in Visual Studio, you can select whether the Web server should be restarted. To configure if the solution is deployed to a front-end Web server or an application server, use the **Properties** window. For more information, see [Solution Element (Solution)](/previous-versions/office/developer/sharepoint-2010/ms412929(v=office.14)).
 
 ### Packaging Explorer
  To complement the Feature Designer and Package Designer, you can use the Packaging Explorer to group your SharePoint files into Features and packages. In addition, you can see the hierarchical view of the package, Features, SharePoint project items, and files. The Packaging Explorer is a tool window that you can use to complete the following tasks:
@@ -68,7 +70,7 @@ ms.workload:
 
 - Validate Features and packages.
 
-  The SharePoint development tools in Visual Studio have validation rules to help ensure that the solution package is correctly formed. In addition, the rules verify that the *.wsp* solution file can be successfully deployed and activated on a SharePoint server. For more information about the XML schema for Features, see [Feature Schemas](http://go.microsoft.com/fwlink/?LinkID=169192).
+  The SharePoint development tools in Visual Studio have validation rules to help ensure that the solution package is correctly formed. In addition, the rules verify that the *.wsp* solution file can be successfully deployed and activated on a SharePoint server. For more information about the XML schema for Features, see [Feature Schemas](/previous-versions/office/developer/sharepoint-2010/ms414322(v=office.14)).
 
   You can add custom Feature and package validation rules to the SharePoint project system. For more information, see [How to: Create custom feature and package validation rules for SharePoint solutions](../sharepoint/how-to-create-custom-feature-and-package-validation-rules-for-sharepoint-solutions.md).
 
@@ -78,7 +80,7 @@ ms.workload:
  You can use Solution Explorer to navigate and open the files of the SharePoint project. Use the context menu in Solution Explorer to add Features, Feature event receivers, and Feature resources. In addition, you can open the Feature Designers and Package Designers to configure the Features and packages for deployment.
 
 ## Deploy SharePoint solutions
- After you customize the Features and package in Visual Studio, you can create a *.wsp* file to deploy to SharePoint servers. You can use Visual Studio to debug and test the .*wsp* only on the SharePoint server on the development computer. For more information about how to deploy your SharePoint solutions to a remote SharePoint server, see [Deploying a Solution](http://go.microsoft.com/fwlink/?LinkID=169194).
+ After you customize the Features and package in Visual Studio, you can create a *.wsp* file to deploy to SharePoint servers. You can use Visual Studio to debug and test the .*wsp* only on the SharePoint server on the development computer. For more information about how to deploy your SharePoint solutions to a remote SharePoint server, see [Deploying a Solution](/previous-versions/office/developer/sharepoint-2010/aa544500(v=office.14)).
 
  You can also customize the deployment steps on the development computer. For more information, see [Deploy, publish, and upgrade SharePoint solution packages](../sharepoint/deploying-publishing-and-upgrading-sharepoint-solution-packages.md).
 

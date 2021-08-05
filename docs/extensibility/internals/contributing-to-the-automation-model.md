@@ -1,15 +1,17 @@
 ---
-title: "Contributing to the Automation Model | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Contributing to the Automation Model | Microsoft Docs
+description: Learn how to contribute to the Visual Studio automation model by following a set of guidelines when designing a VSPackage. 
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "automation [Visual Studio SDK]"
+- automation [Visual Studio SDK]
 ms.assetid: 44de482d-93c8-41a4-843c-cefda995a03e
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Contribute to the automation model
 Visual Studio provides a set of automation interfaces for customizing the environment. The automation model is the object model that enables end users to create Visual Studio add-ins and extensions.

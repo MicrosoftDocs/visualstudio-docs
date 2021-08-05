@@ -1,5 +1,7 @@
 ---
 title: "Using the SharePoint Project Service | Microsoft Docs"
+description: Use the SharePoint project service to perform tasks related to the project system. View a list of project service features.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -10,7 +12,7 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, extensibility features"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "office"
 ---
@@ -41,4 +43,4 @@ ms.workload:
 - [How to: Retrieve the SharePoint project service](../sharepoint/how-to-retrieve-the-sharepoint-project-service.md)
 - [Extend the SharePoint tools in Visual Studio](../sharepoint/extending-the-sharepoint-tools-in-visual-studio.md)
 - [Overview of the programming model of SharePoint tools extensions](../sharepoint/overview-of-the-programming-model-of-sharepoint-tools-extensions.md)
-- [How to: Get a Service from the DTE Object](https://msdn.microsoft.com/library/bb166401.aspx)
+- [How to: Get a Service from the DTE Object](/previous-versions/bb166401(v=vs.140))

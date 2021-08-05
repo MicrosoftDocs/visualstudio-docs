@@ -1,16 +1,18 @@
 ---
-title: "Workflow Designer - Switch<T> Activity Designer"
+title: Workflow Designer - Switch&lt;T&gt; Activity Designer
+description: Learn how to use the Switch <T> activity designer to create and configure a Switch <T> activity in the Workflow Designer.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "System.Activities.Presentation.ModelItemKeyValuePair.UI"
-  - "System.Activities.Statements.Switch`1.UI"
+- System.Activities.Presentation.ModelItemKeyValuePair.UI
+- System.Activities.Statements.Switch`1.UI
 ms.assetid: 18a6c96e-49a9-4356-ab61-fbd7e3ab44bb
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Switch\<T> Activity Designer
 

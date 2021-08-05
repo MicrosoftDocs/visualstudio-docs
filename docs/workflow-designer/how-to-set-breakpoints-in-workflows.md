@@ -1,13 +1,15 @@
 ---
-title: "Workflow Designer - How to: Set Breakpoints in Workflows"
+title: Set breakpoints in workflows
+description: Learn how to use the Workflow Designer to set breakpoints on your graphical workflows as you would in Visual Basic or C# code.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 ms.assetid: e41b21c9-c061-4358-8e2f-eb5e412864a8
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Set breakpoints in workflows
 

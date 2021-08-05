@@ -1,16 +1,18 @@
 ---
-title: "Getting Project Properties | Microsoft Docs"
-ms.date: "3/16/2019"
-ms.topic: "conceptual"
+title: Getting Project Properties | Microsoft Docs
+description: Learn how to display project properties in a tool window. This example shows the tree control in the tool window.
+ms.custom: SEO-VS-2020
+ms.date: 3/16/2019
+ms.topic: how-to
 helpviewer_keywords:
-  - "project properties, displaying in tool window"
-  - "tool windows, displaying project properties"
+- project properties, displaying in tool window
+- tool windows, displaying project properties
 ms.assetid: 96ba07ca-0811-4013-8602-12550ac4ba79
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Get project properties
 

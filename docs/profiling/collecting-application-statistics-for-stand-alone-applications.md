@@ -1,16 +1,19 @@
 ---
-title: "Use profiler command line to collect stand-alone app stats"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-helpviewer_keywords:
-  - "sampling profiling method"
-  - "profilng tools,sampling method"
+title: "Profiler command line: collect stand-alone app stats"
+description: Collect application statistics for stand-alone applications by using the profiler command line in Visual Studio.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
+helpviewer_keywords: 
+  - sampling profiling method
+  - profilng tools,sampling method
 ms.assetid: be2dbdd0-fc88-45f9-a1d5-bcb4f64e17ad
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
-ms.workload:
-  - "multiple"
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+monikerRange: 'vs-2017'
+ms.workload: 
+  - multiple
 ---
 # Collect application statistics for stand-alone applications by using the profiler command line
 This section describes the procedures and options for collecting performance statistics for a client (stand-alone) application by using the sampling method from the command line.

@@ -1,38 +1,39 @@
 ---
-title: "Manage exceptions with the debugger | Microsoft Docs"
-ms.custom: "seodec18"
-ms.date: "10/09/2018"
-ms.topic: "conceptual"
-f1_keywords:
-  - "vs.debug.exceptions"
-  - "vs.debug.exceptions.find"
-dev_langs:
-  - "CSharp"
-  - "VB"
-  - "FSharp"
-  - "C++"
-  - "JScript"
-helpviewer_keywords:
-  - "run-time errors"
-  - "exception handling, during debugging"
-  - "errors [debugger]"
-  - "debugger, runtime errors"
-  - "On Error-style error handlers"
-  - "exceptions, Win32"
-  - "run-time errors, debugging"
-  - "Win32, exceptions"
-  - "run time, exceptions"
-  - "error handling"
-  - "debugging [Visual Studio], exception handling"
-  - "common language runtime, exceptions"
-  - "native run-time checks"
-  - "exceptions, debugging"
+title: Manage exceptions with the debugger | Microsoft Docs
+description: Learn how to specify which exceptions the debugger breaks on, at which point you want the debugger to break, and how breaks are handled.
+ms.custom: "SEO-VS-2020"
+ms.date: 10/09/2018
+ms.topic: how-to
+f1_keywords: 
+  - vs.debug.exceptions
+  - vs.debug.exceptions.find
+dev_langs: 
+  - CSharp
+  - VB
+  - FSharp
+  - C++
+  - JScript
+helpviewer_keywords: 
+  - run-time errors
+  - exception handling, during debugging
+  - errors [debugger]
+  - debugger, runtime errors
+  - On Error-style error handlers
+  - exceptions, Win32
+  - run-time errors, debugging
+  - Win32, exceptions
+  - run time, exceptions
+  - error handling
+  - debugging [Visual Studio], exception handling
+  - common language runtime, exceptions
+  - native run-time checks
+  - exceptions, debugging
 ms.assetid: 43a77fa8-37d0-4c98-a334-0134dbca4ece
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
-ms.workload:
-  - "multiple"
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.workload: 
+  - multiple
 ---
 # Manage exceptions with the debugger in Visual Studio
 
@@ -149,7 +150,7 @@ If you are debugging .NET or JavaScript code with [Just My Code](../debugger/jus
 
    ![**Continue when unhandled in user code** setting](../debugger/media/continuewhenunhandledinusercodesetting.png "ContinueWhenUnhandledInUserCodeSetting")
 
-For example, ASP.NET web applications handle exceptions by converting them to an HTTP 500 status code ([Exception handling in ASP.NET Web API](http://www.asp.net/web-api/overview/error-handling/exception-handling)), which may not help you determine the source of the exception. In the example below, the user code makes a call to `String.Format()` that throws a <xref:System.FormatException>. Execution breaks as follows:
+For example, ASP.NET web applications handle exceptions by converting them to an HTTP 500 status code ([Exception handling in ASP.NET Web API](/aspnet/web-api/overview/error-handling/exception-handling)), which may not help you determine the source of the exception. In the example below, the user code makes a call to `String.Format()` that throws a <xref:System.FormatException>. Execution breaks as follows:
 
 ![Breaks on user&#45;unhandled exception](../debugger/media/exceptionunhandledbyuser.png "ExceptionUnhandledByUser")
 
@@ -219,5 +220,4 @@ To add conditional exceptions:
 - [Continue execution after an exception](../debugger/continuing-execution-after-an-exception.md)<br/>
 - [How to: Examine system code after an exception](../debugger/how-to-examine-system-code-after-an-exception.md)<br/>
 - [How to: Use native run-time checks](../debugger/how-to-use-native-run-time-checks.md)<br/>
-- [Use run-time checks without the C run-time library](../debugger/using-run-time-checks-without-the-c-run-time-library.md)<br/>
 - [First look at the debugger](../debugger/debugger-feature-tour.md)

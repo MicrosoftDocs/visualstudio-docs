@@ -1,5 +1,6 @@
 ---
 title: "StopProfile | Microsoft Docs"
+description: Learn the StopProfile function and how it sets the counter to 0 (off) for the specified profiling level.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:
@@ -7,7 +8,8 @@ helpviewer_keywords:
 ms.assetid: be75b03c-7af5-4abe-a54a-6ee5479ad877
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+monikerRange: 'vs-2017'
 ms.workload:
   - "multiple"
 ---

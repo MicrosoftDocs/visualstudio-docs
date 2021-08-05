@@ -1,5 +1,7 @@
 ---
 title: "&lt;Package&gt; Element (Bootstrapper) | Microsoft Docs"
+description: The Package element is the top-level XML element inside of a package file. The Package element is required. 
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:
@@ -12,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: ecd06658-ad02-4440-bccd-88437b7fb816
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

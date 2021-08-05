@@ -1,0 +1,26 @@
+- name: Visual Studio Game Development
+  href: index.yml
+- name: Unity
+  items:
+    - name: Overview
+      href: unity/get-started/visual-studio-tools-for-unity.md
+    - name: Getting started
+      href: unity/get-started/getting-started-with-visual-studio-tools-for-unity.md
+    - name: Using Visual Studio Tools for Unity
+      href: unity/get-started/using-visual-studio-tools-for-unity.md
+    - name: .NET Compatibility
+      href: unity/unity-scripting-upgrade.md
+    - name: DevOps
+      href: unity/application-lifecycle-management-alm-with-unity-apps.md
+    - name: Troubleshooting
+      href: unity/troubleshooting/troubleshooting-and-known-issues-visual-studio-tools-for-unity.md
+    - name: Extensibility
+      items:
+      - name: Customizing project file generation
+        href: unity/extensibility/customize-project-files-created-by-vstu.md
+    - name: Tools for Unity changelogs
+      items: 
+      - name: Visual Studio
+        href: unity/change-log-visual-studio-tools-for-unity.md
+      - name: Visual Studio for Mac
+        href: unity/change-log-visual-studio-tools-for-unity-mac.md

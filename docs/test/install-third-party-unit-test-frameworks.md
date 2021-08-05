@@ -1,12 +1,14 @@
 ---
-title: "Install third-party unit test frameworks"
-ms.date: 04/01/2019
-ms.topic: conceptual
-ms.author: jillfra
-manager: jillfra
-ms.workload:
-  - "multiple"
-author: jillre
+title: Install third-party unit test frameworks
+description: Visual Studio Test Explorer can run tests from any unit test framework that has developed an adapter interface for it.
+ms.custom: SEO-VS-2020
+ms.date: 07/09/2020
+ms.topic: how-to
+ms.author: mikejo
+manager: jmartens
+ms.workload: 
+  - multiple
+author: mikejo5000
 ---
 # Install unit test frameworks
 
@@ -14,7 +16,12 @@ Visual Studio Test Explorer can run tests from any unit test framework that has 
 
 A Visual Studio solution can contain unit test projects that use different frameworks and that are targeted at different languages.
 
+::: moniker range=">=vs-2019"
+For .NET, [MSTest, NUnit, and xUnit](getting-started-with-unit-testing.md) are the test frameworks provided by Visual Studio which are installed by default. For C++, a different set of test frameworks are provided, such as CTest.
+::: moniker-end
+::: moniker range="vs-2017"
 [MSTest](getting-started-with-unit-testing.md) is the test framework provided by Visual Studio and is installed by default.
+::: moniker-end
 
 ## Acquire frameworks
 
@@ -32,7 +39,7 @@ Update to the latest stable test adapter to experience better test discovery and
 
 ### To update to the latest stable test adapter version
 
-1. Open the Nuget Package Manager for your solution by navigating to **Tools** > **NuGet Package Manager** > **Manage NuGet Packages for Solution**.
+1. Open the NuGet Package Manager for your solution by navigating to **Tools** > **NuGet Package Manager** > **Manage NuGet Packages for Solution**.
 
 2. Click on the **Updates** tab and search for MSTest, NUnit, or xUnit test adapters that are installed.
 

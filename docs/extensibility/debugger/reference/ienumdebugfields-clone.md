@@ -1,20 +1,21 @@
 ---
-title: "IEnumDebugFields::Clone | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "This method returns a copy of the current fields enumeration as a separate object."
+title: IEnumDebugFields::Clone | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IEnumDebugFields::Clone"
+- IEnumDebugFields::Clone
 helpviewer_keywords:
-  - "IEnumDebugFields::Clone method"
+- IEnumDebugFields::Clone method
 ms.assetid: 7ec265a8-696f-45ce-a2a2-0a83e96fee1b
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IEnumDebugFields::Clone
 This method returns a copy of the current enumeration as a separate object.

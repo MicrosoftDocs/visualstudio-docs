@@ -1,34 +1,35 @@
 ---
-title: "View the call stack in the debugger | Microsoft Docs"
-ms.custom: "seodec18"
-ms.date: "10/29/2018"
-ms.topic: "conceptual"
-f1_keywords:
-  - "vs.debug.callstack"
-dev_langs:
-  - "CSharp"
-  - "VB"
-  - "FSharp"
-  - "C++"
-  - "JScript"
-  - "SQL"
-  - "aspx"
-helpviewer_keywords:
-  - "threading [Visual Studio], displaying calls to or from"
-  - "functions [debugger], viewing code on call stack"
-  - "disassembly code"
-  - "breakpoints, Call Stack window"
-  - "debugging [Visual Studio], switching to another stack frame"
-  - "debugging [Visual Studio], Call Stack window"
-  - "Call Stack window, viewing source code for functions on the call stack"
-  - "stack, switching stack frames"
-  - "Call Stack window, viewing disassembly code for functions on the call stack"
+title: View the call stack in the debugger | Microsoft Docs
+description: Use the Call Stack window to view the function or procedure calls that are currently on the stack in Visual Studio.
+ms.custom: "SEO-VS-2020"
+ms.date: 10/29/2018
+ms.topic: how-to
+f1_keywords: 
+  - vs.debug.callstack
+dev_langs: 
+  - CSharp
+  - VB
+  - FSharp
+  - C++
+  - JScript
+  - SQL
+  - aspx
+helpviewer_keywords: 
+  - threading [Visual Studio], displaying calls to or from
+  - functions [debugger], viewing code on call stack
+  - disassembly code
+  - breakpoints, Call Stack window
+  - debugging [Visual Studio], switching to another stack frame
+  - debugging [Visual Studio], Call Stack window
+  - Call Stack window, viewing source code for functions on the call stack
+  - stack, switching stack frames
+  - Call Stack window, viewing disassembly code for functions on the call stack
 ms.assetid: 5154a2a1-4729-4dbb-b675-db611a72a731
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
-ms.workload:
-  - "multiple"
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.workload: 
+  - multiple
 ---
 # View the call stack and use the Call Stack window in the debugger
 

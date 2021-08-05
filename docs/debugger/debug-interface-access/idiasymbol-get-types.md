@@ -1,7 +1,8 @@
 ---
+description: "Retrieves an array of compiler-specific types for this symbol."
 title: "IDiaSymbol::get_types | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 5f056e0c-e15b-4e00-8f78-aadc8574f7ea
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---

@@ -1,22 +1,22 @@
 ---
-title: "Learn to debug multithreaded applications"
+title: Learn to debug multithreaded applications
 description: Debug using the Parallel Stacks and Parallel Watch windows in Visual Studio
-ms.custom: ""
-ms.date: "11/16/2018"
-ms.topic: "conceptual"
-dev_langs:
-  - "CSharp"
-  - "VB"
-  - "FSharp"
-  - "C++"
-helpviewer_keywords:
-  - "multithreaded debugging, tutorial"
-  - "tutorials, multithreaded debugging"
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
-ms.workload:
-  - "multiple"
+ms.custom: 
+ms.date: 02/14/2020
+ms.topic: how-to
+dev_langs: 
+  - CSharp
+  - VB
+  - FSharp
+  - C++
+helpviewer_keywords: 
+  - multithreaded debugging, tutorial
+  - tutorials, multithreaded debugging
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.workload: 
+  - multiple
 ---
 # Get started debugging multithreaded applications (C#, Visual Basic, C++)
 
@@ -34,29 +34,39 @@ You'll first need a multithreaded application project. An example follows.
 
 1. Open Visual Studio and create a new project.
 
-    ::: moniker range=">=vs-2019"
-    Press **Esc** to close the start window. Type **Ctrl + Q** to open the search box, type **console** (or **c++**), choose **Templates**, and then:
+   ::: moniker range=">=vs-2019"
 
-    - For C# or Visual Basic, choose **Create new Console App (.NET Framework) project** for either C# or Visual Basic. In the dialog box that appears, choose **Create**.
-    - For C++, choose **Create new Console App project** for C++. In the dialog box that appears, choose **Create**.
+   If the start window is not open, choose **File** > **Start Window**.
 
-    Then, type a name like **MyThreadWalkthroughApp** and click **Create**.
-    ::: moniker-end
-    ::: moniker range="vs-2017"
-    From the top menu bar, choose **File** > **New** > **Project**. In the left pane of the **New project** dialog box, choose the following:
+   On the start window, choose **Create a new project**.
 
-    - For a C# app, under **Visual C#**, choose **Windows Desktop**, and then in the middle pane choose **Console App (.NET Framework)**.
-    - For a Visual Basic app, under **Visual Basic**, choose **Windows Desktop**, and then in the middle pane choose **Console App (.NET Framework)**.
-    - For a C++ app, under **Visual C++**, choose **Windows Desktop**,, and then choose **Windows Console Application**.
+   On the **Create a new project** window, enter or type *console* in the search box. Next, choose **C#**, **C++**, or **Visual Basic** from the Language list, and then choose **Windows** from the Platform list. 
 
-    Then, type a name like **MyThreadWalkthroughApp** and click **OK**.
-    ::: moniker-end
+   After you apply the language and platform filters, choose the **Console App** template for .NET Core or C++, and then choose **Next**.
 
-    If you don't see the **Console App** project template, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **.NET desktop development** or **Desktop development with C++** workload, then choose **Modify**.
+   > [!NOTE]
+   > If you don't see the correct template, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **.NET Core cross-platform development** or **Desktop development with C++** workload, then choose **Modify**.
 
-1. Select **OK**.
+   In the **Configure your new project** window, type or enter *MyThreadWalkthroughApp* in the **Project name** box. Then, choose either **Next** or **Create**, whichever option is available.
 
-    A new console project appears. After the project has been created, a source file appears. Depending on the language you have chosen, the source file might be called *Program.cs*, *MyThreadWalkthroughApp.cpp*, or *Module1.vb*.
+   For a .NET Core project, choose either the recommended target framework (.NET Core 3.1) or .NET 5, and then choose **Create**.
+
+   ::: moniker-end
+   ::: moniker range="vs-2017"
+   From the top menu bar, choose **File** > **New** > **Project**. In the left pane of the **New project** dialog box, choose the following:
+
+   - For a C# app, under **Visual C#**, choose **Windows Desktop**, and then in the middle pane choose **Console App (.NET Framework)**.
+   - For a Visual Basic app, under **Visual Basic**, choose **Windows Desktop**, and then in the middle pane choose **Console App (.NET Framework)**.
+   - For a C++ app, under **Visual C++**, choose **Windows Desktop**,, and then choose **Windows Console Application**.
+
+   If you don't see the **Console App (.NET Framework)** for, for C++, the **Console App** project template, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **.NET desktop development** or **Desktop development with C++** workload, then choose **Modify**.
+
+   Then, type a name like *MyThreadWalkthroughApp* and click **OK**.
+
+   Select **OK**.
+   ::: moniker-end
+
+   A new console project appears. After the project has been created, a source file appears. Depending on the language you have chosen, the source file might be called *Program.cs*, *MyThreadWalkthroughApp.cpp*, or *Module1.vb*.
 
 1. Delete the code that appears in the source file and replace it with the appropriate example code listing below.
 
@@ -79,7 +89,7 @@ You'll first need a multithreaded application project. An example follows.
             // threads more apparent.
             Thread.Sleep(3000);
             Console.WriteLine(
-                "The instance method called by the worker thread has ended.");
+                "The instance method called by the worker thread has ended. " + data);
         }
     }
 
@@ -108,10 +118,11 @@ You'll first need a multithreaded application project. An example follows.
     ```
 
     ```C++
-    #include "pch.h"
+    // #include "pch.h" // Use with pre-compiled header
     #include <thread>
     #include <iostream>
     #include <vector>
+    #include <string>
 
     int count = 0;
 
@@ -122,7 +133,8 @@ You'll first need a multithreaded application project. An example follows.
         // Pause for a moment to provide a delay to make
         // threads more apparent.
         std::this_thread::sleep_for(std::chrono::seconds(3));
-        std::cout << "The function called by the worker thread has ended." << std::endl;
+        std::string str = std::to_string(data);
+        std::cout << "The function called by the worker thread has ended. " + str<< std::endl;
     }
 
     int main() {
@@ -157,7 +169,7 @@ You'll first need a multithreaded application project. An example follows.
             ' threads more apparent.
             Thread.Sleep(3000)
             Console.WriteLine(
-                    "The instance method called by the worker thread has ended.")
+                    "The instance method called by the worker thread has ended. " + data)
         End Sub
 
     End Class

@@ -1,14 +1,16 @@
 ---
-title: "Editing Text Mix Models"
+title: Editing Text Mix Models
+description: Learn how the test mix model allows you to have several workflows, which more closely approximates how end-users interact with your applications.
+ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
-ms.topic: conceptual
-helpviewer_keywords:
-  - "load tests, scenarios"
-  - "load tests, virtual users"
+ms.topic: how-to
+helpviewer_keywords: 
+  - load tests, scenarios
+  - load tests, virtual users
 ms.assetid: e3b7d952-9012-400a-8131-3444390a6066
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
 ---
 # Edit test mix models to specify the probability of a virtual user running a test
 

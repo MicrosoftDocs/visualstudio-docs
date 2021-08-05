@@ -1,5 +1,7 @@
 ---
 title: "LIB Task | Microsoft Docs"
+description: Learn how MSBuild uses the LIB task to wrap the Microsoft 32-bit Library Manager tool, lib.exe, which creates and manages a library of COFF object files. 
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 f1_keywords:
@@ -20,16 +22,18 @@ helpviewer_keywords:
   - "MSBuild (C++), LIB task"
   - "LIB task (MSBuild (C++))"
 ms.assetid: e062c7f9-cc69-4a83-9361-1bb5355e5fe8
-author: mikejo5000
-ms.author: mikejo
-manager: jillfra
+author: ghogen
+ms.author: ghogen
+manager: jmartens
 ms.workload:
   - "multiple"
 ---
 # LIB task
+
 Wraps the Microsoft 32-Bit Library Manager tool, *lib.exe*. The Library Manager creates and manages a library of Common Object File Format (COFF) object files. The Library Manager can also create export files and import libraries to reference exported definitions. For more information, see [LIB reference](/cpp/build/reference/lib-reference) and [Running LIB](/cpp/build/reference/running-lib).
 
 ## Parameters
+
  The following table describes the parameters of the **LIB** task. Most task parameters correspond to a command-line option.
 
 |Parameter|Description|
@@ -60,4 +64,5 @@ Wraps the Microsoft 32-Bit Library Manager tool, *lib.exe*. The Library Manager 
 |**Verbose**|Optional **Boolean** parameter.<br /><br /> If `true`, displays details about the progress of the session; this includes names of the *.obj* files being added. The information is sent to standard output and can be redirected to a file.<br /><br /> For more information, see the **/VERBOSE** option in [Running LIB](/cpp/build/reference/running-lib).|
 
 ## See also
+
 - [Task reference](../msbuild/msbuild-task-reference.md)

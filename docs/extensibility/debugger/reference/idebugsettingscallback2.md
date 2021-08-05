@@ -1,15 +1,16 @@
 ---
-title: "IDebugSettingsCallback2 | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Enables debug engines to read metric settings remotely."
+title: IDebugSettingsCallback2 | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "IDebugSettingsCallback2 interface"
+- IDebugSettingsCallback2 interface
 ms.assetid: 7e525d0b-7d7a-4d1c-8b78-e1398fa922f2
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IDebugSettingsCallback2
 Enables debug engines to read metric settings remotely.

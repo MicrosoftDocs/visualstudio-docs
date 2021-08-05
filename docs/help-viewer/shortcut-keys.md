@@ -1,5 +1,6 @@
 ---
 title: Shortcut keys (Help Viewer)
+description: See the list of shortcut keys in Microsoft Help Viewer. Use shortcut keys for navigation, window management, and content management.
 ms.date: 11/02/2017
 ms.topic: reference
 helpviewer_keywords:
@@ -8,7 +9,7 @@ helpviewer_keywords:
 ms.assetid: ec14c85d-7efb-441c-a46b-bee34a227e39
 author: ghogen
 ms.author: ghogen
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---
@@ -82,9 +83,8 @@ You can navigate in the **Microsoft Help Viewer** by using the shortcut keys in 
 
  **Window management**
 
-|||
-|-|-|
 |**Keystroke**|**Action**|
+|-|-|
 |**Ctrl**+**L**|Reset the **Help Viewer** layout to the default layout, and close all topic tabs.|
 |**Ctrl**+**Tab**|The first keystroke gives focus to the **Tab Selection** menu. The next keystroke gives focus to the top menu item, and subsequent keystrokes give focus to the menu items in sequence from top to bottom. When a menu item has focus, the **Enter** key makes that item the active tab.|
 |**Ctrl**+**Shift**+**Tab**|The first keystroke gives focus to the **Tab Selection** menu. The next keystroke gives focus to the bottom menu item, and subsequent keystrokes give focus to the menu items in sequence from bottom to top. When a menu item has focus, the **Enter** key makes that item the active tab.|
@@ -92,9 +92,8 @@ You can navigate in the **Microsoft Help Viewer** by using the shortcut keys in 
 
  **Manage content**
 
-|||
-|-|-|
 |**Keystroke**|**Action**|
+|-|-|
 |**Alt**+**D**|Change the installation source to disk.|
 |**Alt**+**O**|Change the installation source to online.|
 |**Tab**|Change focus to the **Local store path** text box.|
