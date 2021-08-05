@@ -14,8 +14,6 @@ manager: jmartens
 ms.technology: vs-ide-general
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-windows
-ms.technology: vs-ide-general
 ---
 # Visual Studio feedback options
 
