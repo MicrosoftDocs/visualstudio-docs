@@ -8,6 +8,7 @@ ms.assetid: d20a30c0-0dcc-4e2c-a809-31c8ea28c7df
 author: brickgeorge
 ms.author: brgeorge
 manager: jmartens
+ms.technology: vs-ide-sdk
 ---
 # Visual language dictionary
 
