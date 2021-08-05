@@ -12,7 +12,6 @@ ms.assetid: 0e445255-b796-426d-ad93-a4d8e36da2c5
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.technology: vs-installation
 ms.workload:
 - multiple
 ms.prod: visual-studio-windows

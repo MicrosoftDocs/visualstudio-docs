@@ -6,7 +6,6 @@ keywords:
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.technology: vs-installation
 ms.date: 2/12/2019
 ms.prod: visual-studio-windows
 ms.technology: vs-installation

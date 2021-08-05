@@ -5,7 +5,6 @@ description: A list of released versions and build numbers for Visual Studio, so
 author: TerryGLee
 ms.author: tglee
 manager: jmartens
-ms.technology: vs-installation
 ms.date: 07/22/2021
 ms.topic: reference
 ms.workload:

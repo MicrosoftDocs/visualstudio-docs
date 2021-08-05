@@ -5,7 +5,6 @@ description: Use Visual Studio workload and component IDs to provide integrated 
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.technology: vs-installation
 ms.date: 03/16/2020
 ms.topic: reference
 helpviewer_keywords:
