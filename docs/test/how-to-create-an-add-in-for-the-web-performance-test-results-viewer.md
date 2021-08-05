@@ -11,6 +11,7 @@ ms.assetid: 1118c604-4b1b-4b21-a04e-45995b676fa8
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
+ms.technology: vs-ide-test
 ---
 # How to: Create an add-in for the Web Performance Test Results Viewer
 

@@ -6,6 +6,7 @@ keywords:
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
+ms.technology: vs-installation
 ms.date: 05/25/2021
 ms.topic: reference
 helpviewer_keywords:

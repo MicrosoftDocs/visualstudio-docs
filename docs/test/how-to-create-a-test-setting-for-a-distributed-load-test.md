@@ -10,6 +10,7 @@ ms.assetid: b63d4b71-3b74-4872-b2d1-f0bd1a9a8544
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
+ms.technology: vs-ide-test
 ---
 # How to: Create a test settings file for a distributed load test
 

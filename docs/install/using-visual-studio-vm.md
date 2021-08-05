@@ -13,6 +13,7 @@ helpviewer_keywords:
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
+ms.technology: vs-installation
 ms.workload:
 - multiple
 ms.prod: visual-studio-windows

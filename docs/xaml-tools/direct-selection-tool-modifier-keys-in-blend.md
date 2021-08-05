@@ -9,6 +9,7 @@ ms.assetid: 21f9b951-dc2b-4d09-bd70-75caed8fb964
 author: TerryGLee
 ms.author: tglee
 manager: jmartens
+ms.technology: vs-xaml-tools
 ms.workload:
   - "multiple"
 ---

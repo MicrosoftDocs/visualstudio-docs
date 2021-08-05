@@ -13,6 +13,7 @@ dev_langs:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
+ms.technology: vs-javascript
 monikerRange: '>= vs-2019'
 ---
 # JavaScript and TypeScript in Visual Studio 2019

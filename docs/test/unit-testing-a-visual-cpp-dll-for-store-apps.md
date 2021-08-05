@@ -6,6 +6,7 @@ ms.date: 05/01/2019
 ms.topic: how-to
 ms.author: corob
 manager: jmartens
+ms.technology: vs-ide-test
 ms.workload: 
   - uwp
 author: corob-msft

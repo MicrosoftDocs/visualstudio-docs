@@ -12,6 +12,7 @@ ms.assetid: 92dff25c-36ee-4135-acdd-315c4962fa11
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
+ms.technology: vs-ide-test
 ---
 # Fix non-detectable dynamic parameters in a web performance test
 

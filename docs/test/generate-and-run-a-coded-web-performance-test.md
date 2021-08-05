@@ -16,6 +16,7 @@ dev_langs:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
+ms.technology: vs-ide-test
 ---
 # Generate and run a coded web performance test
 

@@ -13,6 +13,7 @@ ms.assetid: 1cd63c4b-4f74-4133-b675-5e8fbeab25f3
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
+ms.technology: vs-ide-test
 ---
 # Manage load test results in the Load Test Results Repository
 

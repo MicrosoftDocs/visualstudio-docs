@@ -13,6 +13,7 @@ helpviewer_keywords:
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
+ms.technology: vs-installation
 ---
 # Install Visual Studio versions side-by-side
 
