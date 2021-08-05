@@ -3,7 +3,7 @@ title: "Tutorial: Debug C++ code"
 description: Learn features of the Visual Studio debugger and how to start the debugger, step through code, and inspect data in a C++ application.
 ms.custom: "debug-experiment,  vs-acquisition, get-started"
 ms.date: 02/04/2020
-ms.technology: "vs-ide-debug"
+ms.technology: vs-ide-debug
 ms.topic: tutorial
 dev_langs:
   - "C++"
@@ -12,7 +12,6 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
