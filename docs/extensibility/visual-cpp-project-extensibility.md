@@ -9,6 +9,7 @@ dev_langs:
 author: "corob-msft"
 ms.author: "corob"
 manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload: ["vssdk"]
 ---
 # Visual Studio C++ Project system extensibility and toolset integration
