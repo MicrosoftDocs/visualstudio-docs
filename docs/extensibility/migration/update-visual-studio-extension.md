@@ -37,7 +37,7 @@ Extensions *must* be compiled with the "Any CPU" or "x64" platform. The "x86" pl
 
 The VS SDK for extensions compiled with C++ is available with the installed Visual Studio SDK, as usual.
 
-Extensions *must* be compiled specifically against the Visual Studio 2022 SDK and for amd64.
+Extensions *must* be compiled specifically against the Visual Studio 2022 SDK and for amd64. Aside from this, no additional changes need to be made and the following guidance below can be ignored.
 
 ### Update your extension to Visual Studio 2022
 
