@@ -11,7 +11,6 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-ide-general
 ms.workload:
   - "multiple"
 ---

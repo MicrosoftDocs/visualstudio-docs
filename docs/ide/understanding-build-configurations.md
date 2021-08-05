@@ -26,7 +26,6 @@ ms.assetid: 934c727d-3a22-429c-bd13-3552cecf2e24
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-ide-general
 ms.workload:
 - multiple
 ---
