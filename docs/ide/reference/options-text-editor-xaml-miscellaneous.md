@@ -28,6 +28,7 @@ ms.assetid: 2a420e58-a408-4e8d-9220-44eeb4f67801
 author: TerryGLee
 ms.author: tglee
 manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
 - uwp
 ---

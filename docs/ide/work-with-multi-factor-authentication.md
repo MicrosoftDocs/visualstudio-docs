@@ -7,6 +7,7 @@ description: "Learn how to use Visual Studio with accounts that require multi-fa
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
 - multiple
 monikerRange: ">=vs-2019"

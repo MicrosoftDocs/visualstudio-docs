@@ -7,6 +7,7 @@ ms.topic: reference
 author: kendrahavens
 ms.author: kehavens
 manager: jmartens
+ms.technology: vs-ide-general
 dev_langs:
   - CSharp
   - VB
