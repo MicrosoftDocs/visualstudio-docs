@@ -2,7 +2,6 @@
 description: "The Visual C++ project system is used for .vcxproj files."
 title: "Visual C++ project extensibility"
 ms.date: "04/23/2019"
-ms.technology: vs-ide-mobile
 ms.topic: "conceptual"
 dev_langs:
   - "C++"
