@@ -38,12 +38,16 @@ landingContent:
     linkLists:
       - linkListType: tutorial
         links:
-          - text: Create a web app with Node.js and Express
-            url: tutorial-nodejs.md
-          - text: Create a web app with Node.js and React
-            url: tutorial-nodejs-with-react-and-jsx.md
-          - text: Create a web app with Node.js and Vue.js
-            url: quickstart-vuejs-with-nodejs.md
+          - text: Create a web app with Angular and ASP.NET Core
+            url: tutorial-asp-net-core-with-angular.md
+          - text: Create an Angular App
+            url: tutorial-create-angular-app.md
+          - text: Create a web app with React and ASP.NET Core
+            url: tutorial-asp-net-core-with-react.md
+          - text: Create an React App
+            url: tutorial-create-react-app.md
+          - text: Create an Vue App
+            url: tutorial-create-vue-app.md
 
   # Card
   - title: Learn Visual Studio
