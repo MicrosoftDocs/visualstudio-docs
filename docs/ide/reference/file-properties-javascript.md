@@ -26,6 +26,7 @@ ms.assetid: 085913b8-a97b-45f7-85fa-bbb0902f3ee9
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
   - "multiple"
 ---

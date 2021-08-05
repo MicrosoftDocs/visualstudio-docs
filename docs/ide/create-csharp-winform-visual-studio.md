@@ -9,6 +9,7 @@ ms.devlang: CSharp
 author: j-martens
 ms.author: jmartens
 manager: jmartens
+ms.technology: vs-ide-general
 dev_langs:
   - CSharp
 ms.workload:

@@ -10,6 +10,7 @@ ms.assetid: b0e4ebed-1a01-41ef-aad1-4d8465ce5322
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
+ms.technology: vs-ide-general
 dev_langs:
   - JavaScript
 ms.workload:

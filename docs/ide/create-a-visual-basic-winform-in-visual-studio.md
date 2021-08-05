@@ -9,6 +9,7 @@ ms.devlang: vb
 author: j-martens
 ms.author: jmartens
 manager: jmartens
+ms.technology: vs-ide-general
 dev_langs:
   - VB
 ms.workload:

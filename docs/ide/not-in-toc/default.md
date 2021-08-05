@@ -25,6 +25,7 @@ f1_keywords:
 - vs.toolbox
 - vs.objectbrowser
 manager: jmartens
+ms.technology: vs-ide-general
 author: mikejo5000
 ms.author: mikejo
 ---

@@ -5,6 +5,7 @@ ms.custom: SEO-VS-2020
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
+ms.technology: vs-ide-general
 ms.date: 11/19/2019
 ms.topic: conceptual
 ---

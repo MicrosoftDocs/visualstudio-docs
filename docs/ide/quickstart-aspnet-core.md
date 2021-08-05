@@ -9,6 +9,7 @@ ms.topic: quickstart
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
+ms.technology: vs-ide-general
 dev_langs:
   - CSharp
 ms.workload:

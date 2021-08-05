@@ -9,6 +9,7 @@ ms.technology: vs-ide-general
 author: j-martens
 ms.author: jmartens
 manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
 - multiple
 ---

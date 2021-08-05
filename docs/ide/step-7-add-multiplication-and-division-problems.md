@@ -13,6 +13,7 @@ ms.assetid: e638959e-f6a4-4eb4-b2e9-f63b7855cf8f
 author: j-martens
 ms.author: jmartens
 manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
   - "multiple"
 ---

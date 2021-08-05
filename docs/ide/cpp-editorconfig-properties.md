@@ -6,6 +6,7 @@ ms.date: 9/14/2020
 author: jureid
 ms.author: jureid
 manager: jmartens
+ms.technology: vs-ide-general
 dev_langs:
  - CPP
 ms.prod: visual-studio-windows

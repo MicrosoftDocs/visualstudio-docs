@@ -9,6 +9,7 @@ helpviewer_keywords:
 author: TerryGLee
 ms.author: tglee
 manager: jmartens
+ms.technology: vs-ide-general
 ms.prod: visual-studio-dev17
 ms.technology:
 ms.topic: conceptual

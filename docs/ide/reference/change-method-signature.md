@@ -6,6 +6,7 @@ ms.topic: reference
 author: mikadumont
 ms.author: midumont
 manager: jmartens
+ms.technology: vs-ide-general
 f1_keywords:
   - "vs.csharp.refactoring.remove"
   - "vs.csharp.refactoring.reorder"
