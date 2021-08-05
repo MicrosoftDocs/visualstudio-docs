@@ -12,7 +12,6 @@ helpviewer_keywords:
 author: DennisLee-DennisLee
 ms.author: v-dele
 manager: jmartens
-ms.technology: vs-ide-general
 ms.workload:
   - "multiple"
 ---

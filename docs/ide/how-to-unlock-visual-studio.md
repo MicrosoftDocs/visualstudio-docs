@@ -10,8 +10,6 @@ manager: jmartens
 ms.technology: vs-ide-general
 ms.workload:
 - multiple
-ms.prod: visual-studio-windows
-ms.technology: vs-ide-general
 ---
 # Extend a trial version or update a license
 

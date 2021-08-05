@@ -13,7 +13,6 @@ f1_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-general
 ms.workload:
   - "multiple"
 ---
