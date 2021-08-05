@@ -14,7 +14,6 @@ caps.latest.revision: 1
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
-ms.technology: vs-javascript
 ---
 # JavaScript in Visual Studio 2017
 
