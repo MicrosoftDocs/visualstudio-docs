@@ -7,6 +7,7 @@ ms.topic: conceptual
 author: ghogen
 ms.author: ghogen
 manager: jmartens
+ms.technology: msbuild
 ms.workload:
 - multiple
 monikerRange: '>=vs-2019'

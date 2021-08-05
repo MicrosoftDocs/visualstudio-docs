@@ -10,6 +10,7 @@ ms.assetid: de10dabb-02ed-403b-9e6f-0b735524988c
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
+ms.technology: vs-ide-test
 ---
 # Load test run settings properties
 

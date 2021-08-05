@@ -4,8 +4,6 @@ description: Learn how to write a CheckTheAnswer()method to determine whether th
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: tutorial
-ms.prod: visual-studio-windows
-ms.technology: vs-ide-general
 dev_langs:
 - CSharp
 - VB
@@ -13,6 +11,7 @@ ms.assetid: c66f3831-b4a0-40bc-a109-8f46f4db35ed
 author: j-martens
 ms.author: jmartens
 manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
 - multiple
 ---

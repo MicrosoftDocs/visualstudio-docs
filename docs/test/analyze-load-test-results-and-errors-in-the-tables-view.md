@@ -23,6 +23,7 @@ ms.assetid: 0a84bda3-6051-45eb-9c7f-d57419e1f97d
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
+ms.technology: vs-ide-test
 ---
 # Analyze load test results and errors in the Tables view of the Load Test Analyzer
 

@@ -11,6 +11,7 @@ ms.assetid: 1af376e3-3be7-4445-803b-76a858567a5b
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
+ms.technology: vs-ide-code-analysis
 ms.workload:
 - multiple
 ---

@@ -11,10 +11,9 @@ ms.assetid: e0846d4d-2ce1-48e3-b219-674ff070bf4e
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-windows
-ms.technology: vs-ide-general
 ---
 # Visual Studio feedback options
 

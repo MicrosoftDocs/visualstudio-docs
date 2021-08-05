@@ -7,6 +7,7 @@ ms.topic: overview
 author: TerryGLee
 ms.author: tglee
 manager: jmartens
+ms.technology: vs-xml-tools
 ms.workload:
 - multiple
 ---

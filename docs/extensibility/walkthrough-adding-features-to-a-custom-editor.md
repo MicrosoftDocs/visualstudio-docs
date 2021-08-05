@@ -10,6 +10,7 @@ ms.assetid: bfe083b6-3e35-4b9c-ad4f-b30b9ff412a5
 author: leslierichardson95
 ms.author: lerich
 manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---

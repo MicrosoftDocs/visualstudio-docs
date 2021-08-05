@@ -6,6 +6,7 @@ keywords: ai, visual studio
 author: jillre
 ms.author: jillfra
 manager: jmartens
+ms.technology: vs-ai-tools
 monikerRange: vs-2017
 ms.date: 11/13/2017
 ms.topic: "conceptual"

@@ -8,6 +8,7 @@ f1_keywords:
 - vs.UnitTest.CreateIntelliTest
 ms.author: mikejo
 manager: jmartens
+ms.technology: vs-ide-test
 ms.workload:
 - multiple
 author: mikejo5000
