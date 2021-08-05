@@ -10,6 +10,7 @@ ms.assetid: 89844796-621B-4EF5-9D76-197084B011CB
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
+ms.technology: vs-ide-general
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
 ms.topic: conceptual

@@ -7,6 +7,7 @@ ms.topic: tutorial
 author: JoshuaPartlow
 ms.author: joshuapa
 manager: jmartens
+ms.technology: vs-python
 ms.custom: "seodec18, SEO-VS-2020"
 ms.workload:
   - python

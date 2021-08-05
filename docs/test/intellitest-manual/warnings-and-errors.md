@@ -8,6 +8,7 @@ helpviewer_keywords:
 - IntelliTest, Warnings and errors
 ms.author: mikejo
 manager: jmartens
+ms.technology: vs-ide-test
 ms.workload:
 - multiple
 author: mikejo5000
