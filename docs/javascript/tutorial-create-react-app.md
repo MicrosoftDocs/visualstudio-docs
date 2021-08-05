@@ -22,6 +22,7 @@ In this 5-10 minute introduction to the Visual Studio integrated development env
 
 Make sure to have the following installed:
 
+- Visual Studio 2022 Preview 2 or later. Go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/) page to install it for free.
 - npm ([https://www.npmjs.com/](https://www.npmjs.com/)) 
 - npx ([https://www.npmjs.com/package/npx](https://www.npmjs.com/package/npx))
 
