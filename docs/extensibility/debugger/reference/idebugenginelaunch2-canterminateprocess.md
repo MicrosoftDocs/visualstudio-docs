@@ -11,6 +11,7 @@ ms.assetid: 7973454d-c957-4123-a0ee-80ebcdbbd2d1
 author: leslierichardson95
 ms.author: lerich
 manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
 - vssdk
 dev_langs:

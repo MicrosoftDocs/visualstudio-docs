@@ -4,6 +4,7 @@ ms.custom: SEO-VS-2020
 description: Learn how to debug a cloud service with Visual Studio and IntelliTrace
 author: mikejo5000
 manager: jmartens
+ms.technology: vs-azure
 ms.topic: how-to
 ms.workload: azure-vs
 ms.date: 03/21/2017
