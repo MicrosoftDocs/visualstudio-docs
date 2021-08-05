@@ -8,6 +8,7 @@ author: kraigb
 ms.author: kraigb
 ms.reviewer: karthiknadig
 manager: jmartens
+ms.technology: vs-rtvs
 ms.workload:
   - data-science
 ---

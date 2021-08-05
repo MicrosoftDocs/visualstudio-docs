@@ -10,6 +10,7 @@ ms.assetid: f51742a8-2c9a-47d1-8a23-18459d03ae19
 author: TerryGLee
 ms.author: tglee
 manager: jmartens
+ms.technology: vs-workflow-designer
 ms.workload:
   - "multiple"
 ---

@@ -6,6 +6,7 @@ ms.date: 03/31/2020
 ms.topic: troubleshooting
 ms.author: mikejo
 manager: jmartens
+ms.technology: vs-ide-test
 ms.workload:
 - multiple
 author: mikejo5000

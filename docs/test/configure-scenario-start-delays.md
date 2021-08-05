@@ -10,6 +10,7 @@ ms.assetid: 2f634fba-8dfa-4c7a-a8b9-be867b78d16a
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
+ms.technology: vs-ide-test
 ---
 # Configure scenario start delays in load tests
 
