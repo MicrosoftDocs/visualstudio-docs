@@ -5,7 +5,7 @@ author: ghogen
 ms.author: ghogen
 ms.topic: overview
 ms.date: 03/20/2019
-ms.technology: vs-azure
+ms.technology: vs-container-tools
 ---
 # Container Tools in Visual Studio
 

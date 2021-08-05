@@ -8,7 +8,7 @@ ms.assetid: 480e3062-aae7-48ef-9701-e4f9ea041382
 ms.topic: how-to
 ms.workload: multiple
 ms.date: 03/08/2021
-ms.technology: vs-azure
+ms.technology: vs-container-tools
 ---
 # Debug apps in a local Docker container
 

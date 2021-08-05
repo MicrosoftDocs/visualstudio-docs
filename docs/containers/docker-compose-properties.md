@@ -5,7 +5,7 @@ description: Learn how to edit the Docker Compose build properties to customize 
 ms.custom: SEO-VS-2020
 ms.author: ghogen
 ms.date: 04/06/2021
-ms.technology: vs-azure
+ms.technology: vs-container-tools
 ms.topic: reference
 ---
 # Docker Compose build properties

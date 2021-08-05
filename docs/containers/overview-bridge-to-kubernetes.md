@@ -1,6 +1,6 @@
 ---
 title: "How Bridge to Kubernetes works"
-ms.technology: vs-azure
+ms.technology: vs-container-tools
 ms.date: 11/19/2020
 ms.topic: "conceptual"
 description: "Describes the processes for using Bridge to Kubernetes to connect your development computer to your Kubernetes cluster"

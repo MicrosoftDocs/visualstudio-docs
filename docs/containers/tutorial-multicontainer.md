@@ -5,7 +5,7 @@ description: Learn how to use multiple containers with Docker Compose
 ms.custom: SEO-VS-2020
 ms.author: ghogen
 ms.date: 03/15/2021
-ms.technology: vs-azure
+ms.technology: vs-container-tools
 ms.topic: tutorial
 ---
 # Tutorial: Create a multi-container app with Docker Compose

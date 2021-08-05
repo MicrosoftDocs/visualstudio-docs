@@ -4,6 +4,7 @@ description: Learn how to configure an Azure cloud service project by changing t
 ms.custom: SEO-VS-2020
 author: ghogen
 manager: jmartens
+ms.technology: vs-azure
 ms.workload: azure-vs
 ms.topic: how-to
 ms.date: 11/11/2017

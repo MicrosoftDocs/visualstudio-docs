@@ -4,6 +4,7 @@ ms.custom: SEO-VS-2020
 description: Learn how to set up diagnostics for debugging Azure cloud services and virtual machines (VMs) in Visual Studio.
 author: ghogen
 manager: jmartens
+ms.technology: vs-azure
 ms.topic: conceptual
 ms.workload: azure-vs
 ms.date: 06/28/2018

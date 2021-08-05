@@ -1,5 +1,5 @@
 ---
-title: "Docker tutorial - Part 8: Image layering"
+title: "Docker tutorial - Part 9: Image layering"
 description: How to examine and manage image layers in Docker images.
 ms.date: "08/04/2020"
 author: nebuk89

@@ -5,7 +5,7 @@ author: ghogen
 ms.author: ghogen
 ms.topic: how-to
 ms.date: 01/20/2020
-ms.technology: vs-azure
+ms.technology: vs-container-tools
 monikerRange: vs-2019
 ---
 # How to view and diagnose containers and images in Visual Studio
