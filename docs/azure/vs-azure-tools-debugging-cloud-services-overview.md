@@ -3,7 +3,6 @@ title: Options for debugging Azure cloud services | Microsoft Docs
 description: Debugging Azure cloud services
 author: mikejo5000
 manager: jmartens
-ms.technology: vs-azure
 ms.topic: conceptual
 ms.workload: azure-vs
 ms.date: 03/18/2017
