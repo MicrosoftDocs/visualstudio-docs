@@ -7,8 +7,8 @@ ms.technology: vs-ide-compile
 ms.topic: troubleshooting
 helpviewer_keywords:
   - msbuild logs"
-author: anandmeg
-ms.author: meghaanand
+author: corob-msft
+ms.author: corob
 manager: jmartens
 dev_langs:
  - CSharp
