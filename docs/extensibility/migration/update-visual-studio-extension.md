@@ -210,7 +210,7 @@ Proceed to add Visual Studio 2022 support to your extension with these steps, wh
    | - | - | - |
    | ProductArchitecture | X86, AMD64 | The platforms that are supported by this VSIX. Not case sensitive. One platform  per element and one element per  InstallTarget. For product versions less than 17.0 the default value is x86 and can be omitted.  For product versions 17.0 and greater this element is required and there is no default value. For Visual Studio 2022 the only valid content for this element is "amd64". |
 
-1. Make any other adjustments necessary in your source.extension.vsixmanifest to match the one that targets Visual Studio 2019 (if any). It is critical that the ID of the VSIX, in the `Identity` element of the manifest, is identical for both extensions.
+1. Make any other adjustments necessary in your source.extension.vsixmanifest to match the one that targets Visual Studio 2019 (if any). If you are publishing 2 different versions of your extension each targeting a different version of VS, it is critical that the ID of the VSIX, in the `Identity` element of the manifest, is different for both extensions.
 
 At this point, you have a Visual Studio 2022-targeted extension VSIX. You should build your Visual Studio 2022-targeted VSIX project and [work through any build breaks that appear](#handle-breaking-api-changes). If you do not have build breaks in your Visual Studio 2022-targeted VSIX project,
 congratulations: you're ready for testing!
