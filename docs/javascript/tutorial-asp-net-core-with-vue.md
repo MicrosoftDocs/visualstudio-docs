@@ -18,7 +18,7 @@ monikerRange: '>= vs-2022'
 
 In this article, you learn how to build an ASP.NET Core project to act as an API backend and a Vue project to act as the UI.
 
-Currently, Visual Studio includes ASP.NET Core Single Page Application (SPA) templates that support Angular and React. The templates provide a built in Client App folder in your ASP.NET Core projects that contains the base files and folders of each framework.
+Currently, Visual Studio includes ASP.NET Core Single Page Application (SPA) templates that support Angular, React, and Vue. The templates provide a built in Client App folder in your ASP.NET Core projects that contains the base files and folders of each framework.
 
 Starting in Visual Studio 2022 Preview 2, you can use the method described in this article to create ASP.NET Core Single Page Applications that:
 
@@ -40,11 +40,11 @@ Make sure to have the following installed:
 
    :::image type="content" source="media/vs-2022/create-new-project.png" alt-text="Create a new project":::
 
-1. Search for Angular in the search bar at the top and then select **Standalone JavaScript Vue Template** or **Standalone TypeScript Vue Template**.
+1. Search for Vue in the search bar at the top and then select **Standalone JavaScript Vue Template** or **Standalone TypeScript Vue Template**.
 
    :::image type="content" source="media/vs-2022/vue-choose-template.png" alt-text="Choose a template":::
 
-1. Give your project and solution a name. When you get to the **Additional information** window, be sure to check the **Add integration for Empty ASP.NET Web API Project** option. This option adds files to your Angular template so that it can be hooked up later with the ASP.NET Core project.
+1. Give your project and solution a name. When you get to the **Additional information** window, be sure to check the **Add integration for Empty ASP.NET Web API Project** option. This option adds files to your Vue template so that it can be hooked up later with the ASP.NET Core project.
 
    :::image type="content" source="media/vs-2022/asp-net-core-with-vue-additional-info.png" alt-text="Additional information":::
 
@@ -81,7 +81,7 @@ Make sure to have the following installed:
 
    :::image type="content" source="media/vs-2022/asp-net-core-with-vue-deselect-launch-browser.png" alt-text="Open debug launch profiles UI"::: 
 
-1. Next, right-click the Angular project and select the **Properties** menu and go the **Debugging** section. Change the Debugger to launch to the **launch.json** option.
+1. Next, right-click the Vue project and select the **Properties** menu and go the **Debugging** section. Change the Debugger to launch to the **launch.json** option.
  
    :::image type="content" source="media/vs-2022/asp-net-core-with-vue-choose-debugger.png" alt-text="Choose the debugger (launch.json)":::
 
