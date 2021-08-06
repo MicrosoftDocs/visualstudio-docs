@@ -13,6 +13,7 @@ ms.assetid: 0c0fcc99-673b-4ea0-a268-0475f66e5cb6
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
+ms.technology: vs-ide-test
 ---
 # Create custom code and plug-ins for load tests
 

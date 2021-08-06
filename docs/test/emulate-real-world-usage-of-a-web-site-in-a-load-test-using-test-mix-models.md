@@ -11,6 +11,7 @@ ms.assetid: b7fae849-0538-40d1-ab35-2bb3a0fe4393
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
+ms.technology: vs-ide-test
 ---
 # Test mix models overview
 

@@ -5,6 +5,7 @@ ms.date: 09/28/2020
 author: TerryGLee
 ms.author: tglee
 manager: jmartens
+ms.technology: vs-ide-designers
 ms.topic: conceptual
 ---
 # Disable DPI-awareness in Visual Studio

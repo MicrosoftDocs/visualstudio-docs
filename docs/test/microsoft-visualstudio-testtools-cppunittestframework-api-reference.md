@@ -6,6 +6,7 @@ ms.date: 09/27/2019
 ms.topic: reference
 ms.author: corob
 manager: jmartens
+ms.technology: vs-ide-test
 ms.workload:
   - "multiple"
 author: corob-msft

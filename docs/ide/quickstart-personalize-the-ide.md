@@ -7,6 +7,7 @@ ms.custom: contperf-fy21q1
 author: TerryGLee
 ms.author: tglee
 manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
 - multiple
 ---

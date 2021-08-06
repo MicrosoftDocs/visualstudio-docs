@@ -4,8 +4,6 @@ description: Learn how to turn the timeLabel control a different color, and give
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: tutorial
-ms.prod: visual-studio-windows
-ms.technology: vs-ide-general
 dev_langs:
   - "CSharp"
   - "VB"
@@ -13,6 +11,7 @@ ms.assetid: dc8edb13-1b23-47d7-b859-8c6f7888c1a9
 author: j-martens
 ms.author: jmartens
 manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
   - "multiple"
 ---

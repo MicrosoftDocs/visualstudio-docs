@@ -8,6 +8,7 @@ ms.assetid: a338caf2-b75d-4f23-a0f9-3024fa0bceac
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
+ms.technology: vs-ide-code-analysis
 ms.workload:
 - dotnet
 ---
