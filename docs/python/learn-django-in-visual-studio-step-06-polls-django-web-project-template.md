@@ -7,6 +7,7 @@ ms.topic: tutorial
 author: JoshuaPartlow
 ms.author: joshuapa
 manager: jmartens
+ms.technology: vs-python
 ms.custom: seodec18
 monikerRange: vs-2017
 ms.workload:

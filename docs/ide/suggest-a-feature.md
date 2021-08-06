@@ -6,6 +6,7 @@ ms.topic: conceptual
 author: madskristensen
 ms.author: madsk
 manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
   - "multiple"
 ---

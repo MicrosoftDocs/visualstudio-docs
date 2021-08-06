@@ -4,6 +4,7 @@ description: An overview of navigation, code analysis, unit testing, and other f
 author: TerryGLee
 ms.author: tglee
 manager: jmartens
+ms.technology: vs-ide-general
 ms.date: 11/21/2019
 ms.topic: conceptual
 helpviewer_keywords:

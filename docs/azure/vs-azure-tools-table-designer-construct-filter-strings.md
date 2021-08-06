@@ -3,6 +3,7 @@ title: Constructing filter strings for the table designer | Microsoft Docs
 description: Constructing filter strings for the table designer
 author: ghogen
 manager: jmartens
+ms.technology: vs-azure
 ms.workload: azure-vs
 ms.topic: conceptual
 ms.date: 11/18/2016

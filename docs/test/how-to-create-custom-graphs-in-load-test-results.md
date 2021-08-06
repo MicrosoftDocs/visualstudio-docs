@@ -11,6 +11,7 @@ ms.assetid: 17fcafce-76f9-4411-9389-6e5376eab236
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
+ms.technology: vs-ide-test
 ---
 # How to: Create custom graphs in load test results
 

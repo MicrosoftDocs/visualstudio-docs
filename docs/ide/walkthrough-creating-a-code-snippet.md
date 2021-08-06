@@ -15,6 +15,7 @@ ms.assetid: 0dcaae11-39cf-4463-9c90-2494321251c2
 author: TerryGLee
 ms.author: tglee
 manager: jmartens
+ms.technology: vs-ide-general
 dev_langs:
 - VB
 ms.workload:
