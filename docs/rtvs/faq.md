@@ -7,6 +7,7 @@ ms.topic: reference
 author: kraigb
 ms.author: kraigb
 manager: jmartens
+ms.technology: vs-rtvs
 ms.workload:
   - data-science
 ---
@@ -107,6 +108,6 @@ A. RStudio is a fantastic and mature IDE for R that's been under development for
 
 **Q. Can I contribute to RTVS?**
 
-A. Absolutely! The source code lives on [Github](https://github.com/microsoft/RTVS). Use the issue tracker to submit bugs and comment on those already filed.
+A. Absolutely! The source code lives on [GitHub](https://github.com/microsoft/RTVS). Use the issue tracker to submit bugs and comment on those already filed.
 
 You're also welcome to contribute to this documentation&mdash;just select the **Edit** command on the upper right of any page. Comments on the docs are also welcome, which you can add at the bottom of any page.

@@ -10,6 +10,7 @@ helpviewer_keywords:
   - coded UI test, Coded UI Test Editor
 ms.author: mikejo
 manager: jmartens
+ms.technology: vs-ide-test
 ms.workload: 
   - multiple
 author: mikejo5000

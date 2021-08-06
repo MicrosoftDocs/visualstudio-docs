@@ -7,6 +7,7 @@ ms.topic: tutorial
 author: kraigb
 ms.author: kraigb
 manager: jmartens
+ms.technology: vs-rtvs
 ms.workload:
   - data-science
 ---

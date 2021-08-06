@@ -6,6 +6,7 @@ ms.topic: reference
 author: leslierichardson95
 ms.author: lerich
 manager: jmartens
+ms.technology: vs-ide-sdk
 monikerRange: "vs-2022"
 ms.workload:
 - vssdk

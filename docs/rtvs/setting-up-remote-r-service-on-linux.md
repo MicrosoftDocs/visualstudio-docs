@@ -8,6 +8,7 @@ author: kraigb
 ms.author: kraigb
 ms.reviewer: karthiknadig
 manager: jmartens
+ms.technology: vs-rtvs
 ms.workload:
   - data-science
 ---
@@ -97,7 +98,7 @@ In each case, the remote computer must have one of the following R interpreters 
 
 1. In the VM's **Networking** section, add 5444 as an allowed inbound port. To use a different port, change the setting in the RTVS daemon config file (*/etc/rtvs/rtvsd.config.json*).
 1. (Optional) Set a DNS name; you can also use the IP address.
-1. Connect to the VM using an SSH client, such as PuTTY for WIndows.
+1. Connect to the VM using an SSH client, such as PuTTY for Windows.
 1. Follow the instructions for a [Physical Ubuntu computer](#physical-ubuntu-computer) above.
 
 ### Windows Subsystem for Linux (WSL)

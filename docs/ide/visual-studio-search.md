@@ -17,6 +17,7 @@ monikerRange: vs-2019
 author: profexorgeek
 ms.author: jusjohns
 manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
 - multiple
 ---

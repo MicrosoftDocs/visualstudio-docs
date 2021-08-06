@@ -3,13 +3,12 @@ title: "Create your first console app with Visual Basic"
 description: "Learn how to create a simple Hello World console app in Visual Studio with Visual Basic, step-by-step."
 ms.custom: "vs-acquisition"
 ms.date: 03/23/2019
-ms.technology: vs-ide-general
-ms.prod: visual-studio-windows
 ms.topic: quickstart
 ms.devlang: vb
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
+ms.technology: vs-ide-general
 dev_langs:
   - vb
 ms.workload:
