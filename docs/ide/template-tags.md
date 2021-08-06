@@ -5,6 +5,7 @@ ms.date: 04/30/2019
 author: minsa110
 ms.author: somin
 manager: jmartens
+ms.technology: vs-ide-general
 ms.topic: reference
 helpviewer_keywords:
   - "item templates, updating"

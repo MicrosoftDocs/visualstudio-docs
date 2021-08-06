@@ -6,6 +6,7 @@ ms.date: 11/04/2016
 ms.topic: how-to
 ms.author: mikejo
 manager: jmartens
+ms.technology: vs-ide-test
 author: mikejo5000
 dev_langs: 
   - CSharp

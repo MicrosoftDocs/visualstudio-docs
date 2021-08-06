@@ -16,6 +16,7 @@ ms.workload:
   - "multiple"
 author: kendrahavens
 manager: jmartens
+ms.technology: vs-ide-test
 ---
 # Visual Studio Test Explorer FAQ
 

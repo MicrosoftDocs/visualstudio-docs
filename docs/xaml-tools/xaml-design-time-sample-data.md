@@ -6,6 +6,7 @@ ms.topic: conceptual
 author: alihamie
 ms.author: tglee
 manager: jmartens
+ms.technology: vs-xaml-tools
 monikerRange: ">=vs-2019"
 ---
 

@@ -7,6 +7,7 @@ ms.topic: overview
 author: JoshuaPartlow
 ms.author: joshuapa
 manager: jmartens
+ms.technology: vs-python
 dev_langs:
  - Python
 ms.workload:

@@ -4,6 +4,7 @@ description: Learn how to use Windows PowerShell scripts from Visual Studio to p
 ms.custom: SEO-VS-2020
 author: ghogen
 manager: jmartens
+ms.technology: vs-azure
 ms.workload: azure-vs
 ms.topic: conceptual
 ms.date: 11/11/2016

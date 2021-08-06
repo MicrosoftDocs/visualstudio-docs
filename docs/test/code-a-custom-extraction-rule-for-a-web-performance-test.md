@@ -15,6 +15,7 @@ dev_langs:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
+ms.technology: vs-ide-test
 ---
 # Code a custom extraction rule for a web performance test
 
