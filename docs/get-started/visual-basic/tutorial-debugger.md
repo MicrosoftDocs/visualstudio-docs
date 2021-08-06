@@ -10,8 +10,8 @@ dev_langs:
 helpviewer_keywords:
   - "debugger"
 ms.assetid: 62734c0d-a75a-4576-8f73-0e97c19280e1
-author: anandmeg
-ms.author: meghaanand
+author: mikejo5000
+ms.author: mikejo
 manager: jmartens
 ms.workload:
   - "multiple"
