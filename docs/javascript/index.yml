@@ -38,6 +38,7 @@ landingContent:
   - title: Create JavaScript and TypeScript apps
     linkLists:
       - linkListType: quickstart
+         links:
           - text: Create an Angular App
             url: tutorial-create-angular-app.md?view=vs-2022
           - text: Create a React App?view=vs-2022
