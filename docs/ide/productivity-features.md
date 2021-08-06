@@ -7,6 +7,7 @@ ms.topic: conceptual
 author: j-martens
 ms.author: jmartens
 manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
 - multiple
 ---

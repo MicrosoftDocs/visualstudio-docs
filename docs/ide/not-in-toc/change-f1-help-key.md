@@ -6,6 +6,7 @@ ms.topic: how-to
 ms.custom: contperf-fy21q1
 robots: noindex,nofollow
 manager: jmartens
+ms.technology: vs-ide-general
 author: mikejo5000
 ms.author: mikejo
 ---

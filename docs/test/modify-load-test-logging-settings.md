@@ -10,6 +10,7 @@ ms.assetid: 9649226a-857d-41ef-8ec7-047b6e498033
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
+ms.technology: vs-ide-test
 ---
 # Modify load test logging settings
 

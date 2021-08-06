@@ -6,7 +6,8 @@ ms.topic: quickstart
 ms.custom: vs-acquisition
 author: "cartermp"
 ms.author: "phcart"
-manager: andrehal
+manager: jmartens
+ms.technology: vs-ide-general
 dev_langs:
   - FSharp
 ms.workload:

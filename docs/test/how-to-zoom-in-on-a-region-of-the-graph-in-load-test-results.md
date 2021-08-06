@@ -13,6 +13,7 @@ ms.assetid: 729b4c30-4bc3-4698-91b3-17a676897443
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
+ms.technology: vs-ide-test
 ---
 # How to: Zoom in on a region of the graph in load test results
 

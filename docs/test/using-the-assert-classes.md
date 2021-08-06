@@ -10,6 +10,7 @@ helpviewer_keywords:
 - unit tests, Assert classes
 ms.author: mikejo
 manager: jmartens
+ms.technology: vs-ide-test
 ms.workload:
 - multiple
 author: mikejo5000
