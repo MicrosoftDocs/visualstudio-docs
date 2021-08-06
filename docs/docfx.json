@@ -63,31 +63,6 @@
       "monikerRange": {
         "rtvs/**/**.md": "vs-2017"
       },
-      "ms.technology": {
-        "ai/**/**.md": "vs-ai-tools",
-        "azure/**/**.md": "vs-azure",
-        "code-quality/**/**.md": "vs-ide-code-analysis",
-        "data-tools/**/**.md": "vs-data-tools",
-        "debugger/**/**.md": "vs-ide-debug",
-        "deployment/**/**.md": "vs-ide-deployment",
-        "designers/**/**.md": "vs-ide-designers",
-        "extensibility/**/**.md": "vs-ide-sdk",
-        "help-viewer/**/**.md": "vs-help-viewer",
-        "ide/**/**.md": "vs-ide-general",
-        "install/**/**.md": "vs-installation",
-        "javascript/**/**.md": "vs-javascript",
-        "modeling/**/**.md": "vs-ide-modeling",
-        "msbuild/**/**.md": "msbuild",
-        "profiling/**/**.md": "vs-ide-debug",
-        "python/**/**.md": "vs-python",
-        "rtvs/**/**.md": "vs-rtvs",
-        "sharepoint/**/**.md": "sharepoint-development",
-        "test/**/**.md": "vs-ide-test",
-        "vsto/**/**.md": "office-development",
-        "workflow-designer/**/**.md": "vs-workflow-designer",
-        "xaml-tools/**/**.md": "vs-xaml-tools",
-        "xml-tools/**/**.md": "vs-xml-tools"
-      },
       "titleSuffix": {
         "ai/**/**.md": "AI tools for Visual Studio",
         "msbuild/**/**.md": "MSBuild"

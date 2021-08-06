@@ -7,6 +7,7 @@ ms.topic: "conceptual"
 author: j-martens
 ms.author: jmartens
 manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload: "multiple"
 ---
 # How to: Diagnose UI delays caused by extensions

@@ -11,6 +11,7 @@ ms.assetid: e2f1ca4f-787b-44bd-bc64-81a036025e96
 author: ghogen
 ms.author: ghogen
 manager: jmartens
+ms.technology: msbuild
 ---
 # How to: Ignore errors in tasks
 

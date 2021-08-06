@@ -4,8 +4,6 @@ description: Learn how to add a countdown timer to track the number of seconds t
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: tutorial
-ms.prod: visual-studio-windows
-ms.technology: vs-ide-general
 dev_langs:
 - CSharp
 - VB
@@ -13,6 +11,7 @@ ms.assetid: 62670a2b-efdc-45c6-9646-9b17eeb33dcb
 author: j-martens
 ms.author: jmartens
 manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
 - multiple
 ---

@@ -4,8 +4,6 @@ description: Learn how to create a set of matching symbols for the game.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: tutorial
-ms.prod: visual-studio-windows
-ms.technology: vs-ide-general
 dev_langs:
 - CSharp
 - VB
@@ -13,6 +11,7 @@ ms.assetid: 95faea28-eddc-4cfa-95fb-3b34b5a976d7
 author: j-martens
 ms.author: jmartens
 manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
 - multiple
 ---

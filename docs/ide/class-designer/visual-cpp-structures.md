@@ -10,6 +10,7 @@ ms.assetid: bad18ab6-d956-47a6-a413-811cc26db5f5
 author: TerryGLee
 ms.author: tglee
 manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
 - cplusplus
 ---

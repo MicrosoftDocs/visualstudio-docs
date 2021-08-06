@@ -3,6 +3,7 @@ title: Optimizing your Azure code
 description: Learn about how Azure code optimization tools in Visual Studio help make your code more robust and better-performing.
 author: ghogen
 manager: jmartens
+ms.technology: vs-azure
 ms.topic: conceptual
 ms.workload: azure-vs
 ms.date: 11/11/2016

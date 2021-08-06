@@ -11,6 +11,7 @@ ms.assetid: e3b7d952-9012-400a-8131-3444390a6066
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
+ms.technology: vs-ide-test
 ---
 # Edit test mix models to specify the probability of a virtual user running a test
 

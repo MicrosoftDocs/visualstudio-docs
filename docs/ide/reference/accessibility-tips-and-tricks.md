@@ -9,6 +9,7 @@ ms.assetid: 6b491d88-f79e-4686-8841-857624bdcfda
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
   - "multiple"
 ---

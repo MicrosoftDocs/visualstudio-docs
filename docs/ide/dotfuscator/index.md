@@ -17,6 +17,7 @@ ms.assetid: d9550502-0a82-49a6-b005-2caa791fbe02
 author: TerryGLee
 ms.author: tglee
 manager: jmartens
+ms.technology: vs-ide-general
 ---
 # Dotfuscator Community
 

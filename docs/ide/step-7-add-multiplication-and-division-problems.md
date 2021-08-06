@@ -4,8 +4,6 @@ description: Learn how to add multiplication and division problems.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: tutorial
-ms.prod: visual-studio-windows
-ms.technology: vs-ide-general
 dev_langs:
   - "CSharp"
   - "VB"
@@ -13,6 +11,7 @@ ms.assetid: e638959e-f6a4-4eb4-b2e9-f63b7855cf8f
 author: j-martens
 ms.author: jmartens
 manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
   - "multiple"
 ---

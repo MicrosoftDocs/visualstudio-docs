@@ -13,6 +13,7 @@ ms.assetid: 303e1d70-5d98-424a-b51e-e0898e16d3f8
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
+ms.technology: vs-ide-test
 ---
 # Edit the test mix to specify which web performance, unit and coded UI tests to include in a load test scenario
 

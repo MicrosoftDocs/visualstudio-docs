@@ -12,6 +12,7 @@ ms.assetid: d1508121-8499-4084-8eb5-fa89fa7b17d3
 author: TerryGLee
 ms.author: tglee
 manager: jmartens
+ms.technology: vs-ide-general
 f1_keywords:
 - vs.performancecenter
 ms.workload:
