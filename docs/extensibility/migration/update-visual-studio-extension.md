@@ -32,13 +32,13 @@ The VS SDK targeting Visual Studio 2022 for managed extensions is up *exclusivel
 - The [Microsoft.VisualStudio.Sdk](https://www.nuget.org/packages/Microsoft.VisualStudio.Sdk/) (17.x versions) meta-package brings in most or all of the reference assemblies you will need.
 - The [Microsoft.VSSDK.BuildTools](https://www.nuget.org/packages/Microsoft.VSSDK.BuildTools/) (17.x versions) package should be referenced from your VSIX project so it can build a Visual Studio 2022-compliant VSIX.
 
-Extensions *must* be compiled with the "Any CPU" or "x64" platform. The "x86" platform is incompatible with Visual Studio 2022's 64-bit process.
+Even if you don't reference any breaking changes, extensions *must* be compiled with the "Any CPU" or "x64" platform. The "x86" platform is incompatible with Visual Studio 2022's 64-bit process.
 
 ### Extensions written in C++
 
 The VS SDK for extensions compiled with C++ is available with the installed Visual Studio SDK, as usual.
 
-Extensions *must* be compiled specifically against the Visual Studio 2022 SDK and for amd64. Aside from this, no additional changes need to be made and the following guidance below can be ignored.
+Even if you don't reference any breaking changes, extensions *must* be compiled specifically against the Visual Studio 2022 SDK and for amd64.
 
 ### Update your extension to Visual Studio 2022
 
