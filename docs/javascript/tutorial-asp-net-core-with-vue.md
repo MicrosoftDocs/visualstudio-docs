@@ -1,7 +1,7 @@
 ---
 title: "Create an ASP.NET Core app with Vue"
 description: In this tutorial, you create an app using ASP.NET Core and Vue
-ms.date: 08/06/2021
+ms.date: 08/09/2021
 ms.topic: tutorial
 ms.devlang: javascript
 author: mikejo5000
@@ -46,7 +46,7 @@ Make sure to have the following installed:
 
 1. Give your project and solution a name. When you get to the **Additional information** window, be sure to check the **Add integration for Empty ASP.NET Web API Project** option. This option adds files to your Vue template so that it can be hooked up later with the ASP.NET Core project.
 
-   :::image type="content" source="media/vs-2022/asp-net-core-with-vue-additional-info.png" alt-text="Additional information":::
+   :::image type="content" source="media/vs-2022/asp-net-core-vue-additional-info.png" alt-text="Additional information":::
 
    Once the project is created, you see some new and modified files:
 
