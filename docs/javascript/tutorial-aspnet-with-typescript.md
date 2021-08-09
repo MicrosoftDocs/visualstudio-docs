@@ -19,7 +19,7 @@ In this tutorial for Visual Studio development ASP.NET Core and TypeScript, you 
 
 ::: moniker range=">=vs-2022"
 
-Starting in Visual Studio 2022, see [Create an ASP.NET Core app with Angular in Visual Studio](../javascript/tutorial-asp-net-core-with-angular.md) to create an ASP.NET Core app with Angular and TypeScript.
+Starting in Visual Studio 2022, it is recommended that you use the ASP.NET Core Single Page Application (SPA) templates to create an ASP.NET Core app with TypeScript. For more information, see [Create an ASP.NET Core app with Angular in Visual Studio](../javascript/tutorial-asp-net-core-with-angular.md) or [Create an ASP.NET Core app with Vue in Visual Studio](../javascript/tutorial-asp-net-core-with-vue.md).
 ::: moniker-end
 
 ::: moniker range="vs-2017"
