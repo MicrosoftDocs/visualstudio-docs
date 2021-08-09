@@ -48,12 +48,12 @@ Make sure to have the following installed:
 
    :::image type="content" source="media/vs-2022/asp-net-core-vue-additional-info.png" alt-text="Additional information":::
 
-   Once the project is created, you see some new and modified files:
+Once the project is created, you see some new and modified files:
 
-   - aspnetcore-https.js
-   - vue.config.json (modified)
-   - HelloWorld.vue (modified)
-   - package.json (modified)
+- aspnetcore-https.js
+- vue.config.json (modified)
+- HelloWorld.vue (modified)
+- package.json (modified)
 
 ## Create the backend app
 
@@ -77,7 +77,7 @@ Make sure to have the following installed:
 
    :::image type="content" source="media/vs-2022/asp-net-core-project-properties.png" alt-text="Open project properties"::: 
  
-1. Go to the Debug menu and select **Open debug launch profiles UI** option. Uncheck the **Launch Browser** option.
+1. Go to the Debug menu and select **Open debug launch profiles UI** option. Clear the **Launch browser** option.
 
    :::image type="content" source="media/vs-2022/asp-net-core-with-vue-deselect-launch-browser.png" alt-text="Open debug launch profiles UI"::: 
 
