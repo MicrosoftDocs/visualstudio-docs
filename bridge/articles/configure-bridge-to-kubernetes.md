@@ -1,19 +1,18 @@
 ---
 title: "Using KubernetesLocalProcessConfig.yaml for additional configuration with for Bridge to Kubernetes"
-services: azure-dev-spaces
 ms.date: 07/28/2020
 ms.topic: "conceptual"
 description: "Describes the additional configuration options for Bridge to Kubernetes using KubernetesLocalProcessConfig.yaml"
-keywords: "Bridge to Kubernetes, Azure Dev Spaces, Dev Spaces, Docker, Kubernetes, Azure, AKS, Azure Kubernetes Service, containers"
-monikerRange: ">=vs-2019"
+keywords: "Bridge to Kubernetes, Azure Dev Spaces, Dev Spaces, Docker, Kubernetes, Azure, containers"
 author: ghogen
 ms.author: ghogen
 manager: jmartens
+ms.technology: bridge
 ---
 
 # Configure Bridge to Kubernetes
 
-The `KubernetesLocalProcessConfig.yaml` file allows you to replicate environment variables and mounted files available to your pods in your AKS cluster. You can specify the following actions in a `KubernetesLocalProcessConfig.yaml` file:
+The `KubernetesLocalProcessConfig.yaml` file allows you to replicate environment variables and mounted files available to your pods in your cluster. You can specify the following actions in a `KubernetesLocalProcessConfig.yaml` file:
 
 * Download a volume and set the path to that volume as an environment variable.
 * Make a service running on your cluster available to processes running on your development computer.
@@ -94,6 +93,22 @@ env:
 
 The above example creates an environment variable named *DEBUG_MODE* with a value of *true*.
 
+## Add a service dependency
+
+You can specify a service dependency, such as a database or cache, using a generic dependencies field, similar to how services are declared. Specify a dependency here when the service you are debugging needs to connect to resources that are not running on your cluster. Declare a dependency as in the following example:
+
+```yaml
+version: 0.1
+volumeMounts:
+env:
+  - name: DB_HOST
+    value: $(externalendpoints:server-bridgetest123.database.windows.net:1433)
+```
+
+Provide the host DNS name (`server-bridgetest13.database.windows.net` in the example) and port (1433 in the example) for your dependency.
+
+When you specify dependencies such as databases, redirection authentication models won't work. For example, for Azure SQL Database, you should set connection policy to "Proxy" (rather than "Redirect" or "Default"). 
+
 ## Example KubernetesLocalProcessConfig.yaml
 
 Here is an example of a complete `KubernetesLocalProcessConfig.yaml` file:
@@ -120,5 +135,5 @@ env:
 
 To get started using Bridge to Kubernetes to connect to your local development computer to your cluster, see [Use Bridge to Kubernetes with Visual Studio Code][bridge-to-kubernetes-vs-code] and [Use Bridge to Kubernetes with Visual Studio][bridge-to-kubernetes-vs].
 
-[bridge-to-kubernetes-vs-code]: https://code.visualstudio.com/docs/containers/bridge-to-kubernetes
-[bridge-to-kubernetes-vs]: bridge-to-kubernetes.md
+[bridge-to-kubernetes-vs-code]: bridge-to-kubernetes-vs-code.md
+[bridge-to-kubernetes-vs]: bridge-to-kubernetes-vs.md
