@@ -1,0 +1,31 @@
+- name: Bridge to Kubernetes
+  href: index.yml
+- name: Overview
+  href: overview-bridge-to-kubernetes.md
+- name: Quickstarts
+  expanded: true
+  items:
+  - name: Visual Studio
+    expanded: true
+    items:
+    - name: Use Bridge to Kubernetes
+      href: bridge-to-kubernetes-vs.md
+  - name: VS Code
+    expanded: true
+    items:
+    - name: Use Bridge to Kubernetes with your existing app
+      href: bridge-to-kubernetes-vs-code.md
+    - name: Use Bridge to Kubernetes with a sample app
+      href: bridge-to-kubernetes-sample.md
+    - name: Use Bridge to Kubernetes with a complex AKS sample app
+      href: bridge-to-kubernetes-aks.md
+  - name: How to
+    items:
+    - name: Configure Bridge to Kubernetes
+      href: configure-bridge-to-kubernetes.md
+    - name: Debug multiple services (VS Code)
+      href: parallel-services.md
+    - name: Use Kubernetes environment variables (VS Code)
+      href: kubernetes-environment-variables.md
+    - name: Use Azure AD managed identities
+      href: managed-identity.md

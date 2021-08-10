@@ -1,10 +1,11 @@
 ---
 title: "Docker tutorial - Part 2: Build and run the todo list sample app"
 description: Overview of the todo list sample app that runs in Node.js.
-ms.date: "08/04/2020"
+ms.date: "08/06/2021"
 author: nebuk89
 ms.author: ghogen
 manager: jmartens
+ms.technology: vs-docker
 
 ms.topic: conceptual
 ms.workload:

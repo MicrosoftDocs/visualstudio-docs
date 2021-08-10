@@ -6,7 +6,7 @@ keywords:
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.date: 05/24/2021
+ms.date: 08/10/2021
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
 ms.topic: include

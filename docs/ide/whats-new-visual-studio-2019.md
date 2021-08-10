@@ -2,7 +2,7 @@
 title: "What's new in Visual Studio 2019"
 titleSuffix: ""
 description: "Learn about the new features in Visual Studio 2019."
-ms.date: 07/15/2021
+ms.date: 08/10/2021
 helpviewer_keywords:
   - "Visual Studio, what's new"
   - "what's new [Visual Studio]"
@@ -12,14 +12,13 @@ ms.author: tglee
 manager: jmartens
 ms.technology: vs-ide-general
 ms.prod: visual-studio-windows
-ms.technology: vs-ide-general
 ms.topic: conceptual
 ms.workload:
   - "multiple"
 ---
 # What's new in Visual Studio 2019
 
-**Updated for the 16.10 release.** See [full release notes](/visualstudio/releases/2019/release-notes/) | View [product roadmap](/visualstudio/productinfo/vs2019-roadmap)
+**Updated for the 16.11 release.** See [full release notes](/visualstudio/releases/2019/release-notes/) | View [product roadmap](/visualstudio/productinfo/vs2019-roadmap)
 
 >[!div class="button"]
 >[Download Visual Studio 2019](https://visualstudio.microsoft.com/downloads/)
