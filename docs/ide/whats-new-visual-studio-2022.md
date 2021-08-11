@@ -2,7 +2,7 @@
 title: "What's new in Visual Studio 2022 (Preview)"
 titleSuffix: ""
 description: "Learn about the new features in the preview release of Visual Studio 2022."
-ms.date: 08/10/2021
+ms.date: 08/11/2021
 helpviewer_keywords:
   - "Visual Studio, what's new"
   - "what's new [Visual Studio]"
@@ -35,6 +35,10 @@ In Visual Studio 2022, the [IntelliCode](/visualstudio/intellicode/) feature can
 ## Build modern apps with improved tools
 
 Visual Studio 2022 includes better cross-platform app development tools and the latest version of C++ build tools. As well, we're updating Hot Reload so that you can edit either C++ or .NET projects while your application is running. For more information, see the [**Visual Studio 2022 Preview 2 is out!**](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-preview-2-is-out/) blog post.
+
+## Multi-repo support with Git in the IDE
+
+If you've worked with projects hosted on different Git repositories, you might have experienced using either external tools or multiple instances of Visual Studio to connect to them. Starting with [Visual Studio 2022 Preview 3](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-preview-3-now-available/), you can work with a single solution with projects in multiple repositories and then contribute to them from a single instance of Visual Studio. For more information, see the [Multi-repo support in Visual Studio](https://devblogs.microsoft.com/visualstudio/multi-repo-support-in-visual-studio/) blog post.
 
 ## What's next
 
