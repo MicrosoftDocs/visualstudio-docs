@@ -1474,6 +1474,3 @@ The shortcuts specific to this context are:
 |Show graph view|**Ctrl+3**| XsdDesigner.ShowGraphView |
 |Show start view|**Ctrl+1**| XsdDesigner.ShowStartView |
 
-## See also
-
-- [Visual Studio commands](reference/visual-studio-commands.md)
