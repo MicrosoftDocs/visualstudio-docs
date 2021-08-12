@@ -14,7 +14,6 @@ ms.author: tglee
 manager: jmartens
 ms.technology: vs-ide-general
 ms.prod: visual-studio-windows
-ms.technology: vs-ide-general
 ms.topic: conceptual
 ms.workload:
   - "multiple"
