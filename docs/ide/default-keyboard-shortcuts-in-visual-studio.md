@@ -2,7 +2,7 @@
 title: Default keyboard shortcuts
 description: Learn about the default keyboard shortcuts in Visual Studio that allow you to access a variety of commands and windows.
 ms.custom: SEO-VS-2020
-ms.date: 06/21/2021
+ms.date: 08/11/2021
 ms.topic: reference
 helpviewer_keywords:
 - shortcut keys [Visual Studio], keyboard binding schemes
@@ -24,9 +24,15 @@ You can access a variety of [commands](reference/visual-studio-commands.md) and 
 For a list of common keyboard shortcuts and other productivity information, see:
 
 - [Keyboard tips](../ide/productivity-shortcuts.md)
-- [Productivity tips](../ide/productivity-features.md).
+- [Productivity tips](../ide/productivity-features.md)
 
 For more information about accessibility in Visual Studio, see [Accessibility tips and tricks](../ide/reference/accessibility-tips-and-tricks.md) and [How to: Use the keyboard exclusively](../ide/reference/how-to-use-the-keyboard-exclusively.md).
+
+## Printable shortcut cheatsheet
+
+Click to get our [printable keyboard shortcut cheatsheet for Visual Studio](https://visualstudio.microsoft.com/keyboard-shortcuts.pdf).
+
+[:::image type="content" source="media/default-keyboard-shortcuts-in-visual-studio/visual-studio-keyboard-shortcut-cheatsheet.png" alt-text="Printable cheatsheet for keyboard shortcuts.":::](https://visualstudio.microsoft.com/keyboard-shortcuts.pdf)
 
 <a name="popular"></a>
 ## Popular keyboard shortcuts for Visual Studio
@@ -1474,6 +1480,3 @@ The shortcuts specific to this context are:
 |Show graph view|**Ctrl+3**| XsdDesigner.ShowGraphView |
 |Show start view|**Ctrl+1**| XsdDesigner.ShowStartView |
 
-## See also
-
-- [Visual Studio commands](reference/visual-studio-commands.md)
