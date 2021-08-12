@@ -15,20 +15,24 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
+ms.technology: sharepoint-development
 ms.workload:
   - "office"
 ---
 # Develop SharePoint solutions
+
   Several SharePoint project type templates are available in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] for creating SharePoint sites and site elements. For a list of the available project types, see [SharePoint project and project item templates](../sharepoint/sharepoint-project-and-project-item-templates.md). Following is a description of the elements and properties of a SharePoint project.
 
- For information about SharePoint 2013 and SharePoint add-ins, see [SharePoint 2013](https://www.microsoft.com/microsoft-365/previous-versions/microsoft-sharepoint-2013) and [Build SharePoint add-ins](/sharepoint/dev/sp-add-ins/sharepoint-add-ins).
+ For information about SharePoint add-ins, see [Build SharePoint add-ins](/sharepoint/dev/sp-add-ins/sharepoint-add-ins).
 
 ## Elements of a SharePoint project
+
  The nodes under a SharePoint project are known as *SharePoint items*. SharePoint items may also contain one or more subfiles, referred to as *SharePoint item files*, such as [!INCLUDE[TLA2#tla_xml](../sharepoint/includes/tla2sharptla-xml-md.md)] configuration files, .aspx forms, and more.
 
  Instead of creating projects by using project templates that are already populated with project item files, you can use the **Empty Project** template to create an empty SharePoint project and then add project items manually. SharePoint projects can also optionally contain one or more feature files (for activation in SharePoint) and a package file in which to distribute the project.
 
 ### Special nodes
+
  Every SharePoint project contains two nodes that cannot be renamed, deleted, cut, copied, or dragged from the project. These nodes are as follows:
 
 - Features
@@ -37,6 +41,7 @@ ms.workload:
   Both nodes always appear in all SharePoint projects even if no features or packages are defined for the project.
 
 #### Features node
+
  The **Features** node contains one or more SharePoint project features. A feature is a container of extensions for SharePoint. After a feature is deployed to SharePoint server, it can be included in site definitions or activated individually by SharePoint administrators on SharePoint sites. For more information, see [Working with Features](/previous-versions/office/developer/sharepoint-2010/ms460318(v=office.14)).
 
  When you add an item, such as a content type or a list instance, to a SharePoint project, it is added to a feature in the **Features** node. The scope of the item determines whether it is added to a new or existing feature. If the new item has the same scope as an existing feature, then it is added to that feature. Otherwise, the item is added to a new feature.
@@ -46,11 +51,13 @@ ms.workload:
  When a feature is added to a SharePoint project, it appears in **Solution Explorer** as a node with the default name Feature*x*.feature, where *x* is a unique number. After a feature is deployed to the SharePoint Server, a SharePoint administrator can activate it, making it available to SharePoint site users.
 
 #### Package node
+
  The **Package** node contains a single file that serves as the distribution mechanism for the SharePoint project. This file, known as a *solution package*, is .CAB-based with a .WSP extension. A solution package is a deployable, reusable file that contains a set of features, site definitions, and assemblies that apply to SharePoint sites, and that you can enable or disable individually. The **Package** node also always contains a file that is named Package.wspdef, an [!INCLUDE[TLA2#tla_xml](../sharepoint/includes/tla2sharptla-xml-md.md)] definition file for the package. Once a package is deployed to the server that's running SharePoint, the SharePoint administrator can install it and activate its features.
 
  You can view or change the package's contents in the Package Designer either by double-clicking the package node or by opening its shortcut menu and then choosing **Open**. For more information, see [Create SharePoint solution packages](../sharepoint/creating-sharepoint-solution-packages.md).
 
 ## SharePoint project and project item properties
+
  SharePoint projects, just like other [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] projects, display properties in the Properties window and the Properties Page. The properties that are displayed depend on the node that is selected.
 
  When a SharePoint project, project item, or project item file node is selected in **Solution Explorer**, the following properties appear in the Properties window or the Properties Page:
@@ -125,6 +132,7 @@ ms.workload:
 |[URL picker dialog box &#40;SharePoint development in Visual Studio&#41;](../sharepoint/url-picker-dialog-box-sharepoint-development-in-visual-studio.md)|Describes a dialog box that you can use to add path references to resources in your project or on the local SharePoint server.|
 
 ## See also
+
 - [Get started &#40;SharePoint Development in Visual Studio&#41;](../sharepoint/getting-started-sharepoint-development-in-visual-studio.md)
 - [Browse SharePoint connections using Server Explorer](../sharepoint/browsing-sharepoint-connections-using-server-explorer.md)
 - [Build and debug SharePoint solutions](../sharepoint/building-and-debugging-sharepoint-solutions.md)

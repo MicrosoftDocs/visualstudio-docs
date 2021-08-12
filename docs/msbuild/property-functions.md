@@ -10,6 +10,7 @@ ms.assetid: 2253956e-3ae0-4bdc-9d3a-4881dfae4ddb
 author: ghogen
 ms.author: ghogen
 manager: jmartens
+ms.technology: msbuild
 ms.workload:
 - multiple
 ---
@@ -336,9 +337,11 @@ Output:
 -->
 ```
 
+<a name="TargetFramework"></a>
+
 ## MSBuild TargetFramework and TargetPlatform functions
 
-MSBuild defines several functions for handling [TargetFramework and TargetPlatform properties](msbuild-target-framework-and-target-platform.md).
+MSBuild 16.7 and higher define several functions for handling [TargetFramework and TargetPlatform properties](msbuild-target-framework-and-target-platform.md).
 
 |Function signature|Description|
 |------------------------|-----------------|
@@ -378,6 +381,39 @@ Value3 = windows
 Value4 = 7.0
 Value5 = True
 ```
+
+## MSBuild version-comparison functions
+
+MSBuild 16.5 and higher define several functions for comparing strings that represent versions.
+
+> [!Note]
+> Comparison operators in conditions [can compare strings that can be parsed as `System.Version` objects](msbuild-conditions.md#comparing-versions), but the comparison can produce unexpected results. Prefer the property functions.
+
+|Function signature|Description|
+|------------------------|-----------------|
+|VersionEquals(string a, string b)|Return `true` if versions `a` and `b` are equivalent according to the below rules.|
+|VersionGreaterThan(string a, string b)|Return `true` if version `a` is greater than `b` according to the below rules.|
+|VersionGreaterThanOrEquals(string a, string b)|Return `true` if version `a` is greater than or equal to `b` according to the below rules.|
+|VersionLessThan(string a, string b)|Return `true` if version `a` is less than `b` according to the below rules.|
+|VersionLessThanOrEquals(string a, string b)|Return `true` if version `a` is less than or equal to `b` according to the below rules.|
+|VersionNotEquals(string a, string b)|Return `false` if versions `a` and `b` are equivalent according to the below rules.|
+
+In these methods, versions are parsed like <xref:System.Version?displayProperty=fullName>, with the following exceptions:
+
+* Leading `v` or `V` is ignored, which allows comparison to `$(TargetFrameworkVersion)`.
+
+* Everything from the first '-' or '+' to the end of the version string is ignored. This allows passing in semantic versions (semver), though the order is not the same as semver. Instead, prerelease specifiers and build metadata do not have any sorting weight. This can be useful, for example, to turn on a feature for `>= x.y` and have it kick in on `x.y.z-pre`.
+
+* Unspecified parts are same as zero value parts. (`x == x.0 == x.0.0 == x.0.0.0`).
+
+* Whitespace is not allowed in integer components.
+
+* Major version only is valid (`3` is equal to `3.0.0.0`)
+
+* `+` is not allowed as positive sign in integer components (it is treated as semver metadata and ignored)
+
+> [!TIP]
+> Comparisons of [TargetFramework properties](msbuild-target-framework-and-target-platform.md) should generally use [IsTargetFrameworkCompatible](#TargetFramework) instead of extracting and comparing versions. This allows comparing `TargetFramework`s that vary in `TargetFrameworkIdentifier` as well as version.
 
 ## MSBuild condition functions
 

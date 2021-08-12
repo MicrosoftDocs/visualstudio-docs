@@ -13,21 +13,24 @@ helpviewer_keywords:
 - mapping code relationships
 - code maps
 - mapping relationships in code
-author: JoshuaPartlow
-ms.author: joshuapa
+author: mgoertz-msft
+ms.author: mgoertz
 manager: jmartens
+ms.technology: vs-ide-modeling
 ms.workload:
 - multiple
 ---
 # Use code maps to debug your applications
 
-Code maps can help you avoid getting lost in large code bases, unfamiliar code, or legacy code. For example, when you're debugging, you might have to look at code across many files and projects. Use code maps to navigate around pieces of code and understand the relationships between them. That way, you don't have to keep track of this code in your head, or draw a separate diagram. So, when your work is interrupted, code maps help refresh your memory about the code you're working on.
+[Code maps in Visual Studio](../modeling/map-dependencies-across-your-solutions.md) can help you avoid getting lost in large code bases, unfamiliar code, or legacy code. For example, when you're debugging, you might have to look at code across many files and projects. Use code maps to navigate around pieces of code and understand the relationships between them. That way, you don't have to keep track of this code in your head, or draw a separate diagram. So, when your work is interrupted, code maps help refresh your memory about the code you're working on.
 
 ![Code map &#45; Map relationships in code](../modeling/media/codemapstoryboardpaint.png)
 
 **A green arrow shows where your cursor appears in the editor**
 
 For details of the commands and actions you can use when working with code maps, see [Browse and rearrange code maps](../modeling/browse-and-rearrange-code-maps.md).
+
+Learn more about [debugging in Visual Studio with the Debugger tool](../debugger/debugger-feature-tour.md).
 
 > [!NOTE]
 > To create and edit code maps, you need Visual Studio Enterprise edition. In Visual Studio Community and Professional editions, you can open diagrams that were generated in Enterprise edition, but you cannot edit them.

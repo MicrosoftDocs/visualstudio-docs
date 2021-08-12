@@ -2,10 +2,12 @@
 title: Variable Explorer for R
 description: The Variable Explorer in Visual Studio shows all variables at a given scope in the current R session.
 ms.date: 01/24/2018
+ms.prod: visual-studio-dev15
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb
 manager: jmartens
+ms.technology: vs-rtvs
 ms.workload:
   - data-science
 ---

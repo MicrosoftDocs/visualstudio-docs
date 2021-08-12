@@ -3,7 +3,7 @@ title: POPLISTFUNC | Microsoft Docs
 description: Learn about the POPLISTFUNC callback function, which is used by the source control plug-in to update a list of files or directories.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - POPDIRLISTFUNC
 helpviewer_keywords:
@@ -12,6 +12,7 @@ ms.assetid: b2199fd5-d707-4628-92dd-e2a01e2f507a
 author: leslierichardson95
 ms.author: lerich
 manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---

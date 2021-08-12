@@ -11,6 +11,7 @@ ms.assetid: b4d0ddee-c04b-48dc-ba82-f6068570cef0
 author: leslierichardson95
 ms.author: lerich
 manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
@@ -24,9 +25,9 @@ You can override the list of types for colorizing, such as keywords and comments
  Because the IDE handles user overrides of colorable items in the **Fonts and Colors** dialog box, you need only supply each custom colorable item with a name. This name is what appears in the **Display items** list. The colorable items appear in alphabetical order. To group your language service's custom colorable items, you can begin each name with your language name, for example **NewLanguage - Comment** and **NewLanguage - Keyword**.
 
 > [!CAUTION]
-> You should include the language name in the colorable item name to avoid collisions with existing colorable item names. If you change the name of one of your colorable items during development, you must reset the cache that was created the first time your colorable items were accessed. You can reset the experimental cache with the **CreateExpInstance** tool, which is installed with the Visual Studio SDK, typically in the directory:
+> You should include the language name in the colorable item name to avoid collisions with existing colorable item names. If you change the name of one of your colorable items during development, you must reset the cache that was created the first time your colorable items were accessed. You can reset the experimental cache with the **CreateExpInstance** tool, which is installed with the Visual Studio SDK, typically in the following directory under the Visual Studio installation folder:
 >
-> *C:\Program Files (x86)\Microsoft Visual Studio 14.0\VSSDK\VisualStudioIntegration\Tools\Bin*
+> *VSSDK\VisualStudioIntegration\Tools\Bin*
 >
 > To reset the cache, enter **CreateExpInstance /Reset**. For more information about **CreateExpInstance**, see [CreateExpInstance utility](../../extensibility/internals/createexpinstance-utility.md).
 

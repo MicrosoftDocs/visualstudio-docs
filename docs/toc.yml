@@ -16,6 +16,7 @@
   items:
   - name: Install Visual Studio
     href: install/install-visual-studio.md
+    displayName: system requirements
   - name: Install offline
     items:
     - name: Create an offline installation of Visual Studio
@@ -150,32 +151,33 @@
     href: ide/quickstart-ide-orientation.md
   - name: "C++: Create a console app"
     href: /cpp/get-started/tutorial-console-cpp
-  - name: "Python: Create a web app"
-    href: ide/quickstart-python.md
-  - name: "Node.js: Create a web app"
-    href: ide/quickstart-nodejs.md
-  - name: "F#: Create a web service"
-    href: ide/quickstart-fsharp.md
   - name: "C#: Create a web app"
     href: ide/quickstart-aspnet-core.md
   - name: "C#: Create a console app"
     href: ide/quickstart-csharp-console.md
   - name: "Visual Basic: Create a console app"
     href: ide/quickstart-visual-basic-console.md
+  - name: "Node.js: Create a web app"
+    href: ide/quickstart-nodejs.md
+  - name: "Python: Create a web app"
+    href: ide/quickstart-python.md
+  - name: "F#: Create a web service"
+    href: ide/quickstart-fsharp.md
 - name: Tutorials
+  expanded: true
   items:
-  - name: C#
-    href: get-started/csharp/
-  - name: F#
-    href: /dotnet/fsharp/
-  - name: Visual Basic
-    href: get-started/visual-basic/
-  - name: C++
+  - name: C++ >>
     href: /cpp/get-started/tutorial-console-cpp
-  - name: Python
-    href: python/
-  - name: Node.js
+  - name: C#  >>
+    href: get-started/csharp/
+  - name: Visual Basic  >>
+    href: get-started/visual-basic/
+  - name: Node.js  >>
     href: javascript/
+  - name: Python  >>
+    href: python/
+  - name: F#  >>
+    href: /dotnet/fsharp/
 - name: Develop
   items:
   - name: Organize and edit code
@@ -198,6 +200,8 @@
       href: get-started/tutorial-open-project-from-repo-visual-studio-2019.md
     - name: Port, migrate, and upgrade projects
       href: porting/port-migrate-and-upgrade-visual-studio-projects.md
+    - name: Use the Solution Explorer tool window
+      href: ide/use-solution-explorer.md
     - name: Manage project and solution properties
       href: ide/managing-project-and-solution-properties.md
     - name: Project references
@@ -268,16 +272,6 @@
     - name: Customize build and debug tasks
       displayName: makefile tasks.vs.json
       href: ide/customize-build-and-debug-tasks-in-visual-studio.md
-  - name: Develop with Codespaces (Preview)
-    items:
-    - name: Overview
-      href: ide/codespaces/codespaces-overview.md
-    - name: Use Visual Studio with a codespace
-      href: ide/codespaces/use-visual-studio-with-codespaces.md
-    - name: Customize a codespace
-      href: ide/codespaces/customize-codespaces.md
-    - name: Supported Visual Studio features
-      href: ide/codespaces/supported-features-codespaces.md
   - name: Connect to projects in Team Explorer
     displayName: Azure DevOps VSTS
     href: ide/connect-team-project.md
@@ -452,6 +446,8 @@
           href: ide/reference/regex-completion-through-intellisense.md
         - name: Remove unreachable code
           href: ide/reference/remove-unreachable-code.md
+        - name: Remove unused references
+          href: ide/reference/remove-unused-references.md
         - name: Rename
           href: ide/reference/rename.md
         - name: Simplify conditional expression
@@ -736,6 +732,12 @@
         href: ide/fsharp-visual-studio.md
       - name: Target older .NET versions
         href: ide/fsharp-target-older-dotnet-versions.md
+    - name: Python >>
+      href: python/index.yml
+    - name: JavaScript/TypeScript >>
+      href: javascript/index.yml
+    - name: Azure >>
+      href: azure/index.yml
     - name: 3D graphical assets
       items:
       - name: Work with 3D assets for games and apps
@@ -906,6 +908,7 @@
 - name: Debug >>
   href: debugger/index.yml
 - name: Version control >>
+  displayName: git, github, source control, source, versioning, clone, integrate, release
   href: version-control/index.yml
 - name: Test >>
   displayName: Unit testing
@@ -958,7 +961,7 @@
       href: ide/signing-in-to-visual-studio.md
     - name: Work with multiple user accounts
       href: ide/work-with-multiple-user-accounts.md
-    - name: Work with accounts that require multi-factor authentication
+    - name: Work with accounts that require multifactor authentication
       href: ide/work-with-multi-factor-authentication.md
     - name: Work with GitHub accounts in Visual Studio
       href: ide/work-with-github-accounts.md
@@ -986,14 +989,9 @@
     href: ide/reference/accessibility-products-and-services-from-microsoft.md
 - name: Reference
   items:
-  - name: Keyboard shortcuts
-    items:
-    - name: Popular commands
-      displayName: keyboard shortcuts
-      href: ide/default-keyboard-shortcuts-for-frequently-used-commands-in-visual-studio.md
-    - name: All commands
-      displayName: keyboard commands
-      href: ide/default-keyboard-shortcuts-in-visual-studio.md
+  - name: Keyboard shortcuts & commands
+    displayName: keyboard, shortcuts, short cuts, ctrl, short-cut
+    href: ide/default-keyboard-shortcuts-in-visual-studio.md
   - name: Visual Studio commands
     items:
     - name: Reference
@@ -1120,8 +1118,6 @@
           href: ide/reference/import-and-export-settings-environment-options-dialog-box.md
         - name: International Settings
           href: ide/reference/international-settings-environment-options-dialog-box.md
-        - name: Keyboard
-          href: ide/reference/keyboard-environment-options-dialog-box.md
         - name: Preview Features
           href: ide/reference/environment-preview-features-options.md
         - name: Notifications
@@ -1435,58 +1431,32 @@
 - name: Resources
   expanded: true
   items:
-  - name: What's new in Visual Studio 2017
-    href: ide/whats-new-visual-studio-2017.md
-  - name: What's new in Visual Studio 2019
+  - name: "Visual Studio 2022: What's new"
+    href: ide/whats-new-visual-studio-2022.md
+  - name: "Visual Studio 2019: What's new"
     href: ide/whats-new-visual-studio-2019.md
-  - name: What's new in the docs
+  - name: "Visual Studio 2017: What's new"
+    href: ide/whats-new-visual-studio-2017.md
+  - name: "What's new in Docs"
     href: ide/whats-new-visual-studio-docs.md
-  - name: History of what's new in the docs
-    href: ide/whats-new-visual-studio-docs-history.md
-  - name: Release notes & system requirements
+  - name: Release notes
+    href: /visualstudio/releases/
+  - name: Release rhythm
+    href: /visualstudio/productinfo/release-rhythm/
+  - name: License terms
+    href: https://visualstudio.microsoft.com/license-terms/
+  - name: Support lifecycle and servicing
+    href: /visualstudio/productinfo/vs-servicing-vs/
+  - name: Customer Experience Improvement
     items:
-    - name: Release rhythm
-      href: /visualstudio/productinfo/release-rhythm/
-    - name: Visual Studio 2017
-      items:
-      - name: Current release notes
-        href: /visualstudio/releasenotes/vs2017-relnotes/
-      - name: Preview release notes
-        href: /visualstudio/releasenotes/vs2017-preview-relnotes/
-      - name: Release notes history
-        href: /visualstudio/releasenotes/vs2017-relnotes-history/
-      - name: Distributable code
-        href: /visualstudio/productinfo/2017-redistribution-vs/
-      - name: Platform compatibility
-        href: /visualstudio/productinfo/vs2017-compatibility-vs/
-      - name: System requirements
-        href: /visualstudio/productinfo/vs2017-system-requirements-vs/
-    - name: Visual Studio 2019
-      items:
-      - name: Current release notes
-        href: /visualstudio/releases/2019/release-notes/
-      - name: Preview release notes
-        href: /visualstudio/releases/2019/release-notes-preview/
-      - name: Release notes history
-        href: /visualstudio/releases/2019/release-notes-history/
-      - name: Distributable code
-        href: /visualstudio/releases/2019/redistribution/
-      - name: Platform compatibility
-        href: /visualstudio/releases/2019/compatibility/
-      - name: System requirements
-        href: /visualstudio/releases/2019/system-requirements/
-    - name: License terms
-      href: https://visualstudio.microsoft.com/license-terms/
-    - name: Support lifecycle and servicing
-      href: /visualstudio/productinfo/vs-servicing-vs/
-  - name: Customer Experience Improvement Program
-    items:
-    - name: Overview
+    - name: About the program
       displayName: Customer Experience Improvement Program
       href: ide/visual-studio-experience-improvement-program.md
     - name: System-generated logs
       href: ide/diagnostic-data-collection.md
-  - name: Resources for troubleshooting IDE errors
+  - name: Connected experiences in Visual Studio
+    href: ide/reference/connected-experiences.md
+  - name: Troubleshooting IDE errors
     href: ide/reference/resources-for-troubleshooting-integrated-development-environment-errors.md
 - name: Send feedback
   items:
@@ -1494,10 +1464,10 @@
     href: ide/feedback-options.md
   - name: Report a problem
     items:
-    - name: How to report a problem
+    - name: Report a problem
       href: ide/how-to-report-a-problem-with-visual-studio.md
     - name: Report a problem states and FAQ
-      href: ide/report-a-problem.md
+      href: ide/report-a-problem.yml
     - name: Get performance issues fixed quicker
       href: ide/how-to-increase-chances-of-performance-issue-being-fixed.md
     - name: Create minidumps with callstacks
@@ -1512,8 +1482,3 @@
     href: ide/developer-community-guidelines.md
   - name: Developer Community data privacy
     href: ide/developer-community-privacy.md
-- name: Visual Studio 2015
-  expanded: true
-  items:
-  - name: Visual Studio 2015 documentation
-    href: vs-2015-archive.md

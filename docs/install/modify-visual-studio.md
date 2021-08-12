@@ -4,15 +4,15 @@ titleSuffix: ''
 description: Learn how to modify Visual Studio, step-by-step.
 ms.date: 10/12/2020
 ms.topic: how-to
-ms.custom: contperf-fy21q2
+ms.custom: vs-acquisition
 helpviewer_keywords:
 - modify Visual Studio
 - change visual studio
 - changing Visual Studio
 - customize Visual Studio
 ms.assetid: 3399ea7b-a291-4a9e-80a1-b861a21afa1d
-author: j-martens
-ms.author: jmartens
+author: anandmeg
+ms.author: meghaanand
 manager: jmartens
 ms.workload:
 - multiple
@@ -21,7 +21,7 @@ ms.technology: vs-installation
 ---
 # Modify Visual Studio workloads, components, and language packs
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 It's easy to modify Visual Studio so that it includes only what you want, when you want it. To do so, open the Visual Studio Installer to add or remove workloads and components.
 
@@ -65,7 +65,7 @@ To make modifications to your installation, you need to launch the Visual Studio
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 1. Find the **Visual Studio Installer** on your computer.
 
@@ -113,12 +113,11 @@ To make modifications to your installation, you need to launch the Visual Studio
 
 1. If desired, choose the **Workloads** tab, and then select or deselect the workloads that you want.
 
-
 1. After the new workloads are installed, choose **Launch** from the Visual Studio Installer to open Visual Studio.
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
  Workloads contain the features you need for the programming language or platform that you're using. Use workloads to modify Visual Studio so that it supports the work you want to do, when you want to do it.
 
@@ -141,7 +140,6 @@ To make modifications to your installation, you need to launch the Visual Studio
 
 ::: moniker-end
 
-
 >[!TIP]
 > For information about the SQL Server Data Tools (SSDT) component, see [Download and install SSDT for Visual Studio](/sql/ssdt/download-sql-server-data-tools-ssdt?view=sql-server-ver15&preserve-view=true).
 
@@ -150,9 +148,10 @@ To make modifications to your installation, you need to launch the Visual Studio
 By default, the installer matches the language of the operating system when it runs for the first time. However, you can change the language whenever you want. 
 
 To do so:
+
 1. Choose the **Language packs** tab in the Visual Studio Installer.
-2. Select the language you prefer.
-3. Follow the prompts.
+1. Select the language you prefer.
+1. Follow the prompts.
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 

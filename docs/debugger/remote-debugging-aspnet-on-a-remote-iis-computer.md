@@ -8,6 +8,7 @@ ms.assetid: 573a3fc5-6901-41f1-bc87-557aa45d8858
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "aspnet"
   - "dotnetcore"

@@ -2,7 +2,7 @@
 title: C# unit test tutorial
 description: Learn how to create, run, and customize a series of unit tests using the Microsoft unit test framework for managed code and Visual Studio Test Explorer.
 ms.custom: SEO-VS-2020
-ms.date: 05/14/2019
+ms.date: 02/12/2021
 ms.topic: conceptual
 helpviewer_keywords:
 - unit tests, walkthrough
@@ -12,6 +12,7 @@ helpviewer_keywords:
 - unit tests, authoring
 ms.author: mikejo
 manager: jmartens
+ms.technology: vs-ide-test
 ms.workload:
 - dotnet
 author: mikejo5000

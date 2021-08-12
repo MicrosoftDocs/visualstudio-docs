@@ -3,7 +3,7 @@ title: Extern Element | Microsoft Docs
 description: The Extern element references any external header (.h) files to merge with the .vsct file at compile time. 
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - Extern
 helpviewer_keywords:
@@ -13,6 +13,7 @@ ms.assetid: db6c3ddd-a1ba-450a-897a-bb568a5377fc
 author: leslierichardson95
 ms.author: lerich
 manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---

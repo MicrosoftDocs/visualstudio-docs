@@ -5,7 +5,7 @@ author: ghogen
 ms.author: ghogen
 ms.topic: overview
 ms.date: 03/20/2019
-ms.technology: vs-azure
+ms.technology: vs-container-tools
 ---
 # Container Tools in Visual Studio
 
@@ -113,9 +113,7 @@ Repeat the process with the other projects that you want to control using Docker
 To add Kubernetes support, install the [Visual Studio Tools for Kubernetes](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vs-tools-for-kubernetes).
 ::: moniker-end
 
-With Kubernetes support, you can enable a connection between your local project and a Kubernetes cluster running in [Azure Kubernetes Service (AKS)](/azure/aks), and thereby modify and debug your services running using Visual Studio.  This service is provided by [Bridge to Kubernetes](overview-bridge-to-kubernetes.md). Bridge to Kubernetes also lets you set up separate branches of your Kubernetes services for development purposes, so you can efficiently isolate production services from working versions in development, and keep distinct modifications cleanly separated from each other.
-
-To add Kubernetes support to your projects, choose **Kubernetes/Helm** when you add container orchestration support. Several files are added to your project, including Helm charts which describe the structure of your Kubernetes services. To get started with Bridge to Kubernetes, see [Use Bridge to Kubernetes](bridge-to-kubernetes.md).
+With Kubernetes support, you can enable a connection between your local project and a Kubernetes cluster running in [Azure Kubernetes Service (AKS)](/azure/aks), and thereby modify and debug your services running using Visual Studio.  This service is provided by [Bridge to Kubernetes](/visualstudio/bridge/overview-bridge-to-kubernetes).
 
 ## Service Fabric support
 

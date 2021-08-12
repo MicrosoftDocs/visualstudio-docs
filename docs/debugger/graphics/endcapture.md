@@ -3,11 +3,12 @@ title: "EndCapture | Microsoft Docs"
 description: Use the EndCapture method of the VsgDbg class to end a capture interval that was started with BeginCapture.
 ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 ms.assetid: 06084c3b-e065-49b6-968e-d578762fb871
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---

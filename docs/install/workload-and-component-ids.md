@@ -3,10 +3,10 @@ title: Visual Studio workload and component IDs
 titleSuffix: ''
 description: Use workload and component IDs to install Visual Studio by using a command line, or to specify as a dependency in a VSIX manifest
 keywords:
-author: j-martens
-ms.author: jmartens
+author: anandmeg
+ms.author: meghaanand
 manager: jmartens
-ms.date: 3/2/2020
+ms.date: 08/10/2021
 ms.topic: reference
 helpviewer_keywords:
 - workload ID, Visual Studio
@@ -43,9 +43,9 @@ For more information about how to use these lists, see the [Use command-line par
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
-**Updated for the [16.8 release](/visualstudio/releases/2019/release-notes/)**
+**Updated for the [16.11 release](/visualstudio/releases/2019/release-notes/)**
 
 | **Edition** | **ID** | **Description** |
 | ----------- | ------ | --------------- |

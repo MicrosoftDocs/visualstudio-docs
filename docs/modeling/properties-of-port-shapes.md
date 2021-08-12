@@ -8,9 +8,10 @@ f1_keywords:
   - "vs.dsltools.dsldesigner.port"
 helpviewer_keywords:
   - "Domain-Specific Language, port shape"
-author: JoshuaPartlow
-ms.author: joshuapa
+author: mgoertz-msft
+ms.author: mgoertz
 manager: jmartens
+ms.technology: vs-ide-modeling
 ms.workload:
   - "multiple"
 ---

@@ -4,12 +4,11 @@ description: Learn how to create the project, add labels, a button, and other co
 ms.custom: SEO-VS-2020
 ms.date: 10/15/2019
 ms.topic: tutorial
-ms.prod: visual-studio-windows
-ms.technology: vs-ide-general
 ms.assetid: f44e50be-a5f5-4d77-9cff-dd52374c3f74
 author: j-martens
 ms.author: jmartens
 manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
 - multiple
 ---
@@ -37,7 +36,7 @@ As the first steps in developing this quiz, you create the project, and you add 
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 1. On the start window, choose **Create a new project**.
 

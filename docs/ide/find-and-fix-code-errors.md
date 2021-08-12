@@ -7,6 +7,7 @@ ms.assetid: c3a14d28-d811-4ff3-bd09-21dce14025ca
 author: TerryGLee
 ms.author: tglee
 manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
 - multiple
 ---
@@ -94,7 +95,7 @@ Quick Actions can be used wherever code analyzers determine there's an opportuni
 
 With experience, you can quickly use the arrow keys and **Ctrl**+**.** to check for easy refactoring opportunities and clean up your code!
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 ## Run Code Cleanup
 

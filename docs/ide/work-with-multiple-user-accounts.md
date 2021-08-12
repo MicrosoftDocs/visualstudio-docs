@@ -4,9 +4,10 @@ description: Learn how to add all of your Microsoft accounts to Visual Studio so
 ms.custom: SEO-VS-2020
 ms.date: 03/02/2021
 ms.topic: conceptual
-author: j-martens
-ms.author: jmartens
+author: anandmeg
+ms.author: meghaanand
 manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
 - multiple
 ---

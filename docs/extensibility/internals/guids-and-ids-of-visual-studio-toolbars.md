@@ -3,7 +3,7 @@ title: GUIDs and IDs of Visual Studio Toolbars | Microsoft Docs
 description: View a list of GUID and ID values for the toolbars and the groups they contain, that are included in the Visual Studio integrated development environment (IDE).
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - visual studio groups
 - toolbars
@@ -16,6 +16,7 @@ ms.assetid: c9cacd57-9225-450f-a9ac-cbf3168ea844
 author: leslierichardson95
 ms.author: lerich
 manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---

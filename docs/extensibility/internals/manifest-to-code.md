@@ -3,11 +3,12 @@ title: Manifest to Code | Microsoft Docs
 description: Learn how to use the Manifest from Code tool that takes an .imagemanifest file for use with the Visual Studio Image Service.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 ms.assetid: 17ecacea-397d-4a97-b003-01bd5d56e936
 author: leslierichardson95
 ms.author: lerich
 manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---

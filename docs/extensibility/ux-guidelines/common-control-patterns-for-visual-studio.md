@@ -3,11 +3,12 @@ title: Common Control Patterns for Visual Studio | Microsoft Docs
 description: Learn about how Visual Studio common controls follow the Windows Desktop interaction guidelines and about special situations that augment those guidelines.
 ms.custom: SEO-VS-2020
 ms.date: 04/26/2017
-ms.topic: conceptual
+ms.topic: reference
 ms.assetid: 3e893949-6398-42f1-9eab-a8d8c2b7f02d
 author: leslierichardson95
 ms.author: lerich
 manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---

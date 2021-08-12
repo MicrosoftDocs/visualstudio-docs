@@ -4,7 +4,7 @@ author: ghogen
 description: Learn how to use Visual Studio Container Tools and Docker for Windows
 ms.author: ghogen
 ms.date: 01/24/2020
-ms.technology: vs-azure
+ms.technology: vs-container-tools
 ms.topic: quickstart
 ---
 # Quickstart: Docker in Visual Studio

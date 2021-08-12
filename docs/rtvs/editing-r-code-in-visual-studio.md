@@ -2,10 +2,12 @@
 title: Edit R code
 description: Visual Studio provides a tailored editing experience for R while retaining all the features and the ability to use extensions.
 ms.date: 11/05/2018
+ms.prod: visual-studio-dev15
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb
 manager: jmartens
+ms.technology: vs-rtvs
 ms.workload:
   - data-science
 ---
@@ -38,7 +40,7 @@ As you type code, RTVS provides auto-completion as described on the [IntelliSens
 
 ![Animation of inline formatting](media/editing-inline-formatting.gif)
 
-When typing calls to functions that have many parameters, oftentimes you want to line up the parameters to make the code easier to read. RTVS remembers the indentation your set for parameters and automatically applies that indentation for subsequent lines:
+When typing calls to functions that have many parameters, often you want to line up the parameters to make the code easier to read. RTVS remembers the indentation your set for parameters and automatically applies that indentation for subsequent lines:
 
 ![Animation of automatic indentation](media/editing-auto-indentation.gif)
 
@@ -122,7 +124,7 @@ Options on the **R** > **Advanced** tab are specific to RTVS:
 | | Commit on Space key | Off | Commits auto-completion selection when **Space** is pressed.|
 | | Completion list on first character | On | Shows completion list on the first character types. When Off, a completion list is displayed with **Edit** > **IntelliSense** > **List Members** (**Ctrl**+**J**). |
 | | Completion list on **Tab** key | Off | Invokes completion list by typing one or more characters and pressing **Tab**. |
-| | Match partially types argument names | Off | WHen typing argument names in a function call, signature help shows a description for the argument that is the best match. |
+| | Match partially types argument names | Off | When typing argument names in a function call, signature help shows a description for the argument that is the best match. |
 | Interactive Window | Syntax check in R Console | Off | Applies syntax checking in the Interactive window. Syntax checking may not work correctly with multi-line statements. |
 | Outlining | Code outlining | On | Automatically creates collapsible regions for areas like multi-line statements. |
 | Syntax check | Show syntax errors | On | Enables automatic syntax checking of code. |

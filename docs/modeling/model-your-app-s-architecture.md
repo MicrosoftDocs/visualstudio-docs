@@ -6,16 +6,17 @@ ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - UML, modeling architecture
-author: JoshuaPartlow
-ms.author: joshuapa
+author: mgoertz-msft
+ms.author: mgoertz
 manager: jmartens
+ms.technology: vs-ide-modeling
 ms.workload:
 - multiple
 ---
 # Model your app&#39;s architecture
 To help ensure that your software system or application meets your users' needs, you can create models in Visual Studio as part of your description of the overall structure and behavior of your software system or application. Using models, you can also describe patterns that are used throughout the design. These models help you understand the existing architecture, discuss changes, and communicate your intentions clearly.
 
- To see which editions of Visual Studio support this feature, see [Edition support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).
+ To see which editions of Visual Studio support this feature, see [Edition support for architecture and modeling tools](../modeling/analyze-and-model-your-architecture.md#VersionSupport).
 
  The purpose of a model is to reduce the ambiguities that occur in natural-language descriptions, and to help you and your colleagues to visualize the design and to discuss alternative designs. A model should be used together with other documents or discussions. By itself, a model does not represent a complete specification of the architecture.
 

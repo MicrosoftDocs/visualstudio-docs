@@ -13,9 +13,10 @@ helpviewer_keywords:
 - Domain-Specific Language, external types
 - Domain-Specific Language, relationships
 - Domain-Specific Language, domain properties
-author: JoshuaPartlow
-ms.author: joshuapa
+author: mgoertz-msft
+ms.author: mgoertz
 manager: jmartens
+ms.technology: vs-ide-modeling
 ms.workload:
 - multiple
 ---

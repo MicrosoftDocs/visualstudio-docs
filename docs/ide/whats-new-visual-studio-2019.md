@@ -2,7 +2,7 @@
 title: "What's new in Visual Studio 2019"
 titleSuffix: ""
 description: "Learn about the new features in Visual Studio 2019."
-ms.date: 03/19/2021
+ms.date: 08/10/2021
 helpviewer_keywords:
   - "Visual Studio, what's new"
   - "what's new [Visual Studio]"
@@ -10,20 +10,20 @@ ms.assetid: 00bec66b-bcee-46f5-91d9-f73a2b469744
 author: TerryGLee
 ms.author: tglee
 manager: jmartens
-ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
+ms.prod: visual-studio-windows
 ms.topic: conceptual
 ms.workload:
   - "multiple"
 ---
 # What's new in Visual Studio 2019
 
-**Updated for the [16.9 release](/visualstudio/releases/2019/release-notes/)**
+**Updated for the 16.11 release.** See [full release notes](/visualstudio/releases/2019/release-notes/) | View [product roadmap](/visualstudio/productinfo/vs2019-roadmap)
 
 >[!div class="button"]
->[Download Visual Studio 2019](https://visualstudio.microsoft.com/downloads)
+>[Download Visual Studio 2019](https://visualstudio.microsoft.com/downloads/)
 
-With Visual Studio 2019, you'll get best-in-class tools and services for any developer, any app, and any platform. Whether you're using Visual Studio for the first time or you've been using it for years, there's a lot to like in our latest version!
+With Visual Studio 2019, you'll get best-in-class tools and services for any developer, any app, and any platform. Whether you're using Visual Studio for the first time or you've been using it for years, there's a lot to like in our current version!
 
 Here's a high-level recap of what's new, all-up:
 
@@ -31,7 +31,7 @@ Here's a high-level recap of what's new, all-up:
 * **[Collaborate](#collaborate)**: Enjoy natural collaboration through a Git-first workflow, real-time editing and debugging, and code reviews right in Visual Studio.
 * **[Debug](#debug)**: Highlight and navigate to specific values, optimize memory use, and take automatic snapshots of your application's execution.
 
-For a complete list of everything that's new in this version, see the [release notes](/visualstudio/releases/2019/release-notes/).
+For a complete list of everything that's new in this version, see the [release notes](/visualstudio/releases/2019/release-notes/). And, for more info about what's new in the 16.11 release, see the [Visual Studio 2019 v16.11 is available now](https://devblogs.microsoft.com/visualstudio/visual-studio-16-11/) blog post.
 
 ## Develop
 
@@ -214,17 +214,21 @@ For more information, see the [Pinnable Properties: Debug & Display Managed Obje
 
 ## What's next
 
-We update Visual Studio 2019 often with new features that can make your development experience even better. To learn more about our latest innovations, check out the [Visual Studio Blog](https://devblogs.microsoft.com/visualstudio/). For a record of what we've released in preview to date, take a look at the [Preview Release Notes](/visualstudio/releases/2019/release-notes-preview/). And for a list of what we're planning to release next, see the [Visual Studio Roadmap](/visualstudio/productinfo/vs-roadmap).
+We update Visual Studio often with new features that can make your development experience even better. To learn more about our latest innovations, check out the [Visual Studio Blog](https://devblogs.microsoft.com/visualstudio/). For a record of what we've released in preview to date, take a look at the [Preview Release Notes](/visualstudio/releases/2019/release-notes-preview/). And for a list of what we're planning to release next, see the [Visual Studio Roadmap](/visualstudio/productinfo/vs-roadmap).
 
-Meanwhile, here is a new feature that's currently in the works.
+Meanwhile, here's what's currently in the works:
 
-- **Improved Git experience in Visual Studio 2019 (Preview)**
+- **Improved Git experience in Visual Studio 2019**
 
-   Although the new Git version control experience is now on by default in Visual Studio 2019 [version 16.8](/visualstudio/releases/2019/release-notes/), we continue to add features to enhance the experience in the newest Preview release.
+   Although the Git version control tool is default experience in Visual Studio 2019 [version 16.8](/visualstudio/releases/2019/release-notes-history/) and later, we continue to add features to enhance the experience in the newest release of Visual Studio 2019, [version 16.11](/visualstudio/releases/2019/release-notes-preview/).
 
-   For more information, see the [Git experience in Visual Studio](../version-control/git-with-visual-studio.md) page.
+   For more information, see the [Version control in Visual Studio](/visualstudio/version-control/) page.
 
-For more information about the Preview release&mdash;and a download link if you'd like to try it out&mdash;see the **[Visual Studio Preview](https://aka.ms/vspreview/)** page.
+- **Visual Studio 2022 (Preview) is now available**
+
+    Our newest version, [Visual Studio 2022 (Preview)](/visualstudio/releases/2022/release-notes-preview/) is faster, more approachable, and more lightweight. And, for the first time ever, Visual Studio is 64-bit.
+
+    For a download link and more info, see the [Visual Studio 2022 vision](https://devblogs.microsoft.com/visualstudio/visual-studio-2022/) blog post, along with the [**Visual Studio 2022 Preview 3 now available**](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-preview-3-now-available/) blog post, too.
 
 ## Give us feedback
 
@@ -236,6 +240,7 @@ Why send feedback to the Visual Studio team? Because we take customer feedback s
 
 ## See also
 
+* [What's new in Visual Studio 2022 (Preview)](whats-new-visual-studio-2022.md)
 * [What's new in the Visual Studio docs](whats-new-visual-studio-docs.md)
 * [Visual Studio 2019 release notes](/visualstudio/releases/2019/release-notes/)
 * [Visual Studio 2019 for Mac release notes](/visualstudio/releasenotes/vs2019-mac-relnotes/)

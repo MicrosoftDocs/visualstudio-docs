@@ -3,13 +3,14 @@ title: Control Events | Microsoft Docs
 description: Learn about sending events during the controlled execution of your program by using the IDebugEvent2 interface.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - debugging [Debugging SDK], events
 ms.assetid: 0fc63484-5fb6-4887-9ea4-1905b459ca9d
 author: leslierichardson95
 ms.author: lerich
 manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
 - vssdk
 ---

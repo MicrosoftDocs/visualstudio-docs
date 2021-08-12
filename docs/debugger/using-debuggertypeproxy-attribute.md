@@ -17,6 +17,7 @@ ms.assetid: 943f3bb1-993e-4800-a47e-0af78b063014
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload: 
   - multiple
 ---
@@ -43,7 +44,7 @@ It is a good idea for the type proxy to be a private nested class within the cla
 
 If <xref:System.Diagnostics.DebuggerTypeProxyAttribute> is used at the assembly level, the `Target` parameter specifies the type which the proxy will replace.
 
-For an example of how to use this attribute along with <xref:System.Diagnostics.DebuggerDisplayAttribute> and <xref:System.Diagnostics.DebuggerTypeProxyAttribute>, see[Using the DebuggerDisplay Attribute](../debugger/using-the-debuggerdisplay-attribute.md).
+For an example of how to use this attribute along with <xref:System.Diagnostics.DebuggerDisplayAttribute> and <xref:System.Diagnostics.DebuggerTypeProxyAttribute>, see [Using the DebuggerDisplay Attribute](../debugger/using-the-debuggerdisplay-attribute.md).
 
 ## Using Generics with DebuggerTypeProxy
 

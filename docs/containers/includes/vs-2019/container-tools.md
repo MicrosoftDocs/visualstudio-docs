@@ -3,9 +3,8 @@ title: Visual Studio Tools for Docker with ASP.NET
 author: ghogen
 description: Learn how to use Visual Studio 2019 tooling and Docker for Windows
 ms.author: ghogen
-ms.date: 02/22/2021
-ms.prod: visual-studio-dev16
-ms.technology: vs-azure
+ms.date: 03/08/2021
+ms.technology: vs-container-tools
 ms.topic: include
 ---
 
@@ -25,7 +24,7 @@ For Docker installation, first review the information at [Docker Desktop for Win
 ## Add a project to a Docker container
 
 1. Create a new project using the **ASP.NET Core Web App** template or if you want to use the .NET Framework instead of .NET Core, choose **ASP.NET Web Application (.NET Framework)**.
-1. On the **Additional information** screen, make sure the **Enable Docker Support** checkbox is selected.
+1. On the **Create new web application** screen, make sure the **Enable Docker Support** checkbox is selected.
 
    ![Enable Docker Support check box](../../media/container-tools/vs-2019/webapp-additional-information-31-docker.png)
 
@@ -38,12 +37,12 @@ For Docker installation, first review the information at [Docker Desktop for Win
 A *Dockerfile*, the recipe for creating a final Docker image, is created in the project. Refer to [Dockerfile reference](https://docs.docker.com/engine/reference/builder/) for an understanding of the commands within it.:
 
 ```dockerfile
-FROM mcr.microsoft.com/dotnet/core/aspnet:3.1-nanoserver-1903 AS base
+FROM mcr.microsoft.com/dotnet/core/aspnet:3.1 AS base
 WORKDIR /app
 EXPOSE 80
 EXPOSE 443
 
-FROM mcr.microsoft.com/dotnet/core/sdk:3.1-nanoserver-1903 AS build
+FROM mcr.microsoft.com/dotnet/core/sdk:3.1 AS build
 WORKDIR /src
 COPY ["WebApplication1/WebApplication1.csproj", "WebApplication1/"]
 RUN dotnet restore "WebApplication1/WebApplication1.csproj"

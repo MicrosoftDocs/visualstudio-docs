@@ -10,9 +10,10 @@ helpviewer_keywords:
 - code analysis, dependency graphs
 - dependency graphs, analyzing code
 - graph documents, analyzing
-author: JoshuaPartlow
-ms.author: joshuapa
+author: mgoertz-msft
+ms.author: mgoertz
 manager: jmartens
+ms.technology: vs-ide-modeling
 ms.workload:
 - multiple
 ---

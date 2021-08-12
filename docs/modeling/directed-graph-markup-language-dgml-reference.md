@@ -4,9 +4,10 @@ description: Learn how Directed Graph Markup Language (DGML) describes informati
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
-author: JoshuaPartlow
-ms.author: joshuapa
+author: mgoertz-msft
+ms.author: mgoertz
 manager: jmartens
+ms.technology: vs-ide-modeling
 ms.workload:
 - multiple
 ---
@@ -14,7 +15,7 @@ ms.workload:
 
 Directed Graph Markup Language (DGML) describes information used for visualization and to perform complexity analysis, and is the format used to persist code maps in Visual Studio. It uses simple XML to describe both cyclical and acyclic directed graphs. A directed graph is a set of nodes that are connected by links, or edges. Nodes and links can be used represent network structures, such as elements in a software project.
 
-Note that some versions of Visual Studio support only a subset of DGML capabilities, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).
+Note that some versions of Visual Studio support only a subset of DGML capabilities, see [Version support for architecture and modeling tools](../modeling/analyze-and-model-your-architecture.md#VersionSupport).
 
 > [!NOTE]
 > When you edit a .dgml file, IntelliSense helps you identify attributes that are available for each element and their values. To specify color in an attribute, use names for common colors, such as "Blue", or ARGB hexadecimal values, such as "#ffa0b1c3". DGML uses a small subset of Windows Presentation Foundation (WPF) color definition formats. For more information, see [Colors Class](/dotnet/api/system.windows.media.colors?view=netframework-4.8&preserve-view=true).

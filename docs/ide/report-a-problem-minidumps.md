@@ -9,6 +9,7 @@ helpviewer_keywords:
 author: corob-msft
 ms.author: corob
 manager: jmartens
+ms.technology: vs-ide-general
 dev_langs:
  - CSharp
  - VB

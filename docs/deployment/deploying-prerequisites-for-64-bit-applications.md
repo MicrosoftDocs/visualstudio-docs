@@ -18,6 +18,7 @@ ms.assetid: 87399e20-5510-41e4-b5b7-4a87c5773f21
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
+ms.technology: vs-ide-deployment
 ms.workload:
   - "multiple"
 ---

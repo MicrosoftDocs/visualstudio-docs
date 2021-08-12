@@ -3,13 +3,14 @@ title: Processes | Microsoft Docs
 description: This article describes the definition and role of a process in the debugger architecture in Visual Studio.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - debugging [Debugging SDK], processes
 ms.assetid: a6a1efdc-b243-40c8-a778-6f69f6b018be
 author: leslierichardson95
 ms.author: lerich
 manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
 - vssdk
 ---

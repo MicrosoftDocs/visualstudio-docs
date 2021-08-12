@@ -1,7 +1,7 @@
 ---
 title: "Hello World app with WPF in C#"
 description: Create a simple Windows Desktop .NET app in C# with Visual Studio using the Windows Presentation Foundation (WPF) UI framework.
-ms.custom: "seodec18, get-started"
+ms.custom: "vs-acquisition, get-started"
 ms.date: 02/10/2021
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
@@ -9,8 +9,8 @@ ms.topic: tutorial
 dev_langs:
   - "CSharp"
 ms.assetid: f84339c7-d617-4f56-bfcd-af2215c347ba
-author: j-martens
-ms.author: jmartens
+author: anandmeg
+ms.author: meghaanand
 manager: jmartens
 ms.workload:
   - "dotnet"
@@ -66,9 +66,9 @@ When you create an application in Visual Studio, you first create a project and 
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
-1. Open Visual Studio 2019.
+1. Open Visual Studio.
 
 1. On the start window, choose **Create new project**.
 

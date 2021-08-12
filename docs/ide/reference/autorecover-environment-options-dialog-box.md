@@ -17,6 +17,7 @@ ms.assetid: 397e5e44-4bbe-4289-94d1-642b466c9111
 author: TerryGLee
 ms.author: tglee
 manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
 - multiple
 ---
@@ -29,6 +30,12 @@ To access this dialog box, go to **Tools** > **Options** > **Environment** > **A
 :::image type="content" source="media/autorecover-options.png" alt-text="Screenshot of the AutoRecover section in the Options dialog box":::
 
 **Save AutoRecover information every [n] minutes**
+
+::: moniker range=">=vs-2022"
+
+Use this option to customize how often a file is automatically saved in the editor. For previously saved files, Visual Studio saves a copy of the file in ***%LocalAppData%\Microsoft\VisualStudio\BackupFiles\\[projectname]***. If the file is new and you haven't saved it yet, Visual Studio autosaves it by using a randomly generated file name.
+
+::: moniker-end
 
 ::: moniker range="vs-2019"
 

@@ -1,14 +1,14 @@
 ---
-title: "Tutorial: Create a simple C# console app"
+title: "Tutorial: Create a simple C# console app "
 description: "Learn how to create a C# console app in Visual Studio, step-by-step."
-ms.custom: "seodec18, get-started"
+ms.custom: "vs-acquisition, get-started"
 ms.date: 02/10/2021
 ms.technology: vs-ide-general
 ms.prod: visual-studio-windows
 ms.topic: tutorial
 ms.devlang: CSharp
-author: j-martens
-ms.author: jmartens
+author: anandmeg
+ms.author: meghaanand
 manager: jmartens
 dev_langs:
   - CSharp
@@ -16,9 +16,24 @@ ms.workload:
   - "dotnet"
   - "dotnetcore"
 ---
-# Tutorial: Create a simple C# console app in Visual Studio
+# Tutorial: Create a simple C# console app in Visual Studio (part 1 of 2)
 
-In this tutorial for C#, you'll use Visual Studio to create and run a console app and explore some features of the Visual Studio integrated development environment (IDE) while you do so.
+In this tutorial,  you'll use Visual Studio to create and run a C# console app and explore some features of the Visual Studio integrated development environment (IDE) while you do so. This tutorial is part 1 of a two-part tutorial series.
+
+In this tutorial, you will:
+
+> [!div class="checklist"]
+> * Create a Visual Studio project.
+> * Create a C# console app.
+> * Debug your app.
+> * Close your app.
+> * Inspect your complete code.
+
+[In part 2](tutorial-console-part-2.md), you'll extend this app with additional projects, debugging tricks, and reference 3rd party packages.
+
+## Prerequisites
+
+You must have Visual Studio installed.
 
 ::: moniker range="vs-2017"
 
@@ -29,6 +44,12 @@ If you haven't already installed Visual Studio, go to the [Visual Studio downloa
 ::: moniker range="vs-2019"
 
 If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads) page to install it for free.
+
+::: moniker-end
+
+::: moniker range="vs-2022"
+
+If you haven't already installed Visual Studio 2022 Preview, go to the [Visual Studio 2022 Preview downloads](https://visualstudio.microsoft.com/vs/preview/vs2022) page to install it for free.
 
 ::: moniker-end
 
@@ -69,9 +90,9 @@ If you don't see the **Console App (.NET Core)** project template, you can get i
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
-1. Open Visual Studio 2019.
+1. Open Visual Studio.
 
 1. On the start window, choose **Create a new project**.
 
@@ -474,7 +495,7 @@ Let's get started.
 
 1. Close Visual Studio.
 
-## Code complete
+## Review: code complete
 
 During this tutorial, we've made a lot of changes to the calculator app. The app now handles computing resources more efficiently, and it handles most user input errors.
 
@@ -610,15 +631,20 @@ Continue with more tutorials:
 
 :::moniker-end
 
-:::moniker range="vs-2019"
+:::moniker range=">=vs-2019"
 
 Continue with the second part of this tutorial:
 
 > [!div class="nextstepaction"]
-> [Continue with Part 2](tutorial-console-part-2.md)
+> [Tutorial Part 2: Using multiple projects and 3rd party packages](tutorial-console-part-2.md)
 :::moniker-end
 
-## See also
+Also of interest:
 
-* [C# IntelliSense](../../ide/visual-csharp-intellisense.md)
-* [Learn to debug C# code in Visual Studio](tutorial-debugger.md)
+- [Continue with more C# tutorials](/dotnet/csharp/tutorials/)
+- [Quickstart: create a ASP.NET Core web app](../../ide/quickstart-aspnet-core.md)
+- [Learn to debug C# code in Visual Studio](tutorial-debugger.md)
+- Walkthrough on how to [create and run unit tests](../../test/walkthrough-creating-and-running-unit-tests-for-managed-code.md)
+- [Run a C# program](run-program.md)
+- [C# IntelliSense](../../ide/visual-csharp-intellisense.md)
+- [Continue with Visual Studio IDE overview](/../visual-studio-ide.md)

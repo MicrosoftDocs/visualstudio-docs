@@ -2,11 +2,12 @@
 description: "Constructs an instance of the VsgDbg class with or without preparing the in-app component of graphics diagnostics to actively capture and record graphics information by default, based on the specified Boolean parameter."
 title: "VsgDbg::VsgDbg (Constructor) | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 ms.assetid: 670651e6-5e79-4845-b0c2-671beb7055a8
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---

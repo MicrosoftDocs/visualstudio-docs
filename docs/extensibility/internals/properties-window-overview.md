@@ -3,13 +3,14 @@ title: Properties Window Overview | Microsoft Docs
 description: Learn about the interfaces used to interact with the Properties window in the Visual Studio IDE in this overview.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - Properties window
 ms.assetid: 289ed4f2-02ac-4899-855e-42dfe57ee05f
 author: leslierichardson95
 ms.author: lerich
 manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---

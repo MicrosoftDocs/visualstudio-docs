@@ -3,7 +3,7 @@ title: Visual Studio SDK Reference | Microsoft Docs
 description: These articles contain information about Visual Studio namespaces, related namespaces, and other areas of interest for developers who use the Visual Studio SDK.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - Visual Studio SDK, reference
 - reference, Visual Studio SDK
@@ -11,6 +11,7 @@ ms.assetid: a6930db5-a112-4651-8de3-e520df851f82
 author: leslierichardson95
 ms.author: lerich
 manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---

@@ -2,7 +2,7 @@
 title: "First look at the debugger"
 description: "Get started debugging applications using the Visual Studio debugger"
 ms.custom: ""
-ms.date: 04/08/2019
+ms.date: 07/26/2021
 ms.topic: tutorial
 helpviewer_keywords:
   - "debugger"
@@ -10,6 +10,7 @@ ms.assetid: c763d706-3213-494f-b4d2-990b6e1ec456
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---

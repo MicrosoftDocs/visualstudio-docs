@@ -2,7 +2,7 @@
 title: Unit test tools & tasks
 description: Learn about the unit test tools you can use to give developers and testers a quick way to look for logic errors in your code. 
 ms.custom: SEO-VS-2020
-ms.date: 11/04/2016
+ms.date: 08/10/2021
 ms.topic: conceptual
 helpviewer_keywords:
 - Visual Studio, unit tests
@@ -10,6 +10,7 @@ helpviewer_keywords:
 - testing code, automated tests
 ms.author: mikejo
 manager: jmartens
+ms.technology: vs-ide-test
 ms.workload:
 - multiple
 author: mikejo5000
@@ -24,7 +25,7 @@ The unit test tools include:
 
 * **Microsoft unit test framework for managed code**&mdash;The Microsoft unit test framework for managed code is installed with Visual Studio and provides a framework for testing .NET code.
 
-* **Microsoft unit test framework for C++**&mdash;The Microsoft unit test framework for C++ is installed as part of the **Desktop development with C++** workload. It provides a framework for testing native code. Google Test, Boost.Test, and CTest frameworks are also included, and third-party adapters are available for additional test frameworks. For more information, see [Write unit tests for C/C++](../test/writing-unit-tests-for-c-cpp.md).
+* **Microsoft Native Unit Test Framework**&mdash;The Microsoft Native Unit Test Framework for C++ is installed as part of the **Desktop development with C++** workload. It provides a framework for testing native code. Google Test, Boost.Test, and CTest frameworks are also included, and third-party adapters are available for additional test frameworks. For more information, see [Write unit tests for C/C++](../test/writing-unit-tests-for-c-cpp.md).
 
 * **Code coverage tools**&mdash;You can determine the amount of product code that your unit tests exercise from one command in Test Explorer.
 
@@ -38,9 +39,10 @@ Use the following articles to help with understanding and creating unit tests:
 
 |Tasks|Associated Topics|
 |-|-----------------------|
-|**Quickstarts and walkthroughs:** Learn about unit testing in Visual Studio from code examples.|- [Walkthrough: Create and run unit tests for .NET code](../test/walkthrough-creating-and-running-unit-tests-for-managed-code.md)<br />- [Walkthrough: Test-driven development with Test Explorer](../test/quick-start-test-driven-development-with-test-explorer.md)<br />- [How to: Add unit tests to C++ apps](../test/how-to-use-microsoft-test-framework-for-cpp.md)|
+|**Tutorials:** Learn about unit testing in Visual Studio from code examples.|- [Get started with unit testing](getting-started-with-unit-testing.md)<br />- [Test-driven development with Test Explorer](../test/quick-start-test-driven-development-with-test-explorer.md)|
 |**Unit testing with Test Explorer:** Learn how Test Explorer can help create more productive and efficient unit tests.|- [Unit test basics](../test/unit-test-basics.md)<br />- [Create a unit test project](../test/create-a-unit-test-project.md)<br />- [Run unit tests with Test Explorer](../test/run-unit-tests-with-test-explorer.md)<br />- [Install third-party unit test frameworks](../test/install-third-party-unit-test-frameworks.md)|
-|**Unit test C++ code**|- [Write unit tests for C/C++](../test/writing-unit-tests-for-c-cpp.md)|
+|**Unit test .NET code**|- [Create and run unit tests for .NET code](../test/walkthrough-creating-and-running-unit-tests-for-managed-code.md)|
+|**Unit test C++ code**|- [Write unit tests for C/C++](../test/writing-unit-tests-for-c-cpp.md)<br />- [How to: Add unit tests to C++ apps](../test/how-to-use-microsoft-test-framework-for-cpp.md)|
 |**Use code coverage to identify what proportion of your project's code is tested:** Learn about the code coverage feature of Visual Studio testing tools.|- [Use code coverage to determine how much code is being tested](../test/using-code-coverage-to-determine-how-much-code-is-being-tested.md)|
 |**Isolating unit tests**|- [Isolate .NET code under test with Microsoft Fakes](../test/isolating-code-under-test-with-microsoft-fakes.md)|
 |**Perform stress and performance analysis by using load tests:** Learn how to create load tests to help isolate performance and stress issues in your application (deprecated).|- [Quickstart: Create a load test project](../test/quickstart-create-a-load-test-project.md)<br />- [Load testing (Azure Test Plans and TFS)](/azure/devops/test/load-test/index?view=vsts&preserve-view=true)|

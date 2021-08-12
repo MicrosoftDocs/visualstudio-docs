@@ -2,7 +2,7 @@
 title: Install a Visualizer | Microsoft Docs
 description: Understand how to install a visualizer so that it will be available for debugging use in Visual Studio.
 ms.custom: SEO-VS-2020
-ms.date: 06/10/2020
+ms.date: 07/02/2021
 ms.topic: how-to
 dev_langs:
   - CSharp
@@ -17,6 +17,7 @@ ms.assetid: 3310ef43-515c-4d97-b0f9-51047247d3da
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - multiple
 ---
@@ -31,7 +32,10 @@ After you have created a visualizer, you must install the visualizer so that it 
 
 1. Locate the DLL that contains the visualizer you built.
 
-   Typically, it is best if both the debugger-side DLL and the debuggee-side DLL specify **Any CPU** as the target platform. The debugger-side DLL must be either **Any CPU** or **32-bit**. The target platform for the debuggee-side DLL should correspond to the debugee process.
+   Typically, it is best if both the debugger-side DLL and the debuggee-side DLL specify **Any CPU** as the target platform. The debugger-side DLL must be either **Any CPU** or **32-bit**. The target platform for the debuggee-side DLL should correspond to the debuggee process.
+
+   >[!NOTE]
+   > The debugger-side visualizer is loaded in the Visual Studio process, so it must be a .NET Framework DLL. The debuggee-side can be either .NET Framework or .NET Standard depending on what process is getting debugged in Visual Studio.
 
 2. Copy the [debugger side](create-custom-visualizers-of-data.md#to-create-the-debugger-side) DLL (and any DLLs it depends on) to either of the following locations:
 

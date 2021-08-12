@@ -7,8 +7,8 @@ manager: jmartens
 ms.assetid: 480e3062-aae7-48ef-9701-e4f9ea041382
 ms.topic: how-to
 ms.workload: multiple
-ms.date: 07/25/2019
-ms.technology: vs-azure
+ms.date: 03/08/2021
+ms.technology: vs-container-tools
 ---
 # Debug apps in a local Docker container
 
@@ -32,6 +32,12 @@ To debug apps in a local Docker container, the following tools must be installed
 ::: moniker range="vs-2019"
 
 * [Visual Studio 2019](https://visualstudio.microsoft.com/downloads) with the Web Development workload installed
+
+::: moniker-end
+
+::: moniker range="vs-2022"
+
+* [Visual Studio 2022 Preview]() with the Web Development workload installed
 
 ::: moniker-end
 

@@ -15,6 +15,7 @@ ms.assetid: 99333e61-83c9-4804-84e3-eda297c2478d
 author: ghogen
 ms.author: ghogen
 manager: jmartens
+ms.technology: msbuild
 ms.workload:
 - multiple
 ---
@@ -65,7 +66,10 @@ The table in this section shows the MSBuild predefined properties. The example c
 | `MSBuildThisFileName` | Reserved | The file name portion of `MSBuildThisFileFullPath`, without the file name extension. | `ConsoleApp1` |
 | `MSBuildToolsPath` | Reserved | The installation path of the MSBuild version that's associated with the value of `MSBuildToolsVersion`.<br /><br /> Do not include the final backslash in the path.<br /><br /> This property cannot be overridden. | `C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\MSBuild\Current\Bin` |
 | `MSBuildToolsVersion` | Reserved | The version of the MSBuild Toolset that is used to build the project.<br /><br /> Note: An MSBuild Toolset consists of tasks, targets, and tools that are used to build an application. The tools include compilers such as *csc.exe* and *vbc.exe*. For more information, see [Toolset (ToolsVersion)](../msbuild/msbuild-toolset-toolsversion.md), and [Standard and custom Toolset configurations](../msbuild/standard-and-custom-toolset-configurations.md). | `Current` |
-| `MSBuildVersion` | Reserved | The version of MSBuild used to build the project. <br /><br/> This property can't be overridden, otherwise the error message `MSB4004 - The 'MSBuildVersion' property is reserved, and can not be modified.` is returned. | 16.7.0 |
+| `MSBuildVersion` | Reserved | The version of MSBuild used to build the project. <br /><br/> This property can't be overridden, otherwise the error message `MSB4004 - The 'MSBuildVersion' property is reserved, and can not be modified.` is returned. | 16.11.0 |
+| `MSBuildAssemblyVersion` | Reserved | The version of MSBuild assemblies used to build the project. | 16.0 |
+| `MSBuildFileVersion` | Reserved | The 4 part version of MSBuild assemblies used to build the project. | 16.11.0.30701 |
+| `MSBuildSemanticVersion` | Reserved | The full semver 2.0 version of MSBuild assemblies used to build the project. | 16.11.0-preview-21302-05+5e37cc992 |
 
 ## Names that conflict with MSBuild elements
 

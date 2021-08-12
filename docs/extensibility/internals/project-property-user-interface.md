@@ -3,7 +3,7 @@ title: Project Property User Interface | Microsoft Docs
 description: Learn how project subtypes can modify the project Property Pages dialog box as supplied by the base project.
 ms.custom: SEO-VS-2020
 ms.date: 03/22/2018
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - project properties [Visual Studio], user interface
 - projects [Visual Studio SDK], properties UI
@@ -12,6 +12,7 @@ ms.assetid: b6aec634-8533-476c-9ebd-36536a2288e2
 author: leslierichardson95
 ms.author: lerich
 manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---

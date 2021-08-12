@@ -1,13 +1,14 @@
 ---
 title: "Quickstart: Tour of the Visual Studio IDE"
 description: Learn about some of the windows, menus, and other UI features of the Visual Studio integrated development environment (IDE).
-ms.custom: SEO-VS-2020
+ms.custom: vs-acquisition
 titleSuffix: ''
 ms.date: 03/02/2021
 ms.topic: quickstart
 author: TerryGLee
 ms.author: tglee
 manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
 - multiple
 ---

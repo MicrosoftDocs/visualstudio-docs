@@ -2,10 +2,12 @@
 title: R projects
 description: How to create an manager R projects in Visual Studio including properties, project commands, and templates.
 ms.date: 06/29/2017
+ms.prod: visual-studio-dev15
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb
 manager: jmartens
+ms.technology: vs-rtvs
 ms.workload:
   - data-science
 ---

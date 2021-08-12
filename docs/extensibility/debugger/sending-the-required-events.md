@@ -3,13 +3,14 @@ title: Sending the Required Events | Microsoft Docs
 description: Learn about the ordered events that are required when creating a debug engine and attaching it to a program in Visual Studio debugging.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - debugging [Debugging SDK], required events
 ms.assetid: 08319157-43fb-44a9-9a63-50b919fe1377
 author: leslierichardson95
 ms.author: lerich
 manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
 - vssdk
 ---

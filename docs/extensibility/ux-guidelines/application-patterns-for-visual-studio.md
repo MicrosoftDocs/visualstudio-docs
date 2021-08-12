@@ -3,11 +3,12 @@ title: Application Patterns for Visual Studio | Microsoft Docs
 description: Learn about the difference between document windows, tool windows, and modeless dialogs, including window usage patterns for new features for Visual Studio.
 ms.custom: SEO-VS-2020
 ms.date: 04/26/2017
-ms.topic: conceptual
+ms.topic: reference
 ms.assetid: 8ed68602-4e28-46fe-b39f-f41979b308a2
 author: leslierichardson95
 ms.author: lerich
 manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---

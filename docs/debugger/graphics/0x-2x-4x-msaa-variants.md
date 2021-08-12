@@ -3,11 +3,12 @@ title: "0x-2x-4x MSAA Variants | Microsoft Docs"
 description: Learn how to override multi-sample anti-aliasing (MSAA) settings on all render targets and swap chains by using 0x, 2x, or 4x MSAA variants.
 ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 ms.assetid: 668a6603-5082-4c78-98e6-f3dc871aa55b
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---

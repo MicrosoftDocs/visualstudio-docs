@@ -3,11 +3,12 @@ title: "UnInit | Microsoft Docs"
 description: Use the UnInit() method of VsgDbg to finalize and close the graphics log file and to free logging resources.
 ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 ms.assetid: 4cd4fc0b-974a-4e61-9ea8-0aaa1a0c52ea
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---

@@ -3,7 +3,7 @@ title: CommandPlacements Element | Microsoft Docs
 description: The CommandPlacements element groups CommandPlacement elements and other CommandPlacements groupings. The CommandPlacements element is optional.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - CommandPlacements
 helpviewer_keywords:
@@ -13,6 +13,7 @@ ms.assetid: 78a5724a-3b9f-4c78-9c0d-8faa3924f81c
 author: leslierichardson95
 ms.author: lerich
 manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---

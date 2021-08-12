@@ -10,6 +10,7 @@ ms.custom: contperf-fy21q4
 author: TerryGLee
 ms.author: tglee
 manager: jmartens
+ms.technology: vs-xaml-tools
 ---
 # XAML code editor
 

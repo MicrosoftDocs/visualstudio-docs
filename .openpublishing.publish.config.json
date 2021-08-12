@@ -2,6 +2,20 @@
   "build_entry_point": "docs",
   "docsets_to_publish": [
     {
+      "docset_name": "bridge-to-kubernetes",
+      "build_source_folder": "bridge",
+      "build_output_subfolder": "bridge-to-kubernetes",
+      "locale": "en-us",
+      "monikers": [],
+      "moniker_ranges": [],
+      "open_to_public_contributors": true,
+      "type_mapping": {
+        "Conceptual": "Content"
+      },
+      "build_entry_point": "docs",
+      "template_folder": "_themes"
+    },
+    {
       "docset_name": "Docker",
       "build_source_folder": "docker",
       "build_output_subfolder": "Docker",
@@ -22,7 +36,6 @@
       "locale": "en-us",
       "monikers": [],
       "moniker_ranges": [
-        "vs-2015",
         ">= vs-2017"
       ],
       "xref_query_tags": [
@@ -150,5 +163,9 @@
   "need_generate_pdf": false,
   "need_generate_intellisense": false,
   "enable_branch_build_custom_validation": true,
-  "enable_pull_request_custom_validation": true
+  "enable_pull_request_custom_validation": true,
+  "redirection_files": [
+    ".openpublishing.redirection.json",
+    "docs/containers/.openpublishing.redirection.containers.json"
+]
 }

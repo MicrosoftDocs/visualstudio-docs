@@ -2,13 +2,14 @@
 description: "Gets an object that can be used to uniquely identify this builder to the debugger."
 title: AsyncVoidMethodBuilder.ObjectIdForDebugger Property | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - ObjectIdForDbugger property, AsyncVoidMethodBuilder structure [.NET Framework debug engines]
 ms.assetid: 97c48c49-3fb2-4778-accd-8585fa4feabf
 author: leslierichardson95
 ms.author: lerich
 manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
 - vssdk
 ---

@@ -1,11 +1,12 @@
 ---
-title: "Docker tutorial - Part 9: Deploy to the cloud"
+title: "Docker tutorial - Part 10: Deploy to the cloud"
 description: Deploy a docker app to a cloud service for hosting.
-ms.date: "08/04/2020"
+ms.date: "08/06/2021"
 author: nebuk89
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-azure
+ms.technology: vs-docker
+
 ms.topic: conceptual
 ms.workload:
   - "azure"

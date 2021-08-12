@@ -3,7 +3,7 @@ title: CreatePkgDef Utility | Microsoft Docs
 description: Learn about the CreatePkgDef utility that takes a .dll file for a Visual Studio extension as a parameter and creates a .pkgdef file to accompany the .dll file. 
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - package definition
 - create pkgdef
@@ -13,6 +13,7 @@ ms.assetid: c745cb76-47a6-49ff-9eed-16af0f748e35
 author: leslierichardson95
 ms.author: lerich
 manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---

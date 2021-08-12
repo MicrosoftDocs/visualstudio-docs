@@ -2,10 +2,12 @@
 title: Current version of R Tools
 description: How to check the version of R Tools for Visual Studio and install updates.
 ms.date: 07/23/2018
+ms.prod: visual-studio-dev15
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb
 manager: jmartens
+ms.technology: vs-rtvs
 ms.workload:
   - data-science
 ---

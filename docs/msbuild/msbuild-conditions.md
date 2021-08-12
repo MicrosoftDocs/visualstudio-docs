@@ -18,6 +18,7 @@ ms.assetid: 9d7aa308-b667-48ed-b4c9-a61e49eb0a85
 author: ghogen
 ms.author: ghogen
 manager: jmartens
+ms.technology: msbuild
 ms.workload:
 - multiple
 ---
@@ -29,7 +30,7 @@ MSBuild supports a specific set of conditions that can be applied wherever a `Co
 |---------------|-----------------|
 |'`stringA`' == '`stringB`'|Evaluates to `true` if `stringA` equals `stringB`.<br /><br /> For example:<br /><br /> `Condition="'$(Configuration)'=='DEBUG'"`<br /><br /> Single quotes are not required for simple alphanumeric strings or boolean values. However, single quotes are required for empty values. This check is case insensitive.|
 |'`stringA`' != '`stringB`'|Evaluates to `true` if `stringA` is not equal to `stringB`.<br /><br /> For example:<br /><br /> `Condition="'$(Configuration)'!='DEBUG'"`<br /><br /> Single quotes are not required for simple alphanumeric strings or boolean values. However, single quotes are required for empty values. This check is case insensitive.|
-|\<, >, \<=, >=|Evaluates the numeric values of the operands. Returns `true` if the relational evaluation is true. Operands must evaluate to a decimal or hexadecimal number. Hexadecimal numbers must begin with "0x". **Note:**  In XML, the characters `<` and `>` must be escaped. The symbol `<` is represented as `&lt;`. The symbol `>` is represented as `&gt;`.|
+|\<, >, \<=, >=|Evaluates the numeric values of the operands. Returns `true` if the relational evaluation is true. Operands must evaluate to a decimal or hexadecimal number or a four-part dotted version. Hexadecimal numbers must begin with "0x". **Note:**  In XML, the characters `<` and `>` must be escaped. The symbol `<` is represented as `&lt;`. The symbol `>` is represented as `&gt;`.|
 |Exists('`stringA`')|Evaluates to `true` if a file or folder with the name `stringA` exists.<br /><br /> For example:<br /><br /> `Condition="!Exists('$(Folder)')"`<br /><br /> Single quotes are not required for simple alphanumeric strings or boolean values. However, single quotes are required for empty values.|
 |HasTrailingSlash('`stringA`')|Evaluates to `true` if the specified string contains either a trailing backward slash (\\) or forward slash (/) character.<br /><br /> For example:<br /><br /> `Condition="!HasTrailingSlash('$(OutputPath)')"`<br /><br /> Single quotes are not required for simple alphanumeric strings or boolean values. However, single quotes are required for empty values.|
 |!|Evaluates to `true` if the operand evaluates to `false`.|
@@ -59,6 +60,15 @@ In MSBuild project files, there's no true Boolean type. Boolean data is represen
 Boolean logic is only evaluated in the context of conditions, so property settings such as `<Prop2>'$(Prop1)' == 'true'</Prop>` are represented as a string (after variable expansion), not evaluated as Boolean values.  
 
 MSBuild implements a few special processing rules to make it easier to work with string properties that are used as Boolean values. Boolean literals are accepted, so `Condition="true"` and `Condition="false"` work as expected. MSBuild also includes special rules to support the Boolean negation operator. So, if `$(Prop)` is 'true', `!$(Prop)` expands to `!true` and this compares equal to `false`, as you would expect.
+
+## Comparing versions
+
+The relational operators `<`, `>`, `<=`, and `>=` support versions as parsed by <xref:System.Version?displayProperty=fullName>, so you can compare versions that have four numeric parts to each other. For instance `'1.2.3.4' < '1.10.0.0'` is `true`.
+
+> [!CAUTION]
+> `System.Version` comparisons can produce surprising results when one or both versions do not specify all four parts. For instance, version 1.1 is older than version 1.1.0.
+
+MSBuild provides [property functions to compare versions](property-functions.md#msbuild-version-comparison-functions) that have a different set of rules compatible with semantic versioning (semver).
 
 ## See also
 

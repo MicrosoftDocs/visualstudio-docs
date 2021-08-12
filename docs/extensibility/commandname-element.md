@@ -3,7 +3,7 @@ title: CommandName Element | Microsoft Docs
 description: The CommandName element specifies the text that appears in the keyboard category in the Options dialog box and in the Commands list in the Customize dialog box.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - CommandName element (VSCT XML schema)
 - VSCT XML schema elements, CommandName
@@ -11,6 +11,7 @@ ms.assetid: a338b767-aa7e-4536-9908-e19a50ab60ac
 author: leslierichardson95
 ms.author: lerich
 manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---

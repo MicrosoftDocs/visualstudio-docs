@@ -1,12 +1,12 @@
 ---
 title: What are the subscription licensing terms and conditions?
-description: What are the subscription licensing terms and conditions for my Visual Studio subscription?
+description: Licensing terms and conditions for Visual Studio subscriptions
 ms.topic: include
 ms.assetid: 96c05bd0-044c-4791-9c33-6b89a0e6b087
 author: caitybuschlen
 ms.author: cabuschl
-ms.date: 08/14/2020
-user.type: subscriber
+ms.date: 06/01/2021
+user.type: subscriber, admin
 tags: licensing-terms
 subscription.type: vl, cloud, retail, partner
 sap.id: 95b201e2-f079-cb93-1693-3d40ee05b552
@@ -18,6 +18,6 @@ All Visual Studio subscriptions are licensed on a per-user basis. Each licensed 
 
 For more details, [view the Microsoft Visual Studio licensing whitepaper](https://visualstudio.microsoft.com/wp-content/uploads/2020/03/Visual-Studio-Licensing-Whitepaper-Mar-2020.pdf). 
 
-View the subscriptions available to you by checking the drop-down on [the benefits page in the subscriptions portal](https://my.visualstudio.com/benefits). 
+Subscribers can view subscriptions available to them by checking the drop-down on [the benefits page in the subscriptions portal](https://my.visualstudio.com/benefits). 
 
 [Read more about the benefits](https://visualstudio.microsoft.com/vs/benefits/) or [compare pricing and features](https://visualstudio.microsoft.com/vs/pricing/) included in Visual Studio subscriptions.

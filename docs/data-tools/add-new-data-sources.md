@@ -13,14 +13,15 @@ ms.assetid: ed28c625-bb89-4037-bfde-cfa435d182a2
 author: ghogen
 ms.author: ghogen
 manager: jmartens
+ms.technology: vs-data-tools
 ms.workload:
 - data-storage
 ---
 # Add new data sources
 
-:::moniker range="vs-2019"
+:::moniker range=">=vs-2019"
 > [!NOTE]
-> The features described in this article apply to .NET Framework Windows Forms and WPF development. In Visual Studio 2019 (and previous versions), the features are not supported for .NET Core development, for both WPF and Windows Forms.
+> The features described in this article apply to .NET Framework Windows Forms and WPF development. The features are not supported for .NET Core development, for both WPF and Windows Forms.
 :::moniker-end
 
 In the context of .NET data tools in Visual Studio, the term *data source* refers to .NET objects that connect to a data store and make the data available to a .NET application. The Visual Studio designers can consume the output of the data source to generate the boilerplate code that binds the data to forms when you drag and drop database objects from the **Data Sources** window. This kind of data source can be:

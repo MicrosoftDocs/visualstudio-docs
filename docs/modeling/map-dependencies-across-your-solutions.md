@@ -1,8 +1,8 @@
 ---
-title: Code maps
+title: Visualize dependencies with code maps
 description: Learn how code maps help you see how the code fits together without reading through files and lines of code.
 ms.custom: SEO-VS-2020
-ms.date: 05/16/2018
+ms.date: 05/16/2021
 ms.topic: how-to
 f1_keywords:
 - vs.progression.codemap
@@ -13,22 +13,22 @@ helpviewer_keywords:
 - code visualization [Visual Studio]
 - dependencies, visualizing
 - dependency graphs
-author: JoshuaPartlow
-ms.author: joshuapa
+author: mgoertz-msft
+ms.author: mgoertz
 manager: jmartens
+ms.technology: vs-ide-modeling
 ms.workload:
 - multiple
 ---
 # Map dependencies with code maps
 
-You can visualize dependencies across your code by creating a code map. Code maps help you see how the code fits together without reading through files and lines of code.
+In this article, you'll learn how to visualize dependencies across your code with code maps.
+
+## What are code maps?
+
+In Visual Studio, code maps help you more quickly see how your program code fits together without reading through files and lines of code.  With these maps, you can see the organization and relationships in your code, including its structure and its dependencies, how to update it, and estimate the cost of proposed changes.
 
 ![View dependencies with code maps in Visual Studio](../modeling/media/codemapsmainintro.png)
-
-To create and edit code maps, you need Visual Studio Enterprise edition. In Visual Studio Community and Professional editions, you can open diagrams that were generated in Enterprise edition, but you cannot edit them.
-
-> [!NOTE]
-> Before you share maps created in Visual Studio Enterprise with others who use Visual Studio Professional, make sure that all the items on the map (such as hidden items, expanded groups, and cross-group links) are visible.
 
 You can map dependencies for code in these languages:
 
@@ -41,21 +41,14 @@ You can map dependencies for code in these languages:
 > [!NOTE]
 > For projects other than C# or Visual Basic, there are fewer options for starting a code map or adding items to an existing code map. For example, you cannot right-click an object in the text editor of a C++ project and add it to a code map. However, you can drag and drop individual code elements or files from **Solution Explorer**, **Class View**, and **Object Browser**.
 
-## Install Code Map and Live Dependency Validation
+## Prerequisites
 
-To create a code map in Visual Studio, first install the **Code Map** and **Live Dependency Validation** components:
+To create a code map in Visual Studio, first [install the **Code Map** and **Live Dependency Validation** components](install-architecture-tools.md)
 
-1. Open **Visual Studio Installer**. You can open it from the Windows Start menu, or within Visual Studio by selecting **Tools** > **Get Tools and Features**.
+To create and edit code maps, you need **Visual Studio Enterprise edition**. However, in Visual Studio Community and Professional editions, you can open diagrams that were generated in Enterprise edition, but you cannot edit them.
 
-1. Select the **Individual components** tab.
-
-1. Scroll down to the **Code tools** section and select **Code Map** and **Live Dependency Validation**.
-
-   ![Code Map and Live Dependency Validation components in Visual Studio Installer](media/modeling-components.png)
-
-1. Select **Modify**.
-
-   The **Code Map** and **Live Dependency Validation** components begin installing. You may be asked to close Visual Studio.
+> [!NOTE]
+> Before you share maps created in Visual Studio Enterprise with others who use Visual Studio Professional, make sure that all the items on the map (such as hidden items, expanded groups, and cross-group links) are visible.
 
 ## Add a code map
 
@@ -75,6 +68,11 @@ To add an empty code map:
    A blank map appears in your solution's **Solution Items** folder.
 
 Similarly, you can create a new code map file without adding it to your solution by selecting **Architecture** > **New Code Map** or **File** > **New** > **File**.
+
+Learn more:
+- [Share code maps](share-code-maps.md)
+- [Create code maps for C++](code-maps-for-cpp.md)
+- [Improve code map performance](code-maps-performance.md)
 
 ## Generate a code map for your solution
 
@@ -148,7 +146,7 @@ Also see:
 - [Customize code maps by editing the DGML files](../modeling/customize-code-maps-by-editing-the-dgml-files.md)
 - Find potential problems in your code by [running an analyzer](../modeling/find-potential-problems-using-code-map-analyzers.md)
 
-## View specific dependencies in a code map
+## View dependencies
 
 Suppose you have a code review to perform in some files with pending changes. To see the dependencies in those changes, you can create a code map from those files.
 
@@ -234,6 +232,10 @@ Suppose you have a code review to perform in some files with pending changes. To
 
 ## See also
 
+- [Share code maps](share-code-maps.md)
+- [Create code maps for C++](code-maps-for-cpp.md)
+- [Improve code map performance](code-maps-performance.md)
+- [Video: Understand design from code with Visual Studio 2015 code maps](https://channel9.msdn.com/Events/Visual-Studio/Connect-event-2015/502)
 - [Video: Understand design from code with Visual Studio 2015 code maps](https://channel9.msdn.com/Events/Visual-Studio/Connect-event-2015/502)
 - [Use code maps to debug your applications](../modeling/use-code-maps-to-debug-your-applications.md)
 - [Map methods on the call stack while debugging](../debugger/map-methods-on-the-call-stack-while-debugging-in-visual-studio.md)

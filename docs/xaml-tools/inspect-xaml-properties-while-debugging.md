@@ -8,6 +8,7 @@ ms.assetid: 390edde4-7b8d-4c89-8d69-55106b7e6b11
 author: TerryGLee
 ms.author: tglee
 manager: jmartens
+ms.technology: vs-xaml-tools
 ms.workload:
   - "uwp"
 ---
@@ -29,7 +30,7 @@ Let's get started with a very simple WPF application that has a list view and a 
 
 ### Create the project
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 1. Create a new C# WPF application (**File** > **New** > **Project**, type "C# WPF", choose the **WPF Application** project template, name the project **TestXAML**, and then verify that **.NET Core 3.1** appears in the **Target Framework** drop-down.
 

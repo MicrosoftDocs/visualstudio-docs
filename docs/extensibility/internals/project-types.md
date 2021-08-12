@@ -3,7 +3,7 @@ title: Project Types | Microsoft Docs
 description: Visual Studio includes several project types for languages such as Visual C# and Visual Basic. Visual Studio also lets you create your own project types.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - project types, adding
 - projects [Visual Studio SDK], adding new types
@@ -11,6 +11,7 @@ ms.assetid: 263a084f-f97a-4e09-add7-f0e8a6a27daf
 author: leslierichardson95
 ms.author: lerich
 manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---

@@ -2,7 +2,7 @@
 description: "This function undoes a previous checkout operation, thereby restoring the contents of the selected file or files to the state prior to the checkout."
 title: SccUncheckout Function | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - SccUncheckout
 helpviewer_keywords:
@@ -11,6 +11,7 @@ ms.assetid: 6d498b70-29c7-44b7-ae1c-7e99e488bb09
 author: leslierichardson95
 ms.author: lerich
 manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---

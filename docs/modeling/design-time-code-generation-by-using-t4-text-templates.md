@@ -12,9 +12,10 @@ helpviewer_keywords:
 - text templates, getting started
 - Text Template project item
 - text templates, generating code for your application
-author: JoshuaPartlow
-ms.author: joshuapa
+author: mgoertz-msft
+ms.author: mgoertz
 manager: jmartens
+ms.technology: vs-ide-modeling
 ms.workload:
 - multiple
 ---

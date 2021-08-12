@@ -8,9 +8,10 @@ helpviewer_keywords:
 - text templates, syntax
 - text templates, guide
 - text templates, functions that generate text
-author: JoshuaPartlow
-ms.author: joshuapa
+author: mgoertz-msft
+ms.author: mgoertz
 manager: jmartens
+ms.technology: vs-ide-modeling
 ms.workload:
 - multiple
 ---

@@ -2,11 +2,13 @@
 title: R and Docker containers
 description: How to set up Docker containers for R and connect to them with Visual Studio.
 ms.date: 12/04/2017
+ms.prod: visual-studio-dev15
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb
 ms.reviewer: karthiknadig
 manager: jmartens
+ms.technology: vs-rtvs
 ms.workload:
   - data-science
 ---
@@ -48,7 +50,7 @@ The R Tools for Visual Studio (RTVS) version 1.3+, alongside an installation of 
 RTVS detects and allows management of containers created using custom-built images, such as the microsoft/rtvs image described in the docker file below. The base image used here has rtvs-daemon, R 3.4.2, and common R packages pre-installed. **Note**: change the username and password shown here as needed.
 
 ```docker
-FROM microsoft/rtvs:1.3-ub1604-r3.4.2
+FROM mcr.microsoft.com/rtvs:1.3-ub1604-r3.4.2
 RUN useradd --create-home ruser1
 RUN echo "ruser1:foobar" | chpasswd
 

@@ -4,8 +4,6 @@ description: Learn how to add a method to determine if the player won.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: tutorial
-ms.prod: visual-studio-windows
-ms.technology: vs-ide-general
 dev_langs: 
   - "CSharp"
   - "VB"
@@ -13,6 +11,7 @@ ms.assetid: 6e317f6e-ba4c-4306-8924-300b0c2f65c6
 author: j-martens
 ms.author: jmartens
 manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
   - "multiple"
 ---

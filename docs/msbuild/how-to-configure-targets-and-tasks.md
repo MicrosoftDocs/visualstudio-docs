@@ -8,12 +8,12 @@ ms.assetid: 92814100-392a-471d-96fd-e26f637d6cc2
 author: ghogen
 ms.author: ghogen
 manager: jmartens
+ms.technology: msbuild
 ms.workload:
 - multiple
 ---
 # How to: Configure targets and tasks
 
-Selected MSBuild tasks can be set to run in the environment they target, regardless of the environment of the development computer. For example, when you use a 64-bit computer to build an application that targets a 32-bit architecture, selected tasks are run in a 32-bit process.
 Selected MSBuild tasks can be set to run in the environment they target, regardless of the environment of the development computer. For example, when you use a 64-bit computer to build an application that targets a 32-bit architecture, selected tasks are run in a 32-bit process.
 
 > [!NOTE]

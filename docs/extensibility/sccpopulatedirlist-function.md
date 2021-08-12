@@ -2,7 +2,7 @@
 description: "This function determines which directories and (optionally) files are stored in source control, given a list of directories to examine."
 title: SccPopulateDirList Function | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - SccPopulateDirList
 helpviewer_keywords:
@@ -11,6 +11,7 @@ ms.assetid: dfff634b-b155-498b-a356-6eb252ac4fad
 author: leslierichardson95
 ms.author: lerich
 manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---

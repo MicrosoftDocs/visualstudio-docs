@@ -2,7 +2,7 @@
 description: "This function deletes files from the source control system."
 title: SccRemove Function | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - SccRemove
 helpviewer_keywords:
@@ -11,6 +11,7 @@ ms.assetid: 20830fdc-c0e9-4a5f-bf60-33f28874442f
 author: leslierichardson95
 ms.author: lerich
 manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---

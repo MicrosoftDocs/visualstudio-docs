@@ -19,6 +19,7 @@ ms.assetid: 06cd6d7f-8dc1-4e49-8a72-cc9e331d7bca
 author: ghogen
 ms.author: ghogen
 manager: jmartens
+ms.technology: msbuild
 ms.workload:
 - multiple
 ---
@@ -61,6 +62,8 @@ Condition=" '$(Something)|$(Configuration)|$(SomethingElse)' == 'xxx|Debug|yyy' 
     <AvailableItemName Include="JScript"/>
 </ItemGroup>
 ```
+
+Adding item type names to the `AvailableItemName` item type will cause items of that type to appear in **Solution Explorer**.
 
 > [!NOTE]
 > Some item type names are special to Visual Studio but not listed in this dropdown.

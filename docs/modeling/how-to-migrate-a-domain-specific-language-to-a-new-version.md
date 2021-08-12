@@ -3,9 +3,10 @@ title: "How to: Migrate a Domain-Specific Language project"
 description: Provides information about how to migrate a domain-specific language project to a more recent version of Visual Studio.
 ms.date: 11/04/2016
 ms.topic: how-to
-author: JoshuaPartlow
-ms.author: joshuapa
+author: mgoertz-msft
+ms.author: mgoertz
 manager: jmartens
+ms.technology: vs-ide-modeling
 ms.custom: SEO-VS-2020
 ms.workload:
   - "multiple"

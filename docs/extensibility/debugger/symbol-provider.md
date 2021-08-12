@@ -3,7 +3,7 @@ title: Symbol Provider | Microsoft Docs
 description: Learn about the symbol providers that Visual Studio supplies to enable an expression evaluator to evaluate variables and expressions.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - symbol handler
 - debugging [Debugging SDK], symbol handler
@@ -11,6 +11,7 @@ ms.assetid: 5fce651b-fead-4418-81b0-a011df7644ab
 author: leslierichardson95
 ms.author: lerich
 manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
 - vssdk
 ---

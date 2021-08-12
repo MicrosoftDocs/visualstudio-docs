@@ -1,5 +1,5 @@
 ---
-title: What&apos;s New in MSBuild 15 | Microsoft Docs
+title: What's New in MSBuild 15 | Microsoft Docs
 description: See changed, updated, and new features of MSBuild 15, available for the .NET Core SDK and for building .NET Core projects on Windows, macOS, and Linux.
 ms.custom: SEO-VS-2020
 ms.date: 03/01/2017
@@ -8,6 +8,7 @@ ms.assetid: 9976b6fd-d052-4017-b848-35b5bf4b2f66
 author: ghogen
 ms.author: ghogen
 manager: jmartens
+ms.technology: msbuild
 ms.workload:
 - multiple
 monikerRange: '>=vs-2017'

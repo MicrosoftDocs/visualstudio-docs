@@ -3,7 +3,7 @@ title: Groups Element | Microsoft Docs
 description: The Groups element contains entries that define the command groups of a VSPackage. This article includes an example.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - VSCT XML schema elements, Groups
 - Groups element (VSCT XML schema)
@@ -11,6 +11,7 @@ ms.assetid: 740ca4ec-79fa-4b98-8f9a-2a137f9f7f98
 author: leslierichardson95
 ms.author: lerich
 manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---

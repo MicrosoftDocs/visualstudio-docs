@@ -2,7 +2,7 @@
 description: "This function obtains status information for a set of selected files under source control."
 title: SccQueryInfo Function | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - SccQueryInfo
 helpviewer_keywords:
@@ -11,6 +11,7 @@ ms.assetid: 3973d336-a9b7-41a2-a4e6-bb8184a96aaf
 author: leslierichardson95
 ms.author: lerich
 manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---

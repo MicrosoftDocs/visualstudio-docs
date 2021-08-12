@@ -5,7 +5,7 @@ description: Learn how to edit the Docker Compose build properties to customize 
 ms.custom: SEO-VS-2020
 ms.author: ghogen
 ms.date: 04/06/2021
-ms.technology: vs-azure
+ms.technology: vs-container-tools
 ms.topic: reference
 ---
 # Docker Compose build properties
@@ -149,5 +149,7 @@ For information on MSBuild properties generally, see [MSBuild Properties](../msb
 [Container Tools build properties](container-msbuild-properties.md)
 
 [Container Tools launch settings](container-launch-settings.md)
+
+[Manage launch profiles for Docker Compose in Visual Studio](launch-profiles.md)
 
 [MSBuild reserved and well-known properties](../msbuild/msbuild-reserved-and-well-known-properties.md)

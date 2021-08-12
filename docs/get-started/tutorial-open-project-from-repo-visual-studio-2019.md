@@ -1,13 +1,13 @@
 ---
 title: "Tutorial: Open a project from a repo in Visual Studio 2019"
 description: "Learn how to open a project in a Git or Azure DevOps repository by using Visual Studio 2019."
-ms.custom: "get-started"
+ms.custom: "vs-acquisition, get-started"
 ms.date: 03/18/2021
 ms.technology: vs-ide-general
 ms.prod: visual-studio-windows
 ms.topic: tutorial
-author: TerryGLee
-ms.author: tglee
+author: anandmeg
+ms.author: meghaanand
 manager: jmartens
 dev_langs:
   - CSharp
