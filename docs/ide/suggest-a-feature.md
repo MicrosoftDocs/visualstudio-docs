@@ -22,18 +22,6 @@ You can also start a feature suggestion directly from Visual Studio by choosing 
 
 Choosing **Provide a Suggestion** takes you to [Developer Community](https://aka.ms/feedback/suggest?space=8), where you can enter your suggestion.
 
-## User Voice
-
-Until now, Visual Studio users proposed new feature ideas on User Voice. By adding the *Suggest a feature* functionality to Developer Community, all of your feedback for the Visual Studio product team is now in one place.
-
-The User Voice site has been made read-only. You can look back as you need to for context, but all new feature suggestions should be submitted on Developer Community.
-
-We migrated an initial set of ideas from the User Voice forum to Developer Community. Migration was done based on the community impact of the feedback and our product roadmap priorities. If you were expecting to see a suggestion here that we may have missed, feel free to add it to Developer Community.
-
-## Votes
-
-The voting system in Developer Community is different to User Voice. To maintain the integrity of Developer Community vote counts and to avoid skewing of votes, we show the User Voice vote counts prominently as a tag next to each feature suggestion. As you continue to vote on suggestions in the enhanced Developer Community, your new vote counts will show separately from the User Voice vote counts.
-
 ## Suggestion status
 
 After you submit a feature suggestion, states indicate where your feature submission is in its lifecycle. As we take your feedback into consideration and move it along the workflow, we tag it with the corresponding state. The various states associated with feature suggestions are listed here, along with a description of their meaning and color indicators.
@@ -102,32 +90,6 @@ Found the information we were looking for? You may request to reactivate the tic
 **Completed - Release** indicates that your new feature suggestion has been released in the latest product update. The Visual Studio update can be downloaded using the link provided in the comments.
 
 - - -
-
-## FAQ
-
-### Why can't I see my User Voice idea in Developer Community?
-
-New feature suggestions from the old User Voice forum have been migrated to Developer Community based on the impact to the broader community and our product road map priorities. If you think we've missed migrating your suggestion, add it as a new suggestion to Developer Community.
-
-### Why have the votes not been carried over from User Voice?
-
-The voting system in User Voice operates differently from the voting system in Developer Community. In the new system, we want to maintain the integrity of the vote counts and avoid skewing the data. We decided to show the User Voice vote counts prominently as a tag (instead of votes) for each suggestion. When users vote on suggest a feature submissions using Developer Community, the new votes will show separately from the User Voice votes.
-
-### Where can I see comments associated with the suggestions imported from User Voice?
-
-Follow the link we've included to go back to the User Voice comments on a suggestion that has been migrated to Developer Community. This link will be available during the transition period for easy reference if you need more context.
-
-### Why can I see three vote counts for a suggestion?
-
-When a suggestion has been imported from User Voice, you'll see three separate vote counts. The two vote counts shown as tags are the vote counts that the idea received originally on User Voice. The third vote count displayed to the left of the suggestion lets you see how many votes the suggestion is getting from Developer Community.
-
-The voting system in User Voice operates differently from the votes in Developer Community. To maintain integrity of Developer Community vote counts and avoid skewing the data, we decided to show the User Voice vote counts prominently as a tag (instead of votes) for each suggestion.
-
-### How long can I expect actions to take?
-
-We're fully committed to listening to your feature suggestions and taking actions to provide valuable experiences to our customers. Actions on suggestions are prioritized based on impact to the broader community. Even if we can't respond personally to every suggestion, we'll make sure that your feedback gets to the right team and is evaluated carefully.
-
-The response time depends on the status your feedback is in. Please review the explanation of statuses in this document to understand the response times.
 
 ## See also
 
