@@ -2,7 +2,7 @@
 title: "Tutorial: Create a simple C# console app "
 description: "Learn how to create a C# console app in Visual Studio, step-by-step."
 ms.custom: "vs-acquisition, get-started"
-ms.date: 02/10/2021
+ms.date: 08/12/2021
 ms.technology: vs-ide-general
 ms.prod: visual-studio-windows
 ms.topic: tutorial
@@ -98,7 +98,7 @@ If you don't see the **Console App (.NET Core)** project template, you can get i
 
    ![View the 'Create a new project' window](../../get-started/media/vs-2019/create-new-project-dark-theme.png)
 
-1. In the **Create a new project** window, choose **C#** from the Language list. Next, choose **Windows** from the Platform list and **Console** from the project types list. 
+1. In the **Create a new project** window, choose **C#** from the Language list. Next, choose **Windows** from the Platform list and **Console** from the project types list.
 
    After you apply the language, platform, and project type filters, choose the **Console Application** template, and then choose **Next**.
 
@@ -107,8 +107,8 @@ If you don't see the **Console App (.NET Core)** project template, you can get i
    > [!NOTE]
    > If you do not see the **Console Application** template, you can install it from the **Create a new project** window. In the **Not finding what you're looking for?** message, choose the **Install more tools and features** link.
    >
-   > ![The 'Install more tools and features' link from the 'Not finding what you're looking for' message in the 'Create new project' window](../../get-started/media/vs-2019/not-finding-what-looking-for.png) 
-   > 
+   > ![The 'Install more tools and features' link from the 'Not finding what you're looking for' message in the 'Create new project' window](../../get-started/media/vs-2019/not-finding-what-looking-for.png)
+   >
    > Then, in the Visual Studio Installer, choose the **.NET Core cross-platform development** workload.
    >
    > ![.NET Core cross-platform development workload in the Visual Studio Installer](./media/dot-net-core-xplat-dev-workload.png)
@@ -118,7 +118,7 @@ If you don't see the **Console App (.NET Core)** project template, you can get i
 1. In the **Configure your new project** window, type or enter *Calculator* in the **Project name** box. Then, choose **Next**.
 
     :::image type="content" source="./media/vs-2019/csharp-name-your-calculator-project.png" alt-text="in the 'Configure your new project' window, name your project 'Calculator'":::
-   
+
 1. In the **Additional information** window, **.NET Core 3.1** should already be selected for your target framework. If not, select **.NET Core 3.1**. Then, choose **Create**.
 
     :::image type="content" source="./media/vs-2019/csharp-target-framework.png" alt-text="in the 'In the 'Additional information' window, make sure .NET Core 3.1 is selected":::
@@ -355,7 +355,7 @@ Let's get started.
 
     namespace Calculator
     {
-        
+
     }
     ```
 
@@ -493,7 +493,7 @@ Let's get started.
 
 1. In Visual Studio, press **Ctrl**+**S** to save your app.
 
-1. Close Visual Studio.
+[!INCLUDE[../includes/git-source-control.md](../includes/git-source-control.md)]
 
 ## Review: code complete
 
