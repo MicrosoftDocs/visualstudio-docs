@@ -37,7 +37,7 @@ To associate your code with Git, you start by creating a new Git repository wher
 
     :::image type="content" source="../media/vs-2022/git-new-private-repo-status-details.png" alt-text="Screenshot of the repo status bar that's below the Solution Explorer pane in Visual Studio.":::
 
-    The first icon with the arrows shows how many outgoing/incoming commits are in your current branch. You can use this icon to pull any incoming commits or push any outgoing commits. You can also chose to view these commits first, too. To do so, click the icon, and then select **View Outgoing/Incoming**.
+    The first icon with the arrows shows how many outgoing/incoming commits are in your current branch. You can use this icon to pull any incoming commits or push any outgoing commits. You can also choose to view these commits first, too. To do so, click the icon, and then select **View Outgoing/Incoming**.
 
     The second icon with the pencil shows the number of uncommitted changes to your code. You can click this icon to view those changes in the **Git Changes** window.
 
