@@ -2,7 +2,7 @@
 title: "Tutorial: Get started with Visual Basic"
 description: "Learn how to create Visual Basic console apps in Visual Studio, step-by-step."
 ms.custom: "vs-acquisition,  get-started"
-ms.date: 02/10/2021
+ms.date: 08/13/2021
 ms.technology: vs-ide-general
 ms.prod: visual-studio-windows
 ms.topic: tutorial
@@ -93,8 +93,8 @@ If you don't see the **Console App (.NET Core)** project template, you can get i
    > [!NOTE]
    > If you do not see the **Console Application** template, you can install it from the **Create a new project** window. In the **Not finding what you're looking for?** message, choose the **Install more tools and features** link.
    >
-   > ![The 'Install more tools and features' link from the 'Not finding what you're looking for' message in the 'Create new project' window](../../get-started/media/vs-2019/not-finding-what-looking-for.png) 
-   > 
+   > ![The 'Install more tools and features' link from the 'Not finding what you're looking for' message in the 'Create new project' window](../../get-started/media/vs-2019/not-finding-what-looking-for.png)
+   >
    > Then, in the Visual Studio Installer, choose the **.NET Core cross-platform development** workload.
    >
    > ![.NET Core cross-platform development workload in the Visual Studio Installer](../../get-started/media/dot-net-core-xplat-dev-workload.png)
@@ -206,11 +206,11 @@ Let's create an app that prompts you for your name and then displays it along wi
 
     ![Console window showing the CalculateThis app, which includes prompts on which actions to take.](media/vb-console-calculate-this.png)
 
-::: moniker-end 
+::: moniker-end
 
 ::: moniker range=">=vs-2019"
 
-1. On the start window, choose **Create a new project**. 
+1. On the start window, choose **Create a new project**.
 
 1. In the **Create a new project** window, choose **Visual Basic** from the Language list. Next, choose **Windows** from the Platform list and **Console** from the project types list.
 
@@ -246,6 +246,8 @@ Let's create an app that prompts you for your name and then displays it along wi
     ![Console window showing the CalculateThis app, which includes prompts on which actions to take.](media/vb-console-calculate-this.png)
 
 ::: moniker-end
+
+[!INCLUDE[../includes/git-source-control.md](../includes/git-source-control.md)]
 
 ## Quick answers FAQ
 
