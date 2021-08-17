@@ -26,7 +26,7 @@ This refactoring applies to:
 
 **When:** You have renamed a file or type and haven't yet updated the corresponding file or type to match.
 
-**Why:** Placing a type in a file with a different name, or vice-versa, it difficult to find what you're looking for. By renaming either the type or filename, code becomes more readable and easier to navigate.
+**Why:** Placing a type in a file with a different name, or vice-versa, makes it difficult to find what you're looking for. By renaming either the type or filename, code becomes more readable and easier to navigate.
 
 > [!NOTE]
 > This refactoring is not yet available for .NET Standard and .NET Core projects.
