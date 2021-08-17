@@ -2,7 +2,7 @@
 title: Remove Visual Studio
 titleSuffix: ''
 description: Learn how to completely remove Visual Studio from your computer, step by step.
-ms.date: 12/19/2019
+ms.date: 08/17/2021
 ms.custom: seodec18
 ms.topic: how-to
 f1_keywords:
