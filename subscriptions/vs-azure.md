@@ -1,10 +1,10 @@
 ---
 title: Microsoft Azure benefit in Visual Studio subscriptions | Microsoft Docs
 author: evanwindom
-ms.author: v-evwin
+ms.author: cabuschl
 manager: cabuschl
 ms.assetid: 872c5746-5357-4764-949b-aa525a0adf1a
-ms.date: 06/07/2021
+ms.date: 08/17/2021
 ms.topic: how-to
 description:  Learn how to activate the Azure DevTest individual credit benefit included in your Visual Studio subscription.
 ---
@@ -58,7 +58,7 @@ Use the Eligibility table below to determine how many credits are included with 
 
 If you no longer need a Visual Studio subscription or credit but you want to continue using your Azure resources, [transfer your resources](/azure/azure-resource-manager/management/move-resource-group-and-subscription) to another Azure subscription, or convert your Azure subscription to pay-as-you-go pricing by [removing your spending limit](/azure/cost-management-billing/manage/spending-limit#remove-the-spending-limit-in-azure-portal). 
 
-If you don’t take one of these actions, your Azure subscription will be disabled and deleted 30 days after receiving the email notification.  
+If you don’t take one of these actions, your Azure subscription will be disabled at the time specified in your email notification.  If the subscription is disabled you can reenable it as a pay-as-you-go subscription by following [these steps](https://docs.microsoft.com/azure/cost-management-billing/manage/switch-azure-offer).
 
 ## Have a question?
 If you have questions about transferring resources, removing spending limits, or other Azure topics, you can [submit an Azure support request](https://portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/overview) in the Azure portal. 
