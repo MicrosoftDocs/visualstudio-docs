@@ -48,7 +48,7 @@ Here's how to run the `InstallCleanup.exe` tool:
 1. Enter the full path of the `InstallCleanup.exe` tool and add the command-line switch you prefer. By default, the path of the tool is as follows. The double quotes enclose a command containing spaces:
 
    ```shell
-   "C:\Program Files (x86)\Microsoft Visual Studio\Installer\resources\app\layout\InstallCleanup.exe"
+   "C:\Program Files (x86)\Microsoft Visual Studio\Installer\InstallCleanup.exe"
    ```
 
    > [!NOTE]
