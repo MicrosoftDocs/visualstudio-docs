@@ -22,7 +22,7 @@ In this introduction to the Visual Studio integrated development environment (ID
 ::: moniker range="vs-2017"
 If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download) page to install it for free.
 ::: moniker-end
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads) page to install it for free.
 ::: moniker-end
 
@@ -50,7 +50,7 @@ First, create a Universal Windows Platform project. The project type comes with 
    ![Accept the default Target version and Minimum version settings in the New Universal Windows Platform Project dialog box](media/new-uwp-project-target-minver-dialog.png)
 ::: moniker-end
 
-::: moniker range=">=vs-2019"
+::: moniker range="vs-2019"
 1. Open Visual Studio, and on the start window, choose **Create a new project**.
 
 1. On the **Create a new project** screen, enter *Universal Windows* in the search box, choose the C# template for **Blank App (Universal Windows)**, and then choose **Next**.
@@ -69,6 +69,26 @@ First, create a Universal Windows Platform project. The project type comes with 
    ![Accept default Target version and Minimum version settings in the New Universal Windows Platform Project dialog box](media/vs-2019/new-uwp-project-target-minver-dialog.png)
 ::: moniker-end
 
+::: moniker range=">=vs-2022"
+1. Open Visual Studio, and on the start window, choose **Create a new project**.
+
+1. On the **Create a new project** screen, enter *Universal Windows* in the search box, choose the C# template for **Blank App (Universal Windows)**, and then choose **Next**.
+
+   :::image type="content" source="media/tutorial-uwp/vs-2022/uwp-create-new-project.png" alt-text="Screenshot of the 'Create a new project' dialog with 'Universal Windows' entered in the search box, and the 'Blank App (Universal Windows)' project template highlighted.":::
+
+   > [!NOTE]
+   > If you don't see the **Blank App (Universal Windows)** project template, click the **Install more tools and features** link.<br><br>:::image type="content" source="media/tutorial-uwp/vs-2022/uwp-not-finding.png" alt-text="Screenshot of the Create a new project window showing the 'Install more tools and features' link.":::<br><br>The Visual Studio Installer launches. Choose the **Universal Windows Platform development** workload, and then select **Modify**.<br><br>:::image type="content" source="media/tutorial-uwp/vs-2022/uwp-dev-workload.png" alt-text="Screenshot of the Visual Studio Installer showing the Universal Windows Platform development workload.":::
+
+1. Give the project a name, *HelloWorld*, and choose **Create**.
+
+   :::image type="content" source="media/tutorial-uwp/vs-2022/uwp-configure-your-project.png" alt-text="Configure your project screen.":::
+
+1. Accept the default **Target version** and **Minimum version** settings in the **New Universal Windows Platform Project** dialog box.
+
+   :::image type="content" source="media/tutorial-uwp/vs-2022/new-uwp-project-target-minver-dialog.png" alt-text="Accept default Target version and Minimum version settings in the New Universal Windows Platform Project dialog box.":::
+
+::: moniker-end
+
    > [!NOTE]
    > If this is the first time you have used Visual Studio to create a UWP app, a **Settings** dialog box might appear. Choose **Developer mode**, and then choose **Yes**.<br><br>
    > ![Enable the Developer Mode in the UWP Settings dialog box](media/enable-developer-mode.png)<br><br>Visual Studio installs an additional Developer Mode package for you. When the package installation is complete, close the **Settings** dialog box.
@@ -84,7 +104,7 @@ It's time to start developing. You'll add a button control, add an action to the
    ::: moniker range="vs-2017"
    ![Open MainPage.xaml from the Solution Explorer ](media/uwp-solution-explorer-MainPage-xaml.png)
    ::: moniker-end
-   ::: moniker range=">=vs-2019"
+   ::: moniker range="vs-2019"
    ![Open MainPage.xaml from the Solution Explorer](media/vs-2019/uwp-solution-explorer-mainpage-xaml.png)
    ::: moniker-end
 
@@ -109,6 +129,13 @@ It's time to start developing. You'll add a button control, add an action to the
    If you look at the code in the **XAML Editor**, you'll see that the Button has been added there, too:
 
    ![Show button in XAML editor](media/uwp-xaml-control-code-window.png)
+
+::: moniker range=">=vs-2022"
+
+
+   :::image type="content" source="media/tutorial-uwp/vs-2022/uwp-solution-explorer-mainpage-xaml.png" alt-text="Open MainPage.xaml from the Solution Explorer.":::  
+
+::: moniker-end
 
 ### Add a label to the button
 
