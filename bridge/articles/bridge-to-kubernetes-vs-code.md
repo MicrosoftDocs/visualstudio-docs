@@ -4,6 +4,7 @@ ms.author: ghogen
 author: ghogen
 manager: jmartens
 ms.technology: bridge
+ms.custom: "contperf-fy22q1"
 title: Use Bridge to Kubernetes to run and debug locally with Kubernetes
 ms.date: 04/14/2021
 description: Learn how to use Bridge to Kubernetes to connect your development computer to a Kubernetes cluster and use local tunnel debugging to debug Kubernetes services on your local machine.
