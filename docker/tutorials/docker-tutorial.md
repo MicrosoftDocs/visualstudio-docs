@@ -6,6 +6,7 @@ author: nebuk89
 ms.author: ghogen
 manager: jmartens
 ms.technology: vs-docker
+ms.custom: "contperf-fy22q1"
 ms.topic: tutorial
 ms.workload:
   - "azure"
