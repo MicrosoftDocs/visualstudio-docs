@@ -5,7 +5,7 @@ author: TerryGLee
 ms.author: tglee
 manager: jmartens
 ms.technology: vs-ide-general
-ms.date: 07/22/2021
+ms.date: 08/18/2021
 ms.topic: reference
 f1_keywords:
  - VS.ToolsOptionsPages.Environment.PathTrustOptions
@@ -24,7 +24,7 @@ In Visual Studio 2022 (Preview 2), we've revamped the Trust Settings functionali
 
 :::image type="content" source="media/vs-2022/trusted-settings-warning-message.png" alt-text="Screenshot of the Trust Settings warning message":::
 
-We'll add more information here as we continue to update the feature. Stay tuned!
+We'll add more information to this page as we continue to update the feature. Meanwhile, for the latest news, take a look at our recent blog post, [Improving developer security with Visual Studio 2022](https://devblogs.microsoft.com/visualstudio/improving-developer-security-with-visual-studio-2022/).
 
 ::: moniker-end
 
@@ -36,7 +36,7 @@ Visual Studio prompts for user approval before opening projects that have the [M
 > You should still ensure that the file, folder, or solution comes from a trusted person or a trusted location before approving it.
 
 > [!NOTE]
-> In Visual Studio 2022 (Preview), we've revamped the Trust Settings functionality to show a warning whenever untrusted code in files, folders, projects, and solutions are about to be opened in the IDE. To learn more, see the "Trusted Locations" section of the [Visual Studio 2022 Preview release notes](/visualstudio/releases/2022/release-notes-preview#trustedlocations-170P2).
+> In Visual Studio 2022 (Preview), we've revamped the Trust Settings functionality to show a warning whenever untrusted code in files, folders, projects, and solutions are about to be opened in the IDE. To learn more, see the "Trusted Locations" section of the [Visual Studio 2022 Preview release notes](/visualstudio/releases/2022/release-notes-preview#trustedlocations-170P2), and the recent [Improving developer security with Visual Studio 2022](https://devblogs.microsoft.com/visualstudio/improving-developer-security-with-visual-studio-2022/) blog post.
 
 ## Configure trust settings
 
