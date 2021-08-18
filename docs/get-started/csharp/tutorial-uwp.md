@@ -99,14 +99,11 @@ It's time to start developing. You'll add a button control, add an action to the
 
 ### Add a button to the Design canvas
 
+::: moniker range="vs-2017"
+
 1. In the **Solution Explorer**, double-click *MainPage.xaml* to open a split view.
 
-   ::: moniker range="vs-2017"
    ![Open MainPage.xaml from the Solution Explorer ](media/uwp-solution-explorer-MainPage-xaml.png)
-   ::: moniker-end
-   ::: moniker range="vs-2019"
-   ![Open MainPage.xaml from the Solution Explorer](media/vs-2019/uwp-solution-explorer-mainpage-xaml.png)
-   ::: moniker-end
 
    There are two panes: The **XAML Designer**, which includes a design canvas, and the **XAML Editor**, where you can add or change code.
 
@@ -130,11 +127,66 @@ It's time to start developing. You'll add a button control, add an action to the
 
    ![Show button in XAML editor](media/uwp-xaml-control-code-window.png)
 
+::: moniker-end
+
+::: moniker range="vs-2019
+
+1. In the **Solution Explorer**, double-click *MainPage.xaml* to open a split view.
+
+   ![Open MainPage.xaml from the Solution Explorer](media/vs-2019/uwp-solution-explorer-mainpage-xaml.png)
+
+   There are two panes: The **XAML Designer**, which includes a design canvas, and the **XAML Editor**, where you can add or change code.
+
+   ![The XAML Designer pane in the XAML editor](media/uwp-xaml-editor.png)
+
+1. Choose **Toolbox** to open the Toolbox fly-out window.
+
+   ![Click Toolbox to open the Toolbox fly-out window](media/uwp-toolbox.png)
+
+   (If you don't see the **Toolbox** option, you can open it from the menu bar. To do so, choose **View** > **Toolbar**. Or, press **Ctrl**+**Alt**+**X**.)
+
+1. Click the **Pin** icon to dock the Toolbox window.
+
+   ![Click the Pin icon to dock the Toolbox window](media/uwp-toolbox-autohide.png)
+
+1. Click the **Button** control and then drag it onto the design canvas.
+
+   ![Click the Button control and drag it onto the Design canvas](media/uwp-toolbox-add-button-control.png)
+
+   If you look at the code in the **XAML Editor**, you'll see that the Button has been added there, too:
+
+   ![Show button in XAML editor](media/uwp-xaml-control-code-window.png)
+
+::: moniker-end
+
 ::: moniker range=">=vs-2022"
 
+1. In the **Solution Explorer**, double-click *MainPage.xaml* to open a split view.
 
    :::image type="content" source="media/tutorial-uwp/vs-2022/uwp-solution-explorer-mainpage-xaml.png" alt-text="Open MainPage.xaml from the Solution Explorer.":::  
 
+   There are two panes: The **XAML Designer**, which includes a design canvas, and the **XAML Editor**, where you can add or change code.
+
+   :::image type="content" source="media/tutorial-uwp/vs-2022/uwp-xaml-editor.png" alt-text="The XAML Designer pane in the XAML editor.":::
+
+1. Choose **Toolbox** to open the Toolbox fly-out window.
+
+   :::image type="content" source="media/tutorial-uwp/vs-2022/uwp-toolbox.png" alt-text="Click Toolbox to open the Toolbox fly-out window.":::
+
+   (If you don't see the **Toolbox** option, you can open it from the menu bar. To do so, choose **View** > **Toolbar**. Or, press **Ctrl**+**Alt**+**X**.)
+
+1. Click the **Pin** icon to dock the Toolbox window.
+
+   :::image type="content" source="media/tutorial-uwp/vs-2022/uwp-toolbox-autohide.png" alt-text="Click the Pin icon to dock the Toolbox window.":::
+
+1. Click the **Button** control and then drag it onto the design canvas.
+
+   :::image type="content" source="media/tutorial-uwp/vs-2022/uwp-toolbox-add-button-control.png" alt-text="Click the Button control and drag it onto the Design canvas.":::
+
+   If you look at the code in the **XAML Editor**, you'll see that the Button has been added there, too:
+
+   :::image type="content" source="media/tutorial-uwp/vs-2022/uwp-xaml-control-code-window.png" alt-text="Show button in XAML editor.":::
+ 
 ::: moniker-end
 
 ### Add a label to the button
