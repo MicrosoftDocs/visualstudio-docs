@@ -225,7 +225,7 @@ public static string GetColorBaseKey(int vsSysColor);
 public static bool TryGetColorIDFromBaseKey(string baseKey, out int vsSysColor);
 ```
 
-The methods of `VsColors` class query the VSColor service to return the color value each time they are invoked. To obtain a color value as `System.Drawing.Color`, an alternative with better performance is to instead use the methods of the `Microsoft.VisualStudio.PlatformUI.VSThemeColor` class, which caches the color values obtained from the VSColor service. The class subscribes internally to shell broadcast messages events, and discards the cached value when a theme changing event occurs. Also, the class provides a .NET-friendly event to subscribe to theme changes. Use the `ThemeChanged` event to add a new handler, and use the `GetThemedColor()` method to obtain color values for the `ThemeResourceKeys` of interest. A sample code could look like this:
+The methods of `VsColors` class query the VSColor service to return the color value each time they are invoked. To obtain a color value as `System.Drawing.Color`, an alternative with better performance is to instead use the methods of the `Microsoft.VisualStudio.PlatformUI.VSColorTheme` class, which caches the color values obtained from the VSColor service. The class subscribes internally to shell broadcast messages events, and discards the cached value when a theme changing event occurs. Also, the class provides a .NET-friendly event to subscribe to theme changes. Use the `ThemeChanged` event to add a new handler, and use the `GetThemedColor()` method to obtain color values for the `ThemeResourceKeys` of interest. A sample code could look like this:
 
 ```csharp
 public MyWindowPanel()
