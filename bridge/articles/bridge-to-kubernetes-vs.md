@@ -1,6 +1,7 @@
 ---
 title: "Tutorial: Connect development machines with Bridge to Kubernetes"
 ms.technology: bridge
+ms.custom: "contperf-fy22q1"
 ms.date: 03/24/2021
 ms.topic: "tutorial"
 description: "Connect your development computer to a Kubernetes cluster with Bridge to Kubernetes with Visual Studio."
