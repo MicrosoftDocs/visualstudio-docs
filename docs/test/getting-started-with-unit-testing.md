@@ -53,12 +53,19 @@ This section describes how to create a unit test project.
 
 1. In **Solution Explorer**, select the solution node. Then, from the top menu bar, select **File** > **Add** > **New Project**.
 
-1. In the new project dialog box, find a unit test project template for the test framework you want to use, such as MSTest (C#) or the **Native Unit Test** project (C++), and select it.
+1. In the new project dialog box, find the unit test project to use.
 
-   Starting in Visual Studio 2017 version 14.8, the .NET languages include built-in templates for NUnit and xUnit. For C++, in this example select the **Native Unit Test** project, which uses Microsoft Native Unit Test Framework. (To use a different C++ test frameworks, see [Writing unit tests for C/C++](../test/writing-unit-tests-for-c-cpp.md)). For Python, see [Set up unit testing in Python code](../python/unit-testing-python-in-visual-studio.md) to set up your test project.
+   ::: moniker range=">=vs-2019"
+   Type **test** in the search box to find a unit test project template for the test framework you want to use, such as MSTest (C#) or the **Native Unit Test** project (C++), and select it.
+   ::: moniker-end
+   ::: moniker range="vs-2017"
+   Expand the **Installed** node, choose the language that you want to use for your test project, and then choose **Test**.
+   ::: moniker-end
+
+   Starting in Visual Studio 2017 version 14.8, the .NET languages include built-in templates for NUnit and xUnit. For C++, in this example select the **Native Unit Test** project, which uses Microsoft Native Unit Test Framework. (To use a different C++ test framework, see [Writing unit tests for C/C++](../test/writing-unit-tests-for-c-cpp.md)). For Python, see [Set up unit testing in Python code](../python/unit-testing-python-in-visual-studio.md) to set up your test project.
 
    > [!TIP]
-   > For C# only, you can create unit test projects from code using a faster method. For more information, see [Create unit test projects and test methods](../test/unit-test-basics.md#create-unit-test-projects-and-test-methods). To use this method with .NET Core or .NET Standard, Visual Studio 2019 is required.
+   > For C# only, you can create unit test projects from code using a faster method. For more information, see [Create unit test projects and test methods](../test/unit-test-basics.md#create-unit-test-projects-and-test-methods-c). To use this method with .NET Core or .NET Standard, Visual Studio 2019 is required.
 
    The following illustration shows an MSTest unit test, which is supported in .NET.
 
@@ -82,7 +89,7 @@ This section describes how to create a unit test project.
 
    ![Unit test project in Solution Explorer](media/vs-2019/solution-explorer.png)
 
-1. In the unit test project, add a reference to the project you want to test by right-clicking on **References** or **Dependencies** and then choosing **Add Reference**.
+1. In the unit test project, add a reference to the project you want to test by right-clicking on **References** or **Dependencies** and then choosing **Add Reference** or **Add Project Reference**.
 
 1. Select the project that contains the code you'll test and click **OK**.
 
@@ -90,7 +97,7 @@ This section describes how to create a unit test project.
 
 1. Add code to the unit test method.
 
-   For example, you might use the following code by selecting the correct documentation tab that matches your test framework: MSTest, NUnit, or xUnit (supported on .NET only), or C++ Microsoft Unit Testing Framework.
+   For example, you might use the following code by selecting the correct documentation tab that matches your test framework: MSTest, NUnit, or xUnit (supported on .NET only), or C++ Microsoft Native Unit Test Framework.
 
    ### [MSTest](#tab/mstest)
 
