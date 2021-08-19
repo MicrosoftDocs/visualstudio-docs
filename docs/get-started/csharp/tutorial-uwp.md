@@ -199,6 +199,18 @@ It's time to start developing. You'll add a button control, add an action to the
 
    ![The button changes to Hello World on the design canvas](media/uwp-button-text-change-in-design-canvas.png)
 
+::: moniker range=">=vs-2022"
+
+1. In the **XAML Editor**, change Button Content value from "Button" to "Hello World!"
+
+   :::image type="content" source="media/tutorial-uwp/vs-2022/uwp-change-button-text-in-xaml-code-window.png" alt-text="Change the Button content value to Hello World.":::
+
+1. Notice that the button in the **XAML Designer** changes, too.
+
+   :::image type="content" source="media/tutorial-uwp/vs-2022/uwp-button-text-change-in-design-canvas.png" alt-text="The button changes to Hello World on the design canvas.":::
+
+::: moniker-end
+
 ### Add an event handler
 
 An "event handler" sounds complicated, but it's just another name for code that is called when an event happens. In this case, it adds an action to the "Hello World!" button.
