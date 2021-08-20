@@ -32,8 +32,11 @@ The specialized **Coded UI Test Builder** and editor make it easy to create and 
 
 ## Requirements
 
-- Visual Studio Enterprise
+- Visual Studio Enterprise 2019*
 - Coded UI test component
+
+   > [!NOTE]
+   > * Visual Studio 2019 is the last version to provide test creation via the recorder. Only basic minimal support for Coded UI Test is available in Visual Studio 2022.
 
 For more information about which platforms and configurations are supported by Coded UI tests, see [Supported platforms](../test/supported-configurations-and-platforms-for-coded-ui-tests-and-action-recordings.md).
 
