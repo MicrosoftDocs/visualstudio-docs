@@ -17,14 +17,20 @@
           "LICENSE",
           "LICENSE-CODE",
           "ThirdPartyNotices.md"
-        ]
+        ],
+        "src": "articles",
+        "dest": "."
       }
     ],
     "resource": [
       {
+        "src": "articles",
+        "dest": ".",
         "files": [
           "**/*.png",
-          "**/*.jpg"
+          "**/*.jpg",
+          "**/*.svg",
+          "**/*.gif"
         ],
         "exclude": [
           "**/obj/**",
@@ -41,7 +47,8 @@
     "globalMetadata": {
       "breadcrumb_path": "/visualstudio/bridge/breadcrumb/toc.json",
       "extendBreadcrumb": true,
-      "feedback_system": "None"
+      "feedback_system": "GitHub",
+      "ms.prod": "visual-studio-family"
     },
     "fileMetadata": {},
     "template": [],

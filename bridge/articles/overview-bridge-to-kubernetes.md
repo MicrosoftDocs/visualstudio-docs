@@ -1,11 +1,11 @@
 ---
 title: "How Bridge to Kubernetes works"
-ms.technology: vs-container-tools
+ms.technology: bridge
+ms.custom: "contperf-fy22q1"
 ms.date: 11/19/2020
 ms.topic: "conceptual"
 description: "Describes the processes for using Bridge to Kubernetes to connect your development computer to your Kubernetes cluster"
 keywords: "Bridge to Kubernetes, Docker, Kubernetes, Azure, containers"
-monikerRange: ">=vs-2019"
 manager: jmartens
 author: ghogen
 ms.author: ghogen
@@ -19,6 +19,8 @@ Bridge to Kubernetes avoids having to build and deploy your code to your cluster
 
 Bridge to Kubernetes redirects traffic between your connected Kubernetes cluster and your development computer. This traffic redirection allows code on your development computer and services running in your Kubernetes cluster to communicate as if they are in the same Kubernetes cluster. Bridge to Kubernetes also provides a way to replicate environment variables and mounted volumes available to pods in your Kubernetes cluster in your development computer. Providing access to environment variables and mounted volumes on your development computer allows you to quickly work on your code without having replicate those dependencies manually.
 
+In Visual Studio Code, Bridge to Kubernetes supports all languages as long as you can run them locally. In Visual Studio, Bridge to Kubernetes supports .NET Core; .NET Framework is not supported because it requires Windows nodes support, which Bridge to Kubernetes doesn't have.
+
 > [!WARNING]
 > Bridge to Kubernetes is intended for use in development and testing scenarios only. It is not intended or supported for use with production clusters or live services in active use.
 
@@ -26,7 +28,7 @@ Information about the currently supported features and a future roadmap for Brid
 
 ## Using Bridge to Kubernetes
 
-To use Bridge to Kubernetes in Visual Studio, you need [Visual Studio 2019][visual-studio] version 16.7 Preview 4 or greater running on Windows 10 with the *ASP.NET and web development* workload installed and the [Bridge to Kubernetes Extension][btk-extension] installed. When you use Bridge to Kubernetes to establish a connection to your Kubernetes cluster, you have the option of redirecting all traffic to and from an existing pod in the cluster to your development computer.
+To use Bridge to Kubernetes in Visual Studio, you need VS Code with the [Bridge to Kubernetes extension](https://aka.ms/bridge-to-k8s-vsc-extension) installed, or [Visual Studio 2019][visual-studio] version 16.7 Preview 4 or greater running on Windows 10 with the *ASP.NET and web development* workload installed and the [Bridge to Kubernetes Extension][btk-extension] installed. When you use Bridge to Kubernetes to establish a connection to your Kubernetes cluster, you have the option of redirecting all traffic to and from an existing pod in the cluster to your development computer.
 
 > [!NOTE]
 > When using Bridge to Kubernetes, you are prompted for the name of the service to redirect to your development computer. This option is a convenient way to identify a pod for redirection. All redirection between your Kubernetes cluster and your development computer is for a pod.
@@ -80,11 +82,11 @@ The routing manager does the following when it starts up:
 
 The following diagram shows a Kubernetes cluster before Bridge to Kubernetes connects to your cluster:
 
-![Diagram of cluster without Bridge to Kubernetes](media/bridge-to-kubernetes/kubr-cluster.svg)
+![Diagram of cluster without Bridge to Kubernetes](media/bridge-to-kubernetes/kubernetes-cluster.svg)
 
 The following diagram shows the same cluster with Bridge to Kubernetes enabled in isolation mode. Here, you can see the duplicate service and the envoy pods that support routing in isolation.
 
-![Diagram of cluster with Bridge to Kubernetes enabled](media/bridge-to-kubernetes/kubr-cluster-devcomputer.svg)
+![Diagram of cluster with Bridge to Kubernetes enabled](media/bridge-to-kubernetes/kubernetes-cluster-dev-computer.svg)
 
 When a request with the *GENERATED_NAME* subdomain is received on the cluster, a *kubernetes-route-as=GENERATED_NAME* header is added to the request. The envoy pods handle routing that request to the appropriate service in the cluster. If the request is routed to the service that is being worked on in isolation, that request is redirected to your development computer by the remote agent.
 
@@ -153,7 +155,7 @@ You can't use Bridge to Kubernetes on a cluster with Azure Dev Spaces enabled. I
 
 ## Next steps
 
-To get started using Bridge to Kubernetes to connect to your local development computer to your cluster, see [Use Bridge to Kubernetes](bridge-to-kubernetes.md).
+To get started using Bridge to Kubernetes to connect to your local development computer to your cluster, see [Use Bridge to Kubernetes (VS)](bridge-to-kubernetes-vs.md) or [Use Bridge to Kubernetes (VS Code)](bridge-to-kubernetes-vs-code.md).
 
 [asp-net-header]: https://www.nuget.org/packages/Microsoft.AspNetCore.HeaderPropagation/
 [azds-cli]: /azure/dev-spaces/how-to/install-dev-spaces#install-the-client-side-tools

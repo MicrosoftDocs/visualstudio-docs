@@ -1,10 +1,10 @@
 ---
 title: "How to use managed identity with Bridge to Kubernetes"
-ms.technology: vs-container-tools
+ms.technology: bridge
+ms.custom: "contperf-fy22q1"
 ms.date: 04/28/2021
 ms.topic: "conceptual"
 description: "Learn how to use Azure Active Directory (Azure AD) managed identity in an AKS cluster with Bridge to Kubernetes"
-monikerRange: ">=vs-2019"
 manager: jmartens
 author: ghogen
 ms.author: ghogen
@@ -29,7 +29,7 @@ If you don't have a *KubernetesLocalConfig.yaml* file, you can create one; see [
 
 ## How to fetch the Azure Active Directory tokens
 
-You must ensure that you are relying on either <xref:Azure.Identity.DefaultAzureCredential> or <xref:Azure.Identity.ManagedIdentityCredential> in code when fetching the token.
+You must ensure that you are relying on either `Azure.Identity.DefaultAzureCredential` or `Azure.Identity.ManagedIdentityCredential` in code when fetching the token.
 
 The following C# code shows how to fetch storage account credentials when you use `ManagedIdentityCredential`:
 

@@ -1,11 +1,11 @@
 ---
 title: "Tutorial: Connect development machines with Bridge to Kubernetes"
-ms.technology: vs-container-tools
+ms.technology: bridge
+ms.custom: "contperf-fy22q1"
 ms.date: 03/24/2021
 ms.topic: "tutorial"
 description: "Connect your development computer to a Kubernetes cluster with Bridge to Kubernetes with Visual Studio."
 keywords: "Bridge to Kubernetes, Azure Dev Spaces, Dev Spaces, Docker, Kubernetes, Azure, containers"
-monikerRange: ">=vs-2019"
 ms.author: ghogen
 author: ghogen
 manager: jmartens

@@ -2,7 +2,7 @@
 title: Remove Visual Studio
 titleSuffix: ''
 description: Learn how to completely remove Visual Studio from your computer, step by step.
-ms.date: 12/19/2019
+ms.date: 08/17/2021
 ms.custom: seodec18
 ms.topic: how-to
 f1_keywords:
@@ -48,7 +48,7 @@ Here's how to run the `InstallCleanup.exe` tool:
 1. Enter the full path of the `InstallCleanup.exe` tool and add the command-line switch you prefer. By default, the path of the tool is as follows. The double quotes enclose a command containing spaces:
 
    ```shell
-   "C:\Program Files (x86)\Microsoft Visual Studio\Installer\resources\app\layout\InstallCleanup.exe"
+   "C:\Program Files (x86)\Microsoft Visual Studio\Installer\InstallCleanup.exe"
    ```
 
    > [!NOTE]

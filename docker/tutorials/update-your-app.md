@@ -1,10 +1,12 @@
 ---
 title: "Docker tutorial - Part 3: Update your app"
 description: Describes how to update a Docker app.
-ms.date: "08/04/2020"
+ms.date: "08/06/2021"
 author: nebuk89
 ms.author: ghogen
 manager: jmartens
+ms.technology: vs-docker
+ms.custom: "contperf-fy22q1"
 
 ms.topic: conceptual
 ms.workload:

@@ -1,0 +1,69 @@
+## YamlMime:Landing
+title: Bridge to Kubernetes
+metadata:
+  title: Bridge to Kubernetes documentation
+  description: 'Learn how to run, test and debug Kubernetes services locally and in isolation, with example code, tutorials, and more.'
+  author: ghogen
+  manager: jmartens
+  ms.topic: landing-page
+  ms.date: 07/25/2021
+  ms.author: ghogen
+  ms.technology: bridge
+  ms.custom: "contperf-fy22q1"
+
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
+
+landingContent:
+# Cards and links should be based on top customer tasks or top subjects
+# Start card title with a verb
+  # Card (optional)
+  - title: Bridge to Kubernetes
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: Overview
+            url: overview-bridge-to-kubernetes.md
+  - title: Get started
+    linkLists:
+      - linkListType: quickstart
+        links:
+          - text: Bridge to Kubernetes in Visual Studio
+            url: bridge-to-kubernetes-vs.md
+          - text: Bridge to Kubernetes in VS Code
+            url: bridge-to-kubernetes-vs-code.md
+          - text: Bridge to Kubernetes with AKS
+            url: bridge-to-kubernetes-aks.md
+          - text: Bridge to Kubernetes (Sample)
+            url: bridge-to-kubernetes-sample.md
+
+  # Card
+
+  - title: Work in Visual Studio
+    linkLists:
+      - linkListType: quickstart
+        links:
+          - text: Bridge to Kubernetes in Visual Studio
+            url: bridge-to-kubernetes-vs.md
+      
+      - linkListType: how-to-guide
+        links:
+          - text: Configure Bridge to Kubernetes
+            url: configure-bridge-to-kubernetes.md
+
+  - title: Work in VS Code
+    linkLists:
+      - linkListType: quickstart
+        links:
+          - text: Bridge to Kubernetes in VS Code
+            url: bridge-to-kubernetes-vs-code.md
+          - text: Bridge to Kubernetes with AKS
+            url: bridge-to-kubernetes-aks.md
+          - text: Sample
+            url: bridge-to-kubernetes-sample.md
+
+      - linkListType: how-to-guide
+        links:
+          - text: 'How to: Debug services in parallel'
+            url: parallel-services.md
+          - text: 'How to: Use Kubernetes environment variables'
+            url: kubernetes-environment-variables.md
