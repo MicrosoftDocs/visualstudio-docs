@@ -68,8 +68,8 @@ The following animation shows two developers working on the same cluster in isol
 When you enable working in isolation, Bridge to Kubernetes does the following in addition to connecting to your Kubernetes cluster:
 
 * Verifies Kubernetes cluster does not have Azure Dev Spaces enabled.
-* Replicates your chosen service in the cluster in the same namespace and adds a *routing.visualstudio.io/route-from=SERVICE_NAME* label and *routing.visualstudio.io/route-on-header=kubernetes-route-as: GENERATED_NAME* annotation.
-* Configures and starts the routing manager in the same namespace on the Kubernetes cluster. The routing manager uses a label selector to look for the *routing.visualstudio.io/route-from=SERVICE_NAME* label and  *routing.visualstudio.io/route-on-header=kubernetes-route-as: GENERATED_NAME* annotation when configuring routing in your namespace.
+* Replicates your chosen service in the cluster in the same namespace and adds a *routing.visualstudio.io/route-from=SERVICE_NAME* label and *routing.visualstudio.io/route-on-header=kubernetes-route-as=GENERATED_NAME* annotation.
+* Configures and starts the routing manager in the same namespace on the Kubernetes cluster. The routing manager uses a label selector to look for the *routing.visualstudio.io/route-from=SERVICE_NAME* label and  *routing.visualstudio.io/route-on-header=kubernetes-route-as=GENERATED_NAME* annotation when configuring routing in your namespace.
 
 If Bridge to Kubernetes detects that Azure Dev Spaces is enabled on your Kubernetes cluster, you are prompted to disable Azure Dev Spaces before you can use Bridge to Kubernetes.
 
