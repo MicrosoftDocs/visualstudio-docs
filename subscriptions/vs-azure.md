@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: cabuschl
 manager: cabuschl
 ms.assetid: 872c5746-5357-4764-949b-aa525a0adf1a
-ms.date: 08/17/2021
+ms.date: 08/20/2021
 ms.topic: how-to
 description:  Learn how to activate the Azure DevTest individual credit benefit included in your Visual Studio subscription.
 ---
@@ -103,6 +103,9 @@ Please visit the [Technical support](vs-tech-support.md) documentation for compl
 
 ### Q: Who owns the intellectual property I create using my Azure DevTest individual credit?
 A:  Intellectual property produced by an employee created on resources provided by that company is thereby intellectual property of the company providing the resource. So, if you received your Visual Studio subscription through your employer, their intellectual property policies would apply. 
+
+### Q: How can I find out what my Azure credit balance is?
+A:  To monitor your balance, as well as learn other helpful information about your Azure credits, check out [Track Microsoft Customer Agreement Azure credit balance](https://docs.microsoft.com/azure/cost-management-billing/manage/mca-check-azure-credits-balance?tabs=portal).
 
 ## Support resources
 - Need help with Azure?  Check out these resources:
