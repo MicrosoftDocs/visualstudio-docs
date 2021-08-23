@@ -5,7 +5,7 @@ ms.date: 02/08/2021
 ms.topic: reference
 author: andysterland
 ms.author: andster
-manager: jillfra
+manager: jmartens
 ms.workload:
 - multiple
 monikerRange: ">= vs-2019"
