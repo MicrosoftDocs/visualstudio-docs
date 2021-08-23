@@ -400,7 +400,7 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 |-|-|-|
 |Breakpoint conditions|**Alt+F9, C**| EditorContextMenus.CodeWindow.Breakpoint.BreakpointConditions |
 |Breakpoint edit labels|**Alt+F9, L**| EditorContextMenus.CodeWindow.Breakpoint.BreakpointEditlabels |
-|Insert temporary breakpoint|**Shift+Alt+F9**| EditorContextMenus.CodeWindow.Breakpoint.InsertTemporaryBreakpoint |
+|Insert temporary breakpoint|**Shift+Alt+F9, T**| EditorContextMenus.CodeWindow.Breakpoint.InsertTemporaryBreakpoint |
 |Show item|**Ctrl+`**| EditorContextMenus.CodeWindow.CodeMap.ShowItem |
 |Execute|**Ctrl+Alt+F5**| EditorContextMenus.CodeWindow.Execute |
 |Go to view|**Ctrl+M, Ctrl+G**| EditorContextMenus.CodeWindow.GoToView |
