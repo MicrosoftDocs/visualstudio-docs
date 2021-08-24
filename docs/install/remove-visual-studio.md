@@ -34,10 +34,10 @@ If you experience a catastrophic error and can't repair or uninstall Visual Stud
 
 You can use either of the following command-line switches with the `InstallCleanup.exe` tool:
 
-| Switch | Behavior                                                                                                                                                                                                                                                                                                                 |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `-i`   | This switch is the default if no other switch is passed. It removes only the main installation directory and product information. Use this switch if you intend to reinstall the same version of Visual Studio after you run the `InstallCleanup.exe` tool.                                                              |
-| `-f`   | This switch removes the main installation directory, product information, and most other features installed outside the installation directory, that might also be shared with other Visual Studio installations or other products. Use this switch if you intend to remove Visual Studio without reinstalling it later. |
+| Switch | Behavior |
+|-----------------|--------------------|
+|  `-i[version]`   | This switch is the default if no other switch is passed. It removes only the main installation directory and product information. Use this switch if you intend to reinstall the same version of Visual Studio after you run the `InstallCleanup.exe` tool. If a `[version]` value is specified, only products with a version that start with this string value will be removed. |
+|   `-f`           | This switch removes the main installation directory, product information, and most other features installed outside the installation directory, that might also be shared with other Visual Studio installations or other products. Use this switch if you intend to remove Visual Studio without reinstalling it later. |
 
 Here's how to run the `InstallCleanup.exe` tool:
 
