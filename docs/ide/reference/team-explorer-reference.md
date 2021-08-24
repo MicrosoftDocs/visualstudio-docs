@@ -6,7 +6,7 @@ ms.date: 12/04/2018
 ms.topic: reference
 ms.author: kaelli
 author: KathrynEE
-ms.manager: jillfra
+ms.manager: jmartens
 ---
 # Team Explorer reference
 
