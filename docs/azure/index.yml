@@ -4,7 +4,7 @@ metadata:
   title: Azure Development
   description: Tutorials and conceptual articles about connecting apps and services to Azure and developing Azure services.
   author: ghogen
-  manager: jillfra
+  manager: jmartens
   ms.prod: visual-studio-windows
   ms.technology: vs-azure
   ms.topic: landing-page
