@@ -84,7 +84,7 @@ When upgrading from one minor version of Visual Studio to the next, the Visual S
    * vs_community.exe for Visual Studio Community
 
    ```shell
-   vs_Enterprise.exe --installPath "C:\Program Files (x86)\Microsoft Visual Studio\<AddNewPath>"
+   vs_Enterprise.exe --installPath "C:\Program Files\Microsoft Visual Studio\<AddNewPath>"
    ```
 
 1. Follow the installer dialogs to select the components you need for your installation. For more information, see [Install Visual Studio](install-visual-studio.md#step-4---choose-workloads).
