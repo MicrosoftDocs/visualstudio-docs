@@ -32,13 +32,13 @@ The VS SDK targeting Visual Studio 2022 for managed extensions is up *exclusivel
 - The [Microsoft.VisualStudio.Sdk](https://www.nuget.org/packages/Microsoft.VisualStudio.Sdk/) (17.x versions) meta-package brings in most or all of the reference assemblies you will need.
 - The [Microsoft.VSSDK.BuildTools](https://www.nuget.org/packages/Microsoft.VSSDK.BuildTools/) (17.x versions) package should be referenced from your VSIX project so it can build a Visual Studio 2022-compliant VSIX.
 
-Extensions *must* be compiled with the "Any CPU" or "x64" platform. The "x86" platform is incompatible with Visual Studio 2022's 64-bit process.
+Even if you don't reference any breaking changes, extensions *must* be compiled with the "Any CPU" or "x64" platform. The "x86" platform is incompatible with Visual Studio 2022's 64-bit process.
 
 ### Extensions written in C++
 
 The VS SDK for extensions compiled with C++ is available with the installed Visual Studio SDK, as usual.
 
-Extensions *must* be compiled specifically against the Visual Studio 2022 SDK and for amd64.
+Even if you don't reference any breaking changes, extensions *must* be compiled specifically against the Visual Studio 2022 SDK and for amd64.
 
 ### Update your extension to Visual Studio 2022
 
@@ -210,7 +210,7 @@ Proceed to add Visual Studio 2022 support to your extension with these steps, wh
    | - | - | - |
    | ProductArchitecture | X86, AMD64 | The platforms that are supported by this VSIX. Not case sensitive. One platform  per element and one element per  InstallTarget. For product versions less than 17.0 the default value is x86 and can be omitted.  For product versions 17.0 and greater this element is required and there is no default value. For Visual Studio 2022 the only valid content for this element is "amd64". |
 
-1. Make any other adjustments necessary in your source.extension.vsixmanifest to match the one that targets Visual Studio 2019 (if any). It is critical that the ID of the VSIX, in the `Identity` element of the manifest, is identical for both extensions.
+1. Make any other adjustments necessary in your source.extension.vsixmanifest to match the one that targets Visual Studio 2019 (if any). If you are publishing 2 different versions of your extension each targeting a different version of VS, it is critical that the ID of the VSIX, in the `Identity` element of the manifest, is different for both extensions.
 
 At this point, you have a Visual Studio 2022-targeted extension VSIX. You should build your Visual Studio 2022-targeted VSIX project and [work through any build breaks that appear](#handle-breaking-api-changes). If you do not have build breaks in your Visual Studio 2022-targeted VSIX project,
 congratulations: you're ready for testing!
