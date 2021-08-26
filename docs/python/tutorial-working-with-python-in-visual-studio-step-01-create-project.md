@@ -72,7 +72,7 @@ This tutorial begins with a simple project containing a single, empty code file.
    
 1. To view Python templates, search for *python*. Search is a great way to find a template when you can't remember its location in the languages tree.
    
-   ![Screenshot showing the Create a new project dialog box with Python project templates.](media/tutorial-working-with-python-in-visual-studio-step-01-create-project/2022/getting-started-python-new-project.png)
+   ![Screenshot showing the Create a new project dialog box with Python project templates.](media/tutorial-working-with-python-in-visual-studio-step-01-create-project/vs-2022/getting-started-python-new-project.png)
    
    Python support in Visual Studio includes several project templates, such as web applications in the Bottle, Flask, and Django frameworks. For this tutorial, start with an empty project.
    
@@ -86,11 +86,11 @@ This tutorial begins with a simple project containing a single, empty code file.
    - The default code file opens in the editor **(2)**.
    - The **Properties** window shows more information for the item selected in **Solution Explorer**, including its exact location on disk **(3)**.
    
-   ![Screenshot showing the new project open in Visual Studio.](media/tutorial-working-with-python-in-visual-studio-step-01-create-project/2022/getting-started-python-windows.png)
+   ![Screenshot showing the new project open in Visual Studio.](media/tutorial-working-with-python-in-visual-studio-step-01-create-project/vs-2022/getting-started-python-windows.png)
    
 1. Familiarize yourself with **Solution Explorer**, where you can browse files and folders in your project.
    
-   ![Screenshot of Solution Explorer expanded to show features.](media/tutorial-working-with-python-in-visual-studio-step-01-create-project/2022/getting-started-python-solution-explorer.png)
+   ![Screenshot of Solution Explorer expanded to show features.](media/tutorial-working-with-python-in-visual-studio-step-01-create-project/vs-2022/getting-started-python-solution-explorer.png)
    
    - At the top level is the *solution*, which by default has the same name as your project **(1)**.
      

@@ -34,7 +34,7 @@ If you haven't already installed Visual Studio, go to the [Visual Studio downloa
 
 If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads) page to install it for free. In the Visual Studio Installer, select the **Python development** workload, and in the installation details, select **Python web support**.
 
-![Screenshot of the Visual Studio Installer with the Python development workload and Python web support selected.](media/quickstart-python/2022/python-web.png)
+![Screenshot of the Visual Studio Installer with the Python development workload and Python web support selected.](media/quickstart-python/vs-2022/python-web.png)
 
 ::: moniker-end
 
@@ -85,17 +85,17 @@ The following steps create an empty project that serves as a container for the a
 1. On the start screen, select **Create a new project**.
 1. In the **Create a new project** dialog box, enter "Python web" in the search field at the top. Choose **Web Project** from the list, and then select **Next**:
    
-   ![Screenshot showing the Create a new project screen with Python Web Project selected.](media/quickstart-python/2022/python-web-project.png)
+   ![Screenshot showing the Create a new project screen with Python Web Project selected.](media/quickstart-python/vs-2022/python-web-project.png)
    
    If you don't see the Python web project templates, select **Tools** > **Get Tools and Features** to run the Visual Studio Installer. In the Installer, select the **Python development** workload, and under **Installation details**, select **Python web support**. Then select **Modify**.
 
 1. In the **Configure your new project** dialog box, enter "HelloPython" for **Project name**, specify a location, and then select **Create**. The **Solution name** automatically updates to match the **Project name**.
 
-   ![Screenshot showing the Configure your new project dialog.](media/quickstart-python/2022/configure-project.png)
+   ![Screenshot showing the Configure your new project dialog.](media/quickstart-python/vs-2022/configure-project.png)
 
 The new project opens in **Solution Explorer** in the right pane. The project is empty at this point because it contains no other files.
 
-![Screenshot showing the Solution Explorer with the newly created empty project.](media/quickstart-python/2022/solution-explorer.png)
+![Screenshot showing the Solution Explorer with the newly created empty project.](media/quickstart-python/vs-2022/solution-explorer.png)
 ::: moniker-end
 
 **Question: What's the advantage of creating a project in Visual Studio for a Python application?**
@@ -140,13 +140,13 @@ Use the following steps to install the Flask library into the default *global en
 ::: moniker range=">=vs-2022"
 1. Expand the **Python Environments** node in the project to see the default environment for the project.
 
-    ![Screenshot showing the default environment in Solution Explorer.](media/quickstart-python/2022/python-environment.png)
+    ![Screenshot showing the default environment in Solution Explorer.](media/quickstart-python/vs-2022/python-environment.png)
 
 1. Right-click the environment and select **Manage Python Packages**. This command opens the **Python Environments** window on the **Packages (PyPI)** tab.
 
 1. Enter "flask" in the search field. If **Flask** appears below the search box, you can skip this step. Otherwise, select **Run command: pip install flask**.
 
-    ![Screenshot that shows installing the Flask library using pip install.](media/quickstart-python/2022/install-flask.png)
+    ![Screenshot that shows installing the Flask library using pip install.](media/quickstart-python/vs-2022/install-flask.png)
 
     An elevation prompt appears if the global environment packages folder is in a protected area like *C:\Program Files*. Accept any prompts for administrator privileges. Observe the Visual Studio **Output** window for progress.
 
@@ -161,7 +161,7 @@ Once installed, the library appears in the environment in **Solution Explorer**,
 ![Flask library installed and showing in Solution Explorer](media/quickstart-python-04-package-installed-2019.png)
 ::: moniker-end
 ::: moniker range=">=vs-2022"
-![Screenshot that shows the Flask library installed and showing in Solution Explorer.](media/quickstart-python/2022/flask-installed.png)
+![Screenshot that shows the Flask library installed and showing in Solution Explorer.](media/quickstart-python/vs-2022/flask-installed.png)
 ::: moniker-end
 
 > [!Note]
@@ -254,7 +254,7 @@ You might have noticed that the **Add** > **New Item** dialog box displays many 
     ![Setting the startup file for a project in Solution Explorer](media/quickstart-python-05-set-as-startup-file-2019.png)
     ::: moniker-end
     ::: moniker range=">=vs-2022"
-    ![Screenshot that shows setting the startup file for a project in Solution Explorer.](media/quickstart-python/2022/set-startup-file.png)
+    ![Screenshot that shows setting the startup file for a project in Solution Explorer.](media/quickstart-python/vs-2022/set-startup-file.png)
     ::: moniker-end
 
 2. Right-click the project in **Solution Explorer** and select **Properties**. Select the **Debug** tab from the **Properties** menu, and set the **Port Number** property to `4449`. This setting ensures that Visual Studio launches a browser with `localhost:4449` to match the `app.run` arguments in the code.

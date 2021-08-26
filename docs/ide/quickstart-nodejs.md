@@ -32,7 +32,7 @@ If you haven't yet installed Visual Studio:
 
 1. In the Visual Studio Installer, select the **Node.js development** workload, and select **Install**.
 
-   ![Screenshot showing the Node j s workload selected in the Visual Studio Installer.](../ide/media/quickstart-nodejs/2022/quickstart-nodejs-workload.png)
+   ![Screenshot showing the Node j s workload selected in the Visual Studio Installer.](../ide/media/quickstart-nodejs/vs-2022/quickstart-nodejs-workload.png)
 
 If you have Visual Studio installed already.
 
@@ -135,15 +135,15 @@ Visual Studio can help set up your environment, including installing tools commo
    - Your project, with the name you used when you set it up, is highlighted in bold. On disk, the project is represented by a *.njsproj* file in your project folder.
    - The **npm** node shows installed npm packages. You can right-click the **npm** node to search for and install npm packages by using a dialog.
 
-   ![Screenshot showing the Solution Explorer pane.](../ide/media/quickstart-nodejs/2022/quickstart-nodejs-solution-explorer.png)
+   ![Screenshot showing the Solution Explorer pane.](../ide/media/quickstart-nodejs/vs-2022/quickstart-nodejs-solution-explorer.png)
 
 1. To install npm packages or Node.js commands from a command prompt, right-click the project node and choose **Open Command Prompt Here**.
 
-   ![Screenshot showing Open Command Prompt Here in the project context menu.](../ide/media/quickstart-nodejs/2022/quickstart-nodejs-command-prompt.png)
+   ![Screenshot showing Open Command Prompt Here in the project context menu.](../ide/media/quickstart-nodejs/vs-2022/quickstart-nodejs-command-prompt.png)
 
 1. To test navigation to source code, in the open *server.js* file, select `createServer` and press **F12**, or right-click `createServer` and select **Go To Definition** from the context menu. This command takes you to the definition of the `createServer` function in *http.d.ts*.
 
-   ![Screenshot showing Go To Definition in the createServer context menu.](../ide/media/quickstart-nodejs/2022/quickstart-nodejs-go-to-definition.png)
+   ![Screenshot showing Go To Definition in the createServer context menu.](../ide/media/quickstart-nodejs/vs-2022/quickstart-nodejs-go-to-definition.png)
 
 1. Back in *server.js*, locate this line of code: `res.end('Hello World\n');`, and modify it to:
 
@@ -151,7 +151,7 @@ Visual Studio can help set up your environment, including installing tools commo
 
    When you type `connection.`, IntelliSense provides options to autocomplete the code entry.
 
-   ![Screenshot showing IntelliSense auto-complete options.](../ide/media/quickstart-nodejs/2022/quickstart-nodejs-intellisense.png)
+   ![Screenshot showing IntelliSense auto-complete options.](../ide/media/quickstart-nodejs/vs-2022/quickstart-nodejs-intellisense.png)
 
 1. Choose `localPort`, and type `);` to complete the statement:
 

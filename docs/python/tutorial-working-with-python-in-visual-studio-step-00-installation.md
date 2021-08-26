@@ -38,7 +38,7 @@ ms.workload:
     ::: moniker-end
 
     ::: moniker range=">=vs-2022"
-    ![Screenshot of testing Python through the Visual Studio 2022 interactive window.](media/tutorial-working-with-python-in-visual-studio-step-00-installation/2022/python-interactive.png)
+    ![Screenshot of testing Python through the Visual Studio 2022 interactive window.](media/tutorial-working-with-python-in-visual-studio-step-00-installation/vs-2022/python-interactive.png)
     ::: moniker-end
 
 ## Next step
