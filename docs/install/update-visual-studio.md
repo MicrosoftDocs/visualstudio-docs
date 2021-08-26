@@ -373,7 +373,7 @@ You can check for an update and then install it using the menu bar or the search
 
 1. In Visual Studio, save your work.
 
-1. Choose the notification icon from the lower-right corner of the Visual Studio IDE to open the **Notifications** hub.
+1. Choose the notification icon from the lower-right corner of the Visual Studio IDE to open the **Notifications hub**.
 
    ![Screenshot showing the notification icon in the Visual Studio IDE.](media/vs-2022/notification-bar.png "The notification icon in Visual Studio 2022")
 
@@ -390,7 +390,7 @@ You can check for an update and then install it using the menu bar or the search
 
 ## Customize update settings
 
-You can customize the update settings in Visual Studio in several different ways, such as changing the installation mode and selecting automatic downloads.
+You can customize the update settings in Visual Studio in several different ways, such as by changing the installation mode or selecting automatic downloads.
 
 There are two installation modes to choose from:
 
