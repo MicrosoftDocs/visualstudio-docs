@@ -481,7 +481,8 @@ There are APIs in place to facilitate passing messages to and receiving messages
 
 #### Receive custom messages
 
-To receive custom messages from the language server, implement the [CustomMessageTarget]
+To receive custom messages from the language server, implement the [CustomMessageTarget]((/dotnet/api/microsoft.visualstudio.languageserver.client.ilanguageclientcustommessage.custommessagetarget?view=visualstudiosdk-2017&preserve-view=true) property on [ILanguageClientCustomMessage2](/dotnet/api/microsoft.visualstudio.languageserver.client.ilanguageclientcustommessage2?view=visualstudiosdk-2019&preserve-view=true) and return an object that knows how to handle your custom messages. Example below:
+
 (/dotnet/api/microsoft.visualstudio.languageserver.client.ilanguageclientcustommessage.custommessagetarget?view=visualstudiosdk-2017&preserve-view=true) property on [ILanguageClientCustomMessage2](/dotnet/api/microsoft.visualstudio.languageserver.client.ilanguageclientcustommessage2?view=visualstudiosdk-2019&preserve-view=true) and return an object that knows how to handle your custom messages. Example below:
 
 ```csharp
