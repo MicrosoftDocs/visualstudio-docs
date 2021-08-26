@@ -239,9 +239,11 @@ But, you can use the following properties to specify *.props* file(s) to be auto
 
 To customize the default values of properties for all C++ builds, create another *.props* file (say, *MyProps.props*), and define the `ForceImportAfterCppProps` property in `Directory.Build.props` pointing to it:
 
+```xml
 <PropertyGroup>
   <ForceImportAfterCppProps>$(MsbuildThisFileDirectory)\MyProps.props<ForceImportAfterCppProps>
 </PropertyGroup>
+```
 
 *MyProps.props* will be automatically imported at the very end of *Microsoft.Cpp.props*.
 
