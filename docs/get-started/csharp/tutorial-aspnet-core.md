@@ -364,10 +364,15 @@ Visual Studio is an integrated development suite of productivity tools for devel
 
 ## Next steps
 
-Congratulations on completing this tutorial! We hope you learned a little bit about C#, ASP.NET Core, and the Visual Studio IDE. To learn more about creating a web app or website with C# and ASP.NET, continue with the following tutorials:
+Congratulations on completing this tutorial! We hope you learned a little bit about C#, ASP.NET Core, and the Visual Studio IDE. To learn more about creating a web app or website with C# and ASP.NET, continue with the following tutorial:
 
 > [!div class="nextstepaction"]
 > [Create a Razor Pages web app with ASP.NET Core](/aspnet/core/tutorials/razor-pages/?view=aspnetcore-2.1&preserve-view=true)
+
+Or, learn how to containerize your web app with Docker:
+
+> [!div class="nextstepaction"]
+> [Container Tools in Visual Studio](../../containers/overview.md)
 
 ## See also
 

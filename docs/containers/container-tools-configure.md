@@ -56,8 +56,24 @@ The following table describes **Single Project** and **Docker Compose** settings
 | Name | Default Setting | Applies To | Description |
 | -----|:---------------:|:----------:| ----------- |
 | Pull required Docker images on project open | True | Single Project, Docker Compose | For increased performance when loading projects, Visual Studio will start a Docker pull operation in the background so that when you're ready to run your code, the image is already downloaded or in the process of downloading. If you're just loading projects and browsing code, you can set to **False** to avoid downloading container images you don't need. |
+| Pull updated Docker images on project open | .NET Core projects | Single Project, Docker Compose | When you open a project, check for updates to images and download if available. |
 | Run containers on project open | True | Single Project, Docker Compose | Again for increased performance, Visual Studio creates a container ahead of time so that it's ready for when you build and run your container. If you want to control when your container is created, set to **False**. |
-| Stop containers on project close | True | Single Project and Docker Compose | Set to **False** if you would like containers for your solution to continue to run after closing the solution or closing Visual Studio. |
+| Remove containers on project close | True | Single Project, Docker Compose | Set to **False** if you would like containers for your solution to be retained after closing the solution or closing Visual Studio. |
+
+The **Containers Tool Window** settings control the settings that apply to the **Containers** tool window, which shows information about Docker containers and images. See [Use the Containers window](view-and-diagnose-containers.md)
+
+![Visual Studio Container Tools Options, showing the settings available for the Containers tool window](media/configure-container-tools/tools-options-3.png)
+
+The following table describes the **Containers** window settings:
+
+
+| Name | Default Setting | Description |
+| -----|:---------------:| ----------- |
+| Confirm before pruning containers | Always | Controls whether you are prompted when pruning unused containers. |
+| Confirm before pruning images | Always | Controls whether you are prompted when pruning unused images. |
+| Confirm before removing a container | Always | Controls whether you are prompted when removing a container. |
+| Confirm before removing an image | Always | Controls whether you are prompted when removing an image. |
+| Confirm before running large number of images | Always | Controls whether you are prompted before starting containers from more than 10 images at a time. |
 
 ::: moniker-end
 > [!WARNING]
