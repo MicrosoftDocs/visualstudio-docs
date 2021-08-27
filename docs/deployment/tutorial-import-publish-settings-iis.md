@@ -1,7 +1,7 @@
 ---
 title: "Publish to IIS by importing publish settings"
 description: "Create and import a publishing profile to deploy an application from Visual Studio to IIS"
-ms.date: 05/06/2020
+ms.date: 08/24/2021
 ms.topic: tutorial
 helpviewer_keywords:
   - "deployment, publish settings"
@@ -47,7 +47,11 @@ A publish settings file (*\*.publishsettings*) is different than a publishing pr
     If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/) page to install it for free.
 ::: moniker-end
 
-* On your server, you must be running Windows Server 2012, Windows Server 2016, or Windows Server 2019, and you must have the [IIS Web Server role](/iis/get-started/whats-new-in-iis-8/iis-80-using-aspnet-35-and-aspnet-45) correctly installed (required to generate the publish settings file (*\*.publishsettings*)). Either ASP.NET 4.5 or ASP.NET Core must also be installed on the server. To set up ASP.NET 4.5, see [IIS 8.0 Using ASP.NET 3.5 and ASP.NET 4.5](/iis/get-started/whats-new-in-iis-8/iis-80-using-aspnet-35-and-aspnet-45). To set up ASP.NET Core, see [Host ASP.NET Core on Windows with IIS](/aspnet/core/publishing/iis?tabs=aspnetcore2x#iis-configuration). For ASP.NET Core, make sure you configure the Application Pool to use **No Managed Code**, as described in the article.
+* On your server, you must be running Windows Server 2012, Windows Server 2016, or Windows Server 2019, and you must have the [IIS Web Server role](/iis/get-started/whats-new-in-iis-8/iis-80-using-aspnet-35-and-aspnet-45#solution) correctly installed (required to generate the publish settings file (*\*.publishsettings*)). Either ASP.NET 4.5 or ASP.NET Core must also be installed on the server.
+
+  * To set up ASP.NET 4.5, see [IIS 8.0 Using ASP.NET 3.5 and ASP.NET 4.5](/iis/get-started/whats-new-in-iis-8/iis-80-using-aspnet-35-and-aspnet-45).
+
+  * To set up ASP.NET Core, see [Host ASP.NET Core on Windows with IIS](/aspnet/core/publishing/iis?tabs=aspnetcore2x#iis-configuration). For ASP.NET Core, make sure you configure the Application Pool to use **No Managed Code**, as described in the article.
 
 ## Create a new ASP.NET project in Visual Studio
 
