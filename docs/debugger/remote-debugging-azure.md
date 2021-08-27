@@ -2,7 +2,7 @@
 title: "Remote Debug ASP.NET Core on IIS and Azure | Microsoft Docs"
 description: Learn how to set up and configure a Visual Studio ASP.NET Core app, deploy it to IIS using Azure, and attach the remote debugger from Visual Studio. 
 ms.custom: "remotedebugging"
-ms.date: 05/06/2020
+ms.date: 08/27/2021
 ms.topic: "conceptual"
 ms.assetid: a6c04b53-d1b9-4552-a8fd-3ed6f4902ce6
 author: "mikejo5000"
@@ -125,9 +125,9 @@ This article includes steps on setting up a basic configuration of IIS on Window
 
 * If you want help to make sure that your app is set up, deployed, and running correctly in IIS so that you can debug, follow all the steps in this topic.
 
-  * Before you begin, follow all the steps described in [Install and run IIS](/azure/virtual-machines/windows/quick-create-portal).
+  * Before you begin, follow all the steps described in [Create a Windows Virtual Machine](/azure/virtual-machines/windows/quick-create-portal), which includes steps to install the IIS web server.
 
-  * When you open port 80 in the Network security group, also open the [correct port](#bkmk_openports) for the remote debugger (4024 or 4022). That way, you won't have to open it later. If you're using Web Deploy, also open port 8172.
+  * Make sure you open port 80 in the Azure [Network security group](/azure/virtual-machines/windows/nsg-quickstart-portal). When you verify that port 80 is open, also open the [correct port](#bkmk_openports) for the remote debugger (4024 or 4022). That way, you won't have to open it later. If you're using Web Deploy, also open port 8172.
 
 ### Update browser security settings on Windows Server
 
@@ -144,7 +144,7 @@ When you download the software, you may get requests to grant permission to load
 
 1. Install the .NET Core Hosting Bundle on the hosting system. The bundle installs the .NET Core Runtime, .NET Core Library, and the ASP.NET Core Module. For more in-depth instructions, see [Publishing to IIS](/aspnet/core/publishing/iis?tabs=aspnetcore2x#iis-configuration).
 
-    For .NET Core 3, install the [.NET Core Hosting Bundle](https://dotnet.microsoft.com/permalink/dotnetcore-current-windows-runtime-bundle-installer).
+    For the current .NET Core hosting bundle, install the [ASP.NET Core Hosting Bundle](https://dotnet.microsoft.com/permalink/dotnetcore-current-windows-runtime-bundle-installer).
     For .NET Core 2, install the [.NET Core Windows Server Hosting](https://aka.ms/dotnetcore-2-windowshosting).
 
     > [!NOTE]

@@ -2,7 +2,7 @@
 title: "Remote Debug ASP.NET Core on a Remote IIS Computer | Microsoft Docs"
 description: Debug an ASP.NET Core application that has been deployed to a remote Internet Information Services (IIS) computer using the Visual Studio remote debugger.
 ms.custom: "remotedebugging, SEO-VS-2020"
-ms.date: 05/06/2020
+ms.date: 08/27/2021
 ms.topic: "conceptual"
 ms.assetid: 573a3fc5-6901-41f1-bc87-557aa45d8858
 author: "mikejo5000"
@@ -81,7 +81,7 @@ When you download the software, you may get requests to grant permission to load
 
 1. Install the .NET Core Hosting Bundle on the hosting system. The bundle installs the .NET Core Runtime, .NET Core Library, and the ASP.NET Core Module. For more in-depth instructions, see [Publishing to IIS](/aspnet/core/publishing/iis?tabs=aspnetcore2x#iis-configuration).
 
-    For .NET Core 3, install the [.NET Core Hosting Bundle](https://dotnet.microsoft.com/permalink/dotnetcore-current-windows-runtime-bundle-installer).
+    For the current .NET Core hosting bundle, install the [ASP.NET Core Hosting Bundle](https://dotnet.microsoft.com/permalink/dotnetcore-current-windows-runtime-bundle-installer).
     For .NET Core 2, install the [.NET Core Windows Server Hosting](https://aka.ms/dotnetcore-2-windowshosting).
 
     > [!NOTE]
