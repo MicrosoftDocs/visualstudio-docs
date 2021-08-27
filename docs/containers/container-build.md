@@ -97,7 +97,9 @@ Warmup will only happen in **Fast** mode, so the running container will have the
 
 ## Volume mapping
 
-For debugging to work in containers, Visual Studio uses volume mapping to map the debugger and NuGet folders from the host machine. Volume mapping is described in the Docker documentation [here](https://docs.docker.com/storage/volumes/). Here are the volumes that are mounted in your container:
+For debugging to work in containers, Visual Studio uses volume mapping to map the debugger and NuGet folders from the host machine. Volume mapping is described in the Docker documentation [here](https://docs.docker.com/storage/volumes/). You can view the volume mappings for a container by using the [Containers window in Visual Studio](view-and-diagnose-containers.md).
+
+Here are the volumes that are mounted in your container:
 
 |Volume|Description|
 |-|-|
