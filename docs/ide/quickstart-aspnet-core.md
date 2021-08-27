@@ -211,10 +211,15 @@ Congratulations on completing this Quickstart! We hope you learned a little bit 
 
 ## Next steps
 
-To learn more, continue with the following tutorial:
+To learn more about creating ASP.NET web apps, continue with the following tutorial:
 
 > [!div class="nextstepaction"]
 > [Get started with C# and ASP.NET in Visual Studio](../get-started/csharp/tutorial-aspnet-core.md)
+
+Or, learn how to containerize your web app with Docker:
+
+> [!div class="nextstepaction"]
+> [Container Tools in Visual Studio](../containers/overview.md)
 
 ## See also
 

@@ -197,7 +197,7 @@ Add a project to the same solution and call it *MyWebAPI*. Select **API** as the
 
 Look at the options for deploying your [containers to Azure](/azure/containers).
 
-For greater control over which services are started during a debug session, learn how to use Docker Compose launch profiles to configure which services run when debugging. See [Manage launch profiles for Docker Compose](launch-profiles.md)
+If you work with a large number of microservices, many of which aren't needed for a every debugging task, you can use Docker Compose launch profiles for greater control over which services are started during a debug session. See [Manage launch profiles for Docker Compose](launch-profiles.md).
 
 ## See also
   

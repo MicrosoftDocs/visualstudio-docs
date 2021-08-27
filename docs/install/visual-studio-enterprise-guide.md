@@ -23,7 +23,7 @@ If you’re looking to save time while you're getting your company running on Vi
 ## Get started 
 Learn how to deploy Visual Studio to your enterprise in networked and offline environments.
 
-- **[Enabling Administrator Updates using Microsoft Endpoint Configuration Manager (SCCM)](enabling-administrator-updates.md)**.  Visual Studio updates are included in the [Microsoft Update Catalog](https://www.catalog.update.microsoft.com/Home.aspx) and the [Windows Server Update Services (WSUS)](https://docs.microsoft.com/windows-server/administration/windows-server-update-services/get-started/windows-server-update-services-wsus). Enterprise administrators can then download the update and distribute it to Visual Studio client machines across the organization using standard deployment tools such as Microsoft Endpoint Configuration Manager (SCCM).
+- **[Enabling Administrator Updates using Microsoft Endpoint Configuration Manager (SCCM)](enabling-administrator-updates.md)**.  Visual Studio updates are included in the [Microsoft Update Catalog](https://www.catalog.update.microsoft.com/Home.aspx) and the [Windows Server Update Services (WSUS)](/windows-server/administration/windows-server-update-services/get-started/windows-server-update-services-wsus). Enterprise administrators can then download the update and distribute it to Visual Studio client machines across the organization using standard deployment tools such as Microsoft Endpoint Configuration Manager (SCCM).
 
 - **Understand options for enterprise deployment in networked environments**. The [Visual Studio administrator guide](visual-studio-administrator-guide.md) provides scenario-based guidance for system administrators. 
 
