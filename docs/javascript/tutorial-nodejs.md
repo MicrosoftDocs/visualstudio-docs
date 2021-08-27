@@ -53,7 +53,7 @@ This tutorial requires the following prerequisites:
      
   1. In the Visual Studio Installer, select the **Node.js development** workload, and select **Install**.
      
-     ![Screenshot showing the Node j s workload selected in the Visual Studio Installer.](media/tutorial-nodejs/quickstart-nodejs-workload.png)
+     ![Screenshot showing the Node j s workload selected in the Visual Studio Installer.](media/quickstart-nodejs-workload.png)
   
   If you have Visual Studio installed already:
   
@@ -99,7 +99,7 @@ In this tutorial, you begin with a simple project that has code for a Node.js an
    
 1. Look at the project structure in **Solution Explorer** in the right pane.
    
-   ![Screenshot showing project structure in Solution Explorer.](media/tutorial-nodejs/vs-2022/tutorial-project-structure.png)
+   ![Screenshot showing project structure in Solution Explorer.](media/vs-2022/tutorial-project-structure.png)
    
    - At the top level is the *solution* (**1**), which by default has the same name as your project. A solution, represented by a *.sln* file on disk, is a container for one or more related projects.
    
@@ -246,7 +246,7 @@ IntelliSense is a Visual Studio tool that helps you as you write code.
 1. Put your cursor after the `"data"` string and type `: get`. IntelliSense displays the `getData` function you defined earlier in the code. Select `getData`.
 
     ::: moniker range=">=vs-2022"
-    ![Screenshot that shows using IntelliSense.](media/tutorial-nodejs/vs-2022/tutorial-nodejs-intellisense.png)
+    ![Screenshot that shows using IntelliSense.](media/vs-2022/tutorial-nodejs-intellisense.png)
     ::: moniker-end
     ::: moniker range="<=vs-2019"
     ![Screenshot that shows using IntelliSense.](../javascript/media/tutorial-nodejs-intellisense.png)
@@ -257,7 +257,7 @@ IntelliSense is a Visual Studio tool that helps you as you write code.
 1. Remove the comma before `"data"`. Green syntax highlighting appears on the expression. Hover over the syntax highlighting.
 
     ::: moniker range=">=vs-2022"
-    ![Screenshot that shows a syntax error in IntelliSense.](media/tutorial-nodejs/vs-2022/tutorial-nodejs-syntax-checking.png)
+    ![Screenshot that shows a syntax error in IntelliSense.](media/vs-2022/tutorial-nodejs-syntax-checking.png)
     ::: moniker-end
     ::: moniker range="<=vs-2019"
     ![Screenshot that shows a syntax error in IntelliSense.](../javascript/media/tutorial-nodejs-syntax-checking.png)
@@ -270,7 +270,7 @@ IntelliSense is a Visual Studio tool that helps you as you write code.
     The pane displays the warning and description along with the filename and line number.
 
     ::: moniker range=">=vs-2022"
-    ![Screenshot showing the Error List pane with the error listed.](media/tutorial-nodejs/vs-2022/tutorial-nodejs-error-list.png)
+    ![Screenshot showing the Error List pane with the error listed.](media/vs-2022/tutorial-nodejs-error-list.png)
     ::: moniker-end
     ::: moniker range="<=vs-2019"
     ![Screenshot showing the Error List pane with the error listed.](../javascript/media/tutorial-nodejs-error-list.png)
@@ -293,7 +293,7 @@ Breakpoints are the most basic and essential feature of reliable debugging. A br
   `res.render('index', { title: 'Express', "data": getData() });`
 
   ::: moniker range=">=vs-2022"
-  ![Screenshot that shows setting a breakpoint.](media/tutorial-nodejs/vs-2022/tutorial-nodejs-set-breakpoint.png)
+  ![Screenshot that shows setting a breakpoint.](media/vs-2022/tutorial-nodejs-set-breakpoint.png)
   ::: moniker-end
   ::: moniker range="<=vs-2019"
   ![Screenshot that shows setting a breakpoint.](../javascript/media/tutorial-nodejs-set-breakpoint.png)
@@ -304,7 +304,7 @@ Breakpoints are the most basic and essential feature of reliable debugging. A br
 1. Select the debug target in the **Debug** toolbar, such as **Web Server (Google Chrome)** or **Web Server (Microsoft Edge)**.
 
     ::: moniker range=">=vs-2022"
-    ![Screenshot that shows selecting the debug target.](media/tutorial-nodejs/vs-2022/tutorial-nodejs-deploy-target.png)
+    ![Screenshot that shows selecting the debug target.](media/vs-2022/tutorial-nodejs-deploy-target.png)
     ::: moniker-end
     ::: moniker range="vs-2019"
     ![Screenshot that shows selecting the debug target.](../javascript/media/vs-2019/tutorial-nodejs-deploy-target.png)
@@ -322,7 +322,7 @@ Breakpoints are the most basic and essential feature of reliable debugging. A br
 1. Hover over `getData` to see its properties in a DataTip:
 
     ::: moniker range=">=vs-2022"
-    ![Screenshot that shows inspecting variables during debugging.](media/tutorial-nodejs/vs-2022/tutorial-nodejs-inspect-variables.png)
+    ![Screenshot that shows inspecting variables during debugging.](media/vs-2022/tutorial-nodejs-inspect-variables.png)
     ::: moniker-end
     ::: moniker range="vs-2019"
     ![Screenshot that shows inspecting variables during debugging.](../javascript/media/tutorial-nodejs-inspect-variables.png)
@@ -351,30 +351,30 @@ Breakpoints are the most basic and essential feature of reliable debugging. A br
    
 1. On the first **Publish** screen, select **Azure**, and then select **Next**.
    
-   ![Screenshot showing the Publish dialog box with Azure selected.](media/tutorial-nodejs/vs-2022/tutorial-nodejs-publish-azure.png)
+   ![Screenshot showing the Publish dialog box with Azure selected.](media/vs-2022/tutorial-nodejs-publish-azure.png)
    
    
 1. On the second **Publish** screen, select **Azure App Service (Windows)**, and then select **Next**.
    
-   ![Screenshot showing the Publish dialog box with Azure App Service selected.](media/tutorial-nodejs/vs-2022/tutorial-nodejs-publish-azure-app.png)
+   ![Screenshot showing the Publish dialog box with Azure App Service selected.](media/vs-2022/tutorial-nodejs-publish-azure-app.png)
    
 1. On the next screen, sign in to Azure if necessary. Select the Azure subscription, resource group, and App Service you want to publish to, and then select **Finish**.
 
    - If you don't have an Azure subscription, resource group, or App Service, you can create them by following the prompts on this screen.
    
-   ![Screenshot showing the Publish dialog box with the Azure web app selected.](media/tutorial-nodejs/vs-2022/tutorial-nodejs-publish-web-app.png)
+   ![Screenshot showing the Publish dialog box with the Azure web app selected.](media/vs-2022/tutorial-nodejs-publish-web-app.png)
    
    For more detailed instructions, see [Publish to Azure website using web deploy](https://github.com/Microsoft/nodejstools/wiki/Publish-to-Azure-Website-using-Web-Deploy).
    
 1. Look over the publishing configuration, and then select **Publish**.
 
-   ![Screenshot showing the Publish configuration and button in Visual Studio.](media/tutorial-nodejs/vs-2022/tutorial-nodejs-publish-ready.png)
+   ![Screenshot showing the Publish configuration and button in Visual Studio.](media/vs-2022/tutorial-nodejs-publish-ready.png)
    
    The Visual Studio **Output** window shows the Azure deployment progress.
    
 1. On successful deployment, your app opens running in Azure App Service in a browser. Select a button to display an image.
    
-   ![Screenshot showing the web app running in Azure App Service in a browser.](media/tutorial-nodejs/vs-2022/tutorial-nodejs-running-in-azure.png)
+   ![Screenshot showing the web app running in Azure App Service in a browser.](media/vs-2022/tutorial-nodejs-running-in-azure.png)
 
 ::: moniker-end
 ::: moniker range="<=vs-2019"
