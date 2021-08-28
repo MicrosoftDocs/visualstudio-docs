@@ -246,7 +246,7 @@ In most setups, required ports are opened by the installation of ASP.NET and the
 
 Required ports:
 
-* 80 - Required for IIS
+* 80 - Required for IIS (HTTP)
 ::: moniker range=">=vs-2019"
 * 4024 - Required for remote debugging from Visual Studio 2019 (see [Remote Debugger Port Assignments](../debugger/remote-debugger-port-assignments.md) for more information).
 ::: moniker-end
