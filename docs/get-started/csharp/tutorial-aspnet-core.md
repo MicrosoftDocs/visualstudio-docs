@@ -352,7 +352,7 @@ Here's a quick FAQ to highlight some key concepts.
 
 ### What is C#?
 
-[C#](https://docs.microsoft.com/dotnet/csharp/tour-of-csharp/) is a type-safe and object-oriented programming language that's designed to be both robust and easy to learn.
+[C#](/dotnet/csharp/tour-of-csharp/) is a type-safe and object-oriented programming language that's designed to be both robust and easy to learn.
 
 ### What is ASP.NET Core?
 
@@ -364,10 +364,15 @@ Visual Studio is an integrated development suite of productivity tools for devel
 
 ## Next steps
 
-Congratulations on completing this tutorial! We hope you learned a little bit about C#, ASP.NET Core, and the Visual Studio IDE. To learn more about creating a web app or website with C# and ASP.NET, continue with the following tutorials:
+Congratulations on completing this tutorial! We hope you learned a little bit about C#, ASP.NET Core, and the Visual Studio IDE. To learn more about creating a web app or website with C# and ASP.NET, continue with the following tutorial:
 
 > [!div class="nextstepaction"]
 > [Create a Razor Pages web app with ASP.NET Core](/aspnet/core/tutorials/razor-pages/?view=aspnetcore-2.1&preserve-view=true)
+
+Or, learn how to containerize your web app with Docker:
+
+> [!div class="nextstepaction"]
+> [Container Tools in Visual Studio](../../containers/overview.md)
 
 ## See also
 

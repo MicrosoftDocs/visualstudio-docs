@@ -2,7 +2,7 @@
 title: Find and install extensions
 description: Learn about extensions in Visual Studio and how to manage them so you have the controls, samples, templates, tools, and other components you need.
 ms.custom: SEO-VS-2020
-ms.date: 09/18/2019
+ms.date: 08/30/2021
 ms.topic: conceptual
 f1_keywords:
 - vs.ExtensionManager
@@ -30,6 +30,8 @@ For information about creating Visual Studio extensions, see [Visual Studio SDK]
 
 Use the **Extensions and Updates** dialog box to install and manage Visual Studio extensions. To open the **Extensions and Updates** dialog, choose **Tools** > **Extensions and Updates**, or type **Extensions** in the **Quick Launch** search box.
 
+![Extensions window in Visual Studio](media/finding-using-visual-studio-extensions/extensions-and-updates.png)
+
 ::: moniker-end
 
 ::: moniker range=">=vs-2019"
@@ -38,9 +40,9 @@ Use the **Extensions and Updates** dialog box to install and manage Visual Studi
 
 Use the **Manage Extensions** dialog box to install and manage Visual Studio extensions. To open the **Manage Extensions** dialog, choose **Extensions** > **Manage Extensions**. Or, type **Extensions** in the search box and choose **Manage Extensions**.
 
-::: moniker-end
+:::image type="content" source="media/finding-using-visual-studio-extensions/vs-2022/extensions-and-updates.png" alt-text="Screenshot of the Manage Extensions window in Visual Studio":::
 
-![Extensions window in Visual Studio](media/finding-using-visual-studio-extensions/extensions-and-updates.png)
+::: moniker-end
 
 The pane on the left categorizes extensions by those that are installed, those available on Visual Studio Marketplace (**Online**), and those that have updates available. **Roaming Extension Manager** keeps a list of all the Visual Studio extensions you've installed on any machine or instance of Visual Studio. It's designed to let you find your favorite extensions more easily.
 
