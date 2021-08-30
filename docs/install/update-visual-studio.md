@@ -320,7 +320,7 @@ Here's how to update Visual Studio 2022.
 
     ![Screenshot showing the Update button that you can select to install the new update.](media/vs-2022/vs-installer-choose-update-visual-studio-community.png "Select the Update button to install the update")
 
-1. After the update is complete, the Visual Studio Installer may prompt you to restart your computer. If so, do so, and then start Visual Studio as you typically would.
+1. After the update is complete, the Visual Studio Installer might prompt you to restart your computer. If so, do so, and then start Visual Studio as you typically would.
 
     If you aren't asked to restart your computer, choose **Launch** to start Visual Studio from the Visual Studio Installer.
 
@@ -328,7 +328,7 @@ Here's how to update Visual Studio 2022.
 
 ## Use the Visual Studio IDE
 
-You can check for an update and then install it using the menu bar or the search box in Visual Studio 2022.
+You can check for an update and then install it by using the menu bar or the search box in Visual Studio 2022.
 
 ### Open Visual Studio
 
