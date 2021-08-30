@@ -1,7 +1,7 @@
 ---
 title: Disable DPI-awareness in Visual Studio
 description: Discusses the limitations of Windows Forms Designer on HDPI monitors and how to run Visual Studio as a DPI-unaware process.
-ms.date: 09/28/2020
+ms.date: 08/30/2021
 author: TerryGLee
 ms.author: tglee
 manager: jmartens
@@ -96,3 +96,4 @@ If the DPI-awareness transition isn't working as expected in Visual Studio, chec
 ## See also
 
 - [Automatic scaling in Windows Forms](/dotnet/framework/winforms/automatic-scaling-in-windows-forms)
+- [A better multi-monitor experience with Visual Studio](https://devblogs.microsoft.com/visualstudio/a-better-multi-monitor-experience-with-visual-studio-2019/)
