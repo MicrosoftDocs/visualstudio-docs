@@ -62,7 +62,7 @@ The Reference Manager dialog box shows different categories on the left side, de
 
 ::: moniker range=">=vs-2019"
 
-1. In **Solution Explorer**, right-click on the **References** or **Dependencies** node and choose either **Add Project Reference**, **Add Shared Project Reference**, or **Add COM Reference**. You can right-click the project node and select **Add** to choose from these options, too.
+1. In **Solution Explorer**, right-click on the **References** or **Dependencies** node and choose either **Add Project Reference**, **Add Shared Project Reference**, or **Add COM Reference**. (You can right-click the project node and select **Add** from the fly-out menu to choose from these options, too.)
 
    **Reference Manager** opens and lists the available references by group.
 
