@@ -201,10 +201,10 @@ Note that in Visual Studio 2019 and earlier, rather than listing toolbox control
 
     ```xml
     <File Reference = "sample.winmd">
-        <ToolboxItems VSCategory = "Toolbox.Default">
-            <Item Type = "Namespace.ControlName1" />
-            <Item Type = "Namespace.ControlName2" />
-        </ToolboxItems>
+      <ToolboxItems VSCategory = "Toolbox.Default">
+        <Item Type = "Namespace.ControlName1" />
+        <Item Type = "Namespace.ControlName2" />
+      </ToolboxItems>
     </File>
     ```
 
@@ -212,10 +212,10 @@ Note that in Visual Studio 2019 and earlier, rather than listing toolbox control
 
     ```xml
     <File Reference = "sample.winmd">
-        <ToolboxItems VSCategory= "MyCategoryName">
-            <Item Type = "Namespace.ControlName1" />
-            <Item Type = "Namespace.ControlName2" />
-        </ToolboxItems>
+      <ToolboxItems VSCategory= "MyCategoryName">
+        <Item Type = "Namespace.ControlName1" />
+        <Item Type = "Namespace.ControlName2" />
+      </ToolboxItems>
     </File>
     ```
 
@@ -223,12 +223,12 @@ Note that in Visual Studio 2019 and earlier, rather than listing toolbox control
 
     ```xml
     <File Reference = "sample.winmd">
-        <ToolboxItems VSCategory = "Graph">
-            <Item Type = "Namespace.ControlName1" />
-        </ToolboxItems>
-        <ToolboxItems VSCategory = "Data">
-            <Item Type = "Namespace.ControlName2" />
-        </ToolboxItems>
+      <ToolboxItems VSCategory = "Graph">
+        <Item Type = "Namespace.ControlName1" />
+      </ToolboxItems>
+      <ToolboxItems VSCategory = "Data">
+        <Item Type = "Namespace.ControlName2" />
+      </ToolboxItems>
     </File>
     ```
 
@@ -237,10 +237,10 @@ Note that in Visual Studio 2019 and earlier, rather than listing toolbox control
     ```xml
     // Blend accepts a slightly different structure for the category name because it allows a path rather than a single category.
     <File Reference = "sample.winmd">
-        <ToolboxItems VSCategory = "Graph" BlendCategory = "Controls/sample/Graph">
-            <Item Type = "Namespace.ControlName1" />
-            <Item Type = "Namespace.ControlName2" />
-        </ToolboxItems>
+      <ToolboxItems VSCategory = "Graph" BlendCategory = "Controls/sample/Graph">
+        <Item Type = "Namespace.ControlName1" />
+        <Item Type = "Namespace.ControlName2" />
+      </ToolboxItems>
     </File>
     ```
 
@@ -248,12 +248,12 @@ Note that in Visual Studio 2019 and earlier, rather than listing toolbox control
 
     ```xml
     <File Reference = "sample.winmd">
-        <ToolboxItems VSCategory = "Graph">
-            <Item Type = "Namespace.ControlName1" />
-        </ToolboxItems>
-        <ToolboxItems BlendCategory = "Controls/sample/Graph">
-            <Item Type = "Namespace.ControlName2" />
-        </ToolboxItems>
+      <ToolboxItems VSCategory = "Graph">
+        <Item Type = "Namespace.ControlName1" />
+      </ToolboxItems>
+      <ToolboxItems BlendCategory = "Controls/sample/Graph">
+        <Item Type = "Namespace.ControlName2" />
+      </ToolboxItems>
     </File>
     ```
 
@@ -261,12 +261,12 @@ Note that in Visual Studio 2019 and earlier, rather than listing toolbox control
 
     ```xml
     <File Reference = "sample.winmd">
-        <ToolboxItems VSCategory = "Toolbox.Common">
-            <Item Type = "Namespace.ControlName1" />
-        </ToolboxItems>
-        <ToolboxItems VSCategory = "Toolbox.All">
-            <Item Type = "Namespace.ControlName2" />
-        </ToolboxItems>
+      <ToolboxItems VSCategory = "Toolbox.Common">
+        <Item Type = "Namespace.ControlName1" />
+      </ToolboxItems>
+      <ToolboxItems VSCategory = "Toolbox.All">
+        <Item Type = "Namespace.ControlName2" />
+      </ToolboxItems>
     </File>
     ```
 
@@ -274,10 +274,10 @@ Note that in Visual Studio 2019 and earlier, rather than listing toolbox control
 
     ```xml
     <File Reference = "sample.winmd">
-        <ToolboxItems VSCategory = "Toolbox.ChooseItemsOnly">
-            <Item Type = "Namespace.ControlName1" />
-            <Item Type = "Namespace.ControlName2" />
-        </ToolboxItems>
+      <ToolboxItems VSCategory = "Toolbox.ChooseItemsOnly">
+        <Item Type = "Namespace.ControlName1" />
+        <Item Type = "Namespace.ControlName2" />
+      </ToolboxItems>
     </File>
     ```
 
