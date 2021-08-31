@@ -4,8 +4,8 @@ description: "Learn how to create an ASP.NET Core web service in Visual Studio w
 ms.date: 08/24/2018
 ms.topic: quickstart
 ms.custom: vs-acquisition
-author: "cartermp"
-ms.author: "phcart"
+author: anandmeg
+ms.author: meghaanand
 manager: jmartens
 ms.technology: vs-ide-general
 dev_langs:

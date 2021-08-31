@@ -47,7 +47,7 @@ Visual Studio and the remote debugger try to open the correct ports during insta
 
 **To open a port using PowerShell:**
 
-For Windows Firewall, you can use PowerShell commands such as [New-NetFirewallRule](/powershell/module/netsecurity/new-netfirewallrule?view=win10-ps).
+For Windows Firewall, you can use PowerShell commands such as [New-NetFirewallRule](/powershell/module/netsecurity/new-netfirewallrule).
 
 The following example opens port 4024 for the remote debugger on the remote computer. The path you need to use may be different.
 

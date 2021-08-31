@@ -1,5 +1,5 @@
 ---
-title: Visual Studio Tools for Docker with ASP.NET
+title: Visual Studio Container Tools for Docker with ASP.NET on Windows
 author: ghogen
 description: Learn how to use Visual Studio 2019 tooling and Docker for Windows
 ms.author: ghogen
@@ -84,7 +84,7 @@ In the window, find your container and step through each tab to view the environ
 
 ![Screenshot of Containers window](../../media/overview/vs-2019/container-tools-window.png)
 
-For more information, see [View and diagnose containers and images in Visual Studio](../../view-and-diagnose-containers.md).
+For more information, see [Use the Containers window](../../view-and-diagnose-containers.md).
 
 ## Publish Docker images
 
