@@ -60,7 +60,7 @@ This tutorial requires the following prerequisites:
      
   1. In the Visual Studio Installer, select the **Node.js development** workload, and select **Install**.
      
-     ![Screenshot showing the Node j s workload selected in the Visual Studio Installer.](media/vs-2022/quickstart-nodejs-workload.png)
+     ![Screenshot showing the Node j s workload selected in the Visual Studio Installer.](media/quickstart-nodejs-workload.png)
   
   If you have Visual Studio installed but need the Node.js workload:
   

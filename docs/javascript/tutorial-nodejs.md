@@ -322,12 +322,9 @@ Breakpoints are the most basic and essential feature of reliable debugging. A br
 1. Hover over `getData` to see its properties in a DataTip:
 
     ::: moniker range=">=vs-2022"
-    ![Screenshot that shows inspecting variables during debugging.](media/vs-2022/tutorial-nodejs-inspect-variables.png)
+    [![Screenshot that shows inspecting variables during debugging.](media/vs-2022/tutorial-nodejs-inspect-variables.png)](media/vs-2022/tutorial-nodejs-inspect-variables.png#lightbox)
     ::: moniker-end
-    ::: moniker range="vs-2019"
-    ![Screenshot that shows inspecting variables during debugging.](../javascript/media/tutorial-nodejs-inspect-variables.png)
-    ::: moniker-end
-    ::: moniker range="vs-2017"
+    ::: moniker range="<=vs-2019"
     ![Screenshot that shows inspecting variables during debugging.](../javascript/media/tutorial-nodejs-inspect-variables.png)
     ::: moniker-end
 
