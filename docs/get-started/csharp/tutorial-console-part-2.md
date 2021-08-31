@@ -47,21 +47,21 @@ In Visual Studio, you can use the menu command **File** > **Add** > **New Projec
 
 1. In the **Add a new project** window, type *class library* in the Search box. Choose the C# **Class library** project template, and then select **Next**.
 
-   ::: moniker-range<="vs-2019"
+   ::: moniker-range="<=vs-2019"
    ![Screenshot of Class Library project template selection.](media/vs-2019/calculator2-add-project-dark.png)
    ::: moniker-end
-   ::: moniker-range>="vs-2022"
+   ::: moniker-range=">=vs-2022"
    ![Screenshot of Class Library project template selection.](media/vs-2022/calculator-add-project.png)
    ::: moniker-end
 
 1. On the **Configure your new project** screen, type the project name *CalculatorLibrary*, and then select **Next**.
    
-::: moniker-range<="vs-2019"
+::: moniker-range="<=vs-2019"
 1. Again, choose .NET 3.1 when asked. Visual Studio creates the new project and adds it to the solution.
 
    ![Screenshot of Solution Explorer with the CalculatorLibrary class library project added.](media/vs-2019/calculator2-solution-explorer-with-class-library-dark2.png)
 ::: moniker-end
-::: moniker-range>="vs-2022"
+::: moniker-range=">=vs-2022"
 1. On the **Additional information** screen, .NET 6.0 is selected. Select **Create**.
    
    Visual Studio creates the new project and adds it to the solution.
@@ -74,28 +74,28 @@ In Visual Studio, you can use the menu command **File** > **Add** > **New Projec
 
 1. Now add a project reference, so the first project can use APIs that the new class library exposes. Right-click the **Dependencies** node in the **Calculator** project and choose **Add Project Reference**.
 
-   ::: moniker-range<="vs-2019"
+   ::: moniker-range="<=vs-2019"
    ![Screenshot of the Add Project Reference menu item.](media/vs-2019/calculator2-add-project-reference-dark.png)
    ::: moniker-end
-   ::: moniker-range>="vs-2022"
+   ::: moniker-range=">=vs-2022"
    ![Screenshot of the Add Project Reference menu item.](media/vs-2022/calculator-add-project-reference.png)
    ::: moniker-end
 
    The **Reference Manager** dialog box appears. In this dialog box, you can add references to other projects, assemblies, and COM DLLs that your projects need.
 
-   ::: moniker-range<="vs-2019"
+   ::: moniker-range="<=vs-2019"
    ![Screenshot of the Reference Manager dialog box.](media/vs-2019/calculator2-ref-manager-dark.png)
    ::: moniker-end
-   ::: moniker-range>="vs-2022"
+   ::: moniker-range=">=vs-2022"
    ![Screenshot of the Reference Manager dialog box.](media/vs-2022/calculator-ref-manager.png)
    ::: moniker-end
 
 1. In the **Reference Manager** dialog box, select the checkbox for the **CalculatorLibrary** project, and then select **OK**. The project reference appears under a **Projects** node in **Solution Explorer**.
 
-   ::: moniker-range<="vs-2019"
+   ::: moniker-range="<=vs-2019"
    ![Screenshot of Solution Explorer with project reference.](media/vs-2019/calculator2-solution-explorer-with-project-reference-dark2.png)
    ::: moniker-end
-   ::: moniker-range>="vs-2022"
+   ::: moniker-range=">=vs-2022"
    ![Screenshot of Solution Explorer with project reference.](media/vs-2022/calculator-solution-explorer-with-project-reference.png)
    ::: moniker-end
 
@@ -141,7 +141,7 @@ In Visual Studio, you can use the menu command **File** > **Add** > **New Projec
     }
    ```
 
-1. *Program.cs* also has a reference, but there's an error that the `Calculator.DoOperation` call doesn't resolve. That's because `CalculatorLibrary` is in a different namespace. For a fully-qualified reference, you can add the `CalculatorLibrary` namespace to the `Calculator.DoOperation` call:
+1. *Program.cs* also has a reference, but there's an error that the `Calculator.DoOperation` call doesn't resolve. That's because `CalculatorLibrary` is in a different namespace. For a fully qualified reference, you can add the `CalculatorLibrary` namespace to the `Calculator.DoOperation` call:
 
    ```csharp
    result = CalculatorLibrary.Calculator.DoOperation(cleanNum1, cleanNum2, op);
@@ -308,7 +308,7 @@ namespace CalculatorLibrary
 }
 ```
 
-And *Program.cs* should resemble the following:
+And *Program.cs* should resemble the following code:
 
 ```csharp
 using System;
@@ -400,27 +400,27 @@ To output operations in JSON, a popular and portable format for storing object d
 
 1. In **Solution Explorer**, right-click the **Dependencies** node for the **CalculatorLibrary** project, and choose **Manage NuGet Packages**.
 
-   ::: moniker-range<="vs-2019"
+   ::: moniker-range="<=vs-2019"
    ![Screenshot of Manage NuGet Packages on the shortcut menu.](media/vs-2019/calculator2-manage-nuget-packages-dark2.png)
    ::: moniker-end
-   ::: moniker-range>="vs-2022"
+   ::: moniker-range=">=vs-2022"
    ![Screenshot of Manage NuGet Packages on the shortcut menu.](media/vs-2022/calculator-manage-nuget-packages.png)
    ::: moniker-end
 
    The NuGet Package Manager opens.
 
-   ::: moniker-range<="vs-2019"
+   ::: moniker-range="<=vs-2019"
    ![Screenshot of the NuGet Package Manager.](media/vs-2019/calculator2-nuget-package-manager-dark.png)
    ::: moniker-end
 
 1. Search for and select the *Newtonsoft.Json* package, and select **Install**.
 
-   ::: moniker-range<="vs-2019"
+   ::: moniker-range="<=vs-2019"
    ![Screenshot of Newtonsoft J son NuGet package information in the NuGet Package Manager.](media/vs-2019/calculator2-nuget-newtonsoft-json-dark2.png)
    
    Visual Studio downloads the package and adds it to the project. A new entry appears in the References node in **Solution Explorer**.
    ::: moniker-end
-   ::: moniker-range>="vs-2022"
+   ::: moniker-range=">=vs-2022"
    ![Screenshot of Newtonsoft J son NuGet package information in the NuGet Package Manager.](media/vs-2022/calculator-nuget-newtonsoft-json.png)
    If you're prompted whether to accept changes, select **OK**.
    
@@ -519,7 +519,7 @@ To output operations in JSON, a popular and portable format for storing object d
 
 1. Build and run the app, and after you're done entering a few operations, close the app by entering the *n* command.
    
-1. Open the *calculatorlog.json* file in Windows File Explorer, and you should see something like the following:
+1. Open the *calculatorlog.json* file in Windows File Explorer, and you should see something like the following content:
 
    ```json
    {
@@ -568,7 +568,7 @@ The Visual Studio debugger is a powerful tool that can step through your code. D
 
 ## Debug: View variables
 
-1. In the highlighted code, hover over variables such as `cleanNum1` and `op`. You see the current values for these variables, `8` and `d` respectively, which appear in DataTips.
+1. In the highlighted code, hover over variables such as `cleanNum1` and `op`. The current values for these variables, `8` and `d` respectively, appear in DataTips.
 
    ![Screenshot that shows viewing a DataTip.](media/vs-2019/calculator-2-debug-view-datatip.png)
 
@@ -578,10 +578,10 @@ The Visual Studio debugger is a powerful tool that can step through your code. D
 
    The **Locals** window shows each variable that's currently in scope, along with its value and type.
 
-   ::: moniker-range<="vs-2019"
+   ::: moniker-range="<=vs-2019"
    ![Screenshot of the Locals window.](media/vs-2019/calculator-2-debug-locals-window.png)
    ::: moniker-end
-   ::: moniker-range>="vs-2022"
+   ::: moniker-range=">=vs-2022"
    ![Screenshot of the Locals window.](media/vs-2022/calculator-debug-locals-window.png)
    ::: moniker-end
 
@@ -614,7 +614,7 @@ Next, you execute code in the debugger one statement at a time, which is called 
    {
    ```
 
-   The Step Over command is similar to the Step Into command, except that if the current statement calls a function, the debugger runs the code in the called function and doesn't suspend execution until the function returns. Step Over is faster than Step Into if you're not interested in a particular function.
+   The Step Over command is similar to the Step Into command, except that if the current statement calls a function, the debugger runs the code in the called function, and doesn't suspend execution until the function returns. Step Over is faster than Step Into if you're not interested in a particular function.
 
 1. Press **F10** one more time, so that the app pauses on the following line of code.
 
