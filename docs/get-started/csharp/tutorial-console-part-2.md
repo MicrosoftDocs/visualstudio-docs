@@ -70,7 +70,7 @@ In Visual Studio, you can use the menu command **File** > **Add** > **New Projec
 ::: moniker-end
 1. Rename the *Class1.cs* file to *CalculatorLibrary.cs*. To rename the file, you can select the name in **Solution Explorer** and press **F2** or select the name again to type, or right-click the name and choose **Rename**.
 
-   If a message asks whether you want to rename references to `Class1` in the file, it doesn't matter how you answer, because you replace the code in a future step.
+   A message might ask whether you want to rename references to `Class1` in the file. It doesn't matter how you answer, because you replace the code in a future step.
 
 1. Now add a project reference, so the first project can use APIs that the new class library exposes. Right-click the **Dependencies** node in the **Calculator** project and choose **Add Project Reference**.
 
