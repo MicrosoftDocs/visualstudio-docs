@@ -87,7 +87,7 @@ In Visual Studio, you can use the menu command **File** > **Add** > **New Projec
    ![Screenshot of the Reference Manager dialog box.](media/vs-2019/calculator2-ref-manager-dark.png)
    ::: moniker-end
    ::: moniker range=">=vs-2022"
-   ![Screenshot of the Reference Manager dialog box.](media/vs-2022/calculator-ref-manager.png)
+   ![Screenshot of the Reference Manager dialog box.](media/vs-2022/calculator-reference-manager.png)
    ::: moniker-end
 
 1. In the **Reference Manager** dialog box, select the checkbox for the **CalculatorLibrary** project, and then select **OK**. The project reference appears under a **Projects** node in **Solution Explorer**.
@@ -99,7 +99,11 @@ In Visual Studio, you can use the menu command **File** > **Add** > **New Projec
    ![Screenshot of Solution Explorer with project reference.](media/vs-2022/calculator-solution-explorer-with-project-reference.png)
    ::: moniker-end
 
-1. In *Program.cs*, select the `Calculator` class and all its code, and press **Ctrl**+**X** to cut it. Then, in *CalculatorLibrary.cs*, paste the code into the `CalculatorLibrary` namespace. Add `public` before the Calculator class to expose it outside the library. The code in *CalculatorLibrary.cs* should now resemble the following code:
+1. In *Program.cs*, select the `Calculator` class and all its code, and press **Ctrl**+**X** to cut it. Then, in *CalculatorLibrary.cs*, paste the code into the `CalculatorLibrary` namespace.
+   
+   Also add `public` before the Calculator class to expose it outside the library.
+
+   *CalculatorLibrary.cs* should now resemble the following code:
 
    ```csharp
    using System;
@@ -147,13 +151,15 @@ In Visual Studio, you can use the menu command **File** > **Add** > **New Projec
    result = CalculatorLibrary.Calculator.DoOperation(cleanNum1, cleanNum2, op);
    ```
 
-   You could try adding a `using` directive to the beginning of the file instead:
+   Instead, you could try adding a `using` directive to the beginning of the file:
 
    ```csharp
    using CalculatorLibrary;
    ```
 
-   This change should let you remove the `CalculatorLibrary` namespace from the call site, but now there's an ambiguity. Is `Calculator` the class in `CalculatorLibrary`, or is `Calculator` the namespace? To resolve the ambiguity, rename the namespace from `Calculator` to `CalculatorProgram` in both *program.cs* and *CalculatorLibrary.cs*.
+   That change should let you remove the `CalculatorLibrary` namespace from the call site, but now there's an ambiguity. Is `Calculator` the class in `CalculatorLibrary`, or is `Calculator` the namespace?
+   
+   To resolve the ambiguity, rename the namespace from `Calculator` to `CalculatorProgram` in both *program.cs* and *CalculatorLibrary.cs*.
 
    ```csharp
    namespace CalculatorProgram
@@ -172,7 +178,7 @@ You can use the .NET `Trace` class to add a log of all operations, and write it 
 
 1. This usage of the `Trace` class needs to hold onto a reference for the class, which it associates with a filestream. That requirement means the calculator works better as an object, so add a constructor at the beginning of the `Calculator` class in *CalculatorLibrary.cs*.
 
-   To change the static `DoOperation` method into a member method, remove the `static` keyword.
+   Also remove the `static` keyword to change the static `DoOperation` method into a member method.
 
    ```csharp
    public Calculator()
@@ -188,7 +194,7 @@ You can use the .NET `Trace` class to add a log of all operations, and write it 
       {
    ```
 
-1. Also add log output to each calculation, so `DoOperation` looks like the following code:
+1. Add log output to each calculation. `DoOperation` should look like the following code:
 
    ```csharp
    public double DoOperation(double num1, double num2, string op)
@@ -226,7 +232,7 @@ You can use the .NET `Trace` class to add a log of all operations, and write it 
     }
    ```
 
-1. Back in *Program.cs*, the static call is now flagged with a red squiggly underline. To fix the error, create a `calculator` variable by adding the following line just before the `while (!endApp)` loop:
+1. Back in *Program.cs*, the static call is now flagged with a red squiggly underline. To fix this error, create a `calculator` variable by adding the following line just before the `while (!endApp)` loop:
 
    ```csharp
    Calculator calculator = new Calculator();
@@ -249,7 +255,7 @@ You can use the .NET `Trace` class to add a log of all operations, and write it 
     3 * 3 = 9
     ```
 
-At this point, *CalculatorLibrary.cs* should look something like this:
+At this point, *CalculatorLibrary.cs* should look something like this code:
 
 ```csharp
 using System;
@@ -308,7 +314,7 @@ namespace CalculatorLibrary
 }
 ```
 
-And *Program.cs* should resemble the following code:
+*Program.cs* should resemble the following code:
 
 ```csharp
 using System;
@@ -396,7 +402,7 @@ namespace CalculatorProgram
 
 ## Add a NuGet Package: Write to a JSON file
 
-To output operations in JSON, a popular and portable format for storing object data, you reference the NuGet package Newtonsoft.Json. NuGet packages are the primary distribution method for .NET class libraries.
+To output operations in JSON, a popular and portable format for storing object data, you can reference the Newtonsoft.Json NuGet package. NuGet packages are the primary distribution method for .NET class libraries.
 
 1. In **Solution Explorer**, right-click the **Dependencies** node for the **CalculatorLibrary** project, and choose **Manage NuGet Packages**.
 
@@ -508,7 +514,7 @@ To output operations in JSON, a popular and portable format for storing object d
     }
    ```
 
-1. Add a call to `Finish` at the end of *Program.cs*, before the `return;`:
+1. At the end of *Program.cs*, before the `return;`, add a call to `Finish`:
 
    ```csharp
             // Add call to close the JSON writer before return
@@ -519,7 +525,7 @@ To output operations in JSON, a popular and portable format for storing object d
 
 1. Build and run the app, and after you're done entering a few operations, close the app by entering the *n* command.
    
-1. Open the *calculatorlog.json* file in Windows File Explorer, and you should see something like the following content:
+1. Open the *calculatorlog.json* file in File Explorer, and you should see something like the following content:
 
    ```json
    {
@@ -605,7 +611,9 @@ Next, you execute code in the debugger one statement at a time, which is called 
 
    ![Screenshot of the call stack](media/vs-2019/calculator-2-debug-call-stack.png)
 
-   This view shows the current `Calculator.DoOperation` method, indicated by the yellow pointer. The second row shows the function that called the method, from the `Main` method in *Program.cs*. The **Call Stack** window shows the order in which methods and functions are getting called. This window also provides access to many debugger features, such as **Go to Source Code**, from its shortcut menu.
+   This view shows the current `Calculator.DoOperation` method, indicated by the yellow pointer. The second row shows the function that called the method, from the `Main` method in *Program.cs*.
+   
+   The **Call Stack** window shows the order in which methods and functions are getting called. This window also provides access to many debugger features, such as **Go to Source Code**, from its shortcut menu.
 
 1. Press **F10**, or select **Debug** > **Step Over**, several times until the app pauses on the `switch` statement.
 
@@ -817,10 +825,10 @@ namespace CalculatorProgram
 
 Congratulations on completing this tutorial! To learn more, continue with the following content:
 
-- [Continue with more C# tutorials](/dotnet/csharp/tutorials/)
-- [Quickstart: create a ASP.NET Core web app](../../ide/quickstart-aspnet-core.md)
-- [Learn to debug C# code in Visual Studio](tutorial-debugger.md)
-- [Walkthrough on how to create and run unit tests](../../test/walkthrough-creating-and-running-unit-tests-for-managed-code.md)
-- [Run a C# program](run-program.md)
-- [C# IntelliSense](../../ide/visual-csharp-intellisense.md)
-- [Continue with the Visual Studio IDE overview](visual-studio-ide.md)
+- [Continue with more C# tutorials](/dotnet/csharp/tutorials/).
+- [Quickstart: Create a ASP.NET Core web app](../../ide/quickstart-aspnet-core.md).
+- [Learn to debug C# code in Visual Studio](tutorial-debugger.md).
+- [Walk through how to create and run unit tests](../../test/walkthrough-creating-and-running-unit-tests-for-managed-code.md).
+- [Run a C# program](run-program.md).
+- [Learn about C# IntelliSense](../../ide/visual-csharp-intellisense.md).
+- [Continue with the Visual Studio IDE overview](visual-studio-ide.md).
