@@ -237,7 +237,17 @@ For information on running the remote debugger as a service, see [Run the remote
 
     The breakpoint should be hit in Visual Studio.
 
-## <a name="bkmk_openports"></a> Troubleshooting: Open required ports on Windows Server
+## Troubleshooting IIS deployment
+
+- If you can't connect to the host using the host name, try the IP address instead.
+- Make sure the required ports are open on the remote server.
+- For ASP.NET Core, you need to make sure that the Application pool field for the **DefaultAppPool** is set to **No Managed Code**.
+- Verify that the version of ASP.NET used in your app is the same as the version you installed on the server. For your app, you can view and set the version in the **Properties** page. To set the app to a different version, that version must be installed.
+- If the app tried to open, but you see a certificate warning, choose to trust the site. If you already closed the warning, you can edit the publishing profile, a *.pubxml file, in your project and add the following element (for test only): `<AllowUntrustedCertificate>true</AllowUntrustedCertificate>`
+- If the app does not start from Visual Studio, start the app in IIS to test that it deployed correctly.
+- Check the Output window in Visual Studio for status information, and check your error messages.
+
+## <a name="bkmk_openports"></a> Open required ports on Windows Server
 
 In most setups, required ports are opened by the installation of ASP.NET and the remote debugger. However, you may need to verify that ports are open.
 
@@ -253,7 +263,7 @@ Required ports:
 ::: moniker range="vs-2017"
 * 4022 - Required for remote debugging from Visual Studio 2017 (see [Remote Debugger Port Assignments](../debugger/remote-debugger-port-assignments.md) for more information).
 ::: moniker-end
-* UDP 3702 - (Optional) Discovery port enables you to the **Find** button when attaching to the remote debugger in Visual Studio.
+* UDP 3702 - (Optional) Discovery port enables you to use the **Find** button when attaching to the remote debugger in Visual Studio.
 
 1. To open a port on Windows Server, open the **Start** menu, search for **Windows Firewall with Advanced Security**.
 
@@ -266,6 +276,7 @@ Required ports:
 5. Select one or more network types to enable for the port and click **Next**.
 
     The type you select must include the network to which the remote computer is connected.
+
 6. Add the name (for example, **IIS**, **Web Deploy**, or **msvsmon**) for the Inbound Rule and click **Finish**.
 
     You should see your new rule in the Inbound Rules or Outbound Rules list.

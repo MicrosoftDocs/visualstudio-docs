@@ -85,7 +85,7 @@ A publish settings file (*\*.publishsettings*) is different than a publishing pr
         msdeploySite="DeployASPDotNetCore"
         userName="$DeployASPDotNetCore"
         userPWD="abcdefghijklmnopqrstuzwxyz"
-        destinationAppUrl="http://deployaspdotnetcore20180508031824.azurewebsites.net"
+        destinationAppUrl="http://deployaspdotnetcore2021.azurewebsites.net"
         SQLServerDBConnectionString=""
         mySQLDBConnectionString=""
         hostingProviderForumLink=""

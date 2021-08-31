@@ -287,7 +287,17 @@ Download the version of the remote tools that matches your version of Visual Stu
 
     The breakpoint should be hit in Visual Studio.
 
-### <a name="bkmk_openports"></a> Troubleshooting: Open required ports on Windows Server
+## Troubleshooting IIS deployment
+
+- If you can't connect to the host using the host name, try the IP address instead.
+- Make sure the required ports are open on the remote server.
+- For ASP.NET Core, you need to make sure that the Application pool field for the **DefaultAppPool** is set to **No Managed Code**.
+- Verify that the version of ASP.NET used in your app is the same as the version you installed on the server. For your app, you can view and set the version in the **Properties** page. To set the app to a different version, that version must be installed.
+- If the app tried to open, but you see a certificate warning, choose to trust the site. If you already closed the warning, you can edit the publishing profile, a *.pubxml file, in your project and add the following element (for test only): `<AllowUntrustedCertificate>true</AllowUntrustedCertificate>`
+- If the app does not start from Visual Studio, start the app in IIS to test that it deployed correctly.
+- Check the Output window in Visual Studio for status information, and check your error messages.
+
+### <a name="bkmk_openports"></a> Open required ports on Windows Server
 
 In most setups, required ports are opened by the installation of ASP.NET and the remote debugger. However, if you are troubleshooting deployment issues and the app is hosted behind a firewall, you may need to verify that the correct ports are open.
 
