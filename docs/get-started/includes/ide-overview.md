@@ -229,7 +229,7 @@ Dive in and create a simple program.
 
    Visual Studio creates the project. It's a simple "Hello World" application that calls the <xref:System.Console.WriteLine?displayProperty=nameWithType> method to display the literal string "Hello World!" in the console (program output) window.
 
-   Shortly, you should see something like the following:
+   Shortly, you should see something like the following screen:
 
    ![Screenshot that shows the Visual Studio IDE.](../media/overview-ide-console-app.png)
 
@@ -249,7 +249,7 @@ Dive in and create a simple program.
 
 1. To close the console window, press any key on your keyboard.
 
-1. Let's add some additional code to the app. Add the following C# code before the line that says `Console.WriteLine("Hello World!");`:
+1. Let's add some more code to the app. Add the following C# code before the line that says `Console.WriteLine("Hello World!");`:
 
    ```csharp
    Console.WriteLine("\nWhat is your name?");
@@ -288,7 +288,7 @@ Dive in and create a simple program.
 
    The **Create a new project** window opens and shows several project *templates*. A template contains the basic files and settings required for a given project type.
 
-1. To find the template we want, type or enter **.net core console** in the search box. The list of available templates is automatically filtered based on the keywords you entered. You can further filter the template results by choosing **C#** from the **All language** drop-down list, **Windows** from the **All platforms** list, and **Console** from the **All project types** list .
+1. To find the template we want, type or enter **.net core console** in the search box. The list of available templates is automatically filtered based on the keywords you entered. You can further filter the template results by choosing **C#** from the **All language** drop-down list, **Windows** from the **All platforms** list, and **Console** from the **All project types** list.
 
     Select the **Console Application** template, and then click **Next**.
 
@@ -304,7 +304,7 @@ Dive in and create a simple program.
 
    Visual Studio creates the project. It's a simple "Hello World" application that calls the <xref:System.Console.WriteLine?displayProperty=nameWithType> method to display the literal string "Hello World!" in the console (program output) window.
 
-   Shortly, you should see something like the following:
+   Shortly, you should see something like the following screen:
 
    ![Screenshot that shows the Visual Studio IDE.](../media/vs-2019/overview-ide-console-app.png)
 
@@ -324,7 +324,7 @@ Dive in and create a simple program.
 
 1. To close the console window, press any key on your keyboard.
 
-1. Let's add some additional code to the app. Add the following C# code before the line that says `Console.WriteLine("Hello World!");`:
+1. Let's add some more code to the app. Add the following C# code before the line that says `Console.WriteLine("Hello World!");`:
 
    ```csharp
    Console.WriteLine("\nWhat is your name?");
@@ -360,7 +360,7 @@ Dive in and create a simple program.
 
    The **Create a new project** window opens and shows several project *templates*. A template contains the basic files and settings required for a given project type.
 
-1. To find a template, you can type or enter keywords in the search box. The list of available templates filters based on the keywords you enter. You can further filter the template results by choosing **C#** from the **All languages** dropdown list, **Windows** from the **All platforms** list, and **Console** from the **All project types** list .
+1. To find a template, you can type or enter keywords in the search box. The list of available templates filters based on the keywords you enter. You can further filter the template results by choosing **C#** from the **All languages** dropdown list, **Windows** from the **All platforms** list, and **Console** from the **All project types** list.
 
     Select the **Console Application** template, and then select **Next**.
 
@@ -398,7 +398,7 @@ Dive in and create a simple program.
 
 1. To close the console window, press any key.
 
-1. Let's add some additional code to the app. Add the following C# code before the line that says `Console.WriteLine("Hello World!");`:
+1. Let's add some more code to the app. Add the following C# code before the line that says `Console.WriteLine("Hello World!");`:
 
    ```csharp
    Console.WriteLine("\nWhat is your name?");
@@ -517,14 +517,14 @@ Set a breakpoint to see the value of the `username` variable while the program i
    ![Screenshot that shows a breakpoint on a line of code in Visual Studio.](../media/breakpoint.png)
    ::: moniker-end
    ::: moniker range=">=vs-2022"
-  ![Screenshot that shows a breakpoint on a line of code in Visual Studio.](../media/vs-2022/breakpoint.png)
+   ![Screenshot that shows a breakpoint on a line of code in Visual Studio.](../media/vs-2022/breakpoint.png)
    ::: moniker-end
  
 1. Start debugging by selecting **Debug** > **Start Debugging** or pressing **F5**.
 
 1. When the console window appears and asks for your name, enter your name.
 
-   The focus returns to the Visual Studio code editor, and the line of code with the breakpoint is highlighted in yellow. The yellow highlight means that this is the next line of code the app will execute. The breakpoint makes the app pause execution at this line.
+   The focus returns to the Visual Studio code editor, and the line of code with the breakpoint is highlighted in yellow. The yellow highlight means that this line of code will execute next. The breakpoint makes the app pause execution at this line.
 
 1. Hover your mouse over the `username` variable to see its value. You can also right-click on `username` and select **Add Watch** to add the variable to the **Watch** window, where you can also see its value.
 
@@ -537,7 +537,7 @@ Set a breakpoint to see the value of the `username` variable while the program i
 
 1. Press **F5** again to finish running the app.
 
-For more details about debugging in Visual Studio, see the [Debugger feature tour](../../debugger/debugger-feature-tour.md).
+For more information about debugging in Visual Studio, see the [Debugger feature tour](../../debugger/debugger-feature-tour.md).
 
 ## Customize Visual Studio
 
