@@ -2,7 +2,7 @@
 title: Manage project and solution properties
 description: Learn how to manage both the project properties and the solution properties in Visual Studio.
 ms.custom: SEO-VS-2020
-ms.date: 11/04/2016
+ms.date: 09/01/2021
 ms.topic: conceptual
 author: TerryGLee
 ms.author: tglee
@@ -13,7 +13,12 @@ ms.workload:
 ---
 # Manage project and solution properties
 
-Projects have properties that govern many aspects of compilation, debugging, testing and deploying. Some properties are common among all project types, and some are unique to specific languages or platforms. You access project properties by right-clicking the project node in **Solution Explorer** and choosing **Properties** or by typing **properties** into the search box on the menu bar and choosing **Properties Window** from the results.
+Projects have properties that govern many aspects of compilation, debugging, testing and deploying. Some properties are common among all project types, and some are unique to specific languages or platforms.
+
+> [!TIP]
+> In [Visual Studio 2022 Preview](/visualstudio/releases/2022/release-notes-preview), we've refreshed the project properties user interface and its functionality. To learn more, see the [**Revamped Project Properties UI**](https://devblogs.microsoft.com/visualstudio/flexible-theming-visual-studio/) blog post.
+
+You access project properties by right-clicking the project node in **Solution Explorer** and choosing **Properties**, or by typing **properties** into the search box on the menu bar and choosing **Properties Window** from the results.
 
 ![Project context menu](../ide/media/vs2015_proj_prop_menu.gif)
 
