@@ -25,7 +25,7 @@ Explore Visual Studio further by following along with one of these introductory 
 
 - Get acquainted with the code editor in [Learn to use the code editor](tutorial-editor.md).
 
-- Learn how Visual Studio organizes code in [Learn about projects and solutions](tutorial-projects-solutions.md)
+- Learn how Visual Studio organizes code in [Learn about projects and solutions](tutorial-projects-solutions.md).
 
 If you're ready to dive into more coding, one of the following language-specific quickstarts is a good next step:
 

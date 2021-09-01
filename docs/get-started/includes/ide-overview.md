@@ -15,7 +15,7 @@ An *integrated development environment* (IDE) is a feature-rich program that sup
 
 ::: moniker-end
 
-::: moniker range=">=vs-2019"
+::: moniker range="vs-2019"
 
 :::image type="content" source="../media/vs-2019/ide-overview.png" alt-text="A screenshot of the Visual Studio 2019 IDE, which includes callouts that indicate where key features and functionality are located." lightbox="../media/vs-2019/ide-overview.png":::
 
@@ -23,15 +23,15 @@ An *integrated development environment* (IDE) is a feature-rich program that sup
 
 ::: moniker range=">=vs-2022"
 
-![Screenshot showing the Visual Studio 2022 IDE, with callouts indicating the location of key features and functionality.](../media/vs-2022/ide-overview.png)
+[![Screenshot showing the Visual Studio 2022 IDE, with callouts indicating the location of key features and functionality.](../media/vs-2022/ide-overview.png)](../media/vs-2022/ide-overview.png#lightbox)
 
 ::: moniker-end
 
-The preceding image shows Visual Studio with an open project and key windows and functionality:
+The preceding image shows Visual Studio with an open project, and key windows and functionality:
 
 - In [Solution Explorer](../../ide/use-solution-explorer.md), at upper right, you can view, navigate, and manage your code files. **Solution Explorer** can help organize your code by grouping the files into [solutions and projects](../../ide/solutions-and-projects-in-visual-studio.md).
 
-- The central [editor window](../../ide/writing-code-in-the-code-and-text-editor.md), where you spend most your time, displays file contents. In the editor window, you can edit code or design a user interface such as a window with buttons and text boxes.
+- The central [editor window](../../ide/writing-code-in-the-code-and-text-editor.md), where you spend most of your time, displays file contents. In the editor window, you can edit code or design a user interface such as a window with buttons and text boxes.
 
 ::: moniker range="vs-2017"
 
@@ -49,11 +49,11 @@ There are three editions of Visual Studio: Community, Professional, and Enterpri
 
 ## Popular productivity features
 
-Some popular features in Visual Studio that help you be more productive when developing software include:
+Some popular features in Visual Studio that improve your productivity when developing software include:
 
 - Squiggles and [Quick Actions](../../ide/quick-actions.md)
 
-   Squiggles are wavy underlines that alert you to errors or potential problems in your code as you type. These visual clues help you fix problems immediately, without waiting to discover the error during build or runtime. If you hover over a squiggle, you see more information about the error. A lightbulb might also appear in the left margin showing *Quick Actions* you can take to fix the error.
+   Squiggles are wavy underlines that alert you to errors or potential problems in your code as you type. These visual clues help you fix problems immediately, without waiting to discover errors during build or runtime. If you hover over a squiggle, you see more information about the error. A lightbulb might also appear in the left margin showing *Quick Actions* you can take to fix the error.
 
    ::: moniker range="<=vs-2019"
    ![Screenshot showing squiggles in Visual Studio.](../media/squiggles-error.png)
@@ -66,9 +66,10 @@ Some popular features in Visual Studio that help you be more productive when dev
 ::: moniker range=">=vs-2019"
 - Code Cleanup
 
-   With the click of a button, format your code and apply any code fixes suggested by your [code style settings](../../ide/reference/options-text-editor-csharp-formatting.md), [.editorconfig conventions](../../ide/create-portable-custom-editor-options.md), and [Roslyn analyzers](../../code-quality/roslyn-analyzers-overview.md). **Code Cleanup**, currently available for C# code only, helps you resolve issues in your code before it goes to code review.
+   With the click of a button, you can format your code and apply any code fixes suggested by your [code style settings](../../ide/reference/options-text-editor-csharp-formatting.md), [.editorconfig conventions](../../ide/create-portable-custom-editor-options.md), and [Roslyn analyzers](../../code-quality/roslyn-analyzers-overview.md). **Code Cleanup**, currently available for C# code only, helps you resolve issues in your code before it goes to code review.
 
    ::: moniker-end
+
    ::: moniker range="vs-2019"
    ![Screenshot showing the Code Cleanup icon and menu in Visual Studio.](../media/vs-2019/code-cleanup.png)
    ::: moniker-end
@@ -89,7 +90,7 @@ Some popular features in Visual Studio that help you be more productive when dev
 
 - [IntelliSense](../../ide/using-intellisense.md)
 
-   IntelliSense is a set of features that display information about your code directly in the editor and, in some cases, write small bits of code for you. IntelliSense is basic documentation inline in the editor, so you don't have to look up type information elsewhere.
+   IntelliSense is a set of features that display information about your code directly in the editor and, in some cases, write small bits of code for you. IntelliSense is like having basic documentation inline in the editor, so you don't have to look up type information elsewhere.
 
    The following illustration shows how IntelliSense displays a member list for a type:
 
@@ -394,7 +395,7 @@ Dive in and create a simple program.
 
    Visual Studio builds the app, and a console window opens with the message **Hello, World!**. You now have a running app!
 
-   ![Screenshot of the Debug Console window showing the output Hello, World! and Press any key to close this window.](../media/vs-2019/overview-console-window.png)
+   ![Screenshot of the Debug Console window showing the output Hello, World! and Press any key to close this window.](../media/vs-2022/overview-console-window.png)
 
 1. To close the console window, press any key.
 
