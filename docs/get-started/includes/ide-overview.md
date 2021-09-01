@@ -23,7 +23,7 @@ An *integrated development environment* (IDE) is a feature-rich program that sup
 
 ::: moniker range=">=vs-2022"
 
-![Screenshot showing the Visual Studio 2022 IDE, with callouts indicating the location of key features and functionality.](../media/vs-2022/visual-studio-ide.png)
+![Screenshot showing the Visual Studio 2022 IDE, with callouts indicating the location of key features and functionality.](../media/vs-2022/ide-overview.png)
 
 ::: moniker-end
 
@@ -364,9 +364,9 @@ Dive in and create a simple program.
 
     Select the **Console Application** template, and then select **Next**.
 
-   ![Screenshot of the Create a new project window with Console Application selected.](../media/vs-2022/start-menu-create-new-project.png)
+   ![Screenshot of the Create a new project window with Console Application selected.](../media/vs-2022/start-window-create-new-project.png)
 
-1. In the **Configure your new project** window, enter **HelloWorld** in the **Project name** box. Optionally, change the project directory location from the default location of *C:\\Users\\<name>\\source\\repos*, and then select **Next**.
+1. In the **Configure your new project** window, enter **HelloWorld** in the **Project name** box. Optionally, change the project directory location from the default location of *C:\\Users\\\<name>\\source\\repos*, and then select **Next**.
 
    ![Screenshot of the Configure your new project window with the project name HelloWorld entered.](../media/vs-2022/configure-new-project.png)
 
@@ -505,7 +505,7 @@ First, rename the `name` variable:
 
 ## Debug code
 
-When you write code, you should run it and test it for bugs. Visual Studio's debugging system lets you step through code one statement at a time and inspect variables as you go. You can set *breakpoints* that stop execution of the code at a particular line. You can observe how the value of a variable changes as the code runs.
+When you write code, you should run it and test it for bugs. Visual Studio's debugging system lets you step through code one statement at a time and inspect variables as you go. You can set *breakpoints* that stop execution of the code at a particular line, and observe how the variable value changes as the code runs.
 
 Set a breakpoint to see the value of the `username` variable while the program is running.
 
@@ -514,7 +514,7 @@ Set a breakpoint to see the value of the `username` variable while the program i
    A red circle appears in the far left margin, and the line is highlighted.
 
    ::: moniker range="<=vs-2019"
-  ![Screenshot that shows a breakpoint on a line of code in Visual Studio.](../media/breakpoint.png)
+   ![Screenshot that shows a breakpoint on a line of code in Visual Studio.](../media/breakpoint.png)
    ::: moniker-end
    ::: moniker range=">=vs-2022"
   ![Screenshot that shows a breakpoint on a line of code in Visual Studio.](../media/vs-2022/breakpoint.png)
@@ -564,7 +564,7 @@ You can personalize the Visual Studio user interface, including changing the def
 
    The color theme for the entire IDE changes accordingly. The following screenshot shows the Blue theme:
 
-   ![Screenshot that shows Visual Studio in Blue theme.](../media/vs-2022/dark-theme.png)
+   ![Screenshot that shows Visual Studio in Blue theme.](../media/vs-2022/blue-theme.png)
    ::: moniker-end
 
 To learn about other ways you can personalize the IDE, see [Personalize Visual Studio](../../ide/personalizing-the-visual-studio-ide.md).
