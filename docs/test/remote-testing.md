@@ -110,15 +110,15 @@ The environment can be specified in `testEnvironments.json` in the root of your 
 ## Use the Test Explorer to run and debug remote tests
 * The active environment is selected via a drop-down in the Test Explorer tool bar. Currently, only one test environment can be active at a time.
 
-  ![Remote testing environment drop down in Test Explorer](media/remote_test_drop_down.png)
+  ![Remote testing environment drop down in Test Explorer](media/remote-test-drop-down.png)
 
 * Once an environment is selected, tests are discovered and run in the new environment.
 
-  ![Tests are discovered and executed in remote environments](media/remote_test_linux_discovery.png)
+  ![Tests are discovered and executed in remote environments](media/remote-test-linux-discovery.png)
 
 * You can now run your tests inside the remote and debug your tests in environments!
 
-  ![View test results from remote environment in the test explorer](media/remote_test_linux_passing.png)
+  ![View test results from remote environment in the test explorer](media/remote-test-linux-passing.png)
 
 * Test Explorer may prompt you to install some missing environment prerequisites and attempt to install missing dependencies. However, the bulk of the provisioning of the remote environment is up to the user’s specification.
 
