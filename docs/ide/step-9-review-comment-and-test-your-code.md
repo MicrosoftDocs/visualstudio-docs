@@ -8,8 +8,8 @@ ms.topic: tutorial
 dev_langs:
   - "CSharp"
   - "VB"
-author: j-martens
-ms.author: jmartens
+author: anandmeg
+ms.author: meghaanand
 manager: jmartens
 ms.technology: vs-ide-general
 ms.workload:
