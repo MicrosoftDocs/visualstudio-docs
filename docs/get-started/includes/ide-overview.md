@@ -63,17 +63,19 @@ Some popular features in Visual Studio that improve your productivity when devel
    ::: moniker-end
   
 
-::: moniker range=">=vs-2019"
+::: moniker range="vs-2019"
 - Code Cleanup
 
    With the click of a button, you can format your code and apply any code fixes suggested by your [code style settings](../../ide/reference/options-text-editor-csharp-formatting.md), [.editorconfig conventions](../../ide/create-portable-custom-editor-options.md), and [Roslyn analyzers](../../code-quality/roslyn-analyzers-overview.md). **Code Cleanup**, currently available for C# code only, helps you resolve issues in your code before it goes to code review.
 
-   ::: moniker-end
-
-   ::: moniker range="vs-2019"
    ![Screenshot showing the Code Cleanup icon and menu in Visual Studio.](../media/vs-2019/code-cleanup.png)
    ::: moniker-end
-   ::: moniker range=">=vs-2022"
+
+::: moniker range=">=vs-2022"
+- Code Cleanup
+
+   With the click of a button, you can format your code and apply any code fixes suggested by your [code style settings](../../ide/reference/options-text-editor-csharp-formatting.md), [.editorconfig conventions](../../ide/create-portable-custom-editor-options.md), and [Roslyn analyzers](../../code-quality/roslyn-analyzers-overview.md). **Code Cleanup**, currently available for C# code only, helps you resolve issues in your code before it goes to code review.
+
    ![Screenshot showing the Code Cleanup icon and menu in Visual Studio.](../media/vs-2022/code-cleanup.png)
    ::: moniker-end
 
