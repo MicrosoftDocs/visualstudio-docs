@@ -161,7 +161,7 @@ In Visual Studio, you use the menu command **File** > **Add** > **New Project** 
 
    Adding the `using` directive should let you remove the `CalculatorLibrary` namespace from the call site, but now there's an ambiguity. Is `Calculator` the class in `CalculatorLibrary`, or is `Calculator` the namespace?
    
-   To resolve the ambiguity, rename the namespace from `Calculator` to `CalculatorProgram` in both *program.cs* and *CalculatorLibrary.cs*.
+   To resolve the ambiguity, rename the namespace from `Calculator` to `CalculatorProgram` in both *Program.cs* and *CalculatorLibrary.cs*.
 
    ```csharp
    namespace CalculatorProgram
@@ -424,12 +424,12 @@ To output operations in JSON, a popular and portable format for storing object d
 1. Search for and select the *Newtonsoft.Json* package, and select **Install**.
 
    ::: moniker range="vs-2019"
-   ![Screenshot of Newtonsoft J son NuGet package information in the NuGet Package Manager.](media/vs-2019/calculator2-nuget-newtonsoft-json-dark2.png)
+   ![Screenshot of Newtonsoft J SON NuGet package information in the NuGet Package Manager.](media/vs-2019/calculator2-nuget-newtonsoft-json-dark2.png)
    
    Visual Studio downloads the package and adds it to the project. A new entry appears in the References node in **Solution Explorer**.
    ::: moniker-end
    ::: moniker range=">=vs-2022"
-   ![Screenshot of Newtonsoft J son NuGet package information in the NuGet Package Manager.](media/vs-2022/calculator-nuget-newtonsoft-json.png)
+   ![Screenshot of Newtonsoft J SON NuGet package information in the NuGet Package Manager.](media/vs-2022/calculator-nuget-newtonsoft-json.png)
    If you're prompted whether to accept changes, select **OK**.
    
    Visual Studio downloads the package and adds it to the project. A new entry appears in a **Packages** node in **Solution Explorer**.
@@ -550,7 +550,7 @@ To output operations in JSON, a popular and portable format for storing object d
 
 ## Debug: Set and hit a breakpoint
 
-The Visual Studio debugger is a powerful tool that can step through your code. Debugging helps you find the exact point where there's a programming mistake, understand what corrections you need to make, and make temporary changes so you can continue running your app.
+The Visual Studio debugger is a powerful tool. With the debugger, you can step through your code to find the exact point where there's a programming mistake. Visual Studio debugging tools help you understand what corrections you need to make, and make temporary changes so you can continue running your app.
 
 1. In *Program.cs*, click in the gutter to the left of the following code line. You can also click in the line and select **F9**, or right-click the line and select **Breakpoint** > **Insert Breakpoint**.
 
