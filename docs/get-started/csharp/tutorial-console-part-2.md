@@ -550,7 +550,7 @@ To output operations in JSON, a popular and portable format for storing object d
 
 ## Debug: Set and hit a breakpoint
 
-The Visual Studio debugger is a powerful tool. With the debugger, you can step through your code to find the exact point where there's a programming mistake. Visual Studio debugging tools help you understand what corrections you need to make, and make temporary changes so you can continue running your app.
+The Visual Studio debugger is a powerful tool. The debugger can step through your code to find the exact point where there's a programming mistake. You can then understand what corrections you need to make, and make temporary changes so you can continue running your app.
 
 1. In *Program.cs*, click in the gutter to the left of the following code line. You can also click in the line and select **F9**, or right-click the line and select **Breakpoint** > **Insert Breakpoint**.
 
