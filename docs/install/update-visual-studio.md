@@ -334,11 +334,11 @@ You can check for an update and then install it by using the menu bar or the sea
 
 1. From the Windows **Start** menu, choose **Visual Studio 2022 Preview**.
 
-    ![Screenshot showing the Visual Studio 2022 Preview entry in the Windows 10 Start menu.](media/vs-2022/vs-ide-start-menu.png "Open Visual Studio 2022 Preview from Windows")
+    ![Screenshot showing the Visual Studio 2022 Preview entry in the Windows 10 Start menu.](media/vs-2022/ide-start-menu.png "Open Visual Studio 2022 Preview from Windows")
 
 1. Under **Get started** in the start window, choose any option to open the Visual Studio IDE.
 
-    ![Screenshot showing the start window in the Visual Studio IDE.](media/vs-2022/vs2022-choose-option-from-get-started.png "Open the Visual Studio IDE")
+    ![Screenshot showing the start window in the Visual Studio IDE.](media/vs-2022/choose-option-from-get-started.png "Open the Visual Studio IDE")
 
     Visual Studio opens. In the Visual Studio IDE, a **Visual Studio 2022 update** message appears briefly.
 
@@ -358,7 +358,7 @@ You can check for an update and then install it by using the menu bar or the sea
 
 1. From the menu bar, choose **Help**, and then choose **Check for Updates**.
 
-     ![Screenshot showing the 'Check for Updates' option in the Help menu.](media/vs-2022/vs-ide-check-updates-help-menu.png "Choose 'Check for Updates' from the Help menu")
+     ![Screenshot showing the 'Check for Updates' option in the Help menu.](media/vs-2022/ide-check-updates-help-menu.png "Choose 'Check for Updates' from the Help menu")
 
     > [!NOTE]
     > You can also use the search box in the Visual Studio IDE to check for updates. Press **Ctrl**+**Q**, type "check for updates", and then choose the search result that matches.
