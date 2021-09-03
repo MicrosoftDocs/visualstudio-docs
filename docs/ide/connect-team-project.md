@@ -6,7 +6,7 @@ ms.date: 06/11/2021
 ms.topic: conceptual
 ms.author: tglee
 author: TerryGLee
-ms.manager: jillfra
+ms.manager: jmartens
 monikerRange: "<=vs-2019"
 ---
 # Connect to projects in Team Explorer

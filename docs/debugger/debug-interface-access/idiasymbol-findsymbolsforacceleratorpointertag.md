@@ -1,5 +1,5 @@
 ---
-description: "Returns the number of accelerator pointer tags in a C++ AMP stub function."
+description: "Given a corresponding tag value, this method returns an enumeration of symbols that are contained in this stub function."
 title: "IDiaSymbol::findSymbolsForAcceleratorPointerTag | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -14,7 +14,8 @@ ms.workload:
   - "multiple"
 ---
 # IDiaSymbol::findSymbolsForAcceleratorPointerTag
-Returns the number of accelerator pointer tags in a C++ AMP stub function.
+
+Given a corresponding tag value, this method returns an enumeration of symbols that are contained in this stub function.
 
 ## Syntax
 

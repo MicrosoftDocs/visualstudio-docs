@@ -7,8 +7,8 @@ ms.custom: [vs-acquisition,  get-started, SEO-VS-2020]
 ms.topic: tutorial
 f1_keywords:
 - project.addnewitem
-author: anandmeg
-ms.author: meghaanand
+author: TerryGLee
+ms.author: tglee
 manager: jmartens
 ms.workload:
 - multiple

@@ -1,7 +1,7 @@
 ---
 title: "Publish to Azure by importing publish settings"
 description: "Create and import a publishing profile to deploy an application from Visual Studio to Azure App Service"
-ms.date: 05/06/2020
+ms.date: 08/27/2021
 ms.topic: tutorial
 helpviewer_keywords:
   - "deployment, publish settings"
@@ -85,7 +85,7 @@ A publish settings file (*\*.publishsettings*) is different than a publishing pr
         msdeploySite="DeployASPDotNetCore"
         userName="$DeployASPDotNetCore"
         userPWD="abcdefghijklmnopqrstuzwxyz"
-        destinationAppUrl="http://deployaspdotnetcore20180508031824.azurewebsites.net"
+        destinationAppUrl="http://deployaspdotnetcore2021.azurewebsites.net"
         SQLServerDBConnectionString=""
         mySQLDBConnectionString=""
         hostingProviderForumLink=""

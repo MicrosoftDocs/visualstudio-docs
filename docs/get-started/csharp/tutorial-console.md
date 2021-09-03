@@ -102,8 +102,6 @@ If you don't see the **Console App (.NET Core)** project template, you can get i
 
    After you apply the language, platform, and project type filters, choose the **Console Application** template, and then choose **Next**.
 
-    :::image type="content" source="./media/vs-2019/csharp-create-new-project-console-net-core.png" alt-text="Choose the C# template for the Console App (.NET Framework)":::
-
    > [!NOTE]
    > If you do not see the **Console Application** template, you can install it from the **Create a new project** window. In the **Not finding what you're looking for?** message, choose the **Install more tools and features** link.
    >
@@ -638,13 +636,3 @@ Continue with the second part of this tutorial:
 > [!div class="nextstepaction"]
 > [Tutorial Part 2: Using multiple projects and 3rd party packages](tutorial-console-part-2.md)
 :::moniker-end
-
-Also of interest:
-
-- [Continue with more C# tutorials](/dotnet/csharp/tutorials/)
-- [Quickstart: create a ASP.NET Core web app](../../ide/quickstart-aspnet-core.md)
-- [Learn to debug C# code in Visual Studio](tutorial-debugger.md)
-- Walkthrough on how to [create and run unit tests](../../test/walkthrough-creating-and-running-unit-tests-for-managed-code.md)
-- [Run a C# program](run-program.md)
-- [C# IntelliSense](../../ide/visual-csharp-intellisense.md)
-- [Continue with Visual Studio IDE overview](/../visual-studio-ide.md)
