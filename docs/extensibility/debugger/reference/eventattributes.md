@@ -1,20 +1,22 @@
 ---
-title: "EVENTATTRIBUTES | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Specifies the event attributes."
+title: EVENTATTRIBUTES | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "EVENTATTRIBUTES"
+- EVENTATTRIBUTES
 helpviewer_keywords:
-  - "EVENTATTRIBUTES enumeration"
+- EVENTATTRIBUTES enumeration
 ms.assetid: 04db10f7-df31-4464-98e8-b3777428179e
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # EVENTATTRIBUTES
 Specifies the event attributes.

@@ -1,15 +1,18 @@
 ---
-title: "How to: Display Message Properties | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-helpviewer_keywords:
-  - "message properties in SpyHelp"
+title: Display Message Properties | Microsoft Docs
+description: Messages View displays the message stream of a window, process, or thread. Learn how to display the properties of a message that appears in Messages View.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
+helpviewer_keywords: 
+  - message properties in SpyHelp
 ms.assetid: 8b72b071-691b-48b7-8852-f748c20fc787
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
-ms.workload:
-  - "multiple"
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.technology: vs-ide-debug
+ms.workload: 
+  - multiple
 ---
 # How to: Display Message Properties
 To find out more about a message listed in [Messages View](../debugger/messages-view.md), use the [Message Properties Dialog Box](../debugger/message-properties-dialog-box.md).

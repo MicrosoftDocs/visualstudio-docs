@@ -1,20 +1,22 @@
 ---
-title: "STEPKIND | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Specifies the step kind for stepping."
+title: STEPKIND | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "STEPKIND"
+- STEPKIND
 helpviewer_keywords:
-  - "STEPKIND enumeration"
+- STEPKIND enumeration
 ms.assetid: d3d8cf76-24bf-455e-803e-0e3e28f0b262
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # STEPKIND
 Specifies the step kind for stepping.

@@ -1,14 +1,17 @@
 ---
 title: Properties of Port Shapes
+description: Learn about port shapes and how you can use port shapes to represent domain classes in the generated designer.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
   - "vs.dsltools.dsldesigner.port"
 helpviewer_keywords:
   - "Domain-Specific Language, port shape"
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: mgoertz-msft
+ms.author: mgoertz
+manager: jmartens
+ms.technology: vs-ide-modeling
 ms.workload:
   - "multiple"
 ---
@@ -47,6 +50,6 @@ You can use port shapes to represent domain classes in the generated designer.
 |Fixed Tool Tip Text|The text that is used for a fixed tooltip.|\<none>|
 |Help Keyword|The keyword that is used to index F1 help for this shape.|\<none>|
 
-## See Also
+## See also
 
-- [Domain-Specific Language Tools Glossary](https://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)
+- [Domain-Specific Language Tools Glossary](/previous-versions/bb126564(v=vs.100))

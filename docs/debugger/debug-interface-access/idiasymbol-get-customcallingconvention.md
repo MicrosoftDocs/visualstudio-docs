@@ -1,7 +1,8 @@
 ---
+description: "Retrieves a flag that specifies whether the function has a custom calling convention."
 title: "IDiaSymbol::get_customCallingConvention | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,8 @@ helpviewer_keywords:
 ms.assetid: 0aa97951-f7e1-4fa5-a87f-2920460c122d
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -42,5 +44,5 @@ HRESULT get_customCallingConvention(
 |Header:|dia2.h|
 |Version:|DIA SDK v8.0|
 
-## See Also
+## See also
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

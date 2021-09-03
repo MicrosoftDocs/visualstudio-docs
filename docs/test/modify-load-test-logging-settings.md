@@ -1,13 +1,16 @@
 ---
-title: "Load Test Logging Settings"
+title: Load Test Logging Settings
+description: Learn how to modify load test logging settings to control the amount of performance data collected, which can lead to very large result files.
+ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "load tests, logging, modifying"
+- load tests, logging, modifying
 ms.assetid: 9649226a-857d-41ef-8ec7-047b6e498033
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.technology: vs-ide-test
 ---
 # Modify load test logging settings
 

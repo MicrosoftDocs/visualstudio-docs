@@ -1,7 +1,8 @@
 ---
-title: "Error: Debugging Isn&#39;t Possible Because a Kernel Debugger is Enabled on the System | Microsoft Docs"
+title: "Debugging Isn&apos;t Possible Because a Kernel Debugger is Enabled on the System | Microsoft Docs"
+description: "This message occurs when you try to debug managed code on a Windows 7 or Windows Vista system that has been started in debug mode, and the application uses the CLR version CLR 2.0, 3.0, or 3.5."
 ms.date: "11/04/2016"
-ms.topic: "troubleshooting"
+ms.topic: "error-reference"
 f1_keywords:
   - "vs.debug.error.kernel_dbg_enabled"
 dev_langs:
@@ -13,7 +14,8 @@ helpviewer_keywords:
   - "kernel debugger"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -26,7 +28,7 @@ Debugging isn't possible because a kernel debugger is enabled on the system
 
  This message occurs when you try to debug managed code:
 
-- on a [!INCLUDE[win7](../debugger/includes/win7_md.md)] or [!INCLUDE[wiprlhext](../debugger/includes/wiprlhext_md.md)]system that has been started in debug mode.
+- on a [!INCLUDE[win7](../debugger/includes/win7_md.md)] or [!INCLUDE[wiprlhext](../debugger/includes/wiprlhext_md.md)] system that has been started in debug mode.
 
 - the application uses the CLR version CLR 2.0, 3.0, or 3.5.
 
@@ -92,6 +94,6 @@ Debugging isn't possible because a kernel debugger is enabled on the system
 
      `gn`
 
-## See Also
+## See also
 - [Debugger Security](../debugger/debugger-security.md)
 - [Debugging Managed Code](../debugger/debugging-managed-code.md)

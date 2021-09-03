@@ -1,16 +1,19 @@
 ---
-title: "About File Name Extensions | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: About File Name Extensions | Microsoft Docs
+description: Learn how to register file name extensions for VSPackages and associate them with a specific version of Visual Studio.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "file extensions"
-  - "file name extensions"
+- file extensions
+- file name extensions
 ms.assetid: 99f4f9ff-fb84-4258-9787-6890f308a57f
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # About file name extensions
 When you register a file extension of a VSPackage, you associate it with a version of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. This is important if more than one version of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] is installed on a computer.

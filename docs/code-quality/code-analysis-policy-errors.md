@@ -1,17 +1,20 @@
 ---
 title: Code Analysis Policy Errors
 ms.date: 11/04/2016
+description: Learn about code analysis policy errors in Visual Studio. View descriptions of errors that occur if the policy is not satisfied when code is checked in.
+ms.custom: SEO-VS-2020
 ms.topic: reference
 f1_keywords:
-  - "vs.codeanalysis.policyfailures"
+- vs.codeanalysis.policyfailures
 helpviewer_keywords:
-  - "policy errors, code analysis"
+- policy errors, code analysis
 ms.assetid: d1f221cd-68c0-4277-9397-b76ad0dbae77
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.technology: vs-ide-code-analysis
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Code Analysis Policy Errors
 
@@ -67,6 +70,6 @@ This error applied to [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 
 
 This error applies to unmanaged projects. The code analysis policy requires Code Analysis for C/C++, but it is not enabled in the current project on the client.
 
-## See Also
+## See also
 
 - [Code Analysis Application Errors](../code-quality/code-analysis-application-errors.md)

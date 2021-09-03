@@ -1,20 +1,22 @@
 ---
-title: "IDebugFunctionPosition2::GetFunctionName | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Gets the name of the function to which this position points."
+title: IDebugFunctionPosition2::GetFunctionName | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugFunctionPosition2::GetFunctionName"
+- IDebugFunctionPosition2::GetFunctionName
 helpviewer_keywords:
-  - "IDebugFunctionPosition2::GetFunctionName"
+- IDebugFunctionPosition2::GetFunctionName
 ms.assetid: eb7a348e-a7f5-4f25-be68-80482d5482a8
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugFunctionPosition2::GetFunctionName
 Gets the name of the function to which this position points.

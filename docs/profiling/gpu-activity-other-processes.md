@@ -1,5 +1,7 @@
 ---
 title: "GPU Activity (Other Processes) | Microsoft Docs"
+description: Learn about the GPU Activity (Other Processes) segments in the Threads view of the Concurrency Visualizer.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:
@@ -8,7 +10,8 @@ f1_keywords:
 ms.assetid: 8a68df65-eb63-452f-9285-fb4ffc92f2b2
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---

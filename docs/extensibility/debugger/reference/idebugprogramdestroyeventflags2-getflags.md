@@ -1,19 +1,21 @@
 ---
-title: "IDebugProgramDestroyEventFlags2::GetFlags | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Retrieves the program destroy flags."
+title: IDebugProgramDestroyEventFlags2::GetFlags | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "GetFlags"
-  - "IDebugProgramDestroyEventFlags2::GetFlags"
+- GetFlags
+- IDebugProgramDestroyEventFlags2::GetFlags
 ms.assetid: dd53bd0c-459a-4077-ba81-780defb71e87
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugProgramDestroyEventFlags2::GetFlags
 Retrieves the program destroy flags.

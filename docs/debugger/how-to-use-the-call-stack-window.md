@@ -1,34 +1,36 @@
 ---
-title: "View the call stack in the debugger | Microsoft Docs"
-ms.custom: "seodec18"
-ms.date: "10/29/2018"
-ms.topic: "conceptual"
-f1_keywords:
-  - "vs.debug.callstack"
-dev_langs:
-  - "CSharp"
-  - "VB"
-  - "FSharp"
-  - "C++"
-  - "JScript"
-  - "SQL"
-  - "aspx"
-helpviewer_keywords:
-  - "threading [Visual Studio], displaying calls to or from"
-  - "functions [debugger], viewing code on call stack"
-  - "disassembly code"
-  - "breakpoints, Call Stack window"
-  - "debugging [Visual Studio], switching to another stack frame"
-  - "debugging [Visual Studio], Call Stack window"
-  - "Call Stack window, viewing source code for functions on the call stack"
-  - "stack, switching stack frames"
-  - "Call Stack window, viewing disassembly code for functions on the call stack"
+title: View the call stack in the debugger | Microsoft Docs
+description: Use the Call Stack window to view the function or procedure calls that are currently on the stack in Visual Studio.
+ms.custom: "SEO-VS-2020"
+ms.date: 10/29/2018
+ms.topic: how-to
+f1_keywords: 
+  - vs.debug.callstack
+dev_langs: 
+  - CSharp
+  - VB
+  - FSharp
+  - C++
+  - JScript
+  - SQL
+  - aspx
+helpviewer_keywords: 
+  - threading [Visual Studio], displaying calls to or from
+  - functions [debugger], viewing code on call stack
+  - disassembly code
+  - breakpoints, Call Stack window
+  - debugging [Visual Studio], switching to another stack frame
+  - debugging [Visual Studio], Call Stack window
+  - Call Stack window, viewing source code for functions on the call stack
+  - stack, switching stack frames
+  - Call Stack window, viewing disassembly code for functions on the call stack
 ms.assetid: 5154a2a1-4729-4dbb-b675-db611a72a731
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
-ms.workload:
-  - "multiple"
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.technology: vs-ide-debug
+ms.workload: 
+  - multiple
 ---
 # View the call stack and use the Call Stack window in the debugger
 
@@ -80,7 +82,7 @@ Non-user code is any code that is not shown when [Just My Code](../debugger/just
 
 ## Set a breakpoint on the exit point of a function call
 
-- See [Set a breakpoint at a call stack function](../debugger/using-breakpoints.md#BKMK_Set_a_breakpoint_in_the_call_stack_window).
+- See [Set a breakpoint at a call stack function](../debugger/using-breakpoints.md#BKMK_Set_a_breakpoint_from_debugger_windows).
 
 ## Display calls to or from another thread
 
@@ -106,7 +108,7 @@ In Visual Studio Enterprise (only), you can view code maps for the call stack wh
 
 ## <a name="bkmk_symbols"></a> Load symbols for a module (C#, C++, Visual Basic, F#)
 
-In the **Call Stack** window, you can load debugging symbols for code that does not currently have symbols loaded. These symbols can be .NET Framework or system symbols downloaded from the Microsoft public symbol servers, or symbols in a symbol path on the computer that you are debugging.
+In the **Call Stack** window, you can load debugging symbols for code that does not currently have symbols loaded. These symbols can be .NET or system symbols downloaded from the Microsoft public symbol servers, or symbols in a symbol path on the computer that you are debugging.
 
 See [Specify symbol (.pdb) and source files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md).
 

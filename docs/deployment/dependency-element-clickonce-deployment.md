@@ -1,5 +1,7 @@
 ---
 title: "&lt;dependency&gt; Element (ClickOnce Deployment) | Microsoft Docs"
+description: The dependency element identifies the version of the application to install, and the location of the application manifest.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 f1_keywords:
@@ -22,7 +24,8 @@ helpviewer_keywords:
 ms.assetid: 9b4d2082-0347-4922-ac70-85f11b913039
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-deployment
 ms.workload:
   - "multiple"
 ---
@@ -120,7 +123,7 @@ Identifies the version of the application to install, and the location of the ap
 ## Remarks
  Deployment manifests typically have a single `assemblyIdentity` element that identifies the name and version of the application manifest.
 
-## Example
+## Example 1
  The following code example shows a `dependency` element in a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment manifest.
 
 ```xml
@@ -139,7 +142,7 @@ Identifies the version of the application to install, and the location of the ap
 </dependency>
 ```
 
-## Example
+## Example 2
  The following code example specifies a dependency on an assembly already installed in the GAC.
 
 ```xml
@@ -150,7 +153,7 @@ Identifies the version of the application to install, and the location of the ap
 </dependency>
 ```
 
-## Example
+## Example 3
  The following code example specifies a dependency on a specific version of the common language runtime.
 
 ```xml
@@ -161,7 +164,7 @@ Identifies the version of the application to install, and the location of the ap
 </dependency>
 ```
 
-## Example
+## Example 4
  The following code example specifies an operating system dependency.
 
 ```xml

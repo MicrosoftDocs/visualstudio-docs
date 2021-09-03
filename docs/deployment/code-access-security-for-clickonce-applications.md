@@ -1,5 +1,7 @@
 ---
 title: "Code Access Security for ClickOnce Applications | Microsoft Docs"
+description: Learn about code access security for ClickOnce applications and how to configure the code access security permissions.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:
@@ -20,7 +22,8 @@ helpviewer_keywords:
 ms.assetid: 04b104d0-0bd3-4ccb-b164-1de92d234487
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-deployment
 ms.workload:
   - "multiple"
 ---
@@ -61,7 +64,7 @@ ClickOnce applications are based on the .NET Framework and are subject to code a
 
  In addition, when you write code, the IntelliSense feature in the Code Editor will disable any members that are not included in the security permissions that you have configured.
 
- For more information, see [How to: Debug a ClickOnce Application with Restricted Permissions](../deployment/how-to-debug-a-clickonce-application-with-restricted-permissions.md).
+ For more information, see [How to: Debug a ClickOnce Application with Restricted Permissions](securing-clickonce-applications.md).
 
 ## Security permissions for browser-hosted applications
  Visual Studio provides the following project types for Windows Presentation Foundation (WPF) applications:
@@ -89,6 +92,6 @@ ClickOnce applications are based on the .NET Framework and are subject to code a
 - [How to: Enable ClickOnce security settings](../deployment/how-to-enable-clickonce-security-settings.md)
 - [How to: Set a security zone for a ClickOnce application](../deployment/how-to-set-a-security-zone-for-a-clickonce-application.md)
 - [How to: Set custom permissions for a ClickOnce application](../deployment/how-to-set-custom-permissions-for-a-clickonce-application.md)
-- [How to: Debug a ClickOnce application with restricted permissions](../deployment/how-to-debug-a-clickonce-application-with-restricted-permissions.md)
+- [How to: Debug a ClickOnce application with restricted permissions](securing-clickonce-applications.md)
 - [Trusted application deployment overview](../deployment/trusted-application-deployment-overview.md)
 - [Security Page, Project Designer](../ide/reference/security-page-project-designer.md)

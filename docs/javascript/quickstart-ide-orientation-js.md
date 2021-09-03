@@ -1,11 +1,14 @@
 ---
-title: Tour of the Visual Studio IDE
+title: First look at the Visual Studio IDE
+description: Learn about the Visual Studio integrated development environment (IDE), including the windows, menus, and other UI features most commonly used.
+ms.custom: SEO-VS-2020
 titleSuffix: ""
 ms.date: 02/05/2019
 ms.topic: quickstart
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
+ms.technology: vs-javascript
 ms.workload:
   - "multiple"
 ---
@@ -19,9 +22,9 @@ If you haven't already installed Visual Studio, go to the [Visual Studio downloa
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
-If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019) page to install it for free.
+If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads) page to install it for free.
 
 ::: moniker-end
 
@@ -84,7 +87,7 @@ To continue exploring Visual Studio's features, let's create a new project.
 1. In the **New Project** dialog box that appears, accept the default project name and choose **OK**.
 ::: moniker-end
 
-   The project is created and a file named *server.cs* opens in the **Editor** window. The **Editor** shows the contents of files, and is where you'll do most of your coding work in Visual Studio.
+   The project is created and a file named *server.js* opens in the **Editor** window. The **Editor** shows the contents of files, and is where you'll do most of your coding work in Visual Studio.
 
    ![Editor in Visual Studio](media/editor.png)
 

@@ -1,20 +1,21 @@
 ---
 title: "Microsoft.VisualStudio.TestTools.CppUnitTestFramework API"
-ms.date: 06/13/2019
+description: This article describes the CppUnitTestFramework members, which you can use to write C++ unit tests based on the Microsoft Native Unit Test Framework.
+ms.custom: SEO-VS-2020
+ms.date: 09/27/2019
 ms.topic: reference
-ms.author: mblome
-manager: jillfra
+ms.author: corob
+manager: jmartens
+ms.technology: vs-ide-test
 ms.workload:
   - "multiple"
-author: mikeblome
+author: corob-msft
 ---
 # Microsoft.VisualStudio.TestTools.CppUnitTestFramework API reference
 
 This topic lists the public members of the `Microsoft::VisualStudio::CppUnitTestFramework` namespace. Use these APIs to write C++ unit tests based on the Microsoft Native Unit Test Framework. There is a [Usage Example](#example) at the end of the topic.
 
-The header files are located in the  _VisualStudio2012[x86]InstallFolder_**\VC\UnitTest\include** folder.
-
-The lib files are located in the  _VisualStudio2012[x86]InstallFolder_**\VC\UnitTest\lib** folder.
+The header and lib files are located under *\<Visual Studio installation folder>\VC\Auxiliary\VS\UnitTest*.
 
 Header and lib paths are automatically configured in a Native Test project.
 
@@ -98,7 +99,7 @@ Header and lib paths are automatically configured in a Native Test project.
 TEST_CLASS(className)
 ```
 
-Required for each class containing test methods. Identifies *className* as a test class. `TEST_CLASS` must be declared at namescape scope.
+Required for each class containing test methods. Identifies *className* as a test class. `TEST_CLASS` must be declared at namespace scope.
 
 ```cpp
 TEST_METHOD(methodName)
@@ -120,7 +121,7 @@ TEST_METHOD_INITIALIZE(methodName)
 }
 ```
 
-Defines *methodName* as a method that runs before each test method is run. `TEST_METHOD_INITIALIZE` can only be defined once in a test class and must be defined in the test class.
+Defines *methodName* as a method that runs before each test method is run. `TEST_METHOD_INITIALIZE` can only be defined once in a test class and must be defined in the scope of the test class.
 
 ```cpp
 TEST_METHOD_CLEANUP(methodName)

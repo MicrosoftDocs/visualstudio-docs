@@ -1,7 +1,8 @@
 ---
+description: "IDiaStackFrame::get_maxStack retrieves the maximum number of bytes pushed on the stack in the frame."
 title: "IDiaStackFrame::get_maxStack | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,8 @@ helpviewer_keywords:
 ms.assetid: 6352e972-7105-4d0e-aeba-b8fc16d62dec
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -32,5 +34,5 @@ HRESULT get_maxStack ( 
 ## Return Value
  If successful, returns `S_OK`. Returns `S_FALSE` if the property is not supported. Otherwise, returns an error code.
 
-## See Also
+## See also
 - [IDiaStackFrame](../../debugger/debug-interface-access/idiastackframe.md)

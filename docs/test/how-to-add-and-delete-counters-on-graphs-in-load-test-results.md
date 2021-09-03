@@ -1,16 +1,19 @@
 ---
-title: "Add and Delete Counters on Graphs in Load Test Results"
+title: Add and Delete Counters on Graphs in Load Test Results
+description: Learn to use the Counters panel to add performance counters to a graph and about the Sample Rate property.
+ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
-ms.topic: conceptual
-helpviewer_keywords:
-  - "load test results graphs, adding counters"
-  - "load test results graph"
-  - "load test, results graph"
-  - "load test results, graphs"
+ms.topic: how-to
+helpviewer_keywords: 
+  - load test results graphs, adding counters
+  - load test results graph
+  - load test, results graph
+  - load test results, graphs
 ms.assetid: 81536233-1962-40d9-9511-0b4633814d90
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.technology: vs-ide-test
 ---
 # How to: Add and Delete Counters on Graphs in Load Test Results
 

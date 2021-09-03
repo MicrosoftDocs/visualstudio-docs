@@ -1,20 +1,22 @@
 ---
-title: "IDebugReference2::GetSize | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Gets the size, in bytes, of the value of the reference."
+title: IDebugReference2::GetSize | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugReference2::GetSize"
+- IDebugReference2::GetSize
 helpviewer_keywords:
-  - "IDebugReference2::GetSize"
+- IDebugReference2::GetSize
 ms.assetid: a404ddd9-d940-4513-97cd-f52b8ab6a560
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugReference2::GetSize
 Gets the size, in bytes, of the value of the reference. Reserved for future use.

@@ -1,17 +1,19 @@
 ---
-title: "SccPopulateList Function | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+description: "This function updates a list of files for a particular source control command and supplies source control status on all given files."
+title: SccPopulateList Function | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: reference
 f1_keywords:
-  - "SccPopulateList"
+- SccPopulateList
 helpviewer_keywords:
-  - "SccPopulateList function"
+- SccPopulateList function
 ms.assetid: 7416e781-c571-4a7f-8af3-a089ce8be662
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # SccPopulateList Function
 This function updates a list of files for a particular source control command and supplies source control status on all given files.
@@ -83,7 +85,7 @@ SCCRTN SccPopulateList (
 > [!NOTE]
 > A source control plug-in always has the option to simply return immediately from this function, leaving the list as it is. If a plug-in implements this function, it can indicate this by setting the `SCC_CAP_POPULATELIST` capability bitflag in the first call to the [SccInitialize](../extensibility/sccinitialize-function.md). By default, the plug-in should always assume that all items being passed in are files. However, if the IDE sets the `SCC_PL_DIR` flag in the `fOptions` parameter, all the items being passed in are to be considered directories. The plug-in should add all the files that belong in the directories. The IDE will never pass in a mixture of files and directories.
 
-## See Also
+## See also
 - [Source Control Plug-in API Functions](../extensibility/source-control-plug-in-api-functions.md)
 - [SccInitialize](../extensibility/sccinitialize-function.md)
 - [POPLISTFUNC](../extensibility/poplistfunc.md)

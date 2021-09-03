@@ -1,15 +1,18 @@
 ---
-title: "Model of a Legacy Language Service | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Model of a Legacy Language Service | Microsoft Docs
+description: Use this model of a minimal language service for the Visual Studio core editor as a guide for creating your own language service.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "language services, model"
+- language services, model
 ms.assetid: d8ae1c0c-ee3d-4937-a581-ee78d0499793
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Model of a Legacy Language Service
 A language service defines the elements and features for a specific language, and is used to provide the editor with information specific to that language. For example, the editor needs to know the elements and keywords of the language in order to support syntax coloring.
@@ -42,5 +45,5 @@ A language service defines the elements and features for a specific language, an
 | Text manager | Managed by the <xref:Microsoft.VisualStudio.TextManager.Interop.SVsTextManager> service, from which you obtain an <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextManager> pointer | A component that maintains common information shared by all the components described previously. |
 | Language service | Implementation dependent; implements <xref:Microsoft.VisualStudio.TextManager.Interop.IVsLanguageInfo> | An object that provides the editor with language-specific information such as syntax highlighting, statement completion, and brace matching. |
 
-## See Also
+## See also
 - [Document Data and Document View in Custom Editors](../../extensibility/document-data-and-document-view-in-custom-editors.md)

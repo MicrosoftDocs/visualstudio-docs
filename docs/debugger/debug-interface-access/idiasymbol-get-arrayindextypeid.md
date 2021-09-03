@@ -1,7 +1,8 @@
 ---
+description: "Retrieves the array index type identifier of the symbol."
 title: "IDiaSymbol::get_arrayIndexTypeId | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,8 @@ helpviewer_keywords:
 ms.assetid: 124f86e2-6f66-4541-87c3-799f435b731e
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -45,5 +47,5 @@ HRESULT get_arrayIndexTypeId ( 
 |Header:|dia2.h|
 |Version:|DIA SDK v7.0|
 
-## See Also
+## See also
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

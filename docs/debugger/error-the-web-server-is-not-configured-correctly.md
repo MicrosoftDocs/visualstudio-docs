@@ -1,7 +1,8 @@
 ---
-title: "Error: The web server is not configured correctly | Microsoft Docs"
+description: "After taking steps detailed here to resolve the issue, and before trying again to debug, you may also need to reset IIS."
+title: "The web server is not configured correctly | Microsoft Docs"
 ms.date: "09/20/2017"
-ms.topic: "troubleshooting"
+ms.topic: "error-reference"
 f1_keywords:
   - "vs.debug.remote.projnotconfigured"
 dev_langs:
@@ -13,7 +14,8 @@ helpviewer_keywords:
   - "debugger, Web application errors"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -41,6 +43,6 @@ Take these steps to resolve this issue:
 
 4. If the `maxConnection` limit in IIS is too low, and you have too many connections, you may need to [increase the connection limit](/iis/configuration/system.applicationhost/sites/sitedefaults/limits).
 
-## See Also
+## See also
 - [Remote Debugging ASP.NET on a Remote IIS Computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md)
 - [Debugging Web Applications: Errors and Troubleshooting](../debugger/debugging-web-applications-errors-and-troubleshooting.md)

@@ -1,15 +1,16 @@
 ---
 title: "First look at the debugger"
 description: "Get started debugging applications using the Visual Studio debugger"
-ms.custom: "seoapril2019"
-ms.date: 04/08/2019
-ms.topic: quickstart
+ms.custom: ""
+ms.date: 07/26/2021
+ms.topic: tutorial
 helpviewer_keywords:
   - "debugger"
 ms.assetid: c763d706-3213-494f-b4d2-990b6e1ec456
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -58,17 +59,17 @@ As mentioned earlier, by default the debugger skips over managed properties and 
 
 Right-click on a property or field and choose **Step Into Specific**, then choose one of the available options.
 
-![Step into Specific](../debugger/media/dbg-tour-step-into-specific.png "Step Into Specific")
+![Screenshot of the Visual Studio Debugger with a line of code highlighted. Step Into Specific is selected on the context menu, and the Path.set method is selected.](../debugger/media/dbg-tour-step-into-specific.png)
 
 In this example, **Step Into Specific** gets us to the code for `Path.set`.
 
-![Step into Specific](../debugger/media/dbg-tour-step-into-specific-2.png "Step Into Specific")
+![Screenshot of the Visual Studio Debugger showing the code for Path.set. The braces surrounding the set function are highlighted in yellow.](../debugger/media/dbg-tour-step-into-specific-2.png)
 
 ## Run to a point in your code quickly using the mouse
 
-While in the debugger, hover over a line of code until the **Run to Click** (Run execution to here) button ![Run to Click](../debugger/media/dbg-tour-run-to-click.png "RunToClick") appears on the left.
+While in the debugger, hover over a line of code until the **Run to Click** (Run execution to here) button ![Screenshot of the Run to Click button from the Visual Studio Debugger. The button indicates that execution should run to the line where the button is placed.](../debugger/media/dbg-tour-run-to-click.png) appears on the left.
 
-![Run to Click](../debugger/media/dbg-tour-run-to-click-2.png "Run to Click")
+![Screenshot of the Visual Studio Debugger showing the Run to Click button appearing just to the left of a call to the Update function.](../debugger/media/dbg-tour-run-to-click-2.png)
 
 > [!NOTE]
 > The **Run to Click** (Run execution to here) button is available starting in [!include[vs_dev15](../misc/includes/vs_dev15_md.md)].
@@ -87,9 +88,7 @@ This command resumes app execution (and advances the debugger) until the current
 
 ## Run to cursor
 
-Stop the debugger by pressing the **Stop Debugging** red button ![Stop Debugging](../debugger/media/dbg-tour-stop-debugging.png "Stop Debugging") or **Shift** + **F5**.
-
-Right-click a line of code in your app and choose **Run to Cursor**. This command starts debugging and sets a temporary breakpoint on the current line of code.
+When you are editing code (rather than paused in the debugger), right-click a line of code in your app and choose **Run to Cursor** (or press **Ctrl** to **F10**). This command starts debugging and sets a temporary breakpoint on the current line of code.
 
 ![Run to Cursor](../debugger/media/dbg-tour-run-to-cursor.png "Run to Cursor")
 
@@ -104,11 +103,21 @@ This command is useful when you are editing code and want to quickly set a tempo
 
 ## Restart your app quickly
 
-Click the **Restart** ![Restart App](../debugger/media/dbg-tour-restart.png "Restart App") button in the Debug Toolbar (**Ctrl + Shift +F5**).
+Click the **Restart** ![Restart App](../debugger/media/dbg-tour-restart.png "Restart App") button in the Debug Toolbar (or press **Ctrl + Shift + F5**).
 
 When you press **Restart**, it saves time versus stopping the app and restarting the debugger. The debugger pauses at the first breakpoint that is hit by executing code.
 
 If you do want to stop the debugger and get back into the code editor, you can press the red stop ![Stop Debugging](../debugger/media/dbg-tour-stop-debugging.png "Stop Debugging") button instead of **Restart**.
+
+## Edit your code and continue debugging (C#, VB, C++, XAML)
+
+In most languages supported by Visual Studio, you can edit your code in the middle of a debugging session and continue debugging. To use this feature, click into your code with your cursor while paused in the debugger, make edits, and press **F5**, **F10**, or **F11** to continue debugging.
+
+![Edit and continue debugging](../debugger/media/dbg-tips-edit-and-continue.gif "EditAndContinue")
+
+For more information on using the feature and on feature limitations, see [Edit and Continue](../debugger/edit-and-continue.md).
+
+To modify XAML code during a debugging session, see [Write and debug running XAML code with XAML Hot Reload](../xaml-tools/xaml-hot-reload.md).
 
 ## Inspect variables with data tips
 
@@ -186,6 +195,14 @@ The Exception Helper is a great feature that can help you debug errors. You can 
 
 Expand the **Exception Settings** node to see more options on how to handle this exception type, but you don't need to change anything for this tour!
 
+## Configure debugging
+
+You can configure your project to build as a [Debug or Release configuration](../debugger/how-to-set-debug-and-release-configurations.md), configure project properties for debugging, or configure [general settings](../debugger/how-to-specify-debugger-settings.md) for debugging. In addition, you can configure the debugger to display custom information using features such as [DebuggerDisplay](using-the-debuggerdisplay-attribute.md) attribute or, for C/C++, the [NatVis framework](create-custom-views-of-native-objects.md).
+
+Debugging properties are specific to each project type. For example, you can specify an argument to pass to the application when you start it. You can access the project-specific properties by right-clicking the project in Solution Explorer and selecting **Properties**. Debugging properties typically appear in the **Build** or **Debug** tab, depending on the particular project type.
+
+![Project properties](../debugger/media/dbg-tour-project-properties.png "Project properties")
+
 ## Debug live ASP.NET apps in Azure App Service
 
 the **Snapshot Debugger** takes a snapshot of your in-production apps when code that you are interested in executes. To instruct the debugger to take a snapshot, you set snappoints and logpoints in your code. The debugger lets you see exactly what went wrong, without impacting traffic of your production application. The Snapshot Debugger can help you dramatically reduce the time it takes to resolve issues that occur in production environments.
@@ -205,6 +222,10 @@ You can navigate and view snapshots by using the **Step Backward** and **Step Fo
 ![Step Backward and Forward Buttons](../debugger/media/intellitrace-step-back-icons-description.png  "Step Backward and Forward buttons")
 
 For more information, see the [Inspect previous app states using IntelliTrace](../debugger/view-historical-application-state.md) page.
+
+## Debug performance issues
+
+If your app runs too slowly or uses too much memory, you may need to test your app with the profiling tools early on. For more information about profiling tools such as the CPU Usage tool and the Memory Analyzer, see [First look at the profiling tools](../profiling/profiling-feature-tour.md).
 
 ## Next steps
 

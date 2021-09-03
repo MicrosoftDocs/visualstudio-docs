@@ -1,18 +1,20 @@
 ---
-title: "IDebugCodeContext3::GetModule | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Retrieves a reference to the interface of the debug module."
+title: IDebugCodeContext3::GetModule | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "IDebugCodeContext3::GetModule"
+- IDebugCodeContext3::GetModule
 ms.assetid: 8e4317b8-8255-486c-a896-a68ed94f8aa1
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugCodeContext3::GetModule
 Retrieves a reference to the interface of the debug module.

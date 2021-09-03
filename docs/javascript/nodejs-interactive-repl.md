@@ -2,11 +2,12 @@
 title: "Use the Node.js REPL"
 description: Visual Studio provides support for interacting with the Node.js runtime
 ms.date: "12/04/2018"
-ms.topic: "conceptual"
+ms.topic: "how-to"
 ms.devlang: javascript
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-javascript
 dev_langs:
   - JavaScript
 ms.workload:

@@ -1,4 +1,5 @@
 ---
+description: "This warning dialog box appears when you are using Source Server."
 title: "Security Warning: Debugger Must Execute Untrusted Command | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
@@ -12,7 +13,8 @@ dev_langs:
 ms.assetid: e5c004b3-b364-4098-ac98-770076ca9981
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -36,7 +38,7 @@ This warning dialog box appears when you are using Source Server. It indicates t
  Don't Run
  Stop execution of command and downloading of the file from Source Server.
 
-## See Also
+## See also
 - [Specify Symbol (.pdb) and Source Files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)
 - [Debugger Security](../debugger/debugger-security.md)
 - [Source Server](/windows/desktop/Debug/source-server-and-source-indexing)

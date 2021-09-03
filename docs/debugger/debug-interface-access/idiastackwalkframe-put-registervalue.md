@@ -1,7 +1,8 @@
 ---
+description: "IDiaStackWalkFrame::put_registerValue sets the value of a register."
 title: "IDiaStackWalkFrame::put_registerValue | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,8 @@ helpviewer_keywords:
 ms.assetid: 2d8b79b6-7240-43fe-b24e-e4ff3e2c15b0
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -37,6 +39,6 @@ HRESULT put_registerValue ( 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
-## See Also
+## See also
 - [IDiaStackWalkFrame](../../debugger/debug-interface-access/idiastackwalkframe.md)
 - [CV_HREG_e Enumeration](../../debugger/debug-interface-access/cv-hreg-e.md)

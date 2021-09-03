@@ -1,12 +1,15 @@
 ---
-title: "How to: Open a Model from File in Program Code"
+title: 'How to: Open a Model from File in Program Code'
+description: Learn that the ModelBus provides standard mechanism for referencing a model or elements in a model, and for finding the model if it has moved. 
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+ms.topic: how-to
+author: mgoertz-msft
+ms.author: mgoertz
+manager: jmartens
+ms.technology: vs-ide-modeling
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Open a Model from File in Program Code
 

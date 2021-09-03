@@ -1,5 +1,6 @@
 ---
 title: "Summary View - Resource Contention View | Microsoft Docs"
+description: The Summary view displays information about the events in your application in which a thread or process was suspended while it waited for access to a resource.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:
@@ -7,7 +8,9 @@ helpviewer_keywords:
 ms.assetid: 6da57b83-7b42-4d7c-9aea-8e0a830faf6b
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
+monikerRange: 'vs-2017'
 ms.workload:
   - "multiple"
 ---

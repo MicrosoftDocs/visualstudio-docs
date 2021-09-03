@@ -1,17 +1,20 @@
 ---
-title: "CvCreateMarkerSeriesWithCodePageA Function | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-f1_keywords:
-  - "cvmakers/CvCreateMarkerSeriesWithCodePageA"
-helpviewer_keywords:
-  - "CvCreateMarkerSeriesWithCodePageA method"
+title: CvCreateMarkerSeriesWithCodePageA Function | Microsoft Docs
+description: See reference information for the Concurrency Visualizer SDK function CvCreateMarkerSeriesWithCodePageA (C library).
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: reference
+f1_keywords: 
+  - cvmakers/CvCreateMarkerSeriesWithCodePageA
+helpviewer_keywords: 
+  - CvCreateMarkerSeriesWithCodePageA method
 ms.assetid: 3d7ed601-2222-4be9-a557-f217db008753
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
-ms.workload:
-  - "multiple"
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.technology: vs-ide-debug
+ms.workload: 
+  - multiple
 ---
 # CvCreateMarkerSeriesWithCodePageA function
 Creates marker series for a given provider and specified code page. This function can be used to specify the code page explicitly for the text written out by marker API ANSI functions. Setting the code page can be useful in case the trace is captured and then analyzed on different machines with different locales/languages. By default the code page returned by GetACP() function is used.

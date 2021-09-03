@@ -1,17 +1,20 @@
 ---
-title: "Test controller and test agent roles for automated tests"
+title: Test controller and test agent roles
+description: Learn how to create and configure a test setting that uses a test controller and test agent to distribute testing across several machines using Visual Studio.
+ms.custom: SEO-VS-2020
 ms.date: 10/20/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "testing, walkthroughs, test controller and test agents"
-  - "test agent, walkthrough"
-  - "walkthroughs [Visual Studio ALM] testing"
-  - "test controller, walkthrough"
-  - "walkthroughs, test controller and test agents"
+- testing, walkthroughs, test controller and test agents
+- test agent, walkthrough
+- walkthroughs [Visual Studio ALM] testing
+- test controller, walkthrough
+- walkthroughs, test controller and test agents
 ms.assetid: 57ed43ae-4e67-4139-8aec-3e9fceb0a745
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.technology: vs-ide-test
 ---
 # Assign roles to a test controller and test agent
 
@@ -91,13 +94,13 @@ This article demonstrates how to create and configure a test setting that uses a
 
 ::: moniker range="vs-2017"
 
-8. On the Test menu, select **Select Test Settings File** and then choose *TestSettingDistributedTestWalkthrough.testsettings*.
+8. On the **Test** menu, select **Test Settings** > **Select Test Settings File** and then choose the *TestSettingDistributedTestWalkthrough.testsettings* file.
 
 ::: moniker-end
 
 ::: moniker range=">=vs-2019"
 
-8. In **Test Explorer**, select the arrow on the **Settings** button, and then select **Select Settings File**. Browse to and select the *TestSettingDistributedTestWalkthrough.testsettings* file.
+8. On the **Test** menu, choose **Select Settings File**. Browse to and select the *TestSettingDistributedTestWalkthrough.testsettings* file.
 
 ::: moniker-end
 

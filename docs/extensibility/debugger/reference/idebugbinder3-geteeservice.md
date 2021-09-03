@@ -1,20 +1,22 @@
 ---
-title: "IDebugBinder3::GetEEService | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "This method returns a requested service."
+title: IDebugBinder3::GetEEService | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugBinder3::GetEEService"
+- IDebugBinder3::GetEEService
 helpviewer_keywords:
-  - "IDebugBinder3::GetEEService method"
+- IDebugBinder3::GetEEService method
 ms.assetid: eb07aa40-8cd9-4a52-a4c7-4affd2307a01
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugBinder3::GetEEService
 This method returns a requested service.

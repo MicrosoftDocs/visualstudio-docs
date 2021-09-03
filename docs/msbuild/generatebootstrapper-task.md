@@ -1,28 +1,33 @@
 ---
-title: "GenerateBootstrapper Task | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
+title: GenerateBootstrapper Task | Microsoft Docs
+description: Use the MSBuild GenerateBootstrapper task for an automated way to detect, download, and install an application and its prerequisites.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: reference
 f1_keywords:
-  - "http://schemas.microsoft.com/developer/msbuild/2003#GenerateBootstrapper"
+- http://schemas.microsoft.com/developer/msbuild/2003#GenerateBootstrapper
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+- VB
+- CSharp
+- C++
+- jsharp
 helpviewer_keywords:
-  - "MSBuild, GenerateBootstrapper task"
-  - "GenerateBootstrapper task [MSBuild]"
+- MSBuild, GenerateBootstrapper task
+- GenerateBootstrapper task [MSBuild]
 ms.assetid: ca3ba2c6-d2ea-41f2-b7e3-0fc2b0730460
-author: mikejo5000
-ms.author: mikejo
-manager: jillfra
+author: ghogen
+ms.author: ghogen
+manager: jmartens
+ms.technology: msbuild
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # GenerateBootstrapper task
+
 Provides an automated way to detect, download, and install an application and its prerequisites. It serves as a single installer that integrates the separate installers for all the components making up an application.
 
 ## Task parameters
+
 The following describe the parameters of the `GenerateBootstrapper` task.
 
 - `ApplicationFile`
@@ -70,7 +75,7 @@ The following describe the parameters of the `GenerateBootstrapper` task.
   </BootstrapperItem>
   ```
 
-   The `Include` attribute represents the name of a prerequisite that should be installed. The `ProductName` item metadata is optional, and will be used by the build engine as a user-friendly name if the package cannot be found. These items are not required [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] input parameters, unless no `ApplicationFile` is specified. You should include one item for every prerequisite that must be installed for your application.
+   The `Include` attribute represents the name of a prerequisite that should be installed. The `ProductName` item metadata is optional, and will be used by the build engine as a user-friendly name if the package cannot be found. These items are not required MSBuild input parameters, unless no `ApplicationFile` is specified. You should include one item for every prerequisite that must be installed for your application.
 
    A build error will result if neither the `BootstrapperItems` nor the `ApplicationFile` parameter is specified.
 
@@ -143,9 +148,11 @@ The following describe the parameters of the `GenerateBootstrapper` task.
    If `true`, the bootstrapper performs XSD validation on the specified input bootstrapper items. The default value of this parameter is `false`.
 
 ## Remarks
+
 In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension base class](../msbuild/taskextension-base-class.md).
 
 ## Example
+
 The following example uses the `GenerateBootstrapper` task to install an application that must have the .NET Framework 2.0 installed as a prerequisite.
 
 ```xml
@@ -170,5 +177,6 @@ The following example uses the `GenerateBootstrapper` task to install an applica
 ```
 
 ## See also
+
 - [Tasks](../msbuild/msbuild-tasks.md)
 - [Task reference](../msbuild/msbuild-task-reference.md)

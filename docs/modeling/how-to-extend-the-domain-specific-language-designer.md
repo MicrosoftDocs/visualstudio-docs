@@ -1,10 +1,13 @@
 ---
 title: "How to: Extend the Domain-Specific Language Designer"
+description: Learn how you can make extensions to the designer that you use to edit domain-specific language (DSL) Definitions.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+ms.topic: how-to
+author: mgoertz-msft
+ms.author: mgoertz
+manager: jmartens
+ms.technology: vs-ide-modeling
 ms.workload:
   - "multiple"
 ---

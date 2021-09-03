@@ -2,10 +2,12 @@
 title: Visualizing data with R
 description: How to plot data from R programs in Visual Studio, using plot windows.
 ms.date: 06/29/2017
+ms.prod: visual-studio-dev15
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb
-manager: jillfra
+manager: jmartens
+ms.technology: vs-rtvs
 ms.workload:
   - data-science
 ---
@@ -16,9 +18,14 @@ Plotting is a key part of a data scientist's workflow. In R Tools for Visual Stu
 
 ![Plotting Hero Image](media/plotting-hero-image.png)
 
-|   |   |
-|---|---|
-| ![movie camera icon for video](../install/media/video-icon.png "Watch a video") | [Watch a video (youtube.com)](https://www.youtube.com/watch?v=ZTbKmz5RSgY) on plotting with R (2m 02s). |
+:::row:::
+    :::column:::
+        ![movie camera icon for video](../install/media/video-icon.png "Watch a video")
+    :::column-end:::
+    :::column:::
+        [Watch a video (youtube.com)](https://www.youtube.com/watch?v=ZTbKmz5RSgY) on plotting with R (2m 02s).
+    :::column-end:::
+:::row-end:::
 
 ## The plot window
 
@@ -61,7 +68,7 @@ You create a new plot window using the toolbar button or **R Tools** > **Plots**
 
 Plots, too, are independent objects, which means you can copy or move them between plot windows using either drag-and-drop with the mouse, or by using the **Copy**, **Cut**, and **Paste** commands on the right-click context and **Edit** menus.
 
-The default behavior for drag-and-drop is copy; to move, drag-and-drop while holding down the **Shift** key.
+The default behavior for drag-and-drop is copy; to move, drag-and-drop while pressing the **Shift** key.
 
 ## Plot history
 
@@ -72,7 +79,7 @@ The history gives you a list of thumbnails for the plots that have been displaye
 
 ![Plot history window](media/plotting-plot-history-window.png)
 
-To open a plot in its associated window, double-click that plot, select it, and then select the **Show Plot** toolbar button or right-click and select **Show Plot**. You can also select an individual plot and copy, cut, or delete from the right-click context or **Edit** menus.
+To open a plot in its associated window, double-click that plot, select it, and then select the **Show Plot** toolbar button. Alternatively, right-click the plot and select **Show Plot**. You can also select an individual plot and copy, cut, or delete from the context or **Edit** menus.
 
 The lifetime of your plot history across all windows is bound to the lifetime of your interactive R session. If you reset your R session, or exit and restart Visual Studio, your plot history is reset.
 

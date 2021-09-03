@@ -1,13 +1,16 @@
 ---
-title: You have selected a database object from an unsupported database provider
+title: Object from unsupported provider
+description: You have selected a database object from an unsupported database provider. View information about this Visual Studio (O/R Designer) message.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: reference
+ms.topic: error-reference
 ms.assetid: c0f1298e-31aa-471e-ae19-1bafffd2ae40
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: ghogen
+ms.author: ghogen
+manager: jmartens
+ms.technology: vs-data-tools
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # You have selected a database object from an unsupported database provider
 

@@ -1,5 +1,7 @@
 ---
 title: Options, Text Editor, C/C++, Advanced
+description: Learn how to use the Advanced page in the C/C++ section to change the behavior related to IntelliSense and the browsing database.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -9,8 +11,8 @@ f1_keywords:
 helpviewer_keywords:
   - "Text Editor Options dialog box, advanced"
 ms.assetid: 67c82ae5-fddd-49df-baec-8e7498b156f3
-author: mikeblome
-ms.author: mblome
+author: corob-msft
+ms.author: corob
 manager: markl
 ms.workload:
   - "cplusplus"
@@ -201,6 +203,6 @@ If enabled, you can surround selected text with curly braces by typing '{' into 
 
 If enabled, you can surround selected text with parentheses by typing '(' into the text editor.
 
-## See Also
+## See also
 
 - [Setting Language-Specific Editor Options](../../ide/reference/setting-language-specific-editor-options.md)

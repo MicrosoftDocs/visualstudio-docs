@@ -1,17 +1,20 @@
 ---
-title: "Specify Test Agents to Use in Load Test Scenarios"
+title: Specify Test Agents to Use in Load Test Scenarios
+description: Learn how to specify agents to use in a scenario by setting the Agents to Use property in the Properties window of the Load Test Editor.
+ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
-ms.topic: conceptual
-helpviewer_keywords:
-  - "test agents, load tests"
-  - "load tests, scenarios"
-  - "load tests, specifying for load tests"
-  - "tests agents, load tests, specifying"
-  - "load tests, test agents"
+ms.topic: how-to
+helpviewer_keywords: 
+  - test agents, load tests
+  - load tests, scenarios
+  - load tests, specifying for load tests
+  - tests agents, load tests, specifying
+  - load tests, test agents
 ms.assetid: e86806dd-5897-4e4c-bfd4-8d687fb72a6e
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.technology: vs-ide-test
 ---
 # How to: Specify test agents to use in load test scenarios
 

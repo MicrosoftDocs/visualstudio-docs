@@ -1,15 +1,17 @@
 ---
-title: "GetScheduledTasksForDebugger Method | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+description: "Retrieves an array of all scheduled tasks."
+title: GetScheduledTasksForDebugger Method | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: reference
 helpviewer_keywords:
-  - "GetScheduledTasksForDebugger method, TaskScheduler class [.NET Framework debug engines]"
+- GetScheduledTasksForDebugger method, TaskScheduler class [.NET Framework debug engines]
 ms.assetid: 7c9b4cde-6e4a-4cef-929f-7d02b1da5762
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # GetScheduledTasksForDebugger Method
 Retrieves an array of all scheduled tasks.

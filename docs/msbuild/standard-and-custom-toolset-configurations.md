@@ -1,18 +1,22 @@
 ---
-title: "Standard and Custom Toolset Configurations | Microsoft Docs"
-ms.date: "01/31/2018"
-ms.topic: "conceptual"
+title: Standard and Custom Toolset Configurations | Microsoft Docs
+description: Learn about standard and custom MSBuild Toolsets, which contain references to tasks, targets, and tools you can use to build an application project.
+ms.custom: SEO-VS-2020
+ms.date: 01/31/2018
+ms.topic: conceptual
 helpviewer_keywords:
-  - "MSBuild, custom toolset configurations"
-  - "MSBuild, msbuild.exe.config"
+- MSBuild, custom toolset configurations
+- MSBuild, msbuild.exe.config
 ms.assetid: 15a048c8-5ad3-448e-b6e9-e3c5d7147ed2
-author: mikejo5000
-ms.author: mikejo
-manager: jillfra
+author: ghogen
+ms.author: ghogen
+manager: jmartens
+ms.technology: msbuild
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Standard and custom Toolset configurations
+
 An MSBuild Toolset contains references to tasks, targets, and tools that you can use to build an application project. MSBuild includes a standard Toolset, but you can also create custom Toolsets. For information about how to specify a Toolset, see [Toolset (ToolsVersion)](../msbuild/msbuild-toolset-toolsversion.md)
 
 ## Standard Toolset configurations
@@ -53,6 +57,7 @@ Visual Studio 2017 and later versions do not use a registry key for the path to 
 |**\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ MSBuild\ToolsVersions\4.0\\** |**MSBuildToolsPath**|**.NET Framework 4 Install Path**|
 
 ### Sub-toolsets
+
  If the registry key in the previous table has a subkey, MSBuild uses it to determine the path of a sub-toolset that overrides the path in the parent Toolset. The following subkey is an example:
 
  **\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSBuild\ToolsVersions\12.0\12.0**
@@ -65,7 +70,8 @@ Visual Studio 2017 and later versions do not use a registry key for the path to 
 > We recommend that you avoid changing these settings. Nevertheless, you can add your own settings and define computer-wide custom Toolset definitions, as the next section describes.
 
 ## Custom Toolset definitions
- When a standard Toolset does not fulfill your build requirements, you can create a custom Toolset. For example, you may have a build lab scenario in which you must have a separate system for building [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] projects. By using a custom Toolset, you can assign custom values to the `ToolsVersion` attribute when you create projects or run *MSBuild.exe*. By doing this, you can also use the `$(MSBuildToolsPath)` property to import *.targets* files from that directory, as well as defining your own custom Toolset properties that can be used for any project that uses that Toolset.
+
+ When a standard Toolset does not fulfill your build requirements, you can create a custom Toolset. For example, you may have a build lab scenario in which you must have a separate system for building C++ projects. By using a custom Toolset, you can assign custom values to the `ToolsVersion` attribute when you create projects or run *MSBuild.exe*. By doing this, you can also use the `$(MSBuildToolsPath)` property to import *.targets* files from that directory, as well as defining your own custom Toolset properties that can be used for any project that uses that Toolset.
 
  Specify a custom Toolset in the configuration file for *MSBuild.exe* (or for the custom tool that hosts the MSBuild engine if that is what you are using). For example, the configuration file for *MSBuild.exe* could include the following Toolset definition if you wished to define a toolset named *MyCustomToolset*.
 
@@ -93,10 +99,7 @@ Visual Studio 2017 and later versions do not use a registry key for the path to 
 > [!NOTE]
 > To be read correctly, `<configSections>` must be the first subsection in the `<configuration>` section.
 
- `ToolsetConfigurationSection` is a custom configuration section that can be used by any MSBuild host for custom configuration. If you use a custom Toolset, a host does not have to do anything to initialize the build engine except provide the configuration file entries. By defining entries in the registry, you can specify computer-wide Toolsets that apply to *MSBuild.exe*, [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], and all hosts of MSBuild.
-
-> [!NOTE]
-> If a configuration file defines settings for a `ToolsVersion` that was already defined in the registry, the two definitions are not merged. The definition in the configuration file takes precedence and the settings in the registry for that `ToolsVersion` are ignored.
+ `ToolsetConfigurationSection` is a custom configuration section that can be used by any MSBuild host for custom configuration. If you use a custom Toolset, a host does not have to do anything to initialize the build engine except provide the configuration file entries.
 
  The following properties are specific to the value of `ToolsVersion` that is used in projects:
 
@@ -107,4 +110,5 @@ Visual Studio 2017 and later versions do not use a registry key for the path to 
   You can also add custom, ToolsVersion-specific properties to the configuration file by using the same syntax that you use to add the MSBuildToolsPath property. To make these custom properties available to the project file, use the same name as the name of the value that is specified in the configuration file. You may define Toolsets but not sub-toolsets in the configuration file.
 
 ## See also
+
 - [Toolset (ToolsVersion)](../msbuild/msbuild-toolset-toolsversion.md)

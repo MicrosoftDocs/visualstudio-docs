@@ -1,7 +1,8 @@
 ---
+description: "Retrieves a flag that indicates whether the section cannot be cached."
 title: "IDiaSectionContrib::get_notCached | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,8 @@ helpviewer_keywords:
 ms.assetid: 5408ea53-f64c-431e-9f62-62819026b038
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -32,5 +34,5 @@ HRESULT get_notCached ( 
 ## Return Value
  If successful, returns `S_OK`. Returns `S_FALSE` if this property is not supported. Otherwise, returns an error code.
 
-## See Also
+## See also
 - [IDiaSectionContrib](../../debugger/debug-interface-access/idiasectioncontrib.md)

@@ -1,16 +1,19 @@
 ---
-title: "Configuration Options Overview | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Configuration Options Overview | Microsoft Docs
+description: Learn about the options for project configurations in Visual Studio. A configuration is a build type described with a named set of properties and file locations. 
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "project configurations"
-  - "configuration options, about configuration options"
+- project configurations
+- configuration options, about configuration options
 ms.assetid: f4ad4dd3-b39e-42df-ad89-d403cdf24a2b
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Configuration options overview
 Projects in [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] can support multiple configurations that can be built, debugged, run, and/or deployed. A configuration is a build type described with a named set of properties, typically compiler switches and file locations. By default, new solutions contain two configurations, *Debug* and *Release*. These configurations can be applied using their default settings, or modified to meet your specific solution and/or project requirements. Some packages can be built in two ways: as an ActiveX editor or as an in-place component. Projects do not need to support multiple configurations, however. If there is only one configuration available, that configuration is mapped into all of the solution configurations.

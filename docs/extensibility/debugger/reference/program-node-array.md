@@ -1,20 +1,22 @@
 ---
-title: "PROGRAM_NODE_ARRAY | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Contains an array of objects that describe programs of interest."
+title: PROGRAM_NODE_ARRAY | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "PROGRAM_NODE_ARRAY"
+- PROGRAM_NODE_ARRAY
 helpviewer_keywords:
-  - "PROGRAM_NODE_ARRAY structure"
+- PROGRAM_NODE_ARRAY structure
 ms.assetid: 8eeea600-eda5-4b7c-868a-0b86d177b0a5
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # PROGRAM_NODE_ARRAY
 Contains an array of objects that describe programs of interest.

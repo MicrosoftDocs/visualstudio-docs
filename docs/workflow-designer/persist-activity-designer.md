@@ -1,15 +1,18 @@
 ---
-title: "Workflow Designer - Persist Activity Designer"
+title: Workflow Designer - Persist Activity Designer
+description: Learn about the Persist activity and how to use the Persist activity designer to create and configure a Persist activity. 
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "System.Activities.Statements.Persist.UI"
+- System.Activities.Statements.Persist.UI
 ms.assetid: be8648dd-3eb9-4a50-8ec1-57a8be804692
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
+ms.technology: vs-workflow-designer
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Persist Activity Designer
 
@@ -17,7 +20,7 @@ The **Persist** activity designer is used to create and configure a <xref:System
 
 ## The Persist Activity
 
-The <xref:System.Activities.Statements.Persist> activity saves a workflow to disk, if possible. The <xref:System.Activities.Statements.Persist> activity cannot be executed in a non-persistence zone as, for example, within a <xref:System.Activities.Statements.TransactionScope> activity. If you do use a <xref:System.Activities.Statements.Persist> activity in a non-persistence scope, an exception is thrown at runtime.
+The <xref:System.Activities.Statements.Persist> activity saves a workflow to disk, if possible. The <xref:System.Activities.Statements.Persist> activity cannot be executed in a non-persistence zone as, for example, within a <xref:System.Activities.Statements.TransactionScope> activity. If you do use a <xref:System.Activities.Statements.Persist> activity in a non-persistence scope, an exception is thrown at run time.
 
 ### Using the Persist Activity Designer
 

@@ -1,28 +1,33 @@
 ---
-title: "GetFrameworkSdkPath Task | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
+title: GetFrameworkSdkPath Task | Microsoft Docs
+description: Learn about how to use the MSBuild GetFrameworkSdkPath task to retrieve the path to the Windows SDK.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: reference
 f1_keywords:
-  - "http://schemas.microsoft.com/developer/msbuild/2003#GetFrameworkSdkPath"
+- http://schemas.microsoft.com/developer/msbuild/2003#GetFrameworkSdkPath
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+- VB
+- CSharp
+- C++
+- jsharp
 helpviewer_keywords:
-  - "GetFrameworkSdkPath task [MSBuild]"
-  - "MSBuild, GetFrameworkSdkPath task"
+- GetFrameworkSdkPath task [MSBuild]
+- MSBuild, GetFrameworkSdkPath task
 ms.assetid: 2ef82b98-02b6-40cf-a9b5-f0e882fb5064
-author: mikejo5000
-ms.author: mikejo
-manager: jillfra
+author: ghogen
+ms.author: ghogen
+manager: jmartens
+ms.technology: msbuild
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # GetFrameworkSdkPath task
-Retrieves the path to the [!INCLUDE[winsdklong](../deployment/includes/winsdklong_md.md)].
 
+Retrieves the path to the Windows Software Development Kit (SDK).
 ## Task parameters
+
+The following table describes the parameters of the `GetFrameworkSdkPath` task.
 The following table describes the parameters of the `GetFrameworkSdkPath` task.
 
 |Parameter|Description|
@@ -33,10 +38,12 @@ The following table describes the parameters of the `GetFrameworkSdkPath` task.
 |`Path`|Optional `String` output parameter.<br /><br /> Contains the path to the latest .NET SDK, if any version is present. Otherwise returns `String.Empty`.|
 
 ## Remarks
+
 In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension base class](../msbuild/taskextension-base-class.md).
 
 ## Example
-The following example uses the `GetFrameworkSdkPath` task to store the path to the [!INCLUDE[winsdkshort](../debugger/debug-interface-access/includes/winsdkshort_md.md)] in the `SdkPath` property.
+
+The following example uses the `GetFrameworkSdkPath` task to store the path to the Windows SDK in the `SdkPath` property.
 
 ```xml
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
@@ -52,5 +59,6 @@ The following example uses the `GetFrameworkSdkPath` task to store the path to t
 ```
 
 ## See also
+
 - [Tasks](../msbuild/msbuild-tasks.md)
 - [Task reference](../msbuild/msbuild-task-reference.md)

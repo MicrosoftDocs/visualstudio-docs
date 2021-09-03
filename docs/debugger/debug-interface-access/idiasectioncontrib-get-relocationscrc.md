@@ -1,7 +1,8 @@
 ---
+description: "Retrieves the cyclic redundancy check (CRC) of the relocation information for the section."
 title: "IDiaSectionContrib::get_relocationsCrc | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,8 @@ helpviewer_keywords:
 ms.assetid: 8c29c91a-062d-4566-a9b7-49251036a15a
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -32,5 +34,5 @@ HRESULT get_relocationsCrc ( 
 ## Return Value
  If successful, returns `S_OK`. Returns `S_FALSE` if this property is not supported. Otherwise, returns an error code.
 
-## See Also
+## See also
 - [IDiaSectionContrib](../../debugger/debug-interface-access/idiasectioncontrib.md)

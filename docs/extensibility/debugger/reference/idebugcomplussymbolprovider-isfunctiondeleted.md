@@ -1,18 +1,20 @@
 ---
-title: "IDebugComPlusSymbolProvider::IsFunctionDeleted | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Determines that the function at the specified debug address is deleted."
+title: IDebugComPlusSymbolProvider::IsFunctionDeleted | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "IDebugComPlusSymbolProvider::IsFunctionDeleted"
+- IDebugComPlusSymbolProvider::IsFunctionDeleted
 ms.assetid: b276bd25-6658-4898-bc36-04ecdf92aa2f
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugComPlusSymbolProvider::IsFunctionDeleted
 Determines that the function at the specified debug address is deleted.

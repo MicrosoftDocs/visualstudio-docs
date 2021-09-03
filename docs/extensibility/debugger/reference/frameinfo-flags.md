@@ -1,20 +1,22 @@
 ---
-title: "FRAMEINFO_FLAGS | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Specifies the information to retrieve about a stack frame object."
+title: FRAMEINFO_FLAGS | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "FRAMEINFO_FLAGS"
+- FRAMEINFO_FLAGS
 helpviewer_keywords:
-  - "FRAMEINFO_FLAGS enumeration"
+- FRAMEINFO_FLAGS enumeration
 ms.assetid: 41578062-8455-412a-9d8b-1e1e9dc8d52e
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # FRAMEINFO_FLAGS
 Specifies the information to retrieve about a stack frame object.

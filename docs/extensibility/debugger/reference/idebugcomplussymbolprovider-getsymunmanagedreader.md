@@ -1,19 +1,21 @@
 ---
-title: "IDebugComPlusSymbolProvider::GetSymUnmanagedReader | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Retrieves the symbol reader to be used by unmanaged code."
+title: IDebugComPlusSymbolProvider::GetSymUnmanagedReader | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "IDebugComPlusSymbolProvider::GetSymUnmanagedReader"
-  - "GetSymUnmanagedReader"
+- IDebugComPlusSymbolProvider::GetSymUnmanagedReader
+- GetSymUnmanagedReader
 ms.assetid: 8f1c1627-217f-4405-8141-7a2eb80310a5
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugComPlusSymbolProvider::GetSymUnmanagedReader
 Retrieves the symbol reader to be used by unmanaged code.

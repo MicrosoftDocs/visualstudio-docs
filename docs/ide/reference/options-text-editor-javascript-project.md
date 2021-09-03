@@ -1,6 +1,8 @@
 ---
 title: Options, Text Editor, JavaScript, Project
-ms.date: 1/15/2019
+description: Learn how to use the Project page of the Options dialog box to specify JavaScript and TypeScript project options in the Code Editor.
+ms.custom: SEO-VS-2020
+ms.date: 06/19/2020
 ms.technology: vs-javascript
 ms.topic: reference
 f1_keywords:
@@ -10,7 +12,7 @@ f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.TypeScript.Project"
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload:
   - "multiple"
 ---
@@ -34,7 +36,9 @@ These options let you choose whether to display Virtual Projects when a Solution
 
 ## Compile on Save
 
-These options determine whether TypeScript files that aren't part of the project are automatically compiled. Select the check box and then choose the type of code generation to use.
+These options determine whether TypeScript files that aren't part of the project are automatically compiled. Visual Studio compiles using the latest version of TypeScript installed in *C:\Program Files (x86)\Microsoft SDKs\TypeScript*.
+
+Select the check box and then choose the type of code generation to use.
 
 ### UIElement list
 

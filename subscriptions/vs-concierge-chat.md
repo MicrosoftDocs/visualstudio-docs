@@ -1,10 +1,11 @@
 ---
-title: Concierge Chat benefit in Visual Studio Subscription | Microsoft Docs
+title: Concierge Chat benefit in Visual Studio subscription | Microsoft Docs
 author: evanwindom
-ms.author: lank
-manager: lank
-ms.date: 07/29/2019
-ms.topic: conceptual
+ms.author: v-evwin
+manager: cabuschl
+ms.assetid: dcd99e32-c9f3-4e19-8428-319dfa220463
+ms.date: 03/18/2021
+ms.topic: how-to
 description:  Learn about the Concierge Chat benefit included in Visual Studio subscriptions.
 
 ---
@@ -20,7 +21,7 @@ Getting help via the Concierge Chat service is very easy.
 
 2. Locate the Concierge Chat tile in the Support section of the benefits page and click on **Chat now**.
     > [!div class="mx-imgBorder"]
-    > ![Concierge Chat Tile](_img/vs-concierge-chat/vs-concierge-chat-tile.png)
+    > ![Concierge Chat Tile](_img/vs-concierge-chat/vs-concierge-chat-tile.png "Click 'Chat now' to launch a new chat session.")
 
 3. Click **Continue**.
 
@@ -28,18 +29,20 @@ Getting help via the Concierge Chat service is very easy.
 
 5. When an agent is available, the chat will start.
     > [!div class="mx-imgBorder"]
-    > ![Concierge Chat Session](_img/vs-concierge-chat/vs-concierge-chat-session.png)
+    > ![Concierge Chat Session](_img/vs-concierge-chat/vs-concierge-chat-session.png "The chat session window will show when an agent joins the session.")
 
 ## Eligibility
 | Subscription Level                                                 |     Channels                                            | Benefit                                                          | Renewable?    |
 |--------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------|---------------|
 | Visual Studio Enterprise (Standard)   | VL, Azure, Retail,  selected NFR<sup>1</sup> | Available       |  Yes          |
+| Visual Studio Enterprise subscription with GitHub Enterprise | VL| Available       |  Yes          |
 | Visual Studio Professional (Standard) | VL, Azure, Retail                                       | Available                                                            |  Yes          |
+| Visual Studio Professional subscription with GitHub Enterprise | VL | Available                                                            |  Yes          |
 | Visual Studio Test Professional (Standard)                         | VL, Retail                                              | Available                                             |  Yes          |
 | MSDN Platforms (Standard)                                          | VL, Retail                                              | Available                                              |  Yes          |
 | Visual Studio Enterprise, Visual Studio Professional (monthly cloud) | Azure | Not available | N/A |
 
-<sup>1</sup>  *Includes:  Not for Resale (NFR), Visual Studio Industry Partner (VSIP), Microsoft Certified Trainer, BizSpark.  Excludes:  FTE, Most Valuable Professional (MVP), Regional Director (RD), Microsoft Partner Network (MPN), Imagine.*
+<sup>1</sup>  *Includes:  Not for Resale (NFR), Visual Studio Industry Partner (VSIP), Microsoft Certified Trainer, BizSpark.  Excludes:  FTE, Most Valuable Professional (MVP), Regional Director (RD), Microsoft Partner Network (MPN), Imagine.  Excludes:  NFR Basic*
 
 > [!NOTE]
 > Microsoft no longer offers Visual Studio Professional Annual subscriptions and Visual Studio Enterprise Annual subscriptions in Cloud Subscriptions. There will be no change to existing customers experience and ability to renew, increase, decrease, or cancel their subscriptions. New customers are encouraged to go to [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/) to explore different options to purchase Visual Studio.
@@ -51,11 +54,19 @@ Not sure which subscription you're using?  Connect to [https://my.visualstudio.c
    A: Assistance with accounts, billing and subscriptions issues is available in multiple languages.  Assistance with locating product information and technical documentation is available in English.
 
 ## Support resources
-- For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/).
+- For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact [Visual Studio subscriptions support](https://my.visualstudio.com/gethelp).
 - Have a question about Visual Studio IDE, Azure DevOps Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).
+
+## See also
+- [Visual Studio documentation](/visualstudio/)
+- [Azure DevOps documentation](/azure/devops/)
+- [Azure documentation](/azure/)
+- [Microsoft 365 documentation](/microsoft-365/)
 
 ## Next steps
 For more information about Microsoft tools and services, check out the documentation for:
 - [Azure](/azure/)
 - [Azure DevOps](/azure/devops/)
 - [Visual Studio IDE](/visualstudio/)
+
+If you haven't already activated the Azure DevTest individual credit benefit that comes with your subscription, visit [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs) and click on the Azure tile in the Tools category to set up your Azure subscription and redeem your Azure DevTest individual credit.

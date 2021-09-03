@@ -1,16 +1,19 @@
 ---
-title: "Brace Matching in a Legacy Language Service | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Brace Matching in a Legacy Language Service | Microsoft Docs
+description: Learn about brace matching in a legacy language service, that helps you track language elements that must occur together, such as parentheses and curly braces.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "brace matching"
-  - "language services [managed package framework], brace matching"
+- brace matching
+- language services [managed package framework], brace matching
 ms.assetid: 4e3d0a70-f22f-49dd-92d8-edf48ab62b52
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Brace matching in a legacy language service
 Brace matching helps the developer track language elements that need to occur together, such as parentheses and curly braces. When a developer enters a closing brace, the opening brace is highlighted.

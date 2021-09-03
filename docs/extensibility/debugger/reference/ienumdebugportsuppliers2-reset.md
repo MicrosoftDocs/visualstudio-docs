@@ -1,20 +1,22 @@
 ---
-title: "IEnumDebugPortSuppliers2::Reset | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Resets the port suppliers enumeration to the first element."
+title: IEnumDebugPortSuppliers2::Reset | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IEnumDebugPortSuppliers2::Next"
+- IEnumDebugPortSuppliers2::Next
 helpviewer_keywords:
-  - "IEnumDebugPortSuppliers2::Next"
+- IEnumDebugPortSuppliers2::Next
 ms.assetid: f69cbacf-da9d-4b22-b8a2-abd9b8c131f2
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IEnumDebugPortSuppliers2::Reset
 Resets the enumeration to the first element.

@@ -1,4 +1,5 @@
 ---
+description: "The document element of the vstov4 namespace stores customization-specific information for document-level customizations."
 title: "&lt;document&gt; element (Office development in Visual Studio)"
 titleSuffix: ""
 ms.custom: "seodec18"
@@ -13,7 +14,8 @@ helpviewer_keywords:
   - "<document> element"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
+ms.technology: office-development
 ms.workload:
   - "office"
 ---

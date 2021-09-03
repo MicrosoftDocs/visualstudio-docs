@@ -1,17 +1,19 @@
 ---
-title: "IDebugStackFrame3 | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "This interface extends IDebugStackFrame2 to handle intercepted exceptions."
+title: IDebugStackFrame3 | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugStackFrame3"
+- IDebugStackFrame3
 helpviewer_keywords:
-  - "IDebugStackFrame3 interface"
+- IDebugStackFrame3 interface
 ms.assetid: 39af2f57-0a01-42b8-b093-b7fbc61e2909
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IDebugStackFrame3
 This interface extends [IDebugStackFrame2](../../../extensibility/debugger/reference/idebugstackframe2.md) to handle intercepted exceptions.

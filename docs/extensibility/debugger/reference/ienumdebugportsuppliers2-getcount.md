@@ -1,20 +1,22 @@
 ---
-title: "IEnumDebugPortSuppliers2::GetCount | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Returns the number of elements in the port suppliers enumeration."
+title: IEnumDebugPortSuppliers2::GetCount | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IEnumDebugPortSuppliers2::GetCount"
+- IEnumDebugPortSuppliers2::GetCount
 helpviewer_keywords:
-  - "IEnumDebugPortSuppliers2::GetCount"
+- IEnumDebugPortSuppliers2::GetCount
 ms.assetid: 004f78dd-87d0-41a8-bcaa-f7fadbfeb8fc
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IEnumDebugPortSuppliers2::GetCount
 Returns the number of elements in the enumeration.

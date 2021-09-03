@@ -1,20 +1,23 @@
 ---
 title: Design-Time Code Generation by using T4 Text Templates
+description: Learn how design-time T4 text templates let you generate program code and other files in your Visual Studio project.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
-  - "text templates, guidelines for code generation"
-  - "text templates, data source model"
-  - "TextTemplatingFileGenerator custom tool"
-  - "Transform All Templates"
-  - "text templates, getting started"
-  - "Text Template project item"
-  - "text templates, generating code for your application"
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+- text templates, guidelines for code generation
+- text templates, data source model
+- TextTemplatingFileGenerator custom tool
+- Transform All Templates
+- text templates, getting started
+- Text Template project item
+- text templates, generating code for your application
+author: mgoertz-msft
+ms.author: mgoertz
+manager: jmartens
+ms.technology: vs-ide-modeling
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Design-Time Code Generation by using T4 Text Templates
 
@@ -242,7 +245,7 @@ To load a file from a location relative to the text template, you can use `this.
 Then you can write, for example:
 
 ```csharp
-<# string fileName = this.Host.ResolvePath("filename.txt");
+<# string filename = this.Host.ResolvePath("filename.txt");
   string [] properties = File.ReadLines(filename);
 #>
 ...
@@ -251,7 +254,7 @@ Then you can write, for example:
 ```
 
 ```vb
-<# Dim fileName = Me.Host.ResolvePath("propertyList.txt")
+<# Dim filename = Me.Host.ResolvePath("propertyList.txt")
    Dim properties = File.ReadLines(filename)
 #>
 ...
@@ -345,7 +348,7 @@ A useful feature of templates is that they look very much like the files that th
 
 4. Verify the following properties of the **.tt** file:
 
-   | | |
+   |Property |Setting |
    |-|-|
    | **Custom Tool =** | **TextTemplatingFileGenerator** |
    | **Build Action =** | **None** |
@@ -383,6 +386,6 @@ Please see [Guidelines for Writing T4 Text Templates](../modeling/guidelines-for
 |Transform your data in the form of a domain-specific language.|[Generating Code from a Domain-Specific Language](../modeling/generating-code-from-a-domain-specific-language.md)|
 |Write directive processors to transform your own data sources.|[Customizing T4 Text Transformation](../modeling/customizing-t4-text-transformation.md)|
 
-## See Also
+## See also
 
 - [Guidelines for Writing T4 Text Templates](../modeling/guidelines-for-writing-t4-text-templates.md)

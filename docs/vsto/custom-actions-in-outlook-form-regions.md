@@ -1,5 +1,7 @@
 ---
 title: "Custom actions in Outlook form regions"
+description: Learn how action display buttons, like Reply and Reply All, enable users to respond to a Microsoft Office Outlook item.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -10,7 +12,8 @@ helpviewer_keywords:
   - "custom actions [Office development in Visual Studio]"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
+ms.technology: office-development
 ms.workload:
   - "office"
 ---
@@ -42,7 +45,7 @@ ms.workload:
 |**TargetForm**|Specifies the message class name of the target form. For example, type **IPM.Task** to open a task form.|
 |**Title**|Specifies the label of the custom action button.|
 
-## Customize a custom action at runtime
+## Customize a custom action at run time
  You can also add behavior to the custom action using code. For example, you can add code that takes the names of e-mail recipients and adds those names as attendees in a new appointment item. To do this, handle the [CustomAction](/office/vba/api/Outlook.MailItem.CustomAction) event of the [MailItem object](/office/vba/api/Outlook.MailItem).
 
 ## See also

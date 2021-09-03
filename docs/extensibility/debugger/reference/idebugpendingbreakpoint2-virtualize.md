@@ -1,21 +1,23 @@
 ---
-title: "IDebugPendingBreakpoint2::Virtualize | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Toggles the virtualized state of this pending breakpoint."
+title: IDebugPendingBreakpoint2::Virtualize | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugPendingBreakpoint2::Virtualize"
+- IDebugPendingBreakpoint2::Virtualize
 helpviewer_keywords:
-  - "Virtualize method"
-  - "IDebugPendingBreakpoint2::Virtualize method"
+- Virtualize method
+- IDebugPendingBreakpoint2::Virtualize method
 ms.assetid: 58c8e9a5-4494-47c2-bddb-56f628da6a2d
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugPendingBreakpoint2::Virtualize
 Toggles the virtualized state of this pending breakpoint. When a pending breakpoint is virtualized, the debug engine will attempt to bind it every time new code loads into the program.

@@ -1,7 +1,8 @@
 ---
+description: "Retrieves a flag that specifies whether the function contains a use of the longjmp) command (paired with a setjmp(/cpp/c-runtime-library/reference/setjmp) command, these form the C-style method of exception handling)."
 title: "IDiaSymbol::get_hasLongJump | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,8 @@ helpviewer_keywords:
 ms.assetid: 14484cb1-43b0-47a1-a9a8-081b55566886
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -42,7 +44,7 @@ HRESULT get_hasLongJump
 |Header:|dia2.h|
 |Version:|DIA SDK v8.0|
 
-## See Also
+## See also
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
 - [IDiaSymbol::get_hasSetJump](../../debugger/debug-interface-access/idiasymbol-get-hassetjump.md)
 - [longjmp](/cpp/c-runtime-library/reference/longjmp)

@@ -1,17 +1,19 @@
 ---
-title: "IDebugProgramPublisher2 | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "This interface allows a debug engine (DE) or custom port suppliers to register programs for debugging."
+title: IDebugProgramPublisher2 | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugProgramPublisher2"
+- IDebugProgramPublisher2
 helpviewer_keywords:
-  - "IDebugProgramPublisher2 interface"
+- IDebugProgramPublisher2 interface
 ms.assetid: b1d17f63-7146-4076-a588-034cfc6858b9
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IDebugProgramPublisher2
 This interface allows a debug engine (DE) or custom port suppliers to register programs for debugging.
@@ -50,7 +52,7 @@ Namespace: Microsoft.VisualStudio.Debugger.Interop
 Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
 ## Example
-This example shows how to instantiate the program publisher and register a program node. This is taken from the Tutorial, [Publishing the Program Node](https://msdn.microsoft.com/library/d0100e02-4e2b-4e72-9e90-f7bc11777bae).
+This example shows how to instantiate the program publisher and register a program node. This is taken from the Tutorial, [Publishing the Program Node](/previous-versions/bb161795(v=vs.90)).
 
 ```cpp
 // This is how m_srpProgramPublisher is defined in the class definition:

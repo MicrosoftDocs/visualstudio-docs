@@ -1,18 +1,20 @@
 ---
-title: "IDebugIDECallback::DisplayMessage | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Sends the specified message string to the debugger's output window."
+title: IDebugIDECallback::DisplayMessage | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "IDebugIDECallback::DisplayMessage"
+- IDebugIDECallback::DisplayMessage
 ms.assetid: c19b48ee-b370-4fce-91fe-f82bf1e63179
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugIDECallback::DisplayMessage
 Sends the specified message string to the debugger's output window.

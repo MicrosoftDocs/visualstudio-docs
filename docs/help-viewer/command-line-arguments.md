@@ -1,11 +1,13 @@
 ---
 title: Command-line arguments for the Help Content Manager
+description: Use command-line arguments for the Help Content Manager (HlpCtntMgr.exe) to specify how to deploy and manage local Help content.
 ms.date: 11/01/2017
 ms.topic: reference
 ms.assetid: 3aa9890a-1147-42ba-adea-17935d184038
 author: ghogen
 ms.author: ghogen
-manager: jillfra
+manager: jmartens
+ms.technology: vs-help-viewer
 ms.workload:
   - "multiple"
 ---
@@ -33,6 +35,9 @@ For example:
 hlpctntmgr.exe /operation install /catalogname VisualStudio15 /locale en-us /sourceuri d:\productDocumentation\HelpContentSetup.msha
 ```
 
+>[!NOTE]
+> The catalog name is VisualStudio15 for both Visual Studio 2017 and Visual Studio 2019. This might be unexpected, but this is because the same Help Viewer is used for both Visual Studio versions.
+
 ## Switches and arguments
 
 The following table defines the switches and arguments that you can use for the command-line tool for Help Content Manager:
@@ -40,7 +45,7 @@ The following table defines the switches and arguments that you can use for the 
 |Switch|Required?|Arguments|
 |------------|---------------|---------------|
 |/operation|Yes|-   **Install**--Adds books from the specified installation source to the local content store.<br />     This switch requires the /booklist argument, the /sourceURI argument, or both. If you don't specify the /sourceURI argument, the default Visual Studio URI is used as the installation source. If you don't specify the /booklist argument, all books on the /sourceUri are installed.<br />-   **Uninstall**--Removes the books that you specify from the local content store.<br />     This switch requires the /booklist argument or the /sourceURI argument.  If you specify the /sourceURI argument, all books are removed, and the /booklist argument is ignored.<br />-   **Move**--Moves the local store to the path that you specify. The default local store path is set as a directory under *%ProgramData%*<br />     This switch requires the /locationPath and /catalogName arguments. Error messages will be logged in the event log if you specify a path that isn't valid or if the drive doesn't contain enough free space to hold the content.<br />-   **Refresh**--Updates topics that have  changed since they were installed or most recently updated.<br />     This switch requires the /sourceURI argument.|
-|/catalogName|Yes|Specifies the name of the content catalog.|
+|/catalogName|Yes|Specifies the name of the content catalog. For Visual Studio 2017 and Visual Studio 2019, this is VisualStudio15.|
 |/locale|No|Specifies the product locale that's used to view and manage content for the current instance of the Help viewer. For example, you specify `EN-US` for English-United States.<br /><br /> If you don't specify a locale, the locale of the operating system is used. If that locale can't be determined, `EN-US` is used.<br /><br /> If you specify a locale that isn't valid, an error message is logged in the event log.|
 |/e|No|Elevates the Help Content Manager to Administrative privileges if the current user has administrative credentials.|
 |/sourceURI|No|Specifies the URL from which content is installed (Service API) or the path to the content installation file (*.msha*). The URL can point to the Product Group (top-level node) or to the Product Books (leaf-level node) in a Visual Studio 2010 style endpoint. You don't need to include a slash (/) at the end of the URL. If you do include a trailing slash, it will be handled appropriately.<br /><br /> An error message is logged in the event log if you specify a file that isn't found, isn't valid, or isn't accessible or if a connection to the internet isn't available or is interrupted while content is being managed.|

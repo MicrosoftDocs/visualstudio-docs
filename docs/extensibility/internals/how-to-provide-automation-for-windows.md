@@ -1,16 +1,19 @@
 ---
-title: "How to: Provide Automation for Windows | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: 'How to: Provide Automation for Windows | Microsoft Docs'
+description: Learn how to provide automation for document and tool windows in Visual Studio by using Microsoft.VisualStudio.Shell.Interop methods.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
 helpviewer_keywords:
-  - "automation [Visual Studio SDK], tool windows"
-  - "tool windows, automation"
+- automation [Visual Studio SDK], tool windows
+- tool windows, automation
 ms.assetid: 512ab2a4-7987-4912-8f40-8804bf66f829
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # How to: Provide automation for windows
 
@@ -32,7 +35,7 @@ The environment provides automation on a tool window by returning a standard <xr
 
 A standard <xref:EnvDTE.Document> object is also available from the environment, although an editor can have its own implementation of the <xref:EnvDTE.Document> object by implementing `IExtensibleObject` interface and responding to `GetAutomationObject`.
 
-In addition, an editor can provide a VSPackage-specific automation object, retrieved through the <xref:EnvDTE.Document.Object%2A> method, by implementing the `IVsExtensibleObject` or `IExtensibleObject` interfaces. The [VSSDK samples](https://aka.ms/vs2015sdksamples) contributes an RTF document-specific automation object.
+In addition, an editor can provide a VSPackage-specific automation object, retrieved through the <xref:EnvDTE.Document.Object%2A> method, by implementing the `IVsExtensibleObject` or `IExtensibleObject` interfaces. The [VSSDK samples](https://github.com/Microsoft/VSSDK-Extensibility-Samples) contributes an RTF document-specific automation object.
 
 ## See also
 

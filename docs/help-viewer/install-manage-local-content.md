@@ -1,7 +1,8 @@
 ---
 title: Install local help documentation
+description: Install and manage local help documentation using the Microsoft Help Viewer. Add, remove, update, and move Help content that's installed on your computer.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 f1_keywords:
   - "hv_manage"
 helpviewer_keywords:
@@ -20,7 +21,8 @@ helpviewer_keywords:
 ms.assetid: efd9df4c-2e69-4c50-992c-9678a8d8cf19
 author: ghogen
 ms.author: ghogen
-manager: jillfra
+manager: jmartens
+ms.technology: vs-help-viewer
 ms.workload:
   - "multiple"
 ---

@@ -1,17 +1,20 @@
 ---
 title: Improve performance if Visual Studio is slow
-titleSuffix: ""
+titleSuffix: ''
+description: Learn how to improve Visual Studio performance if you find that it is running slowly.
+ms.custom: SEO-VS-2020
 ms.date: 04/11/2018
 ms.topic: conceptual
 helpviewer_keywords:
-  - "performance [Visual Studio]"
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+- performance [Visual Studio]
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
+ms.technology: vs-ide-general
 f1_keywords:
-  - "vs.performancecenter"
+- vs.performancecenter
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Optimize Visual Studio performance
 
@@ -19,7 +22,7 @@ This article provides some suggestions to try if you find that Visual Studio is 
 
 ## Upgrade Visual Studio
 
-If you are currently using Visual Studio 2015, download [Visual Studio 2017](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download) or [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019) for free to check out its improved performance. Solutions load two to three times faster than in Visual Studio 2015, with performance improvements in other areas too. Visual Studio 2017 and Visual Studio 2019 are side-by-side compatible with Visual Studio 2015, so you won't lose anything by trying it out.
+If you are currently using Visual Studio 2015, download [Visual Studio 2017](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download) or [Visual Studio 2019](https://visualstudio.microsoft.com/downloads) for free to check out its improved performance. Solutions load two to three times faster than in Visual Studio 2015, with performance improvements in other areas too. Visual Studio 2017 and Visual Studio 2019 are side-by-side compatible with Visual Studio 2015, so you won't lose anything by trying it out.
 
 ::: moniker range="vs-2017"
 

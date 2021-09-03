@@ -1,15 +1,18 @@
 ---
-title: "Managed Extensibility Framework in the Editor | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Managed Extensibility Framework in the Editor | Microsoft Docs
+description: Learn about the Managed Extensibility Framework, which allows you to build your own components to extend the editor in the Visual Studio SDK.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "editors [Visual Studio SDK], new - using MEF for extensions"
+- editors [Visual Studio SDK], new - using MEF for extensions
 ms.assetid: 3f59a285-6c33-4ae3-a4fb-ec1f5aa21bd1
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Managed Extensibility Framework in the editor
 The editor is built by using Managed Extensibility Framework (MEF) components. You can build your own MEF components to extend the editor, and your code can consume editor components as well.
@@ -78,7 +81,7 @@ internal IClassificationTypeRegistryService ClassificationRegistry;
 
 1. Add references to *System.Composition.ComponentModel.dll*, which is in the global assembly cache (GAC), and to the editor assemblies.
 
-2. Add the relevant using statements.
+2. Add the relevant using directives.
 
     ```
     using System.ComponentModel.Composition;

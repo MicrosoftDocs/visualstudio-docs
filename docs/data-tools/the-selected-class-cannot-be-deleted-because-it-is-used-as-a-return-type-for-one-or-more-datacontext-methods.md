@@ -1,13 +1,16 @@
 ---
-title: The selected class cannot be deleted because it is used as a return type for one or more DataContext methods
+title: Selected class cannot be deleted
+description: The selected class cannot be deleted because it is used as a return type for one or more DataContext methods
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: reference
+ms.topic: error-reference
 ms.assetid: d68254a0-f3a1-47e2-aed3-a83471e1d711
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: ghogen
+ms.author: ghogen
+manager: jmartens
+ms.technology: vs-data-tools
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # The selected class cannot be deleted because it is used as a return type for one or more DataContext methods
 

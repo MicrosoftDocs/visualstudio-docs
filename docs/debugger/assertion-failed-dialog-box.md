@@ -1,5 +1,7 @@
 ---
 title: "Assertion Failed Dialog Box | Microsoft Docs"
+description: Learn about the Assertion Failed dialog box, which is a dialog box that you might encounter in the debugging user interface of Visual Studio.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 f1_keywords:
@@ -17,7 +19,8 @@ helpviewer_keywords:
 ms.assetid: 64af5bed-e38b-420f-b9ce-d64f35100aae
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -30,6 +33,6 @@ An assertion statement specifies a condition that you expect to hold true at som
 |Ignore|Ignore the assertion and continue running the program.|
 |Abort|Halt execution of the program and end the debugging session.|
 
-## See Also
+## See also
 
 - [C/C++ Assertions](../debugger/c-cpp-assertions.md)

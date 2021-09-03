@@ -1,17 +1,20 @@
 ---
-title: "How to: Add a Command to the Shortcut Menu"
+title: 'How to: Add a command to the shortcut menu'
+description: Learn how you can add menu commands to your domain-specific language (DSL) so that your users can perform tasks that are specific to your DSL.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
-  - "Domain-Specific Language Tools, walkthroughs"
-  - "walkthroughs [Domain-Specific Language Tools]"
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+- Domain-Specific Language Tools, walkthroughs
+- walkthroughs [Domain-Specific Language Tools]
+author: mgoertz-msft
+ms.author: mgoertz
+manager: jmartens
+ms.technology: vs-ide-modeling
 ms.workload:
-  - "multiple"
+- multiple
 ---
-# How to: Add a Command to the Shortcut Menu
+# How to: Add a command to the shortcut menu
 
 You can add menu commands to your domain-specific language (DSL) so that your users can perform tasks that are specific to your DSL. The commands appear on the context (shortcut) menu when users right-click on the diagram. You can define a command so that it only appears in the menu in specific circumstances. For example, you can make the command visible only when the user clicks specific types of element, or elements in specific states.
 
@@ -22,8 +25,6 @@ In summary, the steps are performed in the DslPackage project as follows:
 2. [Update the package version number in Package.tt](#version). You have to do this whenever you change Commands.vsct
 
 3. [Write methods in the CommandSet class](#CommandSet) to make the command visible and to define what you want the command to do.
-
-   For samples, see the [Visualization and Modeling SDK website](http://go.microsoft.com/fwlink/?LinkID=185579).
 
 > [!NOTE]
 > You can also modify the behavior of some existing commands such as Cut, Paste, Select All, and Print by overriding methods in CommandSet.cs. For more information, see [How to: Modify a Standard Menu Command](../modeling/how-to-modify-a-standard-menu-command-in-a-domain-specific-language.md).
@@ -96,7 +97,7 @@ Use the method in this topic if:
     </VisibilityConstraints>
     ```
 
-4. Define the names that you used for the guids and ids. To do this, add a `Symbols` element in the `CommandTable` element after the `Commands` element.
+4. Define the names that you used for the GUIDs and IDs. To do this, add a `Symbols` element in the `CommandTable` element after the `Commands` element.
 
     ```xml
     <Symbols>
@@ -355,9 +356,9 @@ protected override IList<MenuCommand> GetMenuCommands()
 
 ## See also
 
-- [Writing Code to Customise a Domain-Specific Language](../modeling/writing-code-to-customise-a-domain-specific-language.md)
-- [How to: Modify a Standard Menu Command](../modeling/how-to-modify-a-standard-menu-command-in-a-domain-specific-language.md)
-- [Deploying Domain-Specific Language Solutions](msi-and-vsix-deployment-of-a-dsl.md)
-- [Sample code: Circuit Diagrams](https://code.msdn.microsoft.com/Visualization-Modeling-SDK-763778e8)
+- [Writing code to customize a domain-specific language](../modeling/writing-code-to-customise-a-domain-specific-language.md)
+- [How to: Modify a standard menu command](../modeling/how-to-modify-a-standard-menu-command-in-a-domain-specific-language.md)
+- [Deploying domain-specific language solutions](msi-and-vsix-deployment-of-a-dsl.md)
+- [Sample code: Circuit diagrams](https://code.msdn.microsoft.com/Visualization-Modeling-SDK-763778e8)
 
 [!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]

@@ -1,20 +1,22 @@
 ---
-title: "MODULE_INFO_FIELDS | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Specifies the flags for the debug module information."
+title: MODULE_INFO_FIELDS | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "MODULE_INFO_FIELDS"
+- MODULE_INFO_FIELDS
 helpviewer_keywords:
-  - "MODULE_INFO_FIELDS enumeration"
+- MODULE_INFO_FIELDS enumeration
 ms.assetid: 8bed85f4-235f-4192-b58f-5fad7a4d7a78
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # MODULE_INFO_FIELDS
 Specifies the flags for the debug module information.

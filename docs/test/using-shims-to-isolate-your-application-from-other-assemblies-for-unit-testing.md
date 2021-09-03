@@ -1,32 +1,36 @@
 ---
-title: "Using shims to isolate your application for unit testing"
+title: Isolate your app with shims (unit testing)
+description: Learn how to use shim types to divert calls to specific methods to code that you write as part of your test. A shim can return consistent results at every call.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
-ms.author: gewarren
-manager: jillfra
-ms.workload:
-  - "multiple"
-author: gewarren
+ms.topic: how-to
+ms.author: mikejo
+manager: jmartens
+ms.technology: vs-ide-test
+author: mikejo5000
+dev_langs: 
+  - CSharp
+  - VB
 ---
-# Use shims to isolate your application from other assemblies for unit testing
+# Use shims to isolate your app for unit testing
 
-**Shim types** are one of two technologies that the Microsoft Fakes Framework uses to let you easily isolate components under test from the environment. Shims divert calls to specific methods to code that you write as part of your test. Many methods return different results dependent on external conditions, but a shim is under the control of your test and can return consistent results at every call. This makes your tests much easier to write.
+**Shim types** are one of two technologies that the Microsoft Fakes Framework uses to let you isolate components under test from the environment. Shims divert calls to specific methods to code that you write as part of your test. Many methods return different results dependent on external conditions, but a shim is under the control of your test and can return consistent results at every call. This makes it easier to write the tests.
 
-Use shims to isolate your code from assemblies that are not part of your solution. To isolate components of your solution from each other, we recommend that you use stubs.
+Use *shims* to isolate your code from assemblies that are not part of your solution. To isolate components of your solution from each other, use *stubs*.
 
-For an overview and quick start guidance, see [Isolate code under test with Microsoft Fakes](../test/isolating-code-under-test-with-microsoft-fakes.md)
+For an overview and "quick start" guidance, see [Isolate code under test with Microsoft Fakes](../test/isolating-code-under-test-with-microsoft-fakes.md).
 
 **Requirements**
 
 - Visual Studio Enterprise
 - A .NET Framework project
-
-> [!NOTE]
-> .NET Standard projects are not supported.
+::: moniker range=">=vs-2019"
+- .NET Core, .NET 5.0, and SDK-style project support previewed in Visual Studio 2019 Update 6, and is enabled by default in Update 8. For more information, see [Microsoft Fakes for .NET Core and SDK-style projects](/visualstudio/releases/2019/release-notes#microsoft-fakes-for-net-core-and-sdk-style-projects).
+::: moniker-end
 
 ## Example: The Y2K bug
 
-Let's consider a method that throws an exception on January 1st of 2000:
+Consider a method that throws an exception on January 1st of 2000:
 
 ```csharp
 // code under test
@@ -57,19 +61,22 @@ using (ShimsContext.Create()) {
 
 ## How to use shims
 
-### <a name="AddFakes"></a> Add Fakes Assemblies
+First, add a Fakes assembly:
 
-1. In **Solution Explorer**, expand your unit test project's **References**.
+1. In **Solution Explorer**, 
+    - For an older .NET Framework Project (non-SDK style), expand your unit test project's **References** node.
+    ::: moniker range=">=vs-2019"
+    - For an SDK-style project targeting .NET Framework, .NET Core, or .NET 5.0, expand the **Dependencies** node to find the assembly you would like to fake under **Assemblies**, **Projects**, or **Packages**.
+    ::: moniker-end
+    - If you're working in Visual Basic, select **Show All Files** in the **Solution Explorer** toolbar to see the **References** node.
 
-    - If you're working in Visual Basic, select **Show All Files** in the **Solution Explorer** toolbar in order to see the **References** node.
-
-2. Select the assembly that contains the classes definitions for which you want to create shims. For example, if you want to shim **DateTime**, select **System.dll**.
+2. Select the assembly that contains the class definitions for which you want to create shims. For example, if you want to shim **DateTime**, select **System.dll**.
 
 3. On the shortcut menu, choose **Add Fakes Assembly**.
 
-### <a name="ShimsContext"></a> Use ShimsContext
+### Use ShimsContext
 
-When using shim types in a unit test framework, you must wrap the test code in a `ShimsContext` to control the lifetime of your shims. If we didn't require this, your shims would last until the AppDomain shut down. The easiest way to create a `ShimsContext` is by using the static `Create()` method as shown in the following code:
+When using shim types in a unit test framework, wrap the test code in a `ShimsContext` to control the lifetime of your shims. Otherwise, the shims would last until the AppDomain shut down. The easiest way to create a `ShimsContext` is by using the static `Create()` method as shown in the following code:
 
 ```csharp
 //unit test code
@@ -81,9 +88,9 @@ public void Y2kCheckerTest() {
 }
 ```
 
-It's critical to properly dispose each shim context. As a rule of thumb, always call the `ShimsContext.Create` inside of a `using` statement to ensure proper clearing of the registered shims. For example, you might register a shim for a test method that replaces the `DateTime.Now` method with a delegate that always returns the first of January 2000. If you forget to clear the registered shim in the test method, the rest of the test run would always return the first of January 2000 as the DateTime.Now value. This might be surprising and confusing.
+It's critical to properly dispose each shim context. As a rule of thumb, call the `ShimsContext.Create` inside of a `using` statement to ensure proper clearing of the registered shims. For example, you might register a shim for a test method that replaces the `DateTime.Now` method with a delegate that always returns the first of January 2000. If you forget to clear the registered shim in the test method, the rest of the test run would always return the first of January 2000 as the `DateTime.Now` value. This might be surprising and confusing.
 
-### <a name="WriteShims"></a> Write a test with shims
+### Write a test with shims
 
 In your test code, insert a *detour* for the method you want to fake. For example:
 
@@ -152,11 +159,11 @@ Notice that detours are created and deleted at run time. You must always create 
 
 You might see a build error stating that the Fakes namespace does not exist. This error sometimes appears when there are other compilation errors. Fix the other errors and it will vanish.
 
-## <a name="BKMK_Shim_basics"></a> Shims for different kinds of methods
+## Shims for different kinds of methods
 
 Shim types allow you to replace any .NET method, including static methods or non-virtual methods, with your own delegates.
 
-### <a name="BKMK_Static_methods"></a> Static methods
+### Static methods
 
 The properties to attach shims to static methods are placed in a shim type. Each property has only a setter that can be used to attach a delegate to the target method. For example, given a class `MyClass` with a static method `MyMethod`:
 
@@ -173,10 +180,10 @@ We can attach a shim to `MyMethod` that always returns 5:
 
 ```csharp
 // unit test code
-ShimMyClass.MyMethod = () =>5;
+ShimMyClass.MyMethod = () => 5;
 ```
 
-### <a name="BKMK_Instance_methods__for_all_instances_"></a> Instance methods (for all instances)
+### Instance methods (for all instances)
 
 Similarly to static methods, instance methods can be shimmed for all instances. The properties to attach those shims are placed in a nested type named AllInstances to avoid confusion. For example, given a class `MyClass` with an instance method `MyMethod`:
 
@@ -213,7 +220,7 @@ public class ShimMyClass : ShimBase<MyClass> {
 
 Notice that Fakes passes the runtime instance as the first argument of the delegate in this case.
 
-### <a name="BKMK_Instance_methods__for_one_instance_"></a> Instance methods (for one runtime instance)
+### Instance methods (for one runtime instance)
 
 Instance methods can also be shimmed by different delegates, based on the receiver of the call. This enables the same instance method to have different behaviors per instance of the type. The properties to set up those shims are instance methods of the shim type itself. Each instantiated shim type is also associated with a raw instance of a shimmed type.
 
@@ -270,11 +277,10 @@ The shim type also has an implicit conversion to the shimmed type, so you can us
 ```csharp
 // unit test code
 var shim = new ShimMyClass();
-MyClass instance = shim; // implicit cast retrieves the runtime
-                         // instance
+MyClass instance = shim; // implicit cast retrieves the runtime instance
 ```
 
-### <a name="BKMK_Constructors"></a> Constructors
+### Constructors
 
 Constructors can also be shimmed in order to attach shim types to future objects. Each constructor is exposed as a static method Constructor in the shim type. For example, given a class `MyClass` with a constructor taking an integer:
 
@@ -325,7 +331,7 @@ public class ShimMyClass : ShimBase<MyClass>
 }
 ```
 
-### <a name="BKMK_Base_members"></a> Base members
+### Base members
 
 The shim properties of base members can be accessed by creating a shim for the base type and passing the child instance as a parameter to the constructor of the base shim class.
 
@@ -368,19 +374,19 @@ public class ShimMyBase : ShimBase<MyBase> {
 }
 ```
 
-### <a name="BKMK_Static_constructors"></a> Static constructors
+### Static constructors
 
 Shim types expose a static method `StaticConstructor` to shim the static constructor of a type. Since static constructors are executed once only, you need to make sure that the shim is configured before any member of the type is accessed.
 
-### <a name="BKMK_Finalizers"></a> Finalizers
+### Finalizers
 
 Finalizers are not supported in Fakes.
 
-### <a name="BKMK_Private_methods"></a> Private methods
+### Private methods
 
 The Fakes code generator creates shim properties for private methods that only have visible types in the signature, that is, parameter types and return type visible.
 
-### <a name="BKMK_Binding_interfaces"></a> Binding interfaces
+### Binding interfaces
 
 When a shimmed type implements an interface, the code generator emits a method that allows it to bind all the members from that interface at once.
 
@@ -395,7 +401,7 @@ public class MyClass : IEnumerable<int> {
 }
 ```
 
-We can shim the implementations of `IEnumerable<int>` in MyClass by calling the Bind method:
+You can shim the implementations of `IEnumerable<int>` in MyClass by calling the Bind method:
 
 ```csharp
 // unit test code
@@ -418,48 +424,47 @@ public class ShimMyClass : ShimBase<MyClass> {
 
 Each generated shim type holds an instance of the `IShimBehavior` interface, through the `ShimBase<T>.InstanceBehavior` property. The behavior is used whenever a client calls an instance member that was not explicitly shimmed.
 
-If the behavior has not been explicitly set, it uses the instance returned by the static `ShimsBehaviors.Current` property. By default, this property returns a behavior that throws a `NotImplementedException` exception.
+If the behavior has not been explicitly set, it uses the instance returned by the static `ShimBehaviors.Current` property. By default, this property returns a behavior that throws a `NotImplementedException` exception.
 
-This behavior can be changed at any time by setting the `InstanceBehavior` property on any shim instance. For example, the following snippet changes the shim to a behavior that does nothing or returns the default value of the return type—that is, default(T):
+This behavior can be changed at any time by setting the `InstanceBehavior` property on any shim instance. For example, the following snippet changes the shim to a behavior that does nothing or returns the default value of the return type—that is, `default(T)`:
 
 ```csharp
 // unit test code
 var shim = new ShimMyClass();
 //return default(T) or do nothing
-shim.InstanceBehavior = ShimsBehaviors.DefaultValue;
+shim.InstanceBehavior = ShimBehaviors.DefaultValue;
 ```
 
-The behavior can also be changed globally for all shimmed instances for which the `InstanceBehavior` property was not explicitly set by setting the static `ShimsBehaviors.Current` property:
+The behavior can also be changed globally for all shimmed instances for which the `InstanceBehavior` property was not explicitly set by setting the static `ShimBehaviors.Current` property:
 
 ```csharp
 // unit test code
 // change default shim for all shim instances
 // where the behavior has not been set
-ShimsBehaviors.Current =
-    ShimsBehaviors.DefaultValue;
+ShimBehaviors.Current = ShimBehaviors.DefaultValue;
 ```
 
 ## Detect environment accesses
 
-It is possible to attach a behavior to all the members, including static methods, of a particular type by assigning the `ShimsBehaviors.NotImplemented` behavior to the static property `Behavior` of the corresponding shim type:
+It is possible to attach a behavior to all the members, including static methods, of a particular type by assigning the `ShimBehaviors.NotImplemented` behavior to the static property `Behavior` of the corresponding shim type:
 
 ```csharp
 // unit test code
 // assigning the not implemented behavior
-ShimMyClass.Behavior = ShimsBehaviors.NotImplemented;
+ShimMyClass.Behavior = ShimBehaviors.NotImplemented;
 // shorthand
 ShimMyClass.BehaveAsNotImplemented();
 ```
 
-## <a name="BKMK_Concurrency"></a> Concurrency
+## Concurrency
 
-Shim types apply to all threads in the AppDomain and don't have thread affinity. This is an important fact if you plan to use a test runner that support concurrency: tests involving shim types cannot run concurrently. This property is not enforced by the Fakes runtime.
+Shim types apply to all threads in the AppDomain and don't have thread affinity. This is an important fact if you plan to use a test runner that supports concurrency. Tests involving shim types cannot run concurrently. This property is not enforced by the Fakes runtime.
 
 ## Call the original method from the shim method
 
-Imagine that we wanted to actually write the text to the file system after validating the file name passed to the method. In that case, we would want to call the original method in the middle of the shim method.
+Imagine that you want to write the text to the file system after validating the file name passed to the method. In that case, you'd call the original method in the middle of the shim method.
 
-The first approach to solve this problem is to wrap a call to the original method using a delegate and `ShimsContext.ExecuteWithoutShims()` as in the following code:
+The first approach to solve this problem is to wrap a call to the original method using a delegate and `ShimsContext.ExecuteWithoutShims()`, as in the following code:
 
 ```csharp
 // unit test code
@@ -473,7 +478,7 @@ ShimFile.WriteAllTextStringString = (fileName, content) => {
 };
 ```
 
-Another approach is to set the shim to null, call the original method and restore the shim.
+Another approach is to set the shim to null, call the original method, and restore the shim.
 
 ```csharp
 // unit test code
@@ -496,12 +501,28 @@ shim = (fileName, content) => {
 ShimFile.WriteAllTextStringString = shim;
 ```
 
-## <a name="BKMK_Limitations"></a> Limitations
+## System.Environment
 
-Shims cannot be used on all types from the .NET base class library **mscorlib** and **System**.
+To shim <xref:System.Environment?displayProperty=fullName>, add the following content to the mscorlib.fakes file after the **Assembly** element:
+
+```xml
+<ShimGeneration>
+    <Add FullName="System.Environment"/>
+</ShimGeneration>
+```
+
+After you rebuild the solution, the methods and properties in the <xref:System.Environment?displayProperty=fullName> class are available to be shimmed, for example:
+
+```csharp
+System.Fakes.ShimEnvironment.GetCommandLineArgsGet = ...
+```
+
+## Limitations
+
+Shims cannot be used on all types from the .NET base class library **mscorlib** and **System** in .NET Framework, and in **System.Runtime** in .NET Core or .NET 5.0.
 
 ## See also
 
 - [Isolate code under test with Microsoft Fakes](../test/isolating-code-under-test-with-microsoft-fakes.md)
 - [Peter Provost's blog: Visual Studio 2012 shims](http://www.peterprovost.org/blog/2012/04/25/visual-studio-11-fakes-part-2)
-- [Video (1h16): Testing untestable code with fakes in Visual Studio 2012](http://go.microsoft.com/fwlink/?LinkId=261837)
+- [Video (1h16): Testing untestable code with fakes in Visual Studio 2012](https://channel9.msdn.com/Events/TechEd/Europe/2012/DEV411)

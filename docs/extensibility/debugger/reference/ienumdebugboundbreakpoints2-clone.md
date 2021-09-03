@@ -1,20 +1,22 @@
 ---
-title: "IEnumDebugBoundBreakpoints2::Clone | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Returns a copy of the current bound breakpoints enumeration as a separate object."
+title: IEnumDebugBoundBreakpoints2::Clone | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IEnumDebugBoundBreakpoints2::Clone"
+- IEnumDebugBoundBreakpoints2::Clone
 helpviewer_keywords:
-  - "IEnumDebugBoundBreakpoints2::Clone"
+- IEnumDebugBoundBreakpoints2::Clone
 ms.assetid: c6ce01a2-7da3-46ec-9837-855042fa7244
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IEnumDebugBoundBreakpoints2::Clone
 Returns a copy of the current enumeration as a separate object.

@@ -1,22 +1,25 @@
 ---
-title: "Display custom type using DebuggerTypeProxy | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-dev_langs:
-  - "CSharp"
-  - "VB"
-  - "FSharp"
-  - "C++"
-helpviewer_keywords:
-  - "attributes [C#], debugger"
-  - "DebuggerTypeProxyAttribute class"
-  - "DebuggerTypeProxy attribute"
+title: Display custom type using DebuggerTypeProxy | Microsoft Docs
+description: Use an instance of DebuggerTypeProxyAttribute to specify a proxy (stand-in) for a type, to change how the type is displayed in debugger windows.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
+dev_langs: 
+  - CSharp
+  - VB
+  - FSharp
+  - C++
+helpviewer_keywords: 
+  - attributes [C#], debugger
+  - DebuggerTypeProxyAttribute class
+  - DebuggerTypeProxy attribute
 ms.assetid: 943f3bb1-993e-4800-a47e-0af78b063014
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
-ms.workload:
-  - "multiple"
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.technology: vs-ide-debug
+ms.workload: 
+  - multiple
 ---
 # Tell the debugger what type to show using DebuggerTypeProxy Attribute (C#, Visual Basic, C++/CLI)
 
@@ -41,7 +44,7 @@ It is a good idea for the type proxy to be a private nested class within the cla
 
 If <xref:System.Diagnostics.DebuggerTypeProxyAttribute> is used at the assembly level, the `Target` parameter specifies the type which the proxy will replace.
 
-For an example of how to use this attribute along with <xref:System.Diagnostics.DebuggerDisplayAttribute> and <xref:System.Diagnostics.DebuggerTypeProxyAttribute>, see[Using the DebuggerDisplay Attribute](../debugger/using-the-debuggerdisplay-attribute.md).
+For an example of how to use this attribute along with <xref:System.Diagnostics.DebuggerDisplayAttribute> and <xref:System.Diagnostics.DebuggerTypeProxyAttribute>, see [Using the DebuggerDisplay Attribute](../debugger/using-the-debuggerdisplay-attribute.md).
 
 ## Using Generics with DebuggerTypeProxy
 
@@ -59,8 +62,8 @@ Visual Basic does not have open type syntax, so you cannot do the same thing in 
 
 `"Namespace.TypeName'2"`
 
-## See Also
+## See also
 
 - [Using the DebuggerDisplay Attribute](../debugger/using-the-debuggerdisplay-attribute.md)
-- [Create custom views of .managed objects](../debugger/create-custom-views-of-dot-managed-objects.md)
+- [Create custom views of managed objects](../debugger/create-custom-views-of-managed-objects.md)
 - [Enhancing Debugging with the Debugger Display Attributes](/dotnet/framework/debug-trace-profile/enhancing-debugging-with-the-debugger-display-attributes)

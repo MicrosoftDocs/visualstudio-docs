@@ -4,11 +4,12 @@ titleSuffix: ""
 description: Visual Studio provides support for creating code without a dependence on a project file or solution file
 ms.custom: "seodec18"
 ms.date: "09/24/2018"
-ms.topic: "conceptual"
+ms.topic: "how-to"
 ms.devlang: javascript
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-javascript
 dev_langs:
   - JavaScript
 ms.workload:
@@ -21,7 +22,7 @@ Starting in Visual Studio 2017, you can [develop code without projects or soluti
 To get started, select **File** > **Open** > **Folder** from the toolbar. Solution Explorer displays all the files in the folder, and you can open any of the files to begin editing. In the background, Visual Studio indexes the files to enable npm, build, and debug features.
 
 > [!IMPORTANT]
-> Many of the features described in this article, including npm integration, require Visual Studio 2017 version 15.8 or later versions.
+> Many of the features described in this article, including npm integration, require Visual Studio 2017 version 15.8 or later versions. The Visual Studio **Node.js development** workload must be installed.
 
 ## npm integration
 
@@ -71,7 +72,7 @@ You can enable the unit test integration in Visual Studio by specifying a test r
 The test runner enumerates the locally installed packages to determine which test framework to use.
 If none of the supported frameworks are recognized, the test runner defaults to *ExportRunner*. The other
 supported frameworks are:
-* Mocha ([mochajs.org](http://mochajs.org/))
+* Mocha ([mochajs.org](https://mochajs.org/))
 * Jasmine ([Jasmine.github.io](https://jasmine.github.io/))
 * Tape ([github.com/substack/tape](https://github.com/substack/tape))
 * Jest ([jestjs.io](https://jestjs.io/))

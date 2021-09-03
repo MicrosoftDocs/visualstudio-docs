@@ -1,14 +1,17 @@
 ---
-title: "Step 5: Add Enter event handlers for NumericUpDown controls"
+title: "Add Enter event handlers for NumericUpDown controls"
+description: Add Enter event handlers for NumericUpDown controls in the create a timed math quiz tutorial. 
 ms.date: 11/04/2016
-ms.topic: conceptual
-ms.assetid: 45a99a5d-c881-4298-b74d-adb481dec5ee
-author: TerryGLee
-ms.author: tglee
-manager: jillfra
+ms.custom: SEO-VS-2020
+ms.topic: tutorial
 dev_langs:
- - CSharp
- - VB
+  - "CSharp"
+  - "VB"
+ms.assetid: 45a99a5d-c881-4298-b74d-adb481dec5ee
+author: anandmeg
+ms.author: meghaanand
+manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
   - "multiple"
 ---
@@ -49,8 +52,10 @@ In the fifth part of this tutorial, you'll add <xref:System.Windows.Forms.Contro
 
 3. In the method for the **answer_Enter** event handler, add the following code:
 
-     [!code-vb[VbExpressTutorial3Step5_6#11](../ide/codesnippet/VisualBasic/step-5-add-enter-event-handlers-for-the-numericupdown-controls_1.vb)]
-     [!code-csharp[VbExpressTutorial3Step5_6#11](../ide/codesnippet/CSharp/step-5-add-enter-event-handlers-for-the-numericupdown-controls_1.cs)]
+     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial3step5_6/vb/form1.vb" id="Snippet11":::
+     :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial3step5_6/cs/form1.cs" id="Snippet11":::
+
+     [!INCLUDE [devlang-control-csharp-vb](./includes/devlang-control-csharp-vb.md)]
 
      This code may look complex, but you can understand it if you look at it step by step. First, look at the top of the method: `object sender` in C# or `sender As System.Object` in Visual Basic. This parameter refers to the object whose event is firing, which is known as the sender. In this case, the sender object is the NumericUpDown control. So, in the first line of the method, you specify that the sender isn't just any generic object but specifically a NumericUpDown control. (Every NumericUpDown control is an object, but not every object is a NumericUpDown control.) The NumericUpDown control is named **answerBox** in this method, because it will be used for all of the NumericUpDown controls on the form, not just the sum NumericUpDown control. Because you declare the answerBox variable in this method, its scope applies only to this method. In other words, the variable can be used only within this method.
 
@@ -68,6 +73,6 @@ In the fifth part of this tutorial, you'll add <xref:System.Windows.Forms.Contro
 
 ## To continue or review
 
-- To go to the next tutorial step, see [Step 6: Add a subtraction problem](../ide/step-6-add-a-subtraction-problem.md).
+- To go to the next tutorial step, see **[Step 6: Add a subtraction problem](../ide/step-6-add-a-subtraction-problem.md)**.
 
 - To return to the previous tutorial step, see [Step 4: Add the CheckTheAnswer() method](../ide/step-4-add-the-checktheanswer-parens-method.md).

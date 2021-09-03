@@ -1,20 +1,22 @@
 ---
-title: "IDebugExceptionEvent2::GetException | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Gets a detailed description of the exception that fired this event."
+title: IDebugExceptionEvent2::GetException | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugExceptionEvent2::GetException"
+- IDebugExceptionEvent2::GetException
 helpviewer_keywords:
-  - "IDebugExceptionEvent2::GetException"
+- IDebugExceptionEvent2::GetException
 ms.assetid: 7c98f41d-322b-4e72-a514-cbd4823eb70d
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugExceptionEvent2::GetException
 Gets a detailed description of the exception that fired this event.

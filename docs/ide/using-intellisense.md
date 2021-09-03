@@ -1,20 +1,23 @@
 ---
 title: Parameter info, list members, and quick info
+description: "Learn how to use these IntelliSense features:  List Members, Parameter Info, Quick Info, and Complete Word."
+ms.custom: SEO-VS-2020
 ms.date: 05/25/2018
 ms.topic: conceptual
 f1_keywords:
-  - "vc.tools.intellisense"
+- vc.tools.intellisense
 helpviewer_keywords:
-  - "Quick info"
-  - "Parameter info"
-  - "Complete word"
-  - "List members"
-  - "IntelliSense [Visual Studio]"
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+- Quick info
+- Parameter info
+- Complete word
+- List members
+- IntelliSense [Visual Studio]
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # IntelliSense in Visual Studio
 
@@ -60,7 +63,7 @@ When you select a member from the **List Members** box, Quick Info also appears.
 
 ![Parameter Info in a C&#35; code file](../ide/media/vs2015_paraminfo.png)
 
-You can manually invoke Quick Info by choosing **Edit** > **IntelliSense** > **Quick Info**, by pressing **Ctrl**+**I**, or by choosing the **Quick Info** button on the editor toolbar.
+You can manually invoke Quick Info by choosing **Edit** > **IntelliSense** > **Quick Info**, by pressing **Ctrl**+**K**, **Ctrl**+**I**, or by choosing the **Quick Info** button on the editor toolbar.
 
 If a function is overloaded, IntelliSense may not display information for all forms of the overload.
 
@@ -105,6 +108,7 @@ MessageBox( hWnd, "String literal|")
 
 - [Visual Basic IntelliSense](../ide/visual-basic-specific-intellisense.md)
 - [C# IntelliSense](../ide/visual-csharp-intellisense.md)
+- [Python IntelliSense](../python/editing-python-code-in-visual-studio.md#intellisense)
 - [JavaScript IntelliSense](../ide/javascript-intellisense.md)
 - [Write and refactor code (C++)](/cpp/ide/writing-and-refactoring-code-cpp)
 - [Supply XML code comments](reference/generate-xml-documentation-comments.md)

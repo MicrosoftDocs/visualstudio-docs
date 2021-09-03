@@ -1,12 +1,16 @@
 ---
-title: "Profiler command line: Instrument .NET service, get timing detail"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
-ms.workload:
-  - "dotnet"
+title: Profiler command line - Instrument .NET service, get timing detail
+description: Learn how to use the Visual Studio Profiling Tools command-line tools to collect detailed timing data for a .NET Framework service.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.technology: vs-ide-debug
+monikerRange: 'vs-2017'
+ms.workload: 
+  - dotnet
 ---
 # How to: Instrument a .NET service and collect detailed timing data by using the profiler command line
 

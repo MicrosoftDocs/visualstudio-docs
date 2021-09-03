@@ -1,5 +1,7 @@
 ---
 title: "Office primary interop assemblies"
+description: Learn how to use the primary interop assembly (PIA) to gain access the features of a Microsoft Office application from an Office project.
+ms.custom: SEO-VS-2020
 ms.date: "08/14/2019"
 ms.topic: "conceptual"
 dev_langs:
@@ -11,7 +13,8 @@ helpviewer_keywords:
   - "Office primary interop assemblies"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
+ms.technology: office-development
 ms.workload:
   - "office"
 ---
@@ -56,13 +59,13 @@ These copies of the PIAs help Visual Studio avoid several development issues tha
 
 Starting with Visual Studio 2017, these copies of the PIAs are installed to following shared locations on the development computer:
 
-- *%ProgramFiles%\Microsoft Visual Studio\Shared\Visual Studio Tools for Office\PIA\*
+- `%ProgramFiles%\Microsoft Visual Studio\Shared\Visual Studio Tools for Office\PIA\`
 
-- (or *%ProgramFiles(x86)%\Microsoft Visual Studio\Shared\Visual Studio Tools for Office\PIA\* on 64-bit operating systems)
+- (or `%ProgramFiles(x86)%\Microsoft Visual Studio\Shared\Visual Studio Tools for Office\PIA\` on 64-bit operating systems)
 
 > [!NOTE]
-> For older versions of Visual Studio, these PIAs will be installed to the Visual Studio Tools for Office\PIA folder under the *%ProgramFiles% folder for that version of Visual Studio.  
-> For Example: *%ProgramFiles(x86)%\Microsoft Visual Studio 14.0\Visual Studio Tools for Office\PIA\*
+> For older versions of Visual Studio, these PIAs will be installed to the Visual Studio Tools for Office\PIA folder under the `%ProgramFiles%` folder for that version of Visual Studio.
+> For Example: `%ProgramFiles(x86)%\Microsoft Visual Studio 14.0\Visual Studio Tools for Office\PIA\`
 
 ### Primary interop assemblies in the global assembly cache
 
@@ -81,7 +84,7 @@ In most cases, you should add references to the PIAs that are installed by Visua
 If you have installed and registered the PIAs in the global assembly cache, these versions of the assemblies appear on the **COM** tab of the **Reference Manager** dialog box. You should avoid adding references to these versions of the assemblies, because there are some development issues that can occur when you use them. For example, if you have registered different versions of the PIAs in the global assembly cache, your project will automatically bind to the version of the assembly that was registered last—even if you specify a different version of the assembly on the **COM** tab of the **Reference Manager** dialog box.
 
 > [!NOTE]
-> Some assemblies are added to a project automatically when an assembly that references them is added. For example, references to the *Office.dll* and *Microsoft.Vbe.Interop.dll* assemblies are added automatically when you add a reference to the Word, Excel, Outlook, Microsoft Forms, or Graph assemblies.
+> Some assemblies are added to a project automatically when an assembly that references them is added. For example, references to the `Office.dll` and `Microsoft.Vbe.Interop.dll` assemblies are added automatically when you add a reference to the Word, Excel, Outlook, Microsoft Forms, or Graph assemblies.
 
 <a name="pialist"></a>
 
@@ -95,15 +98,15 @@ The following table lists the primary interop assemblies that are available for 
 |-------------------------------------|-----------------------------------|
 |Microsoft Access 14.0 Object Library<br /><br /> Microsoft Access 15.0 Object Library|Microsoft.Office.Interop.Access.dll|
 |Microsoft Office 14.0 Access Database Engine Object Library<br /><br /> Microsoft Office 15.0 Access Database Engine Object Library|Microsoft.Office.Interop.Access.Dao.dll|
-|Microsoft Excel 14.0 Object Library<br /><br /> Microsoft Excel 15.0 Object Library|[Microsoft.Office.Interop.Excel.dll](https://docs.microsoft.com/dotnet/api/microsoft.office.interop.excel?view=excel-pia)|
+|Microsoft Excel 14.0 Object Library<br /><br /> Microsoft Excel 15.0 Object Library|[Microsoft.Office.Interop.Excel.dll](/dotnet/api/microsoft.office.interop.excel?view=excel-pia&preserve-view=true)|
 |Microsoft Graph 14.0 Object Library (used by PowerPoint, Access, and Word for graphs)<br /><br /> Microsoft Graph 15.0 Object Library|Microsoft.Office.Interop.Graph.dll|
-|Microsoft InfoPath 2.0 Type Library (for InfoPath 2007 only)|[Microsoft.Office.Interop.InfoPath.dll](https://docs.microsoft.com/dotnet/api/microsoft.office.interop.infopath?view=infopath-form)|
+|Microsoft InfoPath 2.0 Type Library (for InfoPath 2007 only)|[Microsoft.Office.Interop.InfoPath.dll](/dotnet/api/microsoft.office.interop.infopath?view=infopath-form&preserve-view=true)|
 |Microsoft InfoPath XML Interop Assembly (for InfoPath 2007 only)|Microsoft.Office.Interop.InfoPath.Xml.dll|
 |Microsoft Office 14.0 Object Library (Office shared functionality)<br /><br /> Microsoft Office 15.0 Object Library (Office shared functionality)|office.dll|
 |Microsoft Office Outlook View Control (can be used in Web pages and applications to access your Inbox)|Microsoft.Office.Interop.OutlookViewCtl.dll|
-|Microsoft Outlook 14.0 Object Library<br /><br /> Microsoft Outlook 15.0 Object Library|[Microsoft.Office.Interop.Outlook.dll](https://docs.microsoft.com/dotnet/api/microsoft.office.interop.outlook?view=outlook-pia)|
+|Microsoft Outlook 14.0 Object Library<br /><br /> Microsoft Outlook 15.0 Object Library|[Microsoft.Office.Interop.Outlook.dll](/dotnet/api/microsoft.office.interop.outlook?view=outlook-pia&preserve-view=true)|
 |Microsoft PowerPoint 14.0 Object Library<br /><br /> Microsoft PowerPoint 15.0 Object Library|Microsoft.Office.Interop.PowerPoint.dll|
-|Microsoft Project 14.0 Object Library<br /><br /> Microsoft Project 15.0 Object Library|[Microsoft.Office.Interop.MSProject.dll](https://docs.microsoft.com/dotnet/api/microsoft.office.interop.msproject?view=office-project-server)|
+|Microsoft Project 14.0 Object Library<br /><br /> Microsoft Project 15.0 Object Library|[Microsoft.Office.Interop.MSProject.dll](/dotnet/api/microsoft.office.interop.msproject?view=office-project-server&preserve-view=true)|
 |Microsoft Publisher 14.0 Object Library<br /><br /> Microsoft Publisher 15.0 Object Library|Microsoft.Office.Interop.Publisher.dll|
 |Microsoft SharePoint Designer 14.0 Web Object Reference Library|Microsoft.Office.Interop.SharePointDesigner.dll|
 |Microsoft SharePoint Designer 14.0 Page Object Reference Library|Microsoft.Office.Interop.SharePointDesignerPage.dll|
@@ -111,12 +114,12 @@ The following table lists the primary interop assemblies that are available for 
 |Microsoft Visio 14.0 Type Library<br /><br /> Microsoft Visio 15.0 Type Library|Microsoft.Office.Interop.Visio.dll|
 |Microsoft Visio 14.0 Save As Web Type Library<br /><br /> Microsoft Visio 15.0 Save As Web Type Library|Microsoft.Office.Interop.Visio.SaveAsWeb.dll|
 |Microsoft Visio 14.0 Drawing Control Type Library<br /><br /> Microsoft Visio 15.0 Drawing Control Type Library|Microsoft.Office.Interop.VisOcx.dll|
-|Microsoft Word 14.0 Object Library<br /><br /> Microsoft Word 15.0 Object Library|[Microsoft.Office.Interop.Word.dll](https://docs.microsoft.com/dotnet/api/microsoft.office.interop.word?view=word-pia)|
+|Microsoft Word 14.0 Object Library<br /><br /> Microsoft Word 15.0 Object Library|[Microsoft.Office.Interop.Word.dll](/dotnet/api/microsoft.office.interop.word?view=word-pia&preserve-view=true)|
 |Microsoft Visual Basic for Applications Extensibility 5.3|Microsoft.Vbe.Interop.dll|
 
 ### Binding redirect assemblies
 
-When you install and register the Office PIAs in the global assembly cache (either with Office or by installing the redistributable package for the PIAs), the binding redirect assemblies are also installed only in the global assembly cache. These assemblies help make sure that the correct version of the primary interop assemblies is loaded at runtime.
+When you install and register the Office PIAs in the global assembly cache (either with Office or by installing the redistributable package for the PIAs), the binding redirect assemblies are also installed only in the global assembly cache. These assemblies help make sure that the correct version of the primary interop assemblies is loaded at run time.
 
 For example, when a solution that references a [!INCLUDE[office14_long](../vsto/includes/office14-long-md.md)] assembly runs on a computer that has the [!INCLUDE[Office_15_short](../vsto/includes/office-15-short-md.md)] version of the same primary interop assembly, the binding redirect assembly instructs the [!INCLUDE[dnprdnshort](../sharepoint/includes/dnprdnshort-md.md)] runtime to load the [!INCLUDE[Office_15_short](../vsto/includes/office-15-short-md.md)] version of the primary interop assembly.
 

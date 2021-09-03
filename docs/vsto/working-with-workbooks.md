@@ -1,5 +1,7 @@
 ---
 title: "Work with workbooks"
+description: Learn that the Workbook and Workbooks classes contain the methods and properties you use to perform tasks with workbooks.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -10,7 +12,8 @@ helpviewer_keywords:
   - "Excel [Office development in Visual Studio], workbooks"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
+ms.technology: office-development
 ms.workload:
   - "office"
 ---

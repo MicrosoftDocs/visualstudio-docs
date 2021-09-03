@@ -1,15 +1,18 @@
 ---
 title: Create web templates
+description: Learn how to manually create a web template and identify the programing language that the template uses.
+ms.custom: SEO-VS-2020
 ms.date: 01/02/2018
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
-  - "Visual Studio templates, Web"
-  - "templates [Visual Studio], Web"
-  - "Web templates [Visual Studio]"
-  - "project templates [Visual Studio], Web"
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+- Visual Studio templates, Web
+- templates [Visual Studio], Web
+- Web templates [Visual Studio]
+- project templates [Visual Studio], Web
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
+ms.technology: vs-ide-general
 ---
 # How to: Manually create web templates
 

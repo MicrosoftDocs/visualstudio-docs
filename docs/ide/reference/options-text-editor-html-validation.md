@@ -1,15 +1,17 @@
 ---
 title: Options, Text Editor, HTML (Web Forms), Validation
+description: Learn how to use the Validation page in the HTML section to set preferences for how the HTML editor checks the syntax of HTML markup in your document.
+ms.custom: SEO-VS-2020
 ms.date: 1/15/2019
 ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
-  - "VS.ToolsOptionsPages.Text_Editor.HTML.Validation"
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+- VS.ToolsOptionsPages.Text_Editor.HTML.Validation
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Options, Text Editor, HTML (Web Forms), Validation
 

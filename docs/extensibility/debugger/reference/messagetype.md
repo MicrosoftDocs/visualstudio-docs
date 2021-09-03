@@ -1,20 +1,22 @@
 ---
-title: "MESSAGETYPE | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Specifies the message type and reason."
+title: MESSAGETYPE | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "MESSAGETYPE"
+- MESSAGETYPE
 helpviewer_keywords:
-  - "MESSAGETYPE enumeration"
+- MESSAGETYPE enumeration
 ms.assetid: 800cc77d-3c27-4763-a9df-552a9384bd49
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # MESSAGETYPE
 Specifies the message type and reason.

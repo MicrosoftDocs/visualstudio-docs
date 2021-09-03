@@ -1,16 +1,17 @@
 ---
 title: Introduction to editing in the code editor
+description: Learn how to use the code editor in Visual Studio to add code to a file, and also how to write code, navigate to it, and refactor it.
 ms.date: 11/30/2017
 ms.technology: vs-ide-general
-ms.custom: get-started
+ms.custom: [vs-acquisition,  get-started, SEO-VS-2020]
 ms.topic: tutorial
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 dev_langs:
-  - "CSharp"
+- CSharp
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Learn to use the code editor
 
@@ -26,11 +27,18 @@ In this 10-minute introduction to the code editor in Visual Studio, we'll add co
 ::: moniker range="vs-2019"
 
 > [!TIP]
-> If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019) page to install it for free.
+> If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads) page to install it for free.
 
 ::: moniker-end
 
-This article assumes you're already familiar with a programming language. If you aren't, we suggest you look at one of the programming quickstarts first, such as create a web app with [Python](../ide/quickstart-python.md) or [C#](../get-started/csharp/tutorial-aspnet-core.md), or create a console app with [Visual Basic](../ide/quickstart-visual-basic-console.md) or [C++](../ide/getting-started-with-cpp-in-visual-studio.md).
+::: moniker range="vs-2022"
+
+> [!TIP]
+> If you haven't already installed Visual Studio 2022 Preview, go to the [Visual Studio 2022 Preview downloads](https://visualstudio.microsoft.com/vs/preview/vs2022) page to install it for free.
+
+::: moniker-end
+
+This article assumes you're already familiar with a programming language. If you aren't, we suggest you look at one of the programming quickstarts first, such as create a web app with [Python](../ide/quickstart-python.md) or [C#](../get-started/csharp/tutorial-aspnet-core.md), or create a console app with [Visual Basic](../ide/quickstart-visual-basic-console.md) or [C++](/cpp/get-started/tutorial-console-cpp).
 
 ## Create a new code file
 

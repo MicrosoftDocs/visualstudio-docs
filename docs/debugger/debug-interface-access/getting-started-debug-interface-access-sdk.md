@@ -1,7 +1,8 @@
 ---
+description: "The Debug Interface Access (DIA) SDK supplies you with instructional documentation and a sample that illustrates how to use the DIA API."
 title: "Getting Started (Debug Interface Access SDK) | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -10,7 +11,8 @@ helpviewer_keywords:
 ms.assetid: cb3d040a-2846-40d7-bdbc-8a5beb5dd2f6
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -45,6 +47,6 @@ Reviews the basic architecture of DIA.
 
 Provides step-by-step instructions on how to use the DIA API to query a .pdb file.
 
-## See Also
+## See also
 
 - [Debug Interface Access SDK](../../debugger/debug-interface-access/debug-interface-access-sdk.md)

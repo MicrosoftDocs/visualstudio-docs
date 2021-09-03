@@ -1,5 +1,6 @@
 ---
 title: "Instruction Pointers (IPs) View - Contention Data | Microsoft Docs"
+description: Learn how the IPs view of contention data lists data for the assembly instructions that were blocked from executing in the profiling run.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:
@@ -7,7 +8,9 @@ helpviewer_keywords:
 ms.assetid: f5e49c24-d4cf-4f87-977d-37e3223d1196
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
+monikerRange: 'vs-2017'
 ms.workload:
   - "multiple"
 ---

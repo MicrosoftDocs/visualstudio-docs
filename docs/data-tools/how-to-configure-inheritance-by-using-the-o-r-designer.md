@@ -1,13 +1,16 @@
 ---
-title: "How to: Configure inheritance by using the O-R Designer"
+title: Configure inheritance by using the O-R Designer
+description: Learn how to configure inheritance using the Object Relational Designer (O/R Designer), which supports single-table inheritance. Created inherited data classes.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 ms.assetid: e594af12-e777-434a-bc08-7dd2dac84cdc
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: ghogen
+ms.author: ghogen
+manager: jmartens
+ms.technology: vs-data-tools
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # How to: Configure inheritance by using the O/R Designer
 The **Object Relational Designer** (**O/R Designer**) supports the concept of single-table inheritance as it is often implemented in relational systems. In single-table inheritance, there is a single database table that contains fields for both parent information and child information. With relational data, a discriminator column contains the value that determines which class any record belongs to.

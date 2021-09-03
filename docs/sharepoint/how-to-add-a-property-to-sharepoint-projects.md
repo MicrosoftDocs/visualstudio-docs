@@ -1,7 +1,9 @@
 ---
 title: "How to: Add a Property to SharePoint Projects | Microsoft Docs"
+description: Use a project extension to add a property to a SharePoint project. A property appears in the Properties window when you select the project in Solution Explorer.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: how-to
 dev_langs:
   - "VB"
   - "CSharp"
@@ -11,7 +13,8 @@ helpviewer_keywords:
   - "SharePoint projects, extending"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
+ms.technology: sharepoint-development
 ms.workload:
   - "office"
 ---
@@ -31,8 +34,8 @@ ms.workload:
 ## Example
  The following code example demonstrates how to add two properties to SharePoint projects. One property persists its data in the project user option file (the *.csproj.user* file or *.vbproj.user* file). The other property persists its data in the project file (*.csproj* file or *.vbproj* file).
 
- [!code-vb[SpExt_SPCustomPrjProperty#1](../sharepoint/codesnippet/VisualBasic/customspproperty/customproperty.vb#1)]
- [!code-csharp[SpExt_SPCustomPrjProperty#1](../sharepoint/codesnippet/CSharp/customspproperty/customproperty.cs#1)]
+ :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/customspproperty/customproperty.vb" id="Snippet1":::
+ :::code language="csharp" source="../sharepoint/codesnippet/CSharp/customspproperty/customproperty.cs" id="Snippet1":::
 
 ### Understand the code
  To ensure that the same instance of the `CustomProjectProperties` class is used each time the <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectEvents.ProjectPropertiesRequested> event occurs, the code example adds the properties object to the <xref:Microsoft.VisualStudio.SharePoint.IAnnotatedObject.Annotations%2A> property of the project the first time this event occurs. The code retrieves this object whenever this event occurs again. For more information about using the <xref:Microsoft.VisualStudio.SharePoint.IAnnotatedObject.Annotations%2A> property to associate data with projects, see [Associate custom data with SharePoint tools extensions](../sharepoint/associating-custom-data-with-sharepoint-tools-extensions.md).

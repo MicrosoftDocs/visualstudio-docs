@@ -1,34 +1,37 @@
 ---
-title: "Dependency Diagrams Reference"
+title: Dependency Diagrams Reference
+description: Learn that in Visual Studio, you can use a dependency diagram to visualize the high-level, logical architecture of your system.
+ms.custom: SEO-VS-2020
 ms.date: 09/28/2018
 ms.topic: reference
 f1_keywords:
-  - "vs.teamarch.layerdiagram.layerexplorer.artifactlink"
-  - "vs.teamarch.layerdiagram.layerexplorer.artifactlink.properties"
-  - "vs.teamarch.layerdiagram.diagram"
-  - "vs.teamarch.UMLModelExplorer.layerdiagram"
-  - "vs.teamarch.layerdiagram.layerexplorer"
-  - "vs.teamarch.layerdiagram.shapes.properties"
-  - "vs.teamarch.layerdiagram.toolbox"
+- vs.teamarch.layerdiagram.layerexplorer.artifactlink
+- vs.teamarch.layerdiagram.layerexplorer.artifactlink.properties
+- vs.teamarch.layerdiagram.diagram
+- vs.teamarch.UMLModelExplorer.layerdiagram
+- vs.teamarch.layerdiagram.layerexplorer
+- vs.teamarch.layerdiagram.shapes.properties
+- vs.teamarch.layerdiagram.toolbox
 helpviewer_keywords:
-  - "architecture, dependency diagrams"
-  - "dependency diagrams"
-  - "diagrams - modeling, layer"
-  - "constraints, architectural"
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+- architecture, dependency diagrams
+- dependency diagrams
+- diagrams - modeling, layer
+- constraints, architectural
+author: mgoertz-msft
+ms.author: mgoertz
+manager: jmartens
+ms.technology: vs-ide-modeling
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Dependency diagrams: reference
 
 In Visual Studio, you can use a *dependency diagram* to visualize the high-level, logical architecture of your system. A dependency diagram organizes the physical artifacts in your system into logical, abstract groups called *layers*. These layers describe major tasks that the artifacts perform or the major components of your system. Each layer can also contain nested layers that describe more detailed tasks.
 
-To see which editions of Visual Studio support this feature, see [Edition support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).
+To see which editions of Visual Studio support this feature, see [Edition support for architecture and modeling tools](../modeling/analyze-and-model-your-architecture.md#VersionSupport).
 
 > [!NOTE]
-> Dependency diagrams are not supported for .NET Core projects in Visual Studio.
+> Dependency diagrams for .NET Core projects are supported starting in Visual Studio 2019 version 16.2.
 
 You can specify the intended or existing dependencies between layers. These dependencies, which are represented as arrows, indicate which layers can use or currently use the functionality represented by other layers. By organizing your system into layers that describe distinct roles and functions, a dependency diagram can help make it easier for you to understand, reuse, and maintain your code.
 
@@ -42,7 +45,7 @@ Use a dependency diagram to help you perform the following tasks:
 
 - Reinforce the intended architecture during the development and maintenance of your code by including validation with your check-in and build operations.
 
-This topic describes the elements that you can use on a dependency diagram. For more detailed information about how to create and draw dependency diagrams, see [Dependency Diagrams: Guidelines](../modeling/layer-diagrams-guidelines.md). For more information about layering patterns, visit the [Patterns & Practices site](http://go.microsoft.com/fwlink/?LinkId=145794).
+This topic describes the elements that you can use on a dependency diagram. For more detailed information about how to create and draw dependency diagrams, see [Dependency Diagrams: Guidelines](../modeling/layer-diagrams-guidelines.md). For more information about layering patterns, visit the [Patterns & Practices site](https://archive.codeplex.com/?p=apparch).
 
 ## Reading dependency diagrams
 

@@ -1,21 +1,23 @@
 ---
-title: "IDebugMessageEvent2::SetResponse | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Sets the response, if any, from the message box."
+title: IDebugMessageEvent2::SetResponse | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugMessageEvent2::SetResponse"
+- IDebugMessageEvent2::SetResponse
 helpviewer_keywords:
-  - "IDebugMessageEvent2::SetResponse method"
-  - "SetResponse method"
+- IDebugMessageEvent2::SetResponse method
+- SetResponse method
 ms.assetid: 2a5e318d-3225-4abd-83f1-28323baff6c0
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugMessageEvent2::SetResponse
 Sets the response, if any, from the message box.

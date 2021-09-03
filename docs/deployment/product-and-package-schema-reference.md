@@ -1,5 +1,7 @@
 ---
 title: "Product and Package Schema Reference | Microsoft Docs"
+description: Learn about the product file, an XML manifest that describes the external dependencies required by a ClickOnce application.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:
@@ -22,7 +24,8 @@ helpviewer_keywords:
 ms.assetid: 5a74878f-b896-4cca-b968-98d00fe78fb0
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-deployment
 ms.workload:
   - "multiple"
 ---

@@ -1,17 +1,20 @@
 ---
-title: "Writing a Common Language Runtime Expression Evaluator | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Writing a Common Language Runtime Expression Evaluator | Microsoft Docs
+description: Learn about writing an expression evaluator for the common language runtime, which evaluates expressions in the code language being debugged.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "expression evaluators, tutorial"
-  - "expression evaluation, samples"
-  - "debugging [Debugging SDK], expression evaluators tutorial"
+- expression evaluators, tutorial
+- expression evaluation, samples
+- debugging [Debugging SDK], expression evaluators tutorial
 ms.assetid: bd79d57f-8e0a-4e14-a417-0b1de28fa1b2
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Writing a common language runtime expression evaluator
 > [!IMPORTANT]

@@ -1,14 +1,17 @@
 ---
-title: "Best Practices for Coded UI Tests"
+title: Best Practices for Coded UI Tests
+description: Learn about recommendations for developing coded UI tests. These guidelines help to create a flexible coded UI test.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "coded UI tests, best practices"
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+- coded UI tests, best practices
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.technology: vs-ide-test
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Best practices for coded UI tests
 

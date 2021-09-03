@@ -1,5 +1,7 @@
 ---
 title: "ClickOnce Deployment Samples and Walkthroughs | Microsoft Docs"
+description: Use these sample applications, example code, and walk-throughs to understand techniques used to deploy Windows Forms, WPF, and console applications.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:
@@ -14,7 +16,8 @@ helpviewer_keywords:
 ms.assetid: 3973276b-7b11-4692-a0a2-32bebf0b9c2a
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-deployment
 ms.workload:
   - "multiple"
 ---
@@ -33,4 +36,4 @@ This section contains sample applications, example code, and step-by-step walkth
 
 ## See also
 
-- [Visual Studio walkthroughs](https://msdn.microsoft.com/library/f5399a1f-2d3d-42fb-b989-134ccda2159f)
+- [Visual Studio walkthroughs](/previous-versions/szatc41e(v=vs.110))

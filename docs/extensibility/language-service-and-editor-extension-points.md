@@ -1,15 +1,18 @@
 ---
-title: "Language Service and Editor Extension Points | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Language Service and Editor Extension Points | Microsoft Docs
+description: Learn about the extension points in the Visual Studio code editor that you can extend, including most language service features.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: reference
 helpviewer_keywords:
-  - "editors [Visual Studio SDK], new - extension points"
+- editors [Visual Studio SDK], new - extension points
 ms.assetid: 91a6417e-a6fe-4bc2-9d9f-5173c634a99b
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Language service and editor extension points
 The editor provides extension points that you can extend as Managed Extensibility Framework (MEF) component parts, including most language service features. These are the main extension point categories:

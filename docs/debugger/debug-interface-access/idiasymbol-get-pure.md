@@ -1,7 +1,8 @@
 ---
+description: "Retrieves a flag that specifies whether the function is pure virtual."
 title: "IDiaSymbol::get_pure | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,8 @@ helpviewer_keywords:
 ms.assetid: b61107e9-9144-4981-b7ef-58a339b80c58
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -35,5 +37,5 @@ HRESULT get_pure ( 
 > [!NOTE]
 > A return value of `S_FALSE` means the property is not available for the symbol.
 
-## See Also
+## See also
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

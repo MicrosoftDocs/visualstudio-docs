@@ -1,11 +1,12 @@
 ---
 title: Debug Python code
 description: Visual Studio provide rich debugging for Python code, including setting breakpoints, stepping, inspecting values, looking at exceptions, and debugging in the interactive window.
-ms.date: 03/13/2019
-ms.topic: conceptual
+ms.date: 05/12/2020
+ms.topic: how-to
 author: JoshuaPartlow
 ms.author: joshuapa
-manager: jillfra
+manager: jmartens
+ms.technology: vs-python
 ms.custom: seodec18
 ms.workload:
   - python
@@ -181,7 +182,7 @@ Note that the standard debugger windows such as **Processes**, **Threads**, and 
 
 ## Use the legacy debugger
 
-Visual Studio 2017 versions 15.8 and later use a debugger based on ptvsd version 4.1+. This version of ptvsd is compatible with Python 2.7 and Python 3.5+. If you're using Python 2.6, 3.1 to 3.4, or IronPython, Visual Studio shows the error, **Debugger does not support this Python environment**:
+Visual Studio 2017 versions 15.8 and later use a debugger based on ptvsd version 4.1+. Visual Studio 2019 versions 16.5 and later use a debugger based on debugpy. These versions of the debugger are compatible with Python 2.7 and Python 3.5+. If you're using Python 2.6, 3.1 to 3.4, or IronPython, Visual Studio shows the error, **Debugger does not support this Python environment**:
 
 ![Debugger does not support this Python environment error when using the debugger](media/debugging-experimental-incompatible-error.png)
 
@@ -216,7 +217,8 @@ To manage your ptvsd installation:
 
 ## Troubleshooting
 
-If you have issues with the debugger, first upgrade your version of ptvsd as follows:
+### For Visual Studio 2019 (Version 16.4 and earlier) upgrade ptvsd
+If you have issues with the debugger, first upgrade your version of the debugger as follows:
 
 1. Navigate to the **Packages** tab in the **Python Environments** window.
 
@@ -224,7 +226,10 @@ If you have issues with the debugger, first upgrade your version of ptvsd as fol
 
     ![Giving the ptvsd upgrade command in the Python Environments window](media/debugging-experimental-upgrade-ptvsd.png)
 
-If issues persist, please file an issue on the [PTVS GitHub repository](https://github.com/Microsoft/ptvs/issues).
+   If issues persist, please file an issue on the [PTVS GitHub repository](https://github.com/Microsoft/ptvs/issues).
+
+   > [!NOTE]
+   > For Visual Studio 2019 version 16.5 and later, debugpy is part of the Visual Studio Python workload and is updated along with Visual Studio.
 
 ### Enable debugger logging
 
@@ -244,7 +249,7 @@ The following steps enable debugging in the current Visual Studio session:
 
     ![Debugger logging output in the Output window](media/debugger-logging-output.png)
 
-1. If Visual Studio hangs or you are otherwise not able to access the **Output** window, restart Visual Studio, open a command window, and enter the following command:
+1. If Visual Studio stops responding or you are otherwise not able to access the **Output** window, restart Visual Studio, open a command window, and enter the following command:
 
     ```ps
     DebugAdapterHost.Logging /On

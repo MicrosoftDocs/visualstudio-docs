@@ -1,7 +1,8 @@
 ---
+description: "Friend classes and friend functions are identified by SymTagFriend symbols."
 title: "Friend (Debug Interface Access SDK) | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -11,7 +12,8 @@ helpviewer_keywords:
 ms.assetid: 5147a170-41ce-4727-8ace-c318e8d11647
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -31,5 +33,5 @@ Friend classes and friend functions are identified by `SymTagFriend` symbols. Th
 |[IDiaSymbol::get_type](../../debugger/debug-interface-access/idiasymbol-get-type.md)|`IDiaSymbol*`|Symbol for the class or function.|
 |[IDiaSymbol::get_typeId](../../debugger/debug-interface-access/idiasymbol-get-typeid.md)|`DWORD`|ID of the type symbol.|
 
-## See Also
+## See also
 - [Class Hierarchy of Symbol Types](../../debugger/debug-interface-access/class-hierarchy-of-symbol-types.md)

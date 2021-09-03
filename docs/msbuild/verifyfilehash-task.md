@@ -1,5 +1,7 @@
 ---
 title: "VerifyFileHash  Task | Microsoft Docs"
+description: Learn how MSBuild uses the VerifyFileHash task to verify that a file matches the expected file hash, and fails if it doesn't match.
+ms.custom: SEO-VS-2020
 ms.date: "01/28/2019"
 ms.topic: "reference"
 dev_langs:
@@ -10,15 +12,16 @@ dev_langs:
 helpviewer_keywords:
   - "VerifyFileHash task [MSBuild]"
   - "MSBuild, VerifyFileHash task"
-author: mikejo5000
-ms.author: mikejo
-manager: jillfra
+author: ghogen
+ms.author: ghogen
+manager: jmartens
+ms.technology: msbuild
 ms.workload:
   - "multiple"
 ---
 # VerifyFileHash task
 
-Verifies that a file matches the expected file hash.
+Verifies that a file matches the expected file hash. If the hash doesn't match, the task fails.
 
 This task was added in 15.8, but requires a [workaround](https://github.com/Microsoft/msbuild/pull/3999#issuecomment-458193272) to use for MSBuild versions below 16.0.
 
@@ -28,9 +31,8 @@ This task was added in 15.8, but requires a [workaround](https://github.com/Micr
 
 |Parameter|Description|
 |---------------|-----------------|
-|`File`|Required <xref:Microsoft.Build.Framework.ITaskItem> parameter.<br /><br />The files to be hashed and validated.|
+|`File`|Required `String` parameter.<br /><br />The file to be hashed and validated.|
 |`Hash`|Required `String` parameter.<br /><br />The expected hash of the file.|
-|`Items`|<xref:Microsoft.Build.Framework.ITaskItem>`[]` output parameter.<br /><br />The `Files` input with additional metadata set to the file hash.|
 |`Algorithm`|Optional `String` parameter.<br /><br />The algorithm. Allowed values: `SHA256`, `SHA384`, `SHA512`. Default = `SHA256`.|
 |`HashEncoding`|Optional `String` parameter.<br /><br />The encoding to use for generated hashes. Defaults to `hex`. Allowed values = `hex`, `base64`.|
 
@@ -54,6 +56,30 @@ The following example uses the `VerifyFileHash` task to verify its own checksum.
                     Hash="$(ExpectedHash)" />
   </Target>
 </Project>
+```
+
+On MSBuild 16.5 and later, if you don't want the build to fail when the hash doesn't match, such as if you are using the hash comparison as a condition for control flow, you can downgrade the warning to a message using the following code:
+
+```xml
+  <PropertyGroup>
+    <MSBuildWarningsAsMessages>$(MSBuildWarningsAsMessages);MSB3952</MSBuildWarningsAsMessages>
+  </PropertyGroup>
+
+  <Target Name="DemoVerifyCheck">
+    <VerifyFileHash File="$(MSBuildThisFileFullPath)"
+                    Hash="1"
+                    ContinueOnError="WarnAndContinue" />
+
+    <PropertyGroup>
+      <HashMatched>$(MSBuildLastTaskResult)</HashMatched>
+    </PropertyGroup>
+
+    <Message Condition=" '$(HashMatched)' != 'true'"
+             Text="The hash didn't match" />
+
+    <Message Condition=" '$(HashMatched)' == 'true'"
+             Text="The hash did match" />
+  </Target>
 ```
 
 ## See also

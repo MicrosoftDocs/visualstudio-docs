@@ -1,17 +1,19 @@
 ---
-title: "IDebugMemoryContext2 | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "This interface represents a position in the address space of the machine running the program being debugged."
+title: IDebugMemoryContext2 | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugMemoryContext2"
+- IDebugMemoryContext2
 helpviewer_keywords:
-  - "IDebugMemoryContext2 interface"
+- IDebugMemoryContext2 interface
 ms.assetid: 3a544c8b-11dc-46bb-8549-261e4ac5bbc4
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IDebugMemoryContext2
 This interface represents a position in the address space of the machine running the program being debugged.

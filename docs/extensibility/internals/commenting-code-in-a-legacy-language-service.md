@@ -1,16 +1,19 @@
 ---
-title: "Commenting Code in a Legacy Language Service | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Commenting Code in a Legacy Language Service | Microsoft Docs
+description: Learn about the managed package framework (MPF) classes that provide support for code commenting in a legacy language service in Visual Studio.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "comments, supporting in language services [managed package framework]"
-  - "language services [managed package framework], commenting code"
+- comments, supporting in language services [managed package framework]
+- language services [managed package framework], commenting code
 ms.assetid: 9600d6f0-e2b6-4fe0-b935-fb32affb97a4
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Comment code in a legacy language service
 Programming languages typically provide a means to annotate or comment the code. A comment is a section of text that provides additional information about the code but is ignored during compilation or interpretation.

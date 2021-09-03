@@ -1,5 +1,7 @@
 ---
 title: "&lt;deployment&gt; Element (ClickOnce Deployment) | Microsoft Docs"
+description: The deployment element identifies the attributes used for the deployment of updates and exposure to the system.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 f1_keywords:
@@ -18,7 +20,8 @@ helpviewer_keywords:
 ms.assetid: 4fafa9c2-97a0-4cea-b8fd-9746dca33af4
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-deployment
 ms.workload:
   - "multiple"
 ---
@@ -52,7 +55,7 @@ Identifies the attributes used for the deployment of updates and exposure to the
 ```
 
 ## Elements and attributes
- The `deployment` element is required and is in the `urn:schemas-microsoft-com:asm.v1` namespace. The element has the following attributes.
+ The `deployment` element is required and is in the `urn:schemas-microsoft-com:asm.v2` namespace. The element has the following attributes.
 
 | Attribute | Description |
 |--------------------------| - |

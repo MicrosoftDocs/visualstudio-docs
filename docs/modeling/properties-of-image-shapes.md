@@ -1,5 +1,7 @@
 ---
 title: Properties of Image Shapes
+description: Learn about about image shapes and how you can use image shapes to specify how domain classes appear in a generated designer.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -7,9 +9,10 @@ f1_keywords:
   - "vs.dsltools.dsldesigner.imageshape"
 helpviewer_keywords:
   - "Domain-Specific Language, image shape"
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: mgoertz-msft
+ms.author: mgoertz
+manager: jmartens
+ms.technology: vs-ide-modeling
 ms.workload:
   - "multiple"
 ---
@@ -65,6 +68,6 @@ Image shapes have the properties that are listed in the following table.
 |Help Keyword|The keyword that is used to index F1 help for this element.|\<none>|
 |Image|The path to the image file that is used for this shape.|\<none>|
 
-## See Also
+## See also
 
-- [Domain-Specific Language Tools Glossary](https://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)
+- [Domain-Specific Language Tools Glossary](/previous-versions/bb126564(v=vs.100))

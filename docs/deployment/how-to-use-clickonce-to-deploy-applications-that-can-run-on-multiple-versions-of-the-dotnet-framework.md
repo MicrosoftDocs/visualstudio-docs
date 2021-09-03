@@ -1,21 +1,24 @@
 ---
-title: "Use ClickOnce to deploy multitarget apps"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-helpviewer_keywords:
-  - "ClickOnce applications, multiple .NET Framework versions"
-  - "ClickOnce deployment, multiple .NET Framework versions"
-  - "deploying applications [ClickOnce], multiple .NET Framework versions"
+title: Use ClickOnce to deploy multitarget apps
+description: Learn how to deploy an application that targets multiple versions of the .NET Framework by using the ClickOnce deployment technology. 
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
+dev_langs: 
+  - VB
+  - CSharp
+  - C++
+helpviewer_keywords: 
+  - ClickOnce applications, multiple .NET Framework versions
+  - ClickOnce deployment, multiple .NET Framework versions
+  - deploying applications [ClickOnce], multiple .NET Framework versions
 ms.assetid: e0a8c330-21bc-4eb2-b936-fd0f3c3221f1
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
-ms.workload:
-  - "dotnet"
+manager: jmartens
+ms.technology: vs-ide-deployment
+ms.workload: 
+  - dotnet
 ---
 # How to: Use ClickOnce to deploy applications that can run on multiple versions of the .NET framework
 You can deploy an application that targets multiple versions of the .NET Framework by using the ClickOnce deployment technology. This requires that you generate and update the application and deployment manifests.

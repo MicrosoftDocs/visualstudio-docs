@@ -1,30 +1,32 @@
 ---
-title: "How to: View, save, and configure build log files | Microsoft Docs"
-ms.date: 11/04/2016
+title: 'How to: View, save, and configure build log files | Microsoft Docs'
+description: Learn how you can view, save, and configure build log files. These files provide useful information for tasks like troubleshooting a build failure.
+ms.custom: SEO-VS-2020
+ms.date: 08/28/2019
 ms.technology: vs-ide-compile
-ms.topic: conceptual
+ms.topic: how-to
 ms.assetid: 75d38b76-26d6-4f43-bbe7-cbacd7cc81e7
 author: ghogen
 ms.author: ghogen
-manager: jillfra
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: View, save, and configure build log files
 
-After you build a project in the Visual Studio IDE, you can view information about that build in the **Output** window. By using this information, you can, for example, troubleshoot a build failure. 
+After you build a project in the Visual Studio IDE, you can view information about that build in the **Output** window. By using this information, you can, for example, troubleshoot a build failure.
 
-- For C++ projects, you can also view the same information in a *.txt* file that's created and saved automatically. 
+- For C++ projects, you can also view the same information in a log file that's created and saved when you build a project. 
 
-- For managed code projects, you can click in the build output window and press **Ctrl**+**S**. Visual Studio prompts you for a location to save the information from the **Output** window into a *.txt* file. 
+- For managed code projects, you can click in the build output window and press **Ctrl**+**S**. Visual Studio prompts you for a location to save the information from the **Output** window into a log file.
 
 You can also use the IDE to specify what kinds of information you want to view about each build.
 
-If you build any kind of project by using MSBuild, you can create a *.txt* file to save information about the build. For more information, see [Obtain build logs](../msbuild/obtaining-build-logs-with-msbuild.md).
+If you build any kind of project by using MSBuild, you can create a log file to save information about the build. For more information, see [Obtain build logs](../msbuild/obtaining-build-logs-with-msbuild.md).
 
 ## To view the build log file for a C++ project
 
-1. In **Windows Explorer** or **File Explorer**, open the following file: *\\...\Visual Studio \<Version\>\Projects\\<ProjectName\>\\<ProjectName\>\Debug\\<ProjectName\>.txt*
+1. In **Windows Explorer** or **File Explorer**, open the following file (relative to the project root folder): *Release*\\{ProjectName}.Log* or *Debug\\{ProjectName}.log*
 
 ## To create a build log file for a managed-code project
 
@@ -35,6 +37,8 @@ If you build any kind of project by using MSBuild, you can create a *.txt* file 
 3. Press **Ctrl**+**S**.
 
    Visual Studio prompts you for a location to save the build output.
+
+You can also generate logs by running MSBuild directly from the command line, using the `-fileLogger` (`-fl`) command-line option. See [Obtain build logs with MSBuild](../msbuild/obtaining-build-logs-with-msbuild.md).
 
 ## To change the amount of information included in the build log
 
@@ -57,8 +61,11 @@ If you build any kind of project by using MSBuild, you can create a *.txt* file 
     > [!IMPORTANT]
     > You must rebuild the project for your changes to take effect in the **Output** window (all projects) and the *\<ProjectName>.txt* file (C++ projects only).
 
+## Use binary logs to make it easier to browse large log files
+
+Binary logs are an optional feature for .NET projects that lets you have a richer log browsing experience that might make it easier to find information in large logs. To use binary logs, install the [Project System Tools](https://marketplace.visualstudio.com/items?itemName=VisualStudioProductTeam.ProjectSystemTools). For more information, see [https://msbuildlog.com](https://msbuildlog.com) and [Binary Log](https://github.com/microsoft/msbuild/blob/master/documentation/wiki/Binary-Log.md)
+
 ## See also
 
-- [Obtain build logs](../msbuild/obtaining-build-logs-with-msbuild.md)
 - [Build and clean projects and solutions in Visual Studio](../ide/building-and-cleaning-projects-and-solutions-in-visual-studio.md)
 - [Compile and build](../ide/compiling-and-building-in-visual-studio.md)

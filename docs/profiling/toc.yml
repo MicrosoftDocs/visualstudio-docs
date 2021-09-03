@@ -1,47 +1,63 @@
 - name: Profiling documentation
-  href: index.md
+  href: index.yml
 - name: Overview
-  href: profiling-overview.md
-- name: Quickstarts
   items:
   - name: First look at profiling
     href: profiling-feature-tour.md
+  - name: Run profiling tools with or without the debugger
+    href: running-profiling-tools-with-or-without-the-debugger.md
+- name: Quickstarts
+  items:
   - name: Analyze CPU usage (managed)
     href: quickstart-cpu-usage-managed.md
   - name: Analyze CPU usage (native)
     href: quickstart-cpu-usage-native.md
-  - name: Analyze CPU usage (ASP.NET)
+  - name: Analyze CPU usage (ASP.NET Core)
     href: quickstart-cpu-usage-aspnet.md
 - name: Tutorials
   items:
-  - name: Profile application performance in Visual Studio
+  - name: Measure application performance in Visual Studio
     href: beginners-guide-to-performance-profiling.md
-  - name: Profile memory usage in Visual Studio
+  - name: Measure memory usage in Visual Studio
     href: memory-usage.md
 - name: Concepts
   items:
-  - name: Run profiling tools with or without the debugger
-    href: running-profiling-tools-with-or-without-the-debugger.md
+  - name: Understanding performance collection methods
+    href: understanding-performance-collection-methods-perf-profiler.md
+  - name: Optimize profiler settings
+    href: optimize-profiler-settings.md
+  - name: Using multiple profiler tools simultaneously
+    href: use-multiple-profiler-tools-simultaneously.md  
 - name: How-to guides
   items:
+  - name: PerfTips
+    href: perftips.md
+  - name: .NET Async
+    href: analyze-async.md
+  - name: .NET Counters
+    href: dotnet-counters-tool.md
+  - name: Database
+    href: analyze-database.md
+  - name: Events Viewer
+    href: events-viewer.md 
   - name: CPU usage
     href: cpu-usage.md
   - name: Memory usage
     items:
     - name: Analyze memory usage
       href: analyze-memory-usage.md
-    - name: Custom native ETW heap events
-      href: custom-native-etw-heap-events.md
+    - name: Analyze memory usage for .NET objects
+      href: dotnet-alloc-tool.md
     - name: Memory usage without the debugger
       href: memory-usage-without-debugging2.md
+    - name: Custom native ETW heap events
+      href: custom-native-etw-heap-events.md
   - name: Measure performance from the command-line
     href: profile-apps-from-command-line.md
   - name: Analyze GPU usage
     href: gpu-usage.md
   - name: Analyze Resource Consumption
     href: application-timeline.md
-  - name: Use PerfTips
-    href: perftips.md
   - name: Analyze Network usage
     href: network-usage.md
   - name: Analyze JavaScript memory
@@ -464,8 +480,6 @@
             href: how-to-attach-the-profiler-to-a-dotnet-framework-app-to-collect-memory-data.md
           - name: Instrument a stand-alone .NET Framework component and collect memory data with the profiler by using the command line
             href: how-to-instrument-a-dotnet-framework-component-and-collect-memory-data.md
-        - name: "Walkthrough: Command line profiling using sampling"
-          href: walkthrough-command-line-profiling-using-sampling.md
       - name: ASP.NET Web applications
         items:
         - name: Command-line profiling of ASP.NET Web applications

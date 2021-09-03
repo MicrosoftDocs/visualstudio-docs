@@ -1,7 +1,8 @@
 ---
+description: "IDiaFrameData::get_functionStart retrieves a flag that indicates whether the block contains the entry point of a function."
 title: "IDiaFrameData::get_functionStart | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,8 @@ helpviewer_keywords:
 ms.assetid: 49fd24fb-65c2-4812-8303-56a968353e1b
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -35,5 +37,5 @@ HRESULT get_functionStart ( 
 ## Remarks
  It is possible for a stack frame to not be the start of a function because the frame represents an inline method or function inserted into a function.
 
-## See Also
+## See also
 - [IDiaFrameData](../../debugger/debug-interface-access/idiaframedata.md)

@@ -1,18 +1,20 @@
 ---
-title: "IDebugSourceServerModule::GetSourceServerData | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Retrieves an array of source server information."
+title: IDebugSourceServerModule::GetSourceServerData | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "IDebugSourceServerModule::GetSourceServerData"
+- IDebugSourceServerModule::GetSourceServerData
 ms.assetid: f15d86aa-1bd9-4b16-a64a-21b01c27db2e
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugSourceServerModule::GetSourceServerData
 Retrieves an array of source server information.

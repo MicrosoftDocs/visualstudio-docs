@@ -1,17 +1,21 @@
 ---
-title: "MSBuild Advanced Concepts | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: MSBuild Advanced Concepts | Microsoft Docs
+description: See links to articles that describe how to use advanced techniques to improve builds that you run by using MSBuild.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "MSBuild, advanced concepts"
+- MSBuild, advanced concepts
 ms.assetid: f34a558a-ebd9-49bd-8510-32a2b581a4af
-author: mikejo5000
-ms.author: mikejo
-manager: jillfra
+author: ghogen
+ms.author: ghogen
+manager: jmartens
+ms.technology: msbuild
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # MSBuild advanced concepts
+
 The documents in this section describe how to use advanced techniques to improve builds that you run by using MSBuild.
 
 ## Related topics
@@ -26,5 +30,7 @@ The documents in this section describe how to use advanced techniques to improve
 |[Best practices](../msbuild/msbuild-best-practices.md)|Recommends best practices for writing MSBuild scripts.|
 
 ## See also
+
 - [MSBuild concepts](../msbuild/msbuild-concepts.md)
 - [Logging in MSBuild](../msbuild/logging-in-msbuild.md)
+- [How MSBuild builds projects](build-process-overview.md)

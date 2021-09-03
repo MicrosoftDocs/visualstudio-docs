@@ -1,12 +1,14 @@
 ---
 title: "Analyze resource consumption in XAML apps"
-ms.custom: "seodec18"
+description: Use the Application Timeline profiler to find performance issues in XAML applications. You can analyze time spent for various tasks in various scenarios.
+ms.custom: "SEO-VS-2020"
 ms.date: "11/01/2018"
 ms.topic: "conceptual"
 ms.assetid: df7d854b-0a28-45a9-8a64-c015a4327701
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "uwp"
 ---
@@ -42,6 +44,8 @@ Here are the basic steps:
 2. Click **Debug / Performance Profiler**. You should see a list of profiling tools in the .diagsession window.
 
 3. Select **Application Timeline** and then click **Start** at the bottom of the window.
+
+   ![Application Timeline Tool Selected](../profiling/media/apptimelineselect.png "Application Timeline Tool")
 
    > [!NOTE]
    > You might see a User Account Control window requesting your permission to run *VsEtwCollector.exe*. Click **Yes**.
@@ -92,7 +96,7 @@ The details view is where you spend most of your time analyzing the report. It s
 
 The following events are supported:
 
-|||
+|Name|Description|
 |-|-|
 |**Parsing**|Time spent parsing XAML files and creating objects.<br /><br /> Expanding a **Parsing** node in **Timeline details** displays the dependency chain of all the XAML files that were parsed because of the root event. This tip lets you identify unnecessary file parsing and object creation in performance sensitive scenarios and optimize them out.|
 |**Layout**|In large applications, thousands of elements may be shown on the screen at the same time. This display might result in a low UI frame rate and correspondingly poor application responsiveness. The Layout event accurately determines the cost of laying out each element (that is, the time spent in Arrange, Measure, ApplyTemplate, ArrangeOverride, and MeasureOverride). It also builds the visual trees that took part in a Layout pass. You can use this visualization to determine which logical trees to prune, or to evaluate other deferral mechanisms to optimize your layout pass.|
@@ -108,7 +112,7 @@ The following events are supported:
 
 Use the **Timeline details** toolbar to sort, filter, and specify the annotations of **Timeline details** view entries.
 
-|||
+|Name|Description|
 |-|-|
 |**Sort by**|Sort by start time or the length of events.|
 |![Group events by frame](../profiling/media/timeline_groupbyframes.png "TIMELINE_GroupByFrames")|Adds or removes a top-level **Frame** category that groups events by frame.|
@@ -117,8 +121,8 @@ Use the **Timeline details** toolbar to sort, filter, and specify the annotation
 
 ## See also
 
-- [WPF team blog: New UI performance analysis tool for WPF applications](https://blogs.msdn.microsoft.com/wpf/2015/01/16/new-ui-performance-analysis-tool-for-wpf-applications/)
+- [WPF team blog: New UI performance analysis tool for WPF applications](/archive/blogs/wpf/new-ui-performance-analysis-tool-for-wpf-applications)
 - [Performance best practices for UWP apps using C++, C#, and Visual Basic](/previous-versions/windows/apps/hh750313\(v\=win.10\))
 - [Optimize WPF application performance](/dotnet/framework/wpf/advanced/optimizing-wpf-application-performance)
-- [Profiling in Visual Studio](../profiling/index.md)
+- [Profiling in Visual Studio](../profiling/index.yml)
 - [First look at profiling tools](../profiling/profiling-feature-tour.md)

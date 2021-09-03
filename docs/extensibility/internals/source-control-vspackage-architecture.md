@@ -1,15 +1,18 @@
 ---
-title: "Source Control VSPackage Architecture | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Source Control VSPackage Architecture | Microsoft Docs
+description: Learn about the architecture of a source-control package, which is a VSPackage that provides functionality to Visual Studio as a source control service.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "source control packages, architecture"
+- source control packages, architecture
 ms.assetid: 453125fc-23dc-49b1-8476-94581f05e6c7
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Source Control VSPackage Architecture
 A source-control package is a VSPackage that uses services that the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] IDE provides. In return, a source-control package provides its functionality as a source control service. Additionally, a source-control package is a more versatile alternative than a source control plug-in for integrating source control into [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)].
@@ -41,6 +44,6 @@ A source-control package is a VSPackage that uses services that the [!INCLUDE[vs
 
   Writing a VSPackage-based source-control package requires more advanced programming expertise than writing a Source Control Plug-in API-based plug-in.
 
-## See Also
+## See also
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage>
 - [Getting Started](../../extensibility/internals/getting-started-with-source-control-vspackages.md)

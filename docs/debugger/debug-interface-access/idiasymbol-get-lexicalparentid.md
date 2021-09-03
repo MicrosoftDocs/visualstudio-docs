@@ -1,7 +1,8 @@
 ---
+description: "Retrieves the lexical parent identifier of the symbol."
 title: "IDiaSymbol::get_lexicalParentId | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,8 @@ helpviewer_keywords:
 ms.assetid: 6c0c2874-cc47-4e4f-ad9c-02a18a108d9d
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -38,5 +40,5 @@ HRESULT get_lexicalParentId ( 
 ## Remarks
  The identifier is a unique value created by the DIA SDK to mark all symbols as unique.
 
-## See Also
+## See also
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

@@ -1,15 +1,18 @@
 ---
-title: "Workflow Designer - TransactionScope Activity Designer"
+title: Workflow Designer - TransactionScope Activity Designer
+description: Learn how you can use the TransactionScope activity designer to create and configure a TransactionScope activity.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "System.Activities.Statements.TransactionScope.UI"
+- System.Activities.Statements.TransactionScope.UI
 ms.assetid: 8d7ebfc6-7478-4888-b3b0-b14f296096af
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
+ms.technology: vs-workflow-designer
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # TransactionScope Activity Designer
 
@@ -33,7 +36,7 @@ The following table shows the <xref:System.Activities.Statements.TransactionScop
 |<xref:System.Activities.Statements.TransactionScope.Body%2A>|True|Specifies the activity to execute in a single transaction. To add the <xref:System.Activities.Statements.TransactionScope.Body%2A> activity, drop an activity from the **Toolbox** into the **Body** box on the **TransactionScope** activity designer with hint text "Drop activity here".|
 |<xref:System.Activities.Statements.TransactionScope.IsolationLevel%2A>|True|Specifies the <xref:System.Transactions.IsolationLevel> for this <xref:System.Activities.Statements.TransactionScope>.|
 |<xref:System.Activities.Statements.TransactionScope.Timeout%2A>|False|Specifies the interval of time (formatted as 00:00:00, which indicates hours:minutes:seconds) that the transaction has to complete. The default value is 1 minute (00:01:00).|
-|[System.Activities.Statements.TransactionScope.AbortInstanceOnTransactionFailure](https://msdn.microsoft.com/library/system.activities.statements.transactionscope.abortinstanceontransactionfailure.aspx)|True|Specifies the value that indicates whether the workflow should be aborted if the transaction aborts.|
+|<xref:System.Activities.Statements.TransactionScope.AbortInstanceOnTransactionFailure*>|True|Specifies the value that indicates whether the workflow should be aborted if the transaction aborts.|
 
 ## See also
 

@@ -1,20 +1,22 @@
 ---
-title: "BPERESI_FIELDS | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Specifies the information to be retrieved about a failed resolution of a breakpoint."
+title: BPERESI_FIELDS | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "BPERESI_FIELDS"
+- BPERESI_FIELDS
 helpviewer_keywords:
-  - "BPERESI_FIELDS enumeration"
+- BPERESI_FIELDS enumeration
 ms.assetid: dd7dd89c-1043-46a1-a929-099cc039c344
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # BPERESI_FIELDS
 Specifies the information to be retrieved about a failed resolution of a breakpoint.

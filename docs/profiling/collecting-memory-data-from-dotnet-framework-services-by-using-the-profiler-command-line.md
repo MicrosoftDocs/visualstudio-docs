@@ -1,13 +1,17 @@
 ---
-title: "Profiler command line: Get .NET Framework services memory data"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Profiler command line - Get .NET services memory data
+description: Learn how to use the sampling method from the command line to collect memory allocation and object lifetime data for a .NET Framework service.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
 ms.assetid: b1361333-8a09-4a65-87a9-4ac94ceb2d9f
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
-ms.workload:
-  - "dotnet"
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.technology: vs-ide-debug
+monikerRange: 'vs-2017'
+ms.workload: 
+  - dotnet
 ---
 # Collect memory data from .NET Framework services by using the profiler command line
 This section describes the procedures and options for collecting memory allocation and object lifetime data for a .NET Framework service using the sampling method from the command line.

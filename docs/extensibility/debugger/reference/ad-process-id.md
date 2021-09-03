@@ -1,20 +1,22 @@
 ---
-title: "AD_PROCESS_ID | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Specifies the process ID, which may be either a system ID or a GUID."
+title: AD_PROCESS_ID | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "AD_PROCESS_ID"
+- AD_PROCESS_ID
 helpviewer_keywords:
-  - "AD_PROCESS_ID union"
+- AD_PROCESS_ID union
 ms.assetid: 4cb40d12-2e92-4f09-83f4-689928bd65b3
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # AD_PROCESS_ID
 Specifies the process ID, which may be either a system ID or a GUID.

@@ -1,19 +1,21 @@
 ---
 title: Build Page, Project Designer (C#)
+description: Learn how to use the Build page of the Project Designer in Visual Studio to specify the project's build configuration properties.
+ms.custom: SEO-VS-2020
 ms.date: 06/20/2017
 ms.technology: vs-ide-compile
 ms.topic: reference
 f1_keywords:
-  - "cs.ProjectPropertiesBuild"
+- cs.ProjectPropertiesBuild
 helpviewer_keywords:
-  - "Build options [C#]"
-  - "Project Designer, Build page"
+- Build options [C#]
+- Project Designer, Build page
 ms.assetid: 77ff1bfc-d633-4634-ba29-9afdb6d7e362
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: ghogen
+ms.author: ghogen
+manager: jmartens
 ms.workload:
-  - "dotnet"
+- dotnet
 ---
 # Build Page, Project Designer (C#)
 
@@ -60,6 +62,12 @@ Specifies the processor to be targeted by the output file. Choose **x86** for an
 
 For more information, see [/platform (C# Compiler Options)](/dotnet/csharp/language-reference/compiler-options/platform-compiler-option).
 
+**Nullable**
+
+Specifies the project-wide C# nullable context. This UI option was introduced in Visual Studio 16.5, and is only enabled for projects that use C# 8.0 or later.
+
+For more information, see [Nullable Contexts](/dotnet/csharp/nullable-references#nullable-contexts).
+
 **Prefer 32-bit**
 
 If the **Prefer32-bit** check box is selected, the application runs as a 32-bit application on both 32-bit and 64-bit versions of Windows. If the check box is cleared, the application runs as a 32-bit application on 32-bit versions of Windows and as a 64-bit application on 64-bit versions of Windows.
@@ -98,17 +106,14 @@ Blocks the compiler's ability to generate one or more warnings. Separate multipl
 
 The following settings are used to specify which warnings are treated as errors. Select one of the following options to indicate under what conditions to return an error when the build encounters a warning. For more information, see [/warnaserror (C# Compiler Options)](/dotnet/csharp/language-reference/compiler-options/warnaserror-compiler-option).
 
-**None**
+**None** - Treats no warnings as errors.
 
-Treats no warnings as errors.
+**All** - Treats all warnings as errors.
 
-**Specific warnings**
+**Specific warnings** - Treats the specified warnings as errors. Separate multiple warning numbers with a comma or semicolon.
 
-Treats the specified warnings as errors. Separate multiple warning numbers with a comma or semicolon.
-
-**All**
-
-Treats all warnings as errors.
+> [!TIP]
+> If you don't want code analysis warnings to be treated as errors, see [Code analysis FAQ](/visualstudio/code-quality/analyzers-faq#treat-warnings-as-errors).
 
 ## Output
 

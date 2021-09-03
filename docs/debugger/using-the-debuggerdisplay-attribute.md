@@ -1,29 +1,33 @@
 ---
-title: "Display custom info using DebuggerDisplay | Microsoft Docs"
-ms.date: "01/09/2019"
-ms.topic: "conceptual"
-helpviewer_keywords:
-  - "attributes, debugger"
-  - "DebuggerDisplay attribute"
-  - "DebuggerDisplayAttribute class"
+title: Display custom info using DebuggerDisplay | Microsoft Docs
+description: Use an instance of DebuggerDisplayAttribute to control how an object, property, or field is displayed in the debugger variable windows.
+ms.custom: SEO-VS-2020
+ms.date: 01/09/2019
+ms.topic: how-to
+helpviewer_keywords: 
+  - attributes, debugger
+  - DebuggerDisplay attribute
+  - DebuggerDisplayAttribute class
 ms.assetid: f4eb7c76-af4e-493b-9ab6-9cb05949d9b3
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
-ms.workload:
-  - "multiple"
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.technology: vs-ide-debug
+ms.workload: 
+  - multiple
 ---
 # Tell the debugger what to show using the DebuggerDisplay Attribute (C#, Visual Basic, F#, C++/CLI)
+
 The <xref:System.Diagnostics.DebuggerDisplayAttribute> controls how an object, property, or field is displayed in the debugger variable windows. This attribute can be applied to types, delegates, properties, fields, and assemblies. If applied to a base type, the attribute also applies to a subclass.
 
 The `DebuggerDisplay` attribute has a single argument, which is a string to be displayed in the value column for instances of the type. This string can contain braces (`{` and `}`). Text within a pair of braces is evaluated as a field, property or method.
 
-If a class has an overridden `ToString()` method, the debugger uses the overridden method instead of the default `{<typeName>}`. Thus, if you have overridden the `ToString()` method, the debugger uses the overridden method instead of the default`{<typeName>}`, and you do not have to use `DebuggerDisplay`. If you use both, the `DebuggerDisplay` attribute takes precedence over the overridden `ToString()` method.
+If a class has an overridden `ToString()` method, the debugger uses the overridden method instead of the default `{<typeName>}`. Thus, if you have overridden the `ToString()` method, the debugger uses the overridden method instead of the default`{<typeName>}`, and you do not have to use `DebuggerDisplay`. If you use both, the `DebuggerDisplay` attribute takes precedence over the overridden `ToString()` method. The `DebuggerDisplay` attribute also takes precedence over the overridden `ToString()` method in a subclass.
 
-Whether the debugger evaluates this implicit `ToString()` call depends on a user setting in the **Tools / Options / Debugging** dialog box . Visual Basic does not implement this implicit `ToString()` evaluation.
+Whether the debugger evaluates this implicit `ToString()` call depends on a user setting in the **Tools / Options / Debugging** dialog box.
 
 > [!IMPORTANT]
-> If the **Show raw structure of objects in variables windows** check box is selected in the **Tools /Options / Debugging** dialog box, then the `DebuggerDisplay` attribute is ignored.
+> If the **Show raw structure of objects in variables windows** check box is selected in the **Tools / Options / Debugging** dialog box, then the `DebuggerDisplay` attribute is ignored.
 
 > [!NOTE]
 > For native code, this attribute is supported only in C++/CLI code.
@@ -87,7 +91,7 @@ public sealed class MyClass
 The ",nq" suffix tells the expression evaluator to remove the quotes when displaying the final value (nq = no quotes).
 
 ## Example
-The following code example shows how to use `DebuggerDisplay`, together with `DebuggerBrowseable` and `DebuggerTypeProxy`. When viewed in a debugger variables window, such as the **Watch** window, it produces an expansion that looks like this:
+The following code example shows how to use `DebuggerDisplay`, together with `DebuggerBrowsable` and `DebuggerTypeProxy`. When viewed in a debugger variables window, such as the **Watch** window, it produces an expansion that looks like this:
 
 |**Name**|**Value**|**Type**|
 |--------------|---------------|--------------|
@@ -172,9 +176,9 @@ class MyHashtable
 }
 ```
 
-## See Also
+## See also
 
 - [Using DebuggerTypeProxy Attribute](../debugger/using-debuggertypeproxy-attribute.md)
-- [Create custom views of managed objects](../debugger/create-custom-views-of-dot-managed-objects.md)
+- [Create custom views of managed objects](../debugger/create-custom-views-of-managed-objects.md)
 - [Format specifiers in C#](../debugger/format-specifiers-in-csharp.md)
 - [Enhancing Debugging with the Debugger Display Attributes](/dotnet/framework/debug-trace-profile/enhancing-debugging-with-the-debugger-display-attributes)

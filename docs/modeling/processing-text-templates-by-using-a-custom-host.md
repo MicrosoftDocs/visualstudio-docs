@@ -1,15 +1,18 @@
 ---
 title: Processing Text Templates by using a Custom Host
+description: Learn that the text template transformation process takes a text template file as the input and produces a text file as the output.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "text templates, in application or VS extension"
-  - "text templates, custom directive hosts"
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+- text templates, in application or VS extension
+- text templates, custom directive hosts
+author: mgoertz-msft
+ms.author: mgoertz
+manager: jmartens
+ms.technology: vs-ide-modeling
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Process Text Templates by using a Custom Host
 

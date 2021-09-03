@@ -1,18 +1,21 @@
 ---
-title: "How to: Specify Additional Instrumentation Options | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-f1_keywords:
-  - "vs.performance.property.advanced"
-helpviewer_keywords:
-  - "instrumentation, options"
-  - "profiling tools, session options"
-  - "performance sessions, options"
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
-ms.workload:
-  - "multiple"
+title: Specify Additional Instrumentation Options | Microsoft Docs
+description: Learn how you can instrument binaries from using the Visual Studio IDE or by using command line tools.
+ms.date: 11/04/2016
+ms.topic: how-to
+f1_keywords: 
+  - vs.performance.property.advanced
+helpviewer_keywords: 
+  - instrumentation, options
+  - profiling tools, session options
+  - performance sessions, options
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.technology: vs-ide-debug
+monikerRange: 'vs-2017'
+ms.workload: 
+  - multiple
 ---
 # How to: Specify additional instrumentation options
 

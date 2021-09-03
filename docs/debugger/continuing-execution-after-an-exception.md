@@ -1,30 +1,33 @@
 ---
-title: "Continuing Execution After an Exception | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-dev_langs:
-  - "CSharp"
-  - "VB"
-  - "FSharp"
-  - "C++"
-  - "JScript"
-helpviewer_keywords:
-  - "managed exceptions, continuing execution after"
-  - "exceptions, continuing execution after"
-  - "debugger, exceptions"
-  - "managed code, exception handling"
-  - "exception handling, continuing execution after"
-  - "execution, continuing after an exception"
-  - "program execution"
-  - "threading [Visual Studio], continuing execution after exceptions"
-  - "Exceptions dialog box"
-  - "programs, executing"
+title: Continuing Execution After an Exception | Microsoft Docs
+description: Learn what happens when the debugger breaks execution because of an unhandled exception. You may be able to continue execution in the same thread. 
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
+dev_langs: 
+  - CSharp
+  - VB
+  - FSharp
+  - C++
+  - JScript
+helpviewer_keywords: 
+  - managed exceptions, continuing execution after
+  - exceptions, continuing execution after
+  - debugger, exceptions
+  - managed code, exception handling
+  - exception handling, continuing execution after
+  - execution, continuing after an exception
+  - program execution
+  - threading [Visual Studio], continuing execution after exceptions
+  - Exceptions dialog box
+  - programs, executing
 ms.assetid: 6fe97aac-2131-4615-bd92-d3afee741558
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
-ms.workload:
-  - "multiple"
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.technology: vs-ide-debug
+ms.workload: 
+  - multiple
 ---
 # Continuing Execution After an Exception
 When the debugger breaks execution because of an exception, you will see the **Exception Helper**, by default. If you have disabled the **Exception Helper** in the **Options** dialog box, you will see the **Exception Assistant** (C# or Visual Basic) or the **Exception** dialog box (C++).
@@ -37,6 +40,6 @@ When the debugger breaks execution because of an exception, you will see the **E
 ## Mixed Code
  If you hit an unhandled exception while debugging a mixed native and managed code, operating system constraints prevent unwinding the call stack. If you try rewinding the call stack using the shortcut menu, an error message explains that the debugger cannot unwind from an unhandled except during mixed-code debugging.
 
-## See Also
+## See also
 
 - [Managing Exceptions with the Debugger](../debugger/managing-exceptions-with-the-debugger.md)

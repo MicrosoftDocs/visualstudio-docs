@@ -1,5 +1,6 @@
 ---
 title: "Performance Explorer | Microsoft Docs"
+description: Learn how Visual Studio Profiling Tools let developers measure, evaluate, and target performance-related issues in their code.
 ms.date: "06/19/2017"
 ms.topic: "conceptual"
 f1_keywords:
@@ -9,7 +10,9 @@ helpviewer_keywords:
   - "performance tools [Visual Studio ALM]"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
+monikerRange: 'vs-2017'
 ms.workload:
   - "multiple"
 ---

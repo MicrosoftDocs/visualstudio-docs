@@ -1,20 +1,22 @@
 ---
-title: "IDebugEngineProgram2::WatchForThreadStep | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Watches for execution (or stops watching for execution) to occur on the given thread."
+title: IDebugEngineProgram2::WatchForThreadStep | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugEngineProgram2::WatchForThreadStep"
+- IDebugEngineProgram2::WatchForThreadStep
 helpviewer_keywords:
-  - "IDebugEngineProgram2::WatchForThreadStep"
+- IDebugEngineProgram2::WatchForThreadStep
 ms.assetid: b70922a3-1313-409a-b3b7-50c7cd13e394
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugEngineProgram2::WatchForThreadStep
 Watches for execution (or stops watching for execution) to occur on the given thread.

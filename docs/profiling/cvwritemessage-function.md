@@ -1,31 +1,34 @@
 ---
-title: "CvWriteMessage Function | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-f1_keywords:
-  - "cvmarkers/CvWriteMessageW"
-  - "cvmarkers/CvWriteMessageExW"
-  - "cvmarkers/CvWriteMessageVA"
-  - "cvmarkers/CvWriteMessageExVW"
-  - "cvmarkers/CvWriteMessageExA"
-  - "cvmarkers/CvWriteMessageA"
-  - "cvmarkers/CvWriteMessageExVA"
-  - "cvmarkers/CvWriteMessageVW"
-helpviewer_keywords:
-  - "CvWriteMessageExVA method"
-  - "CvWriteMessageW method"
-  - "CvWriteMessageVW method"
-  - "CvWriteMessageExVW method"
-  - "CvWriteMessageExW method"
-  - "CvWriteMessageA method"
-  - "CvWriteMessageVA method"
-  - "CvWriteMessageExA method"
+title: CvWriteMessage Function | Microsoft Docs
+description: See reference information for the Concurrency Visualizer SDK function CvWriteMessage (C library).
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: reference
+f1_keywords: 
+  - cvmarkers/CvWriteMessageW
+  - cvmarkers/CvWriteMessageExW
+  - cvmarkers/CvWriteMessageVA
+  - cvmarkers/CvWriteMessageExVW
+  - cvmarkers/CvWriteMessageExA
+  - cvmarkers/CvWriteMessageA
+  - cvmarkers/CvWriteMessageExVA
+  - cvmarkers/CvWriteMessageVW
+helpviewer_keywords: 
+  - CvWriteMessageExVA method
+  - CvWriteMessageW method
+  - CvWriteMessageVW method
+  - CvWriteMessageExVW method
+  - CvWriteMessageExW method
+  - CvWriteMessageA method
+  - CvWriteMessageVA method
+  - CvWriteMessageExA method
 ms.assetid: e20ae7be-bfa7-437a-b8c1-fa0f1baa7f83
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
-ms.workload:
-  - "multiple"
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.technology: vs-ide-debug
+ms.workload: 
+  - multiple
 ---
 # CvWriteMessage function
 Writes a message to the Concurrency Visualizer trace file.

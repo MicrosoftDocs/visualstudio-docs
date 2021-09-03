@@ -1,16 +1,19 @@
 ---
-title: "Source Control Plug-in Glossary | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Source Control Plug-in Glossary | Microsoft Docs
+description: This article includes helpful terms and definitions that pertain to the Source Control Plug-in SDK documentation.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: reference
 helpviewer_keywords:
-  - "glossary [Visual Studio SDK]"
-  - "source control plug-ins, glossary"
+- glossary [Visual Studio SDK]
+- source control plug-ins, glossary
 ms.assetid: f224bbc9-38fc-4c80-ab09-51dcc8969f8e
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Source Control Plug-in Glossary
 The following helpful terms and definitions pertain to the Source Control Plug-in SDK documentation.
@@ -58,5 +61,5 @@ The following helpful terms and definitions pertain to the Source Control Plug-i
  Revision
  A committed change in the history of a file or set of files. A revision is one snapshot in a continuously changing project.
 
-## See Also
+## See also
 - [Source Control Plug-ins](../extensibility/source-control-plug-ins.md)

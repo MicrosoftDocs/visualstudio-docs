@@ -1,13 +1,14 @@
 ---
+description: "The Visual C++ project system is used for .vcxproj files."
 title: "Visual C++ project extensibility"
 ms.date: "04/23/2019"
-ms.technology: vs-ide-mobile
 ms.topic: "conceptual"
 dev_langs:
   - "C++"
 author: "corob-msft"
 ms.author: "corob"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload: ["vssdk"]
 ---
 # Visual Studio C++ Project system extensibility and toolset integration
@@ -284,7 +285,7 @@ If you need to create a new task for a build tool, you can choose from the follo
 
 1. If you want better task performance or just need more complex functionality, use the regular MSBuild [task writing](../msbuild/task-writing.md) process.
 
-   If not all inputs and outputs of the tool are listed on the tool command line, as in the `CL`, `MIDL`, and `RC` cases, and if you want automatic input and output file tracking and .tlog file creation, derive your task from the `Microsoft.Build.CPPTasks.TrackedVCToolTask` class. At present, while there is documentation for the base [ToolTask](/dotnet/api/microsoft.build.utilities.tooltask) class, there are no examples or documentation for the details of the `TrackedVCToolTask` class. If this would be of particular interest, add your voice to a request on [developercommunity.visualstudio.com](https://developercommunity.visualstudio.com/spaces/62/index.html).
+   If not all inputs and outputs of the tool are listed on the tool command line, as in the `CL`, `MIDL`, and `RC` cases, and if you want automatic input and output file tracking and .tlog file creation, derive your task from the `Microsoft.Build.CPPTasks.TrackedVCToolTask` class. At present, while there is documentation for the base [ToolTask](/dotnet/api/microsoft.build.utilities.tooltask) class, there are no examples or documentation for the details of the `TrackedVCToolTask` class. If this would be of particular interest, add your voice to a request on [Developer Community](https://aka.ms/feedback/suggest?space=62).
 
 ## Incremental builds and up-to-date checks
 
@@ -428,7 +429,7 @@ For instance, to automatically generate .cpp or .h files from .xaml files, the `
 </Target>
 ```
 
-To use `Task.HostObject` to get the unsaved content of source files, the targets and task should be registered as [MsbuildHostObjects](/dotnet/api/microsoft.visualstudio.shell.interop.ivsmsbuildhostobject?view=visualstudiosdk-2017) for the given projects in a pkgdef:
+To use `Task.HostObject` to get the unsaved content of source files, the targets and task should be registered as [MsbuildHostObjects](/dotnet/api/microsoft.visualstudio.shell.interop.ivsmsbuildhostobject?view=visualstudiosdk-2017&preserve-view=true) for the given projects in a pkgdef:
 
 ```reg
 \[$RootKey$\\Projects\\{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}\\MSBuildHostObjects\]

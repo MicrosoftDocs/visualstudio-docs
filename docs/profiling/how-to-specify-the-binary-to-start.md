@@ -1,18 +1,21 @@
 ---
-title: "How to: Specify the Binary to Start | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-f1_keywords:
-  - "vs.performance.property.itemlaunch"
-helpviewer_keywords:
-  - "profiling tools, launching"
-  - "performance tools, launching"
-  - "performance sessions, launching"
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
-ms.workload:
-  - "multiple"
+title: Specify the Binary to Start | Microsoft Docs
+description: Learn how you must enter information in the <Target> Property Pages dialog box to profile binaries, such as DLLs.
+ms.date: 11/04/2016
+ms.topic: how-to
+f1_keywords: 
+  - vs.performance.property.itemlaunch
+helpviewer_keywords: 
+  - profiling tools, launching
+  - performance tools, launching
+  - performance sessions, launching
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.technology: vs-ide-debug
+monikerRange: 'vs-2017'
+ms.workload: 
+  - multiple
 ---
 # How to: Specify the binary to start
 

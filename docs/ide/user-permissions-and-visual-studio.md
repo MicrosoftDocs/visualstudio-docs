@@ -1,30 +1,32 @@
 ---
 title: Run as administrator
-ms.date: 06/05/2018
+description: Learn how to run Visual Studio as an administrator.
+ms.date: 03/09/2021
 ms.topic: conceptual
 helpviewer_keywords:
-  - "Visual Studio, user permissions"
-  - "user permissions"
-  - "administrative privileges"
-  - "permissions"
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+- Visual Studio, user permissions
+- user permissions
+- administrative privileges
+- permissions
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # User permissions and Visual Studio
 
-For reasons of security, you should run Visual Studio as a normal user whenever possible.
+For reasons of security, you should run Visual Studio as a typical user whenever possible.
 
 > [!WARNING]
 > You should also make sure not to compile, launch, or debug any Visual Studio solution that does not come from a trusted person or a trusted location.
 
-You can do nearly everything in the Visual Studio IDE as a normal user. You need administrator permissions to complete the following tasks:
+You can do nearly everything in the Visual Studio IDE as a typical user. You need administrator permissions to complete the following tasks:
 
 |Area|Task|For more information|
 |----------|----------| - |
-|Installation|Install Visual Studio.|[Install Visual Studio](../install/install-visual-studio.md)|
+|Installation|Install or modify Visual Studio.|[Install Visual Studio](../install/install-visual-studio.md), [Modify Visual Studio](../install/modify-visual-studio.md)|
 ||Install, update, or remove local Help content.|[Install and manage local Help content](../help-viewer/install-manage-local-content.md)|
 |Toolbox|Add classic COM controls to **Toolbox**.|[Toolbox](../ide/reference/toolbox.md)|
 |Building|Use post-build events that register a component.|[Understand custom build steps and build events](/cpp/build/understanding-custom-build-steps-and-build-events)|
@@ -65,7 +67,17 @@ If you need to run Visual Studio as an administrator, follow these steps to open
 
 ::: moniker-end
 
-You can also modify the application shortcut to always run with administrative permissions.
+You can also modify the application shortcut to always run with administrative permissions:
+
+1. Open the **Start** menu, scroll to the version of Visual Studio that you're using, and then select **More** > **Open file location**.
+
+1. In **File Explorer**, locate the **Visual Studio** shortcut for the version that you're using. Then, right-click the shortcut and select **Send to** > **Desktop (create shortcut)**.
+
+1. On the **Windows** desktop, right-click the **Visual Studio** shortcut, and then select **Properties**.
+
+1. Select the **Advanced** button, and then select the **Run as administrator** check box.
+
+1. Select **OK**, and then select **OK** again.
 
 ## See also
 

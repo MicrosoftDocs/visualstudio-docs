@@ -1,19 +1,21 @@
 ---
-title: "ProjectItem Element (Visual Studio Project Templates) | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.technology: "vs-ide-general"
-ms.topic: "conceptual"
+title: ProjectItem Element (Visual Studio Project Templates) | Microsoft Docs
+description: Learn about the ProjectItem element for project templates and how it accepts different attributes depending on whether the template is for a project or an item.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.technology: vs-ide-general
+ms.topic: reference
 f1_keywords:
-  - "http://schemas.microsoft.com/developer/vstemplate/2005#ProjectItem"
+- http://schemas.microsoft.com/developer/vstemplate/2005#ProjectItem
 helpviewer_keywords:
-  - "ProjectItem element [Visual Studio project templates]"
-  - "<ProjectItem> element [Visual Studio project templates]"
+- ProjectItem element [Visual Studio project templates]
+- <ProjectItem> element [Visual Studio project templates]
 ms.assetid: 82879fbe-7756-42cd-9a07-c10edf5b4673
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # ProjectItem element (Visual Studio project templates)
 Specifies a file that is included in the project template.

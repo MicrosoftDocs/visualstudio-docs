@@ -1,17 +1,19 @@
 ---
-title: "IDebugPortRequest2 | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "This interface describes a port."
+title: IDebugPortRequest2 | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugPortRequest2"
+- IDebugPortRequest2
 helpviewer_keywords:
-  - "IDebugPortRequest2 interface"
+- IDebugPortRequest2 interface
 ms.assetid: 556e610d-7c4b-44a8-965a-76a9d02b601a
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IDebugPortRequest2
 This interface describes a port. This description is used to add the port to a port supplier.

@@ -1,17 +1,20 @@
 ---
 title: C# code snippets
+description: Learn how to use code snippets to add commonly-used code to your C# code files.
+ms.custom: SEO-VS-2020
 ms.date: 06/05/2017
 ms.topic: reference
 helpviewer_keywords:
-  - "snippets [C#]"
-  - "code snippets [C#]"
-  - "Code Snippet Inserter [C#]"
-  - "C#, code snippets"
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+- snippets [C#]
+- code snippets [C#]
+- Code Snippet Inserter [C#]
+- C#, code snippets
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
-  - "dotnet"
+- dotnet
 ---
 # C# code snippets
 

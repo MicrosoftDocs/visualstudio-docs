@@ -1,25 +1,28 @@
 ---
-title: "How to: Publish a Project That Has a Specific Locale | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-helpviewer_keywords:
-  - "publishing, localized projects"
-  - "locales, publishing for"
-  - "deploying applications [ClickOnce], localized projects"
-  - "locales, deploying for"
-  - "publishing localized projects"
-  - "macros, deploying with"
-  - "macros, publishing with"
+title: Publish a project that has a specific locale
+description: Learn how to use a macro to publish the first project in a solution that contains projects for several different locales. 
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
+dev_langs: 
+  - VB
+  - CSharp
+  - C++
+helpviewer_keywords: 
+  - publishing, localized projects
+  - locales, publishing for
+  - deploying applications [ClickOnce], localized projects
+  - locales, deploying for
+  - publishing localized projects
+  - macros, deploying with
+  - macros, publishing with
 ms.assetid: 7c4cd83a-f985-4c85-9022-fadb5dbd2b39
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
-ms.workload:
-  - "multiple"
+manager: jmartens
+ms.technology: vs-ide-deployment
+ms.workload: 
+  - multiple
 ---
 # How to: Publish a project that has a specific locale
 It is not uncommon for an application to contain components that have different locales. In this scenario, you would create a solution that has several projects, and then publish separate projects for each locale. This procedure shows how to use a macro to publish the first project in a solution by using the 'en' locale. If you want to try this procedure with a locale other than 'en', make sure to set `localeString` in the macro to match the locale that you are using (for example, 'de' or 'de-DE').

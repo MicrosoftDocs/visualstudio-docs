@@ -1,13 +1,16 @@
 ---
-title: "Walkthrough: Using XML editor Features"
+title: 'Walkthrough: Using XML editor Features'
+description: Learn how to create a new XML document by following the steps in this walkthrough that demonstrates features of the XML editor.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 ms.assetid: ea8dc357-2e66-455a-aec2-7ccaccfc9adf
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
+ms.technology: vs-xml-tools
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Walkthrough: Use XML editor features
 

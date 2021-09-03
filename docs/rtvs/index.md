@@ -2,10 +2,12 @@
 title: R Tools for Visual Studio
 description: R Tools for Visual Studio 2017 (RTVS) is a free, open-source extension that provides many language features including IntelliSense, debugging, and remote workspaces.
 ms.date: 11/13/2017
+ms.prod: visual-studio-dev15
 ms.topic: overview
 author: kraigb
 ms.author: kraigb
-manager: jillfra
+manager: jmartens
+ms.technology: vs-rtvs
 ms.workload:
   - data-science
 ---
@@ -36,13 +38,11 @@ Then follow the links below to learn more about R-related features as well as th
 | [Interactive Window](interactive-repl-for-r-in-visual-studio.md) | Provides a full REPL experience for R with the ability to easily run code in a source file in the interactive window. | n/a |
 | [Visualizing data](visualizing-data-with-r-in-visual-studio.md) | Plotting is an integral part of the R experience, and RTVS supports multiple, independent plot windows, each with their own history and the ability to move plots between windows. Plots can be saved to bitmap and PDF files, or copied to the clipboard as a bitmap or metafile.  | n/a |
 | [Variable Explorer](variable-explorer.md) | Examine variables in the global or package-specific scopes, with the ability to view sortable tables and export to CSV. | n/a |
-| [Full-featured debugging](debugging-r-in-visual-studio.md) | Includes integration with the interactive window. | [Debugging in Visual Studio](/visualstudio/debugger/debugger-feature-tour) |
+| [Full-featured debugging](debugging-r-in-visual-studio.md) | Includes integration with the interactive window. | [Debugging in Visual Studio](../debugger/debugger-feature-tour.md) |
 
 Also see [Frequently asked questions](faq.md).
 
-|   |   |
-|---|---|
-| ![movie camera icon for video](../install/media/video-icon.png "Watch a video") | [Watch a video (youtube.com)](https://www.youtube.com/watch?v=dll3IS1bfWQ) for an overview of R Tools for Visual Studio (12m 36s). Also see [more R Tools videos](https://www.youtube.com/results?search_query=R+Tools+for+visual+studio). |
+![movie camera icon for video](../install/media/video-icon.png "Watch a video") [Watch a video (youtube.com)](https://www.youtube.com/watch?v=dll3IS1bfWQ) for an overview of R Tools for Visual Studio (12m 36s). Also see [more R Tools videos](https://www.youtube.com/results?search_query=R+Tools+for+visual+studio).
 
 ## Send us your feedback!
 

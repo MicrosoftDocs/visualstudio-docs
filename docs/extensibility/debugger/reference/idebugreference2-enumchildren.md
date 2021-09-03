@@ -1,20 +1,22 @@
 ---
-title: "IDebugReference2::EnumChildren | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Get a list of selected children of a reference."
+title: IDebugReference2::EnumChildren | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugReference2::EnumChildren"
+- IDebugReference2::EnumChildren
 helpviewer_keywords:
-  - "IDebugReference2::EnumChildren"
+- IDebugReference2::EnumChildren
 ms.assetid: 35b3c2f3-69f4-4013-b555-f847221f62e8
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugReference2::EnumChildren
 Get a list of selected children of a reference. Reserved for future use.

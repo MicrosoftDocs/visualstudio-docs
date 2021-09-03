@@ -1,23 +1,27 @@
 ---
-title: "How to: Choose Sampling Events | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-f1_keywords:
-  - "vs.performance.property.sampling"
-helpviewer_keywords:
-  - "clock cycles sample event"
-  - "sample events, choosing"
-  - "profiling tools, sample events"
-  - "page faults sample event"
-  - "system calls sample event"
-  - "performance counter sample event"
-  - "performance tools, sample events"
+title: Choose Sampling Events | Microsoft Docs
+description: Learn how to set the sample event to meet your needs, and to set the number of cycles between samples. Available events include clock cycles and page faults.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
+f1_keywords: 
+  - vs.performance.property.sampling
+helpviewer_keywords: 
+  - clock cycles sample event
+  - sample events, choosing
+  - profiling tools, sample events
+  - page faults sample event
+  - system calls sample event
+  - performance counter sample event
+  - performance tools, sample events
 ms.assetid: ce7cb734-80ac-4930-a4ef-e24395e1cc07
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
-ms.workload:
-  - "multiple"
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.technology: vs-ide-debug
+monikerRange: 'vs-2017'
+ms.workload: 
+  - multiple
 ---
 # How to: Choose sampling events
 By default, the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools collects performance data at an interval that is specified as a number of processor cycles that are used by the profiled process. The default number of cycles in an interval is 10,000,000, which is approximately 0.01 seconds on a 1 GH computer. You can change the number of cycles in an interval, and you can change the sample event. The following sample events are available:

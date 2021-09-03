@@ -1,20 +1,22 @@
 ---
-title: "IDebugContainerField::EnumFields | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Creates an enumerator for the fields of the container."
+title: IDebugContainerField::EnumFields | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugContainerField::EnumFields"
+- IDebugContainerField::EnumFields
 helpviewer_keywords:
-  - "IDebugContainerField::EnumFields method"
+- IDebugContainerField::EnumFields method
 ms.assetid: 9e5e681b-ad49-4c62-bd95-4afa11d61a57
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugContainerField::EnumFields
 Creates an enumerator for the fields of the container.

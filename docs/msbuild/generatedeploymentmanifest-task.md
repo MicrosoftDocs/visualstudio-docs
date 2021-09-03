@@ -1,26 +1,29 @@
 ---
-title: "GenerateDeploymentManifest Task | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
+title: GenerateDeploymentManifest Task | Microsoft Docs
+description: Learn to use the MSBuild GenerateDeploymentManifest task to generate a ClickOnce deployment manifest.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: reference
 f1_keywords:
-  - "http://schemas.microsoft.com/developer/msbuild/2003#GenerateDeploymentManifest"
+- http://schemas.microsoft.com/developer/msbuild/2003#GenerateDeploymentManifest
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+- VB
+- CSharp
+- C++
+- jsharp
 helpviewer_keywords:
-  - "MSBuild, GenerateDeploymentManifest task"
-  - "GenerateDeploymentManifest task [MSBuild]"
-author: mikejo5000
-ms.author: mikejo
-manager: jillfra
+- MSBuild, GenerateDeploymentManifest task
+- GenerateDeploymentManifest task [MSBuild]
+author: ghogen
+ms.author: ghogen
+manager: jmartens
+ms.technology: msbuild
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # GenerateDeploymentManifest task
 
-Generates a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment manifest. A [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment manifest describes the deployment of an application by defining a unique identity for the deployment, identifying deployment traits such as install or online mode, specifying application update settings and update locations, and indicating the corresponding [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application manifest.
+Generates a ClickOnce deployment manifest. A ClickOnce deployment manifest describes the deployment of an application by defining a unique identity for the deployment, identifying deployment traits such as install or online mode, specifying application update settings and update locations, and indicating the corresponding ClickOnce application manifest.
 
 ## Parameters
 
@@ -34,12 +37,12 @@ The following table describes the parameters for the `GenerateDeploymentManifest
 | `DeploymentUrl` | Optional `String` parameter.<br /><br /> Specifies the update location for the application. If this parameter is not specified, no update location is defined for the application. However, if the `UpdateEnabled` parameter is `true`, the update location must be specified. The specified value should be a fully qualified URL or UNC path. |
 | `Description` | Optional `String` parameter.<br /><br /> Specifies an optional description for the application. |
 | `DisallowUrlActivation` | Optional `Boolean` parameter.<br /><br /> Specifies whether the application should be run automatically when it is opened through a URL. If this parameter is `true`, the application can only be started from the **Start** menu. The default value of this parameter is `false`. This input applies only when the `Install` parameter value is `true`. |
-| `EntryPoint` | Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` parameter.<br /><br /> Indicates the entry point for the generated manifest assembly. For a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment manifest, this input specifies the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application manifest.<br /><br />If the `EntryPoint` task parameter is not specified, the `<customHostSpecified>` tag is inserted as a child of the `<entryPoint>` tag, for example:<br /><br /> `<entryPoint xmlns="urn:schemas-microsoft-com:asm.v2">`<br /><br /> `<co.v1:customHostSpecified />`<br /><br /> `</entryPoint>`<br /><br /> You can add DLL dependencies to the application manifest by using the following steps:<br /><br /> 1.  Resolve the assembly references with a call to <xref:Microsoft.Build.Tasks.ResolveAssemblyReference>.<br />2.  Pass the output of the previous task and the assembly itself to <xref:Microsoft.Build.Tasks.ResolveManifestFiles>.<br />3.  Pass the dependencies by using the `Dependencies` parameter to <xref:Microsoft.Build.Tasks.GenerateApplicationManifest>. |
+| `EntryPoint` | Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` parameter.<br /><br /> Indicates the entry point for the generated manifest assembly. For a ClickOnce deployment manifest, this input specifies the ClickOnce application manifest.<br /><br />If the `EntryPoint` task parameter is not specified, the `<customHostSpecified>` tag is inserted as a child of the `<entryPoint>` tag, for example:<br /><br /> `<entryPoint xmlns="urn:schemas-microsoft-com:asm.v2">`<br /><br /> `<co.v1:customHostSpecified />`<br /><br /> `</entryPoint>`<br /><br /> You can add DLL dependencies to the application manifest by using the following steps:<br /><br /> 1.  Resolve the assembly references with a call to <xref:Microsoft.Build.Tasks.ResolveAssemblyReference>.<br />2.  Pass the output of the previous task and the assembly itself to <xref:Microsoft.Build.Tasks.ResolveManifestFiles>.<br />3.  Pass the dependencies by using the `Dependencies` parameter to <xref:Microsoft.Build.Tasks.GenerateApplicationManifest>. |
 | `ErrorReportUrl` | Optional <xref:System.String?displayProperty=fullName> parameter.<br /><br /> Specifies the URL of the web page that is displayed in dialog boxes during ClickOnce installations. |
 | `InputManifest` | Optional <xref:Microsoft.Build.Framework.ITaskItem> parameter.<br /><br /> Indicates an input XML document to serve as a base for the manifest generator. This enables structured data, such as custom manifest definitions, to be reflected in the output manifest. The root element in the XML document must be an assembly node in the asmv1 namespace. |
 | `Install` | Optional `Boolean` parameter.<br /><br /> Specifies whether the application is an installed application or an online-only application. If this parameter is `true`, the application will be installed on the user's **Start** menu, and can be removed by using the **Add or Remove Programs** dialog box. If this parameter is `false`, the application is intended for online use from a web page. The default value of this parameter is `true`. |
-| `MapFileExtensions` | Optional `Boolean` parameter.<br /><br /> Specifies whether the *.deploy* file name extension mapping is used. If this parameter is `true`, every program file is published with a *.deploy* file name extension. This option is useful for web server security to limit the number of file name extensions that must be unblocked to enable [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application deployment. The default value of this parameter is `false`. |
-| `MaxTargetPath` | Optional `String` parameter.<br /><br /> Specifies the maximum allowed length of a file path in a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application deployment. If this parameter is specified, the length of each file path in the application is checked against this limit. Any items that exceed the limit will cause a build warning. If this input is not specified or is zero, no checking is performed. |
+| `MapFileExtensions` | Optional `Boolean` parameter.<br /><br /> Specifies whether the *.deploy* file name extension mapping is used. If this parameter is `true`, every program file is published with a *.deploy* file name extension. This option is useful for web server security to limit the number of file name extensions that must be unblocked to enable ClickOnce application deployment. The default value of this parameter is `false`. |
+| `MaxTargetPath` | Optional `String` parameter.<br /><br /> Specifies the maximum allowed length of a file path in a ClickOnce application deployment. If this parameter is specified, the length of each file path in the application is checked against this limit. Any items that exceed the limit will cause a build warning. If this input is not specified or is zero, no checking is performed. |
 | `MinimumRequiredVersion` | Optional `String` parameter.<br /><br /> Specifies whether the user can skip the update. If the user has a version that is less than the minimum required, he will not have the option to skip the update. This input only applies when the value of the `Install` parameter is `true`. |
 | `OutputManifest` | Optional <xref:Microsoft.Build.Framework.ITaskItem> parameter.<br /><br /> Specifies the name of the generated output manifest file. If this parameter is not specified, the name of the output file is inferred from the identity of the generated manifest. |
 | `Platform` | Optional `String` parameter.<br /><br /> Specifies the target platform of the application. This parameter can have the following values:<br /><br /> -   `AnyCPU`<br />-   `x86`<br />-   `x64`<br />-   `Itanium`<br /><br /> The default value is `AnyCPU`. |

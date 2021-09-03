@@ -1,7 +1,9 @@
 ---
 title: "How to: Install Office primary interop assemblies"
+description: Learn how to install the Microsoft Office primary interop assemblies (PIAs) when you install Office.
+ms.custom: SEO-VS-2020
 ms.date: "08/14/2019"
-ms.topic: "conceptual"
+ms.topic: "how-to"
 dev_langs:
   - "VB"
   - "CSharp"
@@ -10,7 +12,8 @@ helpviewer_keywords:
   - "Office primary interop assemblies, installing"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
+ms.technology: office-development
 ms.workload:
   - "office"
 ---

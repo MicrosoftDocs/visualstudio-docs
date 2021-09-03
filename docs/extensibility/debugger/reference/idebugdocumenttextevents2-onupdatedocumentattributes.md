@@ -1,20 +1,22 @@
 ---
-title: "IDebugDocumentTextEvents2::onUpdateDocumentAttributes | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Notifies receiver of the event that the document attributes have been updated."
+title: IDebugDocumentTextEvents2::onUpdateDocumentAttributes | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugDocumentTextEvents2::OnUpdateDocumentAttributes"
+- IDebugDocumentTextEvents2::OnUpdateDocumentAttributes
 helpviewer_keywords:
-  - "IDebugDocumentTextEvents2::onUpdateDocumentAttributes"
+- IDebugDocumentTextEvents2::onUpdateDocumentAttributes
 ms.assetid: 31b7d151-9ce2-438e-b405-f8cc46b9f537
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugDocumentTextEvents2::onUpdateDocumentAttributes
 Notifies receiver of the event that the document attributes have been updated.

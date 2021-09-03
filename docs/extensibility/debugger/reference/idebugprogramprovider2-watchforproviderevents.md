@@ -1,20 +1,22 @@
 ---
-title: "IDebugProgramProvider2::WatchForProviderEvents | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Allows the process to be notified of port events."
+title: IDebugProgramProvider2::WatchForProviderEvents | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugProgramProvider2::WatchForProviderEvents"
+- IDebugProgramProvider2::WatchForProviderEvents
 helpviewer_keywords:
-  - "IDebugProgramProvider2::WatchForProviderEvents"
+- IDebugProgramProvider2::WatchForProviderEvents
 ms.assetid: 2eb93653-b5fb-45b6-b136-56008c5d25ef
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugProgramProvider2::WatchForProviderEvents
 Allows the process to be notified of port events.

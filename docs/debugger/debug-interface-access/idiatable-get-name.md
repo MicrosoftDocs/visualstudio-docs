@@ -1,7 +1,8 @@
 ---
+description: "Retrieves the name of the table."
 title: "IDiaTable::get_name | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,8 @@ helpviewer_keywords:
 ms.assetid: f6e9cd07-63cd-48a6-9835-e69c2d0859c5
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -32,5 +34,5 @@ HRESULT get_name ( 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
-## See Also
+## See also
 - [IDiaTable](../../debugger/debug-interface-access/idiatable.md)

@@ -1,7 +1,9 @@
 ---
 title: "How to: Add a Parameter to a Method | Microsoft Docs"
+description: Know how to add a parameter to a business data connectivity (BDC) method, which lets you pass information into the method or return information from the method.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: how-to
 dev_langs:
   - "VB"
   - "CSharp"
@@ -14,14 +16,15 @@ helpviewer_keywords:
   - "BDC [SharePoint development in Visual Studio], method parameters"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
+ms.technology: sharepoint-development
 ms.workload:
   - "office"
 ---
 # How to: Add a parameter to a method
   Use a parameter to pass information into the method or to return information from a method. All methods must have at least one parameter. For more information about how to design a parameter to support the type of method that you want to create, see [Designing a Business Data Connectivity Model](../sharepoint/designing-a-business-data-connectivity-model.md).
 
- When you add a parameter to a method, Visual Studio adds the Parameter element to the XML of the model file in your project. For more information about the attributes of a Parameter element, see [Parameter](http://go.microsoft.com/fwlink/?LinkId=169284).
+ When you add a parameter to a method, Visual Studio adds the Parameter element to the XML of the model file in your project. For more information about the attributes of a Parameter element, see [Parameter](/previous-versions/office/developer/sharepoint-2010/ee557705(v=office.14)).
 
 ### To add a parameter to a method
 

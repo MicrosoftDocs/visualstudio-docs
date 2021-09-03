@@ -1,20 +1,22 @@
 ---
-title: "IDebugBreakpointRequest2::GetLocationType | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Gets the breakpoint location type of this breakpoint request."
+title: IDebugBreakpointRequest2::GetLocationType | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugBreakpointRequest2::GetLocationType"
+- IDebugBreakpointRequest2::GetLocationType
 helpviewer_keywords:
-  - "IDebugBreakpointRequest2::GetLocationType"
+- IDebugBreakpointRequest2::GetLocationType
 ms.assetid: b6d14c59-d3aa-48ff-8278-f6b5bba9c2f3
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugBreakpointRequest2::GetLocationType
 Gets the breakpoint location type of this breakpoint request.

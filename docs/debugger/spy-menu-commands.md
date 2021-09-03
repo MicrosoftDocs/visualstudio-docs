@@ -1,5 +1,7 @@
 ---
 title: "Spy Menu Commands | Microsoft Docs"
+description: Explore the Spy menu, which offers commands to work with Spy++ windows and views. Commands available include Windows, Processes, Threads, Log Messages, and Find Window.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:
@@ -7,7 +9,8 @@ helpviewer_keywords:
 ms.assetid: 802549be-dbd8-4df0-a18b-971900eaa769
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---

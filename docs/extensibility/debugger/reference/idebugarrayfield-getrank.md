@@ -1,20 +1,22 @@
 ---
-title: "IDebugArrayField::GetRank | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Gets the rank or number of dimensions of the array."
+title: IDebugArrayField::GetRank | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugArrayField::GetRank"
+- IDebugArrayField::GetRank
 helpviewer_keywords:
-  - "IDebugArrayField::GetRank method"
+- IDebugArrayField::GetRank method
 ms.assetid: 2364b876-5be1-4bab-9b8f-3b6121da35c6
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugArrayField::GetRank
 Gets the rank or number of dimensions of the array.

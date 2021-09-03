@@ -1,18 +1,21 @@
 ---
-title: "Configure Ports for Test Controllers and Test Agents"
+title: Configure Ports for Test Controllers and Test Agents
+description: Learn how to change the default incoming ports used by the test controller, the test agent, and the client to avoid conflicts with other software.
+ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
-ms.topic: conceptual
-helpviewer_keywords:
-  - "firewalls, configuring for test agents"
-  - "firewalls, configuring for test controllers"
-  - "test agents, firewalls"
-  - "test controllers, firewalls"
-  - "agents, firewalls"
-  - "controllers, firewalls"
+ms.topic: how-to
+helpviewer_keywords: 
+  - firewalls, configuring for test agents
+  - firewalls, configuring for test controllers
+  - test agents, firewalls
+  - test controllers, firewalls
+  - agents, firewalls
+  - controllers, firewalls
 ms.assetid: 211edbd7-9fe4-4251-ba85-8bec4363261b
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.technology: vs-ide-test
 ---
 # Configure ports for test controllers and test agents
 

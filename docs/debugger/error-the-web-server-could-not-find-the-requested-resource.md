@@ -1,7 +1,8 @@
 ---
-title: "Error: The Web Server Could Not Find the Requested Resource | Microsoft Docs"
+description: "Due to security considerations, IIS has returned a generic error."
+title: "The Web Server Could Not Find the Requested Resource | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "troubleshooting"
+ms.topic: "error-reference"
 dev_langs:
   - "CSharp"
   - "VB"
@@ -11,7 +12,8 @@ helpviewer_keywords:
   - "debugger, Web application errors"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -26,5 +28,5 @@ There are numerous additional possible causes of this error. A few of the most c
 
  For more information on troubleshooting IIS, see [IIS Management and Administration](/iis/manage/provisioning-and-managing-iis/iis-management-and-administration).
 
-## See Also
+## See also
 - [Error: The Web Server Has Been Locked Down and Is Blocking the DEBUG Verb](../debugger/error-the-web-server-has-been-locked-down-and-is-blocking-the-debug-verb.md)

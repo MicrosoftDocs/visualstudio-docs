@@ -1,15 +1,16 @@
 ---
 title: Increase your productivity for .NET development
-description: "An overview of navigation, code analysis, unit testing, and other features to help you write better .NET code faster."
-author: kuhlenh
-ms.author: gewarren
-manager: jillfra
-ms.date: 04/25/2019
+description: An overview of navigation, code analysis, unit testing, and other features to help you write better .NET code faster.
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
+ms.technology: vs-ide-general
+ms.date: 11/21/2019
 ms.topic: conceptual
 helpviewer_keywords:
-  - "editor"
+- editor
 ms.workload:
-  - "dotnet"
+- dotnet
 ---
 # Visual Studio productivity guide for C# developers
 
@@ -41,6 +42,7 @@ The following are popular Visual Studio shortcuts:
 | **F12** (also **Ctrl**+**Click**) | Go To Definition | Navigate to where a symbol is defined |
 | **Ctrl**+**F12** | Go To Implementation | Navigate from a base type or member to its various implementations |
 | **Shift**+**F12** | Find All References | See all symbol or literal references |
+| **Alt**+**Home** | Go To Base | Navigate up the inheritance chain |
 | **Ctrl**+**.** (also **Alt**+**Enter** in C# Profile) | Quick Actions and Refactorings | See what code fixes, code generation actions, refactorings, or other quick actions are available at your cursor position or code selection |
 | **Ctrl**+**D** | Duplicate line | Duplicates the line of code that the cursor is in (available in **Visual Studio 2017 version 15.6** and later) |
 | **Shift**+**Alt**+**+**/**-** | Expand/Contract selection | Expands or contracts the current selection in the editor (available in **Visual Studio 2017 version 15.5** and later) |
@@ -57,7 +59,7 @@ The following are popular Visual Studio shortcuts:
 > [!NOTE]
 > Some extensions unbind the default Visual Studio keybindings. To use the above commands, restore your keybindings to Visual Studio's defaults by going to **Tools** > **Import and Export Settings** > **Reset all settings** or **Tools** > **Options** > **Keyboard** > **Reset**.
 
-For more information about keyboard shortcuts and commands, see [Productivity shortcuts](../ide/productivity-shortcuts.md) and [Popular keyboard shortcuts](default-keyboard-shortcuts-for-frequently-used-commands-in-visual-studio.md).
+For more information about keyboard shortcuts and commands, see [Productivity shortcuts](../ide/productivity-shortcuts.md) and [Popular keyboard shortcuts](default-keyboard-shortcuts-in-visual-studio.md).
 
 ## Navigate quickly to files or types
 
@@ -90,7 +92,11 @@ You can use an EditorConfig file to codify coding conventions and have them trav
 
 - The [code inference feature](/visualstudio/intellicode/code-style-inference) of IntelliCode for Visual Studio infers your code styles from existing code. It then creates a non-empty EditorConfig file with your code-style preferences already defined.
 
-Check out the [.NET coding convention options](editorconfig-code-style-settings-reference.md) documentation, which also contains an example of a complete EditorConfig file.
+- Configure the severity level of a code style rule directly through the editor. If you currently do not have an .editorconfig file, one will be generated for you. Place your cursor on the error, warning, or suggestion and type **Ctrl**+**.** to open the Quick Actions and Refactorings menu. Select **Configure or Suppress issues**. Then select the rule and choose the severity level you would like to configure for that rule. This will update your existing EditorConfig with the rule’s new severity.
+
+   ![Configure the severity level of a code style rule directly in the editor](../ide/media/configure-severity-level.png)
+
+Check out the [.NET coding convention options](/dotnet/fundamentals/code-analysis/code-style-rule-options) documentation, which also contains an example of a complete EditorConfig file.
 
 ::: moniker range=">=vs-2019"
 
@@ -128,14 +134,27 @@ Popular quick fixes and refactorings include:
 
 For more information, see [code generation features](code-generation-in-visual-studio.md).
 
-You can [install FxCop analyzers](../code-quality/install-fxcop-analyzers.md) to flag code issues. Or, write your own refactoring or code fix with [Roslyn analyzers](https://github.com/dotnet/roslyn/wiki/Getting-Started-Writing-a-Custom-Analyzer-&-Code-Fix).
+You can [install FxCop analyzers](../code-quality/install-fxcop-analyzers.md) to flag code issues. Or, write your own refactoring or code fix with [Roslyn analyzers](https://github.com/dotnet/roslyn/blob/master/docs/wiki/Getting-Started-Writing-a-Custom-Analyzer-&-Code-Fix.md).
 
 Several community members have written free extensions that add additional code inspections:
+
+::: moniker range="vs-2017"
 
 - [Roslynator](https://marketplace.visualstudio.com/items?itemName=josefpihrt.Roslynator2017)
 - [SonarLint for Visual Studio](https://marketplace.visualstudio.com/items?itemName=SonarSource.SonarLintforVisualStudio2017)
 - [StyleCopAnalyzers](https://www.nuget.org/packages/stylecop.analyzers/)
 - [CodeCracker](https://www.nuget.org/packages/codecracker.CSharp/)
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+- [Roslynator](https://marketplace.visualstudio.com/items?itemName=josefpihrt.Roslynator2019)
+- [SonarLint for Visual Studio](https://marketplace.visualstudio.com/items?itemName=SonarSource.SonarLintforVisualStudio2019)
+- [StyleCopAnalyzers](https://www.nuget.org/packages/stylecop.analyzers/)
+- [CodeCracker](https://www.nuget.org/packages/codecracker.CSharp/)
+
+::: moniker-end
 
 ![Refactorings in Visual Studio](../ide/media/VSGuide_CodeAnalysis.png)
 

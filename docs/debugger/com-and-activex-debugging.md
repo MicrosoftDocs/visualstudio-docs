@@ -1,5 +1,7 @@
 ---
 title: "COM and ActiveX Debugging | Microsoft Docs"
+description: Discover tips on debugging COM applications and ActiveX controls in Visual Studio. Learn about COM server and container debugging. Find COM debugging tools.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:
@@ -18,7 +20,8 @@ helpviewer_keywords:
 ms.assetid: 3260b2a7-3239-493d-9271-aedf705c13c7
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -37,11 +40,11 @@ This section provides tips on debugging COM applications and ActiveX controls.
 
 ## Related Sections
  [First look at the debugger](../debugger/debugger-feature-tour.md)
- Provides links to the larger sections of the debugging documentation. Information includes: what's new in the debugger, settings and preparation, breakpoints, handling exceptions, edit and continue, debugging managed code, debugging Visual C++ projects, debugging COM and ActiveX, debugging DLLs, debugging SQL, and the user interface references.
+ Provides links to the larger sections of the debugging documentation. Information includes: what's new in the debugger, settings and preparation, breakpoints, handling exceptions, edit and continue, debugging managed code, debugging C++ projects, debugging COM and ActiveX, debugging DLLs, debugging SQL, and the user interface references.
 
-## See Also
+## See also
 
 - [Debugger Security](../debugger/debugger-security.md)
 - [Introduction to COM](/cpp/atl/introduction-to-com)
 - [ActiveX Controls](/cpp/mfc/activex-controls)
-- [SDI Server Applications](../debugger/sdi-server-applications.md)
+- [SDI Server Applications](com-server-and-container-debugging.md)

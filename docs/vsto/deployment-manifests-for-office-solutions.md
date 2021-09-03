@@ -1,7 +1,9 @@
 ---
 title: "Deployment manifests for Office solutions"
+description: Learn that a deployment manifest is an XML file that describes the deployment settings of an Office solution and identifies the current application version.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "VB"
   - "CSharp"
@@ -12,7 +14,8 @@ helpviewer_keywords:
   - "Office development in Visual Studio, deployment manifests"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
+ms.technology: office-development
 ms.workload:
   - "office"
 ---

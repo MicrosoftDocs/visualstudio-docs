@@ -1,15 +1,18 @@
 ---
-title: "Workflow Designer - CancellationScope Activity Designer"
+title:  CancellationScope activity designer
+description: Learn how you can use the CancellationScope activity designer in Workflow Designer to create and configure a CancellationScope activity.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "System.Activities.Statements.CancellationScope.UI"
+- System.Activities.Statements.CancellationScope.UI
 ms.assetid: 2c85d663-b219-4142-9866-7693ffd46379
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
+ms.technology: vs-workflow-designer
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # CancellationScope Activity Designer
 

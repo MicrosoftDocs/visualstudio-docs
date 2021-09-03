@@ -1,5 +1,7 @@
 ---
 title: "Improve the performance of a VSTO Add-in"
+description: Learn how to optimize VSTO Add-ins that you create for Office applications so that they quickly start up, shut down, open items, and perform other tasks.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -7,7 +9,8 @@ dev_langs:
   - "CSharp"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
+ms.technology: office-development
 ms.workload:
   - "office"
 ---
@@ -22,7 +25,7 @@ ms.workload:
 
 - [Perform expensive operations in a separate execution thread](#Perform).
 
-  For more information about how to optimize an Outlook VSTO Add-in, see [Performance criteria to keep VSTO Add-ins enabled](http://go.microsoft.com/fwlink/?LinkID=266503).
+  For more information about how to optimize an Outlook VSTO Add-in, see [Performance criteria to keep VSTO Add-ins enabled](/previous-versions/office/jj228679(v=office.15)#performance-criteria-for-keeping-add-ins-enabled).
 
 ## <a name="Load"></a> Load VSTO Add-ins on demand
  You can configure a VSTO Add-in to load only under the following circumstances:
@@ -89,17 +92,17 @@ ms.workload:
   > [!NOTE]
   > This approach isn't necessary if you deploy your VSTO Add-in to a secure location on the users' computers.
 
-  For more information, see [Deploy an Office solution by using Windows Installer](../vsto/deploying-an-office-solution-by-using-windows-installer.md).
+  For more information, see [Deploy an Office solution by using Windows Installer](../vsto/deploying-a-vsto-solution-by-using-windows-installer.md).
 
 ## <a name="Bypass"></a> Bypass Ribbon reflection
- If you build a solution by using [!INCLUDE[vs_dev11_long](../sharepoint/includes/vs-dev11-long-md.md)], ensure that your users have installed the most recent version of the Visual Studio 2010 Tools for Office runtime when you deploy the solution. Older versions of that runtime reflected into solution assemblies to locate Ribbon customizations. This process can cause the VSTO Add-in to load more slowly.
+ If you build a solution by using [!INCLUDE[vs_dev11_long](../sharepoint/includes/vs-dev11-long-md.md)], ensure that your users have installed the most recent version of the Visual Studio 2010 Tools for Office runtime when you deploy the solution. Older versions of the VSTO runtime reflected into solution assemblies to locate Ribbon customizations. This process can cause the VSTO Add-in to load more slowly.
 
  As an alternative, you can prevent any version of the Visual Studio 2010 Tools for Office runtime from using reflection to identify Ribbon customizations. To follow this strategy, override the `CreateRibbonExtensibility` method, and explicitly return Ribbon objects. If your VSTO Add-in doesn't contain any Ribbon customizations, return `null` inside of the method.
 
  The following example returns a Ribbon object based on the value of a field.
 
- [!code-vb[Trin_Ribbon_Choose_Ribbon#1](../vsto/codesnippet/VisualBasic/trin_ribbon_choose_ribbon_4/ThisWorkbook.vb#1)]
- [!code-csharp[Trin_Ribbon_Choose_Ribbon#1](../vsto/codesnippet/CSharp/trin_ribbon_choose_ribbon_4/ThisWorkbook.cs#1)]
+ :::code language="vb" source="../vsto/codesnippet/VisualBasic/trin_ribbon_choose_ribbon_4/ThisWorkbook.vb" id="Snippet1":::
+ :::code language="csharp" source="../vsto/codesnippet/CSharp/trin_ribbon_choose_ribbon_4/ThisWorkbook.cs" id="Snippet1":::
 
 ## <a name="Perform"></a> Perform expensive operations in a separate execution thread
  Consider performing time-consuming tasks (such as long running tasks, database connections, or other sorts of network calls) in a separate thread. For more information, see [Threading support in Office](../vsto/threading-support-in-office.md).
@@ -109,6 +112,6 @@ ms.workload:
 
 ## See also
 
-- [Demand-loading VSTO Add-ins](https://blogs.msdn.microsoft.com/andreww/2008/07/14/demand-loading-vsto-add-ins/)
-- [Delay-loading the CLR in Office Add-ins](https://blogs.msdn.microsoft.com/andreww/2008/04/19/delay-loading-the-clr-in-office-add-ins/)
+- [Demand-loading VSTO Add-ins](/archive/blogs/andreww/demand-loading-vsto-add-ins)
+- [Delay-loading the CLR in Office Add-ins](/archive/blogs/andreww/delay-loading-the-clr-in-office-add-ins)
 - [Create VSTO Add-ins for Office by using Visual Studio](create-vsto-add-ins-for-office-by-using-visual-studio.md)

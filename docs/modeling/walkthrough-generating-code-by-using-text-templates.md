@@ -1,15 +1,18 @@
 ---
-title: "Walkthrough: Generating Code by using Text Templates"
+title: 'Walkthrough: Generating Code by using Text Templates'
+description: Learn that code generation allows you to produce program code that is strongly typed, and yet can be easily changed when the source model changes.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
-  - "walkthroughs [text templates], generating application code"
-  - "walkthroughs [text templates]"
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+- walkthroughs [text templates], generating application code
+- walkthroughs [text templates]
+author: mgoertz-msft
+ms.author: mgoertz
+manager: jmartens
+ms.technology: vs-ide-modeling
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Walkthrough: Generate Code by using Text Templates
 
@@ -22,7 +25,7 @@ The System.Xml namespace provides comprehensive tools for loading an XML documen
 In this example project, a template reads a sample XML file, and generates classes that correspond to each type of node. In the hand-written code, you can use these classes to navigate the XML file. You can also run your application on any other files that use the same node types. The purpose of the sample XML file is to provide examples of all the node types that you want your application to deal with.
 
 > [!NOTE]
-> The application [xsd.exe](http://go.microsoft.com/fwlink/?LinkId=178765), which is included with Visual Studio, can generate strongly-typed classes from XML files. The template shown here is provided as an example.
+> The application [xsd.exe](/dotnet/standard/serialization/xml-schema-definition-tool-xsd-exe), which is included with Visual Studio, can generate strongly-typed classes from XML files. The template shown here is provided as an example.
 
 Here is the sample file:
 

@@ -1,7 +1,8 @@
 ---
-title: "Error: Workgroup Remote Logon Failure | Microsoft Docs"
+title: "Workgroup Remote Logon Failure | Microsoft Docs"
+description: "This error can occur when you are debugging from a machine on a workgroup and you try to connect to remote machine."
 ms.date: "11/04/2016"
-ms.topic: "troubleshooting"
+ms.topic: "error-reference"
 f1_keywords:
   - "vs.debug.error.workgroup_remote_logon_failure"
 dev_langs:
@@ -15,7 +16,8 @@ helpviewer_keywords:
   - "remote debugging, logon failure"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -67,6 +69,6 @@ This error reads:
 
      ![Local Security Policy Security Options](../debugger/media/dbg_err_localsecuritypolicy_securityoptions_networkaccess.png "DBG_ERR_LocalSecurityPolicy_SecurityOptions_NetworkAccess")
 
-## See Also
+## See also
 - [Remote Debugging Errors and Troubleshooting](../debugger/remote-debugging-errors-and-troubleshooting.md)
 - [Remote Debugging](../debugger/remote-debugging.md)

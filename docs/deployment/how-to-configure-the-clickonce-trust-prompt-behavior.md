@@ -1,23 +1,26 @@
 ---
-title: "How to: Configure the ClickOnce Trust Prompt Behavior | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-helpviewer_keywords:
-  - "ClickOnce deployment, install without prompting"
-  - "deploying applications [ClickOnce], trust prompt"
-  - "ClickOnce applications, install without prompting"
-  - "ClickOnce applications, trust prompt"
-  - "ClickOnce deployment, trust prompt"
+title: Configure the ClickOnce Trust Prompt Behavior | Microsoft Docs
+description: Learn how to configure the ClickOnce trust prompt to control whether end users are given the option of installing ClickOnce applications.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
+dev_langs: 
+  - VB
+  - CSharp
+  - C++
+helpviewer_keywords: 
+  - ClickOnce deployment, install without prompting
+  - deploying applications [ClickOnce], trust prompt
+  - ClickOnce applications, install without prompting
+  - ClickOnce applications, trust prompt
+  - ClickOnce deployment, trust prompt
 ms.assetid: cc04fa75-012b-47c9-9347-f4216be23cf2
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
-ms.workload:
-  - "multiple"
+manager: jmartens
+ms.technology: vs-ide-deployment
+ms.workload: 
+  - multiple
 ---
 # How to: Configure the ClickOnce trust prompt behavior
 You can configure the ClickOnce trust prompt to control whether end users are given the option of installing ClickOnce applications, such as Windows Forms applications, Windows Presentation Foundation applications, console applications, WPF browser applications, and Office solutions. You configure the trust prompt by setting registry keys on each end user's computer.
@@ -224,6 +227,6 @@ You can configure the ClickOnce trust prompt to control whether end users are gi
 - [How to: Enable ClickOnce security settings](../deployment/how-to-enable-clickonce-security-settings.md)
 - [How to: Set a security zone for a ClickOnce application](../deployment/how-to-set-a-security-zone-for-a-clickonce-application.md)
 - [How to: Set custom permissions for a ClickOnce application](../deployment/how-to-set-custom-permissions-for-a-clickonce-application.md)
-- [How to: Debug a ClickOnce application with restricted permissions](../deployment/how-to-debug-a-clickonce-application-with-restricted-permissions.md)
+- [How to: Debug a ClickOnce application with restricted permissions](securing-clickonce-applications.md)
 - [How to: Add a trusted publisher to a client computer for ClickOnce applications](../deployment/how-to-add-a-trusted-publisher-to-a-client-computer-for-clickonce-applications.md)
 - [How to: Re-sign application and deployment manifests](../deployment/how-to-re-sign-application-and-deployment-manifests.md)

@@ -1,20 +1,22 @@
 ---
-title: "IDebugThread2::Resume | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Resumes execution of a thread."
+title: IDebugThread2::Resume | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugThread2::Resume"
+- IDebugThread2::Resume
 helpviewer_keywords:
-  - "IDebugThread2::Resume"
+- IDebugThread2::Resume
 ms.assetid: 36aad682-b0b9-40a2-b3fc-f0e61d41cdbc
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugThread2::Resume
 Resumes execution of a thread.

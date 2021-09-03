@@ -1,19 +1,22 @@
 ---
-title: "Solution User Options (.Suo) File | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Solution User Options (.Suo) File | Microsoft Docs
+description: Learn about the solution user options (.suo) file, which contains per-user solution options in a structured storage file stored in a binary format.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: reference
 helpviewer_keywords:
-  - ".suo files, VSPackages"
-  - "suo files, VSPackages"
-  - "solutions, .suo files"
-  - "solutions, user options"
-  - "solution user options (.suo) file"
+- .suo files, VSPackages
+- suo files, VSPackages
+- solutions, .suo files
+- solutions, user options
+- solution user options (.suo) file
 ms.assetid: 75258e0d-600d-4a3d-94f4-3d7ac12cb47c
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Solution User Options (.Suo) File
 The solution user options (.suo) file contains per-user solution options. This file should not be checked in to source code control.
@@ -30,6 +33,6 @@ The solution user options (.suo) file contains per-user solution options. This f
 
  These two methods, `SaveUserOptions` and `WriteUserOptions`, are called recursively for each stream of information to be saved to the .suo file, passing in the pointer to `IVsSolutionPersistence`. They are called recursively to allow for the writing of multiple streams to the .suo file. In that way, user information is persisted with the solution and is guaranteed to be there the next time the solution is opened.
 
-## See Also
+## See also
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistSolutionOpts>
 - [Solutions](../../extensibility/internals/solutions-overview.md)

@@ -1,21 +1,24 @@
 ---
-title: "Parameter Info in a Legacy Language Service1 | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Parameter Info in a Legacy Language Service1 | Microsoft Docs
+description: Learn how to implement the IntelliSense Parameter Info tooltip, which provides users with hints, in a legacy language service.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "language services, method tips"
-  - "method tips"
-  - "language services, parameter info tooltip"
-  - "IVsMethodData interface"
-  - "Parameter Info (IntelliSense)"
+- language services, method tips
+- method tips
+- language services, parameter info tooltip
+- IVsMethodData interface
+- Parameter Info (IntelliSense)
 ms.assetid: f367295e-45b6-45d2-9ec8-77481743beef
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
-# Parameter Info in a Legacy Language Service
+# Parameter Info in a legacy language service 1
 The IntelliSense Parameter Info tooltip provides users with hints about where they are in a language construct.
 
  Legacy language services are implemented as part of a VSPackage, but the newer way to implement language service features is to use MEF extensions. To find out more, see [Extending the Editor and Language Services](../../extensibility/extending-the-editor-and-language-services.md).

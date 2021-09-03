@@ -1,40 +1,42 @@
 ---
-title: "Start a debugging session for a UWP app | Microsoft Docs"
-ms.custom: "seodec18"
-ms.date: "11/20/2018"
-ms.topic: "conceptual"
-f1_keywords:
-  - "VC.Project.IVCAppHostRemoteDebugPageObject.MachineName"
-  - "VC.Project.IVCAppHostRemoteDebugPageObject.BreakpointBehavior"
-  - "VC.Project.IVCAppHostLocalDebugPageObject.GPUDebuggerTargetType"
-  - "VC.Project.IVCAppHostTetheredDebugPageObject.DebuggerType"
-  - "VC.Project.IVCAppHostLocalDebugPageObject.BreakpointBehavior"
-  - "VC.Project.IVCAppHostRemoteDebugPageObject.LaunchApplication"
-  - "VC.Project.IVCAppHostRemoteDebugPageObject.GPUDebuggerTargetType"
-  - "VC.Project.IVCAppHostLocalDebugPageObject.DebuggerType"
-  - "VC.Project.IVCAppHostSimulatorDebugPageObject.DebuggerType"
-  - "ImmersiveProjects.Properties.Debug"
-  - "VC.Project.IVCAppHostTetheredDebugPageObject.LaunchApplication"
-  - "VC.Project.IVCAppHostSimulatorDebugPageObject.LaunchApplication"
-  - "VC.Project.IVCAppHostSimulatorDebugPageObject.GPUDebuggerTargetType"
-  - "VC.Project.IVCAppHostLocalDebugPageObject.LaunchApplication"
-  - "VC.Project.IVCAppHostLocalDebugPageObject.AllowLocalNetworkLoopback"
-  - "AppPackage.Properties.Debug"
-  - "VC.Project.IVCAppHostRemoteDebugPageObject.Authentication"
-  - "VC.Project.IVCAppHostRemoteDebugPageObject.DebuggerType"
-  - "VC.Project.IVCAppHostSimulatorDebugPageObject.BreakpointBehavior"
-  - "vs.debug.installedapppackagelauncher"
-  - "vs.debug.error.wwahost_scriptdebuggingdisabled"
-dev_langs:
-  - "CSharp"
-  - "VB"
-  - "FSharp"
-  - "C++"
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
-ms.workload:
-  - "uwp"
+title: Start a debugging session for a UWP app | Microsoft Docs
+description: Start a Visual Studio debugging session for a Universal Windows Platform (UWP) app. Configure the debugging session and choose the way to start the app.
+ms.custom: "SEO-VS-2020"
+ms.date: 11/20/2018
+ms.topic: how-to
+f1_keywords: 
+  - VC.Project.IVCAppHostRemoteDebugPageObject.MachineName
+  - VC.Project.IVCAppHostRemoteDebugPageObject.BreakpointBehavior
+  - VC.Project.IVCAppHostLocalDebugPageObject.GPUDebuggerTargetType
+  - VC.Project.IVCAppHostTetheredDebugPageObject.DebuggerType
+  - VC.Project.IVCAppHostLocalDebugPageObject.BreakpointBehavior
+  - VC.Project.IVCAppHostRemoteDebugPageObject.LaunchApplication
+  - VC.Project.IVCAppHostRemoteDebugPageObject.GPUDebuggerTargetType
+  - VC.Project.IVCAppHostLocalDebugPageObject.DebuggerType
+  - VC.Project.IVCAppHostSimulatorDebugPageObject.DebuggerType
+  - ImmersiveProjects.Properties.Debug
+  - VC.Project.IVCAppHostTetheredDebugPageObject.LaunchApplication
+  - VC.Project.IVCAppHostSimulatorDebugPageObject.LaunchApplication
+  - VC.Project.IVCAppHostSimulatorDebugPageObject.GPUDebuggerTargetType
+  - VC.Project.IVCAppHostLocalDebugPageObject.LaunchApplication
+  - VC.Project.IVCAppHostLocalDebugPageObject.AllowLocalNetworkLoopback
+  - AppPackage.Properties.Debug
+  - VC.Project.IVCAppHostRemoteDebugPageObject.Authentication
+  - VC.Project.IVCAppHostRemoteDebugPageObject.DebuggerType
+  - VC.Project.IVCAppHostSimulatorDebugPageObject.BreakpointBehavior
+  - vs.debug.installedapppackagelauncher
+  - vs.debug.error.wwahost_scriptdebuggingdisabled
+dev_langs: 
+  - CSharp
+  - VB
+  - FSharp
+  - C++
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.technology: vs-ide-debug
+ms.workload: 
+  - uwp
 ---
 # Start a debugging session for a UWP app
 
@@ -70,7 +72,7 @@ Debugging continues until a breakpoint is reached, you manually suspend executio
 
 You can set the debugging target in the Visual Studio toolbar or the project's debugging property page. Select one of the following options:
 
-|||
+|Name|Description|
 |-|-|
 |**Local Machine**|Debug the app in the current session on your local machine.|
 |**Simulator**|Debug the app in the Visual Studio simulator for UWP apps. The simulator is a desktop window that simulates device functions, like touch gestures and device rotation, that may not exist on the local machine. The simulator option is available only if your app's **Target Platform Min. Version** is less than or equal to the operating system on the local machine. For more information, see [Run UWP apps in the simulator](../debugger/run-windows-store-apps-in-the-simulator.md).|
@@ -108,7 +110,7 @@ In C++ apps, Visual Studio debugs native code by default. You can choose to debu
 
 - For C++ apps, select one of the following debuggers from the **Debugger Type** dropdown on the **Debugging** property page.
 
-|||
+|Name|Description|
 |-|-|
 |**Managed Only**|Debug managed code in your app. JavaScript code and native C/C++ code are ignored.|
 |**Native Only**|Debug native C/C++ code in your app. Managed code and JavaScript code are ignored.|
@@ -125,7 +127,7 @@ In C++ apps, Visual Studio debugs native code by default. You can choose to debu
 
 - For C# and Visual Basic apps, deselect the **Allow local network loopback** check box under **Start options** on the **Debug** property page.
 
-- For Visual C++ apps, select **No** from the **Allow Local Network Loopback** dropdown on the **Debugging** property page.
+- For C++ apps, select **No** from the **Allow Local Network Loopback** dropdown on the **Debugging** property page.
 
 ### <a name="BKMK__Optional__Reinstall_the_app_when_you_start_debugging"></a> Reinstall the app when you start debugging (optional)
  To diagnose installation problems with a C# or Visual Basic app, select **Uninstall and then re-install my package** on the **Debug**  property page. This option recreates the original install when you start debugging. This option isn't available for C++ projects.
@@ -211,4 +213,5 @@ To attach the debugger to a [!INCLUDE[win8_appname_long](../debugger/includes/wi
 ::: moniker-end
 
 ## See also
-- [Debug apps in Visual Studio](/visualstudio/debugger/debugging-windows-store-and-windows-universal-apps)
+
+- [Debug apps in Visual Studio](../debugger/debugging-windows-store-and-windows-universal-apps.md)

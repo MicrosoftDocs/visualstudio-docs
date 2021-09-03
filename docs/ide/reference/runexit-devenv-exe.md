@@ -1,17 +1,20 @@
 ---
 title: -RunExit (devenv.exe)
+description: Learn how to use the RunExit devenv command-line switch to compile and run the specified project or solution, and then close the IDE.
+ms.custom: SEO-VS-2020
 ms.date: 12/10/2018
 ms.topic: reference
 helpviewer_keywords:
-  - "RunExit Devenv switch"
-  - "Devenv, /RunExit switch"
-  - "/RunExit Devenv switch"
+- RunExit Devenv switch
+- Devenv, /RunExit switch
+- /RunExit Devenv switch
 ms.assetid: bfc94875-5fc0-4110-b961-d59c0b403790
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # /RunExit (devenv.exe)
 

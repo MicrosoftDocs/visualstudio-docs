@@ -1,15 +1,18 @@
 ---
-title: "Properties Window Object List | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Properties Window Object List | Microsoft Docs
+description: Learn about the interfaces used to interact with the object list in the Properties window in the Visual Studio IDE.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: reference
 helpviewer_keywords:
-  - "Properties window, object list"
+- Properties window, object list
 ms.assetid: 6c159c9d-345d-4b23-8ddd-9839d338b62f
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Properties Window Object List
 The object list in the **Properties** window is a drop-down list that allows you to change the selection to other objects available within one or more selected windows. Selecting a different object from within this list triggers a call to <xref:Microsoft.VisualStudio.Shell.Interop.ISelectionContainer.SelectObjects%2A> to inform the environment that a new object has been selected. The information displayed in the **Properties** window is then changed to show the properties associated with the newly selected object.
@@ -23,5 +26,5 @@ The object list in the **Properties** window is a drop-down list that allows you
 
  If the COM object does not implement <xref:Microsoft.VisualStudio.OLE.Interop.IProvideClassInfo>, the **Properties** window displays the interface name in place of the object name on the left side of the list.
 
-## See Also
+## See also
 - [Extending Properties](../../extensibility/internals/extending-properties.md)

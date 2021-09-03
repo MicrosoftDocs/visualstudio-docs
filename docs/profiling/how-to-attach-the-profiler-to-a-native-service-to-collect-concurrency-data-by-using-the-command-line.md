@@ -1,15 +1,19 @@
 ---
-title: "VSPerfCmd: Attach profiler to native service to get concurrency data"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Attach profiler to native service to get concurrency data
+description: Use Visual Studio Profiling Tools from the command line to collect process and thread concurrency data from a native (C/C++) service.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
 ms.assetid: 283a1ee1-b43e-4daf-95ae-1311925a42a8
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
-ms.workload:
-  - "cplusplus"
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.technology: vs-ide-debug
+monikerRange: 'vs-2017'
+ms.workload: 
+  - cplusplus
 ---
-# How to: Attach the profiler to a native service to collect concurrency data by using the command line
+# How to: Attach the profiler to a native service to collect concurrency data by using the command line (VSPerfCmd)
 This article describes how to use the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools command-line tools to attach the profiler to a native (C/C++) service and collect process and thread concurrency data by using the sampling method.
 
 > [!NOTE]

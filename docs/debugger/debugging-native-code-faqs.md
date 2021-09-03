@@ -1,5 +1,7 @@
 ---
 title: "Debugging Native Code FAQs | Microsoft Docs"
+description: Find links to frequently asked questions (FAQs) and answers about debugging native code in Visual Studio.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:
@@ -17,7 +19,8 @@ helpviewer_keywords:
 ms.assetid: 9a497032-cf73-441e-923b-4bbd5d37a6da
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "cplusplus"
 ---
@@ -42,6 +45,6 @@ The following topics contain answers to some frequently asked questions:
 
 - [If Halted in MFC, How Can I Get Back to the Function That Called MFC?](../debugger/how-to-get-back-to-the-function-that-called-mfc-if-halted.md)
 
-## See Also
+## See also
 - [Debugger Security](../debugger/debugger-security.md)
 - [Debugging Native Code](../debugger/debugging-native-code.md)

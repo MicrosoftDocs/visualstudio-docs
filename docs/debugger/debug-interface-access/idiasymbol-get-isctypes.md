@@ -1,7 +1,8 @@
 ---
+description: "Retrieves a flag indicating whether the symbol file contains C types."
 title: "IDiaSymbol::get_isCTypes | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,8 @@ helpviewer_keywords:
 ms.assetid: 00c73cf9-2933-472e-bc1d-d041f4d7e412
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -45,6 +47,6 @@ HRESULT get_isCTypes(
 |Header:|dia2.h|
 |Version:|DIA SDK v8.0|
 
-## See Also
+## See also
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
 - [Exe](../../debugger/debug-interface-access/exe.md)

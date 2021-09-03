@@ -1,20 +1,22 @@
 ---
-title: "IDebugProperty2::EnumChildren | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Retrieves a list of the children of the property."
+title: IDebugProperty2::EnumChildren | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugProperty2::EnumChildren"
+- IDebugProperty2::EnumChildren
 helpviewer_keywords:
-  - "IDebugProperty2::EnumChildren"
+- IDebugProperty2::EnumChildren
 ms.assetid: cf79f666-65d1-417c-af7c-9271bac9a267
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugProperty2::EnumChildren
 Retrieves a list of the children of the property.

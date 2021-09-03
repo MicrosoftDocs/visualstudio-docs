@@ -1,7 +1,8 @@
 ---
+description: "Retrieves the System.Runtime.InteropServices.ComTypes.IEnumVARIANT version of the segments enumerator."
 title: "IDiaEnumSegments::get__NewEnum | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,8 @@ helpviewer_keywords:
 ms.assetid: 504505fa-b35c-402f-a440-8972c589cc5b
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -32,5 +34,5 @@ HRESULT get__NewEnum ( 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
-## See Also
+## See also
 - [IDiaEnumSegments](../../debugger/debug-interface-access/idiaenumsegments.md)

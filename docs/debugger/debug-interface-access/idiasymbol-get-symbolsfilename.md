@@ -1,7 +1,8 @@
 ---
+description: "Retrieves the name of the file from which the symbols were loaded."
 title: "IDiaSymbol::get_symbolsFileName | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,8 @@ helpviewer_keywords:
 ms.assetid: c1aa39ee-d645-431e-bf5f-0640c0998934
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -38,6 +40,6 @@ HRESULT get_symbolsFileName ( 
 ## Remarks
  This property is valid only for symbols with a [SymTagEnum Enumeration](../../debugger/debug-interface-access/symtagenum.md) value of `SymTagExe` that also have global scope.
 
-## See Also
+## See also
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
 - [SymTagEnum Enumeration](../../debugger/debug-interface-access/symtagenum.md)

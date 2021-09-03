@@ -1,7 +1,9 @@
 ---
 title: "How to: Programmatically create appointments"
+description: Learn how you can programmatically create appointments and then add recipients to the appointment meeting request in Microsoft Outlook.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: "how-to"
 dev_langs:
   - "VB"
   - "CSharp"
@@ -10,7 +12,8 @@ helpviewer_keywords:
   - "Outlook calendars [Office development in Visual Studio], creating appointments"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
+ms.technology: office-development
 ms.workload:
   - "office"
 ---
@@ -20,7 +23,7 @@ ms.workload:
  [!INCLUDE[appliesto_olkallapp](../vsto/includes/appliesto-olkallapp-md.md)]
 
 ## Example
- [!code-csharp[Trin_OL_CreateAppts#1](../vsto/codesnippet/CSharp/Trin_OL_CreateAppts/thisaddin.cs#1)]
+ :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_OL_CreateAppts/thisaddin.cs" id="Snippet1":::
 
 ## See also
 - [Work with calendar items](../vsto/working-with-calendar-items.md)

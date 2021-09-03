@@ -1,17 +1,21 @@
 ---
-title: "How to: Collect CPU Counter Data | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-f1_keywords:
-  - "vs.performance.property.cpucounters"
-helpviewer_keywords:
-  - "profiling tools, using portable CPU counters"
-  - "performance tools, portable CPU counters"
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
-ms.workload:
-  - "multiple"
+title: Collect CPU Counter Data | Microsoft Docs
+description: Learn how to use CPU (hardware) event counters to collect hardware-specific performance data. This article lists the various types of events.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
+f1_keywords: 
+  - vs.performance.property.cpucounters
+helpviewer_keywords: 
+  - profiling tools, using portable CPU counters
+  - performance tools, portable CPU counters
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.technology: vs-ide-debug
+monikerRange: 'vs-2017'
+ms.workload: 
+  - multiple
 ---
 # How to: Collect CPU counter data
 
@@ -23,9 +27,9 @@ Two types of CPU counter events occur:
 
 - Platform events - CPU events that are coupled to a specific CPU.
 
-  Portable events include general events, such as Instructions Retired and Non Halted Cycles, CPU buffer events, branching events, and L2 cache events. The available platform event counters are determined by the processor manufacturer.
+Portable events include general events, such as Instructions Retired and Non Halted Cycles, CPU buffer events, branching events, and L2 cache events. The available platform event counters are determined by the processor manufacturer.
 
-  Categories of events can be shared between portable and platform counters. For example, the following categories of data are frequently common to both types:
+Categories of events can be shared between portable and platform counters. For example, the following categories of data are frequently common to both types:
 
 - Memory events.
 
@@ -33,7 +37,7 @@ Two types of CPU counter events occur:
 
 - Branch events.
 
-  You can collect performance counter data in two ways in the profiler:
+You can collect performance counter data in two ways in the profiler:
 
 - Collect data from one or more counters when you profile by instrumentation.
 

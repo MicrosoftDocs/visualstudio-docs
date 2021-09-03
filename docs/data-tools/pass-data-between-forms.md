@@ -1,22 +1,25 @@
 ---
 title: Pass data between forms
+description: In this Windows Forms controls walkthrough, get step-by-step instructions for passing data from one form to another.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 dev_langs:
-  - "VB"
-  - "CSharp"
+- VB
+- CSharp
 helpviewer_keywords:
-  - "walkthroughs [Windows Forms], data"
-  - "walkthroughs [Visual Studio], data"
-  - "data [Visual Studio], passing between forms"
-  - "forms, passing data between"
-  - "Windows Forms, walkthroughs"
+- walkthroughs [Windows Forms], data
+- walkthroughs [Visual Studio], data
+- data [Visual Studio], passing between forms
+- forms, passing data between
+- Windows Forms, walkthroughs
 ms.assetid: 78bf038b-9296-4fbf-b0e8-d881d1aff0df
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: ghogen
+ms.author: ghogen
+manager: jmartens
+ms.technology: vs-data-tools
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # Pass data between forms
 
@@ -160,8 +163,8 @@ Add a TableAdapter query to Form2 to load orders for the selected customer on Fo
 
 2. Add the following code to **Form2** after the `Form2_Load` method:
 
-     [!code-vb[VbRaddataDisplaying#1](../data-tools/codesnippet/VisualBasic/pass-data-between-forms_1.vb)]
-     [!code-csharp[VbRaddataDisplaying#1](../data-tools/codesnippet/CSharp/pass-data-between-forms_1.cs)]
+:::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataDisplaying/VB/Form2.vb" id="Snippet1":::
+:::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataDisplaying/CS/Form2.cs" id="Snippet1":::
 
 ## Create a method on Form1 to pass data and display Form2
 
@@ -175,8 +178,8 @@ Add a TableAdapter query to Form2 to load orders for the selected customer on Fo
 
 4. Update the method definition to match the following sample:
 
-     [!code-csharp[VbRaddataDisplaying#2](../data-tools/codesnippet/CSharp/pass-data-between-forms_2.cs)]
-     [!code-vb[VbRaddataDisplaying#2](../data-tools/codesnippet/VisualBasic/pass-data-between-forms_2.vb)]
+:::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataDisplaying/CS/Form1.cs" id="Snippet2":::
+:::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataDisplaying/VB/Form1.vb" id="Snippet2":::
 
 ## Run the app
 

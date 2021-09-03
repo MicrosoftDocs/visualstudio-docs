@@ -1,7 +1,8 @@
 ---
+description: "Retrieves a reference to the source file."
 title: "IDiaLineNumber::get_sourceFile | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,8 @@ helpviewer_keywords:
 ms.assetid: 86fc4411-375e-4b99-8f96-4da2c3f68190
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -32,6 +34,6 @@ HRESULT get_sourceFile ( 
 ## Return Value
  If successful, returns `S_OK`. Returns `S_FALSE` if this property is not supported. Otherwise, returns an error code.
 
-## See Also
+## See also
 - [IDiaLineNumber](../../debugger/debug-interface-access/idialinenumber.md)
 - [IDiaSourceFile](../../debugger/debug-interface-access/idiasourcefile.md)

@@ -1,19 +1,22 @@
 ---
 title: BuildOnLoad attribute and element (Visual Studio Templates)
-ms.date: "11/04/2016"
+titleSuffix: ""
+description: Learn about the BuildOnLoad attribute and element and how it specifies whether to build the project immediately after it's created.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
 ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
-  - "http://schemas.microsoft.com/developer/vstemplate/2005#BuildOnLoad"
+- http://schemas.microsoft.com/developer/vstemplate/2005#BuildOnLoad
 helpviewer_keywords:
-  - "BuildOnLoad attribute [Visual Studio Templates]"
-  - "BuildOnLoad element [Visual Studio Templates]"
+- BuildOnLoad attribute [Visual Studio Templates]
+- BuildOnLoad element [Visual Studio Templates]
 ms.assetid: 950f5fc1-d041-4090-9a5c-60844768a4cc
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # BuildOnLoad attribute and element
 

@@ -1,20 +1,22 @@
 ---
-title: "IDebugProperty3::GetCustomViewerList | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Gets a list of custom viewers associated with this property."
+title: IDebugProperty3::GetCustomViewerList | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugProperty3::GetCustomViewerList"
+- IDebugProperty3::GetCustomViewerList
 helpviewer_keywords:
-  - "IDebugProperty3::GetCustomViewerList"
+- IDebugProperty3::GetCustomViewerList
 ms.assetid: 74490fd8-6f44-4618-beea-dab64961bb8a
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugProperty3::GetCustomViewerList
 Gets a list of custom viewers associated with this property.

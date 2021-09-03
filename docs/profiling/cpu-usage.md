@@ -1,33 +1,33 @@
 ---
-title: "Analyze CPU usage | Microsoft Docs"
-ms.custom: "seodec18"
-ms.date: "11/04/2018"
-ms.topic: "conceptual"
+title: Analyze CPU usage in the Performance Profiler
+description: Learn about the CPU Usage performance tool, which shows the CPU time and percentage spent executing code in C++, C#, Visual Basic, and JavaScript apps.
+ms.custom: SEO-VS-2020
+ms.date: 04/02/2020
+ms.topic: how-to
 ms.assetid: 7501a20d-04a1-480f-a69c-201524aa709d
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
-ms.workload:
-  - "multiple"
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.technology: vs-ide-debug
+ms.workload: 
+  - multiple
 ---
-# Analyze CPU usage
+# Analyze CPU usage without debugging in the Performance Profiler
 
 A good way to start investigating performance issues in your app is to understand its CPU usage. The **CPU Usage** performance tool shows the CPU time and percentage spent executing code in C++, C#/Visual Basic, and JavaScript apps.
 
-The **CPU Usage** tool can run on an open Visual Studio project, on an installed Microsoft Store app, or attached to a running app or process. You can run the tool on local or remote machines, or on a simulator or emulator. For more information, see [Run profiling tools with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md).
+The CPU Usage tool can run on an open Visual Studio project, on an installed Microsoft Store app, or attached to a running app or process. You can run the CPU Usage tool with or without debugging. For more information, see [Run profiling tools with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md).
 
-You can run the **CPU Usage** tool with or without debugging. In the debugger, you can turn CPU profiling on and off, and see a per-function breakdown of CPU usage. You can view CPU usage results when execution is paused, for example at a breakpoint.
+The following instructions show how to use the CPU Usage tool without the debugger, using the Visual Studio Performance Profiler. The examples use a Release build on a local machine. Release builds provide the best view of actual app performance. To analyze CPU usage with Debug builds (debugger attached), see [Beginner's guide to performance profiling](../profiling/beginners-guide-to-performance-profiling.md).
 
-The following instructions show how to use the **CPU Usage** tool without the debugger, using the Visual Studio **Performance Profiler**. The examples use a Release build on a local machine. Release builds provide the best view of actual app performance. To analyze CPU usage with Debug builds, see [Beginner's guide to performance profiling](../profiling/beginners-guide-to-performance-profiling.md).
-
-Usually, the local machine best replicates installed app execution. For Windows Phone apps, collecting data directly from the device provides the most accurate data. To collect data from a remote device, run the app directly on the device, not over a Remote Desktop Connection.
+Usually, the local machine best replicates installed app execution. To collect data from a remote device, run the app directly on the device, not over a Remote Desktop Connection.
 
 >[!NOTE]
 >Windows 7 or later is required to use the [Performance Profiler](../profiling/profiling-feature-tour.md).
 
 ## Collect CPU usage data
 
-1. In the Visual Studio project, set the solution configuration to **Release** and select **Local Machine** as the deployment target.
+1. In the Visual Studio project, set the solution configuration to **Release** and select **Local Windows Debugger** (or **Local Machine**) as the deployment target.
 
     ![Select Release and Local Machine](../profiling/media/cpuuse_selectreleaselocalmachine.png "Select Release and Local Machine")
 
@@ -55,7 +55,7 @@ Starting in Visual Studio 2019, you can click the **Expand Hot Path** and **Show
 
 ### <a name="BKMK_Call_tree_data_columns"></a> CPU Usage data columns
 
-|||
+|Name|Description|
 |-|-|
 |**Total CPU [unit, %]**|![Total % data equation](../profiling/media/cpu_use_wt_totalpercentequation.png "CPU_USE_WT_TotalPercentEquation")<br /><br /> The milliseconds and CPU percentage used by calls to the function, and functions called by the function, in the selected time range. This is different from the **CPU Utilization** timeline graph, which compares the total CPU activity in a time range to the total available CPU.|
 |**Self CPU [unit, %]**|![Self % equation](../profiling/media/cpu_use_wt_selflpercentequation.png "CPU_USE_WT_SelflPercentEquation")<br /><br /> The milliseconds and CPU percentage used by calls to the function in the selected time range, excluding functions called by the function.|
@@ -74,7 +74,7 @@ To view the call tree, select the parent node in the report. The **CPU Usage** p
 ![Call tree structure](../profiling/media/cpu_use_wt_getmaxnumbercalltree_annotated.png "Call tree structure")
 ::: moniker-end
 
-|||
+|Image|Description|
 |-|-|
 |![Step 1](../profiling/media/procguid_1.png "ProcGuid_1")|The top-level node in CPU Usage call trees is a pseudo-node.|
 |![Step 2](../profiling/media/procguid_2.png "ProcGuid_2")|In most apps, when the **Show External Code** option is disabled, the second-level node is an **[External Code]** node. The node contains the system and framework code that starts and stops the app, draws the UI, controls thread scheduling, and provides other low-level services to the app.|

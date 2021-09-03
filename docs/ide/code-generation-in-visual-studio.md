@@ -1,12 +1,15 @@
 ---
 title: Code generation features
+description: Learn how Visual Studio can help you generate, fix, and refactor code. 
+ms.custom: SEO-VS-2020
 ms.date: 01/11/2018
 ms.topic: conceptual
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
-  - "dotnet"
+- dotnet
 ---
 # Code generation features in Visual Studio
 

@@ -1,5 +1,6 @@
 ---
 title: "Tier Interactions View | Microsoft Docs"
+description: Learn how tier interaction profiling provides information about the execution times in functions of multitiered applications that communicate with databases. 
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:
@@ -8,7 +9,9 @@ helpviewer_keywords:
   - "Tier Interactions view"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
+monikerRange: 'vs-2017'
 ms.workload:
   - "multiple"
 ---

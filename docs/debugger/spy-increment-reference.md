@@ -1,5 +1,7 @@
 ---
 title: "Spy++ Reference | Microsoft Docs"
+description: Review a list of reference links to articles that describe each menu command and dialog box in the Spy++ debugging tool.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:
@@ -8,7 +10,8 @@ helpviewer_keywords:
 ms.assetid: 2cf41bc9-55f3-4bb6-b28d-08c75215debd
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---

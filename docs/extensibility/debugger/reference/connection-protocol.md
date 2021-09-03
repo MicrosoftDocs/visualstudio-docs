@@ -1,20 +1,22 @@
 ---
-title: "CONNECTION_PROTOCOL | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Indicates the protocol being used to communicate between a debug server and the debug package (DE)."
+title: CONNECTION_PROTOCOL | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "CONNECTION_PROTOCOL"
+- CONNECTION_PROTOCOL
 helpviewer_keywords:
-  - "CONNECTION_PROTOCOL enumeration"
+- CONNECTION_PROTOCOL enumeration
 ms.assetid: 99df5865-8b36-486d-9f4c-d10ae2bc688a
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # CONNECTION_PROTOCOL
 Indicates the protocol being used to communicate between a debug server and the debug package (DE).

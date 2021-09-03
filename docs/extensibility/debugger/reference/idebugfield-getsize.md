@@ -1,20 +1,22 @@
 ---
-title: "IDebugField::GetSize | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "This method gets the size of a field, in bytes."
+title: IDebugField::GetSize | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugField::GetSize"
+- IDebugField::GetSize
 helpviewer_keywords:
-  - "IDebugField::GetSize method"
+- IDebugField::GetSize method
 ms.assetid: 73329924-3751-4f44-af54-5986b7943374
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugField::GetSize
 This method gets the size of a field, in bytes.

@@ -1,20 +1,22 @@
 ---
-title: "LAUNCH_FLAGS | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Specifies the debug launch flags."
+title: LAUNCH_FLAGS | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "LAUNCH_FLAGS"
+- LAUNCH_FLAGS
 helpviewer_keywords:
-  - "LAUNCH_FLAGS enumeration"
+- LAUNCH_FLAGS enumeration
 ms.assetid: f51aab02-d257-4302-bb79-b7d8ba9ac4e5
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # LAUNCH_FLAGS
 Specifies the debug launch flags.

@@ -1,14 +1,17 @@
 ---
 title: Choosing a Domain-Specific Language Solution Template
+description: Learn how to create a domain-specific language solution by choosing one of the solution templates that are available in the Domain-Specific Language Designer Wizard.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "Domain-Specific Language Tools, solution templates"
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+- Domain-Specific Language Tools, solution templates
+author: mgoertz-msft
+ms.author: mgoertz
+manager: jmartens
+ms.technology: vs-ide-modeling
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Choosing a Domain-Specific Language Solution Template
 To create a domain-specific language solution, choose one of the solution templates that are available in the Domain-Specific Language Designer Wizard. By choosing the template that most closely resembles the language that you want to create, you can minimize the modifications that you have to make to the starting solution.
@@ -25,6 +28,6 @@ To create a domain-specific language solution, choose one of the solution templa
 |Minimal WPF Designer|-   A small model<br />-   A Windows Presentation Foundation user interface that displays the model|Use this template if you want to build an application in which a DSL is bound to a WPF user interface, rather than a graphical designer.<br /><br /> The designer for the user interface is in the folder Dsl\UI.<br /><br /> You should build the project before opening the UI designer.<br /><br /> For more information, see [Creating a WPF-Based Domain-Specific Language](../modeling/creating-a-wpf-based-domain-specific-language.md).|
 |DSL Library|-   A minimal library|Use this template if you want to build a partial DSL definition that can be imported into other DSL definitions.|
 
-## See Also
+## See also
 
 - [Overview of Domain-Specific Language Tools](../modeling/overview-of-domain-specific-language-tools.md)

@@ -1,7 +1,8 @@
 ---
+description: "Retrieves the ID of the register that holds a base pointer to the parameters."
 title: "IDiaSymbol::get_paramBasePointerRegisterId | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,8 @@ helpviewer_keywords:
 ms.assetid: 9f5caeb4-5c88-4054-bf8b-50d34bbbf8c5
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -44,5 +46,5 @@ HRESULT get_paramBasePointerRegisterId ( 
 
  DLL: msdia100.dll
 
-## See Also
+## See also
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

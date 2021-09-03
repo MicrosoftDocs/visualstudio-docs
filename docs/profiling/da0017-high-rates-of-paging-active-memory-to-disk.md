@@ -1,21 +1,24 @@
 ---
-title: "DA0017: High rates of paging active memory to disk | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-f1_keywords:
-  - "vs.performance.17"
-  - "vs.performance.rules.DA0017"
-  - "vs.performance.DA0017"
+title: DA0017 - High rates of paging active memory to disk | Microsoft Docs
+description: "System performance data that was collected in the profiling run indicates that an high rate of paging active memory to and from the disk occurred throughout the profiling run."
+ms.date: 11/04/2016
+ms.topic: reference
+f1_keywords: 
+  - vs.performance.17
+  - vs.performance.rules.DA0017
+  - vs.performance.DA0017
 ms.assetid: 01011eec-5930-43b3-980d-2cb01e2ca7f6
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
-ms.workload:
-  - "multiple"
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.technology: vs-ide-debug
+monikerRange: 'vs-2017'
+ms.workload: 
+  - multiple
 ---
 # DA0017: High rates of paging active memory to disk
 
-|||
+|Item|Value|
 |-|-|
 |Rule Id|DA0017|
 |Category|Memory and Paging|

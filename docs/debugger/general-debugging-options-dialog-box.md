@@ -1,6 +1,8 @@
 ---
 title: "General, Debugging, Options Dialog Box | Microsoft Docs"
-ms.date: "11/09/2018"
+description: Set Visual Studio debugger options to meet your debugging needs. You can configure break behavior, debugging levels, display behavior, and much else.
+ms.custom: SEO-VS-2020
+ms.date: "06/04/2020"
 ms.topic: "reference"
 f1_keywords:
   - "vs.debug.options.General"
@@ -18,7 +20,8 @@ helpviewer_keywords:
 ms.assetid: b33aee0b-43c3-4c26-8ed4-bc673f491503
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -94,7 +97,7 @@ Tells the Visual Studio debugger to get source files from source servers that im
     When source server support is enabled, this setting overrides the default behavior of prompting when running an untrusted command.
 
 **Enable Source Link support**:
-    Tells the Visual Studio debugger to download source files for *.pdb* files that contain Source Link information. For more information about Source Link, see the [Source link specification](https://github.com/dotnet/core/blob/master/Documentation/diagnostics/source_link.md).
+    Tells the Visual Studio debugger to download source files for *.pdb* files that contain Source Link information. For more information about Source Link, see the [Source link specification](/dotnet/standard/library-guidance/sourcelink).
 
 > [!IMPORTANT]
 > Because Source Link will download files using http or https, make sure you trust the *.pdb* file.
@@ -102,7 +105,7 @@ Tells the Visual Studio debugger to get source files from source servers that im
 - **Fall back to Git Credential Manager authentication for all Source Link requests**:
     When Source Link support is enabled, and a Source Link request fails authentication, Visual Studio then calls the Git Credential Manager.
 
-**Highlight entire line for breakpoints and current statement (C++ only)**:
+**Highlight entire source line for breakpoints and current statement (C++ only)**:
 When the debugger highlights a breakpoint or current statement, it highlights the entire line.
 
 **Require source files to exactly match the original version**:
@@ -112,22 +115,18 @@ Tells the debugger to verify that a source file matches the version of the sourc
 Sends all debugger messages that would ordinarily appear in the **Output** window to the **Immediate** window instead.
 
 **Show raw structure of objects in variables windows**:
-Turns off all object structure view customizations. For more information about view customizations, see [Create custom views of .managed objects](../debugger/create-custom-views-of-dot-managed-objects.md).
+Turns off all object structure view customizations. For more information about view customizations, see [Create custom views of managed objects](../debugger/create-custom-views-of-managed-objects.md).
 
 **Suppress JIT optimization on module load (Managed only)**:
 Disables the JIT optimization of managed code when a module is loaded and JIT is compiled while the debugger is attached. Disabling optimization may make it easier to debug some problems, although at the expense of performance. If you are using Just My Code, suppressing JIT optimization can cause non-user code to appear as user code ("My Code"). For more information, see [JIT optimization and debugging](../debugger/jit-optimization-and-debugging.md).
 
-**Enable JavaScript debugging for ASP.NET (Chrome, Edge, and IE)**:
+**Enable JavaScript debugging for ASP.NET (Chrome, Microsoft Edge, and IE)**:
 Enables the script debugger for ASP.NET apps. On first use in Chrome, you may need to sign into the browser to enable Chrome extensions that you have installed. Disable this option to revert to legacy behavior.
 
-**Enable Edge Developer Tools for UWP JavaScript Apps (Experimental)**:
-Enables developer tools for UWP JavaScript apps in Edge.
-
-**Enable legacy Chrome JavaScript debugger for ASP.NET**:
-Enables the legacy Chrome JavaScript script debugger for ASP.NET apps. On first use in Chrome, you may need to sign into the browser to enable Chrome extensions that you have installed.
-
-**Use experimental way to launch Chrome JavaScript debugging when running Visual Studio as Administrator**:
-Tells Visual Studio to try a new way to launch Chrome during JavaScript debugging.
+::: moniker range=">= vs-2019"
+**Enable using the multi-target JavaScript debugger for debugging JavaScript in applicable targets (requires debugging restart)**
+Enables connection to the browser and back-end simultaneously, allowing you to debug your code running in the client and server right from the editor.
+::: moniker-end
 
 **Load dll exports (Native only)**:
 Loads dll export tables. Symbol information from dll export tables can be useful if you are working with Windows messages, Windows procedures (WindowProcs), COM objects, or marshaling, or any dll for which you do not have symbols. Reading dll export information involves some overhead. Therefore, this capability is turned off by default.
@@ -143,15 +142,17 @@ Ignores race conditions that were detected during debugging if the data didn't c
 **Use Managed Compatibility Mode**:
 Replaces the default debugging engine with a legacy version to enable these scenarios:
 
-- You are using a .NET Framework language other than C#, Visual Basic, or F# that provides its own Expression Evaluator (this includes C++/CLI).
+- You are using a .NET language other than C#, Visual Basic, or F# that provides its own Expression Evaluator (this includes C++/CLI).
 
 - You want to enable Edit and Continue for C++ projects during mixed mode debugging.
 
 > [!NOTE]
 > Choosing Managed Compatibility mode disables some features that are implemented only in the default debugging engine. The legacy debugging engine was replaced in Visual Studio 2012.
 
+::: moniker range="vs-2017"
 **Use the legacy C# and VB expression evaluators**:
 The debugger will use the Visual Studio 2013 C# or Visual Basic expression evaluators rather than the Visual Studio 2015 Roslyn-based expression evaluators.
+::: moniker-end
 
 **Warn when using custom debugger visualizers against potentially unsafe processes (Managed only)**:
 Visual Studio warns you when you are using a custom debugger visualizer that is running code in the debugged process, because it could be running unsafe code.
@@ -160,7 +161,7 @@ Visual Studio warns you when you are using a custom debugger visualizer that is 
 Enables the windows debug heap to improve heap diagnostics. Enabling this option will impact debugging performance.
 
 **Enable UI Debugging Tools for XAML**:
-The Live Visual Tree and the Live Property Explore windows will appear when you start debugging (**F5**) a supported project type. For more information, see [Inspect XAML properties while debugging](../debugger/inspect-xaml-properties-while-debugging.md).
+The Live Visual Tree and the Live Property Explore windows will appear when you start debugging (**F5**) a supported project type. For more information, see [Inspect XAML properties while debugging](../xaml-tools/inspect-xaml-properties-while-debugging.md).
 
 - **Preview selected elements in Live Visual Tree**:
     The XAML element whose context is selected is also selected in the **Live Visual Tree** window.
@@ -169,7 +170,19 @@ The Live Visual Tree and the Live Property Explore windows will appear when you 
     Shows the **Live Visual Tree** commands in a toolbar on the main window of the XAML application that is being debugged. This option was introduced in Visual Studio 2015 Update 2.
 
 - **Enable XAML Hot Reload**:
-    Allows you to use the XAML hot reload feature with XAML code when your app is running. (This feature was previously called "XAML Edit and Continue")
+    Allows you to use the XAML Hot Reload feature with XAML code when your app is running. (This feature was previously called "XAML Edit and Continue")
+
+::: moniker range=">= vs-2019" 
+- **Enable Just My XAML**:
+    Starting in Visual Studio 2019 version 16.4, the **Live Visual Tree** by default shows only XAML that is classified as user code. If you disable this option, all generated XAML code is shown in the tool.
+
+- **Turn off selection mode when an element is selected**
+    Starting in Visual Studio 2019 version 16.4, the in-app toolbar element selector button (**Enable selection**) switches off when an element is selected. If you disable this option, element selection stays on until you click the in-app toolbar button again.
+
+- **Apply XAML Hot Reload on document save**
+    Starting in Visual Studio 2019 version 16.6, applies XAML Hot Reload when you save your document.
+
+::: moniker-end
 
 **Enable Diagnostic Tools while debugging**:
 The **Diagnostic Tools** window appears while you are debugging.
@@ -181,7 +194,7 @@ The code window displays the elapsed time of a given method call when you are de
 Enables the Edit and Continue functionality while debugging.
 
 - **Enable Native Edit and Continue**:
-    You can use the Edit and Continue functionality while debugging native C++ code. For more information, see [Edit and Continue (Visual C++)](../debugger/edit-and-continue-visual-cpp.md).
+    You can use the Edit and Continue functionality while debugging native C++ code. For more information, see [Edit and Continue (C++)](../debugger/edit-and-continue-visual-cpp.md).
 
 - **Apply changes on continue (Native only)**:
     Visual Studio automatically compiles and applies any outstanding code changes you have made when continuing the process from a break state. If not selected, you can choose to apply changes using the **Apply Code Changes** item under the **Debug** menu.
@@ -195,20 +208,35 @@ When this option is selected, the [Run to Click](../debugger/debugger-feature-to
 **Automatically close the console when debugging stops**:
 Tells Visual Studio to close the console at the end of a debugging session.
 
-::: moniker range=">= vs-2019" 
+::: moniker range=">= vs-2019"
 **Enable fast expression evaluation (Managed only)**:
 Allows the debugger to attempt faster evaluation by simulating execution of simple properties and methods.
+
+**Load debug symbols in external process (Native only)**
+Enables this [memory optimization](https://devblogs.microsoft.com/cppblog/out-of-process-debugger-for-c-in-visual-studio-2019/) while debugging.
+
+**Bring Visual Studio to the foreground when breaking in the debugger**
+Switches Visual Studio to the foreground when you pause in the debugger.
 ::: moniker-end
 
 ## Options available in older versions of Visual Studio
 
 If you're using an older version of Visual Studio, some additional options might be present.
 
+**Enable Edge Developer Tools for UWP JavaScript Apps (Experimental)**:
+Enables developer tools for UWP JavaScript apps in Microsoft Edge.
+
+**Enable legacy Chrome JavaScript debugger for ASP.NET**:
+Enables the legacy Chrome JavaScript script debugger for ASP.NET apps. On first use in Chrome, you may need to sign into the browser to enable Chrome extensions that you have installed.
+
 **Enable the exception assistant**:
 For managed code, enables the exception assistant. Starting in Visual Studio 2017, the Exception Helper replaced the exception assistant.
 
 **Unwind the call stack on unhandled exceptions**:
 Causes the **Call Stack** window to roll back the call stack to the point before the unhandled exception occurred.
+
+**Use experimental way to launch Chrome JavaScript debugging when running Visual Studio as Administrator**:
+Tells Visual Studio to try a new way to launch Chrome during JavaScript debugging.
 
 **Warn if no symbols on launch (native only)**:
 Displays a warning dialog box when you debug a program for which the debugger has no symbol information.
@@ -223,5 +251,5 @@ When this option is selected, the debugger uses the Visual Studio 2010 native de
 
 ## See also
 
-- [Debugging in Visual Studio](../debugger/index.md)
+- [Debugging in Visual Studio](../debugger/index.yml)
 - [First look at the debugger](../debugger/debugger-feature-tour.md)

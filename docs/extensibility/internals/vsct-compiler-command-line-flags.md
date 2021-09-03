@@ -1,16 +1,19 @@
 ---
-title: "VSCT Compiler Command-Line Flags | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: VSCT Compiler Command-Line Flags | Microsoft Docs
+description: The Visual Studio Command Table compiler provides command-line options to ensure successful compilation of .vsct files.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: reference
 helpviewer_keywords:
-  - "VSCT files, compiling"
-  - "command-table file compilation (VSCT files)"
+- VSCT files, compiling
+- command-table file compilation (VSCT files)
 ms.assetid: 9dc6c33f-e6cf-4cf2-9b05-e8f7bfac1cfb
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # VSCT Compiler Command-Line Flags
 The Visual Studio Command Table (VSCT) compiler provides command-line switches to ensure successful compilation of .vsct files.
@@ -68,7 +71,7 @@ Syntax: vsct <infile> [<outfile>] [-S[symbols file]] [-D<preprocessor-define>]*
 
  The VSCT compiler can also decompile a previously built binary file. To do this, supply a binary file for the \<infile>.   If the binary file was produced by the VSCT compiler, it will have its symbols already embedded and will produce output with the symbolic names in a \<Symbols> section of the output. If the binary was produced by the CTC compiler, the output will contain the actual GUIDs and IDs. If the *.ctsym file that is produced by current versions of Ctc.exe is in the same folder as the binary input file, the symbols will be loaded from that file and used for output.
 
-## See Also
+## See also
 - [Visual Studio Command Table (.Vsct) Files](../../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)
 - [VSCT XML Schema Reference](../../extensibility/vsct-xml-schema-reference.md)
 - [How VSPackages Add User Interface Elements](../../extensibility/internals/how-vspackages-add-user-interface-elements.md)

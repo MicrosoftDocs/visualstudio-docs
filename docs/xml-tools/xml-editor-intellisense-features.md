@@ -1,13 +1,16 @@
 ---
-title: "XML editor IntelliSense Features"
+title: XML editor IntelliSense Features
+description: Learn about the IntelliSense features of the XML editor in Visual Studio and how you can use them with XML Schema definition language (XSD) and XSLT documents.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: 2b26f214-cc3a-46bf-b260-14eb8e599182
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
+ms.technology: vs-xml-tools
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # XML editor IntelliSense features
 

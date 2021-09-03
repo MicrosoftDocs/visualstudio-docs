@@ -1,20 +1,22 @@
 ---
-title: "IDebugCoreServer2::EnumPortSuppliers | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Retrieves a list of all available port suppliers."
+title: IDebugCoreServer2::EnumPortSuppliers | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugCoreServer2::EnumPortSuppliers"
+- IDebugCoreServer2::EnumPortSuppliers
 helpviewer_keywords:
-  - "IDebugCoreServer2::EnumPortSuppliers"
+- IDebugCoreServer2::EnumPortSuppliers
 ms.assetid: ce0c90e4-8e02-4b08-b558-7677fb2c88f7
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugCoreServer2::EnumPortSuppliers
 Retrieves a list of all available port suppliers.

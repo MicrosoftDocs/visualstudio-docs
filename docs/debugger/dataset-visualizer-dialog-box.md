@@ -1,5 +1,7 @@
 ---
 title: "Dataset Visualizer Dialog Box | Microsoft Docs"
+description: Visual Studio debugger visualizers are components that display data. Use the DataSet Visualizer to view the contents of a DataSet, DataTable, DataView, or DataViewManager object. 
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:
@@ -16,7 +18,8 @@ helpviewer_keywords:
 ms.assetid: dfbede03-805b-4f88-a645-b479450e6cb0
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -29,7 +32,7 @@ The DataSet Visualizer allows you to view the contents of a DataSet, DataTable, 
  Table
  Use this dropdown listbox to select a table within the dataset that you want to visualize.
 
-## See Also
+## See also
 
 - [Debugger Security](../debugger/debugger-security.md)
 - [Create Custom Visualizers](../debugger/create-custom-visualizers-of-data.md)

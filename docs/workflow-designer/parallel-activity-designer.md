@@ -1,15 +1,18 @@
 ---
-title: "Workflow Designer - Parallel Activity Designer"
+title: Workflow Designer - Parallel Activity Designer
+description: Learn about the Parallel activity and how to use the Parallel activity designer to execute a collection of child activities concurrently. 
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "System.Activities.Statements.Parallel.UI"
+- System.Activities.Statements.Parallel.UI
 ms.assetid: 0306dc3b-075a-4091-ac3a-96486fbabed5
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
+ms.technology: vs-workflow-designer
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Parallel Activity Designer
 

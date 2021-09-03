@@ -1,15 +1,15 @@
 ---
-title: Create a Universal Windows Platform (UWP) App with Visual Studio and C#
+title: "Tutorial: Create UWP Apps with Visual Studio & C#"
 description: Create a UWP app in Visual Studio with XAML and C#
 titleSuffix: ""
-ms.custom: "seodec18, get-started"
-ms.date: "03/23/2019"
+ms.custom: "vs-acquisition, get-started, SEO-VS-2020"
+ms.date: "09/20/2019"
 ms.technology: vs-ide-general
 ms.topic: tutorial
 ms.devlang: CSharp
-author: TerryGLee
-ms.author: tglee
-manager: jillfra
+author: anandmeg
+ms.author: meghaanand
+manager: jmartens
 dev_langs:
   - CSharp
 ms.workload:
@@ -23,7 +23,7 @@ In this introduction to the Visual Studio integrated development environment (ID
 If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download) page to install it for free.
 ::: moniker-end
 ::: moniker range="vs-2019"
-If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019) page to install it for free.
+If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads) page to install it for free.
 ::: moniker-end
 
 ## Create a project
@@ -36,6 +36,9 @@ First, create a Universal Windows Platform project. The project type comes with 
 1. From the top menu bar, choose **File** > **New** > **Project**.
 
 1. In the left pane of the **New Project** dialog box, expand **Visual C#**, and then choose **Windows Universal**. In the middle pane, choose **Blank App (Universal Windows)**. Then, name the project *HelloWorld* and choose **OK**.
+
+   > [!NOTE]
+   > Make sure that the location of the source project is on a **New Technology File System (NTFS)** formatted drive, such as your Operating System (OS) drive. Otherwise, you might have trouble building and running your project. 
 
    ![Windows Universal project template in the New Project dialog box in the Visual Studio IDE](media/new-project-csharp-uwp-helloworld.png)
 
@@ -57,9 +60,13 @@ First, create a Universal Windows Platform project. The project type comes with 
    > [!NOTE]
    > If you don't see the **Blank App (Universal Windows)** project template, click the **Install more tools and features** link.<br><br>![Click the Install more tools and features link](media/vs-2019/uwp-not-finding.png)<br><br>The Visual Studio Installer launches. Choose the **Universal Windows Platform development** workload, and then choose **Modify**.<br><br>![Universal Windows Platform development workload in the Visual Studio Installer](media/uwp-dev-workload.png)
 
+1. Give the project a name, _HelloWorld_, and choose **Create**.
+
+   ![Configure your project screen](media/vs-2019/uwp-configure-your-project.png)
+
 1. Accept the default **Target version** and **Minimum version** settings in the **New Universal Windows Platform Project** dialog box.
 
-   ![Accept the default Target version and Minimum version settings in the New Universal Windows Platform Project dialog box](media/vs-2019/new-uwp-project-target-minver-dialog.png)
+   ![Accept default Target version and Minimum version settings in the New Universal Windows Platform Project dialog box](media/vs-2019/new-uwp-project-target-minver-dialog.png)
 ::: moniker-end
 
    > [!NOTE]
@@ -101,7 +108,7 @@ It's time to start developing. You'll add a button control, add an action to the
 
    If you look at the code in the **XAML Editor**, you'll see that the Button has been added there, too:
 
-   ![Click the Button control and drag it onto the Design canvas](media/uwp-xaml-control-code-window.png)
+   ![Show button in XAML editor](media/uwp-xaml-control-code-window.png)
 
 ### Add a label to the button
 
@@ -148,6 +155,7 @@ The code uses some Windows APIs to create a speech synthesis object and then giv
 
 ## Run the application
 
+::: moniker range="vs-2017"
 It's time to build, deploy, and launch the "Hello World" UWP app to see what it looks and sounds like. Here's how.
 
 1. Use the Play button (it has the text **Local Machine**) to start the application on the local machine.
@@ -166,9 +174,36 @@ It's time to build, deploy, and launch the "Hello World" UWP app to see what it 
 
 1. To close the app, click the **Stop Debugging** button in the toolbar. (Alternatively, choose **Debug** > **Stop debugging** from the menu bar, or press Shift+F5.)
 
+::: moniker-end
+::: moniker range=">=vs-2019"
+It's time to build, deploy, and launch the "Hello World" UWP app to see what it looks and sounds like. Here's how.
+
+1. Use the Play button (it has the text **Local Machine**) to start the application on the local machine.
+
+   ![Click Local Machine to start and debug your UWP app](media/uwp-start-or-debug.png)
+
+   (Alternatively, you can choose **Debug** > **Start Debugging** from the menu bar or press F5 to start your app.)
+
+1. View your app, which appears soon after a splash screen disappears. The app should look similar to this:
+
+   ![UWP "Hello World" app](media/vs-2019/uwp-hello-world-app.png)
+
+1. Click the **Hello World** button.
+
+   Your Windows 10 device will literally say, "Hello, World!"
+
+1. To close the app, click the **Stop Debugging** button in the toolbar. (Alternatively, choose **Debug** > **Stop debugging** from the menu bar, or press Shift+F5.)
+
+::: moniker-end
+
 ## Next steps
 
 Congratulations on completing this tutorial! We hope you learned some basics about UWP and the Visual Studio IDE. To learn more, continue with the following tutorial:
 
 > [!div class="nextstepaction"]
 > [Create a user interface](/windows/uwp/design/basics/xaml-basics-ui)
+
+## See also
+
+- [UWP overview](/windows/uwp/get-started/universal-application-platform-guide)
+- [Get UWP app samples](/windows/uwp/get-started/get-uwp-app-samples)

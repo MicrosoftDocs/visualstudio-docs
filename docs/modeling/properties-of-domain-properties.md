@@ -1,12 +1,15 @@
 ---
 title: Properties of Domain Properties
+description: Learn how a domain property is a feature of a model element that can hold a value, and how domain properties are listed in the domain class box on the diagram.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
   - "Domain-Specific Language, domain properties"
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: mgoertz-msft
+ms.author: mgoertz
+manager: jmartens
+ms.technology: vs-ide-modeling
 ms.workload:
   - "multiple"
 ---
@@ -42,6 +45,6 @@ A *domain property* is a feature of a model element that can hold a value. For e
 |**Setter Access Modifier**|The access modifier for the setter. This controls the scope in which program code can set the property.|`public`|
 |**Type**|The type of property. To add to the list of available types, right-click the root of the DSL in DSL explorer, and click **Add External Type**.|`String`|
 
-## See Also
+## See also
 
-- [Domain-Specific Language Tools Glossary](https://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)
+- [Domain-Specific Language Tools Glossary](/previous-versions/bb126564(v=vs.100))

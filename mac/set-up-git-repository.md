@@ -1,10 +1,11 @@
 ---
 title: Setting up a Git Repository
-description: Using Git and Subversion in Visual Studio for Mac.
-author: jmatthiesen
-ms.author: jomatthi
-ms.date: 02/15/2018
+description: Connecting to a Git repository using Visual Studio for Mac.
+author: therealjohn
+ms.author: johmil
+ms.date: 12/03/2020
 ms.assetid: E992FA1D-B2AD-4A28-ADC6-47E4FC471060
+ms.topic: how-to
 ---
 # Set up a Git repository
 
@@ -38,17 +39,20 @@ To set up a Git repository, execute the following steps:
 
 If you have an existing project that _is not_ already in version control, use the following steps to set it up in Git:
 
-1. Select the Solution name from the Solution Pad in Visual Studio for Mac.
+> [!TIP]
+> Use a .gitignore file to control which folders and files are tracked and published with Git. You may want to exclude build directories, binaries, or generated files. Learn more in the [GitHub docs on ignoring files](https://docs.github.com/en/free-pro-team@latest/github/using-git/ignoring-files).
 
-2. In the Menu bar, select **Version Control > Publish in Version Control** to display the **Select Repository** dialog:
+1. Select the Solution name from the Solution Window in Visual Studio for Mac.
 
-    ![Start checkout in Visual Studio for Mac](media/version-control-git4-sml.png)
+2. In the Menu bar, select **Version Control > Publish in Version Control** to display the **Clone Repository** dialog:
+
+    ![Start checkout in Visual Studio for Mac](media/version-control-git4.png)
 
     If this menu item appears greyed out in the menu, make sure you have selected the Solution name.
 
-3. Choose the **Registered Repositories** tab and press the **Add** button:
+3. Choose the **Select from Registered** tab and press the **Add** button:
 
-    ![](media/version-control-git5.png)
+    ![Add a registered repository dialog box.](media/version-control-git5.png)
 
 4. Enter the name of the repository as you would like it to display locally, and paste in the URL from step #3. Your Repository Configuration dialog should look similar to the following. Press OK:
 
@@ -75,7 +79,7 @@ If you have an existing project that _is not_ already in version control, use th
 
     ![Version Control Menu](media/version-control-git10.png)
 
-10. Once you start to make additional changes, select **Push Changes** to push the changes to the **remote** repository. This will allow all appropriate users to view it on github.com:
+10. Once you start to make additional changes, first use the **Version Control > Review and Commit** menu to open status view. After you've selected and committed changes, select **Push** to push the changes to the remote repository. This will allow all appropriate users to view it on github.com:
 
     ![Push Changes to remote repository](media/version-control-git11.png)
 
@@ -90,7 +94,7 @@ Follow the steps below to push your new local repository to a new GitHub reposit
 > [!NOTE]
 > If you have not already created a GitHub repository, refer to the [Creating a remote repo on GitHub](#creating-a-remote-repo-on-github) section.
 
-1. Create your first commit by going to **Version Control > Review Solution and Commit** in the Menu Bar.
+1. Create your first commit by going to **Version Control > Review and Commit** in the Menu Bar.
 
 2. In the Status tab, choose **Commit** in the top left.
 
@@ -121,23 +125,23 @@ Visual Studio for Mac will now push the changes to your remote GitHub repository
 
 ![Push operation successfully completed confirmation](media/version-control-git11.png)
 
-## Check out an existing repository
+## Clone an existing repository
 
-It's likely that you'll have to work with a GitHub repo that exists only on the remote, not on your local machine. Visual Studio for Mac allows you to check this repo out quickly. Follow the steps below to clone it to your machine:
+It's likely that you'll have to work with a GitHub repo that exists only on the remote, not on your local machine. Visual Studio for Mac allows you to clone this repo quickly. Follow the steps below to clone it to your machine:
 
-1. In the Menu bar, select **Version Control > Checkout**:
+1. In the Menu bar, select **Version Control > Clone Repository**:
 
-2. This displays the **Connect to Repository** tab:
+2. This displays the **Connect with Url** tab:
 
-    ![Connect to Repository tab with details entered](media/version-control-git13.png)
+    ![Connect with Url tab with details entered](media/version-control-git13.png)
 
 3. On the GitHub page of the remote repository, press the **Clone or Download** button and copy the URL provided:
 
     ![github url displayed](media/version-control-git14.png)
 
-4. Replace all the text in the **URL** entry field in the **Connect to Repository** tab. This will populate most other fields in this tab for you, as illustrated in the image in step #2.
+4. Replace all the text in the **URL** entry field in the **Connect with Url** tab. This will populate most other fields in this tab for you, as illustrated in the image in step #2.
 
-5. Enter the directory that you want to clone the repo into and press **Checkout**.
+5. Enter the directory that you want to clone the repo into and press **Clone**.
 
 > [!NOTE]
 > You may experience issues if the repo is over 4 GB in size.
@@ -152,7 +156,7 @@ If you have issues with initializing your project with an empty remote repositor
 1. If there's a **gitignore** file, delete it.
 1. Press **Command + Shift + .** to hide the files and folders.
 1. Open your solution in VS for Mac.
-1. On the solution Pad, select your solution node.
+1. On the solution Window, select your solution node.
 1. Browse to the Version Control menu and choose **Publish in Version Control**.
 1. Follow the steps of the above tutorial starting from the step 6.
 

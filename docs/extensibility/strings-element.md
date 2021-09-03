@@ -1,16 +1,19 @@
 ---
-title: "Strings Element | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Strings Element | Microsoft Docs
+description: The Strings element contains a ButtonText child element and other optional child elements. An ampersand in the text string specifies a keyboard shortcut.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: reference
 helpviewer_keywords:
-  - "Strings element (VSCT XML schema)"
-  - "VSCT XML schema elements, Strings"
+- Strings element (VSCT XML schema)
+- VSCT XML schema elements, Strings
 ms.assetid: 23a42074-a689-481d-824f-b43aa448f266
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Strings Element
 The Strings element must contain at least a **ButtonText** child element. All other child elements are optional. Invalid XML characters such as '&' and '<' must be coded as entities ('&amp;' and '&lt;' and so on).
@@ -54,5 +57,5 @@ The Strings element must contain at least a **ButtonText** child element. All ot
 |[Menu Element](../extensibility/menu-element.md)|Defines a single menu item.|
 |[Combo Element](../extensibility/combo-element.md)|Defines commands that appear in a combo box.|
 
-## See Also
+## See also
 - [Visual Studio Command Table (.Vsct) Files](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)

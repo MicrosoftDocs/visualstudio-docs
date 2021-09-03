@@ -1,20 +1,22 @@
 ---
-title: "IEEVisualizerDataProvider::GetNewObjectForVisualizer | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "This method gets a new object for the visualizer."
+title: IEEVisualizerDataProvider::GetNewObjectForVisualizer | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IEEVisualizerDataProvider::GetNewObjectForVisualizer"
+- IEEVisualizerDataProvider::GetNewObjectForVisualizer
 helpviewer_keywords:
-  - "IEEVisualizerDataProvider::GetNewObjectForVisualizer method"
+- IEEVisualizerDataProvider::GetNewObjectForVisualizer method
 ms.assetid: a898d549-4898-4fde-aad1-e8bb89129652
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IEEVisualizerDataProvider::GetNewObjectForVisualizer
 This method gets a new object for the visualizer. This method will always create a new object from the existing object.

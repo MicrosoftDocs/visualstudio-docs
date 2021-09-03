@@ -1,20 +1,22 @@
 ---
-title: "IDebugProcess2::EnumPrograms | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Retrieves a list of all the programs contained by this process."
+title: IDebugProcess2::EnumPrograms | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugProcess2::EnumPrograms"
+- IDebugProcess2::EnumPrograms
 helpviewer_keywords:
-  - "IDebugProcess2::EnumPrograms"
+- IDebugProcess2::EnumPrograms
 ms.assetid: f5b7295d-487d-464f-a4c6-d54175b07705
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugProcess2::EnumPrograms
 Retrieves a list of all the programs contained by this process.

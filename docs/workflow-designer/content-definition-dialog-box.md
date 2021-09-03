@@ -1,13 +1,16 @@
 ---
 title: "Workflow Designer - Content Definition Dialog Box"
+description: Learn how you can use the Content Definition dialog box to configure the Content properties of the Send, Receive, SendReply, and ReceiveReply activities.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
   - "MessageContent.UI"
 ms.assetid: 7e4237c3-90a1-4149-bd8a-3643d1dde0df
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
+ms.technology: vs-workflow-designer
 ms.workload:
   - "multiple"
 ---
@@ -30,4 +33,4 @@ The content can be specified within the **Message** section for a <xref:System.S
 
 ## See also
 
-- [Workflow Designer UI Help](../workflow-designer/workflow-designer-ui-help.md)
+- [Workflow Designer UI Help](browse-and-select-a-dotnet-type-dialog-box.md)

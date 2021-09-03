@@ -1,26 +1,29 @@
 ---
-title: "Debug Hook Function Writing | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-f1_keywords:
-  - "vc.hooks"
-dev_langs:
-  - "CSharp"
-  - "VB"
-  - "FSharp"
-  - "C++"
-helpviewer_keywords:
-  - "debugging [C++], CRT debug support"
-  - "debug hook functions"
-  - "hooks, debug"
-  - "hooks"
-  - "debugging [CRT], debug hook functions"
+title: Debug Hook Function Writing | Microsoft Docs
+description: Read about a number of custom debug hook functions that you can write to let you insert your code into predefined points inside the debugger's normal processing.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
+f1_keywords: 
+  - vc.hooks
+dev_langs: 
+  - CSharp
+  - VB
+  - FSharp
+  - C++
+helpviewer_keywords: 
+  - debugging [C++], CRT debug support
+  - debug hook functions
+  - hooks, debug
+  - hooks
+  - debugging [CRT], debug hook functions
 ms.assetid: 5510635f-cf69-4907-b72d-ae27af1f19af
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
-ms.workload:
-  - "multiple"
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.technology: vs-ide-debug
+ms.workload: 
+  - multiple
 ---
 # Debug Hook Function Writing
 This section describes a number of custom debug hook functions you can write that allow you to insert your code into some predefined points inside the debugger's normal processing.

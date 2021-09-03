@@ -1,15 +1,17 @@
 ---
-title: "IDebugExpressionEvaluator3 | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Represents an expression evaluator (EE) with an enhanced parser tree."
+title: IDebugExpressionEvaluator3 | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "IDebugExpressionEvaluator3 interface"
+- IDebugExpressionEvaluator3 interface
 ms.assetid: c27c2a14-300b-4535-be22-767c83602f69
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IDebugExpressionEvaluator3
 > [!IMPORTANT]

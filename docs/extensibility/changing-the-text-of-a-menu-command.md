@@ -1,17 +1,20 @@
 ---
-title: "Changing the Text of a Menu Command | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Changing the Text of a Menu Command | Microsoft Docs
+description: Learn how to change the text label of a menu command by using the IMenuCommandService service by reviewing this code example.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
 helpviewer_keywords:
-  - "menus, changing text"
-  - "text, menus"
-  - "commands, changing text"
+- menus, changing text
+- text, menus
+- commands, changing text
 ms.assetid: 5cb676a0-c6e2-47e5-bd2b-133dc8842e46
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Change the text of a menu command
 The following steps show how to change the text label of a menu command by using the <xref:System.ComponentModel.Design.IMenuCommandService> service.
@@ -53,25 +56,15 @@ The following steps show how to change the text label of a menu command by using
     Here is what it should look like:
 
     ```csharp
-    private ChangeMenuText(Package package)
+    private ChangeMenuText(AsyncPackage package, OleMenuCommandService commandService)
     {
-        if (package == null)
-        {
-            throw new ArgumentNullException(nameof(package));
-        }
-
-        this.package = package;
-
-        OleMenuCommandService commandService = this.ServiceProvider.GetService(typeof(IMenuCommandService)) as OleMenuCommandService;
-        if (commandService != null)
-        {
-            CommandID menuCommandID = new CommandID(MenuGroup, CommandId);
-            EventHandler eventHandler = this.ShowMessageBox;
-            OleMenuCommand menuItem = new OleMenuCommand(ShowMessageBox, menuCommandID);
-            menuItem.BeforeQueryStatus +=
-                new EventHandler(OnBeforeQueryStatus);
-            commandService.AddCommand(menuItem);
-        }
+        this.package = package ?? throw new ArgumentNullException(nameof(package));
+        commandService = commandService ?? throw new ArgumentNullException(nameof(commandService));
+        
+        var menuCommandID = new CommandID(CommandSet, CommandId);
+        var menuItem = new OleMenuCommand(this.Excute, menuCommandID);
+        menuItem.BeforeQueryStatus += new EventHandler(OnBeforeQueryStatus);
+        commandService.AddCommand(menuItem);
     }
     ```
 

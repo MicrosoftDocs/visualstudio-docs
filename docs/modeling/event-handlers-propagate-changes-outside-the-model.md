@@ -1,15 +1,18 @@
 ---
 title: Event Handlers Propagate Changes Outside the Model
+description: Learn that in the Visualization and Modeling SDK, you can define store event handlers to propagate changes to resources outside the store.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "Domain-Specific Language, programming domain models"
-  - "Domain-Specific Language, events"
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+- Domain-Specific Language, programming domain models
+- Domain-Specific Language, events
+author: mgoertz-msft
+ms.author: mgoertz
+manager: jmartens
+ms.technology: vs-ide-modeling
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Event Handlers Propagate Changes Outside the Model
 
@@ -178,7 +181,7 @@ Each event type corresponds to a collection in Store.EventManagerDirectory. You 
 |TransactionCommitted||
 |TransactionRolledBack||
 
-## See Also
+## See also
 
 - [Responding to and Propagating Changes](../modeling/responding-to-and-propagating-changes.md)
 - [Sample code: Circuit Diagrams](https://code.msdn.microsoft.com/Visualization-Modeling-SDK-763778e8)

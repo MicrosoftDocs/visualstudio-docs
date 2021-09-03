@@ -1,18 +1,21 @@
 ---
-title: "How to: Set Permissions | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-helpviewer_keywords:
-  - "profiling, setting permissions"
-  - "security [Visual Studio ALM], setting permissions"
-  - "permissions [Visual Studio ALM], profiling"
-  - "profiling tools, setting profiling permissions"
-  - "performance tools, setting profiling permissions"
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
-ms.workload:
-  - "multiple"
+title: Set Permissions | Microsoft Docs
+description: Learn how an Administrator of a computer grants the security permissions required for profiling to a user or group that does not have Administrator permissions.
+ms.date: 11/04/2016
+ms.topic: how-to
+helpviewer_keywords: 
+  - profiling, setting permissions
+  - security [Visual Studio ALM], setting permissions
+  - permissions [Visual Studio ALM], profiling
+  - profiling tools, setting profiling permissions
+  - performance tools, setting profiling permissions
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.technology: vs-ide-debug
+monikerRange: 'vs-2017'
+ms.workload: 
+  - multiple
 ---
 # How to: Set permissions
 

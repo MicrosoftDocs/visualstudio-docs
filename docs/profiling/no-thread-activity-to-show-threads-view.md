@@ -1,5 +1,6 @@
 ---
 title: "No Thread Activity to Show (Threads View) | Microsoft Docs"
+description: Learn about the Threads view where there is no activity to show in the currently visible time range.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:
@@ -9,7 +10,8 @@ helpviewer_keywords:
 ms.assetid: aa5ae9d0-561d-4ef8-b36b-258ce553d50a
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---

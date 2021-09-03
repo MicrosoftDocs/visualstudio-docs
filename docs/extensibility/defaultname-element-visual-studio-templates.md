@@ -1,18 +1,20 @@
 ---
-title: "DefaultName Element (Visual Studio Templates) | Microsoft Docs"
-ms.date: "11/04/2016"
+title: DefaultName Element (Visual Studio Templates) | Microsoft Docs
+description: Learn about the DefaultName element and how it specifies the name that the Visual Studio project system will generate for the project or item when it is created.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
 ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
-  - "http://schemas.microsoft.com/developer/vstemplate/2005#DefaultName"
+- http://schemas.microsoft.com/developer/vstemplate/2005#DefaultName
 helpviewer_keywords:
-  - "DefaultName element [Visual Studio project templates]"
+- DefaultName element [Visual Studio project templates]
 ms.assetid: 0ff056c8-b9d2-4747-9308-92adf1811491
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # DefaultName element (Visual Studio templates)
 Specifies the name that the Visual Studio project system will generate for the project or item when it is created.

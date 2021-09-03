@@ -2,18 +2,27 @@
 title: "Default Keyboard Shortcuts"
 description: "This article lists the default keyboard shortcuts in Visual Studio for Mac"
 ms.date: 03/14/2019
-author: asb3993
-ms.author: amburns
+author: heiligerdankgesang
+ms.author: dominicn
 ms.assetid: 48E06A61-7294-4EC8-A09D-1763C32AD910
 ---
 # Default keyboard shortcuts in Visual Studio for Mac
 
-For information about keyboard accessibility, see [How to: Use Keyboard Navigation](~/accessibility.md#how-to-use-keyboard-navigation).
+For information about keyboard accessibility, see [How to: Use Keyboard Navigation](~/accessibility-keyboard.md).
 
-You can access a variety of commands in Visual Studio for Mac by using the appropriate keyboard shortcut. This document lists the default shortcuts for the **Visual Studio** key binding scheme. For more information about how to change the key binding scheme, see [Customizing the IDE](~/customizing-the-ide.md#key-bindings). You can also customize shortcuts for a command using the **Visual Studio for Mac** > **Preferences** menu item and choosing **Environment** > **Key Bindings** in the **Preferences** window.
+You can access a variety of commands in Visual Studio for Mac by using the appropriate keyboard shortcut. This document lists the default shortcuts for the **Visual Studio for Mac** key binding scheme. For more information about how to change the key binding scheme, see [Customizing the IDE](~/customizing-the-ide.md#key-bindings). You can also customize shortcuts for a command using the **Visual Studio for Mac** > **Preferences** menu item and choosing **Environment** > **Key Bindings** in the **Preferences** window.
 
 > [!TIP]
 > The keyboard shortcuts displayed in this document, and the key binding preferences in Visual Studio for Mac, are presented using the symbols commonly used in macOS. If you are unsure of a symbol, review the [macOS key symbols loopkup table](#macos-key-symbols-lookup).
+
+## Downloadable quick ref pdfs
+
+We have compiled the most used, and most useful, keyboard shortcuts into a downloadable pdf file. We have two versions,
+one that shows shortcuts for Visual Studio for Mac, and a version that shows Visual Studio shorts side-by-side for users
+that have prior experience with Visual Studio when using Windows.
+
+- [Visual Studio for Mac keyboard shortcut quick ref](https://aka.ms/vsm-keys)
+- [Visual Studio & Visual Studio for Mac keyboard shortcut quick ref](https://aka.ms/vsm-vs-keys)
 
 ## Code Navigation
 
@@ -241,9 +250,9 @@ You can access a variety of commands in Visual Studio for Mac by using the appro
 |Next Document|**⌘}**, **⌘F6**|
 |Previous Document|**⌘{**, **⇧⌘F6**|
 |Switch to next document|**⌃⇥**|
-|Switch to next pad|**⌃⌥⇥**|
+|Switch to next tool window|**⌃⌥⇥**|
 |Switch to previous document|**⌃⇧⇥**|
-|Switch to previous pad|**⌃⌥⇧⇥**|
+|Switch to previous tool window|**⌃⌥⇧⇥**|
 
 ## macOS key symbols lookup
 

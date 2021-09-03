@@ -1,20 +1,22 @@
 ---
-title: "UNMANAGED_ADDRESS_PHYSICAL | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "This structure represents a physical address."
+title: UNMANAGED_ADDRESS_PHYSICAL | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "UNMANAGED_ADDRESS_PHYSICAL"
+- UNMANAGED_ADDRESS_PHYSICAL
 helpviewer_keywords:
-  - "UNMANAGED_ADDRESS_PHYSICAL structure"
+- UNMANAGED_ADDRESS_PHYSICAL structure
 ms.assetid: fed09686-caa6-4efc-851e-a0432019e9d0
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # UNMANAGED_ADDRESS_PHYSICAL
 This structure represents a physical address.

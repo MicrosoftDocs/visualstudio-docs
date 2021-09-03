@@ -1,13 +1,16 @@
 ---
 title: Debug XSLT style sheets
+description: Learn how to use the XSLT debugger in Visual Studio to debug an XSLT style sheet by following the steps in this walkthrough.
+ms.custom: SEO-VS-2020
 ms.date: 03/05/2019
-ms.topic: conceptual
+ms.topic: how-to
 ms.assetid: 3db9fa5a-f619-4cb6-86e7-64b364e58e5d
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
+ms.technology: vs-xml-tools
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Walkthrough: Debug an XSLT style sheet
 
@@ -16,7 +19,7 @@ The steps in this walkthrough demonstrate how to use the XSLT debugger. Steps in
 To prepare for this walkthrough, first copy the two [sample files](#sample-files) to your local computer. One is the style sheet, and one is the XML file we'll use as input to the style sheet. In this walkthrough, the style sheet we use finds all books whose cost is below the average book price.
 
 > [!NOTE]
-> The XSLT debugger is only available in the Enterprise edition of Visual Studio.
+> The XSLT debugger is only available in the Professional and Enterprise editions of Visual Studio.
 
 ## Start debugging
 

@@ -1,6 +1,6 @@
 ---
-title: "Debug ASP.NET"
-description: "Debug ASP.NET using the Visual Studio debugger"
+title: "Debug ASP.NET Core"
+description: "Debug ASP.NET Core using the Visual Studio debugger"
 ms.custom: "mvc"
 ms.date: 08/06/2018
 ms.topic: quickstart
@@ -9,11 +9,12 @@ helpviewer_keywords:
 ms.assetid: f4cea2e1-08dc-47ac-aba2-3b8c338e607f
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "aspnet"
 ---
-# Quickstart: Debug ASP.NET with the Visual Studio debugger
+# Quickstart: Debug ASP.NET Core with the Visual Studio debugger
 
 The Visual Studio debugger provides many powerful features to help you debug your apps. This topic provides a quick way to learn some of the basic features.
 

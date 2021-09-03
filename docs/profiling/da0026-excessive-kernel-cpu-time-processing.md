@@ -1,21 +1,24 @@
 ---
-title: "DA0026: Excessive kernel CPU time processing | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-f1_keywords:
-  - "vs.performance.rules.DA0026"
-  - "vs.performance.DA0026"
-  - "vs.performance.26"
+title: DA0026 - Excessive kernel CPU time processing | Microsoft Docs
+description: "The proportion CPU time that was executed in kernel mode exceeded the amount of time spent in user mode."
+ms.date: 11/04/2016
+ms.topic: reference
+f1_keywords: 
+  - vs.performance.rules.DA0026
+  - vs.performance.DA0026
+  - vs.performance.26
 ms.assetid: 4cfc8a29-b29b-4a72-b386-03d8856fdf8a
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
-ms.workload:
-  - "multiple"
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.technology: vs-ide-debug
+monikerRange: 'vs-2017'
+ms.workload: 
+  - multiple
 ---
 # DA0026: Excessive kernel CPU time processing
 
-|||
+|Item|Value|
 |-|-|
 |Rule Id|TODO|
 |Category|Profiling Tools Usage|

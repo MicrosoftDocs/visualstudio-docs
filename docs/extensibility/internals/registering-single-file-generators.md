@@ -1,16 +1,19 @@
 ---
-title: "Registering Single File Generators | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Registering Single File Generators | Microsoft Docs
+description: Learn how to register a custom tool in Visual Studio to instantiate it and associate it with a particular project type.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "registration, custom tools"
-  - "custom tools, defining registry settings"
+- registration, custom tools
+- custom tools, defining registry settings
 ms.assetid: db7592c0-1273-4843-9617-6e2ddabb6ca8
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Registering Single File Generators
 To make a custom tool available in [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)], you must register it so [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] can instantiate it and associates it with a particular project type.
@@ -61,8 +64,8 @@ To make a custom tool available in [!INCLUDE[vsprvs](../../code-quality/includes
    "GeneratesDesignTimeSource"=dword:00000001
    ```
 
-## See Also
+## See also
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsSingleFileGenerator>
 - [Implementing Single-File Generators](../../extensibility/internals/implementing-single-file-generators.md)
 - [Exposing Types to Visual Designers](../../extensibility/internals/exposing-types-to-visual-designers.md)
-- [Introduction to the BuildManager Object](https://msdn.microsoft.com/library/50080ec2-c1c9-412c-98ef-18d7f895e7fa)
+- [Introduction to the BuildManager Object](/previous-versions/8f9kffa8(v=vs.140))

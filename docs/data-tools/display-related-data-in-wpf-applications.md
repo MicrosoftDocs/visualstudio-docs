@@ -1,21 +1,24 @@
 ---
 title: Display related data in WPF applications
+description: Display related data in WPF applications. Work with data from multiple tables or entities that are related to each other in a parent-child relationship.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
-  - "data [WPF], displaying"
-  - "WPF, data binding in Visual Studio"
-  - "WPF data binding [Visual Studio]"
-  - "displaying data, WPF"
-  - "WPF [WPF], data"
-  - "WPF Designer, data binding"
-  - "data binding, WPF"
+- data [WPF], displaying
+- WPF, data binding in Visual Studio
+- WPF data binding [Visual Studio]
+- displaying data, WPF
+- WPF [WPF], data
+- WPF Designer, data binding
+- data binding, WPF
 ms.assetid: 3aa80194-0191-474d-9d28-5ec05654b426
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: ghogen
+ms.author: ghogen
+manager: jmartens
+ms.technology: vs-data-tools
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # Display related data in WPF applications
 

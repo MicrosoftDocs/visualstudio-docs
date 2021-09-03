@@ -1,11 +1,14 @@
 ---
 title: "ProcessOn and ProcessOff | Microsoft Docs"
+description: Learn how the VSPerfCmd.exe ProcessOff and ProcessOn subcommands pause and resume profiling for the specified process in a command-line profiling session.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 ms.assetid: d3dc6a7e-bc0f-48a6-a4ec-f386348bb296
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
+monikerRange: 'vs-2017'
 ms.workload:
   - "multiple"
 ---

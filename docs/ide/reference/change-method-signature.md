@@ -1,11 +1,12 @@
 ---
 title: Change method signature
-description: Remove or change the order of a method's parameters. Right-click the method, select Quick Actions and Refactorings, and select Change Signature.
-ms.date: 01/26/2018
+description: Add, Remove, or change the order of a method's parameters. Right-click the method, select Quick Actions and Refactorings, and select Change Signature.
+ms.date: 07/20/2020
 ms.topic: reference
 author: mikadumont
 ms.author: midumont
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-general
 f1_keywords:
   - "vs.csharp.refactoring.remove"
   - "vs.csharp.refactoring.reorder"
@@ -53,26 +54,25 @@ This refactoring applies to:
 
 3. In the **Change Signature** dialog that pops up, you can use the buttons on the right side to change the method signature:
 
-   ![Change Signature dialog](media/changesignature-dialog-cs.png)
+   ![Change Signature dialog](media/change-signature.png)
 
    | Button | Description
    | ------ | ---
    | **Up/Down** | Move the selected parameter up and down the list
+   | **Add** | Add a new parameter to the list
    | **Remove** | Remove the selected parameter from the list
    | **Restore** | Restore the selected, crossed-out parameter to the list
 
    > [!TIP]
    > Use the **Preview reference changes** checkbox to [see what the result will be](../../ide/preview-changes.md) before committing to it.
 
-4. When you are finished, press the **OK** button to make the changes.
+4. Selecting **Add** in the **Change Signature** dialog will open the **Add Parameter** dialog. The **Add Parameter** dialog allows you to add a type name and a parameter name. You can choose to make the parameter required or optional with a default value. You can then add a value at the call site and choose a named argument for that value or you can introduce a TODO variable. The TODO variable puts a TODO in your code so you can visit each error and go through each call site independently and decide what to pass. For optional parameters you have the option to omit the call site completely.
 
-   - C#:
+    ![Add Parameter dialog - C#](media/add-parameter-dialog.png)
 
-      ![Change Signature result - C#](media/changesignature-result-cs.png)
+5. When you are finished adding a parameter, press **OK** to preview the changes.
 
-   - Visual Basic:
-
-      ![Change Signature result - Visual Basic](media/changesignature-result-vb.png)
+    ![Change Signature dialog](media/change-signature.png)
 
 ## See also
 

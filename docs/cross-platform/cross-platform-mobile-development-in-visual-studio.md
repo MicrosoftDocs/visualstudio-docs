@@ -1,7 +1,9 @@
 ---
 title: "Cross-Platform Mobile Development in Visual Studio | Microsoft Docs"
-ms.custom: ""
-ms.date: "05/24/2018"
+description: In this article, learn how you can build apps for Android, iOS, and Windows devices by using Visual Studio.
+titleSuffix: ""
+ms.custom: SEO-VS-2020
+ms.date: "10/17/2019"
 ms.technology: vs-ide-mobile
 ms.topic: "conceptual"
 ms.assetid: 8202717a-e990-45cf-b092-438651ccb38a
@@ -13,7 +15,7 @@ ms.workload:
 ---
 # Cross-platform mobile development in Visual Studio
 
-You can build apps for Android, iOS, and Windows devices by using Visual Studio.  As you design your app, use tools in Visual Studio to easily add connected services such as Office 365, Azure App Service, and Application Insights.
+You can build apps for Android, iOS, and Windows devices by using Visual Studio.  As you design your app, use tools in Visual Studio to easily add connected services such as Microsoft 365, Azure App Service, and Application Insights.
 
 Build your apps by using C# and the .NET Framework, HTML and JavaScript, or C++. Share code, strings, images, and in some cases even the user interface.
 
@@ -27,7 +29,7 @@ With Visual Studio Tools for Xamarin, you can target Android, iOS, and Windows i
 
 |**Learn more**|
 |--------------------|
-|[Install Visual Studio](http://visualstudio.microsoft.com/products/visual-studio-community-vs) (VisualStudio.com)|
+|[Install Visual Studio](https://visualstudio.microsoft.com/vs/community/) (VisualStudio.com)|
 |[Learn about Xamarin in Visual Studio](https://visualstudio.microsoft.com/xamarin/) (VisualStudio.com)|
 |[Xamarin mobile app development documentation](/xamarin/) |
 |[DevOps with Xamarin apps](/xamarin/tools/ci/devops/) |
@@ -36,9 +38,9 @@ With Visual Studio Tools for Xamarin, you can target Android, iOS, and Windows i
 
 ### <a name="AndroidHTML"></a> Target Android, iOS, and Windows from a single code base
 
- You can build native apps for Android,  iOS, and Windows by using C# or F# (Visual Basic is not supported at this time).  To get started, install Visual Studio 2017, select the **Mobile Development with .NET** option in the installer.
+ You can build native apps for Android, iOS, and Windows by using C# or F# (Visual Basic is not supported at this time).  To get started, install Visual Studio, select the **Mobile Development with .NET** option in the installer.
 
- If you already have Visual Studio 2017 installed, re-run the **Visual Studio Installer** and select the same **Mobile Development with .NET** option for Xamarin (as above).
+ If you already have Visual Studio installed, re-run the **Visual Studio Installer** and select the same **Mobile Development with .NET** option for Xamarin (as above).
 
  When you're done, project templates appear in the **New Project** dialog box. The easiest way to find Xamarin templates is to just search on "Xamarin."
 
@@ -54,7 +56,7 @@ With Visual Studio Tools for Xamarin, you can target Android, iOS, and Windows i
 
  If you're not using Xamarin.Forms and choose to design for each platform individually, you can share most of your non-UI code between platform projects (Android, iOS, and Windows). This includes any business logic, cloud integration, database access, or any other code that targets the .NET Framework. The only code that you can't share is code that targets a specific platform.
 
- ![Share code between Windows, iOs, and Android UI's](../cross-platform/media/sharecode.png "ShareCode")
+ ![Share code between Windows, iOS, and Android UIs](../cross-platform/media/sharecode.png "ShareCode")
 
  You can share your code by using a shared project, a Portable Class Library project, or both. You might find that some code fits best in a shared project, and some code makes more sense inside a Portable Class Library project.
 
@@ -76,7 +78,8 @@ With Visual Studio Tools for Xamarin, you can target Android, iOS, and Windows i
 |[Intro to the Universal Windows Platform](/windows/uwp/get-started/universal-application-platform-guide)|
 |[Create your first app](/windows/uwp/get-started/your-first-app)|
 |[Develop apps for the Universal Windows Platform (UWP)](../cross-platform/develop-apps-for-the-universal-windows-platform-uwp.md)|
-|[Migrate apps to the Universal Windows Platform (UWP)](https://msdn.microsoft.com/library/mt148501.aspx)|
+
+::: moniker range="vs-2017"
 
 ## <a name="HTML"></a> Build an app for Android, iOS, and Windows (HTML/JavaScript)
 
@@ -88,7 +91,7 @@ With Visual Studio Tools for Xamarin, you can target Android, iOS, and Windows i
 
  Because these APIs are cross-platform, you can share most of what you write between all three platforms. This reduces your development and maintenance costs. Also, there's no need to start from scratch. If you've created other types of web applications, you can share those files with your Cordova app without having to modify or redesign them in any way.
 
- ![Multi-device hybrid apps with Javascript](../cross-platform/media/multidevicehybridapps.png "Multi-device hybrid apps with Javascript")
+ ![Multi-device hybrid apps with JavaScript](../cross-platform/media/multidevicehybridapps.png "Multi-device hybrid apps with JavaScript")
 
  To get started, install Visual Studio and choose the **Mobile Development with Javascript** feature during setup. The Cordova tools automatically install all third-party software that's required to build your multi-platform app.
 
@@ -100,18 +103,21 @@ With Visual Studio Tools for Xamarin, you can target Android, iOS, and Windows i
 
 |**Learn more**|
 |--------------------|
-|[Install Visual Studio](http://visualstudio.microsoft.com/products/visual-studio-community-vs) (VisualStudio.com)|
-|[Get started with Visual Studio Tools for Apache Cordova](/visualstudio/cross-platform/tools-for-cordova/)|
-|[Learn about the Visual Studio Emulator for Android](http://visualstudio.microsoft.com/explore/msft-android-emulator-vs) (VisualStudio.com)|
+|[Install Visual Studio](https://visualstudio.microsoft.com/vs/community/) (VisualStudio.com)|
+|[Get started with Visual Studio Tools for Apache Cordova](/previous-versions/visualstudio/cross-platform/tools-for-cordova/)|
+|[Learn about the Visual Studio Emulator for Android](https://visualstudio.microsoft.com/vs/msft-android-emulator/) (VisualStudio.com)|
+
+::: moniker-end
 
 <a name="CPP"></a>
 
-## Build an app for Android and Windows (C++)
- ![Use C&#43;&#43; to build for Android, iOS, and Windows](../cross-platform/media/cross_plat_cpp_intro_image.png "Cross_Plat_CPP_Intro_Image")
+## Build an app for Android, iOS, and Windows (C++)
 
- First, install Visual Studio 2017 and the **Mobile Development with C++** workload. Then, you can build a native activity application for Android or an app that targets Windows. C++ templates that target iOS are not yet available. You can target Android and Windows in the same solution if you want, and then share code between them by using a cross-platform static or dynamic shared library.
+![Use C&#43;&#43; to build for Android, iOS, and Windows](../cross-platform/media/cross_plat_cpp_intro_image.png "Cross_Plat_CPP_Intro_Image")
 
- If you need to build an app for Android that requires any sort of advanced graphics manipulation, such as a game, you can use C++ to do it. Start with the **Native-Activity Application (Android)** project. This project has full support for the Clang toolchain.
+ First, install Visual Studio and the **Mobile Development with C++** workload. Then, you can build a native activity application for Android, or an app that targets Windows or iOS. You can target Android, iOS, and Windows in the same solution if you want, and then share code between them by using a cross-platform static or dynamic shared library.
+
+ If you need to build an app for Android that requires any sort of advanced graphics manipulation, such as a game, you can use C++ to do it. Start with the **Native Activity Application (Android)** project. This project has full support for the Clang toolchain.
 
  ![Native activity project template](../cross-platform/media/cross-plat_cpp_native.png "Native activity project template")
 
@@ -119,23 +125,22 @@ With Visual Studio Tools for Xamarin, you can target Android, iOS, and Windows i
 
  You can also build an app that targets the full breadth of Windows 10 devices by using C++ and a Universal Windows Platform (UWP) app project template. Read more about this in the [Target Windows 10 devices](#WindowsHTML) section that appears earlier in this topic.
 
- You can share C++ code between Android and Windows by creating a static or dynamic shared library.
+ You can share C++ code between Android, iOS, and Windows by creating a static or dynamic shared library.
 
  ![Static and dynamic shared libraries](../cross-platform/media/cross_plat_cpp_libraries.png "Static and dynamic shared libraries")
 
- You can consume that library in a Windows or Android project, like the ones described earlier in this section. You can also consume it in an app that you build by using Xamarin, Java, or any language that lets you invoke functions in an unmanaged DLL.
+ You can consume that library in a Windows, iOS, or Android project, like the ones described earlier in this section. You can also consume it in an app that you build by using Xamarin, Java, or any language that lets you invoke functions in an unmanaged DLL.
 
  As you write code in these libraries, you can use IntelliSense to explore the native APIs of the Android and Windows platforms. These library projects are fully integrated with the Visual Studio debugger so you can set breakpoints, step through code, and find and fix issues by using all of the advanced features of the debugger.
 
 |**Learn more**|
 |--------------------|
-|[Download Visual Studio.](http://visualstudio.microsoft.com/products/visual-studio-community-vs) (VisualStudio.com)|
-|[Install the Visual C++ for Cross-Platform Mobile Development tools.](https://msdn.microsoft.com/library/dn707591.aspx) (MSDN Library)|
-|[Learn more about using C++ to target multiple platforms.](https://visualstudio.microsoft.com/vs/cplusplus-mdd/) (VisualStudio.com)|
-|[Install what you need, and then create a native activity application for Android](https://msdn.microsoft.com/library/dn707595.aspx) (MSDN Library)|
+|[Download Visual Studio](https://visualstudio.microsoft.com/downloads/) (VisualStudio.com)|
+|[Install cross-platform mobile development with C++](/cpp/cross-platform/install-visual-cpp-for-cross-platform-mobile-development)|
+|[Learn more about using C++ to target multiple platforms](https://visualstudio.microsoft.com/vs/cplusplus-mdd/) (VisualStudio.com)|
+|[Install what you need, and then create a C++ native activity application for Android](/cpp/cross-platform/create-an-android-native-activity-app)|
 |[Learn more about sharing C++ code with Android and Windows apps](https://visualstudio.microsoft.com/vs/cplusplus-mdd/) (VisualStudio.com)|
-|[Cross-platform mobile development examples for C++](https://msdn.microsoft.com/library/dn707596.aspx) (MSDN Library)|
-|[Additional cross-platform mobile development examples for C++](https://code.msdn.microsoft.com/site/search?f%5B0%5D.Type=SearchText&f%5B0%5D.Value=android&f%5B1%5D.Type=ProgrammingLanguage&f%5B1%5D.Value=C%2B%2B&f%5B1%5D.Text=C%2B%2B) (code.msdn)|
+|[Cross-platform mobile development examples for C++](/cpp/cross-platform/cross-platform-mobile-development-examples)|
 
 <a name="Unity"></a>
 
@@ -150,14 +155,14 @@ With Visual Studio Tools for Xamarin, you can target Android, iOS, and Windows i
 |**Learn more**|
 |--------------------|
 |[Learn more about building Unity games with Visual Studio](https://visualstudio.microsoft.com/vs/features/game-development/#tab-4b0d0be8de5f65564ad)|
-|[Read more about Visual Studio Tools for Unity](../cross-platform/visual-studio-tools-for-unity.md) |
-|[Start using Visual Studio Tools for Unity](../cross-platform/getting-started-with-visual-studio-tools-for-unity.md) |
+|[Read more about Visual Studio Tools for Unity](/visualstudio/gamedev/unity/get-started/visual-studio-tools-for-unity) |
+|[Start using Visual Studio Tools for Unity](/visualstudio/gamedev/unity/get-started/getting-started-with-visual-studio-tools-for-unity) |
 |[Read about the latest enhancements to the Visual Studio Tools for Unity 2.0 Preview](https://devblogs.microsoft.com/visualstudio/visual-studio-tools-for-unity-2-0-preview/) (Visual Studio blog)|
-|[Watch a video introduction to the Visual Studio Tools for Unity 2.0 Preview](http://www.bing.com/videos/search?q=visual+studio+tools+for+unity&qs=n&form=QBVLPG&pq=visual+studio+tools+for+unity&sc=6-29&sp=-1&sk=#view=detail&mid=0A13177F0BC7463A24080A13177F0BC7463A2408) (Video)|
-|[Learn about Unity](http://unity3d.com/) (Unity website)|
+|[Watch a video introduction to the Visual Studio Tools for Unity 2.0 Preview](https://www.bing.com/videos/search?q=visual+studio+tools+for+unity&qs=n&form=QBVLPG&pq=visual+studio+tools+for+unity&sc=6-29&sp=-1&sk=#view=detail&mid=0A13177F0BC7463A24080A13177F0BC7463A2408&preserve-view=true) (Video)|
+|[Learn about Unity](https://unity.com/) (Unity website)|
 
-## See Also
+## See also
 
-- [Add Office 365 APIs to a Visual Studio project](https://docs.microsoft.com/office/developer-program/office-365-developer-program)
+- [Add Microsoft 365 APIs to a Visual Studio project](/office/developer-program/office-365-developer-program)
 - [Azure App Services - Mobile Apps](https://azure.microsoft.com/services/app-service/mobile/)
-- [Visual Studio App Center](https://docs.microsoft.com/appcenter)
+- [Visual Studio App Center](/appcenter)

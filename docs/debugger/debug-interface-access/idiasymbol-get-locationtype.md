@@ -1,7 +1,8 @@
 ---
+description: "Retrieves the location type of a data symbol."
 title: "IDiaSymbol::get_locationType | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,8 @@ helpviewer_keywords:
 ms.assetid: fbb09c43-ebb7-4b4f-be53-ccff86eb183a
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -35,6 +37,6 @@ HRESULT get_locationType ( 
 > [!NOTE]
 > A return value of `S_FALSE` means the property is not available for the symbol.
 
-## See Also
+## See also
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
 - [LocationType Enumeration](../../debugger/debug-interface-access/locationtype.md)

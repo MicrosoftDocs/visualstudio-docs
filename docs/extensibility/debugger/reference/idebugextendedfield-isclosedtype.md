@@ -1,19 +1,21 @@
 ---
-title: "IDebugExtendedField::IsClosedType | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Determines if the field represents a closed type."
+title: IDebugExtendedField::IsClosedType | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "IsClosedType"
-  - "IDebugExtendedField::IsClosedType"
+- IsClosedType
+- IDebugExtendedField::IsClosedType
 ms.assetid: 9136fc57-74ff-4fe4-a6e2-b137cb9d5b08
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugExtendedField::IsClosedType
 Determines if the field represents a closed type.

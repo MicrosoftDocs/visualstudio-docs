@@ -1,13 +1,16 @@
 ---
-title: "Manifest from Resources | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Manifest from Resources | Microsoft Docs
+description: Learn how to use the Manifest from Resources tool to add .png or .xaml files to an .imagemanifest file for use with the Visual Studio Image Service. 
+ms.custom: SEO-VS-2020 
+ms.date: 11/04/2016
+ms.topic: reference
 ms.assetid: 0234109b-5dcb-4d9d-acb9-a63f8bd5699c
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Manifest from Resources
 The Manifest from Resources tool is a console application that takes a list of image resources (.png or .xaml files) and generates an .imagemanifest file that allows those images to be used with the Visual Studio Image Service. Additionally, this tool can be used to add images to an existing .imagemanifest. This tool is useful for adding high-DPI and theming support for images to a Visual Studio extension. The generated .imagemanifest file should be included in and deployed as a part of a Visual Studio extension (.vsix).
@@ -19,9 +22,8 @@ The Manifest from Resources tool is a console application that takes a list of i
 
  **Arguments**
 
-||||
-|-|-|-|
 |**Switch name**|**Notes**|**Required or Optional**|
+|-|-|-|
 |/resources|A semicolon-delimited list of images or directories. This list should always contain the full list of images that will be in the manifest. If only a partial list is given, the entries not included will be lost.<br /><br /> If a given resource file is an image strip, the tool will split it into separate images before adding each subimage to the manifest.<br /><br /> If the image is a .png file, we recommended you format the name like this so that the tool can fill in the right attributes for the image: \<Name>.\<Width>.\<Height>.png.|Required|
 |/assembly|The name of the managed assembly (not including the extension), or the runtime path of the native assembly that hosts the resources (relative to the manifest's runtime location).|Required|
 |/manifest|The name to give to the generated .imagemanifest file. This can also include an absolute or relative path to create the file in a different location. The default name matches the assembly name.<br /><br /> Default: \<Current Directory>\\<Assembly\>.imagemanifest|Optional|

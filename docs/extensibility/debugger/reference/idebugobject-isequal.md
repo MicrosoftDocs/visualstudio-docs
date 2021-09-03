@@ -1,20 +1,22 @@
 ---
-title: "IDebugObject::IsEqual | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Compares an object with this object."
+title: IDebugObject::IsEqual | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugObject::IsEqual"
+- IDebugObject::IsEqual
 helpviewer_keywords:
-  - "IDebugObject::IsEqual method"
+- IDebugObject::IsEqual method
 ms.assetid: 4b76e663-ef2e-41ff-9be1-bf26d666a34a
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugObject::IsEqual
 Compares an object with this object.

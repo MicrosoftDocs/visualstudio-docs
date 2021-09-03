@@ -1,7 +1,8 @@
 ---
-title: "Error: Timeout While Debugging Web Services | Microsoft Docs"
+description: "When you are stepping into an XML Web service from calling code, the call may sometimes time out, with the result being that you cannot continue debugging."
+title: "Timeout While Debugging Web Services | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "troubleshooting"
+ms.topic: "error-reference"
 dev_langs:
   - "CSharp"
   - "VB"
@@ -12,7 +13,8 @@ helpviewer_keywords:
   - "XML Web services, timeout while debugging"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -33,5 +35,5 @@ Service1 obj = new Service1();
 obj.TimeOut = -1; // infinite time out.
 ```
 
-## See Also
+## See also
 - [Debugging Web Applications: Errors and Troubleshooting](../debugger/debugging-web-applications-errors-and-troubleshooting.md)

@@ -1,20 +1,22 @@
 ---
-title: "IDebugDocumentPosition2::GetDocument | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Gets the containing document."
+title: IDebugDocumentPosition2::GetDocument | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugDocumentPosition2::GetDocument"
+- IDebugDocumentPosition2::GetDocument
 helpviewer_keywords:
-  - "IDebugDocumentPosition2::GetDocument"
+- IDebugDocumentPosition2::GetDocument
 ms.assetid: eaa172c9-5748-4ce1-a0e2-33c2063f6752
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugDocumentPosition2::GetDocument
 Gets the containing document.

@@ -1,12 +1,13 @@
 ---
 title: "Publish a Node.js app to Linux App Service"
 description: You can publish Node.js applications created in Visual Studio to Linux App Service on Azure
-ms.date: 11/1/2018
+ms.date: 11/22/2019
 ms.topic: tutorial
 ms.devlang: javascript
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
+ms.technology: vs-javascript
 dev_langs:
   - JavaScript
 ms.workload:
@@ -127,15 +128,17 @@ to the following illustration.
     > [!WARNING]
     > The App Service deployment process uses a set of heuristics to determine which type of application to try and run. If a .*sln* file is detected in the deployed content, it will assume an MSBuild based project is being deployed. The setting added above overrides this logic and specifies explicitly that this is a Node.js application. Without this setting, the Node.js application will fail to deploy if the .*sln* file is part of the repository being deployed to the App Service.
 
-7. After it is deployed, open the App Service and select **Deployment options**.
+7. Under **Application settings**, add another setting with a name of `WEBSITE_NODE_DEFAULT_VERSION` and a value of `8.9.0`.
+
+8. After it is deployed, open the App Service and select **Deployment options**.
 
     ![Deployment options](../javascript/media/azure-deployment-options.png)
 
-8. Click **Choose source**, and then choose **GitHub**, and then configure any required permissions.
+9. Click **Choose source**, and then choose **GitHub**, and then configure any required permissions.
 
     ![GitHub permissions](../javascript/media/azure-choose-source.png)
 
-9. Select the repository and branch to publish, and then select **OK**.
+10. Select the repository and branch to publish, and then select **OK**.
 
     ![Publish to Linux App Service](../javascript/media/azure-repo-and-branch.png)
 
@@ -171,7 +174,7 @@ and it is accessible at the URL created for the Azure App Service (by default th
 * If the node.exe process dies (that is, an unhandled exception occurs), the container restarts.
 * When the container starts up, it runs through various heuristics to figure out
 how to start the Node.js process. Details of the implementation can be seen at
-[generateStartupCommand.js](https://github.com/Azure-App-Service/node/blob/master/8.9.4/startup/generateStartupCommand.js).
+[generateStartupCommand.js](https://github.com/Azure/app-service-builtin-images/blob/master/node/8.9.4/startup/generateStartupCommand.js).
 * You can connect to the running container via SSH for investigations. This is easily done using the Azure portal. Select the App Service, and scroll down
 the list of tools until reaching **SSH** under the **Development Tools** section.
 * To aid in troubleshooting, go to the **Diagnostics logs** settings for the App Service, and change the **Docker Container logging** setting

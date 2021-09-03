@@ -1,5 +1,6 @@
 ---
 title: "Walkthrough: Using Profiler APIs | Microsoft Docs"
+description: Learn how to use the profiler APIs to limit the amount of data that is collected during instrumentation profiling.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:
@@ -8,7 +9,9 @@ helpviewer_keywords:
 ms.assetid: c2ae0b3e-a0ca-4967-b4df-e319008f520e
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
+monikerRange: 'vs-2017'
 ms.workload:
   - "multiple"
 ---
@@ -24,9 +27,6 @@ The walkthrough uses a C# application to demonstrate how to use the [!INCLUDE[vs
 
  The Visual Studio profiler allows you to limit the collection of data. This walkthrough offers an example of how to limit the collection of data by using the profiler APIs. The Visual Studio profiler provides an API for controlling data collection from within an application.
 
- ::: moniker range=">=vs-2019"
- For native code, the Visual Studio profiler APIs are in *VSPerf.dll*. The header file, *VSPerf.h*, and the import library, *VSPerf.lib*, are located in the *Microsoft Visual Studio\2019\Team Tools\Performance Tools\PerfSDK* directory.  For 64-bit apps, the folder is *Microsoft Visual Studio\2019\Team Tools\Performance Tools\x64\PerfSDK*
- ::: moniker-end
  ::: moniker range="vs-2017"
  For native code, the Visual Studio profiler APIs are in *VSPerf.dll*. The header file, *VSPerf.h*, and the import library, *VSPerf.lib*, are located in the *Microsoft Visual Studio\2017\Team Tools\Performance Tools\PerfSDK* directory.  For 64-bit apps, the folder is *Microsoft Visual Studio\2017\Team Tools\Performance Tools\x64\PerfSDK*
  ::: moniker-end

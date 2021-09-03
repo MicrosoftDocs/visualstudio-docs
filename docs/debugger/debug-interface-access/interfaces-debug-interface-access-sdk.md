@@ -1,7 +1,8 @@
 ---
+description: "Methods are listed alphabetically under each interface in the table of contents and on the interface page in Vtable order."
 title: "Interfaces (Debug Interface Access SDK) | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -10,7 +11,8 @@ helpviewer_keywords:
 ms.assetid: 62aee7c3-d314-4272-a32b-b2818f32fab8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -160,6 +162,6 @@ Describes the enumerations and structures used by the various interfaces of the 
 
 Describes the constants available in the DIA SDK.
 
-## See Also
+## See also
 
 - [Reference](../../debugger/debug-interface-access/debug-interface-access-sdk-reference.md)

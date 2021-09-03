@@ -6,8 +6,10 @@ ms.date: 11/19/2018
 ms.topic: tutorial
 author: JoshuaPartlow
 ms.author: joshuapa
-manager: jillfra
+manager: jmartens
+ms.technology: vs-python
 ms.custom: seodec18
+monikerRange: vs-2017
 ms.workload:
   - python
   - data-science
@@ -107,9 +109,9 @@ class Choice(models.Model):
         return self.text
 ```
 
-As you can see, a Poll maintains a description in its `text` field and a publication date in `pub_date`. These fields are the only ones that exist for the Poll in the database; the `total_votes` field is calculated at runtime.
+As you can see, a Poll maintains a description in its `text` field and a publication date in `pub_date`. These fields are the only ones that exist for the Poll in the database; the `total_votes` field is calculated at run time.
 
-A Choice is related to a Poll through the `poll` field, contains a description in `text`, and maintains a count for that choice in `votes`. The `votes_percentage` field is calculated at runtime and is not found in the database.
+A Choice is related to a Poll through the `poll` field, contains a description in `text`, and maintains a count for that choice in `votes`. The `votes_percentage` field is calculated at run time and is not found in the database.
 
 The full list of field types is `CharField` (limited text) `TextField` (unlimited text), `EmailField`, `URLField`, `DateTimeField`, `IntegerField`, `DecimalField`, `BooleanField`, `ForeignKey`, and `ManyToMany`. Each field takes some attributes, like `max_length`. The `blank=True` attribute means the field is optional; `null=true` means that a value is optional. There is also a `choices` attribute that limits values to values in an array of data value/display value tuples. (See the [Model field reference](https://docs.djangoproject.com/en/2.0/ref/models/fields/) in the Django documentation.)
 
@@ -155,7 +157,7 @@ To see the effect, run the app first to see that no polls yet exist. Then visit 
 
 ### Question: Is it possible to initialize the database using the Django administrative utility?
 
-Answer: Yes, you can use the [django-admin loaddata command](https://docs.djangoproject.com/en/1.9/ref/django-admin/#loaddata) to accomplish the same task as the seeding page in the app. When working on a full web app, you might use a combination of the two methods: initialize a database from the command line, then convert the seed page here to an API to which you can send any other arbitrary JSON rather than relying on a hard-coded file.
+Answer: Yes, you can use the [django-admin loaddata command](https://docs.djangoproject.com/en/2.0/ref/django-admin/#loaddata) to accomplish the same task as the seeding page in the app. When working on a full web app, you might use a combination of the two methods: initialize a database from the command line, then convert the seed page here to an API to which you can send any other arbitrary JSON rather than relying on a hard-coded file.
 
 ## Step 6-3: Use migrations
 
@@ -187,7 +189,7 @@ Overall, Django's migration feature means that you need never manage your databa
 
 ### Question: What happens if I forget to run the migrate command after making changes to models?
 
-Answer: If the models don't match what's in the database, Django fails at runtime with appropriate exceptions. For example, if you forget to migrate the model change shown in the previous section, you see an error **no such column: app_poll.author**:
+Answer: If the models don't match what's in the database, Django fails at run time with appropriate exceptions. For example, if you forget to migrate the model change shown in the previous section, you see an error **no such column: app_poll.author**:
 
 ![Error shown when a model change has not been migrated](media/django/step06-exception-when-forgetting-to-migrate.png).
 
@@ -369,6 +371,6 @@ Running a web app on your development computer is just one step in making the ap
 
 - Write unit tests in *tests.py*; the Visual Studio project templates provide starting points for these, and more information can be found on [Writing your first Django app, part 5 - testing](https://docs.djangoproject.com/en/2.0/intro/tutorial05/) and [Testing in Django](https://docs.djangoproject.com/en/2.0/topics/testing/) in the Django documentation.
 
-- Change the app from SQLite to a production-level data store such as PostgreSQL, MySQL, and SQL Server (all of which can be hosted on Azure). As described on [When to use SQLite](https://www.sqlite.org/whentouse.html) (sqlite.org), SQLite works fine for low to medium traffic sites with fewer than 100K hits/day, but is not recommended for higher volumes. It's also limited to a single computer, so it cannot be used in any multi-server scenario such as load-balancing and geo-replication. For information on Django's support for other databases, see [Database setup](https://docs.djangoproject.com/en/2.0/intro/tutorial02/#database-setup). You can also use the [Azure SDK for Python](/python/azure/?view=azure-python) to work with Azure storage services like tables and blobs.
+- Change the app from SQLite to a production-level data store such as PostgreSQL, MySQL, and SQL Server (all of which can be hosted on Azure). As described on [When to use SQLite](https://www.sqlite.org/whentouse.html) (sqlite.org), SQLite works fine for low to medium traffic sites with fewer than 100K hits/day, but is not recommended for higher volumes. It's also limited to a single computer, so it cannot be used in any multi-server scenario such as load-balancing and geo-replication. For information on Django's support for other databases, see [Database setup](https://docs.djangoproject.com/en/2.0/intro/tutorial02/#database-setup). You can also use the [Azure SDK for Python](/azure/python/) to work with Azure storage services like tables and blobs.
 
-- Set up a continuous integration/continuous deployment pipeline on a service like Azure DevOps. In addition to working with source control (via Azure Repos or GitHub, or elsewhere), you can configure an Azure DevOps Project to automatically run your unit tests as a pre-requisite for release, and also configure the pipeline to deploy to a staging server for additional tests before deploying to production. Azure DevOps, furthermore, integrates with monitoring solutions like App Insights and closes the whole cycle with agile planning tools. For more information, see [Create a CI/CD pipeline for Python with the Azure DevOps project](/azure/devops-project/azure-devops-project-python?view=vsts) and also the general [Azure DevOps documentation](/azure/devops/?view=vsts).
+- Set up a continuous integration/continuous deployment pipeline on a service like Azure DevOps. In addition to working with source control (via Azure Repos or GitHub, or elsewhere), you can configure an Azure DevOps Project to automatically run your unit tests as a pre-requisite for release, and also configure the pipeline to deploy to a staging server for additional tests before deploying to production. Azure DevOps, furthermore, integrates with monitoring solutions like App Insights and closes the whole cycle with agile planning tools. For more information, see [Create a CI/CD pipeline for Python with the Azure DevOps project](/azure/devops-project/azure-devops-project-python?view=vsts&preserve-view=true) and also the general [Azure DevOps documentation](/azure/devops/?view=vsts&preserve-view=true).

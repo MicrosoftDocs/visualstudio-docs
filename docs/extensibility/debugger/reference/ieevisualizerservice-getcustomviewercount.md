@@ -1,20 +1,22 @@
 ---
-title: "IEEVisualizerService::GetCustomViewerCount | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "This method gets the number of type visualizers available from this service."
+title: IEEVisualizerService::GetCustomViewerCount | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IEEVisualizerService::GetCustomViewerCount"
+- IEEVisualizerService::GetCustomViewerCount
 helpviewer_keywords:
-  - "IEEVisualizerService::GetCustomViewerCount method"
+- IEEVisualizerService::GetCustomViewerCount method
 ms.assetid: f7b095c2-e538-4352-8cad-d4c6d4f6bdbc
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IEEVisualizerService::GetCustomViewerCount
 This method gets the number of type visualizers available from this service.

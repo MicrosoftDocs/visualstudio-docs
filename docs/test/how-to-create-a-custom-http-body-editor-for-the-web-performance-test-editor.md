@@ -1,13 +1,16 @@
 ---
-title: "Create custom HTTP body editor for Web Performance Test Editor"
+title: Create a HTTP body editor for a web performance test
+description: Learn how to create a custom content editor that enables you to edit the string body content or the binary body content of a web service request.
+ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
-ms.topic: conceptual
-helpviewer_keywords:
-  - "Web performance tests, custom HTTP body editor"
+ms.topic: how-to
+helpviewer_keywords: 
+  - Web performance tests, custom HTTP body editor
 ms.assetid: a0b2d8ff-3e2a-487e-9172-90047174f336
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.technology: vs-ide-test
 ---
 # How to: Create a custom HTTP body editor for the Web Performance Test Editor
 

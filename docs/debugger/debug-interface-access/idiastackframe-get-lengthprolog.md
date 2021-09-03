@@ -1,7 +1,8 @@
 ---
+description: "IDiaStackFrame::get_lengthProlog retrieves the number of bytes of prologue code in the block."
 title: "IDiaStackFrame::get_lengthProlog | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,8 @@ helpviewer_keywords:
 ms.assetid: 9894c5ca-835f-41e9-a35e-70e046dfb7f0
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -32,5 +34,5 @@ HRESULT get_lengthProlog ( 
 ## Return Value
  If successful, returns `S_OK`. Returns `S_FALSE` if the property is not supported. Otherwise, returns an error code.
 
-## See Also
+## See also
 - [IDiaStackFrame](../../debugger/debug-interface-access/idiastackframe.md)

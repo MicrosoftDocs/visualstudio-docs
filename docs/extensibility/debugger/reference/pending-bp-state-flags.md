@@ -1,20 +1,22 @@
 ---
-title: "PENDING_BP_STATE_FLAGS | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Specifies the pending breakpoint state flags."
+title: PENDING_BP_STATE_FLAGS | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "PENDING_BP_STATE_FLAGS"
+- PENDING_BP_STATE_FLAGS
 helpviewer_keywords:
-  - "PENDING_BP_STATE_FLAGS enumeration"
+- PENDING_BP_STATE_FLAGS enumeration
 ms.assetid: 85522449-3fd8-4da5-b0fe-a43160e0c33b
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # PENDING_BP_STATE_FLAGS
 Specifies the pending breakpoint state flags.

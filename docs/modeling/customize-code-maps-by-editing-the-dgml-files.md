@@ -1,25 +1,28 @@
 ---
 title: Customize code maps by editing the DGML files
+description: Learn how to customize a code map by editing its Directed Graph Markup Language (.dgml) file.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
-  - "dependency graphs, creating path aliases"
-  - "dependency graphs, linking items to nodes"
-  - "graph documents, creating path aliases"
-  - "dependency graphs, grouping nodes"
-  - "graph documents, editing"
-  - "graph documents, linking items to nodes"
-  - "graph documents, customizing"
-  - "graph documentings, assigning categories and properties"
-  - "dependency graphs, editing"
-  - "dependency graphs, customizing"
-  - "graph documents, grouping nodes"
-  - "dependency graphs, assigning categories and properties"
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+- dependency graphs, creating path aliases
+- dependency graphs, linking items to nodes
+- graph documents, creating path aliases
+- dependency graphs, grouping nodes
+- graph documents, editing
+- graph documents, linking items to nodes
+- graph documents, customizing
+- graph documentings, assigning categories and properties
+- dependency graphs, editing
+- dependency graphs, customizing
+- graph documents, grouping nodes
+- dependency graphs, assigning categories and properties
+author: mgoertz-msft
+ms.author: mgoertz
+manager: jmartens
+ms.technology: vs-ide-modeling
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Customize code maps by editing the DGML files
 
@@ -632,7 +635,7 @@ Edit the code map's .dgml file in a text or XML editor. If the map is part of yo
 
 5. To view the referenced code element or code elements from the map, open the shortcut menu for the code element or the link. Choose **Go To Reference** and then the code element.
 
-## See Also
+## See also
 
 - [Map dependencies across your solutions](../modeling/map-dependencies-across-your-solutions.md)
 - [Use code maps to debug your applications](../modeling/use-code-maps-to-debug-your-applications.md)

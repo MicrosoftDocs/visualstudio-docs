@@ -1,15 +1,18 @@
 ---
-title: "Source Control Design Decisions | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Source Control Design Decisions | Microsoft Docs
+description: Learn about several key design decisions to consider for projects when implementing source control.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "source control [Visual Studio SDK], design decisions"
+- source control [Visual Studio SDK], design decisions
 ms.assetid: 5f60ec1a-5a74-4362-8293-817a4dd73872
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Source Control Design Decisions
 The following design decisions should be considered for projects when implementing source control.
@@ -28,7 +31,7 @@ The following design decisions should be considered for projects when implementi
 
 3. When your project or editor calls <xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2.QueryEditFiles%2A> for a file, the special files associated with that file are not automatically checked out. Pass the special files in along with the parent file. The environment will detect the relationship between all files that are passed in and appropriately hide the special files in the check-out UI.
 
-## See Also
+## See also
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2.QueryEditFiles%2A>
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsTrackProjectDocumentsEvents2>
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsTrackProjectDocuments2>

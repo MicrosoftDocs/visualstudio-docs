@@ -1,13 +1,16 @@
 ---
-title: "How to: Create a Basic Texture"
+title: 'How to: Create a Basic Texture'
+description: Learn how to use the Image Editor to create a basic texture, including setting the size of the texture, setting tool properties, and other activities.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 ms.assetid: 0222e8bf-d29f-421b-9b1f-123d500fa179
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
+ms.technology: vs-ide-designers
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Create a basic texture
 

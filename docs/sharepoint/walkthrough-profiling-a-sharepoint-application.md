@@ -1,7 +1,9 @@
 ---
 title: "Walkthrough: Profiling a SharePoint Application | Microsoft Docs"
+description: In this walkthrough, use the profiling tools in Visual Studio to optimize the performance of a SharePoint application.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: how-to
 dev_langs:
   - "VB"
   - "CSharp"
@@ -12,7 +14,8 @@ helpviewer_keywords:
   - "profiling [SharePoint development in Visual Studio]"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
+ms.technology: sharepoint-development
 ms.workload:
   - "office"
 ---
@@ -21,7 +24,7 @@ ms.workload:
 
  This walkthrough demonstrates the following tasks:
 
-- [Addg a feature and feature event receiver](#add-a-feature-and-feature-event-receiver).
+- [Add a feature and feature event receiver](#add-a-feature-and-feature-event-receiver).
 
 - [Configure and Deploy the SharePoint application](#configure-and-deploy-the-sharepoint-application).
 
@@ -191,7 +194,7 @@ ms.workload:
 
 2. On page one of the **Performance Wizard**, leave the method of profiling as **CPU sampling** and choose the **Next** button.
 
-     The other profiling methods can be used in more advanced profiling situations. For more information, see [Understanding Performance Collection Methods](/visualstudio/profiling/understanding-performance-collection-methods).
+     The other profiling methods can be used in more advanced profiling situations. For more information, see [Understanding Performance Collection Methods](../profiling/understanding-performance-collection-methods.md).
 
 3. On page two of the **Performance Wizard**, leave the profile target as **ProfileTest** and choose the **Next** button.
 
@@ -267,7 +270,6 @@ ms.workload:
      The feature should activate much faster now that the call to the idle loop has been eliminated. The Sample Profiling Report should reflect this.
 
 ## See also
-- [Performance Explorer](/visualstudio/profiling/performance-explorer)
-- [Performance Session Overview](/visualstudio/profiling/performance-session-overview)
-- [Beginners Guide to Performance Profiling](/visualstudio/profiling/beginners-guide-to-performance-profiling)
-- [Find Application Bottlenecks with Visual Studio Profiler](http://go.microsoft.com/fwlink/?LinkID=137266)
+- [Performance Session Overview](../profiling/performance-session-overview.md)
+- [Beginners Guide to Performance Profiling](../profiling/beginners-guide-to-performance-profiling.md)
+- [Find Application Bottlenecks with Visual Studio Profiler](/archive/msdn-magazine/2008/march/find-application-bottlenecks-with-visual-studio-profiler)

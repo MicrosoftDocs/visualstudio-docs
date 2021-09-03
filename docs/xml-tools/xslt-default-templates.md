@@ -1,13 +1,16 @@
 ---
-title: "XSLT Default Templates"
+title: XSLT Default Templates
+description: Learn about the XSLT default templates that are used during XSLT processing when there is no matching explicit template rule in the style sheet.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: 773dd34e-67d3-4997-8df9-b71e7f880d88
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
+ms.technology: vs-xml-tools
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # XSLT default templates
 

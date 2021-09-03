@@ -2,7 +2,7 @@
 # Auto-expanded node
   items:
   - name: Visual Studio Tools for AI
-    href: index.yml
+    href: overview.md
   - name: Overview
     href: about-ai-tools.md
   - name: Installation

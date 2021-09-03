@@ -1,21 +1,23 @@
 ---
-title: "Specify where to copy files | Microsoft Docs"
-ms.custom: "seodec18"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-helpviewer_keywords:
-  - "publishing, specifying location"
-  - "Publish Location property"
+title: Specify where to copy files | Microsoft Docs
+description: Learn how to set the Publish Location property for a ClickOnce application, which specifies the location where the application files and manifest are put.
+ms.custom: [SEO-VS-2020, seodec18]
+ms.date: 11/04/2016
+ms.topic: how-to
+dev_langs: 
+  - VB
+  - CSharp
+  - C++
+helpviewer_keywords: 
+  - publishing, specifying location
+  - Publish Location property
 ms.assetid: 6c552700-dda3-49fe-af98-4717344fda07
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
-ms.workload:
-  - "multiple"
+manager: jmartens
+ms.technology: vs-ide-deployment
+ms.workload: 
+  - multiple
 ---
 # How to: Specify where Visual Studio copies the files
 When you publish an application by using ClickOnce, the `Publish Location` property specifies the location where the application files and manifest are put. This can be a file path or the path to an FTP server.

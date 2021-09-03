@@ -1,20 +1,21 @@
 ---
 title: Error List Window
+description: Learn about the Error List window and how to use it to perform tasks related to resolving the errors it displays.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
-f1_keywords:
-  - "VS.ErrorList"
 helpviewer_keywords:
-  - "Task List"
-  - "build errors"
-  - "Error List window"
-  - "errors [Visual Studio], Error List window"
+- Task List
+- build errors
+- Error List window
+- errors [Visual Studio], Error List window
 ms.assetid: b7f6d45a-733b-4ad8-bc2f-737a37509e56
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Error List Window
 

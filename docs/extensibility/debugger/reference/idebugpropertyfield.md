@@ -1,17 +1,19 @@
 ---
-title: "IDebugPropertyField | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "This interface provides the functions that allow getting and setting a property."
+title: IDebugPropertyField | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugPropertyField"
+- IDebugPropertyField
 helpviewer_keywords:
-  - "IDebugPropertyField interface"
+- IDebugPropertyField interface
 ms.assetid: b50edb2c-fb8d-4def-993d-17d23d2027c1
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IDebugPropertyField
 This interface provides the functions that allow getting and setting a property.

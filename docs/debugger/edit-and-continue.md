@@ -1,6 +1,7 @@
 ---
 title: "Edit code and continue debugging | Microsoft Docs"
-ms.custom: "seodec18"
+description: Use the Edit and Continue command while debugging in Visual Studio so that you can make changes to your source code while your program is in break mode.
+ms.custom: "SEO-VS-2020"
 ms.date: "05/31/2018"
 ms.topic: "conceptual"
 f1_keywords:
@@ -18,7 +19,8 @@ helpviewer_keywords:
 ms.assetid: 2cdd4531-7117-4221-a809-8447812de2a1
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -31,7 +33,7 @@ Edit and Continue is a time-saving feature that enables you to make changes to y
 
  [How to: Stop Code Changes](../debugger/how-to-stop-code-changes.md)
 
- [Edit and Continue (Visual C++)](../debugger/edit-and-continue-visual-cpp.md)
+ [Edit and Continue (C++)](../debugger/edit-and-continue-visual-cpp.md)
 
  [Edit and Continue (Visual C#)](../debugger/edit-and-continue-visual-csharp.md)
 
@@ -39,7 +41,6 @@ Edit and Continue is a time-saving feature that enables you to make changes to y
 
  [Edit and Continue Not Supported for F#](../debugger/edit-and-continue-not-supported-for-f-hash.md)
 
-## See Also
+## See also
 - [Debugger Security](../debugger/debugger-security.md)
-- [Edit and Continue, Debugging, Options Dialog Box](https://msdn.microsoft.com/library/bcew296c.aspx)
 - [First look at the debugger](../debugger/debugger-feature-tour.md)

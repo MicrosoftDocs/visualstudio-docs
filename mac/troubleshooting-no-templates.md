@@ -2,8 +2,8 @@
 title: Why can I not see all available templates?
 description: "Troubleshooting article on why you cannot see all available templates."
 ms.topic: troubleshooting
-author: asb3993
-ms.author: amburns
+author: heiligerdankgesang
+ms.author: dominicn
 ms.date: 04/02/2019
 ms.assetid: 297D9094-B40F-4C1A-BF19-B14CB735003A
 ---
@@ -21,4 +21,4 @@ In the New Project Dialog you only see the templates of components that have bee
 |Mac     |macOS (Cocoa)         |
 |.NET Core     |.NET Core         |
 
-Run the VisualStudioForMacInstaller.dmg again to install the components. If you no longer have it, you can download it from the [Visual Studio for Mac](https://aka.ms/vsmac) webpage.
+Run the VisualStudioForMacInstaller.dmg again to install the components. If you no longer have it, you can download it from the [Visual Studio for Mac](https://visualstudio.microsoft.com/vs/mac/) webpage.

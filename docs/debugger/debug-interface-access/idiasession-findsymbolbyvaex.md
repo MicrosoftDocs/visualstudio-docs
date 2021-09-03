@@ -1,7 +1,8 @@
 ---
+description: "Retrieves a specified symbol type that contains, or is closest to, a specified virtual address (VA) and offset."
 title: "IDiaSession::findSymbolByVAEx | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,8 @@ helpviewer_keywords:
 ms.assetid: 11c685f6-cda2-4474-a432-214ecaae4ffa
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -55,7 +57,7 @@ LONG disp = 0;
 pSession->findSymbolByVAEx( va, SymTagFunction, &pFunc, &disp );
 ```
 
-## See Also
+## See also
 - [IDiaSession](../../debugger/debug-interface-access/idiasession.md)
 - [IDiaSession::findChildren](../../debugger/debug-interface-access/idiasession-findchildren.md)
 - [IDiaSession::findSymbolByVA](../../debugger/debug-interface-access/idiasession-findsymbolbyva.md)

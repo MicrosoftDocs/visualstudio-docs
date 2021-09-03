@@ -1,13 +1,16 @@
 ---
-title: "Composite Patterns for Visual Studio | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Composite Patterns for Visual Studio | Microsoft Docs
+description: Learn about important composite patterns for consistency in Visual Studio. Composite patterns combine interaction and design elements.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: reference
 ms.assetid: e48ecfb2-f4b5-4d3a-b4a2-7a4d62fa4ec0
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Composite Patterns for Visual Studio
 Composite patterns combine interaction and design elements in distinct configurations. Some of the most important composite patterns in Visual Studio with regard to consistency include:
@@ -514,13 +517,13 @@ Composite patterns combine interaction and design elements in distinct configura
 
 ||Basic experience|Optimized experience|Elevated experience|
 |-|----------------------|--------------------------|-------------------------|
-|Enables users to ...|Fix code and solution/project-level reading without dead ends|Perform maintenance, refactors, and navigation tasks|Operate in a consistent, intuitive, and fluid experience with confidence|
-|Editor|Touch panning and selection<br /><br /> Scrollbar touch to jump and press+drag|Pinch zoom<br /><br /> Fast scroll<br /><br /> Selection<br /><br /> Easy use of context menu||
-|Top tool windows|List panning<br /><br /> Item selection<br /><br /> Scrollbar touch to jump and press+drag|Easy item scrolling and selection||
-|Windowing||Resize window<br /><br /> Quick access||
-|Document well||Easy navigation between open files||
-|Gestures||Ensure common gestures work across the IDE|Gesture-based actions<br /><br /> Support drag-and-drop and designers|
-|Other considerations|||Custom onscreen keyboard|
+|**Enables users to ...**|Fix code and solution/project-level reading without dead ends|Perform maintenance, refactors, and navigation tasks|Operate in a consistent, intuitive, and fluid experience with confidence|
+|**Editor**|Touch panning and selection<br /><br /> Scrollbar touch to jump and press+drag|Pinch zoom<br /><br /> Fast scroll<br /><br /> Selection<br /><br /> Easy use of context menu||
+|**Top tool windows**|List panning<br /><br /> Item selection<br /><br /> Scrollbar touch to jump and press+drag|Easy item scrolling and selection||
+|**Windowing**||Resize window<br /><br /> Quick access||
+|**Document well**||Easy navigation between open files||
+|**Gestures**||Ensure common gestures work across the IDE|Gesture-based actions<br /><br /> Support drag-and-drop and designers|
+|**Other considerations**|||Custom onscreen keyboard|
 
 #### Gestures
  Gestures provide users a shortcut to commands that might otherwise require a more complicated interaction. Refer to the Windows guidelines on [common touch gestures for Desktop Applications](/windows/desktop/wintouch/windows-touch-gestures-overview), and follow this guidance for most gestures, including simple gestures such as panning and zooming.

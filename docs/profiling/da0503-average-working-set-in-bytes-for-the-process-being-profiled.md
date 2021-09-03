@@ -1,21 +1,24 @@
 ---
-title: "DA0503: Average Working Set in Bytes for the Process being profiled | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-f1_keywords:
-  - "vs.performance.503"
-  - "vs.performance.DA0503"
-  - "vs.performance.rules.DA0503"
+title: DA0503 - Average Working Set in Bytes for the Process being profiled | Microsoft Docs
+description: "This message reports the average amount of physical memory that the process is currently using in bytes (the working set)."
+ms.date: 11/04/2016
+ms.topic: reference
+f1_keywords: 
+  - vs.performance.503
+  - vs.performance.DA0503
+  - vs.performance.rules.DA0503
 ms.assetid: 9047a494-eaaf-4679-b422-c64e8bde77a4
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
-ms.workload:
-  - "multiple"
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.technology: vs-ide-debug
+monikerRange: 'vs-2017'
+ms.workload: 
+  - multiple
 ---
 # DA0503: Average working set in bytes for the process being profiled
 
-|||
+|Item|Value|
 |-|-|
 |Rule Id|DA0503|
 |Category|Resource Monitoring|
@@ -34,7 +37,7 @@ ms.workload:
 
  The size of the process working set reflects how much virtual memory the process is actively using. It is also affected by the amount of physical memory (or RAM) available to run the application and contention for that physical memory from other running processes. If physical memory is constrained, the value of the process working set is apt to vary significantly as the operating systems tries to balance memory usage across active processes by periodically trimming fairly inactive pages from process working sets.
 
- For more information about process working sets, see [Working Set](http://go.microsoft.com/fwlink/?LinkId=177830) in the Windows Memory Management documentation of MSDN.
+ For more information about process working sets, see [Working Set](/windows/win32/memory/working-set) in the Windows Memory Management documentation of MSDN.
 
 ## How to use rule data
  Use the rule value to compare the performance of different versions or builds of the program or to understand the performance of the application under different profiling scenarios.

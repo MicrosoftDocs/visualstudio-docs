@@ -1,5 +1,7 @@
 ---
 title: "&lt;dependency&gt; Element (ClickOnce Application) | Microsoft Docs"
+description: The dependency element identifies a platform or assembly dependency that is required for the application.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 f1_keywords:
@@ -23,7 +25,8 @@ helpviewer_keywords:
 ms.assetid: 09d6a1e0-60f8-4fbd-843b-8e49ee3115a3
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-deployment
 ms.workload:
   - "multiple"
 ---
@@ -119,7 +122,7 @@ Identifies a platform or assembly dependency that is required for the applicatio
 | Attribute | Description |
 |-----------------------| - |
 | `dependencyType` | Required. Specifies the dependency type. Valid values are `preprequisite` and `install`. An `install` assembly is installed as part of the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application. A `prerequisite` assembly must be present in the global assembly cache (GAC) before the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application can install. |
-| `allowDelayedBinding` | Required. Specifies whether the assembly can be loaded programmatically at runtime. |
+| `allowDelayedBinding` | Required. Specifies whether the assembly can be loaded programmatically at run time. |
 | `group` | Optional. If the `dependencyType` attribute is set to `install`, designates a named group of assemblies that only install on demand. For more information, see [Walkthrough: Downloading Assemblies on Demand with the ClickOnce Deployment API Using the Designer](../deployment/walkthrough-downloading-assemblies-on-demand-with-the-clickonce-deployment-api-using-the-designer.md).<br /><br /> If set to `framework` and the `dependencyType` attribute is set to `prerequisite`, designates the assembly as part of the .NET Framework. The global assemby cache (GAC) is not checked for this assembly when installing on .NET Framework 4 and later versions. |
 | `codeBase` | Required when the `dependencyType` attribute is set to `install`. The path to the dependent assembly. May be either an absolute path, or a path relative to the manifest's code base. This path must be a valid URI in order for the assembly manifest to be valid. |
 | `size` | Required when the `dependencyType` attribute is set to `install`. The size of the dependent assembly, in bytes. |

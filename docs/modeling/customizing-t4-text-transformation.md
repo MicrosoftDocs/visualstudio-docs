@@ -1,15 +1,18 @@
 ---
 title: Customizing T4 Text Transformation
+description: Learn how you can extend the default template transformation process by customizing the text template directive processor or the text template host.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "text templates, API"
-  - "text templates, custom hosts"
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+- text templates, API
+- text templates, custom hosts
+author: mgoertz-msft
+ms.author: mgoertz
+manager: jmartens
+ms.technology: vs-ide-modeling
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Customize T4 Text Transformation
 
@@ -21,7 +24,7 @@ Text templates are a feature of Visual Studio that allow you to generate program
  Describes how text transformation works, and explains the role of the template host and the directive processors.
 
  [Creating Custom T4 Text Template Directive Processors](../modeling/creating-custom-t4-text-template-directive-processors.md)
- The directive processor deals with directives in your template, such as `<#@template#>.` It runs during the compilation of the template, and can load assemblies and other resources. It can also insert code that will load resources at runtime. By defining your own directive processor, you can reduce the complexity of your templates.
+ The directive processor deals with directives in your template, such as `<#@template#>.` It runs during the compilation of the template, and can load assemblies and other resources. It can also insert code that will load resources at run time. By defining your own directive processor, you can reduce the complexity of your templates.
 
  [Invoking Text Transformation in a VS Extension](../modeling/invoking-text-transformation-in-a-vs-extension.md)
  If you are writing a Visual Studio extension such as a menu command or event handler, your extension can use the Text Templating Service to transform any text template. You can pass parameter data into the template by using the Session object, and get the values from within the template by using the `<#@parameter#>` directive.

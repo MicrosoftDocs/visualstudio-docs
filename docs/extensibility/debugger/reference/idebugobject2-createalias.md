@@ -1,20 +1,22 @@
 ---
-title: "IDebugObject2::CreateAlias | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Creates a unique ID or alias for this object or returns an existing alias."
+title: IDebugObject2::CreateAlias | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugObject2::CreateAlias"
+- IDebugObject2::CreateAlias
 helpviewer_keywords:
-  - "IDebugObject2::CreateAlias method"
+- IDebugObject2::CreateAlias method
 ms.assetid: 54a05920-5d13-4f67-962b-d1a7f013dff9
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugObject2::CreateAlias
 Creates a unique ID or alias for this object or returns an existing alias.

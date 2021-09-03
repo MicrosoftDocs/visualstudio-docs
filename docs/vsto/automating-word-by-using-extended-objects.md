@@ -1,5 +1,7 @@
 ---
 title: "Automate Word by using extended objects"
+description: Learn how you can use host items and host controls in your solutions when you develop Word solutions in Visual Studio.
+ms.custom: SEO-VS-2020
 ms.date: 02/02/2017
 ms.topic: conceptual
 dev_langs:
@@ -17,7 +19,8 @@ helpviewer_keywords:
   - "Word [Office development in Visual Studio], host controls"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
+ms.technology: office-development
 ms.workload:
   - "office"
 ---
@@ -36,7 +39,7 @@ ms.workload:
 ## Word host controls
  There are several host controls for Word that help you create, organize, and automate documents. Most of their functionality involves importing, presenting, and protecting data. These host controls provide events and data-binding capabilities that their counterparts in the native Word object model do not have.
 
- In document-level projects, you can add any host control to your document at design time, or you can add content controls and bookmark controls at runtime. In VSTO Add-in projects, you can add content controls and bookmark controls to any open document at runtime.
+ In document-level projects, you can add any host control to your document at design time, or you can add content controls and bookmark controls at run time. In VSTO Add-in projects, you can add content controls and bookmark controls to any open document at run time.
 
  For more information about the host controls you can use in Word projects, see the following topics:
 
@@ -60,4 +63,4 @@ ms.workload:
 - [Word solutions](../vsto/word-solutions.md)
 - [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md)
 - [Programmatic limitations of host items and host controls](../vsto/programmatic-limitations-of-host-items-and-host-controls.md)
-- [Extend Word documents and Excel workbooks in VSTO Add-ins at runtime](../vsto/extending-word-documents-and-excel-workbooks-in-vsto-add-ins-at-run-time.md)
+- [Extend Word documents and Excel workbooks in VSTO Add-ins at run time](../vsto/extending-word-documents-and-excel-workbooks-in-vsto-add-ins-at-run-time.md)

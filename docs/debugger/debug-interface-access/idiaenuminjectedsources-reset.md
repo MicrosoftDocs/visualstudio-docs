@@ -1,7 +1,8 @@
 ---
+description: "Resets an enumeration sequence  of injected sources to the beginning."
 title: "IDiaEnumInjectedSources::Reset | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,8 @@ helpviewer_keywords:
 ms.assetid: c28e8820-1c67-4658-821d-b5879f90cce5
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -25,5 +27,5 @@ HRESULT Reset();
 ## Return Value
  Returns `S_OK`.
 
-## See Also
+## See also
 - [IDiaEnumInjectedSources](../../debugger/debug-interface-access/idiaenuminjectedsources.md)

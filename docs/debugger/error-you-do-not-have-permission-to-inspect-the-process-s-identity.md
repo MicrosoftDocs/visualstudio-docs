@@ -1,7 +1,8 @@
 ---
-title: "Error: You do not have permission to inspect the process&#39;s identity | Microsoft Docs"
+description: "You do not have permission to inspect the process's identity."
+title: "You do not have permission to inspect the process&apos;s identity | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "troubleshooting"
+ms.topic: "error-reference"
 dev_langs:
   - "CSharp"
   - "VB"
@@ -9,7 +10,8 @@ dev_langs:
   - "C++"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -56,5 +58,5 @@ You do not have permission to inspect the process's identity. This may be due to
 
 5. Click **OK**.
 
-## See Also
+## See also
 - [Remote Debugging Errors and Troubleshooting](../debugger/remote-debugging-errors-and-troubleshooting.md)

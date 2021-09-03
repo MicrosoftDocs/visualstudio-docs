@@ -1,17 +1,20 @@
 ---
-title: "Query Edit Query Save (Source Control VSPackage) | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Query Edit Query Save (Source Control VSPackage) | Microsoft Docs
+description: Learn about the role of Query-Edit Query-Save events and how they are handled by the source control VSPackage.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "QEQS events"
-  - "Query Edit Query Save events"
-  - "source control packages, Query Edit Query Save events"
+- QEQS events
+- Query Edit Query Save events
+- source control packages, Query Edit Query Save events
 ms.assetid: c360d2ad-fe42-4d65-899d-d1588cc8a322
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Query Edit Query Save (Source Control VSPackage)
 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] editors can broadcast Query Edit Query Save (QEQS) events. [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] Source Control Stub implements the QEQS service, so that it is the recipient of QEQS events. These events are then delegated to the currently active source control VSPackage. The active source control VSPackage implements the <xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2> and its methods. The methods of the `IVsQueryEditQuerySave2` interface are typically called immediately before a document is edited for the first time and immediately before a document is saved.
@@ -29,5 +32,5 @@ ms.workload:
 
  This method must behave in a transactional manner; that is, if the save is cancelled on a single file, the save is cancelled for all the files. Conversely, if the save is allowed, it must be allowed for all the files. As with the `IVsQueryEditQuerySave2::QueryEditFiles` method, cases to consider in implementing the `IVsQueryEditQuerySave2::QuerySaveFiles` method include multiple files, special files, cancel from user, and in-memory edits.
 
-## See Also
+## See also
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2>

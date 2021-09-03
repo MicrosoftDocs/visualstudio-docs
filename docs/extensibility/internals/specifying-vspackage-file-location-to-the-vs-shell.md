@@ -1,16 +1,19 @@
 ---
-title: "Specifying VSPackage File Location to the VS Shell | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Specifying VSPackage File Location to the VS Shell | Microsoft Docs
+description: Learn how you can make it possible for Visual Studio to locate the assembly DLL to load the VSPackage.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "managed VSPackages, file location"
-  - "VSPackages, managed package file location"
+- managed VSPackages, file location
+- VSPackages, managed package file location
 ms.assetid: beb8607a-4183-4ed2-9ac8-7527f11513b1
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Specifying VSPackage File Location to the VS Shell
 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] must be able to locate the assembly DLL to load the VSPackage. You can locate it in various ways, as described in the following table.

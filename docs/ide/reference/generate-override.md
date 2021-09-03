@@ -1,12 +1,15 @@
 ---
 title: Generate a method override
+description: Learn how to immediately generate the code for any method which can be overridden from a base class.
+ms.custom: SEO-VS-2020
 ms.date: 01/26/2018
 ms.topic: reference
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
-  - "dotnet"
+- dotnet
 ---
 # Generate an override in Visual Studio
 

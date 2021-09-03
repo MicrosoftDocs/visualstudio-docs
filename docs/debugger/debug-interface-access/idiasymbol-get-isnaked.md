@@ -1,7 +1,8 @@
 ---
+description: "Retrieves a flag that specifies whether the function has the naked) attribute (that is, the function has no prolog or epilog code added by the compiler)."
 title: "IDiaSymbol::get_isNaked | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,8 @@ helpviewer_keywords:
 ms.assetid: b16629dc-8e17-476b-9c7b-58e7277c61ed
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -42,6 +44,6 @@ HRESULT get_isNaked(
 |Header:|dia2.h|
 |Version:|DIA SDK v8.0|
 
-## See Also
+## See also
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
 - [Naked Function Calls](/cpp/cpp/naked-function-calls)

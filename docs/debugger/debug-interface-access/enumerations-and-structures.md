@@ -1,7 +1,8 @@
 ---
+description: "These are the enumerations and structures used by the DIA SDK."
 title: "Enumerations and Structures | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -12,7 +13,8 @@ helpviewer_keywords:
 ms.assetid: d17eed2d-d8fd-4a47-82d3-8125c0624010
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -96,6 +98,6 @@ Specifies the interfaces provided by the DIA SDK.
 
 Specifies the constants that are available in the DIA SDK.
 
-## See Also
+## See also
 
 - [Reference](../../debugger/debug-interface-access/debug-interface-access-sdk-reference.md)

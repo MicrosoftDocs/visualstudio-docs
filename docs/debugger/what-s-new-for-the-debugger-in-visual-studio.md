@@ -1,6 +1,8 @@
 ---
 title: "What's New for the Debugger in Visual Studio 2017 | Microsoft Docs"
 titleSuffix: ""
+description: "See the new features in debugger version 15.5. Included are: snapshots of selected code of in-production apps, and Intellitrace step-back."
+ms.custom: SEO-VS-2020
 ms.date: "01/22/2018"
 ms.topic: "conceptual"
 dev_langs:
@@ -16,7 +18,8 @@ helpviewer_keywords:
 ms.assetid: 2aed9caa-2384-4e49-8595-82d8b06cf271
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 monikerRange: vs-2017
@@ -40,7 +43,7 @@ The debugger includes these new features:
 
     ![Step Backward and Forward Buttons](../debugger/media/intellitrace-step-back-icons-description.png  "Step Backward and Forward buttons")
 
-    For more information, see the [Inspect previous app states using IntelliTrace](../debugger/view-historical-application-state.md) page.
+    For more information, see the [Inspect previous app states using IntelliTrace](view-historical-application-state.md) page.
 
 - The **Exception Helper** replaces the Exception Assistant and appears in a non-modal dialog box where the error occurred. The **Exception Helper** provides quicker access to any inner exceptions, additional analysis by the debugger (if available), and immediate access to the **Exception Settings** for the exception. The Exception Helper can also be dragged to a floating view if it is blocking something that you need to see.
 
@@ -48,7 +51,7 @@ The debugger includes these new features:
 
     ![Debugger's Exception Helper](../debugger/media/dbg-exception-helper.png "DbgExceptionHelper")
 
-    For more information, see the [Using the New Exception Helper in Visual Studio](https://blogs.msdn.microsoft.com/visualstudioalm/2016/03/31/using-the-new-exception-helper-in-visual-studio-15-preview/) blog post.
+    For more information, see the [Using the New Exception Helper in Visual Studio](https://devblogs.microsoft.com/devops/using-the-new-exception-helper-in-visual-studio-15-preview/) blog post.
 
 - You can now run to a line of code while paused in the debugger by selecting the **Run execution to here** green arrow icon (you see the icon while hovering over a line of code). This eliminates the need to set temporary breakpoints.
 
@@ -66,5 +69,5 @@ For more information on these new features, see the [Release Notes for [!include
 
 ## See also
 
-- [Debugging in Visual Studio](../debugger/index.md)
+- [Debugging in Visual Studio](../debugger/index.yml)
 - [First look at the debugger](../debugger/debugger-feature-tour.md)

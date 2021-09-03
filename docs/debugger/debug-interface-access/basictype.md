@@ -1,7 +1,9 @@
 ---
 title: "BasicType | Microsoft Docs"
+description: Find reference information about the BasicType enumeration, which specifies a symbol's basic type in the Visual Studio debug interface access SDK.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +11,8 @@ helpviewer_keywords:
 ms.assetid: 19ae53ba-cd6e-47b6-9f94-27ae663ce955
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -104,7 +107,7 @@ The values in this enumeration are returned by the [IDiaSymbol::get_baseType](..
 ## Requirements
 Header: cvconst.h
 
-## See Also
+## See also
 - [Enumerations and Structures](../../debugger/debug-interface-access/enumerations-and-structures.md)
 - [IDiaSymbol::get_baseType](../../debugger/debug-interface-access/idiasymbol-get-basetype.md)
 - [IDiaSymbol::get_length](../../debugger/debug-interface-access/idiasymbol-get-length.md)

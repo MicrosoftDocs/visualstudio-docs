@@ -1,16 +1,19 @@
 ---
-title: "Workflow Designer - TryCatch Activity Designer"
+title: Workflow Designer - TryCatch Activity Designer
+description: Learn about the TryCatch activity and how you can use the TryCatch activity designer to create and configure a TryCatch activity. 
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "System.Activities.Statements.TryCatch.UI"
-  - "System.Activities.Statements.Catch`1.UI"
+- System.Activities.Statements.TryCatch.UI
+- System.Activities.Statements.Catch`1.UI
 ms.assetid: 02a326c2-4009-442f-b7cb-e42121fd2992
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
+ms.technology: vs-workflow-designer
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # TryCatch Activity Designer
 

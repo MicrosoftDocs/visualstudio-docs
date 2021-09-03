@@ -1,21 +1,21 @@
 ---
-title: Introduction to editing for C# developers
+title: "Tutorial: Editing for C# developers"
 description: This 10-minute introduction to the code editor in Visual Studio shows some of the ways that Visual Studio makes writing, navigating, and understanding C# code easier.
-ms.custom: "seodec18, get-started"
+ms.custom: vs-acquisition, get-started
 ms.date: 11/20/2018
 ms.technology: vs-ide-general
 ms.topic: tutorial
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: anandmeg
+ms.author: meghaanand
+manager: jmartens
 dev_langs:
-  - CSharp
+- CSharp
 ms.workload:
-  - dotnet
+- dotnet
 ---
-# Learn to use the code editor
+# Learn to use the code editor with C\#
 
-In this 10-minute introduction to the code editor in Visual Studio, we'll add code to a file to look at some of the ways that Visual Studio makes writing, navigating, and understanding code easier.
+In this 10-minute introduction to the code editor in Visual Studio, we'll add code to a file to look at some of the ways that Visual Studio makes writing, navigating, and understanding C# code easier.
 
 ::: moniker range="vs-2017"
 
@@ -26,8 +26,13 @@ In this 10-minute introduction to the code editor in Visual Studio, we'll add co
 
 ::: moniker range="vs-2019"
 
-> [!TIP]
-> If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019) page to install it for free.
+If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads) page to install it for free.
+
+::: moniker-end
+
+::: moniker range="vs-2022"
+
+If you haven't already installed Visual Studio 2022 Preview, go to the [Visual Studio 2022 Preview downloads](https://visualstudio.microsoft.com/vs/preview/vs2022) page to install it for free.
 
 ::: moniker-end
 
@@ -52,7 +57,7 @@ Start by creating a new file and adding some code to it.
 
 ::: moniker-end
 
-2. From the **File** menu on the menu bar, choose **New** > **File**.
+2. From the **File** menu on the menu bar, choose **New** > **File**, or press **Ctrl**+**N**.
 
 3. In the **New File** dialog box, under the **General** category, choose **Visual C# Class**, and then choose **Open**.
 
@@ -74,7 +79,7 @@ Visual Studio provides useful *code snippets* that you can use to quickly and ea
 
    You see the `static void Main()` method signature get added to the file. The [Main()](/dotnet/csharp/programming-guide/main-and-command-args/) method is the entry point for C# applications.
 
-The available code snippets vary for different programming languages. You can look at the available code snippets for your language by choosing **Edit** > **IntelliSense** > **Insert Snippet**, and then choosing your language's folder. For C#, the list looks like this:
+The available code snippets vary for different programming languages. You can look at the available code snippets for your language by choosing **Edit** > **IntelliSense** > **Insert Snippet** or pressing **Ctrl**+**K**, **Ctrl**+**X**, and then choosing your language's folder. For C#, the list looks like this:
 
 ![C# code snippet list](../media/tutorial-code-snippet-list.png)
 
@@ -180,7 +185,7 @@ Nobody gets code right the first time, and one of the things you might have to c
 ## Next steps
 
 > [!div class="nextstepaction"]
-> [Learn about projects and solutions](tutorial-projects-solutions.md)
+> [Learn about projects and solutions](../tutorial-projects-solutions.md)
 
 ## See also
 

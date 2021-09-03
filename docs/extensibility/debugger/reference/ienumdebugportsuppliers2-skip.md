@@ -1,20 +1,22 @@
 ---
-title: "IEnumDebugPortSuppliers2::Skip | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Skips over the specified number of elements in the port suppliers enumeration."
+title: IEnumDebugPortSuppliers2::Skip | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IEnumDebugPortSuppliers2::Skip"
+- IEnumDebugPortSuppliers2::Skip
 helpviewer_keywords:
-  - "IEnumDebugPortSuppliers2::Skip"
+- IEnumDebugPortSuppliers2::Skip
 ms.assetid: bd95d7e9-274f-485d-8bf6-865306ae1b81
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IEnumDebugPortSuppliers2::Skip
 Skips over the specified number of elements.

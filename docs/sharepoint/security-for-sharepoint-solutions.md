@@ -1,5 +1,7 @@
 ---
 title: "Security for SharePoint Solutions | Microsoft Docs"
+description: Discover what features Visual Studio incorporates to help enhance the security of SharePoint applications.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -12,7 +14,8 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, security"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
+ms.technology: sharepoint-development
 ms.workload:
   - "office"
 ---
@@ -20,12 +23,12 @@ ms.workload:
   [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] incorporates the following features to help enhance the security of SharePoint applications.
 
 ## Safe control entries
- Every SharePoint project item created in [!include[vsprvs](../sharepoint/includes/vsprvs-md.md)] has a **Safe Control Entries** property that represents a safe controls collection. Its **Safe** subproperty enables you to specify the controls that you consider secure. For more information, see [Provide package and deployment information in project items](../sharepoint/providing-packaging-and-deployment-information-in-project-items.md) and [Specifying Safe Web Parts](http://go.microsoft.com/fwlink/?LinkId=177521).
+ Every SharePoint project item created in [!include[vsprvs](../sharepoint/includes/vsprvs-md.md)] has a **Safe Control Entries** property that represents a safe controls collection. Its **Safe** subproperty enables you to specify the controls that you consider secure. For more information, see [Provide package and deployment information in project items](../sharepoint/providing-packaging-and-deployment-information-in-project-items.md) and [Specifying Safe Web Parts](/previous-versions/office/developer/sharepoint2003/dd583154(v=office.11)#specifying-safe-web-parts).
 
 ## AllowPartiallyTrustedCallers attribute
  By default, only applications that are fully trusted by the runtime code access security (CAS) system can access a shared managed code assembly. Marking a fully trusted assembly with the AllowPartiallyTrustedCallers attribute allows partially trusted assemblies to access it.
 
- The AllowPartiallyTrustedCallers attribute is added to any SharePoint solution that is not deployed to the system global assembly cache ( [!INCLUDE[TLA2#tla_gac](../sharepoint/includes/tla2sharptla-gac-md.md)]). This includes sandboxed solutions or solutions deployed to the SharePoint application Bin directory. For more information, see [Version 1 Security Changes for the Microsoft .NET Framework](http://go.microsoft.com/fwlink/?LinkId=177515) and [Deploying Web Parts in SharePoint Foundation](http://go.microsoft.com/fwlink/?LinkId=177509).
+ The AllowPartiallyTrustedCallers attribute is added to any SharePoint solution that is not deployed to the system global assembly cache ( [!INCLUDE[TLA2#tla_gac](../sharepoint/includes/tla2sharptla-gac-md.md)]). This includes sandboxed solutions or solutions deployed to the SharePoint application Bin directory. For more information, see [Version 1 Security Changes for the Microsoft .NET Framework](/previous-versions/msp-n-p/ff921345(v=pandp.10)) and [Deploying Web Parts in SharePoint Foundation](/previous-versions/office/developer/sharepoint-2010/cc768621(v=office.14)).
 
 ## Safe against script property
  *Script injection* is the insertion of potentially malicious code into controls or Web pages. To help protect SharePoint 2010 sites against script injection, contributors cannot view or edit Web parts or their properties by default. This behavior is controlled by a SafeControl attribute called SafeAgainstScript. In [!include[vsprvs](../sharepoint/includes/vsprvs-md.md)], set this attribute in a project item's **Safe Control Entries** subproperty **Safe Against Script**. For more information, see [Provide package and deployment information in project items](../sharepoint/providing-packaging-and-deployment-information-in-project-items.md) and [How to: Mark controls as safe controls](../sharepoint/how-to-mark-controls-as-safe-controls.md).
@@ -35,7 +38,7 @@ ms.workload:
 
  To configure the [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] shortcut to always run as administrator, open its shortcut menu, choose **Properties**, choose the **Advanced** button in the **Properties** dialog box, and then select the **Run as administrator** check box.
 
- For more information, see [Understanding and Configuring User Account Control in Windows Vista](http://go.microsoft.com/fwlink/?LinkID=156476). and [Windows 7 User Account Control](http://go.microsoft.com/fwlink/?LinkId=177523).
+ For more information, see [Understanding and Configuring User Account Control in Windows Vista](/previous-versions/windows/it-pro/windows-vista/cc709628(v=ws.10)). and [Windows 7 User Account Control](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc731416(v=ws.10)).
 
 ## SharePoint permissions considerations
  To develop SharePoint solutions, you must have sufficient permissions to run and debug SharePoint solutions. Before you can test a SharePoint solution, take the following steps to ensure that you have the necessary permissions:
@@ -55,27 +58,27 @@ ms.workload:
 
 ### Visual Studio security
 
-- [Security and User Permissions](http://go.microsoft.com/fwlink/?LinkId=177503)
+- [Security and User Permissions](/previous-versions/visualstudio/visual-studio-2010/ms165099(v=vs.100))
 
-- [Security in Native and .NET Framework Code](http://go.microsoft.com/fwlink/?LinkId=177504)
+- [Security in Native and .NET Framework Code](/previous-versions/visualstudio/visual-studio-2010/1787tk12(v=vs.100))
 
-- [Security in the .NET Framework](http://go.microsoft.com/fwlink/?LinkId=177502)
+- [Security in the .NET Framework](/previous-versions/dotnet/netframework-4.0/fkytk30f(v=vs.100))
 
 ### SharePoint security
 
-- [SharePoint Foundation Administration and Security](http://go.microsoft.com/fwlink/?LinkId=177501)
+- [SharePoint Foundation Administration and Security](/previous-versions/office/developer/sharepoint-2010/ee537811(v=office.14))
 
-- [SharePoint Security Resource Center](http://go.microsoft.com/fwlink/?LinkId=177498)
+- [SharePoint Security Resource Center](/sharepoint/dev/)
 
-- [Securing Web Parts in SharePoint Foundation](http://go.microsoft.com/fwlink/?LinkId=177511)
+- [Securing Web Parts in SharePoint Foundation](/previous-versions/office/developer/sharepoint-2010/cc768613(v=office.14))
 
-- [Improving Web Application Security: Threats and Countermeasures](http://go.microsoft.com/fwlink/?LinkID=140080)
+- [Improving Web Application Security: Threats and Countermeasures](/previous-versions/msp-n-p/ff649874(v=pandp.10))
 
 ### General security
 
-- [MSDN Security Development Lifecycle](http://go.microsoft.com/fwlink/?LinkID=147149)
+- [MSDN Security Development Lifecycle](https://www.microsoft.com/msrc?rtc=1)
 
-- [Building Secure ASP.NET Applications: Authentication, Authorization, and Secure Communication](http://go.microsoft.com/fwlink/?LinkId=177494)
+- [Building Secure ASP.NET Applications: Authentication, Authorization, and Secure Communication](/previous-versions/msp-n-p/ff649100(v=pandp.10))
 
 ## See also
 

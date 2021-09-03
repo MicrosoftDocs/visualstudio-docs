@@ -1,13 +1,16 @@
 ---
-title: "Add XML Schema Set Search Result Nodes to the Workspace"
+title: Add schema set search result nodes
+description: Learn how to add nodes that are highlighted in the XML Schema Explorer as the result of a keyword search in the workspace.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 ms.assetid: ff33b3cc-4db9-4b4e-9378-b45ed5999b18
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
+ms.technology: vs-xml-tools
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Add schema set search result nodes to the workspace
 

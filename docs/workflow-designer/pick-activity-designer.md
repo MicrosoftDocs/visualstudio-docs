@@ -1,13 +1,16 @@
 ---
 title: "Workflow Designer - Pick Activity Designer"
+description: Learn how the Pick activity provides event-based control flow and executes one of several branches in response to a triggering event. 
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
   - "System.Activities.Statements.Pick.UI"
 ms.assetid: 642c0a47-1b47-45de-a19a-ca0606cedd7a
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
+ms.technology: vs-workflow-designer
 ms.workload:
   - "multiple"
 ---

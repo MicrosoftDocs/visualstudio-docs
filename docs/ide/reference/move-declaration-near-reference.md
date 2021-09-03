@@ -1,20 +1,26 @@
 ---
 title: Move variable declaration near reference
-ms.date: 01/26/2018
+description: Learn how to use the Quick Actions and Refactorings menu to move variable declarations closer to their usage.
+ms.custom: SEO-VS-2020
+ms.date: 03/10/2020
 ms.topic: reference
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: mikadumont
+ms.author: midumont
+manager: jmartens
+ms.technology: vs-ide-general
 dev_langs:
-  - CSharp
+- CSharp
+- VB
 ms.workload:
-  - "dotnet"
+- dotnet
 ---
 # Move declaration near reference refactoring
 
 This refactoring applies to:
 
 - C#
+
+- Visual Basic
 
 **What:** Lets you move variable declarations closer to their usage.
 

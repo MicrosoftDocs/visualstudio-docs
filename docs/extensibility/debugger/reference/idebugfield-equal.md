@@ -1,20 +1,22 @@
 ---
-title: "IDebugField::Equal | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "This method compares this field with the specified field for equality."
+title: IDebugField::Equal | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugField::Equal"
+- IDebugField::Equal
 helpviewer_keywords:
-  - "IDebugField::Equal method"
+- IDebugField::Equal method
 ms.assetid: 75369fe6-ddd3-497d-80d1-2488e6100e9f
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugField::Equal
 This method compares this field with the specified field for equality.

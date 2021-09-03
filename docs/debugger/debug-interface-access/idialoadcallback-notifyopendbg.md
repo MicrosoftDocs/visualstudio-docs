@@ -1,7 +1,8 @@
 ---
+description: "Called when a candidate .dbg file has been opened."
 title: "IDiaLoadCallback::NotifyOpenDBG | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,8 @@ helpviewer_keywords:
 ms.assetid: dbc4dcf0-4ace-4dce-9790-0fdaf3a23d3b
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -37,5 +39,5 @@ HRESULT NotifyOpenDBG ( 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code. The return code is typically ignored.
 
-## See Also
+## See also
 - [IDiaLoadCallback2](../../debugger/debug-interface-access/idialoadcallback2.md)

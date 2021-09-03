@@ -1,17 +1,19 @@
 ---
-title: "IDebugProcess2 | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "This interface represents a process running on a port."
+title: IDebugProcess2 | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugProcess2"
+- IDebugProcess2
 helpviewer_keywords:
-  - "IDebugProcess2 interface"
+- IDebugProcess2 interface
 ms.assetid: 99f6cd06-4076-45ee-b2ae-fa2ad627fd18
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IDebugProcess2
 This interface represents a process running on a port. If the port is the local port, then `IDebugProcess2` usually represents a physical process on the local machine.

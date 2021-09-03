@@ -1,16 +1,19 @@
 ---
-title: "Validating Breakpoints in a Legacy Language Service | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Validating Breakpoints in a Legacy Language Service | Microsoft Docs
+description: Learn how you can override the ValidateBreakpointLocation method in a legacy language service to validate breakpoints before the debugger launches.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "breakpoint validation"
-  - "language services [managed package framework], breakpoint validation"
+- breakpoint validation
+- language services [managed package framework], breakpoint validation
 ms.assetid: a7e873cd-dfe1-474f-bda5-fd7532774b15
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Validating Breakpoints in a Legacy Language Service
 A breakpoint indicates that program execution should stop at a particular point while it is being run in a debugger. A user can place a breakpoint on any line in the source file, since the editor has no knowledge of what constitutes a valid location for a breakpoint. When the debugger is launched, all of the marked breakpoints (called pending breakpoints) are bound to the appropriate location in the running program. At the same time the breakpoints are validated to ensure that they mark valid code  locations. For example, a breakpoint on a comment is not valid, because there is no code at that location in the source code. The debugger disables invalid breakpoints.
@@ -92,5 +95,5 @@ namespace TestLanguagePackage
 }
 ```
 
-## See Also
+## See also
 - [Legacy Language Service Features](../../extensibility/internals/legacy-language-service-features1.md)

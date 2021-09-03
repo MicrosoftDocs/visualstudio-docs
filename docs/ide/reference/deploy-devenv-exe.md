@@ -1,18 +1,21 @@
 ---
 title: -Deploy (devenv.exe)
+description: Learn how to use the Deploy devenv command-line switch to deploy a solution after a build or rebuild.
+ms.custom: SEO-VS-2020
 ms.date: 12/10/2018
 ms.topic: reference
 helpviewer_keywords:
-  - "Devenv, /Deploy switch"
-  - "Deploy Devenv switch"
-  - "deploying applications [Visual Studio], after build"
-  - "/Deploy Devenv switch"
+- Devenv, /Deploy switch
+- Deploy Devenv switch
+- deploying applications [Visual Studio], after build
+- /Deploy Devenv switch
 ms.assetid: e47c8723-df08-4645-aa2d-0c956e7ccca2
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # /Deploy (devenv.exe)
 

@@ -1,11 +1,13 @@
 ---
+description: "The Visual Studio Snapshot Debugger is now connected to your service and you can start collecting snapshots to help with debugging."
 title: "Start page for the Snapshot Debugger"
 ms.date: "07/14/2018"
 robots: "noindex, nofollow"
 ms.topic: "reference"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---

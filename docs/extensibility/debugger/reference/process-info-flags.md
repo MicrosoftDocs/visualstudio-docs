@@ -1,19 +1,21 @@
 ---
-title: "PROCESS_INFO_FLAGS | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Describes or specifies properties of a process."
+title: PROCESS_INFO_FLAGS | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "PROCESS_INFO_FLAGS"
+- PROCESS_INFO_FLAGS
 helpviewer_keywords:
-  - "PROCESS_INFO_FLAGS enumeration"
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+- PROCESS_INFO_FLAGS enumeration
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # PROCESS_INFO_FLAGS
 

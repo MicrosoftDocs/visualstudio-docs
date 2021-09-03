@@ -1,16 +1,17 @@
 ---
 title: "Getting Started with ASP.NET Core"
 description: "This article describes how to get started with ASP.NET in Visual Studio for Mac, including installation and creating a new project."
-author: conceptdev
-ms.author: crdun
+author: heiligerdankgesang
+ms.author: dominicn
 ms.date: 07/13/2017
 ms.assetid: 6E8B0C90-33D6-4546-8207-CE0787584565
 ms.custom: video
+ms.topic: how-to
 ---
 
 # Getting Started with ASP.NET Core
 
- Visual Studio for Mac makes it easy to develop your app’s service with its support for the latest ASP.NET Core Web development platform. ASP.NET Core runs on .NET Core, the latest evolution of the .NET Framework and runtime. It’s been tuned for fast performance, factored for small install sizes, and re-imagined to run on Linux and macOS, as well as Windows.
+ Visual Studio for Mac makes it easy to develop your app's service with its support for the latest ASP.NET Core Web development platform. ASP.NET Core runs on .NET Core, the latest evolution of the .NET Framework and runtime. It's been tuned for fast performance, factored for small install sizes, and re-imagined to run on Linux and macOS, as well as Windows.
 
 ## Installing .NET Core
 
@@ -37,7 +38,7 @@ Select the **ASP.NET Core Empty Web Application** and press **Next**. Give the P
 
 ![New ASP.NET Core Empty Project view](media/asp-net-core-image4.png)
 
-The ASP.NET Core Empty Web Application creates a web application with two default files: **Program.cs** and **Startup.cs**, which are explained below. It also creates a Dependencies folder, which contains your project’s NuGet package dependencies such as ASP.NET Core, the .NET Core framework, and the MSBuild targets that build the project:
+The ASP.NET Core Empty Web Application creates a web application with two default files: **Program.cs** and **Startup.cs**, which are explained below. It also creates a Dependencies folder, which contains your project's NuGet package dependencies such as ASP.NET Core, the .NET Core framework, and the MSBuild targets that build the project:
 
 ![Solution Pad displaying dependencies](media/asp-net-core-image12.png)
 
@@ -229,7 +230,7 @@ Make sure to complete all four steps successfully to ensure that .NET Core is in
 
 This guide gave an introduction to ASP.NET Core. It describes what it is, when to use it, and provided information on using it in Visual Studio for Mac.
 For more information on the next steps from here, refer to the following guides:
-- [ASP.NET Core](/aspnet/core/#build-web-apis-and-web-ui-using-aspnet-core-mvc) docs.
+- [ASP.NET Core](/aspnet/core/) docs.
 - [Creating Backend Services for Native Mobile Applications](/aspnet/core/mobile/native-mobile-backend), which shows how to build a REST service using ASP.NET Core for a Xamarin.Forms app.
 - [ASP.NET Core hands-on lab](https://github.com/Microsoft/vs4mac-labs/tree/master/Web/Getting-Started).
 

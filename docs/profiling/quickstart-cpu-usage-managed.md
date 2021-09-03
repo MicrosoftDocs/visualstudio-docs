@@ -1,37 +1,57 @@
 ---
-title: "Analyze CPU usage data (managed code)"
+title: "Analyze CPU usage data (C#, Visual Basic)"
 description: "Measure app performance in C# and Visual Basic using the CPU Usage diagnostics tool"
 ms.custom: "mvc"
-ms.date: 08/06/2018
+ms.date: 02/14/2020
 ms.topic: quickstart
 helpviewer_keywords:
   - "Profiling Tools, quick start"
   - "Diagnostics Tools, CPU Usage"
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "dotnet"
 ---
-# Quickstart: Analyze CPU usage data in Visual Studio (managed code)
+# Quickstart: Analyze CPU usage data in Visual Studio (C#, Visual Basic)
 
-The Visual Studio provides many powerful features to help you analyze performance issues in your application. This topic provides a quick way to learn some of the basic features. Here, we look at the tool to identify performance bottlenecks due to high CPU usage. The Diagnostics Tools are supported for .NET development in Visual Studio, including ASP.NET, and for native/C++ development.
+Visual Studio provides many powerful features to help you analyze performance issues in your application. This topic provides a quick way to learn some of the basic features. Here, we look at the tool to identify performance bottlenecks due to high CPU usage. The Diagnostics Tools are supported for .NET development in Visual Studio, including ASP.NET, and for native/C++ development.
 
-The Diagnostic hub offers you a lot of other options to run and manage your diagnostics session. If the **CPU Usage** tool described here does not give you the data that you need, the [other profiling tools](../profiling/profiling-feature-tour.md) provide different kinds of information that might be helpful to you. In many cases, the performance bottleneck of your application may be caused by something other than your CPU, such as memory, rendering UI, or network request time. The Diagnostics hub offers you a lot of other options to record and analyze this kind of data.
+The Diagnostic hub offers you a lot of other options to run and manage your diagnostics session. If the **CPU Usage** tool described here does not give you the data that you need, the [other profiling tools](../profiling/profiling-feature-tour.md) provide different kinds of information that might be helpful to you. In many cases, the performance bottleneck of your application may be caused by something other than your CPU, such as memory, rendering UI, or network request time. The Performance Profiler offers you a lot of other options to record and analyze this kind of data. [PerfTips](../profiling/perftips.md), another debugger-integrated profiling tool, also allows you to step through code and identify how long it takes particular functions or code blocks to complete.
 
 Windows 8 and later is required to run profiling tools with the debugger (**Diagnostic Tools** window). On Windows 7 and later, you can use the post-mortem tool, the [Performance Profiler](../profiling/profiling-feature-tour.md).
 
 ## Create a project
 
-1. In Visual Studio, choose **File** > **New Project**.
+1. Open Visual Studio and create the project.
 
-2. Under **Visual C#** or **Visual Basic**, choose **Windows Desktop**, and then in the middle pane choose **Console App (.NET Framework)**.
+   ::: moniker range="vs-2017"
+   From the top menu bar, choose **File** > **New** > **Project**.
 
-    If you don't see the **Console App** project template, click the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box. The Visual Studio Installer launches. Choose the **.NET Desktop development** workload, then choose **Modify**.
+   In the **New Project** dialog box in the left pane, expand **C#** or **Visual Basic**, and then choose **.NET Core**. In the middle pane, choose **Console App (.NET Core)**. Then name the project *MyProfilerApp*.
 
-3. Type a name like **MyProfilerApp** and click **OK**.
+   If you don't see the **Console App (.NET Core)** project template, choose the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box. The Visual Studio Installer launches. Choose the **.NET Core cross-platform development** workload, and then choose **Modify**.
+   ::: moniker-end
+   ::: moniker range=">=vs-2019"
+   If the start window is not open, choose **File** > **Start Window**.
 
-    Visual Studio creates the project.
+   On the start window, choose **Create a new project**.
+
+   On the **Create a new project** window, enter or type *console* in the search box. Next, choose **C#** or **Visual Basic** from the Language list, and then choose **Windows** from the Platform list.
+
+   After you apply the language and platform filters, choose the **Console App** template for .NET Core, and then choose **Next**.
+
+   > [!NOTE]
+   > If you do not see the **Console App** template, you can install it from the **Create a new project** window. In the **Not finding what you're looking for?** message, choose the **Install more tools and features** link. Then, in the Visual Studio Installer, choose the **.NET Core cross-platform development** workload.
+
+   In the **Configure your new project** window, type or enter *MyProfilerApp* in the **Project name** box. Then, choose **Next**.
+
+   Choose either the recommended target framework (.NET Core 3.1) or .NET 5, and then choose **Create**.
+
+   ::: moniker-end
+
+   Visual Studio opens your new project.
 
 2. Open *Program.cs* and replace all the code with the following code:
 
@@ -170,8 +190,7 @@ Windows 8 and later is required to run profiling tools with the debugger (**Diag
 
      ![Set breakpoints for profiling](../profiling/media/quickstart-cpu-usage-breakpoints.png "Set breakpoints for profiling")
 
-    > [!TIP]
-    > By setting two breakpoints, you can limit data collection to the parts of code that you want to analyze.
+    By setting two breakpoints, you can limit data collection to the parts of code that you want to analyze.
 
 3. The **Diagnostic Tools** window is already visible unless you have turned it off. To bring up the window again, click **Debug** > **Windows** > **Show Diagnostic Tools**.
 
@@ -231,5 +250,5 @@ We recommend that you begin analyzing your data by examining the list of functio
 
 ## See also
 
-- [Profiling in Visual Studio](../profiling/index.md)
+- [Profiling in Visual Studio](../profiling/index.yml)
 - [First look at profiling tools](../profiling/profiling-feature-tour.md)

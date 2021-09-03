@@ -1,15 +1,18 @@
 ---
 title: Database projects and DAC projects
+description: Read about database projects and data-tier applications (DACs). Use DB projects to create new databases, create new DACs, and update existing DBs and DACs.
+ms.custom: SEO-VS-2020
 ms.date: 11/21/2018
 ms.topic: conceptual
 helpviewer_keywords:
-  - "databases, managing change"
+- databases, managing change
 ms.assetid: 40b51f5a-d52c-44ac-8f84-037a0917af33
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: ghogen
+ms.author: ghogen
+manager: jmartens
+ms.technology: vs-data-tools
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # Database projects and data-tier applications
 

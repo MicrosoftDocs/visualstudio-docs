@@ -1,5 +1,7 @@
 ---
 title: "ASP.NET Debugging: System Requirements | Microsoft Docs"
+description: Review the software and security requirements for ASP.NET local debugging, in which Visual Studio and the web app run on the same computer, and remote debugging.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:
@@ -13,7 +15,8 @@ helpviewer_keywords:
 ms.assetid: 7810b9b2-debf-4271-8fc7-1df031123255
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "aspnet"
 ---
@@ -45,7 +48,7 @@ This topic describes the software and security requirements for [!INCLUDE[vsteca
 > [!CAUTION]
 > Before you change the [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] worker process to run under a different account, consider the possible consequences if the [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] worker process should be hacked while running under that account. The ASPNET and NETWORK SERVICE user accounts run with minimal permissions, reducing the possible damage if the process is hacked. If you must change the [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] worker process to run under an account that has greater permissions, the potential damage is greater.
 
-## See Also
+## See also
 
 - [Debug ASP.NET Applications](../debugger/how-to-enable-debugging-for-aspnet-applications.md)
 - [How to: Run the Worker Process Under a User Account](../debugger/how-to-run-the-worker-process-under-a-user-account.md)

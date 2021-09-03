@@ -1,20 +1,22 @@
 ---
-title: "IDebugObject::IsReadOnly | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Determines if this object is read-only."
+title: IDebugObject::IsReadOnly | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugObject::IsReadOnly"
+- IDebugObject::IsReadOnly
 helpviewer_keywords:
-  - "IDebugObject::IsReadOnly method"
+- IDebugObject::IsReadOnly method
 ms.assetid: c460f772-d08a-4b36-81f3-dff6a51a93fd
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugObject::IsReadOnly
 Determines if this object is read-only.

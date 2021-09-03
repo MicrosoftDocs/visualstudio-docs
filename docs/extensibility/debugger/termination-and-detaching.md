@@ -1,16 +1,19 @@
 ---
-title: "Termination and Detaching | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Termination and Detaching | Microsoft Docs
+description: Normal termination means that a program being debugged runs to completion with no breakpoints, exceptions, run-time errors, or infinite loops.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "programs, termination events"
-  - "debug engines, detaching from programs"
+- programs, termination events
+- debug engines, detaching from programs
 ms.assetid: 268c1e51-6363-45d1-964c-1ab99bdfa4f9
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Termination and detaching
 The following section describes normal termination.

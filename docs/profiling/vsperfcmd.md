@@ -1,19 +1,22 @@
 ---
-title: "VSPerfCmd | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-helpviewer_keywords:
-  - "performance tools, VSPerfCmd tool"
-  - "command-line tools, VSPerfCmd tool"
-  - "command line, tools"
-  - "profiling tools,VSPerfCmd"
-  - "VSPerfCmd tool"
+title: VSPerfCmd | Microsoft Docs
+description: Learn how the VSPerfCmd.exe tool is used to start and stop performance data collection. Also learn about various VSPerfCmd tool options.
+ms.date: 11/04/2016
+ms.topic: reference
+helpviewer_keywords: 
+  - performance tools, VSPerfCmd tool
+  - command-line tools, VSPerfCmd tool
+  - command line, tools
+  - profiling tools,VSPerfCmd
+  - VSPerfCmd tool
 ms.assetid: 778bc105-7643-46c4-a338-f3620e31125a
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
-ms.workload:
-  - "multiple"
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.technology: vs-ide-debug
+monikerRange: 'vs-2017'
+ms.workload: 
+  - multiple
 ---
 # VSPerfCmd
 The *VSPerfCmd.exe* tool is used to start and stop performance data collection. It uses the following syntax:

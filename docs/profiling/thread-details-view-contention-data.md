@@ -1,5 +1,6 @@
 ---
 title: "Thread Details View - Contention Data | Microsoft Docs"
+description: Learn how the Thread Details view presents a timeline graph of the blocking events in the selected thread of a profiling run.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:
@@ -9,7 +10,9 @@ helpviewer_keywords:
 ms.assetid: 874c3b1c-88d8-479a-bb35-1291d9aa8e67
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
+monikerRange: 'vs-2017'
 ms.workload:
   - "multiple"
 ---

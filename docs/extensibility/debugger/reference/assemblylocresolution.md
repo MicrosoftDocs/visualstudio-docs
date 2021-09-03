@@ -1,20 +1,22 @@
 ---
-title: "ASSEMBLYLOCRESOLUTION | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Specifies where an assembly is located."
+title: ASSEMBLYLOCRESOLUTION | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "ASSEMBLYLOCRESOLUTION"
+- ASSEMBLYLOCRESOLUTION
 helpviewer_keywords:
-  - "ASSEMBLYLOCRESOLUTION enumeration"
+- ASSEMBLYLOCRESOLUTION enumeration
 ms.assetid: 0bcfe85c-5f37-4a9d-bf2b-141acd96ad67
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # ASSEMBLYLOCRESOLUTION
 Specifies where an assembly is located.

@@ -6,8 +6,9 @@ ms.date: 01/28/2019
 ms.topic: tutorial
 author: JoshuaPartlow
 ms.author: joshuapa
-manager: jillfra
-ms.custom: seodec18
+manager: jmartens
+ms.technology: vs-python
+ms.custom: vs-acquisition
 ms.workload:
   - python
   - data-science

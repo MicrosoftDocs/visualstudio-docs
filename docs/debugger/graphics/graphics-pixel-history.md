@@ -1,5 +1,7 @@
 ---
 title: "Graphics Pixel History | Microsoft Docs"
+description: Troubleshoot rendering problems by seeing the history of a specific pixel. Graphics Pixel History shows the effects of Direct3D events.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:
@@ -7,7 +9,8 @@ f1_keywords:
 ms.assetid: 0a2cbde5-1ad9-487e-857c-a3664158c268
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -68,6 +71,6 @@ The Graphics Pixel History window in Visual Studio Graphics Analyzer helps you u
 ### Links to graphics objects
  To understand the graphics events in the pixel history, you might need information about the device state at the time of the event or about the Direct3D objects that are referenced by the event. For each event in the pixel history, the **Graphics Pixel History** provides links to the then-current device state and to related objects.
 
-## See Also
+## See also
 - [Walkthrough: Missing Objects Due to Device State](walkthrough-missing-objects-due-to-device-state.md)
 - [Walkthrough: Debugging Rendering Errors Due to Shading](walkthrough-debugging-rendering-errors-due-to-shading.md)

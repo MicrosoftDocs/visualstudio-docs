@@ -1,18 +1,21 @@
 ---
 title: Updating Shapes and Connectors to Reflect the Model
+description: Learn that in a domain-specific language in Visual Studio, you can make the appearance of a shape reflect the state of the underlying model.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: mgoertz-msft
+ms.author: mgoertz
+manager: jmartens
+ms.technology: vs-ide-modeling
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Update Shapes and Connectors to Reflect the Model
 
 In a domain-specific language in Visual Studio, you can make the appearance of a shape reflect the state of the underlying model.
 
-The code examples in this topic should be added to a `.cs` file in your `Dsl` project. You need these statements in each file:
+The code examples in this topic should be added to a `.cs` file in your `Dsl` project. You need these directives in each file:
 
 ```csharp
 using Microsoft.VisualStudio.Modeling;

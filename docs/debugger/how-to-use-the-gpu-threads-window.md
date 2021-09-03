@@ -1,23 +1,26 @@
 ---
-title: "Viewing GPU Threads in the Debugger | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-f1_keywords:
-  - "vs.debug.gputthreads"
-  - "vs.debug.gputhreads"
-dev_langs:
-  - "CSharp"
-  - "VB"
-  - "FSharp"
-  - "C++"
-helpviewer_keywords:
-  - "debugger, GPU threads window"
+title: Viewing GPU Threads in the Debugger | Microsoft Docs
+description: Use the GPU Threads window to examine and work with threads that are running on the GPU in the application that you are debugging in Visual Studio.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
+f1_keywords: 
+  - vs.debug.gputthreads
+  - vs.debug.gputhreads
+dev_langs: 
+  - CSharp
+  - VB
+  - FSharp
+  - C++
+helpviewer_keywords: 
+  - debugger, GPU threads window
 ms.assetid: c647c502-a9f0-48e0-a430-976744a5fa51
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
-ms.workload:
-  - "multiple"
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.technology: vs-ide-debug
+ms.workload: 
+  - multiple
 ---
 # How to: Use the GPU Threads Window (C++)
 In the GPU Threads window, you can examine and work with threads that are running on the GPU in the application that you are debugging. For more information about applications that run on the GPU, see [C++ AMP Overview](/cpp/parallel/amp/cpp-amp-overview).
@@ -96,7 +99,7 @@ In the GPU Threads window, you can examine and work with threads that are runnin
 
 - Choose the flag button in the GPU Threads window.
 
-## See Also
+## See also
 - [Debug Multithreaded Applications](../debugger/debug-multithreaded-applications-in-visual-studio.md)
 - [How to: Use the Parallel Watch Window](../debugger/how-to-use-the-parallel-watch-window.md)
 - [Walkthrough: Debugging a C++ AMP Application](/cpp/parallel/amp/walkthrough-debugging-a-cpp-amp-application)

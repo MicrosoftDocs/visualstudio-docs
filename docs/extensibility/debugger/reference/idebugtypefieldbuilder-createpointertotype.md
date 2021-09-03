@@ -1,19 +1,21 @@
 ---
-title: "IDebugTypeFieldBuilder::CreatePointerToType | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Creates a pointer to the specified type."
+title: IDebugTypeFieldBuilder::CreatePointerToType | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "CreatePointerToType"
-  - "IDebugTypeFieldBuilder::CreatePointerToType"
+- CreatePointerToType
+- IDebugTypeFieldBuilder::CreatePointerToType
 ms.assetid: 73966e8a-b643-43e0-9b4e-0aa4b402ebbe
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugTypeFieldBuilder::CreatePointerToType
 Creates a pointer to the specified type.

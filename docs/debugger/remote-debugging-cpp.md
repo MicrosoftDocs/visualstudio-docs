@@ -1,5 +1,6 @@
 ---
-title: "Remote Debug a Visual C++ Project | Microsoft Docs"
+title: "Remote Debug a C++ Project | Microsoft Docs"
+description: Learn how to debug a Visual Studio C++ application from a remote computer by following these step-by-step instructions.
 ms.custom: "remotedebugging"
 ms.date: "08/14/2018"
 ms.topic: "conceptual"
@@ -14,11 +15,12 @@ helpviewer_keywords:
 ms.assetid: 8b8eca0d-122f-4eda-848a-cf0945f207d0
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "cplusplus"
 ---
-# Remote Debugging a Visual C++ Project in Visual Studio
+# Remote Debugging a C++ Project in Visual Studio
 To debug a Visual Studio application on a different computer, install and run the remote tools on the computer where you will deploy your app, configure your project to connect to the remote computer from Visual Studio, and then deploy and run your app.
 
 ![Remote debugger components](../debugger/media/remote-debugger-client-apps.png "Remote_debugger_components")
@@ -46,7 +48,7 @@ The remote debugger is supported on Windows 7 and newer (not phone) and versions
 > [!NOTE]
 > If you need to add permissions for additional users, change the authentication mode, or port number for the remote debugger, see [Configure the remote debugger](../debugger/remote-debugging.md#configure_msvsmon).
 
-## <a name="remote_cplusplus"></a> Remote debug a Visual C++ project
+## <a name="remote_cplusplus"></a> Remote debug a C++ project
  In the following procedure, the name and path of the project is C:\remotetemp\MyMfc, and the name of the remote computer is **MJO-DL**.
 
 1. Create an MFC application named **mymfc.**
@@ -57,7 +59,7 @@ The remote debugger is supported on Windows 7 and newer (not phone) and versions
 
 4. Set the **Debugger to launch** to **Remote Windows Debugger**.
 
-    ![RemoteDebuggingCPlus](../debugger/media/remotedebuggingcplus.png "RemoteDebuggingCPlus")
+    ![Screenshot of the Debugging tab in the Visual Studio Solution Explorer Properties. The Debugger to launch property is set to Remote Windows Debugger.](../debugger/media/remotedebuggingcplus.png)
 
 5. Make the following changes to the properties:
 
@@ -77,7 +79,7 @@ The remote debugger is supported on Windows 7 and newer (not phone) and versions
 
 7. For the **Debug** configuration, select the **Deploy** check box.
 
-    ![RemoteDebugCplusDeploy](../debugger/media/remotedebugcplusdeploy.png "RemoteDebugCplusDeploy")
+    ![Screenshot of the Configuration Manager in the Visual Studio Solution Explorer. The Debug configuration is selected, and Deploy is checked.](../debugger/media/remotedebugcplusdeploy.png)
 
 8. Start debugging (**Debug > Start Debugging**, or **F5**).
 
@@ -92,7 +94,7 @@ The remote debugger is supported on Windows 7 and newer (not phone) and versions
     > [!TIP]
     > Alternatively, you can deploy the files as a separate step. In the **Solution Explorer,** right-click the **mymfc** node and then choose **Deploy**.
 
-    If you have non-code files that are required by the application, you can specify them in **Additional Files to Deploy** on the **Remote Windows Debugger** page.
+    If you have non-code files that are required by the application, you can specify them in a semicolon delimited list in **Additional Files to Deploy** on the **Remote Windows Debugger** page.
 
     Alternatively, you can include the files in your project, and set the **Content** property to **Yes** in the **Properties** page for each file. These files are copied to the **Deployment Directory** specified on the **Remote Windows Debugger** page. You can also change the **Item Type** to **Copy File** and specify additional properties there if you need the files to be copied to a subfolder of the **Deployment Directory**.
 
@@ -100,8 +102,8 @@ The remote debugger is supported on Windows 7 and newer (not phone) and versions
 
 [!INCLUDE [remote-debugger-symbols](../debugger/includes/remote-debugger-symbols.md)]
 
-## See Also
-- [Debugging in Visual Studio](../debugger/index.md)
+## See also
+- [Debugging in Visual Studio](../debugger/index.yml)
 - [First look at the debugger](../debugger/debugger-feature-tour.md)
 - [Configure the Windows Firewall for Remote Debugging](../debugger/configure-the-windows-firewall-for-remote-debugging.md)
 - [Remote Debugger Port Assignments](../debugger/remote-debugger-port-assignments.md)

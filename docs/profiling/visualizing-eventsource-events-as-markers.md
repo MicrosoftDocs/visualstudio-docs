@@ -1,11 +1,13 @@
 ---
 title: "Visualizing EventSource Events as Markers | Microsoft Docs"
+description: Learn that Concurrency Visualizer can display EventSource events as markers, and you can control how the markers are displayed.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 ms.assetid: 3a10022a-5c37-48b1-a833-dd35902176b6
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---

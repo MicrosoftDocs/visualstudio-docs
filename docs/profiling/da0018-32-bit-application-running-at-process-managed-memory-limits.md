@@ -1,21 +1,24 @@
 ---
-title: "DA0018: 32-bit Application running at process managed memory limits | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-f1_keywords:
-  - "vs.performance.18"
-  - "vs.performance.DA0018"
-  - "vs.performance.rules.DA0018"
+title: DA0018 - 32-bit Application running at process managed memory limits | Microsoft Docs
+description: "System data collected during the profiling run indicates the .NET Framework memory heaps approached the maximum size that the managed heaps can reach in a 32-bit process."
+ms.date: 11/04/2016
+ms.topic: reference
+f1_keywords: 
+  - vs.performance.18
+  - vs.performance.DA0018
+  - vs.performance.rules.DA0018
 ms.assetid: 98eb2d96-f92f-42f9-915c-e5ac2330ffbf
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
-ms.workload:
-  - "dotnet"
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.technology: vs-ide-debug
+monikerRange: 'vs-2017'
+ms.workload: 
+  - dotnet
 ---
 # DA0018: 32-bit Application running at process-managed memory limits
 
-|||
+|Item|Value|
 |-|-|
 |Rule Id|DA0018|
 |Category|Profiling Tools Usage|
@@ -58,7 +61,7 @@ ms.workload:
 
   Use the [Allocations View](../profiling/dotnet-memory-allocations-view.md) to determine the execution path that resulted in these allocations.
 
-  For more information about how to improve garbage collection performance, see .NET Framework technical article, [Garbage Collector Basics and Performance Hints](http://go.microsoft.com/fwlink/?LinkId=177946) on the MSDN Web site.
+  For more information about how to improve garbage collection performance, see .NET Framework technical article, [Garbage Collector Basics and Performance Hints](/previous-versions/dotnet/articles/ms973837(v=msdn.10)) on the MSDN Web site.
 
   To gain architectural relief from the virtual memory constraints on the size of the private portion of a process address space, try running this 32-bit process on a 64-bit machine.  A 32-bit process on a 64-bit machine can acquire up to 4 GB of private virtual memory.
 

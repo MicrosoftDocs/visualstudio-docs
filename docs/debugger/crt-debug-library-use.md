@@ -1,6 +1,8 @@
 ---
 title: "CRT Debug Library Use | Microsoft Docs"
-ms.date: "11/04/2016"
+description: Learn how the C run-time (CRT) library supports your debugging efforts, and what you must do to use the CRT debug libraries.
+ms.custom: SEO-VS-2020
+ms.date: "10/03/2019"
 ms.topic: "conceptual"
 f1_keywords:
   - "c.debug.runtime"
@@ -25,7 +27,8 @@ helpviewer_keywords:
 ms.assetid: 464de16b-4215-4787-9bfa-921aaff9d9f4
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -37,11 +40,9 @@ The C run-time library provides extensive debugging support. To use one of the C
 
  The functions in the CRT debug libraries are compiled with debug information ([/Z7, /Zd, /Zi, /ZI (Debug Information Format)](/cpp/build/reference/z7-zi-zi-debug-information-format)) and without optimization. Some functions contain assertions to verify parameters that are passed to them, and source code is provided. With this source code, you can step into CRT functions to confirm that the functions are working as you expect and check for bad parameters or memory states. (Some CRT technology is proprietary and does not provide source code for exception handling, floating point, and a few other routines.)
 
- When you install Visual C++, you have the option of installing the C run-time library source code on your hard disk. If you do not install the source code, you will need the CD-ROM to step into CRT functions.
-
  For more information on the various run-time libraries you can use, see [C Run-Time Libraries](/cpp/c-runtime-library/crt-library-features).
 
-## See Also
+## See also
 
 - [CRT Debugging Techniques](../debugger/crt-debugging-techniques.md)
 - [/MD, /MT, /LD (Use Run-Time Library)](/cpp/build/reference/md-mt-ld-use-run-time-library)

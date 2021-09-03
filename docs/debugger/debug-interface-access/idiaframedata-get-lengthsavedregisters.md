@@ -1,7 +1,8 @@
 ---
+description: "IDiaFrameData::get_lengthSavedRegisters retrieves the number of bytes of saved registers pushed on the stack."
 title: "IDiaFrameData::get_lengthSavedRegisters | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,8 @@ helpviewer_keywords:
 ms.assetid: dfda4e91-9bfa-4b9d-9133-b73015bfa4d5
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -35,6 +37,6 @@ HRESULT get_lengthSavedRegisters ( 
 ## Remarks
  The value returned by this method is typically used in the interpretation of a program string (see the [IDiaFrameData::get_program](../../debugger/debug-interface-access/idiaframedata-get-program.md) method for the definition of a program string).
 
-## See Also
+## See also
 - [IDiaFrameData](../../debugger/debug-interface-access/idiaframedata.md)
 - [IDiaFrameData::get_program](../../debugger/debug-interface-access/idiaframedata-get-program.md)

@@ -1,20 +1,22 @@
 ---
-title: "IDebugErrorBreakpointResolution2::GetResolutionInfo | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Gets the breakpoint error resolution information."
+title: IDebugErrorBreakpointResolution2::GetResolutionInfo | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugErrorBreakpointResolution2::GetResolutionInfo"
+- IDebugErrorBreakpointResolution2::GetResolutionInfo
 helpviewer_keywords:
-  - "IDebugErrorBreakpointResolution2::GetResolutionInfo"
+- IDebugErrorBreakpointResolution2::GetResolutionInfo
 ms.assetid: d94c4f60-8796-4848-86ee-186bbaa613f5
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugErrorBreakpointResolution2::GetResolutionInfo
 Gets the breakpoint error resolution information.

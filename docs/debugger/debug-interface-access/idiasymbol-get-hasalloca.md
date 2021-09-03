@@ -1,7 +1,8 @@
 ---
+description: "Retrieves a flag that specifies whether the function contains a call to alloca (which is used to allocate memory on the stack)."
 title: "IDiaSymbol::get_hasAlloca | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,8 @@ helpviewer_keywords:
 ms.assetid: 3b9fb747-670b-4da7-bb70-612f7b911786
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -40,5 +42,5 @@ HRESULT get_hasAlloca(   BOOL *pFlag);
 |Header:|dia2.h|
 |Version:|DIA SDK v8.0|
 
-## See Also
+## See also
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

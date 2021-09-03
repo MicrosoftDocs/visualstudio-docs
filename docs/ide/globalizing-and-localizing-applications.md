@@ -1,20 +1,23 @@
 ---
 title: Localization tools
+description: Learn about the localization tools that are included in Visual Studio and how to use them to create localized applications in multiple languages.
+ms.custom: SEO-VS-2020
 ms.date: 02/15/2019
 ms.topic: reference
 helpviewer_keywords:
-  - "globalization [Visual Studio]"
-  - "Visual Basic code, international applications"
-  - "C#, international applications"
-  - "localization [Visual Studio]"
-  - "world-ready applications"
-  - "international applications [Visual Studio]"
+- globalization [Visual Studio]
+- Visual Basic code, international applications
+- C#, international applications
+- localization [Visual Studio]
+- world-ready applications
+- international applications [Visual Studio]
 ms.assetid: 4d9815ae-3e80-4b4d-933d-f8309aee18d5
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Develop globalized and localized apps
 
@@ -37,7 +40,7 @@ You can use Visual Studio to create applications that correctly display text in 
 
 - Web apps
 
-   Web services support sending and receiving UTF-8 and Unicode text, making them suitable for applications that involve bidirectional languages. Web client applications rely on browsers for their user interface, so the degree of bidirectional support in a web application is dependent on how well the user's browser supports those bidirectional features. In Visual Studio, you can create applications with support for Arabic or Hebrew text, right-to-left reading order, file encoding, and local culture settings. For more information, see [Bidirectional support for ASP.NET web applications](https://msdn.microsoft.com/Library/5576f9b1-9b86-41ef-8354-092d366bcd03).
+   Web services support sending and receiving UTF-8 and Unicode text, making them suitable for applications that involve bidirectional languages. Web client applications rely on browsers for their user interface, so the degree of bidirectional support in a web application is dependent on how well the user's browser supports those bidirectional features. In Visual Studio, you can create applications with support for Arabic or Hebrew text, right-to-left reading order, file encoding, and local culture settings. For more information, see [Bidirectional support for ASP.NET web applications](/previous-versions/6eedwbtt(v=vs.140)).
 
 > [!NOTE]
 > Console apps do not include text support for bidirectional languages. This is a consequence of how Windows works with console applications.

@@ -1,13 +1,16 @@
 ---
 title: Add commands and gestures to dependency diagrams
+description: Learn how you can define right-click menu commands and gesture handlers on dependency diagrams in Visual Studio.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
   - "dependency diagrams, adding custom commands"
   - "dependency diagrams, adding custom gestures"
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: mgoertz-msft
+ms.author: mgoertz
+manager: jmartens
+ms.technology: vs-ide-modeling
 ms.workload:
   - "multiple"
 ---
@@ -255,6 +258,6 @@ Notice the following points about gesture handlers:
 
 - Handlers for some types of dragged item are already defined. For example, the user can drag items from Solution Explorer onto a dependency diagram. You cannot define a drag handler for these types of item. In these cases, your `DragDrop` methods will not be invoked.
 
-## See Also
+## See also
 
 - [Add custom architecture validation to dependency diagrams](../modeling/add-custom-architecture-validation-to-layer-diagrams.md)

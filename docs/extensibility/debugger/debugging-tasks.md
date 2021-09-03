@@ -1,15 +1,18 @@
 ---
-title: "Debugging Tasks | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Debugging Tasks | Microsoft Docs
+description: Learn about the tasks necessary to debug a program, such as attaching it to a debug engine, generating startup events, and hitting breakpoints.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: overview
 helpviewer_keywords:
-  - "debugging [Debugging SDK], tasks"
+- debugging [Debugging SDK], tasks
 ms.assetid: 5d60e9e8-305e-4a48-829f-b9440fc8af7b
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Debug tasks
 To debug a program, it must be launched and a debug engine (DE) must be attached to it, or else the DE must be attached to a previously launched program. Once attached, the DE must generate certain startup events. In response, the debug package attempts to bind the breakpoints set in the IDE. When the program hits a bound breakpoint, it halts and waits for user input.

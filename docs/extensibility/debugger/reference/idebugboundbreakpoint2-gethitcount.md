@@ -1,21 +1,23 @@
 ---
-title: "IDebugBoundBreakpoint2::GetHitCount | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Gets the current hit count for this bound breakpoint."
+title: IDebugBoundBreakpoint2::GetHitCount | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugBoundBreakpoint2::GetHitCount"
+- IDebugBoundBreakpoint2::GetHitCount
 helpviewer_keywords:
-  - "GetHitCount method"
-  - "IDebugBoundBreakpoint2::GetHitCount method"
+- GetHitCount method
+- IDebugBoundBreakpoint2::GetHitCount method
 ms.assetid: 23481f37-047c-41d2-8286-4da1f4084961
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugBoundBreakpoint2::GetHitCount
 Gets the current hit count for this bound breakpoint.

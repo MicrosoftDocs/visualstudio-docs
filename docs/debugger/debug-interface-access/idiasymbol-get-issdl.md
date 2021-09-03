@@ -1,13 +1,15 @@
 ---
+description: "Specifies whether the module is compiled with the /SDL option."
 title: "IDiaSymbol::get_isSdl | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 ms.assetid: 6aa0e116-da75-4643-a4d7-d8e142231e21
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -29,5 +31,5 @@ HRESULT get_isSdl(
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.
 
-## See Also
+## See also
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

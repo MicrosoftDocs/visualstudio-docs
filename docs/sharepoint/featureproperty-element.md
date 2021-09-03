@@ -1,5 +1,7 @@
 ---
 title: "FeatureProperty Element | Microsoft Docs"
+description: View reference information about the FeatureProperty element, which is an element in the SharePoint project item schema.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -9,7 +11,8 @@ helpviewer_keywords:
   - "FeatureProperty element"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
+ms.technology: sharepoint-development
 ms.workload:
   - "office"
 ---
@@ -47,7 +50,7 @@ ms.workload:
 
 ## Element information
 
-|||
+|Property|Value|
 |-|-|
 |**Namespace**|http:\/\/schemas.microsoft.com/VisualStudio/<br>2010/SharePointTools/SharePointProjectItemModel|
 |**Schema name**|SharePoint Project Item Schema|

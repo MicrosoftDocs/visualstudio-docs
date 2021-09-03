@@ -1,14 +1,17 @@
 ---
-title: "Add Context Parameters to a Load Test Run Setting"
+title: Add Context Parameters to a Load Test Run Setting
+description: Learn how to create context parameters to use in a load test run setting by using the Load Test Editor, which let you parameterize a string.
+ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
-ms.topic: conceptual
-helpviewer_keywords:
-  - "load tests, run settings, context parameters"
-  - "load tests, context parameters"
+ms.topic: how-to
+helpviewer_keywords: 
+  - load tests, run settings, context parameters
+  - load tests, context parameters
 ms.assetid: a8a0b97e-8040-4711-85ab-36548b130ed2
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.technology: vs-ide-test
 ---
 # How to: Add context parameters to a load test run setting
 

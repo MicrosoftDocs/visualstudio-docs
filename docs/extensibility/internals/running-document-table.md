@@ -1,19 +1,22 @@
 ---
-title: "Running Document Table | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Running Document Table | Microsoft Docs
+description: Learn how the Visual Studio IDE maintains the running document table, which includes all open documents in memory. 
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: reference
 helpviewer_keywords:
-  - "read locks"
-  - "running document table (RDT), IVsDocumentLockHolder interface"
-  - "running document table (RDT)"
-  - "running document table (RDT), edit locks"
-  - "document data objects, running document table"
+- read locks
+- running document table (RDT), IVsDocumentLockHolder interface
+- running document table (RDT)
+- running document table (RDT), edit locks
+- document data objects, running document table
 ms.assetid: bbec74f3-dd8e-48ad-99c1-2df503c15f5a
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Running Document Table
 The IDE maintains the list of all currently open documents in an internal structure called the running document table (RDT). This list includes all open documents in memory, regardless of whether these documents are currently being edited. A document is any item that is persisted, including files in a project or the main project file (for example, a .vcxproj file).
@@ -50,6 +53,6 @@ The IDE maintains the list of all currently open documents in an internal struct
 
 - Use the hierarchy or item ID to ask the project system for the full document path, and then look the item up in the RDT.
 
-## See Also
+## See also
 - [RDT_ReadLock Usage](../../extensibility/internals/rdt-readlock-usage.md)
 - [Persistence and the Running Document Table](../../extensibility/internals/persistence-and-the-running-document-table.md)

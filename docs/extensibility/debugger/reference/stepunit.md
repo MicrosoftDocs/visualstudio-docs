@@ -1,20 +1,22 @@
 ---
-title: "STEPUNIT | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Specifies the step unit for stepping."
+title: STEPUNIT | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "STEPUNIT"
+- STEPUNIT
 helpviewer_keywords:
-  - "STEPUNIT enumeration"
+- STEPUNIT enumeration
 ms.assetid: cb8441f2-f744-4e73-acfe-ae8542df9649
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # STEPUNIT
 Specifies the step unit for stepping.

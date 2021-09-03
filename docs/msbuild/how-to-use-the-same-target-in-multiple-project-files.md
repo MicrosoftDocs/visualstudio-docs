@@ -1,22 +1,27 @@
 ---
-title: "How to: Use the Same Target in Multiple Project Files | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: 'How to: Use the Same Target in Multiple Project Files | Microsoft Docs'
+description: Learn how to save a target in an MSBuild project file and import it into any other project that needs to use the target.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "MSBuild, importing"
-  - "MSBuild, using the same target in multiple project files"
+- MSBuild, importing
+- MSBuild, using the same target in multiple project files
 ms.assetid: 163734bd-1bfd-4093-a730-7741fc21742d
-author: mikejo5000
-ms.author: mikejo
-manager: jillfra
+author: ghogen
+ms.author: ghogen
+manager: jmartens
+ms.technology: msbuild
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Use the same target in multiple project files
-If you have authored several [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] project files, you might have discovered that you need to use the same tasks and targets in different project files. Instead of including the complete description of those tasks or targets in every project file, you can save a target in a separate project file and then import that project into any other project that needs to use the target.
+
+If you have authored several MSBuild project files, you might have discovered that you need to use the same tasks and targets in different project files. Instead of including the complete description of those tasks or targets in every project file, you can save a target in a separate project file and then import that project into any other project that needs to use the target.
 
 ## Use the Import element
- The `Import` element is used to insert one project file into another project file. The project file that is being imported must be a valid [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] project file and contain well-formed XML. The `Project` attribute specifies the path to the imported project file. For more information on the `Import` element, see [Import element (MSBuild)](../msbuild/import-element-msbuild.md).
+
+The `Import` element is used to insert one project file into another project file. The project file that is being imported must be a valid MSBuild project file and contain well-formed XML. The `Project` attribute specifies the path to the imported project file. For more information on the `Import` element, see [Import element (MSBuild)](../msbuild/import-element-msbuild.md).
 
 #### To import a project
 
@@ -29,7 +34,8 @@ If you have authored several [!INCLUDE[vstecmsbuild](../extensibility/internals/
 3. Following the `Import` element, define all properties and items that must override default definitions of properties and items in the imported project.
 
 ## Order of evaluation
- When [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] reaches an `Import` element, the imported project is effectively inserted into the importing project at the location of the `Import` element. Therefore, the location of the `Import` element can affect the values of properties and items. It is important to understand the properties and items that are set by the imported project, and the properties and items that the imported project uses.
+
+ When MSBuild reaches an `Import` element, the imported project is effectively inserted into the importing project at the location of the `Import` element. Therefore, the location of the `Import` element can affect the values of properties and items. It is important to understand the properties and items that are set by the imported project, and the properties and items that the imported project uses.
 
  When the project builds, all properties are evaluated first, followed by items. For example, the following XML defines the imported project file *MyCommon.targets*:
 
@@ -74,7 +80,8 @@ If you have authored several [!INCLUDE[vstecmsbuild](../extensibility/internals/
 
 3. Define in the project file all properties and items that must override default definitions of properties and items in the imported project.
 
-## Example
+## Example 1
+
  The following code example shows the *MyCommon.targets* file that the second code example imports. The *.targets* file evaluates properties from the importing project to configure the build.
 
 ```xml
@@ -92,7 +99,8 @@ If you have authored several [!INCLUDE[vstecmsbuild](../extensibility/internals/
 </Project>
 ```
 
-## Example
+## Example 2
+
  The following code example imports the *MyCommon.targets* file.
 
 ```xml
@@ -106,5 +114,6 @@ If you have authored several [!INCLUDE[vstecmsbuild](../extensibility/internals/
 ```
 
 ## See also
+
 - [Import element (MSBuild)](../msbuild/import-element-msbuild.md)
 - [Targets](../msbuild/msbuild-targets.md)

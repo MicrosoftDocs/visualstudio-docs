@@ -1,7 +1,8 @@
 ---
-title: "Error: Unable to Start Debugging on the Web Server | Microsoft Docs"
+description: "When you try to debug an ASP.NET application running on a Web server, you may get this error message: Unable to start debugging on the Web server`."
+title: "Unable to Start Debugging on the Web Server | Microsoft Docs"
 ms.date: "05/23/2018"
-ms.topic: "troubleshooting"
+ms.topic: "error-reference"
 f1_keywords:
   - "vs.debug.error.http"
   - "vwd.nonadmin.error."
@@ -23,7 +24,8 @@ helpviewer_keywords:
   - "remote debugging, errors"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -46,6 +48,7 @@ The `Unable to start debugging on the Web server` message is generic. Usually, a
 - [Could not start ASP.NET debugging](#aspnet)
 - [The debugger cannot connect to the remote computer](#cannot_connect)
 - [See help for common configuration errors. Running the webpage outside of the debugger may provide further information.](#see_help)
+- [Operation not supported. Unknown error: *errornumber*](#operation_not_supported)
 
 ## <a name="IISlist"></a> IIS does not list a website that matches the launch url
 
@@ -88,7 +91,9 @@ In addition, here are some of the common error codes and a few suggestions.
 
 ## <a name="cannot_connect"></a> The debugger cannot connect to the remote computer
 
-If you are debugging locally, this error may occur because Visual Studio is a 32-bit application, so it uses the 64-bit version of the remote debugger to debug 64-bit applications. Open your project properties and make sure that the project is configured to connect to the correct Web server and URL. (Open **Properties > Web > Servers** or **Properties > Debug** depending on your project type.)
+If you are debugging locally, open your project properties in Visual Studio and make sure that the project is configured to connect to the correct Web server and URL. (Open **Properties > Web > Servers** or **Properties > Debug** depending on your project type.)
+
+This error may occur when debugging locally because Visual Studio is a 32-bit application, so it uses the 64-bit version of the remote debugger to debug 64-bit applications. Check your App Pool on IIS to make sure that **Enable 32-bit applications** is set to `true`, restart IIS, and try again.
 
 Also, if you are using a HOSTS file, make sure it is configured correctly. For example, the HOSTS file needs to include the same project URL as in your project properties, **Properties > Web > Servers** or **Properties > Debug**, depending on your project type.
 
@@ -97,6 +102,10 @@ Also, if you are using a HOSTS file, make sure it is configured correctly. For e
 - Are you running Visual Studio and the Web server on the same machine? Open your project properties and make sure that the project is configured to connect to the correct Web server and launch URL. (Open **Properties > Web > Servers** or **Properties > Debug** depending on your project type.)
 
 - If that does not work or you are debugging remotely, follow steps in [Check your IIS Configuration](#vxtbshttpservererrorsthingstocheck).
+
+## <a name="operation_not_supported"></a> Operation not supported. Unknown error: *errornumber*
+
+If you are doing URL rewrites, test a basic web.config with no URL rewrites. See the **Note** about the URL Rewrite Module in [Check your IIS Configuration](#vxtbshttpservererrorsthingstocheck).
 
 ## <a name="vxtbshttpservererrorsthingstocheck"></a> Check your IIS configuration
 
@@ -153,5 +162,5 @@ If the IIS configuration is not causing the issue, try these steps:
 
     If you can't get your app to work with the debugger, try creating a basic ASP.NET application locally on the server, and try to debug the basic app. (You might want to use the default ASP.NET MVC template.) If you can debug a basic app, that may help you identify what's different between the two configurations. Look for differences in settings in the web.config file, such as URL rewrite rules.
 
-## See Also
+## See also
 - [Debugging Web Applications: Errors and Troubleshooting](../debugger/debugging-web-applications-errors-and-troubleshooting.md)

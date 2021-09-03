@@ -1,18 +1,18 @@
 ---
-title: "Debug live ASP.NET Azure virtual machines and scale sets"
-description: "Learn how to set snappoints and view snapshots with the Snapshot Debugger."
-ms.custom: ""
-ms.date: "02/06/2019"
-ms.topic: "conceptual"
-helpviewer_keywords:
-  - "debugger"
-author: "poppastring"
-ms.author: "madownie"
+title: Debug live ASP.NET Azure VM and scale sets
+description: Learn how to use the Snapshot Debugger in Visual Studio to set snappoints and take snapshots while debugging live ASP.NET apps on Azure VMs and scale sets.
+ms.custom: SEO-VS-2020
+ms.date: 02/06/2019
+ms.topic: how-to
+helpviewer_keywords: 
+  - debugger
+author: poppastring
+ms.author: madownie
 manager: andster
 monikerRange: '>= vs-2019'
-ms.workload:
-  - "aspnet"
-  - "azure"
+ms.workload: 
+  - aspnet
+  - azure
 ---
 # Debug live ASP.NET apps on Azure virtual machines and Azure virtual machine scale sets using the Snapshot Debugger
 
@@ -36,6 +36,9 @@ In this tutorial, you will:
 * Snapshot collection is available for the following Azure Virtual Machines\Virtual Machine Scale Sets web apps:
   * ASP.NET applications running on .NET Framework 4.6.1 or later.
   * ASP.NET Core applications running on .NET Core 2.0 or later on Windows.
+
+  > [!NOTE]
+  >  Visual Studio Enterprise running on 32-bit Windows will not be able to view snapshots.
 
 ## Open your project and start the Snapshot Debugger
 
@@ -101,7 +104,7 @@ Once a snappoint is set, you can either manually generate a snapshot by going to
 
 You can also add more snappoints to your app and turn them on with the **Update Collection** button.
 
-**Need help?** See the [Troubleshooting and known issues](../debugger/debug-live-azure-apps-troubleshooting.md) and [FAQ for snapshot debugging](../debugger/debug-live-azure-apps-faq.md) pages.
+**Need help?** See the [Troubleshooting and known issues](../debugger/debug-live-azure-apps-troubleshooting.md) and [FAQ for snapshot debugging](../debugger/debug-live-azure-apps-faq.yml) pages.
 
 ## Set a conditional snappoint
 
@@ -144,4 +147,4 @@ In addition to taking a snapshot when a snappoint is hit, you can also configure
 In this tutorial, you've learned how to use the Snapshot Debugger for Azure Virtual Machines and Azure Virtual Machine Scale Sets. You may want to read more details about this feature.
 
 > [!div class="nextstepaction"]
-> [FAQ for snapshot debugging](../debugger/debug-live-azure-apps-faq.md)
+> [FAQ for snapshot debugging](../debugger/debug-live-azure-apps-faq.yml)

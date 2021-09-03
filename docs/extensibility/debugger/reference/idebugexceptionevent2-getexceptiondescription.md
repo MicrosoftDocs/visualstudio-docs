@@ -1,20 +1,22 @@
 ---
-title: "IDebugExceptionEvent2::GetExceptionDescription | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Gets a displayable description of the exception."
+title: IDebugExceptionEvent2::GetExceptionDescription | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugExceptionEvent2::GetExceptionDescription"
+- IDebugExceptionEvent2::GetExceptionDescription
 helpviewer_keywords:
-  - "IDebugExceptionEvent2::GetExceptionDescription"
+- IDebugExceptionEvent2::GetExceptionDescription
 ms.assetid: d07d458f-5729-47e4-9b77-1bd59c61a75a
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugExceptionEvent2::GetExceptionDescription
 Gets a displayable description of the exception.

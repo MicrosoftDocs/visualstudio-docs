@@ -1,20 +1,21 @@
 ---
 title: Visual Studio Team Explorer workload and component IDs
-titleSuffix: ""
-description: "Use Visual Studio workload and component IDs to provide integrated testing tools for generalist testers"
+titleSuffix: ''
+description: Use Visual Studio workload and component IDs to provide integrated testing tools for generalist testers
 keywords:
-author: TerryGLee
-ms.author: tglee
-manager: jillfra
-ms.date: 05/22/2019
+author: anandmeg
+ms.author: meghaanand
+manager: jmartens
+ms.date: 08/10/2021
 ms.topic: reference
 helpviewer_keywords:
-  - "workload ID, Visual Studio"
-  - "component ID, Visual Studio"
-  - "install Visual Studio, administrator guide"
+- workload ID, Visual Studio
+- component ID, Visual Studio
+- install Visual Studio, administrator guide
 ms.assetid: c6ef9a3b-d13d-49b4-9faa-51fa06b21e1f
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
+open_to_public_contributors: false
 ---
 # Visual Studio Team Explorer component directory
 

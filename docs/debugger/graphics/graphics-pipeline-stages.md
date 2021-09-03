@@ -1,5 +1,7 @@
 ---
 title: "Graphics Pipeline Stages | Microsoft Docs"
+description: Troubleshoot rendering problems by seeing how a draw call is transformed at each stage of the Direct3D graphics pipeline.
+ms.custom: SEO-VS-2020
 ms.date: "02/09/2017"
 ms.topic: "conceptual"
 f1_keywords:
@@ -7,7 +9,8 @@ f1_keywords:
 ms.assetid: 2bf5c12e-2a00-401c-8163-4e373d08ad3f
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -117,6 +120,6 @@ The Graphics Pipeline Stages window helps you understand how an individual draw 
 
  ![The vertex shader stage result preview](media/gfx_diag_vertex_shader_preview.png)
 
-## See Also
+## See also
 - [Walkthrough: Missing Objects Due to Vertex Shading](walkthrough-missing-objects-due-to-vertex-shading.md)
 - [Walkthrough: Debugging Rendering Errors Due to Shading](walkthrough-debugging-rendering-errors-due-to-shading.md)

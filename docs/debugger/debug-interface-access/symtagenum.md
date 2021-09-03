@@ -1,7 +1,8 @@
 ---
+description: "Specifies the type of symbol."
 title: "SymTagEnum | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,8 @@ helpviewer_keywords:
 ms.assetid: 528a50cf-e13d-46ec-a98c-323d5d047de9
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -198,7 +200,7 @@ The values in this enumeration are passed to the following methods to limit the 
 ## Requirements
 Header: cvconst.h
 
-## See Also
+## See also
 - [Enumerations and Structures](../../debugger/debug-interface-access/enumerations-and-structures.md)
 - [Lexical Hierarchy of Symbol Types](../../debugger/debug-interface-access/lexical-hierarchy-of-symbol-types.md)
 - [IDiaSession::findSymbolByAddr](../../debugger/debug-interface-access/idiasession-findsymbolbyaddr.md)

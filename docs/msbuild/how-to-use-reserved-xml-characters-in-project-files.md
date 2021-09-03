@@ -1,21 +1,26 @@
 ---
-title: "How to: Use Reserved XML Characters in Project Files | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: 'How to: Use Reserved XML Characters in Project Files | Microsoft Docs'
+description: Learn how to replace reserved XML characters with corresponding named entities in MSBuild project files.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "MSBuild, using reserved XML characters"
-  - "MSBuild, reserved XML characters"
+- MSBuild, using reserved XML characters
+- MSBuild, reserved XML characters
 ms.assetid: 1ae37275-96bf-4e6e-897b-6b048e5bbe93
-author: mikejo5000
-ms.author: mikejo
-manager: jillfra
+author: ghogen
+ms.author: ghogen
+manager: jmartens
+ms.technology: msbuild
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Use reserved XML characters in project files
+
 When you author project files, you might need to use reserved XML characters, for example, in property values or in task parameter values. However, some reserved characters must be replaced by a named entity so that the project file can be parsed.
 
 ## Use reserved characters
+
  The following table describes the reserved XML characters that must be replaced by the corresponding named entity so that the project file can be parsed.
 
 |Reserved character|Named entity|
@@ -35,6 +40,7 @@ When you author project files, you might need to use reserved XML characters, fo
     ```
 
 ## Example
+
  In the following code example, double quotes are used to highlight the file name in the message that is output by the project file.
 
 ```xml
@@ -65,5 +71,6 @@ When you author project files, you might need to use reserved XML characters, fo
 ```
 
 ## See also
+
 - [MSBuild reference](../msbuild/msbuild-reference.md)
 - [MSBuild](../msbuild/msbuild.md)

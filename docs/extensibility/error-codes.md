@@ -1,17 +1,20 @@
 ---
-title: "Error Codes | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Error Codes | Microsoft Docs
+description: This article contains a list of error codes, values, and descriptions for Source Control Plug-in API functions.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: reference
 helpviewer_keywords:
-  - "error codes, source control plug-ins"
-  - "source control plug-ins, error codes"
-  - "errors [Visual Studio SDK]"
+- error codes, source control plug-ins
+- source control plug-ins, error codes
+- errors [Visual Studio SDK]
 ms.assetid: d9cbd1c4-719b-467a-8100-333c1e146d3b
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Error codes
 When a Source Control Plug-in API function returns an error, it is expected to be one of the following error codes. All errors are negative, warnings or informational error codes are positive, and success is 0.

@@ -1,5 +1,6 @@
 ---
 title: "Marks View | Microsoft Docs"
+description: Learn how the Marks view displays sampling and ETW events that were inserted into the application.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:
@@ -10,7 +11,9 @@ helpviewer_keywords:
 ms.assetid: b2773344-8081-4116-85a1-58f770448f6a
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
+monikerRange: 'vs-2017'
 ms.workload:
   - "multiple"
 ---
@@ -40,4 +43,4 @@ The Marks view displays sampling and ETW events that were inserted into the appl
 ## See also
 - [Performance report overview](../profiling/performance-report-overview.md)
 - [How to: Collect Windows counter data](../profiling/how-to-collect-windows-counter-data.md)
-- [&#91;NIB&#93; Data Collection Control window](https://msdn.microsoft.com/98d740d8-459f-4605-bf04-fb17aafaaa8f)
+- [&#91;NIB&#93; Data Collection Control window](/previous-versions/bb385767(v=vs.110))

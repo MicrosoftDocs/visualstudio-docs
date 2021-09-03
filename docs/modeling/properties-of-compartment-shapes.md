@@ -1,14 +1,17 @@
 ---
 title: Properties of Compartment Shapes
+description: Learn that compartment shapes are one of the shapes you can use to display a domain class in a domain-specific language.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
   - "vs.dsltools.dsldesigner.compartmentshape"
 helpviewer_keywords:
   - "Domain-Specific Language, compartment shape"
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: mgoertz-msft
+ms.author: mgoertz
+manager: jmartens
+ms.technology: vs-ide-modeling
 ms.workload:
   - "multiple"
 ---
@@ -49,6 +52,6 @@ Compartment shapes are one of the shapes you can use to display a domain class i
 |Fixed Tooltip Text|The text that is used for a fixed tooltip.|\<none>|
 |Help Keyword|The keyword that is used to index F1 help for this shape.|\<none>|
 
-## See Also
+## See also
 
-- [Domain-Specific Language Tools Glossary](https://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)
+- [Domain-Specific Language Tools Glossary](/previous-versions/bb126564(v=vs.100))

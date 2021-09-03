@@ -1,17 +1,20 @@
 ---
-title: "Custom Document Properties in a Legacy Language Service | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Custom document properties in legacy language services
+description: Learn how to create custom document properties that are displayed in the Visual Studio Properties window, as part of a legacy language service.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "custom document properties, language services [managed package framework]"
-  - "document properties, custom"
-  - "language services [managed package framework], custom document properties"
+- custom document properties, language services [managed package framework]
+- document properties, custom
+- language services [managed package framework], custom document properties
 ms.assetid: cc714a67-b33e-4440-9203-3c90f648bd9c
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Custom document properties in a legacy language service
 Document properties can be displayed in the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] **Properties** window. Programming languages generally do not have properties associated with individual source files. However, XML supports document properties that affect the encoding, schema, and stylesheet.

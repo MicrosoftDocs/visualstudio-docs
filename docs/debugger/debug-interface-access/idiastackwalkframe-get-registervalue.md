@@ -1,7 +1,8 @@
 ---
+description: "IDiaStackWalkFrame::get_registerValue retrieves the value of a register."
 title: "IDiaStackWalkFrame::get_registerValue | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,8 @@ helpviewer_keywords:
 ms.assetid: ca3c20a9-934a-4b2c-a7f6-7d06e8611ff2
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -37,6 +39,6 @@ HRESULT get_registerValue ( 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
-## See Also
+## See also
 - [IDiaStackWalkFrame](../../debugger/debug-interface-access/idiastackwalkframe.md)
 - [CV_HREG_e Enumeration](../../debugger/debug-interface-access/cv-hreg-e.md)

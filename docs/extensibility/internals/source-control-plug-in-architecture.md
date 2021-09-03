@@ -1,15 +1,18 @@
 ---
-title: "Source Control Plug-in Architecture | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Source Control Plug-in Architecture | Microsoft Docs
+description: Learn how to add source control support to the Visual Studio IDE by implementing and attaching a source control plug-in.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "source control plug-ins, architecture"
+- source control plug-ins, architecture
 ms.assetid: 35351d4c-9414-409b-98fc-f2023e2426b7
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Source Control Plug-in Architecture
 You can add source control support to the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE) by implementing and attaching a source control plug-in. The IDE connects to the source control plug-in via the well-defined Source Control Plug-In API. The IDE exposes the version control features of the source control system by providing a user interface (UI) that consists of toolbars and menu commands. The source control plug-in implements the source control functionality.
@@ -31,7 +34,7 @@ Architecture Diagram showing interaction between VS and source control plug-in
 
  A source control plug-in cannot make changes to the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] shell and, consequently, to either the Source Control Adapter Package or the source control UI provided by the IDE. It must make maximum use of the flexibility offered through the implementation of the various Source Control Plug-in API functions that contribute to an integrated experience for the end user. The reference section of the Source Control Plug-in API documentation includes information for some advanced source control plug-in capabilities. To exploit these features, the source control plug-in must declare its advanced capabilities to the IDE during initialization, and it must implement specific advanced functions for each capability.
 
-## See Also
+## See also
 - [Source Control Plug-ins](../../extensibility/source-control-plug-ins.md)
 - [Glossary](../../extensibility/source-control-plug-in-glossary.md)
 - [Creating a Source Control Plug-in](../../extensibility/internals/creating-a-source-control-plug-in.md)

@@ -1,29 +1,32 @@
 ---
-title: "CvEnterSpan Function | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-f1_keywords:
-  - "cvmarkers/CvEnterSpanVA"
-  - "cvmarkers/CvEnterSpanW"
-  - "cvmarkers/CvEnterSpanExW"
-  - "cvmarkers/CvEnterSpanA"
-  - "cvmarkers/CvEnterSpanExVW"
-  - "cvmarkers/CvEnterSpanExA"
-  - "cvmarkers/CvEnterSpanVW"
-helpviewer_keywords:
-  - "CvEnterSpanVW method"
-  - "CvEnterSpanVA method"
-  - "CvEnterSpanExA method"
-  - "CvEnterSpanW method"
-  - "CvEnterSpanA method"
-  - "CvEnterSpanExVW method"
-  - "CvEnterSpanExW method"
+title: CvEnterSpan Function | Microsoft Docs
+description: See reference information for the Concurrency Visualizer SDK function CvEnterSpan (C library).
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: reference
+f1_keywords: 
+  - cvmarkers/CvEnterSpanVA
+  - cvmarkers/CvEnterSpanW
+  - cvmarkers/CvEnterSpanExW
+  - cvmarkers/CvEnterSpanA
+  - cvmarkers/CvEnterSpanExVW
+  - cvmarkers/CvEnterSpanExA
+  - cvmarkers/CvEnterSpanVW
+helpviewer_keywords: 
+  - CvEnterSpanVW method
+  - CvEnterSpanVA method
+  - CvEnterSpanExA method
+  - CvEnterSpanW method
+  - CvEnterSpanA method
+  - CvEnterSpanExVW method
+  - CvEnterSpanExW method
 ms.assetid: 91689e9c-6733-44b9-b36a-8b9b2eef7d1d
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
-ms.workload:
-  - "multiple"
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.technology: vs-ide-debug
+ms.workload: 
+  - multiple
 ---
 # CvEnterSpan function
 Marks the beginning of a new span.

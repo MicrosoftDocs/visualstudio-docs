@@ -1,12 +1,15 @@
 ---
 title: API Reference for T4 Text Templates
+description: Learn how the Text Templating API lets you invoke and customize the transformation of text templates.
+ms.custom: SEO-VS-20200
 ms.date: 11/04/2016
 ms.topic: reference
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: mgoertz-msft
+ms.author: mgoertz
+manager: jmartens
+ms.technology: vs-ide-modeling
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # API Reference for T4 Text Templates
 

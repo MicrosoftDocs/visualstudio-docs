@@ -1,28 +1,33 @@
 ---
-title: "Using AspNetCompiler Task to precompile ASP.NET applications | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
+title: Use AspNetCompiler Task to precompile ASP.NET
+description: Use the MSBuild AspNetCompiler task to wrap aspnet_compiler.exe, a utility to precompile ASP.NET applications.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: reference
 f1_keywords:
-  - "http://schemas.microsoft.com/developer/msbuild/2003#AspNetCompiler"
+- http://schemas.microsoft.com/developer/msbuild/2003#AspNetCompiler
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+- VB
+- CSharp
+- C++
+- jsharp
 helpviewer_keywords:
-  - "MSBuild, AspNetCompiler task"
-  - "AspNetCompiler task [MSBuild]"
+- MSBuild, AspNetCompiler task
+- AspNetCompiler task [MSBuild]
 ms.assetid: f811c019-a67b-4d54-82e6-e29549496f6e
-author: mikejo5000
-ms.author: mikejo
-manager: jillfra
+author: ghogen
+ms.author: ghogen
+manager: jmartens
+ms.technology: msbuild
 ms.workload:
-  - "aspnet"
+- aspnet
 ---
 # AspNetCompiler task
-The `AspNetCompiler` task wraps *aspnet_compiler.exe*, a utility to precompile [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] applications.
+
+The `AspNetCompiler` task wraps *aspnet_compiler.exe*, a utility to precompile ASP.NET applications.
 
 ## Task parameters
+
 The following table describes the parameters of the `AspNetCompiler` task.
 
 |Parameter|Description|
@@ -42,11 +47,11 @@ The following table describes the parameters of the `AspNetCompiler` task.
 |`Updateable`|Optional `Boolean` parameter.<br /><br /> If this parameter is `true`, the precompiled application will be updateable.  The default value is `false`. This parameter corresponds to the **-u** switch on *aspnet_compiler.exe*.|
 |`VirtualPath`|Optional `String` parameter.<br /><br /> The virtual path of the application to be compiled. If `PhysicalPath` specified, the physical path is used to locate the application. Otherwise, the IIS metabase is used, and the application is assumed to be in the default site. This parameter corresponds to the **-v** switch on *aspnet_compiler.exe*.|
 
-## Remarks
-In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Tasks.ToolTaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.ToolTask> class. For a list of these additional parameters and their descriptions, see [ToolTaskExtension base class](../msbuild/tooltaskextension-base-class.md).
+[!INCLUDE [ToolTaskExtension arguments](includes/tooltaskextension-base-params.md)]
 
 ## Example
-The following code example uses the `AspNetCompiler` task to precompile an [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] application.
+
+The following code example uses the `AspNetCompiler` task to precompile an ASP.NET application.
 
 ```xml
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
@@ -63,5 +68,7 @@ The following code example uses the `AspNetCompiler` task to precompile an [!INC
 ```
 
 ## See also
+
 * [Tasks](../msbuild/msbuild-tasks.md)
 * [Task reference](../msbuild/msbuild-task-reference.md)
+* [ASP.NET Compilation Tool (aspnet_compiler.exe)](/previous-versions/ms229863(v=vs.100))

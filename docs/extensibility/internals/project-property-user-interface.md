@@ -1,17 +1,20 @@
 ---
-title: "Project Property User Interface | Microsoft Docs"
+title: Project Property User Interface | Microsoft Docs
+description: Learn how project subtypes can modify the project Property Pages dialog box as supplied by the base project.
+ms.custom: SEO-VS-2020
 ms.date: 03/22/2018
-ms.topic: "conceptual"
+ms.topic: reference
 helpviewer_keywords:
-  - "project properties [Visual Studio], user interface"
-  - "projects [Visual Studio SDK], properties UI"
-  - "project properties UI"
+- project properties [Visual Studio], user interface
+- projects [Visual Studio SDK], properties UI
+- project properties UI
 ms.assetid: b6aec634-8533-476c-9ebd-36536a2288e2
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Project Property User Interface
 
@@ -33,7 +36,7 @@ The process of extending a **Project Property** dialog box is outlined below:
 
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsCfgBrowseObject.GetCfg%2A>, also implemented by the project configuration browse object, returns the <xref:Microsoft.VisualStudio.Shell.Interop.IVsCfg> object.
 
-- A project subtype can determine the appropriate CATIDs for the various extendable objects of the base project at runtime by retrieving the following <xref:Microsoft.VisualStudio.Shell.Interop.__VSHPROPID2> values:
+- A project subtype can determine the appropriate CATIDs for the various extendable objects of the base project at run time by retrieving the following <xref:Microsoft.VisualStudio.Shell.Interop.__VSHPROPID2> values:
 
   - <xref:Microsoft.VisualStudio.Shell.Interop.__VSHPROPID2.VSHPROPID_ExtObjectCATID>
 
@@ -49,7 +52,7 @@ To determine the CATIDs for the project scope, the project subtype retrieves the
 
 Because the project subtype aggregates the <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy> object, it can override the definition of these properties to control which **Property Pages** dialog boxes are displayed. The project subtype can retrieve these properties from the inner base project and then add or remove CLSIDs as necessary.
 
-New property pages added by a project subtype are handed a project configuration browse object from the base project implementation. This project configuration browse object supports Automation Extenders. For more information on AutomationExtenders, see [Implementing and Using Automation Extenders](https://msdn.microsoft.com/Library/0d5c218c-f412-4b28-ab0c-33a611f62356). The property pages implemented by the project subtype call <xref:EnvDTE.Project.Extender%2A> to retrieve their own project subtype configuration browse object that extends the configuration browse object of the base project.
+New property pages added by a project subtype are handed a project configuration browse object from the base project implementation. This project configuration browse object supports Automation Extenders. For more information on AutomationExtenders, see [Implementing and Using Automation Extenders](/previous-versions/0y92k2w2(v=vs.140)). The property pages implemented by the project subtype call <xref:EnvDTE.Project.Extender%2A> to retrieve their own project subtype configuration browse object that extends the configuration browse object of the base project.
 
 ## See also
 

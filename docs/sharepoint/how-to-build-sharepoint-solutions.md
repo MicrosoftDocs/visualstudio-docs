@@ -1,7 +1,9 @@
 ---
 title: "How to: Build SharePoint Solutions | Microsoft Docs"
+description: Build a SharePoint solution. In Visual Studio, building a SharePoint solution isn't different from building other applications.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: how-to
 dev_langs:
   - "VB"
   - "CSharp"
@@ -11,7 +13,8 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, building"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
+ms.technology: sharepoint-development
 ms.workload:
   - "office"
 ---

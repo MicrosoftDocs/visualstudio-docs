@@ -1,6 +1,7 @@
 ---
 title: "Troubleshooting snapshot debugging | Microsoft Docs"
-ms.custom: ""
+description: Understand troubleshooting and known issues for snapshot debugging in Visual Studio. Load ICorProfiler without causing downtime on your production site.
+ms.custom: SEO-VS-2020
 ms.date: "04/24/2019"
 ms.topic: "troubleshooting"
 helpviewer_keywords:
@@ -8,14 +9,15 @@ helpviewer_keywords:
 ms.assetid: 511a0697-c68a-4988-9e29-8d0166ca044a
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
 
 # Troubleshooting and known issues for snapshot debugging in Visual Studio
 
-If the steps described in this article do not resolve your issue, search for the problem on [Developer Community](https://developercommunity.visualstudio.com/spaces/8/index.html) or report a new issue by choosing **Help** > **Send Feedback** > **Report a Problem** in Visual Studio.
+If the steps described in this article do not resolve your issue, search for the problem on [Developer Community](https://aka.ms/feedback/suggest?space=8) or report a new issue by choosing **Help** > **Send Feedback** > **Report a Problem** in Visual Studio.
 
 ## Issue: "Attach Snapshot Debugger" encounters an HTTP status code error
 
@@ -25,12 +27,36 @@ If you see the following error in the **Output** window during the attempt to at
 
 ### (401) Unauthorized
 
-This error indicates that the REST call issued by Visual Studio to Azure uses an invalid credential. A known bug with the Azure Active Directory Easy OAuth module may produce this error.
+This error indicates that the REST call issued by Visual Studio to Azure uses an invalid credential. 
 
 Take these steps:
 
 * Make sure that your Visual Studio personalization account has permissions to the Azure subscription and resource that you are attaching to. A quick way to determine this is to check whether the resource is available in the dialog box from **Debug** > **Attach Snapshot Debugger...** > **Azure Resource** > **Select Existing**, or in  Cloud Explorer.
 * If this error continues to persist, use one of the feedback channels described in the beginning of this article.
+
+If you have enabled Authentication/Authorization (EasyAuth) on your App Service, you may encounter a 401 error with LaunchAgentAsync in the call stack error message. Please ensure **Action to take when request is not authenticated** is set to **Allow Anonymous requests (no action)** in the Azure portal and provide an authorization.json in D:\Home\sites\wwwroot with the following content instead. 
+
+```
+{
+  "routes": [
+    {
+      "path_prefix": "/",
+      "policies": {
+        "unauthenticated_action": "RedirectToLoginPage"
+      }
+    },
+    {
+      "http_methods": [ "POST" ],
+      "path_prefix": "/41C07CED-2E08-4609-9D9F-882468261608/api/agent",
+      "policies": {
+        "unauthenticated_action": "AllowAnonymous"
+      }
+    }
+  ]
+}
+```
+
+The first route effectively secures your app domain similar to **Log in with [IdentityProvider]**. The second route exposes the SnapshotDebugger AgentLaunch endpoint outside of authentication, which performs the pre-defined action of starting the SnapshotDebugger diagnostic agent *only if* the SnapshotDebugger preinstalled site extension is enabled for your app service. For more details on the authorization.json configuration, please see [URL authorization rules](https://azure.github.io/AppService/2016/11/17/URL-Authorization-Rules.html).
 
 ### (403) Forbidden
 
@@ -38,7 +64,7 @@ This error indicates that permission is denied. This can be caused by many diffe
 
 Take these steps:
 
-* Verify that your Visual Studio account has a valid Azure subscription with the necessary Role-Based Access Control (RBAC) permissions for the resource. For AppService, check if you have permissions to [query](https://docs.microsoft.com/rest/api/appservice/appserviceplans/get) the App Service Plan hosting your app.
+* Verify that your Visual Studio account has a valid Azure subscription with the necessary Role-Based Access Control (RBAC) permissions for the resource. For AppService, check if you have permissions to [query](/rest/api/appservice/appserviceplans/get) the App Service Plan hosting your app.
 * Verify the timestamp of your client machine is correct and up-to-date. Servers with timestamps off by more than 15 minutes of the request timestamp usually produce this error.
 * If this error continues to persist, use one of the feedback channels described in the beginning of this article.
 
@@ -50,6 +76,7 @@ Take these steps:
 
 * Verify that you have a website deployed and running on the App Service resource that you're attaching to.
 * Verify that the site is available at https://\<resource\>.azurewebsites.net
+* Verify that your properly running custom web application does not return a status code of 404 when accessed at https://\<resource\>.azurewebsites.net
 * If this error continues to persist, use one of the feedback channels described in the beginning of this article.
 
 ### (406) Not Acceptable
@@ -82,7 +109,7 @@ Take these steps:
 
 ### (500) Internal Server Error
 
-This error indicates that the site is completely down or the server cannot handle the request. Snapshot Debugger only functions on running applications. [Application Insights Snapshot Debugger](https://docs.microsoft.com/azure/azure-monitor/app/snapshot-debugger) provides snapshotting on exceptions and may be the best tool for your needs.
+This error indicates that the site is completely down or the server cannot handle the request. Snapshot Debugger only functions on running applications. [Application Insights Snapshot Debugger](/azure/azure-monitor/app/snapshot-debugger) provides snapshotting on exceptions and may be the best tool for your needs.
 
 ### (502) Bad Gateway
 
@@ -214,8 +241,8 @@ Snapshot Debugging and Application Insights depend on an ICorProfiler, which loa
 
 ## See also
 
-- [Debugging in Visual Studio](../debugger/index.md)
+- [Debugging in Visual Studio](../debugger/index.yml)
 - [Debug live ASP.NET apps using the Snapshot Debugger](../debugger/debug-live-azure-applications.md)
 - [Debug live ASP.NET Azure Virtual Machines\Virtual Machines Scale Sets using the Snapshot Debugger](../debugger/debug-live-azure-virtual-machines.md)
 - [Debug live ASP.NET Azure Kubernetes using the Snapshot Debugger](../debugger/debug-live-azure-kubernetes.md)
-- [FAQ for snapshot debugging](../debugger/debug-live-azure-apps-faq.md)
+- [FAQ for snapshot debugging](../debugger/debug-live-azure-apps-faq.yml)

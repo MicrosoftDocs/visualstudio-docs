@@ -1,5 +1,6 @@
 ---
 title: "Span Markers | Microsoft Docs"
+description: Learn how a span marker represents a meaningful phase of an application and see an example that shows a span in Concurrency Visualizer.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:
@@ -7,7 +8,8 @@ f1_keywords:
 ms.assetid: 736b7765-9c71-44d7-85e5-79787d13d91c
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---

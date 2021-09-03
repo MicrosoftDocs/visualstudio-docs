@@ -1,15 +1,18 @@
 ---
 title: Quick Actions, light bulbs, and screwdrivers
+description: Learn how to use a single Quick Action to refactor, generate, or otherwise modify your code.
+ms.custom: SEO-VS-2020
 ms.date: 03/28/2018
 ms.topic: conceptual
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
+ms.technology: vs-ide-general
 dev_langs:
-  - CSharp
-  - VB
+- CSharp
+- VB
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Quick Actions
 
@@ -19,7 +22,17 @@ Quick Actions can be used to:
 
 - Apply a code fix for a [code analyzer](../code-quality/roslyn-analyzers-overview.md) rule violation
 
+::: moniker range=">=vs-2019"
+
+- [Suppress](../code-quality/use-roslyn-analyzers.md#suppress-violations) a code analyzer rule violation or [configure](../code-quality/use-roslyn-analyzers.md#set-rule-severity-from-the-light-bulb-menu) its severity
+
+::: moniker-end
+
+::: moniker range="vs-2017"
+
 - [Suppress](../code-quality/use-roslyn-analyzers.md#suppress-violations) a code analyzer rule violation
+
+::: moniker-end
 
 - Apply a refactoring (for example, [inline a temporary variable](../ide/reference/inline-temporary-variable.md))
 

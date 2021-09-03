@@ -1,18 +1,20 @@
 ---
-title: "IDebugGenericParamField::GetIndex | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Retrieves the index of this generic parameter."
+title: IDebugGenericParamField::GetIndex | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "IDebugGenericParamField::GetIndex"
+- IDebugGenericParamField::GetIndex
 ms.assetid: 8e0bdb26-1247-44d9-8d80-ec6e35187fb4
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugGenericParamField::GetIndex
 Retrieves the index of this generic parameter.

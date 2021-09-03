@@ -2,6 +2,7 @@
 title: R tools options
 description: Reference for the options in Visual Studio for the R language and associated features.
 ms.date: 12/04/2017
+ms.prod: visual-studio-dev15
 ms.topic: reference
 f1_keywords:
   - "vs.toolsoptionspages.text_editor.r.advanced"
@@ -10,7 +11,8 @@ f1_keywords:
   - "vs.toolsoptionspages.r_tools.#150"
 author: kraigb
 ms.author: kraigb
-manager: jillfra
+manager: jmartens
+ms.technology: vs-rtvs
 ms.workload:
   - data-science
 ---

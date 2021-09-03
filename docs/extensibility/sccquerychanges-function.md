@@ -1,17 +1,19 @@
 ---
-title: "SccQueryChanges Function | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+description: "This function enumerates a given list of files, providing information about name changes for each file via a callback function."
+title: SccQueryChanges Function | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: reference
 f1_keywords:
-  - "SccQueryChanges"
+- SccQueryChanges
 helpviewer_keywords:
-  - "SccQueryChanges function"
+- SccQueryChanges function
 ms.assetid: 4cd58eb3-6952-49b1-9620-8682e3eaa604
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # SccQueryChanges Function
 This function enumerates a given list of files, providing information about name changes for each file via a callback function.
@@ -62,7 +64,7 @@ SCCRTN SccQueryChanges(
 ## Remarks
  Changes being queried for are to the namespace: specifically, renaming, adding, and removing a file.
 
-## See Also
+## See also
 - [Source Control Plug-in API Functions](../extensibility/source-control-plug-in-api-functions.md)
 - [QUERYCHANGESFUNC](../extensibility/querychangesfunc.md)
 - [Error Codes](../extensibility/error-codes.md)

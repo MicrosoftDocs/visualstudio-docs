@@ -1,20 +1,23 @@
 ---
-title: "Add trusted publisher to client computer for ClickOnce apps"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-helpviewer_keywords:
-  - "ClickOnce deployment, install without prompting"
-  - "trusted application deployment, Trusted Publishers"
+title: Add trusted publisher to client box (ClickOnce)
+description: Learn how to add a certificate to a client computer so that your ClickOnce applications run at a higher trust level without prompting the user.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
+dev_langs: 
+  - VB
+  - CSharp
+  - C++
+helpviewer_keywords: 
+  - ClickOnce deployment, install without prompting
+  - trusted application deployment, Trusted Publishers
 ms.assetid: 35fe324c-45a1-4509-b7be-5c18b4b1b4ab
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
-ms.workload:
-  - "multiple"
+manager: jmartens
+ms.technology: vs-ide-deployment
+ms.workload: 
+  - multiple
 ---
 # How to: Add a trusted publisher to a client computer for ClickOnce applications
 With Trusted Application Deployment, you can configure client computers so that your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] applications run with a higher level of trust without prompting the user. The following procedures show how to use the command-line tool CertMgr.exe to add a publisher's certificate to the Trusted Publishers store on a client computer.
@@ -32,7 +35,7 @@ With Trusted Application Deployment, you can configure client computers so that 
 
 1. Obtain a digital certificate from a CA.
 
-2. Export the certificate into the Base64 X.509 (*.cer*) format. For more information about certificate formats, see [Export a certificate](http://go.microsoft.com/fwlink/?LinkId=164793).
+2. Export the certificate into the Base64 X.509 (*.cer*) format. For more information about certificate formats, see [Export a certificate](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc730988(v=ws.10)).
 
 3. From the command prompt on client computers, run the following command:
 
@@ -42,7 +45,7 @@ With Trusted Application Deployment, you can configure client computers so that 
 
 1. Obtain a digital certificate from a CA.
 
-2. Export the certificate into the Base64 X.509 (*.cer*) format. For more information about certificate formats, see [Export a Certificate](http://go.microsoft.com/fwlink/?LinkId=164793).
+2. Export the certificate into the Base64 X.509 (*.cer*) format. For more information about certificate formats, see [Export a Certificate](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc730988(v=ws.10)).
 
 3. From the command prompt on client computers, run the following command:
 
@@ -59,7 +62,7 @@ With Trusted Application Deployment, you can configure client computers so that 
 - [How to: Enable ClickOnce security settings](../deployment/how-to-enable-clickonce-security-settings.md)
 - [How to: Set a security zone for a ClickOnce application](../deployment/how-to-set-a-security-zone-for-a-clickonce-application.md)
 - [How to: Set custom permissions for a ClickOnce application](../deployment/how-to-set-custom-permissions-for-a-clickonce-application.md)
-- [How to: Debug a ClickOnce application with restricted permissions](../deployment/how-to-debug-a-clickonce-application-with-restricted-permissions.md)
+- [How to: Debug a ClickOnce application with restricted permissions](securing-clickonce-applications.md)
 - [How to: Add a trusted publisher to a client computer for ClickOnce applications](../deployment/how-to-add-a-trusted-publisher-to-a-client-computer-for-clickonce-applications.md)
 - [How to: Re-sign application and deployment manifests](../deployment/how-to-re-sign-application-and-deployment-manifests.md)
 - [How to: Configure the ClickOnce trust prompt behavior](../deployment/how-to-configure-the-clickonce-trust-prompt-behavior.md)

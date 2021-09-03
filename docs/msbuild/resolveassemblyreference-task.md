@@ -1,31 +1,36 @@
 ---
-title: "ResolveAssemblyReference Task | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
+title: ResolveAssemblyReference Task | Microsoft Docs
+description: Learn how MSBuild uses the ResolveAssemblyReference task to determine all assemblies that depend on the specified assemblies.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: reference
 f1_keywords:
-  - "http://schemas.microsoft.com/developer/msbuild/2003#ResolveAssemblyReference"
-  - "MSBuild.ResolveAssemblyReference.TurnOnAutoGenerateBindingRedirects"
-  - "MSBuild.ResolveAssemblyReference.FoundConflict"
-  - "MSBuild.ResolveAssemblyRedirects.SuggestedRedirects"
+- http://schemas.microsoft.com/developer/msbuild/2003#ResolveAssemblyReference
+- MSBuild.ResolveAssemblyReference.TurnOnAutoGenerateBindingRedirects
+- MSBuild.ResolveAssemblyReference.FoundConflict
+- MSBuild.ResolveAssemblyRedirects.SuggestedRedirects
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+- VB
+- CSharp
+- C++
+- jsharp
 helpviewer_keywords:
-  - "ResolveAssemblyReference task [MSBuild]"
-  - "MSBuild, ResolveAssemblyReference task"
+- ResolveAssemblyReference task [MSBuild]
+- MSBuild, ResolveAssemblyReference task
 ms.assetid: 4d56d848-b29b-4dff-86a2-0a96c9e4a170
-author: mikejo5000
-ms.author: mikejo
-manager: jillfra
+author: ghogen
+ms.author: ghogen
+manager: jmartens
+ms.technology: msbuild
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # ResolveAssemblyReference task
+
 Determines all assemblies that depend on the specified assemblies, including second and `n`th-order dependencies.
 
 ## Parameters
+
  The following table describes the parameters of the `ResolveAssemblyReference` task.
 
 |Parameter|Description|
@@ -33,10 +38,9 @@ Determines all assemblies that depend on the specified assemblies, including sec
 |`AllowedAssemblyExtensions`|Optional `String[]` parameter.<br /><br /> The assembly file name extensions to use when resolving references. The default file name extensions are *.exe* and *.dll*.|
 |`AllowedRelatedFileExtensions`|Optional `String[]` parameter.<br /><br /> The file name extensions to use for a  search for files that are related to one another. The default extensions are *.pdb* and *.xml*.|
 |`AppConfigFile`|Optional `String` parameter.<br /><br /> Specifies an *app.config* file from which to parse and extract bindingRedirect mappings. If this parameter is specified, the `AutoUnify` parameter must be `false`.|
-|`AutoUnify`|Optional `Boolean` parameter.<br /><br /> This parameter is used for building assemblies, such as DLLs, which cannot have a normal *App.Config* file.<br /><br /> When `true`, the resulting dependency graph is automatically treated as if there were an *App.Config* file passed in to the AppConfigFile parameter. This virtual *App.Config* file has a bindingRedirect entry for each conflicting set of assemblies such that the highest version assembly is chosen. A consequence of this is that there will never be a warning about conflicting assemblies, because every conflict will have been resolved.<br /><br /> When `true`, each distinct remapping will result in a high priority comment showing the old and new versions and that `AutoUnify` was `true`.<br /><br /> When `true`, the AppConfigFile parameter must be empty.<br /><br /> When `false`, no assembly version remapping will occur automatically. When two versions of an assembly are present, a warning is issued.<br /><br /> When `false`, each distinct conflict between different versions of the same assembly results in a high-priority comment. These comments are followed by a single warning. The warning has a unique error code and contains text that reads "Found conflicts between different versions of reference and dependent assemblies".|
 |`Assemblies`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` parameter.<br /><br /> Specifies the items for which full paths and dependencies must be identified. These items can have either simple names like "System" or strong names like "System, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".<br /><br /> Items passed to this parameter may optionally have the following item metadata:<br /><br /> -   `Private`: `Boolean` value. If `true`, then the item is copied locally. The default value is `true`.<br />-   `HintPath`: `String` value. Specifies the path and file name to use as a reference. This metadata is used when {HintPathFromItem} is specified in the `SearchPaths` parameter. The default value is an empty string.<br />-   `SpecificVersion`: `Boolean` value. If `true`, then the exact name specified in the `Include` attribute must match. If `false`, then any assembly with the same simple name will work. If `SpecificVersion` is not specified, then the task examines the value in the `Include` attribute of the item. If the attribute is a simple name, it behaves as if `SpecificVersion` was `false`. If the attribute is a strong name, it behaves as if `SpecificVersion` was `true`.<br />     When used with a Reference item type, the `Include` attribute needs to be the full fusion name of the assembly to be resolved. The assembly is only resolved if fusion exactly matches the `Include` attribute.<br />     When a project targets a .NET Framework version and references an assembly compiled for a higher .NET Framework version, the reference resolves only if it has `SpecificVersion` set to `true`.<br />     When a project targets a profile and references an assembly that is not in the profile, the reference resolves only if it has `SpecificVersion` set to `true`.<br />-   `ExecutableExtension`: `String` value. When present, the resolved assembly must have this extension. When absent, *.dll* is considered first, followed by *.exe*, for each examined directory.<br />-   `SubType`: `String` value. Only items with empty SubType metadata will be resolved into full assembly paths. Items with non-empty SubType metadata are ignored.<br />-   `AssemblyFolderKey`: `String` value. This metadata is supported for legacy purposes. It specifies a user-defined registry key, such as **hklm\\\<VendorFolder>**, that `Assemblies` should use to resolve assembly references.|
 |`AssemblyFiles`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` parameter.<br /><br /> Specifies a list of fully qualified assemblies for which to find dependencies.<br /><br /> Items passed to this parameter may optionally have the following item metadata:<br /><br /> -   `Private`: an optional `Boolean` value. If true, the item is copied locally.<br />-   `FusionName`: optional `String` metadata. Specifies the simple or strong name for this item. If this attribute is present, it can save time because the assembly file does not have to be opened to get the name.|
-|`AutoUnify`|Optional `Boolean` parameter.<br /><br /> If `true`, the resulting dependency graph is automatically treated as if there were an *App.Config* file passed in to the AppConfigFile parameter. This virtual *App.Config* file has a bindingRedirect entry for each conflicting set of assemblies so that the highest version assembly is chosen. A result of this is that there will never be a warning about conflicting assemblies because every conflict will have been resolved. Each distinct remapping will cause a high priority comment that indicates the old and new versions and the fact that this was done automatically because `AutoUnify` was `true`.<br /><br /> If `false`, no assembly version remapping will occur automatically. When two versions of an assembly are present, there will be a warning. Each distinct conflict between different versions of the same assembly will cause a high priority comment. After all these comments are displayed, there will be a single warning with a unique error code and text that reads "Found conflicts between different versions of reference and dependent assemblies".<br /><br /> The default value is `false`.|
+|`AutoUnify`|Optional `Boolean` parameter.<br /><br /> This parameter is used for building assemblies, such as DLLs, which cannot have a normal *App.Config* file.<br /><br /> When `true`, the resulting dependency graph is automatically treated as if there were an *App.Config* file passed in to the AppConfigFile parameter. This virtual *App.Config* file has a bindingRedirect entry for each conflicting set of assemblies such that the highest version assembly is chosen. A consequence of this is that there will never be a warning about conflicting assemblies, because every conflict will have been resolved.<br /><br /> When `true`, each distinct remapping will result in a high priority comment showing the old and new versions and that `AutoUnify` was `true`.<br /><br /> When `true`, the AppConfigFile parameter must be empty.<br /><br /> When `false`, no assembly version remapping will occur automatically. When two versions of an assembly are present, a warning is issued.<br /><br /> When `false`, each distinct conflict between different versions of the same assembly results in a high-priority comment. These comments are followed by a single warning. The warning has a unique error code and contains text that reads "Found conflicts between different versions of reference and dependent assemblies".<br /><br /> The default value is `false`.|
 |`CandidateAssemblyFiles`|Optional `String[]` parameter.<br /><br /> Specifies a list of assemblies to use for the search and resolution process. Values passed to this parameter must be absolute file names or project-relative file names.<br /><br /> Assemblies in this list will be considered when the `SearchPaths` parameter contains {CandidateAssemblyFiles} as one of the paths to consider.|
 |`CopyLocalDependenciesWhenParentReferenceInGac`|Optional <xref:System.Boolean> parameter.<br /><br /> If true, to determine if a dependency should be copied locally, one of the checks done is to see if the parent reference in the project file has the Private metadata set. If set, then the Private value is used as a dependency.<br /><br /> If the metadata is not set, then the dependency goes through the same checks as the parent reference. One of these checks is to see if the reference is in the GAC. If a reference is in the GAC, then it is not copied locally, because it is assumed to be in the GAC on the target machine. This only applies to a specific reference and not its dependencies.<br /><br /> For example, a reference in the project file that is in the GAC is not copied locally, but its dependencies are copied locally because they are not in the GAC.<br /><br /> If false, project file references are checked to see if they are in the GAC, and are copied locally as appropriate.<br /><br /> Dependencies are checked to see if they are in the GAC and are also checked to see if the parent reference from the project file is in the GAC.<br /><br /> If the parent reference from the project file is in the GAC, the dependency is not copied locally.<br /><br /> Whether this parameter is true or false, if there are multiple parent references and any of them are not in the GAC, then all of them are copied locally.|
 |`CopyLocalFiles`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` read-only output parameter.<br /><br /> Returns every file in the `ResolvedFiles`, `ResolvedDependencyFiles`, `RelatedFiles`, `SatelliteFiles`, and `ScatterFiles` parameters that has `CopyLocal` item metadata with a value of `true`.|
@@ -73,6 +77,7 @@ Determines all assemblies that depend on the specified assemblies, including sec
 |`TargetProcessorArchitecture`|Optional `String` parameter.<br /><br /> The preferred target processor architecture. Used for resolving Global Assembly Cache (GAC) references.<br /><br /> This parameter can have a value of `x86`, `IA64`, or `AMD64`.<br /><br /> If this parameter is absent, the task first considers assemblies that match the architecture of the currently running process. If no assembly is found, the task considers assemblies in the GAC that have `ProcessorArchitecture` value of `MSIL` or no `ProcessorArchitecture` value.|
 
 ## Warnings
+
  The following warnings are logged:
 
 - `ResolveAssemblyReference.TurnOnAutoGenerateBindingRedirects`
@@ -96,8 +101,10 @@ Determines all assemblies that depend on the specified assemblies, including sec
 - `ResolveAssemblyReference.UnificationByFrameworkRetarget`
 
 ## Remarks
+
  In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension base class](../msbuild/taskextension-base-class.md).
 
 ## See also
+
 - [Tasks](../msbuild/msbuild-tasks.md)
 - [Task reference](../msbuild/msbuild-task-reference.md)

@@ -1,17 +1,23 @@
 ---
 title: Automatic feature suspension
 ms.date: 11/04/2016
-ms.topic: "conceptual"
+description: Learn how Visual Studio reduces the analysis scope, turns off garbage collection low-latency mode, and flushes caches when system memory is limited.
+ms.custom: SEO-VS-2020
+ms.topic: conceptual
 helpviewer_keywords:
+  - "live code analysis"
+  - "background analysis"
+  - "analysis scope"
   - "full solution analysis"
   - "performance"
   - "low-memory"
 ms.assetid: 572c15aa-1fd0-468c-b6be-9fa50e170914
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: Mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.technology: vs-ide-code-analysis
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Automatic feature suspension
 
@@ -23,7 +29,7 @@ When Visual Studio detects a low memory condition, it automatically suspends cer
 
 In a low memory condition, the following actions take place:
 
-- Full solution analysis for Visual C# and Visual Basic is disabled.
+- Live code analysis for Visual C# and Visual Basic is reduced to minimal scope.
 
 - [Garbage Collection](/dotnet/standard/garbage-collection/index) (GC) low-latency mode for Visual C# and Visual Basic is disabled.
 
@@ -31,11 +37,11 @@ In a low memory condition, the following actions take place:
 
 ## Improve Visual Studio performance
 
-For tips and tricks on how to improve Visual Studio performance when dealing with large solutions or low-memory conditions, see [Performance considerations for large solutions](https://github.com/dotnet/roslyn/wiki/Performance-considerations-for-large-solutions).
+For tips and tricks on how to improve Visual Studio performance when dealing with large solutions or low-memory conditions, see [Performance considerations for large solutions](https://github.com/dotnet/roslyn/blob/master/docs/wiki/Performance-considerations-for-large-solutions.md).
 
-## Full solution analysis suspended
+## Live code analysis is reduced to minimal scope
 
-By default, full solution analysis is enabled for Visual Basic and disabled for Visual C#. However, in a low memory condition, full solution analysis is automatically disabled for both Visual Basic and Visual C#, regardless of their settings in the Options dialog box. However, you can re-enable full solution analysis by choosing the **Re-enable** button in the info bar when it appears, by selecting the **Enable full solution analysis** check box in the Options dialog, or by restarting Visual Studio. The Options dialog box always shows the current full solution analysis settings. For more information, see [How to: Enable and Disable Full Solution Analysis](../code-quality/how-to-enable-and-disable-full-solution-analysis-for-managed-code.md).
+By default, live code analysis executes for open documents and projects. You can customize this analysis scope to be reduced to current document or increased to entire solution. For more information, see [How to: Configure live code analysis scope for managed code](./configure-live-code-analysis-scope-managed-code.md). In a low memory condition, Visual Studio forces the live analysis scope to be reduced to current document. However, you can re-enable your preferred analysis scope by choosing the **Re-enable** button in the info bar when it appears or by restarting Visual Studio. The Options dialog box always shows the current live code analysis scope settings.
 
 ## GC low-latency disabled
 
@@ -58,6 +64,6 @@ In addition, caches used for internal Visual Studio operations are also cleared.
 
 ## See also
 
-- [How to: Enable and Disable Full Solution Analysis](../code-quality/how-to-enable-and-disable-full-solution-analysis-for-managed-code.md)
+- [How to: Configure live code analysis scope for managed code](./configure-live-code-analysis-scope-managed-code.md)
 - [Fundamentals of Garbage Collection](/dotnet/standard/garbage-collection/fundamentals)
-- [Performance considerations for large solutions](https://github.com/dotnet/roslyn/wiki/Performance-considerations-for-large-solutions)
+- [Performance considerations for large solutions](https://github.com/dotnet/roslyn/blob/master/docs/wiki/Performance-considerations-for-large-solutions.md)

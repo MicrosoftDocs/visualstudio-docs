@@ -1,20 +1,22 @@
 ---
-title: "IDebugCoreServer2::GetMachineName | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Gets the name of the machine the core server is running on."
+title: IDebugCoreServer2::GetMachineName | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugCoreServer2::GetName"
+- IDebugCoreServer2::GetName
 helpviewer_keywords:
-  - "IDebugCoreServer2::GetName"
+- IDebugCoreServer2::GetName
 ms.assetid: 693bd794-7215-4f07-8651-b57366d39953
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugCoreServer2::GetMachineName
 Gets the name of the machine the core server is running on.

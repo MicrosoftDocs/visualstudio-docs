@@ -9,7 +9,8 @@ helpviewer_keywords:
 ms.assetid: f4cea2e1-08dc-47ac-aba2-3b8c338e607f
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "dotnet"
 ---
@@ -22,13 +23,21 @@ The Visual Studio debugger provides many powerful features to help you debug you
 1. Open Visual Studio and create a new project.
 
     ::: moniker range=">=vs-2019"
-    Press **Esc** to close the start window. Type **Ctrl + Q** to open the search box, type **console**, choose **Templates**, then choose **Create new Console App (.NET Core) project**. In the dialog box that appears, choose **Create**.
+    If the start window is not open, choose **File** > **Start Window**. On the start window, choose **Create a new project**.
+
+    On the **Create a new project** window, enter or type *console* in the search box. Next, choose **C#** from the Language list, and then choose **Windows** from the Platform list.
+
+    After you apply the language and platform filters, choose the **Console App** template for .NET Core, and then choose **Next**.
+
+    Choose either the recommended target framework (.NET Core 3.1) or .NET 5, and then choose **Create**.
+
+    If you don't see the **Console App** project template for .NET Core, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **.NET Core cross-platform development** workload, then choose **Modify**.
     ::: moniker-end
     ::: moniker range="vs-2017"
     From the top menu bar, choose **File** > **New** > **Project**. In the left pane of the **New project** dialog box, under **Visual C#**, choose **.NET Core**, and then in the middle pane choose **Console App (.NET Core)**. Then, type a name like **MyDbgApp** and click **OK**.
-    ::: moniker-end
 
-     If you don't see the **Console App (.NET Core)** project template, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **.NET desktop development** and **.NET Core** workload, then choose **Modify**.
+    If you don't see the **Console App (.NET Core)** project template, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **.NET Core cross-platform development** workload, then choose **Modify**.
+    ::: moniker-end
 
     Visual Studio creates the project.
 
@@ -149,17 +158,17 @@ The app continues execution, calling `doWork`, and pauses on the line of code wh
 
 Common keyboard commands used to step through code include **F10** and **F11**. For more in-depth instructions, see [First look at the debugger](../debugger/debugger-feature-tour.md).
 
-## Inspect variables in a datatip
+## Inspect variables in a data tip
 
-1. In the current line of code (marked by the yellow execution pointer), hover over the `c1` object with your mouse to show a datatip.
+1. In the current line of code (marked by the yellow execution pointer), hover over the `c1` object with your mouse to show a data tip.
 
-    ![View a datatip](../debugger/media/dbg-qs-data-tip-csharp.png "View a datatip")
+    ![View a data tip](../debugger/media/dbg-qs-data-tip-csharp.png "View a data tip")
 
-    The datatip shows you the current value of the `c1` variable and allows you to inspect its properties. When debugging, if you see a value you don't expect, you probably have a bug in the preceding or calling lines of code.
+    The data tip shows you the current value of the `c1` variable and allows you to inspect its properties. When debugging, if you see a value you don't expect, you probably have a bug in the preceding or calling lines of code.
 
-2. Expand the datatip to look at the current property values of the `c1` object.
+2. Expand the data tip to look at the current property values of the `c1` object.
 
-3. If you want to pin the datatip so that you can continue to see the value of `c1` while you execute code, click the small pin icon. (You can move the pinned datatip to a convenient location.)
+3. If you want to pin the data tip so that you can continue to see the value of `c1` while you execute code, click the small pin icon. (You can move the pinned data tip to a convenient location.)
 
 ## Edit code and continue debugging
 

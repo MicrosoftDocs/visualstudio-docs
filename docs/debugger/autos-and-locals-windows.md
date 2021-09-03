@@ -1,24 +1,29 @@
 ---
-title: "Inspect variables - Autos and Locals windows | Microsoft Docs"
-ms.custom: "seodec18"
-ms.date: "10/18/2018"
-ms.topic: "conceptual"
-f1_keywords:
-  - "vs.debug.autos"
-  - "vs.debug.locals"
-helpviewer_keywords:
-  - "debugger, variable windows"
-  - "debugging [Visual Studio], variable windows"
+title: Inspect variables - Autos and Locals windows | Microsoft Docs
+description: Inspect variables in the Autos and Locals windows while debugging in Visual Studio. The Autos and Locals windows show variable values while you are debugging.
+ms.custom: "SEO-VS-2020"
+ms.date: 10/18/2018
+ms.topic: how-to
+f1_keywords: 
+  - vs.debug.autos
+  - vs.debug.locals
+helpviewer_keywords: 
+  - debugger, variable windows
+  - debugging [Visual Studio], variable windows
 ms.assetid: bb6291e1-596d-4af0-9f22-5fd713d6b84b
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
-ms.workload:
-  - "multiple"
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.technology: vs-ide-debug
+ms.workload: 
+  - multiple
 ---
 # Inspect variables in the Autos and Locals windows
 
-The **Autos** and **Locals** windows show variable values while you are debugging. The windows are only available during a debugging session. The **Autos** window shows variables used around the current breakpoint. The **Locals** window shows variables defined in the local scope, which is usually the current function or method. If this is the first time that you've tried to debug code, you may want to read [Debugging for absolute beginners](../debugger/debugging-absolute-beginners.md) and [Debugging techniques and tools](../debugger/write-better-code-with-visual-studio.md) before going through this article.
+The **Autos** and **Locals** windows show variable values while you are debugging. The windows are only available during a debugging session. The **Autos** window shows variables used around the current breakpoint. The **Locals** window shows variables defined in the local scope, which is usually the current function or method.
+
+> [!NOTE]
+> If this is the first time that you've tried to debug code, you may want to read [Debugging for absolute beginners](../debugger/debugging-absolute-beginners.md) and [Debugging techniques and tools](../debugger/write-better-code-with-visual-studio.md) before going through this article.
 
  The **Autos** window is available for C#, Visual Basic, C++, and Python code, but not for JavaScript or F#.
 
@@ -33,7 +38,7 @@ To open the **Locals** window, while debugging, select **Debug** > **Windows** >
 
 Arrays and objects show in the **Autos** and **Locals** windows as tree controls. Select the arrow to the left of a variable name to expand the view to show fields and properties. Here is an example of a <xref:System.IO.FileStream?displayProperty=fullName> object in the **Locals** window:
 
-![Locals-FileStream](../debugger/media/locals-filestream.png "Locals-FileStream")
+![Screenshot of the Locals window, with file set to a System.IO.FileStream value.](../debugger/media/locals-filestream.png)
 
 A red value in the **Locals** or **Autos** window means the value has changed since the last evaluation. The change could be from a previous debugging session, or because you have changed the value in the window.
 
@@ -64,6 +69,20 @@ Use the left and right arrows (Shift+F3 and F3, respectively) to navigate betwee
 ![Search in Locals Window](../debugger/media/ee-search-locals.png "Search in Locals Window")
 
 To make your search more or less thorough, use the **Search Deeper** dropdown at the top of the **Autos** or **Locals** window to select how many levels deep you want to search into nested objects. 
+
+## Pin properties in the Autos or Locals window
+
+> [!NOTE]
+> This feature is supported for .NET Core 3.0 or higher.
+
+You can quickly inspect objects by their properties in the Autos and Locals windows with the **Pinnable Properties** tool.  To use this tool, hover over a property and select the pin icon that appears or right-click and select the **Pin Member as Favorite** option in the resulting context menu.  This bubbles up that property to the top of the object’s property list, and the property name and value is displayed in the **Value** column.  To unpin a property, select the pin icon again or select the **Unpin Member as Favorite** option in the context menu.
+
+![Pin properties in the Locals window](../debugger/media/basic-pin.gif "Pin properties in the Locals window")
+
+You can also toggle property names and filter out non-pinned properties when viewing the object’s property list in the Autos or Locals windows.  You can access each option by selecting the buttons in the toolbar above the Autos or Locals windows.
+
+![Filter favorite properties](../debugger/media/filter-pinned-properties-locals.png "Filter favorite properties")
+![Toggle property names](../debugger/media/toggle-property-names.gif "Toggle property names")
 
 ::: moniker-end
 
@@ -96,7 +115,7 @@ Different code languages display different variables in the **Autos** window.
 
    Set a breakpoint on the line `c = 3;`, and start the debugger. When execution pauses, the **Autos** window will display:
 
-   ![Autos-CSharp](../debugger/media/autos-csharp.png "Autos-CSharp")
+   ![Screenshot of the Autos window, with the value of c set to 0.](../debugger/media/autos-csharp.png)
 
    The value of `c` is 0, because the line `c = 3` has not yet been executed.
 
@@ -116,7 +135,7 @@ Different code languages display different variables in the **Autos** window.
 
     Set a breakpoint on the line `e = 5;` and run the debugger. When execution stops, the **Autos** window will display:
 
-    ![Autos-C++](../debugger/media/autos-cplus.png "Autos-C++")
+    ![Screenshot of the Autos window, with the line highlighted that shows the int c with a value of 3.](../debugger/media/autos-cplus.png)
 
     The variable `e` is uninitialized, because the line `e = 5` has not yet been executed.
 

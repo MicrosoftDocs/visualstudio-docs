@@ -1,37 +1,39 @@
 ---
-title: "How to: Enable and disable Edit and Continue | Microsoft Docs"
-ms.custom: "seodec18"
-ms.date: "10/04/2018"
-ms.topic: "conceptual"
-dev_langs:
-  - "CSharp"
-  - "VB"
-  - "FSharp"
-  - "C++"
-helpviewer_keywords:
-  - "/INCREMENTAL linker option"
-  - "Apply Code Changes command"
-  - "Edit and Continue, disabling"
-  - "code changes, applying in break mode"
-  - "INCREMENTAL linker option"
-  - "Edit and Continue, enabling"
-  - "break mode, applying code changes"
-  - "Edit and Continue, applying code changes"
-  - "Step command"
-  - "Go command"
+title: Enable and disable Edit and Continue | Microsoft Docs
+description: Learn how to disable and enable Edit and Continue in Visual Studio Options at design time. Edit and Continue works only in debug builds.
+ms.custom: "SEO-VS-2020"
+ms.date: 10/04/2018
+ms.topic: how-to
+dev_langs: 
+  - CSharp
+  - VB
+  - FSharp
+  - C++
+helpviewer_keywords: 
+  - /INCREMENTAL linker option
+  - Apply Code Changes command
+  - Edit and Continue, disabling
+  - code changes, applying in break mode
+  - INCREMENTAL linker option
+  - Edit and Continue, enabling
+  - break mode, applying code changes
+  - Edit and Continue, applying code changes
+  - Step command
+  - Go command
 ms.assetid: fd961a1c-76fa-420d-ad8f-c1a6c003b0db
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
-ms.workload:
-  - "dotnet"
-  - "cplusplus"
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.technology: vs-ide-debug
+ms.workload: 
+  - dotnet
+  - cplusplus
 ---
 # How to: Enable and disable Edit and Continue (C#, VB, C++)
 
 You can disable or enable **Edit and Continue** in the Visual Studio **Options** dialog box at design time. **Edit and Continue** works only in debug builds. For more information, see [Edit and Continue](../debugger/edit-and-continue.md).
 
-For native C++, **Edit and Continue** requires using the `/INCREMENTAL` option. For more information about feature requirements in C++, see this [blog post](https://devblogs.microsoft.com/cppblog/c-edit-and-continue-in-visual-studio-2015-update-3/) and [Edit and Continue (Visual C++)](../debugger/edit-and-continue-visual-cpp.md).
+For native C++, **Edit and Continue** requires using the `/INCREMENTAL` option. For more information about feature requirements in C++, see this [blog post](https://devblogs.microsoft.com/cppblog/c-edit-and-continue-in-visual-studio-2015-update-3/) and [Edit and Continue (C++)](../debugger/edit-and-continue-visual-cpp.md).
 
 **To enable or disable Edit and Continue:**
 

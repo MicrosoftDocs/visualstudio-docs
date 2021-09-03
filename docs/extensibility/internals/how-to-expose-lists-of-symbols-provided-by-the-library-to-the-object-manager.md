@@ -1,19 +1,22 @@
 ---
-title: "Expose Lists of Symbols Provided to the Object Manager | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Expose Lists of Symbols Provided to the Object Manager | Microsoft Docs
+description: Learn how to implement the IVsSimpleObjectList2 interface to expose lists of symbols to the object manager in Visual Studio and update symbol-browsing tools.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
 helpviewer_keywords:
-  - "IVsSimpleLibrary2 interface, lists of symbols"
-  - "IVsLibrary2 interface, lists of symbols"
-  - "symbols, call browser"
-  - "lists, symbols for the object manager"
-  - "symbols, exposing lists to the object manager"
+- IVsSimpleLibrary2 interface, lists of symbols
+- IVsLibrary2 interface, lists of symbols
+- symbols, call browser
+- lists, symbols for the object manager
+- symbols, exposing lists to the object manager
 ms.assetid: 19757068-bdaa-4e7e-85d6-f8ce5026a859
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # How to: Expose Lists of symbols provided by the library to the object manager
 The symbol-browsing tools, **Class View**, **Object Browser**, **Call Browser** and **Find Symbol Results**, pass requests for new data to the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] object manager. The object manager finds the appropriate libraries and requests new lists of symbols. The libraries respond by providing requested data to the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] object manager through the <xref:Microsoft.VisualStudio.Shell.Interop.IVsSimpleObjectList2> interface. The [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] object manager calls the methods in <xref:Microsoft.VisualStudio.Shell.Interop.IVsSimpleObjectList2> interface to obtain the data and uses it to populate or update the views of the symbol-browsing tools.

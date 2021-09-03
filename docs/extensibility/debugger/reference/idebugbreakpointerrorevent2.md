@@ -1,17 +1,19 @@
 ---
-title: "IDebugBreakpointErrorEvent2 | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "This interface tells the session debug manager (SDM) that a pending breakpoint could not be bound to a loaded program, either because of a warning or an error."
+title: IDebugBreakpointErrorEvent2 | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugBreakpointErrorEvent2"
+- IDebugBreakpointErrorEvent2
 helpviewer_keywords:
-  - "IDebugBreakpointErrorEvent2"
+- IDebugBreakpointErrorEvent2
 ms.assetid: adee79df-8db5-4510-a7df-c50f4dbf5e35
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IDebugBreakpointErrorEvent2
 This interface tells the session debug manager (SDM) that a pending breakpoint could not be bound to a loaded program, either because of a warning or an error.

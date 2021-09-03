@@ -1,7 +1,8 @@
 ---
+description: "Retrieves the relative virtual address (RVA) of a thunk target."
 title: "IDiaSymbol::get_targetRelativeVirtualAddress | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,8 @@ helpviewer_keywords:
 ms.assetid: 49a159f3-6943-44d3-90a3-0dba51e8a7ec
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -40,6 +42,6 @@ HRESULT get_targetRelativeVirtualAddress ( 
 
  A "thunk" is a piece of code that converts between a 32-bit memory address space (also known as flat address space) and a 16-bit address space (known as a segmented address space).
 
-## See Also
+## See also
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
 - [SymTagEnum Enumeration](../../debugger/debug-interface-access/symtagenum.md)

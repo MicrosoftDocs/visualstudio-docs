@@ -1,10 +1,13 @@
 ---
 title: Customizing Text and Image Fields
+description: Learn about customizing text and image files. Also learn that when you define a text decorator in a shape, it's represented by a TextField.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+ms.topic: how-to
+author: mgoertz-msft
+ms.author: mgoertz
+manager: jmartens
+ms.technology: vs-ide-modeling
 ms.workload:
   - "multiple"
 ---
@@ -255,7 +258,7 @@ partial class ExampleShape
 }
 ```
 
-## See Also
+## See also
 
 - [Defining Shapes and Connectors](../modeling/defining-shapes-and-connectors.md)
 - [Setting a Background Image on a Diagram](../modeling/setting-a-background-image-on-a-diagram.md)

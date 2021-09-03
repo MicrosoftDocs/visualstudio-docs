@@ -1,17 +1,20 @@
 ---
-title: "Support for Code Snippets in a Legacy Language Service | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Support for Code Snippets in a Legacy Language Service | Microsoft Docs
+description: Learn how a legacy language service supports code snippets. A code snippet is a piece of code that is inserted into the source file.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "snippets, supporting in language services"
-  - "code snippets, supporting in language services [managed package framework]"
-  - "language services [managed package framework], supporting code snippets"
+- snippets, supporting in language services
+- code snippets, supporting in language services [managed package framework]
+- language services [managed package framework], supporting code snippets
 ms.assetid: 7490325b-acee-4c2d-ac56-1cd5db1a1083
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Support for Code Snippets in a Legacy Language Service
 A code snippet is a piece of code that is inserted into the source file. The snippet itself is an XML-based template with a set of fields. These fields are highlighted after the snippet is inserted and can have different values depending on the context in which the snippet is inserted. Immediately after the snippet is inserted, the language service can format the snippet.
@@ -382,7 +385,7 @@ namespace TestLanguagePackage
 }
 ```
 
-## See Also
+## See also
 - [Legacy Language Service Features](../../extensibility/internals/legacy-language-service-features1.md)
 - [Registering a Legacy Language Service](../../extensibility/internals/registering-a-legacy-language-service1.md)
 - [Code Snippets](../../ide/code-snippets.md)

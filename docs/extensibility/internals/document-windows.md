@@ -1,15 +1,18 @@
 ---
-title: "Document Windows | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Document Windows | Microsoft Docs
+description: Learn about document windows in Visual Studio, including how to implement them and how the Running document table (RDT) tracks their status.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: reference
 helpviewer_keywords:
-  - "Visual Studio SDK, document windows"
+- Visual Studio SDK, document windows
 ms.assetid: 50081d48-987f-43db-8bf9-51b7cf76e9c0
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Document windows
 In Visual Studio, a *document window* is a framed child window that is associated with a multiple-document interface (MDI) window. Document windows are typically used for the display and modification of source code or text, but they can also host other functional types. Document windows:
@@ -27,7 +30,7 @@ In Visual Studio, a *document window* is a framed child window that is associate
   For more information about window behavior in Visual Studio, see [Customize window layouts](../../ide/customizing-window-layouts-in-visual-studio.md).
 
 ## Document window implementation
- Document windows are created by implementing an editor. The <xref:Microsoft.VisualStudio.Shell.Interop.IVsEditorFactory> interface creates document windows as part of instantiating an editor. For more information, see [Legacy interfaces in the editor](../../extensibility/legacy-interfaces-in-the-editor.md).
+ Document windows are created by implementing an editor. The <xref:Microsoft.VisualStudio.Shell.Interop.IVsEditorFactory> interface creates document windows as part of instantiating an editor. For more information, see [Legacy interfaces in the editor](/previous-versions/visualstudio/visual-studio-2015/extensibility/legacy-interfaces-in-the-editor?preserve-view=true&view=vs-2015).
 
 > [!NOTE]
 > To provide backward and forward navigation points in a window, implement the <xref:Microsoft.VisualStudio.Shell.Interop.IVsBackForwardNavigation> interface. The text editor uses text markers to identify navigation points in the document.

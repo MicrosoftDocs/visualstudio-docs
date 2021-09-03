@@ -1,16 +1,19 @@
 ---
-title: "Important Commands for Language Service Filters | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Important Commands for Language Service Filters | Microsoft Docs
+description: Learn about the important commands that you should support when creating a fully featured language service filter in Visual Studio.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: reference
 helpviewer_keywords:
-  - "language services, filters"
-  - "language services, commands to support"
+- language services, filters
+- language services, commands to support
 ms.assetid: 4948c494-3d4d-4f50-b3f9-959e73f90e4d
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Important Commands for Language Service Filters
 If you want to create a fully featured language service filter, consider handling the following commands. The full list of command identifiers is defined in the <xref:Microsoft.VisualStudio.VSConstants.VSStd2KCmdID> enumeration for managed code and the Stdidcmd.h header file for unmanaged [!INCLUDE[vcprvc](../../code-quality/includes/vcprvc_md.md)] code. You can find the Stdidcmd.h file in *Visual Studio SDK installation path*\VisualStudioIntegration\Common\Inc.
@@ -32,5 +35,5 @@ If you want to create a fully featured language service filter, consider handlin
 |<xref:Microsoft.VisualStudio.VSConstants.VSStd2KCmdID>|Typically sent when the user types CTRL+SPACEBAR. This command tells the language service to call the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView.UpdateCompletionStatus%2A> method on the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView>.|
 |<xref:Microsoft.VisualStudio.VSConstants.VSStd2KCmdID><br /><br /> <xref:Microsoft.VisualStudio.VSConstants.VSStd2KCmdID>|Sent from a menu, typically **Comment Selection** or **Uncomment Selection** from **Advanced** in the **Edit** menu. <xref:Microsoft.VisualStudio.VSConstants.VSStd2KCmdID> indicates that the user wants to comment out the selected text; <xref:Microsoft.VisualStudio.VSConstants.VSStd2KCmdID> indicates that the user wants to uncomment the selected text. These commands can be implemented only by the language service.|
 
-## See Also
+## See also
 - [Developing a Legacy Language Service](../../extensibility/internals/developing-a-legacy-language-service.md)

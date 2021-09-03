@@ -1,17 +1,20 @@
 ---
-title: "Walkthrough: Creating a DataTable in the Dataset Designer"
+title: Create a DataTable in the Dataset Designer
+description: In this walkthrough, create a DataTable (without a TableAdapter) using the Dataset Designer. Create a new Windows Forms application, and add a new dataset to it.
+ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "DataTable objects, creating"
-  - "Dataset Designer, creating data tables"
-  - "tables [Visual Studio], creating"
-  - "data [Visual Studio], Dataset Designer"
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+- DataTable objects, creating
+- Dataset Designer, creating data tables
+- tables [Visual Studio], creating
+- data [Visual Studio], Dataset Designer
+author: ghogen
+ms.author: ghogen
+manager: jmartens
+ms.technology: vs-data-tools
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # Walkthrough: Create a DataTable in the Dataset Designer
 

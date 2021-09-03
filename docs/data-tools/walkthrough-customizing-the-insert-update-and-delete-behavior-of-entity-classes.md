@@ -1,16 +1,19 @@
 ---
-title: "Customize insert/update/delete behavior of entity classes"
+title: Customize insert/update/delete behavior
+description: In this walkthrough, customize the insert, update, and delete behavior of entity classes using the LINQ (Language-Integrated Query) to SQL tools in Visual Studio.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 dev_langs:
-  - "VB"
-  - "CSharp"
+- VB
+- CSharp
 ms.assetid: 03ff1146-706e-4780-91cb-56a83df63eea
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: ghogen
+ms.author: ghogen
+manager: jmartens
+ms.technology: vs-data-tools
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # Walkthrough: Customize the insert, update, and delete behavior of entity classes
 
@@ -21,7 +24,7 @@ By default, the logic to perform updates is provided by the LINQ to SQL runtime.
 > [!NOTE]
 > This walkthrough requires the availability of the **InsertCustomer**, **UpdateCustomer**, and **DeleteCustomer** stored procedures for the Northwind database.
 
-This walkthrough provides the steps that you must follow to override the default LINQ to SQL runtime behavior for saving data back to a database by using stored procedures.
+This walkthrough provides the steps that you must follow to override the default LINQ to SQL run-time behavior for saving data back to a database by using stored procedures.
 
 During this walkthrough, you learn how to perform the following tasks:
 

@@ -1,5 +1,7 @@
 ---
 title: "Packaging & deployment information in project items"
+description: Add packaging and deployment data in SharePoint project items using feature properties, feature receivers, project output references, and safe control entities.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 f1_keywords:
@@ -21,7 +23,8 @@ helpviewer_keywords:
   - "safe controls [SharePoint development in Visual Studio]"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
+ms.technology: sharepoint-development
 ms.workload:
   - "office"
 ---
@@ -47,7 +50,7 @@ ms.workload:
 <Property Key="ModelFileName" Value="BdcModel1\BdcModel1.bdcm" />
 ```
 
- After you set a Feature Property value, it is added as a FeatureProperty element in the project's *.spdata* file. For information about accessing the properties in SharePoint, see [SPFeaturePropertyCollection Class](http://go.microsoft.com/fwlink/?LinkId=177391).
+ After you set a Feature Property value, it is added as a FeatureProperty element in the project's *.spdata* file. For information about accessing the properties in SharePoint, see [SPFeaturePropertyCollection Class](/previous-versions/office/sharepoint-server/ms461895(v=office.15)).
 
  Identical feature property values from all project items are merged together in the feature manifest. However, if two different project items specify the same feature property key with non-matching values, a validation error occurs.
 
@@ -60,13 +63,13 @@ ms.workload:
  When you add a feature receiver to a feature directly, a code file is placed under the **Feature** node in Solution Explorer. When you build your SharePoint solution, the code compiles into an assembly and deploys to SharePoint. By default, the feature properties **Receiver Assembly** and **Receiver Class** reference the class name and assembly.
 
 ### Reference method
- Another way to add a feature receiver is by using the **Feature Receiver** property of a project item to reference a feature receiver assembly. The Feature Receiver property value has two subproperties: **Assembly** and **Class Name**. The assembly must use its fully-qualified, "strong" name and the class name must be the full type name. For more information, see [Strong-Named Assemblies](http://go.microsoft.com/fwlink/?LinkID=169573). After deploying the solution to SharePoint, the feature uses the referenced feature receiver to handle feature events.
+ Another way to add a feature receiver is by using the **Feature Receiver** property of a project item to reference a feature receiver assembly. The Feature Receiver property value has two subproperties: **Assembly** and **Class Name**. The assembly must use its fully-qualified, "strong" name and the class name must be the full type name. For more information, see [Strong-Named Assemblies](/previous-versions/dotnet/netframework-4.0/wd40t7ad(v=vs.100)). After deploying the solution to SharePoint, the feature uses the referenced feature receiver to handle feature events.
 
  At solution build time, the feature receiver property values in the feature and its projects merge together to set the ReceiverAssembly and ReceiverClass attributes of the Feature element in the feature manifest of the SharePoint solution (*.wsp*) file. Therefore, if the Assembly and Class Name property values of a project item and a feature are both specified, the project item and feature property values must match. If the values do not match, you will receive a validation error. If you want a project item to reference a feature receiver assembly other than the one its feature uses, move it to another feature.
 
  If you reference a feature receiver assembly that is not already on the server, you must also include the assembly file itself in the package; [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] does not add it for you. When you deploy the feature, the assembly file is copied to either the system's [!INCLUDE[TLA#tla_gac](../sharepoint/includes/tlasharptla-gac-md.md)] or the Bin folder in the SharePoint physical directory. For more information, see how to: [How to: Add and remove additional assemblies](../sharepoint/how-to-add-and-remove-additional-assemblies.md).
 
- For more information about feature receivers, see [Feature Event Receiver](http://go.microsoft.com/fwlink/?LinkID=169574) and [Feature Events](http://go.microsoft.com/fwlink/?LinkID=169575).
+ For more information about feature receivers, see [Feature Event Receiver](/previous-versions/office/developer/sharepoint-2007/bb862634(v=office.12)) and [Feature Events](/previous-versions/office/developer/sharepoint-2010/ms469501(v=office.14)).
 
 ## Project output references
  The Project Output References property specifies a dependency, such as an assembly, that your project item needs to run. For example, suppose your solution has a BDC project and a class project. If the BDC project has a dependency on the assembly that is output by the class project, you can reference the assembly in the BDC project's Project Output References property. When the BDC project is packaged, the dependent assembly is included in the package.
@@ -76,11 +79,11 @@ ms.workload:
  For more information, see [How to: Add a project output reference](../sharepoint/how-to-add-a-project-output-reference.md).
 
 ## Safe control entries
- SharePoint provides a security mechanism, called safe control entries, to limit the access of untrusted users to certain controls. By design, SharePoint allows untrusted users to upload and create ASPX pages on the SharePoint server. To prevent these   users from adding unsafe code to ASPX pages, SharePoint limits their access to *safe controls*. Safe controls are ASPX controls and Web parts designated as secure and that can be used by any user on your site. For more information, see [Step 4: Add your Web Part to the Safe Controls List](http://go.microsoft.com/fwlink/?LinkID=171014).
+ SharePoint provides a security mechanism, called safe control entries, to limit the access of untrusted users to certain controls. By design, SharePoint allows untrusted users to upload and create ASPX pages on the SharePoint server. To prevent these   users from adding unsafe code to ASPX pages, SharePoint limits their access to *safe controls*. Safe controls are ASPX controls and Web parts designated as secure and that can be used by any user on your site. For more information, see [Step 4: Add your Web Part to the Safe Controls List](/previous-versions/office/developer/sharepoint-2007/ms581321(v=office.12)).
 
  Every SharePoint project item in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] has a property called **Safe Control Entries** that has two Boolean subproperties: **Safe** and **Safe Against Script**. The Safe property specifies whether untrusted users can access a control. The Safe Against Script property specifies whether untrusted users can view and change a control's properties.
 
- Safe control entries are referenced on an assembly basis. You add safe control entries to a project's assembly by entering them in the project item's **Safe Control Entries** property. However, you can also add safe control entries to a project's assembly through the **Advanced** tab in the **Package Designer** when you add an additional assembly to the package. For more information, see [How to: Mark controls as safe controls](../sharepoint/how-to-mark-controls-as-safe-controls.md) or [Registering a Web Part Assembly as a Safe Control](http://go.microsoft.com/fwlink/?LinkID=171013).
+ Safe control entries are referenced on an assembly basis. You add safe control entries to a project's assembly by entering them in the project item's **Safe Control Entries** property. However, you can also add safe control entries to a project's assembly through the **Advanced** tab in the **Package Designer** when you add an additional assembly to the package. For more information, see [How to: Mark controls as safe controls](../sharepoint/how-to-mark-controls-as-safe-controls.md) or [Registering a Web Part Assembly as a Safe Control](/previous-versions/office/developer/sharepoint2003/dd587360(v=office.11)).
 
 ### XML entries for safe controls
  When you add a safe control entry to a project item or to the project's assembly, a reference is written to the package manifest in the following format:

@@ -1,10 +1,13 @@
 ---
 title: Controlling the Visibility of an Icon or Decorator
+description: Learn how you can control the visibility of an icon or decorator depending on the state of properties in the model.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+ms.topic: how-to
+author: mgoertz-msft
+ms.author: mgoertz
+manager: jmartens
+ms.technology: vs-ide-modeling
 ms.workload:
   - "multiple"
 ---
@@ -97,7 +100,7 @@ A *decorator* is an icon or line of text that appears on a shape in a domain-spe
 
 8. Rebuild and run the solution.
 
-## See Also
+## See also
 
 - [Defining Shapes and Connectors](../modeling/defining-shapes-and-connectors.md)
 - [Setting a Background Image on a Diagram](../modeling/setting-a-background-image-on-a-diagram.md)

@@ -1,11 +1,14 @@
 ---
 title: Filter Nodes
+description: Learn about filter nodes, which transform an input like a color or texture sample into a figurative color value, in Shader Designer.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 ms.assetid: f7cae2dc-e9a7-49d4-8be5-58b79868624e
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
+ms.technology: vs-ide-designers
 ms.workload:
   - "multiple"
 ---

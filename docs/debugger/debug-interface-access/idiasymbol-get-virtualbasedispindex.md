@@ -1,7 +1,8 @@
 ---
+description: "Retrieves the index of the symbol in the virtual base displacement table."
 title: "IDiaSymbol::get_virtualBaseDispIndex | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,8 @@ helpviewer_keywords:
 ms.assetid: 5561a3cb-2c82-41cf-9217-3ee2b1e1d1d1
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -35,5 +37,5 @@ HRESULT get_virtualBaseDispIndex (
 > [!NOTE]
 > A return value of `S_FALSE` means the property is not available for the symbol.
 
-## See Also
+## See also
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

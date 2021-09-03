@@ -1,19 +1,22 @@
 ---
 title: -Build (devenv.exe)
+description: Learn about the Build devenv command-line switch and how to use it to build a solution or project with a specified solution configuration file.
+ms.custom: SEO-VS-2020
 ms.date: 12/10/2018
 ms.topic: reference
 helpviewer_keywords:
-  - "builds, command-line"
-  - "/build Devenv switch"
-  - "Devenv, /build switch"
-  - "build Devenv switch"
-  - "command-line builds"
+- builds, command-line
+- /build Devenv switch
+- Devenv, /build switch
+- build Devenv switch
+- command-line builds
 ms.assetid: ced21627-7653-455b-8821-3e31c6a448cf
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # /Build (devenv.exe)
 

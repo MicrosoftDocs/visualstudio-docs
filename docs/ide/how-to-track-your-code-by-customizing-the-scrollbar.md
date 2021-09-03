@@ -1,12 +1,15 @@
 ---
-title: "Scroll bar map mode and bar mode"
-ms.date: 09/25/2018
-ms.topic: conceptual
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+title: Scroll bar map mode and bar mode
+description: Learn how to track changes in your code through the customization of the scroll bar and also learn how to use Bar mode and Map mode.
+ms.custom: SEO-VS-2020
+ms.date: 03/20/2020
+ms.topic: how-to
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Customize the scroll bar
 
@@ -48,7 +51,7 @@ The scroll bar has two modes: bar mode and map mode.
 
 ### Map mode
 
-In *map mode*, when you click a location on the scroll bar, the cursor jumps to that location in the file instead of just scrolling up or down a page. Lines of code are shown, in miniature, on the scroll bar. You can choose how wide the map column is by selecting a value in **Source overview**. To enable a larger preview of the code when you rest the pointer on the map, select the **Show Preview Tooltip** option. Collapsed regions are shaded differently and expand when you double-click them.
+*Map mode* displays lines of code, in miniature, on the scroll bar. You can choose how wide the map column is by selecting a value in **Source overview**. To enable a larger preview of the code when you rest the pointer on the map, select the **Show Preview Tooltip** option. Collapsed regions are shaded differently and expand when you double-click them.
 
 > [!TIP]
 > You can turn the miniature code view off in map mode by setting **Source overview** to **Off**. If **Show Preview Tooltip** is selected, you still see a preview of the code at that location when you hover your pointer on the scroll bar, and the cursor still jumps to that location in the file when you click.
@@ -60,6 +63,9 @@ The following image shows the search example when map mode is on and the width i
 The following image shows the **Show Preview Tooltip** option:
 
 ![Visual Studio scroll bar with a tooltip](../ide/media/enhancedscrollbarsearchtooltip.png)
+
+> [!TIP]
+> To change the colors that you see in map mode, choose **Tools** > **Options** > **Environment** > **Fonts and Colors**. Next, in **Display items**, choose any of the items that are preceded with "Overview", make the color changes you want, and then choose **OK**.
 
 ## See also
 

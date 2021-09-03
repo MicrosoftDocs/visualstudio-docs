@@ -1,15 +1,18 @@
 ---
-title: "Project Context | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Project Context | Microsoft Docs
+description: Learn how the Visual Studio IDE uses project context to determine how to perform operations when the user adds or works with projects and project items.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: reference
 helpviewer_keywords:
-  - "projects [Visual Studio SDK], opening items"
+- projects [Visual Studio SDK], opening items
 ms.assetid: d1803f4a-24eb-44b0-b5d2-cb40c15534be
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Project Context
 When the user adds or works with projects and project items, the IDE uses the notion of project context to determine how various operations should be performed.
@@ -20,6 +23,6 @@ When the user adds or works with projects and project items, the IDE uses the no
 
  At other times, the project context of an item is not explicitly specified. For example, the context of an item is not available when the user opens a file by selecting the **Open Existing File** command on the **File** menu, when the debugger operates on a file, or when the user clicks the **Find In Files** command in the **Find and Replace** dialog box. To handle these situations, the IDE calls <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShellOpenDocument> to manage the process of finding the best project to open a document.
 
-## See Also
+## See also
 - [Project Priority](../../extensibility/internals/project-priority.md)
 - [Adding Project and Project Item Templates](../../extensibility/internals/adding-project-and-project-item-templates.md)

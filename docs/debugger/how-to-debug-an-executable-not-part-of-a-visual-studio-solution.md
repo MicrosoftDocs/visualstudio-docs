@@ -1,35 +1,39 @@
 ---
-title: "Debug an app that isn't part of a Visual Studio solution"
-titleSuffix: ""
-ms.custom: "seodec18"
-ms.date: "11/19/2018"
-ms.topic: "conceptual"
-dev_langs:
-  - "CSharp"
-  - "VB"
-  - "FSharp"
-  - "C++"
-  - "JScript"
-helpviewer_keywords:
-  - "debugging [Visual Studio], executables"
-  - "executable files, importing"
-  - "executable files, debugging outside of projects"
+title: Debug an app that isn't part of a Visual Studio solution
+titleSuffix: 
+description: Learn how to debug an app that isn't part of a Visual Studio solution. You may be able to attach the Visual Studio debugger.
+ms.custom: SEO-VS-2020
+ms.date: 02/21/2020
+ms.topic: how-to
+dev_langs: 
+  - CSharp
+  - VB
+  - FSharp
+  - C++
+  - JScript
+helpviewer_keywords: 
+  - debugging [Visual Studio], executables
+  - executable files, importing
+  - executable files, debugging outside of projects
 ms.assetid: 3ea176e8-1ce5-42c4-b7a2-abe3a2765033
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
-ms.workload:
-  - "multiple"
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.technology: vs-ide-debug
+ms.workload: 
+  - multiple
 ---
 # Debug an app that isn't part of a Visual Studio solution (C++, C#, Visual Basic, F#)
 
-You may want to debug an app (*.exe* file) that isn't part of a Visual Studio solution. You or someone else may have created the app outside of Visual Studio, or you got the app from somewhere else.
+You may want to debug an app (*.exe* file) that isn't part of a Visual Studio solution. It may be an [open folder](../ide/develop-code-in-visual-studio-without-projects-or-solutions.md) project, or you or someone else may have created the app outside of Visual Studio, or you got the app from somewhere else.
 
-The usual way to debug an app that doesn't exist in Visual Studio is to start the app outside of Visual Studio, and then attach to it using **Attach to Process** in the Visual Studio debugger. For more information, see [Attach to running processes](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md).
+- For an open folder project in Visual Studio (which has no project or solution file), see [Run and debug your code](../ide/develop-code-in-visual-studio-without-projects-or-solutions.md#run-and-debug-your-code) or, for C++, [Configure debugging parameters with launch.vs.json](/cpp/build/open-folder-projects-cpp#configure-debugging-parameters-with-launchvsjson).
 
-Attaching to an app requires manual steps that take a few seconds. Because of this delay, attaching won't help debug a startup issue, or an app that doesn't wait for user input and finishes quickly.
+- For an app that doesn't exist in Visual Studio, the usual way to debug is to start the app outside of Visual Studio, and then attach to it using **Attach to Process** in the Visual Studio debugger. For more information, see [Attach to running processes](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md).
 
-In these situations, you can create a Visual Studio EXE project for the app, or import it into an existing C#, Visual Basic, or C++ solution. Not all programming languages support EXE projects.
+   Attaching to an app requires manual steps that take a few seconds. Because of this delay, attaching won't help debug a startup issue, or an app that doesn't wait for user input and finishes quickly.
+
+   In these situations, you can create a Visual Studio EXE project for the app, or import it into an existing C#, Visual Basic, or C++ solution. Not all programming languages support EXE projects.
 
 >[!IMPORTANT]
 >Debugging features for an app that wasn't built in Visual Studio are limited, whether you attach to the app or add it to a Visual Studio solution.

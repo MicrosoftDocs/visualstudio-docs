@@ -1,17 +1,20 @@
 ---
-title: "Creating a Basic Project System, Part 1 | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Creating a Basic Project System, Part 1 | Microsoft Docs
+description: Learn how to create a project type named extension.myproj. In Visual Studio, projects are containers used to organize source code files and other assets.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
 helpviewer_keywords:
-  - "writing a project system"
-  - "project system"
-  - "tutorial"
+- writing a project system
+- project system
+- tutorial
 ms.assetid: 882a10fa-bb1c-4b01-943a-7a3c155286dd
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Create a basic project system, part 1
 In Visual Studio, projects are the containers that developers use to organize source code files and other assets. Projects appear as children of solutions in the **Solution Explorer**. Projects let you organize, build, debug, and deploy source code and create references to Web services, databases, and other resources.
@@ -29,7 +32,7 @@ In Visual Studio, projects are the containers that developers use to organize so
  This walkthrough shows you how to create a project type that has the project file name extension *.myproj*. This walkthrough borrows from the existing Visual C# project system.
 
 > [!NOTE]
-> For more examples of extension projects, see [VSSDK samples](https://aka.ms/vs2015sdksamples).
+> For more examples of extension projects, see [VSSDK samples](https://github.com/Microsoft/VSSDK-Extensibility-Samples).
 
  This walkthrough teaches how to accomplish these tasks:
 
@@ -184,7 +187,7 @@ Templates
 
 2. Add a class to the top *SimpleProject* folder named *SimpleProjectFactory.cs*.
 
-3. Add the following using statements:
+3. Add the following using directives:
 
    ```csharp
    using System.Runtime.InteropServices;
@@ -263,7 +266,7 @@ Templates
 
 ### To initialize the project factory
 
-1. In the *SimpleProjectPackage.cs* file, add the following `using` statement.
+1. In the *SimpleProjectPackage.cs* file, add the following `using` directive.
 
     ```csharp
     using Microsoft.VisualStudio.Project;
@@ -291,7 +294,7 @@ Templates
     }
     ```
 
-5. In *SimpleProjectFactory.cs*, add the following `using` statement after the existing `using` statements.
+5. In *SimpleProjectFactory.cs*, add the following `using` directive after the existing `using` directives.
 
     ```csharp
     using Microsoft.VisualStudio.Project;
@@ -410,7 +413,7 @@ Templates
 
 ### To connect the project factory class and the node class
 
-1. In the *SimpleProjectFactory.cs* file, add the following `using` statement:
+1. In the *SimpleProjectFactory.cs* file, add the following `using` directive:
 
     ```csharp
     using IOleServiceProvider =    Microsoft.VisualStudio.OLE.Interop.IServiceProvider;
@@ -454,7 +457,7 @@ Templates
 
 3. In the **Properties** window, change the **Build action** of the bitmap to **Embedded Resource**.
 
-4. In *SimpleProjectNode.cs*, add the following `using` statements:
+4. In *SimpleProjectNode.cs*, add the following `using` directives:
 
    ```csharp
    using System.Drawing;
@@ -556,7 +559,7 @@ Templates
 
 ### To substitute template parameters
 
-1. In the *SimpleProjectNode.cs* file, add the following `using` statement.
+1. In the *SimpleProjectNode.cs* file, add the following `using` directive.
 
    ```csharp
    using System.IO;

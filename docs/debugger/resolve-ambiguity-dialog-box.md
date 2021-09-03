@@ -1,5 +1,7 @@
 ---
 title: "Resolve Ambiguity Dialog Box | Microsoft Docs"
+description: Review Visual Studio's Resolve Ambiguity dialog box, which appears when the debugger cannot choose the location to display.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 f1_keywords:
@@ -16,7 +18,8 @@ helpviewer_keywords:
 ms.assetid: d9f47455-a116-4c84-8bad-2dfbf4d77f74
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -35,5 +38,5 @@ The `Resolve Ambiguity` dialog box appears when the debugger cannot choose the l
  `Module`
  Shows the module (EXE or DLL) containing the object code for the function.
 
-## See Also
+## See also
 - [Expressions in the Debugger](../debugger/expressions-in-the-debugger.md)

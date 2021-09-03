@@ -1,21 +1,24 @@
 ---
-title: "How to: Step into WCF Services | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-dev_langs:
-  - "CSharp"
-  - "VB"
-  - "FSharp"
-  - "C++"
-helpviewer_keywords:
-  - "debugging, WCF"
-  - "WCF, debugging"
+title: Step into WCF Services | Microsoft Docs
+description: Step into a Windows Communication Foundation (WCF) service. If it's in the same Visual Studio solution as the client, hit breakpoints inside the WCF service.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
+dev_langs: 
+  - CSharp
+  - VB
+  - FSharp
+  - C++
+helpviewer_keywords: 
+  - debugging, WCF
+  - WCF, debugging
 ms.assetid: 9893ad01-54af-499f-85a6-9d1cfe6eb640
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
-ms.workload:
-  - "multiple"
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.technology: vs-ide-debug
+ms.workload: 
+  - multiple
 ---
 # How to: Step into WCF Services
 In [!INCLUDE[vs_dev11_long](../data-tools/includes/vs_dev11_long_md.md)], you can step into a WCF service. If the WCF service is in the same [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] solution as the client, you can hit breakpoints inside the WCF Service.
@@ -34,7 +37,7 @@ In [!INCLUDE[vs_dev11_long](../data-tools/includes/vs_dev11_long_md.md)], you ca
 
 5. Run to the breakpoint, then begin stepping. The debugger will step into the service automatically.
 
-## See Also
+## See also
 - [Debugging WCF Services](../debugger/debugging-wcf-services.md)
 - [Limitations on WCF Debugging](../debugger/limitations-on-wcf-debugging.md)
 - [How to: Debug a Self-Hosted WCF Service](../debugger/how-to-debug-a-self-hosted-wcf-service.md)

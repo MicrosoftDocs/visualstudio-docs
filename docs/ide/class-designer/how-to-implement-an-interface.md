@@ -1,16 +1,19 @@
 ---
-title: "How to: Implement an Interface (Class Designer)"
+title: 'How to: Implement an Interface (Class Designer)'
+description: Learn how to implement an interface on the class diagram by connecting it to a class that provides code for the interface methods.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
-  - "interfaces [Visual Studio], implementing"
-  - "interfaces [Visual Studio]"
+- interfaces [Visual Studio], implementing
+- interfaces [Visual Studio]
 ms.assetid: 81d2cf46-7f60-448c-83e3-1d16bb88ca36
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Implement an interface in Class Designer
 

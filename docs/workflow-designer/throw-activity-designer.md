@@ -1,15 +1,18 @@
 ---
-title: "Workflow Designer - Throw Activity Designer"
+title: Workflow Designer - Throw Activity Designer
+description: Learn about the Throw activity and how you can use the Throw activity designer to create and configure a Throw activity.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "System.Activities.Statements.Throw.UI"
+- System.Activities.Statements.Throw.UI
 ms.assetid: 5e97c947-be39-4a1f-af04-000e2e09528a
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
+ms.technology: vs-workflow-designer
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Throw Activity Designer
 

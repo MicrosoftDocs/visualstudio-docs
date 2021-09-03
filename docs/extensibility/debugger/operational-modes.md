@@ -1,15 +1,18 @@
 ---
-title: "Operational Modes | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Operational Modes | Microsoft Docs
+description: Learn about the three modes in which the IDE can operate, which are design mode, run mode, and break mode.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: reference
 helpviewer_keywords:
-  - "debug engines, modes"
+- debug engines, modes
 ms.assetid: f69972d0-809d-40df-9da3-04738791391c
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Operational modes
 There are three modes in which the IDE can operate, as follows:

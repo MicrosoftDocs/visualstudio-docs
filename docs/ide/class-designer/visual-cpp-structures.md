@@ -1,17 +1,20 @@
 ---
-title: Visual C++ Structures in Class Designer
+title: C++ Structures in Class Designer
+description: Learn about how Class Designer supports C++ structures declared with the keyword struct.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "Class Designer [Visual Studio], structures"
+- Class Designer [Visual Studio], structures
 ms.assetid: bad18ab6-d956-47a6-a413-811cc26db5f5
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
-  - "cplusplus"
+- cplusplus
 ---
-# Visual C++ structures in Class Designer
+# C++ structures in Class Designer
 
 **Class Designer** supports C++ structures, which are declared with the keyword `struct`. Following is an example:
 
@@ -34,6 +37,6 @@ A C++ structure shape in a class diagram looks and works like a class shape, exc
 
 ## See also
 
-- [Working with Visual C++ Code](working-with-visual-cpp-code.md)
+- [Working with C++ Code](working-with-visual-cpp-code.md)
 - [Classes and Structs](/cpp/cpp/classes-and-structs-cpp)
 - [struct](/cpp/cpp/struct-cpp)

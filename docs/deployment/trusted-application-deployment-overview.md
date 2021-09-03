@@ -1,5 +1,7 @@
 ---
 title: "Trusted Application Deployment Overview | Microsoft Docs"
+description: Learn how to deploy ClickOnce applications that have elevated permissions by using the Trusted Application Deployment technology.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:
@@ -13,7 +15,8 @@ helpviewer_keywords:
 ms.assetid: b24a1702-8fbe-45b1-87a0-9618a0708f1d
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-deployment
 ms.workload:
   - "multiple"
 ---
@@ -65,7 +68,7 @@ You must follow these steps to take advantage of Trusted Application Deployment:
 ### Add the publisher to the trusted publishers store
  For your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application to receive a higher level of trust, you must add your certificate as a trusted publisher to each client computer on which the application will run. Performing this task is a one-time configuration. After it is completed, you can deploy as many [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] applications signed with your publisher's certificate as you want, and they will all run with high trust.
 
- If you are deploying your application in a managed desktop environment; for example, a corporate intranet running the Windows operating system; you can add trusted publishers to a client's store by creating a new certificate trust list (CTL) with Group Policy. For more information, see [Create a certificate trust list for a Group Policy object](http://go.microsoft.com/fwlink/?LinkId=102576).
+ If you are deploying your application in a managed desktop environment; for example, a corporate intranet running the Windows operating system; you can add trusted publishers to a client's store by creating a new certificate trust list (CTL) with Group Policy. For more information, see [Create a certificate trust list for a Group Policy object](/previous-versions/windows/it-pro/windows-server-2003/cc728449(v=ws.10)).
 
  If you are not deploying your application in a managed desktop environment, you have the following options for adding a certificate to the trusted publisher store:
 

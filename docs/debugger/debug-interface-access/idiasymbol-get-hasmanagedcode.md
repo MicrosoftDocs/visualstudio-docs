@@ -1,7 +1,8 @@
 ---
+description: "Retrieves a flag indicating whether the module contains managed code."
 title: "IDiaSymbol::get_hasManagedCode | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,8 @@ helpviewer_keywords:
 ms.assetid: e40f82f5-88fe-4a9b-b594-3605f42773ec
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "dotnet"
 ---
@@ -45,6 +47,6 @@ HRESULT get_hasManagedCode(
 |Header:|dia2.h|
 |Version:|DIA SDK v8.0|
 
-## See Also
+## See also
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
 - [CompilandDetails](../../debugger/debug-interface-access/compilanddetails.md)

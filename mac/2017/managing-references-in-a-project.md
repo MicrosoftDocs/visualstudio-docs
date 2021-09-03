@@ -1,10 +1,11 @@
 ---
 title: "Managing References in a Project"
 description: "This article describes how to manage references in a project in Visual Studio for Mac"
-author: conceptdev
-ms.author: crdun
+author: heiligerdankgesang
+ms.author: dominicn
 ms.date: 05/06/2018
 ms.assetid: 4AD51385-B0A8-4BA7-B2D4-BF2BD167A142
+ms.topic: overview
 ---
 
 # Managing References in a Project
@@ -41,4 +42,4 @@ More information on using a NuGet Package is provided in the [Including a NuGet 
 ## See also
 
 - [Manage references (Visual Studio on Windows)](/visualstudio/ide/managing-references-in-a-project)
-- [Adding references using NuGet versus an extension SDK (Visual Studio on Windows)](/visualstudio/ide/adding-references-using-nuget-versus-an-extension-sdk)
+- [NuGet versus SDK as a project reference](/visualstudio/extensibility/nuget-versus-sdk-references)

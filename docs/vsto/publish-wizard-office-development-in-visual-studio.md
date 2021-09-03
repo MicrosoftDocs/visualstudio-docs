@@ -1,5 +1,7 @@
 ---
 title: "Publish wizard (Office development in Visual Studio)"
+description: Learn how you can Use the Publish Wizard to copy solution files to a specified location, create the manifest files, and create a Setup program in Visual Studio.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 f1_keywords:
@@ -15,7 +17,8 @@ helpviewer_keywords:
   - "Publish Wizard, Office solutions"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
+ms.technology: office-development
 ms.workload:
   - "office"
 ---
@@ -36,7 +39,7 @@ ms.workload:
 
 - A Universal Naming Convention (UNC) path, such as *\\\ServerName\MyApplication\\*.
 
-- A URL of a web site, such as http://www.microsoft.com/MyApplication.
+- A URL of a web site, such as `http://www.contoso.com/MyApplication`.
 
   By default, the publishing location is *http://localhost/projectname/* if you have IIS installed, or the publish\ directory if you do not have IIS installed.
 
@@ -44,7 +47,7 @@ ms.workload:
 > There are more considerations if the target computer is running Windows Vista. You must be an administrator on the Windows Vista computer to use the local publish option. In addition, the default location is always the *publish\\* directory, regardless of whether you have IIS installed.
 
 ## What is the default installation path on end-user computers?
- The installation path is optional. You can set the installation path later if you prefer. For details, see [How to: Change the installation path of an Office solution](https://msdn.microsoft.com/d0eaa07b-2d72-4902-899f-2f9fb165b8fd).
+ The installation path is optional. You can set the installation path later if you prefer. For details, see [How to: Change the installation path of an Office solution](/previous-versions/bb608626(v=vs.110)).
 
  The installation path is the directory from which the end user will install the customization. It is also the path that the solution will use to check for updates. The **Publish Wizard** does not deploy the solution to this location, unless the path is the same as the one you entered in the **Specify the location to publish this application** box on the previous page.
 

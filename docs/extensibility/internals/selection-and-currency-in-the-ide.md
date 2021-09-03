@@ -1,18 +1,21 @@
 ---
-title: "Selection and Currency in the IDE | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Selection and Currency in the IDE | Microsoft Docs
+description: Learn how VSPackages take part in currency tracking. The Visual Studio IDE maintains information about currently selected objects by using selection context.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "currency, Visual Studio IDE"
-  - "IDE, selection"
-  - "selection, Visual Studio IDE"
-  - "IDE, currency"
+- currency, Visual Studio IDE
+- IDE, selection
+- selection, Visual Studio IDE
+- IDE, currency
 ms.assetid: 2f6f18d1-acd8-454d-a856-9a4d81155052
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Selection and Currency in the IDE
 The [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE) maintains information about users' currently selected objects by using selection *context*. With selection context, VSPackages can take part in currency tracking in two ways:
@@ -56,6 +59,6 @@ The [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] integrated deve
 
 - Events that change the elements traced within the window frame selection context. Examples include changing selection within a DocObject or changing selection in a project-type window.
 
-## See Also
+## See also
 - [Selection Context Objects](../../extensibility/internals/selection-context-objects.md)
 - [Feedback to the User](../../extensibility/internals/feedback-to-the-user.md)

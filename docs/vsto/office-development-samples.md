@@ -1,5 +1,7 @@
 ---
 title: "Office development samples"
+description: Learn about sample Visual Studio applications that demonstrate how to use the Microsoft Office developer tools to create Office solutions.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -9,14 +11,15 @@ helpviewer_keywords:
   - "Office development in Visual Studio, samples"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
+ms.technology: office-development
 ms.workload:
   - "office"
 ---
 # Office development samples
   Visual Studio includes sample applications that demonstrate how to use the Microsoft Office developer tools to create Office solutions. The code in these samples illustrates the syntax, structure, and techniques used to build Office solutions.
 
- For the most current samples, see [MSDN developer samples: Learn through code](http://go.microsoft.com/fwlink/?LinkID=248199) on the Microsoft website.
+ For the most current samples, see [MSDN developer samples: Learn through code](https://code.msdn.microsoft.com/site/search?query=vsto&f%5B1%5D.Value=vsto&f%5B1%5D.Type=SearchText&f%5B0%5D.Value=11.0&f%5B0%5D.Type=VisualStudioVersion&f%5B0%5D.Text=Visual%20Studio%2011&ac=8) on the Microsoft website.
 
  [!INCLUDE[note_security_multiplesample](../vsto/includes/note-security-multiplesample-md.md)]
 

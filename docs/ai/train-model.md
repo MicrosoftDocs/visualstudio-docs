@@ -1,18 +1,21 @@
 ---
-title: Submit a job to train model in Azure Batch AI
-description: train model cloud
+title: Submit a job to train a model
+description: Submit a job to train a model using Azure Batch AI
+ms.custom: SEO-VS-2020
 keywords: ai, visual studio, train model, cloud
-author: lisawong19
-ms.author: liwong
-manager: routlaw
+author: jillre
+ms.author: jillfra
+manager: jmartens
+ms.technology: vs-ai-tools
+monikerRange: vs-2017
 ms.date: 11/13/2017
-ms.topic: "conceptual"
+ms.topic: how-to
 ms.workload:
   - "azure"
 ---
 # Train AI models in Azure Batch AI
 
-Batch AI is a managed service that enables data scientists and AI researchers to train AI and other machine learning models on clusters of Azure virtual machines, including VMs with GPU support. You describe the requirements of your job, where to find the inputs and store the outputs, and Batch AI handles the rest. [Learn more about Azure Batch AI](https://docs.microsoft.com/azure/batch-ai/overview)
+Batch AI is a managed service that enables data scientists and AI researchers to train AI and other machine learning models on clusters of Azure virtual machines, including VMs with GPU support. You describe the requirements of your job, where to find the inputs and store the outputs, and Batch AI handles the rest. [Learn more about Azure Batch AI](/azure/batch-ai/overview)
 
 It's integrated with Visual Studio Tools for AI so you can dynamically scale out training models in Azure.  Once you've [installed Visual Studio Tools for AI](installation.md), it's easy to create a new Python project using pre-made recipes in the Azure Machine Learning Sample Gallery.
 
@@ -22,7 +25,7 @@ It's integrated with Visual Studio Tools for AI so you can dynamically scale out
 
 2. Expand **AI Tools**. Any Batch AI resources you have will be auto-detected and appear in the Server Explorer.
 
-    ![Sample gallery](media/train-model/batchai.png)
+    ![Screenshot of the expanded folder tree for AI Tools in Server Explorer, showing expanded subfolders for Azure Batch AI and Azure Machine Learning.](media/train-model/batchai.png)
 
 3. Select **View > Team Explorer...** to open the **Team Explorer** window in which you can connect to GitHub or Azure DevOps, or clone a repository.
 
@@ -35,19 +38,19 @@ It's integrated with Visual Studio Tools for AI so you can dynamically scale out
 
 5. When cloning is complete, click **File > Open Solution > Project / Solution**
 
-    ![Sample gallery](media/train-model/open-solution.png)
+    ![Screenshot showing part of the Server Explorer File menu with the Open command selected and Project/Solution selected on the context menu.](media/train-model/open-solution.png)
 
 6. Open **samples-for-ai\TensorFlowExamples\TensorFlowExamples.sln** in the directory you cloned the repository
 
-    ![Sample gallery](media/train-model/tensorflowexamples.png)
+    ![Screenshot showing the solution file TensorflowExamples.sln listed in the contents of the TensorflowExamples folder in the samples-for-ai repository.](media/train-model/tensorflowexamples.png)
 
 7. Set MNIST project as the **Startup Project**
 
-    ![Sample gallery](media/train-model/mnist-startup.png)
+    ![Screenshot showing Set as StartUp Project selected on the context menu for the MNIST project in Solution Explorer.](media/train-model/mnist-startup.png)
 
 8. <strong>Right-click **MNIST project,** **Submit Job**</strong>
 
-    ![Sample gallery](media/train-model/submit-job.png)
+    ![Screenshot showing Submit Job selected on the context menu for the MNIST project in Solution Explorer.](media/train-model/submit-job.png)
 9. Select your **Azure Batch AI** cluster, then click **Import**. Select the `AzureBatchAI_TF_MNIST.json` file to quickly populate some default values like which Docker Image to use. Then click **Submit**
 
-    ![Sample gallery](media/train-model/submit-batch.png)
+    ![Screenshot of the Submit Job dialog with values populated for Use cluster, Startup script, Job name, Image name, StdOutErr path prefix, and CLI parameters.](media/train-model/submit-batch.png)

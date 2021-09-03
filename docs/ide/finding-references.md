@@ -1,15 +1,18 @@
 ---
 title: Finding references in your code
+description: Learn about the Find All References command to find references to particular code elements in your code.  
+ms.custom: SEO-VS-2020
 ms.date: 09/26/2017
 ms.topic: conceptual
 helpviewer_keywords:
-  - "code editor, find all references"
-  - "find all references"
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+- code editor, find all references
+- find all references
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Find references in your code
 

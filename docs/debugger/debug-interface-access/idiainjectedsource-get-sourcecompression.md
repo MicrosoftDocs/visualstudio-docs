@@ -1,7 +1,8 @@
 ---
+description: "Retrieves the indicator of the source compression used."
 title: "IDiaInjectedSource::get_sourceCompression | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,8 @@ helpviewer_keywords:
 ms.assetid: 854b142f-23a9-466c-bf7f-98e581d5abcd
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -35,5 +37,5 @@ HRESULT get_sourceCompression ( 
 ## Remarks
  The value returned by this method is specific to the compiler used. For example, a compiler might use Run-Length Encoding or Huffman-style compression.
 
-## See Also
+## See also
 - [IDiaInjectedSource](../../debugger/debug-interface-access/idiainjectedsource.md)

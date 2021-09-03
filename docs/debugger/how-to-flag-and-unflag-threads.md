@@ -1,20 +1,23 @@
 ---
-title: "How to: Flag and Unflag Threads | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-dev_langs:
-  - "CSharp"
-  - "VB"
-  - "FSharp"
-  - "C++"
-helpviewer_keywords:
-  - "treads, switching [debugging]"
+title: Flag and Unflag Threads | Microsoft Docs
+description: Learn to flag or unflag threads in Visual Studio. Flag or unflag a thread, several threads, or all threads. Flag just your code or ones associated with a module.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
+dev_langs: 
+  - CSharp
+  - VB
+  - FSharp
+  - C++
+helpviewer_keywords: 
+  - treads, switching [debugging]
 ms.assetid: 952d579d-6911-413e-b3e5-54e7e797e70c
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
-ms.workload:
-  - "multiple"
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.technology: vs-ide-debug
+ms.workload: 
+  - multiple
 ---
 # How to: Flag and Unflag Threads (C#, Visual Basic, C++)
 
@@ -54,7 +57,7 @@ Flagged threads also receive special treatment in the **Thread** list on the **D
 
 5. Click **OK**.
 
-## See Also
+## See also
 - [Debug Multithreaded Applications](../debugger/debug-multithreaded-applications-in-visual-studio.md)
 - [Get started debugging multithreaded applications](../debugger/get-started-debugging-multithreaded-apps.md)
 - [Walkthrough: Debug multithreaded applications using the Threads window](../debugger/how-to-use-the-threads-window.md)

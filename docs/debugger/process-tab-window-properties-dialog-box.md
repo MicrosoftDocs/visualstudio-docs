@@ -1,5 +1,7 @@
 ---
 title: "Process Tab, Window Properties Dialog Box | Microsoft Docs"
+description: Use the Process tab of Window Properties to view the ID of the thread that created the selected window, and the ID of the process that owns the thread.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 helpviewer_keywords:
@@ -7,7 +9,8 @@ helpviewer_keywords:
 ms.assetid: bb464429-4e7c-4919-98b5-1aaafe89bb5f
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---

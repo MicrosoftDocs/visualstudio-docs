@@ -1,19 +1,22 @@
 ---
 title: List Modules Command
+description: Learn about the List Modules command and how it lists the modules for the current process.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "debug.listmodules"
+- debug.listmodules
 helpviewer_keywords:
-  - "Debug.ListModules command"
-  - "ListModules command"
-  - "list modules command"
+- Debug.ListModules command
+- ListModules command
+- list modules command
 ms.assetid: 3cb73774-6ac0-43b2-b781-75ed47175bfd
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # List Modules Command
 Lists the modules for the current process.
@@ -70,7 +73,7 @@ This example lists the module names, addresses, and timestamps for the current p
 Debug.ListModules /Address:yes /Name:yes /Order:no /Path:no /Process:no /SymbolFile:no /SymbolStatus:no /Timestamp:yes /Version:no
 ```
 
-## See Also
+## See also
 
 - [Visual Studio Commands](../../ide/reference/visual-studio-commands.md)
 - [Command Window](../../ide/reference/command-window.md)

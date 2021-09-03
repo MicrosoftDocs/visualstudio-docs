@@ -1,19 +1,21 @@
 ---
-title: "IDebugGenericParamField::ConstraintCount | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Returns the number of constraints that are associated with this generic parameter."
+title: IDebugGenericParamField::ConstraintCount | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "ConstraintCount"
-  - "IDebugGenericParamField::ConstraintCount"
+- ConstraintCount
+- IDebugGenericParamField::ConstraintCount
 ms.assetid: 76bef0cb-8a3c-4ce5-87cc-1809de229f33
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugGenericParamField::ConstraintCount
 Returns the number of constraints that are associated with this generic parameter.

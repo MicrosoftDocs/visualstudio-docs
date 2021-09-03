@@ -1,20 +1,22 @@
 ---
-title: "IDebugModule3::LoadSymbols | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Loads the symbols for the current module."
+title: IDebugModule3::LoadSymbols | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugModule3::LoadSymbols"
+- IDebugModule3::LoadSymbols
 helpviewer_keywords:
-  - "IDebugModule3::LoadSymbols"
+- IDebugModule3::LoadSymbols
 ms.assetid: 7548c8c1-cbc6-48aa-a845-19058d4a85bb
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugModule3::LoadSymbols
 Loads the symbols for the current module.

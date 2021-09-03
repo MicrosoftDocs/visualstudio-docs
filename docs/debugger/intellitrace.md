@@ -1,5 +1,7 @@
 ---
 title: "IntelliTrace | Microsoft Docs"
+description: Use IntelliTrace to record and trace your code's execution history in Visual Studio. Record specific events, examine related code, and debug errors.
+ms.custom: SEO-VS-2020
 ms.date: "09/19/2018"
 ms.topic: "conceptual"
 f1_keywords:
@@ -15,7 +17,8 @@ helpviewer_keywords:
   - "IntelliTrace, debugging after a crash"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -33,7 +36,7 @@ You can use IntelliTrace in Visual Studio Enterprise edition (but not the Profes
 
 ## What do you want to do?
 
-|||
+|Scenario|Title|
 |-|-|
 |**Debug my application with IntelliTrace:**<br /><br /> - Show me past events.<br />- Show me call information with past events.<br />- Save my IntelliTrace session.<br />- Control the data that IntelliTrace collects.|- [Inspect previous app states using IntelliTrace](../debugger/view-historical-application-state.md)<br />- [Walkthrough: Using IntelliTrace](../debugger/walkthrough-using-intellitrace.md)<br />- [IntelliTrace Features](../debugger/intellitrace-features.md)<br />- [Historical Debugging](../debugger/historical-debugging.md)|
 |**Collect IntelliTrace data from deployed applications**|- [Using the IntelliTrace stand-alone collector](../debugger/using-the-intellitrace-stand-alone-collector.md)|
@@ -41,7 +44,7 @@ You can use IntelliTrace in Visual Studio Enterprise edition (but not the Profes
 
 ## <a name="IntelliTraceSupport"></a> What apps can I debug with IntelliTrace?
 
-| | |
+| Support level| Application types |
 |---------------------| - |
 | **Full support** | - Visual Basic and Visual C# applications that use .NET Framework 2.0 or higher versions.<br/>You can debug most applications, including ASP.NET, Microsoft Azure, Windows Forms, WCF, WPF, Windows Workflow, SharePoint 2010, SharePoint 2013, and 64-bit apps.<br/>To debug SharePoint applications with IntelliTrace, see [Walkthrough: Debugging a SharePoint Application by Using IntelliTrace](../sharepoint/walkthrough-debugging-a-sharepoint-application-by-using-intellitrace.md).<br/> To debug Microsoft Azure apps with IntelliTrace, see [Debugging a Published Cloud Service with IntelliTrace and Visual Studio](../azure/vs-azure-tools-intellitrace-debug-published-cloud-services.md). |
 | **Limited support** | - C++ apps targeting Windows support viewing snapshots using IntelliTrace step-back. Only debugger and exception events are supported.<br />- .NET Core and ASP.NET Core apps supported for certain events only (MVC Controller, ADO.NET, and HTTPClient events) in local debugging. The Standalone Collector is not supported for .NET Core or ASP.NET Core apps.<br />- F# apps on an experimental basis<br />- UWP apps supported for events only |
@@ -62,7 +65,7 @@ You can save IntelliTrace data from these sources:
 
 - An IntelliTrace session in Visual Studio 2015 Enterprise or later versions, or previous versions of Visual Studio Ultimate.
 
-- ASP.NET web apps hosted on IIS, or SharePoint 2010 and SharePoint 2013 applications running in deployment when you use Microsoft Monitoring Agent, either alone or with System Center 2012. See [Use the IntelliTrace stand-alone collector](../debugger/using-the-intellitrace-stand-alone-collector.md) and [Monitoring with Microsoft Monitoring Agent](https://technet.microsoft.com/library/dn465153.aspx).
+- ASP.NET web apps hosted on IIS, or SharePoint 2010 and SharePoint 2013 applications running in deployment when you use Microsoft Monitoring Agent, either alone or with System Center 2012. See [Use the IntelliTrace stand-alone collector](../debugger/using-the-intellitrace-stand-alone-collector.md) and [Monitoring with Microsoft Monitoring Agent](/previous-versions/system-center/system-center-2012-R2/dn465153(v=sc.12)).
 
 Here are some examples of how IntelliTrace can help you with debugging:
 
@@ -116,7 +119,7 @@ By default, IntelliTrace records only IntelliTrace events: debugger events, exce
 
 - **SharePoint 2010 and SharePoint 2013 application events**
 
-  You can record user profile events and a subset of Unified Logging System (ULS) events for SharePoint 2010 and 2013 applications running outside Visual Studio. You can save these events to an .iTrace file. Requires Visual Studio Enterprise 2015 or later versions, a previous version of Visual Studio Ultimate, or [Microsoft Monitoring Agent](http://go.microsoft.com/fwlink/?LinkId=320384) running in **Trace** mode.
+  You can record user profile events and a subset of Unified Logging System (ULS) events for SharePoint 2010 and 2013 applications running outside Visual Studio. You can save these events to an .iTrace file. Requires Visual Studio Enterprise 2015 or later versions, a previous version of Visual Studio Ultimate, or [Microsoft Monitoring Agent](https://www.microsoft.com/download/details.aspx?id=40316) running in **Trace** mode.
 
   When you open the .iTrace file, enter a SharePoint correlation ID to find its matching web request, view the recorded events, and start debugging from a specific event. If the file contains unhandled exceptions, you can choose a correlation ID to start debugging an exception.
 
@@ -167,4 +170,4 @@ Collecting call information might slow down your application significantly. It m
 
 ### Forums
 
-[Visual Studio Diagnostics](http://go.microsoft.com/fwlink/?LinkId=262263)
+[Visual Studio Diagnostics](https://social.msdn.microsoft.com/Forums/en-US/home)

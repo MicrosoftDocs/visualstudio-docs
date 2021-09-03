@@ -1,13 +1,16 @@
 ---
-title: "Evaluation Tools for Visual Studio | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Evaluation Tools for Visual Studio | Microsoft Docs
+description: Use this checklist to evaluate user experience quality for visual and interaction details for new features you design for Visual Studio.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: reference
 ms.assetid: 94e0e9a3-440c-4943-ad7b-772ed742e034
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Evaluation Tools for Visual Studio
 ## Craftsmanship checklist for Visual Studio

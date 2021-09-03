@@ -1,7 +1,8 @@
 ---
-title: "Error: Unable to connect to SQL Server on remote machine | Microsoft Docs"
+description: "Unable to connect to SQL Server on remote machine name*."
+title: "Unable to connect to SQL Server on remote machine | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "troubleshooting"
+ms.topic: "error-reference"
 f1_keywords:
   - "vs.debug.error.sqlle_dcom_accessdenied"
 dev_langs:
@@ -12,7 +13,8 @@ dev_langs:
   - "SQL"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -23,5 +25,5 @@ Unable to connect to SQL Server on remote machine *name*. Access denied. Verify 
 
 - See [Remote Debugging](../debugger/remote-debugging.md).
 
-## See Also
+## See also
 - [Debugging SQL](/previous-versions/visualstudio/visual-studio-2010/zefbf0t6(v=vs.100))

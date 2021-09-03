@@ -1,5 +1,7 @@
 ---
 title: File nesting rules for Solution Explorer
+description: Learn about Solution Explorer file nesting rules, presets, and customization.
+ms.custom: SEO-VS-2020
 ms.date: 05/25/2018
 ms.topic: conceptual
 helpviewer_keywords:
@@ -7,7 +9,8 @@ helpviewer_keywords:
  - "Solution Explorer, file nesting"
 author: angelosp
 ms.author: angelpe
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-general
 ---
 # File nesting in Solution Explorer
 

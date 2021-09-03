@@ -1,22 +1,25 @@
 ---
-title: "How to: Add Class Diagrams to Projects (Class Designer)"
+title: Add Class Diagrams to projects (Class Designer)
+description: Learn how to design, edit, and refactor classes and other types, add a class diagram to your C#, Visual Basic, or C++ project.
+ms.custom: SEO-VS-2020
 ms.date: 05/08/2018
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
-  - "class diagrams, creating"
-  - "Class Designer [Visual Studio], opening"
+- class diagrams, creating
+- Class Designer [Visual Studio], opening
 ms.assetid: 0eac1b54-2711-4e4b-9654-a0c429c08c8f
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Add class diagrams to projects
 
 To design, edit, and refactor classes and other types, add a class diagram to your C#, Visual Basic, or C++ project. To visualize different parts of the code in a project, add multiple class diagrams to the project.
 
-You can't create class diagrams from projects that share code across multiple apps. To create UML class diagrams, see [Create UML modeling projects and diagrams](../../modeling/create-uml-modeling-projects-and-diagrams.md).
+You can't create class diagrams from projects that share code across multiple apps. To create UML class diagrams, see [Create UML modeling projects and diagrams](https://devblogs.microsoft.com/devops/uml-designers-have-been-removed-layer-designer-now-supports-live-architectural-analysis/).
 
 ## Install the Class Designer component
 

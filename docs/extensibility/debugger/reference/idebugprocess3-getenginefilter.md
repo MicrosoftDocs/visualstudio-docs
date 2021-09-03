@@ -1,19 +1,21 @@
 ---
-title: "IDebugProcess3::GetEngineFilter | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Retrieves an array of unique identifiers for available debug engines."
+title: IDebugProcess3::GetEngineFilter | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "GetEngineFilter"
-  - "IDebugProcess3::GetEngineFilter"
+- GetEngineFilter
+- IDebugProcess3::GetEngineFilter
 ms.assetid: ccb7ecb0-f189-4e80-b5b2-221a095e01f5
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugProcess3::GetEngineFilter
 Retrieves an array of unique identifiers for available debug engines.

@@ -1,5 +1,7 @@
 ---
 title: "Create your first document-level customization for Word"
+description: Create a document-level customization for Microsoft Word. The features that you create in this kind of solution are available only when a specific document is open.
+titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -11,11 +13,13 @@ helpviewer_keywords:
   - "document-level customizations [Office development in Visual Studio], creating your first project"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
+ms.technology: office-development
 ms.workload:
   - "office"
 ---
 # Walkthrough: Create your first document-level customization for Word
+
   This introductory walkthrough shows you how to create a document-level customization for Microsoft Office Word. The features that you create in this kind of solution are available only when a specific document is open. You cannot use a document-level customization to make application-wide changes, for example, displaying a new Ribbon tab when any document is open.
 
  [!INCLUDE[appliesto_wdalldoc](../vsto/includes/appliesto-wdalldoc-md.md)]
@@ -35,6 +39,7 @@ ms.workload:
   [!INCLUDE[note_settings_general](../sharepoint/includes/note-settings-general-md.md)]
 
 ## Prerequisites
+
  You need the following components to complete this walkthrough:
 
 - [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
@@ -48,24 +53,34 @@ ms.workload:
 1. Start [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].
 
 2. On the **File** menu, point to **New**, and then click **Project**.
-
+::: moniker range="vs-2017"
 3. In the templates pane, expand **Visual C#** or **Visual Basic**, and then expand **Office/SharePoint**.
 
-4. Under the expanded **Office/SharePoint** node, select the **Office Add-ins** node.
+4. Under the expanded **Office/SharePoint** node, select the **VSTO Add-ins** node.
 
-5. In the list of project templates, select a Word VSTO document project .
+5. In the list of project templates, select a Word VSTO document project.
 
 6. In the **Name** box, type **FirstDocumentCustomization**.
 
 7. Click **OK**.
 
-     The **Visual Studio Tools for Office Project Wizard** opens.
+8. Select **Create a new document** from the **Visual Studio Tools for Office Project Wizard**, and click **OK**.
+::: moniker-end
+::: moniker range=">=vs-2019"
+3. On the **Create a New Project** dialog select the **Word VSTO Document** project.
 
-8. Select **Create a new document**, and click **OK**.
+     [!INCLUDE[new-project-dialog-search](../vsto/includes/new-project-dialog-search-md.md)]
 
-     [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] creates the **FirstDocumentCustomization** project, and adds the **FirstDocumentCustomization** document and ThisDocument code file to the project. The **FirstDocumentCustomization** document is opened automatically in the designer.
+4. Click **Next**.
+
+5. Type **FirstWorkbookCustomization** in the **Name** box on the **Configure your new project** dialog and click **Create**.
+
+6. Select **Create a new document** from the **Visual Studio Tools for Office Project Wizard**, and click **OK**.
+::: moniker-end
+   - [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] creates the **FirstDocumentCustomization** project, and adds the **FirstDocumentCustomization** document and ThisDocument code file to the project. The **FirstDocumentCustomization** document is opened automatically in the designer.
 
 ## Close and reopen the document in the designer
+
  If you deliberately or accidentally close the document in the designer while you are developing your project, you can reopen it.
 
 ### To close and reopen the document in the designer
@@ -79,6 +94,7 @@ ms.workload:
      In **Solution Explorer**, double-click the **ThisDocument** code file.
 
 ## Add text to the document in the designer
+
  You can design the user interface (UI) of your customization by modifying the document that is open in the designer. For example, you can add text, tables, or Word controls. For more information about how to use the designer, see [Office projects in the Visual Studio environment](../vsto/office-projects-in-the-visual-studio-environment.md).
 
 ### To add text to your document by using the designer
@@ -88,6 +104,7 @@ ms.workload:
      **This text was added by using the designer.**
 
 ## Add text to the document programmatically
+
  Next, add code to the ThisDocument code file. The new code uses the object model of Word to add a second paragraph of text to the document. By default, the ThisDocument code file contains the following generated code:
 
 - A partial definition of the `ThisDocument` class, which represents the programming model of the document and provides access to the object model of Word. For more information, see [Document host item](../vsto/document-host-item.md) and [Word object model overview](../vsto/word-object-model-overview.md). The remainder of the `ThisDocument` class is defined in a hidden code file that you should not modify.
@@ -102,8 +119,8 @@ ms.workload:
 
 2. Replace the `ThisDocument_Startup` event handler with the following code. When the document is opened, this code adds a second paragraph of text to the document.
 
-     [!code-vb[Trin_WordDocumentTutorial#1](../vsto/codesnippet/VisualBasic/FirstDocumentCustomization/ThisDocument.vb#1)]
-     [!code-csharp[Trin_WordDocumentTutorial#1](../vsto/codesnippet/CSharp/FirstDocumentCustomization/ThisDocument.cs#1)]
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/FirstDocumentCustomization/ThisDocument.vb" id="Snippet1":::
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/FirstDocumentCustomization/ThisDocument.cs" id="Snippet1":::
 
     > [!NOTE]
     > This code uses the index value 1 to access the first paragraph in the <xref:Microsoft.Office.Tools.Word.Document.Paragraphs%2A> property. Although Visual Basic and Visual C# use 0-based arrays, the lower array bounds of most collections in the Word object model is 1. For more information, see [Write code in Office solutions](../vsto/writing-code-in-office-solutions.md).
@@ -125,6 +142,7 @@ ms.workload:
 3. Close the document.
 
 ## Clean up the project
+
  When you finish developing a project, you should remove the files in the build output folder and the security settings created by the build process.
 
 ### To clean up the completed project on your development computer
@@ -132,6 +150,7 @@ ms.workload:
 1. In Visual Studio, on the **Build** menu, click **Clean Solution**.
 
 ## Next steps
+
  Now that you have created a basic document-level customization for Word, you can learn more about how to develop customizations from these topics:
 
 - General programming tasks that you can perform in document-level customizations: [Program document-level customizations](../vsto/programming-document-level-customizations.md).
@@ -149,6 +168,7 @@ ms.workload:
 - Deploying document-level customizations for Word: [Deploy an Office solution](../vsto/deploying-an-office-solution.md).
 
 ## See also
+
 - [Office solutions development overview &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md)
 - [Word solutions](../vsto/word-solutions.md)
 - [Program document-level customizations](../vsto/programming-document-level-customizations.md)

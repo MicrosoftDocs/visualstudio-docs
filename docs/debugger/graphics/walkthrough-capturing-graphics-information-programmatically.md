@@ -1,10 +1,13 @@
 ---
-title: "Walkthrough: Capturing Graphics Information Programmatically | Microsoft Docs"
+title: "Capture graphics info programmatically"
+description: See how to use Visual Studio Graphics Diagnostics to programmatically capture graphics information from a Direct3D app.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -17,7 +20,7 @@ Programmatic capture is useful in scenarios such as:
 
 - Begin capture programmatically when your app doesn't render at all, such as when it uses DirectCompute to perform calculations.
 
-- Call `CaptureCurrentFrame`when a rendering problem is difficult to anticipate and capture in manual testing but can be predicted programmatically by using information about the state of the app at runtime.
+- Call `CaptureCurrentFrame`when a rendering problem is difficult to anticipate and capture in manual testing but can be predicted programmatically by using information about the state of the app at run time.
 
 ## <a name="CaptureDX11_2"></a> Programmatic capture in Windows 10
 This part of the walkthrough demonstrates programmatic capture in apps that use the DirectX 11.2 API on Windows 10, which uses the robust capture method.
@@ -31,7 +34,7 @@ This section shows how to do these tasks:
 - Capturing graphics information
 
 > [!NOTE]
-> Previous implementations of programmatic capture relied on Remote Tools for Visual Studio for [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] to provide capture functionality.
+> Previous implementations of programmatic capture relied on Remote Tools for Visual Studio to provide capture functionality.
 
 ### Preparing your app to use programmatic capture
 To use programmatic capture in your app, it must include the necessary headers. These headers are part of the Windows 10 SDK.
@@ -108,7 +111,7 @@ This walkthrough demonstrated how to capture graphics information programmatical
 
 - Learn how to analyze captured graphics information by using the Graphics Diagnostics tools. See [Overview](overview-of-visual-studio-graphics-diagnostics.md).
 
-## See Also
+## See also
 - [Walkthrough: Capturing Graphics Information](walkthrough-capturing-graphics-information.md)
 - [Capturing Graphics Information](capturing-graphics-information.md)
 - [Command-Line Capture Tool](command-line-capture-tool.md)

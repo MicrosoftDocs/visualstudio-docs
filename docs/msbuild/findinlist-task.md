@@ -1,26 +1,31 @@
 ---
-title: "FindInList Task | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
+title: FindInList Task | Microsoft Docs
+description: Learn to use the MSBuild FindInList task to find an item that has the matching itemspec in a specified list.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: reference
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+- VB
+- CSharp
+- C++
+- jsharp
 helpviewer_keywords:
-  - "FindInList task [MSBuild]"
-  - "MSBuild, FindInList task"
+- FindInList task [MSBuild]
+- MSBuild, FindInList task
 ms.assetid: d49b9f84-52a2-4242-9269-b741a7a7e9f7
-author: mikejo5000
-ms.author: mikejo
-manager: jillfra
+author: ghogen
+ms.author: ghogen
+manager: jmartens
+ms.technology: msbuild
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # FindInList task
+
 In a specified list, finds an item that has the matching itemspec.
 
 ## Parameters
+
  The following table describes the parameters of the [FindInList task](../msbuild/findinlist-task.md).
 
 |Parameter|Description|
@@ -33,8 +38,10 @@ In a specified list, finds an item that has the matching itemspec.
 |`MatchFileNameOnly`|Optional `Boolean` parameter.<br /><br /> If `true`, match against just the file name part of the itemspec; otherwise, match against the whole itemspec. Default value is `true`.|
 
 ## Remarks
+
  In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension base class](../msbuild/taskextension-base-class.md).
 
 ## See also
+
 - [Tasks](../msbuild/msbuild-tasks.md)
 - [Task reference](../msbuild/msbuild-task-reference.md)

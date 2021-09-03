@@ -1,5 +1,7 @@
 ---
 title: "Understand coauthoring and Add-ins"
+description: Learn about coauthoring and how it is a feature of Excel for Windows desktop that allows you to edit a workbook hosted in the cloud simultaneously with other users.
+ms.custom: SEO-VS-2020
 ms.date: "07/20/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -9,7 +11,8 @@ helpviewer_keywords:
   - "coauthoring, in Excel"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
+ms.technology: office-development
 ms.workload:
   - "office"
 ---

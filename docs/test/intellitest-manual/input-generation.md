@@ -1,14 +1,17 @@
 ---
-title: "Dynamic symbolic execution | Microsoft IntelliTest Developer Test Tool"
+title: Dynamic symbolic execution | Microsoft IntelliTest Developer Test Tool
+description: Learn how IntelliTest generates inputs for parameterized unit tests by analyzing the branch conditions in the program. 
+ms.custom: SEO-VS-2020
 ms.date: 05/02/2017
 ms.topic: conceptual
 helpviewer_keywords:
-  - "IntelliTest, Dynamic symbolic execution"
-ms.author: gewarren
-manager: jillfra
+- IntelliTest, Dynamic symbolic execution
+ms.author: mikejo
+manager: jmartens
+ms.technology: vs-ide-test
 ms.workload:
-  - "multiple"
-author: gewarren
+- multiple
+author: mikejo5000
 ---
 # Input generation using dynamic symbolic execution
 
@@ -208,7 +211,7 @@ The [PexChoose](static-helper-classes.md#pexchoose) static class can be used to 
 
 ## Got feedback?
 
-Post your ideas and feature requests on [Developer Community](https://developercommunity.visualstudio.com/content/idea/post.html?space=8).
+Post your ideas and feature requests on [Developer Community](https://aka.ms/feedback/suggest?space=8).
 
 ## Further reading
 

@@ -1,17 +1,19 @@
 ---
-title: "IDebugReturnValueEvent2 | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "This interface is sent by the debug engine (DE) to the session debug manager (SDM) after stepping out of or over a function."
+title: IDebugReturnValueEvent2 | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugReturnValueEvent2"
+- IDebugReturnValueEvent2
 helpviewer_keywords:
-  - "IDebugReturnValueEvent2"
+- IDebugReturnValueEvent2
 ms.assetid: 2daded43-e427-4fbb-a19e-f3834e3723af
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IDebugReturnValueEvent2
 This interface is sent by the debug engine (DE) to the session debug manager (SDM) after stepping out of or over a function.

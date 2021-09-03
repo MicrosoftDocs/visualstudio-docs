@@ -1,16 +1,19 @@
 ---
-title: "Legacy Language Service Parser and Scanner | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Legacy Language Service Parser and Scanner | Microsoft Docs
+description: Learn about the legacy language service parser and scanner that select information about the code being displayed.
+ms.custom: SEO-VS-2020 
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "parsers, language services [managed package framework]"
-  - "language services [managed package framework], Parsers"
+- parsers, language services [managed package framework]
+- language services [managed package framework], Parsers
 ms.assetid: 1ac3de27-a23b-438d-9593-389e45839cfa
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Legacy Language Service Parser and Scanner
 The parser is the heart of the language service. The Managed Package Framework (MPF) language classes require a language parser to select information about the code being displayed. A parser separates the text into lexical tokens and then identifies those tokens by type and functionality.
@@ -125,7 +128,7 @@ namespace MyNamespace
 
  The <xref:Microsoft.VisualStudio.Package.AuthoringSink> object is passed to the parser as part of the <xref:Microsoft.VisualStudio.Package.ParseRequest> object, and a new <xref:Microsoft.VisualStudio.Package.AuthoringSink> object is created every time that a new <xref:Microsoft.VisualStudio.Package.ParseRequest> object is created. In addition, the <xref:Microsoft.VisualStudio.Package.LanguageService.ParseSource%2A> method must return an <xref:Microsoft.VisualStudio.Package.AuthoringScope> object, which is used to handle various IntelliSense operations. The <xref:Microsoft.VisualStudio.Package.AuthoringScope> object maintains a list for declarations and a list for methods, either of which is populated, depending on the reason for parsing. The <xref:Microsoft.VisualStudio.Package.AuthoringScope> class must be implemented.
 
-## See Also
+## See also
 - [Implementing a Legacy Language Service](../../extensibility/internals/implementing-a-legacy-language-service1.md)
 - [Legacy Language Service Overview](../../extensibility/internals/legacy-language-service-overview.md)
 - [Syntax Colorizing in a Legacy Language Service](../../extensibility/internals/syntax-colorizing-in-a-legacy-language-service.md)

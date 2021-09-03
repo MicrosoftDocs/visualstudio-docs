@@ -1,16 +1,19 @@
 ---
 title: Create a Workflow Foundation project
+description: Learn how to create libraries and applications with the project templates available in Visual Studio.
+ms.custom: SEO-VS-2020
 ms.date: 06/25/2018
 ms.topic: conceptual
 helpviewer_keywords:
-  - "Workflow Designer, creating a workflow project"
-  - "creating a workflow project"
+- Workflow Designer, creating a workflow project
+- creating a workflow project
 ms.assetid: 235a125e-ebe7-4a98-bf77-86c8558728fb
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
+ms.technology: vs-workflow-designer
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Workflow project templates
 

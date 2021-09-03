@@ -1,11 +1,14 @@
 ---
-title: Cannot create an association - property listed twice
+title: Property listed twice
+description: 'Cannot create an association - property listed twice. View information about this Visual Studio Object Relational Designer (O/R Designer) message.'
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: reference
+ms.topic: error-reference
+ms.technology: vs-data-tools
 ms.assetid: 3ced8bda-210e-4caf-9d8f-96cdbba19251
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: ghogen
+ms.author: ghogen
+manager: jmartens
 ms.workload:
   - "data-storage"
 ---

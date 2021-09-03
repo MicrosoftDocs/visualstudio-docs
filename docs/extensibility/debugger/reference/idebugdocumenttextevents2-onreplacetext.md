@@ -1,20 +1,22 @@
 ---
-title: "IDebugDocumentTextEvents2::onReplaceText | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Notifies the debug package that text has been replaced in the document."
+title: IDebugDocumentTextEvents2::onReplaceText | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugDocumentTextEvents2::OnReplaceText"
+- IDebugDocumentTextEvents2::OnReplaceText
 helpviewer_keywords:
-  - "IDebugDocumentTextEvents2::onReplaceText"
+- IDebugDocumentTextEvents2::onReplaceText
 ms.assetid: cb39f025-66d8-4dc0-bef6-1bdc8e07db92
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugDocumentTextEvents2::onReplaceText
 Notifies the debug package that text has been replaced in the document.

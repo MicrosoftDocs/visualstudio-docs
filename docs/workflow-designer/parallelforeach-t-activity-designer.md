@@ -1,13 +1,16 @@
 ---
-title: "Workflow Designer - ParallelForEach&lt;T&gt; Activity Designer"
+title: ParallelForEach&lt;T&gt; Activity Designer
+description: In Workflow Designer, learn how the ParallelForEach <T> activity enumerates the elements of a collection and executes an embedded statement for each element of the collection in parallel.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
   - "System.Activities.Statements.ParallelForEach`1.UI"
 ms.assetid: e93a4843-aef2-4d3e-9a0a-a2d3d1411aa7
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
+ms.technology: vs-workflow-designer
 ms.workload:
   - "multiple"
 ---

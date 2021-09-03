@@ -1,7 +1,8 @@
 ---
+description: "Opens a session for querying symbols."
 title: "IDiaDataSource::openSession | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,8 @@ helpviewer_keywords:
 ms.assetid: a3319ed0-3979-483b-9852-c0af96852c48
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -54,7 +56,7 @@ if (FAILED(hr))
 }
 ```
 
-## See Also
+## See also
 - [IDiaDataSource](../../debugger/debug-interface-access/idiadatasource.md)
 - [Overview](../../debugger/debug-interface-access/overview-debug-interface-access-sdk.md)
 - [IDiaSession](../../debugger/debug-interface-access/idiasession.md)

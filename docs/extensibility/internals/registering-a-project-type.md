@@ -1,17 +1,20 @@
 ---
-title: "Registering a Project Type | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Registering a Project Type | Microsoft Docs
+description: Learn about creating registry entries that enable Visual Studio to recognize and work with your new project type.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "projects [Visual Studio SDK], new project registry entries"
-  - "registry, new project types"
-  - "registration, new project types"
+- projects [Visual Studio SDK], new project registry entries
+- registry, new project types
+- registration, new project types
 ms.assetid: dfc0e231-6b4e-447d-9d64-0e66dea3394a
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Registering a Project Type
 When you create a new project type, you must create registry entries that enable [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] to recognize and work with your project type. You typically create these registry entries by using a registry script (.rgs) file.
@@ -23,7 +26,7 @@ When you create a new project type, you must create registry entries that enable
 
  The following examples are from HKEY_CLASSES_ROOT.
 
-## Example
+## Example 1
 
 ```
 \.figp
@@ -52,7 +55,7 @@ When you create a new project type, you must create registry entries that enable
 
  The following examples are from HKEY_LOCAL_MACHINE and are located in the registry under the key [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\99.0Exp\Packages].
 
-## Example
+## Example 2
 
 ```
 \{ACEF4EB2-57CF-11D2-96F4-000000000000} (The CLSID for the VSPackage)
@@ -89,7 +92,7 @@ When you create a new project type, you must create registry entries that enable
 
  All the following examples are located in the registry under the key [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\9.0Exp\Projects].
 
-## Example
+## Example 3
 
 ```
 \{C061DB26-5833-11D2-96F5-000000000000} (The CLSID for projects of this type)
@@ -153,7 +156,7 @@ When you create a new project type, you must create registry entries that enable
 
  All the following examples are located in the registry under the key [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\9.0Exp\Projects].
 
-## Example
+## Example 4
 
 ```
 {FE3BBBB6-72D5-11d2-9ACE-00C04F79A2A4} (The CLSID for Enterprise Projects)
@@ -173,7 +176,7 @@ When you create a new project type, you must create registry entries that enable
 
  All the following examples are located in the registry under the key [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\9.0Exp\Projects].
 
-## Example
+## Example 5
 
 ```
 \{A2FE74E1-B743-11d0-AE1A-00A0C90FFFC3} (CLSID for Miscellaneous Files projects)
@@ -194,7 +197,7 @@ When you create a new project type, you must create registry entries that enable
 
  The following example is located in the registry under the key [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\9.0Exp\Menus].
 
-## Example
+## Example 6
 
 ```
 "{ACEF4EB2-57CF-11D2-96F4-000000000000}"=",1000,1"
@@ -258,7 +261,7 @@ When you create a new project type, you must create registry entries that enable
 
  That means if you include a PROJECT_TYPE=EF entry in the .vsz file, the environment finds your .vsz files in the ProductDir directory specified previously.
 
-## See Also
+## See also
 - [Checklist: Creating New Project Types](../../extensibility/internals/checklist-creating-new-project-types.md)
 - [Elements of a Project Model](../../extensibility/internals/elements-of-a-project-model.md)
 - [Creating Project Instances By Using Project Factories](../../extensibility/internals/creating-project-instances-by-using-project-factories.md)

@@ -1,21 +1,22 @@
 ---
 title: Visual Studio Desktop Express workload and component IDs
-titleSuffix: ""
-description: "Use workload and component IDs to install Visual Studio by using the command line or to specify as a dependency in a VSIX manifest"
-keywords:
-author: TerryGLee
-ms.author: tglee
-manager: jillfra
+titleSuffix: ''
+description: Use workload and component IDs to install Visual Studio by using the command line or to specify as a dependency in a VSIX manifest
+keywords: 
+author: anandmeg
+ms.author: meghaanand
+manager: jmartens
 ms.date: 11/13/2018
 ms.topic: reference
 helpviewer_keywords:
-  - "workload ID, Visual Studio"
-  - "component ID, Visual Studio"
-  - "install Visual Studio, administrator guide"
+- workload ID, Visual Studio
+- component ID, Visual Studio
+- install Visual Studio, administrator guide
 ms.assetid: a3c0cc76-e3ce-435c-a1af-a6318b5a4dbe
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
 monikerRange: vs-2017
+open_to_public_contributors: false
 ---
 # Visual Studio Desktop Express component directory
 

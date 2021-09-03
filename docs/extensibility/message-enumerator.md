@@ -1,16 +1,19 @@
 ---
-title: "Message Enumerator | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Message Enumerator | Microsoft Docs
+description: The members of this enumerator are used for the TEXTOUTPROC function, which is a callback function that the IDE provides when it calls the SccOpenProject.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: reference
 helpviewer_keywords:
-  - "message enumerator"
-  - "source control plug-ins, message enumeration"
+- message enumerator
+- source control plug-ins, message enumeration
 ms.assetid: 4a4faa0d-d352-40ea-a21d-c09ea286a8e1
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Message enumerator
 The following flags are used for the `TEXTOUTPROC` function, which is a callback function that the IDE provides when it calls the [SccOpenProject](../extensibility/sccopenproject-function.md) (see [LPTEXTOUTPROC](../extensibility/lptextoutproc.md) for details on the callback function).

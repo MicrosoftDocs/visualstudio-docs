@@ -1,16 +1,19 @@
 ---
-title: "Registering Interop Assembly Command Handlers | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Registering Interop Assembly Command Handlers | Microsoft Docs
+description: Learn about the basic command contract used by all VSPackages implementing commands using Interop assemblies.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "interop assemblies, command handlers"
-  - "command handling with interop assemblies, registering"
+- interop assemblies, command handlers
+- command handling with interop assemblies, registering
 ms.assetid: 303cd399-e29d-4ea1-8abe-5e0b59c12a0c
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Registering Interop Assembly Command Handlers
 A VSPackage must register with [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] so that the integrated development environment (IDE) routes its commands properly.
@@ -19,7 +22,7 @@ A VSPackage must register with [!INCLUDE[vsprvs](../../code-quality/includes/vsp
 
  The Managed Package Framework (MPF) provides this functionality through the <xref:Microsoft.VisualStudio.Shell.ProvideMenuResourceAttribute> class.
 
-- [Command Table Format Reference](https://msdn.microsoft.com/library/09e9c6ef-9863-48de-9483-d45b7b7c798f) resources are located in unmanaged satellite UI dlls.
+- [Command Table Format Reference](/previous-versions/bb164647(v=vs.100)) resources are located in unmanaged satellite UI dlls.
 
 ## Command Handler Registration of a VSPackage
  A VSPackage acting as a handler for user interface (UI)-based commands requires a registry entry named after the VSPackage `GUID`. This registry entry specifies the location of the VSPackage's UI resource file and the menu resource within that file. The registry entry itself is located under HKEY_LOCAL_MACHINE\Software\Microsoft\VisualStudio\\*\<Version>*\Menus, where *\<Version>* is the version of [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)], for example 9.0.
@@ -60,6 +63,6 @@ HKEY_LOCAL_MACHINE\Software\VisualStudio\9.0Exp\
     {1b027a40-8f43-11d0-8d11-00a0c91bc942} = , 10211, 3
 ```
 
-## See Also
+## See also
 - [How VSPackages Add User Interface Elements](../../extensibility/internals/how-vspackages-add-user-interface-elements.md)
 - [Commands and Menus That Use Interop Assemblies](../../extensibility/internals/commands-and-menus-that-use-interop-assemblies.md)

@@ -1,29 +1,32 @@
 ---
 title: General, Environment, Options Dialog Box
+description: Learn how to use the General page in the Environment section to change color themes, status bar settings, file extension associations, and more for the IDE.
+ms.custom: SEO-VS-2020
 ms.date: 07/26/2019
 ms.topic: reference
 f1_keywords:
-  - "VS.Environment.General"
-  - "VS.Message.0x800a002e"
-  - "VS.OptionsDialog.Environment"
-  - "VS.ToolsOptionsPages.Environment"
-  - "VS.ToolsOptionsPages.Environment.General"
+- VS.Environment.General
+- VS.Message.0x800a002e
+- VS.OptionsDialog.Environment
+- VS.ToolsOptionsPages.Environment
+- VS.ToolsOptionsPages.Environment.General
 helpviewer_keywords:
-  - "recently used file lists"
-  - "Windows menu, customizing"
-  - "status bar, displaying"
-  - "Options dialog box, General Environment"
-  - "General Environment Options dialog box"
-  - "Environment Options dialog box"
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+- recently used file lists
+- Windows menu, customizing
+- status bar, displaying
+- Options dialog box, General Environment
+- General Environment Options dialog box
+- Environment Options dialog box
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Options dialog box: Environment \> General
 
-Use this page to change color themes, status bar settings, and file extension associations, among other options, for the integrated development environment (IDE). You can access the **Options** dialog box by opening the **Tools** menu, choosing **Options**, opening the **Environment** folder and then choosing the **General** page. If this page does not appear in the list, select the **Show all settings** check box in the **Options** dialog box.
+Use this page to change color themes, status bar settings, and file extension associations, among other options, for the integrated development environment (IDE). You can access the **Options** dialog box by opening the **Tools** menu, choosing **Options**, opening the **Environment** folder and then choosing the **General** page.
 
 ## Visual Experience
 
@@ -56,7 +59,7 @@ Specifies whether Visual Studio sets the adjustment to the visual experience aut
 ::: moniker range="vs-2017"
 
 > [!TIP]
-> Windows 10 has a setting that says **Let Windows try to fix apps so they're not blurry**. Turning that setting **on** is recommended if Visual Studio appears blurry on your monitor. Consider upgrading to [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019), which has significantly improved display clarity because it is a per-monitor dots per inch aware application.
+> Windows 10 has a setting that says **Let Windows try to fix apps so they're not blurry**. Turning that setting **on** is recommended if Visual Studio appears blurry on your monitor. Consider upgrading to [Visual Studio 2019](https://visualstudio.microsoft.com/downloads), which has significantly improved display clarity because it is a per-monitor dots per inch aware application.
 
 ::: moniker-end
 

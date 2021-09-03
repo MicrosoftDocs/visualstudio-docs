@@ -1,18 +1,21 @@
 ---
 title: Go To Command
+description: Learn about the Go To command and how it moves the cursor to the specified line.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "edit.goto"
+- edit.goto
 helpviewer_keywords:
-  - "Debug.Goto command"
-  - "Go To command"
+- Debug.Goto command
+- Go To command
 ms.assetid: 201e1dd2-6701-467d-8cc1-faec2ef20511
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Go To Command
 Moves the cursor to the specified line.
@@ -40,7 +43,7 @@ The alias for this command is GoToLn.
 >Edit.GoTo 125
 ```
 
-## See Also
+## See also
 
 - [Visual Studio Commands](../../ide/reference/visual-studio-commands.md)
 - [Command Window](../../ide/reference/command-window.md)

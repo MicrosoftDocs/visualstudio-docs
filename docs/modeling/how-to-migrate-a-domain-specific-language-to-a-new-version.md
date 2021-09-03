@@ -1,10 +1,13 @@
 ---
-title: "How to: Migrate a Domain-Specific Language to a New Version"
+title: "How to: Migrate a Domain-Specific Language project"
+description: Provides information about how to migrate a domain-specific language project to a more recent version of Visual Studio.
 ms.date: 11/04/2016
-ms.topic: conceptual
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+ms.topic: how-to
+author: mgoertz-msft
+ms.author: mgoertz
+manager: jmartens
+ms.technology: vs-ide-modeling
+ms.custom: SEO-VS-2020
 ms.workload:
   - "multiple"
 ---
@@ -78,6 +81,6 @@ You can migrate projects that define and use domain-specific language to [!INCLU
 
 [!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]
 
-## See Also
+## See also
 
 - [Related blog posts](https://devblogs.microsoft.com/devops/the-visual-studio-modeling-sdk-is-now-available-with-visual-studio-2017/)

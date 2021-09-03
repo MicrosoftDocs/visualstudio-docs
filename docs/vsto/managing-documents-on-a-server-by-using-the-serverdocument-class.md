@@ -1,5 +1,8 @@
 ---
 title: "Manage documents on a server by using the ServerDocument class"
+description: Learn how you can use the ServerDocument class in the Visual Studio Tools for Office runtime to manage several aspects of document-level customizations.
+ms.custom: SEO-VS-2020
+titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -11,7 +14,8 @@ helpviewer_keywords:
   - "ServerDocument class, managing documents on server"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
+ms.technology: office-development
 ms.workload:
   - "office"
 ---
@@ -52,7 +56,7 @@ ms.workload:
 |Task|Member to use|
 |----------|-------------------|
 |To determine whether a document is part of a document-level customization.|The <xref:Microsoft.VisualStudio.Tools.Applications.ServerDocument.GetCustomizationVersion%2A> method.|
-|To programmatically attach a customization to a document at runtime.<br /><br /> For more information, see [How to: Attach managed code extensions to documents](../vsto/how-to-attach-managed-code-extensions-to-documents.md)|One of the <xref:Microsoft.VisualStudio.Tools.Applications.ServerDocument.AddCustomization%2A> methods.|
+|To programmatically attach a customization to a document at run time.<br /><br /> For more information, see [How to: Attach managed code extensions to documents](../vsto/how-to-attach-managed-code-extensions-to-documents.md)|One of the <xref:Microsoft.VisualStudio.Tools.Applications.ServerDocument.AddCustomization%2A> methods.|
 |To programmatically remove a customization from a document at run time.<br /><br /> For more information, see [How to: Remove managed code Extensions from documents](../vsto/how-to-remove-managed-code-extensions-from-documents.md).|The <xref:Microsoft.VisualStudio.Tools.Applications.ServerDocument.RemoveCustomization%2A> method.|
 |To get the URL of the deployment manifest that is associated with the document.|The <xref:Microsoft.VisualStudio.Tools.Applications.ServerDocument.DeploymentManifestUrl%2A> property.|
 

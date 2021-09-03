@@ -1,12 +1,15 @@
 ---
 title: Getting Started with Domain-Specific Languages
+description: Learn the basic concepts in defining and using a domain-specific language (DSL) created with the Modeling SDK for Visual Studio.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: mgoertz-msft
+ms.author: mgoertz
+manager: jmartens
+ms.technology: vs-ide-modeling
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Get Started with Domain-Specific Languages
 
@@ -15,7 +18,7 @@ This topic explains the basic concepts in defining and using a domain-specific l
 > [!NOTE]
 > The Text Template Transformation SDK and the Visual Studio Modeling SDK are installed automatically when you install specific features of Visual Studio. For more details, see [this blog post](https://devblogs.microsoft.com/devops/the-visual-studio-modeling-sdk-is-now-available-with-visual-studio-2017/).
 
-If you are new to DSLs, we recommend that you work through the **DSL Tools Lab**, which you can find in this site: [Visualization and Modeling SDK](http://go.microsoft.com/fwlink/?LinkID=186128)
+If you are new to DSLs, we recommend that you work through the **DSL Tools Lab**, which you can find in this site: [Visualization and Modeling SDK](https://code.msdn.microsoft.com/Visualization-and-Modeling-313535db)
 
 ## What can you do with a Domain-Specific Language?
 
@@ -35,10 +38,10 @@ The rest of this overview is a walkthrough that introduces the basic operations 
 
 To define a DSL, you must have installed the following components:
 
-| | |
+| Component | Link |
 |-|-|
-| Visual Studio | [http://go.microsoft.com/fwlink/?LinkId=185579](http://go.microsoft.com/fwlink/?LinkId=185579) |
-| [!INCLUDE[vssdk_current_short](../modeling/includes/vssdk_current_short_md.md)] | [http://go.microsoft.com/fwlink/?LinkId=185580](http://go.microsoft.com/fwlink/?LinkId=185580) |
+| Visual Studio | [http://go.microsoft.com/fwlink/?LinkId=185579](https://visualstudio.microsoft.com) |
+| [!INCLUDE[vssdk_current_short](../modeling/includes/vssdk_current_short_md.md)] | [https://go.microsoft.com/fwlink/?linkid=2166172](../extensibility/visual-studio-sdk.md) |
 | Modeling SDK for Visual Studio | |
 
 [!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]

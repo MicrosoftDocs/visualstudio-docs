@@ -1,7 +1,9 @@
 ---
 title: "How to: Open Office solutions without running code"
+description: Learn how you can open a document or workbook that contains managed code extensions without running the assembly code.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: "how-to"
 dev_langs:
   - "VB"
   - "CSharp"
@@ -15,7 +17,8 @@ helpviewer_keywords:
   - "documents [Office development in Visual Studio], opening without running code"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
+ms.technology: office-development
 ms.workload:
   - "office"
 ---

@@ -1,19 +1,23 @@
 ---
-title: "How to: Configure Noise Reduction in Report Views | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-f1_keywords:
-  - "vs.performance.noisereduction.dialog"
-helpviewer_keywords:
-  - "profiling tools, trimming"
-  - "profiling tools, report noise reduction"
-  - "profiling tools, folding"
+title: Configure Noise Reduction in Report Views | Microsoft Docs
+description: Use trimming and folding, both enabled by default, to reduce noise and make performance problems more prominent in your reports.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
+f1_keywords: 
+  - vs.performance.noisereduction.dialog
+helpviewer_keywords: 
+  - profiling tools, trimming
+  - profiling tools, report noise reduction
+  - profiling tools, folding
 ms.assetid: b07e0375-bb73-47e3-8d1d-b9b492fb16c9
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
-ms.workload:
-  - "multiple"
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.technology: vs-ide-debug
+monikerRange: 'vs-2017'
+ms.workload: 
+  - multiple
 ---
 # How to: Configure noise reduction in report views
 Performance reports can be configured for noise reduction by limiting the amount of data that is presented in the Call Tree view and the Allocation view. By using noise reduction, performance problems are more prominent. This is useful when you analyze performance reports.

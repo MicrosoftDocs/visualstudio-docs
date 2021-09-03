@@ -1,21 +1,24 @@
 ---
-title: "Registering a Custom Debug Engine | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Registering a Custom Debug Engine | Microsoft Docs
+description: Learn how the debug engine registers itself as a class factory, following COM conventions, as well as registering with Visual Studio through the registry.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "debug engines, registering"
+- debug engines, registering
 ms.assetid: 9984cd3d-d34f-4662-9ace-31766499abf5
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Register a custom debug engine
 The debug engine must register itself as a class factory, following COM conventions as well as register with Visual Studio through the Visual Studio registry subkey.
 
 > [!NOTE]
-> You can find an example of how to register a debug engine in the TextInterpreter sample, which is built as part of the [Tutorial: Building a debug engine using ATL COM](https://msdn.microsoft.com/library/9097b71e-1fe7-48f7-bc00-009e25940c24).
+> You can find an example of how to register a debug engine in the TextInterpreter sample, which is built as part of the [Tutorial: Building a debug engine using ATL COM](/previous-versions/bb147024(v=vs.90)).
 
 ## DLL server process
  A debug engine is typically set up in its own DLL as a COM server. As such, the debug engine must register the CLSID of its class factory with COM before Visual Studio can access it. Then, the debug engine must register itself with Visual Studio to establish any properties (otherwise known as metrics) the debug engine supports. The choice of metrics written to the Visual Studio registry subkey depends on the features the debug engine supports.
@@ -45,4 +48,4 @@ HRESULT CTextInterpreterModule::RegisterServer(BOOL bRegTypeLib, const CLSID * p
 ## See also
 - [Creating a custom debug engine](../../extensibility/debugger/creating-a-custom-debug-engine.md)
 - [SDK helpers for debugging](../../extensibility/debugger/reference/sdk-helpers-for-debugging.md)
-- [Tutorial: Building a debug engine using ATL COM](https://msdn.microsoft.com/library/9097b71e-1fe7-48f7-bc00-009e25940c24)
+- [Tutorial: Building a debug engine using ATL COM](/previous-versions/bb147024(v=vs.90))

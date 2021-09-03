@@ -1,7 +1,9 @@
 ---
 title: "How to: Customize a SharePoint Feature | Microsoft Docs"
+description: Customize SharePoint features in Visual Studio. The Feature Designer opens when you add a new feature in Solution Explorer or the SharePoint Package Explorer.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: how-to
 f1_keywords:
   - "VS.SharePointTools.RAD.FeatureDesigner.SwitchView"
   - "VS.SharePointTools.RAD.featureDesigner.Manifest"
@@ -13,7 +15,8 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, features"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
+ms.technology: sharepoint-development
 ms.workload:
   - "office"
 ---

@@ -1,17 +1,20 @@
 ---
 title: Configuring Warnings in Visual Basic
+description: Learn about how you can configure warnings in Visual Basic which, in turn, will help you write cleaner, faster, better code with fewer bugs.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "errors [Visual Basic], warnings"
-  - "run-time errors, warnings"
-  - "warnings, configuring"
+- errors [Visual Basic], warnings
+- run-time errors, warnings
+- warnings, configuring
 ms.assetid: 99cf4781-bd4d-47b4-91b9-217933509f82
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: ghogen
+ms.author: ghogen
+manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Configuring warnings in Visual Basic
 

@@ -1,20 +1,22 @@
 ---
-title: "IDebugBreakpointRequest3::GetRequestInfo2 | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "This method gets the breakpoint request information that describes this breakpoint request."
+title: IDebugBreakpointRequest3::GetRequestInfo2 | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugBreakpointRequest3::GetRequestInfo2"
+- IDebugBreakpointRequest3::GetRequestInfo2
 helpviewer_keywords:
-  - "IDebugBreakpointRequest3::GetRequestInfo2"
+- IDebugBreakpointRequest3::GetRequestInfo2
 ms.assetid: 33942e4a-0a0a-49e8-a693-004954f6d38a
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugBreakpointRequest3::GetRequestInfo2
 This method gets the breakpoint request information that describes this breakpoint request.

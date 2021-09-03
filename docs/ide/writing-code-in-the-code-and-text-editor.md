@@ -1,19 +1,22 @@
 ---
 title: Code editor features
+description: Learn about the features that the code editor in Visual Studio provides to make it easier for you to write and manage your code and text.
+ms.custom: SEO-VS-2020
 ms.date: 02/23/2018
 ms.topic: conceptual
 helpviewer_keywords:
-  - "code, editing [Visual Studio]"
-  - "code editor [Visual Studio]"
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+- code, editing [Visual Studio]
+- code editor [Visual Studio]
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Features of the code editor
 
-The Visual Studio editor provides many features that make it easier for you to write and manage your code and text. You can expand and collapse different blocks of code by using outlining. You can learn more about the code by using IntelliSense, the **Object Browser**, and the Call Hierarchy. You can find code by using features such as **Go To**, **Go To Definition**, and **Find All References**. You can insert blocks of code with code snippets, and you can generate code by using features such as **Generate From Usage**. If you have never used the Visual Studio editor before, see [Edit your code](https://visualstudio.microsoft.com/vs/features/ide/) for a quick overview.
+The Visual Studio editor provides many features that make it easier for you to write and manage your code and text. You can expand and collapse different blocks of code by using outlining. You can learn more about the code by using IntelliSense, the **Object Browser**, and the Call Hierarchy. You can find code by using features such as **Go To**, **Go To Definition**, and **Find All References**. You can insert blocks of code with code snippets, and you can generate code by using features such as **Generate From Usage**. If you have never used the Visual Studio editor before, see [Learn to use the code editor](../get-started/tutorial-editor.md).
 
 > [!NOTE]
 > This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Source editor (Visual Studio for Mac)](/visualstudio/mac/source-editor).
@@ -26,7 +29,7 @@ The different Visual Studio languages offer different sets of features, and in s
 
 ## Editor features
 
-|||
+|Feature|Description|
 |-|-|
 |Syntax Coloring|Some syntax elements of code and markup files are colored differently to distinguish them. For example, keywords (such as `using` in C# and `Imports` in Visual Basic) are one color, but types (such as `Console` and `Uri`) are another color. Other syntax elements are also colorized, such as string literals and comments. C++ uses color to differentiate among types, enumerations, and macros, among other tokens.<br /><br /> You can see the default color for each type, and you can change the color for any specific syntax element in the [Fonts and Colors, Environment, Options dialog box](../ide/reference/fonts-and-colors-environment-options-dialog-box.md), which you can open from the **Tools** menu.|
 |Error and Warning Marks|As you add code and build your solution, you may see (a) different-colored wavy underlines (known as squiggles) or (b) light bulbs appearing in your code. Red squiggles denote syntax errors, blue denotes compiler errors, green denotes warnings, and purple denotes other types of errors. [Quick Actions](../ide/quick-actions.md) suggest fixes for problems and make it easy to apply the fix.<br /><br /> You can see the default color for each error and warning squiggle in the **Tools** > **Options** > **Environment** > **Fonts and Colors** dialog box. Look for **Syntax Error**, **Compiler Error**, **Warning**, and **Other Error**.|
@@ -44,7 +47,7 @@ The different Visual Studio languages offer different sets of features, and in s
 
 You can find a number of advanced features on the **Edit** > **Advanced** menu on the toolbar. Not all of these features are available for all types of code files.
 
-|||
+|Feature|Description|
 |-|-|
 |Format Document|Sets the proper indentation of lines of code and moves curly braces to separate lines in the document.|
 |Format Selection|Sets the proper indentation of lines of code and moves curly braces to separate lines in the selection.|
@@ -84,6 +87,6 @@ For JavaScript-specific editor options, see [JavaScript editor options](../ide/r
 
 - [Source editor (Visual Studio for Mac)](/visualstudio/mac/source-editor)
 - [Visual Studio IDE](../get-started/visual-studio-ide.md)
-- [Get started with C++ in Visual Studio](../ide/getting-started-with-cpp-in-visual-studio.md)
+- [Get started with C++ in Visual Studio](/cpp/get-started/tutorial-console-cpp)
 - [Get started with C# and ASP.NET in Visual Studio](../get-started/csharp/tutorial-aspnet-core.md)
 - [Get started with Python in Visual Studio](../ide/quickstart-python.md)

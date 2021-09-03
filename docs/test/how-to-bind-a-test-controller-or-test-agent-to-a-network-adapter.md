@@ -1,16 +1,19 @@
 ---
-title: "Bind a Test Controller or Test Agent to a Network Adapter"
+title: Bind test controller/test agent to a network adapter
+description: Learn how to bind a test controller or test agent to a network adapter by using an IP address, in case it is installed for multiple network adapters.
+ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
-ms.topic: conceptual
-helpviewer_keywords:
-  - "controllers, netwrok adapter"
-  - "agents, configuring"
-  - "agents, network adapter"
-  - "controllers, configuring"
+ms.topic: how-to
+helpviewer_keywords: 
+  - controllers, netwrok adapter
+  - agents, configuring
+  - agents, network adapter
+  - controllers, configuring
 ms.assetid: 7eb9290a-f9f6-4e41-9caa-796fcfaf0610
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.technology: vs-ide-test
 ---
 # How to: Bind a test controller or test agent to a network adapter
 

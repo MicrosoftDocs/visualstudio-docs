@@ -1,7 +1,8 @@
 ---
+description: "Retrieves the offset part of the contribution's address."
 title: "IDiaSectionContrib::get_addressOffset | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,8 @@ helpviewer_keywords:
 ms.assetid: 4d569323-0e11-456d-9f92-a218bf292ecf
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -32,5 +34,5 @@ HRESULT get_addressOffset ( 
 ## Return Value
  If successful, returns `S_OK`. Returns `S_FALSE` if this property is not supported. Otherwise, returns an error code.
 
-## See Also
+## See also
 - [IDiaSectionContrib](../../debugger/debug-interface-access/idiasectioncontrib.md)

@@ -1,13 +1,16 @@
 ---
-title: "How to: Export a Texture that Contains Mipmaps"
+title: 'How to: Export a Texture that Contains Mipmaps'
+description: Learn how the Image Content Pipeline generates mipmaps from a source image as part of building your project, which ensures that mipmaps never become out-of-sync.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 ms.assetid: 3d1ad14b-44fb-4cf0-a995-5e2f60026524
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
+ms.technology: vs-ide-designers
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Export a texture that contains mipmaps
 

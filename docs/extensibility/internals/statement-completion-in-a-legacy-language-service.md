@@ -1,16 +1,19 @@
 ---
-title: "Statement Completion in a Legacy Language Service | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Statement Completion in a Legacy Language Service | Microsoft Docs
+description: Learn how statement completion works and how to implement it in your legacy language service in a VSPackage.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "statement completion"
-  - "language services, statement completion"
+- statement completion
+- language services, statement completion
 ms.assetid: 617439dc-3f0e-4e5f-b346-3e4e7fcf3c1b
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Statement Completion in a Legacy Language Service
 Statement completion is the process by which the language service helps users finish a language keyword or element that they have started typing in the core editor. This topic discusses how statement completion works and how to implement it in your language service.
@@ -30,5 +33,5 @@ Statement completion is the process by which the language service helps users fi
 
  When the trigger is entered in the editor — specifically, the text buffer — your language service then calls the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView.UpdateCompletionStatus%2A> method. This causes the editor to bring up the UI so that the user can choose from the statement completion candidates. This method requires you to implement <xref:Microsoft.VisualStudio.TextManager.Interop.IVsCompletionSet> and the <xref:Microsoft.VisualStudio.TextManager.Interop.UpdateCompletionFlags> flags as parameters. The list of completion items appears in a scrolling list box. As the user continues typing, the selection within the list box is updated to reflect the closest match to the most recent characters typed. The core editor implements the UI for statement completion, but the language service must implement the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsCompletionSet> interface to define a set of candidate completion items for the statement.
 
-## See Also
+## See also
 - [Intercepting Legacy Language Service Commands](../../extensibility/internals/intercepting-legacy-language-service-commands.md)

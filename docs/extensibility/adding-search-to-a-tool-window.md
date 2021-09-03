@@ -1,15 +1,18 @@
 ---
-title: "Adding Search to a Tool Window | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Adding Search to a Tool Window | Microsoft Docs
+description: Learn how to add search functionality, including a search box, filtering, and a progress indicator, to a tool window in Visual Studio.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
 helpviewer_keywords:
-  - "tool windows, adding search"
+- tool windows, adding search
 ms.assetid: f78c4892-8060-49c4-8ecd-4360f1b4d133
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Add search to a tool window
 When you create or update a tool window in your extension, you can add the same search functionality that appears elsewhere in Visual Studio. This functionality includes the following features:
@@ -59,7 +62,7 @@ By following this walkthrough, you'll learn how to perform the following tasks:
     </StackPanel>
     ```
 
-3. In the *TestSearchControl.xaml.cs* file, add the following using statement:
+3. In the *TestSearchControl.xaml.cs* file, add the following using directive:
 
     ```csharp
     using System.Text;
@@ -71,8 +74,8 @@ By following this walkthrough, you'll learn how to perform the following tasks:
 
      This code adds a public <xref:System.Windows.Controls.TextBox> property  named **SearchResultsTextBox** and a public string property named **SearchContent**. In the constructor, SearchResultsTextBox is set to the text box, and SearchContent is initialized to a newline-delimited set of strings. The content of the text box is also initialized to the set of strings.
 
-     [!code-csharp[ToolWindowSearch#1](../extensibility/codesnippet/CSharp/adding-search-to-a-tool-window_1.cs)]
-     [!code-vb[ToolWindowSearch#1](../extensibility/codesnippet/VisualBasic/adding-search-to-a-tool-window_1.vb)]
+     :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/toolwindowsearch/cs/mycontrol.xaml.cs" id="Snippet1":::
+     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/toolwindowsearch/vb/mycontrol.xaml.vb" id="Snippet1":::
 
 5. Build the project and start debugging. The experimental instance of Visual Studio appears.
 
@@ -102,7 +105,7 @@ By following this walkthrough, you'll learn how to perform the following tasks:
 ## To add the search implementation
  When you enable search on a <xref:Microsoft.VisualStudio.Shell.ToolWindowPane>, as in the previous procedure, the tool window creates a search host. This host sets up and manages search processes, which always occur on a background thread. Because the <xref:Microsoft.VisualStudio.Shell.ToolWindowPane> class manages the creation of the search host and the setting up of the search, you need only create a search task and provide the search method. The search process occurs on a background thread, and calls to the tool window control occur on the UI thread. Therefore, you must use the [ThreadHelper.Invoke*](https://msdn.microsoft.com/data/ee197798(v=vs.85)) method to manage any calls that you make in dealing with the control.
 
-1. In the *TestSearch.cs* file, add the following `using` statements:
+1. In the *TestSearch.cs* file, add the following `using` directives:
 
     ```csharp
     using System;

@@ -1,13 +1,16 @@
 ---
-title: "WaitStart | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: WaitStart | Microsoft Docs
+description: Learn that the WaitStart option causes the VSPerfCmd.exe Start sub-command to return only when the profiler has initialized or when the specified number of seconds has passed.
+ms.date: 11/04/2016
+ms.topic: reference
 ms.assetid: 6c737177-2dfb-4150-963e-a49ac9aaa591
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
-ms.workload:
-  - "multiple"
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.technology: vs-ide-debug
+monikerRange: 'vs-2017'
+ms.workload: 
+  - multiple
 ---
 # WaitStart
 The WaitStart option causes the *VSPerfCmd.exe* Start sub-command to return only when the profiler has initialized or when the specified number of seconds has passed. By default, the Start command returns immediately. If the Start sub command returns without initializing the profiler, an error is returned. If the number of seconds is not specified, the Start command waits indefinitely.
@@ -17,7 +20,7 @@ The WaitStart option causes the *VSPerfCmd.exe* Start sub-command to return only
 ## Syntax
 
 ```cmd
-VSPerfCmd.exe /Start:Method /Output:FileName[Options] /StartWait[:Seconds]
+VSPerfCmd.exe /Start:Method /Output:FileName[Options] /WaitStart[:Seconds]
 ```
 
 #### Parameters

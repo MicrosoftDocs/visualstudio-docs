@@ -1,14 +1,13 @@
 ---
 title: "Create an ASP.NET Core web app in C#"
 description: "Learn how to create a simple Hello World web app in Visual Studio with C# and ASP.NET Core, step-by-step."
-ms.custom: "mvc,seodec18"
-ms.date: 06/06/2019
-ms.technology: vs-ide-general
-ms.prod: visual-studio-windows
+ms.custom: "vs-acquisition"
+ms.date: 11/06/2019
 ms.topic: quickstart
-author: TerryGLee
-ms.author: tglee
-manager: jillfra
+author: anandmeg
+ms.author: meghaanand
+manager: jmartens
+ms.technology: vs-ide-general
 dev_langs:
   - CSharp
 ms.workload:
@@ -31,7 +30,13 @@ If you haven't already installed Visual Studio, go to the [Visual Studio downloa
 
 ::: moniker range="vs-2019"
 
-If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019) page to install it for free.
+If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads) page to install it for free.
+
+::: moniker-end
+
+::: moniker range="vs-2022"
+
+If you haven't already installed Visual Studio 2022 Preview, go to the [Visual Studio 2022 Preview downloads](https://visualstudio.microsoft.com/vs/preview/vs2022) page to install it for free.
 
 ::: moniker-end
 
@@ -75,48 +80,54 @@ Soon after, Visual Studio opens your project file.
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
-1. Open Visual Studio.
+1. In the start window, choose **Create a new project**.
 
-1. On the start window, choose **Create a new project**.
+   :::image type="content" source="../get-started/media/vs-2019/create-new-project-dark-theme.png" alt-text="View the 'Create a new project' window":::
 
-   ![View the 'Create a new project' window](../get-started/media/vs-2019/create-new-project-dark-theme.png)
+1. In the **Create a new project** window, choose **C#** from the Language list. Next, choose **Windows** from the Platform list, and **Web** from the project types list.
 
-1. On the **Create a new project** window, enter or type *ASP.NET* in the search box. Next, choose **C#** from the Language list, and then choose **Windows** from the Platform list.
+      After you apply the language, platform, and project type filters, choose the **ASP.NET Core Web App** template, and then choose **Next**.
 
-   After you apply the language and platform filters, choose the **ASP.NET Core Web Application** template, and then choose **Next**.
-
-   ![Choose the C# template for the ASP.NET Core Web Application](../get-started/csharp/media/vs-2019/csharp-create-new-project-search-aspnet-core-filtered.png)
+   :::image type="content" source="../get-started/csharp/media/vs-2019/csharp-create-new-project-aspnet-core.png" alt-text="Choose the C# template for the ASP.NET Core Web App":::
 
    > [!NOTE]
-   > If you do not see the **ASP.NET Core Web Application** template, you can install it from the **Create a new project** window. In the **Not finding what you're looking for?** message, choose the **Install more tools and features** link.
+   > If you don't see the **ASP.NET Core Web App** template, you can install it from the **Create a new project** window. In the **Not finding what you're looking for?** message, choose the **Install more tools and features** link.
    >
    > ![The 'Install more tools and features' link from the 'Not finding what you're looking for' message in the 'Create new project' window](../get-started/media/vs-2019/not-finding-what-looking-for.png)
    >
    > Then, in the Visual Studio Installer, choose the **ASP.NET and web development** workload.
    >
-   > ![ASP.NET Core Web Application workload in the Visual Studio Installer](../get-started/media/aspnet-core-web-dev-workload.png)
+   > ![.NET Core cross-platform development workload in the Visual Studio Installer](../get-started/media/aspnet-core-web-dev-workload.png)
    >
-   > After that, choose the **Modify** button in the Visual Studio Installer. You might be prompted to save your work; if so, do so. Next, choose **Continue** to install the workload. Then, return to step 2 in this "[Create a project](#create-a-project)" procedure.
+   > After that, choose the **Modify** button in the Visual Studio Installer. If you're prompted to save your work, do so. Next, choose **Continue** to install the workload. Then, return to step 2 in this "[Create a project](#create-a-project)" procedure.
 
-1. In the **Configure your new project** window, type or enter *HelloWorld* in the **Project name** box. Then, choose **Create**.
+1. In the **Configure your new project** window, type or enter *HelloWorld* in the **Project name** box. Then, choose **Next**.
 
-   ![in the 'Configure your new project' window, name your project 'HelloWorld'](../get-started/csharp/media/vs-2019/csharp-name-your-aspnet-helloworld-project.png)
+    :::image type="content" source="../get-started/csharp/media/vs-2019/csharp-name-your-aspnet-helloworld-project.png" alt-text="in the 'Configure your new project' window, name your project 'MyCoreApp'":::
 
-1. In the **Create a new ASP.NET Core Web Application** window, verify that **ASP.NET Core 2.1** appears in the top drop-down menu. Then, choose **Web Application**, which includes example Razor Pages. Next, choose  **Create**.
+1. In the **Additional information** window, verify that **.NET Core 3.1** appears in the top drop-down menu. Note that you can choose to enable Docker support by checking the box. You can also add authentication support by clicking the change Authentication button. From there you can choose from:
+    - None: no authentication.
+    - Individual accounts: these are stored in a local or Azure-based database.
+    - Microsoft identity platform: this option uses Active Directory, Azure AD, or Microsoft 365 for authentication.
+    - Windows: suitable for intranet applications.
+    
+    Leave the **Enable Docker** box unchecked, and select **None** for Authentication Type. Then, select **Create**.
 
-   ![The 'Create a new ASP.NET Core Web Application' window](../get-started/csharp/media/vs-2019/csharp-create-aspnet-core-razor-pages-app.png)
+   :::image type="content" source="../get-started/csharp/media/vs-2019/aspnet-core-additional-information.png" alt-text="in the 'Additional information' window, make sure .NET Core 3.1 is selected and leave all defaults":::
 
-   Visual Studio opens your new project.
+   Visual Studio will open up your new project.
 
 ::: moniker-end
 
 ## Create and run the app
 
+::: moniker range="vs-2017"
+
 1. In the **Solution Explorer**, expand the **Pages** folder, and then choose **About.cshtml**.
 
-   ![Choose the About.cshtml file from the Solution Explorer](../ide/media/csharp-aspnet-about-page-html-file.png)
+   ![Screenshot of Visual Studio Solution Explorer showing the files in the HelloWorld project. The Pages folder is expanded and About.cshtml is selected.](../ide/media/csharp-aspnet-about-page-html-file.png)
 
    This file corresponds to a page that's named **About** in the web app, which runs in a web browser.
 
@@ -132,7 +143,7 @@ Soon after, Visual Studio opens your project file.
 
 1. In the **Solution Explorer**, expand **About.cshtml**, and then choose **About.cshtml.cs**. (This file also corresponds with the **About** page in a web browser.)
 
-   ![Choose the About.cshtml file from the Solution Explorer](../ide/media/csharp-aspnet-about-page-code-file.png)
+   ![Screenshot of Visual Studio Solution Explorer showing the files in the HelloWorld project. About.cshtml is expanded and About.cshtml.cs is selected.](../ide/media/csharp-aspnet-about-page-code-file.png)
 
    In the editor, you'll see C# code that includes text for the "application description" area of the **About** page.
 
@@ -163,12 +174,52 @@ View the following animation to check the work that you completed in the previou
 
 Congratulations on completing this Quickstart! We hope you learned a little bit about C#, ASP.NET Core, and the Visual Studio IDE (integrated development environment).
 
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+1. In the **Solution Explorer**, expand the **Pages** folder, and then choose **Index.cshtml**.
+
+   ![Choose the Index.cshtml file from the Solution Explorer](../ide/media/vs-2019/csharp-aspnet-index-page-cshtml-file.png)
+
+   This file corresponds to a page that's named **Home** in the web app, which runs in a web browser.
+
+   ![The About page in the web app](../ide/media/vs-2019/csharp-aspnet-index-page.png)
+
+   In the editor, you'll see HTML code for the text that appears on the **Home** page.
+
+   ![The HTML code in the Index.cshtml file for the Home page in the Visual Studio editor](../ide/media/vs-2019/csharp-aspnet-index-cshtml-page.png)
+
+1. Change the "Welcome" text to read "**Hello World!**".
+
+   ![In the Visual Studio editor, change the default HTML code that says Welcome to say Hello World instead](../ide/media/vs-2019/csharp-aspnet-index-cshtml-page-hello-world.png)
+
+1. Choose **IIS Express** or press **Ctrl**+**F5** to run the app and open it in a web browser.
+
+   ![Select the IIS Express button in Visual Studio](../ide/media/vs-2019/csharp-aspnet-generic-iisbutton.png)
+
+   > [!NOTE]
+   > If you get an error message that says, **Unable to connect to web server 'IIS Express'**, or an error message that mentions an SSL certificate, close Visual Studio. Next, open Visual Studio by using the **Run as administrator** option from the right-click context menu. Then, run the application again.
+
+1. In the web browser, verify that the **Home** page includes your updated text.
+
+   ![View the updated Home page that includes the changes you made](../ide/media/vs-2019/csharp-aspnet-index-page-hello-world.png)
+
+1. Close the web browser.
+
+::: moniker-end
+
 ## Next steps
 
-To learn more, continue with the following tutorial:
+To learn more about creating ASP.NET web apps, continue with the following tutorial:
 
 > [!div class="nextstepaction"]
 > [Get started with C# and ASP.NET in Visual Studio](../get-started/csharp/tutorial-aspnet-core.md)
+
+Or, learn how to containerize your web app with Docker:
+
+> [!div class="nextstepaction"]
+> [Container Tools in Visual Studio](../containers/overview.md)
 
 ## See also
 

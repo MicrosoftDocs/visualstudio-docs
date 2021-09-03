@@ -1,20 +1,22 @@
 ---
-title: "PARSEFLAGS | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Specifies how to parse an expression."
+title: PARSEFLAGS | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "PARSEFLAGS"
+- PARSEFLAGS
 helpviewer_keywords:
-  - "PARSEFLAGS enumeration"
+- PARSEFLAGS enumeration
 ms.assetid: 47943f0a-54cb-4493-a62e-5dba97bd4c35
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # PARSEFLAGS
 Specifies how to parse an expression.

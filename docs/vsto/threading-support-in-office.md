@@ -1,5 +1,7 @@
 ---
 title: "Threading support in Office"
+description: Threading is supported in the Microsoft Office object model. The Office object model isn't thread safe, but can work with multiple threads in an Office solution.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -12,7 +14,8 @@ helpviewer_keywords:
   - "object models [Office development in Visual Studio], threading support"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
+ms.technology: office-development
 ms.workload:
   - "office"
 ---
@@ -57,8 +60,8 @@ ms.workload:
 ## Start the thread correctly
  When you create a new STA thread, set the apartment state to STA before you start the thread. The following code example demonstrates how to do this.
 
- [!code-csharp[Trin_VstcoreCreatingExcel#5](../vsto/codesnippet/CSharp/Trin_VstcoreCreatingExcelCS/ThisWorkbook.cs#5)]
- [!code-vb[Trin_VstcoreCreatingExcel#5](../vsto/codesnippet/VisualBasic/Trin_VstcoreCreatingExcelVB/ThisWorkbook.vb#5)]
+ :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreCreatingExcelCS/ThisWorkbook.cs" id="Snippet5":::
+ :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreCreatingExcelVB/ThisWorkbook.vb" id="Snippet5":::
 
  For more information, see [Managed threading best practices](/dotnet/standard/threading/managed-threading-best-practices).
 

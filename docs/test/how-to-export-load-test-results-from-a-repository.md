@@ -1,16 +1,19 @@
 ---
-title: "Export Load Test Results"
+title: Export Load Test Results
+description: Learn how to export information from the Load Test Results Repository by using the Open and Manage Load Test Results dialog box.
+ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
-ms.topic: conceptual
-helpviewer_keywords:
-  - "results, load test"
-  - "load tests, exporting results"
-  - "Load Test Results Repository"
-  - "load test results, exporting"
+ms.topic: how-to
+helpviewer_keywords: 
+  - results, load test
+  - load tests, exporting results
+  - Load Test Results Repository
+  - load test results, exporting
 ms.assetid: 716c2af5-8737-4d31-956f-a0273f7c5c0c
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.technology: vs-ide-test
 ---
 # How to: Export load test results from a repository
 

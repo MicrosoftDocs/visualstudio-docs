@@ -1,11 +1,14 @@
 ---
 title: "16bpp Render Target Format Variant | Microsoft Docs"
+description: Apply the 16 bits per pixel (bpp) render target format variant by setting the pixel format to DXGI_FORMAT_B5G6R5_UNORM for all render targets and back buffers.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 ms.assetid: 24b22ad9-5ad0-4161-809a-9b518eb924bf
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -20,7 +23,7 @@ Sets the pixel format to DXGI_FORMAT_B5G6R5_UNORM for all render targets and bac
 A 16-bpp render target format can reduce memory band with usage when your application has the following conditions:
 - Doesn't require high-fidelity color reproduction.
 - Doesn't require an alpha channel.
-- Doesn't ofent have smooth gradients (which are susceptible to banding artifacts under reduced color fidelity).
+- Doesn't often have smooth gradients (which are susceptible to banding artifacts under reduced color fidelity).
 
 Other strategies to reduce memory bandwidth include:
 - Reduce the amount of overdraw or alpha-blending.

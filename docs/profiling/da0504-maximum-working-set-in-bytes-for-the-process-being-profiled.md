@@ -1,21 +1,24 @@
 ---
-title: "DA0504: Maximum Working Set in Bytes for the Process being profiled | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-f1_keywords:
-  - "vs.performance.DA0504"
-  - "vs.performance.504"
-  - "vs.performance.rules.DA0504"
+title: DA0504 - Maximum Working Set in Bytes for the Process being profiled | Microsoft Docs
+description: "This message reports the maximum amount of physical memory, in bytes, that the process is currently using."
+ms.date: 11/04/2016
+ms.topic: reference
+f1_keywords: 
+  - vs.performance.DA0504
+  - vs.performance.504
+  - vs.performance.rules.DA0504
 ms.assetid: 36e71603-ece7-4000-85fc-9da4eed61bf2
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
-ms.workload:
-  - "multiple"
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.technology: vs-ide-debug
+monikerRange: 'vs-2017'
+ms.workload: 
+  - multiple
 ---
 # DA0504: Maximum Working Set in Bytes for the Process being profiled
 
-|||
+|Item|Value|
 |-|-|
 |Rule Id|DA0504|
 |Category|Resource Management|
@@ -30,7 +33,7 @@ ms.workload:
 
  The value reported includes resident pages from shared memory segments that the process has referenced. Shared DLLs that the process references are included in the shared memory segments that are counted. The value of the process Working Set can be higher than the amount of virtual memory that the process has allocated because of shared memory segments.
 
- The size of the process working set reflects how much virtual memory the process is actively using. It is also affected by the amount of physical memory (or RAM) available to run the application and contention for that physical memory from other running processes. For more information about process working sets, see [Working Set](http://go.microsoft.com/fwlink/?LinkId=177830) in the Windows Memory Management documentation of MSDN.
+ The size of the process working set reflects how much virtual memory the process is actively using. It is also affected by the amount of physical memory (or RAM) available to run the application and contention for that physical memory from other running processes. For more information about process working sets, see [Working Set](/windows/win32/memory/working-set) in the Windows Memory Management documentation of MSDN.
 
 ## How to Use Rule Data
  The rule gathers this measurement data from the Windows performance monitoring facility and reports it for information only. Use it to compare the performance of different versions or builds of the program or to understand the performance of the application under different test scenarios.

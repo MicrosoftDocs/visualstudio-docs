@@ -1,16 +1,19 @@
 ---
-title: "Create a Web Performance Test Plug-In"
+title: Create a Web Performance Test Plug-In
+description: Learn how web performance test plug-ins enable you to reuse code outside the main declarative statements in your web performance test.
+ms.custom: SEO-VS-2020
 ms.date: 10/03/2016
-ms.topic: conceptual
-f1_keywords:
-  - "vs.test.web.webtestplugin"
-helpviewer_keywords:
-  - "Web performance tests, creating plug-ins"
-  - "plug-ins, creating in Web performance tests"
+ms.topic: how-to
+f1_keywords: 
+  - vs.test.web.webtestplugin
+helpviewer_keywords: 
+  - Web performance tests, creating plug-ins
+  - plug-ins, creating in Web performance tests
 ms.assetid: a612f2d2-9806-477d-a126-12842f07da6e
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.technology: vs-ide-test
 ---
 # How to: Create a web performance test plug-in
 

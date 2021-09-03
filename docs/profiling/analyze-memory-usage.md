@@ -1,22 +1,31 @@
 ---
 title: "Analyze memory usage"
-ms.custom: "seodec18"
-ms.date: "01/02/2018"
+description: Learn about the tools you can use to find memory leaks and inefficient memory usage, tools such as the Memory Usage tool and the .NET Object Allocation tool.
+ms.custom: "SEO-VS-2020"
+ms.date: "10/12/2020"
 ms.topic: "conceptual"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
 # Analyze memory usage
-Use the debugger-integrated **Memory Usage** diagnostic tool to find memory leaks and inefficient memory usage. The Memory Usage tool lets you take one or more *snapshots* of the managed and native memory heap. You can collect snapshots of .NET, ASP.NET, native, or mixed mode (.NET and native) apps.
 
-- You can analyze a single snapshot to understand the relative impact of the object types on memory use, and to find code in your app that uses memory inefficiently.
+To find memory leaks and inefficient memory usage, you can use tools such as the debugger-integrated Memory Usage diagnostic tool or tools in the Performance Profiler such as the .NET Object Allocation tool and the post-mortem Memory Usage tool.
 
-- You can also compare (diff) two snapshots of an app to find areas in your code that cause the memory use to increase over time.
+The Memory Usage tool lets you take one or more *snapshots* of the managed and native memory heap. You can collect snapshots of .NET, ASP.NET, C++, or mixed mode (.NET and native) apps. The **Memory Usage** tool can run on an open Visual Studio project, on an installed Microsoft Store app, or attached to a running app or process. You can run the **Memory Usage** tool with or without debugging. For more information, see [Run profiling tools with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md). In the debugger, you can turn memory profiling on and off, and see a per-object breakdown of memory usage. You can view memory usage results when execution is paused, for example at a breakpoint.
 
-For detailed instructions, see the [Analyze memory usage](../profiling/memory-usage.md) tutorial.  Currently, to measure memory usage for a .NET Core app, you need to use the tool with the debugger attached. For other managed and native apps, you can use the tool either with or without the debugger attached.
+.NET developers may choose between either the .NET Object Allocation tool or the [Memory usage](../profiling/memory-usage.md) tool.
+
+- The [.NET Object Allocation tool](../profiling/dotnet-alloc-tool.md) helps you identify allocation patterns and anomalies in your .NET code, and helps identify common issues with garbage collection. This tool runs only as a post-mortem tool. You can run this tool on local or remote machines.
+- The [Memory Usage tool](../profiling/memory-usage-without-debugging2.md) is helpful in identifying memory leaks, which are not typically common in .NET apps. If you need to use debugger features while checking memory, such as stepping through code, the [debugger-integrated Memory usage](../profiling/memory-usage.md) tool is recommended.
+
+C++ developers can use either the debugger-integrated or non-debugger Memory Usage tool.
+
+- [Analyze memory usage with the debugger](../profiling/memory-usage.md)
+- [Analyze memory usage without the debugger](../profiling/memory-usage-without-debugging2.md)
 
 You can use the profiling tools without the debugger with Windows 7 and later. Windows 8 and later is required to run profiling tools with the debugger (**Diagnostic Tools** window).
 
@@ -28,5 +37,5 @@ You can use the profiling tools without the debugger with Windows 7 and later. W
 
 ## See also
 
-- [Profiling in Visual Studio](../profiling/index.md)
+- [Profiling in Visual Studio](../profiling/index.yml)
 - [First look at profiling tools](../profiling/profiling-feature-tour.md)

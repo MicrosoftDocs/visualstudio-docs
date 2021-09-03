@@ -1,22 +1,25 @@
 ---
-title: "DA0014: Extremely high rates of paging active memory to disk | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-f1_keywords:
-  - "vs.performance.rules.DAMemoryBound"
-  - "vs.performance.DA0014"
-  - "vs.performance.14"
-  - "vs.performance.rules.DA0014"
+title: DA0014 - Extremely high rates of paging active memory to disk | Microsoft Docs
+description: "System performance data that was collected in the profiling run indicates that an extremely high rate of paging active memory to and from the disk occurred throughout the profiling run."
+ms.date: 11/04/2016
+ms.topic: reference
+f1_keywords: 
+  - vs.performance.rules.DAMemoryBound
+  - vs.performance.DA0014
+  - vs.performance.14
+  - vs.performance.rules.DA0014
 ms.assetid: a7fa3749-9191-437a-9331-9d917181e62f
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
-ms.workload:
-  - "multiple"
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.technology: vs-ide-debug
+monikerRange: 'vs-2017'
+ms.workload: 
+  - multiple
 ---
 # DA0014: Extremely high rates of paging active memory to disk
 
-|||
+|Item|Value|
 |-|-|
 |Rule Id|DA0014|
 |Category|Memory and Paging|

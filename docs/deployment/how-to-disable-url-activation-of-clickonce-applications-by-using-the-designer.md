@@ -1,21 +1,24 @@
 ---
-title: "Disable URL activation of ClickOnce apps using Designer"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-helpviewer_keywords:
-  - "disallowURLActivation"
-  - "URL activation, ClickOnce applications"
-  - "ClickOnce deployment, URL activation"
+title: Disable URL activation of ClickOnce apps using Designer
+description: Learn how to disable automatic start on install for a ClickOnce application using Visual Studio, so that users must start the application from the Start menu.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
+dev_langs: 
+  - VB
+  - CSharp
+  - C++
+helpviewer_keywords: 
+  - disallowURLActivation
+  - URL activation, ClickOnce applications
+  - ClickOnce deployment, URL activation
 ms.assetid: a337a582-e67c-409a-b52e-607cd1a8fc57
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
-ms.workload:
-  - "multiple"
+manager: jmartens
+ms.technology: vs-ide-deployment
+ms.workload: 
+  - multiple
 ---
 # How to: Disable URL activation of ClickOnce applications by using the Designer
 Typically, a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application will start automatically immediately after it is installed from a Web server. For security reasons, you may decide to disable this behavior, and tell users to start the application from the **Start** menu instead. The following procedure describes how to disable URL activation.

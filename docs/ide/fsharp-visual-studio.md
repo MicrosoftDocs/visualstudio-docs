@@ -4,12 +4,15 @@ description: Learn which features of Visual Studio are supported in F#.
 ms.date: 07/11/2018
 ms.topic: reference
 helpviewer_keywords:
-  - "F# features [Visual Studio]"
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+- F# features [Visual Studio]
+f1_keywords:
+- fs.ProjectPropertiesDebug
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
-  - "dotnet"
+- dotnet
 ---
 # Develop with Visual F# in Visual Studio
 
@@ -140,7 +143,7 @@ The following table summarizes features that are available when you debug F# cod
 |Step Into|Enables you to advance execution and move into any function call.|Yes|
 |Step Over|Enables you to advance execution in the current stack frame and move past any function call.|Yes|
 
-For general information about the Visual Studio debugger, see [Debugging in Visual Studio](../debugger/index.md).
+For general information about the Visual Studio debugger, see [Debugging in Visual Studio](../debugger/index.yml).
 
 ## Additional tools
 

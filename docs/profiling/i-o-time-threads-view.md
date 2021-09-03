@@ -1,5 +1,6 @@
 ---
 title: "I-O Time (Threads View) | Microsoft Docs"
+description: Learn how I/O time segments are associated with blocking times that are categorized as I/O which means that a thread is waiting for an I/O operation to finish.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:
@@ -9,7 +10,8 @@ helpviewer_keywords:
 ms.assetid: 0c4ec14d-d8dd-49c1-999c-dcbf4e8e1dc8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---

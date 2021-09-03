@@ -1,17 +1,20 @@
 ---
-title: Code analysis for managed code
+title: Legacy analysis for managed code
 ms.date: 06/12/2019
+description: Learn about legacy analysis in Visual Studio. See how to suppress warnings and how to run analyses manually, automatically, and during check-ins and builds.
+ms.custom: SEO-VS-2020
 ms.topic: conceptual
 helpviewer_keywords:
   - "code analysis, managed code"
   - "managed code, code analysis"
 author: mikadumont
 ms.author: midumont
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-code-analysis
 ms.workload:
   - "dotnet"
 ---
-# Overview of code analysis for managed code in Visual Studio
+# Overview of legacy analysis for managed code in Visual Studio
 
 Visual Studio can perform code analysis of managed code in two ways: with [legacy analysis](../code-quality/walkthrough-analyzing-managed-code-for-code-defects.md), also known as FxCop static analysis of managed assemblies, and with the more modern .NET Compiler Platform-based [code analyzers](../code-quality/roslyn-analyzers-overview.md). This topic covers legacy analysis. To learn more about .NET Compiler Platform-based code analysis, see [Overview of .NET Compiler Platform-based analyzers](../code-quality/roslyn-analyzers-overview.md).
 
@@ -26,7 +29,7 @@ The analysis tool represents the checks it performs during an analysis as warnin
 
 You can run code analysis on your project manually or automatically.
 
-To run code analysis each time that you build a project, select **Enable Code Analysis on Build** on the project's Property Page. For more information, see [How to: Enable and Disable Automatic Code Analysis](../code-quality/how-to-enable-and-disable-automatic-code-analysis-for-managed-code.md).
+To run code analysis each time that you build a project, select the option on the project's **Code Analysis** property page. For more information, see [How to: Enable and Disable Automatic Code Analysis](../code-quality/how-to-enable-and-disable-automatic-code-analysis-for-managed-code.md).
 
 To run code analysis manually on a project, from the menu bar choose **Analyze** > **Run Code Analysis** > **Run Code Analysis on \<project>**.
 
@@ -50,8 +53,21 @@ Public class MyClass
 
 For more information, see [Suppress warnings](../code-quality/in-source-suppression-overview.md).
 
+::: moniker range="vs-2017"
+
 > [!NOTE]
-> If you migrate a project to Visual Studio 2017 or Visual Studio 2019, you might suddenly be faced with a large number of code analysis warnings. If you aren't ready to fix the warnings and want to become productive right away, you can *baseline* the analysis state of your project. From the **Analyze** menu, select **Run Code Analysis and Suppress Active Issues**.
+> If you migrate a project to Visual Studio 2017, you might suddenly be faced with a large number of code analysis warnings. If you aren't ready to fix the warnings, you can suppress all of them by choosing **Analyze** > **Run Code Analysis and Suppress Active Issues**.
+>
+> ![Run code analysis and suppress issues in Visual Studio](media/suppress-active-issues.png)
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+> [!NOTE]
+> If you migrate a project to Visual Studio 2019, you might suddenly be faced with a large number of code analysis warnings. If you aren't ready to fix the warnings, you can suppress all of them by choosing **Analyze** > **Build and Suppress Active Issues**.
+
+::: moniker-end
 
 ## Run code analysis as part of check-in policy
 
@@ -65,7 +81,7 @@ You can accomplish this by specifying check-in policies. For more information, s
 
 ## Team build integration
 
-You can use the integrated features of the build system to run the analysis tool as part of the build process. For more information, see [Azure Pipelines](/azure/devops/pipelines/index?view=vsts).
+You can use the integrated features of the build system to run the analysis tool as part of the build process. For more information, see [Azure Pipelines](/azure/devops/pipelines/index?view=vsts&preserve-view=true).
 
 ## See also
 

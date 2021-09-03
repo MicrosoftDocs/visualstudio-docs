@@ -1,5 +1,7 @@
 ---
 title: "Messages View | Microsoft Docs"
+description: Each window, thread, and process has an associated message stream that can be viewed in a Messages View window. Learn how to open and control a Messages View.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:
@@ -9,7 +11,8 @@ helpviewer_keywords:
 ms.assetid: 14c2a786-c23a-4b2d-acad-8c32a856c70d
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---

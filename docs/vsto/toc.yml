@@ -57,7 +57,7 @@
         - name: Updating Excel and Word Projects
           href: updating-excel-and-word-projects-that-you-migrate-to-the-dotnet-framework-4-or-the-dotnet-framework-4-5.md
         - name: Updating Ribbon Customizations in Office Projects
-          href: /visualstudio/vsto/update-ribbon-customizations-in-office-projects-to-migrate-to-dotnet-framework-4-or-4-5
+          href: ./update-ribbon-customizations-in-office-projects-to-migrate-to-dotnet-framework-4-or-4-5.md
         - name: Updating Form Regions in Outlook Projects
           href: updating-form-regions-in-outlook-projects-that-you-migrate-to-the-dotnet-framework-4-or-the-dotnet-framework-4-5.md
     - name: Architecture of Office Solutions in Visual Studio
@@ -851,6 +851,8 @@
         href: deploying-an-office-solution-by-using-clickonce.md
       - name: Deploying an Office Solution by Using Windows Installer
         href: deploying-an-office-solution-by-using-windows-installer.md
+      - name: Deploying an Office Solution by Using Visual Studio Setup Projects
+        href: deploying-a-vsto-solution-by-using-windows-installer.md
       - name: Troubleshooting Office Solution Deployment
 # Auto-expanded node
         items:

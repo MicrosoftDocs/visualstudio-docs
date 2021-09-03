@@ -1,18 +1,21 @@
 ---
-title: "VSPerfCLREnv | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-helpviewer_keywords:
-  - "command-line tools, VSPerfCLREnv"
-  - "command line, tools"
-  - "performance tools, VSPerfCLREnv"
-  - "profiling tools,VSPerfCLREnv"
-  - "VSPerfCLREnv tool"
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
-ms.workload:
-  - "multiple"
+title: VSPerfCLREnv | Microsoft Docs
+description: Learn how the VSPerfCLREnv tool is used to set environment variables that are required to profile a .NET Framework application.
+ms.date: 11/04/2016
+ms.topic: reference
+helpviewer_keywords: 
+  - command-line tools, VSPerfCLREnv
+  - command line, tools
+  - performance tools, VSPerfCLREnv
+  - profiling tools,VSPerfCLREnv
+  - VSPerfCLREnv tool
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.technology: vs-ide-debug
+monikerRange: 'vs-2017'
+ms.workload: 
+  - multiple
 ---
 # VSPerfCLREnv
 

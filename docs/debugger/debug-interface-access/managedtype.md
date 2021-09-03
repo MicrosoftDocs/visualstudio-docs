@@ -1,7 +1,8 @@
 ---
+description: "A managed type (any symbol defined by metadata, or native to the memory and resource management functionality of languages such as C#) is identified by a SymTagManagedType symbol."
 title: "ManagedType | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -11,7 +12,8 @@ helpviewer_keywords:
 ms.assetid: 5db99e2a-4f2e-4796-89b7-b401b151826f
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "dotnet"
 ---
@@ -27,5 +29,5 @@ A managed type (any symbol defined by metadata, or native to the memory and reso
 |[IDiaSymbol::get_symIndexId](../../debugger/debug-interface-access/idiasymbol-get-symindexid.md)|`DWORD`|Index ID of symbol.|
 |[IDiaSymbol::get_symTag](../../debugger/debug-interface-access/idiasymbol-get-symtag.md)|`DWORD`|Returns `SymTagManagedType` (one of the [SymTagEnum Enumeration](../../debugger/debug-interface-access/symtagenum.md) values).|
 
-## See Also
+## See also
 - [Class Hierarchy of Symbol Types](../../debugger/debug-interface-access/class-hierarchy-of-symbol-types.md)

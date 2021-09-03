@@ -1,26 +1,31 @@
 ---
-title: "ResolveManifestFiles Task | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
+title: ResolveManifestFiles Task | Microsoft Docs
+description: Learn how MSBuild uses the ResolveManifestFiles task to resolve items in the build process to files for manifest generation.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: reference
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+- VB
+- CSharp
+- C++
+- jsharp
 helpviewer_keywords:
-  - "ResolveManifestFiles task [MSBuild]"
-  - "MSBuild, ResolveManifestFiles task"
+- ResolveManifestFiles task [MSBuild]
+- MSBuild, ResolveManifestFiles task
 ms.assetid: e1e14f67-9b69-433f-94d4-a783a68676b2
-author: mikejo5000
-ms.author: mikejo
-manager: jillfra
+author: ghogen
+ms.author: ghogen
+manager: jmartens
+ms.technology: msbuild
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # ResolveManifestFiles task
+
 Resolves the following items in the build process to files for manifest generation: built items, dependencies, satellites, content, debug symbols, and documentation.
 
 ## Parameters
+
  The following table describes the parameters of the `ResolveManifestFiles` task.
 
 |Parameter|Description|
@@ -41,8 +46,10 @@ Resolves the following items in the build process to files for manifest generati
 |`TargetFrameworkVersion`|Optional `String` parameter.<br /><br /> Specifies the target .NET Framework version.|
 
 ## Remarks
+
  In addition to having the parameters that are listed in the table, this task inherits parameters from the <xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension base class](../msbuild/taskextension-base-class.md).
 
 ## See also
+
 - [Tasks](../msbuild/msbuild-tasks.md)
 - [Task reference](../msbuild/msbuild-task-reference.md)

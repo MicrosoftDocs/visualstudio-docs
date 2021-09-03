@@ -1,13 +1,15 @@
 ---
+description: "Given a corresponding tag value, this method returns an enumeration of symbols that are contained in a specified parent Accelerator stub function at a specified relative virtual address."
 title: "IDiaSession::findSymbolsByRVAForAcceleratorPointerTag | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 ms.assetid: a073cc45-0c7b-417e-b5fc-a3b08beccdbc
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -48,7 +50,7 @@ HRESULT findSymbolsByRVAForAcceleratorPointerTag ( 
 ## Remarks
  Call this method only on an `IDiaSymbol` interface that corresponds to an Accelerator stub function.
 
-## See Also
+## See also
 - [IDiaSession](../../debugger/debug-interface-access/idiasession.md)
 - [IDiaEnumSymbols](../../debugger/debug-interface-access/idiaenumsymbols.md)
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

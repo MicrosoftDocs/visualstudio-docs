@@ -1,25 +1,28 @@
 ---
-title: "DA0013: High usage of String.Split or String.Substring | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-f1_keywords:
-  - "vs.performance.13"
-  - "vs.performance.rules.DAAvoidStringSubstr"
-  - "vs.performance.DA0013"
-  - "vs.performance.rules.DA0013"
-helpviewer_keywords:
-  - "vs.performance.13"
-  - "vs.performance.rules.DA0013"
+title: DA0013 - High usage of String.Split or String.Substring | Microsoft Docs
+description: "Calls to the System.String.Split or System.String.Substring methods are a significant portion of the profiling data."
+ms.date: 11/04/2016
+ms.topic: reference
+f1_keywords: 
+  - vs.performance.13
+  - vs.performance.rules.DAAvoidStringSubstr
+  - vs.performance.DA0013
+  - vs.performance.rules.DA0013
+helpviewer_keywords: 
+  - vs.performance.13
+  - vs.performance.rules.DA0013
 ms.assetid: f501f423-bef9-4e08-bf96-c9ac9957e5a2
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
-ms.workload:
-  - "multiple"
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.technology: vs-ide-debug
+monikerRange: 'vs-2017'
+ms.workload: 
+  - multiple
 ---
 # DA0013: High usage of String.Split or String.Substring
 
-|||
+|Item|Value|
 |-|-|
 |Rule Id|DA0013|
 |Category|.NET Framework Usage Guidance|

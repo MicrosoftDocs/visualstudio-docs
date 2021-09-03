@@ -1,7 +1,8 @@
 ---
+description: "Retrieves the variable classification of a data symbol."
 title: "IDiaSymbol::get_dataKind | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,8 @@ helpviewer_keywords:
 ms.assetid: 45005ad0-8b29-4cde-9d33-6bef72f6e463
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -42,6 +44,6 @@ HRESULT get_dataKind ( 
 |Header:|dia2.h|
 |Version:|DIA SDK v7.0|
 
-## See Also
+## See also
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
 - [DataKind Enumeration](../../debugger/debug-interface-access/datakind.md)

@@ -1,17 +1,20 @@
 ---
-title: "Symbol Provider Interfaces | Microsoft Docs"
-ms.date: "11/04/2016"
+title: Symbol Provider Interfaces | Microsoft Docs
+description: This article links to descriptions for the Symbol Handling Interfaces for the Visual Studio SDK, which evaluate variables in a call stack during break mode.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "interfaces, symbol handler"
-  - "symbol handler, interfaces"
-  - "symbol handler, evaluating variables"
+- interfaces, symbol handler
+- symbol handler, interfaces
+- symbol handler, evaluating variables
 ms.assetid: 4201f10e-c9f7-4b38-bb45-40fe0082d5bf
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Symbol Provider Interfaces
 The following are the Symbol Handling Interfaces for the [!INCLUDE[vsipsdk](../../../extensibility/includes/vsipsdk_md.md)].

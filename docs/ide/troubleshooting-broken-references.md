@@ -1,18 +1,21 @@
 ---
 title: Troubleshoot broken references
+description: Learn how to troubleshoot broken references that might be caused by something other than your application's inability to find the referenced component.
+ms.custom: SEO-VS-2020
 ms.date: 03/21/2017
 ms.topic: troubleshooting
 helpviewer_keywords:
-  - "C# projects, references"
-  - "Visual Basic projects, references"
-  - "troubleshooting references"
-  - "referencing files from projects"
-  - "referencing components, troubleshooting"
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+- C# projects, references
+- Visual Basic projects, references
+- troubleshooting references
+- referencing files from projects
+- referencing components, troubleshooting
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Troubleshoot broken references
 

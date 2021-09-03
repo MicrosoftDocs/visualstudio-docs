@@ -1,19 +1,21 @@
 ---
-title: "IDebugExpressionEvaluator2::GetService | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Retrieves a service object given its unique identifier."
+title: IDebugExpressionEvaluator2::GetService | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "IDebugExpressionEvaluator2::GetService"
-  - "GetService"
+- IDebugExpressionEvaluator2::GetService
+- GetService
 ms.assetid: f8988a9e-9d18-42af-84a7-55f41e9adf63
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugExpressionEvaluator2::GetService
 Retrieves a service object given its unique identifier.

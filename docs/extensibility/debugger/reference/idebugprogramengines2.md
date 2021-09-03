@@ -1,17 +1,19 @@
 ---
-title: "IDebugProgramEngines2 | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "This interface is used by program nodes to specify all the possible debug engines (DE) that can debug this program."
+title: IDebugProgramEngines2 | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugProgramEngines2"
+- IDebugProgramEngines2
 helpviewer_keywords:
-  - "IDebugProgramEngines2 interface"
+- IDebugProgramEngines2 interface
 ms.assetid: 53d648f0-6c11-4337-badd-c43f3872b62c
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IDebugProgramEngines2
 This interface is used by program nodes to specify all the possible debug engines (DE) that can debug this program.

@@ -1,18 +1,21 @@
 ---
 title: Find in Files Command
+description: Learn about the Find command and how it searches files using some of the options available on the Find in Files tab of the Find and Replace window.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "edit.findinfiles"
+- edit.findinfiles
 helpviewer_keywords:
-  - "Edit.FindInFiles command"
-  - "find in files command"
+- Edit.FindInFiles command
+- find in files command
 ms.assetid: 2fc78bfe-b339-4599-97f9-4cafd8a194d9
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Find in Files Command
 Search files using a subset of the options available on the **Find in Files** tab of the **Find and Replace** window.
@@ -78,7 +81,7 @@ This example searches for btnCancel in all .cls files located in the folder "My 
 >Edit.FindinFiles btnCancel /lookin:"c:/My Visual Studio Projects" /ext:*.cls /text2
 ```
 
-## See Also
+## See also
 
 - [Find in Files](../../ide/find-in-files.md)
 - [Command Window](../../ide/reference/command-window.md)

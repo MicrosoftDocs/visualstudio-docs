@@ -1,42 +1,46 @@
 ---
-title: "Item Element (MSBuild) | Microsoft Docs"
-ms.date: "03/13/2017"
-ms.topic: "reference"
+title: Item Element (MSBuild) | Microsoft Docs
+description: Learn how MSBuild uses the Item element to contain a user-defined item and its metadata. Every item must be a child of an ItemGroup element.
+ms.custom: SEO-VS-2020
+ms.date: 03/13/2017
+ms.topic: reference
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+- VB
+- CSharp
+- C++
+- jsharp
 helpviewer_keywords:
-  - "Item Element [MSBuild]"
-  - "<Item> Element [MSBuild]"
+- Item Element [MSBuild]
+- <Item> Element [MSBuild]
 ms.assetid: dcef5f91-0613-4bfc-8ee9-d7004bb6d3a9
-author: mikejo5000
-ms.author: mikejo
-manager: jillfra
+author: ghogen
+ms.author: ghogen
+manager: jmartens
+ms.technology: msbuild
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Item element (MSBuild)
-Contains a user-defined item and its metadata. Every item that is used in a [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] project must be specified as a child of an `ItemGroup` element.
 
-\<Project>
-\<ItemGroup>
-\<Item>
+Contains a user-defined item and its metadata. Every item that is used in an MSBuild project must be specified as a child of an `ItemGroup` element.
+
+\<Project>\
+&nbsp;\<ItemGroup>\
+&nbsp;&nbsp;\<Item>
 
 ## Syntax
 
 ```xml
 <Item Include="*.cs"
         Exclude="MyFile.cs"
-        Remove="RemoveFile.cs"
-        Condition="'String A'=='String B'" >
+        Condition="'String A'=='String B'">
     <ItemMetadata1>...</ItemMetadata1>
     <ItemMetadata2>...</ItemMetadata2>
 </Item>
 ```
 
 ## Specify metadata as attributes
+
 In MSBuild 15.1 or later, any metadata with a name that doesn't conflict with the current list of attributes can optionally be expressed as an attribute.
 
 For example, to specify a list of NuGet packages, you would normally use something like the following syntax.
@@ -58,6 +62,7 @@ Now, however, you can pass the `Version` metadata as an attribute, such as in th
 ```
 
 ## Attributes and elements
+
  The following sections describe attributes, child elements, and parent elements.
 
 ### Attributes
@@ -71,7 +76,7 @@ Now, however, you can pass the `Version` metadata as an attribute, such as in th
 |`KeepDuplicates`|Optional attribute.<br /><br /> Specifies whether an item should be added to the target group if it's an exact duplicate of an existing item. If the source and target item have the same `Include` value but different metadata, the item is added even if `KeepDuplicates` is set to `false`. For more information, see [Items](../msbuild/msbuild-items.md).<br /><br /> This attribute is valid only if it's specified for an item in an `ItemGroup` that's in a `Target`.|
 |`KeepMetadata`|Optional attribute.<br /><br /> The metadata for the source items to add to the target items. Only the metadata whose names are specified in the semicolon-delimited list are transferred from a source item to a target item. For more information, see [Items](../msbuild/msbuild-items.md).<br /><br /> This attribute is valid only if it's specified for an item in an `ItemGroup` that's in a `Target`.|
 |`RemoveMetadata`|Optional attribute.<br /><br /> The metadata for the source items to not transfer to the target items. All metadata is transferred from a source item to a target item except metadata whose names are contained in the semicolon-delimited list of names. For more information, see [Items](../msbuild/msbuild-items.md).<br /><br /> This attribute is valid only if it's specified for an item in an `ItemGroup` that's in a `Target`.|
-|`Update`|Optional attribute. (Available only for .NET Core projects in Visual Studio 2017 or later.)<br /><br /> Enables you to modify metadata of a file that was included by using a glob.<br /><br /> This attribute is valid only if it's specified for an item in an `ItemGroup` that is not in a `Target`.|
+|`Update`|Optional attribute. (Available only for .NET Core projects in Visual Studio 2017 or later.)<br /><br /> Enables you to modify metadata of an item; typically used to override the default metadata of specific items after a group of items is intially specified (such as with a wildcard).<br /><br /> This attribute is valid only if it's specified for an item in an `ItemGroup` that is not in a `Target`.|
 
 ### Child elements
 
@@ -86,13 +91,15 @@ Now, however, you can pass the `Version` metadata as an attribute, such as in th
 |[ItemGroup](../msbuild/itemgroup-element-msbuild.md)|Grouping element for items.|
 
 ## Remarks
+
 `Item` elements define inputs into the build system, and are grouped into item collections based on their user-defined collection names. These item collections can be used as parameters for [tasks](../msbuild/msbuild-tasks.md), which use the individual items in the collections to perform the steps of the build process. For more information, see [Items](../msbuild/msbuild-items.md).
 
 Using the notation @(\<myType>) enables a collection of items of type \<myType> to be expanded into a semicolon-delimited list of strings, and passed to a parameter. If the parameter is of type `string`, then the value of the parameter is the list of elements, separated by semicolons. If the parameter is an array of strings (`string[]`), then each element is inserted into the array based on the location of the semicolons. If the task parameter is of type <xref:Microsoft.Build.Framework.ITaskItem>`[]`, then the value is the contents of the item collection together with any metadata attached. To delimit each item by using a character other than a semicolon, use the syntax @(\<myType>, '\<separator>').
 
-The [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] engine can evaluate wildcards such as `*` and `?` and recursive wildcards such as */\*\*/\*.cs*. For more information, see [Items](../msbuild/msbuild-items.md).
+The MSBuild engine can evaluate wildcards such as `*` and `?` and recursive wildcards such as */\*\*/\*.cs*. For more information, see [Items](../msbuild/msbuild-items.md).
 
 ## Examples
+
 The following code example shows how to declare two items of type `CSFile`. The second declared item contains metadata that has `MyMetadata` set to `HelloWorld`.
 
 ```xml
@@ -115,6 +122,7 @@ The following code example shows how to use the `Update` attribute to modify the
 ```
 
 ## See also
+
 - [Items](../msbuild/msbuild-items.md)
 - [Common MSBuild project items](../msbuild/common-msbuild-project-items.md)
 - [MSBuild properties](../msbuild/msbuild-properties.md)

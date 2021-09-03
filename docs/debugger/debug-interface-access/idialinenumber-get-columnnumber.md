@@ -1,7 +1,8 @@
 ---
+description: "Retrieves the column number where the expression or statement begins."
 title: "IDiaLineNumber::get_columnNumber | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,8 @@ helpviewer_keywords:
 ms.assetid: e317f29a-6525-46a7-8421-33985392f8fd
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -35,5 +37,5 @@ HRESULT get_columnNumber ( 
 ## Remarks
  The column value returned by this method is a byte offset into the line to the first character of the statement on the line.
 
-## See Also
+## See also
 - [IDiaLineNumber](../../debugger/debug-interface-access/idialinenumber.md)

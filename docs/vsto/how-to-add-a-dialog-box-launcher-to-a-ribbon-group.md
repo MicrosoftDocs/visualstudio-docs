@@ -1,7 +1,9 @@
 ---
 title: "How to: Add a Dialog box launcher to a Ribbon group"
+description: You can add a dialog box launcher to any group on a Ribbon that can open related dialog boxes or task panes that provide more options that relate to the group.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: "how-to"
 dev_langs:
   - "VB"
   - "CSharp"
@@ -10,7 +12,8 @@ helpviewer_keywords:
   - "Ribbon [Office development in Visual Studio], dialog box launcher"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
+ms.technology: office-development
 ms.workload:
   - "office"
 ---
@@ -31,7 +34,7 @@ ms.workload:
 
 ## See also
 - [Ribbon overview](../vsto/ribbon-overview.md)
-- [Access the Ribbon at runtime](../vsto/accessing-the-ribbon-at-run-time.md)
+- [Access the Ribbon at run time](../vsto/accessing-the-ribbon-at-run-time.md)
 - [Office development samples and walkthroughs](../vsto/office-development-samples-and-walkthroughs.md)
 - [Ribbon designer](../vsto/ribbon-designer.md)
 - [Ribbon object model overview](../vsto/ribbon-object-model-overview.md)
@@ -44,5 +47,5 @@ ms.workload:
 - [How to: Get started customizing the Ribbon](../vsto/how-to-get-started-customizing-the-ribbon.md)
 - [How to: Show Add-in user interface errors](../vsto/how-to-show-add-in-user-interface-errors.md)
 - [Walkthrough: Create a custom tab by using the Ribbon Designer](../vsto/walkthrough-creating-a-custom-tab-by-using-the-ribbon-designer.md)
-- [Walkthrough: Update the controls on a Ribbon at runtime](../vsto/walkthrough-updating-the-controls-on-a-ribbon-at-run-time.md)
+- [Walkthrough: Update the controls on a Ribbon at run time](../vsto/walkthrough-updating-the-controls-on-a-ribbon-at-run-time.md)
 - [Walkthrough: Create a custom tab by using Ribbon XML](../vsto/walkthrough-creating-a-custom-tab-by-using-ribbon-xml.md)

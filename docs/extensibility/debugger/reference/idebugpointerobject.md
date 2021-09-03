@@ -1,17 +1,19 @@
 ---
-title: "IDebugPointerObject | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "This interface represents a pointer object."
+title: IDebugPointerObject | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugPointerObject"
+- IDebugPointerObject
 helpviewer_keywords:
-  - "IDebugPointerObject interface"
+- IDebugPointerObject interface
 ms.assetid: 257fa167-b46e-4ffb-9a12-272efbf26702
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IDebugPointerObject
 > [!IMPORTANT]

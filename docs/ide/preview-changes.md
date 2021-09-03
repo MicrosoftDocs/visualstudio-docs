@@ -1,14 +1,17 @@
 ---
 title: Preview code changes
+description: Learn how to use the Preview Changes window to go over the modifications that are going to be made to your project before you accept them.
+ms.custom: SEO-VS-2020
 ms.date: 12/16/2016
 ms.topic: conceptual
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
+ms.technology: vs-ide-general
 f1_keywords:
-  - "vs.codefix.previewchanges"
+- vs.codefix.previewchanges
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Preview Changes window
 

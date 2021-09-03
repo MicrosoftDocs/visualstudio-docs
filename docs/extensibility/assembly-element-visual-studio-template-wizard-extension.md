@@ -1,19 +1,22 @@
 ---
-title: "Assembly Element (Visual Studio Template Wizard Extension) | Microsoft Docs"
-ms.date: "11/04/2016"
+title: Assembly Element (Visual Studio Template Wizard Extension)
+titleSuffix: ""
+description: Learn about the Assembly element and how it specifies the name or strong name of the assembly that implements the IWizard interface.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
 ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
-  - "http://schemas.microsoft.com/developer/vstemplate/2005#Assembly"
+- http://schemas.microsoft.com/developer/vstemplate/2005#Assembly
 helpviewer_keywords:
-  - "Assembly element [Visual Studio Template Wizard Extension]"
-  - "<Assembly> element [Visual Studio Template Wizard Extension]"
+- Assembly element [Visual Studio Template Wizard Extension]
+- <Assembly> element [Visual Studio Template Wizard Extension]
 ms.assetid: 0c3dc280-1753-4ea2-a13c-d31d13b935b2
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Assembly element (Visual Studio template wizard extension)
 Specifies the name or strong name of the assembly that implements the `IWizard` interface.
@@ -24,7 +27,7 @@ Specifies the name or strong name of the assembly that implements the `IWizard` 
 
 ## Syntax
 
-```
+```xml
 <Assembly>AssemblyName</Assembly>
 ```
 

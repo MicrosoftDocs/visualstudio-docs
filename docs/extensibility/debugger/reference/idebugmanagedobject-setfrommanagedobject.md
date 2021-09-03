@@ -1,20 +1,22 @@
 ---
-title: "IDebugManagedObject::SetFromManagedObject | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Sets the value of the instance of the value class object from the instance of the value class provided as a parameter."
+title: IDebugManagedObject::SetFromManagedObject | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugManagedObject::SetFromManagedObject"
+- IDebugManagedObject::SetFromManagedObject
 helpviewer_keywords:
-  - "IDebugManagedObject::SetFromManagedObject method"
+- IDebugManagedObject::SetFromManagedObject method
 ms.assetid: 8700ee8d-2704-4580-bccc-046837a24edd
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugManagedObject::SetFromManagedObject
 Sets the value of the instance of the value class object from the instance of the value class provided as a parameter.

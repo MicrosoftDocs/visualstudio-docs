@@ -1,17 +1,20 @@
 ---
 title: -Edit (devenv.exe)
+description: Learn how to use the Edit devenv command-line switch to open a specified file in an existing instance of Visual Studio.
+ms.custom: SEO-VS-2020
 ms.date: 12/10/2018
 ms.topic: reference
 helpviewer_keywords:
-  - "Edit Devenv switch"
-  - "Devenv, /Edit switch"
-  - "/Edit Devenv switch"
+- Edit Devenv switch
+- Devenv, /Edit switch
+- /Edit Devenv switch
 ms.assetid: 02b3d6e7-a2b1-4d83-a747-aa8c2fb758b7
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # /Edit (devenv.exe)
 

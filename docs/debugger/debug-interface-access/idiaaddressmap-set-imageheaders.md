@@ -1,7 +1,8 @@
 ---
+description: "Sets image headers to enable relative virtual address translation."
 title: "IDiaAddressMap::set_imageHeaders | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,8 @@ helpviewer_keywords:
 ms.assetid: a46b9d0e-43e6-433f-b2c7-aa203981e4e4
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -47,7 +49,7 @@ HRESULT set_imageHeaders ( 
 
  Relative virtual address calculations depend upon the `IMAGE_SECTION_HEADER` values. Usually, the DIA retrieves these from the program database (.pdb) file. If these values are missing, the DIA is unable to calculate relative virtual addresses and the [IDiaAddressMap::get_relativeVirtualAddressEnabled](../../debugger/debug-interface-access/idiaaddressmap-get-relativevirtualaddressenabled.md) method returns `FALSE`. The client must then call the [IDiaAddressMap::put_relativeVirtualAddressEnabled](../../debugger/debug-interface-access/idiaaddressmap-put-relativevirtualaddressenabled.md) method to enable the relative virtual address calculations after providing the missing image headers from the image itself.
 
-## See Also
+## See also
 - [IDiaAddressMap](../../debugger/debug-interface-access/idiaaddressmap.md)
 - [IDiaAddressMap::set_addressMap](../../debugger/debug-interface-access/idiaaddressmap-set-addressmap.md)
 - [IDiaAddressMap::get_relativeVirtualAddressEnabled](../../debugger/debug-interface-access/idiaaddressmap-get-relativevirtualaddressenabled.md)

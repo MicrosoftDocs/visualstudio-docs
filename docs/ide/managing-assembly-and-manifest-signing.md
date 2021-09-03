@@ -1,19 +1,21 @@
 ---
 title: Manage assembly and manifest signing
+description: Learn about the advantages of strong-name signing, which gives a software component a globally unique identity. 
+ms.custom: SEO-VS-2020
 ms.date: 02/17/2017
 ms.technology: vs-ide-deployment
 ms.topic: conceptual
 helpviewer_keywords:
-  - "manifests [Visual Studio]"
-  - "signing manifests [Visual Studio]"
-  - "application manifests [Visual Studio]"
-  - "assemblies [Visual Studio], signing"
+- manifests [Visual Studio]
+- signing manifests [Visual Studio]
+- application manifests [Visual Studio]
+- assemblies [Visual Studio], signing
 ms.assetid: 6c1ef36b-25f7-4ad0-b29a-51801b7a5420
-author: mikejo5000
-ms.author: mikejo
-manager: jillfra
+author: ghogen
+ms.author: ghogen
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Manage assembly and manifest signing
 
@@ -23,7 +25,7 @@ A strong name consists of the assembly's identity (simple text name, version num
 
 For information about signing assemblies in Visual Basic and C# projects, see [Create and use strong-named assemblies](/dotnet/framework/app-domains/create-and-use-strong-named-assemblies).
 
-For information about signing assemblies in Visual C++ projects, see [Strong-named assemblies (C++/CLI)](/cpp/dotnet/strong-name-assemblies-assembly-signing-cpp-cli).
+For information about signing assemblies in C++ projects, see [Strong-named assemblies (C++/CLI)](/cpp/dotnet/strong-name-assemblies-assembly-signing-cpp-cli).
 
 > [!NOTE]
 > Strong-name signing does not protect against reverse-engineering of the assembly. To protect against reverse-engineering, see [Dotfuscator Community](dotfuscator/index.md).

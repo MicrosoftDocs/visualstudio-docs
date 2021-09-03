@@ -1,20 +1,22 @@
 ---
-title: "IDebugProgram2::Step | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Performs a step."
+title: IDebugProgram2::Step | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugProgram2::Step"
+- IDebugProgram2::Step
 helpviewer_keywords:
-  - "IDebugProgram2::Step"
+- IDebugProgram2::Step
 ms.assetid: e4c2ffce-9810-4088-8162-eac9ef04f2a9
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugProgram2::Step
 Performs a step.
@@ -57,7 +59,7 @@ int Step( 
  In case there is any thread synchronization or communication between threads, other threads in the program should run when a particular thread is stepping.
 
 > [!WARNING]
-> Do not send a stopping event or an immediate (synchronous) event to [Event](../../../extensibility/debugger/reference/idebugeventcallback2-event.md) while handling this call; otherwise the debugger may hang.
+> Do not send a stopping event or an immediate (synchronous) event to [Event](../../../extensibility/debugger/reference/idebugeventcallback2-event.md) while handling this call; otherwise the debugger may stop responding.
 
 ## See also
 - [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md)

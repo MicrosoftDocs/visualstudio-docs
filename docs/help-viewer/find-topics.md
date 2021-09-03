@@ -1,11 +1,13 @@
 ---
 title: Search for topics (Help Viewer)
+description: Learn how to search for topics in the Microsoft Help Viewer. Customize searches using wildcard expressions, logical operators, and advanced search operators.
 ms.date: 11/02/2017
-ms.topic: conceptual
+ms.topic: how-to
 ms.assetid: 683f1b0c-1551-4bba-91fe-3855f03fdd69
 author: ghogen
 ms.author: ghogen
-manager: jillfra
+manager: jmartens
+ms.technology: vs-help-viewer
 ms.workload:
   - "multiple"
 ---

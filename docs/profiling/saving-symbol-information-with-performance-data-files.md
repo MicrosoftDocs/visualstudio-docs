@@ -1,5 +1,6 @@
 ---
 title: "Saving Symbol Information with Performance Data Files | Microsoft Docs"
+description: Learn how you can set the performance project settings to save or serialize symbols in your report file.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:
@@ -7,7 +8,9 @@ helpviewer_keywords:
   - "profiling tools, packsymbols"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
+monikerRange: 'vs-2017'
 ms.workload:
   - "multiple"
 ---

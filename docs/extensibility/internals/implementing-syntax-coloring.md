@@ -1,17 +1,20 @@
 ---
-title: "Implementing Syntax Coloring | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Implementing Syntax Coloring | Microsoft Docs
+description: Learn how to implement syntax coloring in Visual Studio by using the language service features of the managed package framework (MPF).
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
 helpviewer_keywords:
-  - "syntax coloring, implementing"
-  - "editors [Visual Studio SDK], colorizing text"
-  - "text, colorizing in editors"
+- syntax coloring, implementing
+- editors [Visual Studio SDK], colorizing text
+- text, colorizing in editors
 ms.assetid: 96e762ca-efd0-41e7-8958-fda4897c8c7a
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Implementing Syntax Coloring
 When the language service provides syntax colorization, the parser converts a line of text into an array of colorable items and returns token types corresponding to these colorable items. The parser should return token types that belong to a list of colorable items. [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] displays each colorable item in the code window according to the attributes assigned by the colorizer object to the appropriate token type.
@@ -56,7 +59,7 @@ When the language service provides syntax colorization, the parser converts a li
 ## Managed Package Framework Colorizer
  The managed package framework (MPF) provides all the classes that are required to implement a colorizer. Your language service class should inherit the <xref:Microsoft.VisualStudio.Package.LanguageService> class and implement the required methods. You must supply a scanner and parser by implementing the <xref:Microsoft.VisualStudio.Package.IScanner> interface, and return an instance of that interface from the <xref:Microsoft.VisualStudio.Package.LanguageService.GetScanner%2A> method (one of the methods that must be implemented in the <xref:Microsoft.VisualStudio.Package.LanguageService> class). For more information, see [Syntax Colorizing in a Legacy Language Service](../../extensibility/internals/syntax-colorizing-in-a-legacy-language-service.md).
 
-## See Also
+## See also
 - [How to: Use Built-In Colorable Items](../../extensibility/internals/how-to-use-built-in-colorable-items.md)
 - [Custom Colorable Items](../../extensibility/internals/custom-colorable-items.md)
 - [Developing a Legacy Language Service](../../extensibility/internals/developing-a-legacy-language-service.md)

@@ -1,52 +1,56 @@
 ---
 title: "Navigate code with the debugger | Microsoft Docs"
-ms.custom: "seodec18"
-ms.date: "11/12/2018"
-ms.topic: "conceptual"
-f1_keywords:
-  - "vs.debug.execution"
-helpviewer_keywords:
-  - "stepping"
-  - "debugging [Visual Studio], execution control"
-  - "execution, controlling in debugger"
+description: "Learn how to use Visual Studio debugger to troubleshoot your code. Topics include: getting into break mode, stepping through code, and running to a target."
+ms.custom: "SEO-VS-2020"
+ms.date: 11/12/2018
+ms.topic: how-to
+f1_keywords: 
+  - vs.debug.execution
+helpviewer_keywords: 
+  - stepping
+  - debugging [Visual Studio], execution control
+  - execution, controlling in debugger
 ms.assetid: 759072ba-4aaa-447e-8e51-0dd1456fe896
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
-ms.workload:
-  - "multiple"
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.technology: vs-ide-debug
+ms.workload: 
+  - multiple
 ---
 # Navigate through code with the Visual Studio debugger
 
-The Visual Studio debugger can help you navigate through code to inspect the state of an app and show its execution flow. You can use keyboard shortcuts, debug commands, breakpoints, and other features to quickly get to the code you want to examine. Familiarity with debugger navigation commands and shortcuts makes it faster and easier to find and resolve app issues.  If this is the first time that you've tried to debug code, you may want to read [Debugging for absolute beginners](../debugger/debugging-absolute-beginners.md) and [Debugging techniques and tools](../debugger/write-better-code-with-visual-studio.md) before going through this article.
+The Visual Studio debugger can help you navigate through code to inspect the state of an app and show its execution flow. You can use keyboard shortcuts, debug commands, breakpoints, and other features to quickly get to the code you want to examine. Familiarity with debugger navigation commands and shortcuts makes it faster and easier to find and resolve app issues.
 
-## Basic debugging
+> [!NOTE]
+> If this is the first time that you've tried to debug code, you may want to read [Debugging for absolute beginners](../debugger/debugging-absolute-beginners.md) and [Debugging techniques and tools](../debugger/write-better-code-with-visual-studio.md) before going through this article.
 
-To start your app with the debugger attached, press **F5**, select **Debug** > **Start Debugging**, or select the green arrow in the Visual Studio toolbar.
+## Get into "break mode"
 
- ![DBG&#95;Basics&#95;Start&#95;Debugging](../debugger/media/dbg_basics_start_debugging.png "DBG_Basics_Start_Debugging")
+In *break mode*, app execution is suspended while functions, variables, and objects remain in memory. Once the debugger is in break mode, you can navigate through your code. The most common ways to get into break mode quickly is to either:
 
-While you're debugging, a yellow highlight shows the code line that will execute next.
+- Begin code stepping by pressing **F10** or **F11**. This allows you to quickly find the entry point of your app, then you can continue pressing step commands to navigate code.
 
- ![DBG&#95;Basics&#95;Break&#95;Mode](../debugger/media/dbg_basics_break_mode.png "Break mode")
+- [Run to a specific location or function](#BKMK_Break_into_code_by_using_breakpoints_or_Break_All), for example, by [setting a breakpoint](using-breakpoints.md) and starting your app.
 
-Most debugger windows, like the **Modules** and **Watch** windows, are available only while the debugger is running. Some debugger features, such as viewing variable values in the **Locals** window or evaluating expressions in the **Watch** window, are available only while the debugger is paused at a breakpoint, also called *break mode*.
+   For example, from the code editor in Visual Studio, you can use the **Run to Cursor** command to start the app, debugger attached, and get into break mode, then **F11** to navigate code.
 
-In break mode, app execution is suspended while functions, variables, and objects remain in memory. You can examine the elements' positions and states to look for violations or bugs. For some project types, you can also make adjustments to the app while in break mode. For a video showing these features, see [Getting Started with the Debugger](https://www.youtube.com/watch?v=FtGCi5j30YU&list=PLReL099Y5nRfw6VNvzMkv0sabT2crbSpK&index=6).
+   ![Run to cursor and step into code](../debugger/media/navigate-code-code-stepping.gif "Run to cursor and step into code")
 
-If you break in code that doesn't have source or symbol (*.pdb*) files loaded, the debugger displays a **Source Files Not Found** or **Symbols Not Found** page that can help you find and load the files. See [Specify symbol (.pdb) and source files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md). If you can't load the symbol or source files, you can still debug the assembly instructions in the **Disassembly** window.
+Once in break mode, you can use a variety of commands to navigate through your code. While in break mode, you can examine the values of variables to look for violations or bugs. For some project types, you can also make adjustments to the app while in break mode.
 
-You don't always have to start debugging by starting an app at the beginning. You can also press **F11** to [step into code](#BKMK_Step_into__over__or_out_of_the_code), press **F10**  to [step over code](#BKMK_Step_over_Step_out), or [run to a specific location or function](#BKMK_Break_into_code_by_using_breakpoints_or_Break_All).
+Most debugger windows, like the **Modules** and **Watch** windows, are available only while the debugger is attached to your app. Some debugger features, such as viewing variable values in the **Locals** window or evaluating expressions in the **Watch** window, are available only while the debugger is paused (that is, in break mode).
+
+> [!NOTE]
+> If you break into code that doesn't have source or symbol (*.pdb*) files loaded, the debugger displays a **Source Files Not Found** or **Symbols Not Found** page that can help you find and load the files. See [Specify symbol (.pdb) and source files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md). If you can't load the symbol or source files, you can still debug the assembly instructions in the **Disassembly** window.
 
 ## Step through code
 
 The debugger step commands help you inspect your app state or find out more about its execution flow.
 
-If you need to find the entry point in your app, start with **F10** or **F11**.
-
 ### <a name="BKMK_Step_into__over__or_out_of_the_code"></a> Step into code line by line
 
-To stop on each line of code or statement while debugging, use **Debug** > **Step Into**, or press **F11**.
+To stop on each statement while debugging, use **Debug** > **Step Into**, or press **F11**.
 
 The debugger steps through code statements, not physical lines. For example, an `if` clause can be written on one line:
 
@@ -67,11 +71,11 @@ However, when you step into this line, the debugger treats the condition as one 
 On a nested function call, **Step Into** steps into the most deeply nested function. For example, if you use **Step Into** on a call like `Func1(Func2())`, the debugger steps into the function `Func2`.
 
 >[!TIP]
->As you execute each line of code, you can hover over variables to see their values, or use the [Locals](autos-and-locals-windows.md) and [Watch](watch-and-quickwatch-windows.md) windows to watch the values change. You can also visually trace the call stack while stepping into functions. See [Map methods on the call stack while debugging](../debugger/map-methods-on-the-call-stack-while-debugging-in-visual-studio.md).
+>As you execute each line of code, you can hover over variables to see their values, or use the [Locals](autos-and-locals-windows.md) and [Watch](watch-and-quickwatch-windows.md) windows to watch the values change. You can also visually trace the [call stack](how-to-use-the-call-stack-window.md) while stepping into functions. (For Visual Studio Enterprise only, see [Map methods on the call stack while debugging](../debugger/map-methods-on-the-call-stack-while-debugging-in-visual-studio.md)).
 
 ### <a name="BKMK_Step_over_Step_out"></a> Step through code and skip some functions
 
-You may not care about a function while debugging, or you know it works, like well-tested library code. You can use the following commands to skip through code. The functions still execute, but the debugger skips over them.
+You may not care about a function while debugging, or you know it works, like well-tested library code. You can use the following commands to skip code while code stepping. The functions still execute, but the debugger skips over them.
 
 |Keyboard command|Debug menu command|Description|
 |----------------------|------------------|-----------------|
@@ -180,5 +184,5 @@ To load Microsoft symbols, see [Configure symbol locations and loading options](
 
 ## See also
 - [What is debugging?](../debugger/what-is-debugging.md)
-- [DDebugging techniques and tools](../debugger/write-better-code-with-visual-studio.md)
+- [Debugging techniques and tools](../debugger/write-better-code-with-visual-studio.md)
 - [First look at debugging](../debugger/debugger-feature-tour.md)

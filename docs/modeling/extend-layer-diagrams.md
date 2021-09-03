@@ -1,15 +1,18 @@
 ---
 title: Extend dependency diagrams
+description: Learn how you can write code to create and update dependency diagrams, and how to validate the structure of your program code against dependency diagrams in Visual Studio.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "dependency diagrams, creating extensions"
-  - "layer models"
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+- dependency diagrams, creating extensions
+- layer models
+author: mgoertz-msft
+ms.author: mgoertz
+manager: jmartens
+ms.technology: vs-ide-modeling
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Extend dependency diagrams
 
@@ -27,7 +30,7 @@ You must have the following installed on the computer where you want to develop 
 
 [!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]
 
-You must have a suitable edition of Visual Studio installed on the computer where you want to run your layer extensions. To see which editions of Visual Studio support dependency diagrams, see [Edition support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).
+You must have a suitable edition of Visual Studio installed on the computer where you want to run your layer extensions. To see which editions of Visual Studio support dependency diagrams, see [Edition support for architecture and modeling tools](../modeling/analyze-and-model-your-architecture.md#VersionSupport).
 
 ## See also
 

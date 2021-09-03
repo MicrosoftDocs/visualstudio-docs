@@ -1,23 +1,26 @@
 ---
-title: "How to: Create a Product Manifest | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-dev_langs:
-  - "FSharp"
-  - "VB"
-  - "CSharp"
-  - "C++"
-helpviewer_keywords:
-  - "product files [ClickOnce]"
-  - "product files [Windows Installer]"
-  - "prerequisites, custom bootstrapper package"
-  - "dependencies, custom bootstrapper package"
+title: Create a Product Manifest | Microsoft Docs
+description: Learn how to deploy prerequisites for your ClickOnce application with a package that contains a single product manifest and a package manifest for each locale.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
+dev_langs: 
+  - FSharp
+  - VB
+  - CSharp
+  - C++
+helpviewer_keywords: 
+  - product files [ClickOnce]
+  - product files [Windows Installer]
+  - prerequisites, custom bootstrapper package
+  - dependencies, custom bootstrapper package
 ms.assetid: 2d316aaa-8bc0-4ce5-90ab-23b3eac0b5dd
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
-ms.workload:
-  - "multiple"
+manager: jmartens
+ms.technology: vs-ide-deployment
+ms.workload: 
+  - multiple
 ---
 # How to: Create a product manifest
 To deploy prerequisites for your application, you can create a bootstrapper package. A bootstrapper package contains a single product manifest file but a package manifest for each locale. The package manifest contains localization-specific aspects of your package. This includes strings, end-user license agreements, and the language packs.

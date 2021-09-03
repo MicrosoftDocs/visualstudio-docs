@@ -1,17 +1,19 @@
 ---
-title: "IEEVisualizerService | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "This interface implements key methods that supply functionality to the IDebugProperty3 and IPropertyProxyEESide interfaces."
+title: IEEVisualizerService | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IEEVisualizerService"
+- IEEVisualizerService
 helpviewer_keywords:
-  - "IEEVisualizerService interface"
+- IEEVisualizerService interface
 ms.assetid: 3bdb124b-c582-47ba-b465-13c6a1cdb702
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IEEVisualizerService
 > [!IMPORTANT]

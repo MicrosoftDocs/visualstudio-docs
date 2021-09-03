@@ -1,11 +1,14 @@
 ---
 title: "Walkthrough: Capturing Graphics Information | Microsoft Docs"
+description: See how to use Visual Studio Graphics Diagnostics to manually capture graphics information from a Direct3D app. 
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 ms.assetid: 48f12f6e-57b4-48ec-a145-89fa71a42424
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -52,5 +55,5 @@ This walkthrough demonstrates how to use the [!INCLUDE[vsprvs](../../code-qualit
 
 - Learn how to analyze captured graphics information using the Graphics Diagnostics tools. See [Overview](overview-of-visual-studio-graphics-diagnostics.md).
 
-## See Also
+## See also
 - [Capturing Graphics Information](capturing-graphics-information.md)

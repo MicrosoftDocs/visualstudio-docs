@@ -1,20 +1,22 @@
 ---
-title: "IDebugCustomAttribute::GetName | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Gets the name of the custom attribute."
+title: IDebugCustomAttribute::GetName | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugCustomAttribute::GetName"
+- IDebugCustomAttribute::GetName
 helpviewer_keywords:
-  - "IDebugCustomAttribute::GetName"
+- IDebugCustomAttribute::GetName
 ms.assetid: ba509cc5-5816-4925-a094-4c72d88c360c
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugCustomAttribute::GetName
 Gets the name of the custom attribute.

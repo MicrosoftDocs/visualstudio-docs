@@ -1,7 +1,8 @@
 ---
+description: "Retrieves the children of the symbol."
 title: "IDiaSymbol::findChildren | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,8 @@ helpviewer_keywords:
 ms.assetid: 5fe7573a-e48b-428d-9c17-7421b7209246
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -50,7 +52,7 @@ HRESULT findChildren ( 
 ## Remarks
  This method is identical to calling the [IDiaSession::findChildren](../../debugger/debug-interface-access/idiasession-findchildren.md) method with this symbol as the first parameter.
 
-## See Also
+## See also
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
 - [SymTagEnum Enumeration](../../debugger/debug-interface-access/symtagenum.md)
 - [IDiaEnumSymbols](../../debugger/debug-interface-access/idiaenumsymbols.md)

@@ -1,18 +1,21 @@
 ---
-title: "Adding a Submenu to a Menu | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Adding a Submenu to a Menu | Microsoft Docs
+description: Learn how to create a submenu, add it to the Visual Studio menu bar, and add a new command to the submenu.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
 helpviewer_keywords:
-  - "context menus"
-  - "submenus, cascading"
-  - "cascading submenus"
-  - "menus, creating cascading submenus"
+- context menus
+- submenus, cascading
+- cascading submenus
+- menus, creating cascading submenus
 ms.assetid: 692600cb-d052-40e2-bdae-4354ae7c6c84
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Add a Submenu to a Menu
 This walkthrough builds on the demonstration in [Add a Menu to the Visual Studio Menu Bar](../extensibility/adding-a-menu-to-the-visual-studio-menu-bar.md) by showing how to add a submenu to the **TestMenu** menu.
@@ -122,7 +125,8 @@ This walkthrough builds on the demonstration in [Add a Menu to the Visual Studio
     ```csharp
     private void SubItemCallback(object sender, EventArgs e)
     {
-        IVsUIShell uiShell = (IVsUIShell)this.ServiceProvider.GetServiceAsync(typeof(SVsUIShell));
+        ThreadHelper.ThrowIfNotOnUIThread();
+        IVsUIShell uiShell = this.package.GetService<SVsUIShell, IVsUIShell>();
         Guid clsid = Guid.Empty;
         int result;
         uiShell.ShowMessageBox(

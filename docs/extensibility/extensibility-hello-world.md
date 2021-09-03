@@ -1,15 +1,18 @@
 ---
-title: "Hello World extension tutorial | Microsoft Docs"
-ms.date: "03/14/2019"
-ms.topic: "conceptual"
+title: Hello World extension tutorial | Microsoft Docs
+description: Learn how to add a new command as an extension to Visual Studio, which involves creating a project, adding a command, and modifying the source code.
+ms.custom: SEO-VS-2020
+ms.date: 03/14/2019
+ms.topic: tutorial
 ms.assetid: f74e1ad1-1ee5-4360-9bd5-d82467b884ca
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
-# Create your first extension: Hello World
+# Tutorial - Create your first extension: Hello World
 
 This Hello World example walks you through creating your first extension for Visual Studio. This tutorial shows you how to add a new command to Visual Studio.
 
@@ -68,11 +71,11 @@ Step 1. If you select the *.vsixmanifest* manifest file, you can see what option
 
 Step 2. Right-click the project (not the solution). On the context menu, select **Add**, and then **New Item**.
 
-Step 3. Select the **Extensibility** section, and then choose **Custom Command**.
+Step 3. Select the **Extensibility** section, and then choose **Command**.
 
 Step 4. In the **Name** field at the bottom, enter a filename such as *Command.cs*.
 
-![custom command](media/hello-world-custom-command.png)
+![custom command](media/hello-world-vsix-command.png)
 
 Your new command file is visible in **Solution Explorer**. Under the **Resources** node, you'll find other files related to your command. For example, if you wish to modify the image, the PNG file is here.
 

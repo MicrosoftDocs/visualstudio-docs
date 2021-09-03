@@ -1,15 +1,17 @@
 ---
-title: "IDebugDocumentPositionOffset2 | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Represents a position in a source file as a character offset."
+title: IDebugDocumentPositionOffset2 | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "IDebugDocumentPositionOffset2 interface"
+- IDebugDocumentPositionOffset2 interface
 ms.assetid: f1b05db3-50d8-453f-a72f-e68b239236a4
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IDebugDocumentPositionOffset2
 Represents a position in a source file as a character offset.

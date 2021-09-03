@@ -1,26 +1,31 @@
 ---
-title: "WriteCodeFragment Task | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
+title: WriteCodeFragment Task | Microsoft Docs
+description: Learn how MSBuild uses the WriteCodeFragment task to generates a temporary code file from the specified generated code fragment.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: reference
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+- VB
+- CSharp
+- C++
+- jsharp
 helpviewer_keywords:
-  - "MSBuild, WriteCodeFragment task"
-  - "WriteCodeFragment task [MSBuild]"
+- MSBuild, WriteCodeFragment task
+- WriteCodeFragment task [MSBuild]
 ms.assetid: 1d2514b4-5bef-43bb-bebe-496da8ef063c
-author: mikejo5000
-ms.author: mikejo
-manager: jillfra
+author: ghogen
+ms.author: ghogen
+manager: jmartens
+ms.technology: msbuild
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # WriteCodeFragment task
+
 Generates a temporary code file from the specified generated code fragment. Does not delete the file.
 
 ## Parameters
+
  The following table describes the parameters of the `WriteCodeFragment` task.
 
 |Parameter|Description|
@@ -31,8 +36,10 @@ Generates a temporary code file from the specified generated code fragment. Does
 |`OutputFile`|Optional <xref:Microsoft.Build.Framework.ITaskItem> output parameter.<br /><br /> Specifies the path of the file that was generated. If this parameter is set by using a file name, the destination folder is prepended to the file name. If it is set by using a root, the destination folder is ignored.<br /><br /> If this parameter is not set, the output file name is the destination folder, an arbitrary file name, and the default file name extension for the specified language.|
 
 ## Remarks
+
  In addition to having the parameters that are listed in the table, this task inherits parameters from the <xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension base class](../msbuild/taskextension-base-class.md).
 
 ## See also
+
 - [Tasks](../msbuild/msbuild-tasks.md)
 - [Task reference](../msbuild/msbuild-task-reference.md)

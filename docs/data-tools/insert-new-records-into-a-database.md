@@ -1,22 +1,25 @@
 ---
 title: Insert new records into a database
+description: Insert new records into a database using the TableAdapter.Update method, one of the TableAdapter's DBDirect methods, or command objects.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 dev_langs:
-  - "VB"
-  - "CSharp"
+- VB
+- CSharp
 helpviewer_keywords:
-  - "TableAdapters, inserting new records into"
-  - "data [Visual Studio], saving"
-  - "databases, inserting new records into"
-  - "records, inserting"
-  - "saving data"
+- TableAdapters, inserting new records into
+- data [Visual Studio], saving
+- databases, inserting new records into
+- records, inserting
+- saving data
 ms.assetid: ea118fff-69b1-4675-b79a-e33374377f04
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: ghogen
+ms.author: ghogen
+manager: jmartens
+ms.technology: vs-data-tools
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # Insert new records into a database
 
@@ -44,8 +47,8 @@ If your application uses datasets to store data, you can simply add new records 
 
    The following code shows how to add a new record to a <xref:System.Data.DataTable> and then call the `TableAdapter.Update` method to save the new row to the database. (This example uses the `Region` table in the Northwind database.)
 
-   [!code-vb[VbRaddataSaving#14](../data-tools/codesnippet/VisualBasic/insert-new-records-into-a-database_1.vb)]
-   [!code-csharp[VbRaddataSaving#14](../data-tools/codesnippet/CSharp/insert-new-records-into-a-database_1.cs)]
+   :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataSaving/VB/Form5.vb" id="Snippet14":::
+   :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataSaving/CS/Form5.cs" id="Snippet14":::
 
 ### To insert new records into a database by using the TableAdapter.Insert method
 
@@ -58,8 +61,8 @@ The following procedure demonstrates using the `TableAdapter.Insert` method to i
 > [!NOTE]
 > If you do not have an instance available, instantiate the TableAdapter you want to use.
 
-[!code-vb[VbRaddataSaving#15](../data-tools/codesnippet/VisualBasic/insert-new-records-into-a-database_2.vb)]
-[!code-csharp[VbRaddataSaving#15](../data-tools/codesnippet/CSharp/insert-new-records-into-a-database_2.cs)]
+:::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataSaving/VB/Class1.vb" id="Snippet15":::
+:::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataSaving/CS/Class1.cs" id="Snippet15":::
 
 ## Insert new records by using command objects
 
@@ -71,8 +74,8 @@ You can insert new records directly into a database using command objects.
 
 The following example demonstrates inserting records into a database using command object. It inserts data into the `Region` table in the Northwind database.
 
-[!code-vb[VbRaddataSaving#16](../data-tools/codesnippet/VisualBasic/insert-new-records-into-a-database_3.vb)]
-[!code-csharp[VbRaddataSaving#16](../data-tools/codesnippet/CSharp/insert-new-records-into-a-database_3.cs)]
+:::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataSaving/VB/Class1.vb" id="Snippet16":::
+:::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataSaving/CS/Class1.cs" id="Snippet16":::
 
 ## .NET security
 

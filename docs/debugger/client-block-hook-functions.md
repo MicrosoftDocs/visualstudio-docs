@@ -1,5 +1,7 @@
 ---
 title: "Client Block Hook Functions | Microsoft Docs"
+description: Write a client block hook function to validate or report the contents of the data stored in _CLIENT_BLOCK blocks.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:
@@ -18,7 +20,8 @@ helpviewer_keywords:
 ms.assetid: f21c197e-565d-4e3f-9b27-4c018c9b87fc
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -40,8 +43,8 @@ typedef void (__cdecl *_CRT_DUMP_CLIENT)
    (void *, size_t);
 ```
 
-## See Also
+## See also
 
 - [Debug Hook Function Writing](../debugger/debug-hook-function-writing.md)
-- [crt_dbg2 Sample](https://msdn.microsoft.com/library/21e1346a-6a17-4f57-b275-c76813089167)
+- [crt_dbg2 Sample](/previous-versions/b31tft51(v=vs.100))
 - [_CrtReportBlockType](/cpp/c-runtime-library/reference/crtreportblocktype)

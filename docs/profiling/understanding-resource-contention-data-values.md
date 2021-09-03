@@ -1,5 +1,6 @@
 ---
 title: "Understanding Resource Contention Data Values | Microsoft Docs"
+description: Learn how resource contention profiling collects detailed information when competing threads in an application are forced to wait for access to a shared resource.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:
@@ -7,7 +8,9 @@ helpviewer_keywords:
   - "Profiling Tools, concurrency method"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
+monikerRange: 'vs-2017'
 ms.workload:
   - "multiple"
 ---

@@ -1,10 +1,14 @@
 ---
 title: Clone a repo
-author: lisawong19
-ms.author: liwong
-manager: routlaw
+description: Learn how to use Visual Studio Tools for AI to clone a repository of Python code and create a project from it.
+ms.custom: SEO-VS-2020
+author: jillre
+ms.author: jillfra
+manager: jmartens
+ms.technology: vs-ai-tools
+monikerRange: vs-2017
 ms.date: 11/13/2017
-ms.topic: conceptual
+ms.topic: how-to
 ms.workload:
   - "multiple"
 ---
@@ -48,8 +52,8 @@ Once you've [installed Visual Studio Tools for AI](installation.md), you can eas
 
 11. You can visualize the progress with TensorBoard. Right click your project and click **Run TensorBoard** then select the directory of your output TensorBoard logs.
 
-   ![run tensorboard](media/create-project-repo/run-tensorboard.png)
+   ![Screenshot of the Visual Studio Solution Explorer with the MNIST project selected and the Run TensorBoard option selected in the context menu.](media/create-project-repo/run-tensorboard.png)
 
 12. Notice the error decreasing overtime, which means the quality is improving.
 
-   ![run tensorboard](media/create-project-repo/tensorboard.png)
+   ![Screenshot of the main TensorBoard window showing four graphs that visualize the data from the TensorBoard logs.](media/create-project-repo/tensorboard.png)

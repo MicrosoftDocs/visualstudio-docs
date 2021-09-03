@@ -1,18 +1,21 @@
 ---
 title: Display line numbers for code
-ms.date: 03/28/2019
-ms.topic: conceptual
+description: Learn how to display or hide line numbering in your code.
+ms.custom: SEO-VS-2020
+ms.date: 08/28/2020
+ms.topic: how-to
 helpviewer_keywords:
-  - "line numbers, displaying"
-  - "Code Editor, line numbers"
-  - "editors, line numbers"
-  - "code, line number displaying"
+- line numbers, displaying
+- Code Editor, line numbers
+- editors, line numbers
+- code, line number displaying
 ms.assetid: 40b38559-b8de-4041-91f2-68986767c976
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Display line numbers in the editor
 
@@ -26,8 +29,8 @@ You can display or hide line numbering in your code.
 
    ![Option to display line numbers in the VS editor](../../ide/reference/media/line-numbers-option.png)
 
-> [!TIP]
-> Line numbers aren't added to your code; they're just for reference. If you want line numbers to print, in the **Print** dialog box, select the **Include line numbers** check box.
+> [!NOTE]
+> Line numbers aren't added to your code; they're just for reference.
 
 ## See also
 

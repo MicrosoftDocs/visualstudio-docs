@@ -1,5 +1,7 @@
 ---
 title: "XDCMake Task | Microsoft Docs"
+description: Learn how MSBuild uses the XDCMake task to wrap the XML Documentation tool xdcmake.exe, which merges XML document comment files into an .xml file.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 f1_keywords:
@@ -11,24 +13,28 @@ dev_langs:
   - "jsharp"
   - "C++"
 helpviewer_keywords:
-  - "XDCMake task (MSBuild (Visual C++))"
-  - "MSBuild (Visual C++), XDCMake task"
+  - "XDCMake task (MSBuild (C++))"
+  - "MSBuild (C++), XDCMake task"
 ms.assetid: a7de9c64-903a-4a02-85f3-f37672270f25
-author: mikejo5000
-ms.author: mikejo
-manager: jillfra
+author: ghogen
+ms.author: ghogen
+manager: jmartens
+ms.technology: msbuild
 ms.workload:
   - "multiple"
 ---
 # XDCMake task
+
 Wraps the XML Documentation tool (*xdcmake.exe*), which merges XML document comment (*.xdc*) files into an *.xml* file.
 
- An *.xdc* file is created when you provide documentation comments in your Visual C++ source code and compile by using the [/doc](/cpp/build/reference/doc-process-documentation-comments-c-cpp) compiler option. For more information, see [XDCMake reference](/cpp/build/reference/xdcmake-reference), [XML Document Generator Tool property pages](/cpp/build/reference/xml-document-generator-tool-property-pages), and command-line help option (**/?**) for *xdcmake.exe*.
+ An *.xdc* file is created when you provide documentation comments in your C++ source code and compile by using the [/doc](/cpp/build/reference/doc-process-documentation-comments-c-cpp) compiler option. For more information, see [XDCMake reference](/cpp/build/reference/xdcmake-reference), [XML Document Generator Tool property pages](/cpp/build/reference/xml-document-generator-tool-property-pages), and command-line help option (**/?**) for *xdcmake.exe*.
 
 ## Remarks
+
  By default, the *xdcmake.exe* tool supports a few command-line options. Additional options are supported when you specify the **/old** command-line option.
 
 ## Parameters
+
  The following table describes the parameters of the **XDCMake** task.
 
 |Parameter|Description|
@@ -44,4 +50,5 @@ Wraps the XML Documentation tool (*xdcmake.exe*), which merges XML document comm
 |**TrackerLogDirectory**|Optional **String** parameter.<br /><br /> Specifies the directory for the tracker log.|
 
 ## See also
+
 - [Task reference](../msbuild/msbuild-task-reference.md)

@@ -1,0 +1,8 @@
+- name: Docs
+  tocHref: /
+  topicHref: /
+  items:
+  - name: Bridge to Kubernetes
+    tocHref: /visualstudio/bridge/
+    topicHref: /visualstudio/bridge/index.yml
+    

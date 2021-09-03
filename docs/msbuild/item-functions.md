@@ -1,20 +1,25 @@
 ---
-title: "Item Functions | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Item Functions | Microsoft Docs
+description: Learn how MSBuild code in tasks and targets can call item functions to get information about the items in the project.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "msbuild, Item functions"
+- msbuild, Item functions
 ms.assetid: 5e6df3cc-2db8-4cbd-8fdd-3ffd03ac0876
-author: mikejo5000
-ms.author: mikejo
-manager: jillfra
+author: ghogen
+ms.author: ghogen
+manager: jmartens
+ms.technology: msbuild
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Item functions
-Starting with MSBuild 4.0, code in tasks and targets can call item functions to get information about the items in the project. These functions simplify getting Distinct() items and are faster than looping through the items.
+
+Code in tasks and targets can call item functions to get information about the items in the project (in MSBuild 4.0 and later). These functions simplify getting distinct items and are faster than looping through the items.
 
 ## String item functions
+
 You can use string methods and properties in the .NET Framework to operate on any item value. For <xref:System.String> methods, specify the method name. For <xref:System.String> properties, specify the property name after "get_".
 
 For items that have multiple strings, the string method or property runs on each string.
@@ -43,6 +48,7 @@ The following example shows how to use these string item functions.
 ```
 
 ## Intrinsic item functions
+
 The table below lists the intrinsic functions available for items.
 
 |Function|Example|Description|
@@ -93,5 +99,10 @@ The following example shows how to use intrinsic item functions.
   -->
 ```
 
+## MSBuild condition functions
+
+The functions `Exists` and `HasTrailingSlash` are not item functions. They are available for use with the `Condition` attribute. See [MSBuild conditions](msbuild-conditions.md).
+
 ## See also
+
 - [Items](../msbuild/msbuild-items.md)

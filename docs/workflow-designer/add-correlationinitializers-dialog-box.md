@@ -1,15 +1,18 @@
 ---
-title: "Workflow Designer - Add CorrelationInitializers Dialog Box"
+title: Add CorrelationInitializers dialog box
+description: Learn how you can use the Add Correlation Initializers dialog box in Workflow Designer to configure the CorrelationInitializers properties of the Send, Receive, and SendReply activities.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "AddCorrelationInitializers.UI"
+- AddCorrelationInitializers.UI
 ms.assetid: c0517467-d54a-4ee6-aef0-c19b96b6f395
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
+ms.technology: vs-workflow-designer
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Add CorrelationInitializers Dialog Box
 

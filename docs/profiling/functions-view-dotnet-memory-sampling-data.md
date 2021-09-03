@@ -1,5 +1,7 @@
 ---
 title: "Functions View - .NET Memory Sampling Data | Microsoft Docs"
+description: Get information about the Functions view of .NET memory allocation profiling data that was collected by using the sampling method.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:
@@ -7,7 +9,9 @@ helpviewer_keywords:
 ms.assetid: 5d9c6302-2ffd-430e-9535-13ce795f9f7c
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
+monikerRange: 'vs-2017'
 ms.workload:
   - "dotnet"
 ---

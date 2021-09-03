@@ -1,17 +1,20 @@
 ---
-title: "Changing the Appearance of a Command | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Changing the Appearance of a Command | Microsoft Docs
+description: Learn how to provide feedback changing the appearance of a command, such as making commands available/unavailable, hidden/shown, or checked/unchecked.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
 helpviewer_keywords:
-  - "commands, changing appearance"
-  - "menu commands, changing appearance"
-  - "menus, changing command appearance"
+- commands, changing appearance
+- menu commands, changing appearance
+- menus, changing command appearance
 ms.assetid: da2474fa-f92d-4e9e-b8bf-67c61bf249c2
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Change the appearance of a command
 You can provide feedback to your user by changing the appearance of a command. For example, you may want a command to look different when it is unavailable. You can make commands available or unavailable, hide or show them, or check or uncheck them on the menu.
@@ -45,8 +48,9 @@ To change the appearance of a command, perform one of these actions:
 4. In the *ChangeMenuText.cs* file, replace the code in the ShowMessageBox method with the following:
 
     ```csharp
-    private void ShowMessageBox(object sender, EventArgs e)
+    private void Execute(object sender, EventArgs e)
     {
+        ThreadHelper.ThrowIfNotOnUIThread();
         var command = sender as OleMenuCommand;
         if (command.Text == "New Text")
             ChangeMyCommand(command.CommandID.ID, false);
@@ -59,8 +63,7 @@ To change the appearance of a command, perform one of these actions:
     public bool ChangeMyCommand(int cmdID, bool enableCmd)
     {
         bool cmdUpdated = false;
-        var mcs = this.ServiceProvider.GetService(typeof(IMenuCommandService))
-            as OleMenuCommandService;
+        var mcs = this.package.GetService<IMenuCommandService, OleMenuCommandService>();
         var newCmdID = new CommandID(new Guid(ChangeMenuTextPackageGuids.guidChangeMenuTextPackageCmdSet), cmdID);
         MenuCommand mc = mcs.FindCommand(newCmdID);
         if (mc != null)

@@ -1,19 +1,21 @@
 ---
-title: "IDebugExpressionEvaluator2::SetCallback | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Enables the expression evaluator (EE) to specify the callback interface that the debugger engine (DE) will use to read metric settings."
+title: IDebugExpressionEvaluator2::SetCallback | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "IDebugExpressionEvaluator2::SetCallback"
-  - "SetCallback"
+- IDebugExpressionEvaluator2::SetCallback
+- SetCallback
 ms.assetid: 31e3a99e-e784-44a3-8b19-cc5ef31ed546
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugExpressionEvaluator2::SetCallback
 Enables the expression evaluator (EE) to specify the callback interface that the debugger engine (DE) will use to read metric settings.

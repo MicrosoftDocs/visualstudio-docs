@@ -1,17 +1,19 @@
 ---
-title: "SccHistory Function | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+description: "This function displays the history of the specified files."
+title: SccHistory Function | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: reference
 f1_keywords:
-  - "SccHistory"
+- SccHistory
 helpviewer_keywords:
-  - "SccHistory function"
+- SccHistory function
 ms.assetid: a636d9d3-47c1-4b48-ac6b-bcfde19d6cf9
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # SccHistory Function
 This function displays the history of the specified files.
@@ -76,6 +78,6 @@ SCCRTN SccHistory(
 > [!NOTE]
 > If the source control plug-in does not support this function for an array of files, only the file history for the first file can be displayed.
 
-## See Also
+## See also
 - [Source Control Plug-in API Functions](../extensibility/source-control-plug-in-api-functions.md)
 - [SccOpenProject](../extensibility/sccopenproject-function.md)

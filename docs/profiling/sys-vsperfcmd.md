@@ -1,11 +1,14 @@
 ---
 title: "Sys (VSPerfCmd) | Microsoft Docs"
+description: Learn how the VSPerfCmd.exe Sys option sets the profiling event that is sampled to system call events.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 ms.assetid: 294a6f9e-b49f-4c83-b322-5ac5411b66fb
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
+monikerRange: 'vs-2017'
 ms.workload:
   - "multiple"
 ---

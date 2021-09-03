@@ -1,17 +1,19 @@
 ---
-title: "IDebugProcess3 | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "This interface represents a running process and its programs."
+title: IDebugProcess3 | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugProcess3"
+- IDebugProcess3
 helpviewer_keywords:
-  - "IDebugProcess3 interface"
+- IDebugProcess3 interface
 ms.assetid: 7bd6b952-cf34-4e66-b8f6-d472dac3748f
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IDebugProcess3
 This interface represents a running process and its programs. This interface exists as a replacement to several methods in the [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md) interface. It provides control over all programs in the process.

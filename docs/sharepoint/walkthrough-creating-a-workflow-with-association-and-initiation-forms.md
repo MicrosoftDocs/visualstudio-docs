@@ -1,7 +1,9 @@
 ---
 title: "Create workflow with association and initiation forms"
+description: In this SharePoint walkthrough, create a basic sequential workflow that incorporates the use of association and initiation forms.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: how-to
 dev_langs:
   - "VB"
   - "CSharp"
@@ -14,7 +16,8 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, workflow initiation forms"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
+ms.technology: sharepoint-development
 ms.workload:
   - "office"
 ---
@@ -437,7 +440,7 @@ ms.workload:
 ## Next steps
  You can learn more about how to create workflow templates from these topics:
 
-- To learn more about SharePoint workflows, see [Workflows in Windows SharePoint Services](http://go.microsoft.com/fwlink/?LinkID=166275).
+- To learn more about SharePoint workflows, see [Workflows in Windows SharePoint Services](/previous-versions/office/developer/sharepoint-2010/ms416312(v=office.14)).
 
 ## See also
 - [Create SharePoint workflow solutions](../sharepoint/creating-sharepoint-workflow-solutions.md)

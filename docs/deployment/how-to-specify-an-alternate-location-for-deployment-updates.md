@@ -1,20 +1,23 @@
 ---
-title: "How to: Specify an Alternate Location for Deployment Updates | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-helpviewer_keywords:
-  - "ClickOnce deployment, updates"
-  - "deployment update, alternative locations"
+title: Specify alternate location for deployment updates
+description: Learn how to specify an alternate location for updates for your ClickOnce application in your deployment manifest.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
+dev_langs: 
+  - VB
+  - CSharp
+  - C++
+helpviewer_keywords: 
+  - ClickOnce deployment, updates
+  - deployment update, alternative locations
 ms.assetid: 7faacd35-2638-492d-80f6-6b57e5f820de
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
-ms.workload:
-  - "multiple"
+manager: jmartens
+ms.technology: vs-ide-deployment
+ms.workload: 
+  - multiple
 ---
 # How to: Specify an alternate location for deployment updates
 You can install your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application initially from a CD or a file share, but the application must check for periodic updates on the Web. You can specify an alternate location for updates in your deployment manifest so that your application can update itself from the Web after its initial installation.
@@ -40,9 +43,9 @@ You can install your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_m
 
 1. Open a .NET Framework command prompt.
 
-2. Set the update location using the following command. In this example, *HelloWorld.exe.application* is the path to your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application manifest, which always has the .application extension, and *<http://adatum.com/Update/Path>* is the URL that [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] will check for application updates.
+2. Set the update location using the following command. In this example, *HelloWorld.exe.application* is the path to your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application manifest, which always has the .application extension, and `http://adatum.com/Update/Path` is the URL that [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] will check for application updates.
 
-    **Mage -Update HelloWorld.exe.application -ProviderUrl http://adatum.com/Update/Path**
+    **Mage -Update HelloWorld.exe.application -ProviderUrl http:\//adatum.com/Update/Path**
 
 3. Save the file.
 

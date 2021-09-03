@@ -1,5 +1,7 @@
 ---
 title: "Command-Line Profiling of Stand-Alone Applications | Microsoft Docs"
+description: Learn how to use the Profiling Tools from the command line to collect performance data for client (stand-alone) applications.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:
@@ -8,7 +10,9 @@ helpviewer_keywords:
 ms.assetid: a47f2bf2-186d-4120-bb79-34e2f3a1ee42
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
+monikerRange: 'vs-2017'
 ms.workload:
   - "multiple"
 ---
@@ -24,7 +28,6 @@ This section describes the procedures and options for collecting performance dat
 | **Collect .NET memory data:** Use sampling or instrumentation to collect .NET memory allocation data that shows you the size and number of allocated objects. You can also collect object lifetime data that shows you the size and number of objects that are reclaimed in each garbage collection generation. | -   [Collect .NET Framework memory data](../profiling/collecting-dotnet-framework-memory-data-for-stand-alone-applications.md) |
 | **Collect concurrency data:** Use the concurrency method to collect resource contention data and thread activity data that shows you CPU utilization, thread contention, thread migration, synchronization delays, areas of overlapped I/O, and other system events. | -   [Collect concurrency data](../profiling/collecting-concurrency-data-for-stand-alone-applications.md) |
 | **Add tier-interaction data:** You can add performance data about synchronous ADO.NET calls that the application made to a Microsoft [!INCLUDE[ssNoVersion](../data-tools/includes/ssnoversion_md.md)] database. Adding tier interaction data to a profiling run requires specific procedures with the command line profiling tools. | -   [Collect tier interaction data](../profiling/adding-tier-interaction-data-from-the-command-line.md) |
-| **Try it out:** Use step-by-step procedures to profile a sample client application by using the sampling or instrumentation method. | -   [Walkthrough: Command-line profiling using sampling](../profiling/walkthrough-command-line-profiling-using-sampling.md)<br />-   [Walkthrough: Command-line profiling using instrumentation](/visualstudio/profiling/command-line-profiling-of-stand-alone-applications) |
 
 ## Related tasks
 

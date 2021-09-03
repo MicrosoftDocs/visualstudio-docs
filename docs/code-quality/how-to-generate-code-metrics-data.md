@@ -1,50 +1,48 @@
 ---
 title: Generate code metrics from the IDE or command line
 ms.date: 11/02/2018
-ms.topic: "conceptual"
+description: Learn how to generate code metrics data in Visual Studio. See how to use Solution Explorer, a rule set file, the command line, or a menu command.
+ms.custom: SEO-VS-2020
+ms.topic: how-to
 helpviewer_keywords:
-  - "code metrics data"
-  - "code metrics results"
-  - "code metrics [Visual Studio]"
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+  - code metrics data
+  - code metrics results
+  - code metrics [Visual Studio]
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.technology: vs-ide-code-analysis
 ms.workload:
-  - "multiple"
+  - multiple
 ---
 # How to: Generate code metrics data
 
 You can generate code metrics data in three ways:
 
-- By installing [FxCop analyzers](#fxcop-analyzers-code-metrics-rules) and enabling the four code metrics (maintainability) rules it contains.
+- By enabling [.NET code-quality analyzers](#net-code-quality-analyzers-code-metrics-rules) and enabling the four code metrics (maintainability) rules it contains.
 
 - By choosing the [**Analyze** > **Calculate Code Metrics**](#calculate-code-metrics-menu-command) menu command within Visual Studio.
 
 - From the [command line](#command-line-code-metrics) for C# and Visual Basic projects.
 
-## FxCop analyzers code metrics rules
+## .NET code-quality analyzers code metrics rules
 
-The [FxCopAnalyzers NuGet package](https://www.nuget.org/packages/Microsoft.CodeAnalysis.FxCopAnalyzers) includes several code metrics [analyzer](roslyn-analyzers-overview.md) rules:
+The .NET code-quality analyzers include several code metrics [analyzer](roslyn-analyzers-overview.md) rules:
 
-- [CA1501](ca1501-avoid-excessive-inheritance.md)
-- [CA1502](ca1502-avoid-excessive-complexity.md)
-- [CA1505](ca1505-avoid-unmaintainable-code.md)
-- [CA1506](ca1506-avoid-excessive-class-coupling.md)
+- [CA1501](/dotnet/fundamentals/code-analysis/quality-rules/ca1501)
+- [CA1502](/dotnet/fundamentals/code-analysis/quality-rules/ca1502)
+- [CA1505](/dotnet/fundamentals/code-analysis/quality-rules/ca1505)
+- [CA1506](/dotnet/fundamentals/code-analysis/quality-rules/ca1506)
 
-These rules are disabled by default but you can enable them from [**Solution Explorer**](use-roslyn-analyzers.md#set-rule-severity-from-solution-explorer) or in a [rule set](using-rule-sets-to-group-code-analysis-rules.md) file. For example, to enable rule CA1502 as a warning, your .ruleset file would contain the following entry:
+These rules are disabled by default but you can enable them from [**Solution Explorer**](use-roslyn-analyzers.md#set-rule-severity-from-solution-explorer) or in an [EditorConfig](use-roslyn-analyzers.md#set-rule-severity-in-an-editorconfig-file) file. For example, to enable rule CA1502 as a warning, your EditorConfig file would contain the following entry:
 
-```xml
-<?xml version="1.0" encoding="utf-8"?>
-<RuleSet Name="Rules" Description="Rules" ToolsVersion="16.0">
-  <Rules AnalyzerId="Microsoft.CodeQuality.Analyzers" RuleNamespace="Microsoft.CodeQuality.Analyzers">
-    <Rule Id="CA1502" Action="Warning" />
-  </Rules>
-</RuleSet>
+```cs
+dotnet_diagnostic.CA1502.severity = warning
 ```
 
 ### Configuration
 
-You can configure the thresholds at which the code metrics rules in the FxCop analyzers package fire.
+You can configure the thresholds at which the code metrics rules fire.
 
 1. Create a text file. As an example, you can name it *CodeMetricsConfig.txt*.
 
@@ -54,7 +52,7 @@ You can configure the thresholds at which the code metrics rules in the FxCop an
    CA1502: 10
    ```
 
-   In this example, rule [CA1502](ca1502-avoid-excessive-complexity.md) is configured to fire when a method's cyclomatic complexity is greater than 10.
+   In this example, rule [CA1502](/dotnet/fundamentals/code-analysis/quality-rules/ca1502) is configured to fire when a method's cyclomatic complexity is greater than 10.
 
 3. In the **Properties** window of Visual Studio, or in the project file, mark the build action of the configuration file as [**AdditionalFiles**](../ide/build-actions.md#build-action-values). For example:
 
@@ -72,11 +70,11 @@ Generate code metrics for one or all of your open projects in the IDE by using t
 
 You can generate code metrics results for an entire solution in any of the following ways:
 
-- From the menu bar, choose **Analyze** > **Calculate Code Metrics** > **For Solution**.
+- From the menu bar, select **Analyze** > **Calculate Code Metrics** > **For Solution**.
 
-- In **Solution Explorer**, right-click the solution and then choose **Calculate Code Metrics**.
+- In **Solution Explorer**, right-click the solution and then select **Calculate Code Metrics**.
 
-- In the **Code Metrics Results** window, choose the **Calculate Code Metrics for Solution** button.
+- In the **Code Metrics Results** window, select the **Calculate Code Metrics for Solution** button.
 
 The results are generated and the **Code Metrics Results** window is displayed. To view the results details, expand the tree in the **Hierarchy** column.
 
@@ -84,7 +82,7 @@ The results are generated and the **Code Metrics Results** window is displayed. 
 
 1. In **Solution Explorer**, select one or more projects.
 
-1. From the menu bar, choose **Analyze** > **Calculate Code Metrics** > **For Selected Project(s)**.
+1. From the menu bar, select **Analyze** > **Calculate Code Metrics** > **For Selected Project(s)**.
 
 The results are generated and the **Code Metrics Results** window is displayed. To view the results details, expand the tree in the **Hierarchy**.
 
@@ -95,7 +93,7 @@ The results are generated and the **Code Metrics Results** window is displayed. 
 >
 > - Calculate code metrics from the [command line](#command-line-code-metrics) instead
 >
-> - Upgrade to [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019)
+> - Upgrade to [Visual Studio 2019](https://visualstudio.microsoft.com/downloads)
 
 ::: moniker-end
 
@@ -156,6 +154,66 @@ Build succeeded.
 
 The generated XML output takes the following format:
 
+::: moniker range=">=vs-2019"
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<CodeMetricsReport Version="1.0">
+  <Targets>
+    <Target Name="ConsoleApp20.csproj">
+      <Assembly Name="ConsoleApp20, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <Metrics>
+          <Metric Name="MaintainabilityIndex" Value="100" />
+          <Metric Name="CyclomaticComplexity" Value="1" />
+          <Metric Name="ClassCoupling" Value="1" />
+          <Metric Name="DepthOfInheritance" Value="1" />
+          <Metric Name="SourceLines" Value="11" />
+          <Metric Name="ExecutableLines" Value="1" />
+        </Metrics>
+        <Namespaces>
+          <Namespace Name="ConsoleApp20">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="100" />
+              <Metric Name="CyclomaticComplexity" Value="1" />
+              <Metric Name="ClassCoupling" Value="1" />
+              <Metric Name="DepthOfInheritance" Value="1" />
+              <Metric Name="SourceLines" Value="11" />
+              <Metric Name="ExecutableLines" Value="1" />
+            </Metrics>
+            <Types>
+              <NamedType Name="Program">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="100" />
+                  <Metric Name="CyclomaticComplexity" Value="1" />
+                  <Metric Name="ClassCoupling" Value="1" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="7" />
+                  <Metric Name="ExecutableLines" Value="1" />
+                </Metrics>
+                <Members>
+                  <Method Name="void Program.Main(string[] args)" File="C:\source\repos\ConsoleApp20\ConsoleApp20\Program.cs" Line="7">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+        </Namespaces>
+      </Assembly>
+    </Target>
+  </Targets>
+</CodeMetricsReport>
+```
+
+::: moniker-end
+::: moniker range="vs-2017"
+
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <CodeMetricsReport Version="1.0">
@@ -207,6 +265,8 @@ The generated XML output takes the following format:
 </CodeMetricsReport>
 ```
 
+::: moniker-end
+
 ### Metrics.exe
 
 If you don't want to install the NuGet package, you can generate and use the *Metrics.exe* executable directly. To generate the *Metrics.exe* executable:
@@ -214,7 +274,7 @@ If you don't want to install the NuGet package, you can generate and use the *Me
 1. Clone the [dotnet/roslyn-analyzers](https://github.com/dotnet/roslyn-analyzers) repo.
 2. Open Developer Command Prompt for Visual Studio as an administrator.
 3. From the root of the **roslyn-analyzers** repo, execute the following command: `Restore.cmd`
-4. Change directory to *src\Tools*.
+4. Change the directory to *src\Tools\Metrics*.
 5. Execute the following command to build the **Metrics.csproj** project:
 
    ```shell
@@ -247,13 +307,24 @@ For more information, see [Enable generating code metrics in legacy mode](https:
 
 ### Previous versions
 
+::: moniker range=">=vs-2019"
+Visual Studio 2015 included a command-line code metrics tool that was also called *Metrics.exe*. This previous version of the tool did a binary analysis, that is, an assembly-based analysis. The newer version of the *Metrics.exe* tool analyzes source code instead. Because the newer *Metrics.exe* tool is source code-based, command-line code metrics results may be different to those generated by the Visual Studio IDE and by previous versions of *Metrics.exe*. Starting in Visual Studio 2019, the Visual Studio IDE analyzes source code like the command-line tool and the results should be the same.
+
+::: moniker-end
+::: moniker range="vs-2017"
 Visual Studio 2015 included a command-line code metrics tool that was also called *Metrics.exe*. This previous version of the tool did a binary analysis, that is, an assembly-based analysis. The new *Metrics.exe* tool analyzes source code instead. Because the new *Metrics.exe* tool is source code-based, command-line code metrics results are different to those generated by the Visual Studio IDE and by previous versions of *Metrics.exe*.
+::: moniker-end
 
 The new command-line code metrics tool computes metrics even in the presence of source code errors, as long as the solution and project can be loaded.
 
 #### Metric value differences
 
+::: moniker range=">=vs-2019"
+Starting in Visual Studio 2019 version 16.4 and Microsoft.CodeAnalysis.Metics (2.9.5), `SourceLines` and `ExecutableLines` replace the previous `LinesOfCode` metric. For descriptions of the new metrics, see [Code metrics values](../code-quality/code-metrics-values.md). The `LinesOfCode` metric is available in legacy mode.
+::: moniker-end
+::: moniker range="vs-2017"
 The `LinesOfCode` metric is more accurate and reliable in the new command-line code metrics tool. It's independent of any codegen differences and doesn’t change when the toolset or runtime changes. The new tool counts actual lines of code, including blank lines and comments.
+::: moniker-end
 
 Other metrics such as `CyclomaticComplexity` and `MaintainabilityIndex` use the same formulas as previous versions of *Metrics.exe*, but the new tool counts the number of `IOperations` (logical source instructions) instead of intermediate language (IL) instructions. The numbers will be slightly different to those generated by the Visual Studio IDE and by previous versions of *Metrics.exe*.
 

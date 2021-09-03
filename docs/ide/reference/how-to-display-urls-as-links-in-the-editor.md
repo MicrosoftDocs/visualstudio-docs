@@ -1,17 +1,20 @@
 ---
-title: "How to: Display URLs as Links in the Editor"
+title: 'How to: Display URLs as Links in the Editor'
+description: Learn how to display URLs as links in the code editor.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
-  - "URLs, opening"
-  - "Code Editor, displaying URLs"
-  - "editors, displaying URLs"
+- URLs, opening
+- Code Editor, displaying URLs
+- editors, displaying URLs
 ms.assetid: 7c673953-476e-4897-9c2d-1fc15556c172
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Display URLs as Links in the Editor
 

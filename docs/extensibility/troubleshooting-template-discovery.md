@@ -1,12 +1,15 @@
 ---
-title: "Troubleshoot template discovery in Visual Studio | Microsoft Docs"
-ms.date: "01/02/2018"
-ms.topic: "conceptual"
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+title: Troubleshoot template discovery in Visual Studio | Microsoft Docs
+description: Learn how to enable diagnostic logging to troubleshoot deploying custom projects and templates in the Visual Studio SDK.
+ms.custom: SEO-VS-2020
+ms.date: 01/02/2018
+ms.topic: troubleshooting
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Troubleshooting template installation
 
@@ -31,7 +34,7 @@ If you run into problems deploying your project or item templates, you can enabl
     "EnableTemplateDiscoveryLog"=dword:00000001
     ```
 
-3. Open a [Developer Command Prompt](/dotnet/framework/tools/developer-command-prompt-for-vs) for your installation and run `devenv /updateConfiguration`.
+3. Open a [Developer Command Prompt](../ide/reference/command-prompt-powershell.md) for your installation and run `devenv /updateConfiguration`.
 
 ::: moniker range="vs-2017"
 
@@ -67,3 +70,4 @@ The log file contains the following columns:
 ## See also
 
 - [Creating custom project and item templates](creating-custom-project-and-item-templates.md)
+- [Visual Studio troubleshooting](/troubleshoot/visualstudio/welcome-visual-studio/)

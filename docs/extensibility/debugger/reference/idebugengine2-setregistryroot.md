@@ -1,20 +1,22 @@
 ---
-title: "IDebugEngine2::SetRegistryRoot | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Sets the registry root for the debug engine (DE)."
+title: IDebugEngine2::SetRegistryRoot | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugEngine2::SetRegistryRoot"
+- IDebugEngine2::SetRegistryRoot
 helpviewer_keywords:
-  - "IDebugEngine2::SetRegistryRoot"
+- IDebugEngine2::SetRegistryRoot
 ms.assetid: d0d81202-8a4a-4bc3-b297-30a047c5ec60
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugEngine2::SetRegistryRoot
 Sets the registry root for the debug engine (DE).

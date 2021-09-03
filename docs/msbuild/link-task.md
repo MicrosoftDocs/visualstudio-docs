@@ -1,40 +1,45 @@
 ---
-title: "Link Task | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
+title: Link Task | Microsoft Docs
+description: Learn how MSBuild uses the Link task to wrap the Microsoft C++ linker tool, link.exe, which links COFF object files and libraries.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: reference
 f1_keywords:
-  - "VC.Project.VCLinkerTool.ForceFileOutput"
-  - "VC.Project.VCLinkerTool.LinkStatus"
-  - "VC.Project.VCLinkerTool.CLRUnmanagedCodeCheck"
-  - "VC.Project.VCLinkerTool.SpecifySectionAttributes"
-  - "VC.Project.VCLinkerTool.SupportNobindOfDelayLoadedDLL"
-  - "VC.Project.VCLinkerTool.MinimumRequiredVersion"
-  - "VC.Project.VCLinkerTool.PerUserRedirection"
-  - "VC.Project.VCLinkerTool.CreateHotPatchableImage"
-  - "VC.Project.VCLinkerTool.DataExecutionPrevention"
-  - "VC.Project.VCLinkerTool.TreatLinkerWarningsAsErrors"
-  - "vc.task.link"
-  - "VC.Project.VCLinkerTool.ImageHasSafeExceptionHandlers"
-  - "VC.Project.VCLinkerTool.CLRSupportLastError"
+- VC.Project.VCLinkerTool.ForceFileOutput
+- VC.Project.VCLinkerTool.LinkStatus
+- VC.Project.VCLinkerTool.CLRUnmanagedCodeCheck
+- VC.Project.VCLinkerTool.SpecifySectionAttributes
+- VC.Project.VCLinkerTool.SupportNobindOfDelayLoadedDLL
+- VC.Project.VCLinkerTool.MinimumRequiredVersion
+- VC.Project.VCLinkerTool.PerUserRedirection
+- VC.Project.VCLinkerTool.CreateHotPatchableImage
+- VC.Project.VCLinkerTool.DataExecutionPrevention
+- VC.Project.VCLinkerTool.TreatLinkerWarningsAsErrors
+- vc.task.link
+- VC.Project.VCLinkerTool.ImageHasSafeExceptionHandlers
+- VC.Project.VCLinkerTool.CLRSupportLastError
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+- VB
+- CSharp
+- C++
+- jsharp
 helpviewer_keywords:
-  - "MSBuild (Visual C++), Link task"
-  - "Link task (MSBuild (Visual C++))"
+- MSBuild (C++), Link task
+- Link task (MSBuild (C++))
 ms.assetid: 0a61f168-3113-4fa7-83a3-d9142e2a33f8
-author: mikejo5000
-ms.author: mikejo
-manager: jillfra
+author: ghogen
+ms.author: ghogen
+manager: jmartens
+ms.technology: msbuild
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Link task
-Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Object File Format (COFF) object files and libraries to create an executable (*.exe*) file or a dynamic-link library (DLL). For more information, see [Linker options](/cpp/build/reference/linker-options).
+
+Wraps the Microsoft C++ linker tool, *link.exe*. The linker tool links Common Object File Format (COFF) object files and libraries to create an executable (*.exe*) file or a dynamic-link library (DLL). For more information, see [Linker options](/cpp/build/reference/linker-options) and [Use MSBuild from the command line](/cpp/build/msbuild-visual-cpp) and [Use the Microsoft C++ toolset from the command line](/cpp/build/building-on-the-command-line).
 
 ## Parameters
+
  The following describes the parameters of the **Link** task. Most task parameters, and a few sets of parameters, correspond to a command-line option.
 
 - **AdditionalDependencies**
@@ -59,7 +64,7 @@ Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Objec
 
   Specifies attributes that will be placed in the `dependency` section of the manifest file.
 
-  For more information, see [/MANIFESTDEPENDENCY (Specify manifest dependencies)](/cpp/build/reference/manifestdependency-specify-manifest-dependencies). Also see [Publisher configuration files](https://docs.microsoft.com/windows/desktop/SbsCs/publisher-configuration-files).
+  For more information, see [/MANIFESTDEPENDENCY (Specify manifest dependencies)](/cpp/build/reference/manifestdependency-specify-manifest-dependencies). Also see [Publisher configuration files](/windows/desktop/SbsCs/publisher-configuration-files).
 
 - **AdditionalOptions**
 
@@ -918,4 +923,5 @@ Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Objec
   For more information, see [/VERSION (Version information)](/cpp/build/reference/version-version-information).
 
 ## See also
+
 - [Task reference](../msbuild/msbuild-task-reference.md)

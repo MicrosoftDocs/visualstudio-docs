@@ -1,7 +1,8 @@
 ---
+description: "Retrieves the offset part of the memory address where a block begins."
 title: "IDiaLineNumber::get_addressOffset | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,8 @@ helpviewer_keywords:
 ms.assetid: 3bcb5500-b26c-4d3c-9d81-0a389a3715c3
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -40,6 +42,6 @@ DWORD offset;
 pLine->get_addressOffset( &offset);
 ```
 
-## See Also
+## See also
 - [IDiaLineNumber](../../debugger/debug-interface-access/idialinenumber.md)
 - [IDiaLineNumber::get_addressSection](../../debugger/debug-interface-access/idialinenumber-get-addresssection.md)

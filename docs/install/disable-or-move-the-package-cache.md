@@ -1,21 +1,21 @@
 ---
-title: "Disable or move the package cache"
-description: "Learn how to disable, enable, or move the package cache for Visual Studio deployments."
+title: Disable or move the package cache
+description: Learn how to disable, enable, or move the package cache for Visual Studio deployments.
 ms.date: 04/14/2017
-ms.custom: "seodec18"
+ms.custom: seodec18
 ms.topic: conceptual
 f1_keywords:
-  - "cache"
-  - "nocache"
+- cache
+- nocache
 helpviewer_keywords:
-  - "{{PLACEHOLDER}}"
-  - "{{PLACEHOLDER}}"
+- '{{PLACEHOLDER}}'
+- '{{PLACEHOLDER}}'
 ms.assetid: 2429993A-3F0E-41C5-9562-FEA6AE994440
-author: heaths
-ms.author: tglee
-manager: jillfra
+author: anandmeg
+ms.author: meghaanand
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
 ---
@@ -30,7 +30,7 @@ The installer will download them when needed, so if you want to save or recover 
 Before you install, modify, or repair Visual Studio or other products with the new installer, you can start the installer with the
 `--nocache` switch to the installer.
 
-```cmd
+```shell
 "%ProgramFiles(x86)%\Microsoft Visual Studio\Installer\vs_installer.exe" --nocache
 ```
 
@@ -41,7 +41,7 @@ they are installed.
 If you want to re-enable the cache, pass `--cache` instead. Only packages that are required will be cached, so if you need to restore
 all packages, you should repair Visual Studio before you disconnect from your network.
 
-```cmd
+```shell
 "%ProgramFiles(x86)%\Microsoft Visual Studio\Installer\vs_installer.exe" repair --passive --norestart --cache
 ```
 

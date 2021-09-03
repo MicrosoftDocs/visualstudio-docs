@@ -1,30 +1,32 @@
 ---
 title: JavaScript IntelliSense
+description: Learn how Visual Studio delivers richer IntelliSense, support for modern JavaScript features, and improved productivity features.
+ms.custom: SEO-VS-2020
 ms.date: 06/28/2017
 ms.topic: conceptual
 ms.technology: vs-javascript
 helpviewer_keywords:
-  - "IntelliSense [JavaScript]"
-  - "<reference> JavaScript XML tag"
-  - "JavaScript Code Editor"
-  - "XML code comments, JavaScript IntelliSense"
-  - "reference JavaScript XML tag"
-  - "JavaScript, IntelliSense"
-  - "code comments, JavaScript IntelliSense"
-  - "JavaScript, reference groups"
-  - "JavaScript Editor"
-  - "reference directives [JavaScript]"
-  - "JavaScript, XML documentation comments"
-  - "reference groups [JavaScript]"
-  - "JavaScript, reference directives"
-  - "IntelliSense [JavaScript], about"
-  - "IntelliSense extensibility [JavaScript]"
-  - "XML documentation comments [JavaScript]"
-author: mikejo5000
-ms.author: mikejo
-manager: jillfra
+- IntelliSense [JavaScript]
+- <reference> JavaScript XML tag
+- JavaScript Code Editor
+- XML code comments, JavaScript IntelliSense
+- reference JavaScript XML tag
+- JavaScript, IntelliSense
+- code comments, JavaScript IntelliSense
+- JavaScript, reference groups
+- JavaScript Editor
+- reference directives [JavaScript]
+- JavaScript, XML documentation comments
+- reference groups [JavaScript]
+- JavaScript, reference directives
+- IntelliSense [JavaScript], about
+- IntelliSense extensibility [JavaScript]
+- XML documentation comments [JavaScript]
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # JavaScript IntelliSense
 

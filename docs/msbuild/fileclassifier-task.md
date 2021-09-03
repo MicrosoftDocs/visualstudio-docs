@@ -1,5 +1,7 @@
 ---
 title: "FileClassifier Task | Microsoft Docs"
+description: Use the MSBuild FileClassifier task to classify a set of source resources that will be embedded into an assembly.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
@@ -12,13 +14,15 @@ helpviewer_keywords:
   - "non-localizable resources [WPF MSBuild], classifying to embed in an assembly"
   - "FileClassifier task [WPF MSBuild]"
 ms.assetid: 14e03310-fcc0-4bb2-a84d-cda12be66367
-author: mikejo5000
-ms.author: mikejo
-manager: jillfra
+author: ghogen
+ms.author: ghogen
+manager: jmartens
+ms.technology: msbuild
 ms.workload:
   - "multiple"
 ---
 # FileClassifier task
+
 The <xref:Microsoft.Build.Tasks.Windows.FileClassifier> task classifies a set of source resources as those that will be embedded into an assembly. If a resource is not localizable, it is embedded into the main application assembly; otherwise, it is embedded into a satellite assembly.
 
 ## Task parameters
@@ -35,9 +39,11 @@ The <xref:Microsoft.Build.Tasks.Windows.FileClassifier> task classifies a set of
 |`SourceFiles`|Required **ITaskItem[]** parameter.<br /><br /> Specifies the list of files to classify.|
 
 ## Remarks
+
 If the **Culture** parameter is not set, all resources that are specified by using the **SourceFiles** parameter are non-localizable; otherwise, they are localizable, unless they are associated with a **Localizable** attribute that is set to **false**.
 
 ## Example
+
 The following example classifies a single source file as a resource and then embeds it in a satellite assembly for the French-Canadian (fr-CA) culture.
 
 ```xml
@@ -58,6 +64,7 @@ The following example classifies a single source file as a resource and then emb
 ```
 
 ## See also
+
 - [WPF MSBuild reference](../msbuild/wpf-msbuild-reference.md)
 - [Task reference](../msbuild/wpf-msbuild-task-reference.md)
 - [MSBuild reference](../msbuild/msbuild-reference.md)

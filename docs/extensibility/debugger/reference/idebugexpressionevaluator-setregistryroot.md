@@ -1,20 +1,22 @@
 ---
-title: "IDebugExpressionEvaluator::SetRegistryRoot | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "This method sets the registry root."
+title: IDebugExpressionEvaluator::SetRegistryRoot | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugExpressionEvaluator::SetRegistryRoot"
+- IDebugExpressionEvaluator::SetRegistryRoot
 helpviewer_keywords:
-  - "IDebugExpressionEvaluator::SetRegistryRoot method"
+- IDebugExpressionEvaluator::SetRegistryRoot method
 ms.assetid: 790886d8-1975-4d3c-9a75-cd86c1faf4ca
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugExpressionEvaluator::SetRegistryRoot
 This method sets the registry root. Used for side-by-side debugging.

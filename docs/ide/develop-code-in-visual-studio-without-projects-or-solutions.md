@@ -1,16 +1,19 @@
 ---
 title: Develop code without projects or solutions
-ms.date: 02/21/2018
-ms.topic: conceptual
+description: Learn how to develop code directly in Visual Studio without a need for projects or solutions.
+ms.custom: SEO-VS-2020
+ms.date: 06/22/2020
+ms.topic: how-to
 helpviewer_keywords:
-  - "open folder [Visual Studio]"
-  - "anycode [Visual Studio]"
-  - projects and solutions, develop code without
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+- open folder [Visual Studio]
+- anycode [Visual Studio]
+- projects and solutions, develop code without
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Develop code in Visual Studio without projects or solutions
 
@@ -20,7 +23,7 @@ After you open your code files in Visual Studio, **Solution Explorer** displays 
 
 ## Open any code
 
-You can open code into Visual Studio in any of the following ways:
+You can open code into Visual Studio in the following ways:
 
 - On the Visual Studio menu bar, choose **File** > **Open** > **Folder**, and then browse to the code location.
 
@@ -28,10 +31,18 @@ You can open code into Visual Studio in any of the following ways:
 
 ::: moniker range="vs-2017"
 - Choose the **Open Folder** link on the Visual Studio **Start Page**.
+
+    > [!IMPORTANT]
+    > Not all code can be opened by using the **Open Folder** link from the Visual Studio **Start Page**. For example, if your code file was saved as part of a solution&mdash;in other words, in an .sln file&mdash;you must use one of the other options listed here to open your code.
+
 ::: moniker-end
 
 ::: moniker range=">=vs-2019"
 - Choose the **Open Folder** link on the start window.
+
+    > [!IMPORTANT]
+    > Not all code can be opened by using the **Open Folder** link from the Visual Studio start window. For example, if your code file was saved as part of a solution&mdash;in other words, in an .sln file&mdash;you must use one of the other options listed here to open your code.
+
 ::: moniker-end
 
 - If you are a keyboard user, press **Ctrl**+**Shift**+**Alt**+**O** in Visual Studio.

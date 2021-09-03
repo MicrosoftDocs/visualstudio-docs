@@ -1,5 +1,7 @@
 ---
 title: "Use WPF controls in Office solutions"
+description: Learn how you can use Windows Presentation Foundation (WPF) controls for designing user interfaces in Visual Studio.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -9,13 +11,14 @@ helpviewer_keywords:
   - "WPF [Office development in Visual Studio]"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
+ms.technology: office-development
 ms.workload:
   - "office"
 ---
 # Use WPF controls in Office solutions
 
-Although solutions created by using the Office development tools in Visual Studio are designed to work with directly with Windows Forms controls, you can also use WPF controls in your solutions. Windows Presentation Foundation (WPF) is an alternative to Windows Forms for designing user interfaces. WPF uses a markup language called Extensible Application Markup Language (XAML) to provide new techniques for incorporating UI, media, and documents. For more information, see [WPF overview](../designers/introduction-to-wpf.md).
+Although solutions created by using the Office development tools in Visual Studio are designed to work with directly with Windows Forms controls, you can also use WPF controls in your solutions. Windows Presentation Foundation (WPF) is an alternative to Windows Forms for designing user interfaces. WPF uses a markup language called Extensible Application Markup Language (XAML) to provide new techniques for incorporating UI, media, and documents. For more information, see [WPF overview](/dotnet/framework/wpf/introduction-to-wpf).
 
 [!INCLUDE[appliesto_all](../vsto/includes/appliesto-all-md.md)]
 
@@ -77,7 +80,7 @@ You cannot add WPF controls directly to UI elements in Office solutions. Instead
 
      Visual Studio automatically creates an <xref:System.Windows.Forms.Integration.ElementHost> object that hosts the WPF user control in the Windows Forms user control.
 
-8. Write code that programmatically adds the Windows Forms user control to the document or workbook. For more information, see [Add controls to Office documents at runtime](../vsto/adding-controls-to-office-documents-at-run-time.md).
+8. Write code that programmatically adds the Windows Forms user control to the document or workbook. For more information, see [Add controls to Office documents at run time](../vsto/adding-controls-to-office-documents-at-run-time.md).
 
     > [!NOTE]
     > You cannot drag the Windows Forms user control to the document or worksheet in the designer.
@@ -86,7 +89,7 @@ You cannot add WPF controls directly to UI elements in Office solutions. Instead
 
 ## Host WPF controls by using the ElementHost class
 
-Visual Studio provides features that help you use Windows Forms controls in your Office solutions, but it does not provide similar features for WPF controls. For example, you can add Windows Forms controls to documents and worksheets at design time by dragging controls from the **Toolbox**, or at runtime by using helper methods. However, these tools are not available for WPF controls.
+Visual Studio provides features that help you use Windows Forms controls in your Office solutions, but it does not provide similar features for WPF controls. For example, you can add Windows Forms controls to documents and worksheets at design time by dragging controls from the **Toolbox**, or at run time by using helper methods. However, these tools are not available for WPF controls.
 
 WPF controls use the <xref:System.Windows.Forms.Integration.ElementHost> class as an integration layer between a Windows Forms control or form and the WPF controls. When you add WPF controls to your solution at design time, Visual Studio automatically generates an <xref:System.Windows.Forms.Integration.ElementHost> object for you.
 

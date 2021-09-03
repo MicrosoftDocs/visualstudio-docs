@@ -1,23 +1,26 @@
 ---
 title: Shell Command
+description: Learn about the Shell command and how it launches executable programs from within Visual Studio.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "tools.shell"
+- tools.shell
 helpviewer_keywords:
-  - "exe files"
-  - "Shell command"
-  - "Tools.Shell command"
-  - "executables, running from Visual Studio"
-  - ".exe files"
-  - "Shell, launching exe files"
-  - "Visual Studio, executables from"
+- exe files
+- Shell command
+- Tools.Shell command
+- executables, running from Visual Studio
+- .exe files
+- Shell, launching exe files
+- Visual Studio, executables from
 ms.assetid: 737fda23-b852-45c4-a9fe-41cbce6ba70f
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Shell Command
 Launches executable programs from within [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)].
@@ -78,7 +81,7 @@ The following command uses xcopy.exe to copy the file `MyText.txt` into the `Tex
 >Tools.Shell /o /c xcopy.exe c:\MyText.txt c:\Text\MyText.txt
 ```
 
-## See Also
+## See also
 
 - [Visual Studio Commands](../../ide/reference/visual-studio-commands.md)
 - [Command Window](../../ide/reference/command-window.md)

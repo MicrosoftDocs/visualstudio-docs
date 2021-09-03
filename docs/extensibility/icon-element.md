@@ -1,16 +1,19 @@
 ---
-title: "Icon Element | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Icon Element | Microsoft Docs
+description: Learn about the Icon element, which represents icons used in Visual Studio IDE extensions, which includes attributes for the bitmap used and the slot in the bitmap strip.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: reference
 helpviewer_keywords:
-  - "VSCT XML schema elements, Icon"
-  - "Icon element (VSCT XML schema)"
+- VSCT XML schema elements, Icon
+- Icon element (VSCT XML schema)
 ms.assetid: 73c58fe3-d53c-4f4e-b025-29567c6cbb7c
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Icon element
 The guid attribute of the Icon tag is the guid of a defined bitmap. The `id` attribute selects the slot in the bitmap strip. This element is optional. If this element is not included the value of **guidOfficeIcon:msotcidNoIcon** will be implied.

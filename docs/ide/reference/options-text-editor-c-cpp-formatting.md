@@ -1,21 +1,23 @@
 ---
 title: Options, Text Editor, C/C++, Formatting
+description: Learn how to use the Formatting options page and its subpages to set options for formatting code in the code editor when you are programming in C and C++.
+ms.custom: SEO-VS-2020
 ms.date: 04/30/2018
 ms.topic: reference
 f1_keywords:
-  - "VS.ToolsOptionsPages.Text_Editor.C/C++.Formatting.General"
-  - "VS.ToolsOptionsPages.Text_Editor.C%2fC%2b%2b.Formatting.General"
+- VS.ToolsOptionsPages.Text_Editor.C/C++.Formatting.General
+- VS.ToolsOptionsPages.Text_Editor.C%2fC%2b%2b.Formatting.General
 dev_langs:
-  - "CPP"
+- CPP
 helpviewer_keywords:
-  - "Text Editor Options dialog box, formatting"
-  - "ClangFormat"
+- Text Editor Options dialog box, formatting
+- ClangFormat
 ms.assetid: cb6f1cbb-5305-48da-a8e8-33fd70775d46
-author: mikeblome
-ms.author: mblome
+author: TerryGLee
+ms.author: tglee
 manager: markl
 ms.workload:
-  - "cplusplus"
+- cplusplus
 ---
 # Options, Text Editor, C/C++, Formatting
 

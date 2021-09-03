@@ -1,20 +1,22 @@
 ---
-title: "IDebugStackFrame2::GetLanguageInfo | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Gets the language associated with this stack frame."
+title: IDebugStackFrame2::GetLanguageInfo | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugStackFrame2::GetLanguageInfo"
+- IDebugStackFrame2::GetLanguageInfo
 helpviewer_keywords:
-  - "IDebugStackFrame2::GetLanguageInfo"
+- IDebugStackFrame2::GetLanguageInfo
 ms.assetid: 0e12fd92-f155-46a7-8272-cda279388cfb
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugStackFrame2::GetLanguageInfo
 

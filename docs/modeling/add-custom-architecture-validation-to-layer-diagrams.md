@@ -1,14 +1,18 @@
 ---
 title: Add custom architecture validation to dependency diagrams
+description: Provides information about how to add custom architecture validation to dependency diagrams.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
+titleSuffix: ""
 helpviewer_keywords:
-  - "dependency diagrams, adding custom validation"
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+- dependency diagrams, adding custom validation
+author: mgoertz-msft
+ms.author: mgoertz
+manager: jmartens
+ms.technology: vs-ide-modeling
+ms.custom: SEO-VS-2020
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Add custom architecture validation to dependency diagrams
 
@@ -281,6 +285,6 @@ namespace Validator3
 }
 ```
 
-## See Also
+## See also
 
 - [Extend dependency diagrams](../modeling/extend-layer-diagrams.md)

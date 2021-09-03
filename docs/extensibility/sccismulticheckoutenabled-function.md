@@ -1,17 +1,19 @@
 ---
-title: "SccIsMultiCheckoutEnabled Function | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+description: "This function checks whether the source control plug-in allows multiple checkouts on a file."
+title: SccIsMultiCheckoutEnabled Function | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: reference
 f1_keywords:
-  - "SccIsMultiCheckoutEnabled"
+- SccIsMultiCheckoutEnabled
 helpviewer_keywords:
-  - "SccIsMultiCheckoutEnabled function"
+- SccIsMultiCheckoutEnabled function
 ms.assetid: 6721639d-e475-4766-81b5-ee40a280fc70
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # SccIsMultiCheckoutEnabled Function
 This function checks whether the source control plug-in allows multiple checkouts on a file.
@@ -45,5 +47,5 @@ SCCRTN SccIsMultiCheckoutEnabled(
 ## Remarks
  The IDE makes two checks to determine if files can be checked out simultaneously by more than one user. First, the source control system must support multiple checkouts. The source control plug-in can specify this capability during initialization by specifying the `SCC_CAP_MULTICHECKOUT`. Thereafter, as a second check, the IDE calls this function to determine whether or not the current project supports multiple checkouts. If multiple checkouts are supported for the selected project, the plug-in returns a success code and sets `pbMultiCheckout` to nonzero (`TRUE`) or `FALSE`.
 
-## See Also
+## See also
 - [Source Control Plug-in API Functions](../extensibility/source-control-plug-in-api-functions.md)

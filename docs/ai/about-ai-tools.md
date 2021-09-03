@@ -3,9 +3,11 @@ title: AI Tools for Visual Studio
 titleSuffix: ""
 description: Overview of AI Tools for Visual Studio
 keywords: ai, visual studio
-author: lisawong19
-ms.author: liwong
-manager: routlaw
+author: jillre
+ms.author: jillfra
+manager: jmartens
+ms.technology: vs-ai-tools
+monikerRange: vs-2017
 ms.date: 11/13/2017
 ms.topic: "conceptual"
 ms.workload:
@@ -15,7 +17,7 @@ ms.workload:
 
 Visual Studio Tools for AI is an extension to build, test, and deploy Deep Learning / AI solutions. It seamlessly integrates with Azure Machine Learning for robust experimentation capabilities, including but not limited to submitting data preparation and model training jobs transparently to different compute targets. Additionally, it provides support for custom metrics and run history tracking, enabling data science reproducibility and auditing. Enterprise ready collaboration, allow to securely work on project with other people.
 
-Get started with deep learning using [Microsoft Cognitive Toolkit (CNTK)](http://www.microsoft.com/en-us/cognitive-toolkit), [Google TensorFlow](https://www.tensorflow.org), or other deep-learning frameworks today.
+Get started with deep learning using [Microsoft Cognitive Toolkit (CNTK)](/cognitive-toolkit/), [Google TensorFlow](https://www.tensorflow.org), or other deep-learning frameworks today.
 
 ## Develop, debug, and deploy deep learning models and AI solutions
 Use the productivity features of Visual Studio to accelerate AI innovation today. Use built-in code editor features like syntax highlighting, IntelliSense, and text auto formatting. You can interactively test your deep learning application in your local environment using step-through debugging on local variables and models.
@@ -40,4 +42,4 @@ This extension makes it easy to train models on your local computer or you can s
 Currently this extension supports Windows 64-bit operating systems.
 
 ## Support
-Support for this extension is provided on our [GitHub Issue Tracker](http://github.com/Microsoft/vs-tools-for-ai/issues). You can submit a bug report or feature suggestion and participate in discussions.
+Support for this extension is provided on our [GitHub Issue Tracker](https://github.com/Microsoft/vs-tools-for-ai/issues). You can submit a bug report or feature suggestion and participate in discussions.

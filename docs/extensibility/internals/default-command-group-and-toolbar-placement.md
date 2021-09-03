@@ -1,20 +1,23 @@
 ---
-title: "Default Command, Group, and Toolbar Placement | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Default Command, Group, and Toolbar Placement | Microsoft Docs
+description: Learn about the IDE commands, product commands, and editor commands, that the Visual Studio user interface displays by default.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "commands [Visual Studio], default groups"
-  - "toolbars [Visual Studio], default"
-  - "commands [Visual Studio], default editor"
-  - "command groups"
-  - "commands [Visual Studio], default IDE"
-  - "commands [Visual Studio], default product"
+- commands [Visual Studio], default groups
+- toolbars [Visual Studio], default
+- commands [Visual Studio], default editor
+- command groups
+- commands [Visual Studio], default IDE
+- commands [Visual Studio], default product
 ms.assetid: 35342110-d639-4577-8367-00b21dcc6f07
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Default command, group, and toolbar placement
 For product uniformity and stability, the UI displays certain command groups by default, and [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] provides definitions for commands and command groups. VSPackages can also use the standard commands and command groups.

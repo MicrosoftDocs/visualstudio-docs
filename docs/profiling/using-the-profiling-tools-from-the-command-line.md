@@ -1,19 +1,22 @@
 ---
-title: "Using the Profiling Tools From the Command-Line | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-helpviewer_keywords:
-  - "command line, performance tools"
-  - "command-line tools, performance tools"
-  - "profiling tools,command line"
-  - "tools, command-line"
-  - "command line, tools"
+title: Using the Profiling Tools From the Command-Line | Microsoft Docs
+description: Use the command-line tools of Visual Studio Profiling Tools to profile applications and to automate profiling by using batch files and scripting.
+ms.date: 11/04/2016
+ms.topic: how-to
+helpviewer_keywords: 
+  - command line, performance tools
+  - command-line tools, performance tools
+  - profiling tools,command line
+  - tools, command-line
+  - command line, tools
 ms.assetid: 6593fa82-181e-4009-a0ed-02aa24c2c063
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
-ms.workload:
-  - "multiple"
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.technology: vs-ide-debug
+monikerRange: 'vs-2017'
+ms.workload: 
+  - multiple
 ---
 # Use the Profiling Tools from the command-line
 You can use the command-line tools of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools to profile applications at the command prompt and to automate profiling by using batch files and scripting. You can also generate report files at a command prompt. You can use the lightweight stand-alone profiler to collect data on computers that do not have [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] installed.

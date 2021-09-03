@@ -1,11 +1,14 @@
 ---
 title: "Step 9: Try other features"
+description: Learn how to change icons and colors, add a game timer, add sounds, and make the game board bigger.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: tutorial
 ms.assetid: 1b0c5c80-e5a6-4f69-a4a4-0e89a82d4de0
-author: TerryGLee
-ms.author: tglee
-manager: jillfra
+author: anandmeg
+ms.author: meghaanand
+manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
   - "multiple"
 ---
@@ -29,7 +32,7 @@ To download a completed version of the sample, see [Complete matching game tutor
 - Add a sound when the player finds a match, another sound when the player uncovers two icons that don't match, and a third sound when the program hides the icons again.
 
     > [!TIP]
-    > To play sounds, you can use the <xref:System.Media> namespace. See [Play sounds in Windows Forms app (C#)](http://youtu.be/qOh4ooHg1UU) or [How to play audio in Visual Basic](http://youtu.be/-4oPDeQrtMs) for more information.
+    > To play sounds, you can use the <xref:System.Media> namespace. See [Play sounds in Windows Forms app (C#)](https://www.youtube.com/watch?v=qOh4ooHg1UU&feature=youtu.be) or [How to play audio in Visual Basic](https://www.youtube.com/watch?v=-4oPDeQrtMs&feature=youtu.be) for more information.
 
 - Make the game more difficult by making the board bigger.
 
@@ -40,8 +43,6 @@ To download a completed version of the sample, see [Complete matching game tutor
 
 ## To continue or review
 
-- If you get stuck or have programming questions, try posting your question on one of the MSDN forums. See [Visual Basic forum](https://social.msdn.microsoft.com/Forums/vstudio/home?forum=vbgeneral) and [Visual C# forum](https://social.msdn.microsoft.com/Forums/vstudio/home?forum=csharpgeneral).
-
-- There are great, free video learning resources available to you. To learn more about programming in Visual Basic, see [Visual Basic fundamentals: Development for absolute beginners](https://channel9.msdn.com/Series/Visual-Basic-Development-for-Absolute-Beginners). To learn more about programming in Visual C#, see [C# fundamentals: Development for absolute beginners](https://channel9.msdn.com/Series/C-Sharp-Fundamentals-Development-for-Absolute-Beginners).
+- There are great, free video learning resources available to you. To learn more about programming in Visual Basic, see [Visual Basic fundamentals: Development for absolute beginners](https://channel9.msdn.com/Series/Visual-Basic-Development-for-Absolute-Beginners). To learn more about programming in C#, see [C# fundamentals: Development for absolute beginners](https://channel9.msdn.com/Series/C-Sharp-Fundamentals-Development-for-Absolute-Beginners).
 
 - To return to the previous tutorial step, see [Step 8: Add a method to verify whether the player won](../ide/step-8-add-a-method-to-verify-whether-the-player-won.md).

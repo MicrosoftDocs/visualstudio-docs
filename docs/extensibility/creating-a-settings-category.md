@@ -1,15 +1,18 @@
 ---
-title: "Creating a Settings Category | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Creating a Settings Category | Microsoft Docs
+description: Learn how to create a Visual Studio settings category and use it to save and restore values from a settings file.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
 helpviewer_keywords:
-  - "profile settings, creating categories"
+- profile settings, creating categories
 ms.assetid: 97c88693-05ff-499e-8c43-352ee073dcb7
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Create a settings category
 
@@ -110,7 +113,9 @@ To start this walkthrough, you must first complete the first section of [Create 
 
 9. Name the new settings file *MySettings.vssettings* and save it in an appropriate directory. Click **Finish**.
 
-     The **Export Complete** page reports that your settings were successfully exported.
+   The `.vssettings` file is the Visual Studio settings file. The file’s schema is open. Most commonly, the schema follows an XML structure where each category is a tag, which can itself contain subcategory tags. These sub-category tags can contain property value tags. While most packages use the common structure, any package in Visual Studio can contribute arbitrary XML to the file with the schema it chooses.
+
+   The **Export Complete** page reports that your settings were successfully exported.
 
 10. On the **File** menu, point to **Open**, and then click **File**. Locate *MySettings.vssettings* and open it.
 

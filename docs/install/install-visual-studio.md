@@ -1,23 +1,21 @@
 ---
-title: "Install Visual Studio"
-titleSuffix: ""
-description: "Learn how to install Visual Studio, step-by-step."
-ms.date: 04/16/2019
-ms.custom: "seodec18"
+title: Install Visual Studio
+titleSuffix: ''
+description: Learn how to install Visual Studio, step-by-step.
+ms.date: 12/13/2019
+ms.custom: vs-acquisition
 ms.topic: conceptual
-f1_keywords:
-  - "vs.about"
 helpviewer_keywords:
-  - "install Visual Studio"
-  - "dev15"
-  - "set up Visual Studio"
-  - "Visual Studio setup"
-  - "Visual Studio installer"
-author: TerryGLee
-ms.author: tglee
-manager: jillfra
+- install Visual Studio
+- dev15
+- set up Visual Studio
+- Visual Studio setup
+- Visual Studio installer
+author: anandmeg
+ms.author: meghaanand
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
 ---
@@ -26,6 +24,12 @@ ms.technology: vs-installation
 ::: moniker range="vs-2019"
 
 Welcome to Visual Studio 2019! In this version, it's easy to choose and install just the features you need. And because of its reduced minimum footprint, it installs quickly and with less system impact.
+
+::: moniker-end
+
+::: moniker range=">=vs-2022"
+
+Welcome to Visual Studio 2022! In this version, it's easy to choose and install just the features you need. And because of its reduced minimum footprint, it installs quickly and with less system impact.
 
 ::: moniker-end
 
@@ -41,6 +45,12 @@ Welcome to a new way to install Visual Studio! In this version, we've made it ea
 ::: moniker range="vs-2019"
 
 Want to know more about what else is new in this version? See our [release notes](/visualstudio/releases/2019/release-notes/).
+
+::: moniker-end
+
+::: moniker range=">=vs-2022"
+
+Want to know more about what else is new in this version? See our [release notes](/visualstudio/releases/2022/release-notes/).
 
 ::: moniker-end
 
@@ -76,7 +86,19 @@ Before you begin installing Visual Studio:
 
 1. Reboot. The reboot ensures that any pending installs or updates don't hinder the Visual Studio install.
 
-1. Free up space. Remove unneeded files and applications from your %SystemDrive% by, for example, running the Disk Cleanup app. 
+1. Free up space. Remove unneeded files and applications from your %SystemDrive% by, for example, running the Disk Cleanup app.
+
+::: moniker-end
+
+::: moniker range=">=vs-2022"
+
+1. Check the [system requirements](/visualstudio/releases/2022/system-requirements). These requirements help you know whether your computer supports Visual Studio 2022.
+
+1. Apply the latest Windows updates. These updates ensure that your computer has both the latest security updates and the required system components for Visual Studio.
+
+1. Reboot. The reboot ensures that any pending installs or updates don't hinder the Visual Studio install.
+
+1. Free up space. Remove unneeded files and applications from your %SystemDrive% by, for example, running the Disk Cleanup app.
 
 ::: moniker-end
 
@@ -92,21 +114,28 @@ For questions about running previous versions of Visual Studio side by side with
 
 ::: moniker-end
 
-## Step 2 - Download Visual Studio
+::: moniker range=">=vs-2022"
 
-Next, download the Visual Studio bootstrapper file. To do so, choose the following button, choose the edition of Visual Studio that you want, choose **Save**, and then choose **Open folder**.
-
-::: moniker range="vs-2017"
-
- > [!div class="button"]
- > [Download Visual Studio](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download)
+For questions about running previous versions of Visual Studio side by side with Visual Studio 2022, see the [Visual Studio 2022 Platform Targeting and Compatibility](/visualstudio/releases/2019/compatibility/) page.
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
+## Step 2 - Download Visual Studio
+
+Next, download the Visual Studio bootstrapper file.
+
+::: moniker range="vs-2017"
+
+To get a bootstrapper for Visual Studio 2017, see the [Visual Studio previous versions](https://visualstudio.microsoft.com/vs/older-downloads/) download page for details on how to do so.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+To do so, choose the following button, choose the edition of Visual Studio that you want, choose **Save**, and then choose **Open folder**.
 
  > [!div class="button"]
- > [Download Visual Studio](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2019)
+ > [Download Visual Studio](https://visualstudio.microsoft.com/downloads)
 
 ::: moniker-end
 
@@ -132,7 +161,7 @@ After the installer is installed, you can use it to customize your installation 
 
  ::: moniker range="vs-2017"
 
-1. Find the workload you want in the **Installing Visual Studio** screen.
+1. Find the workload you want in the **Visual Studio Installer**.
 
    ![Visual Studio 2017: Install a workload](../install/media/vs-installer-installing-workloads.png)
 
@@ -144,9 +173,9 @@ After the installer is installed, you can use it to customize your installation 
 
  ::: moniker-end
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
-1. After the new workloads and components are installed, choose **Launch**.
+1. Find the workload you want in the **Visual Studio Installer**.
 
    ![Visual Studio 2019: Install a workload](../install/media/vs-2019/vs-installer-workloads.png)
 
@@ -171,7 +200,7 @@ If you don't want to use the Workloads feature to customize your Visual Studio i
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
   ![Visual Studio 2019 - Install individual components](media/vs-2019/vs-installer-individual-components.png "Install Visual Studio individual components")
 
@@ -187,7 +216,7 @@ By default, the installer program tries to match the language of the operating s
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
   ![Visual Studio 2019 - Install language packs](media/vs-2019/vs-installer-language-packs.png "Install Visual Studio language packs")
 
@@ -207,7 +236,7 @@ Another way that you can change the default language is by running the installer
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 You can reduce the installation footprint of Visual Studio on your system drive. You can choose to move the download cache, shared components, SDKs, and tools to different drives, and keep Visual Studio on the drive that runs it the fastest.
 
@@ -230,13 +259,13 @@ For more information, see the [Select installation locations](change-installatio
 
 3. Select a project type.
 
-   For example, to [build a C++ app](../ide/getting-started-with-cpp-in-visual-studio.md), choose **Installed**, expand **Visual C++**, and then choose the C++ project type that you want to build.
+   For example, to [build a C++ app](/cpp/get-started/tutorial-console-cpp), choose **Installed**, expand **Visual C++**, and then choose the C++ project type that you want to build.
 
    To [build a C# app](../get-started/csharp/tutorial-console.md), choose **Installed**, expand **Visual C#**, and then choose the C# project type that you want to build.
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 1. After Visual Studio installation is complete, choose the **Launch** button to get started developing with Visual Studio.
 
@@ -244,7 +273,7 @@ For more information, see the [Select installation locations](change-installatio
 
 1. In the search box, enter the type of app you want to create to see a list of available templates. The list of templates depends on the workload(s) that you chose during installation. To see different templates, choose different workloads.
 
-   You can also filter your search for a specific programming language by using the **Language** drop-down list. You can filter by using the **Platform** list and the **Project type** list, too. 
+   You can also filter your search for a specific programming language by using the **Language** drop-down list. You can filter by using the **Platform** list and the **Project type** list, too.
 
 1. Visual Studio opens your new project, and you're ready to code!
 
@@ -260,3 +289,4 @@ For more information, see the [Select installation locations](change-installatio
 * [Create an offline installation of Visual Studio](create-an-offline-installation-of-visual-studio.md)
 * [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md)
 * [Install Visual Studio for Mac](/visualstudio/mac/installation)
+ 

@@ -1,18 +1,21 @@
 ---
-title: "Include Element | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Include Element | Microsoft Docs
+description: The Include element specifies a file that can be located on the supplied include path for insertion into the current file. 
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: reference
 f1_keywords:
-  - "Include"
+- Include
 helpviewer_keywords:
-  - "Include element (VSCT XML schema)"
-  - "VSCT XML schema elements, Include"
+- Include element (VSCT XML schema)
+- VSCT XML schema elements, Include
 ms.assetid: c923dfe6-084a-4105-aec1-f0a3f8399c54
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Include element
 The Include element specifies a file that can be located on the supplied include path for insertion into the current file.  All symbols and types defined will become part of the compiled result.

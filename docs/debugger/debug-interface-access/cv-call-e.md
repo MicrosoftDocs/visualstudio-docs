@@ -1,7 +1,9 @@
 ---
 title: "CV_call_e | Microsoft Docs"
+description: Get reference information about the CV_call_e enumeration type, which specifies the calling convention for a function in the debug interface access SDK.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +11,8 @@ helpviewer_keywords:
 ms.assetid: f230560b-4243-432d-8f19-46df112043b9
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -57,6 +60,6 @@ The values in this enumeration are returned by a call to the [IDiaSymbol::get_ca
 ## Requirements
 Header: cvconst.h
 
-## See Also
+## See also
 - [Enumerations and Structures](../../debugger/debug-interface-access/enumerations-and-structures.md)
 - [IDiaSymbol::get_callingConvention](../../debugger/debug-interface-access/idiasymbol-get-callingconvention.md)

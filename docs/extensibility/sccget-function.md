@@ -1,17 +1,19 @@
 ---
-title: "SccGet Function | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+description: "This function retrieves a copy of one or more files for viewing and compiling but not for editing."
+title: SccGet Function | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: reference
 f1_keywords:
-  - "SccGet"
+- SccGet
 helpviewer_keywords:
-  - "SccGet function"
+- SccGet function
 ms.assetid: 09a18bd2-b788-411a-9da6-067d806e46f6
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # SccGet function
 This function retrieves a copy of one or more files for viewing and compiling but not for editing. In most systems, the files are tagged as read-only.

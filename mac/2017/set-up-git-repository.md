@@ -1,10 +1,11 @@
 ---
 title: Setting up a Git Repository
 description: Using Git and Subversion in Visual Studio for Mac.
-author: conceptdev
-ms.author: crdun
+author: heiligerdankgesang
+ms.author: dominicn
 ms.date: 02/15/2018
 ms.assetid: E992FA1D-B2AD-4A28-ADC6-47E4FC471060
+ms.topic: how-to
 ---
 # Set up a Git repository
 
@@ -48,7 +49,7 @@ If you have an existing project that _is not_ already in version control, use th
 
 3. Choose the **Registered Repositories** tab and press the **Add** button:
 
-    ![](media/version-control-git5.png)
+    ![The Registered Repositories tab of the Select Repository dialog box has Add, Remove, and Edit buttons, and boxes for Module name and Message.](media/version-control-git5.png)
 
 4. Enter the name of the repository as you would like it to display locally, and paste in the URL from step #3. Your Repository Configuration dialog should look similar to the following. Press OK:
 

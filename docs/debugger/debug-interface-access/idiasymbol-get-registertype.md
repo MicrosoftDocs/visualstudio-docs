@@ -1,13 +1,15 @@
 ---
+description: "Retrieves the register type."
 title: "IDiaSymbol::get_registerType | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 ms.assetid: f1c98ab0-8aef-4a07-a686-28b8a54418ef
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -29,5 +31,5 @@ HRESULT get_registerType(
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.
 
-## See Also
+## See also
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

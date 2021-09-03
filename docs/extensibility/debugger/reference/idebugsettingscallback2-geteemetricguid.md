@@ -1,18 +1,20 @@
 ---
-title: "IDebugSettingsCallback2::GetEEMetricGuid | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Retrieves the unique identifier for a expression evaluator metric given its name."
+title: IDebugSettingsCallback2::GetEEMetricGuid | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "IDebugSettingsCallback2::GetEEMetricGuid"
+- IDebugSettingsCallback2::GetEEMetricGuid
 ms.assetid: 3d70c19a-595d-44f1-a7b3-a0cf8f15e371
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugSettingsCallback2::GetEEMetricGuid
 Retrieves the unique identifier for a expression evaluator metric given its name.

@@ -1,17 +1,19 @@
 ---
-title: "IDebugEvent2 | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "This interface is used to communicate both critical debug information, such as stopping at a breakpoint, and non-critical information, such as a debugging message."
+title: IDebugEvent2 | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugEvent2"
+- IDebugEvent2
 helpviewer_keywords:
-  - "IDebugEvent2 interface"
+- IDebugEvent2 interface
 ms.assetid: de3d714d-96fb-4e12-b66b-a75391472153
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IDebugEvent2
 This interface is used to communicate both critical debug information, such as stopping at a breakpoint, and non-critical information, such as a debugging message.

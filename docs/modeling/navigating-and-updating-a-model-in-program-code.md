@@ -1,14 +1,17 @@
 ---
 title: Navigating and Updating a Model in Program Code
+description: Learn how you can write code to create and delete model elements, set their properties, and create and delete links between elements.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "Domain-Specific Language, programming domain models"
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+- Domain-Specific Language, programming domain models
+author: mgoertz-msft
+ms.author: mgoertz
+manager: jmartens
+ms.technology: vs-ide-modeling
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Navigate and Update a Model in Program Code
 

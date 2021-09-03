@@ -1,5 +1,7 @@
 ---
 title: "Graphics State | Microsoft Docs"
+description: Troubleshoot rendering problems by seeing the graphics state for each draw call. The parts of the state that changed from the previous call are highlighted.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:
@@ -7,7 +9,8 @@ f1_keywords:
 ms.assetid: 97e7757e-c372-4626-8149-99a81367a0e1
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---

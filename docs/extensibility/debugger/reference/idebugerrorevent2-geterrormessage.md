@@ -1,20 +1,22 @@
 ---
-title: "IDebugErrorEvent2::GetErrorMessage | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Returns information that allows construction of a human-readable error message."
+title: IDebugErrorEvent2::GetErrorMessage | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugErrorEvent2::GetErrorMessage"
+- IDebugErrorEvent2::GetErrorMessage
 helpviewer_keywords:
-  - "IDebugErrorEvent2::GetErrorMessage"
+- IDebugErrorEvent2::GetErrorMessage
 ms.assetid: 9e3b0d74-a2dd-4eaa-bd95-21b2f9c79409
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugErrorEvent2::GetErrorMessage
 Returns information that allows construction of a human-readable error message.

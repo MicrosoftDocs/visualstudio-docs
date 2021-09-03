@@ -1,16 +1,19 @@
 ---
-title: "Zoom in on load test result graphs"
+title: Zoom in on load test result graphs
+description: Learn how to examine data generated during a load test run in finer detail by using zoom bars to zoom in and scroll to a region of the graph.
+ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
-ms.topic: conceptual
-f1_keywords:
-  - "vs.test.load.monitor.graphzoom"
-helpviewer_keywords:
-  - "graphs, analyzing load tests"
-  - "load tests, zooming with graphs"
+ms.topic: how-to
+f1_keywords: 
+  - vs.test.load.monitor.graphzoom
+helpviewer_keywords: 
+  - graphs, analyzing load tests
+  - load tests, zooming with graphs
 ms.assetid: 729b4c30-4bc3-4698-91b3-17a676897443
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.technology: vs-ide-test
 ---
 # How to: Zoom in on a region of the graph in load test results
 

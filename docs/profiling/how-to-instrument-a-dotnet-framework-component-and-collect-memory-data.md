@@ -1,13 +1,17 @@
 ---
-title: "Profiler command line: Instrument client .NET component, get memory data"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Profiler command line - Instrument stand-alone .NET component, get memory data
+description: Learn how to use the Visual Studio Profiling Tools command-line tools to collect memory data for a .NET Framework component of a stand-alone application.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
 ms.assetid: d09cc46a-70f5-48f9-aa24-89913e67b359
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
-ms.workload:
-  - "dotnet"
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.technology: vs-ide-debug
+monikerRange: 'vs-2017'
+ms.workload: 
+  - dotnet
 ---
 # How to: Instrument a stand-alone .NET Framework component and collect memory data with the profiler by using the command line
 This article describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools command-line tools to instrument a .NET Framework component of a stand-alone application such as an .exe or .dll file and collect memory information by using the profiler.
@@ -53,7 +57,7 @@ This article describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsp
    | Option | Description |
    | - | - |
    | [/user](../profiling/user-vsperfcmd.md) **:**[`Domain`**\\**]`UserName` | Specifies the domain and user name of the account that owns the profiled process. This option is required only if the process is running as a user other than the logged-on user. The process owner is listed in the User Name column on the **Processes** tab of Windows Task Manager. |
-   | [/crosssession](../profiling/crosssession.md) | Enables profiling of processes in other sessions. This option is required if the application is running in a different session. The session idenitifer is listed in the **Session ID** column on the **Processes** tab of Windows Task Manager. **/CS** can be specified as an abbreviation for **/crosssession**. |
+   | [/crosssession](../profiling/crosssession.md) | Enables profiling of processes in other sessions. This option is required if the application is running in a different session. The session identifier is listed in the **Session ID** column on the **Processes** tab of Windows Task Manager. **/CS** can be specified as an abbreviation for **/crosssession**. |
    | [/globaloff](../profiling/globalon-and-globaloff.md) | To start the profiler with data collection paused, add the **/globaloff** option to the **/start** command line. Use **/globalon** to resume profiling. |
    | [/wincounter](../profiling/wincounter.md) **:** `WinCounterPath` | Specifies a Windows performance counter to be collected during profiling. |
    | [/automark](../profiling/automark.md) **:** `Interval` | Use with **/wincounter** only. Specifies the number of milliseconds between Windows performance counter collection events. Default is 500 ms. |

@@ -1,20 +1,22 @@
 ---
-title: "IDebugQueryEngine2::GetEngineInterface | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Gets a custom debug engine (DE) interface."
+title: IDebugQueryEngine2::GetEngineInterface | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugQueryEngine2::GetEngineInterface"
+- IDebugQueryEngine2::GetEngineInterface
 helpviewer_keywords:
-  - "IDebugQueryEngine2::GetEngineInterface"
+- IDebugQueryEngine2::GetEngineInterface
 ms.assetid: ed84aa98-7ec7-48f3-97ae-821090bc3664
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugQueryEngine2::GetEngineInterface
 Gets a custom debug engine (DE) interface.

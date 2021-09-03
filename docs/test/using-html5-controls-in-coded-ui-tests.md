@@ -1,12 +1,15 @@
 ---
-title: "Using HTML5 Controls in Coded UI Tests"
+title: Using HTML5 Controls in Coded UI Tests
+description: Learn about coded UI tests support for HTML5 controls that are included in Internet Explorer 9 and Internet Explorer 10.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
-ms.author: gewarren
-manager: jillfra
-ms.workload:
-  - "multiple"
-author: gewarren
+ms.topic: how-to
+ms.author: mikejo
+manager: jmartens
+ms.technology: vs-ide-test
+ms.workload: 
+  - multiple
+author: mikejo5000
 ---
 # Using HTML5 controls in coded UI tests
 

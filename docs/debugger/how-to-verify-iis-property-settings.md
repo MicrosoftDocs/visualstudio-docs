@@ -1,24 +1,27 @@
 ---
-title: "How to: Verify IIS Property Settings | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-dev_langs:
-  - "CSharp"
-  - "VB"
-  - "FSharp"
-  - "C++"
-helpviewer_keywords:
-  - "IIS, property settings"
-  - "debugging Web applications, troubleshooting"
-  - "IIS administration tool"
-  - "Web applications, setting properties"
-  - "properties [debugger], setting with IIS administration tool"
+title: Verify IIS Property Settings | Microsoft Docs
+description: Learn how to verify IIS property settings that you set for a web application using the IIS administration tool.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
+dev_langs: 
+  - CSharp
+  - VB
+  - FSharp
+  - C++
+helpviewer_keywords: 
+  - IIS, property settings
+  - debugging Web applications, troubleshooting
+  - IIS administration tool
+  - Web applications, setting properties
+  - properties [debugger], setting with IIS administration tool
 ms.assetid: 9efc50bf-02fb-4750-9b3e-f03c38f10d8b
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
-ms.workload:
-  - "multiple"
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.technology: vs-ide-debug
+ms.workload: 
+  - multiple
 ---
 # How to: Verify IIS Property Settings
 
@@ -53,7 +56,7 @@ You can set the properties for a Web application using the IIS administration to
 
    3. Click **OK** to close the **Authentication Methods** dialog box.
 
-5. For an ATL Server application, verify that the DEBUG verb is associated with your ISAPI extension. For more information, see [How to: Associate DEBUG Verb with Extension](https://msdn.microsoft.com/library/50d261d3-4bd4-41c0-b44e-3591086f121e).
+5. For an ATL Server application, verify that the DEBUG verb is associated with your ISAPI extension. For more information, see [How to: Associate DEBUG Verb with Extension](/previous-versions/ms165022(v=vs.100)).
 
 6. For an [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] application, make sure the virtual folder for the application has an Application Name set in **Internet Information Services (IIS) Manager**, **Internet Services Manager** or **Internet Information Services**.
 

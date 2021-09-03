@@ -1,6 +1,7 @@
 ---
 title: "Debugging web apps - troubleshooting | Microsoft Docs"
-ms.custom: "seodec18"
+description: Discover links to common procedures that can be used to debug and resolve errors in web applications.
+ms.custom: "SEO-VS-2020"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:
@@ -15,7 +16,8 @@ helpviewer_keywords:
 ms.assetid: 1624e4af-018e-4b7c-9a00-063bfe97fb7d
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -30,5 +32,5 @@ This section contains common procedures that can be used to resolve errors.
  [Debugging Web Applications: Errors and Troubleshooting](../debugger/debugging-web-applications-errors-and-troubleshooting.md)
  Explains troubleshooting and error resolution.
 
- [Debugging Web Applications and Script](/visualstudio/debugger/how-to-enable-debugging-for-aspnet-applications)
+ [Debugging Web Applications and Script](how-to-enable-debugging-for-aspnet-applications.md)
  Overview of debugging Web applications such as [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)], XML Web services, and ATL server projects.

@@ -1,5 +1,7 @@
 ---
 title: "Debugging User Interface Reference | Microsoft Docs"
+description: Review links to reference information about the various dialog boxes you might encounter in the debugging user interface of Visual Studio.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 f1_keywords:
@@ -15,7 +17,8 @@ helpviewer_keywords:
 ms.assetid: 57f1cad8-c908-42bf-8ec5-6eb567df08e9
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -36,7 +39,7 @@ You may encounter the following dialog boxes as you debug your application.
 
 - [Debugging Errors and Warning Dialog Boxes](../debugger/debugging-errors-and-warning-dialog-boxes.md)
 
-## See Also
-- [Debugging in Visual Studio](../debugger/index.md)
+## See also
+- [Debugging in Visual Studio](../debugger/index.yml)
 - [First look at the debugger](../debugger/debugger-feature-tour.md)
 - [Command Window](../ide/reference/command-window.md)

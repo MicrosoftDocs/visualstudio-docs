@@ -1,5 +1,7 @@
 ---
 title: "Debugging SharePoint Solutions | Microsoft Docs"
+description: Debug SharePoint solutions using the Visual Studio debugger. Explore the F5 debug and deployment process, debug workflows, and debug feature event receivers.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 f1_keywords:
@@ -12,7 +14,8 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, debugging"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
+ms.technology: sharepoint-development
 ms.workload:
   - "office"
 ---
@@ -32,7 +35,7 @@ ms.workload:
 - [Enable ehanced debugging information](#enable-enhanced-debugging-information)
 
 ## Enable debugging
- When you first debug a SharePoint solution in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], a dialog box alerts you that the web.config file is not configured to enable debugging. (The web.config file is created when you install SharePoint server. For more information, see [Working with Web.config Files](http://go.microsoft.com/fwlink/?LinkID=149266).) The dialog box gives you the option of either running the project without debugging or modifying the web.config file to enable debugging. If you choose the first option, the project runs normally. If you choose the second option, the web.config file is configured to:
+ When you first debug a SharePoint solution in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], a dialog box alerts you that the web.config file is not configured to enable debugging. (The web.config file is created when you install SharePoint server. For more information, see [Working with Web.config Files](/previous-versions/office/developer/sharepoint-2010/ms460914(v=office.14)).) The dialog box gives you the option of either running the project without debugging or modifying the web.config file to enable debugging. If you choose the first option, the project runs normally. If you choose the second option, the web.config file is configured to:
 
 - Turn on the call stack (`CallStack="true"`)
 
@@ -82,7 +85,7 @@ ms.workload:
 
 1. Runs the customizable pre-deployment commands.
 
-2. Creates a Web solution package (.wsp) file by using [!INCLUDE[vstecmsbuild](../sharepoint/includes/vstecmsbuild-md.md)] commands. The .wsp file includes all of the necessary files and features. For more information, see [Solutions Overview](http://go.microsoft.com/fwlink/?LinkID=128154).
+2. Creates a Web solution package (.wsp) file by using [!INCLUDE[vstecmsbuild](../sharepoint/includes/vstecmsbuild-md.md)] commands. The .wsp file includes all of the necessary files and features. For more information, see [Solutions Overview](/previous-versions/office/developer/sharepoint-2010/aa543214(v=office.14)).
 
 3. If the SharePoint solution is a farm solution, recycles the [!INCLUDE[TLA2#tla_iis5](../sharepoint/includes/tla2sharptla-iis5-md.md)] application pool for the specified site [!INCLUDE[TLA2#tla_url](../sharepoint/includes/tla2sharptla-url-md.md)]. This step releases files locked by the [!INCLUDE[TLA2#tla_iis5](../sharepoint/includes/tla2sharptla-iis5-md.md)] worker process.
 

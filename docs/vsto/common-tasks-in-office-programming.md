@@ -1,5 +1,7 @@
 ---
 title: "Common tasks in Office programming"
+description: Learn how you can program against the data in a document-level customization without having to use the object model of Microsoft Office Word or Office Excel.
+ms.custom: SEO-VS-2020SS
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -11,7 +13,8 @@ helpviewer_keywords:
   - "Office development in Visual Studio, frequently asked questions"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
+ms.technology: office-development
 ms.workload:
   - "office"
 ---
@@ -38,7 +41,7 @@ ms.workload:
 
 - [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md).
 
-- [How to: Upgrade Office solutions](https://msdn.microsoft.com/a269e539-b717-4680-a568-2152b070347e).
+- [How to: Upgrade Office solutions](/previous-versions/4bez6837(v=vs.140)).
 
 - [How to: Install Office primary interop assemblies](../vsto/how-to-install-office-primary-interop-assemblies.md).
 
@@ -210,19 +213,19 @@ ms.workload:
 
 ## <a name="deployment"></a> Deployment tasks
 
-- [How to: Publish an Office solution by using ClickOnce](https://msdn.microsoft.com/2b6c247e-bc04-4ce4-bb64-c4e79bb3d5b8).
+- [How to: Publish an Office solution by using ClickOnce](/previous-versions/bb386095(v=vs.110)).
 
-- [How to: Publish a document-level Office solution to a SharePoint server by using ClickOnce](https://msdn.microsoft.com/2408e809-fb78-42a1-9152-00afa1522e58).
+- [How to: Publish a document-level Office solution to a SharePoint server by using ClickOnce](/previous-versions/bb608595(v=vs.110)).
 
-- [How to: Install a ClickOnce Office solution](https://msdn.microsoft.com/14702f48-9161-4190-994c-78211fe18065).
+- [How to: Install a ClickOnce Office solution](/previous-versions/bb608592(v=vs.110)).
 
-- [How to: Install prerequisites on end user computers to run Office solutions](https://msdn.microsoft.com/74dd2c52-838f-4abf-b2b4-4d7b0c2a0a98).
+- [How to: Install prerequisites on end user computers to run Office solutions](/previous-versions/bb608608(v=vs.110)).
 
-- [How to: Prepare IIS for deployment of Office solutions](https://msdn.microsoft.com/f62bce70-81d4-4f8b-86e6-2f2afec5d9b4).
+- [How to: Prepare IIS for deployment of Office solutions](/previous-versions/bb608629(v=vs.110)).
 
-- [How to: Update deployed Office solutions](https://msdn.microsoft.com/be96db53-b6ea-46ab-b8d9-b76b098b3b13).
+- [How to: Update deployed Office solutions](/previous-versions/bb157871(v=vs.110)).
 
-- [How to: Change the installation path of an Office solution](https://msdn.microsoft.com/d0eaa07b-2d72-4902-899f-2f9fb165b8fd).
+- [How to: Change the installation path of an Office solution](/previous-versions/bb608626(v=vs.110)).
 
 ## See also
 - [Get started &#40;Office development in Visual Studio&#41;](../vsto/getting-started-office-development-in-visual-studio.md)

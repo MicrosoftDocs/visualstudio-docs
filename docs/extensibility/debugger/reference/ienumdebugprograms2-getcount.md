@@ -1,20 +1,22 @@
 ---
-title: "IEnumDebugPrograms2::GetCount | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Returns the number of elements in the programs enumeration."
+title: IEnumDebugPrograms2::GetCount | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IEnumDebugPrograms2::GetCount"
+- IEnumDebugPrograms2::GetCount
 helpviewer_keywords:
-  - "IEnumDebugPrograms2::GetCount"
+- IEnumDebugPrograms2::GetCount
 ms.assetid: 84832982-fa68-4090-a5b7-b233817876b7
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IEnumDebugPrograms2::GetCount
 Returns the number of elements in the enumeration.

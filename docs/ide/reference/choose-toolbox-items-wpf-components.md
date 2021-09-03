@@ -1,17 +1,20 @@
 ---
 title: Choose Toolbox Items, WPF Components
+description: Learn how to use the WPF Components tab to display the Windows Presentation Foundation controls available for selection on your local computer.
+ms.custom: SEO-VS-2020
 ms.date: 06/21/2017
 ms.topic: reference
 f1_keywords:
-  - "vs.chooseitems.wpfcomponents"
+- vs.chooseitems.wpfcomponents
 helpviewer_keywords:
-  - "WPF Components tab, Choose Toolbox Items dialog box"
-  - "Choose Toolbox Items dialog box, WPF Components tab"
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+- WPF Components tab, Choose Toolbox Items dialog box
+- Choose Toolbox Items dialog box, WPF Components tab
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Choose Toolbox items, WPF components
 
@@ -35,7 +38,7 @@ Lists the names of WPF controls for which entries exist in your computer's regis
 
 **Namespace**
 
-Displays the hierarchy of the [.NET API](/dotnet/api/?view=netframework-4.7) namespace that defines the structure of the component. Sort on this column to list the available components within each .NET namespace installed on your computer.
+Displays the hierarchy of the [.NET API](/dotnet/api/?view=netframework-4.7&preserve-view=true) namespace that defines the structure of the component. Sort on this column to list the available components within each .NET namespace installed on your computer.
 
 **Assembly Name**
 

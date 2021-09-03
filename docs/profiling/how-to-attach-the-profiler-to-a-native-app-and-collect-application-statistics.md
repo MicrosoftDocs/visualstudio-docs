@@ -1,14 +1,17 @@
 ---
-title: "Attach the profiler to a native app and collect app statistics"
-ms.custom: "seodec18"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: "Attach profiler to native app & collect app statistics"
+description: Use Visual Studio Profiling Tools to attach the profiler to a running native stand-alone application and get performance statistics using the sampling method.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
 ms.assetid: df44fe42-281b-4398-b3fc-277b62ae41f1
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
-ms.workload:
-  - "cplusplus"
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.technology: vs-ide-debug
+monikerRange: 'vs-2017'
+ms.workload: 
+  - cplusplus
 ---
 # How to: Attach the profiler to a native stand-alone application and collect application statistics by using the command line
 This article describes how to use the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools command-line tools to attach the profiler to a running native stand-alone (client) application and collect performance statistics by using the sampling method.

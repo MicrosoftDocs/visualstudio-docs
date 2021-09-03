@@ -1,18 +1,21 @@
 ---
-title: "Making Commands Available | Microsoft Docs"
+title: Making Commands Available | Microsoft Docs
+description: Learn how to control the availability of commands that are added to the Visual Studio IDE in VSPackages, by using delayed loading, context, and visibility.
+ms.custom: SEO-VS-2020 
 ms.date: 03/22/2018
-ms.topic: "conceptual"
+ms.topic: conceptual
 helpviewer_keywords:
-  - "menus [Visual Studio SDK], commands"
-  - "best practices, menu and toolbar commands"
-  - "toolbars [Visual Studio], best practices"
-  - "menu commands, best practices"
+- menus [Visual Studio SDK], commands
+- best practices, menu and toolbar commands
+- toolbars [Visual Studio], best practices
+- menu commands, best practices
 ms.assetid: 3ffc4312-c6db-4759-a946-a4bb85f4a17a
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Making commands available
 
@@ -144,7 +147,6 @@ Also notice that every UI context must be given in a separate `VisibilityItem` e
 ## See also
 
 - [Add a command to the Solution Explorer toolbar](../../extensibility/adding-a-command-to-the-solution-explorer-toolbar.md)
-- [MenuCommands Vs. OleMenuCommands](../../extensibility/menucommands-vs-olemenucommands.md)
 - [How VSPackages Add User Interface Elements](../../extensibility/internals/how-vspackages-add-user-interface-elements.md)
 - [Command Routing in VSPackages](../../extensibility/internals/command-routing-in-vspackages.md)
 - [Dynamically Adding Menu Items](../../extensibility/dynamically-adding-menu-items.md)

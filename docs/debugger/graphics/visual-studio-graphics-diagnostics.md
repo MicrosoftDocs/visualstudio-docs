@@ -1,6 +1,7 @@
 ---
 title: "Graphics diagnostics | Microsoft Docs"
-ms.custom: "seodec18"
+description: Visual Studio Graphics Diagnostics is a set of tools for logging and analyzing Direct3D activity. Use them to troubleshoot rendering and performance problems.
+ms.custom: "SEO-VS-2020"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:
@@ -8,12 +9,16 @@ f1_keywords:
 ms.assetid: fa69c550-62a7-41b5-bb1f-7eb04af1a6e8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
 # Visual Studio Graphics Diagnostics
-Visual Studio*Graphics Diagnostics* is a set of tools for recording and then analyzing rendering and performance problems in Direct3D apps. Graphics Diagnostics can be used on apps that are running locally on your Windows PC, in a Windows device emulator, or on a remote PC or device.
+>[!NOTE]
+> Visual Studio recommends PIX on Windows for DirectX 12 games. [PIX on Windows](https://aka.ms/PIXonWindows) is a performance tuning and debugging tool that fully supports DirectX 12. [Find out more information](visual-studio-graphics-diagnostics-directx-12.md) or [download here](https://aka.ms/downloadPIX).
+
+Visual Studio *Graphics Diagnostics* is a set of tools for recording and then analyzing rendering and performance problems in Direct3D apps. Graphics Diagnostics can be used on apps that are running locally on your Windows PC, in a Windows device emulator, or on a remote PC or device.
 
  The Graphics Diagnostics workflow begins by capturing a record of how your app uses Direct3D—live, as it runs—so that its behavior can be analyzed immediately, shared, or saved for later. Capture sessions can be initiated and controlled manually from Visual Studio or with the command-line capture tool **dxcap.exe**. Capture sessions can also be initiated and controlled programmatically by using the Graphics Diagnostics capture APIs.
 
@@ -35,7 +40,7 @@ Visual Studio*Graphics Diagnostics* is a set of tools for recording and then ana
  [Capturing Graphics Information](capturing-graphics-information.md)
  To use Graphics Diagnostics to examine a rendering problem in your app, you first record information about how the app uses DirectX. During the recording session, as your app runs normally, you *capture* (that is, select) the frames that you're interested in. The captures contain detailed information about how the frames are rendered. You can save the captured information as a graphics log document to examine later or share with other members of your team.
 
- [GPU Usage](gpu-usage.md)
+ [GPU Usage](../../profiling/gpu-usage.md)
  To use Graphics Diagnostics to profile your app, use the GPU Usage tool. GPU usage can be used in concert with other profiling tools, such as CPU Usage, to correlate CPU and GPU activity that might contribute to performance problems in your app.
 
  [Graphics Log Document](graphics-log-document.md)
@@ -75,5 +80,6 @@ Visual Studio*Graphics Diagnostics* is a set of tools for recording and then ana
 
 | Title | Description |
 | - | - |
-| [Debugger Feature Tour](/visualstudio/debugger/debugger-feature-tour) | Introduces the debugging functionality in [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]. |
-| [DirectX Graphics and Gaming](http://go.microsoft.com/fwlink/?LinkId=256498) | Provides articles that discuss DirectX graphics technologies. |
+| [Debugger Feature Tour](../debugger-feature-tour.md) | Introduces the debugging functionality in [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]. |
+| [DirectX Graphics and Gaming](/windows/win32/directx) | Provides articles that discuss DirectX graphics technologies. |
+| [DirectX 12 Support in Visual Studio](visual-studio-graphics-diagnostics-directx-12.md) | Learn about DirectX 12 support in Visual Studio |

@@ -1,20 +1,22 @@
 ---
-title: "IDebugThread2::GetName | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Gets the name of a thread."
+title: IDebugThread2::GetName | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugThread2::GetName"
+- IDebugThread2::GetName
 helpviewer_keywords:
-  - "IDebugThread2::GetName"
+- IDebugThread2::GetName
 ms.assetid: eec54b8f-4a0e-4919-b0f9-81d4bd1e0b6f
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugThread2::GetName
 Gets the name of a thread.

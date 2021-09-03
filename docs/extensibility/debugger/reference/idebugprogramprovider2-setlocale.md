@@ -1,20 +1,22 @@
 ---
-title: "IDebugProgramProvider2::SetLocale | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Establishes a locale to be used for any locale-specific resources."
+title: IDebugProgramProvider2::SetLocale | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugProgramProvider2::SetLocale"
+- IDebugProgramProvider2::SetLocale
 helpviewer_keywords:
-  - "IDebugProgramProvider2::SetLocale"
+- IDebugProgramProvider2::SetLocale
 ms.assetid: b41d20a7-ba40-4c42-a450-16f413d6a04f
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugProgramProvider2::SetLocale
 Establishes a locale to be used for any locale-specific resources.

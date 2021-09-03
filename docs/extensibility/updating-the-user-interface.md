@@ -1,16 +1,19 @@
 ---
-title: "Updating the User Interface | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Updating the User Interface | Microsoft Docs
+description: Learn how to add code to update the user interface after you implement a new command in your VSPackage.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "user interfaces, updating"
-  - "commands, updating UI"
+- user interfaces, updating
+- commands, updating UI
 ms.assetid: 376e2f56-e7bf-4e62-89f5-3dada84a404b
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Updating the User Interface
 After you implement a command, you can add code to update the user interface with the state of your new commands.
@@ -44,6 +47,6 @@ After you implement a command, you can add code to update the user interface wit
 
          Notice that you can obtain the <xref:Microsoft.VisualStudio.Shell.Interop.IOleInPlaceComponentUIManager> interface by calling the `QueryInterface` method on an <xref:Microsoft.VisualStudio.Shell.Interop.IOleComponentUIManager> object or by obtaining the interface from the <xref:Microsoft.VisualStudio.Shell.Interop.SOleComponentUIManager> service.
 
-## See Also
+## See also
 - [How VSPackages Add User Interface Elements](../extensibility/internals/how-vspackages-add-user-interface-elements.md)
 - [Implementation](../extensibility/internals/command-implementation.md)

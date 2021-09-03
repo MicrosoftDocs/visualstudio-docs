@@ -1,5 +1,7 @@
 ---
 title: "Use Office functionality inside of Visual Studio"
+description: Learn how the document and the associated application from a document-level project are hosted inside Visual Studio so you can work directly with the document.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -11,7 +13,8 @@ helpviewer_keywords:
   - "Office functionality inside Visual Studio"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
+ms.technology: office-development
 ms.workload:
   - "office"
 ---

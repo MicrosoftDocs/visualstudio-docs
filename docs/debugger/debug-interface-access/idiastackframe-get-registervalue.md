@@ -1,7 +1,8 @@
 ---
+description: "Retrieves the value of a specified register as stored in the stack frame."
 title: "IDiaStackFrame::get_registerValue | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,8 @@ helpviewer_keywords:
 ms.assetid: cbe3d8ac-319a-40ac-bc3e-4eb81b2d7807
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -37,6 +39,6 @@ HRESULT get_registerValue(
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns error code.
 
-## See Also
+## See also
 - [IDiaStackFrame](../../debugger/debug-interface-access/idiastackframe.md)
 - [CV_HREG_e Enumeration](../../debugger/debug-interface-access/cv-hreg-e.md)

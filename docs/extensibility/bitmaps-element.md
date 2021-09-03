@@ -1,16 +1,19 @@
 ---
-title: "Bitmaps Element | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Bitmaps Element | Microsoft Docs
+description: The Bitmaps element groups one or more Bitmap elements. This article contains an example of the Bitmaps element.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: reference
 helpviewer_keywords:
-  - "VSCT XML schema elements, Bitmaps"
-  - "Bitmaps element (VSCT XML schema)"
+- VSCT XML schema elements, Bitmaps
+- Bitmaps element (VSCT XML schema)
 ms.assetid: 74652e1b-fcfa-421b-aa9f-fbc081d3b476
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Bitmaps element
 Groups [Bitmap element](../extensibility/bitmap-element.md) elements.

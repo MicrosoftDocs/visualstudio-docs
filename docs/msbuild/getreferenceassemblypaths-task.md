@@ -1,5 +1,7 @@
 ---
 title: "GetReferenceAssemblyPaths Task | Microsoft Docs"
+description: Use the MSBuild GetReferenceAssemblyPaths task to return the reference assembly paths of the various frameworks.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
@@ -8,16 +10,19 @@ dev_langs:
   - "C++"
   - "jsharp"
 ms.assetid: 178ef49c-5dee-405b-a14b-a37f41dc0609
-author: mikejo5000
-ms.author: mikejo
-manager: jillfra
+author: ghogen
+ms.author: ghogen
+manager: jmartens
+ms.technology: msbuild
 ms.workload:
   - "multiple"
 ---
 # GetReferenceAssemblyPaths task
+
 Returns the reference assembly paths of the various frameworks.
 
 ## Parameters
+
  The following table describes the parameters of the `GetReferenceAssemblyPaths` task.
 
 |Parameter|Description|
@@ -30,8 +35,10 @@ Returns the reference assembly paths of the various frameworks.
 |`TargetFrameworkMonikerDisplayName`|Optional `String` output parameter.<br /><br /> Specifies the display name for the target framework moniker.|
 
 ## Remarks
+
  In addition to having the parameters that are listed in the table, this task inherits parameters from the <xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension base class](../msbuild/taskextension-base-class.md).
 
 ## See also
+
 - [Tasks](../msbuild/msbuild-tasks.md)
 - [Task reference](../msbuild/msbuild-task-reference.md)

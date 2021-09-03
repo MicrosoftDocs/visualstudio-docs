@@ -1,7 +1,8 @@
 ---
+description: "IDiaStackWalkFrame::searchForReturnAddress searches the specified stack frame for the nearest function return address."
 title: "IDiaStackWalkFrame::searchForReturnAddress | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,8 @@ helpviewer_keywords:
 ms.assetid: 1a54c50d-94af-4a43-ac4e-d80c5df156c3
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -37,6 +39,6 @@ HRESULT searchForReturnAddress ( 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
-## See Also
+## See also
 - [IDiaStackWalkFrame](../../debugger/debug-interface-access/idiastackwalkframe.md)
 - [IDiaFrameData](../../debugger/debug-interface-access/idiaframedata.md)

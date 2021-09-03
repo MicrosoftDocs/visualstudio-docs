@@ -1,22 +1,25 @@
 ---
-title: "DA0008: Few samples collected | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-f1_keywords:
-  - "vs.performance.rules.DATooFewSamples"
-  - "vs.performance.8"
-  - "vs.performance.DA0008"
-  - "vs.performance.rules.DA0008"
+title: DA0008 - Few samples collected | Microsoft Docs
+description: "Just a few samples were collected in the profiling run."
+ms.date: 11/04/2016
+ms.topic: reference
+f1_keywords: 
+  - vs.performance.rules.DATooFewSamples
+  - vs.performance.8
+  - vs.performance.DA0008
+  - vs.performance.rules.DA0008
 ms.assetid: 8a5b78aa-7b3d-476c-a47d-abfaff3fae7c
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
-ms.workload:
-  - "multiple"
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.technology: vs-ide-debug
+monikerRange: 'vs-2017'
+ms.workload: 
+  - multiple
 ---
 # DA0008: Few samples collected
 
-|||
+|Item|Value|
 |-|-|
 |Rule Id|DA0008|
 |Category|Profiling Tools Usage|

@@ -1,5 +1,7 @@
 ---
 title: "Create custom views of data in the debugger | Microsoft Docs"
+description: Learn the various ways  to inspect and modify program state in Visual Studio debugger. These include the Autos and Watch windows, DataTips, and Visualizers.  
+ms.custom: SEO-VS-2020
 ms.date: "01/09/2019"
 ms.topic: "conceptual"
 f1_keywords:
@@ -16,7 +18,8 @@ helpviewer_keywords:
 ms.assetid: 13e1105f-f987-402e-9108-ec6ac12be042
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -26,7 +29,7 @@ The [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] debugger provides 
 
 ## Create custom views of data in variable windows and DataTips
 
- Many of the [debugger windows](../debugger/debugger-windows.md), such as the **Autos** and **Watch** windows, allow you to inspect variables. You can customize how C++ types, managed objects, and your own types are shown in the debugger variable windows and in [DataTips](../debugger/view-data-values-in-data-tips-in-the-code-editor.md). For more information, see [Create custom views of C++ objects](../debugger/create-custom-views-of-native-objects.md) and [Create custom views of objects](../debugger/create-custom-views-of-dot-managed-objects.md).
+ Many of the [debugger windows](../debugger/debugger-windows.md), such as the **Autos** and **Watch** windows, allow you to inspect variables. You can customize how C++ types, managed objects, and your own types are shown in the debugger variable windows and in [DataTips](../debugger/view-data-values-in-data-tips-in-the-code-editor.md). For more information, see [Create custom views of C++ objects](../debugger/create-custom-views-of-native-objects.md) and [Create custom views of managed objects](../debugger/create-custom-views-of-managed-objects.md).
 
 ## Create custom visualizers
 

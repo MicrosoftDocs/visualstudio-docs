@@ -1,16 +1,19 @@
 ---
-title: "How to: Identify Symbols in a Library | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: 'How to: Identify Symbols in a Library | Microsoft Docs'
+description: Learn how to identify symbols in a library by implementing methods that pass navigation information from the symbol library to the Visual Studio object manager. 
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
 helpviewer_keywords:
-  - "Call Browser tool, identifying symbols in the library"
-  - "Call Browser tool"
+- Call Browser tool, identifying symbols in the library
+- Call Browser tool
 ms.assetid: 8fb0de61-71e7-42d1-8b41-2ad915474384
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # How to: Identify symbols in a library
 Symbol-browsing tools display hierarchical views of symbols. The symbols represent namespaces, objects, classes, class members, and other language elements.

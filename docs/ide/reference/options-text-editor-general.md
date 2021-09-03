@@ -1,38 +1,42 @@
 ---
 title: Options, Text Editor, General
+description: Learn how to use the General page to change global settings for the Visual Studio code and text editor.
+ms.custom: SEO-VS-2020
 ms.date: 01/18/2019
 ms.topic: reference
 f1_keywords:
-  - "VS.ToolsOptionsPages.Text_Editor"
-  - "vs.toolsoptionspages.text_editor"
-  - "VS.ToolsOptionsPages.Text_Editor.CSharp.Formatting"
-  - "VS.ToolsOptionsPages.Text_Editor.CSharp.Outlining"
-  - "VS.ToolsOptionsPages.Text_Editor.General"
-  - "VS.ToolsOptionsPages.Text_Editor.PL/SQL"
-  - "VS.ToolsOptionsPages.Text_Editor.PL/SQL.General"
-  - "VS.ToolsOptionsPages.Text_Editor.Python"
-  - "VS.ToolsOptionsPages.Text_Editor.R"
-  - "VS.ToolsOptionsPages.Text_Editor.RDL_Expression.General"
-  - "VS.ToolsOptionsPages.Text_Editor.SQL"
-  - "VS.ToolsOptionsPages.Text_Editor.SQL.General"
-  - "VS.ToolsOptionsPages.Text_Editor.SQL_Script"
-  - "VS.ToolsOptionsPages.Text_Editor.SQL_Script.General"
-  - "VS.ToolsOptionsPages.Text_Editor.T-SQL"
-  - "VS.ToolsOptionsPages.Text_Editor.T-SQL.General"
-  - "VS.ToolsOptionsPages.Text_Editor.T-SQL7.General"
-  - "VS.ToolsOptionsPages.Text_Editor.T-SQL80"
-  - "VS.ToolsOptionsPages.Text_Editor.T-SQL80.General"
+- VS.ToolsOptionsPages.Text_Editor
+- vs.toolsoptionspages.text_editor
+- VS.ToolsOptionsPages.Text_Editor.Advanced
+- VS.ToolsOptionsPages.Text_Editor.CSharp.Formatting
+- VS.ToolsOptionsPages.Text_Editor.CSharp.Outlining
+- VS.ToolsOptionsPages.Text_Editor.General
+- VS.ToolsOptionsPages.Text_Editor.PL/SQL
+- VS.ToolsOptionsPages.Text_Editor.PL/SQL.General
+- VS.ToolsOptionsPages.Text_Editor.Python
+- VS.ToolsOptionsPages.Text_Editor.R
+- VS.ToolsOptionsPages.Text_Editor.RDL_Expression.General
+- VS.ToolsOptionsPages.Text_Editor.SQL
+- VS.ToolsOptionsPages.Text_Editor.SQL.General
+- VS.ToolsOptionsPages.Text_Editor.SQL_Script
+- VS.ToolsOptionsPages.Text_Editor.SQL_Script.General
+- VS.ToolsOptionsPages.Text_Editor.T-SQL
+- VS.ToolsOptionsPages.Text_Editor.T-SQL.General
+- VS.ToolsOptionsPages.Text_Editor.T-SQL7.General
+- VS.ToolsOptionsPages.Text_Editor.T-SQL80
+- VS.ToolsOptionsPages.Text_Editor.T-SQL80.General
 helpviewer_keywords:
-  - "Text Editor Options dialog box"
-  - "Code Editor"
-  - "Text Editor [Visual Studio]"
-  - "editors, global settings"
+- Text Editor Options dialog box
+- Code Editor
+- Text Editor [Visual Studio]
+- editors, global settings
 ms.assetid: 4ac21e48-3243-4141-9058-7eaf12b3cde7
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Options dialog box: Text Editor \> General
 
@@ -87,6 +91,10 @@ When selected, displays a gray box around the line of code in which the cursor i
 ### Show structure guide lines
 
 When selected, vertical lines appear in the editor that line up with structured code blocks, which lets you easily identify the individual blocks of code.
+
+### Show file health indicator
+
+When selected, a file health indicator status (errors, warnings) bar, with code cleanup options, will be displayed in the lower left corner of the editor.
 
 ## See also
 

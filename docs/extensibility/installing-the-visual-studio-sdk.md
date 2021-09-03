@@ -1,13 +1,16 @@
 ---
-title: "Installing the Visual Studio SDK | Microsoft Docs"
-ms.date: "07/12/2018"
-ms.topic: "conceptual"
+title: Installing the Visual Studio SDK | Microsoft Docs
+description: Learn about the options to install the Visual Studio Software Development Kit, including during Visual Studio installation.
+ms.custom: SEO-VS-2020
+ms.date: 07/12/2018
+ms.topic: overview
 ms.assetid: c730edb6-5099-4c16-85a8-08def09f1455
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Install the Visual Studio SDK
 

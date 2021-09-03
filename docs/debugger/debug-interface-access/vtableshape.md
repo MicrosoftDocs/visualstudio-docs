@@ -1,7 +1,8 @@
 ---
+description: "The VTable) symbol has a class child symbol identified by the SymTagVTableShape tag."
 title: "VTableShape | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -10,7 +11,8 @@ helpviewer_keywords:
 ms.assetid: dd97f4c3-115d-46a9-b506-2531e30a0d8f
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -31,6 +33,6 @@ The [VTable](../../debugger/debug-interface-access/vtable.md) symbol has a class
 |[IDiaSymbol::get_unalignedType](../../debugger/debug-interface-access/idiasymbol-get-unalignedtype.md)|`BOOL`|`TRUE` if the class of the VTable is unaligned.|
 |[IDiaSymbol::get_volatileType](../../debugger/debug-interface-access/idiasymbol-get-volatiletype.md)|`BOOL`|`TRUE` if the class of the VTable is marked as volatile.|
 
-## See Also
+## See also
 - [Class Hierarchy of Symbol Types](../../debugger/debug-interface-access/class-hierarchy-of-symbol-types.md)
 - [VTable](../../debugger/debug-interface-access/vtable.md)

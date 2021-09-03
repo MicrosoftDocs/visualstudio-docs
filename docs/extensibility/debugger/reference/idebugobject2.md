@@ -1,17 +1,19 @@
 ---
-title: "IDebugObject2 | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "This interface provides additional information about an object."
+title: IDebugObject2 | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugObject2"
+- IDebugObject2
 helpviewer_keywords:
-  - "IDebugObject2 interface"
+- IDebugObject2 interface
 ms.assetid: ef640967-8adb-4793-994d-ae1736510891
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IDebugObject2
 > [!IMPORTANT]

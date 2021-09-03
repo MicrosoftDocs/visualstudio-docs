@@ -1,18 +1,21 @@
 ---
 title: Code Analysis, Project Designer
+description: Learn about the Code Analysis, Project Designer and how it contains the code analysis tool that you can opt to run on your code.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "vs29106"
+- vs29106
 helpviewer_keywords:
-  - "Code Analysis page in Project Designer"
-  - "Project Designer, Code Analysis page"
+- Code Analysis page in Project Designer
+- Project Designer, Code Analysis page
 ms.assetid: 71743d26-4da5-4f7d-a403-7ab96cf2ef2e
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Code Analysis, Project Designer
 
@@ -58,6 +61,6 @@ Enables or disables the usage rules. You can also expand this entry to enable or
 
 ## See also
 
-- [Code Analysis for Managed Code Warnings](../../code-quality/code-analysis-for-managed-code-warnings.md)
+- [Code Analysis for Managed Code Warnings](/dotnet/fundamentals/code-analysis/quality-rules/index)
 - [Code Analysis for Managed Code Overview](../../code-quality/code-analysis-for-managed-code-overview.md)
 - [Walkthrough: Analyzing Managed Code for Code Defects](../../code-quality/walkthrough-analyzing-managed-code-for-code-defects.md)

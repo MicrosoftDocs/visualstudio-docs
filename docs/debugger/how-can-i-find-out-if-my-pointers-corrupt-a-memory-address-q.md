@@ -1,26 +1,28 @@
 ---
-title: "Find out if my pointers corrupt a memory address | Microsoft Docs"
-ms.custom: "seodec18"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-dev_langs:
-  - "CSharp"
-  - "VB"
-  - "FSharp"
-  - "C++"
-helpviewer_keywords:
-  - "addresses, pointers corrupting memory address"
-  - "memory, corruption"
-  - "pointers, corrupting memory addresses"
-  - "memory address corruption by pointers"
-  - "debugging [C++], memory corruption"
-  - "corrupted memory address"
+title: Find out if my pointers corrupt a memory address | Microsoft Docs
+description: To determine whether your pointer is corrupting memory, you can look for heap corruption, and you can set a data breakpoint to find out how a value is modified.
+ms.custom: "SEO-VS-2020"
+ms.date: 11/04/2016
+ms.topic: how-to
+dev_langs: 
+  - CSharp
+  - VB
+  - FSharp
+  - C++
+helpviewer_keywords: 
+  - addresses, pointers corrupting memory address
+  - memory, corruption
+  - pointers, corrupting memory addresses
+  - memory address corruption by pointers
+  - debugging [C++], memory corruption
+  - corrupted memory address
 ms.assetid: a147c939-4fb1-415c-8410-cf303781e9e8
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
-ms.workload:
-  - "multiple"
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.technology: vs-ide-debug
+ms.workload: 
+  - multiple
 ---
 # How Can I Find Out If My Pointers Corrupt a Memory Address?
 ## Problem Description
@@ -30,7 +32,7 @@ ms.workload:
 
 #### Check for heap corruption
 
-- Most memory corruption is actually due to heap corruption. Try using the Global Flags Utility (gflags.exe) or pageheap.exe. See [http://support.microsoft.com/default.aspx?scid=kb;en-us;286470](http://support.microsoft.com/default.aspx?scid=kb;en-us;286470).
+- Most memory corruption is actually due to heap corruption. Try using the Global Flags Utility (gflags.exe) or pageheap.exe. See [/windows-hardware/drivers/debugger/gflags-and-pageheap](/windows-hardware/drivers/debugger/gflags-and-pageheap).
 
 #### To find where the memory address is modified
 
@@ -38,6 +40,6 @@ ms.workload:
 
 2. When you hit the breakpoint, use the **Memory** window to view memory contents starting at 0x00408000. For more information, see [Memory Windows](../debugger/memory-windows.md).
 
-## See Also
+## See also
 - [Debugging Native Code FAQs](../debugger/debugging-native-code-faqs.md)
 - [Debugging Native Code](../debugger/debugging-native-code.md)

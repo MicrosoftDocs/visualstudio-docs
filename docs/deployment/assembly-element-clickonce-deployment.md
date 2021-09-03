@@ -1,5 +1,7 @@
 ---
 title: "&lt;assembly&gt; Element (ClickOnce Deployment) | Microsoft Docs"
+description: The assembly element is the root element and is required in ClickOnce deployment. Its first contained element must be an assemblyIdentity element.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 f1_keywords:
@@ -13,7 +15,8 @@ helpviewer_keywords:
 ms.assetid: b8e3362a-f821-4696-b98d-571d4bbfe431
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-deployment
 ms.workload:
   - "multiple"
 ---

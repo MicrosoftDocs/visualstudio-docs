@@ -1,19 +1,22 @@
 ---
-title: "Analyze load test results"
+title: Analyze load test results
+description: Learn how to access load test results for analysis, either automatically through the Load Test Analyzer or manually for tests from the command line.
+ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
-ms.topic: conceptual
-helpviewer_keywords:
-  - "results, load test"
-  - "load test results, accessing"
-  - "Load Test Viewer"
-  - "load tests, accessing"
-  - "load tests, analyzing"
-  - "load tests, results"
-  - "Load Test Viewer, viewing"
+ms.topic: how-to
+helpviewer_keywords: 
+  - results, load test
+  - load test results, accessing
+  - Load Test Viewer
+  - load tests, accessing
+  - load tests, analyzing
+  - load tests, results
+  - Load Test Viewer, viewing
 ms.assetid: b0a3e694-2894-479b-b270-7e61e9fafacd
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.technology: vs-ide-test
 ---
 # How to: Access load test results for analysis
 

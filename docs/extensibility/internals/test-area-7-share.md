@@ -1,16 +1,19 @@
 ---
-title: "Test Area 7: Share | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: 'Test Area 7: Share | Microsoft Docs'
+description: This source control test area covers sharing items between locations by using the Share command for your Visual Studio source control plug-in.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "source control [Visual Studio SDK], sharing items"
-  - "source control plug-ins, sharing items"
+- source control [Visual Studio SDK], sharing items
+- source control plug-ins, sharing items
 ms.assetid: 6ec4780a-bda4-4327-bb3e-c6c9e7eabf35
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Test Area 7: Share
 This test area covers sharing items between locations via the **Share** command.
@@ -52,5 +55,5 @@ This test area covers sharing items between locations via the **Share** command.
 |Share a folder into the loaded Project — Recursive|1.  Create a new project.<br />2.  Add the solution to source control.<br />3.  Select the project.<br />4.  Open the **Share** dialog box (**File** -> **Source Control** -> **Share**).<br />5.  Select a folder.<br />6.  Share the folder recursively into the project.|Common Expected Behavior.|
 |Share several files from one project to another|1.  Create a new project with several files in it.<br />2.  Add the solution to source control.<br />3.  Close the solution.<br />4.  Create a new project in a new solution.<br />5.  Add the solution to source control.<br />6.  Select the project.<br />7.  Open the **Share** dialog box (**File** -> **Source Control** -> **Share**).<br />8.  Share several files from the previously created project to the currently open project.|Common Expected Behavior.|
 
-## See Also
+## See also
 - [Test Guide for Source Control Plug-ins](../../extensibility/internals/test-guide-for-source-control-plug-ins.md)

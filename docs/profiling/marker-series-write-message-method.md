@@ -1,17 +1,19 @@
 ---
-title: "marker_series::write_message Method | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-f1_keywords:
-  - "cvmarkersobj/Concurrency::diagnostic::marker_series::write_message"
-helpviewer_keywords:
-  - "Concurrency::diagnostic::marker_series::write_message method"
+description: "Writes a message to the Concurrency Visualizer trace file."
+title: marker_series::write_message Method | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: reference
+f1_keywords: 
+- cvmarkersobj/Concurrency, diagnostic::marker_series::write_message
+helpviewer_keywords: 
+- Concurrency, diagnostic::marker_series::write_message method
 ms.assetid: 546121bc-67e0-4a5a-a456-12bd78fd6de2
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
-ms.workload:
-  - "multiple"
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.technology: vs-ide-debug
+ms.workload: 
+  - multiple
 ---
 # marker_series::write_message method
 Writes a message to the Concurrency Visualizer trace file.

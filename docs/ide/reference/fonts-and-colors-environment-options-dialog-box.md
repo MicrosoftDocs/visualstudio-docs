@@ -1,30 +1,33 @@
 ---
 title: Fonts and Colors, Environment, Options Dialog Box
+description: Learn how to use the Fonts and Colors page in the Environment section to establish a custom font and color scheme for various user interface elements in the IDE.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "VS.ToolsOptionsPages.FontsAndColors"
-  - "VS.ToolsOptionsPages.Environment.Fonts_And_Colors"
-  - "VS.Environment.Fonts And Colors"
+- VS.ToolsOptionsPages.FontsAndColors
+- VS.ToolsOptionsPages.Environment.Fonts_And_Colors
+- VS.Environment.Fonts And Colors
 helpviewer_keywords:
-  - "colors, customizing IDE"
-  - "Query and View Designer, customizing"
-  - "fonts, editors"
-  - "menus, customizing"
-  - "Table Designer, customizing"
-  - "Database Designer, customizing environment"
-  - "default colors"
-  - "accessibility, options"
-  - "editors, customizing"
-  - "designers, customizing environment"
-  - "defaults, colors"
-  - "printers, customizing"
+- colors, customizing IDE
+- Query and View Designer, customizing
+- fonts, editors
+- menus, customizing
+- Table Designer, customizing
+- Database Designer, customizing environment
+- default colors
+- accessibility, options
+- editors, customizing
+- designers, customizing environment
+- defaults, colors
+- printers, customizing
 ms.assetid: c767d302-51ed-47a8-a527-c07bce2aa485
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Fonts and Colors, Environment, Options Dialog Box
 

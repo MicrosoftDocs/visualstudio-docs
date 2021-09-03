@@ -1,20 +1,23 @@
 ---
 title: Run-Time Text Generation with T4 Text Templates
+description: Learn how you can generate text strings in your application at run time by using Visual Studio runtime text templates.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 dev_langs:
- - CSharp
- - VB
+- CSharp
+- VB
 helpviewer_keywords:
-  - "Preprocessed Text Template project item"
-  - "TextTemplatingFilePreprocessor custom tool"
-  - "text templates, TransformText() method"
-  - "text templates, generating files at run time"
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+- Preprocessed Text Template project item
+- TextTemplatingFilePreprocessor custom tool
+- text templates, TransformText() method
+- text templates, generating files at run time
+author: mgoertz-msft
+ms.author: mgoertz
+manager: jmartens
+ms.technology: vs-ide-modeling
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Run-Time Text Generation with T4 Text Templates
 

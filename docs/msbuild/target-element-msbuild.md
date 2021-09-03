@@ -1,26 +1,30 @@
 ---
-title: "Target Element (MSBuild) | Microsoft Docs"
-ms.date: "06/13/2019"
-ms.topic: "reference"
+title: Target Element (MSBuild) | Microsoft Docs
+description: Learn about the MSBuild Target element, which contains a set of tasks for MSBuild to execute sequentially. 
+ms.custom: SEO-VS-2020
+ms.date: 06/13/2019
+ms.topic: reference
 f1_keywords:
-  - "http://schemas.microsoft.com/developer/msbuild/2003#Target"
+- http://schemas.microsoft.com/developer/msbuild/2003#Target
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+- VB
+- CSharp
+- C++
+- jsharp
 helpviewer_keywords:
-  - "Target element [MSBuild]"
-  - "<Target> element [MSBuild]"
+- Target element [MSBuild]
+- <Target> element [MSBuild]
 ms.assetid: 350f6fc2-86b3-45f2-a31e-ece0e6bd4dca
-author: mikejo5000
-ms.author: mikejo
-manager: jillfra
+author: ghogen
+ms.author: ghogen
+manager: jmartens
+ms.technology: msbuild
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Target element (MSBuild)
-Contains a set of tasks for [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] to execute sequentially.
+
+Contains a set of tasks for MSBuild to execute sequentially.
 
  \<Project>
  \<Target>
@@ -36,7 +40,7 @@ Contains a set of tasks for [!INCLUDE[vstecmsbuild](../extensibility/internals/i
         BeforeTargets="Targets"
         AfterTargets="Targets"
         DependsOnTargets="DependentTarget"
-        Condition="'String A' == 'String B'">
+        Condition="'String A' == 'String B'"
         Label="Label">
     <Task>... </Task>
     <PropertyGroup>... </PropertyGroup>
@@ -46,13 +50,14 @@ Contains a set of tasks for [!INCLUDE[vstecmsbuild](../extensibility/internals/i
 ```
 
 ## Attributes and elements
+
  The following sections describe attributes, child elements, and parent elements.
 
 ### Attributes
 
 |Attribute|Description|
 |---------------|-----------------|
-|`Name`|Required attribute.<br /><br /> The name of the target.|
+|`Name`|Required attribute.<br /><br /> The name of the target. A target name may contain any character except `$@()%*?.`.|
 |`Condition`|Optional attribute.<br /><br /> The condition to be evaluated. If the condition evaluates to `false`, the target will not execute the body of the target or any targets that are set in the `DependsOnTargets` attribute. For more information about conditions, see [Conditions](../msbuild/msbuild-conditions.md).|
 |`Inputs`|Optional attribute.<br /><br /> The files that form inputs into this target. Multiple files are separated by semicolons. The timestamps of the files will be compared with the timestamps of files in `Outputs` to determine whether the `Target` is up to date. For more information, see [Incremental builds](../msbuild/incremental-builds.md), [How to: Build incrementally](../msbuild/how-to-build-incrementally.md), and [Transforms](../msbuild/msbuild-transforms.md).|
 |`Outputs`|Optional attribute.<br /><br /> The files that form outputs into this target. Multiple files are separated by semicolons. The timestamps of the files will be compared with the timestamps of files in `Inputs` to determine whether the `Target` is up to date. For more information, see [Incremental builds](../msbuild/incremental-builds.md), [How to: Build incrementally](../msbuild/how-to-build-incrementally.md), and [Transforms](../msbuild/msbuild-transforms.md).|
@@ -67,7 +72,7 @@ Contains a set of tasks for [!INCLUDE[vstecmsbuild](../extensibility/internals/i
 
 | Element | Description |
 | - | - |
-| [Task](../msbuild/task-element-msbuild.md) | Creates and executes an instance of an [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] task. There may be zero or more tasks in a target. |
+| [Task](../msbuild/task-element-msbuild.md) | Creates and executes an instance of an MSBuild task. There may be zero or more tasks in a target. |
 | [PropertyGroup](../msbuild/propertygroup-element-msbuild.md) | Contains a set of user-defined `Property` elements. Starting in the .NET Framework 3.5, a `Target` element may contain `PropertyGroup` elements. |
 | [ItemGroup](../msbuild/itemgroup-element-msbuild.md) | Contains a set of user-defined `Item` elements. Starting in the .NET Framework 3.5, a `Target` element may contain `ItemGroup` elements. For more information, see [Items](../msbuild/msbuild-items.md). |
 | [OnError](../msbuild/onerror-element-msbuild.md) | Causes one or more targets to execute if the `ContinueOnError` attribute is ErrorAndStop (or `false`) for a failed task. There may be zero or more `OnError` elements in a target. If `OnError` elements are present, they must be the last elements in the `Target` element.<br /><br /> For information about the `ContinueOnError` attribute, see [Task element (MSBuild)](../msbuild/task-element-msbuild.md). |
@@ -76,10 +81,11 @@ Contains a set of tasks for [!INCLUDE[vstecmsbuild](../extensibility/internals/i
 
 | Element | Description |
 | - | - |
-| [Project](../msbuild/project-element-msbuild.md) | Required root element of an [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] project file. |
+| [Project](../msbuild/project-element-msbuild.md) | Required root element of an MSBuild project file. |
 
 ## Remarks
- The first target to execute is specified at run time. Targets can have dependencies on other targets. For example, a target for deployment depends on a target for compilation. The [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] engine executes dependencies in the order in which they appear in the `DependsOnTargets` attribute, from left to right. For more information, see [Targets](../msbuild/msbuild-targets.md).
+
+ The first target to execute is specified at run time. Targets can have dependencies on other targets. For example, a target for deployment depends on a target for compilation. The MSBuild engine executes dependencies in the order in which they appear in the `DependsOnTargets` attribute, from left to right. For more information, see [Targets](../msbuild/msbuild-targets.md).
 
  MSBuild is import-order dependent, and the last definition of a target with a specific `Name` attribute is the definition used.
 
@@ -96,6 +102,7 @@ Contains a set of tasks for [!INCLUDE[vstecmsbuild](../extensibility/internals/i
  Before MSBuild 4, any time that a `Target` included multiple references to the same item in its `Outputs`, those duplicate items would be recorded. In very large builds that had a large number of outputs and many project interdependencies, this would cause a large amount of memory to be wasted because the duplicate items were not of any use. When the `KeepDuplicateOutputs` attribute is set to `true`, these duplicates are recorded.
 
 ## Example
+
  The following code example shows a `Target` element that executes the `Csc` task.
 
 ```xml
@@ -113,5 +120,6 @@ Contains a set of tasks for [!INCLUDE[vstecmsbuild](../extensibility/internals/i
 ```
 
 ## See also
+
 - [Targets](../msbuild/msbuild-targets.md)
 - [Project file schema reference](../msbuild/msbuild-project-file-schema-reference.md)

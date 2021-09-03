@@ -1,7 +1,8 @@
 ---
-title: "Error: Unable to initiate DCOM communication | Microsoft Docs"
+description: "A DCOM error occurred when the local machine tried to communicate with the remote machine."
+title: "Unable to initiate DCOM communication | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "troubleshooting"
+ms.topic: "error-reference"
 f1_keywords:
   - "vs.debug.error.unmarshal_server_failed"
 dev_langs:
@@ -11,7 +12,8 @@ dev_langs:
   - "C++"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -24,5 +26,5 @@ A DCOM error occurred when the local machine tried to communicate with the remot
 
 - To restore Windows authentication, try rebooting both machines. Examine event logs on local and remote machines for Kerberos errors and contact domain administrators for known problems.
 
-## See Also
+## See also
 - [Remote Debugging](../debugger/remote-debugging.md)

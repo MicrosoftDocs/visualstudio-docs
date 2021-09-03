@@ -1,16 +1,19 @@
 ---
-title: "Hierarchies in Visual Studio | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Hierarchies in Visual Studio | Microsoft Docs
+description: Learn about project hierarchies in the Visual Studio integrated development environment (IDE) that contain project items and their associated properties. 
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "hierarchies, Visual Studio IDE"
-  - "IDE, hierarchies"
+- hierarchies, Visual Studio IDE
+- IDE, hierarchies
 ms.assetid: 0a029a7c-79fd-4b54-bd63-bd0f21aa8d30
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Hierarchies in Visual Studio
 The [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE) displays a project as a *hierarchy*. In the IDE, a hierarchy is a tree of nodes, where each node has a set of associated properties. A *project hierarchy* is a container that holds the project's items, the items' relationships, and the items' associated properties and commands.
@@ -29,4 +32,4 @@ The [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] integrated deve
 ## See also
 - [Project types](../../extensibility/internals/project-types.md)
 - [Selection and currency in the IDE](../../extensibility/internals/selection-and-currency-in-the-ide.md)
-- [VSSDK samples](https://aka.ms/vs2015sdksamples)
+- [VSSDK samples](https://github.com/Microsoft/VSSDK-Extensibility-Samples)

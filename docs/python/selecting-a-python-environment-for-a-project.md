@@ -1,12 +1,13 @@
 ---
-title: Select a Python interpreter and environment for a project
+title: Select a Python environment for a project
 description: You can specifically select a Python environment, including Anaconda and virtual environments, to apply to a specific project.
 ms.date: 03/18/2019
-ms.topic: conceptual
+ms.topic: how-to
 author: JoshuaPartlow
 ms.author: joshuapa
-manager: jillfra
-ms.custom: seodec18
+manager: jmartens
+ms.technology: vs-python
+ms.custom: "seodec18, SEO-VS-2020"
 ms.workload:
   - python
   - data-science
@@ -41,7 +42,7 @@ The context menu on the **Python Environments** node also provides additional co
 ::: moniker-end
 
 ::: moniker range=">=vs-2019"
-To change the environment for a project, right-click the **Python Environments** node and select **Add Environment**, or select **Add Environment** from the environment drop-down in the Python toolbar.
+To change the environment for a project, right-click the **Python Environments** node and select **Add Environment**. You can also select **Add Environment** from the environment drop-down in the Python toolbar.
 
 Once in the **Add Environment** dialog box, select the **Existing environment** tab, then select a new environment from the **Environment** drop down list:
 
@@ -81,7 +82,7 @@ You can create a new virtual environment directly in Visual Studio as follows:
 
 1. Select an environment as the base interpreter and select **Create**. Visual Studio displays a progress bar while it configures the environment and downloads any necessary packages. Upon completion, the virtual environment appears in the **Python Environments** window for the containing project.
 
-1. The virtual environment is not activated by default. To activate it for the project, right-click it and select **Activate Environment**.
+1. The virtual environment is not activated by default. To activate the virtual environment for the project, right-click it and select **Activate Environment**.
 
 > [!Note]
 > If the location path identifies an existing virtual environment, Visual Studio detects the base interpreter automatically (using the *orig-prefix.txt* file in the environment's *lib* directory) and changes the **Create** button to **Add**.
@@ -164,7 +165,7 @@ Be aware that the displayed entries may not always be accurate, and installation
 Also note that Visual Studio does not presently support using `conda` to install packages into a conda environment. Use `conda` from the command line instead.
 
 > [!Tip]
-> A common situation where pip fails to install a package is when the package includes source code for native components in *\*.pyd* files. Without the required version of Visual Studio installed, pip cannot compile these components. The error message displayed in this situation is **error: Unable to find vcvarsall.bat**. `easy_install` is often able to download pre-compiled binaries, and you can download a suitable compiler for older versions of Python from [https://aka.ms/VCPython27](https://aka.ms/VCPython27). For more details, see [How to deal with the pain of "unable to find vcvarsallbat"](https://devblogs.microsoft.com/python/unable-to-find-vcvarsall-bat/) on the Python tools team blog.
+> A common situation where pip fails to install a package is when the package includes source code for native components in *\*.pyd* files. Without the required version of Visual Studio installed, pip cannot compile these components. The error message displayed in this situation is **error: Unable to find vcvarsall.bat**. `easy_install` is often able to download pre-compiled binaries, and you can download a suitable compiler for older versions of Python from [https://www.microsoft.com/download/details.aspx?id=44266](https://www.microsoft.com/download/details.aspx?id=44266). For more details, see [How to deal with the pain of "unable to find vcvarsallbat"](https://devblogs.microsoft.com/python/unable-to-find-vcvarsall-bat/) on the Python tools team blog.
 
 ## See also
 

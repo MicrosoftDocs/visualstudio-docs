@@ -1,20 +1,22 @@
 ---
-title: "IDebugProgramEngines2::SetEngine | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Tells the program or program node which debug engine (DE) to use to debug this program."
+title: IDebugProgramEngines2::SetEngine | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugProgramEngines2::SetEngine"
+- IDebugProgramEngines2::SetEngine
 helpviewer_keywords:
-  - "IDebugProgramEngines2::SetEngine"
+- IDebugProgramEngines2::SetEngine
 ms.assetid: c05857ee-89cf-455e-8f1e-300cce4a2eab
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugProgramEngines2::SetEngine
 Tells the program or program node which debug engine (DE) to use to debug this program.

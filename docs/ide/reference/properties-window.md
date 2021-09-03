@@ -1,25 +1,27 @@
 ---
+description: "Use this window to view and change the design-time properties and events of selected objects that are located in editors and designers."
 title: Properties Window
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "properties [Visual Studio], Properties Window"
-  - "handler functions, Properties window"
-  - "handlers, Properties window"
-  - "Windows messages"
-  - "properties [Visual Studio], setting at design time"
-  - "properties [Visual Studio], editing"
-  - "Property Browser"
-  - "Windows messages, adding message handlers"
-  - "Properties window, overrides"
-  - "virtual functions, Properties window"
-  - "Properties window"
+- properties [Visual Studio], Properties Window
+- handler functions, Properties window
+- handlers, Properties window
+- Windows messages
+- properties [Visual Studio], setting at design time
+- properties [Visual Studio], editing
+- Property Browser
+- Windows messages, adding message handlers
+- Properties window, overrides
+- virtual functions, Properties window
+- Properties window
 ms.assetid: e6e0fa4f-75c4-4a52-af15-281cd61876ca
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Properties window
 

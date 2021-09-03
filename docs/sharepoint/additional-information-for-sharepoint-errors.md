@@ -1,5 +1,7 @@
 ---
 title: "Additional Information for SharePoint Errors | Microsoft Docs"
+description: Get additional information about troubleshooting errors and warnings that occur in Visual Studio SharePoint tools.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 f1_keywords:
@@ -13,7 +15,8 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, troubleshooting"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
+ms.technology: sharepoint-development
 ms.workload:
   - "office"
 ---
@@ -34,11 +37,11 @@ ms.workload:
 
 |Term|Definition|
 |----------|----------------|
-|[SharePoint Development](http://go.microsoft.com/fwlink/?LinkId=179593)|Provides a forum for questions about SharePoint development in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].|
-|[Visual Studio Forums](http://go.microsoft.com/fwlink/?LinkID=150452)|Provides a forum for questions about [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].|
-|[Microsoft Help and Support](http://go.microsoft.com/fwlink/?LinkID=108287)|Provides access to Knowledge Base (KB) articles, downloads and updates, support Webcasts, and other services.|
+|[SharePoint Development](https://social.msdn.microsoft.com/Forums/office/home?forum=sharepointdevelopmentprevious)|Provides a forum for questions about SharePoint development in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].|
+|[Visual Studio Forums](https://social.msdn.microsoft.com/Forums/vstudio/home?category=visualstudio)|Provides a forum for questions about [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].|
+|[Microsoft Help and Support](https://support.microsoft.com/)|Provides access to Knowledge Base (KB) articles, downloads and updates, support Webcasts, and other services.|
 
- If you still cannot find  the answers that you need, you can access online support options, such as contacting Microsoft Product Support Services or searching KnowledgeBase articles. For more information, see the [Microsoft Help and Support](http://go.microsoft.com/fwlink/?LinkID=155371) page.
+ If you still cannot find  the answers that you need, you can access online support options, such as contacting Microsoft Product Support Services or searching KnowledgeBase articles. For more information, see the [Microsoft Help and Support](https://support.microsoft.com/) page.
 
 ## See also
 - [Build and debug SharePoint solutions](../sharepoint/building-and-debugging-sharepoint-solutions.md)

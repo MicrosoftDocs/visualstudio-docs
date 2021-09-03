@@ -1,18 +1,21 @@
 ---
 title: -DebugExe (devenv.exe)
+description: Learn how to use the DebugExe devenv command-line switch to open a specified executable file to be debugged.
+ms.custom: SEO-VS-2020
 ms.date: 12/10/2018
 ms.topic: reference
 helpviewer_keywords:
-  - "Devenv, /DebugExe switch"
-  - "DebugExe switch"
-  - "/DebugExe [devenv.exe]"
-  - "debugging executables"
+- Devenv, /DebugExe switch
+- DebugExe switch
+- /DebugExe [devenv.exe]
+- debugging executables
 ms.assetid: cd700006-1648-418f-924b-4b1e5c1412ab
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # /DebugExe (devenv.exe)
 

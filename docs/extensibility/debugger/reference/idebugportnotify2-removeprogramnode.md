@@ -1,20 +1,22 @@
 ---
-title: "IDebugPortNotify2::RemoveProgramNode | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Unregisters a program that can be debugged from the port it is running on."
+title: IDebugPortNotify2::RemoveProgramNode | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugPortNotify2::RemoveProgramNode"
+- IDebugPortNotify2::RemoveProgramNode
 helpviewer_keywords:
-  - "IDebugPortNotify2::RemoveProgramNode"
+- IDebugPortNotify2::RemoveProgramNode
 ms.assetid: 3668157b-66d2-416e-a359-fc04dcd18a48
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugPortNotify2::RemoveProgramNode
 Unregisters a program that can be debugged from the port it is running on.

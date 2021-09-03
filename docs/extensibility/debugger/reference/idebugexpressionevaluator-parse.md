@@ -1,20 +1,22 @@
 ---
-title: "IDebugExpressionEvaluator::Parse | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "This method converts an expression string to a parsed expression."
+title: IDebugExpressionEvaluator::Parse | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugExpressionEvaluator::Parse"
+- IDebugExpressionEvaluator::Parse
 helpviewer_keywords:
-  - "IDebugExpressionEvaluator::Parse method"
+- IDebugExpressionEvaluator::Parse method
 ms.assetid: e6e31b3a-63a7-4293-bcda-267eb78dffb6
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugExpressionEvaluator::Parse
 This method converts an expression string to a parsed expression.

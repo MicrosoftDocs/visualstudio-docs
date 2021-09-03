@@ -1,13 +1,16 @@
 ---
-title: "What&#39;s New in the Visual Studio 2017 SDK | Microsoft Docs"
-ms.date: "10/31/2017"
-ms.topic: "conceptual"
+title: What&apos;s New in the Visual Studio 2017 SDK | Microsoft Docs
+description: The Visual Studio SDK has new and updated features for Visual Studio 2017, including the updated VSIX version 3 format.
+ms.custom: SEO-VS-2020
+ms.date: 10/31/2017
+ms.topic: conceptual
 ms.assetid: 9efcf0a3-dbde-4cab-8ed3-425826a48b2e
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # What&#39;s New in the Visual Studio 2017 SDK
 
@@ -28,7 +31,7 @@ To learn about these changes, see the following topics:
 * [Changes to extensibility for Visual Studio 2017](breaking-changes-2017.md)
 * [Ngen support in VSIX v3](ngen-support.md)
 * [Install outside the extensions folder](set-install-root.md)
-* [Frequently asked questions for Visual Studio 2017 extensibility](faq-2017.md)
+* [Frequently asked questions for Visual Studio 2017 extensibility](faq-2017.yml)
 
 ## Migrate extensibility project to Visual Studio 2017
 

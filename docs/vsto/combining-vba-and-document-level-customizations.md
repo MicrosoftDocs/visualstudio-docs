@@ -1,5 +1,7 @@
 ---
 title: "Combine VBA and document-level customizations"
+description: Learn how you can use Visual Basic for Applications (VBA) code in a document that is part of a document-level customization for Microsoft Office Word or Excel.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 f1_keywords:
@@ -21,7 +23,8 @@ helpviewer_keywords:
   - "document-level customizations [Office development in Visual Studio], Visual Basic for Applications and"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
+ms.technology: office-development
 ms.workload:
   - "office"
 ---
@@ -38,7 +41,7 @@ ms.workload:
 ## Call VBA code from the customization assembly
  You can call macros in Word documents, and you can call macros and functions in Excel workbooks. To do this, use one of the following methods:
 
-- For Word, call the <xref:Microsoft.Office.Interop.Word._Application.Run%2A>method of the <xref:Microsoft.Office.Interop.Word.Application> class.
+- For Word, call the <xref:Microsoft.Office.Interop.Word._Application.Run%2A> method of the <xref:Microsoft.Office.Interop.Word.Application> class.
 
 - For Excel, call the <xref:Microsoft.Office.Interop.Excel._Application.Run%2A> method of the <xref:Microsoft.Office.Interop.Excel.Application> class.
 

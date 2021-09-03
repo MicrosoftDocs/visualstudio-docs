@@ -1,16 +1,19 @@
 ---
-title: "Considerations for Unloading and Reloading Nested Projects | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Unloading and reloading nested projects
+description: Learn the additional steps that must be performed when unloading and reloading nested projects in Visual Studio.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "nested projects, unloading and reloading"
-  - "projects [Visual Studio SDK], unloading and reloading nested"
+- nested projects, unloading and reloading
+- projects [Visual Studio SDK], unloading and reloading nested
 ms.assetid: 06c3427e-c874-45b1-b9af-f68610ed016c
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Considerations for unloading and reloading nested projects
 

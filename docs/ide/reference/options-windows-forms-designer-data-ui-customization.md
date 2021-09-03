@@ -1,15 +1,18 @@
 ---
 title: Options, Windows Forms Designer, Data UI Customization
+description: Learn how to use the Data UI Customization page to define which controls appear in the list of available controls for items in the Data Sources window.
+ms.custom: SEO-VS-2020
 ms.date: 08/09/2019
 ms.topic: reference
 f1_keywords:
-  - VS.ToolsOptionsPages.WindowsFormsDesigner.Data_UI_Customization
+- VS.ToolsOptionsPages.WindowsFormsDesigner.Data_UI_Customization
 helpviewer_keywords:
-  - "Data UI customization options"
-  - "Options dialog box, Windows Forms Designer, Data UI Customization"
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+- Data UI customization options
+- Options dialog box, Windows Forms Designer, Data UI Customization
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
+ms.technology: vs-ide-general
 ---
 # Options dialog box: Windows Forms Designer > Data UI Customization
 

@@ -1,19 +1,22 @@
 ---
 title: List Memory Command
+description: Learn about the List Memory command and how it displays the contents of the specified range of memory.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "debug.listmemory"
+- debug.listmemory
 helpviewer_keywords:
-  - "Debug.ListMemory command"
-  - "ListMemory command"
-  - "list memory command"
+- Debug.ListMemory command
+- ListMemory command
+- list memory command
 ms.assetid: a84de361-a6a6-4f6d-96aa-a0d4a424371e
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # List Memory Command
 Displays the contents of the specified range of memory.
@@ -79,7 +82,7 @@ Here is a list of the available aliases for the **Debug.ListMemory** command:
 >Debug.ListMemory /Format:float /Count:30 /Unicode
 ```
 
-## See Also
+## See also
 
 - [List Call Stack Command](../../ide/reference/list-call-stack-command.md)
 - [List Threads Command](../../ide/reference/list-threads-command.md)

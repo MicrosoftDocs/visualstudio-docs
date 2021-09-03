@@ -1,5 +1,7 @@
 ---
 title: "Choosing a ClickOnce Update Strategy | Microsoft Docs"
+description: Learn how a ClickOnce application supports automatic updates and which update strategies you can use.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:
@@ -13,7 +15,8 @@ helpviewer_keywords:
 ms.assetid: d8b6e7bb-4ea0-47f3-91cd-48580bdceccc
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-deployment
 ms.workload:
   - "multiple"
 ---
@@ -65,6 +68,8 @@ ms.workload:
    </update>
 </subscription>
 ```
+> [!NOTE]
+> For .NET 3.1 and newer applications, checking updates before the application starts is the only update option supported.
 
 ## Make updates required
  There may be occasions when you want to require users to run an updated version of your application. For example, you might make a change to an external resource such as a Web service that would prevent the earlier version of your application from working correctly. In this case, you would want to mark your update as required and prevent users from running the earlier version.
@@ -111,7 +116,7 @@ ms.workload:
  No prompting for trust levels will occur if you use Trusted Application Deployment. For more information, see [Trusted application deployment overview](../deployment/trusted-application-deployment-overview.md).
 
 ## See also
- \<xref:System.Deployment.Application>
+- <xref:System.Deployment.Application>
 - [ClickOnce security and deployment](../deployment/clickonce-security-and-deployment.md)
 - [Choose a ClickOnce deployment strategy](../deployment/choosing-a-clickonce-deployment-strategy.md)
 - [Secure ClickOnce applications](../deployment/securing-clickonce-applications.md)

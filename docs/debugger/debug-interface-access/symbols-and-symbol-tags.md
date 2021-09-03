@@ -1,7 +1,8 @@
 ---
+description: "Debug information about a compiled program is stored in the program database (.pdb) file as symbols that are accessible using the Debug Interface Access (DIA) SDK APIs."
 title: "Symbols and Symbol Tags | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,8 @@ helpviewer_keywords:
 ms.assetid: 2ee3a262-cda6-48bf-b799-a37edde6c8b8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -34,6 +36,6 @@ Describes the symbol types that form lexical hierarchies such as files, modules,
 
 Describes the symbol types that correspond to different language elements such as classes, arrays, and function return types.
 
-## See Also
+## See also
 
 - [Debug Interface Access SDK](../../debugger/debug-interface-access/debug-interface-access-sdk.md)

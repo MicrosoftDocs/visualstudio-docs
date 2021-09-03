@@ -1,13 +1,17 @@
 ---
-title: "Profiler command line: Instrument static ASP.NET app, get memory data"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Profiler command line - Instrument static ASP.NET app, get memory data
+description: Learn how to use the Visual Studio Profiling Tools command-line tools to collect memory and timing data for a pre-compiled ASP.NET web component or web site.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
 ms.assetid: ea1dcb7c-1dc3-49ff-9418-8795b5b3d3bc
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
-ms.workload:
-  - "multiple"
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.technology: vs-ide-debug
+monikerRange: 'vs-2017'
+ms.workload: 
+  - multiple
 ---
 # How to: Instrument a statically compiled ASP.NET web application and collect memory data by using the profiler command line
 This article describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools command-line tools to instrument a pre-compiled [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] web component or web site and collect .NET memory allocation, object lifetime, and detailed timing data.

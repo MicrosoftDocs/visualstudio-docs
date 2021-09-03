@@ -1,7 +1,8 @@
 ---
+description: "Retrieves a flag that specifies whether the function has been marked as never returning with the noreturn) attribute."
 title: "IDiaSymbol::get_noReturn | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,8 @@ helpviewer_keywords:
 ms.assetid: 704c1cc0-5b84-4334-a02a-70f43aff39d5
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -42,6 +44,6 @@ HRESULT get_noReturn(
 |Header:|dia2.h|
 |Version:|DIA SDK v8.0|
 
-## See Also
+## See also
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
 - [noreturn](/cpp/cpp/noreturn)

@@ -1,18 +1,21 @@
 ---
-title: "Walkthrough: Creating a Custom Text Template Host"
+title: 'Walkthrough: Creating a Custom Text Template Host'
+description: Learn how you can write a custom host if you want to use the text template transformation functionality from outside Visual Studio.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
-  - "walkthroughs [text templates], custom host"
-  - "text templates, custom host walkthrough"
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+- walkthroughs [text templates], custom host
+- text templates, custom host walkthrough
+author: mgoertz-msft
+ms.author: mgoertz
+manager: jmartens
+ms.technology: vs-ide-modeling
 ms.workload:
-  - "multiple"
+- multiple
 dev_langs:
- - CSharp
- - VB
+- CSharp
+- VB
 ---
 # Walkthrough: Create a Custom Text Template Host
 

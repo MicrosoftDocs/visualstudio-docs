@@ -1,25 +1,27 @@
 ---
-title: "Debug an installed UWP app package | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/07/2018"
-ms.topic: "conceptual"
-f1_keywords:
-  - "vs.debug.installedapppackagelauncher"
-  - "vs.debug.remote.connection"
-dev_langs:
-  - "C++"
-  - "FSharp"
-  - "CSharp"
-  - "JScript"
-  - "VB"
-helpviewer_keywords:
-  - "app package, debug"
+title: Debug an installed UWP app package | Microsoft Docs
+description: Debug an installed Universal Windows Platform (UWP) app package in Visual Studio on Windows 10 computers, Xbox, and Internet of Things (IoT) devices.
+ms.custom: SEO-VS-2020
+ms.date: 11/07/2018
+ms.topic: how-to
+f1_keywords: 
+  - vs.debug.installedapppackagelauncher
+  - vs.debug.remote.connection
+dev_langs: 
+  - C++
+  - FSharp
+  - CSharp
+  - JScript
+  - VB
+helpviewer_keywords: 
+  - app package, debug
 ms.assetid: 5a94ad64-100d-43ca-9779-16cb5af86f97
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
-ms.workload:
-  - "uwp"
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.technology: vs-ide-debug
+ms.workload: 
+  - uwp
 ---
 # Debug an installed UWP app package in Visual Studio
 
@@ -90,7 +92,7 @@ For more information on remote deployment of UWP apps, see [Deploy and debug UWP
 
 ## See also
 
-- [Debugging in Visual Studio](../debugger/index.md)
+- [Debugging in Visual Studio](../debugger/index.yml)
 - [First look at the debugger](../debugger/debugger-feature-tour.md)
 - [Remote debugging](../debugger/remote-debugging.md)
 - [Configure the Windows Firewall for remote debugging](../debugger/configure-the-windows-firewall-for-remote-debugging.md)

@@ -1,10 +1,10 @@
-﻿---
-title: PowerShell scripts to publish to dev and test environments
+---
+title: Use PowerShell to publish to dev and test environments
 description: Learn how to use Windows PowerShell scripts from Visual Studio to publish to development and test environments.
+ms.custom: SEO-VS-2020
 author: ghogen
-manager: jillfra
-assetId: 5fff1301-5469-4d97-be88-c85c30f837c1
-ms.custom: vs-azure
+manager: jmartens
+ms.technology: vs-azure
 ms.workload: azure-vs
 ms.topic: conceptual
 ms.date: 11/11/2016
@@ -18,13 +18,13 @@ Using these scripts, you can provision customized versions (also known as dev an
 
 ## Prerequisites
 
-* Visual Studio 2015 or later with the **Azure workload** installed, or Visual Studio 2013 and Azure SDK 2.3 or later. See [Visual Studio Downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019). (You don't need the Azure SDK to generate the scripts for web projects. This feature is for web projects, not web roles in cloud services.)
+* Visual Studio 2015 or later with the **Azure workload** installed, or Visual Studio 2013 and Azure SDK 2.3 or later. See [Visual Studio Downloads](https://visualstudio.microsoft.com/downloads). (You don't need the Azure SDK to generate the scripts for web projects. This feature is for web projects, not web roles in cloud services.)
 * Azure PowerShell 0.7.4 or later. See [How to install and configure Azure PowerShell](/powershell/azure/overview).
-* [Windows PowerShell 3.0](http://go.microsoft.com/?linkid=9811175) or later.
+* [Windows PowerShell 3.0](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc770458(v=ws.10)) or later.
 
 ## Additional tools
 
-Additional tools and resources for working with PowerShell in Visual Studio for Azure development are available. See [PowerShell Tools for Visual Studio](http://go.microsoft.com/fwlink/?LinkId=404012).
+Additional tools and resources for working with PowerShell in Visual Studio for Azure development are available. See [PowerShell Tools for Visual Studio](https://marketplace.visualstudio.com/items?itemName=AdamRDriscoll.PowerShellToolsforVisualStudio2015).
 
 ## Generating the publish scripts
 
@@ -148,7 +148,7 @@ If you have never run a Windows PowerShell script before, you must first set the
 
    ![Create Web Deploy Package](./media/vs-azure-tools-publishing-using-powershell-scripts/IC767885.png)
 
-   For more information, see [How to: Create a Web Deployment Package in Visual Studio](https://msdn.microsoft.com/library/dd465323.aspx). You can also automate the creation of your Web Deploy package, as described in [Customizing and extending the publish scripts](#customizing-and-extending-the-publish-scripts).
+   For more information, see [How to: Create a Web Deployment Package in Visual Studio](/previous-versions/aspnet/dd465323(v=vs.110)). You can also automate the creation of your Web Deploy package, as described in [Customizing and extending the publish scripts](#customizing-and-extending-the-publish-scripts).
 
 1. In **Solution Explorer**, open the context menu for the script, and then choose **Open with PowerShell ISE**.
 1. If running Windows PowerShell scripts on this computer for the first time, open a command prompt window with Administrator privileges and type the following command:
@@ -244,7 +244,7 @@ To automate building your project, add code that calls MSBuild to `New-WebDeploy
         #Write a function to build and package your web application
     ```
 
-    To build your web application, use MsBuild.exe. For help, see MSBuild Command-Line Reference at: [http://go.microsoft.com/fwlink/?LinkId=391339](http://go.microsoft.com/fwlink/?LinkId=391339)
+    To build your web application, use MsBuild.exe. For help, see [MSBuild Command-Line Reference](../msbuild/msbuild-command-line-reference.md)
 
     ```powershell
     Write-VerboseWithTime 'Build-WebDeployPackage: Start'
@@ -342,4 +342,4 @@ To get help for functions you can use at the Windows PowerShell command prompt, 
 | Test-WebApplication |This function isn't implemented. You can add commands in this function to test your application. |
 
 ## Next steps
-Learn more about PowerShell scripting by reading [Scripting with Windows PowerShell](https://technet.microsoft.com/library/bb978526.aspx) and see other Azure PowerShell scripts at the [Script Center](https://azure.microsoft.com/documentation/scripts/).
+Learn more about PowerShell scripting by reading [Scripting with Windows PowerShell](/powershell/scripting/overview) and see other Azure PowerShell scripts at the [Script Center](https://azure.microsoft.com/documentation/scripts/).

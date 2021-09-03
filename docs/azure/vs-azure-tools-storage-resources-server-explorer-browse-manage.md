@@ -1,10 +1,10 @@
 ---
-title: Browse and manage storage resources by using Server Explorer | Microsoft Docs
+title: Browse and manage storage resources
 description: Browsing and managing storage resources by using Server Explorer
+ms.custom: SEO-VS-2020
 author: ghogen
-manager: jillfra
-assetId: 658dc064-4a4e-414b-ae5a-a977a34c930d
-ms.custom: vs-azure
+manager: jmartens
+ms.technology: vs-azure
 ms.workload: azure-vs
 ms.topic: conceptual
 ms.date: 8/24/2017
@@ -66,7 +66,7 @@ You can perform the following operations on blobs by using the buttons in the up
 
 ### To create a folder or subfolder in a blob container
 
-1. Choose the blob container in Cloud Explorer. In the container window, select the **Upload Blob** button.
+1. Choose the blob container in **Cloud Explorer**. In the container window, select the **Upload Blob** button.
 
 1. In the **Upload New File** dialog box, select the **Browse** button to specify the file that you want to upload, and then enter a folder name in the **Folder (optional)** box.
 
@@ -96,7 +96,7 @@ The filter text box is case-sensitive and doesn’t support filtering with wildc
 
 ### To download blob data
 
-In Cloud Explorer, use any of the following methods:
+In **Cloud Explorer**, use any of the following methods:
 
 * Open the shortcut menu for one or more blobs, and then select **Open**.
 * Choose the blob name and then select the **Open** button.
@@ -114,13 +114,13 @@ By default, a blob is downloaded to a temporary directory. To download blobs to 
 
 To upload blobs, select the **Upload Blob** button when the container is open for viewing in the blob container view.
 
-You can choose one or more files to upload, and you can upload files of any type. The **Azure Activity Log** window shows the progress of the upload. For more information about how to work with blob data, see [How to use Azure Blob storage in .NET](http://go.microsoft.com/fwlink/p/?LinkId=267911).
+You can choose one or more files to upload, and you can upload files of any type. The **Azure Activity Log** window shows the progress of the upload. For more information about how to work with blob data, see [How to use Azure Blob storage in .NET](/azure/storage/blobs/storage-quickstart-blobs-dotnet).
 
 ### To view logs transferred to blobs
 
 If you are using Azure Diagnostics to log data from your Azure application and you have transferred logs to your storage account, you’ll see containers that Azure created for these logs. Viewing these logs in Server Explorer is an easy way to identify problems with your application, especially if it's been deployed to Azure.
 
-For more information about Azure Diagnostics, see [Collect Logging Data by Using Azure Diagnostics](https://msdn.microsoft.com/library/azure/gg433048.aspx).
+For more information about Azure Diagnostics, see [Collect Logging Data by Using Azure Diagnostics](/azure/cloud-services/cloud-services-dotnet-diagnostics).
 
 ### To get the URL for a blob
 
@@ -128,7 +128,7 @@ Open the blob’s shortcut menu and then select **Copy URL**.
 
 ### To edit a blob
 
-Select the blob and then select the **Open Blob** button.
+Choose the blob and then select the **Open Blob** button.
 
 The file is downloaded to a temporary location and opened on the local computer. Upload the blob again after you make changes.
 
@@ -149,10 +149,10 @@ The following image shows a queue that contains two messages:
 
 ![Viewing a queue](./media/vs-azure-tools-storage-resources-server-explorer-browse-manage/IC651470.png)
 
-For more information about storage services queues, see [Get started with Azure Queue storage using .NET](http://go.microsoft.com/fwlink/?LinkID=264702). For information about the web service for storage services queues, see [Queue Service Concepts](http://go.microsoft.com/fwlink/?LinkId=264788). For information about how to send messages to a storage services queue by using Visual Studio, see [Sending Messages to a Storage Services Queue](https://docs.microsoft.com/azure/visual-studio/vs-storage-cloud-services-getting-started-queues).
+For more information about storage services queues, see [Get started with Azure Queue storage using .NET](/azure/storage/queues/storage-dotnet-how-to-use-queues). For information about the web service for storage services queues, see [Queue Service Concepts](/rest/api/storageservices/Queue-Service-Concepts). For information about how to send messages to a storage services queue by using Visual Studio, see [Sending Messages to a Storage Services Queue](/azure/visual-studio/vs-storage-cloud-services-getting-started-queues).
 
 > [!NOTE]
-> Storage services queues are distinct from Azure Service Bus queues. For more information about Service Bus queues, see [Service Bus queues, topics, and subscriptions](https://docs.microsoft.com/azure/service-bus-messaging/service-bus-queues-topics-subscriptions).
+> Storage services queues are distinct from Azure Service Bus queues. For more information about Service Bus queues, see [Service Bus queues, topics, and subscriptions](/azure/service-bus-messaging/service-bus-queues-topics-subscriptions).
 
 ## Work with table resources
 
@@ -160,12 +160,12 @@ Azure Table storage stores large amounts of structured data. The service is a No
 
 ### To create a table
 
-1. In Cloud Explorer, select the **Tables** node of the storage account, and then select **Create Table**.
+1. In **Cloud Explorer**, select the **Tables** node of the storage account, and then select **Create Table**.
 1. In the **Create Table** dialog box, enter a name for the table.
 
 ### To view table data
 
-1. In Cloud Explorer, open the **Azure** node, and then open the **Storage** node.
+1. In **Cloud Explorer**, open the **Azure** node, and then open the **Storage** node.
 1. Open the storage account node that you are interested in, and then open the **Tables** node to see a list of tables for the storage account.
 1. Open the shortcut menu for a table, and then select **View Table**.
 
@@ -175,20 +175,20 @@ The table is organized by entities (shown in rows) and properties (shown in colu
 
 ### To edit table data
 
-In Table Designer, open the shortcut menu for an entity (a single row) or a property (a single cell), and then select **Edit**.
+In **Table Designer**, open the shortcut menu for an entity (a single row) or a property (a single cell), and then select **Edit**.
 
 ![Add or edit a table entity](./media/vs-azure-tools-storage-resources-server-explorer-browse-manage/IC656238.png)
 
 Entities in a single table aren’t required to have the same set of properties (columns). Keep in mind the following restrictions on viewing and editing table data:
 
 * You can’t view or edit binary data (`type byte[]`), but you can store it in a table.
-* You can’t edit the **PartitionKey** or **RowKey** values, because Table storage in Azure doesn't support that operation.
+* You can’t edit the **PartitionKey** or **RowKey** values, because Azure Table storage doesn't support that operation.
 * You can’t create a property called **Timestamp**. Azure storage services use a property with that name.
 * If you enter a **DateTime** value, you must follow a format that's appropriate to the region and language settings of your computer (for example, MM/DD/YYYY HH:MM:SS [AM|PM] for US English).
 
 ### To add entities
 
-1. In Table Designer, select the **Add Entity** button.
+1. In **Table Designer**, select the **Add Entity** button.
 
     ![Add Entity button](./media/vs-azure-tools-storage-resources-server-explorer-browse-manage/IC655336.png)
 
@@ -229,7 +229,7 @@ When Server Explorer connects to or gets data from a storage account, the operat
 ### To refresh table data
 
 * Select the **Tables** node beneath **Storage**, and then select the **Refresh** button on the Server Explorer toolbar.
-* To refresh the list of entities that is displayed in Table Designer, select the **Execute** button in Table Designer.
+* To refresh the list of entities that is displayed in **Table Designer**, select the **Execute** button in Table Designer.
 
 ### To refresh queue data
 
@@ -269,7 +269,7 @@ The new storage account appears in the **Storage** list in Solution Explorer.
 
    * The name of the existing storage account that you want to attach.
    * The key for the selected storage account. This value is typically provided for you when you select a storage account. If you want Visual Studio to remember the storage account key, select the **Remember account key** check box.
-   * The protocol to use to connect to the storage account, such as HTTP, HTTPS, or a custom endpoint. For more information about custom endpoints, see [How to Configure Connection Strings](https://msdn.microsoft.com/library/azure/ee758697.aspx).
+   * The protocol to use to connect to the storage account, such as HTTP, HTTPS, or a custom endpoint. For more information about custom endpoints, see [How to Configure Connection Strings](/azure/storage/common/storage-configure-connection-string).
 
 ### To view the secondary endpoints
 

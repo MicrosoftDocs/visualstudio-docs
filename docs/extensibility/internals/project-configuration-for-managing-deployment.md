@@ -1,16 +1,19 @@
 ---
-title: "Project Configuration for Managing Deployment | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Project Configuration for Managing Deployment | Microsoft Docs
+description: Learn about deployment to the expected location for debugging and installation and the two ways Visual Studio supports projects that support deployment.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: reference
 helpviewer_keywords:
-  - "project configurations, managing deployment"
-  - "projects [Visual Studio SDK], configuration for managing deployment"
+- project configurations, managing deployment
+- projects [Visual Studio SDK], configuration for managing deployment
 ms.assetid: bd5940d9-d94d-4944-beda-4ec1ab2bbde5
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Project Configuration for Managing Deployment
 Deployment is the act of physically moving the output items from a build process to the expected location for debugging and installation. For example, a Web application might be built on a local machine and then placed on the server.
@@ -31,7 +34,7 @@ Deployment is the act of physically moving the output items from a build process
 
   Configurations can specify dependencies that affect their build or deployment operations. Build or deploy dependencies are projects that must either be built or deployed before or after the configurations themselves are built or deployed. Build dependencies between projects are described with the <xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildDependency> interface and deploy dependencies with the <xref:Microsoft.VisualStudio.Shell.Interop.IVsDeployDependency> interface. For more information, see [Project Configuration for Building](../../extensibility/internals/project-configuration-for-building.md).
 
-## See Also
+## See also
 - [Managing Configuration Options](../../extensibility/internals/managing-configuration-options.md)
 - [Project Configuration for Building](../../extensibility/internals/project-configuration-for-building.md)
 - [Project Configuration for Output](../../extensibility/internals/project-configuration-for-output.md)

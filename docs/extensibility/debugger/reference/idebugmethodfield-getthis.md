@@ -1,20 +1,22 @@
 ---
-title: "IDebugMethodField::GetThis | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Gets the this (Me in Visual Basic) pointer of the object containing the method."
+title: IDebugMethodField::GetThis | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugMethodField::GetThis"
+- IDebugMethodField::GetThis
 helpviewer_keywords:
-  - "IDebugMethodField::GetThis method"
+- IDebugMethodField::GetThis method
 ms.assetid: cc235bea-e909-4d8c-ab54-936736c803fc
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugMethodField::GetThis
 Gets the `this` (`Me` in [!INCLUDE[vbprvb](../../../code-quality/includes/vbprvb_md.md)]) pointer of the object containing the method.

@@ -1,17 +1,19 @@
 ---
-title: "IDebugPortSupplier3 | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "This interface allows a caller to determine whether a port supplier can preserve ports (by writing them to disk) between invocations of the debugger and then get a list of those preserved ports."
+title: IDebugPortSupplier3 | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugPortSupplier3"
+- IDebugPortSupplier3
 helpviewer_keywords:
-  - "IDebugPortSupplier3 interface"
+- IDebugPortSupplier3 interface
 ms.assetid: e458cd02-2370-4435-8953-17d7a60ce152
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IDebugPortSupplier3
 This interface allows a caller to determine whether a port supplier can preserve ports (by writing them to disk) between invocations of the debugger and then get a list of those preserved ports.

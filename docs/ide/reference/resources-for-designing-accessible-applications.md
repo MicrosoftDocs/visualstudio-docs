@@ -1,7 +1,7 @@
 ---
 title: "Resources for designing accessible applications"
 description: "Learn how to create accessible applications to make them easier for people with disabilities to use."
-ms.date: 11/04/2016
+ms.date: 08/27/2019
 ms.topic: conceptual
 helpviewer_keywords:
   - "accessibility, Windows applications"
@@ -11,13 +11,17 @@ helpviewer_keywords:
 ms.assetid: 426bf023-bb34-43c4-9edb-c307191c8170
 author: TerryGLee
 ms.author: tglee
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
   - "multiple"
 ---
 # Resources for designing accessible applications
 
-Use the following links to find information about technologies that support accessible design, plus tips and examples for developing accessible Windows applications and websites. General information on accessibility can be found online at [http://www.microsoft.com/enable/](http://www.microsoft.com/enable/).
+Learn more about technologies that support accessible design. We've also included tips and links to tutorials that can help you develop accessible Windows apps and websites.
+
+>[!NOTE]
+>For more information about how we develop products that empower everyone, see [Microsoft Accessibility](https://www.microsoft.com/accessibility/).
 
 ## Technologies
 
@@ -37,9 +41,9 @@ Use the following links to find information about technologies that support acce
 
 ## Websites
 
-- [Walkthrough: Accessibility Guidelines for Using Image Controls, Menu Controls, and AutoPostBack](https://msdn.microsoft.com/Library/ff7b5021-48b3-46bf-921f-9fe1e0e32202) This article provides step-by-step instructions for including accessible controls in a sample web page. It also gives some accessibility design tips for the Web.
+- [Walkthrough: Accessibility Guidelines for Using Image Controls, Menu Controls, and AutoPostBack](/previous-versions/3has1x30(v=vs.140)) This article provides step-by-step instructions for including accessible controls in a sample web page. It also gives some accessibility design tips for the Web.
 
-- **Creating Accessible Web Pages with DHTML** This technical article lists HTML 4.0 elements that are accessible as well as accessible web design tips. For more information, see [Create accessible web pages with DHTML](https://msdn.microsoft.com/library/ms528445.aspx).
+- **Creating Accessible Web Pages with DHTML** This technical article lists HTML 4.0 elements that are accessible as well as accessible web design tips. For more information, see [Create accessible web pages with DHTML](/previous-versions//ms528445(v=vs.85)).
 
 ### Third-party resources
 
@@ -47,4 +51,5 @@ Use the following links to find information about technologies that support acce
 
 ## See also
 
-[Accessibility features of Visual Studio](../../ide/reference/accessibility-features-of-visual-studio.md)
+* [Accessibility features of Visual Studio](../../ide/reference/accessibility-features-of-visual-studio.md)
+* [Accessibility for Visual Studio for Mac](/visualstudio/mac/accessibility/)

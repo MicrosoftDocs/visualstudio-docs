@@ -1,7 +1,8 @@
 ---
+description: "Retrieves the access modifier of a class member."
 title: "IDiaSymbol::get_access | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,8 @@ helpviewer_keywords:
 ms.assetid: 908976ae-95c4-4020-89c9-de137f727f98
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -42,6 +44,6 @@ HRESULT get_access ( 
 |Header:|dia2.h|
 |Version:|DIA SDK v7.0|
 
-## See Also
+## See also
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
 - [CV_access_e Enumeration](../../debugger/debug-interface-access/cv-access-e.md)

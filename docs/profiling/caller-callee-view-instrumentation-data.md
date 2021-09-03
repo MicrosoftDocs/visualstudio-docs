@@ -1,5 +1,7 @@
 ---
 title: "Caller-Callee View - Instrumentation Data | Microsoft Docs"
+description: Learn about how the Caller/Callee view displays instrumentation information in the call tree in Performance Explorer.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:
@@ -7,7 +9,9 @@ helpviewer_keywords:
 ms.assetid: 0908d354-aa5c-4518-8631-e25b8e7649e5
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
+monikerRange: 'vs-2017'
 ms.workload:
   - "multiple"
 ---

@@ -1,7 +1,9 @@
 ---
 title: "How to: Define the Type Descriptor of a Parameter | Microsoft Docs"
+description: Learn how to define the type descriptor of a parameter for a method in your business data connectivity (BDC) model.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: how-to
 dev_langs:
   - "VB"
   - "CSharp"
@@ -12,7 +14,8 @@ helpviewer_keywords:
   - "Business Data Connectivity service [SharePoint development in Visual Studio], parameter types"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
+ms.technology: sharepoint-development
 ms.workload:
   - "office"
 ---

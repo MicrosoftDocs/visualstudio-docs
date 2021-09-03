@@ -1,19 +1,21 @@
 ---
-title: "TemplateID Element (Visual Studio Templates) | Microsoft Docs"
-ms.date: "11/04/2016"
+title: TemplateID Element (Visual Studio Templates) | Microsoft Docs
+description: Learn about the TemplateID element and how it specifies an identifier for an item template that is categorized into a group of item templates by the TemplateGroupID element.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
 ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
-  - "http://schemas.microsoft.com/developer/vstemplate/2005#TemplateID"
+- http://schemas.microsoft.com/developer/vstemplate/2005#TemplateID
 helpviewer_keywords:
-  - "<TemplateID> element [Visual Studio Templates]"
-  - "TemplateID element [Visual Studio Templates]"
+- <TemplateID> element [Visual Studio Templates]
+- TemplateID element [Visual Studio Templates]
 ms.assetid: 6ca24b4e-0325-4a9e-855e-0cbbe7361d8f
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # TemplateID Element (Visual Studio Templates)
 Specifies an identifier for an item template that is categorized into a group of item templates by the [TemplateGroupID](../extensibility/templategroupid-element-visual-studio-templates.md) element.
@@ -53,6 +55,6 @@ Specifies an identifier for an item template that is categorized into a group of
 
  The value of the `TemplateID` element is used along with project system registration (HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\11.0\Projects\\) to filter templates that appear in the **Add New Item** dialog box.
 
-## See Also
+## See also
 - [Visual Studio Template Schema Reference](../extensibility/visual-studio-template-schema-reference.md)
 - [Creating Project and Item Templates](../ide/creating-project-and-item-templates.md)

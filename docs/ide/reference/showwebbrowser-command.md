@@ -1,5 +1,7 @@
 ---
 title: ShowWebBrowser Command
+description: Learn about the Show Web Browser command and how it displays the URL you specify in a web browser window either within the IDE or external to the IDE.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -8,9 +10,10 @@ helpviewer_keywords:
   - "ShowWebBrowser command"
   - "View.ShowWebBrowser command"
 ms.assetid: c6a4fbd6-8e9d-45cc-8b2f-93990d065e78
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
   - "multiple"
 ---
@@ -48,7 +51,7 @@ The following example displays the Microsoft Docs home page in a web browser out
 >View.ShowWebBrowser https://docs.microsoft.com /ext
 ```
 
-## See Also
+## See also
 
 - [Visual Studio Commands](../../ide/reference/visual-studio-commands.md)
 - [Command Window](../../ide/reference/command-window.md)

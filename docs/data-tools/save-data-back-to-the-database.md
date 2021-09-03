@@ -1,25 +1,28 @@
 ---
 title: Save data back to the database
+description: Use DataSet tools to save data back to the database. The dataset is an in-memory copy of data that should be saved back to the database if it's modified.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
-  - "datasets [Visual Basic], validating data"
-  - "data validation, datasets"
-  - "data [Visual Studio], saving"
-  - "row version"
-  - "updating datasets, constraints"
-  - "datasets [Visual Basic], about datasets"
-  - "datasets [Visual Basic], merging"
-  - "updates, constraints in datasets"
-  - "saving data, about saving data"
-  - "datasets [Visual Basic], constraints"
-  - "TableAdapters"
+- datasets [Visual Basic], validating data
+- data validation, datasets
+- data [Visual Studio], saving
+- row version
+- updating datasets, constraints
+- datasets [Visual Basic], about datasets
+- datasets [Visual Basic], merging
+- updates, constraints in datasets
+- saving data, about saving data
+- datasets [Visual Basic], constraints
+- TableAdapters
 ms.assetid: afe6cb8a-dc6a-428b-b07b-903ac02c890b
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: ghogen
+ms.author: ghogen
+manager: jmartens
+ms.technology: vs-data-tools
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # Save data back to the database
 

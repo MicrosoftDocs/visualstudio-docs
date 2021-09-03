@@ -1,15 +1,18 @@
 ---
-title: "Project Priority | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Project Priority | Microsoft Docs
+description: Learn about the priority scheme that the Visual Studio IDE uses determine the best project for opening an item if the item is a member of more than one project.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: reference
 helpviewer_keywords:
-  - "projects [Visual Studio SDK], opening items"
+- projects [Visual Studio SDK], opening items
 ms.assetid: 9f707592-2fb6-4f75-9269-f6d4700a998e
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Project Priority
 A project item usually is a member of only one project in the solution. Therefore, the IDE can easily determine which project is used to open the item. However, if an item is a member of more than one project, the IDE uses a priority scheme to determine the best project for opening the item.
@@ -26,7 +29,7 @@ A project item usually is a member of only one project in the solution. Therefor
 
 - The project that specifies the highest priority is given the context to open the document. If two projects return equal priority values, the active project is preferred. If no project in the solution responds that it can open the document, the IDE puts the document in the Miscellaneous Files project. For more information, see [Miscellaneous Files Project](../../extensibility/internals/miscellaneous-files-project.md).
 
-## See Also
+## See also
 - [Miscellaneous Files Project](../../extensibility/internals/miscellaneous-files-project.md)
 - [How to: Open Editors for Open Documents](../../extensibility/how-to-open-editors-for-open-documents.md)
 - [Adding Project and Project Item Templates](../../extensibility/internals/adding-project-and-project-item-templates.md)

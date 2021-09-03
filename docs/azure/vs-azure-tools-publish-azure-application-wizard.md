@@ -2,14 +2,12 @@
 title: Publish an Azure cloud service
 description: Learn how to configure the various settings in the Visual Studio Publish Azure Application Wizard
 author: ghogen
-manager: jillfra
-assetId: 7d8f1ac9-e439-47e0-a183-0642c4ea1920
-ms.custom: vs-azure
+manager: jmartens
+ms.technology: vs-azure
 ms.workload: azure-vs
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 03/21/2017
 ms.author: ghogen
-ms.custom: seodec18
 ---
 # Using the Visual Studio Publish Azure Application Wizard
 
@@ -92,7 +90,7 @@ Diagnostics enables you to troubleshoot an Azure cloud service (or Azure virtual
 
 ## Summary page
 
-![Summary](./media/vs-azure-tools-publish-azure-application-wizard/summary.png)
+![Summary page](./media/vs-azure-tools-publish-azure-application-wizard/summary.png)
 
 **Target profile** - You can choose to create a publishing profile from the settings that you have chosen. For example, you might create one profile for a test environment and another for production. To save this profile, choose the **Save** icon. The wizard creates the profile and saves it in the Visual Studio project. To modify the profile name, open the **Target profile** list, and then choose **&lt;Manage…&gt;**.
 

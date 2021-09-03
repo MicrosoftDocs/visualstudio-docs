@@ -1,22 +1,25 @@
 ---
-title: "Publish ClickOnce application using Publish wizard"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-helpviewer_keywords:
-  - "ClickOnce deployment, publishing"
-  - "deploying applications [ClickOnce], Publish wizard"
-  - "Windows applications, ClickOnce deployments"
-  - "publishing, ClickOnce"
+title: Publish ClickOnce application using Publish wizard
+description: Learn about using the Publish Wizard to make your ClickOnce application available to users, including which publishing properties to use.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
+dev_langs: 
+  - VB
+  - CSharp
+  - C++
+helpviewer_keywords: 
+  - ClickOnce deployment, publishing
+  - deploying applications [ClickOnce], Publish wizard
+  - Windows applications, ClickOnce deployments
+  - publishing, ClickOnce
 ms.assetid: 2e4aa67c-4445-4f7b-9e03-9acb95829127
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
-ms.workload:
-  - "multiple"
+manager: jmartens
+ms.technology: vs-ide-deployment
+ms.workload: 
+  - multiple
 ---
 # How to: Publish a ClickOnce application using the Publish Wizard
 To make a ClickOnce application available to users, you must publish it to a file share or path, FTP server, or removable media. You can publish the application by using the Publish Wizard; additional properties related to publishing are available on the **Publish** page of the **Project Designer**. For more information, see [Publishing ClickOnce applications](../deployment/publishing-clickonce-applications.md).

@@ -1,27 +1,28 @@
 ---
 title: Install Dotfuscator Community
 ms.date: 03/28/2019
-ms.devlang: "dotnet"
-ms.topic: conceptual
+ms.devlang: dotnet
+ms.topic: how-to
 keywords: Dotfuscator, Dotfuscator Community, Dotfuscator CE, PreEmptive, PreEmptive Solutions, PreEmptive Protection, protection, community edition, obfuscation, .NET, free, Visual Studio 2017, Visual Studio 2019, Visual Studio, install
 helpviewer_keywords:
-  - "PreEmptive Protection Dotfuscator"
-  - "Dotfuscator Community Edition"
-  - "Dotfuscator CE"
-  - "Dotfuscator Community"
-  - "Dotfuscator"
-  - "obfuscation"
-  - "protection"
-  - "Dotfuscator installer"
-  - "Dotfuscator setup"
-  - "install Dotfuscator"
-  - "installing Dotfuscator"
-  - "set up Dotfuscator"
-description: "Learn how to install the free copy of Dotfuscator Community included in Visual Studio."
+- PreEmptive Protection Dotfuscator
+- Dotfuscator Community Edition
+- Dotfuscator CE
+- Dotfuscator Community
+- Dotfuscator
+- obfuscation
+- protection
+- Dotfuscator installer
+- Dotfuscator setup
+- install Dotfuscator
+- installing Dotfuscator
+- set up Dotfuscator
+description: Learn how to install the free copy of Dotfuscator Community included in Visual Studio.
 ms.assetid: f2146651-e24a-4e24-ade8-8ddee8ff4e43
-author: "Joe-Sewell-PreEmptive"
-ms.author: gewarren
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
+ms.technology: vs-ide-general
 ---
 # Install Dotfuscator Community
 
@@ -47,7 +48,7 @@ You can install Dotfuscator Community from the Visual Studio IDE:
 
 3. A Visual Studio Installer window will launch, pre-configured to install Dotfuscator Community.
    > [!NOTE]
-   > You may be required to provide administrator credentials to continue. 
+   > You may be required to provide administrator credentials to continue.
 
 4. In the Visual Studio Installer window, click *Install*. <br/> <br/> ![Click Install](media/install_in_vs19_34.png) <br/> <br/>
 
@@ -63,7 +64,7 @@ You can install Dotfuscator Community from the Visual Studio IDE:
    * If you instead see, under the *Menus* heading, **Tools - PreEmptive Protection - Dotfuscator**, then Dotfuscator CE is already installed. Select that option to [get started][get-started].
 
 3. A Visual Studio Installer window will launch, pre-configured to install Dotfuscator CE.
-   > [!NOTE] 
+   > [!NOTE]
    > You may be required to provide administrator credentials to continue.
 
 4. In the Visual Studio Installer window, click *Install*. <br/> <br/> ![Click Install](media/install_from_vs_345.png) <br/> <br/>

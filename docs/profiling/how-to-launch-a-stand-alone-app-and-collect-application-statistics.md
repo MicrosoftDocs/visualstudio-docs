@@ -1,13 +1,17 @@
 ---
-title: "Profiler command line: Launch stand-alone app, get app stats"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Profiler command line - Launch stand-alone app, get app stats
+description: Learn how to use the Visual Studio Profiling Tools command-line tools to start a stand-alone app and collect performance data using the sampling method.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
 ms.assetid: 52dcee2b-f178-4a76-bddc-e36c50bfcb78
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
-ms.workload:
-  - "multiple"
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.technology: vs-ide-debug
+monikerRange: 'vs-2017'
+ms.workload: 
+  - multiple
 ---
 # How to: Launch a stand-alone application with the profiler and collect application statistics by using the command line
 This topic describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools command-line tools to start a stand-alone (client) application and collect performance statistics by using the sampling method.

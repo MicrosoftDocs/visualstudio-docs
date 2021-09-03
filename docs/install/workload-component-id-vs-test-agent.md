@@ -1,20 +1,21 @@
 ---
 title: Visual Studio Test Agent workload and component IDs
-titleSuffix: ""
-description: "Use Visual Studio workload and component IDs to run automated tests and load tests remotely"
+titleSuffix: ''
+description: Use Visual Studio workload and component IDs to run automated tests and load tests remotely
 keywords:
-author: TerryGLee
-ms.author: tglee
-manager: jillfra
-ms.date: 05/22/2019
+author: anandmeg
+ms.author: meghaanand
+manager: jmartens
+ms.date: 08/10/2021
 ms.topic: reference
 helpviewer_keywords:
-  - "workload ID, Visual Studio"
-  - "component ID, Visual Studio"
-  - "install Visual Studio, administrator guide"
+- workload ID, Visual Studio
+- component ID, Visual Studio
+- install Visual Studio, administrator guide
 ms.assetid: 55aea29b-1066-4e5a-aa99-fc87d4efb6d5
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
+open_to_public_contributors: false
 ---
 # Visual Studio Test Agent component directory
 

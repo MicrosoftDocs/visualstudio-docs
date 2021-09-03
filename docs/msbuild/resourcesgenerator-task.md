@@ -1,5 +1,7 @@
 ---
 title: "ResourcesGenerator Task | Microsoft Docs"
+description: Learn how MSBuild uses the ResourcesGenerator task to embed one or more resources into a .resources file.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
@@ -12,14 +14,16 @@ helpviewer_keywords:
   - "ResourcesGenerator task [WPF MSBuild]"
   - "ResourcesGenerator task [WPF MSBuild], parameters"
 ms.assetid: e782bbac-9ee6-472b-8171-3ee008c77b4e
-author: mikejo5000
-ms.author: mikejo
-manager: jillfra
+author: ghogen
+ms.author: ghogen
+manager: jmartens
+ms.technology: msbuild
 ms.workload:
   - "multiple"
 ---
 # ResourcesGenerator task
-The <xref:Microsoft.Build.Tasks.Windows.ResourcesGenerator> task embeds one or more resources (*.jpg*, *.ico*, *.bmp*, [!INCLUDE[TLA2#tla_xaml](../msbuild/includes/tla2sharptla_xaml_md.md)] in binary format, and other extension types) into a *.resources* file.
+
+The <xref:Microsoft.Build.Tasks.Windows.ResourcesGenerator> task embeds one or more resources (*.jpg*, *.ico*, *.bmp*, XAML in binary format, and other extension types) into a *.resources* file.
 
 ## Task parameters
 
@@ -30,6 +34,7 @@ The <xref:Microsoft.Build.Tasks.Windows.ResourcesGenerator> task embeds one or m
 |`ResourcesFiles`|Required **ITaskItem[]** parameter.<br /><br /> Specifies one or more resources to embed in the generated *.resources* file.|
 
 ## Example
+
  The following example generates a *.resources* file with a single *.bmp* resource. The *.bmp* resource is generated to a directory that is relative to the project root directory.
 
 ```xml
@@ -47,6 +52,7 @@ The <xref:Microsoft.Build.Tasks.Windows.ResourcesGenerator> task embeds one or m
 ```
 
 ## See also
+
 - [WPF MSBuild reference](../msbuild/wpf-msbuild-reference.md)
 - [Task reference](../msbuild/wpf-msbuild-task-reference.md)
 - [MSBuild reference](../msbuild/msbuild-reference.md)

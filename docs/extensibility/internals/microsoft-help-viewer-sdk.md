@@ -1,13 +1,16 @@
 ---
-title: "Microsoft Help Viewer SDK | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Microsoft Help Viewer SDK | Microsoft Docs
+description: Learn about Visual Studio Help Viewer tasks, such as creating an article, creating a Help Viewer content-branding package, and deploying a set of articles.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: conceptual
 ms.assetid: 620d7dcd-d462-475e-a449-fbfa06ff12c5
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Microsoft Help Viewer SDK
 
@@ -440,7 +443,7 @@ Note: variables noted by "{n}" have code dependencies - removing or changing the
 
 **Branding.xml**
 
-| | |
+| Element | Description |
 | - | - |
 | Feature: | **CollapsibleArea** |
 | Use: | Expand collapses content control text |
@@ -522,9 +525,8 @@ Note: variables noted by "{n}" have code dependencies - removing or changing the
 
 The branding.js file contains JavaScript used by the Visual Studio Help Viewer branding elements.  Below is a list of the branding elements and the supporting JavaScript function.  All strings to be localized for this file are defined in the "Localizable Strings" section at the top of this file.  ICL file has been created for loc strings within the branding.js file.
 
-||||
-|-|-|-|
 |**Branding Feature**|**JavaScript Function**|**Description**|
+|-|-|-|
 |Var ...||Define variables|
 |Get the user code language|setUserPreferenceLang|maps an index # to code language|
 |Set and Get cookie values|getCookie, setCookie||
@@ -559,9 +561,8 @@ The branding.js file contains JavaScript used by the Visual Studio Help Viewer b
 
 The branding package contains a set of HTM files that support scenarios for communicating key information to Help content users, for example a homepage that contains a section describing which content sets are installed and pages telling the user when topics cannot be found in the local set of topics. These HTM files can be modified per product.  ISO Shell vendors are able to take the default branding package and change the behavior and content of these pages to suite their need.  These files refer to their respective branding package in order for the branding tags to get the corresponding content from the branding.xml file.
 
-||||
-|-|-|-|
 |**File**|**Use**|**Displayed Content Source**|
+|-|-|-|
 |homepage.htm|This is a page that displays currently installed content, and any other message appropriate to present to the user about their content.  This file has the additional meta data attribute "Microsoft.Help.Id" content="-1"  which places this content at the top of the local content TOC.||
 ||<META_HOME_PAGE_TITLE_ADD />|Branding.xml, tag \<HomePageTitle>|
 ||<HOME_PAGE_INTRODUCTION_SECTION_ADD />|Branding.xml, tag \<HomePageIntroduction>|
@@ -594,9 +595,8 @@ Branding.css files include definitions for Visual Studio topic presentation (cav
 
 Visual Studio content displays a Visual Studio logo as well as other graphics.  The complete list of graphic files in the Visual Studio Help Viewer branding package is shown below.
 
-||||
-|-|-|-|
 |**File**|**Use**|**Examples**|
+|-|-|-|
 |clear.gif|Used to render Collapsible Area||
 |footer_slice.gif|Footer presentation||
 |info_icon.gif|Used when displaying information|Disclaimer|
@@ -604,7 +604,7 @@ Visual Studio content displays a Visual Studio logo as well as other graphics.  
 |tabLeftBD.gif|Used to render the code snippet container||
 |tabRightBD.gif|Used to render the code snippet container||
 |vs_logo_bk.gif|Used for normal contrast logo references as defined in Branding.xml tag \<LogoFileName>.  For Visual Studio products, logo name is vs_logo_bk.gif.||
-|vs_logo_wh.gif|Used for normal high logo references as defined in Branding.xml tag \<LogoFileNameHC>.  For Visual Studio products, logo name is vs_logo_wh.gif.||
+|vs_logo_wh.gif|Used for high contrast logo references as defined in Branding.xml tag \<LogoFileNameHC>.  For Visual Studio products, logo name is vs_logo_wh.gif.||
 |ccOff.png|Captioning graphic||
 |ccOn.png|Captioning graphic||
 |ImageSprite.png|Used to render Collapsible Area|expanded or collapse graphic|
@@ -830,4 +830,4 @@ For the Runtime API, see [Windows Help API](/previous-versions/windows/desktop/h
 
 For more information on how to leverage the Help API, see [Help Viewer code examples](https://marketplace.visualstudio.com/items?itemName=RobChandlerHelpMVP.HelpViewer20CodeExamples).
 
-You can submit feature suggestions on [Developer Community](https://developercommunity.visualstudio.com/content/idea/post.html?space=8).
+You can submit feature suggestions on [Developer Community](https://aka.ms/feedback/suggest?space=8).

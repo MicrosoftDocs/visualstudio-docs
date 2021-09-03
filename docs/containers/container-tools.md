@@ -1,11 +1,11 @@
 ---
-title: Visual Studio Container Tools with ASP.NET Core
+title: Visual Studio Container Tools with ASP.NET
 author: ghogen
 description: Learn how to use Visual Studio Container Tools and Docker for Windows
 ms.author: ghogen
-ms.date: 02/01/2019
-ms.technology: vs-azure
-ms.topic: include
+ms.date: 01/24/2020
+ms.technology: vs-container-tools
+ms.topic: quickstart
 ---
 # Quickstart: Docker in Visual Studio
 
@@ -23,6 +23,6 @@ ms.topic: include
 
 ## Additional resources
 
-* [Container development with Visual Studio](/visualstudio/containers)
+* [Container development with Visual Studio](./index.yml)
 * [Troubleshoot Visual Studio development with Docker](troubleshooting-docker-errors.md)
 * [Visual Studio Container Tools GitHub repository](https://github.com/Microsoft/DockerTools)

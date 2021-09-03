@@ -1,22 +1,27 @@
 ---
-title: "How to: Display an Item List Separated with Commas | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: 'How to: Display an Item List Separated with Commas | Microsoft Docs'
+description: Learn how to use MSBuild to display an item list separated with commas, or specify other separator strings for an item list.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "MSBuild, separating items with semicolons"
-  - "MSBuild, formatting item collections"
+- MSBuild, separating items with semicolons
+- MSBuild, formatting item collections
 ms.assetid: 3cae844c-7c6d-4144-82dc-efad10ba458f
-author: mikejo5000
-ms.author: mikejo
-manager: jillfra
+author: ghogen
+ms.author: ghogen
+manager: jmartens
+ms.technology: msbuild
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Display an item list separated with commas
-When you work with item lists in [!INCLUDE[vstecmsbuildengine](../msbuild/includes/vstecmsbuildengine_md.md)] ([!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)]), it is sometimes useful to display the contents of those item lists in a way that is easy to read. Or, you might have a task that takes a list of items separated with a special separator string. In both of these cases, you can specify a separator string for an item list.
+
+When you work with item lists in Microsoft Build Engine (MSBuild), it is sometimes useful to display the contents of those item lists in a way that is easy to read. Or, you might have a task that takes a list of items separated with a special separator string. In both of these cases, you can specify a separator string for an item list.
 
 ## Separate items in a list with commas
-By default, [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] uses semicolons to separate items in a list. For example, consider a `Message` element with the following value:
+
+By default, MSBuild uses semicolons to separate items in a list. For example, consider a `Message` element with the following value:
 
 `<Message Text="This is my list of TXT files: @(TXTFile)"/>`
 
@@ -37,7 +42,8 @@ The separator can be either a single character or a string and must be enclosed 
     `@(TXTFile, ', ')`
 
 ## Example
-In this example, [Exec](../msbuild/exec-task.md) task runs the findstr tool to find specified text strings in the file, *Phrases.txt*. In the findstr command, literal search strings are indicated by the **-c:** switch, so the item separator, `-c:` is inserted between items in the `@(Phrase)` item list.
+
+In this example, [Exec](../msbuild/exec-task.md) task runs the findstr tool to find specified text strings in the file, *Phrases.txt*. In the findstr command, literal search strings are indicated by the **/c:** switch, so the item separator, ` /c:` is inserted between items in the `@(Phrase)` item list.
 
 For this example, the equivalent command-line command is:
 
@@ -61,5 +67,6 @@ For this example, the equivalent command-line command is:
 ```
 
 ## See also
+
 - [MSBuild reference](../msbuild/msbuild-reference.md)
 - [Items](../msbuild/msbuild-items.md)

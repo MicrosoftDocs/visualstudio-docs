@@ -1,19 +1,22 @@
 ---
 title: Add code to TableAdapters in n-tier applications
+description: Add code to table adapters in n-tier applications. Create a partial class file for TableAdapter and add code to it (instead of to DatasetName.DataSet.Designer).
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 dev_langs:
-  - "VB"
-  - "CSharp"
+- VB
+- CSharp
 helpviewer_keywords:
-  - "TableAdapters, n-tier applications"
-  - "n-tier applications, extending TableAdapters"
+- TableAdapters, n-tier applications
+- n-tier applications, extending TableAdapters
 ms.assetid: dafac00e-df9d-4d4a-95a6-e34b4d099425
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: ghogen
+ms.author: ghogen
+manager: jmartens
+ms.technology: vs-data-tools
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # Add code to TableAdapters in n-tier applications
 You can extend the functionality of a TableAdapter by creating a partial class file for the TableAdapter and adding code to it (instead of adding code to the *DatasetName.DataSet.Designer* file). Partial classes enable code for a specific class to be divided among multiple physical files. For more information, see [Partial](/dotnet/visual-basic/language-reference/modifiers/partial) or [partial (Type)](/dotnet/csharp/language-reference/keywords/partial-type).

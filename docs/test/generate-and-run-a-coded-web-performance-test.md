@@ -1,19 +1,22 @@
 ---
-title: "Coded web performance tests"
+title: Coded web performance tests
+description: Learn how a web performance test can be converted to a code-based script that you can edit and customize.
+ms.custom: SEO-VS-2020
 ms.date: 10/03/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "Web performance tests, walkthroughs"
-  - "Web performance tests, creating"
-  - "code, Web performance tests"
-  - "Web performance tests, coded"
+- Web performance tests, walkthroughs
+- Web performance tests, creating
+- code, Web performance tests
+- Web performance tests, coded
 ms.assetid: 169e48f9-52fd-4d0b-83d9-54913bde506b
 dev_langs:
-  - CSharp
-  - VB
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+- CSharp
+- VB
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.technology: vs-ide-test
 ---
 # Generate and run a coded web performance test
 

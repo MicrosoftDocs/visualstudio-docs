@@ -1,7 +1,8 @@
 ---
+description: "Retrieves the program string that is used to compute the register set before the call to the current function."
 title: "IDiaFrameData::get_program | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,8 @@ helpviewer_keywords:
 ms.assetid: 9201409e-b4b1-4e2e-a9f8-d17678ac538b
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -45,5 +47,5 @@ HRESULT get_program ( 
 
    Note that the program string is specific to the CPU and to the calling convention set up for the function represented by the current stack frame.
 
-## See Also
+## See also
 - [IDiaFrameData](../../debugger/debug-interface-access/idiaframedata.md)

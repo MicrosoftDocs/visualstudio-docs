@@ -1,5 +1,7 @@
 ---
 title: "Report Hook Functions | Microsoft Docs"
+description: Review report hook functions in Visual Studio. A report hook function, installed using _CrtSetReportHook, is called every time _CrtDbgReport generates a debug report.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:
@@ -20,7 +22,8 @@ helpviewer_keywords:
 ms.assetid: 1854bca7-d7eb-4502-89bf-b1ee64cb50ef
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -41,6 +44,6 @@ typedef int (__cdecl *_CRT_REPORT_HOOK)(int, char *, int *);
 
  If the hook handles the message in question completely, so that no further reporting is required, it should return **TRUE**. If it returns **FALSE**, `_CrtDbgReport` will report the message normally.
 
-## See Also
+## See also
 - [Debug Hook Function Writing](../debugger/debug-hook-function-writing.md)
 - [crt_dbg2 Sample](https://github.com/Microsoft/VCSamples/tree/master/VC2010Samples/crt/crt_dbg2)

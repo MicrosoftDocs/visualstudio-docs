@@ -1,22 +1,23 @@
 ---
-title: Azure PAYG Benefit
+title: Azure PAYG Benefit in Visual Studio subscriptions
 author: evanwindom
-ms.author: lank
-manager: lank
-ms.date: 07/30/2019
-ms.topic: conceptual
+ms.author: v-evwin
+manager: cabuschl
+ms.assetid: 5dc7f57e-883a-4cc1-a914-06245a8cb1ff
+ms.date: 02/19/2021
+ms.topic: how-to
 description:  Learn how to set up your Azure Pay-As-You-Go account.
 ---
 
-# Azure Dev/Test Pay-As-You-Go subscriptions
+# Azure DevTest Pay-As-You-Go subscriptions
 Collaborate with your team in the cloud.  Create multiple Dev and Test Pay-As-You-Go subscriptions, enabling collaboration with other subscribers while also providing isolation between teams and environments.  You receive exclusive discounted hourly rates for dev/test and cloud use rights for your subscription software on Azure.
 
 ## Set up a subscription
 1. To use your Azure Pay-As-You-Go subscription benefit, sign in to [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs) and click on the **Activate** link at the bottom of the benefit tile.
    > [!div class="mx-imgBorder"]
-   > ![Azure PAYG Tile](_img/vs-azure-payg/vs-azure-payg-tile.png)
+   > ![Azure PAYG Tile](_img/vs-azure-payg/vs-azure-payg-tile.png "Click 'Activate' on the DevTest Pay-As-You-Go subscription tile to get started.")
 
-2. If you have already activated an Azure account as part of your subscription benefits (for example, if you have an Enterprise subscription and activated your $150 monthly Azure credit), skip to step 5.
+2. If you have already activated an Azure account as part of your subscription benefits (for example, if you have an Enterprise subscription and activated your $150 monthly Azure DevTest individual credit), skip to step 5.
 
 3. On the Microsoft Azure Sign up page, you’ll have the option to either set up the Pay-As-You-Go Dev/Test offer (PAYG), or upgrade to the Visual Studio Enterprise offer.  Click **Continue with the current offer (Pay-As-You-Go Dev/Test)** if you don’t wish to upgrade.
 
@@ -38,8 +39,16 @@ A: To make changes to any of your Azure subscriptions:
 3. You'll see a list of your subscriptions in the **My subscriptions** box. Click the desired subscription.
 4. You'll now have options to manage or cancel the subscription, rename it, change the directory, or transfer billing ownership.
 
-## Next steps
-Many subscriptions include additional Azure-related benefits such as Azure DevOps and Azure credits.  For more information about these benefits, please see:
-- [Azure DevOps](vs-azure-devops.md)
-- [Azure credits](vs-azure.md)
+## Resources
+- For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, see Visual Studio [Subscriptions support](https://aka.ms/vssubscriberhelp).
 
+## See also
+- [Visual Studio documentation](/visualstudio/)
+- [Azure DevOps documentation](/azure/devops/)
+- [Azure documentation](/azure/)
+- [Microsoft 365 documentation](/microsoft-365/)
+
+## Next steps
+Many subscriptions include additional Azure-related benefits such as Azure DevOps and Azure DevTest individual credit.  For more information about these benefits, please see:
+- [Azure DevOps](vs-azure-devops.md)
+- [Azure DevTest individual credit](vs-azure.md)

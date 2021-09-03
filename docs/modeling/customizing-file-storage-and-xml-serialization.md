@@ -1,16 +1,19 @@
 ---
 title: Customizing File Storage and XML Serialization
+description: Learn about the XML file created or updated when you save an instance, or model, of a domain-specific language (DSL) in Visual Studio.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 f1_keywords:
-  - "vs.dsltools.dsldesigner.xmlbehavior"
+- vs.dsltools.dsldesigner.xmlbehavior
 helpviewer_keywords:
-  - "Domain-Specific Language, serialization"
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+- Domain-Specific Language, serialization
+author: mgoertz-msft
+ms.author: mgoertz
+manager: jmartens
+ms.technology: vs-ide-modeling
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Customize File Storage and XML Serialization
 
@@ -260,9 +263,8 @@ The following table summarizes the options that you can set in this section of t
 
 These elements are found in DSL Explorer under **Xml Serialization Behavior\Class Data**.
 
-|||
-|-|-|
 |Property|Description|
+|-|-|
 |Has Custom Element Schema|If True, indicates that the domain class has a custom element schema|
 |Is Custom|Set this to **True** if you want to write your own serialization and deserialization code for this domain class.<br /><br /> Build the solution and investigate the errors to discover detailed instructions.|
 |Domain Class|Domain class to which this class data node applies. Read-only.|
@@ -278,9 +280,8 @@ These elements are found in DSL Explorer under **Xml Serialization Behavior\Clas
 
 Xml Property nodes are found under the class nodes.
 
-|||
-|-|-|
 |Property|Description|
+|-|-|
 |Domain Property|Property to which the xml serialization configuration data applies. Read-only.|
 |Is Moniker Key|If True, the property is used as the key for creating monikers that reference instances of this domain class.|
 |Is Moniker Qualifier|If True, the property is used for creating the qualifier in monikers. If false, and if SerializeId is not true for this domain class, monikers are qualified by the moniker of the parent element in the embedding tree.|
@@ -300,7 +301,7 @@ Role data nodes are found under the source class nodes.
 |Role Element Name|Specifies the name of the XML element that is derived from the source role. The default value is the role property name.|
 |Use Full Form|If true, each target element or moniker is enclosed in an XML node representing the relationship. This should be set to true if the relationship has its own domain properties.|
 
-## See Also
+## See also
 
 - [Navigating and Updating a Model in Program Code](../modeling/navigating-and-updating-a-model-in-program-code.md)
 - [Generating Code from a Domain-Specific Language](../modeling/generating-code-from-a-domain-specific-language.md)

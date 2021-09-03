@@ -1,15 +1,18 @@
 ---
 title: Test a UWP app with a coded UI test
+description: Learn how to create a coded UI test for a Universal Windows Platform app by creating a UWP app to test and creating a coded UI test.
+ms.custom: SEO-VS-2020
 ms.date: 05/31/2018
-ms.topic: conceptual
-author: gewarren
-ms.author: gewarren
-manager: jillfra
-dev_langs:
- - CSharp
- - VB
-ms.workload:
-  - "uwp"
+ms.topic: how-to
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.technology: vs-ide-test
+dev_langs: 
+  - CSharp
+  - VB
+ms.workload: 
+  - uwp
 ---
 # Create a coded UI test to test a UWP app
 

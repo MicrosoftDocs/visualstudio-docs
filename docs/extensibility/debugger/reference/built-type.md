@@ -1,20 +1,22 @@
 ---
-title: "BUILT_TYPE | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "The BUILT_TYPE structure specifies information about a field type taken from metadata."
+title: BUILT_TYPE | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "BUILT_TYPE"
+- BUILT_TYPE
 helpviewer_keywords:
-  - "BUILT_TYPE structure"
+- BUILT_TYPE structure
 ms.assetid: cc02c32c-0f65-4210-ad25-a9b1899066e8
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # BUILT_TYPE
 This structure specifies information about a field type taken from metadata.

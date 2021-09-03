@@ -1,25 +1,27 @@
 ---
-title: "Run a worker process under a user account | Microsoft Docs"
-ms.custom: "seodec18"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-dev_langs:
-  - "CSharp"
-  - "VB"
-  - "FSharp"
-  - "C++"
-helpviewer_keywords:
-  - "user accounts, aspnet_wp.exe"
-  - "ASP.NET, debugging Web applications"
-  - "tools, aspnet_wp.exe"
-  - "ASP.NET, tools"
-  - "aspnet_wp.exe"
+title: Run a worker process under a user account | Microsoft Docs
+description: Set up your computer so that you can run the ASP.NET worker process (aspnet_wp.exe or w3wp.exe) under a user account in Visual Studio.
+ms.custom: "SEO-VS-2020"
+ms.date: 11/04/2016
+ms.topic: how-to
+dev_langs: 
+  - CSharp
+  - VB
+  - FSharp
+  - C++
+helpviewer_keywords: 
+  - user accounts, aspnet_wp.exe
+  - ASP.NET, debugging Web applications
+  - tools, aspnet_wp.exe
+  - ASP.NET, tools
+  - aspnet_wp.exe
 ms.assetid: b58e97b1-e62a-4318-aea4-52276ea20735
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
-ms.workload:
-  - "multiple"
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.technology: vs-ide-debug
+ms.workload: 
+  - multiple
 ---
 # How to: Run the Worker Process Under a User Account
 To set up your computer so that you can run the [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] worker process (aspnet_wp.exe or w3wp.exe) under a user account, follow these steps.
@@ -80,6 +82,6 @@ To set up your computer so that you can run the [!INCLUDE[vstecasp](../code-qual
 
 13. Click **OK** to close the **Temporary ASP.NET Files Properties** dialog box.
 
-## See Also
+## See also
 - [Debug ASP.NET Applications](../debugger/how-to-enable-debugging-for-aspnet-applications.md)
 - [ASP.NET Debugging: System Requirements](../debugger/aspnet-debugging-system-requirements.md)

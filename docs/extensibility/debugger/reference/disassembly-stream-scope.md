@@ -1,20 +1,22 @@
 ---
-title: "DISASSEMBLY_STREAM_SCOPE | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Specifies the scope of the disassembly stream."
+title: DISASSEMBLY_STREAM_SCOPE | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "DISASSEMBLY_STREAM_SCOPE"
+- DISASSEMBLY_STREAM_SCOPE
 helpviewer_keywords:
-  - "DISASSEMBLY_STREAM_SCOPE enumeration"
+- DISASSEMBLY_STREAM_SCOPE enumeration
 ms.assetid: 43e2b364-cbbe-4755-a7e6-a03f3054c965
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # DISASSEMBLY_STREAM_SCOPE
 Specifies the scope of the disassembly stream.

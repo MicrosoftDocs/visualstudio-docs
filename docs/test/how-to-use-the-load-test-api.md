@@ -1,15 +1,18 @@
 ---
-title: "Load Test API"
+title: Load Test API
+description: Learn how to use the load test API, which supports test plug-ins, which can control or enhance a load test.
+ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
-ms.topic: conceptual
-helpviewer_keywords:
-  - "code, load tests"
-  - "plug-ins, load test"
-  - "APIs, load tests"
+ms.topic: how-to
+helpviewer_keywords: 
+  - code, load tests
+  - plug-ins, load test
+  - APIs, load tests
 ms.assetid: e15567bc-1f21-4feb-b81d-f17ba35cfde5
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.technology: vs-ide-test
 ---
 # How to: Use the load test API
 

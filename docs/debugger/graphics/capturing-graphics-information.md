@@ -1,5 +1,7 @@
 ---
 title: "Capturing Graphics Information | Microsoft Docs"
+description: Capture graphics information from your Direct3D app so that you can use Visual Studio Graphics Analyzer to diagnose rendering problems and performance problems.
+ms.custom: SEO-VS-2020
 ms.date: "02/09/2017"
 ms.topic: "conceptual"
 f1_keywords:
@@ -9,7 +11,8 @@ f1_keywords:
 ms.assetid: 187ce86e-e340-4f6c-8937-8e8f1027a17f
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -77,5 +80,5 @@ Capture graphics information from your Direct3D app so that you can use Visual S
 ## Capturing graphics information from the command line
  Graphics information can be captured from an app by using a command-line tool. This tool, DXCap.exe, can quickly capture and play back graphics information without using Visual Studio or programmatic capture. In particular, you can use DXCap.exe for automation, or in a test environment. For more information about DXCap.exe, see [Command-Line Capture Tool](command-line-capture-tool.md)
 
-## See Also
+## See also
 - [Walkthrough: Capturing Graphics Information](walkthrough-capturing-graphics-information.md)

@@ -1,18 +1,20 @@
 ---
-title: "IDebugSettingsCallback2::GetEELocalObject | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Retrieves a expression evaluator local object given the metric name."
+title: IDebugSettingsCallback2::GetEELocalObject | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "IDebugSettingsCallback2::GetEELocalObject"
+- IDebugSettingsCallback2::GetEELocalObject
 ms.assetid: e69a3469-a049-420c-b918-c48a1e7b9baf
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugSettingsCallback2::GetEELocalObject
 Retrieves a expression evaluator local object given the metric name.

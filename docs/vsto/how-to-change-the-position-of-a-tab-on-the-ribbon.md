@@ -1,7 +1,9 @@
 ---
 title: "How to: Change the position of a tab on the ribbon"
+description: You can change the order of custom tabs on a ribbon and position custom tabs before or after a built-in tab on the ribbon by using the Tab Collection Editor.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: "how-to"
 dev_langs:
   - "VB"
   - "CSharp"
@@ -9,7 +11,8 @@ helpviewer_keywords:
   - "Ribbon [Office development in Visual Studio], tabs"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
+ms.technology: office-development
 ms.workload:
   - "office"
 ---
@@ -48,7 +51,7 @@ ms.workload:
 
 5. Set the **OfficeId** property to the control ID of a built-in tab.
 
-     For a list of control IDs, see [Office 2010 help files: Office fluent user interface control identifiers](http://go.microsoft.com/fwlink/?LinkID=181052).
+     For a list of control IDs, see [Office 2010 help files: Office fluent user interface control identifiers](https://www.microsoft.com/download/details.aspx?id=6627).
 
 ## See also
 - [Ribbon overview](../vsto/ribbon-overview.md)

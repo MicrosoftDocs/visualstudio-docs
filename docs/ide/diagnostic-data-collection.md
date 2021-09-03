@@ -1,10 +1,13 @@
 ---
 title: Diagnostic data and system-generated logs
+description: Learn about Visual Studio system-generated logs, the types of data that's collected, and how it's used to fix problems and improve product quality.
+ms.custom: SEO-VS-2020
 ms.date: 05/24/2018
 ms.topic: conceptual
-author: gewarren
-ms.author: michma
-manager: jillfra
+author: anandmeg
+ms.author: meghaanand
+manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
   - "multiple"
 ---
@@ -14,11 +17,11 @@ Visual Studio collects system-generated logs to fix problems and improve the qua
 
 ## Types of collected data
 
-Visual Studio collects system-generated logs for crashes, hangs, UI unresponsiveness, and high CPU or memory usage. We also collect information about errors encountered during product installation or usage. The collected data varies based on the error, and may include stack traces, memory dumps, and exception information:
+Visual Studio collects system-generated logs for crashes, UI unresponsiveness, and high CPU or memory usage. We also collect information about errors encountered during product installation or usage. The collected data varies based on the error, and may include stack traces, memory dumps, and exception information:
 
 - For high CPU usage and unresponsiveness, stack traces of relevant Visual Studio threads are collected.
 
-- For cases where stack traces of some threads aren't enough to determine the root cause of the issue, for example, crashes, hangs or high memory usage, we collect a memory *dump*. The dump represents the state of the process when the error occurred.
+- For cases where stack traces of some threads aren't enough to determine the root cause of the issue, for example, crashes, unresponsiveness or high memory usage, we collect a memory *dump*. The dump represents the state of the process when the error occurred.
 
 - For unexpected error conditions, for example, an exception while trying to write to a file on disk, we collect information about the exception. The information includes the name of the exception, the stack trace of the thread where the exception occurred, the message associated with the exception, and other information relevant to the specific exception.
 
@@ -62,7 +65,7 @@ Extension authors should limit exposure of personal information by not using per
 
 ## Opt out of data collection
 
-Given the purpose of the data we collect and the constraints on its access and retention, we recommend that you use the default privacy settings for Visual Studio and Windows. However, you can [opt out](../ide/visual-studio-experience-improvement-program.md#opt-in-or-out) of the Visual Studio Experience Improvement Program. To opt out of system-generated log collection for all programs, see [Diagnostics, feedback, and privacy in Windows 10](https://privacy.microsoft.com/windows-10-feedback-diagnostics-and-privacy). Options may vary depending on the version of Windows you're using.
+Given the purpose of the data we collect and the constraints on its access and retention, we recommend that you use the default privacy settings for Visual Studio and Windows. However, you can [opt out](../ide/visual-studio-experience-improvement-program.md#opt-in-or-out) of the Visual Studio Experience Improvement Program. When you opt out, you are opting out of **optional** diagnostic data collection. Some diagnostic data collection is **required** to make sure Visual Studio is secure, up to date, and performing as expected. Required diagnostic data collection will not be affected by your choice to opt out of VSCEIP. To opt out of system-generated log collection for all programs, see [Diagnostics, feedback, and privacy in Windows 10](https://privacy.microsoft.com/windows-10-feedback-diagnostics-and-privacy). Options may vary depending on the version of Windows you're using.
 
 ## See also
 

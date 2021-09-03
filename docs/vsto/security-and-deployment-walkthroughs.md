@@ -1,5 +1,7 @@
 ---
 title: "Security and deployment walkthroughs"
+description: Learn how you can set security policy to allow your solution to run and how you can deploy your Office solution.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -12,7 +14,8 @@ helpviewer_keywords:
   - "walkthroughs [Office development in Visual Studio], deployment"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
+ms.technology: office-development
 ms.workload:
   - "office"
 ---
@@ -27,25 +30,25 @@ ms.workload:
  Explains how to configure the [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)] trust prompt to control whether end users are given the option of installing Office solutions.
 
 ## Deployment topics
-- [How to: Publish an Office solution by using ClickOnce](https://msdn.microsoft.com/2b6c247e-bc04-4ce4-bb64-c4e79bb3d5b8)
+- [How to: Publish an Office solution by using ClickOnce](/previous-versions/bb386095(v=vs.110))
  Provides information about how to use the **Publish Wizard** or the **Publish** page of the Project Designer to publish Office solutions.
 
-- [How to: Publish a document-level Office solution to a SharePoint server by using ClickOnce](https://msdn.microsoft.com/2408e809-fb78-42a1-9152-00afa1522e58)
+- [How to: Publish a document-level Office solution to a SharePoint server by using ClickOnce](/previous-versions/bb608595(v=vs.110))
  Describes the steps for deploying to a SharePoint server.
 
-- [How to: Install a ClickOnce Office solution](https://msdn.microsoft.com/14702f48-9161-4190-994c-78211fe18065)
+- [How to: Install a ClickOnce Office solution](/previous-versions/bb608592(v=vs.110))
  Provides steps for installing Office solutions by running the Setup program that is generated during the publishing process; opening the deployment manifest file; or opening a customized document or workbook.
 
-- [How to: Install prerequisites on end user computers to run Office solutions](https://msdn.microsoft.com/74dd2c52-838f-4abf-b2b4-4d7b0c2a0a98)
+- [How to: Install prerequisites on end user computers to run Office solutions](/previous-versions/bb608608(v=vs.110))
  Describes how you can create a Setup program that checks for prerequisites before it installs the solution components.
 
-- [How to: Prepare IIS for deployment of Office solutions](https://msdn.microsoft.com/f62bce70-81d4-4f8b-86e6-2f2afec5d9b4)
+- [How to: Prepare IIS for deployment of Office solutions](/previous-versions/bb608629(v=vs.110))
  Describes how to configure the MIME type on Microsoft Internet Information Services (IIS) for the deployment manifest.
 
-- [How to: Update deployed Office solutions](https://msdn.microsoft.com/be96db53-b6ea-46ab-b8d9-b76b098b3b13)
+- [How to: Update deployed Office solutions](/previous-versions/bb157871(v=vs.110))
  Provides information about how to update an Office solution by using the **Publish Wizard**.
 
-- [How to: Change the installation path of an Office solution](https://msdn.microsoft.com/d0eaa07b-2d72-4902-899f-2f9fb165b8fd)
+- [How to: Change the installation path of an Office solution](/previous-versions/bb608626(v=vs.110))
  Provides information about how to change the installation path of an Office  solution.
 
 ## Related sections

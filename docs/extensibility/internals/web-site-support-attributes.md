@@ -1,15 +1,18 @@
 ---
-title: "Web Site Support Attributes | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Web Site Support Attributes | Microsoft Docs
+description: Learn about the web site support attributes that are necessary for extending the functionality of Visual Studio using web site projects.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: reference
 helpviewer_keywords:
-  - "web site projects, registration"
+- web site projects, registration
 ms.assetid: 46d52e2c-ca2a-4bbd-8500-5b0129768aec
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Web Site Support Attributes
 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] Web site project can be extended to provide support for Web programming languages. The language must register itself with [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] so that project templates can appear in the **New Web Site** dialog box when the language is selected.
@@ -48,5 +51,5 @@ public class PythonPackage : Package, IOleComponent
 
  The IVsIntellisenseProject implementation handles references and calls the language compiler when a Web page with code is requested but isn't cached.
 
-## See Also
+## See also
 - [Web Site Support](../../extensibility/internals/web-site-support.md)

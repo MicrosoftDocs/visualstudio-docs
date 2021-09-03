@@ -1,7 +1,8 @@
 ---
+description: "Reads specified properties from the current property set."
 title: "IDiaPropertyStorage::ReadMultiple | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,8 @@ helpviewer_keywords:
 ms.assetid: 6ccc9397-ce41-4f72-b261-72ac252cd4a5
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -45,5 +47,5 @@ HRESULT ReadMultiple( 
 ## Remarks
  If a property was not found, the corresponding entry in the `rgvar` array contains a `VARIANT` with the type of `VT_EMPTY`.
 
-## See Also
+## See also
 - [IDiaPropertyStorage](../../debugger/debug-interface-access/idiapropertystorage.md)

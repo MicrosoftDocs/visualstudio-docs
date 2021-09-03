@@ -1,17 +1,19 @@
 ---
-title: "Creating a Windows Forms Toolbox Control | Microsoft Docs"
-ms.date: "3/16/2019"
-ms.topic: "conceptual"
+title: Creating a Windows Forms Toolbox Control | Microsoft Docs
+description: This walkthrough shows how to use the Windows Forms Toolbox Control template to create a simple counter control using the Visual Studio SDK.
+ms.date: 3/16/2019
+ms.topic: how-to
 helpviewer_keywords:
-  - "winforms"
-  - "toolbox"
-  - "windows forms"
+- winforms
+- toolbox
+- windows forms
 ms.assetid: 0be6ffc1-8afd-4d02-9a5d-e27dde05fde6
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Create a Windows Forms Toolbox Control
 
@@ -124,7 +126,7 @@ The `Counter` control will expose a method to increment the counter, an event to
 
     Callers can add handlers to this event to respond to changes in the value of the counter.
 
-7. Return to design view and double-click the **Reset** button to generate the `btnReset_Click` event handler, and then fill it in as shown in the following example.
+7. Return to design view and double-click the **Reset** button to generate the `btnReset_Click` event handler. Then, fill it in as shown in the following example.
 
     ```csharp
     private void btnReset_Click(object sender, EventArgs e)
@@ -189,7 +191,7 @@ The `Counter` control will expose a method to increment the counter, an event to
 
     **Count: 0**
 
-14. Click **Test**.
+14. Select **Test**.
 
     The counter increments and Visual Studio displays a message box.
 
@@ -197,11 +199,11 @@ The `Counter` control will expose a method to increment the counter, an event to
 
     The **Reset** button disappears.
 
-16. Click **Test** until the counter reaches **5** closing the message boxes each time.
+16. Select **Test** until the counter reaches **5** closing the message boxes each time.
 
     The **Reset** button reappears.
 
-17. Click **Reset**.
+17. Select **Reset**.
 
     The counter resets to **0**.
 

@@ -1,16 +1,19 @@
 ---
-title: "Project Configuration Object | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Project Configuration Object | Microsoft Docs
+description: Learn how the project configuration object manages the display of configuration information to the UI.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: reference
 helpviewer_keywords:
-  - "project configurations, object"
-  - "objects, project configuration"
+- project configurations, object
+- objects, project configuration
 ms.assetid: 877756c9-4261-43d9-9f32-51bf06b4219f
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Project Configuration Object
 The project configuration object manages the display of configuration information to the UI.
@@ -42,7 +45,7 @@ Project configuration property pages
 
  `ISpecifyPropertyPages` and `IDispatch` are used in conjunction with property pages to retrieve and display configuration-dependent information to the user. For more information, see [Property Pages](../../extensibility/internals/property-pages.md).
 
-## See Also
+## See also
 - [Managing Configuration Options](../../extensibility/internals/managing-configuration-options.md)
 - [Project Configuration for Building](../../extensibility/internals/project-configuration-for-building.md)
 - [Project Configuration for Output](../../extensibility/internals/project-configuration-for-output.md)

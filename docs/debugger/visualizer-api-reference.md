@@ -1,5 +1,7 @@
 ---
 title: "Visualizer API Reference | Microsoft Docs"
+description: A visualizer displays a specific type of data element, and may allow editing also. To create one, use the Visualizer API documented in this section.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:
@@ -14,7 +16,8 @@ helpviewer_keywords:
 ms.assetid: b9ff4ed0-9e80-49df-9016-a81189319afd
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -34,8 +37,8 @@ The Visualizer APIs are provided for users who want to write a visualizer for th
 
 - <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource?displayProperty=fullName>
 
-## See Also
+## See also
 
 - [Walkthrough: Writing a Visualizer in C#](../debugger/walkthrough-writing-a-visualizer-in-csharp.md)
-- [How to: Write a Visualizer](/visualstudio/debugger/create-custom-visualizers-of-data)
+- [How to: Write a Visualizer](create-custom-visualizers-of-data.md)
 - [Create Custom Visualizers](../debugger/create-custom-visualizers-of-data.md)

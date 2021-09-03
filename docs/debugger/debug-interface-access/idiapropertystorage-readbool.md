@@ -1,7 +1,8 @@
 ---
+description: "Reads BOOL values in a property set."
 title: "IDiaPropertyStorage::ReadBOOL | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,8 @@ helpviewer_keywords:
 ms.assetid: ad1822db-4572-48f7-9919-f8137f6701f2
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -40,5 +42,5 @@ HRESULT ReadBOOL ( 
 ## Remarks
  For consistent results, interpret the `BOOL` value so that nonzero values are `TRUE` and zero is `FALSE`.
 
-## See Also
+## See also
 - [IDiaPropertyStorage](../../debugger/debug-interface-access/idiapropertystorage.md)

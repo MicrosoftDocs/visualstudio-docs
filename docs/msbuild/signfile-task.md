@@ -1,5 +1,7 @@
 ---
 title: "SignFile Task | Microsoft Docs"
+description: Learn how MSBuild uses the SignFile task to sign the specified file using the specified certificate.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 f1_keywords:
@@ -13,9 +15,10 @@ helpviewer_keywords:
   - "MSBuild, SignFile task"
   - "SignFile task [MSBuild]"
 ms.assetid: edef1819-ddeb-4e09-95de-fc7063ba9388
-author: mikejo5000
-ms.author: mikejo
-manager: jillfra
+author: ghogen
+ms.author: ghogen
+manager: jmartens
+ms.technology: msbuild
 ms.workload:
   - "multiple"
 ---
@@ -35,7 +38,7 @@ Signs the specified file using the specified certificate.
 |Parameter|Description|
 |---------------|-----------------|
 |`CertificateThumbprint`|Required `String` parameter.<br /><br /> Specifies the certificate to use for signing. This certificate must be in the current user's personal store.|
-|`SigningTarget`|Required <xref:Microsoft.Build.Framework.ITaskItem> parameter.<br /><br /> Specifies the files to sign with the certificate.|
+|`SigningTarget`|Required <xref:Microsoft.Build.Framework.ITaskItem> parameter.<br /><br /> Specifies the files to sign with the certificate, of type .exe or .dll.|
 |`TimestampUrl`|Optional `String` parameter.<br /><br /> Specifies the URL of a time stamping server.|
 |`TargetFrameworkVersion`|The version of the .NET Framework that is used for the target.|
 
@@ -45,7 +48,7 @@ Signs the specified file using the specified certificate.
 
 ## Example
 
- The following example uses the `SignFile` task to sign the files specified in the `FilesToSign` item collection with the certificate specified by the `Certificate` property.
+ The following example uses the `SignFile` task to sign the files specified in the `FilesToSign` item collection with the certificate specified by the `CertificateThumbprint` property.
 
 ```xml
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
@@ -68,5 +71,6 @@ Signs the specified file using the specified certificate.
 > The certificate thumbprint is the SHA-1 hash of the certificate. For more information, see [Obtain the SHA-1 hash of a trusted root CA certificate](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc733076\(v\=ws.10\)). If you copy and paste the thumbprint from the certificate details, make sure you do not include the extra (3F) invisible character, which may prevent `SignFile` from finding the certificate.
 
 ## See also
+
 - [Task reference](../msbuild/msbuild-task-reference.md)
 - [Tasks](../msbuild/msbuild-tasks.md)

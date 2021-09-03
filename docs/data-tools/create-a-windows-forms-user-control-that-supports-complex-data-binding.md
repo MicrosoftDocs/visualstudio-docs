@@ -1,19 +1,22 @@
 ---
 title: Create a Windows Forms user control with data binding
+description: Understand how to create a Windows Forms user control that supports complex data binding, by implementing the ComplexBindingPropertiesAttribute class.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 dev_langs:
-  - "VB"
-  - "CSharp"
+- VB
+- CSharp
 helpviewer_keywords:
-  - "data binding, user controls"
-  - "data binding, complex"
-  - "user controls [Visual Studio], complex data binding"
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+- data binding, user controls
+- data binding, complex
+- user controls [Visual Studio], complex data binding
+author: ghogen
+ms.author: ghogen
+manager: jmartens
+ms.technology: vs-data-tools
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # Create a Windows Forms user control that supports complex data binding
 
@@ -89,8 +92,8 @@ For complex controls that support data binding, you can implement the <xref:Syst
 
 1. Replace the code in the `ComplexDataGridView` with the following:
 
-    [!code-csharp[VbRaddataDisplaying#4](../data-tools/codesnippet/CSharp/create-a-windows-forms-user-control-that-supports-complex-data-binding_1.cs)]
-    [!code-vb[VbRaddataDisplaying#4](../data-tools/codesnippet/VisualBasic/create-a-windows-forms-user-control-that-supports-complex-data-binding_1.vb)]
+    :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataDisplaying/CS/ComplexDataGridView.cs" id="Snippet4":::
+    :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataDisplaying/VB/ComplexDataGridView.vb" id="Snippet4":::
 
 1. From the **Build** menu, choose **Build Solution**.
 

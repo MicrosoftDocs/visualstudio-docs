@@ -1,15 +1,18 @@
 ---
-title: "Debug using the Just-In-Time Debugger | Microsoft Docs"
-ms.date: "09/24/2018"
-ms.topic: "conceptual"
-helpviewer_keywords:
-  - "debugging [Visual Studio], Just-In-Time"
-  - "Just-In-Time debugging"
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
-ms.workload:
-  - "multiple"
+title: Debug using the Just-In-Time Debugger | Microsoft Docs
+description: Debug using the Just-In-Time Debugger in Visual Studio. Just-In-Time debugging can launch Visual Studio automatically when an app errors or crashes.
+ms.custom: SEO-VS-2020
+ms.date: 09/24/2018
+ms.topic: how-to
+helpviewer_keywords: 
+  - debugging [Visual Studio], Just-In-Time
+  - Just-In-Time debugging
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.technology: vs-ide-debug
+ms.workload: 
+  - multiple
 ---
 # Debug using the Just-In-Time Debugger in Visual Studio
 
@@ -98,7 +101,7 @@ This example walks you through Just-In-Time debugging when an app throws an erro
 
 For this example, you'll make a C# console app in Visual Studio that throws a [NullReferenceException](/dotnet/api/system.nullreferenceexception).
 
-1. In Visual Studio, create a C# console app (**File** > **New** > **Project** > **Visual C#** > **Console Application**) named *ThrowsNullException*. For more information about creating projects in Visual Studio, see [Walkthrough: Create a simple application](/visualstudio/get-started/csharp/tutorial-wpf).
+1. In Visual Studio, create a C# console app (**File** > **New** > **Project** > **Visual C#** > **Console Application**) named *ThrowsNullException*. For more information about creating projects in Visual Studio, see [Walkthrough: Create a simple application](../get-started/csharp/tutorial-wpf.md).
 
 1. When the project opens in Visual Studio, open the *Program.cs* file. Replace the Main() method with the following code, which prints a line to the console and then throws a NullReferenceException:
 
@@ -122,11 +125,11 @@ For this example, you'll make a C# console app in Visual Studio that throws a [N
 
    You should see the following command window:
 
-   ![ThrowsNullExceptionConsole](../debugger/media/throwsnullexceptionconsole.png "ThrowsNullExceptionConsole")
+   ![Screenshot of the console for ThrowsNullException.exe, which throws an unhandled null reference exception (System.NullReferenceException).](../debugger/media/throwsnullexceptionconsole.png)
 
 1. The **Choose Just-In-Time Debugger** dialog opens.
 
-   ![JustInTimeDialog](../debugger/media/justintimedialog.png "JustInTimeDialog")
+   ![Screenshot of the Choose Just-In-Time Debugger dialog box, which appears after the exception appears in the ThrowsNullException.exe console window.](../debugger/media/justintimedialog.png)
 
    Under **Available Debuggers**, select **New instance of \<your preferred Visual Studio version/edition>**, if not already selected.
 
@@ -134,7 +137,7 @@ For this example, you'll make a C# console app in Visual Studio that throws a [N
 
    The ThrowsNullException project opens in a new instance of Visual Studio, with execution stopped at the line that threw the exception:
 
-   ![NullReferenceSecondInstance](../debugger/media/nullreferencesecondinstance.png "NullReferenceSecondInstance")
+   ![Screenshot of the ThrowsNullException project in Visual Studio, with highlighting of the line of source code that threw the exception.](../debugger/media/nullreferencesecondinstance.png)
 
 You can start debugging at this point. If you were debugging a real app, you would need to find out why the code is throwing the exception.
 
@@ -153,7 +156,7 @@ If Just-In-Time debugging doesn't start when an app crashes, even though it is e
 
   - (For 64-bit machines): **HKEY_LOCAL_MACHINE\Software\WOW6432Node\Microsoft\Windows\Windows Error Reporting**
 
-  For more information, see [.WER settings](https://docs.microsoft.com/windows/desktop/wer/wer-settings).
+  For more information, see [.WER settings](/windows/desktop/wer/wer-settings).
 
 - A known Windows issue may be causing the Just-In-Time debugger to fail.
 
@@ -169,7 +172,7 @@ You might see the following error messages during Just-In-Time debugging:
 
     The debugger tried to attach to a process running under another user.
 
-    To work around this problem, in Visual Studio, open **Debug** > **Attach to Process**, and find the process you want to debug in the **Available Processes** list. If you do not know the name of the process, find the Process ID in the **Visual Studio Just-In-Time Debugger** dialog. Select the process in the **Available Processes** list, and select **Attach**. Select **No** to dismiss the Just-In-Time debugger dialog.
+    To work around this problem, in Visual Studio, open **Debug** > **Attach to Process** (or press **Ctrl** + **Alt** + **P**), and find the process you want to debug in the **Available Processes** list. If you do not know the name of the process, find the Process ID in the **Visual Studio Just-In-Time Debugger** dialog. Select the process in the **Available Processes** list, and select **Attach**. Select **No** to dismiss the Just-In-Time debugger dialog.
 
 - **Debugger could not be started because no user is logged on.**
 

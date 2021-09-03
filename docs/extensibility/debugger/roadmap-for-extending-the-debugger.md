@@ -1,16 +1,19 @@
 ---
-title: "Roadmap for Extending the Debugger | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Roadmap for Extending the Debugger | Microsoft Docs
+description: Visual Studio debugging documentation includes samples, a reference, and several scenarios that demonstrate typical ways to customize the debugger.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "debugging [Debugging SDK], roadmap"
-  - "Debugging SDK, roadmap"
+- debugging [Debugging SDK], roadmap
+- Debugging SDK, roadmap
 ms.assetid: 1f4096a8-f7aa-4dfa-84e1-6d59263e70bb
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Roadmap for extending the debugger
 This documentation provides guide and reference information for extending the [!INCLUDE[vs_current_short](../../code-quality/includes/vs_current_short_md.md)] debugger with the [!INCLUDE[vsipsdk](../../extensibility/includes/vsipsdk_md.md)].
@@ -37,7 +40,7 @@ This documentation provides guide and reference information for extending the [!
 
    [Create a custom debug engine](../../extensibility/debugger/creating-a-custom-debug-engine.md)
 
-   [Tutorial: Build a debug engine using ATL COM](https://msdn.microsoft.com/library/9097b71e-1fe7-48f7-bc00-009e25940c24)
+   [Tutorial: Build a debug engine using ATL COM](/previous-versions/bb147024(v=vs.90))
 
    [Implement a port supplier](../../extensibility/debugger/implementing-a-port-supplier.md)
 

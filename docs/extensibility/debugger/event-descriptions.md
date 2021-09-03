@@ -1,15 +1,18 @@
 ---
-title: "Event Descriptions | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Event Descriptions | Microsoft Docs
+description: Learn about the types of events and the reasons for their use. Each type of event has a specific purpose.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: reference
 helpviewer_keywords:
-  - "debugging [Debugging SDK], events"
+- debugging [Debugging SDK], events
 ms.assetid: 09f61652-7e16-4bb0-8055-f61a84bf384e
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Event descriptions
 Each type of event has a specific purpose.

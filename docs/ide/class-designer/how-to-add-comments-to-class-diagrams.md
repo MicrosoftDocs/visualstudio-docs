@@ -1,19 +1,22 @@
 ---
-title: "How to: Add Comments to Class Diagrams (Class Designer)"
+title: Add comments to class diagrams
+description: Learn how to use comment shapes to annotate class diagrams in Class Designer.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 f1_keywords:
-  - "vs.classdesigner.comment"
+- vs.classdesigner.comment
 helpviewer_keywords:
-  - "annotations, class diagrams"
-  - "class diagrams, adding comment shapes"
-  - "comment shapes"
+- annotations, class diagrams
+- class diagrams, adding comment shapes
+- comment shapes
 ms.assetid: d54005d5-a29d-4c4e-b153-feb6e84dd44f
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Add comments to class diagrams
 

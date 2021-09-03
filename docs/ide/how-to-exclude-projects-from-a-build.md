@@ -1,14 +1,16 @@
 ---
-title: "How to: Exclude projects from a build"
+title: 'How to: Exclude projects from a build'
+description: Learn how you can use Visual Studio to build a solution without building all projects that it contains.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.technology: vs-ide-compile
-ms.topic: conceptual
+ms.topic: how-to
 ms.assetid: 17a837ca-5db9-46cd-b5a7-b14ad1d2c47d
 author: ghogen
 ms.author: ghogen
-manager: jillfra
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Exclude projects from a build
 
@@ -47,6 +49,19 @@ For more information, see [Understand build configurations](../ide/understanding
 6. On the **Standard** toolbar, verify that the new solution configuration is the active configuration in the **Solution Configurations** box.
 
 7. On the menu bar, choose **Build** > **Rebuild Solution**.
+
+## Skipped projects
+
+Projects can be skipped during the build because they are not up-to-date or because they are excluded from the configuration. Visual Studio uses MSBuild to build your projects. MSBuild only builds a target if the output is older than the input, as determined by the file timestamps. To force a rebuild, use the command **Build** > **Rebuild Solution**.
+
+In the **Build** pane of the **Output** window, Visual Studio reports the number of projects that were up to date, the number that built successfully, the number that failed, and the number that were skipped. The skipped count does not include projects that were not built because they were up-to-date. When projects are excluded from the active configuration, they are skipped during the build. In the build output, you see a message indicating that the project is skipped:
+
+```output
+2>------ Skipped Build: Project: ConsoleApp2, Configuration: Debug x86 ------
+2>Project not selected to build for this solution configuration
+```
+
+To find out why a project was skipped, note the active configuration (`Debug x86` in the previous example), and choose **Build** > **Configuration Manager**. You can view or change which projects are skipped for each configuration, as discussed in this article.
 
 ## See also
 

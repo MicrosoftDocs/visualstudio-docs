@@ -1,12 +1,14 @@
 ---
 title: "Create a Node.js and Express app"
-description: In this tutorial, you create an app in using Node.js tools for Visual Studio
-ms.date: 09/24/2018
+description: In this tutorial, learn how to create a simple Node.js application using the Express web application framework in Visual Studio.
+ms.date: 03/25/2021
+ms.custom: vs-acquisition
 ms.topic: tutorial
 ms.devlang: javascript
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
+ms.technology: vs-javascript
 dev_langs:
   - JavaScript
 ms.workload:
@@ -22,9 +24,15 @@ If you haven't already installed Visual Studio, go to the [Visual Studio downloa
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
-If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019) page to install it for free.
+If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads) page to install it for free.
+
+::: moniker-end
+
+::: moniker range="vs-2022"
+
+If you haven't already installed Visual Studio 2022 Preview, go to the [Visual Studio 2022 Preview downloads](https://visualstudio.microsoft.com/vs/preview/vs2022) page to install it for free.
 
 ::: moniker-end
 
@@ -50,7 +58,7 @@ npm is the default package manager for the Node.js. The package manager makes it
 
 ### What is express?
 
-Express is a web application framework, used as a server framework for Node.js to build web applications. Express allows you to use choose different front-end frameworks to create a UI, such as Pug (formerly called Jade). Pug is used in this tutorial.
+Express is a web application framework, used as a server framework for Node.js to build web applications. Express allows you to choose different front-end frameworks to create a UI, such as Pug (formerly called Jade). Pug is used in this tutorial.
 
 ## Prerequisites
 
@@ -69,7 +77,9 @@ Express is a web application framework, used as a server framework for Node.js t
 
 * You must have the Node.js runtime installed.
 
-    If you don't have it installed, install the LTS version from the [Node.js](https://nodejs.org/en/download/) website. In general, Visual Studio automatically detects the installed Node.js runtime. If it does not detect an installed runtime, you can configure your project to reference the installed runtime in the properties page (after you create a project, right-click the project node and choose **Properties**).
+    If you don't have it installed, we recommend you install the LTS version from the [Node.js](https://nodejs.org/en/download/) website for best compatibility with outside frameworks and libraries. Node.js is built for 32-bit and 64-bit architectures. The Node.js tools in Visual Studio, included in the Node.js workload, support both versions. Only one is required and the Node.js installer only supports one being installed at a time.
+    
+    In general, Visual Studio automatically detects the installed Node.js runtime. If it does not detect an installed runtime, you can configure your project to reference the installed runtime in the properties page (after you create a project, right-click the project node, choose **Properties**, and set the **Node.exe path**). You can use a global installation of Node.js or you can specify the path to a local interpreter in each of your Node.js projects. 
 
     This tutorial was tested with Node.js 8.10.0.
 
@@ -101,13 +111,13 @@ In this tutorial, you begin with a simple project containing code for a Node.js 
 
     (3) The npm node shows any installed npm packages. You can right-click the npm node to search for and install npm packages using a dialog box or install and update packages using the settings in *package.json* and right-click options in the npm node.
 
-    (4) *package.json* is a file used by npm to manage package dependencies and package versions for locally-installed packages. For more information on this file, see [package.json configuration](../javascript/configure-packages-with-package-json.md)
+    (4) *package.json* is a file used by npm to manage package dependencies and package versions for locally-installed packages. For more information, see [Manage npm packages](../javascript/npm-package-management.md).
 
     (5) Project files such as *app.js* show up under the project node. *app.js* is the project startup file and that is why it shows up in **bold**. You can set the startup file by right-clicking a file in the project and selecting **Set as Node.js startup file**.
 
 1. Open the **npm** node and make sure that all the required npm packages are present.
 
-    If any packages are missing (exclamation point icon), you can right-click the **npm** node and choose **Install Missing npm Packages**.
+    If any packages are missing (exclamation point icon), you can right-click the **npm** node and choose **Install npm Packages**.
 
 ## Add some code
 
@@ -178,13 +188,15 @@ IntelliSense is a Visual Studio tool that assists you as you write code.
 
     ![Use IntelliSense](../javascript/media/tutorial-nodejs-intellisense.png)
 
+1. Add the parentheses to make it a function call, `getData()`.
+
 1. Remove the comma (`,`) before `"data"` and you see green syntax highlighting on the expression. Hover over the syntax highlighting.
 
     ![View syntax error](../javascript/media/tutorial-nodejs-syntax-checking.png)
 
     The last line of this message tells you that the JavaScript interpreter expected a comma (`,`).
 
-1. In the lower pane, click the **Error List** tab.
+1. In the lower pane, click the **Error List** tab and select **Build + IntelliSense** for the type of issues reported.
 
     You see the warning and description along with the filename and line number.
 
@@ -208,7 +220,7 @@ You're next going to run the app with the Visual Studio debugger attached. Befor
 
 ## Run the application
 
-1. Select the debug target in the Debug toolbar, such as Microsoft Edge or Chrome.
+1. Select the debug target in the Debug toolbar, such as **Web Server (Google Chrome)** or **Web Server (Microsoft Edge)**.
 
     ::: moniker range=">=vs-2019"
     ![Select the debug target](../javascript/media/vs-2019/tutorial-nodejs-deploy-target.png)
@@ -263,3 +275,6 @@ Congratulations on completing this tutorial!
 
 > [!div class="nextstepaction"]
 > [Deploy the app to Linux App Service](../javascript/publish-nodejs-app-azure.md)
+
+> [!div class="nextstepaction"]
+> [AngularJS language service extension](https://devblogs.microsoft.com/visualstudio/angular-language-service-for-visual-studio)

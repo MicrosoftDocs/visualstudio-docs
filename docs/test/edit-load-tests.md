@@ -1,14 +1,17 @@
 ---
-title: "Editing Load Tests"
+title: Editing Load Tests
+description: Learn about the differences between scenarios, counter sets, and run settings, which define load tests.
+ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
-ms.topic: conceptual
-helpviewer_keywords:
-  - "Load Test Editor"
-  - "load tests, Load Test Editor"
+ms.topic: how-to
+helpviewer_keywords: 
+  - Load Test Editor
+  - load tests, Load Test Editor
 ms.assetid: ba16ed02-137e-40bf-a4cb-45d87d922d37
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.technology: vs-ide-test
 ---
 # Edit load tests
 

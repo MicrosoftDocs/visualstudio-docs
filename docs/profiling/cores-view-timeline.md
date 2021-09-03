@@ -1,5 +1,7 @@
 ---
 title: "Cores View Timeline | Microsoft Docs"
+description: "Learn the basics of the timeline: how to determine which thread ran on which core at any point in time, and how to zoom in and out."
+custom.ms: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:
@@ -9,7 +11,8 @@ helpviewer_keywords:
 ms.assetid: 10f0c666-ac2f-4ac5-9fb5-a88f660ab840
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---

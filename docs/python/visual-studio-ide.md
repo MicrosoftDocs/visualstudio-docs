@@ -1,11 +1,13 @@
 ---
+description: "The Visual Studio integrated development environment is a creative launching pad for Python (and other languages) that you can use to edit, debug, and test code, and then publish an app."
 title: Overview of Visual Studio for Python developers
 titleSuffix: ""
 ms.date: 03/13/2019
-ms.topic: conceptual
+ms.topic: overview
 author: JoshuaPartlow
 ms.author: joshuapa
-manager: jillfra
+manager: jmartens
+ms.technology: vs-python
 dev_langs:
  - Python
 ms.workload:
@@ -20,7 +22,7 @@ The Visual Studio *integrated development environment* is a creative launching p
 
 This image shows Visual Studio with an open Python project and several key tool windows you'll likely use:
 
-- [**Solution Explorer**](../ide/solutions-and-projects-in-visual-studio.md) (top right) lets you view, navigate, and manage your code files. **Solution Explorer** can help organize your code by grouping the files into [solutions and projects](/visualstudio/get-started/tutorial-projects-solutions).
+- [**Solution Explorer**](../ide/solutions-and-projects-in-visual-studio.md) (top right) lets you view, navigate, and manage your code files. **Solution Explorer** can help organize your code by grouping the files into [solutions and projects](../get-started/tutorial-projects-solutions.md).
   - Alongside **Solution Explorer** is [**Python Environments**](managing-python-environments-in-visual-studio.md), where you manage the different Python interpreters that are installed on your computer.
 
   ::: moniker range=">=vs-2019"
@@ -32,7 +34,7 @@ This image shows Visual Studio with an open Python project and several key tool 
 - The [Output window](../ide/reference/output-window.md) (bottom center) is where Visual Studio sends notifications such as debugging and error messages, warnings, publishing status messages, and more. Each message source has its own tab.
   - A [Python Interactive REPL window](python-interactive-repl-in-visual-studio.md) appears in the same area as the Output window.
 
-- [Team Explorer](/azure/devops/user-guide/work-team-explorer?view=vsts) (bottom right) lets you track work items and share code with others using version control technologies such as [Git](https://git-scm.com/) and [Team Foundation Version Control (TFVC)](/azure/devops/repos/tfvc/overview?view=vsts).
+- [Team Explorer](/azure/devops/user-guide/work-team-explorer?view=vsts&preserve-view=true) (bottom right) lets you track work items and share code with others using version control technologies such as [Git](https://git-scm.com/) and [Team Foundation Version Control (TFVC)](/azure/devops/repos/tfvc/overview?view=vsts&preserve-view=true).
 
 ## Editions
 
@@ -88,9 +90,9 @@ Some of the popular features in Visual Studio that help you to be more productiv
     Starting in Visual Studio 2019, you can open a folder containing Python code to enjoy features like IntelliSense and debugging without having to create a Visual Studio project for the code.
 ::: moniker-end
 
-- [Collaborate using Visual Studio](https://docs.microsoft.com/visualstudio/liveshare/use/vs)
-  
-    Visual Studio Live Share enables you to collaboratively edit and debug with others in real time, regardless of what programming language you're using or app types you're building. 
+- [Collaborate using Visual Studio](/visualstudio/liveshare/)
+
+    Visual Studio Live Share enables you to collaboratively edit and debug with others in real time, regardless of what programming language you're using or app types you're building.
 
 - [Python Interactive REPL](python-interactive-repl-in-visual-studio.md)
 

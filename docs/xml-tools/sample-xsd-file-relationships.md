@@ -1,13 +1,16 @@
 ---
-title: "Sample XSD File: Relationships"
+title: 'Sample XSD File: Relationships'
+description: View the sample XSD file for a purchase order schema with annotations and documentation, that is used in various examples in the XSD Schema Designer documentation.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: sample
 ms.assetid: 60126510-b7dd-4cb4-92d3-9883590b92f2
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
+ms.technology: vs-xml-tools
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Sample XSD file: Relationships
 

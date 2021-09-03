@@ -1,21 +1,26 @@
 ---
-title: "How to: Configure Targets and Tasks | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: 'How to: Configure Targets and Tasks | Microsoft Docs'
+description: Learn how to set selected MSBuild tasks to run in the environment they target, regardless of the environment of the development computer.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: conceptual
 ms.assetid: 92814100-392a-471d-96fd-e26f637d6cc2
-author: mikejo5000
-ms.author: mikejo
-manager: jillfra
+author: ghogen
+ms.author: ghogen
+manager: jmartens
+ms.technology: msbuild
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Configure targets and tasks
+
 Selected MSBuild tasks can be set to run in the environment they target, regardless of the environment of the development computer. For example, when you use a 64-bit computer to build an application that targets a 32-bit architecture, selected tasks are run in a 32-bit process.
 
 > [!NOTE]
 > If a build task is written in a .NET language, such as Visual C# or Visual Basic, and does not use native resources or tools, then it will run in any target context without adaptation.
 
 ## UsingTask attributes and task parameters
+
 The following `UsingTask` attributes affect all operations of a task in a particular build process:
 
 - The `Runtime` attribute, if present, sets the common language runtime (CLR) version, and can take any one of these values: `CLR2`, `CLR4`, `CurrentRuntime`, or `*` (any runtime).
@@ -68,6 +73,7 @@ Before MSBuild runs a task, it looks for a matching `UsingTask` that has the sam
 ```
 
 ## Task factories
+
 Before it runs a task, MSBuild checks to see whether it is designated to run in the current software context. If the task is so designated, MSBuild passes it to the AssemblyTaskFactory, which runs it in the current process; otherwise, MSBuild passes the task to the TaskHostFactory, which runs the task in a process that matches the target context. Even if the current context and the target context match, you can force a task to run out-of-process (for isolation, security, or other reasons) by setting `TaskFactory` to `TaskHostFactory`.
 
 ```xml
@@ -78,6 +84,7 @@ Before it runs a task, MSBuild checks to see whether it is designated to run in 
 ```
 
 ## Phantom task parameters
+
 Like any other task parameters, `MSBuildRuntime` and `MSBuildArchitecture` can be set from build properties.
 
 ```xml
@@ -102,4 +109,6 @@ The `MSBuildRuntime` and `MSBuildArchitecture` parameters provide the most flexi
 > Task parameters are evaluated in the context of the parent node, not in the context of the task host. Environment variables that are runtime- or architecture- dependent (such as the *Program Files* location) will evaluate to the value that matches the parent node. However, if the same environment variable is read directly by the task, it will correctly be evaluated in the context of the task host.
 
 ## See also
+
 - [Configure targets and tasks](../msbuild/configuring-targets-and-tasks.md)
+- [UsingTask element](../msbuild/usingtask-element-msbuild.md)

@@ -1,5 +1,7 @@
 ---
 title: "GPU Activity (This Process) | Microsoft Docs"
+description: Read about the GPU Activity (This Process) segments in the Threads view of the Concurrency Visualizer.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:
@@ -8,7 +10,8 @@ f1_keywords:
 ms.assetid: 0956edbf-9bcd-4afe-9287-fda628648ca0
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---

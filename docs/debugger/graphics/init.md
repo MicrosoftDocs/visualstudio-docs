@@ -1,11 +1,14 @@
 ---
 title: "Init | Microsoft Docs"
+description: Use the Init() method of VsgDbg to prepare the in-app component of graphics diagnostics to log graphics information.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 ms.assetid: c55ddec8-9101-4673-979b-4109caca9146
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -29,5 +32,5 @@ void Init(
 
  You can finalize and close the active graphics log file by calling `UnInit`, and then capture and record more graphics information to a new graphics log file by calling `Init` again. You can repeat this as many times as you want to create several independent graphics log files by using the same `VsgDbg` instance.
 
-## See Also
+## See also
 - [UnInit](init.md)

@@ -1,19 +1,22 @@
 ---
 title: Find and replace in files
+description: Learn about the Replace in Files feature and how it allows you to search the code of a specified set of files for a string or expression, and change some or all of the matches found.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 f1_keywords:
-  - "vs.findreplace.replaceinfiles"
-  - "vs.replaceinfiles"
+- vs.findreplace.replaceinfiles
+- vs.replaceinfiles
 helpviewer_keywords:
-  - "text searches, replacing text"
-  - "find and replace"
-  - "replace in files"
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+- text searches, replacing text
+- find and replace
+- replace in files
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Replace in Files
 

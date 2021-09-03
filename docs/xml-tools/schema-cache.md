@@ -1,13 +1,16 @@
 ---
-title: "XML editor Schema Cache"
+title: XML editor Schema Cache
+description: Learn about the schema cache provided by the XML Editor that includes standard XML schemas used for IntelliSense and XML document validation.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: 35a7fcad-f3bf-4a96-9008-4306e7276223
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
+ms.technology: vs-xml-tools
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Schema cache
 
@@ -20,22 +23,22 @@ The following table describes the schemas that are installed with the XML editor
 | Filename | Description |
 |-| - |
 | *catalog.xsd* | Schema for XML editor schema catalog files. For information about schema catalogs, see below. |
-| *DotNetConfig.xsd* | Schema for Web.Config files, "<http://schemas.microsoft.com/.NETConfiguration/v2.0>". |
-| *msbuild.xsd* | Schema for the MSBuild make files, "<http://schemas.microsoft.com/developer/msbuild/2003>". |
+| *DotNetConfig.xsd* | Schema for Web.Config files, `http://schemas.microsoft.com/.NETConfiguration/v2.0`. |
+| *msbuild.xsd* | Schema for the MSBuild make files, `http://schemas.microsoft.com/developer/msbuild/2003`. |
 | *msdata.xsd* | Schema for the XSD annotations added by the <xref:System.Data.DataSet> class, "urn:schemas-microsoft-com:xml-msdata". |
 | *msxsl.xsd* | Schema for Microsoft XSLT script block extensions, urn:schemas-microsoft-com:xslt. |
 | *SnippetFormat.xsd* | Schema for the code snippet XML files. For examples, see *%VSInstallDir%\VC#\Expansions*. |
-| *Soap1.1.xsd* | Schema for Simple Object Access Protocol (SOAP) 1.1, http://schemas.xmlsoap.org/soap/envelope/. |
+| *Soap1.1.xsd* | Schema for Simple Object Access Protocol (SOAP) 1.1, `http://schemas.xmlsoap.org/soap/envelope/`. |
 | *Soap1.2.xsd* | Schema for Simple Object Access Protocol 1.2. |
-| *SiteMapSchema.xsd* | Schema for ASP.NET sitemap XML file, "<http://schemas.microsoft.com/AspNet/SiteMap-File-1.0>". |
-| *wsdl.xsd* | Schema for Web Service Description Language, http://schemas.xmlsoap.org/wsdl/. |
-| *xenc.xsd* | Schema for XML Encryption, http://www.w3.org/2000/09/xmldsig#. |
-| *xhtml.xsd* | Schema for XHTML http://www.w3.org/1999/xhtml. |
-| *xlink.xsd* | Schema for XLink1.0, http://www.w3.org/1999/xlink. |
-| *xml.xsd* | Schema describing xml:space and xml:lang attributes, http://www.w3.org/XML/1998/namespace. |
-| *xmlsig.xsd* | Schema for XML Digital Signatures, http://www.w3.org/2000/09/xmldsig#. |
-| *xsdschema.xsd* | Schema describing XSD itself, http://www.w3.org/2001/XMLSchema. |
-| *xslt.xsd* | Schema for XML Transforms, http://www.w3.org/1999/XSL/Transform. |
+| *SiteMapSchema.xsd* | Schema for ASP.NET sitemap XML file, `http://schemas.microsoft.com/AspNet/SiteMap-File-1.0`. |
+| *wsdl.xsd* | Schema for Web Service Description Language, `http://schemas.xmlsoap.org/wsdl/`. |
+| *xenc.xsd* | Schema for XML Encryption, `http://www.w3.org/2000/09/xmldsig#`. |
+| *xhtml.xsd* | Schema for XHTML `http://www.w3.org/1999/xhtml`. |
+| *xlink.xsd* | Schema for XLink1.0, `http://www.w3.org/1999/xlink`. |
+| *xml.xsd* | Schema describing xml:space and xml:lang attributes, `http://www.w3.org/XML/1998/namespace`. |
+| *xmlsig.xsd* | Schema for XML Digital Signatures, `http://www.w3.org/2000/09/xmldsig#`. |
+| *xsdschema.xsd* | Schema describing XSD itself, `http://www.w3.org/2001/XMLSchema`. |
+| *xslt.xsd* | Schema for XML Transforms, `http://www.w3.org/1999/XSL/Transform`. |
 
 ## Update schemas in the cache
 

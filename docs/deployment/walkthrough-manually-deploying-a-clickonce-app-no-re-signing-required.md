@@ -1,5 +1,7 @@
 ---
-title: "Manually deploy ClickOnce apps preserving branding"
+title: "Manually deploy ClickOnce app & keep branding"
+description: Learn how to create ClickOnce applications to be deployed by customers without generating a new deployment manifest and that can use the customer branding.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:
@@ -19,7 +21,8 @@ helpviewer_keywords:
 ms.assetid: c21822fb-d4ee-42e4-b72d-41ee9786efe5
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-deployment
 ms.workload:
   - "multiple"
 ---

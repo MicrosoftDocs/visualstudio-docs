@@ -1,7 +1,8 @@
 ---
+description: "Retrieves a flag indicating whether the section should not be padded to the next memory boundary."
 title: "IDiaSectionContrib::get_nopad | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,8 @@ helpviewer_keywords:
 ms.assetid: f5c08603-0b3e-4e81-acf1-1b95a6a83bed
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -35,5 +37,5 @@ HRESULT get_nopad(
 ## Remarks
  This is a property typically seen only on older files.
 
-## See Also
+## See also
 - [IDiaSectionContrib](../../debugger/debug-interface-access/idiasectioncontrib.md)

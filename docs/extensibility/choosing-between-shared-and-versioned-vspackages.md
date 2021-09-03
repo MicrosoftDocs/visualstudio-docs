@@ -1,17 +1,20 @@
 ---
-title: "Choosing Between Shared and Versioned VSPackages | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Choosing Between Shared and Versioned VSPackages | Microsoft Docs
+description: Learn about side-by-side installations of VSPackages through shared or versioned strategies, with multiple versions of Visual Studio and of the .NET Framework.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "SxS"
-  - "side-by-side installation"
-  - "installation [Visual Studio SDK], side-by-side"
+- SxS
+- side-by-side installation
+- installation [Visual Studio SDK], side-by-side
 ms.assetid: e3128ac3-2e92-48e9-87ab-3b6c9d80e8c9
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Choose between shared and versioned VSPackages
 Different versions of Visual Studio can coexist on the same computer. VSPackages can support any mix of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] versions.
@@ -29,7 +32,7 @@ Different versions of Visual Studio can coexist on the same computer. VSPackages
 
   - Program your VSPackage to adapt to the version of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] in which it is running. Then, if queries for newer services fail, your VSPackage can offer other services that are supported in older versions of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].
 
-- Register your VSPackage appropriately. For more information, see [VSPackage registration](../extensibility/internals/vspackage-registration.md) and [Managed VSPackage registration](https://msdn.microsoft.com/library/f69e0ea3-6a92-4639-8ca9-4c9c210e58a1).
+- Register your VSPackage appropriately. For more information, see [VSPackage registration](../extensibility/internals/vspackage-registration.md) and [Managed VSPackage registration](/previous-versions/bb166783(v=vs.100)).
 
 - Register file extensions appropriately. For more information, see [Registering file name extensions for side-by-side deployments](../extensibility/registering-file-name-extensions-for-side-by-side-deployments.md).
 

@@ -1,17 +1,19 @@
 ---
-title: "IDebugEntryPointEvent2 | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "The debug engine (DE) sends this interface to the session debug manager (SDM) when the program is about to execute its first instruction of user code."
+title: IDebugEntryPointEvent2 | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugEntryPointEvent2"
+- IDebugEntryPointEvent2
 helpviewer_keywords:
-  - "IDebugEntryPointEvent2 interface"
+- IDebugEntryPointEvent2 interface
 ms.assetid: a15d1cc3-97b7-438c-8d24-c23149708f42
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IDebugEntryPointEvent2
 The debug engine (DE) sends this interface to the session debug manager (SDM) when the program is about to execute its first instruction of user code.

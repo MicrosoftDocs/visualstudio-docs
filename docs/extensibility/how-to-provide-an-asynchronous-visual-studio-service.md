@@ -1,13 +1,16 @@
 ---
-title: "How to: Provide an Asynchronous Visual Studio Service | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: 'How to: Provide an Asynchronous Visual Studio Service | Microsoft Docs'
+description: Learn how to provide an asynchronous Visual Studio service. This approach allows you to obtain a service without blocking the UI thread.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
 ms.assetid: 0448274c-d3d2-4e12-9d11-8aca78a1f3f5
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # How to: Provide an asynchronous Visual Studio service
 If you want to obtain a service without blocking the UI thread, you should create an asynchronous service and load the package on a background thread. For this purpose you can use an <xref:Microsoft.VisualStudio.Shell.AsyncPackage> rather than a <xref:Microsoft.VisualStudio.Shell.Package>, and add the service with the asynchronous package's special asynchronous methods.
@@ -36,7 +39,7 @@ If you want to obtain a service without blocking the UI thread, you should creat
 
 5. The following example shows a very basic implementation of the three types. The constructor of the service class must set the service provider. In this example we'll just add the service to the package code file.
 
-6. Add the following using statements to the package file:
+6. Add the following using directives to the package file:
 
     ```csharp
     using System.Threading;
@@ -124,6 +127,8 @@ public sealed class TestAsyncPackage : AsyncPackage
     }
 
     ```
+    To make this service visible outside this package, set the promote flag value to *true* as the last parameter:
+    `this.AddService(typeof(STextWriterService), CreateTextWriterService, true);`
 
 2. Add a reference to *Microsoft.VisualStudio.Shell.Interop.14.0.DesignTime.dll*.
 
@@ -197,7 +202,7 @@ public sealed class TestAsyncPackage : AsyncPackage
 
 4. In the *TestAsyncCommand.cs* file, find the `MenuItemCallback()` method. Delete the body of the method.
 
-5. Add a using statement:
+5. Add a using directive:
 
     ```csharp
     using System.IO;

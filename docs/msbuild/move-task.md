@@ -1,26 +1,31 @@
 ---
-title: "Move Task | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
+title: Move Task | Microsoft Docs
+description: Learn about the parameters and settings for the MSBuild Move task, which moves files to new locations.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: reference
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+- VB
+- CSharp
+- C++
+- jsharp
 helpviewer_keywords:
-  - "MSBuild, Move task"
-  - "Move task [MSBuild]"
+- MSBuild, Move task
+- Move task [MSBuild]
 ms.assetid: d1405347-1309-4f18-b565-905408093d59
-author: mikejo5000
-ms.author: mikejo
-manager: jillfra
+author: ghogen
+ms.author: ghogen
+manager: jmartens
+ms.technology: msbuild
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Move task
+
 Moves files to a new location.
 
 ## Parameters
+
  The folowing table describes the parameters of the `Move` task.
 
 |Parameter|Description|
@@ -32,6 +37,7 @@ Moves files to a new location.
 |`SourceFiles`|Required <xref:Microsoft.Build.Framework.ITaskItem>`[]` parameter.<br /><br /> Specifies the files to move.|
 
 ## Remarks
+
  Either the `DestinationFolder` parameter or the `DestinationFiles` parameter must be specified, but not both. If both are specified, the task fails and an error is logged.
 
  The `Move` task creates folders as required for the desired destination files.
@@ -39,5 +45,6 @@ Moves files to a new location.
  In addition to having the parameters that are listed in the table, this task inherits parameters from the <xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension base class](../msbuild/taskextension-base-class.md).
 
 ## See also
+
 - [Tasks](../msbuild/msbuild-tasks.md)
 - [Task reference](../msbuild/msbuild-task-reference.md)

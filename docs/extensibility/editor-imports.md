@@ -1,15 +1,18 @@
 ---
-title: "Editor Imports | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Editor Imports | Microsoft Docs
+description: Learn how to import editor services, factories, and brokers that provide your extension with different kinds of access to the core editor.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: reference
 helpviewer_keywords:
-  - "editors [Visual Studio SDK], new - services"
+- editors [Visual Studio SDK], new - services
 ms.assetid: 8d096de3-33b4-427a-a122-4aeff8a72da0
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Editor imports
 You can import a number of editor services, factories, and brokers that provide your extension with different kinds of access to the core editor. For example, you can import the <xref:Microsoft.VisualStudio.Text.Operations.ITextStructureNavigatorSelectorService> to provide you with a <xref:Microsoft.VisualStudio.Text.Operations.ITextStructureNavigator> for a given content type. (This navigator allows you perform different kinds of searches on a text buffer.)

@@ -1,13 +1,13 @@
 ---
 title: Convert a local function to a method
+description: Learn how to use the Quick Actions and Refactorings menu to convert a local function to a method.
+ms.custom: SEO-VS-2020
 ms.date: 02/19/2019
 ms.topic: reference
 author: kendrahavens
 ms.author: kehavens
-manager: jillfra
-dev_langs:
-  - CSharp
-  - VB
+manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
   - "dotnet"
 ---
@@ -16,7 +16,6 @@ ms.workload:
 This refactoring applies to:
 
 - C#
-- Visual Basic
 
 **What:** Convert a local function to a method.
 

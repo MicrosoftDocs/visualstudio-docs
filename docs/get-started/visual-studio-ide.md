@@ -1,19 +1,19 @@
 ---
 title: Overview of Visual Studio
-titleSuffix: ""
-ms.date: 03/19/2019
+titleSuffix: ''
+description: Learn about the Visual Studio integrated development environment.
+ms.date: 06/29/2021
 ms.technology: vs-ide-general
-ms.topic: conceptual
-ms.custom: vs-get-started
-author: gewarren
+ms.topic: overview
+ms.custom: [vs-acquisition,  vs-get-started, SEO-VS-2020]
+author: TerryGLee
 f1_keywords:
-  - vs.startpage
-  - VS.StartPage.HowDoI
-  - MSDNSTART
-ms.author: gewarren
-manager: jillfra
+- vs.startpage
+- VS.StartPage.HowDoI
+ms.author: tglee
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Welcome to the Visual Studio IDE
 
@@ -37,7 +37,7 @@ If you're ready to dive into more coding, one of the following language-specific
 
 - [Use Visual Studio to create your first Node.js app](../ide/quickstart-nodejs.md)
 
-- [Get started with C++ in Visual Studio](../ide/getting-started-with-cpp-in-visual-studio.md)
+- [Use Visual Studio to create your first C++ console app](/cpp/get-started/tutorial-console-cpp)
 
 ## See also
 

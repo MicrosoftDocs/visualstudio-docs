@@ -1,7 +1,8 @@
 ---
+description: "Returns the length of the address range in which the local symbol is valid."
 title: "IDiaSymbol::get_liveRangeLength | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,8 @@ helpviewer_keywords:
 ms.assetid: ffcce3cc-085c-44eb-8145-46e3819c54f9
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -44,5 +46,5 @@ HRESULT get_liveRangeLength ( 
 
  DLL: msdia100.dll
 
-## See Also
+## See also
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

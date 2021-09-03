@@ -1,20 +1,22 @@
 ---
-title: "IDebugObject::SetValue | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Sets the value of the object from a consecutive series of bytes."
+title: IDebugObject::SetValue | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugObject::SetValue"
+- IDebugObject::SetValue
 helpviewer_keywords:
-  - "IDebugObject::SetValue method"
+- IDebugObject::SetValue method
 ms.assetid: d652e09c-cdc1-4519-8116-d7c743f5679b
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugObject::SetValue
 Sets the value of the object from a consecutive series of bytes.

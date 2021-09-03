@@ -1,9 +1,10 @@
 ---
 title: Visual Studio cloud subscription purchasing for CSPs
 author: evanwindom
-ms.author: lank
-manager: lank
-ms.date: 07/28/2019
+ms.author: v-evwin
+manager: cabuschl
+ms.assetid: d2ab13ed-ef79-4ef0-8736-eccd04bc6020
+ms.date: 03/18/2021
 ms.topic: conceptual
 description:  Information for Cloud Solution Providers on how to buy and manage Visual Studio cloud subscriptions for your customers.
 ---
@@ -43,7 +44,7 @@ Anyone with [owner or contributor access](https://na01.safelinks.protection.outl
 > for automation of purchasing.
 
 Once you confirm the purchase, you can choose **Manage** to assign subscriptions to your customer's end users.  You can
-also access the Subscription Administration portal from the Partner Center by choosing **Service management**.  From there see the steps or video below.
+also access the Subscription Admin portal from the Partner Center by choosing **Service management**.  From there see the steps or video below.
 
 ## How to manage Visual Studio cloud subscriptions for your customer
 
@@ -100,5 +101,16 @@ These discounts are reflected in the pricing data within the [Partner Center](ht
 A:  No, prices for Visual Studio subscriptions are flat. The same price is offered for new subscriptions and continuing subscriptions.
 
 ### Q: Are there Azure dev/test pricing options for CSPs?
-A: Not at this time. Your customers can take advantage of [Azure dev/test pricing](https://aka.ms/azuredevtestpricing), but we do not have anything specifically for CSPs.
+A: Not at this time. Your customers can take advantage of [Azure dev/test pricing](https://azure.microsoft.com/pricing/dev-test/), but we do not have anything specifically for CSPs.
 
+## Resources
+- For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, see Visual Studio [Subscriptions support](https://aka.ms/vssubscriberhelp).
+
+## See also
+- [Visual Studio documentation](/visualstudio/)
+- [Azure DevOps documentation](/azure/devops/)
+- [Azure documentation](/azure/)
+- [Microsoft 365 documentation](/microsoft-365/)
+
+## Next steps
+See the [cloud billing FAQ](vscloud-billing-faq.yml) for answers to common billing questions.

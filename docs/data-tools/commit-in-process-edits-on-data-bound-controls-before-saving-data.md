@@ -1,23 +1,26 @@
 ---
-title: Commit in-process edits on data-bound controls before saving
+title: Uncommitted edits
+description: Commit in-process edits on data-bound Windows Forms controls before saving data. Call EndEdit for all BindingSource components on a form.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 dev_langs:
-  - "VB"
-  - "CSharp"
+- VB
+- CSharp
 helpviewer_keywords:
-  - "committing edited records"
-  - "data-bound controls, in-process edits"
-  - "DataBinding class, committing edited records"
-  - "hierarchical update, committing edited records"
-  - "BindingSource class, committing edited records"
-  - "EndEdit method"
+- committing edited records
+- data-bound controls, in-process edits
+- DataBinding class, committing edited records
+- hierarchical update, committing edited records
+- BindingSource class, committing edited records
+- EndEdit method
 ms.assetid: 61af4798-eef7-468c-b229-5e1497febb2f
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: ghogen
+ms.author: ghogen
+manager: jmartens
+ms.technology: vs-data-tools
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # Commit in-process edits on data-bound controls before saving data
 
@@ -36,13 +39,13 @@ The following code uses a [LINQ (Language-Integrated Query)](/dotnet/csharp/linq
 
 1. Add the following code to the form that contains the <xref:System.Windows.Forms.BindingSource> components.
 
-     [!code-csharp[VSProDataOrcasEndEditOnAll#1](../data-tools/codesnippet/CSharp/commit-in-process-edits-on-data-bound-controls-before-saving-data_1.cs)]
-     [!code-vb[VSProDataOrcasEndEditOnAll#1](../data-tools/codesnippet/VisualBasic/commit-in-process-edits-on-data-bound-controls-before-saving-data_1.vb)]
+     :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/VSProDataOrcasEndEditOnAll/CS/Form1.cs" id="Snippet1":::
+     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VSProDataOrcasEndEditOnAll/VB/Form1.vb" id="Snippet1":::
 
 2. Add the following line of code immediately before any calls to save the form's data (the `TableAdapterManager.UpdateAll()` method):
 
-     [!code-csharp[VSProDataOrcasEndEditOnAll#2](../data-tools/codesnippet/CSharp/commit-in-process-edits-on-data-bound-controls-before-saving-data_2.cs)]
-     [!code-vb[VSProDataOrcasEndEditOnAll#2](../data-tools/codesnippet/VisualBasic/commit-in-process-edits-on-data-bound-controls-before-saving-data_2.vb)]
+     :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/VSProDataOrcasEndEditOnAll/CS/Form1.cs" id="Snippet2":::
+     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VSProDataOrcasEndEditOnAll/VB/Form1.vb" id="Snippet2":::
 
 ## See also
 

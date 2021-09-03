@@ -1,16 +1,19 @@
 ---
-title: "Customize your build | Microsoft Docs"
-ms.date: "06/13/2019"
-ms.topic: "conceptual"
+title: Customize your build | Microsoft Docs
+description: Learn about several extensibility hooks you can use to customize MSBuild projects that use the standard build process. 
+ms.custom: SEO-VS-2020
+ms.date: 06/13/2019
+ms.topic: conceptual
 helpviewer_keywords:
-  - "MSBuild, transforms"
-  - "transforms [MSBuild]"
+- MSBuild, transforms
+- transforms [MSBuild]
 ms.assetid: d0bceb3b-14fb-455c-805a-63acefa4b3ed
-author: mikejo5000
-ms.author: mikejo
-manager: jillfra
+author: ghogen
+ms.author: ghogen
+manager: jmartens
+ms.technology: msbuild
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Customize your build
 
@@ -67,7 +70,14 @@ The location of the solution file is irrelevant to *Directory.Build.props*.
 
 *Directory.Build.props* is imported very early in *Microsoft.Common.props*, and properties defined later are unavailable to it. So, avoid referring to properties that are not yet defined (and will evaluate to empty).
 
-*Directory.Build.targets* is imported from *Microsoft.Common.targets* after importing *.targets* files from NuGet packages. So, it can override properties and targets defined in most of the build logic, but sometimes you may need to customize the project file after the final import.
+Properties that are set in *Directory.Build.props* can be overridden elsewhere in the project file or in imported files, so you should think of the settings in *Directory.Build.props* as specifying the defaults for your projects.
+
+*Directory.Build.targets* is imported from *Microsoft.Common.targets* after importing *.targets* files from NuGet packages. So, it can override properties and targets defined in most of the build logic, or set properties for all your projects regardless of what the individual projects set.
+
+When you need to set a property or define a target for an individual project that overrides any prior settings, put that logic in the project file after the final import. In order to do this in an SDK-style project, you first have to replace the SDK-style attribute with the equivalent imports. See [How to use MSBuild project SDKs](how-to-use-project-sdk.md).
+
+> [!NOTE]
+> The MSBuild engine reads in all imported files during evaluation, before starting build execution for any project (including any `PreBuildEvent`), so these files are not expected to be modified by the `PreBuildEvent` or any other part of the build process. Any modifications do not take effect until the next invocation of *MSBuild.exe* or the next Visual Studio build.
 
 ### Use case: multi-level merging
 
@@ -169,7 +179,7 @@ The same directory structure is searched in `$(MSBuildUserExtensionsPath)`, whic
 ## Customize the solution build
 
 > [!IMPORTANT]
-> Customizing the solution build in this way applies only to command-line builds with *MSBuild.exe*. It **does not** apply to builds inside Visual Studio.
+> Customizing the solution build in this way applies only to command-line builds with *MSBuild.exe*. It **does not** apply to builds inside Visual Studio. For this reason, it is not recommended to put customization at the solution level. A better alternative for customizing all projects in a solution is to use *Directory.Build.props* and *Directory.build.targets* files in the solution folder, as discussed elsewhere in this article.
 
 When MSBuild builds a solution file, it first translates it internally into a project file and then builds that. The generated project file imports `before.{solutionname}.sln.targets` before defining any targets and `after.{solutionname}.sln.targets` after importing targets, including targets installed to the `$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\SolutionFile\ImportBefore` and `$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\SolutionFile\ImportAfter` directories.
 
@@ -182,6 +192,96 @@ For example, you could define a new target to write a custom log message after b
  </Target>
 </Project>
 ```
+
+The solution build is separate from the project builds, so settings here do not affect project builds.
+
+## Customize all .NET builds
+
+When maintaining a build server, you might need to configure MSBuild settings globally for all builds on the server.  In principle, you could modify the global *Microsoft.Common.Targets* or *Microsoft.Common.Props* files, but there is a better way. You can affect all builds of a certain project type (such as all C# projects) by using certain MSBuild properties and adding certain custom `.targets` and `.props` files.
+
+To affect all C# or Visual Basic builds governed by an installation of MSBuild or Visual Studio, create a file *Custom.Before.Microsoft.Common.Targets* or *Custom.After.Microsoft.Common.Targets* with targets that will run before or after *Microsoft.Common.targets*, or a file *Custom.Before.Microsoft.Common.Props* or *Custom.After.Microsoft.Common.Props* with properties that will be processed before or after *Microsoft.Common.props*.
+
+You can specify the locations of these files by using the following MSBuild properties:
+
+- CustomBeforeMicrosoftCommonProps
+- CustomBeforeMicrosoftCommonTargets
+- CustomAfterMicrosoftCommonProps
+- CustomAfterMicrosoftCommonTargets
+- CustomBeforeMicrosoftCSharpTargets
+- CustomBeforeMicrosoftVisualBasicTargets
+- CustomAfterMicrosoftCSharpTargets
+- CustomAfterMicrosoftVisualBasicTargets
+
+The *Common* versions of these properties affect both C# and Visual Basic projects. You can set these properties in the MSBuild command line.
+
+```cmd
+msbuild /p:CustomBeforeMicrosoftCommonTargets="C:\build\config\Custom.Before.Microsoft.Common.Targets" MyProject.csproj
+```
+
+The best approach depends on your scenario. Using Visual Studio Extensibility, you can customize the build system and provide a mechanism for installing and managing the customizations.
+
+If you have a dedicated build server and want to ensure that certain targets always execute on all builds of the appropriate project type that execute on that server, then using a global custom `.targets` or `.props` file makes sense.  If you want the custom targets to only execute when certain conditions apply, then use another file location and set the path to that file by setting the appropriate MSBuild property in the MSBuild command line only when needed.
+
+> [!WARNING]
+> Visual Studio uses the custom `.targets` or `.props` files if it finds them in the MSBuild folder whenever it builds any project of the matching type. This can have unintended consequences, and if done incorrectly, can disable the ability of Visual Studio to build on your computer.
+
+## Customize C++ builds
+
+For C++ projects, the previously mentioned custom *.targets* and *.props* files cannot be used in the same way to override default settings. *Directory.Build.props* is imported by *Microsoft.Common.props*, which is imported in `Microsoft.Cpp.Default.props` while most of the defaults are defined in *Microsoft.Cpp.props* and for a number of properties a "if not yet defined" condition cannot be used, as the property is already defined, but the default needs to be different for particular project properties defined in `PropertyGroup` with `Label="Configuration"` (see [.vcxproj and .props file structure](/cpp/build/reference/vcxproj-file-structure)).
+
+But, you can use the following properties to specify *.props* file(s) to be automatically imported before/after *Microsoft.Cpp.\** files:
+
+- ForceImportAfterCppDefaultProps
+- ForceImportBeforeCppProps
+- ForceImportAfterCppProps
+- ForceImportBeforeCppTargets
+- ForceImportAfterCppTargets
+
+To customize the default values of properties for all C++ builds, create another *.props* file (say, *MyProps.props*), and define the `ForceImportAfterCppProps` property in `Directory.Build.props` pointing to it:
+
+```xml
+<PropertyGroup>
+  <ForceImportAfterCppProps>$(MsbuildThisFileDirectory)\MyProps.props<ForceImportAfterCppProps>
+</PropertyGroup>
+```
+
+*MyProps.props* will be automatically imported at the very end of *Microsoft.Cpp.props*.
+
+## Customize all C++ builds
+
+Customizing the Visual Studio installation isn't recommended, since it's not easy to keep track of such customizations, but if you're extending Visual Studio to customize C++ builds for a particular platform, you can create `.targets` files for each platform and place them in the appropriate import folders for those platforms as part of a Visual Studio extension.
+
+The `.targets` file for the Win32 platform, *Microsoft.Cpp.Win32.targets*, contains the following `Import` element:
+
+```xml
+<Import Project="$(VCTargetsPath)\Platforms\Win32\ImportBefore\*.targets"
+        Condition="Exists('$(VCTargetsPath)\Platforms\Win32\ImportBefore')"
+/>
+```
+
+There's a similar element near the end of the same file:
+
+```xml
+<Import Project="$(VCTargetsPath)\Platforms\Win32\ImportAfter\*.targets"
+        Condition="Exists('$(VCTargetsPath)\Platforms\Win32\ImportAfter')"
+/>
+```
+
+Similar import elements exist for other target platforms in *%ProgramFiles32%\MSBuild\Microsoft.Cpp\v{version}\Platforms\*.
+
+Once you place the `.targets` file in the appropriate `ImportAfter` folder according to the platform, MSBuild imports your file into every C++ build for that platform. You can put multiple `.targets` files there, if needed. 
+
+Using Visual Studio Extensibility, further customizations are possible, such as defining a new platform. For more information, see [C++ project extensibility](../extensibility/visual-cpp-project-extensibility.md).
+
+### Specify a custom import on the command line
+
+For custom `.targets` that you want to include for a specific build of a C++ project, set one or both of the properties `ForceImportBeforeCppTargets` and `ForceImportAfterCppTargets` on the command line.
+
+```cmd
+msbuild /p:ForceImportBeforeCppTargets="C:\build\config\Custom.Before.Microsoft.Cpp.Targets" MyCppProject.vcxproj
+```
+
+For a global setting (to affect, say, all C++ builds for a platform on a build server), there are two methods. First, you can set these properties using a system environment variable that is always set. This works because MSBuild always reads the environment and creates (or overrides) properties for all the environment variables.
 
 ## See also
 

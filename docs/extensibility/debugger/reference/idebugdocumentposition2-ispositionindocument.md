@@ -1,20 +1,22 @@
 ---
-title: "IDebugDocumentPosition2::IsPositionInDocument | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Determines if the document position is contained in the given document."
+title: IDebugDocumentPosition2::IsPositionInDocument | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugDocumentPosition2::IsPositionInDocument"
+- IDebugDocumentPosition2::IsPositionInDocument
 helpviewer_keywords:
-  - "IDebugDocumentPosition2::IsPositionInDocument"
+- IDebugDocumentPosition2::IsPositionInDocument
 ms.assetid: d5cf57cb-b93b-4e1d-bec9-185f4fe8668d
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugDocumentPosition2::IsPositionInDocument
 Determines if the document position is contained in the given document.

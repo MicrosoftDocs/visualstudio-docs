@@ -1,20 +1,22 @@
 ---
-title: "IDebugDocumentContext2::GetDocument | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Gets the document that contains this document context."
+title: IDebugDocumentContext2::GetDocument | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugDocumentContext2::GetDocument"
+- IDebugDocumentContext2::GetDocument
 helpviewer_keywords:
-  - "IDebugDocumentContext2::GetDocument"
+- IDebugDocumentContext2::GetDocument
 ms.assetid: c6d46c5d-ade8-4dc8-9862-8fc7876658c4
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugDocumentContext2::GetDocument
 Gets the document that contains this document context.

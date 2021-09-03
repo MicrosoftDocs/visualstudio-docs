@@ -1,5 +1,7 @@
 ---
 title: "Copyright Notice for Spy++ Help | Microsoft Docs"
+description: See the legal notice of copyright for Spy++ Help. 
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:
@@ -7,7 +9,8 @@ helpviewer_keywords:
 ms.assetid: 84efcb95-5e57-4e1b-9670-13c9163f6fc6
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---

@@ -1,20 +1,21 @@
 ---
 title: Visual Studio Test Professional workload and component IDs
-titleSuffix: ""
-description: "Use Visual Studio workload and component IDs to provide integrated testing tools for generalist testers"
-author: TerryGLee
-ms.author: tglee
-manager: jillfra
-ms.date: 05/22/2019
+titleSuffix: ''
+description: Use Visual Studio workload and component IDs to provide integrated testing tools for generalist testers
+author: anandmeg
+ms.author: meghaanand
+manager: jmartens
+ms.date: 03/16/2020
 ms.topic: reference
 helpviewer_keywords:
-  - "workload ID, Visual Studio"
-  - "component ID, Visual Studio"
-  - "install Visual Studio, administrator guide"
+- workload ID, Visual Studio
+- component ID, Visual Studio
+- install Visual Studio, administrator guide
 ms.assetid: 70c03438-8434-4921-ada0-c172519af431
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
 monikerRange: vs-2017
+open_to_public_contributors: false
 ---
 # Visual Studio Test Professional component directory
 

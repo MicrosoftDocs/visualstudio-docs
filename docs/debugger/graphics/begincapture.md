@@ -1,11 +1,14 @@
 ---
 title: "BeginCapture | Microsoft Docs"
+description: Use the BeginCapture method of the VsgDbg class to begin a capture interval that will end with EndCapture.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 ms.assetid: 9edbb52d-ee0b-4cc4-a382-972bcee067d3
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -23,6 +26,6 @@ void BeginCapture();
 
  To capture an interval, you must prepare your app to capture and record graphics information—that is, you must have called [Init](init.md) through an instance of the `VsgDbg` class before you call `BeginCapture` or `EndCapture`.
 
-## See Also
+## See also
 - [EndCapture](endcapture.md)
 - [CaptureCurrentFrame](capturecurrentframe.md)

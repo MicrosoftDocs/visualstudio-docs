@@ -1,7 +1,9 @@
 ---
 title: "How to: Edit a SharePoint Deployment Configuration | Microsoft Docs"
+description: Know how to create a SharePoint deployment configuration or modify an existing deployment configuration.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: how-to
 f1_keywords:
   - "VS.SharePointTools.Project.DeploymentConfig"
 dev_langs:
@@ -11,7 +13,8 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, deploying"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
+ms.technology: sharepoint-development
 ms.workload:
   - "office"
 ---

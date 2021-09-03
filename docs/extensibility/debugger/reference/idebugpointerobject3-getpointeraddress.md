@@ -1,19 +1,21 @@
 ---
-title: "IDebugPointerObject3::GetPointerAddress | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Retrieves the address of the pointer."
+title: IDebugPointerObject3::GetPointerAddress | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "GetPointerAddress"
-  - "IDebugPointerObject3::GetPointerAddress"
+- GetPointerAddress
+- IDebugPointerObject3::GetPointerAddress
 ms.assetid: 4cc5af04-9e70-420d-8230-ef3108df6d51
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugPointerObject3::GetPointerAddress
 Retrieves the address of the pointer.

@@ -1,6 +1,7 @@
 ---
-title: "Find which call failed when calling a function many times | Microsoft Docs"
-ms.custom: "seodec18"
+title: "Find call failure when calling a function many times"
+description: See a technique for setting a breakpoint on a function such that the break occurs only on the call for which the function fails.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:
@@ -25,7 +26,8 @@ helpviewer_keywords:
 ms.assetid: 66cfac86-f5be-4d3a-9329-d44cd74bc586
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -42,7 +44,7 @@ CnvtV(int) (no condition) when hit count is equal to 1000 (currently 101)
 
  You now know that the function failed on the 101st call. If you reset the breakpoint with a hit count of 101 and run the program again, the program stops at the call to `CnvtV` that caused it to fail.
 
-## See Also
+## See also
 - [Debugging Native Code FAQs](../debugger/debugging-native-code-faqs.md)
-- [Setting Breakpoints](https://msdn.microsoft.com/library/fe4eedc1-71aa-4928-962f-0912c334d583)
+- [Setting Breakpoints](/previous-versions/ktf38f66(v=vs.100))
 - [Debugging Native Code](../debugger/debugging-native-code.md)

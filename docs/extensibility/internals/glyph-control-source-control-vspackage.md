@@ -1,16 +1,19 @@
 ---
-title: "Glyph Control (Source Control VSPackage) | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Glyph Control (Source Control VSPackage) | Microsoft Docs
+description: Learn how to display custom glyphs in a source control VSPackage so that you can use your own icons to indicate the status of items under source control.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "glyphs, source control packages"
-  - "source control packages, glyphs"
+- glyphs, source control packages
+- source control packages, glyphs
 ms.assetid: b9413b08-b3c3-4fc3-a6e0-3dc0db3652d7
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Glyph control (source control VSPackage)
 Part of the deep integration available to source control VSPackages is the ability to display their own glyphs to indicate the status of items under source control.

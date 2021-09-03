@@ -1,5 +1,8 @@
 ---
 title: "Application and deployment manifests in Office solutions"
+description: Learn how an application manifest is an XML file that provides information that is used by an Office solution to locate and update its assemblies.
+ms.custom: SEO-VS-2020
+titleSuffix: ""
 ms.date: 02/02/2017
 ms.topic: conceptual
 dev_langs:
@@ -12,7 +15,8 @@ helpviewer_keywords:
   - "assemblies [Office development in Visual Studio], updating"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
+ms.technology: office-development
 ms.workload:
   - "office"
 ---

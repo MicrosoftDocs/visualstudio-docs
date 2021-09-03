@@ -1,5 +1,7 @@
 ---
 title: "Publish Page, Project Designer (Office development)"
+description: Learn how the Publish page of the Project Designer in Visual Studio is used to configure properties for deployment.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 f1_keywords:
@@ -13,7 +15,8 @@ helpviewer_keywords:
   - "Property Pages dialog box, Publish [Office development in Visual Studio]"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
+ms.technology: office-development
 ms.workload:
   - "office"
 ---
@@ -23,7 +26,7 @@ ms.workload:
  To access this page, select the project in **Solution Explorer**, and then, on the **Project** menu, choose *Projectname* **Properties**. If the **Publish** page is not displayed, choose the **Publish** tab.
 
 > [!NOTE]
-> You can also set the publishing location in the **Publish Wizard**. For more information, see [How to: Publish an Office solution by using ClickOnce](https://msdn.microsoft.com/2b6c247e-bc04-4ce4-bb64-c4e79bb3d5b8).
+> You can also set the publishing location in the **Publish Wizard**. For more information, see [How to: Publish an Office solution by using ClickOnce](/previous-versions/bb386095(v=vs.110)).
 
 ## UIElement list
  **Publishing Folder Location (web site, ftp server, or file path)**
@@ -46,7 +49,7 @@ ms.workload:
 
  If the installation files are in a location relative to the document or Setup program, such as with the CD option, leave this box blank.
 
- This value can be assigned later by an administrator. For more information, see [How to: Change the installation path of an Office solution](https://msdn.microsoft.com/d0eaa07b-2d72-4902-899f-2f9fb165b8fd).
+ This value can be assigned later by an administrator. For more information, see [How to: Change the installation path of an Office solution](/previous-versions/bb608626(v=vs.110)).
 
  **Prerequisites**
  The prerequisites can be included with the Setup program or downloaded on demand during installation.
@@ -106,4 +109,4 @@ ms.workload:
 
 - [Deploy an Office solution](../vsto/deploying-an-office-solution.md)
 - [Deploy an Office solution by using ClickOnce](../vsto/deploying-an-office-solution-by-using-clickonce.md)
-- [Office solution prerequisites for deployment](https://msdn.microsoft.com/9f672809-43a3-40a1-9057-397ce3b5126e)
+- [Office solution prerequisites for deployment](/previous-versions/bb608617(v=vs.110))

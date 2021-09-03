@@ -1,14 +1,17 @@
 ---
 title: Accessing Models from Text Templates
+description: Learn how you can use text templates to create report files, source code files, and other text files that are based on domain-specific language models.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
-  - "text templates, accessing models"
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+- text templates, accessing models
+author: mgoertz-msft
+ms.author: mgoertz
+manager: jmartens
+ms.technology: vs-ide-modeling
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Access models from text templates
 
@@ -130,7 +133,7 @@ For Each element As ExampleElement In Me.WorkModel.Elements
 ```
 
 ## Loading models dynamically
- If you want to determine at runtime which models to load, you can load a model file dynamically in your program code, instead of using the DSL-specific directive.
+ If you want to determine at run time which models to load, you can load a model file dynamically in your program code, instead of using the DSL-specific directive.
 
  However, one of the functions of the DSL-specific directive is to import the DSL namespace, so that the template code can use the domain classes defined in that DSL. Because you are not using the directive, you must add **\<assembly>** and **\<import>** directives for all the models that you might load. This is easy if the different models that you might load are all instances of the same DSL.
 

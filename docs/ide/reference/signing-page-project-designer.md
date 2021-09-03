@@ -1,25 +1,27 @@
 ---
 title: Signing Page, Project Designer
+description: Use the Signing page of the Project Designer to sign the application and deployment manifests and also to sign the assembly.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.technology: vs-ide-deployment
 ms.topic: reference
 f1_keywords:
-  - "vs.AddNewStrongNameKey"
-  - "ResolveKeySource.KeyFileForSignAssemblyNotImported"
-  - "vb.ProjectPropertiesSigning.ChangePasswordDialog"
-  - "ResolveKeySource.KeyFileForManifestNotImported"
-  - "vb.ProjectPropertiesSigning"
-  - "vb.ProjectPropertiesSigning.PasswordNeededDialog"
-  - "vb.ProjectPropertiesSigning.PfxPasswordDialog"
+- vs.AddNewStrongNameKey
+- ResolveKeySource.KeyFileForSignAssemblyNotImported
+- vb.ProjectPropertiesSigning.ChangePasswordDialog
+- ResolveKeySource.KeyFileForManifestNotImported
+- vb.ProjectPropertiesSigning
+- vb.ProjectPropertiesSigning.PasswordNeededDialog
+- vb.ProjectPropertiesSigning.PfxPasswordDialog
 helpviewer_keywords:
-  - "Project Designer, Signing page"
-  - "Signing page in Project Designer"
+- Project Designer, Signing page
+- Signing page in Project Designer
 ms.assetid: dab3ba13-2f92-4827-92bd-1be3c35bc48b
-author: mikejo5000
+author: Mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Signing Page, Project Designer
 

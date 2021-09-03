@@ -1,16 +1,19 @@
 ---
-title: "Timeout Periods for Test Controllers and Test Agents"
+title: Timeout Periods for Test Controllers and Test Agents
+description: Learn how to change the timeout values for the test controller and the test agent by editing the associated XML configuration files.
+ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
-ms.topic: conceptual
-helpviewer_keywords:
-  - "agents, configuring"
-  - "agetns, timeouts"
-  - "controllers, configuring"
-  - "controllers, timeouts"
+ms.topic: how-to
+helpviewer_keywords: 
+  - agents, configuring
+  - agetns, timeouts
+  - controllers, configuring
+  - controllers, timeouts
 ms.assetid: 777d0db5-0073-458a-a2a3-58b1c1f24c60
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.technology: vs-ide-test
 ---
 # How to: Specify timeout periods for test controllers and test agents
 

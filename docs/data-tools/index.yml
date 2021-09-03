@@ -1,0 +1,82 @@
+### YamlMime:Landing
+
+title: Visual Studio data tools documentation # < 60 chars
+summary: Use Visual Studio and .NET tooling to develop your data applications
+metadata:
+  title: Develop data solutions # Required; page title displayed in search results. Include the brand. < 60 chars.
+  description: Learn about different tools for developing data solutions in Visual Studio, including .NET tools, SQL Server Data Tools, Azure Data Lake, Azure HDInsight, and Azure Streaming Analytics.
+  ms.date: 01/01/2018
+  author: ghogen
+  ms.author: ghogen
+  ms.topic: landing-page
+  ms.technology: vs-data-tools
+  ms.workload:
+  - data-storage
+
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
+
+landingContent:
+# Cards and links should be based on top customer tasks or top subjects
+# Start card title with a verb
+
+# Card (optional)
+  - title: .NET
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: Visual Studio data tools for .NET
+            url: visual-studio-data-tools-for-dotnet.md
+          - text: DataSet tools
+            url: dataset-tools-in-visual-studio.md
+          - text: Entity Framework tools
+            url: entity-data-model-tools-in-visual-studio.md
+          - text: Linq to SQL tools
+            url: linq-to-sql-tools-in-visual-studio2.md
+          - text: WCF and WCF Data Services (OData) tools
+            url: windows-communication-foundation-services-and-wcf-data-services-in-visual-studio.md
+      - linkListType: tutorial
+        links:
+          - text: ADO.NET data application
+            url: create-a-simple-data-application-by-using-adonet.md
+          - text: WPF and Entity Framework 6
+            url: create-a-simple-data-application-with-wpf-and-entity-framework-6.md
+          - text: n-Tier data application
+            url: walkthrough-creating-an-n-tier-data-application.md
+          - text: WCF Data Service with WPF and Entity Framework
+            url: walkthrough-creating-a-wcf-data-service-with-wpf-and-entity-framework.md
+      - linkListType: concept
+        links:
+          - text: ADO.NET
+            url: /dotnet/framework/data/adonet/index
+          - text: Entity Framework 6
+            url: /ef/ef6/
+          - text: Entity Framework Core
+            url: /ef/core/
+
+  - title: Data Tools
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: Work with data in Visual Studio
+            url: accessing-data-in-visual-studio.md
+          - text: Work with SQL Server Data Tools
+            url: /sql/ssdt/sql-server-data-tools?view=sql-server-ver15&preserve-view=true
+          - text: Data Access in C++
+            url: /cpp/data/data-access-in-cpp?view=vs-2019&preserve-view=true
+
+  - title: Azure
+    linkLists:
+      - linkListType: tutorial
+        links:
+          - text: Azure SQL database
+            url: /azure/sql-database/sql-database-connect-query-dotnet-visual-studio
+          - text: Cosmos DB - .NET console app
+            url: /azure/cosmos-db/sql-api-get-started
+          - text: Cosmos DB - .NET web app
+            url: /azure/cosmos-db/sql-api-dotnet-application
+          - text: Azure Data Lake Analytics
+            url: /azure/data-lake-analytics/data-lake-analytics-data-lake-tools-get-started
+          - text: HDInsight
+            url: /azure/hdinsight/hdinsight-hadoop-visual-studio-tools-get-started
+          - text: Azure Stream Analytics
+            url: /azure/stream-analytics/stream-analytics-tools-for-visual-studio

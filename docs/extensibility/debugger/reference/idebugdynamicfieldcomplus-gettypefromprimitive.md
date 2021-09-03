@@ -1,19 +1,21 @@
 ---
-title: "IDebugDynamicFieldCOMPlus::GetTypeFromPrimitive | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Retrieves a type given its primitive type."
+title: IDebugDynamicFieldCOMPlus::GetTypeFromPrimitive | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "IDebugDynamicFieldCOMPlus::GetTypeFromPrimitive"
-  - "GetTypeFromPrimitive"
+- IDebugDynamicFieldCOMPlus::GetTypeFromPrimitive
+- GetTypeFromPrimitive
 ms.assetid: d7f51e2a-1b72-489c-b7b6-4af7b7e4d663
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugDynamicFieldCOMPlus::GetTypeFromPrimitive
 Retrieves a type given its primitive type.

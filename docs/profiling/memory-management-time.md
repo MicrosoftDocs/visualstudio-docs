@@ -1,5 +1,6 @@
 ---
 title: "Memory Management Time | Microsoft Docs"
+description: Learn how this scenario implies that a thread is blocked by an event that is associated with a memory management operation such as Paging.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:
@@ -9,7 +10,8 @@ helpviewer_keywords:
 ms.assetid: 67af3509-3a7d-435d-bc37-5262448da915
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---

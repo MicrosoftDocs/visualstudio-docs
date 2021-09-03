@@ -1,17 +1,19 @@
 ---
-title: "IDebugProgramHost2 | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "This interface provides host (process) information about a program."
+title: IDebugProgramHost2 | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugProgramHost2"
+- IDebugProgramHost2
 helpviewer_keywords:
-  - "IDebugProgramHost2 interface"
+- IDebugProgramHost2 interface
 ms.assetid: 2c37b3aa-97a9-4665-8709-edd917f18cb1
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IDebugProgramHost2
 This interface provides host (process) information about a program.

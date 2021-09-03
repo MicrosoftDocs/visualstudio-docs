@@ -1,20 +1,22 @@
 ---
-title: "IDebugReference2::GetDerivedMostReference | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Gets the derived-most reference of a reference."
+title: IDebugReference2::GetDerivedMostReference | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugReference2::GetDerivedMostReference"
+- IDebugReference2::GetDerivedMostReference
 helpviewer_keywords:
-  - "IDebugReference2::GetDerivedMostReference"
+- IDebugReference2::GetDerivedMostReference
 ms.assetid: 07253b74-7d39-48e0-8e85-ac8dfd919f6e
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugReference2::GetDerivedMostReference
 Gets the derived-most reference of a reference. Reserved for future use.

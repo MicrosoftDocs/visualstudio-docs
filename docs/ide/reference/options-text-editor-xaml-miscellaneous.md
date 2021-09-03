@@ -1,33 +1,36 @@
 ---
 title: Options, Text Editor, XAML, Miscellaneous
+description: Learn how to use the Miscellaneous page in the XML section to specify how elements and attributes are formatted in your XAML documents.
+ms.custom: SEO-VS-2020
 ms.date: 10/29/2018
 ms.topic: reference
 f1_keywords:
-  - "VS.ToolsOptionsPages.Text_Editor.XAML.Miscellaneous"
+- VS.ToolsOptionsPages.Text_Editor.XAML.Miscellaneous
 helpviewer_keywords:
-  - "element spacing, XAML view settings"
-  - "attribute spacing, XAML view settings"
-  - "XAML view settings, auto-formatting events"
-  - "auto-formatting events, XAML view settings"
-  - "XAML view settings, tag wrapping"
-  - "XAML view settings, auto insert"
-  - "quotation mark style, XAML view settings"
-  - "XAML formatting, WPF Designer"
-  - "XAML view settings, Toolbox"
-  - "XAML view settings, element spacing"
-  - "default view, XAML view settings"
-  - "auto insert, XAML view settings"
-  - "XAML view settings, default view"
-  - "XAML view settings, quotation mark style"
-  - "tag wrapping, XAML view settings"
-  - "WPF Designer, XAML formatting"
-  - "XAML view settings, attribute spacing"
+- element spacing, XAML view settings
+- attribute spacing, XAML view settings
+- XAML view settings, auto-formatting events
+- auto-formatting events, XAML view settings
+- XAML view settings, tag wrapping
+- XAML view settings, auto insert
+- quotation mark style, XAML view settings
+- XAML formatting, WPF Designer
+- XAML view settings, Toolbox
+- XAML view settings, element spacing
+- default view, XAML view settings
+- auto insert, XAML view settings
+- XAML view settings, default view
+- XAML view settings, quotation mark style
+- tag wrapping, XAML view settings
+- WPF Designer, XAML formatting
+- XAML view settings, attribute spacing
 ms.assetid: 2a420e58-a408-4e8d-9220-44eeb4f67801
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
-  - "uwp"
+- uwp
 ---
 # Options, Text Editor, XAML, Miscellaneous
 
@@ -37,7 +40,7 @@ Use the **Miscellaneous** property page to specify how elements and attributes a
 
 Use this setting to control when tags and quotes are automatically generated.
 
-|||
+|Name|Description|
 |-|-|
 |**Closing tags**|Specifies whether an element's closing tag is automatically generated when you close the opening tag with the greater than character (>).|
 |**Attribute quotes**|Specifies whether enclosing quotes are generated when an attribute value is selected from the statement completion drop-down list.|
@@ -46,7 +49,7 @@ Use this setting to control when tags and quotes are automatically generated.
 
 ## Errors and Warnings
 
-Use this setting to control when errors and warnings are automatically generated. For more information, see [XAML errors and warnings](../../designers/xaml-errors-warnings.md).
+Use this setting to control when errors and warnings are automatically generated. For more information, see [XAML errors and warnings](../../xaml-tools/xaml-errors-warnings.md).
 
 ## See also
 

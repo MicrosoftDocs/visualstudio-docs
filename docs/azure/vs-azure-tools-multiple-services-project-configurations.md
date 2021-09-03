@@ -1,12 +1,12 @@
 ---
-title: Configure Azure project with multiple service configurations
+title: Configure cloud service with multiple configurations
 description: Learn how to configure an Azure cloud service project by changing the ServiceDefinition.csdef, ServiceConfiguration.Local.cscfg, and ServiceConfiguration.Cloud.cscfg files.
+ms.custom: SEO-VS-2020
 author: ghogen
-manager: jillfra
-assetId: a4fb79ed-384f-4183-9f74-5cac257206b9
-ms.custom: vs-azure
+manager: jmartens
+ms.technology: vs-azure
 ms.workload: azure-vs
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 11/11/2017
 ms.author: ghogen
 ---
@@ -14,7 +14,7 @@ ms.author: ghogen
 
 An Azure cloud service project in Visual Studio includes three configuration files: `ServiceDefinition.csdef`, `ServiceConfiguration.Local.cscfg`, and `ServiceConfiguration.Cloud.cscfg`:
 
-- `ServiceDefinition.csdef` is deployed to Azure to describe the requirements of the cloud service and its roles, and to provide settings that apply to all instances. Settings can be read at runtime using the Azure Service Hosting Runtime API. This file can be updated on Azure only when the cloud service is stopped.
+- `ServiceDefinition.csdef` is deployed to Azure to describe the requirements of the cloud service and its roles, and to provide settings that apply to all instances. Settings can be read at run time using the Azure Service Hosting Runtime API. This file can be updated on Azure only when the cloud service is stopped.
 - `ServiceConfiguration.Local.cscfg` and `ServiceConfiguration.Cloud.cscfg` provide values for settings in the definition file and specify the number of instances to run for each role. The "Local" file contains values used in local debugging; the "Cloud" file is deployed to Azure as `ServiceConfiguration.cscfg` and provides settings for the server environment. This file can be updated while your cloud service is running in Azure.
 
 Configuration settings are managed and modified in Visual Studio using property pages for the applicable role (right-click the role and select **Properties**, or double-click the role). Changes can be scoped to whichever configuration is chosen in the **Service Configuration** drop-down. The properties for web and worker roles are similar, except where described in the following sections.
@@ -49,7 +49,7 @@ By default, diagnostics are enabled for the Web role. The Azure cloud service pr
 
 ## Settings page
 
-On the **Settings** page, you can add settings to a configuration as name-value pairs. Code running in the role can read the values of your configuration settings at runtime using classes provided by the [Azure Managed Library](http://go.microsoft.com/fwlink?LinkID=171026), specifically, the [GetConfigurationSettingValue](https://msdn.microsoft.com/library/azure/microsoft.windowsazure.serviceruntime.roleenvironment.getconfigurationsettingvalue.aspx) method.
+On the **Settings** page, you can add settings to a configuration as name-value pairs. Code running in the role can read the values of your configuration settings at run time using classes provided by the [Azure Managed Library](/previous-versions/azure/dn602775(v=azure.11)), specifically, the [GetConfigurationSettingValue](/previous-versions/azure/reference/ee772857(v=azure.100)) method.
 
 ### Configuring a connection string for a storage account
 
@@ -89,7 +89,7 @@ You can use the **Local Storage** property page to reserve one or more local sto
 
 ## Certificates page
 
-The **Certificates** property page adds information about your certificates to your service configuration. Note that your certificates are not packaged with your service; you must upload your certificates separately to Azure through the [Azure portal](http://portal.azure.com).
+The **Certificates** property page adds information about your certificates to your service configuration. Note that your certificates are not packaged with your service; you must upload your certificates separately to Azure through the [Azure portal](https://portal.azure.com).
 
 Adding a certificate here adds information about your certificates to your service configuration. Certificates are not packaged with the service; you must upload your certificates separately through the Azure portal.
 

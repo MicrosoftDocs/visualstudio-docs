@@ -1,5 +1,7 @@
 ---
 title: "Secure deployment"
+description: Learn how you must provide evidence on which to base a trust decision by signing the solution with a certificate, or using the ClickOnce trust prompt key. 
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -12,7 +14,8 @@ helpviewer_keywords:
   - "ClickOnce deployment [Office development in Visual Studio], security"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
+ms.technology: office-development
 ms.workload:
   - "office"
 ---
@@ -40,5 +43,5 @@ ms.workload:
 
 ## See also
 - [Deploy an Office solution](../vsto/deploying-an-office-solution.md)
-- [Prepare computers to run or host Office solutions](https://msdn.microsoft.com/be1b173f-7261-4d74-aa4e-94ccd43db8d8)
+- [Prepare computers to run or host Office solutions](/previous-versions/bb772092(v=vs.110))
 - [Secure Office solutions](../vsto/securing-office-solutions.md)

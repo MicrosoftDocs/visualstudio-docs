@@ -40,6 +40,8 @@ Namespace DesignLibrary
             ' Fix the first violation by catching a specific exception.
             Catch ex As FileNotFoundException
                 Console.WriteLine("Unable to open {0}.", inFile)
+                ' For functionally equivalent code, also catch the
+                ' remaining exceptions that may be thrown by File.Open
             End Try
 
             Try

@@ -1,14 +1,15 @@
 ---
 title: "How to: Programmatically create custom folder items"
+description: Learn how you can programmatically create custom folder items in Microsoft Outlook by using Visual Studio.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: "how-to"
 dev_langs:
   - "VB"
   - "CSharp"
 helpviewer_keywords:
   - "Outlook folders [Office development in Visual Studio], creating"
   - "Outlook folders [Office development in Visual Studio], custom"
-author: John-Hart
 author: John-Hart
 ms.author: johnhart
 ms.workload:
@@ -20,7 +21,7 @@ ms.workload:
  [!INCLUDE[appliesto_olkallapp](../vsto/includes/appliesto-olkallapp-md.md)]
 
 ## Example
- [!code-csharp[Trin_OL_CustFolderItem#1](../vsto/codesnippet/CSharp/Trin_OL_CustFolderItem/thisaddin.cs#1)]
+ :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_OL_CustFolderItem/thisaddin.cs" id="Snippet1":::
 
 ## See also
 - [Work with folders](../vsto/working-with-folders.md)

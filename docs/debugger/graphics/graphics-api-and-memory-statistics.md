@@ -1,5 +1,7 @@
 ---
 title: "Graphics API and Memory Statistics | Microsoft Docs"
+description: Review the Graphics API Statistics and Memory Statistics tools, which show information on Direct3D API usage and GPU memory consumption of various resources.
+ms.custom: SEO-VS-2020
 ms.date: "03/02/2017"
 ms.topic: "conceptual"
 f1_keywords:
@@ -8,7 +10,8 @@ f1_keywords:
 ms.assetid: 27d2f303-e3ed-4219-9009-345a0d849506
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -34,7 +37,7 @@ The **GPU Allocation** column displays the amount of memory used by the event di
 
 As with the API Statistics tool, you can right-click in the window to Copy All data as CSV, which can be pasted into something like Excel for further analysis.
 
-## See Also
+## See also
 - [Graphics Diagnostics (Debugging DirectX Graphics)](visual-studio-graphics-diagnostics.md)
 - [Resource History](graphics-event-list.md#resource-history)
 <!-- /VERSIONLESS -->

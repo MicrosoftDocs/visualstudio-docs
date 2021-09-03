@@ -1,5 +1,7 @@
 ---
 title: "Troubleshooting SharePoint Solutions | Microsoft Docs"
+description: See what problems or alerts might occur when you debug SharePoint solutions by using the Visual Studio debugger.
+ms.custom: SEO-VS-2020
 ms.date: "02/22/2017"
 ms.topic: "conceptual"
 f1_keywords:
@@ -13,12 +15,13 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, troubleshooting"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
+ms.technology: sharepoint-development
 ms.workload:
   - "office"
 ---
 # Troubleshoot SharePoint solutions
-  The following problems or alerts might occur when you debug SharePoint solutions by using the [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] debugger. For more information, see [Debugging SharePoint 2007 Workflow Solutions](https://msdn.microsoft.com/3a5392f3-66f3-48be-956e-02de23fa6247).
+  The following problems or alerts might occur when you debug SharePoint solutions by using the [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] debugger. For more information, see [Debugging SharePoint 2007 Workflow Solutions](/previous-versions/bb386166(v=vs.100)).
 
 ## Token restrictions in sandboxed visual web parts
  Visual web parts in sandboxed solutions can't process standard tokens, such as $SPUrl, that the SharePoint runtime supports. As a result, the URL isn't resolved, and you can't preview the content in Design view in the visual web part designer if you refer to it directly in a script element, such as in the following example:
@@ -96,7 +99,7 @@ ms.workload:
  None.
 
 ### Resolution
- This problem occurs because of an incorrect value in the **Path** property for the webtemp site definition configuration file, such as *webtemp_SiteDefinitionProject1.xml*. In the **Path** property for the webtemp file, located under the **Deployment Location**, change 1033 to the appropriate locale [!INCLUDE[TLA2#tla_id](../sharepoint/includes/tla2sharptla-id-md.md)]. For example, to use a Japanese locale change the value to 1041. For more information, see [Locale IDs Assigned by Microsoft](http://go.microsoft.com/fwlink/?LinkID=165561).
+ This problem occurs because of an incorrect value in the **Path** property for the webtemp site definition configuration file, such as *webtemp_SiteDefinitionProject1.xml*. In the **Path** property for the webtemp file, located under the **Deployment Location**, change 1033 to the appropriate locale [!INCLUDE[TLA2#tla_id](../sharepoint/includes/tla2sharptla-id-md.md)]. For example, to use a Japanese locale change the value to 1041. For more information, see [Locale IDs Assigned by Microsoft](/openspecs/windows_protocols/ms-lcid/a9eac961-e77d-41a6-90a5-ce1a8b0cdb9c).
 
 ## Error appears when a workflow project is deployed on a clean system
  This problem occurs if you deploy a workflow project in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] on a clean system. A clean system is a computer that has a fresh installation of [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] and SharePoint but no deployed workflow projects.
@@ -127,7 +130,7 @@ ms.workload:
 
 - Install [!INCLUDE[moss_14_short](../sharepoint/includes/moss-14-short-md.md)].
 
-- Ensure that you have administrator access to the SharePoint Web site. For more information, see the [!INCLUDE[TLA2#tla_office](../sharepoint/includes/tla2sharptla-office-md.md)] Online article [Assign or remove administrators of service applications in SharePoint Server](https://docs.microsoft.com/sharepoint/administration/assign-or-remove-administrators-of-service-applications).
+- Ensure that you have administrator access to the SharePoint Web site. For more information, see the [!INCLUDE[TLA2#tla_office](../sharepoint/includes/tla2sharptla-office-md.md)] Online article [Assign or remove administrators of service applications in SharePoint Server](/sharepoint/administration/assign-or-remove-administrators-of-service-applications).
 
 ## Site deletion web event does not occur in event receiver project
  When you create an event receiver project and you select certain Web events such as "a site is being deleted," the event never occurs.
@@ -166,9 +169,9 @@ ms.workload:
 ### Resolution
  To resolve this issue, delete the model manually, and then deploy the solution again.  You can delete the model by using either of the following tools:
 
-- SharePoint 2010 Central Administration. For more information, see [BDC Model Management](http://go.microsoft.com/fwlink/?LinkID=181472) on the Microsoft TechNet Web site.
+- SharePoint 2010 Central Administration. For more information, see [BDC Model Management](/previous-versions/office/sharepoint-server-2010/ee524073(v=office.14)#delete-a-bdc-model) on the Microsoft TechNet Web site.
 
-- Windows PowerShell. You can delete the model by typing this command at the command prompt: **Remove-SPBusinessDataCatalogModel**. For more information, see [General cmdlets (SharePoint Server 2010)](http://go.microsoft.com/fwlink/?LinkID=182375) on the Microsoft TechNet Web site.
+- Windows PowerShell. You can delete the model by typing this command at the command prompt: **Remove-SPBusinessDataCatalogModel**. For more information, see [General cmdlets (SharePoint Server 2010)](/powershell/module/sharepoint-server) on the Microsoft TechNet Web site.
 
 ## An error appears when you try to view a visual web part in SharePoint
  This problem occurs when the **Path** property of the user control does not begin with the string "CONTROLTEMPLATES\\".
@@ -269,10 +272,10 @@ ms.workload:
  Could not load the Web.config configuration file. Check the file for any malformed XML elements and try again. The following error occurred: The given key was not present in the dictionary.
 
 ### Resolution
- To resolve this problem, make sure that the Site URL property value of the SharePoint project in Visual Studio matches the URL that's assigned to the Default Zone for the alternate access mappings of the web application. You can't resolve the error by using another zone, such as Intranet, for the URL. The site URL for the project and the URL in the default zone must match. To access alternate access mappings, open the SharePoint 2010 Central Administration utility, choose the **Application Management** link , and then, under **Web Applications**, choose the **Configure alternate access mappings** link. For more information, see [Create zones for Web applications](http://go.microsoft.com/fwlink/?LinkId=192274).
+ To resolve this problem, make sure that the Site URL property value of the SharePoint project in Visual Studio matches the URL that's assigned to the Default Zone for the alternate access mappings of the web application. You can't resolve the error by using another zone, such as Intranet, for the URL. The site URL for the project and the URL in the default zone must match. To access alternate access mappings, open the SharePoint 2010 Central Administration utility, choose the **Application Management** link , and then, under **Web Applications**, choose the **Configure alternate access mappings** link. For more information, see [Create zones for Web applications](/previous-versions/office/sharepoint-2007-products-and-technologies/cc263087(v=office.12)).
 
 ## See also
 
 - [Troubleshoot SharePoint packaging and deployment](../sharepoint/troubleshooting-sharepoint-packaging-and-deployment.md)
 - [Build and debug SharePoint solutions](../sharepoint/building-and-debugging-sharepoint-solutions.md)
-- [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)
+- [Debugging in Visual Studio](../debugger/debugger-feature-tour.md)

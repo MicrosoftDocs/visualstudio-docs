@@ -1,20 +1,22 @@
 ---
-title: "FRAMEINFO | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Describes a stack frame."
+title: FRAMEINFO | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "FRAMEINFO"
+- FRAMEINFO
 helpviewer_keywords:
-  - "FRAMEINFO structure"
+- FRAMEINFO structure
 ms.assetid: 95001b89-dddb-45bb-889d-8327994e38a5
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # FRAMEINFO
 Describes a stack frame.

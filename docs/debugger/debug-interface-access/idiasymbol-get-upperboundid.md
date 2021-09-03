@@ -1,7 +1,8 @@
 ---
+description: "Retrieves the symbol identifier of the upper bound of a FORTRAN array dimension."
 title: "IDiaSymbol::get_upperBoundId | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,8 @@ helpviewer_keywords:
 ms.assetid: ddfa1617-bd0f-4187-ba77-a225bab93a95
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -37,5 +39,5 @@ HRESULT get_upperBoundId ( 
 ## Remarks
  The identifier is a unique value created by the DIA SDK to mark all symbols as unique.
 
-## See Also
+## See also
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

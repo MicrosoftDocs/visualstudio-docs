@@ -1,13 +1,16 @@
 ---
-title: "Workflow Designer: Add a new item to workflow project"
+title: 'Workflow Designer: Add a new item to workflow project'
+description: Learn how you can add workflow activities, designers, and other familiar Visual Studio items to your project after you've created a workflow project.
+ms.custom: SEO-VS-2020
 ms.date: 06/25/2018
-ms.topic: conceptual
+ms.topic: how-to
 ms.assetid: 5c6180ca-af10-4513-b0cb-7d478fd84eab
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
+ms.technology: vs-workflow-designer
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Add a new item to a workflow project
 
@@ -20,7 +23,7 @@ The following table lists the Windows Workflow Foundation (WF) items that you ca
 | Activity | An activity to be composed of other activities. Selecting this item adds the same XAML file to the project as you would obtain when selecting the **Activity Library** template for a new project. For more information about on this procedure, see [Create a workflow project](creating-a-workflow-project.md). |
 | Activity Designer | A designer to customize the design-time experience of an activity. Selecting this item adds the same files to the project as you would obtain when selecting the **Activity Designer Library** template for a new project. |
 | Code Activity | An activity with execution logic written in code. A source code file with an override of the <xref:System.Activities.CodeActivity.Execute%2A> method is already generated for you. |
-| WCF Workflow Service | A [!INCLUDE[indigo2](../workflow-designer/includes/indigo2_md.md)] service built using workflow activities. Selecting this item adds the same files to the project as you would obtain when selecting the **WCF Workflow Service Application** template for a new project. For more information about this procedure, see [How to: Create a WCF Workflow Service Application](/visualstudio/workflow-designer/creating-a-workflow-project). |
+| WCF Workflow Service | A [!INCLUDE[indigo2](../workflow-designer/includes/indigo2_md.md)] service built using workflow activities. Selecting this item adds the same files to the project as you would obtain when selecting the **WCF Workflow Service Application** template for a new project. For more information about this procedure, see [How to: Create a WCF Workflow Service Application](creating-a-workflow-project.md). |
 
 ## To add a new item to a workflow project
 

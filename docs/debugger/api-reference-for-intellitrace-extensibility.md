@@ -1,5 +1,7 @@
 ---
 title: "API Reference for IntelliTrace Extensibility | Microsoft Docs"
+description: Learn about IntelliTrace extensibility APIs in Visual Studio, which you can use to read and decode .itrace files in your applications.
+ms.custom: SEO-VS-2020
 ms.date: "11/07/2018"
 ms.topic: "conceptual"
 helpviewer_keywords:
@@ -7,7 +9,8 @@ helpviewer_keywords:
 ms.assetid: 46e6c648-293b-45c2-a29e-cca9c36cd865
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---

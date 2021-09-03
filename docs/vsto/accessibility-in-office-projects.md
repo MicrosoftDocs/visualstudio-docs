@@ -1,5 +1,7 @@
 ---
 title: "Accessibility in Office projects"
+description: Learn how Microsoft Office projects include many accessibility features that enable you to build custom solutions that meet standard accessibility requirements.
+ms.custom: SEO-VS-2020
 ms.date: 02/02/2017
 ms.topic: conceptual
 dev_langs:
@@ -12,13 +14,14 @@ helpviewer_keywords:
   - "accessibility [Office development in Visual Studio]"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
+ms.technology: office-development
 ms.workload:
   - "office"
 ---
 # Accessibility in Office projects
 
-Microsoft Visual Studio and Microsoft Office include many accessibility features that enable you to build custom solutions that meet standard accessibility requirements. Microsoft publishes guidelines for accessibility on the Web. For details, see the [Accessibility website](http://go.microsoft.com/fwlink/?LinkID=37113).
+Microsoft Visual Studio and Microsoft Office include many accessibility features that enable you to build custom solutions that meet standard accessibility requirements. Microsoft publishes guidelines for accessibility on the Web. For details, see the [Accessibility website](https://www.microsoft.com/accessibility/).
 
 In most cases, Office projects in Visual Studio meet accessibility standards or exposes properties that you can set to make your solutions accessible. However, there are some features that have limited accessibility.
 
@@ -50,12 +53,12 @@ In most cases, Office projects in Visual Studio meet accessibility standards or 
 
 7. Press **F6** to display the shortcut keys for the Ribbon.
 
-## Accessibility at runtime
+## Accessibility at run time
 
 ### Windows Forms controls on Office documents
  Windows Forms controls expose accessibility properties to provide information about the control to accessibility aids, such as screen readers. You can take advantage of these accessibility properties when the controls are on an Office document in a document-level customization. For more information, see [Provide accessibility information for controls on a Windows Form](/dotnet/framework/winforms/controls/providing-accessibility-information-for-controls-on-a-windows-form).
 
- However, there are some accessibility limitations at runtime when Windows Forms controls are hosted on an Excel workbook or Word document:
+ However, there are some accessibility limitations at run time when Windows Forms controls are hosted on an Excel workbook or Word document:
 
 - You cannot tab from one control to another.
 
@@ -82,5 +85,5 @@ You can use Magnifier to overcome these limitations. Magnifier is a display util
 
 - [Develop Office solutions](../vsto/developing-office-solutions.md)
 - [Controls on Office documents](../vsto/controls-on-office-documents.md)
-- [Accessibility for people with disabilities](../ide/reference/accessibility-for-people-with-disabilities.md)
+- [Accessibility for people with disabilities](../ide/reference/accessibility-features-of-visual-studio.md)
 - [Accessibility features of Visual Studio](../ide/reference/accessibility-features-of-visual-studio.md)

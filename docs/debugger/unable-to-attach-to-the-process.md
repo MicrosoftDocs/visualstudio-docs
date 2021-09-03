@@ -1,5 +1,7 @@
 ---
 title: "Unable to Attach to the Process | Microsoft Docs"
+description: Learn the meaning of "Unable to Attach to the Process", the two scenarios that cause it, and the solutions. 
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 f1_keywords:
@@ -11,7 +13,8 @@ dev_langs:
   - "C++"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -53,5 +56,5 @@ Unable to attach to the process. Debugger component on server received access de
 
 7. Close all windows.
 
-## See Also
+## See also
 - [Debugger Settings and Preparation](../debugger/debugger-settings-and-preparation.md)

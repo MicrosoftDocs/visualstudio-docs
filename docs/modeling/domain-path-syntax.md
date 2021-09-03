@@ -1,14 +1,17 @@
 ---
 title: Domain Path Syntax
+description: Learn about Domain Path Syntax and how DSL Definitions use an XPath-like syntax to locate specific elements in a model.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "Domain-Specific Language, domain path"
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+- Domain-Specific Language, domain path
+author: mgoertz-msft
+ms.author: mgoertz
+manager: jmartens
+ms.technology: vs-ide-modeling
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Domain Path Syntax
 DSL Definitions use an XPath-like syntax to locate specific elements in a model.
@@ -29,6 +32,6 @@ DSL Definitions use an XPath-like syntax to locate specific elements in a model.
 
  The name that you use for the element-to-link hop is the value of the role's `Property Name`. The name that you use for the link-to-element hop is the target role name.
 
-## See Also
+## See also
 
 - [Understanding Models, Classes and Relationships](../modeling/understanding-models-classes-and-relationships.md)

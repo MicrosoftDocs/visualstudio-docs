@@ -1,18 +1,21 @@
 ---
 title: Log Command Window Output Command
+description: Learn about the Log Command Window Output command and how it copies all input and output from the Command window into a file.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "tools.logcommandwindowoutput"
+- tools.logcommandwindowoutput
 helpviewer_keywords:
-  - "log Command window output command"
-  - "View.LogCommandWindowOutput command"
+- log Command window output command
+- View.LogCommandWindowOutput command
 ms.assetid: d4ecec35-5af4-4954-8d60-2cd24583fbb4
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Log Command window output command
 

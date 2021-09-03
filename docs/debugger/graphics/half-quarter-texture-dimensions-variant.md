@@ -1,11 +1,14 @@
 ---
 title: "Half-Quarter Texture Dimensions Variant | Microsoft Docs"
+description: If smaller textures show large performance gains, it suggests memory bandwidth pressure or inefficient use of the GPU texture cache. Consider making texture sizes smaller.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 ms.assetid: 282e9bbb-51aa-4cd0-8e5c-0901268c29e5
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -35,8 +38,8 @@ Reduces the texture dimensions on textures that are not render targets.
   If mip-maps are enabled for the texture, the variant reduces the number of mip levels accordingly—one fewer when scaling to half-size or two fewer when scaling to quarter-size.
 
 ## Example
- This variant resizes textures at runtime before the call to `CreateTexture2D`. We recommend against this approach for production code because the full-size textures consume more disk space and because the additional step can increase loading times in your app—especially for compressed textures, which require significant computational resources to encode. Instead, we recommend that you resize your textures offline by using an image editor or image processor that's part of your build pipeline. These approaches reduce disk-space requirements and eliminate runtime overhead in your app, and afford more processing time so that you can retain the best image quality while shrinking or compressing your textures.
+ This variant resizes textures at run time before the call to `CreateTexture2D`. We recommend against this approach for production code because the full-size textures consume more disk space and because the additional step can increase loading times in your app—especially for compressed textures, which require significant computational resources to encode. Instead, we recommend that you resize your textures offline by using an image editor or image processor that's part of your build pipeline. These approaches reduce disk-space requirements and eliminate runtime overhead in your app, and afford more processing time so that you can retain the best image quality while shrinking or compressing your textures.
 
-## See Also
+## See also
 - [Mip-map Generation Variant](mip-map-generation-variant.md)
 - [BC Texture Compression Variant](bc-texture-compression-variant.md)

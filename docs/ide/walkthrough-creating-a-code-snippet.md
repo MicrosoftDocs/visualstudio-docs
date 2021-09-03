@@ -1,22 +1,25 @@
 ---
-title: "Walkthrough: Create a code snippet"
-ms.date: 06/10/2019
-ms.topic: conceptual
+title: 'Walkthrough: Create a code snippet'
+description: "Learn how to create a code snippet in three steps: create an XML file, fill in the appropriate elements, and add your code to it."
+ms.custom: SEO-VS-2020
+ms.date: 03/31/2020
+ms.topic: how-to
 helpviewer_keywords:
-  - "code snippets, creating"
-  - "code snippets, shortcut"
-  - "code snippets, template"
-  - "code snippets, replacements"
-  - "code snippets, references"
-  - "code snippets, imports"
+- code snippets, creating
+- code snippets, shortcut
+- code snippets, template
+- code snippets, replacements
+- code snippets, references
+- code snippets, imports
 ms.assetid: 0dcaae11-39cf-4463-9c90-2494321251c2
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
+ms.technology: vs-ide-general
 dev_langs:
-  - "VB"
+- VB
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Walkthrough: Create a code snippet
 
@@ -48,7 +51,7 @@ The following XML is the basic snippet template:
 
 2. Fill in the title of the snippet in the **Title** element. Use the title **Square Root**.
 
-3. Fill in the language of the snippet in the **Language** attribute of the **Code** element. For C#, use **CSharp**, and for Visual Basic, use **VB**.
+3. Fill in the language of the snippet in the **Language** attribute of the **Code** element. For C#, use **CSharp**, for Visual Basic, use **VB**, and for C++, use **CPP**.
 
    > [!TIP]
    > To see all the available language values, browse the [Code element attributes section](code-snippets-schema-reference.md#attributes) on the [Code snippets schema reference](code-snippets-schema-reference.md) page.
@@ -70,9 +73,9 @@ The following XML is the basic snippet template:
        <![CDATA[Dim root = Math.Sqrt(16)]]>
    </Code>
    ```
-   
+
    > [!NOTE]
-   > You can't specify how lines of code in the **CDATA** section of a code snippet should be indented or formatted. Upon insertion, the language service formats the inserted code automatically. 
+   > You can't specify how lines of code in the **CDATA** section of a code snippet should be indented or formatted. Upon insertion, the language service formats the inserted code automatically.
 
 5. Save the snippet as *SquareRoot.snippet* (you can save it anywhere).
 
@@ -90,14 +93,14 @@ The following XML is the basic snippet template:
 
    ::: moniker range="vs-2017"
 
-   *%USERPROFILE%\Documents\Visual Studio 2017\Code Snippets\Visual C#\My Code Snippets*
+   *%USERPROFILE%\Documents\Visual Studio 2017\Code Snippets\Visual C#\My Code Snippets*  
    *%USERPROFILE%\Documents\Visual Studio 2017\Code Snippets\Visual Basic\My Code Snippets*
 
    ::: moniker-end
 
    ::: moniker range=">=vs-2019"
 
-   *%USERPROFILE%\Documents\Visual Studio 2019\Code Snippets\Visual C#\My Code Snippets*
+   *%USERPROFILE%\Documents\Visual Studio 2019\Code Snippets\Visual C#\My Code Snippets*  
    *%USERPROFILE%\Documents\Visual Studio 2019\Code Snippets\Visual Basic\My Code Snippets*
 
    ::: moniker-end

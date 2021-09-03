@@ -1,20 +1,22 @@
 ---
-title: "IDebugCustomViewer::DisplayValue | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "This method is called to display the specified value."
+title: IDebugCustomViewer::DisplayValue | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugCustomViewer::DisplayValue"
+- IDebugCustomViewer::DisplayValue
 helpviewer_keywords:
-  - "IDebugCustomViewer::DisplayValue"
+- IDebugCustomViewer::DisplayValue
 ms.assetid: 7a538248-5ced-450e-97cd-13fabe35fb1c
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugCustomViewer::DisplayValue
 This method is called to display the specified value.

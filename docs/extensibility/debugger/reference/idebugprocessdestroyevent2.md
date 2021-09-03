@@ -1,17 +1,19 @@
 ---
-title: "IDebugProcessDestroyEvent2 | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "This interface is sent when a process is terminated, exits atypically, or is detached from."
+title: IDebugProcessDestroyEvent2 | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugProcessDestroyEvent2"
+- IDebugProcessDestroyEvent2
 helpviewer_keywords:
-  - "IDebugProcessDestroyEvent2"
+- IDebugProcessDestroyEvent2
 ms.assetid: 1b8e0528-95bc-48fa-9653-2cea66c8dc3a
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IDebugProcessDestroyEvent2
 This interface is sent when a process is terminated, exits atypically, or is detached from.

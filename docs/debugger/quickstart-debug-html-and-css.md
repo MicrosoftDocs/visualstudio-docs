@@ -1,22 +1,25 @@
 ---
-title: "Debug HTML and CSS in UWP apps | Microsoft Docs"
-ms.date: "07/17/2018"
-ms.topic: "conceptual"
+title: Debug HTML and CSS in UWP apps | Microsoft Docs
+description: Know how to debug HTML and CSS in Universal Windows Platform (UWP) apps in Visual Studio. JavaScript debugging features are supported for UWP apps.
+ms.custom: SEO-VS-2020
+ms.date: 07/17/2018
+ms.topic: how-to
 f1_keywords:
-  - "VS.WebClient.DomExplorer"
+  - VS.WebClient.DomExplorer
 dev_langs:
-  - "JavaScript"
+  - JavaScript
 helpviewer_keywords:
-  - "debugging, CSS"
-  - "debugging, HTML"
-  - "debugging, JavaScript [UWP apps]"
-  - "DOM Explorer [UWP apps]"
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
+  - debugging, CSS
+  - debugging, HTML
+  - debugging, JavaScript [UWP apps]
+  - DOM Explorer [UWP apps]
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.technology: vs-ide-debug
 monikerRange: vs-2017
 ms.workload:
-  - "uwp"
+  - uwp
 ---
 # Debug HTML and CSS in UWP apps in Visual Studio
 
@@ -24,7 +27,7 @@ For JavaScript apps, Visual Studio provides a comprehensive debugging experience
 
 Using the interactive debugging model provided by the DOM inspection tools, you can view and modify the rendered HTML and CSS code. You can do all this without stopping and restarting the debugger.
 
-For info on other JavaScript debugging features, such as using the JavaScript Console window and setting breakpoints, see [QuickStart: Debug JavaScript](../debugger/quickstart-debug-javascript-using-the-console.md) and [Debug apps in Visual Studio](/visualstudio/debugger/debugging-windows-store-and-windows-universal-apps).
+For info on other JavaScript debugging features, such as using the JavaScript Console window and setting breakpoints, see [QuickStart: Debug JavaScript](../debugger/quickstart-debug-javascript-using-the-console.md) and [Debug apps in Visual Studio](debugging-windows-store-and-windows-universal-apps.md).
 
 ## <a name="InspectingDOM"></a> Inspecting the live DOM
 DOM Explorer shows you a view of the rendered page, and you can use DOM Explorer to change values and immediately see the results. This enables you to test changes without stopping and restarting the debugger. The source code in your project doesn't change when you interact with the page by using this method, so when you find the desired code corrections, you make the changes to your source code.
@@ -176,7 +179,7 @@ In the procedure that follows, we'll go through the process of interactively deb
 14. In the main window, double-click `width: 100px;height: 100px;`, press the **Delete** key, and then press **Enter**. After you press Enter, the new values are immediately reflected in the app, although you haven't stopped your debugging session.
 
     > [!IMPORTANT]
-    > As you can update attributes in the DOM Explorer window, you can also update values that appear on the **Styles**, **Computed**, and **Layout** tabs. For more info, see [Debug CSS styles using DOM Explorer](../debugger/debug-css-styles-using-dom-explorer.md) and [Debug layout using DOM Explorer](../debugger/debug-layout-using-dom-explorer.md).
+    > As you can update attributes in the DOM Explorer window, you can also update values that appear on the **Styles**, **Computed**, and **Layout** tabs.
 
 15. Switch to the app by selecting it or by using Alt+Tab.
 
@@ -231,7 +234,7 @@ You can select DOM elements in three ways when debugging an app:
 
 - By using the **Select Element** button (Ctrl+B).
 
-- By using the `select` command, which is one of the [JavaScript Console commands](../debugger/javascript-console-commands.md).
+- By using the `select` command, which is one of the [JavaScript Console commands](../debugger/javascript-console-commands.md?view=vs-2017&preserve-view=true).
 
   When you use the DOM Explorer window to select elements, and rest the mouse pointer on an element, the corresponding element is highlighted in the running app. You must click on the element in DOM Explorer to select it, or you can use the arrow keys to highlight and select elements.You can also select elements in DOM Explorer by using the **Select element** button. The following illustration shows the **Select Element** button.
 
@@ -248,11 +251,12 @@ You can select DOM elements in three ways when debugging an app:
 > [!NOTE]
 > Highlighting elements by hovering over them is only partially supported in the Windows Phone Emulator.
 
-## See Also
-- [Debug apps in Visual Studio](/visualstudio/debugger/debugging-windows-store-and-windows-universal-apps)
+## See also
+
+- [Debug apps in Visual Studio](debugging-windows-store-and-windows-universal-apps.md)
 - [Refresh an app (JavaScript)](../debugger/refresh-an-app-javascript.md)
 - [Debug a WebView control](../debugger/debug-a-webview-control.md)
-- [Keyboard shortcuts](../debugger/keyboard-shortcuts-html-and-javascript.md)
-- [JavaScript Console commands](../debugger/javascript-console-commands.md)
+- [Keyboard shortcuts](../debugger/keyboard-shortcuts-html-and-javascript.md?view=vs-2017&preserve-view=true)
+- [JavaScript Console commands](../debugger/javascript-console-commands.md?view=vs-2017&preserve-view=true)
 - [Debug HTML, CSS, and JavaScript sample code](../debugger/debug-html-css-and-javascript-sample-code.md)
-- [Product Support and Accessibility](https://msdn.microsoft.com/library/tzbxw1af(VS.120).aspx)
+- [Product Support and Accessibility](/previous-versions/tzbxw1af(v=vs.120))

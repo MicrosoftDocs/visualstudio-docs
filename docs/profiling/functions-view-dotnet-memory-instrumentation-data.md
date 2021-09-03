@@ -1,5 +1,7 @@
 ---
 title: "Functions View - .NET Memory Instrumentation Data | Microsoft Docs"
+description: Get information about the Functions view of .NET memory allocation profiling data that was collected by using the instrumentation method.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:
@@ -7,7 +9,9 @@ helpviewer_keywords:
 ms.assetid: cd45b379-394b-4b71-828c-92cd89e46ae0
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
+monikerRange: 'vs-2017'
 ms.workload:
   - "dotnet"
 ---

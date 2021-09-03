@@ -1,17 +1,19 @@
 ---
-title: "IEnumDebugObjects | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "This interface represents a collection of objects implementing the IDebugObject interface."
+title: IEnumDebugObjects | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IEnumDebugObjects"
+- IEnumDebugObjects
 helpviewer_keywords:
-  - "IEnumDebugObjects interface"
+- IEnumDebugObjects interface
 ms.assetid: 0950364c-6c8a-4b6c-ba37-c6aa359fa72c
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IEnumDebugObjects
 > [!IMPORTANT]
@@ -52,6 +54,6 @@ IEnumDebugObjects : IUnknown
 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md)
 - [GetElements](../../../extensibility/debugger/reference/idebugarrayobject-getelements.md)

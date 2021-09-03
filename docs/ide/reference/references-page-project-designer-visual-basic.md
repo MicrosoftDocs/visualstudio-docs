@@ -1,20 +1,23 @@
 ---
 title: References Page, Project Designer (Visual Basic)
+description: Learn how to use the References page of the Project Designer to manage your project's references, web references, and imported namespaces.
+ms.custom: SEO-VS-2020
 ms.date: 06/21/2017
 ms.topic: reference
 f1_keywords:
-  - "vb.ProjectPropertiesReference"
-  - "vb.ProjectPropertiesUnusedReference"
-  - "vb.ProjectPropertiesReferencePaths"
+- vb.ProjectPropertiesReference
+- vb.ProjectPropertiesUnusedReference
+- vb.ProjectPropertiesReferencePaths
 helpviewer_keywords:
-  - "References page in Project Designer"
-  - "Project Designer, References page"
+- References page in Project Designer
+- Project Designer, References page
 ms.assetid: 5a47c595-e084-401c-86e1-74e0bf74fd86
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # References Page, Project Designer (Visual Basic)
 
@@ -82,7 +85,7 @@ Select a user-specified namespace in the namespaces list, type the name that you
 
 - XML namespaces, such as `<xmlns:xsl="http://www.w3.org/1999/XSL/Transform">`.
 
-## See Also
+## See also
 
 - [Managing references in a project](../../ide/managing-references-in-a-project.md)
 - [How to: Add or Remove Imported Namespaces (Visual Basic)](../../ide/how-to-add-or-remove-imported-namespaces-visual-basic.md)

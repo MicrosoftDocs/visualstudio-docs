@@ -1,5 +1,7 @@
 ---
 title: "COM Server and Container Debugging | Microsoft Docs"
+description: Learn about COM server and container debugging. Debug a COM server and container in the same solution, a server app without container information, or an SDI app.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:
@@ -18,7 +20,8 @@ helpviewer_keywords:
 ms.assetid: b7ce8696-ebb8-4354-a767-f76b8ada4ac1
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -48,6 +51,6 @@ COM applications perform a number of tasks outside of the programmer's direct co
 
  To access the *Project* Property Pages dialog box, right-click your project in Solution Explorer, and then choose Properties from the shortcut menu. To find the Command line arguments property, expand the Configuration Properties category and click the Debugging page.
 
-## See Also
+## See also
 
 - [COM and ActiveX Debugging](../debugger/com-and-activex-debugging.md)

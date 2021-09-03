@@ -1,19 +1,21 @@
 ---
-title: "IDebugSymbolProviderDirect::GetCurrentModulesState | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Retrieves information about the symbol group of which the symbol provider is a member."
+title: IDebugSymbolProviderDirect::GetCurrentModulesState | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "GetCurrentModulesState"
-  - "IDebugSymbolProviderDirect::GetCurrentModulesState"
+- GetCurrentModulesState
+- IDebugSymbolProviderDirect::GetCurrentModulesState
 ms.assetid: a0c85318-5686-4eed-b213-21f2b9e681e6
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugSymbolProviderDirect::GetCurrentModulesState
 Retrieves information about the symbol group of which the symbol provider is a member.

@@ -1,19 +1,21 @@
 ---
 title: Security Page, Project Designer
+description: The Security page of the Project Designer is used to configure code access security settings for applications that are deployed by using ClickOnce deployment.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.technology: vs-ide-deployment
 ms.topic: reference
 f1_keywords:
-  - "vb.ProjectPropertiesSecurity"
-  - "vb.XBAPProjectPropertiesSecurity"
+- vb.ProjectPropertiesSecurity
+- vb.XBAPProjectPropertiesSecurity
 helpviewer_keywords:
-  - "Project Designer, Security page"
-  - "Security page in Project Designer"
-author: mikejo5000
+- Project Designer, Security page
+- Security page in Project Designer
+author: Mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Security Page, Project Designer
 
@@ -66,7 +68,7 @@ Opens the application manifest template (app.manifest) to configure the permissi
 
 Opens the [Advanced Security Settings Dialog Box](../../ide/reference/advanced-security-settings-dialog-box.md), which is used to configure settings for debugging the application with restricted permissions. These settings are checked during debugging, and permission exceptions indicate that your application may need more permissions than defined in a zone.
 
-## See Also
+## See also
 
 - <xref:System.Security.Permissions.WebBrowserPermission>
 - <xref:System.Security.Permissions.MediaPermission>
@@ -74,7 +76,7 @@ Opens the [Advanced Security Settings Dialog Box](../../ide/reference/advanced-s
 - [How to: Enable ClickOnce Security Settings](../../deployment/how-to-enable-clickonce-security-settings.md)
 - [How to: Set a Security Zone for a ClickOnce Application](../../deployment/how-to-set-a-security-zone-for-a-clickonce-application.md)
 - [How to: Set Custom Permissions for a ClickOnce Application](../../deployment/how-to-set-custom-permissions-for-a-clickonce-application.md)
-- [How to: Debug a ClickOnce Application with Restricted Permissions](../../deployment/how-to-debug-a-clickonce-application-with-restricted-permissions.md)
+- [Secure ClickOnce apps](../../deployment/securing-clickonce-applications.md)
 - [ClickOnce Security and Deployment](../../deployment/clickonce-security-and-deployment.md)
 - [Project Properties Reference](../../ide/reference/project-properties-reference.md)
 - [Advanced Security Settings Dialog Box](../../ide/reference/advanced-security-settings-dialog-box.md)

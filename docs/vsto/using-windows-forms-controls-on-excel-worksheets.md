@@ -1,5 +1,7 @@
 ---
 title: "Use Windows Forms controls on Excel worksheets"
+description: Learn how you can add Windows Forms controls to your Microsoft Excel workbooks in the same manner that you add controls to Windows Forms.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -11,7 +13,8 @@ helpviewer_keywords:
   - "controls [Office development in Visual Studio], Window Forms controls"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
+ms.technology: office-development
 ms.workload:
   - "office"
 ---

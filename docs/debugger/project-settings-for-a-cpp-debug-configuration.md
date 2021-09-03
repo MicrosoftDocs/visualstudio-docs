@@ -1,6 +1,7 @@
 ---
 title: "Project settings for a C++ debug config"
-ms.custom: "seodec18"
+description: Configure C and C++ debugging in Property Pages. This article describes the settings and tells you their category.
+ms.custom: "SEO-VS-2020"
 ms.date: "11/26/2018"
 ms.topic: "reference"
 f1_keywords:
@@ -109,12 +110,13 @@ helpviewer_keywords:
 ms.assetid: 860c7f13-a108-4fe5-8fca-d235cd3ca1cb
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "cplusplus"
 ---
 # Project settings for a C++ debug configuration
-You can change the project settings for a C or Visual C++ debug configuration in the **Property Pages** dialog box, as discussed in [How to: Set debug and release configurations](../debugger/how-to-set-debug-and-release-configurations.md). The following tables show where to find debugger-related settings in the **Property Pages** dialog box.
+You can change the project settings for a C or C++ debug configuration in the **Property Pages** dialog box, as discussed in [How to: Set debug and release configurations](../debugger/how-to-set-debug-and-release-configurations.md). The following tables show where to find debugger-related settings in the **Property Pages** dialog box.
 
 > [!NOTE]
 > The debug project settings in the **Configuration Properties/Debugging** category are different for UWP apps and for components that are written in C++. See [Start a debug session (VB, C#, C++ and XAML)](../debugger/start-a-debugging-session-for-a-store-app-in-visual-studio-vb-csharp-cpp-and-xaml.md).
@@ -182,6 +184,6 @@ To debug DLLs that are external to your project, see [Debugging DLL projects](..
 ## See also
 - [Debugging native code](../debugger/debugging-native-code.md)
 - [Debugger settings and preparation](../debugger/debugger-settings-and-preparation.md)
-- [Create and manage Visual C++ projects](/cpp/ide/creating-and-managing-visual-cpp-projects)
+- [Create and manage C++ projects](/cpp/ide/creating-and-managing-visual-cpp-projects)
 - [/ASSEMBLYDEBUG (Add DebuggableAttribute)](/cpp/build/reference/assemblydebug-add-debuggableattribute)
 - [Common macros for build commands and properties](/cpp/ide/common-macros-for-build-commands-and-properties)

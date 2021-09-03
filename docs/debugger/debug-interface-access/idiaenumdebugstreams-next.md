@@ -1,7 +1,8 @@
 ---
+description: "Retrieves a specified number of debug streams in the enumeration sequence."
 title: "IDiaEnumDebugStreams::Next | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,8 @@ helpviewer_keywords:
 ms.assetid: eb8eae5a-be27-45f4-a7bd-6e4ef0652385
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -42,5 +44,5 @@ HRESULT Next ( 
 ## Return Value
  If successful, returns `S_OK`. Returns `S_FALSE` if there are no more streams. Otherwise, returns an error code.
 
-## See Also
+## See also
 - [IDiaEnumDebugStreams](../../debugger/debug-interface-access/idiaenumdebugstreams.md)

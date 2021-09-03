@@ -1,7 +1,8 @@
 ---
-title: "Error: ASP.NET Not Installed | Microsoft Docs"
+description: "This error occurs when ASP.NET is not installed correctly on the computer that you are trying to debug."
+title: "ASP.NET not installed"
 ms.date: "11/04/2016"
-ms.topic: "troubleshooting"
+ms.topic: "error-reference"
 f1_keywords:
   - "vs.debug.error.http_not_supported"
 dev_langs:
@@ -16,7 +17,8 @@ helpviewer_keywords:
   - "ASP.NET, installation error messages"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "aspnet"
 ---
@@ -36,5 +38,5 @@ This error occurs when [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.
    > [!NOTE]
    > With Windows Server 2003, you can install [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] by using **Add or Remove Programs** in Control Panel.
 
-## See Also
+## See also
 - [Debugging Web Applications: Errors and Troubleshooting](../debugger/debugging-web-applications-errors-and-troubleshooting.md)

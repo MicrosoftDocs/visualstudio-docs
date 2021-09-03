@@ -1,17 +1,19 @@
 ---
-title: "IDebugSymbolSearchEvent2 | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "This interface is sent by the debug engine (DE) to indicate that the debugging symbols for a module being debugged have been loaded."
+title: IDebugSymbolSearchEvent2 | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugSymbolSearchEvent2"
+- IDebugSymbolSearchEvent2
 helpviewer_keywords:
-  - "IDebugSymbolSearchEvent2"
+- IDebugSymbolSearchEvent2
 ms.assetid: 9b946d55-ff85-44eb-b40a-efbf8282eafd
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IDebugSymbolSearchEvent2
 This interface is sent by the debug engine (DE) to indicate that the debugging symbols for a module being debugged have been loaded.

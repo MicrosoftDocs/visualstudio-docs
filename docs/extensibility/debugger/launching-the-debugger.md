@@ -1,16 +1,19 @@
 ---
-title: "Launching the Debugger | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Launching the Debugger | Microsoft Docs
+description: Learn about the sequence of methods and events with their proper attributes required for launching the debugger.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "debugging [Debugging SDK], launching the debugger"
-  - "debugger [Debugging SDK], launching"
+- debugging [Debugging SDK], launching the debugger
+- debugger [Debugging SDK], launching
 ms.assetid: f24da1a1-f923-48b4-989f-18a22b581d1b
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Launch the debugger
 Launching the debugger requires sending the correct sequence of methods and events with their proper attributes.

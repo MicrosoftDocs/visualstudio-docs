@@ -1,23 +1,28 @@
 ---
-title: "Property Functions | Microsoft Docs"
-ms.date: "02/21/2017"
-ms.topic: "conceptual"
+title: Property Functions | Microsoft Docs
+description: Learn how to use property functions, which are calls to .NET Framework methods that appear in MSBuild property definitions.
+ms.custom: SEO-VS-2020
+ms.date: 02/21/2017
+ms.topic: conceptual
 helpviewer_keywords:
-  - "MSBuild, property functions"
+- MSBuild, property functions
 ms.assetid: 2253956e-3ae0-4bdc-9d3a-4881dfae4ddb
-author: mikejo5000
-ms.author: mikejo
-manager: jillfra
+author: ghogen
+ms.author: ghogen
+manager: jmartens
+ms.technology: msbuild
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Property functions
 
-In the .NET Framework versions 4 and 4.5, property functions can be used to evaluate MSBuild scripts. Property functions can be used wherever properties appear. Unlike tasks, property functions can be used outside of targets, and are evaluated before any target runs.
+Property functions are calls to .NET Framework methods that appear in MSBuild property definitions. Unlike tasks, property functions can be used outside of targets, and are evaluated before any target runs.
 
- Without using MSBuild tasks, you can read the system time, compare strings, match regular expressions, and perform other actions in your build script. MSBuild will try to convert string to number and number to string, and make other conversions as required.
- 
+Without using MSBuild tasks, you can read the system time, compare strings, match regular expressions, and perform other actions in your build script. MSBuild will try to convert string to number and number to string, and make other conversions as required.
+
 String values returned from property functions have [special characters](msbuild-special-characters.md) escaped. If you want the value to be treated as though it was put directly in the project file, use `$([MSBuild]::Unescape())` to unescape the special characters.
+
+Property functions are available with .NET Framework 4 and later.
 
 ## Property function syntax
 
@@ -31,7 +36,7 @@ These are three kinds of property functions; each function has a different synta
 
 All build property values are just string values. You can use string (instance) methods to operate on any property value. For example, you can extract the drive name (the first three characters) from a build property that represents a full path by using this code:
 
-```fundamental
+```
 $(ProjectOutputFolder.Substring(0,3))
 ```
 
@@ -39,7 +44,7 @@ $(ProjectOutputFolder.Substring(0,3))
 
 In your build script, you can access the static properties and methods of many system classes. To get the value of a static property, use the following syntax, where \<Class> is the name of the system class and \<Property> is the name of the property.
 
-```fundamental
+```
 $([Class]::Property)
 ```
 
@@ -51,7 +56,7 @@ For example, you can use the following code to set a build property to the curre
 
 To call a static method, use the following syntax, where \<Class> is the name of the system class, \<Method> is the name of the method, and (\<Parameters>) is the parameter list for the method:
 
-```fundamental
+```
 $([Class]::Method(Parameters))
 ```
 
@@ -63,59 +68,59 @@ For example, to set a build property to a new GUID, you can use this script:
 
 In static property functions, you can use any static method or property of these system classes:
 
-- System.Byte
-- System.Char
-- System.Convert
-- System.DateTime
-- System.Decimal
-- System.Double
-- System.Enum
-- System.Guid
-- System.Int16
-- System.Int32
-- System.Int64
-- System.IO.Path
-- System.Math
-- System.Runtime.InteropServices.OSPlatform
-- System.Runtime.InteropServices.RuntimeInformation
-- System.UInt16
-- System.UInt32
-- System.UInt64
-- System.SByte
-- System.Single
-- System.String
-- System.StringComparer
-- System.TimeSpan
-- System.Text.RegularExpressions.Regex
-- System.UriBuilder
-- System.Version
-- Microsoft.Build.Utilities.ToolLocationHelper
+- <xref:System.Byte?displayProperty=nameWithType>
+- <xref:System.Char?displayProperty=nameWithType>
+- <xref:System.Convert?displayProperty=nameWithType>
+- <xref:System.DateTime?displayProperty=nameWithType>
+- <xref:System.Decimal?displayProperty=nameWithType>
+- <xref:System.Double?displayProperty=nameWithType>
+- <xref:System.Enum?displayProperty=nameWithType>
+- <xref:System.Guid?displayProperty=nameWithType>
+- <xref:System.Int16?displayProperty=nameWithType>
+- <xref:System.Int32?displayProperty=nameWithType>
+- <xref:System.Int64?displayProperty=nameWithType>
+- <xref:System.IO.Path?displayProperty=nameWithType>
+- <xref:System.Math?displayProperty=nameWithType>
+- <xref:System.Runtime.InteropServices.OSPlatform?displayProperty=nameWithType>
+- <xref:System.Runtime.InteropServices.RuntimeInformation?displayProperty=nameWithType>
+- <xref:System.UInt16?displayProperty=nameWithType>
+- <xref:System.UInt32?displayProperty=nameWithType>
+- <xref:System.UInt64?displayProperty=nameWithType>
+- <xref:System.SByte?displayProperty=nameWithType>
+- <xref:System.Single?displayProperty=nameWithType>
+- <xref:System.String?displayProperty=nameWithType>
+- <xref:System.StringComparer?displayProperty=nameWithType>
+- <xref:System.TimeSpan?displayProperty=nameWithType>
+- <xref:System.Text.RegularExpressions.Regex?displayProperty=nameWithType>
+- <xref:System.UriBuilder?displayProperty=nameWithType>
+- <xref:System.Version?displayProperty=nameWithType>
+- <xref:Microsoft.Build.Utilities.ToolLocationHelper?displayProperty=nameWithType>
 
 In addition, you can use the following static methods and properties:
 
-- System.Environment::CommandLine
-- System.Environment::ExpandEnvironmentVariables
-- System.Environment::GetEnvironmentVariable
-- System.Environment::GetEnvironmentVariables
-- System.Environment::GetFolderPath
-- System.Environment::GetLogicalDrives
-- System.IO.Directory::GetDirectories
-- System.IO.Directory::GetFiles
-- System.IO.Directory::GetLastAccessTime
-- System.IO.Directory::GetLastWriteTime
-- System.IO.Directory::GetParent
-- System.IO.File::Exists
-- System.IO.File::GetCreationTime
-- System.IO.File::GetAttributes
-- System.IO.File::GetLastAccessTime
-- System.IO.File::GetLastWriteTime
-- System.IO.File::ReadAllText
+- [System.Environment::CommandLine](xref:System.Environment.CommandLine*)
+- [System.Environment::ExpandEnvironmentVariables](xref:System.Environment.ExpandEnvironmentVariables*)
+- [System.Environment::GetEnvironmentVariable](xref:System.Environment.GetEnvironmentVariable*)
+- [System.Environment::GetEnvironmentVariables](xref:System.Environment.GetEnvironmentVariables*)
+- [System.Environment::GetFolderPath](xref:System.Environment.GetFolderPath*)
+- [System.Environment::GetLogicalDrives](xref:System.Environment.GetLogicalDrives*)
+- [System.IO.Directory::GetDirectories](xref:System.IO.Directory.GetDirectories*)
+- [System.IO.Directory::GetFiles](xref:System.IO.Directory.GetFiles*)
+- [System.IO.Directory::GetLastAccessTime](xref:System.IO.Directory.GetLastAccessTime*)
+- [System.IO.Directory::GetLastWriteTime](xref:System.IO.Directory.GetLastWriteTime*)
+- [System.IO.Directory::GetParent](xref:System.IO.Directory.GetParent*)
+- [System.IO.File::Exists](xref:System.IO.File.Exists*)
+- [System.IO.File::GetCreationTime](xref:System.IO.File.GetCreationTime*)
+- [System.IO.File::GetAttributes](xref:System.IO.File.GetAttributes*)
+- [System.IO.File::GetLastAccessTime](xref:System.IO.File.GetLastAccessTime*)
+- [System.IO.File::GetLastWriteTime](xref:System.IO.File.GetLastWriteTime*)
+- [System.IO.File::ReadAllText](xref:System.IO.File.ReadAllText*)
 
 ### Calling instance methods on static properties
 
 If you access a static property that returns an object instance, you can invoke the instance methods of that object. To invoke an instance method, use the following syntax, where \<Class> is the name of the system class, \<Property> is the name of the property, \<Method> is the name of the method, and (\<Parameters>) is the parameter list for the method:
 
-```fundamental
+```
 $([Class]::Property.Method(Parameters))
 ```
 
@@ -131,13 +136,13 @@ For example, you can use the following code to set a build property to the curre
 
 Several static methods in your build can be accessed to provide arithmetic, bitwise logical, and escape character support. You access these methods by using the following syntax, where \<Method> is the name of the method and (\<Parameters>) is the parameter list for the method.
 
-```fundamental
+```
 $([MSBuild]::Method(Parameters))
 ```
 
 For example, to add together two properties that have numeric values, use the following code.
 
-```fundamental
+```
 $([MSBuild]::Add($(NumberOne), $(NumberTwo)))
 ```
 
@@ -166,8 +171,8 @@ Here is a list of MSBuild property functions:
 |string NormalizePath(params string[] path)|Gets the canonicalized full path of the provided path and ensures it contains the correct directory separator characters for the current operating system.|
 |string NormalizeDirectory(params string[] path)|Gets the canonicalized full path of the provided directory and ensures it contains the correct directory separator characters for the current operating system while ensuring it has a trailing slash.|
 |string EnsureTrailingSlash(string path)|If the given path doesn't have a trailing slash then add one. If the path is an empty string, does not modify it.|
-|string GetPathOfFileAbove(string file, string startingDirectory)|Searches for a file based on the current build file's location, or based on `startingDirectory`, if specified.|
-|GetDirectoryNameOfFileAbove(string startingDirectory, string fileName)|Locate a file in either the directory specified or a location in the directory structure above that directory.|
+|string GetPathOfFileAbove(string file, string startingDirectory)|Searches for and returns the full path to a file in the directory structure above the current build file's location, or based on `startingDirectory`, if specified.|
+|GetDirectoryNameOfFileAbove(string startingDirectory, string fileName)|Locate and return the directory of a file in either the directory specified or a location in the directory structure above that directory.|
 |string MakeRelative(string basePath, string path)|Makes `path` relative to `basePath`. `basePath` must be an absolute directory. If `path` cannot be made relative, it is returned verbatim. Similar to `Uri.MakeRelativeUri`.|
 |string ValueOrDefault(string conditionValue, string defaultValue)|Return the string in parameter 'defaultValue' only if parameter 'conditionValue' is empty, else, return the value conditionValue.|
 
@@ -175,7 +180,7 @@ Here is a list of MSBuild property functions:
 
 You can combine property functions to form more complex functions, as the following example shows.
 
-```fundamental
+```
 $([MSBuild]::BitwiseAnd(32, $([System.IO.File]::GetAttributes(tempFile))))
 ```
 
@@ -189,7 +194,7 @@ The `DoesTaskHostExist` property function in MSBuild returns whether a task host
 
 This property function has the following syntax:
 
-```fundamental
+```
 $([MSBuild]::DoesTaskHostExist(string theRuntime, string theArchitecture))
 ```
 
@@ -199,7 +204,7 @@ The `EnsureTrailingSlash` property function in MSBuild adds a trailing slash if 
 
 This property function has the following syntax:
 
-```fundamental
+```
 $([MSBuild]::EnsureTrailingSlash('$(PathProperty)'))
 ```
 
@@ -209,7 +214,7 @@ The MSBuild `GetDirectoryNameOfFileAbove` property function looks for a file in 
 
  This property function has the following syntax:
 
-```fundamental
+```
 $([MSBuild]::GetDirectoryNameOfFileAbove(string ThePath, string TheFile))
 ```
 
@@ -221,7 +226,7 @@ $([MSBuild]::GetDirectoryNameOfFileAbove(string ThePath, string TheFile))
 
 ## MSBuild GetPathOfFileAbove
 
-The `GetPathOfFileAbove` property function in MSBuild returns the path of the file immediately preceding this one. It is functionally equivalent to calling
+The `GetPathOfFileAbove` property function in MSBuild returns the path of the specified file, if located in the directory structure above the current directory. It is functionally equivalent to calling
 
 ```xml
 <Import Project="$([MSBuild]::GetDirectoryNameOfFileAbove($(MSBuildThisFileDirectory), dir.props))\dir.props" />
@@ -229,7 +234,7 @@ The `GetPathOfFileAbove` property function in MSBuild returns the path of the fi
 
 This property function has the following syntax:
 
-```fundamental
+```
 $([MSBuild]::GetPathOfFileAbove(dir.props))
 ```
 
@@ -239,7 +244,7 @@ The MSBuild `GetRegistryValue` property function returns the value of a registry
 
 The following examples show how this function is used:
 
-```fundamental
+```
 $([MSBuild]::GetRegistryValue(`HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\10.0\Debugger`, ``))                                  // default value
 $([MSBuild]::GetRegistryValue(`HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\10.0\Debugger`, `SymbolCacheDir`))
 $([MSBuild]::GetRegistryValue(`HKEY_LOCAL_MACHINE\SOFTWARE\(SampleName)`, `(SampleValue)`))             // parens in name and value
@@ -251,7 +256,7 @@ The MSBuild `GetRegistryValueFromView` property function gets system registry da
 
 The syntax for this property function is:
 
-```fundamental
+```
 [MSBuild]::GetRegistryValueFromView(string keyName, string valueName, object defaultValue, params object[] views)
 ```
 
@@ -269,7 +274,7 @@ The following registry views are available:
 
 The following is an example.
 
- ```fundamental
+ ```
 $([MSBuild]::GetRegistryValueFromView('HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Microsoft SDKs\Silverlight\v3.0\ReferenceAssemblies', 'SLRuntimeInstallPath', null, RegistryView.Registry64, RegistryView.Registry32))
 ```
 
@@ -281,7 +286,7 @@ The MSBuild `MakeRelative` property function returns the relative path of the se
 
 This property function has the following syntax:
 
-```fundamental
+```
 $([MSBuild]::MakeRelative($(FileOrFolderPath1), $(FileOrFolderPath2)))
 ```
 
@@ -331,6 +336,88 @@ Output:
   Value2 = b
 -->
 ```
+
+<a name="TargetFramework"></a>
+
+## MSBuild TargetFramework and TargetPlatform functions
+
+MSBuild 16.7 and higher define several functions for handling [TargetFramework and TargetPlatform properties](msbuild-target-framework-and-target-platform.md).
+
+|Function signature|Description|
+|------------------------|-----------------|
+|GetTargetFrameworkIdentifier(string targetFramework)|Parse the TargetFrameworkIdentifier from the TargetFramework.|
+|GetTargetFrameworkVersion(string targetFramework)|Parse the TargetFrameworkVersion from the TargetFramework.|
+|GetTargetPlatformIdentifier(string targetFramework)|Parse the TargetPlatformIdentifier from the TargetFramework.|
+|GetTargetPlatformVersion(string targetFramework)|Parse the TargetPlatformVersion from the TargetFramework.|
+|IsTargetFrameworkCompatible(string targetFrameworkTarget, string targetFrameworkCandidate)|Return 'True' if the candidate target framework is compatible with this target framework and false otherwise.|
+
+The following example shows how these functions are used. 
+
+```xml
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+
+    <PropertyGroup>
+        <Value1>$([MSBuild]::GetTargetFrameworkIdentifier('net5.0-windows7.0'))</Value1>
+        <Value2>$([MSBuild]::GetTargetFrameworkVersion('net5.0-windows7.0'))</Value2>
+        <Value3>$([MSBuild]::GetTargetPlatformIdentifier('net5.0-windows7.0'))</Value3>
+        <Value4>$([MSBuild]::GetTargetPlatformVersion('net5.0-windows7.0'))</Value4>
+        <Value5>$([MSBuild]::IsTargetFrameworkCompatible('net5.0-windows', 'net5.0'))</Value5>
+    </PropertyGroup>
+
+    <Target Name="MyTarget">
+        <Message Text="Value1 = $(Value1)" />
+        <Message Text="Value2 = $(Value2)" />
+        <Message Text="Value3 = $(Value3)" />
+        <Message Text="Value4 = $(Value4)" />
+        <Message Text="Value5 = $(Value5)" />
+    </Target>
+</Project>
+```
+
+```output
+Value1 = .NETCoreApp
+Value2 = 5.0
+Value3 = windows
+Value4 = 7.0
+Value5 = True
+```
+
+## MSBuild version-comparison functions
+
+MSBuild 16.5 and higher define several functions for comparing strings that represent versions.
+
+> [!Note]
+> Comparison operators in conditions [can compare strings that can be parsed as `System.Version` objects](msbuild-conditions.md#comparing-versions), but the comparison can produce unexpected results. Prefer the property functions.
+
+|Function signature|Description|
+|------------------------|-----------------|
+|VersionEquals(string a, string b)|Return `true` if versions `a` and `b` are equivalent according to the below rules.|
+|VersionGreaterThan(string a, string b)|Return `true` if version `a` is greater than `b` according to the below rules.|
+|VersionGreaterThanOrEquals(string a, string b)|Return `true` if version `a` is greater than or equal to `b` according to the below rules.|
+|VersionLessThan(string a, string b)|Return `true` if version `a` is less than `b` according to the below rules.|
+|VersionLessThanOrEquals(string a, string b)|Return `true` if version `a` is less than or equal to `b` according to the below rules.|
+|VersionNotEquals(string a, string b)|Return `false` if versions `a` and `b` are equivalent according to the below rules.|
+
+In these methods, versions are parsed like <xref:System.Version?displayProperty=fullName>, with the following exceptions:
+
+* Leading `v` or `V` is ignored, which allows comparison to `$(TargetFrameworkVersion)`.
+
+* Everything from the first '-' or '+' to the end of the version string is ignored. This allows passing in semantic versions (semver), though the order is not the same as semver. Instead, prerelease specifiers and build metadata do not have any sorting weight. This can be useful, for example, to turn on a feature for `>= x.y` and have it kick in on `x.y.z-pre`.
+
+* Unspecified parts are same as zero value parts. (`x == x.0 == x.0.0 == x.0.0.0`).
+
+* Whitespace is not allowed in integer components.
+
+* Major version only is valid (`3` is equal to `3.0.0.0`)
+
+* `+` is not allowed as positive sign in integer components (it is treated as semver metadata and ignored)
+
+> [!TIP]
+> Comparisons of [TargetFramework properties](msbuild-target-framework-and-target-platform.md) should generally use [IsTargetFrameworkCompatible](#TargetFramework) instead of extracting and comparing versions. This allows comparing `TargetFramework`s that vary in `TargetFrameworkIdentifier` as well as version.
+
+## MSBuild condition functions
+
+The functions `Exists` and `HasTrailingSlash` are not property functions. They are available for use with the `Condition` attribute. See [MSBuild conditions](msbuild-conditions.md).
 
 ## See also
 

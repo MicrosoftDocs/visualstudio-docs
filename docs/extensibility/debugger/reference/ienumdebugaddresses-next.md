@@ -1,20 +1,22 @@
 ---
-title: "IEnumDebugAddresses::Next | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "This method returns the next set of elements from the addresses enumeration."
+title: IEnumDebugAddresses::Next | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IEnumDebugAddresses::Next"
+- IEnumDebugAddresses::Next
 helpviewer_keywords:
-  - "IEnumDebugAddresses::Next method"
+- IEnumDebugAddresses::Next method
 ms.assetid: 941e4be7-858d-433a-9259-18d0d017be9e
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IEnumDebugAddresses::Next
 This method returns the next set of elements from the enumeration.

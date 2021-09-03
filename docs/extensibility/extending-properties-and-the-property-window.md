@@ -1,19 +1,22 @@
 ---
-title: "Extending Properties and the Property Window | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Extending Properties and the Property Window | Microsoft Docs
+description: Learn about extending properties in the Properties window, which is used to view and edit the design-time properties and events of selected objects.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "STrackSelection interface, supporting Property Browser"
-  - "SelectedObjects property"
-  - "Property Browser, supporting with Visual Studio SDK"
-  - "SelectionContainer class"
-  - "SelectableObjects property"
+- STrackSelection interface, supporting Property Browser
+- SelectedObjects property
+- Property Browser, supporting with Visual Studio SDK
+- SelectionContainer class
+- SelectableObjects property
 ms.assetid: 1e925025-3d21-4cdb-a917-78db7bb78fe9
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Extend properties and the Property window
 The **Properties** window is used to view and edit the design-time properties and events of selected objects.

@@ -1,12 +1,14 @@
 ---
 title: "Inspect data using debugger windows | Microsoft Docs"
-ms.custom: "seodec18"
+description: There are many types of debugger windows that provide you information. This article provides a list of the types. For each there is a link to more information. 
+ms.custom: "SEO-VS-2020"
 ms.date: "04/25/2018"
 ms.topic: "conceptual"
 ms.assetid: 4c6fe8f1-b015-4989-bb31-72ebac390026
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -14,9 +16,8 @@ ms.workload:
 
 You can open most debugger windows while you are debugging your program. To see a list of debugger windows, set a breakpoint and start debugging. When you hit the breakpoint and execution stops, click **Debug > Windows**.
 
-||||
+|Window|Hotkey|See topic|
 |-|-|-|
-|**Window**|**Hotkey**|**See Topic**|
 |Breakpoints|CTRL+ALT+B|[Use Breakpoints](../debugger/using-breakpoints.md)|
 |Exception Settings|CTRL+ALT+E|[Manage Exceptions with the Debugger](../debugger/managing-exceptions-with-the-debugger.md)|
 |Output|CTRL+ALT+O|[Output Window](../ide/reference/output-window.md)|
@@ -34,14 +35,14 @@ You can open most debugger windows while you are debugging your program. To see 
 |Tasks|CTR:+SHIFT+D, K|[Using the Tasks Window](../debugger/using-the-tasks-window.md)|
 |Python Debug Interactive|SHIFT+ALT+I|[Python Interactive REPL](../python/python-interactive-repl-in-visual-studio.md)|
 |JavaScript Console|CTRL+ALT+V, C|[QuickStart: Debug JavaScript](../debugger/quickstart-debug-javascript-using-the-console.md)|
-|DOM Explorer|CTRL+ALT+V, D|[Debug layout using DOM Explorer](/visualstudio/debugger/quickstart-debug-html-and-css)|
-|Live Visual Tree|-|[Inspect XAML properties while debugging](../debugger/inspect-xaml-properties-while-debugging.md)|
-|Live Property Explorer|-|[Inspect XAML properties while debugging](../debugger/inspect-xaml-properties-while-debugging.md)|
+|DOM Explorer|CTRL+ALT+V, D|[Debug layout using DOM Explorer](quickstart-debug-html-and-css.md)|
+|Live Visual Tree|-|[Inspect XAML properties while debugging](../xaml-tools/inspect-xaml-properties-while-debugging.md)|
+|Live Property Explorer|-|[Inspect XAML properties while debugging](../xaml-tools/inspect-xaml-properties-while-debugging.md)|
 |Processes|CTRL+ALT+Z|[Debug Threads and Processes](../debugger/debug-threads-and-processes.md)|
 |Memory|CTRL+ALT+M, (1, 2, 3, 4)|[Memory Windows](../debugger/memory-windows.md)|
 |Disassembly|CTRL+ALT+D|[How to: Use the Disassembly Window](../debugger/how-to-use-the-disassembly-window.md)|
 |Registers|CTRL+ALT+G|[How to: Use the Registers Window](../debugger/how-to-use-the-registers-window.md)|
 
-## See Also
+## See also
 
 [First look at the debugger](../debugger/debugger-feature-tour.md)

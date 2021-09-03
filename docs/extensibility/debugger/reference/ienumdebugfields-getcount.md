@@ -1,20 +1,22 @@
 ---
-title: "IEnumDebugFields::GetCount | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "This method returns the number of elements in the fields enumeration."
+title: IEnumDebugFields::GetCount | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IEnumDebugFields::GetCount"
+- IEnumDebugFields::GetCount
 helpviewer_keywords:
-  - "IEnumDebugFields::GetCount method"
+- IEnumDebugFields::GetCount method
 ms.assetid: 3f471b40-4db3-49f7-b504-58b2476eef74
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IEnumDebugFields::GetCount
 This method returns the number of elements in the enumeration.

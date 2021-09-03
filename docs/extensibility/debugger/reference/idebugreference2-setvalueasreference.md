@@ -1,20 +1,22 @@
 ---
-title: "IDebugReference2::SetValueAsReference | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Sets the value of a reference from another reference."
+title: IDebugReference2::SetValueAsReference | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugReference2::SetValueAsReference"
+- IDebugReference2::SetValueAsReference
 helpviewer_keywords:
-  - "IDebugReference2::SetValueAsReference"
+- IDebugReference2::SetValueAsReference
 ms.assetid: 94a545d2-16b9-45e9-b2e7-4e49ff90aad0
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugReference2::SetValueAsReference
 Sets the value of a reference from another reference. Reserved for future use.

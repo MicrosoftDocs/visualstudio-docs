@@ -1,13 +1,15 @@
 ---
+description: "Returns all accelerator pointer tag values that correspond to a C++ AMP accelerator stub function."
 title: "IDiaSymbol::get_acceleratorPointerTags | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 ms.assetid: 30e13cee-e511-49ec-affd-99b0097071b2
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -42,5 +44,5 @@ HRESULT get_acceleratorPointerTags(
 ## Remarks
  This method is called on an `IDiaSymbol` interface that corresponds to a C++ AMP accelerator stub function.
 
-## See Also
+## See also
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

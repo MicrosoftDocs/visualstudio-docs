@@ -1,17 +1,20 @@
 ---
-title: "Provide hidden text support in legacy language service"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Provide hidden text support in legacy language service
+description: Learn how to provide hidden text support in a legacy language service by adding editor-controlled or client-controlled hidden text regions.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
 helpviewer_keywords:
-  - "hidden text, supporting"
-  - "editors [Visual Studio SDK], hidden text"
-  - "language services, implementing hidden text regions"
+- hidden text, supporting
+- editors [Visual Studio SDK], hidden text
+- language services, implementing hidden text regions
 ms.assetid: 1c1dce9f-bbe2-4fc3-a736-5f78a237f4cc
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # How to: Provide hidden text support in a legacy language service
 You can create hidden text regions in addition to outline regions. Hidden text regions can be client-controlled or editor-controlled and are used to hide a region of text completely. The editor displays a hidden region as horizontal lines. An example of this is the **Script Only** view in the HTML editor.

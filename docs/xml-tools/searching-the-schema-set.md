@@ -1,13 +1,16 @@
 ---
-title: "XML Schema Explorer - search the schema set"
+title: XML Schema Explorer - search the schema set
+description: Learn how to do a keyword search and schema-specific search of the schema set in the XML Schema Explorer.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: ec1395e0-d03c-4130-810d-f2db656937bd
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
+ms.technology: vs-xml-tools
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Search the schema set
 

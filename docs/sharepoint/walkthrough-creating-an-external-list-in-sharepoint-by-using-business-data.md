@@ -1,7 +1,9 @@
 ---
 title: "Create external list in SharePoint using business data"
+description: Create a model for the BDC service that returns information about contacts in a business database, then make an external list in SharePoint using this model.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: how-to
 dev_langs:
   - "VB"
   - "CSharp"
@@ -16,7 +18,8 @@ helpviewer_keywords:
   - "Business Data Connectivity service [SharePoint development in Visual Studio], external list"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
+ms.technology: sharepoint-development
 ms.workload:
   - "office"
 ---
@@ -40,7 +43,7 @@ You need the following components to complete this walkthrough:
 
 - Supported editions of Windows and SharePoint.
 
-- Access to the AdventureWorks sample database. For more information about how to install the AdventureWorks database, see [SQL Server Sample Databases](http://go.microsoft.com/fwlink/?LinkID=117483).
+- Access to the AdventureWorks sample database. For more information about how to install the AdventureWorks database, see [SQL Server Sample Databases](https://github.com/Microsoft/sql-server-samples/releases/tag/adventureworks).
 
 ## Create a project that contains a BDC model
 
@@ -74,7 +77,7 @@ You need the following components to complete this walkthrough:
 
 2. Add a connection to the SQL Server AdventureWorks sample database.
 
-     For more information, see [Add/Modify Connection (Microsoft SQL Server)](https://msdn.microsoft.com/fa400910-26c3-4df7-b9d1-115e688b4ea3).
+     For more information, see [Add/Modify Connection (Microsoft SQL Server)](/previous-versions/dxb6fxah(v=vs.140)).
 
 3. In **Solution Explorer**, choose the project node.
 
@@ -200,8 +203,8 @@ Add a Specific Finder method to the Contact entity by using the **BDC Method Det
     > [!NOTE]
     > Replace the value of the `ServerName` field with the name of your server.
 
-     [!code-csharp[SP_BDC#3](../sharepoint/codesnippet/CSharp/SP_BDC/bdcmodel1/contactservice.cs#3)]
-     [!code-vb[SP_BDC#3](../sharepoint/codesnippet/VisualBasic/sp_bdc/bdcmodel1/contactservice.vb#3)]
+     :::code language="csharp" source="../sharepoint/codesnippet/CSharp/SP_BDC/bdcmodel1/contactservice.cs" id="Snippet3":::
+     :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/sp_bdc/bdcmodel1/contactservice.vb" id="Snippet3":::
 
 ## Add a finder method
 
@@ -228,8 +231,8 @@ To enable the BDC service to display the contacts in a list, you must add a Find
      > [!NOTE]
      > Replace the value of the `ServerName` field with the name of your server.
 
-     [!code-csharp[SP_BDC#2](../sharepoint/codesnippet/CSharp/SP_BDC/bdcmodel1/contactservice.cs#2)]
-     [!code-vb[SP_BDC#2](../sharepoint/codesnippet/VisualBasic/sp_bdc/bdcmodel1/contactservice.vb#2)]
+     :::code language="csharp" source="../sharepoint/codesnippet/CSharp/SP_BDC/bdcmodel1/contactservice.cs" id="Snippet2":::
+     :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/sp_bdc/bdcmodel1/contactservice.vb" id="Snippet2":::
 
 ## Test the project
 

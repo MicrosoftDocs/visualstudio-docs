@@ -1,7 +1,8 @@
 ---
+description: "Skips a specified number of injected sources in an enumeration sequence."
 title: "IDiaEnumInjectedSources::Skip | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,8 @@ helpviewer_keywords:
 ms.assetid: 4aad6a51-f2d3-4064-b216-60d830d0a560
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -32,5 +34,5 @@ HRESULT Skip ( 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` if there are no more injected sources to skip.
 
-## See Also
+## See also
 - [IDiaEnumInjectedSources](../../debugger/debug-interface-access/idiaenuminjectedsources.md)

@@ -1,7 +1,8 @@
 ---
+description: "Retrieves a specified number of records in the enumerated sequence."
 title: "IDiaEnumDebugStreamData::Next | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,8 @@ helpviewer_keywords:
 ms.assetid: 114171dd-38fd-4bd7-a702-8ff887ffc99b
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -52,6 +54,6 @@ HRESULT Next ( 
 ## Return Value
  If successful, returns `S_OK`. Returns `S_FALSE` if there are no more records. Otherwise, returns an error code.
 
-## See Also
+## See also
 - [IDiaEnumDebugStreamData](../../debugger/debug-interface-access/idiaenumdebugstreamdata.md)
 - [IDiaEnumDebugStreams::Next](../../debugger/debug-interface-access/idiaenumdebugstreams-next.md)

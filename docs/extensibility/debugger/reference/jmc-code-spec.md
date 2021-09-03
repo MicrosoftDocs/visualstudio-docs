@@ -1,20 +1,22 @@
 ---
-title: "JMC_CODE_SPEC | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "This structure is used to set the JustMyCode information for a module."
+title: JMC_CODE_SPEC | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "JMC_CODE_SPEC"
+- JMC_CODE_SPEC
 helpviewer_keywords:
-  - "JMC_CODE_SPEC structure"
+- JMC_CODE_SPEC structure
 ms.assetid: d89498f1-4234-46d9-b4e2-abbcbca5068a
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # JMC_CODE_SPEC
 This structure is used to set the JustMyCode information for a module.

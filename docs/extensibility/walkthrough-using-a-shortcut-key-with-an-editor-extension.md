@@ -1,15 +1,18 @@
 ---
-title: "Walkthrough: Using a Shortcut Key with an Editor Extension | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Use a shortcut key with an editor extension
+description: Learn how to add a view adornment to a text view by using a shortcut key. This walkthrough is based on the viewport adornment editor template.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
 helpviewer_keywords:
-  - "editors [Visual Studio SDK], new - link keystrokes to commands"
+- editors [Visual Studio SDK], new - link keystrokes to commands
 ms.assetid: cf6cc6c6-5a65-4f90-8f14-663decf74672
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Walkthrough: Use a shortcut key with an editor extension
 You can respond to shortcut keys in your editor extension. The following walkthrough shows how to add a view adornment to a text view by using a shortcut key. This walkthrough is based on the viewport adornment editor template, and it allows you to add the adornment by using the + character.
@@ -57,7 +60,7 @@ Prior to Visual Studio 2017 version 15.6 the only way to handle commands in an e
 
 1. Add a class file and name it `KeyBindingCommandFilter`.
 
-2. Add the following using statements.
+2. Add the following using directives.
 
     ```csharp
     using System;
@@ -129,7 +132,7 @@ Prior to Visual Studio 2017 version 15.6 the only way to handle commands in an e
 ## Add the command filter (prior to Visual Studio 2017 version 15.6)
  The adornment provider must add a command filter to the text view. In this example, the provider implements <xref:Microsoft.VisualStudio.Editor.IVsTextViewCreationListener> to listen to text view creation events. This adornment provider also exports the adornment layer, which defines the Z-order of the adornment.
 
-1. In the KeyBindingTestTextViewCreationListener file, add the following using statements:
+1. In the KeyBindingTestTextViewCreationListener file, add the following using directives:
 
     ```csharp
     using System;
@@ -197,7 +200,7 @@ The command handler is an implementation of <xref:Microsoft.VisualStudio.Command
 
 1. Add a class file and name it `KeyBindingCommandHandler`.
 
-2. Add the following using statements.
+2. Add the following using directives.
 
    ```csharp
    using Microsoft.VisualStudio.Commanding;

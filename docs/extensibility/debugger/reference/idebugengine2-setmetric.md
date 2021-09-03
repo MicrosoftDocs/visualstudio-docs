@@ -1,20 +1,22 @@
 ---
-title: "IDebugEngine2::SetMetric | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "This method sets a registry value known as a metric."
+title: IDebugEngine2::SetMetric | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugEngine2:::SetMetric"
+- IDebugEngine2:::SetMetric
 helpviewer_keywords:
-  - "IDebugEngine2:::SetMetric"
+- IDebugEngine2:::SetMetric
 ms.assetid: dcda4972-c32e-4693-a0e1-25d5c58b9782
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugEngine2::SetMetric
 This method sets a registry value known as a metric.

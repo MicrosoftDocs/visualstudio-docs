@@ -1,25 +1,29 @@
 ---
-title: "ItemDefinitionGroup Element (MSBuild) | Microsoft Docs"
-ms.date: "03/13/2017"
-ms.topic: "reference"
+title: ItemDefinitionGroup Element (MSBuild) | Microsoft Docs
+description: Learn how MSBuild uses the ItemDefinitionGroup element to define a set of item definitions, metadata values that are applied to all items in the project.
+ms.custom: SEO-VS-2020
+ms.date: 03/13/2017
+ms.topic: reference
 f1_keywords:
-  - "http://schemas.microsoft.com/developer/msbuild/2003#ItemDefinitionGroup"
+- http://schemas.microsoft.com/developer/msbuild/2003#ItemDefinitionGroup
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+- VB
+- CSharp
+- C++
+- jsharp
 helpviewer_keywords:
-  - "ItemDefinitionGroup Element [MSBuild]"
-  - "<ItemDefinitionGroup> Element [MSBuild]"
+- ItemDefinitionGroup Element [MSBuild]
+- <ItemDefinitionGroup> Element [MSBuild]
 ms.assetid: 4e9fb04b-5148-4ae5-a394-42861dd62371
-author: mikejo5000
-ms.author: mikejo
-manager: jillfra
+author: ghogen
+ms.author: ghogen
+manager: jmartens
+ms.technology: msbuild
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # ItemDefinitionGroup element (MSBuild)
+
 The `ItemDefinitionGroup` element lets you define a set of Item Definitions, which are metadata values that are applied to all items in the project, by default. ItemDefinitionGroup supersedes the need to use the [CreateItem task](../msbuild/createitem-task.md) and the [CreateProperty task](../msbuild/createproperty-task.md). For more information, see [Item definitions](../msbuild/item-definitions.md).
 
 \<Project>
@@ -35,6 +39,7 @@ The `ItemDefinitionGroup` element lets you define a set of Item Definitions, whi
 ```
 
 ## Attributes and elements
+
 The following sections describe attributes, child elements, and parent elements.
 
 ### Attributes
@@ -53,9 +58,10 @@ The following sections describe attributes, child elements, and parent elements.
 
 | Element | Description |
 | - | - |
-| [Project](../msbuild/project-element-msbuild.md) | Required root element of an [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] project file. |
+| [Project](../msbuild/project-element-msbuild.md) | Required root element of an MSBuild project file. |
 
 ## Example
+
 The following code example defines two metadata items, m and n, in an ItemDefinitionGroup. In this example, the default metadata "m" is applied to Item "i" because metadata "m" is not explicitly defined by Item "i". However, default metadata "n" is not applied to Item "i" because metadata "n" is already defined by Item "i".
 
 ```xml
@@ -77,5 +83,6 @@ The following code example defines two metadata items, m and n, in an ItemDefini
 ```
 
 ## See also
+
 - [Project file schema reference](../msbuild/msbuild-project-file-schema-reference.md)
 - [Items](../msbuild/msbuild-items.md)

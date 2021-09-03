@@ -1,15 +1,18 @@
 ---
-title: "Debug Engine | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Debug Engine | Microsoft Docs
+description: Learn how a debug engine works with the interpreter or operating system to provide services such as execution control, breakpoints, and expression evaluation. 
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: reference
 helpviewer_keywords:
-  - "debug engines"
+- debug engines
 ms.assetid: 148b1efc-ca07-4d8e-bdfc-c723a760c620
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Debug engine
 A debug engine (DE) works with the interpreter or operating system to provide debugging services such as execution control, breakpoints, and expression evaluation. The DE is responsible for monitoring the state of a program being debugged. To do accomplish this, the DE uses whatever methods are available to it in the supported runtime, whether from the CPU or from APIs supplied by the runtime.

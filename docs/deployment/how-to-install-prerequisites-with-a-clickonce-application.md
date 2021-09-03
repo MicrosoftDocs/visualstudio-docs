@@ -1,21 +1,24 @@
 ---
-title: "How to: Install Prerequisites with a ClickOnce Application | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-helpviewer_keywords:
-  - "deploying applications [ClickOnce], prerequisites"
-  - "prerequisites, ClickOnce"
-  - "components, bootstrapping"
+title: Install prerequisites with a ClickOnce app
+description: Learn how to select prerequisite components to be packaged along with your ClickOnce application when it is installed.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
+dev_langs: 
+  - VB
+  - CSharp
+  - C++
+helpviewer_keywords: 
+  - deploying applications [ClickOnce], prerequisites
+  - prerequisites, ClickOnce
+  - components, bootstrapping
 ms.assetid: e964fca5-fdfd-47cf-a1c9-7fb96b1c88b5
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
-ms.workload:
-  - "multiple"
+manager: jmartens
+ms.technology: vs-ide-deployment
+ms.workload: 
+  - multiple
 ---
 # How to: Install prerequisites with a ClickOnce application
 All [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] applications require that the correct version of the .NET Framework is installed on a computer before they can be run; many applications have other prerequisites as well. When publishing a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application, you can choose a set of prerequisite components to be packaged along with your application. At installation time, a check will be performed for each prerequisite to determine if it already exists; if not it will be installed prior to installing the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application.

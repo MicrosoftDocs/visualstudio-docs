@@ -1,20 +1,22 @@
 ---
-title: "IDebugProperty2::GetMemoryContext | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Gets the memory context of the property value."
+title: IDebugProperty2::GetMemoryContext | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugProperty2::GetMemoryContext"
+- IDebugProperty2::GetMemoryContext
 helpviewer_keywords:
-  - "IDebugProperty2::GetMemoryContext"
+- IDebugProperty2::GetMemoryContext
 ms.assetid: 91793d25-790f-4881-a5c0-d0458e534514
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugProperty2::GetMemoryContext
 Gets the memory context of the property value.

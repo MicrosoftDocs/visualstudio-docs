@@ -1,17 +1,19 @@
 ---
-title: "IDebugObject | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "This interface represents an object that the binder creates to encapsulate the values of symbols and expressions."
+title: IDebugObject | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugObject"
+- IDebugObject
 helpviewer_keywords:
-  - "IDebugObject interface"
+- IDebugObject interface
 ms.assetid: 05cd8bf4-c9ee-4b49-b782-2263c33067d6
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IDebugObject
 > [!IMPORTANT]

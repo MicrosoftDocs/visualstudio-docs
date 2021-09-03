@@ -1,13 +1,16 @@
 ---
-title: "Fonts and Formatting for Visual Studio | Microsoft Docs"
-ms.date: "04/26/2017"
-ms.topic: "conceptual"
+title: Fonts and Formatting for Visual Studio | Microsoft Docs
+description: Learn about fonts and formatting for new features you design for Visual Studio, including how to use the environment font.
+ms.custom: SEO-VS-2020
+ms.date: 04/26/2017
+ms.topic: reference
 ms.assetid: c3c3df69-83b4-4fd0-b5b1-e18c33f39376
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Fonts and Formatting for Visual Studio
 ## <a name="BKMK_TheEnvironmentFont"></a> The environment font
@@ -414,7 +417,7 @@ protected static void SetFontStyles(Control topControl, Control parent, Font ref
 
 #### 375% Environment font + Light
 
-|||
+|Usage|Appearance|
 |-|-|
 |**Usage:** Rare. Unique branded UI only.<br /><br /> **Do:**<br /><br /> -   Use sentence case<br />-   Always use Light weight<br /><br /> **Don't:**<br /><br /> -   Use for UI other than signature UI such as Start Page<br />-   Bold, italic, or bold italic<br />-   Use for body text<br />-   Use in tool windows|**Appears as:** 34 pt Segoe UI Light<br /><br /> **Visual example:**<br /><br /> *Currently not used. May be used in the Visual Studio 2017 Start Page.*|
 
@@ -422,7 +425,7 @@ protected static void SetFontStyles(Control topControl, Control parent, Font ref
 
 ::: moniker range="vs-2017"
 
-|||
+|Usage|Appearance|
 |-|-|
 |**Usage:**<br /><br /> -   Larger heading in signature dialogs<br />-   Main report heading<br /><br /> **Do:**<br /><br /> -   Use sentence case<br />-   Always use Light weight<br /><br /> **Don't:**<br /><br /> -   Use for UI other than signature UI such as Start Page<br />-   Bold, italic, or bold italic<br />-   Use for body text<br />-   Use in tool windows|**Appears as:** 28 pt Segoe UI Light<br /><br /> **Visual example:**<br /><br /> ![Example of 310% Environment font &#43; Light heading](../../extensibility/ux-guidelines/media/0202-a_ef310.png "0202-a_EF310")|
 
@@ -430,7 +433,7 @@ protected static void SetFontStyles(Control topControl, Control parent, Font ref
 
 ::: moniker range=">=vs-2019"
 
-|||
+|Usage|Appearance|
 |-|-|
 |**Usage:**<br /><br /> -   Larger heading in signature dialogs<br />-   Main report heading<br /><br /> **Do:**<br /><br /> -   Use sentence case<br />-   Always use Light weight<br /><br /> **Don't:**<br /><br /> -   Use for UI other than signature UI<br />-   Bold, italic, or bold italic<br />-   Use for body text<br />-   Use in tool windows|**Appears as:** 28 pt Segoe UI Light<br /><br /> **Visual example:**<br /><br /> ![Example of 310% Environment font &#43; Light heading](../../extensibility/ux-guidelines/media/0202-a_ef310.png "0202-a_EF310")|
 
@@ -438,37 +441,37 @@ protected static void SetFontStyles(Control topControl, Control parent, Font ref
 
 #### 200% Environment font + Semilight
 
-|||
+|Usage|Appearance|
 |-|-|
 |**Usage:**<br /><br /> -   Subheadings<br />-   Titles in small and medium dialogs<br /><br /> **Do:**<br /><br /> -   Use sentence case<br />-   Always use Semilight weight<br /><br /> **Don't:**<br /><br /> -   Bold, italic, or bold italic<br />-   Use for body text<br />-   Use in tool windows|**Appears as:** 18 pt Segoe UI Semillight<br /><br /> **Visual example:**<br /><br /> ![Example of 200% Environment font &#43; Semilight](../../extensibility/ux-guidelines/media/0202-b_ef200.png "0202-b_EF200")|
 
 #### 155% Environment font
 
-|||
+|Usage|Appearance|
 |-|-|
 |**Usage:**<br /><br /> -   Section headings in document well UI<br />-   Reports<br /><br /> **Do:** Use sentence case<br /><br /> **Don't:**<br /><br /> -   Bold, italic, or bold italic<br />-   Use for body text<br />-   Use in standard Visual Studio controls<br />-   Use in tool windows|**Appears as:** 14 pt Segoe UI<br /><br /> **Visual example:**<br /><br /> ![Example of 155% Environment font heading](../../extensibility/ux-guidelines/media/0202-c_ef155.png "0202-c_EF155")|
 
 #### 133% Environment font
 
-|||
+|Usage|Appearance|
 |-|-|
 |**Usage:**<br /><br /> -   Smaller subheadings in signature dialogs<br />-   Smaller subheadings in document well UI<br /><br /> **Do:** Use sentence case<br /><br /> **Don't:**<br /><br /> -   Bold, italic, or bold italic<br />-   Use for body text<br />-   Use in standard Visual Studio controls<br />-   Use in tool windows|**Appears as:** 12 pt Segoe UI<br /><br /> **Visual example:**<br /><br /> ![Example of 133% Environment font heading](../../extensibility/ux-guidelines/media/0202-d_ef133.png "0202-d_EF133")|
 
 #### 122% Environment font
 
-|||
+|Usage|Appearance|
 |-|-|
 |**Usage:**<br /><br /> -   Section headings in signature dialogs<br />-   Top nodes in tree view<br />-   Vertical tab navigation<br /><br /> **Do:** Use sentence case<br /><br /> **Don't:**<br /><br /> -   Bold, italic, or bold italic<br />-   Use for body text<br />-   Use in standard Visual Studio controls<br />-   Use in tool windows|**Appears as:** 11 pt Segoe UI<br /><br /> **Visual example:**<br /><br /> ![Example of 122% Environment font heading](../../extensibility/ux-guidelines/media/0202-e_ef122.png "0202-e_EF122")|
 
 #### Environment font + bold
 
-|||
+|Usage|Appearance|
 |-|-|
 |**Usage:**<br /><br /> -   Labels and subheads in signature dialogs<br />-   Labels and subheads in reports<br />-   Labels and subheads in document well UI<br /><br /> **Do:**<br /><br /> -   Use sentence case<br />-   Use bold weight<br /><br /> **Don't:**<br /><br /> -   Italic or bold italic<br />-   Use for body text<br />-   Use in standard Visual Studio controls<br />-   Use in tool windows|**Appears as:** bolded 9 pt Segoe UI<br /><br /> **Visual example:**<br /><br /> ![Example of Environment font &#43; Bold heading](../../extensibility/ux-guidelines/media/0202-f_efb.png "0202-f_EFB")|
 
 #### Environment font
 
-|||
+|Usage|Appearance|
 |-|-|
 |**Usage:** All other text<br /><br /> **Do:** Use sentence case<br /><br /> **Don't:** Italic or bold italic|**Appears as:** 9 pt Segoe UI<br /><br /> **Visual example:**<br /><br /> ![Example of Environment font](../../extensibility/ux-guidelines/media/0202-g_ef.png "0202-g_EF")|
 
@@ -483,5 +486,5 @@ protected static void SetFontStyles(Control topControl, Control parent, Font ref
 
 ## See also
 
-- [MSDN: Fonts (Windows)](/windows/desktop/uxguide/vis-fonts)
-- [MSDN: User Interface Text (Windows)](/windows/desktop/uxguide/text-ui)
+- [Fonts (Windows)](/windows/desktop/uxguide/vis-fonts)
+- [User Interface Text (Windows)](/windows/desktop/uxguide/text-ui)

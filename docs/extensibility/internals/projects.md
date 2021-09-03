@@ -1,19 +1,22 @@
 ---
-title: "Projects | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Projects | Microsoft Docs
+description: Learn about the ways that VSPackages can extend the Visual Studio project system, including project types, project subtypes, and custom tools.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "solutions [Visual Studio]"
-  - "custom tools [Visual Studio SDK]"
-  - "project subtypes [Visual Studio SDK]"
-  - "projects [Visual Studio SDK]"
-  - "project types [Visual Studio SDK]"
+- solutions [Visual Studio]
+- custom tools [Visual Studio SDK]
+- project subtypes [Visual Studio SDK]
+- projects [Visual Studio SDK]
+- project types [Visual Studio SDK]
 ms.assetid: 237742e4-a638-4d5b-a9b3-6a69d627763c
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Projects
 In Visual Studio, projects are the containers that developers use to organize source code files and other resources that appear in **Solution Explorer**. Typically, projects are files (for example, a .csproj file for a C# project) that store references to source code files and resources like bitmap files. Projects let you organize, build, debug, and deploy source code, references to Web services and databases, and other resources. VSPackages can extend the Visual Studio project system in three main ways: *project types*, *project subtypes*, and *custom tools*.
@@ -35,7 +38,7 @@ In Visual Studio, projects are the containers that developers use to organize so
 
  Explains what actually occurs when you create a new project.
 
-- [VSSDK Samples](https://aka.ms/vs2015sdksamples)
+- [VSSDK Samples](https://github.com/Microsoft/VSSDK-Extensibility-Samples)
  Contains the samples in the VSSDK that deal with projects and solutions.
 
 ## Related Sections

@@ -1,19 +1,22 @@
 ---
 title: Create Data-Driven Unit Tests
+description: Learn how to use the Microsoft unit test framework for managed code to set up a unit test method to retrieve values from a data source.
+ms.custom: SEO-VS-2020
 ms.date: 05/08/2019
-ms.topic: conceptual
-f1_keywords:
-  - "vs.test.testresults.unittest.datadriven"
-  - "vs.test.testresults.unittest.datadriven.failure"
-helpviewer_keywords:
-  - "unit tests, running"
-  - "unit tests, data-driven"
-  - "data-driven unit tests"
-ms.author: gewarren
-manager: jillfra
-ms.workload:
-  - "multiple"
-author: gewarren
+ms.topic: how-to
+f1_keywords: 
+  - vs.test.testresults.unittest.datadriven
+  - vs.test.testresults.unittest.datadriven.failure
+helpviewer_keywords: 
+  - unit tests, running
+  - unit tests, data-driven
+  - data-driven unit tests
+ms.author: mikejo
+manager: jmartens
+ms.technology: vs-ide-test
+ms.workload: 
+  - multiple
+author: mikejo5000
 ---
 # How to: Create a data-driven unit test
 

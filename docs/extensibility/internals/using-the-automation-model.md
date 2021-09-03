@@ -1,21 +1,24 @@
 ---
-title: "Using the Automation Model | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Using the Automation Model | Microsoft Docs
+description: Learn how to obtain properties and methods of your VSPackage after it is connected to the automation model.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "automation [Visual Studio SDK], automation model"
+- automation [Visual Studio SDK], automation model
 ms.assetid: 0c7f7889-fbfb-4b19-804f-b742138baecd
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Using the Automation Model
 After you have connected your VSPackage to automation, you can obtain the properties and methods by calling the <xref:EnvDTE.DTEClass.GetObject%2A> method on the <xref:EnvDTE._DTE> object, passing a string representing the object you wish to retrieve.
 
 ## Obtaining Project Objects
- The following are two code examples that show how an automation consumer obtains the project automation objects. For information about how to get the DTE object, see [How to: Get References to the DTE and DTE2 Objects](https://msdn.microsoft.com/Library/c92e3c8e-82e6-4a67-85da-e43c50ffd8e4).
+ The following are two code examples that show how an automation consumer obtains the project automation objects. For information about how to get the DTE object, see [How to: Get References to the DTE and DTE2 Objects](/previous-versions/68shb4dw(v=vs.140)).
 
 ```vb
 Sub DoAutomation()
@@ -65,5 +68,5 @@ Next
 
 ```
 
-## See Also
+## See also
 - <xref:EnvDTE.DTEClass.GetObject%2A>

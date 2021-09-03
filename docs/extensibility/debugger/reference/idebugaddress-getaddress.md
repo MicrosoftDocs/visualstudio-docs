@@ -1,20 +1,22 @@
 ---
-title: "IDebugAddress::GetAddress | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Returns a structure describing an object and its location within its scope or container."
+title: IDebugAddress::GetAddress | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugAddress::GetAddress"
+- IDebugAddress::GetAddress
 helpviewer_keywords:
-  - "IDebugAddress:GetAddress method"
+- IDebugAddress:GetAddress method
 ms.assetid: 2590387b-5d36-4116-9a75-737957b8898e
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugAddress::GetAddress
 Returns a structure describing an object and its location within its scope or container.

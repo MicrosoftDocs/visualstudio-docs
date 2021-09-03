@@ -1,7 +1,8 @@
 ---
+description: "Retrieves the System.Runtime.InteropServices.ComTypes.IEnumVARIANT version of the injected sources enumerator."
 title: "IDiaEnumInjectedSources::get__NewEnum | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,8 @@ helpviewer_keywords:
 ms.assetid: f56cdcdb-dc71-43c7-82fe-e2500986f5bc
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -31,5 +33,5 @@ HRESULT get__NewEnum ( 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
-## See Also
+## See also
 - [IDiaEnumInjectedSources](../../debugger/debug-interface-access/idiaenuminjectedsources.md)

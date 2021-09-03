@@ -1,13 +1,16 @@
 ---
-title: "How to: Publish a WPF Application with Visual Styles Enabled | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Publish a WPF app with visual styles enabled
+description: Learn how to publish a WPF application with visual styles enabled, which allows the appearance of controls to change based on the theme chosen by the user.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
 ms.assetid: 73b22b02-fc75-42aa-82d3-51fdcaf8e5c8
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
-ms.workload:
-  - "multiple"
+manager: jmartens
+ms.technology: vs-ide-deployment
+ms.workload: 
+  - multiple
 ---
 
 # How to: Publish a WPF application with visual styles enabled
@@ -103,9 +106,9 @@ Visual styles enable the appearance of common controls to change based on the th
 
 ## Embed the manifest file into the executable file of the published solution
 
-1. Open the **Visual Studio Command Prompt**.
+1. Open **Developer Command Prompt for Visual Studio**.
 
-    For more information about how to open the **Visual Studio Command Prompt**, see [Command prompts](/dotnet/framework/tools/developer-command-prompt-for-vs).
+    For more information about how to open Developer Command Prompt for Visual Studio, see [Developer Command Prompt and Developer PowerShell](../ide/reference/command-prompt-powershell.md).
 
    > [!NOTE]
    > The remaining steps make the following assumptions about your solution:
@@ -172,7 +175,7 @@ Visual styles enable the appearance of common controls to change based on the th
 
 ## See also
 
--[Troubleshooting Specific Errors in ClickOnce Deployments](../deployment/troubleshooting-specific-errors-in-clickonce-deployments.md)
+- [Troubleshooting Specific Errors in ClickOnce Deployments](../deployment/troubleshooting-specific-errors-in-clickonce-deployments.md)
 - [Visual Styles Overview](/windows/desktop/Controls/visual-styles-overview)
 - [Enabling Visual Styles](/windows/desktop/Controls/cookbook-overview)
-- [Command Prompts](/dotnet/framework/tools/developer-command-prompt-for-vs)
+- [Developer Command Prompt and Developer PowerShell](../ide/reference/command-prompt-powershell.md)

@@ -1,20 +1,22 @@
 ---
-title: "MODULE_INFO_FLAGS | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Specifies the state of symbols for a module."
+title: MODULE_INFO_FLAGS | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "MODULE_INFO_FLAGS"
+- MODULE_INFO_FLAGS
 helpviewer_keywords:
-  - "MODULE_INFO_FLAGS enumeration"
+- MODULE_INFO_FLAGS enumeration
 ms.assetid: e22d3723-b4d4-4524-8a2f-3adb55bbd273
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # MODULE_INFO_FLAGS
 Specifies the state of symbols for a module.

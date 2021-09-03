@@ -1,7 +1,8 @@
 ---
+description: "Skips a specified number of symbols in an enumeration sequence."
 title: "IDiaEnumSymbols::Skip | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,8 @@ helpviewer_keywords:
 ms.assetid: e601fbc9-b10b-41c7-8180-959e57efabe8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -32,5 +34,5 @@ HRESULT Skip ( 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` if there are no more symbols to skip.
 
-## See Also
+## See also
 - [IDiaEnumSymbols](../../debugger/debug-interface-access/idiaenumsymbols.md)

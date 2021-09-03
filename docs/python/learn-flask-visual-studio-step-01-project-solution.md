@@ -6,7 +6,8 @@ ms.date: 01/07/2019
 ms.topic: tutorial
 author: JoshuaPartlow
 ms.author: joshuapa
-manager: jillfra
+manager: jmartens
+ms.technology: vs-python
 ms.custom: seodec18
 ms.workload:
   - python
@@ -15,20 +16,31 @@ ms.workload:
 
 # Tutorial: Get started with the Flask web framework in Visual Studio
 
-[Flask](http://flask.pocoo.org/) is a lightweight Python framework for web applications that provides the basics for URL routing and page rendering.
+[Flask](https://palletsprojects.com/p/flask/) is a lightweight Python framework for web applications that provides the basics for URL routing and page rendering.
 
 Flask is called a "micro" framework because it doesn't directly provide features like form validation, database abstraction, authentication, and so on. Such features are instead provided by special Python packages called Flask *extensions*. The extensions integrate seamlessly with Flask so that they appear as if they are part of Flask itself. For example, Flask itself doesn't provide a page template engine. Templating is provided by extensions such as Jinja and Jade, as demonstrated in this tutorial.
 
+::: moniker range="vs-2017"
 In this tutorial, you learn how to:
-
-> [!div class="checklist"]
-> - Create a basic Flask project in a Git repository using the "Blank Flask Web Project" template (step 1)
-> - Create a Flask app with one page and render that page using a template (step 2)
-> - Serve static files, add pages, and use template inheritance (step 3)
-> - Use the Flask Web Project template to create an app with multiple pages and responsive design (step 4)
-> - Use the Polls Flask Web Project template to create an polling app that uses a variety of storage options (Azure storage, MongoDB, or memory).
+- Create a basic Flask project in a Git repository using the "Blank Flask Web Project" template (step 1)
+- Create a Flask app with one page and render that page using a template (step 2)
+- Serve static files, add pages, and use template inheritance (step 3)
+- Use the Flask Web Project template to create an app with multiple pages and responsive design (step 4)
+- Use the Polls Flask Web Project template to create an polling app that uses a variety of storage options (Azure storage, MongoDB, or memory).
 
 Over the course of these steps you create a single Visual Studio solution that contains three separate projects. You create the project using different Flask project templates that are included with Visual Studio. By keeping the projects in the same solution, you can easily switch back and forth between different files for comparison.
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+In this tutorial, you learn how to:
+- Create a basic Flask project in a Git repository using the "Blank Flask Web Project" template (step 1)
+- Create a Flask app with one page and render that page using a template (step 2)
+- Serve static files, add pages, and use template inheritance (step 3)
+- Use the Flask Web Project template to create an app with multiple pages and responsive design (step 4)
+
+Over the course of these steps you create a single Visual Studio solution that contains two separate projects. You create the project using different Flask project templates that are included with Visual Studio. By keeping the projects in the same solution, you can easily switch back and forth between different files for comparison.
+::: moniker-end
 
 > [!Note]
 > This tutorial differs from the [Flask Quickstart](../ide/quickstart-python.md?toc=/visualstudio/python/toc.json&bc=/visualstudio/python/_breadcrumb/toc.json) in that you learn more about Flask as well as how to use the different Flask project templates that provide a more extensive starting point for your own projects. For example, the project templates automatically install the Flask package when creating a project, rather than needing you to install the package manually as shown in the Quickstart.
@@ -101,7 +113,7 @@ Because you selected the **Create new Git repository** in the **New Project** di
 
 Answer: First of all, using source control from the start, especially if you also use a remote repository, provides a regular offsite backup of your project. Unlike maintaining a project just on a local file system, source control also provides a complete change history and the easy ability to revert a single file or the whole project to a previous state. That change history helps determine the cause of regressions (test failures). Furthermore, source control is essential if multiple people are working on a project, as it manages overwrites and provides conflict resolution. Finally, source control, which is fundamentally a form of automation, sets you up well for automating builds, testing, and release management. It's really the first step in using DevOps for a project, and because the barriers to entry are so low, there's really no reason to not use source control from the beginning.
 
-For further discussion on source control as automation, see [The Source of Truth: The Role of Repositories in DevOps](https://msdn.microsoft.com/magazine/mt763232), an article in MSDN Magazine written for mobile apps that applies also to web apps.
+For further discussion on source control as automation, see [The Source of Truth: The Role of Repositories in DevOps](/archive/msdn-magazine/2016/september/mobile-devops-the-source-of-truth-the-role-of-repositories-in-devops), an article in MSDN Magazine written for mobile apps that applies also to web apps.
 
 ### Question: Can I prevent Visual Studio from auto-committing a new project?
 
@@ -121,7 +133,7 @@ Now that you've configured source control for your project, you can create the v
 
 1. Select **Create** to accept the defaults. (You can change the name of the virtual environment if you want, which just changes the name of its subfolder, but `env` is a standard convention.)
 
-1. Consent to administrator privileges if prompted, then be patient for a few minutes while Visual Studio downloads and installs packages, which for Flask and its dependencies means expanding about a thousand files in over 100 subfolders. You can see progress in the Visual Studio **Output** window. While you're waiting, ponder the Question sections that follow. You can also see a description of Flask's dependencies on the [Flask installation](http://flask.pocoo.org/docs/1.0/installation/#installation) page (flask.pcocoo.org).
+1. Consent to administrator privileges if prompted, then be patient for a few minutes while Visual Studio downloads and installs packages, which for Flask and its dependencies means expanding about a thousand files in over 100 subfolders. You can see progress in the Visual Studio **Output** window. While you're waiting, ponder the Question sections that follow. You can also see a description of Flask's dependencies on the [Flask installation](https://flask.palletsprojects.com/en/1.0.x/installation/#installation) page (flask.pcocoo.org).
 
 1. On the Visual Studio Git controls (on the status bar), select the changes indicator (that shows **99&#42;**) which opens the **Changes** page in **Team Explorer**.
 
@@ -187,7 +199,7 @@ Second, open a command window, navigate to the folder like *BasicProject* that c
 
 ### Question: What is the purpose of the __name__ argument to the Flask class?
 
-Answer: The argument is the name of the app's module or package, and tells Flask where to look for templates, static files, and other resources that belong to the app. For apps contained in a single module, `__name__` is always the proper value. It's also important for extensions that need debugging information. For more information, and additional arguments, see the [Flask class documentation](http://flask.pocoo.org/docs/1.0/api/#flask.Flask) (flask.pocoo.org).
+Answer: The argument is the name of the app's module or package, and tells Flask where to look for templates, static files, and other resources that belong to the app. For apps contained in a single module, `__name__` is always the proper value. It's also important for extensions that need debugging information. For more information, and additional arguments, see the [Flask class documentation](https://flask.palletsprojects.com/en/1.0.x/api/#flask.Flask) (flask.pocoo.org).
 
 ### Question: Can a function have more than one route decorator?
 
@@ -205,17 +217,17 @@ def hello():
 
 ### Question: How does Flask work with variable URL routes and query parameters?
 
-Answer: In a route, you mark any variable with `<variable_name>`, and Flask passes the variable to the function using a named argument. The variable can be part of the URL path or in a query parameter. For example, a route in the form of `'/hello/<name>` generates a string argument called `name` to the function, and using `?message=<msg>` in the route parses the value given for the "message=" query parameter and passes it to the function as `msg`:
+Answer: In a route, you mark any variable with `<variable_name>`, and Flask passes the variable to the function using a named argument in the URL path. For example, a route in the form of `/hello/<name>` generates a string argument called `name` to the function. Query parameters are available through the `request.args` property, specifically through the `request.args.get` method. For more information, see [The Request object](https://flask.palletsprojects.com/en/1.1.x/quickstart/#the-request-object) in the Flask documentation.
 
 ```python
-@app.route('/hello/<name>?message=<msg>')
-def hello(name, msg):
-    return "Hello " + name + "! Message is " + msg + "."
+# URL: /hello/<name>?message=Have%20a%20nice%20day
+@app.route('/hello/<name>')
+def hello(name):
+    msg = request.args.get('message','')
+    return "Hello " + name + "! "+ msg + "."
 ```
 
-To change the type, prefix the variable with `int`, `float`, `path` (which accepts slashes to delineate folder names), and `uuid`. For details, see [Variable rules](http://flask.pocoo.org/docs/1.0/quickstart/#variable-rules) in the Flask documentation.
-
-Query parameters are also available through the `request.args` property, specifically through the `request.args.get` method. For more information, see [The Request object](http://flask.pocoo.org/docs/1.0/quickstart/#the-request-object) in the Flask documentation.
+To change the type, prefix the variable with `int`, `float`, `path` (which accepts slashes to delineate folder names), and `uuid`. For details, see [Variable rules](https://flask.palletsprojects.com/en/1.0.x/quickstart/#variable-rules) in the Flask documentation.
 
 ### Question: Can Visual Studio generate a requirements.txt file from a virtual environment after I install other packages?
 
@@ -248,5 +260,5 @@ At this point, the basic Flask project contains the startup code and page code i
 
 ## Go deeper
 
-- [Flask Quickstart](http://flask.pocoo.org/docs/1.0/quickstart/) (flask.pocoo.org)
+- [Flask Quickstart](https://flask.palletsprojects.com/en/1.0.x/quickstart/) (flask.pocoo.org)
 - Tutorial source code on GitHub: [Microsoft/python-sample-vs-learning-flask](https://github.com/Microsoft/python-sample-vs-learning-flask)

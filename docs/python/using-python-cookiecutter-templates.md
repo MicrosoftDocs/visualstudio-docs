@@ -2,10 +2,11 @@
 title: Use CookieCutter templates with Python
 description: Visual Studio supports the graphical Cookiecutter extension to discover templates for Python code and create projects from those templates.
 ms.date: 01/28/2019
-ms.topic: conceptual
+ms.topic: how-to
 author: JoshuaPartlow
 ms.author: joshuapa
-manager: jillfra
+manager: jmartens
+ms.technology: vs-python
 ms.custom: seodec18
 ms.workload:
   - python
@@ -16,7 +17,7 @@ ms.workload:
 
 [Cookiecutter](https://cookiecutter.readthedocs.io/en/latest/) provides a graphical user interface to discover templates, input template options, and create projects and files. It's included with Visual Studio 2017 and later and can be installed separately in earlier versions of Visual Studio.
 
-Cookiecutter requires Python 3.3 or later (32-bit or 64-bit) or Anaconda 3 4.2 or later (32-bit or 64-bit). If a suitable Python interpreter isn't available, Visual Studio displays a warning. If you install a Python interpreter while Visual Studio is running, click the **Home** button on the Cookiecutter toolbar to detect the newly installed interpreter. (See [Python environments](managing-python-environments-in-visual-studio.md) for more about environments in general.)
+Cookiecutter requires Python 3.3 or later (32-bit or 64-bit) or Anaconda 3 4.2 or later (32-bit or 64-bit). If a suitable Python interpreter isn't available, Visual Studio displays a warning. If you install a Python interpreter while Visual Studio is running, select the **Home** button on the Cookiecutter toolbar to detect the newly installed interpreter. (See [Python environments](managing-python-environments-in-visual-studio.md) for more about environments in general.)
 
 Once installed, select **View** > **Cookiecutter Explorer** to open its window:
 
@@ -94,7 +95,7 @@ It's possible to improve on this rendering by specifying additional metadata in 
 | --- | --- |
 | Label | Specifies what appears above the editor for the variable, instead of the name of the variable. |
 | Description | Specifies the tooltip that appears on the edit control, instead of the default value for that variable. |
-| URL | Changes the label into a hyperlink, with a tooltip that shows the URL. Clicking on the hyperlink opens the user's default browser to that URL. |
+| URL | Changes the label into a hyperlink, with a tooltip that shows the URL. Selecting the hyperlink opens the user's default browser to that URL. |
 | Selector | Allows customization of the editor for a variable. The following selectors are currently supported:<ul><li>`string`: Standard text box, default for strings.</li><li>`list`: Standard combo box, default for lists.</li><li>`yesno`: Combo box to choose between `y` and `n`, for strings.</li><li>`odbcConnection`: Text box with a **...** button that brings up a database connection dialog.</li></ul> |
 
 Example:

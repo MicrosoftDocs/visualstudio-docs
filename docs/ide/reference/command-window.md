@@ -1,21 +1,24 @@
 ---
 title: Command Window
+description: Learn how you can use the Command window to execute commands or aliases directly in the Visual Studio IDE.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "VS.CommandWindow"
+- VS.CommandWindow
 helpviewer_keywords:
-  - "IDE, Command window"
-  - "Mark mode in Command window"
-  - "Command window"
-  - "Command mode in Command window"
-  - "IDE Command window"
+- IDE, Command window
+- Mark mode in Command window
+- Command window
+- Command mode in Command window
+- IDE Command window
 ms.assetid: 48711628-1909-4713-a73e-d7b714c77f8a
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Command Window
 The **Command** window is used to execute commands or aliases directly in the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE). You can execute both menu commands and commands that do not appear on any menu. To display the **Command** window, choose **Other Windows** from the **View** menu, and select **Command Window**.
@@ -103,7 +106,7 @@ A caret functions the same whether it is inside or outside quotation marks. If a
 ## Use Quotes for Path Names with Spaces
 If, for example, you want to open a file that has a path containing spaces, you must put double quotes around the path or path segment that contains spaces: **C:\\"Program Files"** or **"C:\Program Files"**.
 
-## See Also
+## See also
 
 - [Visual Studio Command Aliases](../../ide/reference/visual-studio-command-aliases.md)
 - [Visual Studio Commands](../../ide/reference/visual-studio-commands.md)

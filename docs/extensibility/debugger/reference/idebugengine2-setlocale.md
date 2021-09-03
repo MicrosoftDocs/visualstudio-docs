@@ -1,20 +1,22 @@
 ---
-title: "IDebugEngine2::SetLocale | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Sets the locale of the debug engine (DE)."
+title: IDebugEngine2::SetLocale | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugEngine2::SetLocale"
+- IDebugEngine2::SetLocale
 helpviewer_keywords:
-  - "IDebugEngine2::SetLocale"
+- IDebugEngine2::SetLocale
 ms.assetid: cd0d2cf1-2aac-43da-a830-4bb3d696c219
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugEngine2::SetLocale
 Sets the locale of the debug engine (DE).

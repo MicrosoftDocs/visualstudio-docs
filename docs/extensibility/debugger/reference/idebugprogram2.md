@@ -1,17 +1,19 @@
 ---
-title: "IDebugProgram2 | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "This interface represents a program that is running in a process."
+title: IDebugProgram2 | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugProgram2"
+- IDebugProgram2
 helpviewer_keywords:
-  - "IDebugProgram2 interface"
+- IDebugProgram2 interface
 ms.assetid: 8d73df73-cfff-4b8b-b426-d6051edb1939
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IDebugProgram2
 This interface represents a program that is running in a process.

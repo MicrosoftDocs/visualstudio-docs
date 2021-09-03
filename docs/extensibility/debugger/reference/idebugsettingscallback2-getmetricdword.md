@@ -1,18 +1,20 @@
 ---
-title: "IDebugSettingsCallback2::GetMetricDword | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Retrieves the value of a metric given its name."
+title: IDebugSettingsCallback2::GetMetricDword | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "IDebugSettingsCallback2::GetMetricDword"
+- IDebugSettingsCallback2::GetMetricDword
 ms.assetid: 831a5a1a-c4af-4520-9fdf-3a731aeff85c
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugSettingsCallback2::GetMetricDword
 Retrieves the value of a metric given its name.

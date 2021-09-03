@@ -1,11 +1,14 @@
 ---
 title: "CaptureCurrentFrame | Microsoft Docs"
+description: Use the CaptureCurrentFrame method of the VsgDbg class to capture the remainder of the current frame to the graphics log file.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 ms.assetid: 4509311d-6fe2-4b65-9b4a-ff0522585d6a
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -23,6 +26,6 @@ void CaptureCurrentFrame();
 
  To capture a frame, you must prepare your app to capture and record graphics information—that is, you must have called [Init](init.md) through an instance of the `VsgDbg` class before you call `CaptureCurrentFrame`.
 
-## See Also
+## See also
 - [Init](init.md)
 - [BeginCapture](begincapture.md)

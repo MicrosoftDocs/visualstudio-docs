@@ -1,5 +1,7 @@
 ---
 title: List Disassembly Command
+description: Learn about the List Disassembly command and how it begins the debug process and allows you to specify how errors are handled.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -8,9 +10,10 @@ helpviewer_keywords:
   - "Debug.ListDisassembly command"
   - "list disassembly command"
 ms.assetid: eb363e35-e86a-4121-966f-991210c27e2a
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
   - "multiple"
 ---
@@ -58,7 +61,7 @@ Optional. Enables the viewing of line numbers associated with the source code. T
 >Debug.ListDisassembly
 ```
 
-## See Also
+## See also
 
 - [List Call Stack Command](../../ide/reference/list-call-stack-command.md)
 - [List Threads Command](../../ide/reference/list-threads-command.md)

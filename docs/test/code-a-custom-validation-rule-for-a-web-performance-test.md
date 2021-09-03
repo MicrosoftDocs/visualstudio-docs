@@ -1,20 +1,23 @@
 ---
-title: "Coding a custom validation rule for a web performance test"
+title: Create custom validation rule for a web perf test
+description: Learn how to create your own validation rules, derived from a validation rule class, ValidationRule.
+ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
-ms.topic: conceptual
-helpviewer_keywords:
-  - "custom validation rules"
-  - "validation rules, creating"
-  - "web performance tests, creating custom validation rules"
-  - "rules, validation"
-  - "validation rules"
+ms.topic: how-to
+helpviewer_keywords: 
+  - custom validation rules
+  - validation rules, creating
+  - web performance tests, creating custom validation rules
+  - rules, validation
+  - validation rules
 ms.assetid: 989124bc-1a86-41f7-b37d-8f9e54dd4f0b
-dev_langs:
+dev_langs: 
   - CSharp
   - VB
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.technology: vs-ide-test
 ---
 # Code a custom validation rule for a web performance test
 

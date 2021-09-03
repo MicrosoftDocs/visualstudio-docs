@@ -1,7 +1,9 @@
 ---
 title: "How to: Add Items to a SharePoint Project | Microsoft Docs"
+description: Add new or existing items to a SharePoint project in Visual Studio after you open or create a SharePoint solution.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: how-to
 dev_langs:
   - "VB"
   - "CSharp"
@@ -9,7 +11,8 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, adding items"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
+ms.technology: sharepoint-development
 ms.workload:
   - "office"
 ---

@@ -1,17 +1,20 @@
 ---
-title: "Debugger Components | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Debugger Components | Microsoft Docs
+description: Learn about the elements that make up a debug session, which is managed by the Visual Studio debugger, implemented as a VSPackage.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: reference
 helpviewer_keywords:
-  - "debugging [Visual Studio], components"
-  - "components [Visual Studio SDK], debugging"
-  - "debugging [Debugging SDK], components"
+- debugging [Visual Studio], components
+- components [Visual Studio SDK], debugging
+- debugging [Debugging SDK], components
 ms.assetid: 8b8ab77f-a134-495c-be42-3bc51aa62dfb
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Debugger components
 The [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] debugger is implemented as a VSPackage and manages the entire debug session. The debug session comprises the following elements:

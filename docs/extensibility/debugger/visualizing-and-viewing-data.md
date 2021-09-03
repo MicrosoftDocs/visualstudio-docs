@@ -1,16 +1,19 @@
 ---
-title: "Visualizing and Viewing Data | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Visualizing and Viewing Data | Microsoft Docs
+description: Learn how type visualizers and custom viewers present data to a developer. The expression evaluator supports third-party type visualizers.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "debugging [Debugging SDK], viewing data"
-  - "debugging [Debugging SDK], visualizing data"
+- debugging [Debugging SDK], viewing data
+- debugging [Debugging SDK], visualizing data
 ms.assetid: 699dd0f5-7569-40b3-ade6-d0fe53e832bc
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Visualizing and viewing data
 Type visualizers and custom viewers present data in a way that is quickly meaningful to a developer. The expression evaluator (EE) can support third-party type visualizers as well as supply its own custom viewers.

@@ -1,19 +1,22 @@
 ---
 title: Develop tests from a model
+description: Learn how you can use requirements and architectural models to help organize the tests of your system and its components.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "tests and requirements"
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+- tests and requirements
+author: mgoertz-msft
+ms.author: mgoertz
+manager: jmartens
+ms.technology: vs-ide-modeling
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Develop tests from a model
 You can use requirements and architectural models to help you organize the tests of your system and its components. This practice helps ensure that you test the requirements that are important to the users and other stakeholders, and it helps you update the tests quickly when the requirements change. If you use [!INCLUDE[TCMext](../misc/includes/tcmext_md.md)], you can also maintain links between the models and the tests.
 
- To see which versions of Visual Studio support these features, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).
+ To see which versions of Visual Studio support these features, see [Version support for architecture and modeling tools](../modeling/analyze-and-model-your-architecture.md#VersionSupport).
 
 ## System and Subsystem Testing
  *System testing,* also known as *acceptance testing*, means testing whether the users' needs are being met. Such tests are concerned about the externally visible behavior of the system instead of the internal design.
@@ -53,7 +56,7 @@ You can use requirements and architectural models to help you organize the tests
 
 1. In [!INCLUDE[TCMlong](../modeling/includes/tcmlong_md.md)], create a requirement and base a test suite on it.
 
-    The requirement that you create is a work item in [!INCLUDE[vstsTfsShort](../modeling/includes/vststfsshort_md.md)]. It might be a User Story, Requirement, or Use Case work item, depending on the process template that your project uses with Team Foundation. For more information, see [About Agile tools and Agile project management](/azure/devops/boards/backlogs/backlogs-overview?view=vsts).
+    The requirement that you create is a work item in [!INCLUDE[vstsTfsShort](../modeling/includes/vststfsshort_md.md)]. It might be a User Story, Requirement, or Use Case work item, depending on the process template that your project uses with Team Foundation. For more information, see [About Agile tools and Agile project management](/azure/devops/boards/backlogs/backlogs-overview?view=vsts&preserve-view=true).
 
 2. Link the requirement work item to one or more use cases in your model.
 
@@ -141,7 +144,7 @@ Assert (countAfter == countBefore = 1);
 
 1. In [!INCLUDE[TCMlong](../modeling/includes/tcmlong_md.md)], create a requirement and base a test suite on it.
 
-    The requirement that you create is a work item in [!INCLUDE[vstsTfsShort](../modeling/includes/vststfsshort_md.md)]. It might be a User Story, Requirement, or Use Case work item, depending on the process template that your project uses with Team Foundation. For more information, see [About Agile tools and Agile project management](/azure/devops/boards/backlogs/backlogs-overview?view=vsts).
+    The requirement that you create is a work item in [!INCLUDE[vstsTfsShort](../modeling/includes/vststfsshort_md.md)]. It might be a User Story, Requirement, or Use Case work item, depending on the process template that your project uses with Team Foundation. For more information, see [About Agile tools and Agile project management](/azure/devops/boards/backlogs/backlogs-overview?view=vsts&preserve-view=true).
 
 2. Link the requirement work item to one or more elements in your model.
 
@@ -149,7 +152,7 @@ Assert (countAfter == countBefore = 1);
 
 3. Add to the test suite, test cases that verify the requirement expressed in the model element.
 
-## See Also
+## See also
 
 - [Create models for your app](../modeling/create-models-for-your-app.md)
 - [Model user requirements](../modeling/model-user-requirements.md)

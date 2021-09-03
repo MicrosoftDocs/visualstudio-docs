@@ -1,6 +1,8 @@
 ---
 title: "Get started programming VSTO Add-ins"
-ms.date: "02/02/2017"
+description: Learn how you can use VSTO Add-ins to automate Microsoft Office applications, extend features of the application, and customize the application's user interface.
+ms.custom: SEO-VS-2020
+ms.date: "04/28/2021"
 ms.topic: "conceptual"
 f1_keywords:
   - "VST.ProjectItem.Outlook"
@@ -12,11 +14,15 @@ helpviewer_keywords:
   - "add-ins [Office development in Visual Studio], getting started"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
+ms.technology: office-development
 ms.workload:
   - "office"
 ---
 # Get started programming VSTO Add-ins
+> [!IMPORTANT]
+> VSTO relies on the [.NET Framework](/dotnet/framework/get-started/overview). COM add-ins can also be written with the .NET Framework. Office Add-ins cannot be created with [.NET Core and .NET 5+](/dotnet/core/dotnet-five), the latest versions of .NET. This is because .NET Core/.NET 5+ cannot work together with .NET Framework in the same process and may lead to add-in load failures. You can continue to use .NET Framework to write VSTO and COM add-ins for Office. Microsoft will not be updating VSTO or the COM add-in platform to use .NET Core or .NET 5+. You can take advantage of .NET Core and .NET 5+, including ASP.NET Core, to create the server side of [Office Web Add-ins](/office/dev/add-ins/overview/office-add-ins).
+
   You can use VSTO Add-ins to automate Microsoft Office applications, extend features of the application, and customize the user interface (UI) of the application. For information about how VSTO Add-ins compare to other types of Office solutions you can create by using Visual Studio, see [Office solutions development overview &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md).
 
  [!INCLUDE[appliesto_allapp](../vsto/includes/appliesto-allapp-md.md)]
@@ -51,7 +57,7 @@ ms.workload:
 ## Customize the user interface of applications
  There are several different ways to customize the UI of the host application by using a VSTO Add-in:
 
-- For Excel and Word, you can add managed controls to documents. For more information, see [Extend Word documents and Excel workbooks in VSTO Add-ins at runtime](../vsto/extending-word-documents-and-excel-workbooks-in-vsto-add-ins-at-run-time.md).
+- For Excel and Word, you can add managed controls to documents. For more information, see [Extend Word documents and Excel workbooks in VSTO Add-ins at run time](../vsto/extending-word-documents-and-excel-workbooks-in-vsto-add-ins-at-run-time.md).
 
 - You can customize the Ribbon if the application supports it. For more information, see [Ribbon overview](../vsto/ribbon-overview.md).
 

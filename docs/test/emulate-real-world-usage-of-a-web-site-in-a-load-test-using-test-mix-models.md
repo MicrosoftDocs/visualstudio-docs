@@ -1,14 +1,17 @@
 ---
-title: "Emulating Real-World Usage of a website for load testing"
+title: Emulate real-world usage of a website for load testing
+description: Use load modeling options to more accurately predict the expected real-world usage of a website or application that you are load testing. 
+ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "load model, specifying"
-  - "load test load model, specifying"
+- load model, specifying
+- load test load model, specifying
 ms.assetid: b7fae849-0538-40d1-ab35-2bb3a0fe4393
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.technology: vs-ide-test
 ---
 # Test mix models overview
 

@@ -1,18 +1,21 @@
 ---
-title: "Commands and Menus That Use Interop Assemblies | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Commands and Menus That Use Interop Assemblies | Microsoft Docs
+description: Learn about the tasks that must be completed when implementing menu and toolbar commands in a VSPackage by using Interop assemblies. 
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "menus, using interop assemblies"
-  - "interop assemblies, using in commands and menus"
-  - "commands, handling using interop assemblies"
-  - "command handling with interop assemblies"
+- menus, using interop assemblies
+- interop assemblies, using in commands and menus
+- commands, handling using interop assemblies
+- command handling with interop assemblies
 ms.assetid: 8f4af525-39e5-4e69-92c8-d3efabe80bb2
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Commands and menus that use Interop assemblies
 A VSPackage that implements menu and toolbar commands by using Interop assemblies must:

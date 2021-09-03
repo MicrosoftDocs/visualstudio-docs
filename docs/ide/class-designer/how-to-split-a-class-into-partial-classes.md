@@ -1,19 +1,22 @@
 ---
-title: "How to: Split a Class into Partial Classes (Class Designer)"
+title: Split a class into partial classes
+description: Learn how to use the Partial keyword to divide the declaration of a class or structure among several declarations in Class Designer.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
-  - "Class Designer, partial classes"
-  - "partial classes, Class Designer"
+- Class Designer, partial classes
+- partial classes, Class Designer
 ms.assetid: 6f6b0b30-3996-4569-9200-20482b3adf90
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
+ms.technology: vs-ide-general
 dev_langs:
- - CSharp
- - VB
+- CSharp
+- VB
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Split a class into partial classes in Class Designer
 

@@ -1,11 +1,14 @@
 ---
 title: "Use command line profiling methods to get performance data"
+description: Learn how choice of Visual Studio Profiling Tools command-line tools and options depends on factors such as the type of application that you are profiling.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 ms.assetid: 5613fafc-f298-4e7a-9a2d-a853b61cdf9c
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
+monikerRange: 'vs-2017'
 ms.workload:
   - "multiple"
 ---

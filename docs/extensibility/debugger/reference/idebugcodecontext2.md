@@ -1,17 +1,19 @@
 ---
-title: "IDebugCodeContext2 | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "This interface represents the starting position of a code instruction."
+title: IDebugCodeContext2 | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugCodeContext2"
+- IDebugCodeContext2
 helpviewer_keywords:
-  - "IDebugCodeContext2 interface"
+- IDebugCodeContext2 interface
 ms.assetid: 3670439e-2171-405d-9d77-dedb0f1cba93
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IDebugCodeContext2
 This interface represents the starting position of a code instruction. For most run-time architectures today, a code context can be thought of as an address in a program's execution stream.

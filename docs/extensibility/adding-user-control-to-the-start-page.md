@@ -1,17 +1,20 @@
 ---
-title: "Adding User Control to the Start Page | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Adding User Control to the Start Page | Microsoft Docs
+description: Learn how to add a Windows Presentation Foundation (WPF) user control to the Start Page in Visual Studio.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
 helpviewer_keywords:
-  - "start page dll"
-  - "custom start page"
-  - "start page assembly"
+- start page dll
+- custom start page
+- start page assembly
 ms.assetid: 5b7997db-af6f-4fa9-a128-bceb42bddaf1
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 monikerRange: vs-2017
 ---
 # Add user control to the Start Page
@@ -185,5 +188,5 @@ To make this control available to the Start Page project, in the Start Page proj
 
 ## See also
 
-- [WPF container controls](https://msdn.microsoft.com/library/a0177167-d7db-4205-9607-8ae316952566)
+- [WPF container controls](/previous-versions/bb675291(v=vs.110))
 - [Walkthrough: Add custom XAML to the Start Page](../extensibility/walkthrough-adding-custom-xaml-to-the-start-page.md)

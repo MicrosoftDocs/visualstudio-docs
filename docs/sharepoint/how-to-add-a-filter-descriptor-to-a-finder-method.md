@@ -1,7 +1,9 @@
 ---
 title: "How to: Add a Filter Descriptor to a Finder Method | Microsoft Docs"
+description: Know how to add a filter descriptor to a Finder method using the BDC Method Details window in Visual Studio.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: how-to
 dev_langs:
   - "VB"
   - "CSharp"
@@ -12,7 +14,8 @@ helpviewer_keywords:
   - "BDC [SharePoint development in Visual Studio], filter descriptors"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
+ms.technology: sharepoint-development
 ms.workload:
   - "office"
 ---
@@ -45,7 +48,7 @@ ms.workload:
 
 9. In the list that appears for the **Type** property, choose the filtering pattern that you want.
 
-     For example, to create a filter that uses an order date to limit the number of sales orders returned in a Finder method, choose **Comparison**. A Comparison filter ensures that a finder method returns only instances that meet a specific condition. For more information about each filtering pattern, see [Types of Filters Supported by the BDC](http://go.microsoft.com/fwlink/?LinkId=169287).
+     For example, to create a filter that uses an order date to limit the number of sales orders returned in a Finder method, choose **Comparison**. A Comparison filter ensures that a finder method returns only instances that meet a specific condition. For more information about each filtering pattern, see [Types of Filters Supported by the BDC](/previous-versions/office/developer/sharepoint-2010/ee556392(v=office.14)).
 
 10. In the **Properties** window, choose the **Associated Type Descriptors** property.
 
@@ -58,8 +61,8 @@ ms.workload:
     > [!NOTE]
     > Replace the value of the `ServerName` field with the name of your server.
 
-     [!code-csharp[SP_BDC#11](../sharepoint/codesnippet/CSharp/SP_BDC/bdcmodel1/salesorderservice.cs#11)]
-     [!code-vb[SP_BDC#11](../sharepoint/codesnippet/VisualBasic/sp_bdc/bdcmodel1/salesorderservice.vb#11)]
+     :::code language="csharp" source="../sharepoint/codesnippet/CSharp/SP_BDC/bdcmodel1/salesorderservice.cs" id="Snippet11":::
+     :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/sp_bdc/bdcmodel1/salesorderservice.vb" id="Snippet11":::
 
 ## See also
 - [How to: Add a Finder method](../sharepoint/how-to-add-a-finder-method.md)

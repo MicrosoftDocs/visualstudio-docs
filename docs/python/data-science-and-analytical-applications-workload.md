@@ -1,11 +1,12 @@
 ---
 title: Data Science and Analytical Applications workload
 description: This Visual Studio workload brings together Python, F#, and their respective runtime distributions including Anaconda. (R is also included in Visual Studio 2017 only.)
-ms.date: 02/28/2019
+ms.date: 07/28/2021
 ms.topic: overview
 author: JoshuaPartlow
 ms.author: joshuapa
-manager: jillfra
+manager: jmartens
+ms.technology: vs-python
 ms.workload:
   - python
   - data-science
@@ -32,8 +33,8 @@ The Data Science and Analytical Applications workload, which you select and inst
 Python and R are two of the primary scripting languages used for data science. Both languages are easy to learn and are supported by a rich ecosystem of packages. Those packages address a wide range of scenarios such as data acquisition, cleaning, model training, deployment, and plotting. F# is also a powerful functional-first .NET language that’s suited for a wide variety of data processing tasks.
 ::: moniker-end
 
-::: moniker range="vs-2019"
-Python is a primary scripting language used for data science. Python is easy to learn and is supported by a rich ecosystem of packages. Those packages address a wide range of scenarios such as data acquisition, cleaning, model training, deployment, and plotting. F# is also a powerful functional-first .NET language that's suited for a wide variety of data processing tasks. (For the R language we recommend [Azure Notebooks](https://notebooks.azure.com).)
+::: moniker range=">=vs-2019"
+Python is a primary scripting language used for data science. Python is easy to learn and is supported by a rich ecosystem of packages. Those packages address a wide range of scenarios such as data acquisition, cleaning, model training, deployment, and plotting. F# is also a powerful functional-first .NET language that's suited for a wide variety of data processing tasks.)
 ::: moniker-end
 
 <!--Note link on the image because this one is large -->
@@ -43,7 +44,7 @@ Python is a primary scripting language used for data science. Python is easy to 
 
 By default, the workload installs the following options, which you can modify in the summary section for the workload in the Visual Studio installer:
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 - F# desktop language support
 - Python:
   - Python language support
@@ -54,7 +55,7 @@ By default, the workload installs the following options, which you can modify in
 - F# language support
 - Python:
   - Python language support
-  - [Anaconda3 64-bit](https://www.continuum.io), a Python distro that includes extensive data science libraries and a Python interpreter.
+  - [Anaconda3 64-bit](https://anaconda.com), a Python distro that includes extensive data science libraries and a Python interpreter.
   - Python web support
   - Cookiecutter template support
 - R:
@@ -101,7 +102,7 @@ For more information:
 
 In addition to what's in the Data Science and Analytics Applications workload directly, the Azure Notebooks service and the Azure SDK for Python are also helpful for data science.
 
-The Azure SDK for Python makes it easy to consume and manage Microsoft Azure services from applications running on Windows, Mac, and Linux. For more information, see [Azure SDK for Python](../python/azure-sdk-for-python.md).
+The Azure SDK for Python makes it easy to consume and manage Microsoft Azure services from applications running on Windows, Mac, and Linux. For more information, see [Azure SDK for Python](/azure/python/).
 
 Azure Notebooks (currently in preview) provides free online access to Jupyter notebooks running in the cloud on Microsoft Azure. The service includes sample notebooks in Python, R, and F# to get you started. Visit [notebooks.azure.com](https://notebooks.azure.com/).
 

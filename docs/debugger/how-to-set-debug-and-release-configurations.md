@@ -1,36 +1,39 @@
 ---
-title: "Set debug and release configurations | Microsoft Docs"
-ms.date: "10/05/2018"
-ms.topic: "reference"
-f1_keywords:
-  - "vs.debug.builds"
-dev_langs:
-  - "CSharp"
-  - "VB"
-  - "FSharp"
-  - "C++"
-  - "JScript"
-helpviewer_keywords:
-  - "configurations, release"
-  - "build configurations, release"
-  - "projects [Visual Studio], release configurations"
-  - "debugging [Visual Studio], release configurations"
-  - "release builds, changing settings"
-  - "debug builds"
-  - "debug builds, switching to release build"
-  - "debug builds, changing configuration settings"
-  - "debugging [Visual Studio], debug configurations"
-  - "projects [Visual Studio], debug configurations"
-  - "build configurations, debug"
-  - "debug configurations"
-  - "release builds, switching to debug build"
-  - "Visual Basic projects, debug and release builds"
+title: Set debug and release configurations | Microsoft Docs
+description: Set debug and release configurations in Visual Studio. You build the debug version for debugging and the release version for the final release distribution.
+ms.custom: SEO-VS-2020
+ms.date: 10/05/2018
+ms.topic: how-to
+f1_keywords: 
+  - vs.debug.builds
+dev_langs: 
+  - CSharp
+  - VB
+  - FSharp
+  - C++
+  - JScript
+helpviewer_keywords: 
+  - configurations, release
+  - build configurations, release
+  - projects [Visual Studio], release configurations
+  - debugging [Visual Studio], release configurations
+  - release builds, changing settings
+  - debug builds
+  - debug builds, switching to release build
+  - debug builds, changing configuration settings
+  - debugging [Visual Studio], debug configurations
+  - projects [Visual Studio], debug configurations
+  - build configurations, debug
+  - debug configurations
+  - release builds, switching to debug build
+  - Visual Basic projects, debug and release builds
 ms.assetid: 57b6bbb7-f2af-48f7-8773-127d75034ed2
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
-ms.workload:
-  - "multiple"
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.technology: vs-ide-debug
+ms.workload: 
+  - multiple
 ---
 # Set debug and release configurations in Visual Studio
 
@@ -61,7 +64,7 @@ or
 You can choose to generate symbol (.pdb) files and what debug information to include. For most project types, the compiler generates symbol files by default for debug and release builds, while other default settings differ by project type and Visual Studio version.
 
 > [!IMPORTANT]
-> The debugger will load only a .pdb file for an executable file that exactly matches the .pdb file that was created when the executable was built (that is, the .pdb must be the original or a copy of the original .pdb file). For more information, see [Why does Visual Studio require debugger symbol files to exactly match the binary files that they were built with?](https://blogs.msdn.microsoft.com/jimgries/2007/07/06/why-does-visual-studio-require-debugger-symbol-files-to-exactly-match-the-binary-files-that-they-were-built-with/).
+> The debugger will load only a .pdb file for an executable file that exactly matches the .pdb file that was created when the executable was built (that is, the .pdb must be the original or a copy of the original .pdb file). For more information, see [Why does Visual Studio require debugger symbol files to exactly match the binary files that they were built with?](/archive/blogs/jimgries/why-does-visual-studio-require-debugger-symbol-files-to-exactly-match-the-binary-files-that-they-were-built-with).
 
 Each project type may have a different way of setting these options.
 

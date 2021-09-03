@@ -1,15 +1,18 @@
 ---
-title: "How to: Debug .NET Framework source | Microsoft Docs"
-ms.date: "11/19/2018"
-ms.topic: "conceptual"
-helpviewer_keywords:
-  - "debugging, .NET Framework source"
+title: Debug .NET Framework source | Microsoft Docs
+description: Learn how to debug .NET Framework source. You must configure for it and download debugging symbols.
+ms.custom: SEO-VS-2020
+ms.date: 11/19/2018
+ms.topic: how-to
+helpviewer_keywords: 
+  - debugging, .NET Framework source
 ms.assetid: fc12e472-ac6a-4e77-8e22-a769e13a03b8
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
-ms.workload:
-  - "dotnet"
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.technology: vs-ide-debug
+ms.workload: 
+  - dotnet
 ---
 # How to: Debug .NET Framework source
 

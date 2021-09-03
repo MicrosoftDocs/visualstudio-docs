@@ -1,13 +1,16 @@
 ---
-title: "Menus and Commands for Visual Studio | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Menus and Commands for Visual Studio | Microsoft Docs
+description: Learn how command bars allow for flexibility in the user interface when you create new features for Visual Studio.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: reference
 ms.assetid: 0a1ed675-2bd1-4603-ba3a-f40dfb5cfb69
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Menus and Commands for Visual Studio
 ## Command usage

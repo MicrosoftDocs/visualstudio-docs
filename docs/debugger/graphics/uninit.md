@@ -1,11 +1,14 @@
 ---
 title: "UnInit | Microsoft Docs"
+description: Use the UnInit() method of VsgDbg to finalize and close the graphics log file and to free logging resources.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 ms.assetid: 4cd4fc0b-974a-4e61-9ea8-0aaa1a0c52ea
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -23,5 +26,5 @@ void UnInit();
 
  After `UnInit` has been called on an instance of the `VsgDbg` class, a new graphics log file can be created by calling `Init` and finalized by calling `UnInit`. You can repeat this as many times as you want to use the same `VsgDbg` instance to create several independent graphics log files.
 
-## See Also
+## See also
 - [Init](init.md)

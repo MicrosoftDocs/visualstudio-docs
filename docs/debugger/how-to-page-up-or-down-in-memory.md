@@ -1,24 +1,27 @@
 ---
-title: "How to: Page Up or Down in Memory | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-dev_langs:
-  - "CSharp"
-  - "VB"
-  - "FSharp"
-  - "C++"
-  - "JScript"
-helpviewer_keywords:
-  - "debugger, paging up or down in memory"
-  - "memory, paging up or down"
-  - "Disassembly window, viewing memory space"
-  - "Memory window, paging up or down in memory"
+title: Page Up or Down in Memory | Microsoft Docs
+description: See how to page up or down in memory to view memory contents in a Memory window or the Disassembly window when debugging in Visual Studio.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
+dev_langs: 
+  - CSharp
+  - VB
+  - FSharp
+  - C++
+  - JScript
+helpviewer_keywords: 
+  - debugger, paging up or down in memory
+  - memory, paging up or down
+  - Disassembly window, viewing memory space
+  - Memory window, paging up or down in memory
 ms.assetid: 50b30a68-66f6-43f8-a48b-59ce12c95471
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
-ms.workload:
-  - "multiple"
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.technology: vs-ide-debug
+ms.workload: 
+  - multiple
 ---
 # How to: Page Up or Down in Memory
 
@@ -40,7 +43,7 @@ When you view memory contents in a **Memory** window or the **Disassembly** wind
 
 - Click the arrow at the top or bottom of the vertical scrollbar.
 
-## See Also
+## See also
 - [Memory Windows](../debugger/memory-windows.md)
 - [How to: Use the Disassembly Window](../debugger/how-to-use-the-disassembly-window.md)
 - [Viewing Data in the Debugger](../debugger/viewing-data-in-the-debugger.md)

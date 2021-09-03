@@ -1,17 +1,19 @@
 ---
-title: "SccCreateSubProject Function | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+description: "This function creates a subproject with the given name under an existing parent project specified by the lpParentProjPath argument."
+title: SccCreateSubProject Function | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: reference
 f1_keywords:
-  - "SccCreateSubProject"
+- SccCreateSubProject
 helpviewer_keywords:
-  - "SccCreateSubProject function"
+- SccCreateSubProject function
 ms.assetid: 08154aed-ae5c-463c-8694-745d0e332965
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # SccCreateSubProject function
 This function creates a subproject with the given name under an existing parent project specified by the `lpParentProjPath` argument.

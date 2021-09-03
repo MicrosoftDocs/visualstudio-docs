@@ -1,5 +1,7 @@
 ---
 title: "Deploy an Office solution"
+description: You can deploy Office solutions by using ClickOnce or Windows Installer. By using ClickOnce, you reduce the number of steps that deploying your solution requires.
+ms.custom: SEO-VS-2020
 ms.date: "08/14/2019"
 ms.topic: "conceptual"
 dev_langs:
@@ -20,7 +22,8 @@ helpviewer_keywords:
   - "solutions [Office development in Visual Studio], deploying Office solutions (2007 system)"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
+ms.technology: office-development
 ms.workload:
   - "office"
 ---
@@ -33,10 +36,10 @@ ms.workload:
  When you deploy a solution by using ClickOnce, you publish it to a central location where users can install and run it. You can update the solution without having to distribute a new setup program to users.  This deployment option is simpler, but you can't show users custom setup pages. Also, solutions must be installed multiple times on any computer that has more than one user. See [Deploy an Office solution by using ClickOnce](../vsto/deploying-an-office-solution-by-using-clickonce.md).
 
 ## Deploy a solution by using Windows Installer
- When you deploy a solution by using Windows Installer, you distribute a setup program to users, and users install the solution by using that program. The setup program can install a solution for all users of a computer at the same time, rather than the current user only. You also have a bit more control over options that appear to users when they install your solution. For example, you can show a licensing agreement or enable users to install specific components of a solution. However, if you update the solution, you must distribute a new setup program. See [Deploy an Office solution by using Windows Installer](../vsto/deploying-an-office-solution-by-using-windows-installer.md).
+ When you deploy a solution by using Windows Installer, you distribute a setup program to users, and users install the solution by using that program. The setup program can install a solution for all users of a computer at the same time, rather than the current user only. You also have a bit more control over options that appear to users when they install your solution. For example, you can show a licensing agreement or enable users to install specific components of a solution. However, if you update the solution, you must distribute a new setup program. See [Deploy an Office solution by using Windows Installer](../vsto/deploying-a-vsto-solution-by-using-windows-installer.md).
 
 ## See also
 - [Secure Office solutions](../vsto/securing-office-solutions.md)
 - [Deploy an Office solution by using ClickOnce](../vsto/deploying-an-office-solution-by-using-clickonce.md)
-- [Deploy an Office solution by using Windows Installer](../vsto/deploying-an-office-solution-by-using-windows-installer.md)
+- [Deploy an Office solution by using Windows Installer](../vsto/deploying-a-vsto-solution-by-using-windows-installer.md)
 - [Troubleshoot Office solution deployment](../vsto/troubleshooting-office-solution-deployment.md)

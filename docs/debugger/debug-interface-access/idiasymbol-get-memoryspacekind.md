@@ -1,13 +1,15 @@
 ---
+description: "Retrieves the memory space kind."
 title: "IDiaSymbol::get_memorySpaceKind | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 ms.assetid: 9a63b298-8577-4c15-8595-530558d41bf1
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -29,5 +31,5 @@ HRESULT get_memorySpaceKind(
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.
 
-## See Also
+## See also
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

@@ -1,20 +1,22 @@
 ---
-title: "IEnumDebugCodeContexts2::Clone | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Returns a copy of the current code contexts enumeration as a separate object."
+title: IEnumDebugCodeContexts2::Clone | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IEnumDebugCodeContexts2::Clone"
+- IEnumDebugCodeContexts2::Clone
 helpviewer_keywords:
-  - "IEnumDebugCodeContexts2::Clone"
+- IEnumDebugCodeContexts2::Clone
 ms.assetid: 22c98975-4294-4fbd-a345-16f65fe1200d
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IEnumDebugCodeContexts2::Clone
 Returns a copy of the current enumeration as a separate object.

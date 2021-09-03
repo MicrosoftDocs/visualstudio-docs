@@ -1,12 +1,15 @@
 ---
 title: Add parameter to a method quick action
+description: Learn how to use a Quick Action to automatically add and declare a parameter, based on usage, to a method.
+ms.custom: SEO-VS-2020
 ms.date: 09/28/2018
 ms.topic: reference
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
-  - "dotnet"
+- dotnet
 ---
 # Add a parameter to a method using a Quick Action
 
@@ -26,14 +29,14 @@ This code generation applies to:
 
 1. Add an extra argument to a method call.
 
-   A red "squiggly" appears under the name of the method where you call it.
+   A red squiggle appears under the name of the method where you call it.
 
-2. Place your pointer over the red "squiggly" until the Quick Actions menu appears. Select the **down arrow** on the Quick Actions menu, and then select **Add parameter to [method]**.
+2. Place your pointer over the red squiggle until the Quick Actions menu appears. Select the **down arrow** on the Quick Actions menu, and then select **Add parameter to [method]**.
 
    ![Add parameter to method quick action in Visual Studio](media/add-parameter-to-method.png)
 
    > [!TIP]
-   > You can also access the Quick Actions menu by placing your cursor on the line of the method call, and then either pressing **Ctrl**+**.** or selecting the light bulb icon in the file margin.
+   > You can also access the Quick Actions menu by placing your cursor on the line of the method call, and then either pressing **Ctrl**+**.** (period) or selecting the light bulb icon in the file margin.
 
    Visual Studio adds the new parameter to the method declaration.
 

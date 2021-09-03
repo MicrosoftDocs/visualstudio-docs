@@ -1,24 +1,27 @@
 ---
-title: "How to: Manage Updates for a ClickOnce Application | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-f1_keywords:
-  - "Microsoft.VisualStudio.Publish.ClickOnceProvider.Dialog.Update"
-dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-helpviewer_keywords:
-  - "ClickOnce deployment, managing applications"
-  - "ClickOnce deployment, updates"
-  - "updating data, ClickOnce"
-  - "application updates"
+title: Manage Updates for a ClickOnce Application | Microsoft Docs
+description: Learn about options to check for updates automatically or programmatically for your ClickOnce applications.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
+f1_keywords: 
+  - Microsoft.VisualStudio.Publish.ClickOnceProvider.Dialog.Update
+dev_langs: 
+  - VB
+  - CSharp
+  - C++
+helpviewer_keywords: 
+  - ClickOnce deployment, managing applications
+  - ClickOnce deployment, updates
+  - updating data, ClickOnce
+  - application updates
 ms.assetid: a3f23f05-e7f1-4620-b23c-2d68f9643684
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
-ms.workload:
-  - "multiple"
+manager: jmartens
+ms.technology: vs-ide-deployment
+ms.workload: 
+  - multiple
 ---
 # How to: Manage updates for a ClickOnce application
 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] applications can check for updates automatically or programmatically. As a developer, you have lots of flexibility in specifying when and how update checks are performed, whether updates are mandatory, and where the application should check for updates.
@@ -103,6 +106,6 @@ ms.workload:
 - <xref:System.Deployment.Application.ApplicationDeployment>
 - [Application updates dialog box](/previous-versions/visualstudio/visual-studio-2010/axw1fa38(v=vs.100))
 - [Choose a ClickOnce update strategy](../deployment/choosing-a-clickonce-update-strategy.md)
-- [Publish ClickOnce aplications](../deployment/publishing-clickonce-applications.md)
+- [Publish ClickOnce applications](../deployment/publishing-clickonce-applications.md)
 - [How to: Publish a ClickOnce application using the Publish Wizard](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md)
 - [How to: Check for application updates programmatically using the ClickOnce deployment API](../deployment/how-to-check-for-application-updates-programmatically-using-the-clickonce-deployment-api.md)

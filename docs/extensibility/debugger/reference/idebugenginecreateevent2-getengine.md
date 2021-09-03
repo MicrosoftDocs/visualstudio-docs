@@ -1,20 +1,22 @@
 ---
-title: "IDebugEngineCreateEvent2::GetEngine | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Retrieves the object that represents the newly created debug engine (DE)."
+title: IDebugEngineCreateEvent2::GetEngine | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugEngineCreateEvent2::GetEngine"
+- IDebugEngineCreateEvent2::GetEngine
 helpviewer_keywords:
-  - "IDebugEngineCreateEvent2::GetEngine"
+- IDebugEngineCreateEvent2::GetEngine
 ms.assetid: 187d24ed-9f9a-4418-a0ef-b8a19f54652c
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugEngineCreateEvent2::GetEngine
 Retrieves the object that represents the newly created debug engine (DE).

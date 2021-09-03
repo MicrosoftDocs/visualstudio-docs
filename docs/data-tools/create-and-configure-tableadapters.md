@@ -1,19 +1,22 @@
 ---
 title: Create and configure TableAdapters
+description: Review how to create and configure a TableAdapter in Visual Studio. TableAdapters provide communication between your application and a database.
+ms.custom: SEO-VS-2020
 ms.date: 09/01/2017
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
-  - "table adapters, creating"
-  - "creating TableAdapters"
-  - "data [Visual Studio], creating data components"
-  - "data [Visual Studio], TableAdapters"
-  - "data [Visual Studio], creating table adapters"
+- table adapters, creating
+- creating TableAdapters
+- data [Visual Studio], creating data components
+- data [Visual Studio], TableAdapters
+- data [Visual Studio], creating table adapters
 ms.assetid: 08630d69-0d6c-4e8f-b42d-2922f45f8415
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: ghogen
+ms.author: ghogen
+manager: jmartens
+ms.technology: vs-data-tools
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # Create and configure TableAdapters
 

@@ -1,15 +1,18 @@
 ---
-title: "Authoring .Vsct Files | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Authoring .Vsct Files | Microsoft Docs
+description: Learn how to author .vsct files that add menu items, toolbars, and other UI elements to the Visual Studio integrated development environment (IDE).
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "VSCT files, manual authoring"
+- VSCT files, manual authoring
 ms.assetid: e9f715dc-12b7-439b-bdf3-f3dc75e62f1c
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Author .vsct files
 This document shows how to author a *.vsct* file to add menu items, toolbars, and other user interface (UI) elements to the Visual Studio integrated development environment (IDE). Use these steps when you add UI elements to a Visual Studio package (VSPackage) that does not already have a *.vsct* file.
@@ -102,7 +105,7 @@ This document shows how to author a *.vsct* file to add menu items, toolbars, an
        > [!NOTE]
        > Toolbar buttons must have icons.
 
-   For more information, see [MenuCommands vs. OleMenuCommands](../../extensibility/menucommands-vs-olemenucommands.md).
+   For more information, see [MenuCommands vs. OleMenuCommands](/previous-versions/visualstudio/visual-studio-2015/misc/menucommands-vs-olemenucommands?preserve-view=true&view=vs-2015).
 
 4. If any of your commands require icons, add a [Bitmaps](../../extensibility/bitmaps-element.md) element to the `Commands` element. Then, for each icon, add a [Bitmap](../../extensibility/bitmap-element.md) element to the `Bitmaps` element. This is where you specify the location of the bitmap resource. For more information, see [Add icons to menu commands](../../extensibility/adding-icons-to-menu-commands.md).
 

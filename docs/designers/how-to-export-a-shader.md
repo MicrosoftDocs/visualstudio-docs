@@ -1,13 +1,16 @@
 ---
-title: "How to: Export a Shader"
+title: 'How to: Export a Shader'
+description: Learn how to use the Shader Designer to export a Directed Graph Shader Language shader so that you can use it in your app.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 ms.assetid: 0bd48bf4-9792-4456-a545-e462a2be668d
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
+ms.technology: vs-ide-designers
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Export a shader
 

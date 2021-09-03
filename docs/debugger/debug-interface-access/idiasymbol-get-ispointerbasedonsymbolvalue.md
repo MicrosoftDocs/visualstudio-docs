@@ -1,13 +1,15 @@
 ---
+description: "Specifies whether the this pointer is based on a symbol value."
 title: "IDiaSymbol::get_isPointerBasedOnSymbolValue | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 ms.assetid: 577c8011-9269-4373-8577-b4822a983724
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -29,5 +31,5 @@ HRESULT get_isPointerBasedOnSymbolValue(
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.
 
-## See Also
+## See also
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

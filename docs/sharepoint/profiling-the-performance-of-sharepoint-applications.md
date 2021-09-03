@@ -1,5 +1,7 @@
 ---
 title: "Profiling the Performance of SharePoint Applications | Microsoft Docs"
+description: Profile the performance of SharePoint applications if they are running slowly or inefficiently. Use Visual Studio profiling features to find problematic code.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 f1_keywords:
@@ -15,7 +17,8 @@ helpviewer_keywords:
   - "profiling [SharePoint development in Visual Studio]"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
+ms.technology: sharepoint-development
 ms.workload:
   - "office"
 ---
@@ -29,13 +32,13 @@ Profiling refers to the process of observing and recording the performance behav
 
 You can use several profiling tools in the integrated development environment (IDE) to identify and locate these kinds of performance issues. These tools work the same way for SharePoint projects as they do for other kinds of Visual Studio projects. The Profiling Tools Performance Wizard leads you through the creation of a performance session that uses the tests that you specify. A performance session is a set of configuration data that's used for collecting performance information from an application, along with the results of one or more profiling runs. Performance sessions are stored in your project folder, and you can view them in **Performance Explorer**. For more information, see [Understanding Performance Collection Methods](../profiling/understanding-performance-collection-methods.md).
 
-After you create and run a profile analysis on your application, a report provides details about its performance. This report can include items such as a graph of CPU usage over time, a hierarchical function call stack, or a call tree. The exact contents of the report can vary, depending on the type of test that you run, such as sampling or instrumentation. For more information, see [Profiling Tools Report Overview](http://go.microsoft.com/fwlink/?LinkId=224689).
+After you create and run a profile analysis on your application, a report provides details about its performance. This report can include items such as a graph of CPU usage over time, a hierarchical function call stack, or a call tree. The exact contents of the report can vary, depending on the type of test that you run, such as sampling or instrumentation. For more information, see [Profiling Tools Report Overview](../profiling/performance-report-overview.md).
 
 ## Performance session process
 
-To profile an application, you start by using the Profiling Tools Performance Wizard to create a performance session. On the menu bar, choose **Analyze**, **Launch Performance Wizard**. As you complete the wizard, you enter the required information for your performance session, such as the profile method that you want and the application that you want to profile. For more information, see [How to: Profile a Web Site or Web Application Using the Performance Wizard](http://go.microsoft.com/fwlink/?LinkId=224692). As an alternative, you can use command-line options to set up and run a performance session. For more information, see [Using the Profiling Tools From the Command-Line](http://go.microsoft.com/fwlink/?LinkId=224703). If you want to configure every aspect of a performance session manually, see [How to: Manually Create Performance Sessions with the Profiling Tools](http://go.microsoft.com/fwlink/?LinkId=224691). You can also create a performance session from a unit test by, in the **Test Results** window, opening the shortcut menu for the unit test and then choosing **Create Performance Session**.
+To profile an application, you start by using the Profiling Tools Performance Wizard to create a performance session. On the menu bar, choose **Analyze**, **Launch Performance Wizard**. As you complete the wizard, you enter the required information for your performance session, such as the profile method that you want and the application that you want to profile. For more information, see [How to: Profile a Web Site or Web Application Using the Performance Wizard](../profiling/how-to-collect-performance-data-for-a-web-site.md). As an alternative, you can use command-line options to set up and run a performance session. For more information, see [Using the Profiling Tools From the Command-Line](../profiling/using-the-profiling-tools-from-the-command-line.md). If you want to configure every aspect of a performance session manually, see [How to: Manually Create Performance Sessions with the Profiling Tools](../profiling/how-to-manually-create-performance-sessions.md). You can also create a performance session from a unit test by, in the **Test Results** window, opening the shortcut menu for the unit test and then choosing **Create Performance Session**.
 
-After you set up a performance session, the session configuration is saved, the server is configured to provide profiling data, and the application runs. As you use the application, performance data is written to a log file. Performance sessions are listed in **Performance Explorer** under the **Targets** folder. After a performance session finishes, its report appears in the **Reports** folder in **Performance Explorer**. To display the report, open it in **Performance Explorer**. To view or configure the properties of a performance session, open its shortcut menu in **Performance Explorer**, and then choose **Properties**. For more information about specific properties of a performance session, see [Configuring Performance Sessions for Profiling Tools](http://go.microsoft.com/fwlink/?LinkId=224694). For information about how to interpret the results of a performance session, see [Analyzing Profiling Tools Data](http://go.microsoft.com/fwlink/?LinkId=224704).
+After you set up a performance session, the session configuration is saved, the server is configured to provide profiling data, and the application runs. As you use the application, performance data is written to a log file. Performance sessions are listed in **Performance Explorer** under the **Targets** folder. After a performance session finishes, its report appears in the **Reports** folder in **Performance Explorer**. To display the report, open it in **Performance Explorer**. To view or configure the properties of a performance session, open its shortcut menu in **Performance Explorer**, and then choose **Properties**. For more information about specific properties of a performance session, see [Configuring Performance Sessions for Profiling Tools](../profiling/configuring-performance-sessions.md). For information about how to interpret the results of a performance session, see [Analyzing Profiling Tools Data](../profiling/analyzing-performance-tools-data.md).
 
 ## Stress test
 
@@ -49,16 +52,16 @@ Web performance tests simulate how an end user might interact with a SharePoint 
 
 ## Test user interfaces
 
-Coded UI tests automatically drive your SharePoint application through its user interface (UI). These tests cover the UI controls, such as buttons and menus, to verify that they function correctly. This kind of testing is particularly useful if validation or other logic is performed in the UI, such as in a web page. You can also use coded UI tests to automate manual tests. You creating coded UI tests for your SharePoint applications in the same way as you create tests for other types of applications. For more information, see [Testing SharePoint 2010 Applications with Coded UI Tests](../test/testing-sharepoint-2010-applications-with-coded-ui-tests.md).
+Coded UI tests automatically drive your SharePoint application through its user interface (UI). These tests cover the UI controls, such as buttons and menus, to verify that they function correctly. This kind of testing is particularly useful if validation or other logic is performed in the UI, such as in a web page. You can also use coded UI tests to automate manual tests. You creating coded UI tests for your SharePoint applications in the same way as you create tests for other types of applications. For more information, see [Testing SharePoint 2010 Applications with Coded UI Tests](/previous-versions/visualstudio/visual-studio-2015/test/testing-sharepoint-2010-applications-with-coded-ui-tests?preserve-view=true&view=vs-2015).
 
 ## Related topics
 
 |Title|Description|
 |-----------|-----------------|
 |[Walkthrough: Profile a SharePoint application](../sharepoint/walkthrough-profiling-a-sharepoint-application.md)|Demonstrates how to perform a sampling profile analysis on a SharePoint application.|
-|[Performance test your app before release](/azure/devops/test/load-test/run-performance-tests-app-before-release?view=vsts)|Describes how to create load tests, which help you stress test SharePoint applications.|
+|[Performance test your app before release](/azure/devops/test/load-test/run-performance-tests-app-before-release?view=vsts&preserve-view=true)|Describes how to create load tests, which help you stress test SharePoint applications.|
 |[Unit Test Your Code](../test/unit-test-your-code.md)|Describes how to find logic errors in your code by using unit tests.|
-|[Testing SharePoint 2010 Applications with Coded UI Tests](../test/testing-sharepoint-2010-applications-with-coded-ui-tests.md)|Describes how to test the user interface of your SharePoint applications.|
+|[Testing SharePoint 2010 Applications with Coded UI Tests](/previous-versions/visualstudio/visual-studio-2015/test/testing-sharepoint-2010-applications-with-coded-ui-tests?preserve-view=true&view=vs-2015)|Describes how to test the user interface of your SharePoint applications.|
 
 ## See also
 

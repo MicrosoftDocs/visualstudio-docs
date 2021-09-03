@@ -1,6 +1,8 @@
 ---
 title: "Debugging Managed Code | Microsoft Docs"
-ms.date: "11/04/2016"
+description: See common debugging problems and techniques in Visual Studio for managed applications, or apps written in languages targeting the common language runtime.
+ms.custom: SEO-VS-2020
+ms.date: "09/23/2019"
 ms.topic: "conceptual"
 dev_langs:
   - "CSharp"
@@ -13,13 +15,14 @@ helpviewer_keywords:
   - "managed code, debugging"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "dotnet"
 ---
-# Debugging Managed Code
+# Debug Managed Code (C#, Visual Basic, F#, C++/CLI)
 
-This section covers common debugging problems and techniques for managed applications, or applications written in languages that target the common language runtime, such as Visual Basic, C#, and C++. The techniques described here are high-level techniques. [First look at the debugger](../debugger/debugger-feature-tour.md).
+This section covers common debugging problems and techniques for managed applications, or applications written in languages that target the common language runtime, such as Visual Basic, C#, and C++/CLI. The techniques described here are high-level techniques. [First look at the debugger](../debugger/debugger-feature-tour.md).
 
 ## In This Section
 
@@ -68,14 +71,14 @@ Describes a linker option that adds <xref:System.Diagnostics.DebuggableAttribute
 Provides considerations for debugging Windows service applications, including setting up, attaching to the process, debugging the code in the service's `OnStart` method and the code in the Main method, setting breakpoints, and using the Services Control Manager to start, stop, pause, and continue your service.
 
 [Debugging and Profiling](/dotnet/framework/debug-trace-profile/index)\
-Discusses debugging .NET Framework applications and the configuration requirements.
+Discusses debugging .NET applications and the configuration requirements.
 
-[Debugging Script and Web Applications](/visualstudio/debugger/how-to-enable-debugging-for-aspnet-applications)\
+[Debugging Script and Web Applications](how-to-enable-debugging-for-aspnet-applications.md)\
 Describes common debugging problems and techniques you may encounter when debugging script and Web applications.
 
 ## See also
 
 - [Walkthrough: Debug Custom Windows Forms Controls at Design Time](/dotnet/framework/winforms/controls/walkthrough-debugging-custom-windows-forms-controls-at-design-time)
 - [Debugger Security](../debugger/debugger-security.md)
-- [Debugging in Visual Studio](../debugger/index.md)
+- [Debugging in Visual Studio](../debugger/index.yml)
 - [First look at the debugger](../debugger/debugger-feature-tour.md)

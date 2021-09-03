@@ -2,10 +2,12 @@
 title: Remote workspaces for R
 description: How to set up remote R workspaces and connect to it from Visual Studio.
 ms.date: 12/04/2017
+ms.prod: visual-studio-dev15
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb
-manager: jillfra
+manager: jmartens
+ms.technology: vs-rtvs
 ms.workload:
   - data-science
 ---
@@ -138,7 +140,7 @@ To run R code, the remote computer must have an R interpreter installed as follo
 
      Both have identical functionality, but Microsoft R Open benefits from additional hardware accelerated linear algebra libraries courtesy of the [Intel Math Kernel Library](https://software.intel.com/intel-mkl).
 
-2. Run the [R Services installer](https://aka.ms/rtvs-services) and reboot when prompted. The installer does the following:
+2. Run the [R Services installer](https://github.com/Microsoft/RTVS/blob/master/doc/rtvsd/rtvs-remote-downloads.md) and reboot when prompted. The installer does the following:
 
     - Create a folder in *%PROGRAMFILES%\R Tools for Visual Studio\1.0\\* and copy all the required binaries.
     - Install `RHostBrokerService` and `RUserProfileService` and configure to start automatically.
@@ -173,7 +175,7 @@ With R services running on the remote computer, you also need to create user acc
 
 1. Firewall rules: By default, the `R Host Broker` listens on TCP port 5444. Therefore, ensure that there are Windows firewall rules enabled for both inbound and outbound traffic (outbound is needed for installing packages and similar scenarios).  The R services installer sets these rules automatically for the built-in Windows firewall. If you're using a third-party firewall, however, open port 5444 for `R Host Broker` manually.
 
-1. Azure configuration: If your remote computer is a virtual machine on Azure, open port 5444 for incoming traffic within Azure networking as well, which is independent of the Windows firewall. For details, see [Filter network traffic with network security group](https://docs.microsoft.com/azure/virtual-network/virtual-networks-nsg) in the Azure documentation.
+1. Azure configuration: If your remote computer is a virtual machine on Azure, open port 5444 for incoming traffic within Azure networking as well, which is independent of the Windows firewall. For details, see [Filter network traffic with network security group](/azure/virtual-network/virtual-networks-nsg) in the Azure documentation.
 
 1. Tell the R Host Broker which SSL certificate to load: If you're installing the certificate on an Intranet server, it is likely that the fully-qualified domain name of your server is the same as its NETBIOS name. In this case, there is nothing that you need to do, as this is the default certificate that is loaded.
 

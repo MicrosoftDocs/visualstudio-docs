@@ -1,5 +1,7 @@
 ---
 title: "Stale Code Warning Dialog Box | Microsoft Docs"
+description: Read about the Stale Code Warning dialog box, which appears when you've made changes to native code that Edit and Continue couldn't immediately apply.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:
@@ -17,7 +19,8 @@ helpviewer_keywords:
 ms.assetid: 594b894c-e652-4e13-a980-9909473d5712
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -29,7 +32,7 @@ This dialog box appears when you have made changes to native code that **Edit an
 
 If you select this check box, Edit and Continue will apply code changes without asking permission in the future. You can turn this warning on again by going to the **Options** dialog box, opening the **Debugging** Folder, clicking the **Edit and Continue** page, and selecting **Warn about stale code**.
 
-## See Also
+## See also
 
 - [Supported Code Changes (C++)](supported-code-changes-cpp.md)
 - [Edit and Continue, Debugging, Options Dialog Box](edit-and-continue.md)

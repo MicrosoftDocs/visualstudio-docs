@@ -1,17 +1,20 @@
 ---
 title: Code Snippet Functions
+description: Learn about the GenerateSwitchCases(EnumerationLiteral), ClassName(), and SimpleTypeName(TypeName) functions available to use with C# code snippets.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "code snippets [Visual Studio], functions"
-  - "snippets [Visual Studio], functions"
-  - "IntelliSense code snippets, functions"
+- code snippets [Visual Studio], functions
+- snippets [Visual Studio], functions
+- IntelliSense code snippets, functions
 ms.assetid: c0a2bf21-8fa5-4457-9281-f599beb53e7d
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Code snippet functions
 

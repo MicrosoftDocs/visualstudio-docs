@@ -3,11 +3,12 @@ title: Introduce a local variable
 description: Generate a local variable to replace an existing expression. Select the expression, right-click and select the Quick Actions and Refactorings menu, select Introduce local for (all occurrences) of 'expression'.
 ms.date: 01/26/2018
 ms.topic: reference
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
-  - "dotnet"
+- dotnet
 ---
 # Introduce a local variable in Visual Studio
 
@@ -41,7 +42,7 @@ This code generation applies to:
       - Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
    - **Mouse**
       - Right-click and select the **Quick Actions and Refactorings** menu.
-      - Click the ![screwdriver](media/screwdriver.png) icon that appears in the left margin if the text cursor is already on the line with the highlighted expression.
+      - Click the ![Screenshot of the screwdriver icon that appears in the left margin of the Quick Actions and Refactorings menu.](media/screwdriver.png) icon that appears in the left margin if the text cursor is already on the line with the highlighted expression.
 
    ![Introduce local preview](media/local-preview-cs.png)
 

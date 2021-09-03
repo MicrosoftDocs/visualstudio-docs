@@ -1,5 +1,7 @@
 ---
 title: "Assertions in Managed Code | Microsoft Docs"
+description: Learn about assertions as a debugging tool for C#, Visual Basic, or F# managed code in Visual Studio.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:
@@ -19,7 +21,8 @@ helpviewer_keywords:
 ms.assetid: 70ab2522-6486-4076-a1a9-e0f11cd0f3a1
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "dotnet"
 ---
@@ -60,8 +63,10 @@ End Function
 
 ```csharp
 int IntegerDivide ( int dividend , int divisor )
-    { Debug.Assert ( divisor != 0 );
-        return ( dividend / divisor ); }
+{
+    Debug.Assert ( divisor != 0 );
+    return ( dividend / divisor );
+}
 ```
 
  When you run this code under the debugger, the assertion statement is evaluated, but in the Release version, the comparison is not made, so there is no additional overhead.
@@ -163,7 +168,7 @@ Debug.Assert ( stacksize > 0 );
 Trace.Assert ( stacksize > 0 );
 ```
 
- The second and third arguments, if present, must be strings. If you call <xref:System.Diagnostics.Trace.Assert%2A?displayProperty=fullName> or <xref:System.Diagnostics.Debug.Assert%2A?displayProperty=fullName> with two or three arguments, the first argument is a condition. The method checks the condition and, if the result is false, outputs the second string and third strings. The following example shows <xref:System.Diagnostics.Debug.Assert(System.Boolean,System.String)?displayProperty=fullName> and <xref:System.Diagnostics.Trace.Assert(System.Boolean,System.String)?displayProperty=fullName> used with two arguments:
+  The second and third arguments, if present, must be strings. If you call <xref:System.Diagnostics.Trace.Assert%2A?displayProperty=fullName> or <xref:System.Diagnostics.Debug.Assert%2A?displayProperty=fullName> with two or three arguments, the first argument is a condition. The method checks the condition and, if the result is false, outputs the second string and third strings. The following example shows <xref:System.Diagnostics.Debug.Assert(System.Boolean,System.String)?displayProperty=fullName> and <xref:System.Diagnostics.Trace.Assert(System.Boolean,System.String)?displayProperty=fullName> used with two arguments:
 
 ```VB
 Debug.Assert(stacksize > 0, "Out of stack space")
@@ -175,7 +180,7 @@ Debug.Assert ( stacksize > 0, "Out of stack space" );
 Trace.Assert ( stacksize > 0, "Out of stack space" );
 ```
 
- The following example shows <xref:System.Diagnostics.Debug.Assert%2A> and <xref:System.Diagnostics.Trace.Assert%2A>:
+  The following example shows <xref:System.Diagnostics.Debug.Assert(System.Boolean,System.String,System.String)?displayProperty=fullName> and <xref:System.Diagnostics.Trace.Assert(System.Boolean,System.String,System.String)?displayProperty=fullName> used with three arguments:
 
 ```VB
 Debug.Assert(stacksize > 0, "Out of stack space. Bytes left:" , Format(size, "G"))
@@ -206,7 +211,7 @@ Trace.Assert ( stacksize > 0, "Out of stack space", "Failed in inctemp" );
 ## <a name="BKMK_Setting_assertions_in_configuration_files"></a> Setting assertions in configuration files
  You can set assertions in your program configuration file as well as in your code. For more information, see <xref:System.Diagnostics.Trace.Assert%2A?displayProperty=fullName> or <xref:System.Diagnostics.Debug.Assert%2A?displayProperty=fullName>.
 
-## See Also
+## See also
 
 - <xref:System.Diagnostics.Debug.Assert%2A?displayProperty=fullName>
 - <xref:System.Diagnostics.Trace.Assert%2A?displayProperty=fullName>

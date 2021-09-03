@@ -1,15 +1,18 @@
 ---
-title: "Choosing the Installation Directory for a VSPackage | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Choosing the Installation Directory for a VSPackage | Microsoft Docs
+description: Learn how to choose the installation directory for a VSPackage and its supporting files, by using factors such as whether it is managed or unmanaged.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "VSPackages, installation directory"
+- VSPackages, installation directory
 ms.assetid: 01fbbb5b-f747-446c-afe0-2a081626a945
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Choose the installation directory for a VSPackage
 A VSPackage and its supporting files must be on a user's file system. The location depends on whether the VSPackage is managed or unmanaged, your side-by-side versioning scheme, and user choice.
@@ -56,4 +59,4 @@ If your VSPackage DLL includes resources and the **SatelliteDll\DllName** regist
 ## See also
 - [Choose between shared and versioned VSPackages](../../extensibility/choosing-between-shared-and-versioned-vspackages.md)
 - [Manage VSPackages](../../extensibility/managing-vspackages.md)
-- [Manage package registration](https://msdn.microsoft.com/library/f69e0ea3-6a92-4639-8ca9-4c9c210e58a1)
+- [Manage package registration](/previous-versions/bb166783(v=vs.100))

@@ -1,19 +1,21 @@
 ---
-title: "IDebugModOpt::GetModOpts | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Retrieves a list of optional modifiers."
+title: IDebugModOpt::GetModOpts | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "IDebugModOpt::GetModOpts"
-  - "GetModOpts"
+- IDebugModOpt::GetModOpts
+- GetModOpts
 ms.assetid: cb513fa9-d521-4a65-b968-f55f53a368df
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugModOpt::GetModOpts
 Retrieves a list of optional modifiers.

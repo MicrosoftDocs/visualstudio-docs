@@ -1,7 +1,8 @@
 ---
+description: "Retrieves a flag that specifies whether the user-defined data type (UDT) is volatile."
 title: "IDiaSymbol::get_volatileType | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,8 @@ helpviewer_keywords:
 ms.assetid: 19782a4d-40a8-467b-ab7d-58bc4d812309
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -38,5 +40,5 @@ HRESULT get_volatileType ( 
 ## Remarks
  In C++, a UDT can be marked with the `volatile` keyword, indicating that its contents cannot be assumed to exist from one access to the next.
 
-## See Also
+## See also
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

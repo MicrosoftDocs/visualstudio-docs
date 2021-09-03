@@ -1,8 +1,10 @@
 ---
 title: "&lt;application&gt; element (Office development in Visual Studio)"
+description: Learn how the application element of the vstav3 namespace wraps the description of Office solutions.
+ms.custom: SEO-VS-2020
 titleSuffix: ""
 ms.date: 02/02/2017
-ms.topic: conceptual
+ms.topic: reference
 dev_langs:
   - "VB"
   - "CSharp"
@@ -10,7 +12,8 @@ helpviewer_keywords:
   - "application manifests [Office development in Visual Studio], <application> element"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
+ms.technology: office-development
 ms.workload:
   - "office"
 ---

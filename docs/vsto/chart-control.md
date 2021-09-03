@@ -1,5 +1,7 @@
 ---
 title: "Chart control"
+description: Learn that when you add a chart to a worksheet, Visual Studio creates a chart object that you can program against directly.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 f1_keywords:
@@ -13,7 +15,8 @@ helpviewer_keywords:
   - "Chart control [Office development in Visual Studio], data binding"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
+ms.technology: office-development
 ms.workload:
   - "office"
 ---
@@ -23,12 +26,12 @@ ms.workload:
  [!INCLUDE[appliesto_xlalldocapp](../vsto/includes/appliesto-xlalldocapp-md.md)]
 
 ## Create the control
- You can add <xref:Microsoft.Office.Tools.Excel.Chart> controls to a Microsoft Office Excel worksheet at design time or at runtime in a document-level project.
+ You can add <xref:Microsoft.Office.Tools.Excel.Chart> controls to a Microsoft Office Excel worksheet at design time or at run time in a document-level project.
 
- You can add <xref:Microsoft.Office.Tools.Excel.Chart> controls to a worksheet at runtime in a VSTO Add-in. For more information, see [How to: Add Chart controls to worksheets](../vsto/how-to-add-chart-controls-to-worksheets.md).
+ You can add <xref:Microsoft.Office.Tools.Excel.Chart> controls to a worksheet at run time in a VSTO Add-in. For more information, see [How to: Add Chart controls to worksheets](../vsto/how-to-add-chart-controls-to-worksheets.md).
 
 > [!NOTE]
-> Dynamically created chart objects are not persisted in the worksheet as host controls when the worksheet is closed. For more information, see [Add controls to Office documents at runtime](../vsto/adding-controls-to-office-documents-at-run-time.md).
+> Dynamically created chart objects are not persisted in the worksheet as host controls when the worksheet is closed. For more information, see [Add controls to Office documents at run time](../vsto/adding-controls-to-office-documents-at-run-time.md).
 
 ## Formatting
  All formatting that can be applied to a <xref:Microsoft.Office.Interop.Excel.Chart> can also be applied to a <xref:Microsoft.Office.Tools.Excel.Chart> control. This includes borders, fonts, chart type, gridlines, legend, and data labels.
@@ -68,9 +71,9 @@ ms.workload:
 
 ## See also
 - [Office development samples and walkthroughs](../vsto/office-development-samples-and-walkthroughs.md)
-- [Extend Word documents and Excel workbooks in VSTO Add-ins at runtime](../vsto/extending-word-documents-and-excel-workbooks-in-vsto-add-ins-at-run-time.md)
+- [Extend Word documents and Excel workbooks in VSTO Add-ins at run time](../vsto/extending-word-documents-and-excel-workbooks-in-vsto-add-ins-at-run-time.md)
 - [Controls on Office documents](../vsto/controls-on-office-documents.md)
-- [Add controls to Office documents at runtime](../vsto/adding-controls-to-office-documents-at-run-time.md)
+- [Add controls to Office documents at run time](../vsto/adding-controls-to-office-documents-at-run-time.md)
 - [Automate Excel by using extended objects](../vsto/automating-excel-by-using-extended-objects.md)
 - [How to: Add Chart controls to worksheets](../vsto/how-to-add-chart-controls-to-worksheets.md)
 - [Bind data to controls in Office solutions](../vsto/binding-data-to-controls-in-office-solutions.md)

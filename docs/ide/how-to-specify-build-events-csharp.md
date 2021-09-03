@@ -1,20 +1,22 @@
 ---
-title: "How to: Specify build events (C#)"
+title: 'How to: Specify build events (C#)'
+description: Learn how to use build events to specify commands that run before the build starts or after the build finishes.
+ms.custom: SEO-VS-2020
 ms.date: 03/21/2019
 ms.technology: vs-ide-compile
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
-  - "pre-build events"
-  - "events [Visual Studio], builds"
-  - "post-build events"
-  - "build events [Visual Studio]"
-  - "builds [Visual Studio], events"
+- pre-build events
+- events [Visual Studio], builds
+- post-build events
+- build events [Visual Studio]
+- builds [Visual Studio], events
 ms.assetid: b4ce1ad9-5215-4b6f-b6a2-798b249aa335
 author: ghogen
 ms.author: ghogen
-manager: jillfra
+manager: jmartens
 ms.workload:
-  - "dotnet"
+- dotnet
 ---
 # How to: Specify build events (C#)
 
@@ -66,7 +68,7 @@ The following procedure shows how to set the minimum operating system version in
 
 1. Create a new **Console App** project for the command. Name the project **ChangeOSVersionCS**.
 
-2. In *Program.cs*, add the following line to the other `using` statements at the top of the file:
+2. In *Program.cs*, add the following line to the other `using` directives at the top of the file:
 
    ```csharp
    using System.Xml;

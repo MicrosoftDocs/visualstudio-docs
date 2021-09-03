@@ -1,5 +1,7 @@
 ---
 title: "Registry entries for VSTO Add-ins"
+description: Learn how you can create a specific set of registry entries when you deploy VSTO Add-ins that are created by using Visual Studio.
+ms.custom: SEO-VS-2020
 ms.date: "08/14/2019"
 ms.topic: "conceptual"
 dev_langs:
@@ -13,7 +15,8 @@ helpviewer_keywords:
   - "registry entries [Office development in Visual Studio]"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
+ms.technology: office-development
 ms.workload:
   - "office"
 ---
@@ -40,30 +43,23 @@ ms.workload:
 
   All VSTO Add-ins that you create by using Visual Studio can be registered for the current user. However, VSTO Add-ins can be registered for all users only in certain scenarios. These scenarios depend on the version of Microsoft Office on the computer and how the VSTO Add-in was deployed.
 
-### Microsoft Office version
- Office applications can load VSTO Add-ins that are registered under **HKEY_LOCAL_MACHINE** or **HKEY_CURRENT_USER**.
-
- To load VSTO Add-ins that are registered under **HKEY_LOCAL_MACHINE**, computers must have update package 976477 installed. For more information, see [http://go.microsoft.com/fwlink/?LinkId=184923](http://go.microsoft.com/fwlink/?LinkId=184923).
-
 ### Deployment type
- If you use ClickOnce to deploy a VSTO Add-in, the VSTO Add-in can be registered only for the current user. This is because ClickOnce only supports creating keys under **HKEY_CURRENT_USER**. If you want to register a VSTO Add-in to all users on a computer, you must use Windows Installer to deploy the VSTO Add-in. For more information about these deployment types, see [Deploy an Office solution by using ClickOnce](../vsto/deploying-an-office-solution-by-using-clickonce.md) and [Deploy an Office solution by using Windows Installer](../vsto/deploying-an-office-solution-by-using-windows-installer.md).
+ If you use ClickOnce to deploy a VSTO Add-in, the VSTO Add-in can be registered only for the current user. This is because ClickOnce only supports creating keys under **HKEY_CURRENT_USER**. If you want to register a VSTO Add-in to all users on a computer, you must use Windows Installer to deploy the VSTO Add-in. For more information about these deployment types, see [Deploy an Office solution by using ClickOnce](../vsto/deploying-an-office-solution-by-using-clickonce.md) and [Deploy an Office solution by using Windows Installer](../vsto/deploying-a-vsto-solution-by-using-windows-installer.md).
 
 ## Registry entries
- The required VSTO Add-in registry entries are located under the following registry key for all applications except Visio, where *Root* is **HKEY_CURRENT_USER** or **HKEY_LOCAL_MACHINE**.
+ The required VSTO Add-in registry entries are located under the following registry keys where *Root* is **HKEY_CURRENT_USER** or **HKEY_LOCAL_MACHINE** depending if the installation is for the current user or all users.
 
- **All applications except for Visio**
+|Office Application|Configuration Path|
+|------------------|------------------|
+|Visio|*Root*\Software\Microsoft\\*Visio*\Addins\\*add-in ID*|
+|All Other|*Root*\Software\Microsoft\Office\\*Office application name*\Addins\\*add-in ID*|
 
-|Office version|Configuration Path|
-|--------------------|------------------------|
-|32-bit|*Root*\Software\Microsoft\Office\\*application name*\Addins\\*add-in ID*|
-|64-bit|*Root*\Software\Wow6432Node\Microsoft\Office\\*application name*\Addins\\*add-in ID*|
-
- **Visio**
-
-|Office version|Configuration Path|
-|--------------------|------------------------|
-|32-bit|*Root*\Software\Microsoft\Visio\Addins\\*add-in ID*|
-|64-bit|*Root*\Software\Wow6432Node\Visio\Addins\\*add-in ID*|
+> [!NOTE]
+> If the installer is targeting all users on 64-bit Windows, it is recommended that it includes two registry entries, one under the HKEY_LOCAL_MACHINE\Software\Microsoft and one under the HKEY_LOCAL_MACHINE\Software\\**WOW6432Node**\Microsoft hive. This is because it's possible for users to use either 32-bit or 64-bit versions of Office on the computer.
+>
+>If the Installer is targeting the current user, it does not need to install to the WOW6432Node because the HKEY_CURRENT_USER\Software path is shared.
+>
+>For more information please see [32-bit and 64-bit Application Data in the Registry](/windows/win32/sysinfo/32-bit-and-64-bit-application-data-in-the-registry)
 
  The following table lists the entries under this registry key.
 
@@ -72,7 +68,7 @@ ms.workload:
 |**Description**|REG_SZ|Required. A brief description of the VSTO Add-in.<br /><br /> This description is displayed when the user selects the VSTO Add-in in the **Add-Ins** pane of the **Options** dialog box in the Microsoft Office application.|
 |**FriendlyName**|REG_SZ|Required. A descriptive name of the VSTO Add-in that is displayed in the **COM Add-Ins** dialog box in the Microsoft Office application. The default value is the VSTO Add-in ID.|
 |**LoadBehavior**|REG_DWORD|Required. A value that specifies when the application attempts to load the VSTO Add-in and the current state of the VSTO Add-in (loaded or unloaded).<br /><br /> By default, this entry is set to 3, which specifies that the VSTO Add-in is loaded at startup. For more information, see [LoadBehavior values](#LoadBehavior). **Note:**  If a user disables the VSTO Add-in, that action modifies **LoadBehavior** value in the **HKEY_CURRENT_USER** registry hive. For each user, the value of the **LoadBehavior** value in the HKEY_CURRENT_USER hive overrides the default **LoadBehavior** defined in the **HKEY_LOCAL_MACHINE** hive.|
-|**Manifest**|REG_SZ|Required. The full path of the deployment manifest for the VSTO Add-in. The path can be a location on the local computer, a network share (UNC), or a Web server (HTTP).<br /><br /> If you use Windows Installer to deploy the solution, you must add the prefix **file:///** to the **manifest** path. You must also append the string **&#124;vstolocal** (that is, the pipe character **&#124;** followed by **vstolocal**) to the end of this path. This ensures that your solution is loaded from the installation folder, rather than the ClickOnce cache. For more information, see [Deploy an Office solution by using Windows Installer](../vsto/deploying-an-office-solution-by-using-windows-installer.md). **Note:**  When you build a VSTO Add-in on the development computer, Visual Studio automatically appends the **&#124;vstolocal** string to this registry entry.|
+|**Manifest**|REG_SZ|Required. The full path of the deployment manifest for the VSTO Add-in. The path can be a location on the local computer, a network share (UNC), or a Web server (HTTP).<br /><br /> If you use Windows Installer to deploy the solution, you must add the prefix **file:///** to the **manifest** path. You must also append the string **&#124;vstolocal** (that is, the pipe character **&#124;** followed by **vstolocal**) to the end of this path. This ensures that your solution is loaded from the installation folder, rather than the ClickOnce cache. For more information, see [Deploy an Office solution by using Windows Installer](../vsto/deploying-a-vsto-solution-by-using-windows-installer.md). **Note:**  When you build a VSTO Add-in on the development computer, Visual Studio automatically appends the **&#124;vstolocal** string to this registry entry.|
 
 ### <a name="OutlookEntries"></a> Registry entries for Outlook form regions
  If you create a custom form region in a VSTO Add-in for Outlook, additional registry entries are used to register the form region with Outlook. These entries are created under a different registry key for each message class that the form region supports. These registry keys are in the following location, where *Root* is **HKEY_CURRENT_USER** or **HKEY_LOCAL_MACHINE**.
@@ -105,3 +101,4 @@ ms.workload:
 - [Architecture of VSTO Add-ins](../vsto/architecture-of-vsto-add-ins.md)
 - [Build Office solutions](../vsto/building-office-solutions.md)
 - [Deploy an Office solution](../vsto/deploying-an-office-solution.md)
+ 

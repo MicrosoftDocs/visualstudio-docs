@@ -1,13 +1,16 @@
 ---
-title: "Configuring Load Test Run Settings"
+title: Configuring Load Test Run Settings
+description: Learn about run settings, which are properties that influence the way a load test runs. Run settings are organized by categories in the Properties window.
+ms.custom: SEO-VS-2020
 ms.date: 10/03/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
-  - "load tests, configuring run settings"
+  - load tests, configuring run settings
 ms.assetid: 0c86918b-cd63-4468-8f49-6d547a1276dc
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.technology: vs-ide-test
 ---
 # Configure load test run settings
 
@@ -31,6 +34,6 @@ The initial run setting is created when you create a load test by using the **Ne
 |**Specify test iteration count in load test run settings:** You can specify the number of times to run all of the web performance and unit tests in all of the scenarios of your load tests by configuring the **Test Iterations** property.|-   [How to: Specify the number of test iterations in a run setting](../test/how-to-specify-the-number-of-test-iterations-in-a-load-test.md)|
 |**Specify the sampling rate for a load test run setting:** You can specify how frequently to have the load test collect performance counter data by configuring the **Sample Rate** property.|-   [How to: Specify the sample rate](../test/how-to-specify-the-sample-rate-for-a-load-test.md)|
 |**Specify the timing details storage option:** You can specify how you want the details of the load test saved by configuring the **Timing Details Storage** property.|-   [How to: Specify the timing details storage property](../test/how-to-specify-the-timing-details-storage-property-for-a-load-test.md)|
-|**Specify the test resource retention period:** Speed up the test > fix > retest cycle by retaining the test resources for a specified period by setting the **Resources Retention Time** property.|-   [Retain the resources to speed up load testing](/azure/devops/test/load-test/getting-started-with-performance-testing?view=vsts)|
+|**Specify the test resource retention period:** Speed up the test > fix > retest cycle by retaining the test resources for a specified period by setting the **Resources Retention Time** property.|-   [Retain the resources to speed up load testing](/azure/devops/test/load-test/getting-started-with-performance-testing?view=vsts&preserve-view=true)|
 |**Use context parameters:** You can use context parameters to parameterize a string. For example, if your load test contains a web performance test that uses a parameterized web server, you can add a context parameter to the run settings that maps to a different server.|-   [How to: Add context parameters to a run setting](../test/how-to-add-context-parameters-to-a-load-test-run-setting.md)|
 |**Configuring test logging properties:** You can configure how frequently data is written to the log that is associated with your load test run settings. This can be important when you are running a large or complex load test because the log could become several gigabytes.<br /><br /> You can also configure the log file to be automatically saved when your load test fails to help in debugging and analyzing your application.|-   [Modifying load test logging settings](../test/modify-load-test-logging-settings.md)|

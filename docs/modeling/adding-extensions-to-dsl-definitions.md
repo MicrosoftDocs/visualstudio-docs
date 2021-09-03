@@ -1,10 +1,13 @@
 ---
 title: Adding Extensions to DSL Definitions
+description: Learn how the DSL Definition extension allows you to create a package of extensions to a domain-specific language (DSL).
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: mgoertz-msft
+ms.author: mgoertz
+manager: jmartens
+ms.technology: vs-ide-modeling
 ms.workload:
   - "multiple"
 ---
@@ -28,6 +31,6 @@ A user of an extended DSL can create and save a model that contains instances of
 
 [!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]
 
-## See Also
+## See also
 
 - [Related blog posts](https://devblogs.microsoft.com/devops/the-visual-studio-modeling-sdk-is-now-available-with-visual-studio-2017/)

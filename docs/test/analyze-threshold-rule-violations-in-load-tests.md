@@ -1,20 +1,23 @@
 ---
-title: "Analyzing Threshold Rule Violations in Load Tests"
+title: Analyzing Threshold Rule Violations in Load Tests
+description: Learn how to view violations of threshold rules that you set up, so that you can analyze the violations. 
+ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
 ms.topic: conceptual
 f1_keywords:
-  - "vs.test.load.monitor.threshholdresult"
+- vs.test.load.monitor.threshholdresult
 helpviewer_keywords:
-  - "load tests, thresholds"
-  - "threshold violations"
-  - "threshold counts"
-  - "load tests, threshold violations"
-  - "load test results, analyzing threshold violations"
-  - "thresholds in load tests"
+- load tests, thresholds
+- threshold violations
+- threshold counts
+- load tests, threshold violations
+- load test results, analyzing threshold violations
+- thresholds in load tests
 ms.assetid: 969ed346-cf2e-4d48-82b3-edb3e075e1c0
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.technology: vs-ide-test
 ---
 # Analyzing threshold rule violations in load tests Using the Load Test Analyzer
 

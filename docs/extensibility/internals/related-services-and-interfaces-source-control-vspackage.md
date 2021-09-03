@@ -1,21 +1,27 @@
 ---
-title: "Related Services and Interfaces (Source Control VSPackage) | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Related Services and Interfaces (Source Control VSPackage)
+titleSuffix: ""
+description: Learn about the source control VSPackage-related interfaces in the Visual Studio SDK. The package implements some interfaces and uses others for source control.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: reference
 helpviewer_keywords:
-  - "source control packages, interfaces"
-  - "interfaces, source control packages"
+- source control packages, interfaces
+- interfaces, source control packages
 ms.assetid: 3e96e838-5675-46bb-99cf-40d420086038
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Related Services and Interfaces (Source Control VSPackage)
+
 This section lists all the source control VSPackage-related interfaces in the [!INCLUDE[vsipsdk](../../extensibility/includes/vsipsdk_md.md)]. The source control VSPackage implements some of these interfaces and uses others to accomplish source control tasks.
 
 ## Interfaces Implemented by and for Source Control VSPackages
+
  The following interfaces are described in the [!INCLUDE[vsipsdk](../../extensibility/includes/vsipsdk_md.md)], and the source control VSPackage implements a subset of them depending on its desired feature set. Some interfaces are marked as required and must be implemented by every source control VSPackage.
 
  For those interfaces that a package does not implement, [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] provides a default implementation. Note that the default implementation is designed for the case when no VSPackage is registered and no project is controlled. A properly written source control VSPackage implements all necessary interfaces rather than leaving it to the default implementation of those interfaces.
@@ -55,5 +61,5 @@ This section lists all the source control VSPackage-related interfaces in the [!
 | <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistSolutionOpts> | This interface is used to save the source control settings in the solution options (.suo) file. This may include user-specific source control settings such as the current user's enlistment location. | Source control VSPackage | Recommended |
 | <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionEvents3> | This interface is used to monitor events in order to perform operations such as checking in project files before closing solutions, or getting new files from source control when opening a project. | Source control VSPackage | Recommended |
 
-## See Also
+## See also
 - [Design Elements](../../extensibility/internals/source-control-vspackage-design-elements.md)

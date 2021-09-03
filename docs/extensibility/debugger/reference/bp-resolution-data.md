@@ -1,20 +1,22 @@
 ---
-title: "BP_RESOLUTION_DATA | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Describes the result of binding a data breakpoint."
+title: BP_RESOLUTION_DATA | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "BP_RESOLUTION_DATA"
+- BP_RESOLUTION_DATA
 helpviewer_keywords:
-  - "BP_RESOLUTION_DATA structure"
+- BP_RESOLUTION_DATA structure
 ms.assetid: 9e0b9000-6a84-47b9-b07a-367a75764389
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # BP_RESOLUTION_DATA
 Describes the result of binding a data breakpoint.

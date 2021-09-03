@@ -1,7 +1,8 @@
 ---
+description: "Reads DWORD values in a property set."
 title: "IDiaPropertyStorage::ReadDWORD | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,8 @@ helpviewer_keywords:
 ms.assetid: 5f4c034e-a9d3-4560-94b5-ede524741439
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -40,5 +42,5 @@ HRESULT ReadDWORD ( 
 ## Remarks
  A `DWORD` is defined by Windows as a 32-bit unsigned integer.
 
-## See Also
+## See also
 - [IDiaPropertyStorage](../../debugger/debug-interface-access/idiapropertystorage.md)

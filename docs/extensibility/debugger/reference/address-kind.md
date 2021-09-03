@@ -1,20 +1,22 @@
 ---
-title: "ADDRESS_KIND | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Specifies the kinds of addresses."
+title: ADDRESS_KIND | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "ADDRESS_KIND"
+- ADDRESS_KIND
 helpviewer_keywords:
-  - "ADDRESS_KIND enumeration"
+- ADDRESS_KIND enumeration
 ms.assetid: 3a12fbec-7088-4cf9-8f6f-ad8ddec6009a
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # ADDRESS_KIND
 Specifies the kinds of addresses.

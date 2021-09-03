@@ -1,5 +1,7 @@
 ---
 title: "Visio solutions"
+description: Learn how you can use VSTO Add-ins to automate Visio, extend Visio features, or customize the Visio user interface (UI).
+ms.custom: SEO-VS-2020
 ms.date: "08/14/2019"
 ms.topic: "conceptual"
 dev_langs:
@@ -14,7 +16,8 @@ helpviewer_keywords:
   - "Office solutions [Office development in Visual Studio], Visio"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
+ms.technology: office-development
 ms.workload:
   - "office"
 ---
@@ -68,4 +71,4 @@ ms.workload:
 - [Office primary interop assemblies](../vsto/office-primary-interop-assemblies.md)
 - [Office UI customization](../vsto/office-ui-customization.md)
 - [Visio object model overview](../vsto/visio-object-model-overview.md)
-- [Visio 2010 in Office development](http://go.microsoft.com/fwlink/?LinkId=199017)
+- [Visio 2010 in Office development](/previous-versions/office/developer/office-2010/ff604964(v=office.14))

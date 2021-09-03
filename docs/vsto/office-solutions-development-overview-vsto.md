@@ -1,5 +1,7 @@
 ---
 title: "Office solutions development overview (VSTO)"
+description: Learn how to develop customizations for the familiar Microsoft Office user interfaces and tools such as the word processing features in Word and the data analysis features of Excel.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -10,14 +12,15 @@ helpviewer_keywords:
   - "Office development in Visual Studio, about developing solutions"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
+ms.technology: office-development
 ms.workload:
   - "office"
 ---
 # Office solutions development overview (VSTO)
   By using Microsoft Office as the front end for solutions, you can take advantage of the familiar Microsoft Office user interfaces and tools such as the word processing features in Word, the data analysis features of Excel, and the e-mail management features of Outlook. You can develop solutions in Visual Studio to customize Office applications and add the specific features you need for your business processes. For example, you can turn Word into a contract generator that assembles contracts out of pre-existing parts that can be made editable or not editable. With Excel, you can create an automated budget worksheet customized for different projects. Your users can also take office solutions offline, which makes complex solutions more practical than they would be if you use a web-based architecture.
 
- This topic provides an overview of the types of Office solutions that you can create by using the Visual Studio Tools for Office (VSTO) templates available in the Office developer tools in Visual Studio. For general information about how to develop with Office, see the [Office developer center](https://dev.office.com/).
+ This topic provides an overview of the types of Office solutions that you can create by using the Visual Studio Tools for Office (VSTO) templates available in the Office developer tools in Visual Studio. For general information about how to develop with Office, see the [Office developer center](https://developer.microsoft.com/office).
 
 ## Choose an Office project type
  [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] provides the following types of project templates for VSTO-based Office development:
@@ -74,7 +77,7 @@ ms.workload:
  Use ClickOnce or Windows Installer to deploy solutions that you create by using the Office development tools in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]. ClickOnce deployment enables you to create self-updating solutions that can be installed and run with minimal user interaction. Windows Installer (*.msi*) files can be easily distributed to end-user computers, or distributed by using Systems Management Server (SMS). For more information about deploying VSTO Office solutions, see [Deploy an Office solution](../vsto/deploying-an-office-solution.md).
 
 ### Install prerequisites
- Before end users can run a solution you create by using the Office development tools in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], their computers must have certain prerequisites installed. If you deploy your solution by using ClickOnce or by creating a Windows Installer file, these prerequisites can be installed with your solution. For more information, see [Office solution prerequisites for deployment](https://msdn.microsoft.com/9f672809-43a3-40a1-9057-397ce3b5126e) and [How to: Install prerequisites on end user computers to run Office solutions](https://msdn.microsoft.com/74dd2c52-838f-4abf-b2b4-4d7b0c2a0a98).
+ Before end users can run a solution you create by using the Office development tools in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], their computers must have certain prerequisites installed. If you deploy your solution by using ClickOnce or by creating a Windows Installer file, these prerequisites can be installed with your solution. For more information, see [Office solution prerequisites for deployment](/previous-versions/bb608617(v=vs.110)) and [How to: Install prerequisites on end user computers to run Office solutions](/previous-versions/bb608608(v=vs.110)).
 
 ### Security
  Security for VSTO Office solutions is enforced by a series of checks that the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] makes when it installs and loads the solution. These checks include verifying whether the location of the deployment manifest is trusted or whether the certificate used to sign the deployment manifest is trusted. For more information, see [Secure Office solutions](../vsto/securing-office-solutions.md).

@@ -7,7 +7,8 @@ helpviewer_keywords:
   - "IntelliTrace step-back"
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---

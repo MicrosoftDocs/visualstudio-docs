@@ -1,13 +1,16 @@
 ---
-title: "How to: Create XML Snippets"
+title: 'How to: Create XML Snippets'
+description: Learn how to use the XML editor in Visual Studio to create XML snippets that allow you to build XML files more quickly.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 ms.assetid: d8556dd7-1382-4af7-ba80-3e873c9416be
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
+ms.technology: vs-xml-tools
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Create XML snippets
 

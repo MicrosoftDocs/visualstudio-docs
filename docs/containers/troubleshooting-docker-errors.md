@@ -1,15 +1,15 @@
 ---
 title: Troubleshooting Docker client errors on Windows | Microsoft Docs
 description: Troubleshoot problems you encounter when using Visual Studio to create and deploy web apps to Docker on Windows by using Visual Studio.
-ms.technology: vs-azure
+ms.technology: vs-container-tools
 author: ghogen
-manager: jillfra
+manager: jmartens
 ms.custom: seodec18
 ms.assetid: 346f70b9-7b52-4688-a8e8-8f53869618d3
 ms.devlang: dotnet
-ms.topic: conceptual
+ms.topic: troubleshooting
 ms.workload: multiple
-ms.date: 10/13/2017
+ms.date: 01/27/2020
 ms.author: ghogen
 ---
 # Troubleshoot Visual Studio development with Docker
@@ -18,22 +18,15 @@ When you're working with Visual Studio Container Tools, you may encounter issues
 
 ## Volume sharing is not enabled. Enable volume sharing in the Docker CE for Windows settings  (Linux containers only)
 
-To resolve this issue:
+File sharing only needs to be managed if you are using Hyper-V with Docker. If you are using WSL 2, the following steps are not necessary and the file sharing option will not be visible. To resolve this issue:
 
 1. Right-click **Docker for Windows** in the notification area, and then select **Settings**.
-1. Select **Shared Drives** and share the system drive along with the drive where the project resides.
+1. Select **Resources** > **File Sharing** and share the folder that needs to be accessed. Sharing your entire system drive is possible but not recommended.
 
-> [!NOTE]
-> If files appear shared, you may still need to click the "Reset credentials..." link at the bottom of the dialog in order to re-enable volume sharing. To continue after you reset credentials, you might have to restart Visual Studio.
-
-![shared drives](media/troubleshooting-docker-errors/shareddrives.png)
+    :::image type="content" source="media//troubleshooting-docker-errors/docker-settings-image.png" alt-text="Shared drives":::
 
 > [!TIP]
-> Visual Studio versions later than Visual Studio 2017 version 15.6 prompt when **Shared Drives** aren't configured.
-
-### Container type
-
-When adding Docker support to a project, you choose either a Windows or a Linux container. The Docker host must be running the same container type. To change the container type in the running Docker instance, right-click the System Tray's Docker icon and choose **Switch to Windows containers...** or **Switch to Linux containers...**.
+> Visual Studio versions later than Visual Studio 2017 version 15.6 will  prompt when **Shared Drives** aren't configured.
 
 ## Unable to start debugging
 
@@ -49,7 +42,7 @@ which will refresh the network-related components on your host machine.
 
 ## Mounts denied
 
-When using Docker for macOS, you might encounter an error referencing the folder /usr/local/share/dotnet/sdk/NuGetFallbackFolder. Add the folder to the File Sharing tab in Docker
+When using Docker for macOS, you might encounter an error referencing the folder /usr/local/share/dotnet/sdk/NuGetFallbackFolder. Add the folder to the File Sharing tab in Docker.
 
 ## Docker users group
 
@@ -76,6 +69,36 @@ net localgroup docker-users DOMAIN\username /add
 
 In PowerShell, use the [Add-LocalGroupMember](/powershell/module/microsoft.powershell.localaccounts/add-localgroupmember) function.
 
+## Low disk space
+
+By default, Docker stores images in the *%ProgramData%/Docker/* folder, which is typically on the system drive, *C:\ProgramData\Docker\*. To prevent images from taking up valuable space on the system drive, you can change the image folder location. To do so:
+
+ 1. Right click on the Docker icon on the task bar and select **Settings**.
+ 1. Select **Docker Engine**. 
+ 1. In the editing pane, add the `graph` property setting with the value of your desired location for Docker images:
+
+```json
+    "graph": "D:\\mypath\\images"
+```
+
+:::image type="content" source="media/troubleshooting-docker-errors/docker-daemon-settings.png" alt-text="Screenshot of Docker File Sharing":::
+
+Click **Apply & Restart**. These steps modify the configuration file at *%ProgramData%\docker\config\daemon.json*. Previously built images are not moved.
+
+## Container type mismatch
+
+When adding Docker support to a project, you choose either a Windows or a Linux container. If the Docker Server host is not configured to run the same container type as the project target, you will likely see an error similar to the one below:
+
+:::image type="content" source="media/troubleshooting-docker-errors/docker-host-config-change-linux-to-windows.png" alt-text="Screenshot of Docker Host and Project Mismatch":::
+
+To resolve this issue:
+
+- Right-click the Docker for Windows icon in the System Tray and choose **Switch to Windows containers...** or **Switch to Linux containers...**.
+
 ## Microsoft/DockerTools GitHub repo
 
 For any other issues you encounter, see  [Microsoft/DockerTools](https://github.com/microsoft/dockertools/issues) issues.
+
+## See also
+
+- [Visual Studio troubleshooting](/troubleshoot/visualstudio/welcome-visual-studio/)

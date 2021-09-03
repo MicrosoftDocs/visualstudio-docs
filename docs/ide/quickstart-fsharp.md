@@ -3,9 +3,11 @@ title: "Quickstart: Create an ASP.NET Core web service in F#"
 description: "Learn how to create an ASP.NET Core web service in Visual Studio with F#, step-by-step."
 ms.date: 08/24/2018
 ms.topic: quickstart
-author: "cartermp"
-ms.author: "phcart"
-manager: andrehal
+ms.custom: vs-acquisition
+author: anandmeg
+ms.author: meghaanand
+manager: jmartens
+ms.technology: vs-ide-general
 dev_langs:
   - FSharp
 ms.workload:
@@ -24,7 +26,13 @@ If you haven't already installed Visual Studio, go to the [Visual Studio downloa
 
 ::: moniker range="vs-2019"
 
-If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019) page to install it for free.
+If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads) page to install it for free.
+
+::: moniker-end
+
+::: moniker range="vs-2022"
+
+If you haven't already installed Visual Studio 2022 Preview, go to the [Visual Studio 2022 Preview downloads](https://visualstudio.microsoft.com/vs/preview/vs2022) page to install it for free.
 
 ::: moniker-end
 

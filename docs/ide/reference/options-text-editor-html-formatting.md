@@ -1,15 +1,17 @@
 ---
 title: Options, Text Editor, HTML (Web Forms), Formatting
+description: Learn how to use the Formatting page in the HTML section to set HTML project options for formatting code in the Code Editor.
+ms.custom: SEO-VS-2020
 ms.date: 1/15/2019
 ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
-  - "VS.ToolsOptionsPages.Text_Editor.HTML.Format"
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+- VS.ToolsOptionsPages.Text_Editor.HTML.Format
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Options, Text Editor, HTML (Web Forms), Formatting
 

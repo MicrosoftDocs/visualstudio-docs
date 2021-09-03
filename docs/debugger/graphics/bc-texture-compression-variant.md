@@ -1,11 +1,14 @@
 ---
 title: "BC Texture Compression Variant | Microsoft Docs"
+description: Use the BC texture compression variant to allow block compression (BC) on textures having a pixel format that's a variation of B8G8R8X8, B8G8R8A8, or R8G8B8A8.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 ms.assetid: 2d0f5305-585b-4b01-bc9a-7a32d6e991da
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -54,5 +57,5 @@ Enables block compression on textures that have a pixel format that's a variatio
 ## Example
  This variant block-compresses textures at run time, before the call to `CreateTexture2D`. We recommend against this approach for production code because the uncompressed textures consume more disk space and because the additional step can significantly increase loading times in your app because block-based compression requires significant computational resources to encode. Instead, we recommend that you compress your textures offline by using an image editor or image processor that's part of your build pipeline. These approaches reduce disk-space requirements, eliminate run-time overhead in your app, and afford more processing time so that you can retain the best image quality.
 
-## See Also
+## See also
 - [Half/Quarter Texture Dimensions Variant](half-quarter-texture-dimensions-variant.md)

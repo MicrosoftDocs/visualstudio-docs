@@ -1,11 +1,14 @@
 ---
 title: "Using the Microsoft Monitoring Agent | Microsoft Docs"
+description: Use Microsoft Monitoring Agent to monitor ASP.NET web apps—and SharePoint 2010 and 2013 applications—for errors, performance issues, and other problems. 
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 ms.assetid: fd0a86b9-015d-408e-aa58-59a0a97826ac
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -44,7 +47,7 @@ You can locally monitor IIS-hosted ASP.NET web apps and SharePoint 2010 or 2013 
 
     - You've uninstalled any earlier versions of Microsoft Monitoring Agent.
 
-2. [Download the free Microsoft Monitoring Agent](http://go.microsoft.com/fwlink/?LinkId=320384), either the 32-bit version **MMASetup-i386.exe** or 64-bit version **MMASetup-AMD64.exe**, from the Microsoft Download Center to your web server.
+2. [Download the free Microsoft Monitoring Agent](https://www.microsoft.com/download/details.aspx?id=40316), either the 32-bit version **MMASetup-i386.exe** or 64-bit version **MMASetup-AMD64.exe**, from the Microsoft Download Center to your web server.
 
 3. Run the downloaded executable to start the installation wizard.
 
@@ -68,7 +71,7 @@ You can locally monitor IIS-hosted ASP.NET web apps and SharePoint 2010 or 2013 
 
      **PS C:>Import-Module "C:\Program Files\Microsoft Monitoring Agent\Agent\PowerShell\Microsoft.MonitoringAgent.PowerShell\Microsoft.MonitoringAgent.PowerShell.dll"**
 
-3. [Visit TechNet](https://technet.microsoft.com/systemcenter/default) to get the most recent Help content.
+3. [Visit TechNet](/previous-versions/system-center/developer/cc817313(v=msdn.10)) to get the most recent Help content.
 
 #### <a name="FullPermissionsITLog"></a> Q: How do I set up permissions for the application pool?
  **A:** Use the Windows **icacls** command or use Windows Explorer (or File Explorer). For example:
@@ -102,13 +105,13 @@ You can locally monitor IIS-hosted ASP.NET web apps and SharePoint 2010 or 2013 
   7. Make sure the application pool has **Read & execute** permissions.
 
 ## <a name="MonitorEvents"></a> Step 2: Start monitoring your app
- Use the Windows PowerShell [Start-WebApplicationMonitoring](http://go.microsoft.com/fwlink/?LinkID=313686) command to start monitoring your app. If you use System Center 2012, see [Monitoring Web Applications with Microsoft Monitoring Agent](https://technet.microsoft.com/library/dn465157.aspx).
+ Use the Windows PowerShell [Start-WebApplicationMonitoring](/previous-versions/system-center/powershell/system-center-2012-r2/dn472749(v=sc.20)) command to start monitoring your app. If you use System Center 2012, see [Monitoring Web Applications with Microsoft Monitoring Agent](/previous-versions/system-center/system-center-2012-R2/dn465157(v=sc.12)).
 
 1. On your web server, open a **Windows PowerShell** or **Windows PowerShell ISE** command prompt window as an administrator.
 
      ![Open Windows PowerShell as administrator](../debugger/media/ffr_powershellrunadmin.png "FFR_PowerShellRunAdmin")
 
-2. Run the [Start-WebApplicationMonitoring](http://go.microsoft.com/fwlink/?LinkID=313686) command to start monitoring your app. This will restart all the web apps on your web server.
+2. Run the [Start-WebApplicationMonitoring](/previous-versions/system-center/powershell/system-center-2012-r2/dn472749(v=sc.20)) command to start monitoring your app. This will restart all the web apps on your web server.
 
      Here's the short syntax:
 
@@ -126,17 +129,17 @@ You can locally monitor IIS-hosted ASP.NET web apps and SharePoint 2010 or 2013 
 
      ![Start monitoring with MMA confirmation](../debugger/media/ffr_powershellstartmonitoringconfirmation.png "FFR_PowerShellStartMonitoringConfirmation")
 
-    |||
+    |Name|Description|
     |-|-|
-    |*"\<appName>"*|Specify the path to the web site and web app name in IIS. You can also include the IIS path, if you prefer.<br /><br /> *"\<IISWebsiteName>\\<IISWebAppName\>"*<br /><br /> -or-<br /><br /> **"IIS:\sites** *\\<IISWebsiteName\>\\<IISWebAppName\>"*<br /><br /> You can find this path in IIS Manager. For example:<br /><br /> ![Path to IIS web site and web app](../debugger/media/ffr_iismanager.png "FFR_IISManager")<br /><br /> You can also use the [Get-WebSite](https://technet.microsoft.com/library/ee807832.aspx) and [Get WebApplication](https://technet.microsoft.com/library/ee790554.aspx) commands.|
+    |*"\<appName>"*|Specify the path to the web site and web app name in IIS. You can also include the IIS path, if you prefer.<br /><br /> *"\<IISWebsiteName>\\<IISWebAppName\>"*<br /><br /> -or-<br /><br /> **"IIS:\sites** *\\<IISWebsiteName\>\\<IISWebAppName\>"*<br /><br /> You can find this path in IIS Manager. For example:<br /><br /> ![Path to IIS web site and web app](../debugger/media/ffr_iismanager.png "FFR_IISManager")<br /><br /> You can also use the [Get-WebSite](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ee807832(v=technet.10)) and [Get WebApplication](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ee790554(v=technet.10)) commands.|
     |*\<monitoringMode>*|Specify the monitoring mode:<br /><br /> <ul><li>**Monitor**: Record minimal details about exception events and performance events. This mode uses the default collection plan.</li><li>**Trace**: Record function-level details or monitor SharePoint 2010 and SharePoint 2013 applications by using the specified collection plan. This mode might make your app run more slowly.<br /><br /> <ul><li>[Q: How do I set up permissions for the application pool?](#FullPermissionsITLog)</li><li>[Q: How do I get the most data without slowing down my app?](#Minimizing)</li></ul><br />     This example records events for a SharePoint app hosted on a SharePoint site:<br /><br />     **Start-WebApplicationMonitoring "FabrikamSharePointSite\FabrikamSharePointApp" Trace "C:\Program Files\Microsoft Monitoring Agent\Agent\IntelliTraceCollector\collection_plan.ASP.NET.default.xml" "C:\IntelliTraceLogs"**</li><li>**Custom**: Record custom details by using specified custom collection plan. You'll have to restart monitoring if you edit the collection plan after monitoring has already started.</li></ul>|
     |*"\<outputPath>"*|Specify the full directory path to store the IntelliTrace logs. Make sure that you create this directory before you start monitoring.|
     |*\<UInt32>*|Specify the maximum size for the IntelliTrace log. The default maximum size of the IntelliTrace log is 250 MB.<br /><br /> When the log reaches this limit, the agent overwrites the earliest entries to make space for more entries. To change this limit, use the **-MaximumFileSizeInMegabytes** option or edit the `MaximumLogFileSize` attribute in the collection plan.|
-    |*"\<collectionPlanPathAndFileName>"*|Specify the full path or relative path and the file name of the collection plan. This plan is an .xml file that configures settings for the agent.<br /><br /> These plans are included with the agent and work with web apps and SharePoint applications:<br /><br /> -   **collection_plan.ASP.NET.default.xml**<br />     Collects only events, such as exceptions, performance events, database calls, and Web server requests.<br />-   **collection_plan.ASP.NET.trace.xml**<br />     Collects function-level calls plus all the data in default collection plan. This plan is good for detailed analysis but might slow down your app.<br /><br /> You can find localized versions of these plans in the agent's subfolders. You can also [customize these plans or create your own plans](http://go.microsoft.com/fwlink/?LinkId=227871) to avoid slowing down your app. Put any custom plans in the same secure location as the agent.<br /><br /> [Q: How do I get the most data without slowing down my app?](#Minimizing)|
+    |*"\<collectionPlanPathAndFileName>"*|Specify the full path or relative path and the file name of the collection plan. This plan is an .xml file that configures settings for the agent.<br /><br /> These plans are included with the agent and work with web apps and SharePoint applications:<br /><br /> -   **collection_plan.ASP.NET.default.xml**<br />     Collects only events, such as exceptions, performance events, database calls, and Web server requests.<br />-   **collection_plan.ASP.NET.trace.xml**<br />     Collects function-level calls plus all the data in default collection plan. This plan is good for detailed analysis but might slow down your app.<br /><br /> You can find localized versions of these plans in the agent's subfolders. You can also [customize these plans or create your own plans](https://devblogs.microsoft.com/devops/modifying-an-intellitrace-collection-plan-for-the-stand-alone-collector/) to avoid slowing down your app. Put any custom plans in the same secure location as the agent.<br /><br /> [Q: How do I get the most data without slowing down my app?](#Minimizing)|
 
      For the more information about the full syntax and other examples, run the **get-help Start-WebApplicationMonitoring -detailed** command or the **get-help Start-WebApplicationMonitoring -examples** command.
 
-3. To check the status of all monitored web apps, run the [Get-WebApplicationMonitoringStatus](http://go.microsoft.com/fwlink/?LinkID=313685) command.
+3. To check the status of all monitored web apps, run the [Get-WebApplicationMonitoringStatus](/previous-versions/system-center/powershell/system-center-2012-r2/dn472751(v=sc.20)) command.
 
 ### Q & A
 
@@ -145,7 +148,7 @@ You can locally monitor IIS-hosted ASP.NET web apps and SharePoint 2010 or 2013 
 
 - For web apps and SharePoint applications, the agent records data for every app that shares the specified application pool. This might slow down any app that shares the same application pool, even though you can restrict collection to the modules for a single app. To avoid slowing down other apps, host each app in its own application pool.
 
-- Review the events for which the agent collects data in the collection plan. Edit the collection plan to disable events that aren't relevant or don't interest you. This can improve startup performance and runtime performance.
+- Review the events for which the agent collects data in the collection plan. Edit the collection plan to disable events that aren't relevant or don't interest you. This can improve startup performance and run-time performance.
 
    To disable an event, set the `enabled` attribute for the `<DiagnosticEventSpecification>` element to `false`:
 
@@ -223,14 +226,14 @@ The `Employee` type has the following attributes: `Id`, `Name`, and `HomeAddress
 The agent records values for `id`, `Employee.Id`, `Employee.Name` and the `Employee` object returned from the `AlterEmployee` method. However, the agent doesn't record information about the `Address` object other than whether it was null or not. The agent also doesn't record data about local variables in the `AlterEmployee` method unless other methods use those local variables as parameters at which point they are recorded as method parameters.
 
 ## <a name="SaveEvents"></a> Step 3: Save recorded events
- When you find an error or a performance issue, save the recorded events to an IntelliTrace log. The agent creates the log only if it recorded events. If you use System Center 2012, see [Monitoring Web Applications with Microsoft Monitoring Agent](https://technet.microsoft.com/library/dn465157.aspx).
+ When you find an error or a performance issue, save the recorded events to an IntelliTrace log. The agent creates the log only if it recorded events. If you use System Center 2012, see [Monitoring Web Applications with Microsoft Monitoring Agent](/previous-versions/system-center/system-center-2012-R2/dn465157(v=sc.12)).
 
 ### Save recorded events but continue monitoring
  Follow these steps when you want to create the IntelliTrace log but don't want to restart your app or stop monitoring. The agent continues monitoring even if the server or application restarts.
 
 1. On your web server, open a Windows PowerShell command prompt window as an administrator.
 
-2. Run the [Checkpoint-WebApplicationMonitoring](http://go.microsoft.com/fwlink/?LinkID=313684) command to save a snapshot of the IntelliTrace log:
+2. Run the [Checkpoint-WebApplicationMonitoring](/previous-versions/system-center/powershell/system-center-2012-r2/dn472750(v=sc.20)) command to save a snapshot of the IntelliTrace log:
 
     **Checkpoint-WebApplicationMonitoring** *"\<IISWebsiteName>\\<IISWebAppName\>"*
 
@@ -260,7 +263,7 @@ The agent records values for `id`, `Employee.Id`, `Employee.Name` and the `Emplo
 
 1. On your web server, open a Windows PowerShell command prompt window as an administrator.
 
-2. Run the [Stop-WebApplicationMonitoring](http://go.microsoft.com/fwlink/?LinkID=313687) command to create the IntelliTrace log and stop monitoring a specific web app:
+2. Run the [Stop-WebApplicationMonitoring](/previous-versions/system-center/powershell/system-center-2012-r2/dn472753(v=sc.20)) command to create the IntelliTrace log and stop monitoring a specific web app:
 
     **Stop-WebApplicationMonitoring** *"\<IISWebsiteName>\\<IISWebAppName\>"*
 
@@ -293,7 +296,7 @@ The agent records values for `id`, `Employee.Id`, `Employee.Name` and the `Emplo
 #### Blogs
  [Introducing Microsoft Monitoring Agent](https://devblogs.microsoft.com/devops/introducing-microsoft-monitoring-agent/)
 
- [Optimizing IntelliTrace Collection on Production Servers](http://go.microsoft.com/fwlink/?LinkId=255233)
+ [Optimizing IntelliTrace Collection on Production Servers](https://devblogs.microsoft.com/devops/optimizing-intellitrace-collection-on-production-server/)
 
 #### Forums
- [Visual Studio Diagnostics](http://go.microsoft.com/fwlink/?LinkId=262263)
+ [Visual Studio Diagnostics](https://social.msdn.microsoft.com/Forums/en-US/home)

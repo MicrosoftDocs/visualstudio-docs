@@ -1,27 +1,32 @@
 ---
-title: "How to: Reference the Name or Location of the Project File | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Reference the name or location of the project file
+description: Learn how to use MSBuild reserved properties to reference project file name or location without having to create your own properties.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "locations, referencing"
-  - "locations"
-  - "MSBuildProjectName property"
-  - "MSBuild, referencing the project file"
-  - "names, referencing"
-  - "reserved properties"
-  - "project files, referencing"
+- locations, referencing
+- locations
+- MSBuildProjectName property
+- MSBuild, referencing the project file
+- names, referencing
+- reserved properties
+- project files, referencing
 ms.assetid: c8fcc594-5d37-4e2e-b070-4d9c012043b5
-author: mikejo5000
-ms.author: mikejo
-manager: jillfra
+author: ghogen
+ms.author: ghogen
+manager: jmartens
+ms.technology: msbuild
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Reference the name or location of the project file
-You can use the name or location of the project in the project file itself without having to create your own property. [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] provides reserved properties that reference the project file name and other properties related to the project. For more information on reserved properties, see [MSBuild reserved and well-known properties](../msbuild/msbuild-reserved-and-well-known-properties.md).
+
+You can use the name or location of the project in the project file itself without having to create your own property. MSBuild provides reserved properties that reference the project file name and other properties related to the project. For more information on reserved properties, see [MSBuild reserved and well-known properties](../msbuild/msbuild-reserved-and-well-known-properties.md).
 
 ## Use the project properties
- [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] provides some reserved properties that you can use in your project files without defining them each time. For example, the reserved property `MSBuildProjectName` provides a reference to the project file name. The reserved property `MSBuildProjectDirectory` provides a reference to the project file location.
+
+ MSBuild provides some reserved properties that you can use in your project files without defining them each time. For example, the reserved property `MSBuildProjectName` provides a reference to the project file name. The reserved property `MSBuildProjectDirectory` provides a reference to the project file location.
 
 #### To use the project properties
 
@@ -35,10 +40,13 @@ You can use the name or location of the project in the project file itself witho
 
   An advantage of using a reserved property is that any changes to the project file name are incorporated automatically. The next time that you build the project, the output file will have the new name with no further action required on your part.
 
+  For more info on the use of special characters in file or project references, see [MSBuild special characters](../msbuild/msbuild-special-characters.md).
+
 > [!NOTE]
 > Reserved properties cannot be redefined in the project file.
 
-## Example
+## Example 1
+
  The following example project file references the project name as a reserved property to specify the name for the output.
 
 ```xml
@@ -66,7 +74,8 @@ You can use the name or location of the project in the project file itself witho
 </Project>
 ```
 
-## Example
+## Example 2
+
  The following example project file uses the `MSBuildProjectDirectory` reserved property to create the full path to a file in the project file location.
 
 ```xml
@@ -79,6 +88,9 @@ You can use the name or location of the project in the project file itself witho
 </Project>
 ```
 
+The example uses the [Property function](property-functions.md) syntax to call the static .NET Framework method <xref:System.IO.Path.Combine*?displayProperty=fullName>.
+
 ## See also
+
 - [MSBuild](../msbuild/msbuild.md)
 - [MSBuild reserved and well-known properties](../msbuild/msbuild-reserved-and-well-known-properties.md)

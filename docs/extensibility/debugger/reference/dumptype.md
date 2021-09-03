@@ -1,20 +1,22 @@
 ---
-title: "DUMPTYPE | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Specifies how much of a program's state (such as running threads, stack frames, and current instruction address) to dump."
+title: DUMPTYPE | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "DUMPTYPE"
+- DUMPTYPE
 helpviewer_keywords:
-  - "DUMPTYPE enumeration"
+- DUMPTYPE enumeration
 ms.assetid: ea8160db-8732-4056-a1d7-892ef72da71e
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # DUMPTYPE
 Specifies how much of a program's state (such as running threads, stack frames, and current instruction address) to dump.

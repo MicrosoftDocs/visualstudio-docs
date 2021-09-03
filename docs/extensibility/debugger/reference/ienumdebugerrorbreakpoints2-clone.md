@@ -1,20 +1,22 @@
 ---
-title: "IEnumDebugErrorBreakpoints2::Clone | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Returns a copy of the current error breakpoints enumeration as a separate object."
+title: IEnumDebugErrorBreakpoints2::Clone | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IEnumDebugErrorBreakpoints2::Clone"
+- IEnumDebugErrorBreakpoints2::Clone
 helpviewer_keywords:
-  - "IEnumDebugErrorBreakpoints2::Clone"
+- IEnumDebugErrorBreakpoints2::Clone
 ms.assetid: f6fb4985-8dd6-4a9b-98e0-15dbc64cc9ec
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IEnumDebugErrorBreakpoints2::Clone
 Returns a copy of the current enumeration as a separate object.

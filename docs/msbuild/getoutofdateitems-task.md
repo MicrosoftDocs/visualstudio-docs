@@ -1,5 +1,7 @@
 ---
 title: "GetOutOfDateItems Task | Microsoft Docs"
+description: Use the MSBuild GetOutOfDateItems helper task to read and write transaction logs (TLOGs), and return sets of items that aren't up to date.
+ms.custom: SEO-VS-2020
 ms.date: "03/10/2019"
 ms.topic: "reference"
 f1_keywords:
@@ -11,10 +13,10 @@ dev_langs:
   - "jsharp"
   - "C++"
 helpviewer_keywords:
-  - "MSBuild (Visual C++), GetOutOfDateItems task"
-  - "GetOutOfDateItems task (MSBuild (Visual C++))"
-author: mikeblome
-ms.author: mblome
+  - "MSBuild (C++), GetOutOfDateItems task"
+  - "GetOutOfDateItems task (MSBuild (C++))"
+author: corob-msft
+ms.author: corob
 ms.workload:
   - "multiple"
 ---

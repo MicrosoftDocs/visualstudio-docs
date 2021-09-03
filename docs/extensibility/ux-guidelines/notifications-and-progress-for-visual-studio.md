@@ -1,13 +1,16 @@
 ---
-title: "Notifications and Progress for Visual Studio | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Notifications and Progress for Visual Studio | Microsoft Docs
+description: Learn about several ways to inform users what is happening in Visual Studio regarding their software development tasks.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: reference
 ms.assetid: f0ef65e9-0f1f-45f4-9f25-6e2398691168
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Notifications and Progress for Visual Studio
 ## <a name="BKMK_NotificationSystems"></a> Notification systems

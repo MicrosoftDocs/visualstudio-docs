@@ -1,15 +1,17 @@
 ---
-title: "IDebugCustomAttributeQuery | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Represents a query for custom attributes on a method or type."
+title: IDebugCustomAttributeQuery | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "IDebugCustomAttributeQuery interface"
+- IDebugCustomAttributeQuery interface
 ms.assetid: b804b619-70eb-4c38-80d9-c8b32b65ed3e
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IDebugCustomAttributeQuery
 Represents a query for custom attributes on a method or type.

@@ -1,5 +1,6 @@
 ---
 title: "Preemption Time | Microsoft Docs"
+description: Learn about Premption Time and that these segments in the timeline are associated with the blocking time that is categorized as Pre-emption.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:
@@ -9,7 +10,8 @@ helpviewer_keywords:
 ms.assetid: 6b78f91e-a006-440c-83fb-e7368040951d
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---

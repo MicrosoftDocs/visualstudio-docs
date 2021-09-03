@@ -1,12 +1,16 @@
 ---
 title: Generate usings
-ms.date: 02/19/2019
+description: Learn how to use the Quick Actions and Refactorings menu to immediately add the necessary imports or using directives for copy-and-pasted code.
+ms.custom: SEO-VS-2020
+ms.date: 03/10/2020
 ms.topic: reference
-author: kendrahavens
-ms.author: kehavens
-manager: jillfra
+author: mikadumont
+ms.author: midumont
+manager: jmartens
+ms.technology: vs-ide-general
 dev_langs:
   - CSharp
+  - VB
 ms.workload:
   - "dotnet"
 helpviewer_keywords:
@@ -18,15 +22,17 @@ This code generation applies to:
 
 - C#
 
-**What:** Lets you immediately add the necessary imports or [using statements](/dotnet/csharp/language-reference/keywords/using-statement) for copy-and-pasted code.
+- Visual Basic
 
-**When:** It's common practice to copy code from different places in your project or other sources and paste it in to new code. This Quick Action finds missing imports statements for copy-and-pasted code and then prompts you to add them.
+**What:** Lets you immediately add the necessary imports or [using directives](/dotnet/csharp/language-reference/keywords/using-directive) for copy-and-pasted code.
 
-**Why:** Because the Quick Action automatically adds necessary imports, you don't need to manually copy the `using` statements that your code needs.
+**When:** It's common practice to copy code from different places in your project or other sources and paste it in to new code. This Quick Action finds missing imports directives for copy-and-pasted code and then prompts you to add them. This code fix can also add references from project to project.
+
+**Why:** Because the Quick Action automatically adds necessary imports, you don't need to manually copy the `using` directives that your code needs.
 
 ## Add missing usings refactoring
 
-1. Copy code from a file and paste it into a new one without including the necessary `using` statements. The resulting error is accompanied by a code fix that adds the missing `using` statements.
+1. Copy code from a file and paste it into a new one without including the necessary `using` directives. The resulting error is accompanied by a code fix that adds the missing `using` directives.
 
     > [!NOTE]
     > You need to enable this suggestion in **Tools > Options > Text Editor > C# > Advanced > Using Directives**.

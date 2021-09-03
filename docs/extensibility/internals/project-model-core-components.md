@@ -1,16 +1,19 @@
 ---
-title: "Project Model Core Components | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Project Model Core Components | Microsoft Docs
+description: This article contains descriptions of the interfaces and services identified in the project model core, and the interfaces and services associated with objects.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: reference
 helpviewer_keywords:
-  - "project models, objects and interfaces"
-  - "project models, services"
+- project models, objects and interfaces
+- project models, services
 ms.assetid: b2f572d3-b26d-4846-92d1-84055fac141a
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Project Model Core Components
 The following tables expand on the project model. The tables present brief descriptions of the interfaces and services identified in the model, and the interfaces and services associated with specific objects. Additionally, the tables detail other interfaces that are optional in project creation and maintenance depending on the requirements of your specific project type.
@@ -93,9 +96,9 @@ The following tables expand on the project model. The tables present brief descr
 |<xref:Microsoft.VisualStudio.Shell.Interop.IVsExtensibility3>|Used to implement the automation model. In your project model, you will return a properties object that lets you creates an instance of that object.|
 |<xref:Microsoft.VisualStudio.Shell.Interop.SVsUIHierWinClipboardHelper>|Used to implement clipboard events on the project object in the hierarchy. `SVsUIHierWinClipboardHelper` lets you correctly handle cut, copy, and paste operations.|
 
-## See Also
+## See also
 - <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget>
 - [Checklist: Creating New Project Types](../../extensibility/internals/checklist-creating-new-project-types.md)
-- [Not in Build: Using HierUtil7 Project Classes to Implement a Project Type (C++)](https://msdn.microsoft.com/library/a5c16a09-94a2-46ef-87b5-35b815e2f346)
+- [Not in Build: Using HierUtil7 Project Classes to Implement a Project Type (C++)](/previous-versions/bb166212(v=vs.100))
 - [Supporting Symbol-Browsing Tools](../../extensibility/internals/supporting-symbol-browsing-tools.md)
 - [Elements of a Project Model](../../extensibility/internals/elements-of-a-project-model.md)

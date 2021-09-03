@@ -1,18 +1,20 @@
 ---
 title: Advanced Security Settings Dialog Box
+description: Advanced Security Settings dialog box allows you to specify security settings related to debugging in zone.
+ms.custom: SEO-VS-2020
 ms.date: 06/27/2018
 ms.technology: vs-ide-deployment
 ms.topic: reference
 f1_keywords:
-  - "vs.err.debug_in_zone_no_hostproc"
+- vs.err.debug_in_zone_no_hostproc
 helpviewer_keywords:
-  - "Advanced Security Settings dialog box"
+- Advanced Security Settings dialog box
 ms.assetid: 2e7aefe9-6d20-4f3e-b257-aee1ebcc6f5d
-author: mikejo5000
+author: Mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Advanced Security Settings dialog box
 

@@ -1,20 +1,22 @@
 ---
-title: "IDebugDocument2::GetName | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Gets the name of the document in one of several forms."
+title: IDebugDocument2::GetName | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugDocument2::GetName"
+- IDebugDocument2::GetName
 helpviewer_keywords:
-  - "IDebugDocument2::GetName"
+- IDebugDocument2::GetName
 ms.assetid: 6f09ff09-b0cf-4472-8fc8-143991f0ceb1
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugDocument2::GetName
 Gets the name of the document in one of several forms.

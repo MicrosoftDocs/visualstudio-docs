@@ -1,15 +1,18 @@
 ---
-title: "Workflow Designer - AddToCollection<T> Activity Designer"
+title: AddToCollection&lt;T&gt; activity designer
+description: Learn how the AddToCollection <T> activity designer is used to create and configure an AddToCollection <T> activity in Workflow Designer.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "System.Activities.Statements.AddToCollection`1.UI"
+- System.Activities.Statements.AddToCollection`1.UI
 ms.assetid: f7fc0702-164e-4370-8946-bb2f9f9384b7
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
+ms.technology: vs-workflow-designer
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # AddToCollection\<T> Activity Designer
 

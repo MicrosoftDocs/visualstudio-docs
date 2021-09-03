@@ -1,16 +1,19 @@
 ---
-title: "Creating Custom Editors and Designers | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Creating Custom Editors and Designers | Microsoft Docs
+description: "Learn about the different types of editors that can by hosted by the Visual Studio IDE: the core editor, custom editors, external editors, and designers."
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
 helpviewer_keywords:
-  - "designers [Visual Studio SDK]"
-  - "editors [Visual Studio SDK], custom"
+- designers [Visual Studio SDK]
+- editors [Visual Studio SDK], custom
 ms.assetid: b6a5e8b2-0ae1-4fc3-812d-09d40051b435
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Create custom editors and designers
 
@@ -53,7 +56,7 @@ For information about the Visual Studio core editor, see [Extend the editor and 
 
 - Does your editor need to host ActiveX controls?
 
-   If your editor hosts ActiveX controls, then implement an in-place activation editor, as outlined in [In-place activation](../extensibility/in-place-activation.md). If it does not host ActiveX controls, then either use a simplified embedding editor, or customize the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] default editor.
+   If your editor hosts ActiveX controls, then implement an in-place activation editor, as outlined in [In-place activation](/previous-versions/visualstudio/visual-studio-2015/misc/in-place-activation?preserve-view=true&view=vs-2015). If it does not host ActiveX controls, then either use a simplified embedding editor, or customize the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] default editor.
 
 - Will your editor support multiple views? You must support multiple views if you want views of your editor to be visible at the same time as the default editor.
 
@@ -87,7 +90,7 @@ Explains how to implement document data and document views in custom editors.
 
 ## Related sections
 
-[Legacy interfaces in the editor](../extensibility/legacy-interfaces-in-the-editor.md)\
+[Legacy interfaces in the editor](/previous-versions/visualstudio/visual-studio-2015/extensibility/legacy-interfaces-in-the-editor?preserve-view=true&view=vs-2015)\
 Explains how to access the core editor by means of the legacy API.
 
 [Develop a legacy language service](../extensibility/internals/developing-a-legacy-language-service.md)\

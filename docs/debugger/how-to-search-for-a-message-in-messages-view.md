@@ -1,17 +1,20 @@
 ---
-title: "How to: Search for a Message in Messages View | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-helpviewer_keywords:
-  - "Message Search dialog box"
-  - "Messages view"
-  - "messages, searching for"
+title: Search for a Message in Messages View | Microsoft Docs
+description: Search for a specific message in the Spy++ tool's Messages view by using its handle, type, or message ID as search criteria when debugging in Visual Studio.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
+helpviewer_keywords: 
+  - Message Search dialog box
+  - Messages view
+  - messages, searching for
 ms.assetid: 732b7ccc-54ea-41db-823b-2b96e3e4083e
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
-ms.workload:
-  - "multiple"
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.technology: vs-ide-debug
+ms.workload: 
+  - multiple
 ---
 # How to: Search for a Message in Messages View
 You can search for a specific message in Messages view by using its handle, type, or message ID as search criteria. Any one of these — or a combination — will be valid search criteria. The initial direction of the search can also be specified. The fields in the dialog box are preloaded with the attributes of the message currently selected.

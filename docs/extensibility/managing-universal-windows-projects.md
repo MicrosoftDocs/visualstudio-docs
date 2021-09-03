@@ -1,17 +1,20 @@
 ---
-title: "Managing Universal Windows Projects | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Managing Universal Windows Projects | Microsoft Docs
+description: To support Universal Windows apps, Visual Studio extensions that manage projects should be aware of the Universal Windows app project structure.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: conceptual
 ms.assetid: 47926aa1-3b41-410d-bca8-f77fc950cbe7
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Manage Universal Windows projects
 
-Universal Windows apps are apps that target both Windows 8.1 and Windows Phone 8.1, allowing developers to use code and other assets on both platforms. The shared code and resources are kept in a shared project, while the platform-specific code and resources are kept in separate projects, one for Windows and the other for Windows Phone. For more information about universal Windows apps, see [Universal Windows apps](https://msdn.microsoft.com/library/windows/apps/dn609832.aspx). Visual Studio extensions that manage projects should be aware that universal Windows app projects have a structure that differs from single-platform apps. This walkthrough shows you how to navigate the shared project and manage the shared items.
+Universal Windows apps are apps that target both Windows 8.1 and Windows Phone 8.1, allowing developers to use code and other assets on both platforms. The shared code and resources are kept in a shared project, while the platform-specific code and resources are kept in separate projects, one for Windows and the other for Windows Phone. For more information about universal Windows apps, see [Universal Windows apps](/windows/uwp/get-started/create-uwp-apps). Visual Studio extensions that manage projects should be aware that universal Windows app projects have a structure that differs from single-platform apps. This walkthrough shows you how to navigate the shared project and manage the shared items.
 
 ## Prerequisites
 
@@ -23,7 +26,7 @@ Starting in Visual Studio 2015, you do not install the Visual Studio SDK from th
 
 2. Add a reference to *Microsoft.VisualStudio.Shell.Interop.12.1.DesignTime.dll* and *Microsoft.VisualStudio.Shell.Interop.14.0.DesignTime.dll* (in the **Extensions** section).
 
-3. Open *TestUniversalProject.cs* and add the following `using` statements:
+3. Open *TestUniversalProject.cs* and add the following `using` directives:
 
     ```csharp
     using EnvDTE;
@@ -66,8 +69,9 @@ Starting in Visual Studio 2015, you do not install the Visual Studio SDK from th
             MenuCommand menuItem = new MenuCommand(eventHandler, menuCommandID);
             commandService.AddCommand(menuItem);
         }
+
         // get a reference to the Output window
-                    output = (IVsOutputWindowPane)ServiceProvider.GetService(typeof(SVsGeneralOutputWindowPane));
+        output = (IVsOutputWindowPane)ServiceProvider.GetService(typeof(SVsGeneralOutputWindowPane));
     }
     ```
 
@@ -140,7 +144,7 @@ Starting in Visual Studio 2015, you do not install the Visual Studio SDK from th
                 MessageBox.Show("Solution has no shared project");
                 return;
             }
-                }
+        }
         else
         {
             MessageBox.Show("No solution is open");
@@ -192,20 +196,17 @@ Starting in Visual Studio 2015, you do not install the Visual Studio SDK from th
                 }
                 else
                 {
-                MessageBox.Show("Shared project has no active platform project");
+                    MessageBox.Show("Shared project has no active platform project");
                 }
             }
             else
             {
                 MessageBox.Show("Solution has no shared project");
-                return;
             }
         }
         else
-            {
-                MessageBox.Show("No solution is open");
-                return;
-            }
+        {
+            MessageBox.Show("No solution is open");
         }
     }
     ```
@@ -328,7 +329,7 @@ Starting in Visual Studio 2015, you do not install the Visual Studio SDK from th
             {
                 this.InspectHierarchyItems(hier, child, level + 1, itemIds, isSharedItem, printItems);
             }
-                    }
+        }
     }
     ```
 
@@ -421,7 +422,7 @@ Starting in Visual Studio 2015, you do not install the Visual Studio SDK from th
 
 2. Add an event listener. Add a new class file to the project and call it *HierarchyEventListener.cs*.
 
-3. Open the *HierarchyEventListener.cs* file and add the following using statements:
+3. Open the *HierarchyEventListener.cs* file and add the following using directives:
 
    ```csharp
    using Microsoft.VisualStudio.Shell.Interop;

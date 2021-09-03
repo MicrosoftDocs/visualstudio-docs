@@ -1,7 +1,8 @@
 ---
+description: "Retrieves the offset to the beginning of a user-defined type (UDT) of a member in the UDT."
 title: "IDiaSymbol::get_offsetInUdt | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,8 @@ helpviewer_keywords:
 ms.assetid: 442f20d9-9d6a-44a1-83fb-c3f8c14b6c97
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -45,5 +47,5 @@ HRESULT get_offsetInUdt( 
 
  DLL: msdia100.dll
 
-## See Also
+## See also
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

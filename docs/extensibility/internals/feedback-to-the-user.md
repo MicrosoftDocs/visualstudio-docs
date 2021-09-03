@@ -1,18 +1,21 @@
 ---
-title: "Feedback to the User | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Feedback to the User | Microsoft Docs
+description: Learn how to provide visual feedback to the user about available functionality in the Visual Studio integrated development environment (IDE).
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "user model feedback"
-  - "environment, context"
-  - "IDE, context"
-  - "IDE, user feedback"
+- user model feedback
+- environment, context
+- IDE, context
+- IDE, user feedback
 ms.assetid: 2d472a24-3813-4f5f-9783-b491ad8a71ad
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Feedback to the user
 In the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE), visual feedback regarding available functionality is based on the user's current selection and global selection context. The following table lists the functionality that is available in different selection contexts.

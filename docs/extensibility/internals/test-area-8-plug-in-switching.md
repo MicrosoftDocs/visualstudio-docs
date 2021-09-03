@@ -1,16 +1,19 @@
 ---
-title: "Test Area 8: Plug-in Switching | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: 'Test Area 8: Plug-in Switching | Microsoft Docs'
+description: This source control test area provides test cases for the process of picking which plug-in to use for solution source control in Visual Studio.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "source control [Visual Studio SDK], switching plug-ins"
-  - "source control plug-ins, switching"
+- source control [Visual Studio SDK], switching plug-ins
+- source control plug-ins, switching
 ms.assetid: 01370792-b5da-4e46-9ce2-7dd326587141
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Test Area 8: Plug-in Switching
 The [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE) has the user interface (UI) to change the current source control plug-in. This test area provides test cases for the process of picking which plug-in to use for solution source control.
@@ -46,5 +49,5 @@ The [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] integrated deve
 |----------------------------------| - | - |
 | Change of plug-in for a solution | 1.  Select plug-in under test as current (**Tools** -> **Options** -> **Source Control** -> **Plug-in Selection**).<br />2.  Create a new project and solution.<br />3.  Add the solution to source control.<br />4.  Unbind the solution from source control (using the **Change Source Control** dialog box).<br />5.  Select another plug-in (for example, [!INCLUDE[vsvss](../../extensibility/includes/vsvss_md.md)]).<br />6.  Reload the solution from disk if unloaded.<br />7.  Add the solution to source control.<br />8.  Unbind the solution from source control (using **Change Source Control** dialog box).<br />9. Select plug-in under test again.<br />10. Reload solution from disk if unloaded.<br />11. Bind the solution to the original location (using the **Change Source Control** dialog box). | Solution is added to source control by using the selected plug-in. |
 
-## See Also
+## See also
 - [Test Guide for Source Control Plug-ins](../../extensibility/internals/test-guide-for-source-control-plug-ins.md)

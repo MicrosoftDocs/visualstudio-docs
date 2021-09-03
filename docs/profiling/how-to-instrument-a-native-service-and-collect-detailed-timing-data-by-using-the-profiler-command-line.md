@@ -1,13 +1,17 @@
 ---
-title: "Profiler command line: Instrument native service, get timing data"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Profiler command line - Instrument native service, get timing data
+description: Learn how to use the Visual Studio Profiling Tools command-line tools to collect detailed timing data for a native C/C++ service.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
 ms.assetid: dfe58b39-63f8-4a87-ab3a-2b5b14faa8d0
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
-ms.workload:
-  - "cplusplus"
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.technology: vs-ide-debug
+monikerRange: 'vs-2017'
+ms.workload: 
+  - cplusplus
 ---
 # How to: Instrument a native service and collect detailed timing data by using the profiler command line
 This article describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools command-line tools to instrument a native (C/C++) service and collect detailed timing data.

@@ -1,7 +1,8 @@
 ---
+description: "Creates an enumerator that contains the same enumeration state as the current tables enumerator."
 title: "IDiaEnumTables::Clone | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,8 @@ helpviewer_keywords:
 ms.assetid: beb21109-b12c-44d8-8c1f-a332216b3713
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -32,5 +34,5 @@ HRESULT Clone ( 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
-## See Also
+## See also
 - [IDiaEnumTables](../../debugger/debug-interface-access/idiaenumtables.md)

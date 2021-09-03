@@ -1,17 +1,20 @@
 ---
 title: Services Page, Project Designer
+description: Learn how to use the Services page of the Project Designer to enable and configure client application services for your project.
+ms.custom: SEO-VS-2020
 ms.date: 01/18/2018
 ms.topic: reference
 f1_keywords:
-  - "vb.ProjectPropertiesServices"
+- vb.ProjectPropertiesServices
 helpviewer_keywords:
-  - "Services page in Project Designer"
-  - "Project Designer, Services page"
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+- Services page in Project Designer
+- Project Designer, Services page
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Services Page, Project Designer
 

@@ -1,7 +1,9 @@
 ---
 title: "CV_CPU_TYPE_e | Microsoft Docs"
+description: Get reference information about the CV_CPU_TYPE_e enumeration type, which specifies the target processor in the debug interface access SDK.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +11,8 @@ helpviewer_keywords:
 ms.assetid: df470a7e-1d04-448e-b920-c731189514fa
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -95,6 +98,6 @@ The values in this enumeration are returned by a call to the [IDiaSymbol::get_pl
 ## Requirements
 Header: cvconst.h
 
-## See Also
+## See also
 - [Enumerations and Structures](../../debugger/debug-interface-access/enumerations-and-structures.md)
 - [IDiaSymbol::get_platform](../../debugger/debug-interface-access/idiasymbol-get-platform.md)

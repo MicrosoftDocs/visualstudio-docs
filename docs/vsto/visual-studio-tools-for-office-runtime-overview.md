@@ -1,5 +1,7 @@
 ---
 title: "Visual Studio Tools for Office runtime overview"
+description: Visual Studio 2010 Tools for Office runtime must be installed on end-user computers to run solutions that are created by using the Microsoft Office developer tools.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -23,7 +25,8 @@ helpviewer_keywords:
   - "runtime [Office development in Visual Studio]"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
+ms.technology: office-development
 ms.workload:
   - "office"
 ---
@@ -66,7 +69,7 @@ ms.workload:
 
 - Microsoft.Office.Tools.Word.dll
 
-  After you make this change, type information for all of the runtime types used by the project is embedded into the solution assembly when you build the project. This embedded type information, rather than the type information in the referenced assemblies, are used by the solution at runtime.
+  After you make this change, type information for all of the runtime types used by the project is embedded into the solution assembly when you build the project. This embedded type information, rather than the type information in the referenced assemblies, are used by the solution at run time.
 
 ## <a name="UnmanagedLoader"></a> Understand the Office solution loader
  The Visual Studio Tools for Office runtime includes several unmanaged DLLs that Office applications use to load the runtime and Office solutions. Although you should never have to work with these DLLs directly, knowing the purposes of these DLLs can help you better understand the architecture of Office solutions.

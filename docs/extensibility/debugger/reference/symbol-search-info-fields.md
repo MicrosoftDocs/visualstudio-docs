@@ -1,20 +1,22 @@
 ---
-title: "SYMBOL_SEARCH_INFO_FIELDS | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Specifies the kind of symbol information to retrieve."
+title: SYMBOL_SEARCH_INFO_FIELDS | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "SYMBOL_SEARCH_INFO_FIELDS"
+- SYMBOL_SEARCH_INFO_FIELDS
 helpviewer_keywords:
-  - "SYMBOL_SEARCH_INFO_FIELDS enumeration"
+- SYMBOL_SEARCH_INFO_FIELDS enumeration
 ms.assetid: bce35af0-722d-46d4-afa6-eaae598c51ff
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # SYMBOL_SEARCH_INFO_FIELDS
 Specifies the kind of symbol information to retrieve.

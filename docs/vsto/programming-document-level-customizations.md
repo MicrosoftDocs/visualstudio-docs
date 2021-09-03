@@ -1,5 +1,7 @@
 ---
 title: "Program document-level customizations"
+description: Learn how to extend Microsoft Word or Excel by using a document-level customization so you can perform various tasks.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 f1_keywords:
@@ -24,7 +26,8 @@ helpviewer_keywords:
   - "application development [Office development in Visual Studio], document-level customizations"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
+ms.technology: office-development
 ms.workload:
   - "office"
 ---
@@ -156,7 +159,7 @@ Globals.ThisDocument.Save();
 
 - Use the `GetVstoObject` method if you want to get the extended object for a native Office object. This method returns a <xref:Microsoft.Office.Tools.Excel.ListObject>, <xref:Microsoft.Office.Tools.Excel.Workbook>, <xref:Microsoft.Office.Tools.Excel.Worksheet>, or <xref:Microsoft.Office.Tools.Word.Document> object if the specified native Office object has one. Otherwise, `GetVstoObject` returns **null**. For example, the `GetVstoObject` method returns a <xref:Microsoft.Office.Tools.Word.Document> if the specified <xref:Microsoft.Office.Interop.Word.Document> is the underlying object for the document in your Word document project.
 
-  In document-level projects, you cannot use the `GetVstoObject` method to create a new <xref:Microsoft.Office.Tools.Excel.Workbook>, <xref:Microsoft.Office.Tools.Excel.Worksheet>, or <xref:Microsoft.Office.Tools.Word.Document> host item at runtime. You can use this method only to access existing host items that are generated in your project at design time. If you want to create new host items at runtime, you must develop a VSTO Add-in project. For more information, see [Programmatic limitations of host items and host controls](../vsto/programmatic-limitations-of-host-items-and-host-controls.md) and [Extend Word documents and Excel workbooks in VSTO Add-ins at runtime](../vsto/extending-word-documents-and-excel-workbooks-in-vsto-add-ins-at-run-time.md).
+  In document-level projects, you cannot use the `GetVstoObject` method to create a new <xref:Microsoft.Office.Tools.Excel.Workbook>, <xref:Microsoft.Office.Tools.Excel.Worksheet>, or <xref:Microsoft.Office.Tools.Word.Document> host item at run time. You can use this method only to access existing host items that are generated in your project at design time. If you want to create new host items at run time, you must develop a VSTO Add-in project. For more information, see [Programmatic limitations of host items and host controls](../vsto/programmatic-limitations-of-host-items-and-host-controls.md) and [Extend Word documents and Excel workbooks in VSTO Add-ins at run time](../vsto/extending-word-documents-and-excel-workbooks-in-vsto-add-ins-at-run-time.md).
 
 ## Use the GetVstoObject and HasVstoObject methods
  To call the `HasVstoObject` and `GetVstoObject` method, use the `Globals.Factory.GetVstoObject` or `Globals.Factory.HasVstoObject` method, and pass in the native Word or Excel object (such as a <xref:Microsoft.Office.Interop.Word.Document> or <xref:Microsoft.Office.Interop.Excel.Worksheet>) that you want to test.

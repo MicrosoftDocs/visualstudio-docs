@@ -1,7 +1,9 @@
 ---
 title: "Troubleshoot Office solution deployment"
+description: Learn how you can solve common problems that you might encounter when you deploy Office solutions.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: "troubleshooting"
 dev_langs:
   - "VB"
   - "CSharp"
@@ -11,7 +13,8 @@ helpviewer_keywords:
   - "deploying applications [Office development in Visual Studio], troubleshooting"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
+ms.technology: office-development
 ms.workload:
   - "office"
 ---
@@ -53,8 +56,8 @@ ms.workload:
 ## Prerequisites for Microsoft Office aren't installed
  You can add the .NET Framework, the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)], and the Office primary interop assemblies to your Setup package as prerequisites that are deployed with your Office solution. For information about how to install the primary interop assemblies, see [Configure a computer to develop Office solutions](../vsto/configuring-a-computer-to-develop-office-solutions.md) and [How to: Install Office primary interop assemblies](../vsto/how-to-install-office-primary-interop-assemblies.md).
 
-## Publish using 'Localhost' can cause installation problems
- When you use "<http://localhost>" as the publish or installation location for document-level solutions, the **Publish Wizard** doesn't convert the string to the real computer name. In this case, the solution must be installed on the development computer. To make deployed solutions use IIS on the development computer, use the fully qualified name for all HTTP/HTTPS/FTP locations instead of localhost.
+## Publish using Localhost can cause installation problems
+ When you use `http://localhost` as the publish or installation location for document-level solutions, the **Publish Wizard** doesn't convert the string to the real computer name. In this case, the solution must be installed on the development computer. To make deployed solutions use IIS on the development computer, use the fully qualified name for all HTTP/HTTPS/FTP locations instead of localhost.
 
 ## Cached assemblies are loaded instead of updated assemblies
  Fusion, the .NET Framework assembly loader, loads the cached copy of assemblies when the project output path is on a network file share, the assembly is signed with a strong name, and the assembly version of the customization doesn't change. If you update an assembly that meets these conditions, the update won't appear the next time that you run the project because the cached copy is loaded.
@@ -108,14 +111,14 @@ ms.workload:
 ## Reinstall Office solutions causes an argument out of range exception
  When you reinstall an Office solution, a <xref:System.ArgumentOutOfRangeException> exception might appear with the following error message: Specified argument was out of the range of valid values.
 
- This situation occurs if the casing for the URL for the installation location is different. For example, this error would appear if you installed an Office solution from [http://fabrikam.com/ExcelSolution.vsto](http://fabrikam.com/ExcelSolution.vsto) the first time and then used [http://fabrikam.com/excelsolution.vsto](http://fabrikam.com/excelsolution.vsto) the second time.
+ This situation occurs if the casing for the URL for the installation location is different. For example, this error would appear if you installed an Office solution from `http://fabrikam.com/ExcelSolution.vsto` the first time and then used `http://fabrikam.com/excelsolution.vsto` the second time.
 
  To prevent the message from appearing, use the same casing when you install Office solutions.
 
 ## Can't install a ClickOnce solution by opening the deployment manifest from the web
  Users can install Office solutions by opening the deployment manifest from the web. However, some installations of Internet Information Services (IIS) block the *.vsto* file name extension. You must define the MIME type in IIS before you use it to deploy an Office solution.
 
- For information about how to define the MIME type in IIS 7, see [Add a MIME Type (IIS7)](https://technet.microsoft.com/library/cc725608(WS.10).aspx).
+ For information about how to define the MIME type in IIS 7, see [Add a MIME Type (IIS7)](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc725608(v=ws.10)).
 
  Set the extension to **.vsto** and the MIME type to **application/x-ms-vsto**.
 
@@ -123,3 +126,4 @@ ms.workload:
 
 - [Troubleshoot ClickOnce deployments](../deployment/troubleshooting-clickonce-deployments.md)
 - [Deploy an Office solution](../vsto/deploying-an-office-solution.md)
+- [Visual Studio troubleshooting](/troubleshoot/visualstudio/welcome-visual-studio/)

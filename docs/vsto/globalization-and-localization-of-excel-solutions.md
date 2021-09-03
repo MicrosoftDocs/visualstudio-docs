@@ -1,5 +1,7 @@
 ---
 title: "Globalization and localization of Excel solutions"
+description: Learn about special considerations for Microsoft Office Excel solutions that will be run on computers that have non-English settings for Windows.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -9,7 +11,8 @@ helpviewer_keywords:
   - "globalization [Office development in Visual Studio], configuring"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
+ms.technology: office-development
 ms.workload:
   - "office"
 ---
@@ -38,10 +41,10 @@ ms.workload:
 ## Localize document text
  The document, template, or workbook in your project probably includes static text, which must be localized separately from the assembly and other managed resources. A straightforward way to do this is to make a copy of the document and translate the text using Microsoft Office Word or Microsoft Office Excel. This process works even if you make no changes to the code, because any number of documents can be linked to the same assembly.
 
- You must still make sure that any part of your code that interacts with the document text continues to match the language of the text, and that bookmarks, named ranges, and other display fields accommodate any reformatting of the Office document that was necessary to adjust for different grammar and text length. For document templates that contain relatively little text, you might want to consider storing the text in resource files, and then loading the text at runtime.
+ You must still make sure that any part of your code that interacts with the document text continues to match the language of the text, and that bookmarks, named ranges, and other display fields accommodate any reformatting of the Office document that was necessary to adjust for different grammar and text length. For document templates that contain relatively little text, you might want to consider storing the text in resource files, and then loading the text at run time.
 
 ### Text direction
- In Excel, you can set a property of the worksheet to render text right to left. Host controls, or any control that has a `RightToLeft` property, that is placed on the designer automatically match these settings at runtime. Word does not have a document setting for bidirectional text (you just change your alignment of text), so the controls cannot be mapped to this setting. Instead, you must set the text alignment for each control. It is possible to write code to walk through all of the controls and force them to render text from right to left.
+ In Excel, you can set a property of the worksheet to render text right to left. Host controls, or any control that has a `RightToLeft` property, that is placed on the designer automatically match these settings at run time. Word does not have a document setting for bidirectional text (you just change your alignment of text), so the controls cannot be mapped to this setting. Instead, you must set the text alignment for each control. It is possible to write code to walk through all of the controls and force them to render text from right to left.
 
 ### Change culture
  Your document-level customization code typically shares the main UI thread of Excel, so any changes you make to the thread culture affects everything else that is running on that thread; the change is not restricted to your customization.
@@ -49,9 +52,9 @@ ms.workload:
  Windows Forms controls are initialized before application-level VSTO Add-ins are started by the host application. In these situations, the culture should be changed before setting the UI controls.
 
 ## Install the language packs
- If you have non-English settings for Windows, you can install the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] Language Packs to see [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] messages in the same language as Windows. If any end users run your solutions with non-English settings for Windows, they must have the correct language pack to see runtime messages in the same language as Windows. The [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] Language Packs are available from the [Microsoft download center](http://www.microsoft.com/downloads).
+ If you have non-English settings for Windows, you can install the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] Language Packs to see [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] messages in the same language as Windows. If any end users run your solutions with non-English settings for Windows, they must have the correct language pack to see runtime messages in the same language as Windows. The [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] Language Packs are available from the [Microsoft download center](https://www.microsoft.com/download).
 
- In addition, the redistributable .NET Framework Language Packs are necessary for ClickOnce messages. The .NET Framework Language Packs are available from the [Microsoft download center](http://www.microsoft.com/downloads).
+ In addition, the redistributable .NET Framework Language Packs are necessary for ClickOnce messages. The .NET Framework Language Packs are available from the [Microsoft download center](https://www.microsoft.com/download).
 
 ## Regional settings and Excel COM Calls
  Whenever a managed client calls a method on a COM object and it needs to pass in culture-specific information, it does so using the <xref:System.Globalization.CultureInfo.CurrentCulture%2A> (locale) that matches the current thread locale. The current thread locale is inherited from the user's regional settings by default. However, when you make a call into the Excel object model from an Excel solution created by using the Office development tools in Visual Studio, the English (United States) data format (locale ID 1033) is passed to the Excel object model automatically. You must format all data that has locale-sensitive formatting, such as dates and currency, using the English (United States) data format before you pass it to Microsoft Office Excel or read the data from your project code.
@@ -73,15 +76,15 @@ Application.ActiveCell.Value2 = "05/12/04"
 
  For example:
 
- [!code-vb[Trin_VstcoreCreatingExcel#6](../vsto/codesnippet/VisualBasic/Trin_VstcoreCreatingExcelVB/Sheet1.vb#6)]
- [!code-csharp[Trin_VstcoreCreatingExcel#6](../vsto/codesnippet/CSharp/Trin_VstcoreCreatingExcelCS/Sheet1.cs#6)]
+ :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreCreatingExcelVB/Sheet1.vb" id="Snippet6":::
+ :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreCreatingExcelCS/Sheet1.cs" id="Snippet6":::
 
  You should work with strongly-typed data instead of string literals whenever possible. For example, instead of storing a date in a string literal, store it as a <xref:System.Double>, then convert it to a <xref:System.DateTime> object for manipulation.
 
  The following code example takes a date that a user enters into cell A5, stores it as a <xref:System.Double>, then converts it to a <xref:System.DateTime> object for display in cell A7. Cell A7 must be formatted to display a date.
 
- [!code-vb[Trin_VstcoreCreatingExcel#7](../vsto/codesnippet/VisualBasic/Trin_VstcoreCreatingExcelVB/Sheet1.vb#7)]
- [!code-csharp[Trin_VstcoreCreatingExcel#7](../vsto/codesnippet/CSharp/Trin_VstcoreCreatingExcelCS/Sheet1.cs#7)]
+ :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreCreatingExcelVB/Sheet1.vb" id="Snippet7":::
+ :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreCreatingExcelCS/Sheet1.cs" id="Snippet7":::
 
 ### Excel worksheet functions
  Worksheet function names are translated internally for most language versions of Excel. However, due to potential language and COM interop issues it is recommended that you use only English function names in your code.

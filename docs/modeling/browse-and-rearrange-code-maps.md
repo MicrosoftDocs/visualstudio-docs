@@ -1,27 +1,30 @@
 ---
 title: Browse and rearrange code maps
+description: Learn how you can rearrange items on code maps to make them easier to read and improve their performance.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 f1_keywords:
-  - "vs.progression.dgmlgraph.layouthelp"
-  - "vs.progression.graphdocument"
-  - "vs.progression.dgmlgraph.message.notUlt.noexpandgroup"
-  - "vs.progression.colorsetpicker"
-  - "vs.progression.iconsetpicker"
+- vs.progression.dgmlgraph.layouthelp
+- vs.progression.graphdocument
+- vs.progression.dgmlgraph.message.notUlt.noexpandgroup
+- vs.progression.colorsetpicker
+- vs.progression.iconsetpicker
 helpviewer_keywords:
-  - "Visual Studio Ultimate, dependency graphs"
-  - "code visualization [Visual Studio ALM]"
-  - "graph documents, browsing"
-  - "Visual Studio ALM, dependency graphs"
-  - "code visualization"
-  - "Visual Studio ALM, graph documents"
-  - "Visual Studio Ultimate, graph documents"
-  - "dependency graphs, browsing"
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+- Visual Studio Ultimate, dependency graphs
+- code visualization [Visual Studio ALM]
+- graph documents, browsing
+- Visual Studio ALM, dependency graphs
+- code visualization
+- Visual Studio ALM, graph documents
+- Visual Studio Ultimate, graph documents
+- dependency graphs, browsing
+author: mgoertz-msft
+ms.author: mgoertz
+manager: jmartens
+ms.technology: vs-ide-modeling
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Browse and rearrange code maps
 
@@ -320,7 +323,7 @@ You can merge maps by copying and pasting code elements between maps. If the cod
 
 Alternatively, you can drag those assemblies or binaries to the same map from that folder.
 
-## See Also
+## See also
 
 - [Map dependencies across your solutions](../modeling/map-dependencies-across-your-solutions.md)
 - [Use code maps to debug your applications](../modeling/use-code-maps-to-debug-your-applications.md)

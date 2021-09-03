@@ -1,5 +1,7 @@
 ---
 title: "Format specifiers in the debugger (C++) | Microsoft Docs"
+description: Use a format specifier to change the format in which a value is displayed in a Watch, Autos, or Locals window. This article provides usage details.
+ms.custom: SEO-VS-2020
 ms.date: "3/11/2019"
 ms.topic: "conceptual"
 f1_keywords:
@@ -21,11 +23,13 @@ helpviewer_keywords:
 ms.assetid: 0f6f3b7c-ce2c-4b4d-b14f-7589dbed5444
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "cplusplus"
 ---
 # Format specifiers for C++ in the Visual Studio debugger
+
 You can change the format in which a value is displayed in the **Watch**, **Autos**, and **Locals** windows by using format specifiers.
 
 You can also use format specifiers in the **Immediate** window, the **Command** window, in [tracepoints](../debugger/using-breakpoints.md#BKMK_Print_to_the_Output_window_with_tracepoints), and even in source windows. If you pause on an expression in those windows, the result appears in a [DataTip](../debugger/view-data-values-in-data-tips-in-the-code-editor.md). The DataTip display reflects the format specifier.
@@ -34,6 +38,7 @@ You can also use format specifiers in the **Immediate** window, the **Command** 
 > When the Visual Studio native debugger changed to a new debugging engine, some new format specifiers were added and some old ones were removed. The  older debugger is still used when you do interop (mixed native and managed) debugging with C++/CLI.
 
 ## Set format specifiers
+
 We'll use the following example code:
 
 ```C++
@@ -46,7 +51,7 @@ int main() {
 
 Add the `my_var1` variable to the **Watch** window while debugging, **Debug** > **Windows** > **Watch** > **Watch 1**. Next, right-click the variable and select **Hexadecimal Display**. Now the **Watch** window shows the value 0x0065. To see this value expressed as a character rather than an integer, first right-click and deselect **Hexadecimal Display**. Then add the character format specifier **, c** in the **Name** column after the variable name. The **Value** column now shows **101 'e'**.
 
-![WatchFormatCPlus1](../debugger/media/watchformatcplus1.png "WatchFormatCPlus1")
+![Screenshot of the Visual Studio Watch window with one selected line that shows my_var1.c with a value of 101 'e' and a type of int.](../debugger/media/watchformatcplus1.png)
 
 ::: moniker range=">= vs-2019" 
 You can view and select from a list of available format specifiers by appending a comma (,) to the value in the **Watch** window. 
@@ -56,6 +61,7 @@ You can view and select from a list of available format specifiers by appending 
 ::: moniker-end
 
 ## <a name="BKMK_Visual_Studio_2012_format_specifiers"></a> Format specifiers
+
 The following tables describe the format specifiers that you can use in Visual Studio. Specifiers in bold are only supported for the new debugger, and not for interop debugging with C++/CLI.
 
 ::: moniker range=">= vs-2019" 
@@ -72,7 +78,7 @@ The following tables describe the format specifiers that you can use in Visual S
 |bb|unsigned binary integer(without leading 0b)|25|00000000000000000000000000011001|
 |e|scientific notation|25000000|2.500000e+07|
 |g|shorter of scientific or floating point|25000000|2.5e+07|
-|c|single character|0x0065, c|101 'e'|
+|c|single character|0x0065|101 'e'|
 |s|const char* string (with quotation marks)|\<location> "hello world"|"hello world"|
 |**sb**|const char* string (no quotation marks)|\<location> "hello world"|hello world|
 |s8|UTF-8 string|\<location> "This is a UTF-8 coffee cup â˜•"|"This is a UTF-8 coffee cup ☕"|
@@ -93,6 +99,7 @@ The following tables describe the format specifiers that you can use in Visual S
 |nr|Suppress "Raw View" item|
 |nvo|Show "Raw View" item for numeric values only|
 |!|raw format, ignoring any data type views customizations|\<customized representation>|4|
+|handle|Displays information about win32 handle|0x000000000000009c| Displays useful information about handle such as thread ID, etc. |
 
 ::: moniker-end
 
@@ -130,6 +137,7 @@ The following tables describe the format specifiers that you can use in Visual S
 > When the **hv** format specifier is present, the debugger attempts to determine the length of the buffer and display that number of elements. Because it is not always possible for the debugger to find the exact buffer size of an array, you should use a size specifier `(pBuffer,[bufferSize])` whenever possible. The **hv** format specifier is useful when the buffer size is not readily available.
 
 ### <a name="BKMK_Size_specifiers_for_pointers_as_arrays_in_Visual_Studio_2012"></a> Size specifiers for pointers as arrays
+
 If you have a pointer to an object you want to view as an array, you can use an integer or an expression to specify the number of array elements.
 
 |Specifier|Format|Original Watch Value|Value Displayed|
@@ -139,7 +147,8 @@ If you have a pointer to an object you want to view as an array, you can use an 
 |**expand(n)**|A valid C++ expression that evaluates to an integer|pBuffer, expand(2)|Displays the third element of  `pBuffer`|
 
 ## <a name="BKMK_Format_specifiers_for_interop_debugging_and_C___edit_and_continue"></a> Format specifiers for interop debugging with C++/CLI
-Specifiers in **bold** are supported only for debugging native and C++/CLI code.
+
+Specifiers in **bold** are supported only for debugging native and C++/CLI code. This requires the legacy debugger, specified using [Managed Compatibility Mode](../debugger/general-debugging-options-dialog-box.md).
 
 |Specifier|Format|Original Watch Value|Value Displayed|
 |---------------|------------|--------------------------|---------------------|
@@ -162,7 +171,10 @@ Specifiers in **bold** are supported only for debugging native and C++/CLI code.
 |!|raw format, ignoring any data type view customizations|\<customized representation>|4|
 
 ### <a name="BKMK_Format_specifiers_memory_locations_in_interop_debugging_and_C___edit_and_continue"></a> Format specifiers for memory locations in interop debugging with C++/CLI
+
 The following table describes formatting symbols used for memory locations. You can use a memory location specifier with any value or expression that evaluates to a location.
+
+Specifiers in **bold** are supported only for debugging native and C++/CLI code. This requires the legacy debugger, specified using [Managed Compatibility Mode](../debugger/general-debugging-options-dialog-box.md).
 
 |Symbol|Format|Original Watch Value|Value Displayed|
 |------------|------------|--------------------------|---------------------|
@@ -175,6 +187,7 @@ The following table describes formatting symbols used for memory locations. You 
 |**mu**|2-byte characters (Unicode)|0x0012ffac|0x0012ffac 8478 77f4 ffff ffff 0000 0000 0000 0000|
 
 ### <a name="BKMK_Size_specifier_for_pointers_as_arrays_in_interop_debugging_and_C___edit_and_continue"></a> Size specifier for pointers as arrays in interop debugging with C++/CLI
+
 If you have a pointer to an object you want to view as an array, you can use an integer to specify the number of array elements.
 
 |Specifier|Format|Expression|Value Displayed|

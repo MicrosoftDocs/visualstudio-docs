@@ -1,20 +1,22 @@
 ---
-title: "IEnumDebugBoundBreakpoints2::Next | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Returns the next set of elements from the bound breakpoints enumeration."
+title: IEnumDebugBoundBreakpoints2::Next | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IEnumDebugBoundBreakpoints2::Next"
+- IEnumDebugBoundBreakpoints2::Next
 helpviewer_keywords:
-  - "IEnumDebugBoundBreakpoints2::Next"
+- IEnumDebugBoundBreakpoints2::Next
 ms.assetid: cb3a249f-2282-4bdc-b6d8-a4ee4bfb8365
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IEnumDebugBoundBreakpoints2::Next
 Returns the next set of elements from the enumeration.

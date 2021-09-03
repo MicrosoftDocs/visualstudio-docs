@@ -1,13 +1,15 @@
 ---
 title: Sort usings
 description: How to sort `using` directives at the top of your file so that they are in alphabetical order.
-ms.date: 06/19/2019
+ms.date: 03/10/2020
 ms.topic: reference
 author: mikadumont
 ms.author: midumont
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-general
 dev_langs:
   - CSharp
+  - VB
 ms.workload: 
   - "dotnet"
 ---
@@ -16,6 +18,8 @@ ms.workload:
 This refactoring applies to:
 
 - C#
+
+- Visual Basic
 
 **What:** Sort usings.
 

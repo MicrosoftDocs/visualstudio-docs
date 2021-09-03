@@ -1,6 +1,8 @@
 ---
 title: "Supported Code Changes (C# and Visual Basic) | Microsoft Docs"
-ms.date: "10/11/2018"
+description: Understand what code changes are supported when you are using the Edit and Continue feature while debugging a C# or Visual Basic project in Visual Studio.
+ms.custom: SEO-VS-2020
+ms.date: "9/03/2020"
 ms.topic: "conceptual"
 dev_langs:
   - "CSharp"
@@ -13,7 +15,8 @@ helpviewer_keywords:
 ms.assetid: c7a48ea9-5a7f-4328-a9d7-f0e76fac399d
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "dotnet"
 ---
@@ -26,15 +29,15 @@ The table below shows the changes that may be made to C# and Visual Basic code d
 
 |Language element/feature|Supported edit operation|Limitations|
 |-|-|-|
-|Types|Add methods, fields, constructors, et al|[Yes](https://github.com/dotnet/roslyn/wiki/EnC-Supported-Edits)|
+|Types|Add methods, fields, constructors, et al|[Yes](https://github.com/dotnet/roslyn/blob/master/docs/wiki/EnC-Supported-Edits.md)|
 |Iterators|Add or modify|No|
-|async/await expressions|Add or modify|[Yes](https://github.com/dotnet/roslyn/wiki/EnC-Supported-Edits)|
+|async/await expressions|Add or modify|[Yes](https://github.com/dotnet/roslyn/blob/master/docs/wiki/EnC-Supported-Edits.md)|
 |Dynamic objects|Add or modify|No|
-|lambda expressions|Add or modify|[Yes](https://github.com/dotnet/roslyn/wiki/EnC-Supported-Edits)|
-|LINQ expressions|Add or modify|[Same as lambda expressions](https://github.com/dotnet/roslyn/wiki/EnC-Supported-Edits)|
+|lambda expressions|Add or modify|[Yes](https://github.com/dotnet/roslyn/blob/master/docs/wiki/EnC-Supported-Edits.md)|
+|LINQ expressions|Add or modify|[Same as lambda expressions](https://github.com/dotnet/roslyn/blob/master/docs/wiki/EnC-Supported-Edits.md)|
 
 > [!NOTE]
-> Newer language features such as string interpolation and null-conditional operators are generally supported by Edit and Continue. For the most current information, see the [Enc Supported Edits](https://github.com/dotnet/roslyn/wiki/EnC-Supported-Edits) page.
+> Newer language features such as string interpolation and null-conditional operators are generally supported by Edit and Continue. For the most current information, see the [Enc Supported Edits](https://github.com/dotnet/roslyn/blob/master/docs/wiki/EnC-Supported-Edits.md) page.
 
 ## Unsupported changes to code
  The following changes cannot be applied to C# and Visual Basic code during a debugging session:
@@ -54,9 +57,10 @@ The table below shows the changes that may be made to C# and Visual Basic code d
 |Namespaces, types, members|Delete|
 |Generics|Add or modify|
 |Interfaces|Modify|
-|Types|Add abstract or virtual member, add override (see [details](https://github.com/dotnet/roslyn/wiki/EnC-Supported-Edits))|
+|Types|Add abstract or virtual member, add override (see [details](https://github.com/dotnet/roslyn/blob/master/docs/wiki/EnC-Supported-Edits.md))|
 |Types|Add destructor|
 |Members|Modify a member referencing an embedded interop type|
+|Members|Modify a static member after it has already been accessed by executing code|
 |Members (Visual Basic)|Modify a member with On Error or Resume statement|
 |Members (Visual Basic)|Modify a member containing an Aggregate, Group By, Simple Join, or Group Join LINQ query clause|
 |Methods|Modify signatures|
@@ -68,15 +72,15 @@ The table below shows the changes that may be made to C# and Visual Basic code d
 |catch blocks|Modify when it contains an active statement|
 |try-catch-finally blocks|Modify when it contains an active statement|
 |using statements|Add|
-|async methods/lambdas|Modify an async method/lambda in a project targeting .NET Framework 4 and lower (see [details](https://github.com/dotnet/roslyn/wiki/EnC-Supported-Edits))|
-|Iterators|Modify an iterator in a project targeting .NET Framework 4 and lower (see [details](https://github.com/dotnet/roslyn/wiki/EnC-Supported-Edits))|
+|async methods/lambdas|Modify an async method/lambda in a project targeting .NET Framework 4 and lower (see [details](https://github.com/dotnet/roslyn/blob/master/docs/wiki/EnC-Supported-Edits.md))|
+|Iterators|Modify an iterator in a project targeting .NET Framework 4 and lower (see [details](https://github.com/dotnet/roslyn/blob/master/docs/wiki/EnC-Supported-Edits.md))|
 
 ## Unsafe code
  Changes to unsafe code have the same limitations as changes to safe code, with one additional restriction: Edit and Continue does not support changes to unsafe code that exits within a method that contains the `stackalloc` operator.
 
 ## Unsupported app scenarios
 
-Unsupported apps and platforms include ASP.NET 5, Silverlight 5, and Windows 8.1.
+Unsupported apps and platforms include Silverlight 5 and Windows 8.1. Unsupported scenarios in ASP.NET and ASP.NET Core include editing _.aspx_, _.ascx_, _.cshtml_, and _.razor_ files.
 
 > [!NOTE]
 > Apps that are supported include UWP in Windows 10, and x86 and x64 apps that target the .NET Framework 4.6 desktop or later versions (the .NET Framework is a desktop version only).
@@ -98,6 +102,6 @@ Unsupported apps and platforms include ASP.NET 5, Silverlight 5, and Windows 8.1
 
 - Debugging an old version of your code after a new version failed to build because of build errors.
 
-## See Also
+## See also
 - [Edit and Continue (Visual C#)](../debugger/edit-and-continue-visual-csharp.md)
 - [How to: Use Edit and Continue (C#)](../debugger/how-to-use-edit-and-continue-csharp.md)

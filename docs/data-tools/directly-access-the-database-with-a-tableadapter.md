@@ -1,28 +1,31 @@
 ---
 title: Directly access the database with a TableAdapter
+description: Directly access a database with a TableAdapter, using methods such as Insert, Update, and Delete to manipulate data directly in the database.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 dev_langs:
-  - "VB"
-  - "CSharp"
+- VB
+- CSharp
 helpviewer_keywords:
-  - "databases [Visual Basic], accessing with a TableAdapter"
-  - "DBDirect methods"
-  - "datasets [Visual Basic], adding to projects"
-  - "data [Visual Studio], saving"
-  - "TableAdapter.Delete method"
-  - "GenerateDbDirectMethods property"
-  - "TableAdapter.Insert method"
-  - "TableAdapter.GenerateDBDirectMethods property"
-  - "TableAdapter.Update method"
-  - "saving data"
-  - "TableAdapters"
+- databases [Visual Basic], accessing with a TableAdapter
+- DBDirect methods
+- datasets [Visual Basic], adding to projects
+- data [Visual Studio], saving
+- TableAdapter.Delete method
+- GenerateDbDirectMethods property
+- TableAdapter.Insert method
+- TableAdapter.GenerateDBDirectMethods property
+- TableAdapter.Update method
+- saving data
+- TableAdapters
 ms.assetid: 012c5924-91f7-4790-b2a6-f51402b7014b
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: ghogen
+ms.author: ghogen
+manager: jmartens
+ms.technology: vs-data-tools
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # Directly access the database with a TableAdapter
 
@@ -41,8 +44,8 @@ Call the TableAdapter `DbDirect` method that performs the task you are trying to
     > [!NOTE]
     > If you do not have an instance available, instantiate the TableAdapter that you want to use.
 
-     [!code-vb[VbRaddataSaving#15](../data-tools/codesnippet/VisualBasic/directly-access-the-database-with-a-tableadapter_1.vb)]
-     [!code-csharp[VbRaddataSaving#15](../data-tools/codesnippet/CSharp/directly-access-the-database-with-a-tableadapter_1.cs)]
+     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataSaving/VB/Class1.vb" id="Snippet15":::
+     :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataSaving/CS/Class1.cs" id="Snippet15":::
 
 ### To update records directly in a database
 
@@ -51,8 +54,8 @@ Call the TableAdapter `DbDirect` method that performs the task you are trying to
     > [!NOTE]
     > If you do not have an instance available, instantiate the TableAdapter that you want to use.
 
-     [!code-vb[VbRaddataSaving#18](../data-tools/codesnippet/VisualBasic/directly-access-the-database-with-a-tableadapter_2.vb)]
-     [!code-csharp[VbRaddataSaving#18](../data-tools/codesnippet/CSharp/directly-access-the-database-with-a-tableadapter_2.cs)]
+     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataSaving/VB/Class1.vb" id="Snippet18":::
+     :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataSaving/CS/Class1.cs" id="Snippet18":::
 
 ### To delete records directly from a database
 
@@ -61,8 +64,8 @@ Call the TableAdapter `DbDirect` method that performs the task you are trying to
     > [!NOTE]
     > If you do not have an instance available, instantiate the TableAdapter that you want to use.
 
-     [!code-vb[VbRaddataSaving#21](../data-tools/codesnippet/VisualBasic/directly-access-the-database-with-a-tableadapter_3.vb)]
-     [!code-csharp[VbRaddataSaving#21](../data-tools/codesnippet/CSharp/directly-access-the-database-with-a-tableadapter_3.cs)]
+     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataSaving/VB/Class1.vb" id="Snippet21":::
+     :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataSaving/CS/Class1.cs" id="Snippet21":::
 
 ## See also
 

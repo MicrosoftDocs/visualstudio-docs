@@ -1,21 +1,24 @@
 ---
-title: "How to: Set a Security Zone for a ClickOnce Application | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-helpviewer_keywords:
-  - "ClickOnce deployment, security settings"
-  - "code access security, ClickOnce applications"
-  - "security zones, ClickOnce applications"
+title: Set security zone (ClickOnce app)
+description: Learn about setting code access security permissions for a ClickOnce application, which begins with a base set of permissions in the Project Designer.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
+dev_langs: 
+  - VB
+  - CSharp
+  - C++
+helpviewer_keywords: 
+  - ClickOnce deployment, security settings
+  - code access security, ClickOnce applications
+  - security zones, ClickOnce applications
 ms.assetid: d3dac454-518a-44d7-a76e-ccb7b9c3a150
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
-ms.workload:
-  - "multiple"
+manager: jmartens
+ms.technology: vs-ide-deployment
+ms.workload: 
+  - multiple
 ---
 # How to: Set a security zone for a ClickOnce application
 When setting code access security permissions for a ClickOnce application, you need to start with a base set of permissions on the **Security** page of the **Project Designer**.

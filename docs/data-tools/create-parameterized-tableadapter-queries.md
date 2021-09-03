@@ -1,23 +1,26 @@
 ---
 title: Create parameterized TableAdapter queries
+description: Understand how to create parameterized TableAdapter queries. A parameterized query returns data that meets the conditions of a WHERE clause within the query.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 dev_langs:
-  - "VB"
-  - "CSharp"
+- VB
+- CSharp
 helpviewer_keywords:
-  - "data [Visual Studio], TableAdapters"
-  - "TableAdapters, parameterized queries"
-  - "data [Visual Studio], searching data"
-  - "queries [Visual Studio], creating"
-  - "TableAdapters, searching data"
-  - "queries [Visual Studio], TableAdapters"
+- data [Visual Studio], TableAdapters
+- TableAdapters, parameterized queries
+- data [Visual Studio], searching data
+- queries [Visual Studio], creating
+- TableAdapters, searching data
+- queries [Visual Studio], TableAdapters
 ms.assetid: 104d1d19-b5a9-4071-b81e-1b3af08e9c7b
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: ghogen
+ms.author: ghogen
+manager: jmartens
+ms.technology: vs-data-tools
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # Create parameterized TableAdapter queries
 
@@ -81,8 +84,8 @@ WHERE (ShippedDate = @ShippedDate) OR (ShippedDate IS NULL)
 
 If this were a query on a TableAdapter, you could query for all orders that have not been shipped with the following code:
 
-[!code-csharp[VbRaddataTableAdapters#8](../data-tools/codesnippet/CSharp/create-parameterized-tableadapter-queries_1.cs)]
-[!code-vb[VbRaddataTableAdapters#8](../data-tools/codesnippet/VisualBasic/create-parameterized-tableadapter-queries_1.vb)]
+:::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataTableAdapters/CS/Form2.cs" id="Snippet8":::
+:::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataTableAdapters/VB/Form2.vb" id="Snippet8":::
 
 To enable a query to accept null values:
 

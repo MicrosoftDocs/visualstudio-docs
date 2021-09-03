@@ -1,20 +1,22 @@
 ---
-title: "IDebugDisassemblyStream2::Seek | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Moves the read pointer in the disassembly stream a given number of instructions relative to a specified position."
+title: IDebugDisassemblyStream2::Seek | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugDisassemblyStream2::Seek"
+- IDebugDisassemblyStream2::Seek
 helpviewer_keywords:
-  - "IDebugDisassemblyStream2::Seek"
+- IDebugDisassemblyStream2::Seek
 ms.assetid: afec3008-b1e0-4803-ad24-195dbfb6497e
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugDisassemblyStream2::Seek
 Moves the read pointer in the disassembly stream a given number of instructions relative to a specified position.

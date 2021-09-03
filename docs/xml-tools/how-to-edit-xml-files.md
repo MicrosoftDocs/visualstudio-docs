@@ -1,13 +1,16 @@
 ---
-title: "How to: Edit XML Files"
+title: 'How to: Edit XML Files'
 ms.date: 11/04/2016
-ms.topic: conceptual
+description: Learn how to use the XML editor in Visual Studio to edit files that contain XML or DTD content.
+ms.custom: SEO-VS-2020
+ms.topic: how-to
 ms.assetid: 07fa3ecf-6345-4d30-9d85-d5ef5b083319
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
+ms.technology: vs-xml-tools
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Edit XML files
 
@@ -16,7 +19,7 @@ The XML editor is the new editor for XML files. It can be used on a stand-alone 
 > [!NOTE]
 > XHTML documents are handled by the HTML Editor.
 
-To edit an XML file, double-click the file you want to edit.
+To edit an XML file, open the file you want to edit.
 
 ## Add a new XML file to a project
 
@@ -44,7 +47,7 @@ To edit an XML file, double-click the file you want to edit.
 
 2. Select **XML File** to create a new XML file; or, select **XSLT File** to create a new XSLT style sheet.
 
-3. Click **Open**.
+3. Select **Open**.
 
 ## Create an empty project for XML files
 
@@ -56,7 +59,7 @@ To edit an XML file, double-click the file you want to edit.
 
 2. Select the code language of your choice, and then select the **Empty Project (.NET Framework)** template.
 
-3. Click **OK**.
+3. Select **OK**.
 
 ::: moniker-end
 
@@ -64,9 +67,9 @@ To edit an XML file, double-click the file you want to edit.
 
 1. From the **File** menu, select **New** > **Project**.
 
-2. Enter **Empty Project** in the template search box, select the **Empty Project (.NET Framework)** template, and then click **Next**.
+2. Enter **Empty Project** in the template search box, select the **Empty Project (.NET Framework)** template, and then select **Next**.
 
-3. Click **Create**.
+3. Select **Create**.
 
 ::: moniker-end
 

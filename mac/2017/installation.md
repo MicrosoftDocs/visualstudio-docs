@@ -1,18 +1,19 @@
 ---
 title: "Install Visual Studio 2017 for Mac"
 description: "Instructions on how to install Visual Studio for Mac and additional components required for cross-platform development."
-author: conceptdev
-ms.author: crdun
+author: heiligerdankgesang
+ms.author: dominicn
 ms.date: 11/03/2018
 ms.technology: vs-ide-install
 ms.assetid: 22B1F2CD-32AE-464D-80AC-C8AB4786B015
 ms.custom: video
+ms.topic: how-to
 ---
 
 # Install Visual Studio 2017 for Mac
 
 > [!NOTE]
-> Visual Studio 2019 for Mac is [now available](installation.md?view=vsmac-2019). For older versions of Visual Studio for Mac, see the Visual Studio [downloads page](https://my.visualstudio.com/Downloads?q=Visual%20Studio%202017%20for%20Mac).
+> Visual Studio 2019 for Mac is [now available](installation.md?view=vsmac-2019&preserve-view=true). For older versions of Visual Studio for Mac, see the Visual Studio [downloads page](https://my.visualstudio.com/Downloads?q=Visual%20Studio%202017%20for%20Mac).
 
 ## Downgrading from Visual Studio 2019 for Mac?
 
@@ -24,7 +25,7 @@ To start developing native, cross-platform apps when you download Visual Studio 
 
 For working with iOS in Visual Studio you need the following pieces:
 
-- a Mac with macOS Sierra 10.12 or above
+- A Mac with macOS High Sierra 10.13 or above.
 - Xcode 9.3 or above. The latest stable version is usually recommended.
 - An Apple ID. If you don't have an Apple ID already you can create a new one at https://appleid.apple.com. It's necessary to have an Apple ID for installing and signing into Xcode.
 
@@ -62,7 +63,7 @@ For working with iOS in Visual Studio you need the following pieces:
       - Fully cross-platform Xamarin apps – Select **Android**, **iOS**, and **macOS** platforms.
    * **.NET Core applications** – Select **.NET Core** platform.
    * **ASP.NET Core Web Applications** – Select **.NET Core** platform.
-   * **Cross-platform Unity Game Development** – No additional platforms need to be installed beyond Visual Studio for Mac. Refer to the [Unity setup guide](/visualstudio/mac/setup-vsmac-tools-unity) for more information on installing the Unity extension.
+   * **Cross-platform Unity Game Development** – No additional platforms need to be installed beyond Visual Studio for Mac. Refer to the [Unity setup guide](./setup-vsmac-tools-unity.md) for more information on installing the Unity extension.
 
    This installation screen displays the version and size of each individual component. You can click each component to display a list of dependencies for that component (for Android), see additional packages that it downloads (for .NET Core), or view any additional applications required (for iOS and macOS):
 
@@ -114,7 +115,7 @@ Installing Visual Studio for Mac allows you to start writing code for your apps.
 
 ### .NET Core apps, ASP.NET Core web apps, Unity game development
 
-For other Workloads, refer to the [Workloads](/visualstudio/mac/workloads) page.
+For other Workloads, refer to the [Workloads](./workloads.md) page.
 
 ## Related Video
 

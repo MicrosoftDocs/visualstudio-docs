@@ -1,5 +1,6 @@
 ---
 title: "Timeline Caret | Microsoft Docs"
+description: Learn how the caret shows the exact location of the call stack, which is the closest call stack to the location that the user selected.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:
@@ -9,7 +10,8 @@ helpviewer_keywords:
 ms.assetid: cc7d567f-b655-4539-810c-6506e7852121
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---

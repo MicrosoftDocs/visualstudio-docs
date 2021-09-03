@@ -1,7 +1,8 @@
 ---
+description: "Retrieves the number of bytes in a block."
 title: "IDiaLineNumber::get_length | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,8 @@ helpviewer_keywords:
 ms.assetid: 2c55a6f7-4ef5-45fb-9fd1-d72deaaa2829
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -35,5 +37,5 @@ HRESULT get_length ( 
 ## Remarks
  The block is the length of source code on the line as represented by the [IDiaLineNumber](../../debugger/debug-interface-access/idialinenumber.md) object.
 
-## See Also
+## See also
 - [IDiaLineNumber](../../debugger/debug-interface-access/idialinenumber.md)

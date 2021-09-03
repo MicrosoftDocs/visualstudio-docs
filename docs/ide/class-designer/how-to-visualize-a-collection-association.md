@@ -1,20 +1,23 @@
 ---
-title: "How to: Visualize a Collection Association (Class Designer)"
+title: Visualize a collection association
+description: Learn how to visualize a collection association in Class Designer.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 f1_keywords:
-  - "vs.classdesigner.collectionassociationline"
-  - "vs.classdesigner.ShowAssociationException"
+- vs.classdesigner.collectionassociationline
+- vs.classdesigner.ShowAssociationException
 helpviewer_keywords:
-  - "collection associations"
-  - "collections, collection associations"
-  - "Class Designer [Visual Studio], collection associations"
+- collection associations
+- collections, collection associations
+- Class Designer [Visual Studio], collection associations
 ms.assetid: 54e39838-2fc9-4dc2-85b6-7e88a743108e
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Visualize a collection association in Class Designer
 

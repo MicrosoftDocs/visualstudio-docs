@@ -1,20 +1,23 @@
 ---
 title: Manage application settings (.NET)
+description: Learn how to manage application settings (formerly called dynamic properties) that are not included in the application code, but are needed at runtime.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 f1_keywords:
-  - "msvse_settingsdesigner.err.nameblank"
+- msvse_settingsdesigner.err.nameblank
 helpviewer_keywords:
-  - "application settings [Visual Studio]"
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+- application settings [Visual Studio]
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Manage application settings (.NET)
 
-Application settings enable you to store application information dynamically. Settings allow you to store information on the client computer that should not be included in the application code (for example a connection string), user preferences, and other information you need at runtime.
+Application settings enable you to store application information dynamically. Settings allow you to store information on the client computer that should not be included in the application code (for example a connection string), user preferences, and other information you need at run time.
 
 Application settings replace the dynamic properties used in earlier versions of Visual Studio.
 

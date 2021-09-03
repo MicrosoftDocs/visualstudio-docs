@@ -1,14 +1,17 @@
 ---
-title: "Create Add-In for Web Performance Test Results Viewer"
+title: Create Add-In for Web Performance Test Results Viewer
+description: Learn how to create a Visual Studio add-in to extend the Web Performance Test Results Viewer's UI and implement the classes necessary to extend the UI.
+ms.custom: SEO-VS-2020
 ms.date: 10/20/2016
-ms.topic: conceptual
-helpviewer_keywords:
-  - "Web performance tests, Visual Studio Add-in"
-  - "Visual Studio Add-in, Web performance tests"
+ms.topic: how-to
+helpviewer_keywords: 
+  - Web performance tests, Visual Studio Add-in
+  - Visual Studio Add-in, Web performance tests
 ms.assetid: 1118c604-4b1b-4b21-a04e-45995b676fa8
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.technology: vs-ide-test
 ---
 # How to: Create an add-in for the Web Performance Test Results Viewer
 

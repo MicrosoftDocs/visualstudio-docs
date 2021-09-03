@@ -1,17 +1,19 @@
 ---
-title: "SccCloseProject Function | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+description: "This function closes a project, marking the end of a particular session."
+title: SccCloseProject Function | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: reference
 f1_keywords:
-  - "SccCloseProject"
+- SccCloseProject
 helpviewer_keywords:
-  - "SccCloseProject function"
+- SccCloseProject function
 ms.assetid: 259c2069-d349-4814-810f-1c3151b7fb84
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # SccCloseProject function
 This function closes a project, marking the end of a particular session.

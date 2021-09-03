@@ -1,13 +1,16 @@
 ---
-title: "How to: Apply a Shader to a 3D Model"
+title: 'How to: Apply a Shader to a 3D Model'
+description: Learn how to use the Model Editor to apply a Directed Graph Shader Language shader to a 3D model to give it an interesting appearance.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 ms.assetid: a3877bd6-abd8-4a9d-842c-6848b6c2f335
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
+ms.technology: vs-ide-designers
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Apply a shader to a 3D model
 

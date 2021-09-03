@@ -1,20 +1,22 @@
 ---
-title: "IDebugBinder3::FindAlias | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "This method locates an alias, given a name."
+title: IDebugBinder3::FindAlias | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugBinder3::FindAlias"
+- IDebugBinder3::FindAlias
 helpviewer_keywords:
-  - "IDebugBinder3::FindAlias method"
+- IDebugBinder3::FindAlias method
 ms.assetid: b8333701-2718-4983-8513-0875fb7cb730
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugBinder3::FindAlias
 This method locates an alias, given a name. This will search all aliases in the program.

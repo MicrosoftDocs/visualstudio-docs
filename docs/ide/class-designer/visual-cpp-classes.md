@@ -1,19 +1,22 @@
 ---
-title: Visual C++ Classes in Class Designer
+title: C++ Classes in Class Designer
+description: Learn about C++ classes and how they are supported and can have multiple inheritance relationships in Class Designer.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 f1_keywords:
-  - "vs.classdesigner.inheritancelinelabel"
+- vs.classdesigner.inheritancelinelabel
 helpviewer_keywords:
-  - "Class Designer [Visual Studio], classes"
+- Class Designer [Visual Studio], classes
 ms.assetid: 75e56f8c-11ef-42a3-b7ec-3d2cf25c581b
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
-  - "cplusplus"
+- cplusplus
 ---
-# Visual C++ classes in Class Designer
+# C++ classes in Class Designer
 
 **Class Designer** supports C++ classes and visualizes native C++ classes in the same way as Visual Basic and C# class shapes, except that C++ classes can have multiple inheritance relationships. You can expand the class shape to show more fields and methods in the class or collapse it to conserve space.
 
@@ -48,7 +51,7 @@ Right-clicking a class shape and then clicking **Show Base Classes** displays th
 > [!NOTE]
 > The **Show Derived Classes** command is not supported for C++ code. You can display derived classes by going to **Class View**, expanding the type node, expanding the **Derived Types** subfolder, and then dragging those types onto the class diagram.
 
-For more information about multiple-class inheritance, see [Multiple Inheritance](https://msdn.microsoft.com/library/6td5yws2.aspx) and [Multiple Base Classes](/cpp/cpp/multiple-base-classes).
+For more information about multiple-class inheritance, see [Multiple Inheritance](/previous-versions/6td5yws2(v=vs.140)) and [Multiple Base Classes](/cpp/cpp/multiple-base-classes).
 
 ## Abstract classes
 
@@ -168,9 +171,9 @@ The following table shows some examples of canonical specialized class connectio
 
 ## See also
 
-- [Working with Visual C++ Code](working-with-visual-cpp-code.md)
+- [Working with C++ Code](working-with-visual-cpp-code.md)
 - [Classes and Structs](/cpp/cpp/classes-and-structs-cpp)
 - [Anonymous Class Types](/cpp/cpp/anonymous-class-types)
-- [Multiple Inheritance](https://msdn.microsoft.com/library/6td5yws2.aspx)
+- [Multiple Inheritance](/previous-versions/6td5yws2(v=vs.140))
 - [Multiple Base Classes](/cpp/cpp/multiple-base-classes)
 - [Templates](/cpp/cpp/templates-cpp)

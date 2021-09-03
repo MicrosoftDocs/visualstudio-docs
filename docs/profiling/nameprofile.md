@@ -1,5 +1,6 @@
 ---
 title: "NameProfile | Microsoft Docs"
+description: Learn how the NameProfile function assigns a string to the specified process or thread. Also, the NameProfile API is available only for instrumentation profiling.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:
@@ -8,7 +9,9 @@ helpviewer_keywords:
 ms.assetid: 1bb05441-c4ff-4323-9fef-f3924fba4430
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
+monikerRange: 'vs-2017'
 ms.workload:
   - "multiple"
 ---
@@ -82,7 +85,7 @@ PROFILE_COMMAND_STATUS PROFILERAPI NameProfile(
 
 ## Function information
 
-|||
+|Item|Value|
 |-|-|
 |**Header**|Include *VSPerf.h*|
 |**Library**|Use *VSPerf.lib*|

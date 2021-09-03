@@ -1,13 +1,16 @@
 ---
 title: "Workflow Designer - DoWhile Activity Designer"
+description: Learn how the DoWhile activity executes the activity contained in its Body at least once, until a specified condition evaluates to false. 
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
   - "System.Activities.Statements.DoWhile.UI"
 ms.assetid: 948deb35-d72f-462b-bea6-4b119c10a148
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
+ms.technology: vs-workflow-designer
 ms.workload:
   - "multiple"
 ---

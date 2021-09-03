@@ -1,15 +1,18 @@
 ---
 title: Project and item template parameters
+description: Learn how to use template parameters to replace values in your template when the template is instantiated.
+ms.custom: SEO-VS-2020
 ms.date: 01/02/2018
 ms.topic: reference
 helpviewer_keywords:
-  - "Visual Studio templates, parameters"
-  - "template parameters [Visual Studio]"
-  - "project templates, parameters"
-  - "item templates, parameters"
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+- Visual Studio templates, parameters
+- template parameters [Visual Studio]
+- project templates, parameters
+- item templates, parameters
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
+ms.technology: vs-ide-general
 ---
 # Template parameters
 
@@ -55,7 +58,7 @@ The following table lists the reserved template parameters that can be used by a
 |safeitemrootname|Same as `safeitemname`.|
 |safeprojectname|The name provided by the user when the project was created but with all unsafe characters and spaces removed.|
 |time|The current time in the format DD/MM/YYYY 00:00:00.|
-|SpecificSolutionName|The name of the solution. When "create solution directory" is checked, `SpecificSolutionName` has the solution name. When "create solution directory" is not checked, `SpecificSolutionName` is blank.|
+|specifiedsolutionname|The name of the solution. When "create solution directory" is checked, `specifiedsolutionname` has the solution name. When "create solution directory" is not checked, `specifiedsolutionname` is blank.|
 |userdomain|The current user domain.|
 |username|The current user name.|
 |webnamespace|The name of the current website. This parameter is used in the web form template to guarantee unique class names. If the website is at the root directory of the web server, this template parameter resolves to the root directory of the web server.|

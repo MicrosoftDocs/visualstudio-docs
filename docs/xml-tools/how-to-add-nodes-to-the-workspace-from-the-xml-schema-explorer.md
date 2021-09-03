@@ -1,13 +1,16 @@
 ---
-title: "Add nodes to workspace from XML Schema Explorer"
+title: Add nodes to workspace from XML Schema Explorer
+description: Learn how to add nodes to the XML Schema Designer workspace from the XML Schema Explorer using the context menu or by dragging and dropping nodes onto a view.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 ms.assetid: 3b5a5749-9693-4b29-b0c2-8e07e0e55514
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
+ms.technology: vs-xml-tools
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Add nodes to the workspace from the XML Schema Explorer
 

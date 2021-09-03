@@ -1,16 +1,19 @@
 ---
-title: "Intercepting Legacy Language Service Commands | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Intercepting Legacy Language Service Commands | Microsoft Docs
+description: Learn how to use command filters in Visual Studio to intercept legacy language service commands and add language-specific behavior.
+ms.custom: SEO-VS-2020 
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "commands, intercepting language service"
-  - "language services, intercepting commands"
+- commands, intercepting language service
+- language services, intercepting commands
 ms.assetid: eea69f03-349c-44bb-bd4f-4925c0dc3e55
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Intercepting Legacy Language Service Commands
 With [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)], you can have the language service intercept commands that the text view would otherwise handle. This is useful for language-specific behavior that the text view does not manage. You can intercept these commands by adding one or more command filters to the text view from your language service.

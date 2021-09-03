@@ -1,7 +1,8 @@
 ---
+description: "Retrieves a flag that specifies whether the function contains any Structured Exception Handling (C/C++)) (for example, _try/__except blocks)."
 title: "IDiaSymbol::get_hasSEH | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,8 @@ helpviewer_keywords:
 ms.assetid: 1a709ded-22c8-464c-97be-eba5e464210c
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -42,6 +44,6 @@ HRESULT get_hasSEH(
 |Header:|dia2.h|
 |Version:|DIA SDK v8.0|
 
-## See Also
+## See also
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
 - [Structured Exception Handling (C/C++)](/cpp/cpp/structured-exception-handling-c-cpp)

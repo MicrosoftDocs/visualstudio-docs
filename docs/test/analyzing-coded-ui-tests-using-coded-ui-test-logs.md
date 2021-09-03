@@ -1,12 +1,15 @@
 ---
-title: "Analyzing Coded UI Tests Using Coded UI Test Logs"
+title: Analyzing Coded UI Tests Using Coded UI Test Logs
+description: Learn about coded UI test logs, which filter and record important information about your coded UI test runs. 
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
-ms.author: gewarren
-manager: jillfra
+ms.author: mikejo
+manager: jmartens
+ms.technology: vs-ide-test
 ms.workload:
-  - "multiple"
-author: gewarren
+- multiple
+author: mikejo5000
 ---
 # Analyzing coded UI tests using coded UI test logs
 
@@ -21,11 +24,11 @@ Depending on your scenario, use one of the following methods to enable the log:
 - If there's no *App.config* file present in your test project:
 
    1. Determine which *QTAgent\*.exe* process is launched when you run your test. One way to do this is to watch the **Details** tab in Windows **Task Manager**.
-   
+
    2. Open the corresponding *.config* file from the *%ProgramFiles(x86)%\Microsoft Visual Studio\\\<version>\\\<edition>\Common7\IDE* folder. For example, if the process that runs is *QTAgent_40.exe*, open *QTAgent_40.exe.config*.
 
    2. Modify the value of **EqtTraceLevel** to the log level you want.
-   
+
       ```xml
       <!-- You must use integral values for "value".
            Use 0 for off, 1 for error, 2 for warn, 3 for info, and 4 for verbose. -->
@@ -84,4 +87,4 @@ When you run a coded UI test with the modifications to the *QTAgent\*.exe.config
 ## See also
 
 - [Use UI automation to test your code](../test/use-ui-automation-to-test-your-code.md)
-- [How to: Run tests from Microsoft Visual Studio](https://msdn.microsoft.com/Library/1a1207a9-2a33-4a1e-a1e3-ddf0181b1046)
+- [How to: Run tests from Microsoft Visual Studio](/previous-versions/ms182470(v=vs.140))

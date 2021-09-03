@@ -1,19 +1,21 @@
 ---
-title: "IDebugComPlusSymbolProvider::UpdateSymbols | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Updates the debug symbols in memory with those from the specified data stream."
+title: IDebugComPlusSymbolProvider::UpdateSymbols | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "UpdateSymbols"
-  - "IDebugComPlusSymbolProvider::UpdateSymbols"
+- UpdateSymbols
+- IDebugComPlusSymbolProvider::UpdateSymbols
 ms.assetid: d530f6f1-4af2-454b-bab0-02478a8fe81e
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugComPlusSymbolProvider::UpdateSymbols
 Updates the debug symbols in memory with those from the specified data stream.

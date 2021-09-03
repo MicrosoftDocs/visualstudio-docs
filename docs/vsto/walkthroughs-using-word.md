@@ -1,5 +1,7 @@
 ---
 title: "Walkthroughs using Word"
+description: Learn how you can use document-level customizations and VSTO Add-ins to automate Microsoft Word and customize the user interface (UI).
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -10,7 +12,8 @@ helpviewer_keywords:
   - "walkthroughs [Office development in Visual Studio], Word"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
+ms.technology: office-development
 ms.workload:
   - "office"
 ---
@@ -52,7 +55,7 @@ ms.workload:
 - [Walkthrough: Create your first VSTO Add-in for Word](../vsto/walkthrough-creating-your-first-vsto-add-in-for-word.md)
  Demonstrates how to create a basic VSTO Add-in for Word.
 
-- [Walkthrough: Add controls to a document at runtime in a VSTO Add-in](../vsto/walkthrough-adding-controls-to-a-document-at-run-time-in-a-vsto-add-in.md)
+- [Walkthrough: Add controls to a document at run time in a VSTO Add-in](../vsto/walkthrough-adding-controls-to-a-document-at-run-time-in-a-vsto-add-in.md)
  Demonstrates how to add controls to a document by using a VSTO Add-in.
 
 - [Walkthrough: Create a custom tab by using Ribbon XML](../vsto/walkthrough-creating-a-custom-tab-by-using-ribbon-xml.md)

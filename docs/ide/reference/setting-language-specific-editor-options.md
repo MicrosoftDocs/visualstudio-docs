@@ -1,16 +1,19 @@
 ---
 title: Setting Language-Specific Editor Options
+description: Learn how to set a variety of text editor options that apply to specific programming languages.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "editor options"
-  - "configure editor"
-  - "editor settings"
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+- editor options
+- configure editor
+- editor settings
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Set language-specific editor options
 

@@ -1,19 +1,22 @@
 ---
 title: List Registers Command
+description: Learn about the List Registers command and how it displays the value of the selected registers and lets you modify the list of registers to show.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "debug.listregisters"
+- debug.listregisters
 helpviewer_keywords:
-  - "list registers command"
-  - "Debug.ListRegisters command"
-  - "ListRegisters command"
+- list registers command
+- Debug.ListRegisters command
+- ListRegisters command
 ms.assetid: 19a9d789-f6c9-46b3-b1f6-4934fc33e055
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # List Registers Command
 Displays the value of the selected registers and lets you modify the list of registers to show.
@@ -59,7 +62,7 @@ This example uses the `Debug.ListRegisters` alias `r` to display the values of t
 r /Display Flags
 ```
 
-## See Also
+## See also
 
 - [Visual Studio Commands](../../ide/reference/visual-studio-commands.md)
 - [Debugging Basics: Registers Window](../../debugger/debugging-basics-registers-window.md)

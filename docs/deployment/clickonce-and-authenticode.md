@@ -1,5 +1,7 @@
 ---
 title: "ClickOnce and Authenticode | Microsoft Docs"
+description: Learn about certificates Authenticode uses to verify the authenticity of applications. Learn how certificates are validated and stored.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:
@@ -15,7 +17,8 @@ helpviewer_keywords:
 ms.assetid: ab5b6712-f32a-4e33-842f-e88ab4818ccf
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-deployment
 ms.workload:
   - "multiple"
 ---
@@ -27,7 +30,7 @@ ms.workload:
 ## Authenticode and code signing
  A *digital certificate* is a file that contains a cryptographic public/private key pair, along with metadata describing the publisher to whom the certificate was issued and the agency that issued the certificate.
 
- There are various types of Authenticode certificates. Each one is configured for different types of signing. For [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] applications, you must have an Authenticode certificate that is valid for code signing. If you attempt to sign a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application with another type of certificate, such as a digital e-mail certificate, it will not work. For more information, see [Introduction to code signing](https://docs.microsoft.com/windows/desktop/seccrypto/cryptography-tools).
+ There are various types of Authenticode certificates. Each one is configured for different types of signing. For [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] applications, you must have an Authenticode certificate that is valid for code signing. If you attempt to sign a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application with another type of certificate, such as a digital e-mail certificate, it will not work. For more information, see [Introduction to code signing](/windows/desktop/seccrypto/cryptography-tools).
 
  You can obtain a certificate for code signing in one of three ways:
 
@@ -42,7 +45,7 @@ ms.workload:
 
  By contrast, if you receive a certificate from a CA, such as a certificate vendor, or a department within your enterprise, the certificate offers more security for your users. It not only identifies the publisher of the signed software, but it verifies that identity by checking with the CA that signed it. If the CA is not the root authority, Authenticode will also "chain" back to the root authority to verify that the CA is authorized to issue certificates. For greater security, you should use a certificate issued by a CA whenever possible.
 
- For more information about generating self-certs, see [New-SelfSignedCertificate](https://technet.microsoft.com/itpro/powershell/windows/pkiclient/new-selfsignedcertificate) or [MakeCert](/windows/desktop/SecCrypto/makecert).
+ For more information about generating self-certs, see [New-SelfSignedCertificate](/powershell/module/pkiclient/new-selfsignedcertificate) or [MakeCert](/windows/desktop/SecCrypto/makecert).
 
 ### Timestamps
  The certificates used to sign [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] applications expire after a certain length of time, typically twelve months. In order to remove the need to constantly re-sign applications with new certificates, [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] supports timestamp. When an application is signed with a timestamp, its certificate will continue to be accepted even after expiration, provided the timestamp is valid. This allows [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] applications with expired certificates, but valid timestamps, to download and run. It also allows installed applications with expired certificates to continue to download and install updates.
@@ -55,8 +58,6 @@ ms.workload:
 - Update the .NET Framework to version 2.0 SP1 or later on Windows XP, or version 3.5 or later on Windows Vista.
 
 - Uninstall the application, and reinstall a new version with a valid certificate.
-
-- Create a command-line assembly that updates the certificate. Step-by-step information about this process can be found at [Microsoft Support Article 925521](http://go.microsoft.com/fwlink/?LinkId=179454).
 
 ### Store certificates
 

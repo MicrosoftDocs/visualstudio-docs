@@ -1,14 +1,17 @@
 ---
 title: "Exploration bounds | Microsoft IntelliTest Developer Test Tool"
+description: PexSettingsAttributeBase is the abstract base class for settings bounds as attributes. Learn to modify the settings by using named properties.
+ms.custom: SEO-VS-2020
 ms.date: 05/02/2017
 ms.topic: reference
 helpviewer_keywords:
   - "IntelliTest, Exploration bounds"
-ms.author: gewarren
-manager: jillfra
+ms.author: mikejo
+manager: jmartens
+ms.technology: vs-ide-test
 ms.workload:
   - "multiple"
-author: gewarren
+author: mikejo5000
 ---
 # Exploration bounds
 
@@ -183,4 +186,4 @@ The default for this option is **TestEmissionBranchHits=2**, which generates a m
 
 ## Got feedback?
 
-Post your ideas and feature requests on [Developer Community](https://developercommunity.visualstudio.com/content/idea/post.html?space=8).
+Post your ideas and feature requests on [Developer Community](https://aka.ms/feedback/suggest?space=8).

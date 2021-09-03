@@ -1,22 +1,25 @@
 ---
-title: "DA0001: Use StringBuilder for concatenations | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-f1_keywords:
-  - "vs.performance.DA0001"
-  - "vs.performance.rules.DAUseStringBuilder"
-  - "vs.performance.1"
-  - "vs.performance.rules.DA0001"
+title: DA0001 - Use StringBuilder for concatenations | Microsoft Docs
+description: "Calls to System.String.Concat are a significant proportion of the profiling data. Consider using the System.Text.StringBuilder class to construct strings from multiple segments."
+ms.date: 11/04/2016
+ms.topic: reference
+f1_keywords: 
+  - vs.performance.DA0001
+  - vs.performance.rules.DAUseStringBuilder
+  - vs.performance.1
+  - vs.performance.rules.DA0001
 ms.assetid: a7cc7613-ad5f-48c8-bd2b-56372cc12dfc
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
-ms.workload:
-  - "multiple"
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.technology: vs-ide-debug
+monikerRange: 'vs-2017'
+ms.workload: 
+  - multiple
 ---
 # DA0001: Use StringBuilder for concatenations
 
-|||
+|Item|Value|
 |-|-|
 |Rule Id|DA0001|
 |Category|.NET Framework Usage|
@@ -35,4 +38,4 @@ ms.workload:
 ## How to investigate a warning
  Double-click the message in the **Error List** window to navigate to the [Function Details View](../profiling/function-details-view.md) of the sampling profile data. Find the sections of the program that make the most frequent use of string concatenation. Use the StringBuilder class for complex string manipulations, including frequent string concatenation operations.
 
- For more information about how to work with strings, the [String Operations](http://go.microsoft.com/fwlink/?LinkId=177816) section of [Chapter 5 - Improving Managed Code Performance](http://go.microsoft.com/fwlink/?LinkId=177817) in the Microsoft Patterns and Practices library.
+ For more information about how to work with strings, the [String Operations](/previous-versions/msp-n-p/ff647790(v=pandp.10)#string-operations) section of [Chapter 5 - Improving Managed Code Performance](/previous-versions/msp-n-p/ff647790(v=pandp.10)) in the Microsoft Patterns and Practices library.

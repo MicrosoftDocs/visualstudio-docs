@@ -1,14 +1,17 @@
 ---
-title: "How to: Create Custom Graphs in Load Test Results"
+title: 'How to: Create Custom Graphs in Load Test Results'
+description: Learn how to design graphs that display specific information about load test results either while a load test is running or after it has finished running.
+ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
-ms.topic: conceptual
-helpviewer_keywords:
-  - "load test results graphs, creating"
-  - "load test results graphs"
+ms.topic: how-to
+helpviewer_keywords: 
+  - load test results graphs, creating
+  - load test results graphs
 ms.assetid: 17fcafce-76f9-4411-9389-6e5376eab236
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.technology: vs-ide-test
 ---
 # How to: Create custom graphs in load test results
 

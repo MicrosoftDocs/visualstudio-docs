@@ -1,28 +1,33 @@
 ---
-title: "Touch Task | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
+title: Touch Task | Microsoft Docs
+description: Learn about parameters and usage of the MSBuild Touch task, which sets the access and modification times of files.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: reference
 f1_keywords:
-  - "http://schemas.microsoft.com/developer/msbuild/2003#Touch"
+- http://schemas.microsoft.com/developer/msbuild/2003#Touch
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+- VB
+- CSharp
+- C++
+- jsharp
 helpviewer_keywords:
-  - "MSBuild, Touch task"
-  - "Touch task [MSBuild]"
+- MSBuild, Touch task
+- Touch task [MSBuild]
 ms.assetid: 8a978645-1393-4904-ae69-42afabd8c109
-author: mikejo5000
-ms.author: mikejo
-manager: jillfra
+author: ghogen
+ms.author: ghogen
+manager: jmartens
+ms.technology: msbuild
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Touch task
+
 Sets the access and modification times of files.
 
 ## Parameters
+
  The following table describes the parameters of the `Touch` task.
 
 |Parameter|Description|
@@ -34,9 +39,11 @@ Sets the access and modification times of files.
 |`TouchedFiles`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` output parameter.<br /><br /> Contains the collection of items that were successfully touched.|
 
 ## Remarks
+
  In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension base class](../msbuild/taskextension-base-class.md).
 
 ## Example
+
  The following example uses the `Touch` task to change the access and modification times of the files specified in the `Files` item collection, and puts the list of successfully touched files in the `FilesTouched` item collection.
 
 ```xml
@@ -58,5 +65,6 @@ Sets the access and modification times of files.
 ```
 
 ## See also
+
 - [Tasks](../msbuild/msbuild-tasks.md)
 - [Task reference](../msbuild/msbuild-task-reference.md)

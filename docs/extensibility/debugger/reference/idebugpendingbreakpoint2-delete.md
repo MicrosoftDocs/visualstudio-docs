@@ -1,21 +1,23 @@
 ---
-title: "IDebugPendingBreakpoint2::Delete | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Deletes this pending breakpoint and all breakpoints bound from it."
+title: IDebugPendingBreakpoint2::Delete | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugPendingBreakpoint2::Delete"
+- IDebugPendingBreakpoint2::Delete
 helpviewer_keywords:
-  - "IDebugPendingBreakpoint2::Delete method"
-  - "Delete method"
+- IDebugPendingBreakpoint2::Delete method
+- Delete method
 ms.assetid: 4cb5ed81-6f0c-41ce-a770-5adb6b4bf5d9
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugPendingBreakpoint2::Delete
 Deletes this pending breakpoint and all breakpoints bound from it.

@@ -1,25 +1,28 @@
 ---
-title: "Debug JavaScript using the console | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Debug JavaScript using the console | Microsoft Docs
+description: Use the JavaScript Console window in Visual Studio to interact with and debug Universal Windows Platform (UWP) apps built using JavaScript.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
 f1_keywords:
-  - "VS.WebClient.JavaScriptConsole"
+  - VS.WebClient.JavaScriptConsole
 dev_langs:
-  - "JavaScript"
+  - JavaScript
 helpviewer_keywords:
-  - "JavaScript Console"
-  - "JavaScript debugging"
-  - "debugging, JavaScript"
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
+  - JavaScript Console
+  - JavaScript debugging
+  - debugging, JavaScript
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.technology: vs-ide-debug
 monikerRange: vs-2017
 ms.workload:
-  - "multiple"
+  - multiple
 ---
 # Debug JavaScript using the console in Visual Studio
 
-You can use the JavaScript Console window to interact with and debug UWP apps built using JavaScript. These features are supported for UWP apps and apps created using Visual Studio Tools for Apache Cordova. For the console command reference, see [JavaScript Console commands](../debugger/javascript-console-commands.md).
+You can use the JavaScript Console window to interact with and debug UWP apps built using JavaScript. These features are supported for UWP apps and apps created using Visual Studio Tools for Apache Cordova. For the console command reference, see [JavaScript Console commands](../debugger/javascript-console-commands.md?view=vs-2017&preserve-view=true).
 
 The JavaScript Console window allows you to:
 
@@ -33,12 +36,12 @@ The JavaScript Console window allows you to:
 
 - View JavaScript errors and exceptions, in addition to Document Object Model (DOM) and Windows Runtime exceptions.
 
-- Perform other tasks, like clearing the screen. See [JavaScript Console commands](../debugger/javascript-console-commands.md) for the full list of commands.
+- Perform other tasks, like clearing the screen. See [JavaScript Console commands](../debugger/javascript-console-commands.md?view=vs-2017&preserve-view=true) for the full list of commands.
 
 > [!TIP]
 > If the JavaScript Console window is closed, choose **Debug**> **Windows** > **JavaScript Console** to re-open it. The window appears only during a script debugging session.
 
-Using the JavaScript Console window, you can interact with your app without stopping and restarting the debugger. For more info, see [Refresh an app (JavaScript)](../debugger/refresh-an-app-javascript.md). For info on other JavaScript debugging features, such as using the DOM Explorer and setting breakpoints, see [Quickstart: Debug HTML and CSS](../debugger/quickstart-debug-html-and-css.md) and [Debug apps in Visual Studio](/visualstudio/debugger/debugging-windows-store-and-windows-universal-apps).
+Using the JavaScript Console window, you can interact with your app without stopping and restarting the debugger. For more info, see [Refresh an app (JavaScript)](../debugger/refresh-an-app-javascript.md). For info on other JavaScript debugging features, such as using the DOM Explorer and setting breakpoints, see [Quickstart: Debug HTML and CSS](../debugger/quickstart-debug-html-and-css.md) and [Debug apps in Visual Studio](debugging-windows-store-and-windows-universal-apps.md).
 
 ## <a name="InteractiveConsole"></a> Debug by using the JavaScript Console window
 The following steps create a `FlipView` app and show how to interactively debug a JavaScript coding error.
@@ -243,11 +246,11 @@ The following illustration shows the Target list in the JavaScript Console windo
 
 You can also switch the execution context by using the `cd` command, but you must know the name of the other execution context and the reference you use must be in scope. The **Target** list provides better access to other execution contexts.
 
-## See Also
-- [Debug apps in Visual Studio](/visualstudio/debugger/debugging-windows-store-and-windows-universal-apps)
-- [JavaScript Console commands](../debugger/javascript-console-commands.md)
+## See also
+- [Debug apps in Visual Studio](debugging-windows-store-and-windows-universal-apps.md)
+- [JavaScript Console commands](../debugger/javascript-console-commands.md?view=vs-2017&preserve-view=true)
 - [Refresh an app (JavaScript)](../debugger/refresh-an-app-javascript.md)
-- [Keyboard shortcuts](../debugger/keyboard-shortcuts-html-and-javascript.md)
+- [Keyboard shortcuts](../debugger/keyboard-shortcuts-html-and-javascript.md?view=vs-2017&preserve-view=true)
 - [Debug HTML, CSS, and JavaScript sample code](../debugger/debug-html-css-and-javascript-sample-code.md)
 - [Quickstart: Debug HTML and CSS](../debugger/quickstart-debug-html-and-css.md)
 - [Debug a WebView control](../debugger/debug-a-webview-control.md)

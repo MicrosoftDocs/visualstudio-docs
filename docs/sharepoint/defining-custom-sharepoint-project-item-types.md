@@ -1,5 +1,7 @@
 ---
 title: "Defining Custom SharePoint Project Item Types | Microsoft Docs"
+description: Define a custom SharePoint project item type when you want to create a new kind of SharePoint project item.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -11,7 +13,8 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, defining new project item types"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
+ms.technology: sharepoint-development
 ms.workload:
   - "office"
 ---

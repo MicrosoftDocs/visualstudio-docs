@@ -1,19 +1,22 @@
 ---
 title: Find and Replace, Environment, Options Dialog Box
+description: Learn how to use the Find and Replace page in the Environment section to control message boxes and other aspects of a find and replace operation.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "VS.ToolsOptionsPages.Environment.FindReplace"
-  - "VS.ToolsOptionsPages.Environment.FindandReplace"
+- VS.ToolsOptionsPages.Environment.FindReplace
+- VS.ToolsOptionsPages.Environment.FindandReplace
 helpviewer_keywords:
-  - "Find and Replace, Options dialog box"
-  - "Find and Replace, customizing"
+- Find and Replace, Options dialog box
+- Find and Replace, customizing
 ms.assetid: f804d6d5-6309-46e4-8294-b83e880b5ec9
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Find and Replace, Environment, Options Dialog Box
 

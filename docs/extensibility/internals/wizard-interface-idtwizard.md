@@ -1,16 +1,19 @@
 ---
-title: "Wizard Interface (IDTWizard) | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Wizard Interface (IDTWizard) | Microsoft Docs
+description: The IDE uses the IDTWizard interface to communicate with wizards. Wizards must implement this interface to be installed in the IDE.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: reference
 helpviewer_keywords:
-  - "IDTWizard interface"
-  - "wizards, interface"
+- IDTWizard interface
+- wizards, interface
 ms.assetid: 09618d9d-d115-45b6-bccc-de328994b39c
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Wizard Interface (IDTWizard)
 The integrated development environment (IDE) uses the <xref:EnvDTE.IDTWizard> interface to communicate with wizards. Wizards must implement this interface in order to be installed in the IDE.
@@ -57,7 +60,7 @@ STDMETHOD(Execute)(THIS_
     wizardResultBackout = 2
     ```
 
-## See Also
+## See also
 - [Context Parameters](../../extensibility/internals/context-parameters.md)
 - [Custom Parameters](../../extensibility/internals/custom-parameters.md)
 - [Wizards](../../extensibility/internals/wizards.md)

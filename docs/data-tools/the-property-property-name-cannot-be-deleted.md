@@ -1,11 +1,14 @@
 ---
 title: The property cannot be deleted
+description: 'The property cannot be deleted. View information about this Visual Studio Object Relational Designer (O/R Designer) message.'
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: reference
+ms.topic: error-reference
 ms.assetid: 55873f74-7834-4ec1-8815-eeeb65618d87
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: ghogen
+ms.author: ghogen
+manager: jmartens
+ms.technology: vs-data-tools
 ms.workload:
   - "data-storage"
 ---

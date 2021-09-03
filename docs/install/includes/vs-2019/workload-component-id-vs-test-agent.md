@@ -3,14 +3,17 @@ title: Visual Studio Test Agent 2019 workload and component IDs
 titleSuffix: ""
 description: "Use Visual Studio workload and component IDs to run automated tests and load tests remotely"
 keywords:
-author: TerryGLee
-ms.author: tglee
-manager: jillfra
-ms.date: 07/24/2019
+author: anandmeg
+ms.author: meghaanand
+manager: jmartens
+ms.date: 08/10/2021
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
 ms.topic: include
 ---
+
+
+
 ## Test Agent
 
 **ID:** Microsoft.VisualStudio.Workload.TestAgent
@@ -21,7 +24,7 @@ ms.topic: include
 
 Component ID | Name | Version | Dependency type
 --- | --- | --- | ---
-Microsoft.VisualStudio.ComponentGroup.TestTools.TestAgent | Test Agent core features | 16.0.28315.86 | Required
+Microsoft.VisualStudio.ComponentGroup.TestTools.TestAgent | Test Agent core features | 16.10.31205.180 | Required
 
 ## Unaffiliated components
 

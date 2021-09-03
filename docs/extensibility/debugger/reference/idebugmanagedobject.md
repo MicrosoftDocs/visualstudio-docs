@@ -1,17 +1,19 @@
 ---
-title: "IDebugManagedObject | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "This interface enables the expression evaluator (EE) to call properties or methods on value class instances (for example, System.Decimal) and to set their value without calling Evaluate on the program being debugged."
+title: IDebugManagedObject | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugManagedObject"
+- IDebugManagedObject
 helpviewer_keywords:
-  - "IDebugManagedObject interface"
+- IDebugManagedObject interface
 ms.assetid: 3ae09d34-112c-4285-80ee-9f7f8dc414d7
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IDebugManagedObject
 > [!IMPORTANT]

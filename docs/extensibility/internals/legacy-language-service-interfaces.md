@@ -1,16 +1,19 @@
 ---
-title: "Legacy Language Service Interfaces | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Legacy Language Service Interfaces | Microsoft Docs
+description: Learn about the interfaces available in the Visual Studio SDK that provide legacy language service features.
+ms.custom: SEO-VS-2020 
+ms.date: 11/04/2016
+ms.topic: reference
 helpviewer_keywords:
-  - "IVsLanguageInfo interface"
-  - "language services, objects"
+- IVsLanguageInfo interface
+- language services, objects
 ms.assetid: 03b2d507-f463-417e-bc22-bdac68eeda52
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Legacy Language Service Interfaces
 For any particular programming language, there can be only one instance of a language service at a time. However, a single language service can serve more than one editor.
@@ -44,6 +47,6 @@ For any particular programming language, there can be only one instance of a lan
 |<xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextViewFilter>|Allows for modification of the text view using the command handler. The class in which you implement the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextViewFilter> interface must also implement the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> interface. The text view retrieves the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextViewFilter> object by querying the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> object that is passed into the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView.AddCommandFilter%2A> method. There should be one <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextViewFilter> object for each view.|
 |<xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget>|Intercepts commands that the user types into the code window. Monitor output from your <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> implementation to provide custom completion information and view modification<br /><br /> To pass your <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> object to the text view, call <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView.AddCommandFilter%2A>.|
 
-## See Also
+## See also
 - [Developing a Legacy Language Service](../../extensibility/internals/developing-a-legacy-language-service.md)
 - [Checklist: Creating a Legacy Language Service](../../extensibility/internals/checklist-creating-a-legacy-language-service.md)

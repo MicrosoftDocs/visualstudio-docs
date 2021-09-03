@@ -1,19 +1,28 @@
 ---
-title: O/R Designer overview
+title: LINQ to SQL O/R Designer overview
+description: Get an overview of LINQ to SQL tools in Visual Studio. Learn about the Object Relational Designer (O/R Designer).
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: overview
 ms.assetid: 45e477c0-5c6b-41f9-b2d0-2808fb4f6537
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: ghogen
+ms.author: ghogen
+manager: jmartens
+ms.technology: vs-data-tools
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # LINQ to SQL tools in Visual Studio
 
 LINQ to SQL was the first object-relational mapping technology released by Microsoft. It works well in basic scenarios and continues to be supported in Visual Studio, but it's no longer under active development. Use LINQ to SQL when maintaining a legacy application that's already using it, or in simple applications that use SQL Server and do not require multi-table mapping. In general, new applications should use the Entity Framework when an object-relational mapper layer is required.
 
-In Visual Studio, you create LINQ to SQL classes that represent SQL tables by using the **Object Relational Designer** (**O/R Designer**).
+## Install the LINQ to SQL tools
+
+In Visual Studio, you create LINQ to SQL classes that represent SQL tables by using the **Object Relational Designer** (**O/R Designer**). The O/R designer is the UI for editing .dbml files. Editing .dbml files with a designer surface requires the LINQ to SQL tools which are not installed by default as part of any of the workloads of Visual Studio.
+
+To install the LINQ to SQL tools, start the Visual Studio installer, choose **Modify**, then select the **Individual Components** tab, and then select **LINQ to SQL tools** under the **Code Tools** category.
+
+## What is the O/R Designer
 
 The **O/R Designer** has two distinct areas on its design surface: the entities pane on the left, and the methods pane on the right. The entities pane is the main design surface that displays the entity classes, associations, and inheritance hierarchies. The methods pane is the design surface that displays the <xref:System.Data.Linq.DataContext> methods that are mapped to stored procedures and functions.
 
@@ -53,7 +62,7 @@ You can create <xref:System.Data.Linq.DataContext> methods that call (are mapped
 
 ## Configure a DataContext to use stored procedures to save data between entity classes and a database
 
-As stated earlier, you can create <xref:System.Data.Linq.DataContext> methods that call stored procedures and functions. Additionally, you can also assign stored procedures that are used for the default LINQ to SQL runtime behavior, which performs inserts, updates, and deletes. For more information, see [How to: Assign stored procedures to perform updates, inserts, and deletes (O/R Designer)](../data-tools/how-to-assign-stored-procedures-to-perform-updates-inserts-and-deletes-o-r-designer.md).
+As stated earlier, you can create <xref:System.Data.Linq.DataContext> methods that call stored procedures and functions. Additionally, you can also assign stored procedures that are used for the default LINQ to SQL run-time behavior, which performs inserts, updates, and deletes. For more information, see [How to: Assign stored procedures to perform updates, inserts, and deletes (O/R Designer)](../data-tools/how-to-assign-stored-procedures-to-perform-updates-inserts-and-deletes-o-r-designer.md).
 
 ## Inheritance and the O/R designer
 

@@ -1,5 +1,7 @@
 ---
 title: "Using saved IntelliTrace data | Microsoft Docs"
+description: Use an Intellitrace file (.iTrace) to start debugging at a specific point of execution. The file contains info that Intellitrace recorded from a run of your app.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:
@@ -12,7 +14,8 @@ helpviewer_keywords:
 ms.assetid: 9f2cce86-345a-4e22-84ba-91542d81e67a
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -180,13 +183,13 @@ Go to specific points in your application's execution when you start debugging f
 
     |**IntelliTrace field**|**SharePoint ULS field**|
     |----------------------------|------------------------------|
-    |**Id**|**EventID**|
+    |**ID**|**EventID**|
     |**Level**|**Level**|
-    |**Category Id**|**Category Id**|
+    |**Category ID**|**Category ID**|
     |**Category**|**Category**|
     |**Area**|**Product**|
     |**Output**|**Message**|
-    |**Correlation Id**|**Correlation Id**|
+    |**Correlation ID**|**Correlation ID**|
 
 ##### Start debugging from an unhandled exception
 
@@ -253,12 +256,12 @@ Go to specific points in your application's execution when you start debugging f
 
  [IntelliTrace Features](../debugger/intellitrace-features.md)
 
- [Collect more diagnostic data in manual tests](/azure/devops/test/mtm/collect-more-diagnostic-data-in-manual-tests?view=vsts)
+ [Collect more diagnostic data in manual tests](/azure/devops/test/mtm/collect-more-diagnostic-data-in-manual-tests?view=vsts&preserve-view=true)
 
  [IntelliTrace](../debugger/intellitrace.md)
 
 #### Forums
- [Visual Studio Debugger](http://go.microsoft.com/fwlink/?LinkId=262263)
+ [Visual Studio Debugger](https://social.msdn.microsoft.com/Forums/en-US/home)
 
 #### Guidance
- [Testing for Continuous Delivery with Visual Studio 2012 - Chapter 6: A Testing Toolbox](http://go.microsoft.com/fwlink/?LinkID=255203)
+ [Testing for Continuous Delivery with Visual Studio 2012 - Chapter 6: A Testing Toolbox](/previous-versions/msp-n-p/jj159337(v=pandp.10))

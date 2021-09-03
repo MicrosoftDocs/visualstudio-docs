@@ -1,12 +1,15 @@
 ---
 title: Regex completion through IntelliSense menu
-ms.date: 06/10/2019
+description: Learn how to use the IntelliSense menu to write a regular expression with the help of IntelliSense.
+ms.date: 03/10/2020
 ms.topic: reference
 author: mikadumont
 ms.author: midumont
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-general
 dev_langs:
   - CSharp
+  - VB
 ms.workload: 
   - "dotnet"
 ---
@@ -15,6 +18,8 @@ ms.workload:
 This refactoring applies to:
 
 - C#
+
+- Visual Basic
 
 **What:** Regular expression (regex) completion through IntelliSense menu.
 

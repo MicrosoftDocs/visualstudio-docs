@@ -1,20 +1,22 @@
 ---
-title: "IDebugField::GetAddress | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "This method gets the debug address of a field."
+title: IDebugField::GetAddress | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugField::GetAddress"
+- IDebugField::GetAddress
 helpviewer_keywords:
-  - "IDebugField::GetAddress method"
+- IDebugField::GetAddress method
 ms.assetid: 6981bf03-66ef-4bf9-87ea-f6c9624486cb
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugField::GetAddress
 This method gets the debug address of a field.

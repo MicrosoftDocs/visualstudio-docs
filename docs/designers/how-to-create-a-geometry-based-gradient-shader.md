@@ -1,13 +1,16 @@
 ---
-title: "How to: Create a Geometry-Based Gradient Shader"
+title: 'How to: Create a Geometry-Based Gradient Shader'
+description: Learn how to use Shader Designer and Directed Graph Shader Language to create a geometry-based gradient shader that scales a constant RGB color value.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 ms.assetid: 4b204405-ba95-4c5e-bd51-ec033a3ebfb6
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
+ms.technology: vs-ide-designers
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Create a geometry-based gradient shader
 

@@ -1,11 +1,12 @@
 ---
 title: "Including a NuGet package in your project"
 description: This document covers how to include a NuGet package in a Xamarin project. It walks through finding and downloading a package, as well as introducing the IDE integration features.
-author: conceptdev
-ms.author: crdun
+author: heiligerdankgesang
+ms.author: dominicn
 ms.date: 04/14/2017
 ms.assetid: 5C800815-0B13-4B27-B017-95FCEF1A0EA2
 ms.custom: video
+ms.topic: how-to
 ---
 
 # Include a NuGet package in your project
@@ -46,7 +47,7 @@ Once the package has been downloaded, it will be added to your project. The solu
 
 * The **References** node will contain a list of all the assemblies that are part of a NuGet package.
 * The **Packages** node displays each NuGet package that you have downloaded. You can update or remove a package from this list.
-* A **packages.config** file will be added to the project. This XML file is used by the IDE to track which package versions are referenced in this project. This file should not be hand-edited, but you should keep it in version control. Note that a project.json file can be used instead of a packages.config file. The project.json file is a new package file format introduced with NuGet 3, which supports transitive restore. More detailed information on project.json can be found in the [NuGet documentation](https://docs.microsoft.com/NuGet/Schema/Project-Json). The project.json file needs to be added manually and the project closed and re-opened before the project.json file is used in Visual Studio for Mac.
+* A **packages.config** file will be added to the project. This XML file is used by the IDE to track which package versions are referenced in this project. This file should not be hand-edited, but you should keep it in version control. Note that a project.json file can be used instead of a packages.config file. The project.json file is a new package file format introduced with NuGet 3, which supports transitive restore. More detailed information on project.json can be found in the [NuGet documentation](/NuGet/Schema/Project-Json). The project.json file needs to be added manually and the project closed and re-opened before the project.json file is used in Visual Studio for Mac.
 
 ## Using NuGet Packages
 
@@ -70,7 +71,7 @@ Package updates can be done either all at once, by right-clicking on the **Packa
 
 Right-click on **Packages** to access the context menu:
 
-![Packages menu](media/nuget-walkthrough-PackagesMenu.png)
+![Screenshot showing the Packages node selected, and the right-click context menu open with commands for Add Packages, Update, Restore, and Refresh.](media/nuget-walkthrough-PackagesMenu.png)
 
 * **Add Packages** - Opens the window to add more packages to the project.
 * **Update** - Checks the source server for each package and downloads any newer versions.
@@ -80,7 +81,7 @@ Update and Restore options are also available at the Solution level, and affect 
 
 You can also right-click on individual packages to access a context menu:
 
-![Packages menu](media/nuget-walkthrough-PackageMenu.png)
+![Screenshot showing an individual Package selected, and the right-click context menu open with commands for Update, Remove, and Refresh.](media/nuget-walkthrough-PackageMenu.png)
 
 * **Version Number** - The version number is a disabled menu item - it is provided for informational purposes only.
 * **Update** - Checks the source server and downloads a newer version (if it exists).
@@ -96,11 +97,11 @@ In Visual Studio for Mac, navigate to **Visual Studio > Preferences > NuGet > So
 
 Click **Add** to set-up a new source. Enter a friendly name and the URL (or file path) to the package source. If the source is a secure web server, enter the username and password as well, otherwise leave these entries blank:
 
-![Add Package Sources](media/nuget-walkthrough-PackageSource2.png)
+![Screenshot of the Add Package Source dialog, containing fields for Name, Location, Username, and Password.](media/nuget-walkthrough-PackageSource2.png)
 
 Different sources can then be selected when searching for packages:
 
-![Add Package Sources](media/nuget-walkthrough-PackageSource3.png)
+![Screenshot of the Add Packages screen, showing a drop-down list of the sources that can be selected when searching for packages.](media/nuget-walkthrough-PackageSource3.png)
 
 ## Version Control
 

@@ -1,5 +1,7 @@
 ---
 title: "LIB Task | Microsoft Docs"
+description: Learn how MSBuild uses the LIB task to wrap the Microsoft 32-bit Library Manager tool, lib.exe, which creates and manages a library of COFF object files. 
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 f1_keywords:
@@ -17,19 +19,22 @@ dev_langs:
   - "jsharp"
   - "C++"
 helpviewer_keywords:
-  - "MSBuild (Visual C++), LIB task"
-  - "LIB task (MSBuild (Visual C++))"
+  - "MSBuild (C++), LIB task"
+  - "LIB task (MSBuild (C++))"
 ms.assetid: e062c7f9-cc69-4a83-9361-1bb5355e5fe8
-author: mikejo5000
-ms.author: mikejo
-manager: jillfra
+author: ghogen
+ms.author: ghogen
+manager: jmartens
+ms.technology: msbuild
 ms.workload:
   - "multiple"
 ---
 # LIB task
+
 Wraps the Microsoft 32-Bit Library Manager tool, *lib.exe*. The Library Manager creates and manages a library of Common Object File Format (COFF) object files. The Library Manager can also create export files and import libraries to reference exported definitions. For more information, see [LIB reference](/cpp/build/reference/lib-reference) and [Running LIB](/cpp/build/reference/running-lib).
 
 ## Parameters
+
  The following table describes the parameters of the **LIB** task. Most task parameters correspond to a command-line option.
 
 |Parameter|Description|
@@ -38,7 +43,7 @@ Wraps the Microsoft 32-Bit Library Manager tool, *lib.exe*. The Library Manager 
 |**AdditionalLibraryDirectories**|Optional **String[]** parameter.<br /><br /> Overrides the environment library path. Specify a directory name.<br /><br /> For more information, see [/LIBPATH (Additional Libpath)](/cpp/build/reference/libpath-additional-libpath).|
 |**AdditionalOptions**|Optional **String** parameter.<br /><br /> A list of *lib.exe* options as specified on the command line. For example, /\<option1> /\<option2> /\<option#>. Use this parameter to specify *lib.exe* options that are not represented by any other **LIB** task parameter.<br /><br /> For more information, see [Running LIB](/cpp/build/reference/running-lib).|
 |**DisplayLibrary**|Optional **String** parameter.<br /><br /> Displays information about the output library. Specify a file name to redirect the information to a file. Specify "CON" or nothing to redirect the information to the console.<br /><br /> This parameter corresponds to the **/LIST** option of *lib.exe*.|
-|**ErrorReporting**|Optional **String** parameter.<br /><br /> Specifies how to send internal error information to Microsoft if *lib.exe* fails at runtime.<br /><br /> Specify one of the following values, each of which corresponds to a command-line option.<br /><br /> -   **NoErrorReport** - **/ERRORREPORT:NONE**<br />-   **PromptImmediately** - **/ERRORREPORT:PROMPT**<br />-   **QueueForNextLogin** - **/ERRORREPORT:QUEUE**<br />-   **SendErrorReport** - **/ERRORREPORT:SEND**<br /><br /> For more information, see the **/ERRORREPORT** command-line option at [Running LIB](/cpp/build/reference/running-lib).|
+|**ErrorReporting**|Optional **String** parameter.<br /><br /> Specifies how to send internal error information to Microsoft if *lib.exe* fails at run time.<br /><br /> Specify one of the following values, each of which corresponds to a command-line option.<br /><br /> -   **NoErrorReport** - **/ERRORREPORT:NONE**<br />-   **PromptImmediately** - **/ERRORREPORT:PROMPT**<br />-   **QueueForNextLogin** - **/ERRORREPORT:QUEUE**<br />-   **SendErrorReport** - **/ERRORREPORT:SEND**<br /><br /> For more information, see the **/ERRORREPORT** command-line option at [Running LIB](/cpp/build/reference/running-lib).|
 |**ExportNamedFunctions**|Optional **String[]** parameter.<br /><br /> Specifies one or more functions to export.<br /><br /> This parameter corresponds to the **/EXPORT:** option of *lib.exe*.|
 |**ForceSymbolReferences**|Optional **String** parameter.<br /><br /> Forces *lib.exe* to include a reference to the specified symbol.<br /><br /> This parameter corresponds to the **/INCLUDE:** option of *lib.exe*.|
 |**IgnoreAllDefaultLibraries**|Optional `Boolean` parameter.<br /><br /> If `true`, removes all default libraries from the list of libraries that *lib.exe* searches when it resolves external references.<br /><br /> This parameter corresponds to the parameter-less form of the **/NODEFAULTLIB** option of *lib.exe*.|
@@ -60,4 +65,5 @@ Wraps the Microsoft 32-Bit Library Manager tool, *lib.exe*. The Library Manager 
 |**Verbose**|Optional **Boolean** parameter.<br /><br /> If `true`, displays details about the progress of the session; this includes names of the *.obj* files being added. The information is sent to standard output and can be redirected to a file.<br /><br /> For more information, see the **/VERBOSE** option in [Running LIB](/cpp/build/reference/running-lib).|
 
 ## See also
+
 - [Task reference](../msbuild/msbuild-task-reference.md)

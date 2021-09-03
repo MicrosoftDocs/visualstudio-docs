@@ -1,20 +1,22 @@
 ---
-title: "IDebugCoreServer2::EnumPorts | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Retrieves a list of all available ports."
+title: IDebugCoreServer2::EnumPorts | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugCoreServer2::EnumPorts"
+- IDebugCoreServer2::EnumPorts
 helpviewer_keywords:
-  - "IDebugCoreServer2::EnumPorts"
+- IDebugCoreServer2::EnumPorts
 ms.assetid: 3d98dfd0-614f-4d68-90c6-8a9b9cab66f1
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugCoreServer2::EnumPorts
 Retrieves a list of all available ports.

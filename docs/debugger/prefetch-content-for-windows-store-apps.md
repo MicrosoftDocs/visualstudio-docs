@@ -1,17 +1,20 @@
 ---
-title: "Debug using prefetched content in UWP apps | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-dev_langs:
-  - "CSharp"
-  - "VB"
-  - "FSharp"
-  - "C++"
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
-ms.workload:
-  - "uwp"
+title: Debug using prefetched content in UWP apps | Microsoft Docs
+description: To make your UWP app more responsive, use ContentPrefetcher to request Windows to prefetch web content. 
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
+dev_langs: 
+  - CSharp
+  - VB
+  - FSharp
+  - C++
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.technology: vs-ide-debug
+ms.workload: 
+  - uwp
 ---
 # Debug UWP apps using prefetched content in Visual Studio
 
@@ -33,5 +36,5 @@ ms.workload:
 > [!NOTE]
 > Repeat these steps whenever you add or modify the specified web content.
 
-## See Also
+## See also
 - [Blog post: Triggering Prefetch for Windows Store Apps in Visual Studio 2013 Update 2](https://devblogs.microsoft.com/devops/triggering-prefetch-for-windows-store-apps-in-visual-studio-2013-update-2/)

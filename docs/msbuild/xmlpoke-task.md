@@ -1,21 +1,24 @@
 ---
-title: "XmlPoke Task | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
+title: XmlPoke Task | Microsoft Docs
+description: Learn how MSBuild uses the XmlPoke task to set values as specified by an XPath query into an XML file.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: reference
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+- VB
+- CSharp
+- C++
+- jsharp
 helpviewer_keywords:
-  - "XmlPoke task [MSBuild]"
-  - "MSBuild, XmlPoke task"
+- XmlPoke task [MSBuild]
+- MSBuild, XmlPoke task
 ms.assetid: 6ba1953c-be3b-4df8-8561-e133408f8270
-author: mikejo5000
-ms.author: mikejo
-manager: jillfra
+author: ghogen
+ms.author: ghogen
+manager: jmartens
+ms.technology: msbuild
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # XmlPoke task
 
@@ -49,7 +52,7 @@ Here is a sample.xml to modify:
 </Package>
 ```
 
-In this example, if you want to modify `/Package/mp:PhoneIdentity/PhonePublisherId`, then use
+In this example, if you want to modify `/Package/mp:PhoneIdentity/PhoneProductId`, then use
 
 ```xml
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">

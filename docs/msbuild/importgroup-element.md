@@ -1,27 +1,34 @@
 ---
-title: "ImportGroup Element | Microsoft Docs"
-ms.date: "03/13/2017"
-ms.topic: "reference"
+title: ImportGroup Element | Microsoft Docs
+description: Learn how MSBuild uses the ImportGroup element to contain a collection of Import elements that are grouped under an optional condition.
+ms.custom: SEO-VS-2020
+ms.date: 03/13/2017
+ms.topic: reference
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+- VB
+- CSharp
+- C++
+- jsharp
 helpviewer_keywords:
-  - "<ImportGroup> element [MSBuild]"
-  - "ImportGroup element [MSBuild]"
+- <ImportGroup> element [MSBuild]
+- ImportGroup element [MSBuild]
 ms.assetid: dac3fa2d-6678-4017-af35-93686f53f302
-author: mikejo5000
-ms.author: mikejo
-manager: jillfra
+author: ghogen
+ms.author: ghogen
+manager: jmartens
+ms.technology: msbuild
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # ImportGroup element
+
+  
 Contains a collection of `Import` elements that are grouped under an optional condition. For more information, see [Import element (MSBuild)](../msbuild/import-element-msbuild.md).
 
- \<Project>
- \<ImportGroup>
+```xml
+<Project>
+  <ImportGroup>
+```
 
 ## Syntax
 
@@ -33,6 +40,7 @@ Contains a collection of `Import` elements that are grouped under an optional co
 ```
 
 ## Attributes and elements
+
  The following sections describe attributes, child elements, and parent elements.
 
 ### Attributes
@@ -51,9 +59,10 @@ Contains a collection of `Import` elements that are grouped under an optional co
 
 | Element | Description |
 | - | - |
-| [Project](../msbuild/project-element-msbuild.md) | Required root element of an [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] project file. |
+| [Project](../msbuild/project-element-msbuild.md) | Required root element of an MSBuild project file. |
 
 ## Example
+
  The following code example shows the `ImportGroup` element.
 
 ```xml
@@ -67,5 +76,6 @@ Contains a collection of `Import` elements that are grouped under an optional co
 ```
 
 ## See also
+
 - [Project file schema reference](../msbuild/msbuild-project-file-schema-reference.md)
 - [Items](../msbuild/msbuild-items.md)

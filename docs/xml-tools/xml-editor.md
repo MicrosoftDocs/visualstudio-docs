@@ -1,12 +1,15 @@
 ---
 title: XML editor
+description: Learn about the XML editor in Visual Studio that is based on the text editor and includes additional support for the XML languages.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+ms.topic: overview
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
+ms.technology: vs-xml-tools
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # XML editor
 
@@ -53,5 +56,5 @@ The [XSLT hierarchy tool](../xml-tools/walkthrough-using-xslt-hierarchy.md) allo
 - [XML editor options - formatting](../ide/reference/options-text-editor-xml-formatting.md)
 - [XML editor options - miscellaneous](../ide/reference/options-text-editor-xml-miscellaneous.md)
 - [Features of the code editor](../ide/writing-code-in-the-code-and-text-editor.md)
-- [XML standards reference](https://msdn.microsoft.com/79c78508-c9d0-423a-a00f-672e855de401)
+- [XML standards reference](/previous-versions/dotnet/netframework-4.0/ms256177(v=vs.100))
 - [XML tools in Visual Studio](../xml-tools/xml-tools-in-visual-studio.md)

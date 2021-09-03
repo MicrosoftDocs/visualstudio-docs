@@ -1,5 +1,7 @@
 ---
 title: "View Menu Commands | Microsoft Docs"
+description: The Spy++ View menu provides commands for controlling the user interface. See a list of the View menu commands, with a brief description of each.  
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:
@@ -7,7 +9,8 @@ helpviewer_keywords:
 ms.assetid: 86a66cce-3436-4532-bc3e-3b0662c8b198
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---

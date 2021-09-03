@@ -1,13 +1,16 @@
 ---
 title: Rules Propagate Changes Within the Model
+description: Learn how you can create a store rule to propagate a change from one element to another in Visualization and Modeling SDK (VMSDK).
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
   - "Domain-Specific Language, programming domain models"
   - "Domain-Specific Language, rules"
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: mgoertz-msft
+ms.author: mgoertz
+manager: jmartens
+ms.technology: vs-ide-modeling
 ms.workload:
   - "multiple"
 ---
@@ -201,6 +204,6 @@ namespace Company.TaskRuleExample
 }
 ```
 
-## See Also
+## See also
 
 - [Event Handlers Propagate Changes Outside the Model](../modeling/event-handlers-propagate-changes-outside-the-model.md)

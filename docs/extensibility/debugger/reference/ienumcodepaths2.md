@@ -1,17 +1,19 @@
 ---
-title: "IEnumCodePaths2 | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "This interface represents a list of code paths."
+title: IEnumCodePaths2 | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IEnumCodePaths2"
+- IEnumCodePaths2
 helpviewer_keywords:
-  - "IEnumCodePaths2 interface"
+- IEnumCodePaths2 interface
 ms.assetid: 17ec9f9e-dc06-4532-b5db-da52efcc8630
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IEnumCodePaths2
 This interface represents a list of code paths.

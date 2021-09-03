@@ -1,15 +1,18 @@
 ---
-title: "Workflow Designer - Transition Activity Designer"
+title: Workflow Designer - Transition Activity Designer
+description: Learn how you can use the Transition activity designer to configure a transition between two states.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "System.Activities.Statements.Transition.UI"
+- System.Activities.Statements.Transition.UI
 ms.assetid: f6e8b5cc-7fb8-4699-9703-f3c9fc7cc316
-ms.author: gewarren
-manager: jillfra
+ms.author: tglee
+manager: jmartens
+ms.technology: vs-workflow-designer
 ms.workload:
-  - "multiple"
-author: gewarren
+- multiple
+author: TerryGLee
 ---
 # Transition Activity Designer
 

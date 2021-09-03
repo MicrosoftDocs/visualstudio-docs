@@ -1,7 +1,8 @@
 ---
+description: "Reads LONG values in a property set."
 title: "IDiaPropertyStorage::ReadLONG | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,8 @@ helpviewer_keywords:
 ms.assetid: 32054cbc-db55-4513-a1b4-de80e77aac8a
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -40,5 +42,5 @@ HRESULT ReadDLONG ( 
 ## Remarks
  A `LONG` is defined by Windows as a 32-bit signed integer.
 
-## See Also
+## See also
 - [IDiaPropertyStorage](../../debugger/debug-interface-access/idiapropertystorage.md)

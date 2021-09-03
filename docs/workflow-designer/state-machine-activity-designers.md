@@ -1,13 +1,16 @@
 ---
 title: "Workflow Designer - State Machine Activity Designers"
+description: Learn about the system-provided activity designers you can use to create and manage state machine workflows. 
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 ms.assetid: 97f0bff5-7e48-4914-8f04-8015a1c6bfae
-ms.author: gewarren
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
+ms.technology: vs-workflow-designer
 ms.workload:
   - "multiple"
-author: gewarren
 ---
 # State Machine Activity Designers
 
@@ -29,7 +32,7 @@ Workflow Designer includes a number of activity designers that you can use when 
 
  [Flowchart](../workflow-designer/flowchart-activity-designers.md)
 
- [Using the Activity Designers](../workflow-designer/using-the-activity-designers.md)
+ [Using the Activity Designers](control-flow-activity-designers.md)
 
  [Messaging](../workflow-designer/messaging-activity-designers.md)
 

@@ -1,5 +1,7 @@
 ---
 title: "Creating ClickOnce Applications for Others to Deploy | Microsoft Docs"
+description: Learn about customer hosted ClickOnce applications developed in .NET Framework 3.5 and previous versions of the .NET Framework.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:
@@ -21,7 +23,8 @@ helpviewer_keywords:
 ms.assetid: d20766c7-4ef3-45ab-8aa0-3f15b61eccaa
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-deployment
 ms.workload:
   - "multiple"
 ---
@@ -52,8 +55,8 @@ Not all developers who are creating ClickOnce deployments plan to deploy the app
 
  For step-by-step information about how to create a ClickOnce deployment with `<useManifestForTrust>` enabled, see [Walkthrough: Manually deploy a ClickOnce application that does not require re-signing and that preserves branding information](../deployment/walkthrough-manually-deploying-a-clickonce-app-no-re-signing-required.md).
 
-### How application manifest for trust works at runtime
- To get a better understanding of how using the application manifest for trust works at runtime, consider the following example. A ClickOnce application that targets the .NET Framework 3.5 is created by Microsoft. The application manifest uses the `<useManifestForTrust>` element and is signed by Microsoft. Adventure Works signs the deployment manifest by using a self-signed certificate. Adventure Works clients are configured to trust any application signed by Microsoft.
+### How application manifest for trust works at run time
+ To get a better understanding of how using the application manifest for trust works at run time, consider the following example. A ClickOnce application that targets the .NET Framework 3.5 is created by Microsoft. The application manifest uses the `<useManifestForTrust>` element and is signed by Microsoft. Adventure Works signs the deployment manifest by using a self-signed certificate. Adventure Works clients are configured to trust any application signed by Microsoft.
 
  When a user clicks a link to the deployment manifest, ClickOnce installs the application on the user's computer. The certificate and deployment information identify the application uniquely to ClickOnce on the client computer. If the user tries to install the same application again from a different location, ClickOnce can use this identity to determine that the application already exists on the client.
 

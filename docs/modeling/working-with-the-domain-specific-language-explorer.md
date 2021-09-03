@@ -1,12 +1,15 @@
 ---
 title: Working with the Domain-Specific Language Explorer
+description: Learn about the DSL Explorer, a tool that displays several kinds of information in a tree view and includes multiple nodes for defining a domain-specific language.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
   - "Domain-Specific Language Tools, DSL Explorer"
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: mgoertz-msft
+ms.author: mgoertz
+manager: jmartens
+ms.technology: vs-ide-modeling
 ms.workload:
   - "multiple"
 ---
@@ -35,6 +38,6 @@ The **DSL Explorer** displays several kinds of information in a tree view. For m
 
 - **Xml Serialization Behavior**. Serialization settings for the model. For more information about serialization, see [Customizing File Storage and XML Serialization](../modeling/customizing-file-storage-and-xml-serialization.md).
 
-## See Also
+## See also
 
-- [Domain-Specific Language Tools Glossary](https://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)
+- [Domain-Specific Language Tools Glossary](/previous-versions/bb126564(v=vs.100))

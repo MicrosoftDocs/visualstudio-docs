@@ -1,20 +1,22 @@
 ---
-title: "IDebugModule2::ReloadSymbols_Deprecated | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "OBSOLETE. Reloads the symbols for this module."
+title: IDebugModule2::ReloadSymbols_Deprecated | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugModule2::ReloadSymbols"
+- IDebugModule2::ReloadSymbols
 helpviewer_keywords:
-  - "IDebugModule2::ReloadSymbols method"
+- IDebugModule2::ReloadSymbols method
 ms.assetid: 0f9f0133-7d58-4cd9-a6ca-1141e095749d
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugModule2::ReloadSymbols_Deprecated
 OBSOLETE. DO NOT USE. Reloads the symbols for this module.

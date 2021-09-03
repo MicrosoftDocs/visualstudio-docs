@@ -1,20 +1,22 @@
 ---
-title: "CONST_GUID_ARRAY | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "A structure that holds a list of GUID`s."
+title: CONST_GUID_ARRAY | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "CONST_GUID_ARRAY"
+- CONST_GUID_ARRAY
 helpviewer_keywords:
-  - "CONST_GUID_ARRAY structure"
+- CONST_GUID_ARRAY structure
 ms.assetid: bd55e7d8-372c-4c3e-9eed-28f6b415a5db
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # CONST_GUID_ARRAY
 A structure that holds a list of `GUID`s.

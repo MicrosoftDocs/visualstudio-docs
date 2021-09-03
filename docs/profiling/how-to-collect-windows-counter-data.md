@@ -1,19 +1,23 @@
 ---
-title: "How to: Collect Windows Counter Data | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-f1_keywords:
-  - "vs.performance.property.syscounter"
-  - "vs.performance.property.wincounter"
-helpviewer_keywords:
-  - "windows counters"
-  - "performance tools, using windows counters"
-  - "profiling tools, using windows counters"
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
-ms.workload:
-  - "multiple"
+title: Collect Windows Counter Data | Microsoft Docs
+description: Windows counters are used in instrumentation profiling. Learn how to collect Windows counter data, and how to restrict analysis to a single collection interval.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
+f1_keywords: 
+  - vs.performance.property.syscounter
+  - vs.performance.property.wincounter
+helpviewer_keywords: 
+  - windows counters
+  - performance tools, using windows counters
+  - profiling tools, using windows counters
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.technology: vs-ide-debug
+monikerRange: 'vs-2017'
+ms.workload: 
+  - multiple
 ---
 # How to: Collect Windows counter data
 

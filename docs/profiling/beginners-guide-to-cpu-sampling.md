@@ -1,20 +1,23 @@
 ---
-title: "Beginners guide to CPU sampling"
-ms.custom: "seodec18"
-ms.date: "02/27/2017"
-ms.topic: "conceptual"
-f1_keywords:
-  - "vs.performance.wizard.intropage"
-helpviewer_keywords:
-  - "Profiling Tools, quick start"
-  - "performance tools, wizard"
-  - "Performance Wizard"
+title: Beginners guide to CPU sampling
+description: Learn how Visual Studio profiling tools reveal how much time is used by the functions in your application, guiding you to areas to speed up the application.
+ms.custom: "SEO-VS-2020"
+ms.date: 02/27/2017
+ms.topic: how-to
+f1_keywords: 
+  - vs.performance.wizard.intropage
+helpviewer_keywords: 
+  - Profiling Tools, quick start
+  - performance tools, wizard
+  - Performance Wizard
 ms.assetid: 85161cc4-18ee-49b3-9487-33680e687597
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
-ms.workload:
-  - "multiple"
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.technology: vs-ide-debug
+monikerRange: 'vs-2017'
+ms.workload: 
+  - multiple
 ---
 # Beginners guide to CPU sampling
 You can use Visual Studio profiling tools to analyze performance issues in your application. This procedure shows how to use **Sampling** data.
@@ -121,5 +124,5 @@ You can use Visual Studio profiling tools to analyze performance issues in your 
 - [Performance Explorer](../profiling/performance-explorer.md)
 - [Getting started](../profiling/getting-started-with-performance-tools.md)
 - [Overviews](../profiling/overviews-performance-tools.md)
-- [Profiling in Visual Studio](../profiling/index.md)
+- [Profiling in Visual Studio](../profiling/index.yml)
 - [First look at profiling tools](../profiling/profiling-feature-tour.md)

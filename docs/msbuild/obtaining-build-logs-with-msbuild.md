@@ -1,16 +1,19 @@
 ---
-title: "Obtaining Build Logs with MSBuild | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Obtaining Build Logs with MSBuild | Microsoft Docs
+description: Learn to use switches with MSBuild to specify how much build data to review and whether to save build data to one or more files.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "MSBuild, logging"
-  - "logging [MSBuild]"
+- MSBuild, logging
+- logging [MSBuild]
 ms.assetid: 6ba9a754-9cc0-4fed-9fc8-4dcd3926a031
-author: mikejo5000
-ms.author: mikejo
-manager: jillfra
+author: ghogen
+ms.author: ghogen
+manager: jmartens
+ms.technology: msbuild
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Obtain build logs with MSBuild
 
@@ -41,7 +44,7 @@ msbuild MyProject.proj -t:go -v:diag
 
 The following table shows how the log verbosity (column values) affects which types of message (row values) are logged.
 
-|                                       | Quiet | Minimal | Normal | Detailed | Diagnostic |
+| Message type / Verbosity              | Quiet | Minimal | Normal | Detailed | Diagnostic |
 |---------------------------------------|:-----:|:-------:|:------:|:--------:|:----------:|
 | Errors                                |   ✅   |    ✅    |    ✅   |     ✅    |      ✅     |
 | Warnings                              |   ✅   |    ✅    |    ✅   |     ✅    |      ✅     |
@@ -58,7 +61,7 @@ You can use the **-fileLogger** (**fl**) switch to save build data to a file. Th
 msbuild MyProject.proj -t:go -fileLogger
 ```
 
- In the following example, the log file is named *MyProjectOutput.log*, and the verbosity of the log output is set to `diagnostic`. You specify those two settings by using the **-filelogparameters** (`flp`) switch.
+ In the following example, the log file is named *MyProjectOutput.log*, and the verbosity of the log output is set to `diagnostic`. You specify those two settings by using the **-fileLoggerParameters** (`flp`) switch.
 
 ```cmd
 msbuild MyProject.proj -t:go -fl -flp:logfile=MyProjectOutput.log;verbosity=diagnostic
@@ -70,7 +73,7 @@ msbuild MyProject.proj -t:go -fl -flp:logfile=MyProjectOutput.log;verbosity=diag
 
  The following example saves the entire log to *msbuild1.log*, just the errors to *JustErrors.log*, and just the warnings to *JustWarnings.log*. The example uses file numbers for each of the three files. The file numbers are specified just after the **-fl** and **-flp** switches (for example, `-fl1` and `-flp1`).
 
- The **-filelogparameters** (`flp`) switches for files 2 and 3 specify what to name each file and what to include in each file. No name is specified for file 1, so the default name of *msbuild1.log* is used.
+ The **-fileLoggerParameters** (`flp`) switches for files 2 and 3 specify what to name each file and what to include in each file. No name is specified for file 1, so the default name of *msbuild1.log* is used.
 
 ```cmd
 msbuild MyProject.proj -t:go -fl1 -fl2 -fl3 -flp2:logfile=JustErrors.log;errorsonly -flp3:logfile=JustWarnings.log;warningsonly

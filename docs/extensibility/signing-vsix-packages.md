@@ -1,19 +1,22 @@
 ---
-title: "Signing VSIX Packages | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Signing VSIX Packages | Microsoft Docs
+description: Learn about signing extension assemblies. The VSIX installer displays a message that a VSIX is signed and information about the signature itself.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
 helpviewer_keywords:
-  - "signature"
-  - "signing"
-  - "authenticode"
-  - "vsix"
-  - "packages"
+- signature
+- signing
+- authenticode
+- vsix
+- packages
 ms.assetid: e34cfc2c-361c-44f8-9cfe-9f2be229d248
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Signing VSIX Packages
 Extension assemblies do not need to be signed before they can run in Visual Studio, but it is a good practice to do so.
@@ -24,7 +27,7 @@ Extension assemblies do not need to be signed before they can run in Visual Stud
 > Beginning with Visual Studio 2015, VSIX packages signed using anything other than SHA256 encryption will be identified as having an invalid signature. VSIX installation is not blocked but the user will be warned.
 
 ## Signing a VSIX with VSIXSignTool
- There is a SHA256 encryption signing tool available from [VisualStudioExtensibility](http://www.nuget.org/profiles/VisualStudioExtensibility) on nuget.org at [VsixSignTool](http://www.nuget.org/packages/Microsoft.VSSDK.Vsixsigntool).
+ There is a SHA256 encryption signing tool available from [VisualStudioExtensibility](https://www.nuget.org/profiles/VisualStudioExtensibility) on nuget.org at [VsixSignTool](https://www.nuget.org/packages/Microsoft.VSSDK.Vsixsigntool).
 
 #### To use the VSIXSignTool
 
@@ -40,5 +43,5 @@ Extension assemblies do not need to be signed before they can run in Visual Stud
 
    VSIXSignTool.exe sign /f \<certfile> /p \<password> \<VSIXfile>
 
-## See Also
+## See also
 - [Shipping Visual Studio Extensions](../extensibility/shipping-visual-studio-extensions.md)

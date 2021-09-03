@@ -1,15 +1,18 @@
 ---
-title: "Source Control Integration Overview | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Source Control Integration Overview | Microsoft Docs
+description: "Learn about the differences between the two ways to integrate source control into Visual Studio: a source control plug-in and a VSPackage."
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "source control [Visual Studio SDK], about source control"
+- source control [Visual Studio SDK], about source control
 ms.assetid: 3a46e4eb-e677-49c3-8647-d927d035a19a
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Source Control Integration Overview
 This section compares the two ways to integrate into Visual Studio source control; a source control Plug-in and a VSPackage that provides a source control solution and highlights the new source control features. Visual Studio allows for manual switching between source control VSPackages and source control plug-ins as well as automatic solution-based switching.
@@ -67,7 +70,7 @@ This section compares the two ways to integrate into Visual Studio source contro
 
 - The VSPackage is not confined to a particular source control model.
 
-## See Also
+## See also
 - [Source Control](../../extensibility/internals/source-control.md)
 - [Creating a Source Control Plug-in](../../extensibility/internals/creating-a-source-control-plug-in.md)
 - [Creating a Source Control VSPackage](../../extensibility/internals/creating-a-source-control-vspackage.md)

@@ -5,6 +5,7 @@ author: sayedihashimi
 ms.author: sayedha
 ms.date: 01/25/2019
 ms.assetid: d746292d-0570-424a-bf43-e16ab85bbf0d
+ms.topic: overview
 ---
 
 # ASP.NET Core Web App Deployment

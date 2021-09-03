@@ -1,15 +1,17 @@
 ---
-title: "AsyncTaskMethodBuilder.m_builder Field | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+description: "Represents the generic builder object to which this non-generic instance delegates."
+title: AsyncTaskMethodBuilder.m_builder Field | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: reference
 helpviewer_keywords:
-  - "m_builder field, AsyncTaskMethodBuilder structure [.NET Framework debug engines]"
+- m_builder field, AsyncTaskMethodBuilder structure [.NET Framework debug engines]
 ms.assetid: bfaf25a2-0f08-413f-b474-9ce0d97c0eeb
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # AsyncTaskMethodBuilder.m_builder field
 Represents the generic builder object to which this non-generic instance delegates.

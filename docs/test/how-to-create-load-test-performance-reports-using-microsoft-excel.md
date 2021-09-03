@@ -1,14 +1,17 @@
 ---
-title: "Create Load Test Performance Reports Using Microsoft Excel"
+title: Create load test perf report using Excel
+description: Learn how to generate Microsoft Excel load test reports that are based on two or more test results. You can create run comparison and trend reports.
+ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
-ms.topic: conceptual
-helpviewer_keywords:
-  - "load tests, creating Excel reports"
-  - "load tests, reporting"
+ms.topic: how-to
+helpviewer_keywords: 
+  - load tests, creating Excel reports
+  - load tests, reporting
 ms.assetid: b87fb196-9973-4512-a924-088788def4ea
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.technology: vs-ide-test
 ---
 # How to: Create load test performance reports using Microsoft Excel
 

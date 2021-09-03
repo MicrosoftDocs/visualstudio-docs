@@ -1,5 +1,7 @@
 ---
 title: "Architecture of Office solutions in Visual Studio"
+description: Learn about solutions created by using the Microsoft Office developer tools in Visual Studio and how they work.
+ms.custom: SEO-VS-2020
 titleSuffix: ""
 ms.date: 08/14/2019
 ms.topic: conceptual
@@ -12,7 +14,8 @@ helpviewer_keywords:
   - "Office applications [Office development in Visual Studio], architecture"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
+ms.technology: office-development
 ms.workload:
   - "office"
 ---

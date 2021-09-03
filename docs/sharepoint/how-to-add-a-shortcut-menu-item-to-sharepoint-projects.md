@@ -1,7 +1,10 @@
 ---
 title: "How to: Add a Shortcut Menu Item to SharePoint Projects | Microsoft Docs"
+titleSuffix: ""
+description: Add a shortcut menu item to a SharePoint project in Visual Studio. The menu item appears when you right-click a project node in Solution Explorer.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: how-to
 dev_langs:
   - "VB"
   - "CSharp"
@@ -11,7 +14,8 @@ helpviewer_keywords:
   - "SharePoint projects, extending"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
+ms.technology: sharepoint-development
 ms.workload:
   - "office"
 ---
@@ -31,8 +35,8 @@ ms.workload:
 ## Example
  The following code example demonstrates how to add a shortcut menu item to SharePoint project nodes in **Solution Explorer**. When the user right-clicks a project node and clicks the **Write Message to Output Window** menu item, Visual Studio displays a message in the **Output** window. This example uses the SharePoint project service to display the message. For more information, see [Use the SharePoint project service](../sharepoint/using-the-sharepoint-project-service.md).
 
- [!code-csharp[SPExtensibility.ProjectExtension.Menu#1](../sharepoint/codesnippet/CSharp/projectmenu/extension/projectitemextensionmenu.cs#1)]
- [!code-vb[SPExtensibility.ProjectExtension.Menu#1](../sharepoint/codesnippet/VisualBasic/projectmenu/extension/projectitemextensionmenu.vb#1)]
+ :::code language="csharp" source="../sharepoint/codesnippet/CSharp/projectmenu/extension/projectitemextensionmenu.cs" id="Snippet1":::
+ :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/projectmenu/extension/projectitemextensionmenu.vb" id="Snippet1":::
 
 ## Compile the code
  This example requires a class library project with references to the following assemblies:

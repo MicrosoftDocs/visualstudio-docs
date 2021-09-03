@@ -1,17 +1,19 @@
 ---
-title: "IEnumDebugPortSuppliers2 | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "This interface enumerates port suppliers."
+title: IEnumDebugPortSuppliers2 | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IEnumDebugPortSuppliers2"
+- IEnumDebugPortSuppliers2
 helpviewer_keywords:
-  - "IEnumDebugPortSuppliers2"
+- IEnumDebugPortSuppliers2
 ms.assetid: cd0a73dc-dd25-46fd-8c4f-5b011501afeb
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IEnumDebugPortSuppliers2
 This interface enumerates port suppliers.

@@ -1,5 +1,6 @@
 ---
 title: "HLSL Shader Debugger | Microsoft Docs"
+description: Use the HLSL debugger in the Graphics Analyzer to grasp how your HLSL code operates in your app. The debugger can simulate the exact HLSL thread that interests you.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:
@@ -7,7 +8,8 @@ f1_keywords:
 ms.assetid: 4ccec541-3c49-42bd-972a-686eb3a88fbc
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -66,7 +68,7 @@ The HLSL debugger in Visual Studio Graphics Analyzer helps you understand how yo
 
    For examples about how to use the HLSL Debugger to debug shader errors, see [Examples](graphics-diagnostics-examples.md) or the walkthroughs linked to in the See Also section.
 
-## See Also
+## See also
 - [Walkthrough: Missing Objects Due to Vertex Shading](walkthrough-missing-objects-due-to-vertex-shading.md)
 - [Walkthrough: Debugging Rendering Errors Due to Shading](walkthrough-debugging-rendering-errors-due-to-shading.md)
 - [Walkthrough: Using Graphics Diagnostics to Debug a Compute Shader](walkthrough-using-graphics-diagnostics-to-debug-a-compute-shader.md)

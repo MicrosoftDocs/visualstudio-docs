@@ -3,11 +3,12 @@ title: Target previous .NET Framework versions for F#
 description: Learn about targeting older version of the .NET Framework when using F# in Visual Studio.
 ms.date: 07/11/2018
 ms.topic: troubleshooting
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
-  - "dotnet"
+- dotnet
 monikerRange: vs-2017
 ---
 # Target older versions of .NET (F#)

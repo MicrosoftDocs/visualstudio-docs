@@ -1,13 +1,16 @@
 ---
-title: "Layout for Visual Studio | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Layout for Visual Studio | Microsoft Docs
+description: Learn about layout for Visual Studio dialogs, including unthemed dialogs and new dialogs that have a themed appearance. 
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: reference
 ms.assetid: c19e3022-047c-43b6-a046-a82717efed4f
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Layout for Visual Studio
 The majority of Visual Studio dialogs are [Utility dialog layout](../../extensibility/ux-guidelines/layout-for-visual-studio.md#BKMK_UtilityDialogLayout), which are the unthemed dialogs that follow standard [Windows Desktop dialog layout principles](/windows/desktop/uxguide/win-dialog-box). As Visual Studio moves to refresh its UI, some of the more prominent dialogs have a new design that establishes them as product-defining experiences. These [Themed dialog layout](../../extensibility/ux-guidelines/layout-for-visual-studio.md#BKMK_ThemedDialogLayout) have a themed appearance.
@@ -148,7 +151,7 @@ The majority of Visual Studio dialogs are [Utility dialog layout](../../extensib
 
  **Figure 08.01-k: Themed dialog - Colors**
 
-## See Also
+## See also
 - [Application Patterns for Visual Studio](../../extensibility/ux-guidelines/application-patterns-for-visual-studio.md)
 - [Controls (Windows)](/windows/desktop/uxguide/controls)
 - [Dialog Boxes (Windows)](/windows/desktop/uxguide/win-dialog-box)

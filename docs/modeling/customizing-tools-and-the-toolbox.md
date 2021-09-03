@@ -1,18 +1,21 @@
 ---
 title: Customizing Tools and the Toolbox
+description: Learn how you must define toolbox items for the elements that you want to let users add to their models.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 f1_keywords:
-  - "vs.dsltools.dsldesigner.selectiondialog"
-  - "vs.dsltools.dsldesigner.selecticondialog"
-  - "vs.dsltools.dsldesigner.selectcursordialog"
+- vs.dsltools.dsldesigner.selectiondialog
+- vs.dsltools.dsldesigner.selecticondialog
+- vs.dsltools.dsldesigner.selectcursordialog
 helpviewer_keywords:
-  - "Domain-Specific Language, toolbox"
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+- Domain-Specific Language, toolbox
+author: mgoertz-msft
+ms.author: mgoertz
+manager: jmartens
+ms.technology: vs-ide-modeling
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Customizing Tools and the Toolbox
 
@@ -226,7 +229,7 @@ using Microsoft.VisualStudio.Modeling.Diagrams;
 
  You use custom code to apply 'hard' constraints, but you should consider whether users should be able to temporarily make invalid connections. If they should, you can modify the constraints so that connections are not validated until users try to save changes.
 
-## See Also
+## See also
 
 - [Customizing Element Creation and Movement](../modeling/customizing-element-creation-and-movement.md)
 - [Customizing Copy Behavior](../modeling/customizing-copy-behavior.md)

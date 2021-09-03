@@ -1,5 +1,7 @@
 ---
 title: "Memory Tab, Process Properties Dialog Box | Microsoft Docs"
+description: Use the Memory tab of Process Properties to view how a process uses memory. There is information about space used, shared space, and virtual space used.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 helpviewer_keywords:
@@ -7,7 +9,8 @@ helpviewer_keywords:
 ms.assetid: a70785f2-5997-40ec-a90f-80a52449768b
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---

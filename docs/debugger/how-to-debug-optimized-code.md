@@ -1,26 +1,29 @@
 ---
-title: "How to: Debug Optimized Code | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-f1_keywords:
-  - "vs.debug"
-dev_langs:
-  - "CSharp"
-  - "VB"
-  - "FSharp"
-  - "C++"
-helpviewer_keywords:
-  - "breakpoints, in optimized code"
-  - "debugging [C++], optimized code"
-  - "optimization, debug builds"
-  - "debug builds, optimizing"
-  - "optimized code, debugging"
+title: Debug Optimized Code | Microsoft Docs
+description: If possible, don't build a Win32 Release target until your program is debugged, because optimization can complicate debugging. See the details in this article.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
+f1_keywords: 
+  - vs.debug
+dev_langs: 
+  - CSharp
+  - VB
+  - FSharp
+  - C++
+helpviewer_keywords: 
+  - breakpoints, in optimized code
+  - debugging [C++], optimized code
+  - optimization, debug builds
+  - debug builds, optimizing
+  - optimized code, debugging
 ms.assetid: fc8eeeb8-6629-4c9b-99f7-2016aee81dff
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
-ms.workload:
-  - "multiple"
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.technology: vs-ide-debug
+ms.workload: 
+  - multiple
 ---
 # How to: Debug Optimized Code
 
@@ -46,13 +49,13 @@ ms.workload:
 
   Global and static variables are always shown correctly. So is structure layout. If you have a pointer to a structure and the value of the pointer is correct, every member variable of the structure will show the correct value.
 
-  Because of these limitations, you should debug using an unoptimized version of your program if at all possible. By default, optimization is turned off in the Debug configuration of a Visual C++ program and turned on in the Release configuration.
+  Because of these limitations, you should debug using an unoptimized version of your program if at all possible. By default, optimization is turned off in the Debug configuration of a C++ program and turned on in the Release configuration.
 
   However, a bug might appear only in an optimized version of a program. In that case, you must debug the optimized code.
 
 ## To turn on optimization in a Debug build configuration
 
-1. When you create a new project, select the `Win32 Debug` target. Use the `Win32``Debug` target until your program is fully debugged and you are ready to build a `Win32 Release` target. The compiler does not optimize the `Win32 Debug` target.
+1. When you create a new project, select the `Win32 Debug` target. Use the `Win32 Debug` target until your program is fully debugged and you are ready to build a `Win32 Release` target. The compiler does not optimize the `Win32 Debug` target.
 
 2. Select the project in Solution Explorer.
 

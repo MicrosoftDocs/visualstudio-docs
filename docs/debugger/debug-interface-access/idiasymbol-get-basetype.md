@@ -1,7 +1,8 @@
 ---
-title: "IDiaSymbol::get_baseType | Microsoft Docs"
+title: "IDiaSymbol::get_baseType"
+description: "Retrieves the base type for this symbol"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,12 +10,13 @@ helpviewer_keywords:
 ms.assetid: 5c69a241-a8d3-48ed-8b36-27463a196572
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
 # IDiaSymbol::get_baseType
-Retrieves the base type for this symbol<em>.</em>
+Retrieves the base type for this symbol.
 
 ## Syntax
 
@@ -60,7 +62,7 @@ if (pType->get_type( &pBaseType ) == S_OK)
 |Header:|dia2.h|
 |Version:|DIA SDK v7.0|
 
-## See Also
+## See also
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
 - [BasicType Enumeration](../../debugger/debug-interface-access/basictype.md)
 - [IDiaSymbol::get_type](../../debugger/debug-interface-access/idiasymbol-get-type.md)

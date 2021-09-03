@@ -1,5 +1,7 @@
 ---
 title: "Edit and Continue Not Supported for F# | Microsoft Docs"
+description: Edit and Continue is not supported for F# debugging. Edits to code during debugging aren't applied to the source, so the code being debugged won't match the source.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:
@@ -13,7 +15,8 @@ helpviewer_keywords:
 ms.assetid: 40ec77bb-07e3-4b58-9254-ae015009441c
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---

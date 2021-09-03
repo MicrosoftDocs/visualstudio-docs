@@ -1,29 +1,34 @@
 ---
-title: "GenerateApplicationManifest Task | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
+title: GenerateApplicationManifest Task | Microsoft Docs
+description: Use the MSBuild GenerateApplicationManifest task to generates a ClickOnce application manifest or a native manifest.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: reference
 f1_keywords:
-  - "http://schemas.microsoft.com/developer/msbuild/2003#GenerateApplicationManifest"
+- http://schemas.microsoft.com/developer/msbuild/2003#GenerateApplicationManifest
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+- VB
+- CSharp
+- C++
+- jsharp
 helpviewer_keywords:
-  - "MSBuild, GenerateApplicationManifest task"
-  - "HostInBrowser property (MSBuild)"
-  - "GenerateApplicationManifest task [MSBuild]"
+- MSBuild, GenerateApplicationManifest task
+- HostInBrowser property (MSBuild)
+- GenerateApplicationManifest task [MSBuild]
 ms.assetid: a494102b-0cb2-4755-8e2a-d2c0f39fac1d
-author: mikejo5000
-ms.author: mikejo
-manager: jillfra
+author: ghogen
+ms.author: ghogen
+manager: jmartens
+ms.technology: msbuild
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # GenerateApplicationManifest task
-Generates a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application manifest or a native manifest. A native manifest describes a component by defining a unique identity for the component and identifying all assemblies and files that make up the component. A [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application manifest extends a native manifest by indicating the entry point of the application, and specifying the application security level.
+
+Generates a ClickOnce application manifest or a native manifest. A native manifest describes a component by defining a unique identity for the component and identifying all assemblies and files that make up the component. A ClickOnce application manifest extends a native manifest by indicating the entry point of the application, and specifying the application security level.
 
 ## Parameters
+
 The following table describes the parameters for the `GenerateApplicationManifest` task.
 
 | Parameter | Description |
@@ -34,7 +39,7 @@ The following table describes the parameters for the `GenerateApplicationManifes
 | `ConfigFile` | Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` parameter.<br /><br /> Specifies which item contains the application configuration file. If the task is generating a native manifest, this parameter is ignored. |
 | `Dependencies` | Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` parameter.<br /><br /> Specifies an item list that defines the set of dependent assemblies for the generated manifest. Each item may be further described by item metadata to indicate additional deployment state and the type of dependence. For more information, see [Item metadata](#item-metadata). |
 | `Description` | Optional `String` parameter.<br /><br /> Specifies the description for the application or component. |
-| `EntryPoint` | Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` parameter.<br /><br /> Specifies a single item that indicates the entry point for the generated manifest assembly.<br /><br /> For a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application manifest, this parameter specifies the assembly that starts when the application is run. |
+| `EntryPoint` | Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` parameter.<br /><br /> Specifies a single item that indicates the entry point for the generated manifest assembly.<br /><br /> For a ClickOnce application manifest, this parameter specifies the assembly that starts when the application is run. |
 | `ErrorReportUrl` | Optional <xref:System.String?displayProperty=fullName> parameter.<br /><br /> Specifies the URL of the web page that is displayed in dialog boxes during error reports in ClickOnce installations. |
 | `FileAssociations` | Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` parameter.<br /><br /> Specifies a list of one or more file type that are associated with the ClickOnce deployment manifest.<br /><br /> File associations only valid only when .NET Framework 3.5 or later is targeted. |
 | `Files` | Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` parameter.<br /><br /> The files to include in the manifest. Specify the full path for each file. |
@@ -43,7 +48,7 @@ The following table describes the parameters for the `GenerateApplicationManifes
 | `InputManifest` | Optional <xref:Microsoft.Build.Framework.ITaskItem> parameter.<br /><br /> Indicates an input XML document to serve as a base for the manifest generator. This allows structured data such as application security or custom manifest definitions to be reflected in the output manifest. The root element in the XML document must be an assembly node in the asmv1 namespace. |
 | `IsolatedComReferences` | Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` parameter.<br /><br /> Specifies COM components to isolate in the generated manifest. This parameter supports the ability to isolate COM components for "Registration Free COM" deployment. It works by auto-generating a manifest with standard COM registration definitions. However, the COM components must be registered on the build machine in order for this to function properly. |
 | `ManifestType` | Optional `String` parameter.<br /><br /> Specifies which type of manifest to generate. This parameter can have the following values:<br /><br /> -   `Native`<br />-   `ClickOnce`<br /><br /> If this parameter is not specified, the task defaults to `ClickOnce`. |
-| `MaxTargetPath` | Optional `String` parameter.<br /><br /> Specifies the maximum allowable length of a file path in a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application deployment. If this value is specified, the length of each file path in the application is checked against this limit. Any items that exceed the limit will raise in a build warning. If this input is not specified or is zero, then no checking is performed. If the task is generating a native manifest, this parameter is ignored. |
+| `MaxTargetPath` | Optional `String` parameter.<br /><br /> Specifies the maximum allowable length of a file path in a ClickOnce application deployment. If this value is specified, the length of each file path in the application is checked against this limit. Any items that exceed the limit will raise in a build warning. If this input is not specified or is zero, then no checking is performed. If the task is generating a native manifest, this parameter is ignored. |
 | `OSVersion` | Optional `String` parameter.<br /><br /> Specifies the minimum required operating system (OS) version required by the application. For example, the value "5.1.2600.0" indicates the operating system is Windows XP. If this parameter is not specified, the value "4.10.0.0" is used, which indicates Windows 98 Second Edition, the minimum supported OS of the .NET Framework. If the task is generating a native manifest, this input is ignored. |
 | `OutputManifest` | Optional <xref:Microsoft.Build.Framework.ITaskItem> output parameter.<br /><br /> Specifies the name of the generated output manifest file. If this parameter is not specified, the name of the output file is inferred from the identity of the generated manifest. |
 | `Platform` | Optional `String` parameter.<br /><br /> Specifies the target platform of the application. This parameter can have the following values:<br /><br /> -   `AnyCPU`<br />-   `x86`<br />-   `x64`<br />-   `Itanium`<br /><br /> If this parameter is not specified, the task defaults to `AnyCPU`. |
@@ -59,6 +64,7 @@ The following table describes the parameters for the `GenerateApplicationManifes
 | `UseApplicationTrust` | Optional `Boolean` parameter.<br /><br /> If true, the `Product`, `Publisher`, and `SupportUrl` properties are written to the application manifest. |
 
 ## Remarks
+
 In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Tasks.GenerateManifestBase> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. For a list of the parameters of the Task class, see [Task base class](../msbuild/task-base-class.md).
 
 For information about how to use the `GenerateDeploymentManifest` task, see [GenerateApplicationManifest task](../msbuild/generateapplicationmanifest-task.md).
@@ -75,13 +81,14 @@ The inputs for dependencies and files may be further decorated with item metadat
 |`TargetPath`|Specifies how the path should be defined in the generated manifest. This attribute is valid for all files. If this attribute is not specified, the item specification is used. This attribute is valid for all files and dependencies with a `DependencyType` value of `Install`.|
 |`IsDataFile`|A `Boolean` metadata value that indicates whether or not the file is a data file. A data file is special in that it is migrated between application updates. This metadata is only valid for files. `False` is the default value.|
 
-## Example
-This example uses the `GenerateApplicationManifest` task to generate a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application manifest and the `GenerateDeploymentManifest` task to generate a deployment manifest for an application with a single assembly. It then uses the `SignFile` task to sign the manifests.
+## Example 1
 
-This illustrates the simplest possible manifest generation scenario where [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] manifests are generated for a single program. A default name and identity are inferred from the assembly for the manifest.
+This example uses the `GenerateApplicationManifest` task to generate a ClickOnce application manifest and the `GenerateDeploymentManifest` task to generate a deployment manifest for an application with a single assembly. It then uses the `SignFile` task to sign the manifests.
+
+This illustrates the simplest possible manifest generation scenario where ClickOnce manifests are generated for a single program. A default name and identity are inferred from the assembly for the manifest.
 
 > [!NOTE]
-> In the example below, all application binaries are pre-built in order to focus on manifest generation aspects. This example produces a fully working [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment.
+> In the example below, all application binaries are pre-built in order to focus on manifest generation aspects. This example produces a fully working ClickOnce deployment.
 >
 > [!NOTE]
 > For more information on the `Thumbprint` property used in the `SignFile` task in this example, see [SignFile task](../msbuild/signfile-task.md).
@@ -128,13 +135,14 @@ This illustrates the simplest possible manifest generation scenario where [!INCL
 </Project>
 ```
 
-## Example
-This example uses the `GenerateApplicationManifest` and `GenerateDeploymentManifest` tasks to generate [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application and deployment manifests for an application with a single assembly, specifying name and identity of manifests.
+## Example 2
+
+This example uses the `GenerateApplicationManifest` and `GenerateDeploymentManifest` tasks to generate ClickOnce application and deployment manifests for an application with a single assembly, specifying name and identity of manifests.
 
 This example is similar to previous example except the name and identity of the manifests are explicitly specified. Also, this example is configured as an online application instead of an installed application.
 
 > [!NOTE]
-> In the example below, all application binaries are pre-built in order to focus on manifest generation aspects. This example produces a fully working [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment.
+> In the example below, all application binaries are pre-built in order to focus on manifest generation aspects. This example produces a fully working ClickOnce deployment.
 >
 > [!NOTE]
 > For more information on the `Thumbprint` property used in the `SignFile` task in this example, see [SignFile task](../msbuild/signfile-task.md).
@@ -188,11 +196,12 @@ This example is similar to previous example except the name and identity of the 
 </Project>
 ```
 
-## Example
-This example uses the `GenerateApplicationManifest` and `GenerateDeploymentManifest` tasks to generate [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application and deployment manifests for an application with multiple files and assemblies.
+## Example 3
+
+This example uses the `GenerateApplicationManifest` and `GenerateDeploymentManifest` tasks to generate ClickOnce application and deployment manifests for an application with multiple files and assemblies.
 
 > [!NOTE]
-> In the example below, all application binaries are pre-built in order to focus on manifest generation aspects. This example produces a fully working [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment.
+> In the example below, all application binaries are pre-built in order to focus on manifest generation aspects. This example produces a fully working ClickOnce deployment.
 >
 > [!NOTE]
 > For more information on the `Thumbprint` property used in the `SignFile` task in this example, see [SignFile task](../msbuild/signfile-task.md).
@@ -306,13 +315,14 @@ This example uses the `GenerateApplicationManifest` and `GenerateDeploymentManif
 </Project>
 ```
 
-## Example
+## Example 4
+
 This example uses the `GenerateApplicationManifest` task to generate a native manifest for application *Test.exe*, referencing native component *Alpha.dll* and an isolated COM component *Bravo.dll*.
 
 This example produces the *Test.exe.manifest*, making the application XCOPY deployable and taking advantage of Registration Free COM.
 
 > [!NOTE]
-> In the example below, all application binaries are pre-built in order to focus on manifest generation aspects. This example produces a fully working [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment.
+> In the example below, all application binaries are pre-built in order to focus on manifest generation aspects. This example produces a fully working ClickOnce deployment.
 
 ```xml
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
@@ -344,6 +354,7 @@ This example produces the *Test.exe.manifest*, making the application XCOPY depl
 ```
 
 ## See also
+
 - [Tasks](../msbuild/msbuild-tasks.md)
 - [GenerateDeploymentManifest task](../msbuild/generatedeploymentmanifest-task.md)
 - [SignFile task](../msbuild/signfile-task.md)

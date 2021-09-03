@@ -1,7 +1,8 @@
 ---
+description: "Determines if looking for debug information is allowed from .dbg files."
 title: "IDiaLoadCallback2::RestrictDBGAccess | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,8 @@ helpviewer_keywords:
 ms.assetid: 63b67a93-2910-4fff-aa70-6b2eaa08e5c8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -28,5 +30,5 @@ HRESULT RestrictDBGAccess();
 ## Remarks
  Any return value other than `S_OK` to prevent looking for debug information from .dbg files.
 
-## See Also
+## See also
 - [IDiaLoadCallback2](../../debugger/debug-interface-access/idialoadcallback2.md)

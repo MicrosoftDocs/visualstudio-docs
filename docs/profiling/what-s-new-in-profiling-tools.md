@@ -1,5 +1,6 @@
 ---
 title: "What's New in Profiling in Visual Studio 2017 | Microsoft Docs"
+description: Learn that Diagnostics Tools include new visualizations to help you identify issues in your app that need fixing.
 titleSuffix: ""
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
@@ -9,7 +10,8 @@ helpviewer_keywords:
 ms.assetid: d4736cc8-8961-4089-be9e-d5190ce8353c
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 monikerRange: vs-2017
@@ -30,5 +32,5 @@ The CPU usage tool has [new visualizations](../profiling/Beginners-Guide-to-Perf
 
 ## See also
 
-- [Profile in Visual Studio](../profiling/index.md)
+- [Profile in Visual Studio](../profiling/index.yml)
 - [First look at profiling tools](../profiling/profiling-feature-tour.md)

@@ -1,32 +1,34 @@
 ---
-title: Class view, call hierarchy, object browser, code definition window
-ms.date: 05/18/2018
-ms.topic: conceptual
+title: Use tools windows to view code structure
+description: Learn how to use the Class View, Call Hierarchy, Object Browser, and Code Definition (C++ only) tool windows to examine classes and their members in Visual Studio.
+ms.custom: SEO-VS-2020
+ms.date: 09/19/2019
+ms.topic: reference
 f1_keywords:
-  - "vs.documentoutline.window"
-  - "vs.objectbrowser"
-  - "vs.classview"
-  - "VS.CodeDefinitionView"
-  - "VS.CodeDefinitionWindow"
-  - "vs.componentpicker"
-  - "vs.callbrowser"
+- vs.documentoutline.window
+- vs.classview
+- VS.CodeDefinitionView
+- VS.CodeDefinitionWindow
+- vs.componentpicker
+- vs.callbrowser
 helpviewer_keywords:
-  - "document outline window"
-  - "Visual Studio, object browser"
-  - "call hierarchy"
-  - "Visual Studio, document outline window"
-  - "code definition window [Visual Studio]"
-  - "Visual Studio, class view"
-  - "Visual Studio, call hierarchy window"
-  - "class view"
-  - "object browser"
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+- document outline window
+- Visual Studio, object browser
+- call hierarchy
+- Visual Studio, document outline window
+- code definition window [Visual Studio]
+- Visual Studio, class view
+- Visual Studio, call hierarchy window
+- class view
+- object browser
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
-  - "multiple"
+- multiple
 ---
-# View the structure of code using different tool windows
+# View the structure of code by using different tool windows
 
 You can examine classes and their members in Visual Studio using various tool windows, including **Class View**, **Call Hierarchy**, **Object Browser**, and **Code Definition** (C++ only). These tool windows can examine code in Visual Studio projects, .NET components, COM components, dynamic-link libraries (DLL), and type libraries (TLB).
 
@@ -48,7 +50,7 @@ If your project is checked in to source code control, every **Class View** eleme
 
 The **Class View** toolbar contains the following commands:
 
-|||
+|Name|Description|
 |-|-|
 |**New Folder**|Creates a virtual folder or subfolder in which you can organize frequently used elements. They are saved in the active solution (*.suo*) file. After you rename or delete an element in your code, it might appear in a virtual folder as an error node. To correct this problem, delete the error node. If you renamed an element, you can move it from the project hierarchy into the folder again.|
 |**Back**|Navigates to the previously selected item.|
@@ -59,23 +61,22 @@ The **Class View** toolbar contains the following commands:
 
 The **Class View Settings** button on the toolbar has the following settings:
 
-|||
+|Name|Description|
 |-|-|
 |**Show Base Types**|Base types are displayed.|
-|**Show Derived Types**|Derived types are displayed.|
+|**Show Project References**|Project references are displayed.|
 |**Show Hidden Types and Members**|Hidden types and members (not intended for use by clients) are displayed in light gray text.|
 |**Show Public Members**|Public members are displayed.|
 |**Show Protected Members**|Protected members are displayed.|
 |**Show Private Members**|Private members are displayed.|
 |**Show Other Members**|Other kinds of members are displayed, including internal (or Friend in Visual Basic) members.|
 |**Show Inherited Members**|Inherited members are displayed.|
-|**Show Extension Methods**|Extension methods are displayed.|
 
 ### Class View shortcut menu
 
-The shortcut menu in **Class View** may contain the following commands, depending on the kind of project selected:
+The shortcut (or right-click) menu in **Class View** may contain the following commands, depending on the kind of project selected:
 
-|||
+|Name|Description|
 |-|-|
 |**Go To Definition**|Finds the definition of the element in the source code, or in the **Object Browser**, if the element is not defined in the open project.|
 |**Browse Definition**|Displays the selected item in the **Object Browser**.|
@@ -107,7 +108,7 @@ The **Call Hierarchy** window does not find method group references, which inclu
 
 The shortcut menu in the **Call Hierarchy** window contains the following commands:
 
-|||
+|Name|Description|
 |-|-|
 |**Add as New Root**|Adds the selected node as a new root node.|
 |**Remove Root**|Removes the selected root node from the tree view pane.|
@@ -146,12 +147,11 @@ You can use the **Object Browser** to add an assembly reference to an open solut
 
 By using the **Object Browser Settings** button on the toolbar, you can specify one of the following views:
 
-|||
+|Name|Description|
 |-|-|
 |**View Namespaces**|Displays namespaces rather than physical containers, in the left pane. Namespaces stored in multiple physical containers are merged.|
 |**View Containers**|Displays physical containers rather than namespaces, in the left pane. **View Namespaces** and **View Containers** are mutually exclusive settings.|
 |**Show Base Types**|Displays base types.|
-|**Show Derived Types**|Displays derived types.|
 |**Show Hidden Types and Members**|Displays hidden types and members (not intended for use by clients), in light gray text.|
 |**Show Public Members**|Displays public members.|
 |**Show Protected Members**|Displays protected members.|
@@ -162,9 +162,9 @@ By using the **Object Browser Settings** button on the toolbar, you can specify 
 
 ### Object Browser shortcut menu commands
 
-The shortcut menu in the **Object Browser** may contain the following commands, depending on the kind of item selected:
+The shortcut (or right-click) menu in **Object Browser** may contain the following commands, depending on the kind of item selected:
 
-|||
+|Name|Description|
 |-|-|
 |**Browse Definition**|Shows the primary node for the selected item.|
 |**Find All References**|Finds the currently selected object item and displays the results in a **Find Results** window.|
@@ -191,9 +191,9 @@ Although this window is read-only, you can set breakpoints or bookmarks in it. T
 
 ### Code Definition shortcut menu
 
-The shortcut menu in the **Code Definition** window may contain the following commands:
+The shortcut (or right-click) menu in the **Code Definition** window may contain the following commands:
 
-|||
+|Name|Description|
 |-|-|
 |**Quick Actions and Refactorings**||
 |**Rename**||

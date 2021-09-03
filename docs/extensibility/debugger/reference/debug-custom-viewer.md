@@ -1,20 +1,22 @@
 ---
-title: "DEBUG_CUSTOM_VIEWER | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "A structure that identifies a custom viewer or type visualizer."
+title: DEBUG_CUSTOM_VIEWER | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "DEBUG_CUSTOM_VIEWER"
+- DEBUG_CUSTOM_VIEWER
 helpviewer_keywords:
-  - "DEBUG_CUSTOM_VIEWER structure"
+- DEBUG_CUSTOM_VIEWER structure
 ms.assetid: 8e0ef3f0-0107-48e8-a037-6e52b4c4ed9d
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # DEBUG_CUSTOM_VIEWER
 A structure that identifies a custom viewer or type visualizer.

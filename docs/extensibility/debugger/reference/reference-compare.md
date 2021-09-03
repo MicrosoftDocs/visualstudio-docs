@@ -1,20 +1,22 @@
 ---
-title: "REFERENCE_COMPARE | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Specifies the type of comparison for references."
+title: REFERENCE_COMPARE | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "REFERENCE_COMPARE"
+- REFERENCE_COMPARE
 helpviewer_keywords:
-  - "REFERENCE_COMPARE enumeration"
+- REFERENCE_COMPARE enumeration
 ms.assetid: e31cdc78-f621-498b-9ca4-aefa790b9f6f
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # REFERENCE_COMPARE
 Specifies the type of comparison for references.

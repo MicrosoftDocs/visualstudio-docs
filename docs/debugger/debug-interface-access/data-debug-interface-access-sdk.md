@@ -1,7 +1,8 @@
 ---
+description: "All variables, such as parameters, local variables, global variables, and class members, are identified by SymTagData symbols."
 title: "Data (Debug Interface Access SDK) | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -12,7 +13,8 @@ helpviewer_keywords:
 ms.assetid: 0f17e96a-2e06-42c9-a877-3e5e670ee0ef
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -55,7 +57,7 @@ All variables, such as parameters, local variables, global variables, and class 
 |[IDiaSymbol::get_virtualAddress](../../debugger/debug-interface-access/idiasymbol-get-virtualaddress.md)|`ULONGLONG`|Position of the data within the executable.|
 |[IDiaSymbol::get_volatileType](../../debugger/debug-interface-access/idiasymbol-get-volatiletype.md)|`BOOL`|`TRUE` if the data is marked as volatile.|
 
-## See Also
+## See also
 - [CV_access_e Enumeration](../../debugger/debug-interface-access/cv-access-e.md)
 - [DataKind Enumeration](../../debugger/debug-interface-access/datakind.md)
 - [Lexical Hierarchy of Symbol Types](../../debugger/debug-interface-access/lexical-hierarchy-of-symbol-types.md)

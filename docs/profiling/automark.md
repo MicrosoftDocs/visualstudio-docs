@@ -1,13 +1,17 @@
 ---
-title: "AutoMark | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: AutoMark | Microsoft Docs
+description: Use the AutoMark option to specify the time interval between Windows performance counter data collection events. Use it with the WinCounter option.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: reference
 ms.assetid: c4de965e-0364-4f78-9936-1f509e85df74
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
-ms.workload:
-  - "multiple"
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.technology: vs-ide-debug
+monikerRange: 'vs-2017'
+ms.workload: 
+  - multiple
 ---
 # AutoMark
 The **AutoMark** option specifies the number of milliseconds between the collection of Windows software performance counter events. Windows performance counters are specified in the **WinCounter** option.

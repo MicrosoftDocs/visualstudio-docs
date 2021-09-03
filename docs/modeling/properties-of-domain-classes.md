@@ -1,12 +1,15 @@
 ---
 title: Properties of Domain Classes
+description: Learn about the various properties of domain classes, such as Access Modifier, Custom Attributes, and Generates Double Derived.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
   - "Domain-Specific Language, domain class"
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: mgoertz-msft
+ms.author: mgoertz
+manager: jmartens
+ms.technology: vs-ide-modeling
 ms.workload:
   - "multiple"
 ---
@@ -28,6 +31,6 @@ Domain classes have the properties in the following table. For information about
 |Display Name|The name that will be displayed in the generated designer for this domain class.|\<none>|
 |Help Keyword|The optional keyword that is used to index F1 help for this domain class.|\<none>|
 
-## See Also
+## See also
 
-- [Domain-Specific Language Tools Glossary](https://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)
+- [Domain-Specific Language Tools Glossary](/previous-versions/bb126564(v=vs.100))

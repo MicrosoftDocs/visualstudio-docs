@@ -1,17 +1,19 @@
 ---
-title: "IDebugAddress2 | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "This interface provides access to the ID of the process that owns the object whose address is represented by this interface."
+title: IDebugAddress2 | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugAddress2"
+- IDebugAddress2
 helpviewer_keywords:
-  - "IDebugAddress2 interface"
+- IDebugAddress2 interface
 ms.assetid: b150e0ed-4ac0-4f8c-9732-4b3e54b9d243
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IDebugAddress2
 This interface provides access to the ID of the process that owns the object whose address is represented by this interface.

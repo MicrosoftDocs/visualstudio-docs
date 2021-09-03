@@ -1,14 +1,17 @@
 ---
-title: "Using the Graphs View Legend to Analyze Load Tests"
+title: Using the Graphs View Legend to Analyze Load Tests
+description: Learn about the Graphs view of the Load Test Analyzer, which includes a legend panel that displays information for performance counters for a selected graph.
+ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "Load Test Analyzer, graphs view legend"
-  - "load tests, graphs view legend"
+- Load Test Analyzer, graphs view legend
+- load tests, graphs view legend
 ms.assetid: 0f6ba8e4-1343-419c-8a9f-240cf50efed7
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.technology: vs-ide-test
 ---
 # Use the Graphs view legend to analyze load tests
 

@@ -1,20 +1,22 @@
 ---
-title: "IDebugProgram2::Detach | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Detaches a debug engine from the program."
+title: IDebugProgram2::Detach | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugProgram2::Detach"
+- IDebugProgram2::Detach
 helpviewer_keywords:
-  - "IDebugProgram2::Detach"
+- IDebugProgram2::Detach
 ms.assetid: 5e8d88b0-a8d4-4746-88c0-ad332ee73f33
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugProgram2::Detach
 Detaches a debug engine from the program.

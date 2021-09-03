@@ -1,52 +1,55 @@
 ---
 title: Dataset tools
+description: Review the dataset tools available in Visual Studio. Read about dataset workflow, datasets and N-tier architecture, and datasets and XML.
+ms.custom: SEO-VS-2020
 ms.date: 11/21/2018
 ms.topic: conceptual
 f1_keywords:
-  - "vs.data.DataSet"
+- vs.data.DataSet
 helpviewer_keywords:
-  - "untyped datasets"
-  - "datasets [Visual Basic], extended properties"
-  - "typed datasets"
-  - "current record in dataset"
-  - "XML [Visual Basic], datasets"
-  - "DataSet class, about datasets"
-  - "unique constraints (datasets)"
-  - "data relationships"
-  - "parent records in datasets"
-  - "extended properties, in typed datasets"
-  - "datasets [Visual Basic]"
-  - "schemas [Visual Basic], datasets"
-  - "datasets [Visual Basic], msprop"
-  - "master-detail tables, datasets"
-  - "databases [Visual Basic], updating"
-  - "msprop"
-  - "foreign keys, datasets"
-  - "DataSet class"
-  - "datasets [Visual Basic], filling"
-  - "case sensitivity, datasets"
-  - "constraints [Visual Basic], datasets"
-  - "child records"
-  - "related tables, datasets"
-  - "updating datasets, about dataset updates"
-  - "data caching, datasets"
-  - "DataRelation object, datasets"
-  - "untyped datasets, compared to typed datasets"
-  - "cache [Visual Studio], datasets"
-  - "datasets [Visual Basic], relationships"
-  - "related tables"
-  - "XML schemas, about XML schemas and datasets"
-  - "relationships, datasets"
-  - "typed datasets, compared to untyped datasets"
-  - "datasets [Visual Basic], populating"
-  - "datasets [Visual Basic], namespace"
-  - "data adapters, populating datasets"
+- untyped datasets
+- datasets [Visual Basic], extended properties
+- typed datasets
+- current record in dataset
+- XML [Visual Basic], datasets
+- DataSet class, about datasets
+- unique constraints (datasets)
+- data relationships
+- parent records in datasets
+- extended properties, in typed datasets
+- datasets [Visual Basic]
+- schemas [Visual Basic], datasets
+- datasets [Visual Basic], msprop
+- master-detail tables, datasets
+- databases [Visual Basic], updating
+- msprop
+- foreign keys, datasets
+- DataSet class
+- datasets [Visual Basic], filling
+- case sensitivity, datasets
+- constraints [Visual Basic], datasets
+- child records
+- related tables, datasets
+- updating datasets, about dataset updates
+- data caching, datasets
+- DataRelation object, datasets
+- untyped datasets, compared to typed datasets
+- cache [Visual Studio], datasets
+- datasets [Visual Basic], relationships
+- related tables
+- XML schemas, about XML schemas and datasets
+- relationships, datasets
+- typed datasets, compared to untyped datasets
+- datasets [Visual Basic], populating
+- datasets [Visual Basic], namespace
+- data adapters, populating datasets
 ms.assetid: ee57f4f6-9fe1-4e0a-be9a-955c486ff427
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: ghogen
+ms.author: ghogen
+manager: jmartens
+ms.technology: vs-data-tools
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # Dataset tools in Visual Studio
 

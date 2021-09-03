@@ -1,17 +1,20 @@
 ---
-title: "Shipping Visual Studio Extensions | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Shipping Visual Studio Extensions | Microsoft Docs
+description: Learn how to publish and maintain your Visual Studio SDK extension, including working with .vsix files, publishing, localizing, and updating.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "VSIX deployment"
-  - "deployment, VSIX"
-  - "satellite DLLs, in VSIX packages"
+- VSIX deployment
+- deployment, VSIX
+- satellite DLLs, in VSIX packages
 ms.assetid: 13cd263d-25f7-488e-9c1a-cff908caedb6
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Shipping Visual Studio Extensions
 After you've finished developing your extension, you can install it on other machines, share it with your friends and coworkers, or publish it on the Visual Studio Marketplace. In this section we explain all the things you need to do in order to publish and maintain your extension: working with .vsix files, publishing, localizing, and updating.

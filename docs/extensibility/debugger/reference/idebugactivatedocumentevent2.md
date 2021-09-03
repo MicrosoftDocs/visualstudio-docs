@@ -1,17 +1,19 @@
 ---
-title: "IDebugActivateDocumentEvent2 | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "The debug engine (DE) uses this interface to request a document to be loaded."
+title: IDebugActivateDocumentEvent2 | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugActivateDocumentEvent2"
+- IDebugActivateDocumentEvent2
 helpviewer_keywords:
-  - "IDebugActivateDocumentEvent2 interface"
+- IDebugActivateDocumentEvent2 interface
 ms.assetid: 6f37edd7-a48c-4b41-b160-dff9be63a284
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IDebugActivateDocumentEvent2
 The debug engine (DE) uses this interface to request a document to be loaded.

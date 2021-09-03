@@ -1,7 +1,10 @@
 ---
 title: "Deploy & publish SharePoint solution to local SharePoint site"
+titleSuffix: ""
+description: Review how to deploy or publish SharePoint solutions to a local SharePoint server on your development computer.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: how-to
 dev_langs:
   - "VB"
   - "CSharp"
@@ -10,7 +13,8 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, deploying"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
+ms.technology: sharepoint-development
 ms.workload:
   - "office"
 ---

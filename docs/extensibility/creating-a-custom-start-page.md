@@ -1,13 +1,16 @@
 ---
-title: "Creating a Custom Start Page | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Creating a Custom Start Page | Microsoft Docs
+description: Learn how to create a custom Start Page. Begin with a blank start page, add controls to the empty UserControl element, and then test your page.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
 ms.assetid: d67e0c53-9f5a-45fb-a929-b9d2125c3c82
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 monikerRange: vs-2017
 ---
 # Creating a custom Start Page

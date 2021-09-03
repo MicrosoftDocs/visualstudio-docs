@@ -1,5 +1,6 @@
 ---
 title: "Thread Ready Connector | Microsoft Docs"
+description: Learn that when you click a blocking segment to see a call stack and its unblocking stack, the thread ready connector may also appear.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:
@@ -9,7 +10,8 @@ helpviewer_keywords:
 ms.assetid: 68e1ec38-4b10-4b01-b32f-6c9a00b2443c
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---

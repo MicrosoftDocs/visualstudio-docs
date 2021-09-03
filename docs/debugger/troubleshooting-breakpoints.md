@@ -1,11 +1,13 @@
 ---
 title: "Troubleshoot breakpoints in the debugger | Microsoft Docs"
-ms.custom: "seodec18"
+description: If a breakpoint is disabled or could not be set, it is displayed as a hollow circle. Look here information on problems that can occur when setting breakpoints.
+ms.custom: "SEO-VS-2020"
 ms.date: "01/23/2018"
 ms.topic: "troubleshooting"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -29,7 +31,7 @@ Go to the **Modules** window (**Debug** > **Windows** > **Modules**) and check w
 
 * If your module is not loaded, check the following to find the cause:
   * Confirm that you are debugging the right process.
-  * Check to see that you are debugging the right kind of code. You can find out what type of code the debugger is configured to debug in the **Processes** window (**Debug** > **Windows** > **Processes**). For example, if you are trying to debug C# code, confirm that your debugger is configured for the appropriate type of .NET Framework (for example, Managed (v4\*) versus Managed (v2\*/v3\*) versus Managed (CoreCLR)).
+  * Check to see that you are debugging the right kind of code. You can find out what type of code the debugger is configured to debug in the **Processes** window (**Debug** > **Windows** > **Processes**). For example, if you are trying to debug C# code, confirm that your debugger is configured for the appropriate type and version of .NET (for example, Managed (v4\*) versus Managed (v2\*/v3\*) versus Managed (CoreCLR)).
 
 ### "… the current source code is different from the version built into..."
 

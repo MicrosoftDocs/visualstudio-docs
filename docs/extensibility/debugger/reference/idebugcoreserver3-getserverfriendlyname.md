@@ -1,20 +1,22 @@
 ---
-title: "IDebugCoreServer3::GetServerFriendlyName | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Retrieves a friendly name for the server."
+title: IDebugCoreServer3::GetServerFriendlyName | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugCoreServer3::GetServerFriendlyName"
+- IDebugCoreServer3::GetServerFriendlyName
 helpviewer_keywords:
-  - "IDebugCoreServer3::GetServerFriendlyName"
+- IDebugCoreServer3::GetServerFriendlyName
 ms.assetid: 7035b904-b3d7-4d9b-98d9-65714b8a8b9f
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugCoreServer3::GetServerFriendlyName
 Retrieves a friendly name for the server.

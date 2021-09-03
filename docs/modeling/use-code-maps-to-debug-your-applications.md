@@ -1,31 +1,36 @@
 ---
 title: Use code maps to debug your applications
+description: Learn how to use code maps to help you avoid getting lost in large code bases, unfamiliar code, or legacy code.
+ms.custom: SEO-VS-2020
 ms.date: 09/28/2018
 ms.topic: conceptual
 helpviewer_keywords:
-  - "Visual Studio Ultimate, visualizing code"
-  - "Visual Studio Ultimate, navigating code visually"
-  - "Visual Studio Ultimate, understanding code"
-  - "Visual Studio Ultimate, mapping code relationships"
-  - "Visual Studio Ultimate, code maps"
-  - "mapping code relationships"
-  - "code maps"
-  - "mapping relationships in code"
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+- Visual Studio Ultimate, visualizing code
+- Visual Studio Ultimate, navigating code visually
+- Visual Studio Ultimate, understanding code
+- Visual Studio Ultimate, mapping code relationships
+- Visual Studio Ultimate, code maps
+- mapping code relationships
+- code maps
+- mapping relationships in code
+author: mgoertz-msft
+ms.author: mgoertz
+manager: jmartens
+ms.technology: vs-ide-modeling
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Use code maps to debug your applications
 
-Code maps can help you avoid getting lost in large code bases, unfamiliar code, or legacy code. For example, when you're debugging, you might have to look at code across many files and projects. Use code maps to navigate around pieces of code and understand the relationships between them. That way, you don't have to keep track of this code in your head, or draw a separate diagram. So, when your work is interrupted, code maps help refresh your memory about the code you're working on.
+[Code maps in Visual Studio](../modeling/map-dependencies-across-your-solutions.md) can help you avoid getting lost in large code bases, unfamiliar code, or legacy code. For example, when you're debugging, you might have to look at code across many files and projects. Use code maps to navigate around pieces of code and understand the relationships between them. That way, you don't have to keep track of this code in your head, or draw a separate diagram. So, when your work is interrupted, code maps help refresh your memory about the code you're working on.
 
 ![Code map &#45; Map relationships in code](../modeling/media/codemapstoryboardpaint.png)
 
 **A green arrow shows where your cursor appears in the editor**
 
 For details of the commands and actions you can use when working with code maps, see [Browse and rearrange code maps](../modeling/browse-and-rearrange-code-maps.md).
+
+Learn more about [debugging in Visual Studio with the Debugger tool](../debugger/debugger-feature-tour.md).
 
 > [!NOTE]
 > To create and edit code maps, you need Visual Studio Enterprise edition. In Visual Studio Community and Professional editions, you can open diagrams that were generated in Enterprise edition, but you cannot edit them.
@@ -54,9 +59,9 @@ For details of the commands and actions you can use when working with code maps,
 ## Navigate and examine code from the map
  To see the code definition for each field, double-click the field on the map or select the field and press **F12**. The green arrow moves between items on the map. Your cursor in the code editor also moves automatically.
 
- ![Code map &#45; Examine field definition](../modeling/media/codemapstoryboardpaint5.png)
+ ![Screenshot of a code map window with the history field selected and a code editor window where all instances of history are highlighted.](../modeling/media/codemapstoryboardpaint5.png)
 
- ![Code map &#45; Examine field definition](../modeling/media/codemapstoryboardpaint5a.png)
+ ![Screenshot of a code map window with the paintObjects field selected and a code editor window where all instances of paintObjects are highlighted.](../modeling/media/codemapstoryboardpaint5a.png)
 
 > [!TIP]
 > You can also move the green arrow on the map by moving your cursor in the code editor.
@@ -73,24 +78,24 @@ For details of the commands and actions you can use when working with code maps,
 
  Change the layout to rearrange the flow of relationships and make the map easier to read. You can also move items around the map by dragging them.
 
- ![Code map &#45; Change layout](../modeling/media/codemapstoryboardpaint7a.png)
+ ![Screenshot of a code map window with the Layout menu open and the Left to Rgiht command selected.](../modeling/media/codemapstoryboardpaint7a.png)
 
 > [!TIP]
 > By default, **Incremental Layout** is turned on. This rearranges the map as little as possible when you add new items. To rearrange the entire map every time you add new items, turn off **Incremental Layout**.
 
- ![Code map &#45; Change layout](../modeling/media/codemapstoryboardpaint7.png)
+ ![Screenshot of a code map window with the relationshiop arrows between the fields pointing from left to right.](../modeling/media/codemapstoryboardpaint7.png)
 
  Let's examine these methods. On the map, double-click the **PaintCanvas** method, or select this method and press **F12**. You learn that this method creates `history` and `paintObjects` as empty lists.
 
- ![Code map &#45; Examine method definition](../modeling/media/codemapstoryboardpaint8.png)
+ ![Screenshot of a code map window with the PaintCanvas method selected and a code snippet image showing the PainCanvas method name highlighted.](../modeling/media/codemapstoryboardpaint8.png)
 
  Now repeat the same steps to examine the `clear` method definition. You learn that `clear` performs some tasks with `paintObjects` and `history`. It then calls the `Repaint` method.
 
- ![Code map &#45; Examine method definition](../modeling/media/codemapstoryboardpaint9.png)
+ ![Screenshot of a code map window with the Clear method selected and a code snippet image showing the code for the Clear method.](../modeling/media/codemapstoryboardpaint9.png)
 
  Now examine the `addPaintObject` method definition. It also performs some tasks with `history` and `paintObjects`. It also calls `Repaint`.
 
- ![Code map &#45; Examine method definition](../modeling/media/codemapstoryboardpaint10.png)
+ ![Screenshot of a code map window with the addPaintObject method selected and a code snippet image showing the code for the addPaintObject method.](../modeling/media/codemapstoryboardpaint10.png)
 
 ## Find the problem by examining the map
  It seems that all the methods that modify `history` and `paintObjects` call `Repaint`. Yet the `undo` method doesn't call `Repaint`, even though `undo` modifies the same fields. So you think you can fix this problem by calling `Repaint` from `undo`.
@@ -134,7 +139,7 @@ For details of the commands and actions you can use when working with code maps,
 
  Now you're done with your investigation. You successfully found and fixed the problem by mapping the code. You also have a map that helps you navigate around the code, remember what you learned, and shows the steps you took to fix the problem.
 
-## See Also
+## See also
 
 - [Map methods on the call stack while debugging](../debugger/map-methods-on-the-call-stack-while-debugging-in-visual-studio.md)
 - [Visualize code](../modeling/visualize-code.md)

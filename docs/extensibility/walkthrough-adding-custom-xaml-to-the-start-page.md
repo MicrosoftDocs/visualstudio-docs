@@ -1,16 +1,19 @@
 ---
-title: "Walkthrough: Adding Custom XAML to the Start Page | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: 'Walkthrough: Adding Custom XAML to the Start Page | Microsoft Docs'
+description: Learn how to create a custom Visual Studio start page that contains a web browser by using this walkthrough.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
 helpviewer_keywords:
-  - "custom start page"
-  - "xaml start page"
+- custom start page
+- xaml start page
 ms.assetid: 9af4d5f9-1cfc-4221-aea7-c8cd3f7571a6
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 monikerRange: vs-2017
 ---
 # Walkthrough: Add custom XAML to the start page
@@ -84,4 +87,4 @@ The Visual Studio start page now contains a tab that displays a Web browser tab 
 ## See also
 
 - [Customize the start page](../ide/customizing-the-start-page-for-visual-studio.md)
-- [WPF container controls](https://msdn.microsoft.com/library/a0177167-d7db-4205-9607-8ae316952566)
+- [WPF container controls](/previous-versions/bb675291(v=vs.110))

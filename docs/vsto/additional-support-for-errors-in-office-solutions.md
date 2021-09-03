@@ -1,5 +1,7 @@
 ---
 title: "Additional support for errors in Office solutions"
+description: Learn how you can use support resources to find answers to problems you encounter as you create Office solutions in Visual Studio.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: conceptual
 f1_keywords:
@@ -53,7 +55,8 @@ helpviewer_keywords:
   - "Office development in Visual Studio, errors"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
+ms.technology: office-development
 ms.workload:
   - "office"
 ---
@@ -73,11 +76,11 @@ For assistance with some common errors in Office solutions, see the following to
 
 ## Other resources
 
-[Visual Studio tools for Office forum](http://go.microsoft.com/fwlink/?LinkId=149744)
+[Visual Studio tools for Office forum](https://social.msdn.microsoft.com/Forums/vstudio/en-US/home?forum=vsto)
 
 Provides a forum for questions about the Office developer tools in Visual Studio.
 
-[Microsoft help and support](http://go.microsoft.com/fwlink/?LinkID=108287)
+[Microsoft help and support](https://support.microsoft.com)
 
 Provides access to Knowledge Base (KB) articles, downloads and updates, support Webcasts, and other services.
 

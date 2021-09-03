@@ -1,20 +1,22 @@
 ---
-title: "IEnumDebugThreads2::Reset | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Resets the threads enumeration to the first element."
+title: IEnumDebugThreads2::Reset | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IEnumDebugThreads2::Reset"
+- IEnumDebugThreads2::Reset
 helpviewer_keywords:
-  - "IEnumDebugThreads2::Reset"
+- IEnumDebugThreads2::Reset
 ms.assetid: 88980d9a-c4d6-4de4-a9ab-fb56fa71394a
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IEnumDebugThreads2::Reset
 Resets the enumeration to the first element.

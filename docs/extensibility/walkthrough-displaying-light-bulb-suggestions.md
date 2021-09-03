@@ -1,22 +1,25 @@
 ---
-title: "Walkthrough: Displaying Light Bulb Suggestions | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: 'Walkthrough: Displaying Light Bulb Suggestions | Microsoft Docs'
+description: Learn how to create a light bulb in the Visual Studio editor that appears on the current word and has two suggested actions by using this walkthrough.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
 ms.assetid: 99e5566d-450e-4660-9bca-454e1c056a02
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Walkthrough: Display light bulb suggestions
 Light bulbs are icons in the Visual Studio editor that expand to display a set of actions, for example, fixes for problems identified by the built-in code analyzers or code refactoring.
 
  In the Visual C# and Visual Basic editors, you can also use the .NET Compiler Platform ("Roslyn") to write and package your own code analyzers with actions that display light bulbs automatically. For more information, see:
 
-- [How To: Write a C# diagnostic and code fix](https://github.com/dotnet/roslyn/wiki/How-To-Write-a-C%23-Analyzer-and-Code-Fix)
+- [How To: Write a C# diagnostic and code fix](https://github.com/dotnet/roslyn/blob/master/docs/wiki/How-To-Write-a-C%23-Analyzer-and-Code-Fix.md)
 
-- [How To: Write a Visual Basic diagnostic and code fix](https://github.com/dotnet/roslyn/wiki/How-To-Write-a-Visual-Basic-Analyzer-and-Code-Fix)
+- [How To: Write a Visual Basic diagnostic and code fix](https://github.com/dotnet/roslyn/blob/master/docs/wiki/How-To-Write-a-Visual-Basic-Analyzer-and-Code-Fix.md)
 
   Other languages such as C++ also provide light bulbs for some quick actions, such as, a suggestion to create a stub implementation of that function.
 
@@ -47,7 +50,7 @@ Light bulbs are icons in the Visual Studio editor that expand to display a set o
 
 5. Add a new class file and name it **LightBulbTest**.
 
-6. Add the following using statements:
+6. Add the following using directives:
 
     ```csharp
     using System;
@@ -222,7 +225,7 @@ Light bulbs are icons in the Visual Studio editor that expand to display a set o
 
      Both classes are alike except that one calls <xref:System.String.ToUpper%2A> and the other calls <xref:System.String.ToLower%2A>. The following steps cover only the uppercase action class, but you must implement both classes. Use the steps for implementing the uppercase action as a pattern for implementing the lowercase action.
 
-3. Add the following using statements for these classes:
+3. Add the following using directives for these classes:
 
     ```csharp
     using Microsoft.VisualStudio.Imaging.Interop;

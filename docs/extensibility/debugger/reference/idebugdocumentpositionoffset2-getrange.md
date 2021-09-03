@@ -1,18 +1,20 @@
 ---
-title: "IDebugDocumentPositionOffset2::GetRange | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Retrieves the range for the current document position."
+title: IDebugDocumentPositionOffset2::GetRange | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "IDebugDocumentPositionOffset2::GetRange"
+- IDebugDocumentPositionOffset2::GetRange
 ms.assetid: 27da7130-0932-4f97-abde-05e6fb018606
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugDocumentPositionOffset2::GetRange
 Retrieves the range for the current document position.

@@ -1,17 +1,20 @@
 ---
-title: "Dynamically Adding Menu Items | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Dynamically Adding Menu Items | Microsoft Docs
+description: Learn how to use the DynamicItemStart command flag to add menu items at runtime. This article shows how to set the startup project in a Visual Studio solution. 
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
 helpviewer_keywords:
-  - "DYNAMICITEMSTART"
-  - "menu items, adding dynamically"
-  - "menus, adding dynamic items"
+- DYNAMICITEMSTART
+- menu items, adding dynamically
+- menus, adding dynamic items
 ms.assetid: d281e9c9-b289-4d64-8d0a-094bac6c333c
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Dynamically add menu items
 You can add menu items at run time by specifying the `DynamicItemStart` command flag on a placeholder button definition in the Visual Studio command-table (*.vsct*) file, then defining (in code) the number of menu items to display and handling the command(s). When the VSPackage is loaded, the placeholder is replaced with the dynamic menu items.
@@ -92,7 +95,7 @@ You can add menu items at run time by specifying the `DynamicItemStart` command 
      The anchor button holds the icon and the tooltip text. The parent of the anchor button is also the **MyMenuControllerGroup**. You add the NoShowOnMenuController command flag to make sure the button doesn't actually appear in the menu controller dropdown, and the FixMenuController command flag to make it the permanent anchor.
 
     ```xml
-    <!-- The placeholder for the dynamic items that expand to N items at runtime. -->
+    <!-- The placeholder for the dynamic items that expand to N items at run time. -->
     <Buttons>
         <Button guid="guidDynamicMenuPackageCmdSet" id="cmdidMyDynamicStartCommand" priority="0x1000" >
           <Parent guid="guidDynamicMenuPackageCmdSet" id="MyMenuControllerGroup" />
@@ -146,7 +149,7 @@ You can add menu items at run time by specifying the `DynamicItemStart` command 
 
     ```
 
-2. Add the following using statements:
+2. Add the following using directives:
 
     ```csharp
     using Microsoft.VisualStudio.Shell;
@@ -206,7 +209,7 @@ You can add menu items at run time by specifying the `DynamicItemStart` command 
     public const uint cmdidMyCommand = 0x104;
     ```
 
-2. In the *DynamicMenu.cs* file, add the following using statements:
+2. In the *DynamicMenu.cs* file, add the following using directives:
 
     ```csharp
     using EnvDTE;

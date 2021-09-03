@@ -1,15 +1,16 @@
 ---
-title: "Step 1: Create a project and add a table to your form"
-ms.date: 05/31/2019
-ms.topic: conceptual
-ms.prod: visual-studio-windows
-ms.technology: vs-ide-general
+title: 'Step 1: Create a project and add a table to your form'
+description: Learn how to create the Matching Game project and add a table to your form.
+ms.custom: SEO-VS-2020
+ms.date: 10/15/2019
+ms.topic: tutorial
 ms.assetid: 1cac4ba4-f3cd-43bd-ad5d-50fc599234e8
-author: TerryGLee
-ms.author: tglee
-manager: jillfra
+author: anandmeg
+ms.author: meghaanand
+manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Step 1: Create a project and add a table to your form
 
@@ -32,17 +33,17 @@ The first step in creating a matching game is to create the project and add a ta
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 1. On the start window, choose **Create a new project**.
 
    ![View the 'Create a new project' window](../get-started/media/vs-2019/create-new-project-dark-theme.png)
 
-1. On the **Create a new project** window, enter or type *Windows Forms* in the search box.
+1. On the **Create a new project** window, enter or type *Windows Forms* in the search box. Next, choose **Desktop** from the **Project type** list.
 
-1. Choose the **Windows Forms App (.NET Framework)** template, and then choose **Next**.
+   After you apply the **Project type** filter, choose the **Windows Forms App (.NET Framework)** template for either C# or Visual Basic, and then choose **Next**.
 
-   ![Choose the Visual Basic template for the Windows Forms App (.NET Framework)](../get-started/visual-basic/media/vs-2019/vb-create-new-project-search-winforms-filtered.png)
+   ![Choose the either the C# or Visual Basic template for the Windows Forms App (.NET Framework)](./media/create-new-project-search-winforms-filtered.png)
 
    > [!NOTE]
    > If you do not see the **Windows Forms App (.NET Framework)** template, you can install it from the **Create a new project** window. In the **Not finding what you're looking for?** message, choose the **Install more tools and features** link.
@@ -116,9 +117,9 @@ The first step in creating a matching game is to create the project and add a ta
    > [!NOTE]
    > If you paste too many times, the IDE adds a new row to the TableLayoutPanel so that it has a place to add your new Label control. You can undo it. To remove the new cell, choose the **Ctrl**+**Z** keys, or on the menu bar, choose **Edit** > **Undo**.
 
-    Now your form is laid out. It should look like the following picture.
+    Now your form is laid out. It should look similar to the following picture.
 
-    ![Initial matching game form](../ide/media/express_tut4step1.png)<br/>   Initial matching game form
+    ![Initial matching game form](../ide/media/express_tut4step1.png)<br/>*Initial matching game form*
 
 ## To continue or review
 

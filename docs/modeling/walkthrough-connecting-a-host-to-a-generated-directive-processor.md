@@ -1,18 +1,21 @@
 ---
-title: "Connect host to generated directive processor"
+title: Connect host to generated directive processor
+description: Learn how you can expand your custom host so that it supports text templates that call directive processors.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
-  - "walkthroughs [text templates], connecting host to processor"
-  - "text templates, custom directive hosts"
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+- walkthroughs [text templates], connecting host to processor
+- text templates, custom directive hosts
+author: mgoertz-msft
+ms.author: mgoertz
+manager: jmartens
+ms.technology: vs-ide-modeling
 ms.workload:
-  - "multiple"
+- multiple
 dev_langs:
- - CSharp
- - VB
+- CSharp
+- VB
 ---
 # Walkthrough: Connect a Host to a Generated Directive Processor
 
@@ -35,10 +38,10 @@ This walkthrough includes the following tasks:
 
 To define a DSL, you must have installed the following components:
 
-| | |
+| Component | Link |
 |-|-|
-| Visual Studio | [http://go.microsoft.com/fwlink/?LinkId=185579](http://go.microsoft.com/fwlink/?LinkId=185579) |
-| [!INCLUDE[vssdk_current_short](../modeling/includes/vssdk_current_short_md.md)] | [http://go.microsoft.com/fwlink/?LinkId=185580](http://go.microsoft.com/fwlink/?LinkId=185580) |
+| Visual Studio | [http://go.microsoft.com/fwlink/?LinkId=185579](https://visualstudio.microsoft.com/) |
+| [!INCLUDE[vssdk_current_short](../modeling/includes/vssdk_current_short_md.md)] | [http://go.microsoft.com/fwlink/?LinkId=185580](/azure/devops/integrate/index) |
 | Visual Studio Visualization and Modeling SDK | |
 
 [!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]

@@ -1,5 +1,8 @@
 ---
-title: "Extend Word docs & Excel workbooks in VSTO Add-ins at runtime"
+title: "Extend Word docs & Excel workbooks in VSTO Add-ins at run time"
+description: Learn you can use a VSTO Add-in to customize Word documents and Excel workbooks in a variety of ways.
+ms.custom: SEO-VS-2020
+titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -15,11 +18,12 @@ helpviewer_keywords:
   - "HasVstoObject method"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
+ms.technology: office-development
 ms.workload:
   - "office"
 ---
-# Extend Word documents and Excel workbooks in VSTO add-ins at runtime
+# Extend Word documents and Excel workbooks in VSTO add-ins at run time
   You can use a VSTO Add-in to customize Word documents and Excel workbooks in the following ways:
 
 - Add managed controls to any open document or worksheet.
@@ -28,7 +32,7 @@ ms.workload:
 
 - Access application-level events that are exposed by Word and Excel for specific documents, workbooks, and worksheets.
 
-  To use this functionality, you generate an object at runtime that extends the document or workbook.
+  To use this functionality, you generate an object at run time that extends the document or workbook.
 
   **Applies to:** The information in this article applies to VSTO Add-in projects for the following applications: Excel and Word. For more information, see [Features available by Office application and project type](../vsto/features-available-by-office-application-and-project-type.md).
 
@@ -50,22 +54,22 @@ ms.workload:
 
 - The following code example demonstrates how to generate a host item for the active document.
 
-     [!code-vb[Trin_WordAddInDynamicControls#8](../vsto/codesnippet/VisualBasic/trin_wordaddindynamiccontrols/ThisAddIn.vb#8)]
-     [!code-csharp[Trin_WordAddInDynamicControls#8](../vsto/codesnippet/CSharp/Trin_WordAddInDynamicControls/ThisAddIn.cs#8)]
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/trin_wordaddindynamiccontrols/ThisAddIn.vb" id="Snippet8":::
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_WordAddInDynamicControls/ThisAddIn.cs" id="Snippet8":::
 
 #### To generate a host item for an Excel workbook
 
 - The following code example demonstrates how to generate a host item for the active workbook.
 
-     [!code-vb[Trin_ExcelAddInDynamicControls#2](../vsto/codesnippet/VisualBasic/trin_exceladdindynamiccontrols4/ThisAddIn.vb#2)]
-     [!code-csharp[Trin_ExcelAddInDynamicControls#2](../vsto/codesnippet/CSharp/trin_exceladdindynamiccontrols4/ThisAddIn.cs#2)]
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/trin_exceladdindynamiccontrols4/ThisAddIn.vb" id="Snippet2":::
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/trin_exceladdindynamiccontrols4/ThisAddIn.cs" id="Snippet2":::
 
 #### To generate a host item for an Excel worksheet
 
 - The following code example demonstrates how to generate a host item for the active worksheet in a project.
 
-     [!code-vb[Trin_ExcelAddInDynamicControls#1](../vsto/codesnippet/VisualBasic/trin_exceladdindynamiccontrols4/ThisAddIn.vb#1)]
-     [!code-csharp[Trin_ExcelAddInDynamicControls#1](../vsto/codesnippet/CSharp/trin_exceladdindynamiccontrols4/ThisAddIn.cs#1)]
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/trin_exceladdindynamiccontrols4/ThisAddIn.vb" id="Snippet1":::
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/trin_exceladdindynamiccontrols4/ThisAddIn.cs" id="Snippet1":::
 
 ### Generate ListObject host controls
  When you use the `GetVstoObject` method to extend a <xref:Microsoft.Office.Interop.Excel.ListObject>, the method returns a <xref:Microsoft.Office.Tools.Excel.ListObject>. The <xref:Microsoft.Office.Tools.Excel.ListObject> has all of the features of the original <xref:Microsoft.Office.Interop.Excel.ListObject>. It also has additional functionality and can be bound to data by using the Windows Forms data binding model. For more information, see [ListObject control](../vsto/listobject-control.md).
@@ -74,11 +78,11 @@ ms.workload:
 
 - The following code example demonstrates how to generate a <xref:Microsoft.Office.Tools.Excel.ListObject> for the first <xref:Microsoft.Office.Interop.Excel.ListObject> in the active worksheet in a project.
 
-     [!code-vb[Trin_ExcelAddInDynamicControls#3](../vsto/codesnippet/VisualBasic/trin_exceladdindynamiccontrols4/ThisAddIn.vb#3)]
-     [!code-csharp[Trin_ExcelAddInDynamicControls#3](../vsto/codesnippet/CSharp/trin_exceladdindynamiccontrols4/ThisAddIn.cs#3)]
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/trin_exceladdindynamiccontrols4/ThisAddIn.vb" id="Snippet3":::
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/trin_exceladdindynamiccontrols4/ThisAddIn.cs" id="Snippet3":::
 
 ### <a name="AddControls"></a> Add managed controls to documents and worksheets
- After you generate a <xref:Microsoft.Office.Tools.Word.Document> or <xref:Microsoft.Office.Tools.Excel.Worksheet>, you can add controls to the document or worksheet that these extended objects represent. To add controls, use the `Controls` property of the <xref:Microsoft.Office.Tools.Word.Document> or <xref:Microsoft.Office.Tools.Excel.Worksheet>. For more information, see [Add controls to Office documents at runtime](../vsto/adding-controls-to-office-documents-at-run-time.md).
+ After you generate a <xref:Microsoft.Office.Tools.Word.Document> or <xref:Microsoft.Office.Tools.Excel.Worksheet>, you can add controls to the document or worksheet that these extended objects represent. To add controls, use the `Controls` property of the <xref:Microsoft.Office.Tools.Word.Document> or <xref:Microsoft.Office.Tools.Excel.Worksheet>. For more information, see [Add controls to Office documents at run time](../vsto/adding-controls-to-office-documents-at-run-time.md).
 
  You can add Windows Forms controls or *host controls*. A host control is a control provided by the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] that wraps a corresponding control in the Word or Excel primary interop assembly. A host control exposes all of the behavior of the underlying native Office object. It also raises events and can be bound to data by using the Windows Forms data binding model. For more information, see [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md).
 
@@ -96,16 +100,16 @@ ms.workload:
 ### Example that uses native Word objects
  The following code example demonstrates how to handle an application-level event for Word documents. The `CreateDocument` method creates a new document, and then defines a <xref:Microsoft.Office.Interop.Word.ApplicationEvents4_Event.DocumentBeforeSave> event handler that prevents this document from being saved. The event is an application-level event that is raised for the <xref:Microsoft.Office.Interop.Word.Application> object, and the event handler must compare the `Doc` parameter with the `document1` object to determine if `document1` represents the saved document.
 
- [!code-vb[Trin_WordAddInDynamicControls #12](../vsto/codesnippet/VisualBasic/trin_wordaddindynamiccontrols/ThisAddIn.vb#12)]
- [!code-csharp[Trin_WordAddInDynamicControls#12](../vsto/codesnippet/CSharp/Trin_WordAddInDynamicControls/ThisAddIn.cs#12)]
+ :::code language="vb" source="../vsto/codesnippet/VisualBasic/trin_wordaddindynamiccontrols/ThisAddIn.vb" id="Snippet12":::
+ :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_WordAddInDynamicControls/ThisAddIn.cs" id="Snippet12":::
 
 ### Examples that use a host item
  The following code examples simplify this process by handling the <xref:Microsoft.Office.Tools.Word.Document.BeforeSave> event of a <xref:Microsoft.Office.Tools.Word.Document> host item. The `CreateDocument2` method in these examples generates a <xref:Microsoft.Office.Tools.Word.Document> that extends the `document2` object, and then it defines a <xref:Microsoft.Office.Tools.Word.Document.BeforeSave> event handler that prevents the document from being saved. The event handler is called only when `document2` is saved, and can cancel the save action without doing any extra work to verify which document was saved.
 
  The following code example demonstrates this task.
 
- [!code-vb[Trin_WordAddInDynamicControls #13](../vsto/codesnippet/VisualBasic/trin_wordaddindynamiccontrols/ThisAddIn.vb#13)]
- [!code-csharp[Trin_WordAddInDynamicControls#13](../vsto/codesnippet/CSharp/Trin_WordAddInDynamicControls/ThisAddIn.cs#13)]
+ :::code language="vb" source="../vsto/codesnippet/VisualBasic/trin_wordaddindynamiccontrols/ThisAddIn.vb" id="Snippet13":::
+ :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_WordAddInDynamicControls/ThisAddIn.cs" id="Snippet13":::
 
 ## <a name="HasVstoObject"></a> Determine whether an Office object has been extended
  To determine whether an extended object has already been generated for a particular native Office object, use the `HasVstoObject` method. This method returns **true** if an extended object has already been generated.
@@ -116,6 +120,6 @@ ms.workload:
 
 ## See also
 - [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md)
-- [Add controls to Office documents at runtime](../vsto/adding-controls-to-office-documents-at-run-time.md)
+- [Add controls to Office documents at run time](../vsto/adding-controls-to-office-documents-at-run-time.md)
 - [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md)
 - [Office development samples and walkthroughs](../vsto/office-development-samples-and-walkthroughs.md)

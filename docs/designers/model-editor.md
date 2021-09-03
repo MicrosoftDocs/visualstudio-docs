@@ -1,16 +1,19 @@
 ---
 title: Model Editor
+description: Learn how to work with the Visual Studio Model Editor to view, create, and modify 3D models from scratch or more-complex 3D models created by modeling tools.
+ms.custom: SEO-VS-2020
 ms.date: 04/12/2018
 ms.topic: conceptual
 f1_keywords:
-  - "vs.graphics.designer.3dscene"
-  - "vs.graphics.modelviewer"
+- vs.graphics.designer.3dscene
+- vs.graphics.modelviewer
 ms.assetid: 5edf1a30-9307-43c3-9b8b-831217be0104
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
+ms.technology: vs-ide-designers
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Model editor
 

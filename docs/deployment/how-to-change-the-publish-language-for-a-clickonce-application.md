@@ -1,21 +1,24 @@
 ---
-title: "Change publish language for ClickOnce application"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-helpviewer_keywords:
-  - "Publish language property"
-  - "ClickOnce deployment, changing publish language"
-  - "publishing, ClickOnce"
+title: Change publish language for ClickOnce application
+description: Learn how to specify a language/culture for a localize application in ClickOnce, instead of defaulting to the language/culture of your development computer.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
+dev_langs: 
+  - VB
+  - CSharp
+  - C++
+helpviewer_keywords: 
+  - Publish language property
+  - ClickOnce deployment, changing publish language
+  - publishing, ClickOnce
 ms.assetid: ef5024c4-cda1-4970-bc75-32a2a10c92c3
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
-ms.workload:
-  - "multiple"
+manager: jmartens
+ms.technology: vs-ide-deployment
+ms.workload: 
+  - multiple
 ---
 # How to: Change the publish language for a ClickOnce application
 

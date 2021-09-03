@@ -1,32 +1,35 @@
----
+﻿---
 title: Options, Text Editor, Basic (VB), Advanced
-ms.date: 01/16/2019
+description: Learn how to use the Advanced page in the Basic section to change the default settings of the Analysis, Import Directives, and Highlighting properties.
+ms.custom: SEO-VS-2020
+ms.date: 08/12/2020
 ms.topic: reference
 f1_keywords:
-  - "VS.ToolsOptionsPages.Visual_Basic.Editor"
-  - "VS.ToolsOptionsPages.Text_Editor.Basic.Editor"
-  - "VS.ToolsOptionsPages.Visual_Basic_Editor.Editor"
-  - "VS.ToolsOptionsPages.Text_Editor.Basic.SimplifiedEditorPage"
-  - "VS.ToolsOptionsPages.Text_Editor.Basic"
-  - "VS.ToolsOptionsPages.Text_Editor.Basic.Advanced"
-  - "VS.ToolsOptionsPages.Text_Editor.Basic.VB_Specific"
+- VS.ToolsOptionsPages.Visual_Basic.Editor
+- VS.ToolsOptionsPages.Text_Editor.Basic.Editor
+- VS.ToolsOptionsPages.Visual_Basic_Editor.Editor
+- VS.ToolsOptionsPages.Text_Editor.Basic.SimplifiedEditorPage
+- VS.ToolsOptionsPages.Text_Editor.Basic
+- VS.ToolsOptionsPages.Text_Editor.Basic.Advanced
+- VS.ToolsOptionsPages.Text_Editor.Basic.VB_Specific
 helpviewer_keywords:
-  - "Basic Text Editor Options dialog box"
+- Basic Text Editor Options dialog box
 ms.assetid: 5a8cafca-f7b4-4a2d-92ce-6894a7673d00
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: akhera99
+ms.author: midumont
+manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Options, Text Editor, Basic (Visual Basic), Advanced
 The **VB Specific** property page, in the **Basic** folder of the **Text Editor** folder of the **Options** (**Tools** menu) dialog box includes the following properties:
 
 ## Analysis
 
-- Enable full solution analysis
+- Live code analysis or Background analysis scope
 
-   Enables code analysis on all files in the solution, not just open code files. For more information, see [Full solution analysis](../../code-quality/how-to-enable-and-disable-full-solution-analysis-for-managed-code.md).
+   Configure the background analysis scope for managed code. For more information, see [How to: Configure live code analysis scope for managed code](../../code-quality/configure-live-code-analysis-scope-managed-code.md).
 
 ## Using Directives
 
@@ -72,6 +75,13 @@ The text editor indicates visual scope of procedures. A line is drawn in the *.v
 When selected, vertical lines appear in the editor that line up with structured code blocks, which lets you easily identify the individual blocks of code. For example, you would see a line between `Sub` and `EndSub` in a `Sub` statement.
 
 ## Editor Help
+
+::: moniker range=">=vs-2019"
+**Inline Parameter Name Hints**    
+When selected, inserts parameter name hints for literals, casted literals, and object instantiations prior to each argument in function calls.  
+
+![Inline Parameter Name Hints for Visual Basic](media/inline-parameter-name-hints-visualbasic.png)
+::: moniker-end
 
 **Pretty Listing (reformatting) of code**
 The text editor reformats your code as appropriate. When this option is selected, the code editor will:

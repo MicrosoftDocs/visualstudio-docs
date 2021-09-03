@@ -1,20 +1,22 @@
 ---
-title: "IDebugAlias::GetObject | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Gets the object that this alias is for."
+title: IDebugAlias::GetObject | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugAlias::GetObject"
+- IDebugAlias::GetObject
 helpviewer_keywords:
-  - "IDebugAlias::GetObject method"
+- IDebugAlias::GetObject method
 ms.assetid: 97bc3af6-6e55-4940-8a6d-692c61257806
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugAlias::GetObject
 Gets the object that this alias is for.

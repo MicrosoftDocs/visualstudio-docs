@@ -1,23 +1,27 @@
 ---
-title: "How to: Specify Which Target to Build First | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: 'How to: Specify Which Target to Build First | Microsoft Docs'
+description: Learn about how to specify initial targets or default targets to build first in MSBuild project files.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "DefaultTargets attribute [MSBuild]"
-  - "MSBuild, specifying the defalut target"
-  - "MSBuild, DefaultTargets attribute"
+- DefaultTargets attribute [MSBuild]
+- MSBuild, specifying the defalut target
+- MSBuild, DefaultTargets attribute
 ms.assetid: a580ba5b-2919-42d2-ae38-1af991e0205a
-author: mikejo5000
-ms.author: mikejo
-manager: jillfra
+author: ghogen
+ms.author: ghogen
+manager: jmartens
+ms.technology: msbuild
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Specify which target to build first
-A project file can contain one or more `Target` elements that define how the project is built. The [!INCLUDE[vstecmsbuildengine](../msbuild/includes/vstecmsbuildengine_md.md)] ([!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)]) engine builds the first project it finds, and any dependencies, unless the project file contains a `DefaultTargets` attribute, an `InitialTargets` attribute, or a target is specified at the command line using the **-target** switch.
 
+A project file can contain one or more `Target` elements that define how the project is built. The Microsoft Build Engine (MSBuild) engine builds the first target it finds, and any dependencies, unless the project file contains a `DefaultTargets` attribute, an `InitialTargets` attribute, or a target is specified at the command line using the **-target** switch.
 ## Use the InitialTargets attribute
- The `InitialTargets` attribute of the `Project` element specifies a target that will run first, even if targets are specified on the command line or in the `DefaultTargets` attribute.
+
+The `InitialTargets` attribute of the `Project` element specifies a target that will run first, even if targets are specified on the command line or in the `DefaultTargets` attribute.
 
 #### To specify one initial target
 
@@ -34,7 +38,8 @@ A project file can contain one or more `Target` elements that define how the pro
      `<Project InitialTargets="Clean;Compile">`
 
 ## Use the DefaultTargets attribute
- The `DefaultTargets` attribute of the `Project` element specifies which target or targets are built if a target is not specified explicitly on the command line. If targets are specified in both the `InitialTargets` and `DefaultTargets` attributes and no target is specified on the command line, [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] runs the targets specified in the `InitialTargets` attribute followed by the targets specified in the `DefaultTargets` attribute.
+
+ The `DefaultTargets` attribute of the `Project` element specifies which target or targets are built if a target is not specified explicitly on the command line. If targets are specified in both the `InitialTargets` and `DefaultTargets` attributes and no target is specified on the command line, MSBuild runs the targets specified in the `InitialTargets` attribute followed by the targets specified in the `DefaultTargets` attribute.
 
 #### To specify one default target
 
@@ -51,6 +56,7 @@ A project file can contain one or more `Target` elements that define how the pro
      `<Project DefaultTargets="Clean;Compile">`
 
 ## Use the -target Switch
+
  If a default target is not defined in the project file, or if you do not want to use that default target, you can use the command line switch **-target** to specify a different target. The target or targets specified with the **-target** switch are run instead of the targets specified by the `DefaultTargets` attribute. Targets specified in the `InitialTargets` attribute always run first.
 
 #### To use a target other than the default target first
@@ -66,6 +72,7 @@ A project file can contain one or more `Target` elements that define how the pro
      `msbuild <file name>.proj -t:Clean;Compile`
 
 ## See also
-  [MSBuild](../msbuild/msbuild.md)
+
+- [MSBuild](../msbuild/msbuild.md)
 - [Targets](../msbuild/msbuild-targets.md)
 - [How to: Clean a build](../msbuild/how-to-clean-a-build.md)

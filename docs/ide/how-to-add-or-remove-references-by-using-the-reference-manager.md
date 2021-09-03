@@ -1,26 +1,29 @@
 ---
 title: Add references in the Reference Manager
-ms.date: 08/02/2019
-ms.topic: conceptual
+description: Learn how to use the Reference Manager dialog box to add and manage references to developed components.
+ms.custom: SEO-VS-2020
+ms.date: 08/30/2021
+ms.topic: how-to
 f1_keywords:
-  - "VS.ReferenceManager"
+- VS.ReferenceManager
 helpviewer_keywords:
-  - "C# projects, references"
-  - "references [Visual Studio], adding"
-  - "assemblies [Visual Studio], references"
-  - "Visual Basic projects, references"
-  - "project references, adding"
-  - "referencing components, adding references"
-  - "project references, removing"
-  - "referencing assemblies"
-  - "referencing components, removing references"
-  - "references [Visual Studio], removing"
-  - "referencing components, assemblies not listed"
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+- C# projects, references
+- references [Visual Studio], adding
+- assemblies [Visual Studio], references
+- Visual Basic projects, references
+- project references, adding
+- referencing components, adding references
+- project references, removing
+- referencing assemblies
+- referencing components, removing references
+- references [Visual Studio], removing
+- referencing components, assemblies not listed
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Add or remove references by using the Reference Manager
 
@@ -42,13 +45,30 @@ The Reference Manager dialog box shows different categories on the left side, de
 
 - **Browse**, with **Recent** subgroup
 
+    > [!NOTE]
+    > You might not see **Browse** in the Reference Manager dialog box if you're developing C++ projects.
+
 ## Add a reference
+
+::: moniker range="vs-2017"
 
 1. In **Solution Explorer**, right-click on the **References** or **Dependencies** node and choose **Add Reference**. You can also right-click on the project node and select **Add** > **Reference**.
 
    **Reference Manager** opens and lists the available references by group.
 
 2. Specify the references to add, and then select **OK**.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+1. In **Solution Explorer**, right-click on the **References** or **Dependencies** node and choose either **Add Project Reference**, **Add Shared Project Reference**, or **Add COM Reference**. (You can right-click the project node and select **Add** from the fly-out menu to choose from these options, too.)
+
+   **Reference Manager** opens and lists the available references by group.
+
+2. Specify the references to add, and then select **OK**.
+
+::: moniker-end
 
 ## Assemblies tab
 

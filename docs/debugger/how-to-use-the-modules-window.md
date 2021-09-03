@@ -1,30 +1,32 @@
 ---
-title: "View DLLs and executables"
+title: View DLLs and executables
+description: View DLLs and executables (.exe files) that your app uses in the Modules window during a debugging session in Visual Studio.
+ms.custom: "SEO-VS-2020"
 titleSuffix: Visual Studio Modules window
-ms.custom: "seodec18"
-ms.date: "11/04/2018"
-ms.topic: "conceptual"
-f1_keywords:
-  - "vs.debug.modules"
-dev_langs:
-  - "CSharp"
-  - "VB"
-  - "FSharp"
-  - "C++"
-  - "JScript"
-helpviewer_keywords:
-  - "debugger, Modules window"
-  - "Modules window"
-  - "executable files, displaying while debugging"
-  - "debugging [Visual Studio], displaying modules"
-  - "DLLs, displaying while debugging"
-  - "modules, displaying"
+ms.date: 11/04/2018
+ms.topic: how-to
+f1_keywords: 
+  - vs.debug.modules
+dev_langs: 
+  - CSharp
+  - VB
+  - FSharp
+  - C++
+  - JScript
+helpviewer_keywords: 
+  - debugger, Modules window
+  - Modules window
+  - executable files, displaying while debugging
+  - debugging [Visual Studio], displaying modules
+  - DLLs, displaying while debugging
+  - modules, displaying
 ms.assetid: d840fdca-b035-4452-b652-72580c831896
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
-ms.workload:
-  - "multiple"
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.technology: vs-ide-debug
+ms.workload: 
+  - multiple
 ---
 # View DLLs and executables in the Modules window (C#, C++, Visual Basic, F#)
 

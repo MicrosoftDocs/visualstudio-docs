@@ -1,5 +1,7 @@
 ---
 title: "Using the Tasks Window | Microsoft Docs"
+description: Tasks are asynchronous operations that can run concurrently. Multiple tasks can run on the same thread. Use Tasks to view task and WinJS.Promise object information.
+ms.custom: SEO-VS-2020
 ms.date: "03/18/2018"
 ms.topic: "conceptual"
 f1_keywords:
@@ -14,7 +16,8 @@ helpviewer_keywords:
 ms.assetid: bd5e0612-a0dc-41cf-a7af-1e87d0d5c35f
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---

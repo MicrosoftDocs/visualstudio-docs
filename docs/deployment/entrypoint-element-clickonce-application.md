@@ -1,5 +1,7 @@
 ---
 title: "&lt;entryPoint&gt; Element (ClickOnce Application) | Microsoft Docs"
+description: The entryPoint element identifies the assembly that should be executed when this ClickOnce application is run on a client computer.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 f1_keywords:
@@ -15,7 +17,8 @@ helpviewer_keywords:
 ms.assetid: 10ad3083-10c1-4189-a870-9bba2eab244f
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-deployment
 ms.workload:
   - "multiple"
 ---

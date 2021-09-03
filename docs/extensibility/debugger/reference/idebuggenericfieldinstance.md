@@ -1,15 +1,17 @@
 ---
-title: "IDebugGenericFieldInstance | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Represents an instance of a field for a managed code generic type."
+title: IDebugGenericFieldInstance | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "IDebugGenericFieldInstance interface"
+- IDebugGenericFieldInstance interface
 ms.assetid: f68b4761-be8b-4801-9d4b-cde90e01d95e
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IDebugGenericFieldInstance
 Represents an instance of a field for a managed code generic type.

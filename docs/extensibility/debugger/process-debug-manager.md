@@ -1,16 +1,19 @@
 ---
-title: "Process Debug Manager | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Process Debug Manager | Microsoft Docs
+description: Learn about the process debug manager, which is a component of Visual Studio that makes programs available to the session debug manager and the debug engines.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: reference
 helpviewer_keywords:
-  - "machine debug manager"
-  - "debugging [Debugging SDK], Machine Debug Manager"
+- machine debug manager
+- debugging [Debugging SDK], Machine Debug Manager
 ms.assetid: d0861e0c-b819-490c-9604-5e6d08ac291a
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Process debug manager
 The process debug manager (PDM) is a component of Visual Studio that manages programs and processes, making them available to the session debug manager and the debug engines.

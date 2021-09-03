@@ -1,19 +1,22 @@
 ---
-title: "Assembly Element (Visual Studio Templates) | Microsoft Docs"
-ms.date: "11/04/2016"
+title: Assembly Element (Visual Studio Templates) | Microsoft Docs
+titleSuffix: ""
+description: Learn about the Assembly element and how it specifies information about an assembly, which the template uses to add a reference of that assembly to projects.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
 ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
-  - "http://schemas.microsoft.com/developer/vstemplate/2005#Assembly"
+- http://schemas.microsoft.com/developer/vstemplate/2005#Assembly
 helpviewer_keywords:
-  - "Assembly element [Visual Studio templates]"
-  - "<Assembly> element [Visual Studio templates]"
+- Assembly element [Visual Studio templates]
+- <Assembly> element [Visual Studio templates]
 ms.assetid: 9242f76a-1273-4b8a-8f26-6606f91829ef
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Assembly element (Visual Studio templates)
 Specifies information about an assembly, which the template uses to add a reference of that assembly to projects.

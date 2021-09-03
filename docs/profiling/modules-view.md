@@ -1,5 +1,6 @@
 ---
 title: "Modules View | Microsoft Docs"
+description: Learn how the Modules view lists the modules of the profiling data. Each module is the root node of a hierarchical tree.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:
@@ -11,7 +12,9 @@ helpviewer_keywords:
 ms.assetid: 4314a404-2120-425b-be42-180cd4bac840
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
+monikerRange: 'vs-2017'
 ms.workload:
   - "multiple"
 ---

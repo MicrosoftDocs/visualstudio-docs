@@ -1,7 +1,8 @@
 ---
+description: "IDiaStackWalkHelper::put_registerValue sets the value of a register."
 title: "IDiaStackWalkHelper::put_registerValue | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,8 @@ helpviewer_keywords:
 ms.assetid: 8f02ce54-ef59-455f-8aa6-dc26761c7aff
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -40,6 +42,6 @@ HRESULT put_registerValue ( 
 ## Remarks
  Despite the size of the value, an implementation should store only what the register normally holds. For example, an 8-bit register would hold only the lowest 8-bits of the given value.
 
-## See Also
+## See also
 - [IDiaStackWalkHelper](../../debugger/debug-interface-access/idiastackwalkhelper.md)
 - [CV_HREG_e Enumeration](../../debugger/debug-interface-access/cv-hreg-e.md)

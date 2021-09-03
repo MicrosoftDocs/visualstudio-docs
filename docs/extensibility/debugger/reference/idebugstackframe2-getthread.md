@@ -1,20 +1,22 @@
 ---
-title: "IDebugStackFrame2::GetThread | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Gets the thread associated with a stack frame."
+title: IDebugStackFrame2::GetThread | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugStackFrame2::GetThread"
+- IDebugStackFrame2::GetThread
 helpviewer_keywords:
-  - "IDebugStackFrame2::GetThread"
+- IDebugStackFrame2::GetThread
 ms.assetid: cbeef85b-3dd7-4f97-adc2-c4d197d979fc
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugStackFrame2::GetThread
 Gets the thread associated with a stack frame.

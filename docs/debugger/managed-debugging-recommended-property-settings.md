@@ -1,6 +1,7 @@
 ---
 title: "Recommended debugger property settings for C#, VB | Microsoft Docs"
-ms.custom: "seodec18"
+description: See the build and compile property settings that should be the same for all managed debugging. Other settings can vary depending on project type.
+ms.custom: "SEO-VS-2020"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:
@@ -14,7 +15,8 @@ helpviewer_keywords:
 ms.assetid: 3d14a8d4-2925-44d0-be41-ec546d411db9
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "dotnet"
 ---
@@ -44,6 +46,6 @@ Certain properties should be set the same way for all managed debugging scenario
 |**Define DEBUG constant**|Select this check box to define the `DEBUG` constant, which enables your application to use the <xref:System.Diagnostics.Debug> class.|
 |**Define TRACE constant**|Select this check box to define the `TRACE` constant, which enables your application to use the <xref:System.Diagnostics.Trace> class.|
 
-## See Also
+## See also
 - [Debugging Managed Code](../debugger/debugging-managed-code.md)
 - [C#, F#, and Visual Basic Project Types](../debugger/debugging-preparation-csharp-f-hash-and-visual-basic-project-types.md)

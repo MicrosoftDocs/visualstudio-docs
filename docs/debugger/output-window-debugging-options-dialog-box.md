@@ -1,5 +1,7 @@
 ---
 title: "Output Window, Debugging, Options Dialog Box | Microsoft Docs"
+description: You can specify which types of debugging information appear in the Output window. Learn where to do this, and the types of information that you can control.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 f1_keywords:
@@ -14,7 +16,8 @@ dev_langs:
 ms.assetid: d67387c2-39e9-4790-93bc-e41bff12fb9c
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---

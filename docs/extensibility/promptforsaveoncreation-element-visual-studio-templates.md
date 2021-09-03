@@ -1,18 +1,21 @@
 ---
-title: "PromptForSaveOnCreation Element (Visual Studio Templates) | Microsoft Docs"
-ms.date: "11/04/2016"
+title: PromptForSaveOnCreation Element (Visual Studio Templates)
+titleSuffix: ""
+description: Learn about the PromptForSaveOnCreation element and how it specifies whether the user is prompted for a project save location via the New Project dialog box.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
 ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
-  - "http://schemas.microsoft.com/developer/vstemplate/2005#PromptForSaveOnCreation"
+- http://schemas.microsoft.com/developer/vstemplate/2005#PromptForSaveOnCreation
 helpviewer_keywords:
-  - "PromptForSaveOnCreation element [Visual Studio project templates]"
+- PromptForSaveOnCreation element [Visual Studio project templates]
 ms.assetid: 75174674-0c3c-4b57-b2fd-6ea8e817b67d
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
 ms.workload:
-  - "vssdk"
+- vssdk
 monikerRange: vs-2017
 ---
 # PromptForSaveOnCreation element (Visual Studio templates)

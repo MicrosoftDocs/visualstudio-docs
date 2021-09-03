@@ -1,7 +1,8 @@
 ---
+description: "Retrieves a reference to the specified entry in the table."
 title: "IDiaTable::Item | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,8 @@ helpviewer_keywords:
 ms.assetid: eae11b26-4807-400c-be25-e85bbc0c6b20
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -42,7 +44,7 @@ HRESULT Item ( 
 
  It is a more common approach to call the `QueryInterface` method in the [IDiaTable](../../debugger/debug-interface-access/idiatable.md) interface for the appropriate enumerator interface and use the enumerator's specific methods to access the table contents. See the [IDiaEnumInjectedSources](../../debugger/debug-interface-access/idiaenuminjectedsources.md) interface for an example.
 
-## See Also
+## See also
 - [IDiaTable](../../debugger/debug-interface-access/idiatable.md)
 - [IDiaTable::get_Count](../../debugger/debug-interface-access/idiatable-get-count.md)
 - [IDiaSegment](../../debugger/debug-interface-access/idiasegment.md)

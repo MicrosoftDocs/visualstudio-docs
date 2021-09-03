@@ -1,5 +1,7 @@
 ---
 title: "Automate Excel by using extended objects"
+description: Learn that when you develop Excel solutions in Visual Studio, you can use host items and host controls in your solutions.
+ms.custom: SEO-VS-2020
 ms.date: 02/02/2017
 ms.topic: conceptual
 dev_langs:
@@ -17,7 +19,8 @@ helpviewer_keywords:
   - "controls [Office development in Visual Studio], Excel host controls"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
+ms.technology: office-development
 ms.workload:
   - "office"
 ---
@@ -65,8 +68,8 @@ ms.workload:
 - [How to: Validate data when a new row is added to a ListObject control](../vsto/how-to-validate-data-when-a-new-row-is-added-to-a-listobject-control.md)
 - [How to: Map ListObject columns to data](../vsto/how-to-map-listobject-columns-to-data.md)
 - [Walkthrough: Program against events of a NamedRange control](../vsto/walkthrough-programming-against-events-of-a-namedrange-control.md)
-- [Extend Word documents and Excel workbooks in VSTO Add-ins at runtime](../vsto/extending-word-documents-and-excel-workbooks-in-vsto-add-ins-at-run-time.md)
+- [Extend Word documents and Excel workbooks in VSTO Add-ins at run time](../vsto/extending-word-documents-and-excel-workbooks-in-vsto-add-ins-at-run-time.md)
 - [Controls on Office documents](../vsto/controls-on-office-documents.md)
-- [Add controls to Office documents at runtime](../vsto/adding-controls-to-office-documents-at-run-time.md)
+- [Add controls to Office documents at run time](../vsto/adding-controls-to-office-documents-at-run-time.md)
 - [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md)
 - [Programmatic limitations of host items and host controls](../vsto/programmatic-limitations-of-host-items-and-host-controls.md)

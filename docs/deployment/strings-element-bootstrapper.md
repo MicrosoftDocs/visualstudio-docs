@@ -1,5 +1,7 @@
 ---
 title: "&lt;Strings&gt; Element (Bootstrapper) | Microsoft Docs"
+description: The Strings element defines localized strings for product names, package names, and installation error messages.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:
@@ -15,7 +17,8 @@ helpviewer_keywords:
 ms.assetid: d5ea3613-5fc9-4a11-bef3-46a01178bf60
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-deployment
 ms.workload:
   - "multiple"
 ---

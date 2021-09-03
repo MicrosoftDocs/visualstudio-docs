@@ -1,13 +1,16 @@
 ---
-title: "Image Library Viewer | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Image Library Viewer | Microsoft Docs
+description: Learn about the Visual Studio Image Library Viewer tool that loads and searches image manifests, allowing you to view and manipulate image attributes.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: reference
 ms.assetid: 9d9c7fbb-ebae-4b20-9dd8-3c9070c0d0d1
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Image Library Viewer
 The Visual Studio Image Library Viewer tool can load and search image manifests, allowing the user to manipulate them in the same way Visual Studio would. The user can alter background, sizes, DPI, high contrast, and other settings. The tool also displays loading information for each image manifest and displays source information for each image in the image manifest. This tool is useful for:
@@ -62,9 +65,8 @@ The Visual Studio Image Library Viewer tool can load and search image manifests,
 </Symbols>
 ```
 
-|||
-|-|-|
 |**Subelement**|**Definition**|
+|-|-|
 |Import|Imports the symbols of the given manifest file for use in the current manifest.|
 |Guid|The symbol represents a GUID and must match GUID formatting.|
 |ID|The symbol represents an ID and must be a nonnegative integer.|
@@ -80,9 +82,8 @@ The Visual Studio Image Library Viewer tool can load and search image manifests,
 
  Some symbols are predefined for all manifests. These can be used in the Uri attribute of the \<Source> or \<Import> element to reference paths on the local machine.
 
-|||
-|-|-|
 |**Symbol**|**Description**|
+|-|-|
 |CommonProgramFiles|The value of the %CommonProgramFiles% environment variable|
 |LocalAppData|The value of the %LocalAppData% environment variable|
 |ManifestFolder|The folder containing the manifest file|
@@ -104,9 +105,8 @@ The Visual Studio Image Library Viewer tool can load and search image manifests,
 </Image>
 ```
 
-|||
-|-|-|
 |**Attribute**|**Definition**|
+|-|-|
 |Guid|[Required] The GUID portion of the image moniker|
 |ID|[Required] The ID portion of the image moniker|
 |AllowColorInversion|[Optional, default true] Indicates whether the image can have its colors programmatically inverted when used on a dark background.|
@@ -121,17 +121,15 @@ The Visual Studio Image Library Viewer tool can load and search image manifests,
  </Source>
 ```
 
-|||
-|-|-|
 |**Attribute**|**Definition**|
+|-|-|
 |Uri|[Required] A URI that defines where the image can be loaded from. It can be one of the following:<br /><br /> -     A [Pack URI](/dotnet/framework/wpf/app-development/pack-uris-in-wpf) using the application:/// authority<br /><br /> - An absolute component resource reference<br /><br /> - A path to a file containing a native resource|
 |Background|[Optional] Indicates what on kind of background the source is intended to be used.<br /><br /> It can be one of the following:<br /><br /> - *Light*: The source can be used on a light background.<br /><br /> - *Dark*: The source can be used on a dark background.<br /><br /> - *HighContrast*: The source can be used on any background in High Contrast mode.<br /><br /> - *HighContrastLight*: The source can be used on a light background in High Contrast mode.<br /><br /> -*HighContrastDark*: The source can be used on a dark background in High Contrast mode.<br /><br /> If the **Background** attribute is omitted, the source can be used on any background.<br /><br /> If **Background** is *Light*, *Dark*, *HighContrastLight*, or *HighContrastDark*, the source's colors are never inverted. If **Background** is omitted or set to *HighContrast*, the inversion of the source's colors is controlled by the image's **AllowColorInversion** attribute.|
 
  A \<Source> element can have exactly one of the following optional subelements:
 
-||||
-|-|-|-|
 |**Element**|**Attributes (all required)**|**Definition**|
+|-|-|-|
 |\<Size>|Value|The source will be used for images of the given size (in device units). The image will be square.|
 |\<SizeRange>|MinSize, MaxSize|The source will be used for images from MinSize to MaxSize (in device units) inclusively. The image will be square.|
 |\<Dimensions>|Width, Height|The source will be used for images of the given width and height (in device units).|
@@ -143,9 +141,8 @@ The Visual Studio Image Library Viewer tool can load and search image manifests,
 <NativeResource Type="type" ID="int" />
 ```
 
-|||
-|-|-|
 |**Attribute**|**Definition**|
+|-|-|
 |Type|[Required] The type of the native resource, either XAML or PNG|
 |ID|[Required] The integer ID portion of the native resource|
 
@@ -160,9 +157,8 @@ The Visual Studio Image Library Viewer tool can load and search image manifests,
  </ImageList>
 ```
 
-|||
-|-|-|
 |**Attribute**|**Definition**|
+|-|-|
 |Guid|[Required] The GUID portion of the image moniker|
 |ID|[Required] The ID portion of the image moniker|
 |External|[Optional, default false] Indicates whether the image moniker references an image in the current manifest.|

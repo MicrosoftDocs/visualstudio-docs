@@ -2,18 +2,16 @@
 title: Create an Azure cloud service project
 description: Learn now to create an Azure cloud service project with Visual Studio
 author: ghogen
-manager: jillfra
-assetId: ec580df7-3dcc-45a9-a1d9-8c110678dfb5
-ms.custom: vs-azure
+manager: jmartens
+ms.technology: vs-azure
 ms.workload: azure-vs
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 03/19/2019
 ms.author: ghogen
-ms.custom: seodec18
 ---
 # Create an Azure cloud service project with Visual Studio
 
-The Azure Tools for Visual Studio provides a project template that lets you create an [Azure cloud service](/azure/cloud-services/cloud-services-choose-me), which is a simple general-purpose Azure service. Once the project has been created, Visual Studio enables you to configure, debug, and deploy the cloud service to Azure.
+Visual Studio provides a project template that lets you create an [Azure cloud service](/azure/cloud-services/cloud-services-choose-me), which is a simple general-purpose Azure service. Once the project has been created, Visual Studio enables you to configure, debug, and deploy the cloud service to Azure.
 
 ## Steps to create an Azure cloud service project in Visual Studio
 This section walks you through creating an Azure cloud service project in Visual Studio with one or more web roles.
@@ -55,7 +53,7 @@ This section walks you through creating an Azure cloud service project in Visual
 
 The Visual Studio Azure project has associations to the role projects in the solution. The project also includes the *service definition file* and *service configuration file*:
 
-- **Service definition file** - Defines the runtime settings for your application, including what roles are required, endpoints, and virtual machine size.
+- **Service definition file** - Defines the run-time settings for your application, including what roles are required, endpoints, and virtual machine size.
 - **Service configuration file** - Configures how many instances of a role are run and the values of the settings defined for a role.
 
 For more information about these files, see [Configure the Roles for an Azure cloud service with Visual Studio](vs-azure-tools-configure-roles-for-cloud-service.md).

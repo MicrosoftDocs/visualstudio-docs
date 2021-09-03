@@ -1,6 +1,8 @@
 ---
 title: "Test Explorer FAQ"
-ms.date: 08/14/2019
+description: Refer to these frequently asked questions about Visual Studio Test Explorer, which include some common troubleshooting.
+ms.custom: SEO-VS-2020
+ms.date: 06/25/2020
 ms.topic: conceptual
 helpviewer_keywords:
   - "Test Explorer"
@@ -13,19 +15,10 @@ ms.author: "kehavens"
 ms.workload:
   - "multiple"
 author: kendrahavens
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-test
 ---
 # Visual Studio Test Explorer FAQ
-::: moniker range=">=vs-2019"
-
-## Where is group by Traits in Visual Studio 2019?
-This Trait grouping was moved to be a column. With the multi-tiered and customizable hierarchy in Visual Studio 2019 version 16.2, we thought including traits as a grouping created unneeded visual complexity. We are definitely listening to feedback on this design! https://developercommunity.visualstudio.com/content/problem/588029/no-longer-able-to-group-by-trait-in-test-explorer.html
-
-For now, you can right click on the column in the Test Explorer and select Columns. Check the Trait column and it will appear in the Test Explorer. You can now filter this column by what traits you are interested in.
-
-![Display the Trait column](media/vs-2019/trait-column.png)
-![Filter the trait column](media/vs-2019/trait-column-filter.png)
-::: moniker-end
 
 ## Dynamic test discovery
 
@@ -37,7 +30,7 @@ Build your project to run assembly-based discovery.
 ::: moniker range="vs-2017"
 Build your project and make sure assembly-based discovery is turned on in **Tools** > **Options** > **Test**.
 ::: moniker-end
-[Real-time test discovery](https://go.microsoft.com/fwlink/?linkid=862824) is source-based test discovery. It can’t discover tests that use theories, custom adapters, custom traits, `#ifdef` statements, and more because they're defined at runtime. A build is required for those tests to be accurately found. In Visual Studio 2017 version 15.6 and later, assembly-based discovery (the traditional discoverer) runs only after builds. This setting means real-time test discovery finds as many tests as it can while you're editing, and assembly-based discovery allows dynamically defined tests to appear after a build. Real-time test discovery improves responsiveness, but still allows you to get complete and precise results after a build.
+[Real-time test discovery](https://devblogs.microsoft.com/dotnet/real-time-test-discovery/) is source-based test discovery. It can’t discover tests that use theories, custom adapters, custom traits, `#ifdef` statements, and more because they're defined at run time. A build is required for those tests to be accurately found. In Visual Studio 2017 version 15.6 and later, assembly-based discovery (the traditional discoverer) runs only after builds. This setting means real-time test discovery finds as many tests as it can while you're editing, and assembly-based discovery allows dynamically defined tests to appear after a build. Real-time test discovery improves responsiveness, but still allows you to get complete and precise results after a build.
 
 ## Test Explorer '+' (plus) symbol
 
@@ -61,13 +54,13 @@ Go to **Tools** > **Options** > **Test** and check the box for **Additionally di
 
 **Tests now appear in Test Explorer while I type, without having to build my project. What changed?**
 
-This feature is called [Real-time test discovery](https://go.microsoft.com/fwlink/?linkid=862824). It uses a Roslyn analyzer to find tests and populate Test Explorer in real time, without requiring you to build your project. For more information about test discovery behavior for dynamically defined tests such as theories or custom traits, see [Dynamic test discovery](#dynamic-test-discovery).
+This feature is called [Real-time test discovery](https://devblogs.microsoft.com/dotnet/real-time-test-discovery/). It uses a Roslyn analyzer to find tests and populate Test Explorer in real time, without requiring you to build your project. For more information about test discovery behavior for dynamically defined tests such as theories or custom traits, see [Dynamic test discovery](#dynamic-test-discovery).
 
 ## Real-time test discovery compatibility
 
 **What languages and test frameworks can use Real Time Test Discovery?**
 
-[Real-time test discovery](https://go.microsoft.com/fwlink/?linkid=862824) only works for the managed languages (C# and Visual Basic), since it's built using the Roslyn compiler. For now, real-time test discovery only works for the xUnit, NUnit, and MSTest frameworks.
+[Real-time test discovery](https://devblogs.microsoft.com/dotnet/real-time-test-discovery/) only works for the managed languages (C# and Visual Basic), since it's built using the Roslyn compiler. For now, real-time test discovery only works for the xUnit, NUnit, and MSTest frameworks.
 
 ## Test Explorer logs
 
@@ -85,9 +78,7 @@ UWP tests target a different runtime when the app is deployed. This means that t
 
 **How does sorting test results work in the hierarchy view?**
 
-The hierarchy view sorts tests alphabetically as opposed to by outcome. The other group by settings normally sort test results by outcome and then alphabetically. See the different group by options in the following image for comparison. You can provide feedback about the design [in this GitHub issue](https://github.com/Microsoft/vstest/issues/1425).
-
-![SortingExamples](media/testex-sortingex.png)
+The hierarchy view sorts tests alphabetically as opposed to by outcome. Previous group by settings sorted test results by outcome and then alphabetically. You can still enable sorting by outcome by right-clicking on the column header in Test Explorer, enabling the State column, and then clicking on the State column header to apply sorting on that column. You can provide feedback about the design in this [GitHub issue](https://github.com/Microsoft/vstest/issues/1425).
 
 ## Test Explorer hierarchy view
 
@@ -101,15 +92,14 @@ The icons next to the Project, Namespace, and Class groupings show the state of 
 
 **There is no longer a "File Path" filter in the Test Explorer search box.**
 
-The file path filter in the **Test Explorer** search box was removed in Visual Studio 2017 version 15.7. This feature had low usage, and Test Explorer can retrieve test methods faster by leaving out this feature. If this change interrupts your development flow, let us know by submitting feedback on [Developer Community](https://developercommunity.visualstudio.com/).
+The file path filter in the **Test Explorer** search box was removed in Visual Studio 2017 version 15.7. This feature had low usage, and Test Explorer can retrieve test methods faster by leaving out this feature. If this change interrupts your development flow, let us know by submitting feedback on [Developer Community](https://aka.ms/feedback/suggest?space=8).
 
 ## Remove undocumented interfaces
 
 **Some test-related APIs are no longer present in Visual Studio 2019. What changed?**
 
-In Visual Studio 2019, some test window APIs that were previously marked public but were never officially documented will be removed. They were marked as "deprecated" in Visual Studio 2017 to give extension maintainers an early warning. To our knowledge, very few extensions had found these APIs and taken a dependency on them. These include `IGroupByProvider`, `IGroupByProvider<T>`, `KeyComparer`, `ISearchFilter`, `ISearchFilterToken`, `ISearchToken`, and `SearchFilterTokenType`. If this change affects your extension, let us know by filing a bug on [Developer Community](https://developercommunity.visualstudio.com).
+In Visual Studio 2019, some test window APIs that were previously marked public but were never officially documented will be removed. They were marked as "deprecated" in Visual Studio 2017 to give extension maintainers an early warning. To our knowledge, very few extensions had found these APIs and taken a dependency on them. These include `IGroupByProvider`, `IGroupByProvider<T>`, `KeyComparer`, `ISearchFilter`, `ISearchFilterToken`, `ISearchToken`, and `SearchFilterTokenType`. If this change affects your extension, let us know by filing a bug on [Developer Community](https://aka.ms/feedback/suggest?space=8).
 
-::: moniker range="vs-2017"
 ## Test adapter NuGet reference
 
 **In Visual Studio 2017 version 15.8 my tests are discovered, but don't execute.**
@@ -120,6 +110,7 @@ All test projects must include their .NET test adapter NuGet reference in their 
 
 Instead of using test adapter extensions, projects are required to use test adapter NuGet packages. This requirement greatly improves performance and causes fewer issues with continuous integration. Read more about .NET Test Adapter Extension deprecation in the [release notes](/visualstudio/releasenotes/vs2017-relnotes-v15.8#testadapterextension).
 
+::: moniker range="vs-2017"
 > [!NOTE]
 > If you are using the NUnit 2 Test Adapter and are unable to migrate to the NUnit 3 test adapter, you can turn off this new discovery behavior in Visual Studio version 15.8 in **Tools** > **Options** > **Test**.
 
@@ -147,7 +138,12 @@ To fix this error:
 ```XML
 <SDKReference Include="TestPlatform.Universal, Version=$(UnitTestPlatformVersion)" />
 ```
+::: moniker range=">=vs-2019"
+## Using preview features
 
+In Visual Studio 2019, you can opt into preview features in **Tools > Options > Environment > Preview Features**.
+::: moniker-end
+::: moniker range=">=vs-2017"
 ## Using feature flags
 
 **How can I turn on feature flags to try out new testing features?**
@@ -164,10 +160,10 @@ vsregedit set “C:\Program Files (x86)\Microsoft Visual Studio\Preview\Enterpri
 
 > [!NOTE]
 > You can turn off the flag with the same command, by using a value of 0 instead of 1 after dword.
-
+::: moniker-end
 ## See also
 
 - <xref:Microsoft.VisualStudio.TestTools.UnitTesting?displayProperty=fullName>
-- [Create and run unit tests for existing code](https://msdn.microsoft.com/e8370b93-085b-41c9-8dec-655bd886f173)
+- [Create and run unit tests for existing code](/previous-versions/dd293546(v=vs.110))
 - [Unit test your code](unit-test-your-code.md)
-- [Live unit testing FAQ](live-unit-testing-faq.md)
+- [Live unit testing FAQ](live-unit-testing-faq.yml)

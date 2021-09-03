@@ -1,12 +1,16 @@
 ---
 title: Generate parameter refactoring
-ms.date: 06/19/2019
+description: Learn how to use the Quick Actions and Refactorings menu to automatically generate a method parameter.
+ms.custom: SEO-VS-2020
+ms.date: 03/10/2020
 ms.topic: reference
 author: mikadumont
 ms.author: midumont
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-general
 dev_langs:
   - CSharp
+  - VB
 ms.workload: 
   - "dotnet"
 ---
@@ -15,6 +19,8 @@ ms.workload:
 This refactoring applies to:
 
 - C#
+
+- Visual Basic
 
 **What:** Automatically generates a method parameter.
 

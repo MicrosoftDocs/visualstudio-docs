@@ -1,43 +1,59 @@
 ---
-title: Visual Studio Container Tools on Windows
+title: Visual Studio Container Tools for Docker on Windows
 description: Get to know the tools available in Visual Studio for working with Docker
 author: ghogen
 ms.author: ghogen
 ms.topic: overview
-ms.date: 03/20/2019
-ms.technology: vs-azure
+ms.date: 08/24/2021
+ms.technology: vs-container-tools
 ---
-# Container Tools in Visual Studio
+# Visual Studio Container Tools for Docker
 
-The tools included in Visual Studio for developing with containers are easy to use, and greatly simplify building, debugging, and deployment for containerized applications. You can work with a container for a single project, or use container orchestration with Docker Compose, Service Fabric, or Kubernetes to work with multiple services in containers.
-
-> [!NOTE]
-> This article applies to Visual Studio on Windows, and not Visual Studio for Mac.
-
-> [!TIP]
-> To learn more about installing Docker for Windows, see [Docker Desktop for Windows](https://docs.docker.com/docker-for-windows/).
-
-## Docker support in Visual Studio
-
-Docker support is available for ASP.NET projects, ASP.NET Core projects, and .NET Core and .NET Framework console projects.
-
-The support for Docker in Visual Studio has changed over a number of releases in response to customer needs. There are two levels of Docker support you can add to a project, and the supported options vary by the type of project and the version of Visual Studio. With some supported project types, if you just want a container for a single project, without using orchestration, you can do that by adding Docker support.  The next level is container orchestration support, which adds appropriate support files for the particular orchestrator you choose.  
+The tools included in Visual Studio for developing with Docker containers are easy to use, and greatly simplify building, debugging, and deployment for containerized applications. You can work with a container for a single project, or use container orchestration with Docker Compose or Service Fabric to work with multiple services in containers.
 
 ::: moniker range="vs-2017"
 
-With Visual Studio 2017, you can use Docker Compose and Service Fabric as container orchestration services.  You can also use Kubernetes if you install the [Visual Studio Tools for Kubernetes](https://aka.ms/get-vsk8stools).
+## Prerequisites
+
+* [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
+* [Visual Studio 2017](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download) with the **Web Development**, **Azure Tools** workload, and/or **.NET Core cross-platform development** workload installed
+* To publish to Azure Container Registry, an Azure subscription. [Sign up for a free trial](https://azure.microsoft.com/offers/ms-azr-0044p/).
+
+## Docker support in Visual Studio
+
+Docker support is available for ASP.NET projects, ASP.NET Core projects, Azure Functions, and .NET Core and .NET Framework console projects.
+
+The support for Docker in Visual Studio has changed over a number of releases in response to customer needs. There are two levels of Docker support you can add to a project, and the supported options vary by the type of project and the version of Visual Studio. With some supported project types, if you just want a container for a single project, without using orchestration, you can do that by adding Docker support.  The next level is container orchestration support, which adds appropriate support files for the particular orchestrator you choose.
+
+With Visual Studio 2017, you can use Docker Compose and Service Fabric as container orchestration services.
 
 > [!NOTE]
-> If you are using a version of Visual Studio 2017 prior to 15.8, or you are using the .NET Framework project template (not .NET Core), when you add Docker support, orchestration support using Docker Compose is added automatically. Container orchestration support, via Docker Compose, is added automatically in Visual Studio 2017 versions 15.0 to 15.7 and for .NET Framework projects.
+> If you are using a version of Visual Studio 2017 prior to 15.8, or you are using the .NET Framework project template (not .NET Core), when you add Docker support, orchestration support using Docker Compose is added automatically. 
 
 ::: moniker-end
 
 ::: moniker range=">=vs-2019"
 
+## Prerequisites
+
+* [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
+* [Visual Studio 2019](https://visualstudio.microsoft.com/downloads) with the **Web Development**, **Azure Tools** workload, and/or **.NET Core cross-platform development** workload installed
+* [.NET Core Development Tools](https://dotnet.microsoft.com/download/dotnet-core/) for development with .NET Core.
+* To publish to Azure Container Registry, an Azure subscription. [Sign up for a free trial](https://azure.microsoft.com/offers/ms-azr-0044p/).
+
+## Docker support in Visual Studio
+
+Docker support is available for ASP.NET projects, ASP.NET Core projects, and .NET Core and .NET Framework console projects.
+
+The support for Docker in Visual Studio has changed over a number of releases in response to customer needs. There are two levels of Docker support you can add to a project, and the supported options vary by the type of project and the version of Visual Studio. With some supported project types, if you just want a container for a single project, without using orchestration, you can do that by adding Docker support.  The next level is container orchestration support, which adds appropriate support files for the particular orchestrator you choose.
+
 With Visual Studio 2019, you can use Docker Compose, Kubernetes, and Service Fabric as container orchestration services.
 
 > [!NOTE]
-> If you are using the full .NET Framework console project template, when you add Docker support, support for orchestration using Docker Compose is added automatically.
+> If you are using the full .NET Framework console project template, the supported option is **Add Container Orchestrator support** after project creation, with options to use Service Fabric or Docker Compose. Adding support at project creation and **Add Docker support** for a single project without orchestration are not available options.
+
+In Visual Studio 2019 version 16.4 and later, the **Containers** window is available, which lets you view running containers, browse available images, view environment variables, logs, and port mappings, inspect the filesystem, attach a debugger, or open a terminal window inside the container environment. See [Use the Containers window](view-and-diagnose-containers.md).
+
 ::: moniker-end
 
 ### Adding Docker support
@@ -64,11 +80,32 @@ When you add or enable Docker support, Visual Studio adds the following to the p
 - a .dockerignore file
 - a NuGet package reference to the Microsoft.VisualStudio.Azure.Containers.Tools.Targets
 
-::: moniker range=">=vs-2019"
-The solution looks like this once you add Docker support:
+The Dockerfile you add will resemble the following code. In this example, the project was named `WebApplication-Docker`.
 
-![Screenshot of solution explorer with Dockerfile and .dockerignore file](media/overview/vs-2019/dockerfile-dockerignore.png)
-::: moniker-end
+```Dockerfile
+#See https://aka.ms/containerfastmode to understand how Visual Studio uses this Dockerfile to build your images for faster debugging.
+
+FROM mcr.microsoft.com/dotnet/aspnet:3.1 AS base
+WORKDIR /app
+EXPOSE 80
+EXPOSE 443
+
+FROM mcr.microsoft.com/dotnet/sdk:3.1 AS build
+WORKDIR /src
+COPY ["WebApplication-Docker/WebApplication-Docker.csproj", "WebApplication-Docker/"]
+RUN dotnet restore "WebApplication-Docker/WebApplication-Docker.csproj"
+COPY . .
+WORKDIR "/src/WebApplication-Docker"
+RUN dotnet build "WebApplication-Docker.csproj" -c Release -o /app/build
+
+FROM build AS publish
+RUN dotnet publish "WebApplication-Docker.csproj" -c Release -o /app/publish
+
+FROM base AS final
+WORKDIR /app
+COPY --from=publish /app/publish .
+ENTRYPOINT ["dotnet", "WebApplication-Docker.dll"]
+```
 
 ::: moniker range="vs-2017"
 > [!NOTE]
@@ -76,6 +113,18 @@ The solution looks like this once you add Docker support:
 
 ![Enable Docker compose support for an ASP.NET project](media/overview/enable-docker-compose-support.png)
 ::: moniker-end
+
+## Use the Containers window
+
+The **Containers** window lets you view containers and images on your machine and see what's going on with them. You can view the filesystem, volumes mounted, environment variables, ports used, and examine log files.
+
+Open the **Containers** window by using the quick launch (**Ctrl**+**Q**) and typing `containers`. You can use the docking controls to put the window somewhere. Because of the width of the window, it works best when docked at the bottom of the screen.
+
+Select a container, and use the tabs to view the information that's available. To check it out, run your Docker-enabled app, open the **Files** tab, and expand the **app** folder to see your deployed app on the container.
+
+![Screenshot of Containers window](media/overview/vs-2019/container-tools-window-2.png)
+
+For more information, see [Use the Containers window](view-and-diagnose-containers.md).
 
 ## Docker Compose support
 
@@ -91,15 +140,7 @@ If *docker-compose.yml* already exists, Visual Studio just adds the required lin
 
 Repeat the process with the other projects that you want to control using Docker Compose.
 
-## Kubernetes support
-
-::: moniker range="vs-2017"
-To add Kubernetes support, install the [Visual Studio Tools for Kubernetes](https://aka.ms/get-vsk8stools).
-::: moniker-end
-
-With Kubernetes support, you can enable a connection between your local project and a Kubernetes cluster running in [Azure Kubernetes Service (AKS)](/azure/aks), and thereby modify and debug your services running in AKS using Visual Studio.  This service is provided by [Azure Dev Spaces](/azure/dev-spaces/quickstart-netcore-visualstudio). Azure Dev Spaces also lets you set up separate branches of your Kubernetes services called *dev spaces* for development purposes, so you can efficiently isolate production services from working versions in development, and keep distinct modifications cleanly separated from each other.
-
-To add Kubernetes support to your projects, choose **Kubernetes/Helm** when you add container orchestration support. Several files are added to your project, including *azds.yaml*, which configures Azure Dev Spaces, and Helm charts which describe the structure of your Kubernetes services.
+If you work with a large number of services, you can save time and computing resources by selecting which subset of services you want to start in your debugging session. See [Start a subset of Compose services](launch-profiles.md).
 
 ## Service Fabric support
 
@@ -119,16 +160,16 @@ For more information on Azure Service Fabric, see [Service Fabric](/azure/servic
 
 ## Continuous delivery and continuous integration (CI/CD)
 
-Visual Studio integrates readily with Azure Pipelines for automated and continuous integration and delivery of changes to your service code and configuration. To get started, see [Create your first pipeline](/azure/devops/pipelines/create-first-pipeline?view=azure-devops&tabs=tfs-2018-2).
+Visual Studio integrates readily with Azure Pipelines for automated and continuous integration and delivery of changes to your service code and configuration. To get started, see [Create your first pipeline](/azure/devops/pipelines/create-first-pipeline?view=azure-devops&tabs=tfs-2018-2&preserve-view=true).
 
 For Service Fabric, see [Tutorial: Deploy your ASP.NET Core app to Azure Service Fabric by using Azure DevOps Projects](/azure/devops-project/azure-devops-project-service-fabric).
 
-For Kubernetes, see [Deploy a Docker container app to Azure Kubernetes Service](/azure/devops/pipelines/apps/cd/deploy-aks?view=azure-devops).
+For Kubernetes, see [Deploy a Docker container app to Azure Kubernetes Service](/azure/devops/pipelines/apps/cd/deploy-aks?view=azure-devops&preserve-view=true).
 
 ## Next steps
 
 For further details on the services implementation and use of Visual Studio tools for working with containers, read the following articles:
 
-[Debugging apps in a local Docker container](vs-azure-tools-docker-edit-and-refresh.md)
+[Debugging apps in a local Docker container](edit-and-refresh.md)
 
-[Deploy an ASP.NET container to a container registry using Visual Studio](vs-azure-tools-docker-hosting-web-apps-in-docker.md)
+[Deploy an ASP.NET container to a container registry using Visual Studio](hosting-web-apps-in-docker.md)

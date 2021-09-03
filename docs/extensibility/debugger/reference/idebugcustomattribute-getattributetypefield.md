@@ -1,20 +1,22 @@
 ---
-title: "IDebugCustomAttribute::GetAttributeTypeField | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Gets the custom attribute class type."
+title: IDebugCustomAttribute::GetAttributeTypeField | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugCustomAttribute::GetAttributeTypeField"
+- IDebugCustomAttribute::GetAttributeTypeField
 helpviewer_keywords:
-  - "IDebugCustomAttribute::GetAttributeTypeField"
+- IDebugCustomAttribute::GetAttributeTypeField
 ms.assetid: d6ce26d5-42ba-44c1-8659-0516db5bc82d
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugCustomAttribute::GetAttributeTypeField
 Gets the custom attribute class type.

@@ -1,34 +1,37 @@
 ---
 title: Creating and Configuring Type Members (Class Designer)
+description: Learn how to add members to types on a class diagram and configure those members in the Class Details window.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 f1_keywords:
-  - "vs.classdetails.method"
-  - "vs.classdetails.property"
-  - "vs.classdetails.parameter"
-  - "vs.classdetails.event"
-  - "vs.classdetails.field"
+- vs.classdetails.method
+- vs.classdetails.property
+- vs.classdetails.parameter
+- vs.classdetails.event
+- vs.classdetails.field
 helpviewer_keywords:
-  - "Class Designer [Visual Studio], member creation"
-  - "type members, modifying in Class Designer"
-  - "parameters [ASP.NET Web Services], adding to methods"
-  - "type members, configuring"
-  - "type members"
-  - "members"
-  - "type members, creating"
-  - "members, creating"
-  - "Class Designer [Visual Studio], type members"
-  - "read-only information, displaying"
-  - "members, configuring"
-  - "methods [Visual Studio], adding parameters"
-  - "Class Details window"
-  - "Class Details window, member creation"
+- Class Designer [Visual Studio], member creation
+- type members, modifying in Class Designer
+- parameters [ASP.NET Web Services], adding to methods
+- type members, configuring
+- type members
+- members
+- type members, creating
+- members, creating
+- Class Designer [Visual Studio], type members
+- read-only information, displaying
+- members, configuring
+- methods [Visual Studio], adding parameters
+- Class Details window
+- Class Details window, member creation
 ms.assetid: 42af8738-3738-4ca7-82ff-edf573a68f96
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Create and configure type members in Class Designer
 

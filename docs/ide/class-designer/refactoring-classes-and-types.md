@@ -1,24 +1,27 @@
 ---
 title: Rename and move classes and types in Class Designer
+description: Learn how to rename and move classes and types using Class Designer and the Class Details window.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 f1_keywords:
-  - "vs.ClassDesigner.OverrideMembersDialog"
+- vs.ClassDesigner.OverrideMembersDialog
 helpviewer_keywords:
-  - "members, overriding"
-  - "overriding members"
-  - "classes [Visual Studio], refactoring"
-  - "type members, overriding"
-  - "refactoring, types"
-  - "types [Visual Studio], refactoring"
-  - "Class Designer [Visual Studio], refactoring classes"
-  - "refactoring, classes"
+- members, overriding
+- overriding members
+- classes [Visual Studio], refactoring
+- type members, overriding
+- refactoring, types
+- types [Visual Studio], refactoring
+- Class Designer [Visual Studio], refactoring classes
+- refactoring, classes
 ms.assetid: dcf07bb4-fa3b-4224-9dec-566fd924a8ce
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Refactor classes and types in Class Designer
 

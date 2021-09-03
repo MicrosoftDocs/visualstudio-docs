@@ -1,40 +1,43 @@
 ---
 title: Windows Communication Foundation and WCF Data Services
+description: Explore Windows Communication Foundation (WCF) Services and WCF Data Services in Visual Studio, so you can create distributed applications.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: overview
 dev_langs:
-  - "VB"
-  - "CSharp"
+- VB
+- CSharp
 helpviewer_keywords:
-  - "services, WCF Data"
-  - "WCF services, binding to"
-  - "WCF services, asynchronous service methods"
-  - "service references [Visual Studio]"
-  - "WCF Data Services"
-  - "asynchronous calls"
-  - "service references [Visual Studio], type sharing"
-  - "endpoints [WCF]"
-  - "asynchronous service methods"
-  - "service references [Visual Studio] endpoints"
-  - "WCF services, type sharing"
-  - "Windows Communication Foundation, in Visual Studio"
-  - "services, WCF"
-  - "WCF service, Visual Studio"
-  - "data services, WCF"
-  - "services, in Visual Studio"
-  - "data binding [Visual Studio], WCF"
-  - "service endpoints [Visual Studio]"
-  - "service references [Visual Studio], asynchronous calls"
-  - "services, Windows Communication Foundation"
-  - "type sharing in WCF services"
-  - "WCF services, endpoints"
-  - "service method, called asynchronously[Visual Studio]"
+- services, WCF Data
+- WCF services, binding to
+- WCF services, asynchronous service methods
+- service references [Visual Studio]
+- WCF Data Services
+- asynchronous calls
+- service references [Visual Studio], type sharing
+- endpoints [WCF]
+- asynchronous service methods
+- service references [Visual Studio] endpoints
+- WCF services, type sharing
+- Windows Communication Foundation, in Visual Studio
+- services, WCF
+- WCF service, Visual Studio
+- data services, WCF
+- services, in Visual Studio
+- data binding [Visual Studio], WCF
+- service endpoints [Visual Studio]
+- service references [Visual Studio], asynchronous calls
+- services, Windows Communication Foundation
+- type sharing in WCF services
+- WCF services, endpoints
+- service method, called asynchronously[Visual Studio]
 ms.assetid: d56f12cb-e139-4fec-b3e4-488383356642
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: ghogen
+ms.author: ghogen
+manager: jmartens
+ms.technology: vs-data-tools
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # Windows Communication Foundation Services and WCF Data Services in Visual Studio
 
@@ -46,7 +49,7 @@ Windows Communication Foundation (WCF) is a unified framework for creating secur
 
 ### What are WCF Data Services
 
-WCF Data Services is an implementation of the Open Data (OData) Protocol standard.  WCF Data Services lets you expose tabular data as a set of REST APIs, allowing you to return data using standard HTTP verbs such as GET, POST, PUT, or DELETE. On the server side, WCF Data Services are being superseded by [ASP.NET Web API](http://www.asp.net/web-api) for creating new OData services. The WCF Data Services client library continues to be a good choice for consuming OData services in a .NET application from Visual Studio (**Project** > **Add Service Reference**). For more information, see [WCF Data Services 4.5](http://go.microsoft.com/fwlink/?LinkID=119952).
+WCF Data Services is an implementation of the Open Data (OData) Protocol standard.  WCF Data Services lets you expose tabular data as a set of REST APIs, allowing you to return data using standard HTTP verbs such as GET, POST, PUT, or DELETE. On the server side, WCF Data Services are being superseded by [ASP.NET Web API](https://dotnet.microsoft.com/apps/aspnet/apis) for creating new OData services. The WCF Data Services client library continues to be a good choice for consuming OData services in a .NET application from Visual Studio (**Project** > **Add Service Reference**). For more information, see [WCF Data Services 4.5](/dotnet/framework/data/wcf).
 
 ### WCF programming model
 
@@ -56,13 +59,13 @@ The WCF programming model is based on communication between two entities: a WCF 
 
 A WCF service is based on an interface that defines a contract between the service and the client. It is marked with a <xref:System.ServiceModel.ServiceContractAttribute> attribute, as shown in the following code:
 
-[!code-csharp[WCFWalkthrough#6](../data-tools/codesnippet/CSharp/windows-communication-foundation-services-and-wcf-data-services-in-visual-studio_1.cs)]
-[!code-vb[WCFWalkthrough#6](../data-tools/codesnippet/VisualBasic/windows-communication-foundation-services-and-wcf-data-services-in-visual-studio_1.vb)]
+:::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/wcfwalkthrough/cs/iservice1.cs" id="Snippet6":::
+:::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/wcfwalkthrough/vb/iservice1.vb" id="Snippet6":::
 
 You define functions or methods that are exposed by a WCF service by marking them with a <xref:System.ServiceModel.OperationContractAttribute> attribute.
 
-[!code-csharp[WCFWalkthrough#1](../data-tools/codesnippet/CSharp/windows-communication-foundation-services-and-wcf-data-services-in-visual-studio_2.cs)]
-[!code-vb[WCFWalkthrough#1](../data-tools/codesnippet/VisualBasic/windows-communication-foundation-services-and-wcf-data-services-in-visual-studio_2.vb)]
+:::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/wcfwalkthrough/cs/iservice1.cs" id="Snippet1":::
+:::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/wcfwalkthrough/vb/iservice1.vb" id="Snippet1":::
 
 In addition, you can expose serialized data by marking a composite type with a <xref:System.Runtime.Serialization.DataContractAttribute> attribute. This enables data binding in a client.
 
@@ -80,8 +83,8 @@ A WCF client consists of a *proxy* that enables an application to communicate wi
 
 After a WCF client has been created, you reference the service in your code just as you would any other object. For example, to call the `GetData` method shown earlier, you would write code that resembles the following:
 
-[!code-csharp[WCFWalkthrough#3](../data-tools/codesnippet/CSharp/windows-communication-foundation-services-and-wcf-data-services-in-visual-studio_3.cs)]
-[!code-vb[WCFWalkthrough#3](../data-tools/codesnippet/VisualBasic/windows-communication-foundation-services-and-wcf-data-services-in-visual-studio_3.vb)]
+:::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/wcfwalkthrough/cs/form1.cs" id="Snippet3":::
+:::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/wcfwalkthrough/vb/form1.vb" id="Snippet3":::
 
 ## WCF tools in Visual Studio
 

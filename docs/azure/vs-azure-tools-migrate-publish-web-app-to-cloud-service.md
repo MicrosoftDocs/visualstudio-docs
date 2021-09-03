@@ -1,28 +1,28 @@
 ---
-title: Migrate & publish web application to Azure Cloud Service
+title: Migrate and publish web application to a Cloud Service
 description: Learn how to migrate and publish your web application to an Azure cloud service by using Visual Studio
+ms.custom: SEO-VS-2020
 author: ghogen
-manager: jillfra
-ms.assetid: 9394adfd-a645-4664-9354-dd5df08e8c91
-ms.custom: vs-azure
+manager: jmartens
+ms.technology: vs-azure
 ms.workload: azure-vs
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 11/10/2017
 ms.author: ghogen
-ms.custom: seodec18
 ---
-# How to: Migrate and Publish a Web Application to an Azure Cloud Service from Visual Studio
+# How to: Migrate and publish a web application to an Azure Cloud Service from Visual Studio
 
 To take advantage of the hosting services and scaling ability of Azure, you might want to migrate and deploy your web application to an Azure cloud service. Only minimal changes are required. This article covers deploying to cloud services only; for App Service, see [Deploy a web app in Azure App Service](/azure/app-service/app-service-deploy-local-git).
 
 > [!Important]
-> This migration is supported only for the specific ASP.NET, Silverlight, WCF, and WCF Workflow projects. It is not supported for ASP.NET Core projects. See [Supported Project Templates](#supported-project-templates).
+> This migration is supported only for the specific ASP.NET, WCF, and WCF Workflow projects. It is not supported for ASP.NET Core projects. See [Supported Project Templates](#supported-project-templates).
 
 ## Migrate a project to cloud services
 
-1. Right-click the web application project and select **Convert > Convert to Microsoft Azure Cloud Service Project**. (Note that this command does not appear if you already have a web role project in the solution.)
-1. Visual Studio creates a cloud service project in the solution that contains the required web role. The name of this project is the same as your application project with plus the suffix `.Azure`.
-1. Visual Studio also sets the **Copy Local** property to true for any assemblies that are required for MVC 2, MVC 3, MVC 4, and Silverlight Business Applications. This property adds these assemblies to the service package that is used for deployment.
+1. Right-click the solution node and select **Add > New Project...** and add a new **Azure Cloud Service (classic)** project to the existing solution.
+1. In the **New Microsoft Azure Cloud Service (classic)** dialog, click OK without adding any roles to the project.
+1. Right-click the roles node under the newly added Cloud Services project and select **Add Web Role Project in solution...**.
+1. In the **Associate with Role Project** dialog, select the project you would like to associate as a web role.
 
    > [!Important]
    > If you have other assemblies or files that are required for this web application, you must manually set the properties for these files. For information about how to set these properties, see [Include Files in the Service Package](vs-azure-tools-publishing-a-cloud-service.md#include-files-in-the-service-package).
@@ -74,7 +74,6 @@ The following table provides details about starting the application in Azure:
 | --- | --- |
 | ASP.NET Web Application<br/>(including MVC 2, MVC 3, MVC 4) | Select the URL in the **Deployment** tab for the **Azure Activity log**. |
 | ASP.NET Empty Web Application | If you have a default `.aspx` page in your application, select the URL in the **Deployment** tab for the **Azure Activity log**. To navigate to a different page, enter a URL of the following form in a browser: `<deployment_url>/<page_name>.aspx` |
-| Silverlight Application<br/>Silverlight Business Application<br/>Silverlight Navigation Application | Navigate to the specific page for your application using the following URL form: `<deployment_url>/<page_name>.aspx` |
 | WCF Service Application<br/>WCF Workflow Service Application | Set the `.svc` file as the start page for your WCF Service project. Then navigate to `<deployment_url>/<service_file>.svc` |
 | ASP.NET Dynamic Entities<br/>ASP.NET Dynamic Data Linq to SQL | Update the connection string as described in the next section. Then navigate to `<deployment_url>/<page_name>.aspx`. For Linq to SQL, you must use an Azure SQL database. |
 
@@ -112,9 +111,6 @@ Applications that can be migrated and published to cloud services must use one o
 | Web | ASP.NET MVC 2 Empty Web Application |
 | Web | ASP.NET Dynamic Data Entities Web Application |
 | Web | ASP.NET Dynamic Data Linq to SQL Web Application |
-| Silverlight | Silverlight Application |
-| Silverlight | Silverlight Business Application |
-| Silverlight | Silverlight Navigation Application |
 | WCF | WCF Service Application |
 | WCF | WCF Workflow Service Application |
 | Workflow | WCF Workflow Service Application |

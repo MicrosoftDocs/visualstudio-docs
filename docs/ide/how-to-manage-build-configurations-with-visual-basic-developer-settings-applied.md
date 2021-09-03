@@ -1,19 +1,22 @@
 ---
 title: Manage build configurations with Visual Basic developer settings
+description: Learn about advanced build configuration options that are hidden when Visual Basic developer settings are applied and how to manually enable these build settings.
+titleSuffix: ""
+ms.custom: SEO-VS-2020
 ms.date: 11/21/2018
 ms.technology: vs-ide-compile
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
-  - "advanced build configurations"
-  - "building with Visual Basic developer settings (Visual Studio)"
-  - "debug builds"
-  - "release builds"
+- advanced build configurations
+- building with Visual Basic developer settings (Visual Studio)
+- debug builds
+- release builds
 ms.assetid: eaea6e0b-6c61-4869-8d63-d372c745a23c
 author: ghogen
 ms.author: ghogen
-manager: jillfra
+manager: jmartens
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Manage build configurations with Visual Basic developer settings applied
 
@@ -26,9 +29,6 @@ By default, the Visual Basic developer settings hide the option to open the **Co
 1. On the **Tools** menu, click **Options**.
 
 2. Expand **Projects and Solutions**, and click **General**.
-
-    > [!NOTE]
-    > The **General** node is visible even if the **Show all settings** option is unchecked. If you want to see every option available, click **Show all settings**.
 
 3. Click **Show advanced build configurations**.
 

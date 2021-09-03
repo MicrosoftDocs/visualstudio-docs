@@ -1,18 +1,21 @@
 ---
 title: Toolbox, Components Tab
+description: Learn about the components you'll find in the Components tab of the Toolbox window.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - VS.CHOOSEITEMS.FrameworkComponents
-  - VS.CHOOSEITEMS.COMComponents
-  - VS.CHOOSEITEMS.UniversalWindowsComponents
+- VS.CHOOSEITEMS.FrameworkComponents
+- VS.CHOOSEITEMS.COMComponents
+- VS.CHOOSEITEMS.UniversalWindowsComponents
 helpviewer_keywords:
-  - "Toolbox, Components tab"
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+- Toolbox, Components tab
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Toolbox, Components tab
 

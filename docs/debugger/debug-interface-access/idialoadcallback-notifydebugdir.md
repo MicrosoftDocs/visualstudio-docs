@@ -1,7 +1,8 @@
 ---
+description: "Called when a debug directory was found in the .exe file."
 title: "IDiaLoadCallback::NotifyDebugDir | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +10,8 @@ helpviewer_keywords:
 ms.assetid: bd04e2f6-0dbf-4742-a556-96f2cd99aa19
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -49,6 +51,6 @@ HRESULT NotifyDebugDir ( 
 
  Most clients will not need this callback because the `IDiaDataSource::loadDataForExe` method transparently opens both .pdb and .dbg files when necessary to serve symbols.
 
-## See Also
+## See also
 - [IDiaLoadCallback2](../../debugger/debug-interface-access/idialoadcallback2.md)
 - [IDiaDataSource::loadDataForExe](../../debugger/debug-interface-access/idiadatasource-loaddataforexe.md)

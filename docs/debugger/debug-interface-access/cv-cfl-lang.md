@@ -1,7 +1,9 @@
 ---
 title: "CV_CFL_LANG | Microsoft Docs"
+description: Get information about the CV_CFL_LANG enumeration type, which specifies the code language of the application or linked module in the debug interface access SDK.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -9,7 +11,8 @@ helpviewer_keywords:
 ms.assetid: 4e8e0613-ad02-4de9-9f46-e4753c5b0251
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -98,6 +101,6 @@ The values in this enumeration are returned by a call to the [IDiaSymbol::get_la
 ## Requirements
 Header: cvconst.h
 
-## See Also
+## See also
 - [Enumerations and Structures](../../debugger/debug-interface-access/enumerations-and-structures.md)
 - [IDiaSymbol::get_language](../../debugger/debug-interface-access/idiasymbol-get-language.md)

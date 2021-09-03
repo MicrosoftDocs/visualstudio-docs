@@ -1,17 +1,20 @@
 ---
 title: Connect to data in an Access database
+description: Understand how to connect to data in an Access database (either an .mdb file or an .accdb.file) in Visual Studio.
+ms.custom: SEO-VS-2020
 ms.date: 07/18/2019
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
-  - "data [Visual Studio], connecting"
-  - "connecting to data, Access databases"
-  - "Access databases, connecting"
+- data [Visual Studio], connecting
+- connecting to data, Access databases
+- Access databases, connecting
 ms.assetid: 4159e815-d430-4ad0-a234-e4125fcbef18
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: ghogen
+ms.author: ghogen
+manager: jmartens
+ms.technology: vs-data-tools
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # Connect to data in an Access database
 
@@ -23,7 +26,7 @@ To use these procedures, you need a Windows Forms or WPF project and either an A
 
 ## Create a dataset for an .accdb file
 
-Connect to databases created with Office 365, Access 2013, Access 2010, or Access 2007 by using the following procedure.
+Connect to databases created with Microsoft 365, Access 2013, Access 2010, or Access 2007 by using the following procedure.
 
 1. Open a Windows Forms or WPF application project in Visual Studio.
 
@@ -43,7 +46,7 @@ Connect to databases created with Office 365, Access 2013, Access 2010, or Acces
 
    The **Add Connection** dialog box opens.
 
-7. If **Data source** is not set to **Microsoft Access Database File (OLE DB)**, select the **Change** button.
+7. If **Data source** is not set to **Microsoft Access Database File**, select the **Change** button.
 
    The **Change Data Source** dialog box opens. In the list of data sources, choose **Microsoft Access Database File**. In the **Data provider** drop-down, select **.NET Framework Data Provider for OLE DB**, and then choose **OK**.
 
@@ -103,7 +106,7 @@ Connect to databases created with Access 2000-2003 by using the following proced
 
 The dataset that you just created is available in the **Data Sources** window. You can now perform any of the following tasks:
 
-- Select items in the **Data Sources** window and drag them onto your form or design surface (see [Bind Windows Forms controls to data in Visual Studio](../data-tools/bind-windows-forms-controls-to-data-in-visual-studio.md) or [WPF data binding overview](/dotnet/framework/wpf/data/data-binding-overview)).
+- Select items in the **Data Sources** window and drag them onto your form or design surface (see [Bind Windows Forms controls to data in Visual Studio](../data-tools/bind-windows-forms-controls-to-data-in-visual-studio.md) or [WPF data binding overview](/dotnet/desktop-wpf/data/data-binding-overview)).
 
 - Open the data source in the **Dataset Designer** to add or edit the objects that make up the dataset.
 

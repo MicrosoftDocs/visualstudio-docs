@@ -1,17 +1,19 @@
 ---
-title: "SccOpenProject Function | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+description: "This function opens an existing source control project or creates a new one."
+title: SccOpenProject Function | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: reference
 f1_keywords:
-  - "SccOpenProject"
+- SccOpenProject
 helpviewer_keywords:
-  - "SccOpenProject function"
+- SccOpenProject function
 ms.assetid: d609510b-660a-46d7-b93d-2406df20434d
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # SccOpenProject Function
 This function opens an existing source control project or creates a new one.
@@ -108,7 +110,7 @@ SCCRTN SccOpenProject (
 > [!NOTE]
 > The `SCC_CAP_REENTRANT` bit was introduced in version 1.1 of the Source Control Plug-in API. It is not set or is ignored in version 1.0, and all version 1.0 source control plug-ins are assumed to be nonreentrant.
 
-## See Also
+## See also
 - [Source Control Plug-in API Functions](../extensibility/source-control-plug-in-api-functions.md)
 - [SccCloseProject](../extensibility/scccloseproject-function.md)
 - [SccGetProjPath](../extensibility/sccgetprojpath-function.md)

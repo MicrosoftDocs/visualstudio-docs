@@ -1,5 +1,7 @@
 ---
 title: "Graphics Object Table | Microsoft Docs"
+description: Learn about the Graphics Object Table, which in Visual Studio Graphics Analysis helps you understand the Direct3D objects that support a frame of a game or app.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:
@@ -9,7 +11,8 @@ f1_keywords:
 ms.assetid: f48f62d9-16ff-4a2e-8c01-5cbe99513788
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -103,6 +106,6 @@ The Graphics Object Table in Visual Studio Graphics Analysis helps you understan
 |**uint64**|A 64-bit unsigned integer value. Same as **u8byte**.|
 |**bool**|A Boolean (`true` or `false`) value. Each Boolean value is represented by a 32-bit value.|
 
-## See Also
+## See also
 - [Graphics Diagnostics (Debugging DirectX Graphics)](visual-studio-graphics-diagnostics.md)
 - [Walkthrough: Missing Objects Due to Device State](walkthrough-missing-objects-due-to-device-state.md)

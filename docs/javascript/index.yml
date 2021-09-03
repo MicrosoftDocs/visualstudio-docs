@@ -1,90 +1,83 @@
-### YamlMime:YamlDocument
-documentType: LandingData
-title: Visual Studio | JavaScript and TypeScript
+### YamlMime:Landing
+
+title: Visual Studio tutorials | JavaScript and TypeScript # < 60 chars
+summary: Create JavaScript and TypeScript apps with Visual Studio # < 160 chars
+
 metadata:
-  title: JavaScript and TypeScript Development with Visual Studio | Microsoft Docs
-  meta.description: Tutorials and conceptual articles about developing JavaScript and TypeScript apps with Visual Studio.
-  author: mikejo5000
-  manager: jillfra
-  ms.prod: visual-studio-windows
-  ms.technology: vs-javascript
+  title: JavaScript and TypeScript in Visual Studio # Required; page title displayed in search results. Include the brand. < 60 chars.
+  description: Learn how to use Visual Studio to create JavaScript and TypeScript apps.
   ms.topic: landing-page
-  ms.date: 01/15/2019
+  ms.technology: vs-javascript
+  author: mikejo5000
   ms.author: mikejo
-  dev_langs:
-    - JavaScript
-    - TypeScript
-sections:
-- title: Get Started with Visual Studio
-  items:
-  - type: list
-    style: cards
-    className: cardsM
-    columns: 3
-    items:
-    - href: ../install/install-visual-studio.md
-      html: <p></p>
-      image:
-        src: https://docs.microsoft.com/media/common/i_setup.svg
-      title: Install Visual Studio
-    - href: ../javascript/quickstart-ide-orientation-js.md
-      html: <p></p>
-      image:
-        src: https://docs.microsoft.com/media/logos/logo_visual-studio.svg
-      title: Tour the Visual Studio IDE
-- title: Tutorials
-  items:
-  - type: list
-    style: cards
-    className: cardsM
-    columns: 3
-    items:
-    - href: tutorial-nodejs.md
-      html: <p>Create a web app with Node.js and Express</p>
-      image:
-        src: https://docs.microsoft.com/media/logos/logo_nodejs.svg
-    - href: tutorial-nodejs-with-react-and-jsx.md
-      html: <p>Create a web app with Node.js and React</p>
-      image:
-        src: https://docs.microsoft.com/media/logos/logo_React.svg
-    - href: quickstart-vuejs-with-nodejs.md
-      html: <p>Create a web app with Node.js and Vue.js</p>
-      image:
-        src: ../javascript/media/logo-vuejs.png
-    - href: publish-nodejs-app-azure.md
-      html: <p>Publish a Node.js app to Linux App Service</p>
-      image:
-        src: https://docs.microsoft.com/media/logos/logo_linux-color.svg
-- title: Develop Applications
-  items:
-  - type: paragraph
-    text: 'Learn how to use Visual Studio for your development tasks.'
-  - type: list
-    style: cards
-    className: cardsM
-    columns: 3
-    items:
-    - href: write-and-edit-code.md
-      html: <p>Write and edit code</p>
-      image:
-        src: https://docs.microsoft.com/media/common/i_code-edit.svg
-    - href: nodejs-interactive-repl.md
-      html: <p>Use the Node.js interactive REPL</p>
-      image:
-        src: https://docs.microsoft.com/media/common/i_cligeneric.svg
-    - href: npm-package-management.md
-      html: <p>Manage npm packages</p>
-      image:
-        src: https://docs.microsoft.com/media/logos/logo_npm.svg
-    - href: debug-nodejs.md
-      html: <p>Debug your code</p>
-      image:
-        src: https://docs.microsoft.com/media/common/i_debug.svg
-    - href: develop-javascript-code-without-solutions-projects.md
-      html: <p>Develop code without projects or solutions</p>
-      image:
-        src: https://docs.microsoft.com/media/common/i_code-edit.svg
-    - href: unit-testing-javascript-with-visual-studio.md
-      html: <p>Write and run unit tests</p>
-      image:
-        src: https://docs.microsoft.com/media/common/i_unit-testing.svg
+  manager: jmartens
+  ms.date: 10/15/2019
+
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
+
+landingContent:
+# Cards and links should be based on top customer tasks or top subjects
+# Start card title with a verb
+  # Card (optional)
+  - title: Get started
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: JavaScript and TypeScript in Visual Studio
+            url: javascript-in-vs-2019.md
+      - linkListType: how-to-guide
+        links:
+          - text: Install Visual Studio
+            url: ../install/install-visual-studio.md
+      - linkListType: get-started
+        links:
+          - text: Start a guided tour
+            url: quickstart-ide-orientation-js.md
+
+  # Card (optional)
+  - title: Create JavaScript and TypeScript apps
+    linkLists:
+      - linkListType: quickstart
+        links:
+          - text: Create an Angular App
+            url: tutorial-create-angular-app.md?view=vs-2022
+          - text: Create a React App
+            url: tutorial-create-react-app.md
+          - text: Create a Vue App
+            url: tutorial-create-vue-app.md
+          - text: Create a web app with Node.js and Vue.js
+            url: quickstart-vuejs-with-nodejs.md
+      - linkListType: tutorial
+        links:
+          - text: Create a web app with Angular and ASP.NET Core
+            url: tutorial-asp-net-core-with-angular.md?view=vs-2022
+          - text: Create a web app with React and ASP.NET Core
+            url: tutorial-asp-net-core-with-react.md?view=vs-2022
+          - text: Create a web app with Node.js and Express
+            url: tutorial-nodejs.md
+          - text: Create a web app with Node.js and React
+            url: tutorial-nodejs-with-react-and-jsx.md
+          - text: Create an ASP.NET Core app with TypeScript
+            url: tutorial-aspnet-with-typescript.md
+
+  # Card
+  - title: Learn Visual Studio
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+          - text: Write and edit code
+            url: write-and-edit-code.md
+          - text: Compile TypeScript code using tsc
+            url: compile-typescript-code-npm.md
+          - text: Compile TypeScript code using NuGet
+            url: compile-typescript-code-nuget.md
+          - text: Manage npm packages
+            url: npm-package-management.md
+          - text: Use the Node.js interactive REPL
+            url: nodejs-interactive-repl.md
+          - text: Debug your code
+            url: debug-nodejs.md
+          - text: Develop code without projects or solutions
+            url: develop-javascript-code-without-solutions-projects.md
+          - text: Write and run unit tests
+            url: unit-testing-javascript-with-visual-studio.md

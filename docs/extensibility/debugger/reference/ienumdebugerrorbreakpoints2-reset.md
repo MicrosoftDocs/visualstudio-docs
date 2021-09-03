@@ -1,20 +1,22 @@
 ---
-title: "IEnumDebugErrorBreakpoints2::Reset | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Resets the error breakpoints enumeration to the first element."
+title: IEnumDebugErrorBreakpoints2::Reset | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IEnumDebugErrorBreakpoints2::Reset"
+- IEnumDebugErrorBreakpoints2::Reset
 helpviewer_keywords:
-  - "IEnumDebugErrorBreakpoints2::Reset"
+- IEnumDebugErrorBreakpoints2::Reset
 ms.assetid: d5b04bba-a8b9-4141-94fb-250c77f0534c
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IEnumDebugErrorBreakpoints2::Reset
 Resets the enumeration to the first element.

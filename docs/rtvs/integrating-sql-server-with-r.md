@@ -2,10 +2,12 @@
 title: Integrating SQL Server with R
 description: Visual Studio supports creating and running SQL queries from R and the ability for R to work with stored procedures.
 ms.date: 06/25/2018
+ms.prod: visual-studio-dev15
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb
-manager: jillfra
+manager: jmartens
+ms.technology: vs-rtvs
 ms.workload:
   - data-science
 ---
@@ -17,11 +19,16 @@ Visual Studio's excellent support for SQL Server helps data scientists work with
 > [!Note]
 > To work with SQL and R together, you must have the SQL Server Data Tools installed:
 > - Visual Studio 2017: run the Visual Studio installer and select the Data storage and processing workload, which includes SQL Server Data tools.
-> - Visual Studio 2015: follow the instructions on [Download SQL Server Data Tools](https://docs.microsoft.com/sql/ssdt/download-sql-server-data-tools-ssdt).
+> - Visual Studio 2015: follow the instructions on [Download SQL Server Data Tools](/sql/ssdt/download-sql-server-data-tools-ssdt).
 
-|   |   |
-|---|---|
-| ![movie camera icon for video](../install/media/video-icon.png "Watch a video") | [Watch a video (youtube.com)](https://www.youtube.com/watch?v=n4AYr0QIwdQ) for an overview of SQL Server and R (3m 03s). |
+:::row:::
+    :::column:::
+        ![movie camera icon for video](../install/media/video-icon.png "Watch a video")
+    :::column-end:::
+    :::column:::
+        [Watch a video (youtube.com)](https://www.youtube.com/watch?v=n4AYr0QIwdQ) for an overview of SQL Server and R (3m 03s).
+    :::column-end:::
+:::row-end:::
 
 ## Create and run SQL queries
 
@@ -40,11 +47,11 @@ Once a connection is established, you can run queries and see results:
 ![SQL window query results](media/sql-query-results.png)
 
 The Transact-SQL editor supports a variety of other features, such as viewing the execution plan for the query and a query debugger.
-For more information, see [Use Transact-SQL Editor to Edit and Execute Scripts](https://msdn.microsoft.com/library/hh272706.aspx).
+For more information, see [Use Transact-SQL Editor to Edit and Execute Scripts](/previous-versions/sql/sql-server-data-tools/hh272706(v=vs.103)).
 
 ## Work with SQL Server stored procedures
 
-[SQL Server R Services](https://docs.microsoft.com/sql/advanced-analytics/r/sql-server-r-services) (SQL Server 2016 and later) lets you embed and run R code from a T-SQL stored procedure. You can run R code on a SQL Server computer, operate on data returned from a SQL query, and generate a SQL result set that can be processed by further SQL or returned to the client.
+[SQL Server R Services](/sql/advanced-analytics/r/sql-server-r-services) (SQL Server 2016 and later) lets you embed and run R code from a T-SQL stored procedure. You can run R code on a SQL Server computer, operate on data returned from a SQL query, and generate a SQL result set that can be processed by further SQL or returned to the client.
 
 RTVS simplifies the otherwise unwieldy and error-prone process of combining SQL and R code inside a single SQL statement, as described in the following sections:
 
@@ -52,9 +59,14 @@ RTVS simplifies the otherwise unwieldy and error-prone process of combining SQL 
 - [Write and test a SQL stored procedure](#write-and-test-a-sql-stored-procedure)
 - [Publish a SQL stored procedure](#publish-a-sql-stored-procedure)
 
-|   |   |
-|---|---|
-| ![movie camera icon for video](../install/media/video-icon.png "Watch a video") | [Watch a video (youtube.com)](https://www.youtube.com/watch?v=dFKIT2OitWQ) for an overview of R and SQL stored procedures (6m 09s). |
+:::row:::
+    :::column:::
+        ![movie camera icon for video](../install/media/video-icon.png "Watch a video")
+    :::column-end:::
+    :::column:::
+        [Watch a video (youtube.com)](https://www.youtube.com/watch?v=dFKIT2OitWQ) for an overview of R and SQL stored procedures (6m 09s).
+    :::column-end:::
+:::row-end:::
 
 ### Add a database connection
 
@@ -92,7 +104,7 @@ OutputDataSet <- InputDataSet
 Simply said, the code receives an R dataframe called `InputDataSet` and returns its results in `OutputDataSet`, with the template code merely copying the input to the output.
 
 > [!Note]
-> The names of these dataframes are controlled by the `@input_data_1_name` and `@output_data_1_name` parameters in the call to the `sp_execute_external_script` system stored procedure. For more details on the design of this calling convention and some examples of its usage, see [sp_execute_external_script (Transact-SQL)](https://docs.microsoft.com/sql/relational-databases/system-stored-procedures/sp-execute-external-script-transact-sql).
+> The names of these dataframes are controlled by the `@input_data_1_name` and `@output_data_1_name` parameters in the call to the `sp_execute_external_script` system stored procedure. For more details on the design of this calling convention and some examples of its usage, see [sp_execute_external_script (Transact-SQL)](/sql/relational-databases/system-stored-procedures/sp-execute-external-script-transact-sql).
 
 The other generated code (in comments) provides a small test script that uses the [RODBC package](https://cran.r-project.org/web/packages/RODBC/index.html) to transmit a SQL statement to SQL Server, run it, and retrieve its result set as an R dataframe. You can uncomment this test code to interactively write your R code against the result set that you get from SQL Server.
 

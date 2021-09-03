@@ -1,7 +1,8 @@
 ---
 title: "Microsoft Visual Studio Debugger (Exception Thrown) Dialog Box | Microsoft Docs"
 titleSuffix: ""
-ms.custom: "seodec18"
+description: "Learn what to do when an exception occurs that your program needs to handle. You can: 1) break into the debugger; 2) continue; or 3) ignore."
+ms.custom: "SEO-VS-2020"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 f1_keywords:
@@ -19,7 +20,8 @@ helpviewer_keywords:
 ms.assetid: 1fe98d10-c8f9-4b39-a920-99169bfd542e
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -38,7 +40,7 @@ An exception has occurred in your program. This dialog box reports the kind of e
  **Ignore**
  Allows execution to continue without invoking the exception handler. Because the exception handler is not invoked, this can lead to further consequences, including additional exceptions and errors. This option is not available for certain types of exceptions.
 
-## See Also
+## See also
 - [Managing Exceptions with the Debugger](../debugger/managing-exceptions-with-the-debugger.md)
 - [Best Practices for Exceptions](/dotnet/standard/exceptions/best-practices-for-exceptions)
 - [Exception Handling](/cpp/extensions/exception-handling-cpp-component-extensions)

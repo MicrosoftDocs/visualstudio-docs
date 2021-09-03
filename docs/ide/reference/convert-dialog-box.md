@@ -1,19 +1,22 @@
 ---
 title: Project converters
+description: The Convert dialog box was used in previous versions of Visual Studio and is now deprecated.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "jlca_Conversion_F1_3"
-  - "JLCA_Conversion_F1"
-  - "jlca_Conversion_F1"
+- jlca_Conversion_F1_3
+- JLCA_Conversion_F1
+- jlca_Conversion_F1
 helpviewer_keywords:
-  - "Convert dialog box"
+- Convert dialog box
 ms.assetid: 56f23ef7-17c4-4d76-9ead-982bbcd42061
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
+manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Convert dialog box
 

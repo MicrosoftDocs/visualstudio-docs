@@ -1,11 +1,15 @@
 ---
 title: "GlobalOn and GlobalOff | Microsoft Docs"
+description: Review the GlobalOn and GlobalOff options in VSPerfCmd.exe. These options pause and resume profiling for processes and threads in a command-line profiling session.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 ms.assetid: 24b0ed68-d19e-473e-9af3-252c11d82bcf
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
+monikerRange: 'vs-2017'
 ms.workload:
   - "multiple"
 ---

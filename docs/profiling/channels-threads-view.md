@@ -1,5 +1,7 @@
 ---
 title: "Channels (Threads View) | Microsoft Docs"
+description: Read about Threads view when using channels in the Visual Studio Concurrency Visualizer. View thread channels, disk channels, marker channels, and GPU channels.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:
@@ -9,7 +11,8 @@ helpviewer_keywords:
 ms.assetid: 2f798c17-2363-42a4-be94-a5751d208eac
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -19,7 +22,7 @@ The Concurrency Visualizer shows four kinds of channels: thread channels, disk c
 ## Thread channels
  A thread channel shows thread state, by color, for just one thread. When you pause on the channel name, the start function for the given thread is displayed. The Concurrency Visualizer detects several kinds of threads. The most common kinds are shown in the following table.
 
-|||
+|Thread|Description|
 |-|-|
 |Main thread|The thread that started the app.|
 |Worker thread|A thread that was created by the application main thread.|

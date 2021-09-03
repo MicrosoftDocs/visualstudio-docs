@@ -1,5 +1,6 @@
 ---
 title: "Sleep Time | Microsoft Docs"
+description: Learn that he sleep category implies that a thread has voluntarily given up its logical core and is doing no work. 
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:
@@ -9,7 +10,8 @@ helpviewer_keywords:
 ms.assetid: 3ddb96f9-9bda-4a68-ad4d-ef488a0a68dc
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---

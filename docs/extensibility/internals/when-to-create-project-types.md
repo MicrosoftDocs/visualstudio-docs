@@ -1,15 +1,18 @@
 ---
-title: "When to Create Project Types | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: When to Create Project Types | Microsoft Docs
+description: Learn how to determine whether a new project type is required for customizing Visual Studio for your users.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "project types, conditions for creating"
+- project types, conditions for creating
 ms.assetid: 26adc860-ee4a-4f5c-95e1-e41b207dd7e6
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # When to Create Project Types
 Creating a new project type provides a basis for customizing [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] for your users. However, creating a new project type is not required for all [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] customizations. The following guidelines should help you determine whether a new project type is required for your scenario.
@@ -44,14 +47,14 @@ Creating a new project type provides a basis for customizing [!INCLUDE[vsprvs](.
 |Task|Description|
 |----------|-----------------|
 |Handling commands|Any VSPackage can handle commands.|
-|Building an editor|Custom editors can be registered. For more information, see [Document Windows and Editors](https://msdn.microsoft.com/library/603625e1-62b6-413a-bc44-089346e166bc).|
+|Building an editor|Custom editors can be registered. For more information, see [Document Windows and Editors](/previous-versions/bb165691(v=vs.100)).|
 |Owning windows|You can create both tool and document windows without adding a new project type.|
 |Exposing properties in the Properties window|All objects can expose properties.|
 
 ## Create a Project Subtype
  You can use project subtypes to extend a managed project type without having to create a new project type. Project subtypes use COM aggregation to extend managed projects written in Microsoft [!INCLUDE[vbprvb](../../code-quality/includes/vbprvb_md.md)] or [!INCLUDE[csprcs](../../data-tools/includes/csprcs_md.md)]. With COM aggregation, you can reuse much of the managed project system implementation and  still customize for a particular scenario through aggregation and the use of supporting interfaces. For more information about project subtypes, see [Project Subtypes](../../extensibility/internals/project-subtypes.md).
 
-## See Also
-- [Document Windows and Editors](https://msdn.microsoft.com/library/603625e1-62b6-413a-bc44-089346e166bc)
+## See also
+- [Document Windows and Editors](/previous-versions/bb165691(v=vs.100))
 - [Checklist: Creating New Project Types](../../extensibility/internals/checklist-creating-new-project-types.md)
 - [Hierarchies in Visual Studio](../../extensibility/internals/hierarchies-in-visual-studio.md)

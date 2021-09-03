@@ -1,22 +1,27 @@
 ---
-title: "How to: Exclude Files from the Build | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: 'How to: Exclude Files from the Build | Microsoft Docs'
+description: Learn how to explicitly exclude or conditionally include files from builds in MSBuild project files.
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "MSBuild, wildcards"
-  - "MSBuild, excluding files"
-  - "wildcards, MSBuild"
+- MSBuild, wildcards
+- MSBuild, excluding files
+- wildcards, MSBuild
 ms.assetid: 1be36e45-01da-451c-972d-f9fc0e7d663c
-author: mikejo5000
-ms.author: mikejo
-manager: jillfra
+author: ghogen
+ms.author: ghogen
+manager: jmartens
+ms.technology: msbuild
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Exclude files from the build
+
 In a project file you can use wildcards to include all the files in one directory or a nested set of directories as inputs for a build. However, there might be one file in the directory or one directory in a nested set of directories that you do not want to include as input for a build. You can explicitly exclude that file or directory from the list of inputs. There may also be a file in a project that you only want to include under certain conditions. You can explicitly declare the conditions under which a file is included in a build.
 
 ## Exclude a file or directory from the inputs for a build
+
  Item lists are the input files for a build. The items that you want to include are declared either separately or as a group using the `Include` attribute. For example:
 
 ```xml
@@ -70,6 +75,7 @@ In a project file you can use wildcards to include all the files in one director
     > You must specify the path for both attributes. If you use an absolute path to specify file locations in the `Include` attribute, you must also use an absolute path in the `Exclude` attribute; if you use a relative path in the `Include` attribute, you must also use a relative path in the `Exclude` attribute.
 
 ## Use conditions to exclude a file or directory from the inputs for a build
+
  If there are items that you want to include, for example, in a Debug build but not a Release build, you can use the `Condition` attribute to specify the conditions under which to include the item.
 
 #### To include the file *Formula.vb* only in Release builds
@@ -83,6 +89,7 @@ In a project file you can use wildcards to include all the files in one director
     ```
 
 ## Example
+
  The following code example builds a project with all of the *.cs* files in the directory except *Form2.cs*.
 
 ```xml
@@ -117,6 +124,7 @@ In a project file you can use wildcards to include all the files in one director
 ```
 
 ## See also
+
 - [Items](../msbuild/msbuild-items.md)
 - [MSBuild](../msbuild/msbuild.md)
 - [How to: Select the files to build](../msbuild/how-to-select-the-files-to-build.md)

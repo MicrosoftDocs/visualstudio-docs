@@ -1,19 +1,21 @@
 ---
-title: "IDebugComPlusSymbolProvider::GetEntryPoint | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Retrieves the application entry point."
+title: IDebugComPlusSymbolProvider::GetEntryPoint | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "IDebugComPlusSymbolProvider::GetEntryPoint"
-  - "GetEntryPoint"
+- IDebugComPlusSymbolProvider::GetEntryPoint
+- GetEntryPoint
 ms.assetid: 9640e121-1da1-41f9-8e66-76efca36baf2
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugComPlusSymbolProvider::GetEntryPoint
 Retrieves the application entry point.

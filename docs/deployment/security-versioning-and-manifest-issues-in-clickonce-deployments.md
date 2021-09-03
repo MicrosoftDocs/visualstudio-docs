@@ -1,5 +1,7 @@
 ---
-title: "Security/versioning/manifest issues in ClickOnce deployment"
+title: "Security/versioning/manifest issues (ClickOnce)"
+description: Learn about issues with ClickOnce security, application versioning, and manifest syntax and semantics that can cause a ClickOnce deployment not to succeed.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:
@@ -19,7 +21,8 @@ helpviewer_keywords:
   - "ClickOnce applications, security issues"
 author: mikejo5000
 ms.author: mikejo
-manager: jillfra
+manager: jmartens
+ms.technology: vs-ide-deployment
 ms.workload:
   - "multiple"
 ---

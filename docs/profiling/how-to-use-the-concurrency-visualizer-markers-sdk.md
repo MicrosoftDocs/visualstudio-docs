@@ -1,13 +1,15 @@
 ---
-title: "How To: Use the Concurrency Visualizer Markers SDK | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Use the Concurrency Visualizer Markers SDK | Microsoft Docs
+description: Learn how to use the Concurrency Visualizer markers SDK in Visual Studio to create spans and write flags, messages, and alerts. 
+ms.date: 11/04/2016
+ms.topic: how-to
 ms.assetid: 19a45032-f8a7-4137-890e-2ceeec938b8d
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jillfra
-ms.workload:
-  - "multiple"
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.technology: vs-ide-debug
+ms.workload: 
+  - multiple
 ---
 # How To: Use the Concurrency Visualizer markers SDK
 This topic shows how to use the Concurrency Visualizer SDK to create spans and write flags, messages, and alerts.
@@ -64,7 +66,7 @@ This topic shows how to use the Concurrency Visualizer SDK to create spans and w
 
 6. Start the current project to display the Concurrency Visualizer. The two marker series appear in their own lanes in Threads View. The following illustration shows the two new spans.
 
-     ![Concurrency Visualizer with 3 custom marker series](../profiling/media/cvmarkerseriesnative.png "CvMarkerSeriesNative")
+     ![Screenshot of the Threads view in the Concurrency Visualizer, showing a marker, flag, and message series, with a flag span and message span.](../profiling/media/cvmarkerseriesnative.png "CvMarkerSeriesNative")
 
 ### To Use Visual Basic or C\#
 
@@ -158,7 +160,7 @@ This topic shows how to use the Concurrency Visualizer SDK to create spans and w
 
 6. Start the current project to display the Concurrency Visualizer. The three marker series appear in their own lanes in the Threads View. The following illustration shows the three new spans.
 
-     ![Concurrency Visualizer with 3 custom marker series](../profiling/media/cvmarkerseriesmanaged.png "CvMarkerSeriesManaged")
+     ![Screenshot of the Threads view in the Concurrency Visualizer, showing a marker, flag, and message series, with a message, alert, and flag span.](../profiling/media/cvmarkerseriesmanaged.png "CvMarkerSeriesManaged")
 
 ## See also
 - [Concurrency Visualizer SDK](../profiling/concurrency-visualizer-sdk.md)

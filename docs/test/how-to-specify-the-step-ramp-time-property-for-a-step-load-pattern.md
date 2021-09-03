@@ -1,13 +1,16 @@
 ---
-title: "Step Ramp Time for a Step Load Pattern for load testing"
+title: Step ramp time for load testing
+description: Learn how to set the Step Ramp Time property in the Properties window. The Step Ramp Time property is only used with a step load pattern.
+ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
-ms.topic: conceptual
-helpviewer_keywords:
-  - "load tests, load patterns"
+ms.topic: how-to
+helpviewer_keywords: 
+  - load tests, load patterns
 ms.assetid: 4a69e857-f93b-4907-9a01-fd1b66291205
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.technology: vs-ide-test
 ---
 # How to: Specify the step ramp time property for a step load pattern
 

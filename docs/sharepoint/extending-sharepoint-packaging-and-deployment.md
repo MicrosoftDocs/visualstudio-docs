@@ -1,5 +1,7 @@
 ---
 title: "Extending SharePoint Packaging and Deployment | Microsoft Docs"
+description: Extend SharePoint packaging and deployment. Create deployment steps and configurations. Handle deployment conflicts. Customize validation rules.
+ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -9,7 +11,8 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, extending deployment"
 author: John-Hart
 ms.author: johnhart
-manager: jillfra
+manager: jmartens
+ms.technology: sharepoint-development
 ms.workload:
   - "office"
 ---

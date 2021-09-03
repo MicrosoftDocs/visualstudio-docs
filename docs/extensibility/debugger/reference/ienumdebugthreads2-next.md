@@ -1,20 +1,22 @@
 ---
-title: "IEnumDebugThreads2::Next | Microsoft Docs"
-ms.date: "11/04/2016"
+description: "Returns the next set of elements from the threads enumeration."
+title: IEnumDebugThreads2::Next | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IEnumDebugThreads2::Next"
+- IEnumDebugThreads2::Next
 helpviewer_keywords:
-  - "IEnumDebugThreads2::Next"
+- IEnumDebugThreads2::Next
 ms.assetid: bcffd954-3c67-4867-96f3-041ddb3e34d4
-author: madskristensen
-ms.author: madsk
-manager: jillfra
+author: leslierichardson95
+ms.author: lerich
+manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IEnumDebugThreads2::Next
 Returns the next set of elements from the enumeration.

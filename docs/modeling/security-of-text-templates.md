@@ -1,14 +1,17 @@
 ---
 title: Security of Text Templates
+description: Learn about security and text templates, including topics like arbitrary code and malicious directive processors.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "text templates, security"
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+- text templates, security
+author: mgoertz-msft
+ms.author: mgoertz
+manager: jmartens
+ms.technology: vs-ide-modeling
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Security of Text Templates
 Text templates have the following security concerns:
