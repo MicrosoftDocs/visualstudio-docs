@@ -255,7 +255,7 @@ To add a unit test project to your solution, start from a project template so yo
 
 ## Add a project reference
 
-You'll use the new unit test project to test your method in the **QuickDate** project, so you need to add a reference to that project. Adding the reference creates a *build dependency* between the two projects, meaning that when you build the solution, **QuickDate** builds before **QuickTest**.
+You'll use the new unit test project to test your method in the **QuickDate** project, so you need to add a reference to **QuickDate** to the **QuickTest** project. Adding the reference creates a *build dependency* between the two projects, meaning that when you build the solution, **QuickDate** builds before **QuickTest**.
 
 ::: moniker range="vs-2017"
 
@@ -391,7 +391,7 @@ The line in the *Calendar.cs* file that contains the <xref:System.Runtime.Compil
 
    The *property pages* for the project open to the **Application** tab. The **Assembly name** of the QuickTest project is indeed **QuickTest**.
 
-   If you want, you can change the name here. When you build the test project, the name of the resulting binary file changes from *QuickTest.dll* to *\<NewName>.dll*.
+   If you want, you can change the name here. When you build the test project, the name of the resulting binary file then changes from *QuickTest.dll* to *\<NewName>.dll*.
 
     ::: moniker range="<=vs-2019"
 
