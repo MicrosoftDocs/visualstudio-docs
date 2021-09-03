@@ -99,7 +99,7 @@ Save the following example Dockerfile to a new file on your disk. If the file is
    
    ::: moniker-end
 
-   ::: moniker range=">=vs-2019"
+   ::: moniker range="vs-2019"
 
    ```dockerfile
    # escape=`
@@ -143,6 +143,49 @@ Save the following example Dockerfile to a new file on your disk. If the file is
 
    ::: moniker-end
    
+   ::: moniker range=">=vs-2022"
+
+   ```dockerfile
+   # escape=`
+
+   # Use the latest Windows Server Core image with .NET Framework 4.8.
+   FROM mcr.microsoft.com/dotnet/framework/sdk:4.8-windowsservercore-ltsc2019
+
+   # Restore the default Windows shell for correct batch processing.
+   SHELL ["cmd", "/S", "/C"]
+
+   RUN `
+       # Download the Build Tools bootstrapper.
+       curl -SL --output vs_buildtools.exe https://aka.ms/vs/17/pre/vs_buildtools.exe `
+       `
+       # Install Build Tools with the Microsoft.VisualStudio.Workload.AzureBuildTools workload, excluding workloads and components with known issues.
+       && (start /w vs_buildtools.exe --quiet --wait --norestart --nocache modify `
+           --installPath "%ProgramFiles(x86)%\Microsoft Visual Studio\2022\BuildTools" `
+           --add Microsoft.VisualStudio.Workload.AzureBuildTools `
+           --remove Microsoft.VisualStudio.Component.Windows10SDK.10240 `
+           --remove Microsoft.VisualStudio.Component.Windows10SDK.10586 `
+           --remove Microsoft.VisualStudio.Component.Windows10SDK.14393 `
+           --remove Microsoft.VisualStudio.Component.Windows81SDK `
+           || IF "%ERRORLEVEL%"=="3010" EXIT 0) `
+       `
+       # Cleanup
+       && del /q vs_buildtools.exe
+
+   # Define the entry point for the docker container.
+   # This entry point starts the developer command prompt and launches the PowerShell shell.
+   ENTRYPOINT ["C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\Tools\\VsDevCmd.bat", "&&", "powershell.exe", "-NoLogo", "-ExecutionPolicy", "Bypass"]
+   ```
+
+   > [!TIP]
+   > For a list of workloads and components, see the [Visual Studio Build Tools component directory](workload-component-id-vs-build-tools.md).
+   >
+
+   > [!WARNING]
+   > If you base your image directly on microsoft/windowsservercore, the .NET Framework might not install properly and no install error is indicated. Managed code might not run after the install is complete. Instead, base your image on [microsoft/dotnet-framework:4.8](https://hub.docker.com/r/microsoft/dotnet-framework) or later. Also note that images that are tagged version 4.8 or later might use PowerShell as the default `SHELL`, which will cause the `RUN` and `ENTRYPOINT` instructions to fail.
+   >
+   > See [Windows container version compatibility](/virtualization/windowscontainers/deploy-containers/version-compatibility) to see which container OS versions are supported on which host OS versions, and [Known issues for containers](build-tools-container-issues.md) for known issues.
+
+   ::: moniker-end
    > [!NOTE]
    > Error code `3010` is used to indicate success with a reboot required, see [MsiExec.exe error messages](/windows/win32/msi/error-codes) for more information.
 
@@ -160,7 +203,7 @@ Save the following example Dockerfile to a new file on your disk. If the file is
 
    ::: moniker-end
 
-   ::: moniker range=">=vs-2019"
+   ::: moniker range="vs-2019"
 
    ```shell
    docker build -t buildtools2019:latest -m 2GB .
@@ -169,6 +212,18 @@ Save the following example Dockerfile to a new file on your disk. If the file is
    This command builds the Dockerfile in the current directory using 2 GB of memory. The default 1 GB is not sufficient when some workloads are installed; however, you might be able to build with only 1 GB of memory depending on your build requirements.
 
    The final image is tagged "buildtools2019:latest" so you can easily run it in a container as "buildtools2019" since the "latest" tag is the default if no tag is specified. If you want to use a specific version of Visual Studio Build Tools 2019 in a more [advanced scenario](advanced-build-tools-container.md), you might instead tag the container with a specific Visual Studio build number as well as "latest" so containers can use a specific version consistently.
+
+   ::: moniker-end
+
+   ::: moniker range=">=vs-2022"
+
+   ```shell
+   docker build -t buildtools:latest -m 2GB .
+   ```
+
+   This command builds the Dockerfile in the current directory using 2 GB of memory. The default 1 GB is not sufficient when some workloads are installed; however, you might be able to build with only 1 GB of memory depending on your build requirements.
+
+   The final image is tagged "buildtools:latest" so you can easily run it in a container as "buildtools" since the "latest" tag is the default if no tag is specified. If you want to use a specific version of Visual Studio Build Tools in a more [advanced scenario](advanced-build-tools-container.md), you might instead tag the container with a specific Visual Studio build number as well as "latest" so containers can use a specific version consistently.
 
    ::: moniker-end
 
@@ -188,10 +243,18 @@ Now that you have created an image, you can run it in a container to do both int
 
    ::: moniker-end
 
-   ::: moniker range=">=vs-2019"
+   ::: moniker range="vs-2019"
 
    ```shell
    docker run -it buildtools2019
+   ```
+
+   ::: moniker-end
+
+   ::: moniker range=">=vs-2022"
+
+   ```shell
+   docker run -it buildtools
    ```
 
    ::: moniker-end

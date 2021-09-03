@@ -1,7 +1,11 @@
 ---
 title: "Publish to IIS by importing publish settings"
 description: "Create and import a publishing profile to deploy an application from Visual Studio to IIS"
+<<<<<<< HEAD
 ms.date: 08/24/2021
+=======
+ms.date: 08/27/2021
+>>>>>>> f71a0db01bd4f24521cee5da926b9db3571ddecd
 ms.topic: tutorial
 helpviewer_keywords:
   - "deployment, publish settings"
@@ -83,7 +87,17 @@ A publish settings file (*\*.publishsettings*) is different than a publishing pr
 
 [!INCLUDE [import-publish-settings](../deployment/includes/import-publish-settings-vs.md)]
 
-After the app deploys successfully, it should start automatically. If it does not start from Visual Studio, start the app in IIS. For ASP.NET Core, you need to make sure that the Application pool field for the **DefaultAppPool** is set to **No Managed Code**.
+After the app deploys successfully, it should start automatically.
+
+## Troubleshooting
+
+- If you can't connect to the host using the host name, try the IP address instead.
+- Make sure the required ports are open on the remote server.
+- For ASP.NET Core, you need to make sure that the Application pool field for the **DefaultAppPool** is set to **No Managed Code**.
+- Verify that the version of ASP.NET used in your app is the same as the version you installed on the server. For your app, you can view and set the version in the **Properties** page. To set the app to a different version, that version must be installed.
+- If the app tried to open, but you see a certificate warning, choose to trust the site. If you already closed the warning, you can edit the *.pubxml file in your project and add the following element (for test only): `<AllowUntrustedCertificate>true</AllowUntrustedCertificate>`
+- If the app does not start from Visual Studio, start the app in IIS to test that it deployed correctly.
+- Check the Output window in Visual Studio for status information, and check your error messages.
 
 ## Next steps
 
