@@ -63,7 +63,7 @@ Start your exploration by creating an empty solution. After you get to know Visu
 
 ::: moniker-end
 
-::: moniker range="2019"
+::: moniker range="vs-2019"
 
 1. Open Visual Studio.
 
