@@ -62,6 +62,10 @@
       href: ../python/publishing-python-web-applications-to-azure-from-visual-studio.md
 - name: How-to guides
   items:
+  - name: GitHub Actions CI/CD Publish
+    items: 
+    - name: Deploy to Azure using GitHub Actions
+      href: azure-deployment-using-github-actions.md
   - name: ClickOnce security and deployment
     items:
     - name: Overview of ClickOnce security and deployment
