@@ -1,7 +1,7 @@
 ---
 title: Learn about the Solution Explorer tool window
 description: Learn how you can use the Solution Explorer tool window in Visual Studio to create & manage your files, projects, and solutions.
-ms.date: 08/31/2021
+ms.date: 09/02/2021
 ms.topic: conceptual
 ms.custom: contperf-fy22q1
 f1_keywords:
@@ -64,15 +64,15 @@ The menu bar contains the following UI elements, from left to right:
 
 ## Solution Explorer context menu
 
-In Solution Explorer, there are several options that you can interact with by using the context menu. The following screenshot shows the context menu options that appear when you right-click the **Solution** node.
+In Solution Explorer, there are several options that you can interact with by using the context menu. The following screenshot for a C# app shows the context menu options that appear when you right-click the **Solution** node.
 
 :::image type="content" source="media/solution-explorer-context-menu.png" alt-text="Screenshot of the right-click context menu in Solution Explorer.":::
 
-What you see in the context menu from the **Solution** node also depends on your solution. The following screenshot highlights the following extra options: **Project Dependencies**, **Project Build Order**, **Set Startup Projects**, and a **Git** fly-out menu. These extra options appear when you add another project to the solution and then add the solution to a repo.
+What you see in the context menu from the **Solution** node also depends on your project type, programming language, or platform. The following screenshot highlights the following extra options for a C# app: **Project Dependencies**, **Project Build Order**, **Set Startup Projects**, and a **Git** fly-out menu. These extra options typically appear when you add another project to a solution and then add it to a repo.
 
-:::image type="content" source="media/solution-explorer-context-menu-added-items.png" alt-text="Screenshot of the right-click context menu in Solution Explorer with extra options.":::
+:::image type="content" source="media/solution-explorer-context-menu-extra-items.png" alt-text="Screenshot of the right-click context menu in Solution Explorer with extra options.":::
 
-## Add menu
+## The Add menu
 
 In the Solution Explorer context menu, one of the most useful options is the **Add** fly-out menu. From it, you can [add another project](../get-started/csharp/tutorial-console-part-2.md#add-another-project) to a solution. You can also [add an item](reference/add-new-item-command.md) to a project, and more.
 
