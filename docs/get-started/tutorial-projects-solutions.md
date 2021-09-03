@@ -15,7 +15,7 @@ ms.workload:
 ---
 # Introduction to projects and solutions
 
-In this introductory article, you explore what it means to create a *solution* and a *project* in Visual Studio. A solution is a container to organize one or more related code projects, like a class library project and a corresponding test project. In this article, you look at the properties of a project and some of the files it can contain. You also create a reference from one project to another.
+This introductory article explores what it means to create a *solution* and a *project* in Visual Studio. A solution is a container to organize one or more related code projects, like a class library project and a corresponding test project. You'll look at the properties of a project and some of the files it can contain. You'll also create a reference from one project to another.
 
 As an educational exercise to understand the concept of a project, you construct a solution and project from scratch. Usually in Visual Studio, you use project *templates* to create new projects.
 
@@ -45,7 +45,7 @@ In Visual Studio, a solution isn't an "answer". A solution is simply a container
 
 ### Create a solution
 
-Start your exploration by creating an empty solution. After you get to know Visual Studio, you probably won't create empty solutions very often. When you create a new project, Visual Studio automatically creates a solution to contain the project if there's not a solution already open.
+Start your exploration by creating an empty solution. After you get to know Visual Studio, you probably won't create empty solutions very often. When you create a new project, Visual Studio automatically creates a solution for the project unless a solution is already open.
 
 ::: moniker range="vs-2017"
 
@@ -95,7 +95,7 @@ Start your exploration by creating an empty solution. After you get to know Visu
 
 4. On the **Configure your new project** page, name the solution **QuickSolution**, and then select **Create**.
 
-   The **QuickSolution** solution appears in **Solution Explorer** on the right-hand side of the Visual Studio window. You use **Solution Explorer** often to browse the contents of your projects.
+   The **QuickSolution** solution appears in **Solution Explorer** on the right side of the Visual Studio window. You'll use **Solution Explorer** often to browse the contents of your projects.
 
 ::: moniker-end
 
@@ -200,7 +200,7 @@ Add a code file to your empty project.
    }
    ```
 
-   You don't need to understand the code. You can run the app by pressing **Ctrl**+**F5**, and see that the app prints today's date to the *console*, or standard output, window.
+   You don't need to understand everything the code is doing yet. Run the app by pressing **Ctrl**+**F5**, and see that the app prints today's date to the *console*, or standard output, window.
 
 ## Add a second project
 
@@ -247,7 +247,7 @@ To add a unit test project to your solution, start from a project template so yo
 
 1. On the **Configure your new project** page, name the project *QuickTest*, and then select **Create**.
 
-   Visual Studio adds the **QuickTest** project to **Solution Explorer**, and the *UnitTest1.cs* file opens in the editor.
+   Visual Studio adds the **QuickTest** project to **Solution Explorer**, and the **UnitTest1.cs** file opens in the editor.
 
    :::image type="content" source="media/vs-2022/tutorial-projects-solution-explorer.png" alt-text="Screenshot that shows Solution Explorer with two projects." border="false":::
 
@@ -291,6 +291,8 @@ You'll use the new unit test project to test your method in the **QuickDate** pr
 
 1. In the **Reference Manager** dialog box, select the checkbox next to **QuickDate**, and then select **OK**.
 
+   A reference to the **QuickDate** project appears under the **QuickTest** project in **Solution Explorer**.
+
    :::image type="content" source="media/vs-2022/tutorial-projects-solution-explorer-reference.png" alt-text="A screenshot of Solution Explorer showing a project reference." border="false":::
 
 ::: moniker-end
@@ -327,7 +329,7 @@ You'll use the new unit test project to test your method in the **QuickDate** pr
    [assembly: InternalsVisibleTo("QuickTest")]
    ```
 
-   The code file should look like this:
+   The **Calendar.cs** code should look like this screenshot:
 
    ::: moniker range="<=vs-2019"
 
@@ -341,7 +343,7 @@ You'll use the new unit test project to test your method in the **QuickDate** pr
 
    ::: moniker-end
 
-## Run the unit test
+### Run the unit test
 
 ::: moniker range="vs-2017"
 
@@ -387,7 +389,9 @@ The line in the *Calendar.cs* file that contains the <xref:System.Runtime.Compil
 
 1. In **Solution Explorer**, right-click the **QuickTest** project and select **Properties**, or select the project and press **Alt**+**Enter**.
 
-   The *property pages* for the project open to the **Application** tab. The **Assembly name** of the QuickTest project is indeed **QuickTest**. You can change the name here. Then, when you build the test project, the name of the resulting binary file changes from *QuickTest.dll* to whatever you named the project.
+   The *property pages* for the project open to the **Application** tab. The **Assembly name** of the QuickTest project is indeed **QuickTest**.
+
+   If you want, you can change the name here. When you build the test project, the name of the resulting binary file changes from *QuickTest.dll* to *\<NewName>.dll*.
 
     ::: moniker range="<=vs-2019"
 
