@@ -17,7 +17,7 @@ ms.workload:
 
 In this introductory article, you explore what it means to create a *solution* and a *project* in Visual Studio. A solution is a container to organize one or more related code projects, like a class library project and a corresponding test project. In this article, you look at the properties of a project and some of the files it can contain. You also create a reference from one project to another.
 
-As an educational exercise to understand the concept of a project, you construct a solution and project from scratch. In general Visual Studio use, you usually use project *templates* to create new projects.
+As an educational exercise to understand the concept of a project, you construct a solution and project from scratch. Usually in Visual Studio, you use project *templates* to create new projects.
 
 > [!NOTE]
 > Developing apps in Visual Studio doesn't require solutions and projects. You can just open a folder that contains code and start coding, building, and debugging. For example, a cloned [GitHub](https://github.com/) repo might not contain Visual Studio projects and solutions. For more information, see [Develop code in Visual Studio without projects or solutions](../ide/develop-code-in-visual-studio-without-projects-or-solutions.md).
@@ -35,7 +35,7 @@ If you haven't already installed Visual Studio 2019, go to the [Visual Studio do
 
 ::: moniker range=">=vs-2022"
 
-If you haven't already installed Visual Studio, go to the [Visual Studio 2022 Preview downloads](https://visualstudio.microsoft.com/downloads) page to install it for free.
+If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads) page to install it for free.
 
 ::: moniker-end
 
@@ -287,19 +287,11 @@ You'll use the new unit test project to test your method in the **QuickDate** pr
 
 ::: moniker range=">=vs-2022"
 
-1. In **Solution Explorer**, right-click the **References** node of the **Quick Test** project and **Add Reference** from the context menu.
+1. In **Solution Explorer**, right-click the **References** node of the **QuickTest** project, and select **Add Reference** from the context menu.
 
 1. In the **Reference Manager** dialog box, select the checkbox next to **QuickDate**, and then select **OK**.
 
-   :::image type="content" source="media/vs-2022/tutorial-projects-solution-dependencies.png" alt-text="A screenshot of Solution Explorer showing a project reference." border="false":::
-
-1. In **Solution Explorer**, right-click the **Quick Test** project and select **Build Dependencies** > **Project Dependencies** from the context menu.
-
-1. In the **Project Dependencies** dialog box, under **Depends on**, select the checkbox next to **QuickDate**.
-
-1. On the **Build Order** tab, make sure that **QuickDate** appears before **QuickTest**.
-
-1. Select **OK**.
+   :::image type="content" source="media/vs-2022/tutorial-projects-solution-explorer-reference.png" alt-text="A screenshot of Solution Explorer showing a project reference." border="false":::
 
 ::: moniker-end
 
@@ -349,29 +341,7 @@ You'll use the new unit test project to test your method in the **QuickDate** pr
 
    ::: moniker-end
 
-## Project properties
-
-The line in the *Calendar.cs* file that contains the <xref:System.Runtime.CompilerServices.InternalsVisibleToAttribute> attribute references the assembly name or file name of the **QuickTest** project. The assembly name might not always be the same as the project name. To find the assembly name of a project, use the project properties. The property pages contain various settings for the project.
-
-1. In **Solution Explorer**, right-click the **QuickTest** project and select **Properties**, or select the project and press **Alt**+**Enter**.
-
-   The *property pages* for the project open to the **Application** tab. The **Assembly name** of the QuickTest project is indeed **QuickTest**. You can change the name here. Then, when you build the test project, the name of the resulting binary file changes from *QuickTest.dll* to whatever you named the project.
-
-    ::: moniker range="<=vs-2019"
-
-    ![Screenshot that shows project properties.](media/tutorial-projects-netcore-properties.png)
-
-    ::: moniker-end
-
-    ::: moniker range=">=vs-2022"
-
-    :::image type="content" source="media/vs-2022/tutorial-project-properties.png" alt-text="Screenshot that shows project properties." border="false":::
-
-    ::: moniker-end
-
-1. Explore some of the other tabs of the project's property pages, such as **Build** and **Debug**. These tabs are different for different types of projects.
-
-## Next steps
+## Run the unit test
 
 ::: moniker range="vs-2017"
 
@@ -411,7 +381,29 @@ To check that your unit test is working, choose **Test** > **Run All Tests** fro
 
 ::: moniker-end
 
-## See also
+## Project properties
+
+The line in the *Calendar.cs* file that contains the <xref:System.Runtime.CompilerServices.InternalsVisibleToAttribute> attribute references the assembly name or file name of the **QuickTest** project. The assembly name might not always be the same as the project name. To find the assembly name of a project, use the project properties. The property pages contain various settings for the project.
+
+1. In **Solution Explorer**, right-click the **QuickTest** project and select **Properties**, or select the project and press **Alt**+**Enter**.
+
+   The *property pages* for the project open to the **Application** tab. The **Assembly name** of the QuickTest project is indeed **QuickTest**. You can change the name here. Then, when you build the test project, the name of the resulting binary file changes from *QuickTest.dll* to whatever you named the project.
+
+    ::: moniker range="<=vs-2019"
+
+    ![Screenshot that shows project properties.](media/tutorial-projects-netcore-properties.png)
+
+    ::: moniker-end
+
+    ::: moniker range=">=vs-2022"
+
+    :::image type="content" source="media/vs-2022/tutorial-project-properties.png" alt-text="Screenshot that shows project properties." border="false":::
+
+    ::: moniker-end
+
+1. Explore some of the other tabs of the project's property pages, such as **Build** and **Debug**. These tabs are different for different types of projects.
+
+## Next steps
 
 - [Work with projects and solutions](../ide/creating-solutions-and-projects.md)
 - [Manage project and solution properties](../ide/managing-project-and-solution-properties.md)
