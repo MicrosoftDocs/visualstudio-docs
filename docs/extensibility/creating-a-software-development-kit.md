@@ -195,7 +195,7 @@ The following list gives the elements of the file:
 
 The **ToolBoxItems** element of the *SDKManifest.xml* schema specifies the control names, source assemblies, and toolbox tab names of toolbox items in both platform and extension SDKs. The following examples show various scenarios. This is applicable to either WinMD or DLL references.
 
-Note that in Visual Studio 2019 and earlier, rather than listing toolbox control names in the manifest Visual Studio dynamically enumerated the control types in the SDK's assemblies. Starting in Visual Studio 2022, this is no longer supported; toolbox items must be explicitly listed in the *SDKManifest.xml*.
+Note that in Visual Studio 2019 and earlier, rather than listing toolbox control names in the manifest, Visual Studio dynamically enumerated the control types in the SDK's assemblies. Starting in Visual Studio 2022, this is no longer supported; toolbox items must be explicitly listed in *SDKManifest.xml*.
 
 1. Place controls in the toolbox default category.
 
