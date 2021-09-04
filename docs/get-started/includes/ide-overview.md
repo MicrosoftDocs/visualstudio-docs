@@ -31,7 +31,7 @@ The preceding image shows Visual Studio with an open project, and key windows an
 
 - In [Solution Explorer](../../ide/use-solution-explorer.md), at upper right, you can view, navigate, and manage your code files. **Solution Explorer** can help organize your code by grouping the files into [solutions and projects](../../ide/solutions-and-projects-in-visual-studio.md).
 
-- The central [editor window](../../ide/writing-code-in-the-code-and-text-editor.md), where you spend most of your time, displays file contents. In the editor window, you can edit code or design a user interface such as a window with buttons and text boxes.
+- The central [editor window](../../ide/writing-code-in-the-code-and-text-editor.md), where you'll probably spend most of your time, displays file contents. In the editor window, you can edit code or design a user interface such as a window with buttons and text boxes.
 
 ::: moniker range="vs-2017"
 
@@ -92,7 +92,7 @@ Some popular features in Visual Studio that improve your productivity when devel
 
 - [IntelliSense](../../ide/using-intellisense.md)
 
-   IntelliSense is a set of features that display information about your code directly in the editor and, in some cases, write small bits of code for you. IntelliSense is like having basic documentation inline in the editor, so you don't have to look up type information elsewhere.
+   IntelliSense is a set of features that display information about your code directly in the editor and, in some cases, write small bits of code for you. It's like having basic documentation inline in the editor, so you don't have to look up type information elsewhere.
 
    The following illustration shows how IntelliSense displays a member list for a type:
 
@@ -135,7 +135,7 @@ Some popular features in Visual Studio that improve your productivity when devel
 
 - [Live Share](/visualstudio/liveshare/)
 
-   Collaboratively edit and debug with others in real time, regardless of your app type or programming language. You can instantly and securely share your project. As needed, you can also share debugging sessions, terminal instances, localhost web apps, voice calls, and more.
+   Collaboratively edit and debug with others in real time, regardless of your app type or programming language. You can instantly and securely share your project. You can also share debugging sessions, terminal instances, localhost web apps, voice calls, and more.
 
 - [Call Hierarchy](../../ide/reference/call-hierarchy.md)
 
@@ -377,7 +377,7 @@ Dive in and create a simple program.
 
    ![Screenshot of the Additional information window with .NET 6.0 selected.](../media/vs-2022/create-project-additional-info.png)
 
-   Visual Studio creates the project. The program is a simple "Hello World" application that calls the <xref:System.Console.WriteLine?displayProperty=nameWithType> method to display the string **Hello, World!** in the program output, or console, window.
+   Visual Studio creates the project. The program is a simple "Hello World" application that calls the <xref:System.Console.WriteLine?displayProperty=nameWithType> method to display the string **Hello, World!** in a console window.
 
    The project files appear on the right side of the Visual Studio IDE, in a window called the **Solution Explorer**. In the **Solution Explorer** window, select the **Program.cs** file. The C# code for your app opens in the central editor window, which takes up most of the space.
 
@@ -391,7 +391,7 @@ Dive in and create a simple program.
 
    Many other menus and tool windows are available.
 
-1. Start the app by selecting **Start Without Debugging** from the **Debug** menu on the top menu bar. You can also press **Ctrl**+**F5**.
+1. Start the app by choosing **Debug** > **Start Without Debugging** from the Visual Studio top menu. You can also press **Ctrl**+**F5**.
 
    ![Screenshot that shows the Debug > Start without Debugging menu item.](../media/vs-2022/overview-start-without-debugging.png)
 
@@ -512,9 +512,9 @@ When you write code, you should run it and test it for bugs. Visual Studio's deb
 
 Set a breakpoint to see the value of the `username` variable while the program is running.
 
-1. Set a breakpoint on the line of code that says `Console.WriteLine($"\nHello {username}!");` by clicking in the left gutter next to the line. You can also select the line of code and then press **F9**.
+1. Set a breakpoint on the line of code that says `Console.WriteLine($"\nHello {username}!");` by clicking in the far-left margin, or gutter, next to the line. You can also select the line of code and then press **F9**.
 
-   A red circle appears in the far left margin, and the line is highlighted.
+   A red circle appears in the gutter, and the line is highlighted.
 
    ::: moniker range="<=vs-2019"
    ![Screenshot that shows a breakpoint on a line of code in Visual Studio.](../media/breakpoint.png)
