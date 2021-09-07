@@ -2,7 +2,7 @@
 title: Customize menus and toolbars
 description: Learn how to customize Visual Studio menus and toolbars, and also learn how to customize any commands included in the menus and toolbars.
 ms.custom: SEO-VS-2020
-ms.date: 11/04/2016
+ms.date: 09/01/2021
 ms.topic: how-to
 f1_keywords:
 - vs.renametoolbar
@@ -35,8 +35,8 @@ ms.workload:
 
 You can customize Visual Studio not only by adding and removing toolbars and menus on the menu bar, but also by adding and removing commands on any given toolbar or menu.
 
-> [!WARNING]
-> After you customize a toolbar or menu, make sure that its check box remains selected in the **Customize** dialog box. Otherwise, your changes won't persist after you close and reopen Visual Studio.
+> [!TIP]
+> To learn more about how to personalize the toolbar so that you can make it yours, see our recent blog post, [**Optimizing toolbars for your workflow**](https://devblogs.microsoft.com/visualstudio/optimizing-toolbars-for-your-workflow/).
 
 ## Add, remove, or move a menu on the menu bar
 
@@ -79,6 +79,9 @@ You can customize Visual Studio not only by adding and removing toolbars and men
         > For more information about how to improve the usability and accessibility of toolbars, see [How to: Set IDE accessibility options](../ide/reference/how-to-set-ide-accessibility-options.md).
 
 ## <a name="customizing_menu">Customize a menu or a toolbar</a>
+
+> [!WARNING]
+> After you customize a toolbar or menu, make sure that its check box remains selected in the **Customize** dialog box. Otherwise, your changes won't persist after you close and reopen Visual Studio.
 
 1. On the menu bar, choose **Tools** > **Customize**.
 

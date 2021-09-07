@@ -2,7 +2,7 @@
 title: Default keyboard shortcuts
 description: Learn about the default keyboard shortcuts in Visual Studio that allow you to access a variety of commands and windows.
 ms.custom: SEO-VS-2020
-ms.date: 08/11/2021
+ms.date: 08/23/2021
 ms.topic: reference
 helpviewer_keywords:
 - shortcut keys [Visual Studio], keyboard binding schemes
@@ -400,6 +400,7 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 |-|-|-|
 |Breakpoint conditions|**Alt+F9, C**| EditorContextMenus.CodeWindow.Breakpoint.BreakpointConditions |
 |Breakpoint edit labels|**Alt+F9, L**| EditorContextMenus.CodeWindow.Breakpoint.BreakpointEditlabels |
+|Insert temporary breakpoint|**Shift+Alt+F9, T**| EditorContextMenus.CodeWindow.Breakpoint.InsertTemporaryBreakpoint |
 |Show item|**Ctrl+`**| EditorContextMenus.CodeWindow.CodeMap.ShowItem |
 |Execute|**Ctrl+Alt+F5**| EditorContextMenus.CodeWindow.Execute |
 |Go to view|**Ctrl+M, Ctrl+G**| EditorContextMenus.CodeWindow.GoToView |
