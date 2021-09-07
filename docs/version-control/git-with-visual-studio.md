@@ -1,8 +1,8 @@
 ---
-title: The Git experience in Visual Studio 2019
+title: The Git experience in Visual Studio
 titleSuffix: ""
 description: Learn how the new integrated Git experience in Visual Studio 2019 can help you be more productive.
-ms.date: 06/17/2021
+ms.date: 09/07/2021
 ms.topic: overview
 ms.author: tglee
 author: TerryGLee
@@ -12,16 +12,34 @@ ms.manager: jmartens
 ---
 # Git experience in Visual Studio
 
-Git is now the default version control experience in Visual Studio 2019. Since [version 16.6](/visualstudio/releases/2019/release-notes-v16.6), we've worked on building out the feature set and iterating on it based on your feedback. The new Git experience is turned on by default for everyone with the release of [version 16.8](/visualstudio/releases/2019/release-notes/).
+::: moniker range=">=vs-2022"
 
-> [!TIP]
-> Git is the most widely used modern version control system, so whether you’re a professional developer or if you’re learning how to code, Git can be very useful to you. If you are new to Git, the https://git-scm.com/ website is a good place to start. There, you’ll find cheat sheets, a popular online book, and Git Basics videos.
+Git is the default version control experience in Visual Studio. We continue to build out the feature set and iterate on it, based on your feedback. To learn more about one of the recent feature updates, see the [Multi-repo support in Visual Studio](https://devblogs.microsoft.com/visualstudio/multi-repo-support-in-visual-studio/) blog post.
+
+::: moniker-end
+
+::: moniker range="<=vs-2019"
+
+Git is now the default version control experience in Visual Studio 2019. Since [version 16.6](/visualstudio/releases/2019/release-notes-v16.6), we've worked on building out the feature set and iterating on it based on your feedback. The new Git experience is turned on by default for everyone, starting with the release of [version 16.8](/visualstudio/releases/2019/release-notes-v16.8).
+
+> [!NOTE]
+> We continue to build out and iterate on the Git feature set in Visual Studio 2022, too. To learn more about one of the recent feature updates, see the [Multi-repo support in Visual Studio](https://devblogs.microsoft.com/visualstudio/multi-repo-support-in-visual-studio/) blog post.
+
+::: moniker-end
+
+## Get started
+
+Git is the most widely used modern version control system, so whether you're a professional developer or if you’re learning how to code, Git can be very useful to you. If you are new to Git, the [https://git-scm.com/](https://git-scm.com/) website is a good place to start. There, you'll find cheat sheets, a popular online book, and Git Basics videos.
 
 ## How to use Git in Visual Studio
+
+::: moniker range="<=vs-2019"
 
 We'll walk you through how to use the new Git experience in Visual Studio 2019, but if you'd like to take a quick tour first, check out the following video: <br><br>*Video length: 5.27 minutes*
 
 > [!VIDEO https://www.youtube.com/embed/UHrAg3iKoe0]
+
+::: moniker-end
 
 There are three ways to start using Git with Visual Studio to be more productive:
 
@@ -30,7 +48,7 @@ There are three ways to start using Git with Visual Studio to be more productive
 - [Clone an existing Git repository](#clone-an-existing-git-repository). If the code that you would like to work on is not on your machine, you can clone any existing remote repositories.
 
 > [!NOTE]
-> Starting also with [version 16.8](/visualstudio/releases/2019/release-notes/), Visual Studio 2019 includes a fully integrated GitHub account experience. You can now add both GitHub and GitHub Enterprise accounts to your keychain. You’ll be able to add and leverage them just as you do with Microsoft accounts, which means that you’ll have an easier time accessing your GitHub resources across Visual Studio. For more information, see the [Work with GitHub accounts in Visual Studio](../ide/work-with-github-accounts.md) page.
+> Starting with Visual Studio 2019 [version 16.8](/visualstudio/releases/2019/release-notes-v16.8), we include a fully integrated GitHub account experience. You can now add both GitHub and GitHub Enterprise accounts to your keychain. You can add and leverage them just as you do with Microsoft accounts, which means that you'll have an easier time accessing your GitHub resources across Visual Studio. For more information, see the [Work with GitHub accounts in Visual Studio](../ide/work-with-github-accounts.md) page.
 
 ## Create a new Git repository
 
@@ -194,13 +212,14 @@ The new Git experience is the default version control system in Visual Studio 20
 
 ## What's next
 
-While the new Git experience is now on by default in Visual Studio 2019 [version 16.8](/visualstudio/releases/2019/release-notes/), we continue to add new features to enhance the experience. If you'd like to check out new updates to the Git experience in a Preview release, you can download and install it from the [Visual Studio Preview](https://aka.ms/vspreview/) page.
+While the new Git experience is now on by default starting with Visual Studio 2019 [version 16.8](/visualstudio/releases/2019/release-notes/), we continue to add new features to enhance the experience. If you'd like to check out new updates to the Git experience in a Preview release, you can download and install it from the [Visual Studio 2022 Preview](https://aka.ms/vspreview/) page.
 
 > [!IMPORTANT]
 > If you have a suggestion for us, please let us know! We appreciate the opportunity to engage with you on design decisions via the [**Developer Community**](https://aka.ms/vs-suggest) portal.
 
 ## See also
 
+::: moniker range="<=vs-2019"
 - [Get Started with Git and GitHub in Visual Studio](/learn/modules/visual-studio-github-push/) tutorial on Microsoft Learn
 - [Getting started with Git in Visual Studio](https://www.youtube.com/watch?v=GCZ9x3yqkyc) video on YouTube
 - [Announcing the Release of the Git Experience in Visual Studio](https://devblogs.microsoft.com/visualstudio/announcing-the-release-of-the-git-experience-in-visual-studio/) blog post
@@ -210,3 +229,8 @@ While the new Git experience is now on by default in Visual Studio 2019 [version
 - [Improved Git Experience in Visual Studio 2019](https://devblogs.microsoft.com/visualstudio/improved-git-experience-in-visual-studio-2019/) blog post
 - [Work with GitHub accounts in Visual Studio](../ide/work-with-github-accounts.md)
 - [Visual Studio 2019 release notes](/visualstudio/releases/2019/release-notes)
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+- [Visual Studio 2022 Preview release notes](/visualstudio/releases/2022/release-notes-preview)
+::: moniker-end
