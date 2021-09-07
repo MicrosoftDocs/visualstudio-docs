@@ -231,7 +231,7 @@ An "event handler" sounds complicated, but it's just another name for code that 
 
    Let's change it, so it looks like this:
 
-   ![Screenshot showing the C# code for the new async button_Click event handler.](media/uwp-add-hello-world-async-code.png)
+   ![Screenshot showing the C# code for the new async Button_Click event handler.](media/uwp-add-hello-world-async-code.png)
 
    Here's the code to copy and paste:
 
@@ -256,16 +256,16 @@ An "event handler" sounds complicated, but it's just another name for code that 
 
    Here is where things get interesting. The default event handler looks like this:
 
-   :::image type="content" source="media/vs-2022/uwp-button-click-code.png" alt-text="Screenshot showing the C# code for the default button_Click event handler.":::
+   :::image type="content" source="media/vs-2022/uwp-button-click-code.png" alt-text="Screenshot showing the C# code for the default Button_Click event handler.":::
 
    Let's change it, so it looks like this:
 
-   :::image type="content" source="media/vs-2022/uwp-add-hello-world-async-code.png" alt-text="Screenshot showing the C# code for the new async button_Click event handler.":::
+   :::image type="content" source="media/vs-2022/uwp-add-hello-world-async-code.png" alt-text="Screenshot showing the C# code for the new async Button_Click event handler.":::
 
    Here's the code to copy and paste:
 
    ```C#
-   private async void button_Click(object sender, RoutedEventArgs e)
+   private async void Button_Click(object sender, RoutedEventArgs e)
          {
              MediaElement mediaElement = new MediaElement();
              var synth = new Windows.Media.SpeechSynthesis.SpeechSynthesizer();
