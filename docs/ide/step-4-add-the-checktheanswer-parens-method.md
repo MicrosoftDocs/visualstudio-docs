@@ -8,8 +8,8 @@ dev_langs:
 - CSharp
 - VB
 ms.assetid: c66f3831-b4a0-40bc-a109-8f46f4db35ed
-author: j-martens
-ms.author: jmartens
+author: anandmeg
+ms.author: meghaanand
 manager: jmartens
 ms.technology: vs-ide-general
 ms.workload:
