@@ -385,7 +385,7 @@ Dive in and create a simple program.
 
    The code is automatically colorized to indicate different parts, such as keywords and types. Line numbers help you locate code.
 
-   In longer code files, small, vertical dashed lines in the code indicate which braces match one another. You can also choose small, boxed minus or plus signs to collapse or expand blocks of code. This code outlining feature lets you hide code you don't need to see, helping to minimize onscreen clutter.
+   Small, vertical dashed lines in the code indicate which braces match one another. You can also choose small, boxed minus or plus signs to collapse or expand blocks of code. This code outlining feature lets you hide code you don't need to see, helping to minimize onscreen clutter.
 
    ![Screenshot that shows the Visual Studio IDE with red boxes.](../media/vs-2022/overview-ide-console-app-red-boxes.png)
 
