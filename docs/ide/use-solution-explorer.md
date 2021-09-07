@@ -1,7 +1,7 @@
 ---
 title: Learn about the Solution Explorer tool window
 description: Learn how you can use the Solution Explorer tool window in Visual Studio to create & manage your files, projects, and solutions.
-ms.date: 09/02/2021
+ms.date: 09/07/2021
 ms.topic: conceptual
 ms.custom: contperf-fy22q1
 f1_keywords:
