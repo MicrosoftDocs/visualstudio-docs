@@ -43,63 +43,36 @@ Real-world code involves projects working together in a solution. You can add a 
 
 In Visual Studio, you use the menu command **File** > **Add** > **New Project** to add a new project. You can also right-click on the solution in **Solution Explorer** to add a project from the context menu.
 
+::: moniker range="vs-2019"
 1. In **Solution Explorer**, right-click the solution node and choose **Add** > **New Project**.
 
 1. In the **Add a new project** window, type *class library* in the Search box. Choose the C# **Class library** project template, and then select **Next**.
 
-   ::: moniker range="vs-2019"
    ![Screenshot of Class Library project template selection.](media/vs-2019/calculator2-add-project-dark.png)
-   ::: moniker-end
-   ::: moniker range=">=vs-2022"
-   ![Screenshot of Class Library project template selection.](media/vs-2022/calculator-add-project.png)
-   ::: moniker-end
 
 1. On the **Configure your new project** screen, type the project name *CalculatorLibrary*, and then select **Next**.
    
-::: moniker range="vs-2019"
-1. Again, choose .NET 3.1 when asked. Visual Studio creates the new project and adds it to the solution.
+1. Choose .NET 3.1 when asked. Visual Studio creates the new project and adds it to the solution.
 
    ![Screenshot of Solution Explorer with the CalculatorLibrary class library project added.](media/vs-2019/calculator2-solution-explorer-with-class-library-dark2.png)
-::: moniker-end
-::: moniker range=">=vs-2022"
-1. On the **Additional information** screen, .NET 6.0 is selected. Select **Create**.
-   
-   Visual Studio creates the new project and adds it to the solution.
-   
-   ![Screenshot of Solution Explorer with the CalculatorLibrary class library project added.](media/vs-2022/calculator-solution-explorer-with-class-library.png)
-::: moniker-end
+
 1. Rename the *Class1.cs* file to *CalculatorLibrary.cs*. To rename the file, you can right-click the name in **Solution Explorer** and choose **Rename**, select the name and press **F2**, or select the name and click again to type.
 
    A message might ask whether you want to rename references to `Class1` in the file. It doesn't matter how you answer, because you'll replace the code in a future step.
 
 1. Now add a project reference, so the first project can use APIs that the new class library exposes. Right-click the **Dependencies** node in the **Calculator** project and choose **Add Project Reference**.
 
-   ::: moniker range="vs-2019"
    ![Screenshot of the Add Project Reference menu item.](media/vs-2019/calculator2-add-project-reference-dark.png)
-   ::: moniker-end
-   ::: moniker range=">=vs-2022"
-   ![Screenshot of the Add Project Reference menu item.](media/vs-2022/calculator-add-project-reference.png)
-   ::: moniker-end
 
    The **Reference Manager** dialog box appears. In this dialog box, you can add references to other projects, assemblies, and COM DLLs that your projects need.
 
 1. In the **Reference Manager** dialog box, select the checkbox for the **CalculatorLibrary** project, and then select **OK**.
 
-   ::: moniker range="vs-2019"
    ![Screenshot of the Reference Manager dialog box.](media/vs-2019/calculator2-ref-manager-dark.png)
-   ::: moniker-end
-   ::: moniker range=">=vs-2022"
-   ![Screenshot of the Reference Manager dialog box.](media/vs-2022/calculator-reference-manager.png)
-   ::: moniker-end
 
    The project reference appears under a **Projects** node in **Solution Explorer**.
 
-   ::: moniker range="vs-2019"
    ![Screenshot of Solution Explorer with project reference.](media/vs-2019/calculator2-solution-explorer-with-project-reference-dark2.png)
-   ::: moniker-end
-   ::: moniker range=">=vs-2022"
-   ![Screenshot of Solution Explorer with project reference.](media/vs-2022/calculator-solution-explorer-with-project-reference.png)
-   ::: moniker-end
 
 1. In *Program.cs*, select the `Calculator` class and all its code, and press **Ctrl**+**X** to cut it. Then, in *CalculatorLibrary.cs*, paste the code into the `CalculatorLibrary` namespace.
    
@@ -166,6 +139,107 @@ In Visual Studio, you use the menu command **File** > **Add** > **New Project** 
    ```csharp
    namespace CalculatorProgram
    ```
+
+::: moniker-end
+::: moniker range=">=vs-2022"
+1. In **Solution Explorer**, right-click the solution node and choose **Add** > **New Project**.
+
+1. In the **Add a new project** window, type *class library* in the Search box. Choose the C# **Class library** project template, and then select **Next**.
+
+   ![Screenshot of Class Library project template selection.](media/vs-2022/calculator-add-project.png)
+
+1. On the **Configure your new project** screen, type the project name *CalculatorLibrary*, and then select **Next**.
+   
+1. On the **Additional information** screen, .NET 6.0 is selected. Select **Create**.
+   
+   Visual Studio creates the new project and adds it to the solution.
+   
+   ![Screenshot of Solution Explorer with the CalculatorLibrary class library project added.](media/vs-2022/calculator-solution-explorer-with-class-library.png)
+
+1. Rename the *Class1.cs* file to *CalculatorLibrary.cs*. To rename the file, you can right-click the name in **Solution Explorer** and choose **Rename**, select the name and press **F2**, or select the name and click again to type.
+
+   A message might ask whether you want to rename references to `Class1` in the file. It doesn't matter how you answer, because you'll replace the code in a future step.
+
+1. Now add a project reference, so the first project can use APIs that the new class library exposes. Right-click the **Dependencies** node in the **Calculator** project and choose **Add Project Reference**.
+
+   ![Screenshot of the Add Project Reference menu item.](media/vs-2022/calculator-add-project-reference.png)
+
+   The **Reference Manager** dialog box appears. In this dialog box, you can add references to other projects, assemblies, and COM DLLs that your projects need.
+
+1. In the **Reference Manager** dialog box, select the checkbox for the **CalculatorLibrary** project, and then select **OK**.
+
+   ![Screenshot of the Reference Manager dialog box.](media/vs-2022/calculator-reference-manager.png)
+
+   The project reference appears under a **Projects** node in **Solution Explorer**.
+
+   ![Screenshot of Solution Explorer with project reference.](media/vs-2022/calculator-solution-explorer-with-project-reference.png)
+
+1. In *Program.cs*, select the `Calculator` class and all its code, and press **Ctrl**+**X** to cut it. Then, in *CalculatorLibrary.cs*, paste the code into the `CalculatorLibrary` namespace.
+   
+   Also add `public` before the Calculator class to expose it outside the library.
+
+   *CalculatorLibrary.cs* should now resemble the following code:
+
+   ```csharp
+   using System;
+
+    namespace CalculatorLibrary
+    {
+        public class Calculator
+        {
+            public static double DoOperation(double num1, double num2, string op)
+            {
+                double result = double.NaN; // Default value is "not-a-number" if an operation, such as division, could result in an error.
+
+                // Use a switch statement to do the math.
+                switch (op)
+                {
+                    case "a":
+                        result = num1 + num2;
+                        break;
+                    case "s":
+                        result = num1 - num2;
+                        break;
+                    case "m":
+                        result = num1 * num2;
+                        break;
+                    case "d":
+                        // Ask the user to enter a non-zero divisor.
+                        if (num2 != 0)
+                        {
+                            result = num1 / num2;
+                        }
+                        break;
+                    // Return text for an incorrect option entry.
+                    default:
+                        break;
+                }
+                return result;
+            }
+        }
+    }
+   ```
+
+1. *Program.cs* also has a reference, but an error says that the `Calculator.DoOperation` call doesn't resolve. That's because `CalculatorLibrary` is in a different namespace. For a fully qualified reference, you could add the `CalculatorLibrary` namespace to the `Calculator.DoOperation` call:
+
+   ```csharp
+   result = CalculatorLibrary.Calculator.DoOperation(cleanNum1, cleanNum2, op);
+   ```
+
+   Or, you could try adding a `using` directive to the beginning of the file:
+
+   ```csharp
+   using CalculatorLibrary;
+   ```
+
+   Adding the `using` directive should let you remove the `CalculatorLibrary` namespace from the call site, but now there's an ambiguity. Is `Calculator` the class in `CalculatorLibrary`, or is `Calculator` the namespace?
+   
+   To resolve the ambiguity, rename the namespace from `Calculator` to `CalculatorProgram` in both *Program.cs* and *CalculatorLibrary.cs*.
+
+   ```csharp
+   namespace CalculatorProgram
+   ```
+::: moniker-end
 
 ## Reference .NET libraries: Write to a log
 
