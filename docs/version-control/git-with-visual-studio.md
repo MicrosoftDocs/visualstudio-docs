@@ -20,10 +20,10 @@ Git is the default version control experience in Visual Studio. We continue to b
 
 ::: moniker range="<=vs-2019"
 
-Git is now the default version control experience in Visual Studio 2019. Since [version 16.6](/visualstudio/releases/2019/release-notes-v16.6), we worked on building out the feature set and iterating on it based on your feedback. We turned on Git tooling as the default experience for everyone in [version 16.8](/visualstudio/releases/2019/release-notes-v16.8).
+Git is now the default version control experience in Visual Studio 2019. Since [version 16.6](/visualstudio/releases/2019/release-notes-v16.6), we worked on building out the feature set and iterating on it based on your feedback. In [version 16.8](/visualstudio/releases/2019/release-notes-v16.8), it became the default version control experience for everyone.
 
 > [!NOTE]
-> We continue to build out and iterate on the Git feature set in Visual Studio 2022, too. To learn more about a recent feature update, see the [Multi-repo support in Visual Studio](https://devblogs.microsoft.com/visualstudio/multi-repo-support-in-visual-studio/) blog post.
+> We continue to build out and iterate on the Git feature set in [Visual Studio 2022 Preview](/visualstudio/releases/2022/release-notes-preview), too. To learn more about a recent feature update, see the [Multi-repo support in Visual Studio](https://devblogs.microsoft.com/visualstudio/multi-repo-support-in-visual-studio/) blog post.
 
 ::: moniker-end
 
@@ -35,7 +35,7 @@ Git is the most widely used modern version control system, so whether you're a p
 
 ::: moniker range="<=vs-2019"
 
-We'll walk you through how to use the new Git experience in Visual Studio 2019, but if you'd like to take a quick tour first, check out the following video: <br><br>*Video length: 5.27 minutes*
+We'll walk you through how to use the new Git experience in Visual Studio, but if you'd like to take a quick tour first, check out the following video: <br><br>*Video length: 5.27 minutes*
 
 > [!VIDEO https://www.youtube.com/embed/UHrAg3iKoe0]
 
