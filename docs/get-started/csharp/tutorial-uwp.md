@@ -290,7 +290,7 @@ It's time to build, deploy, and launch the "Hello World" UWP app to see what it 
 
    ![Screenshot showing the drop-down box open next to the Play button with 'Local Machine' selected.](media/uwp-start-or-debug.png)
 
-   (Alternatively, you can choose **Debug** > **Start Debugging** from the menu bar or press F5 to start your app.)
+   (Alternatively, you can choose **Debug** > **Start Debugging** from the menu bar or press **F5** to start your app.)
 
 1. View your app, which appears soon after a splash screen disappears. The app should look similar to this:
 
@@ -300,7 +300,7 @@ It's time to build, deploy, and launch the "Hello World" UWP app to see what it 
 
    Your Windows 10 device will literally say, "Hello, World!"
 
-1. To close the app, click the **Stop Debugging** button in the toolbar. (Alternatively, choose **Debug** > **Stop debugging** from the menu bar, or press Shift+F5.)
+1. To close the app, click the **Stop Debugging** button in the toolbar. (Alternatively, choose **Debug** > **Stop debugging** from the menu bar, or press **Shift+F5**.)
 
 ::: moniker-end
 ::: moniker range="vs-2019"
@@ -310,7 +310,7 @@ It's time to build, deploy, and launch the "Hello World" UWP app to see what it 
 
    ![Screenshot showing the drop-down box open next to the Play button with 'Local Machine' selected.](media/uwp-start-or-debug.png)
 
-   (Alternatively, you can choose **Debug** > **Start Debugging** from the menu bar or press F5 to start your app.)
+   (Alternatively, you can choose **Debug** > **Start Debugging** from the menu bar or press **F5** to start your app.)
 
 1. View your app, which appears soon after a splash screen disappears. The app should look similar to this:
 
@@ -320,7 +320,7 @@ It's time to build, deploy, and launch the "Hello World" UWP app to see what it 
 
    Your Windows 10 device will literally say, "Hello, World!"
 
-1. To close the app, click the **Stop Debugging** button in the toolbar. (Alternatively, choose **Debug** > **Stop debugging** from the menu bar, or press Shift+F5.)
+1. To close the app, click the **Stop Debugging** button in the toolbar. (Alternatively, choose **Debug** > **Stop debugging** from the menu bar, or press **Shift+F5**.)
 
 ::: moniker-end
 
@@ -332,7 +332,7 @@ It's time to build, deploy, and launch the "Hello World" UWP app to see what it 
 
    :::image type="content" source="media/vs-2022/uwp-start-or-debug.png" alt-text="Screenshot showing the drop-down box open next to the Play button with 'Local Machine' selected.":::
 
-   (Alternatively, you can choose **Debug** > **Start Debugging** from the menu bar or press F5 to start your app.)
+   (Alternatively, you can choose **Debug** > **Start Debugging** from the menu bar or press **F5** to start your app.)
 
 1. View your app, which appears soon after a splash screen disappears. The app should look similar to this image:
 
