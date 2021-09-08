@@ -496,10 +496,7 @@ First, rename the `name` variable:
 
 1. Run the program again by pressing **Ctrl**+**F5**. The output looks something like this:
 
-   ::: moniker range="vs-2017"
-   [!Screenshot of the cmd.exe console window showing the prompt for a name, the input, and the output 'Hello Georgette! Day of year: 151'.](../media/overview-console-final.png)
-   ::: moniker-end
-   ::: moniker range="vs-2019"
+   ::: moniker range="<=vs-2019"
    ![Screenshot of the Debug Console window showing the prompt for a name, the input, and the output 'Hello Georgette! Day of year: 43'.](../media/vs-2019/overview-console-final.png)
    ::: moniker-end
    ::: moniker range=">=vs-2022"
