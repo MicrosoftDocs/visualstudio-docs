@@ -27,7 +27,7 @@ An *integrated development environment* (IDE) is a feature-rich program that sup
 
 ::: moniker-end
 
-The preceding image shows Visual Studio with an open project, and key windows and functionality:
+The preceding image shows Visual Studio with an open project that shows key windows and their functionality:
 
 - In [Solution Explorer](../../ide/use-solution-explorer.md), at upper right, you can view, navigate, and manage your code files. **Solution Explorer** can help organize your code by grouping the files into [solutions and projects](../../ide/solutions-and-projects-in-visual-studio.md).
 
