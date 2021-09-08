@@ -452,9 +452,9 @@ First, rename the `name` variable:
 
    The variable is renamed across the project, which in our case is only two places.
 
-::: moniker range="vs-2017"
+   ::: moniker range="vs-2017"
    ![Animated gif showing rename refactoring in Visual Studio.](../media/rename-refactoring.gif)
-::: moniker-end
+   ::: moniker-end
 
 1. Now take a look at IntelliSense. Below the line that says `Console.WriteLine($"\nHello {username}!");`, type `DateTime now = DateTime.`.
 
@@ -500,10 +500,10 @@ First, rename the `name` variable:
    [!Screenshot of the cmd.exe console window showing the prompt for a name, the input, and the output 'Hello Georgette! Day of year: 151'.](../media/overview-console-final.png)
    ::: moniker-end
    ::: moniker range="vs-2019"
-    ![Screenshot of the Debug Console window showing the prompt for a name, the input, and the output 'Hello Georgette! Day of year: 43'.](../media/vs-2019/overview-console-final.png)
+   ![Screenshot of the Debug Console window showing the prompt for a name, the input, and the output 'Hello Georgette! Day of year: 43'.](../media/vs-2019/overview-console-final.png)
    ::: moniker-end
    ::: moniker range=">=vs-2022"
-    ![Screenshot of the Debug Console window showing the prompt for a name, the input, and the output 'Hello Georgette! Day of year: 244'.](../media/vs-2022/overview-console-final.png)
+   ![Screenshot of the Debug Console window showing the prompt for a name, the input, and the output 'Hello Georgette! Day of year: 244'.](../media/vs-2022/overview-console-final.png)
    ::: moniker-end
 
 ## Debug code
@@ -522,7 +522,7 @@ Set a breakpoint to see the value of the `username` variable while the program i
    ::: moniker range=">=vs-2022"
    ![Screenshot that shows a breakpoint on a line of code in Visual Studio.](../media/vs-2022/breakpoint.png)
    ::: moniker-end
- 
+
 1. Start debugging by selecting **Debug** > **Start Debugging** or pressing **F5**.
 
 1. When the console window appears and asks for your name, enter your name.
@@ -548,19 +548,23 @@ You can personalize the Visual Studio user interface, including changing the def
 
 1. On the menu bar, choose **Tools** > **Options** to open the **Options** dialog.
 
-::: moniker range="<=vs-2019"
+::: moniker range="vs-2017"
 
 1. On the **Environment** > **General** options page, change the **Color theme** selection to **Dark**, and then choose **OK**.
 
    The color theme for the entire IDE changes to **Dark**.
 
-   ::: moniker-end
-   ::: moniker range="vs-2017"
    ![Screenshot that shows Visual Studio in Dark theme.](../media/dark-theme.png)
-   ::: moniker-end
-   ::: moniker range="vs-2019"
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+1. On the **Environment** > **General** options page, change the **Color theme** selection to **Dark**, and then choose **OK**.
+
+   The color theme for the entire IDE changes to **Dark**.
+
    ![Screenshot that shows Visual Studio in Dark theme.](../media/vs-2019/dark-theme.png)
-   ::: moniker-end
+::: moniker-end
 
 ::: moniker range=">=vs-2022"
 1. On the **Environment** > **General** options page, change the **Color Theme** selection to **Blue** or **Light**, and then select **OK**.
@@ -568,6 +572,6 @@ You can personalize the Visual Studio user interface, including changing the def
    The color theme for the entire IDE changes accordingly. The following screenshot shows the Blue theme:
 
    ![Screenshot that shows Visual Studio in Blue theme.](../media/vs-2022/blue-theme.png)
-   ::: moniker-end
+::: moniker-end
 
 To learn about other ways you can personalize the IDE, see [Personalize Visual Studio](../../ide/personalizing-the-visual-studio-ide.md).
