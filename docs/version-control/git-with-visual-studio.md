@@ -1,7 +1,7 @@
 ---
 title: The Git experience in Visual Studio
 titleSuffix: ""
-description: Learn how the new integrated Git experience in Visual Studio 2019 can help you be more productive.
+description: Learn how the new integrated Git experience in Visual Studio can help you be more productive.
 ms.date: 09/08/2021
 ms.topic: overview
 ms.author: tglee
@@ -14,13 +14,13 @@ ms.manager: jmartens
 
 ::: moniker range=">=vs-2022"
 
-Git is the default version control experience in Visual Studio. We continue to build out the feature set and iterate on it based on your feedback. For more info about a recent feature update, see the [Multi-repo support in Visual Studio](https://devblogs.microsoft.com/visualstudio/multi-repo-support-in-visual-studio/) blog post.
+Git is the default version control experience in Visual Studio. We continue to build out the feature set and iterate on it based on your feedback. For more info about a recent feature update along with a link to survey where you can share your feedback on it, see the [Multi-repo support in Visual Studio](https://devblogs.microsoft.com/visualstudio/multi-repo-support-in-visual-studio/) blog post.
 
 ::: moniker-end
 
 ::: moniker range="<=vs-2019"
 
-Git is now the default version control experience in Visual Studio 2019. Since [version 16.6](/visualstudio/releases/2019/release-notes-v16.6), we worked on building out the feature set and iterating on it based on your feedback. In [version 16.8](/visualstudio/releases/2019/release-notes-v16.8), it became the default version control experience for everyone.
+Git is now the default version control experience in Visual Studio 2019. Since [version 16.6](/visualstudio/releases/2019/release-notes-v16.6), we've worked on building out the feature set and iterating on it based on your feedback. In [version 16.8](/visualstudio/releases/2019/release-notes-v16.8), it became the default version control experience for everyone.
 
 > [!NOTE]
 > We continue to build out and iterate on the Git feature set in [Visual Studio 2022 Preview](/visualstudio/releases/2022/release-notes-preview), too. To learn more about a recent feature update, see the [Multi-repo support in Visual Studio](https://devblogs.microsoft.com/visualstudio/multi-repo-support-in-visual-studio/) blog post.
