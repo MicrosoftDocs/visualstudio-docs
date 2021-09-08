@@ -543,9 +543,9 @@ For more information about debugging in Visual Studio, see the [Debugger feature
 
 You can personalize the Visual Studio user interface, including changing the default color theme. To change the color theme:
 
-1. On the menu bar, choose **Tools** > **Options** to open the **Options** dialog.
-
 ::: moniker range="vs-2017"
+
+1. On the menu bar, choose **Tools** > **Options** to open the **Options** dialog.
 
 1. On the **Environment** > **General** options page, change the **Color theme** selection to **Dark**, and then choose **OK**.
 
@@ -556,6 +556,8 @@ You can personalize the Visual Studio user interface, including changing the def
 
 ::: moniker range="vs-2019"
 
+1. On the menu bar, choose **Tools** > **Options** to open the **Options** dialog.
+
 1. On the **Environment** > **General** options page, change the **Color theme** selection to **Dark**, and then choose **OK**.
 
    The color theme for the entire IDE changes to **Dark**.
@@ -564,6 +566,8 @@ You can personalize the Visual Studio user interface, including changing the def
 ::: moniker-end
 
 ::: moniker range=">=vs-2022"
+1. On the menu bar, choose **Tools** > **Options** to open the **Options** dialog.
+
 1. On the **Environment** > **General** options page, change the **Color Theme** selection to **Blue** or **Light**, and then select **OK**.
 
    The color theme for the entire IDE changes accordingly. The following screenshot shows the Blue theme:
