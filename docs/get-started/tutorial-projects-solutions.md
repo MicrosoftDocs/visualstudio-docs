@@ -17,7 +17,7 @@ ms.workload:
 
 This introductory article explores what it means to create a *solution* and a *project* in Visual Studio. A solution is a container to organize one or more related code projects, like a class library project and a corresponding test project. You'll look at the properties of a project and some of the files it can contain. You'll also create a reference from one project to another.
 
-As an educational exercise to understand the concept of a project, you construct a solution and project from scratch. Usually in Visual Studio, you use project *templates* to create new projects.
+As an educational exercise to understand the concept of a project, you'll construct a solution and project from scratch. Usually in Visual Studio, you use project *templates* to create new projects.
 
 > [!NOTE]
 > Developing apps in Visual Studio doesn't require solutions and projects. You can just open a folder that contains code and start coding, building, and debugging. For example, a cloned [GitHub](https://github.com/) repo might not contain Visual Studio projects and solutions. For more information, see [Develop code in Visual Studio without projects or solutions](../ide/develop-code-in-visual-studio-without-projects-or-solutions.md).
@@ -289,7 +289,7 @@ You'll use the new unit test project to test your method in the **QuickDate** pr
 
 1. In **Solution Explorer**, right-click the **References** node of the **QuickTest** project, and select **Add Reference** from the context menu.
 
-1. In the **Reference Manager** dialog box, select the checkbox next to **QuickDate**, and then select **OK**.
+1. In the **Reference Manager** dialog box, under **Projects**, select the checkbox next to **QuickDate**, and then select **OK**.
 
    A reference to the **QuickDate** project appears under the **QuickTest** project in **Solution Explorer**.
 
@@ -407,7 +407,7 @@ The line in the *Calendar.cs* file that contains the <xref:System.Runtime.Compil
 
 1. Explore some of the other tabs of the project's property pages, such as **Build** and **Debug**. These tabs are different for different types of projects.
 
-## Next steps
+## See also
 
 - [Work with projects and solutions](../ide/creating-solutions-and-projects.md)
 - [Manage project and solution properties](../ide/managing-project-and-solution-properties.md)
