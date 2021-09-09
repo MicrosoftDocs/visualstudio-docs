@@ -180,6 +180,8 @@
         href: assign-license-bulk.md
       - name: Assign specific subscriptions
         href: assign-guid.md
+    - name: Move subscriptions to new agreements
+      href: migrate-subscriptions.md        
     - name: Edit subscriptions
       href: edit-license.md
     - name: Delete subscriptions
