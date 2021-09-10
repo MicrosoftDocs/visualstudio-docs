@@ -68,7 +68,10 @@ The debugger cannot deploy Visual C# or Visual Basic desktop applications to a r
 6. Choose **Use remote machine**, and type **yourmachinename:port** in the text box. (The port number is shown in the remote debugger window. The port number increments 2 in each version of Visual Studio).
 
     In this example, use:
-    ::: moniker range=">=vs-2019"
+	::: moniker range="vs-2022"
+    **MJO-DL:4026** on Visual Studio 2019
+    ::: moniker-end
+    ::: moniker range="vs-2019"
     **MJO-DL:4024** on Visual Studio 2019
     ::: moniker-end
     ::: moniker range="vs-2017"
