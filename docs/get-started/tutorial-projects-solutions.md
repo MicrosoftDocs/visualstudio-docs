@@ -15,9 +15,9 @@ ms.workload:
 ---
 # Introduction to projects and solutions
 
-This introductory article explores what it means to create a *solution* and a *project* in Visual Studio. A solution is a container to organize one or more related code projects, like a class library project and a corresponding test project. You'll look at the properties of a project and some of the files it can contain. You'll also create a reference from one project to another.
+This introductory article explores what it means to create a *solution* and a *project* in Visual Studio. A solution is a container to organize one or more related code projects, like a class library project and a corresponding test project.
 
-As an educational exercise to understand the concept of a project, you'll construct a solution and project from scratch. Usually in Visual Studio, you use project *templates* to create new projects.
+You'll look at the properties of a project and some of the files it can contain. You'll also create a reference from one project to another. As an educational exercise to understand the concept of a project, you'll construct a solution and project from scratch. Usually in Visual Studio, you use project *templates* to create new projects.
 
 > [!NOTE]
 > Developing apps in Visual Studio doesn't require solutions and projects. You can just open a folder that contains code and start coding, building, and debugging. For example, a cloned [GitHub](https://github.com/) repo might not contain Visual Studio projects and solutions. For more information, see [Develop code in Visual Studio without projects or solutions](../ide/develop-code-in-visual-studio-without-projects-or-solutions.md).
@@ -208,9 +208,9 @@ Solutions commonly contain more than one project, and these projects often refer
 
 To add a unit test project to your solution, start from a project template so you don't have to add another code file to the project.
 
-1. From the right-click or context menu of **Solution 'QuickSolution'** in **Solution Explorer**, select **Add** > **New Project**.
-
 ::: moniker range="vs-2017"
+
+1. From the right-click or context menu of **Solution 'QuickSolution'** in **Solution Explorer**, select **Add** > **New Project**.
 
 2. In the left pane, expand **Visual C#** and select the **Test** category. In the middle pane, select the **MSTest Test Project (.NET Core)** project template. Name the project **QuickTest**, and then select **OK**.
 
@@ -221,6 +221,8 @@ To add a unit test project to your solution, start from a project template so yo
 ::: moniker-end
 
 ::: moniker range="vs-2019"
+
+1. From the right-click or context menu of **Solution 'QuickSolution'** in **Solution Explorer**, select **Add** > **New Project**.
 
 2. In the **Add a new project** dialog box, enter the text **unit test** into the search box at the top, and then select **C#** under **Language**.
 
@@ -240,6 +242,8 @@ To add a unit test project to your solution, start from a project template so yo
 ::: moniker-end
 
 ::: moniker range=">=vs-2022"
+
+1. From the right-click or context menu of **Solution 'QuickSolution'** in **Solution Explorer**, select **Add** > **New Project**.
 
 1. In the **Add a new project** dialog box, type *unit test* into the search box at the top, and then select **C#** under **All languages**.
 
