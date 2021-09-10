@@ -17,7 +17,7 @@ ms.workload:
 
 This introductory article explores what it means to create a *solution* and a *project* in Visual Studio. A solution is a container to organize one or more related code projects, like a class library project and a corresponding test project.
 
-You'll look at the properties of a project and some of the files it can contain. You'll also create a reference from one project to another. As an educational exercise to understand the concept of a project, you'll construct a solution and project from scratch. Usually in Visual Studio, you use project *templates* to create new projects.
+As an educational exercise to understand the concept of a project, you'll construct a solution and project from scratch. Ordinarily, you'd use Visual Studio project *templates* to create new projects. You'll also look at the properties of a project and some of the files it can contain, and create a reference from one project to another.
 
 > [!NOTE]
 > Developing apps in Visual Studio doesn't require solutions and projects. You can just open a folder that contains code and start coding, building, and debugging. For example, a cloned [GitHub](https://github.com/) repo might not contain Visual Studio projects and solutions. For more information, see [Develop code in Visual Studio without projects or solutions](../ide/develop-code-in-visual-studio-without-projects-or-solutions.md).
