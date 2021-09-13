@@ -53,14 +53,14 @@ For Windows Firewall, you can use PowerShell commands such as [New-NetFirewallRu
 The following example opens port 4026 for the remote debugger on the remote computer. The path you need to use may be different.
 
 ```ps
-New-NetFirewallRule -DisplayName "msvsmon" -Direction Inbound -Program "Program Files (x86)\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\Remote Debugger\x86\msvsmon.exe" -LocalPort 4026 -Protocol TCP -Authentication Required -Action Allow
+New-NetFirewallRule -DisplayName "msvsmon" -Direction Inbound -Program "Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\Remote Debugger\x64\msvsmon.exe" -LocalPort 4026 -Protocol TCP -Authentication Required -Action Allow
 ```
 ::: moniker-end
 ::: moniker range="vs-2019"
 The following example opens port 4024 for the remote debugger on the remote computer. The path you need to use may be different.
 
 ```ps
-New-NetFirewallRule -DisplayName "msvsmon" -Direction Inbound -Program "Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\Remote Debugger\x86\msvsmon.exe" -LocalPort 4024 -Protocol TCP -Authentication Required -Action Allow
+New-NetFirewallRule -DisplayName "msvsmon" -Direction Inbound -Program "Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\Remote Debugger\x64\msvsmon.exe" -LocalPort 4024 -Protocol TCP -Authentication Required -Action Allow
 ```
 ::: moniker-end
 
@@ -72,8 +72,8 @@ For remote debugging, the following ports must be open on the remote computer:
 
 |**Ports**|**Incoming/Outgoing**|**Protocol**|**Description**|
 |-|-|-|-|
-|4026|Incoming|TCP|For VS 2022. The port number increments by 2 for each Visual Studio version. For more information, see [Visual Studio remote debugger port assignments](../debugger/remote-debugger-port-assignments.md).|
-|4027|Incoming|TCP|For VS 2022. The port number increments by 2 for each Visual Studio version. This port is only used to remote debug a 32-bit process from a 64-bit version of the remote debugger. For more information, see  [Visual Studio remote debugger port assignments](../debugger/remote-debugger-port-assignments.md).|
+|4026|Incoming|TCP|For VS 2022. For more information, see [Visual Studio remote debugger port assignments](../debugger/remote-debugger-port-assignments.md).|
+|4025|Incoming|TCP|For VS 2022. This port is only used to remote debug a 32-bit process from a 64-bit version of the remote debugger. For more information, see  [Visual Studio remote debugger port assignments](../debugger/remote-debugger-port-assignments.md).|
 |3702|Outgoing|UDP|(Optional) Required for remote debugger discovery.|
 
 ::: moniker-end
@@ -82,7 +82,7 @@ For remote debugging, the following ports must be open on the remote computer:
 |**Ports**|**Incoming/Outgoing**|**Protocol**|**Description**|
 |-|-|-|-|
 |4024|Incoming|TCP|For VS 2019. The port number increments by 2 for each Visual Studio version. For more information, see [Visual Studio remote debugger port assignments](../debugger/remote-debugger-port-assignments.md).|
-|4025|Incoming|TCP|For VS 2019. The port number increments by 2 for each Visual Studio version. This port is only used to remote debug a 32-bit process from a 64-bit version of the remote debugger. For more information, see  [Visual Studio remote debugger port assignments](../debugger/remote-debugger-port-assignments.md).|
+|4025|Incoming|TCP|For VS 2019. This port is only used to remote debug a 32-bit process from a 64-bit version of the remote debugger. For more information, see  [Visual Studio remote debugger port assignments](../debugger/remote-debugger-port-assignments.md).|
 |3702|Outgoing|UDP|(Optional) Required for remote debugger discovery.|
 
 ::: moniker-end

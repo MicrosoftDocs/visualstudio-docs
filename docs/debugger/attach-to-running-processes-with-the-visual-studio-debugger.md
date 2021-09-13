@@ -105,19 +105,19 @@ For more complete instructions for debugging ASP.NET applications that have been
      ::: moniker range=">= vs-2022"
 
      > [!NOTE]
-     > If you can't connect using the remote computer name, try using the IP and port address (for example, `123.45.678.9:4022`). 4026 is the default port for the Visual Studio 2022 x64 remote debugger. For other remote debugger port assignments, see [Remote debugger port assignments](remote-debugger-port-assignments.md).
+     > If you can't connect using the remote computer name, try using the IP and port address (for example, `123.45.678.9:4022`). 4026 is the default port for the Visual Studio 2022 remote debugger. For other remote debugger port assignments, see [Remote debugger port assignments](remote-debugger-port-assignments.md).
 
      ::: moniker-end
      ::: moniker range="vs-2019"
 
      > [!NOTE]
-     > If you can't connect using the remote computer name, try using the IP and port address (for example, `123.45.678.9:4022`). 4024 is the default port for the Visual Studio 2019 x64 remote debugger. For other remote debugger port assignments, see [Remote debugger port assignments](remote-debugger-port-assignments.md).
+     > If you can't connect using the remote computer name, try using the IP and port address (for example, `123.45.678.9:4022`). 4024 is the default port for the Visual Studio 2019 remote debugger. For other remote debugger port assignments, see [Remote debugger port assignments](remote-debugger-port-assignments.md).
 
      ::: moniker-end
      ::: moniker range="vs-2017"
 
      > [!NOTE]
-     > If you can't connect using the remote computer name, try using the IP and port address (for example, `123.45.678.9:4022`). 4022 is the default port for the Visual Studio 2017 x64 remote debugger. For other remote debugger port assignments, see [Remote debugger port assignments](remote-debugger-port-assignments.md).
+     > If you can't connect using the remote computer name, try using the IP and port address (for example, `123.45.678.9:4022`). 4022 is the default port for the Visual Studio 2017 remote debugger. For other remote debugger port assignments, see [Remote debugger port assignments](remote-debugger-port-assignments.md).
 
      ::: moniker-end
 

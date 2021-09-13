@@ -53,11 +53,18 @@ You can find the remote debugger (*msvsmon.exe*) on a computer with Visual Studi
 
 1. Find *msvsmon.exe* in the directory matching your version of Visual Studio:
 
-   ::: moniker range=">=vs-2019"
+   ::: moniker range=">=vs-2022"
 
-   *Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\Remote Debugger\x86\msvsmon.exe*
+   *Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\Remote Debugger\x64\msvsmon.exe*
+
+   *Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\Remote Debugger\x86\msvsmon.exe*
+
+   ::: moniker-end
+   ::: moniker range="vs-2019"
 
    *Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\Remote Debugger\x64\msvsmon.exe*
+
+   *Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\Remote Debugger\x86\msvsmon.exe*
 
    ::: moniker-end
    ::: moniker range="vs-2017"
