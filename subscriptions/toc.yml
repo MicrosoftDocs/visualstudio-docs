@@ -180,6 +180,8 @@
         href: assign-license-bulk.md
       - name: Assign specific subscriptions
         href: assign-guid.md
+    - name: Move subscriptions to new agreements
+      href: migrate-subscriptions.md        
     - name: Edit subscriptions
       href: edit-license.md
     - name: Delete subscriptions
@@ -192,6 +194,8 @@
       href: handle-overclaimed-license.md
     - name: Maximum usage
       href: maximum-usage.md
+    - name: What happens when agreements expire
+      href: admin-expiration.md     
     - name: Expired subscriptions
       href: handle-expired-license.md
     - name: 'Subscriber sign-in scenarios '
