@@ -19,7 +19,7 @@ To enable a local machine with support for managed identity, in the *KubernetesL
 
 ```yaml
 enableFeatures:
-    ManagedIdentity
+  - ManagedIdentity
 ```
 
 > [!WARNING]
