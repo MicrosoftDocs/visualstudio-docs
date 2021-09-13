@@ -195,7 +195,10 @@ For information on running the remote debugger as a service, see [Run the remote
 
     Verify that Visual Studio adds the required port to the computer name, which appears in the format: **\<remote computer name>:port**
 
-    ::: moniker range=">=vs-2019"
+    ::: moniker range=">=vs-2022"
+    On Visual Studio 2022, you should see **\<remote computer name>:4026**
+    ::: moniker-end
+    ::: moniker range="vs-2019"
     On Visual Studio 2019, you should see **\<remote computer name>:4024**
     ::: moniker-end
     ::: moniker range="vs-2017"
@@ -257,7 +260,10 @@ In most setups, required ports are opened by the installation of ASP.NET and the
 Required ports:
 
 * 80 - Required for IIS (HTTP)
-::: moniker range=">=vs-2019"
+::: moniker range=">=vs-2022"
+* 4026 - Required for remote debugging from Visual Studio 2022 (see [Remote Debugger Port Assignments](../debugger/remote-debugger-port-assignments.md) for more information).
+::: moniker-end
+::: moniker range="vs-2019"
 * 4024 - Required for remote debugging from Visual Studio 2019 (see [Remote Debugger Port Assignments](../debugger/remote-debugger-port-assignments.md) for more information).
 ::: moniker-end
 ::: moniker range="vs-2017"

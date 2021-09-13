@@ -194,6 +194,8 @@
       href: handle-overclaimed-license.md
     - name: Maximum usage
       href: maximum-usage.md
+    - name: What happens when agreements expire
+      href: admin-expiration.md     
     - name: Expired subscriptions
       href: handle-expired-license.md
     - name: 'Subscriber sign-in scenarios '
