@@ -86,7 +86,7 @@ The hierarchy view sorts tests alphabetically as opposed to by outcome. Previous
 
 The icons next to the Project, Namespace, and Class groupings show the state of the tests within that grouping. See the following table.
 
-![Test Explorer Hierarchy Icons](media/testex-hierarchyicons.png)
+![Test Explorer Hierarchy Icons](media/testex-hierarchy-icons.png)
 
 ## Search by file path
 
