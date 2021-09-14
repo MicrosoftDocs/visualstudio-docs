@@ -2,7 +2,7 @@
 title: 'What are Visual Studio solutions & projects?'
 description: Learn about Visual Studio projects and solutions, how to create new projects from a template, and how to view & manage projects in Solution Explorer.
 ms.custom: "SEO-VS-2020, contperf-fy21q2"
-ms.date: 12/31/2020
+ms.date: 09/14/2021
 ms.topic: conceptual
 f1_keywords:
 - vs.openproject
@@ -101,6 +101,8 @@ For ASP.NET Core projects, you can customize how files are nested in **Solution 
 
 > [!NOTE]
 > To view the application images and icons that appear in Visual Studio, download the [**Visual Studio Image Library**](https://www.microsoft.com/download/details.aspx?id=35825).
+
+For more information, see the [How to use Solution Explorer](use-solution-explorer.md) page.
 
 ## See also
 
