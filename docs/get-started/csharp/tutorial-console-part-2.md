@@ -2,7 +2,7 @@
 title: "Tutorial 2: Extend your C# console app"
 description: "Learn how to develop a C# console app in Visual Studio, step-by-step."
 ms.custom: "vs-acquisition, get-started"
-ms.date: 04/15/2021
+ms.date: 09/14/2021
 ms.technology: vs-ide-general
 ms.prod: visual-studio-windows
 ms.topic: tutorial
@@ -19,54 +19,66 @@ ms.workload:
 ---
 # Tutorial: Extend C# console app and debug in Visual Studio (part 2 of 2)
 
-In part 2 of this tutorial series, you'll dive a little deeper in the build and debug features in Visual Studio that you'll need for daily development, such as managing multiple projects, debugging, and referencing third-party packages. You'll run the C# console app you created in [Part 1 of this tutorial(tutorial-console.md) and explore some features of the Visual Studio integrated development environment (IDE) while you do so. This tutorial is part 2 of a two-part tutorial series.
+In part 2 of this tutorial series, you dive a little deeper into the Visual Studio build and debug features you need for daily development. These features include managing multiple projects, debugging, and referencing third-party packages. You run the C# console app you created in [Part 1 of this tutorial](tutorial-console.md), and explore some features of the Visual Studio integrated development environment (IDE). This tutorial is part 2 of a two-part tutorial series.
 
-In this tutorial, you will:
+In this tutorial, you:
 
 > [!div class="checklist"]
-> * Add another project to your first one.
+> * Add a second project.
 > * Reference libraries and add packages.
-> * Debug some more.
-> * Inspect your complete code.
+> * Do more debugging.
+> * Inspect your completed code.
 
 
 ## Prerequisites
 
-You must either:
-+ Use the [Calculator console app from part 1 of this tutorial series](tutorial-console.md) 
-+ Use the C# Calculator app in the [vs-tutorial-samples repo](https://github.com/MicrosoftDocs/vs-tutorial-samples) that you can [open from a repo](../tutorial-open-project-from-repo.md) to get started.
+To work through this article, you can use either of these Calculator apps:
+
+- The [Calculator console app from part 1 of this tutorial](tutorial-console.md).
+- The C# Calculator app in the [vs-tutorial-samples repo](https://github.com/MicrosoftDocs/vs-tutorial-samples). To get started, [open the app from the repo](../tutorial-open-project-from-repo.md).
 
 ## Add another project
 
-Real-world code involves many projects working together in a solution. Now, let's add another project to the Calculator app. This will be a class library that provides some of the calculator functions.
+Real-world code involves projects working together in a solution. You can add a class library project to your Calculator app that provides some calculator functions.
 
-1. In Visual Studio, you can use the top-level menu command **File** > **Add** > **New Project** to add a new project, but you can also right-click on the existing project name (called the "project node") and open up the project's shortcut menu (or context menu). This shortcut menu contains many ways to add functionality to your projects. So, right-click on your project node in **Solution Explorer**, and choose **Add** > **New Project**.
+In Visual Studio, you use the menu command **File** > **Add** > **New Project** to add a new project. You can also right-click on the solution in **Solution Explorer** to add a project from the context menu.
 
-1. Choose the C# project template **Class library (.NET Standard)**.
+::: moniker range="vs-2019"
+1. In **Solution Explorer**, right-click the solution node and choose **Add** > **New Project**.
 
-   ![Screenshot of Class Library project template selection](media/vs-2019/calculator2-add-project-dark.png)
+1. In the **Add a new project** window, type *class library* in the Search box. Choose the C# **Class library** project template, and then select **Next**.
 
-1. Type the project name **CalculatorLibrary**, and choose **Create**. Again, choose .NET 3.1 when asked. Visual Studio creates the new project and adds it to the solution.
+   ![Screenshot of Class Library project template selection.](media/vs-2019/calculator2-add-project-dark.png)
 
-   ![Screenshot of Solution Explorer with CalculatorLibrary class library project added](media/vs-2019/calculator2-solution-explorer-with-class-library-dark2.png)
+1. On the **Configure your new project** screen, type the project name *CalculatorLibrary*, and then select **Next**.
+   
+1. Choose .NET 3.1 when asked. Visual Studio creates the new project and adds it to the solution.
 
-1. Instead of having *Class1.cs*, rename the file **CalculatorLibrary.cs**. You can click on the name in **Solution Explorer** to rename it, or right-click and choose **Rename**, or press the **F2** key.
+   ![Screenshot of Solution Explorer with the CalculatorLibrary class library project added.](media/vs-2019/calculator2-solution-explorer-with-class-library-dark2.png)
 
-   You might get asked if you want to rename any references to `Class1` in the file. It doesn't matter how you answer, since you'll be replacing the code in a future step.
+1. Rename the *Class1.cs* file to *CalculatorLibrary.cs*. To rename the file, you can right-click the name in **Solution Explorer** and choose **Rename**, select the name and press **F2**, or select the name and click again to type.
 
-1. We now have to add a project reference, so that the first project can use APIs exposed by the new class library.  Right-click on the **Dependencies** node in the first project and choose **Add Project Reference**.
+   A message might ask whether you want to rename references to `Class1` in the file. It doesn't matter how you answer, because you'll replace the code in a future step.
 
-   ![Screenshot of Add Project Reference menu item](media/vs-2019/calculator2-add-project-reference-dark.png)
+1. Now add a project reference, so the first project can use APIs that the new class library exposes. Right-click the **Dependencies** node in the **Calculator** project and choose **Add Project Reference**.
 
-   The **Reference Manager** dialog box appears. This dialog box lets you add references to other projects, as well assemblies and COM DLLs that your projects need.
+   ![Screenshot of the Add Project Reference menu item.](media/vs-2019/calculator2-add-project-reference-dark.png)
 
-   ![Screenshot of Reference Manager dialog box](media/vs-2019/calculator2-ref-manager-dark.png)
+   The **Reference Manager** dialog box appears. In this dialog box, you can add references to other projects, assemblies, and COM DLLs that your projects need.
 
-1. In the **Reference Manager** dialog box, select the checkbox for the **CalculatorLibrary** project, and choose **OK**.  The project reference appears under a **Projects** node in **Solution Explorer**.
+1. In the **Reference Manager** dialog box, select the checkbox for the **CalculatorLibrary** project, and then select **OK**.
 
-   ![Screenshot of Solution Explorer with project reference](media/vs-2019/calculator2-solution-explorer-with-project-reference-dark2.png)
+   ![Screenshot of the Reference Manager dialog box.](media/vs-2019/calculator2-ref-manager-dark.png)
 
-1. In *Program.cs*, select the `Calculator` class and all its code, and press **CTRL+X** to cut it from Program.cs. Then in **CalculatorLibrary**, in *CalculatorLibrary.cs*, paste the code into the `CalculatorLibrary` namespace. Then, make the Calculator class `public` to expose it outside the library. The code in *CalculatorLibrary.cs* should now resemble the following code:
+   The project reference appears under a **Projects** node in **Solution Explorer**.
+
+   ![Screenshot of Solution Explorer with project reference.](media/vs-2019/calculator2-solution-explorer-with-project-reference-dark2.png)
+
+1. In *Program.cs*, select the `Calculator` class and all its code, and press **Ctrl**+**X** to cut it. Then, in *CalculatorLibrary.cs*, paste the code into the `CalculatorLibrary` namespace.
+   
+   Also add `public` before the Calculator class to expose it outside the library.
+
+   *CalculatorLibrary.cs* should now resemble the following code:
 
    ```csharp
    using System;
@@ -77,7 +89,7 @@ Real-world code involves many projects working together in a solution. Now, let'
         {
             public static double DoOperation(double num1, double num2, string op)
             {
-                double result = double.NaN; // Default value is "not-a-number" which we use if an operation, such as division, could result in an error.
+                double result = double.NaN; // Default value is "not-a-number" if an operation, such as division, could result in an error.
 
                 // Use a switch statement to do the math.
                 switch (op)
@@ -108,55 +120,162 @@ Real-world code involves many projects working together in a solution. Now, let'
     }
    ```
 
-1. The first project has a reference, but you'll see an error that the Calculator.DoOperation call doesn't resolve. That's because CalculatorLibrary is in a different namespace, so add `CalculatorLibrary` namespace for a fully qualified reference.
+1. *Program.cs* also has a reference, but an error says that the `Calculator.DoOperation` call doesn't resolve. That's because `CalculatorLibrary` is in a different namespace. For a fully qualified reference, you could add the `CalculatorLibrary` namespace to the `Calculator.DoOperation` call:
 
    ```csharp
    result = CalculatorLibrary.Calculator.DoOperation(cleanNum1, cleanNum2, op);
    ```
 
-   Try adding a using directive to the beginning of the file instead:
+   Or, you could try adding a `using` directive to the beginning of the file:
 
    ```csharp
    using CalculatorLibrary;
    ```
 
-   This change should let you remove the CalculatorLibrary namespace from the call site, but there's now an ambiguity. Is `Calculator` the class in CalculatorLibrary, or is Calculator the namespace?  To resolve the ambiguity, rename the namespace `CalculatorProgram`.
+   Adding the `using` directive should let you remove the `CalculatorLibrary` namespace from the call site, but now there's an ambiguity. Is `Calculator` the class in `CalculatorLibrary`, or is `Calculator` the namespace?
+   
+   To resolve the ambiguity, rename the namespace from `Calculator` to `CalculatorProgram` in both *Program.cs* and *CalculatorLibrary.cs*.
 
    ```csharp
    namespace CalculatorProgram
    ```
 
-## Reference .NET libraries: write to a log
+::: moniker-end
+::: moniker range=">=vs-2022"
+1. In **Solution Explorer**, right-click the solution node and choose **Add** > **New Project**.
 
-1. Suppose you now want to add a log of all the operations, and write it out to a text file. The .NET `Trace` class provides this functionality. (It's useful for basic print debugging techniques as well.)  The Trace class is in System.Diagnostics, and we'll need System.IO classes like `StreamWriter`, so start by adding the using directives at the top of *CalculatorLibrary.cs*:
+1. In the **Add a new project** window, type *class library* in the Search box. Choose the C# **Class library** project template, and then select **Next**.
+
+   ![Screenshot of Class Library project template selection.](media/vs-2022/calculator-add-project.png)
+
+1. On the **Configure your new project** screen, type the project name *CalculatorLibrary*, and then select **Next**.
+   
+1. On the **Additional information** screen, .NET 6.0 is selected. Select **Create**.
+   
+   Visual Studio creates the new project and adds it to the solution.
+   
+   ![Screenshot of Solution Explorer with the CalculatorLibrary class library project added.](media/vs-2022/calculator-solution-explorer-with-class-library.png)
+
+1. Rename the *Class1.cs* file to *CalculatorLibrary.cs*. To rename the file, you can right-click the name in **Solution Explorer** and choose **Rename**, select the name and press **F2**, or select the name and click again to type.
+
+   A message might ask whether you want to rename references to `Class1` in the file. It doesn't matter how you answer, because you'll replace the code in a future step.
+
+1. Now add a project reference, so the first project can use APIs that the new class library exposes. Right-click the **Dependencies** node in the **Calculator** project and choose **Add Project Reference**.
+
+   ![Screenshot of the Add Project Reference menu item.](media/vs-2022/calculator-add-project-reference.png)
+
+   The **Reference Manager** dialog box appears. In this dialog box, you can add references to other projects, assemblies, and COM DLLs that your projects need.
+
+1. In the **Reference Manager** dialog box, select the checkbox for the **CalculatorLibrary** project, and then select **OK**.
+
+   ![Screenshot of the Reference Manager dialog box.](media/vs-2022/calculator-reference-manager.png)
+
+   The project reference appears under a **Projects** node in **Solution Explorer**.
+
+   ![Screenshot of Solution Explorer with project reference.](media/vs-2022/calculator-solution-explorer-with-project-reference.png)
+
+1. In *Program.cs*, select the `Calculator` class and all its code, and press **Ctrl**+**X** to cut it. Then, in *CalculatorLibrary.cs*, paste the code into the `CalculatorLibrary` namespace.
+   
+   Also add `public` before the Calculator class to expose it outside the library.
+
+   *CalculatorLibrary.cs* should now resemble the following code:
+
+   ```csharp
+   using System;
+
+    namespace CalculatorLibrary
+    {
+        public class Calculator
+        {
+            public static double DoOperation(double num1, double num2, string op)
+            {
+                double result = double.NaN; // Default value is "not-a-number" if an operation, such as division, could result in an error.
+
+                // Use a switch statement to do the math.
+                switch (op)
+                {
+                    case "a":
+                        result = num1 + num2;
+                        break;
+                    case "s":
+                        result = num1 - num2;
+                        break;
+                    case "m":
+                        result = num1 * num2;
+                        break;
+                    case "d":
+                        // Ask the user to enter a non-zero divisor.
+                        if (num2 != 0)
+                        {
+                            result = num1 / num2;
+                        }
+                        break;
+                    // Return text for an incorrect option entry.
+                    default:
+                        break;
+                }
+                return result;
+            }
+        }
+    }
+   ```
+
+1. *Program.cs* also has a reference, but an error says that the `Calculator.DoOperation` call doesn't resolve. That's because `CalculatorLibrary` is in a different namespace. For a fully qualified reference, you could add the `CalculatorLibrary` namespace to the `Calculator.DoOperation` call:
+
+   ```csharp
+   result = CalculatorLibrary.Calculator.DoOperation(cleanNum1, cleanNum2, op);
+   ```
+
+   Or, you could try adding a `using` directive to the beginning of the file:
+
+   ```csharp
+   using CalculatorLibrary;
+   ```
+
+   Adding the `using` directive should let you remove the `CalculatorLibrary` namespace from the call site, but now there's an ambiguity. Is `Calculator` the class in `CalculatorLibrary`, or is `Calculator` the namespace?
+   
+   To resolve the ambiguity, rename the namespace from `Calculator` to `CalculatorProgram` in both *Program.cs* and *CalculatorLibrary.cs*.
+
+   ```csharp
+   namespace CalculatorProgram
+   ```
+::: moniker-end
+
+## Reference .NET libraries: Write to a log
+
+You can use the .NET `Trace` class to add a log of all operations, and write it to a text file. The `Trace` class is also useful for basic print debugging techniques. The `Trace` class is in `System.Diagnostics`, and uses `System.IO` classes like `StreamWriter`.
+
+1. Start by adding the `using` directives at the top of *CalculatorLibrary.cs*:
 
    ```csharp
    using System.IO;
    using System.Diagnostics;
    ```
 
-1. Looking at how the Trace class is used, you need to hold onto a reference for the class, which is associated with a filestream. That means, the calculator would work better as an object, so let's add a constructor at the beginning of the Calculator class in *CalculatorLibrary.cs*.
+1. This usage of the `Trace` class must hold onto a reference for the class, which it associates with a filestream. That requirement means the calculator works better as an object, so add a constructor at the beginning of the `Calculator` class in *CalculatorLibrary.cs*.
+
+   Also remove the `static` keyword to change the static `DoOperation` method into a member method.
 
    ```csharp
    public Calculator()
-        {
-            StreamWriter logFile = File.CreateText("calculator.log");
-            Trace.Listeners.Add(new TextWriterTraceListener(logFile));
-            Trace.AutoFlush = true;
-            Trace.WriteLine("Starting Calculator Log");
-            Trace.WriteLine(String.Format("Started {0}", System.DateTime.Now.ToString()));
-        }
+      {
+          StreamWriter logFile = File.CreateText("calculator.log");
+          Trace.Listeners.Add(new TextWriterTraceListener(logFile));
+          Trace.AutoFlush = true;
+          Trace.WriteLine("Starting Calculator Log");
+          Trace.WriteLine(String.Format("Started {0}", System.DateTime.Now.ToString()));
+      }
 
-    public double DoOperation(double num1, double num2, string op)
-        {
+   public double DoOperation(double num1, double num2, string op)
+      {
    ```
 
-1. And we need to change the static `DoOperation` method into a member method, so remove the `static` keyword.  Let's also add output to each calculation for the log, so that DoOperation looks like the following code:
+1. Add log output to each calculation. `DoOperation` should now look like the following code:
 
    ```csharp
    public double DoOperation(double num1, double num2, string op)
    {
-        double result = double.NaN; // Default value is "not-a-number" which we use if an operation, such as division, could result in an error.
+        double result = double.NaN; // Default value is "not-a-number" if an operation, such as division, could result in an error.
 
         // Use a switch statement to do the math.
         switch (op)
@@ -189,19 +308,21 @@ Real-world code involves many projects working together in a solution. Now, let'
     }
    ```
 
-1. Now back in *Program.cs*, the static call is flagged with a red squiggly. To fix it, create a `calculator` variable by adding the following line just before the `while (!endApp)` loop:
+1. Back in *Program.cs*, a red squiggly underline now flags the static call. To fix the error, create a `calculator` variable by adding the following code line just before the `while (!endApp)` loop:
 
    ```csharp
    Calculator calculator = new Calculator();
    ```
 
-   And modify the call site for `DoOperation` as follows, so that this references the object named `calculator` in lowercase, thereby making this a member invocation, rather than a call to a static method:
+   Also modify the `DoOperation` call site to reference the object named `calculator` in lowercase. The code is now a member invocation, rather than a call to a static method.
 
    ```csharp
    result = calculator.DoOperation(cleanNum1, cleanNum2, op);
    ```
 
-1. Run the program again, and when done, right-click on the project node and choose **Open folder in File Explorer**, then navigate down in File Explorer to the output folder. It might be *bin/Debug/netcoreapp3.1*, and open the *calculator.log* file.
+1. Run the app again. When you're done, right-click the **Calculator** project node and choose **Open Folder in File Explorer**.
+
+1. In File Explorer, navigate to the output folder under *bin/Debug/*, and open the *calculator.log* file. The output should look something like this:
 
     ```output
     Starting Calculator Log
@@ -210,7 +331,7 @@ Real-world code involves many projects working together in a solution. Now, let'
     3 * 3 = 9
     ```
 
-At this point, *CalculatorLibrary.cs* should look something like this:
+At this point, *CalculatorLibrary.cs* should resemble this code:
 
 ```csharp
 using System;
@@ -234,7 +355,7 @@ namespace CalculatorLibrary
 
         public double DoOperation(double num1, double num2, string op)
         {
-            double result = double.NaN; // Default value is "not-a-number" which we use if an operation, such as division, could result in an error.
+            double result = double.NaN; // Default value is "not-a-number" if an operation, such as division, could result in an error.
 
             // Use a switch statement to do the math.
             switch (op)
@@ -269,7 +390,7 @@ namespace CalculatorLibrary
 }
 ```
 
-And *Program.cs* should resemble the following:
+*Program.cs* should look like the following code:
 
 ```csharp
 using System;
@@ -355,29 +476,46 @@ namespace CalculatorProgram
 }
 ```
 
-## Add a NuGet Package: write to a JSON file
+## Add a NuGet Package: Write to a JSON file
 
-1. Now suppose we want to output the operations in a JSON format, a popular and portable format for storing object data. To implement that functionality, we will need to reference the NuGet package Newtonsoft.Json. NuGet packages are the primary vehicle for distribution of .NET class libraries. In **Solution Explorer**, right-click on the **Dependencies** node for the CalculatorLibrary project, and choose **Manage NuGet Packages**.
+To output operations in JSON, a popular and portable format for storing object data, you can reference the *Newtonsoft.Json* NuGet package. NuGet packages are the primary distribution method for .NET class libraries.
 
-   ![Screenshot of Manage NuGet Packages on the shortcut menu](media/vs-2019/calculator2-manage-nuget-packages-dark2.png)
+1. In **Solution Explorer**, right-click the **Dependencies** node for the **CalculatorLibrary** project, and choose **Manage NuGet Packages**.
+
+   ::: moniker range="vs-2019"
+   ![Screenshot of Manage NuGet Packages on the shortcut menu.](media/vs-2019/calculator2-manage-nuget-packages-dark2.png)
+   ::: moniker-end
+   ::: moniker range=">=vs-2022"
+   ![Screenshot of Manage NuGet Packages on the shortcut menu.](media/vs-2022/calculator-manage-nuget-packages.png)
+   ::: moniker-end
 
    The NuGet Package Manager opens.
 
-   ![Screenshot of NuGet Package Manager](media/vs-2019/calculator2-nuget-package-manager-dark.png)
+   ::: moniker range="vs-2019"
+   ![Screenshot of the NuGet Package Manager.](media/vs-2019/calculator2-nuget-package-manager-dark.png)
+   ::: moniker-end
 
-1. Search for Newtonsoft.Json package, and choose **Install**.
+1. Search for and select the *Newtonsoft.Json* package, and select **Install**.
 
-   ![Screenshot of Newtonsoft NuGet package infomation](media/vs-2019/calculator2-nuget-newtonsoft-json-dark2.png)
+   ::: moniker range="vs-2019"
+   ![Screenshot of Newtonsoft J SON NuGet package information in the NuGet Package Manager.](media/vs-2019/calculator2-nuget-newtonsoft-json-dark2.png)
+   
+   Visual Studio downloads the package and adds it to the project. A new entry appears in the References node in **Solution Explorer**.
+   ::: moniker-end
+   ::: moniker range=">=vs-2022"
+   ![Screenshot of Newtonsoft J SON NuGet package information in the NuGet Package Manager.](media/vs-2022/calculator-nuget-newtonsoft-json.png)
+   If you're prompted whether to accept changes, select **OK**.
+   
+   Visual Studio downloads the package and adds it to the project. A new entry appears in a **Packages** node in **Solution Explorer**.
+   ::: moniker-end
 
-   The package is downloaded, and added to your project and a new entry appears in the References node in **Solution Explorer**.
-
-1. Add a using directive for the System.IO and Newtonsoft.Json package at the beginning of *CalculatorLibrary.cs*.
+1. Add a `using` directive for `Newtonsoft.Json` at the beginning of *CalculatorLibrary.cs*.
 
    ```csharp
    using Newtonsoft.Json;
    ```
 
-1. Now replace the constructor for Calculator with the following code, and create the JsonWriter member object:
+1. Create the `JsonWriter` member object, and replace the `Calculator` constructor with the following code:
 
    ```csharp
         JsonWriter writer;
@@ -394,12 +532,12 @@ namespace CalculatorProgram
         }
    ```
 
-1. Modify the `DoOperation` method to add the JSON writer code:
+1. Modify the `DoOperation` method to add the JSON `writer` code:
 
    ```csharp
         public double DoOperation(double num1, double num2, string op)
         {
-            double result = double.NaN; // Default value is "not-a-number" which we use if an operation, such as division, could result in an error.
+            double result = double.NaN; // Default value is "not-a-number" if an operation, such as division, could result in an error.
             writer.WriteStartObject();
             writer.WritePropertyName("Operand1");
             writer.WriteValue(num1);
@@ -441,7 +579,7 @@ namespace CalculatorProgram
         }
    ```
 
-1. You'll need to add a method to finish the JSON syntax once the user is done entering operation data.
+1. Add a method to finish the JSON syntax once the user is done entering operation data.
 
    ```csharp
     public void Finish()
@@ -452,16 +590,18 @@ namespace CalculatorProgram
     }
    ```
 
-1. And in *Program.cs*, add a call to Finish at the end.
+1. At the end of *Program.cs*, before the `return;`, add a call to `Finish`:
 
    ```csharp
-            // And call to close the JSON writer before return
+            // Add call to close the JSON writer before return
             calculator.Finish();
             return;
         }
    ```
 
-1. Build and run the app, and after you're done entering a few operations, close the app properly by using the 'n' command.  Now, open the calculatorlog.json file and you should see something like the following:
+1. Build and run the app, and after you're done entering a few operations, close the app by entering the *n* command.
+   
+1. Open the *calculatorlog.json* file in File Explorer. You should see something like the following content:
 
    ```json
    {
@@ -482,113 +622,116 @@ namespace CalculatorProgram
    }
    ```
 
-## Debug: set and hit a breakpoint
+## Debug: Set and hit a breakpoint
 
-The Visual Studio debugger is a powerful tool that allows you to run your code step by step, to find the exact point where you made a programming mistake. You then understand what corrections you need to make in your code. Visual Studio allows you to make temporary changes so you can continue running the program.
+The Visual Studio debugger is a powerful tool. The debugger can step through your code to find the exact point where there's a programming mistake. You can then understand what corrections you need to make, and make temporary changes so you can continue running your app.
 
-1. In *Program.cs*, click the margin to the left of the following code (or, open the shortcut menu and choose **Breakpoint** > **Insert Breakpoint**, or press **F9**):
+1. In *Program.cs*, click in the gutter to the left of the following code line. You can also click in the line and select **F9**, or right-click the line and select **Breakpoint** > **Insert Breakpoint**.
 
    ```csharp
    result = calculator.DoOperation(cleanNum1, cleanNum2, op);
    ```
 
-   The red circle that appears indicates a breakpoint. You can use breakpoints to pause your app and inspect code. You can set a breakpoint on any executable line of code.
+   The red dot that appears indicates a breakpoint. You can use breakpoints to pause your app and inspect code. You can set a breakpoint on any executable line of code.
 
-   ![Screenshot of setting a breakpoint](media/vs-2019/calculator-2-debug-set-breakpoint.png)
+   ![Screenshot that shows setting a breakpoint.](media/vs-2019/calculator-2-debug-set-breakpoint.png)
 
-1. Build and run the app.
+1. Build and run the app. Enter the following values for the calculation:
 
-1. In the running app, type some values for the calculation:
+   - For the first number, enter *8*.
+   - For the second number, enter *0*.
+   - For the operator, let's have some fun. Enter *d*.
 
-   - For the first number, type **8** and enter it.
-   - For the second number, type **0** and enter it.
-   - For the operator, let's have some fun; type **d** and enter it.
-
-   The app suspends where you created the breakpoint, which is indicated by the yellow pointer on the left and the highlighted code. The highlighted code has not yet executed.
+   The app suspends where you created the breakpoint, which is indicated by the yellow pointer on the left and the highlighted code. The highlighted code hasn't yet executed.
 
    ![Screenshot of hitting a breakpoint](media/vs-2019/calculator-2-debug-hit-breakpoint.png)
 
-   Now, with the app suspended you can inspect your application state.
+   Now, with the app suspended, you can inspect your application state.
 
-## Debug: view variables
+## Debug: View variables
 
-1. In the highlighted code, hover over variables such as `cleanNum1` and `op`. You see the current values for these variables (`8` and `d`, respectively), which appear in DataTips.
+1. In the highlighted code, hover over variables such as `cleanNum1` and `op`. The current values for these variables, `8` and `d` respectively, appear in DataTips.
 
-   ![Screenshot of viewing a DataTip](media/vs-2019/calculator-2-debug-view-datatip.png)
+   ![Screenshot that shows viewing a DataTip.](media/vs-2019/calculator-2-debug-view-datatip.png)
 
-   When debugging, checking to see whether variables hold the values you expect them to hold is often critical to fixing issues.
+   When debugging, checking to see whether variables hold the values you expect is often critical to fixing issues.
 
-2. In the lower pane, look at the **Locals** window. (If it's closed, choose **Debug** > **Windows** > **Locals** to open it.)
+2. In the lower pane, look at the **Locals** window. If it's closed, select **Debug** > **Windows** > **Locals** to open it.
 
-   In the Locals window, you see each variable that is currently in scope, along with its value and type.
+   The **Locals** window shows each variable that's currently in scope, along with its value and type.
 
-   ![Screenshot of Locals window](media/vs-2019/calculator-2-debug-locals-window.png)
+   ::: moniker range="vs-2019"
+   ![Screenshot of the Locals window.](media/vs-2019/calculator-2-debug-locals-window.png)
+   ::: moniker-end
+   ::: moniker range=">=vs-2022"
+   ![Screenshot of the Locals window.](media/vs-2022/calculator-debug-locals-window.png)
+   ::: moniker-end
 
 3. Look at the **Autos** window.
 
-   The Autos window is similar to the **Locals** window, but it shows the variables immediately preceding and following the current line of code where your app is paused.
+   The Autos window is similar to the **Locals** window, but shows the variables immediately preceding and following the current line of code where your app is paused.
 
-   Next, you will execute code in the debugger one statement at a time, which is called *stepping*.
+Next, execute code in the debugger one statement at a time, which is called *stepping*.
 
-## Debug: step through code
+## Debug: Step through code
 
-1. Press **F11** (or **Debug** > **Step Into**).
+1. Press **F11**, or select **Debug** > **Step Into**.
 
-   Using the Step Into command, the app executes the current statement and advances to the next executable statement (usually the next line of code). The yellow pointer on the left always indicates the current statement.
+   Using the Step Into command, the app executes the current statement and advances to the next executable statement, usually the next line of code. The yellow pointer on the left always indicates the current statement.
 
    ![Screenshot of step into command](media/vs-2019/calculator-2-debug-step-into.png)
 
-   You've just stepped into the `DoOperation` method in the `Calculator` class.
+   You just stepped into the `DoOperation` method in the `Calculator` class.
 
-1. To get a hierarchical look at your program flow, look at the **Call Stack** window. (If it's closed, choose **Debug** > **Windows** > **Call Stack**.)
+1. To get a hierarchical look at your program flow, look at the **Call Stack** window. If it's closed, select **Debug** > **Windows** > **Call Stack** to open it.
 
    ![Screenshot of the call stack](media/vs-2019/calculator-2-debug-call-stack.png)
 
-   This view shows the current `Calculator.DoOperation` method, indicated by the yellow pointer, and the second row shows the function that called it, from the `Main` method in *Program.cs*. The **Call Stack** window shows the order in which methods and functions are getting called. In addition, it provides access to many debugger features, such as **Go to Source Code**, from the shortcut menu.
+   This view shows the current `Calculator.DoOperation` method, indicated by the yellow pointer. The second row shows the function that called the method, from the `Main` method in *Program.cs*.
+   
+   The **Call Stack** window shows the order in which methods and functions are getting called. This window also provides access to many debugger features, such as **Go to Source Code**, from its shortcut menu.
 
-1. Press **F10** (or **Debug** > **Step Over**) several times until the app pauses on the `switch` statement.
+1. Press **F10**, or select **Debug** > **Step Over**, several times until the app pauses on the `switch` statement.
 
    ```csharp
    switch (op)
    {
    ```
 
-   The Step Over command is similar to the Step Into command, except that if the current statement calls a function, the debugger runs the code in the called function and doesn't suspend execution until the function returns. Step Over is a faster way to navigate code if you're not interested in a particular function.
+   The Step Over command is similar to the Step Into command, except that if the current statement calls a function, the debugger runs the code in the function, and doesn't suspend execution until the function returns. Step Over is faster than Step Into if you're not interested in a particular function.
 
-1. Press **F10** one more time so that the app pauses on the following line of code.
+1. Press **F10** one more time, so that the app pauses on the following line of code.
 
    ```csharp
    if (num2 != 0)
    {
    ```
 
-   This code checks for a divide-by-zero case. If the app continues, it will throw a general exception (an error), but let's say you consider this a bug, and want to do something else, like view the actual returned value in the console. One option is to use a debugger feature called Edit-and-continue to make changes to the code and then continue debugging. However, we will show you a different trick to temporarily modify the execution flow.
+   This code checks for a divide-by-zero case. If the app continues, it will throw a general exception (an error), but you might want to try something else, like viewing the actual returned value in the console. One option is to use a debugger feature called *edit-and-continue* to make changes to the code and then continue debugging. However, there's a different trick to temporarily modify the execution flow.
 
-## Debug: test a temporary change
+## Debug: Test a temporary change
 
-1. Select the yellow pointer, currently paused on the `if (num2 != 0)` statement, and drag it to the following statement.
+1. Select the yellow pointer, currently paused on the `if (num2 != 0)` statement, and drag it to the following statement:
 
    ```csharp
    result = num1 / num2;
    ```
 
-   By doing this, the app completely skips the `if` statement, so you can see what happens when you divide by zero.
+   Dragging the pointer here causes the app to completely skip the `if` statement, so you can see what happens when you divide by zero.
 
 1. Press **F10** to execute the line of code.
 
-1. Hover over the `result` variable and you see it stores a value of `Infinity`.
+1. If you hover over the `result` variable, it shows a value of **Infinity**. In C#, Infinity is the result when you divide by zero.
 
-   In C#, `Infinity` is the result when you divide by zero.
+1. Press **F5**, or select **Debug** > **Continue Debugging**.
 
-1. Press **F5** (or, **Debug** > **Continue Debugging**).
+   The infinity symbol appears in the console as the result of the math operation.
 
-   The Infinity symbol shows up in the console as the result of the math operation.
-
-1. Close the app properly by using the 'n' command.
+1. Close the app properly by entering the *n* command.
 
 ## Code complete
 
-Here's the complete code for the *CalculatorLibrary.cs* file, after all the steps have been completed:
+Here's the complete code for the *CalculatorLibrary.cs* file, after you complete all the steps:
 
 ```csharp
 using System;
@@ -616,7 +759,7 @@ namespace CalculatorLibrary
 
         public double DoOperation(double num1, double num2, string op)
         {
-            double result = double.NaN; // Default value is "not-a-number" which we use if an operation, such as division, could result in an error.
+            double result = double.NaN; // Default value is "not-a-number" if an operation, such as division, could result in an error.
             writer.WriteStartObject();
             writer.WritePropertyName("Operand1");
             writer.WriteValue(num1);
@@ -756,12 +899,12 @@ namespace CalculatorProgram
 
 ## Next steps
 
-Congratulations on completing this tutorial! To learn even more, continue with the following content:
+Congratulations on completing this tutorial! To learn more, continue with the following content:
 
-- [Continue with more C# tutorials](/dotnet/csharp/tutorials/)
-- [Quickstart: create a ASP.NET Core web app](../../ide/quickstart-aspnet-core.md)
-- [Learn to debug C# code in Visual Studio](tutorial-debugger.md)
-- Walkthrough on how to [create and run unit tests](../../test/walkthrough-creating-and-running-unit-tests-for-managed-code.md)
-- [Run a C# program](run-program.md)
-- [C# IntelliSense](../../ide/visual-csharp-intellisense.md)
-- [Continue with Visual Studio IDE overview](/../visual-studio-ide.md)
+- [Continue with more C# tutorials](/dotnet/csharp/tutorials/).
+- [Quickstart: Create a ASP.NET Core web app](../../ide/quickstart-aspnet-core.md).
+- [Learn to debug C# code in Visual Studio](tutorial-debugger.md).
+- [Walk through how to create and run unit tests](../../test/walkthrough-creating-and-running-unit-tests-for-managed-code.md).
+- [Run a C# program](run-program.md).
+- [Learn about C# IntelliSense](../../ide/visual-csharp-intellisense.md).
+- [Continue with the Visual Studio IDE overview](visual-studio-ide.md).
