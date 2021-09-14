@@ -21,7 +21,7 @@ This refactoring applies to:
 - C#
 - Visual Basic
 
-**What:** Lets you remove unused references for SDK style projects.
+**What:** Lets you remove unused references for [SDK style projects](https://docs.microsoft.com/dotnet/core/project-sdk/overview).
 
 **When:** You want to clean up project references and NuGet packages that have no usage. 
 
