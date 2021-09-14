@@ -74,7 +74,7 @@ A "solution folder" is a virtual folder that's only in **Solution Explorer**, wh
 
 ## Solution Explorer
 
-After you create a new project, you can use **Solution Explorer** to view and manage the project and solution and their associated items. The following illustration shows **Solution Explorer** with a C# solution that contains two projects:
+After you create a new project, you can use **[Solution Explorer]((use-solution-explorer.md))** to view and manage the project and solution and their associated items. The following illustration shows **Solution Explorer** with a C# solution that contains two projects:
 
 ::: moniker range="vs-2017"
 
@@ -92,7 +92,7 @@ The toolbar across the top of **Solution Explorer** has buttons to switch from a
 
 ::: moniker-end
 
-Many menu commands are available from the right-click context menu on various items in **Solution Explorer**. These commands include building a project, managing NuGet packages, adding a reference, renaming a file, and running tests, just to name a few.
+Many menu commands are available from the right-click context menu on various items in **Solution Explorer**. These commands include building a project, managing NuGet packages, adding a reference, renaming a file, and running tests, just to name a few. For more information, see [How to use Solution Explorer](use-solution-explorer.md).
 
 For ASP.NET Core projects, you can customize how files are nested in **Solution Explorer**. For more information, see [Customize file nesting in Solution Explorer](file-nesting-solution-explorer.md).
 
@@ -101,8 +101,6 @@ For ASP.NET Core projects, you can customize how files are nested in **Solution 
 
 > [!NOTE]
 > To view the application images and icons that appear in Visual Studio, download the [**Visual Studio Image Library**](https://www.microsoft.com/download/details.aspx?id=35825).
-
-For more information, see the [How to use Solution Explorer](use-solution-explorer.md) page.
 
 ## See also
 
