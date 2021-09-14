@@ -2,7 +2,7 @@
 title: Remove unused references
 description: Learn how to clean up project references and NuGet packages that have no usage with the new Remove Unused References command.
 ms.custom: SEO-VS-2021
-ms.date: 06/01/2021
+ms.date: 09/13/2021
 ms.topic: reference
 author: mikadumont
 ms.author: midumont
@@ -21,7 +21,7 @@ This refactoring applies to:
 - C#
 - Visual Basic
 
-**What:** Lets you remove unused references.
+**What:** Lets you remove unused references for SDK style projects.
 
 **When:** You want to clean up project references and NuGet packages that have no usage. 
 

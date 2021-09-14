@@ -210,32 +210,60 @@ $([MSBuild]::EnsureTrailingSlash('$(PathProperty)'))
 
 ## MSBuild GetDirectoryNameOfFileAbove
 
-The MSBuild `GetDirectoryNameOfFileAbove` property function looks for a file in the directories above the current directory in the path.
+The MSBuild `GetDirectoryNameOfFileAbove` property function searches upward for a directory containing the specified file, beginning in (and including) the specified directory. It returns the full path of the nearest directory containing the file if it is found, otherwise an empty string.
 
- This property function has the following syntax:
+This property function has the following syntax:
 
 ```
-$([MSBuild]::GetDirectoryNameOfFileAbove(string ThePath, string TheFile))
+$([MSBuild]::GetDirectoryNameOfFileAbove(string startingDirectory, string fileName))
 ```
 
- The following code is an example of this syntax.
+This example shows how to import the nearest *EnlistmentInfo.props* file in or above the current folder, only if a match is found:
 
 ```xml
 <Import Project="$([MSBuild]::GetDirectoryNameOfFileAbove($(MSBuildThisFileDirectory), EnlistmentInfo.props))\EnlistmentInfo.props" Condition=" '$([MSBuild]::GetDirectoryNameOfFileAbove($(MSBuildThisFileDirectory), EnlistmentInfo.props))' != '' " />
 ```
 
-## MSBuild GetPathOfFileAbove
-
-The `GetPathOfFileAbove` property function in MSBuild returns the path of the specified file, if located in the directory structure above the current directory. It is functionally equivalent to calling
+Note that this example can be written more concisely by using the `GetPathOfFileAbove` function instead:
 
 ```xml
-<Import Project="$([MSBuild]::GetDirectoryNameOfFileAbove($(MSBuildThisFileDirectory), dir.props))\dir.props" />
+<Import Project="$([MSBuild]::GetPathOfFileAbove(EnlistmentInfo.props))" Condition=" '$([MSBuild]::GetPathOfFileAbove(EnlistmentInfo.props))' != '' " />
 ```
+
+## MSBuild GetPathOfFileAbove
+
+The MSBuild `GetPathOfFileAbove` property function searches upward for a directory containing the specified file, beginning in (and including) the specified directory. It returns the full path of the nearest matching file if it is found, otherwise an empty string.
 
 This property function has the following syntax:
 
 ```
-$([MSBuild]::GetPathOfFileAbove(dir.props))
+$([MSBuild]::GetDirectoryNameOfFileAbove(string file, [string startingDirectory]))
+```
+
+where `file` is the name of the file to search for and `startingDirectory` is an optional directory to start the search in. By default, the search will start in the current file's own directory.
+ 
+This example shows how to import a file named *dir.props* in or above the current directory, only if a match is found:
+
+```xml
+<Import Project="$([MSBuild]::GetPathOfFileAbove(dir.props))" Condition=" '$([MSBuild]::GetPathOfFileAbove(dir.props))' != '' " />
+```
+
+which is functionally equivalent to
+
+```xml
+<Import Project="$([MSBuild]::GetDirectoryNameOfFileAbove($(MSBuildThisFileDirectory), dir.props))\dir.props" Condition=" '$([MSBuild]::GetDirectoryNameOfFileAbove($(MSBuildThisFileDirectory), dir.props))' != '' " />
+```
+
+However, sometimes you need to start the search in the parent directory, to avoid matching the current file. This example shows how a *Directory.Build.props* file can import the nearest *Directory.Build.props* file in a strictly higher level of the tree, without recursively importing itself:
+
+```xml
+<Import Project="$([MSBuild]::GetPathOfFileAbove('Directory.Build.props', '$(MSBuildThisFileDirectory)../'))" />
+```
+
+which is functionally equivalent to
+
+```xml
+<Import Project="$([MSBuild]::GetDirectoryNameOfFileAbove('$(MSBuildThisFileDirectory)../', 'Directory.Build.props'))/Directory.Build.props" />
 ```
 
 ## MSBuild GetRegistryValue

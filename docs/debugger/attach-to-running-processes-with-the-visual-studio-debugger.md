@@ -2,7 +2,7 @@
 title: "Attach to running processes with the debugger"
 description: Discover how to attach the Visual Studio debugger to a running process on a local or remote computer.
 ms.custom: "SEO-VS-2020"
-ms.date: "06/28/2021"
+ms.date: "09/10/2021"
 ms.topic: "conceptual"
 f1_keywords:
   - "vs.debug.processes.attach"
@@ -102,7 +102,13 @@ For more complete instructions for debugging ASP.NET applications that have been
 
      Verify that Visual Studio adds the required port to the computer name, which appears in the format: **\<remote computer name>:port**
 
-     ::: moniker range=">= vs-2019"
+     ::: moniker range=">= vs-2022"
+
+     > [!NOTE]
+     > If you can't connect using the remote computer name, try using the IP and port address (for example, `123.45.678.9:4022`). 4026 is the default port for the Visual Studio 2022 x64 remote debugger. For other remote debugger port assignments, see [Remote debugger port assignments](remote-debugger-port-assignments.md).
+
+     ::: moniker-end
+     ::: moniker range="vs-2019"
 
      > [!NOTE]
      > If you can't connect using the remote computer name, try using the IP and port address (for example, `123.45.678.9:4022`). 4024 is the default port for the Visual Studio 2019 x64 remote debugger. For other remote debugger port assignments, see [Remote debugger port assignments](remote-debugger-port-assignments.md).
