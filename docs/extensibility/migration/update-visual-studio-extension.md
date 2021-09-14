@@ -135,7 +135,7 @@ All these steps can be completed with Visual Studio 2019.
 Leave the `source.extension.vsixmanifest` file in the VSIX project.
    ![Shared project contains all source files](media/update-visual-studio-extension/source-files-in-shared-project.png)
 
-1. Metadata files (release notes, license, icons, and so on) and VSCT files should be moved to a shared directory and added as linked files to the VSIX project.
+1. Metadata files (release notes, license, icons, and so on) and VSCT files should be moved to a shared directory and added as linked files to the VSIX project. Note that the shared directory is separate from the shared project.
    ![Add metadata and VSCT files as linked files](media/update-visual-studio-extension/add-linked-items-to-vsix.png)
     - For Metadata files, set BuildAction to `Content` and set Include in VSIX to `true`.
 

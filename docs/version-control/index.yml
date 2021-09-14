@@ -7,7 +7,7 @@ metadata:
   title: Version control & source control with Git in Visual Studio # Required; page title displayed in search results. Include the brand. < 60 chars.
   description: Use version / source control technologies in Visual Studio. You can share, integrate, and manage your code releases in Git & GitHub without leaving your codebase.
   ms.topic: landing-page
-  ms.date: 07/02/2021
+  ms.date: 09/07/2021
   author: TerryGLee
   ms.author: tglee
   manager: jmartens
@@ -48,10 +48,12 @@ landingContent:
     linkLists:
       - linkListType: whats-new
         links:
-          - text: Enhanced productivity with Git in Visual Studio
-            url: https://devblogs.microsoft.com/visualstudio/enhanced-productivity-with-git-in-visual-studio/
+          - text: Multi-repo support in Visual Studio 2022 (Preview)
+            url: https://devblogs.microsoft.com/visualstudio/multi-repo-support-in-visual-studio/
           - text: Visual Studio 2022 (Preview) release notes
             url: /visualstudio/releases/2022/release-notes-preview/
+          - text: Enhanced productivity with Git in Visual Studio 2019
+            url: https://devblogs.microsoft.com/visualstudio/enhanced-productivity-with-git-in-visual-studio/
           - text: Visual Studio 2019 release notes
             url: /visualstudio/releases/2019/release-notes/
 

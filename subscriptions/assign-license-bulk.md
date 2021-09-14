@@ -1,12 +1,11 @@
 ---
-title: Assign licenses to groups of users for Visual Studio subscriptions | Microsoft Docs
+title: Assign Visual Studio subscriptions to multiple users | Microsoft Docs
 author: evanwindom
-ms.author: v-evwin
+ms.author: cabuschl
 manager: cabuschl
-ms.assetid: c2853359-18fd-4be4-97a6-02230c862f92
-ms.date: 03/21/2021
-ms.topic: how-to
-description:  Learn how admins can assign licenses to multiple subscribers using either the Bulk add feature or Microsoft Azure Active Directory groups
+ms.date: 03/19/2021
+ms.topic: conceptual
+description:  Learn how admins can assign multiple subscriptions at one time.
 ---
 
 # Assign subscriptions to multiple users
