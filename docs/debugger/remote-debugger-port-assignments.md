@@ -50,7 +50,7 @@ In other words, the number of the port assigned to the remote debugger is increm
 
 ## The Remote Debugger Port on 64-bit Operating Systems
 ::: moniker range=">=vs-2022"
- When the 64-bit version of the remote debugger is started, it uses the main port (4026) by default.  If you debug a 32-bit process, the 64-bit version of the remote debugger starts a 32-bit version of the remote debugger on port 4027 (the main port number incremented by 1). If you run the 32-bit remote debugger, it uses 4026, and 4027 is not used.
+ When the 64-bit version of the remote debugger is started, it uses the main port (4026) by default.  If you debug a 32-bit process, the 64-bit version of the remote debugger starts a 32-bit version of the remote debugger on port 4025. If you run the 32-bit remote debugger, it uses 4026, and 4025 is not used.
 ::: moniker-end
 ::: moniker range="vs-2019"
  When the 64-bit version of the remote debugger is started, it uses the main port (4024) by default.  If you debug a 32-bit process, the 64-bit version of the remote debugger starts a 32-bit version of the remote debugger on port 4025 (the main port number incremented by 1). If you run the 32-bit remote debugger, it uses 4024, and 4025 is not used.
