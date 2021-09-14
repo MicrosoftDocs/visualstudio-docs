@@ -154,9 +154,16 @@ Feature flags are used to ship experimental or unfinished parts of the product t
 
 To turn on a feature flag through the Visual Studio developer command prompt, use the following command. Change the path to where Visual Studio is installed on your machine, and change the registry key to the feature flag that you want.
 
+::: moniker range=">=vs-2022"
+```shell
+vsregedit set “C:\Program Files\Microsoft Visual Studio\Preview\Enterprise" HKLM FeatureFlags\TestingTools\UnitTesting\HierarchyView Value dword 1
+```
+::: moniker-end
+::: moniker range="vs-2019"
 ```shell
 vsregedit set “C:\Program Files (x86)\Microsoft Visual Studio\Preview\Enterprise" HKLM FeatureFlags\TestingTools\UnitTesting\HierarchyView Value dword 1
 ```
+::: moniker-end
 
 > [!NOTE]
 > You can turn off the flag with the same command, by using a value of 0 instead of 1 after dword.
