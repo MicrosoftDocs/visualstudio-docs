@@ -2,7 +2,7 @@
 title: Quick Actions, light bulbs, and screwdrivers
 description: Learn how to use a single Quick Action to refactor, generate, or otherwise modify your code.
 ms.custom: SEO-VS-2020
-ms.date: 03/28/2018
+ms.date: 09/15/2021
 ms.topic: conceptual
 author: TerryGLee
 ms.author: tglee
@@ -67,6 +67,7 @@ To see potential fixes, select either the down arrow next to the light bulb or t
 
 ## See also
 
+- [Visual Studio IntelliCode](/visualstudio/intellicode/intellicode-visual-studio)
 - [Code generation in Visual Studio](../ide/code-generation-in-visual-studio.md)
 - [Common Quick Actions](../ide/common-quick-actions.md)
 - [Code styles and Quick Actions](../ide/code-styles-and-code-cleanup.md)

@@ -2,7 +2,7 @@
 title: Customize your build | Microsoft Docs
 description: Learn about several extensibility hooks you can use to customize MSBuild projects that use the standard build process. 
 ms.custom: SEO-VS-2020
-ms.date: 06/13/2019
+ms.date: 09/13/2021
 ms.topic: conceptual
 helpviewer_keywords:
 - MSBuild, transforms
@@ -25,9 +25,7 @@ A *Directory.Build.rsp* file in or above your source directory will be applied t
 
 ## Directory.Build.props and Directory.Build.targets
 
-Prior to MSBuild version 15, if you wanted to provide a new, custom property to projects in your solution, you had to manually add a reference to that property to every project file in the solution. Or, you had to define the property in a *.props* file and then explicitly import the *.props* file in every project in the solution, among other things.
-
-However, now you can add a new property to every project in one step by defining it in a single file called *Directory.Build.props* in the root folder that contains your source. When MSBuild runs, *Microsoft.Common.props* searches your directory structure for the *Directory.Build.props* file (and *Microsoft.Common.targets* looks for *Directory.Build.targets*). If it finds one, it imports the property. *Directory.Build.props* is a user-defined file that provides customizations to projects under a directory.
+You can add a new property to every project by defining it in a single file called *Directory.Build.props* in the root folder that contains your source. When MSBuild runs, *Microsoft.Common.props* searches your directory structure for the *Directory.Build.props* file (and *Microsoft.Common.targets* looks for *Directory.Build.targets*). If it finds one, it imports the file and reads the properties defined within it. *Directory.Build.props* is a user-defined file that provides customizations to projects under a directory.
 
 > [!NOTE]
 > Linux-based file systems are case-sensitive. Make sure the casing of the Directory.Build.props filename matches exactly, or it won't be detected during the build process.
@@ -105,10 +103,10 @@ To make MSBuild correctly merge the "inner" files (*2-src* and *2-test*) with th
 
 A summary of MSBuild's general approach is as follows:
 
-- For any given project, MSBuild finds the first *Directory.Build.props* upward in the solution structure, merges it with defaults, and stops scanning for more
-- If you want multiple levels to be found and merged, then [`<Import...>`](../msbuild/property-functions.md#msbuild-getpathoffileabove) (shown above) the "outer" file from the "inner" file
-- If the "outer" file does not itself also import something above it, then scanning stops there
-- To control the scanning/merging process, use `$(DirectoryBuildPropsPath)` and `$(ImportDirectoryBuildProps)`
+- For any given project, MSBuild finds the first *Directory.Build.props* upward in the solution structure, merges it with defaults, and stops scanning for more.
+- If you want multiple levels to be found and merged, then [`<Import...>`](../msbuild/property-functions.md#msbuild-getpathoffileabove) (shown above) the "outer" file from the "inner" file.
+- If the "outer" file does not itself also import something above it, then scanning stops there.
+- To control the scanning/merging process, use `$(DirectoryBuildPropsPath)` and `$(ImportDirectoryBuildProps)`.
 
 Or more simply: the first *Directory.Build.props* that doesn't import anything is where MSBuild stops.
 
