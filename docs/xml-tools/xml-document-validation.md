@@ -43,7 +43,7 @@ When editing an XML Schema file, the *xsdschema.xsd* file located in the schema 
 ## Entity Reference Limit
 DTD processing limits the number of entity references by default to 10,000 references and can accomodate most XML schemas.  The error message in Visual Studio may read "Exceeded entity references limit for filename".
 
-If you encounter this limitation in processing an XML document and wish to extend the validator to a larger schema, this can be changed with the `MaxNumberOfDtdEntityReferences` Visual Studio registry key. See [editing the registry for a Visual Studio instance](../install/tools-for-managing-visual-studio-instances#editing-the-registry-for-a-visual-studio-instance) for more information on making this change. Please note that this applies to all XML documents opened by the user on that machine.
+If you encounter this limitation in processing an XML document and wish to extend the validator to a larger schema, this can be changed with the `MaxNumberOfDtdEntityReferences` Visual Studio registry key. See [editing the registry for a Visual Studio instance](../install/tools-for-managing-visual-studio-instances.md#editing-the-registry-for-a-visual-studio-instance) for more information on making this change. Please note that this applies to all XML documents opened by the user on that machine.
 
 ## See also
 
