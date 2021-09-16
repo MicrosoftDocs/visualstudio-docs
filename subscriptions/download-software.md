@@ -1,7 +1,7 @@
 ---
 title: Downloading software titles in Visual Studio subscriptions | Microsoft Docs
 author: evanwindom
-ms.author: v-evwin
+ms.author: cabuschl
 manager: cabuschl
 ms.assetid: e2f2619c-7736-47e5-a066-5940d5994db9
 ms.date: 02/18/2021

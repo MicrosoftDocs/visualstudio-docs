@@ -1,7 +1,7 @@
 ---
 title: Signing in to Visual Studio Subscriptions May Fail When Using Aliases | Microsoft Docs
 author: evanwindom
-ms.author: v-evwin
+ms.author: cabuschl
 manager: cabuschl
 ms.assetid: 97bf7474-c6c2-49b3-b2c9-f1b2808eed1a
 ms.date: 03/19/2021
