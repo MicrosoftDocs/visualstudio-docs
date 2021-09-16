@@ -1,7 +1,7 @@
 ---
 title: Technical Support benefit in Visual Studio subscriptions
 author: evanwindom
-ms.author: v-evwin
+ms.author: cabuschl
 manager: cabuschl
 ms.assetid: 2e0fd8bb-8f20-487c-b350-b8fde405ea5e
 ms.date: 03/17/2021

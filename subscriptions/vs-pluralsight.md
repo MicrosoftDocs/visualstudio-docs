@@ -1,7 +1,7 @@
 ---
 title: Pluralsight benefit in Visual Studio subscriptions | Microsoft Docs
 author: evanwindom
-ms.author: v-evwin
+ms.author: cabuschl
 manager: cabuschl
 ms.assetid: bc8b526c-2fed-4ac8-aaa2-73d2495256fd
 ms.date: 03/17/2021

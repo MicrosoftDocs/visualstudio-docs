@@ -1,7 +1,7 @@
 ---
 title: Visual Studio IDE benefit in Visual Studio subscription | Microsoft Docs
 author: evanwindom
-ms.author: v-evwin
+ms.author: cabuschl
 manager: cabuschl
 ms.assetid: c4b13464-76be-40f1-ad60-ed79ee264b12
 ms.date: 07/30/2021

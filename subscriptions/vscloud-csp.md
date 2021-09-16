@@ -1,7 +1,7 @@
 ---
 title: Visual Studio cloud subscription purchasing for CSPs
 author: evanwindom
-ms.author: v-evwin
+ms.author: cabuschl
 manager: cabuschl
 ms.assetid: d2ab13ed-ef79-4ef0-8736-eccd04bc6020
 ms.date: 03/18/2021
