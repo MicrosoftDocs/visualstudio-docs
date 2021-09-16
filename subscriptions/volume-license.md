@@ -1,7 +1,7 @@
 ---
 title: Accessing the Admin Portal for Visual Studio Volume License customers | Microsoft Docs
 author: evanwindom
-ms.author: v-evwin
+ms.author: cabuschl
 manager: cabuschl
 ms.assetid: 7aaa4727-00ef-41dc-937d-8d46973aaf56
 ms.date: 05/18/2021

@@ -1,7 +1,7 @@
 ---
 title: Microsoft Windows Virtual Desktop in Visual Studio subscriptions | Microsoft Docs
 author: evanwindom
-ms.author: v-evwin
+ms.author: cabuschl
 manager: cabuschl
 ms.assetid: 872c5746-5357-4764-949b-aa525a0adf1a
 ms.date: 03/17/2021

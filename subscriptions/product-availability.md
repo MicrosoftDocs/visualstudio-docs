@@ -1,7 +1,7 @@
 ---
 title: Product availability for downloads in Visual Studio subscriptions | Microsoft Docs
 author: evanwindom
-ms.author: v-evwin
+ms.author: cabuschl
 manager: cabuschl
 ms.assetid: abf271b5-7547-4695-a46f-72b2878ba8d4
 ms.date: 03/21/2021

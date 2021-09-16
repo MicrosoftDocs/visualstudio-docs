@@ -1,7 +1,7 @@
 ---
 title: Parasoft Virtualize/SOAtest Professional in Visual Studio subscriptions | Microsoft Docs
 author: evanwindom
-ms.author: v-evwin
+ms.author: cabuschl
 manager: cabuschl
 ms.assetid: 00c1f300-d04e-4695-815e-775ffbf0f931
 ms.date: 03/17/2021

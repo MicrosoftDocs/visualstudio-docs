@@ -1,7 +1,7 @@
 ---
 title: Microsoft Tech Community in Visual Studio subscriptions | Microsoft Docs
 author: evanwindom
-ms.author: v-evwin
+ms.author: cabuschl
 manager: cabuschl
 ms.assetid: 8fccb5f6-ff61-488f-a91e-447faeda798d
 ms.date: 03/17/2021

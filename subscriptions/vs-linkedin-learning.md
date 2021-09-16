@@ -1,7 +1,7 @@
 ---
 title: LinkedIn Learning benefit in Visual Studio subscriptions | Microsoft Docs
 author: evanwindom
-ms.author: v-evwin
+ms.author: cabuschl
 manager: cabuschl
 ms.assetid: 5bba2205-d32f-413d-9b58-724a24993842
 ms.date: 03/17/2021
