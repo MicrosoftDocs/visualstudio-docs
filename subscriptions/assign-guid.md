@@ -1,7 +1,7 @@
 ---
 title: Assign specific GUIDs to Visual Studio subscribers | Microsoft Docs
 author: evanwindom
-ms.author: v-evwin
+ms.author: cabuschl
 manager: cabuschl
 ms.date: 03/19/2021
 ms.topic: conceptual
