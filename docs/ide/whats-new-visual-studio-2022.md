@@ -34,6 +34,8 @@ And, in [Visual Studio 2022 Preview 4](https://devblogs.microsoft.com/visualstud
 
 In Visual Studio 2022, the [IntelliCode](/visualstudio/intellicode/) feature can now automatically complete code up to a whole line at a time. For details, see the [**Type less, code more with IntelliCode completions**](https://devblogs.microsoft.com/visualstudio/type-less-code-more-with-intellicode-completions/) blog post.
 
+New in [Visual Studio 2022 Preview 4](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-preview-4-is-now-available/), IntelliCode can now spot when you’re performing a common task and recommend the right [Quick Action](quick-actions.md), completing it right as you’re typing. To learn more, see the [**Discover quick actions for common tasks as you type, with IntelliCode**](https://devblogs.microsoft.com/visualstudio/discover-quick-action-intellicode/) blog post.
+
 ## Build modern apps with .NET and C++
 
 [Visual Studio 2022 Preview 2](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-preview-2-is-out/) includes better cross-platform app development tools and the latest version of C++ build tools. As well, we're updating **Hot Reload** so that you can edit either C++ or .NET projects while your application is running. For more information, see the [**Speed up your .NET and C++ development with Hot Reload in Visual Studio 2022**](https://devblogs.microsoft.com/visualstudio/speed-up-your-dotnet-and-cplusplus-development-with-hot-reload-in-visual-studio-2022/) blog post.
