@@ -1,7 +1,7 @@
 ---
 title: Finding and claiming product keys in Visual Studio subscriptions | Microsoft Docs
 author: evanwindom
-ms.author: lank
+ms.author: cabuschl
 manager: cabuschl
 ms.assetid: da8df006-4896-4ff9-b487-698d78deabc3
 ms.date: 03/21/2021

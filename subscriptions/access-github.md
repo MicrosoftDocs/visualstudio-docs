@@ -1,7 +1,7 @@
 ---
 title: Visual Studio subscriptions with GitHub Enterprise | Microsoft Docs
 author: evanwindom
-ms.author: v-evwin
+ms.author: cabuschl
 manager: cabuschl
 ms.assetid: 2249b32a-46d7-4e29-b543-4769c71ceda6
 ms.date: 03/19/2021
