@@ -1,7 +1,7 @@
 ---
 title: Manage Visual Studio subscriptions from Microsoft Partner Network | Microsoft Docs
 author: evanwindom
-ms.author: v-evwin
+ms.author: cabuschl
 manager: cabuschl
 ms.assetid: 83efe4ee-9a9d-4776-b27c-852d89dadafd
 ms.date: 10/28/2020
