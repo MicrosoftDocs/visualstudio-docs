@@ -2,7 +2,7 @@
 title: "Visual Studio docs: What's new for August 2021"
 titleSuffix: ""
 description: "What's new in the Visual Studio docs for August 2021."
-ms.date: 09/02/2021
+ms.date: 09/16/2021
 helpviewer_keywords:
   - "Visual Studio, what's new, docs"
   - "what's new [Visual Studio]"
@@ -61,6 +61,10 @@ Welcome to what's new in the Visual Studio docs for August 2021. This article li
 **Updated articles**
 - [How to: Add or remove references by using the Reference Manager](./how-to-add-or-remove-references-by-using-the-reference-manager.md) - update 'Add > Reference' section
 - [What's new in Visual Studio 2022 (Preview)](./whats-new-visual-studio-2022.md) - Updates to What's New in Visual Studio 2022 Preview 3
+- [Step 6: Work with Git](../python/tutorial-working-with-python-in-visual-studio-step-06-working-with-git.md) - add updated Git source control info to the Python tutorial
+- [Tutorial: Create a simple C# console app in Visual Studio (part 1 of 2)](../get-started/csharp/tutorial-console.md) - add Git source control info to the CSharp console tutorial
+- [Tutorial: Get started with Visual Basic in Visual Studio](../get-started/visual-basic/tutorial-console.md) - add Git source control info to the VB console tutorial
+- [Create a console calculator in C++](/cpp/get-started/tutorial-console-cpp) - add Git info to the C++ Console Calculator tutorial
 
 ## Install
 
@@ -79,7 +83,7 @@ Welcome to what's new in the Visual Studio docs for August 2021. This article li
 
 **Updated articles**
 - [JavaScript and TypeScript in Visual Studio # Required; page title displayed in search results. Include the brand. < 60 chars.](../javascript/index.yml) - Updating the index page with different links
-  
+
 ## Test
 
 **New articles**
