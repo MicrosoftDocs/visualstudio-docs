@@ -1,7 +1,7 @@
 ---
 title: Visual Studio subscriptions offered in the Microsoft Partner Network | Microsoft Docs
 author: evanwindom
-ms.author: v-evwin
+ms.author: cabuschl
 manager: cabuschl
 ms.assetid: 7f4399d8-41da-41e5-a666-acc34958b8c0
 ms.date: 03/21/2021

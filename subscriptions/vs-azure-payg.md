@@ -1,7 +1,7 @@
 ---
 title: Azure PAYG Benefit in Visual Studio subscriptions
 author: evanwindom
-ms.author: v-evwin
+ms.author: cabuschl
 manager: cabuschl
 ms.assetid: 5dc7f57e-883a-4cc1-a914-06245a8cb1ff
 ms.date: 02/19/2021

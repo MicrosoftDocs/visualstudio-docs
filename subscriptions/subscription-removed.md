@@ -1,7 +1,7 @@
 ---
 title: What happens when your Visual Studio subscription is removed | Microsoft Docs
 author: evanwindom
-ms.author: v-evwin
+ms.author: cabuschl
 manager: cabuschl
 ms.assetid: 34eaceda-f5db-41d6-bc23-ecf55fe1768e
 ms.date: 04/22/2021

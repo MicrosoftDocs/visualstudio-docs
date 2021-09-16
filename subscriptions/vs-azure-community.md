@@ -1,7 +1,7 @@
 ---
 title: Azure Community Support benefit in Visual Studio Subscription | Microsoft Docs
 author: evanwindom
-ms.author: v-evwin
+ms.author: cabuschl
 manager: cabuschl
 ms.assetid: c15f7e18-b280-4902-a60d-2c2598653207
 ms.date: 03/18/2021
