@@ -26,9 +26,9 @@ With Visual Studio, you'll always get the best-in-class tools and services avail
 
 ## Visual Studio 2022 is 64-bit
 
-Visual Studio 2022 on Windows is now a 64-bit application. This means you can open, edit, run, and debug even the biggest and most complex solutions without running out of memory. To learn more, see both the [**Visual Studio 2022 vision**](https://devblogs.microsoft.com/visualstudio/visual-studio-2022/) and the [Visual Studio 2022 Preview 1](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-preview-1-now-available/) blog posts.
+Visual Studio 2022 on Windows is now a 64-bit application. This means you can open, edit, run, and debug even the biggest and most complex solutions without running out of memory. To learn more, see both the [**Visual Studio 2022 vision**](https://devblogs.microsoft.com/visualstudio/visual-studio-2022/) and [Visual Studio 2022 Preview 1](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-preview-1-now-available/) blog posts.
 
-And, new in [Visual Studio 2022 Preview 4](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-preview-4-is-now-available/), we've focused on improving the performance of several key features. For example, [Find in Files](find-in-files.md) is now as much as 3x faster when searching large solutions such as [Orchard Core](https://github.com/OrchardCMS/OrchardCore).
+And, in [Visual Studio 2022 Preview 4](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-preview-4-is-now-available/), we focused on improving the performance of several key features. For example, [Find in Files](find-in-files.md) is now as much as 3x faster when searching large solutions such as [Orchard Core](https://github.com/OrchardCMS/OrchardCore).
 
 ## IntelliCode includes whole line completion
 
@@ -66,4 +66,4 @@ Why send feedback to the Visual Studio team? Because we take customer feedback s
 * [Visual Studio 2022 Preview 3](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-preview-3-now-available/)
 * [Visual Studio 2022 Preview 2](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-preview-2-is-out/)
 * [Visual Studio 2022 Preview 1](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-preview-1-now-available/)
-* [**Visual Studio 2022 vision**](https://devblogs.microsoft.com/visualstudio/visual-studio-2022/)
+* [Visual Studio 2022 vision](https://devblogs.microsoft.com/visualstudio/visual-studio-2022/)
