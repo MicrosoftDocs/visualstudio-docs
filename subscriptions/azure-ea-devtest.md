@@ -1,7 +1,7 @@
 ---
 title: Azure Enterprise Agreement DevTest offer
 author: evanwindom
-ms.author: v-evwin
+ms.author: cabuschl
 manager: cabuschl
 ms.assetid: a335ed23-34ee-40cb-83c6-6c93dee57424
 ms.date: 03/21/2021
