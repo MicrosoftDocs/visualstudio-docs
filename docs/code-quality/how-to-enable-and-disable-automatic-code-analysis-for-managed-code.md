@@ -36,6 +36,10 @@ To enable or disable legacy code analysis:
 
    ![Run binary code analysis on build option in Visual Studio](media/run-on-build-binary-analyzers.png)
 
+5. If you need to disable legacy analysis, and clearing the **Run on build** setting doesn't work, make sure that legacy code analysis is disabled in the project file. Set the `RunCodeAnalysis` property to false:
+
+   `<RunCodeAnalysis>false</RunCodeAnalysis>`
+
 ::: moniker-end
 
 > [!NOTE]

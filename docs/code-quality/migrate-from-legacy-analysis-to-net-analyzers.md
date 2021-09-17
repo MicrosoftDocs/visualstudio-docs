@@ -37,7 +37,7 @@ To migrate to source analysis:
    > [!NOTE]
    > Prior to Visual Studio 2019 16.8 and .NET 5.0, these analyzers shipped as `Microsoft.CodeAnalysis.FxCopAnalyzers` [NuGet package](https://www.nuget.org/packages/Microsoft.CodeAnalysis.FxCopAnalyzers). Starting in Visual Studio 2019 16.8 and .NET 5.0, these analyzers are [included with the .NET SDK](/dotnet/fundamentals/code-analysis/overview). They are also available as `Microsoft.CodeAnalysis.NetAnalyzers` [NuGet package](https://www.nuget.org/packages/Microsoft.CodeAnalysis.NetAnalyzers). For more information, see [Migrate from FxCop analyzers to .NET analyzers](migrate-from-fxcop-analyzers-to-net-analyzers.md).
 
-1. To resolve CA0507, make sure that legacy code analysis is disabled for the project. Set the `RunCodeAnalysis` property to false:
+1. To resolve CA0507, make sure that legacy code analysis is disabled for the project. In the project file, set the `RunCodeAnalysis` property to false:
 
    `<RunCodeAnalysis>false</RunCodeAnalysis>`
 
