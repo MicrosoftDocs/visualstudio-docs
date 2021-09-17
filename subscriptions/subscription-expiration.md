@@ -1,7 +1,7 @@
 ---
 title: What happens when a Visual Studio subscription expires | Microsoft Docs
 author: evanwindom
-ms.author: v-evwin
+ms.author: cabuschl
 manager: cabuschl
 ms.assetid: b6fbfa3e-654a-462f-8e22-e313b6ea617f
 ms.date: 06/10/2021

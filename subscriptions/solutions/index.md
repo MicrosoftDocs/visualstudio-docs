@@ -4,23 +4,12 @@ description: List of INCLUDEs files for Visual Studio subscriptions support widg
 ms.topic: conceptual
 ms.assetid: 478648b9-f6f0-4ea3-83b4-5cffa196a496
 robots: noindex, nofollow
-author: evanwindom
-ms.author: v-evwin
-ms.date: 12/07/2020
+author: CaityBuschlen 
+ms.author: cabuschl 
+ms.date: 08/13/2021
 ---
 
 # Visual Studio subscriptions support widget content INCLUDES files
-
-## Admin solutions
-
-[!INCLUDE [Become a super admin](admin-solutions/includes/become-a-super-admin-managed.md)]
-
-[!INCLUDE [Become an admin](admin-solutions/includes/become-an-admin.md)]
-
-[!INCLUDE [Cannot access subscriptions](admin-solutions/includes/cannot-access-subs.md)]
-
-[!INCLUDE [I only see VSDE](admin-solutions/includes/only-see-vsde.md)]
-
 
 ## Benefit activations
 
@@ -38,7 +27,7 @@ ms.date: 12/07/2020
 
 [!INCLUDE [Unable to see Azure monthly credit in Azure portal](benefit-activation/includes/unable-to-see-azure-monthly-credit-in-azure-portal.md)]
 
-## Download, activate or use software
+## Download, activate, or use software
 
 ### Downloads and activations
 [!INCLUDE [Unable to download non-Visual Studio software](downloading-activating-or-using-software/downloading-activating-or-using-software/includes/unable-to-download-software-non-visualstudio.md)]
@@ -83,7 +72,9 @@ ms.date: 12/07/2020
 
 [!INCLUDE [Portal outage](portal-issue/includes/portal-outage.md)]
 
-## Purchase, renew or cancel subscriptions
+[!INCLUDE [Only see VSDE](portal-issue/includes/only-see-vsde.md)]
+
+## Purchase, renew, or cancel subscriptions
 
 ### Help with purchases
 [!INCLUDE [Help me purchase via Marketplace](renewing-purchasing-or-canceling/help-purchasing/includes/help-me-purchase-marketplace.md)]
@@ -114,3 +105,5 @@ ms.date: 12/07/2020
 [!INCLUDE [How do I change my sign-in email for Retail](signing-in/includes/how-do-i-change-my-sign-in-email-retail.md)]
 
 [!INCLUDE [How do I change my sign-in email for Volume Licensing](signing-in/includes/how-do-i-change-my-sign-in-email-volume-licensing.md)]
+
+[!INCLUDE [How can I become a Visual Studio subscriptions admin](signing-in/includes/become-an-admin-or-super-admin.md)]

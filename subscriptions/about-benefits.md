@@ -1,7 +1,7 @@
 ---
 title: Understand benefits in Visual Studio subscriptions | Microsoft Docs
 author: evanwindom
-ms.author: v-evwin
+ms.author: cabuschl
 manager: cabuschl
 ms.assetid: 0a02232c-437f-4c48-85c1-93ca7887236b
 ms.date: 03/19/2021

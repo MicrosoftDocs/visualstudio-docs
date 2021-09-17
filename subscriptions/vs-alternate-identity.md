@@ -1,7 +1,7 @@
 ---
 title: Identities for Visual Studio subscribers
 author: evanwindom
-ms.author: v-evwin
+ms.author: cabuschl
 manager: cabuschl
 ms.assetid: 86f2856c-8adf-4085-9962-f4136679e5ed
 ms.date: 02/19/2021
