@@ -4,7 +4,7 @@ author: ghogen
 description: Learn how to use multiple containers with Docker Compose
 ms.custom: SEO-VS-2020
 ms.author: ghogen
-ms.date: 03/15/2021
+ms.date: 09/17/2021
 ms.technology: vs-container-tools
 ms.topic: tutorial
 ---
@@ -23,16 +23,14 @@ In this tutorial, you'll learn how to manage more than one container and communi
 ::: moniker range="vs-2019"
 
 * [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
-* [Visual Studio 2019](https://visualstudio.microsoft.com/downloads) with the **Web Development**, **Azure Tools** workload, and/or **.NET Core cross-platform development** workload installed
-* [.NET Core 2.2 Development Tools](https://dotnet.microsoft.com/download/dotnet-core/2.2) for development with .NET Core 2.2
+* [Visual Studio 2019](https://visualstudio.microsoft.com/downloads) with the **Web Development**, **Azure Tools** workload, and/or **.NET cross-platform development** workload installed
 * [.NET Core 3 Development Tools](https://dotnet.microsoft.com/download/dotnet-core/3.1) for development with .NET Core 3.1.
 ::: moniker-end
 
 ::: moniker range=">=vs-2022"
 
 * [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
-* [Visual Studio 2022 Preview](https://visualstudio.microsoft.com/vs/preview/vs2022) with the **Web Development**, **Azure Tools** workload, and/or **.NET Core cross-platform development** workload installed
-* [.NET Core 3 Development Tools](https://dotnet.microsoft.com/download/dotnet-core/3.1) for development with .NET Core 3.1.
+* [Visual Studio 2022 Preview](https://visualstudio.microsoft.com/vs/preview/) with the **Web Development**, **Azure Tools** workload, and/or **.NET cross-platform development** workload installed. This includes .NET Core 3.1 and .NET 6 development tools.
 * [.NET 5 Development Toos](https://dotnet.microsoft.com/download/dotnet-core/5.0) for development with .NET 5.
 ::: moniker-end
 
@@ -82,8 +80,8 @@ Add a project to the same solution and call it *MyWebAPI*. Select **API** as the
        {
           // Call *mywebapi*, and display its response in the page
           var request = new System.Net.Http.HttpRequestMessage();
-          // request.RequestUri = new Uri("http://mywebapi/WeatherForecast"); // ASP.NET 3 (VS 2019 only)
-          request.RequestUri = new Uri("http://mywebapi/api/values/1"); // ASP.NET 2.x
+          request.RequestUri = new Uri("http://mywebapi/WeatherForecast"); // ASP.NET 3 (VS 2019 only)
+          // request.RequestUri = new Uri("http://mywebapi/api/values/1"); // ASP.NET 2.x
           var response = await client.SendAsync(request);
           ViewData["Message"] += " and " + await response.Content.ReadAsStringAsync();
        }

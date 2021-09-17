@@ -4,7 +4,7 @@ description: Configure the tools available in Visual Studio for working with Doc
 author: ghogen
 ms.author: ghogen
 ms.topic: how-to
-ms.date: 03/20/2019
+ms.date: 09/17/2021
 ms.technology: vs-container-tools
 ---
 # How to configure Visual Studio Container Tools
@@ -39,7 +39,7 @@ The following table might help you decide how to set these options.
 | Automatically pull required Docker images on project load | On | Docker Compose | For increased performance when loading projects, Visual Studio will start a Docker pull operation in the background so that when you're ready to run your code, the image is already downloaded or in the process of downloading. If you're just loading projects and browsing code, you can turn this off to avoid downloading container images you don't need. |
 | Automatically start containers in background | On | Docker Compose | Again for increased performance, Visual Studio creates a container with volume mounts ready for when you build and run your container. If you want to control when your container is created, turn this off. |
 | Automatically kill containers on solution close | On | Docker Compose | Turn this off if you would like containers for your solution to continue to run after closing the solution or closing Visual Studio. |
-| Do not prompt for trusting localhost SSL certificate | Off | ASP.NET Core 2.1 projects | If the localhost SSL certificate is not trusted, Visual Studio will prompt every time you run your project, unless this checkbox is checked. |
+| Do not prompt for trusting localhost SSL certificate | Off | ASP.NET Core 2.1 projects | If the localhost SSL certificate is not trusted, Visual Studio will prompt every time you run an ASP.NET Core 2.x project, unless this checkbox is checked. |
 ::: moniker-end
 
 ::: moniker range=">=vs-2019"
@@ -49,7 +49,7 @@ The following table describes **General** settings:
 | Name | Default Setting | Applies To | Description |
 | -----|:---------------:|:----------:| ----------- |
 | Install Docker Desktop if needed | Prompt Me | Single Project, Docker Compose | Choose whether you want to be prompted if Docker Desktop is not installed. |
-| Trust ASP.NET Core SSL certificate | Prompt Me | ASP.NET Core 2.x projects | When set to **Prompt Me**, if the localhost SSL certificate is not trusted, Visual Studio will prompt every time you run your project. |
+| Trust ASP.NET Core SSL certificate | Prompt Me | ASP.NET Core 2.x projects | When set to **Prompt Me**, if the localhost SSL certificate is not trusted, Visual Studio will prompt every time you run an ASP.NET Core 2.x project. |
 
 The following table describes **Single Project** and **Docker Compose** settings:
 
