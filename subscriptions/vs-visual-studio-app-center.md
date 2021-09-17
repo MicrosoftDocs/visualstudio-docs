@@ -1,7 +1,7 @@
 ---
 title: Visual Studio App Center benefit in Visual Studio subscriptions | Microsoft Docs
 author: evanwindom
-ms.author: v-evwin
+ms.author: cabuschl
 manager: cabushcl
 ms.assetid: badd1d4a-90a6-46de-a037-945a91e6019b
 ms.date: 03/17/2021

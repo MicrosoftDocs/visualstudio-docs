@@ -576,6 +576,8 @@
         href: private-galleries.md
       - name: Create an Atom Feed for a Private Gallery
         href: how-to-create-an-atom-feed-for-a-private-gallery.md
+      - name: Create an ATOM feed (VsixFeed) for a Private Gallery with VsixUtil
+        href: how-to-create-vsix-feed-for-private-gallery.md
       - name: Manage a Private Gallery By Using Registry Settings
         href: how-to-manage-a-private-gallery-by-using-registry-settings.md
     - name: Support Multiple Versions of Visual Studio
