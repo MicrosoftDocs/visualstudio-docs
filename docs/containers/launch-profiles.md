@@ -71,7 +71,7 @@ There are a few options to open the Docker Compose launch settings dialog:
 
 In the example below, the `web1` Compose profile is selected, which filters the **Services** list to only the three out of five included in that profile:
 
-!["Screenshot of launch settings dialog box"](media/launch-settings/launch-settings-create-profile.png =50%x)
+!["Screenshot of launch settings dialog box"](media/launch-settings/launch-settings-create-profile.png)
 
 >[!NOTE]
 > The Docker Compose profiles section only appears if there are profiles defined in your *docker-compose.yml* files.
