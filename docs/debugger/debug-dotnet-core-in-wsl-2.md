@@ -30,7 +30,7 @@ You don’t have to choose just one method! You can have a launch profile for Do
 
 - Visual Studio 2019 v16.9 Preview 1 or later versions with the .NET Debugging with WSL optional component.
 
-  To check for the component, choose **Tools** > **Get Tools and Features**. In the Visual Studio Installer, make sure the component is installed by choosing **Individual components** tab, and typing **WSL** as the search term.
+  To check for the WSL component, choose **Tools** > **Get Tools and Features**. In the Visual Studio Installer, make sure the component is installed by choosing **Individual components** tab, and typing **WSL** as the search term.
 
   In some versions of Visual Studio, the optional component is included by default with some of the .NET workloads.
 
