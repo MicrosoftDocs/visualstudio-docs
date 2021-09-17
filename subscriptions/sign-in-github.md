@@ -1,7 +1,7 @@
 ---
 title: Signing in to Visual Studio subscriptions with your GitHub account | Microsoft Docs
 author: evanwindom
-ms.author: v-evwin
+ms.author: cabuschl
 manager: cabuschl
 ms.assetid: 1bdcb3c9-bba1-4e25-a609-9d7e539d78e0
 ms.date: 03/08/2021

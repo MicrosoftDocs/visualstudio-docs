@@ -2,7 +2,7 @@
 title: 'What are Visual Studio solutions & projects?'
 description: Learn about Visual Studio projects and solutions, how to create new projects from a template, and how to view & manage projects in Solution Explorer.
 ms.custom: "SEO-VS-2020, contperf-fy21q2"
-ms.date: 12/31/2020
+ms.date: 09/14/2021
 ms.topic: conceptual
 f1_keywords:
 - vs.openproject
@@ -74,7 +74,7 @@ A "solution folder" is a virtual folder that's only in **Solution Explorer**, wh
 
 ## Solution Explorer
 
-After you create a new project, you can use **Solution Explorer** to view and manage the project and solution and their associated items. The following illustration shows **Solution Explorer** with a C# solution that contains two projects:
+After you create a new project, you can use **[Solution Explorer](use-solution-explorer.md)** to view and manage the project and solution and their associated items. The following illustration shows **Solution Explorer** with a C# solution that contains two projects:
 
 ::: moniker range="vs-2017"
 
@@ -92,7 +92,7 @@ The toolbar across the top of **Solution Explorer** has buttons to switch from a
 
 ::: moniker-end
 
-Many menu commands are available from the right-click context menu on various items in **Solution Explorer**. These commands include building a project, managing NuGet packages, adding a reference, renaming a file, and running tests, just to name a few.
+Many menu commands are available from the right-click context menu on various items in **Solution Explorer**. These commands include building a project, managing NuGet packages, adding a reference, renaming a file, and running tests, just to name a few. For more information, see [How to use Solution Explorer](use-solution-explorer.md).
 
 For ASP.NET Core projects, you can customize how files are nested in **Solution Explorer**. For more information, see [Customize file nesting in Solution Explorer](file-nesting-solution-explorer.md).
 

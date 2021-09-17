@@ -1,7 +1,7 @@
 ---
 title: WhiteSource Bolt in Visual Studio subscriptions | Microsoft Docs
 author: evanwindom
-ms.author: v-evwin
+ms.author: cabuschl
 manager: cabuschl
 ms.assetid: 5e5d3f1a-533d-42eb-960e-01bb6bc7ca16
 ms.date: 03/17/2021
