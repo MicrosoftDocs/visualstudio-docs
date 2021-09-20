@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: cabuschl
 manager: cabuschl
 ms.assetid: c4b13464-76be-40f1-ad60-ed79ee264b12
-ms.date: 07/30/2021
+ms.date: 09/20/2021
 ms.topic: how-to
 description:  Learn how to download and install the Visual Studio IDE included in your Visual Studio subscription
 ---
@@ -72,10 +72,20 @@ To download the IDE:
 Not sure which subscription you're using?  Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to your email address. If you don't see all your subscriptions, you may have one or more assigned to a different email address.  You'll need to sign in with that email address to see those subscriptions.
 
 ## Support resources
-- Need help with Visual Studio IDE, check out these resources:
-  - Technical Support: [https://visualstudio.microsoft.com/support/](https://visualstudio.microsoft.com/support/)
-  - [Documentation](/visualstudio/)
-- For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact [Visual Studio subscriptions support](https://my.visualstudio.com/gethelp).
+If you have a question about Visual Studio, several resources are available to assist you.
+
+### Visual Studio IDE technical support
+ Visual Studio IDE technical issues or questions should be directed to [Visual Studio technical support](https://visualstudio.microsoft.com/vs/support/). Before using the limited Visual Studio [technical support incidents](vs-tech-support.md) that may be included with your Visual Studio subscription, we suggest trying some other online resources.
+- For Visual Studio installation issues, see [Troubleshoot Visual Studio installation and upgrade issues](https://docs.microsoft.com/visualstudio/install/troubleshooting-installation-issues) for step-by-step guidance. You can also try the [installation chat](https://visualstudio.microsoft.com/vs/support/#talktous) (English only) support option.
+- Review tutorials, troubleshooting guides, and helpful resources within [Visual Studio IDE documentation](https://docs.microsoft.com/visualstudio/ide/).
+- Search the online [Developer Community](https://developercommunity.visualstudio.com/) and get expert answers via a community supported forum. You can search keywords and read, vote, comment all without logging in. If you don’t find what you need with a search, you can suggest a feature or report a problem from the navigation menu. To submit a feature request, you’ll need to sign in to fill out the report and post. To report a problem or bug, a running instance of Visual Studio is required to report feedback.
+- Search the Stack Overflow [public Q&A tagged with visual-studio](https://stackoverflow.com/questions/tagged/visual-studio?tab=Newest) to get answers to already asked questions or sign up for an account and ask a new question.
+
+### Technical support incidents
+If you’ve exhausted the options above and still don’t have an answer, activate a Visual Studio technical support ticket by visiting the [subscriptions portal benefits page](https://my.visualstudio.com/Benefits) and clicking on the Technical Support benefit tile in the Support tab. Read more about the [Technical Support benefit](https://docs.microsoft.com/visualstudio/subscriptions/vs-tech-support). (Technical support is not available with all subscriptions. [Compare Visual Studio subscription benefits](https://visualstudio.microsoft.com/vs/benefits/#azure?cat=visual-studio-enterprise-subscription) to find out what is included with your subscription.)
+
+### Visual Studio subscription support
+Visual Studio Subscriptions support provides assistance with sales, subscriptions, accounts, and billing. Contact [Visual Studio subscriptions support](https://my.visualstudio.com/gethelp).
 
 ## See also
 - [Visual Studio documentation](/visualstudio/)
