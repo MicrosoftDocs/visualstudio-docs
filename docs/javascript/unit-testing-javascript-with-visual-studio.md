@@ -1,7 +1,7 @@
 ---
 title: "Unit testing JavaScript and TypeScript"
 description: Visual Studio provides support unit testing JavaScript and TypeScript code using the Node.js Tools for Visual Studio
-ms.date: "03/18/2021"
+ms.date: "09/20/2021"
 ms.topic: "how-to"
 ms.devlang: javascript
 author: "mikejo5000"
@@ -264,9 +264,16 @@ For TypeScript, unit tests are run against the generated JavaScript code.
 
 ## <a name="addingFramework"></a>Add support for a unit test framework
 
-You can add support for additional test frameworks by implementing the discovery and execution logic using JavaScript. You do this by adding a folder with the name of the test framework under:
+You can add support for additional test frameworks by implementing the discovery and execution logic using JavaScript.
+
+> [!NOTE]
+> For ASP.NET Core, add the NuGet package [Microsoft.JavaScript.UnitTest](https://www.nuget.org/packages/Microsoft.JavaScript.UnitTest/) to your project to add support.
+
+You do this by adding a folder with the name of the test framework under:
 
 `<VisualStudioFolder>\Common7\IDE\Extensions\Microsoft\NodeJsTools\TestAdapter\TestFrameworks`
+
+If you don't see the `NodeJsTools` folder in an ASP.NET Core project, add the Node.js development workload using the Visual Studio Installer. This workload includes support for unit testing JavaScript and TypeScript.
 
 This folder has to contain a JavaScript file with the same name which exports the following two functions:
 
