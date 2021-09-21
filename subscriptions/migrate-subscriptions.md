@@ -15,17 +15,17 @@ If you have Visual Studio subscriptions assigned to subscribers as part of one a
 When you move your subscribers to the new agreement, here's what happens:
 - They get a new subscription GUID.
 - Their benefits are reset. For example, if they've previously used a training benefit, they'll receive a new instance of that benefit. 
-- If they were using Azure individual credits in their old subscription, they'll need to activate a new one and transfer their Azure assets to it. 
+- If they were using Azure individual credits in their old subscription, they'll need to activate a new subscription and transfer their Azure assets to it. 
 
 The process for moving subscribers to the new agreement consists of three steps:
-1. Export your current subscription assignments in the old agreement. 
+1. Export your current subscription assignments from the old agreement. 
 2. Prepare a subscription list for upload to the new agreement. 
 3. Upload your subscription list to the new agreement.
 
 > [!IMPORTANT]
 > Note the following considerations before you start this process:
-> - If your reseller selected the option to automatically transfer the subscribers to the new agreement when it was purchased, you might not see the changes until 48-72 hours after the agreement was submitted. Before proceeding with the process to manually move your subscribers, check with your reseller.  
-> - You can use Azure Active Directory groups to simplify the process of moving subscribers to the new agreement.  For more information, see [Assigning subscriptions by using Azure AD groups](assign-azure-ad.md).
+> - If your reseller selected the option to automatically transfer the subscribers to the new agreement when it was purchased, you might not see the changes until 48-72 hours after the agreement was submitted. Before you proceed with the process to manually move your subscribers, check with your reseller.  
+> - You can use Azure Active Directory (Azure AD) groups to simplify the process of moving subscribers to the new agreement. For more information, see [Assigning subscriptions by using Azure AD groups](assign-azure-ad.md).
 
 ## Export your current subscription assignments
 The first step to migrate your assigned subscriptions from one agreement to another is to export your current subscription assignments as a CSV file. In the Visual Studio Subscriptions administration portal, you can export a list of your subscribers and details about their assignments. 
@@ -44,7 +44,7 @@ This information includes:
 - Subscription status.
 - Subscription GUID.
 
-The list is exported as a CSV file that can easily be opened in Microsoft Excel so you can prepare it for uploading to the new agreement.
+The list is exported as a CSV file that you can easily open in Microsoft Excel so you can prepare it for uploading to the new agreement.
 
 To export your assigned subscriptions:
 1. Sign in to the [admin portal](https://manage.visualstudio.com).
@@ -72,9 +72,10 @@ Take these steps to open your exported subscriptions list and move the relevant 
 - Subscription Status
 - **Subscription GUID**
 - Usage Status
-Not all the fields in the exported CSV file are needed in the file that's used to upload your subscriptions to the new agreement. The fields appearing in **bold** in the previous list will appear in the template used to upload your list. 
+ 
+   Not all the fields in the exported CSV file are needed in the file that's used to upload your subscriptions to the new agreement. The fields appearing in **bold** in the previous list will appear in the template used to upload your list. 
 
-2. Download the Excel template used to upload your subscriptions.  
+2. Download the Excel template that you'll use to upload your subscriptions.  
    1. Sign in to the [admin portal](https://manage.visualstudio.com).
    1. On the **Manage Subscribers** tab, select your new agreement in the dropdown list:
       > [!div class="mx-imgBorder"]
@@ -85,7 +86,7 @@ Not all the fields in the exported CSV file are needed in the file that's used t
       > [!div class="mx-imgBorder"]
       > ![Download bulk add template](_img/migrate-subscriptions/download-template.png "Screenshot that shows the Download button.")
    
-      The template will appear in your downloads folder location.  
+      The template will appear in your Downloads folder.  
    1. Open the template.
 
 3. Open both the exported subscriber list and the empty bulk add template. Manually copy your subscription data from the exported list and paste it into the template. 
@@ -131,5 +132,5 @@ The migration of your subscribers from your old agreement to your new one is com
 - [Microsoft 365 documentation](/microsoft-365/)
 
 ## Next steps
-- [Use Azure Active Directory groups to assign more subscriptions](assign-azure-ad.md). 
+- [Use Azure Active Directory groups to assign more subscriptions](assign-azure-ad.md)
 - [Edit existing subscriptions](edit-license.md)
