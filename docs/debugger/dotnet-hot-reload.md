@@ -1,6 +1,6 @@
 ---
-title: "Write and debug code using .NET Hot Reload"
-description: ".NET Hot Reload, or edit and continue, allows you to make changes to your code while running apps"
+title: "Write and debug code by using .NET Hot Reload"
+description: ".NET Hot Reload, similar to edit and continue, allows you to make changes to your code while running apps"
 ms.date: 09/21/2021
 ms.topic: conceptual
 helpviewer_keywords:
@@ -18,13 +18,15 @@ ms.workload:
 
 With .NET Hot Reload, you can make changes to your code while your app is running. You can use .NET Hot Reload to incrementally build and test code with the benefit of the running app's data context, authentication state, and other real-world complexity that's hard to simulate during design-time.
 
-.NET Hot Reload for C# is available starting in Visual Studio 2022. If you are looking for C++ Hot Reload, see TBD.
+.NET Hot Reload for C# is available starting in Visual Studio 2022.
 
 .NET Hot Reload is especially helpful in these scenarios:
 
 - Fixing problems found in your code after the app was started in debug mode (with or without the debugger attached, depending on the scenario). Release mode is not supported.
 
 - Modifying your app while the application is running, without the need to manually pause or hit a breakpoint.
+
+.NET Hot Reload works with Edit and Continue and other debugger features, including breakpoints and data inspection. It also works with XAML Hot Reload and, for ASP.NET and .NET MAUI Blazor apps, CSS Hot Reload.
 
 ## Update running code with .NET Hot Reload
 
@@ -40,28 +42,30 @@ With .NET Hot Reload, you can make changes to your code while your app is runnin
 
    ![Screenshot of the Hot Reload button.](../debugger/media/vs-2022/dotnet-hot-reload.png)
 
-## Requirements and application support
+## Requirements
 
-Visual Studio 2022 and .NET 6 provide the best experience for .NET Hot Reload. 
+Visual Studio 2022 and .NET 6 provide the best experience for .NET Hot Reload. Starting in Visual Studio 2019 version 16.11, some application types support .NET Hot Reload with the debugger attached.
 
 Supported runtimes include CoreCLR, .NET Framework 4.6 and later versions, and Mono if targeting .NET 6 (for Blazor WASM or .NET MAUI).
 
-- For F5 scenarios (debugger attached), .NET Core, and .NET 5 and later versions, and .NET Framework 4.6 and later versions are supported.
+- For F5 scenarios (debugger attached), supported frameworks include .NET Core, .NET 5 and later versions, and .NET Framework 4.6 and later versions.
 
-- For Ctrl+F5 scenarios (no debugger attached), .NET 6 is required.
+- For Ctrl+F5 scenarios (no debugger attached), .NET 6 is a minimum requirement.
+
+## Application support
 
 The following table shows which application types support .NET Hot Reload with the debugger attached (F5) and without the debugger attached (Ctrl+F5), and whether .NET 6 is required for minimum support (F5). Also shown is the minimum version of Visual Studio that supports the feature.
 
 |Application type|.NET 6 required (F5)|F5|Ctrl+F5|
 |-|-|-|-|
-|ASP.NET code behind|No|16.11 Preview 1|17.0 Preview 2|
+|ASP.NET code behind|No|16.11|17.0 Preview 2|
 |ASP.NET Razor (Blazor Server and ASP.NET Core|Yes|17.0 Preview 4|17.0 Preview 2|
 |ASP.NET Razor (Blazor WASM)|Yes|No|17.0 Preview 3|
-|XAML WPF|No|16.11 Preview 1|17.0 Preview 2|
-|XAML WinUI3|No|16.11 Preview 1|No|
-|WinForms|No|16,11 Preview 1|17.0 Preview 2|
-|Console|No|16.11 Preview 1|17.0 Preview 2|
-|XAML .NET MAUI WinUI|Yes|16.11 Preview 1|No|
+|XAML WPF|No|16.11|17.0 Preview 2|
+|XAML WinUI3|No|16.11|No|
+|WinForms|No|16,11|17.0 Preview 2|
+|Console|No|16.11|17.0 Preview 2|
+|XAML .NET MAUI WinUI|Yes|16.11|No|
 |XAML .NET MAUI Android|Yes|TBD|No|
 |XAML .NET MAUI iOS|Yes|TBD|No|
 |XAML + Blazor .NET MAUI WinUI|Yes|TBD|No|
@@ -95,6 +99,10 @@ For Mono, method body replacement is supported with limitations:
   - Add, remove, or modify custom attributes 
   - Change a property from `{get;set}` to get-only or `{get;init}` or adding an implementation to an existing property 
   - Anything not supported by C# [Edit-And-Continue](../debugger/supported-code-changes-csharp.md) (modifying base types, generics, etc) 
+
+## Limitations when used with XAML Hot Reload
+
+TBD
 
 ## Configure .NET Hot Reload
 
