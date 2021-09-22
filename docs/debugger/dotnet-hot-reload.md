@@ -40,13 +40,19 @@ With .NET Hot Reload, you can make changes to your code while your app is runnin
 
    ![Screenshot of the Hot Reload button.](../debugger/media/vs-2022/dotnet-hot-reload.png)
 
-## Application support
+## Requirements and application support
 
-The following table shows which application types support .NET Hot Reload with the debugger attached (F5) and without the debugger attached (Ctrl+F5), and whether .NET 6 is required for the F5 scenario. .NET 6 is always required for the Ctrl+F5 scenario. Also shown is the minimum version of Visual Studio that supports the feature.
+Visual Studio 2022 and .NET 6 provide the best experience for .NET Hot Reload. 
 
-Supported runtimes include CoreCLR, .NET Framework 4.7.2., and Mono if targeting .NET 6 (for Blazor WASM or .NET MAUI).
+Supported runtimes include CoreCLR, .NET Framework 4.6 and later versions, and Mono if targeting .NET 6 (for Blazor WASM or .NET MAUI).
 
-|Application type|.NET 6 required|F5|Ctrl+F5|
+- For F5 scenarios (debugger attached), .NET Core, and .NET 5 and later versions, and .NET Framework 4.6 and later versions are supported.
+
+- For Ctrl+F5 scenarios (no debugger attached), .NET 6 is required.
+
+The following table shows which application types support .NET Hot Reload with the debugger attached (F5) and without the debugger attached (Ctrl+F5), and whether .NET 6 is required for minimum support (F5). Also shown is the minimum version of Visual Studio that supports the feature.
+
+|Application type|.NET 6 required (F5)|F5|Ctrl+F5|
 |-|-|-|-|
 |ASP.NET code behind|No|16.11 Preview 1|17.0 Preview 2|
 |ASP.NET Razor (Blazor Server and ASP.NET Core|Yes|17.0 Preview 4|17.0 Preview 2|
@@ -64,11 +70,11 @@ Supported runtimes include CoreCLR, .NET Framework 4.7.2., and Mono if targeting
 
 The types of edits you can make with hot reload are determined by the runtime, not by the method you used to start the application (F5 or Ctrl+F5).
 
-## Supported code changes (.NET Core, .NET Framework)
+## Supported code changes (Core CLR, .NET Framework)
 
-For CoreCLR and .NET Framework, the changes supported in [Edit and Continue](../debugger/supported-code-changes-csharp.md) are supported in .NET Hot Reload.
+For Core CLR and .NET Framework, the changes supported in [Edit and Continue](../debugger/supported-code-changes-csharp.md) are supported in .NET Hot Reload.
 
-## Supported code changes (Mono))
+## Supported code changes (Mono)
 
 For Mono, method body replacement is supported with limitations:
 
