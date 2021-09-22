@@ -98,7 +98,7 @@ For Mono, method body replacement is supported with limitations:
   - Rename parameters 
   - Add, remove, or modify custom attributes 
   - Change a property from `{get;set}` to get-only or `{get;init}` or adding an implementation to an existing property 
-  - Anything not supported by C# [Edit-And-Continue](../debugger/supported-code-changes-csharp.md) (modifying base types, generics, etc) 
+  - Anything not supported by C# [Edit and Continue](../debugger/supported-code-changes-csharp.md) (modifying base types, generics, etc) 
 
 ## Limitations when used with XAML Hot Reload
 
