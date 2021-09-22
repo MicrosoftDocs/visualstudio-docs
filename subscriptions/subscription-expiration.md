@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: cabuschl
 manager: cabuschl
 ms.assetid: b6fbfa3e-654a-462f-8e22-e313b6ea617f
-ms.date: 06/10/2021
+ms.date: 09/20/2021
 ms.topic: conceptual
 description: Learn what happens when your Visual Studio subscription expires
 ---
@@ -18,13 +18,15 @@ If you would like to purchase a new subscription, you can explore purchasing opt
 The product downloads page, <https://my.visualstudio.com/downloads>, will still be available so you can download software, but you will not be able to claim new product keys.  Updates, patches, and other tools may still be available on the [Microsoft Download Center](https://www.microsoft.com/downloads).  Products you have previously downloaded via your subscription are still valid.
 
 ## Product keys
-The product keys page, <https://my.visualstudio.com/productkeys>, is no longer available.  Any product keys you have previously claimed will still function as they normally would.  All installation limits remain unaffected.  To export your claimed product keys after your subscription expires, please visit <https://my.visualstudio.com/subscriptions> and click on the **Export all keys** button.  No new product keys may be claimed after your subscription expires.
+The product keys page, <https://my.visualstudio.com/productkeys>, is no longer available.  Any product keys you have previously claimed will still function as they normally would.  All installation limits remain unaffected.  
+> [!IMPORTANT]
+> To ensure that your product keys will be available after your subscription expires, you need to export them before the expiration date of your subscription. To export your keys, connect to the [Product Keys](https://my.visualstudio.com/productkeys) page and click the blue **Export all keys" button.  
 
 ## Benefits 
 Not all benefits are impacted in the same way when a subscription expires.  No benefits may be activated after your subscription expires.  Benefits you have previously activated may still be available.  
 
 ### Visual Studio IDE
-Most subscriptions provide perpetual licenses for the Visual Studio IDE. Download the Visual Studio [Licensing White Paper](https://aka.ms/vslicensing) to determine if your subscription is eligible for perpetual use rights.  If your subscription is eligible, you will continue to have access to your **current version** of the IDE but will not receive updates to future versions. To continue using the IDE after expiration, you will need to go to the [product key page](https://my.visualstudio.com/productkeys) and download the product key **before your subscription expires**.  After claiming the key, you'll need to [enter it](https://docs.microsoft.com/visualstudio/ide/how-to-unlock-visual-studio?view=vs-2019#enter-a-product-key) to activate your IDE installation.  
+Most subscriptions provide perpetual licenses for the Visual Studio IDE. Download the Visual Studio [Licensing White Paper](https://aka.ms/vslicensing) to determine if your subscription is eligible for perpetual use rights.  If your subscription is eligible, you will continue to have access to your **current version** of the IDE but will not receive updates to future versions. To continue using the IDE after expiration, you will need to go to the [product key page](https://my.visualstudio.com/productkeys) and download the product key **before your subscription expires**.  After claiming the key, you'll need to [enter it](/visualstudio/ide/how-to-unlock-visual-studio#enter-a-product-key) to activate your IDE installation.  
 
 ### Azure DevOps
 Azure DevOps acquired through a Visual Studio subscription will be unavailable.  
