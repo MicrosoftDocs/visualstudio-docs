@@ -30,19 +30,19 @@ With .NET Hot Reload, you can make changes to your code while your app is runnin
 
 1. Open a supported project based on a supported application type. For more information, see [Application support](#application-support).
 
-1. Make sure that **enable native code debugging** is disabled in the debugger settings or the debug launch profile.
+1. Make sure that **Enable native code debugging** is disabled in the debugger settings or the debug launch profile.
 
 1. Start the app with the debugger attached using either **F5** or, if supported for your application, **Ctrl+F5**.
 
 1. Open a C# code file with some code that can be re-executed through the running apps user interface (for example, code-behind for a button or a ViewModel’s command) or something that is being triggered at an interval through a timer and change the code.
 
-1. Apply the code changes using the **Apply code changes** button, or press **ALT+F10**. 
+1. Apply the code changes using the **Hot Reload** button, or press **ALT+F10**. 
 
-   ![Screenshot of the Apply code changes button.](../debugger/media/vs-2022/dotnet-hot-reload.png)
+   ![Screenshot of the Hot Reload button.](../debugger/media/vs-2022/dotnet-hot-reload.png)
 
 ## Application support
 
-The following table shows which application types support .NET Hot Reload with the debugger attached (F5) and without the debugger (Ctrl+F5), and whether .NET 6 is required for the application type. Also shown is the minimum version of Visual Studio that supports the feature.
+The following table shows which application types support .NET Hot Reload with the debugger attached (F5) and without the debugger attached (Ctrl+F5), and whether .NET 6 is required for the F5 scenario. .NET 6 is always required for the Ctrl+F5 scenario. Also shown is the minimum version of Visual Studio that supports the feature.
 
 Supported runtimes include CoreCLR, .NET Framework 4.7.2., and Mono if targeting .NET 6 (for Blazor WASM or .NET MAUI).
 
@@ -51,10 +51,10 @@ Supported runtimes include CoreCLR, .NET Framework 4.7.2., and Mono if targeting
 |ASP.NET code behind|No|16.11 Preview 1|17.0 Preview 2|
 |ASP.NET Razor (Blazor Server and ASP.NET Core|Yes|17.0 Preview 4|17.0 Preview 2|
 |ASP.NET Razor (Blazor WASM)|Yes|No|17.0 Preview 3|
-|XAML WPF|16.11 Preview 1|No|17.0 Preview 2|
-|XAML WinUI3|16.11 Preview 1|No|No|
-|WinForms|16,11 Preview 1|No|17.0 Preview 2|
-|Console|16.11 Preview 1|No|17.0 Preview 2|
+|XAML WPF|No|16.11 Preview 1|17.0 Preview 2|
+|XAML WinUI3|No|16.11 Preview 1|No|
+|WinForms|No|16,11 Preview 1|17.0 Preview 2|
+|Console|No|16.11 Preview 1|17.0 Preview 2|
 |XAML .NET MAUI WinUI|Yes|16.11 Preview 1|No|
 |XAML .NET MAUI Android|Yes|TBD|No|
 |XAML .NET MAUI iOS|Yes|TBD|No|
@@ -64,33 +64,35 @@ Supported runtimes include CoreCLR, .NET Framework 4.7.2., and Mono if targeting
 
 The types of edits you can make with hot reload are determined by the runtime, not by the method you used to start the application (F5 or Ctrl+F5).
 
-## Supported code changes
+## Supported code changes (.NET Core, .NET Framework)
 
-- For CoreCLR and .NET Framework, the changes supported in [Edit and Continue](../debugger/supported-code-changes-csharp.md) are supported in .NET Hot Reload.
+For CoreCLR and .NET Framework, the changes supported in [Edit and Continue](../debugger/supported-code-changes-csharp.md) are supported in .NET Hot Reload.
 
-- For Mono, method body replacement is supported with limitations:
+## Supported code changes (Mono))
 
-  - Editing the body of an existing method. The following is supported:
+For Mono, method body replacement is supported with limitations:
 
-    - Rename local variables and add, remove, or modify statements
-    - Edit existing lambdas defined in the method body
-    - Edit existing await and yield expressions
+- Editing the body of an existing method. The following is supported:
 
-  - Edit existing getters/setters for a property
+  - Rename local variables and add, remove, or modify statements
+  - Edit existing lambdas defined in the method body
+  - Edit existing await and yield expressions
+
+- Edit existing getters/setters for a property
   
-  - Not supported:
+- Not supported:
 
-    - Add new classes, fields, events, properties, methods 
-    - Add new lambdas or local functions 
-    - Add new await or yield expressions  
-    - Rename parameters 
-    - Add, remove, or modify custom attributes 
-    - Change a property from `{get;set}` to get-only or `{get;init}` or adding an implementation to an existing property 
-    - Anything not supported by C# [Edit-And-Continue](../debugger/supported-code-changes-csharp.md) (modifying base types, generics, etc) 
+  - Add new classes, fields, events, properties, methods 
+  - Add new lambdas or local functions 
+  - Add new await or yield expressions  
+  - Rename parameters 
+  - Add, remove, or modify custom attributes 
+  - Change a property from `{get;set}` to get-only or `{get;init}` or adding an implementation to an existing property 
+  - Anything not supported by C# [Edit-And-Continue](../debugger/supported-code-changes-csharp.md) (modifying base types, generics, etc) 
 
 ## Configure .NET Hot Reload
 
-You can configure .NET Hot Reload by selecting **Settings** from the **Apply code changes** drop-down button.
+You can configure .NET Hot Reload by selecting **Settings** from the **Hot Reload** drop-down button.
 
 ![Screenshot of configuring .NET Hot Reload](../debugger/media/vs-2022/dotnet-hot-reload-configure.png)
 
