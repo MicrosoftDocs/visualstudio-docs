@@ -30,7 +30,7 @@ With .NET Hot Reload, you can make changes to your code while your app is runnin
 
 ## Update running code with .NET Hot Reload
 
-1. Open a supported project based on a supported application type. For more information, see [Application support](#application-support).
+1. Open a project based on a supported application type. For more information, see [Application support](#application-support).
 
 1. Make sure that **Enable native code debugging** is disabled in the debugger settings or the debug launch profile.
 
@@ -54,7 +54,7 @@ Supported runtimes include CoreCLR, .NET Framework 4.6 and later versions, and M
 
 ## Application support
 
-The following table shows which application types support .NET Hot Reload with the debugger attached (F5) and without the debugger attached (Ctrl+F5), and whether .NET 6 is required for minimum support (F5). Also shown is the minimum version of Visual Studio that supports the feature.
+The following table shows which application types support .NET Hot Reload with the debugger attached (F5) and without the debugger attached (Ctrl+F5), and whether .NET 6 is required for minimum support (that is, F5). Also shown is the minimum version of Visual Studio that supports the feature.
 
 |Application type|.NET 6 required (F5)|F5|Ctrl+F5|
 |-|-|-|-|
