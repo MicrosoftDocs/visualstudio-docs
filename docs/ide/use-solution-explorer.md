@@ -1,7 +1,7 @@
 ---
 title: Learn about the Solution Explorer tool window
 description: Learn how you can use the Solution Explorer tool window in Visual Studio to create & manage your files, projects, and solutions.
-ms.date: 09/07/2021
+ms.date: 09/23/2021
 ms.topic: conceptual
 ms.custom: contperf-fy22q1
 f1_keywords:
@@ -22,7 +22,7 @@ You can use the Solution Explorer tool window to create & manage your solutions 
 > [!NOTE]
 > This topic applies only to Visual Studio on Windows.
 
-## Solution Explorer tool window
+## Tool window
 
 To start, let's take a look at the Solution Explorer tool window in the [Visual Studio IDE](../get-started/visual-studio-ide.md), with an open C# console solution that has two projects.
 
@@ -42,7 +42,7 @@ The tool window contains the following UI (user interface) elements:
 > [!TIP]
 > If you don't see the Solution Explorer tool window, you can open it from the Visual Studio menu bar by using **View** > **Solution Explorer**, or by pressing **Ctrl**+**Alt**+**L**.
 
-## Solution Explorer menu bar
+## Menu bar
 
 To continue, let's take a closer look at the Solution Explorer menu bar.
 
@@ -62,7 +62,7 @@ The menu bar contains the following UI elements, from left to right:
 - **Properties** button, to view and change settings for specific files and components
 - **Preview Selected Items** button, to view a selected file or component in the code editor
 
-## Solution Explorer context menu
+## Context menu
 
 In Solution Explorer, there are several options that you can interact with by using the context menu. The following screenshot for a C# app shows the context menu options that appear when you right-click the **Solution** node.
 
@@ -72,7 +72,7 @@ What you see in the context menu from the **Solution** node also depends on your
 
 :::image type="content" source="media/solution-explorer-context-menu-extra-items.png" alt-text="Screenshot of the right-click context menu in Solution Explorer with extra options.":::
 
-## The Add menu
+## Add menu
 
 In the Solution Explorer context menu, one of the most useful options is the **Add** fly-out menu. From it, you can [add another project](../get-started/csharp/tutorial-console-part-2.md#add-another-project) to a solution. You can also [add an item](reference/add-new-item-command.md) to a project, and more.
 
