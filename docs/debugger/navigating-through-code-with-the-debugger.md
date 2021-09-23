@@ -2,7 +2,7 @@
 title: "Navigate code with the debugger | Microsoft Docs"
 description: "Learn how to use Visual Studio debugger to troubleshoot your code. Topics include: getting into break mode, stepping through code, and running to a target."
 ms.custom: "SEO-VS-2020"
-ms.date: 11/12/2018
+ms.date: 09/23/2021
 ms.topic: how-to
 f1_keywords: 
   - vs.debug.execution
@@ -82,7 +82,7 @@ You may not care about a function while debugging, or you know it works, like we
 |**F10**|**Step Over**|If the current line contains a function call, **Step Over** runs the code, then suspends execution at the first line of code after the called function returns.|
 |**Shift**+**F11**|**Step Out**|**Step Out** continues running code and suspends execution when the current function returns. The debugger skips through the current function.|
 
-## <a name="BKMK_Break_into_code_by_using_breakpoints_or_Break_All"></a> Run to a specific location or function
+## Run to a specific location or function
 
 You may prefer to run directly to a specific location or function when you know exactly what code you want to inspect, or you know where you want to start debugging.
 

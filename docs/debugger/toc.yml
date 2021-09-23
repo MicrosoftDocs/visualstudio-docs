@@ -4,12 +4,12 @@
   items:
   - name: "What is debugging?"
     href: what-is-debugging.md
+  - name: First look at the debugger
+    href: debugger-feature-tour.md
   - name: Debugging techniques and tools
     href: write-better-code-with-visual-studio.md
 - name: Quickstarts
   items:
-  - name: First look at the debugger
-    href: debugger-feature-tour.md
   - name: Debug a C# or Visual Basic app
     href: quickstart-debug-with-managed.md
   - name: Debug a C++ app
