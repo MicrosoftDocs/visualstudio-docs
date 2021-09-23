@@ -7,7 +7,7 @@ author: CaityBuschlen
 ms.author: cabuschl 
 ms.date: 06/01/2021
 user.type: admin 
-tags:  
+tags: bulk 
 subscription.type: vl, cloud, retail, partner 
 sap.id: b84fffb5-3363-eb7d-224e-1c63faf4067b
 ---

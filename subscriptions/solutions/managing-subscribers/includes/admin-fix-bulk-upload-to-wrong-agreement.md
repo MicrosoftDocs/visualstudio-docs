@@ -7,7 +7,7 @@ author: CaityBuschlen
 ms.author: cabuschl 
 ms.date:  06/01/2021
 user.type: admin 
-tags:  
+tags: bulk, upload  
 subscription.type: vl, cloud, retail, partner 
 sap.id: b84fffb5-3363-eb7d-224e-1c63faf4067b
 ---
@@ -31,4 +31,3 @@ If the users were added through an Azure AD group, you need to remove the users 
 ## Impact of moving subscriptions
 
 When subscribers are moved to a new agreement, they receive a new subscription ID. This change breaks the link with their Azure subscription associated with the monthly Azure credit benefit. When the link is broken, the old Azure subscription is subject to eventual deactivation. To avoid disruption, subscribers need to create a new Azure subscription by using the benefit in their new Visual Studio subscription, and then [transfer any existing Azure assets](https://docs.microsoft.com/azure/azure-resource-manager/management/move-resource-group-and-subscription) from the old Azure subscription to the new one.
-
