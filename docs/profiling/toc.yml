@@ -2,7 +2,7 @@
   href: index.yml
 - name: Overview
   items:
-  - name: First look at profiling
+  - name: First look at profiling tools
     href: profiling-feature-tour.md
   - name: Run profiling tools with or without the debugger
     href: running-profiling-tools-with-or-without-the-debugger.md

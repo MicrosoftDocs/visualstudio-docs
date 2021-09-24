@@ -2,13 +2,13 @@
 title: Why are my organization’s subscriptions showing expired when they should be active?
 description: The subscriptions are reflecting as expired however the agreement is still active
 ms.topic: include
-ms.assetid: 9654f105-ad1f-42f7-ae4d-e3a56dfea508  
-author: CaityBuschlen 
-ms.author: cabuschl 
-ms.date:  03/23/2021
-user.type: admin 
-tags: manage, agreement, expiration 
-subscription.type: vl, cloud, retail, partner 
+ms.assetid: 9654f105-ad1f-42f7-ae4d-e3a56dfea508
+author: CaityBuschlen
+ms.author: cabuschl
+ms.date: 03/23/2021
+user.type: admin
+tags: manage, agreement, expiration
+subscription.type: vl, cloud, retail, partner
 sap.id: 8789faa7-9d29-25d8-018a-4f6ecee827c8
 ---
 

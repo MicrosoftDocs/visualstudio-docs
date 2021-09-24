@@ -2,7 +2,7 @@
 title: "Navigate code with the debugger | Microsoft Docs"
 description: "Learn how to use Visual Studio debugger to troubleshoot your code. Topics include: getting into break mode, stepping through code, and running to a target."
 ms.custom: "SEO-VS-2020"
-ms.date: 11/12/2018
+ms.date: 09/23/2021
 ms.topic: how-to
 f1_keywords: 
   - vs.debug.execution
@@ -31,7 +31,7 @@ In *break mode*, app execution is suspended while functions, variables, and obje
 
 - Begin code stepping by pressing **F10** or **F11**. This allows you to quickly find the entry point of your app, then you can continue pressing step commands to navigate code.
 
-- [Run to a specific location or function](#BKMK_Break_into_code_by_using_breakpoints_or_Break_All), for example, by [setting a breakpoint](using-breakpoints.md) and starting your app.
+- [Run to a specific location or function](#run-to-a-specific-location-or-function), for example, by [setting a breakpoint](using-breakpoints.md) and starting your app.
 
    For example, from the code editor in Visual Studio, you can use the **Run to Cursor** command to start the app, debugger attached, and get into break mode, then **F11** to navigate code.
 
@@ -82,7 +82,7 @@ You may not care about a function while debugging, or you know it works, like we
 |**F10**|**Step Over**|If the current line contains a function call, **Step Over** runs the code, then suspends execution at the first line of code after the called function returns.|
 |**Shift**+**F11**|**Step Out**|**Step Out** continues running code and suspends execution when the current function returns. The debugger skips through the current function.|
 
-## <a name="BKMK_Break_into_code_by_using_breakpoints_or_Break_All"></a> Run to a specific location or function
+## Run to a specific location or function
 
 You may prefer to run directly to a specific location or function when you know exactly what code you want to inspect, or you know where you want to start debugging.
 
