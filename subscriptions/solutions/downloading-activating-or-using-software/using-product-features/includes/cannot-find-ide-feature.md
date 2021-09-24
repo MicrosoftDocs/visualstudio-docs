@@ -24,7 +24,7 @@ After noting which version of Visual Studio is included with your subscription, 
 
 If the feature is specific to another subscription level, you will need to change your subscription level.  
 
-If your Visual Studio subscription is provided to you by your work or school, chances are it was assigned to you by a subscriptions administrator. Reach out to your organization’s admin using the “contact my admin” button in the right corner of the navigation in the [subscriptions portal](https://my.visualstudio.com/benefits).  
+If your Visual Studio subscription is provided to you by your work or school, chances are it was assigned to you by a subscriptions admin. Reach out to your organization’s admin using the “contact my admin” button in the right corner of the navigation in the [subscriptions portal](https://my.visualstudio.com/benefits).  
 
 If you purchased your subscription directly, or do not have an admin, you will need to purchase a new subscription at the level you require.  
 

@@ -1,14 +1,14 @@
---- 
+---
 title:  Resolve bulk upload issues
 description: The super admin or admin thought they assigned the users to the new agreement, but they added the users to the wrong agreement.
 ms.topic: include
-ms.assetid: 273f5f7a-739e-4de0-b7f7-d0bdd616e059  
-author: CaityBuschlen 
-ms.author: cabuschl 
+ms.assetid: 273f5f7a-739e-4de0-b7f7-d0bdd616e059
+author: CaityBuschlen
+ms.author: cabuschl
 ms.date:  06/01/2021
-user.type: admin 
-tags: bulk, upload  
-subscription.type: vl, cloud, retail, partner 
+user.type: admin
+tags: bulk, upload
+subscription.type: vl, cloud, retail, partner
 sap.id: b84fffb5-3363-eb7d-224e-1c63faf4067b
 ---
 

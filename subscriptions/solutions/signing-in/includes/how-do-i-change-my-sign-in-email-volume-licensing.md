@@ -1,6 +1,6 @@
 ---
 title: How do I change my sign-in email for my Visual Studio subscription provided by my company?
-description:  How to request a change of your Visual Studio sign-in address for subscriptions acquired through Volume Licensing
+description: How to request a change of your Visual Studio sign-in address for subscriptions acquired through Volume Licensing
 author: CaityBuschlen
 ms.author: cabuschl
 ms.date: 06/02/2021
@@ -16,7 +16,7 @@ sap.id: 17a2bf94-0d03-2629-dfd8-e8935f9126ec
 
 If your work or school purchased subscriptions through Volume Licensing or the Visual Studio Marketplace, those subscriptions are managed by admins. An admin can change the email address you use to sign into your subscription.  
 
-## How to contact your administrator 
+## How to contact your admin 
 
 Given the size and complexity of many organizations, you may not be aware of who your admin is. You can use the **Contact my admin** feature in the subscriptions portal to assist with contacting your admin. 
 
