@@ -9,7 +9,7 @@ ms.topic: how-to
 description:  This article describes how admins can migrate assigned subscriptions from one agreement to another.
 ---
 
-# How to migrate subscriptions from one agreement to another
+# Migrate subscriptions from one agreement to another
 If you have Visual Studio subscriptions assigned to subscribers as part of one agreement and your company purchases a new agreement, you might need to migrate subscribers from the current agreement to the new one. This article explains how to move your assigned subscriptions to the new agreement.  
 
 When you move your subscribers to the new agreement, here's what happens:
@@ -57,21 +57,21 @@ To export your assigned subscriptions:
 ## Prepare your subscription list for upload to the new agreement
 Take these steps to open your exported subscriptions list and move the relevant data to a template for upload to the new agreement:
 1. Locate and open the file that was created when you exported your subscriptions list. You should see the following column names and their associated data:
-- **Subscriber Name**
-- **Email**
-- **Notification Email Address**
-- AAD Group 
-- **Subscription Level**
-- Assigned
-- Activated 
-- Expiration Date (UTC)
-- **Reference**
-- **Downloads**
-- **Country**
-- **Language**
-- Subscription Status
-- **Subscription GUID**
-- Usage Status
+   - **Subscriber Name**
+   - **Email**
+   - **Notification Email Address**
+   - AAD Group 
+   - **Subscription Level**
+   - Assigned
+   - Activated 
+   - Expiration Date (UTC)
+   - **Reference**
+   - **Downloads**
+   - **Country**
+   - **Language**
+   - Subscription Status
+   - **Subscription GUID**
+   - Usage Status
  
    Not all the fields in the exported CSV file are needed in the file that's used to upload your subscriptions to the new agreement. The fields appearing in **bold** in the previous list will appear in the template used to upload your list. 
 
