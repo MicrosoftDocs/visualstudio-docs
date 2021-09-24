@@ -1,13 +1,13 @@
---- 
-title: I am the primary contact, but I'm not a super admin. 
+---
+title: I am the primary contact, but I'm not a super admin.
 description: The primary contact is trying to figure out if they should have super admin permissions
 ms.topic: include 
 ms.assetid: d204a061-9a4e-408c-a967-bf2b815d0bf8
-author: CaityBuschlen 
-ms.author: cabuschl 
-ms.date:  3/23/2021
-user.type: admin 
-tags: manage, agreement, sign in, primary, super 
+author: CaityBuschlen
+ms.author: cabuschl
+ms.date: 3/23/2021
+user.type: admin
+tags: manage, agreement, sign in, primary, super
 subscription.type: vl, cloud, retail, partner 
 sap.id: 8789faa7-9d29-25d8-018a-4f6ecee827c8
 --- 
