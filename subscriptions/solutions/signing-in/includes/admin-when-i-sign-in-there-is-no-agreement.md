@@ -1,13 +1,13 @@
 ---
 title: When I sign into the admin portal, I don’t see any agreements to manage
-description: A Super admin or admin is signed into the admin portal, but doesn't see an agreement
+description: A super admin or admin is signed into the admin portal, but doesn't see an agreement
 ms.topic: include
 ms.assetid: e276637d-8a22-4bb2-a574-7ba9442b92f0
 author: CaityBuschlen
 ms.author: cabuschl
 ms.date: 06/02/2021
 user.type: admin
-tags: 
+tags: agreement
 subscription.type: vl, cloud, retail, partner
 sap.id: 17a2bf94-0d03-2629-dfd8-e8935f9126ec
 ---

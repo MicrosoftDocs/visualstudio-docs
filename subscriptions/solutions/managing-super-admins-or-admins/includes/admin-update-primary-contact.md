@@ -1,13 +1,13 @@
---- 
+---
 title: Our primary contact left and I'm the new one. How can I update the contact info?
 description: The new primary contact wants to update the primary contact or super admin role.
 ms.topic: include
 ms.assetid: 1c123f81-325d-4f0b-a2b5-23f4cf263db1 
-author: CaityBuschlen 
-ms.author: cabuschl 
+author: CaityBuschlen
+ms.author: cabuschl
 ms.date: 06/01/2021
-user.type: admin 
-tags:  
+user.type: admin
+tags: primary, contact
 subscription.type: vl, cloud, retail, partner 
 sap.id: 8789faa7-9d29-25d8-018a-4f6ecee827c8
 ---

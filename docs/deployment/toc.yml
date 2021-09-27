@@ -224,9 +224,13 @@
         href: troubleshooting-specific-errors-in-clickonce-deployments.md
       - name: Debug ClickOnce applications that use System.Deployment.application
         href: debugging-clickonce-applications-that-use-system-deployment-application.md
-  - name: Application deployment prerequisites
+  - name: Visual Studio Installer projects
     items:
-    - name: Overview of application deployment prerequisites
+    - name: Visual Studio Installer Projects Extension and .NET Core 3.1
+      href: installer-projects-net-core.md
+  - name: Custom bootstrapper
+    items:
+    - name: Application deployment prerequisites
       href: application-deployment-prerequisites.md
     - name: Deploy prerequisites for 64-bit applications
       href: deploying-prerequisites-for-64-bit-applications.md
@@ -308,7 +312,3 @@
         href: customerrorreporting-element-clickonce-deployment.md
     - name: ClickOnce Unmanaged API Reference
       href: clickonce-unmanaged-api-reference.md
-  - name: Visual Studio Installer Projects Reference
-    items:
-    - name: Visual Studio Installer Projects Extension and .NET Core 3.1
-      href: installer-projects-net-core.md
