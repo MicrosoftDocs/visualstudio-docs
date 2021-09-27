@@ -19,7 +19,7 @@ Enables debug engines to read metric settings remotely.
 ## Syntax
 
 ```
-IDebugSettingsCallback2D : IUnknown
+IDebugSettingsCallback2 : IUnknown
 ```
 
 ## Notes for Implementers
