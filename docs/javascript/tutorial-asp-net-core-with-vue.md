@@ -71,21 +71,20 @@ Once the project is created, you see some new and modified files:
 
    :::image type="content" source="media/vs-2022/asp-net-core-with-vue-solution-explorer.png" alt-text="Take a look at Solution Explorer":::
 
-1. Open `launchSettings.json` in the **Properties** folder, and under the profiles section for the backend app, change the default ports to 5001 and 5003.
+1. Open `launchSettings.json` from the **Properties** folder, and under the profiles section for the backend app, change the default ports to 5001 and 5003.
 
    ```json
-  "profiles": {
-    "yourbackendapp": {
-      "commandName": "Project",
-      "launchUrl": "swagger",
-      "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
-      },
-      "applicationUrl": "https://localhost:5001;http://localhost:5003",
-      "dotnetRunMessages": true
-    },
+   "profiles": {
+     "yourbackendapp": {
+       "commandName": "Project",
+       "launchUrl": "swagger",
+       "environmentVariables": {
+         "ASPNETCORE_ENVIRONMENT": "Development"
+       },
+       "applicationUrl": "https://localhost:5001;http://localhost:5003",
+       "dotnetRunMessages": true
+     },
    ```
-   
 
 ## Set the project properties
 
