@@ -17,9 +17,9 @@ ms.date: 08/13/2021
 
 [!INCLUDE [admin-not-able-to-manage-agreement](managing-agreements/includes/admin-not-able-to-manage-agreement.md)]
 
-## Managing super admins or admins
-
 [!INCLUDE [admin-expired-subs-should-be-active](managing-super-admins-or-admins/includes/admin-expired-subs-should-be-active.md)]
+
+## Managing super admins or admins
 
 [!INCLUDE [admin-primary-contact-not-super-admin](managing-super-admins-or-admins/includes/admin-primary-contact-not-super-admin.md)]
 
