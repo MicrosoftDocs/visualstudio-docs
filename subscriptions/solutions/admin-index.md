@@ -13,7 +13,7 @@ ms.date: 08/13/2021
 
 ## Managing agreements
 
-[!INCLUDE [admin-expired-subs-should-be-active](managing-super-admins-or-admins/includes/admin-expired-subs-should-be-active.md)]
+[!INCLUDE [admin-expired-subs-should-be-active](managing-agreements/includes/admin-expired-subs-should-be-active.md)]
 
 [!INCLUDE [admin-new-agreement-missing](managing-agreements/includes/admin-new-agreement-missing.md)]
 
