@@ -40,7 +40,7 @@ With .NET Hot Reload, you can make changes to your code while your app is runnin
 
 1. Apply the code changes using the **Hot Reload** button, or press **ALT+F10**. 
 
-   ![Screenshot of the Hot Reload button.](../debugger/media/vs-2022/dotnet-hot-reload.png)
+   ![Screenshot of the Hot Reload button.](../debugger/media/vs-2022/dotnet-hot-reload.gif)
 
 ## Requirements
 

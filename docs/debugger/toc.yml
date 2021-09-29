@@ -104,6 +104,16 @@
       href: mixed-code-and-missing-information-in-the-call-stack-window.md
   - name: Pause code and continue
     items:
+    - name: .NET Hot Reload
+      href: dotnet-hot-reload.md
+    - name: XAML Hot Reload
+      items:
+      - name: Write and debug running XAML code
+        href: ../xaml-tools/xaml-hot-reload.md?toc=/visualstudio/debugger/toc.json
+      - name: Troubleshooting XAML Hot Reload
+        href: ../xaml-tools/xaml-hot-reload-troubleshooting.md?toc=/visualstudio/debugger/toc.json
+    - name: Edit and Continue not supported for F#
+      href: edit-and-continue-not-supported-for-f-hash.md
     - name: Edit code and continue debugging
       href: edit-and-continue.md
     - name: Enable and disable Edit and Continue
@@ -130,14 +140,6 @@
         href: edit-and-continue-visual-basic.md
       - name: Apply edits in break mode with Edit and Continue
         href: how-to-apply-edits-in-break-mode-with-edit-and-continue.md
-    - name: XAML Hot Reload
-      items:
-      - name: Write and debug running XAML code
-        href: ../xaml-tools/xaml-hot-reload.md?toc=/visualstudio/debugger/toc.json
-      - name: Troubleshooting XAML Hot Reload
-        href: ../xaml-tools/xaml-hot-reload-troubleshooting.md?toc=/visualstudio/debugger/toc.json
-    - name: Edit and Continue not supported for F#
-      href: edit-and-continue-not-supported-for-f-hash.md
   - name: Log to Output window
     href: using-tracepoints.md
   - name: View debugger data
