@@ -72,7 +72,7 @@ Add a project to the same solution and call it *MyWebAPI*. Select **API** as the
 ::: moniker range="vs-2017"
    ![Screenshot of creating the Web API project](./media/tutorial-multicontainer/docker-tutorial-mywebapi.png)
 ::: moniker-end
-::: moniker range=">=vs-2019"
+::: moniker range="vs-2019"
    ![Screenshot of creating the Web API project](./media/tutorial-multicontainer/vs-2019/create-webapi-project.png)
 ::: moniker-end
 ::: moniker range=">=vs-2022"
@@ -242,7 +242,7 @@ Add a project to the same solution and call it *MyWebAPI*. Select **API** as the
       </div>
       ```
 
-1. In the Web API project, comment out the call to <xref:Microsoft.AspNetCore.Builder.HttpsPolicyBuilderExtensions.UseHttpsRedirection\*>, because this code uses HTTP, not HTTPS, to call the Web API.
+1. In the Web API project, comment out the call to <xref:Microsoft.AspNetCore.Builder.HttpsPolicyBuilderExtensions.UseHttpsRedirection*>, because this code uses HTTP, not HTTPS, to call the Web API.
 
     ```csharp
                 //app.UseHttpsRedirection();
