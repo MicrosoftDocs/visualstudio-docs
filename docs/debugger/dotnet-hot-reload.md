@@ -34,7 +34,7 @@ With .NET Hot Reload, you can make changes to your code while your app is runnin
 
 1. Make sure that **Enable native code debugging** is disabled in the debugger settings or the debug launch profile.
 
-1. Start the app with the debugger attached using either **F5** or, if supported for your application, **Ctrl+F5**.
+1. Start the app with the debugger attached using either **F5** or, if [supported for your application](#application-support), **Ctrl+F5**.
 
 1. Open a C# code file with some code that can be re-executed through the running apps user interface (for example, code-behind for a button or a ViewModel’s command) or something that is being triggered at an interval through a timer and change the code.
 
@@ -110,7 +110,7 @@ You can configure .NET Hot Reload by selecting **Settings** from the **Hot Reloa
 
 ![Screenshot of configuring .NET Hot Reload](../debugger/media/vs-2022/dotnet-hot-reload-configure.png)
 
-Or, open **Tools** > **Options** > **Debugging** > .NET/C++ Hot Reload
+Or, open **Tools** > **Options** > **Debugging** > **.NET/C++ Hot Reload**.
 
 The settings for hot reload include:
 
@@ -122,8 +122,13 @@ The settings for hot reload include:
 
 ![Screenshot of settings for .NET Hot Reload](../debugger/media/vs-2022/dotnet-hot-reload-settings.png)
 
-## Error messages
+## Warning messages
 
+If you see the following dialog box, hot reload is unable to apply the current edits without restarting. You can choose either to rebuild the app and apply changes (restart) or to continue editing. If you rebuild, all application state is lost. If you continue editing, it is possible that additional changes or corrections may cause hot reload to work again.
+
+![Screenshot of configuring .NET Hot Reload](../debugger/media/vs-2022/dotnet-hot-reload-configure.png)
+
+If you select the **Always rebuild" option in the dialog box, you won't see the dialog box again in the current Visual Studio session, and Visual Studio will automatically rebuild and reload instead of showing the dialog box.
 
 ## See also
 
