@@ -29,11 +29,19 @@ open_to_public_contributors: false
 
 ::: moniker-end
 
-::: moniker range=">= vs-2019"
+::: moniker range="vs-2019"
 
 [!INCLUDE[workloads-components-header-2019_md](includes/workloads-components-header-2019_md.md)]
 
 [!include[Visual Studio Professional 2019](includes/vs-2019/workload-component-id-vs-professional.md)]
+
+::: moniker-end
+
+::: moniker range=">= vs-2022"
+
+[!INCLUDE[workloads-components-header-2022_md](includes/workloads-components-header-2022.md)]
+
+[!include[Visual Studio Professional 2022](includes/vs-2022/workload-component-id-vs-professional.md)]
 
 ::: moniker-end
 
