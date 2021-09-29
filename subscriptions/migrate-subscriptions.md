@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: cabuschl
 manager: cabuschl
 ms.assetid: 80e3b300-f2fc-40d4-bbb2-c831a2fa5d34
-ms.date: 09/09/2021
+ms.date: 09/28/2021
 ms.topic: how-to
 description:  This article describes how admins can migrate assigned subscriptions from one agreement to another.
 ---
@@ -112,7 +112,7 @@ Take these steps to open your exported subscriptions list and move the relevant 
 4. When all your data is moved to the bulk add template, save the template and close it. This list is the subscription list that you'll upload to your new agreement.
 
 ## Upload your subscription list to the new agreement
-1.  In the [admin portal](https://manage.visualstudio.com), if the **Upload multiple subscribers** dialog is still open, select the **Browse** button. Go to the location where you saved your subscription list, select it, and then select **Open**.  
+1.  In the [admin portal](https://manage.visualstudio.com), if the **Upload multiple subscribers** dialog is still open, select the **Browse** button. Go to the location where you saved your subscription list, select it, and then select **Open**. (If the dialog is not open, choose **Add**, and then select **Bulk add**.)
     > [!div class="mx-imgBorder"]
     > ![Browse template](_img/migrate-subscriptions/browse-template.png "Screenshot that shows the Browse button in the Upload multiple subscribers dialog.")
 1. The name of your subscription list will appear in the **Upload multiple subscribers** dialog. Select **OK** to upload the file. 
