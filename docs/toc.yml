@@ -194,13 +194,11 @@
       href: ide/create-new-project.md
     - name: Work with solutions and projects
       href: ide/creating-solutions-and-projects.md
-    - name: Open a project from a repo in Visual Studio 2017
-      href: get-started/tutorial-open-project-from-repo-visual-studio-2017.md
-    - name: Open a project from a repo in Visual Studio 2019
-      href: get-started/tutorial-open-project-from-repo-visual-studio-2019.md
+    - name: Open a project from a repo
+      href: get-started/tutorial-open-project-from-repo.md
     - name: Port, migrate, and upgrade projects
       href: porting/port-migrate-and-upgrade-visual-studio-projects.md
-    - name: Use the Solution Explorer tool window
+    - name: Learn about Solution Explorer
       href: ide/use-solution-explorer.md
     - name: Manage project and solution properties
       href: ide/managing-project-and-solution-properties.md
