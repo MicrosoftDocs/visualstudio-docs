@@ -204,8 +204,8 @@ All shortcuts in this section apply globally unless otherwise specified. The *Gl
 These keyboard shortcuts are *global*, which means that you can use them when any Visual Studio window has focus.
 
 - [Analyze](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_analyze-global-shortcuts)
-- [Architecture](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_architecture)
-- [Azure](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_windowsazure)
+- [Architecture](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_architecture-global-shortcuts)
+- [Azure](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_windowsazure-global-shortcuts)
 - [Build](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_build-global-shortcuts)
 - [Class View context menus](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_classview-global-shortcuts)
 - [Debug](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_debug-global-shortcuts)
@@ -220,36 +220,36 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 - [Project](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_project-global-shortcuts)
 - [Project and Solution context menus](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_projectContext-global-shortcuts)
 - [Refactor](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_refactor-global-shortcuts)
-- [Solution Explorer](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_solutionexplorerGLOBAL)
+- [Solution Explorer](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_solutionexplorer-global-shortcuts)
 - [Team](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_team-global-shortcuts)
 - [Team Foundation context menus](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_TFcontext-global-shortcuts)
 - [Test](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_test-global-shortcuts)
-- [Test Explorer](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_testexplorerGLOBAL)
+- [Test Explorer](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_testexplorer-global-shortcuts)
 - [Tools](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_tools-global-shortcuts)
 - [View](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_view-global-shortcuts)
 - [Window](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_window-global-shortcuts)
 
-### <a name="bkmk_analyze"></a> Analyze: global shortcuts
+### <a name="bkmk_analyze-global-shortcuts"></a> Analyze: global shortcuts
 
 |Commands|Keyboard shortcuts|Command ID|
 |-|-|-|
 |Navigate backward|**Shift+Alt+3**| Analyze.NavigateBackward |
 |Navigate forward|**Shift+Alt+4**| Analyze.NavigateForward |
 
-### <a name="bkmk_architecture"></a> Architecture: global shortcuts
+### <a name="bkmk_architecture-global-shortcuts"></a> Architecture: global shortcuts
 
 |Commands|Keyboard shortcuts|Command ID|
 |-|-|-|
 |New diagram|**Ctrl+\\, Ctrl+N**| Architecture.NewDiagram |
 
-### <a name="bkmk_windowsazure"></a> Azure: global shortcuts
+### <a name="bkmk_windowsazure-global-shortcuts"></a> Azure: global shortcuts
 
 |Commands|Keyboard shortcuts|Command ID|
 |-|-|-|
 |Retry mobile service script operation|**Ctrl+Num \*, Ctrl+R**| WindowsAzure.RetryMobileServiceScriptOperation |
 |Show mobile service script error details|**Ctrl+Num \*, Ctrl+D**| WindowsAzure.ShowMobileServiceScriptErrorDetails |
 
-### <a name="bkmk_build"></a> Build: global shortcuts
+### <a name="bkmk_build-global-shortcuts"></a> Build: global shortcuts
 
 |Commands|Keyboard shortcuts|Command ID|
 |-|-|-|
@@ -259,13 +259,13 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 |Compile|**Ctrl+F7**| Build.Compile |
 |Run code analysis  on solution|**Alt+F11**| Build.RunCodeAnalysisonSolution |
 
-### <a name="bkmk_classview"></a> Class View context menus: global shortcuts
+### <a name="bkmk_classview-global-shortcuts"></a> Class View context menus: global shortcuts
 
 |Commands|Keyboard shortcuts|Command ID|
 |-|-|-|
 |Properties|**Alt+Enter**| ClassViewContextMenus.ClassViewMultiselectProjectreferencesItems.Properties |
 
-### <a name="bkmk_debug"></a> Debug: global shortcuts
+### <a name="bkmk_debug-global-shortcuts"></a> Debug: global shortcuts
 
 |Commands|Keyboard shortcuts|Command ID|
 |-|-|-|
@@ -336,7 +336,7 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 |Watch 3|**Ctrl+Alt+W, 3**| Debug.Watch3 |
 |Watch 4|**Ctrl+Alt+W, 4**| Debug.Watch4 |
 
-### <a name="bkmk_debugger"></a> Debugger context menus: global shortcuts
+### <a name="bkmk_debugger-global-shortcuts"></a> Debugger context menus: global shortcuts
 
 |Commands|Keyboard shortcuts|Command ID|
 |-|-|-|
@@ -344,13 +344,13 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 |Go to disassembly|**Alt+F9, A**| DebuggerContextMenus.BreakpointsWindow.GoToDisassembly |
 |Go to source code|**Alt+F9, S**| DebuggerContextMenus.BreakpointsWindow.GoToSourceCode |
 
-### <a name="bkmk_diagnostics"></a> Diagnostics Hub: global shortcuts
+### <a name="bkmk_diagnostics-global-shortcuts"></a> Diagnostics Hub: global shortcuts
 
 |Command|Keyboard shortcut|Command ID|
 |-|-|-|
 |Stop collection|**Ctrl+Alt+F2**| DiagnosticsHub.StopCollection |
 
-### <a name="bkmk_edit"></a> Edit: global shortcuts
+### <a name="bkmk_edit-global-shortcuts"></a> Edit: global shortcuts
 
 |Commands|Keyboard shortcuts|Command ID|
 |-|-|-|
@@ -410,7 +410,7 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 |Surround with|**Ctrl+K, Ctrl+S**| Edit.SurroundWith |
 |Undo|**Ctrl+Z**<br /><br /> or<br /><br /> **Alt+Backspace**| Edit.Undo |
 
-### <a name="bkmk_editorContext"></a> Editor context menus: global shortcuts
+### <a name="bkmk_editorContext-global-shortcuts"></a> Editor context menus: global shortcuts
 
 |Commands|Keyboard shortcuts|Command ID|
 |-|-|-|
@@ -423,7 +423,7 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 |Toggle header code file|**Ctrl+K, Ctrl+O** (letter 'O')| EditorContextMenus.CodeWindow.ToggleHeaderCodeFile |
 |View call hierarchy|**Ctrl+K, Ctrl+T**<br /><br /> or<br /><br /> **Ctrl+K, T**| EditorContextMenus.CodeWindow.ViewCallHierarchy |
 
-### <a name="bkmk_file"></a> File: global shortcuts
+### <a name="bkmk_file-global-shortcuts"></a> File: global shortcuts
 
 |Commands|Keyboard shortcuts|Command ID|
 |-|-|-|
@@ -439,7 +439,7 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 |Save selected items|**Ctrl+S**| File.SaveSelectedItems |
 |View in browser|**Ctrl+Shift+W**| File.ViewinBrowser |
 
-### <a name="bkmk_help"></a> Help: global shortcuts
+### <a name="bkmk_help-global-shortcuts"></a> Help: global shortcuts
 
 |Commands|Keyboard shortcuts|Command ID|
 |-|-|-|
@@ -448,19 +448,19 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 |View help|**Ctrl+F1**| Help.ViewHelp |
 |Window help|**Shift+F1**| Help.WindowHelp |
 
-### <a name="bkmk_loadtest"></a> Load Test: global shortcuts
+### <a name="bkmk_loadtest-global-shortcuts"></a> Load Test: global shortcuts
 
 |Command|Keyboard shortcut|Command ID|
 |-|-|-|
 |Jump to counter pane|**Ctrl+R, Q**| LoadTest.JumpToCounterPane |
 
-### <a name="bkmk_otherContext"></a> Other context menus: global shortcuts
+### <a name="bkmk_otherContext-global-shortcuts"></a> Other context menus: global shortcuts
 
 |Command|Keyboard shortcut|Command ID|
 |-|-|-|
 |Add new diagram|**Insert**| OtherContextMenus.MicrosoftDataEntityDesignContext.AddNewDiagram |
 
-### <a name="bkmk_project"></a> Project: global shortcuts
+### <a name="bkmk_project-global-shortcuts"></a> Project: global shortcuts
 
 |Commands|Keyboard shortcuts|Command ID|
 |-|-|-|
@@ -472,14 +472,14 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 |Publish selected files|**Alt+;** then **Alt+P**| Project.Publishselectedfiles |
 |Replace selected files from server|**Alt+;** then **Alt+R**| Project.Replaceselectedfilesfromserver |
 
-### <a name="bkmk_projectContext"></a> Project and Solution context menus: global shortcuts
+### <a name="bkmk_projectContext-global-shortcuts"></a> Project and Solution context menus: global shortcuts
 
 |Commands|Keyboard shortcuts|Command ID|
 |-|-|-|
 |Move down|**Alt+Down Arrow**| ProjectandSolutionContextMenus.Item.MoveDown |
 |Move up|**Alt+Up Arrow**| ProjectandSolutionContextMenus.Item.MoveUp |
 
-### <a name="bkmk_refactor"></a> Refactor: global shortcuts
+### <a name="bkmk_refactor-global-shortcuts"></a> Refactor: global shortcuts
 
 |Commands|Keyboard shortcuts|Command ID|
 |-|-|-|
@@ -490,7 +490,7 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 |Rename|**Ctrl+R, Ctrl+R**| Refactor.Rename |
 |Reorder parameters|**Ctrl+R, Ctrl+O** (letter 'O')| Refactor.ReorderParameters |
 
-### <a name="bkmk_solutionexplorerGLOBAL"></a> Solution Explorer: global shortcuts
+### <a name="bkmk_solutionexplorer-global-shortcuts"></a> Solution Explorer: global shortcuts
 
 |Commands|Keyboard shortcuts|Command ID|
 |-|-|-|
@@ -498,7 +498,7 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 |Pending changes filter|**Ctrl+[**, **P**<br /><br /> or<br /><br /> **Ctrl+[**, **Ctrl+P**| SolutionExplorer.PendingChangesFilter |
 |Sync with active document|**Ctrl+[**, **S**<br /><br /> or<br /><br /> **Ctrl+[**, **Ctrl+S**| SolutionExplorer.SyncWithActiveDocument |
 
-### <a name="bkmk_team"></a> Team: global shortcuts
+### <a name="bkmk_team-global-shortcuts"></a> Team: global shortcuts
 
 |Commands|Keyboard shortcuts|Command ID|
 |-|-|-|
@@ -507,7 +507,7 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 |Go to git commits|**Ctrl+0** (zero), **Ctrl+O** (letter 'O')<br /><br /> or<br /><br /> **Ctrl+0, O**| Team.Git.GoToGitCommits |
 |Team explorer search|**Ctrl+'**| Team.TeamExplorerSearch |
 
-### <a name="bkmk_TFcontext"></a> Team Foundation context menus: global shortcuts
+### <a name="bkmk_TFcontext-global-shortcuts"></a> Team Foundation context menus: global shortcuts
 
 |Commands|Keyboard shortcuts|Command ID|
 |-|-|-|
@@ -522,14 +522,14 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 |Go to web access|**Ctrl+0** (zero), **Ctrl+A**<br /><br /> or<br /><br /> **Ctrl+0, A**| TeamFoundationContextMenus.Commands.GoToWebAccess |
 |Go to work items|**Ctrl+0** (zero), **Ctrl+W**<br /><br /> or<br /><br /> **Ctrl+0, W**| TeamFoundationContextMenus.Commands.GoToWorkItems |
 
-### <a name="bkmk_test"></a> Test: global shortcuts
+### <a name="bkmk_test-global-shortcuts"></a> Test: global shortcuts
 
 |Commands|Keyboard shortcuts|Command ID|
 |-|-|-|
 |Use coded ui test builder|**Ctrl+\\, Ctrl+C**| Test.UseCodedUITestBuilder |
 |Use existing action recording|**Ctrl+\\, Ctrl+A**| Test.UseExistingActionRecording |
 
-### <a name="bkmk_testexplorerGLOBAL"></a> Test Explorer: global shortcuts
+### <a name="bkmk_testexplorer-global-shortcuts"></a> Test Explorer: global shortcuts
 
 |Commands|Keyboard shortcuts|Command ID|
 |-|-|-|
@@ -543,7 +543,7 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 |Open tab|**Ctrl+E, L**| LiveUnitTesting.OpenTab |
 |Code coverage results|**Ctrl+E, C**| Test.CodeCoverageResults |
 
-### <a name="bkmk_tools"></a> Tools: global shortcuts
+### <a name="bkmk_tools-global-shortcuts"></a> Tools: global shortcuts
 
 |Commands|Keyboard shortcuts|Command ID|
 |-|-|-|
@@ -551,7 +551,7 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 |Code snippets manager|**Ctrl+K, Ctrl+B**| Tools.CodeSnippetsManager |
 |Force gc|**Ctrl+Shift+Alt+F12, Ctrl+Shift+Alt+F12**| Tools.ForceGC |
 
-### <a name="bkmk_view"></a> View: global shortcuts
+### <a name="bkmk_view-global-shortcuts"></a> View: global shortcuts
 
 |Commands|Keyboard shortcuts|Command ID|
 |-|-|-|
@@ -601,7 +601,7 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 |Zoom out|**Ctrl+Shift+,**| View.ZoomOut |
 |Show Test Explorer|**Ctrl+E, T**| TestExplorer.ShowTestExplorer |
 
-### <a name="bkmk_window"></a> Window: global shortcuts
+### <a name="bkmk_window-global-shortcuts"></a> Window: global shortcuts
 
 |Commands|Keyboard shortcuts|Command ID|
 |-|-|-|
@@ -633,6 +633,7 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 |Window search|**Alt+`**| Window.WindowSearch |
 
 ## Context-specific shortcuts
+These keyboard shortcuts are context specific, which means that you can use them with menus and items in Visual Studio that are specific to a project type, programming language, or platform.
 
 - [ADO.NET Entity Data Model Designer](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_adonet-entity-data-model-designer-context-specific-shortcuts)
 - [Class Diagram](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_class-diagram-context-specific-shortcuts)
@@ -682,7 +683,7 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 - [XML (Text) Editor](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_xml-text-editor-context-specific-shortcuts)
 - [XML Schema Designer](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_xml-schema-designer-context-specific-shortcuts)
 
-### ADO.NET Entity Data Model Designer: context specific shortcuts
+### <a name="bkmk_adonet-entity-data-model-designer-context-specific-shortcuts"></a> ADO.NET Entity Data Model Designer: context specific shortcuts
 
 The shortcuts specific to this context are:
 
@@ -699,7 +700,7 @@ The shortcuts specific to this context are:
 |Entity data model browser|**Ctrl+1**| View.EntityDataModelBrowser |
 |Entity data model mapping details|**Ctrl+2**| View.EntityDataModelMappingDetails |
 
-### Class diagram: context specific shortcuts
+### <a name="bkmk_class-diagram-context-specific-shortcuts"></a> Class diagram: context specific shortcuts
 
 The shortcuts specific to this context are:
 
@@ -714,7 +715,7 @@ The shortcuts specific to this context are:
 |Remove from diagram|**Delete**| Edit.RemovefromDiagram |
 |View code|**Enter**| View.ViewCode |
 
-### Coded UI Test Editor: context specific shortcuts
+### <a name="bkmk_coded-ui-test-editor-context-specific-shortcuts"></a> Coded UI Test Editor: context specific shortcuts
 
 The shortcuts specific to this context are:
 
@@ -728,7 +729,7 @@ The shortcuts specific to this context are:
 |Move code|**Ctrl+Alt+C**| OtherContextMenus.UITestEditorContextMenu.Movecode |
 |Split into a new method|**Ctrl+Shift+T**| OtherContextMenus.UITestEditorContextMenu.Splitintoanewmethod |
 
-### DataSet Editor: context specific shortcuts
+### <a name="bkmk_dataset-editor-context-specific-shortcuts"></a> DataSet Editor: context specific shortcuts
 
 The shortcuts specific to this context are:
 
@@ -738,7 +739,7 @@ The shortcuts specific to this context are:
 |Insert column|**Insert**| OtherContextMenus.ColumnContext.InsertColumn |
 |Column|**Ctrl+L**| OtherContextMenus.DbTableContext.Add.Column |
 
-### Difference Viewer: context specific shortcuts
+### <a name="bkmk_difference-viewer-context-specific-shortcuts"></a> Difference Viewer: context specific shortcuts
 
 The shortcuts specific to this context are:
 
@@ -757,7 +758,7 @@ The shortcuts specific to this context are:
 |Add comment|**Ctrl+Shift+K**| EditorContextMenus.CodeWindow.AddComment |
 |Edit local file|**Ctrl+Shift+P**| EditorContextMenus.CodeWindow.EditLocalFile |
 
-### DOM Explorer: context specific shortcuts
+### <a name="bkmk_dom-explorer-context-specific-shortcuts"></a> DOM Explorer: context specific shortcuts
 
 The shortcuts specific to this context are:
 
@@ -768,7 +769,7 @@ The shortcuts specific to this context are:
 |Select element|**Ctrl+B**| DOMExplorer.SelectElement |
 |Show layout|**Ctrl+Shift+I**| DOMExplorer.ShowLayout |
 
-### F# Interactive: context specific shortcuts
+### <a name="bkmk_f-interactive-context-specific-shortcuts"></a> F# Interactive: context specific shortcuts
 
 The shortcuts specific to this context are:
 
@@ -777,7 +778,7 @@ The shortcuts specific to this context are:
 |-|-|-|
 |Cancel interactive evaluation|**Ctrl+Break**| OtherContextMenus.FSIConsoleContext.CancelInteractiveEvaluation |
 
-### Graph Document Editor: context specific shortcuts
+### <a name="bkmk_graph-document-editor-context-specific-shortcuts"></a> Graph Document Editor: context specific shortcuts
 
 The shortcuts specific to this context are:
 
@@ -792,7 +793,7 @@ The shortcuts specific to this context are:
 |Remove|**Delete**| ArchitectureContextMenus.DirectedGraphContextMenu.Remove |
 |Rename|**F2**| ArchitectureContextMenus.DirectedGraphContextMenu.Rename |
 
-### Graphics Diagnostics: context specific shortcuts
+### <a name="bkmk_graphics-diagnostics-context-specific-shortcuts"></a> Graphics Diagnostics: context specific shortcuts
 
 The shortcuts specific to this context are:
 
@@ -809,7 +810,7 @@ The shortcuts specific to this context are:
 |Zoom in|**Shift+Alt+=**| Graphics.ZoomIn |
 |Zoom out|**Shift+Alt+-**| Graphics.ZoomOut |
 
-### HTML Editor: context specific shortcuts
+### <a name="bkmk_html-editor-context-specific-shortcuts"></a> HTML Editor: context specific shortcuts
 
 The shortcuts specific to this context are:
 
@@ -818,7 +819,7 @@ The shortcuts specific to this context are:
 |-|-|-|
 |Go to controller|**Ctrl+M, Ctrl+G**| OtherContextMenus.HTMLContext.GoToController |
 
-### HTML Editor Design View: context specific shortcuts
+### <a name="bkmk_html-editor-design-view-context-specific-shortcuts"></a> HTML Editor Design View: context specific shortcuts
 
 The shortcuts specific to this context are:
 
@@ -844,7 +845,7 @@ The shortcuts specific to this context are:
 |View markup|**Shift+F7**| View.ViewMarkup |
 |Previous tab|**Ctrl+PgUp**| Window.PreviousTab |
 
-### HTML Editor Source View: context specific shortcuts
+### <a name="bkmk_html-editor-source-view-context-specific-shortcuts"></a> HTML Editor Source View: context specific shortcuts
 
 The shortcuts specific to this context are:
 
@@ -857,7 +858,7 @@ The shortcuts specific to this context are:
 |View designer|**Shift+F7**| View.ViewDesigner |
 |Previous tab|**Ctrl+PgUp**| Window.PreviousTab |
 
-### Layer diagram: context specific shortcuts
+### <a name="bkmk_layer-diagram-context-specific-shortcuts"></a> Layer diagram: context specific shortcuts
 
 The shortcuts specific to this context are:
 
@@ -866,7 +867,7 @@ The shortcuts specific to this context are:
 |-|-|-|
 |Delete|**Shift+Delete**| Edit.Delete |
 
-### Managed Resources Editor: context specific shortcuts
+### <a name="bkmk_managed-resources-editor-context-specific-shortcuts"></a> Managed Resources Editor: context specific shortcuts
 
 The shortcuts specific to this context are:
 
@@ -884,7 +885,7 @@ The shortcuts specific to this context are:
 |Other|**Ctrl+6**| Resources.Other |
 |Strings|**Ctrl+1**| Resources.Strings |
 
-### Merge Editor Window: context specific shortcuts
+### <a name="bkmk_merge-editor-window-context-specific-shortcuts"></a> Merge Editor Window: context specific shortcuts
 
 The shortcuts specific to this context are:
 
@@ -895,7 +896,7 @@ The shortcuts specific to this context are:
 |Set focus on result window|**Alt+2**| TeamFoundationContextMenus.MergeContextMenu.SetFocusonResultWindow |
 |Set focus on right window|**Alt+3**| TeamFoundationContextMenus.MergeContextMenu.SetFocusonRightWindow |
 
-### Microsoft SQL Server Data Tools, Schema Compare: context specific shortcuts
+### <a name="bkmk_microsoft-sql-server-data-tools-schema-compare-context-specific-shortcuts"></a> Microsoft SQL Server Data Tools, Schema Compare: context specific shortcuts
 
 The shortcuts specific to this context are:
 
@@ -909,7 +910,7 @@ The shortcuts specific to this context are:
 |SSDT schema compare stop|**Alt+Break**| SQL.SSDTSchemaCompareStop |
 |SSDT schema compare write updates|**Shift+Alt+U**| SQL.SSDTSchemaCompareWriteUpdates |
 
-### Microsoft SQL Server Data Tools, Table Designer: context specific shortcuts
+### <a name="bkmk_microsoft-sql-server-data-tools-table-designer-context-specific-shortcuts"></a> Microsoft SQL Server Data Tools, Table Designer: context specific shortcuts
 
 The shortcuts specific to this context are:
 
@@ -923,7 +924,7 @@ The shortcuts specific to this context are:
 |Rename|**F2**<br /><br /> or<br /><br /> **Ctrl+R, R**<br /><br /> or<br /><br /> **Ctrl+R, Ctrl+R**| SQL.Rename |
 |ViewFileInScriptPanel|**Shift+Alt+PgDn**| |
 
-### Microsoft SQL Server Data Tools, T-SQL Editor: context specific shortcuts
+### <a name="bkmk_microsoft-sql-server-data-tools-t-sql-editor-context-specific-shortcuts"></a> Microsoft SQL Server Data Tools, T-SQL Editor: context specific shortcuts
 
 The shortcuts specific to this context are:
 
@@ -947,7 +948,7 @@ The shortcuts specific to this context are:
 |T SQL editor clone query|**Ctrl+Alt+N**|SQL.TSqlEditorCloneQuery |
 |T SQL editor database combo|**Shift+Alt+PgDn**|SQL.TSqlEditorDatabaseCombo |
 
-### Microsoft SQL Server Data Tools, T-SQL PDW Editor: context specific shortcuts
+### <a name="bkmk_microsoft-sql-server-data-tools-t-sql-pdw-editor-context-specific-shortcuts"></a> Microsoft SQL Server Data Tools, T-SQL PDW Editor: context specific shortcuts
 
 The shortcuts specific to this context are:
 
@@ -965,7 +966,7 @@ The shortcuts specific to this context are:
 |T SQL editor clone query|**Ctrl+Alt+N**|SQL.TSqlEditorCloneQuery |
 |T SQL editor clone query|**Shift+Alt+PgDn**|SQL.TSqlEditorCloneQuery |
 
-### Page Inspector: context specific shortcuts
+### <a name="bkmk_page-inspector-context-specific-shortcuts"></a> Page Inspector: context specific shortcuts
 
 The shortcuts specific to this context are:
 
@@ -974,7 +975,7 @@ The shortcuts specific to this context are:
 |-|-|-|
 |Minimize|**F12**| PageInspector.Minimize |
 
-### Query Designer: context specific shortcuts
+### <a name="bkmk_query-designer-context-specific-shortcuts"></a> Query Designer: context specific shortcuts
 
 The shortcuts specific to this context are:
 
@@ -990,7 +991,7 @@ The shortcuts specific to this context are:
 |Results|**Ctrl+4**| QueryDesigner.Results |
 |Sql|**Ctrl+3**| QueryDesigner.SQL |
 
-### Query results: context specific shortcuts
+### <a name="bkmk_query-results-context-specific-shortcuts"></a> Query results: context specific shortcuts
 
 The shortcuts specific to this context are:
 
@@ -1001,7 +1002,7 @@ The shortcuts specific to this context are:
 |Query results refresh|**Shift+Alt+R**| SQL.QueryResultsRefresh |
 |Query results stop|**Alt+Break**| SQL.QueryResultsStop |
 
-### Report Designer: context specific shortcuts
+### <a name="bkmk_report-designer-context-specific-shortcuts"></a> Report Designer: context specific shortcuts
 
 The shortcuts specific to this context are:
 
@@ -1030,7 +1031,7 @@ The shortcuts specific to this context are:
 |Tab left|**Shift+Tab**| Edit.TabLeft |
 |Report data|**Ctrl+Alt+D**| View.ReportData |
 
-### Sequence diagram: context specific shortcuts
+### <a name="bkmk_sequence-diagram-context-specific-shortcuts"></a> Sequence diagram: context specific shortcuts
 
 The shortcuts specific to this context are:
 
@@ -1040,7 +1041,7 @@ The shortcuts specific to this context are:
 |Navigate to code|**F12**| ArchitectureDesigner.Sequence.NavigateToCode |
 |Delete|**Shift+Del**| Edit.Delete |
 
-### Settings Designer: context specific shortcuts
+### <a name="bkmk_settings-designer-context-specific-shortcuts"></a> Settings Designer: context specific shortcuts
 
 The shortcuts specific to this context are:
 
@@ -1052,7 +1053,7 @@ The shortcuts specific to this context are:
 |Selection cancel|**Esc**| Edit.SelectionCancel |
 |View code|**F7**| View.ViewCode |
 
-### Solution Explorer: context specific shortcuts
+### <a name="bkmk_solution-explorer-context-specific-shortcuts"></a> Solution Explorer: context specific shortcuts
 
 The shortcuts specific to this context are:
 
@@ -1061,7 +1062,7 @@ The shortcuts specific to this context are:
 |-|-|-|
 |View in page inspector|**Ctrl+K, Ctrl+G**| ClassViewContextMenus.ClassViewProject.View.ViewinPageInspector |
 
-### Team Explorer: context specific shortcuts
+### <a name="bkmk_team-explorer-context-specific-shortcuts"></a> Team Explorer: context specific shortcuts
 
 The shortcuts specific to this context are:
 
@@ -1089,7 +1090,7 @@ The shortcuts specific to this context are:
 |TFS context my work page new linked wi|**Shift+Alt+L**| TeamFoundationContextMenus.MyWorkPageInProgress.TfsContextMyWorkPageNewLinkedWI |
 |Refresh|**F5**| View.Refresh |
 
-### Test Explorer: context specific shortcuts
+### <a name="#bkmk_test-explorer-context-specific-shortcuts"></a> Test Explorer: context specific shortcuts
 
 The shortcuts specific to this context are:
 
@@ -1098,7 +1099,7 @@ The shortcuts specific to this context are:
 |-|-|-|
 |Open test|**F12**| TestExplorer.OpenTest |
 
-### Text Editor: context specific shortcuts
+### <a name="bkmk_text-editor-context-specific-shortcuts"></a> Text Editor: context specific shortcuts
 
 The shortcuts specific to this context are:
 
@@ -1220,7 +1221,7 @@ The shortcuts specific to this context are:
 |TFS annotate move next region| **Alt+PgDn** | TeamFoundationContextMenus.Annotate.TfsAnnotateMoveNextRegion |
 |TFS annotate move previous region| **Alt+PgUp** | TeamFoundationContextMenus.Annotate.TfsAnnotateMovePreviousRegion |
 
-### UML activity diagram: context specific shortcuts
+### <a name="bkmk_uml-activity-diagram-context-specific-shortcuts"></a> UML activity diagram: context specific shortcuts
 
 The shortcuts specific to this context are:
 
@@ -1229,7 +1230,7 @@ The shortcuts specific to this context are:
 |-|-|-|
 |Delete|**Shift+Del**| Edit.Delete |
 
-### UML class diagram: context specific shortcuts
+### <a name="bkmk_uml-class-diagram-context-specific-shortcuts"></a> UML class diagram: context specific shortcuts
 
 The shortcuts specific to this context are:
 
@@ -1238,7 +1239,7 @@ The shortcuts specific to this context are:
 |-|-|-|
 |Delete from model|**Shift+Del**| Edit.DeleteFromModel |
 
-### UML component diagram: context specific shortcuts
+### <a name="bkmk_uml-component-diagram-context-specific-shortcuts"></a> UML component diagram: context specific shortcuts
 
 The shortcuts specific to this context are:
 
@@ -1247,7 +1248,7 @@ The shortcuts specific to this context are:
 |-|-|-|
 |Delete from model|**Shift+Del**| Edit.DeleteFromModel |
 
-### UML use case diagram: context specific shortcuts
+### <a name="bkmk_uml-use-case-diagram-context-specific-shortcuts"></a> UML use case diagram: context specific shortcuts
 
 The shortcuts specific to this context are:
 
@@ -1256,7 +1257,7 @@ The shortcuts specific to this context are:
 |-|-|-|
 |Delete from model|**Shift+Del**| Edit.DeleteFromModel |
 
-### VC Accelerator Editor: context specific shortcuts
+### <a name="bkmk_vc-accelerator-editor-context-specific-shortcuts"></a> VC Accelerator Editor: context specific shortcuts
 
 The shortcuts specific to this context are:
 
@@ -1266,7 +1267,7 @@ The shortcuts specific to this context are:
 |New accelerator|**Insert**| Edit.NewAccelerator |
 |Next key typed|**Ctrl+W**| Edit.NextKeyTyped |
 
-### VC Dialog Editor: context specific shortcuts
+### <a name="bkmk_vc-dialog-editor-context-specific-shortcuts"></a> VC Dialog Editor: context specific shortcuts
 
 The shortcuts specific to this context are:
 
@@ -1303,7 +1304,7 @@ The shortcuts specific to this context are:
 |Test dialog|**Ctrl+T**| Format.TestDialog |
 |Toggle guides|**Ctrl+G**| Format.ToggleGuides |
 
-### VC Image Editor: context specific shortcuts
+### <a name="bkmk_vc-image-editor-context-specific-shortcuts"></a> VC Image Editor: context specific shortcuts
 
 The shortcuts specific to this context are:
 
@@ -1348,7 +1349,7 @@ The shortcuts specific to this context are:
 |Zoom in|**Ctrl+Shift+.**<br /><br /> or<br /><br /> **Ctrl+Up Arrow**| Image.ZoomIn |
 |Zoom out|**Ctrl+Shift+,**<br /><br /> or<br /><br /> **Ctrl+Down Arrow**| Image.ZoomOut |
 
-### VC String Editor: context specific shortcuts
+### <a name="bkmk_vc-string-editor-context-specific-shortcuts"></a> VC String Editor: context specific shortcuts
 
 The shortcuts specific to this context are:
 
@@ -1357,7 +1358,7 @@ The shortcuts specific to this context are:
 |-|-|-|
 |New string|**Insert**| Edit.NewString |
 
-### View Designer: context specific shortcuts
+### <a name="bkmk_view-designer-context-specific-shortcuts"></a> View Designer: context specific shortcuts
 
 The shortcuts specific to this context are:
 
@@ -1373,7 +1374,7 @@ The shortcuts specific to this context are:
 |Results|**Ctrl+4**| QueryDesigner.Results |
 |Sql|**Ctrl+3**| QueryDesigner.SQL |
 
-### Visual Studio: context specific shortcuts
+### <a name="bkmk_visual-studio-context-specific-shortcuts"></a> Visual Studio: context specific shortcuts
 
 The shortcuts specific to this context are:
 
@@ -1382,7 +1383,7 @@ The shortcuts specific to this context are:
 |-|-|-|
 |Hide methods pane|**Ctrl+1**| OtherContextMenus.ORDesignerContext.HideMethodsPane |
 
-### Windows Forms Designer: context specific shortcuts
+### <a name="bkmk_windows-forms-designer-context-specific-shortcuts"></a> Windows Forms Designer: context specific shortcuts
 
 The shortcuts specific to this context are:
 
@@ -1414,7 +1415,7 @@ The shortcuts specific to this context are:
 |Size control up|**Ctrl+Shift+Up Arrow**| Edit.SizeControlUp |
 |Tab left|**Shift+Tab**| Edit.TabLeft |
 
-### Work Item Editor: context specific shortcuts
+### <a name="bkmk_work-item-editor-context-specific-shortcuts"></a> Work Item Editor: context specific shortcuts
 
 The shortcuts specific to this context are:
 
@@ -1425,7 +1426,7 @@ The shortcuts specific to this context are:
 |Refresh work item|**F5**| Edit.RefreshWorkItem |
 |New linked work item|**Shift+Alt+L**| Team.NewLinkedWorkItem |
 
-### Work Item Query View: context specific shortcuts
+### <a name="bkmk_work-item-query-view-context-specific-shortcuts"></a> Work Item Query View: context specific shortcuts
 
 The shortcuts specific to this context are:
 
@@ -1439,7 +1440,7 @@ The shortcuts specific to this context are:
 |Refresh|**F5**| Team.Refresh |
 |Toggle|**Shift+Alt+V**| Window.Toggle |
 
-### Work Item Results View: context specific shortcuts
+### <a name="bkmk_work-item-results-view-context-specific-shortcuts"></a> Work Item Results View: context specific shortcuts
 
 The shortcuts specific to this context are:
 
@@ -1455,7 +1456,7 @@ The shortcuts specific to this context are:
 |Refresh|**F5**| Team.Refresh |
 |Toggle|**Shift+Alt+V**| Window.Toggle |
 
-### Workflow Designer: context specific shortcuts
+### <a name="bkmk_workflow-designer-context-specific-shortcuts"></a> Workflow Designer: context specific shortcuts
 
 The shortcuts specific to this context are:
 
@@ -1486,7 +1487,7 @@ The shortcuts specific to this context are:
 |Zoom in|**Ctrl+Num +**| WorkflowDesigner.ZoomIn |
 |Zoom out|**Ctrl+Num -**| WorkflowDesigner.ZoomOut |
 
-### XAML UI Designer: context specific shortcuts
+### <a name="bkmk_xaml-ui-designer-context-specific-shortcuts"></a> XAML UI Designer: context specific shortcuts
 
 The shortcuts specific to this context are:
 
@@ -1511,7 +1512,7 @@ The shortcuts specific to this context are:
 |Edge right move right|**Ctrl+Shift+Alt+.**| View.EdgeRightMoveRight |
 |Show property marker menu|**Ctrl+Spacebar**| View.ShowPropertyMarkerMenu |
 
-### XML (Text) Editor: context specific shortcuts
+### <a name="bkmk_xml-text-editor-context-specific-shortcuts"></a> XML (Text) Editor: context specific shortcuts
 
 The shortcuts specific to this context are:
 
@@ -1521,7 +1522,7 @@ The shortcuts specific to this context are:
 |Start XSLT debugging|**Alt+F5**| XML.StartXSLTDebugging |
 |Start XSLT without debugging|**Ctrl+Alt+F5**| XML.StartXSLTWithoutDebugging |
 
-### XML Schema Designer: context specific shortcuts
+### <a name="bkmk_xml-schema-designer-context-specific-shortcuts"></a> XML Schema Designer: context specific shortcuts
 
 The shortcuts specific to this context are:
 
