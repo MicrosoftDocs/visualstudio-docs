@@ -220,11 +220,11 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 - [Project](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_project-global-shortcuts)
 - [Project and Solution context menus](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_projectContext-global-shortcuts)
 - [Refactor](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_refactor-global-shortcuts)
-- [Solution Explorer](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_solutionexplorer-global-shortcuts)
+- [Solution Explorer](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_solutionexplorerGLOBAL)
 - [Team](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_team-global-shortcuts)
 - [Team Foundation context menus](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_TFcontext-global-shortcuts)
 - [Test](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_test-global-shortcuts)
-- [Test Explorer](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_testexplorer-global-shortcuts)
+- [Test Explorer](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_testexplorerGLOBAL)
 - [Tools](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_tools-global-shortcuts)
 - [View](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_view-global-shortcuts)
 - [Window](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_window-global-shortcuts)
@@ -490,7 +490,7 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 |Rename|**Ctrl+R, Ctrl+R**| Refactor.Rename |
 |Reorder parameters|**Ctrl+R, Ctrl+O** (letter 'O')| Refactor.ReorderParameters |
 
-### <a name="bkmk_solutionexplorer-global-shortcuts"></a> Solution Explorer: global shortcuts
+### <a name="bkmk_solutionexplorerGLOBAL"></a> Solution Explorer: global shortcuts
 
 |Commands|Keyboard shortcuts|Command ID|
 |-|-|-|
@@ -529,7 +529,7 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 |Use coded ui test builder|**Ctrl+\\, Ctrl+C**| Test.UseCodedUITestBuilder |
 |Use existing action recording|**Ctrl+\\, Ctrl+A**| Test.UseExistingActionRecording |
 
-### <a name="bkmk_testexplorer-global-shortcuts"></a> Test Explorer: global shortcuts
+### <a name="bkmk_testexplorerGLOBAL"></a> Test Explorer: global shortcuts
 
 |Commands|Keyboard shortcuts|Command ID|
 |-|-|-|
