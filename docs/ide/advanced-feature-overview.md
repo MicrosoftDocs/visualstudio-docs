@@ -183,8 +183,6 @@ Azure DevOps is an application lifecycle management hub for Visual Studio. Azure
 
 You can connect to an Azure DevOps organization or Azure DevOps Server on your network through the **Team Explorer** window in Visual Studio. From the **Team Explorer** window, you can check code into or out of source control, manage work items, start builds, and access team rooms and workspaces. To open **Team Explorer**, use the search box, or select **View** > **Team Explorer**.
 
-The following image shows the **Team Explorer** window for a solution that's hosted in Azure DevOps Services.
-
 You can also automate your build process to build code that developers check into version control. For example, you can build one or more projects nightly, or every time certain code is checked in. For more information, see [Azure Pipelines](/azure/devops/pipelines/index?view=vsts&preserve-view=true).
 
 ::: moniker-end
