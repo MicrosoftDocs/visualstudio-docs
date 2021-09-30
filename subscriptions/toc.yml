@@ -198,6 +198,8 @@
       href: admin-expiration.md     
     - name: Expired subscriptions
       href: handle-expired-license.md
+    - name: Subscriptions removed by Microsoft
+      href: account-removed.md
     - name: 'Subscriber sign-in scenarios '
       href: aliasing.md
     - name: Subscribers with personal email sign-ins
