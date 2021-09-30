@@ -19,18 +19,17 @@ In this tutorial for Visual Studio development ASP.NET Core and TypeScript, you 
 
 ::: moniker range=">=vs-2022"
 
-Starting in Visual Studio 2022, it is recommended that you use the ASP.NET Core Single Page Application (SPA) templates to create an ASP.NET Core app with TypeScript. For more information, see [Create an ASP.NET Core app with Angular in Visual Studio](../javascript/tutorial-asp-net-core-with-angular.md) or [Create an ASP.NET Core app with Vue in Visual Studio](../javascript/tutorial-asp-net-core-with-vue.md).
-::: moniker-end
-
-::: moniker range="vs-2017"
-
-If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download) page to install it for free.
-
+Starting in Visual Studio 2022, if you want to use Angular or Vue with ASP.NET Core, it is recommended that you use the ASP.NET Core Single Page Application (SPA) templates to create an ASP.NET Core app with TypeScript. For more information, see the Visual Studio tutorials for [Angular](../javascript/tutorial-asp-net-core-with-angular.md) or [Vue](../javascript/tutorial-asp-net-core-with-vue.md).
 ::: moniker-end
 
 ::: moniker range="vs-2019"
 
 If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads) page to install it for free.
+
+::: moniker-end
+::: moniker range="vs-2017"
+
+If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download) page to install it for free.
 
 ::: moniker-end
 
