@@ -143,7 +143,7 @@ The reason for the warning is that with these older versions of Python, `pip ins
 
 It may be possible to download the appropriate *get-pip.py* for a package from [bootstrap.pypa.io](https://bootstrap.pypa.io/), manually download a package from [pypi.org](https://pypi.org/), and then install the package from that local copy.
 
-The recommendation, however, is to simply upgrade to Python 2.7 or 3.3+, in which case the warning does not appear.
+The recommendation, however, is to simply upgrade to a recent version of Python, in which case the warning does not appear.
 
 ::: moniker range="vs-2017"
 ## IntelliSense tab

@@ -39,18 +39,18 @@ Mixed-mode debugging features include the following, as explained in this articl
 
 1. Right-click the Python project in **Solution Explorer**, select **Properties**, select the **Debug** tab, and then select **Enable native code debugging**. This option enables mixed-mode for all debugging sessions.
 
-    ![Enabling native code debugging](media/mixed-mode-debugging-enable-native.png)
+   ![Enabling native code debugging](media/mixed-mode-debugging-enable-native.png)
 
-    > [!Tip]
-    > When you enable native code debugging, the Python output window may disappear immediately when the program has completed without giving you the usual **Press any key to continue** pause. To force a pause, add the `-i` option to the **Run** > **Interpreter Arguments** field on the **Debug** tab when you enable native code debugging. This argument puts the Python interpreter into interactive mode after the code finishes, at which point it waits for you to press **Ctrl**+**Z** > **Enter** to exit.
+   > [!Tip]
+   > When you enable native code debugging, the Python output window may disappear immediately when the program has completed without giving you the usual **Press any key to continue** pause. To force a pause, add the `-i` option to the **Run** > **Interpreter Arguments** field on the **Debug** tab when you enable native code debugging. This argument puts the Python interpreter into interactive mode after the code finishes, at which point it waits for you to press **Ctrl**+**Z** > **Enter** to exit.
 
 1. When attaching the mixed-mode debugger to an existing process (**Debug** > **Attach to Process**), use the **Select** button to open the **Select Code Type** dialog. Then set the **Debug these code types** option and select both **Native** and **Python** in the list:
 
-    ![Selecting the Native and Python code types](media/mixed-mode-debugging-code-type.png)
+   ![Selecting the Native and Python code types](media/mixed-mode-debugging-code-type.png)
 
-    The code type settings are persistent, so if you want to disable mixed-mode debugging when attaching to a different process later, clear the **Python** code type.
+   The code type settings are persistent, so if you want to disable mixed-mode debugging when attaching to a different process later, clear the **Python** code type.
 
-    It's possible to select other code types in addition to, or instead of, **Native**. For example, if a managed application hosts CPython, which in turn uses native extension modules, and you want to debug all three, you can check **Python**, **Native**, and **Managed** together for a unified debugging experience including combined call stacks and stepping between all three runtimes.
+   It's possible to select other code types in addition to, or instead of, **Native**. For example, if a managed application hosts CPython, which in turn uses native extension modules, and you want to debug all three, you can check **Python**, **Native**, and **Managed** together for a unified debugging experience including combined call stacks and stepping between all three runtimes.
 
 1. When you start debugging in mixed mode for the first time, you may see a **Python Symbols Required** dialog (see [Symbols for mixed-mode debugging](debugging-symbols-for-mixed-mode-c-cpp-python.md)). You need to install symbols only once for any given Python environment. Symbols are automatically included if you install Python support through the Visual Studio installer (Visual Studio 2017 and later).
 
@@ -63,7 +63,7 @@ Visual Studio (2017 version 15.5 and later) supports mixed-mode debugging from a
 1. Right-click the C/C++ project in **Solution Explorer** and select **Properties**.
 1. Select the **Debugging** tab, select **Python/Native Debugging** from the **Debugger to launch**, and select **OK**.
 
-    ![Selecting the Python/Native debugger in a C/C++ project](media/mixed-mode-debugging-select-cpp-debugger.png)
+   ![Selecting the Python/Native debugger in a C/C++ project](media/mixed-mode-debugging-select-cpp-debugger.png)
 
 > [!Note]
 > If you don't have the option to select **Python/Native Debugging** you need to first install the **Python native development tools** using the VS installer. You can find it as an option under the Python development workload. For additional information, see [How to install Python support in Visual Studio on Windows](installing-python-support-in-visual-studio.md).
@@ -77,7 +77,7 @@ For all previous versions of Visual Studio, direct mixed-mode debugging is enabl
 1. Start the C++ project without debugging (**Debug** > **Start without Debugging** or **Ctrl**+**F5**).
 1. Select **Debug** > **Attach to Process**. In the dialog that appears, select the appropriate process, then use the **Select** button to open the **Select Code Type** dialog in which you can select **Python**:
 
-    ![Selecting Python as the debugging type when attaching a debugger](media/mixed-mode-debugging-attach-type.png)
+   ![Selecting Python as the debugging type when attaching a debugger](media/mixed-mode-debugging-attach-type.png)
 
 1. Select **OK** to close that dialog, then **Attach** to start the debugger.
 1. You may need to introduce a suitable pause or delay in the C++ app to ensure that it doesn't call the Python code you want to debug before you have a chance to attach the debugger.
@@ -132,9 +132,13 @@ C types that show **[Python view]** nodes (if enabled):
 
 **[Python view]** does not automatically appear for types you author yourself. When authoring extensions for Python 3.x, this lack is usually not an issue because any object ultimately has an `ob_base` field of one of the types above, which causes **[Python view]** to appear.
 
+::: moniker range="<=vs-2017"
+
 For Python 2.x, however, each object type typically declares its header as a collection of inline fields, and there is no association between custom authored types and `PyObject` at the type system level in C/C++ code. To enable **[Python view]** nodes for such custom types, edit the *PythonDkm.natvis* file in the [Python tools install directory](installing-python-support-in-visual-studio.md#install-locations), and add another element in the XML for your C struct or C++ class.
 
 An alternate (and better) option is to follow [PEP 3123](https://www.python.org/dev/peps/pep-3123/) and use an explicit `PyObject ob_base;` field rather than `PyObject_HEAD`, though that may not always be possible for backwards-compatibility reasons.
+
+::: moniker-end
 
 ### Native values view in Python code
 
