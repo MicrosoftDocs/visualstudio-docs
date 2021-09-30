@@ -22,8 +22,10 @@ Follow these steps to add another admin:
 2. At the top of the admin portal, browse to the **Manage administrators** page, and then select the appropriate agreement from the dropdown menu.
 3. Select **Add**.
 4. Fill out the required fields.
-    > [!Note]
-    > For the super admin role, be sure to check the box.
+
+> [!NOTE]
+> 
+> For the super admin role, be sure to check the box.
 
 ## More Information
 

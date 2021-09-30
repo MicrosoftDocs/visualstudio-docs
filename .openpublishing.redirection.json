@@ -54,7 +54,7 @@
       "source_path": "mac/2017/enable-subscription.md",
       "redirect_url": "/visualstudio/mac/enable-subscription?view=vsmac-2019",
       "redirect_document_id": false
-    },  
+    },
     {
       "source_path": "docs/python/python-azure-cloud-service-project-template.md",
       "redirect_url": "/visualstudio/python/managing-python-projects-in-visual-studio",
@@ -69,7 +69,7 @@
       "source_path": "docs/python/learn-flask-visual-studio-step-04-full-flask-project-template.md",
       "redirect_url": "/visualstudio/python/learn-flask-visual-studio-step-01-project-solution",
       "redirect_document_id": false
-    },    
+    },
     {
       "source_path": "docs/ide/reference/keyboard-environment-options-dialog-box.md",
       "redirect_url": "/visualstudio/ide/identifying-and-customizing-keyboard-shortcuts-in-visual-studio",
@@ -45786,18 +45786,13 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "docs/get-started/tutorial-open-project-from-repo.md",
-      "redirect_url": "/visualstudio/get-started/tutorial-open-project-from-repo-visual-studio-2019",
+      "source_path": "docs/get-started/tutorial-open-project-from-repo-visual-studio-2019.md",
+      "redirect_url": "/visualstudio/get-started/tutorial-open-project-from-repo?view=vs-2019",
       "redirect_document_id": true
     },
     {
-      "source_path": "docs/get-started/tutorial-open-project-from-repo.md?view=vs-2019",
-      "redirect_url": "/visualstudio/get-started/tutorial-open-project-from-repo-visual-studio-2019",
-      "redirect_document_id": true
-    },
-    {
-      "source_path": "docs/get-started/tutorial-open-project-from-repo.md?view=vs-2017",
-      "redirect_url": "/visualstudio/get-started/tutorial-open-project-from-repo-visual-studio-2017",
+      "source_path": "docs/get-started/tutorial-open-project-from-repo-visual-studio-2017.md",
+      "redirect_url": "/visualstudio/get-started/tutorial-open-project-from-repo?view=vs-2017",
       "redirect_document_id": false
     },
     {
@@ -45869,7 +45864,7 @@
       "source_path": "docs/ide/command-line-arguments-for-the-help-content-manager.md",
       "redirect_url": "/visualstudio/help-viewer/command-line-arguments",
       "redirect_document_id": true
-    },  
+    },
     {
       "source_path": "docs/ide/create-an-offline-installation-of-visual-studio.md",
       "redirect_url": "/visualstudio/install/create-an-offline-installation-of-visual-studio",

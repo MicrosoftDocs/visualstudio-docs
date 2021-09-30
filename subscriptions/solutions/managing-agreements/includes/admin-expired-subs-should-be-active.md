@@ -16,7 +16,7 @@ sap.id: 4e55abf9-8505-ecdc-c55f-c67a167a357c
 
 Once you are in the admin portal, you can see the agreement “End date” above the subscriber grid. You'll also see the “Expires” date on the row for each subscriber. If you believe they should match, reach out to the primary contact (who is also a super admin) or your reseller and verify that they should have the same date. Once this is confirmed, if there are any discrepancies in the contract/agreement, submit a request to your reseller to make the necessary changes. 
 
-If there are no errors on the contract/agreement, then contact our support team and have the following information ready to provide to them:
+If there are no errors on the contract/agreement, then contact support by submitting an online request below and have the following information ready:
 - Agreement number
 - The expiration date you are seeing and the correct date
 - A screenshot of the discrepancy and your contract showing the correct end dates
