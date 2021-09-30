@@ -18,7 +18,7 @@ ms.workload:
 
 With .NET Hot Reload, you can make changes to your code while your app is running. You can use .NET Hot Reload to incrementally build and test code with the benefit of the running app's data context, authentication state, and other real-world complexity that's hard to simulate during design-time.
 
-.NET Hot Reload for C# is available starting in Visual Studio 2022.
+.NET Hot Reload is available starting in Visual Studio 2022.
 
 .NET Hot Reload is especially helpful in these scenarios:
 
@@ -36,7 +36,7 @@ With .NET Hot Reload, you can make changes to your code while your app is runnin
 
 1. Start the app with the debugger attached using either **F5** or, if [supported for your application](#application-support), **Ctrl+F5**.
 
-1. Open a C# code file with some code that can be re-executed through the running apps user interface (for example, code-behind for a button or a ViewModel’s command) or something that is being triggered at an interval through a timer and change the code.
+1. Open a C# or Visual Basic code file with some code that can be re-executed through the running apps user interface (for example, code-behind for a button or a ViewModel’s command) or something that is being triggered at an interval through a timer and change the code.
 
 1. Apply the code changes using the **Hot Reload** button, or press **ALT+F10**. 
 
