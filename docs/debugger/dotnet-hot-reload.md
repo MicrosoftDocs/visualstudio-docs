@@ -126,7 +126,7 @@ The settings for hot reload include:
 
 If you see the following dialog box, hot reload is unable to apply the current edits without restarting. You can choose either to rebuild the app and apply changes (restart) or to continue editing. If you rebuild, all application state is lost. If you continue editing, it is possible that additional changes or corrections may cause hot reload to work again.
 
-![Screenshot of configuring .NET Hot Reload](../debugger/media/vs-2022/dotnet-hot-reload-apply-changes.png)
+![Screenshot of the apply changes dialog box](../debugger/media/vs-2022/dotnet-hot-reload-apply-changes.png)
 
 If you select the **Always rebuild" option in the dialog box, you won't see the dialog box again in the current Visual Studio session, and Visual Studio will automatically rebuild and reload instead of showing the dialog box.
 
