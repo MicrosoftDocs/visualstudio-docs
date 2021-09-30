@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: cabuschl
 manager: cabuschl
 ms.assetid: f853ed9d-3543-4f5f-a754-92381ee03523
-ms.date: 09/28/2021
+ms.date: 09/30/2021
 ms.topic: how-to
 description:  Learn what it means when you see a notification that Microsoft has deleted a subscription.
 ---
@@ -21,7 +21,7 @@ For more information including important things to consider before closing an ac
 When a subscriber whose subscription was assigned automatically using an Azure Active Directory (Azure AD) group is removed from that group, the subscription is automatically removed.  
 
 ## What happens when the account is closed?
-If the subscription is removed, the subscriber will immediately lose access to the subscription.  A countdown for the permanent removal of their information will also begin.  The duration of the countdown depends on several factors.
+If the subscription is removed, the subscriber will immediately lose access to the subscription.  If a subscriber is removed from an Azure AD group, their subscription information will be permanently removed within 180 days.  If a subscriber closes their MSA, their information is removed immediately.  
 
 ## Resources
 - [Subscriptions Support](https://aka.ms/vsadminhelp) for admins
