@@ -52,7 +52,7 @@ All shortcuts in this section apply globally unless otherwise specified. The *Gl
 - [View](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_view-popular-shortcuts)
 - [Window](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_window-popular-shortcuts)
 
-#### Build: popular shortcuts
+#### <a name="bkmk_build-popular-shortcuts"></a> Build: popular shortcuts
 
 |Commands|Keyboard shortcuts |Command ID|
 |-|-|-|
@@ -61,7 +61,7 @@ All shortcuts in this section apply globally unless otherwise specified. The *Gl
 |Compile|**Ctrl+F7** | Build.Compile |
 |Run code analysis on solution|**Alt+F11**| Build.RunCodeAnalysisonSolution |
 
-#### Debug: popular shortcuts
+#### <a name="bkmk_debug-popular-shortcuts"></a> Debug: popular shortcuts
 
 |Commands|Keyboard shortcuts [Special contexts]|Command ID|
 |-|-|-|
@@ -81,7 +81,7 @@ All shortcuts in this section apply globally unless otherwise specified. The *Gl
 |Stop debugging|**Shift+F5**| Debug.StopDebugging |
 |Toggle breakpoint|**F9**| Debug.ToggleBreakpoint |
 
-#### Edit: popular shortcuts
+#### <a name="bkmk_edit-popular-shortcuts"></a> Edit: popular shortcuts
 
 |Commands|Keyboard shortcuts [Special contexts]|Command ID|
 |-|-|-|
@@ -132,7 +132,7 @@ All shortcuts in this section apply globally unless otherwise specified. The *Gl
 |Word delete to end|**Ctrl+Delete** [Text Editor]| Edit.WordDeleteToEnd |
 |Word delete to start|**Ctrl+Backspace** [Text Editor]| Edit.WordDeleteToStart |
 
-#### File: popular shortcuts
+#### <a name="bkmk_file-popular-shortcuts"></a> File: popular shortcuts
 
 |Commands|Keyboard shortcuts [Special contexts]|Command ID|
 |-|-|-|
@@ -148,26 +148,26 @@ All shortcuts in this section apply globally unless otherwise specified. The *Gl
 |Save selected items|**Ctrl+S**| File.SaveSelectedItems |
 |View in browser|**Ctrl+Shift+W**| File.ViewinBrowser |
 
-#### Project: popular shortcuts
+#### <a name="bkmk_project-popular-shortcuts"></a> Project: popular shortcuts
 
 |Commands|Keyboard shortcuts [Special contexts]|Command ID|
 |-|-|-|
 |Add existing item|**Shift+Alt+A**| Project.AddExistingItem |
 |Add new item|**Ctrl+Shift+A**| Project.AddNewItem |
 
-#### Refactor: popular shortcuts
+#### <a name="bkmk_refactor-popular-shortcuts"></a> Refactor: popular shortcuts
 
 |Command|Keyboard shortcut [Special contexts]|Command ID|
 |-|-|-|
 |Extract method|**Ctrl+R, Ctrl+M**| Refactor.ExtractMethod |
 
-#### Tools: popular shortcuts
+#### <a name="bkmk_tools-popular-shortcuts"></a> Tools: popular shortcuts
 
 |Command|Keyboard shortcut [Special contexts]|Command ID|
 |-|-|-|
 |Attach to process|**Ctrl+Alt+P**| Tools.AttachtoProcess |
 
-#### View: popular shortcuts
+#### <a name="bkmk_view-popular-shortcuts"></a> View: popular shortcuts
 
 |Commands|Keyboard shortcuts [Special contexts]|Command ID|
 |-|-|-|
@@ -188,7 +188,7 @@ All shortcuts in this section apply globally unless otherwise specified. The *Gl
 |View code|**Enter** [Class Diagram]<br /><br />or **F7** [Settings Designer]| View.ViewCode |
 |View designer|**Shift+F7** [HTML Editor Source View]| View.ViewDesigner |
 
-#### Window: popular shortcuts
+#### <a name="bkmk_window-popular-shortcuts"></a> Window: popular shortcuts
 
 |Commands|Keyboard shortcuts [Special contexts]|Command ID|
 |-|-|-|
@@ -210,7 +210,7 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 - [Class View context menus](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_classview-global-shortcuts)
 - [Debug](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_debug-global-shortcuts)
 - [Debug context menus](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_debugger-global-shortcuts)
-- [Diagnostics Hub](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_diagonstics-global-shortcuts)
+- [Diagnostics Hub](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_diagnostics-global-shortcuts)
 - [Edit](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_edit-global-shortcuts)
 - [Editor context menus](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_editorContext-global-shortcuts)
 - [File](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_file-global-shortcuts)
