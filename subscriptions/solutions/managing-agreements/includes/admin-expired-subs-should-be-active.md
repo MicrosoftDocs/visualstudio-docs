@@ -9,7 +9,7 @@ ms.date: 03/23/2021
 user.type: admin
 tags: manage, agreement, expiration
 subscription.type: vl, cloud, retail, partner
-sap.id: 8789faa7-9d29-25d8-018a-4f6ecee827c8
+sap.id: 4e55abf9-8505-ecdc-c55f-c67a167a357c
 ---
 
 ## Why are my organization’s subscriptions showing as expired when they should be active?

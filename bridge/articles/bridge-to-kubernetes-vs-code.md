@@ -67,7 +67,7 @@ The first step in configuring the debugger for local tunnel debugging is that yo
 
 ![Enter the port number](media/bridge-to-kubernetes-sample/enter-port.png)
 
-Choose a debug launch configuration that you normally use when running your application locally. If you don't have a launch configuration, you can either let Bridge to Kubernetes create one, or choose not to create one, in which case you have to start your application or service manually. Learn more at [Launch configurations](/docs/editor/debugging.md#launch-configurations).
+Choose a debug launch configuration that you normally use when running your application locally. If you don't have a launch configuration, you can either let Bridge to Kubernetes create one, or choose not to create one, in which case you have to start your application or service manually. Learn more at [Launch configurations](https://code.visualstudio.com/docs/editor/debugging#_launch-configurations).
 
 ![Choose the debugger launch configuration](media/bridge-to-kubernetes-vs-code/choose-launch.png)
 
