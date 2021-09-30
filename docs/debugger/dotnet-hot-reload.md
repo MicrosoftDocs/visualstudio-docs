@@ -54,7 +54,7 @@ Supported runtimes include CoreCLR, .NET Framework 4.6 and later versions, and M
 
 ## Application support
 
-The following table shows which application types support .NET Hot Reload with the debugger attached (F5) and without the debugger attached (Ctrl+F5), and whether .NET 6 is required for minimum support (that is, F5). Also shown is the minimum version of Visual Studio that supports the feature.
+The following table shows which application types support .NET Hot Reload with the debugger attached (F5) and without the debugger attached (Ctrl+F5), and whether .NET 6 is required for minimum support (that is, F5). .NET 6 is always required for Ctrl+F5 support. Also shown is the minimum version of Visual Studio that supports the feature.
 
 |Application type|.NET 6 required (F5)|F5|Ctrl+F5|
 |-|-|-|-|
