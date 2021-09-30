@@ -1090,7 +1090,7 @@ The shortcuts specific to this context are:
 |TFS context my work page new linked wi|**Shift+Alt+L**| TeamFoundationContextMenus.MyWorkPageInProgress.TfsContextMyWorkPageNewLinkedWI |
 |Refresh|**F5**| View.Refresh |
 
-### <a name="#bkmk_test-explorer-context-specific-shortcuts"></a> Test Explorer: context specific shortcuts
+### <a name="bkmk_test-explorer-context-specific-shortcuts"></a> Test Explorer: context specific shortcuts
 
 The shortcuts specific to this context are:
 
