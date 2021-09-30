@@ -47,7 +47,7 @@ The connected service functionality adds all the needed references and connectio
 
     ![Add Azure Cache for Redis](./media/azure-redis-cache-add-connected-service/azure-redis-cache.png)
 
-    If you aren't signed in already, sign into your Azure account. If you don't have an Azure account, you can sign up for a [free trial](https://azure.microsoft.com/account/free).
+    If you aren't signed in already, sign into your Azure account. If you don't have an Azure account, you can sign up for a [free trial](https://azure.microsoft.com/free/).
 
 1. In the **Configure Azure Cache for Redis** screen, select an existing Azure Cache for Redis, and select **Next**.
 
