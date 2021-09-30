@@ -19,5 +19,3 @@ You’ll receive an email from Visual Studio Subscriptions after the new agreeme
 In most cases, you’re likely viewing an older agreement and can find your new one by checking the dropdown on the left side of the screen above your assigned subscriptions. Click on the agreement number to start managing that agreement.
 
 Make sure that you're signing in with the email address that the permissions were given to and if your company uses Azure Active Directory, check to make sure the correct tenant is selected in the top right corner. 
-
-If you’re still unable to see your agreement, it could be due to a caching issue. Try signing in on a private browser.

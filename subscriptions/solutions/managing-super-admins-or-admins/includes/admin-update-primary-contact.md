@@ -18,9 +18,11 @@ As the new primary contact, there are a few steps you need to complete to update
 
 1. Contact your reseller and let them know you're the new primary contact. They need to update the information on the contract.
 2. Wait 48 hours for the portal to update and grant you the appropriate permissions.
-3. After 48 hours, if you're don't see your super admin permissions, contact support by selecting **Online support** and submit a ticket. Include the agreement number and email address to be assigned.
+3. After 48 hours, if you don't see your super admin permissions, contact support by selecting **Online request** below and submit a ticket. Include the agreement number and email address to be assigned.
     
 ## How can I update the primary contact on the admin portal?
 After you update your primary contact information, sign into the admin portal and confirm the previous primary contact is no longer listed. Ensure you have at least two current super admins who can remove the primary contact who has left.
-> [!Important]
+
+> [!IMPORTANT] 
+>
 > By design, there must always be **two** super admins on the agreement.
