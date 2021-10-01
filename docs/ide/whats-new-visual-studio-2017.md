@@ -2,7 +2,7 @@
 title: "What's new in Visual Studio 2017"
 titleSuffix: ""
 description: "Learn about the new features in Visual Studio 2017."
-ms.date: 12/18/2018
+ms.date: 10/01/2021
 f1_keywords:
   - "VS.StartPage.WhatsNew"
 helpviewer_keywords:
