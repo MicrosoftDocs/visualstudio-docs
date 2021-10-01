@@ -1,8 +1,8 @@
 ---
-title: "Visual Studio docs: What's new for August 2021"
+title: "Visual Studio docs: What's new for September 2021"
 titleSuffix: ""
-description: "What's new in the Visual Studio docs for August 2021."
-ms.date: 09/16/2021
+description: "What's new in the Visual Studio docs for September 2021."
+ms.date: 10/01/2021
 helpviewer_keywords:
   - "Visual Studio, what's new, docs"
   - "what's new [Visual Studio]"
@@ -17,11 +17,128 @@ ms.workload:
   - "multiple"
 ---
 
-# Visual Studio docs: What's new for August 2021
+# Visual Studio docs: What's new for September 2021
 
-Welcome to what's new in the Visual Studio docs for August 2021. This article lists some of the major changes to docs during this period. For information about what was new in previous months, see the [what's new history](#whats-new-history) section.
+Welcome to what's new in the Visual Studio docs for September 2021. This article lists some of the major changes to docs during this period. For information about what was new in previous months, see the [what's new history](#whats-new-history) section.
 
-## Containers
+## Code quality
+
+**Updated articles**
+
+- [Migrate from legacy analysis (FxCop) to source analysis (.NET analyzers)](../code-quality/migrate-from-legacy-analysis-to-net-analyzers.md) - Additional instructions to disable legacy code analysis
+
+## Debugger
+
+**Updated articles**
+
+- [First look at the Visual Studio Debugger](../debugger/debugger-feature-tour.md) - Content performance updates for debugging, diagnostics, and deployment
+- [Configure Windows Firewall for remote debugging](../debugger/configure-the-windows-firewall-for-remote-debugging.md) - Remote debugger updates for VS 2022
+- [Remote Debugger Port Assignments](../debugger/remote-debugger-port-assignments.md) - Remote debugger updates for VS 2022
+
+## Deployment
+
+**New articles** 
+
+- [Deploy your application to Azure using GitHub Actions workflows created by Visual Studio](../deployment/azure-deployment-using-github-actions.md) - New article created
+
+**Updated articles**
+
+- [First look at deployment in Visual Studio](../deployment/deploying-applications-services-and-components.md) - Content performance updates for debugging, diagnostics, and deployment
+- [Deploy your application to Azure using GitHub Actions workflows created by Visual Studio](../deployment/azure-deployment-using-github-actions.md)
+  - Remote debugger updates for VS 2022
+  - Edit pass on GitHub Actions CI/CD Publish
+  - Initial commit of the new How-To guide for VS and GitHub Actions
+
+## Extensibility
+
+**New articles**
+
+- [How to: Create the ATOM feed (VsixFeed) for Visual Studio Private Galleries using VsixUtil](../extensibility/how-to-create-vsix-feed-for-private-gallery.md) - New article created
+
+**Updated articles**
+
+- [Create a software development kit](../extensibility/creating-a-software-development-kit.md)
+  - UWP Extension SDKs must list Toolbox items in SdkManifest.xml starting in VS 2022
+
+## Get started
+
+**New articles**
+
+- [Tutorial: Open a project from a repo](../get-started/tutorial-open-project-from-repo.md) - New article created
+
+## IDE
+
+**Updated articles**
+- [Features of Visual Studio](./advanced-feature-overview.md) - Update Source Control section
+- [Keyboard shortcuts in Visual Studio](./default-keyboard-shortcuts-in-visual-studio.md) - TOC's for 3 sections and ABC order
+- [What's new in Visual Studio 2022 (Preview)](./whats-new-visual-studio-2022.md) - Revise heading hierarchy, rearrange info, and add animated GIFs
+- [How to: Change the build output directory](./how-to-change-the-build-output-directory.md)
+  - Review and update as needed for Visual Studio 2022 Preview
+  - Update build configurations article for Dev17
+- [How to: Configure projects to target platforms](./how-to-configure-projects-to-target-platforms.md) - Review and update as needed for Visual Studio 2022 Preview
+- [Learn about Solution Explorer](./use-solution-explorer.md) - Add Solution Explorer context menu info
+
+## Install
+
+**Updated articles**
+
+- [Advanced example for containers](../install/advanced-build-tools-container.md)
+  - Add start /wait command to fix github issue #6765
+  - Update how VS Build Tools is installed
+
+## JavaScript
+
+**New articles**
+
+- [JavaScript and TypeScript in Visual Studio 2022](../javascript/javascript-in-vs-2022.md) - New article created
+
+**Updated articles**
+- [Tutorial: Create an ASP.NET Core app with Vue in Visual Studio](../javascript/tutorial-asp-net-core-with-vue.md) - Drafted What's New in JavaScript and TypeScript in Visual Studio 2022
+
+## MSBuild
+
+**Updated articles**
+
+- [Property functions](../msbuild/property-functions.md)
+  - Improved Get...OfFileAbove descriptions
+
+## Vsto
+
+**New articles**
+
+- [Visual Studio Tools for Office Runtime](../vsto/visual-studio-tools-for-office-runtime.md) - New article created
+
+## XAML tools
+
+**Updated articles**
+
+- [XAML Hot Reload: Write and debug your WPF and UWP apps while they're running](../xaml-tools/xaml-hot-reload.md)
+  - update metadata and make minor edits to text
+  - update XAML Hot Reload intro section
+
+## Community contributors in September
+
+The following people contributed to the Visual Studio docs during this period. Thank you! Learn how to contribute by following the links under "Get involved" in the [what's new landing page](index.yml).
+
+- [GitHubPang](https://github.com/GitHubPang) (3)
+- [docscorp-jimlim](https://github.com/docscorp-jimlim) - Jim Lim (1)
+- [flcdrg](https://github.com/flcdrg) - David Gardiner (1)
+- [intel-rganesh](https://github.com/intel-rganesh) - Rakesh Ganesh (1)
+- [mcturn](https://github.com/mcturn) - Michael Turner (1)
+- [mhartkorn](https://github.com/mhartkorn) - Martin Hartkorn (1)
+- [tonyhallett](https://github.com/tonyhallett) - Tony Hallett (1)
+
+## What's new history
+
+The following sections provide the previous three months of what's new in the Visual Studio docs.
+
+* [August 2021](#august-2021)
+* [July 2021](#july-2021)
+* [June 2021](#june-2021)
+
+### August 2021
+
+#### Containers
 
 **Updated articles**
 
@@ -29,7 +146,7 @@ Welcome to what's new in the Visual Studio docs for August 2021. This article li
 - [Visual Studio Container Tools for Docker](../containers/overview.md) - Container Tools August
 - [Use the Containers window](../containers/view-and-diagnose-containers.md) - Container Tools August
 
-## Debugger
+#### Debugger
 
 **Updated articles**
 
@@ -39,19 +156,19 @@ Welcome to what's new in the Visual Studio docs for August 2021. This article li
 - [Attach to a process running on a Docker container](../debugger/attach-to-process-running-in-docker-container.md) - Updates for Linux Attach to Process scenarios
 - [Debug .NET Apps in WSL with Visual Studio](../debugger/debug-dotnet-core-in-wsl-2.md) - WSL debugging updates
 
-## Deployment
+#### Deployment
 
 **Updated articles**
 
 - [Publish an application to IIS by importing publish settings in Visual Studio](../deployment/tutorial-import-publish-settings-iis.md) - Refresh for WS 2019 and .NET 5
 
-## Extensibility
+#### Extensibility
 
 **Updated articles**
 
 - [Add a Language Server Protocol extension](../extensibility/adding-an-lsp-extension.md) - Update info on MiddleLayer in LSP Extension docs
 
-## IDE
+#### IDE
 
 **New articles**
 
@@ -66,13 +183,13 @@ Welcome to what's new in the Visual Studio docs for August 2021. This article li
 - [Tutorial: Get started with Visual Basic in Visual Studio](../get-started/visual-basic/tutorial-console.md) - add Git source control info to the VB console tutorial
 - [Create a console calculator in C++](/cpp/get-started/tutorial-console-cpp) - add Git info to the C++ Console Calculator tutorial
 
-## Install
+#### Install
 
 **Updated articles**
 
 - [Install Build Tools into a container](../install/build-tools-container.md) - Updates for Visual Studio 2022
 
-## JavaScript
+#### JavaScript
 
 **New articles**
 
@@ -84,7 +201,7 @@ Welcome to what's new in the Visual Studio docs for August 2021. This article li
 **Updated articles**
 - [JavaScript and TypeScript in Visual Studio # Required; page title displayed in search results. Include the brand. < 60 chars.](../javascript/index.yml) - Updating the index page with different links
 
-## Test
+#### Test
 
 **New articles**
 
@@ -93,24 +210,6 @@ Welcome to what's new in the Visual Studio docs for August 2021. This article li
 **Updated articles**
 
 - [Get started with unit testing](../test/getting-started-with-unit-testing.md) - Add C++ support & unit testing improvements to tutorial
-
-## Community contributors in August
-
-The following people contributed to the Visual Studio docs during this period. Thank you! Learn how to contribute by following the links under "Get involved" in the [what's new landing page](index.yml).
-
-- [GitHubPang](https://github.com/GitHubPang) (2)
-- [hyoshioka0128](https://github.com/hyoshioka0128) - Hiroshi Yoshioka (2)
-- [Beyhum](https://github.com/Beyhum) - Omar Beyhum (1)
-- [gearhead2k](https://github.com/gearhead2k) (1)
-- [walterlv](https://github.com/walterlv) - walterlv (1)
-
-## What's new history
-
-The following sections provide the previous three months of what's new in the Visual Studio docs.
-
-* [July 2021](#july-2021)
-* [June 2021](#june-2021)
-* [May 2021](#may-2021)
 
 ### July 2021
 
@@ -272,88 +371,3 @@ The following sections provide the previous three months of what's new in the Vi
 **New articles**
 
 - [Use design-time sample data with the XAML Designer in Visual Studio](../xaml-tools/xaml-design-time-sample-data.md) - New article created
-
-### May 2021
-
-#### Code quality
-
-**New articles**
-
-- [Code metrics - Cyclomatic complexity](../code-quality/code-metrics-cyclomatic-complexity.md) - Code metrics updates for cyclomatic complexity and depth of inheritance
-- [Code metrics - Depth of inheritance (DIT)](../code-quality/code-metrics-depth-of-inheritance.md) - Code metrics updates for cyclomatic complexity and depth of inheritance
-- [Code analysis FAQ](../code-quality/analyzers-faq.yml) - FAQ.md converted into yml
-- [Frequently asked questions about legacy FxCop and .NET analyzers](../code-quality/net-analyzers-faq.yml) - FAQ.md converted into yml
-
-**Updated articles**
-
-- [Suppress code analysis violations](../code-quality/in-source-suppression-overview.md) - Refactoring docs on suppression of CA rules
-
-#### Containers
-
-**New articles**
-
-- [Manage launch profiles for Docker Compose (Preview)](../containers/launch-profiles.md) - Container Tools - launch settings
-
-#### Debugger
-
-**New articles**
-
-- [Frequently Asked Questions for snapshot debugging in Visual Studio](../debugger/debug-live-azure-apps-faq.yml) - FAQ.md converted into yml
-- [FAQ - Find the debugging feature you need in Visual Studio](../debugger/find-your-debugging-task.yml) - FAQ.md converted into yml
-
-**Updated articles**
-
-- [Troubleshooting data breakpoint errors](../debugger/troubleshoot-data-breakpoint-errors.md) - Update troubleshooting data breakpoint errors doc
-
-#### IDE
-
-**Updated articles**
-
-- [/ResetSettings (devenv.exe)](./reference/resetsettings-devenv-exe.md) - More fixes
-- [Quickstart: Create your first Node.js app with Visual Studio](./quickstart-nodejs.md) - Suggested edits
-
-#### Install
-
-**Updated articles**
-
-- [Update Visual Studio using a minimal offline layout](../install/update-minimal-layout.md)
-  - Add multiple products examples to MinLayout docs
-  - Reflect removal of of --productId in VS 2017 docs and all examples
-  - Reflect removal of '--productIds' option in MinimalLayout docs
-- [Modify Visual Studio workloads, components, and language packs](../install/modify-visual-studio.md) - Simplify instructions for performance
-
-#### MSBuild
-
-**New articles**
-
-- [MSB8006: The Platform for project 'project-name.vcxproj' is invalid.](../msbuild/errors/msb8006.md) - Update MSB8xxx F1 content
-- [MSB8013: This project doesn't contain the Configuration and Platform combination specified.](../msbuild/errors/msb8013.md) - Update MSB8xxx F1 content
-- [MSB8027: Two or more files with the name of filename will produce outputs to the same location.](../msbuild/errors/msb8027.md) - Update MSB8xxx F1 content
-- [MSB8037: The Windows SDK version for Desktop C++ Apps wasn't found.](../msbuild/errors/msb8037.md) - Update MSB8xxx F1 content
-- [MSB8042: ATL or MFC libraries with Spectre Mitigations are required for this project.](../msbuild/errors/msb8042.md) - Update MSB8xxx F1 content
-- [MSB3721: The command 'command' exited with code 'error-code'](../msbuild/errors/msb3721.md) - MSBuild error pages
-- [MSB3821: Couldn't process file 'path' due to its being in the Internet or Restricted zone or having the mark of the web on the file](../msbuild/errors/msb3821.md) - MSBuild error pages
-
-**Updated articles**
-
-- [MSBuild conditions](../msbuild/msbuild-conditions.md) - MSBuild version comparisons
-- [Property functions](../msbuild/property-functions.md) - MSBuild version comparisons
-
-#### Python
-
-**Updated articles**
-
-- [Step 2: Create a Django app with views and page templates](../python/learn-django-in-visual-studio-step-02-create-an-app.md) - Separated Visual Studio 2017 and 2019 information
-- [Create a C++ extension for Python](../python/working-with-c-cpp-python-in-visual-studio.md) - Article reviewed and updated
-
-#### Test
-
-**New articles**
-
-- [Live Unit Testing frequently asked questions](../test/live-unit-testing-faq.yml) - FAQ.md converted into yml
-
-#### XAML tools
-
-**New articles**
-
-- [Use design-time sample data with the XAML Designer in Visual Studio](../xaml-tools/xaml-design-time-sample-data.md) - Added XAML Design-time Sample Data Documentation
