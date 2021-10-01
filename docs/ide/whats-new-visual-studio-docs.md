@@ -113,8 +113,8 @@ Welcome to what's new in the Visual Studio docs for September 2021. This article
 **Updated articles**
 
 - [XAML Hot Reload: Write and debug your WPF and UWP apps while they're running](../xaml-tools/xaml-hot-reload.md)
-  - update metadata and make minor edits to text
-  - update XAML Hot Reload intro section
+  - Update metadata and make minor edits to text
+  - Update XAML Hot Reload intro section
 
 ## Community contributors in September
 
