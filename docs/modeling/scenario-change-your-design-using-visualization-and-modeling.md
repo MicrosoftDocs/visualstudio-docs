@@ -215,7 +215,7 @@ See:
 
 - [Charts, dashboards, and widgets (Azure DevOps Services)](/azure/devops/report/dashboards/overview?view=vsts&preserve-view=true)
 
-- [Create your backlog and tasks using Project](/azure/devops/boards/backlogs/office/create-your-backlog-tasks-using-project)
+- [Create your backlog and tasks using Project](/azure/devops/boards/backlogs/create-your-backlog)
 
 ### <a name="TestValidateCheckInCode"></a> Test, Validate, and Check In Code
 
