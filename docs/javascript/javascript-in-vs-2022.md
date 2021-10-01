@@ -44,6 +44,6 @@ The TypeScript SDK has been deprecated in Visual Studio 2022. Existing projects 
 
 ## Project Templates 
 
-Starting in Visual Studio 2022, there is a new JavaScript/TypeScript project type (.esproj) that allows you to create standalone Angular, React, and Vue projects in Visual Studio. The projects are created using the framework CLI tools you have installed on your local machine, so the version of the template is up to you.  
+Starting in Visual Studio 2022, there is a new JavaScript/TypeScript project type (.esproj) that allows you to create standalone Angular, React, and Vue projects in Visual Studio. The front-end projects are created using the framework CLI tools you have installed on your local machine, so the version of the template is up to you.  
 
 Within these new projects, you will be able to run JavaScript and TypeScript unit tests, easily add and connect ASP.NET Core API projects and download your npm modules using the npm manager. Check out some of the quickstarts and tutorials to get started. If you want more information, you can read about them in this [blog post](https://devblogs.microsoft.com/visualstudio/the-new-javascript-typescript-experience-in-vs-2022-preview-3/).

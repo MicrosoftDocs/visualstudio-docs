@@ -2,7 +2,7 @@
 title: "Manage npm packages"
 description: Visual Studio helps you to manage packages using the Node.js package manager (npm)
 ms.custom: "seodec18"
-ms.date: "02/23/2021"
+ms.date: "10/1/2021"
 ms.topic: "how-to"
 ms.devlang: javascript
 author: "mikejo5000"
@@ -17,15 +17,38 @@ ms.workload:
 
 # Manage npm packages in Visual Studio
 
-npm allows you to install and manage packages for use in your Node.js applications. Visual Studio makes it easy to interact with npm and issue npm commands through the UI or directly. If you're unfamiliar with npm and want to learn more, go to the [npm documentation](https://docs.npmjs.com/).
+npm allows you to install and manage packages for use in both Node.js and ASP.NET Core applications. Visual Studio makes it easy to interact with npm and issue npm commands through the UI or directly. If you're unfamiliar with npm and want to learn more, go to the [npm documentation](https://docs.npmjs.com/).
 
 Visual Studio integration with npm is different depending on your project type.
+::: moniker range=">=vs-2022"
+* [CLI-based projects (.esproj)](#cli-based-project-(.esproj))
 * [Node.js](#nodejs-projects)
 * [ASP.NET Core](#aspnet-core-projects)
 * [Open folder (Node.js)](../javascript/develop-javascript-code-without-solutions-projects.md)
+::: moniker-end
+
+::: moniker range="<=vs-2019"
+* [Node.js](#nodejs-projects)
+* [ASP.NET Core](#aspnet-core-projects)
+* [Open folder (Node.js)](../javascript/develop-javascript-code-without-solutions-projects.md)
+::: moniker-end
 
 > [!Important]
 > npm expects the *node_modules* folder and *package.json* in the project root. If your app's folder structure is different, you should modify your folder structure if you want to manage npm packages using Visual Studio.
+
+::: moniker range=">=vs-2022"
+## CLI-based project (.esproj)
+
+Starting in Visual Studio 2022 Preview 4, the npm package manager is available for CLI-based projects, so you can now download npm modules similarly to the way you download NuGet packages for ASP.NET Core projects. Then you can use *package.json* to modify and delete packages.
+
+To open the package manager, from Solution Explorer, right-click the **npm** node in your project.
+
+:::image type="content" source="../javascript/media/vs-2022/npm-packages-open-manager-esproj.png" alt-text="Install new npm package from solution explorer" border="true":::
+
+Next, you can search for npm packages, select one, and install by selecting **Install Package**. 
+
+:::image type="content" source="../javascript/media/vs-2022/npm-packages-install-esproj.png" alt-text="Install new npm package from solution explorer" border="true":::
+::: moniker-end
 
 ## Node.js projects
 
