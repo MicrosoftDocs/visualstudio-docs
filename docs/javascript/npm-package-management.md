@@ -21,7 +21,7 @@ npm allows you to install and manage packages for use in both Node.js and ASP.NE
 
 Visual Studio integration with npm is different depending on your project type.
 ::: moniker range=">=vs-2022"
-* [CLI-based projects (.esproj)](#cli-based-project-(.esproj))
+* [CLI-based projects (.esproj)](#cli-based-project-esproj)
 * [Node.js](#nodejs-projects)
 * [ASP.NET Core](#aspnet-core-projects)
 * [Open folder (Node.js)](../javascript/develop-javascript-code-without-solutions-projects.md)
@@ -43,11 +43,11 @@ Starting in Visual Studio 2022 Preview 4, the npm package manager is available f
 
 To open the package manager, from Solution Explorer, right-click the **npm** node in your project.
 
-:::image type="content" source="../javascript/media/vs-2022/npm-packages-open-manager-esproj.png" alt-text="Install new npm package from solution explorer" border="true":::
+:::image type="content" source="../javascript/media/vs-2022/npm-packages-open-manager-esproj.png" alt-text="Open package manager from Solution Explorer" border="true":::
 
 Next, you can search for npm packages, select one, and install by selecting **Install Package**. 
 
-:::image type="content" source="../javascript/media/vs-2022/npm-packages-install-esproj.png" alt-text="Install new npm package from solution explorer" border="true":::
+:::image type="content" source="../javascript/media/vs-2022/npm-packages-install-esproj.png" alt-text="Install new npm package from Solution Explorer" border="true":::
 ::: moniker-end
 
 ## Node.js projects
