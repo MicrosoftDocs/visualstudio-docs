@@ -47,7 +47,7 @@ To open the package manager, from Solution Explorer, right-click the **npm** nod
 
 Next, you can search for npm packages, select one, and install by selecting **Install Package**. 
 
-:::image type="content" source="../javascript/media/vs-2022/npm-packages-install-esproj.png" alt-text="Install new npm package from Solution Explorer" border="true":::
+:::image type="content" source="../javascript/media/vs-2022/npm-packages-install-esproj.png" alt-text="Install new npm package for esproj" border="true":::
 ::: moniker-end
 
 ## Node.js projects
@@ -70,7 +70,7 @@ You need the **Node.js development** workload and the Node.js runtime installed 
 
 For Node.js projects, the easiest way to install npm packages is through the npm package installation window. To access this window, right-click the **npm** node in the project and select **Install New npm Packages**.
 
-:::image type="content" source="../javascript/media/solution-explorer-install-package.png" alt-text="Install new npm package from solution explorer" border="true":::
+:::image type="content" source="../javascript/media/solution-explorer-install-package.png" alt-text="Install new npm package for Node.js" border="true":::
 
 In this window you can search for a package, specify options, and install.
 
