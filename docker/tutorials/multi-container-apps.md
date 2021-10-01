@@ -151,6 +151,7 @@ With all of that explained, start your dev-ready container!
 
     ```bash hl_lines="3 4 5 6 7"
     docker run -dp 3000:3000 \
+      --network todo-app \
       -w /app -v ${PWD}:/app \
       --network todo-app \
       -e MYSQL_HOST=mysql \
