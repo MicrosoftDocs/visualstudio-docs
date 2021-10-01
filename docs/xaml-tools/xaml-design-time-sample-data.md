@@ -28,10 +28,10 @@ The feature supports Windows desktop projects that target WPF for .NET Core or .
 The Sample Data feature is for design-time visualization only. It appears only in the XAML designer, not in the running app. As such, it's applied to the design-time version of the `ItemsSource` property `d:ItemsSource`. 
 Sample data needs the design-time namespace to work. 
 
-To get started, add the following lines of code to the header of your XAML document if they aren't already present:
-
 > [!NOTE]
-> Visit [XAML design-time properties](../xaml-tools/xaml-designtime-data.md) to learn more about design-time properties in XAML.
+> To learn more about design-time properties in XAML, see [XAML design-time properties](../xaml-tools/xaml-designtime-data.md).
+
+To get started, add the following lines of code to the header of your XAML document if they aren't already present:
 
 ```xml
 xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
@@ -53,9 +53,9 @@ By default, five items are displayed. However, you can use the `ItemCount` prope
 
 ## Sample data with data templates
 
-The Sample Data feature works for `ListBox`, `ListView`, or `DataGrid` controls when you use data templates. The feature will analyze the `DataTemplate` control and try to generate the appropriate data for it. Sample data will be generated only for elements in data templates that use bindings. 
+The Sample Data feature works for `ListBox`, `ListView`, or `DataGrid` controls when you use data templates. The feature will analyze the `DataTemplate` control and try to generate the appropriate data for it. 
 
-Sample data will be generated even if the bindings don't have a source yet. For example:
+Sample data will be generated only for elements in data templates that use bindings. Sample data will be generated even if the bindings don't have a source yet. For example:
 
 ```xml
 <ListView d:ItemsSource="{d:SampleData ItemCount=3}">
