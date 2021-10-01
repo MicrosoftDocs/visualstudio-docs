@@ -5,7 +5,7 @@ author: TerryGLee
 ms.author: tglee
 manager: jmartens
 ms.technology: vs-ide-general
-ms.date: 11/21/2019
+ms.date: 02/24/2021
 ms.topic: conceptual
 helpviewer_keywords:
 - editor
