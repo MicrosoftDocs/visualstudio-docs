@@ -2,7 +2,7 @@
 title: Advanced features
 description: Learn about the advanced features that might be more appropriate for experienced developers, or those developers who are already familiar with Visual Studio.
 ms.custom: vs-acquisition
-ms.date: 09/30/2021
+ms.date: 10/01/2021
 ms.topic: conceptual
 author: TerryGLee
 ms.author: tglee
