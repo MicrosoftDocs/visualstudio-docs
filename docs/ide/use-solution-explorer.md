@@ -1,7 +1,7 @@
 ---
 title: Learn about Solution Explorer
 description: Learn how you can use the Solution Explorer tool window in Visual Studio to create & manage your files, projects, and solutions.
-ms.date: 09/23/2021
+ms.date: 09/30/2021
 ms.topic: conceptual
 ms.custom: contperf-fy22q1
 f1_keywords:
@@ -53,7 +53,7 @@ The menu bar contains the following UI elements, from left to right:
 - **Back** button, to toggle between search results
 - **Forward** button, to toggle between search results
 - **Home** button, to return to the default view
-- **Switch** button, to switch between solutions and available views
+- **Switch Views** button, to switch between solutions and available views
 - **Pending Changes Filter** button & drop-down menu, to view open files or files with pending changes
 - **Sync with Active Document** button, to locate a file from the code editor
 - **Refresh** button, which appears only when you select a dependency, such as a function or a package
