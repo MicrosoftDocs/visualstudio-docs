@@ -2,7 +2,7 @@
 title: How to add an app.config file to a project
 description: Learn how to add an app.config file to a C# project so you can customize how the common language runtime locates and loads assembly files.
 ms.custom: SEO-VS-2020
-ms.date: 11/04/2016
+ms.date: 11/20/2020
 ms.topic: how-to
 dev_langs:
 - CSharp

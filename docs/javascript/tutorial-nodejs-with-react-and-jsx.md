@@ -26,6 +26,11 @@ In this tutorial, you learn how to:
 > * Transpile JSX
 > * Attach the debugger
 
+::: moniker range=">=vs-2022"
+> [!IMPORTANT]
+> Starting in Visual Studio 2022, you can alternatively [create a React project](../javascript/tutorial-create-react-app.md) using the new [.esproj project type](https://devblogs.microsoft.com/visualstudio/the-new-javascript-typescript-experience-in-vs-2022-preview-3/). The instructions in this tutorial include some information that applies only to the Node.js project type (.njsproj).
+::: moniker-end
+
 Before you begin, here's a quick FAQ to introduce you to some key concepts:
 
 - **What is Node.js?**
