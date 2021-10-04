@@ -82,7 +82,7 @@ Cookiecutter options are available through **Tools** > **Options** > **Cookiecut
 
 ## Optimize Cookiecutter templates for Visual Studio
 
-For the basics of authoring a Cookiecutter template, see the [Cookiecutter documentation](https://cookiecutter.readthedocs.io/en/latest/first_steps.html). The Cookiecutter extension for Visual Studio supports templates created for Cookiecutter v1.4.
+For the basics of authoring a Cookiecutter template, see the [Cookiecutter documentation](https://cookiecutter.readthedocs.io/en/latest/). The Cookiecutter extension for Visual Studio supports templates created for Cookiecutter v1.4.
 
 The default rendering of template variables depends on the type of data (string or list):
 
